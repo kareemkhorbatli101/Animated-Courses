@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "which warning",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    436.2,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The light on my car has been on since",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1167.0,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "March.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    757.5,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "why you ignore it",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    485.0,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I know what it means and I know.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1104.0,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what would change it",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    553.6,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If it makes a sound one day.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1034.4,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the reflection in three steps -- which warning, why you ignore it, what would change it -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "a087b6bfb5c2bd258097b44e4f839b06b01a4f555fdf10cfcfd95819422652bc"
+}

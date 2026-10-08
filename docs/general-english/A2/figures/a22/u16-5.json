@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  51.0,
+  26.3,
+  1389.0,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    51.8,
+    97.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Modern",
+   "size": 30,
+   "bbox": [
+    146.5,
+    208.5,
+    275.0,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    51.8,
+    436.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Century",
+   "size": 30,
+   "bbox": [
+    483.4,
+    208.5,
+    617.1,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    51.8,
+    776.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Childhood",
+   "size": 30,
+   "bbox": [
+    805.0,
+    208.5,
+    974.5,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    51.8,
+    1115.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Record",
+   "size": 30,
+   "bbox": [
+    1170.2,
+    208.5,
+    1288.3,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    78.6,
+    300.8,
+    97.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Engine",
+   "size": 30,
+   "bbox": [
+    153.1,
+    457.5,
+    268.4,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6",
+   "size": 27,
+   "bbox": [
+    418.1,
+    300.8,
+    436.9,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Camera",
+   "size": 30,
+   "bbox": [
+    485.8,
+    457.5,
+    614.7,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7",
+   "size": 27,
+   "bbox": [
+    757.6,
+    300.8,
+    776.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Nowadays",
+   "size": 30,
+   "bbox": [
+    803.8,
+    457.5,
+    975.7,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 7,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The seven words of Column A as numbered picture cards: modern, century, childhood, record, engine, camera, nowadays, each with the thing it means drawn beside its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "74093bc34d760c013dda89067dc15e992a25ff522c612d4f35dac2bd6c0cee42"
+}

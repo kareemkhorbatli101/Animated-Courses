@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  349
+ ],
+ "bounds": [
+  67,
+  17.3,
+  1373,
+  331.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    80.4,
+    143.1,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a clear opinion",
+   "size": 30,
+   "bbox": [
+    190,
+    82.0,
+    440.5,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Write it down, and I say that as somebody",
+   "size": 26,
+   "bbox": [
+    670,
+    67.3,
+    1219.4,
+    91.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "who.",
+   "size": 26,
+   "bbox": [
+    670,
+    97.3,
+    731.5,
+    121.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    243.4,
+    143.1,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two or three reasons",
+   "size": 30,
+   "bbox": [
+    190,
+    245.0,
+    543.7,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A rule nobody wrote is a rule you learn by.",
+   "size": 26,
+   "bbox": [
+    670,
+    245.3,
+    1219.9,
+    269.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the opinion paragraph in two steps -- a clear opinion, two or three reasons -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "fb328e90317f3ee691bd23b4e2cc5f18934f1d3ceccdede33fd7f49563c21178"
+}

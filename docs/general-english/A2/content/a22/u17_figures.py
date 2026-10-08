@@ -45,12 +45,15 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: factory, '
             'material, metal, plastic, wool, recycle, waste, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('Somebody makes it', 'makes'),
+         ('It is made', 'is'),
+         ('They changed the buttons', 'changed'),
+         ('The buttons were changed', 'were')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: makes, is, changed, were. The little word is the '
+            'whole grammar and it is the quietest part of the line.'),
 
  7: lambda: F.category_set(
         [('A bottle', 'bottle'), ('A coat', 'coat'),

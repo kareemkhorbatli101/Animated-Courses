@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  51.0,
+  26.3,
+  1389.0,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    51.8,
+    97.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Storm",
+   "size": 30,
+   "bbox": [
+    159.4,
+    208.5,
+    262.1,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    51.8,
+    436.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Shower",
+   "size": 30,
+   "bbox": [
+    487.0,
+    208.5,
+    613.5,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    51.8,
+    776.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Temperature",
+   "size": 30,
+   "bbox": [
+    781.9,
+    208.5,
+    997.6,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    51.8,
+    1115.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Fog",
+   "size": 30,
+   "bbox": [
+    1198.6,
+    208.5,
+    1259.9,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    78.6,
+    300.8,
+    97.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Freeze",
+   "size": 30,
+   "bbox": [
+    154.8,
+    457.5,
+    266.7,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6",
+   "size": 27,
+   "bbox": [
+    418.1,
+    300.8,
+    436.9,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Flood",
+   "size": 30,
+   "bbox": [
+    503.5,
+    457.5,
+    597.0,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7",
+   "size": 27,
+   "bbox": [
+    757.6,
+    300.8,
+    776.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Wind",
+   "size": 30,
+   "bbox": [
+    846.6,
+    457.5,
+    932.9,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 7,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The seven words of Column A as numbered picture cards: storm, shower, temperature, fog, freeze, flood, wind, each with the thing it means drawn beside its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "72d585b57b825531b6afef59e41ce0fac8c5919fa1d2c4f587f35e891802c14c"
+}

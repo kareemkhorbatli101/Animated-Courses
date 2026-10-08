@@ -71,13 +71,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "said she had not seen a van",
-   "size": 26,
+   "text": "said she had not seen a",
+   "size": 28,
    "bbox": [
-    976.9,
-    246.4,
-    1343.1,
+    993.0,
+    245.6,
+    1327.0,
     270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "van",
+   "size": 28,
+   "bbox": [
+    1134.3,
+    277.6,
+    1185.7,
+    302.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -95,13 +107,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "said somebody had told him",
-   "size": 26,
+   "text": "said somebody had told",
+   "size": 28,
    "bbox": [
-    95.4,
-    526.4,
-    464.6,
+    112.1,
+    525.6,
+    447.9,
     550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "him",
+   "size": 28,
+   "bbox": [
+    253.6,
+    557.6,
+    306.4,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -119,13 +143,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "said one sentence, a week later",
-   "size": 22,
+   "text": "said one sentence, a week",
+   "size": 28,
    "bbox": [
-    544.7,
-    529.5,
-    895.3,
-    549.5
+    533.6,
+    525.6,
+    906.4,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "later",
+   "size": 28,
+   "bbox": [
+    687.7,
+    557.6,
+    752.3,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -176,5 +212,5 @@
   6.260416666666667,
   2.65625
  ],
- "sha256": "5e8203064413b45536360966f605df57e1df4b40cb2f227f47c4483487609fab"
+ "sha256": "d4b95e8cd25094e2f52c5d5ad08cc25c1dd068495129b32380728b2a68419d9b"
 }

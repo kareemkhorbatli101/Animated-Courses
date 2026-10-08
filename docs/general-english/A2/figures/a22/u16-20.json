@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the market moved",
+   "size": 26,
+   "bbox": [
+    225.5,
+    281.6,
+    494.5,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the market is still",
+   "size": 26,
+   "bbox": [
+    950.6,
+    281.6,
+    1209.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "a8a4434f6235cd8d6e76b9792680198222b1cd499bafd0ba77e0bfbe06db8dc7"
+}

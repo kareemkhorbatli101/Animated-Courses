@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "diary",
+   "size": 28,
+   "bbox": [
+    134.9,
+    287.7,
+    215.5,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "booking",
+   "size": 28,
+   "bbox": [
+    384.2,
+    287.7,
+    511.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "meeting",
+   "size": 28,
+   "bbox": [
+    654.9,
+    287.7,
+    785.1,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "invite",
+   "size": 28,
+   "bbox": [
+    947.5,
+    287.7,
+    1037.3,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "host",
+   "size": 28,
+   "bbox": [
+    1230.2,
+    287.7,
+    1299.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "party",
+   "size": 28,
+   "bbox": [
+    133.0,
+    608.7,
+    217.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "holiday",
+   "size": 28,
+   "bbox": [
+    390.3,
+    608.7,
+    504.9,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "remind",
+   "size": 28,
+   "bbox": [
+    664.2,
+    608.7,
+    775.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "prepare",
+   "size": 28,
+   "bbox": [
+    930.1,
+    608.7,
+    1054.7,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hotel",
+   "size": 28,
+   "bbox": [
+    1224.2,
+    608.7,
+    1305.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 11 as picture cards on one page: diary, booking, meeting, invite, host, party, holiday, remind, prepare, hotel.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "4fcc078409de5f24221f17ed8172dd69fb6d1bc84014a28f57d984e52163acdc"
+}

@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "booking",
+   "size": 30,
+   "bbox": [
+    143.6,
+    209.4,
+    279.4,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "meeting",
+   "size": 30,
+   "bbox": [
+    480.8,
+    209.4,
+    620.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "host",
+   "size": 30,
+   "bbox": [
+    852.4,
+    209.4,
+    926.6,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "remind",
+   "size": 30,
+   "bbox": [
+    1168.7,
+    209.4,
+    1288.3,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "holiday",
+   "size": 30,
+   "bbox": [
+    150.1,
+    427.4,
+    272.9,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "am meeting",
+   "size": 30,
+   "bbox": [
+    449.8,
+    427.4,
+    651.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "am going to",
+   "size": 30,
+   "bbox": [
+    788.2,
+    427.4,
+    990.8,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "junction",
+   "size": 30,
+   "bbox": [
+    1159.8,
+    427.4,
+    1297.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: booking, meeting, host, remind, holiday, am meeting, am going to, junction.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "81249680ab29415b226c5a1a5c2da4566f7115f4afcf0482502a113d8e2e7aa3"
+}

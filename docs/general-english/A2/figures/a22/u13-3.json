@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "silence",
+   "size": 30,
+   "bbox": [
+    152.4,
+    258.6,
+    270.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "smoking",
+   "size": 30,
+   "bbox": [
+    479.1,
+    258.6,
+    621.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "uniform",
+   "size": 30,
+   "bbox": [
+    823.1,
+    258.6,
+    955.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "member",
+   "size": 30,
+   "bbox": [
+    1158.8,
+    258.6,
+    1298.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: silence, smoking, uniform, member.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "f350dd62198ee72cae3dd324f099b016d0a3a9eeee96123703cc0bf35a092ddd"
+}

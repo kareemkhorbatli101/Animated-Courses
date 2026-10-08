@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the description others use",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    636.8,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am the one who is always carrying",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1138.3,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "something.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    815.9,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "whether it is fair",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    472.7,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A chair, a plant, a box of books.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1082.2,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how it started",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    428.6,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Nobody has ever seen me walk down this",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1212.0,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "street.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    754.3,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the reflection in three steps -- the description others use, whether it is fair, how it started -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "80cd1abc9ae520e9b39e8088262793f5754de296a227430ec5d01f8e9c18e0c4"
+}

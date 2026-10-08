@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "who runs the",
+   "size": 28,
+   "bbox": [
+    111.6,
+    60.9,
+    318.9,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "which goes to the",
+   "size": 28,
+   "bbox": [
+    411.2,
+    60.9,
+    692.3,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "where I live",
+   "size": 28,
+   "bbox": [
+    796.3,
+    60.9,
+    980.2,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "that sells bread",
+   "size": 28,
+   "bbox": [
+    1100.5,
+    60.9,
+    1349.0,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "person",
+   "size": 34,
+   "bbox": [
+    198.0,
+    202.2,
+    330.0,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "thing",
+   "size": 34,
+   "bbox": [
+    669.7,
+    202.2,
+    770.3,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "place",
+   "size": 34,
+   "bbox": [
+    1124.9,
+    202.2,
+    1227.1,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four phrases of this task as chips above three empty bins -- person, thing and place. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "0d6fef8a6f902e48ed8843a608436157e94d5ae926cf32da6f173cccb76e9f85"
+}

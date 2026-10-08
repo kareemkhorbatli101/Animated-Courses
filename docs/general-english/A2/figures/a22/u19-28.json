@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "where at least once",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    523.6,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The corner where the two roads meet.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1169.2,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what happens there",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    529.8,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is nothing there.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    966.3,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one thing that changed",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    586.8,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There was a postbox, which went about.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1195.1,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the message in three steps -- where at least once, what happens there, one thing that changed -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "3c0a4594b0228ec4ed7d3be69afa02aec527ec1956592465367d8b6aa395f2e3"
+}

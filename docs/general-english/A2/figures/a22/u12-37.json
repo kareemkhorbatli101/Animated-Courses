@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the river",
+   "size": 28,
+   "bbox": [
+    155.2,
+    331.2,
+    291.8,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the shop door",
+   "size": 28,
+   "bbox": [
+    444.5,
+    331.2,
+    664.5,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "books moved up",
+   "size": 28,
+   "bbox": [
+    756.0,
+    331.2,
+    1015.0,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the fourth floor",
+   "size": 28,
+   "bbox": [
+    1094.8,
+    331.2,
+    1338.2,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The winter the river came up, drawn through number 14: the river itself, the shop door where Amina lost two days of trade and a freezer, the books Maya moved up and felt silly about on Monday, and the fourth floor that lost nothing at all.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "b64349f029b98937252d739d3f2ec743426b8839bfffd4cd21fd5cb5e9d58639"
+}

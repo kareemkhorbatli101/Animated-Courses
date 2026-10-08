@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what you own",
+   "size": 28,
+   "bbox": [
+    72.8,
+    272.0,
+    292.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    570.8,
+    128.5,
+    591.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what it is made of",
+   "size": 28,
+   "bbox": [
+    438.8,
+    272.0,
+    723.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1102.0,
+    128.5,
+    1122.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "how it was made",
+   "size": 28,
+   "bbox": [
+    979.5,
+    272.0,
+    1245.3,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: what the thing is, what it is made of, and how it was made.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "b780a3a1686cbfa935116c78ca601fd23dbd531f52b275a7a21fe241258570d7"
+}

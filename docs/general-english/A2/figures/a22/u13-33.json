@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    48.2,
+    525.4,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask why, not whether",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    477.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say you were not told",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    479.9,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you think of it",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    511.1,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask one more",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    351.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 explaining",
+   "size": 34,
+   "bbox": [
+    877.8,
+    48.2,
+    1262.2,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give the reason in one",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1191.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "sentence",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    981.5,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "admit what you do not",
+   "size": 28,
+   "bbox": [
+    838.0,
+    234.9,
+    1195.5,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "know",
+   "size": 28,
+   "bbox": [
+    838.0,
+    268.9,
+    921.7,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not defend the",
+   "size": 28,
+   "bbox": [
+    838.0,
+    320.9,
+    1121.6,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "system",
+   "size": 28,
+   "bbox": [
+    838.0,
+    354.9,
+    951.1,
+    379.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "agree where you agree",
+   "size": 28,
+   "bbox": [
+    838.0,
+    406.9,
+    1203.7,
+    431.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 asking: ask why, not whether, say you were not told, say what you think of it, ask one more. Card B \u2014 explaining: give the reason in one sentence, admit what you do not know, do not defend the system, agree where you agree.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "971e274ec563e7e0fe791506a382c487e9b734f7b0446b108ba9a8c26423e96b"
+}

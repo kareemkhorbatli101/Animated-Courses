@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "artist",
+   "size": 30,
+   "bbox": [
+    165.6,
+    258.6,
+    257.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "athlete",
+   "size": 30,
+   "bbox": [
+    489.9,
+    258.6,
+    611.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "builder",
+   "size": 30,
+   "bbox": [
+    829.5,
+    258.6,
+    949.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "singer",
+   "size": 30,
+   "bbox": [
+    1175.4,
+    258.6,
+    1281.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: artist, athlete, builder, singer.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "ac280b20fdbd737d051160feb362a3a82c2486d5b02306d0dad7727ded8178d4"
+}

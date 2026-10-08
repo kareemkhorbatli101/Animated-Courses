@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "You don\u2019t must touch it.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    515.0,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You mustn\u2019t touch it.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1174.0,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You don\u2019t must touch the",
+   "size": 28,
+   "bbox": [
+    134,
+    152.2,
+    533.7,
+    176.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "paintings.",
+   "size": 28,
+   "bbox": [
+    134,
+    186.2,
+    292.8,
+    210.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You mustn\u2019t pay, the gallery is",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    615.3,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "free.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    208.6,
+    318.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You have to showing your card at",
+   "size": 28,
+   "bbox": [
+    134,
+    367.2,
+    662.2,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the desk.",
+   "size": 28,
+   "bbox": [
+    134,
+    401.2,
+    281.0,
+    425.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "f75b00e3ac6167bb8e951481685ccc2cc84a4e601f0bcc50f43e8bc0f0023fa8"
+}

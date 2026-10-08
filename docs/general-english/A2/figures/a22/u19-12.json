@@ -11,13 +11,13 @@
  ],
  "texts": [
   {
-   "text": "the woman who runs the shop",
-   "size": 32,
+   "text": "the woman who runs the",
+   "size": 38,
    "bbox": [
-    97.0,
-    61.1,
-    643.0,
-    89.3
+    103.9,
+    56.4,
+    636.1,
+    89.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -116,5 +116,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "db320ccdf22bb33cb3f98460bea43117f202bd3be6f63653a9c11fa6652747d8"
+ "sha256": "bcc82ae58cd847a2745ca3b3720fa448d7dc7bf5f1f30f20622ed85a39655a5b"
 }

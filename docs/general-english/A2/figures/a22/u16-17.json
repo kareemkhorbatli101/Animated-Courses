@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    348.5,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You still use that?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    584.6,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    189.1,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have used it since I was fifteen.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    671.1,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    348.5,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It takes film.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    495.5,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    189.1,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There\u2019s still film in the shop on the corner.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    832.7,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Dani: You still use that? Maya: I have used it since I was fifteen. Dani: It takes film. Maya: There\u2019s still film in the shop on the corner.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "f658390894c46c58bc826c21934f7c592d25d79b759ad20720901a884ca10672"
+}

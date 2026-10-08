@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two things you can see",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    580.6,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A man is coming on Thursday about the",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1190.9,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "window.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    774.5,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one thing they do",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    490.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "He is tall, he has a grey van.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1041.5,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what to do",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    371.6,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "He will say he needs twenty minutes and he.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1254.9,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in three steps -- two things you can see, one thing they do, what to do -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "107f32de02b035b98af17cdc6030c185bf8f7e1069cd2bcf766d3c4e849bd4a2"
+}

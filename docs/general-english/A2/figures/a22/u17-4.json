@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  557
+  592
  ],
  "bounds": [
   74.0,
-  27.6,
+  29.4,
   1366.0,
-  529.3
+  563.1
  ],
  "texts": [
   {
@@ -15,21 +15,33 @@
    "size": 34,
    "bbox": [
     229.6,
-    184.1,
+    185.9,
     330.4,
-    214.5
+    216.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "makes small books by hand",
-   "size": 26,
+   "text": "makes small books by",
+   "size": 28,
    "bbox": [
-    99.3,
-    225.6,
-    460.7,
-    249.3
+    125.0,
+    226.6,
+    435.0,
+    251.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hand",
+   "size": 28,
+   "bbox": [
+    244.8,
+    258.6,
+    315.2,
+    283.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,21 +51,33 @@
    "size": 34,
    "bbox": [
     679.7,
-    184.1,
+    185.9,
     760.3,
-    214.5
+    216.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "has thrown four bowls away",
-   "size": 26,
+   "text": "has thrown four bowls",
+   "size": 28,
    "bbox": [
-    537.7,
-    225.6,
-    902.3,
-    249.3
+    565.0,
+    226.6,
+    875.0,
+    251.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "away",
+   "size": 28,
+   "bbox": [
+    683.1,
+    258.6,
+    756.9,
+    283.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +87,9 @@
    "size": 34,
    "bbox": [
     1099.7,
-    184.1,
+    185.9,
     1220.3,
-    214.5
+    216.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +99,9 @@
    "size": 28,
    "bbox": [
     1001.5,
-    224.8,
+    226.6,
     1318.5,
-    249.3
+    251.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -87,21 +111,33 @@
    "size": 34,
    "bbox": [
     161.0,
-    464.1,
+    465.9,
     399.0,
-    494.5
+    496.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "mends and buys almost nothing",
-   "size": 22,
+   "text": "mends and buys almost",
+   "size": 28,
    "bbox": [
-    102.7,
-    508.7,
-    457.3,
-    528.7
+    112.2,
+    506.6,
+    447.8,
+    531.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nothing",
+   "size": 28,
+   "bbox": [
+    226.5,
+    538.6,
+    333.5,
+    563.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -111,9 +147,9 @@
    "size": 34,
    "bbox": [
     659.7,
-    464.1,
+    465.9,
     780.3,
-    494.5
+    496.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -123,9 +159,9 @@
    "size": 28,
    "bbox": [
     548.1,
-    504.8,
+    506.6,
     891.9,
-    529.3
+    531.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -135,9 +171,9 @@
    "size": 34,
    "bbox": [
     1116.5,
-    464.1,
+    465.9,
     1203.5,
-    494.5
+    496.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -147,9 +183,9 @@
    "size": 28,
    "bbox": [
     993.8,
-    504.8,
+    506.6,
     1326.2,
-    529.3
+    531.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -162,7 +198,7 @@
  "alt": "What each of the six people at number 14 makes, mends or throws away: Maya makes small books by hand, Yuki has thrown four bowls away while learning, Tomas can sew a straight line because the hospital taught him, Mr Okonkwo mends and buys almost nothing, Amina painted her own shop window, and Dani has made nothing at all.",
  "placed_in": [
   6.260416666666667,
-  2.4166666666666665
+  2.5729166666666665
  ],
- "sha256": "20a0397088d5ddb67a27bc48de66b637f6017b52f7b3afdb76dffea157464b1a"
+ "sha256": "13e44aa229b8368ae9ac76d9c760e4a8a1fbd67fe11cb6ba7aac5fde21602687"
 }

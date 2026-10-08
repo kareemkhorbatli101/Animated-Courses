@@ -95,13 +95,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can say when something finished and when something still runs.",
-   "size": 50,
+   "text": "I can say when something finished and when something still",
+   "size": 56,
    "bbox": [
     310,
-    2343.3,
-    2174.7,
-    2387.2
+    2339.4,
+    2217.3,
+    2388.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "runs.",
+   "size": 56,
+   "bbox": [
+    310,
+    2405.4,
+    472.0,
+    2454.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,9 +123,9 @@
    "size": 56,
    "bbox": [
     310,
-    2469.4,
+    2535.4,
     1338.4,
-    2518.4
+    2584.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +135,9 @@
    "size": 56,
    "bbox": [
     310,
-    2599.4,
+    2665.4,
     1680.4,
-    2648.4
+    2714.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +176,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "61ca2749e5b9ca8975c2cf02abab86217df3276d0bc6c3389632ca99ac00528d"
+ "sha256": "77fea4e9cc30cd19e8da5d229b9dd4918cc81286687314af665705642a896bb1"
 }

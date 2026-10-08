@@ -44,12 +44,14 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: pain, '
             'fever, medicine, healthy, dentist, throat, sick, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('You should rest', 'should'),
+         ('You shouldn\u2019t wait', 'shouldn\u2019t'),
+         ('Should I go?', 'Should'),
+         ('Yes, you should', 'should')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: should, shouldn\u2019t, Should, should.'),
 
  7: lambda: F.category_set(
         [('A cold', 'thermometer'), ('A headache', 'person'), ('A tooth', 'home'),
@@ -328,7 +330,7 @@ FIGURES = {
         alt='The four words from the global story as numbered picture cards: '
             'triage, pharmacist, minor, urgent.'),
  37: lambda: F.close_scene(
-        [('the top flat', 'home'), ('nine days', 'calendar'),
+        [('the top flight', 'home'), ('nine days', 'calendar'),
          ('the shop shut', 'shop'), ('bread up four flights', 'bread')],
         height=460,
         alt='The nine days it went through number 14, drawn from the top '
@@ -342,7 +344,7 @@ FIGURES = {
         [('Say nothing',
           ['you ask them for nothing', 'they are worse by Thursday'], 'cross'),
          ('Ask once and leave it',
-          ['they know you noticed', 'an ill person has to answer'], 'speech'),
+          ['they know you can see it', 'an ill person has to answer'], 'speech'),
          ('Bring something round',
           ['they do no work at all', 'you may be in the way'], 'bowl')],
         height=620,

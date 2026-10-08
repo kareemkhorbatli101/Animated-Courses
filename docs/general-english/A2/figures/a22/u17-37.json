@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the clay",
+   "size": 28,
+   "bbox": [
+    161.2,
+    331.2,
+    285.8,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the foot",
+   "size": 28,
+   "bbox": [
+    491.4,
+    331.2,
+    617.6,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the cloth",
+   "size": 28,
+   "bbox": [
+    815.1,
+    331.2,
+    955.9,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the glaze",
+   "size": 28,
+   "bbox": [
+    1143.6,
+    331.2,
+    1289.4,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The unfinished bowl on the table since March, drawn as the stages it got through and the one it did not: the clay shaped in one evening, the foot cut the week after, the cloth changed whenever it dries out, and the glaze Yuki says she cannot get right.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "8cb1c5ba3a49df9e2972077a02889c6c6569a11a55738158a0959a90ef5420a6"
+}

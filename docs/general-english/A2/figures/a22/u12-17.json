@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    348.5,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I\u2019m going to my brother\u2019s on Friday.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    892.3,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    189.1,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There\u2019s ice coming Thursday night.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    707.9,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    348.5,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The train will run.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    584.0,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    189.1,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The buses to the station won\u2019t run in that.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    832.9,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Dani: I\u2019m going to my brother\u2019s on Friday. Maya: There\u2019s ice coming Thursday night. Dani: The train will run. Maya: The buses to the station won\u2019t run in that.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "858d0e6005704f9f278d2fc3b09fe211170527c8b82b2c463663799f8e579816"
+}

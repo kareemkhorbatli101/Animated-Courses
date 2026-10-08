@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  53,
+  19.7,
+  1387,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "You must show your card at the desk.",
+   "size": 32,
+   "bbox": [
+    142,
+    49.6,
+    823.2,
+    77.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    50.0,
+    105.4,
+    74.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "You have to be a member to use the room.",
+   "size": 32,
+   "bbox": [
+    142,
+    141.1,
+    912.3,
+    169.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    141.5,
+    105.4,
+    165.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "You mustn\u2019t touch the paintings.",
+   "size": 32,
+   "bbox": [
+    142,
+    232.6,
+    735.3,
+    260.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    233.0,
+    105.4,
+    257.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "You don\u2019t have to pay a fee.",
+   "size": 32,
+   "bbox": [
+    142,
+    324.1,
+    648.6,
+    352.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    324.5,
+    105.4,
+    348.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four lines from the notice with the rule word ringed in each: must, have to, mustn\u2019t and don\u2019t have to. Two say you cannot and one says you need not, which is the question the task asks.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "0da0e5438619897cee8b778979265b246646badffd88a7a98b17b3138e575b9c"
+}

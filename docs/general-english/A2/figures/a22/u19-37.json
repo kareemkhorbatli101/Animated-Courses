@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "flat 1",
+   "size": 28,
+   "bbox": [
+    182.4,
+    333.1,
+    264.6,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the staircase",
+   "size": 28,
+   "bbox": [
+    451.7,
+    333.1,
+    657.3,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the bread for the",
+   "size": 28,
+   "bbox": [
+    750.1,
+    333.1,
+    1020.9,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "birds",
+   "size": 28,
+   "bbox": [
+    845.4,
+    367.1,
+    925.6,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a note never",
+   "size": 28,
+   "bbox": [
+    1116.5,
+    333.1,
+    1316.5,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "posted",
+   "size": 28,
+   "bbox": [
+    1162.3,
+    367.1,
+    1270.7,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The woman in flat 1 nobody has met, drawn as the things she leaves behind her: the door of flat 1, the staircase she painted one August in a better grey and left no note about, the bread Dani thinks she puts out for the birds, and the two notes Yuki wrote and never posted.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "a6df52f27ab3fc93147cff723ba0dc7f956157821517d9767a48cd7da5e738bf"
+}

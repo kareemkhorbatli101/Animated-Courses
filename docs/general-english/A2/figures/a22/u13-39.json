@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "licence",
+   "size": 30,
+   "bbox": [
+    152.4,
+    209.4,
+    270.6,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "guard",
+   "size": 30,
+   "bbox": [
+    500.8,
+    209.4,
+    600.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "fee",
+   "size": 30,
+   "bbox": [
+    862.6,
+    209.4,
+    916.4,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "member",
+   "size": 30,
+   "bbox": [
+    1158.8,
+    209.4,
+    1298.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "mustn\u2019t",
+   "size": 30,
+   "bbox": [
+    145.5,
+    427.4,
+    277.5,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "don\u2019t have to",
+   "size": 30,
+   "bbox": [
+    437.2,
+    427.4,
+    663.8,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "storm",
+   "size": 30,
+   "bbox": [
+    840.1,
+    427.4,
+    938.9,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "diary",
+   "size": 30,
+   "bbox": [
+    1185.3,
+    427.4,
+    1271.7,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: licence, guard, fee, member, mustn\u2019t, don\u2019t have to, storm, diary.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "7afb690d694bc1b0a7bdd48d3d5f9e115be82fd945a55c7085ff7c32e071db10"
+}

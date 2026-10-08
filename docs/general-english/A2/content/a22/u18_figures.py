@@ -45,12 +45,15 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: chance, '
             'risk, safe, accident, emergency, careful, jam, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('If it rains', 'If'),
+         ('I will stay in', 'will'),
+         ('If it rains, I will stay in', 'If'),
+         ('I will stay in if it rains', 'if')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: If, will, If, if. The if half is not finished, '
+            'and the voice says so by going up and waiting.'),
 
  7: lambda: F.category_set(
         [('It rains all day', 'rain'), ('The bus does not come', 'bus'),

@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "It will to rain.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    347.2,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "It will rain.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1012.8,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "It will to rain this afternoon.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    581.9,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "It might snows on Thursday.",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    580.4,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maybe it will perhaps rain later.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    635.5,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "8d846cacfe94a7061eaa2cbe5d095be6cf881262ea0d631a200edbef97b78051"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what went wrong",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    484.3,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I left a window open in October and came",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1213.6,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "home.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    752.0,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "why you were lucky",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    523.6,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Everything I own was in the dry corner.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1179.1,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what you do now",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    478.3,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If the wind turns on a day like.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1064.8,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the message in three steps -- what went wrong, why you were lucky, what you do now -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "7521504bac629edfbe02da7588ac794f491868d2091cf06301dad019fc24a0ac"
+}

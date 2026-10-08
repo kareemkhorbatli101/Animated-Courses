@@ -62,6 +62,20 @@ class Sub:
     def prose_words(self) -> int:
         return self.words - self.caption_words
 
+    @property
+    def prose_text(self) -> str:
+        """The sub-section without its figure captions.
+
+        A caption is apparatus, like a heading. A measurement of REGISTER has
+        to read prose only: at 41 figures a unit the captions are a tenth of
+        the words on the page, they are written in the same flat descriptive
+        voice everywhere, and they diluted the audio scripts and the readings
+        by different proportions -- which moved E21's first-and-second-person
+        difference under its floor in two units without a word of either text
+        changing.
+        """
+        return '\n'.join(l for l in self.lines if not FIGCAP.match(l.strip()))
+
 
 @dataclass
 class Part:

@@ -35,13 +35,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "News, Stories and Messages",
-   "size": 130,
+   "text": "News, Stories and",
+   "size": 140,
    "bbox": [
     190,
-    445.6,
-    2280.9,
-    558.6
+    438.6,
+    1619.1,
+    560.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Messages",
+   "size": 140,
+   "bbox": [
+    190,
+    596.6,
+    963.9,
+    718.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -164,5 +176,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "592c76d320b87c5e8fc8277e41ca81b2e537ebfcca5d680ffceede5df2212cf3"
+ "sha256": "f644bd1259abd5d3b1ff6977b1506e5c9bef94cdc34c92a59cf52b2f86940bbd"
 }

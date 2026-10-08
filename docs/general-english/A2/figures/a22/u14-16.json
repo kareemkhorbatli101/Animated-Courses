@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "asking the nurse next door",
-   "size": 24,
+   "text": "asking the nurse next",
+   "size": 26,
    "bbox": [
-    105.0,
-    358.5,
-    428.3,
-    380.0
+    125.2,
+    356.9,
+    408.2,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "door",
+   "size": 26,
+   "bbox": [
+    237.2,
+    388.9,
+    296.2,
+    412.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -107,13 +119,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "six people, six kinds of advice",
-   "size": 22,
+   "text": "six people, six kinds of",
+   "size": 26,
    "bbox": [
-    1008.6,
-    360.0,
-    1338.0,
-    380.0
+    1025.5,
+    356.9,
+    1321.2,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "advice",
+   "size": 26,
+   "bbox": [
+    1130.7,
+    388.9,
+    1216.0,
+    412.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +152,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "3bad857c483b7f2871897c3c7b6754afb90f2aae28214bd524bc47a1ae7f023e"
+ "sha256": "4fd182d46750cdacfd8c895e0a7aa858236a06ad1abbd7ebc22550aa48479734"
 }

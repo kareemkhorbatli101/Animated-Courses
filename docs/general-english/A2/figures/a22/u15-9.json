@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "desert",
+   "size": 30,
+   "bbox": [
+    156.9,
+    258.6,
+    266.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "camping",
+   "size": 30,
+   "bbox": [
+    478.6,
+    258.6,
+    622.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "memory",
+   "size": 30,
+   "bbox": [
+    820.6,
+    258.6,
+    958.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "festival",
+   "size": 30,
+   "bbox": [
+    1165.5,
+    258.6,
+    1291.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: desert, camping, memory, festival.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "a35084c3bec77e4c8b5da331795dc253b07c405551f3ae25839d96250edf8741"
+}

@@ -59,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Going to, and the present continuous for arrangements",
-   "size": 60,
+   "text": "Going to, and the present continuous",
+   "size": 86,
    "bbox": [
     250,
-    1136.3,
-    2132.5,
-    1189.0
+    1117.6,
+    2065.9,
+    1192.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "for arrangements",
+   "size": 86,
+   "bbox": [
+    250,
+    1219.6,
+    1102.3,
+    1294.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -95,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can talk about arrangements using the present continuous.",
-   "size": 54,
+   "text": "I can talk about arrangements using the present",
+   "size": 56,
    "bbox": [
     310,
-    2340.2,
-    2168.5,
-    2387.8
+    2339.4,
+    1848.0,
+    2388.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "continuous.",
+   "size": 56,
+   "bbox": [
+    310,
+    2405.4,
+    680.2,
+    2454.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,9 +135,9 @@
    "size": 56,
    "bbox": [
     310,
-    2469.4,
+    2535.4,
     1613.5,
-    2518.4
+    2584.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +147,9 @@
    "size": 56,
    "bbox": [
     310,
-    2599.4,
+    2665.4,
     1454.2,
-    2648.4
+    2714.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +188,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "0de6fe8cd8a0c7c6c17b9e200f80a8fc21c84b8cd663989db09e250fd604e1ee"
+ "sha256": "5aa07ddfb9e0aba8dfafb540b6bfe5240b00279e66d9d661e8792ff0a991202f"
 }

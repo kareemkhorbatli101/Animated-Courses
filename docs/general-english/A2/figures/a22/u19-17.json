@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    348.5,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is a man on Mill Lane who only mends.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    1043.4,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    189.1,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "There is a man on Mill Lane who only mends.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    873.4,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    348.5,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "That can\u2019t be a job.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    611.1,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    189.1,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "He has done it for forty years.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    623.0,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Dani: There is a man on Mill Lane who only mends. Maya: There is a man on Mill Lane who only mends. Dani: That can\u2019t be a job. Maya: He has done it for forty years.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "05594ada1d851aadd48f33c670b371be38a62e7c4f9d848b8e39a36b76e93217"
+}

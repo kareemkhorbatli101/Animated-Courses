@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "invite",
+   "size": 30,
+   "bbox": [
+    163.4,
+    258.6,
+    259.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "diary",
+   "size": 30,
+   "bbox": [
+    507.3,
+    258.6,
+    593.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "meeting",
+   "size": 30,
+   "bbox": [
+    819.8,
+    258.6,
+    959.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "party",
+   "size": 30,
+   "bbox": [
+    1183.3,
+    258.6,
+    1273.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: invite, diary, meeting, party.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "fa1254efcb03ff35bc6cc2c5453375cf46184652f879158c28ff002a0dc12422"
+}

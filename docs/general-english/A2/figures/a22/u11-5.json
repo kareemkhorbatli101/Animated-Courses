@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  51.0,
+  26.3,
+  1389.0,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    51.8,
+    97.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Diary",
+   "size": 30,
+   "bbox": [
+    165.9,
+    208.5,
+    255.6,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    51.8,
+    436.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Booking",
+   "size": 30,
+   "bbox": [
+    481.7,
+    208.5,
+    618.8,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    51.8,
+    776.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Meeting",
+   "size": 30,
+   "bbox": [
+    820.8,
+    208.5,
+    958.8,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    51.8,
+    1115.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Host",
+   "size": 30,
+   "bbox": [
+    1190.3,
+    208.5,
+    1268.2,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    78.6,
+    300.8,
+    97.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Remind",
+   "size": 30,
+   "bbox": [
+    146.8,
+    457.5,
+    274.7,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6",
+   "size": 27,
+   "bbox": [
+    418.1,
+    300.8,
+    436.9,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Prepare",
+   "size": 30,
+   "bbox": [
+    483.3,
+    457.5,
+    617.2,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7",
+   "size": 27,
+   "bbox": [
+    757.6,
+    300.8,
+    776.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Holiday",
+   "size": 30,
+   "bbox": [
+    826.4,
+    457.5,
+    953.1,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 7,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The seven words of Column A as numbered picture cards: diary, booking, meeting, host, remind, prepare, holiday, each with the thing it means drawn beside its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "87ae63ef6d54de354542f7c19b7d10291e7bbc52d05fd56e193b48215b5fdcf9"
+}

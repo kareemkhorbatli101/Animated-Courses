@@ -199,7 +199,7 @@ figures:
   # `dense_slots` becomes `slots` and this block goes.
   dense_units:
     a21: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    a22: []
+    a22: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   dense_per_unit: 41
   dense_slots:
     1:  {part: 'Unit',    job: unit_opener_page, feeds: orientation, class: full_page}

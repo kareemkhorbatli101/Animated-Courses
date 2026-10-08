@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "You should drink much more than you want to.",
-   "size": 24,
+   "text": "You should drink much more than you want",
+   "size": 26,
    "bbox": [
     670,
-    63.2,
-    1230.9,
-    84.7
+    46.6,
+    1235.5,
+    70.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "to.",
+   "size": 26,
+   "bbox": [
+    670,
+    76.6,
+    703.9,
+    100.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +176,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "973105b95c88813fde5104d90ac8e264f910770fd504b5aafe176a541e30d251"
+ "sha256": "cc39790562d9d48885c7e27f34c2ef9c3597a865d96021e886e33d8bbaff5c51"
 }

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "law",
+   "size": 28,
+   "bbox": [
+    148.0,
+    287.7,
+    202.4,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "allowed",
+   "size": 28,
+   "bbox": [
+    386.5,
+    287.7,
+    508.7,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "silence",
+   "size": 28,
+   "bbox": [
+    664.8,
+    287.7,
+    775.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "smoking",
+   "size": 28,
+   "bbox": [
+    925.8,
+    287.7,
+    1059.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "member",
+   "size": 28,
+   "bbox": [
+    1199.7,
+    287.7,
+    1329.9,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "private",
+   "size": 28,
+   "bbox": [
+    118.7,
+    608.7,
+    231.7,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "uniform",
+   "size": 28,
+   "bbox": [
+    385.7,
+    608.7,
+    509.5,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "licence",
+   "size": 28,
+   "bbox": [
+    664.9,
+    608.7,
+    775.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "guard",
+   "size": 28,
+   "bbox": [
+    946.0,
+    608.7,
+    1038.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fee",
+   "size": 28,
+   "bbox": [
+    1239.7,
+    608.7,
+    1289.9,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 13 as picture cards on one page: law, allowed, silence, smoking, member, private, uniform, licence, guard, fee.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "8f4b74cca2a6f381b70ec89cc1ace85552d0673b2aa1d48f290819e28ffb459e"
+}

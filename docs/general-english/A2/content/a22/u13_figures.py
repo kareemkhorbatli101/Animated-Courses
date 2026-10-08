@@ -45,12 +45,14 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: law, '
             'licence, member, uniform, guard, fee, silence, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('You must wait', 'must'),
+         ('You mustn\u2019t wait', 'mustn\u2019t'),
+         ('You have to wait', 'have to'),
+         ('You don\u2019t have to wait', 'don\u2019t')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: must, mustn\u2019t, have to, don\u2019t.'),
 
  7: lambda: F.category_set(
         [('A library', 'book'), ('A pool', 'cup'), ('A gallery', 'notice'),
@@ -344,11 +346,11 @@ FIGURES = {
  38: lambda: F.decision_fork(
         'A place you belong to has rules nobody has written down?',
         [('Write them on a notice',
-          ['everybody can read them', 'it sounds like a station'], 'notice'),
+          ['everybody can read them', 'a building is not a station'], 'notice'),
          ('Tell each new person yourself',
           ['it is a way of meeting them', 'you have to be there'], 'speech'),
          ('Leave it as it is',
-          ['nothing to do', 'a new person finds out by being told off'],
+          ['nothing to do', 'a new person finds out when somebody tells them'],
           'cross')],
         height=620,
         alt='The decision task as one question and three branches, with what '

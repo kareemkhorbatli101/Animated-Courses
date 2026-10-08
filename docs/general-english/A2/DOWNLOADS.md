@@ -3,60 +3,52 @@
 Direct links. Every one is a single click; the repository is public, so none of
 them needs a login. Branch: `claude/jolly-johnson-9khdgl`.
 
-## Everything at once
+## The four files
 
-| | Size | |
-|---|---|---|
-| **Complete course, both volumes** | 25 MB | [EFDL-A2-CompleteCourse.zip](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2-CompleteCourse.zip) |
+Both books and both answer keys. Each is one click; the repository is public.
 
-Holds both books, both answer keys, each as DOCX and PDF, plus the four covers
-at print resolution, the two check reports, `RESUME.md`, the master plan, and a
-`READ ME FIRST.txt` explaining the structure.
-
-## A2.1 · *Everyday Life* · Units 1–10 · 386 pages
+## A2.1 · *Everyday Life* · Units 1–10 · 492 pages
 
 | | | |
 |---|---|---|
-| The book | DOCX | [EFDL-A2.1-EverydayLife-u01-10.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.1-EverydayLife-u01-10.docx) |
-| The book | PDF | [EFDL-A2.1-EverydayLife-u01-10.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.1-EverydayLife-u01-10.pdf) |
-| Answer key alone · 123 pages | DOCX | [EFDL-A2.1-EverydayLife-AnswerKey-u01-10.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.1-EverydayLife-AnswerKey-u01-10.docx) |
-| Answer key alone | PDF | [EFDL-A2.1-EverydayLife-AnswerKey-u01-10.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.1-EverydayLife-AnswerKey-u01-10.pdf) |
+| The book | DOCX | [EFDL-A2.1-EverydayLife-u01-10.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.1-EverydayLife-u01-10.docx) |
+| The book | PDF | [EFDL-A2.1-EverydayLife-u01-10.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.1-EverydayLife-u01-10.pdf) |
+| Answer key alone · 123 pages | DOCX | [EFDL-A2.1-EverydayLife-AnswerKey-u01-10.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.1-EverydayLife-AnswerKey-u01-10.docx) |
+| Answer key alone | PDF | [EFDL-A2.1-EverydayLife-AnswerKey-u01-10.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.1-EverydayLife-AnswerKey-u01-10.pdf) |
 
-## A2.2 · *Out in the World* · Units 11–20 · 396 pages
+## A2.2 · *Out in the World* · Units 11–20 · 502 pages
 
 | | | |
 |---|---|---|
-| The book | DOCX | [EFDL-A2.2-OutintheWorld-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.2-OutintheWorld-u11-20.docx) |
-| The book | PDF | [EFDL-A2.2-OutintheWorld-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.2-OutintheWorld-u11-20.pdf) |
-| Answer key alone · 133 pages | DOCX | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx) |
-| Answer key alone | PDF | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/build/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf) |
+| The book | DOCX | [EFDL-A2.2-OutintheWorld-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-u11-20.docx) |
+| The book | PDF | [EFDL-A2.2-OutintheWorld-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-u11-20.pdf) |
+| Answer key alone · 133 pages | DOCX | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx) |
+| Answer key alone | PDF | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf) |
 
-**The answer key is already bound into the back of each book.** The separate key
-exists so a teacher can print or hand round the answers without the 390 pages of
-book attached to them.
+## What is in each book
 
-## Supporting documents
+Each book is one file: the units in order, then the answer key, with the front
+and back covers as the first and last pages. DOCX is the editable source; the
+PDF is what it prints as.
 
-| | |
-|---|---|
-| How it was built, and how to extend it | [RESUME.md](https://github.com/kareemkhorbatli101/Animated-Courses/blob/claude/jolly-johnson-9khdgl/docs/general-english/A2/RESUME.md) |
-| The plan the build followed | [00-MASTER-PLAN.md](https://github.com/kareemkhorbatli101/Animated-Courses/blob/claude/jolly-johnson-9khdgl/docs/general-english/A2/00-MASTER-PLAN.md) |
-| A2.1 check report | [reports/a21-report.md](https://github.com/kareemkhorbatli101/Animated-Courses/blob/claude/jolly-johnson-9khdgl/docs/general-english/A2/reports/a21-report.md) |
-| A2.2 check report | [reports/a22-report.md](https://github.com/kareemkhorbatli101/Animated-Courses/blob/claude/jolly-johnson-9khdgl/docs/general-english/A2/reports/a22-report.md) |
-| What is provably true of the text | [spec/golden.yaml](https://github.com/kareemkhorbatli101/Animated-Courses/blob/claude/jolly-johnson-9khdgl/docs/general-english/A2/spec/golden.yaml) |
+**Every unit carries 41 figures** — 820 across the course — and every one of
+them is a teaching device the text refers to, never decoration. The unit
+opener and both covers fill a page.
 
-## Single units
+## There is no all-in-one ZIP
 
-Each unit also builds on its own, as `build/a21-uNN.docx` and `build/a22-uNN.docx`,
-with a PDF beside it — useful for handing out one unit at a time.
-[Browse the build folder.](https://github.com/kareemkhorbatli101/Animated-Courses/tree/claude/jolly-johnson-9khdgl/docs/general-english/A2/build)
+There was. It held a second copy of the same four books, 67 MB of it, and a
+67 MB blob goes into the repository's history for good and trips GitHub's
+large-file warning on every push. Every file above is already one click. Say
+the word and it comes back.
 
-## The numbers
+## Why `release/` and not `build/`
 
-| | | | |
-|---|---|---|---|
-| Units | 20 | Figures | 280 |
-| Words | 104,078 | Glossary words | 200, none repeated |
-| Pages | 782 | Answer keys | 20, all complete |
-| Checks | 230 | Executions | 3,826, zero failures |
-| Mutation test | 212 of 212 caught, 0 escaped | | |
+`build/` is where the build writes and is not committed: a fresh copy of every
+DOCX and PDF after every rebuild is what took this repository's history to
+1.4 GB. `release/` holds exactly the files that ship, replaced rather than
+accumulated, and is written only at a milestone by `tools/make_release.py`.
+
+GitHub Releases would be better still — outside git history altogether — but
+no release-creating tool is reachable from the session that builds this, so
+the links above point into the branch.

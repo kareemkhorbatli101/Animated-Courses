@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "actor",
+   "size": 30,
+   "bbox": [
+    167.6,
+    258.6,
+    255.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "farmer",
+   "size": 30,
+   "bbox": [
+    493.2,
+    258.6,
+    607.8,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "waiter",
+   "size": 30,
+   "bbox": [
+    835.6,
+    258.6,
+    943.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "artist",
+   "size": 30,
+   "bbox": [
+    1182.6,
+    258.6,
+    1274.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: actor, farmer, waiter, artist.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "d19127e5615655976bf365c930179a77a6e7ad06a75c00fc13859fd3153f245e"
+}

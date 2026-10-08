@@ -83,13 +83,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "has read a book in one day, twice",
-   "size": 22,
+   "text": "has read a book in one",
+   "size": 28,
    "bbox": [
-    974.3,
-    249.5,
-    1345.7,
-    269.5
+    999.9,
+    245.6,
+    1320.1,
+    270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "day, twice",
+   "size": 28,
+   "bbox": [
+    1088.2,
+    277.6,
+    1231.8,
+    302.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -167,13 +179,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "has never found out what she ate",
-   "size": 22,
+   "text": "has never found out what",
+   "size": 28,
    "bbox": [
-    974.2,
-    529.5,
-    1345.8,
-    549.5
+    979.8,
+    525.6,
+    1340.2,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "she ate",
+   "size": 28,
+   "bbox": [
+    1108.1,
+    557.6,
+    1211.9,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -188,5 +212,5 @@
   6.260416666666667,
   2.65625
  ],
- "sha256": "0d7ba7cd4d6dbf7f88213778250c6d6b921d42da515b853a87050aa754ea4411"
+ "sha256": "228066ec5f7c7e498b6f3a8f28539f862afd46aeec6ffe4a2d314e07cbed5007"
 }

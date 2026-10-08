@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  424
+ ],
+ "bounds": [
+  53,
+  21.0,
+  1387,
+  403.0
+ ],
+ "texts": [
+  {
+   "text": "The man who mends shoes",
+   "size": 32,
+   "bbox": [
+    142,
+    53.9,
+    629.3,
+    82.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    54.3,
+    105.4,
+    78.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The shop that sells bread",
+   "size": 32,
+   "bbox": [
+    142,
+    151.4,
+    601.2,
+    179.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    151.8,
+    105.4,
+    176.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The shop sells bread",
+   "size": 32,
+   "bbox": [
+    142,
+    248.9,
+    515.1,
+    277.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    249.3,
+    105.4,
+    273.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The shop I use sells bread",
+   "size": 32,
+   "bbox": [
+    142,
+    346.4,
+    612.8,
+    374.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    346.8,
+    105.4,
+    371.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four phrases from this unit with the word that carries the sound ringed: who, that. In speech the joining word is the quietest thing in the sentence, and two of these four lines do without one altogether.",
+ "placed_in": [
+  6.260416666666667,
+  1.84375
+ ],
+ "sha256": "d8d85503c30211e9e481d907e3ce13993f0f508522b395638f357301b027f109"
+}

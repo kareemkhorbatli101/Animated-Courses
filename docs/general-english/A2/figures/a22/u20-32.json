@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  462
+ ],
+ "bounds": [
+  53,
+  22.9,
+  1387,
+  438.9
+ ],
+ "texts": [
+  {
+   "text": "Say what you do not know.",
+   "size": 30,
+   "bbox": [
+    280,
+    60.1,
+    735.4,
+    86.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say what they said, in their words.",
+   "size": 30,
+   "bbox": [
+    280,
+    166.1,
+    870.3,
+    192.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say when they said it.",
+   "size": 30,
+   "bbox": [
+    280,
+    272.1,
+    654.5,
+    298.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Offer to go back and ask.",
+   "size": 30,
+   "bbox": [
+    280,
+    378.1,
+    706.1,
+    404.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0104166666666665
+ ],
+ "sha256": "279677d786b0a55579818b768609bae4e1f3d49e48539c2e113ff0a0487ee709"
+}

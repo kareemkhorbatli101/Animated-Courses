@@ -1,0 +1,98 @@
+{
+ "canvas": [
+  2480,
+  3508
+ ],
+ "texts": [
+  {
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 88,
+   "bbox": [
+    632.2,
+    356.0,
+    1847.8,
+    432.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A2 \u00b7 Volume 1",
+   "size": 68,
+   "bbox": [
+    975.8,
+    530.1,
+    1504.2,
+    590.2
+   ],
+   "fill": "#6E88AC",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Everyday Life",
+   "size": 158,
+   "bbox": [
+    638.7,
+    785.3,
+    1841.3,
+    922.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Six people, one street, every morning.",
+   "size": 72,
+   "bbox": [
+    457.2,
+    2397.7,
+    2022.8,
+    2460.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ten units \u00b7 Core and Plus tracks",
+   "size": 54,
+   "bbox": [
+    758.8,
+    2580.2,
+    1721.2,
+    2627.8
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student Book with answer key",
+   "size": 54,
+   "bbox": [
+    775.9,
+    2690.2,
+    1704.1,
+    2737.8
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "CEFR A2 \u00b7 British English",
+   "size": 48,
+   "bbox": [
+    944.2,
+    3272.9,
+    1535.8,
+    3315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "alt": "Front cover of English for Daily Life A2 volume 1, Everyday Life. A band of flat illustrations in blue and tan over a pale panel, with the series name, the volume title and the level.",
+ "sha256": "0bdb610d1fa2e2ad574b2ce66c3970664148f4c3717d07d16d15bb8813fdf4ee",
+ "theme": "a21",
+ "volume": 1,
+ "title": "Everyday Life",
+ "level": "A2"
+}

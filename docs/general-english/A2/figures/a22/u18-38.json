@@ -1,0 +1,180 @@
+{
+ "canvas": [
+  1440,
+  599
+ ],
+ "bounds": [
+  47.0,
+  29.7,
+  1393.0,
+  568.9
+ ],
+ "texts": [
+  {
+   "text": "Somebody made a plan for your home and did not ask you?",
+   "size": 34,
+   "bbox": [
+    149.5,
+    66.7,
+    1290.5,
+    97.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Join in",
+   "size": 30,
+   "bbox": [
+    208.6,
+    367.9,
+    314.1,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it costs one set of keys",
+   "size": 26,
+   "bbox": [
+    112.1,
+    434.2,
+    410.6,
+    457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you did not choose it",
+   "size": 26,
+   "bbox": [
+    124.7,
+    478.2,
+    397.9,
+    501.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Say nothing and leave",
+   "size": 30,
+   "bbox": [
+    531.8,
+    367.9,
+    908.2,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it",
+   "size": 30,
+   "bbox": [
+    707.7,
+    403.9,
+    732.3,
+    430.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no work at all",
+   "size": 26,
+   "bbox": [
+    631.7,
+    470.2,
+    808.3,
+    493.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you get the good and",
+   "size": 26,
+   "bbox": [
+    580.0,
+    514.2,
+    860.0,
+    537.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "none of the work",
+   "size": 26,
+   "bbox": [
+    609.8,
+    545.2,
+    830.2,
+    568.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Say it is too much",
+   "size": 30,
+   "bbox": [
+    1027.5,
+    367.9,
+    1329.8,
+    394.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you said what you think",
+   "size": 26,
+   "bbox": [
+    1023.1,
+    434.2,
+    1334.2,
+    457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody has to be",
+   "size": 26,
+   "bbox": [
+    1046.4,
+    478.2,
+    1310.9,
+    501.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wrong first",
+   "size": 26,
+   "bbox": [
+    1109.0,
+    509.2,
+    1248.3,
+    532.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: join in, which costs one set of keys you will never miss; say nothing, and get the good of it and none of the work; or say it is too much, when somebody has to be wrong first.",
+ "placed_in": [
+  6.260416666666667,
+  2.6041666666666665
+ ],
+ "sha256": "fe4539adc26b55d055be69668c79a69a3e8e79f3ea11cff6b9bea9ca30cdd384"
+}

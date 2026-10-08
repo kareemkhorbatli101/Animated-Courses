@@ -45,12 +45,14 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: abroad, '
             'adventure, exhibition, tour, memory, island, festival, each with '
             'the thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('I have been there', 'have'),
+         ('She has eaten it', 'has'),
+         ('Have you ever been?', 'Have'),
+         ('Yes, I have', 'have')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: have, has, Have, have.'),
 
  7: lambda: F.category_set(
         [('Abroad', 'plane'), ('Camping', 'tent'), ('An island', 'island'),

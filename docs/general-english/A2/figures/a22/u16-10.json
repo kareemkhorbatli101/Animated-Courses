@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What changed",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    433.5,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The market moved in the spring.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1096.7,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What it has been like",
+   "size": 30,
+   "bbox": [
+    190,
+    237.9,
+    548.5,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "since",
+   "size": 30,
+   "bbox": [
+    190,
+    269.9,
+    277.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The square has been quiet ever since.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1167.8,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What there is now",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    499.4,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Nowadays there are four tables outside a",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1207.8,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "coffee shop.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    829.1,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- what changed, what it has been like since, and what there is now -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "6bb7587076b5d558648728b6459cab7c5ad37e86323578f7c77481d22843a01f"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What will you do if it",
+   "size": 28,
+   "bbox": [
+    104.0,
+    323.7,
+    432.0,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "rains all weekend?",
+   "size": 28,
+   "bbox": [
+    121.3,
+    357.7,
+    414.7,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What will you take with",
+   "size": 28,
+   "bbox": [
+    533.9,
+    323.7,
+    906.1,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you in case?",
+   "size": 28,
+   "bbox": [
+    623.1,
+    357.7,
+    816.9,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What will you do as",
+   "size": 28,
+   "bbox": [
+    1017.5,
+    289.7,
+    1326.5,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "soon as you get home",
+   "size": 28,
+   "bbox": [
+    998.6,
+    323.7,
+    1345.4,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "today?",
+   "size": 28,
+   "bbox": [
+    1119.4,
+    357.7,
+    1224.6,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "5ca1514d9bd32d998a01fe54e2c4fd56a8f563b32ded775f1c7cd0fdb5b060d3"
+}

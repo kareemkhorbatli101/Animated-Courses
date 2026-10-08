@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "I going to cook.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    379.5,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I am going to cook.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1145.3,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I going to cook for eight people.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    642.8,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She is going to meeting her",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    572.4,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sister at nine.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    354.0,
+    318.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "We are have dinner at eight on",
+   "size": 28,
+   "bbox": [
+    134,
+    367.2,
+    624.8,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Friday.",
+   "size": 28,
+   "bbox": [
+    134,
+    401.2,
+    239.1,
+    425.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "9039513fec7605893b33801d9f156be13af032c1dfb144fde1978abdafb832c1"
+}

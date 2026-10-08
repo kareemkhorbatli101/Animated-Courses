@@ -11,25 +11,49 @@
  ],
  "texts": [
   {
-   "text": "Have you ever done anything like that?",
-   "size": 24,
+   "text": "Have you ever done anything like",
+   "size": 28,
    "bbox": [
-    93.5,
-    63.1,
-    626.5,
-    84.6
+    95.0,
+    43.7,
+    625.0,
+    68.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "opening without your own story first",
-   "size": 24,
+   "text": "that?",
+   "size": 28,
    "bbox": [
-    856.4,
-    63.1,
-    1353.6,
-    84.6
+    319.1,
+    77.7,
+    400.9,
+    102.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opening without your own",
+   "size": 28,
+   "bbox": [
+    897.7,
+    43.7,
+    1312.3,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "story first",
+   "size": 28,
+   "bbox": [
+    1027.1,
+    77.7,
+    1182.9,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -59,25 +83,49 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Never, and I am not sure I want to.",
-   "size": 26,
+   "text": "Never, and I am not sure I want",
+   "size": 28,
    "bbox": [
-    105.1,
-    291.5,
-    614.9,
-    315.2
+    112.0,
+    273.7,
+    608.0,
+    298.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "saying no, with your own opinion in it",
-   "size": 22,
+   "text": "to.",
+   "size": 28,
    "bbox": [
-    871.0,
-    294.6,
-    1339.0,
-    314.6
+    338.4,
+    307.7,
+    381.6,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying no, with your own",
+   "size": 28,
+   "bbox": [
+    906.8,
+    273.7,
+    1303.2,
+    298.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opinion in it",
+   "size": 28,
+   "bbox": [
+    1010.2,
+    307.7,
+    1199.8,
+    332.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +164,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "b50bcb1ecb391e0256c9c33baabbf6eacf848926ea4952c919305c7b5bfd60ca"
+ "sha256": "571f1da5e2cac82c49a376c8ac82d5cb5d8096959e9d3fdf2466736b8a9aada3"
 }

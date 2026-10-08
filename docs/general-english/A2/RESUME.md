@@ -358,3 +358,35 @@ fifteen minutes, nearly all of it the build.
   fit box solves for whichever side binds. Preflight warns.
 - **The icon map is matched on whole words**, so `bus stop` must come before
   `bus`, and a label that is itself an icon name needs no entry at all.
+
+---
+
+## Phase 7: A2.2 complete. The course is 820 figures.
+
+Both volumes, twenty units, 41 figures each, 0 failures across 238 checks.
+A2.1 is 492 pages, A2.2 is 502.
+
+A2.2's ten Pronunciation sections are written in a fifth shape -- `phrase —
+explanation`, with the key word italicised in the explanation --
+`figure_source.pron_kind` reads it and the rubric together. Where the
+contrast is an ending or the shape of the voice rather than a word (units 16,
+17, 18, 20), the ring is chosen by hand.
+
+### If you touch the build again
+
+- **LibreOffice gets 2700 s, not 900.** A dense volume is ~500 pages and
+  18 MB. The old limit killed the A2.2 conversion, and because `TimeoutExpired`
+  is uncaught it took `build_book` down with it: no PDF, no answer key, and a
+  chain that stopped silently. If a build ends with a DOCX and no PDF, this is
+  why.
+- **Never run two `build_book.py` for the same volume at once.** They both
+  delete the existing `EFDL-*` files and write the same path.
+- **A book DOCX inspected mid-build looks broken.** pandoc writes it first and
+  `postprocess` rewrites the extents and inserts the full-page sections
+  afterwards, so a file read between the two has no zero-margin sections and
+  pandoc's own image sizes. Wait for the build to say it is done.
+
+### Delivery
+
+`tools/make_release.py` copies the shipped files into `release/` and nothing
+else; `build/` stays untracked. Run it at a milestone, not on every build.

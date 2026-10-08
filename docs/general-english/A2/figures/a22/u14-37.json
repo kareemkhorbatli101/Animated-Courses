@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "the top flight",
+   "size": 28,
+   "bbox": [
+    119.4,
+    333.1,
+    327.6,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nine days",
+   "size": 28,
+   "bbox": [
+    478.9,
+    333.1,
+    630.1,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the shop shut",
+   "size": 28,
+   "bbox": [
+    776.7,
+    333.1,
+    994.3,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bread up four",
+   "size": 28,
+   "bbox": [
+    1108.3,
+    333.1,
+    1324.7,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "flights",
+   "size": 28,
+   "bbox": [
+    1166.3,
+    367.1,
+    1266.7,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The nine days it went through number 14, drawn from the top down: the top flat where it started with Yuki, the nine days it took, the two days Amina shut the shop for the only time in eleven years, and the bread Mr Okonkwo carried up four flights at seventy-one.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "8c7baa5099c09b7ac3d683485f6ab4328b2c93ed43a551e268b6e7993e389f41"
+}

@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "the bag by the",
+   "size": 28,
+   "bbox": [
+    107.9,
+    333.1,
+    339.1,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "door",
+   "size": 28,
+   "bbox": [
+    187.3,
+    367.1,
+    259.7,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a lamp",
+   "size": 28,
+   "bbox": [
+    501.3,
+    333.1,
+    607.7,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "six telephone",
+   "size": 28,
+   "bbox": [
+    778.9,
+    333.1,
+    992.1,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "numbers",
+   "size": 28,
+   "bbox": [
+    816.2,
+    367.1,
+    954.8,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "two sets of keys",
+   "size": 28,
+   "bbox": [
+    1088.2,
+    333.1,
+    1344.8,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The bag Yuki put by the front door one Saturday in April, drawn as what is in it: the bag itself, a lamp, a list of six telephone numbers, and two sets of spare keys. If nothing happens it was a wasted afternoon; if something does, it was the best one anybody spent that year.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "a881c0831975e048d31d1b40dfb038d41776cc39d3a417b12d3025588f8decb8"
+}

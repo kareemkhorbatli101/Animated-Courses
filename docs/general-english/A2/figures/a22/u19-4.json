@@ -23,13 +23,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "the woman who runs the shop",
-   "size": 24,
+   "text": "the woman who runs the",
+   "size": 28,
    "bbox": [
-    97.8,
-    248.0,
-    462.2,
-    269.5
+    105.4,
+    245.6,
+    454.6,
+    270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "shop",
+   "size": 28,
+   "bbox": [
+    246.4,
+    277.6,
+    313.6,
+    302.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -155,13 +167,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "the one who knows everybody",
-   "size": 24,
+   "text": "the one who knows",
+   "size": 28,
    "bbox": [
-    976.4,
-    528.0,
-    1343.6,
-    549.5
+    1024.4,
+    525.6,
+    1295.6,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "everybody",
+   "size": 28,
+   "bbox": [
+    1085.8,
+    557.6,
+    1234.2,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -176,5 +200,5 @@
   6.260416666666667,
   2.65625
  ],
- "sha256": "8660ed0dc68d28f4b39c99f6c4484d66e3a14b71d4a3d29be93f6f9355296590"
+ "sha256": "661791fda72656a80eb69dd5e7f9a0464bb4c4d544c3a66533de518e7e129289"
 }

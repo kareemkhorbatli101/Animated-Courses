@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    348.5,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I\u2019ve a booking at this hotel for two nights.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    998.5,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    187.8,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I\u2019m sorry, I\u2019m not finding it.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    579.0,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    348.5,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I made it on the telephone on Monday.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    935.4,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Clerk",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    187.8,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who did you speak to?",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    495.8,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Dani: I\u2019ve a booking at this hotel for two nights. Clerk: I\u2019m sorry, I\u2019m not finding it. Dani: I made it on the telephone on Monday. Clerk: Who did you speak to?",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "0b0ca1eb61e3f7fd48b7641c7303aaf67b359836c0835d633d83f5e4f5ed83e6"
+}

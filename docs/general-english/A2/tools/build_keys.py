@@ -88,7 +88,11 @@ def build(book='a21'):
                   f'English for Daily Life · A2.{vol} Answer Key', srcs)
     subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                     '--outdir', os.path.join(ROOT, 'build'), out],
-                   capture_output=True, timeout=900)
+                   # A dense volume is about 500 pages and 18 MB. The old 900 s
+                   # killed the A2.2 conversion, and because TimeoutExpired is
+                   # not caught it took build_book down with it: no PDF, no
+                   # answer key, and a chain that stopped without saying why.
+                   capture_output=True, timeout=2700)
     B.write_manifest()
     pdf = out[:-5] + '.pdf'
     pages = 0

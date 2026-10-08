@@ -23,13 +23,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "narrowing it by what you can see now",
-   "size": 22,
+   "text": "narrowing it by what you can",
+   "size": 28,
    "bbox": [
-    868.8,
-    64.6,
-    1341.2,
-    84.6
+    873.9,
+    43.7,
+    1336.1,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "see now",
+   "size": 28,
+   "bbox": [
+    1040.3,
+    77.7,
+    1169.7,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +152,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "dde3c2ac36d6cc5cd4260f032efe6e75f611c6f9fdc2a2984371152d2c887342"
+ "sha256": "e1f94057cfc9c5f60db530f5d8db778be51249a8c22c8e26354e8623ecdf2cf4"
 }

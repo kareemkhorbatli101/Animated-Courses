@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the ordinary",
+   "size": 28,
+   "bbox": [
+    85.0,
+    238.0,
+    280.6,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thing",
+   "size": 28,
+   "bbox": [
+    141.3,
+    272.0,
+    224.3,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    570.8,
+    128.5,
+    591.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what might go wrong",
+   "size": 28,
+   "bbox": [
+    412.4,
+    272.0,
+    750.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1102.0,
+    128.5,
+    1122.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what you will do",
+   "size": 28,
+   "bbox": [
+    983.0,
+    272.0,
+    1241.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: the ordinary thing, what might go wrong with it this week, and what you will do then.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "86c0341256a16e8a9b032f9d136a5fb99549d1ec33f41b209d7fe59dcc7878fa"
+}

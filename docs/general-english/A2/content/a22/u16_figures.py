@@ -45,12 +45,15 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: modern, '
             'century, childhood, record, engine, camera, nowadays, each with '
             'the thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('I lived there', 'lived'),
+         ('I have lived there', 'have'),
+         ('It changed', 'changed'),
+         ('It has changed', 'has')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: lived, have, changed, has. The word that changes '
+            'is never the verb; it is the little word in front of it.'),
 
  7: lambda: F.category_set(
         [('A letter', 'notice'), ('A camera', 'camera'),
@@ -349,14 +352,14 @@ FIGURES = {
             'in his first week and still has.'),
 
  38: lambda: F.decision_fork(
-        'A place you know is changing and you cannot stop it?',
+        'A place you know is about to change. What do you do?',
         [('Write down what it was',
-          ['memory is the part you can keep', 'nobody reads it yet'],
+          ['memory is the part you can keep', 'nobody will ask for it now'],
           'notebook'),
          ('Say nothing and let it go',
           ['nothing to do', 'five people will say five things'], 'cross'),
          ('Tell everybody who will listen',
-          ['they all hear it', 'nobody wants a speech about it'],
+          ['they all hear it', 'nobody asked you to'],
           'loudspeaker')],
         height=620,
         alt='The decision task as one question and three branches, with what '

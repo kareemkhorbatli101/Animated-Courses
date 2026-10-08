@@ -116,6 +116,9 @@ def pron_kind(lines):
                 beats.append((_clean(m.group(1)), _clean(m.group(2))))
         if beats:
             return 'beat', beats
+        beats = _beat_after_dash(lines)
+        if beats:
+            return 'beat', beats
         return 'none', []
     if any(t for _, _, t in rows):
         return 'beat', [(a, b) for a, b, _ in rows if t_ok(a)]
@@ -134,6 +137,43 @@ def pron_kind(lines):
             out.append((a, [x.lower() for x in syls], st))
         return 'stress', out
     return 'pair', [(a, b) for a, b, _ in rows]
+
+
+def _beat_after_dash(lines):
+    """`> You must wait - *must* is short and its **t** is soft`
+
+    Every Pronunciation section in A2.2 is written this way: a phrase, a dash,
+    and an explanation that italicises the word the phrase is about. The word
+    to ring is named in the explanation, or in the section's own rubric
+    ("Listen to *going to*"), and it has to be found in the phrase rather than
+    assumed -- `going to` is in three of Unit 11's four lines and the fourth
+    says `Are you going to come?`.
+    """
+    rub = next((l for l in lines if 'Listen' in l and l.strip().startswith('> **')), '')
+    topics = re.findall(r'\*([^*]{2,20}?)\*', rub.replace('**', ''))
+    rows = []
+    for l in lines:
+        t = l.strip()
+        if not t.startswith('>') or t.startswith('> **'):
+            continue
+        t = t.lstrip('> ').strip()
+        m = re.match(r'^([^:\u2014\u2013]{4,70}?)\s*[\u2014\u2013]\s*(.+)$', t)
+        if not m:
+            continue
+        phrase = _clean(m.group(1))
+        if len(phrase.split()) > 9 or not phrase:
+            continue
+        expl = m.group(2)
+        cands = [c for c in topics + re.findall(r'\*([^*]{1,20}?)\*', expl) if c.strip()]
+        hit = ''
+        for c in cands:
+            mm = re.search(rf'(?<![\w\u2019]){re.escape(c.strip())}(?![\w\u2019])',
+                           phrase, re.I)
+            if mm:
+                hit = phrase[mm.start():mm.end()]
+                break
+        rows.append((phrase, hit))
+    return rows[:4]
 
 
 def t_ok(_s):

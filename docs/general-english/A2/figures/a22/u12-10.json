@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What it usually does",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    536.2,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It rains here in short showers.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1057.9,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What happens twice a",
+   "size": 30,
+   "bbox": [
+    190,
+    237.9,
+    565.2,
+    264.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "winter",
+   "size": 30,
+   "bbox": [
+    190,
+    269.9,
+    298.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "We get fog twice a winter and the buses",
+   "size": 26,
+   "bbox": [
+    670,
+    239.2,
+    1195.0,
+    262.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stop.",
+   "size": 26,
+   "bbox": [
+    670,
+    269.2,
+    734.4,
+    292.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What almost never",
+   "size": 30,
+   "bbox": [
+    190,
+    400.9,
+    510.9,
+    427.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "happens",
+   "size": 30,
+   "bbox": [
+    190,
+    432.9,
+    334.1,
+    459.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It never freezes hard enough for ice.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1145.0,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- what the weather usually does, what happens twice a winter, and what almost never happens -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "849008c1cbdf4a3a67b0b4d8cb9f15aa56fe4f525447eab28facbb8f81ae8f6e"
+}

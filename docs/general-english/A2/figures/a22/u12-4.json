@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  577
+  612
  ],
  "bounds": [
   74.0,
-  28.6,
+  30.0,
   1366.0,
-  548.7
+  582.1
  ],
  "texts": [
   {
@@ -15,21 +15,33 @@
    "size": 34,
    "bbox": [
     219.7,
-    203.5,
+    204.9,
     340.3,
-    233.9
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "it will rain, her shoulder says",
-   "size": 24,
+   "text": "it will rain, her shoulder",
+   "size": 28,
    "bbox": [
-    107.1,
-    246.6,
-    452.9,
-    268.1
+    114.1,
+    245.6,
+    445.9,
+    270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "says",
+   "size": 28,
+   "bbox": [
+    248.5,
+    277.6,
+    311.5,
+    302.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +51,9 @@
    "size": 34,
    "bbox": [
     659.7,
-    203.5,
+    204.9,
     780.3,
-    233.9
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +63,9 @@
    "size": 28,
    "bbox": [
     541.9,
-    244.2,
+    245.6,
     898.1,
-    268.7
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +75,9 @@
    "size": 34,
    "bbox": [
     1109.6,
-    203.5,
+    204.9,
     1210.4,
-    233.9
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +87,9 @@
    "size": 28,
    "bbox": [
     1025.1,
-    244.2,
+    245.6,
     1294.9,
-    268.7
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -87,9 +99,9 @@
    "size": 34,
    "bbox": [
     236.5,
-    483.5,
+    484.9,
     323.5,
-    513.9
+    515.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -99,9 +111,9 @@
    "size": 28,
    "bbox": [
     100.3,
-    524.2,
+    525.6,
     459.7,
-    548.7
+    550.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -111,21 +123,33 @@
    "size": 34,
    "bbox": [
     601.0,
-    483.5,
+    484.9,
     839.0,
-    513.9
+    515.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "says nothing, brings an umbrella",
-   "size": 22,
+   "text": "says nothing, brings an",
+   "size": 28,
    "bbox": [
-    539.3,
-    528.1,
-    900.7,
-    548.1
+    556.2,
+    525.6,
+    883.8,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "umbrella",
+   "size": 28,
+   "bbox": [
+    658.2,
+    557.6,
+    781.8,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -135,21 +159,33 @@
    "size": 34,
    "bbox": [
     1119.7,
-    483.5,
+    484.9,
     1200.3,
-    513.9
+    515.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "reads it twice, then asks Amina",
-   "size": 22,
+   "text": "reads it twice, then asks",
+   "size": 28,
    "bbox": [
-    987.3,
-    528.1,
-    1332.7,
-    548.1
+    989.2,
+    525.6,
+    1330.8,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Amina",
+   "size": 28,
+   "bbox": [
+    1115.4,
+    557.6,
+    1204.6,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -162,7 +198,7 @@
  "alt": "What each of the six people at number 14 thinks the weather will do: Amina says it will rain because her shoulder says so, Tomas says it might snow and rides in anyway, Maya will take a coat, Dani says it will be fine and is wrong, Mr Okonkwo says nothing and brings an umbrella, and Yuki reads the forecast twice and then asks Amina.",
  "placed_in": [
   6.260416666666667,
-  2.5104166666666665
+  2.65625
  ],
- "sha256": "694644a02fac24ad55862f7d15287223269f2cb61a0d90c28fc99f04e3dcb62e"
+ "sha256": "7906e5155db30a1a794a50db6d2573e09e43893bf1d8fc6832010175774a7231"
 }

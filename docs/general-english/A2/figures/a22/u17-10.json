@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Where it was made",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    515.0,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "This cup was made in a factory.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1080.3,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "How a part was added",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    567.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The handle was put on by a machine.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1159.0,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What happened to a bad",
+   "size": 30,
+   "bbox": [
+    190,
+    400.9,
+    607.2,
+    427.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one",
+   "size": 30,
+   "bbox": [
+    190,
+    432.9,
+    252.3,
+    459.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "One with a bad handle was thrown away.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1203.8,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- where the thing was made, how a part was added, and what happened to a bad one -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "d16d93f21ecc88e23f80593cc332665b0f1a03c289002c6b707041228cf275fb"
+}

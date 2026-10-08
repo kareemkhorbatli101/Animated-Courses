@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "chance",
+   "size": 30,
+   "bbox": [
+    152.1,
+    209.4,
+    270.9,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "risk",
+   "size": 30,
+   "bbox": [
+    519.1,
+    209.4,
+    581.9,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "safe",
+   "size": 30,
+   "bbox": [
+    853.8,
+    209.4,
+    925.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "emergency",
+   "size": 30,
+   "bbox": [
+    1134.9,
+    209.4,
+    1322.1,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "rains",
+   "size": 30,
+   "bbox": [
+    169.2,
+    427.4,
+    253.8,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will stay",
+   "size": 30,
+   "bbox": [
+    480.5,
+    427.4,
+    620.5,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "factory",
+   "size": 30,
+   "bbox": [
+    829.3,
+    427.4,
+    949.7,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "century",
+   "size": 30,
+   "bbox": [
+    1163.7,
+    427.4,
+    1293.3,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: chance, risk, safe, emergency, rains, will stay, factory, century.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "92ebd2b13215d569bba0bc83902314dab8df34feb67de624546abfe072f9d0d1"
+}

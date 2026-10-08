@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  412
+ ],
+ "bounds": [
+  43,
+  20.4,
+  1397,
+  391.6
+ ],
+ "texts": [
+  {
+   "text": "the notebook",
+   "size": 28,
+   "bbox": [
+    118.1,
+    333.1,
+    328.9,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "six pages with",
+   "size": 28,
+   "bbox": [
+    440.9,
+    333.1,
+    668.1,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "names",
+   "size": 28,
+   "bbox": [
+    502.7,
+    367.1,
+    606.3,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the van",
+   "size": 28,
+   "bbox": [
+    825.9,
+    333.1,
+    945.1,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "four arguments",
+   "size": 28,
+   "bbox": [
+    1093.6,
+    333.1,
+    1339.4,
+    357.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Yuki's notebook, drawn as what is in it: the book she started in her first month because she could not keep the names and the faces together, the six pages with names on them, the van each of them said something different about, and the four arguments it has settled in two years.",
+ "placed_in": [
+  6.260416666666667,
+  1.7916666666666667
+ ],
+ "sha256": "87e6eceae312171690fb422a556be0a5dd49cfc18ef06314b09a14e1f9ce4f8e"
+}

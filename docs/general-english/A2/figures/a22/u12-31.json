@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    359.1,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "They said the river might come up on Tuesday.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    1072.2,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    204.2,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "They say that every winter.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    573.1,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    359.1,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "They were right in the winter you were.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    954.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    204.2,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Was it bad?",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    308.2,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Maya: They said the river might come up on Tuesday. Tomas: They say that every winter. Maya: They were right in the winter you were. Tomas: Was it bad?",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "66acf15aae1410d5c1dfba59b6a4b0fbb2756306854694cdd5c1dfaf538e5bdf"
+}

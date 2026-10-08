@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "I have lived here since four",
+   "size": 28,
+   "bbox": [
+    134,
+    44.7,
+    564.4,
+    69.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "years.",
+   "size": 28,
+   "bbox": [
+    134,
+    78.7,
+    231.2,
+    103.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I have lived here for four years.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    44.7,
+    1342.8,
+    69.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I have lived here since four",
+   "size": 28,
+   "bbox": [
+    134,
+    152.2,
+    564.4,
+    176.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "years.",
+   "size": 28,
+   "bbox": [
+    134,
+    186.2,
+    231.2,
+    210.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She has opened the shop in",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    572.3,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "March.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    241.7,
+    318.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "He works nights since he was",
+   "size": 28,
+   "bbox": [
+    134,
+    367.2,
+    601.1,
+    391.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "twenty-four.",
+   "size": 28,
+   "bbox": [
+    134,
+    401.2,
+    327.3,
+    425.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "75eb70b7c48b1f7aa59007de83a96c31769bf8d38c404560aee2e1ecfe805447"
+}

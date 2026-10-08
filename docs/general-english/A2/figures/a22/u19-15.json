@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "The woman which runs the shop.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    655.0,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The woman who runs the shop.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1336.1,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The woman which runs the shop",
+   "size": 28,
+   "bbox": [
+    134,
+    152.2,
+    644.4,
+    176.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "opens at seven.",
+   "size": 28,
+   "bbox": [
+    134,
+    186.2,
+    384.1,
+    210.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The shop that it sells bread is on",
+   "size": 28,
+   "bbox": [
+    134,
+    259.7,
+    653.5,
+    284.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the corner.",
+   "size": 28,
+   "bbox": [
+    134,
+    293.7,
+    305.1,
+    318.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "This is the street which I live.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    601.0,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "7a6dce711977476cbe98b046fed19b8a25539129d47930d544e714f422aa6a93"
+}

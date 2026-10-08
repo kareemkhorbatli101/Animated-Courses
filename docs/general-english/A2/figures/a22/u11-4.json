@@ -23,13 +23,25 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "is meeting her sister at nine",
-   "size": 26,
+   "text": "is meeting her sister at",
+   "size": 28,
    "bbox": [
-    96.8,
-    245.0,
-    463.2,
+    117.3,
+    244.2,
+    442.7,
     268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nine",
+   "size": 28,
+   "bbox": [
+    249.7,
+    276.2,
+    310.3,
+    300.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -164,5 +176,5 @@
   6.260416666666667,
   2.5104166666666665
  ],
- "sha256": "d62ff3bcda218c1fa1191dd62ebf926e2afe52ad578e5ddfcc49af078dfc4cb0"
+ "sha256": "a93c77daec5cb60e789afa99162082ab4ba9d542554433f4f3daf99a4dcac546"
 }

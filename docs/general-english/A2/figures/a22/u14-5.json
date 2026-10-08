@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  51.0,
+  26.3,
+  1389.0,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    51.8,
+    97.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Pain",
+   "size": 30,
+   "bbox": [
+    174.2,
+    208.5,
+    247.3,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    51.8,
+    436.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Fever",
+   "size": 30,
+   "bbox": [
+    503.1,
+    208.5,
+    597.4,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    51.8,
+    776.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Medicine",
+   "size": 30,
+   "bbox": [
+    813.9,
+    208.5,
+    965.6,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    51.8,
+    1115.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Healthy",
+   "size": 30,
+   "bbox": [
+    1163.6,
+    208.5,
+    1294.9,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    78.6,
+    300.8,
+    97.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dentist",
+   "size": 30,
+   "bbox": [
+    149.0,
+    457.5,
+    272.5,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6",
+   "size": 27,
+   "bbox": [
+    418.1,
+    300.8,
+    436.9,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Throat",
+   "size": 30,
+   "bbox": [
+    494.3,
+    457.5,
+    606.2,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7",
+   "size": 27,
+   "bbox": [
+    757.6,
+    300.8,
+    776.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Sick",
+   "size": 30,
+   "bbox": [
+    854.9,
+    457.5,
+    924.6,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 7,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The seven words of Column A as numbered picture cards: pain, fever, medicine, healthy, dentist, throat, sick, each with the thing it means drawn beside its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "0d08871c23a5dbd2b3f03734cf88f271ebe85b85e1bc5968d784f551b08bf0d3"
+}

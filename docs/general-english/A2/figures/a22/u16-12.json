@@ -47,24 +47,36 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "One point, and the sentence names it.",
-   "size": 26,
+   "text": "One point, and the sentence",
+   "size": 30,
    "bbox": [
-    88.6,
-    393.0,
-    651.4,
-    416.7
+    129.4,
+    390.7,
+    610.6,
+    417.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "She has not changed it since.",
-   "size": 34,
+   "text": "names it.",
+   "size": 30,
    "bbox": [
-    787.2,
-    59.5,
-    1352.8,
+    291.2,
+    430.7,
+    448.8,
+    457.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "She has not changed it",
+   "size": 38,
+   "bbox": [
+    823.3,
+    56.4,
+    1316.7,
     89.9
    ],
    "fill": "#FFFFFF",
@@ -95,13 +107,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "A line that starts and reaches now.",
-   "size": 28,
+   "text": "A line that starts and reaches",
+   "size": 30,
    "bbox": [
-    793.3,
-    392.2,
-    1346.7,
-    416.7
+    818.4,
+    390.7,
+    1321.6,
+    417.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "now.",
+   "size": 30,
+   "bbox": [
+    1030.4,
+    430.7,
+    1109.6,
+    457.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +140,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "4119571ac2ad7fa0c1efec594c2c7b4294d5f26133b98a9ad23d442ce7d51c52"
+ "sha256": "a459a6277dc9cb146550781e247a3dba88a9954bc8aeddd0367f02eda4fdb959"
 }

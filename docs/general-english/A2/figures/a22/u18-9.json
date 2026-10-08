@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "safe",
+   "size": 30,
+   "bbox": [
+    175.8,
+    258.6,
+    247.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "danger",
+   "size": 30,
+   "bbox": [
+    490.7,
+    258.6,
+    610.3,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "luck",
+   "size": 30,
+   "bbox": [
+    854.8,
+    258.6,
+    924.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "emergency",
+   "size": 30,
+   "bbox": [
+    1134.9,
+    258.6,
+    1322.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: safe, danger, luck, emergency.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "657c8094b7b40482ddf101e77482a3492a2a9ac000804d4e6320be08a08fcb04"
+}

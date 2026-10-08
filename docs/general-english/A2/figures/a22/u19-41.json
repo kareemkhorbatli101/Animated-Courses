@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "actor",
+   "size": 28,
+   "bbox": [
+    134.2,
+    287.7,
+    216.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "artist",
+   "size": 28,
+   "bbox": [
+    404.7,
+    287.7,
+    490.5,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "author",
+   "size": 28,
+   "bbox": [
+    667.4,
+    287.7,
+    772.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "athlete",
+   "size": 28,
+   "bbox": [
+    935.8,
+    287.7,
+    1049.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "builder",
+   "size": 28,
+   "bbox": [
+    1208.8,
+    287.7,
+    1320.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "farmer",
+   "size": 28,
+   "bbox": [
+    121.8,
+    608.7,
+    228.6,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "painter",
+   "size": 28,
+   "bbox": [
+    390.3,
+    608.7,
+    504.9,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "singer",
+   "size": 28,
+   "bbox": [
+    670.5,
+    608.7,
+    769.5,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "tailor",
+   "size": 28,
+   "bbox": [
+    950.1,
+    608.7,
+    1034.7,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "waiter",
+   "size": 28,
+   "bbox": [
+    1214.5,
+    608.7,
+    1315.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 19 as picture cards on one page: actor, artist, author, athlete, builder, farmer, painter, singer, tailor, waiter.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "206a1ecdac8a0b168e722fbab6c841d6903a5fa0d4524463cc8a2dedefef6846"
+}

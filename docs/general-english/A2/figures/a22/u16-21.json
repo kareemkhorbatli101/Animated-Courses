@@ -15,21 +15,33 @@
    "size": 34,
    "bbox": [
     214.6,
-    58.2,
+    48.2,
     525.4,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "ask what was there before",
-   "size": 24,
+   "text": "ask what was there",
+   "size": 28,
    "bbox": [
     138.0,
-    151.3,
-    499.0,
-    172.8
+    148.9,
+    446.1,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "before",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    241.2,
+    207.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -39,21 +51,33 @@
    "size": 28,
    "bbox": [
     138.0,
-    204.9,
+    234.9,
     505.7,
-    229.4
+    259.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask about one more thing",
-   "size": 26,
+   "text": "ask about one more",
+   "size": 28,
    "bbox": [
     138.0,
-    261.7,
-    515.9,
-    285.4
+    290.9,
+    452.3,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thing",
+   "size": 28,
+   "bbox": [
+    138.0,
+    324.9,
+    220.9,
+    349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -63,9 +87,9 @@
    "size": 28,
    "bbox": [
     138.0,
-    316.9,
+    376.9,
     437.2,
-    341.4
+    401.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,21 +99,33 @@
    "size": 34,
    "bbox": [
     916.4,
-    58.2,
+    48.2,
     1223.6,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "name the thing that was there",
-   "size": 22,
+   "text": "name the thing that was",
+   "size": 28,
    "bbox": [
     838.0,
-    152.8,
-    1217.5,
-    172.8
+    148.9,
+    1226.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "there",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    923.1,
+    207.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -99,33 +135,57 @@
    "size": 28,
    "bbox": [
     838.0,
-    204.9,
+    234.9,
     1189.5,
-    229.4
+    259.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "give one thing that still runs",
-   "size": 24,
+   "text": "give one thing that still",
+   "size": 28,
    "bbox": [
     838.0,
-    263.3,
-    1225.1,
-    284.8
+    290.9,
+    1209.4,
+    315.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "do not say whether it is better",
-   "size": 22,
+   "text": "runs",
+   "size": 28,
    "bbox": [
     838.0,
-    320.8,
-    1216.7,
-    340.8
+    324.9,
+    908.4,
+    349.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not say whether it is",
+   "size": 28,
+   "bbox": [
+    838.0,
+    376.9,
+    1211.7,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "better",
+   "size": 28,
+   "bbox": [
+    838.0,
+    410.9,
+    936.6,
+    435.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +200,5 @@
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "82a2c68cfe0e4324d3621a92eef3a6d2ed37d2154859799fab06b87a525fe11b"
+ "sha256": "adeee70938fa7fae2405e48d5f85978bd978667d0b5eb59c22733e1be5d02ef8"
 }

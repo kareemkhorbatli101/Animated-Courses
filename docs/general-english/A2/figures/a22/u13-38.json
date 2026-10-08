@@ -1,0 +1,216 @@
+{
+ "canvas": [
+  1440,
+  629
+ ],
+ "bounds": [
+  47.0,
+  30,
+  1393.0,
+  599.2
+ ],
+ "texts": [
+  {
+   "text": "A place you belong to has rules nobody has written down?",
+   "size": 34,
+   "bbox": [
+    158.9,
+    67.0,
+    1281.1,
+    97.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Write them on a",
+   "size": 30,
+   "bbox": [
+    124.7,
+    368.2,
+    397.9,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "notice",
+   "size": 30,
+   "bbox": [
+    209.0,
+    404.2,
+    313.7,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "everybody can read",
+   "size": 26,
+   "bbox": [
+    131.6,
+    470.5,
+    391.1,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "them",
+   "size": 26,
+   "bbox": [
+    227.3,
+    501.5,
+    295.3,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a building is not a",
+   "size": 26,
+   "bbox": [
+    145.1,
+    544.5,
+    377.5,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "station",
+   "size": 26,
+   "bbox": [
+    216.6,
+    575.5,
+    306.1,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tell each new person",
+   "size": 30,
+   "bbox": [
+    542.9,
+    368.2,
+    897.1,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "yourself",
+   "size": 30,
+   "bbox": [
+    651.1,
+    404.2,
+    788.9,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is a way of meeting",
+   "size": 26,
+   "bbox": [
+    579.6,
+    470.5,
+    860.4,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "them",
+   "size": 26,
+   "bbox": [
+    686.0,
+    501.5,
+    754.0,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you have to be there",
+   "size": 26,
+   "bbox": [
+    584.0,
+    544.5,
+    856.0,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Leave it as it is",
+   "size": 30,
+   "bbox": [
+    1050.2,
+    368.2,
+    1307.1,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing to do",
+   "size": 26,
+   "bbox": [
+    1091.5,
+    434.5,
+    1265.8,
+    458.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a new person finds out",
+   "size": 24,
+   "bbox": [
+    1041.4,
+    480.1,
+    1315.9,
+    501.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "when somebody tells them",
+   "size": 24,
+   "bbox": [
+    1016.1,
+    509.1,
+    1341.3,
+    530.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: write them on a notice, which makes a building sound like a station; tell each new person yourself, which is a way of meeting them; or leave it, and a new person finds out when somebody tells them off.",
+ "placed_in": [
+  6.260416666666667,
+  2.7395833333333335
+ ],
+ "sha256": "cfa98655f974a88508f539f9d4f84c23916fa16689f3071679b3a70b274772c1"
+}

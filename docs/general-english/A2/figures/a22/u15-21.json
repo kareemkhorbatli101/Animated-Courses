@@ -15,9 +15,9 @@
    "size": 34,
    "bbox": [
     214.6,
-    58.2,
+    48.2,
     525.4,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -35,37 +35,73 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "ask again after a short answer",
-   "size": 22,
+   "text": "ask again after a short",
+   "size": 28,
    "bbox": [
     138.0,
-    208.8,
-    517.9,
-    228.8
+    204.9,
+    497.8,
+    229.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask whether they wanted to",
-   "size": 24,
+   "text": "answer",
+   "size": 28,
    "bbox": [
     138.0,
-    263.3,
-    519.0,
-    284.8
+    238.9,
+    252.2,
+    263.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "find something of your own",
-   "size": 24,
+   "text": "ask whether they",
+   "size": 28,
    "bbox": [
     138.0,
-    319.3,
-    510.4,
-    340.8
+    290.9,
+    413.2,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wanted to",
+   "size": 28,
+   "bbox": [
+    138.0,
+    324.9,
+    297.5,
+    349.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "find something of your",
+   "size": 28,
+   "bbox": [
+    138.0,
+    376.9,
+    497.6,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "own",
+   "size": 28,
+   "bbox": [
+    138.0,
+    410.9,
+    203.0,
+    435.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,9 +111,9 @@
    "size": 34,
    "bbox": [
     878.4,
-    58.2,
+    48.2,
     1261.6,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -140,5 +176,5 @@
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "fd9b72e37eed6ee7a27d5e464431314189ed0dd1bee612d2bc1adf72f00443c2"
+ "sha256": "b00c3ac3d505929af337b30011d3fd5d9433ac0c7cec09c3a0566990eab39f7d"
 }

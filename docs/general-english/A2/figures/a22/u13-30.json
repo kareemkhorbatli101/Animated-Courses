@@ -23,13 +23,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "you mustn\u2019t go in unless you belong",
-   "size": 24,
+   "text": "you mustn\u2019t go in unless you",
+   "size": 28,
    "bbox": [
-    858.6,
-    63.1,
-    1351.4,
-    84.6
+    876.3,
+    43.7,
+    1333.7,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "belong",
+   "size": 28,
+   "bbox": [
+    1051.1,
+    77.7,
+    1158.9,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +140,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "9063de6c20f8c398d50e4337a35c0f149e4e62a843e603e8ee2af91ef35e1c98"
+ "sha256": "e9554a127fa5da1dcc4bba9e60dc290de51858e1b85a55bc656e92bbf4d23e90"
 }

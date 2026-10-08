@@ -23,13 +23,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "the half that waits \u2014 the present",
-   "size": 30,
+   "text": "the half that waits \u2014 the",
+   "size": 32,
    "bbox": [
-    89.5,
-    140.7,
-    650.5,
+    146.0,
+    139.1,
+    594.0,
     167.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "present",
+   "size": 32,
+   "bbox": [
+    300.4,
+    179.1,
+    439.6,
+    207.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +140,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "7bf9d31b34290cff467422ead8ff15589f4215aae324c0566d2d7050263fef9c"
+ "sha256": "3c1ed3b97feb14962bbb28bf3d64bf4dce2174c9751cf379ea8846bcfff2b5cd"
 }

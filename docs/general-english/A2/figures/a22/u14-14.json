@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "go to work today",
+   "size": 28,
+   "bbox": [
+    81.4,
+    60.9,
+    349.1,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "see a doctor",
+   "size": 28,
+   "bbox": [
+    454.1,
+    60.9,
+    649.4,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "rest for two days",
+   "size": 28,
+   "bbox": [
+    753.8,
+    60.9,
+    1022.7,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "take for it",
+   "size": 28,
+   "bbox": [
+    1146.3,
+    60.9,
+    1303.2,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "advice",
+   "size": 34,
+   "bbox": [
+    201.8,
+    202.2,
+    326.2,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "against",
+   "size": 34,
+   "bbox": [
+    648.7,
+    202.2,
+    791.3,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "asking",
+   "size": 34,
+   "bbox": [
+    1113.0,
+    202.2,
+    1239.0,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above three empty bins -- advice, advice against, and asking for advice. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "10123007a4db18f730c79805597ea1ce9a1f0f544aae2b7c19b9f146af3865aa"
+}

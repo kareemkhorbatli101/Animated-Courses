@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "There is a man who walks a dog past my window.",
-   "size": 22,
+   "text": "There is a man who walks a dog past my",
+   "size": 26,
    "bbox": [
     670,
-    64.8,
-    1215.4,
-    84.7
+    46.6,
+    1201.7,
+    70.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "window.",
+   "size": 26,
+   "bbox": [
+    670,
+    76.6,
+    774.5,
+    100.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -71,13 +83,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "He is the person who told me which bin day it was.",
-   "size": 22,
+   "text": "He is the person who told me which bin day",
+   "size": 26,
    "bbox": [
     670,
-    174.3,
-    1231.9,
-    194.2
+    156.2,
+    1241.1,
+    179.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it was.",
+   "size": 26,
+   "bbox": [
+    670,
+    186.2,
+    754.7,
+    209.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +188,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "8b53acab4b5fedcdd013be5a9b96363081169166d31f73f22fbf4dd8058ddfd5"
+ "sha256": "541cb8f9140886135183c9ae744daacad9ebfe103f7dadd7bd189b56f59a9333"
 }

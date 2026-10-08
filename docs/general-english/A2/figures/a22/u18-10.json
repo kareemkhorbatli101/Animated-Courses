@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What might go wrong",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    557.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If the bus does not come at eight I will walk.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1245.6,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you will do",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    472.5,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I will be late, and nobody will mind.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1130.9,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What you are taking",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    534.9,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am taking the long coat in case.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1105.0,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- what might go wrong, what you will do then, and what you are taking in case -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "2e7e8789b9c339aa445411a85a2ec60aa83f1944089e32e4c211f559213bfcc5"
+}

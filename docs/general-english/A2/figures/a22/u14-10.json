@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What they should do",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    541.0,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You should drink more than you want to.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1196.8,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "What they should not do",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    607.7,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You shouldn\u2019t take medicine for a small",
+   "size": 26,
+   "bbox": [
+    670,
+    239.2,
+    1181.7,
+    262.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fever.",
+   "size": 26,
+   "bbox": [
+    670,
+    269.2,
+    743.1,
+    292.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "When to see somebody",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    584.2,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If your throat is still bad after five days, see",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1238.1,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    809.6,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences of advice, in three steps -- what they should do, what they should not do, and when to see somebody -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "4bf5b3f3539857f42cdd28b228cb1e5629b86e41c5898109f1cda2fae6827c42"
+}

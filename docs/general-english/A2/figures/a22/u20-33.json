@@ -1,0 +1,216 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the one with the",
+   "size": 34,
+   "bbox": [
+    119.2,
+    42.2,
+    620.8,
+    72.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "first account",
+   "size": 34,
+   "bbox": [
+    249.2,
+    80.2,
+    490.8,
+    110.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give your version with",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    490.6,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "its source",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    292.6,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "question the other",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    433.0,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "source",
+   "size": 28,
+   "bbox": [
+    138.0,
+    268.9,
+    243.2,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "notice the difference",
+   "size": 28,
+   "bbox": [
+    138.0,
+    320.9,
+    467.2,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "propose one answer",
+   "size": 28,
+   "bbox": [
+    138.0,
+    376.9,
+    457.9,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the one with the",
+   "size": 34,
+   "bbox": [
+    819.4,
+    42.2,
+    1320.6,
+    72.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "second",
+   "size": 34,
+   "bbox": [
+    1002.3,
+    80.2,
+    1137.7,
+    110.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give your version with",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1190.6,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "its source",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    992.6,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "report the exact words",
+   "size": 28,
+   "bbox": [
+    838.0,
+    234.9,
+    1200.4,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "agree the wording is not",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1227.4,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same",
+   "size": 28,
+   "bbox": [
+    838.0,
+    324.9,
+    983.8,
+    349.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "propose writing both",
+   "size": 28,
+   "bbox": [
+    838.0,
+    376.9,
+    1170.4,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the one with the first account: give your version with its source, question the other source, notice the difference in the wording, propose one answer. Card B \u2014 the one with the second: give your version with its source, report the exact words, agree the wording is not the same, propose writing both.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "22877d22c502ee8483b8687da16b9b3dbe1e309b10975229e8612ec640236750"
+}

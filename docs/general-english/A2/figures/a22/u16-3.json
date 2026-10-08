@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "camera",
+   "size": 30,
+   "bbox": [
+    149.2,
+    258.6,
+    273.8,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "mobile",
+   "size": 30,
+   "bbox": [
+    493.4,
+    258.6,
+    607.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "computer",
+   "size": 30,
+   "bbox": [
+    808.5,
+    258.6,
+    970.5,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "record",
+   "size": 30,
+   "bbox": [
+    1173.6,
+    258.6,
+    1283.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: camera, mobile, computer, record.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "0af77bd45bb98c72afa8b30b93318811dade3c68f50b777efe1b757c8beae7aa"
+}

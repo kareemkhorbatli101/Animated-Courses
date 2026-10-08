@@ -11,25 +11,49 @@
  ],
  "texts": [
   {
-   "text": "She said to tell you she can\u2019t come.",
-   "size": 26,
+   "text": "She said to tell you she can\u2019t",
+   "size": 28,
    "bbox": [
-    98.3,
-    61.5,
-    621.7,
-    85.2
+    130.3,
+    43.7,
+    589.7,
+    68.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "passing on a message you were given",
-   "size": 22,
+   "text": "come.",
+   "size": 28,
    "bbox": [
-    869.4,
-    64.6,
-    1340.6,
-    84.6
+    312.7,
+    77.7,
+    407.3,
+    102.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "passing on a message you",
+   "size": 28,
+   "bbox": [
+    897.1,
+    43.7,
+    1312.9,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "were given",
+   "size": 28,
+   "bbox": [
+    1017.9,
+    77.7,
+    1192.1,
+    102.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -47,13 +71,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "passing it on without standing behind it",
-   "size": 22,
+   "text": "passing it on without standing",
+   "size": 28,
    "bbox": [
-    856.0,
-    179.6,
-    1354.0,
-    199.6
+    863.6,
+    158.7,
+    1346.4,
+    183.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "behind it",
+   "size": 28,
+   "bbox": [
+    1034.4,
+    192.7,
+    1175.6,
+    217.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +164,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "300260665174816150367a884394e420d46154e109c2f5511995db161725a41b"
+ "sha256": "47c4d80346d2701ca3307b818b2c055daeb8ce867f163a9daef856d096352b27"
 }

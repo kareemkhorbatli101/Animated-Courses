@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  51.0,
+  26.3,
+  1389.0,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    51.8,
+    97.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Actor",
+   "size": 30,
+   "bbox": [
+    165.4,
+    208.5,
+    256.1,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    51.8,
+    436.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Artist",
+   "size": 30,
+   "bbox": [
+    502.8,
+    208.5,
+    597.7,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    51.8,
+    776.4,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Author",
+   "size": 30,
+   "bbox": [
+    831.9,
+    208.5,
+    947.6,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    51.8,
+    1115.9,
+    76.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Athlete",
+   "size": 30,
+   "bbox": [
+    1167.1,
+    208.5,
+    1291.4,
+    235.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    78.6,
+    300.8,
+    97.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Builder",
+   "size": 30,
+   "bbox": [
+    150.1,
+    457.5,
+    271.4,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6",
+   "size": 27,
+   "bbox": [
+    418.1,
+    300.8,
+    436.9,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Singer",
+   "size": 30,
+   "bbox": [
+    495.3,
+    457.5,
+    605.2,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7",
+   "size": 27,
+   "bbox": [
+    757.6,
+    300.8,
+    776.4,
+    325.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tailor",
+   "size": 30,
+   "bbox": [
+    843.3,
+    457.5,
+    936.2,
+    484.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 7,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The seven words of Column A as numbered picture cards: actor, artist, author, athlete, builder, singer, tailor, each with the thing it means drawn beside its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "7302c50c608c9b1aee96390e26034d8ad742fcf3c4b8ed3d780d38fb4233c07f"
+}

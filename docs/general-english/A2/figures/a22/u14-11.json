@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  53,
+  19.7,
+  1387,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "You should drink more water.",
+   "size": 32,
+   "bbox": [
+    142,
+    49.6,
+    670.1,
+    77.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    50.0,
+    105.4,
+    74.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "You shouldn\u2019t go to work today.",
+   "size": 32,
+   "bbox": [
+    142,
+    141.1,
+    715.1,
+    169.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    141.5,
+    105.4,
+    165.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Should I see a doctor?",
+   "size": 32,
+   "bbox": [
+    142,
+    232.6,
+    542.5,
+    260.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    233.0,
+    105.4,
+    257.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What should I take for it?",
+   "size": 32,
+   "bbox": [
+    142,
+    324.1,
+    600.6,
+    352.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    324.5,
+    105.4,
+    348.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four lines from the notice with should or shouldn\u2019t ringed in each. Two give advice and two ask for it, which is the question the task asks.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "9c88da39ac0276069d565a4671702a59ce0a38f9160404661c430a7dbaa7f3a3"
+}

@@ -45,12 +45,14 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: storm, '
             'shower, temperature, fog, freeze, flood, wind, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('It will rain', 'will'),
+         ('It won\u2019t rain', 'won\u2019t'),
+         ('I\u2019ll bring one', 'I\u2019ll'),
+         ('I won\u2019t need it', 'won\u2019t')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: will, won\u2019t, I\u2019ll, won\u2019t.'),
 
  7: lambda: F.category_set(
         [('Heavy rain', 'rain'), ('Ice', 'snow'), ('Fog', 'cloud'),
@@ -347,7 +349,7 @@ FIGURES = {
          ('Do the small cheap thing now',
           ['ten minutes of work', 'you might feel silly'], 'tick'),
          ('Warn everybody else as well',
-          ['five people move things up', 'some of them will not believe it'],
+          ['five people move their books up', 'some of them will not believe it'],
           'loudspeaker')],
         height=620,
         alt='The decision task as one question and three branches, with what '

@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  51.0,
+  19.7,
+  1389.0,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    45.2,
+    97.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "neighbour",
+   "size": 30,
+   "bbox": [
+    124.2,
+    330.9,
+    297.3,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    418.1,
+    45.2,
+    436.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "nickname",
+   "size": 30,
+   "bbox": [
+    469.0,
+    330.9,
+    631.5,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    757.6,
+    45.2,
+    776.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "landmark",
+   "size": 30,
+   "bbox": [
+    809.9,
+    330.9,
+    969.6,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    1097.1,
+    45.2,
+    1115.9,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "description",
+   "size": 30,
+   "bbox": [
+    1134.0,
+    330.9,
+    1324.5,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words from the reading as numbered picture cards: neighbour, nickname, landmark, description.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "77f3d6316f4222ee5f1912d0fe63089dd72644ee1041fbae2ccc3a4b4cb3c7bf"
+}

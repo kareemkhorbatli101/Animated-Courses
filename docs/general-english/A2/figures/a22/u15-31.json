@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You have lived in four cities.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    762.3,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    294.0,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    226.5,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Which one did you like?",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    682.1,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    294.0,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Everybody asks me that.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    530.4,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Yuki: You have lived in four cities. Mr Okonkwo: I have. Yuki: Which one did you like? Mr Okonkwo: Everybody asks me that.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "ceb906f8532944783351a259c8476bc4a36d089ca361944577c81a033a325468"
+}

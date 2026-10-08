@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "factory",
+   "size": 30,
+   "bbox": [
+    151.3,
+    258.6,
+    271.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "material",
+   "size": 30,
+   "bbox": [
+    479.6,
+    258.6,
+    621.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "metal",
+   "size": 30,
+   "bbox": [
+    841.3,
+    258.6,
+    937.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "wool",
+   "size": 30,
+   "bbox": [
+    1188.9,
+    258.6,
+    1268.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: factory, material, metal, wool.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "c43de61646c075118e478e640aa7e51387df81e508787538be3096738f3db856"
+}

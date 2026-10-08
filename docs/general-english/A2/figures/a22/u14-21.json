@@ -15,21 +15,33 @@
    "size": 34,
    "bbox": [
     214.6,
-    58.2,
+    48.2,
     525.4,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "say the problem in four words",
-   "size": 22,
+   "text": "say the problem in four",
+   "size": 28,
    "bbox": [
     138.0,
-    152.8,
-    511.3,
-    172.8
+    148.9,
+    507.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "words",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    233.6,
+    207.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -39,21 +51,33 @@
    "size": 28,
    "bbox": [
     138.0,
-    204.9,
+    234.9,
     367.8,
-    229.4
+    259.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask what you should take",
-   "size": 26,
+   "text": "ask what you should",
+   "size": 28,
    "bbox": [
     138.0,
-    261.7,
-    512.4,
-    285.4
+    290.9,
+    462.4,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "take",
+   "size": 28,
+   "bbox": [
+    138.0,
+    324.9,
+    207.1,
+    349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -63,9 +87,9 @@
    "size": 28,
    "bbox": [
     138.0,
-    316.9,
+    376.9,
     429.8,
-    341.4
+    401.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,9 +99,9 @@
    "size": 34,
    "bbox": [
     897.0,
-    58.2,
+    48.2,
     1243.0,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -95,25 +119,49 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "give the cheap answer too",
-   "size": 26,
+   "text": "give the cheap answer",
+   "size": 28,
    "bbox": [
     838.0,
-    205.7,
-    1226.8,
+    204.9,
+    1195.1,
     229.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say when to see somebody",
-   "size": 24,
+   "text": "too",
+   "size": 28,
    "bbox": [
     838.0,
-    263.3,
-    1202.8,
-    284.8
+    238.9,
+    889.9,
+    263.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say when to see",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1092.2,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody",
+   "size": 28,
+   "bbox": [
+    838.0,
+    324.9,
+    999.6,
+    349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,9 +171,9 @@
    "size": 28,
    "bbox": [
     838.0,
-    316.9,
+    376.9,
     1168.5,
-    341.4
+    401.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +188,5 @@
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "79fbcf066a5764d73c26aae3b67c9a258dd642af29e0efb850f78d76cfafdcc8"
+ "sha256": "f21eb22f4cb7971efd69cbc2b9df6318e6f46e0d2a7aff73b81633deab9ee20d"
 }

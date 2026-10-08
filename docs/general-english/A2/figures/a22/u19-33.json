@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the one with the old",
+   "size": 34,
+   "bbox": [
+    83.6,
+    42.2,
+    656.4,
+    72.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "name",
+   "size": 34,
+   "bbox": [
+    317.2,
+    80.2,
+    422.8,
+    110.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "use your name",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    371.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "be surprised",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    336.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how long you have",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    497.3,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "used it",
+   "size": 28,
+   "bbox": [
+    138.0,
+    294.9,
+    246.4,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not apologise",
+   "size": 28,
+   "bbox": [
+    138.0,
+    346.9,
+    401.6,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the one with the",
+   "size": 34,
+   "bbox": [
+    819.4,
+    42.2,
+    1320.6,
+    72.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "real name",
+   "size": 34,
+   "bbox": [
+    974.1,
+    80.2,
+    1165.9,
+    110.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give the name",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1063.7,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how you know",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1126.3,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "let the other one keep",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1190.7,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "theirs",
+   "size": 28,
+   "bbox": [
+    838.0,
+    294.9,
+    930.4,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say so out loud",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1077.5,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the one with the old name: use your name, be surprised, say how long you have used it, do not apologise. Card B \u2014 the one with the real name: give the name, say how you know, let the other one keep theirs, say so out loud.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "e19ad12e5e59b6fd7fc1a3542614b688b31fcb211f172605c66b67ba7a767f96"
+}

@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "She said me the van was outside.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    664.3,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She told me the van was",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1231.1,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "outside.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    95.7,
+    970.5,
+    120.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She said me the van was outside.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    664.3,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "He asked where was the key.",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    592.2,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "He said he has not seen it.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    555.3,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "fd29475a556456dc207e32952aec22b75a00d68db9066d817740031b8e894060"
+}

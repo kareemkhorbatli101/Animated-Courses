@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Who is the person you",
+   "size": 28,
+   "bbox": [
+    91.1,
+    289.7,
+    444.9,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "see most often and",
+   "size": 28,
+   "bbox": [
+    115.5,
+    323.7,
+    420.5,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "cannot name?",
+   "size": 28,
+   "bbox": [
+    157.5,
+    357.7,
+    378.5,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Which shop near you is",
+   "size": 28,
+   "bbox": [
+    536.4,
+    289.7,
+    903.6,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the one everybody",
+   "size": 28,
+   "bbox": [
+    572.1,
+    323.7,
+    867.9,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "uses?",
+   "size": 28,
+   "bbox": [
+    675.7,
+    357.7,
+    764.3,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Where is the street",
+   "size": 28,
+   "bbox": [
+    1019.2,
+    323.7,
+    1324.8,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "where you grew up?",
+   "size": 28,
+   "bbox": [
+    1012.4,
+    357.7,
+    1331.6,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "782690bc4704bfd4c7f8cda598849ad68adfd27a08a406ff63d88e98d552f2f1"
+}

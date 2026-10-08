@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What will the weather",
+   "size": 28,
+   "bbox": [
+    93.4,
+    289.7,
+    442.6,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "do tomorrow where you",
+   "size": 28,
+   "bbox": [
+    79.3,
+    323.7,
+    456.7,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "are?",
+   "size": 28,
+   "bbox": [
+    234.0,
+    357.7,
+    302.0,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What weather stops",
+   "size": 28,
+   "bbox": [
+    560.8,
+    289.7,
+    879.2,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "everything where you",
+   "size": 28,
+   "bbox": [
+    547.1,
+    323.7,
+    892.9,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "live?",
+   "size": 28,
+   "bbox": [
+    683.7,
+    357.7,
+    756.3,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What do you always",
+   "size": 28,
+   "bbox": [
+    1013.8,
+    289.7,
+    1330.2,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "carry, and have you",
+   "size": 28,
+   "bbox": [
+    1016.3,
+    323.7,
+    1327.7,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "ever needed it?",
+   "size": 28,
+   "bbox": [
+    1049.1,
+    357.7,
+    1294.9,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "2cc69068a42b09170adb928bb04fbaf1fb1b077509694deb3f745cd7536dd426"
+}

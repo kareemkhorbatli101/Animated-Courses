@@ -44,12 +44,14 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: diary, '
             'booking, meeting, host, remind, prepare, holiday, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('I\u2019m going to ask them', 'going to'),
+         ('He\u2019s going to cook', 'going to'),
+         ('We\u2019re going to the station', 'going to'),
+         ('Are you going to come?', 'going to')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: going to, going to, going to, going to.'),
 
  7: lambda: F.category_set(
         [('A train at nine', 'bus'), ('Dinner on Friday', 'kitchen'),
@@ -341,7 +343,7 @@ FIGURES = {
  38: lambda: F.decision_fork(
         'You want to ask six neighbours and two have never spoken to you?',
         [('Ask everybody at once',
-          ['nobody is an afterthought', 'you ask two strangers'], 'crowd'),
+          ['nobody is an afterthought', 'you ask two you have not met'], 'crowd'),
          ('Ask the ones you know first',
           ['the easy ones say yes', 'the others can tell'], 'person'),
          ('Put a note through every door',

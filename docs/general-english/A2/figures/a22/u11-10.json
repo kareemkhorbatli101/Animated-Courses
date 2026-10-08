@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "One day in your diary",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    553.6,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am at the hospital on Tuesday.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1083.1,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who you are meeting",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    552.7,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "On Thursday I am meeting a friend.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1134.4,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The weekend",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    413.3,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the weekend I am doing nothing at all.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1208.3,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps -- one day in your diary, who you are meeting, and the weekend -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "51301bd01327bfece896d34618d0ddd56c3a2b668a8a6953a1f0175eb517a95f"
+}

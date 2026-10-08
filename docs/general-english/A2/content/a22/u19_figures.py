@@ -44,12 +44,16 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: actor, '
             'artist, author, athlete, builder, singer, tailor, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('The man who mends shoes', 'who'),
+         ('The shop that sells bread', 'that'),
+         ('The shop sells bread', ''),
+         ('The shop I use sells bread', '')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed: who, that. In speech the joining word is the quietest '
+            'thing in the sentence, and two of these four lines do without '
+            'one altogether.'),
 
  7: lambda: F.category_set(
         [('A tailor', 'cloth'), ('A builder', 'home'),
@@ -198,7 +202,7 @@ FIGURES = {
  22: lambda: F.talk_shape(
         [('the first person', 2, 'person'),
          ('the second', 2, 'guest'),
-         ('the third', 2, 'crowd')],
+         ('the last one', 2, 'crowd')],
         height=420,
         alt='The one-minute talk as three equal beats on a clock line, one '
             'for each of the three people in your street you describe without '
@@ -339,7 +343,7 @@ FIGURES = {
             'loom, weave, pattern, strip.'),
  37: lambda: F.close_scene(
         [('flat 1', 'door'), ('the staircase', 'stairs'),
-         ('the bread for the birds', 'bread'), ('two notes', 'envelope')],
+         ('the bread for the birds', 'bread'), ('a note never posted', 'envelope')],
         height=460,
         alt='The woman in flat 1 nobody has met, drawn as the things she '
             'leaves behind her: the door of flat 1, the staircase she painted '
@@ -350,13 +354,13 @@ FIGURES = {
  38: lambda: F.decision_fork(
         'Somebody in your building has never spoken to anybody?',
         [('Knock',
-          ['you meet her at last', 'she explains herself at her own door'],
+          ['you meet her at last', 'she has to explain herself'],
           'door'),
          ('Write a note',
-          ['she answers when she wants', 'she has to answer something'],
+          ['she can answer when she likes', 'she has to answer something'],
           'envelope'),
          ('Leave her alone',
-          ['four words a year is a decision', 'nobody ever meets her'],
+          ['four words a year is a decision', 'nobody ever met her'],
           'moon')],
         height=620,
         alt='The decision task as one question and three branches, with what '

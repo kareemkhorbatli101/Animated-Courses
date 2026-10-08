@@ -1,0 +1,228 @@
+{
+ "canvas": [
+  1440,
+  629
+ ],
+ "bounds": [
+  47.0,
+  30,
+  1393.0,
+  599.2
+ ],
+ "texts": [
+  {
+   "text": "You want to ask six neighbours and two have never spoken to",
+   "size": 34,
+   "bbox": [
+    124.8,
+    67.0,
+    1315.2,
+    97.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Ask everybody at",
+   "size": 30,
+   "bbox": [
+    114.2,
+    368.2,
+    408.4,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "once",
+   "size": 30,
+   "bbox": [
+    221.3,
+    404.2,
+    301.4,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody is an",
+   "size": 26,
+   "bbox": [
+    178.1,
+    470.5,
+    344.5,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "afterthought",
+   "size": 26,
+   "bbox": [
+    179.5,
+    501.5,
+    343.2,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you ask two you have",
+   "size": 26,
+   "bbox": [
+    119.2,
+    544.5,
+    403.5,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "not met",
+   "size": 26,
+   "bbox": [
+    210.2,
+    575.5,
+    312.5,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Ask the ones you",
+   "size": 30,
+   "bbox": [
+    575.0,
+    368.2,
+    865.0,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "know first",
+   "size": 30,
+   "bbox": [
+    635.3,
+    404.2,
+    804.7,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the easy ones say yes",
+   "size": 26,
+   "bbox": [
+    575.8,
+    470.5,
+    864.2,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the others can tell",
+   "size": 26,
+   "bbox": [
+    601.2,
+    514.5,
+    838.8,
+    538.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Put a note through",
+   "size": 30,
+   "bbox": [
+    1018.1,
+    368.2,
+    1339.3,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "every door",
+   "size": 30,
+   "bbox": [
+    1087.4,
+    404.2,
+    1269.9,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody has to answer",
+   "size": 26,
+   "bbox": [
+    1034.9,
+    470.5,
+    1322.4,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you",
+   "size": 26,
+   "bbox": [
+    1154.8,
+    501.5,
+    1202.6,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a note is easy to put",
+   "size": 26,
+   "bbox": [
+    1045.3,
+    544.5,
+    1312.0,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "down",
+   "size": 26,
+   "bbox": [
+    1143.6,
+    575.5,
+    1213.7,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: ask everybody at once and nobody is an afterthought; ask the ones you know first and the others can tell; or put a note through every door, which is easy to put down and never answer.",
+ "placed_in": [
+  6.260416666666667,
+  2.7395833333333335
+ ],
+ "sha256": "d129ebfeac0110c80ef6779ab8c7eaae29c59cfa07ada268060a3ce4eb250687"
+}

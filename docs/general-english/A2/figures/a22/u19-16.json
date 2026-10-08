@@ -83,13 +83,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "the man who mends shoes",
-   "size": 24,
+   "text": "the man who mends",
+   "size": 26,
    "bbox": [
-    558.3,
-    358.5,
-    881.7,
-    380.0
+    586.6,
+    356.9,
+    853.4,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "shoes",
+   "size": 26,
+   "bbox": [
+    682.3,
+    388.9,
+    757.7,
+    412.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -119,13 +131,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "six people, six descriptions",
-   "size": 24,
+   "text": "six people, six",
+   "size": 26,
    "bbox": [
-    1011.0,
-    358.5,
-    1335.6,
-    380.0
+    1080.7,
+    356.9,
+    1266.0,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "descriptions",
+   "size": 26,
+   "bbox": [
+    1094.3,
+    388.9,
+    1252.4,
+    412.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +164,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "d19619fecc51113dfe43fb284b7b691197dcb8ff8a73056682c4b61fbed0a390"
+ "sha256": "813ba65e7501d40c7ca39fc913d2024b9284ae1450254cad409adac84cf01aeb"
 }

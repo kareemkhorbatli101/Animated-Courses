@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "snow on Thursday",
+   "size": 28,
+   "bbox": [
+    72.2,
+    59.8,
+    358.3,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "warm until April",
+   "size": 28,
+   "bbox": [
+    424.5,
+    59.8,
+    679.0,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "take the bus",
+   "size": 28,
+   "bbox": [
+    789.4,
+    59.8,
+    987.1,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bring an umbrella",
+   "size": 28,
+   "bbox": [
+    1083.9,
+    59.8,
+    1365.6,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sure",
+   "size": 34,
+   "bbox": [
+    335.9,
+    201.1,
+    420.1,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "possible",
+   "size": 34,
+   "bbox": [
+    982.6,
+    201.1,
+    1141.4,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above two empty bins, one for what is sure and one for what is only possible. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "24c4f52f792dd4ec502dea66b1df425c2934b7931be3079c8785fe5ed4ed4ac5"
+}

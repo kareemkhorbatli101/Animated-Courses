@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "which place",
+   "size": 28,
+   "bbox": [
+    89.9,
+    272.0,
+    275.7,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    703.6,
+    128.5,
+    724.4,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "its three most important rules",
+   "size": 28,
+   "bbox": [
+    474.6,
+    272.0,
+    953.4,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1234.8,
+    128.5,
+    1255.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what happens if",
+   "size": 24,
+   "bbox": [
+    1136.4,
+    244.4,
+    1354.0,
+    265.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you break one",
+   "size": 24,
+   "bbox": [
+    1148.6,
+    274.4,
+    1341.8,
+    295.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: which place it is, its three most important rules, and what happens if you break one.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "1c1a7e11863ac1085271796a4112af664eaebefd274ee0997288e37807476b2e"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what has not changed",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    564.8,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have had the same walk for nine years.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1201.3,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how long",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    343.8,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Everything round it has changed twice.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1180.4,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "why it has lasted",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    478.6,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The walk has lasted because nobody has",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1204.2,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ever.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    734.0,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the message in three steps -- what has not changed, how long, why it has lasted -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "5ff3ba5b40cdd211e179478eed3a111ca5af8891de2dd43dc4c433cfcbf33fe5"
+}

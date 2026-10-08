@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    343.7,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Who is the man who cleans the lane?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    910.4,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    189.1,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Which man?",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    316.6,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    343.7,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tall, hat, cleans the lane on Thursdays.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    944.4,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    189.1,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "That is the man Amina calls the caretaker.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    826.6,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Yuki: Who is the man who cleans the lane? Maya: Which man? Yuki: Tall, hat, cleans the lane on Thursdays. Maya: That is the man Amina calls the caretaker.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "40cbf7dd73c6ce4bb40b915b5c65698c0f73359721b19590fdc8902e962dc82a"
+}

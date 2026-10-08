@@ -45,12 +45,16 @@ FIGURES = {
         alt='The seven words of Column A as numbered picture cards: news, '
             'text, reply, rumour, article, interview, reporter, each with the '
             'thing it means drawn beside its number.'),
-
-        # REVIEW: pronunciation section not recognised
- 6: lambda: F.sound_shape(
-        [REVIEW],
-        height=460,
-        alt='The pronunciation point of this unit, drawn.'),
+ 6: lambda: F.annotated_lines(
+        [('He said, “I am tired”', 'said'),
+         ('He said he was tired', 'said'),
+         ('She asked, “Where is it?”', 'asked'),
+         ('She asked where it was', 'asked')],
+        height=464,
+        alt='Four phrases from this unit with the word that carries the sound '
+            'ringed in each: said, said, asked, asked. When you report a '
+            'question the question mark goes, and so does the voice going up '
+            'at the end.'),
 
  7: lambda: F.category_set(
         [('The van is outside', 'mobile'), ('I have not seen it', 'person'),
@@ -355,14 +359,14 @@ FIGURES = {
             'it has settled in two years.'),
 
  38: lambda: F.decision_fork(
-        'You keep notes about what people said and one of them minds?',
+        'You keep notes on what people said. One of them has found out.',
         [('Stop',
-          ['she gets what she asked for', 'she still imagines the page'],
+          ['she gets what she asked for', 'she still does not know what is on it'],
           'cross'),
          ('Show her the page',
           ['it ends in a minute', 'she reads what you wrote'], 'notebook'),
          ('Keep it and say nothing',
-          ['the notebook goes on', 'she believes the worst of it'], 'moon')],
+          ['the notebook goes on', 'she goes on imagining the page'], 'moon')],
         height=620,
         alt='The decision task as one question and three branches, with what '
             'each one costs: stop, and she still imagines what was on the '

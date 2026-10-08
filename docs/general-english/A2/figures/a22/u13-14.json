@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "touch the",
+   "size": 28,
+   "bbox": [
+    139.7,
+    60.9,
+    290.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "pay a fee",
+   "size": 28,
+   "bbox": [
+    479.3,
+    60.9,
+    624.2,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "be a member",
+   "size": 28,
+   "bbox": [
+    784.5,
+    60.9,
+    992.0,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "be quiet in the",
+   "size": 28,
+   "bbox": [
+    1108.7,
+    60.9,
+    1340.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "necessary",
+   "size": 34,
+   "bbox": [
+    167.6,
+    202.2,
+    360.4,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "forbidden",
+   "size": 34,
+   "bbox": [
+    626.6,
+    202.2,
+    813.4,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "not necessary",
+   "size": 34,
+   "bbox": [
+    1041.8,
+    202.2,
+    1310.2,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four rules of this task as chips above three empty bins -- necessary, forbidden and not necessary. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "1f231fdbf695a510acbc54e54f0a6bd3ed5f3cd79538a3673e54e8b3305143e1"
+}

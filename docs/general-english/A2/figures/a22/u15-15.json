@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "I have been there last year.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    567.4,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I went there last year.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1189.9,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I have been there last year.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    567.4,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Have you ever went to a festival?",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    663.0,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She has never flied.",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    447.8,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "f8866967e9499954ae4832d534eb2a9d47fcbb1aacb41e9b9092c38a4b6c6aa1"
+}

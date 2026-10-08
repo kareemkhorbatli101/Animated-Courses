@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I have walked across a city at four in the morning.",
-   "size": 22,
+   "text": "I have walked across a city at four in the",
+   "size": 26,
    "bbox": [
     670,
-    64.8,
-    1222.3,
-    84.7
+    46.6,
+    1198.0,
+    70.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "morning.",
+   "size": 26,
+   "bbox": [
+    670,
+    76.6,
+    786.4,
+    100.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -107,13 +119,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I have taken better holidays and forgotten them.",
-   "size": 22,
+   "text": "I have taken better holidays and forgotten",
+   "size": 26,
    "bbox": [
     670,
-    283.8,
-    1207.8,
-    303.8
+    265.6,
+    1221.1,
+    289.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "them.",
+   "size": 26,
+   "bbox": [
+    670,
+    295.6,
+    746.3,
+    319.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -143,13 +167,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I have never forgotten one street of that walk.",
-   "size": 24,
+   "text": "I have never forgotten one street of that",
+   "size": 26,
    "bbox": [
     670,
-    391.7,
-    1226.4,
-    413.3
+    375.2,
+    1196.8,
+    398.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "walk.",
+   "size": 26,
+   "bbox": [
+    670,
+    405.2,
+    737.8,
+    428.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -164,5 +200,5 @@
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "887f9cff02cfe0a397da111f7ea34d62e3d91a837cf2aecac8342a4cf86a2306"
+ "sha256": "df4a1b207ef6630ee19be02e53158fcaf11f29a56697c69de5886207fd3cfa91"
 }

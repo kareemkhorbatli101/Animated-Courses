@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what might happen and",
+   "size": 30,
+   "bbox": [
+    190,
+    74.9,
+    593.0,
+    101.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "when",
+   "size": 30,
+   "bbox": [
+    190,
+    106.9,
+    280.8,
+    133.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The river might come up on Tuesday night.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1229.8,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how sure you are",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    482.3,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It did the same twice before.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1043.8,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one thing to do",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    449.5,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Move anything that matters off a ground",
+   "size": 26,
+   "bbox": [
+    670,
+    402.2,
+    1200.4,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "floor.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    734.8,
+    455.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in three steps -- what might happen and when, how sure you are, one thing to do -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "a3a49f90c02add85e7912e89fcf2e229a9f1a4da2dac64d27b9b4095bdb99724"
+}

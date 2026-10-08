@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "news",
+   "size": 30,
+   "bbox": [
+    167.9,
+    258.6,
+    255.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "stamp",
+   "size": 30,
+   "bbox": [
+    497.9,
+    258.6,
+    603.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "envelope",
+   "size": 30,
+   "bbox": [
+    812.3,
+    258.6,
+    966.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "false",
+   "size": 30,
+   "bbox": [
+    1187.6,
+    258.6,
+    1269.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: news, stamp, envelope, false.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "fdcacf4a95971925165a4533b1a29ee5f56cab65fbc86124bbc6ac8a3a6c5de0"
+}

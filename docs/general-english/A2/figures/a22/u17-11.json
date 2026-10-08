@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  53,
+  19.7,
+  1387,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "Maya made this book.",
+   "size": 32,
+   "bbox": [
+    142,
+    49.6,
+    538.3,
+    77.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    50.0,
+    105.4,
+    74.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "This book was made by hand.",
+   "size": 32,
+   "bbox": [
+    142,
+    141.1,
+    676.2,
+    169.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    141.5,
+    105.4,
+    165.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Somebody changed the buttons.",
+   "size": 32,
+   "bbox": [
+    142,
+    232.6,
+    729.8,
+    260.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    233.0,
+    105.4,
+    257.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The buttons were changed.",
+   "size": 32,
+   "bbox": [
+    142,
+    324.1,
+    636.4,
+    352.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    324.5,
+    105.4,
+    348.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four lines from the notice with the verb ringed in each. Two name the maker and two do not, which is the question the task asks.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "92f52406c63cb796b7ccabf9d67209f4d80a85d829fc5e6ca8c03755d25d962c"
+}

@@ -267,7 +267,10 @@ def e21(u, ctx):
     if not scripts or not reading:
         return fail('missing scripts or reading')
     def rate(subs, pat):
-        t = ' '.join(s.text for s in subs)
+        # prose_text, not text: a caption is apparatus and is written in the
+        # same flat voice wherever it appears, so counting it measures the
+        # apparatus rather than the register
+        t = ' '.join(s.prose_text for s in subs)
         return len(re.findall(pat, t)) / max(1, len(t.split()))
     d = rate(scripts, r'\b(I|you|we)\b') - rate(reading, r'\b(I|you|we)\b')
     return expect(d > 0.01, f'1st/2nd person rate difference {d:.3f} - registers too alike')

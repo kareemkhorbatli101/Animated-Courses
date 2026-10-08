@@ -47,13 +47,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "saying a person made it, not a machine",
-   "size": 22,
+   "text": "saying a person made it, not a",
+   "size": 28,
    "bbox": [
-    860.0,
-    179.6,
-    1350.0,
-    199.6
+    864.6,
+    158.7,
+    1345.4,
+    183.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "machine",
+   "size": 28,
+   "bbox": [
+    1038.4,
+    192.7,
+    1171.6,
+    217.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -71,13 +83,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "saying the thing still has a life in it",
-   "size": 24,
+   "text": "saying the thing still has a life",
+   "size": 28,
    "bbox": [
-    868.4,
-    293.1,
-    1341.6,
-    314.6
+    865.1,
+    273.7,
+    1344.9,
+    298.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "in it",
+   "size": 28,
+   "bbox": [
+    1073.9,
+    307.7,
+    1136.1,
+    332.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -116,5 +140,5 @@
   6.260416666666667,
   2.15625
  ],
- "sha256": "23a88891d5b5f0ed287ca87bb9cc6de306e33c0a8fc9677e35868974d9ec2162"
+ "sha256": "84fa967f608273600e22f7db8619d3402fbad225c33b794fa201aa6e7d38483c"
 }

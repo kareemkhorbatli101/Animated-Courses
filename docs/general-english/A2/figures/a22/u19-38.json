@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  592
+ ],
+ "bounds": [
+  47.0,
+  29.3,
+  1393.0,
+  562.5
+ ],
+ "texts": [
+  {
+   "text": "Somebody in your building has never spoken to anybody?",
+   "size": 34,
+   "bbox": [
+    164.8,
+    66.3,
+    1275.2,
+    96.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Knock",
+   "size": 30,
+   "bbox": [
+    209.9,
+    367.5,
+    312.8,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you meet her at last",
+   "size": 26,
+   "bbox": [
+    129.1,
+    433.8,
+    393.6,
+    457.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she has to explain",
+   "size": 26,
+   "bbox": [
+    142.7,
+    477.8,
+    379.9,
+    501.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "herself",
+   "size": 26,
+   "bbox": [
+    216.8,
+    508.8,
+    305.9,
+    532.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Write a note",
+   "size": 30,
+   "bbox": [
+    614.9,
+    367.5,
+    825.1,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she can answer when",
+   "size": 26,
+   "bbox": [
+    579.1,
+    433.8,
+    860.9,
+    457.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she likes",
+   "size": 26,
+   "bbox": [
+    663.8,
+    464.8,
+    776.2,
+    488.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she has to answer",
+   "size": 26,
+   "bbox": [
+    601.6,
+    507.8,
+    838.4,
+    531.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "something",
+   "size": 26,
+   "bbox": [
+    651.2,
+    538.8,
+    788.8,
+    562.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Leave her alone",
+   "size": 30,
+   "bbox": [
+    1043.8,
+    367.5,
+    1313.6,
+    394.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four words a year is a",
+   "size": 26,
+   "bbox": [
+    1037.8,
+    433.8,
+    1319.5,
+    457.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "decision",
+   "size": 26,
+   "bbox": [
+    1125.1,
+    464.8,
+    1232.3,
+    488.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody ever met her",
+   "size": 26,
+   "bbox": [
+    1041.5,
+    507.8,
+    1315.8,
+    531.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: knock, and ask her to explain herself to a stranger at her own front door; write a note, which she can answer when she wants; or leave her alone, because four years of four words a year is a decision and not an accident.",
+ "placed_in": [
+  6.260416666666667,
+  2.5729166666666665
+ ],
+ "sha256": "a08c98c3d3c25de42e582a222d6908a957978bccc62fac5f800e254f07a9bc90"
+}

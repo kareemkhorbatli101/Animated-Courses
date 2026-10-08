@@ -35,13 +35,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "Weather and What Might Happen",
-   "size": 110,
+   "text": "Weather and What Might",
+   "size": 140,
    "bbox": [
     190,
-    459.7,
-    2260.4,
-    555.6
+    438.6,
+    2169.6,
+    560.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Happen",
+   "size": 140,
+   "bbox": [
+    190,
+    596.6,
+    796.7,
+    718.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -164,5 +176,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "af960d4b810ba803df22ca956ff961bb09232641e2472ab1a413f562beb74e4a"
+ "sha256": "9e69955e424fab5a67f3161ba9fa55ac4460875549a9249c6c0a0b1482d99a11"
 }

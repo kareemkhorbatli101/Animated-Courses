@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  349
+ ],
+ "bounds": [
+  67,
+  17.3,
+  1373,
+  331.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    80.4,
+    143.1,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a clear opinion",
+   "size": 30,
+   "bbox": [
+    190,
+    82.0,
+    440.5,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You should pass on what was said and not",
+   "size": 26,
+   "bbox": [
+    670,
+    67.3,
+    1218.3,
+    91.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what.",
+   "size": 26,
+   "bbox": [
+    670,
+    97.3,
+    742.1,
+    121.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    243.4,
+    143.1,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two or three reasons",
+   "size": 30,
+   "bbox": [
+    190,
+    245.0,
+    543.7,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The words are a fact and the meaning.",
+   "size": 26,
+   "bbox": [
+    670,
+    245.3,
+    1175.0,
+    269.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the opinion paragraph in two steps -- a clear opinion, two or three reasons -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "d8279fb0b0780018fdecae313dea2374a3e4e47edafe92daa7f031117598f6b0"
+}

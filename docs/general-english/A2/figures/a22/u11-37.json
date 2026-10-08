@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the Tuesday",
+   "size": 28,
+   "bbox": [
+    128.5,
+    331.2,
+    318.5,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three yeses",
+   "size": 28,
+   "bbox": [
+    462.3,
+    331.2,
+    646.7,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "one maybe",
+   "size": 28,
+   "bbox": [
+    799.3,
+    331.2,
+    971.7,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "half past nine",
+   "size": 28,
+   "bbox": [
+    1107.7,
+    331.2,
+    1325.3,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The week between the asking and the Saturday, drawn along one line: the Tuesday Yuki asked all five of them, the three yeses by Wednesday evening, the one maybe, and the half past nine on Saturday when Tomas arrived straight off a shift.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "4de7c3ac422de5b6174525b682628cb16abaa55f2d5fee113fd43d1b2cfe2fb1"
+}

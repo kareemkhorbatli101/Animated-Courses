@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "was made by",
+   "size": 28,
+   "bbox": [
+    112.1,
+    59.8,
+    318.4,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "produces forty",
+   "size": 28,
+   "bbox": [
+    435.8,
+    59.8,
+    667.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "were changed",
+   "size": 28,
+   "bbox": [
+    777.3,
+    59.8,
+    999.2,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "broke the window",
+   "size": 28,
+   "bbox": [
+    1083.6,
+    59.8,
+    1365.9,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "active",
+   "size": 34,
+   "bbox": [
+    319.9,
+    201.1,
+    436.1,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "passive",
+   "size": 34,
+   "bbox": [
+    989.7,
+    201.1,
+    1134.3,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above two empty bins, one for the sentences that name the maker and one for the sentences that do not. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "6bd71d59bc947f39aa57d9c471ff1e150737544c40f66bede70e43aa24218cf1"
+}

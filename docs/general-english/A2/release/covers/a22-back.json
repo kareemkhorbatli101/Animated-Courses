@@ -1,0 +1,720 @@
+{
+ "canvas": [
+  2480,
+  3508
+ ],
+ "texts": [
+  {
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 62,
+   "bbox": [
+    811.8,
+    154.8,
+    1668.2,
+    209.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A2 \u00b7 Volume 2 \u00b7 Out in the World",
+   "size": 52,
+   "bbox": [
+    767.8,
+    271.8,
+    1712.2,
+    317.8
+   ],
+   "fill": "#6E88AC",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Volume two takes the same six people and the same ten-part unit out of the street and",
+   "size": 46,
+   "bbox": [
+    220,
+    546.5,
+    2232.0,
+    586.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "into the rest of life: plans, weather, rules, health, experience, how things are",
+   "size": 46,
+   "bbox": [
+    220,
+    611.8,
+    1987.3,
+    651.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "made, what might happen and what other people said. It ends at the border between A2",
+   "size": 46,
+   "bbox": [
+    220,
+    677.1,
+    2266.9,
+    717.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "and B1. As in volume one, every unit carries a worked example at the top of almost",
+   "size": 46,
+   "bbox": [
+    220,
+    742.4,
+    2149.3,
+    782.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "every task, a filled model before every piece of writing, a word bank under every",
+   "size": 46,
+   "bbox": [
+    220,
+    807.7,
+    2088.0,
+    847.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "gap-fill, and a checklist before you hand anything in. The Core track is for",
+   "size": 46,
+   "bbox": [
+    220,
+    873.1,
+    1916.2,
+    913.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "everybody; the Plus track is there when you want it, and optional when you are not.",
+   "size": 46,
+   "bbox": [
+    220,
+    938.4,
+    2156.4,
+    978.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Answers for every closed question are in the book, and every open task has marking",
+   "size": 46,
+   "bbox": [
+    220,
+    1003.7,
+    2175.4,
+    1043.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "points and a sample answer for the person teaching it.",
+   "size": 46,
+   "bbox": [
+    220,
+    1069.0,
+    1483.0,
+    1109.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "In this book",
+   "size": 54,
+   "bbox": [
+    220,
+    1188.1,
+    579.8,
+    1235.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "1",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1278.2,
+    263.9,
+    1313.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Plans and Arrangements",
+   "size": 42,
+   "bbox": [
+    330,
+    1277.5,
+    914.0,
+    1313.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "going to",
+   "size": 38,
+   "bbox": [
+    1280,
+    1279.8,
+    1436.4,
+    1313.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1350.2,
+    263.9,
+    1385.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Weather and What Might Happen",
+   "size": 42,
+   "bbox": [
+    330,
+    1349.5,
+    1120.6,
+    1385.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will",
+   "size": 38,
+   "bbox": [
+    1280,
+    1351.8,
+    1342.8,
+    1385.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1422.2,
+    263.9,
+    1457.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Rules and Places",
+   "size": 42,
+   "bbox": [
+    330,
+    1421.5,
+    729.6,
+    1457.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "must/have to/mustn't/don't have to",
+   "size": 38,
+   "bbox": [
+    1280,
+    1423.8,
+    1955.2,
+    1457.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1494.2,
+    263.9,
+    1529.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Health and Feeling Better",
+   "size": 42,
+   "bbox": [
+    330,
+    1493.5,
+    941.1,
+    1529.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "should/shouldn't - advice",
+   "size": 38,
+   "bbox": [
+    1280,
+    1495.8,
+    1756.6,
+    1529.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1566.2,
+    263.9,
+    1601.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Experiences",
+   "size": 42,
+   "bbox": [
+    330,
+    1565.5,
+    616.2,
+    1601.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present perfect - experience",
+   "size": 38,
+   "bbox": [
+    1280,
+    1567.8,
+    1820.7,
+    1601.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "6",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1638.2,
+    263.9,
+    1673.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Then and Now",
+   "size": 42,
+   "bbox": [
+    330,
+    1637.5,
+    667.3,
+    1673.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present perfect vs past simple",
+   "size": 38,
+   "bbox": [
+    1280,
+    1639.8,
+    1858.3,
+    1673.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "7",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1710.2,
+    263.9,
+    1745.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "How Things Are Made",
+   "size": 42,
+   "bbox": [
+    330,
+    1709.5,
+    845.0,
+    1745.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "active and passive",
+   "size": 38,
+   "bbox": [
+    1280,
+    1711.8,
+    1634.6,
+    1745.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "8",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1782.2,
+    263.9,
+    1817.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "If and When",
+   "size": 42,
+   "bbox": [
+    330,
+    1781.5,
+    616.1,
+    1817.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "first conditional",
+   "size": 38,
+   "bbox": [
+    1280,
+    1783.8,
+    1575.9,
+    1817.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "9",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1854.2,
+    263.9,
+    1889.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "People, Places and Things",
+   "size": 42,
+   "bbox": [
+    330,
+    1853.5,
+    949.0,
+    1889.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "defining relative clauses",
+   "size": 38,
+   "bbox": [
+    1280,
+    1855.8,
+    1743.6,
+    1889.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "10",
+   "size": 40,
+   "bbox": [
+    222.2,
+    1926.2,
+    277.8,
+    1961.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "News, Stories and Messages",
+   "size": 42,
+   "bbox": [
+    330,
+    1925.5,
+    1005.5,
+    1961.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "reported speech",
+   "size": 38,
+   "bbox": [
+    1280,
+    1927.8,
+    1591.3,
+    1961.3
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "By the end you will be able to",
+   "size": 54,
+   "bbox": [
+    220,
+    2038.1,
+    1127.1,
+    2085.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2127.5,
+    258.0,
+    2163.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can talk about arrangements using the present continuous.",
+   "size": 40,
+   "bbox": [
+    320,
+    2128.2,
+    1535.9,
+    2163.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2193.5,
+    258.0,
+    2229.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can talk about decisions using going to.",
+   "size": 40,
+   "bbox": [
+    320,
+    2194.2,
+    1140.3,
+    2229.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2259.5,
+    258.0,
+    2295.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can invite somebody, and answer when I am invited.",
+   "size": 40,
+   "bbox": [
+    320,
+    2260.2,
+    1403.0,
+    2295.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2325.5,
+    258.0,
+    2361.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can write an invite in 50\u201370 words.",
+   "size": 40,
+   "bbox": [
+    320,
+    2326.2,
+    1044.9,
+    2361.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2391.5,
+    258.0,
+    2427.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can talk about the weather and say what it will do.",
+   "size": 40,
+   "bbox": [
+    320,
+    2392.2,
+    1360.4,
+    2427.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    2457.5,
+    258.0,
+    2493.9
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use will, won\u2019t and might correctly.",
+   "size": 40,
+   "bbox": [
+    320,
+    2458.2,
+    1126.9,
+    2493.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "CEFR A2 \u00b7 Student Book with answer key \u00b7 British English",
+   "size": 40,
+   "bbox": [
+    670.8,
+    3258.4,
+    1809.2,
+    3294.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "alt": "Back cover of English for Daily Life A2 volume 2: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
+ "sha256": "5593f8791ff18b3a070b103cecc5b7b5974e1cb128c07043a3c4ef43a08c466d",
+ "theme": "a22",
+ "volume": 2,
+ "title": "Out in the World",
+ "level": "A2",
+ "blurb": "Volume two takes the same six people and the same ten-part unit out of the street and into the rest of life: plans, weather, rules, health, experience, how things are made, what might happen and what other people said. It ends at the border between A2 and B1. As in volume one, every unit carries a worked example at the top of almost every task, a filled model before every piece of writing, a word bank under every gap-fill, and a checklist before you hand anything in. The Core track is for everybody; the Plus track is there when you want it, and optional when you are not. Answers for every closed question are in the book, and every open task has marking points and a sample answer for the person teaching it.",
+ "units": [
+  "Plans and Arrangements",
+  "Weather and What Might Happen",
+  "Rules and Places",
+  "Health and Feeling Better",
+  "Experiences",
+  "Then and Now",
+  "How Things Are Made",
+  "If and When",
+  "People, Places and Things",
+  "News, Stories and Messages"
+ ],
+ "grammar": [
+  "going to",
+  "will",
+  "must/have to/mustn't/don't have to",
+  "should/shouldn't - advice",
+  "present perfect - experience",
+  "present perfect vs past simple",
+  "active and passive",
+  "first conditional",
+  "defining relative clauses",
+  "reported speech"
+ ],
+ "can_do": [
+  "I can talk about arrangements using the present continuous.",
+  "I can talk about decisions using going to.",
+  "I can invite somebody, and answer when I am invited.",
+  "I can write an invite in 50\u201370 words.",
+  "I can talk about the weather and say what it will do.",
+  "I can use will, won\u2019t and might correctly."
+ ],
+ "unit_count": 10
+}

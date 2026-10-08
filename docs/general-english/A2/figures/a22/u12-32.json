@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  462
+ ],
+ "bounds": [
+  53,
+  22.9,
+  1387,
+  438.9
+ ],
+ "texts": [
+  {
+   "text": "Say what you are doing yourself.",
+   "size": 30,
+   "bbox": [
+    280,
+    60.1,
+    836.1,
+    86.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say how sure you are.",
+   "size": 30,
+   "bbox": [
+    280,
+    166.1,
+    654.6,
+    192.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Give one thing they can do.",
+   "size": 30,
+   "bbox": [
+    280,
+    272.1,
+    746.6,
+    298.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say what it will stop.",
+   "size": 30,
+   "bbox": [
+    280,
+    378.1,
+    634.8,
+    404.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0104166666666665
+ ],
+ "sha256": "13b402709819a4ec9b1890714057908830fc57ae4040f7559fc6a3864ae90322"
+}

@@ -71,25 +71,37 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "She said the van was outside.",
-   "size": 34,
+   "text": "She said the van was",
+   "size": 38,
    "bbox": [
-    783.2,
-    59.5,
-    1356.8,
+    843.3,
+    56.4,
+    1296.7,
     89.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "reported like this \u2014 one step back",
-   "size": 28,
+   "text": "reported like this \u2014 one step",
+   "size": 32,
    "bbox": [
-    799.1,
-    142.2,
-    1340.9,
-    166.7
+    808.3,
+    139.1,
+    1331.7,
+    167.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back",
+   "size": 32,
+   "bbox": [
+    1027.6,
+    179.1,
+    1112.4,
+    207.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -107,13 +119,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "No mark, and the tense goes back a step.",
-   "size": 24,
+   "text": "No mark, and the tense goes",
+   "size": 30,
    "bbox": [
-    787.6,
-    394.6,
-    1352.4,
-    416.1
+    825.4,
+    390.7,
+    1314.6,
+    417.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back a step.",
+   "size": 30,
+   "bbox": [
+    967.0,
+    430.7,
+    1173.0,
+    457.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +152,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "ce3e57cafe379b53d73e920cc585b7ac17c8a124f79c54a4302667566b1c950e"
+ "sha256": "6d784498250c9b439d62b35bb17728c474bbb60aa7aadc240178566bc1f26c22"
 }

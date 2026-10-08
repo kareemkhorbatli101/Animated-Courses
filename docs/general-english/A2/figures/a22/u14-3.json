@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "doctor",
+   "size": 30,
+   "bbox": [
+    156.7,
+    258.6,
+    266.3,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "sick",
+   "size": 30,
+   "bbox": [
+    517.6,
+    258.6,
+    583.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "pill",
+   "size": 30,
+   "bbox": [
+    863.3,
+    258.6,
+    915.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "healthy",
+   "size": 30,
+   "bbox": [
+    1164.8,
+    258.6,
+    1292.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: doctor, sick, pill, healthy.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "a4e0dc62a7b736c65e9d8ee8fc6c577befd285dd9879f0574c79879e13e8618c"
+}

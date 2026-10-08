@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What did somebody tell",
+   "size": 28,
+   "bbox": [
+    80.4,
+    323.7,
+    455.6,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you yesterday?",
+   "size": 28,
+   "bbox": [
+    148.1,
+    357.7,
+    387.9,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What did you reply?",
+   "size": 28,
+   "bbox": [
+    561.8,
+    357.7,
+    878.2,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What is the last thing",
+   "size": 28,
+   "bbox": [
+    1000.9,
+    289.7,
+    1343.1,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you were asked that",
+   "size": 28,
+   "bbox": [
+    1010.8,
+    323.7,
+    1333.2,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you did not answer?",
+   "size": 28,
+   "bbox": [
+    1012.3,
+    357.7,
+    1331.7,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "fc12cebbc788784d5135cac39f61df2991ad6b6e4766e262f383028d44cd5fbc"
+}

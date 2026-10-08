@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what is being mended",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    564.3,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The washing machine has gone to be",
+   "size": 26,
+   "bbox": [
+    670,
+    76.2,
+    1156.6,
+    99.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "mended.",
+   "size": 26,
+   "bbox": [
+    670,
+    106.2,
+    785.1,
+    129.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one date",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    339.2,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It was taken on Tuesday and it is promised.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1232.1,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "why it costs what it costs",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    620.7,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The part is no longer produced and one.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1193.4,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in three steps -- what is being mended, one date, why it costs what it costs -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "cc15ccac162b96a505dc5c84211e64181ae072714094ed895c249a829d530de3"
+}

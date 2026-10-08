@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "storm",
+   "size": 30,
+   "bbox": [
+    162.1,
+    209.4,
+    260.9,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "shower",
+   "size": 30,
+   "bbox": [
+    489.2,
+    209.4,
+    611.8,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "flood",
+   "size": 30,
+   "bbox": [
+    847.0,
+    209.4,
+    932.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "temperature",
+   "size": 30,
+   "bbox": [
+    1121.7,
+    209.4,
+    1335.3,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will",
+   "size": 30,
+   "bbox": [
+    182.2,
+    427.4,
+    240.8,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "might",
+   "size": 30,
+   "bbox": [
+    501.1,
+    427.4,
+    599.9,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "diary",
+   "size": 30,
+   "bbox": [
+    846.3,
+    427.4,
+    932.7,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "junction",
+   "size": 30,
+   "bbox": [
+    1159.8,
+    427.4,
+    1297.2,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: storm, shower, flood, temperature, will, might, diary, junction.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "69b416118ce1b5a847bd38f9e945ef127abd5e31ee0da77363b223157cbed429"
+}

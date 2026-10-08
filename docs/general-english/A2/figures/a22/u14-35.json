@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  440
+  450
  ],
  "bounds": [
   57.0,
-  21.8,
+  22.3,
   1413.0,
-  417.8
+  427.5
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 34,
    "bbox": [
     153.1,
-    67.8,
+    68.3,
     576.9,
-    98.2
+    98.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 27,
    "bbox": [
     247.2,
-    282.5,
+    283.0,
     482.8,
-    307.0
+    307.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 27,
    "bbox": [
     183.8,
-    328.5,
+    329.0,
     546.2,
-    353.0
+    353.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 27,
    "bbox": [
     154.3,
-    374.5,
+    375.0,
     575.7,
-    399.0
+    399.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     877.9,
-    67.8,
+    68.3,
     1332.1,
-    98.2
+    98.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,21 +75,33 @@
    "size": 27,
    "bbox": [
     977.6,
-    282.5,
+    283.0,
     1232.4,
-    307.0
+    307.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "most people sent to somebody else",
-   "size": 25,
+   "text": "most people sent to somebody",
+   "size": 27,
    "bbox": [
-    881.6,
-    330.1,
-    1328.4,
-    352.4
+    895.5,
+    329.0,
+    1314.5,
+    353.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "else",
+   "size": 27,
+   "bbox": [
+    1077.6,
+    362.0,
+    1132.4,
+    386.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -99,9 +111,9 @@
    "size": 27,
    "bbox": [
     904.3,
-    374.5,
+    403.0,
     1305.7,
-    399.0
+    427.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -114,7 +126,7 @@
  "alt": "Two ways of answering the first question about health. Everybody to a doctor: one waiting room, three weeks for everybody, and the small problems sitting with the bad ones. A nurse on the line first: how long and how bad, most people sent to somebody other than a doctor, and a chemist handling the minor list.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.9583333333333333
  ],
- "sha256": "452aa6a6551e8cd156fddcd7f0e6895b77e1ebd153b33725c2a349363d83cb43"
+ "sha256": "e32773b1d0596a3b61de5451d037032da2c6d3cb88266774ac190bca916f2462"
 }

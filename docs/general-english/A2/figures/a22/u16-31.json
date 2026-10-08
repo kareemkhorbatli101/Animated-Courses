@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Amina",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    374.2,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It was a bread shop.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    626.3,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    294.0,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It was never a bread shop.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    563.2,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    374.2,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have lived here eleven years and it was.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    986.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    294.0,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You came in the last two years of it.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    721.7,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as speech bubbles, one speaker on each side. Amina: It was a bread shop. Mr Okonkwo: It was never a bread shop. Amina: I have lived here eleven years and it was. Mr Okonkwo: You came in the last two years of it.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "4ae13ad4b95954240aca550ae5e4eca373361b9470995346e70c1aec8d2d1c6f"
+}

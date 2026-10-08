@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "You should to rest.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    431.7,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You should rest.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1097.3,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You should to rest for two days.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    637.7,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "You don\u2019t should go to work.",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    588.4,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Should I to see a doctor?",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    526.8,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "c01b1804fb2ab3e7727198012dccb6e3d8afa303014abd6018f87083784852e3"
+}

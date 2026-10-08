@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  506
+ ],
+ "bounds": [
+  53.0,
+  25.1,
+  1387.0,
+  481.1
+ ],
+ "texts": [
+  {
+   "text": "the van was",
+   "size": 28,
+   "bbox": [
+    120.1,
+    59.8,
+    310.4,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "me the van was",
+   "size": 28,
+   "bbox": [
+    427.6,
+    59.8,
+    675.9,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "he had not seen it",
+   "size": 28,
+   "bbox": [
+    744.8,
+    59.8,
+    1031.7,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki to write it",
+   "size": 28,
+   "bbox": [
+    1108.3,
+    59.8,
+    1341.2,
+    84.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "said",
+   "size": 34,
+   "bbox": [
+    338.4,
+    201.1,
+    417.6,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "told",
+   "size": 34,
+   "bbox": [
+    1024.2,
+    201.1,
+    1099.8,
+    231.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above two empty bins, one for said and one for told. Which chip goes in which bin is the exercise, so none of them is placed. Only one of the two takes a person straight after it.",
+ "placed_in": [
+  6.260416666666667,
+  2.1979166666666665
+ ],
+ "sha256": "f6eaa7621c8407a060d8b6916cd0fe4c0286fd2c21b0b2b11248f70f0d1b3516"
+}

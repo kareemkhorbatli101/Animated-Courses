@@ -15,9 +15,9 @@
    "size": 34,
    "bbox": [
     214.6,
-    58.2,
+    48.2,
     525.4,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -59,13 +59,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "ask about your own absence",
-   "size": 24,
+   "text": "ask about your own",
+   "size": 28,
    "bbox": [
     138.0,
-    319.3,
-    524.7,
-    340.8
+    316.9,
+    449.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "absence",
+   "size": 28,
+   "bbox": [
+    138.0,
+    350.9,
+    268.1,
+    375.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,33 +87,57 @@
    "size": 34,
    "bbox": [
     895.9,
-    58.2,
+    48.2,
     1244.1,
-    88.6
+    78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "name one thing you will do",
-   "size": 24,
+   "text": "name one thing you will",
+   "size": 28,
    "bbox": [
     838.0,
-    151.3,
-    1205.1,
-    172.8
+    148.9,
+    1217.1,
+    173.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "give one thing up out loud",
-   "size": 26,
+   "text": "do",
+   "size": 28,
    "bbox": [
     838.0,
-    205.7,
-    1226.1,
-    229.4
+    182.9,
+    877.3,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give one thing up out",
+   "size": 28,
+   "bbox": [
+    838.0,
+    234.9,
+    1177.5,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "loud",
+   "size": 28,
+   "bbox": [
+    838.0,
+    268.9,
+    906.8,
+    293.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,21 +147,33 @@
    "size": 28,
    "bbox": [
     838.0,
-    260.9,
+    320.9,
     1154.1,
-    285.4
+    345.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say what you will do alone",
-   "size": 26,
+   "text": "say what you will do",
+   "size": 28,
    "bbox": [
     838.0,
-    317.7,
-    1225.9,
-    341.4
+    376.9,
+    1159.4,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "alone",
+   "size": 28,
+   "bbox": [
+    838.0,
+    410.9,
+    924.6,
+    435.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -140,5 +188,5 @@
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "a22c8e10d2a0030877bb8fbe2887cdb78b79c38c45bea2200f2decbf053564b8"
+ "sha256": "297778b301d422d4cba3091fcf22e367d7a1dbac10effb44f5fdda55fc5fb52f"
 }

@@ -1450,7 +1450,10 @@ def cue_cards(a, b, height=560, alt=''):
         w = W / 2 - 100
         f.rect(x, 50, w, height - 110, fill=P['bg'], stroke=P['ink'], r=20, sw=4)
         f.rect(x, 50, w, 80, fill=P['ink'], stroke='none', r=20, sw=0)
-        f.text(title, x + w / 2, 104, size=34, fill=P['bg'], on=P['ink'])
+        tl, tsz = fit_lines(title, w - 40, size_hi=34, size_lo=22, max_lines=2)
+        for j, ln in enumerate(tl):
+            f.text(ln, x + w / 2, 94 + j * (tsz + 4) - (len(tl) - 1) * 6,
+                   size=tsz, fill=P['bg'], on=P['ink'])
         icon(f, ic, x + w - 92, 198, s=0.78)
         y = 190
         for it in items[:4]:

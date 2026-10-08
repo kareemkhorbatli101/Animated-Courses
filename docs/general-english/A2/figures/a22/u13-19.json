@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What must you not do",
+   "size": 28,
+   "bbox": [
+    92.7,
+    289.7,
+    443.3,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "in your building or your",
+   "size": 28,
+   "bbox": [
+    81.6,
+    323.7,
+    454.4,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "street?",
+   "size": 28,
+   "bbox": [
+    212.3,
+    357.7,
+    323.7,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What do people think",
+   "size": 28,
+   "bbox": [
+    550.0,
+    289.7,
+    890.0,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you have to do, but you",
+   "size": 28,
+   "bbox": [
+    532.2,
+    323.7,
+    907.8,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "do not?",
+   "size": 28,
+   "bbox": [
+    661.1,
+    357.7,
+    778.9,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What is one rule you",
+   "size": 28,
+   "bbox": [
+    1008.9,
+    323.7,
+    1335.1,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "think is wrong?",
+   "size": 28,
+   "bbox": [
+    1050.8,
+    357.7,
+    1293.2,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "5072391663c06e8e2e5dd9c3c12ce38936b2305fa5d8fd533a7ca0eabb7e3a64"
+}

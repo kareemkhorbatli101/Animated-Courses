@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  440
+  455
  ],
  "bounds": [
   57.0,
-  21.8,
+  22.6,
   1413.0,
-  417.8
+  432.8
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 34,
    "bbox": [
     163.5,
-    67.8,
+    68.6,
     566.5,
-    98.2
+    99.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 27,
    "bbox": [
     159.7,
-    282.5,
+    283.3,
     570.3,
-    307.0
+    307.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 27,
    "bbox": [
     286.8,
-    328.5,
+    329.3,
     443.2,
-    353.0
+    353.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 27,
    "bbox": [
     176.1,
-    374.5,
+    375.3,
     553.9,
-    399.0
+    399.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     985.2,
-    67.8,
+    68.6,
     1224.8,
-    98.2
+    99.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,9 +75,9 @@
    "size": 27,
    "bbox": [
     903.4,
-    282.5,
+    283.3,
     1306.6,
-    307.0
+    307.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -87,21 +87,33 @@
    "size": 27,
    "bbox": [
     992.5,
-    328.5,
+    329.3,
     1217.5,
-    353.0
+    353.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "in a flood nobody checks a telephone",
-   "size": 25,
+   "text": "in a flood nobody checks a",
+   "size": 27,
    "bbox": [
-    870.8,
-    376.1,
-    1339.2,
-    398.4
+    924.4,
+    375.3,
+    1285.6,
+    399.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "telephone",
+   "size": 27,
+   "bbox": [
+    1037.1,
+    408.3,
+    1172.9,
+    432.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -114,7 +126,7 @@
  "alt": "A loudspeaker on a pole beside the street under it. At six in the morning: a voice reads the local news in most wards, on a system that has never been turned off. In the street under it: younger people say they do not hear it any more, a third of those asked could still say what had been announced, and the city has twice decided to keep the speakers because in a flood nobody checks a telephone.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.9791666666666667
  ],
- "sha256": "532a4565410c4dc8258a410bc77a057d07acc3484f0f34e5e87a4fb7967259bb"
+ "sha256": "fbd99f660b30d9ae1b6277f6d87d64cea9eee7627b2f484a3795c8dd272ec411"
 }

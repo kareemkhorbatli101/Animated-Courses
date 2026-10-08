@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    260.9,
+    128.5,
+    281.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the first person",
+   "size": 28,
+   "bbox": [
+    148.8,
+    272.0,
+    393.9,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    703.6,
+    128.5,
+    724.4,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the second",
+   "size": 28,
+   "bbox": [
+    627.2,
+    272.0,
+    800.8,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1146.2,
+    128.5,
+    1167.1,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the last one",
+   "size": 28,
+   "bbox": [
+    1062.4,
+    272.0,
+    1250.9,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three equal beats on a clock line, one for each of the three people in your street you describe without using any names.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "5a76219c81995e66a0832df83dc65cc78b59b353995313b4bfe85e635dd920fa"
+}

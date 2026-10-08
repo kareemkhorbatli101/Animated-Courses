@@ -47,37 +47,61 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "The maker is put in front of the verb.",
-   "size": 26,
+   "text": "The maker is put in front of the",
+   "size": 30,
    "bbox": [
-    97.0,
-    393.0,
-    643.0,
-    416.7
+    104.1,
+    390.7,
+    635.9,
+    417.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "This book was made by hand.",
-   "size": 34,
+   "text": "verb.",
+   "size": 30,
    "bbox": [
-    786.2,
-    59.5,
-    1353.8,
+    326.2,
+    430.7,
+    413.8,
+    457.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "This book was made by",
+   "size": 38,
+   "bbox": [
+    820.1,
+    56.4,
+    1319.9,
     89.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "passive \u2014 the thing is the point",
-   "size": 30,
+   "text": "passive \u2014 the thing is the",
+   "size": 32,
    "bbox": [
-    801.3,
-    140.7,
-    1338.7,
+    835.9,
+    139.1,
+    1304.1,
     167.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "point",
+   "size": 32,
+   "bbox": [
+    1023.0,
+    179.1,
+    1117.0,
+    207.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -128,5 +152,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "df7ec5e1ee71fb3b8e49d5fb6c2ff226b51494c04d3bdd2af697e5e8a2029739"
+ "sha256": "1e5880eebfb1cd6e83ac93d487c747f1984ff7bd26e7b06de13c12e810f19c3d"
 }

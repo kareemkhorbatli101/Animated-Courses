@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the buyer",
+   "size": 34,
+   "bbox": [
+    184.6,
+    48.2,
+    555.4,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask about the price",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    444.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say they look the same",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    503.2,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask to be shown",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    394.8,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "agree out loud when",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    464.1,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you are shown",
+   "size": 28,
+   "bbox": [
+    138.0,
+    350.9,
+    368.3,
+    375.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the seller",
+   "size": 34,
+   "bbox": [
+    886.9,
+    48.2,
+    1253.1,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "name how it was made",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1200.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not say the other one",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1227.4,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "is bad",
+   "size": 28,
+   "bbox": [
+    838.0,
+    238.9,
+    933.0,
+    263.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "show one thing",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1080.3,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give one length of time",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1206.5,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the buyer: ask about the price, say they look the same, ask to be shown, agree out loud when you are shown. Card B \u2014 the seller: name how it was made, do not say the other one is bad, show one thing, give one length of time.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "f783ad99f43dc8424f637139ec0e4f302c2274bb76c4cb41d37376b0d3e8408c"
+}

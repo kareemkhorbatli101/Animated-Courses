@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 unsure",
+   "size": 34,
+   "bbox": [
+    211.2,
+    48.2,
+    528.8,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say it is probably",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    409.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nothing",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    260.1,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say it twice without",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    449.0,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "noticing",
+   "size": 28,
+   "bbox": [
+    138.0,
+    268.9,
+    266.3,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "push back once",
+   "size": 28,
+   "bbox": [
+    138.0,
+    320.9,
+    383.0,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "decide",
+   "size": 28,
+   "bbox": [
+    138.0,
+    376.9,
+    242.2,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 listening",
+   "size": 34,
+   "bbox": [
+    894.1,
+    48.2,
+    1245.9,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "do not say what is",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1126.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "wrong",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    936.9,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "notice what they repeat",
+   "size": 28,
+   "bbox": [
+    838.0,
+    234.9,
+    1217.8,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give one reason, not",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1163.0,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four",
+   "size": 28,
+   "bbox": [
+    838.0,
+    324.9,
+    903.2,
+    349.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "let them decide",
+   "size": 28,
+   "bbox": [
+    838.0,
+    376.9,
+    1085.2,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 unsure: say it is probably nothing, say it twice without noticing, push back once, decide. Card B \u2014 listening: do not say what is wrong, notice what they repeat, give one reason, not four, let them decide.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "0e101b5c2bb42c63844af1985c220fa72c8a2cbed81821a8a11222775dc63583"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "modern",
+   "size": 28,
+   "bbox": [
+    114.6,
+    287.7,
+    235.8,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "century",
+   "size": 28,
+   "bbox": [
+    387.1,
+    287.7,
+    508.1,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "childhood",
+   "size": 28,
+   "bbox": [
+    642.9,
+    287.7,
+    797.1,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nowadays",
+   "size": 28,
+   "bbox": [
+    913.9,
+    287.7,
+    1070.9,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "camera",
+   "size": 28,
+   "bbox": [
+    1206.6,
+    287.7,
+    1323.0,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "record",
+   "size": 28,
+   "bbox": [
+    124.0,
+    608.7,
+    226.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "engine",
+   "size": 28,
+   "bbox": [
+    393.9,
+    608.7,
+    501.3,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "gas",
+   "size": 28,
+   "bbox": [
+    692.2,
+    608.7,
+    747.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "computer",
+   "size": 28,
+   "bbox": [
+    916.8,
+    608.7,
+    1068.0,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "mobile",
+   "size": 28,
+   "bbox": [
+    1211.5,
+    608.7,
+    1318.1,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 16 as picture cards on one page: modern, century, childhood, nowadays, camera, record, engine, gas, computer, mobile.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "fbccb5bcfbcc2843581e6fd66a1a5c700873b5ec823287c165e37c78bf9b8da0"
+}

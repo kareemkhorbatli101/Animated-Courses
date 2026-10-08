@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "where you",
+   "size": 28,
+   "bbox": [
+    100.4,
+    238.0,
+    265.2,
+    262.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "grew up",
+   "size": 28,
+   "bbox": [
+    118.6,
+    272.0,
+    247.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    570.8,
+    128.5,
+    591.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what it will do in each season",
+   "size": 28,
+   "bbox": [
+    347.3,
+    272.0,
+    815.1,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1102.0,
+    128.5,
+    1122.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what people do about it",
+   "size": 28,
+   "bbox": [
+    923.5,
+    272.0,
+    1301.3,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: where you grew up, what the weather will do in each season, and what people do about it.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "758a33fe934679512970e7cb235f43a2d7e648e624262704d10271c335c37ac8"
+}

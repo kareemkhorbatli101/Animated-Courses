@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    348.5,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina, do you have rules in here?",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    858.0,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    204.2,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Four.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    195.2,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    348.5,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "And the fourth?",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    547.9,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina",
+   "size": 26,
+   "bbox": [
+    112,
+    425.1,
+    204.2,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You mustn\u2019t tell me what you think.",
+   "size": 30,
+   "bbox": [
+    112,
+    466.8,
+    718.2,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The second listening as speech bubbles, one speaker on each side. Dani: Amina, do you have rules in here? Amina: Four. Dani: And the fourth? Amina: You mustn\u2019t tell me what you think.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "2f4b4cc8ad54a7169cc8780dd05ce088d414c566b8bdf760bd3cc0358e7b5278"
+}

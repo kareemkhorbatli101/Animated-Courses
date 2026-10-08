@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What has changed",
+   "size": 28,
+   "bbox": [
+    121.7,
+    289.7,
+    414.3,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "where you live since",
+   "size": 28,
+   "bbox": [
+    106.8,
+    323.7,
+    429.2,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "you arrived?",
+   "size": 28,
+   "bbox": [
+    169.6,
+    357.7,
+    366.4,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What was there before",
+   "size": 28,
+   "bbox": [
+    538.9,
+    323.7,
+    901.1,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "it?",
+   "size": 28,
+   "bbox": [
+    700.4,
+    357.7,
+    739.6,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What has not changed",
+   "size": 28,
+   "bbox": [
+    994.6,
+    289.7,
+    1349.4,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "at all, and are you",
+   "size": 28,
+   "bbox": [
+    1028.0,
+    323.7,
+    1316.0,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "glad?",
+   "size": 28,
+   "bbox": [
+    1129.6,
+    357.7,
+    1214.4,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "5bec27c45460e6d2a6d7a1a1dea600ea5e2b5966a5941f37f864eadd9a5bd65e"
+}

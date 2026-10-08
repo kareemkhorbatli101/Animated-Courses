@@ -915,3 +915,52 @@ job. One job drawn over all four would have been decoration in six units.
 
 410 figures across ten units. 155 icons. Every drawn word is a word the unit
 uses, checked mechanically rather than by eye.
+
+---
+
+## 20. Phase 7 as built — A2.2, and the course complete
+
+Units 11–20 went through the same pipeline. **820 figures across twenty units,
+0 failures across 238 checks in both volumes.**
+
+### The pronunciation slot, again
+
+A2.1 needed four jobs for slot 6. A2.2 needed a fifth shape: every one of its
+ten sections is written as `phrase — explanation`, with the word the phrase is
+about italicised in the explanation rather than named before the dash. The
+parser now reads the section's own rubric (`Listen to *going to*`) as well as
+the italics, and finds the word in the phrase rather than assuming it.
+
+It placed the ring in 34 of the 40 lines. The other six are units where the
+contrast is an ending or the shape of the voice rather than a word, and those
+rings were chosen by hand.
+
+### Three defects this volume found
+
+- **`cue_cards` set its card title at a fixed 34 px**, so `Card A — the person
+  in the flat` ran off the card. Same defect `writing_frame` had with its step
+  labels; both fit their text now.
+- **`build_book.py` gave LibreOffice 900 seconds** to convert the book to PDF.
+  A dense volume is about 500 pages and 18 MB, and the A2.2 conversion ran
+  past it. `TimeoutExpired` is not caught, so it took the whole build down:
+  no PDF, no answer key, and a chain that stopped without saying why. 2700 s
+  now.
+- **`E21` measured register over the captions.** It compares the
+  first-and-second-person rate in the audio scripts against the Part 5 and
+  Part 8 readings. Captions are written in the same flat descriptive voice
+  everywhere and at 41 figures a unit they are a tenth of the words on the
+  page; they diluted the two sides by different proportions and pushed two
+  units under the floor without a word of either text changing. `Sub` now has
+  `prose_text` and `E21` reads it — the same apparatus-is-not-prose rule §5
+  established for `K11`.
+
+### Delivery
+
+`build/` stays untracked. `release/` holds exactly the four books and their
+keys, written at a milestone by `tools/make_release.py`, and `DOWNLOADS.md`
+links into it. The all-in-one ZIP is gone: it was a second copy of the same
+78 MB, and a blob that size is in the repository's history for good.
+
+GitHub Releases remain the better answer and are still not reachable — no
+release-creating tool exists in this session's GitHub tool set, and the API's
+file-write tool takes text, not an 18 MB binary.

@@ -1,0 +1,204 @@
+{
+ "canvas": [
+  1440,
+  629
+ ],
+ "bounds": [
+  47.0,
+  30,
+  1393.0,
+  599.2
+ ],
+ "texts": [
+  {
+   "text": "A warning says bad weather might come, and it might not?",
+   "size": 34,
+   "bbox": [
+    152.2,
+    67.0,
+    1287.8,
+    97.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Do nothing until you",
+   "size": 30,
+   "bbox": [
+    88.0,
+    368.2,
+    434.7,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "are sure",
+   "size": 30,
+   "bbox": [
+    191.2,
+    404.2,
+    331.4,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no work at all",
+   "size": 26,
+   "bbox": [
+    173.0,
+    470.5,
+    349.6,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "by then it is in the shop",
+   "size": 26,
+   "bbox": [
+    107.5,
+    514.5,
+    415.1,
+    538.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Do the small cheap",
+   "size": 30,
+   "bbox": [
+    558.0,
+    368.2,
+    882.0,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thing now",
+   "size": 30,
+   "bbox": [
+    635.5,
+    404.2,
+    804.5,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ten minutes of work",
+   "size": 26,
+   "bbox": [
+    589.6,
+    470.5,
+    850.4,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you might feel silly",
+   "size": 26,
+   "bbox": [
+    596.4,
+    514.5,
+    843.6,
+    538.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Warn everybody else",
+   "size": 30,
+   "bbox": [
+    1000.7,
+    368.2,
+    1356.6,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "as well",
+   "size": 30,
+   "bbox": [
+    1120.1,
+    404.2,
+    1237.3,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "five people move their",
+   "size": 26,
+   "bbox": [
+    1031.7,
+    470.5,
+    1325.6,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "books up",
+   "size": 26,
+   "bbox": [
+    1119.6,
+    501.5,
+    1237.8,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "some of them will not",
+   "size": 26,
+   "bbox": [
+    1037.5,
+    544.5,
+    1319.9,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "believe it",
+   "size": 26,
+   "bbox": [
+    1118.7,
+    575.5,
+    1238.7,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: do nothing until you are sure, and by then the water is in the shop; do the small cheap thing now for ten minutes of work and the risk of feeling silly; or warn everybody else as well.",
+ "placed_in": [
+  6.260416666666667,
+  2.7395833333333335
+ ],
+ "sha256": "96e139221a90c46384ec90d40ae4d23a3cc66f07bb61f2473d6557cb27ebc81b"
+}

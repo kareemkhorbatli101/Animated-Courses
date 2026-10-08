@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  420
+ ],
+ "bounds": [
+  51.0,
+  20.8,
+  1389.0,
+  398.8
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    46.3,
+    97.4,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Actor",
+   "size": 30,
+   "bbox": [
+    131.4,
+    352.0,
+    222.2,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    350.2,
+    46.3,
+    369.0,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Author",
+   "size": 30,
+   "bbox": [
+    390.6,
+    352.0,
+    506.2,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    621.8,
+    46.3,
+    640.6,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Farmer",
+   "size": 30,
+   "bbox": [
+    659.9,
+    352.0,
+    780.1,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    893.4,
+    46.3,
+    912.2,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tailor",
+   "size": 30,
+   "bbox": [
+    945.2,
+    352.0,
+    1038.0,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    1165.0,
+    46.3,
+    1183.8,
+    70.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Waiter",
+   "size": 30,
+   "bbox": [
+    1207.2,
+    352.0,
+    1319.2,
+    378.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five warm-up words as numbered picture cards: actor, author, farmer, tailor, waiter.",
+ "placed_in": [
+  6.260416666666667,
+  1.8229166666666667
+ ],
+ "sha256": "1f9174710add49faaad04fcd2e0905ab4ff82178a14aba5e3d3963f858e36a3c"
+}
