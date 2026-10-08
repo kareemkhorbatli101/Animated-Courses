@@ -373,6 +373,53 @@ push. Three ways out, decision needed:
 I recommend (c), with (a) as the fallback if release creation is not permitted
 for this repo.
 
+### The repository is already 1.4 GB, and this is why
+
+Found 2026-10-08 while costing the bundle. Measured over the whole git history:
+
+| What is in the history | Size |
+|---|---|
+| `.docx` | **573 MB** |
+| `.pdf` | **568 MB** |
+| `.png` | 197 MB |
+| everything else (`.glb`, `.mp4`, `.zip`, `.html`, `.md`) | ~245 MB |
+| **`.git` on disk** | **1.4 GB** |
+
+The working tree's build folder is only 86 MB. The history is 1.14 GB of DOCX
+and PDF because **the loop rebuilt and committed both books after every one of
+twenty units**. Each rebuild is a fresh ~15 MB pair that git stores whole,
+because DOCX and PDF are already-compressed zip containers and do not delta
+against the previous version.
+
+GitHub's own guidance is to keep a repository under about 1 GB. We are past it.
+
+**What the visual work would do to that.** Books go from 15 MB a pair to about
+48 MB. Twenty more unit rebuilds across two volumes is roughly **1 to 2 GB of
+new history** — for files nobody reads from git, only download.
+
+So the bundle question in §7 is the smaller half of a bigger one:
+
+> **Should build outputs be committed to the repository at all?**
+
+My answer is no, and this is the one recommendation in the plan I would make
+even if nothing else here were approved:
+
+1. Stop tracking `build/*.docx`, `build/*.pdf` and `build/*.zip`. The
+   `.gitignore` in `build/` already lists `build/*.pdf`; it was never effective
+   because the files had been added before it existed and `git add -A` keeps
+   updating tracked files regardless.
+2. Publish them as **GitHub Release assets** instead — free, 2 GiB a file,
+   1000 files a release, no bandwidth charge, and not part of git history.
+3. Keep committing everything that *is* source: `units/*.md`, `keys/*.md`,
+   `content/*/u*_figures.py`, `figures/**` (the PNG/JSON/SVG the checks read),
+   `spec/`, `ledgers/`, `tools/`, the reports and the plans.
+4. Leave the existing history alone. Rewriting it would need a force-push over
+   every commit of this project, and the gain is disk we are not short of.
+   Stopping the growth is the whole win.
+
+`DOWNLOADS.md` then points at Release assets rather than `raw` links, and stays
+one click.
+
 ---
 
 ## 8. Spec changes
@@ -721,7 +768,34 @@ spec differs.
 
 ---
 
-## 16. What I need from you
+## 16. Open questions — the whole list
+
+Four are decisions I cannot make for you. Six are smaller, and I have marked
+what I will do if you say nothing.
+
+### Needs your decision
+
+| # | Question | Options | My recommendation |
+|---|---|---|---|
+| **A** | How many figures per unit? | 28 / **41** / 42 | **41.** It comes from a rule, not a number. |
+| **B** | Separate prose from captions in the word budget? | yes / no | **Yes.** Without it the first new figure breaks every unit. It rewrites no prose and makes the current books conform better. |
+| **C** | Stop committing build outputs; publish them as Release assets? | yes / no | **Yes.** True whether or not the visual work happens. |
+| **D** | Stop after Unit 1 at full density for your review? | yes / no | **Yes.** One unit is the cheapest way to find out if 41 is right. |
+
+### Smaller, with a default if you say nothing
+
+| # | Question | What I will do unless told otherwise |
+|---|---|---|
+| **E** | Keep producing PDFs? They are half the bulk. | Keep them. Teachers print, and the DOCX is not a reliable print target across Word versions. |
+| **F** | Fix the `walk_ons` ledger gap? Unit 3's Japan entry was never recorded, so the ledger lists 19 of 20 Part 8 countries. | Fix it. One line, and the ledger exists precisely so this cannot drift. |
+| **G** | B1: same 42-sub-section, 11-part architecture? | **Measure a real B1 book first.** A2's shape came from measuring an A2 book; inheriting it would be the exact drift this project has avoided for twenty units. |
+| **H** | B1: new Part 8 countries — all twenty A2 ones are spent. | Propose ten, matched to each B1 unit's grammar and glossary before any unit is written, as was done for A2 units 17–20. |
+| **I** | B1: same six characters at 14 Alder Street, or a new cast? | Same cast, two years on, as a declared continuation. The ledger already holds 145 recorded facts about them; a new cast throws that away and a continuity error becomes possible on page one. |
+| **J** | B1: same language thresholds? | **No — re-derive them.** Flesch-Kincaid ≤ 5.0 and the 25-word sentence cap are A2 laws. Applying them to B1 would make B1 read like A2, which is the opposite of a level. |
+
+---
+
+## 17. What I need from you
 
 1. **Approve 41 figures per unit**, or pick 28 / 42 from §3.
 2. **Approve the word-budget split** in §5 — prose measured against the
