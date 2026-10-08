@@ -191,8 +191,8 @@ Offer help and say when you are usually in — **5**'''),
 'E07': ('ctx', lambda c: c.grammar.__setitem__(
     'markers', {**c.grammar['markers'], 1: [r'\bzzqq\b']})),
 'E08': URE(r'^> routine · shift · flatmate.*$', '> routine · shift · flatmate'),
-'E09': U('**Part 10: Glossary**\n\n**Unit 1 glossary (10 words)**\n\n> routine · shift · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment',
-         '**Part 10: Glossary**\n\n**Unit 1 glossary (10 words)**\n\n> xylophone · ukulele · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment'),
+'E09': U('**Unit 1 glossary (10 words)**\n\n> routine · shift · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment',
+         '**Unit 1 glossary (10 words)**\n\n> xylophone · ukulele · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment'),
 'E10': ('unit2', 'same_glossary'),
 'E11': ('ctx', lambda c: c.lexis['units'].__setitem__(
     2, {'book': 'A2.1', 'words': ['routine', 'shift']})),
@@ -274,8 +274,8 @@ Offer help and say when you are usually in — **5**'''),
     'no_figure_subs', c.spec['figures']['no_figure_subs'][:-1])),
 # push a label into the 10 mm the printer cuts off
 'G30': FIG(lambda m: m['texts'][0].update(bbox=[4, 4, 60, 40]) or m),
-'G27': ('ctx', lambda c: c.spec['unit'].__setitem__(
-            'caption_words', {'target': 1, 'min': 0, 'max': 1})),
+'G27': ('ctx', lambda c: [c.spec['unit'].__setitem__(k, {'target': 1, 'min': 0, 'max': 1})
+                          for k in ('caption_words', 'caption_words_dense')]),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
 # G26: rewrite one printed extent in the unit DOCX so it no longer matches the law.
 'G26': DOCX(lambda d: d.replace('<wp:extent cx=', '<wp:extent cx="99999" cy="99999" x=', 1)),

@@ -1974,7 +1974,7 @@
   "K10": "PASS",
   "K12": "PASS",
   "K13": "PASS",
-  "K14": "FAIL",
+  "K14": "PASS",
   "K15": "PASS",
   "K16": "PASS",
   "K17": "PASS",
@@ -1982,8 +1982,8 @@
  },
  "summary": {
   "total": 1966,
-  "pass": 1835,
-  "fail": 1,
+  "pass": 1836,
+  "fail": 0,
   "gate": 121,
   "skip": 9
  }
