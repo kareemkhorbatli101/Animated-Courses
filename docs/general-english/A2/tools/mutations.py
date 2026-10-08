@@ -231,13 +231,13 @@ Offer help and say when you are usually in — **5**'''),
 'F16': U('Every morning the street is busy.', 'Every morning you should take 500 mg tablets.'),
 
 # --------------------------------------------------------------- G figures
-'G01': URE(r'^\*Figure 1\.9 · .*$', ''),
-'G02': U('*Figure 1.9 ·', '*Figure 1.19 ·'),
-'G03': U('*Figure 1.3 · Six jobs and the places people do them.*\n', ''),
-'G04': U('*Figure 1.3 · Six jobs and the places people do them.*',
-         '*Figure 1.3 Six jobs and the places people do them.*'),
-'G05': U('*Figure 1.3 · Six jobs and the places people do them.*',
-         '*Figure 1.3 · Six jobs and the places people do them*'),
+'G01': URE(r'^\*Figure 1\.23 · .*$', ''),
+'G02': U('*Figure 1.23 ·', '*Figure 1.44 ·'),
+'G03': U('*Figure 1.7 · Six jobs and the places people do them.*\n', ''),
+'G04': U('*Figure 1.7 · Six jobs and the places people do them.*',
+         '*Figure 1.7 Six jobs and the places people do them.*'),
+'G05': U('*Figure 1.7 · Six jobs and the places people do them.*',
+         '*Figure 1.7 · Six jobs and the places people do them*'),
 'G06': FIG(lambda m: m.update(width=1200) or m),
 'G07': FIG(lambda m: m.update(height=200) or m),
 'G08': FIG(lambda m: m.update(mode='P') or m),
@@ -246,9 +246,9 @@ Offer help and say when you are usually in — **5**'''),
 'G11': FIG(lambda m: m.update(placed_in=[9.9, 9.9]) or m),
 # move a figure to the end of its section, where nothing uses it any more
 'G12': ('unit', lambda t: t
-        .replace('*Figure 1.2 \u00b7 14 Alder Street at eight in the morning.*\n\n', '')
+        .replace('*Figure 1.4 \u00b7 14 Alder Street at eight in the morning.*\n\n', '')
         .replace('**Part 1 \u00b7 Vocabulary and Terminology**',
-                 '*Figure 1.2 \u00b7 14 Alder Street at eight in the morning.*\n\n'
+                 '*Figure 1.4 \u00b7 14 Alder Street at eight in the morning.*\n\n'
                  '**Part 1 \u00b7 Vocabulary and Terminology**')),
 'G13': FIG(lambda m: m['texts'][0].update(size=8) or m),
 'G14': FIG(lambda m: m['texts'][0].update(bbox=m['texts'][1]['bbox']) or m),
@@ -268,6 +268,12 @@ Offer help and say when you are usually in — **5**'''),
 #      were actually printed at.
 # renumber the second figure past the last one, so the sequence descends
 'G28': ('unit', lambda t: t.replace('*Figure 1.4 \u00b7', '*Figure 1.41 \u00b7', 1)),
+# drop the last excuse from no_figure_subs: that sub-section then has no figure
+# and no licence to be without one, which is exactly what G29 exists to say
+'G29': ('ctx', lambda c: c.spec['figures'].__setitem__(
+    'no_figure_subs', c.spec['figures']['no_figure_subs'][:-1])),
+# push a label into the 10 mm the printer cuts off
+'G30': FIG(lambda m: m['texts'][0].update(bbox=[4, 4, 60, 40]) or m),
 'G27': ('ctx', lambda c: c.spec['unit'].__setitem__(
             'caption_words', {'target': 1, 'min': 0, 'max': 1})),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
@@ -340,6 +346,9 @@ Offer help and say when you are usually in — **5**'''),
 'J14': ('needs_artefact', 'pdf/git state'),
 'J15': ('ctx', lambda c: c.typo['departures'].__setitem__(
             'pages_per_volume', {'min': 1, 'max': 2})),
+'J17': ('ctx', lambda c: c.typo['departures'].__setitem__(
+    'size_envelope_mb', {'docx': {'min': 0, 'max': 0.1},
+                         'pdf': {'min': 0, 'max': 0.1}})),
 'J16': ('rename', lambda n: 'a21-unit1.md'),
 
 # ------------------------------------------------------------ K regression

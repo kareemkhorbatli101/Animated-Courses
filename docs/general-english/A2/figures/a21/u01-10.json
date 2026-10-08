@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  362
+ ],
+ "bounds": [
+  67,
+  17.9,
+  1373,
+  343.9
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    55.8,
+    143.1,
+    84.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Your commute",
+   "size": 30,
+   "bbox": [
+    190,
+    57.4,
+    433.1,
+    84.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "My commute takes half an hour on two buses.",
+   "size": 24,
+   "bbox": [
+    670,
+    59.3,
+    1225.8,
+    80.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    168.5,
+    143.1,
+    196.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Your break",
+   "size": 30,
+   "bbox": [
+    190,
+    170.1,
+    373.0,
+    196.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I usually have a break at eleven.",
+   "size": 26,
+   "bbox": [
+    670,
+    170.4,
+    1094.4,
+    194.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    281.2,
+    143.1,
+    309.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment",
+   "size": 30,
+   "bbox": [
+    190,
+    282.7,
+    443.7,
+    309.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "At the moment I am starting work early.",
+   "size": 26,
+   "bbox": [
+    670,
+    283.1,
+    1189.7,
+    306.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the two or three sentences to write, in three steps: your commute, your break, and one sentence about what is happening at the moment, with a line of the model beside each.",
+ "placed_in": [
+  6.260416666666667,
+  1.5729166666666667
+ ],
+ "sha256": "b3c25be8df898f06a60181a31ee512887c2e551c8955e6ca24616b2dc443209e"
+}

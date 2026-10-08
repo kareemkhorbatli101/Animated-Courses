@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  688
+ ],
+ "bounds": [
+  53,
+  30.0,
+  1387,
+  658.0
+ ],
+ "texts": [
+  {
+   "text": "routine",
+   "size": 40,
+   "bbox": [
+    112,
+    79.2,
+    276.2,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "commute",
+   "size": 40,
+   "bbox": [
+    112,
+    185.6,
+    321.3,
+    221.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "appointment",
+   "size": 40,
+   "bbox": [
+    112,
+    291.9,
+    401.5,
+    327.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "colleague",
+   "size": 40,
+   "bbox": [
+    112,
+    398.2,
+    329.0,
+    433.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "usually",
+   "size": 40,
+   "bbox": [
+    112,
+    504.6,
+    273.3,
+    540.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "neighbour",
+   "size": 40,
+   "bbox": [
+    112,
+    610.9,
+    342.8,
+    646.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Where the stress falls in six words from this unit. Each word has a bar above every syllable, tall and dark where the stress falls and short and pale elsewhere, and the same pattern is repeated at the right as one large dot among small ones.",
+ "placed_in": [
+  6.260416666666667,
+  2.9895833333333335
+ ],
+ "sha256": "492e767925a01c5e79ab740ec0e58f9dd086bb161d68e1fc238d2165a57fb466"
+}

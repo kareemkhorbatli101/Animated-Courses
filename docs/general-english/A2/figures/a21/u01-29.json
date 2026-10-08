@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  417
+ ],
+ "bounds": [
+  67,
+  20.7,
+  1373,
+  396.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    50.8,
+    143.1,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The morning",
+   "size": 30,
+   "bbox": [
+    190,
+    52.4,
+    403.8,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "My perfect weekday starts late.",
+   "size": 26,
+   "bbox": [
+    670,
+    52.7,
+    1081.6,
+    76.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    147.8,
+    143.1,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Until two",
+   "size": 30,
+   "bbox": [
+    190,
+    149.4,
+    343.7,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I work until two, and then I stop.",
+   "size": 26,
+   "bbox": [
+    670,
+    149.7,
+    1091.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    244.8,
+    143.1,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The afternoon",
+   "size": 30,
+   "bbox": [
+    190,
+    246.4,
+    429.3,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "In the afternoon I read, and I cook.",
+   "size": 26,
+   "bbox": [
+    670,
+    246.7,
+    1121.0,
+    270.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    341.8,
+    143.1,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The evening",
+   "size": 30,
+   "bbox": [
+    190,
+    343.4,
+    397.3,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "In the evening I see one friend.",
+   "size": 26,
+   "bbox": [
+    670,
+    343.7,
+    1076.4,
+    367.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Your perfect weekday as four times of day -- the morning, until two, the afternoon and the evening -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.8125
+ ],
+ "sha256": "7b3595e41909885261b1c217b67de27abea26ad999c11bc1fb22ccc4d9140df8"
+}

@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    172.4,
+    128.5,
+    193.2,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "who they are",
+   "size": 28,
+   "bbox": [
+    79.4,
+    272.0,
+    286.2,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    570.8,
+    128.5,
+    591.6,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what they usually do",
+   "size": 28,
+   "bbox": [
+    416.2,
+    272.0,
+    746.2,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1102.0,
+    128.5,
+    1122.8,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what they are doing at the moment",
+   "size": 24,
+   "bbox": [
+    871.4,
+    274.4,
+    1353.4,
+    295.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a clock line, each block as wide as the share of the minute it should take: a short one for who the person is, then two longer ones for what they usually do and what they are doing at the moment.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "365f8e2eaf97d616ed051f189c78aaa44b3044f0b31a18a2e4d9ada317e38e01"
+}

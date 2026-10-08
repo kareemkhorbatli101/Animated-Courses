@@ -158,3 +158,24 @@ def j16(units, ctx):
         if not re.fullmatch(r'a2[12]-u\d{2}\.md', f):
             bad.append(f)
     return expect(not bad, f'off-convention: {bad}')
+
+
+@check('J17', 'build.size_envelope', 'Book DOCX and PDF within the declared size envelope',
+       scope='book')
+def j17(units, ctx):
+    """A silent jump in file size means something is rendering at the wrong
+    canvas -- a full-page image at 1440 px is four times too small and still
+    prints, and a figure left untightened is four times too big. Bytes are the
+    cheapest signal there is that the artwork is the size it is meant to be."""
+    env = ctx.typo['departures'].get('size_envelope_mb')
+    if not env:
+        return ok('SKIP: no size envelope declared')
+    bad = []
+    for kind, path in (('docx', ctx.docx_for(None)), ('pdf', ctx.pdf_for(None))):
+        if not os.path.exists(path):
+            continue
+        mb = os.path.getsize(path) / (1 << 20)
+        lo, hi = env[kind]['min'], env[kind]['max']
+        if not (lo <= mb <= hi):
+            bad.append(f'{kind} {mb:.1f} MB, want {lo}-{hi}')
+    return expect(not bad, '; '.join(bad))

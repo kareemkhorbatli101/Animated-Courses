@@ -140,9 +140,23 @@ def h12(u, ctx):
     if s: return s
     d = _xml(_docx(ctx, u))
     paras = re.findall(r'<w:p\b.*?</w:p>', d, re.S)
+    # A full-page image prints no caption, on purpose: it owns a zero-margin
+    # section, so the paragraph after it begins a new section and a new page,
+    # and the caption was coming out alone on a page of its own. The words are
+    # still in the markdown and still reach a screen reader as the image's alt
+    # text -- see build_docx.preprocess. So the rule is: every image that is
+    # not full-page is followed by its italic caption, and a full-page one is
+    # followed by a section break and no caption.
+    nfull = len(ctx.spec['figures'].get('full_page_slots') or [])
+    seen = 0
     bad = []
     for i, p in enumerate(paras):
         if '<w:drawing>' not in p:
+            continue
+        seen += 1
+        if seen <= nfull:          # the openers come first in document order
+            if '<w:sectPr' not in p:
+                bad.append(f'full-page figure {seen} is not in its own section')
             continue
         nxt = paras[i + 1] if i + 1 < len(paras) else ''
         txt = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', nxt))

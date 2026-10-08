@@ -78,7 +78,12 @@ departures:
   # 11-17 pages was the source's own density. The refined layout gives every
   # part its own page, 1.15 line spacing, 6pt paragraph spacing, padded cells
   # and 14 figures a unit, and runs 20-32. That is the point of the change.
-  pages_per_unit: {min: 20, max: 34}
+  # 2026-10-08, phase 5: raised from 34. Unit 1 on the full 41-slot layout
+  # measures 39 pages against 25 before it -- 27 new figures at a mean 2.5 in
+  # of printed height is about 14 pages, and the measurement agrees. The min
+  # stays at 20: units 2-10 are still on 14 figures and run 24-26, and the
+  # band has to admit both layouts while phase 5 is the only one built.
+  pages_per_unit: {min: 20, max: 42}
   # Raised 2026-10-08 from max 380 to the measured truth. J15 had never
   # executed -- Ctx.pdf_for(None) named a file build_book.py has never
   # written -- so the volumes sat at 386 and 396 pages against a declared
@@ -91,6 +96,13 @@ departures:
   # 2026-10-08, phase 2: raised again from 410. Giving each of the ten unit
   # openers a whole page took A2.1 from 392 to 411 and A2.2 from 401 to 420.
   pages_per_volume: {min: 230, max: 430}
+  # Measured 2026-10-08 on the phase-2 build: A2.1 7.0 MB DOCX / 10.3 MB PDF,
+  # A2.2 7.2 / 10.5. The band is wide on purpose -- it is there to catch a
+  # factor, not a percent. The dense layout will move it, and when it does the
+  # new number goes here with the measurement that produced it.
+  size_envelope_mb:
+    docx: {min: 2, max: 60}
+    pdf:  {min: 3, max: 90}
 
 layout:
   body:

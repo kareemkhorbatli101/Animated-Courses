@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 Neighbour",
+   "size": 34,
+   "bbox": [
+    177.4,
+    58.2,
+    562.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "open the conversation",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    492.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say your name and floor",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    520.1,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give two useful facts",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    467.7,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer help",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    291.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 New arrival",
+   "size": 34,
+   "bbox": [
+    868.0,
+    58.2,
+    1272.0,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say when you moved in",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1207.3,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you do",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1095.0,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask two questions about",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1225.9,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the area",
+   "size": 28,
+   "bbox": [
+    838.0,
+    294.9,
+    970.6,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thank them",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1020.0,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two 7D role-play cards side by side. Card A, the neighbour: open the conversation, say your name and floor, give two useful facts, offer help. Card B, the new arrival: say when you moved in, say what you do, ask two questions about the area, thank them.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "ef234573bdec07046b2165a2ea82fd08330f4558b6bbef58364b6a23c6ceab07"
+}

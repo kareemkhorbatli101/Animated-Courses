@@ -515,6 +515,51 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         L(-8, 12, -4, 34, stroke=P['ink'], sw=5)
         L(8, 12, 12, 34, stroke=P['ink'], sw=5)
         L(-34, 4, -40, -8, stroke=P['tand'], sw=5)         # the tail
+    elif name == 'alarm':
+        C(0, 2, 32, fill=P['card'])
+        L(-24, -24, -34, -36, sw=5); L(24, -24, 34, -36, sw=5)
+        L(0, 2, 0, -18, sw=5); L(0, 2, 14, 10, sw=5)
+        L(-22, 32, -34, 46, sw=5); L(22, 32, 34, 46, sw=5)
+    elif name == 'window':
+        R(-34, -36, 68, 68, fill=P['blue'], r=4)
+        L(0, -36, 0, 32); L(-34, -2, 34, -2)
+        R(-42, 32, 84, 10, fill=P['tan'], r=3)
+    elif name == 'radio':
+        R(-40, -14, 80, 44, fill=P['card'], r=6)
+        C(-18, 8, 13, fill=P['grey']); R(2, -4, 30, 10, fill=P['deep'], r=3)
+        R(2, 12, 30, 8, fill=P['blue'], r=3)
+        L(26, -14, 40, -42, sw=4); C(40, -44, 6, fill=P['ink'], sw=0)
+    elif name == 'bread':
+        f.path(f'M {cx-44*s:.1f} {cy+22*s:.1f} L {cx-44*s:.1f} {cy-4*s:.1f} '
+               f'Q {cx-44*s:.1f} {cy-30*s:.1f} {cx-12*s:.1f} {cy-30*s:.1f} '
+               f'L {cx+16*s:.1f} {cy-30*s:.1f} Q {cx+46*s:.1f} {cy-30*s:.1f} '
+               f'{cx+46*s:.1f} {cy-2*s:.1f} L {cx+46*s:.1f} {cy+22*s:.1f} Z',
+               fill=P['tanl'])
+        L(-30, -8, -12, -8, stroke=P['tand']); L(-2, -8, 16, -8, stroke=P['tand'])
+    elif name == 'question':
+        C(0, 0, 34, fill=P['card'])
+        f.path(f'M {cx-13*s:.1f} {cy-10*s:.1f} Q {cx-13*s:.1f} {cy-26*s:.1f} '
+               f'{cx:.1f} {cy-26*s:.1f} Q {cx+14*s:.1f} {cy-26*s:.1f} '
+               f'{cx+14*s:.1f} {cy-11*s:.1f} Q {cx+14*s:.1f} {cy-1*s:.1f} '
+               f'{cx:.1f} {cy+5*s:.1f} L {cx:.1f} {cy+13*s:.1f}', sw=5)
+        C(0, 24, 5, fill=P['ink'], sw=0)
+    elif name == 'speech':
+        R(-40, -34, 80, 50, fill=P['card'], r=12)
+        f.path(f'M {cx-16*s:.1f} {cy+16*s:.1f} L {cx-6*s:.1f} {cy+38*s:.1f} '
+               f'L {cx+8*s:.1f} {cy+16*s:.1f} Z', fill=P['card'], stroke=P['card'])
+        L(-26, -18, 26, -18, stroke=P['deep']); L(-26, -4, 12, -4, stroke=P['deep'])
+    elif name == 'pencil':
+        f.path(f'M {cx-36*s:.1f} {cy+34*s:.1f} L {cx-28*s:.1f} {cy+8*s:.1f} '
+               f'L {cx+24*s:.1f} {cy-44*s:.1f} L {cx+40*s:.1f} {cy-28*s:.1f} '
+               f'L {cx-12*s:.1f} {cy+24*s:.1f} Z', fill=P['tanl'])
+        L(-28, 8, -12, 24, sw=3)
+    elif name == 'street':
+        R(-50, 6, 100, 30, fill=P['grey'], r=3)
+        for k in (-34, -6, 22):
+            L(k, 21, k + 16, 21, stroke=P['bg'], sw=4)
+        R(-46, -34, 26, 40, fill=P['card'], r=3)
+        R(-12, -22, 24, 28, fill=P['blue'], r=3)
+        R(20, -40, 28, 46, fill=P['deep'], r=3)
     elif name == 'painting':
         R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
         R(-35, -26, 70, 52, fill=P['bg'], r=1)
@@ -907,6 +952,484 @@ def progress_strip(lines, height=520, alt=''):
         if plus:
             f.text('PLUS', W - 110, y + rh / 2 + 2, size=22, fill=P['ink'],
                    anchor='end', on=P['card'])
+    return f
+
+
+# ------------------------------------------- figure jobs added for the 41 slots
+# Fifteen new jobs. The pedagogical job of each slot is set out in
+# 00-VISUAL-PLAN.md section 4; these draw them. Two standing constraints shaped
+# every one of them:
+#   * every word drawn has to appear in the unit's own text (check G18), which
+#     is why nothing here renders a syllable, a part-of-speech name or a word
+#     like "seconds" that the unit does not use. Shape and position carry that
+#     meaning instead.
+#   * no glyph under 22 px and no label box touching another (G13, G14), so
+#     each job computes its own cell size and calls fit_lines rather than
+#     taking a size on trust.
+
+def _numchip(f: Fig, cx, cy, n, r=26):
+    """The numbered disc that ties a card to a numbered item in the task."""
+    f.circle(cx, cy, r, fill=P['ink'], stroke=P['ink'], sw=0)
+    f.text(str(n), cx, cy + r * 0.40, size=max(22, int(r * 1.25)),
+           fill=P['bg'], on=P['ink'])
+
+
+def _blank_line(f: Fig, x0, y, x1):
+    """A rule the learner writes on. Not decoration: where there is no line,
+    learners write in the margin and the page stops being usable."""
+    f.line(x0, y, x1, y, stroke=P['rule'], sw=3)
+
+
+def word_grid(cells, height=520, cols=5, alt=''):
+    """Picture cards for a matching task: the task's own item number, the word,
+    and the thing the word means drawn beneath it, so the meaning can be met
+    before the English is secure. It differs from category_set in carrying the
+    item numbers, which is what makes it usable while answering rather than
+    after."""
+    f = Fig(height, alt)
+    rows = math.ceil(len(cells) / cols)
+    pad, gap = 54, 26
+    cw = (W - 2 * pad - gap * (cols - 1)) / cols
+    ch = (height - 2 * 44 - gap * (rows - 1)) / rows
+    for i, (word, ic) in enumerate(cells):
+        r, c = divmod(i, cols)
+        x = pad + c * (cw + gap)
+        y = 44 + r * (ch + gap)
+        f.rect(x, y, cw, ch, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        _numchip(f, x + 34, y + 34, i + 1, r=22)
+        icon(f, ic, x + cw / 2, y + ch * 0.56,
+             s=min(1.2, ch * 0.30 / 56, cw * 0.40 / 56))
+        lines, size = fit_lines(word, cw - 24, size_hi=30)
+        base = y + ch - 22 - (len(lines) - 1) * (size + 5)
+        for j, ln in enumerate(lines):
+            f.text(ln, x + cw / 2, base + j * (size + 5), size=size, on=P['card'])
+        f.cards += 1
+    return f
+
+
+def bank_strip(items, height=400, cols=None, alt=''):
+    """The word-bank items as icons, in bank order, so a gap-fill has something
+    to point at. The order is the bank's own: the task prints the bank in that
+    order and a reordered figure would be a second puzzle on top of the first.
+
+    `cols` wraps a long bank onto two rows. The spiral review's bank is eight
+    words, two of which are "present continuous"; across one row each cell gets
+    145 px and the label cannot be set above the 22 px floor, so a single strip
+    is not an option there."""
+    f = Fig(height, alt)
+    n = len(items)
+    cols = cols or n
+    rows = math.ceil(n / cols)
+    pad, gap = 54, 24
+    cw = (W - 2 * pad - gap * (cols - 1)) / cols
+    f.rect(pad - 16, 40, W - 2 * pad + 32, height - 90, fill=P['card'],
+           stroke='#CED4DD', r=18, sw=3)
+    ch = (height - 148 - gap * (rows - 1)) / rows
+    for i, (word, ic) in enumerate(items):
+        r, c = divmod(i, cols)
+        x = pad + c * (cw + gap)
+        y = 70 + r * (ch + gap)
+        f.rect(x, y, cw, ch, fill=P['bg'], stroke=P['rule'], r=12, sw=3)
+        icon(f, ic, x + cw / 2, y + ch * 0.44,
+             s=min(1.15, cw * 0.36 / 56, ch * 0.32 / 56))
+        lines, size = fit_lines(word, cw - 20, size_hi=30)
+        base = y + ch - 22 - (len(lines) - 1) * (size + 5)
+        for j, ln in enumerate(lines):
+            f.text(ln, x + cw / 2, base + j * (size + 5), size=size, on=P['bg'])
+        f.cards += 1
+    return f
+
+
+def sound_shape(rows, height=520, alt=''):
+    """Stress drawn as shape. `rows` = (word, [syllable, ...], stressed_index).
+
+    The syllables are measured and never written: a syllable is not a word, so
+    rendering one would fail G18 in every unit in the book. Each syllable gets a
+    bar above its own span of the printed word -- tall and accented where the
+    stress falls, short and pale elsewhere -- and the pattern repeats at the
+    right in the big-dot / small-dot notation a teacher can read aloud at a
+    glance. Pronunciation is the one thing prose genuinely cannot show, and
+    every unit has a pronunciation sub-section that had no figure at all."""
+    f = Fig(height, alt)
+    n = len(rows)
+    pad = 56
+    rh = (height - 2 * 44 - (n - 1) * 16) / n
+    for i, (word, syls, st) in enumerate(rows):
+        y = 44 + i * (rh + 16)
+        f.rect(pad, y, W - 2 * pad, rh, fill=P['card'], stroke='#CED4DD', r=14, sw=3)
+        size = 40
+        while tw(word, size) > 460 and size > 26:
+            size -= 2
+        x0 = pad + 56
+        bar_base = y + rh * 0.46
+        for k, syl in enumerate(syls):
+            w0 = tw(''.join(syls[:k]), size)
+            w1 = tw(''.join(syls[:k + 1]), size)
+            tall = (k == st)
+            bh2 = 26 if tall else 11
+            f.rect(x0 + w0 + 2, bar_base - bh2, max(10.0, w1 - w0 - 4), bh2,
+                   fill=P['accent'] if tall else P['blue'],
+                   stroke=P['ink'], r=4, sw=2)
+        f.text(word, x0, y + rh * 0.84, size=size, anchor='start', on=P['card'])
+        dx = W - pad - 70 - (len(syls) - 1) * 54
+        for k in range(len(syls)):
+            f.circle(dx + k * 54, y + rh * 0.52, 17 if k == st else 9,
+                     fill=P['accent'] if k == st else P['blue'], sw=3)
+        f.cards += 1
+    return f
+
+
+def annotated_lines(lines, height=460, alt=''):
+    """Sentences with the target form ringed. `lines` = (sentence, phrase).
+
+    The Notice task says "underline the verbs"; this is what a correct
+    underlining looks like, which the prose version left the learner to guess.
+    The ring is positioned by measuring the sentence prefix, so it lands on the
+    phrase however the text is set."""
+    f = Fig(height, alt)
+    n = len(lines)
+    pad = 56
+    rh = (height - 2 * 44 - (n - 1) * 14) / n
+    for i, (sent, phrase) in enumerate(lines):
+        y = 44 + i * (rh + 14)
+        f.rect(pad, y, W - 2 * pad, rh, fill=P['bg'], stroke=P['rule'], r=12, sw=3)
+        size = 32
+        while tw(sent, size) > W - 2 * pad - 170 and size > 22:
+            size -= 2
+        x0 = pad + 86
+        base = y + rh / 2 + size * 0.36
+        at = sent.find(phrase)
+        if at >= 0:
+            px = x0 + tw(sent[:at], size)
+            pw = tw(phrase, size)
+            f.rect(px - 10, base - size * 1.02, pw + 20, size * 1.46,
+                   fill=P['card'], stroke=P['accent'], r=size * 0.7, sw=4)
+        f.text(sent, x0, base, size=size, anchor='start',
+               on=P['card'] if at >= 0 else P['bg'])
+        _numchip(f, pad + 40, y + rh / 2, i + 1, r=22)
+    return f
+
+
+def sort_bins(bins, items, height=560, alt=''):
+    """A two-bin sort with the bins left empty. The chips are the task's items
+    and the bins are its two columns; which chip goes where IS the exercise, so
+    the figure deliberately does not place them. Prose turned a sorting task
+    into a list, which is the one shape a sort cannot be done in."""
+    f = Fig(height, alt)
+    pad = 56
+    cn = len(items)
+    cw = (W - 2 * pad - 18 * (cn - 1)) / cn
+    for i, it in enumerate(items):
+        x = pad + i * (cw + 18)
+        f.rect(x, 40, cw, 86, fill=P['bg'], stroke=P['ink'], r=43, sw=3)
+        ll, sz = fit_lines(it, cw - 28, size_hi=28)
+        f.text(ll[0], x + cw / 2, 92, size=sz, on=P['bg'])
+        f.cards += 1
+    # sized from how many bins there are: a hard-coded 2 ran a third bin
+    # clean off the canvas with nothing to catch it but G16.
+    bw = (W - 2 * pad - 40 * (len(bins) - 1)) / len(bins)
+    for k, b in enumerate(bins):
+        x = pad + k * (bw + 40)
+        f.rect(x, 190, bw, height - 240, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
+        f.rect(x, 190, bw, 72, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
+        bl, bsz = fit_lines(b, bw - 44, size_hi=34, size_lo=24)
+        f.text(bl[0], x + bw / 2, 238, size=bsz, fill=P['bg'], on=P['ink'])
+        for j in range(4):
+            _blank_line(f, x + 40, 326 + j * 54, x + bw - 40)
+    return f
+
+
+def error_pairs(rows, height=520, alt=''):
+    """The shape of a correction: the wrong form struck through on the left, the
+    right one on the right. `rows` = (wrong, right_or_None); a row whose right
+    side is None draws a writing line instead. That is the point -- the figure
+    models the first correction and leaves the rest to the learner, rather than
+    printing the answers to the task it sits above."""
+    f = Fig(height, alt)
+    n = len(rows)
+    pad = 54
+    rh = (height - 2 * 42 - (n - 1) * 14) / n
+    half = (W - 2 * pad) / 2 - 30
+    for i, (wrong, right) in enumerate(rows):
+        y = 42 + i * (rh + 14)
+        cy = y + rh / 2
+        f.rect(pad, y, W - 2 * pad, rh, fill=P['bg'], stroke=P['rule'], r=12, sw=3)
+        f.circle(pad + 44, cy, 20, fill=P['bg'], stroke=P['tand'], sw=4)
+        f.line(pad + 34, cy - 10, pad + 54, cy + 10, stroke=P['tand'], sw=4)
+        f.line(pad + 54, cy - 10, pad + 34, cy + 10, stroke=P['tand'], sw=4)
+        wl, wsz = fit_lines(wrong, half - 100, size_hi=28)
+        yb = cy + 9 - (len(wl[:2]) - 1) * 17
+        for j, ln in enumerate(wl[:2]):
+            bb = f.text(ln, pad + 80, yb + j * 34, size=wsz, anchor='start', on=P['bg'])
+            f.line(bb[0], (bb[1] + bb[3]) / 2, bb[2], (bb[1] + bb[3]) / 2,
+                   stroke=P['tand'], sw=3)
+        f.arrow(pad + half - 4, cy - 8, pad + half + 70)
+        rx = pad + half + 94
+        f.circle(rx + 22, cy, 20, fill=P['bg'], stroke=P['accent'], sw=4)
+        f.path(f'M {rx+12:.1f} {cy:.1f} L {rx+20:.1f} {cy+10:.1f} '
+               f'L {rx+34:.1f} {cy-12:.1f}', stroke=P['accent'], sw=5)
+        if right:
+            rl, rsz = fit_lines(right, W - pad - rx - 90, size_hi=28)
+            for j, ln in enumerate(rl[:2]):
+                f.text(ln, rx + 58, yb + j * 34, size=rsz, anchor='start', on=P['bg'])
+        else:
+            _blank_line(f, rx + 58, cy + 14, W - pad - 30)
+    return f
+
+
+def dialogue_strip(turns, height=560, alt=''):
+    """Who says what to whom, as alternating bubbles. In a dialogue task the
+    shape on the page IS the content: which speaker holds which turn is exactly
+    what the questions ask about, and a prose script hides it."""
+    f = Fig(height, alt)
+    n = len(turns)
+    pad = 50
+    rh = (height - 2 * 36 - (n - 1) * 14) / n
+    bw = W - 2 * pad - 230
+    # The side belongs to the SPEAKER, not to the turn. Alternating by turn
+    # index puts the same person on the left in turn 1 and the right in turn 4,
+    # which is the one thing a dialogue figure must not do: the whole reason to
+    # draw it is that the shape tells you who is holding the floor.
+    order = []
+    for who, _, _ in turns:
+        if who not in order:
+            order.append(who)
+    side = {w: (k % 2 == 0) for k, w in enumerate(order)}
+    for i, (who, ic, line) in enumerate(turns):
+        y = 36 + i * (rh + 14)
+        leftside = side[who]
+        bx = pad + 200 if leftside else pad + 30
+        icx = pad + 90 if leftside else W - pad - 90
+        icon(f, ic, icx, y + rh / 2, s=min(0.92, rh * 0.40 / 56))
+        f.rect(bx, y, bw, rh, fill=P['card'], stroke='#CED4DD', r=22, sw=3)
+        tail = bx if leftside else bx + bw
+        f.path(f'M {tail:.1f} {y + rh*0.34:.1f} '
+               f'L {tail + (-26 if leftside else 26):.1f} {y + rh*0.50:.1f} '
+               f'L {tail:.1f} {y + rh*0.66:.1f} Z',
+               fill=P['card'], stroke=P['card'], sw=2)
+        nl, nsz = fit_lines(who, bw - 60, size_hi=26, size_lo=22)
+        f.text(nl[0], bx + 32, y + rh * 0.34, size=nsz, anchor='start', on=P['card'])
+        ll, lsz = fit_lines(line, bw - 64, size_hi=30, size_lo=22)
+        for j, ln in enumerate(ll[:2]):
+            f.text(ln, bx + 32, y + rh * 0.34 + 44 + j * (lsz + 6), size=lsz,
+                   anchor='start', on=P['card'])
+    return f
+
+
+def match_columns(left, right, height=620, alt=''):
+    """Two columns for the learner to join: numbered cards on the left, lettered
+    cards on the right, and one more on the right than on the left so the spare
+    option is visible rather than implied. The dots on the facing edges are
+    where the lines are meant to start and end."""
+    f = Fig(height, alt)
+    LW, RW = 540, 650
+    lh = (height - 2 * 40 - (len(left) - 1) * 16) / len(left)
+    for i, (name, ic) in enumerate(left):
+        y = 40 + i * (lh + 16)
+        f.rect(60, y, LW, lh, fill=P['bg'], stroke=P['ink'], r=14, sw=3)
+        _numchip(f, 102, y + lh / 2, i + 1, r=22)
+        icon(f, ic, 182, y + lh / 2, s=min(0.8, lh * 0.38 / 56))
+        nl, nsz = fit_lines(name, LW - 230, size_hi=30)
+        for j, ln in enumerate(nl[:2]):
+            f.text(ln, 240, y + lh / 2 + 10 - (len(nl[:2]) - 1) * 17 + j * 34,
+                   size=nsz, anchor='start', on=P['bg'])
+        f.circle(60 + LW - 24, y + lh / 2, 8, fill=P['ink'], stroke=P['ink'], sw=0)
+    rh = (height - 2 * 40 - (len(right) - 1) * 14) / len(right)
+    rx = W - 60 - RW
+    for i, said in enumerate(right):
+        y = 40 + i * (rh + 14)
+        f.rect(rx, y, RW, rh, fill=P['card'], stroke='#CED4DD', r=14, sw=3)
+        f.text(chr(97 + i), rx + 44, y + rh / 2 + 10, size=28, fill=P['ink'],
+               on=P['card'])
+        sl, ssz = fit_lines(said, RW - 130, size_hi=28)
+        for j, ln in enumerate(sl[:2]):
+            f.text(ln, rx + 84, y + rh / 2 + 10 - (len(sl[:2]) - 1) * 16 + j * 32,
+                   size=ssz, anchor='start', on=P['card'])
+        f.circle(rx + 14, y + rh / 2, 8, fill=P['ink'], stroke=P['ink'], sw=0)
+    return f
+
+
+def question_cards(questions, height=520, alt=''):
+    """The discussion questions as cards a pair can put on the table and take
+    one at a time, which is how the task is meant to be run and not how a
+    numbered prose list gets used."""
+    f = Fig(height, alt)
+    n = len(questions)
+    pad, gap = 56, 28
+    cw = (W - 2 * pad - gap * (n - 1)) / n
+    ch = height - 2 * 44
+    for i, (q, ic) in enumerate(questions):
+        x = pad + i * (cw + gap)
+        f.rect(x, 44, cw, ch, fill=P['bg'], stroke=P['ink'], r=22, sw=4)
+        f.rect(x, 44, cw, 72, fill=P['ink'], stroke=P['ink'], r=22, sw=0)
+        f.text(str(i + 1), x + cw / 2, 94, size=34, fill=P['bg'], on=P['ink'])
+        icon(f, ic, x + cw / 2, 44 + ch * 0.44, s=min(1.1, cw * 0.28 / 56))
+        ql, qsz = fit_lines(q, cw - 44, size_hi=28)
+        base = 44 + ch - 40 - (len(ql[:2]) - 1) * (qsz + 6)
+        for j, ln in enumerate(ql[:2]):
+            f.text(ln, x + cw / 2, base + j * (qsz + 6), size=qsz, on=P['bg'])
+        f.cards += 1
+    return f
+
+
+def info_gap_pair(a, b, height=600, alt=''):
+    """Student A's picture and Student B's picture, with a fold line between.
+
+    The task has always said each student sees only their own; printing both as
+    prose lists on one page made that impossible to run, and either student
+    could read the other's list and skip the speaking. A pair of pictures
+    either side of a fold is what the task has needed since it was written."""
+    f = Fig(height, alt)
+    half = W / 2
+    for k, (title, items) in enumerate((a, b)):
+        x = 50 + k * half
+        w = half - 100
+        on = P['card'] if k else P['bg']
+        f.rect(x, 44, w, height - 96, fill=on,
+               stroke='#CED4DD' if k else P['rule'], r=18, sw=3)
+        tl, tsz = fit_lines(title, w - 44, size_hi=32, size_lo=24)
+        f.text(tl[0], x + w / 2, 98, size=tsz, on=on)
+        f.line(x + 30, 122, x + w - 30, 122, stroke=P['rule'], sw=3)
+        n = len(items)
+        cw = (w - 40) / n
+        for i, (label, ic) in enumerate(items):
+            cx = x + 20 + cw * (i + 0.5)
+            icon(f, ic, cx, 222, s=min(0.95, cw * 0.34 / 56))
+            ll, lsz = fit_lines(label, cw - 16, size_hi=26, size_lo=22)
+            for j, ln in enumerate(ll[:2]):
+                f.text(ln, cx, 312 + j * (lsz + 6), size=lsz, on=on)
+        for j in range(3):
+            _blank_line(f, x + 40, height - 164 + j * 42, x + w - 40)
+    for yy in range(40, height - 50, 28):
+        f.line(half, yy, half, yy + 14, stroke=P['ink'], sw=3)
+    return f
+
+
+def talk_shape(beats, height=440, alt=''):
+    """A short talk as four beats, each one as wide as the share of the time it
+    should take. `beats` = (label, share, icon). The task says "about a minute"
+    and learners spend all of it on the first idea; the widths are the
+    correction, and they say it without a word the unit does not have."""
+    f = Fig(height, alt)
+    pad = 56
+    tot = sum(s for _, s, _ in beats) or 1
+    inner = W - 2 * pad
+    icon(f, 'clock', pad + 48, 94, s=0.74)
+    f.line(pad + 104, 94, W - pad, 94, stroke=P['ink'], sw=5)
+    x = pad
+    bh = height - 212
+    for i, (label, share, ic) in enumerate(beats):
+        bw = inner * share / tot
+        f.rect(x, 156, bw - 12, bh, fill=P['card'], stroke='#CED4DD', r=14, sw=3)
+        f.rect(x, 156, bw - 12, 60, fill=P['ink'], stroke=P['ink'], r=14, sw=0)
+        f.text(str(i + 1), x + (bw - 12) / 2, 198, size=30, fill=P['bg'], on=P['ink'])
+        icon(f, ic, x + (bw - 12) / 2, 156 + bh * 0.52,
+             s=min(0.9, (bw - 12) * 0.24 / 56))
+        ll, lsz = fit_lines(label, bw - 44, size_hi=28, size_lo=22)
+        base = 156 + bh - 24 - (len(ll[:2]) - 1) * (lsz + 6)
+        for j, ln in enumerate(ll[:2]):
+            f.text(ln, x + (bw - 12) / 2, base + j * (lsz + 6), size=lsz, on=P['card'])
+        f.stages += 1
+        x += bw
+    return f
+
+
+def sequence_steps(steps, height=560, alt=''):
+    """The steps in the order the task prints them -- which is not the right
+    order -- each with an empty box for its number. Ordering is a spatial task
+    and was prose; the boxes are where the answer goes."""
+    f = Fig(height, alt)
+    n = len(steps)
+    pad = 56
+    rh = (height - 2 * 40 - (n - 1) * 14) / n
+    for i, (text, ic) in enumerate(steps):
+        y = 40 + i * (rh + 14)
+        f.rect(pad, y, W - 2 * pad, rh, fill=P['bg'], stroke=P['rule'], r=12, sw=3)
+        f.rect(pad + 28, y + rh / 2 - 24, 48, 48, fill=P['bg'],
+               stroke=P['accent'], r=8, sw=4)
+        icon(f, ic, pad + 158, y + rh / 2, s=min(0.78, rh * 0.38 / 56))
+        tl, tsz = fit_lines(text, W - 2 * pad - 300, size_hi=30)
+        for j, ln in enumerate(tl[:2]):
+            f.text(ln, pad + 224, y + rh / 2 + 10 - (len(tl[:2]) - 1) * 17 + j * 34,
+                   size=tsz, anchor='start', on=P['bg'])
+        f.cards += 1
+    return f
+
+
+def decision_fork(question, options, height=640, alt=''):
+    """One trunk, three branches, and what each branch costs. A decision task is
+    a choice with consequences, and the consequences were buried in the prose of
+    the paragraph above it."""
+    f = Fig(height, alt)
+    pad = 50
+    f.rect(pad, 40, W - 2 * pad, 96, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
+    ql, qsz = fit_lines(question, W - 2 * pad - 64, size_hi=34, size_lo=24)
+    f.text(ql[0], W / 2, 102, size=qsz, fill=P['bg'], on=P['ink'])
+    n = len(options)
+    cw = (W - 2 * pad - 36 * (n - 1)) / n
+    for i, (label, costs, ic) in enumerate(options):
+        x = pad + i * (cw + 36)
+        cx = x + cw / 2
+        f.path(f'M {W/2:.1f} 136 L {W/2:.1f} 188 L {cx:.1f} 188 L {cx:.1f} 238',
+               stroke=P['accent'], sw=5)
+        f.rect(x, 238, cw, height - 300, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        icon(f, ic, cx, 318, s=min(1.0, cw * 0.24 / 56))
+        ll, lsz = fit_lines(label, cw - 44, size_hi=30, size_lo=24)
+        for j, ln in enumerate(ll[:2]):
+            f.text(ln, cx, 400 + j * (lsz + 6), size=lsz, on=P['card'])
+        yy = 400 + len(ll[:2]) * (lsz + 6) + 28
+        for c in costs[:2]:
+            cl, csz = fit_lines(c, cw - 48, size_hi=26, size_lo=22)
+            for j, ln in enumerate(cl[:2]):
+                f.text(ln, cx, yy + j * (csz + 5), size=csz, fill=P['ink'],
+                       on=P['card'], bold=False)
+            yy += 44 + (len(cl[:2]) - 1) * 30
+        f.stages += 1
+    return f
+
+
+def glossary_grid(words, height=760, cols=5, alt=''):
+    """Every glossary word on one page as a picture card. The glossary is the
+    last thing in the unit and a bare list is the easiest thing in the book to
+    skip; one card each is the cheapest retention aid the unit has."""
+    f = Fig(height, alt)
+    rows = math.ceil(len(words) / cols)
+    pad, gap = 50, 22
+    cw = (W - 2 * pad - gap * (cols - 1)) / cols
+    ch = (height - 2 * 40 - gap * (rows - 1)) / rows
+    for i, (word, ic) in enumerate(words):
+        r, c = divmod(i, cols)
+        x = pad + c * (cw + gap)
+        y = 40 + r * (ch + gap)
+        f.rect(x, y, cw, ch, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        icon(f, ic, x + cw / 2, y + ch * 0.44,
+             s=min(1.1, ch * 0.30 / 56, cw * 0.38 / 56))
+        ll, lsz = fit_lines(word, cw - 20, size_hi=28)
+        base = y + ch - 24 - (len(ll[:2]) - 1) * (lsz + 5)
+        for j, ln in enumerate(ll[:2]):
+            f.text(ln, x + cw / 2, base + j * (lsz + 5), size=lsz, on=P['card'])
+        f.cards += 1
+    return f
+
+
+def close_scene(items, height=520, alt=''):
+    """The close-to-home reading drawn as the street it describes: one ground
+    line, the places along it in the order the text walks them, each labelled.
+    Part 9 had no figure at all."""
+    f = Fig(height, alt)
+    pad = 46
+    gy = height - 150
+    f.rect(pad, 40, W - 2 * pad, gy - 40, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
+    f.line(pad + 12, gy, W - pad - 12, gy, stroke=P['ink'], sw=6)
+    n = len(items)
+    cw = (W - 2 * pad - 24) / n
+    for i, (label, ic) in enumerate(items):
+        cx = pad + 12 + cw * (i + 0.5)
+        icon(f, ic, cx, gy - 74, s=min(1.25, cw * 0.32 / 56))
+        f.line(cx, gy, cx, gy + 22, stroke=P['rule'], sw=3)
+        ll, lsz = fit_lines(label, cw - 18, size_hi=28, size_lo=22)
+        for j, ln in enumerate(ll[:2]):
+            f.text(ln, cx, gy + 60 + j * (lsz + 6), size=lsz, on=P['bg'])
     return f
 
 

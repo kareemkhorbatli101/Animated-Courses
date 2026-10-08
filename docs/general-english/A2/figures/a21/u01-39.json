@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "routine",
+   "size": 30,
+   "bbox": [
+    150.0,
+    209.4,
+    273.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "shift",
+   "size": 30,
+   "bbox": [
+    512.1,
+    209.4,
+    588.9,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "flatmate",
+   "size": 30,
+   "bbox": [
+    818.0,
+    209.4,
+    961.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "appointment",
+   "size": 30,
+   "bbox": [
+    1120.0,
+    209.4,
+    1337.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present continuous",
+   "size": 26,
+   "bbox": [
+    69.4,
+    429.7,
+    353.6,
+    453.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "present simple",
+   "size": 30,
+   "bbox": [
+    424.3,
+    427.4,
+    676.7,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "neighbour",
+   "size": 30,
+   "bbox": [
+    803.0,
+    427.4,
+    976.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "usually",
+   "size": 30,
+   "bbox": [
+    1168.0,
+    427.4,
+    1289.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank on two rows, in bank order: routine, shift, flatmate, appointment, present continuous, present simple, neighbour and usually, each with a picture.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "19e48c3b55ae4e3741cef204a4c625c78224e7fdbfc978765d1cc6b5e50f0d4e"
+}

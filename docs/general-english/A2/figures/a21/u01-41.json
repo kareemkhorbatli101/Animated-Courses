@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  686
+ ],
+ "bounds": [
+  47.0,
+  30.0,
+  1393.0,
+  656.0
+ ],
+ "texts": [
+  {
+   "text": "routine",
+   "size": 28,
+   "bbox": [
+    117.8,
+    287.7,
+    232.6,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "shift",
+   "size": 28,
+   "bbox": [
+    411.7,
+    287.7,
+    483.5,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "flatmate",
+   "size": 28,
+   "bbox": [
+    653.3,
+    287.7,
+    786.7,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "neighbour",
+   "size": 28,
+   "bbox": [
+    911.6,
+    287.7,
+    1073.2,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "colleague",
+   "size": 28,
+   "bbox": [
+    1188.9,
+    287.7,
+    1340.7,
+    312.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "commute",
+   "size": 28,
+   "bbox": [
+    102.0,
+    608.7,
+    248.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "appointment",
+   "size": 28,
+   "bbox": [
+    346.3,
+    608.7,
+    548.9,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "busy",
+   "size": 28,
+   "bbox": [
+    682.5,
+    608.7,
+    757.5,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "usually",
+   "size": 28,
+   "bbox": [
+    936.0,
+    608.7,
+    1048.8,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at the moment",
+   "size": 26,
+   "bbox": [
+    1156.2,
+    609.5,
+    1373.4,
+    633.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 10,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "All ten glossary words of Unit 1 as picture cards on one page: routine, shift, flatmate, neighbour, colleague, commute, appointment, busy, usually and at the moment.",
+ "placed_in": [
+  6.260416666666667,
+  2.9791666666666665
+ ],
+ "sha256": "1d8975803ced557c3e9948764832b2daea8b5488a345cd7dac01e01f82e714e9"
+}

@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 28 checks.
+"""G · Figures and visuals — 30 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -21,8 +21,27 @@ def _meta(ctx, u, n):
     p = _figpath(ctx, u, n, 'json')
     return json.load(open(p)) if os.path.exists(p) else None
 
-def _slots(ctx):
-    return sorted(ctx.spec['figures']['slots'])
+def _fig(ctx, u=None):
+    """The figure spec as it applies to ONE unit.
+
+    Phase 5 of the visual plan takes a single unit to the full 41-slot layout
+    and leaves the other nineteen on the 14 they have, so that 540 pieces of
+    new artwork are not committed before one unit has been read end to end.
+    A unit named in `figures.dense_units` is measured against `dense_slots`
+    and `dense_per_unit`; every other unit against `slots` and `per_unit`.
+    Everything else -- the boxes, the full-page set, the byte budgets -- is
+    shared, because the slot NUMBERS mean the same job in both tables: that is
+    what the 2026-10-08 renumber was for.
+    """
+    fg = ctx.spec['figures']
+    dense = (fg.get('dense_units') or {}).get(ctx.book) or []
+    if u is not None and u.num in dense:
+        return {**fg, 'slots': fg['dense_slots'], 'per_unit': fg['dense_per_unit']}
+    return fg
+
+
+def _slots(ctx, u=None):
+    return sorted(_fig(ctx, u)['slots'])
 
 
 def _full(ctx):
@@ -33,7 +52,7 @@ def _full(ctx):
 
 
 def _present(ctx, u):
-    return [n for n in _slots(ctx) if os.path.exists(_figpath(ctx, u, n, 'png'))]
+    return [n for n in _slots(ctx, u) if os.path.exists(_figpath(ctx, u, n, 'png'))]
 
 def _skip_if_absent(ctx, u):
     return None if _present(ctx, u) else ok('SKIP: no figures rendered yet (P1 gate)')
@@ -41,20 +60,20 @@ def _skip_if_absent(ctx, u):
 
 @check('G01', 'golden.figures.per_unit', 'Exactly as many figure captions as the spec sets')
 def g01(u, ctx):
-    want = ctx.spec['figures']['per_unit']
+    want = _fig(ctx, u)['per_unit']
     return expect(len(u.figures) == want, f'{len(u.figures)} captions, want {want}')
 
 @check('G02', 'golden.figures', 'Figures numbered from 1 up, no gaps, no duplicates')
 def g02(u, ctx):
     nums = sorted(n for _, n, _ in u.figures)
     units = {m for m, _, _ in u.figures}
-    want = _slots(ctx)
+    want = _slots(ctx, u)
     return expect(nums == want and units == {u.num},
                   f'numbers {nums} want {want}; unit prefixes {units}')
 
 @check('G03', 'golden.figures.slots', 'Every figure sits in the part the spec gives it')
 def g03(u, ctx):
-    want = {k: v['part'] for k, v in ctx.spec['figures']['slots'].items()
+    want = {k: v['part'] for k, v in _fig(ctx, u)['slots'].items()
             if v['part'] != 'Unit'}
     got = {}
     for p in u.parts:
@@ -64,7 +83,7 @@ def g03(u, ctx):
                 if m:
                     got[int(m.group(2))] = p.name
     # the opener sits above the first part header, so it has no part
-    opener = [k for k, v in ctx.spec['figures']['slots'].items() if v['part'] == 'Unit']
+    opener = [k for k, v in _fig(ctx, u)['slots'].items() if v['part'] == 'Unit']
     bad = [f'{k}: {got.get(k)} want {v}' for k, v in want.items() if got.get(k) != v]
     bad += [f'{k}: opener should sit before Part 1, found in {got[k]}'
             for k in opener if k in got]
@@ -74,7 +93,7 @@ def g03(u, ctx):
 def g04(u, ctx):
     caps = [l for l in u.lines if l.startswith('*Figure')]
     bad = [c for c in caps if not M.FIGCAP.match(c)]
-    want = ctx.spec['figures']['per_unit']
+    want = _fig(ctx, u)['per_unit']
     return expect(len(caps) == want and not bad,
                   f'{len(caps)} captions (want {want}), malformed {bad}')
 
@@ -506,7 +525,9 @@ def g27(u, ctx):
     is fixed by figures.slots, so a part's caption load is already structural,
     and a second per-part table would be one more thing to re-measure at every
     phase for no extra catch."""
-    cw = ctx.spec['unit'].get('caption_words')
+    dense = (ctx.spec['figures'].get('dense_units') or {}).get(ctx.book) or []
+    key = 'caption_words_dense' if u.num in dense else 'caption_words'
+    cw = ctx.spec['unit'].get(key)
     if not cw:
         return ok('SKIP: no caption allowance declared')
     n = u.caption_words
@@ -526,3 +547,54 @@ def g28(u, ctx):
     nums = [n for _, n, _ in u.figures]
     bad = [f'{a} then {b}' for a, b in zip(nums, nums[1:]) if b <= a]
     return expect(not bad, f'out of order: {bad}')
+
+
+@check('G29', 'golden.figures.no_figure_subs',
+       'Every sub-section carries a figure except the ones the spec excuses')
+def g29(u, ctx):
+    """The coverage law. "Much more visual" is a memory unless something counts
+    the sub-sections that have no picture, and the excuse list is checked in
+    BOTH directions: a sub-section the spec excuses that later gains a figure is
+    a finding too, or the list quietly rots into a list of places nobody
+    looked."""
+    fg = _fig(ctx, u)
+    if fg['per_unit'] != fg.get('dense_per_unit'):
+        return ok('SKIP: unit is not on the dense layout yet')
+    excused = {(e['part'], e['index'])
+               for e in (ctx.spec['figures'].get('no_figure_subs') or [])}
+    bad = []
+    for p in u.parts:
+        for i, sub in enumerate(p.subs, 1):
+            has = any(M.FIGCAP.match(l) for l in sub.lines)
+            if has and (p.name, i) in excused:
+                bad.append(f'{p.name}.{i} {sub.heading!r} carries a figure the '
+                           'spec excuses')
+            elif not has and (p.name, i) not in excused:
+                bad.append(f'{p.name}.{i} {sub.heading!r} has no figure')
+    return expect(not bad, '; '.join(bad[:6]))
+
+
+@check('G30', 'golden.figures.px_height_full_page',
+       'Full-page art is 2480 x 3508 with no text inside 10 mm of the trim')
+def g30(u, ctx):
+    """I12 does this for the two covers. The openers need it too: a full-page
+    image is printed to the page edge, so anything within the printer's cut is
+    gone, and unlike an in-flow figure there is no white margin to save it."""
+    s = _skip_if_absent(ctx, u)
+    if s: return s
+    fg, full = _fig(ctx, u), _full(ctx)
+    MARGIN = round(10 / 25.4 * 300)        # 118 px at 300 DPI, as I12 uses
+    bad = []
+    for n in _present(ctx, u):
+        if n not in full:
+            continue
+        pw, ph, _, _ = _png_size(_figpath(ctx, u, n, 'png'))
+        if (pw, ph) != (fg['px_width_full_page'], fg['px_height_full_page']):
+            bad.append(f'{n}: {pw}x{ph}, want '
+                       f'{fg["px_width_full_page"]}x{fg["px_height_full_page"]}')
+            continue
+        for t in (_meta(ctx, u, n) or {}).get('texts', []):
+            x0, y0, x1, y1 = t['bbox']
+            if x0 < MARGIN or y0 < MARGIN or x1 > pw - MARGIN or y1 > ph - MARGIN:
+                bad.append(f'{n}: {t["text"][:18]!r} inside the trim margin')
+    return expect(not bad, '; '.join(bad[:5]))

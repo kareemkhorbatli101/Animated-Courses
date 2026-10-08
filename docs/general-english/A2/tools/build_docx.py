@@ -105,6 +105,16 @@ def preprocess(md_path, book, unit_num):
                 alt = json.load(open(meta_p))['alt'] if os.path.exists(meta_p) else ''
                 out.append(f'![{alt}]({png})')
                 out.append('')
+                # A full-page image owns its own zero-margin section, so the
+                # paragraph after it starts a new section and therefore a new
+                # page. Printing the caption there stranded it alone on a page
+                # of its own in all twenty units -- measured on the Unit 1
+                # proof build, 2026-10-08. The caption stays in the markdown,
+                # which is what every G check and the alt text read; it is the
+                # PRINTED line that is dropped, and the same words already
+                # reach a screen reader through the image's alt text.
+                if is_full_page(png):
+                    continue
         out.append(line)
     return '\n'.join(out)
 

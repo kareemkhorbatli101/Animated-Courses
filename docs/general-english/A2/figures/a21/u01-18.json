@@ -1,0 +1,240 @@
+{
+ "canvas": [
+  1440,
+  626
+ ],
+ "bounds": [
+  57,
+  30.0,
+  1383,
+  596.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    92.6,
+    85.5,
+    111.4,
+    110.0
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 30,
+   "bbox": [
+    240,
+    85.2,
+    346.4,
+    111.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    92.6,
+    229.5,
+    111.4,
+    254.0
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya",
+   "size": 30,
+   "bbox": [
+    240,
+    229.2,
+    329.0,
+    255.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    373.5,
+    111.4,
+    398.0
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 30,
+   "bbox": [
+    240,
+    373.2,
+    346.5,
+    399.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    92.6,
+    517.5,
+    111.4,
+    542.0
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani",
+   "size": 30,
+   "bbox": [
+    240,
+    517.2,
+    316.8,
+    543.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    73.1,
+    783.4,
+    97.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "running for the bus",
+   "size": 28,
+   "bbox": [
+    814,
+    73.1,
+    1120.7,
+    97.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    187.9,
+    784.0,
+    212.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "coming home from a night shift",
+   "size": 28,
+   "bbox": [
+    814,
+    187.9,
+    1312.6,
+    212.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    302.7,
+    782.3,
+    327.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "sleeping in the afternoon",
+   "size": 28,
+   "bbox": [
+    814,
+    302.7,
+    1214.6,
+    327.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    417.5,
+    784.0,
+    442.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "opening her shop",
+   "size": 28,
+   "bbox": [
+    814,
+    417.5,
+    1089.9,
+    442.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "e",
+   "size": 28,
+   "bbox": [
+    764.5,
+    532.3,
+    783.5,
+    556.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "carrying a bag of rice",
+   "size": 28,
+   "bbox": [
+    814,
+    532.3,
+    1152.2,
+    556.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four people on the left and five things happening on the right, for the learner to join. One of the five, sleeping in the afternoon, is not needed, and it is drawn so the spare option is visible.",
+ "placed_in": [
+  6.260416666666667,
+  2.71875
+ ],
+ "sha256": "6680193d67b83a0116398cc5d7a8f4975b367c3e3b8cd6cd464a862eda08ec21"
+}

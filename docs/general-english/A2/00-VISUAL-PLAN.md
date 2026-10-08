@@ -808,3 +808,44 @@ what I will do if you say nothing.
    and you look at it before I do the other 19.
 
 Everything else I will take as approved with the plan.
+
+---
+
+## 18. Phase 5 as built — the review gate
+
+Written after the work, not before it, so the plan carries what actually
+happened rather than what was forecast.
+
+### Delivered
+
+- Fifteen new figure jobs and eight new icons in `tools/figures.py`.
+- `spec/golden.yaml → figures.dense_units / dense_slots / dense_per_unit`:
+  **one unit on the 41-slot layout, nineteen still on 14, both green.**
+- Unit 1 at **41 figures**, 0 failures, 38 pages (was 25).
+- Three new checks — `G29` (the coverage law), `G30` (full-page art is
+  2480 × 3508 with nothing inside the 10 mm trim) and `J17` (DOCX/PDF size
+  envelope) — each with a mutation fixture and a spec clause. **238 checks.**
+
+### Corrections to this plan, found by measuring
+
+| Section | Said | Is |
+|---|---|---|
+| §4 | two sub-sections left plain | **four** — the Part 1 and Part 2 rows accounted for six and five where every unit has seven of each. `Part 1: Daily Life — Multiple Choice` and `Part 2: Grammar Review` are both tests of what has just been taught; a picture would cue the answers. All four are in `figures.no_figure_subs` with reasons. |
+| §9c | `G28` = caption words, `G29` = coverage, `G30` = full-page trim | built as `G27` = caption words, `G28` = ascending order, `G29` = coverage, `G30` = full-page trim. The names shifted by one when `G25`–`G28` landed in phase 2; the eight checks all exist. |
+| §9b `G07` | raise the in-flow height cap to 980 px | **not raised.** Nothing needed it: the tallest new figure is 686 px. A figure over ~712 px prints narrower than the text width anyway, because the fit box solves for whichever side binds. 880 stands. |
+| §7 | the page forecast | Unit 1 went 25 → 38 pages, and the volume stayed at **411** — the 13 pages Unit 1 gained were paid for by the caption-page defect below, which cost one page in every unit. |
+
+### A defect this phase found in phase 2's work
+
+**A full-page image's caption printed alone on a page of its own, in all
+twenty units.** A full-page image owns a zero-margin section, so the paragraph
+after it begins a new section and therefore a new page — and that paragraph
+was the caption. `build_docx.preprocess` now drops the printed caption for a
+full-page figure. The line stays in the markdown, where every `G` check reads
+it, and the same words still reach a screen reader as the image's alt text.
+`H12` knows about it. Worth one page a unit.
+
+Not fixed, and recorded as a known cost: the unit title page (title line and
+strap, then nothing) cannot share a page with the opener, because a section
+break with different margins always starts a new page. Recovering it means
+putting the title under the opener, and `A01` requires the title to be line 1.

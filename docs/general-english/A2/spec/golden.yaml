@@ -20,6 +20,10 @@ unit:
   # Measured 2026-10-08 at 14 figures a unit: 184-203 words. The allowance
   # moves with the figure count, as the page envelope does.
   caption_words: {target: 190, min: 170, max: 215}
+  # 41 figures at the same 13.6 words a caption. Measured on Unit 1 once the
+  # dense layout was built, not forecast: G27 reads this for a dense unit and
+  # `caption_words` above for every other.
+  caption_words_dense: {target: 560, min: 480, max: 625}
   audio_tracks: 5
   glossary_words: 10
   can_do_lines: 5
@@ -185,6 +189,73 @@ figures:
     30: {part: 'Part 7',  job: function_map,     feeds: matching}
     35: {part: 'Part 8',  job: before_after,     feeds: text_qa}
     40: {part: 'Part 10', job: progress_strip,   feeds: cando}
+  # ---------------------------------------------------------------- the 41 slots
+  # Phase 5 of 00-VISUAL-PLAN.md proves the full 41-slot layout on one unit
+  # before the other nineteen are rebuilt, because 27 new figures a unit is 540
+  # pieces of artwork and the cheapest place to find out that a job is wrong is
+  # the first unit. A unit named in `dense_units` is measured against
+  # `dense_slots` and `dense_per_unit`; every other unit keeps the 14 it has and
+  # the tree stays green. Phases 6 and 7 move every unit over, and then
+  # `dense_slots` becomes `slots` and this block goes.
+  dense_units:
+    a21: [1]
+    a22: []
+  dense_per_unit: 41
+  dense_slots:
+    1:  {part: 'Unit',    job: unit_opener_page, feeds: orientation, class: full_page}
+    2:  {part: 'Warm Up', job: word_grid,        feeds: matching}
+    3:  {part: 'Warm Up', job: bank_strip,       feeds: gapfill}
+    4:  {part: 'Warm Up', job: scene,            feeds: fig_mcq}
+    5:  {part: 'Part 1',  job: word_grid,        feeds: matching}
+    6:  {part: 'Part 1',  job: sound_shape,      feeds: pronunciation}
+    7:  {part: 'Part 1',  job: category_set,     feeds: table_fill}
+    8:  {part: 'Part 1',  job: label_me,         feeds: matching}
+    9:  {part: 'Part 1',  job: bank_strip,       feeds: gapfill}
+    10: {part: 'Part 1',  job: writing_frame,    feeds: short_write}
+    11: {part: 'Part 2',  job: annotated_lines,  feeds: notice}
+    12: {part: 'Part 2',  job: grammar_contrast, feeds: focus_box}
+    13: {part: 'Part 2',  job: timeline,         feeds: gapfill}
+    14: {part: 'Part 2',  job: sort_bins,        feeds: sorting}
+    15: {part: 'Part 2',  job: error_pairs,      feeds: correct_sent}
+    16: {part: 'Part 3',  job: speakers,         feeds: script_tfng}
+    17: {part: 'Part 3',  job: dialogue_strip,   feeds: script_qa}
+    18: {part: 'Part 3',  job: match_columns,    feeds: script_match}
+    19: {part: 'Part 4',  job: question_cards,   feeds: discuss}
+    20: {part: 'Part 4',  job: info_gap_pair,    feeds: infogap}
+    21: {part: 'Part 4',  job: cue_cards,        feeds: roleplay}
+    22: {part: 'Part 4',  job: talk_shape,       feeds: presentation}
+    23: {part: 'Part 5',  job: process_strip,    feeds: text_mcq}
+    24: {part: 'Part 5',  job: word_grid,        feeds: matching}
+    25: {part: 'Part 5',  job: world_strip,      feeds: text_qa}
+    26: {part: 'Part 6',  job: writing_frame,    feeds: writing}
+    27: {part: 'Part 6',  job: writing_frame,    feeds: writing}
+    28: {part: 'Part 6',  job: writing_frame,    feeds: writing}
+    29: {part: 'Part 6',  job: writing_frame,    feeds: writing}
+    30: {part: 'Part 7',  job: function_map,     feeds: matching}
+    31: {part: 'Part 7',  job: dialogue_strip,   feeds: script_qa}
+    32: {part: 'Part 7',  job: sequence_steps,   feeds: ordering}
+    33: {part: 'Part 7',  job: cue_cards,        feeds: roleplay}
+    34: {part: 'Part 7',  job: writing_frame,    feeds: writing}
+    35: {part: 'Part 8',  job: before_after,     feeds: text_qa}
+    36: {part: 'Part 8',  job: word_grid,        feeds: matching}
+    37: {part: 'Part 9',  job: close_scene,      feeds: text_qa}
+    38: {part: 'Part 9',  job: decision_fork,    feeds: decision}
+    39: {part: 'Part 10', job: bank_strip,       feeds: gapfill}
+    40: {part: 'Part 10', job: progress_strip,   feeds: cando}
+    41: {part: 'Part 10', job: glossary_grid,    feeds: glossary}
+  # The sub-sections that carry no figure, by position, so a later pass cannot
+  # read a gap as an oversight and "fix" it. All twenty units have the same
+  # shape (3-7-7-3-4-3-4-5-2-1-3 sub-sections), so a position is a stable name.
+  # 00-VISUAL-PLAN.md section 4 named two of these. Measuring the real tree
+  # found four: the plan's Part 1 and Part 2 rows accounted for six and five
+  # sub-sections where the architecture has seven of each. The two extra are
+  # recorded here with their reasons rather than given figures, because both
+  # are tests of what has just been taught and a picture would answer them.
+  no_figure_subs:
+    - {part: 'Part 1', index: 5, reason: 'the multiple-choice test of Part 1 vocabulary; a picture of the answer is the answer'}
+    - {part: 'Part 2', index: 6, reason: 'two lines of free writing about the learner''s own street; the Focus Box figure four sub-sections earlier is the only thing there is to draw, and a repeated figure teaches that figures can be skipped'}
+    - {part: 'Part 2', index: 7, reason: 'the end-of-part grammar test; the contrast is already drawn at slot 12 and redrawing it here would cue every answer'}
+    - {part: 'Part 8', index: 2, reason: 'three sentence frames and nothing else; the content is whatever the pair brings, so a two-people-talking icon would be decoration'}
   label_me_slot: 8
   category_set_slot: 7
   process_strip_slot: 23

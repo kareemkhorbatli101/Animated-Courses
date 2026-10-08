@@ -238,3 +238,77 @@ Recorded so a later pass does not "fix" them back:
 `spec/golden.yaml` is hash-locked by `spec/golden.sha256`. **Re-hash after any
 edit** or check K01 goes red:
 `python3 -c "import hashlib;open('spec/golden.sha256','w').write(hashlib.sha256(open('spec/golden.yaml','rb').read()).hexdigest()+chr(10))"`
+
+---
+
+## Phase 5 of the visual plan: the 41-slot layout, proved on Unit 1
+
+`00-VISUAL-PLAN.md` is the approved plan. Phases 0–4 are done and committed.
+Phase 5 builds the fifteen new figure jobs and takes **Unit 1 only** to the
+full layout, as the review gate before 540 more pieces of artwork are made.
+
+### How one unit can be dense while nineteen are not
+
+`spec/golden.yaml → figures.dense_units` names them (`a21: [1]` today).
+A unit in that list is measured against `dense_slots` (41 rows) and
+`dense_per_unit`; every other unit against `slots` (14) and `per_unit`.
+`checks/family_g._fig(ctx, u)` is the one place that chooses. Everything else
+— the boxes, the full-page set, the byte budgets — is shared, because a slot
+NUMBER means the same job in both tables. That is what the 2026-10-08 renumber
+bought. Phases 6 and 7 move every unit over; then `dense_slots` becomes
+`slots` and the block goes.
+
+### The fifteen new jobs
+
+`word_grid` · `bank_strip` · `sound_shape` · `annotated_lines` · `sort_bins` ·
+`error_pairs` · `dialogue_strip` · `match_columns` · `question_cards` ·
+`info_gap_pair` · `talk_shape` · `sequence_steps` · `decision_fork` ·
+`glossary_grid` · `close_scene`, plus eight icons (`alarm`, `window`, `radio`,
+`bread`, `question`, `speech`, `pencil`, `street`).
+
+Two constraints shaped all of them, and will shape any more:
+
+- **G18 has no stemming and no morphology.** Every word drawn must appear in
+  the unit's own text. That is why `sound_shape` measures syllables and never
+  prints one: `rou` is not a word. It is also why `talk_shape` shows shares of
+  a minute as widths rather than writing "seconds", which Unit 1 does not use.
+  The check is a substring test, so a singular drawn against a plural in the
+  text passes (`reason` against `reasons`); an invented word does not.
+- **A figure taller than ~712 px prints narrower than the text width.** The
+  box is 6.2604 × 3.0938 in and `contain` solves for whichever side binds, so
+  at 1440 px wide anything over 1440 × 3.0938 / 6.2604 = 712 px is limited by
+  height and leaves white down both sides. Keep in-flow canvases under that.
+
+### Three defects the proof build found
+
+- **`sort_bins` sized its bins for exactly two and ran a third clean off the
+  canvas.** Now sized from `len(bins)`.
+- **`dialogue_strip` alternated sides by turn index, not by speaker**, so Maya
+  sat on the left in turn 1 and the right in turn 4. The side now belongs to
+  the speaker. In a dialogue figure the shape IS the content.
+- **A full-page image's caption printed alone on a page of its own, in all
+  twenty units.** The image owns a zero-margin section, so the paragraph after
+  it starts a new section and therefore a new page. `build_docx.preprocess`
+  now drops the PRINTED caption for a full-page figure; the line stays in the
+  markdown, which is what every G check reads, and the same words still reach
+  a screen reader as the image's alt text. H12 knows about it. Worth one page
+  a unit, twenty a volume.
+
+### Known and left alone
+
+The unit title page (title line + strap, then nothing) is the structural cost
+of a full-page opener: a section break with different margins always starts a
+new page, so the opener cannot share a page with the lines above it. Moving
+the title under the opener would recover a page a unit but A01 requires the
+title to be line 1 of the markdown. Recorded, not fixed.
+
+### What the plan under-counted
+
+`00-VISUAL-PLAN.md` section 4 named **two** sub-sections to leave plain. The
+real architecture has **four**: the plan's Part 1 and Part 2 rows accounted for
+six and five sub-sections where every unit has seven of each. The two extra —
+`Part 1: Daily Life — Multiple Choice` and `Part 2: Grammar Review` — are both
+tests of what has just been taught, where a picture would cue the answers.
+All four are in `figures.no_figure_subs` with their reasons, and `G29` checks
+the list in **both** directions: a sub-section that is excused and then gains a
+figure is a finding too, or the list rots into a list of places nobody looked.

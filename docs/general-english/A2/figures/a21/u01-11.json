@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  53,
+  19.7,
+  1387,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "Maya works in a bookshop.",
+   "size": 32,
+   "bbox": [
+    142,
+    49.6,
+    631.5,
+    77.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    50.0,
+    105.4,
+    74.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Right now, she is waiting for the bus.",
+   "size": 32,
+   "bbox": [
+    142,
+    141.1,
+    817.0,
+    169.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    141.5,
+    105.4,
+    165.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas works at the hospital every week.",
+   "size": 32,
+   "bbox": [
+    142,
+    232.6,
+    879.6,
+    260.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    233.0,
+    105.4,
+    257.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "This week, he is working nights.",
+   "size": 32,
+   "bbox": [
+    142,
+    324.1,
+    724.4,
+    352.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    324.5,
+    105.4,
+    348.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Four lines from the notice with the verb ringed in each: works, is waiting, works, is working. This is what a correct underlining of the verbs looks like.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "50f93aadfd0af05d16959aa82597ca167abda8679d8461b1be5a1e38cf837b35"
+}

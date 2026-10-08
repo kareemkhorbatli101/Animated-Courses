@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "She work in a shop.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    444.6,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "She works in a shop.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1169.3,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Amina open the shop at seven.",
+   "size": 28,
+   "bbox": [
+    134,
+    169.2,
+    624.2,
+    193.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Look! Maya wait for the bus.",
+   "size": 28,
+   "bbox": [
+    134,
+    276.7,
+    586.1,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "He work at the hospital every night.",
+   "size": 26,
+   "bbox": [
+    134,
+    385.0,
+    665.3,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- she work in a shop struck out and she works in a shop beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "c55ada2079214882ce9ecfbb1548a45977ea43d21eafb470b6eccec8f5f7fa5f"
+}

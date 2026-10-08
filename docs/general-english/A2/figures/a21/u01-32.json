@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  53,
+  23.4,
+  1387,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Give one or two useful local facts.",
+   "size": 30,
+   "bbox": [
+    280,
+    61.8,
+    856.0,
+    88.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Say your name and where you live.",
+   "size": 30,
+   "bbox": [
+    280,
+    170.3,
+    873.7,
+    197.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Offer help and say when you are usually in.",
+   "size": 30,
+   "bbox": [
+    280,
+    278.8,
+    1013.4,
+    305.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Ask one question about them.",
+   "size": 30,
+   "bbox": [
+    280,
+    387.3,
+    789.5,
+    414.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four steps still to be numbered, in the order the task prints them and not in the right order, each with an empty box at the left for its number.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "72fb7f0940b7a1c6dfc0f457a0abf92d6fc0a00fbca2d6714b508b2757814aaa"
+}

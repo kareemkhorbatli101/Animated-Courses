@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  417
+ ],
+ "bounds": [
+  67,
+  20.7,
+  1373,
+  396.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    50.8,
+    143.1,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Welcome",
+   "size": 30,
+   "bbox": [
+    190,
+    52.4,
+    342.7,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dear Yuki, Welcome to number 14.",
+   "size": 26,
+   "bbox": [
+    670,
+    52.7,
+    1121.8,
+    76.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    147.8,
+    143.1,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Fact one",
+   "size": 30,
+   "bbox": [
+    190,
+    149.4,
+    333.9,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The post comes before nine.",
+   "size": 26,
+   "bbox": [
+    670,
+    149.7,
+    1040.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    244.8,
+    143.1,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Fact two",
+   "size": 30,
+   "bbox": [
+    190,
+    246.4,
+    334.2,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The shop is open every day except Sunday.",
+   "size": 26,
+   "bbox": [
+    670,
+    246.7,
+    1234.9,
+    270.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    341.8,
+    143.1,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Offer help",
+   "size": 30,
+   "bbox": [
+    190,
+    343.4,
+    358.8,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "We are on the second floor.",
+   "size": 26,
+   "bbox": [
+    670,
+    343.7,
+    1026.1,
+    367.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The welcome note in four lines -- the welcome, the first fact, the second fact and the offer of help -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.8125
+ ],
+ "sha256": "09ee82f1116b2fe53591aaeff59e70edb3ee9f74230634cff3a9200ad5b841a8"
+}

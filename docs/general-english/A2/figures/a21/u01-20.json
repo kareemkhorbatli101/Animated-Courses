@@ -1,0 +1,192 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "get up",
+   "size": 26,
+   "bbox": [
+    95.1,
+    281.6,
+    189.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "6.30",
+   "size": 26,
+   "bbox": [
+    110.4,
+    313.6,
+    174.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bookshop",
+   "size": 22,
+   "bbox": [
+    227.4,
+    284.7,
+    347.6,
+    304.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "by bus",
+   "size": 26,
+   "bbox": [
+    383.9,
+    281.6,
+    481.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "evening",
+   "size": 26,
+   "bbox": [
+    519.1,
+    281.6,
+    635.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "class",
+   "size": 26,
+   "bbox": [
+    541.1,
+    313.6,
+    613.9,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "get up",
+   "size": 26,
+   "bbox": [
+    815.1,
+    281.6,
+    909.9,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "6.30",
+   "size": 26,
+   "bbox": [
+    830.4,
+    313.6,
+    894.6,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hospital",
+   "size": 26,
+   "bbox": [
+    948.4,
+    281.6,
+    1066.6,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "by bike",
+   "size": 26,
+   "bbox": [
+    1099.3,
+    281.6,
+    1205.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "working",
+   "size": 26,
+   "bbox": [
+    1238.5,
+    281.6,
+    1356.5,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nights",
+   "size": 26,
+   "bbox": [
+    1251.3,
+    313.6,
+    1343.7,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\u2019s routine on the left and Student B\u2019s on the right, with a fold line between them. Both get up at half past six. A works in a bookshop, travels by bus and has an evening class this week; B works in a hospital, travels by bike and is working nights. Three of the four facts differ, which is what the task asks the pair to find.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "f86e36bf3bfb9a30c446619b5e97406b7f3f6bb5090f19cfc9ba959a4bb8216e"
+}

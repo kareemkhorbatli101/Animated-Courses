@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "shift",
+   "size": 30,
+   "bbox": [
+    173.1,
+    258.6,
+    249.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "commute",
+   "size": 30,
+   "bbox": [
+    472.0,
+    258.6,
+    629.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "appointment",
+   "size": 30,
+   "bbox": [
+    781.0,
+    258.6,
+    998.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "break",
+   "size": 30,
+   "bbox": [
+    1180.1,
+    258.6,
+    1276.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: a shift as night hours, a commute as a bus, an appointment as a diary and a break as a cup of tea.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "4f7951b86ddb1de6844b657df73ec34a31068302db80c94726afd47c976f2f0d"
+}

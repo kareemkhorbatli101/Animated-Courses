@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  417
+ ],
+ "bounds": [
+  67,
+  20.7,
+  1373,
+  396.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    50.8,
+    143.1,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Welcome her",
+   "size": 30,
+   "bbox": [
+    190,
+    52.4,
+    409.6,
+    79.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dear Yuki, Welcome to 14 Alder Street.",
+   "size": 26,
+   "bbox": [
+    670,
+    52.7,
+    1175.7,
+    76.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    147.8,
+    143.1,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Say where you live",
+   "size": 30,
+   "bbox": [
+    190,
+    149.4,
+    508.4,
+    176.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I live on the second floor with Tomas.",
+   "size": 26,
+   "bbox": [
+    670,
+    149.7,
+    1153.6,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    244.8,
+    143.1,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Two useful things",
+   "size": 30,
+   "bbox": [
+    190,
+    246.4,
+    487.3,
+    273.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The post comes before nine.",
+   "size": 26,
+   "bbox": [
+    670,
+    246.7,
+    1040.8,
+    270.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 32,
+   "bbox": [
+    120.9,
+    341.8,
+    143.1,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Offer help",
+   "size": 30,
+   "bbox": [
+    190,
+    343.4,
+    358.8,
+    370.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "If you need anything, knock on our door.",
+   "size": 26,
+   "bbox": [
+    670,
+    343.7,
+    1197.6,
+    367.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four moves of the message to a new neighbour -- welcome her, say where you live, give two useful things, offer help -- with a line from the model beside each.",
+ "placed_in": [
+  6.260416666666667,
+  1.8125
+ ],
+ "sha256": "ec0db2f1e696caf82cef6c75ad9a33c5500d5a1338c9be00cfc53a2f82ec0903"
+}

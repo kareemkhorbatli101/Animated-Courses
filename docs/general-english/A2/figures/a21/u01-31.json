@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  548
+ ],
+ "bounds": [
+  77,
+  27.2,
+  1363,
+  521.2
+ ],
+ "texts": [
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    48.6,
+    359.1,
+    72.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Hello, you must be the new neighbour.",
+   "size": 30,
+   "bbox": [
+    282,
+    90.3,
+    936.4,
+    116.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 26,
+   "bbox": [
+    112,
+    174.1,
+    173.7,
+    197.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yes, I moved in on Saturday.",
+   "size": 30,
+   "bbox": [
+    112,
+    215.8,
+    592.1,
+    242.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas",
+   "size": 26,
+   "bbox": [
+    282,
+    299.6,
+    374.2,
+    323.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Sorry, I am half asleep. I am working nights.",
+   "size": 30,
+   "bbox": [
+    282,
+    341.3,
+    1032.4,
+    367.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Maya",
+   "size": 26,
+   "bbox": [
+    282,
+    425.1,
+    359.1,
+    448.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The post comes before nine.",
+   "size": 30,
+   "bbox": [
+    282,
+    466.8,
+    763.4,
+    493.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The 7B exchange as four speech bubbles: Maya opens the conversation, Yuki says she moved in on Saturday, Tomas says he is half asleep because he is working nights, and Maya gives the first useful fact about the post.",
+ "placed_in": [
+  6.260416666666667,
+  2.3854166666666665
+ ],
+ "sha256": "b6af0f88d119889eb75a861240edd23719f5cc3d128466f701cebc2a9f181b92"
+}

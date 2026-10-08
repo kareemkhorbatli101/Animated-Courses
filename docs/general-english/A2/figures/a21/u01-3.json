@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "busy",
+   "size": 30,
+   "bbox": [
+    171.4,
+    258.6,
+    251.6,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "neighbour",
+   "size": 30,
+   "bbox": [
+    464.0,
+    258.6,
+    637.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "routine",
+   "size": 30,
+   "bbox": [
+    828.0,
+    258.6,
+    951.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "works",
+   "size": 30,
+   "bbox": [
+    1178.0,
+    258.6,
+    1279.0,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: busy, neighbour, routine and works.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "14e42730e6c2daf36cc4719bb07e10015d5348bedac9bbbc95d67b64fd1e8403"
+}
