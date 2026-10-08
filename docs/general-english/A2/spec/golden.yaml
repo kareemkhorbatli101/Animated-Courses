@@ -15,6 +15,11 @@ unit:
                                                 # + ~140 of figure captions (14 of them)
   source_words: 4375
   figures: 4
+  # Figure captions are apparatus, not prose. K11 measures `words` minus these
+  # against the unchanged source-derived budget; G27 bounds these on their own.
+  # Measured 2026-10-08 at 14 figures a unit: 184-203 words. The allowance
+  # moves with the figure count, as the page envelope does.
+  caption_words: {target: 190, min: 170, max: 215}
   audio_tracks: 5
   glossary_words: 10
   can_do_lines: 5
@@ -124,18 +129,32 @@ devices:
 # prose the source does not carry, so each affected part's envelope is widened
 # by its own model allowance. `source_*` keeps the raw measurement visible, so
 # check K05 can still diff against the book as it actually is.
+# PROSE budgets. Re-based once, 2026-10-08, when K11 moved from measuring
+# total words to measuring prose -- see model.Unit.prose_words. Each part's
+# the band is shifted DOWN by the part's caption load, two-sided because that
+# load varies per unit: `max` drops by `caption_shift` (the minimum load the
+# part ever carries) and `min` drops by caption_shift + `caption_spread`
+# (the maximum). Any other rule squeezes one end: shifting both by the mean
+# pushed four units over Part 2's max, shifting both by the minimum pushed
+# three under Warm Up's and Part 8's min, in each case by two or three words
+# of pure apparatus noise. The band widens by the spread alone -- 48 words
+# across an ~5,000-word unit, under 1% -- and admits exactly the totals the
+# old band admitted, whatever a unit's captions happen to weigh. The SPAN of every band is unchanged, so this is a
+# change of basis and not a loosening: the same prose density is asked for,
+# counted without the apparatus. `source_target` is untouched and is still the
+# raw measurement from the source book, its own captions included.
 word_budget:
-  'Warm Up': {target: 318, min: 290, max: 350,  source_target: 318, models: 0}
-  'Part 1':  {target: 635, min: 595, max: 695,  source_target: 590, models: 1}
-  'Part 2':  {target: 462, min: 415, max: 515,  source_target: 462, models: 0}
-  'Part 3':  {target: 499, min: 410, max: 570,  source_target: 499, models: 0}
-  'Part 4':  {target: 328, min: 295, max: 390,  source_target: 328, models: 0}
-  'Part 5':  {target: 580, min: 495, max: 645,  source_target: 580, models: 0}
-  'Part 6':  {target: 505, min: 450, max: 560,  source_target: 265, models: 4}
-  'Part 7':  {target: 543, min: 495, max: 595,  source_target: 477, models: 1}
-  'Part 8':  {target: 336, min: 305, max: 380,  source_target: 336, models: 0}
-  'Part 9':  {target: 349, min: 310, max: 395,  source_target: 289, models: 1}
-  'Part 10': {target: 197, min: 175, max: 255,  source_target: 197, models: 0}
+  'Warm Up': {target: 310, min: 272, max: 342,  source_target: 318, models: 0, caption_shift: 8, caption_spread: 10}
+  'Part 1':  {target: 610, min: 565, max: 670,  source_target: 590, models: 1, caption_shift: 25, caption_spread: 5}
+  'Part 2':  {target: 442, min: 383, max: 495,  source_target: 462, models: 0, caption_shift: 20, caption_spread: 12}
+  'Part 3':  {target: 487, min: 398, max: 558,  source_target: 499, models: 0, caption_shift: 12, caption_spread: 0}
+  'Part 4':  {target: 313, min: 280, max: 375,  source_target: 328, models: 0, caption_shift: 15, caption_spread: 0}
+  'Part 5':  {target: 562, min: 470, max: 627,  source_target: 580, models: 0, caption_shift: 18, caption_spread: 7}
+  'Part 6':  {target: 492, min: 437, max: 547,  source_target: 265, models: 4, caption_shift: 13, caption_spread: 0}
+  'Part 7':  {target: 531, min: 477, max: 583,  source_target: 477, models: 1, caption_shift: 12, caption_spread: 6}
+  'Part 8':  {target: 328, min: 289, max: 372,  source_target: 336, models: 0, caption_shift: 8, caption_spread: 8}
+  'Part 9':  {target: 349, min: 310, max: 395,  source_target: 289, models: 1, caption_shift: 0, caption_spread: 0}
+  'Part 10': {target: 184, min: 162, max: 242,  source_target: 197, models: 0, caption_shift: 13, caption_spread: 0}
 model_allowance_words: {min: 40, max: 80}
 
 figures:

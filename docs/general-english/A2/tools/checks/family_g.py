@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 26 checks.
+"""G · Figures and visuals — 27 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -495,3 +495,20 @@ def g26(u, ctx):
         if abs(w - want[0]) > TOL or abs(h - want[1]) > TOL:
             bad.append(f'{n}: prints {w:.4f}x{h:.4f}, law says {want[0]:.4f}x{want[1]:.4f}')
     return expect(not bad, '; '.join(bad))
+
+
+@check('G27', 'golden.unit.caption_words',
+       'Figure caption words per unit within the declared allowance')
+def g27(u, ctx):
+    """Captions come out of K11's prose budget, so something has to bound them
+    or the apparatus can grow without limit while every prose check stays
+    green. Per unit rather than per part: the number of figures in each part
+    is fixed by figures.slots, so a part's caption load is already structural,
+    and a second per-part table would be one more thing to re-measure at every
+    phase for no extra catch."""
+    cw = ctx.spec['unit'].get('caption_words')
+    if not cw:
+        return ok('SKIP: no caption allowance declared')
+    n = u.caption_words
+    return expect(cw['min'] <= n <= cw['max'],
+                  f'{n} caption words, want {cw["min"]}-{cw["max"]}')

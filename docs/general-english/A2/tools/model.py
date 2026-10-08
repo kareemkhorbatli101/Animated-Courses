@@ -14,6 +14,11 @@ SEED = re.compile(r'^0\. (.*)$')
 TROW = re.compile(r'^\|(.*)\|$')
 
 
+def _caption_words(lines) -> int:
+    return sum(len(re.sub(r'[|*>_]', ' ', l).split())
+               for l in lines if FIGCAP.match(l.strip()))
+
+
 def norm(s: str) -> str:
     return unicodedata.normalize('NFC', s).replace(' ', ' ').strip()
 
@@ -49,6 +54,14 @@ class Sub:
     def words(self) -> int:
         return len(re.sub(r'[|*>_]', ' ', self.text).split())
 
+    @property
+    def caption_words(self) -> int:
+        return _caption_words(self.lines)
+
+    @property
+    def prose_words(self) -> int:
+        return self.words - self.caption_words
+
 
 @dataclass
 class Part:
@@ -62,6 +75,14 @@ class Part:
     def words(self) -> int:
         n = len(re.sub(r'[|*>_]', ' ', '\n'.join(self.leading)).split())
         return n + sum(s.words for s in self.subs)
+
+    @property
+    def caption_words(self) -> int:
+        return _caption_words(self.leading) + sum(s.caption_words for s in self.subs)
+
+    @property
+    def prose_words(self) -> int:
+        return self.words - self.caption_words
 
 
 @dataclass
@@ -87,6 +108,25 @@ class Unit:
     @property
     def words(self) -> int:
         return len(re.sub(r'[|*>_]', ' ', self.text).split())
+
+    @property
+    def caption_words(self) -> int:
+        return _caption_words(self.lines)
+
+    @property
+    def prose_words(self) -> int:
+        """Everything a learner reads, with the figure captions taken out.
+
+        A caption is apparatus, like a heading on a table -- it is not part of
+        the reading load the word budget exists to bound. At 14 figures a unit
+        the distinction did not matter; the books ran a mean of 64 words below
+        their 5,280 ceiling, with Unit 18 three words below. Going to 41
+        figures adds about 367 words of caption, so counting them as prose
+        would break every unit in both volumes on the first new figure while
+        not one sentence had changed. Prose is measured against the unchanged
+        source-derived budget; captions are bounded separately by G27.
+        """
+        return self.words - self.caption_words
 
     @property
     def bold_headings(self) -> list[str]:

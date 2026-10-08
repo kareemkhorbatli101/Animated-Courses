@@ -1,2 +1,25 @@
-build/*.pdf
-build/.*.md
+# Build outputs are NOT committed. Approved 2026-10-08.
+#
+# The git history held 573 MB of .docx and 568 MB of .pdf against a working
+# build folder of 86 MB, because the loop rebuilt and committed both books
+# after every one of twenty units, and DOCX and PDF are already-compressed
+# containers that git cannot delta. `.git` reached 1.4 GB; GitHub advises
+# staying under about 1 GB. At 41 figures a unit the books roughly triple,
+# so twenty more unit rebuilds would have added another 1-2 GB of history
+# for files nobody reads from git.
+#
+# They are published as GitHub Release assets instead: free, 2 GiB a file,
+# no bandwidth charge, outside git history. DOWNLOADS.md links them.
+#
+# An earlier `build/*.pdf` line here never took effect, because the files had
+# been added to the index before it existed and `git add -A` keeps updating
+# a tracked file whatever .gitignore says. Hence the explicit `git rm --cached`
+# in the commit that landed this.
+*.docx
+*.pdf
+*.zip
+.*.md
+
+# reference.docx is an INPUT, not an output: it carries the styles, fonts and
+# section properties measured from the source book, and every build needs it.
+!reference.docx

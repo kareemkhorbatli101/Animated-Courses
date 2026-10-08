@@ -112,11 +112,13 @@ def k11(u, ctx):
         b = ctx.spec['word_budget'].get(p.name)
         if not b:
             continue
-        if not (b['min'] <= p.words <= b['max']):
-            bad.append(f'{p.name}: {p.words} outside {b["min"]}-{b["max"]}')
+        if not (b['min'] <= p.prose_words <= b['max']):
+            bad.append(f'{p.name}: {p.prose_words} outside {b["min"]}-{b["max"]}')
     tot = ctx.spec['unit']['words']
-    if not (tot['min'] <= u.words <= tot['max']):
-        bad.append(f'unit: {u.words} outside {tot["min"]}-{tot["max"]}')
+    # PROSE, not total: figure captions are apparatus and are bounded by G27.
+    # The min/max here are the source-derived values and have not moved.
+    if not (tot['min'] <= u.prose_words <= tot['max']):
+        bad.append(f'unit: {u.prose_words} prose outside {tot["min"]}-{tot["max"]}')
     return expect(not bad, '; '.join(bad))
 
 @check('K12', 'runner', 'A unit cannot be marked done with any check red', scope='book')

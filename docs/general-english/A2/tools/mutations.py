@@ -266,6 +266,8 @@ Offer help and say when you are usually in — **5**'''),
 # docx mutation cannot reach them; both are driven from ctx instead.
 # G25: tell the check the page is a different size from the one the covers
 #      were actually printed at.
+'G27': ('ctx', lambda c: c.spec['unit'].__setitem__(
+            'caption_words', {'target': 1, 'min': 0, 'max': 1})),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
 # G26: rewrite one printed extent in the unit DOCX so it no longer matches the law.
 'G26': DOCX(lambda d: d.replace('<wp:extent cx=', '<wp:extent cx="99999" cy="99999" x=', 1)),
