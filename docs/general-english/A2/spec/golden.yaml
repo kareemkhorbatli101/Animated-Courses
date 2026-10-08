@@ -198,7 +198,7 @@ figures:
   # the tree stays green. Phases 6 and 7 move every unit over, and then
   # `dense_slots` becomes `slots` and this block goes.
   dense_units:
-    a21: [1]
+    a21: [1, 2]
     a22: []
   dense_per_unit: 41
   dense_slots:

@@ -174,10 +174,14 @@ def _esc(s):
 # ----------------------------------------------------------------- icon set
 def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
     """Flat vector glyphs in the locked palette. Nothing here is decorative."""
-    def R(x, y, w, h, fill=P['blue'], r=8, sw=3):
-        f.rect(cx + x * s, cy + y * s, w * s, h * s, fill=fill, r=r * s, sw=sw)
-    def C(x, y, r, fill=P['blue'], sw=3):
-        f.circle(cx + x * s, cy + y * s, r * s, fill=fill, sw=sw)
+    # `stroke` was missing from both for the first sixty icons, so an icon that
+    # wanted an outline in a colour other than ink raised a TypeError and the
+    # renderer drew nothing. Five of the new glyphs hit it at once.
+    def R(x, y, w, h, fill=P['blue'], r=8, sw=3, stroke=P['ink']):
+        f.rect(cx + x * s, cy + y * s, w * s, h * s, fill=fill, r=r * s,
+               sw=sw, stroke=stroke)
+    def C(x, y, r, fill=P['blue'], sw=3, stroke=P['ink']):
+        f.circle(cx + x * s, cy + y * s, r * s, fill=fill, sw=sw, stroke=stroke)
     def L(x0, y0, x1, y1, stroke=P['ink'], sw=3):
         f.line(cx + x0 * s, cy + y0 * s, cx + x1 * s, cy + y1 * s, stroke=stroke, sw=sw)
 
@@ -560,6 +564,455 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         R(-46, -34, 26, 40, fill=P['card'], r=3)
         R(-12, -22, 24, 28, fill=P['blue'], r=3)
         R(20, -40, 28, 46, fill=P['deep'], r=3)
+    # ---- home and building (Unit 2)
+    elif name == 'balcony':
+        R(-44, -40, 88, 30, fill=P['card'], r=3)          # the wall behind
+        R(-30, -34, 24, 18, fill=P['blue'], r=2)          # the window
+        R(-46, -10, 92, 8, fill=P['tan'], r=3)            # the floor
+        for k in range(-5, 6):
+            L(k * 8, -2, k * 8, 26, stroke=P['grey'], sw=3)
+        L(-46, 26, 46, 26, sw=5)
+    elif name == 'cupboard':
+        R(-34, -44, 68, 88, fill=P['tanl'], r=4)
+        L(0, -44, 0, 44, sw=4)
+        C(-7, 0, 5, fill=P['ink'], sw=0); C(7, 0, 5, fill=P['ink'], sw=0)
+        L(-34, -8, 34, -8, stroke=P['tand'], sw=3)
+    elif name == 'shelf':
+        for dy in (-28, 4, 36):
+            R(-46, dy, 92, 8, fill=P['tan'], r=3)
+        R(-38, -48, 12, 20, fill=P['blue'], r=2)
+        R(-22, -44, 10, 16, fill=P['deep'], r=2)
+        R(-40, -14, 14, 18, fill=P['tanl'], r=2)
+        R(10, -12, 16, 16, fill=P['card'], r=2)
+    elif name == 'stairs':
+        for k in range(4):
+            R(-46 + k * 24, 26 - k * 18, 24, 18, fill=P['card'], r=2)
+        L(-46, 44, 46, 44, sw=4)
+    elif name == 'lift':
+        R(-32, -44, 64, 88, fill=P['card'], r=4)
+        L(0, -44, 0, 36, sw=3)
+        f.path(f'M {cx-18*s:.1f} {cy-26*s:.1f} L {cx-11*s:.1f} {cy-36*s:.1f} '
+               f'L {cx-4*s:.1f} {cy-26*s:.1f} Z', fill=P['accent'], stroke=P['accent'])
+        f.path(f'M {cx+4*s:.1f} {cy+26*s:.1f} L {cx+11*s:.1f} {cy+36*s:.1f} '
+               f'L {cx+18*s:.1f} {cy+26*s:.1f} Z', fill=P['deep'], stroke=P['deep'])
+    elif name == 'roof':
+        f.path(f'M {cx-50*s:.1f} {cy+6*s:.1f} L {cx:.1f} {cy-36*s:.1f} '
+               f'L {cx+50*s:.1f} {cy+6*s:.1f} Z', fill=P['tand'])
+        R(-40, 6, 80, 30, fill=P['card'], r=3)
+        R(14, -26, 12, 22, fill=P['grey'], r=2)
+    elif name == 'garden':
+        R(-50, 20, 100, 18, fill=P['accent'], r=4)
+        f.path(f'M {cx-22*s:.1f} {cy+20*s:.1f} L {cx-22*s:.1f} {cy-6*s:.1f}')
+        C(-22, -20, 17, fill=P['accent'])
+        f.path(f'M {cx+20*s:.1f} {cy+20*s:.1f} L {cx+20*s:.1f} {cy+2*s:.1f}')
+        C(20, -8, 12, fill=P['tanl'])
+    elif name == 'chair':
+        R(-26, -44, 52, 48, fill=P['tanl'], r=5)
+        R(-30, 2, 60, 12, fill=P['tan'], r=4)
+        L(-24, 14, -24, 42, sw=5); L(24, 14, 24, 42, sw=5)
+    elif name == 'table':
+        R(-48, -12, 96, 14, fill=P['tan'], r=4)
+        L(-36, 2, -36, 40, sw=5); L(36, 2, 36, 40, sw=5)
+        R(-14, -26, 28, 14, fill=P['card'], r=3)
+    elif name == 'door':
+        R(-30, -46, 60, 92, fill=P['deep'], r=4)
+        R(-24, -40, 48, 30, fill=P['card'], r=2)
+        C(18, 4, 5, fill=P['tanl'], sw=2)
+    elif name == 'coins':
+        C(-16, 10, 20, fill=P['tanl']); C(14, 2, 20, fill=P['tan'])
+        C(-2, -22, 20, fill=P['tanl'])
+        L(-8, -22, 4, -22, stroke=P['tand'], sw=4)
+    elif name == 'recycling':
+        for k in range(3):
+            a0 = math.radians(-90 + k * 120)
+            a1 = math.radians(-90 + k * 120 + 86)
+            x0, y0 = math.cos(a0) * 30, math.sin(a0) * 30
+            x1, y1 = math.cos(a1) * 30, math.sin(a1) * 30
+            f.path(f'M {cx+x0*s:.1f} {cy+y0*s:.1f} L {cx+x1*s:.1f} {cy+y1*s:.1f}',
+                   stroke=P['accent'], sw=8)
+            a2 = math.radians(-90 + k * 120 + 86)
+            tx, ty = math.cos(a2) * 30, math.sin(a2) * 30
+            px, py = -math.sin(a2), math.cos(a2)
+            f.path(f'M {cx+(tx+px*14)*s:.1f} {cy+(ty+py*14)*s:.1f} '
+                   f'L {cx+(tx+px*-14)*s:.1f} {cy+(ty+py*-14)*s:.1f} '
+                   f'L {cx+(tx+px*0+math.cos(a2)*20)*s:.1f} '
+                   f'{cy+(ty+py*0+math.sin(a2)*20)*s:.1f} Z',
+                   fill=P['accent'], stroke=P['accent'], sw=2)
+    elif name == 'box':
+        R(-38, -16, 76, 52, fill=P['tanl'], r=4)
+        R(-42, -30, 84, 16, fill=P['tan'], r=3)
+        L(0, -30, 0, 36, stroke=P['tand'], sw=4)
+
+    # ---- town and journey (Units 3, 9)
+    elif name == 'market':
+        for k, col in ((-30, P['tan']), (0, P['card']), (30, P['tanl'])):
+            f.path(f'M {cx+(k-18)*s:.1f} {cy-14*s:.1f} L {cx+k*s:.1f} {cy-32*s:.1f} '
+                   f'L {cx+(k+18)*s:.1f} {cy-14*s:.1f} Z', fill=col)
+            R(k - 16, -14, 32, 10, fill=P['grey'], r=2)
+            L(k - 12, -4, k - 12, 24, sw=3); L(k + 12, -4, k + 12, 24, sw=3)
+        L(-50, 24, 50, 24, sw=5)
+    elif name == 'crossing':
+        R(-50, -26, 100, 52, fill=P['grey'], r=3)
+        for k in range(-2, 3):
+            R(k * 20 - 7, -26, 14, 52, fill=P['bg'], r=1, sw=0)
+        L(-50, -34, 50, -34, stroke=P['ink'], sw=4)
+        L(-50, 34, 50, 34, stroke=P['ink'], sw=4)
+    elif name == 'bench':
+        R(-46, -10, 92, 12, fill=P['tan'], r=4)
+        R(-46, -30, 92, 10, fill=P['tanl'], r=4)
+        L(-34, 2, -34, 32, sw=5); L(34, 2, 34, 32, sw=5)
+        L(-46, 32, -22, 32, sw=4); L(22, 32, 46, 32, sw=4)
+    elif name == 'library':
+        R(-46, -16, 92, 52, fill=P['card'], r=4)
+        f.path(f'M {cx-50*s:.1f} {cy-16*s:.1f} L {cx:.1f} {cy-40*s:.1f} '
+               f'L {cx+50*s:.1f} {cy-16*s:.1f} Z', fill=P['deep'])
+        for k in (-26, -8, 10):
+            R(k, -4, 14, 30, fill=P['tanl'], r=2)
+        R(28, -4, 12, 30, fill=P['blue'], r=2)
+    elif name == 'traffic':
+        R(-16, -46, 32, 84, fill=P['card'], r=8)
+        C(0, -28, 9, fill=P['tand'], sw=2)
+        C(0, -4, 9, fill=P['tanl'], sw=2)
+        C(0, 20, 9, fill=P['accent'], sw=2)
+        L(0, 38, 0, 50, sw=5)
+    elif name == 'crowd':
+        for dx, dy, r in ((-30, -8, 13), (0, -16, 15), (30, -8, 13)):
+            C(dx, dy - 18, r * 0.7, fill=P['blue']); R(dx - r, dy, 2 * r, 34, r=8)
+    elif name == 'ticket':
+        R(-46, -22, 92, 44, fill=P['tanl'], r=6)
+        C(-46, 0, 8, fill=P['bg'], sw=2); C(46, 0, 8, fill=P['bg'], sw=2)
+        L(-20, -14, -20, 14, stroke=P['tand'], sw=3)
+        L(-8, -6, 30, -6, stroke=P['tand'], sw=3)
+        L(-8, 8, 20, 8, stroke=P['tand'], sw=3)
+    elif name == 'timetable':
+        R(-40, -44, 80, 88, fill=P['card'], r=5)
+        L(-40, -26, 40, -26, sw=3)
+        for k in range(3):
+            L(-30, -10 + k * 18, -8, -10 + k * 18, stroke=P['deep'], sw=4)
+            L(4, -10 + k * 18, 30, -10 + k * 18, stroke=P['grey'], sw=4)
+    elif name == 'junction':
+        R(-50, -11, 100, 22, fill=P['grey'], r=2)
+        R(-11, -50, 22, 100, fill=P['grey'], r=2)
+        for k in (-36, 30):
+            L(k, 0, k + 12, 0, stroke=P['bg'], sw=4)
+            L(0, k, 0, k + 12, stroke=P['bg'], sw=4)
+    elif name == 'roundabout':
+        C(0, 0, 40, fill='none', sw=16)
+        C(0, 0, 40, fill='none', stroke=P['grey'], sw=12)
+        C(0, 0, 13, fill=P['accent'], sw=3)
+        L(0, -40, 0, -52, stroke=P['grey'], sw=12)
+        L(0, 40, 0, 52, stroke=P['grey'], sw=12)
+        L(-52, 0, -40, 0, stroke=P['grey'], sw=12)
+    elif name == 'lane':
+        R(-50, -36, 100, 72, fill=P['grey'], r=3)
+        L(0, -36, 0, 36, stroke=P['bg'], sw=4)
+        for k in (-26, 26):
+            L(k, -30, k, -14, stroke=P['bg'], sw=3)
+    elif name == 'square':
+        R(-46, -34, 92, 68, fill=P['card'], r=4)
+        R(-40, -28, 24, 24, fill=P['blue'], r=2)
+        R(16, -28, 24, 24, fill=P['deep'], r=2)
+        C(0, 14, 12, fill=P['accent'])
+        L(-30, 30, 30, 30, stroke=P['rule'], sw=4)
+    elif name == 'arrow_right':
+        L(-40, 0, 22, 0, sw=8)
+        f.path(f'M {cx+16*s:.1f} {cy-18*s:.1f} L {cx+42*s:.1f} {cy:.1f} '
+               f'L {cx+16*s:.1f} {cy+18*s:.1f} Z', fill=P['accent'], stroke=P['accent'])
+    elif name == 'arrow_up':
+        L(0, 40, 0, -22, sw=8)
+        f.path(f'M {cx-18*s:.1f} {cy-16*s:.1f} L {cx:.1f} {cy-42*s:.1f} '
+               f'L {cx+18*s:.1f} {cy-16*s:.1f} Z', fill=P['accent'], stroke=P['accent'])
+    elif name == 'arrow_down':
+        L(0, -40, 0, 22, sw=8)
+        f.path(f'M {cx-18*s:.1f} {cy+16*s:.1f} L {cx:.1f} {cy+42*s:.1f} '
+               f'L {cx+18*s:.1f} {cy+16*s:.1f} Z', fill=P['deep'], stroke=P['deep'])
+
+    # ---- food and shopping (Unit 4)
+    elif name == 'basket':
+        f.path(f'M {cx-40*s:.1f} {cy-10*s:.1f} L {cx+40*s:.1f} {cy-10*s:.1f} '
+               f'L {cx+28*s:.1f} {cy+34*s:.1f} L {cx-28*s:.1f} {cy+34*s:.1f} Z',
+               fill=P['tanl'])
+        for k in (-16, 0, 16):
+            L(k, -10, k * 0.7, 34, stroke=P['tand'], sw=3)
+        f.path(f'M {cx-20*s:.1f} {cy-10*s:.1f} Q {cx:.1f} {cy-46*s:.1f} '
+               f'{cx+20*s:.1f} {cy-10*s:.1f}', sw=5)
+    elif name == 'aisle':
+        R(-48, -40, 36, 80, fill=P['card'], r=3)
+        R(12, -40, 36, 80, fill=P['card'], r=3)
+        for dy in (-26, -4, 18):
+            L(-48, dy, -12, dy, stroke=P['rule'], sw=3)
+            L(12, dy, 48, dy, stroke=P['rule'], sw=3)
+        R(-8, -40, 16, 80, fill=P['grey'], r=2)
+    elif name == 'receipt':
+        f.path(f'M {cx-30*s:.1f} {cy-46*s:.1f} L {cx+30*s:.1f} {cy-46*s:.1f} '
+               f'L {cx+30*s:.1f} {cy+40*s:.1f} L {cx+18*s:.1f} {cy+30*s:.1f} '
+               f'L {cx+6*s:.1f} {cy+40*s:.1f} L {cx-6*s:.1f} {cy+30*s:.1f} '
+               f'L {cx-18*s:.1f} {cy+40*s:.1f} L {cx-30*s:.1f} {cy+30*s:.1f} Z',
+               fill=P['card'])
+        for k in range(3):
+            L(-20, -30 + k * 16, 20, -30 + k * 16, stroke=P['deep'], sw=3)
+        L(-20, 14, 4, 14, stroke=P['tand'], sw=4)
+    elif name == 'fridge':
+        R(-30, -46, 60, 92, fill=P['card'], r=6)
+        L(-30, -10, 30, -10, sw=4)
+        L(18, -28, 18, -18, sw=5); L(18, 2, 18, 14, sw=5)
+    elif name == 'scales':
+        L(0, -24, 0, 22, sw=5); L(-34, 22, 34, 22, sw=5)
+        R(-40, -34, 80, 12, fill=P['grey'], r=5)
+        R(-20, -50, 40, 16, fill=P['tanl'], r=4)
+        C(0, -4, 10, fill=P['accent'], sw=3)
+    elif name == 'slice':
+        f.path(f'M {cx-44*s:.1f} {cy+26*s:.1f} L {cx+6*s:.1f} {cy-30*s:.1f} '
+               f'L {cx+44*s:.1f} {cy+26*s:.1f} Z', fill=P['tanl'])
+        L(-18, 12, 18, 12, stroke=P['tand'], sw=3)
+        C(10, 0, 5, fill=P['tand'], sw=0)
+    elif name == 'sugar':
+        R(-34, -12, 68, 44, fill=P['card'], r=4)
+        R(-22, -32, 16, 20, fill=P['bg'], r=2)
+        R(2, -32, 16, 20, fill=P['bg'], r=2)
+        L(-34, 6, 34, 6, stroke=P['rule'], sw=3)
+    elif name == 'apple':
+        C(-11, 6, 25, fill=P['tand']); C(11, 6, 25, fill=P['tand'])
+        L(0, -16, 2, -38, sw=5)
+        f.path(f'M {cx+2*s:.1f} {cy-34*s:.1f} Q {cx+24*s:.1f} {cy-44*s:.1f} '
+               f'{cx+20*s:.1f} {cy-24*s:.1f} Z', fill=P['accent'])
+
+    # ---- weekend and places (Unit 5)
+    elif name == 'museum':
+        f.path(f'M {cx-50*s:.1f} {cy-14*s:.1f} L {cx:.1f} {cy-40*s:.1f} '
+               f'L {cx+50*s:.1f} {cy-14*s:.1f} Z', fill=P['deep'])
+        for k in (-34, -12, 10, 32):
+            R(k, -8, 12, 38, fill=P['card'], r=1)
+        R(-50, 30, 100, 10, fill=P['grey'], r=3)
+    elif name == 'picnic':
+        R(-46, -6, 92, 40, fill=P['tanl'], r=4)
+        for k in range(-2, 3):
+            L(k * 20, -6, k * 20, 34, stroke=P['tand'], sw=3)
+        C(-20, -18, 11, fill=P['card']); R(4, -26, 26, 18, fill=P['tan'], r=3)
+    elif name == 'concert':
+        C(-16, 24, 13, fill=P['ink']); C(22, 16, 13, fill=P['ink'])
+        L(-4, 24, -4, -34, sw=5); L(34, 16, 34, -42, sw=5)
+        f.path(f'M {cx-4*s:.1f} {cy-34*s:.1f} L {cx+34*s:.1f} {cy-42*s:.1f} '
+               f'L {cx+34*s:.1f} {cy-28*s:.1f} L {cx-4*s:.1f} {cy-20*s:.1f} Z',
+               fill=P['accent'])
+    elif name == 'guest':
+        C(-16, -30, 15); R(-34, -12, 36, 42, r=12)
+        R(8, 2, 32, 28, fill=P['tanl'], r=4)
+        L(24, 2, 24, -8, sw=4)
+    elif name == 'beach':
+        C(26, -26, 18, fill=P['tanl'])
+        R(-50, 6, 100, 12, fill=P['tanl'], r=4)
+        f.path(f'M {cx-50*s:.1f} {cy+22*s:.1f} Q {cx-25*s:.1f} {cy+12*s:.1f} '
+               f'{cx:.1f} {cy+22*s:.1f} Q {cx+25*s:.1f} {cy+32*s:.1f} '
+               f'{cx+50*s:.1f} {cy+22*s:.1f}', stroke=P['blue'], sw=5)
+        f.path(f'M {cx-50*s:.1f} {cy+36*s:.1f} Q {cx-25*s:.1f} {cy+26*s:.1f} '
+               f'{cx:.1f} {cy+36*s:.1f} Q {cx+25*s:.1f} {cy+46*s:.1f} '
+               f'{cx+50*s:.1f} {cy+36*s:.1f}', stroke=P['blue'], sw=5)
+    elif name == 'forest':
+        for dx, sc in ((-30, 1.0), (4, 1.3), (34, 0.9)):
+            f.path(f'M {cx+(dx-20*sc)*s:.1f} {cy+16*s:.1f} '
+                   f'L {cx+dx*s:.1f} {cy-(34*sc)*s:.1f} '
+                   f'L {cx+(dx+20*sc)*s:.1f} {cy+16*s:.1f} Z', fill=P['accent'])
+            L(dx, 16, dx, 34, stroke=P['tand'], sw=5)
+        L(-50, 34, 50, 34, sw=4)
+    elif name == 'village':
+        f.path(f'M {cx-44*s:.1f} {cy+4*s:.1f} L {cx-26*s:.1f} {cy-18*s:.1f} '
+               f'L {cx-8*s:.1f} {cy+4*s:.1f} Z', fill=P['tand'])
+        R(-40, 4, 32, 26, fill=P['card'], r=2)
+        f.path(f'M {cx+2*s:.1f} {cy-6*s:.1f} L {cx+24*s:.1f} {cy-34*s:.1f} '
+               f'L {cx+46*s:.1f} {cy-6*s:.1f} Z', fill=P['tand'])
+        R(6, -6, 36, 36, fill=P['card'], r=2)
+        L(-50, 30, 50, 30, sw=4)
+    elif name == 'path':
+        f.path(f'M {cx-18*s:.1f} {cy+38*s:.1f} Q {cx+10*s:.1f} {cy+6*s:.1f} '
+               f'{cx-6*s:.1f} {cy-14*s:.1f} Q {cx-20*s:.1f} {cy-32*s:.1f} '
+               f'{cx+8*s:.1f} {cy-40*s:.1f}', stroke=P['tanl'], sw=16)
+        f.path(f'M {cx-18*s:.1f} {cy+38*s:.1f} Q {cx+10*s:.1f} {cy+6*s:.1f} '
+               f'{cx-6*s:.1f} {cy-14*s:.1f} Q {cx-20*s:.1f} {cy-32*s:.1f} '
+               f'{cx+8*s:.1f} {cy-40*s:.1f}', stroke=P['tand'], sw=3)
+
+    # ---- travel (Unit 6)
+    elif name == 'suitcase':
+        R(-40, -22, 80, 60, fill=P['tan'], r=6)
+        f.path(f'M {cx-14*s:.1f} {cy-22*s:.1f} L {cx-14*s:.1f} {cy-36*s:.1f} '
+               f'L {cx+14*s:.1f} {cy-36*s:.1f} L {cx+14*s:.1f} {cy-22*s:.1f}', sw=5)
+        L(-40, 0, 40, 0, stroke=P['tand'], sw=4)
+        R(-6, -8, 12, 16, fill=P['card'], r=2)
+    elif name == 'coach':
+        R(-48, -24, 96, 46, fill=P['deep'], r=8)
+        for k in (-36, -14, 8):
+            R(k, -16, 18, 16, fill=P['card'], r=2)
+        R(30, -16, 14, 16, fill=P['card'], r=2)
+        C(-28, 24, 10, fill=P['ink']); C(28, 24, 10, fill=P['ink'])
+    elif name == 'gate':
+        R(-46, -40, 92, 16, fill=P['ink'], r=3)
+        R(-40, -18, 30, 56, fill=P['card'], r=3)
+        R(10, -18, 30, 56, fill=P['card'], r=3)
+        f.path(f'M {cx-4*s:.1f} {cy+2*s:.1f} L {cx+6*s:.1f} {cy+12*s:.1f} '
+               f'L {cx-4*s:.1f} {cy+22*s:.1f}', stroke=P['accent'], sw=5)
+    elif name == 'wallet':
+        R(-40, -26, 80, 52, fill=P['tand'], r=6)
+        R(-40, -26, 80, 14, fill=P['tan'], r=6)
+        R(6, -6, 30, 18, fill=P['card'], r=3)
+        C(20, 3, 5, fill=P['ink'], sw=0)
+    elif name == 'airport':
+        R(-50, 16, 100, 12, fill=P['grey'], r=3)
+        f.path(f'M {cx-40*s:.1f} {cy+4*s:.1f} L {cx+28*s:.1f} {cy-10*s:.1f} '
+               f'L {cx+40*s:.1f} {cy-2*s:.1f} L {cx-30*s:.1f} {cy+14*s:.1f} Z',
+               fill=P['blue'])
+        R(-26, -34, 34, 22, fill=P['card'], r=3)
+        L(-20, -34, -20, -46, sw=4)
+    elif name == 'luggage':
+        R(-44, -10, 42, 44, fill=P['tan'], r=5)
+        R(2, 4, 40, 30, fill=P['tanl'], r=5)
+        f.path(f'M {cx-34*s:.1f} {cy-10*s:.1f} L {cx-34*s:.1f} {cy-26*s:.1f} '
+               f'L {cx-12*s:.1f} {cy-26*s:.1f} L {cx-12*s:.1f} {cy-10*s:.1f}', sw=4)
+        L(-44, 10, -2, 10, stroke=P['tand'], sw=3)
+    elif name == 'delay':
+        C(0, 0, 36, fill=P['card'])
+        L(0, 0, 0, -22, sw=5); L(0, 0, 18, 6, sw=5)
+        f.path(f'M {cx+22*s:.1f} {cy+22*s:.1f} L {cx+44*s:.1f} {cy+22*s:.1f}',
+               stroke=P['tand'], sw=6)
+        f.path(f'M {cx+36*s:.1f} {cy+14*s:.1f} L {cx+46*s:.1f} {cy+22*s:.1f} '
+               f'L {cx+36*s:.1f} {cy+30*s:.1f} Z', fill=P['tand'], stroke=P['tand'])
+    elif name == 'charger':
+        R(-16, -40, 32, 34, fill=P['card'], r=5)
+        L(-8, -40, -8, -50, sw=5); L(8, -40, 8, -50, sw=5)
+        f.path(f'M {cx:.1f} {cy-6*s:.1f} L {cx:.1f} {cy+16*s:.1f}', sw=5)
+        R(-20, 16, 40, 24, fill=P['deep'], r=5)
+    elif name == 'taxi':
+        R(-46, -14, 92, 36, fill=P['tanl'], r=8)
+        R(-30, -32, 56, 20, fill=P['tan'], r=5)
+        R(-10, -46, 20, 12, fill=P['ink'], r=3)
+        C(-28, 24, 10, fill=P['ink']); C(28, 24, 10, fill=P['ink'])
+
+    # ---- choosing and repairing (Units 7, 10)
+    elif name == 'battery':
+        R(-40, -20, 72, 40, fill=P['card'], r=5)
+        R(32, -8, 10, 16, fill=P['ink'], r=3)
+        R(-34, -13, 18, 26, fill=P['accent'], r=2, sw=0)
+        R(-14, -13, 18, 26, fill=P['accent'], r=2, sw=0)
+    elif name == 'screen':
+        R(-44, -34, 88, 56, fill=P['card'], r=5)
+        R(-36, -27, 72, 42, fill=P['blue'], r=2, sw=0)
+        L(0, 22, 0, 34, sw=5); L(-22, 38, 22, 38, sw=5)
+    elif name == 'pricetag':
+        f.path(f'M {cx-40*s:.1f} {cy-6*s:.1f} L {cx+4*s:.1f} {cy-40*s:.1f} '
+               f'L {cx+40*s:.1f} {cy+6*s:.1f} L {cx-4*s:.1f} {cy+40*s:.1f} Z',
+               fill=P['tanl'])
+        C(2, -20, 7, fill=P['bg'], sw=3)
+    elif name == 'star':
+        pts = []
+        for k in range(10):
+            a = math.radians(-90 + k * 36)
+            r = 40 if k % 2 == 0 else 17
+            pts.append(f'{cx+math.cos(a)*r*s:.1f} {cy+math.sin(a)*r*s:.1f}')
+        f.path('M ' + ' L '.join(pts) + ' Z', fill=P['tanl'])
+    elif name == 'spanner':
+        f.path(f'M {cx-34*s:.1f} {cy+34*s:.1f} L {cx+16*s:.1f} {cy-16*s:.1f}',
+               stroke=P['grey'], sw=14)
+        C(22, -22, 18, fill=P['bg'], sw=12)
+        C(22, -22, 18, fill='none', stroke=P['grey'], sw=10)
+        R(28, -44, 18, 16, fill=P['bg'], r=2, sw=0)
+    elif name == 'glue':
+        R(-16, -14, 32, 48, fill=P['tanl'], r=5)
+        R(-9, -38, 18, 24, fill=P['card'], r=4)
+        f.path(f'M {cx:.1f} {cy-38*s:.1f} L {cx:.1f} {cy-50*s:.1f}', sw=5)
+        L(-10, 4, 10, 4, stroke=P['tand'], sw=4)
+    elif name == 'layer':
+        R(-40, 14, 80, 16, fill=P['tand'], r=3)
+        R(-34, -4, 68, 16, fill=P['tan'], r=3)
+        R(-28, -22, 56, 16, fill=P['tanl'], r=3)
+        R(-22, -40, 44, 16, fill=P['card'], r=3)
+    elif name == 'brush':
+        R(-8, -46, 16, 44, fill=P['tand'], r=4)
+        R(-14, -2, 28, 12, fill=P['grey'], r=3)
+        f.path(f'M {cx-14*s:.1f} {cy+10*s:.1f} L {cx-10*s:.1f} {cy+40*s:.1f} '
+               f'L {cx+10*s:.1f} {cy+40*s:.1f} L {cx+14*s:.1f} {cy+10*s:.1f} Z',
+               fill=P['blue'])
+    elif name == 'pour':
+        f.path(f'M {cx-40*s:.1f} {cy-34*s:.1f} L {cx-6*s:.1f} {cy-34*s:.1f} '
+               f'L {cx-14*s:.1f} {cy-4*s:.1f} L {cx-32*s:.1f} {cy-4*s:.1f} Z',
+               fill=P['card'])
+        f.path(f'M {cx-10*s:.1f} {cy-30*s:.1f} Q {cx+16*s:.1f} {cy-10*s:.1f} '
+               f'{cx+16*s:.1f} {cy+16*s:.1f}', stroke=P['blue'], sw=7)
+        f.path(f'M {cx-6*s:.1f} {cy+16*s:.1f} L {cx+40*s:.1f} {cy+16*s:.1f} '
+               f'L {cx+32*s:.1f} {cy+40*s:.1f} L {cx+2*s:.1f} {cy+40*s:.1f} Z',
+               fill=P['card'])
+    elif name == 'mix':
+        f.path(f'M {cx-38*s:.1f} {cy-6*s:.1f} L {cx+38*s:.1f} {cy-6*s:.1f} '
+               f'L {cx+26*s:.1f} {cy+32*s:.1f} L {cx-26*s:.1f} {cy+32*s:.1f} Z',
+               fill=P['card'])
+        L(14, -10, 34, -46, sw=6)
+        f.path(f'M {cx-20*s:.1f} {cy+6*s:.1f} Q {cx:.1f} {cy+20*s:.1f} '
+               f'{cx+20*s:.1f} {cy+6*s:.1f}', stroke=P['tanl'], sw=6)
+    elif name == 'press':
+        R(-34, 8, 68, 20, fill=P['tanl'], r=4)
+        f.path(f'M {cx-24*s:.1f} {cy-6*s:.1f} L {cx+24*s:.1f} {cy-6*s:.1f}',
+               stroke=P['grey'], sw=12)
+        L(-14, -14, -14, -40, stroke=P['accent'], sw=6)
+        L(14, -14, 14, -40, stroke=P['accent'], sw=6)
+        f.path(f'M {cx-22*s:.1f} {cy-32*s:.1f} L {cx-14*s:.1f} {cy-44*s:.1f} '
+               f'L {cx-6*s:.1f} {cy-32*s:.1f} Z', fill=P['accent'], stroke=P['accent'])
+
+    # ---- helping and learning (Unit 8)
+    elif name == 'hands':
+        f.path(f'M {cx-44*s:.1f} {cy+2*s:.1f} L {cx-10*s:.1f} {cy-14*s:.1f} '
+               f'L {cx-4*s:.1f} {cy:.1f} L {cx-38*s:.1f} {cy+16*s:.1f} Z',
+               fill=P['tanl'])
+        f.path(f'M {cx+44*s:.1f} {cy+2*s:.1f} L {cx+10*s:.1f} {cy-14*s:.1f} '
+               f'L {cx+4*s:.1f} {cy:.1f} L {cx+38*s:.1f} {cy+16*s:.1f} Z',
+               fill=P['tan'])
+        C(0, 0, 11, fill=P['accent'], sw=3)
+    elif name == 'guitar':
+        C(6, 18, 24, fill=P['tand']); C(-6, -6, 18, fill=P['tand'])
+        C(2, 10, 8, fill=P['bg'], sw=3)
+        f.path(f'M {cx-16*s:.1f} {cy-18*s:.1f} L {cx-36*s:.1f} {cy-44*s:.1f}', sw=7)
+        R(-46, -50, 16, 12, fill=P['card'], r=2)
+    elif name == 'teacher':
+        C(-20, -32, 15); R(-38, -14, 36, 42, r=12)
+        R(4, -34, 44, 36, fill=P['deep'], r=3)
+        L(12, -24, 40, -24, stroke=P['bg'], sw=3)
+        L(12, -14, 32, -14, stroke=P['bg'], sw=3)
+    elif name == 'certificate':
+        R(-42, -36, 84, 58, fill=P['card'], r=4)
+        L(-30, -20, 30, -20, stroke=P['deep'], sw=3)
+        L(-30, -8, 12, -8, stroke=P['deep'], sw=3)
+        C(22, 10, 12, fill=P['tanl'], sw=3)
+        f.path(f'M {cx+16*s:.1f} {cy+20*s:.1f} L {cx+14*s:.1f} {cy+42*s:.1f} '
+               f'L {cx+22*s:.1f} {cy+34*s:.1f} L {cx+30*s:.1f} {cy+42*s:.1f} '
+               f'L {cx+28*s:.1f} {cy+20*s:.1f} Z', fill=P['tand'])
+    elif name == 'tick':
+        C(0, 0, 36, fill=P['bg'], stroke=P['accent'], sw=6)
+        f.path(f'M {cx-16*s:.1f} {cy+2*s:.1f} L {cx-4*s:.1f} {cy+16*s:.1f} '
+               f'L {cx+18*s:.1f} {cy-16*s:.1f}', stroke=P['accent'], sw=8)
+    elif name == 'cross':
+        C(0, 0, 36, fill=P['bg'], stroke=P['tand'], sw=6)
+        L(-14, -14, 14, 14, stroke=P['tand'], sw=8)
+        L(14, -14, -14, 14, stroke=P['tand'], sw=8)
+    elif name == 'magnifier':
+        C(-6, -6, 26, fill=P['bg'], sw=7)
+        f.path(f'M {cx+12*s:.1f} {cy+12*s:.1f} L {cx+36*s:.1f} {cy+36*s:.1f}', sw=11)
+    elif name == 'calendar':
+        R(-40, -32, 80, 72, fill=P['card'], r=5)
+        R(-40, -32, 80, 18, fill=P['ink'], r=5, sw=0)
+        L(-22, -40, -22, -26, sw=5); L(22, -40, 22, -26, sw=5)
+        for r0 in range(2):
+            for c0 in range(4):
+                R(-30 + c0 * 18, -6 + r0 * 18, 12, 12, fill=P['blue'], r=2, sw=2)
+    elif name == 'list':
+        R(-38, -42, 76, 84, fill=P['card'], r=5)
+        for k in range(3):
+            R(-28, -30 + k * 22, 12, 12, fill=P['bg'], stroke=P['accent'], r=2, sw=3)
+            L(-10, -24 + k * 22, 28, -24 + k * 22, stroke=P['deep'], sw=4)
+    elif name == 'one_thing':
+        R(-22, -22, 44, 44, fill=P['blue'], r=6)
+    elif name == 'many_things':
+        R(-46, -10, 30, 30, fill=P['blue'], r=5)
+        R(-13, -10, 30, 30, fill=P['deep'], r=5)
+        R(20, -10, 30, 30, fill=P['blue'], r=5)
+        R(-30, -30, 30, 30, fill=P['card'], r=5)
+        R(4, -30, 30, 30, fill=P['card'], r=5)
     elif name == 'painting':
         R(-44, -34, 88, 68, fill=P['tand'], r=3)           # the frame
         R(-35, -26, 70, 52, fill=P['bg'], r=1)
@@ -567,7 +1020,12 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
                f'L {cx+12*s:.1f} {cy+26*s:.1f} Z', fill=P['tanl'])
         C(18, -12, 8, fill=P['blue'], sw=0)
     else:
-        C(0, 0, 30, fill=P['grey'])
+        # This used to draw a plain grey disc, which is the worst possible
+        # answer: a misspelled icon name produced a card with a featureless
+        # blob on it and NOTHING could see the mistake -- G13, G14 and G16 all
+        # read the text and the bounds, and a grey circle has the right bounds
+        # and no text. Refuse instead. Every call site names a real glyph.
+        raise KeyError(f'no icon named {name!r}')
 
 
 # ------------------------------------------------------------- figure jobs

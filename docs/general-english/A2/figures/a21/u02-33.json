@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the person in the flat",
+   "size": 34,
+   "bbox": [
+    74.3,
+    58.2,
+    665.7,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say who you are",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    394.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say the problem",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    393.7,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say when it started",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    443.1,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "agree a day",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    323.4,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the office",
+   "size": 34,
+   "bbox": [
+    887.8,
+    58.2,
+    1252.2,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask since when",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1078.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask one more question",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1198.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer a day",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1007.4,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say who comes",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1076.2,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A \u2014 the person in the flat: say who you are, say the problem, say when it started, agree a day. Card B \u2014 the office: ask since when, ask one more question, offer a day, say who comes.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "2455344254234331a36ddf45d282281a1b80b6b8c0ed0fc69d93121751b79696"
+}

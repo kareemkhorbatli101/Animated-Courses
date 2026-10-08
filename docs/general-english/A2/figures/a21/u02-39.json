@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  35,
+  26.2,
+  1405,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "balcony",
+   "size": 30,
+   "bbox": [
+    145.8,
+    209.4,
+    277.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "cupboard",
+   "size": 30,
+   "bbox": [
+    470.9,
+    209.4,
+    630.1,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "neighbour",
+   "size": 30,
+   "bbox": [
+    803.0,
+    209.4,
+    976.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "there is",
+   "size": 30,
+   "bbox": [
+    1163.6,
+    209.4,
+    1293.4,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "there are",
+   "size": 30,
+   "bbox": [
+    133.0,
+    427.4,
+    290.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "much",
+   "size": 30,
+   "bbox": [
+    504.6,
+    427.4,
+    596.4,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "many",
+   "size": 30,
+   "bbox": [
+    843.3,
+    427.4,
+    935.7,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "commute",
+   "size": 30,
+   "bbox": [
+    1150.0,
+    427.4,
+    1307.0,
+    454.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 8,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The eight words of the spiral review bank, in bank order: balcony, cupboard, neighbour, there is, there are, much, many, commute.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "44a0bed01811adf659b3521a9fb1606d2507f2e798c7fe9fbf0c9f7ff7d64d4b"
+}

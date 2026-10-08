@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  528
+ ],
+ "bounds": [
+  53.0,
+  26.2,
+  1387.0,
+  502.2
+ ],
+ "texts": [
+  {
+   "text": "plants",
+   "size": 28,
+   "bbox": [
+    132.3,
+    60.9,
+    230.9,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "quiet nights",
+   "size": 28,
+   "bbox": [
+    355.2,
+    60.9,
+    546.4,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hot water",
+   "size": 28,
+   "bbox": [
+    643.4,
+    60.9,
+    796.6,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "space",
+   "size": 28,
+   "bbox": [
+    943.6,
+    60.9,
+    1034.8,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bread",
+   "size": 28,
+   "bbox": [
+    1212.5,
+    60.9,
+    1304.3,
+    85.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "some",
+   "size": 34,
+   "bbox": [
+    156.0,
+    202.2,
+    258.0,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "any",
+   "size": 34,
+   "bbox": [
+    514.4,
+    202.2,
+    583.6,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "much",
+   "size": 34,
+   "bbox": [
+    839.0,
+    202.2,
+    943.0,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "many",
+   "size": 34,
+   "bbox": [
+    1180.6,
+    202.2,
+    1285.4,
+    232.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five things this task counts, as chips above four empty bins -- some, any, much and many. Which chip goes in which bin is the exercise, so none of them is placed. Three of the five cannot be counted one by one, and that is what the sort is for.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "d18a583448419fe16918b37d22ebf29ef76726e590f69c366983882cf242f578"
+}

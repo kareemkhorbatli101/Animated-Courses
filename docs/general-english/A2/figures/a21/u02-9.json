@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "noisy",
+   "size": 30,
+   "bbox": [
+    166.7,
+    258.6,
+    256.3,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "shelf",
+   "size": 30,
+   "bbox": [
+    509.1,
+    258.6,
+    591.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "balcony",
+   "size": 30,
+   "bbox": [
+    823.8,
+    258.6,
+    955.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "downstairs",
+   "size": 30,
+   "bbox": [
+    1135.2,
+    258.6,
+    1321.8,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: noisy, shelf, balcony, downstairs.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "769ef38a948b7fc776cc664f60ca0770a86aaac0345f0229b320fdf2bf2f1087"
+}

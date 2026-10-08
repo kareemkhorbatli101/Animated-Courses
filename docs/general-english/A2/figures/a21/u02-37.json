@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  374
+ ],
+ "bounds": [
+  43,
+  18.5,
+  1397,
+  355.7
+ ],
+ "texts": [
+  {
+   "text": "the empty flat",
+   "size": 28,
+   "bbox": [
+    111.2,
+    331.2,
+    335.8,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the post",
+   "size": 28,
+   "bbox": [
+    488.8,
+    331.2,
+    620.2,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the landing",
+   "size": 28,
+   "bbox": [
+    795.4,
+    331.2,
+    975.6,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the shop",
+   "size": 28,
+   "bbox": [
+    1147.5,
+    331.2,
+    1285.5,
+    355.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The empty flat at number 14 drawn along one landing: the door nobody opens, the post that arrives for somebody who is not there, the landing where the pile grew, and the shop where Amina asked twice whether anybody knew the name.",
+ "placed_in": [
+  6.260416666666667,
+  1.625
+ ],
+ "sha256": "62df283b83e4238ccc9fce86bc57a88dd12bb1079a38caf27c415f24f3a8b89c"
+}

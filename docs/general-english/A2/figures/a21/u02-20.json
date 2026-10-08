@@ -1,0 +1,240 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three",
+   "size": 26,
+   "bbox": [
+    103.0,
+    281.6,
+    182.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "rooms",
+   "size": 26,
+   "bbox": [
+    96.9,
+    313.6,
+    188.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a small",
+   "size": 26,
+   "bbox": [
+    235.2,
+    281.6,
+    339.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "balcony",
+   "size": 26,
+   "bbox": [
+    230.6,
+    313.6,
+    344.4,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "rent six",
+   "size": 26,
+   "bbox": [
+    376.7,
+    281.6,
+    488.3,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hundred",
+   "size": 26,
+   "bbox": [
+    370.9,
+    313.6,
+    494.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "quiet at",
+   "size": 26,
+   "bbox": [
+    519.9,
+    281.6,
+    635.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "night",
+   "size": 26,
+   "bbox": [
+    539.0,
+    313.6,
+    616.0,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "three",
+   "size": 26,
+   "bbox": [
+    823.0,
+    281.6,
+    902.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "rooms",
+   "size": 26,
+   "bbox": [
+    816.9,
+    313.6,
+    908.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no",
+   "size": 26,
+   "bbox": [
+    989.3,
+    281.6,
+    1025.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "balcony",
+   "size": 26,
+   "bbox": [
+    950.6,
+    313.6,
+    1064.4,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "rent six",
+   "size": 26,
+   "bbox": [
+    1096.7,
+    281.6,
+    1208.3,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hundred",
+   "size": 26,
+   "bbox": [
+    1090.9,
+    313.6,
+    1214.1,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "noisy on",
+   "size": 26,
+   "bbox": [
+    1235.9,
+    281.6,
+    1359.1,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Fridays",
+   "size": 26,
+   "bbox": [
+    1244.7,
+    313.6,
+    1350.3,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A\\u2019s facts on the left and Student B\\u2019s on the right, with a fold line between them, so each student sees only their own -- which is what the task has always asked for and a pair of prose lists on one page cannot give.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "79d66d0bf4162d0d3f8d71e17184e4c41d66001e6c7765cb2c6f284552570d12"
+}

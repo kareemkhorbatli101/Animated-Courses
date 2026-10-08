@@ -1,0 +1,84 @@
+{
+ "canvas": [
+  1440,
+  468
+ ],
+ "bounds": [
+  51,
+  23.2,
+  1389,
+  445.2
+ ],
+ "texts": [
+  {
+   "text": "There are a shop downstairs.",
+   "size": 28,
+   "bbox": [
+    134,
+    61.7,
+    595.0,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "There is a shop downstairs.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    61.7,
+    1277.6,
+    86.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "There are a garden behind the building.",
+   "size": 22,
+   "bbox": [
+    134,
+    173.1,
+    630.4,
+    193.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "There is not many flats on this floor.",
+   "size": 26,
+   "bbox": [
+    134,
+    277.4,
+    665.3,
+    301.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Are there some lifts in the block?",
+   "size": 28,
+   "bbox": [
+    134,
+    384.2,
+    659.8,
+    408.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
+ "placed_in": [
+  6.260416666666667,
+  2.03125
+ ],
+ "sha256": "21a1daa2063d531b193d65b0ecdb46eb882e95000fdbd5644e3d931dc484f0ff"
+}

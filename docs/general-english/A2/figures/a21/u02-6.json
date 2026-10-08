@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  698
+ ],
+ "bounds": [
+  53,
+  30.0,
+  1387,
+  668.0
+ ],
+ "texts": [
+  {
+   "text": "balcony",
+   "size": 40,
+   "bbox": [
+    112,
+    80.6,
+    287.1,
+    116.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cupboard",
+   "size": 40,
+   "bbox": [
+    112,
+    188.6,
+    324.3,
+    224.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "upstairs",
+   "size": 40,
+   "bbox": [
+    112,
+    296.6,
+    296.3,
+    332.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "downstairs",
+   "size": 40,
+   "bbox": [
+    112,
+    404.6,
+    360.8,
+    440.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "recycling",
+   "size": 40,
+   "bbox": [
+    112,
+    512.6,
+    316.9,
+    548.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "entrance",
+   "size": 40,
+   "bbox": [
+    112,
+    620.6,
+    312.8,
+    656.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 6,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Where the stress falls in six words of this unit. Each word has a bar above every syllable, tall and dark where the stress falls and short and pale elsewhere, and the same pattern again at the right as one large dot among small ones.",
+ "placed_in": [
+  6.260416666666667,
+  3.03125
+ ],
+ "sha256": "05d7b48c6cb8c68694954219210ba81b7b3281e9101c77a4c70a42c63ad7b53b"
+}

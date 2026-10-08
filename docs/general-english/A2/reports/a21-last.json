@@ -1594,7 +1594,7 @@
   "G28@u09": "PASS",
   "G28@u10": "PASS",
   "G29@u01": "PASS",
-  "G29@u02": "SKIP",
+  "G29@u02": "PASS",
   "G29@u03": "SKIP",
   "G29@u04": "SKIP",
   "G29@u05": "SKIP",
@@ -1982,9 +1982,9 @@
  },
  "summary": {
   "total": 1966,
-  "pass": 1836,
+  "pass": 1837,
   "fail": 0,
   "gate": 121,
-  "skip": 9
+  "skip": 8
  }
 }
