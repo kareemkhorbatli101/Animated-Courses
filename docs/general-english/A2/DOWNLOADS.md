@@ -3,11 +3,14 @@
 Direct links. Every one is a single click; the repository is public, so none of
 them needs a login. Branch: `claude/jolly-johnson-9khdgl`.
 
-## The four files
-
-Both books and both answer keys. Each is one click; the repository is public.
+Two volumes, twenty units, 820 figures. Each volume is below: the whole book,
+the answer key on its own, every unit on its own, and the covers.
 
 ## A2.1 · *Everyday Life* · Units 1–10 · 492 pages
+
+Single units for this volume are in `release/units/` too, named
+`a21-u01.docx` through `a21-u10.pdf`, on the same pattern as the A2.2
+table below.
 
 | | | |
 |---|---|---|
@@ -18,12 +21,43 @@ Both books and both answer keys. Each is one click; the repository is public.
 
 ## A2.2 · *Out in the World* · Units 11–20 · 502 pages
 
+### The whole volume
+
 | | | |
 |---|---|---|
-| The book | DOCX | [EFDL-A2.2-OutintheWorld-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-u11-20.docx) |
+| The book · 502 pages · 410 figures | DOCX | [EFDL-A2.2-OutintheWorld-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-u11-20.docx) |
 | The book | PDF | [EFDL-A2.2-OutintheWorld-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-u11-20.pdf) |
 | Answer key alone · 133 pages | DOCX | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.docx) |
 | Answer key alone | PDF | [EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/EFDL-A2.2-OutintheWorld-AnswerKey-u11-20.pdf) |
+
+The book holds the ten units in order, then the whole answer key, with the
+front and back covers as the first and last pages.
+
+### One unit at a time
+
+Each is the unit on its own, 41 figures, with its own answer key at the end.
+
+| Unit | Pages | | |
+|---|---|---|---|
+| **11** · Plans and Arrangements | 38 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u11.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u11.pdf) |
+| **12** · Weather and What Might Happen | 38 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u12.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u12.pdf) |
+| **13** · Rules and Places | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u13.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u13.pdf) |
+| **14** · Health and Feeling Better | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u14.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u14.pdf) |
+| **15** · Experiences | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u15.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u15.pdf) |
+| **16** · Then and Now | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u16.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u16.pdf) |
+| **17** · How Things Are Made | 38 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u17.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u17.pdf) |
+| **18** · If and When | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u18.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u18.pdf) |
+| **19** · People, Places and Things | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u19.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u19.pdf) |
+| **20** · News, Stories and Messages | 37 | [DOCX](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u20.docx) | [PDF](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/units/a22-u20.pdf) |
+
+### Covers and the check report
+
+| | |
+|---|---|
+| Front cover · 2480 × 3508 at 300 DPI | [a22-front.png](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/covers/a22-front.png) |
+| Back cover · 2480 × 3508 at 300 DPI | [a22-back.png](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/covers/a22-back.png) |
+| Check report · what every check measured | [a22-report.md](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/reports/a22-report.md) |
+| Full check results · machine-readable | [a22-last.json](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/A2/release/reports/a22-last.json) |
 
 ## What is in each book
 

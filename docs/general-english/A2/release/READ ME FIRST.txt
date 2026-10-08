@@ -6,6 +6,7 @@ Two volumes, twenty units, 820 figures.
   EFDL-A2.1-EverydayLife-u01-10        Units 1-10, Everyday Life
   EFDL-A2.2-OutintheWorld-u11-20       Units 11-20, Out in the World
   ...-AnswerKey-...                    the same key, printable on its own
+  units/                               each unit on its own, DOCX and PDF
   covers/                              the four covers at 300 DPI
   reports/                             the check report for each volume
 

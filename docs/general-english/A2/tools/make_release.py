@@ -9,7 +9,7 @@ files that ship, replaced rather than accumulated, and is written only at a
 milestone -- not on every build.
 """
 from __future__ import annotations
-import os, shutil, sys
+import os, re, shutil, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -24,6 +24,7 @@ Two volumes, twenty units, 820 figures.
   EFDL-A2.1-EverydayLife-u01-10        Units 1-10, Everyday Life
   EFDL-A2.2-OutintheWorld-u11-20       Units 11-20, Out in the World
   ...-AnswerKey-...                    the same key, printable on its own
+  units/                               each unit on its own, DOCX and PDF
   covers/                              the four covers at 300 DPI
   reports/                             the check report for each volume
 
@@ -46,6 +47,14 @@ def main():
         if f.startswith('EFDL-A2.') and f.endswith(('.docx', '.pdf')):
             shutil.copy2(os.path.join(BUILD, f), os.path.join(REL, f))
             sent.append(f)
+    # The single units as well. A whole volume is 500 pages and 18 MB; a
+    # teacher who wants next week's unit should not have to download the year.
+    units = os.path.join(REL, 'units')
+    os.makedirs(units, exist_ok=True)
+    for f in sorted(os.listdir(BUILD)):
+        if re.fullmatch(r'a2[12]-u\d\d\.(docx|pdf)', f):
+            shutil.copy2(os.path.join(BUILD, f), os.path.join(units, f))
+            sent.append('units/' + f)
     for sub in ('covers', 'reports'):
         src = os.path.join(ROOT, sub)
         if os.path.isdir(src):
