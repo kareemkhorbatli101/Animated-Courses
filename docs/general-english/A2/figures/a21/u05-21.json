@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the listener",
+   "size": 34,
+   "bbox": [
+    166.5,
+    58.2,
+    573.5,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what they did",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    419.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about the weather",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    495.1,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask who with",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    345.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what happened next",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    526.8,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the teller",
+   "size": 34,
+   "bbox": [
+    888.9,
+    58.2,
+    1251.1,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say where you went",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1153.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what the weather was like",
+   "size": 22,
+   "bbox": [
+    838.0,
+    208.8,
+    1214.7,
+    228.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say who with",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1044.3,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "finish with one thing",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1164.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "that went wrong",
+   "size": 28,
+   "bbox": [
+    838.0,
+    350.9,
+    1100.2,
+    375.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the listener: ask what they did, ask about the weather, ask who with, ask what happened next. Card B, the teller: say where you went, what the weather was like, who with, and finish with one thing that went wrong.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "32b025e753d000823a2c98909b00f96c7a067fb90c8d594a96143f348b9e9406"
+}

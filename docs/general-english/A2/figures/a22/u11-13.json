@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "A booked bed",
+   "text": "Monday",
    "size": 34,
    "bbox": [
-    234.0,
-    67.8,
-    496.0,
-    98.2
+    115.1,
+    131.2,
+    264.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "a name on a list",
-   "size": 27,
+   "text": "a meeting at ten",
+   "size": 26,
    "bbox": [
-    256.4,
-    282.5,
-    473.6,
-    307.0
+    68.0,
+    268.7,
+    312.0,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "paid in advance",
-   "size": 27,
-   "bbox": [
-    257.6,
-    328.5,
-    472.4,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "yours alone",
-   "size": 27,
-   "bbox": [
-    286.2,
-    374.5,
-    443.8,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "A bed nobody booked",
+   "text": "Wednesday",
    "size": 34,
    "bbox": [
-    897.2,
-    67.8,
-    1312.8,
-    98.2
+    345.2,
+    131.2,
+    564.8,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "one key for the whole chain",
-   "size": 27,
+   "text": "nothing",
+   "size": 28,
    "bbox": [
-    917.6,
-    282.5,
-    1292.4,
-    307.0
+    394.0,
+    267.9,
+    516.0,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "move up when it fills",
-   "size": 27,
+   "text": "Friday",
+   "size": 34,
    "bbox": [
-    964.5,
-    328.5,
-    1245.5,
-    353.0
+    661.1,
+    131.2,
+    778.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the wet and late one first",
-   "size": 27,
+   "text": "dinner at eight",
+   "size": 28,
    "bbox": [
-    934.2,
-    374.5,
-    1275.8,
-    399.0
+    602.0,
+    267.9,
+    838.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Saturday",
+   "size": 34,
+   "bbox": [
+    898.5,
+    131.2,
+    1071.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "seven at number 14",
+   "size": 22,
+   "bbox": [
+    861.2,
+    271.8,
+    1108.8,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this year",
+   "size": 34,
+   "bbox": [
+    1165.4,
+    131.2,
+    1334.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "learning to drive",
+   "size": 26,
+   "bbox": [
+    1127.6,
+    268.7,
+    1372.4,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "Two ways of getting a bed for the night. A booked bed: a name on a list, paid in advance, and yours alone. A bed nobody booked: one key that opens the whole chain, everybody moves up when it fills, and the person who arrives wet and late gets it first.",
+ "arrows": 0,
+ "alt": "One week on a line: a meeting at ten on Monday, nothing on Wednesday, dinner at eight on Friday, seven o\u2019clock at number 14 on Saturday, and somewhere beyond the week, learning to drive this year.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "f37caef7983df01f6cc683c09b384c230ee3d1e3584344bf6b877ad426bbdfb5"
+ "sha256": "b32a7b3f5d4ba255d28ca1b7e78aec4379bfc0a2ed14b388af74b201cb30721d"
 }

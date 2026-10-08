@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "Before",
+   "text": "ground floor",
    "size": 34,
    "bbox": [
-    301.5,
-    67.8,
-    428.5,
-    98.2
+    71.1,
+    131.2,
+    308.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "eleven cars",
-   "size": 27,
+   "text": "a shop",
+   "size": 28,
    "bbox": [
-    287.2,
-    282.5,
-    442.8,
-    307.0
+    137.7,
+    267.9,
+    242.3,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "nowhere to sit",
-   "size": 27,
-   "bbox": [
-    268.5,
-    328.5,
-    461.5,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "no shade",
-   "size": 27,
-   "bbox": [
-    303.2,
-    374.5,
-    426.8,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "After",
+   "text": "first floor",
    "size": 34,
    "bbox": [
-    1056.4,
-    67.8,
-    1153.6,
-    98.2
+    365.5,
+    131.2,
+    544.5,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "closed every Sunday",
-   "size": 27,
+   "text": "Dani",
+   "size": 28,
    "bbox": [
-    964.4,
-    282.5,
-    1245.6,
-    307.0
+    419.2,
+    267.9,
+    490.8,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "chairs and tables",
-   "size": 27,
+   "text": "second floor",
+   "size": 34,
    "bbox": [
-    989.2,
-    328.5,
-    1220.8,
-    353.0
+    602.1,
+    131.2,
+    837.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "four trees",
-   "size": 27,
+   "text": "Maya and Tomas",
+   "size": 26,
    "bbox": [
-    1039.4,
-    374.5,
-    1170.6,
-    399.0
+    598.9,
+    268.7,
+    841.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "fourth floor",
+   "size": 34,
+   "bbox": [
+    874.9,
+    131.2,
+    1095.1,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 28,
+   "bbox": [
+    887.0,
+    267.9,
+    1083.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "top flat",
+   "size": 34,
+   "bbox": [
+    1179.9,
+    131.2,
+    1320.1,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki",
+   "size": 28,
+   "bbox": [
+    1216.8,
+    267.9,
+    1283.2,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "Clara\u2019s street in Brazil before and after. Before: eleven cars, nowhere to sit, no shade. After: closed every Sunday, chairs and tables, and four trees.",
+ "arrows": 0,
+ "alt": "The building floor by floor, as a line: a shop on the ground floor, Dani on the first, Maya and Tomas on the second, Mr Okonkwo on the fourth, and Yuki in the top flat.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "535436444cbb1e4854ce68c5f5a81049b93556e5025f48b54bef78feff2caa2a"
+ "sha256": "d9ef7eed1bfe5f9c4ec3fc6ea58541919de5042b946a00244c9c08f840209106"
 }

@@ -1,115 +1,168 @@
 {
  "canvas": [
   1440,
-  531
+  560
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  27.8,
+  1366.0,
+  532.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Mr Okonkwo",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    161.0,
+    187.5,
+    399.0,
+    217.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "repairs slowly and once",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    114.7,
+    228.2,
+    445.3,
+    252.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    187.5,
+    780.3,
+    217.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "builds her display quickly",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    542.3,
+    228.2,
+    897.7,
+    252.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Dani",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1116.5,
+    187.5,
+    1203.5,
+    217.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "cooks fast and loudly",
+   "size": 28,
+   "bbox": [
+    1011.4,
+    228.2,
+    1308.6,
+    252.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    229.6,
+    467.5,
+    330.4,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "makes small books by hand",
+   "size": 26,
+   "bbox": [
+    99.3,
+    509.0,
+    460.7,
+    532.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas",
+   "size": 34,
+   "bbox": [
+    659.7,
+    467.5,
+    780.3,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "can sew a straight line",
+   "size": 28,
+   "bbox": [
+    561.5,
+    508.2,
+    878.5,
+    532.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    467.5,
+    1200.3,
+    497.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is learning to make a bowl",
+   "size": 28,
+   "bbox": [
+    975.5,
+    508.2,
+    1344.5,
+    532.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   190.4,
-   207.9,
-   846,
-   45.3
-  ],
-  [
-   312.0,
-   264.3,
-   846,
-   155.3
-  ],
-  [
-   468.8,
-   301.9,
-   846,
-   265.3
-  ],
-  [
-   622.4,
-   330.1,
-   846,
-   375.3
-  ],
-  [
-   705.6,
-   367.7,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "A work surface seen from above, with the things laid out in the order they are used: a bowl, a spoon, the work itself with one layer over another, a tube of glue and a brush. Five numbered lines run to the right for the learner to write each word.",
+ "alt": "What each of the six people at number 14 makes or repairs, and how: Mr Okonkwo repairs slowly and once, Amina builds her display quickly, Dani cooks fast and loudly, Maya makes small books by hand, Tomas can sew a straight line, and Yuki is learning to make a bowl.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.4375
  ],
- "sha256": "a3d3e5f0a5696b3a8f2f47da4b5a159878acd7f8918535015edf6e4a9d9d2212"
+ "sha256": "b3a9cfefe848af9e49aac6952d4a7f5b505a7fe1ab6f46826ad51ba15009cc16"
 }

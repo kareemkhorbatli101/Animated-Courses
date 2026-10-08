@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say the problem in four words",
+   "size": 22,
+   "bbox": [
+    138.0,
+    152.8,
+    511.3,
+    172.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer plainly",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    367.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what you should take",
+   "size": 26,
+   "bbox": [
+    138.0,
+    261.7,
+    512.4,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask when to worry",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    429.8,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 advising",
+   "size": 34,
+   "bbox": [
+    897.0,
+    58.2,
+    1243.0,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask two questions first",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1199.0,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "give the cheap answer too",
+   "size": 26,
+   "bbox": [
+    838.0,
+    205.7,
+    1226.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say when to see somebody",
+   "size": 24,
+   "bbox": [
+    838.0,
+    263.3,
+    1202.8,
+    284.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "do not frighten them",
+   "size": 28,
+   "bbox": [
+    838.0,
+    316.9,
+    1168.5,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: say the problem in four words, answer the questions plainly, ask what you should take, ask when to worry. Card B, advising: ask two questions first, give the cheap answer as well, say when they should see somebody, do not frighten them.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "79fbcf066a5764d73c26aae3b67c9a258dd642af29e0efb850f78d76cfafdcc8"
+}

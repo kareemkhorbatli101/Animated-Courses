@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Everybody to a doctor",
+   "size": 34,
+   "bbox": [
+    153.1,
+    67.8,
+    576.9,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "one waiting room",
+   "size": 27,
+   "bbox": [
+    247.2,
+    282.5,
+    482.8,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three weeks for everybody",
+   "size": 27,
+   "bbox": [
+    183.8,
+    328.5,
+    546.2,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the small and the bad together",
+   "size": 27,
+   "bbox": [
+    154.3,
+    374.5,
+    575.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "A nurse on the line first",
+   "size": 34,
+   "bbox": [
+    877.9,
+    67.8,
+    1332.1,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "how long, how bad",
+   "size": 27,
+   "bbox": [
+    977.6,
+    282.5,
+    1232.4,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "most people sent to somebody else",
+   "size": 25,
+   "bbox": [
+    881.6,
+    330.1,
+    1328.4,
+    352.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a chemist takes the minor list",
+   "size": 27,
+   "bbox": [
+    904.3,
+    374.5,
+    1305.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Two ways of answering the first question about health. Everybody to a doctor: one waiting room, three weeks for everybody, and the small problems sitting with the bad ones. A nurse on the line first: how long and how bad, most people sent to somebody other than a doctor, and a chemist handling the minor list.",
+ "placed_in": [
+  6.260416666666667,
+  1.9166666666666667
+ ],
+ "sha256": "452aa6a6551e8cd156fddcd7f0e6895b77e1ebd153b33725c2a349363d83cb43"
+}

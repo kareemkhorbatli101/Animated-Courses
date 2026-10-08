@@ -1,144 +1,96 @@
 {
  "canvas": [
   1440,
-  473
+  571
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  28.3,
+  1373.0,
+  542.3
  ],
  "texts": [
   {
-   "text": "Track 9.2",
-   "size": 28,
+   "text": "A junction",
+   "size": 34,
    "bbox": [
-    195.0,
-    50.1,
-    338.3,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and Amina",
-   "size": 32,
-   "bbox": [
-    127.2,
-    287.0,
-    406.1,
-    315.2
+    178.4,
+    217.3,
+    372.3,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "asking the way next door",
-   "size": 26,
+   "text": "A square",
+   "size": 34,
    "bbox": [
-    101.8,
-    356.9,
-    431.5,
-    380.6
+    635.1,
+    217.3,
+    804.9,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 9.3",
-   "size": 28,
+   "text": "A roundabout",
+   "size": 34,
    "bbox": [
-    648.4,
-    50.1,
-    791.6,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and a driver",
-   "size": 32,
-   "bbox": [
-    563.9,
-    287.0,
-    876.1,
-    315.2
+    1033.6,
+    217.3,
+    1295.7,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a driver who cannot find",
-   "size": 26,
+   "text": "A lane",
+   "size": 34,
    "bbox": [
-    561.1,
-    356.9,
-    878.9,
-    380.6
+    215.3,
+    488.3,
+    335.3,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the door",
-   "size": 26,
+   "text": "A bridge",
+   "size": 34,
    "bbox": [
-    665.0,
-    388.9,
-    775.0,
-    412.6
+    638.7,
+    488.3,
+    801.3,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 9.4",
-   "size": 28,
+   "text": "A block",
+   "size": 34,
    "bbox": [
-    1101.7,
-    50.1,
-    1245.0,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "five people, five ways",
-   "size": 26,
-   "bbox": [
-    1031.9,
-    356.9,
-    1314.8,
-    380.6
+    1094.5,
+    488.3,
+    1234.8,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 6,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Yuki asks Amina the way to the health centre, Dani talks a driver down the street by telephone, and Amina describes five people and five ways of finding the way.",
+ "alt": "Six kinds of place, each on its own card: a junction, a square, a roundabout, a lane, a bridge and a block.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  2.4791666666666665
  ],
- "sha256": "9075d9c7dbf567afc18dcb91ef1f551c6993cb9bb46d77eecb3897a11a3fcede"
+ "sha256": "bbf2ddb56e26bb5e50fc61a614f644cdfc9493fa5604a2edacd8ec40840b1c68"
 }

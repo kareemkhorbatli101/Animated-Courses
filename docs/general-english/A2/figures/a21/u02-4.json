@@ -1,115 +1,168 @@
 {
  "canvas": [
   1440,
-  531
+  577
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.6,
+  1366.0,
+  548.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    203.5,
+    340.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "ground floor",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    194.3,
+    244.2,
+    365.7,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Dani",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    676.5,
+    203.5,
+    763.5,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "first floor",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    656.5,
+    244.2,
+    783.5,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1109.6,
+    203.5,
+    1210.4,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "second floor",
+   "size": 28,
+   "bbox": [
+    1073.9,
+    244.2,
+    1246.1,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas",
+   "size": 34,
+   "bbox": [
+    219.7,
+    483.5,
+    340.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "second floor",
+   "size": 28,
+   "bbox": [
+    193.9,
+    524.2,
+    366.1,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "fourth floor",
+   "size": 28,
+   "bbox": [
+    641.4,
+    524.2,
+    798.6,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "top flat",
+   "size": 28,
+   "bbox": [
+    1109.7,
+    524.2,
+    1210.3,
+    548.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   440.0,
-   66.9,
-   846,
-   45.3
-  ],
-  [
-   478.4,
-   170.3,
-   846,
-   155.3
-  ],
-  [
-   401.6,
-   273.7,
-   846,
-   265.3
-  ],
-  [
-   452.8,
-   377.1,
-   846,
-   375.3
-  ],
-  [
-   414.4,
-   461.7,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "A building drawn from the side, from the roof at the top to the garden at the bottom. Five numbered lines run to the right for the learner to write roof, balcony, stairs, entrance and garden.",
+ "alt": "Who lives on which floor of 14 Alder Street: Amina\u2019s shop on the ground floor, Dani on the first, Maya and Tomas on the second, Mr Okonkwo on the fourth with the best view, and Yuki in the top flat.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.5104166666666665
  ],
- "sha256": "091b0ab35ea9803498806292edc109c301a3bcfd5288cfdc492718ba012982bb"
+ "sha256": "cefe5684b6ac0b20c08a1786ecd455cae66b4fc5cb5f5691801554c2d751bf1f"
 }

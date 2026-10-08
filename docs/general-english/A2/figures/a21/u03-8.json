@@ -1,144 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 the visitor",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    178.9,
-    58.2,
-    561.1,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "ask the way to one place",
-   "size": 26,
-   "bbox": [
-    138.0,
-    149.7,
-    502.2,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask about the bus",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    204.9,
-    421.9,
-    229.4
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask about opening times",
-   "size": 26,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    261.7,
-    500.6,
-    285.4
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "thank them",
-   "size": 28,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    316.9,
-    320.0,
-    341.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 the local",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    895.2,
-    58.2,
-    1244.8,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "give two directions",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1140.7,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say how long it takes",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1172.6,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say what is happening now",
-   "size": 24,
-   "bbox": [
-    838.0,
-    263.3,
-    1205.6,
-    284.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "answer the opening question",
-   "size": 22,
-   "bbox": [
-    838.0,
-    320.8,
-    1200.4,
-    340.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   440.0,
+   76.3,
+   846,
+   45.3
+  ],
+  [
+   414.4,
+   170.3,
+   846,
+   155.3
+  ],
+  [
+   465.6,
+   273.7,
+   846,
+   265.3
+  ],
+  [
+   401.6,
+   377.1,
+   846,
+   375.3
+  ],
+  [
+   452.8,
+   461.7,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, the visitor: ask the way to one place, ask about the bus, ask about opening times, thank them. Card B, the local: give two directions, say how long it takes, say what is happening now, answer the opening question.",
+ "alt": "A street drawn from the side, with a bridge over it, traffic on the road, a crossing, a bench and a market. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "466541af46b4a9d851e1a7f80f02179637878a0060b818b91ea697731c94a536"
+ "sha256": "5572156e95568c5949ef255f750a34d1a1bfda179b681707f81074e4d2a55e14"
 }

@@ -1,144 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 teaching",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    194.2,
-    58.2,
-    545.8,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "one step at a time",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    426.6,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say how, not only what",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    204.9,
-    501.5,
-    229.4
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say the one mistake",
-   "size": 28,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    260.9,
-    455.2,
-    285.4
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "wait",
-   "size": 28,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    316.9,
-    205.8,
-    341.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 learning",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    898.4,
-    58.2,
-    1241.6,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "do each step",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1040.3,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say what you see",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1110.4,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "ask when you are not sure",
-   "size": 26,
-   "bbox": [
-    838.0,
-    261.7,
-    1226.8,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "tidy as you go",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1060.8,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   190.4,
+   207.9,
+   846,
+   45.3
+  ],
+  [
+   312.0,
+   264.3,
+   846,
+   155.3
+  ],
+  [
+   468.8,
+   301.9,
+   846,
+   265.3
+  ],
+  [
+   622.4,
+   330.1,
+   846,
+   375.3
+  ],
+  [
+   705.6,
+   367.7,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, teaching: one step at a time, say how not only what, say the one mistake everybody makes, wait. Card B, learning: do each step, say what you see, ask when you are not sure, tidy as you go.",
+ "alt": "A work surface seen from above, with the things laid out in the order they are used: a bowl, a spoon, the work itself with one layer over another, a tube of glue and a brush. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "f717ce95e8576c2fe7d259b3cc9a49518bfafc0c415efc47e93546e7386bc0a2"
+ "sha256": "a3d3e5f0a5696b3a8f2f47da4b5a159878acd7f8918535015edf6e4a9d9d2212"
 }

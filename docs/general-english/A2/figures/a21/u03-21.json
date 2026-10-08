@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the visitor",
+   "size": 34,
+   "bbox": [
+    178.9,
+    58.2,
+    561.1,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask the way to one place",
+   "size": 26,
+   "bbox": [
+    138.0,
+    149.7,
+    502.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about the bus",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    421.9,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask about opening times",
+   "size": 26,
+   "bbox": [
+    138.0,
+    261.7,
+    500.6,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thank them",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    320.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 the local",
+   "size": 34,
+   "bbox": [
+    895.2,
+    58.2,
+    1244.8,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "give two directions",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1140.7,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how long it takes",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1172.6,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what is happening now",
+   "size": 24,
+   "bbox": [
+    838.0,
+    263.3,
+    1205.6,
+    284.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer the opening question",
+   "size": 22,
+   "bbox": [
+    838.0,
+    320.8,
+    1200.4,
+    340.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the visitor: ask the way to one place, ask about the bus, ask about opening times, thank them. Card B, the local: give two directions, say how long it takes, say what is happening now, answer the opening question.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "466541af46b4a9d851e1a7f80f02179637878a0060b818b91ea697731c94a536"
+}

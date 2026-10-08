@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask carefully",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    339.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say exactly what you want",
+   "size": 26,
+   "bbox": [
+    138.0,
+    205.7,
+    527.3,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how long",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    344.3,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "thank them",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    320.0,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 asked",
+   "size": 34,
+   "bbox": [
+    921.6,
+    58.2,
+    1218.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "do not say yes at once",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1192.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you can and",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1179.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cannot do",
+   "size": 28,
+   "bbox": [
+    838.0,
+    238.9,
+    995.0,
+    263.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "set one condition",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1112.3,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "agree",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    928.7,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask carefully, say exactly what you want, say how long, thank them. Card B, asked: do not say yes at once, say what you can and cannot do, set one condition, agree.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "9dae84e4099af5b8b12e808720d488094e65750878c3b66a898722faddf4c716"
+}

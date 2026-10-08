@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "A library then",
+   "text": "age 8",
    "size": 34,
    "bbox": [
-    233.0,
-    67.8,
-    497.0,
-    98.2
+    137.1,
+    131.2,
+    242.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "books",
-   "size": 27,
+   "text": "she could float",
+   "size": 28,
    "bbox": [
-    325.1,
-    282.5,
-    404.9,
-    307.0
+    73.6,
+    267.9,
+    306.4,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "a card",
-   "size": 27,
-   "bbox": [
-    322.9,
-    328.5,
-    407.1,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "quiet",
-   "size": 27,
-   "bbox": [
-    330.5,
-    374.5,
-    399.5,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "A library now",
+   "text": "age 9",
    "size": 34,
    "bbox": [
-    977.4,
-    67.8,
-    1232.6,
-    98.2
+    402.1,
+    131.2,
+    507.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a drill, a bike, a ladder",
-   "size": 27,
+   "text": "she stopped",
+   "size": 28,
    "bbox": [
-    953.8,
-    282.5,
-    1256.2,
-    307.0
+    358.1,
+    267.9,
+    551.9,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a small membership",
-   "size": 27,
+   "text": "now",
+   "size": 34,
    "bbox": [
-    967.3,
-    328.5,
-    1242.7,
-    353.0
+    680.5,
+    131.2,
+    759.5,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "somebody teaches you",
-   "size": 27,
+   "text": "she can\u2019t swim",
+   "size": 28,
    "bbox": [
-    948.3,
-    374.5,
-    1261.7,
-    399.0
+    602.1,
+    267.9,
+    837.9,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "week 6",
+   "size": 34,
+   "bbox": [
+    917.2,
+    131.2,
+    1052.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she can float again",
+   "size": 22,
+   "bbox": [
+    867.2,
+    271.8,
+    1102.8,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one year",
+   "size": 34,
+   "bbox": [
+    1166.3,
+    131.2,
+    1333.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "she can swim",
+   "size": 28,
+   "bbox": [
+    1144.1,
+    267.9,
+    1355.9,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "What a library used to lend and what it lends now. Then: books, a card and quiet. Now: a drill, a bike or a ladder, a small membership, and somebody who teaches you how to use it.",
+ "arrows": 0,
+ "alt": "Yuki\u2019s swimming on a line: she could float at eight, stopped at nine, cannot swim now, can float again by week six, and can swim after a year.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "7ce92c593b5241d079918ac3bbc76e5e76e773ec424575731445076df254c867"
+ "sha256": "ce3f383b815d1c0662654cf79b0fbb972d7b1567bf4fc6581e75f84f9e1a2d8a"
 }

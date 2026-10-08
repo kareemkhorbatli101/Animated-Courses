@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 19.2",
+   "size": 28,
+   "bbox": [
+    185.3,
+    50.1,
+    348.1,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and Amina",
+   "size": 32,
+   "bbox": [
+    127.2,
+    287.0,
+    406.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the woman who knows",
+   "size": 26,
+   "bbox": [
+    117.5,
+    356.9,
+    415.8,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "which bus is late",
+   "size": 26,
+   "bbox": [
+    158.1,
+    388.9,
+    375.3,
+    412.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 19.3",
+   "size": 28,
+   "bbox": [
+    638.6,
+    50.1,
+    801.4,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani and Maya",
+   "size": 32,
+   "bbox": [
+    586.8,
+    287.0,
+    853.2,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the man who mends shoes",
+   "size": 24,
+   "bbox": [
+    558.3,
+    358.5,
+    881.7,
+    380.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 19.4",
+   "size": 28,
+   "bbox": [
+    1091.9,
+    50.1,
+    1254.7,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six people, six descriptions",
+   "size": 24,
+   "bbox": [
+    1011.0,
+    358.5,
+    1335.6,
+    380.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Yuki asks Amina how she knows the 14 is late, Dani and Maya argue about the man on Mill Lane who mends only the heels of shoes, and Amina says how the street describes each of the six.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "d19619fecc51113dfe43fb284b7b691197dcb8ff8a73056682c4b61fbed0a390"
+}

@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "The one with the red bag.",
+   "size": 28,
+   "bbox": [
+    155.8,
+    60.7,
+    564.2,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "narrowing it by what you can see now",
+   "size": 22,
+   "bbox": [
+    868.8,
+    64.6,
+    1341.2,
+    84.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The man who was here yesterday.",
+   "size": 28,
+   "bbox": [
+    91.3,
+    175.7,
+    628.7,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "narrowing it by when",
+   "size": 28,
+   "bbox": [
+    936.8,
+    175.7,
+    1273.2,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You know the one.",
+   "size": 28,
+   "bbox": [
+    214.5,
+    290.7,
+    505.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking them to remember",
+   "size": 28,
+   "bbox": [
+    900.0,
+    273.7,
+    1310.0,
+    298.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "instead of listening",
+   "size": 28,
+   "bbox": [
+    951.9,
+    307.7,
+    1258.1,
+    332.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Not that one \u2014 the other one.",
+   "size": 28,
+   "bbox": [
+    123.6,
+    405.7,
+    596.4,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "correcting a wrong guess",
+   "size": 28,
+   "bbox": [
+    904.3,
+    388.7,
+    1305.7,
+    413.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "without explaining",
+   "size": 28,
+   "bbox": [
+    957.1,
+    422.7,
+    1252.9,
+    447.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say when they point somebody out, each with an arrow to what it does: narrowing it by what you can see now, narrowing it by when, asking them to remember instead of listening, and correcting a wrong guess without explaining it.",
+ "placed_in": [
+  6.260416666666667,
+  2.15625
+ ],
+ "sha256": "dde3c2ac36d6cc5cd4260f032efe6e75f611c6f9fdc2a2984371152d2c887342"
+}

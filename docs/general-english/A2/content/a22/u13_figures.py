@@ -13,7 +13,7 @@ FIGURES = {
             'must, have to and mustn’t, and three things the learner will be able to '
             'do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('the landing', 'home', 'no bin bag, ever'),
          ('the front door', 'notice', 'you must pull it shut'),
          ('the shop', 'shop', 'nobody parks before nine'),
@@ -27,14 +27,14 @@ FIGURES = {
             'knock on Tomas’s door before two, and nobody uses the side door after '
             'nine.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('A library', 'book'), ('A pool', 'cup'), ('A gallery', 'notice'),
          ('A night bus', 'bus'), ('A club', 'home'), ('A shop', 'shop')],
         height=600,
         alt='Six places, each on its own card: a library, a pool, a gallery, a night '
             'bus, a club and a shop.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('mustn’t', 0.24, 0.12), ('must', 0.34, 0.33),
          ('don’t have to', 0.46, 0.54), ('member', 0.58, 0.74), ('fee', 0.72, 0.90)],
         height=620, draw=F.rule_wall,
@@ -43,7 +43,7 @@ FIGURES = {
             'line and nothing else. Five numbered lines run to the right for the '
             'learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('mustn’t', 'forbidden',
          'You mustn’t touch the paintings.', [0.10]),
         ('don’t have to', 'not necessary',
@@ -54,7 +54,7 @@ FIGURES = {
             'the right don’t have to, which frees, with its mark at the open end. '
             'The two sound alike and mean opposite things.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('the door', 'you must show your card'), ('the desk', 'you have to be a member'),
          ('the locker', 'bags go in, and it is free'), ('the room', 'you mustn’t touch'),
          ('the garden', 'you don’t have to be quiet')],
@@ -64,7 +64,7 @@ FIGURES = {
             'free locker, you mustn’t touch anything in the room, and in the garden '
             'you do not have to be quiet.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 13.2', 'Yuki and a guard', 'guard', 'the guard and the bag'),
          ('Track 13.3', 'Dani and Amina', 'shop', 'the rules of the shop'),
          ('Track 13.4', 'Amina', 'person', 'six people, six rules')],
@@ -74,7 +74,7 @@ FIGURES = {
             'shop to Dani, and Amina describes the one rule each of the six will not '
             'break.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — asking', ['ask one thing at a time', 'ask about the fee',
                              'check what is forbidden', 'thank them'], 'person'),
         ('Card B — telling', ['say what is necessary', 'say plainly what is free',
@@ -85,7 +85,7 @@ FIGURES = {
             'telling: say what is necessary, say plainly what is free, name the one '
             'thing people forget, do not explain the rule.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('a reason you can see', 'notice'), ('fairness', 'person'),
          ('somebody will mention it', 'guard'), ('the rule is kept', 'home'),
          ('take one away', 'moon')],
@@ -95,7 +95,7 @@ FIGURES = {
             'rule is kept. Take any one of the three away and the notice stays on '
             'the wall and means nothing.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('a pool', 'cup', 'the lane: fast one side, slow the other'),
          ('a cinema', 'notice', 'the aisle seat, and whose knees move'),
          ('a night train', 'bus', 'the quiet carriage, nobody wrote it down')],
@@ -105,7 +105,7 @@ FIGURES = {
             'knees move; and on a night train the quiet carriage at the end, which '
             'nobody ever wrote down.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('One thing you must do', 'You must wash anything you use.'),
          ('One thing you mustn’t', 'You mustn’t leave food with no name on it.'),
          ('The reason', 'Somebody always throws it out and feels bad.'),
@@ -115,7 +115,7 @@ FIGURES = {
             'one thing you must do, one thing you mustn’t, the reason behind it, and '
             'one thing you do not have to do.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('Members only beyond this point.', 'you mustn’t go in unless you belong'),
          ('Please respect our neighbours.', 'be quiet when you leave'),
          ('No charge for the first hour.', 'you don’t have to pay yet'),
@@ -125,7 +125,7 @@ FIGURES = {
             'you mustn’t go in unless you belong, be quiet when you leave, you do '
             'not have to pay yet, and a guard will stop you and it is not personal.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('The room before', ['smoke indoors', 'thirty years of custom',
                              '“it will never hold”'], 'cup'),
         ('The room after', ['the rule came in on a Monday', 'kept by the end of that week',
@@ -136,7 +136,7 @@ FIGURES = {
             'rule came in on a Monday, almost everybody was keeping it by the end of '
             'that week, with no guards and almost no fines.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can say what is necessary, forbidden and not necessary', False),
          ('I can use must, have to, mustn’t and don’t have to correctly', False),
          ('I can ask what the rules of a place are', False),

@@ -1,115 +1,180 @@
 {
  "canvas": [
   1440,
-  531
+  612
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  30.0,
+  1366.0,
+  582.1
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    204.9,
+    340.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "the woman who runs the shop",
+   "size": 24,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    97.8,
+    248.0,
+    462.2,
+    269.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    204.9,
+    780.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "the one who works nights",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    539.8,
+    245.6,
+    900.2,
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1109.6,
+    204.9,
+    1210.4,
+    235.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the one who carries books",
+   "size": 28,
+   "bbox": [
+    975.5,
+    245.6,
+    1344.5,
+    270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    484.9,
+    323.5,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the boy who cooks badly",
+   "size": 28,
+   "bbox": [
+    105.8,
+    525.6,
+    454.2,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    484.9,
+    839.0,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the man who watches",
+   "size": 28,
+   "bbox": [
+    565.7,
+    525.6,
+    874.3,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "from the fourth floor",
+   "size": 28,
+   "bbox": [
+    576.9,
+    557.6,
+    863.1,
+    582.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    484.9,
+    1200.3,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the one who knows everybody",
+   "size": 24,
+   "bbox": [
+    976.4,
+    528.0,
+    1343.6,
+    549.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   203.2,
-   167.0,
-   846,
-   45.3
-  ],
-  [
-   312.0,
-   211.7,
-   846,
-   155.3
-  ],
-  [
-   420.8,
-   256.3,
-   846,
-   265.3
-  ],
-  [
-   529.6,
-   301.0,
-   846,
-   375.3
-  ],
-  [
-   632.0,
-   343.3,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Five pairs of boxes stepping down to the right, each pair joined by one link. The link shows what kind of thing the joining word takes: a filled circle for a person, a square for a thing, a circle and a square together for the word that takes either, a flat bar for a place, and a circle with a hook for the one that marks belonging. Five numbered lines run to the right for the learner to write each joining word.",
+ "alt": "How the street describes each of the six people at number 14 without using a name: the woman who runs the shop, the one who works nights, the one who carries books, the boy who cooks badly and loudly, the man who watches from the fourth floor, and the one who knows everybody.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.65625
  ],
- "sha256": "cdced5f3c6b5719be6cb134a5e57c9b543c67d3d983a1bfcd98ea54bbf927855"
+ "sha256": "8660ed0dc68d28f4b39c99f6c4484d66e3a14b71d4a3d29be93f6f9355296590"
 }

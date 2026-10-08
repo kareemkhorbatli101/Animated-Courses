@@ -1,132 +1,72 @@
 {
  "canvas": [
   1440,
-  473
+  415
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  20.6,
+  1373.0,
+  394.6
  ],
  "texts": [
   {
-   "text": "Track 17.2",
-   "size": 28,
+   "text": "A bottle",
+   "size": 34,
    "bbox": [
-    185.3,
-    50.1,
-    348.1,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Maya and Yuki",
-   "size": 32,
-   "bbox": [
-    136.5,
-    287.0,
-    396.8,
-    315.2
+    143.2,
+    340.6,
+    296.3,
+    371.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the four bowls thrown away",
-   "size": 24,
+   "text": "A coat",
+   "size": 34,
    "bbox": [
-    99.9,
-    358.5,
-    433.5,
-    380.0
+    492.8,
+    340.6,
+    613.7,
+    371.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 17.3",
-   "size": 28,
+   "text": "A bowl",
+   "size": 34,
    "bbox": [
-    638.6,
-    50.1,
-    801.4,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and Mr Okonkwo",
-   "size": 30,
-   "bbox": [
-    534.6,
-    288.6,
-    905.4,
-    315.2
+    822.3,
+    340.6,
+    951.2,
+    371.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the coat relined twice",
-   "size": 26,
+   "text": "A book",
+   "size": 34,
    "bbox": [
-    578.9,
-    356.9,
-    861.1,
-    380.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Track 17.4",
-   "size": 28,
-   "bbox": [
-    1091.9,
-    50.1,
-    1254.7,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "six people, six things",
-   "size": 26,
-   "bbox": [
-    1036.4,
-    356.9,
-    1310.3,
-    380.6
+    1154.3,
+    340.6,
+    1286.2,
+    371.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Maya asks Yuki why four bowls were thrown away, Dani asks Mr Okonkwo how old his coat is and learns it has been relined twice, and Amina describes what each of the six makes or mends.",
+ "alt": "The four things the table asks about, each on its own card: a bottle, a coat, a bowl and a book.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  1.8020833333333333
  ],
- "sha256": "427b4032c102c6de9b654b5b48e4a79f51dad221a2f8973c4dcf9d4496f32dce"
+ "sha256": "b342e4f0eac52a6fe1ce0925f8452543b28d97eef17102e3d1fc8ba5cced3f5d"
 }

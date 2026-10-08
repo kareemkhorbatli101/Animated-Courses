@@ -1,107 +1,167 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "At six in the morning",
+   "text": "on Tuesday",
    "size": 34,
    "bbox": [
-    163.5,
-    67.8,
-    566.5,
-    98.2
+    82.6,
+    131.2,
+    297.4,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "the voice reads the local news",
-   "size": 27,
+   "text": "the van is outside",
+   "size": 24,
    "bbox": [
-    159.7,
-    282.5,
-    570.3,
-    307.0
+    68.8,
+    270.3,
+    311.2,
+    291.8
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "most wards",
-   "size": 27,
-   "bbox": [
-    286.8,
-    328.5,
-    443.2,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "it has never been turned off",
-   "size": 27,
-   "bbox": [
-    176.1,
-    374.5,
-    553.9,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "In the street",
+   "text": "at four",
    "size": 34,
    "bbox": [
-    985.2,
-    67.8,
-    1224.8,
-    98.2
+    389.9,
+    131.2,
+    520.1,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "younger people do not hear it",
-   "size": 27,
+   "text": "Amina counts",
+   "size": 28,
    "bbox": [
-    903.4,
-    282.5,
-    1306.6,
-    307.0
+    347.6,
+    267.9,
+    562.4,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a third could say",
-   "size": 27,
+   "text": "twenty minutes",
+   "size": 28,
    "bbox": [
-    992.5,
-    328.5,
-    1217.5,
-    353.0
+    331.4,
+    303.9,
+    578.6,
+    328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "in a flood nobody checks a telephone",
-   "size": 25,
+   "text": "at five",
+   "size": 34,
    "bbox": [
-    870.8,
-    376.1,
-    1339.2,
-    398.4
+    659.3,
+    131.2,
+    780.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tomas comes in",
+   "size": 28,
+   "bbox": [
+    595.5,
+    267.9,
+    844.5,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at the end",
+   "size": 28,
+   "bbox": [
+    638.5,
+    303.9,
+    801.5,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "that day",
+   "size": 34,
+   "bbox": [
+    905.1,
+    131.2,
+    1064.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Yuki writes it down",
+   "size": 22,
+   "bbox": [
+    866.4,
+    271.8,
+    1103.6,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a week later",
+   "size": 34,
+   "bbox": [
+    1131.3,
+    131.2,
+    1368.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Mr Okonkwo says",
+   "size": 24,
+   "bbox": [
+    1132.0,
+    270.3,
+    1368.0,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one sentence",
+   "size": 24,
+   "bbox": [
+    1159.4,
+    302.3,
+    1340.6,
+    323.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +170,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "A loudspeaker on a pole beside the street under it. At six in the morning: a voice reads the local news in most wards, on a system that has never been turned off. In the street under it: younger people say they do not hear it any more, a third of those asked could still say what had been announced, and the city has twice decided to keep the speakers because in a flood nobody checks a telephone.",
+ "arrows": 0,
+ "alt": "One April afternoon on a line, and how the story moved along the street: the van is outside on Tuesday, Amina counts twenty minutes at four, Tomas comes in at the end at five, Yuki writes it down that evening, and a week later Mr Okonkwo says one sentence.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "532a4565410c4dc8258a410bc77a057d07acc3484f0f34e5e87a4fb7967259bb"
+ "sha256": "637b29e5e5936a07e38bdff881035b6a0ad872288c65cd9a797f1b9a9c95bdf5"
 }

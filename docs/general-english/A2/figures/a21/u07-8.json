@@ -1,132 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 choosing",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    191.8,
-    58.2,
-    548.2,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say the two things",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    430.6,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say what is better about each",
-   "size": 22,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    208.8,
-    507.7,
-    228.8
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say why you cannot decide",
-   "size": 24,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    263.3,
-    502.9,
-    284.8
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 the friend",
-   "size": 34,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    882.7,
-    58.2,
-    1257.3,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "ask how much",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1062.4,
-    173.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "compare the two out loud",
-   "size": 26,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    838.0,
-    205.7,
-    1216.7,
-    229.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say which you would take",
-   "size": 26,
-   "bbox": [
-    838.0,
-    261.7,
-    1214.2,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "give one reason",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1090.1,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   427.2,
+   76.3,
+   846,
+   45.3
+  ],
+  [
+   401.6,
+   179.7,
+   846,
+   155.3
+  ],
+  [
+   452.8,
+   283.1,
+   846,
+   265.3
+  ],
+  [
+   414.4,
+   377.1,
+   846,
+   375.3
+  ],
+  [
+   440.0,
+   461.7,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, the person choosing: say the two things, say what is better about each, say why you cannot decide. Card B, the friend: ask how much, compare the two out loud, say which you would take, give one reason.",
+ "alt": "Two objects drawn side by side so the learner can see which is wider, which is deeper, which is thicker, which is lighter and which is stronger. Five numbered lines run to the right for each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "73b2e20a2abd7423e676f462e7a8cd7645cdc2758bee50f94bf05edf6820e8ed"
+ "sha256": "fc7dc14c1ddcd08df0ac2776760527cf6be0832339e09d8fec4705f569b539d6"
 }

@@ -13,7 +13,7 @@ FIGURES = {
             'the present simple and the present continuous, and three things the '
             'learner will be able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Maya', 'person', 'bookshop'), ('Tomas', 'nurse', 'hospital'),
          ('Amina', 'shop', 'corner shop'), ('Dani', 'book', 'student'),
          ('Mr Okonkwo', 'home', 'teacher'), ('Yuki', 'cup', 'works at home')],
@@ -23,7 +23,7 @@ FIGURES = {
             'hospital, Amina and the corner shop, Dani the student, Mr Okonkwo the '
             'teacher, and Yuki who works at home.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('Nurse', 'nurse'), ('Shop assistant', 'shop'), ('Teacher', 'school'),
          ('Bus driver', 'bus'), ('Cook', 'kitchen'), ('Student', 'book')],
         height=600,
@@ -31,7 +31,7 @@ FIGURES = {
             'at a hospital, a shop assistant at a shop, a teacher at a school, a bus '
             'driver on a bus, a cook in a kitchen and a student with books.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('dawn', 0.10, 0.46), ('midday', 0.30, 0.56), ('afternoon', 0.50, 0.46),
          ('evening', 0.70, 0.56), ('midnight', 0.90, 0.46)],
         height=620, draw=F.day_column,
@@ -40,7 +40,7 @@ FIGURES = {
             'lines run to the right for the learner to write dawn, midday, '
             'afternoon, evening and midnight.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('Present simple', 'he works · she opens',
          'Maya works in a bookshop.', [0.12, 0.34, 0.56, 0.78]),
         ('Present continuous', 'am / is / are + -ing',
@@ -50,7 +50,7 @@ FIGURES = {
             'four marks spread across a timeline for something that happens again and '
             'again. On the right the present continuous, with one mark at now.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('6.30', 'Maya gets up'), ('8.10', 'she catches the bus'),
          ('9.00', 'she starts work'), ('11.00', 'a short break'),
          ('18.00', 'the shop closes')],
@@ -59,7 +59,7 @@ FIGURES = {
             'six, catches the bus at ten past eight, starts work at nine, has a short '
             'break at eleven, and the shop closes at six.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 1.2', 'Tomas', 'nurse', 'his week at the hospital'),
          ('Track 1.3', 'Amina and Yuki', 'shop', 'in the corner shop'),
          ('Track 1.4', 'Mr Okonkwo', 'home', 'a morning on Alder Street')],
@@ -68,7 +68,7 @@ FIGURES = {
             'hospital, Amina and Yuki talk in the corner shop, and Mr Okonkwo '
             'describes a morning on Alder Street.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — Maya', ['greet', 'say your name and your floor',
                            'say where you work', 'ask two questions'], 'person'),
         ('Card B — Yuki', ['greet', 'say that you are new here',
@@ -79,7 +79,7 @@ FIGURES = {
             'greet, say that you are new here, say what you do, ask about the shop '
             'and the bus.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('Tomas finishes', 'nurse'), ('Amina opens', 'shop'),
          ('Maya catches the bus', 'bus'), ('Dani starts', 'school'),
          ('Mr Okonkwo watches', 'home')],
@@ -89,7 +89,7 @@ FIGURES = {
             'catches the bus, Dani starts his class, Mr Okonkwo watches from his '
             'window.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('Spain', 'sun', 'some shops close in the early afternoon'),
          ('Japan', 'bus', 'station staff help people onto the trains'),
          ('the north of Europe', 'moon', 'the working day finishes at four or five')],
@@ -99,7 +99,7 @@ FIGURES = {
             'morning, and in the north of Europe the working day finishes at four or '
             'five.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('Who and when', 'Amina opens her shop at seven.'),
          ('First, then', 'First she puts the bread on the shelf, then she makes tea.'),
          ('Usually', 'She usually closes at six.'),
@@ -109,7 +109,7 @@ FIGURES = {
             'who and when, then first and then, then a usually sentence, and last one '
             'sentence about what is happening at the moment.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('You must be the new neighbour.', 'opening a conversation'),
          ('Let me show you where the post boxes are.', 'showing somebody around'),
          ('The shop closes early on Saturday.', 'giving useful local information'),
@@ -119,7 +119,7 @@ FIGURES = {
             'opening a conversation, showing somebody around, giving useful local '
             'information, and offering help.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('Before', ['the alarm four times', 'ran for the train',
                     'arrived angry'], 'moon'),
         ('After', ['the phone in the kitchen', 'time for tea',
@@ -129,7 +129,7 @@ FIGURES = {
             'alarm four times, ran for the train and arrived angry. After: the phone '
             'in the kitchen, time for tea, and ten pages on the train.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can name the people around me', False),
          ('I can use the present simple and the present continuous', False),
          ('I can understand a short conversation between neighbours', False),

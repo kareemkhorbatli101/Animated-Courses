@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "Two thousand years ago",
+   "text": "long ago",
    "size": 34,
    "bbox": [
-    132.4,
-    67.8,
-    597.6,
-    98.2
+    107.0,
+    131.2,
+    273.0,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "a boat up the river",
-   "size": 27,
+   "text": "slept outside once",
+   "size": 24,
    "bbox": [
-    238.8,
-    282.5,
-    491.2,
-    307.0
+    65.4,
+    270.3,
+    314.6,
+    291.8
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "a guide and a long walk",
-   "size": 27,
-   "bbox": [
-    203.8,
-    328.5,
-    526.2,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "a name cut in the stone",
-   "size": 27,
-   "bbox": [
-    203.8,
-    374.5,
-    526.2,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Now",
+   "text": "after that",
    "size": 34,
    "bbox": [
-    1063.4,
-    67.8,
-    1146.6,
-    98.2
+    362.4,
+    131.2,
+    547.6,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a plane",
-   "size": 27,
+   "text": "went abroad",
+   "size": 28,
    "bbox": [
-    1055.0,
-    282.5,
-    1155.0,
-    307.0
+    355.6,
+    267.9,
+    554.4,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a guide and a long walk",
-   "size": 27,
+   "text": "then",
+   "size": 34,
    "bbox": [
-    943.8,
-    328.5,
-    1266.2,
-    353.0
+    676.1,
+    131.2,
+    763.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a photograph",
-   "size": 27,
+   "text": "four countries",
+   "size": 28,
    "bbox": [
-    1014.0,
-    374.5,
-    1196.0,
-    399.0
+    608.5,
+    267.9,
+    831.5,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "this year",
+   "size": 34,
+   "bbox": [
+    900.4,
+    131.2,
+    1069.6,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "already twice",
+   "size": 28,
+   "bbox": [
+    878.7,
+    267.9,
+    1091.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "still",
+   "size": 34,
+   "bbox": [
+    1214.3,
+    131.2,
+    1285.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "never flown",
+   "size": 28,
+   "bbox": [
+    1157.2,
+    267.9,
+    1342.8,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "The same visit, two thousand years apart. Then: a boat up the river, a guide and a long walk in the heat, and a name cut into the stone. Now: a plane, a guide and the same long walk, and a photograph.",
+ "arrows": 0,
+ "alt": "One life on a line: slept outside once long ago, then went abroad, then four countries, abroad already twice this year, and still never flown.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "91ee06dd9593ea7d2d76aeca5a32b38c83793540e68079b55d72c7c9b6995f08"
+ "sha256": "cc0371279693e447283a0abc238bab64c5e1941fb87168dc9adad6e84a64cb61"
 }

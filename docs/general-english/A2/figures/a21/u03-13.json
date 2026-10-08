@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "The real city",
+   "text": "6.00",
    "size": 34,
    "bbox": [
-    245.6,
-    67.8,
-    484.4,
-    98.2
+    148.1,
+    131.2,
+    231.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "lines are not straight",
-   "size": 27,
+   "text": "the market opens",
+   "size": 24,
    "bbox": [
-    224.5,
-    282.5,
-    505.5,
-    307.0
+    70.5,
+    270.3,
+    309.5,
+    291.8
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "the real distance",
-   "size": 27,
-   "bbox": [
-    251.5,
-    328.5,
-    478.5,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "you cannot read it",
-   "size": 27,
-   "bbox": [
-    241.5,
-    374.5,
-    488.5,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "The diagram",
+   "text": "9.00",
    "size": 34,
    "bbox": [
-    984.6,
-    67.8,
-    1225.4,
-    98.2
+    413.1,
+    131.2,
+    496.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "straight lines",
-   "size": 27,
+   "text": "the library opens",
+   "size": 24,
    "bbox": [
-    1017.0,
-    282.5,
-    1193.0,
-    307.0
+    339.0,
+    270.3,
+    571.0,
+    291.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the same corners",
-   "size": 27,
+   "text": "17.30",
+   "size": 34,
    "bbox": [
-    987.1,
-    328.5,
-    1222.9,
-    353.0
+    666.2,
+    131.2,
+    773.8,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "which line, how many stops",
-   "size": 27,
+   "text": "the traffic stops",
+   "size": 26,
    "bbox": [
-    917.9,
-    374.5,
-    1292.1,
-    399.0
+    603.1,
+    268.7,
+    836.9,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "18.00",
+   "size": 34,
+   "bbox": [
+    931.2,
+    131.2,
+    1038.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the city goes home",
+   "size": 22,
+   "bbox": [
+    866.5,
+    271.8,
+    1103.5,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "23.30",
+   "size": 34,
+   "bbox": [
+    1196.2,
+    131.2,
+    1303.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the last train",
+   "size": 28,
+   "bbox": [
+    1147.0,
+    267.9,
+    1353.0,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "The underground map before and after. In the real city the lines are not straight and you cannot read it. The diagram has straight lines, the same corners, and tells you which line and how many stops.",
+ "arrows": 0,
+ "alt": "One day in the city as a line: the market opens at six, the library at nine, the traffic stops at half past five, the city goes home at six, and the last train leaves at half past eleven.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "361a832c03d15d7fbbf540c6dc6d151b2a01b80e681c7077c65471b01657fc9b"
+ "sha256": "d20c114461f25d823f6b423bf96a80c1066c94904c62f4750576c2d16b39846c"
 }

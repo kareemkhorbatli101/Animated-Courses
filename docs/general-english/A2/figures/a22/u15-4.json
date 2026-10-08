@@ -1,115 +1,192 @@
 {
  "canvas": [
   1440,
-  531
+  612
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  30.0,
+  1366.0,
+  582.1
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    204.9,
+    340.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "has never been on a plane",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    93.0,
+    245.6,
+    467.0,
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    204.9,
+    780.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "has slept in an airport",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    566.1,
+    245.6,
+    873.9,
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "three times",
+   "size": 28,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    639.6,
+    277.6,
+    800.4,
+    302.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    1109.6,
+    204.9,
+    1210.4,
+    235.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has read a book in one day, twice",
+   "size": 22,
+   "bbox": [
+    974.3,
+    249.5,
+    1345.7,
+    269.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    484.9,
+    323.5,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has lost his papers in two",
+   "size": 28,
+   "bbox": [
+    101.4,
+    525.6,
+    458.6,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "countries",
+   "size": 28,
+   "bbox": [
+    214.9,
+    557.6,
+    345.1,
+    582.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    484.9,
+    839.0,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has lived in four cities",
+   "size": 28,
+   "bbox": [
+    566.1,
+    525.6,
+    873.9,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    484.9,
+    1200.3,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has never found out what she ate",
+   "size": 22,
+   "bbox": [
+    974.2,
+    529.5,
+    1345.8,
+    549.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   209.6,
-   176.4,
-   846,
-   45.3
-  ],
-  [
-   331.2,
-   222.9,
-   846,
-   155.3
-  ],
-  [
-   452.8,
-   269.0,
-   846,
-   265.3
-  ],
-  [
-   574.4,
-   315.5,
-   846,
-   375.3
-  ],
-  [
-   680.0,
-   355.9,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "One life drawn as a line running left to right, with four marks on it and an open bracket at the end: a single filled circle, two filled circles together, an empty circle with a line through it, a filled circle well before the end, and then the bracket where the line stops. Five numbered lines run to the right for the learner to write each word.",
+ "alt": "What each of the six people at number 14 has done: Amina has never been on a plane, Tomas has slept in an airport three times, Maya has read a book in one day twice, Dani has lost his papers in two countries, Mr Okonkwo has lived in four cities, and Yuki has never found out what she ate in a market.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.65625
  ],
- "sha256": "05f1013d3d3c74960c7bc492ad5162fd7016fa043311059a5157a427b478734e"
+ "sha256": "0d7ba7cd4d6dbf7f88213778250c6d6b921d42da515b853a87050aa754ea4411"
 }

@@ -1,144 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 asking",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    214.6,
-    58.2,
-    525.4,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "start with ever",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    372.5,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask again after a short answer",
-   "size": 22,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    208.8,
-    517.9,
-    228.8
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask whether they wanted to",
-   "size": 24,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    263.3,
-    519.0,
-    284.8
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "find something of your own",
-   "size": 24,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    319.3,
-    510.4,
-    340.8
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 answering",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    878.4,
-    58.2,
-    1261.6,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "answer in two words",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1165.1,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "let them ask again",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1132.2,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say the surprising part",
-   "size": 28,
-   "bbox": [
-    838.0,
-    260.9,
-    1198.8,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "do not explain yourself",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1202.9,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   209.6,
+   176.4,
+   846,
+   45.3
+  ],
+  [
+   331.2,
+   222.9,
+   846,
+   155.3
+  ],
+  [
+   452.8,
+   269.0,
+   846,
+   265.3
+  ],
+  [
+   574.4,
+   315.5,
+   846,
+   375.3
+  ],
+  [
+   680.0,
+   355.9,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, asking: start with ever, ask again when the answer is short, ask whether they wanted to, find something of your own. Card B, answering: answer in two words, let them ask again, say the surprising part, do not explain yourself.",
+ "alt": "One life drawn as a line running left to right, with four marks on it and an open bracket at the end: a single filled circle, two filled circles together, an empty circle with a line through it, a filled circle well before the end, and then the bracket where the line stops. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "fd9b72e37eed6ee7a27d5e464431314189ed0dd1bee612d2bc1adf72f00443c2"
+ "sha256": "05f1013d3d3c74960c7bc492ad5162fd7016fa043311059a5157a427b478734e"
 }

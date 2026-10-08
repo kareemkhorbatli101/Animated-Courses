@@ -1,115 +1,180 @@
 {
  "canvas": [
   1440,
-  531
+  612
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  30.0,
+  1366.0,
+  582.1
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    204.9,
+    340.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "said twenty minutes",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    137.5,
+    245.6,
+    422.5,
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    204.9,
+    780.3,
+    235.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "said an hour",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    632.9,
+    245.6,
+    807.1,
+    270.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1109.6,
+    204.9,
+    1210.4,
+    235.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "said she had not seen a van",
+   "size": 26,
+   "bbox": [
+    976.9,
+    246.4,
+    1343.1,
+    270.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    484.9,
+    323.5,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "said somebody had told him",
+   "size": 26,
+   "bbox": [
+    95.4,
+    526.4,
+    464.6,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    484.9,
+    839.0,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "said one sentence, a week later",
+   "size": 22,
+   "bbox": [
+    544.7,
+    529.5,
+    895.3,
+    549.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    484.9,
+    1200.3,
+    515.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "wrote down what each of",
+   "size": 28,
+   "bbox": [
+    983.2,
+    525.6,
+    1336.8,
+    550.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "them said",
+   "size": 28,
+   "bbox": [
+    1090.3,
+    557.6,
+    1229.7,
+    582.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   203.2,
-   167.0,
-   846,
-   45.3
-  ],
-  [
-   312.0,
-   211.7,
-   846,
-   155.3
-  ],
-  [
-   420.8,
-   256.3,
-   846,
-   265.3
-  ],
-  [
-   529.6,
-   301.0,
-   846,
-   375.3
-  ],
-  [
-   632.0,
-   343.3,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Five pairs of boxes stepping down to the right. The left box of each pair carries a pair of quotation marks, for the words as they were said; the right box is plain, for the same thing reported. A bar between them carries one tick for each step the tense moves back, and one pair has a struck-out question mark above it, because a reported question loses its mark as well as its word order. Five numbered lines run to the right for the learner to write each word.",
+ "alt": "What each of the six people at number 14 said about the van on Alder Street: Amina said twenty minutes, Tomas said an hour, Maya said she had not seen a van at all, Dani said somebody had told him it was a lorry, Mr Okonkwo said one sentence a week later, and Yuki wrote down what each of them said on the day.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.65625
  ],
- "sha256": "095adb70ebaa2dc0c4787d1b442f5706a4a96efe34a50ff9d862dc95c825268b"
+ "sha256": "5e8203064413b45536360966f605df57e1df4b40cb2f227f47c4483487609fab"
 }

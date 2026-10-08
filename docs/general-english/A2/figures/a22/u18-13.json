@@ -1,107 +1,167 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "Under the ground",
+   "text": "at six",
    "size": 34,
    "bbox": [
-    194.8,
-    67.8,
-    535.2,
-    98.2
+    137.6,
+    131.2,
+    242.4,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "the first small shake",
-   "size": 27,
+   "text": "the rain comes",
+   "size": 28,
    "bbox": [
-    228.1,
-    282.5,
-    501.9,
-    307.0
+    72.6,
+    267.9,
+    307.4,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "three kilometres a second",
-   "size": 27,
-   "bbox": [
-    189.1,
-    328.5,
-    540.9,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "through rock",
-   "size": 27,
-   "bbox": [
-    278.9,
-    374.5,
-    451.1,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Above the ground",
+   "text": "at seven",
    "size": 34,
    "bbox": [
-    933.2,
-    67.8,
-    1276.8,
-    98.2
+    373.1,
+    131.2,
+    536.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a message down the line",
-   "size": 27,
+   "text": "the road floods",
+   "size": 28,
    "bbox": [
-    936.0,
-    282.5,
-    1274.0,
-    307.0
+    335.1,
+    267.9,
+    574.9,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the loudspeakers sound",
-   "size": 27,
+   "text": "at eight",
+   "size": 34,
    "bbox": [
-    943.8,
-    328.5,
-    1266.2,
-    353.0
+    644.7,
+    131.2,
+    795.3,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "about sixty seconds",
-   "size": 27,
+   "text": "Amina moves",
+   "size": 28,
    "bbox": [
-    970.2,
-    374.5,
-    1239.8,
-    399.0
+    614.3,
+    267.9,
+    825.7,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the freezer",
+   "size": 28,
+   "bbox": [
+    632.4,
+    303.9,
+    807.6,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "later",
+   "size": 34,
+   "bbox": [
+    939.7,
+    131.2,
+    1030.3,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the hospital",
+   "size": 28,
+   "bbox": [
+    890.3,
+    267.9,
+    1079.7,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "rings Tomas",
+   "size": 28,
+   "bbox": [
+    890.4,
+    303.9,
+    1079.6,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "by ten",
+   "size": 34,
+   "bbox": [
+    1189.1,
+    131.2,
+    1310.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani will sleep",
+   "size": 28,
+   "bbox": [
+    1134.9,
+    267.9,
+    1365.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "through it",
+   "size": 28,
+   "bbox": [
+    1170.5,
+    303.9,
+    1329.5,
+    328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +170,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "A shake under the ground beside a sound above it. Under the ground: the first small shake, travelling through rock at about three kilometres a second, travelling through rock. Above the ground: a message down a telephone line, far faster, the loudspeakers sounding, and about sixty seconds before the ground moves.",
+ "arrows": 0,
+ "alt": "One evening on a line, hour by hour: the rain comes at six, the road floods at seven, Amina moves the freezer at eight, the hospital rings Tomas at nine, and by ten Dani will sleep through it.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "d965297e1a682834d55d1b078e077458bee3b2cc74387e98e889e626fdcb61b2"
+ "sha256": "ba7a88b6b2c348d455cffcc71303dc073e96de8c946bae0d0c4e56eb6d99ba82"
 }

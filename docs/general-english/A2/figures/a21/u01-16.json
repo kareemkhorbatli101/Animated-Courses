@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 1.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 32,
+   "bbox": [
+    209.9,
+    287.0,
+    323.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "his week at the hospital",
+   "size": 26,
+   "bbox": [
+    111.4,
+    356.9,
+    421.9,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 1.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina and Yuki",
+   "size": 32,
+   "bbox": [
+    580.6,
+    287.0,
+    859.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "in the corner shop",
+   "size": 26,
+   "bbox": [
+    601.4,
+    356.9,
+    838.6,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 1.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 32,
+   "bbox": [
+    1061.3,
+    287.0,
+    1285.3,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a morning on Alder Street",
+   "size": 26,
+   "bbox": [
+    1005.0,
+    356.9,
+    1341.7,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Tomas talks about his week at the hospital, Amina and Yuki talk in the corner shop, and Mr Okonkwo describes a morning on Alder Street.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "7b6ded93cfb5992e036c6017fe69fc37d3ec81676befcb5359c98fc15c0a1850"
+}

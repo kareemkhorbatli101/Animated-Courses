@@ -1,156 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 the customer",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    150.2,
-    58.2,
-    589.8,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "ask the price",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    343.0,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask for an amount",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    204.9,
-    426.1,
-    229.4
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask for one more thing",
-   "size": 28,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    260.9,
-    498.7,
-    285.4
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "pay and take the change",
-   "size": 26,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    317.7,
-    500.2,
-    341.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 the stallholder",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    837.0,
-    58.2,
-    1303.0,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "give a price",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1022.3,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "ask how much or how many",
-   "size": 24,
-   "bbox": [
-    838.0,
-    207.3,
-    1213.5,
-    228.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "add up",
-   "size": 28,
-   "bbox": [
-    838.0,
-    260.9,
-    946.7,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "give the change and the",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1221.8,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "receipt",
-   "size": 28,
-   "bbox": [
-    838.0,
-    350.9,
-    949.4,
-    375.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   414.4,
+   85.7,
+   846,
+   45.3
+  ],
+  [
+   465.6,
+   179.7,
+   846,
+   155.3
+  ],
+  [
+   401.6,
+   273.7,
+   846,
+   265.3
+  ],
+  [
+   452.8,
+   367.7,
+   846,
+   375.3
+  ],
+  [
+   414.4,
+   452.3,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, the customer: ask the price, ask for an amount, ask for one more thing, pay and take the change. Card B, the stallholder: give a price, ask how much or how many, add up, give the change and the receipt.",
+ "alt": "A shop counter drawn from the front, with a basket, a till, a receipt, change and a bag. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "6f4e8ee4f3b82813711dd6fd5ce198e8ebe3384eadba969b3ffc561b204120eb"
+ "sha256": "fe3df27f4e285b968f6c5e32bc7b9199223a635340424c156d7c069fe0434bde"
 }

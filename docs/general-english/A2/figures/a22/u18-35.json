@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Under the ground",
+   "size": 34,
+   "bbox": [
+    194.8,
+    67.8,
+    535.2,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the first small shake",
+   "size": 27,
+   "bbox": [
+    228.1,
+    282.5,
+    501.9,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three kilometres a second",
+   "size": 27,
+   "bbox": [
+    189.1,
+    328.5,
+    540.9,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "through rock",
+   "size": 27,
+   "bbox": [
+    278.9,
+    374.5,
+    451.1,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Above the ground",
+   "size": 34,
+   "bbox": [
+    933.2,
+    67.8,
+    1276.8,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a message down the line",
+   "size": 27,
+   "bbox": [
+    936.0,
+    282.5,
+    1274.0,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the loudspeakers sound",
+   "size": 27,
+   "bbox": [
+    943.8,
+    328.5,
+    1266.2,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "about sixty seconds",
+   "size": 27,
+   "bbox": [
+    970.2,
+    374.5,
+    1239.8,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "A shake under the ground beside a sound above it. Under the ground: the first small shake, travelling through rock at about three kilometres a second, travelling through rock. Above the ground: a message down a telephone line, far faster, the loudspeakers sounding, and about sixty seconds before the ground moves.",
+ "placed_in": [
+  6.260416666666667,
+  1.9166666666666667
+ ],
+ "sha256": "d965297e1a682834d55d1b078e077458bee3b2cc74387e98e889e626fdcb61b2"
+}

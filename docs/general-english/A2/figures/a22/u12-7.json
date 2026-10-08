@@ -1,144 +1,96 @@
 {
  "canvas": [
   1440,
-  473
+  571
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  28.3,
+  1373.0,
+  542.3
  ],
  "texts": [
   {
-   "text": "Track 12.2",
-   "size": 28,
+   "text": "Heavy rain",
+   "size": 34,
    "bbox": [
-    185.3,
-    50.1,
-    348.1,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and Amina",
-   "size": 32,
-   "bbox": [
-    127.2,
-    287.0,
-    406.1,
-    315.2
+    172.2,
+    217.3,
+    378.4,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the shoulder and the radio",
-   "size": 24,
+   "text": "Ice",
+   "size": 34,
    "bbox": [
-    106.8,
-    358.5,
-    426.6,
-    380.0
+    692.1,
+    217.3,
+    747.9,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 12.3",
-   "size": 28,
+   "text": "Fog",
+   "size": 34,
    "bbox": [
-    638.6,
-    50.1,
-    801.4,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and Maya",
-   "size": 32,
-   "bbox": [
-    586.8,
-    287.0,
-    853.2,
-    315.2
+    1129.9,
+    217.3,
+    1199.4,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a journey that might not",
-   "size": 26,
+   "text": "Thirty degrees",
+   "size": 34,
    "bbox": [
-    561.1,
-    356.9,
-    878.9,
-    380.6
+    134.9,
+    488.3,
+    415.8,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "happen",
-   "size": 26,
+   "text": "A storm",
+   "size": 34,
    "bbox": [
-    671.0,
-    388.9,
-    769.0,
-    412.6
+    644.9,
+    488.3,
+    795.1,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 12.4",
-   "size": 28,
+   "text": "A flood",
+   "size": 34,
    "bbox": [
-    1091.9,
-    50.1,
-    1254.7,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "six people, six forecasts",
-   "size": 26,
-   "bbox": [
-    1017.2,
-    356.9,
-    1329.4,
-    380.6
+    1097.5,
+    488.3,
+    1231.9,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 6,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Amina tells Yuki her shoulder beats the radio, Maya talks Dani out of travelling into ice, and Amina describes all six forecasts she hears before nine.",
+ "alt": "Six kinds of weather, each on its own card: heavy rain, ice, fog, thirty degrees, a storm and a flood.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  2.4791666666666665
  ],
- "sha256": "0911979b7fddf9a65a9b2f6dc37d800fa4b27a123f470fbdb9ec516036febf33"
+ "sha256": "0f4bcc584b57f031a061762f3e0084c03c192748f630d47ecf9356844c0c8050"
 }

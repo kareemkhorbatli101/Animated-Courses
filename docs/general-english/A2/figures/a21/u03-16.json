@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 3.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya and Dani",
+   "size": 32,
+   "bbox": [
+    133.5,
+    287.0,
+    399.9,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "waiting at the bus stop",
+   "size": 26,
+   "bbox": [
+    117.0,
+    356.9,
+    416.3,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 3.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and the clerk",
+   "size": 32,
+   "bbox": [
+    557.5,
+    287.0,
+    882.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "buying a ticket",
+   "size": 26,
+   "bbox": [
+    623.5,
+    356.9,
+    816.5,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 3.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 32,
+   "bbox": [
+    1061.3,
+    287.0,
+    1285.3,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the city at six",
+   "size": 26,
+   "bbox": [
+    1084.9,
+    356.9,
+    1261.8,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Maya and Dani wait at a bus stop, Yuki buys a ticket from a clerk, and Mr Okonkwo describes the city at six in the evening.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "f8f6ef3fa25a3765daaf2ec5e5a3529fd52aca5b96516a86392a2ff1b31eaa7f"
+}

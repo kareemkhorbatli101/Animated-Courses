@@ -266,6 +266,8 @@ Offer help and say when you are usually in — **5**'''),
 # docx mutation cannot reach them; both are driven from ctx instead.
 # G25: tell the check the page is a different size from the one the covers
 #      were actually printed at.
+# renumber the second figure past the last one, so the sequence descends
+'G28': ('unit', lambda t: t.replace('*Figure 1.4 \u00b7', '*Figure 1.41 \u00b7', 1)),
 'G27': ('ctx', lambda c: c.spec['unit'].__setitem__(
             'caption_words', {'target': 1, 'min': 0, 'max': 1})),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
@@ -273,7 +275,7 @@ Offer help and say when you are usually in — **5**'''),
 'G26': DOCX(lambda d: d.replace('<wp:extent cx=', '<wp:extent cx="99999" cy="99999" x=', 1)),
 # H23: claim slot 1 is full-page, so the expected count of zero-margin sections
 #      jumps by one per unit while the document still holds two.
-'H23': ('ctx', lambda c: c.spec['figures'].__setitem__('full_page_slots', [1])),
+'H23': ('ctx', lambda c: c.spec['figures'].__setitem__('full_page_slots', [1, 2])),
 'G24': FIG(lambda m: m.update(alt='x') or m),
 
 # ------------------------------------------------------------ H typography

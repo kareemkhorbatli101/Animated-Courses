@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 asking",
+   "size": 34,
+   "bbox": [
+    214.6,
+    58.2,
+    525.4,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask what was said",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    426.2,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offer a different version",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    514.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask whether it is true",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    477.5,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what to write down",
+   "size": 28,
+   "bbox": [
+    138.0,
+    316.9,
+    508.7,
+    341.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 reporting",
+   "size": 34,
+   "bbox": [
+    887.4,
+    58.2,
+    1252.6,
+    88.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "report one person\u2019s words",
+   "size": 26,
+   "bbox": [
+    838.0,
+    149.7,
+    1226.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "report the other\u2019s exactly",
+   "size": 26,
+   "bbox": [
+    838.0,
+    205.7,
+    1217.2,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer the hard",
+   "size": 28,
+   "bbox": [
+    838.0,
+    260.9,
+    1096.7,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "question in one word",
+   "size": 28,
+   "bbox": [
+    838.0,
+    294.9,
+    1171.7,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what to write",
+   "size": 28,
+   "bbox": [
+    838.0,
+    346.9,
+    1112.6,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, asking: ask what was said, offer a different version, ask whether it is true, ask what to write down. Card B, reporting: report one person\u2019s words, report the other\u2019s exactly, answer the hard question in one word, say what to write.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "2fb7a4e7324611edf7204b8766c5e0a134af1bb7183706f146c3c6013dc14c8e"
+}

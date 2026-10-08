@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "Members only beyond this point.",
+   "size": 28,
+   "bbox": [
+    99.8,
+    60.7,
+    620.2,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you mustn\u2019t go in unless you belong",
+   "size": 24,
+   "bbox": [
+    858.6,
+    63.1,
+    1351.4,
+    84.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Please respect our neighbours.",
+   "size": 28,
+   "bbox": [
+    113.4,
+    175.7,
+    606.6,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "be quiet when you leave",
+   "size": 28,
+   "bbox": [
+    911.6,
+    175.7,
+    1298.4,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "No charge for the first hour.",
+   "size": 28,
+   "bbox": [
+    139.3,
+    290.7,
+    580.7,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "you don\u2019t have to pay yet",
+   "size": 28,
+   "bbox": [
+    902.5,
+    290.7,
+    1307.5,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Staff will ask to see your bag.",
+   "size": 28,
+   "bbox": [
+    124.7,
+    405.7,
+    595.3,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a guard will stop you, and it is",
+   "size": 28,
+   "bbox": [
+    865.0,
+    388.7,
+    1345.0,
+    413.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "not personal",
+   "size": 28,
+   "bbox": [
+    1005.3,
+    422.7,
+    1204.7,
+    447.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things a sign says, each with an arrow to what it actually means: you mustn\u2019t go in unless you belong, be quiet when you leave, you do not have to pay yet, and a guard will stop you and it is not personal.",
+ "placed_in": [
+  6.260416666666667,
+  2.15625
+ ],
+ "sha256": "9063de6c20f8c398d50e4337a35c0f149e4e62a843e603e8ee2af91ef35e1c98"
+}

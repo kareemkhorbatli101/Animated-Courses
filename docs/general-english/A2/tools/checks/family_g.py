@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 27 checks.
+"""G · Figures and visuals — 28 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -512,3 +512,17 @@ def g27(u, ctx):
     n = u.caption_words
     return expect(cw['min'] <= n <= cw['max'],
                   f'{n} caption words, want {cw["min"]}-{cw["max"]}')
+
+
+@check('G28', 'golden.figures.slots', 'Figure numbers ascend in document order')
+def g28(u, ctx):
+    """G02 checks the SET of numbers in a unit and says nothing about their
+    order, so a figure could carry the wrong number and the suite stay green
+    as long as the number existed somewhere. That was tolerable while the
+    numbers ran 1..14 with no gaps; after the 2026-10-08 renumber the slots
+    are spread (1, 4, 7, 8, 12, ...) and a misplaced caption is far easier to
+    make and no harder to miss. This is the check that proves the migration.
+    """
+    nums = [n for _, n, _ in u.figures]
+    bad = [f'{a} then {b}' for a, b in zip(nums, nums[1:]) if b <= a]
+    return expect(not bad, f'out of order: {bad}')

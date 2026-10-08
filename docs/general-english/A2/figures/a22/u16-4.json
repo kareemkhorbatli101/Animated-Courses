@@ -1,115 +1,180 @@
 {
  "canvas": [
   1440,
-  531
+  577
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.6,
+  1366.0,
+  548.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    203.5,
+    340.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "has not changed the shelves",
+   "size": 26,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    92.7,
+    245.0,
+    467.3,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    203.5,
+    780.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "has worked nights since",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    551.3,
+    244.2,
+    888.7,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "twenty-four",
+   "size": 28,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    638.8,
+    276.2,
+    801.2,
+    300.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    1109.6,
+    203.5,
+    1210.4,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has lived in three of the five flats",
+   "size": 22,
+   "bbox": [
+    978.0,
+    248.1,
+    1342.0,
+    268.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    483.5,
+    323.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has changed nothing at all",
+   "size": 28,
+   "bbox": [
+    93.1,
+    524.2,
+    466.9,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has seen off two owners",
+   "size": 28,
+   "bbox": [
+    549.8,
+    524.2,
+    890.2,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has learned all of their names",
+   "size": 24,
+   "bbox": [
+    980.5,
+    526.6,
+    1339.5,
+    548.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   203.2,
-   167.0,
-   846,
-   45.3
-  ],
-  [
-   312.0,
-   211.7,
-   846,
-   155.3
-  ],
-  [
-   420.8,
-   256.3,
-   846,
-   265.3
-  ],
-  [
-   529.6,
-   301.0,
-   846,
-   375.3
-  ],
-  [
-   632.0,
-   343.3,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "One street\u2019s time drawn as a line running left to right, with five different marks on it: a closed box for a finished month, a circle with the line carrying on past it for a starting point, a bar capped at both ends for a measured length, a circle with a stem for one point counted back from now, and an open bracket for a period that has not finished. Five numbered lines run to the right for the learner to write each time phrase.",
+ "alt": "What has changed for each of the six people at number 14, and what has not: Amina has not changed the shelves of her shop in eleven years, Tomas has worked nights since he was twenty-four, Maya has lived in three of the five flats, Dani has changed nothing at all, Mr Okonkwo has seen off two owners, and Yuki has learned all of their names.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.5104166666666665
  ],
- "sha256": "13156de173c466262edba72b4d6efc4c91d21275832cadb29d69a79976e5375f"
+ "sha256": "3561970ed632b45620a8d32d55704556cf0f9672e507696a9e84f99374715bec"
 }

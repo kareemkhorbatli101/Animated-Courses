@@ -1,144 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 asking",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    214.6,
-    58.2,
-    525.4,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "ask one thing at a time",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    504.3,
-    173.4
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "ask about the fee",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    204.9,
-    415.4,
-    229.4
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "check what is forbidden",
-   "size": 28,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    260.9,
-    516.2,
-    285.4
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "thank them",
-   "size": 28,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    316.9,
-    320.0,
-    341.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 telling",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    916.4,
-    58.2,
-    1223.6,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say what is necessary",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1183.4,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say plainly what is free",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1204.2,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "name the thing people forget",
-   "size": 22,
-   "bbox": [
-    838.0,
-    264.8,
-    1203.9,
-    284.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "do not explain it",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1097.2,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   196.8,
+   142.1,
+   846,
+   45.3
+  ],
+  [
+   331.2,
+   189.1,
+   846,
+   155.3
+  ],
+  [
+   465.6,
+   245.5,
+   846,
+   265.3
+  ],
+  [
+   593.6,
+   301.9,
+   846,
+   375.3
+  ],
+  [
+   696.0,
+   367.7,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, asking: ask one thing at a time, ask about the fee, check what is forbidden, thank them. Card B, telling: say what is necessary, say plainly what is free, name the one thing people forget, do not explain the rule.",
+ "alt": "A wall with five notices on it, each carrying a different mark: a crossed circle, a tick, an open square, a key, and one with a plain line and nothing else. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "8dbaa3941155c7ed52fb345e234f3d215020003362e76c583ec8b54b2b290495"
+ "sha256": "aeb4daefb81866645657979b94908999a7357af488933bf8bf5c219967e57cd8"
 }

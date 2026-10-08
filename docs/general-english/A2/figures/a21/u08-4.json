@@ -1,115 +1,168 @@
 {
  "canvas": [
   1440,
-  531
+  577
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.6,
+  1366.0,
+  548.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    203.5,
+    340.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "can take blood",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    176.9,
+    244.2,
+    383.1,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    203.5,
+    780.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "can add in her head",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    579.7,
+    244.2,
+    860.3,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Mr Okonkwo",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1041.0,
+    203.5,
+    1279.0,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "can play the piano",
+   "size": 28,
+   "bbox": [
+    1030.1,
+    244.2,
+    1289.9,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    229.6,
+    483.5,
+    330.4,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "can find any book",
+   "size": 28,
+   "bbox": [
+    155.0,
+    524.2,
+    405.0,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    676.5,
+    483.5,
+    763.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "can cook for twelve",
+   "size": 28,
+   "bbox": [
+    583.0,
+    524.2,
+    857.0,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is learning",
+   "size": 28,
+   "bbox": [
+    1087.2,
+    524.2,
+    1232.8,
+    548.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   414.4,
-   76.3,
-   846,
-   45.3
-  ],
-  [
-   452.8,
-   179.7,
-   846,
-   155.3
-  ],
-  [
-   401.6,
-   283.1,
-   846,
-   265.3
-  ],
-  [
-   440.0,
-   377.1,
-   846,
-   375.3
-  ],
-  [
-   414.4,
-   461.7,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "A ladder of ways to ask for something, from the plainest at the bottom to the politest at the top. Five numbered lines run to the right for the learner to write each one.",
+ "alt": "What each of the six people at number 14 can do: Tomas can take blood, Amina can add in her head, Mr Okonkwo can play the piano, Maya can find any book, Dani can cook for twelve, and Yuki is learning.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.5104166666666665
  ],
- "sha256": "0b9af9101745a6a60a6a5d7518cc30a02eab54f23552e06c179c7f16f8b2aba1"
+ "sha256": "af7271731f17d5cb8c5daab3608b21367542d7ebad06323a38e4f64770da7a34"
 }

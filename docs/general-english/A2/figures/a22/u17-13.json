@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "Water leaving",
+   "text": "first",
    "size": 34,
    "bbox": [
-    231.4,
-    67.8,
-    498.6,
-    98.2
+    150.8,
+    131.2,
+    229.2,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "sewage",
-   "size": 27,
+   "text": "the clay is shaped",
+   "size": 24,
    "bbox": [
-    313.5,
-    282.5,
-    416.5,
-    307.0
+    67.9,
+    270.3,
+    312.1,
+    291.8
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "into the pipes",
-   "size": 27,
-   "bbox": [
-    272.2,
-    328.5,
-    457.8,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "nobody drinks it",
-   "size": 27,
-   "bbox": [
-    255.9,
-    374.5,
-    474.1,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Water coming back",
+   "text": "then",
    "size": 34,
    "bbox": [
-    920.9,
-    67.8,
-    1289.1,
-    98.2
+    411.1,
+    131.2,
+    498.9,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "through membranes",
-   "size": 27,
+   "text": "the foot is cut",
+   "size": 28,
    "bbox": [
-    966.8,
-    282.5,
-    1243.2,
-    307.0
+    344.1,
+    267.9,
+    565.9,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "cleaned with light",
-   "size": 27,
+   "text": "after that",
+   "size": 34,
    "bbox": [
-    984.7,
-    328.5,
-    1225.3,
-    353.0
+    627.4,
+    131.2,
+    812.6,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "cleaner than the reservoir",
-   "size": 27,
+   "text": "it is dried slowly",
+   "size": 26,
    "bbox": [
-    929.2,
-    374.5,
-    1280.8,
-    399.0
+    599.2,
+    268.7,
+    840.8,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "next",
+   "size": 34,
+   "bbox": [
+    942.3,
+    131.2,
+    1027.7,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the glaze is put on",
+   "size": 22,
+   "bbox": [
+    869.5,
+    271.8,
+    1100.5,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "last",
+   "size": 34,
+   "bbox": [
+    1214.5,
+    131.2,
+    1285.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "it is sold",
+   "size": 28,
+   "bbox": [
+    1182.9,
+    267.9,
+    1317.1,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "Water leaving a city beside the same water coming back. Leaving: sewage, into the pipes, and nobody drinks it. Coming back: pushed through membranes with holes too small to see, cleaned again with light, and cleaner than the water already in the reservoir.",
+ "arrows": 0,
+ "alt": "One cup from the clay to the shelf, on a line: the clay is shaped, the foot is cut, it is dried slowly, the glaze is put on, and it is sold.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "165af4bec66194f1d63788f2c276303372e823bb381df84dee5a743ac90eadd1"
+ "sha256": "371096ca9e53be184f153b8a5a85bfab53870377a47fbf2bd753b5d3d112acd8"
 }

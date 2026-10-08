@@ -1,132 +1,96 @@
 {
  "canvas": [
   1440,
-  473
+  571
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  28.3,
+  1373.0,
+  542.3
  ],
  "texts": [
   {
-   "text": "Track 6.2",
-   "size": 28,
+   "text": "Suitcase",
+   "size": 34,
    "bbox": [
-    195.0,
-    50.1,
-    338.3,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Maya and Dani",
-   "size": 32,
-   "bbox": [
-    133.5,
-    287.0,
-    399.9,
-    315.2
+    193.8,
+    217.3,
+    356.8,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "what happened to you?",
-   "size": 26,
+   "text": "Wallet",
+   "size": 34,
    "bbox": [
-    113.3,
-    356.9,
-    420.0,
-    380.6
+    659.1,
+    217.3,
+    780.9,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 6.3",
-   "size": 28,
+   "text": "Charger",
+   "size": 34,
    "bbox": [
-    648.4,
-    50.1,
-    791.6,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and the staff",
-   "size": 32,
-   "bbox": [
-    560.9,
-    287.0,
-    879.1,
-    315.2
+    1088.2,
+    217.3,
+    1241.2,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "lost property",
-   "size": 26,
+   "text": "Umbrella",
+   "size": 34,
    "bbox": [
-    636.8,
-    356.9,
-    803.2,
-    380.6
+    188.6,
+    488.3,
+    362.1,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 6.4",
-   "size": 28,
+   "text": "Coach",
+   "size": 34,
    "bbox": [
-    1101.7,
-    50.1,
-    1245.0,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
+    662.2,
+    488.3,
+    777.8,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "five journeys",
-   "size": 26,
+   "text": "Taxi",
+   "size": 34,
    "bbox": [
-    1089.7,
-    356.9,
-    1257.0,
-    380.6
+    1127.0,
+    488.3,
+    1202.3,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 6,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Maya asks Dani what happened, Yuki reports a lost umbrella to station staff, and Amina tells five journey stories from one week.",
+ "alt": "Six things you take on a journey, each on its own card: suitcase, wallet, charger, umbrella, coach and taxi.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  2.4791666666666665
  ],
- "sha256": "634b7d4134d226017456ee54cb0db7b9c5a00a9827dd6079b070ea9f11530478"
+ "sha256": "7284a55006498a5148abbaf8f71e3736551d9b0339e3eb14edcc9e66af82f9fa"
 }

@@ -13,7 +13,7 @@ FIGURES = {
             'point is should and shouldn’t, and three things the learner will be '
             'able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Amina', 'shop', 'you should eat something'),
          ('Tomas', 'nurse', 'drink water and go to bed'),
          ('Maya', 'book', 'you should look it up'),
@@ -26,14 +26,14 @@ FIGURES = {
             'up, Dani says you shouldn’t worry, Mr Okonkwo says go outside for ten '
             'minutes, and Yuki says nothing and brings soup.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('A cold', 'thermometer'), ('A headache', 'person'), ('A tooth', 'home'),
          ('A cut', 'pill'), ('A fever', 'bed'), ('A throat', 'cup')],
         height=600,
         alt='Six everyday problems, each on its own card: a cold, a headache, a '
             'tooth, a cut, a fever and a throat.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('could', 0.78, 0.18), ('should', 0.62, 0.26),
          ('shouldn’t', 0.46, 0.34), ('must', 0.30, 0.42), ('now', 0.18, 0.88)],
         height=620, draw=F.advice_ladder,
@@ -42,7 +42,7 @@ FIGURES = {
             'The lowest rung is the lightest and the smallest. Five numbered lines '
             'run to the right for the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('should', 'advice for doing it',
          'You should drink more water.', [0.72]),
         ('shouldn’t', 'advice against doing it',
@@ -52,7 +52,7 @@ FIGURES = {
             'doing a thing, with its mark towards the yes end. On the right '
             'shouldn’t, which advises against it, with its mark towards the no end.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('day one', 'rest and drink'), ('day two', 'stay at home'),
          ('day four', 'still a fever?'), ('day five', 'see somebody'),
          ('day ten', 'better')],
@@ -61,7 +61,7 @@ FIGURES = {
             'the second, ask on the fourth whether the fever is still there, see '
             'somebody on the fifth, and better by the tenth.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 14.2', 'Yuki and Tomas', 'nurse', 'asking the nurse next door'),
          ('Track 14.3', 'Dani and a chemist', 'pill', 'at the chemist'),
          ('Track 14.4', 'Amina', 'person', 'six people, six kinds of advice')],
@@ -70,7 +70,7 @@ FIGURES = {
             'will not say on a staircase, a chemist gives Dani the cheap answer, and '
             'Amina describes the six kinds of advice she is given every week.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — asking', ['say the problem in four words', 'answer plainly',
                              'ask what you should take', 'ask when to worry'], 'person'),
         ('Card B — advising', ['ask two questions first', 'give the cheap answer too',
@@ -82,7 +82,7 @@ FIGURES = {
             'cheap answer as well, say when they should see somebody, do not '
             'frighten them.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('a small worry', 'moon'), ('a screen at night', 'book'),
          ('every answer at once', 'clock'), ('worse, not wiser', 'person'),
          ('how long is it now?', 'thermometer')],
@@ -92,7 +92,7 @@ FIGURES = {
             'feels worse rather than wiser, and the one question that sorts it: how '
             'long is it now?'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('soup', 'cup', 'warm water and salt, which is most of it'),
          ('steam', 'thermometer', 'nothing to the illness, twenty good minutes'),
          ('honey', 'pill', 'it coats a throat, and a child will take it')],
@@ -103,7 +103,7 @@ FIGURES = {
             'honey, which coats a throat that hurts and tastes good enough that a '
             'child will take it.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('What they should do', 'You should drink much more than you want to.'),
          ('What they shouldn’t', 'You shouldn’t go in tomorrow.'),
          ('When to see somebody', 'If the fever is still there after four days.'),
@@ -113,7 +113,7 @@ FIGURES = {
             'what they should do, what they shouldn’t, when to see somebody, and one '
             'kind thing at the end.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('It started on Tuesday and it has not changed.', 'the length, which is the first question'),
          ('It is worse at night.', 'the one detail that changes the answer'),
          ('I have taken nothing for it.', 'what you have already tried'),
@@ -123,7 +123,7 @@ FIGURES = {
             'what it does: giving the length, giving the one detail that changes the '
             'answer, saying what has already been tried, and saying why they came.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('Everybody to a doctor', ['one waiting room', 'three weeks for everybody',
                                    'the small and the bad together'], 'home'),
         ('A nurse on the line first', ['how long, how bad', 'most people sent to somebody else',
@@ -135,7 +135,7 @@ FIGURES = {
             'long and how bad, most people sent to somebody other than a doctor, '
             'and a chemist handling the minor list.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can say how I feel and how long it has been', False),
          ('I can give advice with should and shouldn’t', False),
          ('I can ask for advice at a chemist or a surgery', False),

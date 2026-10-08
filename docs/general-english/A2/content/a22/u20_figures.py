@@ -13,7 +13,7 @@ FIGURES = {
             'point is reported speech, and three things the learner will be able to '
             'do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Amina', 'shop', 'said twenty minutes'),
          ('Tomas', 'nurse', 'said an hour'),
          ('Maya', 'book', 'said she had not seen a van'),
@@ -27,7 +27,7 @@ FIGURES = {
             'lorry, Mr Okonkwo said one sentence a week later, and Yuki wrote down '
             'what each of them said on the day.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('The van is outside', 'mobile'), ('I have not seen it', 'person'),
          ('Where is the key', 'key'), ('Ring me tonight', 'clock')],
         height=460, cols=4,
@@ -35,7 +35,7 @@ FIGURES = {
             'is outside, I have not seen it, where is the key, and ring me '
             'tonight.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('said', 0.293, 0.13), ('told', 0.388, 0.30), ('asked', 0.483, 0.47),
          ('answered', 0.578, 0.64), ('explained', 0.668, 0.80)],
         height=620, draw=F.report_steps,
@@ -47,7 +47,7 @@ FIGURES = {
             'question loses its mark as well as its word order. Five numbered lines '
             'run to the right for the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('“The van is outside.”', 'said like this — the present',
          'The words as they were said, with the mark.', [0.28]),
         ('She said the van was outside.', 'reported like this — one step back',
@@ -58,7 +58,7 @@ FIGURES = {
             'thing reported: the marks are gone and the tense has moved back one '
             'step, which is the only change the learner has to make.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('on Tuesday', 'the van is outside'), ('at four', 'Amina counts twenty minutes'),
          ('at five', 'Tomas comes in at the end'), ('that day', 'Yuki writes it down'),
          ('a week later', 'Mr Okonkwo says one sentence')],
@@ -68,7 +68,7 @@ FIGURES = {
             'four, Tomas comes in at the end at five, Yuki writes it down that '
             'evening, and a week later Mr Okonkwo says one sentence.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 20.2', 'Yuki and Maya', 'notebook', 'what Amina said about the van'),
          ('Track 20.3', 'Dani and Maya', 'mobile', 'the message nobody replied to'),
          ('Track 20.4', 'Amina', 'person', 'six people, six versions')],
@@ -77,7 +77,7 @@ FIGURES = {
             'Tomas each said about the van, Dani asks Maya why she did not reply to '
             'his message, and Amina reports what each of the six said.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — asking', ['ask what was said', 'offer a different version',
                              'ask whether it is true', 'ask what to write down'], 'person'),
         ('Card B — reporting', ['report one person’s words', 'report the other’s exactly',
@@ -90,7 +90,7 @@ FIGURES = {
             'other’s exactly, answer the hard question in one word, say what to '
             'write.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('the first witness', 'person'), ('I think it was', 'mobile'),
          ('the colour goes', 'newspaper'), ('the hour goes', 'clock'),
          ('it was twenty minutes', 'notebook')],
@@ -101,7 +101,7 @@ FIGURES = {
             'person says it was twenty minutes — shorter and surer, with nobody '
             'having lied anywhere along the line.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('A messenger', 'horse', 'about a hundred and sixty kilometres a day'),
          ('Towers on hilltops', 'siren', 'across France in two hours, and not in fog'),
          ('The telegraph', 'loudspeaker', 'a message moved with nothing moving')],
@@ -114,7 +114,7 @@ FIGURES = {
             'because it was the first time a message could move without anything '
             'moving.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('Who told you', 'Amina told me the van had been outside since Tuesday.'),
          ('What she said', 'She said four people had walked past it.'),
          ('What you said', 'I said I had not seen it either.'),
@@ -124,7 +124,7 @@ FIGURES = {
             'who told you, what they said, what you said back, and what they said '
             'to that.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('She said to tell you she can’t come.', 'passing on a message you were given'),
          ('Apparently there was a van.', 'passing it on without standing behind it'),
          ('Don’t say I told you.', 'asking to be left out of it'),
@@ -135,7 +135,7 @@ FIGURES = {
             'passing something on without standing behind it, asking to be left out '
             'of it, and refusing to guess while promising to find out.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('At six in the morning', ['the voice reads the local news', 'most wards',
                                    'it has never been turned off'], 'loudspeaker'),
         ('In the street', ['younger people do not hear it', 'a third could say',
@@ -148,7 +148,7 @@ FIGURES = {
             'what had been announced, and the city has twice decided to keep the '
             'speakers because in a flood nobody checks a telephone.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can report what somebody said', False),
          ('I can use said, told and asked correctly', False),
          ('I can report a question without making it a question', False),

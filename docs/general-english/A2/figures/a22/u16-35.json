@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "The painting",
+   "size": 34,
+   "bbox": [
+    244.1,
+    67.8,
+    485.9,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "every window",
+   "size": 27,
+   "bbox": [
+    271.4,
+    282.5,
+    458.6,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "every sign",
+   "size": 27,
+   "bbox": [
+    294.7,
+    328.5,
+    435.3,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "paid by the detail",
+   "size": 27,
+   "bbox": [
+    246.3,
+    374.5,
+    483.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The street",
+   "size": 34,
+   "bbox": [
+    1006.0,
+    67.8,
+    1204.0,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same window",
+   "size": 27,
+   "bbox": [
+    986.3,
+    282.5,
+    1223.7,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the same sign",
+   "size": 27,
+   "bbox": [
+    1009.6,
+    328.5,
+    1200.4,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "not the memory of anybody living",
+   "size": 27,
+   "bbox": [
+    875.3,
+    374.5,
+    1334.7,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "A painting on a wall beside a street built to match it. The painting has every window and every sign in it, because the man who painted it was paid by the detail. The street repeats the same windows and the same signs, because the ones rebuilding it went back to the painting and not to the memory of anybody living.",
+ "placed_in": [
+  6.260416666666667,
+  1.9166666666666667
+ ],
+ "sha256": "12cf62cf7201cc38ce49e72024eb6ea770b2f128f83576049d22b63d19177a81"
+}

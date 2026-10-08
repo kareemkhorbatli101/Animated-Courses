@@ -13,7 +13,7 @@ FIGURES = {
             'simple with was, were and regular verbs, and three things the learner '
             'will be able to do by the end of the unit.'),
 
- 2: lambda: F.timeline(
+ 4: lambda: F.timeline(
         [('8.00', 'Amina opened the shop'), ('11.00', 'Yuki walked to the lake'),
          ('14.00', 'Amina closed'), ('17.00', 'Dani cooked'),
          ('21.00', 'the light went')],
@@ -22,14 +22,14 @@ FIGURES = {
             'Yuki walked to the lake at eleven, Amina closed at two, Dani cooked at '
             'five, and the light went at nine.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('Beach', 'sun'), ('Museum', 'home'), ('Forest', 'moon'),
          ('Lake', 'cup'), ('Village', 'shop'), ('Path', 'bus')],
         height=600,
         alt='Six places people go at the weekend, each on its own card: beach, '
             'museum, forest, lake, village and path.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('hill', 0.10, 0.48), ('forest', 0.32, 0.42), ('lake', 0.54, 0.54),
          ('path', 0.74, 0.46), ('village', 0.92, 0.50)],
         height=620, draw=F.landscape,
@@ -37,7 +37,7 @@ FIGURES = {
             'path and a village. Five numbered lines run to the right for the '
             'learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('was / were', 'how something was',
          'Sunday was warm.', [0.22]),
         ('verb + -ed', 'what somebody did',
@@ -47,7 +47,7 @@ FIGURES = {
             'back on the timeline, for how something was. On the right the regular '
             'past with -ed, four marks, for the things somebody did.'),
 
- 6: lambda: F.world_strip(
+ 13: lambda: F.world_strip(
         [('/t/', 'bus', 'walked · cooked · watched'),
          ('/d/', 'sun', 'stayed · opened · arrived'),
          ('/ɪd/', 'clock', 'rested · waited · wanted')],
@@ -56,7 +56,7 @@ FIGURES = {
             '/d/ in stayed, opened and arrived; and /ɪd/ in rested, waited and '
             'wanted, which is the only group that adds a beat.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 5.2', 'Maya and Dani', 'person', 'what did you do?'),
          ('Track 5.3', 'Yuki and the clerk', 'bus', 'booking a trip'),
          ('Track 5.4', 'Amina', 'shop', 'five weekends')],
@@ -65,7 +65,7 @@ FIGURES = {
             'they did, Yuki books a trip with a clerk, and Amina describes five '
             'weekends in one building.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — the listener', ['ask what they did', 'ask about the weather',
                                    'ask who with', 'ask what happened next'],
          'person'),
@@ -78,7 +78,7 @@ FIGURES = {
             'Card B, the teller: say where you went, what the weather was like, who '
             'with, and finish with one thing that went wrong.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('workers campaigned', 'person'), ('owners said no', 'home'),
          ('a factory tried it', 'shop'), ('the work still happened', 'clock'),
          ('five days and two', 'sun')],
@@ -87,7 +87,7 @@ FIGURES = {
             'next: workers campaigned, owners said no, one factory tried it, the '
             'work still happened, and five days and two became normal.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('the Middle East', 'sun', 'Friday and Saturday are the days off'),
          ('Nepal', 'moon', 'one day off for a long time'),
          ('Iceland', 'clock', 'tested a four-day week for four years')],
@@ -96,7 +96,7 @@ FIGURES = {
             'East, one day off for a long time in Nepal, and a four-day week tested '
             'for four years in Iceland.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('When, and the weather', 'Last Saturday was grey and cold.'),
          ('So what you did', 'so I stayed in and cleaned the kitchen'),
          ('The other day', 'On Sunday the weather changed completely.'),
@@ -106,7 +106,7 @@ FIGURES = {
             'steps: when it was and what the weather was like, what you did as a '
             'result, the other day of the weekend, and how it ended.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('I am sorry, something came up.', 'saying you cannot come'),
          ('Could we do it next Saturday instead?', 'offering another day'),
          ('I waited an hour.', 'saying what it cost you, carefully'),
@@ -116,7 +116,7 @@ FIGURES = {
             'does: saying you cannot come, offering another day, saying what it cost '
             'you carefully, and accepting it without a fight.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('Forty hours', ['five days', 'tired workers',
                          'the same work'], 'clock'),
         ('Thirty-six', ['four days', 'the same pay',
@@ -126,7 +126,7 @@ FIGURES = {
             'with tired workers. After: thirty-six hours over four days, on the '
             'same pay, and the same work got done.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can name places outside the city and talk about the weather', False),
          ('I can use was, were and regular past verbs', False),
          ('I can understand people talking about their weekend', False),

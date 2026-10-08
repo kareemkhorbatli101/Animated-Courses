@@ -13,7 +13,7 @@ FIGURES = {
             'is there is and there are with some, any, much and many, and three '
             'things the learner will be able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Amina', 'shop', 'ground floor'), ('Dani', 'book', 'first floor'),
          ('Maya', 'person', 'second floor'), ('Tomas', 'nurse', 'second floor'),
          ('Mr Okonkwo', 'home', 'fourth floor'), ('Yuki', 'cup', 'top flat')],
@@ -22,14 +22,14 @@ FIGURES = {
             'floor, Dani on the first, Maya and Tomas on the second, Mr Okonkwo on '
             'the fourth with the best view, and Yuki in the top flat.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('Kitchen', 'kitchen'), ('Bathroom', 'home'), ('Bedroom', 'moon'),
          ('Living room', 'book'), ('Balcony', 'sun'), ('Entrance', 'shop')],
         height=600,
         alt='Six rooms and places in a home, each on its own card: kitchen, '
             'bathroom, bedroom, living room, balcony and entrance.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('roof', 0.08, 0.50), ('balcony', 0.30, 0.56), ('stairs', 0.52, 0.44),
          ('entrance', 0.74, 0.52), ('garden', 0.92, 0.46)],
         height=620, draw=F.building,
@@ -37,7 +37,7 @@ FIGURES = {
             'at the bottom. Five numbered lines run to the right for the learner to '
             'write roof, balcony, stairs, entrance and garden.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('There is', 'one thing · you cannot count it',
          'There is a shop downstairs.', [0.5]),
         ('There are', 'more than one · you can count them',
@@ -47,7 +47,7 @@ FIGURES = {
             'for one thing or a thing you cannot count. On the right there are, with '
             'five marks, for things you can count.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('ground floor', 'a shop'), ('first floor', 'Dani'),
          ('second floor', 'Maya and Tomas'), ('fourth floor', 'Mr Okonkwo'),
          ('top flat', 'Yuki')],
@@ -56,7 +56,7 @@ FIGURES = {
             'Dani on the first, Maya and Tomas on the second, Mr Okonkwo on the '
             'fourth, and Yuki in the top flat.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 2.2', 'Yuki and the agent', 'home', 'looking at the flat'),
          ('Track 2.3', 'Dani and Mr Okonkwo', 'book', 'a problem on the stairs'),
          ('Track 2.4', 'Amina', 'shop', 'five flats, five homes')],
@@ -65,7 +65,7 @@ FIGURES = {
             'Dani and Mr Okonkwo talk about a problem on the stairs, and Amina '
             'describes five flats and five homes.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — the flat', ['welcome them', 'say how many rooms',
                                'answer one question honestly',
                                'one good thing, one less good'], 'home'),
@@ -77,7 +77,7 @@ FIGURES = {
             'one good thing and one less good thing. Card B, the person looking: ask '
             'about storage, about noise and about the rent, then say what you think.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('an empty flat', 'home'), ('a bed and a table', 'moon'),
          ('a cupboard', 'kitchen'), ('plants and a photograph', 'sun'),
          ('a home', 'cup')],
@@ -86,7 +86,7 @@ FIGURES = {
             'an empty flat, then a bed and a table, then a cupboard, then plants and '
             'a photograph, and at the end a home.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('Brazil', 'home', 'tall blocks with a shared pool'),
          ('Morocco', 'sun', 'rooms built around a courtyard'),
          ('Sweden', 'moon', 'houses of wood with three doors')],
@@ -95,7 +95,7 @@ FIGURES = {
             'rooms built around a courtyard in Morocco, and wooden houses with three '
             'doors in Sweden.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('What room', 'There are three things in Dani’s kitchen.'),
          ('There is / there are', 'a cupboard, a small table and one chair'),
          ('What there is not much of', 'There is not much space.'),
@@ -105,7 +105,7 @@ FIGURES = {
             'steps: which room, then what there is in it, then what there is not '
             'much of, and last who uses it and why.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('Is there any storage?', 'asking what there is'),
          ('The hot water is not working.', 'reporting a problem'),
          ('Does that include the water?', 'asking what the rent covers'),
@@ -115,7 +115,7 @@ FIGURES = {
             'asking what there is, reporting a problem, asking what the rent covers, '
             'and asking for a repair politely.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('Before', ['eleven cars', 'nowhere to sit', 'no shade'], 'bus'),
         ('After', ['closed every Sunday', 'chairs and tables',
                    'four trees'], 'sun'),
@@ -124,7 +124,7 @@ FIGURES = {
             'to sit, no shade. After: closed every Sunday, chairs and tables, and '
             'four trees.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can name the rooms and parts of a building', False),
          ('I can use there is and there are', False),
          ('I can understand somebody describing a flat', False),

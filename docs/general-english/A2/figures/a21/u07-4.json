@@ -1,115 +1,120 @@
 {
  "canvas": [
   1440,
-  531
+  440
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  57.0,
+  21.8,
+  1413.0,
+  417.8
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "The grey coat",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    233.4,
+    67.8,
+    496.6,
+    98.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "cheaper",
+   "size": 27,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    310.0,
+    282.5,
+    420.0,
+    307.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "lighter",
+   "size": 27,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    321.2,
+    328.5,
+    408.8,
+    353.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "the one she likes",
+   "size": 27,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    250.8,
+    374.5,
+    479.2,
+    399.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "The green coat",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    960.9,
+    67.8,
+    1249.1,
+    98.2
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "warmer",
+   "size": 27,
+   "bbox": [
+    1053.4,
+    282.5,
+    1156.6,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "deeper pockets",
+   "size": 27,
+   "bbox": [
+    1000.9,
+    328.5,
+    1209.1,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lasts ten years",
+   "size": 27,
+   "bbox": [
+    1005.7,
+    374.5,
+    1204.3,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
   }
  ],
- "leaders": [
-  [
-   427.2,
-   76.3,
-   846,
-   45.3
-  ],
-  [
-   401.6,
-   179.7,
-   846,
-   155.3
-  ],
-  [
-   452.8,
-   283.1,
-   846,
-   265.3
-  ],
-  [
-   414.4,
-   377.1,
-   846,
-   375.3
-  ],
-  [
-   440.0,
-   461.7,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 0,
- "alt": "Two objects drawn side by side so the learner can see which is wider, which is deeper, which is thicker, which is lighter and which is stronger. Five numbered lines run to the right for each word.",
+ "arrows": 1,
+ "alt": "Two coats side by side. The grey one is cheaper, lighter and the one she likes. The green one is warmer, has deeper pockets and lasts ten years.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  1.9166666666666667
  ],
- "sha256": "fc7dc14c1ddcd08df0ac2776760527cf6be0832339e09d8fec4705f569b539d6"
+ "sha256": "fb367b563b71d7c0ca3031f2824aa14a6fc94b31c85d508bdf2b959f2e17a8c1"
 }

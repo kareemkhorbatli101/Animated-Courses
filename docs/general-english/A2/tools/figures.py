@@ -710,7 +710,7 @@ def unit_opener_page(number, title, grammar, can_do, icons, alt=''):
     f.line(190, HP - 430, WP - 190, HP - 430, stroke=P['rule'], sw=5)
     f.text('Core track: Warm Up and Parts 1 to 6', 190, HP - 330, size=44,
            fill=P['ink'], anchor='start')
-    f.text('Plus track: Parts 7 to 9, when you are ready', 190, HP - 250, size=44,
+    f.text('Plus track: Parts 7 to 10, optional', 190, HP - 250, size=44,
            fill=P['ink'], anchor='start')
     f.rect(0, HP - 90, WP, 90, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
     return f

@@ -13,7 +13,7 @@ FIGURES = {
             'is going to and the present continuous for arrangements, and three '
             'things the learner will be able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Maya', 'person', 'is meeting her sister at nine'),
          ('Tomas', 'nurse', 'is working, as always'),
          ('Amina', 'shop', 'is closing at two'),
@@ -26,7 +26,7 @@ FIGURES = {
             'at two, Dani is going to cook for eight, Mr Okonkwo is doing nothing as '
             'a plan, and Yuki is going to ask everybody to come.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('A train at nine', 'bus'), ('Dinner on Friday', 'kitchen'),
          ('Learning to drive', 'bus'), ('Moving one day', 'home'),
          ('A meeting at work', 'book'), ('A holiday', 'sun')],
@@ -34,7 +34,7 @@ FIGURES = {
         alt='Six plans, each on its own card: a train at nine, dinner on Friday, '
             'learning to drive, moving one day, a meeting at work, and a holiday.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('arranged', 0.22, 0.46), ('decided', 0.37, 0.52),
          ('a hope', 0.52, 0.58), ('every week', 0.66, 0.74), ('open', 0.84, 0.86)],
         height=620, draw=F.week_page,
@@ -44,7 +44,7 @@ FIGURES = {
             'week, and the fifth nothing at all. Five numbered lines run to the right '
             'for the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('I am meeting him at nine.', 'arranged, with a time',
          'The day and the person are fixed.', [0.72]),
         ('I am going to ask them.', 'decided, nothing booked',
@@ -55,7 +55,7 @@ FIGURES = {
             'right going to for a decision, with a mark further back, because '
             'nothing is fixed yet.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('Monday', 'a meeting at ten'), ('Wednesday', 'nothing'),
          ('Friday', 'dinner at eight'), ('Saturday', 'seven at number 14'),
          ('this year', 'learning to drive')],
@@ -64,7 +64,7 @@ FIGURES = {
             'dinner at eight on Friday, seven o’clock at number 14 on Saturday, and '
             'somewhere beyond the week, learning to drive this year.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 11.2', 'Yuki and Amina', 'shop', 'arranging an evening'),
          ('Track 11.3', 'Dani and a clerk', 'home', 'a booking that went wrong'),
          ('Track 11.4', 'Amina', 'person', 'six people, six Saturdays')],
@@ -73,7 +73,7 @@ FIGURES = {
             'evening, Dani finds that a hotel cannot find his booking, and Amina '
             'describes what all six of them are doing on Saturday.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — arranging', ['ask before you explain', 'give the day and the time',
                                 'say who else is coming', 'accept help'], 'person'),
         ('Card B — answering', ['say what you are doing', 'ask one question',
@@ -84,7 +84,7 @@ FIGURES = {
             'help. Card B, answering: say what you are doing, ask one question, say '
             'yes or no plainly, offer one thing.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('the idea', 'moon'), ('the asking', 'person'),
          ('who is coming', 'book'), ('the cooking', 'kitchen'),
          ('seven o’clock', 'clock')],
@@ -93,7 +93,7 @@ FIGURES = {
             'asking, finding out who is coming, the cooking, and seven o’clock on the '
             'evening itself.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('a paper diary', 'book', 'holds what one person can really do'),
          ('a shared calendar', 'clock', 'anybody can put something in it'),
          ('a phone reminder', 'shop', 'kindest to the forgetful, worst after that')],
@@ -104,7 +104,7 @@ FIGURES = {
             'kindest to a forgetful person and worst for anybody who then stops '
             'remembering at all.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('Who you are', 'This is Yuki from the top flat.'),
          ('The day and the time', 'Saturday at seven.'),
          ('What you are doing', 'I am going to cook.'),
@@ -114,7 +114,7 @@ FIGURES = {
             'who you are, the day and the time, what you are doing, and a way out '
             'for the reader.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('Are you doing anything on Saturday?', 'asking before you explain'),
          ('I can do Thursday, but not before seven.', 'saying yes to part of it'),
          ('Something has come up, I am sorry.', 'changing it, without the detail'),
@@ -124,7 +124,7 @@ FIGURES = {
             'an arrow to what it does: asking before you explain, saying yes to part '
             'of it, changing it without giving the detail, and offering a new day.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('A booked bed', ['a name on a list', 'paid in advance', 'yours alone'], 'book'),
         ('A bed nobody booked', ['one key for the whole chain', 'move up when it fills',
                                  'the wet and late one first'], 'home'),
@@ -134,7 +134,7 @@ FIGURES = {
             'opens the whole chain, everybody moves up when it fills, and the person '
             'who arrives wet and late gets it first.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can talk about arrangements using the present continuous', False),
          ('I can talk about decisions using going to', False),
          ('I can invite somebody, and answer when I am invited', False),

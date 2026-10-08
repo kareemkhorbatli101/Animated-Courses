@@ -1,115 +1,180 @@
 {
  "canvas": [
   1440,
-  531
+  577
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.6,
+  1366.0,
+  548.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    219.7,
+    203.5,
+    340.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "will move the freezer first",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    100.3,
+    244.2,
+    459.7,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    203.5,
+    780.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "will go in early",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    618.2,
+    244.2,
+    821.8,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1109.6,
+    203.5,
+    1210.4,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will put her books on the",
+   "size": 28,
+   "bbox": [
+    986.3,
+    244.2,
+    1333.7,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "top shelf",
+   "size": 28,
+   "bbox": [
+    1099.0,
+    276.2,
+    1221.0,
+    300.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    483.5,
+    323.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will sleep through it",
+   "size": 28,
+   "bbox": [
+    141.8,
+    524.2,
+    418.2,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "will do nothing at all",
+   "size": 28,
+   "bbox": [
+    577.7,
+    524.2,
+    862.3,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has written a list",
+   "size": 28,
+   "bbox": [
+    1043.2,
+    524.2,
+    1276.8,
+    548.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   203.2,
-   167.0,
-   846,
-   45.3
-  ],
-  [
-   312.0,
-   211.7,
-   846,
-   155.3
-  ],
-  [
-   420.8,
-   256.3,
-   846,
-   265.3
-  ],
-  [
-   529.6,
-   301.0,
-   846,
-   375.3
-  ],
-  [
-   632.0,
-   343.3,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "One evening drawn as a line that forks five times, stepping down to the right. Two of the forks are solid, for the things that will happen; three are dashed with an open circle at the end, for the things that may happen and may not. Five numbered lines run to the right for the learner to write each joining word.",
+ "alt": "What each of the six people at number 14 will do if the water comes up again: Amina will move the freezer first, Tomas will go in early because the hospital rings him, Maya will put her books on the top shelf, Dani will sleep through it unless somebody wakes him, Mr Okonkwo will do nothing at all, and Yuki has written a list.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.5104166666666665
  ],
- "sha256": "d6e58afb085030c1fdffa4e14a2c7d53fb5f78ca17e76045a9741026813d7eff"
+ "sha256": "41858a2fe847fb16010f770dd8443288b328228fc170a8ee094f5a4b531fb43f"
 }

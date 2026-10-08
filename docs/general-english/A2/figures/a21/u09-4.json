@@ -1,115 +1,168 @@
 {
  "canvas": [
   1440,
-  531
+  570
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.2,
+  1366.0,
+  541.4
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "the junction",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    164.5,
+    196.2,
+    395.5,
+    226.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "four roads, no sign",
+   "size": 28,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    148.9,
+    236.9,
+    411.1,
+    261.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "number 14",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    616.4,
+    196.2,
+    823.6,
+    226.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "halfway along",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    622.4,
+    236.9,
+    817.6,
+    261.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "the shop",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1076.2,
+    196.2,
+    1243.8,
+    226.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "on the ground floor",
+   "size": 28,
+   "bbox": [
+    1025.0,
+    236.9,
+    1295.0,
+    261.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the square",
+   "size": 34,
+   "bbox": [
+    176.5,
+    476.2,
+    383.5,
+    506.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a bench and two trees",
+   "size": 28,
+   "bbox": [
+    123.3,
+    516.9,
+    436.7,
+    541.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the health centre",
+   "size": 34,
+   "bbox": [
+    553.5,
+    476.2,
+    886.5,
+    506.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "behind the square",
+   "size": 28,
+   "bbox": [
+    592.4,
+    516.9,
+    847.6,
+    541.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the bridge",
+   "size": 34,
+   "bbox": [
+    1060.1,
+    476.2,
+    1259.9,
+    506.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "at the bottom",
+   "size": 28,
+   "bbox": [
+    1063.4,
+    516.9,
+    1256.6,
+    541.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   324.8,
-   156.2,
-   846,
-   45.3
-  ],
-  [
-   324.8,
-   311.3,
-   846,
-   155.3
-  ],
-  [
-   427.2,
-   330.1,
-   846,
-   265.3
-  ],
-  [
-   561.6,
-   405.3,
-   846,
-   375.3
-  ],
-  [
-   696.0,
-   414.7,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "A plan of one street seen from above: the road across the middle, three buildings in a row above it, two below it, a square with a bench, a low building behind the square, and on the right one building cut open to show a flat over a shop. Five numbered lines run to the right for the learner to write each word.",
+ "alt": "Alder Street from the junction at the top to the bridge at the bottom: the junction with four roads and no sign, number 14 halfway along, the shop on its ground floor, the square with a bench and two trees, the health centre behind the square, and the bridge at the bottom.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.4791666666666665
  ],
- "sha256": "6a8136fb0e617d02fcd46e5d80e2701fcdb42cd696f2a5100a4b230f4d84d81a"
+ "sha256": "d45e6a22eebd5940372f5fec6632f151444169d44d0f057690c191f35a66322d"
 }

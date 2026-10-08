@@ -1,156 +1,84 @@
 {
  "canvas": [
   1440,
-  473
+  415
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  20.6,
+  1373.0,
+  394.6
  ],
  "texts": [
   {
-   "text": "Track 18.2",
-   "size": 28,
-   "bbox": [
-    185.3,
-    50.1,
-    348.1,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and Amina",
+   "text": "It rains all day",
    "size": 32,
    "bbox": [
-    127.2,
-    287.0,
-    406.1,
-    315.2
+    90.4,
+    342.2,
+    349.1,
+    370.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "what we will do if the",
+   "text": "The bus does",
+   "size": 34,
+   "bbox": [
+    426.3,
+    300.6,
+    680.2,
+    331.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "not come",
+   "size": 34,
+   "bbox": [
+    464.4,
+    340.6,
+    642.1,
+    371.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "You wake up late",
    "size": 26,
    "bbox": [
-    128.2,
-    356.9,
-    405.1,
-    380.6
+    762.1,
+    346.1,
+    1011.4,
+    369.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "water comes up",
-   "size": 26,
+   "text": "The power goes off",
+   "size": 24,
    "bbox": [
-    162.3,
-    388.9,
-    371.0,
-    412.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Track 18.3",
-   "size": 28,
-   "bbox": [
-    638.6,
-    50.1,
-    801.4,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and Tomas",
-   "size": 32,
-   "bbox": [
-    577.5,
-    287.0,
-    862.5,
-    315.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "the call that comes when",
-   "size": 26,
-   "bbox": [
-    555.7,
-    356.9,
-    884.3,
-    380.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "the roads are bad",
-   "size": 26,
-   "bbox": [
-    604.8,
-    388.9,
-    835.2,
-    412.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Track 18.4",
-   "size": 28,
-   "bbox": [
-    1091.9,
-    50.1,
-    1254.7,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "six people, six plans",
-   "size": 26,
-   "bbox": [
-    1041.7,
-    356.9,
-    1304.9,
-    380.6
+    1090.8,
+    347.7,
+    1349.7,
+    369.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Yuki asks Amina what will happen if the water comes up and ends up owning the list, Dani asks Tomas whether the hospital rings him when the roads are bad, and Amina says what each of the six will do.",
+ "alt": "The four things the table asks about, each on its own card: it rains all day, the bus does not come, you wake up late, and the power goes off.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  1.8020833333333333
  ],
- "sha256": "ab423dfb92e1daf3d8cfa2058b64f03e1b0a4cd5f80da662305d3eaef5997a44"
+ "sha256": "1eeda44b53a04de71a710abced98a0a44c0176931809a089682029f57f60aab8"
 }

@@ -13,7 +13,7 @@ FIGURES = {
             'imperatives, order words and adverbs, and three things the learner will '
             'be able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Mr Okonkwo', 'home', 'repairs slowly and once'),
          ('Amina', 'shop', 'builds her display quickly'),
          ('Dani', 'kitchen', 'cooks fast and loudly'),
@@ -26,14 +26,14 @@ FIGURES = {
             'cooks fast and loudly, Maya makes small books by hand, Tomas can sew a '
             'straight line, and Yuki is learning to make a bowl.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('A cake', 'kitchen'), ('A small book', 'book'), ('A shelf', 'home'),
          ('A pot of soup', 'cup'), ('A straight line', 'nurse'), ('A bowl', 'shop')],
         height=600,
         alt='Six things people make, each on its own card: a cake, a small book, a '
             'shelf, a pot of soup, a straight line and a bowl.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('bowl', 0.38, 0.11), ('spoon', 0.50, 0.30),
          ('layer', 0.58, 0.545), ('glue', 0.64, 0.785), ('brush', 0.72, 0.915)],
         height=620, draw=F.work_surface,
@@ -42,7 +42,7 @@ FIGURES = {
             'another, a tube of glue and a brush. Five numbered lines run to the '
             'right for the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('Mix it well.', 'the verb alone, first',
          'Press it. Do not push it.', [0.50]),
         ('First… then… slowly', 'when, and how',
@@ -53,7 +53,7 @@ FIGURES = {
             'right the order words and the -ly words, with a mark at each end for '
             'the sequence they carry.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('first', 'warm the teapot'), ('then', 'one spoon each'),
          ('after that', 'pour slowly'), ('wait', 'four minutes'),
          ('finally', 'pour it out')],
@@ -62,7 +62,7 @@ FIGURES = {
             'for each person, after that pour the water on slowly, wait four '
             'minutes, and finally pour it out.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 10.2', 'Amina and Yuki', 'kitchen', 'a first lesson in making something'),
          ('Track 10.3', 'Dani and Maya', 'clock', 'following a recipe badly'),
          ('Track 10.4', 'Amina', 'person', 'five people, five ways of working')],
@@ -71,7 +71,7 @@ FIGURES = {
             'something, Dani follows a recipe out of order while Maya watches, and '
             'Amina describes five people and five ways of working.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — teaching', ['one step at a time', 'say how, not only what',
                                'say the one mistake', 'wait'], 'person'),
         ('Card B — learning', ['do each step', 'say what you see',
@@ -82,7 +82,7 @@ FIGURES = {
             'Card B, learning: do each step, say what you see, ask when you are not '
             'sure, tidy as you go.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('the expert writes it', 'book'), ('a step goes missing', 'moon'),
          ('a beginner reads it', 'person'), ('the hands stop', 'clock'),
          ('there is the step', 'sun')],
@@ -92,7 +92,7 @@ FIGURES = {
             'without asking, a beginner reads it, the beginner’s hands stop, and the '
             'place where they stopped is the missing step.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('a flat-pack box', 'home', 'no words at all, only diagrams'),
          ('a recipe', 'kitchen', 'every thing first, in a list'),
          ('a safety card', 'bus', 'symbols, for somebody frightened')],
@@ -102,7 +102,7 @@ FIGURES = {
             'first in a list; and a safety card of symbols, for somebody frightened '
             'and in a hurry.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('First', 'Warm the teapot and pour the water away.'),
          ('Then', 'One spoon of tea for each person.'),
          ('After that', 'Pour the water on slowly.'),
@@ -111,7 +111,7 @@ FIGURES = {
         alt='The shape of the instructions the learner is about to write, in four '
             'steps marked first, then, after that and finally.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('Show me the first step and I will copy it.', 'asking to be shown, not told'),
          ('Not that hard — press it like this.', 'correcting how, not what'),
          ('Wait, go back one step.', 'stopping somebody who has run ahead'),
@@ -122,7 +122,7 @@ FIGURES = {
             'how rather than what, stopping somebody who has run ahead, and checking '
             'that it is learned.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('A street by machine', ['one afternoon', 'cheaper', 'the same everywhere'], 'slab'),
         ('A street by hand', ['one stone at a time', 'six square metres a day',
                               'a wave, a ship, a star'], 'stones'),
@@ -131,7 +131,7 @@ FIGURES = {
             'the same street everywhere. By hand: one small stone at a time, about '
             'six square metres in a day, in a design of a wave, a ship or a star.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can tell somebody how to make or repair something', False),
          ('I can use first, then, after that and finally in order', False),
          ('I can say how to do something, using adverbs', False),

@@ -1,115 +1,168 @@
 {
  "canvas": [
   1440,
-  531
+  577
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  74.0,
+  28.6,
+  1366.0,
+  548.7
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    229.6,
+    203.5,
+    330.4,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "2.",
-   "size": 32,
+   "text": "is meeting her sister at nine",
+   "size": 26,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    96.8,
+    245.0,
+    463.2,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "Tomas",
+   "size": 34,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    659.7,
+    203.5,
+    780.3,
+    233.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "is working, as always",
+   "size": 28,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    571.5,
+    244.2,
+    868.5,
+    268.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "5.",
-   "size": 32,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    1099.7,
+    203.5,
+    1220.3,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is closing at two",
+   "size": 28,
+   "bbox": [
+    1046.8,
+    244.2,
+    1273.2,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    483.5,
+    323.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is going to cook for eight",
+   "size": 28,
+   "bbox": [
+    105.4,
+    524.2,
+    454.6,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is doing nothing, as a plan",
+   "size": 28,
+   "bbox": [
+    534.8,
+    524.2,
+    905.2,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is going to ask everybody",
+   "size": 28,
+   "bbox": [
+    979.6,
+    524.2,
+    1340.4,
+    548.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
- "leaders": [
-  [
-   414.4,
-   132.7,
-   846,
-   45.3
-  ],
-  [
-   452.8,
-   203.2,
-   846,
-   155.3
-  ],
-  [
-   491.2,
-   273.7,
-   846,
-   265.3
-  ],
-  [
-   593.6,
-   339.5,
-   846,
-   375.3
-  ],
-  [
-   670.4,
-   424.1,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "One week in a diary seen as a page. The first row carries a solid block with a time and another person in it, the second an empty outline, the third three small faint marks, the fourth three blocks that repeat every week, and the fifth nothing at all. Five numbered lines run to the right for the learner to write each word.",
+ "alt": "What each of the six people at number 14 is doing on Saturday: Maya is meeting her sister at nine, Tomas is working, Amina is closing the shop at two, Dani is going to cook for eight, Mr Okonkwo is doing nothing as a plan, and Yuki is going to ask everybody to come.",
  "placed_in": [
   6.260416666666667,
-  2.3125
+  2.5104166666666665
  ],
- "sha256": "6f753e02db92eea2811789b200dfa3c6c7f84f12e4549e313ea0b6f03a81af82"
+ "sha256": "d62ff3bcda218c1fa1191dd62ebf926e2afe52ad578e5ddfcc49af078dfc4cb0"
 }

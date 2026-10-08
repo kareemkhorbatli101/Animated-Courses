@@ -1,144 +1,115 @@
 {
  "canvas": [
   1440,
-  508
+  531
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  117,
+  26.3,
+  1353,
+  504.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 warning",
-   "size": 34,
+   "text": "1.",
+   "size": 32,
    "bbox": [
-    199.8,
-    58.2,
-    540.2,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say what is coming and when",
-   "size": 22,
-   "bbox": [
-    138.0,
-    152.8,
-    502.7,
-    172.8
+    856,
+    33.9,
+    890.4,
+    62.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say what will stop",
-   "size": 28,
+   "text": "2.",
+   "size": 32,
    "bbox": [
-    138.0,
-    204.9,
-    422.3,
-    229.4
+    856,
+    143.9,
+    890.4,
+    172.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "do not say what to do",
-   "size": 28,
+   "text": "3.",
+   "size": 32,
    "bbox": [
-    138.0,
-    260.9,
-    481.5,
-    285.4
+    856,
+    253.9,
+    890.4,
+    282.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "wait",
-   "size": 28,
+   "text": "4.",
+   "size": 32,
    "bbox": [
-    138.0,
-    316.9,
-    205.8,
-    341.4
+    856,
+    363.9,
+    890.4,
+    392.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Card B \u2014 deciding",
-   "size": 34,
+   "text": "5.",
+   "size": 32,
    "bbox": [
-    895.9,
-    58.2,
-    1244.1,
-    88.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say your plan",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1050.2,
-    173.4
+    856,
+    473.9,
+    890.4,
+    502.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "hear the problem",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1112.3,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "change one thing",
-   "size": 28,
-   "bbox": [
-    838.0,
-    260.9,
-    1113.0,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say the new plan",
-   "size": 28,
-   "bbox": [
-    838.0,
-    316.9,
-    1105.8,
-    341.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
- "leaders": [],
+ "leaders": [
+  [
+   184.0,
+   170.3,
+   846,
+   45.3
+  ],
+  [
+   305.6,
+   198.5,
+   846,
+   155.3
+  ],
+  [
+   433.6,
+   226.7,
+   846,
+   265.3
+  ],
+  [
+   561.6,
+   264.3,
+   846,
+   375.3
+  ],
+  [
+   676.8,
+   358.3,
+   846,
+   485.3
+  ]
+ ],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, warning: say what is coming and when, say what will stop, do not say what to do, wait. Card B, deciding: say your plan, hear the problem, change one thing, say the new plan out loud.",
+ "alt": "Five skies in a row above one ground line: a clear sun, a cloud, a cloud with rain falling from it, a cloud with crossed flakes under it, and three flat bands low down with nothing visible behind them. Five numbered lines run to the right for the learner to write each word.",
  "placed_in": [
   6.260416666666667,
-  2.2083333333333335
+  2.3125
  ],
- "sha256": "d586a92b3a36a7091092262df2e65c71cf26774dc982f7b07f371a5955c415aa"
+ "sha256": "17d94a81e21a493de3999a29008a4ca020bf2d078ebb66c8fd07126725defd68"
 }

@@ -88,7 +88,9 @@ departures:
   # (box height cap 1.979 -> 3.094 in) and giving the covers a full page each
   # took A2.1 from 386 to 392 pages and A2.2 from 396 to 401. 410 is that
   # measurement plus a page of slack per volume.
-  pages_per_volume: {min: 230, max: 410}
+  # 2026-10-08, phase 2: raised again from 410. Giving each of the ten unit
+  # openers a whole page took A2.1 from 392 to 411 and A2.2 from 401 to 420.
+  pages_per_volume: {min: 230, max: 430}
 
 layout:
   body:

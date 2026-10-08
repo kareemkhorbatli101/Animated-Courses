@@ -1,107 +1,155 @@
 {
  "canvas": [
   1440,
-  440
+  428
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "A sign with a name",
+   "text": "the stop",
    "size": 34,
    "bbox": [
-    181.9,
-    67.8,
-    548.1,
-    98.2
+    110.2,
+    131.2,
+    269.8,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "a place name",
-   "size": 27,
+   "text": "get off by the",
+   "size": 28,
    "bbox": [
-    273.5,
-    282.5,
-    456.5,
-    307.0
+    82.9,
+    267.9,
+    297.1,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "you need the map",
-   "size": 27,
+   "text": "bridge",
+   "size": 28,
    "bbox": [
-    241.4,
-    328.5,
-    488.6,
-    353.0
+    138.7,
+    303.9,
+    241.3,
+    328.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "no use to a stranger",
-   "size": 27,
-   "bbox": [
-    228.2,
-    374.5,
-    501.8,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "A sign with a number",
+   "text": "back",
    "size": 34,
    "bbox": [
-    900.7,
-    67.8,
-    1309.3,
-    98.2
+    410.0,
+    131.2,
+    500.0,
+    161.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a number of two figures",
-   "size": 27,
+   "text": "towards the",
+   "size": 28,
    "bbox": [
-    943.1,
-    282.5,
-    1266.9,
-    307.0
+    360.0,
+    267.9,
+    550.0,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the next numbers in each direction",
-   "size": 27,
+   "text": "junction",
+   "size": 28,
    "bbox": [
-    867.8,
-    328.5,
-    1342.2,
-    353.0
+    390.9,
+    303.9,
+    519.1,
+    328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "anybody able to count",
-   "size": 27,
+   "text": "second left",
+   "size": 34,
    "bbox": [
-    953.4,
-    374.5,
-    1256.6,
-    399.0
+    613.5,
+    131.2,
+    826.5,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a lane with no sign",
+   "size": 22,
+   "bbox": [
+    602.4,
+    271.8,
+    837.6,
+    291.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the corner",
+   "size": 34,
+   "bbox": [
+    885.2,
+    131.2,
+    1084.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a green shop",
+   "size": 28,
+   "bbox": [
+    882.0,
+    267.9,
+    1088.0,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "above it",
+   "size": 34,
+   "bbox": [
+    1172.2,
+    131.2,
+    1327.8,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "number 14",
+   "size": 28,
+   "bbox": [
+    1164.7,
+    267.9,
+    1335.3,
+    292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +158,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "Two kinds of sign. One carries a place name, which only helps somebody who already knows the map. The other carries a number of two figures and the next numbers in each direction, which helps anybody able to count.",
+ "arrows": 0,
+ "alt": "One walk as five steps on a line: get off at the stop by the bridge, walk back towards the junction, take the second road on the left into a lane with no sign, go on to the green shop on the corner, and number 14 is above it.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.8645833333333333
  ],
- "sha256": "3ed8d64fe3fce7cfbe40a26913ddf3d58f5f8179c2cb9ce5d558e24e803e7c29"
+ "sha256": "424c7e8a0bc16a80e2ab5d99ef9593ec7327a824b5e2160792b212163813b82b"
 }

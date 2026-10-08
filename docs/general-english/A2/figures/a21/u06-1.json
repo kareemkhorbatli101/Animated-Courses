@@ -143,12 +143,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Plus track: Parts 7 to 9, when you are ready",
+   "text": "Plus track: Parts 7 to 10, optional",
    "size": 44,
    "bbox": [
     190,
     3226.0,
-    1283.0,
+    1025.7,
     3264.6
    ],
    "fill": "#1F3864",
@@ -164,5 +164,5 @@
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "1d0cea983d81c61b3f838405388316deebd6a1bbaf913148ad902e855196c400"
+ "sha256": "d569ee7afbfc40f03314908c7377e3a890ce3eecc87956368702c7becc210842"
 }

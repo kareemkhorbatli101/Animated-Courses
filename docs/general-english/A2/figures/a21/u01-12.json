@@ -1,107 +1,107 @@
 {
  "canvas": [
   1440,
-  495
+  595
  ],
  "bounds": [
-  57,
-  24.5,
-  1383,
-  470.5
+  57.0,
+  29.5,
+  1383.0,
+  565.5
  ],
  "texts": [
   {
-   "text": "You must be the new neighbour.",
-   "size": 28,
+   "text": "Present simple",
+   "size": 38,
    "bbox": [
-    105.4,
-    60.7,
-    614.6,
-    85.2
+    209.8,
+    56.4,
+    530.2,
+    89.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "opening a conversation",
-   "size": 28,
+   "text": "he works \u00b7 she opens",
+   "size": 32,
    "bbox": [
-    919.6,
-    60.7,
-    1290.4,
-    85.2
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Let me show you where the post boxes are.",
-   "size": 22,
-   "bbox": [
-    88.9,
     179.6,
-    631.1,
-    199.6
+    139.1,
+    560.4,
+    167.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "showing somebody around",
-   "size": 28,
+   "text": "now",
+   "size": 24,
    "bbox": [
-    892.9,
-    175.7,
-    1317.1,
-    200.2
+    342.1,
+    326.6,
+    397.9,
+    348.1
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "The shop closes early on Saturday.",
-   "size": 26,
+   "text": "Maya works in a bookshop.",
+   "size": 30,
    "bbox": [
-    104.8,
-    291.5,
-    615.2,
-    315.2
+    140.5,
+    390.7,
+    599.5,
+    417.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "giving useful local information",
-   "size": 28,
+   "text": "Present continuous",
+   "size": 38,
    "bbox": [
-    863.5,
-    290.7,
-    1346.5,
-    315.2
+    862.0,
+    56.4,
+    1278.0,
+    89.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "am / is / are + -ing",
+   "size": 32,
+   "bbox": [
+    904.5,
+    139.1,
+    1235.5,
+    167.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Just knock if you need anything.",
-   "size": 28,
+   "text": "now",
+   "size": 24,
    "bbox": [
-    105.0,
-    405.7,
-    615.0,
-    430.2
+    1042.1,
+    326.6,
+    1097.9,
+    348.1
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "offering help",
-   "size": 28,
+   "text": "Tomas is working nights.",
+   "size": 30,
    "bbox": [
-    1003.7,
-    405.7,
-    1206.3,
-    430.2
+    859.9,
+    390.7,
+    1280.1,
+    417.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +110,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 4,
- "alt": "Four things a neighbour says, each with an arrow to what it does: opening a conversation, showing somebody around, giving useful local information, and offering help.",
+ "arrows": 0,
+ "alt": "The unit\u2019s grammar as two columns. On the left the present simple, with four marks spread across a timeline for something that happens again and again. On the right the present continuous, with one mark at now.",
  "placed_in": [
   6.260416666666667,
-  2.15625
+  2.5833333333333335
  ],
- "sha256": "2a378b02fc1980c07f2e9fe7f1607a7629ab770b523aa71b49f804e31316fd73"
+ "sha256": "a672b85cac039b035caa07090b812045337b1f60ccce8ba798bbc64cfd4dd39c"
 }

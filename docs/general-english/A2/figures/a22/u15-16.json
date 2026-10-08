@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 15.2",
+   "size": 28,
+   "bbox": [
+    185.3,
+    50.1,
+    348.1,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki and Amina",
+   "size": 32,
+   "bbox": [
+    127.2,
+    287.0,
+    406.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "have you ever?",
+   "size": 26,
+   "bbox": [
+    166.7,
+    356.9,
+    366.7,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 15.3",
+   "size": 28,
+   "bbox": [
+    638.6,
+    50.1,
+    801.4,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Maya and Dani",
+   "size": 32,
+   "bbox": [
+    586.8,
+    287.0,
+    853.2,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the lost travel papers",
+   "size": 26,
+   "bbox": [
+    580.5,
+    356.9,
+    859.5,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 15.4",
+   "size": 28,
+   "bbox": [
+    1091.9,
+    50.1,
+    1254.7,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina",
+   "size": 32,
+   "bbox": [
+    1116.6,
+    287.0,
+    1230.1,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "six people, six experiences",
+   "size": 24,
+   "bbox": [
+    1011.3,
+    358.5,
+    1335.4,
+    380.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Yuki finds out that Amina has never flown and has never wanted to, Dani tells Maya how he lost his travel papers twice, and Amina describes what each of the six has done.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "ad02112a632cd4a95d37db42a4887e10045d7795d28901478a4b5a41572b3823"
+}

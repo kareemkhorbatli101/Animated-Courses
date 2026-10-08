@@ -1,132 +1,96 @@
 {
  "canvas": [
   1440,
-  473
+  571
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  28.3,
+  1373.0,
+  542.3
  ],
  "texts": [
   {
-   "text": "Track 8.2",
-   "size": 28,
+   "text": "Swimming",
+   "size": 34,
    "bbox": [
-    195.0,
-    50.1,
-    338.3,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and Amina",
-   "size": 32,
-   "bbox": [
-    124.2,
-    287.0,
-    409.1,
-    315.2
+    176.0,
+    217.3,
+    374.6,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "asking a favour",
-   "size": 26,
+   "text": "Driving",
+   "size": 34,
    "bbox": [
-    166.3,
-    356.9,
-    367.1,
-    380.6
+    650.5,
+    217.3,
+    789.5,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 8.3",
-   "size": 28,
+   "text": "Cooking",
+   "size": 34,
    "bbox": [
-    648.4,
-    50.1,
-    791.6,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and the teacher",
-   "size": 32,
-   "bbox": [
-    532.9,
-    287.0,
-    907.1,
-    315.2
+    1087.4,
+    217.3,
+    1241.9,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the first lesson",
-   "size": 26,
+   "text": "A language",
+   "size": 34,
    "bbox": [
-    623.6,
-    356.9,
-    816.4,
-    380.6
+    167.4,
+    488.3,
+    383.3,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 8.4",
-   "size": 28,
+   "text": "An instrument",
+   "size": 34,
    "bbox": [
-    1101.7,
-    50.1,
-    1245.0,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
+    582.7,
+    488.3,
+    857.3,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "five people, five favours",
-   "size": 26,
+   "text": "Sewing",
+   "size": 34,
    "bbox": [
-    1016.4,
-    356.9,
-    1330.2,
-    380.6
+    1095.1,
+    488.3,
+    1234.2,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 6,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Dani asks Amina a favour, Yuki has her first swimming lesson, and Amina describes five people and the favours they ask.",
+ "alt": "Six things people learn, each on its own card: swimming, driving, cooking, a language, an instrument and sewing.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  2.4791666666666665
  ],
- "sha256": "845bde75ab85eb076df6a94488404bb45a681a00c9c56a2de2e46ea5a206a55c"
+ "sha256": "a06ec57f455d489975b3a02a9aa0252ee564e56c8b2a4166c6d9b714e3eaf301"
 }

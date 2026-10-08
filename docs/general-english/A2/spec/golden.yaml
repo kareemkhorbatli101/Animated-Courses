@@ -166,24 +166,28 @@ figures:
   source_per_unit: 4
   caption_pattern: '^\*Figure (\d+)\.(\d+) · (.+)\.\*$'
   # Numbered in document order, so Figure N.1 is the first the learner meets.
+  # Renumbered 2026-10-08 by tools/renumber_figures.py. The numbers are spread
+  # to leave room for the 27 new figures that land between them in phase 5;
+  # every job, every piece of artwork and every caption is unchanged. The gaps
+  # are deliberate and temporary.
   slots:
-    1:  {part: 'Unit',    job: unit_opener,      feeds: orientation}
-    2:  {part: 'Warm Up', job: scene,            feeds: fig_mcq}
-    3:  {part: 'Part 1',  job: category_set,     feeds: table_fill}
-    4:  {part: 'Part 1',  job: label_me,         feeds: matching}
-    5:  {part: 'Part 2',  job: grammar_contrast, feeds: focus_box}
-    6:  {part: 'Part 2',  job: timeline,         feeds: gapfill}
-    7:  {part: 'Part 3',  job: speakers,         feeds: script_match}
-    8:  {part: 'Part 4',  job: cue_cards,        feeds: roleplay}
-    9:  {part: 'Part 5',  job: process_strip,    feeds: text_mcq}
-    10: {part: 'Part 5',  job: world_strip,      feeds: text_qa}
-    11: {part: 'Part 6',  job: writing_frame,    feeds: writing}
-    12: {part: 'Part 7',  job: function_map,     feeds: matching}
-    13: {part: 'Part 8',  job: before_after,     feeds: text_qa}
-    14: {part: 'Part 10', job: progress_strip,   feeds: cando}
-  label_me_slot: 4
-  category_set_slot: 3
-  process_strip_slot: 9
+    1:  {part: 'Unit',    job: unit_opener_page, feeds: orientation, class: full_page}
+    4:  {part: 'Warm Up', job: scene,            feeds: fig_mcq}
+    7:  {part: 'Part 1',  job: category_set,     feeds: table_fill}
+    8:  {part: 'Part 1',  job: label_me,         feeds: matching}
+    12: {part: 'Part 2',  job: grammar_contrast, feeds: focus_box}
+    13: {part: 'Part 2',  job: timeline,         feeds: gapfill}
+    16: {part: 'Part 3',  job: speakers,         feeds: script_match}
+    21: {part: 'Part 4',  job: cue_cards,        feeds: roleplay}
+    23: {part: 'Part 5',  job: process_strip,    feeds: text_mcq}
+    25: {part: 'Part 5',  job: world_strip,      feeds: text_qa}
+    26: {part: 'Part 6',  job: writing_frame,    feeds: writing}
+    30: {part: 'Part 7',  job: function_map,     feeds: matching}
+    35: {part: 'Part 8',  job: before_after,     feeds: text_qa}
+    40: {part: 'Part 10', job: progress_strip,   feeds: cando}
+  label_me_slot: 8
+  category_set_slot: 7
+  process_strip_slot: 23
   # One box for every figure is the source's law, and it is right for the small
   # in-text ones. The opener and the teaching diagrams need more of the page, so
   # each slot may name its own box. Declared departure, 2026-10-07.
@@ -209,16 +213,16 @@ figures:
   # widest whole pixel inside the text area; heights are floored to whole px.
   # Check G11 asserts the invariant so it cannot be reintroduced.
   box_by_slot:
-    1:  {w: 6.2604166667, h: 4.5937500000}     # the unit opener owns the first page
-    4:  {w: 6.2604166667, h: 2.8958333333}     # label-me: the rules must be writable
-    5:  {w: 6.2604166667, h: 2.9479166667}     # the grammar contrast is the unit's one diagram
-    7:  {w: 6.2604166667, h: 2.4479166667}
-    8:  {w: 6.2604166667, h: 2.4479166667}
-    10: {w: 6.2604166667, h: 2.1979166667}
-    11: {w: 6.2604166667, h: 2.4479166667}
-    12: {w: 6.2604166667, h: 2.5416666667}
-    13: {w: 6.2604166667, h: 2.3437500000}
-    14: {w: 6.2604166667, h: 2.4479166667}
+    # slot 1 is full-page now and takes box_full_page, so it needs no entry
+    8:  {w: 6.2604166667, h: 2.8958333333}     # label-me: the rules must be writable
+    12: {w: 6.2604166667, h: 2.9479166667}     # the grammar contrast is the unit's one diagram
+    16: {w: 6.2604166667, h: 2.4479166667}
+    21: {w: 6.2604166667, h: 2.4479166667}
+    25: {w: 6.2604166667, h: 2.1979166667}
+    26: {w: 6.2604166667, h: 2.4479166667}
+    30: {w: 6.2604166667, h: 2.5416666667}
+    35: {w: 6.2604166667, h: 2.3437500000}
+    40: {w: 6.2604166667, h: 2.4479166667}
   px_width: 1440            # in-flow canvas
   px_width_full_page: 2480  # A4 at 300 DPI
   px_height_full_page: 3508

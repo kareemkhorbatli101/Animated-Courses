@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  495
+ ],
+ "bounds": [
+  57,
+  24.5,
+  1383,
+  470.5
+ ],
+ "texts": [
+  {
+   "text": "Excuse me, am I anywhere near",
+   "size": 28,
+   "bbox": [
+    109.1,
+    43.7,
+    610.9,
+    68.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the square?",
+   "size": 28,
+   "bbox": [
+    266.7,
+    77.7,
+    453.3,
+    102.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "asking without a map",
+   "size": 28,
+   "bbox": [
+    934.3,
+    60.7,
+    1275.7,
+    85.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "It is the third on your left, after the lights.",
+   "size": 22,
+   "bbox": [
+    96.2,
+    179.6,
+    623.8,
+    199.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "giving it in one line",
+   "size": 28,
+   "bbox": [
+    952.4,
+    175.7,
+    1257.6,
+    200.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I am not from here either.",
+   "size": 28,
+   "bbox": [
+    156.4,
+    290.7,
+    563.6,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saying you cannot help",
+   "size": 28,
+   "bbox": [
+    922.1,
+    290.7,
+    1287.9,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Do you want me to walk you to the corner?",
+   "size": 22,
+   "bbox": [
+    92.7,
+    409.6,
+    627.3,
+    429.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "offering more than was asked",
+   "size": 28,
+   "bbox": [
+    869.7,
+    405.7,
+    1340.3,
+    430.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "Four things people say when they ask or give the way, each with an arrow to what it does: asking without a map, giving it in one line, saying you cannot help, and offering more than was asked.",
+ "placed_in": [
+  6.260416666666667,
+  2.15625
+ ],
+ "sha256": "10eb4c3c40c1d7318c998d68b5089aa85b12a8c7e346f3d82e750fbeb619a077"
+}

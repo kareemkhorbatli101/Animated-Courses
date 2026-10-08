@@ -1,107 +1,131 @@
 {
  "canvas": [
   1440,
-  440
+  362
  ],
  "bounds": [
-  57.0,
-  21.8,
-  1413.0,
-  417.8
+  47,
+  17.9,
+  1393,
+  343.9
  ],
  "texts": [
   {
-   "text": "Before",
+   "text": "6.30",
    "size": 34,
    "bbox": [
-    301.5,
-    67.8,
-    428.5,
-    98.2
+    148.1,
+    97.9,
+    231.9,
+    128.3
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "the alarm four times",
-   "size": 27,
+   "text": "Maya gets up",
+   "size": 28,
    "bbox": [
-    226.6,
-    282.5,
-    503.4,
-    307.0
+    84.2,
+    234.6,
+    295.8,
+    259.1
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "ran for the train",
-   "size": 27,
-   "bbox": [
-    257.6,
-    328.5,
-    472.4,
-    353.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "arrived angry",
-   "size": 27,
-   "bbox": [
-    274.0,
-    374.5,
-    456.0,
-    399.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "After",
+   "text": "8.10",
    "size": 34,
    "bbox": [
-    1056.4,
-    67.8,
-    1153.6,
-    98.2
+    413.1,
+    97.9,
+    496.9,
+    128.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the phone in the kitchen",
-   "size": 27,
+   "text": "she catches the bus",
+   "size": 22,
    "bbox": [
-    939.3,
-    282.5,
-    1270.7,
-    307.0
+    331.3,
+    238.5,
+    578.7,
+    258.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "time for tea",
-   "size": 27,
+   "text": "9.00",
+   "size": 34,
    "bbox": [
-    1025.5,
-    328.5,
-    1184.5,
-    353.0
+    678.1,
+    97.9,
+    761.9,
+    128.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ten pages on the train",
-   "size": 27,
+   "text": "she starts work",
+   "size": 28,
    "bbox": [
-    954.5,
-    374.5,
-    1255.5,
-    399.0
+    597.3,
+    234.6,
+    842.7,
+    259.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "11.00",
+   "size": 34,
+   "bbox": [
+    931.2,
+    97.9,
+    1038.8,
+    128.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a short break",
+   "size": 28,
+   "bbox": [
+    879.1,
+    234.6,
+    1090.9,
+    259.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "18.00",
+   "size": 34,
+   "bbox": [
+    1196.2,
+    97.9,
+    1303.8,
+    128.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the shop closes",
+   "size": 28,
+   "bbox": [
+    1127.3,
+    234.6,
+    1372.7,
+    259.1
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -110,11 +134,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 1,
- "alt": "Jun\u2019s mornings before and after one small change. Before: he stopped the alarm four times, ran for the train and arrived angry. After: the phone in the kitchen, time for tea, and ten pages on the train.",
+ "arrows": 0,
+ "alt": "One weekday on a line, with five times marked: Maya gets up at half past six, catches the bus at ten past eight, starts work at nine, has a short break at eleven, and the shop closes at six.",
  "placed_in": [
   6.260416666666667,
-  1.9166666666666667
+  1.5729166666666667
  ],
- "sha256": "af6cb43974bfba238458879dbf9c8362531991c8281e6bf212468cf3006a0e5f"
+ "sha256": "b43bdc82a7d373d458f5fc3cce297438a905a4ea957a0ae0f3267b1fab1a0637"
 }

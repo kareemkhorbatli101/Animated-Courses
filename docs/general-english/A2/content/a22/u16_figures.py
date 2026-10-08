@@ -13,7 +13,7 @@ FIGURES = {
             'present perfect against the past simple, and three things the learner '
             'will be able to do by the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Amina', 'shop', 'has not changed the shelves'),
          ('Tomas', 'nurse', 'has worked nights since twenty-four'),
          ('Maya', 'home', 'has lived in three of the five flats'),
@@ -27,14 +27,14 @@ FIGURES = {
             'three of the five flats, Dani has changed nothing at all, Mr Okonkwo '
             'has seen off two owners, and Yuki has learned all of their names.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('A letter', 'notice'), ('A camera', 'camera'),
          ('A map', 'sign'), ('A telephone', 'mobile')],
         height=460, cols=4,
         alt='The four things the table asks about, each on its own card: a letter, a '
             'camera, a map and a telephone.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('in March', 0.293, 0.13), ('since March', 0.388, 0.30),
          ('for four years', 0.483, 0.47), ('four years ago', 0.578, 0.64),
          ('this year', 0.668, 0.80)],
@@ -47,7 +47,7 @@ FIGURES = {
             'finished. Five numbered lines run to the right for the learner to '
             'write each time phrase.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('She opened the shop eleven years ago.', 'a finished time you can name',
          'One point, and the sentence names it.', [0.28]),
         ('She has not changed it since.', 'from then until now',
@@ -58,7 +58,7 @@ FIGURES = {
             'the right the present perfect, with three marks running from that '
             'point up to now, because no time is named and the line is still open.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('eleven years ago', 'Amina opened the shop'),
          ('at twenty-four', 'Tomas started at the hospital'),
          ('four years ago', 'Maya moved in'),
@@ -70,7 +70,7 @@ FIGURES = {
             'twenty-four, Maya moved in four years ago, the market moved in the '
             'spring, and the square is still quiet this morning.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 16.2', 'Yuki and Mr Okonkwo', 'shop', 'what the street used to be'),
          ('Track 16.3', 'Dani and Maya', 'camera', 'the camera that still works'),
          ('Track 16.4', 'Amina', 'person', 'six people, six changes')],
@@ -79,7 +79,7 @@ FIGURES = {
             'street before, Dani asks Maya why she still uses a camera that takes '
             'film, and Amina describes what has changed for each of the six.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — asking', ['ask what was there before', 'ask again, further back',
                              'ask about one more thing', 'say what you think'], 'person'),
         ('Card B — telling', ['name the thing that was there', 'give one finished date',
@@ -92,7 +92,7 @@ FIGURES = {
             'finished date, give one thing that still runs, do not say whether it is '
             'better.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('looks wrong', 'cloud'), ('dated', 'camera'), ('thirty years', 'clock'),
          ('a period', 'book'), ('history', 'home')],
         height=460,
@@ -100,7 +100,7 @@ FIGURES = {
             'the next: it looks wrong, it looks dated, about thirty years pass, it '
             'becomes a period, and in the end it reads as history.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('Records', 'record', 'back thirty years later, because they are slow'),
          ('Trams', 'tram', 'hard to move, which is why they went and why they return'),
          ('The bicycle lane', 'bicycle', 'kept in the Netherlands, and back out of it')],
@@ -112,7 +112,7 @@ FIGURES = {
             'Dutch cities kept and which have travelled back out of the Netherlands '
             'to the countries that invented them.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('The finished time', 'The market moved in the spring.'),
          ('The line to now', 'The square has been quiet ever since.'),
          ('One thing before', 'There was a shoe shop on the corner until ten years ago.'),
@@ -122,7 +122,7 @@ FIGURES = {
             'finished time, one line that runs to now, one thing that was there '
             'before, and one thing that has not changed at all.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('There used to be a market here.', 'saying what was there before'),
          ('It has been like this since the spring.', 'giving a starting point for now'),
          ('It was better, and I would say that anyway.',
@@ -133,7 +133,7 @@ FIGURES = {
             'saying what was there before, giving a starting point for now, admitting '
             'your own opinion may be wrong, and saying that your information is old.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('The painting', ['every window', 'every sign', 'paid by the detail'], 'painting'),
         ('The street', ['the same window', 'the same sign',
                         'not the memory of anybody living'], 'home'),
@@ -144,7 +144,7 @@ FIGURES = {
             'signs, because the ones rebuilding it went back to the painting and not '
             'to the memory of anybody living.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can say when something finished and when something still runs', False),
          ('I can use since and for correctly', False),
          ('I can describe a place as it was and as it is', False),

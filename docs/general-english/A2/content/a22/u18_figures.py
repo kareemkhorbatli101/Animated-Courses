@@ -13,7 +13,7 @@ FIGURES = {
             'first conditional, and three things the learner will be able to do by '
             'the end of the unit.'),
 
- 2: lambda: F.scene(
+ 4: lambda: F.scene(
         [('Amina', 'shop', 'will move the freezer first'),
          ('Tomas', 'nurse', 'will go in early'),
          ('Maya', 'book', 'will put her books on the top shelf'),
@@ -27,7 +27,7 @@ FIGURES = {
             'shelf, Dani will sleep through it unless somebody wakes him, Mr '
             'Okonkwo will do nothing at all, and Yuki has written a list.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('It rains all day', 'rain'), ('The bus does not come', 'bus'),
          ('You wake up late', 'clock'), ('The power goes off', 'lamp')],
         height=460, cols=4,
@@ -35,7 +35,7 @@ FIGURES = {
             'all day, the bus does not come, you wake up late, and the power goes '
             'off.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('if', 0.293, 0.13), ('when', 0.388, 0.30), ('unless', 0.483, 0.47),
          ('as soon as', 0.578, 0.64), ('in case', 0.668, 0.80)],
         height=620, draw=F.branch_line,
@@ -45,7 +45,7 @@ FIGURES = {
             'things that may happen and may not. Five numbered lines run to the '
             'right for the learner to write each joining word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('If it rains,', 'the half that waits — the present',
          'It may happen, and no will is allowed here.', [0.28]),
         ('I will stay in.', 'the half that answers — will',
@@ -56,7 +56,7 @@ FIGURES = {
             'right the will half, with three marks running forward, because that is '
             'the only half of the sentence where the future is marked.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('at six', 'the rain comes'), ('at seven', 'the road floods'),
          ('at eight', 'Amina moves the freezer'), ('later', 'the hospital rings Tomas'),
          ('by ten', 'Dani will sleep through it')],
@@ -65,7 +65,7 @@ FIGURES = {
             'floods at seven, Amina moves the freezer at eight, the hospital rings '
             'Tomas at nine, and by ten Dani will sleep through it.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 18.2', 'Yuki and Amina', 'bag', 'what we will do if the water comes up'),
          ('Track 18.3', 'Dani and Tomas', 'nurse', 'the call that comes when the roads are bad'),
          ('Track 18.4', 'Amina', 'person', 'six people, six plans')],
@@ -75,7 +75,7 @@ FIGURES = {
             'whether the hospital rings him when the roads are bad, and Amina says '
             'what each of the six will do.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — asking', ['ask what will happen', 'ask if there is no time',
                              'ask what comes first', 'ask about your own absence'], 'person'),
         ('Card B — deciding', ['name one thing you will do', 'give one thing up out loud',
@@ -88,7 +88,7 @@ FIGURES = {
             'thing you will do, give one thing up out loud, name the first thing, '
             'say what you will do alone.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('the alarm', 'siren'), ('nobody moves', 'person'), ('they look up', 'clock'),
          ('the first to stand', 'person'), ('the rest move', 'home')],
         height=460,
@@ -97,7 +97,7 @@ FIGURES = {
             'moves, they look up and then at each other, the first person to stand '
             'decides it, and the rest move.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('Four hours', 'clock', 'enough to move a car and a freezer'),
          ('Eleven minutes', 'rain', 'almost nothing, and people go back indoors'),
          ('One minute', 'crack', 'enough to stop a train and open a fire station door')],
@@ -108,7 +108,7 @@ FIGURES = {
             'because people went back indoors for their papers; and one minute, '
             'which is enough to stop a train and open a fire station door.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('The if half', 'If the trains stop…'),
          ('What you will do', 'I will walk to the bridge.'),
          ('The unless half', 'Unless it is raining hard…'),
@@ -118,7 +118,7 @@ FIGURES = {
             'the thing that might happen, what you will do, the one thing that '
             'would change it, and who you will ring.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('If it comes to that, ring me.', 'offering help only for the bad case'),
          ('I will take it in case.', 'getting ready for something unlikely'),
          ('Unless I hear from you, I will come.', 'making silence mean yes'),
@@ -129,7 +129,7 @@ FIGURES = {
             'something unlikely, turning the other person’s silence into a yes, and '
             'closing the subject without making a plan at all.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('Under the ground', ['the first small shake', 'three kilometres a second',
                               'through rock'], 'crack'),
         ('Above the ground', ['a message down the line', 'the loudspeakers sound',
@@ -141,7 +141,7 @@ FIGURES = {
             'ground: a message down a telephone line, far faster, the loudspeakers '
             'sounding, and about sixty seconds before the ground moves.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can say what I will do if something happens', False),
          ('I can use if, when and unless with the right tense', False),
          ('I can agree a plan with somebody else', False),

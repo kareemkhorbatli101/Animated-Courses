@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Before",
+   "size": 34,
+   "bbox": [
+    301.5,
+    67.8,
+    428.5,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the alarm four times",
+   "size": 27,
+   "bbox": [
+    226.6,
+    282.5,
+    503.4,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "ran for the train",
+   "size": 27,
+   "bbox": [
+    257.6,
+    328.5,
+    472.4,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "arrived angry",
+   "size": 27,
+   "bbox": [
+    274.0,
+    374.5,
+    456.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "After",
+   "size": 34,
+   "bbox": [
+    1056.4,
+    67.8,
+    1153.6,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the phone in the kitchen",
+   "size": 27,
+   "bbox": [
+    939.3,
+    282.5,
+    1270.7,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "time for tea",
+   "size": 27,
+   "bbox": [
+    1025.5,
+    328.5,
+    1184.5,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ten pages on the train",
+   "size": 27,
+   "bbox": [
+    954.5,
+    374.5,
+    1255.5,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "Jun\u2019s mornings before and after one small change. Before: he stopped the alarm four times, ran for the train and arrived angry. After: the phone in the kitchen, time for tea, and ten pages on the train.",
+ "placed_in": [
+  6.260416666666667,
+  1.9166666666666667
+ ],
+ "sha256": "af6cb43974bfba238458879dbf9c8362531991c8281e6bf212468cf3006a0e5f"
+}

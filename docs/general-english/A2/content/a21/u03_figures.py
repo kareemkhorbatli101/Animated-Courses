@@ -13,7 +13,7 @@ FIGURES = {
             'present continuous against the present simple, and three things the '
             'learner will be able to do by the end of the unit.'),
 
- 2: lambda: F.before_after(
+ 4: lambda: F.before_after(
         ('Eight in the morning', ['buses stop at the corner', 'the market is opening',
                                   'everybody is walking quickly'], 'sun'),
         ('Eight at night', ['the market is closed', 'two people on the bench',
@@ -24,14 +24,14 @@ FIGURES = {
             'at night the market is closed, two people are on the bench and somebody '
             'is playing music.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('Market', 'shop'), ('Library', 'book'), ('Station', 'bus'),
          ('Park', 'sun'), ('Bridge', 'home'), ('Bench', 'cup')],
         height=600,
         alt='Six places in a city, each on its own card: market, library, station, '
             'park, bridge and bench.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('bridge', 0.10, 0.50), ('traffic', 0.30, 0.46), ('crossing', 0.52, 0.54),
          ('bench', 0.74, 0.44), ('market', 0.92, 0.52)],
         height=620, draw=F.streetscape,
@@ -39,7 +39,7 @@ FIGURES = {
             'road, a crossing, a bench and a market. Five numbered lines run to the '
             'right for the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('Present simple', 'it opens · they stop',
          'The market opens at six.', [0.12, 0.34, 0.56, 0.78]),
         ('Present continuous', 'is / are + -ing',
@@ -49,7 +49,7 @@ FIGURES = {
             'four marks across a timeline for a fact that holds every day. On the '
             'right the present continuous, with one mark at now.'),
 
- 6: lambda: F.timeline(
+ 13: lambda: F.timeline(
         [('6.00', 'the market opens'), ('9.00', 'the library opens'),
          ('17.30', 'the traffic stops'), ('18.00', 'the city goes home'),
          ('23.30', 'the last train')],
@@ -58,7 +58,7 @@ FIGURES = {
             'nine, the traffic stops at half past five, the city goes home at six, '
             'and the last train leaves at half past eleven.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 3.2', 'Maya and Dani', 'bus', 'waiting at the bus stop'),
          ('Track 3.3', 'Yuki and the clerk', 'shop', 'buying a ticket'),
          ('Track 3.4', 'Mr Okonkwo', 'cup', 'the city at six')],
@@ -67,7 +67,7 @@ FIGURES = {
             'Yuki buys a ticket from a clerk, and Mr Okonkwo describes the city at '
             'six in the evening.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — the visitor', ['ask the way to one place', 'ask about the bus',
                                   'ask about opening times', 'thank them'], 'person'),
         ('Card B — the local', ['give two directions', 'say how long it takes',
@@ -79,7 +79,7 @@ FIGURES = {
             'Card B, the local: give two directions, say how long it takes, say what '
             'is happening now, answer the opening question.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('the market opens', 'shop'), ('the library opens', 'book'),
          ('the traffic stops', 'bus'), ('the city goes home', 'person'),
          ('the last train', 'moon')],
@@ -88,7 +88,7 @@ FIGURES = {
             'market opens, the library opens, the traffic stops, the city goes home, '
             'and the last train leaves.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('Tokyo', 'moon', 'quiet between the last train and the first'),
          ('Madrid', 'cup', 'still eating at eleven at night'),
          ('Cairo', 'shop', 'all-night bakeries and the smell of bread')],
@@ -97,7 +97,7 @@ FIGURES = {
             'first, Madrid is still eating at eleven, and Cairo has all-night '
             'bakeries and the smell of bread.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('The place and the fact', 'The market opens at six every morning.'),
          ('What is the same every day', 'The same four tables are there.'),
          ('At the moment', 'At the moment she is putting the boxes into a van.'),
@@ -107,7 +107,7 @@ FIGURES = {
             'steps: the place and a fact about it, what is the same every day, what '
             'is happening at the moment, and one more thing happening now.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('Excuse me, how do I get to the station?', 'asking the way'),
          ('Does this bus go to the centre?', 'checking you are on the right bus'),
          ('Sorry, could you say that again?', 'asking somebody to repeat'),
@@ -117,7 +117,7 @@ FIGURES = {
             'does: asking the way, checking you are on the right bus, asking '
             'somebody to repeat, and asking about another time.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('The real city', ['lines are not straight', 'the real distance',
                            'you cannot read it'], 'home'),
         ('The diagram', ['straight lines', 'the same corners',
@@ -127,7 +127,7 @@ FIGURES = {
             'not straight and you cannot read it. The diagram has straight lines, the '
             'same corners, and tells you which line and how many stops.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can name the main places and things in a city', False),
          ('I can use the present simple for facts and the continuous for now', False),
          ('I can understand a conversation at a bus stop or a station', False),

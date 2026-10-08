@@ -13,7 +13,7 @@ FIGURES = {
             'the past simple with irregular verbs, and three things the learner will '
             'be able to do by the end of the unit.'),
 
- 2: lambda: F.timeline(
+ 4: lambda: F.timeline(
         [('7.00', 'he left the flat'), ('7.10', 'he forgot his wallet'),
          ('7.30', 'he missed the coach'), ('9.00', 'he woke up late'),
          ('9.30', 'the class was off')],
@@ -22,14 +22,14 @@ FIGURES = {
             'at ten past, missed the coach at half past, woke up two stops late at '
             'nine, and found at half past nine that the class was off.'),
 
- 3: lambda: F.category_set(
+ 7: lambda: F.category_set(
         [('Suitcase', 'home'), ('Wallet', 'book'), ('Charger', 'clock'),
          ('Umbrella', 'moon'), ('Coach', 'bus'), ('Taxi', 'shop')],
         height=600,
         alt='Six things you take on a journey, each on its own card: suitcase, '
             'wallet, charger, umbrella, coach and taxi.'),
 
- 4: lambda: F.label_me(
+ 8: lambda: F.label_me(
         [('gate', 0.10, 0.48), ('seat', 0.32, 0.44), ('luggage', 0.54, 0.52),
          ('coach', 0.74, 0.46), ('delay', 0.92, 0.50)],
         height=620, draw=F.station,
@@ -37,7 +37,7 @@ FIGURES = {
             'and a board showing a delay. Five numbered lines run to the right for '
             'the learner to write each word.'),
 
- 5: lambda: F.grammar_contrast(
+ 12: lambda: F.grammar_contrast(
         ('Regular', 'verb + -ed',
          'He missed the coach.', [0.16, 0.38, 0.60, 0.82]),
         ('Irregular', 'the middle sound changes',
@@ -47,7 +47,7 @@ FIGURES = {
             'take -ed, shown as four even marks. On the right irregular verbs, where '
             'the middle sound changes and there is no rule, shown as one mark.'),
 
- 6: lambda: F.world_strip(
+ 13: lambda: F.world_strip(
         [('go → went', 'bus', 'leave → left · take → took'),
          ('catch → caught', 'clock', 'find → found · sleep → slept'),
          ('forget → forgot', 'moon', 'find → found · pay → paid')],
@@ -56,7 +56,7 @@ FIGURES = {
             'took; catch caught, find found and sleep slept; forget forgot and pay '
             'paid.'),
 
- 7: lambda: F.speakers(
+ 16: lambda: F.speakers(
         [('Track 6.2', 'Maya and Dani', 'person', 'what happened to you?'),
          ('Track 6.3', 'Yuki and the staff', 'bus', 'lost property'),
          ('Track 6.4', 'Amina', 'shop', 'five journeys')],
@@ -65,7 +65,7 @@ FIGURES = {
             'reports a lost umbrella to station staff, and Amina tells five journey '
             'stories from one week.'),
 
- 8: lambda: F.cue_cards(
+ 21: lambda: F.cue_cards(
         ('Card A — the listener', ['ask what happened', 'say something kind',
                                    'ask what happened next', 'ask how late'],
          'person'),
@@ -78,7 +78,7 @@ FIGURES = {
             'Card B, the teller: say when you left, what you forgot, what went wrong '
             'next, and finish with one good thing.'),
 
- 9: lambda: F.process_strip(
+ 23: lambda: F.process_strip(
         [('you leave', 'home'), ('the first bus', 'bus'),
          ('the connection', 'clock'), ('the second bus', 'bus'),
          ('you arrive', 'shop')],
@@ -87,7 +87,7 @@ FIGURES = {
             'the first bus, the connection, the second bus, and you arrive. The '
             'connection is the link that breaks.'),
 
- 10: lambda: F.world_strip(
+ 25: lambda: F.world_strip(
         [('the Andes', 'home', 'eleven hours to climb what a car does in five'),
          ('Norway', 'cup', 'a ferry every half hour across the water'),
          ('Bangladesh', 'moon', 'a boat is faster when the road is under water')],
@@ -96,7 +96,7 @@ FIGURES = {
             'the Andes, a ferry every half hour in Norway, and a boat '
             'instead of a road in Bangladesh in the wet season.'),
 
- 11: lambda: F.writing_frame(
+ 26: lambda: F.writing_frame(
         [('When you left', 'I left home at six for a train at seven.'),
          ('What went wrong', 'Then I found I had the wrong day on the ticket.'),
          ('What somebody did', 'The man at the window changed it.'),
@@ -106,7 +106,7 @@ FIGURES = {
             'steps: when you left, what went wrong, what somebody did about it, and '
             'how it ended.'),
 
- 12: lambda: F.function_map(
+ 30: lambda: F.function_map(
         [('I left a bag on the ten past four.', 'saying what you lost and where'),
          ('It is black, with a red handle.', 'describing it so they can find it'),
          ('Who should I speak to about this?', 'finding the right person'),
@@ -116,7 +116,7 @@ FIGURES = {
             'it does: saying what you lost and where, describing it so they can find '
             'it, finding the right person, and asking them to keep it for you.'),
 
- 13: lambda: F.before_after(
+ 35: lambda: F.before_after(
         ('At the coast', ['sea level', 'the ordinary air',
                           'five hours by car'], 'cup'),
         ('Four and a half thousand', ['oxygen in the carriages', 'zigzags up the mountain',
@@ -127,7 +127,7 @@ FIGURES = {
             'up: oxygen in the carriages, zigzags cut into the mountain, and eleven '
             'hours by train.'),
 
- 14: lambda: F.progress_strip(
+ 40: lambda: F.progress_strip(
         [('I can name the things you take and lose on a journey', False),
          ('I can use irregular past verbs and past time phrases', False),
          ('I can understand somebody telling the story of a bad journey', False),

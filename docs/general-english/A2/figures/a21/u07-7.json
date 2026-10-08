@@ -1,132 +1,96 @@
 {
  "canvas": [
   1440,
-  473
+  571
  ],
  "bounds": [
-  57.0,
-  23.4,
-  1383.0,
-  449.4
+  67.0,
+  28.3,
+  1373.0,
+  542.3
  ],
  "texts": [
   {
-   "text": "Track 7.2",
-   "size": 28,
+   "text": "Quality",
+   "size": 34,
    "bbox": [
-    195.0,
-    50.1,
-    338.3,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Yuki and Maya",
-   "size": 32,
-   "bbox": [
-    136.5,
-    287.0,
-    396.8,
-    315.2
+    206.5,
+    217.3,
+    344.2,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "which coat?",
-   "size": 26,
+   "text": "Value",
+   "size": 34,
    "bbox": [
-    189.6,
-    356.9,
-    343.7,
-    380.6
+    666.8,
+    217.3,
+    773.2,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 7.3",
-   "size": 28,
+   "text": "Brand",
+   "size": 34,
    "bbox": [
-    648.4,
-    50.1,
-    791.6,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Dani and the assistant",
-   "size": 28,
-   "bbox": [
-    541.9,
-    290.1,
-    898.1,
-    314.6
+    1107.6,
+    217.3,
+    1221.8,
+    247.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "in the repair shop",
-   "size": 26,
+   "text": "Battery",
+   "size": 34,
    "bbox": [
-    605.0,
-    356.9,
-    835.0,
-    380.6
+    203.7,
+    488.3,
+    347.0,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Track 7.4",
-   "size": 28,
+   "text": "Screen",
+   "size": 34,
    "bbox": [
-    1101.7,
-    50.1,
-    1245.0,
-    74.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Amina",
-   "size": 32,
-   "bbox": [
-    1116.6,
-    287.0,
-    1230.1,
-    315.2
+    654.1,
+    488.3,
+    785.9,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "five people choosing",
-   "size": 26,
+   "text": "Deal",
+   "size": 34,
    "bbox": [
-    1039.0,
-    356.9,
-    1307.7,
-    380.6
+    1121.7,
+    488.3,
+    1207.6,
+    518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 6,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Yuki and Maya disagree about a coat, Dani asks about a repair, and Amina describes five people choosing.",
+ "alt": "Six things people weigh up when they choose, each on its own card: quality, value, brand, battery, screen and deal.",
  "placed_in": [
   6.260416666666667,
-  2.0520833333333335
+  2.4791666666666665
  ],
- "sha256": "8006b235a1e30f9cbea7671dffc63ce9e12474b79341bb2a1ca79de6b072fa11"
+ "sha256": "cb462bb00f3d2b5b03840f9a0ca2a8c7783465df52e6f40bc818889b29085744"
 }
