@@ -1,0 +1,125 @@
+# Reading the Five Fields — specification (single source of truth)
+title: "Reading the Five Fields"
+subtitle: "200 Graded Passages That Build What the SAT Assumes"
+companion: "Words in Context"
+words_per_passage: 300
+
+fields:
+  HIS: "History and Civics"
+  BIO: "Biology and Earth Science"
+  PHY: "Physical Science"
+  HUM: "Humanities"
+  SOC: "Social Science"
+field_order: [HIS, BIO, PHY, HUM, SOC]
+
+# The depth ladder. Every strand runs through these four moves in this order.
+moves:
+  1: phenomenon
+  2: mechanism
+  3: evidence
+  4: dispute
+move_notes:
+  phenomenon: "One concrete case, named and dated: what happens and what it looks like."
+  mechanism: "How it works and how much: cause, comparison, magnitude."
+  evidence: "How anyone knows: the study, the document, the measurement, and its limits."
+  dispute: "What is contested: two readings of one body of evidence, and the writer's stance."
+
+sat_frames:
+  - "founding document: the claim and its warrant"
+  - "paired texts: two sides of one question"
+  - "speech or essay: argument and audience"
+  - "science report: question, method, result"
+  - "science report: method and limitation"
+  - "data commentary: a figure described in words"
+  - "literary excerpt: narrator and stance"
+  - "humanities criticism: a judgement defended"
+  - "social study: design and inference"
+  - "historical narrative: event and consequence"
+
+levels:
+  1:
+    name: Foundation
+    words_min: 288
+    words_max: 312
+    paras_min: 3
+    paras_max: 3
+    sent_mean_min: 13.0
+    sent_mean_max: 18.0
+    sent_max: 34
+    fk_min: 5.5
+    fk_max: 11.0
+    known_band: 16000
+    above_band_max: 6
+    terms_max: 4
+    gloss_all: true
+    sents_min: 12
+  2:
+    name: Developing
+    words_min: 288
+    words_max: 312
+    paras_min: 3
+    paras_max: 3
+    sent_mean_min: 16.0
+    sent_mean_max: 21.0
+    sent_max: 40
+    fk_min: 8.0
+    fk_max: 13.0
+    known_band: 22000
+    above_band_max: 6
+    terms_max: 5
+    gloss_all: true
+    sents_min: 11
+  3:
+    name: Target
+    words_min: 288
+    words_max: 312
+    paras_min: 3
+    paras_max: 4
+    sent_mean_min: 19.0
+    sent_mean_max: 24.0
+    sent_max: 46
+    fk_min: 10.5
+    fk_max: 15.0
+    known_band: 30000
+    above_band_max: 6
+    terms_max: 6
+    gloss_all: false
+    sents_min: 10
+  4:
+    name: Stretch
+    words_min: 288
+    words_max: 312
+    paras_min: 3
+    paras_max: 4
+    sent_mean_min: 21.0
+    sent_mean_max: 28.0
+    sent_max: 52
+    fk_min: 12.0
+    fk_max: 17.5
+    known_band: 40000
+    above_band_max: 6
+    terms_max: 6
+    gloss_all: false
+    sents_min: 9
+
+# Hu and Nation's coverage figures, as reported in the secondary literature: about 98
+# per cent of running words known for unassisted reading. Two per cent of a 300-word
+# passage is six words, which is where above_band_max comes from.
+# The known_band figures are form ranks in the wordfreq English corpus. They are a
+# proxy for Hu and Nation's 98 per cent coverage rule, not an identity with it, and
+# they were set by measurement rather than by assertion. The corpus is general and
+# subtitle-heavy, so ordinary concrete nouns rank surprisingly low in it: bark is
+# 8,895, moth 15,005, elk 15,157, glacier 13,358. Specialist vocabulary sits well
+# above that: lichen 38,474, seedling 39,551, isotope 23,875, nodule 66,138. The
+# bands below are placed between those two populations, so that a passage may use
+# the concrete vocabulary of its subject freely and must declare and gloss the
+# specialist vocabulary. Six words per 300 is the two per cent that the rule allows.
+coverage_rule: "at most six running words outside the level's assumed-known band, proper nouns and declared field terms excluded"
+
+checks:
+  per_passage: 3
+  total: 600
+  passes:
+    A: "Coverage and progression — the strand advances and the anchors are real."
+    B: "Language grading — length, sentence shape, readability, and the 98 per cent rule."
+    C: "Register and integrity — American usage, particulars, no second person."

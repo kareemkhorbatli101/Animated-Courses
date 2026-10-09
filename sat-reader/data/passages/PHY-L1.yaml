@@ -1,0 +1,416 @@
+field: PHY
+level: 1
+passages:
+  - id: PHY-S01-L1
+    strand: S01
+    title: "Eleven Weighings of One Stone"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Starts from the bare fact that repeated measurements of one object disagree, before error is classified."
+    vocab_link: [measure]
+    passage: |
+      A smooth stone from the bed of the river Aire is placed on a laboratory balance, which is an instrument that compares an unknown weight against a known one. The
+      reading is 48.213 grams. It is lifted off and put back, and the reading is
+      now 48.209. Eleven weighings in a row give eleven numbers. They differ in
+      the third decimal place, and sometimes in the second. Nothing has been
+      done to the stone between weighings. It has not been chipped, wetted or
+      warmed. The stone has one mass, and the instrument has given eleven
+      answers.
+
+      Some of the spread has obvious sources. A door opens and moves the air.
+      The bench carries a slight vibration from a corridor. A fingerprint adds a
+      film of oil that weighs something. The room is warming through the
+      morning, and the metal parts of the balance expand as it does. None of
+      these is a mistake in the ordinary sense. Nobody wrote the number down
+      wrong. They are the limits of the arrangement being used.
+
+      What a careful worker does next is not to pick the reading that looks
+      best. The eleven numbers are kept, and their average is taken, which here
+      is 48.211 grams. The spread of the eleven is also recorded, because that
+      spread is the honest statement of how well this balance can measure this
+      stone in this room. A result given as 48.211 grams, plus or minus 0.002,
+      says two things at once: a best figure and a width. A result given as
+      48.213 grams on its own looks more confident and tells the reader less.
+      Every quantity in a science report carries a width of that kind, whether
+      or not it is printed, and the habit of asking how wide is the beginning of reading such a report properly. Working laboratories record how many repeats were made.
+    anchors:
+      - take: "One stone weighed eleven times gives eleven different readings."
+        quote: "Eleven weighings in a row give eleven numbers."
+      - take: "The spread comes from the arrangement, not from mistakes."
+        quote: "They are the limits of the arrangement being used."
+      - take: "An honest result states a best figure and a width."
+        quote: "a best figure and a width"
+    terms:
+      - {term: "balance", gloss: "an instrument that compares an unknown weight against a known one", glossed: true}
+    facts:
+      - "Repeated weighings of the same object on a sensitive balance differ in the last decimal places."
+      - "Air movement, vibration, oil from fingers and temperature change all contribute."
+      - "A measured result is properly reported as a best estimate plus a stated spread."
+  - id: PHY-S02-L1
+    strand: S02
+    title: "A Hammer and a Feather"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Uses one filmed demonstration on the Moon to fix what gravity does when nothing else interferes."
+    vocab_link: [detect]
+    passage: |
+      On August 2, 1971, at the end of the last walk of the Apollo 15 mission,
+      David Scott stood in front of a television camera on the surface of the
+      Moon. In his right hand he held a geologist's hammer that weighed about
+      one and a half pounds on Earth. In his left he held a falcon feather. He
+      let go of both at the same moment. They fell together and landed together,
+      and the film runs for about one and a third seconds.
+
+      On Earth the same demonstration fails every time. A feather dropped beside
+      a hammer drifts and turns and arrives much later. The reason is not
+      weight. The reason is air. A feather has a large surface for its small
+      mass, so the air it must push aside slows it a great deal, while the same
+      air barely affects the hammer. Remove the air and the difference goes with
+      it. Galileo had argued for this result in the 1630s without being able to
+      produce it cleanly, because he had no way to remove the air from a room.
+
+      The Moon has no air to speak of. Scott had suggested the demonstration
+      himself, and the flight planners agreed to it partly because it would be
+      watched by schoolchildren. The fall also shows a second thing. Both
+      objects reached the ground in about one and a third seconds from a height
+      of about five feet, which is slower than the same drop on Earth. The Moon
+      pulls less hard. A sensitive instrument can detect that difference without
+      any dropping at all, but a hammer, a feather and a camera make it visible to anyone. The pull at the surface of the Moon is about one sixth of the pull at the surface of the Earth. Scott reported afterward that he had been slightly worried the feather would stick to his glove.
+    anchors:
+      - take: "A hammer and a feather dropped on the Moon fell together."
+        quote: "They fell together and landed together"
+      - take: "On Earth the difference is caused by air, not by weight."
+        quote: "The reason is air."
+      - take: "The fall is also slower than on Earth, because the Moon pulls less hard."
+        quote: "The Moon pulls less hard."
+    terms: []
+    facts:
+      - "David Scott dropped a hammer and a feather on the Moon on August 2, 1971, during Apollo 15."
+      - "They landed together because the Moon has effectively no air."
+      - "Galileo had argued for this result in the 1630s but could not remove air from a room."
+  - id: PHY-S03-L1
+    strand: S03
+    title: "Water, a Pipe and a Lit House"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Traces one chain of energy conversion from a reservoir to a light bulb, with the losses named."
+    vocab_link: [convert]
+    passage: |
+      Above the town of Foyers in the Scottish Highlands there is a lake, and
+      below it there is a power station. The lake stands about one hundred and
+      seventy meters higher than the turbine hall. Water runs down a steel pipe
+      under its own weight, strikes a wheel at the bottom, and turns it. The
+      turning wheel drives a generator, and the generator sends electricity
+      along wires to houses, some of them forty miles away. The whole
+      arrangement has been working since 1896, which makes it one of the oldest
+      such stations in Britain.
+
+      Nothing in that chain creates energy. Each step takes energy in one form
+      and gives most of it back in another. Water high up has energy because of
+      its position. Falling water has energy because of its motion. The spinning
+      generator has electrical energy, and the bulb in a kitchen converts most
+      of that into light and heat. At every step some of what went in does not
+      come out in the useful form. Water sliding down a pipe warms the pipe
+      slightly. Bearings warm. Wires warm. The air around the transformer warms.
+
+      Those losses are not large in a modern station. A good turbine and
+      generator together deliver about nine tenths of the energy that the
+      falling water carries. The old bulb was the weak link in the chain for a
+      century, because a filament lamp turned only about five percent of its
+      electricity into light and the rest into heat. That is why replacing the
+      bulbs in a town saves more energy than improving the turbines. The chain
+      is only as efficient as its worst step, and the worst step is usually the one closest to the user. A modern light-emitting diode turns about forty percent of its electricity into light.
+    anchors:
+      - take: "Each step in the chain changes energy from one form to another."
+        quote: "Each step takes energy in one form and gives most of it back in another."
+      - take: "Some energy leaves as heat at every step."
+        quote: "Water sliding down a pipe warms the pipe slightly."
+      - take: "The chain is only as efficient as its worst step."
+        quote: "The chain is only as efficient as its worst step"
+    terms: []
+    facts:
+      - "The Foyers power station in Scotland has operated since 1896."
+      - "A modern turbine and generator together deliver about ninety percent of the incoming energy."
+      - "A filament lamp converted only about five percent of its electricity into light."
+  - id: PHY-S04-L1
+    strand: S04
+    title: "A Pump That Grows Hot"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Puts the gas laws on a bicycle pump that anyone has held, with the measured temperature rise."
+    vocab_link: [transfer]
+    passage: |
+      Robert Boyle described the behavior of squeezed air in 1662, and anyone with a bicycle can repeat the core of it. Pump up a tire from flat and the barrel of the pump becomes hot to hold within about thirty strokes. The base of the pump, nearest the valve,
+      is the hottest part. Nothing is burning and nothing is rubbing hard enough
+      to explain it. A thermometer taped to the barrel will show a rise of
+      twenty degrees or more on a cool day. The heat comes from the air inside.
+
+      Air is mostly empty space. The molecules in it are far apart and moving
+      fast, and the push that a tire feels from the inside is the sum of
+      countless small collisions against the rubber. A pump stroke squeezes a
+      fixed quantity of air into a smaller volume. The piston moving down does
+      work on the air, and that work goes into the motion of the molecules, so
+      they move faster. Faster molecules are what a thermometer reports as a
+      higher temperature. The air has been heated without a flame anywhere near
+      it.
+
+      The same relation runs the other way, which is easier to feel than to
+      explain. Let the air out of a full tire quickly and the escaping stream is
+      noticeably cold, because the air expands as it leaves and does work
+      pushing the outside air aside. A refrigerator uses exactly this. It squeezes a gas until the gas is hot and lets that heat transfer to the kitchen through a radiator at the back. The gas is then allowed to expand inside the cabinet, where it is now colder than the food. Pressure, volume and temperature cannot be
+      changed one at a time. Fix any two and the third is decided.
+    anchors:
+      - take: "A bicycle pump grows hot because work is done on the air inside it."
+        quote: "The piston moving down does work on the air"
+      - take: "Temperature is a report on how fast the molecules are moving."
+        quote: "Faster molecules are what a thermometer reports as a higher temperature."
+      - take: "A refrigerator runs the same relation in reverse."
+        quote: "It squeezes a gas until the gas is hot"
+    terms: []
+    facts:
+      - "The barrel of a bicycle pump can warm by twenty degrees or more during use."
+      - "Compressing a gas raises its temperature because work is done on it."
+      - "A refrigerator compresses a gas, sheds the heat outside, then lets the gas expand inside."
+  - id: PHY-S05-L1
+    strand: S05
+    title: "The Fuse and the Kettle"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Grounds the circuit in one household failure, with the actual currents involved."
+    vocab_link: [flows]
+    passage: |
+      A kettle, a toaster and an iron are switched on in the same kitchen, and
+      the lights go out. In the cupboard under the stairs a small switch has
+      moved to the off position. Nothing is broken. The switch is a circuit
+      breaker, which is a device that opens the circuit when too much current
+      flows through it, and it has done what it was installed to do.
+
+      Electricity in a house behaves in a way that a water pipe makes easy to
+      picture. The voltage at the socket is like the pressure in a main. The
+      current is like the flow in gallons a minute. The resistance of whatever
+      is plugged in decides how much flows for a given pressure. A kettle has
+      low resistance because it is supposed to turn electricity into heat
+      quickly, so it draws about thirteen amps in a British house and about
+      twelve in an American one. A table lamp draws less than half an amp.
+      Adding the kettle, the toaster and the iron on one circuit asks for more
+      current than the wire in the wall was designed to carry.
+
+      The danger is not the appliance. The danger is the wire buried in the
+      plaster, which cannot be inspected and cannot shed its heat. Push too much
+      current through it and it warms, the insulation around it ages, and in the
+      worst case it sets fire to the joists beside it. The breaker is sized to
+      protect that wire and not the kettle. It is set below the current at which
+      the cable would overheat, so the circuit is broken long before the plaster
+      is. A householder who fits a larger breaker to stop the nuisance has
+      removed the only thing standing between the kitchen and the timber.
+    anchors:
+      - take: "The breaker opens the circuit when the current is too high."
+        quote: "opens the circuit when too much current flows through it"
+      - take: "Resistance decides how much current flows for a given voltage."
+        quote: "decides how much flows for a given pressure"
+      - take: "The breaker protects the buried cable, not the appliance."
+        quote: "The breaker is sized to protect that wire and not the kettle."
+    terms:
+      - {term: "circuit breaker", gloss: "a device that opens the circuit when too much current flows through it", glossed: true}
+    facts:
+      - "An electric kettle draws roughly twelve to thirteen amps."
+      - "A circuit breaker is rated to protect the fixed wiring rather than the appliance."
+      - "Overloaded cable overheats inside the wall, where the heat cannot escape."
+  - id: PHY-S06-L1
+    strand: S06
+    title: "The Bent Straw in a Glass"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Starts from one everyday appearance and names the single rule behind it, before the rule is generalized."
+    vocab_link: [absorbs]
+    passage: |
+      Ptolemy wrote about this effect in Alexandria in the second century. Stand a straw in a glass of water and look at it from the side. The straw
+      appears to break at the surface. The part under water seems to be at a
+      different angle from the part above, and if the glass is moved the break
+      moves with it. The straw is perfectly straight. A ruler laid against it in the air, and then in the water, demonstrates that no physical bending has occurred.
+
+      Light travels more slowly through water than through air, by about a
+      quarter. When a beam crosses the surface at an angle, the side of the beam
+      that enters first is slowed first, and the whole beam swings. The
+      technical word is refraction, meaning the bending of light as it passes
+      from one material into another. Everything seen through the water is therefore seen in a shifted position. The eye has no mechanism for detecting that the light changed direction along the way. It reports the straw where the light appears to have come from.
+
+      The same rule explains a long list of ordinary things. A swimming pool looks shallower than it is, which is why bathers misjudge the deep end. A spoon in water looks broken. A spoon in oil looks more broken, because oil slows light more than water does. A lens in a pair of spectacles is a piece of glass ground to a curve, so that the bending happens in a chosen direction and brings light to a focus on the retina. Some light is also reflected at the surface, which is why a window shows a faint image of the room. Some is absorbed by the water itself, which is why the deep sea is dark. One
+      surface does three things to a beam at once.
+    anchors:
+      - take: "The straw looks broken at the surface although it is straight."
+        quote: "The straw appears to break at the surface."
+      - take: "Light bends because it travels more slowly in water than in air."
+        quote: "Light travels more slowly through water than through air"
+      - take: "A surface reflects, bends and absorbs light at the same time."
+        quote: "One surface does three things to a beam at once."
+    terms:
+      - {term: "refraction", gloss: "the bending of light as it passes from one material into another", glossed: true}
+    facts:
+      - "Light travels through water about a quarter more slowly than through air."
+      - "Refraction makes a submerged object appear shifted in position."
+      - "Oil slows light more than water, so a spoon in oil appears more sharply broken."
+  - id: PHY-S07-L1
+    strand: S07
+    title: "Steel Wool and a Steel Bar"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Contrasts two forms of one substance to show that reaction depends on surface, before rates are explained."
+    vocab_link: [stable]
+    passage: |
+      Antoine Lavoisier established in the 1770s that burning is a reaction with oxygen. Hold a match to a steel bar and nothing happens. The bar warms near the
+      flame and stays a bar. Hold the same match to a pad of fine steel wool and
+      the wool catches, glows orange, and travels across the pad in a slow front
+      that leaves a gray ash behind it. A nine-volt battery held across the same
+      pad will start it just as well. The two objects are the same metal, from
+      the same kind of ingot, and one of them burns.
+
+      What differs is surface. Steel reacts with oxygen in the air to make iron oxide, which is rust. That reaction can happen only where metal and air meet. A solid bar presents a few square centimeters of surface for every hundred grams. The same hundred grams, drawn into threads a hundredth of a millimeter thick, presents several square meters.
+      Every thread is also thin enough to be heated right through. The reaction then releases enough heat in one spot to light the thread beside it.
+
+      Rust on a gate is the same reaction running at a crawl. It takes years
+      because the surface is small, the heat escapes, and a layer of oxide
+      shields what is underneath. The chemistry does not change with the shape
+      of the metal; only the rate does. That is why a flour mill can explode while a bag of flour on a shelf is perfectly stable. Fire crews treat a grain silo and a sack of grain as different problems. A
+      substance has no single level of danger. It has a level for each state it is divided into. Powdered sugar and powdered coal have both destroyed buildings where the solid form had been handled safely for years.
+    anchors:
+      - take: "The same metal burns as wool and not as a bar."
+        quote: "The two objects are the same metal"
+      - take: "Reaction can happen only where metal and air meet."
+        quote: "only where metal and air meet"
+      - take: "Shape changes the rate of a reaction, not the chemistry."
+        quote: "only the rate does"
+    terms:
+      - {term: "iron oxide", gloss: "which is rust", glossed: true}
+    facts:
+      - "Fine steel wool can be ignited by a match or a nine-volt battery while a steel bar cannot."
+      - "Steel reacts with oxygen to form iron oxide, which is rust."
+      - "Dividing a fixed mass of metal into fine threads increases its exposed area enormously."
+  - id: PHY-S08-L1
+    strand: S08
+    title: "The Bridge at Dundee"
+    move: phenomenon
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: null
+    advances: "Fixes one structural failure with its date, death toll and the material at fault, before stress and strain are defined."
+    vocab_link: [resist]
+    passage: |
+      The first Tay Bridge carried a single railway track two miles across the
+      water at Dundee in Scotland. It opened in 1878 and was the longest bridge
+      in the world at the time. Queen Victoria crossed it in June 1879 and
+      knighted the engineer who had designed it. On the night of December 28 of
+      that same year, in a winter gale, the thirteen central spans went into the
+      river while a train was crossing. Everyone aboard died. The usual figure
+      given is seventy-five.
+
+      The inquiry found a chain of causes rather than one. The high girders were
+      carried on columns of cast iron, a material that is strong when squeezed
+      and weak when pulled or struck. Some of the castings had holes in them
+      from the foundry and had been filled with a paste of iron filings and wax,
+      which looked sound and carried nothing. The bolt holes had been cast
+      rather than drilled, which left them rough. No allowance had been made in
+      the design for the sideways push of a gale on the side of a train, and the
+      measured winds that night were near eighty miles an hour.
+
+      The engineer had never calculated what the structure must resist from the
+      wind. That was not unusual in 1879. It became unusual immediately
+      afterward. The second Tay Bridge, built beside the first and still in use,
+      used wrought iron and steel, had doubled columns, and was designed against
+      a wind load of fifty-six pounds per square foot. The stumps of the old piers still stand in the water beside it, and every train from Edinburgh to Aberdeen passes them. The inquiry also asked who should have noticed. Workmen had reported loose bolts and rattling joints for months, and the reports had gone no further than the foreman.
+    anchors:
+      - take: "The bridge fell in a gale fourteen months after it opened."
+        quote: "the thirteen central spans went into the river"
+      - take: "Cast iron is strong in compression and weak in tension."
+        quote: "strong when squeezed and weak when pulled"
+      - take: "No wind load had been calculated in the design."
+        quote: "had never calculated what the structure must resist from the wind"
+    terms:
+      - {term: "cast iron", gloss: "a material that is strong when squeezed and weak when pulled", glossed: true}
+    facts:
+      - "The first Tay Bridge opened in 1878 and collapsed on December 28, 1879."
+      - "The usual figure for the dead is seventy-five."
+      - "The replacement bridge was designed against a wind load of fifty-six pounds per square foot."
+  - id: PHY-S09-L1
+    strand: S09
+    title: "The Women Who Painted Dials"
+    move: phenomenon
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: null
+    advances: "Anchors radiation in one documented case of harm, with dates and the route of exposure, before dose is defined."
+    vocab_link: [reduce]
+    passage: |
+      In 1917 a factory in Orange, New Jersey, began painting watch and clock
+      dials with a paint that glowed in the dark. The glow came from radium, an
+      element discovered by Marie and Pierre Curie in 1898. About seventy young
+      women did the painting. The brushes were fine camel hair, and to keep a
+      point on them the women were taught to shape each brush with their lips
+      between strokes. Some of them painted their nails and teeth with the paint
+      for a party trick.
+
+      The first deaths were put down to other causes. A dial painter named Mollie Maggia lost teeth through 1922 and then pieces of her jaw. She died in September of that year, with the cause recorded as a disease of the mouth.
+      By 1924 a dentist in the town had seen enough cases to write to the state.
+      Radium behaves chemically much like calcium, so a body builds it into
+      bone, where it sits for the rest of a life giving out radiation at close
+      range. The jaw and the hip were the usual sites of damage.
+
+      Five of the women sued in 1927, in a case the newspapers followed closely.
+      All five were too ill to raise their arms to take the oath. The settlement
+      was small and they were already dying, but the case established that a
+      company could be held liable for a disease contracted at work years
+      earlier. The factories were made to stop the lip-pointing, to issue
+      washable aprons and screens, and to reduce the time any one worker spent
+      at the bench. Later work on those same patients produced the first serious figures on what a given amount of radium in the body does to bone. Those figures were still being used to set safety limits fifty years afterward.
+    anchors:
+      - take: "Dial painters shaped their brushes with their lips and swallowed radium."
+        quote: "shape each brush with their lips between strokes"
+      - take: "Radium behaves like calcium, so the body stores it in bone."
+        quote: "a body builds it into bone"
+      - take: "The 1927 case established liability for a disease contracted years earlier."
+        quote: "liable for a disease contracted at work years earlier"
+    terms:
+      - {term: "radium", gloss: "an element discovered by Marie and Pierre Curie in 1898", glossed: true}
+    facts:
+      - "The Orange, New Jersey, dial painting works opened in 1917 and employed about seventy women."
+      - "Mollie Maggia died in September 1922 after losing teeth and parts of her jaw."
+      - "Five dial painters sued in 1927 and their case established employer liability for delayed disease."
+  - id: PHY-S10-L1
+    strand: S10
+    title: "Eight Minutes of Sunlight"
+    move: phenomenon
+    sat_frame: "science report: question, method, result"
+    builds_on: null
+    advances: "Converts the sizes of the solar system into travel times for light, as the concrete basis of astronomical distance."
+    vocab_link: [contain]
+    passage: |
+      Light moves at a fixed speed, about three hundred thousand kilometers in a second. Nothing in the universe carries information faster than that. Albert Michelson measured it to within a few percent in the 1880s. That single fact turns every distance in the sky into a length of time. The times are easier to hold in the head than the distances. A distance tells a reader how far away a thing is. A time tells the reader how old the view of it is.
+
+      The Moon is about four hundred thousand kilometers away, so its light
+      reaches an observer in a little over one second. Radio instructions to the Apollo crews took the same time, which is why those recordings have an odd pause in every exchange of speech. The Sun is four hundred times further off.
+      Sunlight takes eight minutes and twenty seconds to arrive, so the Sun that
+      anyone sees above the horizon left the surface before the viewer sat down.
+      Jupiter is between thirty-three and fifty-three minutes away, depending on where the two planets stand. Light from the edge of the solar system takes
+      several hours.
+
+      Beyond that the numbers change scale. The nearest star beyond the Sun, Proxima Centauri, is about four and a quarter light years off. The light arriving tonight set out when a child now at school was born. The nearest large galaxy, Andromeda, lies two and a half million light years away. It is still close enough to see with the naked eye on a dark night, as a faint smudge about the width of a thumb. Every view of the night
+      sky must therefore contain many different dates at once. A telescope is a
+      kind of record, and the further it is pointed the older the record is.
+      Nobody has ever seen any part of the universe as it is now.
+    anchors:
+      - take: "Light speed turns every distance in the sky into a time."
+        quote: "turns every distance in the sky into a length of time"
+      - take: "Sunlight takes eight minutes and twenty seconds to arrive."
+        quote: "eight minutes and twenty seconds"
+      - take: "A single view of the sky contains many different dates."
+        quote: "contain many different dates at once"
+    terms: []
+    facts:
+      - "Light travels about 300,000 kilometers per second."
+      - "Sunlight takes eight minutes and twenty seconds to reach Earth."
+      - "Proxima Centauri is about 4.25 light years away and Andromeda about 2.5 million."
