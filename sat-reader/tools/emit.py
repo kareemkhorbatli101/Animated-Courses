@@ -7,6 +7,13 @@ def q(s):
 
 
 def emit(path, field, level, passages):
+    import re as _re
+    if level <= 2:
+        for p in passages:
+            for term, gloss, glossed in p['terms']:
+                if not glossed:
+                    raise ValueError('%s: term %r must be glossed in place at level %d'
+                                     % (p['id'], term, level))
     out = ['field: %s' % field, 'level: %d' % level, 'passages:']
     for p in passages:
         out.append('  - id: %s' % p['id'])
@@ -38,4 +45,14 @@ def emit(path, field, level, passages):
             out.append('      - %s' % q(f))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, 'w').write('\n'.join(out) + '\n')
+    import sys, os as _os
+    sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    import lex
+    print('%-14s %5s %5s %5s %5s %5s' % ('id', 'words', 'sents', 'mean', 'max', 'fk'))
+    for p in passages:
+        flat = ' '.join(' '.join(x.split()) for x in p['text'].strip().split('\n\n'))
+        ws, ss = lex.words(flat), lex.sentences(flat)
+        print('%-14s %5d %5d %5.1f %5d %5.1f' % (p['id'], len(ws), len(ss),
+              len(ws) / max(1, len(ss)), max((len(lex.words(x)) for x in ss), default=0),
+              lex.flesch_kincaid(flat)))
     return path
