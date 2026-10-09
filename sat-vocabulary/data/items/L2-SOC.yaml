@@ -1,0 +1,225 @@
+level: 2
+domain: SOC
+items:
+  - id: L2-SOC-01
+    word: correlate
+    options: [differ, correlate, cause, fall]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      In every one of the forty towns, the streets with the most trees also
+      had the fewest break-ins. Nobody believes that a lime tree frightens a
+      burglar. The two figures ________ because both follow something else:
+      the older and wealthier streets were planted first and have always had
+      more eyes on them.
+    clue: "the streets with the most trees also had the fewest break-ins"
+    relation: restatement
+    noise: ["forty towns", "a lime tree", "planted first"]
+    pathway: >-
+      The two measurements move together across all forty towns while the
+      passage denies that one produces the other. The blank must mean go
+      together without one making the other happen.
+    key:
+      a: "the two measurements move together in all forty towns, which is the opposite of differing."
+      c: "the passage rules this out twice: no tree frightens a burglar, and both figures follow a third thing."
+      d: "where one figure is high the other is low, so they do not both go down."
+
+  - id: L2-SOC-02
+    word: incentive
+    options: [penalty, reminder, tax, incentive]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      The city tried signs, and then leaflets, and the kerbs in the centre
+      stayed full all day. Then it made the first hour free in the car park
+      behind the station. Drivers moved within a month: what notices could
+      not do, one small ________ did.
+    clue: "it made the first hour free in the car park behind the station"
+    relation: cause
+    noise: ["leaflets", "the kerbs in the centre", "within a month"]
+    pathway: >-
+      Something was offered that made the wanted behaviour worth a driver's
+      while, and behaviour changed. The blank must mean a reward that
+      encourages an action.
+    key:
+      a: "a free hour is a reward for moving, not a punishment for staying."
+      b: "the signs and leaflets were the reminders, and the passage says they did not work."
+      c: "no charge appears: the hour in the car park was made free."
+
+  - id: L2-SOC-03
+    word: norm
+    options: [norm, law, accident, order]
+    answer: a
+    traps: {b: T2, c: T1, d: T1}
+    passage: >-
+      No rule in the office says where anyone sits at lunch, and no manager
+      has ever mentioned the question. Yet in eleven years nobody from the
+      warehouse has taken a chair at the window table, and a new clerk who
+      tried it in April was gently moved along. A ________ of that kind holds
+      without a word being written down.
+    clue: "No rule in the office says where anyone sits at lunch, and no manager has ever mentioned the question"
+    relation: contrast
+    noise: ["eleven years", "the window table", "in April"]
+    pathway: >-
+      Behaviour is regular and enforced by the group although nothing is
+      written or ordered. The blank must name an unwritten standard of
+      behaviour.
+    key:
+      b: "the first sentence says no rule covers it and the last says nothing is written down."
+      c: "eleven years of the same seating, and a clerk being moved along, show a pattern that is kept up."
+      d: "no manager has ever mentioned the question, so nobody was told to do this."
+
+  - id: L2-SOC-04
+    word: perceive
+    options: [measure, ignore, perceive, forget]
+    answer: c
+    traps: {a: T2, b: T4, d: T1}
+    passage: >-
+      Both wards wait about nine weeks for the same operation. Patients in the
+      ward whose day room has a window put the wait at six weeks when they are
+      asked; those in the windowless ward say twelve. People ________ a delay
+      as longer or shorter depending on what they can look at while they stand
+      in it.
+    clue: "put the wait at six weeks when they are asked; those in the windowless ward say twelve"
+    relation: contrast
+    noise: ["nine weeks", "the same operation", "day room"]
+    pathway: >-
+      The real wait is the same in both wards and the reported wait is not, so
+      the difference is in how the wait is taken in. The blank must mean
+      become aware of in a particular way.
+    key:
+      a: "the measured wait is nine weeks in both wards; what differs is how long it felt."
+      b: "both groups report a length when asked, so neither is overlooking the wait."
+      d: "they are asked while they are still waiting."
+
+  - id: L2-SOC-05
+    word: allocate
+    options: [collect, raise, count, allocate]
+    answer: d
+    traps: {a: T1, b: T2, c: T1}
+    passage: >-
+      The grant reached the county as a single sum with no conditions
+      attached. Two officers spent a fortnight working out how to ________
+      it, and in the end the schools took half, the libraries a fifth, and
+      what was left went on the buses that reach the hill villages.
+    clue: "the schools took half, the libraries a fifth, and what was left went on the buses"
+    relation: restatement
+    noise: ["a fortnight", "Two officers", "the hill villages"]
+    pathway: >-
+      A fixed sum is divided between named purposes in named shares. The blank
+      must mean give out in portions for particular uses.
+    key:
+      a: "the money had already arrived as one sum before the officers sat down."
+      b: "raising means finding more money, and the amount here is fixed."
+      c: "counting the sum would tell nobody which service should have it."
+
+  - id: L2-SOC-06
+    word: bias
+    options: [error, bias, accident, delay]
+    answer: b
+    traps: {a: T2, c: T1, d: T1}
+    passage: >-
+      The panel read eight hundred applications and chose nineteen people.
+      Afterwards somebody noticed that every one of the nineteen had played a
+      team sport at school, a line the form happened to ask about near the
+      top. Nobody on the panel intended it. A ________ of that kind works best
+      on people who are certain they have none.
+    clue: "every one of the nineteen had played a team sport at school"
+    relation: cause
+    noise: ["eight hundred applications", "near the top", "somebody noticed"]
+    pathway: >-
+      All nineteen choices leaned the same way without anyone meaning them to.
+      The blank must name a leaning that shapes judgement unnoticed.
+    key:
+      a: "an error is one mistake that can be put right; this ran through all nineteen choices in the same direction."
+      c: "the same leaning nineteen times out of nineteen is a pattern rather than chance."
+      d: "nothing in the passage takes longer than it should."
+
+  - id: L2-SOC-07
+    word: cohort
+    options: [sample, average, cohort, survey]
+    answer: c
+    traps: {a: T2, b: T1, d: T1}
+    passage: >-
+      Everyone in the study was born in a single week of March 1958, and the
+      researchers have called on them every few years ever since. Comparing a
+      sixty-year-old's blood pressure with a thirty-year-old's tells you very
+      little; following one ________ from school to retirement shows what
+      changed, and when.
+    clue: "Everyone in the study was born in a single week of March 1958"
+    relation: restatement
+    noise: ["every few years", "blood pressure", "retirement"]
+    pathway: >-
+      The group is defined by having been born at the same time and is
+      followed through life together. The blank must name a group sharing a
+      date of birth.
+    key:
+      a: "a sample may be drawn from any ages; what defines this group is the week it was born in."
+      b: "an average is a number, and what the researchers follow is a group of people."
+      d: "the survey is the asking; the blank names the people who are asked."
+
+  - id: L2-SOC-08
+    word: deviate
+    options: [deviate, benefit, suffer, recover]
+    answer: a
+    traps: {b: T1, c: T1, d: T2}
+    passage: >-
+      The timetable says the 14 leaves the depot at 6.12 and passes the clock
+      tower at 6.31. Over three hundred mornings the driver did not ________
+      from those printed times by more than ninety seconds, even in snow, and
+      the passengers at the tower learned to come at half past and not before.
+    clue: "the passengers at the tower learned to come at half past and not before"
+    relation: cause
+    noise: ["the depot", "even in snow", "three hundred mornings"]
+    pathway: >-
+      The bus is so close to the printed times that passengers trust them to
+      the minute, and ninety seconds measures the gap. The blank must mean
+      depart from a set standard.
+    key:
+      b: "ninety seconds measures a difference from the timetable, not a gain from it."
+      c: "the driver kept the times; suffering from a timetable is a complaint, not a measurement."
+      d: "recovery means getting back after a loss, and nothing here was lost."
+
+  - id: L2-SOC-09
+    word: aggregate
+    options: [sample, aggregate, estimate, forecast]
+    answer: b
+    traps: {a: T2, c: T2, d: T1}
+    passage: >-
+      No single parish register proves anything on its own: a bad year in one
+      village may be a cold spring, or one family's bad luck. Add the burials
+      from all four hundred parishes together, though, and the ________ shows
+      the summer of 1596 for what it was across the whole county.
+    clue: "Add the burials from all four hundred parishes together"
+    relation: restatement
+    noise: ["a cold spring", "one family's bad luck", "the summer of 1596"]
+    pathway: >-
+      Every parish is added into one combined figure. The blank must name a
+      total made by putting all the parts together.
+    key:
+      a: "a sample is a part taken from the whole, and here every parish is added in."
+      c: "the figure is counted from the registers rather than guessed at."
+      d: "the registers look back at 1596; nothing is being said about what is to come."
+
+  - id: L2-SOC-10
+    word: stigma
+    options: [cost, delay, rule, stigma]
+    answer: d
+    traps: {a: T1, b: T1, c: T2}
+    passage: >-
+      The clinic was free, open until nine, and four minutes' walk from the
+      bus station. Half the men who needed it still did not come, and when
+      they were asked why, they talked about who might see them going in. The
+      ________ attached to that door kept more people out than any fee could
+      have.
+    clue: "they talked about who might see them going in"
+    relation: cause
+    noise: ["open until nine", "four minutes' walk", "the bus station"]
+    pathway: >-
+      What stops them is the shame of being seen, not money or distance. The
+      blank must name the disgrace attached to something in other people's
+      eyes.
+    key:
+      a: "the first sentence says the clinic was free, and the last compares this with a fee."
+      b: "the clinic was open late and four minutes away, so waiting is not the obstacle."
+      c: "no rule kept anyone out; what kept them out was what others might think."

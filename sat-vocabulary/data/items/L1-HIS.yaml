@@ -1,0 +1,205 @@
+level: 1
+domain: HIS
+items:
+  - id: L1-HIS-01
+    word: established
+    options: [inherited, rejected, established, repaired]
+    answer: c
+    traps: {a: T1, b: T4, d: T2}
+    passage: >-
+      In 1851 the miners who had settled along the creek had no school, no
+      court, and no fire company. Within three years they had ________ all
+      three: a schoolhouse opened in the spring, a judge began hearing cases,
+      and a volunteer crew bought a pump.
+    clue: "a schoolhouse opened in the spring, a judge began hearing cases, and a volunteer crew bought a pump"
+    relation: restatement
+    noise: ["In 1851", "along the creek", "no fire company"]
+    pathway: >-
+      The first sentence says the three things did not exist; the list after
+      the colon shows each one starting. The blank must mean brought into
+      being for the first time.
+    key:
+      a: "to receive from someone earlier. The text says they had none, so there was nothing to receive."
+      b: "the opposite of what follows: all three appear in the next clause."
+      d: "you can only repair what already exists, and the first sentence says these did not."
+
+  - id: L1-HIS-02
+    word: opposed
+    options: [opposed, praised, explained, delayed]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The town council voted to widen Mill Road through the orchard. Farmers
+      who would lose trees ________ the plan at every meeting, and after four
+      months of letters and public meetings the council chose a different route.
+    clue: "after four months of letters and public meetings the council chose a different route"
+    relation: cause
+    noise: ["Mill Road", "through the orchard", "The town council"]
+    pathway: >-
+      The farmers stood to lose something, and their action made the council
+      abandon the plan. The blank must mean worked against.
+    key:
+      b: "the reverse: nobody who is losing trees campaigns for the road, and praise would not change the route."
+      c: "explaining a plan is not resisting it, and would not have produced a different route."
+      d: "a delay postpones; the council did not postpone the road, it moved it."
+
+  - id: L1-HIS-03
+    word: declined
+    options: [climbed, steadied, returned, declined]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      Barrow Mills employed nine hundred weavers in 1900. By 1935 the number
+      had ________ to about two hundred, three of the four sheds stood empty,
+      and the company had stopped taking on new apprentices altogether.
+    clue: "three of the four sheds stood empty"
+    relation: restatement
+    noise: ["Barrow Mills", "in 1900", "By 1935"]
+    pathway: >-
+      Most of the buildings are no longer in use, so the workforce must have
+      shrunk. The blank must mean fell.
+    key:
+      a: "empty sheds cannot follow a rise in the number of workers."
+      b: "to settle at one level means to stop changing, but the text describes a change."
+      c: "nothing earlier in the text gives a figure to come back to."
+
+  - id: L1-HIS-04
+    word: restrict
+    options: [encourage, restrict, record, ban]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Before 1912 anyone could cut timber on the ridge. After two bad floods
+      the county began to ________ the practice: cutting was allowed only in
+      winter, only above the mill, and only with a written permit.
+    clue: "cutting was allowed only in winter, only above the mill, and only with a written permit"
+    relation: example
+    noise: ["Before 1912", "two bad floods", "on the ridge"]
+    pathway: >-
+      Cutting is still permitted, but under three conditions where before
+      there were none. The blank must mean keep within limits.
+    key:
+      a: "three new conditions make cutting harder, not more attractive."
+      c: "keeping a record of cutting would not change when or where it was allowed."
+      d: "a ban stops something completely, but the text says cutting was still allowed."
+
+  - id: L1-HIS-05
+    word: expand
+    options: [expand, survive, close, move]
+    answer: a
+    traps: {b: T2, c: T4, d: T1}
+    passage: >-
+      The library opened in two rooms above a bakery. Gifts from readers let
+      it ________ steadily: a reading room in 1922, a children's wing in
+      1930, and by 1948 a whole building of its own.
+    clue: "a reading room in 1922, a children's wing in 1930, and by 1948 a whole building of its own"
+    relation: example
+    noise: ["above a bakery", "Gifts from readers", "two rooms"]
+    pathway: >-
+      Each item in the list is larger than the one before it. The blank must
+      mean grow.
+    key:
+      b: "surviving means lasting without change, but each step in the list adds something."
+      c: "the list ends with a whole building, not with closure."
+      d: "a move happens once and changes nothing about size; the list describes three additions."
+
+  - id: L1-HIS-06
+    word: reform
+    options: [describe, abandon, reform, fund]
+    answer: c
+    traps: {a: T1, b: T4, d: T2}
+    passage: >-
+      The old prison fed its inmates once a day and kept children in with
+      adults. A committee of doctors spent a year writing a report, and the
+      law that followed in 1874 set out to ________ the system: three meals,
+      separate rooms for the young, and an inspector who could arrive without
+      warning.
+    clue: "three meals, separate rooms for the young, and an inspector who could arrive without warning"
+    relation: restatement
+    noise: ["A committee of doctors", "spent a year", "in 1874"]
+    pathway: >-
+      The law keeps the prison but changes how it works, point by point. The
+      blank must mean change in order to improve.
+    key:
+      a: "the report already described the prison; a law does something about it."
+      b: "the system is kept and altered, not given up."
+      d: "money is not mentioned; every item in the list is a rule, not a cost."
+
+  - id: L1-HIS-07
+    word: authority
+    options: [wealth, authority, experience, duty]
+    answer: b
+    traps: {a: T1, c: T1, d: T2}
+    passage: >-
+      A harbour master could order any ship to move, fine a captain who
+      refused, and close the dock in a storm. Nobody in the port had more
+      ________ than he did, though he owned not a single boat.
+    clue: "could order any ship to move, fine a captain who refused, and close the dock in a storm"
+    relation: restatement
+    noise: ["A harbour master", "in the port", "not a single boat"]
+    pathway: >-
+      The powers listed are all powers to give orders that others must obey.
+      The blank must name the right to command.
+    key:
+      a: "directly contradicted: he owned not a single boat."
+      c: "the three powers are things he was allowed to do, not things he had learned."
+      d: "a duty is what you must do; the list is about what others must do when he speaks."
+
+  - id: L1-HIS-08
+    word: conflict
+    options: [repair, agreement, delay, conflict]
+    answer: d
+    traps: {a: T1, b: T4, c: T2}
+    passage: >-
+      Both villages claimed the water of the same stream. For sixty years
+      each dammed it in summer and each tore the other's dam down, until a judge finally divided the water by the hour. The ________ cost both more
+      than the water was worth.
+    clue: "each dammed it in summer and each tore the other's dam down"
+    relation: restatement
+    noise: ["For sixty years", "the same stream", "by the hour"]
+    pathway: >-
+      Each village kept undoing the other's work until an outsider settled
+      it. The blank must name the quarrel itself.
+    key:
+      a: "the dams were destroyed, not mended, and a repair would not cost more than the water."
+      b: "the agreement came at the end, from the judge; the cost was run up before it."
+      c: "a delay is a wait; sixty years of tearing down dams is action, not waiting."
+
+  - id: L1-HIS-09
+    word: unite
+    options: [compete, wait, unite, borrow]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      Six small districts each ran its own fire cart, and none could afford a
+      ladder long enough for the mill. In 1889 they agreed to ________, and
+      the single brigade they formed bought the ladder in its first month.
+    clue: "the single brigade they formed"
+    relation: restatement
+    noise: ["Six small districts", "In 1889", "in its first month"]
+    pathway: >-
+      Six separate services became one. The blank must mean join together.
+    key:
+      a: "they had been separate already; competing would not produce one brigade."
+      b: "waiting would not have raised the money, and the ladder was bought within a month."
+      d: "they bought the ladder themselves, so nothing was borrowed."
+
+  - id: L1-HIS-10
+    word: rejected
+    options: [rejected, approved, copied, postponed]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The architect's first design put the courthouse clock on a tower ninety
+      feet high. The council ________ it as too costly and asked for
+      something plainer; the building that went up has no tower at all.
+    clue: "asked for something plainer; the building that went up has no tower at all"
+    relation: restatement
+    noise: ["ninety feet high", "the courthouse clock", "the architect's first design"]
+    pathway: >-
+      The design was not built and a plainer one was requested instead. The
+      blank must mean turned down.
+    key:
+      b: "the tower was never built, so the design cannot have been accepted."
+      c: "copying a design would have produced the tower, not a plainer building."
+      d: "a postponed design is built later; this one was replaced."

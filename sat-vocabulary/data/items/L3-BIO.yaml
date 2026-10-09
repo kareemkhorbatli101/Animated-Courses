@@ -1,0 +1,236 @@
+level: 3
+domain: BIO
+items:
+  - id: L3-BIO-01
+    word: mitigate
+    options: [mitigate, prevent, reverse, measure]
+    answer: a
+    traps: {b: T2, c: T4, d: T1}
+    passage: >-
+      Nothing the trust does will stop the sea coming over the shingle bank in
+      a spring tide; the bank is losing a metre a year and the money to rebuild
+      it does not exist. What the wardens have done instead is dig a shallow
+      lagoon behind it and plant two hectares of reed. When the water comes it
+      spreads out, slows, and drops its salt among the reeds rather than in the
+      grazing marsh, which does not stop the flood but does ________ what it
+      costs the farms.
+    clue: "it spreads out, slows, and drops its salt among the reeds rather than in the grazing marsh"
+    relation: contrast
+    noise: ["a metre a year", "two hectares", "a spring tide"]
+    pathway: >-
+      The flood still happens; what reaches the farmland is made less harmful.
+      The blank must mean make less severe.
+    key:
+      b: "the passage says twice that the flooding cannot be stopped."
+      c: "the lagoon does not undo the flood; it takes the worst out of it."
+      d: "the wardens are reducing the damage, not taking a reading of it."
+
+  - id: L3-BIO-02
+    word: resilient
+    options: [fragile, sterile, resilient, dormant]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      The hurricane took the roof off the field station and flattened a stand
+      of mahogany that had been measured every year since 1961. Six months
+      later the botanists found the plot unrecognisable but not dead:
+      fast-growing pioneers had closed the gaps in the canopy, the seed bank in
+      the soil had opened, and nine of the eleven understorey species were back
+      in the quadrats. Forest of this kind is ________ in a way that a
+      plantation is not.
+    clue: "fast-growing pioneers had closed the gaps in the canopy, the seed bank in the soil had opened, and nine of the eleven understorey species were back in the quadrats"
+    relation: cause
+    noise: ["the roof off the field station", "since 1961", "a plantation"]
+    pathway: >-
+      The forest was flattened and six months later most of it had come back
+      by itself. The blank must mean able to recover from damage.
+    key:
+      a: "the forest lost its canopy and had replaced most of it within six months."
+      b: "the seed bank opened and nine species returned, so the ground was far from barren."
+      d: "dormancy is waiting without activity, and this plot was growing hard."
+
+  - id: L3-BIO-03
+    word: proliferate
+    options: [disappear, proliferate, migrate, settle]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The lake had been clear for as long as the village could remember. Two
+      summers after the dairy enlarged its herd, the water was the colour of
+      pea soup by the middle of July. Nitrogen in the run-off had given the
+      algae the one thing they had always lacked, and in warm still weather a
+      population that can double every eighteen hours will ________ until it
+      has used up the oxygen the fish need.
+    clue: "a population that can double every eighteen hours"
+    relation: cause
+    noise: ["the dairy", "pea soup", "the run-off"]
+    pathway: >-
+      Numbers that double twice a day go on multiplying until something stops
+      them. The blank must mean increase rapidly in number.
+    key:
+      a: "the water turns green because there are more algae, not fewer."
+      c: "the algae multiply where they are; nothing in the passage travels."
+      d: "settling would take the algae out of the water, and the lake is thick with them."
+
+  - id: L3-BIO-04
+    word: dormant
+    options: [extinct, fertile, flooded, dormant]
+    answer: d
+    traps: {a: T2, b: T1, c: T1}
+    passage: >-
+      The crater had not smoked in living memory. Vines were grown to the very
+      rim, the government had built a road to the summit for the view, and the
+      geological survey of 1954 described the mountain as finished. Fourteen
+      hundred people were living inside the old caldera when the first ash fell
+      in 1981. A volcano can be ________ for three centuries and be a volcano
+      still.
+    clue: "The crater had not smoked in living memory"
+    relation: contrast
+    noise: ["a road to the summit", "Vines", "Fourteen hundred people"]
+    pathway: >-
+      The mountain showed no activity for generations and then erupted, so it
+      was inactive rather than finished. The blank must mean inactive for a
+      time but able to wake.
+    key:
+      a: "that is the mistake the 1954 survey made; the ash of 1981 shows the mountain was only sleeping."
+      b: "vines on the rim show good soil, but the sentence is about whether the volcano is active."
+      c: "nothing in the passage puts water in the crater."
+
+  - id: L3-BIO-05
+    word: viable
+    options: [sterile, frozen, viable, visible]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      The seeds had lain in a clay jar in the floor of a storehouse since the
+      fire that destroyed it, which carbon dating puts at about two thousand
+      years ago. Of the forty the archaeologists sent to the laboratory,
+      thirty-eight did nothing at all. Two put out a root in the fourth week,
+      and one of those is now a date palm four metres high. A seed can stay
+      ________ for twenty centuries if it is kept dry and dark.
+    clue: "Two put out a root in the fourth week, and one of those is now a date palm four metres high"
+    relation: example
+    noise: ["a clay jar", "carbon dating", "thirty-eight did nothing"]
+    pathway: >-
+      After two thousand years a seed still grew into a tree, so the life in it
+      had survived. The blank must mean still able to grow or live.
+    key:
+      a: "a seed that becomes a four-metre palm is plainly not incapable of life."
+      b: "the jar was in a storehouse floor, kept dry and dark; no cold is mentioned."
+      d: "the seeds could be seen all along; what is remarkable is that they could still grow."
+
+  - id: L3-BIO-06
+    word: ubiquitous
+    options: [ubiquitous, harmless, visible, recent]
+    answer: a
+    traps: {b: T1, c: T2, d: T4}
+    passage: >-
+      The microbiologists who first swabbed for this soil bacterium expected
+      to find it in warm farmland and nowhere else. They have since cultured
+      it from a glacier melt stream, from the dust on a hospital roof, from
+      four miles down a borehole and from the gut of a worm dredged off the
+      Pacific floor. An organism that turns up in every sample on every
+      continent is ________ in the strict sense, and nobody yet knows what it
+      is doing in most of those places.
+    clue: "from a glacier melt stream, from the dust on a hospital roof, from four miles down a borehole and from the gut of a worm dredged off the Pacific floor"
+    relation: example
+    noise: ["warm farmland", "in the strict sense", "nobody yet knows"]
+    pathway: >-
+      The same organism is found in every kind of place that has been sampled.
+      The blank must mean present everywhere.
+    key:
+      b: "whether it does harm is never discussed; the passage is about where it is found."
+      c: "these are cultures grown from swabs, and a bacterium is not seen with the eye."
+      d: "the research is recent, but the word has to describe the organism's spread, not the date of the work."
+
+  - id: L3-BIO-07
+    word: precarious
+    options: [secure, ancient, costly, precarious]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      On paper the colony is thriving: eight hundred pairs, up from two hundred
+      in 1990. Every one of those pairs nests on a single stack of rock three
+      hundred metres long, and the birds take whatever the tide leaves on the
+      one beach below it. A single oil spill in the sound, or rats off one
+      fishing boat, would end the whole population inside a season. Numbers
+      like these look healthy and are in fact ________.
+    clue: "A single oil spill in the sound, or rats off one fishing boat, would end the whole population inside a season"
+    relation: contrast
+    noise: ["eight hundred pairs", "three hundred metres long", "the tide"]
+    pathway: >-
+      The whole population sits in one place where one accident could finish
+      it. The blank must mean liable to collapse at any moment.
+    key:
+      a: "a population that one spill could end is the opposite of safe."
+      b: "how long the colony has been there is never given; 1990 is the only date."
+      c: "no money is mentioned anywhere in the passage."
+
+  - id: L3-BIO-08
+    word: nascent
+    options: [failing, nascent, mature, permanent]
+    answer: b
+    traps: {a: T1, c: T4, d: T4}
+    passage: >-
+      In the warm shallows off the headland there is now a reef where the
+      charts of 2011 show nothing but sand. Two hundred concrete blocks were
+      sunk as a base, coral fragments were wired to them by hand, and the first
+      fish arrived inside a month. It is not yet a reef in any full sense, for
+      the cover is patchy and a winter storm could still strip it, but a
+      ________ reef of this kind can become a working one within thirty years.
+    clue: "It is not yet a reef in any full sense"
+    relation: restatement
+    noise: ["Two hundred concrete blocks", "wired to them by hand", "thirty years"]
+    pathway: >-
+      The reef exists but is only beginning: eleven years old, patchy, not yet
+      the real thing. The blank must mean just coming into being.
+    key:
+      a: "the first fish arrived within a month and the cover is growing, not being lost."
+      c: "the passage says in the same sentence that it is not yet a reef in any full sense."
+      d: "a winter storm could still strip it, so nothing about it is settled for good."
+
+  - id: L3-BIO-09
+    word: attenuate
+    options: [attenuate, amplify, clarify, silence]
+    answer: a
+    traps: {b: T4, c: T4, d: T2}
+    passage: >-
+      A fin whale calling in the open ocean can be heard by another whale two
+      hundred miles off. The same call made in a shallow bay with a sandy floor
+      is lost inside twenty. Sand and air bubbles scatter the sound at every
+      bounce between surface and sea bed, and each bounce will ________ a
+      signal that deep water would have carried almost unchanged.
+    clue: "The same call made in a shallow bay with a sandy floor is lost inside twenty"
+    relation: contrast
+    noise: ["A fin whale", "air bubbles", "surface and sea bed"]
+    pathway: >-
+      The same sound travels two hundred miles in one place and twenty in
+      another, losing strength at each bounce. The blank must mean make
+      gradually weaker.
+    key:
+      b: "the call carries two hundred miles in deep water and twenty in the bay, so the bay makes it weaker."
+      c: "the call is lost inside twenty miles in the bay, so nothing about it is being made clearer."
+      d: "the call is still heard for twenty miles, so it is reduced rather than stopped."
+
+  - id: L3-BIO-10
+    word: perturb
+    options: [steady, cleanse, perturb, destroy]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      The gut of a healthy infant holds several hundred kinds of bacteria in a
+      balance that takes the first two years of life to settle. A single
+      five-day course of a broad antibiotic, given for an ear infection, will
+      ________ that community for months afterwards: a dozen kinds vanish from
+      the samples, two others take their place, and the pattern a year later is
+      still not the pattern it was.
+    clue: "a dozen kinds vanish from the samples, two others take their place, and the pattern a year later is still not the pattern it was"
+    relation: restatement
+    noise: ["an ear infection", "five-day course", "the first two years"]
+    pathway: >-
+      The settled balance is thrown out and has not returned a year later. The
+      blank must mean throw out of its settled state.
+    key:
+      a: "the samples show the balance thrown off, not held in place."
+      b: "removing a dozen kinds from a working community is a disturbance, and the passage treats it as one."
+      d: "most of the community survives; the pattern is altered rather than wiped out."

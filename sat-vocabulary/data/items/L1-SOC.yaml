@@ -1,0 +1,206 @@
+level: 1
+domain: SOC
+items:
+  - id: L1-SOC-01
+    word: influences
+    options: [measures, follows, influences, replaces]
+    answer: c
+    traps: {a: T1, b: T4, d: T2}
+    passage: >-
+      Shoppers in a supermarket study bought more fruit when a mirror was
+      fixed above the shelf. None of them mentioned the mirror afterwards, yet
+      something as small as catching your own eye ________ what ends up in the
+      basket.
+    clue: "bought more fruit when a mirror was fixed above the shelf"
+    relation: cause
+    noise: ["in a supermarket study", "the basket", "None of them mentioned"]
+    pathway: >-
+      Adding the mirror changed what people bought, so the blank must mean has
+      an effect on.
+    key:
+      a: "a mirror does not take a reading; the shopping changed because of it."
+      b: "the buying follows the mirror, not the other way round."
+      d: "the mirror does not take the place of the basket's contents; it changes them."
+
+  - id: L1-SOC-02
+    word: predict
+    options: [predict, cause, explain, prevent]
+    answer: a
+    traps: {b: T1, c: T2, d: T4}
+    passage: >-
+      Researchers asked nine hundred teenagers how many hours they slept.
+      Knowing that one figure let them say, months before the exams were sat,
+      which pupils would come out near the bottom; sleep alone can ________
+      results surprisingly well.
+    clue: "say, months before the exams were sat, which pupils would come out near the bottom"
+    relation: restatement
+    noise: ["nine hundred teenagers", "one figure", "surprisingly well"]
+    pathway: >-
+      The figure let them say in advance what would happen later. The blank
+      must mean say beforehand what will happen.
+    key:
+      b: "the study shows sleep going with results, and the text never says short sleep produced them."
+      c: "an explanation says why; what the researchers did was say in advance."
+      d: "nothing was stopped; the exams were sat as planned."
+
+  - id: L1-SOC-03
+    word: prefer
+    options: [notice, afford, repair, prefer]
+    answer: d
+    traps: {a: T2, b: T1, c: T1}
+    passage: >-
+      Offered the same coffee in a plain cup and a heavy one, four people in
+      five chose the heavy cup and said it tasted better. The weight tells
+      them nothing about the coffee, but they ________ it all the same.
+    clue: "four people in five chose the heavy cup and said it tasted better"
+    relation: restatement
+    noise: ["the same coffee", "a plain cup", "all the same"]
+    pathway: >-
+      Most people picked one of two equal options and liked it more. The blank
+      must mean like better.
+    key:
+      a: "noticing the weight is not the same as choosing because of it, and the text says they chose."
+      b: "no price appears anywhere in the passage."
+      c: "there is nothing broken in a cup of coffee."
+
+  - id: L1-SOC-04
+    word: reward
+    options: [punish, reward, record, raise]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The library gave a sticker to every child who finished a book. Borrowing
+      doubled in a term, which is what happens when you ________ a habit
+      instead of simply asking for it.
+    clue: "gave a sticker to every child who finished a book"
+    relation: restatement
+    noise: ["The library", "in a term", "instead of simply asking"]
+    pathway: >-
+      Children got something pleasant for doing the thing, and did more of it.
+      The blank must mean give something good in return for.
+    key:
+      a: "a sticker for finishing a book is a pleasure, not a penalty."
+      c: "a record of reading would not by itself double borrowing."
+      d: "you raise an amount, not a habit; what the library did was give stickers for it."
+
+  - id: L1-SOC-05
+    word: compare
+    options: [compare, copy, combine, choose]
+    answer: a
+    traps: {b: T1, c: T2, d: T2}
+    passage: >-
+      One town put its new buses on the main road only; the next town, the
+      same size, put them everywhere. Two years of ticket numbers from the
+      pair let the council ________ the results of the two plans side by side.
+    clue: "side by side"
+    relation: restatement
+    noise: ["the main road", "the same size", "Two years"]
+    pathway: >-
+      Two sets of figures from two matched towns are set against each other.
+      The blank must mean look at the differences between.
+    key:
+      b: "the second town did something different, so neither copied the other."
+      c: "combining the figures into one total would hide the difference the council wants."
+      d: "a choice might follow, but what the ticket numbers allow first is the weighing of one against the other."
+
+  - id: L1-SOC-06
+    word: benefit
+    options: [suffer, pay, benefit, object]
+    answer: c
+    traps: {a: T4, b: T1, d: T4}
+    passage: >-
+      Children who start school a year later read no better at sixteen. The
+      ones who ________ are their parents, who save a year of fees, and the
+      schools, which take in older and quieter classes.
+    clue: "who save a year of fees"
+    relation: example
+    noise: ["a year later", "at sixteen", "older and quieter classes"]
+    pathway: >-
+      The parents and schools come out ahead. The blank must mean gain
+      something.
+    key:
+      a: "saving a year of fees and getting quieter classes are gains, not losses."
+      b: "the parents pay less, not more, which is the point of the sentence."
+      d: "parents who save a year of fees are getting something out of the delay, not complaining about it."
+
+  - id: L1-SOC-07
+    word: assume
+    options: [prove, assume, ask, deny]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      Planners put the bus stop at the top of the hill because the map showed
+      the houses there. They did not check who lived in them. It is easy to
+      ________ that people who live uphill walk downhill to work, and in this
+      village almost nobody did.
+    clue: "They did not check who lived in them"
+    relation: cause
+    noise: ["the top of the hill", "the map", "in this village"]
+    pathway: >-
+      They took something as true without checking it, and were wrong. The
+      blank must mean take for granted.
+    key:
+      a: "proof is exactly what they skipped: they did not check."
+      c: "asking would have told them the truth, and they asked nobody."
+      d: "they acted as though the belief were true, so they did not reject it."
+
+  - id: L1-SOC-08
+    word: respond
+    options: [listen, agree, wait, respond]
+    answer: d
+    traps: {a: T2, b: T1, c: T4}
+    passage: >-
+      When the water charge rose by a fifth, use in the town fell by only two
+      per cent. Four years later, with meters in every kitchen, the same rise
+      cut use by a seventh: people ________ to a price much faster once they
+      can see what they are using.
+    clue: "cut use by a seventh"
+    relation: contrast
+    noise: ["by a fifth", "Four years later", "in every kitchen"]
+    pathway: >-
+      Once meters were fitted, the same price change produced a much bigger
+      change in behaviour. The blank must mean act in return.
+    key:
+      a: "listening is taking something in; what the figures show is a change in how much water people used."
+      b: "nobody is said to approve of the price, only to use less."
+      c: "the second rise produced a faster change, which is the opposite of waiting."
+
+  - id: L1-SOC-09
+    word: trend
+    options: [rule, total, trend, mistake]
+    answer: c
+    traps: {a: T1, b: T2, d: T1}
+    passage: >-
+      Letters posted in the county fell a little in 2009, a little more in
+      2012, and by a third in 2019. No single year looks dramatic, but the ________ over two decades is impossible to miss: every year since 2005 has been lower than the one before it.
+    clue: "fell a little in 2009, a little more in 2012, and by a third in 2019"
+    relation: restatement
+    noise: ["in the county", "No single year", "two decades"]
+    pathway: >-
+      Each year is small but all of them lean the same way over twenty years.
+      The blank must mean the general direction of change.
+    key:
+      a: "nobody made a rule about posting letters; the text reports what happened."
+      b: "a total is one number for the whole period and would hide the direction."
+      d: "falling post is not an error, and the text treats it as a real change."
+
+  - id: L1-SOC-10
+    word: behave
+    options: [behave, speak, think, vote]
+    answer: a
+    traps: {b: T2, c: T2, d: T1}
+    passage: >-
+      The crossing takes forty minutes and the first sailing is at six. In the
+      queue for the ferry the same drivers who shout at each other on the
+      motorway wait twenty minutes without a word. People ________ differently
+      when they can see that everyone else is kept waiting too.
+    clue: "the same drivers who shout at each other on the motorway wait twenty minutes without a word"
+    relation: contrast
+    noise: ["the queue for the ferry", "forty minutes", "the first sailing"]
+    pathway: >-
+      The same people act one way in one place and another way in another. The
+      blank must mean act.
+    key:
+      b: "speaking is only part of it: the drivers also wait quietly instead of pushing in."
+      c: "what the text can see is what the drivers do, not what is in their heads."
+      d: "no election appears anywhere in the passage."

@@ -1,0 +1,218 @@
+level: 2
+domain: HIS
+items:
+  - id: L2-HIS-01
+    word: abolished
+    options: [reduced, abolished, inspected, revived]
+    answer: b
+    traps: {a: T2, c: T1, d: T4}
+    passage: >-
+      The window tax had been collected for a hundred and fifty years, and
+      landlords had bricked up thousands of windows to escape it. In 1851
+      Parliament ________ it outright: from that April no house in Britain
+      paid a penny on its windows again, and masons spent the summer opening
+      the frames their grandfathers had filled in.
+    clue: "from that April no house in Britain paid a penny on its windows again"
+    relation: restatement
+    noise: ["a hundred and fifty years", "bricked up thousands of windows", "their grandfathers"]
+    pathway: >-
+      Not a penny was paid after that April, so the tax did not merely shrink.
+      The blank must mean did away with completely.
+    key:
+      a: "a smaller tax would still be a tax, and the text says nothing further was paid."
+      c: "inspecting a tax does not stop anyone paying it."
+      d: "the tax had been collected for a century and a half, so there was nothing to bring back."
+
+  - id: L2-HIS-02
+    word: petitioned
+    options: [voted, sued, rioted, petitioned]
+    answer: d
+    traps: {a: T1, b: T2, c: T4}
+    passage: >-
+      Women ratepayers in the borough had no vote, so the only way to reach
+      the council was on paper. In 1872 four thousand of them ________ for a
+      public washhouse, signing a roll of parchment eleven feet long. The
+      council read the roll out, thanked them, and built nothing for nine
+      years.
+    clue: "signing a roll of parchment eleven feet long"
+    relation: cause
+    noise: ["In 1872", "thanked them", "nine years"]
+    pathway: >-
+      They had no vote and acted on paper, by signing a long roll asking for
+      something. The blank must mean made a formal written request.
+    key:
+      a: "the first sentence says they had no vote."
+      b: "a court case is not a signed roll handed to a council, and no judge appears."
+      c: "a roll of signatures that the council thanked them for is peaceful, not violent."
+
+  - id: L2-HIS-03
+    word: prevailed
+    options: [prevailed, withdrew, apologised, delayed]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      Two plans for the railway went before the committee: one along the
+      river, one through the hills. The river scheme had the louder
+      supporters, the better drawings and the cheaper estimate. The hill
+      scheme ________ all the same, and the line that was built still climbs
+      to the tunnel at Sowerby.
+    clue: "the line that was built still climbs to the tunnel at Sowerby"
+    relation: contrast
+    noise: ["the better drawings", "the cheaper estimate", "one along the river"]
+    pathway: >-
+      The hill route is the one that exists, so it beat the better-backed
+      rival. The blank must mean won in the end.
+    key:
+      b: "a scheme that was withdrawn would not have been built."
+      c: "committees are not apologised to, and an apology would not lay a line of track."
+      d: "a delay postpones a decision; here the decision went the hill scheme's way."
+
+  - id: L2-HIS-04
+    word: enacted
+    options: [debated, ignored, enacted, repealed]
+    answer: c
+    traps: {a: T2, b: T1, d: T4}
+    passage: >-
+      The factory bill had been argued over for three sessions and twice sent
+      back by the upper house. On the last afternoon before the session ended
+      the Commons finally ________ it, and inspectors were walking the floors
+      of the Lancashire mills before Christmas.
+    clue: "inspectors were walking the floors of the Lancashire mills before Christmas"
+    relation: cause
+    noise: ["three sessions", "the upper house", "On the last afternoon"]
+    pathway: >-
+      Inspectors with power to enter the mills appear within months, so the
+      bill must have become law. The blank must mean passed into law.
+    key:
+      a: "the arguing is what had already gone on for three sessions; the inspectors show that something more happened."
+      b: "a bill nobody passed would put no inspector in any mill."
+      d: "there was no such law in force to cancel; this bill was new."
+
+  - id: L2-HIS-05
+    word: ratified
+    options: [drafted, translated, rejected, ratified]
+    answer: d
+    traps: {a: T2, b: T1, c: T4}
+    passage: >-
+      The envoys had signed the treaty in May, but a signature abroad bound
+      nobody at home. Only in February, when the senate ________ it by a
+      margin of two votes, did the terms become law; the customs houses on
+      both sides changed their charges that same week.
+    clue: "did the terms become law"
+    relation: cause
+    noise: ["in May", "a margin of two votes", "that same week"]
+    pathway: >-
+      The terms took effect at the moment the senate acted, months after the
+      signing. The blank must mean gave formal approval to.
+    key:
+      a: "the drafting came before May, when the delegates signed what had been written."
+      b: "a translation changes the language of a text, not its force in law."
+      c: "a rejected treaty would not have changed the charges at the customs houses."
+
+  - id: L2-HIS-06
+    word: dissent
+    options: [debate, dissent, applause, delay]
+    answer: b
+    traps: {a: T2, c: T4, d: T1}
+    passage: >-
+      The abbey's rule let the monks speak at the weekly chapter meeting, and
+      the records show they used it. One brother argued against the new
+      gatehouse for ten years, and his objection is written in the margin of
+      every year's accounts. Such ________ was tolerated, and now and then it
+      changed the vote.
+    clue: "One brother argued against the new gatehouse for ten years"
+    relation: example
+    noise: ["the weekly chapter meeting", "the records show they used it", "the margin of every year's accounts"]
+    pathway: >-
+      One man is on record year after year against a decision of the house.
+      The blank must mean open disagreement with the body you belong to.
+    key:
+      a: "a debate needs two sides exchanging arguments; what the margins record is one man's standing objection."
+      c: "the brother was against the gatehouse, so he was not applauding it."
+      d: "a delay is time passing; the text says this sometimes changed the vote."
+
+  - id: L2-HIS-07
+    word: advocated
+    options: [opposed, reported, advocated, mentioned]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      For twenty years the doctor wrote to every paper that would print him,
+      arguing that the town should take its water from the hills and not from
+      the river below the tannery. He never held office and never stood for
+      election. He simply ________ the scheme until a council was returned
+      that agreed with him.
+    clue: "arguing that the town should take its water from the hills"
+    relation: restatement
+    noise: ["For twenty years", "the tannery", "never stood for election"]
+    pathway: >-
+      He spent two decades publicly pressing for a particular plan. The blank
+      must mean argued in public in favour of.
+    key:
+      a: "the hill scheme was his own proposal; he was its chief supporter."
+      b: "reporting tells readers what has happened; he was pressing for something that had not happened yet."
+      d: "twenty years of letters to the press is a great deal more than mentioning a scheme."
+
+  - id: L2-HIS-08
+    word: imposed
+    options: [imposed, offered, removed, inspected]
+    answer: a
+    traps: {b: T2, c: T4, d: T1}
+    passage: >-
+      The occupying army did not ask the city for its grain. A notice in three
+      languages went up on the market wall giving the quantity, the date and
+      the penalty, and the quartermaster ________ the levy on every household,
+      whether it had grain in store or not.
+    clue: "The occupying army did not ask the city for its grain"
+    relation: contrast
+    noise: ["in three languages", "the market wall", "the quartermaster"]
+    pathway: >-
+      Nobody was asked, a penalty was named, and the demand fell on households
+      that could not meet it. The blank must mean forced on people from above.
+    key:
+      b: "an offer can be refused, and this notice names a penalty for refusal."
+      c: "the levy is being put in place, not lifted."
+      d: "the notice sets the amount to be handed over; nobody is described checking anything."
+
+  - id: L2-HIS-09
+    word: conceded
+    options: [won, conceded, forgot, postponed]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Neither side could take the fort, and the siege had eaten both armies'
+      bread. When the terms were finally written out, the king kept his castle
+      but ________ the two river towns he had claimed for a decade. His own
+      chronicler called the peace a defeat in all but name.
+    clue: "His own chronicler called the peace a defeat in all but name"
+    relation: contrast
+    noise: ["the siege", "both armies' bread", "for a decade"]
+    pathway: >-
+      He keeps one thing and his own writer calls the settlement a defeat, so
+      the towns went the other way. The blank must mean gave up what he had
+      claimed.
+    key:
+      a: "his own chronicler calls the peace a defeat, and the towns had been claimed rather than gained."
+      c: "a clause in written terms is deliberate, not an oversight."
+      d: "a postponed claim is made again later; these towns are given up in the terms themselves."
+
+  - id: L2-HIS-10
+    word: delegated
+    options: [refused, announced, doubled, delegated]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      The governor could not read the forty appeals that arrived each week
+      and still ride out to the districts twice a month. He kept for himself
+      the power to pardon and the power to tax, and ________ everything else
+      to three secretaries, each of whom could sign in his name.
+    clue: "to three secretaries, each of whom could sign in his name"
+    relation: contrast
+    noise: ["forty appeals", "twice a month", "the power to pardon"]
+    pathway: >-
+      He keeps two powers and the rest are exercised by named officials who
+      sign for him. The blank must mean handed his authority to others.
+    key:
+      a: "the work was not turned away: the secretaries did it in his name."
+      b: "reading the appeals aloud would not get a single one of them answered."
+      c: "the number of petitions is not what changes; the question is who deals with them."

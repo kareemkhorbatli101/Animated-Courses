@@ -1,0 +1,207 @@
+level: 1
+domain: PHY
+items:
+  - id: L1-PHY-01
+    word: absorbs
+    options: [reflects, carries, hardens, absorbs]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      A black roof and a white roof stand side by side on the same street. At
+      four in the afternoon the black one is too hot to touch, because dark
+      paint ________ most of the light that falls on it instead of sending it
+      back.
+    clue: "instead of sending it back"
+    relation: contrast
+    noise: ["side by side", "the same street", "At four in the afternoon"]
+    pathway: >-
+      The paint does not send the light back, and the roof gets hot, so the
+      light must be taken in. The blank must mean takes in.
+    key:
+      a: "that is exactly what the white roof does, and the sentence rules it out with instead."
+      b: "carrying light would move it somewhere else; here it stays and becomes heat."
+      c: "paint may harden, but hardening would not make a roof too hot to touch."
+
+  - id: L1-PHY-02
+    word: resist
+    options: [absorb, resist, follow, melt]
+    answer: b
+    traps: {a: T2, c: T4, d: T1}
+    passage: >-
+      Engineers put the new pipes in a bath of salt water for a year. Plain
+      steel pipes were pitted by the end of it; the coated ones came out
+      clean, which is what the coating is for: to ________ the attack of the
+      salt.
+    clue: "the coated ones came out clean"
+    relation: contrast
+    noise: ["for a year", "Plain steel pipes", "Engineers"]
+    pathway: >-
+      The coated pipes were unmarked where plain steel was damaged, so the
+      coating must work against the salt. The blank must mean stand up to.
+    key:
+      a: "a coating that took the salt in would be damaged like the plain steel."
+      c: "to follow the salt is the opposite of keeping it out."
+      d: "the coated pipes came out clean, so nothing about them melted."
+
+  - id: L1-PHY-03
+    word: convert
+    options: [store, cool, convert, waste]
+    answer: c
+    traps: {a: T2, b: T1, d: T4}
+    passage: >-
+      The wheel at the old mill did no work by itself. Its shaft turned a set
+      of wooden gears, and the gears turned a stone: the whole machine existed
+      to ________ the push of the river into the grinding of wheat.
+    clue: "the push of the river into the grinding of wheat"
+    relation: restatement
+    noise: ["the old mill", "wooden gears", "a stone"]
+    pathway: >-
+      One kind of movement goes in and a different kind of work comes out.
+      The blank must mean change from one form into another.
+    key:
+      a: "storing would keep the push for later; the mill uses it at once."
+      b: "cooling is about heat, and the sentence is about movement becoming work."
+      d: "the mill makes use of the river rather than throwing it away."
+
+  - id: L1-PHY-04
+    word: detect
+    options: [detect, produce, repair, hear]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The crack in the wing was far too fine to see. A technician ran a
+      handheld coil along the metal and watched a needle jump, which is how
+      the shop can ________ damage that no eye would find.
+    clue: ["far too fine to see", "watched a needle jump"]
+    relation: cause
+    noise: ["in the wing", "A technician", "handheld coil"]
+    pathway: >-
+      The crack cannot be seen, yet the instrument shows it is there. The
+      blank must mean find out that something is present.
+    key:
+      b: "the coil finds the crack; it does not make one."
+      c: "a jumping needle reports the damage and does nothing to mend it."
+      d: "nothing in the passage makes a sound; the needle is watched, not heard."
+
+  - id: L1-PHY-05
+    word: stable
+    options: [common, stable, heavy, pure]
+    answer: b
+    traps: {a: T1, c: T1, d: T2}
+    passage: >-
+      Gold rings pulled from a wreck after three hundred years in sea water
+      come up bright. Iron nails from the same wreck are rust and crumbs.
+      Gold is ________ enough to sit in salt for centuries and come out
+      unchanged.
+    clue: "sit in salt for centuries and come out unchanged"
+    relation: contrast
+    noise: ["three hundred years", "Iron nails", "rust and crumbs"]
+    pathway: >-
+      The gold is unaltered after centuries in a liquid that destroyed the
+      iron. The blank must mean not easily changed.
+    key:
+      a: "how often gold is found has nothing to do with surviving salt water."
+      c: "weight does not protect the iron nails, which are heavy as well."
+      d: "pure describes what gold is mixed with, not whether sea water can attack it."
+
+  - id: L1-PHY-06
+    word: transfer
+    options: [measure, hold, lose, transfer]
+    answer: d
+    traps: {a: T1, b: T4, c: T2}
+    passage: >-
+      A metal spoon left in hot soup soon burns the fingers; a wooden one does
+      not. Metal is used in cooking pans for the same reason it is a poor
+      choice for a spoon handle: it will ________ heat quickly from one end to
+      the other.
+    clue: "from one end to the other"
+    relation: restatement
+    noise: ["in hot soup", "a wooden one", "cooking pans"]
+    pathway: >-
+      The heat starts in the soup and arrives at the fingers, so it has
+      travelled along the metal. The blank must mean pass along.
+    key:
+      a: "a spoon does not take a reading; the heat simply arrives at the handle."
+      b: "holding the heat in the soup end is what the wooden spoon effectively does."
+      c: "the heat is not lost; it is exactly where the fingers are."
+
+  - id: L1-PHY-07
+    word: reduce
+    options: [reduce, raise, record, remove]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      Rubber pads were fitted under the printing press. Before, the whole
+      floor shook and the office above could hear every sheet; now the staff
+      upstairs notice nothing, because the pads ________ the shaking that
+      reaches the building.
+    clue: ["the whole floor shook", "now the staff upstairs notice nothing"]
+    relation: contrast
+    noise: ["Rubber pads", "the printing press", "every sheet"]
+    pathway: >-
+      The shaking used to be felt upstairs and now is not, so the pads make
+      it smaller. The blank must mean make less.
+    key:
+      b: "the floor shook before the pads were fitted and does not now."
+      c: "recording the shaking would leave the office above just as noisy."
+      d: "remove is too strong: the pads cut what reaches the building rather than ending all movement in the press."
+
+  - id: L1-PHY-08
+    word: measure
+    options: [guess, change, measure, boil]
+    answer: c
+    traps: {a: T2, b: T4, d: T1}
+    passage: >-
+      A cook who wants water at exactly eighty degrees cannot tell by looking.
+      A thermometer in the pan gives a number she can read at a glance, and
+      that is the only way to ________ the heat rather than judge it.
+    clue: "gives a number she can read at a glance"
+    relation: contrast
+    noise: ["eighty degrees", "A cook", "in the pan"]
+    pathway: >-
+      A number replaces an opinion. The blank must mean find the exact amount
+      of.
+    key:
+      a: "guessing is what judge it already names at the end of the sentence."
+      b: "a thermometer reports the heat; it does not make the water hotter or colder."
+      d: "boiling would be one hundred degrees, and the cook wants eighty."
+
+  - id: L1-PHY-09
+    word: flows
+    options: [stops, freezes, bends, flows]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      Glass in a medieval window is thicker at the bottom than at the top. Over
+      six hundred years the material has crept downward under its own weight,
+      so even a solid pane ________ a little if you give it long enough.
+    clue: "the material has crept downward under its own weight"
+    relation: restatement
+    noise: ["medieval window", "six hundred years", "a solid pane"]
+    pathway: >-
+      The glass has slowly moved downhill of its own accord. The blank must
+      mean moves steadily like a liquid.
+    key:
+      a: "stopping is the opposite of creeping downward for six centuries."
+      b: "freezing has nothing to do with a pane growing thicker at the bottom."
+      c: "a bend would be a shape change in one place, not material moving down the whole pane."
+
+  - id: L1-PHY-10
+    word: contain
+    options: [cool, contain, weigh, clean]
+    answer: b
+    traps: {a: T1, c: T1, d: T2}
+    passage: >-
+      The tank is made of steel two fingers thick and closed with eighteen
+      bolts. The gas inside pushes outward with the force of a lorry, and the
+      wall has one job: to ________ it until the valve is opened.
+    clue: "The gas inside pushes outward with the force of a lorry"
+    relation: cause
+    noise: ["two fingers thick", "eighteen bolts", "the valve is opened"]
+    pathway: >-
+      Something is pressing to get out and the wall is there to stop it
+      escaping. The blank must mean keep inside.
+    key:
+      a: "the wall is thick to withstand pressure; nothing in the text concerns temperature."
+      c: "the weight of the gas is never mentioned, and bolts do not weigh things."
+      d: "cleaning the gas would change what it is, not keep it in the tank."

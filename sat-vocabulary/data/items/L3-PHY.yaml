@@ -1,0 +1,236 @@
+level: 3
+domain: PHY
+items:
+  - id: L3-PHY-01
+    word: anomalous
+    options: [expected, repeated, anomalous, deliberate]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      Every one of the first forty-eight measurements of gravity over the
+      seabed fell within a hair of the predicted value. The forty-ninth, taken
+      half a mile north of the rest, came in a full two per cent low, and the
+      team ran it again twice before the ship moved on. A reading as ________
+      as that is either an instrument fault or the first sign of something
+      buried, and in this case it was a cavity in the chalk.
+    clue: "The forty-ninth, taken half a mile north of the rest, came in a full two per cent low"
+    relation: contrast
+    noise: ["the team ran it again twice", "before the ship moved on", "the chalk"]
+    pathway: >-
+      Forty-eight readings agree with the prediction and one does not. The
+      blank must mean departing from the pattern.
+    key:
+      a: "forty-eight readings matched the prediction and this one did not."
+      b: "the team did run it again, but what the sentence weighs is how far it stood out from the rest."
+      d: "nobody chose the value; the instrument reported it."
+
+  - id: L3-PHY-02
+    word: discrete
+    options: [discrete, continuous, identical, invisible]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      Water seems to pour in one unbroken stream, and a violin seems to rise
+      smoothly from one note to the next. Neither is true at the smallest
+      scale. An electron in an atom cannot sit between two energy levels: it
+      is in one or it is in the other, and the step between them is fixed.
+      Energies at that scale come in ________ amounts, and the smoothness we
+      think we see is the sum of a very large number of them.
+    clue: "it is in one or it is in the other, and the step between them is fixed"
+    relation: restatement
+    noise: ["a violin", "Water seems to pour", "the smallest scale"]
+    pathway: >-
+      The electron can hold one value or another and nothing in between. The
+      blank must mean separate and individually distinct.
+    key:
+      b: "the passage says the electron cannot sit between two levels."
+      c: "the levels are separate, and nothing says every step is the same size."
+      d: "whether we can see them is not the point; the point is that they come in separate units."
+
+  - id: L3-PHY-03
+    word: empirical
+    options: [theoretical, ancient, expensive, empirical]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The engineer's formula for the strength of a weld has no derivation
+      behind it. It was arrived at by breaking eleven thousand welded joints in
+      a press between 1931 and 1948, writing down the load at which each one
+      failed, and fitting a line to the results. It predicts failure better
+      than any of the three formulas worked out from theory in the same years.
+      An ________ rule of that kind tells you what happens without telling you
+      why.
+    clue: "It was arrived at by breaking eleven thousand welded joints in a press between 1931 and 1948, writing down the load at which each one failed, and fitting a line to the results"
+    relation: restatement
+    noise: ["the strength of a weld", "the three formulas", "in the same years"]
+    pathway: >-
+      The rule comes from thousands of measurements rather than from any
+      theory. The blank must mean based on observation and experiment.
+    key:
+      a: "the passage sets this rule against the three formulas worked out from theory."
+      b: "1931 is recent as science goes, and the date is not what the word has to describe."
+      c: "what it cost to break eleven thousand joints is never mentioned."
+
+  - id: L3-PHY-04
+    word: negligible
+    options: [considerable, negligible, unknown, negative]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The engineers worried about three things in the tunnel: water in the
+      chalk, the weight of the trains and the heat from the lights. The first
+      two have cost millions between them. The third turned out to be
+      ________: the lamps add about a fifth of a degree to the air over a mile
+      of tunnel, which the ventilation already in place shifts without being
+      turned up.
+    clue: "the lamps add about a fifth of a degree to the air over a mile of tunnel, which the ventilation already in place shifts without being turned up"
+    relation: example
+    noise: ["water in the chalk", "the weight of the trains", "cost millions"]
+    pathway: >-
+      The effect is a fifth of a degree and the existing fans deal with it
+      untouched. The blank must mean too small to matter.
+    key:
+      a: "a fifth of a degree that the existing fans absorb is not a large effect."
+      c: "the figure is given in the same sentence."
+      d: "the lamps add heat rather than take it away; what is small is the amount."
+
+  - id: L3-PHY-05
+    word: salient
+    options: [salient, trivial, final, hidden]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The report on the bridge runs to four hundred pages and lists everything
+      from the colour of the paint to the depth of the piles. Readers with only
+      an afternoon are told to begin at section nine. One fact there explains
+      the collapse and the rest of the document is background: the hangers
+      were forty years old and had never once been inspected from above. That
+      is the ________ point, and the whole inquiry turned on it.
+    clue: "One fact there explains the collapse and the rest of the document is background"
+    relation: contrast
+    noise: ["four hundred pages", "the colour of the paint", "section nine"]
+    pathway: >-
+      Out of four hundred pages one fact carries the explanation. The blank
+      must mean the most noticeable and important.
+    key:
+      b: "this is the one fact the whole inquiry turned on."
+      c: "it appears in section nine of four hundred pages, and importance is not position."
+      d: "the fact is printed in the report, and readers are sent straight to it."
+
+  - id: L3-PHY-06
+    word: inherent
+    options: [avoidable, recent, inherent, deliberate]
+    answer: c
+    traps: {a: T4, b: T1, d: T1}
+    passage: >-
+      A single-engine aircraft may be flown a thousand hours without trouble,
+      but the risk of an engine failure over water is not a fault in any
+      particular machine. It follows from having one engine. Better
+      maintenance lowers the chance of a failure and can do nothing about the
+      consequence of one. Some dangers are ________ in a design, and the only
+      way past them is a different design.
+    clue: "It follows from having one engine"
+    relation: cause
+    noise: ["a thousand hours", "over water", "Better maintenance"]
+    pathway: >-
+      The risk belongs to the layout itself and no care can remove it. The
+      blank must mean built into the thing by its nature.
+    key:
+      a: "the passage says maintenance cannot remove it and only a different design can."
+      b: "the risk is as old as the design, and no date appears in the passage."
+      d: "nobody chose this risk; it follows from the aircraft having one engine."
+
+  - id: L3-PHY-07
+    word: finite
+    options: [renewable, finite, cheap, useless]
+    answer: b
+    traps: {a: T4, c: T1, d: T1}
+    passage: >-
+      There is helium in the air, but at five parts in a million it costs far
+      more to collect than anyone will pay. Nearly all of it comes from a
+      handful of gas fields where it has been gathering for a hundred million
+      years, and once a cylinder is vented the gas is light enough to leave
+      the atmosphere altogether. Supplies of that kind are ________, and a
+      party balloon spends something a hospital scanner cannot replace.
+    clue: "once a cylinder is vented the gas is light enough to leave the atmosphere altogether"
+    relation: cause
+    noise: ["five parts in a million", "a party balloon", "a hospital scanner"]
+    pathway: >-
+      The stock took a hundred million years to gather and what is released
+      leaves the planet. The blank must mean limited in quantity and not
+      replaceable.
+    key:
+      a: "the gas leaves the atmosphere once released and took a hundred million years to collect."
+      c: "the first sentence says collecting it from the air costs more than anyone will pay."
+      d: "the hospital scanner in the last clause shows how useful it is."
+
+  - id: L3-PHY-08
+    word: converge
+    options: [diverge, repeat, cancel, converge]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      The first estimate of the distance came from the brightness of a certain
+      kind of star, the second from the speed at which the galaxy is
+      retreating, the third from the ripple in a collapsing cloud of gas. None
+      of the three methods shares an assumption with either of the others. All
+      three now give an answer between fifty-one and fifty-three million light
+      years. When independent measurements ________ like that, the figure is
+      probably right.
+    clue: "All three now give an answer between fifty-one and fifty-three million light years"
+    relation: restatement
+    noise: ["the brightness of a certain kind of star", "a collapsing cloud of gas", "probably right"]
+    pathway: >-
+      Three unrelated methods end up within two million light years of one
+      another. The blank must mean come together towards the same value.
+    key:
+      a: "the three answers fall inside two million light years of each other."
+      b: "the three methods share no assumption, so they are not repetitions of one measurement."
+      c: "none of the figures removes another; they agree."
+
+  - id: L3-PHY-09
+    word: calibrate
+    options: [clean, replace, calibrate, read]
+    answer: c
+    traps: {a: T1, b: T2, d: T1}
+    passage: >-
+      A new thermometer out of its box is only a tube of liquid and a printed
+      scale. Before the laboratory will use it, the instrument goes into
+      melting ice and then into water boiling at a known pressure, and the two
+      marks are compared with where the scale says they ought to fall. Unless
+      somebody takes the trouble to ________ it against something already
+      known, every number it gives afterwards is a guess with a decimal point.
+    clue: "the instrument goes into melting ice and then into water boiling at a known pressure, and the two marks are compared with where the scale says they ought to fall"
+    relation: restatement
+    noise: ["out of its box", "a printed scale", "a decimal point"]
+    pathway: >-
+      The instrument is checked against two known points and its scale
+      corrected. The blank must mean set an instrument right against a known
+      standard.
+    key:
+      a: "the ice and the boiling water are reference points, not a wash."
+      b: "the thermometer is being made fit to use, not swapped for another one."
+      d: "taking a figure off the scale is what happens afterwards, and the passage says those figures mean nothing until this has been done."
+
+  - id: L3-PHY-10
+    word: attribute
+    options: [attribute, deny, measure, announce]
+    answer: a
+    traps: {b: T4, c: T1, d: T1}
+    passage: >-
+      The cracks in the terrace appeared in the same August that the water
+      company laid a main along the road, and the owners' first letter blamed
+      the digging. But the clay under that part of the town shrank four
+      centimetres that summer, every garden in the row lost its lawn, and
+      houses a mile from any trench cracked in the same week. It is easy to
+      ________ damage to the newest thing in the street, and usually wrong.
+    clue: "houses a mile from any trench cracked in the same week"
+    relation: contrast
+    noise: ["four centimetres", "lost its lawn", "the water company"]
+    pathway: >-
+      The owners name the trench as the cause, and the evidence points to the
+      dry clay instead. The blank must mean name as the cause.
+    key:
+      b: "the owners are assigning a cause, not refusing one."
+      c: "the four centimetres are measured, but the mistake the passage describes is naming the wrong cause."
+      d: "the letter does announce a complaint; the sentence is about deciding what caused the damage."

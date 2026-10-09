@@ -1,0 +1,205 @@
+level: 1
+domain: HUM
+items:
+  - id: L1-HUM-01
+    word: portrays
+    options: [portrays, hides, judges, sells]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The painting is three metres wide and shows nothing but a kitchen: a
+      woman scaling fish, a boy asleep under the table, a cat at the door. It
+      ________ an ordinary evening in a poor house, down to the knife marks
+      on the board.
+    clue: "shows nothing but a kitchen"
+    relation: restatement
+    noise: ["three metres wide", "a cat at the door", "the knife marks on the board"]
+    pathway: >-
+      The second sentence lists what can be seen in the picture, so the blank
+      must mean shows or represents.
+    key:
+      b: "the whole list is of things the painter put in plain view."
+      c: "nothing in the text says the painter approves or disapproves of the family."
+      d: "a painting may be sold, but the sentence is about what is in it."
+
+  - id: L1-HUM-02
+    word: reflects
+    options: [ignores, invents, reflects, repeats]
+    answer: c
+    traps: {a: T4, b: T4, d: T2}
+    passage: >-
+      The novel was written in the winter the shipyards closed. Its hero
+      spends two hundred pages looking for work that is no longer there, and
+      the book ________ the mood of the town it came out of.
+    clue: "spends two hundred pages looking for work that is no longer there"
+    relation: restatement
+    noise: ["in the winter", "the town it came out of", "the shipyards"]
+    pathway: >-
+      The story is about the same loss of work that the town was living
+      through, so the blank must mean shows something that comes from
+      outside it.
+    key:
+      a: "the story is built out of the town's trouble, not turned away from it."
+      b: "the hero's situation is the town's real one, so it is not made up."
+      d: "to repeat would mean saying the same words again; a novel about the closures shows the mood rather than restating it."
+
+  - id: L1-HUM-03
+    word: express
+    options: [explain, express, correct, print]
+    answer: b
+    traps: {a: T2, c: T1, d: T1}
+    passage: >-
+      The poet could not say in a letter what the loss of her brother had done
+      to her. She found she could ________ it in fourteen lines about an empty
+      chair, and readers who had never met him wept over them.
+    clue: ["could not say in a letter", "readers who had never met him wept over them"]
+    relation: contrast
+    noise: ["her brother", "fourteen lines", "an empty chair"]
+    pathway: >-
+      Plain statement failed her and the poem succeeded in getting the feeling
+      across. The blank must mean put a feeling into words.
+    key:
+      a: "an explanation gives reasons; the poem makes strangers weep, which is feeling rather than reasons."
+      c: "there is no error in the text to put right."
+      d: "printing is what a press does; the difficulty was finding words at all."
+
+  - id: L1-HUM-04
+    word: inspired
+    options: [forced, copied, bought, inspired]
+    answer: d
+    traps: {a: T1, b: T2, c: T1}
+    passage: >-
+      A young carpenter heard the cathedral choir once, at fifteen, and spent
+      the next forty years writing music. He kept no record of the piece he
+      heard, but that one afternoon ________ everything he later wrote.
+    clue: "spent the next forty years writing music"
+    relation: cause
+    noise: ["A young carpenter", "at fifteen", "no record of the piece"]
+    pathway: >-
+      One hearing set him off on a lifetime of composing of his own free
+      will. The blank must mean stirred him to act.
+    key:
+      a: "nobody made him write; he chose to spend forty years at it."
+      b: "he kept no record of the piece, so he had nothing to copy."
+      c: "no money changes hands anywhere in the passage."
+
+  - id: L1-HUM-05
+    word: reveals
+    options: [covers, repeats, reveals, praises]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      Under the dirt of two centuries the portrait looked like a man in black.
+      Cleaning ________ a green coat, a dog at his knee, and a window with a
+      harbour in it that nobody had known was there.
+    clue: "that nobody had known was there"
+    relation: restatement
+    noise: ["two centuries", "a dog at his knee", "a green coat"]
+    pathway: >-
+      Things that had been invisible are now in sight. The blank must mean
+      brings into view.
+    key:
+      a: "the dirt covered the painting; cleaning does the reverse."
+      b: "nothing is being said or shown a second time; these details are new to everyone."
+      d: "to praise is to speak well of something, and cleaning does not speak."
+
+  - id: L1-HUM-06
+    word: praised
+    options: [praised, attacked, ignored, described]
+    answer: a
+    traps: {b: T4, c: T4, d: T2}
+    passage: >-
+      The first review called the building the finest thing in the city and
+      said every town should have one. Later critics were harsher, but that
+      opening notice ________ it so warmly that tickets sold out for a year.
+    clue: "called the building the finest thing in the city"
+    relation: restatement
+    noise: ["Later critics", "every town", "a year"]
+    pathway: >-
+      The review said the building was the finest in the city. The blank must
+      mean spoke well of.
+    key:
+      b: "the harsh critics came later; this notice is the warm one."
+      c: "a review that fills the house for a year has not passed the building over."
+      d: "merely describing a building would not call it the finest thing in the city."
+
+  - id: L1-HUM-07
+    word: imitate
+    options: [sell, teach, study, imitate]
+    answer: d
+    traps: {a: T1, b: T2, c: T2}
+    passage: >-
+      The young painters in the room were not asked to invent anything. Each
+      had a copy of the same drawing pinned above the easel and was told to
+      ________ it line for line until the hand learned the shape.
+    clue: "line for line"
+    relation: restatement
+    noise: ["in the room", "pinned above the easel", "the hand"]
+    pathway: >-
+      They must reproduce a model exactly rather than make something new. The
+      blank must mean copy.
+    key:
+      a: "no buyer appears; the drawing is a model to work from."
+      b: "the pupils are being taught, not teaching, and a drawing cannot be taught line for line."
+      c: "studying a drawing is looking at it; line for line asks for the hand to reproduce it."
+
+  - id: L1-HUM-08
+    word: shaped
+    options: [replaced, shaped, hid, delayed]
+    answer: b
+    traps: {a: T2, c: T1, d: T1}
+    passage: >-
+      Cheap paint in tubes arrived in the eighteen forties. Painters could
+      suddenly work outdoors in an afternoon instead of grinding colours in a
+      studio, and that one invention ________ what European pictures looked
+      like for the rest of the century.
+    clue: "Painters could suddenly work outdoors in an afternoon instead of grinding colours in a studio"
+    relation: cause
+    noise: ["in tubes", "the eighteen forties", "European"]
+    pathway: >-
+      A change in materials changed how and where pictures were made, and so
+      how they looked. The blank must mean gave form to.
+    key:
+      a: "the tubes replaced ground colours, but what the sentence says was affected is how pictures looked."
+      c: "pictures made outdoors in an afternoon were more visible, not less."
+      d: "nothing was put off; the change happened at once."
+
+  - id: L1-HUM-09
+    word: admired
+    options: [admired, feared, forgot, paid]
+    answer: a
+    traps: {b: T1, c: T4, d: T1}
+    passage: >-
+      Students queued on the stairs for a seat in her lectures, and two of
+      them kept the notes for fifty years. Even the professors who disagreed
+      with her ________ the clarity of the way she argued.
+    clue: "Even the professors who disagreed with her"
+    relation: concession
+    noise: ["on the stairs", "two of them", "fifty years"]
+    pathway: >-
+      Her opponents still thought well of one thing about her. The blank must
+      mean thought highly of.
+    key:
+      b: "fear would not be introduced by even and would not be about clarity."
+      c: "notes kept for fifty years are the opposite of forgetting."
+      d: "no money is mentioned, and professors do not pay for a colleague's clarity."
+
+  - id: L1-HUM-10
+    word: composed
+    options: [performed, sold, composed, copied]
+    answer: c
+    traps: {a: T2, b: T1, d: T2}
+    passage: >-
+      She never learned to play the violin and could not read a full score at
+      speed. What she did, at a table with a pencil, was ________ the four
+      quartets that other people have been playing ever since.
+    clue: ["at a table with a pencil", "that other people have been playing ever since"]
+    relation: contrast
+    noise: ["the violin", "a full score", "the four quartets"]
+    pathway: >-
+      She made the music on paper and others played it. The blank must mean
+      wrote music.
+    key:
+      a: "she never learned the violin, and the text says other people play the quartets."
+      b: "selling the pieces is not what a pencil at a table produces."
+      d: "the quartets are hers; copying would mean they were somebody else's."

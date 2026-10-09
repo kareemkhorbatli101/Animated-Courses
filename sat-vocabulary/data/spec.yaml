@@ -1,0 +1,80 @@
+# SAT Vocabulary in Context — book specification (single source of truth)
+title: "Words in Context"
+subtitle: "200 Graded Blank-Completion Questions for the Digital SAT"
+audience: "B2 learners of English preparing for the Digital SAT Reading and Writing section"
+blank_token: "________"        # constant width across all 200 items
+
+relations: [restatement, contrast, cause, example, concession]
+
+# Each item declares the exact words that license the answer (clue), the
+# relation they bear to the blank, and a sample of the inert detail that must
+# not influence the choice (noise). Declared noise is a sample, not a complete
+# accounting: the measured quantity is the off-path share, which is the
+# proportion of the passage that lies outside the clue, reported per level.
+noise_examples: "a sample of inert detail, verbatim, never overlapping the clue"
+
+traps:
+  T1: "Register match, logic fail — the word fits the subject and the style but is contradicted or unsupported by the text."
+  T2: "Near-synonym, wrong collocation or wrong degree — close in meaning, wrong in this sentence."
+  T3: "Familiar sense of a word whose rarer sense is being tested."
+  T4: "Reversed direction — the opposite of what the clue licenses."
+
+levels:
+  1:
+    name: Foundation
+    band: "3,000–5,000 most frequent words"
+    words_min: 28
+    words_max: 55
+    noise_examples_min: 3
+    clue_distance: "same sentence or the sentence next to the blank"
+    description: >-
+      One clue, stated plainly and close to the blank, usually a restatement.
+      Passages are short, so there is little room for detail to mislead.
+  2:
+    name: Developing
+    band: "5,000–8,000 most frequent words"
+    words_min: 42
+    words_max: 75
+    noise_examples_min: 3
+    clue_distance: "same sentence or one sentence away"
+    description: >-
+      One clue, still explicit, and often carried by a contrast or a cause
+      rather than a restatement. Longer passages, so more inert detail
+      competes for attention.
+  3:
+    name: Target
+    band: "8,000–12,000 most frequent words"
+    words_min: 60
+    words_max: 100
+    noise_examples_min: 3
+    clue_distance: "up to two sentences from the blank"
+    description: >-
+      One clue, placed away from the blank and often expressed as a concession
+      or a contrast, inside a passage half again as long as a level-2 one.
+  4:
+    name: Stretch
+    band: "12,000+, and common words used in a rare sense"
+    words_min: 78
+    words_max: 125
+    noise_examples_min: 4
+    clue_distance: "two clues, in different sentences, that must be combined"
+    description: >-
+      Two clues that only license the answer when read together. Half the
+      passage is inert. Thirty of the fifty words are everyday words used in
+      a sense the student has probably never met.
+
+domains:
+  HIS: "History and Civics"
+  BIO: "Biology and Earth Science"
+  PHY: "Physical Science"
+  HUM: "Humanities"
+  SOC: "Social Science"
+domain_order: [HIS, BIO, PHY, HUM, SOC]
+
+checks:
+  per_item: 3
+  total: 600
+  passes:
+    A: "Inference pathway — the passage alone licenses the answer."
+    B: "Distractor integrity — every wrong option is wrong for a named, tagged reason."
+    C: "Mechanical conformance — blank, length, band, noise share, option form."

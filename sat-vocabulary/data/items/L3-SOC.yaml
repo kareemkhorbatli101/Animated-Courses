@@ -1,0 +1,241 @@
+level: 3
+domain: SOC
+items:
+  - id: L3-SOC-01
+    word: heterogeneous
+    options: [uniform, small, hostile, heterogeneous]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The word suburb covers the two square miles under study and tells you
+      almost nothing about them. One ward is nine streets of brick terraces
+      where three families in five have been there since 1960. The next is a
+      business park, a mosque and four hundred flats put up since 2014. The
+      third is a caravan site and a golf course. A district as ________ as
+      this will show a researcher any result she looks for, depending on where
+      she draws her line.
+    clue: "One ward is nine streets of brick terraces where three families in five have been there since 1960. The next is a business park, a mosque and four hundred flats put up since 2014. The third is a caravan site and a golf course"
+    relation: example
+    noise: ["two square miles", "tells you almost nothing", "where she draws her line"]
+    pathway: >-
+      The three parts of one district have almost nothing in common. The blank
+      must mean made up of very different parts.
+    key:
+      a: "the three wards described have almost nothing in common."
+      b: "two square miles is the size; the word has to describe the mixture inside it."
+      c: "no conflict between the wards is mentioned anywhere."
+
+  - id: L3-SOC-02
+    word: confound
+    options: [confirm, confound, measure, reverse]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Children who attend the breakfast club score better in the autumn tests,
+      and the school was ready to publish the figures. But places in the club
+      go first to the families who ask for them, and the families who ask are
+      also the families who read at home, come to parents' evening and own a
+      dictionary. Any one of those will ________ the comparison, and the
+      result as it stands cannot tell anyone whether the breakfast did
+      anything at all.
+    clue: "the families who ask are also the families who read at home, come to parents' evening and own a dictionary"
+    relation: cause
+    noise: ["the autumn tests", "ready to publish the figures", "as it stands"]
+    pathway: >-
+      Other differences travel with club membership, so the effect of the club
+      cannot be separated out. The blank must mean mix up two causes so that
+      neither can be judged.
+    key:
+      a: "these other differences are what make the result impossible to trust."
+      c: "the trouble is not a want of measurement but a mixing of causes."
+      d: "the figures are not turned the other way round; they are left meaning nothing."
+
+  - id: L3-SOC-03
+    word: causal
+    options: [accidental, unknown, causal, equal]
+    answer: c
+    traps: {a: T2, b: T1, d: T1}
+    passage: >-
+      Two findings look much alike on the page. Towns with more dentists have
+      more cases of gum disease; children given fluoride tablets have fewer.
+      The first is a matter of where dentists choose to open their doors. The
+      second comes from a trial in which eleven hundred children were given
+      tablets or a dummy by lot. Only the second will support a ________
+      claim, and what makes the difference is the lot, not the size of the
+      study.
+    clue: "The second comes from a trial in which eleven hundred children were given tablets or a dummy by lot"
+    relation: contrast
+    noise: ["more dentists", "gum disease", "the size of the study"]
+    pathway: >-
+      Allocation by lot is what licenses a claim that one thing produces
+      another. The blank must mean to do with one thing bringing about
+      another.
+    key:
+      a: "the drawing of lots is there to rule chance out, which is the opposite of what this word would say."
+      b: "the second finding is the one that is understood; the first is the doubtful one."
+      d: "the lot made the two groups equal, but the claim at issue is about one thing producing another."
+
+  - id: L3-SOC-04
+    word: endemic
+    options: [endemic, imported, recent, harmless]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      The disease is not news in the valley and no outbreak is ever declared.
+      Every clinic sees it in every month of the year, the figures for 1974
+      are much the same as the figures for last year, and the standing order
+      for the drug has not been altered in two decades. A condition that is
+      ________ draws less attention than one that arrives, which is part of
+      why the valley waited forty years for a water scheme.
+    clue: "Every clinic sees it in every month of the year, the figures for 1974 are much the same as the figures for last year"
+    relation: restatement
+    noise: ["the standing order", "no outbreak", "forty years"]
+    pathway: >-
+      The disease has been present at a steady level for decades. The blank
+      must mean regularly found in a particular place.
+    key:
+      b: "the disease has been in the valley since at least 1974; nothing arrives."
+      c: "the 1974 figures and two decades of unchanged orders show the opposite."
+      d: "the valley needed a water scheme because of it, so it does real harm."
+
+  - id: L3-SOC-05
+    word: reciprocal
+    options: [one-sided, reciprocal, formal, temporary]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Nobody in the street keeps accounts. The woman at number 9 takes in
+      parcels for the family at 14; the family at 14 cut the hedge at 9 the
+      summer the owner's knee was bad; the man at 22 lends a ladder to both of
+      them and has never asked for anything. A ________ arrangement of this
+      kind outlasts a paid one, because nobody can be dismissed from it.
+    clue: "The woman at number 9 takes in parcels for the family at 14; the family at 14 cut the hedge at 9 the summer the owner's knee was bad"
+    relation: example
+    noise: ["a ladder", "has never asked for anything", "a paid one"]
+    pathway: >-
+      Each household does something for another and gets something back. The
+      blank must mean given and returned on both sides.
+    key:
+      a: "every favour listed is answered by another one."
+      c: "nobody keeps accounts and nothing is written down."
+      d: "the parcels and the ladder are described as a standing habit, and the last clause treats it as lasting."
+
+  - id: L3-SOC-06
+    word: normative
+    options: [factual, optional, hidden, normative]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      Two sentences in the report look alike and do quite different work. One
+      says that forty per cent of the households spend more than a third of
+      their income on rent, and that can be checked against the survey. The
+      other says that no household should have to spend more than a third of
+      its income on rent, and that cannot be checked against anything. The
+      second is a ________ statement, and a reader who misses the shift will
+      think the figures have settled a question they cannot settle.
+    clue: "that cannot be checked against anything"
+    relation: contrast
+    noise: ["forty per cent", "the survey", "a third of their income"]
+    pathway: >-
+      The second sentence says what ought to be the case and no measurement
+      can test it. The blank must mean stating a standard rather than a fact.
+    key:
+      a: "the first sentence is the factual one, and the passage sets the second against it."
+      b: "the sentence says what ought to be so, which is a judgement, not a choice."
+      c: "both sentences are printed in the report, one after the other."
+
+  - id: L3-SOC-07
+    word: latent
+    options: [latent, cured, imagined, measured]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The town had voted the same way for sixty years, and the party agents
+      had long since stopped canvassing the hill estates. Nothing in the
+      figures suggested that anything was changing. Then a bypass was proposed
+      through the allotments, and four hundred people who had never been to a
+      public meeting in their lives filled the hall inside a week. The feeling
+      had been ________ all along, and it took a line on a map to bring it
+      out.
+    clue: "four hundred people who had never been to a public meeting in their lives filled the hall inside a week"
+    relation: contrast
+    noise: ["sixty years", "the allotments", "the party agents"]
+    pathway: >-
+      The feeling existed before the bypass but showed in nothing until there
+      was something to bring it out. The blank must mean present but not yet
+      visible.
+    key:
+      b: "the feeling was not gone: it filled the hall as soon as there was a reason."
+      c: "four hundred people in a hall are real enough."
+      d: "the passage says nothing in the figures showed it, which is the opposite of measured."
+
+  - id: L3-SOC-08
+    word: disparity
+    options: [similarity, average, disparity, increase]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      Both wards lie in the same city, three miles apart on one bus route. A
+      boy born in the ward with the park and the two chemists can expect to
+      live to eighty-two. A boy born in the ward behind the goods yard can
+      expect seventy-one. The schools, the air and the shops are all
+      different, and an eleven-year ________ between two stops on one route is
+      harder to explain away than a gap between countries.
+    clue: "can expect to live to eighty-two. A boy born in the ward behind the goods yard can expect seventy-one"
+    relation: restatement
+    noise: ["three miles apart", "the two chemists", "on one bus route"]
+    pathway: >-
+      Two figures from the same city differ by eleven years. The blank must
+      name a great and unequal difference.
+    key:
+      a: "eleven years between two wards three miles apart is a difference, not a likeness."
+      b: "the two figures are averages, but the word has to name the gap between them."
+      d: "neither figure is rising; the two are being set against one another."
+
+  - id: L3-SOC-09
+    word: marginal
+    options: [decisive, early, expensive, marginal]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The new reading scheme costs eleven pounds a child and takes forty
+      minutes a week out of the timetable. The trial in nine schools found
+      that children on the scheme read, on average, one word a minute faster
+      than children who were not on it, a difference the authors themselves
+      call too small to be noticed in a classroom. Gains as ________ as that
+      make the forty minutes the real question.
+    clue: "a difference the authors themselves call too small to be noticed in a classroom"
+    relation: restatement
+    noise: ["eleven pounds a child", "nine schools", "the timetable"]
+    pathway: >-
+      The measured gain is one word a minute and the authors call it too small
+      to notice. The blank must mean so small as to be barely worth counting.
+    key:
+      a: "the authors themselves say the difference is too small to notice."
+      b: "the trial is finished and the figures are in; nothing is said about timing."
+      c: "the eleven pounds a child is what the scheme costs, and the word has to describe the size of the gain instead."
+
+  - id: L3-SOC-10
+    word: methodical
+    options: [hurried, methodical, lucky, famous]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      She called at every one of the four hundred and twelve addresses
+      herself, went back three times to any door that did not answer, and
+      entered the refusals in a separate book so that they could be counted
+      too. Where a street had been pulled down she worked through the
+      rehousing register until she had found the families again. Work as
+      ________ as that is why her 1931 figures are still quoted and the
+      government survey of the same year is not.
+    clue: "went back three times to any door that did not answer, and entered the refusals in a separate book so that they could be counted too"
+    relation: restatement
+    noise: ["four hundred and twelve", "the rehousing register", "the government survey"]
+    pathway: >-
+      Every address, every silent door and every refusal was accounted for by
+      a fixed procedure. The blank must mean done in an orderly, systematic
+      way.
+    key:
+      a: "three return visits to every silent door is the opposite of haste."
+      c: "nothing here turned on chance; the completeness was built door by door."
+      d: "the figures are famous, but the word has to describe how the work was done."

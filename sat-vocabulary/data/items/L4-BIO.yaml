@@ -1,0 +1,246 @@
+level: 4
+domain: BIO
+items:
+  - id: L4-BIO-01
+    word: husband
+    rare_sense: true
+    options: [waste, marry, husband, measure]
+    answer: c
+    traps: {a: T4, b: T3, d: T1}
+    passage: >-
+      A camel does not store water in its hump; the hump is fat. What keeps
+      the animal alive on the fifth day without a well is a set of economies.
+      It will let its body temperature climb six degrees before it begins to
+      sweat at all. Its kidneys return water to the blood until the urine runs
+      like syrup, and its droppings are dry enough to burn on a fire. An animal
+      that must ________ every litre it carries cannot afford the habits of one
+      that drinks twice a day.
+    clue: ["It will let its body temperature climb six degrees before it begins to sweat at all", "cannot afford the habits of one that drinks twice a day"]
+    relation: cause
+    noise: ["the hump is fat", "the fifth day", "burn on a fire", "like syrup"]
+    pathway: >-
+      Every mechanism listed exists to save water, and the camel is set against
+      an animal that can drink daily. The blank must mean use sparingly and
+      make last.
+    key:
+      a: "every mechanism in the list saves water rather than throwing it away."
+      b: "a married man is the everyday sense of the answer word, and a camel's kidneys have nothing to do with it."
+      d: "the camel is not gauging its water but spending it as slowly as it can."
+
+  - id: L4-BIO-02
+    word: harbour
+    rare_sense: true
+    options: [harbour, anchor, destroy, release]
+    answer: a
+    traps: {b: T3, c: T4, d: T2}
+    passage: >-
+      The ward was scrubbed twice a day for a month and the infection rate did
+      not move. Two different disinfectants were tried, one of them new to the
+      hospital. When the team finally cultured the mattresses themselves, they
+      found the organism living two centimetres inside the foam, where no cloth
+      and no spray had ever reached, in numbers that had not fallen in six
+      weeks. A surface can look clean and still ________ a population that
+      will reach the next patient through a split in the cover.
+    clue: ["living two centimetres inside the foam, where no cloth and no spray had ever reached", "a population that will reach the next patient through a split in the cover"]
+    relation: contrast
+    noise: ["twice a day for a month", "the infection rate", "six weeks", "Two different disinfectants"]
+    pathway: >-
+      The foam keeps the organism alive and out of reach until it can pass to
+      somebody else. The blank must mean shelter and keep alive.
+    key:
+      b: "holding fast in one place is where the everyday sense of the answer word points; the passage is about the foam keeping the organism alive and ready to spread."
+      c: "the numbers had not fallen in six weeks of scrubbing."
+      d: "the organism stays inside the foam until the cover splits."
+
+  - id: L4-BIO-03
+    word: flag
+    rare_sense: true
+    options: [recover, mark, spread, flag]
+    answer: d
+    traps: {a: T4, b: T3, c: T1}
+    passage: >-
+      For the first three hours of the trial the bees came to the feeder every
+      ninety seconds. After six hours, with the syrup unchanged and the
+      temperature steady inside the tent, the intervals had stretched to four
+      minutes and a third of the foragers were sitting on the outside of the
+      hive doing nothing. Even a colony with food in front of it will ________
+      by the end of a long day, and the pattern held in all nine hives.
+    clue: ["the intervals had stretched to four minutes and a third of the foragers were sitting on the outside of the hive doing nothing", "with the syrup unchanged and the temperature steady inside the tent"]
+    relation: cause
+    noise: ["every ninety seconds", "the first three hours", "all nine hives", "came to the feeder"]
+    pathway: >-
+      Nothing outside the bees has changed, and their work falls off as the day
+      goes on. The blank must mean grow tired and slacken.
+    key:
+      a: "the visits became less frequent, not more."
+      b: "putting a mark on something is the everyday sense of the answer word and has nothing to do with the bees slowing down."
+      c: "the bees are not going further afield; they are going less often."
+
+  - id: L4-BIO-04
+    word: stem
+    rare_sense: true
+    options: [hasten, stem, root, measure]
+    answer: b
+    traps: {a: T4, c: T3, d: T1}
+    passage: >-
+      Once the rabbits were ashore there was no catching up with them: a doe
+      can have five litters in a season and the young breed at four months. The
+      fence took two years to build and cost more than the farms behind it were
+      worth. It did not clear a single rabbit out of the north of the island.
+      What it did was ________ the spread into the south, and the lambing
+      figures there have held for thirty years.
+    clue: ["It did not clear a single rabbit out of the north of the island", "the lambing figures there have held for thirty years"]
+    relation: contrast
+    noise: ["five litters", "two years to build", "the farms behind it", "a doe"]
+    pathway: >-
+      The rabbits in the north are untouched and the south is protected, so the
+      fence stopped a movement rather than removing anything. The blank must
+      mean stop the flow or advance of.
+    key:
+      a: "the fence slowed the rabbits down; it did not help them along."
+      c: "the root and stem of a plant are the everyday sense of the answer word, and nothing is being planted here."
+      d: "a fence is a barrier, not an instrument for taking readings."
+
+  - id: L4-BIO-05
+    word: plastic
+    rare_sense: true
+    options: [plastic, synthetic, fixed, fragile]
+    answer: a
+    traps: {b: T3, c: T4, d: T2}
+    passage: >-
+      The old view was that the adult brain was finished: the map of the
+      fingers on the surface of the cortex was laid down in childhood and
+      stayed where it was put. Then the hands of six violinists were measured
+      against those of six people who had never played an instrument, and the
+      area answering to the left fingers was half again as large in the
+      players. In an adult who practises four hours a day the cortex is still
+      ________, and the map follows the work.
+    clue: ["the area answering to the left fingers was half again as large in the players", "the map follows the work"]
+    relation: contrast
+    noise: ["six violinists", "four hours a day", "in childhood", "an instrument"]
+    pathway: >-
+      Use has enlarged part of an adult cortex, so the tissue can still be
+      reshaped. The blank must mean able to be moulded by what happens to it.
+    key:
+      b: "man-made material is the everyday sense of the answer word, and no material is at issue here."
+      c: "that is exactly the old view which these measurements overturned."
+      d: "nothing suggests the cortex is easily broken; it is being reshaped by use."
+
+  - id: L4-BIO-06
+    word: novel
+    rare_sense: true
+    options: [ancient, fictional, novel, harmless]
+    answer: c
+    traps: {a: T4, b: T3, d: T1}
+    passage: >-
+      Nylon has been in the sea for eighty years, which is nothing at all. No
+      bacterium had ever met it before 1935, and for decades nothing in the
+      water would touch a lost net. Then in 2016 a team working in the sediment
+      of a Japanese harbour found a strain that grows on nylon and on almost
+      nothing else, using two enzymes with no close relatives anywhere. A
+      ________ food source will find an organism to eat it in the end, but
+      eighty years is quick work.
+    clue: ["No bacterium had ever met it before 1935", "using two enzymes with no close relatives anywhere"]
+    relation: cause
+    noise: ["a Japanese harbour", "a lost net", "in 2016", "in the sediment"]
+    pathway: >-
+      The material did not exist until 1935 and the enzymes that digest it have
+      no ancestors to speak of. The blank must mean new and not met before.
+    key:
+      a: "the material did not exist anywhere before 1935."
+      b: "a work of fiction is the everyday sense of the answer word; the nets and the enzymes are real."
+      d: "whether nylon does harm is not the subject; how new it is, is."
+
+  - id: L4-BIO-07
+    word: spent
+    rare_sense: true
+    options: [fertile, spent, costly, frozen]
+    answer: b
+    traps: {a: T4, c: T3, d: T1}
+    passage: >-
+      After the salmon have spawned in the gravel of the upper river they do
+      not go back to the sea. The fish that drift down tail first in October
+      have nothing left in them: the fat is gone, the jaw will not close, and
+      the flesh has begun to break down while they are still swimming. For a
+      fortnight the bears and the gulls live on little else. A ________ fish
+      still feeds a valley, and the nitrogen in its body turns up the
+      following summer in the needles of the spruce.
+    clue: ["the fat is gone, the jaw will not close, and the flesh has begun to break down while they are still swimming", "they do not go back to the sea"]
+    relation: restatement
+    noise: ["the gravel", "the bears and the gulls", "the needles of the spruce", "tail first in October"]
+    pathway: >-
+      The fish have used themselves up in spawning and will not recover. The
+      blank must mean used up and exhausted.
+    key:
+      a: "the fish have already spawned and are dying as they drift."
+      c: "money is the everyday sense of the answer word, and nothing here is bought or sold."
+      d: "October in a river is not the same as frozen, and the flesh is described as breaking down."
+
+  - id: L4-BIO-08
+    word: fecund
+    options: [barren, ancient, poisonous, fecund]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      A single female cod carries as many as nine million eggs. Almost none of
+      them come to anything: the drift takes them into water with nothing in it
+      to eat, or into the path of something that eats them, and in a good year
+      about one egg in a million reaches its second birthday. The species is
+      ________ because it has to be, and a fish that laid a hundred eggs in
+      that sea would have been gone long ago.
+    clue: ["A single female cod carries as many as nine million eggs", "one egg in a million reaches its second birthday"]
+    relation: cause
+    noise: ["the drift", "nothing in it to eat", "a good year", "a hundred eggs"]
+    pathway: >-
+      Nine million eggs are produced because almost all of them are lost. The
+      blank must mean producing offspring in great numbers.
+    key:
+      a: "nine million eggs from one female is the opposite of producing nothing."
+      b: "how long cod have existed is never mentioned."
+      c: "nothing in the passage concerns poison; the eggs are eaten by other animals."
+
+  - id: L4-BIO-09
+    word: quiescent
+    options: [active, extinct, quiescent, visible]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      The virus that causes chickenpox does not leave the body when the rash
+      does. It withdraws along the nerves to a knot of cells beside the spine
+      and sits there, making no new copies of itself and showing in no test,
+      for fifty or sixty years. When the immune system is weakened by age or by
+      illness, it can travel back down one nerve and raise shingles in the
+      strip of skin that nerve serves. A ________ infection is not a cured one.
+    clue: ["making no new copies of itself and showing in no test, for fifty or sixty years", "it can travel back down one nerve and raise shingles"]
+    relation: contrast
+    noise: ["beside the spine", "the rash", "age or by illness", "chickenpox"]
+    pathway: >-
+      The virus does nothing for decades and is still able to act when
+      conditions change. The blank must mean inactive for the time being.
+    key:
+      a: "the passage says it makes no new copies and shows in no test."
+      b: "a virus that can raise shingles sixty years later has not died out."
+      d: "it shows in no test at all during those decades."
+
+  - id: L4-BIO-10
+    word: inimical
+    options: [inimical, favourable, indifferent, familiar]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      Nothing grows in the pools at the lip of the hot spring except one alga.
+      The water leaves the rock at eighty degrees, carries enough acid to take
+      the skin off a hand, and holds almost no nitrogen. Conditions ________ to
+      every other plant on the hillside are the reason the alga has the place
+      to itself; a cooler and sweeter pool thirty metres down the slope is
+      crowded with competitors that would shade it out in a week.
+    clue: ["carries enough acid to take the skin off a hand", "a cooler and sweeter pool thirty metres down the slope is crowded with competitors"]
+    relation: cause
+    noise: ["eighty degrees", "on the hillside", "almost no nitrogen", "the hot spring"]
+    pathway: >-
+      The heat and the acid keep every other plant out, which is why the alga
+      is alone. The blank must mean harmful and hostile to.
+    key:
+      b: "the acid and the heat keep everything else out of the pools."
+      c: "these conditions act strongly against other plants rather than leaving them unaffected."
+      d: "whether other plants have met such water before is not the point: it kills them."

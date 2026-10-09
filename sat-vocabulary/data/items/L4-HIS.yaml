@@ -1,0 +1,253 @@
+level: 4
+domain: HIS
+items:
+  - id: L4-HIS-01
+    word: qualify
+    rare_sense: true
+    options: [qualify, certify, withdraw, publish]
+    answer: a
+    traps: {b: T3, c: T2, d: T1}
+    passage: >-
+      The ambassador's first telegram said that the frontier was quiet. His
+      second, sent four hours later, did not contradict it. It added that the
+      quiet held only west of the river, that two villages had been burned on
+      the eastern bank, and that he had not himself left the town since
+      Tuesday. Officials in the ministry who read the two together understood
+      that the second had been written to ________ the first and not to
+      replace it, and the file was marked accordingly before it went up.
+    clue: ["did not contradict it", "not to replace it"]
+    relation: contrast
+    noise: ["four hours later", "since Tuesday", "the file was marked accordingly", "west of the river"]
+    pathway: >-
+      The second telegram neither contradicts nor replaces the first; it adds
+      limits to it. The blank must mean make a statement less absolute by
+      adding conditions.
+    key:
+      b: "to confirm something is the reverse of adding limits to it, and this is the everyday sense of the answer word rather than the sense the passage needs."
+      c: "the passage says in the same sentence that the second telegram does not replace the first."
+      d: "nothing is being put before the public: both telegrams go into a ministry file."
+
+  - id: L4-HIS-02
+    word: checked
+    rare_sense: true
+    options: [examined, recorded, checked, reversed]
+    answer: c
+    traps: {a: T3, b: T1, d: T2}
+    passage: >-
+      The advance had covered ninety miles in eleven days, and the staff
+      officers were already drawing lines beyond the city. What stopped it was
+      not a battle. The one road forward crossed four miles of marsh, the rains
+      came a fortnight early, and the fuel lorries could manage walking pace
+      where they could move at all. A column can be ________ by weather and a
+      bad road as thoroughly as by an army, and this one did not move again
+      until the frost came in November.
+    clue: ["What stopped it was not a battle", "this one did not move again until the frost came in November"]
+    relation: cause
+    noise: ["ninety miles in eleven days", "the staff officers", "walking pace", "beyond the city"]
+    pathway: >-
+      The advance is brought to a halt, and by mud rather than by fighting.
+      The blank must mean brought to a stop.
+    key:
+      a: "inspecting a column is the everyday sense of the answer word and has nothing to do with the marsh and the rain."
+      b: "what halts the advance is the weather, not an entry in a book."
+      d: "the column stops where it stands; nothing drives it back the way it came."
+
+  - id: L4-HIS-03
+    word: table
+    rare_sense: true
+    options: [pass, table, list, debate]
+    answer: b
+    traps: {a: T4, c: T3, d: T2}
+    passage: >-
+      The chairman had three hours and nine items of business, and the clause
+      about the quarry stood seventh on the paper. By the time it came up, two
+      members had left to catch a train and the minute-taker had run out of
+      paper. Rather than put a question that half the committee would not be
+      present to answer, the chairman moved to ________ the clause until the
+      spring meeting. It was eleven months before anybody looked at it again.
+    clue: ["Rather than put a question that half the committee would not be present to answer", "It was eleven months before anybody looked at it again"]
+    relation: cause
+    noise: ["nine items of business", "catch a train", "run out of paper", "seventh on the paper"]
+    pathway: >-
+      The clause is not decided and is left for a later meeting, which does
+      not come for eleven months. The blank must mean set aside for later.
+    key:
+      a: "a clause that had been carried would not lie untouched for eleven months."
+      c: "setting figures out in rows is the everyday sense of the answer word, and nothing here is being arranged in a table."
+      d: "debating it is exactly what the chairman had no time for."
+
+  - id: L4-HIS-04
+    word: sanction
+    rare_sense: true
+    options: [punish, forbid, delay, sanction]
+    answer: d
+    traps: {a: T3, b: T4, c: T2}
+    passage: >-
+      The expedition had no official standing for its first two years: the
+      surveyors paid their own passage and the Admiralty would not lend them a
+      chronometer. Then a new First Lord read the Chile report. A letter went
+      out giving the party the use of a naval vessel, a grant of eight hundred
+      pounds and the right to call itself an official survey. It took one
+      signature to ________ what had until then been a private venture, and
+      the maps were Crown property from that day.
+    clue: ["A letter went out giving the party the use of a naval vessel, a grant of eight hundred pounds and the right to call itself an official survey", "the maps were Crown property from that day"]
+    relation: cause
+    noise: ["a chronometer", "the Chile report", "its first two years", "their own passage"]
+    pathway: >-
+      One signature turns a private expedition into an official one and brings
+      it a ship and a grant. The blank must mean give official approval to.
+    key:
+      a: "penalties are the everyday sense of the answer word, and what this letter brought was money and a ship."
+      b: "the expedition was given more than it had ever asked for, not stopped."
+      c: "the change took effect from that day: the maps became Crown property at once."
+
+  - id: L4-HIS-05
+    word: exact
+    rare_sense: true
+    options: [refuse, measure, exact, borrow]
+    answer: c
+    traps: {a: T4, b: T3, d: T2}
+    passage: >-
+      No pay had come up from the capital for three years, and the garrison was
+      not going to march away and leave the pass to anyone else. The colonel's
+      answer was a tax of his own invention. Every cart that came through gave
+      up a tenth of its load, and a merchant who argued found his animals
+      impounded until he had paid. An officer in that position can ________ as
+      much from a trade route as any treasury can, and no account of it ever
+      reached the ministry.
+    clue: ["Every cart that came through gave up a tenth of its load", "a merchant who argued found his animals impounded until he had paid"]
+    relation: example
+    noise: ["three years", "the pass", "the ministry", "of his own invention"]
+    pathway: >-
+      Goods are taken from every passing cart, and those who object lose their
+      animals until they pay. The blank must mean demand and obtain by force.
+    key:
+      a: "the colonel is taking, not turning anything down."
+      b: "precision of measurement is the everyday sense of the answer word; what the passage describes is money taken under threat."
+      d: "nothing is to be given back, and the impounded animals show this was no loan."
+
+  - id: L4-HIS-06
+    word: temper
+    rare_sense: true
+    options: [temper, enrage, repeat, conceal]
+    answer: a
+    traps: {b: T3, c: T1, d: T2}
+    passage: >-
+      The first draft of the proclamation promised the rebels nothing but a
+      trial. The version read out in the square three days later kept every
+      word about the surrender of arms and added two sentences: that men who
+      had been pressed into the rising would be heard separately, and that no
+      property would be seized before judgment. Somebody in the castle had
+      seen the need to ________ a hard document without weakening it, and the
+      town was quiet again by the end of the week.
+    clue: ["added two sentences: that men who had been pressed into the rising would be heard separately, and that no property would be seized before judgment", "without weakening it"]
+    relation: contrast
+    noise: ["three days later", "the surrender of arms", "the castle", "nothing but a trial"]
+    pathway: >-
+      Two softening clauses are added while the hard terms stand, and the town
+      quietens. The blank must mean make less severe without giving way.
+    key:
+      b: "anger is the everyday sense of the answer word; these additions were made to calm the town, and the town was quiet by the week's end."
+      c: "the second version adds two sentences that were not in the first."
+      d: "the proclamation was read out in the square for everyone to hear."
+
+  - id: L4-HIS-07
+    word: intransigent
+    options: [flexible, uncertain, courteous, intransigent]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      Nine sessions produced nine identical statements from the smaller
+      delegation. It would discuss the fisheries, the debt and the border
+      posts in whatever order the chairman liked, provided the question of the
+      islands was settled first and on its own terms, and it said so on the
+      last afternoon exactly as it had said so on the first. The other side
+      moved three times in the same nine weeks. One ________ party at a table
+      of six can hold a conference for a year, and this one did.
+    clue: ["it said so on the last afternoon exactly as it had said so on the first", "The other side moved three times in the same nine weeks"]
+    relation: contrast
+    noise: ["the fisheries", "the border posts", "a table of six", "the debt"]
+    pathway: >-
+      One delegation repeats the same terms for nine sessions while the other
+      shifts three times. The blank must mean refusing absolutely to change
+      position.
+    key:
+      a: "this delegation offered the same terms nine times while the other side moved three times."
+      b: "it knew exactly what it wanted and never varied it by a word."
+      c: "it was willing to take the items in any order, but politeness is not what held the conference up for a year."
+
+  - id: L4-HIS-08
+    word: conciliatory
+    options: [defiant, conciliatory, evasive, formal]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      The new governor's first act was to release the four men whose arrest had
+      closed the docks, and his second was to go to the union hall himself
+      rather than send for its officers. He did not concede the wage claim, and
+      he said as much in the same speech. But he came without a guard, called
+      two of the stewards by their first names, and stayed an hour after he had
+      finished speaking. A ________ gesture costs a government very little
+      when the substance is unchanged, and the cranes were working the next
+      morning.
+    clue: ["he came without a guard, called two of the stewards by their first names, and stayed an hour after he had finished speaking", "He did not concede the wage claim"]
+    relation: concession
+    noise: ["the four men", "the docks", "the next morning", "its officers"]
+    pathway: >-
+      Nothing is given up on the substance, and everything in the governor's
+      conduct is designed to make peace. The blank must mean intended to win
+      goodwill and settle a quarrel.
+    key:
+      a: "he released the men and went to the union hall himself."
+      c: "he stated plainly in the same speech that the wage claim was refused."
+      d: "arriving without a guard and using first names is the opposite of standing on ceremony."
+
+  - id: L4-HIS-09
+    word: capitulate
+    options: [capitulate, negotiate, protest, rearm]
+    answer: a
+    traps: {b: T2, c: T1, d: T4}
+    passage: >-
+      The garrison had water for nine days and no prospect of relief; the
+      second wall had come down on the Tuesday and the hospital had been moved
+      into the cellars. The terms now offered were word for word the terms that
+      had been refused in March: the men to march out with their colours, the
+      guns to be left where they stood. At four in the afternoon the commander
+      signed. A force in that position can ________ on the very terms it threw
+      back two months earlier, and all it has bought is the two months.
+    clue: ["The terms now offered were word for word the terms that had been refused in March", "At four in the afternoon the commander signed"]
+    relation: restatement
+    noise: ["the second wall", "the cellars", "with their colours", "nine days"]
+    pathway: >-
+      With no water and no relief the commander signs terms he had previously
+      rejected. The blank must mean give in and surrender on the enemy's
+      terms.
+    key:
+      b: "the terms are already on the table word for word, and the commander simply signs them."
+      c: "the signature ends the siege; nothing is being objected to."
+      d: "the guns are to be left where they stand."
+
+  - id: L4-HIS-10
+    word: retrench
+    options: [expand, borrow, retrench, modernise]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      The company's income fell by a third in two years and its bankers would
+      advance nothing further. The board closed the Liverpool office, sold both
+      ships that were not under charter, cut forty names from the salary list
+      and gave up the lease on the warehouse it had built in 1908. None of it
+      was popular, and the chairman resigned over the last of it. A firm that
+      will not ________ in a year like that one does not usually get a second
+      chance.
+    clue: ["The board closed the Liverpool office, sold both ships that were not under charter, cut forty names from the salary list and gave up the lease on the warehouse", "its bankers would advance nothing further"]
+    relation: cause
+    noise: ["None of it was popular", "in 1908", "the chairman resigned", "by a third in two years"]
+    pathway: >-
+      Income has fallen, no credit is available, and the board gives up four
+      things at once. The blank must mean cut back spending and reduce
+      operations.
+    key:
+      a: "every action listed makes the company smaller."
+      b: "the first sentence says the bankers would advance nothing further."
+      d: "nothing new is bought or built: four things are given up."

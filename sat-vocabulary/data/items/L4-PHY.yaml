@@ -1,0 +1,253 @@
+level: 4
+domain: PHY
+items:
+  - id: L4-PHY-01
+    word: appreciate
+    rare_sense: true
+    options: [thank, appreciate, ignore, measure]
+    answer: b
+    traps: {a: T3, c: T4, d: T2}
+    passage: >-
+      A tall building is designed to move. The top of a steel tower a thousand
+      feet high travels through nearly a metre in a strong wind, and the lift
+      guides, the glass joints and the water pipes are all built to take it.
+      Visitors who are told the figure assume the engineers are confessing to a
+      fault. Few people outside the trade ________ how much flexibility a
+      structure of that height needs, and a tower built stiff enough to satisfy
+      them would crack at the base in the first gale.
+    clue: ["Visitors who are told the figure assume the engineers are confessing to a fault", "a tower built stiff enough to satisfy them would crack at the base in the first gale"]
+    relation: contrast
+    noise: ["the lift guides", "the glass joints", "a thousand feet high", "in a strong wind"]
+    pathway: >-
+      Outsiders draw the wrong conclusion from a true figure, so what they lack
+      is a grasp of why the movement is necessary. The blank must mean
+      understand the full extent of something.
+    key:
+      a: "gratitude is the everyday sense of the answer word, and nobody here is being thanked."
+      c: "the sentence explains what outsiders fail to grasp, which is the opposite of passing it over."
+      d: "the movement has been measured and the figure is given; what outsiders lack is an understanding of why it is needed."
+
+  - id: L4-PHY-02
+    word: resolve
+    rare_sense: true
+    options: [magnify, decide, illuminate, resolve]
+    answer: d
+    traps: {a: T2, b: T3, c: T1}
+    passage: >-
+      A bigger lens gathers more light, which is why a cheap telescope will
+      show a faint star at all. Gathering light, though, is not the same as
+      separating detail. Two stars eleven seconds of arc apart will come to one
+      blur in a sixty-millimetre instrument however long the exposure is left
+      open, and the only cure is a wider opening. The power to ________ two
+      points depends on the width of the aperture and the wavelength of the
+      light, and on nothing else whatever.
+    clue: ["Two stars eleven seconds of arc apart will come to one blur in a sixty-millimetre instrument", "Gathering light, though, is not the same as separating detail"]
+    relation: contrast
+    noise: ["a cheap telescope", "the exposure", "the wavelength of the light", "a wider opening"]
+    pathway: >-
+      Two separate stars are being run together into one blur, and the passage
+      has already set this apart from gathering light. The blank must mean show
+      as separate.
+    key:
+      a: "a larger image of a blur is still a blur, and the passage says gathering light is not the same thing."
+      b: "making up one's mind is the everyday sense of the answer word and has no place in a description of a lens."
+      c: "the stars supply their own light; the question is whether the instrument can keep them apart."
+
+  - id: L4-PHY-03
+    word: sensible
+    rare_sense: true
+    options: [sensible, reasonable, audible, permanent]
+    answer: a
+    traps: {b: T3, c: T2, d: T1}
+    passage: >-
+      Pour a teaspoon of warm water into a cold bath and nothing can be felt.
+      Pour in a kettleful and a hand held near the tap knows it at once. The
+      heat added in the first case is not nothing; it is simply spread through
+      so much water that the rise in temperature is far below anything skin can
+      detect. A change becomes ________ only when it is large enough to
+      register on whatever is doing the detecting, and most of what happens in
+      a bath is below that line.
+    clue: ["the rise in temperature is far below anything skin can detect", "large enough to register on whatever is doing the detecting"]
+    relation: cause
+    noise: ["a teaspoon", "near the tap", "a kettleful", "a cold bath"]
+    pathway: >-
+      The heat is real but too small to be noticed until it passes a threshold
+      of detection. The blank must mean great enough to be perceived.
+    key:
+      b: "good judgement is the everyday sense of the answer word, and the passage is about what can be detected."
+      c: "the senses at issue are touch and warmth, not hearing."
+      d: "the question is whether the change can be noticed at all, not how long it lasts."
+
+  - id: L4-PHY-04
+    word: gross
+    rare_sense: true
+    options: [disgusting, slight, gross, average]
+    answer: c
+    traps: {a: T3, b: T4, d: T2}
+    passage: >-
+      The weighbridge at the quarry gives one number: lorry, driver, fuel and
+      stone all together. The office wants the stone by itself, so the empty
+      weight of each vehicle is kept on a card and taken off at the end of the
+      day. A driver who fills his tank before the first weighing and runs it
+      down before the last will appear to have carried sixty kilograms of rock
+      that never existed. The ________ figure is honest enough; it is the
+      subtraction that has to be watched.
+    clue: ["lorry, driver, fuel and stone all together", "it is the subtraction that has to be watched"]
+    relation: contrast
+    noise: ["on a card", "sixty kilograms", "at the end of the day", "The weighbridge at the quarry"]
+    pathway: >-
+      One number contains everything and a deduction is made from it
+      afterwards. The blank must mean the whole amount before anything is taken
+      off.
+    key:
+      a: "that is the everyday sense of the answer word, and nothing about a weighbridge is unpleasant."
+      b: "the figure includes the lorry itself, so it is the largest number in play."
+      d: "a single weighing is not an average, and the passage sets the whole against what is taken off it."
+
+  - id: L4-PHY-05
+    word: marked
+    rare_sense: true
+    options: [labelled, slight, expected, marked]
+    answer: d
+    traps: {a: T3, b: T4, c: T1}
+    passage: >-
+      The two batches of cement came from the same works a fortnight apart, and
+      were mixed and cured in the same shed by the same men. The first set of
+      cubes broke at an average of thirty-one megapascals and the second at
+      forty-four, while the spread inside each batch was less than two. Nobody
+      has explained it, and the works says it changed nothing. A difference as
+      ________ as that between two deliveries is a problem whether or not a
+      cause is ever found.
+    clue: ["The first set of cubes broke at an average of thirty-one megapascals and the second at forty-four, while the spread inside each batch was less than two", "Nobody has explained it, and the works says it changed nothing"]
+    relation: restatement
+    noise: ["a fortnight apart", "the same shed", "the same men", "from the same works"]
+    pathway: >-
+      Thirteen megapascals of difference against a scatter of two is large and
+      unmistakable. The blank must mean clearly noticeable.
+    key:
+      a: "writing on a bag is the everyday sense of the answer word; this sentence is about the size of a difference."
+      b: "thirteen megapascals against a scatter of two is a large difference, not a small one."
+      c: "the passage says nobody has explained it and the works changed nothing."
+
+  - id: L4-PHY-06
+    word: compound
+    rare_sense: true
+    options: [mix, compound, correct, record]
+    answer: b
+    traps: {a: T3, c: T4, d: T1}
+    passage: >-
+      The first error was in the survey: a bench mark copied with two digits
+      reversed, which put the whole site eighteen centimetres low. That by
+      itself would have been caught. But the drainage was then set out from the
+      same sheet, the levels for the car park were taken from the drainage, and
+      the kerbs were taken from the car park. Each stage will ________ a
+      mistake made at the beginning, and by the time water stood in the loading
+      bay four trades had built on the same wrong number.
+    clue: ["the drainage was then set out from the same sheet, the levels for the car park were taken from the drainage, and the kerbs were taken from the car park", "four trades had built on the same wrong number"]
+    relation: cause
+    noise: ["two digits reversed", "eighteen centimetres", "the loading bay", "a bench mark"]
+    pathway: >-
+      Each stage of work builds on the error and adds to the damage. The blank
+      must mean make worse by adding to it.
+    key:
+      a: "combining substances is the everyday sense of the answer word in a science book, and no materials are being combined here."
+      c: "each stage makes the error worse, and the water in the loading bay shows that nothing was put right."
+      d: "the wrong figure was written down once, in the survey; what each stage adds is more wrong work."
+
+  - id: L4-PHY-07
+    word: degenerate
+    rare_sense: true
+    options: [improve, stabilise, degenerate, corrupt]
+    answer: c
+    traps: {a: T4, b: T2, d: T3}
+    passage: >-
+      A single crystal of silicon drawn for a wafer is one lattice from end to
+      end, and carries a current the same way at every point in it. Heat it
+      past a certain temperature and hold it there, and the order starts to
+      break up: grains form, each with its own direction, and the boundary
+      between two grains scatters whatever tries to cross it. A lattice can
+      ________ in an hour into something nearer a sandstone than a crystal, and
+      no amount of careful cooling puts it back.
+    clue: ["grains form, each with its own direction, and the boundary between two grains scatters whatever tries to cross it", "no amount of careful cooling puts it back"]
+    relation: cause
+    noise: ["drawn for a wafer", "in an hour", "a sandstone", "at every point in it"]
+    pathway: >-
+      The ordered structure breaks into grains and cannot be restored. The
+      blank must mean fall into a worse and less ordered state.
+    key:
+      a: "the material loses the very order that made it useful."
+      b: "the structure is breaking up, not settling down."
+      d: "moral ruin is the everyday sense of the answer word, and it does not apply to a silicon lattice."
+
+  - id: L4-PHY-08
+    word: refractory
+    options: [refractory, flammable, brittle, transparent]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      The lining of a steel furnace spends its life at sixteen hundred degrees
+      with molten metal against it. Firebrick of the ordinary kind would be a
+      puddle by the end of an afternoon. What goes in instead is a brick of
+      magnesia and chrome that gives up nothing at that temperature and can be
+      taken to the melting point of iron and back a thousand times. A ________
+      lining is what makes continuous steelmaking possible, and the shutdown to
+      replace one costs more than the bricks ever did.
+    clue: ["gives up nothing at that temperature and can be taken to the melting point of iron and back a thousand times", "Firebrick of the ordinary kind would be a puddle by the end of an afternoon"]
+    relation: contrast
+    noise: ["magnesia and chrome", "the shutdown", "molten metal", "sixteen hundred degrees"]
+    pathway: >-
+      The brick keeps its shape and strength at a heat that turns ordinary
+      firebrick to liquid. The blank must mean able to withstand very great
+      heat.
+    key:
+      b: "the brick survives sixteen hundred degrees with molten metal on it, which is the opposite of easily burned."
+      c: "it goes to the melting point of iron and back a thousand times, which brittle material would not."
+      d: "whether light passes through a furnace lining is never mentioned."
+
+  - id: L4-PHY-09
+    word: inexorable
+    options: [sudden, inexorable, reversible, invisible]
+    answer: b
+    traps: {a: T2, c: T4, d: T1}
+    passage: >-
+      The pump at the mine head ran for ninety years. From the day it was
+      switched off, the water has come up the shafts at eleven centimetres a
+      day, and it has not varied with the season or the rainfall by more than a
+      centimetre. Nobody has found anything that can be done about it: the
+      galleries fill in the order they were dug, and the surveyors can say to
+      within a week when each level will go under. A rise as ________ as that
+      one is easier to plan for than to fight.
+    clue: ["it has not varied with the season or the rainfall by more than a centimetre", "Nobody has found anything that can be done about it"]
+    relation: restatement
+    noise: ["ninety years", "the galleries", "to within a week", "at the mine head"]
+    pathway: >-
+      The rise is perfectly steady and nothing will stop it. The blank must
+      mean impossible to stop and going on regardless.
+    key:
+      a: "eleven centimetres a day, year in and year out, is steady rather than abrupt."
+      c: "nothing has been found that will turn it back."
+      d: "the surveyors can say to within a week when each level will flood, so the rise is very well observed."
+
+  - id: L4-PHY-10
+    word: commensurate
+    options: [identical, excessive, unrelated, commensurate]
+    answer: d
+    traps: {a: T2, b: T4, c: T1}
+    passage: >-
+      A fuse is not chosen to protect the appliance; it is chosen to protect
+      the cable behind it. The lighting circuit is wired in one and a half
+      square millimetres and takes a six-amp fuse. The cooker is wired in six
+      square millimetres and takes thirty. Put the thirty-amp fuse on the
+      lighting circuit and the wire buried in the ceiling becomes the weakest
+      thing in the chain. The rating has to be ________ with the conductor, and
+      an electrician who remembers nothing else remembers that.
+    clue: ["The lighting circuit is wired in one and a half square millimetres and takes a six-amp fuse. The cooker is wired in six square millimetres and takes thirty", "the wire buried in the ceiling becomes the weakest thing in the chain"]
+    relation: example
+    noise: ["the appliance", "remembers nothing else", "an electrician", "behind it"]
+    pathway: >-
+      Each fuse is sized to the cable behind it, and a mismatch moves the
+      weakness into the wall. The blank must mean matched in size or degree to.
+    key:
+      a: "six amps and one and a half square millimetres are not the same number: the two have to be matched in scale, not made equal."
+      b: "a fuse too large for its cable is exactly the mistake the passage warns against."
+      c: "the whole point is that the two must be chosen together."

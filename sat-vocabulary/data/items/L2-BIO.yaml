@@ -1,0 +1,220 @@
+level: 2
+domain: BIO
+items:
+  - id: L2-BIO-01
+    word: depleted
+    options: [enriched, measured, compacted, depleted]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      The first crop of maize on the cleared hillside stood taller than a man.
+      The fourth, six years later, barely reached the knee, and nobody had
+      changed the seed or the planting date. Maize taken off the same ground
+      year after year had ________ the thin soil: the nitrogen the plants
+      needed was gone, and nothing had been put back.
+    clue: "the nitrogen the plants needed was gone, and nothing had been put back"
+    relation: restatement
+    noise: ["taller than a man", "six years later", "the planting date"]
+    pathway: >-
+      Something the crop needs has been taken out of the soil and not
+      replaced. The blank must mean emptied of what it held.
+    key:
+      a: "the fourth crop is knee-high, so the ground is poorer than before, not richer."
+      b: "nothing takes a reading in this passage; the soil itself has changed."
+      c: "pressing soil down is a change in its texture, and the text names the loss of nitrogen."
+
+  - id: L2-BIO-02
+    word: migrate
+    options: [hibernate, migrate, breed, vanish]
+    answer: b
+    traps: {a: T2, c: T1, d: T4}
+    passage: >-
+      A tern ringed on a Northumberland beach in June was caught again in
+      January off the coast of Namibia, eleven thousand miles to the south,
+      and was back on the same stretch of shingle the following June. Birds
+      that ________ twice a year in this way spend more of their lives in
+      daylight than any other animal.
+    clue: "caught again in January off the coast of Namibia, eleven thousand miles to the south, and was back on the same stretch of shingle the following June"
+    relation: example
+    noise: ["ringed", "a Northumberland beach", "in daylight"]
+    pathway: >-
+      The same bird is in two hemispheres within a year and then home again.
+      The blank must mean travel a long way and back with the seasons.
+    key:
+      a: "a bird asleep for the winter does not turn up eleven thousand miles away in January."
+      c: "nesting happens at one end of the journey; what the dates describe is the journey."
+      d: "the bird is caught twice and comes home, so nothing disappears."
+
+  - id: L2-BIO-03
+    word: thrive
+    options: [struggle, hide, thrive, spread]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      Nobody plants buddleia on a railway bank; it arrives on its own. The ash
+      and broken brick there hold almost no water and very little food, and
+      yet the plant that would sulk in a watered garden bed can ________ on
+      it, flowering so thickly in August that the whole slope turns purple.
+    clue: "flowering so thickly in August that the whole slope turns purple"
+    relation: contrast
+    noise: ["railway bank", "broken brick", "a watered garden bed"]
+    pathway: >-
+      In the poorest ground the plant flowers better than in good soil, so the
+      blank must mean do very well.
+    key:
+      a: "a slope that turns purple with flowers is not a plant in difficulty."
+      b: "those flowers are the most visible thing on the embankment."
+      d: "spreading is a gain in ground; this sentence is about how well the plant does where it already stands."
+
+  - id: L2-BIO-04
+    word: erode
+    options: [erode, flood, freeze, raise]
+    answer: a
+    traps: {b: T2, c: T1, d: T4}
+    passage: >-
+      The farm track above the beach ended at a gate in 1950. The gate now
+      hangs forty metres out over the water, and the field it once closed is
+      not there. Waves that strike the same clay cliff twice a day will
+      ________ it faster than any river cuts its bed: the parish has lost nine
+      metres of coast in a single lifetime.
+    clue: "the parish has lost nine metres of coast in a single lifetime"
+    relation: restatement
+    noise: ["in 1950", "forty metres", "twice a day"]
+    pathway: >-
+      Land that was there is gone, worn off by water. The blank must mean wear
+      away.
+    key:
+      b: "a flood covers land with water; this land has been carried off and is no longer there."
+      c: "nothing in the passage concerns cold."
+      d: "the coast is being lost, not lifted."
+
+  - id: L2-BIO-05
+    word: sustain
+    options: [cool, sustain, replace, exhaust]
+    answer: b
+    traps: {a: T1, c: T2, d: T4}
+    passage: >-
+      A hectare of salt marsh looks like wet grass and nothing more. The mud
+      beneath it feeds crabs, worms and shrimp in numbers no meadow could
+      match, and those feed the young fish that shelter in the creeks at high
+      water. One hectare can ________ the catch that twenty boats take out of
+      the bay each summer.
+    clue: "feeds crabs, worms and shrimp in numbers no meadow could match"
+    relation: cause
+    noise: ["wet grass", "at high water", "twenty boats"]
+    pathway: >-
+      The marsh is the source of the food that the fish live on. The blank
+      must mean keep going by supplying what is needed.
+    key:
+      a: "temperature is never mentioned; the marsh is described as feeding things."
+      c: "the marsh supports the catch rather than standing in for it."
+      d: "the marsh supplies the food; it is not a drain on the bay."
+
+  - id: L2-BIO-06
+    word: emerge
+    options: [feed, scatter, perish, emerge]
+    answer: d
+    traps: {a: T1, b: T2, c: T4}
+    passage: >-
+      Cicada nymphs of one North American kind spend seventeen years
+      underground, drinking sap from tree roots in the dark. Then, inside a
+      single week, millions ________ at once. The ground is full of fresh
+      holes, every trunk is covered to head height, and the noise can be heard
+      a mile off.
+    clue: "The ground is full of fresh holes, every trunk is covered to head height"
+    relation: restatement
+    noise: ["seventeen years", "sap from tree roots", "a mile off"]
+    pathway: >-
+      The insects leave the holes and appear on the trunks above ground. The
+      blank must mean come out into view.
+    key:
+      a: "they have been feeding underground for seventeen years; what is new is that they are above ground."
+      b: "scattering is spreading apart; the holes and the covered trunks show them coming up."
+      c: "the noise and the covered trunks are made by living insects."
+
+  - id: L2-BIO-07
+    word: inhabit
+    options: [inhabit, avoid, visit, build]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      Three miles down, where no sunlight has ever reached and the pressure
+      would crush the hull of a submarine, there are shrimp, pale worms and a
+      crab with no eyes. Animals that ________ the floor of a trench like this
+      one never leave it, and most of them have never been seen alive at the
+      surface.
+    clue: "never leave it"
+    relation: restatement
+    noise: ["Three miles down", "the hull of a submarine", "pale worms"]
+    pathway: >-
+      These animals live out their whole lives on the trench floor. The blank
+      must mean live in.
+    key:
+      b: "the animals are found there and nowhere else."
+      c: "a visit is a short stay, and the text says they never leave."
+      d: "the trench floor is the sea bed, not something the animals made."
+
+  - id: L2-BIO-08
+    word: disperse
+    options: [return, sink, disperse, cluster]
+    answer: c
+    traps: {a: T1, b: T2, d: T4}
+    passage: >-
+      A dandelion head holds about two hundred seeds, each on its own
+      parachute of fine hairs. One gust at the right moment can ________ them
+      over three gardens and a road, which is why the plant turns up in
+      places where no dandelion grew the year before.
+    clue: "over three gardens and a road"
+    relation: cause
+    noise: ["two hundred seeds", "fine hairs", "the year before"]
+    pathway: >-
+      The seeds end up spread across a wide area away from the parent plant.
+      The blank must mean scatter in all directions.
+    key:
+      a: "the seeds land where no dandelion grew before, so they do not come back."
+      b: "the hairs hold the seeds up in the air; sinking would drop them under the parent."
+      d: "the seeds are carried apart, not gathered into one place."
+
+  - id: L2-BIO-09
+    word: fluctuate
+    options: [climb, vanish, spread, fluctuate]
+    answer: d
+    traps: {a: T2, b: T4, c: T1}
+    passage: >-
+      Hares on the island were counted every spring for forty years. The
+      number rose for three or four years, crashed, rose again and crashed
+      again, and the highest count was eleven times the lowest. Populations
+      that ________ like this are hard to manage, because a good year tells
+      you nothing at all about the next one.
+    clue: "rose for three or four years, crashed, rose again and crashed again"
+    relation: restatement
+    noise: ["every spring", "forty years", "eleven times the lowest"]
+    pathway: >-
+      The count goes up and down repeatedly instead of moving one way. The
+      blank must mean rise and fall irregularly.
+    key:
+      a: "the count falls as often as it rises."
+      b: "the hares are still being counted at the end of forty years."
+      c: "the counts are of number on one island, not of the area the hares cover."
+
+  - id: L2-BIO-10
+    word: abundant
+    options: [scarce, abundant, costly, hidden]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Cod were once so ________ off the Grand Banks that sailors wrote home
+      about lowering a basket over the side and hauling it up full. A boat
+      could fill its hold in a week without losing sight of land, and one
+      ship's log for 1620 records more fish in a day than the whole fleet
+      landed in its final season.
+    clue: "lowering a basket over the side and hauling it up full"
+    relation: example
+    noise: ["the Grand Banks", "without losing sight of land", "its final season"]
+    pathway: >-
+      A basket dropped anywhere came up full. The blank must mean present in
+      great numbers.
+    key:
+      a: "a basket that comes up full is the opposite of a shortage."
+      c: "no price appears in the passage; the subject is how many fish there were."
+      d: "fish that can be caught with a basket are not hard to find."

@@ -1,0 +1,250 @@
+level: 4
+domain: SOC
+items:
+  - id: L4-SOC-01
+    word: discriminate
+    rare_sense: true
+    options: [discriminate, exclude, estimate, remember]
+    answer: a
+    traps: {b: T3, c: T2, d: T1}
+    passage: >-
+      The test is not about knowing a great deal. Two hundred people are played
+      pairs of tones and asked only whether the second is higher than the
+      first; the gap between the two is narrowed until the answers are no
+      better than guesses. Most adults stop at about three hertz at that pitch
+      and trained musicians at under one. What is being measured is the
+      smallest difference the ear can ________, and the figure does not improve
+      with practice after the age of twenty.
+    clue: ["asked only whether the second is higher than the first; the gap between the two is narrowed until the answers are no better than guesses", "the smallest difference"]
+    relation: restatement
+    noise: ["Two hundred people", "three hertz", "the age of twenty", "a great deal"]
+    pathway: >-
+      Listeners are asked to tell two nearly identical tones apart, and the
+      measure is the smallest gap at which they still can. The blank must mean
+      tell one thing from another.
+    key:
+      b: "treating people unequally is the everyday sense of the answer word, and nobody is being kept out of anything here."
+      c: "the listeners are not judging the size of the gap but saying whether they can hear one at all."
+      d: "the two tones are played one after the other within a second; memory is not what the test measures."
+
+  - id: L4-SOC-02
+    word: obtain
+    rare_sense: true
+    options: [acquire, change, obtain, fail]
+    answer: c
+    traps: {a: T3, b: T4, d: T1}
+    passage: >-
+      The rule about standing on the right is posted nowhere on the London
+      escalators and has no force in law whatever. It is kept to all day long
+      by people who have never once discussed it, and a visitor who stands on
+      the left is told about it within seconds. The same convention does not
+      ________ in Tokyo, where the custom runs the other way, and travellers
+      who move between the two cities are in the wrong in one of them every
+      week.
+    clue: ["It is kept to all day long by people who have never once discussed it", "where the custom runs the other way"]
+    relation: contrast
+    noise: ["no force in law", "within seconds", "every week", "the London escalators"]
+    pathway: >-
+      In one city the unwritten rule is universally in force and in the other a
+      different one is. The blank must mean be in force or prevail.
+    key:
+      a: "getting hold of something is the everyday sense of the answer word, and a convention is not got hold of."
+      b: "the Tokyo custom is just as settled; what differs is which rule holds there."
+      d: "the convention works perfectly well in Tokyo: it is simply the opposite one."
+
+  - id: L4-SOC-03
+    word: want
+    rare_sense: true
+    options: [desire, want, excess, delay]
+    answer: b
+    traps: {a: T3, c: T4, d: T1}
+    passage: >-
+      The village has had a doctor since 1954 and a clinic with two beds. What
+      it has never had is a road wide enough for an ambulance. A child who
+      needs a hospital is carried the two miles to the junction, and in
+      February that has taken four hours. The ________ of one thing can undo
+      the provision of everything else, and the parish has been asking for the
+      road since the year the clinic was built. The clinic's roof was replaced
+      two summers ago with money from a legacy.
+    clue: ["What it has never had is a road wide enough for an ambulance", "can undo the provision of everything else"]
+    relation: contrast
+    noise: ["since 1954", "two beds", "in February", "money from a legacy"]
+    pathway: >-
+      Everything else has been provided and one necessary thing is missing,
+      which cancels the rest. The blank must mean the lack of something needed.
+    key:
+      a: "wishing for something is the everyday sense of the answer word; the point here is that the road does not exist."
+      c: "the village has too little rather than too much."
+      d: "the four hours are a consequence; what the sentence names is the missing road."
+
+  - id: L4-SOC-04
+    word: telling
+    rare_sense: true
+    options: [narrating, doubtful, lengthy, telling]
+    answer: d
+    traps: {a: T3, b: T2, c: T1}
+    passage: >-
+      The minister's own account of the meeting runs to six pages and settles
+      nothing at all. The useful document is the diary of the junior clerk who
+      was sent out of the room: he noted the time he left, the time he was
+      called back in, and the fact that the ashtray had been emptied while he
+      was outside. Those three lines are more ________ than the six pages,
+      because between them they fix how long the two men were alone.
+    clue: ["Those three lines", "because between them they fix how long the two men were alone"]
+    relation: contrast
+    noise: ["six pages", "the ashtray", "the junior clerk", "sent out of the room"]
+    pathway: >-
+      Three short notes settle the question that six pages leave open. The
+      blank must mean revealing something important.
+    key:
+      a: "recounting a story is the everyday sense of the answer word, and three lines of a diary are evidence rather than narration."
+      b: "the three facts are not in question; it is the minister's six pages that are."
+      c: "three lines are the shorter of the two documents, and that is precisely the point."
+
+  - id: L4-SOC-05
+    word: sound
+    rare_sense: true
+    options: [audible, popular, sound, cautious]
+    answer: c
+    traps: {a: T3, b: T1, d: T2}
+    passage: >-
+      Two of the three objections to the scheme were built out of guesswork.
+      The third arrived with eleven years of river-gauge readings, the design
+      flood the council itself had used in 1998, and a calculation that anybody
+      could check in an afternoon. The inspector disposed of the first two in a
+      paragraph each. The remaining case was ________, and the scheme was
+      refused on that one alone. The hearing had lasted four days and was held
+      in the old magistrates' court, which has no lift and seats forty.
+    clue: ["The third arrived with eleven years of river-gauge readings, the design flood the council itself had used in 1998, and a calculation that anybody could check in an afternoon", "the scheme was refused on that one alone"]
+    relation: contrast
+    noise: ["a paragraph each", "The inspector", "the old magistrates' court", "no lift and seats forty"]
+    pathway: >-
+      One objection rests on records and a checkable calculation, and it is
+      strong enough to decide the case. The blank must mean well founded and
+      able to stand up to examination.
+    key:
+      a: "noise is the everyday sense of the answer word, and an objection on paper makes none."
+      b: "how many people supported the objection is never mentioned."
+      d: "the case was decisive enough to defeat the scheme, which is a good deal more than caution."
+
+  - id: L4-SOC-06
+    word: bear
+    rare_sense: true
+    options: [bear, tolerate, count, shift]
+    answer: a
+    traps: {b: T3, c: T1, d: T4}
+    passage: >-
+      The levy is collected from the builders, and everybody in the debate
+      speaks of it as a tax on building. But the flats sell for whatever the
+      street will pay, which the levy does not alter, and the land is bought
+      the year before at whatever is left once the builder has taken his
+      margin. In the end it is the farmer who sells the field who will ________
+      most of the cost, and he is the one person nobody mentions.
+    clue: ["the land is bought the year before at whatever is left once the builder has taken his margin", "he is the one person nobody mentions"]
+    relation: cause
+    noise: ["the builders", "the flats", "the street", "a tax on building"]
+    pathway: >-
+      The cost is passed back along the chain until it stops with the seller of
+      the land. The blank must mean carry the weight of a cost.
+    key:
+      b: "putting up with something unpleasant is the sense of the answer word most students know; this sentence is about who actually pays."
+      c: "nobody is adding the levy up: the question is where it finally falls."
+      d: "the whole point is that the cost has already been shifted onto him and goes no further."
+
+  - id: L4-SOC-07
+    word: tenuous
+    options: [strong, expensive, recent, tenuous]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The chain of reasoning has four links in it and three of them are
+      guesses. One parish register records a Thomas of about the right age; a
+      lease forty miles away carries a mark instead of a signature; a family
+      tradition written down in 1890 says that the two men were cousins. No
+      document anywhere names both of them. The connection is ________, and two
+      biographies have been built on top of it. The register is kept in a county
+      archive that opens three days a week.
+    clue: ["three of them are guesses", "No document anywhere names both of them"]
+    relation: restatement
+    noise: ["forty miles away", "in 1890", "two biographies", "three days a week"]
+    pathway: >-
+      Three of four links are guesses and no record joins the two men. The
+      blank must mean very weak and barely supported.
+    key:
+      a: "three of the four links are guesses and no document names both men."
+      b: "what the research cost is never mentioned."
+      c: "the tradition was written down in 1890, but the word has to describe how weak the chain is."
+
+  - id: L4-SOC-08
+    word: pernicious
+    options: [obvious, pernicious, temporary, deliberate]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      Nobody was turned away and nothing was ever said. The form simply asked
+      for the applicant's address, and the committee read the addresses. Two
+      estates on the east side produced one interview between them in four
+      years, the young people there stopped applying, and the committee took
+      that as evidence that they were not interested. An assumption of this
+      kind is ________ precisely because it supplies its own proof: the fewer
+      who apply, the surer the committee grows. The form itself had been printed
+      in 1996 and was never redesigned.
+    clue: ["the young people there stopped applying, and the committee took that as evidence that they were not interested", "it supplies its own proof"]
+    relation: cause
+    noise: ["the applicant's address", "Two estates", "one interview", "printed in 1996"]
+    pathway: >-
+      The assumption does real harm and hides itself by manufacturing its own
+      evidence. The blank must mean harmful in a gradual and hidden way.
+    key:
+      a: "nothing was said and nobody was turned away, which is why it went unnoticed for four years."
+      c: "the effect grows with time, since each year's figures make the committee surer."
+      d: "the passage says nothing was ever said, and treats the committee as unaware of what it was doing."
+
+  - id: L4-SOC-09
+    word: ostensible
+    options: [ostensible, legal, final, honest]
+    answer: a
+    traps: {b: T1, c: T1, d: T2}
+    passage: >-
+      The ________ reason for the move was the lease, which had eighteen months
+      to run and a rent review written into it. The company's own papers,
+      released thirty years later, show that the lease had been renegotiated
+      twice before on better terms, that the new site was forty minutes further
+      from the port, and that the chairman's brother owned the field it was
+      built on. The lease was the reason given to the shareholders, and it was
+      true as far as it went.
+    clue: ["that the chairman's brother owned the field it was built on", "The lease was the reason given to the shareholders"]
+    relation: contrast
+    noise: ["eighteen months", "forty minutes further", "thirty years later", "a rent review"]
+    pathway: >-
+      The lease is the reason announced, and the papers show other reasons that
+      were not. The blank must mean given as the reason while not being the
+      real one.
+    key:
+      b: "the lease was a legal document, but the word has to mark the gap between the reason given and the reason acted on."
+      c: "this reason was the one announced at the time; the fuller story came out thirty years later."
+      d: "the passage says the lease was true as far as it went, which is exactly why it served to cover the rest."
+
+  - id: L4-SOC-10
+    word: insular
+    options: [crowded, ancient, insular, hostile]
+    answer: c
+    traps: {a: T1, b: T1, d: T2}
+    passage: >-
+      The valley has one road in, and the bus takes an hour to reach the
+      nearest town. Four surnames account for two thirds of the parish
+      register; the chapel, the shop and the school committee have been run by
+      the same three families since the war; and a teacher who arrived in 1998
+      is still spoken of as the new one. Nobody is unkind to a stranger. The
+      place is ________ without meaning to be, and the young leave at eighteen
+      and come back at sixty.
+    clue: ["Four surnames account for two thirds of the parish register", "a teacher who arrived in 1998 is still spoken of as the new one"]
+    relation: restatement
+    noise: ["one road in", "the chapel", "at sixty", "the nearest town"]
+    pathway: >-
+      The same few families run everything and an incomer of twenty-five years
+      is still an outsider. The blank must mean closed and inward-looking.
+    key:
+      a: "one road and four surnames describe a small, closed population rather than a full one."
+      b: "how old the settlement is never comes up."
+      d: "the passage says plainly that nobody is unkind to a stranger."

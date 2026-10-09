@@ -1,0 +1,221 @@
+level: 2
+domain: HUM
+items:
+  - id: L2-HUM-01
+    word: evokes
+    options: [explains, hides, evokes, repeats]
+    answer: c
+    traps: {a: T2, b: T4, d: T1}
+    passage: >-
+      There is nothing in the poem about a funeral. It gives you a wet coat on
+      a hook, a clock that somebody has remembered to wind, and a cup left
+      half full on a sill. Somehow the thing ________ a whole house of grief
+      without once naming it.
+    clue: "without once naming it"
+    relation: contrast
+    noise: ["a wet coat on a hook", "a clock", "on a sill"]
+    pathway: >-
+      The reader feels the grief although the poem never states it. The blank
+      must mean call up a feeling.
+    key:
+      a: "an explanation names its subject and gives reasons; this poem never names grief at all."
+      b: "the feeling reaches the reader, so it is not being kept out of sight."
+      d: "nothing is said twice; these three details are all the poem offers."
+
+  - id: L2-HUM-02
+    word: convey
+    options: [convey, invent, translate, silence]
+    answer: a
+    traps: {b: T1, c: T2, d: T4}
+    passage: >-
+      A stage direction has four words to work with: enter, bleeding, slowly,
+      alone. A novelist would have a paragraph for the same moment. Those four
+      words must ________ the man's wound, his exhaustion and the fact that
+      nobody came back with him, and the actor has to show all three before he
+      opens his mouth.
+    clue: "the man's wound, his exhaustion and the fact that nobody came back with him"
+    relation: restatement
+    noise: ["A novelist", "a paragraph", "before he opens his mouth"]
+    pathway: >-
+      Three pieces of information have to reach the audience through four
+      words. The blank must mean get across.
+    key:
+      b: "the wound and the exhaustion are what the writer has already decided; the four words have to communicate them."
+      c: "nothing here moves between one language and another."
+      d: "the direction has to tell the audience three things, not hold them back."
+
+  - id: L2-HUM-03
+    word: allusion
+    options: [quotation, explanation, exaggeration, allusion]
+    answer: d
+    traps: {a: T2, b: T1, c: T4}
+    passage: >-
+      The novel never once mentions the war. A character apologises for the
+      taste of the tea; a window is boarded over in July; a photograph on the
+      dresser has been turned to face the wall. Readers in 1948 caught every
+      one of these at a glance, and six details of that kind were all the
+      ________ the book needed. The fighting is everywhere in it and nowhere
+      on its pages.
+    clue: "The fighting is everywhere in it and nowhere on its pages"
+    relation: contrast
+    noise: ["the taste of the tea", "in July", "Readers in 1948"]
+    pathway: >-
+      The war is present to the reader although it is never stated, carried by
+      small details that point to it. The blank must name an indirect
+      reference.
+    key:
+      a: "nobody's words are repeated; these are objects in a room."
+      b: "the book explains nothing, which is what the last sentence says."
+      c: "cold tea and a boarded window say less than the war was, not more."
+
+  - id: L2-HUM-04
+    word: vivid
+    options: [faint, vivid, borrowed, measured]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      Ask ten people who read the book as children what the kitchen looked
+      like, and nine will tell you about the blue jug. The author spends two
+      sentences on it: the chip on the lip, the crack mended with wire.
+      Detail as ________ as that stays with a reader for thirty years.
+    clue: "nine will tell you about the blue jug"
+    relation: cause
+    noise: ["ten people", "two sentences", "the crack mended with wire"]
+    pathway: >-
+      Nine readers in ten can still see the jug decades later, so the writing
+      put it sharply in front of them. The blank must mean clear and strong to
+      the senses.
+    key:
+      a: "a detail nine readers in ten can still describe has not faded."
+      c: "nothing suggests the jug came from another writer's book."
+      d: "measured writing is restrained and careful; what the passage praises is how sharply the jug is seen."
+
+  - id: L2-HUM-05
+    word: ornate
+    options: [ornate, plain, cheap, unfinished]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      The west front carries four hundred carved figures, a band of stone vine
+      leaves the whole width of the building, and a rose window with sixteen
+      lights. The side the monks themselves used faces the cloister and has
+      one door and no decoration at all. The ________ front was for the town
+      to look at.
+    clue: "four hundred carved figures, a band of stone vine leaves the whole width of the building, and a rose window with sixteen lights"
+    relation: contrast
+    noise: ["the monks themselves used", "the cloister", "one door"]
+    pathway: >-
+      One side is loaded with carving and the other is bare, and the blank
+      labels the loaded one. The blank must mean heavily decorated.
+    key:
+      b: "that describes the cloister side, which the passage sets against this one."
+      c: "four hundred carved figures are the expensive part of such a building."
+      d: "every element listed is finished and in place."
+
+  - id: L2-HUM-06
+    word: subtle
+    options: [obvious, clumsy, subtle, silent]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      The actor does not raise her voice when the letter arrives. She reads it
+      twice, puts it in her apron pocket and goes on laying the table; only
+      the second time she sets down a fork does the audience see that her hand
+      is not steady. The change is so ________ that a man two rows back missed
+      it altogether and had to be told afterwards what had happened.
+    clue: "a man two rows back missed it altogether and had to be told afterwards what had happened"
+    relation: cause
+    noise: ["her apron pocket", "laying the table", "sets down a fork"]
+    pathway: >-
+      The signal is so slight that part of the audience does not catch it at
+      all. The blank must mean so fine as to be easily missed.
+    key:
+      a: "a man two rows back missed it entirely."
+      b: "a performance that has to be pointed out is the opposite of heavy-handed."
+      d: "she says nothing, but what the sentence measures is how slight the visible change is."
+
+  - id: L2-HUM-07
+    word: renders
+    options: [hides, renders, copies, frames]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      In the drawing the horse is four lines and a smudge. Anyone can see the
+      animal is tired: the head hangs below the shoulder and one hind leg is
+      not taking its weight. A good draughtsman ________ a living creature in
+      less ink than a signature takes.
+    clue: "Anyone can see the animal is tired: the head hangs below the shoulder and one hind leg is not taking its weight"
+    relation: cause
+    noise: ["a smudge", "four lines", "a signature"]
+    pathway: >-
+      Four lines are enough to put a tired horse in front of the viewer. The
+      blank must mean represent in a medium.
+    key:
+      a: "the point of the passage is how much of the horse can be seen in four lines."
+      c: "copying needs a model in front of the artist; the passage is about how little ink the drawing takes."
+      d: "a frame goes round a picture, and this is about what is inside it."
+
+  - id: L2-HUM-08
+    word: austere
+    options: [crowded, careless, comfortable, austere]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      The architect left the concrete as it came out of the shuttering, put
+      one bench in the hall and hung nothing on any wall. Visitors who expect
+      a gallery find the rooms ________ almost to the point of coldness. Some
+      say an hour inside is as calming as a church; others say it is like
+      waiting for a train.
+    clue: "left the concrete as it came out of the shuttering, put one bench in the hall and hung nothing on any wall"
+    relation: restatement
+    noise: ["a gallery", "as calming as a church", "waiting for a train"]
+    pathway: >-
+      Everything that might soften the rooms has been left out on purpose. The
+      blank must mean bare and without comfort or ornament.
+    key:
+      a: "one bench and bare walls are the opposite of a full room."
+      b: "nothing here is accidental: each absence is the architect's decision."
+      c: "a single bench, and the comparison with waiting for a train, tell against comfort."
+
+  - id: L2-HUM-09
+    word: lyrical
+    options: [dull, technical, lyrical, loud]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      The first half of the report is tables. Then, describing the river at
+      dawn, the engineer writes three paragraphs that could be set to music:
+      the light coming off the water, the mist standing in the alders, the one
+      heron. Nobody expected anything so ________ in a document about a sewer.
+    clue: "three paragraphs that could be set to music: the light coming off the water, the mist standing in the alders, the one heron"
+    relation: contrast
+    noise: ["The first half", "tables", "a sewer"]
+    pathway: >-
+      The paragraphs are song-like where the rest of the report is figures.
+      The blank must mean songlike and feelingly expressive.
+    key:
+      a: "the tables are the dull part; these paragraphs are what takes the reader by surprise."
+      b: "a sewer report is full of technical writing, and what is unexpected here is the opposite of that."
+      d: "nothing in the three paragraphs makes a noise; a heron at dawn is silent."
+
+  - id: L2-HUM-10
+    word: satirise
+    options: [satirise, praise, explain, decorate]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      The cartoon shows the minister as a small boy in a large chair, feet
+      swinging clear of the floor, signing a treaty with a crayon. It is not
+      an argument against the treaty and it makes no case at all. It exists
+      to ________ the man, and within a week his own party was using the
+      nickname it gave him.
+    clue: "shows the minister as a small boy in a large chair, feet swinging clear of the floor, signing a treaty with a crayon"
+    relation: example
+    noise: ["makes no case at all", "within a week", "the nickname"]
+    pathway: >-
+      A grown minister is drawn as a child with a crayon in order to make him
+      look ridiculous. The blank must mean attack by making fun of.
+    key:
+      b: "a minister drawn as a child with a crayon is being mocked, not admired."
+      c: "the passage says the cartoon makes no case and is not an argument."
+      d: "a newspaper cartoon is not ornament, and the nickname shows this one drew blood."

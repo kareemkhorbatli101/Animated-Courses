@@ -1,0 +1,206 @@
+level: 1
+domain: BIO
+items:
+  - id: L1-BIO-01
+    word: adapted
+    options: [resisted, adapted, remembered, moved]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The pond dries out every August. One kind of frog there has ________ to
+      it: the young grow legs in six weeks instead of twelve, so they are out
+      of the water before the last of it goes.
+    clue: "the young grow legs in six weeks instead of twelve, so they are out of the water before the last of it goes"
+    relation: example
+    noise: ["every August", "One kind of frog", "dries out"]
+    pathway: >-
+      The frog has not stopped the pond from drying; it has changed its own
+      timing to suit a dry August. The blank must mean changed to fit new
+      conditions.
+    key:
+      a: "nothing in the text is pushed back; the frog changes itself, not the pond."
+      c: "a faster growing time is a change in the body, not something learned and recalled."
+      d: "the frogs stay in the same pond; only their speed of growth is different."
+
+  - id: L1-BIO-02
+    word: survive
+    options: [grow, hunt, hide, survive]
+    answer: d
+    traps: {a: T2, b: T1, c: T2}
+    passage: >-
+      Seeds of the desert poppy can lie in dry sand for eleven years. They do
+      not sprout and they do not rot; they simply ________ until a wet spring
+      finally comes, and then the whole slope turns orange in a fortnight.
+    clue: "They do not sprout and they do not rot"
+    relation: contrast
+    noise: ["eleven years", "the whole slope", "in a fortnight"]
+    pathway: >-
+      The seeds neither develop nor die during the dry years. The blank must
+      mean stay alive without changing.
+    key:
+      a: "the text says the opposite in the same sentence: they do not sprout."
+      b: "seeds cannot hunt, and nothing in the passage concerns feeding."
+      c: "the seeds are already in the sand; being hidden is not what keeps them alive for eleven years."
+
+  - id: L1-BIO-03
+    word: threatened
+    options: [threatened, protected, counted, replaced]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      A new weed arrived on the island in ship ballast. It grows faster than
+      the native grass and shades it out, and on two headlands the old grass
+      is already gone. Botanists say the whole island population is now
+      ________.
+    clue: "on two headlands the old grass is already gone"
+    relation: cause
+    noise: ["ship ballast", "the native grass", "Botanists say"]
+    pathway: >-
+      The weed has wiped the native grass off part of the island, so the rest
+      is in danger. The blank must mean put at risk.
+    key:
+      b: "being protected is the opposite of losing ground on two headlands."
+      c: "counting a population tells you its size and changes nothing about its danger."
+      d: "the weed has replaced the grass in two places, but the population described is the grass, which is at risk rather than acting."
+
+  - id: L1-BIO-04
+    word: shelter
+    options: [food, water, shelter, shade]
+    answer: c
+    traps: {a: T1, b: T1, d: T2}
+    passage: >-
+      Reef crabs the size of a thumbnail spend the day inside empty shells.
+      A fish passing above cannot reach them there, and the ________ costs
+      them nothing but the trouble of finding a shell that fits.
+    clue: "A fish passing above cannot reach them there"
+    relation: cause
+    noise: ["the size of a thumbnail", "spend the day", "a shell that fits"]
+    pathway: >-
+      The shell keeps a hunting fish away from the crab. The blank must name
+      protection from danger.
+    key:
+      a: "the crabs are not eating the shell, and the fish is a threat rather than a meal."
+      b: "the crabs are on a reef, already surrounded by water."
+      d: "shade is relief from sun; what the text describes is safety from a fish."
+
+  - id: L1-BIO-05
+    word: consume
+    options: [carry, store, clean, consume]
+    answer: d
+    traps: {a: T1, b: T4, c: T2}
+    passage: >-
+      A single colony of leafcutter ants can strip a young tree in a night.
+      The ants do not ________ the leaves themselves; they chew them into a
+      paste, grow a fungus on it underground, and eat the fungus instead.
+    clue: "they chew them into a paste, grow a fungus on it underground, and eat the fungus instead"
+    relation: contrast
+    noise: ["a young tree", "in a night", "A single colony"]
+    pathway: >-
+      What the ants finally eat is the fungus, not the leaves, so the blank
+      must name the eating they do not do.
+    key:
+      a: "they plainly do carry the leaves: the paste is made underground."
+      b: "they do store the paste in order to grow fungus on it, so this is the opposite of the contrast."
+      c: "cleaning leaves has nothing to do with chewing them into a paste."
+
+  - id: L1-BIO-06
+    word: release
+    options: [absorb, release, measure, waste]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The seed pod of the sandbox tree dries in the sun until it splits with
+      a crack that can be heard across a field. The halves ________ the seeds
+      so hard that some land forty metres away.
+    clue: "so hard that some land forty metres away"
+    relation: cause
+    noise: ["in the sun", "across a field", "The seed pod"]
+    pathway: >-
+      The pod bursts open and the seeds end up far from the tree, so the
+      blank must mean let go outwards.
+    key:
+      a: "to take in is the reverse of sending seeds forty metres away."
+      c: "measuring is something a scientist does, not something a splitting pod does to seeds."
+      d: "wasting seeds would mean losing them for nothing, but throwing them far is useful to the tree."
+
+  - id: L1-BIO-07
+    word: depends
+    options: [feeds, hides, depends, waits]
+    answer: c
+    traps: {a: T2, b: T1, d: T2}
+    passage: >-
+      The fig tree on the hill cannot set fruit unless one small wasp crawls
+      inside the flower. There is only one kind of wasp that will do it, and
+      the tree ________ on that single insect for every fig it makes.
+    clue: "cannot set fruit unless one small wasp crawls inside the flower"
+    relation: restatement
+    noise: ["on the hill", "only one kind of wasp", "every fig"]
+    pathway: >-
+      Without the wasp there is no fruit at all. The blank must mean needs
+      and cannot manage without.
+    key:
+      a: "the tree is not eating the wasp; the wasp does the tree a service."
+      b: "the tree is not concealed by the wasp, and concealment is not mentioned."
+      d: "waiting describes time passing, not the need that makes the fruit possible."
+
+  - id: L1-BIO-08
+    word: recovered
+    options: [recovered, vanished, spread, doubled]
+    answer: a
+    traps: {b: T4, c: T2, d: T2}
+    passage: >-
+      Fishing was stopped on the bank in 1992, when trawlers were bringing up
+      almost nothing. Fifteen years later the cod there had ________: the
+      count was back to what it had been before the big boats arrived.
+    clue: "the count was back to what it had been before the big boats arrived"
+    relation: restatement
+    noise: ["in 1992", "Fifteen years later", "on the bank"]
+    pathway: >-
+      The number of fish returned to its earlier level. The blank must mean
+      got back to a former healthy state.
+    key:
+      b: "the fish came back; vanishing is the opposite."
+      c: "spreading is a change of place, but the text describes a change of number in the same place."
+      d: "the count returned to an earlier level, which is not the same as becoming twice as large."
+
+  - id: L1-BIO-09
+    word: spread
+    options: [failed, spread, thinned, settled]
+    answer: b
+    traps: {a: T4, c: T4, d: T2}
+    passage: >-
+      One ash tree in a Kent wood was found with the disease in 2012. By 2016
+      it had ________ to every county in the south: foresters could stand in
+      a plantation two hundred miles away and point to the same black marks on
+      the bark.
+    clue: "to every county in the south"
+    relation: restatement
+    noise: ["a Kent wood", "in 2012", "two hundred miles away"]
+    pathway: >-
+      The disease starts in one tree and is later found across a whole
+      region. The blank must mean reached more and more places.
+    key:
+      a: "a disease that reaches every county in the south has not failed."
+      c: "to thin out is to grow less common, but the disease becomes more common."
+      d: "to settle is to stop moving; this disease is in a new place two hundred miles off."
+
+  - id: L1-BIO-10
+    word: shifted
+    options: [stopped, risen, narrowed, shifted]
+    answer: d
+    traps: {a: T1, b: T2, c: T2}
+    passage: >-
+      For a century the puffins nested on the southern cliffs and never on
+      the northern ones. Warmer water has driven their fish north, and the
+      colony has ________ with them: the southern ledges are bare now and the
+      northern ones are crowded.
+    clue: "the southern ledges are bare now and the northern ones are crowded"
+    relation: restatement
+    noise: ["For a century", "Warmer water", "the southern cliffs"]
+    pathway: >-
+      The birds have left one set of cliffs and filled another, so the blank
+      must mean moved from one place to another.
+    key:
+      a: "the colony is still nesting, only somewhere else."
+      b: "rising describes height; the change in the text is from south to north."
+      c: "a narrower colony would be smaller, but the text says the northern ledges are crowded."

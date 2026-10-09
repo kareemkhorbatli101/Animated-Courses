@@ -1,0 +1,245 @@
+level: 3
+domain: HIS
+items:
+  - id: L3-HIS-01
+    word: entrenched
+    options: [weakened, explained, recorded, entrenched]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The reform was meant to last a single parliament. Its authors wrote a
+      five-year limit into the second clause and spoke of it as a temporary
+      measure for a hard winter. Three generations later the limit had been
+      renewed so often that no minister could remember the original debate,
+      the clerks had built a whole office around the paperwork, and two
+      professions drew their fees from it. What began as an experiment had
+      ________ itself so thoroughly that repeal was no longer discussed.
+    clue: "the limit had been renewed so often that no minister could remember the original debate"
+    relation: contrast
+    noise: ["a five-year limit", "the second clause", "a hard winter", "two professions"]
+    pathway: >-
+      A temporary measure has been renewed until nobody imagines removing it,
+      and interests have grown up around it. The blank must mean fixed itself
+      so firmly that it cannot be shifted.
+    key:
+      a: "a measure nobody can imagine repealing has grown stronger, not weaker."
+      b: "the passage says the original debate was forgotten, not set out again."
+      c: "the paperwork is a detail of the story; what the sentence describes is the measure becoming impossible to remove."
+
+  - id: L3-HIS-02
+    word: partisan
+    options: [neutral, partisan, cautious, foreign]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      The paper carried two columns of shipping news, a page of corn prices
+      and, every Thursday, a leader on the canal bill. A reader in the town
+      could not have learned from it that anybody opposed the bill at all: the
+      names of its opponents appeared only in lists of those who had changed
+      their minds. The editor's own brother sat on the canal company's board,
+      and the coverage was ________ from the first number to the last.
+    clue: "A reader in the town could not have learned from it that anybody opposed the bill at all"
+    relation: cause
+    noise: ["two columns of shipping news", "corn prices", "every Thursday"]
+    pathway: >-
+      The paper printed one side only, and its editor had a family interest in
+      that side. The blank must mean strongly committed to one party.
+    key:
+      a: "a paper that prints no opposing view is not even-handed."
+      c: "the paper was not holding back: it took one side from beginning to end."
+      d: "the shipping news, the brother and the readers are all local."
+
+  - id: L3-HIS-03
+    word: expedient
+    options: [principled, permanent, expedient, costly]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      Nobody in the ministry defended the tent camp on the racecourse. The
+      engineers said the drains would fail by March and the medical officer
+      put his objection in writing. But eleven hundred people had lost their
+      houses in the flood, the barracks could hold two hundred, and the camp
+      went up in nine days. It was an ________ answer, chosen because it was
+      the only one that could be had that week.
+    clue: "chosen because it was the only one that could be had that week"
+    relation: concession
+    noise: ["the racecourse", "by March", "the barracks", "nine days"]
+    pathway: >-
+      Two kinds of expert advice were set aside because nothing else could be
+      done in time. The blank must mean useful for the moment rather than
+      right.
+    key:
+      a: "the engineers' and the medical officer's objections were overruled for the sake of speed."
+      b: "the drains were expected to fail by March, and the camp answered one week's need."
+      d: "no price appears anywhere; what recommended the camp was that it could be built at once."
+
+  - id: L3-HIS-04
+    word: repudiated
+    options: [repudiated, honoured, delayed, translated]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      The new government inherited a debt of forty million and a treaty signed
+      by men most of whom were now in exile. In its first week it announced
+      that neither bound it: the loans had been contracted by a regime the
+      people had thrown out, and the treaty had never been put before any
+      assembly. Creditors in three countries learned that week that a state
+      can simply ________ what its predecessor promised.
+    clue: "it announced that neither bound it"
+    relation: restatement
+    noise: ["forty million", "now in exile", "three countries"]
+    pathway: >-
+      The government declares that the debt and the treaty do not bind it, and
+      the creditors are the losers. The blank must mean refuse to be bound by.
+    key:
+      b: "what the creditors learn is that the promises will not be kept."
+      c: "a delay means payment later; this government denies that the debt is its own at all."
+      d: "the treaty's language is not in question; its force is."
+
+  - id: L3-HIS-05
+    word: precedent
+    options: [exception, precedent, tradition, penalty]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      The case itself was small: a carter claiming nine shillings for a horse
+      lamed on a bad road. The judgment ran to two pages and the carter was
+      paid. Forty years later those same two pages were being cited in claims
+      against gas companies, railway contractors and the Crown, because they
+      contained the first clear statement that a body which builds a thing is
+      answerable for it. One modest ruling had set a ________ that outgrew the
+      horse entirely.
+    clue: "those same two pages were being cited in claims against gas companies, railway contractors and the Crown"
+    relation: example
+    noise: ["nine shillings", "a bad road", "the carter was paid"]
+    pathway: >-
+      A single early decision is what later and much larger cases are argued
+      from. The blank must mean an earlier decision that later ones follow.
+    key:
+      a: "this ruling became the rule later cases followed, not a departure from one."
+      c: "a tradition grows up by custom; what the passage describes is a decision that later courts are bound to cite."
+      d: "the nine shillings were paid to the carter, and what lasted forty years was the reasoning."
+
+  - id: L3-HIS-06
+    word: coercion
+    options: [consent, persuasion, neglect, coercion]
+    answer: d
+    traps: {a: T4, b: T2, c: T1}
+    passage: >-
+      The commissioners' report describes the signing of the land agreement in
+      some detail. The headmen were brought to the fort in the dry season,
+      when their cattle were eleven days from water. Rations were issued to
+      those who had put their mark to the paper and withheld from those who
+      had not, and the only interpreter in the room was in the company's pay.
+      Whatever the document says on its face, what took place at the fort was
+      ________.
+    clue: "Rations were issued to those who had put their mark to the paper and withheld from those who had not"
+    relation: example
+    noise: ["the dry season", "eleven days from water", "the only interpreter"]
+    pathway: >-
+      Signatures were obtained by holding back food from men whose cattle were
+      dying. The blank must mean the use of force or threat to make people
+      comply.
+    key:
+      a: "an agreement got by withholding food from those who refuse is not freely given."
+      b: "persuasion works by argument, and the only argument at the fort was hunger."
+      c: "the commissioners describe deliberate arrangements, not an oversight."
+
+  - id: L3-HIS-07
+    word: usurped
+    options: [usurped, inherited, delegated, restored]
+    answer: a
+    traps: {b: T1, c: T2, d: T4}
+    passage: >-
+      The constitution gave the power of appointment to the senate, and for
+      ninety years the senate used it. The general's first act after the
+      harbour rising was to issue commissions in his own name, from a building
+      the senate had not been allowed to enter since the spring. No vote was
+      taken and no law was altered. He had ________ an authority that was not
+      his, and the forms of the old republic went on being printed for another
+      decade.
+    clue: "The constitution gave the power of appointment to the senate"
+    relation: contrast
+    noise: ["ninety years", "the harbour rising", "since the spring"]
+    pathway: >-
+      A power the constitution placed elsewhere is being exercised by a man
+      with no vote or law behind him. The blank must mean seized a power that
+      belonged to another.
+    key:
+      b: "the constitution gave the power to the senate, and nobody passed it to him."
+      c: "he took the power rather than handing it on: the commissions go out in his own name."
+      d: "the senate had held that power for ninety years, so nothing was being given back."
+
+  - id: L3-HIS-08
+    word: mandate
+    options: [precedent, apology, mandate, refusal]
+    answer: c
+    traps: {a: T1, b: T1, d: T4}
+    passage: >-
+      The party had asked one question at the election and had said so on
+      every poster: should the mines be bought by the state? It came back with
+      two hundred and ninety seats out of four hundred, sixty of them in
+      places it had never won before. The bill passed in eleven weeks, and
+      even its opponents in the upper house allowed that the government had a
+      ________ for this particular measure, whatever they thought of the
+      measure itself.
+    clue: "The party had asked one question at the election and had said so on every poster"
+    relation: cause
+    noise: ["eleven weeks", "the upper house", "sixty of them"]
+    pathway: >-
+      One question was put to the voters, who answered it with a large
+      majority, which is what the opponents concede. The blank must mean the
+      authority voters give for a stated policy.
+    key:
+      a: "no earlier case is mentioned; what the passage gives is the result of an election."
+      b: "nothing is being regretted, and an apology would not carry a bill in eleven weeks."
+      d: "the voters gave the party the seats it had asked for."
+
+  - id: L3-HIS-09
+    word: ameliorate
+    options: [prevent, conceal, aggravate, ameliorate]
+    answer: d
+    traps: {a: T2, b: T1, c: T4}
+    passage: >-
+      By the time the commission sat, the terraces had stood for sixty years
+      and nothing could be done about the way they had been built: one tap to
+      a court, no through draught, privies against the kitchen wall. The act
+      that followed did not pretend to cure any of that. It paid for a
+      standpipe in every court, a weekly cart for the ashes and an inspector
+      on a salary, measures that could ________ conditions without touching
+      the cause of them.
+    clue: "It paid for a standpipe in every court, a weekly cart for the ashes and an inspector on a salary"
+    relation: contrast
+    noise: ["sixty years", "no through draught", "the kitchen wall"]
+    pathway: >-
+      The causes are left alone and the daily conditions are made less bad.
+      The blank must mean make a bad situation better without ending it.
+    key:
+      a: "the conditions had existed for sixty years; these measures act on what is already there."
+      b: "a standpipe and an ash cart change the court rather than hide it."
+      c: "every measure listed is an improvement, however partial."
+
+  - id: L3-HIS-10
+    word: factional
+    options: [unanimous, factional, foreign, personal]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      On paper the committee had one aim, and its minutes record a single vote
+      against in four years. The letters the members wrote to one another tell
+      another story: two groups, one from the port and one from the cloth
+      towns, each with its own candidate for secretary and its own view of the
+      harbour dues, and neither willing to be outvoted where anyone could see
+      it. The quarrel was ________ from the start, and men changed sides only
+      when their group did.
+    clue: "two groups, one from the port and one from the cloth towns, each with its own candidate for secretary and its own view of the harbour dues"
+    relation: restatement
+    noise: ["four years", "neither willing to be outvoted", "its minutes"]
+    pathway: >-
+      The committee is split into two organised camps and men move only with
+      their camp. The blank must mean belonging to rival groups inside one
+      body.
+    key:
+      a: "the minutes show agreement in public and the letters show two camps underneath."
+      c: "both groups came from the same region: the port and the cloth towns."
+      d: "men changed sides when their group did, not according to their own likes and dislikes."

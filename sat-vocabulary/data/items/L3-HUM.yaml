@@ -1,0 +1,234 @@
+level: 3
+domain: HUM
+items:
+  - id: L3-HUM-01
+    word: ambivalent
+    options: [hostile, ambivalent, indifferent, enthusiastic]
+    answer: b
+    traps: {a: T2, c: T1, d: T2}
+    passage: >-
+      She left the village at seventeen and wrote about it for the next fifty
+      years. The books are full of the smell of the bakehouse and the sound of
+      the river at night, and nobody has described the place better. They are
+      also full of the women at the window, the priest's book of names, and
+      the four years she spent trying to get the fare together. Her feeling
+      for home was ________, and she never pretended otherwise.
+    clue: "The books are full of the smell of the bakehouse and the sound of the river at night"
+    relation: contrast
+    noise: ["at seventeen", "the priest's book of names", "the fare"]
+    pathway: >-
+      Half of what she writes is affectionate and half of it is the reason she
+      left, and she admits both. The blank must mean holding two opposite
+      feelings at once.
+    key:
+      a: "half of what she writes is affectionate; hostility would leave no room for the bakehouse and the river."
+      c: "fifty years of writing about one village is not indifference."
+      d: "the women at the window and the four years saving the fare are not enthusiasm."
+
+  - id: L3-HUM-02
+    word: derivative
+    options: [original, obscure, technical, derivative]
+    answer: d
+    traps: {a: T4, b: T1, c: T1}
+    passage: >-
+      The second symphony was played twice and then withdrawn. Every device in
+      it can be found in the older composer the writer had studied under: the
+      horn call at the opening, the long held string note under the slow
+      movement, even the trick of ending quietly instead of loudly. Nothing in
+      it is badly made. It is simply ________, and the audience that knew the
+      teacher's work recognised every page.
+    clue: "Every device in it can be found in the older composer the writer had studied under"
+    relation: restatement
+    noise: ["played twice", "the horn call", "ending quietly"]
+    pathway: >-
+      Every element came from another composer's work and the listeners knew
+      it. The blank must mean copied from an earlier model rather than new.
+    key:
+      a: "the audience recognised every page from another composer's work."
+      b: "the trouble is not that the music is hard to follow; the listeners knew it too well."
+      c: "the passage says nothing in it is badly made, so craft is not the complaint."
+
+  - id: L3-HUM-03
+    word: canonical
+    options: [canonical, forgotten, modern, disputed]
+    answer: a
+    traps: {b: T4, c: T1, d: T2}
+    passage: >-
+      Four hundred plays survive from the period and most of them are read
+      only by specialists. Eleven are set for school examinations in six
+      countries, printed in forty editions apiece, and performed somewhere in
+      the world on any given night. Nothing about the other three hundred and
+      eighty-nine makes them worse made. But the eleven are ________ now, and
+      a student who has read none of them is thought not to have read the
+      period at all.
+    clue: "Eleven are set for school examinations in six countries, printed in forty editions apiece, and performed somewhere in the world on any given night"
+    relation: example
+    noise: ["Four hundred plays", "three hundred and eighty-nine", "specialists"]
+    pathway: >-
+      These eleven are the ones every student is expected to know. The blank
+      must mean belonging to the accepted body of great works.
+    key:
+      b: "these are the eleven that everybody is required to read."
+      c: "the plays are four hundred years old; what the word must describe is their standing."
+      d: "the passage says their place is taken for granted, since a student who skips them is thought not to know the period."
+
+  - id: L3-HUM-04
+    word: aesthetic
+    options: [practical, legal, aesthetic, financial]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      The committee could have had the hospital for nine million with flat
+      roofs and strip windows, and the brief said as much. What was built cost
+      eleven, and the extra went on a brick arcade along the south side, a
+      courtyard with four limes in it, and a staircase of some ambition. No bed
+      was added and no operating theatre gained a square metre. The whole of the difference bought something ________, which is not the same as saying it was wasted.
+    clue: "No bed was added and no operating theatre gained a square metre"
+    relation: contrast
+    noise: ["nine million", "four limes", "the brief"]
+    pathway: >-
+      The extra money bought nothing that treats a patient; it bought how the
+      building looks. The blank must mean to do with beauty rather than use.
+    key:
+      a: "the passage says no bed and no operating theatre gained anything."
+      b: "no law and no dispute appear anywhere in the passage."
+      d: "the two million is money, but what it bought was not another kind of money."
+
+  - id: L3-HUM-05
+    word: understated
+    options: [exaggerated, confused, sentimental, understated]
+    answer: d
+    traps: {a: T4, b: T1, c: T4}
+    passage: >-
+      Three hundred men died in the yard that year, and the memorial carries
+      no angel, no flag and no verse. It is a wall of slate, waist high, with
+      the names cut in one line and the dates of the two worst weeks a little
+      deeper. Visitors who come expecting a monument walk past it. The design
+      is ________ to the point of severity, and the men's grandchildren say it
+      is the only thing in the town that gets it right.
+    clue: "no angel, no flag and no verse"
+    relation: restatement
+    noise: ["Three hundred men", "waist high", "the two worst weeks"]
+    pathway: >-
+      Everything a monument usually does has been left out, so that visitors
+      miss it altogether. The blank must mean expressed with deliberate
+      restraint.
+    key:
+      a: "a waist-high slate wall that visitors walk past claims less than the event, not more."
+      b: "the design is perfectly clear: names, dates and nothing else."
+      c: "the angel and the verse are precisely what has been left out."
+
+  - id: L3-HUM-06
+    word: polemic
+    options: [survey, polemic, memoir, hymn]
+    answer: b
+    traps: {a: T2, c: T1, d: T4}
+    passage: >-
+      The pamphlet gives the other side of the argument one paragraph and then
+      calls it dishonest. It has no footnotes. Everything in it is arranged to
+      bring the reader to a single conclusion by the eighth page, and it sold
+      nine thousand copies in a fortnight at a time when a book of sermons sold
+      four hundred. Read as a ________ it is a masterpiece; read as history it
+      is nearly useless.
+    clue: "Everything in it is arranged to bring the reader to a single conclusion by the eighth page"
+    relation: restatement
+    noise: ["no footnotes", "nine thousand copies", "a book of sermons"]
+    pathway: >-
+      The whole text is built to win an argument and gives the other side a
+      paragraph before dismissing it. The blank must name a piece of writing
+      that attacks and argues one case.
+    key:
+      a: "a survey sets the views out fairly, and this one gives the other side a paragraph before calling it dishonest."
+      c: "nothing in the pamphlet concerns the writer's own life."
+      d: "a hymn praises what it is about; this pamphlet exists in order to attack."
+
+  - id: L3-HUM-07
+    word: reverent
+    options: [mocking, casual, reverent, puzzled]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      The young director had the cast speak the verse exactly as it is
+      printed, cut not a line, and set the play in the costume of its own
+      century. Two critics complained that forty years of argument about how
+      to stage it might as well not have happened. It was a ________
+      production, and what it gave up in surprise it gained in a kind of trust
+      the audience could feel from the first scene.
+    clue: "had the cast speak the verse exactly as it is printed, cut not a line, and set the play in the costume of its own century"
+    relation: restatement
+    noise: ["Two critics", "forty years of argument", "the first scene"]
+    pathway: >-
+      Every choice defers to the text as it stands. The blank must mean
+      treating something with deep respect.
+    key:
+      a: "nothing is being made fun of; every choice defers to the text."
+      b: "speaking every printed line and cutting nothing is the opposite of a free hand."
+      d: "the director knows exactly what he wants; the critics are the ones objecting."
+
+  - id: L3-HUM-08
+    word: enigmatic
+    options: [enigmatic, obvious, careless, cheerful]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      Nobody has explained the small dog. It sits in the bottom left corner
+      with its back to the wedding party, looking at something outside the
+      frame, and the inventory of 1623 does not mention it at all. Three
+      scholars have made three cases and no two of them agree. The picture is
+      ________ in a way that has kept it in print for four centuries: every
+      generation finds a new answer, and none of the answers holds.
+    clue: "Three scholars have made three cases and no two of them agree"
+    relation: restatement
+    noise: ["the bottom left corner", "the inventory of 1623", "in print"]
+    pathway: >-
+      Four centuries of explanation have settled nothing. The blank must mean
+      mysterious and hard to interpret.
+    key:
+      b: "four centuries of disagreement about one dog is not an easy picture."
+      c: "the dog is painted as carefully as the rest; what is unexplained is why it is there."
+      d: "a wedding is cheerful, but the word has to describe the puzzle the picture sets."
+
+  - id: L3-HUM-09
+    word: elegiac
+    options: [triumphant, elegiac, comic, factual]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      The last chapter is a walk through the shipyard on the day the gates
+      closed. The crane that lifted the great liners' boilers is still
+      standing; the drawing office still has pencils in the drawers; a man of
+      sixty-two explains what each shed used to do and then says he will not
+      come back to see it again. Nothing in the chapter argues for anything.
+      The tone is ________, and readers who have never seen a shipyard put the
+      book down and sit for a while.
+    clue: "a man of sixty-two explains what each shed used to do and then says he will not come back to see it again"
+    relation: restatement
+    noise: ["the great liners' boilers", "pencils in the drawers", "the gates closed"]
+    pathway: >-
+      The chapter mourns something that has ended, without argument. The blank
+      must mean sorrowful in the manner of a lament.
+    key:
+      a: "the chapter is set on the day the gates closed for good."
+      c: "nothing in the passage is played for laughs."
+      d: "the facts are all there, but what the sentence names is the mourning note they are written in."
+
+  - id: L3-HUM-10
+    word: whimsical
+    options: [severe, scholarly, practical, whimsical]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      The architect was asked for a bus shelter and produced one with a copper
+      roof shaped like a hat, a bench whose back is a line of iron swallows,
+      and a small brass dial that tells you nothing but the day of the week. It keeps the rain off as well as any shelter in the county, and it cost three times what a standard shelter costs. The whole thing is ________, and the parish has twice refused to let the council replace
+      it.
+    clue: "a copper roof shaped like a hat, a bench whose back is a line of iron swallows, and a small brass dial that tells you nothing but the day of the week"
+    relation: example
+    noise: ["the county", "the parish", "the council"]
+    pathway: >-
+      Every feature is playful and one of them is useless on purpose. The
+      blank must mean fancifully playful.
+    key:
+      a: "a hat-shaped roof and iron swallows are playful, not stern."
+      b: "nothing here is learned, and the brass dial deliberately tells you almost nothing."
+      c: "it does keep the rain off, but it cost three times the standard shelter and half of what is on it serves no purpose at all."

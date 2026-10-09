@@ -1,0 +1,243 @@
+level: 4
+domain: HUM
+items:
+  - id: L4-HUM-01
+    word: arch
+    rare_sense: true
+    options: [solemn, curved, confused, arch]
+    answer: d
+    traps: {a: T4, b: T3, c: T1}
+    passage: >-
+      The narrator never tells you what to think of the vicar, and he never
+      once laughs. He mentions, in a dependent clause, that the sermon on
+      charity was the third of the month and that the collection had been
+      counted twice; then he moves on to the weather. The tone is ________
+      throughout: nothing is stated, the reader is invited to notice, and the joke is paid out only to whoever is quick enough to take it. The book was out of print for sixty years and is now set for examinations.
+    clue: ["nothing is stated, the reader is invited to notice, and the joke is paid out only to whoever is quick enough to take it", "he never once laughs"]
+    relation: restatement
+    noise: ["the third of the month", "counted twice", "the weather", "out of print for sixty years"]
+    pathway: >-
+      There is a joke in every clause and the narrator keeps a straight face
+      while the reader is left to see it. The blank must mean knowingly and
+      teasingly superior.
+    key:
+      a: "there is a joke in every clause, even though the narrator keeps a straight face."
+      b: "a shape in a building is the everyday sense of the answer word, and no building is described."
+      c: "the narrator knows exactly what he is doing and places every detail with care."
+
+  - id: L4-HUM-02
+    word: affected
+    rare_sense: true
+    options: [influenced, affected, abandoned, explained]
+    answer: b
+    traps: {a: T3, c: T4, d: T1}
+    passage: >-
+      He had been born in the town and had gone to the same school as the men
+      who loaded his lorries. By the time the second gallery opened he had
+      acquired a way of saying that one simply does not, and a habit of pausing
+      before the names of painters. Nobody who had known him at sixteen was
+      taken in for a moment. A man who has ________ a manner in middle age
+      usually chooses one that answers the room he wants to be let into.
+    clue: ["he had acquired a way of saying that one simply does not, and a habit of pausing before the names of painters", "Nobody who had known him at sixteen was taken in for a moment"]
+    relation: restatement
+    noise: ["loaded his lorries", "the second gallery", "the same school", "in the town"]
+    pathway: >-
+      He has taken on a manner that is not his own, and the people who knew him
+      earlier can see it. The blank must mean put on as a pretence.
+    key:
+      a: "having an effect on something is the everyday sense of the answer word, and a manner is what he puts on rather than something he acts upon."
+      c: "he takes the manner up, and his old schoolfellows see through it."
+      d: "nothing is being accounted for: he is performing."
+
+  - id: L4-HUM-03
+    word: economy
+    rare_sense: true
+    options: [wealth, confusion, economy, ambition]
+    answer: c
+    traps: {a: T3, b: T1, d: T2}
+    passage: >-
+      The whole story is nine hundred words long. A marriage, a betrayal and a
+      death are got through without one sentence of explanation: the second
+      paragraph is a single line of dialogue, and the reader learns that the
+      husband knows from the fact that he carries the lamp upstairs himself.
+      Nothing is wasted and nothing is missing. Such ________ is harder to
+      bring off than the four hundred pages most writers would have needed, and
+      the author is said to have destroyed four earlier drafts of it.
+    clue: ["The whole story is nine hundred words long", "Nothing is wasted and nothing is missing"]
+    relation: restatement
+    noise: ["the second paragraph", "the lamp", "four hundred pages", "four earlier drafts"]
+    pathway: >-
+      A great deal is done with very little and none of it is missed. The blank
+      must mean sparing use of means.
+    key:
+      a: "a country's money is the everyday sense of the answer word, and nine hundred words is thrift of a different kind."
+      b: "the passage says nothing is missing, and the reader follows every turn."
+      d: "the story is modest in scale; what is praised is how little it uses."
+
+  - id: L4-HUM-04
+    word: studied
+    rare_sense: true
+    options: [studied, learned, careless, anxious]
+    answer: a
+    traps: {b: T3, c: T4, d: T1}
+    passage: >-
+      The portrait took eleven sittings and every one of them is in it. The
+      duchess leans on nothing, her hand is turned so that one ring and no
+      other catches the light, and the dog has been put where no dog would ever
+      choose to sit. Visitors say the picture looks natural. The pose is in
+      fact wholly ________, and an inventory of 1702 records the three days the
+      painter spent on the hand alone. The frame is not the original, and the
+      varnish was renewed in 1958.
+    clue: ["her hand is turned so that one ring and no other catches the light, and the dog has been put where no dog would ever choose to sit", "the three days the painter spent on the hand alone"]
+    relation: contrast
+    noise: ["eleven sittings", "an inventory of 1702", "Visitors say", "the varnish was renewed"]
+    pathway: >-
+      Everything that looks accidental has been arranged, down to three days on
+      one hand. The blank must mean deliberately contrived rather than natural.
+    key:
+      b: "having read a great deal is the everyday sense of the answer word; this sentence is about how carefully the pose was arranged."
+      c: "three days on one hand, and a ring placed in the light, is the opposite of carelessness."
+      d: "nothing suggests that either the duchess or the painter was worried."
+
+  - id: L4-HUM-05
+    word: involved
+    rare_sense: true
+    options: [brief, involved, participating, dull]
+    answer: b
+    traps: {a: T4, c: T3, d: T1}
+    passage: >-
+      The second act brings on a will, two half-brothers, a servant who is
+      being paid by both of them, and a letter that is read aloud twice with a
+      different ending each time. Audiences in 1890 followed it without any
+      difficulty, and the printed text gives fourteen pages to the explanation
+      alone. A plot as ________ as that would not be attempted now, and the production at the Lyceum last year cut the servant out altogether. The theatre was still lit by gas when the play first ran.
+    clue: ["a will, two half-brothers, a servant who is being paid by both of them, and a letter that is read aloud twice with a different ending each time", "the printed text gives fourteen pages to the explanation alone"]
+    relation: restatement
+    noise: ["in 1890", "the Lyceum", "last year", "still lit by gas"]
+    pathway: >-
+      Four interlocking parties and fourteen pages of explanation make a plot
+      with a great many parts. The blank must mean complicated and intricate.
+    key:
+      a: "fourteen pages of explanation and four interlocking parties are not brief."
+      c: "taking part in something is the everyday sense of the answer word, and a plot does not take part in anything."
+      d: "audiences followed it closely, and nothing in the passage calls it tedious."
+
+  - id: L4-HUM-06
+    word: arrest
+    rare_sense: true
+    options: [detain, repeat, soften, arrest]
+    answer: d
+    traps: {a: T3, b: T1, c: T2}
+    passage: >-
+      There are two hundred pictures in the long room and most people are
+      through it in six minutes. The small panel beside the door stops almost
+      everybody: a woman looking out of the frame, caught between two
+      expressions, one hand just leaving the table. Nobody can say what she has
+      heard. A painting that can ________ a tired visitor on a Sunday afternoon
+      is doing something the other hundred and ninety-nine are not. The panel is
+      oak, and the museum has owned it since 1904.
+    clue: ["The small panel beside the door stops almost everybody", "most people are through it in six minutes"]
+    relation: contrast
+    noise: ["the long room", "one hand just leaving the table", "a Sunday afternoon", "The panel is oak"]
+    pathway: >-
+      One picture halts people who are hurrying past two hundred others. The
+      blank must mean catch and hold the attention.
+    key:
+      a: "holding somebody in custody is the everyday sense of the answer word; what this painting holds is attention."
+      b: "nothing is being done twice: the picture stops people the first time they pass it."
+      c: "the visitor is brought to a halt, not comforted."
+
+  - id: L4-HUM-07
+    word: pastiche
+    options: [pastiche, forgery, parody, translation]
+    answer: a
+    traps: {b: T2, c: T2, d: T1}
+    passage: >-
+      The composer wrote it in 1978 and put his own name on the score. Every
+      bar of it could have been written in 1740: the figured bass, the
+      suspensions before each cadence, even the copying errors that
+      eighteenth-century parts usually carry. He was not trying to deceive
+      anybody, and he was not making fun of anybody either. The piece is a
+      ________, written out of plain affection, and three festivals now
+      programme it beside the real thing. The score was first published in
+      Leipzig in a run of two hundred copies.
+    clue: ["Every bar of it could have been written in 1740", "He was not trying to deceive anybody, and he was not making fun of anybody either"]
+    relation: restatement
+    noise: ["the figured bass", "three festivals", "copying errors", "a run of two hundred copies"]
+    pathway: >-
+      The work imitates an old style openly and admiringly. The blank must name
+      a work made in another's style without deceit or mockery.
+    key:
+      b: "a forgery is meant to deceive, and the passage says he put his own name on the score."
+      c: "a parody makes fun of its model, and this was written out of affection."
+      d: "nothing is being carried from one language into another."
+
+  - id: L4-HUM-08
+    word: recondite
+    options: [popular, practical, recondite, confused]
+    answer: c
+    traps: {a: T4, b: T1, d: T2}
+    passage: >-
+      Six people in the world can read the script and two of them are in the
+      same department. The journal that carries the work appears twice a year
+      in an edition of three hundred, and the last general book on the subject
+      was published in 1911. None of this means the work is poor: the
+      decipherment settled a question about a trade route that had been open
+      for a century. But a field as ________ as that one lives or dies by
+      whether a single university goes on funding a single post.
+    clue: ["Six people in the world can read the script and two of them are in the same department", "the last general book on the subject was published in 1911"]
+    relation: restatement
+    noise: ["twice a year", "a trade route", "a single post", "a single university"]
+    pathway: >-
+      The subject is known to six specialists and has had no general book for
+      over a century. The blank must mean obscure and understood only by a few.
+    key:
+      a: "six readers in the world and an edition of three hundred is the opposite of popular."
+      b: "the work settled a question about an ancient trade route, which is not a practical application."
+      d: "the decipherment settled a question that had been open for a century, so the work itself is clear enough."
+
+  - id: L4-HUM-09
+    word: laconic
+    options: [eloquent, confused, angry, laconic]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      Asked at the inquiry how he had got the boat off the bar, the skipper
+      said: Waited. The chairman asked him to expand, and he said that the tide
+      had come in. Eleven men owed him their lives, and the transcript of his
+      evidence covers rather less than a page. A ________ witness is a trial to
+      a commission and a gift to a newspaper, and both quoted him for a
+      fortnight. The inquiry sat for nine days in a hall above a post office.
+    clue: ["the skipper said: Waited", "the transcript of his evidence covers rather less than a page"]
+    relation: example
+    noise: ["off the bar", "Eleven men", "a fortnight", "a hall above a post office"]
+    pathway: >-
+      He answers a question about saving eleven lives in one word, and his whole
+      evidence fits on a page. The blank must mean using very few words.
+    key:
+      a: "one word in answer to a question is not eloquence."
+      b: "his answers were short and exactly to the point: he waited for the tide."
+      c: "nothing in either of the two answers quoted suggests temper."
+
+  - id: L4-HUM-10
+    word: sardonic
+    options: [cheerful, sardonic, naive, formal]
+    answer: b
+    traps: {a: T4, c: T1, d: T2}
+    passage: >-
+      He called the new wing a monument to the committee that could not agree,
+      and said at the opening that the building would be much loved in fifty
+      years by people who had never had to work in it. He was smiling as he
+      said it, and he had designed the thing himself. The tone is ________
+      rather than bitter, and the remark is in every book written about him
+      since. The wing is faced in a grey brick that nobody now makes.
+    clue: ["He called the new wing a monument to the committee that could not agree", "He was smiling as he said it, and he had designed the thing himself"]
+    relation: restatement
+    noise: ["at the opening", "fifty years", "every book", "a grey brick"]
+    pathway: >-
+      He mocks his own building with a smile and without malice. The blank must
+      mean mocking in a dry, scornfully amused way.
+    key:
+      a: "he is smiling, but what he says about his own building is mockery."
+      c: "the joke depends on knowing exactly how the committee had worked."
+      d: "the remark is a joke at his own expense, not a set speech."

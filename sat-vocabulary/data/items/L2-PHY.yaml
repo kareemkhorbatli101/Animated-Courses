@@ -1,0 +1,217 @@
+level: 2
+domain: PHY
+items:
+  - id: L2-PHY-01
+    word: emit
+    options: [emit, absorb, reflect, store]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      In a hedge at midnight the female glow-worm is the brightest thing for
+      twenty feet, though her tail is cold to the touch. A filament lamp
+      wastes most of its power as heat; the beetle's chemistry is so efficient
+      that she can ________ light for hours on the energy of a single meal.
+    clue: "the female glow-worm is the brightest thing for twenty feet"
+    relation: restatement
+    noise: ["at midnight", "cold to the touch", "a filament lamp"]
+    pathway: >-
+      She is the brightest object in a dark hedge, so the light is coming out
+      of her. The blank must mean send out.
+    key:
+      b: "she is the source of the light, not something taking light in."
+      c: "there is no other light in a hedge at midnight for her to bounce back."
+      d: "the light is given off for hours; storing it would mean none of it showed."
+
+  - id: L2-PHY-02
+    word: densely
+    options: [hotly, softly, densely, purely]
+    answer: c
+    traps: {a: T1, b: T4, d: T2}
+    passage: >-
+      A cupful of water from the tap weighs about a quarter of a kilogram. A
+      cupful taken from the core of a dead star would weigh as much as a
+      mountain range. Matter there is packed so ________ that a lump of it the
+      size of a sugar cube could not be lifted by every crane on Earth.
+    clue: "would weigh as much as a mountain range"
+    relation: cause
+    noise: ["from the tap", "a quarter of a kilogram", "every crane on Earth"]
+    pathway: >-
+      A cupful weighs as much as a mountain range, so an enormous amount of
+      matter is squeezed into a small space. The blank must mean closely
+      packed together.
+    key:
+      a: "the core may be hot, but the sentence explains the weight, not the temperature."
+      b: "material no crane can lift is not yielding."
+      d: "purity is about what is mixed in, not how much is crowded into a space."
+
+  - id: L2-PHY-03
+    word: conduct
+    options: [resist, conduct, store, measure]
+    answer: b
+    traps: {a: T4, c: T2, d: T1}
+    passage: >-
+      Copper costs four times what aluminium costs, and every mile of it is
+      heavier to hang. Electricians wire a house with it anyway. Copper of a
+      given thickness will ________ the current from the board to the furthest
+      socket with less loss on the way than any cheaper metal, and a loss
+      inside a wall becomes heat that nobody wants.
+    clue: "from the board to the furthest socket with less loss on the way"
+    relation: restatement
+    noise: ["four times", "heavier to hang", "inside a wall"]
+    pathway: >-
+      The current has to travel the length of the house through the metal. The
+      blank must mean carry along.
+    key:
+      a: "a wire chosen for low loss does the reverse of holding the current back."
+      c: "a battery stores current; this wire takes it from one place to another."
+      d: "a meter takes a reading; the wire is the path the current travels along."
+
+  - id: L2-PHY-04
+    word: compress
+    options: [stretch, weigh, dissolve, compress]
+    answer: d
+    traps: {a: T4, b: T1, c: T2}
+    passage: >-
+      A diver's cylinder holds as much air as a telephone box, inside a steel
+      bottle the length of a leg. The pump at the dive shop takes the better
+      part of an hour to ________ it that far, and the bottle grows too hot to
+      hold while the work goes on.
+    clue: "holds as much air as a telephone box, inside a steel bottle the length of a leg"
+    relation: cause
+    noise: ["A diver's cylinder", "the dive shop", "too hot to hold"]
+    pathway: >-
+      A roomful of air ends up inside a bottle, so it must be forced into a
+      smaller space. The blank must mean squeeze into less room.
+    key:
+      a: "the air is being forced into a smaller space, not pulled out into a larger one."
+      b: "a reading of the air's weight would not make the bottle too hot to hold."
+      c: "nothing in the passage is being mixed into a liquid."
+
+  - id: L2-PHY-05
+    word: dissolve
+    options: [float, burn, dissolve, settle]
+    answer: c
+    traps: {a: T2, b: T1, d: T4}
+    passage: >-
+      Limestone is hard enough to build a cathedral out of, yet rain that has
+      picked up a little carbon dioxide on its way down will slowly ________
+      it. The water carries the rock away in solution, drop by drop, and three
+      hundred thousand years of dripping leave a cave under a Yorkshire
+      hillside.
+    clue: "The water carries the rock away in solution"
+    relation: restatement
+    noise: ["a cathedral", "drop by drop", "a Yorkshire hillside"]
+    pathway: >-
+      The stone leaves with the water, mixed into it. The blank must mean take
+      into a liquid until the solid is gone.
+    key:
+      a: "stone does not sit on top of the water; it goes away inside it."
+      b: "no fire or heat appears; the agent is cold rainwater."
+      d: "settling would leave the rock lying in place, and here it is carried off."
+
+  - id: L2-PHY-06
+    word: accelerate
+    options: [accelerate, halt, steady, weigh]
+    answer: a
+    traps: {b: T4, c: T2, d: T1}
+    passage: >-
+      A ball dropped down the old mineshaft passes the first marker a second
+      after it leaves the hand, and passes the fourth marker less than a
+      second after the third. Nothing pushes it. Gravity alone will ________ a
+      falling body by about ten metres a second for every second of the fall.
+    clue: "passes the first marker a second after it leaves the hand, and passes the fourth marker less than a second after the third"
+    relation: example
+    noise: ["the old mineshaft", "ten metres a second", "Nothing pushes it"]
+    pathway: >-
+      Equal distances are covered in shorter and shorter times, so the ball is
+      going faster and faster. The blank must mean make go faster.
+    key:
+      b: "the gaps are crossed more quickly as the ball falls, so nothing is bringing it to rest."
+      c: "a steady speed would put the same time between every pair of markers."
+      d: "the ball's weight does not change during the fall; its speed does."
+
+  - id: L2-PHY-07
+    word: distort
+    options: [magnify, silence, sharpen, distort]
+    answer: d
+    traps: {a: T2, b: T1, c: T4}
+    passage: >-
+      Turn the little amplifier past halfway and the guitar stops sounding
+      like a guitar. The chord comes out ragged at the edges, with notes in it
+      that nobody played. Too much power through a small speaker will ________
+      the signal, which is a fault in a concert hall and the whole point in a
+      rock band.
+    clue: "The chord comes out ragged at the edges, with notes in it that nobody played"
+    relation: restatement
+    noise: ["past halfway", "a concert hall", "a rock band"]
+    pathway: >-
+      The sound that comes out is no longer the shape of the sound that went
+      in. The blank must mean change out of its true form.
+    key:
+      a: "making the sound louder is what an amplifier is for; here the sound changes shape."
+      b: "the chord is heard, and loudly."
+      c: "ragged edges and notes nobody played are the opposite of a cleaner sound."
+
+  - id: L2-PHY-08
+    word: refine
+    options: [burn, refine, dilute, bury]
+    answer: b
+    traps: {a: T2, c: T4, d: T1}
+    passage: >-
+      Crude oil as it comes out of the ground will not run an engine; it is a
+      soup of hundreds of compounds, from tar at one end to gas at the other.
+      A refinery's towers ________ it by boiling the mixture and drawing off
+      each part at the height where it turns back to liquid, and only after
+      that is there petrol in the pump.
+    clue: "by boiling the mixture and drawing off each part at the height where it turns back to liquid"
+    relation: restatement
+    noise: ["hundreds of compounds", "tar at one end", "in the pump"]
+    pathway: >-
+      The mixture is separated into its useful parts. The blank must mean make
+      pure by taking out what is not wanted.
+    key:
+      a: "burning the crude would destroy it; the towers separate it into usable parts."
+      c: "adding something would make the mixture less pure, and the aim is to sort it out."
+      d: "the oil has just been brought up out of the ground."
+
+  - id: L2-PHY-09
+    word: collapse
+    options: [collapse, settle, expand, rust]
+    answer: a
+    traps: {b: T2, c: T4, d: T1}
+    passage: >-
+      The salt mine under the village had been worked out by 1911 and left
+      open. Water got into the timber props over the next eighty years, and
+      in one wet March the roof began to ________: a field dropped two metres
+      in a night and a stone barn went down with it.
+    clue: "a field dropped two metres in a night and a stone barn went down with it"
+    relation: restatement
+    noise: ["by 1911", "eighty years", "in one wet March"]
+    pathway: >-
+      The ground above fell suddenly and took a building with it, so the roof
+      gave way. The blank must mean fall in.
+    key:
+      b: "a settling floor sinks slowly; a field falling two metres in a night is a sudden failure."
+      c: "the ground went down, not outward."
+      d: "iron rusts, but the props are timber and what the sentence describes is the roof giving way."
+
+  - id: L2-PHY-10
+    word: yield
+    options: [hold, crack, yield, shine]
+    answer: c
+    traps: {a: T4, b: T2, d: T1}
+    passage: >-
+      Engineers load a test beam until something happens, and the first thing
+      that happens is not a break. At about two thirds of the breaking load
+      the steel will ________: it bends and stays bent, and when the weight
+      comes off the beam does not spring back to straight.
+    clue: "it bends and stays bent, and when the weight comes off the beam does not spring back to straight"
+    relation: restatement
+    noise: ["Engineers", "two thirds", "a test beam"]
+    pathway: >-
+      Under load the metal gives way and keeps the new shape. The blank must
+      mean give way under force.
+    key:
+      a: "holding would mean keeping its shape, and this beam keeps the bend instead."
+      b: "a crack comes later: the passage says the first thing is not a break."
+      d: "how the surface of the steel looks is never mentioned."
