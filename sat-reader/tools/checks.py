@@ -37,13 +37,14 @@ SECOND_PERSON = re.compile(r"\b(you|your|yours|yourself|yourselves)\b", re.I)
 CONTRACTION = re.compile(r"\b\w+(?:'s|n't|'re|'ve|'ll|'d)\b")
 
 
-GLOSS_MARKERS = [', which', ', meaning', ', that is', ', a ', ', an ', ', the ',
+GLOSS_MARKERS = [', which', ', meaning', ', that is', ', a ', ', an ', ', the ', ', who',
                  ' - ', ' \u2014 ', 'called', ' or ', ': ', 'known as', 'is when',
                  'are the ', 'is the ', 'means ', 'in other words']
 
 
 def glossed_in_place(flat, term):
-    m = re.search(r'\b%s' % re.escape(term.split()[0]), flat, re.I)
+    full = r'\b' + r'\s+'.join(re.escape(t) for t in term.split())
+    m = re.search(full, flat, re.I) or re.search(r'\b%s' % re.escape(term.split()[0]), flat, re.I)
     if not m:
         return False
     window = flat[max(0, m.start() - 70):m.start() + 180].lower()

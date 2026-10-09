@@ -1,0 +1,517 @@
+field: PHY
+level: 3
+passages:
+  - id: PHY-S01-L3
+    strand: S01
+    title: "The Chain Back to a Standard"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S01-L2"
+    advances: "Shows how any measurement is tied to a national standard, and what happened when the kilogram was redefined."
+    vocab_link: [calibrate]
+    passage: |
+      A reading on a laboratory balance means nothing by itself, and what makes
+      it mean something is traceability, meaning an unbroken chain of
+      comparisons linking the instrument to a national standard. The laboratory
+      balance is checked against a reference mass, meaning a weight certified by
+      comparison with a higher standard. That weight was certified against a
+      better one held by a calibration service. The service compared its own
+      masses against the national standard, and the national standard was
+      compared, until recently, against a cylinder of platinum and iridium kept
+      in a vault near Paris.
+
+      Every link in that chain adds a little uncertainty, and the whole point of
+      the arrangement is that the additions are known and recorded. A
+      certificate for a reference mass states its value and its uncertainty, and
+      anyone who wants to calibrate an instrument against it inherits both. The
+      chain also has to be maintained, because masses change: they gain a film
+      of contamination, lose material to handling, and must be cleaned by a
+      prescribed method that is itself part of the standard.
+
+      The platinum cylinder turned out to illustrate the weakness of defining a
+      unit by an object. Comparisons across a century showed that the official
+      kilogram and its official copies were drifting apart by tens of
+      micrograms, and nobody could say which had changed. In 2019 the definition
+      was replaced. The kilogram is now fixed by assigning an exact value to a
+      constant of nature and building an apparatus that realizes the unit from
+      it, A laboratory with the right equipment can therefore reproduce the
+      standard, instead of shipping a weight to Paris. Four of the seven base
+      units were redefined on the same day for the same reason. The arrangement
+      is less convenient and very much harder to lose.
+    anchors:
+      - take: "Traceability is an unbroken chain of comparisons to a national standard."
+        quote: "an unbroken chain of comparisons"
+      - take: "Every link adds uncertainty, and the additions are recorded."
+        quote: "the additions are known and recorded"
+      - take: "The kilogram was redefined in 2019 because the metal cylinder drifted."
+        quote: "were drifting apart by tens of micrograms"
+    terms:
+      - {term: "traceability", gloss: "an unbroken chain of comparisons linking an instrument to a national standard", glossed: true}
+      - {term: "reference mass", gloss: "a weight whose value has been certified by comparison with a higher standard", glossed: true}
+    facts:
+      - "Measurement traceability links an instrument through certified masses to a national standard."
+      - "The official kilogram and its copies drifted apart by tens of micrograms over a century."
+      - "The kilogram was redefined in 2019 in terms of a constant of nature."
+  - id: PHY-S02-L3
+    strand: S02
+    title: "Weighing the World With a Wire"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S02-L2"
+    advances: "Describes the experiment that measured the gravitational constant and the care that made it possible."
+    vocab_link: [empirical]
+    passage: |
+      Gravity is the weakest force by an enormous margin, and measuring its
+      strength between two ordinary objects is correspondingly difficult. Henry
+      Cavendish did it in 1798 using a torsion balance, meaning a beam hung on a
+      thin fiber which twists by a measurable amount under a tiny force. Two
+      small lead spheres hung from the ends of a six-foot wooden beam. Two large
+      lead spheres, each about three hundred and fifty pounds, were brought up
+      beside them, and the beam turned through a fraction of a degree.
+
+      The whole experiment is a study in the control of error. The apparatus was
+      enclosed in a case inside a shuttered room, and Cavendish observed the
+      beam through a telescope from outside so that his body heat would not set
+      up air currents. The twisting of the fiber was calibrated by timing the
+      free oscillation of the beam, which converts a force measurement into a
+      measurement of time. The large spheres were moved from one side to the
+      other and the deflection measured in both directions, so that any constant
+      bias canceled.
+
+      The result gave the density of the Earth to within about one percent of
+      the modern figure, and from it the gravitational constant follows.
+      Cavendish did not report the constant, which was not a quantity anyone
+      used at the time, and his paper is titled as an experiment to determine
+      the density of the Earth. The measurement remained the most accurate for
+      about a century. The constant is still the least precisely known of the
+      fundamental constants, because the empirical difficulty Cavendish faced
+      has never gone away: the force is tiny, and everything in the room pulls.
+      Modern versions use the same principle with better fibers and laser
+      readout. Published values still disagree with one another by more than
+      their stated uncertainties, which means somebody has an error nobody has
+      found.
+    anchors:
+      - take: "A torsion balance twists measurably under a tiny force."
+        quote: "twists by a measurable amount under a tiny force"
+      - take: "Cavendish observed from outside the room to avoid air currents."
+        quote: "so that his body heat would not set up air currents"
+      - take: "Moving the spheres both ways cancels any constant bias."
+        quote: "so that any constant bias canceled"
+    terms:
+      - {term: "torsion balance", gloss: "a beam hung on a thin fiber, which twists by a measurable amount under a tiny force", glossed: true}
+    facts:
+      - "Cavendish performed the torsion balance experiment in 1798."
+      - "He used large lead spheres of about 350 pounds and observed through a telescope from outside the room."
+      - "His result gave the density of the Earth to within about one percent of the modern value."
+  - id: PHY-S03-L3
+    strand: S03
+    title: "Where to Draw the Boundary"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S03-L2"
+    advances: "Shows that measuring an efficiency requires a decision about the system boundary, which changes the answer."
+    vocab_link: [negligible]
+    passage: |
+      An efficiency figure cannot be stated until somebody chooses a system
+      boundary, meaning the line drawn around whatever is being measured, with
+      everything crossing it counted. Choose the boundary at the terminals of a
+      motor made by Siemens or by any other firm and the efficiency is about
+      ninety-five percent. Put it at the power station fence and the figure for
+      the same motor doing the same work falls to around forty. Put it at the
+      coal mine and it falls again.
+
+      None of those numbers is wrong. They answer different questions, and the
+      usual dispute about any energy technology is a dispute about where the
+      line should sit. An electric vehicle has no tailpipe, so inside a boundary
+      drawn at the car it emits nothing at all. Drawn around the generating
+      system it emits whatever that system emits, which varies by country and by
+      hour. Drawn wider still, to include the mining of lithium and the
+      manufacture of the battery, it acquires a debt before it has moved, and
+      that debt is repaid over some number of miles that depends on everything
+      inside the boundary.
+
+      The discipline that takes this seriously is life cycle analysis, meaning
+      an accounting that follows energy and materials from extraction through
+      manufacture and use to disposal. Its weakness is that the result depends
+      on assumptions that are not themselves measurable: how long the product
+      lasts, what it displaces, what happens at the end. Two careful analyzes of
+      the same object can differ by a factor of two for that reason, and a
+      difference between them that looks negligible in the summary can turn out
+      to be the whole argument once the assumptions are printed. Standards
+      bodies now publish rules for drawing the boundary in particular
+      industries. The rules make studies comparable with each other without
+      making any of them true.
+    anchors:
+      - take: "An efficiency cannot be stated until a boundary is chosen."
+        quote: "cannot be stated until somebody chooses a system boundary"
+      - take: "The same motor is ninety-five percent or forty percent efficient."
+        quote: "falls to around forty"
+      - take: "Life cycle results depend on assumptions that are not measurable."
+        quote: "assumptions that are not themselves measurable"
+    terms:
+      - {term: "system boundary", gloss: "the line drawn around whatever is being measured, with everything crossing it counted", glossed: true}
+      - {term: "life cycle analysis", gloss: "an accounting that follows the energy used from extraction through manufacture to disposal", glossed: true}
+    facts:
+      - "An electric motor is about ninety-five percent efficient measured at its terminals."
+      - "Measured from the power station, the same work is about forty percent efficient."
+      - "Life cycle analyzes of the same product can differ by a factor of two."
+  - id: PHY-S04-L3
+    strand: S04
+    title: "A Paddle Wheel and a Thermometer"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S04-L2"
+    advances: "Presents the measurement that established heat and work as the same quantity, and the precision it required."
+    vocab_link: [attribute]
+    passage: |
+      In the 1840s James Joule set out to show that work and heat are two forms
+      of the same thing, and the experiment he is remembered for is almost
+      absurdly simple in conception. A falling weight turned a paddle wheel
+      inside a sealed copper vessel of water. The water was stirred, it warmed,
+      and Joule measured how much. Knowing the weight and the distance it fell
+      gave the work done, and knowing the mass of water and the rise in
+      temperature gave the heat produced. The ratio between them is the
+      mechanical equivalent of heat.
+
+      The difficulty was entirely in the precision. The temperature rise in a
+      single run was a fraction of a degree, so Joule had thermometers made that
+      could be read to a two-hundredth. He corrected for the heat the vessel
+      itself absorbed, for the heat leaking through the walls, and for the
+      energy the falling weight still carried when it landed. He repeated the
+      experiment with mercury instead of water, and by forcing water through
+      tubes, and by compressing air, and obtained figures close to one another
+      by three unrelated routes.
+
+      The wider significance is that it removed a category. Before Joule, heat
+      was widely treated as a substance that could be transferred but not
+      created, and any amount produced by rubbing had to be attributed to
+      something being squeezed out. Afterward there was one quantity, energy,
+      measured in one unit, and a bookkeeping rule that applies to a steam
+      engine and a stirred bucket alike. Joule reported the figure to four
+      significant digits in 1850, and the modern value differs from it by less
+      than one percent. He is said to have attempted the measurement on his
+      honeymoon, using a waterfall. The story is probably exaggerated and the
+      thermometers were certainly real.
+    anchors:
+      - take: "A falling weight turned a paddle wheel and warmed the water."
+        quote: "A falling weight turned a paddle wheel"
+      - take: "The temperature rise in one run was a fraction of a degree."
+        quote: "a fraction of a degree"
+      - take: "The result replaced two categories with one quantity."
+        quote: "there was one quantity, energy, measured in one unit"
+    terms:
+      - {term: "mechanical equivalent of heat", gloss: "the amount of work that produces a given quantity of heat", glossed: true}
+    facts:
+      - "Joule measured the mechanical equivalent of heat using a falling weight and a paddle wheel."
+      - "His thermometers could be read to about a two-hundredth of a degree."
+      - "He obtained consistent figures by three unrelated methods and published in 1850."
+  - id: PHY-S05-L3
+    strand: S05
+    title: "Fifty Hertz as a Signal"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "PHY-S05-L2"
+    advances: "Explains how grid balance is measured second by second, using frequency as the physical indicator."
+    vocab_link: [salient]
+    passage: |
+      An electricity grid, whether in Texas or in France, cannot store anything
+      worth mentioning, so generation must match consumption continuously. The
+      measurement that reveals any mismatch is the grid frequency, meaning the
+      rate at which the alternating current reverses. Every large generator on a
+      network turns in step. When demand exceeds supply the generators are being
+      asked for more than they are receiving in steam or water, they slow very
+      slightly, and the frequency falls below its nominal fifty or sixty cycles
+      a second.
+
+      That single number is therefore a continuous readout of the balance of an
+      entire country, and control rooms act on deviations of a few hundredths.
+      The rate at which the frequency moves is governed by inertia, meaning the
+      stored rotational energy of the large spinning machines, which acts like a
+      flywheel and slows any change. A grid with many heavy turbines is
+      forgiving. A grid supplied largely through electronics, as solar and wind
+      are, has less of this stored motion, and the frequency can move faster
+      than human operators can respond, which is why fast automatic reserves
+      have become a salient part of system design.
+
+      The record is also used after the event. Because frequency wanders by tiny
+      amounts in a pattern that is the same everywhere on a synchronous network,
+      a recording of mains hum in the background of an audio file can be matched
+      against the archived frequency record and dated to within a short window.
+      Laboratories have used the method in criminal cases. A measurement
+      maintained for the purpose of keeping lights on turns out to double as a
+      clock that nobody designed. The frequency archive for several national
+      grids is published and goes back decades. Its forensic use has been
+      challenged on the ground that the archives themselves are not always
+      complete.
+    anchors:
+      - take: "Frequency falls when demand exceeds supply."
+        quote: "they slow very slightly, and the frequency falls"
+      - take: "Inertia from heavy turbines slows any change in frequency."
+        quote: "acts like a flywheel and slows any change"
+      - take: "Mains hum in a recording can be dated against the frequency archive."
+        quote: "matched against the archived frequency record"
+    terms:
+      - {term: "grid frequency", gloss: "the rate at which alternating current reverses, which falls when demand exceeds supply", glossed: true}
+      - {term: "inertia", gloss: "the stored rotational energy of large generators, which slows any change in frequency", glossed: true}
+    facts:
+      - "Grid frequency falls below its nominal value when demand exceeds supply."
+      - "Control rooms act on deviations of a few hundredths of a cycle."
+      - "Recorded mains hum has been matched against archived frequency records in criminal cases."
+  - id: PHY-S06-L3
+    strand: S06
+    title: "From a Toothed Wheel to a Definition"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S06-L2"
+    advances: "Traces the measurement of the speed of light from a mechanical experiment to the point where it became a definition."
+    vocab_link: [finite]
+    passage: |
+      That light takes time to travel was established before anyone could
+      measure the time. Ole Romer noticed in 1676 that the eclipses of a moon of
+      Jupiter ran late when the Earth was further away, and concluded that light
+      has a finite speed, which was not the general opinion. The first
+      terrestrial measurement came in 1849, when Hippolyte Fizeau sent a beam
+      through the gaps of a rapidly spinning toothed wheel to a mirror five
+      miles away and back. At the right speed the returning light struck the
+      next tooth and vanished, which gave a time of flight, meaning a speed
+      obtained by timing a signal over a known distance, from nothing but a
+      measurement of rotation.
+
+      The method was refined for a century. Albert Michelson spent decades on
+      it, using rotating mirrors over longer baselines, and by the 1920s the
+      figure was known to a few parts in a hundred thousand. The limit was no
+      longer the timing but the distance, because the length of a long baseline
+      could not be measured as precisely as the time could.
+
+      That is why the problem was eventually dissolved rather than solved. In
+      1983 the meter was redefined as the distance light travels in a stated
+      fraction of a second, which makes the speed of light a defined constant,
+      meaning a quantity assigned an exact value. It is now exactly 299,792,458
+      meters per second by definition, and the question of measuring it does not
+      arise. What laboratories measure instead is length, by timing light, which
+      is the same experiment read backward. A constant of nature became a unit
+      conversion, and the uncertainty moved from the speed to the ruler. The
+      same move has since been made for the kilogram and for electrical units.
+      Each redefinition takes a quantity that had been measured and makes it the
+      thing against which measurements are made.
+    anchors:
+      - take: "Romer inferred a finite speed from late eclipses in 1676."
+        quote: "concluded that light has a finite speed"
+      - take: "Fizeau timed light with a spinning toothed wheel in 1849."
+        quote: "through the gaps of a rapidly spinning toothed wheel"
+      - take: "The speed of light is now exact by definition."
+        quote: "a quantity assigned an exact value"
+    terms:
+      - {term: "time of flight", gloss: "measuring a speed by timing a signal over a known distance", glossed: true}
+      - {term: "defined constant", gloss: "a quantity assigned an exact value, so that it is no longer measured", glossed: true}
+    facts:
+      - "Romer inferred that light travels at a finite speed in 1676 from the timing of eclipses."
+      - "Fizeau made the first terrestrial measurement in 1849 using a toothed wheel and a mirror five miles away."
+      - "The meter was redefined in 1983 so that the speed of light is exact by definition."
+  - id: PHY-S07-L3
+    strand: S07
+    title: "Gaps That Were Filled"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S07-L2"
+    advances: "Shows how the periodic table was tested as a prediction rather than accepted as a summary."
+    vocab_link: [discrete]
+    passage: |
+      A classification is not a discovery, and the periodic table, which is an
+      arrangement of the elements placing chemically similar ones in the same
+      column, could have been no more than a filing system. What made it
+      something else was that Dmitri Mendeleev, publishing in 1869, left holes
+      in it. His arrangement put the known elements in order of atomic weight
+      and placed chemically similar ones in the same column, and to keep the
+      columns consistent he had to leave three gaps and assert that elements
+      existed to fill them.
+
+      He then did something a filing clerk could not. He predicted the
+      properties of the missing elements from their positions, giving estimates
+      for atomic weight, density, the formula of the oxide and the appearance of
+      the metal. Gallium was isolated in 1875 and scandium in 1879, and
+      germanium in 1886 matched his prediction for the gap below silicon closely
+      enough that the chemist who found it said so in print. A table that can be
+      wrong, and is then found to be right, is doing different work from one
+      that merely files what is known.
+
+      The table also had defects that mattered. Ordering by atomic weight put a
+      few elements in the wrong place, and the discrepancies were only resolved
+      when atomic number, meaning the count of protons, replaced weight as the
+      ordering principle in the 1910s. The underlying reason that the columns
+      exist at all, which is that electrons occupy discrete shells with room for
+      fixed numbers, was not available to Mendeleev in any form. He had a
+      pattern and a nerve, and the explanation arrived half a century later. He
+      also predicted elements that do not exist, and insisted for years on an
+      error about the position of the rare earths. A table that generates
+      testable claims generates wrong ones as well.
+    anchors:
+      - take: "Mendeleev left gaps and asserted that elements existed to fill them."
+        quote: "leave three gaps and assert that elements existed to fill them"
+      - take: "He predicted the properties of the missing elements from their positions."
+        quote: "He predicted the properties of the missing elements"
+      - take: "Atomic number replaced weight as the ordering principle."
+        quote: "replaced weight as the ordering principle"
+    terms:
+      - {term: "periodic table", gloss: "an arrangement of the elements in which chemically similar ones fall in the same column", glossed: true}
+      - {term: "atomic weight", gloss: "the mass of an atom of an element relative to a standard", glossed: false}
+    facts:
+      - "Mendeleev published his arrangement in 1869 and left gaps for undiscovered elements."
+      - "Gallium was isolated in 1875, scandium in 1879 and germanium in 1886."
+      - "Atomic number replaced atomic weight as the ordering principle in the 1910s."
+  - id: PHY-S08-L3
+    strand: S08
+    title: "How a Safety Factor Is Chosen"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S08-L2"
+    advances: "Explains how destructive testing produces a design figure, and what the margin is actually covering."
+    vocab_link: [inherent]
+    passage: |
+      A material does not have one strength. Test a hundred nominally identical
+      concrete cubes and they break over a range, because strength depends on
+      flaws that are distributed by chance through the material. Engineers
+      therefore do not design to the average. They use a characteristic
+      strength, meaning a value below which only a small stated fraction of
+      specimens fall, commonly five percent, which is obtained by crushing many
+      samples and reading the result off the distribution.
+
+      The design figure is then reduced further by a safety factor, meaning the
+      ratio between what the structure is built to withstand and what it is
+      expected to carry. That factor is not a single allowance for ignorance. It
+      covers several distinct things: the variability of the material, the
+      difference between a laboratory specimen and a cast wall, uncertainty in
+      the loads, the possibility of workmanship below specification, and the
+      consequences of failure. Modern codes split it into separate factors
+      applied to the load and to the material, so that each can be argued about
+      on its own evidence.
+
+      The inherent limit of the method is that it handles only the hazards that
+      have been listed. A factor of two on strength is no protection against a
+      load nobody considered, which is what happened at the Tay Bridge, and no
+      protection against a mechanism nobody knew about, which is what happened
+      to the welded ships that fractured in cold water. Those failures were not
+      corrected by raising the factor. They were corrected by adding the missing
+      load case and the missing material property to the codes, after which the
+      old factor was adequate. Codes are therefore revised after failures rather
+      than before them, which is an uncomfortable fact about the discipline. The
+      revisions are public, and the history of a code can be read as a list of
+      accidents.
+    anchors:
+      - take: "A material does not have one strength but a distribution."
+        quote: "they break over a range"
+      - take: "The safety factor covers several distinct uncertainties."
+        quote: "It covers several distinct things"
+      - take: "A factor is no protection against a load nobody considered."
+        quote: "no protection against a load nobody considered"
+    terms:
+      - {term: "safety factor", gloss: "the ratio between what a structure is built to withstand and what it is expected to carry", glossed: true}
+      - {term: "characteristic strength", gloss: "a value below which only a small stated fraction of test specimens fail", glossed: true}
+    facts:
+      - "Characteristic strength is a value below which a small stated fraction of specimens fail."
+      - "Modern codes apply separate factors to loads and to materials."
+      - "The Tay Bridge and the welded ship failures were corrected by adding missing cases to codes."
+  - id: PHY-S09-L3
+    strand: S09
+    title: "What Carbon Dating Can Date"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S09-L2"
+    advances: "Sets out the method and the four conditions a sample must satisfy for a radiocarbon date to mean anything."
+    vocab_link: [anomalous]
+    passage: |
+      Radiocarbon, meaning the heavy form of carbon produced continuously in the
+      upper atmosphere, is taken up by every living thing through food or
+      photosynthesis. While an organism is alive its proportion of radiocarbon
+      matches the atmosphere. When it dies the intake stops and the radiocarbon
+      decays with a half-life of about five thousand seven hundred years, so the
+      proportion remaining measures the time since death.
+
+      Four conditions have to hold before a date from the Oxford or any other
+      laboratory means anything. The sample must be organic and must have
+      stopped exchanging carbon at the moment of interest, which is why the
+      method dates the death of a tree rather than the building of the house. It
+      must not be contaminated, and a trace of modern carbon makes an old sample
+      look much younger. It must be young enough to measure, which in practice
+      means under about fifty thousand years. And the atmospheric proportion at
+      the time must be known, which it is not, because it has varied with solar
+      activity and with nuclear testing.
+
+      The last condition is handled by a calibration curve, meaning a chart that
+      converts a measurement into calendar years using samples whose age is
+      known independently. Tree rings supply that independent age for the last
+      twelve thousand years, one ring at a time. The curve is not a straight
+      line, and in some periods it doubles back, so a single measurement can
+      correspond to two or three possible calendar ranges. A date reported
+      without its calibration and its range is therefore not a date. An
+      anomalous result is more often a contaminated sample or a misunderstood
+      context than a surprise about history. The curve is revised every few
+      years as more tree ring and coral data arrive. Published dates from the
+      1950s and 1960s often have to be recalculated before they can be compared
+      with modern ones.
+    anchors:
+      - take: "The method dates the death of the organism, not the use of the object."
+        quote: "dates the death of a tree rather than the building of the house"
+      - take: "A trace of modern carbon makes an old sample look much younger."
+        quote: "makes an old sample look much younger"
+      - take: "The calibration curve doubles back, so one measurement can give several ranges."
+        quote: "a single measurement can correspond to two or three possible calendar ranges"
+    terms:
+      - {term: "radiocarbon", gloss: "a heavy form of carbon produced in the atmosphere and taken up by living things", glossed: true}
+      - {term: "calibration curve", gloss: "a chart converting measured radiocarbon into calendar years, built from samples of known age", glossed: true}
+    facts:
+      - "Radiocarbon has a half-life of about 5,700 years."
+      - "The practical limit of the method is roughly fifty thousand years."
+      - "Tree rings supply independent calendar ages for the last twelve thousand years."
+  - id: PHY-S10-L3
+    strand: S10
+    title: "A Rule Found in a Pile of Plates"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S10-L2"
+    advances: "Presents the discovery that turned brightness into a distance measure, and the labor it required."
+    vocab_link: [converge]
+    passage: |
+      Henrietta Leavitt was employed at Harvard College Observatory to measure
+      the brightness of stars on photographic plates, meaning glass plates
+      coated with emulsion on which images of the sky had been recorded. The
+      work was paid by the hour and the women who did it were called computers.
+      Leavitt was assigned the Magellanic Clouds, and she worked through
+      thousands of plates identifying stars that varied in brightness and
+      measuring how long each took to complete a cycle.
+
+      By 1908 she had found hundreds of them, and she noticed that the brighter
+      ones took longer. In 1912 she stated the relation precisely for
+      twenty-five stars: the logarithm of the period varies with the brightness
+      along a straight line. Because all the stars in question lay in the same
+      cloud, they were all at roughly the same distance, so differences in their
+      apparent brightness had to be differences in their real output. That is
+      what made the relation visible there and nowhere else.
+
+      The consequence is the single most useful tool in astronomical distance
+      measurement. Find such a star anywhere, time its cycle, and its true
+      brightness follows from the relation; compare that with how bright it
+      looks and the distance follows. Edwin Hubble used it in 1924 to show that
+      the Andromeda nebula lies far outside our own galaxy, which settled a
+      famous argument and enlarged the known universe by a factor nobody had
+      expected. Different calibrations of Leavitt law converge now within a few
+      percent. Leavitt was not given a share of that work, and she died in 1921.
+      Her name is on the relation in modern textbooks, which was not true for
+      most of the century. The plates she used are still held at Harvard and
+      have been digitised. Her fundamental contribution rests on nothing more
+      exotic than systematic measurement, repeated across thousands of
+      photographic exposures.
+    anchors:
+      - take: "Leavitt measured brightness on glass plates as paid piece work."
+        quote: "The work was paid by the hour"
+      - take: "Brighter pulsating stars take longer to cycle."
+        quote: "the brighter ones took longer"
+      - take: "Stars in one cloud are at the same distance, which made the relation visible."
+        quote: "they were all at roughly the same distance"
+    terms:
+      - {term: "period", gloss: "the time a pulsating star takes to complete one cycle of brightening and dimming", glossed: true}
+      - {term: "photographic plate", gloss: "a glass plate coated with emulsion, used to record an image before film or sensors", glossed: true}
+    facts:
+      - "Henrietta Leavitt worked on variable stars in the Magellanic Clouds at Harvard College Observatory."
+      - "She stated the period and brightness relation for twenty-five stars in 1912."
+      - "Hubble used the relation in 1924 to place Andromeda outside our galaxy."
