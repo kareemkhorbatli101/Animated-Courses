@@ -191,6 +191,20 @@ def main():
         # is empty, and every entry added to it needs a reason beside it.
         '  depictive_icons: true\n'
         '  icon_allow: []\n')
+    # The clarity law, family N. Set at B1 and not at A2 for the same reason as
+    # the depiction law: A2's twenty units were written before a reader said the
+    # passages made them feel stupid, and the register fault that review named is
+    # in A2's prose too. 00-MASTER-PLAN.md 4d carries the decision.
+    out = out.replace(
+        '\nlanguage:\n',
+        '\nlanguage:\n'
+        '  # --- the clarity law (family N) ---------------------------------\n'
+        '  clarity_law: true\n'
+        '  # share of an open answer\'s content words that must appear in the\n'
+        '  # passage it is asked about (N03)\n'
+        '  clarity_answer_share: 0.5\n'
+        '  # a dialogue turn longer than this is a speech, not a turn (N06)\n'
+        '  clarity_turn_words_max: 55\n', 1)
     m = re.search(r'^  slots:\n(?:    .*\n|    #.*\n)*?(?=^  # -{10,} the 41 slots)',
                   out, re.M)
     assert m, 'sparse slots block not found'

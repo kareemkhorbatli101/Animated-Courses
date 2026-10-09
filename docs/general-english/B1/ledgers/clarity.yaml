@@ -1,0 +1,75 @@
+# The clarity ledger: the hand-maintained half of family N.
+#
+# Family N's structural checks catch a paragraph with no topic sentence, a
+# paragraph that ends somewhere other than where it began, an unanswered
+# question in a dialogue and an answer that cannot be found in the text. What
+# they cannot catch is a sentence that is merely clever. This file is where the
+# clever sentences go once a reader has found one, in the same shape that
+# ledgers/situations.yaml holds banned premises: a pattern and the reason.
+#
+# Every entry below was written by the author of this course, in B1 Unit 1, and
+# found by a reader who said the passages made them feel stupid. That is the
+# standard for adding to this list: not "I dislike it" but "a learner cannot
+# take anything away from it".
+
+level: B1
+version: 1
+
+banned_phrasing:
+
+  - id: paradox_opening
+    pattern: '(?i)\b(looks like|seems like|sounds like)\b[^.]{0,60}\b(and|but)\b[^.]{0,30}\b(almost )?(none of it is|it is not|it isn.t|nothing of the)\b'
+    why: >
+      A paradox as a first sentence makes the learner carry a negation and an
+      inversion before they know what the paragraph is about. State the point,
+      then complicate it if you must.
+    instead: 'Most of what goes wrong on a Saturday afternoon has one cause.'
+
+  - id: aphorism_close
+    pattern: '(?i)\b(that|this|it) is (not )?(what|the measure of|how) [^.]{0,70}(looks like|from the inside|of it)\.'
+    why: >
+      An aphorism at the end of a paragraph sounds like a conclusion and leaves
+      nothing a learner can repeat, answer a question with, or use in writing.
+      End on the point, in the words the paragraph has been using.
+
+  - id: rather_than_flourish
+    pattern: '(?i)\bis (designed|chosen|built|meant) rather than\b'
+    why: >
+      "X is designed rather than accidental" is a writer's contrast. It carries
+      a whole argument in a construction the learner has to unpack. Say what
+      causes it.
+    instead: 'Companies choose those hours on purpose.'
+
+  - id: in_one_sentence
+    pattern: '(?i)\bthat is the (problem|point|whole of it) in one sentence\b'
+    why: >
+      Nobody says this in a shop, on a telephone or on a staircase. It is an
+      essayist's line placed in a service encounter, and it tells the learner
+      nothing about the service encounter.
+
+  - id: machine_wants
+    pattern: '(?i)\b(it|the (form|slip|machine|reader|system)) wants\b'
+    why: >
+      A personified machine is an idiom. "The slip wants the long number" is
+      opaque where "the slip asks you to write the long number" is not.
+    instead: 'The slip asks for the long number.'
+
+  - id: lost_the_bank
+    pattern: '(?i)\b(lost the bank|went off|it went)\b(?![ a-z]{0,12}(out|up|down|back|through|wrong|black|flat|quiet))'
+    why: >
+      "The reader lost the bank" and "when it went" are native shorthand for
+      "stopped working". A B1 learner meets them as new idioms in the middle of
+      a listening they are being tested on.
+    instead: 'The card reader stopped working.'
+
+  - id: trusting_me_to
+    pattern: '(?i)\b(are|is) (trusting|relying on) me to\b'
+    why: >
+      Emotional subtext in place of a fact. The learner needs to know what was
+      written down and what happens next, not how the speaker feels about it.
+
+  - id: different_x_in_the_dark
+    pattern: '(?i)\ba [a-z]+ you have [a-z]+ed a thousand times is a different\b'
+    why: >
+      The literary turn that started this list. Beautiful, and it answers no
+      comprehension question anybody could write.

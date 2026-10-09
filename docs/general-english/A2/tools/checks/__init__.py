@@ -35,5 +35,5 @@ def expect(cond, detail: str) -> Result:
 def load_all():
     from . import family_a, family_b, family_c, family_d, family_e
     from . import family_f, family_g, family_h, family_i, family_j, family_k
-    from . import family_l, family_m
+    from . import family_l, family_m, family_n
     return REGISTRY

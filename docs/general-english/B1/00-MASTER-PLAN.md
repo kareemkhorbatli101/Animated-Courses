@@ -35,7 +35,7 @@ boundary was. v3 says it, and then moves it.
 | **Where the design lives** | this document, as prose | `ledgers/situations.yaml`, as declarations a check can read |
 | **Realism** | an authorial intention | a declared `obvious_out` and `why_not` per situation, plus a blocklist of four premises (§4c) |
 | **Pictures** | 41 a unit, 28 distinct jobs — and a quarter of the icons said nothing their caption had not | `G34` depiction and `G35` contrast, measured and enforced (§6a) |
-| **The suite** | 251 checks | **263** — family M (10) and `G34`/`G35` |
+| **The suite** | 251 checks | **269** — family M (10), `G34`/`G35`, and family N (6) |
 | **Unit 1** | *The Night the Power Went Out* | *The Afternoon Everything Happened at Once* — rebuilt whole, 263/263, nine situations |
 
 **The one finding that matters most.** A check that compares an artefact with
@@ -96,7 +96,7 @@ vocabulary band widens from 2,356 headwords to **4,530**, a measured 1.92×. The
 toolchain is not copied and not moved: `B1/tools` is a symlink, which costs one
 line and makes A2 byte-identical by construction rather than by gate.
 
-**Unit 1 measures 263 of 263 green, 7,874 prose words, 41 figures, 37 pages — after being built green at 251 and rejected for having one subject, and rebuilt whole as nine situations under one theme (§4c, §16).**
+**Unit 1 measures 269 of 269 green, 41 figures, 37 pages — after being built green at 251 and rejected for having one subject, and rebuilt whole as nine situations under one theme (§4c, §16).**
 Three numbers in this plan were forecasts and came back wrong — the word budget
 by 1,397 words, the page count by five pages in the safe direction, and the
 `E27` floor by nearly 3×. All three are now measurements, with the forecast kept
@@ -619,6 +619,75 @@ one story in disguise, that every situation in it has survived its own obvious
 objection, and that the objection's answer reached the page. That is the whole
 claim, and §13 does not make a larger one.
 
+### 4d · The clarity law — added after the rewritten unit was read
+
+Unit 1 was rebuilt as nine situations, went green at 263, and came back again:
+*"Your conversations and reading passages make me feel stupid. They are vague,
+non-conventional, lacking focus."*
+
+That was said of a unit at a 14.8-word mean sentence and a 6.0 reading grade with
+every word inside the B1 band. Which is the finding, and it is a third instance of
+the same lesson: **a sentence can be twelve words of easy vocabulary and still never
+state its point.** Readability arithmetic measures the shape of a sentence. It is
+blind to whether the sentence says anything a learner can hold.
+
+What was actually wrong, in the author's own text:
+
+| In the unit | The fault |
+|---|---|
+| *"A Saturday afternoon on an ordinary street looks like bad luck, and almost none of it is."* | A paradox as the opening sentence. The learner carries a negation and an inversion before they know the topic |
+| *"the overlap is designed rather than accidental"* · *"it is what a crowded hour looks like from the inside of it"* | Aphorisms closing a paragraph. They sound like a conclusion and leave nothing to repeat, answer with, or reuse in writing |
+| *"The card reader lost the bank"* · *"when it went"* · *"It wants the long number"* | Idiom and personification where a plain verb existed |
+| *"That is the problem in one sentence."* | An essayist's line in a shop assistant's mouth, teaching nothing about the service encounter |
+| A paragraph opening on who is at home at three o'clock and closing on the nature of memory | Two subjects, no warning |
+
+**Family N, six checks.** The limit is stated rather than implied: *it cannot tell
+you a sentence is vague.* It can tell you that a paragraph never announces its
+subject, that it ends somewhere other than where it began, that a question in a
+dialogue goes unanswered, that a turn has become a speech, and that an answer the
+key expects cannot be found in the text the learner was given. Those are most of
+what "makes me feel stupid" means in practice.
+
+| | | Check |
+|---|---|---|
+| Every paragraph of an **explanation** opens on a sentence that states its subject | ≥2 content words shared with the rest of its paragraph | `N01` |
+| Every paragraph after the first is signposted | *First, Another, For example, So, But* — or, in a story, a time or sequence word | `N02` |
+| Every open comprehension answer is findable in the passage | ≥50% of the answer's content words | `N03` |
+| A paragraph of an explanation ends on the subject it began with | first and last sentence share a content word | `N04` |
+| No blocklisted construction | `ledgers/clarity.yaml`, 8 entries, each with its reason and a plainer alternative | `N05` |
+| In a printed dialogue, a question is answered by the next turn, and no turn exceeds 55 words | | `N06` |
+
+**Exposition and narrative are not held to the same law, and that distinction is the
+one judgement in this family.** `N01` and `N04` take the Part 5 readings only, because
+a story paragraph that opens on a letter arriving and closes on what it failed to say
+is doing its job; holding narrative to a topic-sentence rule would make the stories
+worse. `N02` takes both, because every paragraph owes the reader a signpost — for a
+story that is a time or a sequence word.
+
+**What family N found while being written**, which is the §8f lesson for a fourth
+time: its own kind-resolution walked the spec's heading regexes and took the first
+match. Part 3's three sub-sections are `script_tfng`, `script_qa` and `script_match`,
+and all three headings match the first pattern — so every Part 3 sub resolved to
+`script_tfng` and every Part 5 sub to `text_mcq`, and `N03` silently covered one
+sub-section of the three it was written for. The spec lists subs in document order, so
+resolving by position is exact where the regex is ambiguous. **The mutation suite
+caught it**, not the green run: `N03`'s fixture escaped, and that was the only
+evidence there was.
+
+**A grammar marker was rejecting the grammar Unit 1 teaches.** `ledgers/grammar.yaml`
+gave Unit 15 the marker `(place|street|town|year|day)\s+(where|when)`, which fires on
+*I was crossing town when it died* — not a relative adverb at all, but Unit 1's own
+target structure. Unit 15 teaches **non-defining** relatives, so the `when` half now
+requires a preceding comma. Found by writing a plainer sentence and watching `E06` go
+red on it.
+
+**Scope.** Gated on `golden.language.clarity_law`, set at B1 and not at A2, for the
+same reason as the depiction law: A2's twenty units were written before this review,
+and the register fault it names is in A2's prose too. Six fixtures in `MUTATIONS_B1`,
+so `K15` accounts for all six.
+
+---
+
 ## 5 · The cast, two years on
 
 The same six people at 14 Alder Street. `ledgers/cast.yaml` for B1 is **seeded from
@@ -740,13 +809,14 @@ marking points and sample answers grow with them.
 
 ---
 
-## 8 · The checks — 238 inherited, 13 changed, 25 new
+## 8 · The checks — 238 inherited, 13 changed, 31 new
 
 B1 does not get a new check suite. It gets **the same suite**, because a second suite
 is a second standard and that is the definition of drift. 238 checks carry over as
 they are. Thirteen read a number that moves. **Twenty-five are new: thirteen in v2,
 and twelve more in v3** — family M's ten (§4c) and `G34`/`G35` (§6a), which take the
-suite from 251 to **263**. All twelve are declared at B1 only, for a stated reason:
+suite from 251 to 263, and family N's six (§4d) take it to **269**. All eighteen are
+declared at B1 only, for a stated reason:
 family M reads `ledgers/situations.yaml`, which A2 does not have, and `G34`/`G35` are
 gated on a spec flag A2 does not set. All twelve carry a mutation fixture in
 `MUTATIONS_B1`, so `K15` accounts for every one of them rather than letting them sit
@@ -1217,19 +1287,19 @@ point of this section.
 
 | | v2 — *The Night the Power Went Out* | v3 — *The Afternoon Everything Happened at Once* |
 |---|---|---|
-| Checks | 251 of 251, 0 FAIL | **263 of 263, 0 FAIL**, 13 gates answered, 2 skips |
-| Mutations | 4 of 4 | **16 of 16 caught**, 0 escaped, 0 broken |
+| Checks | 251 of 251, 0 FAIL | **269 of 269, 0 FAIL**, 13 gates answered, 2 skips |
+| Mutations | 4 of 4 | **22 of 22 caught**, 0 escaped, 0 broken |
 | Distinct situations | **2** | **9** |
 | Largest share one situation takes | **37 of 42 sub-sections (88%)** | **6 of 42 (14%)**; 19% of all attributions |
 | Distinct settings | 2 | **9** |
 | Icons that restate their own label | 15 of 78 (19%) | **0 of 83** |
 | Contrast figures drawing the same glyph on both sides | 1 of 1 | **0 of 2** |
-| Prose words | 7,598 | 7,874 |
+| Prose words | 7,598 | 7,993 |
 | Figure captions | 551 words | 547 — inside the 480–625 allowance |
 | Figures | 41 | 41, all rendered, preflight clean |
 | Pages | 37 unit / 15 key / 56 volume | 37 unit / 16 key / 57 volume |
-| Mean sentence | 15.5 | **14.8** — inside the 12.4–16.3 corridor |
-| Flesch–Kincaid | 6.61 | **5.99** — inside the 5.5–7.0 corridor |
+| Mean sentence | 15.5 | **14.6** — inside the 12.4–16.3 corridor |
+| Flesch–Kincaid | 6.61 | **5.98** — inside the 5.5–7.0 corridor |
 | B1-tier share | 3.24% | **2.75%**, above the 2.2% floor |
 | Off-band words unglossed · glossary shared with A2 | 0 · 0 | 0 · 0 |
 

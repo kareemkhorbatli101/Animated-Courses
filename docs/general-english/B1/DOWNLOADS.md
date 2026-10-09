@@ -3,9 +3,11 @@
 **Phase 4 review gate, 2026-10-09 — second pass.** One finished unit of twenty,
 for review before the other nineteen are built. The first version of this unit
 was green at 251 checks and was rejected for running one subject through all
-eleven parts; it has been rebuilt whole as nine situations under one theme, the
-pictures have been rebuilt with it, and twelve new checks now hold that design
-in place. `00-MASTER-PLAN.md` §4c and §6a say what they are. Everything below is in the repository on
+eleven parts; the rebuild was green at 263 and was rejected again, for prose that
+was vague and unfocused. The unit now carries nine situations under one theme,
+pictures that show what their captions say, and passages written as explanations
+with stated points rather than as magazine prose. Eighteen new checks hold all
+three in place — `00-MASTER-PLAN.md` §4c, §4d and §6a say what they are. Everything below is in the repository on
 branch `claude/jolly-johnson-9khdgl`; click a filename to download it.
 
 ## The unit on its own
@@ -49,23 +51,24 @@ there for a teacher who wants next week's unit without the volume.
 
 ## What the checks say
 
-**263 of 263 green on Unit 1**, 0 failures, 13 adjudication gates answered, 2
+**269 of 269 green on Unit 1**, 0 failures, 13 adjudication gates answered, 2
 skips, both of them volume-scoped envelopes that cannot be measured against one
-unit of ten. B1's mutation suite is **16 of 16 caught, 0 escaped**.
+unit of ten. B1's mutation suite is **22 of 22 caught, 0 escaped**.
 
-Twelve of those 263 are new since the last download, and they exist because the
+Eighteen of those 269 are new since the first download, and they exist because the
 last download was green and still wrong:
 
 | | What it holds |
 |---|---|
 | `M01`–`M10` | A unit carries at least **7 distinct situations** in at least **5 settings**, none of them taking more than a seventh of its 42 sub-sections or a quarter of its attributions; every theme-level section draws on at least two of them and names words that are actually in its own text; every situation declares the objection a reader will raise and answers it; four premises are blocklisted outright; and `M10` fails unless the law would have rejected the superseded unit, which is kept in the repository for exactly that purpose. |
 | `G34`, `G35` | Every icon must be licensed by its own label — no more generic person glyph under *was reading in bed* — and a figure drawn to show a contrast must draw something different on each side. |
+| `N01`–`N06` | Every paragraph of an explanation opens on a sentence that states its subject and closes on the same subject; every paragraph after the first is signposted; every open answer is findable in the passage the learner was given; no construction from the blocklist in `ledgers/clarity.yaml`; and in a dialogue, every question is answered by the next turn. |
 
 Unit 1 now carries **9 situations in 9 settings**; the largest takes 6 of 42
 sub-sections. The superseded version carried 2 situations in 2 settings, and the
 largest took 37.
 
-A2 is unchanged and still green at its new total: **263 of 263 on both
+A2 is unchanged and still green at its new total: **269 of 269 on both
 volumes**, mutations 230 of 230. That includes `C29` and `C30`, the two checks
 that found and fixed the answer-shuffling defect A2 had shipped with. The two
 new picture checks are declared at B1 only; the plan (§6a) records the

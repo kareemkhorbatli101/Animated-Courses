@@ -333,6 +333,13 @@ mcq:
   chi2_p_min: 0.05
 
 language:
+  # --- the clarity law (family N) ---------------------------------
+  clarity_law: true
+  # share of an open answer's content words that must appear in the
+  # passage it is asked about (N03)
+  clarity_answer_share: 0.5
+  # a dialogue turn longer than this is a speech, not a turn (N06)
+  clarity_turn_words_max: 55
   # CEILINGS. Raised from A2's, which were measured from the source book.
   max_sentence_words: 32           # A2: 25. B1 admits subordination A2 refuses.
   mean_sentence_words_max: 16      # A2: 14. 17 is unreachable under fk_grade_max

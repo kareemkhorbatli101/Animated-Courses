@@ -3,6 +3,45 @@
 Everything here is reproducible from the repository. If a session ends, a new
 one can pick up from this file alone.
 
+## 2026-10-09, later — the suite is 269, and the prose was the third rejection
+
+The unit was rebuilt as nine situations, went green at 263, and came back a third
+time: *"Your conversations and reading passages make me feel stupid. They are
+vague, non-conventional, lacking focus."*
+
+Said of a unit at a 14.8-word mean sentence and a 6.0 reading grade, every word
+inside the B1 band. **A sentence can be twelve words of easy vocabulary and still
+never state its point.** Readability arithmetic measures the shape of a sentence
+and is blind to whether it says anything.
+
+**Family N, six checks** (`ledgers/clarity.yaml` holds the hand-maintained half):
+an explanation's paragraphs must open on a sentence that states their subject and
+close on the same subject; every paragraph after the first must be signposted; every
+open answer must be findable in the passage; no blocklisted construction; and in a
+dialogue every question must be answered by the next turn, with no turn over 55
+words. `N01` and `N04` take **exposition only** — a story paragraph is allowed to
+move, and holding narrative to a topic-sentence rule would make the stories worse.
+
+**What it cannot do, stated so nobody assumes otherwise:** it cannot tell you a
+sentence is vague. It catches the structural half of that, which is most of what
+"makes me feel stupid" means in practice.
+
+**Two bugs this found, and only the mutation suite saw one of them.** Family N's own
+kind-resolution took the first matching heading regex, so all three Part 3 subs read
+as `script_tfng` and all three Part 5 subs as `text_mcq`; `N03` covered one
+sub-section of the three it was written for and the green run said nothing. Resolve
+by position — the spec lists subs in document order. And `ledgers/grammar.yaml` gave
+Unit 15 the marker `(place|street|town|year|day)\s+(where|when)`, which fires on
+*I was crossing town when it died* — Unit 1's own target structure, not a relative
+adverb. Unit 15 teaches non-defining relatives, so the `when` half now wants a comma.
+
+**If you are writing Unit 2:** decide before you start whether each passage is an
+explanation or a story, and write it as that. An explanation states its point and
+numbers its reasons. A story runs on time markers. Do not write the register this
+author reaches for by default, which is magazine prose — elliptical, ironic,
+thesis-by-implication. Family N catches the structure of it and nothing catches
+the rest.
+
 ## 2026-10-09 — Unit 1 was green at 251 and was rejected. Read this first.
 
 The first Unit 1 passed every check in the suite and came back in four words:
@@ -45,8 +84,8 @@ other way round means writing the unit twice; that is what happened here.
 | | B1.1 *Looking Back* | B1.2 *Making Yourself Clear* |
 |---|---|---|
 | Units | 1 of 10 built | 0 of 10 |
-| Checks | **263 of 263, 0 FAIL** · mutations **16/16** | not started |
-| Prose words, Unit 1 | 7,874 | — |
+| Checks | **269 of 269, 0 FAIL** · mutations **22/22** | not started |
+| Prose words, Unit 1 | 7,993 | — |
 | Pages, Unit 1 | 37 | — |
 | Figures, Unit 1 | 41, every icon licensed by its label | — |
 | Covers | built, `I01`–`I12` green | not started |
@@ -91,7 +130,7 @@ checks are all ceilings, and a unit written entirely in A2 language passes
 every one. `E27` (own-tier share ≥ 2.2%), `E28` (mean sentence ≥ 12.0 words)
 and `E29` (Flesch–Kincaid ≥ 5.5) are the floors, and `L01` asserts that every
 one of the twenty A2 units **fails all three**. A floor nothing fails is not a
-floor. Unit 1 measures 2.75% / 14.8 / 6.0.
+floor. Unit 1 measures 2.75% / 14.6 / 6.0.
 
 **Leave margin on the floors.** The rebuild first landed at a 13.5-word mean and
 **FK 5.55** — green, with five hundredths above a floor of 5.5, which is one
@@ -151,7 +190,7 @@ needs its item in the first cell and `____` in the answer cell.
 - Units 2–10 and 11–20.
 - `G31`, the check for the four new figure jobs (`two_point_timeline`,
   `hypothetical_fork`, `certainty_scale`, `transform_pair`). None of them is
-  needed until Unit 3, so neither is the check. The suite is 263 now and 264
+  needed until Unit 3, so neither is the check. The suite is 269 now and 270
   when it lands.
 - B1.2: no units, no covers, no `VOL`-level content beyond the title and blurb.
 - `release/` and the per-unit single files, which are a Phase 7 job.

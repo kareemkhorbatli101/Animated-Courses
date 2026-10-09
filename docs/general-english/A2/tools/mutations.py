@@ -499,6 +499,31 @@ MUTATIONS_B1 = {
 'M10': ('ctx', lambda c: c.situations['law'].update(
             {'min_strands': 1, 'max_strand_subs': 99, 'min_settings': 1})),
 'G34': ('content', lambda t: t.replace("('Skip', 'bin')", "('Skip', 'horse')", 1)),
+# --- the clarity law (family N) ----------------------------------------------
+# Six more that A2 structurally cannot test: all six are gated on
+# golden.language.clarity_law, which only B1's spec sets. Each fixture breaks
+# the thing its check exists to catch, in the prose rather than in a ledger --
+# because the prose is where the fault was.
+# N01: replace a topic sentence with a transition that names nothing.
+'N01': U('The second reason is that the services behind those companies run a '
+         'smaller shift at the weekend.',
+         'Now let us turn to something else entirely.'),
+# N02: strip the signpost off a continuation paragraph.
+'N02': U('But the same thing happened on Pell Road on the same afternoon:',
+         'The same thing happened on Pell Road on the same afternoon:'),
+# N03: an answer the learner cannot find anywhere in the passage.
+'N03': K('1. Because Alder Street has one lane: a kerb on one side and parked '
+         'cars on the other.',
+         '1. Because the council had revoked the loading exemption that quarter.'),
+# N04: make a paragraph finish on a subject it never raised.
+'N04': U('Everybody is at home, and everybody sees a different part of the same hour.',
+         'Memory is a curious and unreliable instrument.'),
+# N05: put one of the blocklisted constructions back.
+'N05': U('It asks for the long number on the front of the card.',
+         'It wants the long number on the front of the card.'),
+# N06: answer a question with a turn that does not address it.
+'N06': U('**MAYA:** The queue will take about ten more minutes, I am afraid.',
+         '**MAYA:** My aunt always said that November is the worst month.'),
 'G35': ('content', lambda t: t
         .replace("('the door shut, the brick gone', 'stones')",
                  "('the door shut, the brick gone', 'door')", 1)

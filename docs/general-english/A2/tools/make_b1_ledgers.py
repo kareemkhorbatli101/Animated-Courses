@@ -111,36 +111,36 @@ country_cities:
   Sri Lanka:   [Kandy, Galle]
   Croatia:     [Rijeka, Split]
 spine:
-  1:  {point: "past continuous vs past simple - while/when", topic: "The Night the Power Went Out",
+  1:  {point: "past continuous vs past simple - while/when", topic: "The Afternoon Everything Happened at Once",
        cefrj: [TA.PASTPRG], extends: "A2 U5-6 past simple"}
-  2:  {point: "present perfect continuous - how long, for, since", topic: "How Long Have You Been Waiting?",
+  2:  {point: "present perfect continuous - how long, for, since", topic: "Still Waiting",
        cefrj: [TA.PRPFPRG], extends: "A2 U15-16 present perfect"}
-  3:  {point: "past perfect - by the time, before, after", topic: "By the Time They Told Us",
+  3:  {point: "past perfect - by the time, before, after", topic: "Nobody Told Us",
        cefrj: [TA.PASTPF], extends: "A2 U15-16 present perfect"}
-  4:  {point: "used to / would for past habit", topic: "What the Rent Used to Be",
+  4:  {point: "used to / would for past habit", topic: "What This Street Used to Be",
        cefrj: [MD.used_to], extends: null}
-  5:  {point: "future forms contrasted + future continuous", topic: "This Time Next Year",
+  5:  {point: "future forms contrasted + future continuous", topic: "The Year the Street Gets Dug Up",
        cefrj: [TA.FUT, TA.FUTPRG], extends: "A2 U11-12 going to / will"}
-  6:  {point: "second conditional", topic: "If the Money Came Tomorrow",
+  6:  {point: "second conditional", topic: "If We Had the Money",
        cefrj: [SUBJ.PAST], extends: "A2 U18 first conditional"}
-  7:  {point: "third conditional", topic: "The Flat They Didn't Take",
+  7:  {point: "third conditional", topic: "The Ones That Got Away",
        cefrj: [SUBJ.PASTPF], extends: "A2 U18 first conditional"}
-  8:  {point: "modals of deduction - must/might/may/can't be", topic: "Something in the Garden",
+  8:  {point: "modals of deduction - must/might/may/can't be", topic: "Somebody's Been Here",
        cefrj: [MD.must, MD.might, MD.may], extends: "A2 U13 must for obligation"}
-  9:  {point: "should have / ought to / had better", topic: "We Should Have Read the Reviews",
+  9:  {point: "should have / ought to / had better", topic: "We Should Have Checked",
        cefrj: [MD.MD_PF, MD.ought_to], extends: "A2 U14 should for advice"}
-  10: {point: "be able to / manage to", topic: "Learning Something at Forty",
+  10: {point: "be able to / manage to", topic: "Starting Something at Forty",
        cefrj: [MD.be_able_to, IMP.V.NEG, IMP.do_V], extends: "A2 U8 can/could"}
-  11: {point: "passive extended - perfect, future, modal, get + pp", topic: "Where It Was Made, and How It Got Here",
+  11: {point: "passive extended - perfect, future, modal, get + pp", topic: "Where Everything Comes From",
        cefrj: [PASS.MD, PASS.get_VN, PASS.IO], extends: "A2 U17 active and passive"}
-  12: {point: "gerunds and infinitives - -ing vs to, not to do", topic: "Giving Up the Phone for a Week",
+  12: {point: "gerunds and infinitives - -ing vs to, not to do", topic: "A Week Without It",
        cefrj: [TO.not_to_do, VG.P, VN.P, VP.SV.AFF], extends: null}
-  13: {point: "too ... to / so ... that", topic: "Too Many People, Too Little Room",
+  13: {point: "too ... to / so ... that", topic: "Too Many, Too Few",
        cefrj: [RBDEG.too_to, RBDEG.so_JJ, EXCL.how_JJ.RB], extends: null}
   14: {point: "comparison refined - not as ... as, intensified, -er and -er", topic: "Nothing Like the Picture",
        cefrj: [COMP.EQ, COMP.even_JJR, COMP.and, DT.these.those_N, PPOS.mine.etc],
        extends: "A2 U7 comparatives and superlatives"}
-  15: {point: "non-defining relatives + where/when/whose", topic: "The Woman Whose Name Is on the Bridge",
+  15: {point: "non-defining relatives + where/when/whose", topic: "The Names on the Street",
        cefrj: [PREL.NR, RBREL.NR, RBREL.NOANT], extends: "A2 U19 defining relative clauses"}
   16: {point: "reported speech in full - backshift, reported questions and commands", topic: "What the Group Chat Said",
        cefrj: [INDSP.tell, INDQ.ask, CAUS.ask, VP.SVOtoO.AFF], extends: "A2 U20 reported speech"}
@@ -152,7 +152,7 @@ spine:
        cefrj: [PREFL.oneself.etc, PREF.each_other, NN.thing_JJ, P.others], extends: null}
   19: {point: "it + be + adj + to-infinitive; there + modal + be", topic: "Somebody Ought to Say Something",
        cefrj: [PP.it_to_do, EX.there.MD], extends: "A2 U2 there is/are"}
-  20: {point: "adverbs of attitude and discourse linkers", topic: "Putting a Case, and Being Heard",
+  20: {point: "adverbs of attitude and discourse linkers", topic: "Putting a Case",
        cefrj: [RB.ATT], extends: null}
 
 
@@ -224,7 +224,15 @@ markers:
        '\b(\w+er) and \1\b', '\bthe more\b[^.!?]{0,60}\bthe more\b']
   # Non-defining relative: a comma before the pronoun, or whose/where/when as a
   # relative. A2 taught the defining kind without commas.
-  15: [',\s+(who|which)\s+\w+', '\bwhose\s+\w+', '\b(place|street|town|year|day)\s+(where|when)\s+\w+']
+  # `when` here must follow a comma. Unit 15 teaches NON-DEFINING relatives
+  # (PREL.NR, RBREL.NR), so `the street, where she lives` and `in 2019, when it
+  # closed` are its markers. Without the comma the pattern fires on
+  # `I was crossing town when it died` -- which is not a relative adverb at all,
+  # it is Unit 1's own target structure, a noun followed by the conjunction
+  # `when`. The marker was rejecting the grammar the first unit exists to teach.
+  15: [',\s+(who|which)\s+\w+', '\bwhose\s+\w+',
+       '\b(place|street|town|year|day)\s+where\s+\w+',
+       '\b(place|street|town|year|day),\s+when\s+\w+']
   # Backshift specifically: reported speech itself is A2 U20.
   16: ['\b(said|told \w+)\s+(that\s+)?\w+\s+(had|would|could|might|was|were)\b',
        '\basked\s+\w+\s+(if|whether)\b', '\btold \w+ to \w+']

@@ -19,7 +19,7 @@ Not needed: **d)** *the small room where a shop keeps what it has not sold*
 
 1. **A)** Serving a queue in the bookshop · 2. **B)** A skip was blocking the way for the van
 
-> Item 2 is the one worth going over, because three of the four options are plausible reasons for a delivery to fail and only one is in the text. The paragraph gives six people and six separate afternoons, and learners who read it as one story will hunt for a connection between them. There is none, and that is the shape of the whole unit: these people did not know about each other until the evening.
+> Item 2 is the one worth going over, because three of the four options are plausible reasons for a delivery to fail and only one is in the text. The paragraph gives six people and six separate afternoons, and learners who read it as one story will hunt for a connection between them. There is none. The unit is built that way: six people, six separate afternoons, and none of them hears about the others until the evening.
 
 ---
 
@@ -89,7 +89,7 @@ Marking points: ☐ more than one thing goes wrong ☐ each one has a *what I wa
 
 Not a task. Two sentences, one difference, and the difference is the unit.
 
-> The pair is deliberately about a vehicle rather than a person, because a van coming down a street is visibly an action in progress and learners do not have to imagine it. *The lorry left the skip, and then the van arrived* gives two events in a row and the driver has a choice. *The van was arriving when the lorry left the skip* gives one event inside another and the driver has none. Ask which version the driver would use.
+> The pair uses a vehicle and not a person on purpose. A van coming down a street is an action a learner can see in progress, so nobody has to imagine it. *The lorry left the skip, and then the van arrived* gives two events in a row and the driver has a choice. *The van was arriving when the lorry left the skip* gives one event inside another and the driver has none. Ask which version the driver would use.
 
 **Part 2: Grammar Focus Box**
 
@@ -152,17 +152,17 @@ Open. One sentence with *when* and one with *while*, about any of the afternoon'
 2. **True** — “A woman two seats forward lent me hers straight away.”
 3. **Not Given** — he says the shift was covered twice over, and nothing about whether he arrived late. Learners who answer False have reasoned that the lateness did not matter, which is a different claim.
 
-> The useful discussion is the one the script sets up and does not resolve: he had a phone in his hand within a minute and it did not help him, because the number he needed lived in the dead one. That is a modern problem rather than a story problem, and most classes will have a version of it.
+> The useful discussion is the one the script sets up and does not resolve: he had a phone in his hand within a minute and it did not help him, because the number he needed lived in the dead one. This happens to people constantly, and most classes will have a version of it.
 
 **Part 3: The Queue at Hadley Books** (Track 1.3)
 
 0. She was serving the man in front of the queue. *(given)*
 
-1. Two of them.
-2. Because the slip asks for the long number off the front of the card, and the customer's card does not print one.
-3. She took their names and telephone numbers and will ring them the next day.
+1. Two people in the queue were carrying cash.
+2. Because the slip asks for the long number on the front of the card, and this customer's card has no number on the front.
+3. She wrote down their names and telephone numbers, and she will ring those four customers tomorrow.
 
-> Item 2 wants the mechanism and not the outcome. A learner who answers “because it did not work” has heard that the slip failed and missed why, and the why is the only part that transfers: a backup designed for the thing it is replacing stops being a backup when the thing changes.
+> Item 2 wants the reason and not the outcome. A learner who answers “because it did not work” has heard that the slip failed but not why. The why is the part that transfers: the paper slip was made for an older card, and the card in front of Maya is a newer one with no number on the front.
 
 **Part 3: Four People, Four Versions** (Track 1.4)
 
@@ -222,7 +222,7 @@ Marking points: ☐ one thing, not a list ☐ who would have to say it ☐ a sto
 2. **D)** Because a smaller weekend shift is handling a backlog
 3. **C)** Because each person saw a different few minutes of it
 
-> Item 3 is the hardest and is worth the time. The text does not say that people are unwilling to speak or that they remember badly; it says the opposite, that a crowded hour is seen in fragments. Learners who choose A have supplied a motive the text never offers, which is exactly the habit the Part 3 listening is designed to break.
+> Item 3 is the hardest, and the answer is in the last two sentences of the text. The text never says that people are unwilling to speak or that they remember badly. It says that each person only sees two or three minutes of the hour. Learners who choose A have added a reason the text does not give, and the way back is to ask them which sentence they got it from.
 
 **Part 5: Vocabulary in Context**
 
@@ -235,11 +235,11 @@ Not needed: **d)** *the number of cars a car park can hold at one time*
 
 0. Half past one. *(given)*
 
-1. Because the street has a kerb on one side and parked cars on the other, so there is only one lane.
-2. Nine minutes, because the van could use one of the loading bays the street was rebuilt with.
+1. Because Alder Street has one lane: a kerb on one side and parked cars on the other.
+2. Nine minutes, because the van pulled into the loading bay and the lane stayed open.
 3. That the fault was in the exchange and not in anybody's own flat.
 
-> Item 2 wants both halves. “Nine minutes” on its own is a number; the reason is the point of the whole paragraph, which is that the same event costs what the street was built to let it cost. The Pell Road sentence to read aloud is the last one: nobody remembers it, and that is the measure of it.
+> Item 2 wants both halves. “Nine minutes” on its own is a number, and the reason is the point of the paragraph: the same event cost less because the street was built differently. The sentence to read aloud is the last one in that paragraph, which names the loading bay as the reason.
 ---
 
 **Part 6 · Writing**
@@ -298,7 +298,7 @@ Not needed: **b)** *when you want to know how much the collection will cost*
 - Ask for a job number and write it down. — **5**
 - Say why it cannot simply wait, in one sentence. — **3**
 
-> The order is the argument. You narrow down the fault before you explain the urgency, because an operator who does not yet know what went wrong cannot act on how much it matters.
+> The order matters. You narrow down the fault before you explain the urgency, because an operator who does not yet know what went wrong cannot act on how much it matters.
 
 **7D: Role-Play — Two Versions of the Same Afternoon**
 

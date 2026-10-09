@@ -3,6 +3,22 @@
 Everything here is reproducible from the repository. If a session ends, a new
 one can pick up from this file alone.
 
+## 2026-10-09, later still — the suite is 269, and A2 is still untouched
+
+Six more checks, family N, after a reader said B1's passages and dialogues made
+them feel stupid. They hold an explanation's paragraphs to a topic sentence,
+require every paragraph to be signposted, require every open answer to be
+findable in the passage, blocklist a set of writerly constructions, and require
+a question in a dialogue to be answered by the next turn. All six are gated on
+`golden.language.clarity_law`, which only B1's spec sets, so all six are inert
+here and say so in their own result.
+
+**The register fault they name is in A2's prose too**, and A2 is not retrofitted
+for the same reason as the depiction law. If you want that reversed, family N is
+the worklist: turn the flag on in A2's spec and read what comes back.
+
+A2 is green at **269 of 269 on both volumes**, mutations **230 of 230**.
+
 ## 2026-10-09, later — the suite is 263, and A2 is still untouched
 
 B1's Unit 1 was built green at 251 checks and was rejected for running one
@@ -32,8 +48,8 @@ again: the pair-extraction recognised `(label, icon)` and
 card and every before-and-after panel in both courses had never been looked at
 by anything. It is looked at now.
 
-A2 is green at **263 of 263 on both volumes**, mutations **230 of 230**.
-Nothing in `units/`, `keys/` or `content/` changed.
+A2 was green at **263 of 263 on both volumes** at that point, mutations
+**230 of 230**. Nothing in `units/`, `keys/` or `content/` changed.
 
 ## 2026-10-09 — six defects found and fixed, and B1 started
 
