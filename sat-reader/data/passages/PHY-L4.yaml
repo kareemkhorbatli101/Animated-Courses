@@ -1,0 +1,517 @@
+field: PHY
+level: 4
+passages:
+  - id: PHY-S01-L4
+    strand: S01
+    title: "No Measurement Without a Theory"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S01-L3"
+    advances: "Raises the philosophical objection that measurement presupposes theory, and shows where it bites in practice."
+    vocab_link: [appreciate]
+    passage: |
+      A thermometer reading looks like a fact about the world and is not quite
+      one. To treat the number as a temperature requires accepting that the
+      liquid expands in proportion to temperature, that the glass does not
+      expand in a way that matters, and that the instrument has reached
+      equilibrium with what it is measuring. Each of those is an auxiliary
+      assumption, meaning a background claim that must hold for the measurement
+      to mean what it is taken to mean, and each comes from a theory.
+
+      Philosophers from Pierre Duhem onward have called this theory-ladenness,
+      which is the claim that what counts as a measurement depends on the
+      framework being used, and the strong version goes further: two scientists
+      with different theories are not measuring the same quantity when they
+      appear to disagree. The weak version is uncontroversial and useful. The
+      strong version has a problem, which is that measurements regularly
+      overturn the theories that licensed them. The cosmic microwave background
+      was found by two engineers looking for noise in an antenna, and it
+      destroyed the model most cosmologists then held.
+
+      The working resolution is to appreciate the point without accepting the
+      conclusion. Scientists manage theory-ladenness by making the assumptions
+      explicit and testing them separately, which is exactly what a calibration
+      chain does. Where two instruments resting on different theories agree, the
+      agreement is evidence that neither theory is distorting the result, and
+      the history of physics contains many such convergences. The objection
+      remains live wherever only one method exists, which is why single-method
+      results are treated with caution in every field that has learned the
+      lesson the hard way. The dispute has practical consequences in fields
+      where one instrument defines the quantity it measures. Several
+      psychological constructs are in that position and the comparison is often
+      drawn.
+    anchors:
+      - take: "Each auxiliary assumption comes from a theory."
+        quote: "each comes from a theory"
+      - take: "Measurements regularly overturn the theories that licensed them."
+        quote: "measurements regularly overturn the theories that licensed them"
+      - take: "Agreement between methods resting on different theories is evidence."
+        quote: "the agreement is evidence that neither theory is distorting the result"
+    terms:
+      - {term: "theory-ladenness", gloss: "the claim that what counts as a measurement depends on the theory being used", glossed: true}
+      - {term: "auxiliary assumption", gloss: "a background claim that has to hold for a measurement to mean what it is taken to mean", glossed: true}
+    facts:
+      - "Treating a thermometer reading as a temperature requires assumptions about expansion and equilibrium."
+      - "The cosmic microwave background was discovered by engineers investigating antenna noise."
+      - "Calibration chains work by making assumptions explicit and testing them separately."
+  - id: PHY-S02-L4
+    strand: S02
+    title: "Wrong or Incomplete"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S02-L3"
+    advances: "Uses the fate of Newtonian gravity to distinguish a theory being false from a theory having limits."
+    vocab_link: [resolve]
+    passage: |
+      Newton law of gravity was the most successful theory in the history of
+      science and it is wrong. It is also still used to fly spacecraft. Both
+      statements are true, and holding them together requires a distinction that
+      students are rarely given: between a theory that has been refuted and a
+      theory that has been placed inside a larger one as a limiting case,
+      meaning a situation in which the newer theory reduces to the older.
+
+      The evidence that forced the change was small. The perihelion of Mercury,
+      meaning the point in its orbit closest to the Sun, advances by a tiny
+      amount each century, and after every known gravitational influence had
+      been accounted for there remained a discrepancy of about forty-three
+      seconds of arc per century. Astronomers tried to resolve it for sixty
+      years by proposing an unseen planet, a flattened Sun, and a modification
+      of the exponent in the inverse square law. General relativity predicted
+      the figure exactly, from a theory built for quite different reasons, and
+      that is why it was accepted rather than merely admired.
+
+      The philosophical question is whether Newton was mistaken. On one account
+      yes: the theory says that gravity is a force acting instantaneously at a
+      distance, and that is simply not the case. On the other account the
+      equations remain correct within a stated domain, which is the ordinary
+      condition of every physical law, and relativity itself is expected to fail
+      where quantum effects matter. The second account is the one working
+      physicists use, and it carries a discipline: a theory is not refuted by
+      being shown to have a boundary, and is not safe for being useful inside
+      it. Spacecraft navigation uses Newtonian calculations with relativistic
+      corrections applied where they matter.
+    anchors:
+      - take: "Newtonian gravity is wrong and is still used to fly spacecraft."
+        quote: "It is also still used to fly spacecraft."
+      - take: "The discrepancy was forty-three seconds of arc per century."
+        quote: "about forty-three seconds of arc per century"
+      - take: "A theory is not refuted by being shown to have a boundary."
+        quote: "a theory is not refuted by being shown to have a boundary"
+    terms:
+      - {term: "perihelion", gloss: "the point in an orbit closest to the Sun", glossed: true}
+      - {term: "limiting case", gloss: "a situation in which a newer theory reduces to an older one", glossed: true}
+    facts:
+      - "Mercury perihelion advance left an unexplained residual of about 43 arcseconds per century."
+      - "General relativity predicted that figure exactly from a theory built for other reasons."
+      - "Newtonian calculations are still used for spacecraft navigation with relativistic corrections."
+  - id: PHY-S03-L4
+    strand: S03
+    title: "Whether Efficiency Saves Anything"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S03-L3"
+    advances: "Presents the rebound argument against efficiency policy and the evidence on how large the effect is."
+    vocab_link: [commensurate]
+    passage: |
+      Lighting a room in Britain is about seven hundred times cheaper in real
+      terms than it was two centuries ago, and the share of income that
+      households spend on lighting has barely changed. The reason is that people
+      bought more light. That observation is the basis of the rebound effect,
+      meaning the increase in use of a service that follows from making it
+      cheaper to provide, and it is the strongest argument against treating
+      efficiency as a straightforward route to lower energy use.
+
+      The argument has a weak form that nobody disputes and a strong form that
+      is contested. In the weak form, some of the saving is taken back: a
+      household with a more efficient boiler keeps the house warmer, and a firm
+      with cheaper freight ships more often. Measured direct rebound for
+      household energy services in rich countries is usually put between ten and
+      thirty percent, which leaves most of the saving intact. In the strong
+      form, advanced by a few economists, rebound across a whole economy can
+      exceed the saving entirely, because cheaper energy services raise output
+      and output requires energy.
+
+      The evidence does not support the strong form as a general rule and does
+      not exclude it in particular cases. Historical examples of complete
+      rebound exist, lighting among them, and they share a feature: the service
+      was far from saturated, so demand had room to grow. Where a service is
+      already saturated, as domestic refrigeration is in a rich country, rebound
+      is small. The policy conclusion is therefore commensurate with the detail
+      rather than with the slogan. Efficiency standards save energy where demand
+      is near its limit and save much less where it is not. The lighting figure
+      comes from a study that reconstructed the real price of light since the
+      candle.
+    anchors:
+      - take: "Light is seven hundred times cheaper and the spending share barely changed."
+        quote: "people bought more light"
+      - take: "Measured direct rebound is usually ten to thirty percent."
+        quote: "between ten and thirty percent"
+      - take: "Complete rebound cases share an unsaturated service."
+        quote: "the service was far from saturated"
+    terms:
+      - {term: "rebound effect", gloss: "the increase in use of a service that follows from making it cheaper to provide", glossed: true}
+      - {term: "direct rebound", gloss: "the extra consumption of the same service by the same user", glossed: false}
+    facts:
+      - "Lighting is roughly seven hundred times cheaper in real terms than two centuries ago."
+      - "Direct rebound for household energy services is usually estimated at ten to thirty percent."
+      - "Rebound is small where a service is already saturated."
+  - id: PHY-S04-L4
+    strand: S04
+    title: "A Law of Nature or of Counting"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S04-L3"
+    advances: "Examines what kind of law the second law is, and why the question has practical consequences."
+    vocab_link: [inexorable]
+    passage: |
+      Heat flows from hot to cold, gases mix and do not unmix, and a broken cup
+      does not reassemble. The second law of thermodynamics states this as the
+      claim that entropy, meaning a measure of the number of microscopic
+      arrangements consistent with a given state, does not decrease in an
+      isolated system. The regularity is as reliable as anything in physics.
+      What kind of law it is has been argued since Boltzmann, and the argument
+      is not idle.
+
+      On one account it is a law of nature in the ordinary sense, a constraint
+      on what can happen. On the other it is a statistical law, meaning a
+      regularity that holds because the exceptions are overwhelmingly improbable
+      rather than impossible. The second account follows from the mechanics: the
+      molecular equations work equally well run backward, so nothing in them
+      forbids a gas collecting in one corner. The reason it never happens is
+      that the number of arrangements in which the gas is spread out exceeds the
+      number in which it is collected by a factor with more zeros than there are
+      atoms in the galaxy.
+
+      The statistical reading is now standard and it has a consequence that is
+      still argued over. If the law is statistical, it says nothing about an
+      individual molecule and nothing in principle about a sufficiently small
+      system, and experiments on single molecules and tiny beads have measured
+      brief, genuine decreases in entropy of exactly the kind the strict reading
+      forbids. The inexorable character of the law is therefore a property of
+      large numbers. That matters for anyone designing a machine at the scale of
+      a cell, where the fluctuations are the same size as the effects being
+      engineered. The relations governing those fluctuations were derived in the
+      1990s and have been confirmed repeatedly.
+    anchors:
+      - take: "The molecular equations work equally well run backward."
+        quote: "the molecular equations work equally well run backward"
+      - take: "Spread-out arrangements outnumber collected ones enormously."
+        quote: "exceeds the number in which it is collected"
+      - take: "The inexorable character is a property of large numbers."
+        quote: "a property of large numbers"
+    terms:
+      - {term: "entropy", gloss: "a measure of the number of microscopic arrangements consistent with a given state", glossed: true}
+      - {term: "statistical law", gloss: "a regularity that holds because exceptions are overwhelmingly improbable rather than impossible", glossed: true}
+    facts:
+      - "The second law states that entropy does not decrease in an isolated system."
+      - "Molecular mechanics is time-reversible, so the law is statistical rather than absolute."
+      - "Brief decreases in entropy have been measured in experiments on single molecules and small beads."
+  - id: PHY-S05-L4
+    strand: S05
+    title: "Big Grid or Small"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S05-L3"
+    advances: "Weighs two readings of grid reliability using the same blackout as evidence for both."
+    vocab_link: [marked]
+    passage: |
+      In August 2003 a line in Ohio sagged into a tree, protective equipment
+      disconnected it, the power it had carried transferred to neighboring
+      lines, and those disconnected in turn. Within about eight minutes
+      fifty-five million people in the United States and Canada had no
+      electricity. Each piece of equipment did what it was designed to do, which
+      is the defining feature of a cascading failure, meaning a sequence in
+      which each component protects itself and thereby overloads the next.
+
+      Two lessons were drawn from the same event. The first is that the grid was
+      too weakly connected and too weakly coordinated: operators could not see
+      conditions beyond their own territory, the alarm software in the control
+      room had failed and nobody noticed, and stronger interconnection with
+      better shared monitoring would have allowed the disturbance to be
+      absorbed. That argument produced the modern reliability standards and a
+      marked increase in transmission investment.
+
+      The second lesson is the opposite. A tightly connected network transmits
+      trouble as efficiently as it transmits power, and a continent-wide machine
+      in which a tree in Ohio can darken New York is fragile by construction.
+      The remedy proposed is islanding, meaning the deliberate separation of
+      parts of a network so that each can run alone, together with local
+      generation and storage. Both arguments are supported by engineering and by
+      subsequent events, and they are not fully reconcilable, because the same
+      connection that shares reserves also shares faults. Grid planning is
+      therefore a choice about which failure mode to prefer, and it is usually
+      presented as a technical question when it is a judgment about risk.
+      Standards written after 2003 are mandatory and enforced with penalties,
+      which was not previously the case. Large blackouts have become less
+      frequent in North America and have not stopped.
+    anchors:
+      - take: "Each piece of equipment did what it was designed to do."
+        quote: "Each piece of equipment did what it was designed to do"
+      - take: "A tightly connected network transmits trouble as efficiently as power."
+        quote: "transmits trouble as efficiently as it transmits power"
+      - take: "The same connection that shares reserves also shares faults."
+        quote: "the same connection that shares reserves also shares faults"
+    terms:
+      - {term: "cascading failure", gloss: "a sequence in which each component protects itself and thereby overloads the next", glossed: true}
+      - {term: "islanding", gloss: "deliberately separating part of a network so that it can run on its own", glossed: true}
+    facts:
+      - "The August 2003 blackout left about fifty-five million people without power in the United States and Canada."
+      - "It began when a line in Ohio contacted a tree and protective equipment disconnected it."
+      - "Mandatory reliability standards followed the event."
+  - id: PHY-S06-L4
+    strand: S06
+    title: "What the Two Slits Settled"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S06-L3"
+    advances: "Shows that the wave and particle accounts were not resolved by choosing one, and what the experiment forced instead."
+    vocab_link: [compound]
+    passage: |
+      Light passing through two narrow slits produces a pattern of bright and
+      dark bands on a screen behind them. Thomas Young demonstrated it in 1801,
+      and for a century it was taken as proof that light is a wave, because
+      particles arriving at a screen could not cancel one another out. Then the
+      photoelectric effect showed light delivering its energy in discrete lumps,
+      which waves do not do, and the two bodies of evidence compounded the
+      difficulty rather than resolving it.
+
+      The experiment that forced the modern account sends the light through one
+      particle at a time. Each arrival is a single point on the detector, which
+      is particle behavior. After enough arrivals the points have built up the
+      interference pattern, which is wave behavior, and the pattern is there
+      even though no two particles were ever present together to interfere with
+      each other. Put a detector at the slits to find out which one each
+      particle went through and the pattern disappears. The same result has been
+      obtained with electrons, neutrons, whole atoms and molecules of several
+      thousand atoms.
+
+      What this settled is narrower than it is usually said to be. It did not
+      show that light is both a wave and a particle, which is a sentence rather
+      than a claim. It showed that neither picture, both of which come from the
+      behavior of ordinary objects, applies to the thing being described, and
+      that the mathematics predicts every observed result without needing
+      either. The remaining argument concerns what the mathematics is about, and
+      it has run for a century without a decisive experiment, which is a
+      different situation from the one in which the physics is unsettled.
+      Several interpretations make identical predictions for every experiment
+      performed so far.
+    anchors:
+      - take: "One particle at a time still builds the interference pattern."
+        quote: "the points have built up the interference pattern"
+      - take: "Detecting which slit destroys the pattern."
+        quote: "Put a detector at the slits"
+      - take: "Neither ordinary picture applies to the thing being described."
+        quote: "applies to the thing being described"
+    terms:
+      - {term: "interference pattern", gloss: "the pattern of bright and dark bands produced when two waves overlap", glossed: true}
+    facts:
+      - "Young demonstrated two-slit interference in 1801."
+      - "Sending particles one at a time still produces the interference pattern."
+      - "Detecting which slit a particle passes through destroys the pattern."
+  - id: PHY-S07-L4
+    strand: S07
+    title: "Whether Chemistry Is Physics"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S07-L3"
+    advances: "Examines the reduction claim and uses a specific calculation to show where it holds and where it fails."
+    vocab_link: [degenerate]
+    passage: |
+      The strong claim about chemistry is reduction, meaning the proposition
+      that one science is in principle derivable from another, and in this case
+      that chemistry follows from the quantum mechanics worked out by Erwin
+      Schrodinger and others. The claim is not idle, because the derivation has
+      been carried out for small systems. The energy levels of a hydrogen
+      molecule can be computed from first principles to an accuracy better than
+      measurement. Degenerate orbitals, meaning states that share the same
+      energy, fall out of the mathematics without being put in.
+
+      The difficulty is scale, and it is not a difficulty of principle in the
+      usual sense. The computational cost of an exact solution grows so fast
+      with the number of electrons that a molecule of forty atoms is already
+      beyond any possible computer, and every practical method is an
+      approximation whose errors are controlled empirically, by comparison with
+      measurement. A chemist therefore uses rules, such as the ones about acids,
+      bonds and reaction rates, that are not derived from the underlying theory
+      and could not be.
+
+      Two readings of that situation are current. The reductionist says the
+      limit is practical, that the equations are correct, and that better
+      algorithms have been steadily moving the boundary for fifty years. The
+      opposing position is emergence, meaning the appearance at one scale of
+      regularities that are not stated at the scale below. Its advocates hold
+      that a science whose working concepts are not derivable in practice is not
+      reducible in any sense that matters, and that regularities at the
+      molecular scale are genuine features of the world rather than
+      conveniences. The disagreement is partly about the word reducible, and it
+      has a practical edge: funding goes to the people who claim their level of
+      description is the fundamental one. The boundary has moved from three
+      atoms to several dozen in half a century.
+    anchors:
+      - take: "Hydrogen molecule energy levels are computed better than measurement."
+        quote: "to an accuracy better than measurement"
+      - take: "A molecule of forty atoms is already beyond any possible computer."
+        quote: "beyond any possible computer"
+      - take: "The disagreement is partly about the word reducible."
+        quote: "partly about the word reducible"
+    terms:
+      - {term: "reduction", gloss: "the claim that one science is in principle derivable from another", glossed: true}
+    facts:
+      - "The energy levels of a hydrogen molecule can be computed from first principles very accurately."
+      - "Exact solutions become computationally impossible for molecules of a few dozen atoms."
+      - "Practical quantum chemistry methods are approximations calibrated against measurement."
+  - id: PHY-S08-L4
+    strand: S08
+    title: "Two Inquiries, One Bridge"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S08-L3"
+    advances: "Contrasts technical and organizational explanations of failure, using cases where both were offered."
+    vocab_link: [refractory]
+    passage: |
+      Inquiries into engineering failures reliably produce two kinds of
+      explanation, and the choice between them is not a matter of evidence
+      alone. The technical account names a component and a mechanism: cast iron
+      columns with cast bolt holes, no wind load in the calculation, a seal that
+      stiffens below a certain temperature. The organizational account names a
+      decision process: reports that went no further than a foreman, a schedule
+      that made a delay expensive, an engineer whose objection was overruled by
+      people who had heard objections before.
+
+      Both accounts are usually correct and they answer different questions. The
+      technical account identifies what broke. The organizational account
+      explains why the thing that broke was allowed to be in that condition, and
+      it is generally the more useful of the two for preventing the next
+      failure, because the specific component will not recur and the decision
+      process will. Diane Vaughan analysis of the first shuttle loss gave this
+      the name normalization of deviance, meaning the process by which a
+      repeated warning sign comes to be treated as acceptable because nothing
+      had yet gone wrong.
+
+      The dispute matters because the two accounts imply different remedies and
+      different liabilities. A technical finding produces a design change, which
+      is cheap and verifiable. An organizational finding implies that the
+      management structure was unsafe, which is expensive, contestable in court,
+      and refractory to engineering solutions. Inquiries with a narrow remit
+      tend to produce technical findings, and the second shuttle inquiry was
+      unusual in saying so explicitly: it found that the organizational causes
+      identified seventeen years earlier had not been addressed. Both shuttle
+      inquiry reports are public and are read together in engineering ethics
+      courses. The second quotes the first at length on exactly this point.
+    anchors:
+      - take: "The technical account names what broke."
+        quote: "The technical account identifies what broke."
+      - take: "The organizational cause recurs where the component will not."
+        quote: "the specific component will not recur and the decision process will"
+      - take: "Narrow inquiries tend to produce technical findings."
+        quote: "Inquiries with a narrow remit tend to produce technical findings"
+    terms:
+      - {term: "normalization of deviance", gloss: "the process by which a repeated warning sign comes to be treated as acceptable", glossed: true}
+    facts:
+      - "Engineering inquiries typically produce both technical and organizational explanations."
+      - "Diane Vaughan named the process normalization of deviance."
+      - "The second shuttle inquiry found that organizational causes identified seventeen years earlier had not been addressed."
+  - id: PHY-S09-L4
+    strand: S09
+    title: "Whether Small Doses Matter"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S09-L3"
+    advances: "Sets out the dispute over the shape of the dose response curve at low exposure and what each position implies."
+    vocab_link: [sensible]
+    passage: |
+      At high doses the effects of radiation on tissue are not in dispute. The
+      survivor studies from Hiroshima and Nagasaki are the basis of every
+      regulation in force. The argument is entirely about the shape of the curve
+      at the bottom, where the effects are too small to detect in any feasible
+      study, and the practical stakes are large, because almost all regulation
+      concerns that region.
+
+      The standard assumption is linear no-threshold, meaning that risk falls in
+      proportion to dose all the way down with no safe level. Its support comes
+      from extrapolating the survivor data, from the mechanism, since a single
+      track through a cell can damage DNA, and from the convenience of a rule
+      that allows doses to be added across a population. The alternative
+      position holds that repair mechanisms handle low doses completely, so that
+      a threshold exists below which there is no effect, and some argue for
+      hormesis, which is the proposal that very small doses are protective by
+      stimulating repair.
+
+      The honest position is that the question is not currently decidable. To
+      distinguish the curves at the doses in question would require a study of
+      millions of people with exposure measured individually, and the
+      confounding factors are larger than the effect. Both sides therefore argue
+      from mechanism and from the shape of data collected elsewhere. The policy
+      consequence is asymmetric, which is what keeps the dispute alive: assuming
+      no threshold makes cleanup and shielding extremely expensive, while
+      assuming a threshold risks harm that would never be sensible to detect
+      afterward. Regulators have mostly kept the linear assumption on the ground
+      that it errs in the safer direction, and the cost of that choice is a real
+      argument rather than a settled one. The largest worker study is consistent
+      with the linear assumption and does not exclude a small threshold.
+    anchors:
+      - take: "The dispute concerns the bottom of the curve only."
+        quote: "the shape of the curve at the bottom"
+      - take: "Distinguishing the curves would require millions of individually measured people."
+        quote: "a study of millions of people with exposure measured individually"
+      - take: "The policy consequence is asymmetric, which keeps the dispute alive."
+        quote: "The policy consequence is asymmetric"
+    terms:
+      - {term: "linear no-threshold", gloss: "the assumption that risk falls in proportion to dose all the way down with no safe level", glossed: true}
+      - {term: "hormesis", gloss: "the proposal that very small doses are harmless or beneficial", glossed: true}
+    facts:
+      - "High dose radiation effects are not in dispute; the argument concerns low doses."
+      - "Linear no-threshold assumes risk proportional to dose with no safe level."
+      - "Distinguishing the competing curves would require studies of millions with individual dosimetry."
+  - id: PHY-S10-L4
+    strand: S10
+    title: "Two Good Numbers That Disagree"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "PHY-S10-L3"
+    advances: "Presents a live measurement disagreement in cosmology and the three possible resolutions."
+    vocab_link: [gross]
+    passage: |
+      Two methods measure the Hubble constant, which is the present rate at
+      which the universe is expanding, and they have been disagreeing with each
+      other for more than a decade. The first works outward along the distance
+      ladder, using pulsating stars and exploding stars to measure distances to
+      galaxies whose recession speeds are known. The second works from the
+      pattern in the cosmic microwave background, fitting a model of the early
+      universe and calculating what the present rate must be. Both have been
+      refined by large teams with every known error accounted for. Both have
+      been checked by rival teams using the same data.
+
+      The figures are about seventy-three kilometers per second per megaparsec
+      from the ladder and about sixty-seven from the background. The gross
+      agreement between two completely independent methods is itself remarkable
+      and conceals a disagreement of about five sigma, meaning five times the
+      combined uncertainty, which in most of physics is the threshold for taking
+      a discrepancy seriously rather than waiting for better data.
+
+      Three resolutions are possible and each has advocates. There is an
+      unidentified systematic error in the ladder, most likely in the
+      calibration of the pulsating stars, and new instruments have been deployed
+      to look for it. There is an error in the model fitted to the background,
+      which would require a component of the early universe that nobody has
+      established. Or the standard cosmological model is incomplete, in which
+      case the disagreement is the first measurement of something new. Most
+      working cosmologists have been betting on the first for a decade, and the
+      disagreement has survived every improvement in both methods, which is
+      roughly what a real effect does. Independent methods not using either
+      route have begun to report, with values between the two. Their
+      uncertainties are still too large to decide the question either way.
+    anchors:
+      - take: "Two independent methods disagree by about five sigma."
+        quote: "a disagreement of about five sigma"
+      - take: "The figures are about seventy-three and about sixty-seven."
+        quote: "about seventy-three kilometers per second per megaparsec"
+      - take: "The disagreement has survived every improvement in both methods."
+        quote: "has survived every improvement in both methods"
+    terms:
+      - {term: "Hubble constant", gloss: "the present rate at which the universe is expanding", glossed: true}
+      - {term: "sigma", gloss: "a unit expressing how far two results are apart in terms of their own uncertainties", glossed: true}
+    facts:
+      - "Distance ladder measurements give an expansion rate near 73 kilometers per second per megaparsec."
+      - "Measurements from the cosmic microwave background give about 67."
+      - "The discrepancy is about five times the combined uncertainty."

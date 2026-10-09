@@ -1,0 +1,513 @@
+field: HUM
+level: 4
+passages:
+  - id: HUM-S01-L4
+    strand: S01
+    title: "Whose Judgment Is It"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S01-L3"
+    advances: "Separates narrator, implied author and writer, and shows what turns on the distinction in practice."
+    vocab_link: [arch]
+    passage: |
+      When a narrator makes a judgment, three candidates exist for whose
+      judgment it is. It may be the narrator alone, which is the case whenever a
+      reader can see the narrator being wrong. It may be the implied author,
+      meaning the sensibility a reader reconstructs from the whole text, which
+      is neither the narrator nor the person who wrote it. Or it may be the
+      writer, who had opinions and a biography, and whose letters may say the
+      opposite.
+
+      The distinction matters because it decides what an arch or ironic sentence
+      commits anybody to. A narrator who praises a slave owner in an
+      abolitionist novel is not the novel praising him, and a reader who
+      collapses the three levels will read the book as its own opposite. Wayne
+      Booth made the implied author the standard tool for handling this in 1961,
+      and its usefulness is that it can be derived from the text alone, by
+      asking what set of values would make the whole arrangement coherent.
+
+      The objection is that this licenses almost any reading. If a sentence that
+      appears to endorse something can be read as ironic, and irony is
+      established by what the reader takes the implied author to think, the
+      argument is circular, and critics have used the move to rescue admired
+      writers from positions the writers plainly held. The discipline that
+      controls it is textual: irony has to be marked somewhere, by exaggeration,
+      by a detail that will not fit, or by a pattern across the book. Where
+      nothing in the text marks it, the sentence stands, and some admired
+      writers believed unpleasant things. The dispute is sharpest in teaching,
+      where a class has to decide what a text is doing before it can discuss it.
+    anchors:
+      - take: "Three candidates exist for whose judgment a narrator makes."
+        quote: "three candidates exist for whose judgment it is"
+      - take: "The implied author can be derived from the text alone."
+        quote: "derived from the text alone"
+      - take: "Where nothing marks irony, the sentence stands."
+        quote: "Where nothing in the text marks it, the sentence stands"
+    terms:
+      - {term: "implied author", gloss: "the sensibility a reader reconstructs from the whole text, distinct from both narrator and writer", glossed: true}
+      - {term: "irony", gloss: "saying something while giving the reader grounds to take the opposite", glossed: false}
+    facts:
+      - "Wayne Booth introduced the implied author as a critical tool in 1961."
+      - "The implied author is distinct from both the narrator and the writer."
+      - "Irony has to be marked in the text by exaggeration, an ill-fitting detail or a pattern."
+  - id: HUM-S02-L4
+    strand: S02
+    title: "Psychology or Function"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S02-L3"
+    advances: "Contrasts the formalist and humanist accounts of character and shows what each one explains."
+    vocab_link: [affected]
+    passage: |
+      Vladimir Propp analyzed a hundred Russian folk tales and found that the
+      characters could be reduced to seven roles: the villain, the donor, the
+      helper, the princess, the dispatcher, the hero and the false hero. The
+      tales differ in who fills each role and in almost nothing else. That is
+      formalism, meaning the study of a work as a structure of parts, and on
+      this account a character is a character function, meaning the role a
+      figure performs in a plot, with personality as decoration.
+
+      The humanist reply is that this works for folk tales and fails for novels.
+      Readers argue about whether a character would really have done something,
+      which is a psychological question, and novelists revise in order to make
+      motive consistent, which is a psychological labor. A critic who says that
+      Dorothea Brooke is the dispatcher has described a function and left out
+      everything the book spends eight hundred pages on. Readers also form
+      attachments that no account of function predicts.
+
+      The sharpest version of the dispute concerns what a reader is doing when
+      making inferences about a character inner life. The formalist says the
+      reader is constructing from textual cues and that the construction is an
+      effect the author arranged, so talk of a character psychology is a
+      convenient shorthand for a pattern on the page. The humanist says the
+      shorthand is the point, that fiction is an instrument for modeling other
+      minds, and that an account which cannot say why anyone would be affected
+      by a novel has explained the wrong thing. Both positions are held by
+      serious people and the disagreement is about what literary study is for.
+      Cognitive approaches have given the humanist side experimental support
+      about mind-reading in readers. The formalist side points out that the same
+      experiments work on tales with no psychology in them at all.
+    anchors:
+      - take: "Propp reduced a hundred tales to seven character roles."
+        quote: "seven roles"
+      - take: "Novelists revise in order to make motive consistent."
+        quote: "which is a psychological labor"
+      - take: "The disagreement is about what literary study is for."
+        quote: "what literary study is for"
+    terms:
+      - {term: "formalism", gloss: "the study of a work as a structure of parts rather than as a representation of people", glossed: true}
+      - {term: "character function", gloss: "the role a figure performs in a plot, independent of personality", glossed: true}
+    facts:
+      - "Propp analyzed a hundred Russian folk tales and identified seven character roles."
+      - "Formalism treats character as a function in a structure."
+      - "Cognitive approaches have provided experimental support for readers modeling fictional minds."
+  - id: HUM-S03-L4
+    strand: S03
+    title: "Meaning or Mood"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S03-L3"
+    advances: "Tests the claim that images carry determinate meanings against the alternative that they create atmosphere."
+    vocab_link: [involved]
+    passage: |
+      The strong claim about imagery is that images are symbols, meaning that
+      they stand for something beyond themselves in a way that can be stated:
+      the river is time, the garden is innocence, the fog is moral confusion.
+      The claim licenses a whole genre of criticism and a whole genre of
+      examination answer, and it has an obvious problem, which is that the
+      equations are supplied by the critic and cannot be checked against
+      anything.
+
+      The deflationary alternative holds that most images work on mood rather
+      than on meaning. Fog in a novel makes a reader uneasy, which is an effect
+      in the reader and requires no translation. On this account an involved
+      symbolic reading is a way of converting an experience into a proposition,
+      and something is lost rather than gained in the conversion. Writers have
+      often said so bluntly when asked what their images mean, and the usual
+      critical answer is that an author statement does not settle the question,
+      a position known as the intentional fallacy.
+
+      That answer is good as far as it goes and does not resolve the dispute,
+      since it removes one constraint without supplying another. What constrains
+      a symbolic reading in practice is pattern and consistency: an image that
+      recurs, that is placed at the turns of the plot, and that other elements
+      of the text treat as significant is doing more work than one that appears
+      once. The best current position is that the two accounts are about
+      different images rather than rival accounts of all of them, and that the
+      critical skill lies in telling which kind is on the page. Cleanth Brooks
+      and his successors made the stronger case and the weaker one has worn
+      better. Examination boards have quietly moved toward requiring evidence of
+      pattern rather than assertion of symbolism. That shift is visible in
+      published mark schemes over twenty years.
+    anchors:
+      - take: "Symbolic equations are supplied by the critic."
+        quote: "the equations are supplied by the critic"
+      - take: "Fog makes a reader uneasy without needing translation."
+        quote: "an effect in the reader and requires no translation"
+      - take: "Pattern and consistency constrain a symbolic reading."
+        quote: "What constrains a symbolic reading in practice is pattern and consistency"
+    terms:
+      - {term: "symbol", gloss: "an image taken to stand for something beyond itself in a determinate way", glossed: true}
+      - {term: "intentional fallacy", gloss: "the claim that an authors stated purpose does not settle what a work means", glossed: true}
+    facts:
+      - "Symbolic criticism treats an image as standing for something statable."
+      - "The intentional fallacy holds that an author stated purpose does not settle a work meaning."
+      - "Recurrence and placement at plot turns are the practical constraints on a symbolic reading."
+  - id: HUM-S04-L4
+    strand: S04
+    title: "Does Free Verse Have Form"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S04-L3"
+    advances: "Examines the argument over whether verse without meter has form, and what each side counts as evidence."
+    vocab_link: [studied]
+    passage: |
+      Walt Whitman published verse with no regular meter and no rhyme in 1855,
+      and the objection was immediate: without a counted pattern there is
+      nothing to depart from, so the line breaks are arbitrary and the result is
+      prose with ragged edges. The objection is not frivolous. If the reader has
+      no expectation, the devices that depend on expectation cannot work, and a
+      line ending that suspends a word cannot suspend anything.
+
+      The defense has two parts. The first is that free verse substitutes other
+      patterns for meter: the length of the breath, the repetition of a
+      grammatical shape, parallel clauses that accumulate, and cadence, meaning
+      the rhythmic shape of a phrase independent of a counted meter. Whitman
+      catalogues are built on grammatical repetition as strictly as a sonnet is
+      built on a rhyme scheme. The second part is empirical: readers do hear the
+      line breaks, and rearranging the lines of a good free verse poem damages
+      it in ways that can be demonstrated to a class.
+
+      The strongest version of the criticism concedes both points and narrows
+      the claim. Free verse has form, it says, but the form is established
+      inside each poem rather than inherited, which means that a reader must
+      learn the pattern from the poem itself and cannot bring one to it. That
+      makes the poet task harder and the reader task less reliable, and it
+      explains why the worst free verse is worse than the worst metrical verse.
+      Both sides now accept something like that, and the argument has moved to
+      whether a studied irregularity in metrical verse achieves the same thing
+      more economically. Eliot wrote that no verse is free for the poet who
+      wants to do a good job, which both sides quote.
+    anchors:
+      - take: "Without expectation the devices that depend on it cannot work."
+        quote: "the devices that depend on expectation cannot work"
+      - take: "Free verse substitutes grammatical repetition and cadence for meter."
+        quote: "parallel clauses that accumulate"
+      - take: "The form is established inside each poem rather than inherited."
+        quote: "established inside each poem rather than inherited"
+    terms:
+      - {term: "free verse", gloss: "poetry without a regular meter or rhyme scheme", glossed: true}
+      - {term: "cadence", gloss: "the rhythmic shape of a phrase, independent of a counted meter", glossed: true}
+    facts:
+      - "Whitman published free verse in 1855."
+      - "Free verse substitutes breath length, grammatical repetition and cadence for meter."
+      - "Eliot wrote that no verse is free for the poet who wants to do a good job."
+  - id: HUM-S05-L4
+    strand: S05
+    title: "The Play or the Production"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S05-L3"
+    advances: "Sets the text-centered and stage-centered accounts of drama against each other using cases of radical staging."
+    vocab_link: [arrest]
+    passage: |
+      A play exists in two states and the question of which one is the work has
+      produced a century of argument. On the text-centered account the play is
+      what the author wrote, productions are interpretations of it, and a
+      production that contradicts the text has failed in the way a translation
+      that reverses a sentence has failed. On the stage-centered account a play
+      is a score for performance, incomplete until performed, and what a reader
+      holds is not the work but the instructions.
+
+      Directors theater, meaning a tradition in which the director
+      interpretation is the primary creative act, pushed the second account hard
+      from the middle of the twentieth century. Productions set the plays in
+      asylums and boardrooms, cut and reordered freely, cast against the text,
+      and in several celebrated cases produced something that could arrest an
+      audience that had seen the play twenty times. Defenders argued that this
+      is what the plays had always received, since the Victorians cut a third
+      and nobody now calls that fidelity.
+
+      The text-centered reply has a narrow and strong version. It concedes that
+      staging is creative and insists that a production which reverses the
+      meaning of the text is making a different work and should say so, because
+      the alternative is a situation in which a student who has seen the play
+      has not encountered it. That seems to be roughly where practice has
+      landed. Programs now routinely describe what has been done, adaptations
+      are labeled as such, and the serious disagreements have moved to specific
+      cases rather than to the principle. Copyright gives living playwrights a
+      veto that dead ones do not have, which shapes the argument in practice.
+      Several estates have withdrawn permission from productions they considered
+      unfaithful. The principle is now largely agreed and the cases are fought
+      one at a time.
+    anchors:
+      - take: "A play exists in two states."
+        quote: "A play exists in two states"
+      - take: "The Victorians cut a third and nobody calls that fidelity."
+        quote: "the Victorians cut a third"
+      - take: "A production that reverses the text is making a different work."
+        quote: "is making a different work and should say so"
+    terms:
+      - {term: "directors theater", gloss: "a tradition in which the director interpretation is the primary creative act", glossed: true}
+      - {term: "performance text", gloss: "the version of a play that a particular production actually realizes", glossed: true}
+    facts:
+      - "Directors theater treats the director interpretation as the primary creative act."
+      - "Victorian productions of Shakespeare commonly cut a third of the text."
+      - "Living playwrights can refuse permission for productions, which dead ones cannot."
+  - id: HUM-S06-L4
+    strand: S06
+    title: "Limit or Licence"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S06-L3"
+    advances: "Weighs the claim that genre constrains writers against the claim that it is what makes meaning possible."
+    vocab_link: [pastiche]
+    passage: |
+      The case against genre, put most sharply by Edmund Wilson, is that it is a
+      marketing category masquerading as a kind, that it rewards repetition, and
+      that a writer working inside it is solving a puzzle rather than making
+      something. The literary hierarchy, meaning the ranking of kinds of writing
+      by assumed seriousness, has placed detective fiction, romance, science
+      fiction and the western near the bottom for a century, and the reasons
+      given usually amount to the observation that such books resemble one
+      another.
+
+      The case for genre begins by pointing out that the observation is true of
+      everything. Sonnets resemble one another, tragedies resemble one another,
+      and nobody holds that against them. A form that a reader knows is a form a
+      writer can use: the expectation is a resource, and the most admired works
+      in several genres are the ones that bend a known rule at a known point.
+      Pastiche, meaning open imitation of a style without deceit or mockery, is
+      only legible where the style is familiar enough to be recognized.
+
+      What makes this a real dispute rather than a misunderstanding is that both
+      sides can point to the same books. A detective novel that keeps every rule
+      is competent and forgettable, which supports the critics. A detective
+      novel that breaks one rule precisely is remarkable, which supports the
+      defenders and depends on the rules the critics complain about. The
+      position that survives both is unexciting: a genre is a set of
+      constraints, constraints are what make significant choices possible, and
+      the quality of the writing is a separate question from the kind of book it
+      is. Prize juries have moved substantially on this in thirty years, and
+      several genre writers now appear on literary lists. The hierarchy has not
+      disappeared and the arguments for it have become quieter.
+    anchors:
+      - take: "Sonnets resemble one another and nobody holds it against them."
+        quote: "Sonnets resemble one another"
+      - take: "Pastiche is legible only where the style is familiar."
+        quote: "only legible where the style is familiar enough to be recognized"
+      - take: "Constraints are what make a significant choice possible at all."
+        quote: "constraints are what make significant choices possible"
+    terms:
+      - {term: "literary hierarchy", gloss: "the ranking of kinds of writing by assumed seriousness", glossed: true}
+    facts:
+      - "The literary hierarchy has placed detective fiction, romance and science fiction low for a century."
+      - "Pastiche depends on the imitated style being recognizable."
+      - "Prize juries have included more genre writers over the last thirty years."
+  - id: HUM-S07-L4
+    strand: S07
+    title: "Reading With Period Eyes"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S07-L3"
+    advances: "Contrasts iconographic and formal approaches to a painting and shows the difficulty each faces."
+    vocab_link: [recondite]
+    passage: |
+      A seventeenth-century Dutch painting of a woman at a window may be a
+      scene, or it may be a warning about vanity, and the choice between those
+      readings is the oldest methodological dispute in art history. Iconography,
+      meaning the study of the conventional meanings attached to images in a
+      period, holds that such pictures used a shared code: the mirror, the dog,
+      the open window and the extinguished candle all carried meanings that a
+      contemporary viewer read without effort. The evidence is emblem books,
+      sermons and household inventories, of which thousands survive from the
+      seventeenth century.
+
+      The objection is not that the code did not exist but that it is being
+      applied too freely. A dog in a painting may signify fidelity and may also
+      be a dog, and the available emblem books supply several meanings for most
+      objects, which allows a determined scholar to find a recondite reading for
+      anything. The formal alternative attends to how a picture is made and to
+      what it does to the eye, and treats meaning as arising from arrangement
+      rather than from vocabulary.
+
+      Michael Baxandall proposed the useful middle term with the period eye,
+      meaning the habits of seeing that a viewer of the time brought to a work,
+      including skills unrelated to art such as gauging volumes in a trade that
+      required it. That reframes the question as empirical: what did this
+      audience know how to do. Answering it requires evidence about schooling,
+      commerce and devotion rather than about symbols, and it has produced the
+      most durable work in the field. The dispute survives because a picture
+      whose audience left no record cannot be read that way at all. Both camps
+      use the same conservation reports and the same inventories. Where they
+      differ is in what counts as a legitimate inference from them.
+    anchors:
+      - take: "A dog may signify fidelity and may also be a dog."
+        quote: "may signify fidelity and may also be a dog"
+      - take: "Emblem books supply several meanings for most objects."
+        quote: "supply several meanings for most objects"
+      - take: "The period eye reframes the question as empirical."
+        quote: "what did this audience know how to do"
+    terms:
+      - {term: "iconography", gloss: "the study of the conventional meanings attached to images in a particular period", glossed: true}
+      - {term: "period eye", gloss: "the habits of seeing that a viewer of the time would have brought to a work", glossed: true}
+    facts:
+      - "Iconography studies the conventional meanings attached to images in a period."
+      - "Emblem books often supply multiple meanings for a single object."
+      - "Baxandall introduced the period eye to describe habits of seeing brought to a work."
+  - id: HUM-S08-L4
+    strand: S08
+    title: "The Score or the Sound"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S08-L3"
+    advances: "Presents the historically informed performance argument and the objections that have been sustained against it."
+    vocab_link: [economy]
+    passage: |
+      From the 1960s a movement associated with Nikolaus Harnoncourt and others
+      argued for historically informed performance, meaning the playing of old
+      music on the instruments and in the manner of its own period. That meant
+      instruments of the period, the pitch of the period, the numbers the
+      composer actually had, and the ornaments and tempos that contemporary
+      treatises describe. Historically informed performance produced recordings
+      that sounded startlingly unlike the orchestral tradition, with smaller
+      forces, faster tempos, less vibrato and a different economy of sound
+      altogether. It also produced urtext editions, meaning editions that
+      present what the composer wrote without later editorial additions.
+
+      The objections came quickly and some have held up. There is no recording
+      of anything before 1877, so the claim rests on written sources which are
+      incomplete and often disagree. A modern audience is not a period audience,
+      so reproducing the acoustic conditions does not reproduce the experience.
+      Composers frequently wrote for forces they considered inadequate, and
+      several said so in letters, which makes the appeal to original practice an
+      appeal to a compromise rather than to an intention.
+
+      The movement answer has largely been to drop the strongest claim. Few
+      practitioners now argue that period performance is authentic in the sense
+      of recovering a lost original. What they argue instead is that the
+      instruments and the treatises are evidence about choices the music
+      assumes, and that a performer who knows them has more options rather than
+      fewer. That is a defensible position and it has changed mainstream
+      practice, which now uses smaller forces and faster tempos than it did,
+      without anybody conceding the original argument. The two traditions have
+      converged in the concert hall more than in the published polemics. Several
+      conductors move between them without comment, which would have been
+      unthinkable in 1975.
+    anchors:
+      - take: "There is no recording of anything before 1877."
+        quote: "no recording of anything before 1877"
+      - take: "Composers often wrote for forces they considered inadequate."
+        quote: "wrote for forces they considered inadequate"
+      - take: "The strongest claim was dropped and the practice changed anyway."
+        quote: "without anybody conceding the original argument"
+    terms:
+      - {term: "historically informed performance", gloss: "playing music on the instruments and in the manner of its own period", glossed: true}
+      - {term: "urtext", gloss: "an edition that attempts to present what the composer wrote, stripped of later editorial additions", glossed: true}
+    facts:
+      - "Historically informed performance uses period instruments, pitch and performing numbers."
+      - "No sound recordings exist from before 1877."
+      - "Mainstream orchestral practice has adopted smaller forces and faster tempos."
+  - id: HUM-S09-L4
+    strand: S09
+    title: "The Block or the Tower"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S09-L3"
+    advances: "Sets two city-making doctrines against each other and tests both against what was actually built."
+    vocab_link: [laconic]
+    passage: |
+      Le Corbusier proposed replacing the dense city with towers in parkland,
+      and the argument was not foolish. Nineteenth-century slums were dark,
+      overcrowded and lethal, and a tower on a small footprint can house the
+      same people with light, air, trees and no traffic at the door. The
+      superblock, meaning a large site planned as a single unit with towers set
+      in open ground, was built in that spirit across Europe, Asia and America
+      for forty years.
+
+      Jane Jacobs attacked it in 1961 from observation rather than from
+      doctrine. Her claim was that the things that make a street safe and
+      useful, which are short blocks, many doorways, mixed uses and people on
+      the pavement at different hours, are destroyed by the design, and that the
+      open ground is not a park but a space nobody is responsible for. Her book
+      is laconic about architecture and specific about behavior, and most of its
+      observations have since been measured and confirmed.
+
+      The honest verdict has to be split, because both doctrines produced
+      disasters and successes. Superblocks in Vienna and Singapore work, with
+      the same form and different management, maintenance and tenure. Dense
+      traditional streets produce gentrification that prices out exactly the
+      populations Jacobs defended. The variable that best predicts success in
+      the studies is not the form but whether the residents have security,
+      maintenance and some control, which is a conclusion that pleases neither
+      party and has been available in the evidence for thirty years. Several
+      demolished American projects had maintenance budgets cut to a fraction of
+      what their designs required. Comparable buildings elsewhere with funded
+      maintenance are still standing and sought after. That conclusion also
+      explains the pattern of demolitions, which fell heavily on projects whose
+      management had been cut and lightly on identical buildings that were
+      maintained.
+    anchors:
+      - take: "A tower on a small footprint can house people with light and air."
+        quote: "with light, air, trees and no traffic at the door"
+      - take: "Jacobs attacked from observation rather than doctrine."
+        quote: "from observation rather than from doctrine"
+      - take: "Form predicts success less well than security and maintenance."
+        quote: "not the form but whether the residents have security, maintenance and some control"
+    terms:
+      - {term: "superblock", gloss: "a large site planned as a single unit, with towers set in open ground", glossed: true}
+      - {term: "mixed use", gloss: "buildings and streets that combine housing, work and shops in the same area", glossed: false}
+    facts:
+      - "Le Corbusier advocated towers set in parkland as a replacement for the dense city."
+      - "Jane Jacobs published her observational critique in 1961."
+      - "Superblocks in Vienna and Singapore have succeeded with the same form as failed projects elsewhere."
+  - id: HUM-S10-L4
+    strand: S10
+    title: "Can a Judgment Be True"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HUM-S10-L3"
+    advances: "Examines whether critical judgments can be true, and what the convergence of informed taste does and does not show."
+    vocab_link: [sardonic]
+    passage: |
+      The question of whether a judgment of art can be true is not an idle one,
+      since the whole practice of criticism assumes an answer. Relativism,
+      meaning the position that such a judgment can be true only relative to a
+      standard, has the virtue of explaining the historical record: standards
+      demonstrably change, as the earlier passages in this strand showed, and a
+      claim that one period simply saw correctly looks hard to defend.
+
+      The opposing tradition tries to anchor judgment in agreement rather than
+      in the work. David Hume observed that the verdicts of people with wide
+      experience of an art form converge more than the verdicts of beginners,
+      and proposed the ideal critic, meaning a hypothetical judge with full
+      knowledge and no prejudice, as the standard against which a verdict is
+      correct. The argument is not that experts cannot be wrong but that
+      convergence under those conditions is the only thing that could make a
+      judgment true, and that it does.
+
+      Each position has a hard case. The relativist has to explain why the
+      convergence happens at all, and why disagreements about technique and
+      coherence are settled so routinely in practice. The Humean has to explain
+      away the cases where informed opinion converged and later reversed, which
+      are numerous enough to be embarrassing and are the subject of a sardonic
+      literature of its own. The most defensible position concedes that
+      judgments about craft can be argued to a conclusion, that judgments about
+      value cannot be settled in the same way, and that criticism is worth doing
+      anyway. Both positions have been defended in detail by philosophers who
+      agree about almost every particular verdict. The practical consequence of
+      the choice is smaller than the heat of the argument suggests.
+    anchors:
+      - take: "Standards demonstrably change over periods, which relativism explains."
+        quote: "standards demonstrably change"
+      - take: "Hume observed that informed verdicts converge."
+        quote: "converge more than the verdicts of beginners"
+      - take: "The Humean must explain reversals of informed opinion."
+        quote: "where informed opinion converged and later reversed"
+    terms:
+      - {term: "relativism", gloss: "the position that a judgment of value can be true only relative to a standard", glossed: true}
+      - {term: "ideal critic", gloss: "a hypothetical judge with full knowledge and no prejudice, used to define a correct verdict", glossed: true}
+    facts:
+      - "Relativism holds that a value judgment can be true only relative to a standard."
+      - "Hume proposed the ideal critic as the measure of a correct verdict."
+      - "Informed critical opinion has converged and later reversed in numerous documented cases."
