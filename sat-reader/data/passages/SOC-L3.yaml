@@ -1,0 +1,520 @@
+field: SOC
+level: 3
+passages:
+  - id: SOC-S01-L3
+    strand: S01
+    title: "How a Modern Poll Is Built"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S01-L2"
+    advances: "Describes the actual construction of a probability sample and the stages at which judgment enters."
+    vocab_link: [methodical]
+    passage: |
+      A serious poll is built in four stages, and a reader who knows the stages
+      can judge the result. The first is the frame. Address-based sampling, used
+      by Pew and by most serious firms, begins from a list of residential
+      addresses, which covers almost every household, and letters are sent
+      inviting people to answer online or by telephone. Telephone sampling
+      generates numbers at random, including unlisted ones, which is why
+      pollsters still ring mobile numbers at considerable expense.
+
+      The second stage is selection, and the aim is a probability sample,
+      meaning one in which every member of the population has a known chance of
+      being chosen. That known chance is what licenses the arithmetic afterward.
+      The third stage is weighting, meaning the adjustment of answers so that
+      the sample matches known population proportions for age, sex, region,
+      education and sometimes past vote. Weighting is where judgment enters,
+      because the pollster must decide which characteristics matter, and
+      education turned out to matter a great deal more after 2016 than most
+      firms had assumed.
+
+      The fourth stage is the reported margin, and it describes only the first
+      two stages. A margin of error of three points on a thousand interviews is
+      a statement about sampling variation under the assumption that the frame
+      is right and the weights are right. It makes no allowance for a frame that
+      misses people, for the ninety percent who did not answer, or for the
+      wording of the questions. A methodical firm publishes all four stages and
+      its weighting targets, which is the only way a reader can tell a careful
+      poll from a confident one. Several national polling associations now
+      require that disclosure as a condition of membership. Firms that decline
+      to join are not thereby wrong, but they are harder to check.
+    anchors:
+      - take: "A probability sample gives every member a known chance of selection."
+        quote: "a known chance of being chosen"
+      - take: "Weighting is the stage at which the pollster judgment enters."
+        quote: "Weighting is where judgment enters"
+      - take: "The reported margin describes only sampling variation."
+        quote: "a statement about sampling variation"
+    terms:
+      - {term: "probability sample", gloss: "a sample in which every member of the population has a known chance of selection", glossed: true}
+      - {term: "weighting", gloss: "adjusting the answers so that the sample matches known population proportions", glossed: true}
+    facts:
+      - "Address-based sampling begins from a list of residential addresses."
+      - "Weighting adjusts a sample to match known population proportions."
+      - "A margin of error makes no allowance for frame error, nonresponse or question wording."
+  - id: SOC-S02-L3
+    strand: S02
+    title: "Two Lotteries and a Preschool"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S02-L2"
+    advances: "Presents two real randomized studies, their findings and the particular questions each one could answer."
+    vocab_link: [causal]
+    passage: |
+      In 2008 Oregon had money to extend health coverage to about ten thousand
+      adults and roughly ninety thousand people applied. The state allocated the
+      places by lottery, which created, without intending to, the cleanest
+      comparison available anywhere: two large groups alike in every respect
+      except coverage. Researchers followed both. Those who gained coverage used
+      more health care, were much less likely to face catastrophic medical
+      bills, and reported better mental health. Measured blood pressure and
+      cholesterol after two years showed no statistically significant
+      difference, which was not the result most people had expected and is the
+      most argued-over part of the study.
+
+      The Perry Preschool study is older and smaller. In the 1960s a hundred and
+      twenty-three poor children in Ypsilanti, Michigan, were assigned by lot to
+      a high-quality preschool program or to nothing, and have been followed
+      ever since. Differences in measured intelligence faded by the early school
+      years, which was read at the time as failure. The follow-up period,
+      meaning how long participants are tracked, turned out to be the crucial
+      design choice. By age forty the treated group had higher earnings, more
+      home ownership and fewer arrests, and the benefit-cost ratios computed
+      from those outcomes have shaped policy for twenty years.
+
+      Both studies support causal claims because of the lottery. Both are
+      limited by the same thing: each tells us about one program, in one place,
+      at one time, for one population. The Perry sample is a hundred and
+      twenty-three children in a single town in the 1960s, which is a slender
+      base for a national argument, and the honest practice is to say so while
+      using the result. Several later preschool trials have found smaller
+      effects, and the differences are still being argued about. What is not in
+      dispute is that the effects were measured after the children had grown up.
+    anchors:
+      - take: "Oregon allocated coverage by lottery and created a clean comparison."
+        quote: "The state allocated the places by lottery"
+      - take: "Perry effects on measured intelligence faded but adult outcomes differed."
+        quote: "Differences in measured intelligence faded by the early school years"
+      - take: "Each study tells us about one program in one place at one time."
+        quote: "one program, in one place, at one time"
+    terms:
+      - {term: "follow-up period", gloss: "the length of time over which participants are tracked after the trial", glossed: true}
+    facts:
+      - "Oregon allocated about ten thousand health coverage places by lottery in 2008 among roughly ninety thousand applicants."
+      - "Coverage reduced catastrophic medical bills and improved reported mental health, with no significant blood pressure effect at two years."
+      - "The Perry Preschool study randomized 123 children in Ypsilanti, Michigan, and followed them to age forty."
+  - id: SOC-S03-L3
+    strand: S03
+    title: "When Chance Does the Assigning"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S03-L2"
+    advances: "Explains the natural experiment, with three worked kinds, and the assumption each one rests on."
+    vocab_link: [confound]
+    passage: |
+      Where a lottery cannot be run, researchers look for one that has already
+      happened by accident. A natural experiment, meaning a situation in which
+      something outside the researchers control has allocated people almost at
+      random, is now the main instrument of modern social science. Three kinds
+      of situation account for most of the published work, and each carries a
+      characteristic weakness that a careful reader can look for before
+      accepting the result.
+
+      The first is a genuine lottery used for some other purpose. The military
+      draft lotteries of the Vietnam era assigned young American men a number by
+      date of birth. Because that number was random, comparing the later
+      earnings of men with low and high numbers isolates the effect of service
+      from everything that would otherwise confound it. The second is the
+      discontinuity. Where a program has an arbitrary cutoff, such as a score of
+      sixty for a scholarship, applicants who scored fifty-nine and sixty-one
+      are indistinguishable in every respect except the award. Regression
+      discontinuity, meaning the comparison of cases just above and just below
+      such a line, exploits exactly that. The third kind is the border, since
+      the two sides of a state line differ in law while remaining similar in
+      almost every other respect.
+
+      Each rests on an assumption that has to be defended rather than assumed.
+      The draft numbers were random, but service was not, since men could enlist
+      or evade, so what the comparison measures is the effect of being more
+      likely to serve. Discontinuities assume that nobody manipulated the score,
+      which is sometimes false and can be tested by looking for a suspicious
+      bunching of scores just above the line. Borders assume that people do not
+      move across them in response to the policy, which they sometimes do. The
+      spread of the method has produced a literature of cautionary cases in
+      which the assumption failed quietly.
+    anchors:
+      - take: "A natural experiment uses an allocation made by something outside the researcher."
+        quote: "something outside the researchers control has allocated people almost at random"
+      - take: "Scores either side of an arbitrary cutoff are otherwise indistinguishable."
+        quote: "indistinguishable in every respect except the award"
+      - take: "Each kind rests on an assumption that must be defended."
+        quote: "an assumption that has to be defended rather than assumed"
+    terms:
+      - {term: "natural experiment", gloss: "a situation in which something outside the researchers control has allocated people almost at random", glossed: true}
+      - {term: "regression discontinuity", gloss: "comparing cases just above and just below an arbitrary cutoff", glossed: true}
+    facts:
+      - "The Vietnam draft lottery assigned numbers by date of birth, allowing comparison of later earnings."
+      - "Regression discontinuity compares cases just above and just below an arbitrary cutoff."
+      - "Bunching of scores just above a cutoff is evidence of manipulation."
+  - id: SOC-S04-L3
+    strand: S04
+    title: "What a Margin of Error Says"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S04-L2"
+    advances: "Explains precisely what a confidence interval asserts, and the three ways the phrase is misused."
+    vocab_link: [marginal]
+    passage: |
+      A confidence interval is a statement about a procedure rather than about a
+      number. When a Gallup poll reports forty-eight percent with a margin of
+      three points, the claim is narrower than it looks. The method used,
+      repeated many times on fresh samples, would produce an interval containing
+      the true value in about ninety-five cases out of a hundred. It does not
+      say that there is a ninety-five percent chance that the truth lies between
+      forty-five and fifty-one, although almost every newspaper sentence on the
+      subject says exactly that.
+
+      Three misuses follow from the confusion. The first is treating two
+      overlapping intervals as showing no difference, which does not follow, and
+      treating two separated intervals as showing one, which requires its own
+      test. The second is reading a result that is marginal as though
+      significance were a property of the world. Statistical significance means
+      the judgment that a result is unlikely to have arisen from sampling
+      variation alone, and it depends on the sample size as much as on the
+      effect. A trivial difference becomes significant in a large enough study,
+      and an important one stays invisible in a small one.
+
+      The third misuse is the comparison nobody declared. If twenty subgroups
+      are examined and one shows a significant difference, that is what twenty
+      tests produce by chance about once in every set. Trials registered in
+      advance, stating which comparison is the main one, exist to close that
+      door. A reader who wants to judge a reported figure therefore needs the
+      interval, the sample size, and the number of comparisons that were made
+      before this one was chosen for the headline. Several journals now require
+      that the pre-registered comparison be identified in the abstract. The
+      requirement has made a visible difference to the proportion of positive
+      findings reported.
+    anchors:
+      - take: "A confidence interval describes a procedure, not a single number."
+        quote: "a statement about a procedure rather than about a number"
+      - take: "Significance depends on sample size as much as on the effect."
+        quote: "depends on the sample size as much as on the effect"
+      - take: "Twenty tests produce one chance result per set."
+        quote: "that is what twenty tests produce by chance"
+    terms:
+      - {term: "confidence interval", gloss: "a range calculated so that the procedure captures the true value in a stated share of repetitions", glossed: true}
+      - {term: "statistical significance", gloss: "the judgment that a result is unlikely to have arisen from sampling variation alone", glossed: true}
+    facts:
+      - "A ninety-five percent interval captures the true value in about ninety-five of a hundred repetitions of the procedure."
+      - "Overlapping intervals do not by themselves establish the absence of a difference."
+      - "Examining twenty subgroups produces about one significant result by chance."
+  - id: SOC-S05-L3
+    strand: S05
+    title: "Measuring What a Price Did"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S05-L2"
+    advances: "Sets out the method used to estimate a behavioral response to a price, and what the estimate depends on."
+    vocab_link: [latent]
+    passage: |
+      A city such as San Francisco that changes a price and then measures what
+      happened has not measured the effect of the price. Something else always
+      changed in the same period: the weather, the economy, a new office
+      building, the price of fuel. The standard remedy is difference in
+      differences, meaning the comparison of the change in a treated place with
+      the change in an untreated one over the same period. If parking occupancy
+      fell eight percent in the districts with new rates and two percent in
+      otherwise similar districts without them, the estimate of the effect is
+      six points, not eight.
+
+      The quantity usually reported is an elasticity, meaning the percentage
+      change in quantity produced by a one percent change in price. Elasticities
+      transfer between settings better than absolute figures do, and they are
+      dangerous because they are not constants. The same good is more elastic
+      over a year than over a week. It is more elastic for people with
+      substitutes available, and more elastic at high prices.
+
+      The method depends on a condition that can be stated and tested: that the
+      two areas would have moved in parallel had nothing been done. Analysts
+      test it by checking whether the two series ran parallel in the years
+      before the change, which is weak evidence and better than none. The design
+      fails where the untreated area is affected by the treatment, as when
+      drivers simply move to the next district, and that spillover will make a
+      real effect look larger than it is. A latent change already under way in
+      one area and not the other is the other standard way such a study goes
+      wrong. Where several places adopt a policy at different times, the
+      comparisons can be stacked, which strengthens the design.
+    anchors:
+      - take: "Measuring before and after does not isolate the effect of a price."
+        quote: "Something else always changed in the same period"
+      - take: "An elasticity transfers between settings better than an absolute figure."
+        quote: "transfer between settings better than absolute figures"
+      - take: "The design fails when drivers move to the untreated district."
+        quote: "as when drivers simply move to the next district"
+    terms:
+      - {term: "difference in differences", gloss: "comparing the change in a treated place with the change in an untreated one over the same period", glossed: true}
+      - {term: "elasticity", gloss: "the percentage change in quantity produced by a one percent change in price", glossed: true}
+    facts:
+      - "Difference in differences compares the change in a treated area with the change in an untreated one."
+      - "An elasticity is the percentage change in quantity from a one percent change in price."
+      - "Spillover into the comparison area inflates the apparent effect."
+  - id: SOC-S06-L3
+    strand: S06
+    title: "Three Lines on a Card"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S06-L2"
+    advances: "Describes the classic conformity experiment, its actual numbers, and what later replications established."
+    vocab_link: [normative]
+    passage: |
+      Solomon Asch asked young men to compare the length of lines, and the task
+      he set them was as simple as it sounds. Each was shown a standard line and
+      three others, one of which plainly matched, and was asked to say aloud
+      which one it was. The task was easy to the point of being insulting. Seven
+      other people in the room gave their answers first, and all seven were
+      confederates, meaning people who appeared to be participants and were
+      working for the researcher. On twelve of eighteen trials they gave the
+      same wrong answer.
+
+      The figures are often reported loosely and are worth having exactly. About
+      a third of the responses by real participants went along with the wrong
+      majority. About a quarter of participants never conformed at all, and
+      around three quarters conformed at least once. Asch also ran variations,
+      and these are the most informative part of the work. Conformity collapsed
+      when one confederate gave the correct answer, and fell sharply when
+      participants could write their answers privately instead of speaking them.
+
+      Replication, meaning independent repetition, has qualified the finding in
+      two directions. Studies in other countries have produced rates from near
+      zero to above the original, and a British replication in 1980 found almost
+      no conformity among science students, which its authors attributed to a
+      change in how such a setting was understood. Later analysis found the
+      effect larger in collectivist societies and smaller in later decades. What
+      survives is not a constant but a mechanism: people will give a public
+      answer they privately disbelieve when the normative cost of disagreeing is
+      visible, and the size of the effect depends on who is in the room. The
+      original work used only male college students, which was normal at the
+      time and limits what it establishes. Several of the variations have never
+      been repeated at all.
+    anchors:
+      - take: "The confederates gave the same wrong answer on twelve of eighteen trials."
+        quote: "On twelve of eighteen trials they gave the same wrong answer."
+      - take: "Conformity collapsed when one confederate answered correctly."
+        quote: "Conformity collapsed when one confederate gave the correct answer"
+      - take: "What survives is a mechanism rather than a constant."
+        quote: "What survives is not a constant but a mechanism"
+    terms:
+      - {term: "confederate", gloss: "a person in an experiment who appears to be a participant but is working for the researcher", glossed: true}
+      - {term: "replication", gloss: "an independent repetition of a study to see whether the result holds", glossed: true}
+    facts:
+      - "In Asch experiments the confederates gave a wrong answer on twelve of eighteen trials."
+      - "About a third of real responses conformed and about a quarter of participants never conformed."
+      - "A British replication in 1980 found almost no conformity among science students."
+  - id: SOC-S07-L3
+    strand: S07
+    title: "Reading a Census Carefully"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S07-L2"
+    advances: "Explains the three features of census data that complicate comparison across places and years."
+    vocab_link: [heterogeneous]
+    passage: |
+      A census of the kind run by the United States is the best social data that
+      exists, and it is not simple to use. Three features complicate every
+      comparison. The first is the undercount, meaning the people a census fails
+      to record. The net figure for a large modern census is often about one
+      percent, which sounds negligible until it is broken down, because the
+      undercount is not spread evenly. Young men, renters, recent migrants and
+      children in complex households are missed at several times the average
+      rate, so the undercount changes the apparent composition of a place and
+      not merely its size.
+
+      The second feature is the boundary change, meaning an alteration of the
+      areas for which figures are reported. Tracts are split as they grow and
+      merged as they shrink. A table that compares a neighborhood in two
+      censuses may therefore be comparing two different pieces of ground.
+      Statistical agencies publish conversion tables for this purpose, and the
+      conversions they allow are approximate rather than exact.
+
+      The third complication is that the questions themselves change from one
+      census to the next. Categories for race, ethnicity, occupation and
+      household relationship have been rewritten repeatedly, usually for good
+      reasons, with the consequence that a series apparently running for a
+      century is in places a series of different questions. A heterogeneous
+      category in one year may appear as three separate categories in the next,
+      and the two tables cannot then be placed side by side. None of this makes
+      the data unusable, and the agencies document all of it in detail. A
+      comparison across decades is therefore a piece of work rather than a
+      lookup. The commonest error is to treat a table as though the words at the
+      top of its columns had always meant the same thing, which they have not.
+    anchors:
+      - take: "The undercount is about one percent and is not spread evenly."
+        quote: "the undercount is not spread evenly"
+      - take: "A neighborhood compared across censuses may be different ground."
+        quote: "comparing two different pieces of ground"
+      - take: "A long series is in places a series of different questions."
+        quote: "a series of different questions"
+    terms:
+      - {term: "undercount", gloss: "the number of people a census fails to record", glossed: true}
+      - {term: "boundary change", gloss: "an alteration of the areas for which figures are reported", glossed: true}
+    facts:
+      - "Net census undercount in a large modern census is often about one percent."
+      - "Young men, renters and recent migrants are missed at several times the average rate."
+      - "Census tract boundaries are split and merged, and agencies publish approximate crosswalks."
+  - id: SOC-S08-L3
+    strand: S08
+    title: "Two Sides of One State Line"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S08-L2"
+    advances: "Presents the study that reopened the minimum wage question and the methodological fight that followed."
+    vocab_link: [reciprocal]
+    passage: |
+      New Jersey raised its minimum wage in April 1992. David Card and Alan
+      Krueger saw a natural experiment in it, because eastern Pennsylvania sits
+      across a state line with similar towns, similar labor markets and no
+      change in its own minimum. They surveyed over four hundred fast food
+      restaurants on both sides before and after the increase, asking the same
+      questions each time, and found no fall in employment in New Jersey
+      relative to Pennsylvania. The standard prediction from the textbook model
+      is that employment should have fallen.
+
+      The response was immediate and technical. David Neumark and William
+      Wascher obtained payroll records, meaning employment figures taken from
+      the administrative accounts of firms, for a sample of the same
+      restaurants, and found that employment had fallen. The two teams were
+      therefore disagreeing about measurement rather than about theory. Survey
+      data may suffer from respondents who misremember or who answer for a chain
+      rather than a store. Payroll data covers only the firms that supply it,
+      and the sample was assembled with help from a restaurant trade
+      association, which the other side pointed out at length.
+
+      Neither paper settled the matter and both improved the field. The dispute
+      drove a generation of work using administrative data, borders, and
+      hundreds of separate minimum wage changes, and the current position is
+      that modest increases have small employment effects whose sign depends on
+      the local labor market. The reciprocal checking of methods that the
+      exchange forced is now standard practice, and the two principals shared a
+      Nobel prize in 2021 with a third economist for work of exactly that kind.
+      Both data sets were eventually released, which is why the exchange could
+      be adjudicated at all. Several later studies have replicated the
+      comparison with much larger administrative samples.
+    anchors:
+      - take: "Pennsylvania supplied a comparison across a state line."
+        quote: "eastern Pennsylvania sits across a state line"
+      - take: "The two teams disagreed about measurement rather than theory."
+        quote: "disagreeing about measurement rather than about theory"
+      - take: "Each data source has its own characteristic weakness."
+        quote: "Payroll data covers only the firms that supply it"
+    terms:
+      - {term: "survey data", gloss: "figures collected by asking employers or workers directly", glossed: true}
+      - {term: "payroll records", gloss: "employment figures taken from the administrative accounts of firms", glossed: true}
+    facts:
+      - "New Jersey raised its minimum wage in April 1992."
+      - "Card and Krueger surveyed over four hundred fast food restaurants on both sides of the state line."
+      - "Neumark and Wascher used payroll records and reached the opposite conclusion."
+  - id: SOC-S09-L3
+    strand: S09
+    title: "One Number for a Distribution"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S09-L2"
+    advances: "Explains how the standard inequality measure is constructed and what it is blind to."
+    vocab_link: [disparity]
+    passage: |
+      The standard measure of inequality begins with a graph. The Lorenz curve,
+      meaning a plot of the cumulative share of income held by the poorest given
+      share of the population, runs from the bottom left to the top right of a
+      square. Perfect equality would be the diagonal of that square, where the
+      poorest tenth hold exactly a tenth of the income, and every real
+      distribution sags below it. The Gini coefficient, meaning a single figure
+      summarizing how far a distribution departs from equality, is the area
+      between the curve and the diagonal, scaled to run from zero to one.
+
+      The convenience of one number is also its defect. The same Gini value can
+      be produced by very different distributions. A country where the top one
+      percent hold a great deal and the rest are similar to one another can
+      share a coefficient with a country where the gap runs through the middle,
+      and policies that would reduce one disparity will not touch the other. The
+      measure is also least sensitive at the two ends, which is where the
+      political argument usually is.
+
+      Alternatives exist and are chosen for what they expose. A percentile ratio
+      compares the income at the ninetieth percentile with the tenth, which is
+      easy to interpret. The Palma ratio compares the top tenth with the bottom
+      four tenths, on the argument that the middle half changes little. The
+      Theil index can be decomposed into inequality within regions and
+      inequality between them, which no single-number measure otherwise allows.
+      Serious work reports more than one, and a report that gives a Gini alone
+      is giving the least informative summary available. Comparisons across
+      countries are harder still, because the underlying surveys differ in what
+      they count as income. Whether housing, benefits in kind and capital gains
+      are included moves a national figure by several points.
+    anchors:
+      - take: "The Gini is the area between the Lorenz curve and the diagonal."
+        quote: "the area between the curve and the diagonal"
+      - take: "The same Gini value can come from very different distributions."
+        quote: "The same Gini value can be produced by very different distributions."
+      - take: "A Theil index can separate inequality within and between regions."
+        quote: "inequality within regions and inequality between them"
+    terms:
+      - {term: "Lorenz curve", gloss: "a graph of the cumulative share of income held by the poorest given share of the population", glossed: true}
+      - {term: "Gini coefficient", gloss: "a single figure summarizing how far a distribution departs from complete equality", glossed: true}
+    facts:
+      - "The Lorenz curve plots cumulative income share against cumulative population share."
+      - "The Gini coefficient is the area between that curve and the line of equality."
+      - "The Theil index can be decomposed into within-group and between-group inequality."
+  - id: SOC-S10-L3
+    strand: S10
+    title: "Which Results Held Up"
+    move: evidence
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S10-L2"
+    advances: "Reports what large replication efforts found about the judgment literature, and what the exercise established."
+    vocab_link: [endemic]
+    passage: |
+      The judgment and decision literature was built from small studies, often
+      on students, analyzed after the fact. Beginning around 2011 psychologists
+      at Virginia and elsewhere organized systematic attempts to repeat the
+      best-known findings, and the results separated the field into parts. Large
+      coordinated replications confirmed the core effects with reduced
+      magnitudes. Anchoring survived robustly, framing survived, and loss
+      aversion survived with its size disputed. Several widely taught results
+      did not survive at all, including some that had appeared in textbooks for
+      twenty years.
+
+      Two mechanisms were identified as responsible. The first is publication
+      bias, meaning the tendency for positive results to be published while null
+      results stay in drawers, and it inflates the apparent size of every effect
+      in a literature. The second is flexibility in analysis. A researcher who
+      may choose when to stop collecting data, which outliers to exclude, and
+      which of several outcomes to report can produce a significant result from
+      noise without any dishonesty. The number of available choices was shown to
+      be large enough to make the problem endemic.
+
+      The remedies that followed were procedural rather than theoretical.
+      Preregistration, meaning the publication of a design and analysis plan
+      before the data are collected, removes most of that flexibility at a
+      stroke. Registered reports go further, since a journal accepts the study
+      on its design before any results exist, which removes the incentive to
+      produce a positive finding at all. Published effect sizes in preregistered
+      work are smaller and more stable than in the older literature. The episode
+      is often described as a crisis and is better understood as a measurement
+      of the field, carried out by the field, whose main result is that the
+      strongest effects are real and smaller than advertised. Economics,
+      medicine and political science have since run versions of the same
+      exercise with much the same result.
+    anchors:
+      - take: "Large coordinated replications confirmed core effects with reduced magnitudes."
+        quote: "confirmed the core effects with reduced magnitudes"
+      - take: "Analytic flexibility can produce significance from noise without dishonesty."
+        quote: "without any dishonesty"
+      - take: "Preregistered effect sizes are smaller and more stable."
+        quote: "smaller and more stable than in the older literature"
+    terms:
+      - {term: "preregistration", gloss: "publishing the design and analysis plan before the data are collected", glossed: true}
+      - {term: "publication bias", gloss: "the tendency for positive results to be published and null results not", glossed: true}
+    facts:
+      - "Systematic replication efforts in psychology began around 2011."
+      - "Anchoring and framing survived replication while several textbook findings did not."
+      - "Preregistration publishes the design and analysis plan before data collection."

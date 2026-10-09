@@ -1,0 +1,517 @@
+field: HUM
+level: 3
+passages:
+  - id: HUM-S01-L3
+    strand: S01
+    title: "Proving a Narrator Unreliable"
+    move: evidence
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S01-L2"
+    advances: "Sets out the textual evidence critics use to establish that a narrator cannot be trusted."
+    vocab_link: [enigmatic]
+    passage: |
+      Calling a narrator unreliable, meaning a teller whose account the reader
+      has reason to doubt, is a claim that has to be argued from the page rather
+      than asserted. Three kinds of evidence are normally offered, and they
+      differ in strength. The weakest is tone: a reader finds the voice
+      distasteful or self-serving. That is a response and not a proof, since a
+      writer may intend an unpleasant narrator to be entirely accurate.
+
+      The second kind is internal contradiction, meaning a place where the text
+      disagrees with itself. Ford Madox Ford gives the narrator of The Good
+      Soldier a date that cannot be right and a chronology that will not
+      assemble, and the errors are too systematic to be accidents of
+      composition. The third and strongest kind is a discrepancy between what
+      the narrator reports and how other characters respond. When a narrator
+      describes a mild remark and everybody in the room recoils, the text has
+      supplied a second witness.
+
+      The method shows its limits in the long argument over The Turn of the
+      Screw, published in 1898. Either the governess sees ghosts or she is
+      describing her own mind, and a century of critics has produced detailed
+      cases for both. The difficulty is that James withheld the second witness:
+      nobody else in the story reports seeing or not seeing anything in terms
+      that settle it, and the one piece of apparent confirmation comes through
+      the governess herself. A text can therefore be enigmatic by construction
+      rather than by accident, and the honest conclusion in such a case is that
+      the question is undecidable on the evidence available. Edmund Wilson
+      argued the psychological reading in 1934 and changed his mind twice in
+      later editions. That record of revision is itself a useful document about
+      how such arguments are made.
+    anchors:
+      - take: "Tone is a response rather than a proof."
+        quote: "That is a response and not a proof"
+      - take: "A text that disagrees with itself supplies internal evidence."
+        quote: "a place where the text disagrees with itself"
+      - take: "James withheld the second witness, so the question cannot be settled."
+        quote: "James withheld the second witness"
+    terms:
+      - {term: "unreliable narrator", gloss: "a teller whose account the reader has reason to doubt", glossed: true}
+      - {term: "internal contradiction", gloss: "a place where a text disagrees with itself", glossed: true}
+    facts:
+      - "The Turn of the Screw was published in 1898."
+      - "Ford gives the narrator of The Good Soldier a chronology that will not assemble."
+      - "Edmund Wilson argued the psychological reading in 1934 and revised it later."
+  - id: HUM-S02-L3
+    strand: S02
+    title: "The Chapter Austen Canceled"
+    move: evidence
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S02-L2"
+    advances: "Uses surviving manuscript evidence to show how a writer built a character, and what a draft can prove."
+    vocab_link: [ambivalent]
+    passage: |
+      Almost no manuscript survives of any completed Jane Austen novel, which
+      makes one exception valuable. Two chapters of Persuasion exist in her own
+      hand, and they are the chapters she threw away. The published version
+      carries the famous scene in which Captain Wentworth writes a letter while
+      overhearing a conversation he is not part of, and then puts the folded
+      paper into Anne Elliot hand before leaving the room. The canceled chapter,
+      meaning the draft section she replaced, handles the same reconciliation
+      through an awkward interview arranged by a third party.
+
+      Having both lets a reader see a decision being made. In the draft the
+      feeling is reported and then discussed by the parties concerned, whereas
+      in the revision it is enacted in a public room, with two conversations
+      running at once and a character writing down what he cannot say aloud. The
+      emotional content is the same and the method is entirely different, and
+      the second version turns Wentworth from a man who explains himself into a
+      man who is overheard. That shift is the kind of thing critics assert about
+      writers in general. Here it can be shown.
+
+      A manuscript will not answer every question. The canceled pages are
+      undated and the order of composition has to be inferred from the paper and
+      the stitching. Austen died a few months after finishing the novel, so
+      there is no later statement of intention, and the family edited what
+      survived. A draft also shows a writer being ambivalent without recording
+      why. What the evidence establishes is that the alternative existed and was
+      rejected, which is a narrower claim than most of what is written about
+      authorial intention, and very much firmer. The pages are now in the
+      British Library and have been published in facsimile. They are the only
+      substantial draft of a finished Austen novel known to exist.
+    anchors:
+      - take: "Two canceled chapters of Persuasion survive in her own hand."
+        quote: "Two chapters of Persuasion exist in her own hand"
+      - take: "The revision turns an explanation into an overheard scene."
+        quote: "a man who is overheard"
+      - take: "The draft shows that an alternative existed and was rejected."
+        quote: "the alternative existed and was rejected"
+    terms:
+      - {term: "canceled chapter", gloss: "a draft section that the author replaced before publication", glossed: true}
+    facts:
+      - "Two canceled chapters of Persuasion survive in Austen own handwriting."
+      - "The published version replaces an arranged interview with the overheard letter scene."
+      - "Austen died a few months after finishing the novel."
+  - id: HUM-S03-L3
+    strand: S03
+    title: "Counting the Images"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S03-L2"
+    advances: "Describes the tools that turn a claim about imagery into something countable, and what counting cannot settle."
+    vocab_link: [aesthetic]
+    passage: |
+      A claim that a play is full of images of disease used to be a matter of
+      impression. The tool that changed it is the concordance, meaning an index
+      listing every occurrence of every word in a text together with its
+      context. Concordances to the Bible were compiled by hand in the Middle
+      Ages, and one to Shakespeare took a Victorian clergyman and his family
+      some sixteen years. Anyone with such an index can check whether an
+      impression survives contact with the text.
+
+      Caroline Spurgeon did the work for Shakespeare in 1935, classifying
+      several thousand images by subject and comparing the counts across plays.
+      Some results confirmed what readers had felt: Hamlet does carry an unusual
+      density of images of sickness and rot. Others corrected it. The computer
+      made the method cheap, and a modern researcher can search a corpus,
+      meaning a body of texts assembled to be searched as a whole, of everything
+      printed in English before 1700 in an afternoon.
+
+      What counting establishes is presence, distribution and comparison, and
+      those are not small things. What it cannot establish is aesthetic effect.
+      A count shows that a word appears forty times; it cannot show that the
+      forty occurrences work on a reader, or that an image placed at a turning
+      point carries more weight than four placed in passing. The two methods
+      therefore have to be used together, which is the current practice:
+      counting to find where to look, and reading to say what is there. A claim
+      that survives both is about as secure as literary claims get. Spurgeon
+      work has been criticized for categories that reflect her own period more
+      than the plays. Her counts, however, have been checked and are
+      substantially accurate. The combination is now standard practice in any
+      serious study of a writer vocabulary, and the counting is usually done
+      first because it is cheap.
+    anchors:
+      - take: "A concordance indexes every occurrence of every word with its context."
+        quote: "every occurrence of every word"
+      - take: "Spurgeon classified several thousand images and compared plays."
+        quote: "classifying several thousand images"
+      - take: "Counting establishes presence and distribution, not effect."
+        quote: "What it cannot establish is aesthetic effect."
+    terms:
+      - {term: "concordance", gloss: "an index listing every occurrence of every word in a text with its context", glossed: true}
+      - {term: "corpus", gloss: "a body of texts assembled so that it can be searched as a whole", glossed: true}
+    facts:
+      - "Caroline Spurgeon published her classification of Shakespeare imagery in 1935."
+      - "A concordance lists every occurrence of every word with its context."
+      - "Hamlet carries an unusually high density of images of sickness."
+  - id: HUM-S04-L3
+    strand: S04
+    title: "What Scansion Can Prove"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S04-L2"
+    advances: "Shows metrical analysis used as hard evidence, in the dating of plays, and states what it cannot do."
+    vocab_link: [understated]
+    passage: |
+      Scansion, meaning the marking of stressed and unstressed syllables in a
+      line, looks like the least consequential of literary skills, and it has
+      produced one of the field most solid results. Shakespeare plays are not
+      dated by their title pages, most of which do not exist, and the order in
+      which he wrote them was established largely by counting metrical features.
+
+      Three measurable features change steadily across the career of William
+      Shakespeare. The proportion of lines that run on without a pause at the
+      end rises. The proportion of feminine endings, meaning lines that finish
+      on an unstressed extra syllable, rises from under ten percent in the early
+      plays to over thirty in the late ones. The proportion of lines with a
+      break away from the middle rises as well. Counting these in plays whose
+      dates are known from other evidence, such as records of performance, gives
+      a curve against which an undated play can be placed. The method puts the
+      plays in an order that agrees with external evidence wherever external
+      evidence exists, which is the test of it.
+
+      Its limits are strict. The method dates a style, not a manuscript, so a
+      play revised late looks late. It cannot distinguish collaboration from
+      development, which is why the authorship of several scenes remains
+      contested. And it says nothing about quality: an understated late style is
+      not better or worse than an emphatic early one, only different, and the
+      counting is silent on the question. What scansion buys is a chronology,
+      which every other kind of argument about development then depends on.
+      Modern work adds function word frequencies and rare collocations to the
+      metrical measures. The results agree with the older counts in most places
+      and have reassigned two or three plays.
+    anchors:
+      - take: "Feminine endings rise from under ten percent to over thirty."
+        quote: "from under ten percent in the early plays to over thirty"
+      - take: "The order agrees with external evidence wherever it exists."
+        quote: "agrees with external evidence wherever external evidence exists"
+      - take: "The method dates a style rather than a manuscript."
+        quote: "The method dates a style, not a manuscript"
+    terms:
+      - {term: "scansion", gloss: "marking the pattern of stressed and unstressed syllables in a line", glossed: true}
+      - {term: "feminine ending", gloss: "a line that finishes on an unstressed extra syllable", glossed: true}
+    facts:
+      - "Shakespeare plays were ordered chronologically largely by counting metrical features."
+      - "Feminine endings rise from under ten percent in early plays to over thirty percent in late ones."
+      - "The method cannot distinguish collaboration from stylistic development."
+  - id: HUM-S05-L3
+    strand: S05
+    title: "What the Promptbook Records"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S05-L2"
+    advances: "Introduces the documentary record of performance and explains why it differs from the printed play."
+    vocab_link: [canonical]
+    passage: |
+      A printed play is a text, whereas a performance is an event, and the
+      documentary record of events is both thinner and considerably stranger.
+      The most useful document is the promptbook, meaning a working copy marked
+      up by the stage manager of one production, and major collections hold
+      thousands of them. A promptbook carries the cuts, the entrances and exits
+      as actually performed, the cues for music and effects, the positions of
+      the furniture, and sometimes the timings of each act written in pencil in
+      the margin.
+
+      What it reveals most often is the extent of cutting. Nineteenth-century
+      productions of Shakespeare routinely removed a third of the lines,
+      rearranged scenes and sometimes changed the ending, and the promptbooks
+      show precisely what was removed and when it came back. Hamlet was
+      performed for a century in a version shorter than the printed play by an
+      hour. A reader who knows only the canonical text has an incomplete picture
+      of what audiences actually saw.
+
+      The record also has characteristic gaps. A promptbook describes what was
+      planned and revised in rehearsal rather than what happened on a particular
+      night. It does not record how a line was delivered, since no notation for
+      that exists. Reviews, letters and memoirs fill some of the space, and all
+      three are unreliable in the ordinary and familiar ways. Photographs from
+      the later nineteenth century show poses rather than performances, because
+      the exposures were too long for movement. The result is a documentary
+      record good enough to establish what was done and almost never good enough
+      to establish how it felt. Recordings change this completely from the
+      middle of the twentieth century onward, and the record after that date is
+      of a different kind altogether. They also create a new problem, since a
+      filmed performance is itself an edited object.
+    anchors:
+      - take: "A promptbook records cuts, cues, positions and timings."
+        quote: "the cues for music and effects, the positions of the furniture"
+      - take: "Nineteenth-century productions often cut a third of the lines."
+        quote: "removed a third of the lines"
+      - take: "No notation exists for how a line was delivered."
+        quote: "since no notation for that exists"
+    terms:
+      - {term: "promptbook", gloss: "a working copy of a play marked up by the stage manager for one production", glossed: true}
+    facts:
+      - "Promptbooks record cuts, entrances, cues and furniture positions for a single production."
+      - "Nineteenth-century Shakespeare productions commonly cut a third of the text."
+      - "Early theatrical photographs show posed tableaux because exposures were too long for movement."
+  - id: HUM-S06-L3
+    strand: S06
+    title: "Tracing Where a Form Began"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S06-L2"
+    advances: "Explains the bibliographic methods used to establish the history of a genre, and the survival problem behind them."
+    vocab_link: [derivative]
+    passage: |
+      The claim that a genre began with a particular book is a bibliographic
+      claim before it is a critical one, and bibliography, meaning a systematic
+      list of everything published of a kind in a period, is what tests it.
+      Catalogues of early English printing list tens of thousands of items with
+      dates, printers and formats. Trade records survive. Circulating library
+      catalogues from the eighteenth century show what was actually borrowed,
+      which is a different question from what was printed.
+
+      Those sources support the usual account of the gothic novel reasonably
+      well. The Castle of Otranto appeared in 1764, presented as a translation
+      from an Italian manuscript, and the second edition admitted the fiction. A
+      recognizable set of imitations follows within twenty years, and library
+      records show them being borrowed in quantity. The pattern of a first
+      instance, a gap, and then a rush of derivative work is what one would
+      expect if a form were being established, and it can be seen in the dates.
+
+      The hazard throughout is survival bias, meaning the distortion caused by
+      studying only what happened to be preserved. Cheap print survives very
+      badly. Chapbooks, broadside ballads and the serial fiction of the
+      eighteenth century were read to pieces, and much of what remains survives
+      because a collector thought it respectable. Any claim that a device first
+      appeared in a particular novel therefore means that it first appears in
+      the novels we still have. Historians of popular forms treat the record as
+      a sample with a known bias rather than as the thing itself. Newspaper
+      digitization has moved several supposed first appearances earlier by
+      decades. Each revision has come from material that existed all along in
+      uncatalogued runs of periodicals. Any history of a popular form is
+      therefore a history of its surviving instances, and the honest versions
+      say so in the first chapter.
+    anchors:
+      - take: "Library catalogues show what was borrowed, not only what was printed."
+        quote: "which is a different question from what was printed"
+      - take: "A first instance, a gap, then a rush of imitation is visible in the dates."
+        quote: "and it can be seen in the dates"
+      - take: "Cheap print survives very badly, which biases the whole record."
+        quote: "Cheap print survives very badly."
+    terms:
+      - {term: "bibliography", gloss: "a systematic list of everything published of a particular kind in a particular period", glossed: true}
+      - {term: "survival bias", gloss: "the distortion caused by studying only what happened to be preserved", glossed: true}
+    facts:
+      - "The Castle of Otranto appeared in 1764 presented as a translation."
+      - "Eighteenth-century circulating library catalogues record what was borrowed."
+      - "Digitization of periodicals has moved several first appearances earlier by decades."
+  - id: HUM-S07-L3
+    strand: S07
+    title: "Under the Varnish"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S07-L2"
+    advances: "Describes the physical examination of paintings and the three kinds of claim it can settle."
+    vocab_link: [reverent]
+    passage: |
+      A painting is a physical object as well as an image, and physical objects
+      can be examined, so three laboratory techniques now do most of the work.
+      X-radiography shows the denser pigments and the structure of the support,
+      so a figure painted out fifty years later appears as a ghost. Infrared
+      reflectography, meaning a method that sees through upper paint layers to
+      the drawing underneath, reveals the artist first thoughts, including
+      changes of position that were never meant to be seen. Pigment analysis
+      takes a sample smaller than a full stop and identifies the materials from
+      which the paint was made.
+
+      Each supports a different kind of claim. Pigment analysis dates: Prussian
+      blue was not manufactured before about 1706, so a picture containing it
+      was not painted before then, and a great many attributions have been
+      settled by that one fact. Dendrochronology, meaning the dating of a wooden
+      panel by matching its ring pattern against a regional record, gives the
+      earliest year the panel could have been painted on. Reflectography
+      attributes, because underdrawing habits are personal and hard to imitate.
+
+      The methods cannot answer the questions people most want answered. They
+      can show that a panel is of the right date and that the materials are
+      consistent, and they cannot show that a particular hand made a particular
+      brushstroke. A skilled forger who uses old panels and correct pigments
+      defeats all three, and several have. The practice is therefore to combine
+      physical evidence with documentary history and with connoisseurship, and
+      to treat a reverent attribution unsupported by any of the three as a
+      hypothesis. Several paintings have changed status twice in a century as
+      the balance of evidence moved. Museums now publish technical reports
+      alongside catalogue entries. The reports often contain the evidence that
+      will be used to overturn their own conclusions later.
+    anchors:
+      - take: "X-radiography shows figures painted out later as ghosts."
+        quote: "appears as a ghost"
+      - take: "Prussian blue was not manufactured before about 1706."
+        quote: "not manufactured before about 1706"
+      - take: "The methods cannot show that a particular hand made a brushstroke."
+        quote: "cannot show that a particular hand made a particular brushstroke"
+    terms:
+      - {term: "infrared reflectography", gloss: "a method that sees through paint layers to the drawing underneath", glossed: true}
+      - {term: "dendrochronology", gloss: "dating a wooden panel by matching its ring pattern to a regional record", glossed: true}
+    facts:
+      - "Infrared reflectography reveals underdrawing beneath upper paint layers."
+      - "Prussian blue was not manufactured before about 1706."
+      - "Dendrochronology dates a wooden panel by matching its ring pattern to a regional record."
+  - id: HUM-S08-L3
+    strand: S08
+    title: "Eight Thousand Pages of Sketches"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S08-L2"
+    advances: "Presents the manuscript evidence for how music was composed, and the editorial decisions it forces."
+    vocab_link: [elegiac]
+    passage: |
+      Beethoven kept his working papers, and about eight thousand pages of them
+      survive. The sketchbooks, meaning his working notebooks of fragments and
+      rejected versions, show melodies arriving in forms that are almost
+      embarrassing beside the finished article, then being worked for months.
+      The opening of the Fifth Symphony exists in several trials, none of which
+      a listener would recognize as the figure everybody now knows. A theme from
+      the Ninth Symphony appears in one of the notebooks fully twelve years
+      before the work itself was written. The evidence contradicts the idea of
+      inspiration arriving whole, and it does so in the handwriting of the
+      person most often cited as proof of it.
+
+      Manuscripts also force decisions on everyone who performs the music. The
+      autograph score, meaning the full score in the composer hand, often
+      differs from the first printed edition, and the composer sometimes
+      corrected the proofs and sometimes did not. Where they disagree, an editor
+      has to choose, and the choice is published as though it were the composer
+      wish. Beethoven metronome marks survive for some works and have been
+      thought impossibly fast for a century, and the argument over whether to
+      obey them is unresolved.
+
+      The limits of the evidence are specific. A sketch shows what was tried and
+      not why it was rejected. Dating depends on the paper, the watermarks and
+      the ink, which is skilled work and not always decisive. And none of it
+      records sound. A score is a set of instructions whose conventions of
+      performance were partly unwritten and are now partly lost, which is why an
+      elegiac tempo in one century becomes a brisk one in the next without a
+      note being changed. Facsimiles of the main sketchbooks are now published
+      and some are online. Several long-standing editorial readings have been
+      revised since performers could consult them directly.
+    anchors:
+      - take: "About eight thousand pages of working papers survive."
+        quote: "about eight thousand pages of them survive"
+      - take: "A theme from the Ninth appears twelve years early in a notebook."
+        quote: "twelve years before the work itself was written"
+      - take: "A sketch shows what was tried, not why it was rejected."
+        quote: "what was tried and not why it was rejected"
+    terms:
+      - {term: "sketchbook", gloss: "a composers working notebook of fragments, trials and rejected versions", glossed: true}
+      - {term: "autograph score", gloss: "the full score written out in the composers own hand", glossed: true}
+    facts:
+      - "About eight thousand pages of Beethoven sketches survive."
+      - "A theme from the Ninth Symphony appears in a notebook twelve years earlier."
+      - "His metronome marks have been thought impossibly fast and the dispute is unresolved."
+  - id: HUM-S09-L3
+    strand: S09
+    title: "Booth Walked Every Street"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "HUM-S09-L2"
+    advances: "Describes the first systematic survey of a city and compares it with how cities are measured now."
+    vocab_link: [whimsical]
+    passage: |
+      Between 1886 and 1903 Charles Booth and a team of investigators walked
+      every street in London and recorded what they found. The result was a set
+      of poverty maps, meaning street plans colored house by house, with seven
+      classes from the wealthy to what Booth labeled the lowest class of
+      occasional labourers and criminals. The maps were based on school board
+      visitors knowledge of individual families, on police walks, and on
+      interviews, and they run to seventeen volumes of notes alongside the
+      sheets.
+
+      They are the first systematic measurement of a city and they carry their
+      period inside them. Booth classifications mixed income with moral
+      judgment, his categories were applied by middle-class observers walking
+      through streets they did not live in, and the notebooks contain remarks
+      that no modern survey would print. The maps are nonetheless accurate
+      enough about rents, trades and overcrowding to be used by historians, and
+      they can be compared street by street with modern deprivation figures.
+
+      Measurement today is cheaper, narrower and continuous. Footfall counts,
+      meaning tallies of how many people pass a point, come from sensors and
+      mobile telephone data. Transport cards record journeys. Satellite images
+      give building footprints and tree cover. Each series is precise about one
+      thing and silent about the rest, and none of them contains anything like
+      Booth notebooks, where an investigator records that a street is quiet, or
+      respectable, or whimsical in its decoration. The modern city is measured
+      better and described worse, and the two kinds of evidence answer different
+      questions. Booth maps have been digitized and can be laid over a modern
+      map in a browser. A majority of the street classifications still predict
+      present-day deprivation measures. Historians of the modern city therefore
+      have better numbers and thinner description than Booth had, and have to
+      read both kinds of record to say anything much about how a street actually
+      worked.
+    anchors:
+      - take: "Booth team walked every street in London and recorded what they found."
+        quote: "walked every street in London"
+      - take: "His classifications mixed income with moral judgment."
+        quote: "mixed income with moral judgment"
+      - take: "Each modern series is precise about one thing and silent about the rest."
+        quote: "precise about one thing and silent about the rest"
+    terms:
+      - {term: "poverty map", gloss: "a street plan colored to show the economic condition of each house", glossed: true}
+      - {term: "footfall count", gloss: "a tally of how many people pass a point in a given period", glossed: true}
+    facts:
+      - "Charles Booth surveyed London between 1886 and 1903 and produced colored poverty maps."
+      - "The survey used seven classes and runs to seventeen volumes of notes."
+      - "Booth maps have been digitized and overlaid on modern maps."
+  - id: HUM-S10-L3
+    strand: S10
+    title: "Reputations That Moved"
+    move: evidence
+    sat_frame: "humanities criticism: a judgment defended"
+    builds_on: "HUM-S10-L2"
+    advances: "Uses reception history as evidence about critical judgment, and draws the limits of that evidence."
+    vocab_link: [polemic]
+    passage: |
+      Critical judgments can be tested against the record of what happened to
+      them, and the discipline that does this is reception history, meaning the
+      record of how a work was read and valued over time. Its materials are
+      reviews, sales figures, library borrowings, school syllabuses, editions in
+      print, and the frequency with which a writer is quoted.
+
+      Two cases are standard. Herman Melville died in 1891 with his major novel
+      out of print and his obituary in the New York Times misspelling his name.
+      A deliberate campaign of rediscovery in the 1920s, driven by a few critics
+      and a new edition, installed him within twenty years as a central American
+      writer, and he has stayed there. John Donne was held in low regard for
+      most of the eighteenth and nineteenth centuries and was raised by a
+      polemic from T. S. Eliot and others after 1920. In both cases the texts
+      had not changed. The criteria had.
+
+      This is evidence about criticism rather than about the works, and it has
+      to be handled with care. That a judgment changed does not show that either
+      version was wrong, and the fact that a reputation rose does not mean the
+      critics who raised it were right. What the record does establish is that
+      standards are historical objects with datable origins, which makes a
+      certain kind of critical claim impossible to maintain, namely that a
+      particular standard is simply self-evident. Anyone who wants to make that
+      claim has to explain the record of its absence. Databases of library
+      borrowings and school curricula now make such histories quantitative. They
+      have confirmed several reputational stories and demolished others,
+      including some about neglect that turned out to be overstated. The record
+      of a standard arrival is also a record of what it displaced, which is the
+      part most often left out of the story.
+    anchors:
+      - take: "Reception history uses reviews, sales, borrowings and syllabuses."
+        quote: "reviews, sales figures, library borrowings, school syllabuses"
+      - take: "Melville was out of print at his death and central twenty years later."
+        quote: "installed him within twenty years as a central American writer"
+      - take: "A changed judgment does not show which version was wrong."
+        quote: "does not show that either version was wrong"
+    terms:
+      - {term: "reception history", gloss: "the record of how a work was read and valued over time", glossed: true}
+    facts:
+      - "Melville died in 1891 with his major novel out of print."
+      - "A campaign of rediscovery in the 1920s established his reputation."
+      - "Donne was raised in critical esteem after 1920, notably by T. S. Eliot."
