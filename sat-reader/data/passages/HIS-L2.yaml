@@ -1,0 +1,517 @@
+field: HIS
+level: 2
+passages:
+  - id: HIS-S01-L2
+    strand: S01
+    title: "The Shape of the Argument"
+    move: mechanism
+    sat_frame: "founding document: the claim and its warrant"
+    builds_on: "HIS-S01-L1"
+    advances: "Moves from what the document contains to how its argument is built, step by step, as a chain of reasoning."
+    vocab_link: [ratified]
+    passage: |
+      The second paragraph of the Declaration is a piece of reasoning laid out
+      in order, and the order matters more than the famous phrases. It begins
+      with premises, meaning statements offered without proof because the writer
+      expects agreement. They are that all men are created equal, that they hold
+      certain rights which cannot be given away, and that governments exist to
+      secure those rights. From those premises a conclusion follows, and
+      Jefferson draws it immediately. A government that destroys those rights
+      may be altered or abolished by the people who set it up. Nothing in the
+      paragraph is decoration.
+
+      Everything after that is evidence for a factual claim rather than argument
+      about principle. The twenty-seven grievances are offered to show that this
+      particular government has in fact destroyed those rights, in named ways,
+      over a stated period. The document also closes off the obvious objection.
+      It states that prudence requires long-established governments not be
+      changed for light and transient causes, and that the colonists had
+      petitioned repeatedly and been answered with repeated injury. The
+      structure is a legal brief: here is the standard, here is the record, here
+      is the remedy.
+
+      That shape explains what the document does and does not do. It makes no
+      promise about who shall vote, how the new states shall be governed, or
+      what equality requires in practice, because none of those questions bears
+      on the narrow case being argued. Readers who come to it expecting a
+      constitution find a brief for separation instead. The actual machinery was
+      built eleven years later and ratified in 1788, by men who had the
+      Declaration in front of them and treated it as settled ground rather than
+      as a plan to be carried out. Jefferson owned more than a hundred people at
+      the time of writing, which later readers have had to reckon with.
+    anchors:
+      - take: "The second paragraph moves from premises to a conclusion in order."
+        quote: "a piece of reasoning laid out in order"
+      - take: "The grievances are evidence for a factual claim, not argument about principle."
+        quote: "evidence for a factual claim rather than argument about principle"
+      - take: "The document is a brief for separation, not a plan of government."
+        quote: "a brief for separation instead"
+    terms:
+      - {term: "premises", gloss: "statements offered without proof because the writer expects agreement", glossed: true}
+    facts:
+      - "The Declaration lists twenty-seven grievances against George III."
+      - "It argues that a government destroying natural rights may be altered or abolished."
+      - "The Constitution was written in 1787 and ratified in 1788."
+  - id: HIS-S02-L2
+    strand: S02
+    title: "Madison on Faction"
+    move: mechanism
+    sat_frame: "founding document: the claim and its warrant"
+    builds_on: "HIS-S02-L1"
+    advances: "Explains why the branches were divided at all, by setting out the problem the design was meant to solve."
+    vocab_link: [delegated]
+    passage: |
+      The men who wrote the Constitution were not afraid of kings only. They
+      were at least as worried about majorities, and Federalist 10 is James
+      Madison explaining why. His term for the danger is faction, meaning a
+      group united by a common interest or passion that is adverse to the rights
+      of others or to the general good. Factions, he argues, cannot be
+      prevented, because their causes are sown in the nature of man. Any attempt
+      to remove them would require removing liberty or enforcing a single
+      opinion on everyone.
+
+      If the cause cannot be removed, the effects must be controlled, and
+      Madison offers two mechanisms. The first is size. In a small republic one
+      interest can easily become a majority, but across a large and various
+      country a faction must assemble so many different groups that its demands
+      get moderated in the assembling. The second is representation. Power is
+      delegated to elected members rather than exercised directly, which puts a
+      deliberating body between a public mood and a statute. Madison expected
+      election to filter upward toward people of some judgment, and he may have
+      been wrong about that.
+
+      The design that follows from this reasoning is the one in the
+      Constitution. Two chambers chosen on different principles, by different
+      electorates, for different terms. A president elected separately from
+      either. Judges appointed rather than elected and holding office for life.
+      Each of these slows a majority down and forces it to persist through more
+      than one season of opinion. Whether the result protects minorities or
+      simply protects property has been argued since the ratification debates,
+      and that argument is taken up at the end of this strand. Federalist 10 was
+      published in a New York newspaper in November 1787 under the name Publius,
+      and was one of eighty-five such essays.
+    anchors:
+      - take: "Madison treats faction as unpreventable and aims at its effects."
+        quote: "If the cause cannot be removed, the effects must be controlled"
+      - take: "His two mechanisms are the size of the republic and representation."
+        quote: "The first is size."
+      - take: "Each device forces a majority to persist through more than one season."
+        quote: "forces it to persist through more than one season of opinion"
+    terms:
+      - {term: "faction", gloss: "a group united by a common interest that is adverse to the rights of others", glossed: true}
+    facts:
+      - "Federalist 10 was written by James Madison."
+      - "It argues that the causes of faction cannot be removed without removing liberty."
+      - "Its two proposed remedies are a large republic and representation rather than direct rule."
+  - id: HIS-S03-L2
+    strand: S03
+    title: "Four Barriers and Four Amendments"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S03-L1"
+    advances: "Sets out the actual legal mechanisms by which the franchise widened, rather than the campaign that demanded it."
+    vocab_link: [petitioned]
+    passage: |
+      Voting in the United States was never restricted by one rule. It was
+      restricted by four, and each came down separately. Property requirements
+      were the first to go, removed state by state between about 1790 and 1850,
+      so that by the Civil War most white men could vote without owning land.
+      Race was next in law and last in practice: the Fifteenth Amendment of 1870
+      forbade denial of the vote on racial grounds, and was then evaded for
+      ninety years by devices that did not mention race at all.
+
+      Sex was removed by the Nineteenth Amendment in 1920, after campaigners had
+      petitioned, marched and picketed for seventy years. Age came last. The
+      Twenty-Sixth Amendment of 1971 set the voting age at eighteen, and passed
+      in under four months during a war in which eighteen-year-olds were being
+      drafted. A fifth barrier was the poll tax, which was a charge that had to
+      be paid before a person could vote. It was abolished for federal elections
+      by the Twenty-Fourth Amendment in 1964. The Supreme Court struck it down
+      for state elections two years after that.
+
+      The pattern in all of this is that a constitutional amendment settles the
+      rule and settles nothing else. Each of these changes required a second
+      round of enforcement machinery, usually decades later, because a state
+      that wishes to exclude voters has many instruments and only one of them is
+      an explicit rule. Literacy tests administered by local officials,
+      residence requirements, registration hours, the location of polling places
+      and the drawing of district lines all survive the removal of the barrier
+      they replaced. The history of the franchise is therefore not a straight
+      line but a series of rules followed by workarounds. Each new amendment
+      also had to be ratified by three quarters of the states, which meant
+      persuading legislatures that had no obligation to listen.
+    anchors:
+      - take: "Four separate barriers to voting came down at different times."
+        quote: "It was restricted by four"
+      - take: "The Fifteenth Amendment was evaded for ninety years by devices that avoided race."
+        quote: "devices that did not mention race at all"
+      - take: "An amendment settles the rule and nothing else."
+        quote: "settles the rule and settles nothing else"
+    terms:
+      - {term: "poll tax", gloss: "a charge that had to be paid before a person could vote", glossed: true}
+    facts:
+      - "The Fifteenth Amendment of 1870 barred denial of the vote on racial grounds."
+      - "The Nineteenth Amendment of 1920 removed sex as a barrier."
+      - "The Twenty-Sixth Amendment of 1971 set the voting age at eighteen."
+  - id: HIS-S04-L2
+    strand: S04
+    title: "Two Arguments About Property"
+    move: mechanism
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S04-L1"
+    advances: "Lays out both sides of the slavery argument as reasoning, so that the clash of premises becomes visible."
+    vocab_link: [advocated]
+    passage: |
+      The case against slavery that Douglass and others advocated rested on a
+      single premise and a single move. The premise is that a human being is not
+      a kind of property, because the capacity to reason and to choose puts a
+      person in a different category from a horse or a field. The move is to
+      apply the founding documents literally. If rights are unalienable, meaning
+      incapable of being transferred or surrendered, then no bill of sale can
+      transfer them and no statute can make the transfer valid. Slavery is
+      therefore not merely cruel but void.
+
+      The defense of slavery did not answer that argument on its own ground. It
+      shifted the ground. John Calhoun and others argued from order rather than
+      from rights. They held that every settled society rests on some
+      arrangement of unequal labor, and that the southern arrangement was more
+      humane than the wage labor of northern factories. They added that
+      abolition would destroy property worth more than the whole industrial
+      capital of the country. A second line argued from history, claiming that
+      the Constitution had recognized slavery in three clauses and therefore
+      protected it.
+
+      Each side was arguing toward a different kind of conclusion. One asked
+      what is owed to a person. The other asked what will hold a society
+      together and what the law already permits. Arguments of that shape cannot
+      be settled by better evidence, because the parties disagree about what
+      counts as evidence in the first place. That is why the dispute moved from
+      the pulpit and the pamphlet to the territories and then to the
+      battlefield, and why the amendment of 1865 was framed as a flat
+      prohibition rather than as a compromise. Douglass had read Calhoun and
+      quoted him, which is why his speeches so often answer a specific sentence
+      rather than a general position.
+    anchors:
+      - take: "The antislavery case turns on the claim that a person is not property."
+        quote: "a human being is not a kind of property"
+      - take: "The defense argued from order and from the existing Constitution."
+        quote: "argued from order rather than from rights"
+      - take: "The two sides disagreed about what counts as evidence."
+        quote: "disagree about what counts as evidence"
+    terms:
+      - {term: "unalienable", gloss: "incapable of being transferred or surrendered", glossed: true}
+    facts:
+      - "Abolitionists argued that unalienable rights cannot be transferred by any bill of sale."
+      - "Proslavery writers including Calhoun argued from social order and from constitutional recognition."
+      - "The Thirteenth Amendment of 1865 was framed as a flat prohibition."
+  - id: HIS-S05-L2
+    strand: S05
+    title: "How the Retreat Was Managed"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S05-L1"
+    advances: "Explains the specific instruments that reversed Reconstruction, rather than simply stating that it was reversed."
+    vocab_link: [enacted]
+    passage: |
+      The reversal of Reconstruction was not one event, and it was not mainly
+      achieved by changing the law. Four instruments did the work, and they
+      reinforced one another. The first and most immediate instrument was
+      organized violence on a large scale. Armed groups attacked officeholders,
+      teachers and voters through the years around 1870, and federal
+      prosecutions under the enforcement acts fell away almost entirely once the
+      troops had left the region. The second instrument was the courts, which in
+      a series of decisions from 1873 onward read the Fourteenth Amendment
+      narrowly, holding in 1883 that Congress could not reach discrimination by
+      private individuals.
+
+      The third instrument was national politics. The disputed presidential
+      election of 1876 was settled by an arrangement under which the remaining
+      federal troops were withdrawn, and after that no administration was
+      willing to spend political capital on enforcement. The fourth was state
+      law, and it proved the most durable. Between 1890 and 1908 southern states
+      enacted new constitutions and statutes imposing literacy tests, poll
+      taxes, property requirements, all-white primaries, which were party
+      contests from which Black voters were excluded, and complicated
+      registration rules.
+
+      The combination worked because each part covered a weakness in the others.
+      Violence created the conditions in which the new rules could be written,
+      narrow court rulings removed the federal remedy, and national indifference
+      removed the political cost of doing nothing. None of the new state rules
+      mentioned race, which is what allowed them to survive judicial review for
+      decades. The result can be measured. Black registration in Louisiana fell
+      from over ninety percent of eligible men in 1896 to about one percent by
+      1904. Nothing in the Constitution had changed in those eight years, and
+      what changed instead was everything around it. The architects of the new
+      constitutions said in public what they were doing, and the convention
+      debates were printed.
+    anchors:
+      - take: "Four instruments reversed Reconstruction and reinforced each other."
+        quote: "Four instruments did the work"
+      - take: "The new state rules avoided mentioning race and so survived review."
+        quote: "None of the new state rules mentioned race"
+      - take: "Black registration in Louisiana fell from over ninety percent to about one."
+        quote: "to about one percent by 1904"
+    terms:
+      - {term: "all-white primaries", gloss: "party contests from which Black voters were excluded", glossed: true}
+    facts:
+      - "The Supreme Court held in 1883 that Congress could not reach private discrimination."
+      - "Federal troops were withdrawn after the disputed 1876 election."
+      - "Louisiana Black registration fell from over ninety percent in 1896 to about one percent by 1904."
+  - id: HIS-S06-L2
+    strand: S06
+    title: "Four Ways to Make a Factory Safer"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S06-L1"
+    advances: "Compares the available instruments of industrial regulation and explains what each one actually changes."
+    vocab_link: [imposed]
+    passage: |
+      A state that wants fewer factory deaths has four instruments, and they
+      work in quite different ways. The first is a rule with an inspector behind
+      it. A statute imposed a duty, such as keeping exits unlocked, and an
+      inspection service with the right to enter unannounced makes that duty
+      real. The weakness is cost and coverage. New York had about fifty
+      inspectors for tens of thousands of workplaces in 1912, so the chance of a
+      visit in any given year was small.
+
+      The second instrument is liability, meaning legal responsibility for the
+      cost of an injury. If an injured worker can sue and win, the employer
+      carries the cost of danger and has a reason to spend on prevention.
+      Nineteenth-century courts blocked this with three doctrines. The first was
+      that a worker who knew of a risk had accepted it. The second was that an
+      employer was not answerable for the carelessness of a fellow servant. The
+      third was that any fault by the worker barred recovery altogether. Workers
+      compensation laws, which are schedules of automatic payments replacing the
+      lawsuit, were passed by most states between 1910 and 1920.
+
+      The third instrument is insurance pricing. Once compensation payments
+      became automatic, insurers had a direct interest in safer plants, and they
+      began to inspect, grade and charge accordingly. The fourth is the hours
+      law, which reduces exposure rather than hazard, since a worker in the
+      building for ten hours instead of fourteen is at risk for less time and is
+      less tired while there. The record suggests that no single instrument did
+      much on its own, and that the sharp falls in industrial death rates came
+      where three or four of them were operating at once. Britain had reached
+      much the same conclusion fifty years earlier, and its factory inspectorate
+      dated from 1833.
+    anchors:
+      - take: "Rules need an inspection service with the right to enter."
+        quote: "the right to enter unannounced makes that duty real"
+      - take: "Three legal doctrines had blocked injured workers from suing."
+        quote: "that a worker who knew of a risk had accepted it"
+      - take: "Automatic compensation gave insurers a direct interest in safer plants."
+        quote: "insurers had a direct interest in safer plants"
+    terms:
+      - {term: "liability", gloss: "legal responsibility for the cost of an injury", glossed: true}
+      - {term: "workers compensation", gloss: "a schedule of automatic payments replacing the lawsuit", glossed: true}
+    facts:
+      - "New York had roughly fifty factory inspectors for tens of thousands of workplaces in 1912."
+      - "Courts used the doctrines of assumed risk, the fellow servant rule and contributory fault."
+      - "Most states passed workers compensation laws between 1910 and 1920."
+  - id: HIS-S07-L2
+    strand: S07
+    title: "What the 1965 Act Actually Did"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S07-L1"
+    advances: "Explains the legal machinery of the two civil rights statutes, and why one of them worked faster than the other."
+    vocab_link: [prevailed]
+    passage: |
+      Brown v. Board of Education in 1954 declared segregated schooling
+      unconstitutional and provided no machinery at all. Enforcement depended on
+      lawsuits brought district by district, and ten years later fewer than two
+      percent of Black children in the states of the old Confederacy attended
+      schools with white children. A ruling that must be enforced by litigation
+      moves at the speed of litigation, and that speed is set by how many
+      lawyers exist.
+
+      The Civil Rights Act of 1964 took a different route. Rather than rest on
+      the Fourteenth Amendment, which reaches only state action, Congress used
+      its power over interstate commerce to reach private businesses, and
+      attached conditions to federal funding for school districts. A district
+      that discriminated could lose its money without anyone filing suit. The
+      Voting Rights Act of 1965 went further and is the clearest case of
+      machinery in the whole period. It suspended literacy tests in covered
+      areas, sent federal examiners, who were officials able to register voters
+      directly where local registrars refused, and required those areas to
+      obtain federal approval before changing any voting rule.
+
+      The results separate sharply. Black registration in Mississippi rose from
+      under seven percent in 1964 to about sixty percent in 1967. School
+      desegregation in the same states, driven by funding conditions rather than
+      by courts alone, moved further between 1964 and 1972 than in the whole
+      previous decade. The pattern is consistent. Where a statute created an
+      administrative mechanism that operated without a plaintiff, change
+      prevailed quickly. Where it created a right that had to be claimed in
+      court, change was slow and uneven. The approval requirement in the 1965
+      Act was narrowed by the Supreme Court in 2013, and several covered states
+      changed their voting rules within weeks. The two statutes are therefore
+      studied together as a lesson about remedies: a right without an
+      administrator is a right that waits.
+    anchors:
+      - take: "Brown provided no enforcement machinery and depended on lawsuits."
+        quote: "provided no machinery at all"
+      - take: "The 1964 Act used commerce power and funding conditions instead."
+        quote: "could lose its money without anyone filing suit"
+      - take: "Mississippi Black registration rose from under seven percent to about sixty."
+        quote: "to about sixty percent in 1967"
+    terms:
+      - {term: "federal examiners", gloss: "officials sent to register voters where local registrars refused", glossed: true}
+    facts:
+      - "Brown v. Board of Education was decided in 1954."
+      - "The Voting Rights Act of 1965 suspended literacy tests and sent federal examiners."
+      - "Black registration in Mississippi rose from under seven percent in 1964 to about sixty percent in 1967."
+  - id: HIS-S08-L2
+    strand: S08
+    title: "The Arithmetic of Empire"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S08-L1"
+    advances: "Explains how colonial rule was financed and staffed, and how that arithmetic eventually broke."
+    vocab_link: [conceded]
+    passage: |
+      An empire is an administrative problem before it is anything else. British
+      India was governed by a civil service of about a thousand British
+      officials over a population that passed three hundred million. That was
+      possible only because almost all the work was done by Indian employees and
+      by local rulers who kept their thrones. The army was similar. Most
+      soldiers were Indian, paid out of Indian revenue, and the same revenue
+      paid for the railways, the telegraph and the salaries of the officials.
+
+      That arrangement had a condition attached. The colony had to produce a
+      surplus. Land revenue, which was the tax on agricultural land that funded
+      most of the administration, together with the salt tax and customs duties,
+      had to cover the cost of government and leave something over. Two things
+      broke the arithmetic in the twentieth century. The first was the cost of
+      consent. Each concession to nationalist demand, from the councils of 1909
+      to the provincial governments conceded in 1935, moved spending decisions
+      toward people with no interest in remitting money abroad. The second and
+      decisive pressure was the cost of two world wars fought on borrowed money.
+
+      Britain finished the Second World War owing India about thirteen hundred
+      million pounds. The debt was recorded as sterling balances, meaning sums
+      owed in British currency and held in London. By 1945 the colony had become
+      a creditor of the country that governed it. At the same time the British
+      army was stretched across four continents, the Indian officer corps had
+      been largely Indianized, and the police could no longer be relied on in a
+      general strike. Independence in 1947 was neither a gift nor simply a
+      victory. It was the point at which the cost of holding on exceeded any
+      plausible return. France, the Netherlands and Portugal each reached a
+      version of the same reckoning within twenty years.
+    anchors:
+      - take: "About a thousand British officials governed a population over three hundred million."
+        quote: "a civil service of about a thousand British officials"
+      - take: "The arrangement required the colony to produce a surplus."
+        quote: "The colony had to produce a surplus"
+      - take: "By 1945 Britain owed India about thirteen hundred million pounds."
+        quote: "owing India about thirteen hundred million pounds"
+    terms:
+      - {term: "land revenue", gloss: "the tax on agricultural land that funded most of the administration", glossed: true}
+      - {term: "sterling balances", gloss: "debts to India recorded in British currency and held in London", glossed: true}
+    facts:
+      - "The Indian Civil Service numbered roughly a thousand British officials."
+      - "Most soldiers in the Indian Army were Indian and were paid from Indian revenue."
+      - "Britain ended the Second World War owing India about 1,300 million pounds in sterling balances."
+  - id: HIS-S09-L2
+    strand: S09
+    title: "The Machinery of Emergency"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S09-L1"
+    advances: "Sets out the standard instruments of emergency power and the conditions under which each is reached for."
+    vocab_link: [dissent]
+    passage: |
+      Emergency powers in a constitutional state follow a recognizable pattern,
+      and the removal of 1942 used three of its standard instruments. The first
+      is delegation, meaning a grant of broad authority from a legislature to an
+      executive to act in a defined emergency, usually without specifying what
+      will be done, because the point of the grant is speed. Executive Order
+      9066 handed the army power to define areas and exclude persons from them,
+      and Congress then made violation of such an order a crime.
+
+      The second instrument is the suspension of ordinary procedure. Detention
+      without charge, military courts, and the removal of a right to challenge
+      detention before a civilian judge all shorten the distance between a
+      decision and its execution. The third is control of information, and it
+      operates in two directions at once. One is censorship of what the public
+      learns. The other is classification, which is the withholding of the
+      governments own evidence from examination, so that the basis for a measure
+      cannot be tested while the measure is in force.
+
+      Those three together produce a characteristic difficulty. The executive
+      holds the facts, the courts defer to the executive on military necessity,
+      and dissent is therefore conducted in the dark. In the Japanese American
+      cases the Supreme Court was told that military necessity required removal,
+      and was not shown the reports already in the governments possession that
+      said otherwise. Powers of this kind are rarely repealed outright. They are
+      allowed to lapse, or narrowed quietly, or left on the books unused, which
+      is why each emergency begins with a stock of instruments inherited from
+      the last one. The order itself was not formally revoked until 1976,
+      thirty-four years after it was signed. Lawyers for the detained men
+      discovered the suppressed reports in government archives in the early
+      1980s.
+    anchors:
+      - take: "Emergency power begins with a broad delegation to the executive."
+        quote: "The first is delegation"
+      - take: "Control of information works through censorship and classification together."
+        quote: "censorship of what the public learns"
+      - take: "The courts deferred while the executive held the facts."
+        quote: "the courts defer to the executive on military necessity"
+    terms:
+      - {term: "delegation", gloss: "a grant of broad authority from a legislature to an executive", glossed: true}
+      - {term: "classification", gloss: "the withholding of the governments own evidence from examination", glossed: true}
+    facts:
+      - "Executive Order 9066 delegated power to the army to define areas and exclude persons."
+      - "Congress made violation of such exclusion orders a criminal offense."
+      - "The Supreme Court was not shown government reports that contradicted the claim of military necessity."
+  - id: HIS-S10-L2
+    strand: S10
+    title: "How a Story Gets Into the Paper"
+    move: mechanism
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S10-L1"
+    advances: "Describes the production process that decides what becomes news, as a mechanism with predictable gaps."
+    vocab_link: [abolished]
+    passage: |
+      News is not a selection from everything that happened. It is a selection
+      from whatever reached a newsroom in a usable form before a deadline, and
+      that difference explains a great deal. A reporter has a beat, meaning an
+      assigned area such as the courts, the city hall or the police, and the
+      beat delivers a steady supply of material from official sources who are
+      easy to reach and willing to talk. Events that occur where no reporter is
+      assigned arrive late or never.
+
+      Three pressures then shape what survives. The deadline rewards whatever
+      can be confirmed quickly, which favors documents and official statements
+      over slow inquiry. Competition rewards whatever rivals do not have, which
+      favors novelty over importance, and a new development in a long-running
+      story over the story itself. The need for a narrative rewards events with
+      actors, a beginning and a visible change, which is why a vote is covered
+      and a trend is not. Nothing in this requires any journalist to be
+      dishonest.
+
+      The consequences are measurable. Coverage of crime rises and falls with
+      police practice as much as with crime itself. Famines, slow epidemics and
+      gradual improvements are systematically underreported because they have no
+      event structure. When a government department is abolished there is a
+      story on the day and no story at all about the work that quietly stops. A
+      reader who understands the production process can therefore predict the
+      shape of the gaps, and that is a more useful skill than detecting bias in
+      any single article. Research on American local news finds that the closing
+      of a paper is followed by measurable falls in turnout and in local
+      borrowing costs. The same pressures now operate on a faster clock, because
+      a story that takes six hours to confirm has already been overtaken.
+    anchors:
+      - take: "News is selected from what reached a newsroom usable and in time."
+        quote: "before a deadline"
+      - take: "Deadline, competition and narrative each favor a particular kind of event."
+        quote: "Three pressures then shape what survives."
+      - take: "Slow processes are underreported because they have no event structure."
+        quote: "because they have no event structure"
+    terms:
+      - {term: "beat", gloss: "an assigned area such as the courts, the city hall or the police", glossed: true}
+    facts:
+      - "Reporters are assigned to beats that supply material from official sources."
+      - "Deadlines favor claims that can be confirmed quickly, such as documents and statements."
+      - "Slow-moving processes such as famines and epidemics are systematically underreported."

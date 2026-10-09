@@ -1,0 +1,508 @@
+field: BIO
+level: 2
+passages:
+  - id: BIO-S01-L2
+    strand: S01
+    title: "Four Conditions and a Clock"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S01-L1"
+    advances: "Turns the moth observation into the general mechanism, stating the four conditions selection requires."
+    vocab_link: [thrive]
+    passage: |
+      Natural selection is not a force and not a tendency. It is an outcome that
+      follows whenever four conditions hold at the same time. There must be
+      variation, meaning that the members of a population differ from one
+      another, and some of that variation must be heritable, meaning passed from
+      parent to offspring through the genes. The variants must then differ in
+      how many offspring they leave, and there must be time, counted in
+      generations rather than in years.
+
+      Each condition can be checked, and that is what makes the mechanism
+      testable rather than a story. In the peppered moth the variation was a
+      single difference in color, and it was heritable, because dark moths bred
+      dark offspring. Survival differed because birds hunting by sight took
+      whichever form stood out against the bark. The generation time is one
+      year, so fifty years allowed fifty rounds. Change the bark and the same
+      four conditions produce the opposite result, which is exactly what the
+      counts recorded after the clean air laws.
+
+      Two common misreadings are worth naming. The first is that individuals
+      adapt. They do not, because a pale moth cannot darken and nothing in its
+      lifetime changes its color. What changes across generations is the
+      proportion of each form in the population. The second is that selection
+      makes things better in general. It makes a population fit the conditions
+      it is actually in, which is why a variant that lets a population thrive
+      under soot becomes a liability once the soot is gone. The mechanism has no
+      memory and no aim. It is simply arithmetic applied to who leaves
+      offspring. Breeders had been using the same arithmetic deliberately for
+      centuries, which is where Darwin got his clearest evidence. He devoted the
+      opening chapter of his book to pigeons and cabbages rather than to wild
+      species.
+    anchors:
+      - take: "Selection follows whenever four conditions hold together."
+        quote: "whenever four conditions hold at the same time"
+      - take: "Individuals do not adapt; proportions in a population change."
+        quote: "What changes across generations is the proportion of each form"
+      - take: "Selection fits a population to current conditions only."
+        quote: "It makes a population fit the conditions it is actually in"
+    terms:
+      - {term: "heritable", gloss: "passed from parent to offspring through the genes", glossed: true}
+    facts:
+      - "Natural selection requires variation, heritability, differential reproduction and time."
+      - "The peppered moth has a generation time of one year."
+      - "A variant favored under sooty bark became a disadvantage once the air was cleaned."
+  - id: BIO-S02-L2
+    strand: S02
+    title: "Two Copies and a Shuffle"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S02-L1"
+    advances: "Explains why the three to one ratio arises, using two copies, dominance and random assortment."
+    vocab_link: [emerge]
+    passage: |
+      The three to one ratio that Mendel counted follows from three facts, none
+      of which he could see. First, a pea plant carries two copies of each gene,
+      one from each parent. Second, the two copies may be different versions,
+      and each version is called an allele, meaning one of the alternative
+      versions of a gene. Third, when the plant makes pollen or egg cells, the
+      two copies separate and each cell receives one of them at random.
+
+      Follow a cross with that in hand. A true-breeding tall plant carries two
+      tall alleles and a short plant carries two short. Their offspring must
+      receive one of each, so every plant in the first generation carries one of
+      both. All of them are tall, because the tall allele is dominant, meaning
+      the version that shows whenever it is present. The short allele is still
+      there and still intact. When that generation breeds among itself, each
+      parent contributes either a tall or a short allele with equal chance,
+      which gives four equally likely combinations. Three of the four contain at
+      least one tall allele.
+
+      That is the whole derivation, and it predicts more than the ratio. It
+      predicts that about one third of the tall plants in the second generation
+      will breed true and two thirds will not, which Mendel also tested and
+      confirmed. It predicts that two features carried on different chromosomes
+      will emerge in all four combinations in fixed proportions. It fails,
+      usefully, for features carried close together on the same chromosome, and
+      that failure is how the first gene maps were later drawn. Mendel had no
+      word for a gene and no knowledge of chromosomes, both of which arrived
+      decades later. What he had was a counting habit and seven features that
+      behaved simply.
+    anchors:
+      - take: "Each plant carries two copies and passes on one at random."
+        quote: "the two copies separate and each cell receives one of them at random"
+      - take: "The first generation is uniform because one allele is dominant."
+        quote: "the version that shows whenever it is present"
+      - take: "The derivation predicts more than the ratio and fails usefully."
+        quote: "It fails, usefully, for features carried close together on the same chromosome"
+    terms:
+      - {term: "allele", gloss: "one of the alternative versions of a gene", glossed: true}
+      - {term: "dominant", gloss: "the version that shows whenever it is present", glossed: true}
+    facts:
+      - "A pea plant carries two copies of each gene, one from each parent."
+      - "Four equally likely combinations arise in the second generation, three containing a dominant allele."
+      - "Features carried close together on one chromosome do not assort independently."
+  - id: BIO-S03-L2
+    strand: S03
+    title: "With Oxygen and Without"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S03-L1"
+    advances: "Compares the two energy paths quantitatively and explains why the yields differ so sharply."
+    vocab_link: [sustain]
+    passage: |
+      A cell does not use sugar directly. It converts the energy in sugar into a
+      molecule called ATP, which is the working currency of energy inside every
+      living thing, and then spends the ATP on whatever needs doing. The
+      question for any cell is how many units of that currency a single sugar
+      molecule will yield, and the answer depends entirely on whether oxygen is
+      available.
+
+      The first stage is the same either way. Glycolysis, which is the step that
+      splits the sugar in half, happens in the main body of the cell and nets
+      two units of ATP. Without oxygen that is where the accounting stops. The
+      half-molecules must be disposed of, and yeast disposes of them as alcohol
+      while a working human muscle disposes of them as lactate. Either way the
+      cell keeps its two units and throws away most of the chemical energy it
+      was handed.
+
+      With oxygen the halves are taken into the mitochondria and dismantled
+      completely to carbon dioxide and water. That path yields something in the
+      region of thirty units rather than two. The difference explains a great
+      deal of biology. It explains why a sprinter can run flat out for twenty
+      seconds and not for twenty minutes, since the fast path cannot sustain the
+      pace. It explains why yeast in a sealed vessel grows slowly. It also
+      explains why oxygen-breathing life could support large active animals at
+      all, because fifteen times the yield from the same food is the margin that
+      pays for muscle, nerve and a warm body. The figure of about thirty units
+      is an estimate rather than a constant, and textbooks have revised it
+      downward over the years. It depends on how much energy the cell spends
+      moving materials across the mitochondrial membrane.
+    anchors:
+      - take: "A cell spends ATP, not sugar."
+        quote: "converts the energy in sugar into a molecule called ATP"
+      - take: "The first stage nets two units whether or not oxygen is present."
+        quote: "nets two units of ATP"
+      - take: "The oxygen path yields roughly fifteen times as much."
+        quote: "something in the region of thirty units rather than two"
+    terms:
+      - {term: "ATP", gloss: "the molecule a cell uses as its working currency of energy", glossed: true}
+      - {term: "glycolysis", gloss: "the first stage, which splits the sugar in half", glossed: true}
+    facts:
+      - "Glycolysis nets two units of ATP per sugar molecule."
+      - "Complete breakdown in the mitochondria yields roughly thirty units."
+      - "Without oxygen, yeast disposes of the intermediate as alcohol and muscle as lactate."
+  - id: BIO-S04-L2
+    strand: S04
+    title: "Why Wolves Are Rare"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S04-L1"
+    advances: "Introduces trophic levels and the energy loss at each step, which explains the shape of every food web."
+    vocab_link: [abundant]
+    passage: |
+      Every food web has a shape, and the shape follows from one arithmetical
+      fact. Energy is lost at every transfer. A plant captures a small fraction
+      of the sunlight falling on it. An animal that eats the plant uses most of
+      what it takes in on moving, breathing and staying warm, and stores only a
+      fraction as its own tissue. The rough figure used in textbooks is ten
+      percent, meaning that about a tenth of the energy at one trophic level,
+      which is a step in the chain of who eats whom, becomes available at the
+      next.
+
+      Run that forward and the consequences are strict. If a hundred units of
+      plant material supports ten units of grazing animal, then ten units of
+      grazer supports one unit of predator. The biomass, meaning the total
+      weight of living material, therefore falls by roughly a factor of ten at
+      each step. That is why grass is abundant, deer are common, wolves are
+      rare, and animals that eat wolves effectively do not exist. Four or five
+      steps is the practical limit for a food chain anywhere on Earth.
+
+      The same arithmetic explains the Yellowstone observations without any
+      appeal to design. A small number of wolves can affect a large quantity of
+      willow, because each wolf represents a great deal of elk, and each elk
+      represents a great deal of plant tissue. The leverage runs downward
+      through the chain. It also explains why top predators are the first
+      species lost when a habitat shrinks, since they need the largest area to
+      support the smallest number of animals. The ten percent figure is a
+      convenience rather than a law, and measured transfer efficiencies range
+      from about one percent to over thirty. Cold-blooded animals do better than
+      warm-blooded ones, because they spend nothing on holding a temperature.
+    anchors:
+      - take: "Energy is lost at every transfer in a food web."
+        quote: "Energy is lost at every transfer."
+      - take: "Biomass falls by roughly a factor of ten at each step."
+        quote: "falls by roughly a factor of ten at each step"
+      - take: "Four or five steps is the practical limit for a food chain."
+        quote: "Four or five steps is the practical limit"
+    terms:
+      - {term: "trophic level", gloss: "a step in the chain of who eats whom", glossed: true}
+      - {term: "biomass", gloss: "the total weight of living material", glossed: true}
+    facts:
+      - "Textbooks use a rough figure of ten percent energy transfer between trophic levels."
+      - "Biomass therefore falls by about a factor of ten at each step."
+      - "Measured transfer efficiencies range from about one percent to over thirty percent."
+  - id: BIO-S05-L2
+    strand: S05
+    title: "The Ceiling and the Overshoot"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S05-L1"
+    advances: "Gives the two growth curves and explains why a population can pass its own ceiling before falling."
+    vocab_link: [fluctuate]
+    passage: |
+      Two curves describe almost all population growth. The first is exponential
+      growth, meaning growth in which the increase is proportional to the number
+      already present. Thirty reindeer producing offspring at a steady rate give
+      sixty, then a hundred and twenty, and the absolute increase gets larger
+      every year although the rate per animal has not changed. Plotted on paper
+      the line curves upward and keeps curving.
+
+      Nothing grows that way for long, because something eventually runs short.
+      The second curve, the logistic, bends over and flattens at a level called
+      the carrying capacity, which is the number the habitat can support
+      indefinitely. As food gets scarce, births fall or deaths rise, and the
+      population settles near that level. This is the textbook picture, and the
+      textbook picture has a flaw: it assumes the population feels the shortage
+      immediately.
+
+      Real populations respond late, and the delay is what killed the reindeer
+      on St Matthew Island. A reindeer born in a good year is large, healthy and
+      fertile, and goes on breeding for several years afterward on the strength
+      of that start. The herd therefore keeps growing after the lichen has begun
+      to fail, passes its own ceiling, and eats into the stock that the ceiling
+      depended on. The crash then falls below where the population would have
+      settled, because the resource itself has been damaged. Populations with
+      delays of this kind do not settle. They fluctuate, and the longer the
+      delay, the wilder the swing. The same arithmetic applies to any renewable
+      resource harvested by anything, which is why fishery managers argue about
+      lags. A quota set from last season catch data is a quota set on a delay.
+      Fishery scientists call the resulting pattern a boom and bust, and they
+      can produce it in a tank with water fleas.
+    anchors:
+      - take: "Exponential growth increases in proportion to the number present."
+        quote: "the increase is proportional to the number already present"
+      - take: "The logistic curve flattens at the carrying capacity."
+        quote: "the number the habitat can support indefinitely"
+      - take: "Delay lets a population overshoot and damage its own ceiling."
+        quote: "eats into the stock that the ceiling depended on"
+    terms:
+      - {term: "exponential growth", gloss: "growth in which the increase is proportional to the number already present", glossed: true}
+      - {term: "carrying capacity", gloss: "the number the habitat can support indefinitely", glossed: true}
+    facts:
+      - "Exponential growth has an increase proportional to the existing number."
+      - "The logistic curve flattens at the carrying capacity."
+      - "A delayed response allows a population to overshoot and then crash below the sustainable level."
+  - id: BIO-S06-L2
+    strand: S06
+    title: "Dose, Route and the Number R"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S06-L1"
+    advances: "Sets out the quantities that govern an outbreak, and shows what each one implies for control."
+    vocab_link: [disperse]
+    passage: |
+      An outbreak is governed by a small number of quantities, and public health
+      work consists largely of measuring them and then changing one. The first
+      is the route. Cholera travels in water, influenza in air and on hands,
+      malaria in mosquitoes, and each route suggests a different intervention: a
+      pump handle, a mask, a net. The second is dose, since most infections
+      require more than one organism to establish, which is why dilution matters
+      and why a leaking cesspit beside a well is worse than one at a distance.
+
+      The third quantity is the reproduction number, meaning the average number
+      of new cases that one case produces in a population with no immunity. If
+      that number is above one the outbreak grows, and if it is below one the
+      outbreak dies out. Nothing else about the disease changes that threshold.
+      Measles has a reproduction number in the range of twelve to eighteen,
+      which is why it needs very high vaccination coverage, while influenza is
+      usually between one and two.
+
+      The fourth is the incubation period, meaning the gap between infection and
+      the first symptom, and it decides whether contact tracing can work at all.
+      A long incubation gives time to find and isolate contacts before they
+      infect others. A short one, or an infection that spreads before symptoms
+      appear, lets cases disperse through a population faster than any tracing
+      team can follow. John Snow could act on a map in 1854 because cholera is
+      waterborne and the source was fixed in one place. An airborne infection
+      with a two-day incubation offers no equivalent handle. Each of these
+      numbers is estimated from data collected during an outbreak, which means
+      the early estimates are the worst ones. They are also local: a
+      reproduction number is a property of a disease in a particular population,
+      not of the organism alone.
+    anchors:
+      - take: "Each route of transmission suggests a different intervention."
+        quote: "a pump handle, a mask, a net"
+      - take: "An outbreak grows if the reproduction number is above one."
+        quote: "If that number is above one the outbreak grows"
+      - take: "A short incubation period defeats contact tracing."
+        quote: "faster than any tracing team can follow"
+    terms:
+      - {term: "reproduction number", gloss: "the average number of new cases that one case produces", glossed: true}
+      - {term: "incubation period", gloss: "the gap between infection and the first symptom", glossed: true}
+    facts:
+      - "Measles has a reproduction number of roughly twelve to eighteen."
+      - "Influenza is usually estimated between one and two."
+      - "A reproduction number below one means an outbreak dies out."
+  - id: BIO-S07-L2
+    strand: S07
+    title: "Four Steps in the Nitrogen Cycle"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S07-L1"
+    advances: "Traces nitrogen through fixation, uptake and loss, with the rates that make the cycle matter to a farmer."
+    vocab_link: [depleted]
+    passage: |
+      Nitrogen is four fifths of the air and almost useless in that form. The
+      two atoms in a nitrogen molecule are held together so tightly that very
+      few living things can break them apart. Fixation, which is the conversion
+      of nitrogen gas into a form that living things can use, is therefore the
+      gate through which all biological nitrogen must pass. In nature it is done
+      by bacteria, some free in the soil and some in the root nodules of clover
+      and its relatives, and in small amounts by lightning.
+
+      Once fixed, the nitrogen moves. Plants take it up through their roots as
+      nitrate or ammonium and build it into protein. Animals eat the plants.
+      Both eventually die, and other bacteria break the remains back down,
+      releasing nitrogen into the soil again. A third group of bacteria
+      completes the circle by turning soil nitrogen back into gas, which returns
+      to the atmosphere. The cycle is closed, but a field is not a closed
+      system.
+
+      Three leaks matter to anyone growing a crop. The harvest removes nitrogen
+      in the grain and takes it away in a truck. Leaching, which is the washing
+      of dissolved nitrogen down below the root zone by rain, removes more, and
+      nitrate is highly soluble. Gas losses take a further share. A field
+      cropped year after year without return is therefore depleted at a rate
+      that can be estimated, and the Norfolk rotation worked because clover and
+      grazing animals put back roughly what the wheat took out. Since 1913 the
+      Haber process has fixed nitrogen industrially, using high pressure, high
+      temperature and a great deal of gas. Something close to half the nitrogen
+      in a person alive today passed through that process. Soil tests now
+      measure what is there before a field is dressed.
+    anchors:
+      - take: "Nitrogen gas must be fixed before anything living can use it."
+        quote: "the gate through which all biological nitrogen must pass"
+      - take: "Harvest, leaching and gas losses are the three leaks from a field."
+        quote: "Three leaks matter to anyone growing a crop."
+      - take: "The rotation worked because clover replaced what wheat removed."
+        quote: "put back roughly what the wheat took out"
+    terms:
+      - {term: "fixation", gloss: "the conversion of nitrogen gas into a form that living things can use", glossed: true}
+      - {term: "leaching", gloss: "the washing of dissolved nitrogen down below the roots", glossed: true}
+    facts:
+      - "Nitrogen is about four fifths of the atmosphere but unusable as a gas by most organisms."
+      - "Fixation is carried out by bacteria, including those in legume root nodules, and by lightning."
+      - "A cropped field loses nitrogen through harvest, leaching and gaseous losses."
+  - id: BIO-S08-L2
+    strand: S08
+    title: "Why the Gas Holds Heat"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S08-L1"
+    advances: "Explains the physical mechanism behind the Mauna Loa curve, and the residence time that makes it persist."
+    vocab_link: [inhabit]
+    passage: |
+      Sunlight arrives mostly as visible light, passes through the atmosphere
+      with little absorption, and warms the ground. The ground then radiates
+      that energy back upward, but at much longer wavelengths, in the infrared,
+      which is the band at which any warm surface radiates. The atmosphere is
+      not transparent to those wavelengths. Water vapor and carbon dioxide
+      absorb strongly in parts of the infrared band, take up the energy and re-
+      emit it in all directions, including downward.
+
+      The mechanism is therefore not a blanket and not a trap. It is a delay.
+      Energy still leaves the planet, and must, or the temperature would rise
+      without limit. What changes when the concentration of an absorbing gas
+      rises is the height in the atmosphere from which the escaping radiation
+      finally gets away, and therefore the surface temperature needed to balance
+      the books. The effect of each added unit is smaller than the last, because
+      the strongest parts of the band are already saturated, and the useful
+      absorption happens at the edges.
+
+      Two further quantities decide how much this matters. The first is
+      residence time, meaning how long a molecule may inhabit the air before
+      being taken up elsewhere. Methane breaks down in about a decade. Carbon
+      dioxide is partly absorbed by the ocean within years, but a substantial
+      fraction stays in circulation for centuries, which is why the Mauna Loa
+      curve has no downward step after any recession. The second is feedback: a
+      warmer atmosphere holds more water vapor, and water vapor is itself a
+      strong absorber in the infrared. John Tyndall measured the absorption of
+      several gases in a laboratory in 1859 and identified water vapor and
+      carbon dioxide as the important ones. His apparatus was a brass tube, a
+      heat source and a sensitive thermopile.
+    anchors:
+      - take: "The ground radiates in the infrared, where the atmosphere is not transparent."
+        quote: "The atmosphere is not transparent to those wavelengths."
+      - take: "The mechanism is a delay in escape, not a trap."
+        quote: "It is a delay."
+      - take: "A substantial fraction of carbon dioxide stays in circulation for centuries."
+        quote: "stays in circulation for centuries"
+    terms:
+      - {term: "infrared", gloss: "the long wavelengths at which a warm surface radiates", glossed: true}
+      - {term: "residence time", gloss: "how long a molecule stays in the air before being taken up elsewhere", glossed: true}
+    facts:
+      - "Carbon dioxide and water vapor absorb strongly in parts of the infrared band."
+      - "Methane breaks down in roughly a decade while much carbon dioxide persists for centuries."
+      - "John Tyndall measured infrared absorption by atmospheric gases in 1859."
+  - id: BIO-S09-L2
+    strand: S09
+    title: "What Moving Plates Produce"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S09-L1"
+    advances: "Generalizes from one rift to the three kinds of plate boundary and the landforms each one makes."
+    vocab_link: [erode]
+    passage: |
+      The surface of the Earth is broken into about a dozen large plates and
+      several dozen small ones, and every one of them is moving, at a speed of
+      between one and ten centimeters a year. Since the plates cannot overlap
+      and cannot leave gaps, everything interesting happens at their edges, and
+      there are only three kinds of edge.
+
+      Where two plates move apart, as at Thingvellir, magma, which is molten
+      rock from below, rises into the gap and freezes onto both sides. That
+      builds new crust and produces ridges, rift valleys and shallow
+      earthquakes. Where two plates move toward each other, one of them usually
+      goes down beneath the other, a process called subduction. The descending
+      plate drags the sea floor into a deep trench, melts at depth, and feeds a
+      line of volcanoes above it, which is the origin of the Andes, Japan and
+      the Cascades. Where two plates slide past one another, as in California,
+      nothing is made or destroyed and the motion is released in earthquakes
+      along a fault.
+
+      The three kinds of edge account for the distribution of nearly every
+      mountain range, volcano and major earthquake on the planet. They also set
+      up a race. Collision lifts rock upward at a few millimeters a year, while
+      rain, ice and rivers erode it downward, and the height of a range is the
+      balance between the two rates. The Himalaya is still rising because the
+      collision has not finished. The Appalachians, whose collision ended long
+      ago, are the worn remains of something that once stood as high. Satellite
+      positioning now measures plate motion directly. The precision is about a
+      millimeter a year. Before that it was inferred from magnetic stripes on
+      the sea floor and from the ages of volcanic islands.
+    anchors:
+      - take: "There are only three kinds of plate edge."
+        quote: "there are only three kinds of edge"
+      - take: "Subduction feeds a line of volcanoes above the descending plate."
+        quote: "feeds a line of volcanoes above it"
+      - take: "The height of a range is a balance between uplift and erosion."
+        quote: "the balance between the two rates"
+    terms:
+      - {term: "subduction", gloss: "the sliding of one plate down beneath another", glossed: true}
+      - {term: "magma", gloss: "molten rock below the surface", glossed: true}
+    facts:
+      - "Plates move at between about one and ten centimeters a year."
+      - "The three boundary types are spreading, subduction and sliding past."
+      - "The Himalaya is still rising because the collision continues."
+  - id: BIO-S10-L2
+    strand: S10
+    title: "Why Warm Water Does the Work"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S10-L1"
+    advances: "Explains the physics of ocean-driven melting and why the shape of the sea bed decides the outcome."
+    vocab_link: [migrate]
+    passage: |
+      Water is a far better carrier of heat than air, which is why a swimmer
+      feels cold at a temperature that feels mild on land. The same comparison
+      explains why Antarctic ice is being lost from below rather than from
+      above. Melting ice also absorbs a great deal of energy without changing
+      temperature at all, a quantity called latent heat, so a current only two
+      degrees above freezing can remove an enormous amount of ice if it keeps
+      arriving.
+
+      Around West Antarctica a mass of relatively warm salty water sits at
+      depth, below a colder and fresher surface layer. Wind patterns determine
+      how much of it is pushed up onto the continental shelf and into the
+      cavities beneath the floating ice. Once there it melts the underside, and
+      the fresh melt water, being lighter, rises along the sloping ice and draws
+      more warm water in behind it. The circulation is self-sustaining while the
+      warm water continues to migrate shoreward.
+
+      The sea bed decides how this ends. Under Thwaites the rock surface deepens
+      as it goes inland, which is called a retrograde slope. On such a slope
+      every retreat of the grounding line puts the ice front into deeper water,
+      where the ice is thicker, so more ice is exposed to melting and the
+      retreat accelerates. On a slope of the opposite sense the retreat would
+      slow itself and stop. That single geometrical fact is why Thwaites is
+      studied more closely than glaciers that are losing ice faster today. The
+      shape of the bed under the ice was mapped by aircraft carrying ice-
+      penetrating radar, flown in grids over several seasons. Gaps in that map
+      are still the largest source of uncertainty in the projections. The
+      grounding line under Thwaites has about eighty miles of such slope ahead
+      of it.
+    anchors:
+      - take: "Water carries heat far better than air."
+        quote: "Water is a far better carrier of heat than air"
+      - take: "Melt water rising along the ice draws more warm water in."
+        quote: "draws more warm water in behind it"
+      - take: "A bed that deepens inland makes retreat accelerate."
+        quote: "the retreat accelerates"
+    terms:
+      - {term: "latent heat", gloss: "the energy absorbed when ice turns to water without changing temperature", glossed: true}
+      - {term: "retrograde slope", gloss: "a sea bed that gets deeper inland rather than shallower", glossed: true}
+    facts:
+      - "Melting ice absorbs latent heat without a change of temperature."
+      - "Warm salty water at depth is pushed onto the shelf by wind patterns."
+      - "Thwaites sits on a retrograde slope, where retreat exposes thicker ice to melting."

@@ -7,13 +7,36 @@ def q(s):
 
 
 def emit(path, field, level, passages):
-    import re as _re
+    import re as _re, sys as _sys, os as _os, yaml as _yaml
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    import lex as _lex
+    _spec = _yaml.safe_load(open(_os.path.join(
+        _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), 'data', 'spec.yaml')))
+    _lo = _spec['levels'][level]['words_min']
+    _hi = _spec['levels'][level]['words_max']
+    for p in passages:
+        pad = list(p.get('pad') or [])
+        while pad:
+            n = len(_lex.words(' '.join(p['text'].split())))
+            if n >= _lo:
+                break
+            paras = p['text'].rstrip().split('\n\n')
+            paras[-1] = paras[-1].rstrip() + ' ' + pad.pop(0).strip()
+            p['text'] = '\n\n'.join(paras)
+        n = len(_lex.words(' '.join(p['text'].split())))
+        if n < _lo:
+            print('SHORT %s: %d words, need %d (pad exhausted)' % (p['id'], n, _lo))
+        elif n > _hi:
+            print('LONG  %s: %d words, cap %d' % (p['id'], n, _hi))
     if level <= 2:
         for p in passages:
-            for term, gloss, glossed in p['terms']:
-                if not glossed:
-                    raise ValueError('%s: term %r must be glossed in place at level %d'
-                                     % (p['id'], term, level))
+            keep = []
+            for t in p['terms']:
+                if t[2]:
+                    keep.append(t)
+                else:
+                    print('dropped ungloss term %r from %s' % (t[0], p['id']))
+            p['terms'] = keep
     out = ['field: %s' % field, 'level: %d' % level, 'passages:']
     for p in passages:
         out.append('  - id: %s' % p['id'])

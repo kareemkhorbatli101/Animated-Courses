@@ -400,16 +400,12 @@ passages:
 
       Most of the sixty answered ninety-five percent. Only about one in six gave
       an answer near the right one. The right answer is about two percent. The
-      arithmetic is short enough to do on a napkin. Take a thousand people. One
-      has the disease and tests positive. Of the nine hundred and ninety-nine who do not have it, about fifty also test positive.
-      So fifty-one people test positive and one of them is ill. One in fifty-one
-      is about two percent.
+      arithmetic is short enough to do on a napkin. Take a thousand people, of whom exactly one has the disease, and that one tests positive as the test never misses a case. Of the nine hundred and ninety-nine who do not have it, about fifty also test positive.
+      So fifty-one people in the thousand test positive and only one of them is actually ill, and one in fifty-one is about two percent.
 
       What goes wrong is not the arithmetic but the starting point. The five
       percent figure is vivid and the one in a thousand figure is not, so the
-      second gets dropped. The rate at which a condition occurs before any test is run is called the base rate. Ignoring it is among the most reliable errors in human judgment. It matters wherever a rare thing is screened for in a large population. That covers cancer screening, airport security, drug testing and fraud detection. A positive result on a good test for a
-      rare condition is usually a false alarm, and how a doctor or an official
-      should respond to one depends entirely on the number that most people forget. Screening programs are designed around this arithmetic, which is why a second and different test usually follows the first.
+      second gets dropped. The rate at which a condition occurs before any test is run is called the base rate. Ignoring it is among the most reliable errors in human judgment. It matters wherever a rare thing is screened for in a large population. That covers cancer screening, airport security, drug testing and fraud detection. A positive result on a good test for a rare condition is usually a false alarm. How a doctor or an official should respond to one depends entirely on the number that most people forget. Screening programs are designed around this arithmetic.
     anchors:
       - take: "Most of the sixty doctors answered ninety-five percent."
         quote: "Most of the sixty answered ninety-five percent."
