@@ -477,15 +477,13 @@ passages:
       Beyond that, brightness takes over. If an object true brightness is known,
       its apparent dimness gives its distance, because light spreads out with
       the square of distance. Such an object is called a standard candle.
-      Certain pulsating stars and certain exploding stars both serve, and their
-      true brightness is fixed by finding examples close enough to have a
-      parallax, or in clusters densely enough populated to be measured another
-      way. Each rung is tied to the one below, which is why an error low on the
-      ladder moves every distance in the universe above it. The ladder currently
-      reaches billions of light years, and the error at the top is a few
-      percent. Where the lower rungs are revised, every published distance above
-      them has to be rescaled. Edwin Hubble used that chain in 1924 to establish
-      that other galaxies lie outside our own.
+      Certain pulsating stars and certain exploding stars both serve. Their true
+      brightness is fixed by finding examples close enough to have a parallax,
+      or in clusters densely enough populated to be measured another way. Each
+      rung is tied to the one below, so an error low on the ladder moves every
+      distance in the universe above it. The ladder now reaches billions of
+      light years. Edwin Hubble used that chain in 1924 to establish that other
+      galaxies lie outside our own.
     anchors:
       - take: "Astronomical distances come from a ladder of methods."
         quote: "a ladder of methods"

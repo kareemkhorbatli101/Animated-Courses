@@ -1,0 +1,501 @@
+field: HUM
+level: 2
+passages:
+  - id: HUM-S01-L2
+    strand: S01
+    title: "What Each Position Can Report"
+    move: mechanism
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S01-L1"
+    advances: "Turns the two examples into a general account of the three narrative positions and the limits each imposes."
+    vocab_link: [convey]
+    passage: |
+      A narrator is defined by access rather than by personality, and there are
+      three standard positions. A first-person narrator reports only what one
+      character perceives, remembers or guesses. A third-person limited narrator
+      stands outside but stays with one mind at a time, so the reader learns
+      what that character notices and nothing more. An omniscient narrator,
+      meaning one with access to every mind in the book, may report what two
+      people think at the same moment and may also comment on both.
+
+      Each position decides what kind of surprise is available. Deception works
+      easily in the first person, because the reader is inside the deceived
+      mind. Irony works easily in the omniscient position, because the voice can
+      show a character being wrong in a sentence the character would endorse.
+      Suspense of the simplest kind, in which the reader fears something the
+      character does not suspect, is almost impossible in strict first person
+      and routine in the others.
+
+      Nineteenth-century novelists developed a fourth option which is now the
+      commonest of all. In free indirect style, meaning a third-person voice
+      that slides into a character way of thinking without announcing it, the
+      sentence carries the character vocabulary and judgments while staying
+      grammatically outside. Jane Austen uses it constantly, and so does almost
+      every modern novel. It lets a writer convey a mind from the inside and
+      withdraw to judge it in the next clause. Recognizing the shift is a skill
+      worth practicing, because the whole effect depends on the reader not quite
+      noticing where the voice changed. An examiner asking about tone is usually
+      asking about exactly that movement. The test is simple: ask whether the
+      sentence could be spoken by the character, and whether it could be
+      endorsed by the author.
+    anchors:
+      - take: "A narrator is defined by access rather than by personality."
+        quote: "defined by access rather than by personality"
+      - take: "Each position decides what kind of surprise is possible."
+        quote: "Each position decides what kind of surprise is available."
+      - take: "Free indirect style carries a character judgments from grammatically outside."
+        quote: "while staying grammatically outside"
+    terms:
+      - {term: "omniscient", gloss: "a narrator with access to every mind in the book", glossed: true}
+      - {term: "free indirect style", gloss: "a third-person voice that slides into a character way of thinking", glossed: true}
+    facts:
+      - "The three standard narrative positions are first person, third limited and omniscient."
+      - "Strict first-person narration cannot easily produce suspense about what the narrator does not know."
+      - "Free indirect style uses a third-person voice carrying a character own vocabulary."
+  - id: HUM-S02-L2
+    strand: S02
+    title: "Four Ways to Build a Motive"
+    move: mechanism
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S02-L1"
+    advances: "Lists the devices by which motive is constructed or withheld, and what each one costs the writer."
+    vocab_link: [subtle]
+    passage: |
+      A reader infers motive from four kinds of evidence, and a writer chooses
+      how much of each to supply. The first is exposition, meaning direct
+      statement of background by the narrator: this man lost a brother at sea
+      and has not spoken of it since. Exposition is efficient and expensive,
+      because a reader who is told why a character acts has nothing left to work
+      out. The second is action, including the small choices that nobody in the
+      story remarks on, such as which of two chairs a visitor takes.
+
+      The third is speech, and it is less reliable than it looks. Characters
+      lie, boast, and tell themselves stories, so a stated motive is evidence
+      about the speaker rather than about the cause. The fourth is interiority,
+      which is direct access to what a character is thinking, available only in
+      positions that allow it. Each kind can also be withheld, and withholding
+      is itself a device. Melville gives Bartleby action and speech and no
+      interiority at all.
+
+      The effects differ in a way worth naming. Motive supplied by exposition is
+      settled and inert. Motive built from action and silence stays open, and
+      readers argue about it for a century, which is a kind of value an author
+      may prefer to certainty. The risk is obvious: a character whose motive is
+      too subtle to recover reads as arbitrary rather than deep. Writers manage
+      that risk with pattern, by repeating a gesture or an avoidance often
+      enough that a reader can see a shape without being handed a reason. Henry
+      James described the technique as a matter of what to leave in shadow.
+      Chekhov said that an author should not solve problems but state them
+      correctly. A reader who cannot say what a character wants is usually
+      reading a book that has decided not to say.
+    anchors:
+      - take: "Motive comes from exposition, action, speech and interiority."
+        quote: "four kinds of evidence"
+      - take: "A stated motive is evidence about the speaker."
+        quote: "evidence about the speaker rather than about the cause"
+      - take: "Pattern is what keeps a withheld motive from reading as arbitrary."
+        quote: "Writers manage that risk with pattern"
+    terms:
+      - {term: "exposition", gloss: "direct statement of background by the narrator", glossed: true}
+      - {term: "interiority", gloss: "direct access to what a character is thinking", glossed: true}
+    facts:
+      - "Exposition states motive directly and leaves the reader nothing to infer."
+      - "Characters lie, so reported motive is evidence about the speaker."
+      - "Melville supplies Bartleby with action and speech but no interiority."
+  - id: HUM-S03-L2
+    strand: S03
+    title: "Three Moves With Words"
+    move: mechanism
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S03-L1"
+    advances: "Distinguishes the main figures of speech by what each one actually does to the reader attention."
+    vocab_link: [vivid]
+    passage: |
+      Figurative language is usually taught as a list of names, which hides the
+      fact that the figures do different work. A simile, meaning a comparison
+      that announces itself with the word like or as, keeps the two things
+      separate: the reader is told to hold a hand and a leaf side by side and
+      notice a resemblance. A metaphor removes the announcement and asserts the
+      identity, so that the hand is the leaf, and the reader must do the work of
+      deciding in what respect.
+
+      Metonymy is a third operation and a different one. It names a thing by
+      something associated with it rather than something like it, as when the
+      press means journalists, or the crown means a monarchy, or Washington
+      means a government. Nothing is being compared. The reader is being pointed
+      at a whole through one of its parts or attachments, which is why metonymy
+      feels like plain speech while metaphor feels like writing. Most newspaper
+      prose is thick with metonymy and nobody calls it poetic.
+
+      What all three share is economy. An image that is vivid makes the reader
+      supply the detail, so four words do the work of a paragraph. That is also
+      where they fail. An image that points in two directions at once confuses
+      rather than compresses, and a metaphor repeated until nobody notices it,
+      as in the heart of the matter, has stopped doing any work at all. Such
+      expressions are dead metaphors, and the usual advice is to use a live one
+      or a plain word, not something halfway. Orwell made the test practical in
+      1946: can the writer see the image. A writer who says a thing is a hotbed
+      of unrest is not seeing a bed, and the sentence has gone to sleep.
+    anchors:
+      - take: "A simile keeps the two things separate; a metaphor asserts identity."
+        quote: "removes the announcement and asserts the identity"
+      - take: "Metonymy names a thing by association, not by resemblance."
+        quote: "rather than something like it"
+      - take: "All three work by economy and fail by confusion."
+        quote: "What all three share is economy."
+    terms:
+      - {term: "simile", gloss: "a comparison that announces itself with like or as", glossed: true}
+      - {term: "metonymy", gloss: "naming a thing by something associated with it", glossed: true}
+    facts:
+      - "A simile announces its comparison with like or as."
+      - "Metonymy substitutes an associated term, as the press for journalists."
+      - "A dead metaphor is one repeated until it no longer calls up an image."
+  - id: HUM-S04-L2
+    strand: S04
+    title: "Expectation and the Broken Line"
+    move: mechanism
+    sat_frame: "literary excerpt: narrator and stance"
+    builds_on: "HUM-S04-L1"
+    advances: "Explains how fixed form generates meaning, by setting up an expectation that the poet can satisfy or refuse."
+    vocab_link: [lyrical]
+    passage: |
+      A fixed form works by setting up an expectation that can then be used.
+      Once a reader has heard three lines of ten syllables, the fourth is
+      predicted, and a poet who delivers eleven has done something the reader
+      feels before being able to name it. The effect does not require the reader
+      to be counting consciously, any more than a listener counts the beats in a
+      dance tune.
+
+      Two devices exploit the line directly. Enjambment, meaning the running of
+      a sentence past the end of a line without a pause, sets the grammar
+      against the rhythm, so that the eye arrives at the line break while the
+      sense keeps going. That produces a small suspension, and poets use it to
+      hang a word in the air. A caesura, which is a strong break inside a line,
+      does the opposite, stopping the voice where the meter says to continue.
+      Both only work because the underlying pattern is regular enough to be
+      felt.
+
+      This is why metrical substitution carries weight. A line that is iambic
+      throughout and then reverses one foot puts a stress where none was
+      expected, and the reversed foot is almost always on a word the poet wants
+      struck. Shakespeare opens a sonnet with Shall I compare thee, which is
+      regular, and elsewhere opens with a reversed foot that lands like a hand
+      on a table. A lyrical effect of this kind is produced by arithmetic. The
+      reader hears the feeling and the poet counted. Free verse does not escape
+      the mechanism, because a reader brings expectations to any line. What it
+      does is make the poet establish the pattern inside the poem rather than
+      inherit one. Reading a line aloud twice, once flat and once with the
+      stresses, is the quickest way to hear it.
+    anchors:
+      - take: "A fixed form works by creating an expectation that can be used."
+        quote: "setting up an expectation that can then be used"
+      - take: "Enjambment sets the grammar against the rhythm."
+        quote: "sets the grammar against the rhythm"
+      - take: "A reversed foot lands on a word the poet wants struck."
+        quote: "on a word the poet wants struck"
+    terms:
+      - {term: "enjambment", gloss: "running a sentence past the end of a line without a pause", glossed: true}
+      - {term: "caesura", gloss: "a strong break inside a line", glossed: true}
+    facts:
+      - "Enjambment runs a sentence past a line ending without a pause."
+      - "A caesura is a strong break within a line."
+      - "Metrical substitution places a stress where the pattern did not predict one."
+  - id: HUM-S05-L2
+    strand: S05
+    title: "How a Building Writes a Play"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S05-L1"
+    advances: "Traces specific features of Elizabethan playwriting back to the physical conditions of the playhouse."
+    vocab_link: [renders]
+    passage: |
+      Several habits of Elizabethan playwriting are consequences of the building
+      rather than choices of taste. The audience stood in daylight on three
+      sides of a platform, so an actor could speak directly to them without
+      breaking anything. That is why the aside, meaning a line spoken to the
+      audience and not to the other characters, is a standard device rather than
+      a trick. A dark auditorium with a lit stage makes the same line awkward,
+      which is why the aside nearly disappeared in the nineteenth century and
+      returned when playhouses went back to open staging.
+
+      Because there was no scenery, place had to be established in the dialogue,
+      and Shakespeare does it in the first few lines of almost every scene.
+      Because there was no front curtain, a scene could not end with a held
+      tableau and had to end with an exit. That is why so many scenes finish on
+      a rhyming couplet that tells the audience the stage is clearing. Because
+      the stage had a discovery space, which is a curtained opening at the back,
+      a body or a sleeper or a statue could be revealed rather than carried on.
+
+      The conditions also set the length of a speech. An actor in the open air
+      with two thousand people standing has to hold attention by voice alone,
+      and the verse renders that possible by giving the voice a pattern to lean
+      on. Prose in these plays is used for different registers and rarely
+      sustains a long solo turn. None of this makes the plays less artful. It
+      locates the art in a particular room. Modern productions indoors have to
+      solve problems that the original staging did not have. Cutting an aside,
+      or lighting a soliloquy as private thought, changes the relationship the
+      line was written for.
+    anchors:
+      - take: "Daylight on three sides made the aside a standard device."
+        quote: "a standard device rather than a trick"
+      - take: "With no scenery, place had to be established in dialogue."
+        quote: "place had to be established in the dialogue"
+      - take: "Verse gave the voice a pattern to lean on in the open air."
+        quote: "giving the voice a pattern to lean on"
+    terms:
+      - {term: "aside", gloss: "a line spoken to the audience and not to the other characters", glossed: true}
+      - {term: "discovery space", gloss: "a curtained opening at the back of the stage", glossed: true}
+    facts:
+      - "The aside works in an open, daylit playhouse and became awkward in a dark auditorium."
+      - "Scenes had to end with an exit because there was no front curtain."
+      - "The discovery space allowed a figure to be revealed rather than carried on."
+  - id: HUM-S06-L2
+    strand: S06
+    title: "The Uses of a Rule"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S06-L1"
+    advances: "Explains how genre conventions do their work and what a writer gains by breaking a specific one."
+    vocab_link: [allusion]
+    passage: |
+      A convention, meaning a rule that a kind of story is expected to follow,
+      does two jobs at once. It tells a reader how to read. A body in the first
+      chapter signals that the rest of the book is a search for a cause, and the
+      reader begins sorting detail into clues without being asked. It also
+      creates the possibility of significant deviation, because a rule that
+      everybody knows can be broken on purpose and the breaking will be noticed.
+
+      Detective fiction wrote its conventions down. In the 1920s members of a
+      London club drew up a list of rules. One was the requirement of fair play,
+      meaning that every clue must be shown to the reader before the solution is
+      given. Agatha Christie then built her most famous book on an apparent
+      breach of one of them, and the argument about whether she had cheated is
+      still going. The scandal only existed because the rule existed. A reader
+      with no expectations cannot be surprised.
+
+      The same mechanism works through allusion, which lets a later work lean on
+      an earlier one. A western in which the hero walks down a street at noon is
+      borrowing a hundred earlier walks. A film that shows the hero arriving to
+      find the street empty comments on all of them in one shot. None of this
+      requires the audience to have studied the history. Recognition can be
+      entirely unconscious, and the writer only needs the pattern to be present,
+      not to be named. Genres also drift, because every successful breach
+      becomes the next convention. The unreliable narrator was a shock in 1926
+      and is now a standard item on a publisher list. The useful question about
+      any genre work is therefore which rule it is leaning on and which it is
+      pushing against.
+    anchors:
+      - take: "A convention tells a reader how to read."
+        quote: "It tells a reader how to read."
+      - take: "Fair play requires every clue to be shown before the solution."
+        quote: "every clue must be shown to the reader before the solution"
+      - take: "A reader with no expectations cannot be surprised."
+        quote: "A reader with no expectations cannot be surprised."
+    terms:
+      - {term: "convention", gloss: "a rule a kind of story is expected to follow", glossed: true}
+      - {term: "fair play", gloss: "the rule that every clue is shown to the reader before the solution", glossed: true}
+    facts:
+      - "Detective writers in 1920s London drew up written rules for the form."
+      - "The fair play rule requires that all clues be shown to the reader."
+      - "Every successful breach of a convention tends to become the next convention."
+  - id: HUM-S07-L2
+    strand: S07
+    title: "Where the Eye Is Sent"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S07-L1"
+    advances: "Sets out the devices by which a painter controls the order in which a picture is read."
+    vocab_link: [ornate]
+    passage: |
+      A painting is read in an order, and the painter decides that order.
+      Composition, meaning the arrangement of shapes and spaces within the
+      frame, is the machinery for doing it, and three devices carry most of the
+      load. The first is tonal contrast, which is the difference between the
+      lightest and the darkest areas. The eye goes to the strongest contrast
+      first, which is why Vermeer puts his brightest white on the milk and the
+      cap and leaves the rest of the wall in a narrow range.
+
+      The second device is line. Edges that run diagonally lead the eye along
+      them, and painters arrange table edges, floor tiles, arms and gazes to
+      point where they want attention to travel. The third is scale and
+      position. A figure placed on a diagonal from a corner reads differently
+      from one on the center line. An object cut by the frame reads as
+      continuing beyond it, which pulls the viewer into imagining a room rather
+      than a panel.
+
+      What follows is a working method for looking. Ask where the eye went first
+      and why. Follow the path it took afterward and find the edge or the gaze
+      that sent it. Notice what has been left in low contrast, because that is
+      what the painter decided could wait. A crowded and ornate picture is not
+      necessarily badly composed, since a painter may want the eye to wander,
+      but a composition that fails will leave the eye drifting without arriving.
+      The test is whether the order of looking can be described at all.
+      Conservators can sometimes show that an artist moved a figure to improve
+      this order. X-ray images of the Milkmaid reveal a map on the back wall and
+      a basket that were painted out.
+    anchors:
+      - take: "The eye goes to the strongest tonal contrast first."
+        quote: "The eye goes to the strongest contrast first"
+      - take: "Diagonal edges lead the eye along them."
+        quote: "Edges that run diagonally lead the eye along them"
+      - take: "A failed composition leaves the eye drifting without arriving."
+        quote: "leave the eye drifting without arriving"
+    terms:
+      - {term: "composition", gloss: "the arrangement of shapes and spaces within the frame", glossed: true}
+      - {term: "tonal contrast", gloss: "the difference between the lightest and darkest areas", glossed: true}
+    facts:
+      - "Tonal contrast, line and scale are the main compositional devices."
+      - "An object cut by the frame reads as continuing beyond it."
+      - "X-ray study of the Milkmaid shows a wall map and a basket that were painted out."
+  - id: HUM-S08-L2
+    strand: S08
+    title: "Tension, Delay and Arrival"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S08-L1"
+    advances: "Explains how music creates and resolves expectation, using key, cadence and rhythm as the mechanism."
+    vocab_link: [evokes]
+    passage: |
+      Music works on expectation in a way that can be described without
+      technical training. A piece in a key establishes a home note, the tonic,
+      and a listener who has heard a few bars can hum it without knowing its
+      name. Moving away from that home creates tension. Returning to it releases
+      the tension. Almost everything else is management of the distance and the
+      delay between those two events.
+
+      A cadence, meaning a closing formula that signals an ending, is the
+      standard machinery of arrival. Composers learned early that an expected
+      cadence can be interrupted, and the interruption is one of the strongest
+      effects available. The music arrives at the moment of resolution and goes
+      somewhere else, often to a chord that is close by and wrong, and the
+      listener feels the swerve as a physical disappointment. Haydn built jokes
+      on it and Wagner built whole acts by refusing to arrive for an hour at a
+      time.
+
+      Rhythm does the same job in time rather than in pitch. A pattern once
+      established can be stretched, interrupted or contradicted, and a strong
+      beat left silent is louder than any note. What this means for a listener
+      is practical. The question to ask of a passage is not whether it is
+      beautiful but what it has set up and whether it has paid. A piece that
+      evokes grief usually does so by establishing something and then
+      withholding it, and the emotion sits in the gap rather than in the notes.
+      Film composers work almost entirely with this mechanism and often with
+      very simple material. A single unresolved chord held under dialogue is
+      doing the work of a page of script. That is why a description of a piece
+      as sad is less useful than a note of where it was expected to resolve and
+      did not.
+    anchors:
+      - take: "Moving away from the home note creates tension and returning releases it."
+        quote: "Returning to it releases the tension."
+      - take: "An interrupted cadence is felt as a physical disappointment."
+        quote: "the listener feels the swerve as a physical disappointment"
+      - take: "A strong beat left silent is louder than any note."
+        quote: "a strong beat left silent is louder than any note"
+    terms:
+      - {term: "cadence", gloss: "a closing formula that signals an ending", glossed: true}
+      - {term: "tonic", gloss: "the home note of a key, where a piece sounds settled", glossed: true}
+    facts:
+      - "A key establishes a home note called the tonic."
+      - "A cadence is a closing formula that signals arrival."
+      - "An interrupted cadence withholds an expected resolution."
+  - id: HUM-S09-L2
+    strand: S09
+    title: "What Makes a Street Work"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S09-L1"
+    advances: "Identifies the measurable features that make a street usable, and the trade-offs between them."
+    vocab_link: [austere]
+    passage: |
+      A street can be described by numbers, and a few of them predict most of
+      what it feels like to walk down. The first is frontage, meaning the length
+      of building face that meets the pavement, and more exactly active
+      frontage, which is frontage with doors and windows that people actually
+      use. A hundred meters with twelve doorways behaves quite differently from
+      a hundred meters with one, even if the buildings are the same height and
+      the same age.
+
+      The second number is width, and the proportion of width to building height
+      decides whether a street reads as a room or as a gap. Older European
+      streets commonly run between one to one and one to two, and above about
+      one to three the space stops holding together. The third is permeability,
+      counted as the number of ways out of a block. A fine grid gives walkers
+      choices and spreads traffic; a single loop road forces everyone onto one
+      route and makes walking pointless.
+
+      These numbers conflict, which is the whole difficulty. Wide roads move
+      vehicles and break walking routes. Large blocks are cheaper to build and
+      produce long blank walls. A tower set back in open ground may be austere
+      and handsome from a distance and leave the pavement beside it dead,
+      because nothing at ground level opens onto it. Jane Jacobs made the
+      argument from observation in 1961, counting uses and watching sidewalks,
+      and most of what she claimed has since been measured by people who walked
+      the same streets with clipboards. Transport departments now count
+      footfall, crossings and dwell time as a matter of routine. The counts tend
+      to confirm that doorways per hundred meters predicts street life better
+      than architectural quality does. A street can be measured in an afternoon
+      with a tape and a counter.
+    anchors:
+      - take: "Active frontage is frontage with doors and windows people use."
+        quote: "frontage with doors and windows that people actually use"
+      - take: "The ratio of width to height decides whether a street reads as a room."
+        quote: "as a room or as a gap"
+      - take: "The numbers conflict, which is the whole difficulty."
+        quote: "These numbers conflict, which is the whole difficulty."
+    terms:
+      - {term: "frontage", gloss: "the length of building face that meets the pavement", glossed: true}
+      - {term: "active frontage", gloss: "frontage with doors and windows that people use", glossed: true}
+    facts:
+      - "Active frontage counts doorways and windows in use along a street."
+      - "Older European streets commonly have width to height ratios between one to one and one to two."
+      - "Jane Jacobs made her argument from street observation in 1961."
+  - id: HUM-S10-L2
+    strand: S10
+    title: "What a Judgment Needs"
+    move: mechanism
+    sat_frame: "humanities criticism: a judgement defended"
+    builds_on: "HUM-S10-L1"
+    advances: "Breaks a critical argument into its three required parts and shows how each can fail."
+    vocab_link: [satirize]
+    passage: |
+      A critical judgment that can be examined has three parts. There is a
+      claim, which must say something that could be false. There is evidence,
+      drawn from the work itself and quoted or described closely enough that a
+      reader can check it. And there is a criterion, meaning the standard
+      against which the work is being judged, which is the part most often left
+      out.
+
+      Each part fails in a characteristic way. A claim fails by being
+      unfalsifiable, as when a reviewer calls a novel important without saying
+      what would make it unimportant. Evidence fails by being about something
+      else, which is why a review that spends its length on the author biography
+      is not a review of the book. The criterion fails by staying hidden, and a
+      hidden standard produces the commonest kind of useless disagreement, in
+      which two people argue about a work while measuring it against different
+      things.
+
+      Making the criterion explicit changes the argument. If a critic says that
+      a play fails because its characters are not psychologically consistent, a
+      reader can ask whether psychological consistency is the right test for a
+      morality play written in 1590. If another says that a film is poor because
+      it does not satirize the system it depicts, a reader can fairly ask
+      whether satire was ever the aim. Samuel Johnson insisted on the point in
+      1765. Neither question settles the matter, and both move it to the one
+      place where it can be argued productively. Critics who name their
+      standards can be disagreed with. Critics who do not can only be ignored or
+      believed. Academic criticism makes the standard explicit as a matter of
+      convention, which is part of why it reads so unlike journalism. The
+      convention costs it readers and buys it the ability to be refuted.
+    anchors:
+      - take: "A judgment needs a claim, evidence and a criterion."
+        quote: "there is a criterion"
+      - take: "A hidden standard produces useless disagreement."
+        quote: "a hidden standard produces the commonest kind of useless disagreement"
+      - take: "Critics who name their standards can be disagreed with."
+        quote: "Critics who name their standards can be disagreed with."
+    terms:
+      - {term: "criterion", gloss: "the standard against which a work is being judged", glossed: true}
+    facts:
+      - "A critical argument requires a falsifiable claim, evidence from the work and a stated criterion."
+      - "A claim fails when nothing could count against it."
+      - "Two critics using different unstated standards cannot settle a disagreement."

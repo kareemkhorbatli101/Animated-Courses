@@ -1,0 +1,510 @@
+field: SOC
+level: 2
+passages:
+  - id: SOC-S01-L2
+    strand: S01
+    title: "Three Ways a Survey Fails"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S01-L1"
+    advances: "Separates the three distinct failure modes of a survey and shows which can be corrected."
+    vocab_link: [bias]
+    passage: |
+      A survey can be wrong in three separate ways, and the remedies are
+      different in each case. The first is the sampling frame, meaning the list
+      from which the people to be asked are drawn. A telephone poll on landlines
+      reaches a list older and more settled than the population. No amount of
+      courtesy on the call fixes a frame that excludes a third of the country.
+
+      The second is nonresponse, which is the failure of selected people to
+      answer at all. Response rates to telephone polls in the United States have
+      fallen from around seventy percent in the 1970s to under ten percent, and
+      the people who still answer are not a small copy of those who do not. They
+      are more interested in the subject, more trusting of institutions and
+      older. Statisticians correct for this by weighting, which multiplies the
+      answers of underrepresented groups, and weighting works only for
+      characteristics that are known and measured.
+
+      The third failure is in the instrument, and it includes the wording
+      effects from the earlier passage in this strand along with order effects
+      and the pressure to give an acceptable answer. Respondents understate how
+      much they drink and overstate whether they voted, by a margin large enough
+      to be measured against official records. A bias of this kind is not
+      removed by a larger sample. That is the central point of all three
+      failures. Sample size governs only random error, so a poorly framed poll
+      of fifty thousand people is worse than a well framed poll of a thousand,
+      and more confident. Good practice therefore reports the frame, the
+      response rate and the weighting scheme alongside the figures. Where a
+      report gives only a margin of error, that margin describes the least of
+      its problems.
+    anchors:
+      - take: "A landline frame excludes much of the population."
+        quote: "a frame that excludes a third of the country"
+      - take: "Response rates have fallen from about seventy percent to under ten."
+        quote: "to under ten percent"
+      - take: "Sample size governs only random error."
+        quote: "Sample size governs only random error"
+    terms:
+      - {term: "sampling frame", gloss: "the list from which the people to be asked are drawn", glossed: true}
+      - {term: "nonresponse", gloss: "the failure of selected people to answer at all", glossed: true}
+    facts:
+      - "Telephone poll response rates in the United States fell from about seventy percent in the 1970s to under ten percent."
+      - "Weighting can correct only for characteristics that are known and measured."
+      - "Respondents overstate voting and understate drinking against official records."
+  - id: SOC-S02-L2
+    strand: S02
+    title: "Why the Lot Matters"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S02-L1"
+    advances: "Explains what randomization accomplishes that matching cannot, and what it still cannot deliver."
+    vocab_link: [allocate]
+    passage: |
+      Matching looks like a reasonable substitute for a lottery and is not. A
+      researcher comparing two schools can match them on size, income, and the
+      qualifications of the teachers, and still be defeated by something not on
+      the list. The danger is a confounder, meaning a difference between the
+      groups that affects the outcome as well as the treatment, and the fatal
+      property of confounders is that the dangerous ones are the ones nobody
+      thought of.
+
+      Randomization solves a problem that matching cannot. When a lottery is
+      used to allocate people to a treatment and to a control group, meaning the
+      group that does not receive it, the two groups are made alike on every
+      characteristic at once. That includes the ones nobody has measured or
+      imagined. That is a remarkable property and it is purely a consequence of
+      chance. It also comes with a stated size of uncertainty, because the two
+      groups will differ a little by luck, and the arithmetic of that luck is
+      known.
+
+      What randomization does not do is also worth stating. It says nothing
+      about whether the result transfers to another population, another scale or
+      another decade. A trial in seventy-nine Tennessee schools tells us about
+      those schools in those years. It cannot tell us whether the state would
+      have found enough good teachers to staff small classes everywhere, which
+      is a question about supply rather than about effect. It also does not
+      survive people dropping out in different numbers from the two groups,
+      which is the commonest way a good design is spoiled in practice. Medicine
+      faced the same argument a generation earlier and settled it the same way.
+      The streptomycin trial of 1948 is usually cited as the first properly
+      randomized clinical trial.
+    anchors:
+      - take: "The dangerous confounders are the ones nobody thought of."
+        quote: "the dangerous ones are the ones nobody thought of"
+      - take: "A lottery makes groups alike on characteristics nobody measured."
+        quote: "the ones nobody has measured or imagined"
+      - take: "Randomization says nothing about transfer to another population."
+        quote: "It says nothing about whether the result transfers"
+    terms:
+      - {term: "confounder", gloss: "a difference between groups that affects the outcome as well", glossed: true}
+      - {term: "control group", gloss: "the group that does not receive the treatment", glossed: true}
+    facts:
+      - "Matching can only equalize characteristics the researcher has listed."
+      - "Random allocation balances measured and unmeasured characteristics alike."
+      - "The 1948 streptomycin trial is usually cited as the first properly randomized clinical trial."
+  - id: SOC-S03-L2
+    strand: S03
+    title: "Three Reasons a Pattern Misleads"
+    move: mechanism
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S03-L1"
+    advances: "Names the three alternative explanations for a correlation and gives a worked example of each."
+    vocab_link: [correlate]
+    passage: |
+      Two measurements that correlate may stand in any of four relations, and
+      only one of them licenses action. The first possibility is the obvious
+      one: the first thing causes the second. The second is reverse causation,
+      meaning that the outcome is producing the supposed cause. Hospitals with
+      more staff per bed have higher death rates, which looks alarming until one
+      notices that the sickest patients are sent to the best staffed units.
+
+      The third possibility is a common cause, which is what the chocolate and
+      Nobel case shows. The fourth is a selection effect, meaning a pattern
+      produced by how the cases entered the data at all. A study of the fitness
+      of soldiers says little about the population, because the unfit were never
+      enlisted. A famous wartime example concerns aircraft armor. The planes
+      that returned had most of their damage on the wings, so armoring the wings
+      was exactly the wrong conclusion. The planes hit in the engines had not
+      come back to be inspected.
+
+      Distinguishing the four requires something beyond the correlation. Time
+      order helps a little, since a cause must precede its effect, though
+      anticipation can reverse the apparent order. The strongest ordinary tool
+      is a source of variation unrelated to everything else of interest, which
+      is what a lottery provides and what a natural experiment imitates. Until
+      something of that kind is in hand, a correlation is a question rather than
+      a finding. Abraham Wald worked out the aircraft armor problem for the
+      United States Navy in 1943. His solution was to reason about the missing
+      planes rather than the ones in front of him. Dose response helps more,
+      because a cause that acts in proportion is harder to fake. The strongest
+      ordinary tool remains an outside source of variation that nobody chose.
+    anchors:
+      - take: "Hospitals with more staff per bed have higher death rates."
+        quote: "the sickest patients are sent to the best staffed units"
+      - take: "A selection effect is a pattern produced by how cases entered the data."
+        quote: "a pattern produced by how the cases entered the data"
+      - take: "A correlation on its own is a question rather than a finding."
+        quote: "a correlation is a question rather than a finding"
+    terms:
+      - {term: "reverse causation", gloss: "the outcome producing the supposed cause rather than the other way round", glossed: true}
+      - {term: "selection effect", gloss: "a pattern produced by how cases entered the data", glossed: true}
+    facts:
+      - "Reverse causation means the outcome produces the supposed cause."
+      - "Returning aircraft showed damage on the wings because planes hit in the engines did not return."
+      - "Abraham Wald analyzed the aircraft armor problem in 1943."
+  - id: SOC-S04-L2
+    strand: S04
+    title: "Four Numbers and What They Hide"
+    move: mechanism
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S04-L1"
+    advances: "Introduces spread and skew alongside the averages, and shows what each summary conceals."
+    vocab_link: [aggregate]
+    passage: |
+      Any set of numbers can be summarized by four quantities, and each one
+      hides something different. The mean is the total divided by the count. The
+      median is the middle case. The standard deviation, meaning a measure of
+      how far the typical case sits from the average, describes the spread. And
+      the skew describes whether the distribution has a long tail on one side,
+      which income always does and height never does.
+
+      Two groups can share a mean and a median and differ in every way that
+      matters. A town where everyone earns thirty thousand dollars and a town
+      where half earn ten and half earn fifty have the same mean, and a policy
+      built for one would be useless in the other. Two schools with the same
+      average score may differ in whether the result comes from a uniform middle
+      or from a split between a strong half and a failing half, and only the
+      spread shows it.
+
+      The practical rule is to ask for the shape and not the summary. A
+      histogram, which sorts the cases into bins and draws the counts, usually
+      settles in one glance questions that an aggregate figure leaves open.
+      Where a shape is not available, two numbers are much better than one, and
+      a mean with a standard deviation is the usual pairing. The worst case is a
+      single figure with no spread and no sample size, which is also the most
+      common way a statistic arrives in public. Francis Anscombe assembled four
+      data sets in 1973 with identical means, variances and correlations and
+      completely different shapes. The point of the exercise was that anyone who
+      had plotted them would have seen the difference immediately. A school
+      report that gives an average with no spread is withholding the more useful
+      of the two numbers.
+    anchors:
+      - take: "Each summary number hides something different."
+        quote: "each one hides something different"
+      - take: "Two towns can share a mean and differ in everything that matters."
+        quote: "have the same mean"
+      - take: "A single figure with no spread and no sample size is the worst case."
+        quote: "The worst case is a single figure with no spread and no sample size"
+    terms:
+      - {term: "standard deviation", gloss: "a measure of how far the typical case sits from the average", glossed: true}
+      - {term: "skew", gloss: "a distribution with a long tail on one side", glossed: true}
+    facts:
+      - "The standard deviation measures how far the typical case sits from the average."
+      - "Income distributions are skewed with a long upper tail."
+      - "Anscombe published four data sets in 1973 with identical summary statistics and different shapes."
+  - id: SOC-S05-L2
+    strand: S05
+    title: "Price, Salience and Substitution"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S05-L1"
+    advances: "Explains why small prices sometimes beat large campaigns, through three properties of an incentive."
+    vocab_link: [incentive]
+    passage: |
+      An incentive works through three properties. The size of the sum is often
+      the least important. The first is salience, meaning how noticeable the
+      cost or benefit is at the moment of choosing. A parking charge paid at a
+      meter before walking away is salient; the same amount added to an annual
+      tax bill is not, and the two produce quite different behavior for
+      identical money.
+
+      The second is the availability of a substitute, meaning an alternative
+      that is easy to switch to. A charge of five cents on plastic bags cut
+      their use sharply in Ireland and in Wales. A cloth bag is a close
+      substitute and the decision is made at the till. A charge of the same size
+      on gasoline changes very little in the short run, because nobody can
+      substitute for the journey to work this week. The lesson is that the
+      effect of a price depends on what else is available, not on the price
+      alone.
+
+      The third property is timing. A cost that arrives at the moment of the
+      decision changes behavior more than a cost that arrives in three months,
+      and people discount the future steeply. That is why deposit schemes on
+      bottles work and why fines for late payment often do not. Together the
+      three properties explain why a well-placed nuisance can outperform a large
+      sum badly placed. They also explain why many incentives fail. The money is
+      real but arrives in the wrong form, at the wrong moment, where nothing can
+      be switched to. Economists call the extreme cases of this inelastic
+      demand, and they test for it by looking at what happened when prices
+      moved. Fuel and tobacco are the standard examples, and both become more
+      responsive over a period of years.
+    anchors:
+      - take: "Salience is how noticeable a cost is at the moment of choosing."
+        quote: "how noticeable the cost or benefit is at the moment of choosing"
+      - take: "The effect of a price depends on what else is available."
+        quote: "depends on what else is available"
+      - take: "People discount the future steeply, so deferred costs change less."
+        quote: "people discount the future steeply"
+    terms:
+      - {term: "salience", gloss: "how noticeable a cost or benefit is at the moment of choosing", glossed: true}
+      - {term: "substitute", gloss: "an alternative that is easy to switch to", glossed: true}
+    facts:
+      - "A five cent charge on plastic bags removed most of their use in several countries."
+      - "A similar charge on gasoline changes little in the short run."
+      - "Costs arriving at the moment of decision change behavior more than deferred costs."
+  - id: SOC-S06-L2
+    strand: S06
+    title: "How a Norm Is Enforced"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S06-L1"
+    advances: "Describes the enforcement machinery of an unwritten rule and what makes one stable or fragile."
+    vocab_link: [norm]
+    passage: |
+      An unwritten rule survives because breaking it costs something, and the
+      costs are supplied by other people. The machinery has four parts. There
+      must be observation, so that a breach is seen at all, and there must be a
+      sanction, meaning a penalty applied by other people rather than by law,
+      which may be as small as a look. There must be some willingness to apply
+      it, since a sanction nobody bothers with is no sanction. And the rule
+      itself must be known, because people cannot follow a rule they have no way
+      of inferring.
+
+      The strength of a norm therefore depends on visibility more than on
+      agreement. Littering falls where people can be seen littering. Tax
+      compliance is higher where returns are public, as they are in Norway. A
+      norm that governs private behavior has no enforcement machinery at all and
+      survives only as a belief. This also explains why norms collapse quickly
+      rather than fading. Once enough people visibly break a rule, the
+      descriptive norm, meaning what people actually do as distinct from what
+      they say should be done, has changed. Each further breach is then cheaper
+      than the last.
+
+      The hotel towel result follows directly. A card that reports the
+      descriptive norm is providing the information that the enforcement
+      machinery needs and cannot otherwise get, since a guest cannot see what
+      strangers did in other rooms. This also predicts the failure case, which
+      has been observed: telling people that most of their neighbors do the
+      undesirable thing makes the undesirable thing more common. The message is
+      only as good as the fact it reports. Campaigns that advertise how
+      widespread a problem is run exactly that risk. Several anti-littering and
+      tax-evasion campaigns have been measured doing harm for that reason. The
+      practical question about any unwritten rule is therefore who can see a
+      breach.
+    anchors:
+      - take: "Norm enforcement needs observation, a sanction and willingness to use it."
+        quote: "The machinery has four parts."
+      - take: "Strength depends on visibility more than on agreement."
+        quote: "depends on visibility more than on agreement"
+      - take: "Reporting an undesirable norm makes it more common."
+        quote: "makes the undesirable thing more common"
+    terms:
+      - {term: "sanction", gloss: "a penalty applied by other people rather than by law", glossed: true}
+      - {term: "descriptive norm", gloss: "what people actually do, as distinct from what they say should be done", glossed: true}
+    facts:
+      - "A sanction is a penalty applied by other people rather than by law."
+      - "Tax compliance is higher where returns are public, as in Norway."
+      - "Publicizing an undesirable descriptive norm has been measured to increase it."
+  - id: SOC-S07-L2
+    strand: S07
+    title: "The Trade a Household Makes"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S07-L1"
+    advances: "States the rent and commuting trade-off as a mechanism that predicts the shape of a city."
+    vocab_link: [perceive]
+    passage: |
+      Where people live is largely settled by a single trade. Land near the
+      center of a city is scarce and therefore expensive, and travel from the
+      edge costs time and money. A household chooses a point on that line, and
+      the economists description of the choice is bid rent, meaning the amount a
+      household or firm will pay for land at a given distance from the center.
+      Bid rent falls as distance rises, and the slope of the fall is set by the
+      cost of travel.
+
+      Two consequences follow immediately. If travel becomes cheaper or faster,
+      the slope flattens and the city spreads, which is what streetcars, then
+      cars, then suburban rail each did in turn. If travel becomes dearer or
+      slower, the city tightens. The second consequence concerns who ends up
+      where. Households differ in how much they perceive travel time to cost
+      them. A family with two earners and expensive hours may outbid a family
+      with cheaper hours for land near the center, or may not, depending on how
+      each values space.
+
+      The model is crude and useful. It predicts that firms needing many workers
+      cluster where many workers can reach them, which is why offices
+      concentrate. It predicts that a new road reduces congestion for a while
+      and then fills, since cheaper travel brings more distant land into play.
+      The quantity that decides all of this is generalized cost, meaning travel
+      time and money added together as one figure, and transport planners
+      calculate it for every scheme they assess. The original formal version is
+      credited to William Alonso in 1964, with earlier agricultural versions
+      going back to von Thunen in 1826. Both were arguing about farms before
+      anyone applied the reasoning to commuters. Every one of these predictions
+      can be and has been tested against city data.
+    anchors:
+      - take: "Bid rent falls with distance and its slope is set by travel cost."
+        quote: "the slope of the fall is set by the cost of travel"
+      - take: "Cheaper travel flattens the slope and spreads the city."
+        quote: "the slope flattens and the city spreads"
+      - take: "A new road fills because cheaper travel brings distant land into play."
+        quote: "cheaper travel brings more distant land into play"
+    terms:
+      - {term: "bid rent", gloss: "the amount a household or firm will pay for land at a given distance from the center", glossed: true}
+      - {term: "generalized cost", gloss: "travel time and money added together as one figure", glossed: true}
+    facts:
+      - "Bid rent is the amount paid for land at a given distance from the center."
+      - "Faster travel flattens the bid rent curve and spreads a city outward."
+      - "Generalized cost combines travel time and money into one figure."
+  - id: SOC-S08-L2
+    strand: S08
+    title: "What Sets a Wage"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S08-L1"
+    advances: "Sets out the three determinants of a wage and shows why the dock arrangement produced the wage it did."
+    vocab_link: [cohort]
+    passage: |
+      Adam Smith named the elements in 1776, and three of them still do the
+      work. They pull in different directions. The first is what the work
+      produces for the employer, which fixes a ceiling. The second is the
+      reservation wage, meaning the lowest pay at which a person will take the
+      work, which fixes a floor and depends on what else is available, including
+      savings and family support. Between the floor and the ceiling the wage is
+      settled by bargaining power, which is the third thing.
+
+      Bargaining power depends on how many alternatives each side has. A worker
+      in a town with one employer is in a market called monopsony, meaning one
+      buyer, or few, for a particular kind of labor, and such a worker has a
+      weak position however scarce the skill. The dock arrangement engineered
+      this deliberately. By hiring at a gate twice a day the companies ensured
+      that each man competed against a crowd for that day only, and no
+      individual could threaten to withdraw, since the next man was already
+      present.
+
+      The arrangement also shows why wages can stick far below the ceiling. Dock
+      work in the 1880s was productive and the trade was profitable, but the men
+      had no way to capture any of it. What changed in 1889 was not productivity
+      but organization, which replaced a thousand individual bargains with one.
+      The longer-run effects are harder to see and matter as much. A cohort that
+      enters a labor market in a bad year can be measured earning less than
+      neighboring years for a decade or more afterward, because the first job
+      sets the next. Studies of graduates entering work in recessions find
+      losses persisting ten to fifteen years. The size varies by country and by
+      how easily people can move between regions.
+    anchors:
+      - take: "Productivity fixes a ceiling and the reservation wage a floor."
+        quote: "which fixes a ceiling"
+      - take: "Gate hiring made each man compete against a crowd for one day."
+        quote: "competed against a crowd for that day only"
+      - take: "What changed in 1889 was organization, not productivity."
+        quote: "not productivity but organization"
+    terms:
+      - {term: "monopsony", gloss: "a market with one buyer, or few, for a particular kind of labor", glossed: true}
+      - {term: "reservation wage", gloss: "the lowest pay at which a person will take the work", glossed: true}
+    facts:
+      - "A reservation wage is the lowest pay at which a person will accept work."
+      - "Monopsony describes a market with one or few buyers of labor."
+      - "Graduates entering the labor market in a recession show measurable earnings losses for a decade or more."
+  - id: SOC-S09-L2
+    strand: S09
+    title: "Three Different Inequalities"
+    move: mechanism
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "SOC-S09-L1"
+    advances: "Distinguishes inequality of income, of wealth and of mobility, and explains why they behave differently."
+    vocab_link: [stigma]
+    passage: |
+      Three quantities are routinely confused under one word. Income is a flow,
+      measured per year. Wealth, meaning what a household owns minus what it
+      owes, is a stock, accumulated over a life and inherited across
+      generations. Mobility is neither of those. Intergenerational mobility,
+      meaning how much a child position depends on the parents position, can be
+      high in a country with wide income gaps.
+
+      The three behave differently because their mechanisms differ. Wealth
+      inequality is always larger than income inequality, in every country
+      measured. Savings compound and so do debts, and a person on a modest
+      income may still own a house. Income inequality responds to wages, taxes
+      and transfers within a few years. Wealth inequality responds over decades,
+      and inheritance is the reason. Mobility depends on schooling,
+      neighborhood, early childhood and the labor market, and it responds
+      slowest of all.
+
+      Confusing them produces bad arguments on every side. A country can reduce
+      income inequality by taxing and transferring while its wealth gaps widen,
+      which several European countries did between 1980 and 2010. A country can
+      have high mobility between the middle and the top and almost none out of
+      the bottom, which is what the American data show. And a measure that
+      captures none of the three is the experience of being poor, where stigma,
+      insecurity and the cost of credit do damage that no distribution figure
+      records. Wealth is measured from surveys that the very rich do not answer,
+      so published wealth gaps are probably understated. Any serious argument
+      about inequality therefore has to say which of the three quantities it is
+      about, and a good many arguments never do. The three also respond at very
+      different speeds, so a government can honestly report progress on income
+      while the wealth gap widens behind it. Mobility is slower still.
+    anchors:
+      - take: "Income is a flow, wealth a stock, mobility neither."
+        quote: "Income is a flow"
+      - take: "Wealth inequality exceeds income inequality in every country measured."
+        quote: "in every country measured"
+      - take: "A country can cut income gaps while its wealth gaps widen."
+        quote: "while its wealth gaps widen"
+    terms:
+      - {term: "wealth", gloss: "what a household owns minus what it owes", glossed: true}
+      - {term: "intergenerational mobility", gloss: "how much a child position depends on the parents position", glossed: true}
+    facts:
+      - "Wealth is assets minus debts and is accumulated over a lifetime."
+      - "Wealth inequality is larger than income inequality in every country measured."
+      - "Published wealth gaps are probably understated because the very rich do not answer surveys."
+  - id: SOC-S10-L2
+    strand: S10
+    title: "Three Errors With Names"
+    move: mechanism
+    sat_frame: "social study: design and inference"
+    builds_on: "SOC-S10-L1"
+    advances: "Generalizes from the base rate case to three named and reproducible errors of judgment."
+    vocab_link: [deviate]
+    passage: |
+      The base rate error is one of a family, and the family members have been
+      demonstrated often enough to be predictable. Anchoring, meaning the pull
+      of an irrelevant number on a later estimate, is the simplest. People asked
+      to spin a wheel and then to estimate a quantity give answers pulled toward
+      whatever the wheel showed, and the effect survives when the subjects are
+      told that the number is random. Estate agents given different asking
+      prices for the same house value it differently.
+
+      Availability is the second, and it means judging how common something is
+      by how easily examples come to mind. Deaths from causes that make the news
+      are overestimated by large factors and deaths from common illnesses are
+      underestimated, and the ordering of estimates follows newspaper coverage
+      more closely than it follows the figures. The third is framing. The same
+      medical choice described in terms of survival and in terms of death
+      produces different decisions from the same doctors.
+
+      What makes these useful rather than merely entertaining is that they are
+      systematic. A random error would cancel over many judgments, but these all
+      deviate in the same direction for the same reason, which means the mistake
+      can be anticipated and designed around. Checklists in operating theaters,
+      standard forms for sentencing, and the practice of writing down a
+      prediction before seeing the outcome all exist for that purpose. Whether
+      these patterns show that people are irrational, or only that they are
+      using cheap rules that usually work, is the subject of the last passage in
+      this strand. Daniel Kahneman and Amos Tversky set out the first three in a
+      paper in 1974. Much of the later work has been about which effects survive
+      replication and how large they really are.
+    anchors:
+      - take: "Anchoring pulls an estimate toward an irrelevant number."
+        quote: "the pull of an irrelevant number on a later estimate"
+      - take: "Availability makes newspaper coverage drive estimates of risk."
+        quote: "follows newspaper coverage more closely"
+      - take: "These errors are systematic rather than random."
+        quote: "these all deviate in the same direction"
+    terms:
+      - {term: "anchoring", gloss: "the pull of an irrelevant number on a later estimate", glossed: true}
+      - {term: "availability", gloss: "judging how common a thing is by how easily examples come to mind", glossed: true}
+    facts:
+      - "Anchoring survives even when subjects are told the anchor is random."
+      - "Estimates of causes of death track news coverage more closely than the statistics."
+      - "Kahneman and Tversky published the first account of these heuristics in 1974."
