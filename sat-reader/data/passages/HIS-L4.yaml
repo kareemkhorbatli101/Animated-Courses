@@ -1,0 +1,518 @@
+field: HIS
+level: 4
+passages:
+  - id: HIS-S01-L4
+    strand: S01
+    title: "One Sentence, Two Readings"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S01-L3"
+    advances: "Sets two incompatible readings of the equality clause against each other and shows what each must explain away."
+    vocab_link: [qualify]
+    passage: |
+      The sentence about equality has been read in two incompatible ways by
+      people who agreed about the words, and the dispute matters because the
+      whole subsequent argument about American citizenship ran through it. On
+      the first reading the Declaration states a universal principle to which
+      the nation is committed, whatever its practice, and the gap between the
+      words and the conduct is a national failure to be remedied rather than
+      evidence about what the words mean. That was Douglass position in 1852 and
+      Lincoln position at Peoria two years later.
+
+      On the second reading the clause was written by men who held slaves, for
+      an audience that held slaves, in a document whose purpose was separation
+      from Britain, and it therefore cannot have meant what the first reading
+      requires. Chief Justice Taney put that argument into law in 1857, holding
+      that the framers had not included Black people in the word men and that no
+      contemporary would have thought otherwise. That is the position called
+      originalism, which is the view that a text means what its authors and
+      first readers understood it to mean, and it is not a careless reading.
+
+      Each side has to qualify something. The first must explain why no signer
+      acted on the principle at the time, and the honest version concedes that
+      the words outran their authors. The second must explain the deletion of
+      the slave trade passage, the immediate use of the sentence by
+      abolitionists within a decade, and the fact that several signers freed
+      people in their wills. The dispute cannot be settled from the text alone,
+      which is why it was settled by an amendment that made the first reading
+      law in 1868. Taney reasoning was repudiated in the Fourteenth Amendment
+      and has never been formally overruled by a court.
+    anchors:
+      - take: "The two readings agree about the words and not about the meaning."
+        quote: "people who agreed about the words"
+      - take: "Taney argued that no contemporary would have included Black people."
+        quote: "that no contemporary would have thought otherwise"
+      - take: "The dispute was settled by amendment rather than by interpretation."
+        quote: "settled by an amendment that made the first reading law"
+    terms:
+      - {term: "originalism", gloss: "the view that a text means what its authors and first readers understood it to mean", glossed: true}
+    facts:
+      - "Douglass in 1852 and Lincoln at Peoria in 1854 argued that the Declaration stated a universal principle."
+      - "Chief Justice Taney held in 1857 that the framers had not included Black people."
+      - "The Fourteenth Amendment of 1868 established the universal reading in law."
+  - id: HIS-S02-L4
+    strand: S02
+    title: "Protection or Paralysis"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S02-L3"
+    advances: "Presents the two standing readings of the separation of powers and the evidence each side points to."
+    vocab_link: [checked]
+    passage: |
+      Whether the American system of divided powers protects liberty or prevents
+      government is the oldest live argument in American political science, and
+      both sides are arguing from the same design. The defense is the one
+      Madison made. Power divided among institutions with different electorates,
+      different terms and different incentives cannot be captured at once, so a
+      majority with a bad idea is checked at several points and a persistent
+      majority with a good one eventually prevails. On this reading the delay is
+      the protection, and the evidence offered is the number of occasions on
+      which something unwise was stopped.
+
+      The criticism begins from the same veto points, meaning the places where
+      one actor can block a decision, and counts them differently. A system with
+      two chambers, a presidential veto, judicial review, a Senate requiring
+      sixty votes for most business, and fifty state governments has a great
+      many such points. Critics argue that the result is gridlock, meaning a
+      condition in which the system cannot act although majorities exist, and
+      that the consequence is not careful government but government by crisis,
+      executive order and court ruling, since those are the routes that remain
+      open.
+
+      The evidence is genuinely ambiguous, because the two sides count different
+      things. Defenders point to measures blocked; critics point to problems
+      unaddressed, and neither list can be compiled without a judgment about
+      what should have happened. Comparative work is the strongest available
+      evidence, and it shows that countries with fewer veto points legislate
+      faster in both directions, passing both the reforms their critics feared
+      and the ones their defenders wanted. That finding is uncomfortable for
+      everyone and is about as far as the data reach. Political scientists have
+      counted veto points across democracies since the 1990s and the measures
+      broadly agree with one another.
+    anchors:
+      - take: "Both sides argue from the same design."
+        quote: "both sides are arguing from the same design"
+      - take: "On the defense, the delay is the protection."
+        quote: "the delay is the protection"
+      - take: "Countries with fewer veto points legislate faster in both directions."
+        quote: "passing both the reforms their critics feared and the ones their defenders wanted"
+    terms:
+      - {term: "veto point", gloss: "a place in a political system where one actor can block a decision", glossed: true}
+      - {term: "gridlock", gloss: "a condition in which the system cannot act although majorities exist", glossed: true}
+    facts:
+      - "The American system contains two chambers, a presidential veto, judicial review and fifty state governments."
+      - "Critics describe the result as gridlock produced by multiple veto points."
+      - "Comparative studies find that systems with fewer veto points legislate faster in both directions."
+  - id: HIS-S03-L4
+    strand: S03
+    title: "The Movement Argued With Itself"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S03-L3"
+    advances: "Shows that the question of how rights are won was contested inside the suffrage campaign, with a split that lasted decades."
+    vocab_link: [table]
+    passage: |
+      The suffrage campaign divided over means rather than over ends, and the
+      division ran deep enough to produce two rival national organizations that
+      worked separately for twenty years. One wing held that the vote should be
+      won state by state, meaning one legislature at a time, on the argument
+      that a federal amendment required three quarters of the states and could
+      be blocked by a minority of them. Wyoming, Colorado, Utah and Idaho did in
+      fact enfranchise women decades before the federal amendment passed, which
+      remains the strongest evidence for that view.
+
+      The other wing held that state campaigns were a trap, because each one had
+      to be fought in full and could be reversed, and that only a constitutional
+      amendment would settle the matter nationally. Within that wing a further
+      split opened over tactics. Carrie Chapman Catt built a disciplined
+      lobbying operation that worked through existing parties and declined to
+      embarrass a wartime administration. Alice Paul and the younger militants
+      picketed the White House during the war, were arrested, went on hunger
+      strike, and were force-fed, and the publicity that followed was
+      considerable.
+
+      Both strategies can claim the outcome, and the historians divide
+      accordingly. The amendment passed in 1920 after Catt lobbying had produced
+      the congressional votes, which supports her account. It passed after the
+      picketing had made the issue impossible to table any longer, which
+      supports the other. The honest reading is that the two worked on different
+      audiences at once, and that neither wing would have accepted that
+      description at the time. This is the normal condition of a successful
+      movement: the question of which part won is settled afterward, by whoever
+      writes it down. Both organizations published their own histories, and each
+      gives itself the leading part. Paul and Catt barely spoke for the rest of
+      their long lives.
+    anchors:
+      - take: "Western states enfranchised women decades before the amendment."
+        quote: "enfranchise women decades before the federal amendment passed"
+      - take: "Militants picketed, were arrested and were force-fed."
+        quote: "were arrested, went on hunger strike, and were force-fed"
+      - take: "Which part won is settled afterward by whoever writes it down."
+        quote: "settled afterward, by whoever writes it down"
+    terms:
+      - {term: "state by state strategy", gloss: "winning the vote one legislature at a time rather than by federal amendment", glossed: true}
+    facts:
+      - "The suffrage movement split into rival national organizations over strategy."
+      - "Western states granted women the vote decades before the Nineteenth Amendment."
+      - "Alice Paul and other militants picketed the White House during the First World War and were imprisoned."
+  - id: HIS-S04-L4
+    strand: S04
+    title: "Suasion or Politics"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S04-L3"
+    advances: "Sets the abolitionist quarrel over means against the historical outcome, and shows what each side predicted."
+    vocab_link: [sanction]
+    passage: |
+      Abolitionists agreed about the end and fought bitterly about the means.
+      William Lloyd Garrison held that slavery was a sin, that the Constitution
+      gave it a sanction no reformer should accept, and that the duty of an
+      abolitionist was moral suasion, meaning the persuading of individuals to
+      renounce the practice rather than the seeking of laws against it. He
+      burned a copy of the Constitution in public, refused to vote, and argued
+      that a political party which compromised in order to win was simply
+      slavery in another dress.
+
+      The opposing wing held that moral argument had been tried for thirty years
+      in a country where the owners were not listening, and that the practical
+      route ran through votes, parties and federal power over the territories.
+      That wing built the Liberty Party, then the Free Soil Party, and much of
+      it ended inside the Republican Party, which won the presidency in 1860 on
+      a platform that proposed only to stop the extension of slavery rather than
+      to end it.
+
+      The outcome does not decide the question, although it is often said to.
+      Slavery ended through a war fought by a government that had promised not
+      to abolish it, which is an argument neither wing made. The political wing
+      can say that only state power could have done it and that they had built
+      the state power. Garrison can say that the war came because thirty years
+      of moral argument had made the North unwilling to compromise further, and
+      that without the sin there would have been no crisis. The evidence is
+      compatible with both, and each requires the other to be in the story.
+      Garrison dissolved his own society in 1865 on the ground that its work was
+      done, over the objections of colleagues.
+    anchors:
+      - take: "Garrison burned a copy of the Constitution and refused to vote."
+        quote: "refused to vote"
+      - take: "The Republican platform of 1860 proposed only to stop extension."
+        quote: "proposed only to stop the extension of slavery"
+      - take: "Slavery ended through a war fought by a government that promised not to abolish it."
+        quote: "a government that had promised not to abolish it"
+    terms:
+      - {term: "moral suasion", gloss: "persuading individuals to renounce a practice rather than seeking to outlaw it", glossed: true}
+      - {term: "political abolitionism", gloss: "pursuing the end of slavery through parties, votes and legislation", glossed: false}
+    facts:
+      - "Garrison argued for moral suasion and refused to participate in elections."
+      - "Political abolitionists built the Liberty and Free Soil parties and entered the Republican Party."
+      - "The 1860 Republican platform proposed to stop the extension of slavery rather than to end it."
+  - id: HIS-S05-L4
+    strand: S05
+    title: "Failed or Defeated"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S05-L3"
+    advances: "Contrasts two historical schools on Reconstruction and shows how the same records produced opposite accounts."
+    vocab_link: [exact]
+    passage: |
+      For fifty years the standard account held that Reconstruction failed
+      because it was unworkable. That account is the Dunning school, meaning an
+      interpretation that treats Reconstruction as a corrupt failure, and it is
+      named after a Columbia professor whose students wrote the individual state
+      studies. It held that the period was one of misrule imposed by outsiders
+      on a prostrate South, and that its collapse was the natural end of an
+      experiment which should never have been attempted at all. That account was
+      in the textbooks and the films, and it was written from official sources,
+      white newspapers and the papers of the men who had overthrown the
+      governments.
+
+      W. E. B. Du Bois attacked it in 1935 in a book of eight hundred pages with
+      a closing chapter titled as a propaganda of history. His argument was
+      partly about evidence: that the sources had been read selectively, that
+      the tax and school records showed real achievement, and that the testimony
+      of Black participants had been ignored because Black witnesses were not
+      treated as witnesses. It was also about the exact question being asked.
+      Reconstruction did not fail, in his account. It was defeated, by organized
+      violence and federal withdrawal, which is a different claim with different
+      evidence behind it.
+
+      The modern consensus lies much nearer to Du Bois, and the reason for the
+      shift is instructive rather than sentimental, since it is not that
+      historians simply became more sympathetic to the people they were writing
+      about. It is that the sources widened. Once the congressional testimony,
+      the registration rolls, the Freedmens Bureau records and the Black press
+      were read alongside the planters papers, the earlier account could not be
+      sustained on the evidence. The dispute is therefore a case study in how a
+      historiography changes, which is rarely by argument alone. The book is now
+      the standard starting point for the period.
+    anchors:
+      - take: "The Dunning school treated the period as misrule imposed by outsiders."
+        quote: "misrule imposed by outsiders on a prostrate South"
+      - take: "Du Bois argued the sources had been read selectively."
+        quote: "that the sources had been read selectively"
+      - take: "The consensus changed because the sources widened."
+        quote: "It is that the sources widened."
+    terms:
+      - {term: "historiography", gloss: "the study of how history has been written, as distinct from what happened", glossed: true}
+      - {term: "Dunning school", gloss: "an early twentieth-century interpretation treating Reconstruction as a corrupt failure", glossed: true}
+    facts:
+      - "The Dunning school held that Reconstruction was a corrupt failure and dominated textbooks for decades."
+      - "Du Bois published Black Reconstruction in 1935 with a chapter on the propaganda of history."
+      - "The modern consensus moved toward Du Bois as congressional testimony and Black sources were incorporated."
+  - id: HIS-S06-L4
+    strand: S06
+    title: "Wages or Jobs"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S06-L3"
+    advances: "Shows two defensible readings of the same industrial statistics and what each side must concede."
+    vocab_link: [temper]
+    passage: |
+      The effects of factory regulation in New York and in Britain are argued
+      from the same series by people who reach opposite conclusions. The
+      argument turns almost entirely on the counterfactual, meaning what would
+      have happened without the measure. One reading holds that regulation
+      raised wages and reduced deaths at a modest compliance cost, meaning the
+      expense a firm incurs in meeting a rule. It points to the fall in
+      industrial mortality after the laws, to the survival of the industries
+      affected, and to the fact that employers who predicted ruin in 1911 were
+      still trading in 1930.
+
+      The other reading accepts the fall in deaths and attributes much of it to
+      rising capital intensity, better machinery and electric light, all of
+      which were arriving anyway and all of which make a workplace safer without
+      a statute. On this account the laws certified a change that was already
+      under way and raised costs at the margin, with the burden falling on the
+      smallest firms, which is where employment losses would appear and where
+      records are worst. Both readings are consistent with the published
+      figures.
+
+      What tempers the dispute is the comparative evidence. Regulation arrived
+      at different dates in different states and countries, which allows the
+      same event to be examined many times over. The weight of that work
+      supports a modest version of the first reading, since deaths fell faster
+      where the rules arrived earlier and employment effects are small and hard
+      to find. Neither side is obliged to abandon its position on that evidence,
+      because a modest effect leaves room for argument about whether it was
+      worth its cost, which is a question about values and not about the series.
+      The comparative studies also find that enforcement mattered more than the
+      text of the statute.
+    anchors:
+      - take: "The argument turns on the counterfactual."
+        quote: "what would have happened without the measure"
+      - take: "The second reading credits machinery and electric light."
+        quote: "rising capital intensity, better machinery and electric light"
+      - take: "Deaths fell faster where rules arrived earlier."
+        quote: "deaths fell faster where the rules arrived earlier"
+    terms:
+      - {term: "compliance cost", gloss: "the expense a firm incurs in meeting a regulation", glossed: true}
+      - {term: "counterfactual", gloss: "what would have happened in the absence of the measure being assessed", glossed: true}
+    facts:
+      - "Industrial mortality fell after factory legislation in Britain and the United States."
+      - "Capital intensity and electric lighting were improving workplace safety independently."
+      - "Comparative studies find enforcement mattered more than the wording of a statute."
+  - id: HIS-S07-L4
+    strand: S07
+    title: "Law or Pressure"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S07-L3"
+    advances: "Presents the standing dispute about what produced civil rights gains, including the movements own internal argument."
+    vocab_link: [intransigent]
+    passage: |
+      The gains of the civil rights period are claimed by two accounts that both
+      have strong evidence. The legal account points to a twenty-year litigation
+      strategy, meaning the planned use of selected court cases to establish a
+      principle, run by the organization legal fund and culminating in Brown. It
+      points out that the statutes of 1964 and 1965 were drafted by lawyers,
+      enacted by Congress and enforced by federal officials, and that the
+      measurable changes in registration followed the Act rather than the
+      marches.
+
+      The pressure account answers that the law moved when and only when the
+      cost of not moving became intolerable, and that the cost was created by
+      direct action, meaning protest designed to force negotiation. Birmingham
+      in 1963 and the bridge at Selma in 1965 were followed within months by the
+      two statutes, and the sequence is hard to dismiss. Martin Luther King made
+      the argument explicitly from a jail cell, writing that the moderate who
+      preferred order to justice was a greater obstacle than the intransigent
+      opponent.
+
+      King also made the other case, which is why he is a useful witness. He
+      worked with the lawyers, pressed for federal legislation, and spent much
+      of his time in meetings at the Department of Justice. The two strategies
+      were run by people who understood that neither was sufficient: a court
+      ruling with no constituency behind it had been ignored for a decade after
+      Brown, and a movement with no legal instrument had nothing to enforce. The
+      dispute survives because each side can point to a period in which the
+      other was visibly failing. The organizations involved disagreed sharply at
+      the time about where money and attention should go. Those disagreements
+      are documented in their own minutes, which makes the argument unusually
+      well evidenced.
+    anchors:
+      - take: "The legal account points to a twenty-year litigation strategy."
+        quote: "a twenty-year litigation strategy"
+      - take: "Birmingham and Selma were followed within months by the statutes."
+        quote: "followed within months by the two statutes"
+      - take: "A ruling with no constituency behind it had been ignored for a decade."
+        quote: "had been ignored for a decade after Brown"
+    terms:
+      - {term: "direct action", gloss: "protest intended to create a crisis that forces negotiation", glossed: true}
+      - {term: "litigation strategy", gloss: "the planned use of selected court cases to establish a legal principle", glossed: true}
+    facts:
+      - "Brown was the culmination of a planned litigation strategy over about twenty years."
+      - "Birmingham in 1963 and Selma in 1965 were each followed within months by federal legislation."
+      - "King worked with lawyers and pressed for legislation as well as leading direct action."
+  - id: HIS-S08-L4
+    strand: S08
+    title: "Granted or Taken"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S08-L3"
+    advances: "Compares the imperial and nationalist accounts of decolonization and tests both against the timing."
+    vocab_link: [capitulate]
+    passage: |
+      British official language called it a transfer of power, which is a phrase
+      containing an argument. On that account independence was the intended
+      conclusion of a long development: representative institutions were
+      extended in stages from 1909, Indians entered the civil service and the
+      officer corps, provincial self-government arrived in 1935, and the final
+      step in 1947 was the completion of a program rather than a surrender.
+      Clement Attlee presented it in those terms in the Commons, and the Indian
+      Independence Act reads like administration rather than defeat.
+
+      The nationalist account treats that as a story told afterward by the side
+      that lost. On this reading each constitutional advance was conceded under
+      pressure and after refusal, the 1935 reforms were offered only once
+      non-cooperation had made the provinces ungovernable, and the British did
+      not capitulate gracefully but ran out of money, soldiers and policemen.
+      Jawaharlal Nehru made exactly that argument, and the record of mass
+      arrests supports it: a government confident in its program does not
+      imprison sixty thousand people over a salt tax.
+
+      The timing is the best available test, and it favors the second account
+      while complicating it. Every major concession followed a crisis rather
+      than preceding one. But the British did leave by negotiation when they
+      could have fought, as the French did in Indochina and Algeria at enormous
+      cost, and that choice needs explaining too. The most defensible reading is
+      that the movement made continued rule impossible and the government then
+      chose the manner of its departure, which gives each side the half of the
+      story it claims and neither side the whole. Both accounts also pass over
+      the partition, which killed hundreds of thousands and displaced millions.
+      Neither the program nor the triumph is easy to narrate alongside that.
+    anchors:
+      - take: "The official phrase contains an argument."
+        quote: "a phrase containing an argument"
+      - take: "A confident government does not imprison sixty thousand people over a salt tax."
+        quote: "does not imprison sixty thousand people over a salt tax"
+      - take: "Every major concession followed a crisis rather than preceding one."
+        quote: "Every major concession followed a crisis"
+    terms:
+      - {term: "transfer of power", gloss: "the official British term for the end of colonial rule", glossed: true}
+      - {term: "nationalist historiography", gloss: "accounts written from the standpoint of the independence movements", glossed: false}
+    facts:
+      - "British representative institutions in India were extended in stages from 1909 and 1935."
+      - "The Indian Independence Act was passed in 1947."
+      - "France fought prolonged wars in Indochina and Algeria rather than negotiating a departure."
+  - id: HIS-S09-L4
+    strand: S09
+    title: "Three Dissents and a Vacated Case"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S09-L3"
+    advances: "Examines the arguments for and against emergency suspension of rights through the opinions in one case."
+    vocab_link: [conciliatory]
+    passage: |
+      The majority opinion in Korematsu is the strongest available statement of
+      the case for suspension, and it is worth reading on its own terms. Justice
+      Black held that the exclusion was not based on race but on military
+      necessity in time of war, that courts are not equipped to second-guess a
+      commander in the field, and that hardships are part of war. The reasoning
+      rests on judicial deference, meaning the practice of accepting an
+      executive judgment within its own field, and nobody has produced a rule
+      for emergencies that dispenses with deference altogether.
+
+      The three dissents attack it from three directions. Justice Roberts said
+      the case was not about curfew but about imprisonment for refusing to leave
+      home. Justice Murphy wrote that the claim of necessity rested on
+      misinformation and on assumptions about racial characteristics, and used
+      the word racism, which was unusual in a judicial opinion in 1944. Justice
+      Jackson made the most uncomfortable argument, which is that a court cannot
+      in practice review a military order during a war, and that it should
+      therefore refuse to validate one rather than writing the validation into
+      the law where it will outlive the emergency.
+
+      Jackson point is the one the subsequent history vindicated. The
+      convictions were vacated in the 1980s when the suppressed reports
+      appeared, Congress apologized and paid compensation, and the Court itself
+      stated in 2018 that Korematsu was gravely wrong the day it was decided.
+      What it did not do was replace deference with a workable alternative.
+      Strict scrutiny, meaning the most demanding standard applied to racial
+      classifications, was announced in the same opinion that upheld the
+      exclusion, which is a conciliatory formula rather than a constraint.
+      Jackson had prosecuted at Nuremberg by the time the compensation question
+      arose, which several commentators have found pointed.
+    anchors:
+      - take: "The majority rested on judicial deference to a military judgment."
+        quote: "the practice of accepting an executive judgment within its own field"
+      - take: "Murphy used the word racism in a judicial opinion in 1944."
+        quote: "used the word racism"
+      - take: "Jackson argued a court should refuse to validate rather than review."
+        quote: "it should therefore refuse to validate one"
+    terms:
+      - {term: "judicial deference", gloss: "the practice of courts accepting an executive judgment in its own field", glossed: true}
+      - {term: "strict scrutiny", gloss: "the most demanding standard a court applies before allowing a classification by race", glossed: true}
+    facts:
+      - "Justice Black for the majority held that the exclusion rested on military necessity rather than race."
+      - "Three justices dissented, with Murphy naming racism and Jackson arguing against validation."
+      - "The Supreme Court stated in 2018 that Korematsu was gravely wrong when decided."
+  - id: HIS-S10-L4
+    strand: S10
+    title: "Who Follows Whom"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S10-L3"
+    advances: "Weighs the two accounts of press influence against the evidence that can actually distinguish them."
+    vocab_link: [retrench]
+    passage: |
+      Whether the press forms opinion or reflects it has been argued since
+      Benjamin Day sold his first penny paper, and the two accounts are easy to
+      state and hard to separate. On the influence account, editors decide what
+      is covered and in what terms, and the public takes its sense of what
+      matters from that; the strongest version claims that coverage changes
+      votes. On the market account, a newspaper that prints what its readers
+      dislike loses them, so coverage tracks opinion rather than leading it, and
+      an editor who tries to lead will shortly have to retrench.
+
+      Both are supported by correlations and neither is established by them,
+      since coverage and opinion move together on either account. The research
+      that distinguishes them looks for cases where coverage changed for reasons
+      unrelated to opinion. Where a newspaper is introduced to some towns and
+      not others, where a channel reaches some cable systems first by accident
+      of contract, or where an owner changes an editorial line abruptly, the
+      effect on readers can be isolated. Studies of that kind find real effects
+      on turnout and on vote share, usually modest, and larger effects on agenda
+      setting, meaning which issues people regard as important.
+
+      They also find the market mechanism operating. Outlets move toward their
+      audiences over time, selective exposure means the persuadable are the
+      least exposed, and the largest measured effects appear among people with
+      weak prior views and no alternative sources. The defensible conclusion is
+      that influence runs in both directions on different timescales: coverage
+      shapes attention in weeks, audiences shape coverage in years. Neither of
+      the two simple accounts survives the evidence, and both survive in
+      argument. The research design that settled most of this was not available
+      before cable and newspaper entry data were digitized.
+    anchors:
+      - take: "Coverage and opinion move together on either account."
+        quote: "coverage and opinion move together on either account"
+      - take: "Research looks for coverage changes unrelated to opinion."
+        quote: "coverage changed for reasons unrelated to opinion"
+      - take: "Influence runs both ways on different timescales."
+        quote: "coverage shapes attention in weeks, audiences shape coverage in years"
+    terms:
+      - {term: "agenda setting", gloss: "influencing which issues people regard as important rather than what they think about them", glossed: true}
+      - {term: "selective exposure", gloss: "the tendency of people to attend to sources that agree with them already", glossed: true}
+    facts:
+      - "Studies using newspaper entry and cable availability find modest effects on turnout and vote share."
+      - "Agenda setting effects are larger than persuasion effects."
+      - "Measured effects are largest among people with weak prior views and few alternative sources."

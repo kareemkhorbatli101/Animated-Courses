@@ -94,7 +94,7 @@ levels:
     sent_mean_min: 21.0
     sent_mean_max: 28.0
     sent_max: 52
-    fk_min: 12.0
+    fk_min: 11.5
     fk_max: 17.5
     known_band: 40000
     above_band_max: 6

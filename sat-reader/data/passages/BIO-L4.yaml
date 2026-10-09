@@ -1,0 +1,516 @@
+field: BIO
+level: 4
+passages:
+  - id: BIO-S01-L4
+    strand: S01
+    title: "Selection or Drift"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S01-L3"
+    advances: "Presents the neutralist challenge to selection as the default explanation, and the evidence that settled part of it."
+    vocab_link: [novel]
+    passage: |
+      For a century after Darwin the working assumption was that any widespread
+      feature of an organism had been favored by selection, and the research
+      program consisted of finding out what for. In 1968 Motoo Kimura proposed
+      something that sounded like heresy. Most change at the molecular level, he
+      argued, is neutral, meaning that it neither helps nor harms, and its
+      spread through a population is governed by genetic drift, which is change
+      in the frequency of a variant by chance alone. His evidence was
+      arithmetical: the rate at which protein sequences were found to differ
+      between species was far too high to be explained by selection operating on
+      each change.
+
+      The argument that followed was long and is worth understanding as a
+      dispute about defaults rather than about mechanisms. Nobody denied that
+      drift happens or that selection happens. The question was which should be
+      assumed in the absence of evidence. Selectionists held that an apparently
+      useless difference usually has a use that has not been found. Neutralists
+      held that the burden of proof runs the other way, and that a novel feature
+      should be presumed accidental until a selective advantage is demonstrated.
+
+      Sequencing data eventually settled much of it, and the settlement went
+      mostly to the neutralists at the molecular level and mostly to the
+      selectionists at the level of visible traits. Changes that do not alter a
+      protein accumulate at a steady rate, as drift predicts, and that
+      steadiness is now used as a clock. Changes that alter a protein show the
+      signature of selection. The practical consequence is a test rather than a
+      doctrine: a researcher comparing the two classes of change in a gene can
+      say whether selection has acted on it. Kimura had to argue the case in
+      English in a field dominated by English-speaking laboratories, which he
+      said cost him years.
+    anchors:
+      - take: "Kimura argued that most molecular change is neutral."
+        quote: "it neither helps nor harms"
+      - take: "The dispute was about defaults rather than mechanisms."
+        quote: "a dispute about defaults rather than about mechanisms"
+      - take: "Sequence data settled it differently at the two levels."
+        quote: "mostly to the neutralists at the molecular level"
+    terms:
+      - {term: "genetic drift", gloss: "change in the frequency of a variant by chance alone, without any advantage", glossed: true}
+      - {term: "neutral theory", gloss: "the proposal that most molecular change has no effect on survival", glossed: true}
+    facts:
+      - "Motoo Kimura proposed the neutral theory in 1968."
+      - "His argument rested on the high rate of protein sequence difference between species."
+      - "Changes that do not alter a protein accumulate at a steady rate and are used as a molecular clock."
+  - id: BIO-S02-L4
+    strand: S02
+    title: "What Heritability Does Not Mean"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S02-L3"
+    advances: "Examines the most consequential misreading in genetics and what the twin and genome studies actually support."
+    vocab_link: [plastic]
+    passage: |
+      Heritability is the most misunderstood number in biology, and the
+      misunderstanding is specific. The term means the proportion of the
+      variation in a trait, within one particular population at one time, that
+      is associated with genetic variation in that population. It is not a
+      statement about an individual, and it is not a statement about how much a
+      trait can be changed. Height is highly heritable and also rose by several
+      inches in many countries within two generations, which is not a
+      contradiction but a demonstration that the number says nothing about the
+      effect of changing the environment.
+
+      Twin studies of the kind run in Minnesota produce these estimates by
+      comparing identical and non-identical pairs, and they have been attacked
+      most seriously on the ground that identical twins are treated more alike.
+      The genome era then produced a surprise. When the variants associated with
+      a trait were identified directly and added up, they explained far less of
+      the variation than the twin studies had implied, and the gap was named
+      missing heritability, meaning the difference between the heritability
+      estimated from twins and the variation that identified variants can
+      explain. That gap has narrowed with larger samples and better methods and
+      has not closed.
+
+      Two readings persist. One holds that the twin estimates were inflated by
+      shared environment and that the direct measurements are nearer the truth.
+      The other holds that the variation is spread across many thousands of
+      variants of very small effect, most still undetected, and that the
+      estimates will converge as samples grow. Both predict testable things and
+      both have been partly borne out. What neither supports is the inference
+      that a heritable trait is fixed, since a highly plastic trait can be
+      heritable and a trait with low heritability can be impossible to shift.
+      The policy misuse of these numbers has a long and ugly history.
+    anchors:
+      - take: "Heritability describes variation in a population, not an individual."
+        quote: "within one particular population at one time"
+      - take: "Height is highly heritable and rose several inches in two generations."
+        quote: "rose by several inches in many countries within two generations"
+      - take: "A heritable trait is not thereby a fixed one."
+        quote: "a highly plastic trait can be heritable"
+    terms:
+      - {term: "heritability", gloss: "the proportion of variation in a trait, within one population, attributable to genetic variation", glossed: true}
+      - {term: "missing heritability", gloss: "the gap between heritability estimated from twins and the variation explained by identified variants", glossed: true}
+    facts:
+      - "Heritability is the share of variation in a trait within a population associated with genetic variation."
+      - "Identified variants explain much less of the variation than twin studies implied."
+      - "Height is highly heritable and also rose substantially within two generations."
+  - id: BIO-S03-L4
+    strand: S03
+    title: "Machine or Colony"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S03-L3"
+    advances: "Sets two pictures of the cell against each other and shows how one of them was established by evidence."
+    vocab_link: [flag]
+    passage: |
+      The textbook picture of a cell is a factory, with compartments that have
+      jobs, assembly lines running between them, a control room in the nucleus
+      and an energy plant in the mitochondria. It is a useful picture and it is
+      historically false in a way that turns out to matter. Lynn Margulis argued
+      from the 1960s that mitochondria and chloroplasts are not compartments at
+      all but descendants of free-living bacteria that were engulfed and never
+      digested, a proposal called endosymbiosis. Her first paper on it was
+      rejected by fifteen journals.
+
+      The evidence that persuaded the field is of a kind that admits little
+      argument. Both organelles have their own circular DNA, of the bacterial
+      type rather than the type in the nucleus. Both are enclosed in a double
+      membrane, as an engulfed cell would be. Both make their own ribosomes,
+      which resemble bacterial ribosomes closely enough to be shut down by
+      antibiotics that act on bacteria and leave the rest of the cell alone.
+      Both divide on a schedule of their own rather than with the cell that
+      contains them. Sequence comparison places mitochondria firmly within one
+      group of bacteria.
+
+      What remains disputed is how far the colonial picture should be pushed.
+      Margulis argued late in her life for further cases, including the origin
+      of cilia, which the evidence does not flag as strongly, and most of those
+      claims have not been accepted. The question of how much of cell behavior
+      should be described as cooperation among once-independent parts rather
+      than as mechanism is still open, and it matters practically, because
+      mitochondrial diseases are inherited only from the mother and behave
+      unlike anything else in medical genetics. Margulis was also a vocal
+      opponent of several well-supported positions in other fields, which
+      complicates the usual story about vindicated outsiders.
+    anchors:
+      - take: "The factory picture is useful and historically false."
+        quote: "It is a useful picture and it is historically false"
+      - take: "Both organelles carry circular DNA of the bacterial type."
+        quote: "their own circular DNA, of the bacterial type"
+      - take: "How far the colonial picture should be pushed remains disputed."
+        quote: "how far the colonial picture should be pushed"
+    terms:
+      - {term: "endosymbiosis", gloss: "the proposal that some organelles descend from bacteria taken up by another cell", glossed: true}
+      - {term: "organelle", gloss: "a structure inside a cell that performs a particular function", glossed: false}
+    facts:
+      - "Lynn Margulis argued for endosymbiosis from the 1960s and her first paper was rejected many times."
+      - "Mitochondria and chloroplasts have circular bacterial-type DNA and double membranes."
+      - "Antibiotics that act on bacterial ribosomes also affect mitochondrial ribosomes."
+  - id: BIO-S04-L4
+    strand: S04
+    title: "Did the Wolves Do It"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S04-L3"
+    advances: "Tests the famous trophic cascade claim against the objections, and shows what a missing control costs."
+    vocab_link: [stem]
+    passage: |
+      The Yellowstone story is told as a clean case of a trophic cascade,
+      meaning a chain of effects running down a food web from a predator to the
+      plants, and a good deal of the telling has outrun the evidence. Wolves
+      returned in 1995, elk numbers fell, willows and aspen recovered along the
+      creeks, beaver returned, and streambanks stabilized. Each link in that
+      chain has been measured. The difficulty is that other things changed over
+      the same twenty years, which makes the design confounded in the strict
+      sense.
+
+      The objections are specific and come from ecologists who work in the park.
+      Elk numbers fell for several reasons at once, including a severe drought,
+      heavy human hunting outside the park boundary, and a growing bear and
+      cougar population. Willow recovery was patchy rather than general, and the
+      strongest recovery occurred where the water table was high enough to
+      support it, which suggests that hydrology may stem the effect as much as
+      browsing does. Exclosure studies showed willows growing where elk were
+      fenced out and water was available, and not where water was absent.
+
+      The defensible position is narrower than the popular one and still
+      substantial. Wolves are one cause among several of a real change, their
+      effect is strongest where water allows it, and the claim that they rewrote
+      the rivers is not supported. The episode is now used in teaching as a
+      lesson about causal inference rather than about wolves, and the lesson is
+      that a spectacular natural experiment without a control area will produce
+      a spectacular story that cannot be checked. Several of the most widely
+      shared accounts of the reintroduction came from a short film that
+      compressed the chain into a minute. Its narrator has since said that the
+      script overstated the case.
+    anchors:
+      - take: "Other things changed over the same twenty years."
+        quote: "which makes the design confounded in the strict sense"
+      - take: "Willow recovery was strongest where the water table allowed it."
+        quote: "where the water table was high enough to support it"
+      - take: "A natural experiment without a control cannot be checked."
+        quote: "will produce a spectacular story that cannot be checked"
+    terms:
+      - {term: "trophic cascade", gloss: "a chain of effects running down a food web from a predator to the plants", glossed: true}
+      - {term: "confounded design", gloss: "a study in which two possible causes changed at the same time", glossed: true}
+    facts:
+      - "Elk numbers fell after 1995 for several reasons including drought, hunting outside the park and other predators."
+      - "Willow recovery was patchy and strongest where the water table was high."
+      - "Exclosure studies found willow growth where elk were excluded and water was available."
+  - id: BIO-S05-L4
+    strand: S05
+    title: "Food, Predators, or Both"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S05-L3"
+    advances: "Reports the experiment designed to settle the hare cycle dispute and explains why the answer was unwelcome to both camps."
+    vocab_link: [fecund]
+    passage: |
+      The ten-year hare cycle generated two rival explanations that held the
+      field for fifty years. One said food: hares eat the shrubs down, the
+      shrubs respond with chemical defenses and take years to recover, and the
+      hare population crashes for want of edible plants. The other said
+      predators: lynx, coyote and owl numbers build up behind the hares,
+      overtake them, and drive the crash. Both accounts fit the fur return
+      series, which is the usual situation when a correlation is all anyone has.
+
+      Charles Krebs and colleagues settled it by experiment in the Yukon between
+      1986 and 1996, using a factorial design, meaning one in which treatments
+      are applied separately and together. On blocks of a square kilometer each
+      they added food, excluded predators with electric fencing, did both, and
+      did neither. The result was that food alone roughly doubled hare density,
+      predator exclusion alone roughly doubled it, and the two together
+      increased it by about eleven times, which is far more than the two effects
+      added.
+
+      That interaction is the finding, and neither camp had predicted it. A hare
+      with enough food can afford to be vigilant and a hare in cover can afford
+      to forage carelessly, so the two pressures are not independent, and a
+      fecund season under both conditions produces an explosion. The result also
+      explains why the fur records could never settle the question: a
+      correlation cannot reveal an interaction, and the two single-cause
+      theories were both correct and both insufficient. The experiment cost a
+      decade and about a hundred kilometers of fence. The enclosures had to be
+      electrified against bears as well as against the predators of interest.
+      Several blocks were lost to fire and weather over the ten years and the
+      design had to be rebuilt.
+    anchors:
+      - take: "Both accounts fit the fur return series."
+        quote: "Both accounts fit the fur return series"
+      - take: "Food and predator exclusion together gave about eleven times the density."
+        quote: "increased it by about eleven times"
+      - take: "A correlation cannot reveal an interaction."
+        quote: "a correlation cannot reveal an interaction"
+    terms:
+      - {term: "factorial experiment", gloss: "a design in which two or more treatments are applied separately and together", glossed: true}
+      - {term: "interaction", gloss: "an effect of two treatments together that is larger than their effects added", glossed: true}
+    facts:
+      - "Krebs and colleagues ran a factorial hare experiment in the Yukon between 1986 and 1996."
+      - "Food alone and predator exclusion alone each roughly doubled hare density."
+      - "The two treatments together increased density about elevenfold."
+  - id: BIO-S06-L4
+    strand: S06
+    title: "The Germ or the Ground"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S06-L3"
+    advances: "Revives an old dispute about disease causation and shows that both parties were partly right."
+    vocab_link: [harbor]
+    passage: |
+      Max von Pettenkofer agreed with Robert Koch that the cholera organism
+      existed, and he denied that its presence was sufficient to produce an
+      epidemic. His formula was that an epidemic required the germ and the
+      ground, meaning the state of the soil, the water table and the local
+      conditions, and he argued that the organism alone would not produce
+      disease in a healthy population with good drainage. In 1892 he drank a
+      culture of cholera in front of witnesses to prove it, developed only mild
+      symptoms, and considered himself vindicated.
+
+      The germ theorists won the century, and they were right about the question
+      they were answering. Identify the organism, interrupt the route, and the
+      epidemic stops, which is what the pump handle and the water filter did.
+      But the twentieth century also produced the figures Pettenkofer would have
+      wanted. Most people who harbor the tuberculosis bacterium never develop
+      the disease at all, and cholera mortality within a single outbreak varies
+      by a large factor with nutrition and with access to clean fluids. The
+      organism is necessary, and the condition of the person largely decides who
+      dies of it.
+
+      The modern form of the dispute is about where to spend money, and it is
+      sharp. One side argues for the specific intervention: the vaccine, the
+      drug, the filter, each of which can be tested and shown to work. The other
+      argues that housing, income and sanitation produce larger effects across
+      more diseases at once, and points out that mortality from tuberculosis in
+      Europe had already fallen by most of its total before any effective
+      treatment existed. Both claims are supported. The practical question of
+      allocation is not settled by the biology, which is why it is still an
+      argument. His experiment proved less than he claimed, and the point he was
+      making was not thereby wrong.
+    anchors:
+      - take: "Pettenkofer required the germ and the ground together."
+        quote: "required the germ and the ground"
+      - take: "Most people carrying the tuberculosis bacterium never become ill."
+        quote: "never develop the disease"
+      - take: "Tuberculosis mortality fell before any effective treatment existed."
+        quote: "before any effective treatment existed"
+    terms: []
+    facts:
+      - "Pettenkofer drank a cholera culture in 1892 and developed only mild symptoms."
+      - "Most people infected with the tuberculosis bacterium never develop the disease."
+      - "European tuberculosis mortality had fallen substantially before effective treatment existed."
+  - id: BIO-S07-L4
+    strand: S07
+    title: "The Bargain of Fixed Nitrogen"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S07-L3"
+    advances: "Weighs the agricultural gains from synthetic nitrogen against their measured costs, with figures for both."
+    vocab_link: [husband]
+    passage: |
+      Something close to half the nitrogen in the body of a person alive today
+      was fixed industrially, which means that roughly half the world population
+      is fed by a chemical process invented in 1909. No serious account of
+      twentieth-century population growth can leave that process out of the
+      explanation. Cereal yields in countries that adopted the package of
+      fertilizer, irrigation and selected varieties rose by factors of two to
+      four in a generation, and famine in Asia, which had been a regular event,
+      became rare.
+
+      The costs are also measurable, which is what makes this a real argument
+      rather than a slogan. Perhaps half the nitrogen applied to a field never
+      reaches the crop. It leaves in water and air, and in the water it produces
+      eutrophication, meaning enrichment that strips the water of oxygen, which
+      has created dead zones at the mouths of major rivers, the largest of them
+      in the Gulf of Mexico. Fixing nitrogen industrially consumes one or two
+      percent of all the energy used in the world, and nitrous oxide released
+      from fertilized soil is a greenhouse gas of considerable strength.
+
+      The two positions that follow are not symmetrical and both are serious.
+      One holds that the bargain was obviously worth making, that the
+      alternative was mass starvation, and that the losses are an engineering
+      problem to be reduced by better timing and placement. The other holds that
+      a system which must husband its soil is more stable than one which buys
+      fertility by the ton, and points to the long-term plots where manure
+      outperforms mineral nitrogen on soil structure. Neither position disputes
+      the figures. They disagree about what to do with a technology that cannot
+      be given up and cannot be continued unchanged. Precision application has
+      cut losses substantially in a few wealthy countries. Global fertilizer use
+      has gone on rising throughout the same period.
+    anchors:
+      - take: "Roughly half the world population is fed by a process invented in 1909."
+        quote: "fed by a chemical process invented in 1909"
+      - take: "Perhaps half the nitrogen applied never reaches the crop."
+        quote: "never reaches the crop"
+      - take: "Neither position disputes the figures; they disagree about what to do."
+        quote: "Neither position disputes the figures."
+    terms:
+      - {term: "eutrophication", gloss: "the enrichment of water by nutrients, which strips it of oxygen", glossed: true}
+      - {term: "yield gap", gloss: "the difference between what a field produces and what it could produce", glossed: false}
+    facts:
+      - "About half the nitrogen in a living human body was fixed industrially."
+      - "Roughly half the nitrogen applied to fields does not reach the crop."
+      - "Industrial nitrogen fixation consumes one or two percent of world energy."
+  - id: BIO-S08-L4
+    strand: S08
+    title: "Separating a Signal From Noise"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S08-L3"
+    advances: "Explains how attribution is actually argued, and what the serious objections to it are."
+    vocab_link: [quiescent]
+    passage: |
+      Nobody in the argument disputes that the climate of the Earth has changed
+      before, and the question that actually matters is attribution, meaning the
+      establishing of how much of an observed change is caused by a particular
+      factor. The objection that the climate has always varied is therefore not
+      a trivial one, and the answer to it is not a louder assertion. It is a
+      method, and the method is fingerprinting: looking for a pattern of change
+      that one cause produces and the alternatives do not.
+
+      Several such patterns exist. Greenhouse warming predicts that the lower
+      atmosphere warms while the upper stratosphere cools, which is what is
+      measured, and no increase in solar output can produce that combination.
+      Greenhouse warming predicts that nights warm faster than days, which is
+      observed. Solar warming predicts the opposite in both cases. The isotopic
+      composition of the carbon now in the atmosphere has shifted toward the
+      characteristic signature of fossil carbon, which is not a quiescent
+      coincidence but a direct trace of its origin. Each of these is an
+      independent test of a kind that could have failed and did not.
+
+      The serious objections are about magnitude rather than attribution, and
+      they are inside the science rather than outside it. How strongly clouds
+      respond to warming remains the largest uncertainty in every model, and it
+      moves the projected warming for a doubling of carbon dioxide across a
+      range of several degrees. How much heat the deep ocean takes up, and for
+      how long it holds it, has been measured only since the profiling floats
+      were deployed, and those two uncertainties are the live scientific
+      arguments. A reader who encounters a dispute about whether the mechanism
+      exists has been handed the wrong argument, and one about how large the
+      response is has been handed the real one.
+    anchors:
+      - take: "Attribution is a method, not an assertion."
+        quote: "It is a method"
+      - take: "The troposphere warms while the stratosphere cools."
+        quote: "the lower atmosphere warms while the upper stratosphere cools"
+      - take: "The live argument is about magnitude, not mechanism."
+        quote: "The serious objections are about magnitude"
+    terms:
+      - {term: "attribution", gloss: "establishing how much of an observed change is caused by a particular factor", glossed: true}
+      - {term: "fingerprint", gloss: "a pattern of change that a particular cause produces and others do not", glossed: true}
+    facts:
+      - "Greenhouse warming predicts lower atmosphere warming with stratospheric cooling, which is observed."
+      - "Greenhouse warming predicts faster warming of nights than days, which is observed."
+      - "Cloud response remains the largest source of uncertainty in climate models."
+  - id: BIO-S09-L4
+    strand: S09
+    title: "The Floods That Were Not Allowed"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S09-L3"
+    advances: "Uses one case in which a methodological rule blocked a correct conclusion for forty years."
+    vocab_link: [spent]
+    passage: |
+      Geology was founded on a methodological rule. Uniformitarianism, the
+      principle that the processes acting now are the ones that shaped the past,
+      was the instrument that defeated an earlier tradition of explaining
+      landscapes by single catastrophes, and it worked. Slow erosion, slow
+      deposition and slow uplift account for most of the surface of the Earth,
+      and the rule gave geologists a disciplined way to read the history written
+      in a cliff face.
+
+      J Harlen Bretz then found a landscape it could not explain. The scablands
+      of eastern Washington are channels cut hundreds of feet into solid basalt,
+      boulders the size of houses carried fifty miles, gravel bars the height of
+      small hills, and ripple marks fifty feet from crest to crest. Bretz argued
+      from 1923 that this had been made by a flood of almost unimaginable size.
+      His colleagues rejected it, not because they had a better account, but
+      because a single enormous flood was exactly the kind of explanation the
+      discipline had spent a century getting rid of.
+
+      He turned out to be right, and the evidence that settled it came from
+      somewhere else entirely. A lake dammed by ice in Montana was identified,
+      with shorelines showing a volume comparable to Lake Ontario, and a
+      mechanism for the dam failing repeatedly was worked out. Bretz lived to
+      receive the discipline highest medal in 1979 at the age of ninety-six. The
+      episode is not an argument against uniformitarianism, which remains the
+      correct default. It is an argument about what a default is for: the rule
+      told geologists where to look and then told them not to believe what they
+      found. Comparable flood channels have since been identified on Mars and
+      are interpreted using the scablands. The rule that blocked the conclusion
+      has become one of the tools for extending it.
+    anchors:
+      - take: "Uniformitarianism defeated an earlier tradition and worked."
+        quote: "and it worked"
+      - take: "His colleagues rejected it without a better account."
+        quote: "not because they had a better account"
+      - take: "A default told them where to look and then not to believe it."
+        quote: "told geologists where to look and then told them not to believe what they found"
+    terms:
+      - {term: "uniformitarianism", gloss: "the principle that the processes acting now are the ones that shaped the past", glossed: true}
+    facts:
+      - "Bretz argued from 1923 that the Washington scablands were cut by an enormous flood."
+      - "An ice-dammed lake in Montana was later identified as the source."
+      - "Bretz received the highest award of the Geological Society of America in 1979."
+  - id: BIO-S10-L4
+    strand: S10
+    title: "Whether It Can Be Stopped"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "BIO-S10-L3"
+    advances: "Presents the argument over irreversible ice loss and shows which part of it is a question about physics."
+    vocab_link: [inimical]
+    passage: |
+      Two claims about Thwaites are often run together and should be separated.
+      The first is marine ice sheet instability, meaning the self-sustaining
+      retreat of a glacier grounded below sea level on a slope that deepens
+      inland. The physics is straightforward and widely accepted: as the
+      grounding line moves back into deeper water, thicker ice is exposed, more
+      ice flows out, and the retreat continues without any further warming.
+      Whether that process has already begun at Thwaites is debated, and the
+      measurements of grounding line retreat are the evidence being argued over.
+
+      The second claim is ice cliff failure, meaning the structural collapse of
+      an exposed face too tall to hold itself up. Ice cannot support a cliff
+      above roughly ninety meters, and if the floating shelves go, Thwaites
+      would present a face far taller than that. A pair of modelers added this
+      mechanism to an ice sheet model in 2016 and obtained sea level rise of a
+      meter or more this century, which was several times the previous
+      projections and was reported very widely.
+
+      The objections to the second claim are serious and not political. The
+      mechanism has never been observed at the relevant scale. The model
+      required parameters chosen to reproduce ancient sea levels that are
+      themselves uncertain. Later work found that the same ancient levels could
+      be reproduced without it. The honest summary is that the first claim is
+      physics that is probably under way, and the second is a possibility that
+      cannot be excluded and has not been demonstrated. A planner facing a
+      distribution with a long inimical tail has a decision problem rather than
+      a scientific one. The two claims are often reported as one, which makes
+      the science look less settled than it is on the first and more settled
+      than it is on the second.
+    anchors:
+      - take: "Retreat on a reverse slope continues without further warming."
+        quote: "the retreat continues without any further warming"
+      - take: "Ice cannot support a cliff above roughly ninety meters."
+        quote: "above roughly ninety meters"
+      - take: "The cliff mechanism has never been observed at the relevant scale."
+        quote: "has never been observed at the relevant scale"
+    terms:
+      - {term: "marine ice sheet instability", gloss: "self-sustaining retreat of a glacier grounded below sea level on a reverse slope", glossed: true}
+      - {term: "ice cliff failure", gloss: "the structural collapse of an exposed ice face too tall to support itself", glossed: true}
+    facts:
+      - "Marine ice sheet instability describes self-sustaining retreat on a bed that deepens inland."
+      - "Ice cannot support an exposed cliff much above ninety meters."
+      - "A 2016 model including cliff failure produced sea level rise of a meter or more this century."
