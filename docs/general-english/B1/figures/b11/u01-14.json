@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  575
+ ],
+ "bounds": [
+  53.0,
+  28.5,
+  1387.0,
+  546.5
+ ],
+ "texts": [
+  {
+   "text": "eating when the",
+   "size": 28,
+   "bbox": [
+    86.6,
+    64.3,
+    343.9,
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "phone rang",
+   "size": 28,
+   "bbox": [
+    125.0,
+    98.3,
+    305.5,
+    122.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "closed the shop",
+   "size": 28,
+   "bbox": [
+    427.3,
+    64.3,
+    676.2,
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "and went up",
+   "size": 28,
+   "bbox": [
+    453.5,
+    98.3,
+    650.0,
+    122.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "put the bags",
+   "size": 28,
+   "bbox": [
+    787.8,
+    64.3,
+    988.7,
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "down",
+   "size": 28,
+   "bbox": [
+    845.7,
+    98.3,
+    930.8,
+    122.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "waiting for an",
+   "size": 28,
+   "bbox": [
+    1114.3,
+    64.3,
+    1335.2,
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hour",
+   "size": 28,
+   "bbox": [
+    1188.3,
+    98.3,
+    1261.2,
+    122.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "interrupted",
+   "size": 34,
+   "bbox": [
+    267.5,
+    238.5,
+    488.5,
+    268.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "finished",
+   "size": 34,
+   "bbox": [
+    985.5,
+    238.5,
+    1138.5,
+    268.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four sentences of this task as chips above two empty bins, one for an action that was interrupted and one for an action that finished. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "placed_in": [
+  6.260416666666667,
+  2.5
+ ],
+ "sha256": "8a987968178b4543d5b61d0c1dbba3c49b9a3c55928bf6a7260b3c6dcf58b85f"
+}

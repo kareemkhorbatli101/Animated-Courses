@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  468
+  551
  ],
  "bounds": [
   51,
-  23.2,
+  27.3,
   1389,
-  445.2
+  523.3
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     134,
-    61.7,
+    75.0,
     428.4,
-    86.2
+    99.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     842.0,
-    61.7,
+    75.0,
     1045.5,
-    86.2
+    99.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     134,
-    152.2,
+    184.0,
     628.7,
-    176.6
+    208.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     134,
-    186.2,
+    218.0,
     427.6,
-    210.6
+    242.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 28,
    "bbox": [
     134,
-    259.7,
+    310.0,
     614.7,
-    284.1
+    334.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +75,9 @@
    "size": 28,
    "bbox": [
     134,
-    293.7,
+    344.0,
     301.9,
-    318.1
+    368.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -87,9 +87,9 @@
    "size": 28,
    "bbox": [
     134,
-    384.2,
+    453.0,
     660.0,
-    408.6
+    477.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -102,7 +102,7 @@
  "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
  "placed_in": [
   6.260416666666667,
-  2.03125
+  2.3958333333333335
  ],
- "sha256": "5ff95259412c22e6003d2403b32a6f2d6e49294933d18728d9aa03edf2b78d2b"
+ "sha256": "3b33698489403fca4595c2cc62272247b0a974dddff834017e8934ec3327bd3c"
 }

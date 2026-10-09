@@ -46,6 +46,66 @@ def _wrap(words, size, maxw):
     return lines
 
 
+class Fitted(list):
+    """The lines `fit_lines` produced, remembering which the caller read.
+
+    A figure job that calls `fit_lines` and then draws only `ll[0]` prints half
+    a label and nothing can see it: G13 and G14 measure the glyphs that ARE
+    drawn, and a line never drawn has no glyphs. That defect shipped in A2 in
+    two jobs at once -- `grammar_contrast` cut four unit titles in half and
+    `decision_fork` cut its question in every unit of both volumes -- and a
+    grep found eight more call sites with the same shape.
+
+    So the lines remember. `G33` builds every figure and fails on any job that
+    produced a line and did not draw it, which is the whole class rather than
+    the two instances that happened to be noticed.
+    """
+
+    def __init__(self, items):
+        super().__init__(items)
+        self.read: set[int] = set()
+
+    def __getitem__(self, i):
+        if isinstance(i, slice):
+            self.read.update(range(*i.indices(len(self))))
+            return list.__getitem__(self, i)
+        self.read.add(i if i >= 0 else len(self) + i)
+        return list.__getitem__(self, i)
+
+    def __iter__(self):
+        for k in range(len(self)):
+            self.read.add(k)
+            yield list.__getitem__(self, k)
+
+    @property
+    def dropped(self) -> list[str]:
+        return [list.__getitem__(self, k) for k in range(len(self))
+                if k not in self.read]
+
+
+FITTED: list[Fitted] = []
+COLLECT = False
+
+
+def fit_reset():
+    """Start recording. Collection is OFF by default and switched on only
+    around a build that `G33` is about to inspect: a figure is drawn thousands
+    of times in a mutation run, and keeping a `Fitted` object for every label
+    of every one of them is an unbounded list that made the suite three times
+    slower before anything read it."""
+    global COLLECT
+    COLLECT = True
+    FITTED.clear()
+
+
+def fit_dropped() -> list[str]:
+    global COLLECT
+    out = [ln for f in FITTED for ln in f.dropped]
+    COLLECT = False
+    FITTED.clear()
+    return out
+
+
 def fit_lines(label: str, maxw: float, size_hi: int = 34, size_lo: int = 22,
               max_lines: int = 2):
     """Largest size at or above the 22 px floor (check G13) that fits the label
@@ -58,14 +118,21 @@ def fit_lines(label: str, maxw: float, size_hi: int = 34, size_lo: int = 22,
     size into however many lines it takes: too tall is a layout problem a
     caller can see, too wide is a silent collision.
     """
+    def out(lines, size):
+        if not COLLECT:
+            return lines, size
+        f = Fitted(lines)
+        FITTED.append(f)
+        return f, size
+
     words = label.split()
     for size in range(size_hi, size_lo - 1, -2):
         if tw(label, size) <= maxw:
-            return [label], size
+            return out([label], size)
         lines = _wrap(words, size, maxw)
         if len(lines) <= max_lines and all(tw(l, size) <= maxw for l in lines):
-            return lines, size
-    return _wrap(words, size_lo, maxw), size_lo
+            return out(lines, size)
+    return out(_wrap(words, size_lo, maxw), size_lo)
 
 
 class Fig:
@@ -1170,6 +1237,53 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
         f.path(f'M {cx-35*s:.1f} {cy+26*s:.1f} L {cx-10*s:.1f} {cy-8*s:.1f} '
                f'L {cx+12*s:.1f} {cy+26*s:.1f} Z', fill=P['tanl'])
         C(18, -12, 8, fill=P['blue'], sw=0)
+    # ---------------------------------------------------- B1 Unit 1: electricity
+    elif name == 'bulb':
+        C(0, -14, 24, fill=P['tanl'])
+        R(-10, 10, 20, 16, fill=P['grey'], r=3)
+        L(-8, 30, 8, 30, sw=4)
+        for a, b in ((-30, -34), (0, -44), (30, -34)):
+            L(a * 0.7, b * 0.7, a, b, stroke=P['tand'], sw=3)
+    elif name == 'switch':
+        R(-22, -30, 44, 60, fill=P['card'], r=6)
+        R(-11, -18, 22, 22, fill=P['bg'], r=3)
+        L(-11, 4, 11, 4, sw=3)
+    elif name == 'meter':
+        R(-34, -30, 68, 60, fill=P['grey'], r=5)
+        R(-26, -22, 52, 24, fill=P['bg'], r=3)
+        for k in range(4):
+            L(-20 + k * 13, -20, -20 + k * 13, 0, stroke=P['rule'], sw=2)
+        C(-16, 16, 6, fill=P['accent'], sw=2)
+        C(2, 16, 6, fill=P['bg'], sw=2)
+    elif name == 'cable':
+        f.path(f'M {cx-44*s:.1f} {cy+18*s:.1f} C {cx-16*s:.1f} {cy-26*s:.1f} '
+               f'{cx+16*s:.1f} {cy+26*s:.1f} {cx+44*s:.1f} {cy-18*s:.1f}',
+               stroke=P['ink'], sw=9 * s, fill='none')
+        C(-44, 18, 8, fill=P['tand'])
+        C(44, -18, 8, fill=P['tand'])
+    elif name == 'spark':
+        f.path(f'M {cx-6*s:.1f} {cy-40*s:.1f} L {cx+16*s:.1f} {cy-40*s:.1f} '
+               f'L {cx+2*s:.1f} {cy-6*s:.1f} L {cx+22*s:.1f} {cy-6*s:.1f} '
+               f'L {cx-10*s:.1f} {cy+40*s:.1f} L {cx-2*s:.1f} {cy+6*s:.1f} '
+               f'L {cx-22*s:.1f} {cy+6*s:.1f} Z',
+               fill=P['accent'], stroke=P['ink'], sw=3)
+    elif name == 'road':
+        R(-46, -16, 92, 32, fill=P['grey'], r=3)
+        for k in range(-2, 3):
+            R(k * 20 - 7, -3, 14, 6, fill=P['bg'], r=1, sw=0)
+    elif name == 'laptop':
+        R(-34, -30, 68, 44, fill=P['card'], r=4)
+        R(-27, -24, 54, 32, fill=P['blue'], r=2, sw=0)
+        f.path(f'M {cx-44*s:.1f} {cy+14*s:.1f} L {cx+44*s:.1f} {cy+14*s:.1f} '
+               f'L {cx+36*s:.1f} {cy+26*s:.1f} L {cx-36*s:.1f} {cy+26*s:.1f} Z',
+               fill=P['grey'], stroke=P['ink'], sw=3)
+    elif name == 'ear':
+        f.path(f'M {cx+14*s:.1f} {cy-34*s:.1f} C {cx-30*s:.1f} {cy-40*s:.1f} '
+               f'{cx-34*s:.1f} {cy+18*s:.1f} {cx-6*s:.1f} {cy+36*s:.1f} '
+               f'C {cx+6*s:.1f} {cy+42*s:.1f} {cx+10*s:.1f} {cy+26*s:.1f} '
+               f'{cx+2*s:.1f} {cy+14*s:.1f} C {cx-8*s:.1f} {cy:.1f} '
+               f'{cx+22*s:.1f} {cy-6*s:.1f} {cx+14*s:.1f} {cy-34*s:.1f} Z',
+               fill=P['tanl'], stroke=P['ink'], sw=3)
     else:
         # This used to draw a plain grey disc, which is the worst possible
         # answer: a misspelled icon name produced a card with a featureless
@@ -1380,12 +1494,27 @@ def grammar_contrast(left, right, height=640, alt=''):
         f.rect(x, 50, w, height - 110, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
         # both headers are ink: white on P['deep'] is 3.6:1, under the 4.5 floor.
         # the two sides are told apart by the timeline marks, not by the band.
-        f.rect(x, 50, w, 76, fill=P['ink'], stroke='none', r=18, sw=0)
+        # fit_lines may return two lines and only ll[0] used to be drawn, so a
+        # label one word too long was SILENTLY cut in half -- 'Amina was closing
+        # the shop' printed as 'Amina was closing the'. Nothing could see it:
+        # G13 and G14 measure the glyphs that ARE drawn. Draw every line and
+        # grow the header band to hold them. A one-line label is untouched, so
+        # every A2 figure stays byte-identical.
         ll, lsz = fit_lines(label, w - 40, size_hi=38, size_lo=28)
-        f.text(ll[0], x + w / 2, 102, size=lsz, fill=P['bg'], on=P['ink'])
+        hdr = 76 if len(ll) == 1 else 76 + (lsz + 6) * (len(ll) - 1)
+        f.rect(x, 50, w, hdr, fill=P['ink'], stroke='none', r=18, sw=0)
+        for i, ln in enumerate(ll):
+            f.text(ln, x + w / 2, 102 + i * (lsz + 6), size=lsz,
+                   fill=P['bg'], on=P['ink'])
+        # The body starts below whatever the header turned out to be. It used
+        # to start at a fixed 180, so a two-line title printed its second line
+        # straight through the form text -- dark ink on the dark header band,
+        # with `on=P['card']` in the metadata, so G22 read a contrast that was
+        # not there. 50 + 76 + 54 is 180, so a one-line header is unchanged.
+        fy = 50 + hdr + 54
         fl, fsz = fit_lines(form, w - 50, size_hi=32, size_lo=24)
         for i, ln in enumerate(fl[:2]):
-            f.text(ln, x + w / 2, 180 + i * (fsz + 8), size=fsz, fill=P['ink'], on=P['card'])
+            f.text(ln, x + w / 2, fy + i * (fsz + 8), size=fsz, fill=P['ink'], on=P['card'])
         # the timeline
         ty = 310
         f.line(x + 44, ty, x + w - 44, ty, stroke=P['ink'], sw=5)
@@ -1412,8 +1541,13 @@ def timeline(points, height=460, alt=''):
         x = INSET + (W - 2 * INSET) * (i / max(1, n - 1))
         f.circle(x, y, 16, fill=P['tan'], sw=4)
         slot = (W - 2 * INSET) / max(1, n - 1)
+        # Every line, stacked UPWARD from the marker, so a two-line `when`
+        # like 'morning, afternoon, night' keeps its second half instead of
+        # losing it silently. One line is unchanged, at y - 58.
         wl, wsz = fit_lines(when, slot - 16, size_hi=34, size_lo=24)
-        f.text(wl[0], x, y - 58, size=wsz, on=P['card'])
+        for j, ln in enumerate(wl):
+            f.text(ln, x, y - 58 - (len(wl) - 1 - j) * (wsz + 6),
+                   size=wsz, on=P['card'])
         tl, tsz = fit_lines(what, slot - 14, size_hi=28, size_lo=22)
         for j, ln in enumerate(tl[:2]):
             f.text(ln, x, y + 74 + j * (tsz + 8), size=tsz, fill=P['ink'], on=P['card'])
@@ -1765,28 +1899,52 @@ def sort_bins(bins, items, height=560, alt=''):
     and the bins are its two columns; which chip goes where IS the exercise, so
     the figure deliberately does not place them. Prose turned a sorting task
     into a list, which is the one shape a sort cannot be done in."""
-    f = Fig(height, alt)
     pad = 56
     cn = len(items)
     cw = (W - 2 * pad - 18 * (cn - 1)) / cn
-    for i, it in enumerate(items):
+    # Measure the chips first: a chip that needs two lines used to print one
+    # and drop the other, which is eleven of A2's twenty sort tasks. The whole
+    # figure then grows by what the chips grew, so the bins keep their height
+    # and their fourth writing line instead of being pushed off the canvas.
+    fit = [fit_lines(it, cw - 28, size_hi=28) for it in items]
+    nl = max((len(l) for l, _ in fit), default=1)
+    chip_h = 86 + (nl - 1) * 34
+    drop = chip_h - 86
+    bw = (W - 2 * pad - 40 * (len(bins) - 1)) / len(bins)
+    hdrs = [fit_lines(b, bw - 44, size_hi=34, size_lo=24) for b in bins]
+    hh = 72 + (max((len(l) for l, _ in hdrs), default=1) - 1) * 40
+    # The bin has to reach past its fourth writing line. It did not before,
+    # by eight pixels, which is why the last line sat on the border.
+    height = max(height + drop, 496 + drop + hh)
+
+    f = Fig(height, alt)
+    for i, (it, (ll, sz)) in enumerate(zip(items, fit)):
         x = pad + i * (cw + 18)
-        f.rect(x, 40, cw, 86, fill=P['bg'], stroke=P['ink'], r=43, sw=3)
-        ll, sz = fit_lines(it, cw - 28, size_hi=28)
-        f.text(ll[0], x + cw / 2, 92, size=sz, on=P['bg'])
+        f.rect(x, 40, cw, chip_h, fill=P['bg'], stroke=P['ink'],
+               r=min(43, chip_h / 2), sw=3)
+        base = 40 + chip_h / 2 + sz * 0.36 - (len(ll) - 1) * (sz + 6) / 2
+        for j, ln in enumerate(ll):
+            f.text(ln, x + cw / 2, base + j * (sz + 6), size=sz, on=P['bg'])
         f.cards += 1
     # sized from how many bins there are: a hard-coded 2 ran a third bin
     # clean off the canvas with nothing to catch it but G16.
-    bw = (W - 2 * pad - 40 * (len(bins) - 1)) / len(bins)
-    for k, b in enumerate(bins):
+    for k, (b, (bl, bsz)) in enumerate(zip(bins, hdrs)):
         x = pad + k * (bw + 40)
-        f.rect(x, 190, bw, height - 240, fill=P['card'], stroke='#CED4DD', r=18, sw=3)
-        f.rect(x, 190, bw, 72, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
-        bl, bsz = fit_lines(b, bw - 44, size_hi=34, size_lo=24)
-        f.text(bl[0], x + bw / 2, 238, size=bsz, fill=P['bg'], on=P['ink'])
+        f.rect(x, 190 + drop, bw, height - 240 - drop, fill=P['card'],
+               stroke='#CED4DD', r=18, sw=3)
+        f.rect(x, 190 + drop, bw, hh, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
+        for j, ln in enumerate(bl):
+            f.text(ln, x + bw / 2, 238 + drop + j * (bsz + 6), size=bsz,
+                   fill=P['bg'], on=P['ink'])
         for j in range(4):
-            _blank_line(f, x + 40, 326 + j * 54, x + bw - 40)
+            _blank_line(f, x + 40, 326 + drop + (hh - 72) + j * 54, x + bw - 40)
     return f
+
+
+def rx0(pad, half):
+    """Where the right-hand column starts, needed before the row loop so
+    `error_pairs` can measure both halves before it sizes a row."""
+    return pad + half + 94
 
 
 def error_pairs(rows, height=520, alt=''):
@@ -1795,21 +1953,29 @@ def error_pairs(rows, height=520, alt=''):
     side is None draws a writing line instead. That is the point -- the figure
     models the first correction and leaves the rest to the learner, rather than
     printing the answers to the task it sits above."""
-    f = Fig(height, alt)
     n = len(rows)
     pad = 54
-    rh = (height - 2 * 42 - (n - 1) * 14) / n
     half = (W - 2 * pad) / 2 - 30
-    for i, (wrong, right) in enumerate(rows):
+    # Measure first. The rows used to be a fixed share of a fixed height and
+    # both halves drew only their first two lines, so a long wrong-form -- 'the
+    # lights was going out.' -- printed without its end. Size the row from the
+    # tallest thing in it instead.
+    fits = [(fit_lines(w, half - 100, size_hi=28),
+             fit_lines(r, W - pad - rx0(pad, half) - 90, size_hi=28) if r else None)
+            for w, r in rows]
+    nl = max(max(len(a[0]), len(b[0]) if b else 1) for a, b in fits)
+    rh = max((height - 2 * 42 - (n - 1) * 14) / n, 34 * nl + 44)
+    height = max(height, int(2 * 42 + (n - 1) * 14 + rh * n))
+    f = Fig(height, alt)
+    for i, ((wrong, right), ((wl, wsz), rfit)) in enumerate(zip(rows, fits)):
         y = 42 + i * (rh + 14)
         cy = y + rh / 2
         f.rect(pad, y, W - 2 * pad, rh, fill=P['bg'], stroke=P['rule'], r=12, sw=3)
         f.circle(pad + 44, cy, 20, fill=P['bg'], stroke=P['tand'], sw=4)
         f.line(pad + 34, cy - 10, pad + 54, cy + 10, stroke=P['tand'], sw=4)
         f.line(pad + 54, cy - 10, pad + 34, cy + 10, stroke=P['tand'], sw=4)
-        wl, wsz = fit_lines(wrong, half - 100, size_hi=28)
-        yb = cy + 9 - (len(wl[:2]) - 1) * 17
-        for j, ln in enumerate(wl[:2]):
+        yb = cy + 9 - (len(wl) - 1) * 17
+        for j, ln in enumerate(wl):
             bb = f.text(ln, pad + 80, yb + j * 34, size=wsz, anchor='start', on=P['bg'])
             f.line(bb[0], (bb[1] + bb[3]) / 2, bb[2], (bb[1] + bb[3]) / 2,
                    stroke=P['tand'], sw=3)
@@ -1819,8 +1985,8 @@ def error_pairs(rows, height=520, alt=''):
         f.path(f'M {rx+12:.1f} {cy:.1f} L {rx+20:.1f} {cy+10:.1f} '
                f'L {rx+34:.1f} {cy-12:.1f}', stroke=P['accent'], sw=5)
         if right:
-            rl, rsz = fit_lines(right, W - pad - rx - 90, size_hi=28)
-            for j, ln in enumerate(rl[:2]):
+            rl, rsz = rfit
+            for j, ln in enumerate(rl):
                 f.text(ln, rx + 58, yb + j * 34, size=rsz, anchor='start', on=P['bg'])
         else:
             _blank_line(f, rx + 58, cy + 14, W - pad - 30)
@@ -1977,8 +2143,8 @@ def talk_shape(beats, height=440, alt=''):
         icon(f, ic, x + (bw - 12) / 2, 156 + bh * 0.52,
              s=min(0.9, (bw - 12) * 0.24 / 56))
         ll, lsz = fit_lines(label, bw - 44, size_hi=28, size_lo=22)
-        base = 156 + bh - 24 - (len(ll[:2]) - 1) * (lsz + 6)
-        for j, ln in enumerate(ll[:2]):
+        base = 156 + bh - 24 - (len(ll) - 1) * (lsz + 6)
+        for j, ln in enumerate(ll):
             f.text(ln, x + (bw - 12) / 2, base + j * (lsz + 6), size=lsz, on=P['card'])
         f.stages += 1
         x += bw
@@ -2011,24 +2177,55 @@ def decision_fork(question, options, height=640, alt=''):
     """One trunk, three branches, and what each branch costs. A decision task is
     a choice with consequences, and the consequences were buried in the prose of
     the paragraph above it."""
-    f = Fig(height, alt)
     pad = 50
-    f.rect(pad, 40, W - 2 * pad, 96, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
-    ql, qsz = fit_lines(question, W - 2 * pad - 64, size_hi=34, size_lo=24)
-    f.text(ql[0], W / 2, 102, size=qsz, fill=P['bg'], on=P['ink'])
     n = len(options)
     cw = (W - 2 * pad - 36 * (n - 1)) / n
+
+    # Measure before drawing. The card used to be a fixed `height - 300` tall
+    # while the consequence lines flowed on from wherever the label ended, so
+    # a branch whose label or consequences wrapped printed its last line
+    # BELOW the card -- visible in every render and invisible to every check,
+    # because the glyphs are inside the canvas and the preflight measures the
+    # canvas. Same defect as grammar_contrast's truncated title: the figure
+    # was laid out for the shortest plausible text. Growing the figure is
+    # safe, because `tighten` crops to the drawing.
+    need = 0
+    for label, costs, _ in options:
+        ll, lsz = fit_lines(label, cw - 44, size_hi=30, size_lo=24)
+        yy = 400 + len(ll[:2]) * (lsz + 6) + 28
+        for c in costs[:2]:
+            cl, csz = fit_lines(c, cw - 48, size_hi=26, size_lo=22)
+            yy += 44 + (len(cl[:2]) - 1) * 30
+        need = max(need, yy + 78)
+    height = max(height, int(need))
+
+    # The question had the same one-line-only bug as grammar_contrast's title:
+    # `fit_lines` was called and only `ql[0]` drawn, so 'You want to ask six
+    # neighbours and two have never spoken to you?' printed without its last
+    # word. Draw every line, grow the band, and push the trunk and the cards
+    # down by exactly what the band grew.
+    ql, qsz = fit_lines(question, W - 2 * pad - 64, size_hi=34, size_lo=24)
+    qh = 96 + (qsz + 6) * (len(ql) - 1)
+    d = qh - 96
+    height += d
+
+    f = Fig(height, alt)
+    f.rect(pad, 40, W - 2 * pad, qh, fill=P['ink'], stroke=P['ink'], r=18, sw=0)
+    for j, ln in enumerate(ql):
+        f.text(ln, W / 2, 102 + j * (qsz + 6), size=qsz, fill=P['bg'], on=P['ink'])
     for i, (label, costs, ic) in enumerate(options):
         x = pad + i * (cw + 36)
         cx = x + cw / 2
-        f.path(f'M {W/2:.1f} 136 L {W/2:.1f} 188 L {cx:.1f} 188 L {cx:.1f} 238',
+        f.path(f'M {W/2:.1f} {136+d:.1f} L {W/2:.1f} {188+d:.1f} '
+               f'L {cx:.1f} {188+d:.1f} L {cx:.1f} {238+d:.1f}',
                stroke=P['accent'], sw=5)
-        f.rect(x, 238, cw, height - 300, fill=P['card'], stroke='#CED4DD', r=16, sw=3)
-        icon(f, ic, cx, 318, s=min(1.0, cw * 0.24 / 56))
+        f.rect(x, 238 + d, cw, height - 300 - d,
+               fill=P['card'], stroke='#CED4DD', r=16, sw=3)
+        icon(f, ic, cx, 318 + d, s=min(1.0, cw * 0.24 / 56))
         ll, lsz = fit_lines(label, cw - 44, size_hi=30, size_lo=24)
         for j, ln in enumerate(ll[:2]):
-            f.text(ln, cx, 400 + j * (lsz + 6), size=lsz, on=P['card'])
-        yy = 400 + len(ll[:2]) * (lsz + 6) + 28
+            f.text(ln, cx, 400 + d + j * (lsz + 6), size=lsz, on=P['card'])
+        yy = 400 + d + len(ll[:2]) * (lsz + 6) + 28
         for c in costs[:2]:
             cl, csz = fit_lines(c, cw - 48, size_hi=26, size_lo=22)
             for j, ln in enumerate(cl[:2]):
@@ -2163,6 +2360,78 @@ def work_surface(f: Fig, x, y, w, h):
            stroke=P['ink'], r=5)
     f.rect(x + w * 0.893, y + h * 0.68, 26, h * 0.12, fill=P['ink'],
            stroke=P['ink'], r=4)
+
+
+def building_section(f: Fig, x, y, w, h):
+    """Number 14 Alder Street cut through, basement to top flat.
+
+    `label_me` wants hit points that run down as they run right, so its leaders
+    fan out instead of crossing. The five things the task asks about therefore
+    sit in that order on purpose -- meter low and left in the ground-floor hall,
+    freezer in the shop beside it, switch on a second-floor wall, candle drawer
+    on the third, spare bulbs on the shelf above -- which is also the order a
+    person climbing the stairs would meet them.
+    """
+    left, right = x + 60, x + w - 60
+    top, bot = y + 40, y + h - 40
+    floors = 5                                   # basement + 4
+    fh = (bot - top) / floors
+    f.rect(left, top, right - left, bot - top, fill=P['bg'], stroke=P['ink'], r=6)
+    for i in range(1, floors):
+        f.line(left, top + i * fh, right, top + i * fh, stroke=P['ink'], sw=3)
+    # the stairwell, one flight a floor, running up the middle
+    mid = left + (right - left) * 0.46
+    for i in range(floors):
+        fy = top + i * fh
+        for k in range(4):
+            f.line(mid + k * 14, fy + fh - k * (fh / 5),
+                   mid + (k + 1) * 14, fy + fh - k * (fh / 5), stroke=P['rule'], sw=2)
+    # the basement, hatched, with the locked cupboard nobody has a key for
+    by = top + (floors - 1) * fh
+    for k in range(9):
+        f.line(left + 10 + k * 22, bot - 4, left + 24 + k * 22, by + 6,
+               stroke=P['rule'], sw=2)
+    f.rect(left + 18, by + fh * 0.34, (right - left) * 0.13, fh * 0.44,
+           fill=P['grey'], stroke=P['ink'], r=3)
+    # ground floor: the hall with the meter box, and the shop beside it
+    gy = top + (floors - 2) * fh
+    # The meter sits a little lower in the row than the freezer, and that is
+    # not decoration: label_me sorts its hit points by y, so two things on the
+    # same floor need distinct heights or the numbering is a coin toss.
+    f.rect(left + 12, gy + fh * 0.46, (right - left) * 0.10, fh * 0.40,
+           fill=P['grey'], stroke=P['ink'], r=3)                 # the meter
+    f.rect(left + (right - left) * 0.24, gy + fh * 0.08,
+           (right - left) * 0.14, fh * 0.56,
+           fill=P['card'], stroke=P['ink'], r=4)                 # the freezer
+    f.line(left + (right - left) * 0.24, gy + fh * 0.30,
+           left + (right - left) * 0.38, gy + fh * 0.30, stroke=P['ink'], sw=2)
+    # second floor: a door with the switch beside it
+    sy = top + (floors - 3) * fh
+    f.rect(left + (right - left) * 0.60, sy + fh * 0.22,
+           (right - left) * 0.11, fh * 0.70,
+           fill=P['deep'], stroke=P['ink'], r=3)                 # the door
+    f.rect(left + (right - left) * 0.74, sy + fh * 0.36,
+           (right - left) * 0.045, fh * 0.20,
+           fill=P['card'], stroke=P['ink'], r=2)                 # the switch
+    # third floor: an open kitchen drawer with candles in it
+    ty = top + (floors - 4) * fh
+    f.rect(left + (right - left) * 0.62, ty + fh * 0.44,
+           (right - left) * 0.20, fh * 0.26,
+           fill=P['tanl'], stroke=P['ink'], r=3)
+    for k in range(3):
+        f.rect(left + (right - left) * (0.655 + k * 0.045), ty + fh * 0.50,
+               (right - left) * 0.016, fh * 0.14,
+               fill=P['bg'], stroke=P['ink'], r=1, sw=2)
+    # top floor: a cupboard with a box on its top shelf
+    uy = top
+    f.rect(left + (right - left) * 0.64, uy + fh * 0.16,
+           (right - left) * 0.22, fh * 0.66,
+           fill=P['bg'], stroke=P['ink'], r=3)
+    f.line(left + (right - left) * 0.64, uy + fh * 0.40,
+           left + (right - left) * 0.86, uy + fh * 0.40, stroke=P['ink'], sw=2)
+    f.rect(left + (right - left) * 0.68, uy + fh * 0.22,
+           (right - left) * 0.10, fh * 0.16,
+           fill=P['tan'], stroke=P['ink'], r=2)
 
 
 def week_page(f: Fig, x, y, w, h):

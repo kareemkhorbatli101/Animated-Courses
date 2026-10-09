@@ -1,5 +1,5 @@
 # B1's cast ledger. DERIVED from ../A2/ledgers/cast.yaml by
-# tools/make_b1_ledgers.py: the same fourteen people at the same address, two
+# tools/make_b1_ledgers.py: the same six people at the same address, two
 # years on. Every A2 fact is kept, because it is still true -- what Maya did at
 # A2 Unit 1 is what she did. Every age is raised by two, and the A2 age is
 # recorded in `ages_also`, so F04 accepts a sentence written at either level

@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  468
+  551
  ],
  "bounds": [
   51,
-  23.2,
+  27.3,
   1389,
-  445.2
+  523.3
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     134,
-    61.7,
+    75.0,
     360.0,
-    86.2
+    99.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     842.0,
-    61.7,
+    75.0,
     1051.3,
-    86.2
+    99.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     134,
-    169.2,
+    201.0,
     504.1,
-    193.6
+    225.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     134,
-    259.7,
+    310.0,
     587.0,
-    284.1
+    334.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 28,
    "bbox": [
     134,
-    293.7,
+    344.0,
     207.6,
-    318.1
+    368.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +75,9 @@
    "size": 28,
    "bbox": [
     134,
-    384.2,
+    453.0,
     494.1,
-    408.6
+    477.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -90,7 +90,7 @@
  "alt": "One correction worked through -- the wrong form struck out and the right one beside it -- and then three more sentences with an empty line for the learner to write the correct form.",
  "placed_in": [
   6.260416666666667,
-  2.03125
+  2.3958333333333335
  ],
- "sha256": "8e52000bf5a8d07706fcc0edfc48be50b2cd9a34081d86d05625660cc2828943"
+ "sha256": "84cd8f18eed69666c4ea45ed2cc920feecc8073b71e22af3949033eca534099d"
 }

@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  537
  ],
  "bounds": [
   53.0,
-  25.1,
+  26.6,
   1387.0,
-  481.1
+  510.6
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     72.2,
-    59.8,
+    62.4,
     358.3,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     424.5,
-    59.8,
+    62.4,
     679.0,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     789.4,
-    59.8,
+    62.4,
     987.1,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     1083.9,
-    59.8,
+    62.4,
     1365.6,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     335.9,
-    201.1,
+    202.6,
     420.1,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +75,9 @@
    "size": 34,
    "bbox": [
     982.6,
-    201.1,
+    202.6,
     1141.4,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +90,7 @@
  "alt": "The four sentences of this task as chips above two empty bins, one for what is sure and one for what is only possible. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.3333333333333335
  ],
- "sha256": "24c4f52f792dd4ec502dea66b1df425c2934b7931be3079c8785fe5ed4ed4ac5"
+ "sha256": "4e1708578057c18fe9ead7586e7a7fec56ac0d7ee00abf77daebb97e9a014900"
 }

@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 31 checks.
+"""G · Figures and visuals — 32 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -558,8 +558,17 @@ def g29(u, ctx):
     a finding too, or the list quietly rots into a list of places nobody
     looked."""
     fg = _fig(ctx, u)
-    if fg['per_unit'] != fg.get('dense_per_unit'):
-        return ok('SKIP: unit is not on the dense layout yet')
+    # The guard used to read `per_unit != dense_per_unit`, which is the A2
+    # transition mechanism: during phase 5 only the units named in
+    # `dense_units` carried 41 figures and the rest still carried 14, and a
+    # coverage law cannot be applied to a unit that has not been converted.
+    # B1 has no transition -- every unit is dense from Unit 1 -- so it declares
+    # no `dense_per_unit` at all, and the old guard made the coverage law skip
+    # SILENTLY at the level that most needed it. Gate on the layout the unit is
+    # actually measured against instead.
+    if fg['per_unit'] < len(ctx.spec['sections'][0]['subs']) * 2:
+        return ok(f"SKIP: unit carries {fg['per_unit']} figures, "
+                  f"not a one-per-sub-section layout")
     excused = {(e['part'], e['index'])
                for e in (ctx.spec['figures'].get('no_figure_subs') or [])}
     bad = []
@@ -673,3 +682,39 @@ def g32(u, ctx):
         if open(p, encoding='utf-8').read() != want:
             bad.append(f'{n}: stale render')
     return expect(not bad, '; '.join(bad))
+
+
+@check('G33', 'golden.figures',
+       'No figure drops a line that fit_lines produced for it')
+def g33(u, ctx):
+    """The truncation class, not the three instances that were noticed.
+
+    A figure job that calls `fit_lines` and then draws only `ll[0]` prints half
+    a label, and nothing else in this suite can see it: `G13` and `G14` measure
+    the glyphs that ARE drawn, `G22` reads the contrast the metadata claims,
+    and a line that was never drawn has neither glyphs nor metadata. It is the
+    same blind spot as the stale render `G32` exists for -- a check comparing
+    an artefact with itself.
+
+    Four jobs shipped with it in A2. `decision_fork` cut its question short in
+    every unit of both volumes; `grammar_contrast` cut four unit titles in half;
+    `sort_bins` dropped a chip's second line in eleven units; `timeline` and
+    `talk_shape` in three more. `figures.Fitted` records which lines the caller
+    actually read, so this check builds every figure and asks.
+    """
+    s = _skip_if_absent(ctx, u)
+    if s:
+        return s
+    mod = _figmod(ctx, u)
+    if mod is None:
+        return fail(f'no content/{ctx.book}/u{u.num:02d}_figures.py')
+    import figures as F
+    bad = []
+    for n, make in sorted(mod.FIGURES.items()):
+        F.fit_reset()
+        make()
+        dropped = F.fit_dropped()
+        if dropped:
+            bad.append(f'{n}: {dropped[:3]}')
+    return expect(not bad, f'{len(bad)} figure(s) print a label short: '
+                           f'{"; ".join(bad[:4])}')

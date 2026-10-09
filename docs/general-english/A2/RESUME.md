@@ -3,6 +3,65 @@
 Everything here is reproducible from the repository. If a session ends, a new
 one can pick up from this file alone.
 
+## 2026-10-09 — six defects found and fixed, and B1 started
+
+The work on B1 audited A2 and found six things A2 had shipped with. All six
+are fixed and A2 is green at a new total of **251 checks** on both volumes.
+Between them they re-ordered 44 closed tasks, re-rendered 40 stale figures,
+redrew 61 truncated ones, corrected both back covers, and rebuilt both books
+and both answer keys — without changing a word of the course.
+
+1. **The answer-shuffling defect.** 44 closed tasks were answerable without
+   being read: 4 of 140 matching tasks printed Column B in exactly Column A's
+   order (key `abcde`), 7 more had 3+ answers on the diagonal, 27 of 60 word
+   banks printed in answer order and 37 opened with the first answer as the
+   first bank word. Every one passed all 238 checks, because they were
+   *correct* — just free. New checks `C29` and `C30`; repaired by
+   `tools/fix_shuffle.py` (deterministic permutation, seeded from the heading)
+   and `tools/reorder_bank_figs.py` (the 42 affected `bank_strip` figures).
+2. **Forty stale figures.** `cue_cards` was changed so its card title fits
+   instead of overflowing at a fixed 34 px, and the figures were never
+   re-rendered. Slots 21 and 33 of all twenty units sat in the repository drawn
+   by the old code with `G23` green over all forty, because `G23` hashes each
+   PNG against the hash in its own sidecar. New check `G32` compares the SVG on
+   disk against what the current code draws.
+3. **Sixty-one truncated figures, in the shipped books.** `grammar_contrast`
+   called `fit_lines` and drew only the first line, so a two-line label printed
+   as half a label — Unit 17's read *“This book was made by”*. A grep found ten
+   more call sites with the same shape, and instrumenting `fit_lines` found
+   **five jobs across 61 of the 820 figures** doing it: `decision_fork` cut its
+   question in every unit of both volumes, `sort_bins` dropped a chip's second
+   line in eleven units, and `grammar_contrast`, `timeline`, `talk_shape` and
+   `error_pairs` in the rest. Several also overflowed their own cards, because
+   the layout was sized for the shortest plausible text. `G13`/`G14` measure
+   the glyphs that are drawn, so a line never drawn has nothing to measure.
+   New check **`G33`**: `figures.Fitted` records which lines the caller read,
+   and the check builds every figure and fails on any that dropped one.
+4. **`build_book` deleting the answer key.** The book build sweeps away any
+   older file sharing the volume's `EFDL-<level>.<vol>-<Title>-` prefix so a
+   rename leaves nothing behind. The answer key has the same prefix, so
+   building the book deleted it. A2 never noticed because `build_keys` always
+   ran second. `AnswerKey` is now excluded from the sweep.
+5. **The coverage law skipping at B1.** `G29` guarded itself on A2's phase-5
+   transition flag (`per_unit != dense_per_unit`), which B1 does not have, so
+   the one check that enforces "a figure in every sub-section" skipped
+   silently at B1. It now gates on the layout the unit is measured against.
+6. **A truncated ledger.** `ledgers/grammar.yaml` used unquoted YAML flow
+   values, so eight of the twenty `point` strings and two of the twenty `topic`
+   strings were silently cut at their first comma — Unit 19's topic read
+   *People* and Unit 20's read *News* — and `build_covers` printed the
+   truncated grammar list on the back cover of both volumes. Every value is now
+   quoted and the covers are rebuilt. Found by B1's `K19`, whose own mutation
+   fixture escaped because the key it looked for had been cut in half.
+
+**The toolchain is now shared with B1 rather than copied.** `B1/tools` is a
+symlink to `A2/tools`: `abspath` does not resolve symlinks and `__file__` keeps
+the path the import used, so the same code reads `A2/` from `A2/` and `B1/`
+from `B1/`. `tools/level.py` resolves level, volume, title and file prefix from
+a book code, and `K20` asserts that every one of A2's 820 figures is
+byte-identical under the shared toolchain. **A change to anything in `tools/`
+is now a change to A2 as well — run both levels' suites.**
+
 ## Where it stands: **complete**
 
 | | A2.1 *Everyday Life* | A2.2 *Out in the World* |
@@ -15,9 +74,9 @@ one can pick up from this file alone.
 | MCQ letters | balanced | A25 B25 C25 D25, chi² 0.00 |
 | Book | `build/EFDL-A2.1-EverydayLife-u01-10.docx` | `build/EFDL-A2.2-OutintheWorld-u11-20.docx` |
 
-Twenty units, 230 checks, 3,826 check executions at zero failures, 280 figures,
+Twenty units, 251 checks, 4,098 check executions at zero failures, 820 figures,
 200 glossary words, two covers, two full answer keys. The mutation suite reports
-212/212 caught, 0 escaped. Each unit also passed its own targeted pass of N×10
+230/230 caught, 0 escaped. Each unit also passed its own targeted pass of N×10
 executions, from 10 after Unit 1 to 200 after Unit 20.
 
 Run `python3 tools/runner.py` and `python3 tools/runner.py --book a22` to see the
@@ -73,7 +132,7 @@ a separate docx as well.
 6. `python3 tools/build_figures.py a2X && python3 tools/build_docx.py a2X &&
    python3 tools/build_covers.py a2X`
 7. `python3 tools/runner.py --book a2X` → drive to **0 FAIL**.
-8. `python3 tools/mutate.py a21` → must report **212/212 caught, 0 escaped**.
+8. `python3 tools/mutate.py a21` → must report **230/230 caught, 0 escaped**.
    Always a21: the fixtures are literal strings from that book and they test the
    shared check code, not a volume's prose (see `tools/mutations.py`).
 9. `python3 tools/targeted.py a2X NN` → N×10 executions, 0 failures.
@@ -318,7 +377,7 @@ figure is a finding too, or the list rots into a list of places nobody looked.
 ## Phase 6: A2.1 complete at 41 figures a unit
 
 All ten units of A2.1 are on the dense layout. **410 figures, 155 icons, 0
-failures across 238 checks.** The tooling that made it safe is in `tools/` and
+failures across 251 checks.** The tooling that made it safe is in `tools/` and
 is the thing to read before starting A2.2 or B1:
 
 ```
@@ -363,7 +422,7 @@ fifteen minutes, nearly all of it the build.
 
 ## Phase 7: A2.2 complete. The course is 820 figures.
 
-Both volumes, twenty units, 41 figures each, 0 failures across 238 checks.
+Both volumes, twenty units, 41 figures each, 0 failures across 251 checks.
 A2.1 is 492 pages, A2.2 is 502.
 
 A2.2's ten Pronunciation sections are written in a fifth shape -- `phrase —

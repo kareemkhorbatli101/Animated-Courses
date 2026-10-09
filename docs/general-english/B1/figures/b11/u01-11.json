@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  424
+ ],
+ "bounds": [
+  53,
+  21.0,
+  1387,
+  403.0
+ ],
+ "texts": [
+  {
+   "text": "Amina closed the shop at seven",
+   "size": 32,
+   "bbox": [
+    142,
+    53.9,
+    716.2,
+    82.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    86.6,
+    54.3,
+    105.4,
+    78.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina was closing the shop at seven",
+   "size": 32,
+   "bbox": [
+    142,
+    151.4,
+    809.6,
+    179.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    86.6,
+    151.8,
+    105.4,
+    176.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The lights went out",
+   "size": 32,
+   "bbox": [
+    142,
+    248.9,
+    493.1,
+    277.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    86.6,
+    249.3,
+    105.4,
+    273.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "She was somewhere in the middle of it",
+   "size": 32,
+   "bbox": [
+    142,
+    346.4,
+    843.8,
+    374.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    86.6,
+    346.8,
+    105.4,
+    371.2
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four lines of the notice with the verb ringed in each: closed, was closing, went, was. The ring is what a correct underlining looks like.",
+ "placed_in": [
+  6.260416666666667,
+  1.84375
+ ],
+ "sha256": "0db59a747ef7cb8dd4739375b4ddcc2014802ca1695dc588d35dbb731282a73f"
+}

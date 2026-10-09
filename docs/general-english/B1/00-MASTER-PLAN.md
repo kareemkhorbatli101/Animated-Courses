@@ -28,7 +28,8 @@ a defect.
 | 2 | **Visual parity** | clean — 41 a unit, 820 a course, same 41-slot law | unchanged |
 | 3 | **Structural parity** | clean — 42 subs, 110 headings, 11 parts, 5 tracks, CORE/PLUS | unchanged, and `K20` makes it checkable |
 | 4 | **Answer shuffling** | **DEFECT — and it is in A2, shipped** | §8e. Two new checks, 44 repairs in A2 before B1 Unit 1 is written |
-| 5 | **Passage lengths** | **two of five were too short for B1** | §3.3 revised: listening 110 → 130/150/190, Global Story 240 → 300, Close to Home 240 → 280 |
+| — | *(five further A2 defects, found while building Unit 1)* | **all five were silent** | §8f. `G32` and a fix each: 40 stale figures, four truncated figure titles in the shipped books, a truncated ledger printing on both back covers, the coverage law skipping at B1, and a book build that deleted its own answer key |
+| 5 | **Passage lengths** | **two of five were too short for B1** | §3.3 revised: listening 110 → 200/150/220, Global Story 240 → 300, Close to Home 240 → 280. The texts came out as planned; the apparatus estimate did not (§11) |
 | 6 | **CEFR-J comprehensiveness** | **6 of 29 B1 families had no home** | §4: `INTF` `EXCL` `IMP` `VP` `DT` `PPOS` absorbed, with an explicit disposition for each |
 | 7 | **Topic currency** | v1's topics were named after their grammar | §4: all twenty retitled to a concrete, current situation |
 | 8 | **Flow from A2 and within B1** | sound, but asserted rather than checked | `K19` tightened; §4a states the three spines explicitly |
@@ -49,16 +50,23 @@ checks so B1 cannot be born with it.
 
 ## 0 · The one-paragraph version
 
-A2 is finished: 20 units, 820 figures, 238 checks green on both volumes, 221 of 221
-mutations caught. B1 is the same shell — Warm Up + Parts 1–10, 42 sub-sections, 110
-bold headings, 41 figures, 5 audio tracks, CORE/PLUS — filled with B1 content and
-measured against a B1 band. **B1.1 — *Looking Back* (Units 1–10)** carries the past
-behind the past, what used to be and what might have been; **B1.2 — *Making Yourself
-Clear* (Units 11–20)** carries the passive, reporting, joining and explaining. The
-grammar spine is drawn from the 69 distinct B1 items in the CEFR-J Grammar Profile;
-the vocabulary band widens from 2,356 headwords to **4,530**, a measured 1.92×. The
-toolchain is not copied — it is promoted to a shared, level-aware layer, and A2 must
-come out of that move byte-identical before a word of B1 is written.
+**Unit 1 is built and this plan has been through it.** A2 is finished and, after
+five defects this work found in it, green at 251 checks on both volumes. B1 is
+the same shell — Warm Up + Parts 1–10, 42 sub-sections, 110 bold headings, 41
+figures, 5 audio tracks, CORE/PLUS — filled with B1 content and measured against
+a B1 band. **B1.1 — *Looking Back* (Units 1–10)** carries the past behind the
+past, what used to be and what might have been; **B1.2 — *Making Yourself Clear*
+(Units 11–20)** carries the passive, reporting, joining and explaining. The
+grammar spine covers all 29 CEFR-J B1 families and all 84 of their rows; the
+vocabulary band widens from 2,356 headwords to **4,530**, a measured 1.92×. The
+toolchain is not copied and not moved: `B1/tools` is a symlink, which costs one
+line and makes A2 byte-identical by construction rather than by gate.
+
+**Unit 1 measures 251 of 251 green, 7,598 prose words, 41 figures, 37 pages.**
+Three numbers in this plan were forecasts and came back wrong — the word budget
+by 1,397 words, the page count by five pages in the safe direction, and the
+`E27` floor by nearly 3×. All three are now measurements, with the forecast kept
+beside each one so the size of the error stays visible. §11 and §16.
 
 ---
 
@@ -313,10 +321,29 @@ A coursebook reading is worked through with a gloss, a vocabulary-in-context tas
 and a comprehension set, and A2's own ratio between its two readings (130 : 109)
 is kept. 300 for the flagship, 220 for the second.
 
-**Every number in that table is still a forecast.** Phase 4 builds Unit 1, measures
-it, and writes the measured value into `spec/golden.yaml` with the measurement beside
-it — exactly as A2's page envelope was raised three times, each time from a number
-rather than a guess. `K11`'s per-part tolerance is ±8% at the gate, as it is for A2.
+**Those numbers are now measured, and the forecast was wrong by 1,397 words.**
+Unit 1 is built and measures **7,598 prose words**, not 6,201 — 1.51× A2, not
+1.24×. The reason is one the forecast could not have caught and the measurement
+could: §3.3 derived each part's target by adding the growth of the one *text*
+inside it and **held the apparatus at A2's length**. At B1 the apparatus grows
+with the language, everywhere at once. A four-item gloss that defines B1 words
+needs a clause per item, not a phrase. An MCQ distractor that has to be
+plausible at B1 is a full clause — Part 5's twelve options alone are 90 words
+against A2's 40. A Column B row that distinguishes *grid* from *substation*
+cannot be six words. A 90–110-word writing task needs a model of that length, a
+four-row Plan and a four-box checklist. None of that is in the named texts and
+all of it is on the page.
+
+`spec/golden.yaml` now carries the measured value for every part, with the
+forecast kept beside it under `forecast:` so the size of the error stays
+visible, and a band of ±9% on a sample of one. The measured per-part figures
+are: Warm Up 432 · Part 1 749 · Part 2 673 · Part 3 857 · Part 4 412 · Part 5
+1,041 · Part 6 674 · Part 7 866 · Part 8 709 · Part 9 507 · Part 10 248.
+
+**What did NOT move:** the texts themselves. Every length decision in the table
+above was met — listening 209/166/196, readings 300/247, Global Story 300,
+Close to Home 266, writing models 108/103/107/90, 7B script 218, 7E model 116.
+The error was entirely in the apparatus estimate.
 
 ### 3.4 · The floor checks — the one genuinely new idea in this plan
 
@@ -331,24 +358,40 @@ make impossible.
 
 So B1 adds three floors, and they are the reason I am confident about level:
 
-- **`E27` — B1-tier share.** At least **6%** of running words must be CEFR-J B1-tier
-  and *not* reachable as A2 by the project's own `lexis.in_a2` (which also consults the
-  2,000 high-frequency list, so this is the strict reading). Measured across the twenty
-  A2 units: **0.1%–1.2%, mean 0.5%.** The floor is five times A2's maximum.
-- **`E28` — mean sentence floor.** At least **12.0** words. A2 measures 8.73–10.94.
+- **`E27` — the level's own-tier share. 2.2%, corrected from 6% at the Phase 4
+  gate.** At least **2.2%** of running words must be CEFR-J B1-tier and *not*
+  reachable as A2 by the project's own `lexis.in_band` (which also consults the
+  2,000 high-frequency list, so this is the strict reading).
+
+  **6% was wrong, and it was wrong in the way this section was written to
+  prevent.** It was set as five times A2's measured B1-tier share (0.1%–1.2%),
+  which is the wrong reference class entirely: that number says how little B1
+  vocabulary an A2 book uses, and nothing whatever about how much a B1 book can
+  carry. Unit 1, written to every other B1 bound, measures **3.24%**. 6% was not
+  a floor but a wall.
+
+  The right reference is how heavily a book draws on its **own** newest tier.
+  Measured across the twenty A2 units — A2-list words the 2,000-word frequency
+  list does not also reach — A2 carries **4.09% mean, 2.26% minimum, 6.58%
+  maximum**. So the floor is A2's own minimum: *a B1 unit must draw on the B1
+  tier at least as heavily as the thinnest A2 unit draws on A2's.* That is still
+  1.8× A2's measured B1-tier maximum, so `L01` holds, and Unit 1 clears it by
+  1.5×. The number to write to is ~4%, matching A2's mean.
+- **`E28` — mean sentence floor.** At least **12.0** words. A2 measures 8.73–11.19
+  (the upper figure re-measured after the shuffling repair). Unit 1 measures 15.5.
 - **`E29` — reading-grade floor.** Flesch–Kincaid at least **5.5**. A2 measures
   3.14–4.61 — and 5.5 is above A2's own *ceiling* of 5.0, so B1 is required to start
   where A2 was forbidden to go. That is the cleanest statement of the level step in
-  the whole spec.
+  the whole spec. Unit 1 measures 6.61.
 
 **These three numbers are not proposals. They were calibrated against all twenty A2
-units while this plan was being written**, and the first two values I tried were
-wrong:
+units**, and all three first values were wrong — two found while the plan was being
+written, the third only when Unit 1 was built against it:
 
 | Floor | First tried | A2 max | Result | Corrected to |
 |---|---|---|---|---|
-| `E27` B1-tier share | 6% | 1.2% | every A2 unit fails, margin 5× | **6%** — kept |
-| `E28` mean sentence | 11.0 | 10.943 | every A2 unit fails — **by 0.057 words** | **12.0**, margin 1.06 |
+| `E27` own-tier share | 6% | 1.2% | every A2 unit fails — and so does every *B1* unit. The wrong reference class; see above | **2.2%**, A2's own-tier minimum |
+| `E28` mean sentence | 11.0 | 11.19 | every A2 unit fails — **by 0.057 words on the first measurement** | **12.0**, margin 1.07 |
 | `E29` Flesch–Kincaid | 4.5 | 4.609 | **one A2 unit passes** — not a floor at all | **5.5**, margin 0.89 |
 
 A floor one unit clears by 0.06, or that one unit passes outright, is a coin flip, not
@@ -550,7 +593,7 @@ marking points and sample answers grow with them.
 
 ---
 
-## 8 · The checks — 238 inherited, 13 changed, 12 new
+## 8 · The checks — 238 inherited, 13 changed, 13 new
 
 B1 does not get a new check suite. It gets **the same suite**, because a second suite
 is a second standard and that is the definition of drift. 238 checks carry over as
@@ -580,7 +623,7 @@ human judgement rather than pass or fail on their own.
 | `J15` | pages a volume | 230–520 | **forecast 330–560, locked at Phase 4** |
 | `F12` | Part 8 countries | A2's twenty | **B1's twenty** (§4) |
 
-### 8c · New — 12, taking the suite to 250
+### 8c · New — 13, taking the suite to 251
 
 | New | Family | What it enforces | Why it must exist |
 |---|---|---|---|
@@ -597,8 +640,17 @@ human judgement rather than pass or fail on their own.
 | `G31` | Figures | the four new jobs draw what their slot's spec says | Matches `G19`–`G21`, which do this for `label_me`, `category_set` and `process_strip`. |
 | `L01` | Level | the three floors were calibrated against A2 and **every A2 unit fails them** | A floor nothing fails is not a floor. This is the check that checks the checks. |
 
-Each of the twelve gets a mutation fixture, so the mutation suite goes **221 → 233**,
-and `K15` ("every non-gate check has a negative test") holds unchanged.
+Each of the thirteen gets a mutation fixture, so A2's mutation suite goes
+**221 → 229** and B1's own set carries the remaining four, which A2 structurally
+cannot test. `K15` ("every non-gate check has a negative test") holds unchanged
+at both levels, and `mutations.CROSS_LEVEL` names the four with their reason
+rather than leaving them quietly uncovered.
+
+**One of those four found a fifth defect.** `K19`'s own fixture escaped,
+because the key it was looking for had been cut in half — `keys()` stripped the
+punctuation out of a grammar point BEFORE splitting on it, so every A2 point
+collapsed to one long string no text could contain and the check could not
+fail. Fixing it exposed the truncated ledger in §8f.
 
 **`C29` and `C30` are the only two of the twelve that are not B1-specific.** They are
 A2 bugs, found by this audit, and they go into the shared suite — which means A2 goes
@@ -642,10 +694,43 @@ re-drawn until it satisfies `C29`/`C30`. Because `figure_source.py` reads the
 grids and the *"word bank … in the order it is printed"* strips) regenerate correctly
 with no hand work. Nothing else in either volume moves.
 
-**Gate.** This lands as one commit with `C29`, `C30` and their two mutation fixtures:
-both A2 volumes **240/240 green, 223/223 mutations caught**, every unaffected figure
-byte-identical, and the 44 repaired figures re-rendered from the repaired source. If
-that gate is not met, B1 does not start.
+**Gate — met.** It landed with `C29`, `C30` and their two mutation fixtures, and
+the repair came out at **7 matching tasks and 42 word banks**, not the 7 and 37 the
+first count gave: `C30` grew a third clause during the work, because a bank can avoid
+being in answer order and still have most of its words standing exactly where their
+own answer stands, which is the same giveaway spread out.
+
+### 8f · Five more A2 defects, found the same way
+
+§8e's shuffling defect was the first thing the audit turned up. Five more came
+out of actually building Unit 1 against the shared toolchain, and each one had
+been invisible for the same structural reason: the check that should have seen
+it was measuring the artefact against *itself*, or there was no check at all.
+
+| | What | Why nothing saw it | Fixed by |
+|---|---|---|---|
+| **2** | **40 stale figures.** `cue_cards` was changed in the A2.2 commit so its card title fits instead of overflowing at a fixed 34 px. The figures were never re-rendered, so slots 21 and 33 of all twenty units sat in the repository drawn by the old code. | `G23` hashes each PNG against the hash in its **own sidecar**, so it proves the file has not been corrupted since it was written. It cannot see a code change that was never rendered. | new check **`G32`**: compare the SVG on disk with the SVG the current content module and figure code produce |
+| **3** | **A truncated ledger.** `ledgers/grammar.yaml` used unquoted YAML flow values, so eight of twenty `point` strings and two of twenty `topic` strings were silently cut at their first comma. Unit 19's topic read *People*; Unit 20's read *News*. `build_covers` had been printing the cut-off grammar list on the back cover of **both volumes**. | Nothing compared the ledger against anything. | every value quoted; both covers rebuilt |
+| **4** | **Sixty-one truncated figures, in the shipped books.** `grammar_contrast` called `fit_lines` and drew only `ll[0]`, so a label one word too long printed as half a label — A2 Unit 17's figure read *“This book was made by”*. Fixing that one exposed a pattern: a grep found ten more call sites with the same shape, and instrumenting `fit_lines` found that **five jobs across 61 of A2's 820 figures were printing a label short**. `decision_fork` cut its question in **every unit of both volumes**; `sort_bins` dropped a chip's second line in eleven; `grammar_contrast` in four; `timeline`, `talk_shape` and `error_pairs` in the rest. Several also overflowed their own cards, because the layout was sized for the shortest plausible text. | `G13` and `G14` measure the glyphs that **are** drawn; `G22` reads the contrast the metadata claims. A line that was never drawn has neither glyphs nor metadata. | all six jobs now draw every line and size the element to hold it. New check **`G33`**: `figures.Fitted` records which lines the caller read, and the check builds every figure and fails on any that dropped one — the class, not the instances. |
+| **5** | **`build_book` deleting the answer key.** The book build removes any older file sharing the volume's `EFDL-<level>.<vol>-<Title>-` prefix, so that a rename does not leave the previous unit span behind. The answer key carries the same prefix, so building the book deleted it. A2 never noticed because `build_keys` always happened to run second; building the book and then looking for the key loses the file. | Nothing checks `build/` for a file that should be there and is not. | exclude `AnswerKey` from the sweep |
+| **6** | **The coverage law skipping at B1.** `G29` guarded itself with `per_unit != dense_per_unit`, which is A2's phase-5 transition mechanism. B1 has no transition — every unit is dense from Unit 1 — so it declares no `dense_per_unit`, and the one check that enforces "a figure in every sub-section" skipped silently at the level that most needed it. | A skip is not a failure. | gate on the layout the unit is measured against, not on the transition flag |
+
+**What they have in common is worth more than any of them.** Four were checks
+comparing something to itself: a PNG to its own sidecar, a
+drawn glyph to its own metadata, a check to its own skip condition. The fifth,
+the shuffling defect, was a set of tasks that were individually *correct*. None
+of them was a hard failure anywhere.
+
+That is the shape of defect this suite is worst at, and the three new checks
+that close it — `G32`, `K20` and `G33` — are the first in it that compare an
+artefact with something other than itself: the SVG with the code that should
+have drawn it, A2's figures with the shared toolchain, and what a figure drew
+with what it was given to draw.
+
+**And it is worth saying how much of A2 this moved.** 44 closed tasks
+re-ordered, 40 stale figures re-rendered, 61 truncated figures redrawn, both
+back covers corrected, both books and both answer keys rebuilt. None of it
+changes a word of the course. All of it changes what a learner sees.
 
 ### 8d · The no-regression register for B1
 
@@ -749,15 +834,15 @@ B1 Unit 1 would be written against a suite that does not yet have `C29`/`C30`.
 
 | Phase | What | Gate |
 |---|---|---|
-| **0a** | **Fix the A2 shuffling defect (§8e).** Add `C29`, `C30` and their two mutation fixtures. Permute the 7 matching tasks and 37 word banks, rewrite the affected keys, regenerate the affected figures. | Both A2 volumes **240/240**, mutations **223/223**, every unaffected figure byte-identical. |
+| **0a** | **Fix the A2 shuffling defect (§8e).** Add `C29`, `C30` and their two mutation fixtures. Permute the matching tasks and word banks, rewrite the affected keys, regenerate the affected figures. | Both A2 volumes green, every unaffected figure byte-identical. **Met** — 7 matching tasks and 42 word banks repaired. |
 | **0b** | **Share the toolchain (§9).** One symlink, five data edits. | 820 A2 figure hashes identical, 2 book hashes identical, 240×2 checks green. `K20` added. |
 | **1** | The B1 spec. Derive both wordlists from the CEFR-J CSV. Grammar ledger from the B1 profile, **every one of the 84 rows carrying a `taught`/`recycled` disposition (§4a)**. Cast ledger seeded from A2's final state, ages +2. The twenty countries. `golden.yaml` with §3.3's forecast envelopes, hash-locked. | The spec loads, the hash locks, `K01` and `K21` green. Wordlist derivation reproduces A2's shipped list at ≥ 99%. |
-| **2** | The checks. 13 spec changes, 10 remaining new checks, 10 mutation fixtures. **Calibrate the three floors against the twenty A2 units.** | **250** checks registered; `L01` proves every A2 unit fails all three floors; mutation suite **233/233**. |
+| **2** | The checks. 13 spec changes, 10 remaining new checks, the fixtures. **Calibrate the three floors against the twenty A2 units.** | **251** checks registered; `L01` proves every A2 unit fails all three floors; A2's mutation suite **229/229** and B1's own **4/4**. |
 | **3** | Covers and front matter for both volumes. | `I01`–`I12` green on four covers. |
-| **4** | **Unit 1, end to end — the calibration and review gate.** Markdown, key, 41 figures, build, both suites. Then **measure it** and replace every forecast in §3.3, `H21` and `J15` with the measured value. | **250/250** on Unit 1. The spec's forecasts are gone, replaced by numbers. **I stop here and show you one finished unit before building nineteen more.** |
-| **5** | Units 2–10. Build B1.1. | 250/250 on the volume; page and size envelopes hold. |
+| **4** | **Unit 1, end to end — the calibration and review gate.** Markdown, key, 41 figures, build, both suites. Then **measure it** and replace every forecast in §3.3, `H21` and `J15` with the measured value. | **251/251** on Unit 1. The spec's forecasts are gone, replaced by numbers. **I stop here and show you one finished unit before building nineteen more.** |
+| **5** | Units 2–10. Build B1.1. | 251/251 on the volume; page and size envelopes hold. |
 | **6** | Units 11–20. Build B1.2. | Same, plus `F19` (no glossary collision with A2) and `K19` (A2 spine recycled). |
-| **7** | Release. Both books, both keys, twenty single units, covers, reports, `DOWNLOADS.md`, every link verified by download. | Both volumes 250/250, mutations 233/233, **A2 still 240/240**. |
+| **7** | Release. Both books, both keys, twenty single units, covers, reports, `DOWNLOADS.md`, every link verified by download. | Both volumes 251/251, mutations 229/229 + 4/4, **A2 still 251/251**. |
 
 **The per-unit loop**, unchanged from the one that built A2's last nineteen units:
 
@@ -773,33 +858,40 @@ build_figures / build_docx / runner # render, build, check
 
 ---
 
-## 11 · Page and size forecast — **revised in v2**
+## 11 · Page and size — **measured at the Phase 4 gate, 2026-10-09**
 
-The prose lift is 1.24×, not v1's 1.12× (§3.3), so these move with it.
+Unit 1 is built, so these are no longer forecasts. Two of them were wrong, in
+opposite directions, and both corrections are instructive.
 
-| | A2 measured | B1 forecast | Basis |
-|---|---|---|---|
-| Prose words a unit | 5,016 | **6,201** | §3.3 |
-| Words a unit incl. captions | 5,554 | **6,740** | +538 captions, unchanged |
-| Pages a unit | 37.2 | **42–43** | +1,185 prose words ≈ +4.6 pages at A2's measured density; figure area unchanged |
-| Pages a volume | 492 / 502 | **~565** | ten units plus front matter, covers and the bound key |
-| Student text, course | 111,000 | **~124,000** | 20 × 6,201 |
-| Answer key, course | 62,000 | **~78,000** | marking points scale with 90–120-word writing tasks |
-| Printed pages, course | 994 | **~1,130** | both volumes |
-| Book DOCX | 17.4 / 17.6 MB | **~18 MB** | same 410 figures a volume, same canvas |
-| Book PDF | 20.5 / 20.5 MB | **~21 MB** | same |
-| `release/` added | 150 MB (A2, both volumes) | **+150 MB** | four books, four keys, twenty single units |
+| | A2 measured | B1 v2 forecast | **B1 measured** | What the gap was |
+|---|---|---|---|---|
+| Prose words a unit | 5,016 | 6,201 | **7,598** (1.51×) | the forecast held the APPARATUS at A2's length (§3.3) |
+| Words a unit incl. captions | 5,554 | 6,740 | **8,149** | as above; captions 551, exactly as planned |
+| **Pages a unit** | 37.2 | 42–43 | **37** | 41 figures set the page count almost on their own |
+| Pages, bound answer key | — | — | **15** a unit | measured |
+| Pages, covers + front matter | — | — | **4** | measured on the one-unit volume |
+| Pages a volume | 492 / 502 | ~565 | **~524** derived | 10 × 37 + 10 × 15 + 4 |
+| Unit DOCX | — | — | **1.9 MB** | 41 figures |
+| Unit PDF | — | — | **2.1 MB** | |
+| Volume DOCX | 17.4 / 17.6 MB | ~18 MB | **~19 MB** forecast | 2.3 MB at one unit, scaling the figure payload |
 
-The envelopes go into the spec as `pages_per_unit: 36–50` and `pages_per_volume:
-350–620` — deliberately wide, because they are forecasts — and are **narrowed to the
-measurement at the Phase 4 gate.** A2's page envelope was raised three times during
-its build, each time from a number; B1's will be narrowed once, from a number.
+**The page forecast was wrong in the safe direction, and the reason is worth
+keeping.** B1 carries half again as much prose as A2, and the page count does
+not move at all: A2 measures 37.2 pages a unit and B1 measures 37. At 41
+figures a unit the figures set the page count almost on their own, and the
+extra text fills white space that was already sitting between them. That also
+means the next lever on page count is the figure layout, not the word budget.
 
-**One thing worth saying plainly:** `release/` already holds 150 MB and B1 doubles it.
-GitHub Releases remain the right answer and are still not reachable from this
-session's tool set. If repository size matters to you, the lever is to ship PDFs only
-in `release/` and leave DOCX to the build — that halves it. Your call; the default is
-to match A2 exactly.
+`spec/typography.yaml` now carries `pages_per_unit: 34–44` — the measurement
+plus 18% either way, narrowed from the forecast 36–50 — and
+`pages_per_volume: 440–600`, derived from the two measurements rather than
+guessed. Both narrow again when Units 2–10 exist.
+
+**One thing worth saying plainly:** `release/` already holds 150 MB for A2 and
+B1 roughly doubles it. GitHub Releases remain the right answer and are still
+not reachable from this session's tool set. If repository size matters to you,
+the lever is to ship PDFs only in `release/` and leave DOCX to the build —
+that halves it. Your call; the default is to match A2 exactly.
 
 ---
 
@@ -825,11 +917,11 @@ to match A2 exactly.
 
 B1 is done when, and only when:
 
-1. Both volumes: **250 of 250 checks green**, zero failures, every adjudication gate
+1. Both volumes: **251 of 251 checks green**, zero failures, every adjudication gate
    answered.
-2. Mutation suite: **233 of 233 caught, 0 escaped, 0 broken.**
+2. Mutation suite: **A2's 229 of 229 caught and B1's 4 of 4**, 0 escaped, 0 broken.
 3. **A2 still green and byte-identical** — `K20` green — at its new total of
-   **240/240**, i.e. including `C29` and `C30` (§8e).
+   **251/251**, i.e. including `C29`, `C30` and `G32` (§8e, §8f).
 4. Every unit: 41 figures, 42 sub-sections, 110 bold headings, 60 closed items, 10
    glossary words, 5 audio tracks, 5 writing tasks.
 5. Every unit clears all three level floors and all five ceilings.
@@ -874,9 +966,9 @@ not a cross-reference. Three came back clean.
 **1 · How many volumes, how many units each?**
 **Two volumes, ten units each, twenty in total** — identical to A2. B1.1 *Looking
 Back* is Units 1–10; B1.2 *Making Yourself Clear* is Units 11–20. The reason is not
-symmetry: ten units of 42 sub-sections and 41 figures is 565 pages and ~18 MB of
-DOCX, which is already at the limit of what binds and opens comfortably. Eleven would
-not. ✅ **clean**
+symmetry: ten units of 42 sub-sections and 41 figures is, on Unit 1's measurement,
+about 524 pages and ~19 MB of DOCX, which is already at the limit of what binds and
+opens comfortably. Eleven would not. ✅ **clean**
 
 **2 · Does the plan have the same level of extensive visuals?**
 Yes, to the figure: **41 a unit, 820 a course**, the same 41-slot layout, the same
@@ -907,9 +999,11 @@ longer than A2's longest. The Global Story and Close to Home at 240 were short f
 same reason: nobody had measured A2's, which are 135 and 133. v2 measured every
 continuous text in all twenty A2 units (§2c) and reset the targets from them:
 listening **200 / 150 / 220**, readings **300 / 220**, Global Story **300**, Close to
-Home **280**, writing models **105 / 100 / 100 / 90**. The longest text in a B1 unit
-goes from A2's measured 152 words to **300** — 1.97× on the single thing that most
-decides how a level *feels*. ❌ **two targets wrong — corrected (§3.3)**
+Home **280**, writing models **105 / 100 / 100 / 90**. Unit 1 came in on every one of
+them: 209 / 166 / 196, 300 / 247, 300, 266, 108 / 103 / 107 / 90. The longest text in
+a B1 unit goes from A2's measured 152 words to **300** — 1.97× on the single thing
+that most decides how a level *feels*. ❌ **two targets wrong — corrected and then
+hit (§3.3, §11)**
 
 **5 · Are the topics current, interesting and engaging?**
 v1's were not, and the reason is diagnosable: **every topic was named after its
@@ -958,20 +1052,60 @@ unchanged, so structural parity is not a promise in this plan, it is a gate. ✅
 
 ---
 
-## 16 · What I need from you
+## 16 · Where Unit 1 actually landed
 
-Nothing, to start. Phase 0a is unambiguous and is already underway: the A2 defect is
-real, measured, and should be fixed whatever you decide about B1. These five still
-want an answer before Phase 5 commits nineteen more units:
+Built, measured, green. Read this before §17.
 
-1. **Do you have a B1 coursebook to measure?** (§1.) If yes, drop it in
-   `B1/source/` and Phase 1 measures it; if no, Route B stands and Phase 4 locks the
-   numbers.
-2. **Volume titles** — *Looking Back* and *Making Yourself Clear*, or your own.
-3. **The twenty titles and twenty countries** in §4 — any you want changed.
+| | |
+|---|---|
+| Checks | **251 of 251, 0 FAIL**, 13 adjudication gates answered, 3 skips |
+| Prose words | 7,598 against a forecast of 6,201 — §3.3 and §11 |
+| Figure captions | 551 words, inside the 480–625 allowance |
+| Figures | 41, all rendered, preflight clean |
+| Pages | 37 for the unit, 15 for its key, 56 for the one-unit volume |
+| Mean sentence | 15.5 — inside the 12.0–16.0 corridor |
+| Flesch–Kincaid | 6.61 — inside the 5.5–7.0 corridor |
+| B1-tier share | 3.24% against a floor of 2.2% and A2's own-tier mean of 4.09% |
+| Off-band words left unglossed | 0 |
+| Glossary words shared with A2 | 0 |
+
+**Three skips, and all three are honest.** `J15` and `J17` are per-*volume*
+envelopes and cannot be measured against one unit of ten, so they report what
+they see and stand down. `G29` is the coverage law; it ran, and passed — the
+skip in the first run was the §8f defect.
+
+**The one number I would watch.** The mean-sentence corridor is narrow and it
+is arithmetic, not taste: `FK = 0.39 × mean + 11.8 × syllables − 15.59`, so at
+Unit 1's measured 1.37 syllables a word the ceilings and floors together admit
+a mean between **12.4 and 16.3 words**. The first draft of Unit 1 came in at
+19.5 and the over-correction at 11.8 — failing in both directions before it
+settled at 15.5. `RESUME.md` says so where the next unit will be written.
+
+---
+
+## 17 · What I need from you
+
+**Phase 0 and Phase 4 are done, so the only thing waiting is your read of Unit
+1.** Everything below Unit 1 — the spec, the ledgers, the checks, the covers,
+the toolchain — is built and green, and A2 is rebuilt and green with six
+defects out of it. Units 2–10 are the next commitment, and these five want an
+answer before I make it:
+
+1. **Read Unit 1.** `B1/DOWNLOADS.md` has one-click links. The thing most worth
+   your eye is whether it *reads* as B1 — the checks can tell you the sentences
+   average 15.5 words and the reading grade is 6.6, and they cannot tell you
+   whether a learner coming off A2 Unit 20 would open this and feel the step.
+2. **Do you have a B1 coursebook to measure?** (§1.) If yes, drop it in
+   `B1/source/` and §3's numbers are replaced by that book's. If no, Route B
+   stands — and Unit 1 has now replaced the three forecasts that mattered.
+3. **Volume titles** — *Looking Back* and *Making Yourself Clear*, or your own.
+   **The twenty unit titles and twenty countries** in §4 — any you want changed.
+   Both are cheap to change now and expensive after Unit 10.
 4. **`release/` size** — match A2 exactly (+150 MB), or PDFs only (+75 MB)?
-5. **Anything in §3.2 you want set differently** — particularly the 32-word sentence
-   cap and the 7.0 reading-grade ceiling, which are the two numbers that most decide
-   how B1 *feels* — and the three floors in §3.4, which decide whether it is B1 at all.
+   A2's `release/` is already 150 MB and B1's will be comparable.
+5. **The two numbers that most decide how B1 feels**: the 32-word sentence cap
+   and the 7.0 reading-grade ceiling (§3.2). Unit 1 sits at a 15.5-word mean
+   and FK 6.61, so there is room in both directions, and moving either one
+   moves every unit after it.
 
-Silence on 2–5 means I proceed as written; silence on 1 means Route B.
+Silence on 3–5 means I proceed as written; silence on 2 means Route B.

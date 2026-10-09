@@ -1,0 +1,324 @@
+{
+ "canvas": [
+  1440,
+  526
+ ],
+ "bounds": [
+  47.0,
+  26.1,
+  1393.0,
+  500.1
+ ],
+ "texts": [
+  {
+   "text": "Student A",
+   "size": 32,
+   "bbox": [
+    270.1,
+    63.7,
+    449.9,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    118.2,
+    281.6,
+    166.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "landing",
+   "size": 26,
+   "bbox": [
+    87.7,
+    313.6,
+    197.3,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "at 7.20",
+   "size": 26,
+   "bbox": [
+    90.9,
+    345.6,
+    194.1,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "two",
+   "size": 26,
+   "bbox": [
+    260.4,
+    281.6,
+    314.6,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "bags on",
+   "size": 26,
+   "bbox": [
+    229.7,
+    313.6,
+    345.3,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the step",
+   "size": 26,
+   "bbox": [
+    226.6,
+    345.6,
+    348.4,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nobody",
+   "size": 26,
+   "bbox": [
+    378.3,
+    281.6,
+    486.7,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "holding",
+   "size": 26,
+   "bbox": [
+    377.5,
+    313.6,
+    487.5,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a light",
+   "size": 26,
+   "bbox": [
+    385.5,
+    345.6,
+    479.5,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "three",
+   "size": 26,
+   "bbox": [
+    538.0,
+    281.6,
+    617.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "doors",
+   "size": 26,
+   "bbox": [
+    536.2,
+    313.6,
+    618.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "shut",
+   "size": 26,
+   "bbox": [
+    545.0,
+    345.6,
+    610.0,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Student B",
+   "size": 32,
+   "bbox": [
+    990.3,
+    63.7,
+    1169.7,
+    91.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the",
+   "size": 26,
+   "bbox": [
+    838.2,
+    281.6,
+    886.8,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "landing",
+   "size": 26,
+   "bbox": [
+    807.7,
+    313.6,
+    917.3,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "at 7.30",
+   "size": 26,
+   "bbox": [
+    810.9,
+    345.6,
+    914.1,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the bags",
+   "size": 26,
+   "bbox": [
+    943.6,
+    281.6,
+    1071.4,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "gone",
+   "size": 26,
+   "bbox": [
+    971.2,
+    313.6,
+    1043.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one",
+   "size": 22,
+   "bbox": [
+    1129.7,
+    284.7,
+    1175.3,
+    304.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "candle on",
+   "size": 22,
+   "bbox": [
+    1092.4,
+    312.7,
+    1212.6,
+    332.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the rail",
+   "size": 22,
+   "bbox": [
+    1107.7,
+    340.7,
+    1197.3,
+    360.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "three",
+   "size": 26,
+   "bbox": [
+    1258.0,
+    281.6,
+    1337.0,
+    305.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "doors",
+   "size": 26,
+   "bbox": [
+    1256.2,
+    313.6,
+    1338.8,
+    337.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "open",
+   "size": 26,
+   "bbox": [
+    1261.2,
+    345.6,
+    1333.8,
+    369.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Student A has the landing at twenty past seven and Student B has the same landing ten minutes later, with a fold line between them, so each student sees only their own picture and has to describe it to find the differences.",
+ "placed_in": [
+  6.260416666666667,
+  2.2916666666666665
+ ],
+ "sha256": "d666d7a20c107cfe39f81cc09ef534c1abb23c3212c7007c2d757a13adb1d9c7"
+}

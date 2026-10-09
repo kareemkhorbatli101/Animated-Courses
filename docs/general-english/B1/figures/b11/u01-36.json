@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  397
+ ],
+ "bounds": [
+  51.0,
+  19.7,
+  1389.0,
+  377.7
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    78.6,
+    45.2,
+    97.4,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Heatwave",
+   "size": 30,
+   "bbox": [
+    92.8,
+    330.9,
+    260.8,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    350.2,
+    45.2,
+    369.0,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Transformer",
+   "size": 30,
+   "bbox": [
+    345.3,
+    330.9,
+    551.5,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    621.8,
+    45.2,
+    640.6,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Shift",
+   "size": 30,
+   "bbox": [
+    679.7,
+    330.9,
+    760.3,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    893.4,
+    45.2,
+    912.2,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Saucer",
+   "size": 30,
+   "bbox": [
+    933.5,
+    330.9,
+    1049.7,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5",
+   "size": 27,
+   "bbox": [
+    1165.0,
+    45.2,
+    1183.8,
+    69.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Queue",
+   "size": 30,
+   "bbox": [
+    1208.7,
+    330.9,
+    1317.7,
+    357.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 5,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five words from the global story as numbered picture cards: heatwave, transformer, shift, saucer, queue.",
+ "placed_in": [
+  6.260416666666667,
+  1.7291666666666667
+ ],
+ "sha256": "04c15dfadcde3d1d4293beedb155b03d00ee0aed497ddc123d0ed8486cbf4c61"
+}

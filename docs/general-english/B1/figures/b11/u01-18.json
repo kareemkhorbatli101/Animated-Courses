@@ -1,0 +1,228 @@
+{
+ "canvas": [
+  1440,
+  517
+ ],
+ "bounds": [
+  57,
+  25.6,
+  1383,
+  491.6
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 27,
+   "bbox": [
+    92.6,
+    88.5,
+    111.4,
+    112.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Dani",
+   "size": 30,
+   "bbox": [
+    240,
+    88.1,
+    316.8,
+    114.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 27,
+   "bbox": [
+    92.6,
+    247.1,
+    111.4,
+    271.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 30,
+   "bbox": [
+    240,
+    246.8,
+    450.0,
+    273.4
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    405.8,
+    111.4,
+    430.3
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Yuki",
+   "size": 30,
+   "bbox": [
+    240,
+    405.4,
+    311.1,
+    432.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    70.6,
+    783.4,
+    95.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "saw something outside that",
+   "size": 28,
+   "bbox": [
+    814,
+    54.6,
+    1255.1,
+    79.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody else",
+   "size": 28,
+   "bbox": [
+    814,
+    86.6,
+    1004.7,
+    111.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    189.1,
+    784.0,
+    213.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "noticed nothing at first",
+   "size": 28,
+   "bbox": [
+    814,
+    189.1,
+    1180.0,
+    213.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    307.6,
+    782.3,
+    332.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "went out of the flat rather than",
+   "size": 28,
+   "bbox": [
+    814,
+    291.6,
+    1311.0,
+    316.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stay",
+   "size": 28,
+   "bbox": [
+    814,
+    323.6,
+    880.3,
+    348.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    426.1,
+    784.0,
+    450.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "went downstairs to ask the",
+   "size": 28,
+   "bbox": [
+    814,
+    410.1,
+    1244.4,
+    434.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "shopkeeper",
+   "size": 28,
+   "bbox": [
+    814,
+    442.1,
+    998.6,
+    466.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Three cards on the left and four on the right for the learner to join. One of the right-hand options is not wanted, and it is drawn so the spare one is visible rather than implied.",
+ "placed_in": [
+  6.260416666666667,
+  2.25
+ ],
+ "sha256": "97ad472c7bb7622b64c56d565c8167b094ba584d90742a49fe0d95866654329c"
+}

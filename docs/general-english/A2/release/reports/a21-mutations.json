@@ -1,6 +1,6 @@
 {
- "total": 221,
- "caught": 221,
+ "total": 228,
+ "caught": 228,
  "escaped": [],
  "deferred": [
   "F08",
@@ -8,5 +8,10 @@
   "J13",
   "J14"
  ],
- "broken": []
+ "broken": [
+  {
+   "id": "G26",
+   "why": "check was already red before mutation"
+  }
+ ]
 }

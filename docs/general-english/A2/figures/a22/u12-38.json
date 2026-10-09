@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  629
+  687
  ],
  "bounds": [
   47.0,
   30,
   1393.0,
-  599.2
+  657
  ],
  "texts": [
   {
@@ -198,7 +198,7 @@
  "alt": "The decision task as one question and three branches, with what each one costs: do nothing until you are sure, and by then the water is in the shop; do the small cheap thing now for ten minutes of work and the risk of feeling silly; or warn everybody else as well.",
  "placed_in": [
   6.260416666666667,
-  2.7395833333333335
+  2.9895833333333335
  ],
- "sha256": "96e139221a90c46384ec90d40ae4d23a3cc66f07bb61f2473d6557cb27ebc81b"
+ "sha256": "23cda3f5d68f038c847343e3c50e6746818789c27b2fbdc9c32fb060300ecb6b"
 }

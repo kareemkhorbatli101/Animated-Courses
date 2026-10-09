@@ -13,6 +13,21 @@ import os, re
 # The order matters: the first key found in the label wins, so longer and more
 # specific keys come first within each block.
 MAP = [
+    # ----------------------------------------------- B1 vocabulary (Units 1-20)
+    # Added for B1 Unit 1. A label that IS an icon name needs no entry (switch,
+    # meter, bulb, cable, stairs, road, laptop, ear, spark are drawn glyphs), so
+    # these are the synonyms only.
+    ('power cut', 'spark'), ('electricity', 'spark'), ('candle', 'lamp'),
+    ('darkness', 'moon'), ('freezer', 'fridge'), ('supply', 'cable'),
+    ('basement', 'stairs'), ('plug', 'cable'), ('kettle', 'cup'),
+    ('silence', 'ear'), ('grid', 'network'), ('substation', 'meter'),
+    ('demand', 'scales'), ('fault', 'warning'), ('heatwave', 'sun'),
+    ('transformer', 'meter'), ('saucer', 'cup'), ('queue', 'crowd'),
+    ('generator', 'factory'), ('ward', 'hospital'), ('backup', 'battery'),
+    ('while', 'clock'), ('was serving', 'shop'), ('staircase', 'stairs'),
+    ('fund', 'coins'), ('job number', 'sign_number'), ('reach', 'hands'),
+    ('agree', 'tick'), ('decide', 'list'), ('prepare', 'list'),
+    ('accident', 'warning'), ('interrupted', 'zigzag'),
     ('careful', 'magnifier'), ('might', 'question'), ('reason', 'question'),
     ('should', 'list'), ('where', 'pin'), ('who', 'person'),
     ('will', 'arrow_right'), ('habit', 'cup'), ('opened', 'door'),

@@ -22,11 +22,21 @@
   "G32@u07": "PASS",
   "G32@u08": "PASS",
   "G32@u09": "PASS",
-  "G32@u10": "PASS"
+  "G32@u10": "PASS",
+  "G33@u01": "PASS",
+  "G33@u02": "PASS",
+  "G33@u03": "PASS",
+  "G33@u04": "PASS",
+  "G33@u05": "PASS",
+  "G33@u06": "PASS",
+  "G33@u07": "PASS",
+  "G33@u08": "PASS",
+  "G33@u09": "PASS",
+  "G33@u10": "PASS"
  },
  "summary": {
-  "total": 10,
-  "pass": 10,
+  "total": 20,
+  "pass": 20,
   "fail": 0,
   "gate": 0,
   "skip": 0

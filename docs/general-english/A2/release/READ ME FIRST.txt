@@ -1,18 +1,18 @@
 English for Daily Life - A2
-===========================
+==========================
 
-Two volumes, twenty units, 820 figures.
+2 volume(s), 20 unit(s) written, 41 figures a unit.
 
-  EFDL-A2.1-EverydayLife-u01-10        Units 1-10, Everyday Life
-  EFDL-A2.2-OutintheWorld-u11-20       Units 11-20, Out in the World
+  EFDL-A2.1-EverydayLife               Volume 1, Everyday Life
+  EFDL-A2.2-OutintheWorld              Volume 2, Out in the World
   ...-AnswerKey-...                    the same key, printable on its own
   units/                               each unit on its own, DOCX and PDF
-  covers/                              the four covers at 300 DPI
+  covers/                              the covers at 300 DPI
   reports/                             the check report for each volume
 
-Each book is one file: the units in order, then the answer key, with the
-front and back covers as the first and last pages. DOCX is the editable
-source; the PDF is what it prints as.
+Each book is one file: the units in order, then the answer key, with
+the front and back covers as the first and last pages. DOCX is the
+editable source; the PDF is what it prints as.
 
-Every unit carries 41 figures, every one of them a teaching device the text
-refers to. The unit opener and both covers fill a page.
+Every unit carries 41 figures, every one of them a teaching device
+the text refers to. The unit opener and both covers fill a page.

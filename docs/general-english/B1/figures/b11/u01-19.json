@@ -1,0 +1,156 @@
+{
+ "canvas": [
+  1440,
+  444
+ ],
+ "bounds": [
+  52.0,
+  22.0,
+  1388.0,
+  422.0
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 34,
+   "bbox": [
+    256.2,
+    51.0,
+    279.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What were you doing",
+   "size": 28,
+   "bbox": [
+    99.9,
+    289.7,
+    436.1,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "when something last",
+   "size": 28,
+   "bbox": [
+    103.1,
+    323.7,
+    432.9,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "interrupted you?",
+   "size": 28,
+   "bbox": [
+    135.3,
+    357.7,
+    400.7,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2",
+   "size": 34,
+   "bbox": [
+    708.2,
+    51.0,
+    731.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Where were you",
+   "size": 28,
+   "bbox": [
+    591.4,
+    289.7,
+    848.6,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "standing, and how long",
+   "size": 28,
+   "bbox": [
+    534.4,
+    323.7,
+    905.6,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "did you wait?",
+   "size": 28,
+   "bbox": [
+    614.7,
+    357.7,
+    825.3,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 34,
+   "bbox": [
+    1160.2,
+    51.0,
+    1183.8,
+    81.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "What was everybody",
+   "size": 28,
+   "bbox": [
+    1007.0,
+    323.7,
+    1337.0,
+    348.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "else doing at the time?",
+   "size": 28,
+   "bbox": [
+    990.0,
+    357.7,
+    1354.0,
+    382.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 3,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "placed_in": [
+  6.260416666666667,
+  1.9270833333333333
+ ],
+ "sha256": "13a00b9ccd7153f0bae2545d2c40cd2c8cab86cb4b4c906ee604de2c39dd111b"
+}

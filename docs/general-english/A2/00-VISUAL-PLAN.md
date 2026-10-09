@@ -1,6 +1,11 @@
 # A2 — plan to make both volumes much more visual
 
-**Status: awaiting approval. Nothing in this plan has been executed.**
+> **Note, 2026-10-09.** This plan is the record of a finished phase, so every
+> count in it is as it stood then: 238 checks and 820 figures. The suite is
+> **251 checks** now — see `RESUME.md` for the six defects the B1 work found in
+> A2 and the four checks added to catch them.
+
+**Status: executed in full. All 820 figures are built and shipped.**
 
 Written 2026-10-08, against the finished course: twenty units, 230 checks,
 3,826 executions at zero failures, 280 figures. Every number below was
@@ -603,7 +608,7 @@ code: no time, no randomness, no dict-ordering dependence.
 
 **Mutation suite** — 225 of 225 caught, 0 escaped, 0 broken.
 
-**Both volumes** — 0 failures across all 238 checks.
+**Both volumes** — 0 failures across all 251 checks (238 when this plan was written).
 
 ---
 
@@ -921,7 +926,7 @@ uses, checked mechanically rather than by eye.
 ## 20. Phase 7 as built — A2.2, and the course complete
 
 Units 11–20 went through the same pipeline. **820 figures across twenty units,
-0 failures across 238 checks in both volumes.**
+0 failures across 251 checks in both volumes.**
 
 ### The pronunciation slot, again
 

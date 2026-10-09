@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  528
+  537
  ],
  "bounds": [
   53.0,
-  26.2,
+  26.6,
   1387.0,
-  502.2
+  510.6
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     132.3,
-    60.9,
+    62.4,
     230.9,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     355.2,
-    60.9,
+    62.4,
     546.4,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     643.4,
-    60.9,
+    62.4,
     796.6,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     943.6,
-    60.9,
+    62.4,
     1034.8,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 28,
    "bbox": [
     1212.5,
-    60.9,
+    62.4,
     1304.3,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +75,9 @@
    "size": 34,
    "bbox": [
     156.0,
-    202.2,
+    202.6,
     258.0,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -87,9 +87,9 @@
    "size": 34,
    "bbox": [
     514.4,
-    202.2,
+    202.6,
     583.6,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -99,9 +99,9 @@
    "size": 34,
    "bbox": [
     839.0,
-    202.2,
+    202.6,
     943.0,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -111,9 +111,9 @@
    "size": 34,
    "bbox": [
     1180.6,
-    202.2,
+    202.6,
     1285.4,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -126,7 +126,7 @@
  "alt": "The five things this task counts, as chips above four empty bins -- some, any, much and many. Which chip goes in which bin is the exercise, so none of them is placed. Three of the five cannot be counted one by one, and that is what the sort is for.",
  "placed_in": [
   6.260416666666667,
-  2.2916666666666665
+  2.3333333333333335
  ],
- "sha256": "d18a583448419fe16918b37d22ebf29ef76726e590f69c366983882cf242f578"
+ "sha256": "22d55043a79b1fb2eb7b6d47328f58e6ffd95d0e91ece4dd5bc8b667a0cef2ac"
 }

@@ -1,0 +1,204 @@
+{
+ "canvas": [
+  2480,
+  3508
+ ],
+ "bounds": [
+  0,
+  0,
+  2480,
+  3508
+ ],
+ "texts": [
+  {
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 52,
+   "bbox": [
+    190,
+    191.8,
+    908.2,
+    237.8
+   ],
+   "fill": "#8FA8C8",
+   "on": "#1F3864"
+  },
+  {
+   "text": "UNIT 1",
+   "size": 96,
+   "bbox": [
+    190,
+    299.8,
+    549.7,
+    383.8
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The Night the Power Went",
+   "size": 140,
+   "bbox": [
+    190,
+    438.6,
+    2271.7,
+    560.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Out",
+   "size": 140,
+   "bbox": [
+    190,
+    596.6,
+    475.6,
+    718.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "THE GRAMMAR",
+   "size": 46,
+   "bbox": [
+    250,
+    1016.5,
+    638.7,
+    1056.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The past continuous and the past",
+   "size": 86,
+   "bbox": [
+    250,
+    1117.6,
+    1878.9,
+    1192.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "simple \u2014 while and when",
+   "size": 86,
+   "bbox": [
+    250,
+    1219.6,
+    1474.4,
+    1294.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "IN THIS UNIT",
+   "size": 46,
+   "bbox": [
+    190,
+    1536.5,
+    522.1,
+    1576.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "By the end of this unit you can",
+   "size": 58,
+   "bbox": [
+    190,
+    2167.9,
+    1196.3,
+    2218.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can say what I was doing when something interrupted me.",
+   "size": 56,
+   "bbox": [
+    310,
+    2339.4,
+    2205.2,
+    2388.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can use while and when to join a long action and a short",
+   "size": 56,
+   "bbox": [
+    310,
+    2469.4,
+    2136.0,
+    2518.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one.",
+   "size": 56,
+   "bbox": [
+    310,
+    2535.4,
+    447.6,
+    2584.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I can tell the story of twenty minutes in 90\u2013110 words.",
+   "size": 56,
+   "bbox": [
+    310,
+    2665.4,
+    2039.5,
+    2714.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Core track: Warm Up and Parts 1 to 6",
+   "size": 44,
+   "bbox": [
+    190,
+    3146.0,
+    1118.0,
+    3184.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Plus track: Parts 7 to 10, optional",
+   "size": 44,
+   "bbox": [
+    190,
+    3226.0,
+    1025.7,
+    3264.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The opening page of Unit 1, The Night the Power Went Out: the grammar point is the past continuous against the past simple with while and when, and three things the learner will be able to do by the end of the unit.",
+ "placed_in": [
+  8.268333333333333,
+  11.693055555555556
+ ],
+ "sha256": "94c2d2dd3a54a74a21d93d5fd72b2aeeabc42a105d4e564201518821d9a05c5a"
+}

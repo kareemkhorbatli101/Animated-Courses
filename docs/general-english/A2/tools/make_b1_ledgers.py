@@ -60,6 +60,56 @@ GRAMMAR = r"""# B1's grammar spine. Each point is introduced exactly once (K09);
 # B1 Unit 1 because A2 Unit 20 taught it; BACKSHIFT is not legal until B1
 # Unit 16.
 book: {B1.1: [1, 10], B1.2: [11, 20]}
+
+# Part 8's twenty countries. F12 reads this list; at A2 it was hardcoded in the
+# check, which was fine while one level existed and would have made B1's Part 8
+# re-use A2's twenty. Not one of these appears in A2.
+countries:
+  - Argentina      # U1  the night the power went out
+  - Finland        # U2  how long have you been waiting
+  - Nepal          # U3  by the time they told us
+  - Tunisia        # U4  what the rent used to be
+  - Australia      # U5  this time next year
+  - Colombia       # U6  if the money came tomorrow
+  - Estonia        # U7  the flat they didn't take
+  - Philippines    # U8  something in the garden
+  - Chile          # U9  we should have read the reviews
+  - Senegal        # U10 learning something at forty
+  - Bangladesh     # U11 where it was made
+  - Denmark        # U12 giving up the phone
+  - Thailand       # U13 too many people
+  - Jamaica        # U14 nothing like the picture
+  - Italy          # U15 the name on the bridge
+  - Rwanda         # U16 what the group chat said
+  - Turkey         # U17 asking the council
+  - Uruguay        # U18 fixing it ourselves
+  - Sri Lanka      # U19 somebody ought to say something
+  - Croatia        # U20 putting a case
+
+# The city a unit's Part 8 actually names, so F12 can identify the country from
+# the story rather than from a sentence inserted to satisfy the check. At A2
+# this map was hardcoded in family_f; at B1 it is data, like the list above.
+country_cities:
+  Argentina:   [Buenos Aires, Rosario]
+  Finland:     [Helsinki, Tampere]
+  Nepal:       [Kathmandu, Pokhara]
+  Tunisia:     [Tunis, Sfax]
+  Australia:   [Adelaide, Perth]
+  Colombia:    [Medellin, Medellín, Cali]
+  Estonia:     [Tallinn, Tartu]
+  Philippines: [Cebu, Davao]
+  Chile:       [Valparaiso, Valparaíso, Santiago]
+  Senegal:     [Dakar, Thies]
+  Bangladesh:  [Dhaka, Khulna]
+  Denmark:     [Aarhus, Odense]
+  Thailand:    [Chiang Mai, Bangkok]
+  Jamaica:     [Kingston, Montego Bay]
+  Italy:       [Bologna, Turin]
+  Rwanda:      [Kigali, Butare]
+  Turkey:      [Izmir, İzmir, Bursa]
+  Uruguay:     [Montevideo, Salto]
+  Sri Lanka:   [Kandy, Galle]
+  Croatia:     [Rijeka, Split]
 spine:
   1:  {point: "past continuous vs past simple - while/when", topic: "The Night the Power Went Out",
        cefrj: [TA.PASTPRG], extends: "A2 U5-6 past simple"}

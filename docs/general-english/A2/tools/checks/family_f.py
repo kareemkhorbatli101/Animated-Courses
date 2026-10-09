@@ -1,5 +1,5 @@
-"""F · Topic and content — 18 checks."""
-import re
+"""F · Topic and content — 19 checks."""
+import os, re, yaml
 from collections import Counter
 from . import check, ok, fail, expect
 import model as M
@@ -131,16 +131,22 @@ def f10(u, ctx):
 def f11(u, ctx):
     return ok('adjudicate for stereotyping')
 
-@check('F12', 'ledgers/grammar.spine', 'Part 8 set outside the UK; no country twice', scope='book')
+@check('F12', 'ledgers/grammar.countries', 'Part 8 set outside the UK; no country twice',
+       scope='book')
 def f12(units, ctx):
+    # The twenty countries are a per-level decision -- B1's twenty must not
+    # repeat A2's -- so they live in the level's own grammar ledger. A2's list
+    # was hardcoded here while only one level existed; it is the fallback, so
+    # A2's result is unchanged byte for byte.
     seen, bad = {}, []
-    COUNTRIES = ['South Korea', 'Brazil', 'Japan', 'Morocco', 'Iceland', 'Peru', 'Kenya',
-                 'Canada', 'Netherlands', 'Vietnam', 'Portugal', 'Norway', 'Singapore',
-                 'India', 'New Zealand', 'Poland', 'Ghana', 'Mexico', 'Ireland', 'Egypt']
+    led = ctx.grammar.get('countries')
+    COUNTRIES = list(led) if led else A2_COUNTRIES
     for u in units:
         p8 = u.part('Part 8')
         t = ' '.join(p8.leading) if p8 else ''
-        hit = [c for c in COUNTRIES if c in t or any(ci in t for ci in _cities(c))]
+        cities = ctx.grammar.get('country_cities') or {}
+        hit = [c for c in COUNTRIES
+               if c in t or any(ci in t for ci in cities.get(c, _cities(c)))]
         if not hit:
             bad.append(f'U{u.num}: no country identified in Part 8'); continue
         for c in hit:
@@ -148,6 +154,11 @@ def f12(units, ctx):
                 bad.append(f'{c} in U{seen[c]} and U{u.num}')
             seen[c] = u.num
     return expect(not bad, '; '.join(bad))
+
+A2_COUNTRIES = ['South Korea', 'Brazil', 'Japan', 'Morocco', 'Iceland', 'Peru', 'Kenya',
+                'Canada', 'Netherlands', 'Vietnam', 'Portugal', 'Norway', 'Singapore',
+                'India', 'New Zealand', 'Poland', 'Ghana', 'Mexico', 'Ireland', 'Egypt']
+
 
 def _cities(c):
     return {'South Korea': ['Seoul', 'Busan'], 'Brazil': ['São Paulo', 'Rio'], 'Japan': ['Tokyo', 'Osaka'],
@@ -191,3 +202,41 @@ def f17(u, ctx):
 @check('F18', 'golden.figures.caption_pattern', 'Every caption matches what the figure shows', gate=True)
 def f18(u, ctx):
     return ok('adjudicate captions: ' + ' | '.join(c for _, _, c in u.figures))
+
+
+@check('F19', 'ledgers/lexis', 'No glossary word repeats one from another level',
+       scope='book')
+def f19(u_or_units, ctx):
+    """400 glossary words across two levels, none repeated.
+
+    E10 and E11 already stop a repeat inside a level. Nothing could see across
+    one, because until B1 there was only one. A B1 unit that glosses `receipt`
+    is re-teaching A2 Unit 4, and the learner who worked through A2 is being
+    charged a tenth of a unit's glossary for a word they already have.
+    """
+    import level as LV
+    lv = LV.level(ctx.book)
+    mine = {}
+    for un, rec in (ctx.lexis.get('units') or {}).items():
+        for w in rec.get('words', []):
+            mine.setdefault(str(w).lower(), []).append(int(un))
+    if not mine:
+        return ok('no glossary words yet')
+    clashes = []
+    for other in ('A2', 'B1'):
+        if other == lv:
+            continue
+        p = os.path.join(LV.level_root(ctx.root, other), 'ledgers', 'lexis.yaml')
+        if not os.path.exists(p):
+            continue
+        d = yaml.safe_load(open(p, encoding='utf-8')) or {}
+        theirs = {}
+        for un, rec in (d.get('units') or {}).items():
+            for w in rec.get('words', []):
+                theirs.setdefault(str(w).lower(), []).append(int(un))
+        for w, units in sorted(theirs.items()):
+            if w in mine:
+                clashes.append(f'{w!r}: {lv} U{mine[w][0]} and {other} U{units[0]}')
+    return expect(not clashes,
+                  f'{len(clashes)} glossary words repeat another level: '
+                  f'{clashes[:6]}')

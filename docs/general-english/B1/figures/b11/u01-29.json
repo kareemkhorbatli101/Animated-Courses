@@ -1,0 +1,108 @@
+{
+ "canvas": [
+  1440,
+  349
+ ],
+ "bounds": [
+  67,
+  17.3,
+  1373,
+  331.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    80.4,
+    143.1,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "honestly what stops you",
+   "size": 30,
+   "bbox": [
+    190,
+    82.0,
+    604.4,
+    108.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I have known for two years that I should",
+   "size": 26,
+   "bbox": [
+    670,
+    67.3,
+    1194.1,
+    91.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "keep.",
+   "size": 26,
+   "bbox": [
+    670,
+    97.3,
+    740.9,
+    121.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    243.4,
+    143.1,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "one sentence about what",
+   "size": 30,
+   "bbox": [
+    190,
+    245.0,
+    619.1,
+    271.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Every time the lights flicker I think about.",
+   "size": 26,
+   "bbox": [
+    670,
+    245.3,
+    1209.4,
+    269.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the reflection in two steps -- honestly what stops you, one sentence about what -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "df99b92f4fd41666eb4d65350f7af202da56a852b552536285c3d7cb684a2207"
+}

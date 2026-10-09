@@ -1,5 +1,5 @@
-"""E · Language and level — 26 checks."""
-import re
+"""E · Language and level — 30 checks."""
+import os, re, yaml
 from collections import Counter
 from . import check, ok, fail, expect
 import model as M
@@ -24,6 +24,23 @@ def _exempt(u, ctx):
     # every glossary word up to and including this unit has been taught
     for un, rec in ctx.lexis['units'].items():
         if int(un) <= u.num:
+            for w in rec.get('words', []):
+                glossed |= {t.lower() for t in L.tokens(str(w))}
+    # And every glossary word of every level BELOW this one, in full. A learner
+    # arriving at B1 Unit 1 has been taught A2's whole 200-word glossary, so
+    # requiring B1 to gloss `landing` or `receipt` again would be charging them
+    # a tenth of a unit's glossary for a word they already have -- and F19
+    # forbids B1 from re-glossing an A2 word in the first place, so without
+    # this the two checks contradict each other.
+    import level as LV
+    for below in ('A2',):
+        if below == LV.level(ctx.book):
+            continue
+        q = os.path.join(LV.level_root(ctx.root, below), 'ledgers', 'lexis.yaml')
+        if not os.path.exists(q):
+            continue
+        d = yaml.safe_load(open(q, encoding='utf-8')) or {}
+        for rec in (d.get('units') or {}).values():
             for w in rec.get('words', []):
                 glossed |= {t.lower() for t in L.tokens(str(w))}
     # a glossed headword covers its regular inflections
@@ -368,3 +385,103 @@ def e26(u, ctx):
     glossed = ' '.join(l for l in u.lines if '**Gloss:**' in l).lower()
     hits = [w for w in later if re.search(rf'\b{re.escape(w)}\b', body) and w not in glossed]
     return expect(not hits, f'future glossary words used unglossed: {sorted(hits)[:8]}')
+
+
+# --- E27, E28, E29: the level FLOORS ----------------------------------------
+# Every one of the twenty-six checks above is a CEILING: no sentence over 25
+# words, no grade above 5.0, no more than 10% off-band. That is the right shape
+# for A2, where the only way to fail is to write above the level.
+#
+# At B1 the dangerous failure is the opposite one, and a suite of ceilings
+# cannot see it: a unit written entirely in A2 language passes every ceiling
+# with room to spare, and would ship as B1 while being A2 with a different
+# cover. These three are the floors that make that impossible, and L01 (family
+# L) asserts that every one of the twenty shipped A2 units fails all three --
+# a floor nothing fails is not a floor.
+#
+# Two of the first three numbers tried were wrong and were corrected from the
+# measurement rather than from judgement: a mean-sentence floor of 11.0 failed
+# A2 by 0.057 words, and a reading-grade floor of 4.5 was passed outright by
+# one A2 unit. They are 12.0 and 5.5.
+#
+# A level with no floor in its spec skips these rather than passing them: A2's
+# golden.yaml has no `min_b1_tier_share`, and a skip is the honest result.
+
+def _floor(ctx, key):
+    return ctx.spec['language'].get(key)
+
+
+def _syl(w):
+    w = w.lower()
+    n = len(re.findall(r'[aeiouy]+', w))
+    return max(1, n - (1 if w.endswith('e') and n > 1 else 0))
+
+
+@check('E27', 'golden.language.min_b1_tier_share',
+       'At least the declared share of running words comes from the level’s own tier')
+def e27(u, ctx):
+    lim = _floor(ctx, 'min_b1_tier_share')
+    if lim is None:
+        return ok('no tier floor at this level')
+    words = _running(u)
+    if not words:
+        return fail('no prose')
+    # The strict reading: a word counts only if the project's own in_band
+    # cannot reach it as A2. in_band consults the 2,000 high-frequency list as
+    # well as the lemmatised CEFR-J list, so this cannot be gamed by inflection.
+    import os, level as LV
+    a2wl = os.path.join(LV.level_root(ctx.root, 'A2'), 'spec', 'wordlists')
+    try:
+        a2band = set(open(os.path.join(a2wl, 'a2-and-below.txt')).read().split())
+    except OSError:
+        return fail(f'cannot read the A2 band at {a2wl}')
+    hf = L.freq2000()
+    def a2_reachable(w):
+        return any(b in a2band or b in hf for b in L.bases(w.lower()))
+    tier = [w for w in words if L.in_band(w) and not a2_reachable(w)]
+    share = len(tier) / len(words)
+    return expect(share >= lim,
+                  f'only {share:.3%} of {len(words)} running words are '
+                  f'above-A2 in-band, want {lim:.1%}')
+
+
+@check('E28', 'golden.language.mean_sentence_words_min',
+       'Mean sentence length is at least the declared floor')
+def e28(u, ctx):
+    lim = _floor(ctx, 'mean_sentence_words_min')
+    if lim is None:
+        return ok('no mean-sentence floor at this level')
+    ss = u.sentences
+    if not ss:
+        return fail('no prose found')
+    mean = sum(len(s.split()) for s in ss) / len(ss)
+    return expect(mean >= lim, f'mean {mean:.2f} < {lim}')
+
+
+@check('E29', 'golden.language.fk_grade_min',
+       'Flesch-Kincaid grade is at least the declared floor')
+def e29(u, ctx):
+    lim = _floor(ctx, 'fk_grade_min')
+    if lim is None:
+        return ok('no reading-grade floor at this level')
+    ss = u.sentences
+    words = [w for s in ss for w in L.tokens(s)]
+    if not ss or not words:
+        return fail('no prose')
+    g = (0.39 * len(words) / len(ss)
+         + 11.8 * sum(_syl(w) for w in words) / len(words) - 15.59)
+    return expect(g >= lim, f'FK grade {g:.2f} < {lim}')
+
+
+@check('E30', 'ledgers/lexis',
+       'Every above-band word the unit uses is glossed in that unit')
+def e30(u, ctx):
+    # E26 says a word MUST be glossable if used. This says it was actually
+    # glossed -- the gap between the two is a word that is off-band, not in any
+    # unit's glossary, and simply present.
+    ex = _exempt(u, ctx)
+    hits = sorted({t.lower() for t in _running(u)
+                   if t.lower() not in ex and L.above_band(t)
+                   and not CONTR.match(t.lower())})
+    return expect(not hits, f'above-band and unglossed: {hits[:8]}'
+                            f'{" (+%d more)" % (len(hits) - 8) if len(hits) > 8 else ""}')

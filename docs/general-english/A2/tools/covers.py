@@ -43,8 +43,8 @@ def _wrap(c, body, x, y, size, width_px, fill=P['ink'], bold=False, lead=1.42):
     return yy
 
 
-def front(volume, title, units, theme, n_units_label='Ten units'):
-    c = Cover(f'Front cover of English for Daily Life A2 volume {volume}, {title}. '
+def front(volume, title, units, theme, n_units_label='Ten units', level='A2'):
+    c = Cover(f'Front cover of English for Daily Life {level} volume {volume}, {title}. '
               f'A band of flat illustrations in blue and tan over a pale panel, with '
               f'the series name, the volume title and the level.')
     # a full-bleed panel with a band under it, in the idiom of the interior
@@ -59,7 +59,7 @@ def front(volume, title, units, theme, n_units_label='Ten units'):
            stroke=P['tan'] if dark else P['ink'], r=0, sw=0)
 
     _text(c, 'ENGLISH FOR DAILY LIFE', CW / 2, 420, 88, fill=on_panel, on=panel)
-    _text(c, f'A2 · Volume {volume}', CW / 2, 580, 68, fill=sub, on=panel)
+    _text(c, f'{level} · Volume {volume}', CW / 2, 580, 68, fill=sub, on=panel)
     _text(c, title, CW / 2, 900, 158, fill=on_panel, on=panel)
 
     # the scene: the street the book is set in, at the scale of a cover
@@ -77,17 +77,19 @@ def front(volume, title, units, theme, n_units_label='Ten units'):
     _text(c, 'Student Book with answer key', CW / 2, band_y + 900, 54, fill=P['deep'])
 
     c.rect(300, CH - 330, CW - 600, 4, fill=P['rule'], stroke=P['rule'], r=0, sw=0)
-    _text(c, 'CEFR A2 · British English', CW / 2, CH - 200, 48, fill=P['ink'], bold=False)
+    _text(c, f'CEFR {level} · British English', CW / 2, CH - 200, 48,
+          fill=P['ink'], bold=False)
     return c
 
 
-def back(volume, title, blurb, units, grammar, can_do, theme):
-    c = Cover(f'Back cover of English for Daily Life A2 volume {volume}: a blurb, the '
+def back(volume, title, blurb, units, grammar, can_do, theme, level='A2'):
+    c = Cover(f'Back cover of English for Daily Life {level} volume {volume}: a blurb, the '
               f'ten unit titles, the ten grammar points and six things the learner '
               f'will be able to do.')
     c.rect(0, 0, CW, 420, fill=P['card'], stroke=P['card'], r=0, sw=0)
     _text(c, 'ENGLISH FOR DAILY LIFE', CW / 2, 200, 62, fill=P['ink'], on=P['card'])
-    _text(c, f'A2 · Volume {volume} · {title}', CW / 2, 310, 52, fill=P['deep'], on=P['card'])
+    _text(c, f'{level} · Volume {volume} · {title}', CW / 2, 310, 52,
+          fill=P['deep'], on=P['card'])
 
     y = _wrap(c, blurb, 220, 580, 46, CW - 440) + 60
 
@@ -105,7 +107,7 @@ def back(volume, title, blurb, units, grammar, can_do, theme):
         _text(c, line, 320, y, 40, anchor='start', bold=False)
         y += 66
 
-    _text(c, 'CEFR A2 · Student Book with answer key · British English',
+    _text(c, f'CEFR {level} · Student Book with answer key · British English',
           CW / 2, CH - 220, 40, fill=P['ink'], bold=False)
     return c
 

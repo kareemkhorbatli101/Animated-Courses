@@ -35,7 +35,12 @@ def classify(src):
     Returns (kind, slot) where kind is 'cover', 'figure' or 'other'.
     """
     base = os.path.basename(src or '')
-    if re.fullmatch(r'a2\d-(front|back)\.png', base):
+    # The pattern used to be a2\d-(front|back): B1's covers are b11-front.png
+    # and b12-front.png, so they classified as 'other', which meant
+    # is_full_page said no and the book printed a 2.19 x 3.09 in thumbnail of a
+    # full-bleed cover. Take the codes from tools/level.py.
+    import level as _LV
+    if re.fullmatch(r'(' + '|'.join(_LV.BOOKS) + r')-(front|back)\.png', base):
         return 'cover', None
     m = re.fullmatch(r'u(\d\d)-(\d+)\.png', base)
     return ('figure', int(m.group(2))) if m else ('other', None)

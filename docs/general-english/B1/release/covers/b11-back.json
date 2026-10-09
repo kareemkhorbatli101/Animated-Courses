@@ -1,0 +1,352 @@
+{
+ "canvas": [
+  2480,
+  3508
+ ],
+ "texts": [
+  {
+   "text": "ENGLISH FOR DAILY LIFE",
+   "size": 62,
+   "bbox": [
+    811.8,
+    154.8,
+    1668.2,
+    209.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "B1 \u00b7 Volume 1 \u00b7 Looking Back",
+   "size": 52,
+   "bbox": [
+    815.5,
+    271.8,
+    1664.5,
+    317.8
+   ],
+   "fill": "#6E88AC",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "English for Daily Life at B1 picks up the same six people two years later, on the",
+   "size": 46,
+   "bbox": [
+    220,
+    546.5,
+    2050.5,
+    586.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "same street, and gives them the past behind the past and the things that never",
+   "size": 46,
+   "bbox": [
+    220,
+    611.8,
+    2064.6,
+    651.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "happened: what was going on when something interrupted it, how long it has been going",
+   "size": 46,
+   "bbox": [
+    220,
+    677.1,
+    2281.7,
+    717.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "on, what had already happened by the time anybody said anything, what the rent used",
+   "size": 46,
+   "bbox": [
+    220,
+    742.4,
+    2237.0,
+    782.6
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "to be, what would happen if the money came, and what would have happened if they had",
+   "size": 46,
+   "bbox": [
+    220,
+    807.7,
+    2296.9,
+    847.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "taken the other flat. One unit, each with the same eleven parts and the same support",
+   "size": 46,
+   "bbox": [
+    220,
+    873.1,
+    2198.8,
+    913.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "as at A2: a worked example at the top of almost every task, a model before every",
+   "size": 46,
+   "bbox": [
+    220,
+    938.4,
+    2110.0,
+    978.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "piece of writing, a word bank under every gap-fill and a checklist before you hand",
+   "size": 46,
+   "bbox": [
+    220,
+    1003.7,
+    2108.1,
+    1043.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "anything in. The readings and the recordings are twice the length they were, because",
+   "size": 46,
+   "bbox": [
+    220,
+    1069.0,
+    2198.2,
+    1109.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "that is what the level is. The Core track is for everybody; the Plus track is there",
+   "size": 46,
+   "bbox": [
+    220,
+    1134.3,
+    2046.2,
+    1174.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "when you want it. Answers for every closed question are in the book.",
+   "size": 46,
+   "bbox": [
+    220,
+    1199.7,
+    1814.2,
+    1239.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "In this book",
+   "size": 54,
+   "bbox": [
+    220,
+    1318.7,
+    579.8,
+    1366.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "1",
+   "size": 40,
+   "bbox": [
+    236.1,
+    1408.9,
+    263.9,
+    1444.5
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "The Night the Power Went Out",
+   "size": 42,
+   "bbox": [
+    330,
+    1408.1,
+    1054.9,
+    1444.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "past continuous vs past simple - while/when",
+   "size": 38,
+   "bbox": [
+    1280,
+    1410.4,
+    2122.2,
+    1443.9
+   ],
+   "fill": "#6E88AC",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "By the end you will be able to",
+   "size": 54,
+   "bbox": [
+    220,
+    1520.7,
+    1127.1,
+    1568.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1610.1,
+    258.0,
+    1646.5
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can say what I was doing when something interrupted me, using the past continuous.",
+   "size": 40,
+   "bbox": [
+    320,
+    1610.9,
+    2065.1,
+    1646.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1676.1,
+    258.0,
+    1712.5
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can use *while* and *when* to join a long action and a short one.",
+   "size": 40,
+   "bbox": [
+    320,
+    1676.9,
+    1656.7,
+    1712.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1742.1,
+    258.0,
+    1778.5
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can describe a problem in a building and say what I want people to agree.",
+   "size": 40,
+   "bbox": [
+    320,
+    1742.9,
+    1831.9,
+    1778.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u00b7",
+   "size": 42,
+   "bbox": [
+    242.0,
+    1808.1,
+    258.0,
+    1844.5
+   ],
+   "fill": "#009688",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I can telephone to report a fault and ask for a job number.",
+   "size": 40,
+   "bbox": [
+    320,
+    1808.9,
+    1484.6,
+    1844.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "CEFR B1 \u00b7 Student Book with answer key \u00b7 British English",
+   "size": 40,
+   "bbox": [
+    670.8,
+    3258.4,
+    1809.2,
+    3294.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "alt": "Back cover of English for Daily Life B1 volume 1: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
+ "sha256": "bed8646d2a9b6312237e136303e6e3a7eadd15ed980f5945315647e4be4f35b8",
+ "theme": "b11",
+ "volume": 1,
+ "title": "Looking Back",
+ "level": "B1",
+ "blurb": "English for Daily Life at B1 picks up the same six people two years later, on the same street, and gives them the past behind the past and the things that never happened: what was going on when something interrupted it, how long it has been going on, what had already happened by the time anybody said anything, what the rent used to be, what would happen if the money came, and what would have happened if they had taken the other flat. One unit, each with the same eleven parts and the same support as at A2: a worked example at the top of almost every task, a model before every piece of writing, a word bank under every gap-fill and a checklist before you hand anything in. The readings and the recordings are twice the length they were, because that is what the level is. The Core track is for everybody; the Plus track is there when you want it. Answers for every closed question are in the book.",
+ "units": [
+  "The Night the Power Went Out"
+ ],
+ "grammar": [
+  "past continuous vs past simple - while/when"
+ ],
+ "can_do": [
+  "I can say what I was doing when something interrupted me, using the past continuous.",
+  "I can use *while* and *when* to join a long action and a short one.",
+  "I can describe a problem in a building and say what I want people to agree.",
+  "I can telephone to report a fault and ask for a job number."
+ ],
+ "unit_count": 1
+}

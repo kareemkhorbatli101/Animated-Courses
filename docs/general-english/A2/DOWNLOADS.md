@@ -1,5 +1,25 @@
 # Downloads
 
+> **2026-10-09 — every file here was rebuilt.** Six defects found while
+> auditing A2 for B1 are fixed in them, and none of them changes a word of the
+> course:
+>
+> - **44 closed tasks** whose answers could be got without reading the
+>   question — four matching tasks printed Column B in Column A's order, and
+>   27 word banks printed in answer order (new checks `C29`, `C30`).
+> - **40 stale figures** drawn by superseded code and never re-rendered
+>   (new check `G32`).
+> - **61 truncated figures**, in five different jobs: a label that needed two
+>   lines printed only its first. The decision fork cut its question short in
+>   every unit of both volumes (new check `G33`).
+> - **A truncated grammar ledger** that had been printing a cut-off grammar
+>   list on the back cover of both volumes.
+> - The coverage law silently skipping, and a book build that deleted its own
+>   answer key.
+>
+> Both volumes are **251 of 251 green**. If you have an older download,
+> replace it.
+
 Direct links. Every one is a single click; the repository is public, so none of
 them needs a login. Branch: `claude/jolly-johnson-9khdgl`.
 

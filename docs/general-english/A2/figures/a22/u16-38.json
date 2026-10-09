@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  629
+  687
  ],
  "bounds": [
   47.0,
   30,
   1393.0,
-  599.2
+  657
  ],
  "texts": [
   {
@@ -210,7 +210,7 @@
  "alt": "The decision task as one question and three branches, with what each one costs: write down what it was, because memory is the only part you can keep; say nothing, and in ten years five people will say five different things; or tell everybody, when somebody about to lose something does not want a speech about it.",
  "placed_in": [
   6.260416666666667,
-  2.7395833333333335
+  2.9895833333333335
  ],
- "sha256": "6efc0769b9d8e0ba55be543ab30f0bd143282f35d6ec1bedd24890772f5907d9"
+ "sha256": "7383352f5281687d393d55e0031d359dfe35d407ea41163a9008bc89240b96d3"
 }

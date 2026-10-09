@@ -147,15 +147,24 @@ def j15(units, ctx):
         return ok('SKIP: no book PDF built yet')
     n = len(re.findall(rb'/Type\s*/Page[^s]', open(p, 'rb').read()))
     pv = ctx.typo['departures'].get('pages_per_volume', {'min': 150, 'max': 230})
+    # A per-VOLUME envelope cannot be measured against part of a volume. A2 only
+    # ever ran this check on a volume that was already complete; B1's Phase 4
+    # gate builds one unit of ten on purpose, so say so instead of failing on
+    # arithmetic that was never going to hold.
+    if len(units) < ctx.expected_units:
+        return ok(f'SKIP: {len(units)} of {ctx.expected_units} units built; '
+                  f'{n} pages so far, {n / max(1, len(units)):.0f} a unit')
     return expect(pv['min'] <= n <= pv['max'],
                   f"{n} pages, want {pv['min']}-{pv['max']}")
 
 @check('J16', 'build', 'File naming follows the convention exactly', scope='book')
 def j16(units, ctx):
+    import level as LV
+    books = '|'.join(re.escape(b) for b in LV.books_here(ctx.root))
     bad = []
     d = os.path.join(ctx.root, 'units')
     for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
-        if not re.fullmatch(r'a2[12]-u\d{2}\.md', f):
+        if not re.fullmatch(rf'({books})-u\d{{2}}\.md', f):
             bad.append(f)
     return expect(not bad, f'off-convention: {bad}')
 
@@ -170,6 +179,13 @@ def j17(units, ctx):
     env = ctx.typo['departures'].get('size_envelope_mb')
     if not env:
         return ok('SKIP: no size envelope declared')
+    # Same reason as J15: the envelope is declared for a whole volume.
+    if len(units) < ctx.expected_units:
+        sizes = {k: os.path.getsize(p2) / (1 << 20)
+                 for k, p2 in (('docx', ctx.docx_for(None)), ('pdf', ctx.pdf_for(None)))
+                 if os.path.exists(p2)}
+        return ok(f'SKIP: {len(units)} of {ctx.expected_units} units built; '
+                  + ', '.join(f'{k} {v:.1f} MB' for k, v in sorted(sizes.items())))
     bad = []
     for kind, path in (('docx', ctx.docx_for(None)), ('pdf', ctx.pdf_for(None))):
         if not os.path.exists(path):

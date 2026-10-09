@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  575
  ],
  "bounds": [
   53.0,
-  25.1,
+  28.5,
   1387.0,
-  481.1
+  546.5
  ],
  "texts": [
   {
@@ -15,9 +15,21 @@
    "size": 28,
    "bbox": [
     97.8,
-    59.8,
+    64.3,
     332.7,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "me a pen",
+   "size": 28,
+   "bbox": [
+    142.5,
+    98.3,
+    288.0,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +39,9 @@
    "size": 28,
    "bbox": [
     407.2,
-    59.8,
+    81.3,
     696.3,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +51,21 @@
    "size": 28,
    "bbox": [
     744.8,
-    59.8,
+    64.3,
     1031.8,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "box",
+   "size": 28,
+   "bbox": [
+    859.6,
+    98.3,
+    916.9,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +75,21 @@
    "size": 28,
    "bbox": [
     1126.8,
-    59.8,
+    64.3,
     1322.8,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "could run",
+   "size": 28,
+   "bbox": [
+    1150.3,
+    98.3,
+    1299.2,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +99,9 @@
    "size": 34,
    "bbox": [
     317.7,
-    201.1,
+    238.5,
     438.3,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +111,9 @@
    "size": 34,
    "bbox": [
     988.0,
-    201.1,
+    238.5,
     1136.0,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +126,7 @@
  "alt": "The four sentences of this task as chips above two empty bins, one for ability and one for a request. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.5
  ],
- "sha256": "f3aab8186f4d0d5576b1a434b56ea95ee12c6418cee8dd78769c309f25908d17"
+ "sha256": "08685110caefd086095badf438e250f709c0469f12feb69642d0dce13199444d"
 }

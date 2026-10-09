@@ -1,27 +1,36 @@
 # Each point is introduced exactly once. Check K09 enforces uniqueness,
 # E06 enforces that nothing appears before the unit that teaches it.
+#
+# Every `point` and `topic` below is QUOTED. Unquoted, a YAML flow mapping
+# splits on the commas inside the value, so `{point: will, might - predictions
+# and offers, topic: ...}` parsed as a `point` of 'will' plus a stray key. Eight
+# of the twenty points and two of the twenty topics were silently truncated at
+# their first comma -- Unit 19's topic read 'People' and Unit 20's read 'News'
+# -- and build_covers printed the truncated list on the back cover of both
+# volumes. Found 2026-10-09 by B1's K19, whose own mutation fixture escaped
+# because the key it was looking for had been cut in half.
 book: {A2.1: [1, 10], A2.2: [11, 20]}
 spine:
-  1:  {point: present simple, frequency adverbs,      topic: People and Routines}
-  2:  {point: there is/are, some/any, much/many,      topic: Home and Neighbourhood}
-  3:  {point: present continuous vs present simple,   topic: A Day in the City}
-  4:  {point: countable/uncountable, quantifiers, articles, topic: Food and Shopping}
-  5:  {point: past simple - was/were and regular verbs, topic: Last Weekend}
-  6:  {point: past simple - irregular verbs, past time phrases, topic: Journeys and Mishaps}
-  7:  {point: comparatives and superlatives,          topic: Choosing and Comparing}
-  8:  {point: can/can't, could - ability and polite asks, topic: Help and Ability}
-  9:  {point: prepositions of place, time and movement, topic: Finding Your Way}
-  10: {point: imperatives, sequencers, adverbs of manner, topic: Doing and Making}
-  11: {point: going to, present continuous for arrangements, topic: Plans and Arrangements}
-  12: {point: will, might - predictions and offers,   topic: Weather and What Might Happen}
-  13: {point: must/have to/mustn't/don't have to,     topic: Rules and Places}
-  14: {point: should/shouldn't - advice,              topic: Health and Feeling Better}
-  15: {point: present perfect - experience, ever/never, topic: Experiences}
-  16: {point: present perfect vs past simple,         topic: Then and Now}
-  17: {point: active and passive,                     topic: How Things Are Made}
-  18: {point: first conditional, time clauses,        topic: If and When}
-  19: {point: defining relative clauses,              topic: People, Places and Things}
-  20: {point: reported speech, indirect questions,    topic: News, Stories and Messages}
+  1:  {point: "present simple, frequency adverbs",            topic: "People and Routines"}
+  2:  {point: "there is/are, some/any, much/many",             topic: "Home and Neighbourhood"}
+  3:  {point: "present continuous vs present simple",          topic: "A Day in the City"}
+  4:  {point: "countable/uncountable, quantifiers, articles",  topic: "Food and Shopping"}
+  5:  {point: "past simple - was/were and regular verbs",      topic: "Last Weekend"}
+  6:  {point: "past simple - irregular verbs, past time phrases", topic: "Journeys and Mishaps"}
+  7:  {point: "comparatives and superlatives",                 topic: "Choosing and Comparing"}
+  8:  {point: "can/can't, could - ability and polite asks",    topic: "Help and Ability"}
+  9:  {point: "prepositions of place, time and movement",      topic: "Finding Your Way"}
+  10: {point: "imperatives, sequencers, adverbs of manner",    topic: "Doing and Making"}
+  11: {point: "going to, present continuous for arrangements", topic: "Plans and Arrangements"}
+  12: {point: "will, might - predictions and offers",          topic: "Weather and What Might Happen"}
+  13: {point: "must/have to/mustn't/don't have to",            topic: "Rules and Places"}
+  14: {point: "should/shouldn't - advice",                     topic: "Health and Feeling Better"}
+  15: {point: "present perfect - experience, ever/never",      topic: "Experiences"}
+  16: {point: "present perfect vs past simple",                topic: "Then and Now"}
+  17: {point: "active and passive",                            topic: "How Things Are Made"}
+  18: {point: "first conditional, time clauses",               topic: "If and When"}
+  19: {point: "defining relative clauses",                     topic: "People, Places and Things"}
+  20: {point: "reported speech, indirect questions",           topic: "News, Stories and Messages"}
 
 # Markers that betray a grammar point. E06 fails if a marker appears before its unit,
 # unless the phrase is on the exempt list.

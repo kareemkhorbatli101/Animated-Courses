@@ -15,6 +15,18 @@ FIXTURE_BOOK whichever volume is being validated.
 import re
 
 FIXTURE_BOOK = 'a21'
+FIXTURE_BOOK_FOR = {'A2': 'a21', 'B1': 'b11'}
+
+# Checks that cannot be mutation-tested at the LOWEST level, because there they
+# are vacuous by design: each one reads the level below, and A2 has none. Their
+# fixtures live in the level above's set. Named here, with the reason, so K15
+# can account for them instead of them sitting quietly uncovered.
+CROSS_LEVEL = {
+    'F19': 'compares glossaries with the level below; A2 has none',
+    'K19': 'asserts the level below is recycled; A2 has none',
+    'K20': 'verifies the level below is byte-identical; A2 has none',
+    'K21': 'reads this level\'s CEFR-J grammar profile; A2 ships none',
+}
 
 def U(old, new, n=1):
     def f(t):
@@ -47,6 +59,19 @@ def CTX(f):
 
 def FIG(f):
     return ('fig', f)
+
+def _one_line_timeline(F):
+    """`timeline` as it was before the truncation sweep: it draws only the
+    first line of a two-line `when` label. G33 must catch it."""
+    real = F.timeline
+
+    def broken(points, height=460, alt=''):
+        f = F.Fig(height, alt)
+        for when, what in points:
+            F.fit_lines(when, 300, size_hi=34, size_lo=24)      # read nothing
+        return real(points, height, alt)
+    return broken
+
 
 def SVG(f):
     return ('svg', f)
@@ -291,6 +316,29 @@ Offer help and say when you are usually in — **5**'''),
 # (so G23 is green) while neither agrees with what the code now draws. Moving a
 # single coordinate in the SVG is exactly that state.
 'G32': SVG(lambda s: s.replace('<rect ', '<rect data-stale="1" ', 1)),
+
+# G33's negative test lives in the FIGURE CODE, not in a file: put the
+# one-line-only bug back into one job and the check has to see it again.
+'G33': ('figcode', lambda F: F.__dict__.__setitem__(
+    'timeline', _one_line_timeline(F))),
+
+# ------------------------------------------------------- E/L the level floors
+# A2's spec declares no floors, so each of these first sets one and then
+# proves the check reads it. The value is absurd on purpose: the fixture is a
+# test of the check, and L01 is the test of the VALUE.
+'E27': ('ctx', lambda c: c.spec['language'].__setitem__('min_b1_tier_share', 0.99)),
+'E28': ('ctx', lambda c: c.spec['language'].__setitem__('mean_sentence_words_min', 99.0)),
+'E29': ('ctx', lambda c: c.spec['language'].__setitem__('fk_grade_min', 99.0)),
+# L01 the other way round: a floor set so low that every A2 unit clears it is
+# not a floor, and saying so is the whole of L01's job.
+'L01': ('ctx', lambda c: c.spec['language'].update(
+    {'min_b1_tier_share': 0.0, 'mean_sentence_words_min': 1.0,
+     'fk_grade_min': 0.0})),
+# E30 is the one of the four that needs real prose: an above-band word in a
+# reading, not in any unit's glossary and not glossed in place. E02 bounds the
+# SHARE of such words at 10%; E30 allows none at all.
+'E30': U('A good routine is also flexible.',
+         'A good routine is also remarkable.'),
 'G27': ('ctx', lambda c: [c.spec['unit'].__setitem__(k, {'target': 1, 'min': 0, 'max': 1})
                           for k in ('caption_words', 'caption_words_dense')]),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
@@ -394,3 +442,33 @@ Offer help and say when you are usually in — **5**'''),
 'K17': ('registry', lambda r: r),
 'K18': ('registry', lambda r: r),
 }
+
+
+# ----------------------------------------------------------- the per-level sets
+# MUTATIONS above is anchored to literal strings from A2.1 and tests the CHECK
+# CODE, which every level shares -- the argument that lets A2.2 read A2.1's
+# report. The same argument carries across levels, with exactly one stated
+# exception: the four checks in CROSS_LEVEL read the level BELOW this one, so at
+# A2 they are vacuous and cannot be mutation-tested there at all.
+#
+# So B1's set is those four and nothing else. It is not a thinner standard: the
+# other 229 are proved against A2.1's text, and nothing about B1's text could
+# make the same code behave differently.
+MUTATIONS_B1 = {
+
+'F19': ('ctx', lambda c: c.lexis['units'][1]['words'].__setitem__(0, 'routine')),
+
+'K19': U('| **past continuous** | was/were + -ing | the longer action, in the '
+         'middle of happening | She was closing the shop. |',
+         '| **present perfect** | has/have + participle | the longer action, in '
+         'the middle of happening | She was closing the shop. |'),
+
+'K20': ('svg_below', lambda s: s.replace('<rect ', '<rect data-drift="1" ', 1)),
+
+'K21': ('ctx', lambda c: c.grammar['cefrj_disposition'].pop('TA')),
+}
+
+
+def for_level(lv: str) -> dict:
+    return MUTATIONS_B1 if lv == 'B1' else MUTATIONS
+

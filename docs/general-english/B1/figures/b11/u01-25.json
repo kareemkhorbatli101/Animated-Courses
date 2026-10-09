@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  395
+ ],
+ "bounds": [
+  71.0,
+  19.6,
+  1369.0,
+  375.6
+ ],
+ "texts": [
+  {
+   "text": "a hospital",
+   "size": 32,
+   "bbox": [
+    190.9,
+    217.2,
+    369.1,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no darkness at all is",
+   "size": 26,
+   "bbox": [
+    149.8,
+    269.1,
+    410.2,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "permitted",
+   "size": 26,
+   "bbox": [
+    215.9,
+    301.1,
+    344.1,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "an office block",
+   "size": 32,
+   "bbox": [
+    589.4,
+    217.2,
+    850.6,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "half of it worked, which",
+   "size": 26,
+   "bbox": [
+    568.6,
+    269.1,
+    871.4,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "was worse",
+   "size": 26,
+   "bbox": [
+    651.8,
+    301.1,
+    788.2,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a block of flats",
+   "size": 32,
+   "bbox": [
+    1026.7,
+    217.2,
+    1293.3,
+    245.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "nobody had decided",
+   "size": 26,
+   "bbox": [
+    1027.4,
+    269.1,
+    1292.6,
+    292.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anything",
+   "size": 26,
+   "bbox": [
+    1102.7,
+    301.1,
+    1217.3,
+    324.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The same twenty minutes in three buildings: a hospital, where a generator starts and no darkness at all is permitted; an office block, where half the building kept working, which was worse than either; and a block of flats, where nothing was protected because nobody had ever decided that anything should be.",
+ "placed_in": [
+  6.260416666666667,
+  1.71875
+ ],
+ "sha256": "c56659042baa5c7191b5a655c17664d4dc2e2f1c71c888e24d5654f866b1835b"
+}

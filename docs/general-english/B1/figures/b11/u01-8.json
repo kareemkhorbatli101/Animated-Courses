@@ -1,0 +1,115 @@
+{
+ "canvas": [
+  1440,
+  531
+ ],
+ "bounds": [
+  117,
+  26.3,
+  1353,
+  504.3
+ ],
+ "texts": [
+  {
+   "text": "1.",
+   "size": 32,
+   "bbox": [
+    856,
+    33.9,
+    890.4,
+    62.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "2.",
+   "size": 32,
+   "bbox": [
+    856,
+    143.9,
+    890.4,
+    172.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3.",
+   "size": 32,
+   "bbox": [
+    856,
+    253.9,
+    890.4,
+    282.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4.",
+   "size": 32,
+   "bbox": [
+    856,
+    363.9,
+    890.4,
+    392.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "5.",
+   "size": 32,
+   "bbox": [
+    856,
+    473.9,
+    890.4,
+    502.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [
+  [
+   580.8,
+   97.4,
+   846,
+   45.3
+  ],
+  [
+   580.8,
+   186.8,
+   846,
+   155.3
+  ],
+  [
+   606.4,
+   276.1,
+   846,
+   265.3
+  ],
+  [
+   315.2,
+   332.5,
+   846,
+   375.3
+  ],
+  [
+   219.2,
+   358.3,
+   846,
+   485.3
+  ]
+ ],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "Number 14 Alder Street cut through from the basement to the top flat. A box waits on the top shelf of a cupboard in the top flat, a drawer stands open in a third-floor kitchen, a small plate sits on the wall beside a door on the second floor, a humming cabinet stands in the corner of the ground-floor shop, and a grey box sits in the hall beside it. Five numbered lines run to the right for the learner to write each word, numbered from the top down.",
+ "placed_in": [
+  6.260416666666667,
+  2.3125
+ ],
+ "sha256": "4c51b2e6894adf193a942e28e196e1025dd2dbc34bafb193378e9e356d4e129e"
+}

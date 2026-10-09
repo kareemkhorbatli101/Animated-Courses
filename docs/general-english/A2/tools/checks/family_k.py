@@ -1,4 +1,4 @@
-"""K · Regression and drift guards — 18 checks.
+"""K · Regression and drift guards — 21 checks.
 
 These are the checks that watch the other 212 and the spec they come from.
 """
@@ -143,7 +143,8 @@ def k14(units, ctx):
     # The fixtures are literal strings from one book, so the suite runs there and
     # the report is read from there whichever volume is being validated. The
     # mutations test the shared check code, not a volume's prose.
-    from mutations import FIXTURE_BOOK
+    import level as LV, mutations as MU
+    FIXTURE_BOOK = MU.FIXTURE_BOOK_FOR.get(LV.level(ctx.book), MU.FIXTURE_BOOK)
     r = ctx.mutation_report
     if r is None and ctx.book != FIXTURE_BOOK:
         r = _fixture_report(ctx, FIXTURE_BOOK)
@@ -164,8 +165,22 @@ def k14(units, ctx):
 
 @check('K15', 'fixtures', 'Every check has a negative test that it catches', scope='book')
 def k15(units, ctx):
-    from mutations import MUTATIONS
-    missing = sorted(set(REGISTRY) - set(MUTATIONS) - {c.id for c in REGISTRY.values() if c.gate})
+    # Four checks cannot be mutation-tested at the lowest level, because at the
+    # lowest level they are vacuous by design: F19, K19, K20 and K21 all read
+    # the level BELOW this one, and A2 has none. Their fixtures live in the
+    # level above's set, and mutations.CROSS_LEVEL names them with that reason
+    # rather than letting them sit silently uncovered -- which is exactly the
+    # hole K15 exists to close.
+    from mutations import MUTATIONS, MUTATIONS_B1, CROSS_LEVEL
+    import level as LV
+    gates = {c.id for c in REGISTRY.values() if c.gate}
+    # The suite is ONE copy of the code, so a fixture that proves a check at any
+    # level proves it at every level: MUTATIONS is anchored to A2.1's text and
+    # MUTATIONS_B1 carries only the four that A2 structurally cannot test.
+    covered = set(MUTATIONS) | set(MUTATIONS_B1) | gates
+    if LV.level(ctx.book) == 'A2':
+        covered |= set(CROSS_LEVEL)
+    missing = sorted(set(REGISTRY) - covered)
     return expect(not missing, f'{len(missing)} checks with no negative test: {missing[:10]}')
 
 @check('K16', 'plan', 'Check count >= 200 is itself asserted', scope='book')
@@ -185,3 +200,194 @@ def k17(units, ctx):
 def k18(units, ctx):
     orphan = [c.id for c in REGISTRY.values() if not c.clause or c.clause == '?']
     return expect(not orphan, f'orphan checks: {orphan}')
+
+
+# --- K19, K20, K21: the cross-level regression guards ------------------------
+
+_K20_EXPECT: dict = {}
+
+@check('K19', 'ledgers/grammar.spine',
+       'Every point of the level below is recycled in >= 3 Spiral Reviews and '
+       'none is presented as new', scope='book')
+def k19(units, ctx):
+    """The lower level's spine is recycled, not re-taught.
+
+    Two clauses, because the first alone is satisfiable by a book that also
+    re-teaches. The second reads the Grammar Focus Box specifically: that is
+    the one sub-section whose job is to introduce, so a lower-level point
+    appearing there is the definition of re-teaching, whatever the unit's
+    stated point is.
+    """
+    import level as LV
+    lv = LV.level(ctx.book)
+    below = {'B1': 'A2'}.get(lv)
+    if below is None:
+        return ok(f'{lv} has no level below it')
+    p = os.path.join(LV.level_root(ctx.root, below), 'ledgers', 'grammar.yaml')
+    if not os.path.exists(p):
+        return fail(f'no {below} grammar ledger at {p}')
+    low = yaml.safe_load(open(p, encoding='utf-8'))
+    if not units:
+        return ok(f'no {lv} units yet')
+    # A point is "named" when a recognisable piece of its own wording appears.
+    # The first version stripped the punctuation BEFORE splitting on it, so
+    # every point collapsed to one long key that no text could ever contain --
+    # 'present perfect - experience, ever/never' became the single string
+    # 'present perfect   experience  ever never'. The check could not fail, and
+    # its own mutation fixture escaped, which is what found it. Split first.
+    def keys(point):
+        parts = re.split(r'\s*/\s*|\s*,\s*|\s+[-\u2014]\s+', str(point).lower())
+        out = []
+        for i, k in enumerate(parts):
+            k = re.sub(r'\s+', ' ', re.sub(r'[^a-z ]', ' ', k)).strip()
+            if len(k) > 4 and (i == 0 or ' ' in k):
+                out.append(k)
+        return out
+    counts, retaught = {}, []
+    for un, rec in sorted(low['spine'].items()):
+        counts[int(un)] = 0
+    for u in units:
+        spiral = next((s for s in u.subs
+                       if s.heading == 'Part 10: Spiral Review'), None)
+        box = next((s for s in u.subs
+                    if s.heading == 'Part 2: Grammar Focus Box'), None)
+        for un, rec in low['spine'].items():
+            ks = keys(rec['point'])
+            if spiral and any(k in spiral.text.lower() for k in ks):
+                counts[int(un)] += 1
+            if box and any(k in box.text.lower() for k in ks):
+                # Only flag a Focus Box that does not also teach its OWN point:
+                # 'present perfect continuous' legitimately names 'present
+                # perfect' while introducing the continuous.
+                own = ' '.join(keys(ctx.grammar['spine'][u.num]['point']))
+                hit = next(k for k in ks if k in box.text.lower())
+                if hit not in own:
+                    retaught.append(f'U{u.num} Focus Box names {below} U{un} '
+                                    f'({hit!r})')
+    need = 3
+    thin = [f'{below} U{un} in {n} Spiral Reviews' for un, n in sorted(counts.items())
+            if n < need]
+    if len(units) < 10:
+        # Partial volume: the three-review requirement is a whole-volume claim.
+        return ok(f'{len(units)} of 10 units; {len(retaught)} re-teaching(s)'
+                  if not retaught else f're-teaching: {retaught[:4]}') \
+            if not retaught else fail(f're-teaching: {retaught[:4]}')
+    bad = retaught + thin
+    return expect(not bad, '; '.join(bad[:6]))
+
+
+@check('K20', 'runner', 'The shared toolchain produces byte-identical output '
+                        'for the level below', scope='book')
+def k20(units, ctx):
+    """The one-symlink toolchain, verified rather than reasoned about.
+
+    `B1/tools` is a symlink to `A2/tools`, so a change made for B1 is a change
+    made to A2's toolchain. Nothing moved, so A2's output cannot move -- that
+    is the argument, and this is the measurement. It re-draws every one of the
+    lower level's figures from that level's own content modules and compares
+    the SVG, which is G32 pointed at the other level.
+    """
+    import importlib.util, level as LV
+    lv = LV.level(ctx.book)
+    below = {'B1': 'A2'}.get(lv)
+    if below is None:
+        return ok(f'{lv} has no level below it')
+    root = LV.level_root(ctx.root, below)
+    if not os.path.isdir(os.path.join(root, 'figures')):
+        return ok(f'{below} has no rendered figures')
+    import sys
+    saved = sys.path[:]
+    try:
+        import figures as F
+        # The expected SVG for the level below depends only on the content
+        # modules and the figure code, neither of which a mutation touches --
+        # only files on disk do. Caching it is the difference between the
+        # mutation suite taking eight minutes and taking over twenty: without
+        # it, 820 figures are re-drawn for each of 223 fixtures.
+        if not _K20_EXPECT:
+            for book in sorted(os.listdir(os.path.join(root, 'figures'))):
+                d = os.path.join(root, 'content', book)
+                if not os.path.isdir(d):
+                    continue
+                for fn in sorted(os.listdir(d)):
+                    m = re.fullmatch(r'u(\d\d)_figures\.py', fn)
+                    if not m:
+                        continue
+                    spec = importlib.util.spec_from_file_location(
+                        f'_k20e_{book}_{m.group(1)}', os.path.join(d, fn))
+                    mod = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(mod)
+                    fp = set(ctx.spec['figures'].get('full_page_slots') or [])
+                    for slot, make in mod.FIGURES.items():
+                        f = make()
+                        if slot not in fp:
+                            f = F.tighten(f)
+                        _K20_EXPECT[(book, int(m.group(1)), slot)] = f.svg()
+        # figures.ROOT is resolved from __file__ and is the CURRENT level, so
+        # the drawing code is shared but the paths are not. Only `emit` writes;
+        # svg() does not touch the filesystem, so nothing of A2's is rewritten.
+        bad, n = [], 0
+        for (book, unit, slot), want in sorted(_K20_EXPECT.items()):
+            p = os.path.join(root, 'figures', book, f'u{unit:02d}-{slot}.svg')
+            if not os.path.exists(p):
+                continue
+            n += 1
+            if open(p, encoding='utf-8').read() != want:
+                bad.append(f'{book} u{unit:02d}.{slot}')
+    finally:
+        sys.path[:] = saved
+    if not n:
+        return ok(f'{below} has no figures to compare')
+    return expect(not bad, f'{len(bad)} of {n} {below} figures drift under the '
+                           f'shared toolchain: {bad[:6]}')
+
+
+@check('K21', 'ledgers/grammar.cefrj_disposition',
+       'Every CEFR-J grammar family at this level has a declared disposition',
+       scope='book')
+def k21(units, ctx):
+    """The coverage audit, made permanent.
+
+    The B1 plan's first version named 23 of the profile's 29 B1 families and
+    nobody could have told without doing this by hand. It reads the profile CSV
+    rather than a hand-written list, so it measures the source and not a copy
+    of it.
+    """
+    import csv, level as LV
+    lv = LV.level(ctx.book)
+    p = os.path.join(ctx.root, 'spec', 'wordlists', 'source', 'grammar.csv')
+    if not os.path.exists(p):
+        return ok(f'no grammar profile at this level ({p} absent)')
+    disp = ctx.grammar.get('cefrj_disposition') or {}
+    if not disp:
+        return fail('spec/wordlists/source/grammar.csv exists but '
+                    'ledgers/grammar.yaml declares no cefrj_disposition')
+    rows = list(csv.DictReader(open(p, encoding='utf-8')))
+    def lvl(r):
+        for c in ('CEFR-J Level', 'Core Inventory', 'EGP', 'GSELO'):
+            v = (r.get(c) or '').strip()
+            if v:
+                return v
+        return ''
+    fams, nrows = {}, 0
+    for r in rows:
+        if not lvl(r).upper().startswith(lv):
+            continue
+        nrows += 1
+        fams.setdefault(r['Shorthand Code'].split('.')[0], 0)
+        fams[r['Shorthand Code'].split('.')[0]] += 1
+    if not fams:
+        return fail(f'no {lv} rows found in the grammar profile')
+    missing = sorted(set(fams) - set(disp))
+    orphan = sorted(set(disp) - set(fams))
+    howbad = sorted(f for f, d in disp.items()
+                    if d.get('how') not in ('taught', 'recycled'))
+    bad = []
+    if missing:
+        bad.append(f'{len(missing)} families with no disposition: {missing}')
+    if orphan:
+        bad.append(f'{len(orphan)} dispositions for families not at {lv}: {orphan}')
+    if howbad:
+        bad.append(f'`how` must be taught or recycled: {howbad}')
+    return expect(not bad, '; '.join(bad)) if bad else \
+        ok(f'all {len(fams)} {lv} families ({nrows} rows) have a disposition')

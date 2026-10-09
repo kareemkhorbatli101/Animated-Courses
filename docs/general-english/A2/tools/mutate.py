@@ -16,6 +16,7 @@ import json as _json              # noqa: E402
 import model as M                 # noqa: E402
 import checks as C                # noqa: E402
 import runner as R                # noqa: E402
+import mutations as _mut           # noqa: E402
 from mutations import MUTATIONS   # noqa: E402
 
 ARTEFACT = {'needs_artefact'}
@@ -27,6 +28,12 @@ KEYALLKIND = {'keyall'}
 MULTIUNIT = {'needs_units'}
 NOFAIL = {'needs_check'}
 STATIC = {'registry', 'rename', 'sha'}
+
+# One copy of tools/ serves both levels, so the fixture set is chosen by the
+# level the run is in -- see mutations.for_level and its comment.
+import level as _LV                # noqa: E402
+_LEVEL = os.path.basename(ROOT)
+_SET = _mut.for_level(_LEVEL)
 
 
 def _apply_png(path, meta):
@@ -138,7 +145,13 @@ def run(book='a21', verbose=False):
     caught, escaped, deferred, broken = [], [], [], []
     tmp = tempfile.mkdtemp(prefix='mutate-')
     try:
-        for cid, (kind, fn) in sorted(MUTATIONS.items()):
+        import figures as _FIGMOD
+        _FIG_CLEAN = dict(_FIGMOD.__dict__)
+        for cid, (kind, fn) in sorted(_SET.items()):
+            # One mutation kind replaces a function in `figures` rather than a
+            # file (G33's, which puts a truncating figure job back). Restore the
+            # module every time round, so nothing leaks into the next fixture.
+            _FIGMOD.__dict__.clear(); _FIGMOD.__dict__.update(_FIG_CLEAN)
             chk = reg[cid]
             # --- artefact-dependent mutations: only meaningful once built
             if kind in ARTEFACT:
@@ -306,6 +319,45 @@ def run(book='a21', verbose=False):
                         _apply_png(os.path.join(dst, jf[:-5] + '.png'), meta)
                         _json.dump(meta, open(os.path.join(dst, jf), 'w'))
                     # the spec and ledgers still live in the real root
+                    ctx.spec_root = ROOT
+                elif kind == 'figcode':
+                    # The only mutation that changes CODE rather than a file.
+                    # G33 reads what a figure job did with the lines it was
+                    # given, so its negative test has to be a job that drops
+                    # one. The loop head restores `figures` every iteration.
+                    fn(_FIGMOD)
+                elif kind == 'svg_below':
+                    # K20's negative test. K20 reads the level BELOW this one,
+                    # so neither a unit nor a figure mutation of THIS level can
+                    # reach it. Copy that level's SVGs and content modules into
+                    # the scratch tree, corrupt them, and point this level's
+                    # root at a sibling inside it -- which is the only way to
+                    # make a cross-level check fail without touching the real
+                    # files of a level that is already shipped.
+                    import level as LVX
+                    below = {'B1': 'A2'}.get(_LEVEL)
+                    src = LVX.level_root(ROOT, below) if below else None
+                    if not src or not os.path.isdir(os.path.join(src, 'figures')):
+                        deferred.append((cid, 'svg_below: no level below')); continue
+                    dsub = os.path.join(tmp, 'tree')
+                    shutil.rmtree(dsub, ignore_errors=True)
+                    for sub in ('figures', 'content'):
+                        for dirpath, _, files in os.walk(os.path.join(src, sub)):
+                            rel = os.path.relpath(dirpath, src)
+                            out = os.path.join(dsub, below, rel)
+                            os.makedirs(out, exist_ok=True)
+                            for fn2 in files:
+                                if fn2.endswith(('.svg', '.py')):
+                                    shutil.copy(os.path.join(dirpath, fn2),
+                                                os.path.join(out, fn2))
+                    for dirpath, _, files in os.walk(os.path.join(dsub, below, 'figures')):
+                        for fn2 in files:
+                            if fn2.endswith('.svg'):
+                                q = os.path.join(dirpath, fn2)
+                                open(q, 'w', encoding='utf-8').write(
+                                    fn(open(q, encoding='utf-8').read()))
+                    os.makedirs(os.path.join(dsub, _LEVEL), exist_ok=True)
+                    ctx.root = os.path.join(dsub, _LEVEL)
                     ctx.spec_root = ROOT
                 elif kind == 'svg':
                     # G32 compares the SVG beside each PNG against the SVG the

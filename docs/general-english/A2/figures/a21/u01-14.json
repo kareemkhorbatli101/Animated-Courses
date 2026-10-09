@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  575
  ],
  "bounds": [
   53.0,
-  25.1,
+  28.5,
   1387.0,
-  481.1
+  546.5
  ],
  "texts": [
   {
@@ -15,9 +15,21 @@
    "size": 28,
    "bbox": [
     137.5,
-    59.8,
+    64.3,
     225.7,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "morning",
+   "size": 28,
+   "bbox": [
+    115.7,
+    98.3,
+    247.5,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +39,9 @@
    "size": 28,
    "bbox": [
     375.0,
-    59.8,
+    81.3,
     526.6,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +51,9 @@
    "size": 28,
    "bbox": [
     663.6,
-    59.8,
+    81.3,
     776.4,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +63,9 @@
    "size": 28,
    "bbox": [
     913.3,
-    59.8,
+    81.3,
     1065.1,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +75,9 @@
    "size": 28,
    "bbox": [
     1168.1,
-    59.8,
+    81.3,
     1348.6,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +87,9 @@
    "size": 34,
    "bbox": [
     234.6,
-    201.1,
+    238.5,
     521.4,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -87,9 +99,9 @@
    "size": 34,
    "bbox": [
     875.9,
-    201.1,
+    238.5,
     1248.1,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -102,7 +114,7 @@
  "alt": "The five time words of this unit as chips above two empty bins, one for the present simple and one for the present continuous. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.5
  ],
- "sha256": "4b481810222f53caf07672225d0e0510f9cd59f8d6b472eedbf14a958e32f91f"
+ "sha256": "b3e1fe6e91914022ac08d138675a748a01504dd0dc8ed16d85ba7b48140e52fd"
 }

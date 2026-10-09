@@ -1,0 +1,204 @@
+{
+ "canvas": [
+  1440,
+  428
+ ],
+ "bounds": [
+  47,
+  21.2,
+  1393,
+  407.2
+ ],
+ "texts": [
+  {
+   "text": "7.20",
+   "size": 34,
+   "bbox": [
+    148.1,
+    131.2,
+    231.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "every light",
+   "size": 28,
+   "bbox": [
+    104.7,
+    267.9,
+    275.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "goes out",
+   "size": 28,
+   "bbox": [
+    121.4,
+    303.9,
+    258.6,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7.21",
+   "size": 34,
+   "bbox": [
+    413.1,
+    131.2,
+    496.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Dani shouting",
+   "size": 28,
+   "bbox": [
+    344.9,
+    267.9,
+    565.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "on the landing",
+   "size": 28,
+   "bbox": [
+    340.5,
+    303.9,
+    569.5,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7.25",
+   "size": 34,
+   "bbox": [
+    678.1,
+    131.2,
+    761.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina lights",
+   "size": 28,
+   "bbox": [
+    620.9,
+    267.9,
+    819.1,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the candle",
+   "size": 28,
+   "bbox": [
+    636.9,
+    303.9,
+    803.1,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "7.32",
+   "size": 34,
+   "bbox": [
+    943.1,
+    131.2,
+    1026.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Amina called the",
+   "size": 26,
+   "bbox": [
+    862.1,
+    268.7,
+    1107.9,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "emergency line",
+   "size": 26,
+   "bbox": [
+    872.3,
+    302.7,
+    1097.7,
+    326.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "9.10",
+   "size": 34,
+   "bbox": [
+    1208.1,
+    131.2,
+    1291.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the supply",
+   "size": 28,
+   "bbox": [
+    1166.7,
+    267.9,
+    1333.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "comes back",
+   "size": 28,
+   "bbox": [
+    1157.7,
+    303.9,
+    1342.3,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "One evening on a line: at twenty past seven every light goes out, a minute later Dani is shouting on the landing, at twenty-five past Amina lights the candle she keeps behind the counter, at half past she called the emergency line, and at ten past nine the supply comes back.",
+ "placed_in": [
+  6.260416666666667,
+  1.8645833333333333
+ ],
+ "sha256": "58f07ab6c614391460d80aea40af02653f008b7398a878679a1d266e33b4f8af"
+}

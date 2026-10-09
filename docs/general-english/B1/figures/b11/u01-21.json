@@ -1,0 +1,228 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 the stairs",
+   "size": 34,
+   "bbox": [
+    185.9,
+    48.2,
+    554.1,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say where you were",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    452.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "standing",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    276.5,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say how long you",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    411.5,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "waited",
+   "size": 28,
+   "bbox": [
+    138.0,
+    268.9,
+    244.8,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what could have",
+   "size": 28,
+   "bbox": [
+    138.0,
+    320.9,
+    459.8,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "happened",
+   "size": 28,
+   "bbox": [
+    138.0,
+    354.9,
+    294.9,
+    379.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask for a light above the",
+   "size": 28,
+   "bbox": [
+    138.0,
+    406.9,
+    525.3,
+    431.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stairs",
+   "size": 28,
+   "bbox": [
+    138.0,
+    440.9,
+    227.0,
+    465.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 tonight",
+   "size": 34,
+   "bbox": [
+    907.6,
+    48.2,
+    1232.4,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say what you could not",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1203.4,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "find",
+   "size": 28,
+   "bbox": [
+    838.0,
+    182.9,
+    898.7,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what the fund has",
+   "size": 28,
+   "bbox": [
+    838.0,
+    234.9,
+    1188.0,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "bought",
+   "size": 28,
+   "bbox": [
+    838.0,
+    268.9,
+    950.6,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what twenty-two",
+   "size": 28,
+   "bbox": [
+    838.0,
+    320.9,
+    1168.5,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "pounds buys",
+   "size": 28,
+   "bbox": [
+    838.0,
+    354.9,
+    1038.5,
+    379.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "answer the objection",
+   "size": 28,
+   "bbox": [
+    838.0,
+    406.9,
+    1170.6,
+    431.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two role-play cards side by side. Card A, the stairs: say where you were standing, say how long you waited, say what could have happened, ask for a light above the stairs. Card B, tonight: say what you could not find, say what the fund has bought, say what twenty-two pounds buys, answer the objection.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "3c05ce582ee93e47beb6780208c167a0f80bbda87cce2297fa137463dcbc6b91"
+}

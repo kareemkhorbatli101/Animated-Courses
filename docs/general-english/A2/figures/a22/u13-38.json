@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  629
+  687
  ],
  "bounds": [
   47.0,
   30,
   1393.0,
-  599.2
+  657
  ],
  "texts": [
   {
@@ -210,7 +210,7 @@
  "alt": "The decision task as one question and three branches, with what each one costs: write them on a notice, which makes a building sound like a station; tell each new person yourself, which is a way of meeting them; or leave it, and a new person finds out when somebody tells them off.",
  "placed_in": [
   6.260416666666667,
-  2.7395833333333335
+  2.9895833333333335
  ],
- "sha256": "cfa98655f974a88508f539f9d4f84c23916fa16689f3071679b3a70b274772c1"
+ "sha256": "850ca577f094c41a2320206a1fe20d2717a5e21095781b51db828a1267928fe3"
 }

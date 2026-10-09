@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  537
  ],
  "bounds": [
   53.0,
-  25.1,
+  26.6,
   1387.0,
-  481.1
+  510.6
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     118.0,
-    59.8,
+    62.4,
     245.2,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     348.0,
-    59.8,
+    62.4,
     553.6,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     679.2,
-    59.8,
+    62.4,
     760.8,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     897.4,
-    59.8,
+    62.4,
     1081.0,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 28,
    "bbox": [
     1211.1,
-    59.8,
+    62.4,
     1305.7,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -75,9 +75,9 @@
    "size": 34,
    "bbox": [
     276.1,
-    201.1,
+    202.6,
     479.9,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -87,9 +87,9 @@
    "size": 34,
    "bbox": [
     921.5,
-    201.1,
+    202.6,
     1202.5,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -102,7 +102,7 @@
  "alt": "The five comparing words of this task as chips above two empty bins, one for comparing two things and one for comparing more than two. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.3333333333333335
  ],
- "sha256": "7777f5d820b4dea7a97adbc33970be62efbadfc9de141e3f324e89ef4986de1e"
+ "sha256": "690d94659138a6e6f32a3e3b0d57ba1b458dbb999fb940793a8b462a3a8f3d2f"
 }

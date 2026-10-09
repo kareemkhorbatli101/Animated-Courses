@@ -1,0 +1,144 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two reasons",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    396.2,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "In my opinion it was nobody\u2019s fault.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    1134.1,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "while or when at least",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    565.6,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "The cable was old and water was getting",
+   "size": 26,
+   "bbox": [
+    670,
+    239.2,
+    1203.4,
+    262.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "into.",
+   "size": 26,
+   "bbox": [
+    670,
+    269.2,
+    727.6,
+    292.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "your opinion in the first",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    591.0,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "That is quick.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    843.6,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the opinion paragraph in three steps -- two reasons, while or when at least, your opinion in the first -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "6d4f43d72e76e764fff0d2422028103bbc7d9984f192e6b4bd2521d1486a068e"
+}

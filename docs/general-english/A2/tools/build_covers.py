@@ -21,8 +21,7 @@ VOL = {'a21': dict(volume=1, title='Everyday Life',
                               strap='Plans, rules, stories and the road out.')),
        'b11': dict(volume=1, title='Looking Back',
                    theme=dict(icons=['clock', 'notebook', 'moon', 'home', 'bus'],
-                              strap='What happened, what used to be, '
-                                    'and what might have been.')),
+                              strap='What happened, and what nearly did.')),
        'b12': dict(volume=2, title='Making Yourself Clear',
                    theme=dict(icons=['person', 'sign', 'shop', 'school', 'sun'],
                               panel='dark',
@@ -50,6 +49,30 @@ BLURB = {
          "there when you want it, and optional when you are not. Answers for every "
          "closed question are in the book, and every open task has marking points "
          "and a sample answer for the person teaching it."),
+ 'b11': ("English for Daily Life at B1 picks up the same six people two years later, "
+         "on the same street, and gives them the past behind the past and the things "
+         "that never happened: what was going on when something interrupted it, how "
+         "long it has been going on, what had already happened by the time anybody "
+         "said anything, what the rent used to be, what would happen if the money "
+         "came, and what would have happened if they had taken the other flat. Ten "
+         "units, each with the same eleven parts and the same support as at A2: a "
+         "worked example at the top of almost every task, a model before every piece "
+         "of writing, a word bank under every gap-fill and a checklist before you hand "
+         "anything in. The readings and the recordings are twice the length they were, "
+         "because that is what the level is. The Core track is for everybody; the Plus "
+         "track is there when you want it. Answers for every closed question are in "
+         "the book."),
+ 'b12': ("Volume two is about making yourself understood when the thing you have to "
+         "say is complicated: where something was made and how it got here, giving up "
+         "a habit, too many people in too little room, a thing that was nothing like "
+         "the picture, the woman whose name is on the bridge, what the group chat said "
+         "and whether any of it was true, how to ask a council something, fixing what "
+         "you own, and putting a case so that somebody hears it. It ends at the border "
+         "between B1 and B2. As in volume one, every unit carries a worked example at "
+         "the top of almost every task, a filled model before every piece of writing, "
+         "a word bank under every gap-fill, and a checklist before you hand anything "
+         "in. Answers for every closed question are in the book, and every open task "
+         "has marking points and a sample answer for the person teaching it."),
 }
 
 
@@ -77,12 +100,15 @@ def build(book='a21'):
     n_label = WORDS.get(len(titles), f'{len(titles)} units')
     # the blurb must describe the book that exists, not the one that is planned
     blurb = BLURB[book].replace('Ten units', n_label, 1)
-    f = CV.front(v['volume'], v['title'], titles, v['theme'], n_units_label=n_label)
+    lv = LV.level(book)
+    f = CV.front(v['volume'], v['title'], titles, v['theme'],
+                 n_units_label=n_label, level=lv)
     CV.emit(f, book, 'front', {'theme': book, 'volume': v['volume'],
-                               'title': v['title'], 'level': LV.level(book)})
-    b = CV.back(v['volume'], v['title'], blurb, titles, grammar, can_do, v['theme'])
+                               'title': v['title'], 'level': lv})
+    b = CV.back(v['volume'], v['title'], blurb, titles, grammar, can_do,
+                v['theme'], level=lv)
     CV.emit(b, book, 'back', {'theme': book, 'volume': v['volume'], 'title': v['title'],
-                              'level': LV.level(book), 'blurb': blurb,
+                              'level': lv, 'blurb': blurb,
                               'units': titles,
                               'grammar': grammar, 'can_do': can_do,
                               'unit_count': len(titles)})

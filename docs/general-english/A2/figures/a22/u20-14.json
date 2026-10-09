@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  575
  ],
  "bounds": [
   53.0,
-  25.1,
+  28.5,
   1387.0,
-  481.1
+  546.5
  ],
  "texts": [
   {
@@ -15,9 +15,21 @@
    "size": 28,
    "bbox": [
     120.1,
-    59.8,
+    64.3,
     310.4,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "outside",
+   "size": 28,
+   "bbox": [
+    156.3,
+    98.3,
+    274.2,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +39,21 @@
    "size": 28,
    "bbox": [
     427.6,
-    59.8,
+    64.3,
     675.9,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "outside",
+   "size": 28,
+   "bbox": [
+    492.8,
+    98.3,
+    610.7,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +63,9 @@
    "size": 28,
    "bbox": [
     744.8,
-    59.8,
+    81.3,
     1031.7,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +75,21 @@
    "size": 28,
    "bbox": [
     1108.3,
-    59.8,
+    64.3,
     1341.2,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "down",
+   "size": 28,
+   "bbox": [
+    1182.2,
+    98.3,
+    1267.3,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +99,9 @@
    "size": 34,
    "bbox": [
     338.4,
-    201.1,
+    238.5,
     417.6,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +111,9 @@
    "size": 34,
    "bbox": [
     1024.2,
-    201.1,
+    238.5,
     1099.8,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +126,7 @@
  "alt": "The four sentences of this task as chips above two empty bins, one for said and one for told. Which chip goes in which bin is the exercise, so none of them is placed. Only one of the two takes a person straight after it.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.5
  ],
- "sha256": "f6eaa7621c8407a060d8b6916cd0fe4c0286fd2c21b0b2b11248f70f0d1b3516"
+ "sha256": "4bfc663c971177052ee20fd59a732324f2e5ee4bfe45e143a4c2253b57575380"
 }

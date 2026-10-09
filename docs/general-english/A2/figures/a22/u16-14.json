@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  575
  ],
  "bounds": [
   53.0,
-  25.1,
+  28.5,
   1387.0,
-  481.1
+  546.5
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     80.7,
-    59.8,
+    81.3,
     349.8,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     415.4,
-    59.8,
+    81.3,
     688.1,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     773.9,
-    59.8,
+    81.3,
     1002.6,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,21 @@
    "size": 28,
    "bbox": [
     1110.0,
-    59.8,
+    64.3,
     1339.5,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "years",
+   "size": 28,
+   "bbox": [
+    1181.4,
+    98.3,
+    1268.1,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +75,9 @@
    "size": 34,
    "bbox": [
     301.5,
-    201.1,
+    238.5,
     454.5,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +87,9 @@
    "size": 34,
    "bbox": [
     966.6,
-    201.1,
+    238.5,
     1157.4,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +102,7 @@
  "alt": "The four phrases of this task as chips above two empty bins, one for a finished time and one for a time running up to now. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.5
  ],
- "sha256": "ab9d18008ed1aa0446b7a7f5dcf3014571c460937b3c2154a98ed710591ba071"
+ "sha256": "fca65ab0b53d398af2d2ca674510a9c41c86e857822e8156533abcdc762a3dde"
 }

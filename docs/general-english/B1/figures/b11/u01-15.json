@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  551
+ ],
+ "bounds": [
+  51,
+  27.3,
+  1389,
+  523.3
+ ],
+ "texts": [
+  {
+   "text": "While Maya was reading, the",
+   "size": 28,
+   "bbox": [
+    134,
+    58.0,
+    590.7,
+    82.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "lights was going out.",
+   "size": 28,
+   "bbox": [
+    134,
+    92.0,
+    466.0,
+    116.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "\u2026the lights went out.",
+   "size": 28,
+   "bbox": [
+    842.0,
+    58.0,
+    1182.2,
+    82.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "I was knowing the answer before",
+   "size": 28,
+   "bbox": [
+    134,
+    184.0,
+    657.6,
+    208.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "he had finished.",
+   "size": 28,
+   "bbox": [
+    134,
+    218.0,
+    387.9,
+    242.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas was carrying the bags",
+   "size": 28,
+   "bbox": [
+    134,
+    310.0,
+    592.7,
+    334.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "when he was putting them down.",
+   "size": 28,
+   "bbox": [
+    134,
+    344.0,
+    661.4,
+    368.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "While we waiting on the stairs,",
+   "size": 28,
+   "bbox": [
+    134,
+    436.0,
+    625.1,
+    460.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "nobody said anything.",
+   "size": 28,
+   "bbox": [
+    134,
+    470.0,
+    486.1,
+    494.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 4,
+ "alt": "The four sentences of the correction task, each with the wrong form struck through. The first is corrected for you; the other three have a line to write the correction on.",
+ "placed_in": [
+  6.260416666666667,
+  2.3958333333333335
+ ],
+ "sha256": "1b688f53c490e29831d35704ec892f89633b34eaacd45d49b4573bbafe182f45"
+}

@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  577
+ ],
+ "bounds": [
+  74.0,
+  28.6,
+  1366.0,
+  548.7
+ ],
+ "texts": [
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    229.6,
+    203.5,
+    330.4,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was reading in bed",
+   "size": 28,
+   "bbox": [
+    147.0,
+    244.2,
+    413.0,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas",
+   "size": 34,
+   "bbox": [
+    659.7,
+    203.5,
+    780.3,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was coming up the stairs",
+   "size": 28,
+   "bbox": [
+    544.2,
+    244.2,
+    895.8,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Amina",
+   "size": 34,
+   "bbox": [
+    1099.7,
+    203.5,
+    1220.3,
+    233.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was serving a customer",
+   "size": 28,
+   "bbox": [
+    993.2,
+    244.2,
+    1326.8,
+    268.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    483.5,
+    323.5,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was watching a film",
+   "size": 28,
+   "bbox": [
+    140.6,
+    524.2,
+    419.4,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    601.0,
+    483.5,
+    839.0,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was sitting by the window",
+   "size": 28,
+   "bbox": [
+    537.7,
+    524.2,
+    902.3,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    1119.7,
+    483.5,
+    1200.3,
+    513.9
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was working, as always",
+   "size": 28,
+   "bbox": [
+    995.4,
+    524.2,
+    1324.6,
+    548.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "What each of the six people at number 14 was doing at twenty past seven: Maya was reading in bed, Tomas was coming up the stairs with shopping, Amina was serving a customer, Dani was watching a film, Mr Okonkwo was sitting by the window, and Yuki was working.",
+ "placed_in": [
+  6.260416666666667,
+  2.5104166666666665
+ ],
+ "sha256": "49b7ec717522aa2c5d6baa6f08dce257f6def3d65dfcea32e1c04efae890ef45"
+}

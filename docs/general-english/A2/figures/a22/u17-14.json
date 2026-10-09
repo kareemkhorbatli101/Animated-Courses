@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  575
  ],
  "bounds": [
   53.0,
-  25.1,
+  28.5,
   1387.0,
-  481.1
+  546.5
  ],
  "texts": [
   {
@@ -15,9 +15,21 @@
    "size": 28,
    "bbox": [
     112.1,
-    59.8,
+    64.3,
     318.4,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "hand",
+   "size": 28,
+   "bbox": [
+    175.8,
+    98.3,
+    254.7,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +39,21 @@
    "size": 28,
    "bbox": [
     435.8,
-    59.8,
+    64.3,
     667.7,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "thousand",
+   "size": 28,
+   "bbox": [
+    477.7,
+    98.3,
+    625.8,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +63,21 @@
    "size": 28,
    "bbox": [
     777.3,
-    59.8,
+    64.3,
     999.2,
-    84.3
+    88.8
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "twice",
+   "size": 28,
+   "bbox": [
+    846.0,
+    98.3,
+    930.5,
+    122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +87,9 @@
    "size": 28,
    "bbox": [
     1083.6,
-    59.8,
+    81.3,
     1365.9,
-    84.3
+    105.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +99,9 @@
    "size": 34,
    "bbox": [
     319.9,
-    201.1,
+    238.5,
     436.1,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +111,9 @@
    "size": 34,
    "bbox": [
     989.7,
-    201.1,
+    238.5,
     1134.3,
-    231.5
+    268.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +126,7 @@
  "alt": "The four sentences of this task as chips above two empty bins, one for the sentences that name the maker and one for the sentences that do not. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.5
  ],
- "sha256": "6bd71d59bc947f39aa57d9c471ff1e150737544c40f66bede70e43aa24218cf1"
+ "sha256": "7cd7b3314a2cf80d2373a16cdfcabb2931648b8232a126f8a00c2a5b6adeb915"
 }

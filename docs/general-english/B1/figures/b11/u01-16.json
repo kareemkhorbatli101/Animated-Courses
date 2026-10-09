@@ -1,0 +1,168 @@
+{
+ "canvas": [
+  1440,
+  473
+ ],
+ "bounds": [
+  57.0,
+  23.4,
+  1383.0,
+  449.4
+ ],
+ "texts": [
+  {
+   "text": "Track 1.2",
+   "size": 28,
+   "bbox": [
+    195.0,
+    50.1,
+    338.3,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tomas",
+   "size": 32,
+   "bbox": [
+    209.9,
+    287.0,
+    323.4,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "twenty minutes on the",
+   "size": 26,
+   "bbox": [
+    119.4,
+    356.9,
+    414.0,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stairs",
+   "size": 26,
+   "bbox": [
+    231.1,
+    388.9,
+    302.2,
+    412.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 1.3",
+   "size": 28,
+   "bbox": [
+    648.4,
+    50.1,
+    791.6,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Amina and a",
+   "size": 32,
+   "bbox": [
+    607.7,
+    287.0,
+    832.3,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "customer",
+   "size": 32,
+   "bbox": [
+    635.5,
+    325.0,
+    804.5,
+    353.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "keeping the shop open",
+   "size": 26,
+   "bbox": [
+    571.2,
+    356.9,
+    868.8,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Track 1.4",
+   "size": 28,
+   "bbox": [
+    1101.7,
+    50.1,
+    1245.0,
+    74.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "four of them",
+   "size": 32,
+   "bbox": [
+    1060.4,
+    287.0,
+    1286.2,
+    315.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "four versions of one",
+   "size": 26,
+   "bbox": [
+    1043.7,
+    356.9,
+    1303.0,
+    380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "evening",
+   "size": 26,
+   "bbox": [
+    1121.3,
+    388.9,
+    1225.4,
+    412.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The three listenings in this unit: Tomas describes twenty minutes standing on the stairs in the dark, Amina and a customer talk about keeping the shop open by candle, and four people at number 14 give four different accounts of the same twenty minutes.",
+ "placed_in": [
+  6.260416666666667,
+  2.0520833333333335
+ ],
+ "sha256": "bb94d8ceea6eced2bbdf6ac2652440f5466986ce72f256c2f059c7cb7d94ca60"
+}

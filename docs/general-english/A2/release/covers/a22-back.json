@@ -173,12 +173,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "going to",
+   "text": "going to, present continuous for arrangements",
    "size": 38,
    "bbox": [
     1280,
     1279.8,
-    1436.4,
+    2170.3,
     1313.3
    ],
    "fill": "#6E88AC",
@@ -209,12 +209,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "will",
+   "text": "will, might - predictions and offers",
    "size": 38,
    "bbox": [
     1280,
     1351.8,
-    1342.8,
+    1929.8,
     1385.3
    ],
    "fill": "#6E88AC",
@@ -317,12 +317,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "present perfect - experience",
+   "text": "present perfect - experience, ever/never",
    "size": 38,
    "bbox": [
     1280,
     1567.8,
-    1820.7,
+    2051.4,
     1601.3
    ],
    "fill": "#6E88AC",
@@ -425,12 +425,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "first conditional",
+   "text": "first conditional, time clauses",
    "size": 38,
    "bbox": [
     1280,
     1783.8,
-    1575.9,
+    1839.8,
     1817.3
    ],
    "fill": "#6E88AC",
@@ -497,12 +497,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "reported speech",
+   "text": "reported speech, indirect questions",
    "size": 38,
    "bbox": [
     1280,
     1927.8,
-    1591.3,
+    1954.8,
     1961.3
    ],
    "fill": "#6E88AC",
@@ -678,7 +678,7 @@
   }
  ],
  "alt": "Back cover of English for Daily Life A2 volume 2: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "5593f8791ff18b3a070b103cecc5b7b5974e1cb128c07043a3c4ef43a08c466d",
+ "sha256": "46b9b67c3ba9754bb101399e508029ccf0a84e741075f1eb99643b4d2bb30e1c",
  "theme": "a22",
  "volume": 2,
  "title": "Out in the World",
@@ -697,16 +697,16 @@
   "News, Stories and Messages"
  ],
  "grammar": [
-  "going to",
-  "will",
+  "going to, present continuous for arrangements",
+  "will, might - predictions and offers",
   "must/have to/mustn't/don't have to",
   "should/shouldn't - advice",
-  "present perfect - experience",
+  "present perfect - experience, ever/never",
   "present perfect vs past simple",
   "active and passive",
-  "first conditional",
+  "first conditional, time clauses",
   "defining relative clauses",
-  "reported speech"
+  "reported speech, indirect questions"
  ],
  "can_do": [
   "I can talk about arrangements using the present continuous.",

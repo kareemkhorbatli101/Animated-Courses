@@ -22,10 +22,11 @@ source:
 unit:
   bold_headings: 110
   subsections: 42
-  # Prose, captions excluded. 6,201 is the sum of the eleven part targets in
-  # section 3.3 of the plan, each one derived from the measured A2 length of
-  # the specific text inside it. The band is +/- 6%, as A2's was.
-  words: {target: 6201, min: 5830, max: 6575}
+  # Prose, captions excluded. MEASURED on Unit 1 at the Phase 4 gate: 7,598,
+  # which is 1.51x A2's measured 5,016 and not the 1.24x the plan forecast.
+  # The reason is in the word_budget comment below. The band is +/- 6%, as
+  # A2's was, and narrows when Units 2-10 are measured.
+  words: {target: 7598, min: 7142, max: 8054}
   source_words: null
   figures: 41
   # Figure captions are apparatus, not prose. K11 measures `words` minus these
@@ -161,22 +162,38 @@ devices:
 # counted without the apparatus. `source_target` is untouched and is still the
 # raw measurement from the source book, its own captions included.
 word_budget:
-  # Section 3.3 of 00-MASTER-PLAN.md. Each target is A2's measured part total
-  # plus the measured growth of the one text inside it that B1 changes, and
-  # nothing else moves. `a2_target` keeps A2's number visible so the step is
-  # auditable; `driver` names the text that caused it. Bands are +/- 9%, as
-  # A2's were before they were re-based on measurement; Phase 4 narrows them.
-  'Warm Up': {target: 366, min: 333, max: 399,  a2_target: 310, driver: 'warm-up reading 86 -> 150'}
-  'Part 1':  {target: 715, min: 651, max: 779,  a2_target: 610, driver: 'short writing model 45 -> 80, longer gloss and pronunciation'}
-  'Part 2':  {target: 560, min: 510, max: 610,  a2_target: 442, driver: 'Notice text 61 -> 110, two-way contrast'}
-  'Part 3':  {target: 820, min: 746, max: 894,  a2_target: 487, driver: 'three scripts 72/74/83 -> 200/150/220'}
-  'Part 4':  {target: 421, min: 383, max: 459,  a2_target: 313, driver: 'scenario 125 -> 180, cards 63 -> 100'}
-  'Part 5':  {target: 845, min: 769, max: 921,  a2_target: 562, driver: 'two readings 130/109 -> 300/220'}
-  'Part 6':  {target: 624, min: 568, max: 680,  a2_target: 492, driver: 'four models 62/59/59/52 -> 105/100/100/90'}
-  'Part 7':  {target: 652, min: 593, max: 711,  a2_target: 531, driver: '7B script 104 -> 200, 7E model 66 -> 105'}
-  'Part 8':  {target: 498, min: 453, max: 543,  a2_target: 328, driver: 'Global Story 135 -> 300'}
-  'Part 9':  {target: 475, min: 432, max: 518,  a2_target: 349, driver: 'Close to Home reading 133 -> 280'}
-  'Part 10': {target: 225, min: 205, max: 245,  a2_target: 184, driver: 'fuller glossary gloss'}
+  # MEASURED on Unit 1, 2026-10-09, at the Phase 4 gate -- not forecast.
+  #
+  # The forecast in section 3.3 of 00-MASTER-PLAN.md derived each part's target
+  # by taking A2's measured part total and adding the growth of the one TEXT
+  # inside it that B1 changes. It was wrong, by 1,070 words a unit, and the
+  # reason is worth recording because it is the kind of mistake a forecast
+  # makes and a measurement cannot: it held the APPARATUS at A2's length.
+  #
+  # At B1 the apparatus grows with the language, and it grows everywhere at
+  # once. A four-item gloss defines B1 words, so each definition is a clause
+  # rather than a phrase. An MCQ distractor that has to be plausible at B1 is a
+  # full clause, not two words -- Part 5's twelve options alone are 90 words
+  # against A2's 40. A Column B row that distinguishes `grid` from `substation`
+  # cannot be six words. A writing task at 90-110 words needs a model of that
+  # length, a four-row Plan and a four-box checklist. None of that is in the
+  # named texts, and all of it is on the page.
+  #
+  # `forecast` keeps the wrong number visible beside the right one, and
+  # `driver` still names the text the length decision was made about. The band
+  # is +/- 9% of ONE unit, which is a sample of one; it narrows again when
+  # Units 2-10 are measured, exactly as A2's envelope was narrowed three times.
+  'Warm Up': {target: 432, min: 393, max: 471,   a2_target: 310, forecast: 366, driver: 'warm-up reading 86 -> 150'}
+  'Part 1':  {target: 749, min: 682, max: 816,   a2_target: 610, forecast: 715, driver: 'short writing model 45 -> 82, four-item gloss'}
+  'Part 2':  {target: 673, min: 612, max: 734,   a2_target: 442, forecast: 560, driver: 'Notice text 61 -> 110, five-row Focus Box'}
+  'Part 3':  {target: 857, min: 780, max: 934,   a2_target: 487, forecast: 820, driver: 'three scripts 72/74/83 -> 209/166/196'}
+  'Part 4':  {target: 412, min: 375, max: 449,   a2_target: 313, forecast: 421, driver: 'scenario 125 -> 180, cards 63 -> 100'}
+  'Part 5':  {target: 1041, min: 947, max: 1135, a2_target: 562, forecast: 845, driver: 'two readings 130/109 -> 300/247'}
+  'Part 6':  {target: 674, min: 613, max: 735,   a2_target: 492, forecast: 624, driver: 'four models 62/59/59/52 -> 108/103/107/90'}
+  'Part 7':  {target: 866, min: 788, max: 944,   a2_target: 531, forecast: 652, driver: '7B script 104 -> 218, 7E model 66 -> 116'}
+  'Part 8':  {target: 709, min: 645, max: 773,   a2_target: 328, forecast: 498, driver: 'Global Story 135 -> 300'}
+  'Part 9':  {target: 507, min: 461, max: 553,   a2_target: 349, forecast: 475, driver: 'Close to Home reading 133 -> 266'}
+  'Part 10': {target: 248, min: 226, max: 270,   a2_target: 184, forecast: 225, driver: 'fuller glossary gloss'}
 model_allowance_words: {min: 80, max: 130}
 
 figures:
@@ -329,7 +346,21 @@ language:
   # floor. Two of the first three numbers tried were wrong and were corrected
   # from the measurement: 11.0 failed A2 by 0.057 words, and 4.5 was passed
   # outright by one A2 unit.
-  min_b1_tier_share: 0.06          # E27. A2 measures 0.001-0.012, mean 0.005.
+  # E27, RECALIBRATED 2026-10-09 from 0.06 at the Phase 4 gate. 0.06 was set as
+  # five times A2's measured B1-tier share (0.1%-1.2%), which is the wrong
+  # reference class: it says how little B1 vocabulary an A2 book uses, and
+  # nothing at all about how much a B1 book can carry. Unit 1, written to every
+  # other B1 bound, measures 3.10%, so 6% was not a floor but a wall.
+  #
+  # The right reference is how heavily a book draws on its OWN newest tier.
+  # Measured across the twenty A2 units -- A2-list words that the 2,000-word
+  # frequency list does not also reach -- A2 carries 4.09% of its running words
+  # from A2's own top tier, with a minimum of 2.26% and a maximum of 6.58%.
+  # So the floor is A2's own MINIMUM, 2.2%: a B1 unit must draw on the B1 tier
+  # at least as heavily as the thinnest A2 unit draws on A2's. That is still
+  # 1.8x A2's measured B1-tier maximum, so L01 holds, and Unit 1 clears it by
+  # 1.4x. The target to write to is ~4%, matching A2's mean.
+  min_b1_tier_share: 0.022
   mean_sentence_words_min: 12.0    # E28. A2 measures 8.73-10.94.
   fk_grade_min: 5.5                # E29. A2 measures 3.14-4.61, and A2's own
                                    # CEILING is 5.0 -- B1 must start where A2

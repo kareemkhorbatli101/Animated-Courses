@@ -1,0 +1,96 @@
+{
+ "canvas": [
+  1440,
+  336
+ ],
+ "bounds": [
+  53,
+  16.6,
+  1389,
+  319.3
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 30,
+   "bbox": [
+    205.6,
+    128.5,
+    226.4,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "what the thing is",
+   "size": 28,
+   "bbox": [
+    81.6,
+    272.0,
+    350.4,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 30,
+   "bbox": [
+    537.6,
+    128.5,
+    558.4,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "where you keep it",
+   "size": 28,
+   "bbox": [
+    406.4,
+    272.0,
+    689.6,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 30,
+   "bbox": [
+    1035.6,
+    128.5,
+    1056.4,
+    155.1
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "one time somebody needed it",
+   "size": 28,
+   "bbox": [
+    811.0,
+    272.0,
+    1281.0,
+    296.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The one-minute talk as three beats on a line, each block as wide as the share of the minute it should take: what the thing is, where you keep it, and one time somebody needed it and it was not there.",
+ "placed_in": [
+  6.260416666666667,
+  1.4583333333333333
+ ],
+ "sha256": "0b443f482b4b7d715b5de245b8746885794764fef4c327ebee3870f4c15656c1"
+}

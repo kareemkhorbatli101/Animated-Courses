@@ -1,0 +1,120 @@
+{
+ "canvas": [
+  1440,
+  440
+ ],
+ "bounds": [
+  57.0,
+  21.8,
+  1413.0,
+  417.8
+ ],
+ "texts": [
+  {
+   "text": "Before a quarter to nine",
+   "size": 34,
+   "bbox": [
+    132.8,
+    67.8,
+    597.2,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the fan on",
+   "size": 27,
+   "bbox": [
+    295.9,
+    282.5,
+    434.1,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the radio on",
+   "size": 27,
+   "bbox": [
+    283.1,
+    328.5,
+    446.9,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the light above the table",
+   "size": 27,
+   "bbox": [
+    198.0,
+    374.5,
+    532.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "After a quarter to nine",
+   "size": 34,
+   "bbox": [
+    887.7,
+    67.8,
+    1322.3,
+    98.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "two candles on saucers",
+   "size": 27,
+   "bbox": [
+    946.7,
+    282.5,
+    1263.3,
+    307.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the front door open",
+   "size": 27,
+   "bbox": [
+    973.5,
+    328.5,
+    1236.5,
+    353.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "half the building on the landing",
+   "size": 27,
+   "bbox": [
+    893.0,
+    374.5,
+    1317.0,
+    399.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 1,
+ "alt": "The flat in Buenos Aires before and after a quarter to nine. Before: the fan on, the radio on, the light above the table. After: two candles standing on saucers, the front door open, and half the building out on the landing.",
+ "placed_in": [
+  6.260416666666667,
+  1.9166666666666667
+ ],
+ "sha256": "896fde8bd8f77aafb6cb2835744afe59ce36db7760ad28e34dcb5ed4ce26cf09"
+}

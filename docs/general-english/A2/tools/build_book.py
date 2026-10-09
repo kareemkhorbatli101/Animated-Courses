@@ -101,7 +101,14 @@ def build(book='a21'):
                                       f'u{min(u.num for u in units):02d}-'
                                       f'{max(u.num for u in units):02d}.docx')
     for old in os.listdir(os.path.join(ROOT, 'build')):
-        if old.startswith(pre) and old.endswith(('.docx', '.pdf')):
+        # `AnswerKey` is excluded, and that is not tidiness. The answer key is
+        # named with the same `EFDL-<level>.<vol>-<Title>-` prefix, so this
+        # loop used to DELETE it, and the only reason A2 never noticed is that
+        # build_keys always happened to run second. Building the book and then
+        # looking for the key is a perfectly ordinary order, and it silently
+        # lost the file.
+        if (old.startswith(pre) and old.endswith(('.docx', '.pdf'))
+                and 'AnswerKey' not in old):
             os.remove(os.path.join(ROOT, 'build', old))
     subprocess.run(['pandoc', tmp, '-f', 'gfm', '-t', 'docx',
                     '--reference-doc', os.path.join(ROOT, 'build', 'reference.docx'),

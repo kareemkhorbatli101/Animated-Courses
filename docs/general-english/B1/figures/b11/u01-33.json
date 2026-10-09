@@ -1,0 +1,216 @@
+{
+ "canvas": [
+  1440,
+  508
+ ],
+ "bounds": [
+  56.0,
+  25.2,
+  1384.0,
+  483.2
+ ],
+ "texts": [
+  {
+   "text": "Card A \u2014 you made the call",
+   "size": 34,
+   "bbox": [
+    107.1,
+    48.2,
+    632.9,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "engineers already sent",
+   "size": 28,
+   "bbox": [
+    138.0,
+    148.9,
+    501.9,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "no time was given",
+   "size": 28,
+   "bbox": [
+    138.0,
+    204.9,
+    425.8,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a note about the third",
+   "size": 28,
+   "bbox": [
+    138.0,
+    260.9,
+    488.0,
+    285.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "floor",
+   "size": 28,
+   "bbox": [
+    138.0,
+    294.9,
+    211.0,
+    319.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "say what you do not",
+   "size": 28,
+   "bbox": [
+    138.0,
+    346.9,
+    457.3,
+    371.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "know",
+   "size": 28,
+   "bbox": [
+    138.0,
+    380.9,
+    221.7,
+    405.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 you have been",
+   "size": 34,
+   "bbox": [
+    837.6,
+    42.2,
+    1302.4,
+    72.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "waiting",
+   "size": 34,
+   "bbox": [
+    998.8,
+    80.2,
+    1141.2,
+    110.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask how long",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1045.5,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what was actually",
+   "size": 28,
+   "bbox": [
+    838.0,
+    204.9,
+    1186.1,
+    229.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "said",
+   "size": 28,
+   "bbox": [
+    838.0,
+    238.9,
+    903.2,
+    263.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what you will do",
+   "size": 28,
+   "bbox": [
+    838.0,
+    290.9,
+    1160.6,
+    315.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "next",
+   "size": 28,
+   "bbox": [
+    838.0,
+    324.9,
+    908.4,
+    349.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "be impatient, not",
+   "size": 28,
+   "bbox": [
+    838.0,
+    376.9,
+    1112.7,
+    401.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "unreasonable",
+   "size": 28,
+   "bbox": [
+    838.0,
+    410.9,
+    1052.9,
+    435.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The two 7D role-play cards side by side. Card A, you made the call: engineers already sent, no time was given, a note about the third floor, say what you do not know. Card B, you have been waiting: ask how long, ask what was actually said, ask what you will do next, be impatient but not unreasonable.",
+ "placed_in": [
+  6.260416666666667,
+  2.2083333333333335
+ ],
+ "sha256": "cd68e90342c44d93d99cccde53a0d0c46928826f87a1492754204c6d22ba0a9a"
+}

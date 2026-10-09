@@ -1,0 +1,240 @@
+{
+ "canvas": [
+  1440,
+  687
+ ],
+ "bounds": [
+  47.0,
+  30,
+  1393.0,
+  657
+ ],
+ "texts": [
+  {
+   "text": "There is sixty-one pounds. What does the building buy?",
+   "size": 34,
+   "bbox": [
+    185.1,
+    67.0,
+    1254.9,
+    97.4
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The staircase light,",
+   "size": 30,
+   "bbox": [
+    98.4,
+    368.2,
+    424.3,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ninety pounds",
+   "size": 30,
+   "bbox": [
+    140.4,
+    404.2,
+    382.2,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the dangerous part is lit",
+   "size": 26,
+   "bbox": [
+    105.4,
+    470.5,
+    417.3,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "next autumn before",
+   "size": 26,
+   "bbox": [
+    132.0,
+    514.5,
+    390.7,
+    538.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "anything else",
+   "size": 26,
+   "bbox": [
+    173.5,
+    545.5,
+    349.2,
+    569.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A box of lamps,",
+   "size": 30,
+   "bbox": [
+    588.9,
+    368.2,
+    851.1,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "twenty-two pounds",
+   "size": 30,
+   "bbox": [
+    556.3,
+    404.2,
+    883.7,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "something arrives this",
+   "size": 26,
+   "bbox": [
+    574.7,
+    470.5,
+    865.3,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "week",
+   "size": 26,
+   "bbox": [
+    685.8,
+    501.5,
+    754.2,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a lamp in the dark is",
+   "size": 26,
+   "bbox": [
+    586.2,
+    544.5,
+    853.8,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "hard to find",
+   "size": 26,
+   "bbox": [
+    644.4,
+    575.5,
+    795.6,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Spend nothing, write",
+   "size": 30,
+   "bbox": [
+    1000.3,
+    368.2,
+    1357.1,
+    394.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the plan",
+   "size": 30,
+   "bbox": [
+    1108.7,
+    404.2,
+    1248.6,
+    430.8
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "somebody checks the",
+   "size": 26,
+   "bbox": [
+    1036.7,
+    470.5,
+    1320.7,
+    494.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cupboard",
+   "size": 26,
+   "bbox": [
+    1117.5,
+    501.5,
+    1239.8,
+    525.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a plan does not light a",
+   "size": 26,
+   "bbox": [
+    1032.9,
+    544.5,
+    1324.4,
+    568.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "staircase",
+   "size": 26,
+   "bbox": [
+    1120.3,
+    575.5,
+    1237.1,
+    599.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 3,
+ "arrows": 0,
+ "alt": "The decision task as one question and three branches, with what each one costs: the staircase light at ninety pounds, which lights the dangerous part but makes the fund wait until next autumn; a box of lamps at twenty-two pounds, which arrives this week but is hard to find in the dark; and spending nothing and writing the plan, which makes somebody check the cupboard but does not light a staircase.",
+ "placed_in": [
+  6.260416666666667,
+  2.9895833333333335
+ ],
+ "sha256": "0f275d4f8f9fd62dc083748b644f755e8932ff24c35a450d35593f2a17a33865"
+}

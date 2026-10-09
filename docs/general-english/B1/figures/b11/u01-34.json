@@ -1,0 +1,132 @@
+{
+ "canvas": [
+  1440,
+  529
+ ],
+ "bounds": [
+  67,
+  26.2,
+  1373,
+  503.2
+ ],
+ "texts": [
+  {
+   "text": "1",
+   "size": 32,
+   "bbox": [
+    120.9,
+    89.3,
+    143.1,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "a first line a passer-by",
+   "size": 30,
+   "bbox": [
+    190,
+    90.9,
+    569.8,
+    117.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tuesday, about 7.",
+   "size": 26,
+   "bbox": [
+    670,
+    91.2,
+    900.4,
+    114.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2",
+   "size": 32,
+   "bbox": [
+    120.9,
+    252.3,
+    143.1,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what is still unknown",
+   "size": 30,
+   "bbox": [
+    190,
+    253.9,
+    549.9,
+    280.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "20pm \u2014 power cut, the whole street.",
+   "size": 26,
+   "bbox": [
+    670,
+    254.2,
+    1154.0,
+    277.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3",
+   "size": 32,
+   "bbox": [
+    120.9,
+    415.3,
+    143.1,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "what you will do next",
+   "size": 30,
+   "bbox": [
+    190,
+    416.9,
+    553.0,
+    443.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "I called the emergency line at about half.",
+   "size": 26,
+   "bbox": [
+    670,
+    417.2,
+    1204.8,
+    440.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  }
+ ],
+ "leaders": [],
+ "cards": 0,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The shape of the Part 7 writing task in three steps -- a first line a passer-by, what is still unknown, what you will do next -- with a line of the model beside each one.",
+ "placed_in": [
+  6.260416666666667,
+  2.3020833333333335
+ ],
+ "sha256": "8b0823ced25fec3ed71f3cf8ef3063f42970ae93661ea752bf39d07373515e3a"
+}

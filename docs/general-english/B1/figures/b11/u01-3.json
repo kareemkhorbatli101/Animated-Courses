@@ -1,0 +1,72 @@
+{
+ "canvas": [
+  1440,
+  351
+ ],
+ "bounds": [
+  35,
+  17.4,
+  1405,
+  333.4
+ ],
+ "texts": [
+  {
+   "text": "candle",
+   "size": 30,
+   "bbox": [
+    155.8,
+    258.6,
+    267.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "freezer",
+   "size": 30,
+   "bbox": [
+    489.9,
+    258.6,
+    611.1,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "switch",
+   "size": 30,
+   "bbox": [
+    834.8,
+    258.6,
+    944.2,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "power cut",
+   "size": 30,
+   "bbox": [
+    1144.1,
+    258.6,
+    1312.9,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  }
+ ],
+ "leaders": [],
+ "cards": 4,
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: candle, freezer, switch, power cut.",
+ "placed_in": [
+  6.260416666666667,
+  1.5208333333333333
+ ],
+ "sha256": "6e7b1541faa785495f435fa1aa68fd9415d162018ab38a48d841c7cf7b35c2fb"
+}

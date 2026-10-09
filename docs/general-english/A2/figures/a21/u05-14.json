@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  528
+  537
  ],
  "bounds": [
   53.0,
-  26.2,
+  26.6,
   1387.0,
-  502.2
+  510.6
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     118.8,
-    60.9,
+    62.4,
     311.7,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     456.5,
-    60.9,
+    62.4,
     647.0,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     794.5,
-    60.9,
+    62.4,
     982.0,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     1157.6,
-    60.9,
+    62.4,
     1291.9,
-    85.4
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     226.7,
-    202.2,
+    202.6,
     301.3,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +75,9 @@
    "size": 34,
    "bbox": [
     672.9,
-    202.2,
+    202.6,
     767.1,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -87,9 +87,9 @@
    "size": 34,
    "bbox": [
     1079.8,
-    202.2,
+    202.6,
     1272.2,
-    232.6
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -102,7 +102,7 @@
  "alt": "Four subjects from this task as chips above three empty bins -- was, were, and the verbs that simply add -ed. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.2916666666666665
+  2.3333333333333335
  ],
- "sha256": "b4f708bab08c759789b21a91ccbe2915bc63de1fe5f5abd2eae41b467da0d93f"
+ "sha256": "ea8b885dbebfaf7207832db7de580949d457c476c5b179a1470d452f0d698830"
 }

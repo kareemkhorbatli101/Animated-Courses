@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  506
+  537
  ],
  "bounds": [
   53.0,
-  25.1,
+  26.6,
   1387.0,
-  481.1
+  510.6
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 28,
    "bbox": [
     95.0,
-    59.8,
+    62.4,
     335.5,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -27,9 +27,9 @@
    "size": 28,
    "bbox": [
     497.2,
-    59.8,
+    62.4,
     606.3,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -39,9 +39,9 @@
    "size": 28,
    "bbox": [
     776.9,
-    59.8,
+    62.4,
     999.6,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -51,9 +51,9 @@
    "size": 28,
    "bbox": [
     1180.3,
-    59.8,
+    62.4,
     1269.2,
-    84.3
+    86.9
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -63,9 +63,9 @@
    "size": 34,
    "bbox": [
     284.3,
-    201.1,
+    202.6,
     471.7,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -75,9 +75,9 @@
    "size": 34,
    "bbox": [
     970.0,
-    201.1,
+    202.6,
     1154.0,
-    231.5
+    233.0
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -90,7 +90,7 @@
  "alt": "The four time cues of this task as chips above two empty bins, one for what happens every day and one for what is happening right now. Which chip goes in which bin is the exercise, so none of them is placed.",
  "placed_in": [
   6.260416666666667,
-  2.1979166666666665
+  2.3333333333333335
  ],
- "sha256": "3d72bf9dbcb483b8a378cc52ad38b67b1b3d2dfcafe520d0a72f6f81a03888b3"
+ "sha256": "f57b6ed3e64ecd8206c051be9c4d8cbf86ca1d2c14c0de80d526e33128395950"
 }

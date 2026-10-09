@@ -83,12 +83,14 @@ departures:
   # of printed height is about 14 pages, and the measurement agrees. The min
   # stays at 20: units 2-10 are still on 14 figures and run 24-26, and the
   # band has to admit both layouts while phase 5 is the only one built.
-  # FORECAST, not a measurement -- B1 has no source book (see golden.yaml).
-  # A2 measures 37.2 pages a unit at 5,016 prose words and 41 figures; B1
-  # carries 6,201 prose words (1.24x) with the same figure area, which at
-  # A2's measured density is about +4.6 pages. The band is deliberately
-  # wide and is NARROWED to Unit 1's own measurement at the Phase 4 gate.
-  pages_per_unit: {min: 36, max: 50}
+  # MEASURED on Unit 1, 2026-10-09, at the Phase 4 gate: 37 pages, against a
+  # forecast of 42-43. The forecast was wrong in the SAFE direction and for an
+  # interesting reason. B1 carries 1.51x A2's prose, but the page count barely
+  # moves (A2 measures 37.2), because 41 figures a unit set the page count
+  # almost on their own: the extra text fills white space that was already
+  # there between them rather than adding pages of its own. Narrowed from
+  # 36-50 to the measurement plus 18% either way.
+  pages_per_unit: {min: 34, max: 44}
   # Raised 2026-10-08 from max 380 to the measured truth. J15 had never
   # executed -- Ctx.pdf_for(None) named a file build_book.py has never
   # written -- so the volumes sat at 386 and 396 pages against a declared
@@ -105,9 +107,11 @@ departures:
   # dense unit -- nine more at about nine pages each, which is the forecast
   # the per-unit measurement gives. 520 is that measurement plus a unit of
   # slack, not a guess.
-  # FORECAST: ten units at 42-43 pages plus front matter, covers and the
-  # bound key is about 565. Narrowed at Phase 4, as above.
-  pages_per_volume: {min: 350, max: 620}
+  # DERIVED from two Unit 1 measurements rather than forecast: the unit is 37
+  # pages and its bound answer key is 15, and the volume built with one unit is
+  # 56 pages, so covers and front matter are 4. Ten units is 370 + 150 + 4 =
+  # 524. Still a band and not a number, because nine units are unwritten.
+  pages_per_volume: {min: 440, max: 600}
   # Measured 2026-10-08 on the phase-2 build: A2.1 7.0 MB DOCX / 10.3 MB PDF,
   # A2.2 7.2 / 10.5. The band is wide on purpose -- it is there to catch a
   # factor, not a percent. The dense layout will move it, and when it does the

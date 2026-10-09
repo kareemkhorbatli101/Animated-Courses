@@ -68,3 +68,15 @@ def books_here(root: str) -> list[str]:
     if lv not in {l for l, _, _ in BOOKS.values()}:
         raise KeyError(f'{root}: not a level directory')
     return sorted(books_of(lv))
+
+
+def level_root(root: str, lv: str) -> str:
+    """The sibling level's directory, given this level's root.
+
+    `root` is `.../general-english/B1`; `level_root(root, 'A2')` is
+    `.../general-english/A2`. One function because two checks need it (E27's
+    strict tier reading and L01's calibration) and both got the dirname count
+    wrong the first time, by one.
+    """
+    import os
+    return os.path.join(os.path.dirname(os.path.abspath(root)), lv)
