@@ -1,0 +1,502 @@
+field: PHY
+level: 2
+passages:
+  - id: PHY-S01-L2
+    strand: S01
+    title: "Scatter and Bias"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S01-L1"
+    advances: "Separates the two kinds of measurement error and shows what averaging can and cannot repair."
+    vocab_link: [refine]
+    passage: |
+      The spread in eleven weighings comes from two quite different sources, and
+      confusing them is the commonest mistake in handling data. Random error is
+      scatter that falls on both sides of the true value, caused by air
+      movement, vibration and the limits of the instrument. Systematic error is
+      an error that pushes every reading the same way, caused by a balance that
+      reads high, a ruler that has shrunk, or a stopwatch started late by the
+      same half second every time.
+
+      Averaging repairs the first and is helpless against the second. Take
+      enough readings and the random part shrinks in proportion to the square
+      root of the number of readings, so a hundred weighings are ten times
+      better than one. Nothing about repetition touches a balance that reads two
+      milligrams high, because that error is present and identical in every
+      reading, including the average. A thousand careful measurements of the
+      wrong thing give a very precise wrong answer.
+
+      The two therefore require different remedies. Random error is reduced by
+      repeating, by steadying the apparatus, and by using a finer instrument.
+      Systematic error is found only by comparison with something independent,
+      such as a second balance, a mass certified by the National Institute of
+      Standards and Technology, or a different method altogether. Experimenters
+      refine a result by attacking both, and they report them separately, which
+      is why a careful paper distinguishes a statistical uncertainty from a
+      systematic one. When two laboratories disagree by more than their stated
+      uncertainties, at least one of them has a systematic error it has not
+      found. The distinction has a famous example. Measurements of the speed of
+      light published between 1900 and 1950 drifted steadily, each new value
+      sitting inside the error bars of the last and all of them wrong in the
+      same direction. Later workers concluded that experimenters had
+      unconsciously weighted their results toward the accepted figure.
+    anchors:
+      - take: "Random error scatters both ways; systematic error pushes one way."
+        quote: "an error that pushes every reading the same way"
+      - take: "Averaging shrinks random error with the square root of the number of readings."
+        quote: "in proportion to the square root of the number of readings"
+      - take: "Systematic error is found only by independent comparison."
+        quote: "comparison with something independent"
+    terms:
+      - {term: "random error", gloss: "scatter that falls on both sides of the true value", glossed: true}
+      - {term: "systematic error", gloss: "an error that pushes every reading the same way", glossed: true}
+    facts:
+      - "Random error falls as the square root of the number of readings."
+      - "A systematic error is identical in every reading and survives averaging."
+      - "Careful papers report statistical and systematic uncertainties separately."
+  - id: PHY-S02-L2
+    strand: S02
+    title: "Why a Truck Takes Longer to Stop"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S02-L1"
+    advances: "Puts the three laws of motion to work on one quantitative problem with its actual numbers."
+    vocab_link: [accelerate]
+    passage: |
+      A loaded truck and a small car moving at the same speed on the same road
+      will not stop in the same distance. The reason is a chain of three steps
+      rather than a single fact, and Isaac Newton supplied all three of them.
+      The first step is that stopping requires a force, and the only force
+      available is friction, which is the force between the tires and the road
+      surface. That force is roughly proportional to the weight pressing down,
+      so a heavy vehicle does get more braking force than a light one.
+
+      The second step undoes the first. A heavier vehicle also carries more
+      kinetic energy, which is the energy an object has because it is moving,
+      and that energy must all be removed as heat in the brakes and tires. Mass
+      appears on both sides of the problem and largely cancels. What does not
+      cancel is speed, because kinetic energy rises with the square of the
+      speed. Double the speed and the stopping distance roughly quadruples,
+      which is why the braking distance at seventy miles an hour is about four
+      times that at thirty-five.
+
+      The third step is the one drivers forget. Before any braking happens the
+      vehicle travels for the time it takes to notice and react, usually near
+      three quarters of a second. In that time it covers a distance proportional
+      to the speed, not to its square. The two parts add. A truck loses further
+      because of load transfer, brake heating on long descents, and tires that
+      cannot accelerate sideways while already working hard to slow down.
+      Stopping distance tables in driving manuals are built from exactly this
+      arithmetic and then rounded. They assume a dry road and a fit driver, and
+      both assumptions fail regularly.
+    anchors:
+      - take: "Friction is the only force available to stop a vehicle."
+        quote: "the only force available is friction"
+      - take: "Mass appears on both sides of the problem and largely cancels."
+        quote: "Mass appears on both sides of the problem and largely cancels."
+      - take: "Stopping distance rises with the square of the speed."
+        quote: "the square of the speed"
+    terms:
+      - {term: "friction", gloss: "the force between the tires and the road surface", glossed: true}
+      - {term: "kinetic energy", gloss: "the energy an object has because it is moving", glossed: true}
+    facts:
+      - "Braking force from friction is roughly proportional to the weight on the tires."
+      - "Kinetic energy rises with the square of speed, so braking distance roughly quadruples when speed doubles."
+      - "Reaction distance is proportional to speed rather than to its square."
+  - id: PHY-S03-L2
+    strand: S03
+    title: "Where the Energy Goes"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S03-L1"
+    advances: "Quantifies the losses in a real energy chain and introduces the idea of an efficiency at each step."
+    vocab_link: [yield]
+    passage: |
+      Energy accounting rests on one rule, the conservation of energy, which
+      states that energy is never created or destroyed but only moved or
+      converted. That rule makes every machine auditable. Whatever goes in must
+      come out somewhere, and the only question is how much of it comes out in
+      the form that was wanted. The fraction that does is the efficiency,
+      meaning the share of the energy put in that emerges in the useful form.
+
+      Multiply the steps and the losses compound. In a coal power station the
+      chemical energy of the fuel becomes heat. The heat becomes steam, the
+      steam turns a turbine, and the turbine drives a generator. Each stage has
+      its own efficiency, and the biggest loss is unavoidable. A heat engine
+      working between a boiler and a cooling tower cannot convert more than a
+      limited share of its heat into motion, and that limit depends only on the
+      two temperatures. Modern coal plants yield about forty percent of the fuel
+      energy as electricity and discard the rest as warm water and gas.
+
+      Transmission loses a few percent more, and then the appliance has its own
+      efficiency. The whole chain therefore multiplies rather than adds. An
+      electric heater is close to perfect at its own step, since all the
+      electricity becomes heat. But if that electricity came from a coal
+      station, it represents more than twice the fuel that burning the coal in
+      the room would have needed. Comparing two technologies by their last step
+      alone is the standard way of getting this wrong. The theoretical limit on
+      a heat engine was worked out by Sadi Carnot in 1824, before anyone had a
+      clear idea of what heat was. His result still sets the ceiling for every
+      power station built since.
+    anchors:
+      - take: "Conservation of energy makes every machine auditable."
+        quote: "That rule makes every machine auditable."
+      - take: "A heat engine is limited by its two temperatures alone."
+        quote: "that limit depends only on the two temperatures"
+      - take: "Efficiencies multiply along a chain rather than adding."
+        quote: "The whole chain therefore multiplies rather than adds."
+    terms:
+      - {term: "efficiency", gloss: "the fraction of the energy put in that comes out in the useful form", glossed: true}
+      - {term: "conservation of energy", gloss: "the rule that energy is never created or destroyed, only moved or converted", glossed: true}
+    facts:
+      - "Modern coal-fired plants convert about forty percent of fuel energy into electricity."
+      - "The maximum efficiency of a heat engine depends only on its hot and cold temperatures."
+      - "Sadi Carnot established that limit in 1824."
+  - id: PHY-S04-L2
+    strand: S04
+    title: "Three Quantities, One Relation"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S04-L1"
+    advances: "States the gas relation explicitly and uses it to predict four everyday outcomes."
+    vocab_link: [compress]
+    passage: |
+      The behavior of a gas is governed by a single relation among three
+      quantities. Pressure multiplied by volume is proportional to the absolute
+      temperature, which is temperature counted from the coldest possible point
+      rather than from the freezing point of water. Fix any two of the three and
+      the third follows. That one sentence predicts a surprising amount,
+      provided the gas is not close to becoming a liquid.
+
+      Work through the cases. Hold the temperature steady and compress the gas
+      into half the volume, and the pressure doubles: that is a bicycle pump
+      with the valve shut. Hold the volume steady and warm the gas, and the
+      pressure rises: that is why a sealed container in a fire bursts, and why a
+      tire gauge reads higher after a long drive. Hold the pressure steady and
+      warm the gas, and it expands: that is a hot air balloon, where warming the
+      air inside by about eighty degrees makes it light enough to lift a basket.
+
+      The fourth case is the useful one for weather. Air pushed up a
+      mountainside arrives at a height where the surrounding pressure is lower,
+      expands, does work on the air around it, and cools without losing any heat
+      to anything. The rate is about ten degrees for every thousand meters of
+      dry ascent. That is why mountain tops are cold, why cloud forms on the
+      windward slope, and why the air coming down the far side arrives warm and
+      dry. The relation was assembled from three separate laws found by Boyle,
+      Charles and Gay-Lussac over about a century and a half. It holds well for
+      air at ordinary pressures and fails badly for steam near its boiling
+      point. Weather forecasters apply the same relation several million times a
+      day inside their models.
+    anchors:
+      - take: "Pressure times volume is proportional to absolute temperature."
+        quote: "Pressure multiplied by volume is proportional to the absolute temperature"
+      - take: "A sealed container in a fire bursts because volume is fixed."
+        quote: "that is why a sealed container in a fire bursts"
+      - take: "Rising air expands and cools without losing heat to anything."
+        quote: "cools without losing any heat to anything"
+    terms:
+      - {term: "absolute temperature", gloss: "temperature counted from the coldest possible point rather than from the freezing point of water", glossed: true}
+    facts:
+      - "The gas relation links pressure, volume and absolute temperature."
+      - "Dry rising air cools at about ten degrees per thousand meters."
+      - "The relation was assembled from laws found by Boyle, Charles and Gay-Lussac."
+  - id: PHY-S05-L2
+    strand: S05
+    title: "Why the Thin Wire Gets Hot"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S05-L1"
+    advances: "Introduces the four electrical quantities and the two relations that connect them, with worked numbers."
+    vocab_link: [conduct]
+    passage: |
+      Four quantities describe any circuit, and two relations connect them.
+      Voltage is the push. Current is the rate of flow. Resistance is the
+      opposition a conductor offers to that flow, and it depends on the
+      material, the length and the thickness of the wire. The first relation
+      says that current equals voltage divided by resistance. The second says
+      that power, which is the rate at which energy is delivered or lost, equals
+      current multiplied by voltage.
+
+      Combining them gives the fact that matters in a wall. The power lost as
+      heat in a wire is the current squared multiplied by the resistance of that
+      wire. Current squared is the harsh term. Double the current and the
+      heating in the cable goes up fourfold, which is why an overloaded circuit
+      does not warm gently but runs away. A thin wire makes this worse twice
+      over, because halving the cross-section roughly doubles the resistance.
+
+      The same arithmetic explains why electricity is sent across country at
+      high voltage. To deliver a given amount of power, a higher voltage needs a
+      smaller current, and a smaller current loses far less in the line. A
+      transmission line at four hundred thousand volts carries the output of a
+      power station with losses of a few percent, where the same power at
+      household voltage would be gone within a mile. Thick copper conducts well,
+      but no practical thickness of copper can beat the arithmetic of raising
+      the voltage and lowering the current. Transformers make the voltage
+      changes possible, and they work only with alternating current. That is the
+      technical reason the alternating system won the argument in the 1890s,
+      against direct current and against Edison. Household wiring is therefore
+      sized by the current it must carry, and the table of sizes is set by law.
+    anchors:
+      - take: "Current equals voltage divided by resistance."
+        quote: "current equals voltage divided by resistance"
+      - take: "Heating in a wire rises with the square of the current."
+        quote: "the current squared multiplied by the resistance"
+      - take: "High voltage means low current and small losses."
+        quote: "a smaller current loses far less in the line"
+    terms:
+      - {term: "resistance", gloss: "the opposition a conductor offers to current", glossed: true}
+      - {term: "power", gloss: "the rate at which energy is delivered or lost", glossed: true}
+    facts:
+      - "Power lost as heat in a conductor is the current squared times the resistance."
+      - "Halving the cross-section of a wire roughly doubles its resistance."
+      - "Transmission at 400,000 volts keeps line losses to a few percent."
+  - id: PHY-S06-L2
+    strand: S06
+    title: "One Rule, Three Effects"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S06-L1"
+    advances: "Shows that reflection, refraction and diffraction are three consequences of a single principle about wave travel."
+    vocab_link: [distort]
+    passage: |
+      Reflection, refraction and diffraction look like three subjects and are
+      one. Each follows from the behavior of a wavefront, which is the moving
+      line along which a wave has the same phase. One simple rule does the work:
+      every point on such a line acts as a source of the next ripple. Work out
+      where the ripples overlap and the three effects fall out of the same
+      calculation.
+
+      Where a wavefront meets a flat barrier the ripples add up along a path
+      that leaves at the same angle it arrived, which is reflection. Where the
+      front crosses into a material in which the wave moves more slowly, the
+      side that enters first falls behind, so the whole front swings. That is
+      refraction. Where the front meets an edge or a narrow opening, the ripples
+      from the surviving points spread into the space behind, which is
+      diffraction, meaning the spreading of a wave after it passes an edge or a
+      gap.
+
+      The amount of spreading depends on the size of the gap compared with the
+      wavelength, and that comparison explains a familiar asymmetry. Sound has
+      wavelengths of about a meter, so it bends round a doorway and a voice can
+      be heard from the next room. Visible light has wavelengths under a
+      thousandth of a millimeter, so it casts sharp shadows instead. A telescope
+      mirror cannot resolve detail finer than diffraction allows, and that
+      limit, not the quality of the glass, is what eventually distorts the image
+      of a distant star into a small disc. Christiaan Huygens published the rule
+      about every point acting as a source in 1690. It was ignored for a century
+      in favor of a particle account, and then revived when interference was
+      demonstrated. The same limit applies to a camera lens and to the human
+      eye.
+    anchors:
+      - take: "All three effects follow from one rule about wavefronts."
+        quote: "every point on such a line acts as a source of the next ripple"
+      - take: "Diffraction depends on the gap compared with the wavelength."
+        quote: "the size of the gap compared with the wavelength"
+      - take: "Diffraction, not glass quality, sets the limit on a telescope."
+        quote: "that limit, not the quality of the glass"
+    terms:
+      - {term: "wavefront", gloss: "the moving line along which a wave has the same phase", glossed: true}
+      - {term: "diffraction", gloss: "the spreading of a wave after it passes an edge or a narrow gap", glossed: true}
+    facts:
+      - "Huygens published the principle that each point on a wavefront acts as a source in 1690."
+      - "Sound wavelengths are around a meter, so sound bends around doorways."
+      - "Visible light has wavelengths under a thousandth of a millimeter and casts sharp shadows."
+  - id: PHY-S07-L2
+    strand: S07
+    title: "Barriers, Rates and Surfaces"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S07-L1"
+    advances: "Explains why a reaction that releases energy can still be slow, using the idea of an energy barrier."
+    vocab_link: [dissolve]
+    passage: |
+      A reaction that releases energy overall does not necessarily happen. Paper
+      in air at room temperature sits next to a reaction that would release a
+      great deal of heat, and it sits there for centuries. Svante Arrhenius put
+      the matter on a quantitative footing in 1889. The reason is the activation
+      energy, meaning the push a reaction needs before it will start even when
+      the overall balance is favorable. Bonds must be broken before new ones can
+      form, and breaking them costs energy that has to be supplied first.
+
+      That single idea explains the whole set of levers available for changing a
+      rate. Heat supplies the push, so raising the temperature increases the
+      proportion of molecules carrying enough energy to get over the barrier,
+      which is why a rough rule of thumb has reaction rates roughly doubling for
+      every ten degrees. Concentration raises the number of collisions. Surface
+      area raises the number of places where collisions can happen, which is the
+      whole difference between steel wool and a steel bar. A catalyst, which is
+      a substance that lowers the barrier without being consumed, provides an
+      easier route over it.
+
+      Dissolving a solid is a useful case to think through, because it is
+      governed by the same accounting. A sugar cube and the same sugar ground to
+      powder dissolve at very different rates and reach the same end point.
+      Stirring removes the saturated layer at the surface and lets fresh water
+      reach the solid. Hot water supplies more energy per collision. None of
+      these change how much sugar will eventually dissolve, which is set by
+      temperature alone. Rate and extent are separate questions, and confusing
+      them is the usual error. Catalysts are the reason modern chemical industry
+      exists at all, since most useful reactions are far too slow unaided.
+    anchors:
+      - take: "A favorable reaction can still be slow because of a barrier."
+        quote: "does not necessarily happen"
+      - take: "Heat, concentration, surface and catalysts all act on the same barrier."
+        quote: "the whole set of levers available for changing a rate"
+      - take: "Rate and extent are separate questions."
+        quote: "Rate and extent are separate questions"
+    terms:
+      - {term: "activation energy", gloss: "the push a reaction needs before it will start, even when it releases energy overall", glossed: true}
+      - {term: "catalyst", gloss: "a substance that lowers the barrier without being consumed", glossed: true}
+    facts:
+      - "Activation energy is required even for reactions that release energy overall."
+      - "A rough rule has reaction rates doubling for every ten degree rise."
+      - "A catalyst lowers the barrier without being consumed."
+  - id: PHY-S08-L2
+    strand: S08
+    title: "Four Numbers That Decide a Design"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S08-L1"
+    advances: "Defines the four material properties an engineer must know, and relates them to how a structure fails."
+    vocab_link: [collapse]
+    passage: |
+      An engineer choosing a material needs four numbers, and the Tay Bridge
+      failed because two of them were not considered. The first is stress, which
+      is the force carried by each unit of area, and it is the reason a thin rod
+      and a thick one made of the same steel behave differently under the same
+      load. The second is the yield point, meaning the load beyond which the
+      material keeps the shape it is bent into rather than springing back.
+
+      The third is the ultimate strength, the stress at which the material
+      finally parts. The gap between the yield point and that final figure is
+      where the safety of a structure actually lives. A material with a wide gap
+      bends, sags visibly, and gives warning before it breaks. A material with
+      almost no gap, such as cast iron, holds its shape until the moment it
+      shatters, and offers no warning at all. The fourth number is toughness,
+      which measures how much energy a material absorbs before fracture, and it
+      falls sharply in some steels as the temperature drops.
+
+      Those four explain most failures. A structure that bends and stays bent
+      has yielded and can often be repaired. A structure of brittle material
+      under a sudden sideways load can collapse in seconds from a crack that
+      nobody could have seen. Cold makes some steels brittle, which is why
+      several wartime cargo ships broke in half in the North Atlantic while
+      sister ships in warm water did not. The choice of material is a choice
+      about what kind of failure is acceptable. Modern practice therefore
+      prefers materials that give warning, and designs load paths with more than
+      one route. A bridge with a single critical member is a bridge with no
+      margin, whatever the arithmetic says.
+    anchors:
+      - take: "Stress is force divided by area, not force alone."
+        quote: "the force carried by each unit of area"
+      - take: "The gap between yield and fracture is where safety lives."
+        quote: "where the safety of a structure actually lives"
+      - take: "Brittle material gives no warning before it shatters."
+        quote: "offers no warning at all"
+    terms:
+      - {term: "stress", gloss: "the force carried by each unit of area", glossed: true}
+      - {term: "yield point", gloss: "the load beyond which a material keeps the shape it is bent into", glossed: true}
+    facts:
+      - "Stress is force per unit area and the yield point is where deformation becomes permanent."
+      - "Cast iron has almost no gap between yielding and fracture."
+      - "Several wartime cargo ships fractured in cold North Atlantic water."
+  - id: PHY-S09-L2
+    strand: S09
+    title: "Half-Life, Dose and Distance"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S09-L1"
+    advances: "Introduces the three quantities that govern radiation exposure and shows why the dial painters were a worst case."
+    vocab_link: [emit]
+    passage: |
+      Radiation exposure is governed by three numbers, and the women at the
+      Orange factory were unlucky in all three. The first is half-life, meaning
+      the time in which half of a quantity of a radioactive element decays away.
+      Radium has a half-life of about sixteen hundred years, so a quantity of it
+      in a body will emit radiation at a nearly constant rate for the whole of a
+      human life. Elements with short half-lives are intensely active and gone
+      quickly, which is a different and often more manageable problem.
+
+      The second is the kind of radiation. Alpha particles are heavy and stopped
+      by a sheet of paper or the outer layer of skin, so an alpha emitter
+      outside the body is almost harmless. Inside the body, with no barrier at
+      all between the source and living tissue, the same particles deposit all
+      their energy within a fraction of a millimeter. Radium is an alpha
+      emitter. Paint on a brush that is shaped with the lips crosses from the
+      harmless case to the worst one.
+
+      The third is dose, meaning the energy absorbed per unit of body mass, and
+      it falls off with distance and with shielding. A technician standing two
+      meters from a source receives a quarter of the dose received at one meter,
+      because the intensity falls with the square of the distance. Lead absorbs
+      most of what reaches it. None of these three remedies is available for a
+      source that the body has built into bone, which is why internal emitters
+      are treated as a separate class of hazard with its own limits. The modern
+      unit of dose is the sievert, and a typical annual exposure from natural
+      sources is about two or three thousandths of one. Occupational limits are
+      set at twenty thousandths a year, averaged over five years.
+    anchors:
+      - take: "Radium has a half-life of about sixteen hundred years."
+        quote: "about sixteen hundred years"
+      - take: "An alpha emitter is nearly harmless outside the body and dangerous inside it."
+        quote: "crosses from the harmless case to the worst one"
+      - take: "Dose falls with the square of the distance."
+        quote: "falls with the square of the distance"
+    terms:
+      - {term: "half-life", gloss: "the time in which half of a quantity of a radioactive element decays", glossed: true}
+      - {term: "dose", gloss: "the energy absorbed per unit of body mass", glossed: true}
+    facts:
+      - "Radium has a half-life of about 1,600 years."
+      - "Alpha particles are stopped by paper or the outer layer of skin."
+      - "Radiation intensity falls with the square of the distance from the source."
+  - id: PHY-S10-L2
+    strand: S10
+    title: "The Ladder of Distance"
+    move: mechanism
+    sat_frame: "science report: method and limitation"
+    builds_on: "PHY-S10-L1"
+    advances: "Explains how astronomical distance is actually obtained, as a chain of methods each calibrating the next."
+    vocab_link: [densely]
+    passage: |
+      Nobody has ever measured the distance to a star directly, by any means at
+      all. No tape reaches that far. Astronomical distances come instead from a
+      ladder of methods, each rung calibrated by the one below it. The structure
+      is only as sound as its lowest steps, and those steps are plain geometry
+      of a kind any surveyor would recognize at once. Every figure printed in an
+      astronomy textbook rests on that chain.
+
+      The first rung is geometry. Parallax, which is the shift in a star
+      position as the Earth moves from one side of its orbit to the other, gives
+      a distance by triangulation, exactly as a surveyor uses a baseline. The
+      baseline is the width of the Earth orbit, about three hundred million
+      kilometers, and even so the angles are tiny. The nearest star shifts by
+      less than one second of arc, which is the width of a coin seen from three
+      miles. Ground telescopes manage parallax out to a few hundred light years,
+      and a satellite has now pushed it to tens of thousands.
+
+      Beyond that, brightness takes over. If an object true brightness is known,
+      its apparent dimness gives its distance, because light spreads out with
+      the square of distance. Such an object is called a standard candle.
+      Certain pulsating stars and certain exploding stars both serve, and their
+      true brightness is fixed by finding examples close enough to have a
+      parallax, or in clusters densely enough populated to be measured another
+      way. Each rung is tied to the one below, which is why an error low on the
+      ladder moves every distance in the universe above it. The ladder currently
+      reaches billions of light years, and the error at the top is a few
+      percent. Where the lower rungs are revised, every published distance above
+      them has to be rescaled. Edwin Hubble used that chain in 1924 to establish
+      that other galaxies lie outside our own.
+    anchors:
+      - take: "Astronomical distances come from a ladder of methods."
+        quote: "a ladder of methods"
+      - take: "Parallax is triangulation from the width of the Earth orbit."
+        quote: "The baseline is the width of the Earth orbit"
+      - take: "An error low on the ladder moves every distance above it."
+        quote: "moves every distance in the universe above it"
+    terms:
+      - {term: "parallax", gloss: "the shift in a star position as the Earth moves from one side of its orbit to the other", glossed: true}
+      - {term: "standard candle", gloss: "an object whose true brightness is known, so that its dimness gives its distance", glossed: true}
+    facts:
+      - "Parallax uses the diameter of the Earth orbit, about 300 million kilometers, as a baseline."
+      - "The nearest star shifts by less than one second of arc."
+      - "Standard candles are objects whose true brightness is known independently."
