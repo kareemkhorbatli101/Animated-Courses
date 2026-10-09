@@ -159,9 +159,11 @@ def m02(u, ctx):
         return fail(f'{len(thin)} strand(s) own no sub-section of their own, so they are '
                     f'decoration rather than situations: {thin}')
     n = len(owned)
-    return expect(n >= need,
-                  f'unit {u.num} carries {n} strands; the law is {need}. A unit with fewer '
-                  f'is a single topic with scenery.')
+    if n < need:
+        return fail(f'unit {u.num} carries {n} strands; the law is {need}. A unit with '
+                    f'fewer is a single topic with scenery.')
+    return ok(f'{n} distinct situations, the smallest owning '
+              f'{min(len(v) for v in owned.values())} sub-section(s)')
 
 
 # --------------------------------------------------------------------------- M03
@@ -189,9 +191,14 @@ def m03(u, ctx):
     total = sum(tally.values()) or 1
     hot = {sid: f'{n}/{total} = {n/total:.0%}' for sid, n in tally.items()
            if n / total > share}
-    return expect(not hot,
-                  f'{hot} -- no situation may be more than {share:.0%} of a unit\'s '
-                  f'attributions, counting the theme sub-sections that draw on it')
+    if hot:
+        return fail(f'{hot} -- no situation may be more than {share:.0%} of a unit\'s '
+                    f'attributions, counting the theme sub-sections that draw on it')
+    big = max(tally.items(), key=lambda kv: kv[1])
+    biggest = max(owned.items(), key=lambda kv: len(kv[1]))
+    return ok(f'largest situation owns {len(biggest[1])} of {len(u.subs)} sub-sections '
+              f'(cap {cap}); busiest is {big[0]} at {big[1]}/{total} attributions '
+              f'= {big[1]/total:.0%} (cap {share:.0%})')
 
 
 # --------------------------------------------------------------------------- M04
@@ -218,9 +225,11 @@ def m04(u, ctx):
     over = {k: v for k, v in byset.items() if v > cap}
     if over:
         return fail(f'one place carrying too much of the unit: {over} (cap {cap})')
-    return expect(len(byset) >= need,
-                  f'{len(byset)} distinct settings; the law is {need}. '
-                  f'Settings seen: {sorted(byset)[:6]}')
+    if len(byset) < need:
+        return fail(f'{len(byset)} distinct settings; the law is {need}. '
+                    f'Settings seen: {sorted(byset)[:6]}')
+    return ok(f'{len(byset)} distinct settings, the busiest carrying '
+              f'{max(byset.values())} sub-sections (cap {cap})')
 
 
 # --------------------------------------------------------------------------- M05
@@ -282,8 +291,11 @@ def m06(u, ctx):
             bad.append(f'{s["id"]}.why_not is {w} words; {minw} is the floor')
         if not (s.get('probes') or []):
             bad.append(f'{s["id"]}.probes is empty, so M05 and M07 cannot find it on the page')
-    return expect(not bad,
-                  f'{len(bad)} realism declaration(s) missing or too thin: {bad[:4]}')
+    if bad:
+        return fail(f'{len(bad)} realism declaration(s) missing or too thin: {bad[:4]}')
+    n = len(e.get('strands') or [])
+    return ok(f'{n} situations, each naming the objection a reader will raise and '
+              f'answering it in {minw}+ words')
 
 
 # --------------------------------------------------------------------------- M07
@@ -313,7 +325,10 @@ def m07(u, ctx):
     if ghost:       bad.append(f'{len(ghost)} situation(s) declared but nowhere in the unit: {ghost}')
     if unsupported: bad.append(f'{len(unsupported)} sub-section(s) attributed to a situation '
                                f'they do not mention: {unsupported[:3]}')
-    return expect(not bad, '; '.join(bad))
+    if bad:
+        return fail('; '.join(bad))
+    return ok(f'all {len(e.get("strands") or [])} situations findable in the unit\'s '
+              f'own text, in the sub-sections that claim them')
 
 
 # --------------------------------------------------------------------------- M08
@@ -329,9 +344,10 @@ def m08(u, ctx):
         if m:
             frag = re.sub(r'\s+', ' ', m.group(0))[:90]
             hits.append(f'{b["id"]}: ...{frag}...')
-    return expect(not hits,
-                  f'{len(hits)} banned premise(s): {hits}. Each is a thing an adult reader '
-                  f'knows to be false; see ledgers/situations.yaml for the reason.')
+    if hits:
+        return fail(f'{len(hits)} banned premise(s): {hits}. Each is a thing an adult '
+                    f'reader knows to be false; see ledgers/situations.yaml for why.')
+    return ok(f'none of the {len(d.get("banned_premises") or [])} blocklisted premises')
 
 
 # --------------------------------------------------------------------------- M09
@@ -351,9 +367,14 @@ def m09(u, ctx):
         for p in s.get('people') or []:
             tally[p] = tally.get(p, 0) + 1
     hot = {p: f'{c}/{n}' for p, c in tally.items() if c / n > cap}
-    return expect(not hot,
-                  f'{hot} -- above {cap:.0%} of this unit\'s situations. A unit in which one '
-                  f'person is everywhere is one story, whatever the ledger calls it.')
+    if hot:
+        return fail(f'{hot} -- above {cap:.0%} of this unit\'s situations. A unit in which '
+                    f'one person is everywhere is one story, whatever the ledger calls it.')
+    if not tally:
+        return ok('no named people in this unit\'s situations')
+    busiest = max(tally.items(), key=lambda kv: kv[1])
+    return ok(f'{len(tally)} people across {n} situations; the busiest is '
+              f'{busiest[0]} in {busiest[1]} of them (cap {cap:.0%})')
 
 
 # --------------------------------------------------------------------------- M10
