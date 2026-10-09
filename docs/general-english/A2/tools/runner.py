@@ -113,6 +113,20 @@ def _load_yaml(*parts):
 
 
 def load_ctx(book='a21') -> Ctx:
+    # B1 left this suite on 2026-10-09. The 269 checks below encode A2's
+    # architecture -- 42 sub-sections, 110 bold headings, 41 figures -- and
+    # their language FLOORS (mean sentence >= 12 words, reading grade >= 5.5)
+    # were the worst thing in the project: they forced every B1 sentence to be
+    # longer and harder than a published coursebook, and the suite reported
+    # that as quality. B1 is now measured against the supplied book by
+    # B1/tools/gate.py and B1/HOUSE-STYLE.md. This suite stays as it is, for
+    # A2, which it fits and which is green on it.
+    import level as _LV
+    if _LV.level(book) != 'A2':
+        raise SystemExit(
+            f'{book} is not an A2 book. B1 is checked by B1/tools/gate.py '
+            f'against B1/HOUSE-STYLE.md; see B1/RESUME.md for why.')
+
     y = _load_yaml
     c = Ctx(book=book,
             book_label=LV.label(book),

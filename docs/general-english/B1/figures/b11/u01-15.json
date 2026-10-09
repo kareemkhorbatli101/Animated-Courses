@@ -1,119 +1,95 @@
 {
  "canvas": [
   1440,
-  551
+  544
  ],
  "bounds": [
-  51,
-  27.3,
-  1389,
-  523.3
+  146,
+  26.9,
+  1294,
+  517.0
  ],
  "texts": [
   {
-   "text": "While Yuki was speaking, the",
-   "size": 28,
+   "text": "larkfield-deliveries.co.uk",
+   "size": 25,
    "bbox": [
-    134,
-    58.0,
-    595.6,
+    340,
+    60.2,
+    645.8,
     82.5
    ],
-   "fill": "#1F3864",
+   "fill": "#6E88AC",
    "on": "#FFFFFF"
   },
   {
-   "text": "connection were dropping.",
+   "text": "Larkfield Deliveries",
    "size": 28,
    "bbox": [
-    134,
-    92.0,
-    558.0,
-    116.5
+    198,
+    134.6,
+    467.1,
+    159.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "\u2026the connection dropped.",
+   "text": "Saturday slots",
    "size": 28,
    "bbox": [
-    842.0,
-    58.0,
-    1258.1,
-    82.5
+    198,
+    186.6,
+    398.2,
+    211.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "I was knowing the answer before",
+   "text": "Each slot is two hours long.",
    "size": 28,
    "bbox": [
-    134,
-    184.0,
-    657.6,
-    208.5
+    198,
+    238.6,
+    582.5,
+    263.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "anybody asked me.",
+   "text": "Keep the kerb clear for the van.",
    "size": 28,
    "bbox": [
-    134,
-    218.0,
-    439.4,
-    242.5
+    198,
+    290.6,
+    642.3,
+    315.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "Yuki was joining the call again",
+   "text": "Tell us if a skip is in the way.",
    "size": 28,
    "bbox": [
-    134,
-    310.0,
-    612.9,
-    334.5
+    198,
+    342.6,
+    593.4,
+    367.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "when she was losing it.",
+   "text": "We take the parcel back to the depot.",
    "size": 28,
    "bbox": [
-    134,
-    344.0,
-    503.5,
-    368.5
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "While the others talking, nobody",
-   "size": 28,
-   "bbox": [
-    134,
-    436.0,
-    653.8,
-    460.5
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "noticed that she left.",
-   "size": 28,
-   "bbox": [
-    134,
-    470.0,
-    467.0,
-    494.5
+    198,
+    394.6,
+    726.9,
+    419.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -122,11 +98,11 @@
  "leaders": [],
  "cards": 0,
  "stages": 0,
- "arrows": 4,
- "alt": "The four sentences of the correction task, each with the wrong form struck through. The first is corrected for you; the other three have a line to write the correction on.",
+ "arrows": 0,
+ "alt": "The delivery company\u2019s web page in a browser window: the address bar, the heading Saturday slots, and the four rules about the kerb, the skip and the depot.",
  "placed_in": [
-  6.260416666666667,
-  2.3958333333333335
+  5.239583333333333,
+  1.9791666666666667
  ],
- "sha256": "360f884c5c6720a030e420d83c65624c072007c613ade393a01708d64bdcfd4f"
+ "sha256": "5a4c58ae75e528946575e821e5793e2a94104cbbd4af8ab20b72e9e908af1c18"
 }

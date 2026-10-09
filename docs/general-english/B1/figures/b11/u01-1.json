@@ -1,13 +1,13 @@
 {
  "canvas": [
   2480,
-  3508
+  3568
  ],
  "bounds": [
   0,
-  0,
+  30,
   2480,
-  3508
+  3538
  ],
  "texts": [
   {
@@ -15,9 +15,9 @@
    "size": 52,
    "bbox": [
     190,
-    191.8,
+    221.8,
     908.2,
-    237.8
+    267.8
    ],
    "fill": "#8FA8C8",
    "on": "#1F3864"
@@ -27,33 +27,33 @@
    "size": 96,
    "bbox": [
     190,
-    299.8,
+    329.8,
     549.7,
-    383.8
+    413.8
    ],
    "fill": "#E6C78F",
    "on": "#1F3864"
   },
   {
-   "text": "The Afternoon Everything",
+   "text": "The Skip Outside Number",
    "size": 140,
    "bbox": [
     190,
-    438.6,
-    2226.1,
-    560.4
+    468.6,
+    2207.5,
+    590.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Happened at Once",
+   "text": "14",
    "size": 140,
    "bbox": [
     190,
-    596.6,
-    1647.4,
-    718.4
+    626.6,
+    384.8,
+    748.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
@@ -63,9 +63,9 @@
    "size": 46,
    "bbox": [
     250,
-    1016.5,
+    1046.5,
     638.7,
-    1056.6
+    1086.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -75,9 +75,9 @@
    "size": 86,
    "bbox": [
     250,
-    1117.6,
+    1147.6,
     1878.9,
-    1192.6
+    1222.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -87,9 +87,9 @@
    "size": 86,
    "bbox": [
     250,
-    1219.6,
+    1249.6,
     1474.4,
-    1294.6
+    1324.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -99,9 +99,9 @@
    "size": 46,
    "bbox": [
     190,
-    1536.5,
+    1566.5,
     522.1,
-    1576.6
+    1606.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,57 +111,45 @@
    "size": 58,
    "bbox": [
     190,
-    2167.9,
+    2197.9,
     1196.3,
-    2218.4
+    2248.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I can say what I was doing when something interrupted me.",
+   "text": "I can say what I was doing when something happened.",
    "size": 56,
    "bbox": [
     310,
-    2339.4,
-    2205.2,
-    2388.4
+    2369.4,
+    2039.2,
+    2418.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I can use while and when to join a long action and a short",
+   "text": "I can use while and when in one sentence.",
    "size": 56,
    "bbox": [
     310,
-    2469.4,
-    2136.0,
-    2518.4
+    2499.4,
+    1647.8,
+    2548.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "one.",
+   "text": "I can ring a company about a problem.",
    "size": 56,
    "bbox": [
     310,
-    2535.4,
-    447.6,
-    2584.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "I can tell the story of an afternoon in 90\u2013110 words.",
-   "size": 56,
-   "bbox": [
-    310,
-    2665.4,
-    1953.4,
-    2714.4
+    2629.4,
+    1531.0,
+    2678.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -171,9 +159,9 @@
    "size": 44,
    "bbox": [
     190,
-    3146.0,
+    3176.0,
     1118.0,
-    3184.6
+    3214.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -183,9 +171,9 @@
    "size": 44,
    "bbox": [
     190,
-    3226.0,
+    3256.0,
     1025.7,
-    3264.6
+    3294.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -195,10 +183,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The opening page of Unit 1, The Afternoon Everything Happened at Once: the grammar point is the past continuous against the past simple with while and when, and three things the learner will be able to do by the end of the unit.",
+ "alt": "The opening page of Unit 1: the grammar point, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
-  8.268333333333333,
-  11.693055555555556
+  1.375,
+  1.9791666666666667
  ],
- "sha256": "17e7f6c00c11f24d4f229c8d5f14fe1d7e364434d7dcde15a29059e3cb7e6105"
+ "sha256": "1364d24f5de688f9b32b55261c489f2b0aa9f5dd11c6650e8089c9bf7bef6460"
 }

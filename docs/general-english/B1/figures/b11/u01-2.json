@@ -1,144 +1,36 @@
 {
  "canvas": [
   1440,
-  420
+  622
  ],
  "bounds": [
-  51.0,
-  20.8,
-  1389.0,
-  398.8
+  23,
+  30,
+  1417,
+  592
  ],
  "texts": [
   {
-   "text": "1",
+   "text": "SHOP",
    "size": 27,
    "bbox": [
-    78.6,
-    46.3,
-    97.4,
-    70.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Skip",
-   "size": 30,
-   "bbox": [
-    140.1,
-    352.0,
-    213.5,
-    378.6
+    498.4,
+    255.8,
+    583.1,
+    280.3
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "2",
-   "size": 27,
-   "bbox": [
-    350.2,
-    46.3,
-    369.0,
-    70.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Delivery",
-   "size": 30,
-   "bbox": [
-    378.4,
-    352.0,
-    518.4,
-    378.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "3",
-   "size": 27,
-   "bbox": [
-    621.8,
-    46.3,
-    640.6,
-    70.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Queue",
-   "size": 30,
-   "bbox": [
-    665.5,
-    352.0,
-    774.5,
-    378.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "4",
-   "size": 27,
-   "bbox": [
-    893.4,
-    46.3,
-    912.2,
-    70.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Landing",
-   "size": 30,
-   "bbox": [
-    924.0,
-    352.0,
-    1059.2,
-    378.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "5",
-   "size": 27,
-   "bbox": [
-    1165.0,
-    46.3,
-    1183.8,
-    70.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Battery",
-   "size": 30,
-   "bbox": [
-    1200.0,
-    352.0,
-    1326.5,
-    378.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
  "leaders": [],
- "cards": 5,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The five warm-up words as numbered picture cards: skip, delivery, queue, landing, battery.",
+ "alt": "Alder Street from the side on a Saturday afternoon: a skip standing on the pavement outside the shop, a delivery van stopped behind it with nowhere to pass, and the parked cars that make the street one lane wide.",
  "placed_in": [
-  6.260416666666667,
-  1.8229166666666667
+  4.583333333333333,
+  1.9791666666666667
  ],
- "sha256": "55d90ffd1ea5528309ce856f1f5e3350355aa3c345c907c77fee0a024215582e"
+ "sha256": "96ef9f8516f6986a98949d41f76ddc87e74b24d6a39d90786422febb967f3be5"
 }

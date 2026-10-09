@@ -1,107 +1,287 @@
 {
  "canvas": [
   1440,
-  548
+  539
  ],
  "bounds": [
-  77,
-  27.2,
-  1363,
-  521.2
+  57,
+  26.7,
+  1383,
+  512.7
  ],
  "texts": [
   {
-   "text": "Customer",
-   "size": 26,
+   "text": "1",
+   "size": 27,
    "bbox": [
-    282,
-    48.6,
-    422.9,
-    72.3
+    92.6,
+    72.2,
+    111.4,
+    96.7
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "Is it going to take long?",
+   "text": "The card reader",
    "size": 30,
    "bbox": [
-    282,
-    90.3,
-    683.2,
-    116.9
+    240,
+    54.9,
+    509.3,
+    81.5
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Maya",
-   "size": 26,
-   "bbox": [
-    112,
-    174.1,
-    189.1,
-    197.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "The card reader lost the bank ten minutes ago.",
+   "text": "stops",
    "size": 30,
    "bbox": [
-    112,
-    215.8,
-    912.7,
-    242.4
+    240,
+    88.9,
+    332.1,
+    115.5
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Customer",
-   "size": 26,
+   "text": "2",
+   "size": 27,
    "bbox": [
-    282,
-    299.6,
-    422.9,
-    323.3
+    92.6,
+    196.2,
+    111.4,
+    220.7
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "Can you not just take cash?",
+   "text": "Your battery is",
    "size": 30,
    "bbox": [
-    282,
-    341.3,
-    748.2,
-    367.9
+    240,
+    178.9,
+    489.9,
+    205.5
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "Maya",
-   "size": 26,
-   "bbox": [
-    112,
-    425.1,
-    189.1,
-    448.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Two people in this queue had cash.",
+   "text": "low",
    "size": 30,
    "bbox": [
-    112,
-    466.8,
-    706.7,
-    493.4
+    240,
+    212.9,
+    298.6,
+    239.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "3",
+   "size": 27,
+   "bbox": [
+    92.6,
+    320.2,
+    111.4,
+    344.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "The van cannot",
+   "size": 30,
+   "bbox": [
+    240,
+    302.9,
+    499.9,
+    329.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "stop",
+   "size": 30,
+   "bbox": [
+    240,
+    336.9,
+    314.3,
+    363.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "4",
+   "size": 27,
+   "bbox": [
+    92.6,
+    444.2,
+    111.4,
+    468.7
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "A window is",
+   "size": 30,
+   "bbox": [
+    240,
+    426.9,
+    441.4,
+    453.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "cracked",
+   "size": 30,
+   "bbox": [
+    240,
+    460.9,
+    371.6,
+    487.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a",
+   "size": 28,
+   "bbox": [
+    764.6,
+    61.8,
+    783.4,
+    86.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Take cash, or take names.",
+   "size": 28,
+   "bbox": [
+    814,
+    61.8,
+    1223.5,
+    86.3
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "b",
+   "size": 28,
+   "bbox": [
+    764.0,
+    160.6,
+    784.0,
+    185.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Charge it before you go out.",
+   "size": 28,
+   "bbox": [
+    814,
+    160.6,
+    1261.1,
+    185.1
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "c",
+   "size": 28,
+   "bbox": [
+    765.7,
+    259.4,
+    782.3,
+    283.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tell the depot the street is",
+   "size": 28,
+   "bbox": [
+    814,
+    243.4,
+    1234.1,
+    267.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "blocked.",
+   "size": 28,
+   "bbox": [
+    814,
+    275.4,
+    947.0,
+    299.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "d",
+   "size": 28,
+   "bbox": [
+    764.0,
+    358.2,
+    784.0,
+    382.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Ask the neighbours first.",
+   "size": 28,
+   "bbox": [
+    814,
+    358.2,
+    1206.0,
+    382.7
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "e",
+   "size": 28,
+   "bbox": [
+    764.5,
+    457.0,
+    783.5,
+    481.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Buy a new window.",
+   "size": 28,
+   "bbox": [
+    814,
+    457.0,
+    1115.9,
+    481.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,10 +291,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The second listening as speech bubbles, the customer on one side and Maya on the other, so it is clear who holds which turn.",
+ "alt": "Four problems on the left and five answers on the right for the learner to join. One answer is not wanted, and it is drawn so the spare one is visible.",
  "placed_in": [
-  6.260416666666667,
-  2.3854166666666665
+  5.291666666666667,
+  1.9791666666666667
  ],
- "sha256": "36c7695793f1d710b0914f7c9211eb21b2b5227cc29d0836ec574c8eb45fd3f6"
+ "sha256": "b57fab2d14abc4f69024ad702a96faa4356df1eef24e67dbb00b5d53cdbe371f"
 }

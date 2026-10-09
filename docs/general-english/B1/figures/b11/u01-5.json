@@ -1,13 +1,13 @@
 {
  "canvas": [
   1440,
-  531
+  508
  ],
  "bounds": [
   51.0,
-  26.3,
+  25.2,
   1389.0,
-  504.3
+  483.2
  ],
  "texts": [
   {
@@ -15,21 +15,21 @@
    "size": 27,
    "bbox": [
     78.6,
-    51.8,
+    50.7,
     97.4,
-    76.3
+    75.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Depot",
+   "text": "Skip",
    "size": 30,
    "bbox": [
-    159.9,
-    208.5,
-    261.6,
-    235.1
+    174.1,
+    197.4,
+    247.4,
+    224.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -39,21 +39,21 @@
    "size": 27,
    "bbox": [
     418.1,
-    51.8,
+    50.7,
     436.9,
-    76.3
+    75.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Card reader",
+   "text": "Queue",
    "size": 30,
    "bbox": [
-    449.8,
-    208.5,
-    650.7,
-    235.1
+    495.8,
+    197.4,
+    604.7,
+    224.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -63,21 +63,21 @@
    "size": 27,
    "bbox": [
     757.6,
-    51.8,
+    50.7,
     776.4,
-    76.3
+    75.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Agent",
+   "text": "Card reader",
    "size": 30,
    "bbox": [
-    839.4,
-    208.5,
-    940.1,
-    235.1
+    789.3,
+    197.4,
+    990.2,
+    224.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -87,21 +87,21 @@
    "size": 27,
    "bbox": [
     1097.1,
-    51.8,
+    50.7,
     1115.9,
-    76.3
+    75.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Stairwell",
+   "text": "Depot",
    "size": 30,
    "bbox": [
-    1154.3,
-    208.5,
-    1304.2,
-    235.1
+    1178.4,
+    197.4,
+    1280.1,
+    224.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -111,21 +111,21 @@
    "size": 27,
    "bbox": [
     78.6,
-    300.8,
+    289.7,
     97.4,
-    325.3
+    314.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Shift",
+   "text": "Car park",
    "size": 30,
    "bbox": [
-    170.4,
-    457.5,
-    251.1,
-    484.1
+    138.8,
+    436.4,
+    282.7,
+    463.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -135,21 +135,21 @@
    "size": 27,
    "bbox": [
     418.1,
-    300.8,
+    289.7,
     436.9,
-    325.3
+    314.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Crack",
+   "text": "Pavement",
    "size": 30,
    "bbox": [
-    502.9,
-    457.5,
-    597.6,
-    484.1
+    465.9,
+    436.4,
+    634.6,
+    463.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -159,21 +159,21 @@
    "size": 27,
    "bbox": [
     757.6,
-    300.8,
+    289.7,
     776.4,
-    325.3
+    314.2
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Car park",
+   "text": "Battery",
    "size": 30,
    "bbox": [
-    817.8,
-    457.5,
-    961.7,
-    484.1
+    826.5,
+    436.4,
+    953.0,
+    463.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -183,10 +183,10 @@
  "cards": 7,
  "stages": 0,
  "arrows": 0,
- "alt": "The seven words of Column A as numbered picture cards: depot, card reader, agent, stairwell, shift, crack, car park, each with the thing it means drawn beside its number.",
+ "alt": "The seven pictures of exercise 1A as numbered cards: a skip, a queue, a card reader, a depot, a car park, a pavement and a battery.",
  "placed_in": [
-  6.260416666666667,
-  2.3125
+  5.614583333333333,
+  1.9791666666666667
  ],
- "sha256": "7600e2b99d769c11621239a309dc16480d9b9fc14cff74fd8a783ad4d6c4f68d"
+ "sha256": "70032f090ba75fb7fe444f3811b052cc015ee3d9d12d186fda3d0bf074efea01"
 }

@@ -1,120 +1,156 @@
 {
  "canvas": [
   1440,
-  329
+  519
  ],
  "bounds": [
-  57.0,
-  16.3,
-  1383.0,
-  312.3
+  106,
+  25.7,
+  1334,
+  493.7
  ],
  "texts": [
   {
-   "text": "the delivery",
-   "size": 28,
+   "text": "AMINA\u2019S NOTES",
+   "size": 33,
    "bbox": [
-    74.8,
-    238.0,
-    264.4,
-    262.5
+    166,
+    61.5,
+    459.1,
+    90.5
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "slot",
-   "size": 28,
+   "text": "Address",
+   "size": 29,
    "bbox": [
-    140.2,
-    271.0,
-    199.0,
-    295.5
+    166,
+    136.6,
+    281.5,
+    161.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "the van",
-   "size": 30,
+   "text": "14 Alder Street",
+   "size": 29,
    "bbox": [
-    381.0,
-    269.5,
-    508.6,
-    296.1
+    1024.1,
+    136.6,
+    1274.0,
+    161.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "the",
-   "size": 30,
+   "text": "Ordered by",
+   "size": 29,
    "bbox": [
-    692.0,
-    234.5,
-    748.0,
-    261.1
+    166,
+    198.6,
+    328.8,
+    223.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "pavement",
-   "size": 30,
+   "text": "number 40",
+   "size": 29,
    "bbox": [
-    635.5,
-    269.5,
-    804.5,
-    296.1
+    1097.3,
+    198.6,
+    1274.0,
+    223.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "the kerb",
-   "size": 30,
+   "text": "Van back at",
+   "size": 29,
    "bbox": [
-    924.1,
-    269.5,
-    1066.3,
-    296.1
+    166,
+    260.6,
+    336.2,
+    285.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "the",
-   "size": 30,
+   "text": "1.40",
+   "size": 29,
    "bbox": [
-    1242.4,
-    234.5,
-    1298.4,
-    261.1
+    1202.5,
+    260.6,
+    1274.0,
+    285.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "backlog",
-   "size": 30,
+   "text": "Collection",
+   "size": 29,
    "bbox": [
-    1204.5,
-    269.5,
-    1336.3,
-    296.1
+    166,
+    322.6,
+    309.5,
+    347.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Tuesday a.m.",
+   "size": 29,
+   "bbox": [
+    1059.6,
+    322.6,
+    1274.0,
+    347.9
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Job number",
+   "size": 29,
+   "bbox": [
+    166,
+    384.6,
+    333.1,
+    409.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "4471",
+   "size": 29,
+   "bbox": [
+    1193.3,
+    384.6,
+    1274.0,
+    409.9
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   }
  ],
  "leaders": [],
  "cards": 0,
- "stages": 5,
- "arrows": 4,
- "alt": "Why one Saturday afternoon concentrates its problems, in five stages with an arrow to the next: a two-hour delivery slot, the van that has to use it, the pavement it has to stop on, the six metres of kerb two vans want at once, and the backlog that makes every repair take longer.",
+ "stages": 0,
+ "arrows": 0,
+ "alt": "The five things Amina wrote down during the telephone call: the address, who ordered the skip, when the van turned back, the collection day and the job number.",
  "placed_in": [
-  6.260416666666667,
-  1.4270833333333333
+  5.489583333333333,
+  1.9791666666666667
  ],
- "sha256": "cf3052b940721a766122267ec7b7bd74d4f12f1d303753b4527cdf4646f9b3ea"
+ "sha256": "e2a4f259ddd8af80024f13cb661c816cee570060cd8caa3f98fc030378d6fd2c"
 }

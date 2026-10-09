@@ -11,12 +11,12 @@
  ],
  "texts": [
   {
-   "text": "I was crossing town when the battery went flat",
+   "text": "I was WAIT ing for the van",
    "size": 32,
    "bbox": [
     142,
     53.9,
-    994.3,
+    616.7,
     82.1
    ],
    "fill": "#1F3864",
@@ -35,12 +35,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "She was serving a queue when the reader stopped",
+   "text": "She was SERV ing a queue",
    "size": 32,
    "bbox": [
     142,
     151.4,
-    1059.2,
+    619.9,
     179.6
    ],
    "fill": "#1F3864",
@@ -59,12 +59,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "The cat went out while the door was propped open",
+   "text": "They were PLAY ing outside",
    "size": 32,
    "bbox": [
     142,
     248.9,
-    1062.9,
+    642.5,
     277.1
    ],
    "fill": "#1F3864",
@@ -83,12 +83,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "We were standing on the steps for twenty minutes",
+   "text": "We were CROSS ing town",
    "size": 32,
    "bbox": [
     142,
     346.4,
-    1059.7,
+    597.4,
     374.6
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Four lines from the drill with the part that carries the beat ringed in each: crossing, serving, propped, standing. The auxiliary is never ringed, because it never carries the beat.",
+ "alt": "Four lines from the pronunciation drill. The beat falls on the main word and never on was or were, which is ringed in each line to show how little of it you hear.",
  "placed_in": [
-  6.260416666666667,
-  1.84375
+  5.625,
+  1.65625
  ],
- "sha256": "cc587289067d28adbefbd4a9f75e96699baa2216670a7004e1019c34fd3cf22a"
+ "sha256": "98eaca2c11a6b558269aae78e563d7b8e0309efadca8d08a3fde6ef9972aa8a0"
 }

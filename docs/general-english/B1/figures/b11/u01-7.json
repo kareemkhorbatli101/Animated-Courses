@@ -1,132 +1,23 @@
 {
  "canvas": [
   1440,
-  571
+  622
  ],
  "bounds": [
-  67.0,
-  28.3,
-  1373.0,
-  542.3
+  23,
+  30,
+  1417,
+  592
  ],
- "texts": [
-  {
-   "text": "skip",
-   "size": 34,
-   "bbox": [
-    235.9,
-    127.0,
-    314.8,
-    157.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "battery",
-   "size": 34,
-   "bbox": [
-    649.1,
-    127.0,
-    790.9,
-    157.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "connection",
-   "size": 34,
-   "bbox": [
-    1059.4,
-    127.0,
-    1270.0,
-    157.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "delivery",
-   "size": 34,
-   "bbox": [
-    197.9,
-    307.7,
-    352.8,
-    338.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "pavement",
-   "size": 34,
-   "bbox": [
-    624.3,
-    307.7,
-    815.7,
-    338.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "queue",
-   "size": 34,
-   "bbox": [
-    1105.2,
-    307.7,
-    1224.1,
-    338.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "shift",
-   "size": 34,
-   "bbox": [
-    231.8,
-    488.3,
-    318.9,
-    518.7
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "stairwell",
-   "size": 34,
-   "bbox": [
-    637.2,
-    488.3,
-    802.8,
-    518.7
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "capacity",
-   "size": 34,
-   "bbox": [
-    1084.4,
-    488.3,
-    1245.0,
-    518.7
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  }
- ],
+ "texts": [],
  "leaders": [],
- "cards": 9,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The nine words of the sorting task, each on its own card with a picture: skip, battery, connection, delivery, pavement, queue, shift, stairwell and capacity.",
+ "alt": "Inside number 14: the street door propped open with a brick, the stairs climbing to the half landing, the cracked window above them, and the cat sitting on the second step.",
  "placed_in": [
-  6.260416666666667,
-  2.4791666666666665
+  4.583333333333333,
+  1.9791666666666667
  ],
- "sha256": "a0e69bd3a8f5b0eb696853b2a47be779a899ddb890d7623776011fa193af2898"
+ "sha256": "ab940a68389768121e000064b7e6224c068cb7e96e48988c69f8fa2bbf032e23"
 }

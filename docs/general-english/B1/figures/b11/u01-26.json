@@ -1,180 +1,84 @@
 {
  "canvas": [
   1440,
-  473
+  411
  ],
  "bounds": [
-  67,
-  23.4,
-  1373,
-  449.4
+  57,
+  20.4,
+  1383,
+  390.4
  ],
  "texts": [
   {
-   "text": "1",
-   "size": 32,
+   "text": "I can say what I was doing when something happened",
+   "size": 28,
    "bbox": [
-    120.9,
-    59.7,
-    143.1,
-    87.9
+    156,
+    43.1,
+    1009.9,
+    67.6
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "What you were doing",
-   "size": 30,
+   "text": "I can use while and when in one sentence",
+   "size": 28,
    "bbox": [
-    190,
-    61.3,
-    550.3,
-    87.9
+    156,
+    119.0,
+    814.2,
+    143.5
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "I was carrying a bike out through the car",
-   "size": 26,
+   "text": "I can talk about deliveries and street problems",
+   "size": 28,
    "bbox": [
-    670,
-    46.6,
-    1199.4,
-    70.4
+    156,
+    195.0,
+    898.3,
+    219.5
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "park.",
-   "size": 26,
+   "text": "I can ring a company and ask for a job number",
+   "size": 28,
    "bbox": [
-    670,
-    76.6,
-    736.5,
-    100.4
+    156,
+    271.1,
+    891.7,
+    295.6
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "2",
-   "size": 32,
+   "text": "I can write a short note for a noticeboard",
+   "size": 28,
    "bbox": [
-    120.9,
-    169.2,
-    143.1,
-    197.5
+    156,
+    347.1,
+    808.9,
+    371.6
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "What the damage is",
-   "size": 30,
-   "bbox": [
-    190,
-    170.8,
-    529.6,
-    197.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "The window on the half landing cracked.",
-   "size": 26,
-   "bbox": [
-    670,
-    171.2,
-    1196.9,
-    194.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "3",
-   "size": 32,
-   "bbox": [
-    120.9,
-    278.8,
-    143.1,
-    307.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "What you are not asking",
-   "size": 30,
-   "bbox": [
-    190,
-    280.3,
-    605.2,
-    307.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "I am not trying to find out who did it.",
-   "size": 26,
-   "bbox": [
-    670,
-    280.6,
-    1150.0,
-    304.3
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "4",
-   "size": 32,
-   "bbox": [
-    120.9,
-    388.3,
-    143.1,
-    416.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "What you want agreed",
-   "size": 30,
-   "bbox": [
-    190,
-    389.8,
-    574.2,
-    416.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "The fund pays for the glass this once.",
-   "size": 26,
-   "bbox": [
-    670,
-    390.2,
-    1159.8,
-    413.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
  "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the message the learner is about to write, in four steps: what you were doing when it happened, what the damage is, what you are not asking for, and what you want the building to agree.",
+ "alt": "The five Can-Do lines of the unit as a strip with a box to tick beside each one.",
  "placed_in": [
-  6.260416666666667,
-  2.0520833333333335
+  5.625,
+  1.6041666666666667
  ],
- "sha256": "905f5d54926edf92269289d03d23c4087d890ee220474b3c1ab1ae3d837c61db"
+ "sha256": "ddbd7088554d24fbb0ade75efbd99f61f58394724f4d05431b38cb8e1ca3bea5"
 }

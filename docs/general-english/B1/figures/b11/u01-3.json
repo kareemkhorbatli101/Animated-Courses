@@ -1,72 +1,168 @@
 {
  "canvas": [
   1440,
-  351
+  539
  ],
  "bounds": [
-  35,
-  17.4,
-  1405,
-  333.4
+  74.0,
+  26.7,
+  1366.0,
+  512.3
  ],
  "texts": [
   {
-   "text": "connection",
-   "size": 30,
+   "text": "Amina",
+   "size": 34,
    "bbox": [
-    118.6,
-    258.6,
-    304.4,
-    285.2
+    219.7,
+    167.1,
+    340.3,
+    197.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "landing",
-   "size": 30,
+   "text": "was waiting for the van",
+   "size": 28,
    "bbox": [
-    487.3,
-    258.6,
-    613.7,
-    285.2
+    115.8,
+    207.8,
+    444.2,
+    232.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "battery",
-   "size": 30,
+   "text": "Maya",
+   "size": 34,
    "bbox": [
-    826.9,
-    258.6,
-    952.1,
-    285.2
+    669.6,
+    167.1,
+    770.4,
+    197.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "car park",
-   "size": 30,
+   "text": "was serving a queue",
+   "size": 28,
    "bbox": [
-    1158.6,
-    258.6,
-    1298.4,
-    285.2
+    575.2,
+    207.8,
+    864.8,
+    232.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Tomas",
+   "size": 34,
+   "bbox": [
+    1099.7,
+    167.1,
+    1220.3,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was crossing town",
+   "size": 28,
+   "bbox": [
+    1031.4,
+    207.8,
+    1288.6,
+    232.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Dani",
+   "size": 34,
+   "bbox": [
+    236.5,
+    447.1,
+    323.5,
+    477.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was showing a flat",
+   "size": 28,
+   "bbox": [
+    150.0,
+    487.8,
+    410.0,
+    512.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Yuki",
+   "size": 34,
+   "bbox": [
+    679.7,
+    447.1,
+    760.3,
+    477.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was on a video call",
+   "size": 28,
+   "bbox": [
+    586.5,
+    487.8,
+    853.5,
+    512.3
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    1041.0,
+    447.1,
+    1279.0,
+    477.5
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was looking for the cat",
+   "size": 28,
+   "bbox": [
+    1000.1,
+    487.8,
+    1319.9,
+    512.3
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   }
  ],
  "leaders": [],
- "cards": 4,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the word bank, in the order the task prints them, each with a picture: connection, landing, battery, car park.",
+ "alt": "Six people at three o\u2019clock on Saturday, each drawn with the thing that went wrong: Amina and the delivery van, Maya and the card reader, Tomas and a flat battery, Dani and a viewing, Yuki and a dropped connection, Mr Okonkwo and the cat.",
  "placed_in": [
-  6.260416666666667,
-  1.5208333333333333
+  5.291666666666667,
+  1.9791666666666667
  ],
- "sha256": "253a8d36e607fba6f68b5ce9cd6831a1fd74d496af6d39d101be16820a3a79ad"
+ "sha256": "254e0b367aa24548a691e2bec5a09963e79fc23e5bb0a18107cafb0a7a2a1b81"
 }

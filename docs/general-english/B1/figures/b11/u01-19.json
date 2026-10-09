@@ -1,168 +1,156 @@
 {
  "canvas": [
   1440,
-  444
+  519
  ],
  "bounds": [
-  52.0,
-  22.0,
-  1388.0,
-  422.0
+  106,
+  25.7,
+  1334,
+  493.7
  ],
  "texts": [
   {
-   "text": "1",
-   "size": 34,
+   "text": "HADWIN HIRE \u2014 PRICES",
+   "size": 33,
    "bbox": [
-    256.2,
-    51.0,
-    279.8,
-    81.4
+    166,
+    61.5,
+    610.6,
+    90.5
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Skip, one week",
+   "size": 29,
+   "bbox": [
+    166,
+    136.6,
+    385.5,
+    161.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "What were you doing",
-   "size": 28,
+   "text": "\u00a3180",
+   "size": 29,
    "bbox": [
-    99.9,
-    289.7,
-    436.1,
-    314.2
+    1193.3,
+    136.6,
+    1274.0,
+    161.9
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "when something last",
-   "size": 28,
+   "text": "Full skip",
+   "size": 29,
    "bbox": [
-    103.1,
-    323.7,
-    432.9,
-    348.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "interrupted you?",
-   "size": 28,
-   "bbox": [
-    135.3,
-    357.7,
-    400.7,
-    382.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "2",
-   "size": 34,
-   "bbox": [
-    708.2,
-    51.0,
-    731.8,
-    81.4
+    166,
+    198.6,
+    283.2,
+    223.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Where were you",
-   "size": 28,
+   "text": "+\u00a340",
+   "size": 29,
    "bbox": [
-    591.4,
-    289.7,
-    848.6,
-    314.2
+    1189.2,
+    198.6,
+    1274.0,
+    223.9
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "standing, and how long",
-   "size": 28,
+   "text": "Wrong address",
+   "size": 29,
    "bbox": [
-    534.4,
-    323.7,
-    905.6,
-    348.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "did you wait?",
-   "size": 28,
-   "bbox": [
-    614.7,
-    357.7,
-    825.3,
-    382.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "3",
-   "size": 34,
-   "bbox": [
-    1160.2,
-    51.0,
-    1183.8,
-    81.4
+    166,
+    260.6,
+    382.3,
+    285.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "What were the other",
-   "size": 28,
+   "text": "no charge",
+   "size": 29,
    "bbox": [
-    1008.2,
-    289.7,
-    1335.8,
-    314.2
+    1111.2,
+    260.6,
+    1274.0,
+    285.9
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   },
   {
-   "text": "people doing at the",
-   "size": 28,
+   "text": "Collection",
+   "size": 29,
    "bbox": [
-    1017.2,
-    323.7,
-    1326.8,
-    348.2
+    166,
+    322.6,
+    309.5,
+    347.9
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "time?",
-   "size": 28,
+   "text": "next free day",
+   "size": 29,
    "bbox": [
-    1128.3,
-    357.7,
-    1215.7,
-    382.2
+    1056.3,
+    322.6,
+    1274.0,
+    347.9
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#E6C78F",
+   "on": "#1F3864"
+  },
+  {
+   "text": "Full skip needs",
+   "size": 29,
+   "bbox": [
+    166,
+    384.6,
+    380.0,
+    409.9
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "the lorry",
+   "size": 29,
+   "bbox": [
+    1132.4,
+    384.6,
+    1274.0,
+    409.9
+   ],
+   "fill": "#E6C78F",
+   "on": "#1F3864"
   }
  ],
  "leaders": [],
- "cards": 3,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The three discussion questions as numbered cards a pair can put on the table and take one at a time.",
+ "alt": "The hire company\u2019s prices and conditions on a lit board: the weekly price, the extra for a full skip, no charge for a wrong address, and what each condition depends on.",
  "placed_in": [
-  6.260416666666667,
-  1.9270833333333333
+  5.489583333333333,
+  1.9791666666666667
  ],
- "sha256": "13379a0126c9db1d1dec0548559a950f9310645067c34508efee00277bbdc179"
+ "sha256": "6684243569637badab73c4eb28edc6d9e8f081e7d738872e5021d1e0c9008e9a"
 }

@@ -1,115 +1,120 @@
 {
  "canvas": [
   1440,
-  531
+  573
  ],
  "bounds": [
-  117,
-  26.3,
-  1353,
-  504.3
+  57.0,
+  28.4,
+  1383.0,
+  544.4
  ],
  "texts": [
   {
-   "text": "1.",
-   "size": 32,
+   "text": "The van arrived.",
+   "size": 38,
    "bbox": [
-    856,
-    33.9,
-    890.4,
-    62.1
+    194.5,
+    55.3,
+    545.5,
+    88.8
    ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "2.",
+   "text": "past simple \u2014 finished",
    "size": 32,
    "bbox": [
-    856,
-    143.9,
-    890.4,
-    172.1
+    166.4,
+    138.0,
+    573.6,
+    166.2
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "3.",
-   "size": 32,
+   "text": "now",
+   "size": 24,
    "bbox": [
-    856,
-    253.9,
-    890.4,
-    282.1
+    342.1,
+    325.5,
+    397.9,
+    347.0
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "4.",
-   "size": 32,
+   "text": "One moment, and it was over.",
+   "size": 30,
    "bbox": [
-    856,
-    363.9,
-    890.4,
-    392.1
+    117.0,
+    389.6,
+    623.0,
+    416.2
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "5.",
+   "text": "Amina was waiting.",
+   "size": 38,
+   "bbox": [
+    860.9,
+    55.3,
+    1279.1,
+    88.8
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "past continuous \u2014 going on",
    "size": 32,
    "bbox": [
-    856,
-    473.9,
-    890.4,
-    502.1
+    819.5,
+    138.0,
+    1320.5,
+    166.2
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "now",
+   "size": 24,
+   "bbox": [
+    1042.1,
+    325.5,
+    1097.9,
+    347.0
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "She was in the middle of it.",
+   "size": 30,
+   "bbox": [
+    837.9,
+    389.6,
+    1302.1,
+    416.2
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
   }
  ],
- "leaders": [
-  [
-   568.0,
-   121.0,
-   846,
-   45.3
-  ],
-  [
-   606.4,
-   198.5,
-   846,
-   155.3
-  ],
-  [
-   312.0,
-   285.5,
-   846,
-   265.3
-  ],
-  [
-   593.6,
-   353.6,
-   846,
-   375.3
-  ],
-  [
-   235.2,
-   395.9,
-   846,
-   485.3
-  ]
- ],
+ "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Number 14 Alder Street and the ground around it, cut through. A thin line runs across a window on the half landing, a small machine stands beside a till two streets away, a street door is held back with a brick, a large open container sits on the pavement outside, and open ground lies behind the building. Five numbered lines run to the right for the learner to write each word, numbered from the top down.",
+ "alt": "The two past forms side by side. On the left the past simple, with one mark at the moment the action ended. On the right the past continuous, with three marks across the stretch of time it filled.",
  "placed_in": [
-  6.260416666666667,
-  2.3125
+  4.96875,
+  1.9791666666666667
  ],
- "sha256": "ab42127d955ed622b8fa843fd6c67eefa6a776ede5289ec3b8a080c19d636b35"
+ "sha256": "e69cf53b90fc4f7456fb70cf0add36648eb5ae3196f5f71d4b154655e267cb05"
 }

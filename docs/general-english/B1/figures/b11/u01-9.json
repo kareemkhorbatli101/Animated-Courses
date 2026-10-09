@@ -1,72 +1,204 @@
 {
  "canvas": [
   1440,
-  351
+  428
  ],
  "bounds": [
-  35,
-  17.4,
-  1405,
-  333.4
+  47,
+  21.2,
+  1393,
+  407.2
  ],
  "texts": [
   {
-   "text": "stairwell",
-   "size": 30,
+   "text": "1.30",
+   "size": 34,
    "bbox": [
-    138.4,
-    258.6,
-    284.6,
-    285.2
+    148.1,
+    131.2,
+    231.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "queue",
-   "size": 30,
+   "text": "the lorry left",
+   "size": 28,
    "bbox": [
-    498.1,
-    258.6,
-    602.9,
-    285.2
+    89.7,
+    267.9,
+    290.3,
+    292.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "card reader",
-   "size": 30,
+   "text": "the skip",
+   "size": 28,
    "bbox": [
-    791.1,
-    258.6,
-    987.9,
-    285.2
+    126.5,
+    303.9,
+    253.5,
+    328.4
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
   },
   {
-   "text": "cat",
-   "size": 30,
+   "text": "1.40",
+   "size": 34,
    "bbox": [
-    1202.3,
-    258.6,
-    1254.7,
-    285.2
+    413.1,
+    131.2,
+    496.9,
+    161.6
    ],
    "fill": "#1F3864",
-   "on": "#FFFFFF"
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the van went",
+   "size": 28,
+   "bbox": [
+    351.5,
+    267.9,
+    558.5,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back",
+   "size": 28,
+   "bbox": [
+    417.9,
+    303.9,
+    492.1,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "2.10",
+   "size": 34,
+   "bbox": [
+    678.1,
+    131.2,
+    761.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the card reader",
+   "size": 28,
+   "bbox": [
+    597.2,
+    267.9,
+    842.8,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stopped",
+   "size": 28,
+   "bbox": [
+    655.8,
+    303.9,
+    784.2,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "3.30",
+   "size": 34,
+   "bbox": [
+    943.1,
+    131.2,
+    1026.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the window",
+   "size": 28,
+   "bbox": [
+    893.7,
+    267.9,
+    1076.3,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "cracked",
+   "size": 28,
+   "bbox": [
+    923.6,
+    303.9,
+    1046.4,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "5.10",
+   "size": 34,
+   "bbox": [
+    1208.1,
+    131.2,
+    1291.9,
+    161.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the cat came",
+   "size": 28,
+   "bbox": [
+    1147.8,
+    267.9,
+    1352.2,
+    292.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "back",
+   "size": 28,
+   "bbox": [
+    1212.9,
+    303.9,
+    1287.1,
+    328.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 4,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: stairwell, queue, card reader, cat.",
+ "alt": "Saturday afternoon on one line: at half past one the lorry left the skip, ten minutes later the van went back, at ten past two the card reader stopped, at half past three the window cracked, and at ten past five the cat came back.",
  "placed_in": [
-  6.260416666666667,
-  1.5208333333333333
+  5.625,
+  1.6770833333333333
  ],
- "sha256": "faf173083b1a81cbbd51b0774ea8648efe556440cd078fb38b6e6033869c1bf4"
+ "sha256": "9174eb2d5cf4eb19d0c607a617af79195a55831552d70b359516701a90c11c03"
 }

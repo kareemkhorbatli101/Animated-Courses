@@ -1,156 +1,23 @@
 {
  "canvas": [
   1440,
-  529
+  557
  ],
  "bounds": [
-  67,
-  26.2,
-  1373,
-  503.2
+  23,
+  27.6,
+  1417,
+  529.6
  ],
- "texts": [
-  {
-   "text": "1",
-   "size": 32,
-   "bbox": [
-    120.9,
-    89.3,
-    143.1,
-    117.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "two facts with times",
-   "size": 30,
-   "bbox": [
-    190,
-    90.9,
-    535.1,
-    117.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Your email arrived to say somebody took it.",
-   "size": 26,
-   "bbox": [
-    670,
-    91.2,
-    1235.8,
-    114.9
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "2",
-   "size": 32,
-   "bbox": [
-    120.9,
-    252.3,
-    143.1,
-    280.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "while or when at least",
-   "size": 30,
-   "bbox": [
-    190,
-    253.9,
-    565.6,
-    280.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "I was showing the flat on Saturday",
-   "size": 26,
-   "bbox": [
-    670,
-    239.2,
-    1120.2,
-    262.9
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "afternoon.",
-   "size": 26,
-   "bbox": [
-    670,
-    269.2,
-    804.1,
-    292.9
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "3",
-   "size": 32,
-   "bbox": [
-    120.9,
-    415.3,
-    143.1,
-    443.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "one clear request",
-   "size": 30,
-   "bbox": [
-    190,
-    416.9,
-    487.2,
-    443.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "When a viewing is booked, please",
-   "size": 26,
-   "bbox": [
-    670,
-    402.2,
-    1111.2,
-    425.9
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "telephone.",
-   "size": 26,
-   "bbox": [
-    670,
-    432.2,
-    809.0,
-    455.9
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  }
- ],
+ "texts": [],
  "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the email in three steps -- two facts with times, while or when at least once, and one clear request -- with a line of the model beside each one.",
+ "alt": "The noticeboard inside the street door at the end of the unit, with Amina\u2019s notice about the skip, Dani\u2019s message about the window, and an empty hook for the next one.",
  "placed_in": [
-  6.260416666666667,
-  2.3020833333333335
+  5.114583333333333,
+  1.9791666666666667
  ],
- "sha256": "42e5243ee6b19cc002f1d0c09136f1f97f8c0c20a144984e5a07393dc2c0a5f6"
+ "sha256": "1fdfa134cc2c29af169b8e92946ac5c9e1d2e5b05b6f480a3ec70c26af99b669"
 }

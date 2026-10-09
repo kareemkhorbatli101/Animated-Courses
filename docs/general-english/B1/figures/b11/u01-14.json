@@ -1,144 +1,36 @@
 {
  "canvas": [
   1440,
-  575
+  579
  ],
  "bounds": [
-  53.0,
-  28.5,
-  1387.0,
-  546.5
+  23,
+  28.7,
+  1417,
+  550.7
  ],
  "texts": [
   {
-   "text": "serving a queue when",
-   "size": 22,
+   "text": "SHOP",
+   "size": 27,
    "bbox": [
-    78.5,
-    69.0,
-    352.0,
-    89.0
+    498.4,
+    232.9,
+    583.1,
+    257.4
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
-  },
-  {
-   "text": "the reader stopped",
-   "size": 22,
-   "bbox": [
-    95.5,
-    97.0,
-    335.0,
-    117.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "wrote the amount",
-   "size": 28,
-   "bbox": [
-    409.9,
-    64.3,
-    693.6,
-    88.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "on a slip",
-   "size": 28,
-   "bbox": [
-    485.0,
-    98.3,
-    618.5,
-    122.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "counting the stock",
-   "size": 24,
-   "bbox": [
-    761.8,
-    67.2,
-    1014.7,
-    88.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "when the bank rang",
-   "size": 24,
-   "bbox": [
-    752.6,
-    97.2,
-    1023.9,
-    118.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "paid in cash and",
-   "size": 28,
-   "bbox": [
-    1095.6,
-    64.3,
-    1353.9,
-    88.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "went out",
-   "size": 28,
-   "bbox": [
-    1154.5,
-    98.3,
-    1295.0,
-    122.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "interrupted",
-   "size": 34,
-   "bbox": [
-    267.5,
-    238.5,
-    488.5,
-    268.9
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "finished",
-   "size": 34,
-   "bbox": [
-    985.5,
-    238.5,
-    1138.5,
-    268.9
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
   }
  ],
  "leaders": [],
- "cards": 4,
+ "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The four sentences of this task as chips above two empty bins, one for an action that was interrupted and one for an action that finished. Which chip goes in which bin is the exercise, so none of them is placed.",
+ "alt": "The van stopped behind the skip, seen from the driver\u2019s side: six metres of kerb, a skip on it, and no way past.",
  "placed_in": [
-  6.260416666666667,
-  2.5
+  4.927083333333333,
+  1.9791666666666667
  ],
- "sha256": "aca99f05c1e5325f5599efa3ab3d03647583fc3931f8f33acbf75bb7a2db1eba"
+ "sha256": "4540a1dcd3d0b0cf4ba8f3d48fc968421c6ba6d876e3f6db02a03996b7553287"
 }

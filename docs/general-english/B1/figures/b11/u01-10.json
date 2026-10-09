@@ -1,180 +1,108 @@
 {
  "canvas": [
   1440,
-  473
+  575
  ],
  "bounds": [
-  67,
-  23.4,
-  1373,
-  449.4
+  53.0,
+  28.5,
+  1387.0,
+  546.5
  ],
  "texts": [
   {
-   "text": "1",
-   "size": 32,
+   "text": "she was serving",
+   "size": 28,
    "bbox": [
-    120.9,
-    59.7,
-    143.1,
-    87.9
+    88.3,
+    81.3,
+    342.2,
+    105.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "What you were doing",
-   "size": 30,
+   "text": "the machine",
+   "size": 28,
    "bbox": [
-    190,
-    61.3,
-    550.3,
-    87.9
+    454.2,
+    64.3,
+    649.3,
+    88.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "I was carrying shopping up to the flat.",
-   "size": 26,
+   "text": "stopped",
+   "size": 28,
    "bbox": [
-    670,
-    61.6,
-    1164.7,
-    85.4
+    487.5,
+    98.3,
+    616.0,
+    122.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "2",
-   "size": 32,
+   "text": "they were playing",
+   "size": 28,
    "bbox": [
-    120.9,
-    169.2,
-    143.1,
-    197.5
+    746.6,
+    81.3,
+    1029.9,
+    105.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "What interrupted it",
-   "size": 30,
+   "text": "the van left",
+   "size": 28,
    "bbox": [
-    190,
-    170.8,
-    519.5,
-    197.5
+    1133.2,
+    81.3,
+    1316.3,
+    105.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "My phone rang, and the battery was low.",
-   "size": 26,
+   "text": "while",
+   "size": 34,
    "bbox": [
-    670,
-    171.2,
-    1202.4,
-    194.8
+    327.0,
+    238.5,
+    429.0,
+    268.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   },
   {
-   "text": "3",
-   "size": 32,
+   "text": "when",
+   "size": 34,
    "bbox": [
-    120.9,
-    278.8,
-    143.1,
-    307.0
+    1010.6,
+    238.5,
+    1113.4,
+    268.9
    ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "What the second thing",
-   "size": 30,
-   "bbox": [
-    190,
-    264.3,
-    574.6,
-    291.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "was",
-   "size": 30,
-   "bbox": [
-    190,
-    296.3,
-    255.8,
-    323.0
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "The man below me left the street door open.",
-   "size": 26,
-   "bbox": [
-    670,
-    280.6,
-    1253.4,
-    304.3
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "4",
-   "size": 32,
-   "bbox": [
-    120.9,
-    388.3,
-    143.1,
-    416.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Which one cost the time",
-   "size": 30,
-   "bbox": [
-    190,
-    389.8,
-    600.8,
-    416.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "All of it took twice as long.",
-   "size": 26,
-   "bbox": [
-    670,
-    390.2,
-    1014.2,
-    413.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the short piece of writing in four steps -- what you were doing, what interrupted it, what the second thing was, and which one cost the time -- with a line of the model beside each one.",
+ "alt": "Four pieces of sentence above two empty bins, one for while and one for when. Which goes where is the exercise, so none is placed.",
  "placed_in": [
-  6.260416666666667,
-  2.0520833333333335
+  4.958333333333333,
+  1.9791666666666667
  ],
- "sha256": "a992c432dd278bb5fd0d8994fb09aabe2e90db372ec5bed172c594af996a9ae9"
+ "sha256": "59b3eed7cdecf037db72a403eec0f674d1f5e46a162bd23962826ac120b2ade9"
 }

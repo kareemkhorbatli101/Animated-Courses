@@ -1,119 +1,131 @@
 {
  "canvas": [
   1440,
-  395
+  486
  ],
  "bounds": [
-  71.0,
-  19.6,
-  1369.0,
-  375.6
+  56.0,
+  24.1,
+  1384.0,
+  462.1
  ],
  "texts": [
   {
-   "text": "Alder Street",
-   "size": 32,
+   "text": "Card A \u2014 the customer",
+   "size": 34,
    "bbox": [
-    170.0,
-    217.2,
-    390.0,
-    245.4
+    150.2,
+    47.1,
+    589.8,
+    77.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "say the address",
+   "size": 28,
+   "bbox": [
+    138.0,
+    147.8,
+    387.9,
+    172.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "one lane, and a skip",
-   "size": 26,
+   "text": "say what is wrong",
+   "size": 28,
    "bbox": [
-    148.7,
-    269.1,
-    411.3,
-    292.8
+    138.0,
+    203.8,
+    423.5,
+    228.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "stopped the delivery",
-   "size": 26,
+   "text": "say why it cannot wait",
+   "size": 28,
    "bbox": [
-    145.6,
-    301.1,
-    414.4,
-    324.8
+    138.0,
+    259.8,
+    492.7,
+    284.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Pell Road",
-   "size": 32,
+   "text": "ask for a job number",
+   "size": 28,
    "bbox": [
-    635.3,
-    217.2,
-    804.7,
-    245.4
+    138.0,
+    315.8,
+    466.1,
+    340.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the van used the kerb and",
-   "size": 26,
+   "text": "Card B \u2014 the company",
+   "size": 34,
    "bbox": [
-    548.4,
-    269.1,
-    891.6,
-    292.8
+    853.8,
+    47.1,
+    1286.2,
+    77.5
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "find the booking",
+   "size": 28,
+   "bbox": [
+    838.0,
+    147.8,
+    1097.3,
+    172.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "lost nine minutes",
-   "size": 26,
+   "text": "say the earliest day",
+   "size": 28,
    "bbox": [
-    607.6,
-    301.1,
-    832.4,
-    324.8
+    838.0,
+    203.8,
+    1148.8,
+    228.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Carrow Street",
-   "size": 32,
+   "text": "say why it is that day",
+   "size": 28,
    "bbox": [
-    1033.9,
-    217.2,
-    1286.1,
-    245.4
+    838.0,
+    259.8,
+    1175.0,
+    284.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a list of numbers that is",
-   "size": 26,
+   "text": "give a job number",
+   "size": 28,
    "bbox": [
-    1005.5,
-    269.1,
-    1314.5,
-    292.8
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "three years old",
-   "size": 26,
-   "bbox": [
-    1061.8,
-    301.1,
-    1258.2,
-    324.8
+    838.0,
+    315.8,
+    1123.8,
+    340.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,10 +135,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The same Saturday afternoon on three streets: a street with one lane, where a skip stopped the delivery; a street rebuilt with a loading bay, where the van used the kerb and lost nine minutes; and a street with a list of numbers three years old, which lost the afternoon knowing why.",
+ "alt": "The two role-play cards side by side: the customer says the address, the problem and the urgency and asks for a number; the company finds the booking, gives the earliest day and the reason, and gives the number.",
  "placed_in": [
-  6.260416666666667,
-  1.71875
+  5.625,
+  1.8958333333333333
  ],
- "sha256": "713415fcc60c18a7f48158b4bd93434d04853edbb7031e08ba76503a44d648af"
+ "sha256": "1f7eb049b34dd0cedab676739934762d82ee04e858d37c1450f3e48c879b2eab"
 }

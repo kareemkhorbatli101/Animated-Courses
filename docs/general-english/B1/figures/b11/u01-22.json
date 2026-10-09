@@ -1,108 +1,108 @@
 {
  "canvas": [
   1440,
-  336
+  544
  ],
  "bounds": [
-  53,
-  16.6,
-  1389,
-  319.3
+  146,
+  26.9,
+  1294,
+  517.0
  ],
  "texts": [
   {
-   "text": "1",
-   "size": 30,
+   "text": "To: Hadwin Hire",
+   "size": 31,
    "bbox": [
-    205.6,
-    128.5,
-    226.4,
-    155.1
+    258,
+    58.4,
+    533.6,
+    85.8
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "what the news is",
-   "size": 28,
-   "bbox": [
-    82.3,
-    272.0,
-    349.7,
-    296.5
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "2",
+   "text": "Subject: Skip at 14 Alder Street",
    "size": 30,
    "bbox": [
-    537.6,
-    128.5,
-    558.4,
-    155.1
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "who should tell",
-   "size": 28,
-   "bbox": [
-    427.2,
-    238.0,
-    668.8,
-    262.5
+    198,
+    133.1,
+    734.9,
+    159.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "you",
+   "text": "I rang you on Saturday at four.",
    "size": 28,
    "bbox": [
-    519.3,
-    272.0,
-    576.7,
-    296.5
+    198,
+    186.6,
+    627.2,
+    211.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "3",
-   "size": 30,
-   "bbox": [
-    1035.6,
-    128.5,
-    1056.4,
-    155.1
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "one time it came too late",
+   "text": "Your driver left a skip outside my shop.",
    "size": 28,
    "bbox": [
-    847.3,
-    272.0,
-    1244.7,
-    296.5
+    198,
+    238.6,
+    744.7,
+    263.1
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "My van could not pass. It went back.",
+   "size": 28,
+   "bbox": [
+    198,
+    290.6,
+    710.9,
+    315.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Please confirm Tuesday, and charge number 40.",
+   "size": 28,
+   "bbox": [
+    198,
+    342.6,
+    874.3,
+    367.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Job number 4471. \u2014 Amina",
+   "size": 28,
+   "bbox": [
+    198,
+    394.6,
+    583.4,
+    419.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
   }
  ],
  "leaders": [],
  "cards": 0,
- "stages": 3,
+ "stages": 0,
  "arrows": 0,
- "alt": "The one-minute talk as three beats on a line, each block as wide as the share of the minute it should take: what the news is, who should tell you, and one time it reached you far too late.",
+ "alt": "Amina\u2019s email to the hire company, with the subject line, what happened, what she lost, and the two things she is asking for.",
  "placed_in": [
-  6.260416666666667,
-  1.4583333333333333
+  5.239583333333333,
+  1.9791666666666667
  ],
- "sha256": "beb47b037630cb602f662055ea175e1b540459903db4a7e794fcb988b089613d"
+ "sha256": "c8e8e3d80f630ecebc3041e812c65fbfc294321ee137d9efc03077419954f5ce"
 }

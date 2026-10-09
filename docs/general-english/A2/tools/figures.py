@@ -2969,3 +2969,257 @@ def emit(f: Fig, book: str, unit: int, slot: int):
             'placed_in': placed, 'sha256': hashlib.sha256(png).hexdigest()}
     json.dump(meta, open(base + '.json', 'w'), indent=1)
     return base, len(png), f.h
+
+
+# --- three jobs for the B1 rebuild ------------------------------------------
+# The supplied coursebook's figures are photographs of real things: a weather
+# alert on a screen, a departures board, a web page, a poster, a counter. Its
+# captions are four or five words. What this library had instead was rows of
+# icons under their own labels, which is why a reader called the visuals dull:
+# an icon grid tells you the words again, where a picture of the thing tells
+# you what the words are about.
+
+def plate(draw, height=620, alt=''):
+    """A full-width scene, drawn edge to edge, with nothing written on it.
+
+    `label_me` can draw all of these already, but only with numbered leaders
+    and a column of rules to write on. A plate is the same drawing used as a
+    picture rather than as a task -- which is what most of the source book's
+    figures are.
+    """
+    f = Fig(height, alt)
+    f.rect(26, 22, W - 52, height - 44, fill=P['bg'], stroke=P['rule'], r=20, sw=3)
+    draw(f, 40, 36, W - 80, height - 72)
+    return f
+
+
+def document_card(kind, header, lines, height=None, alt=''):
+    """A real document, drawn as one: a web page, a notice, an email, a memo.
+
+    `kind` sets the furniture at the top -- a browser bar, a pinned notice, an
+    email header -- so the learner can see what they are reading before they
+    read it. `header` is the line inside that furniture; `lines` are the body.
+
+    Body text is LEFT-aligned, because that is how a page, a notice and an
+    email are set, and the height is computed from the number of lines rather
+    than passed in, because a document with a field of white under it does not
+    look like a document.
+    """
+    bar, lead, pad = 78, 52, 46
+    body_h = len(lines[:9]) * lead
+    h = bar + pad + body_h + pad
+    height = height or int(h + 80)
+    f = Fig(height, alt)
+    x, y = 150, 40
+    w = W - 300
+    f.rect(x, y, w, h, fill=P['bg'], stroke=P['ink'], r=14, sw=4)
+    f.rect(x, y, w, bar, fill=P['ink'], stroke=P['ink'], r=14, sw=0)
+    f.rect(x, y + bar - 18, w, 18, fill=P['ink'], stroke=P['ink'], r=0, sw=0)
+    if kind == 'web':
+        for k in range(3):
+            f.circle(x + 40 + k * 32, y + bar / 2, 9, fill=P['bg'], sw=0)
+        f.rect(x + 160, y + 17, w - 210, bar - 34, fill=P['bg'], r=15, sw=0)
+        f.text(header, x + 190, y + bar / 2 + 9, size=25, fill=P['deep'],
+               on=P['bg'], bold=False, anchor='start')
+    elif kind == 'notice':
+        f.circle(x + w / 2, y + 15, 13, fill=P['tan'], stroke=P['bg'], sw=3)
+        f.text(header, x + 44, y + bar / 2 + 11, size=31, fill=P['bg'],
+               on=P['ink'], anchor='start')
+    else:
+        f.rect(x + 40, y + 24, 48, bar - 48, fill=P['bg'], r=4, sw=0)
+        f.path(f'M {x+40:.0f} {y+24:.0f} L {x+64:.0f} {y+44:.0f} '
+               f'L {x+88:.0f} {y+24:.0f}', fill='none', stroke=P['ink'], sw=3)
+        f.text(header, x + 108, y + bar / 2 + 11, size=31, fill=P['bg'],
+               on=P['ink'], anchor='start')
+    ty = y + bar + pad
+    for ln in lines[:9]:
+        bold = ln.endswith(':') or ln.startswith('Subject') or ln.isupper()
+        f.text(ln, x + 48, ty, size=30 if bold else 28, fill=P['ink'],
+               on=P['bg'], bold=bold, anchor='start')
+        f.line(x + 48, ty + 16, x + w - 48, ty + 16, stroke=P['card'], sw=2)
+        ty += lead
+    return f
+
+
+def board(title, rows, height=None, alt=''):
+    """A dark information board: departures, a hire company's slots, a log.
+
+    Two columns of short strings on a dark panel, the way a real board reads,
+    with the title lit above it.
+    """
+    rows = rows[:7]
+    h = 120 + len(rows) * 62 + 30
+    height = height or int(h + 80)
+    f = Fig(height, alt)
+    x, y, w = 110, 40, W - 220
+    f.rect(x, y, w, h, fill=P['ink'], stroke=P['ink'], r=16, sw=4)
+    f.text(title, x + 56, y + 56, size=33, fill=P['tanl'], on=P['ink'],
+           anchor='start')
+    ry = y + 118
+    f.line(x + 50, ry - 22, x + w - 50, ry - 22, stroke=P['deep'], sw=3)
+    for a, b in rows:
+        f.text(a, x + 56, ry + 10, size=29, fill=P['bg'], on=P['ink'],
+               bold=False, anchor='start')
+        f.text(b, x + w - 56, ry + 10, size=29, fill=P['tanl'], on=P['ink'],
+               anchor='end')
+        ry += 62
+        f.line(x + 50, ry - 22, x + w - 50, ry - 22, stroke=P['deep'], sw=2)
+    return f
+
+
+# --- three scenes drawn for B1 Unit 1 ---------------------------------------
+# `plate(streetscape)` gave an empty road with a bridge over it: a drawing made
+# for a different unit, stretched. A figure that is "a street" teaches nothing;
+# a figure that is THIS street, with the skip on the pavement and the van
+# stopped behind it, is the picture the exercise is about. These three are the
+# unit's own places.
+
+def alder_street(f: Fig, x, y, w, h):
+    """Alder Street on Saturday: the shop, the skip on the pavement, the van
+    stopped behind it, and the parked cars that leave only one lane."""
+    sky = y + h * 0.04
+    road_y = y + h * 0.72
+    kerb_y = y + h * 0.54
+    # the terrace behind, four houses stepping along
+    for k in range(4):
+        bx = x + 40 + k * (w - 110) / 4
+        bw = (w - 110) / 4 - 16
+        bh = h * 0.46 - (k % 2) * 18
+        f.rect(bx, kerb_y - bh, bw, bh, fill=P['card'], stroke=P['ink'], r=4, sw=3)
+        f.path(f'M {bx-10:.0f} {kerb_y-bh:.0f} L {bx+bw/2:.0f} {kerb_y-bh-38:.0f} '
+               f'L {bx+bw+10:.0f} {kerb_y-bh:.0f} Z', fill=P['tand'],
+               stroke=P['ink'], sw=3)
+        for r_ in range(2):
+            for c_ in range(2):
+                f.rect(bx + 22 + c_ * (bw - 74), kerb_y - bh + 34 + r_ * 62,
+                       48, 44, fill=P['blue'], stroke=P['ink'], r=3, sw=2)
+        f.rect(bx + bw / 2 - 22, kerb_y - 70, 44, 70, fill=P['deep'],
+               stroke=P['ink'], r=3, sw=3)
+    # number 14's shopfront, second from the left, with its awning
+    sx = x + 40 + (w - 110) / 4 + 6
+    sw_ = (w - 110) / 4 - 28
+    f.rect(sx, kerb_y - 104, sw_, 104, fill=P['bg'], stroke=P['ink'], r=3, sw=3)
+    f.rect(sx - 12, kerb_y - 126, sw_ + 24, 26, fill=P['tan'], stroke=P['ink'], r=4, sw=3)
+    for k in range(7):
+        f.line(sx - 12 + k * (sw_ + 24) / 7, kerb_y - 126,
+               sx - 12 + k * (sw_ + 24) / 7, kerb_y - 100, stroke=P['tand'], sw=2)
+    f.text('SHOP', sx + sw_ / 2, kerb_y - 56, size=27, fill=P['ink'], on=P['bg'])
+    # pavement, then road
+    f.rect(x + 20, kerb_y, w - 40, road_y - kerb_y, fill=P['card'],
+           stroke=P['rule'], r=0, sw=2)
+    f.rect(x + 20, road_y, w - 40, h * 0.22, fill=P['grey'], stroke=P['ink'], r=0, sw=3)
+    for k in range(9):                                        # centre line
+        f.rect(x + 60 + k * (w - 120) / 9, road_y + h * 0.10, 42, 6,
+               fill=P['bg'], r=0, sw=0)
+    # parked cars on the far kerb
+    for k in range(3):
+        cx = x + 90 + k * (w - 230) / 3
+        f.rect(cx, road_y + h * 0.145, 118, 34, fill=P['deep'], stroke=P['ink'], r=10, sw=3)
+        f.rect(cx + 22, road_y + h * 0.115, 72, 32, fill=P['blue'], stroke=P['ink'], r=8, sw=3)
+        f.circle(cx + 26, road_y + h * 0.185, 13, fill=P['ink'], sw=0)
+        f.circle(cx + 94, road_y + h * 0.185, 13, fill=P['ink'], sw=0)
+    # THE SKIP, on the pavement outside the shop
+    kw, kh = sw_ * 0.80, (road_y - kerb_y) * 0.86
+    kx = sx + sw_ * 0.10
+    ky = road_y - kh - 6
+    f.path(f'M {kx:.0f} {ky:.0f} L {kx+kw:.0f} {ky:.0f} '
+           f'L {kx+kw-26:.0f} {ky+kh:.0f} L {kx+26:.0f} {ky+kh:.0f} Z',
+           fill=P['tan'], stroke=P['ink'], sw=4)
+    f.line(kx + 14, ky + kh * 0.45, kx + kw - 14, ky + kh * 0.45, stroke=P['tand'], sw=4)
+    for k, dx in enumerate((0.20, 0.42, 0.66)):               # rubbish above the rim
+        f.rect(kx + kw * dx, ky - 26 - k % 2 * 10, 44, 30, fill=P['brown'],
+               stroke=P['ink'], r=3, sw=3)
+    # THE VAN, stopped on the road behind the skip, nose to the skip
+    vx = kx - 250
+    vy = road_y + h * 0.05
+    f.rect(vx, vy, 150, 70, fill=P['bg'], stroke=P['ink'], r=8, sw=4)
+    f.rect(vx + 150, vy + 14, 62, 56, fill=P['blue'], stroke=P['ink'], r=8, sw=4)
+    f.rect(vx + 162, vy + 24, 34, 24, fill=P['card'], stroke=P['ink'], r=4, sw=2)
+    f.circle(vx + 42, vy + 74, 18, fill=P['ink'], sw=0)
+    f.circle(vx + 182, vy + 74, 18, fill=P['ink'], sw=0)
+    f.circle(vx + 42, vy + 74, 7, fill=P['grey'], sw=0)
+    f.circle(vx + 182, vy + 74, 7, fill=P['grey'], sw=0)
+    # a person on the pavement by the shop door
+    px = sx + sw_ * 0.06
+    f.circle(px, kerb_y - 56, 13, fill=P['blue'], stroke=P['ink'], sw=3)
+    f.rect(px - 15, kerb_y - 42, 30, 42, fill=P['deep'], stroke=P['ink'], r=10, sw=3)
+
+
+def bookshop_counter(f: Fig, x, y, w, h):
+    """Hadley Books at ten past two: the counter, the card reader with nothing
+    on its screen, a book waiting, and the queue going back past the shelves."""
+    top = y + h * 0.52
+    # shelves behind
+    for r_ in range(3):
+        sy = y + h * 0.10 + r_ * h * 0.13
+        f.rect(x + 40, sy, w * 0.42, h * 0.10, fill=P['card'], stroke=P['ink'], r=3, sw=3)
+        for k in range(9):
+            f.rect(x + 50 + k * (w * 0.42 - 26) / 9, sy + 7,
+                   (w * 0.42 - 26) / 9 - 7, h * 0.10 - 14,
+                   fill=[P['blue'], P['tan'], P['deep'], P['brown']][(k + r_) % 4],
+                   stroke=P['ink'], r=2, sw=2)
+    # the counter
+    f.rect(x + 30, top, w * 0.52, h * 0.40, fill=P['tan'], stroke=P['ink'], r=8, sw=4)
+    f.rect(x + 30, top, w * 0.52, 20, fill=P['tand'], stroke=P['ink'], r=4, sw=3)
+    # the card reader, screen blank
+    rx = x + 30 + w * 0.34
+    f.rect(rx, top - 86, 74, 96, fill=P['deep'], stroke=P['ink'], r=10, sw=4)
+    f.rect(rx + 11, top - 74, 52, 38, fill=P['ink'], stroke=P['ink'], r=4, sw=2)
+    for r_ in range(3):
+        for c_ in range(3):
+            f.circle(rx + 22 + c_ * 15, top - 26 + r_ * 13, 4.5, fill=P['card'], sw=0)
+    # a book on the counter
+    f.rect(x + 70, top - 34, 96, 34, fill=P['blue'], stroke=P['ink'], r=3, sw=3)
+    f.line(x + 70, top - 24, x + 166, top - 24, stroke=P['ink'], sw=2)
+    # the queue, four people stepping back to the right
+    for k in range(4):
+        qx = x + w * 0.60 + k * (w * 0.36) / 4
+        qy = top + 34 - k * 8
+        f.circle(qx, qy - 50, 19 - k, fill=[P['blue'], P['deep'], P['tan'], P['brown']][k],
+                 stroke=P['ink'], sw=3)
+        f.rect(qx - 22 + k, qy - 30, 44 - 2 * k, 56, fill=P['card'],
+               stroke=P['ink'], r=14, sw=3)
+
+
+def stairwell(f: Fig, x, y, w, h):
+    """The inside of number 14: the street door propped with a brick, the stairs
+    up to the half landing, the cracked window above them, and the cat."""
+    # the wall and the window on the half landing
+    f.rect(x + 30, y + 20, w - 60, h - 40, fill=P['bg'], stroke=P['rule'], r=6, sw=2)
+    f.rect(x + w * 0.46, y + h * 0.16, w * 0.50, h * 0.56, fill=P['bg'],
+           stroke=P['rule'], r=0, sw=3)                      # the landing wall
+    wx, wy, ww, wh = x + w * 0.54, y + h * 0.26, w * 0.24, h * 0.26
+    f.rect(wx, wy, ww, wh, fill=P['card'], stroke=P['ink'], r=4, sw=4)
+    f.line(wx + ww / 2, wy, wx + ww / 2, wy + wh, stroke=P['ink'], sw=3)
+    f.line(wx, wy + wh / 2, wx + ww, wy + wh / 2, stroke=P['ink'], sw=3)
+    f.path(f'M {wx+ww*0.12:.0f} {wy+wh*0.18:.0f} L {wx+ww*0.36:.0f} {wy+wh*0.46:.0f} '
+           f'L {wx+ww*0.22:.0f} {wy+wh*0.62:.0f} L {wx+ww*0.44:.0f} {wy+wh*0.88:.0f}',
+           fill='none', stroke=P['ink'], sw=5)                 # the crack
+    # the stairs, five treads climbing to the landing under the window
+    tread, rise = w * 0.075, h * 0.085
+    bx, by = x + w * 0.20, y + h * 0.88
+    for k in range(5):
+        f.rect(bx + k * tread, by - (k + 1) * rise, tread, rise,
+               fill=P['card'], stroke=P['ink'], r=0, sw=3)
+    f.rect(bx + 5 * tread, by - 5 * rise, w * 0.22, rise * 0.5,
+           fill=P['card'], stroke=P['ink'], r=0, sw=3)         # the landing
+    # the handrail
+    f.line(bx - 10, by - rise * 0.18, bx + 5 * tread, by - 5 * rise - rise * 0.18,
+           stroke=P['tand'], sw=7)
+    # the street door, propped open with a brick
+    dx = x + w * 0.05
+    f.rect(dx, by - h * 0.46, w * 0.11, h * 0.46, fill=P['deep'], stroke=P['ink'], r=4, sw=4)
+    f.circle(dx + w * 0.095, by - h * 0.24, 7, fill=P['tanl'], stroke=P['ink'], sw=2)
+    f.rect(dx + w * 0.112, by - 26, 40, 26, fill=P['brown'], stroke=P['ink'], r=3, sw=3)
+    f.line(x + 30, by, x + w - 30, by, stroke=P['ink'], sw=5)   # the floor
+    # the cat, on the second tread
+    cx, cy = bx + tread * 2.5, by - 2 * rise - 26
+    f.path(f'M {cx-20:.0f} {cy-8:.0f} L {cx-16:.0f} {cy-30:.0f} '
+           f'L {cx-4:.0f} {cy-16:.0f} Z', fill=P['blue'], stroke=P['ink'], sw=3)
+    f.path(f'M {cx+8:.0f} {cy-16:.0f} L {cx+20:.0f} {cy-30:.0f} '
+           f'L {cx+24:.0f} {cy-8:.0f} Z', fill=P['blue'], stroke=P['ink'], sw=3)
+    f.circle(cx + 2, cy - 6, 17, fill=P['blue'], stroke=P['ink'], sw=3)
+    f.rect(cx - 14, cy + 8, 38, 24, fill=P['blue'], stroke=P['ink'], r=11, sw=3)
+    f.path(f'M {cx+24:.0f} {cy+26:.0f} C {cx+44:.0f} {cy+24:.0f} '
+           f'{cx+42:.0f} {cy+2:.0f} {cx+30:.0f} {cy:.0f}',
+           fill='none', stroke=P['ink'], sw=4)

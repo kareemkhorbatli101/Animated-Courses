@@ -1,216 +1,72 @@
 {
  "canvas": [
   1440,
-  508
+  451
  ],
  "bounds": [
-  56.0,
-  25.2,
-  1384.0,
-  483.2
+  53,
+  22.3,
+  1387,
+  428.3
  ],
  "texts": [
   {
-   "text": "Card A \u2014 the car park",
-   "size": 34,
+   "text": "Read the notes first.",
+   "size": 30,
    "bbox": [
-    160.7,
-    48.2,
-    579.3,
-    78.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say where you were in",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    492.2,
-    173.4
+    280,
+    58.2,
+    627.7,
+    84.8
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "the afternoon",
-   "size": 28,
+   "text": "Ask: time, number or name?",
+   "size": 30,
    "bbox": [
-    138.0,
-    182.9,
-    355.7,
-    207.4
+    280,
+    161.7,
+    759.0,
+    188.4
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "say what you saw, which",
-   "size": 28,
+   "text": "Listen and write one word.",
+   "size": 30,
    "bbox": [
-    138.0,
-    234.9,
-    527.7,
-    259.4
+    280,
+    265.2,
+    733.9,
+    291.9
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   },
   {
-   "text": "is nothing",
-   "size": 28,
+   "text": "Check your spelling.",
+   "size": 30,
    "bbox": [
-    138.0,
-    268.9,
-    296.1,
-    293.4
+    280,
+    368.7,
+    623.4,
+    395.4
    ],
    "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "argue for a note about",
-   "size": 28,
-   "bbox": [
-    138.0,
-    320.9,
-    495.8,
-    345.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "ball games",
-   "size": 28,
-   "bbox": [
-    138.0,
-    354.9,
-    309.6,
-    379.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say who should pay for",
-   "size": 28,
-   "bbox": [
-    138.0,
-    406.9,
-    502.0,
-    431.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "the glass",
-   "size": 28,
-   "bbox": [
-    138.0,
-    440.9,
-    281.9,
-    465.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Card B \u2014 the fund",
-   "size": 34,
-   "bbox": [
-    896.3,
-    48.2,
-    1243.7,
-    78.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "say what the fund holds",
-   "size": 28,
-   "bbox": [
-    838.0,
-    148.9,
-    1218.0,
-    173.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say what the glass will",
-   "size": 28,
-   "bbox": [
-    838.0,
-    204.9,
-    1196.9,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "cost",
-   "size": 28,
-   "bbox": [
-    838.0,
-    238.9,
-    903.9,
-    263.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "argue against a rule",
-   "size": 28,
-   "bbox": [
-    838.0,
-    290.9,
-    1157.6,
-    315.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "nobody can enforce",
-   "size": 28,
-   "bbox": [
-    838.0,
-    324.9,
-    1149.4,
-    349.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "answer the other side",
-   "size": 28,
-   "bbox": [
-    838.0,
-    376.9,
-    1184.4,
-    401.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
+   "on": "#FFFFFF"
   }
  ],
  "leaders": [],
- "cards": 0,
+ "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, the car park: say where you were in the afternoon, say what you saw, argue for a note about ball games, say who should pay for the glass. Card B, the fund: say what the fund holds, say what the glass will cost, argue against a rule nobody can enforce, answer the other side.",
+ "alt": "The four steps of the listening task in the order the exercise prints them, each with an empty box at the left for its number.",
  "placed_in": [
-  6.260416666666667,
-  2.2083333333333335
+  5.625,
+  1.7604166666666667
  ],
- "sha256": "9246db9badf65dfd9f59294b128f50c46969225f5c470c5a1ceb81aca218ce7e"
+ "sha256": "4722819985ffc1c18162c6e4d4121a5478dea2fb0e2bf10004defe01d2c81abb"
 }

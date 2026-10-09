@@ -1,120 +1,23 @@
 {
  "canvas": [
   1440,
-  424
+  579
  ],
  "bounds": [
-  53,
-  21.0,
-  1387,
-  403.0
+  23,
+  28.7,
+  1417,
+  550.7
  ],
- "texts": [
-  {
-   "text": "The lorry left the skip on the pavement",
-   "size": 32,
-   "bbox": [
-    142,
-    53.9,
-    852.3,
-    82.1
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "1",
-   "size": 27,
-   "bbox": [
-    86.6,
-    54.3,
-    105.4,
-    78.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "The van was arriving when the lorry left",
-   "size": 32,
-   "bbox": [
-    142,
-    151.4,
-    867.2,
-    179.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "2",
-   "size": 27,
-   "bbox": [
-    86.6,
-    151.8,
-    105.4,
-    176.2
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Then the van arrived",
-   "size": 32,
-   "bbox": [
-    142,
-    248.9,
-    519.1,
-    277.1
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "3",
-   "size": 27,
-   "bbox": [
-    86.6,
-    249.3,
-    105.4,
-    273.8
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "The van was in the middle of coming down",
-   "size": 32,
-   "bbox": [
-    142,
-    346.4,
-    913.3,
-    374.6
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "4",
-   "size": 27,
-   "bbox": [
-    86.6,
-    346.8,
-    105.4,
-    371.2
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  }
- ],
+ "texts": [],
  "leaders": [],
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The four lines of the notice with the verb ringed in each: left, was arriving, arrived, was. The ring is what a correct underlining looks like.",
+ "alt": "The number 42 bus and the stop outside the hospital: the board showing the next bus, a seat, and a man standing with a dark phone in his hand.",
  "placed_in": [
-  6.260416666666667,
-  1.84375
+  4.927083333333333,
+  1.9791666666666667
  ],
- "sha256": "5dba4b1be0f370fc898dc192b54e33d08cd54543e9372ffe47dcb59df73dfdc9"
+ "sha256": "adedbff4c70bd1812f8fd639ea2f29311449643ffa249b8f6fd12725cdf6bcc6"
 }

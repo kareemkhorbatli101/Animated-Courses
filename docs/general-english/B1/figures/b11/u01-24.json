@@ -1,144 +1,120 @@
 {
  "canvas": [
   1440,
-  397
+  473
  ],
  "bounds": [
-  51.0,
-  19.7,
-  1389.0,
-  377.7
+  57,
+  23.4,
+  1383,
+  449.4
  ],
  "texts": [
   {
-   "text": "1",
-   "size": 27,
+   "text": "I\u2019m at 14 Alder Street.",
+   "size": 28,
    "bbox": [
-    78.6,
-    45.2,
-    97.4,
-    69.7
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Overlap",
-   "size": 30,
-   "bbox": [
-    110.7,
-    330.9,
-    242.9,
-    357.5
+    183.0,
+    57.1,
+    537.0,
+    81.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "2",
-   "size": 27,
+   "text": "say where you are",
+   "size": 28,
    "bbox": [
-    350.2,
-    45.2,
-    369.0,
-    69.7
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Capacity",
-   "size": 30,
-   "bbox": [
-    375.4,
-    330.9,
-    521.4,
-    357.5
+    960.5,
+    57.1,
+    1249.5,
+    81.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "3",
-   "size": 27,
+   "text": "The skip is at the wrong house.",
+   "size": 28,
    "bbox": [
-    621.8,
-    45.2,
-    640.6,
-    69.7
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Slot",
-   "size": 30,
-   "bbox": [
-    686.6,
-    330.9,
-    753.4,
-    357.5
+    111.7,
+    167.1,
+    608.3,
+    191.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "4",
-   "size": 27,
+   "text": "say what is wrong",
+   "size": 28,
    "bbox": [
-    893.4,
-    45.2,
-    912.2,
-    69.7
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "Backlog",
-   "size": 30,
-   "bbox": [
-    925.0,
-    330.9,
-    1058.2,
-    357.5
+    962.3,
+    167.1,
+    1247.7,
+    191.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "5",
-   "size": 27,
+   "text": "It is blocking my shop.",
+   "size": 28,
    "bbox": [
-    1165.0,
-    45.2,
-    1183.8,
-    69.7
+    181.6,
+    277.1,
+    538.4,
+    301.6
    ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
   },
   {
-   "text": "Kerb",
-   "size": 30,
+   "text": "say why it cannot wait",
+   "size": 28,
    "bbox": [
-    1223.5,
-    330.9,
-    1302.9,
-    357.5
+    927.6,
+    277.1,
+    1282.4,
+    301.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Can you give me a job number?",
+   "size": 28,
+   "bbox": [
+    111.9,
+    387.1,
+    608.1,
+    411.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "get something to quote",
+   "size": 28,
+   "bbox": [
+    918.6,
+    387.1,
+    1291.4,
+    411.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   }
  ],
  "leaders": [],
- "cards": 5,
+ "cards": 0,
  "stages": 0,
- "arrows": 0,
- "alt": "The five words from the reading as numbered picture cards: overlap, capacity, slot, backlog, kerb.",
+ "arrows": 4,
+ "alt": "Four lines from the telephone call, each with an arrow to the job it does: saying where you are, saying what is wrong, saying why it cannot wait, and getting a number you can use again.",
  "placed_in": [
-  6.260416666666667,
-  1.7291666666666667
+  5.625,
+  1.84375
  ],
- "sha256": "8c42ba5f4022665ec31e862219ea9b781338f97692da81ad2b5781495359c7a6"
+ "sha256": "3b06b2457cf4ca87518ca1d9586302285b9f151c4f4e2925ed269ff4d4fe3e53"
 }

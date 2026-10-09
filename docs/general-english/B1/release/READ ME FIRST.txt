@@ -1,7 +1,7 @@
 English for Daily Life - B1
 ==========================
 
-2 volume(s), 1 unit(s) written, 41 figures a unit.
+2 volume(s), 1 unit(s) written, 28 figures a unit.
 
   EFDL-B1.1-LookingBack                Volume 1, Looking Back
   EFDL-B1.2-MakingYourselfClear        Volume 2, Making Yourself Clear
@@ -14,5 +14,5 @@ Each book is one file: the units in order, then the answer key, with
 the front and back covers as the first and last pages. DOCX is the
 editable source; the PDF is what it prints as.
 
-Every unit carries 41 figures, every one of them a teaching device
+Every unit carries 28 figures, every one of them a teaching device
 the text refers to. The unit opener and both covers fill a page.
