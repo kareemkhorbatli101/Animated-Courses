@@ -511,53 +511,6 @@ evidence, comparison needs several pairs, regret needs several people's regrets.
 | 19 | **Somebody Ought to Say Something** | the third step from the bottom · a mattress by the bins · £4 a month nobody queried · the drain at the front · a door that shuts but does not lock · deciding who says it | *it + be + adj + to-infinitive*; *there + modal + be* | Sri Lanka | `PP.it_to_do`, `EX.there.MD` |
 | 20 | **Putting a Case** | three minutes at a public meeting · two hundred words to a local paper · standing for the committee · saying no to something reasonable · a question you were not expecting · the last word | adverbs of attitude and discourse linkers | Croatia | `RB.ATT` |
 
-### 4c · The content law — what family M enforces, and what it cannot
-
-The law is one sentence: **a unit is a theme carrying several distinct situations,
-and it is the grammar that repeats, never the situation.** `ledgers/situations.yaml`
-makes that declarable and family M makes it checkable. The numbers:
-
-| | | Check |
-|---|---|---|
-| Distinct situations a unit carries | **≥ 7**, each owning at least one sub-section outright | `M02` |
-| Sub-sections any one situation may own | **≤ 7** of 42 (16.7%) | `M03` |
-| Share of all attributions any one may take | **≤ 25%**, counting the theme sub-sections that draw on it | `M03` |
-| Distinct physical settings | **≥ 5**, and none on more than 9 sub-sections | `M04` |
-| Strands a theme-level sub-section must draw on | **≥ 2**, each verified present in its own text | `M05` |
-| Share of a unit's situations any one person may be in | **≤ 60%** | `M09` |
-
-`M01` requires every one of the 42 sub-sections to be attributed to a situation or to
-the theme, and every attribution to name a heading that exists — so the map cannot
-drift from the unit. `M07` requires each situation to be findable in the unit's own
-text, by its own declared probe words, in the very sub-sections it claims.
-
-**The realism clause, and its honest limit.** No check can judge whether a situation
-is plausible. What `M06` can do is refuse one whose obvious objection has not been
-named and answered: every strand declares `obvious_out` — the thing any adult reader
-thinks of within two seconds — and `why_not`, the answer, in the strand's own facts.
-`M08` greps four blocklisted premises, and the first of them is the one that got the
-file written:
-
-| id | What it forbids | Why |
-|---|---|---|
-| `dark_without_phone` | twenty minutes of being unable to see | Every adult in 2026 carries a torch, and v2's own script had somebody walk past holding out a lit phone |
-| `unreachable_by_phone` | being uncontactable, asserted bare | It needs a stated cause — a flat battery, a dead area, a number nobody knows by heart. Unit 1 now uses all three, and names them |
-| `nobody_knew` | a week of total ignorance | Information travels; a street with a group chat does not have one |
-| `unexplained_authority` | a flat refusal with no reason | Institutions are slow, not silent, and the slowness is where the language work is |
-
-**`M10` is the calibration**, and it is to this family what `L01` is to the level
-floors. A law that would have passed the thing it was written to reject is not a law,
-so the superseded unit is kept at `spec/fixtures/b11-u01-v1.md` and `M10` fails if
-the numbers above would have let it through. They would not: it carried **2** distinct
-situations against a floor of 7, ran **37** of its 42 sub-sections on one of them
-against a cap of 7, and stood in **2** settings against a floor of 5.
-
-**What this still cannot do.** It cannot tell you a situation is boring, that a
-sentence is flat, or that a joke does not land. It can tell you that a unit is not
-one story in disguise, that every situation in it has survived its own obvious
-objection, and that the objection's answer reached the page. That is the whole
-claim, and §13 does not make a larger one.
-
 ### 4a · CEFR-J B1 coverage — audited, and the six gaps closed
 
 The B1 Grammar Profile has **84 rows at B1, in 29 shorthand families**. v1's syllabus
@@ -618,6 +571,53 @@ the A2 point it extends, and the exempt list is seeded with every A2 form.
 A2's plain register. Say the word and they change; nothing else moves.
 
 ---
+
+### 4c · The content law — what family M enforces, and what it cannot
+
+The law is one sentence: **a unit is a theme carrying several distinct situations,
+and it is the grammar that repeats, never the situation.** `ledgers/situations.yaml`
+makes that declarable and family M makes it checkable. The numbers:
+
+| | | Check |
+|---|---|---|
+| Distinct situations a unit carries | **≥ 7**, each owning at least one sub-section outright | `M02` |
+| Sub-sections any one situation may own | **≤ 7** of 42 (16.7%) | `M03` |
+| Share of all attributions any one may take | **≤ 25%**, counting the theme sub-sections that draw on it | `M03` |
+| Distinct physical settings | **≥ 5**, and none on more than 9 sub-sections | `M04` |
+| Strands a theme-level sub-section must draw on | **≥ 2**, each verified present in its own text | `M05` |
+| Share of a unit's situations any one person may be in | **≤ 60%** | `M09` |
+
+`M01` requires every one of the 42 sub-sections to be attributed to a situation or to
+the theme, and every attribution to name a heading that exists — so the map cannot
+drift from the unit. `M07` requires each situation to be findable in the unit's own
+text, by its own declared probe words, in the very sub-sections it claims.
+
+**The realism clause, and its honest limit.** No check can judge whether a situation
+is plausible. What `M06` can do is refuse one whose obvious objection has not been
+named and answered: every strand declares `obvious_out` — the thing any adult reader
+thinks of within two seconds — and `why_not`, the answer, in the strand's own facts.
+`M08` greps four blocklisted premises, and the first of them is the one that got the
+file written:
+
+| id | What it forbids | Why |
+|---|---|---|
+| `dark_without_phone` | twenty minutes of being unable to see | Every adult in 2026 carries a torch, and v2's own script had somebody walk past holding out a lit phone |
+| `unreachable_by_phone` | being uncontactable, asserted bare | It needs a stated cause — a flat battery, a dead area, a number nobody knows by heart. Unit 1 now uses all three, and names them |
+| `nobody_knew` | a week of total ignorance | Information travels; a street with a group chat does not have one |
+| `unexplained_authority` | a flat refusal with no reason | Institutions are slow, not silent, and the slowness is where the language work is |
+
+**`M10` is the calibration**, and it is to this family what `L01` is to the level
+floors. A law that would have passed the thing it was written to reject is not a law,
+so the superseded unit is kept at `spec/fixtures/b11-u01-v1.md` and `M10` fails if
+the numbers above would have let it through. They would not: it carried **2** distinct
+situations against a floor of 7, ran **37** of its 42 sub-sections on one of them
+against a cap of 7, and stood in **2** settings against a floor of 5.
+
+**What this still cannot do.** It cannot tell you a situation is boring, that a
+sentence is flat, or that a joke does not land. It can tell you that a unit is not
+one story in disguise, that every situation in it has survived its own obvious
+objection, and that the objection's answer reached the page. That is the whole
+claim, and §13 does not make a larger one.
 
 ## 5 · The cast, two years on
 
