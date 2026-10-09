@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "storm",
+   "text": "temperature",
    "size": 30,
    "bbox": [
-    162.1,
+    104.7,
     209.4,
-    260.9,
+    318.3,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "shower",
+   "text": "junction",
    "size": 30,
    "bbox": [
-    489.2,
+    481.8,
     209.4,
-    611.8,
+    619.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "storm",
+   "size": 30,
+   "bbox": [
+    840.1,
+    209.4,
+    938.9,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "might",
+   "size": 30,
+   "bbox": [
+    1179.1,
+    209.4,
+    1277.9,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "flood",
    "size": 30,
    "bbox": [
-    847.0,
-    209.4,
-    932.0,
-    236.0
+    169.0,
+    427.4,
+    254.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "temperature",
+   "text": "shower",
    "size": 30,
    "bbox": [
-    1121.7,
-    209.4,
-    1335.3,
-    236.0
+    489.2,
+    427.4,
+    611.8,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "will",
    "size": 30,
    "bbox": [
-    182.2,
+    860.2,
     427.4,
-    240.8,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "might",
-   "size": 30,
-   "bbox": [
-    501.1,
-    427.4,
-    599.9,
+    918.8,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "diary",
    "size": 30,
    "bbox": [
-    846.3,
+    1185.3,
     427.4,
-    932.7,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "junction",
-   "size": 30,
-   "bbox": [
-    1159.8,
-    427.4,
-    1297.2,
+    1271.7,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: storm, shower, flood, temperature, will, might, diary, junction.",
+ "alt": "The eight words of the spiral review bank, in bank order: temperature, junction, storm, might, flood, shower, will, diary.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "69b416118ce1b5a847bd38f9e945ef127abd5e31ee0da77363b223157cbed429"
+ "sha256": "cbaff1f126f5bcc049caaa89b41e0ddabfd7831c3222a8346f0ca66091be1ded"
 }

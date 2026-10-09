@@ -20,10 +20,11 @@ FIGURES = {
             'favour, lesson, beginner.'),
 
  3: lambda: F.bank_strip(
-        [('lend', 'hands'), ('instrument', 'guitar'), ('patient', 'clock'), ('beginner', 'book')],
+        [('lend', 'hands'), ('patient', 'clock'), ('instrument', 'guitar'),
+         ('beginner', 'book')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: lend, instrument, patient, beginner.'),
+            'them, each with a picture: lend, patient, instrument, beginner.'),
 
  4: lambda: F.scene(
         [('Tomas', 'nurse', 'can take blood'), ('Amina', 'shop', 'can add in her head'),
@@ -350,10 +351,12 @@ FIGURES = {
             'ask last of all.'),
 
  39: lambda: F.bank_strip(
-        [('lend', 'hands'), ('borrow', 'hands'), ('beginner', 'book'), ('patient', 'clock'), ('can', 'tick'), ('could', 'tick'), ('quality', 'star'), ('suitcase', 'suitcase')],
+        [('patient', 'clock'), ('suitcase', 'suitcase'), ('lend', 'hands'),
+         ('could', 'tick'), ('beginner', 'book'), ('borrow', 'hands'),
+         ('can', 'tick'), ('quality', 'star')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: lend, '
-            'borrow, beginner, patient, can, could, quality, suitcase.'),
+        alt='The eight words of the spiral review bank, in bank order: patient, '
+            'suitcase, lend, could, beginner, borrow, can, quality.'),
 
  40: lambda: F.progress_strip(
         [('I can talk about what people can and cannot do', False),

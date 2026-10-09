@@ -20,10 +20,11 @@ FIGURES = {
             'farmer, tailor, waiter.'),
 
  3: lambda: F.bank_strip(
-        [('artist', 'palette'), ('athlete', 'runner'), ('builder', 'hammer'), ('singer', 'microphone')],
+        [('builder', 'hammer'), ('artist', 'palette'), ('athlete', 'runner'),
+         ('singer', 'microphone')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: artist, athlete, builder, singer.'),
+            'them, each with a picture: builder, artist, athlete, singer.'),
 
  4: lambda: F.scene(
         [('Amina', 'shop', 'the woman who runs the shop'),
@@ -370,10 +371,12 @@ FIGURES = {
             'four words a year is a decision and not an accident.'),
 
  39: lambda: F.bank_strip(
-        [('actor', 'mask'), ('athlete', 'runner'), ('tailor', 'needle'), ('waiter', 'tray'), ('who', 'person'), ('where', 'pin'), ('unless', 'question'), ('factory', 'factory')],
+        [('waiter', 'tray'), ('factory', 'factory'), ('actor', 'mask'),
+         ('where', 'pin'), ('tailor', 'needle'), ('athlete', 'runner'),
+         ('who', 'person'), ('unless', 'question')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: actor, '
-            'athlete, tailor, waiter, who, where, unless, factory.'),
+        alt='The eight words of the spiral review bank, in bank order: waiter, '
+            'factory, actor, where, tailor, athlete, who, unless.'),
 
  40: lambda: F.progress_strip(
         [('I can describe a person by what they do', False),

@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "museum",
+   "text": "windy",
    "size": 30,
    "bbox": [
-    139.8,
+    161.3,
     209.4,
-    283.2,
+    261.7,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "picnic",
+   "text": "timetable",
    "size": 30,
    "bbox": [
-    501.0,
+    469.0,
     209.4,
-    600.0,
+    632.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "museum",
+   "size": 30,
+   "bbox": [
+    817.8,
+    209.4,
+    961.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "were",
+   "size": 30,
+   "bbox": [
+    1186.9,
+    209.4,
+    1270.1,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "village",
    "size": 30,
    "bbox": [
-    833.3,
-    209.4,
-    945.7,
-    236.0
+    155.3,
+    427.4,
+    267.7,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "windy",
+   "text": "picnic",
    "size": 30,
    "bbox": [
-    1178.3,
-    209.4,
-    1278.7,
-    236.0
+    501.0,
+    427.4,
+    600.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "was",
    "size": 30,
    "bbox": [
-    178.6,
+    856.6,
     427.4,
-    244.4,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "were",
-   "size": 30,
-   "bbox": [
-    508.9,
-    427.4,
-    592.1,
+    922.4,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "aisle",
    "size": 30,
    "bbox": [
-    850.0,
+    1189.0,
     427.4,
-    929.0,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "timetable",
-   "size": 30,
-   "bbox": [
-    1147.0,
-    427.4,
-    1310.0,
+    1268.0,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: museum, picnic, village, windy, was, were, aisle, timetable.",
+ "alt": "The eight words of the spiral review bank, in bank order: windy, timetable, museum, were, village, picnic, was, aisle.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "561ee51fead74639dac364b7ff7b9a32692857871e1f218678663efe4733e1c5"
+ "sha256": "1a259cef7a1ee634b575fc62edcde641cf4d8cb6c2ed127d48bde4eef8e9531a"
 }

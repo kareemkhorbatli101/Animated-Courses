@@ -10,6 +10,7 @@ ROOT = os.path.dirname(HERE)
 sys.path[:0] = [HERE, os.path.join(HERE, 'checks')]
 import covers as CV      # noqa: E402
 import runner as R       # noqa: E402
+import level as LV       # noqa: E402
 
 VOL = {'a21': dict(volume=1, title='Everyday Life',
                    theme=dict(icons=['home', 'person', 'shop', 'bus', 'clock'],
@@ -17,7 +18,16 @@ VOL = {'a21': dict(volume=1, title='Everyday Life',
        'a22': dict(volume=2, title='Out in the World',
                    theme=dict(icons=['bus', 'sun', 'school', 'sign', 'moon'],
                               panel='dark',
-                              strap='Plans, rules, stories and the road out.'))}
+                              strap='Plans, rules, stories and the road out.')),
+       'b11': dict(volume=1, title='Looking Back',
+                   theme=dict(icons=['clock', 'notebook', 'moon', 'home', 'bus'],
+                              strap='What happened, what used to be, '
+                                    'and what might have been.')),
+       'b12': dict(volume=2, title='Making Yourself Clear',
+                   theme=dict(icons=['person', 'sign', 'shop', 'school', 'sun'],
+                              panel='dark',
+                              strap='Saying it, joining it up, '
+                                    'and putting a case.'))}
 
 BLURB = {
  'a21': ("English for Daily Life takes an adult beginner who already knows a little "
@@ -69,10 +79,11 @@ def build(book='a21'):
     blurb = BLURB[book].replace('Ten units', n_label, 1)
     f = CV.front(v['volume'], v['title'], titles, v['theme'], n_units_label=n_label)
     CV.emit(f, book, 'front', {'theme': book, 'volume': v['volume'],
-                               'title': v['title'], 'level': 'A2'})
+                               'title': v['title'], 'level': LV.level(book)})
     b = CV.back(v['volume'], v['title'], blurb, titles, grammar, can_do, v['theme'])
     CV.emit(b, book, 'back', {'theme': book, 'volume': v['volume'], 'title': v['title'],
-                              'level': 'A2', 'blurb': blurb, 'units': titles,
+                              'level': LV.level(book), 'blurb': blurb,
+                              'units': titles,
                               'grammar': grammar, 'can_do': can_do,
                               'unit_count': len(titles)})
     print(f'{book}: covers built from {len(titles)} unit(s); '

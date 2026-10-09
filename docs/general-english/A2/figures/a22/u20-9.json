@@ -35,24 +35,24 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "envelope",
+   "text": "false",
    "size": 30,
    "bbox": [
-    812.3,
+    848.6,
     258.6,
-    966.7,
+    930.4,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "false",
+   "text": "envelope",
    "size": 30,
    "bbox": [
-    1187.6,
+    1151.3,
     258.6,
-    1269.4,
+    1305.7,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: news, stamp, envelope, false.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: news, stamp, false, envelope.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "fdcacf4a95971925165a4533b1a29ee5f56cab65fbc86124bbc6ac8a3a6c5de0"
+ "sha256": "bd8495437af401635cf174b52397adc6305e1a8d3d6950ca78bac63fa46f8c22"
 }

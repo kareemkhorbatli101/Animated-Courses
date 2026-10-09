@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "roundabout",
+   "text": "address",
    "size": 30,
    "bbox": [
-    112.7,
+    144.5,
     209.4,
-    310.3,
+    278.5,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "lane",
+   "text": "timetable",
    "size": 30,
    "bbox": [
-    514.4,
+    469.0,
     209.4,
-    586.6,
+    632.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "roundabout",
+   "size": 30,
+   "bbox": [
+    790.7,
+    209.4,
+    988.3,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "at",
+   "size": 30,
+   "bbox": [
+    1211.2,
+    209.4,
+    1245.8,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "square",
    "size": 30,
    "bbox": [
-    831.5,
-    209.4,
-    947.5,
-    236.0
+    153.5,
+    427.4,
+    269.5,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "address",
+   "text": "lane",
    "size": 30,
    "bbox": [
-    1161.5,
-    209.4,
-    1295.5,
-    236.0
+    514.4,
+    427.4,
+    586.6,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "towards",
    "size": 30,
    "bbox": [
-    143.0,
+    821.0,
     427.4,
-    280.0,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "at",
-   "size": 30,
-   "bbox": [
-    533.2,
-    427.4,
-    567.8,
+    958.0,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "borrow",
    "size": 30,
    "bbox": [
-    829.5,
+    1168.5,
     427.4,
-    949.5,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "timetable",
-   "size": 30,
-   "bbox": [
-    1147.0,
-    427.4,
-    1310.0,
+    1288.5,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: roundabout, lane, square, address, towards, at, borrow, timetable.",
+ "alt": "The eight words of the spiral review bank, in bank order: address, timetable, roundabout, at, square, lane, towards, borrow.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "6852aeb27a01938476712f86224a5fbd442c94871f690238909d732206ff6dd3"
+ "sha256": "b7e488ddaec2c39287b8646a9ecae1da756be0956300e333314f3ac4d680f633"
 }

@@ -354,11 +354,14 @@ FIGURES = {
             'answer yet.'),
 
  39: lambda: F.bank_strip(
-        [('balcony', 'balcony'), ('cupboard', 'cupboard'), ('neighbour', 'home'), ('there is', 'one_thing'), ('there are', 'many_things'), ('much', 'bottle'), ('many', 'stones'), ('commute', 'bus')],
+        [('there is', 'one_thing'), ('commute', 'bus'),
+         ('balcony', 'balcony'), ('much', 'bottle'), ('neighbour', 'home'),
+         ('cupboard', 'cupboard'), ('there are', 'many_things'),
+         ('many', 'stones')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'balcony, cupboard, neighbour, there is, there are, much, many, '
-            'commute.'),
+            'there is, commute, balcony, much, neighbour, cupboard, there are, '
+            'many.'),
 
  40: lambda: F.progress_strip(
         [('I can name the rooms and parts of a building', False),

@@ -11,12 +11,24 @@
  ],
  "texts": [
   {
+   "text": "gas",
+   "size": 30,
+   "bbox": [
+    181.7,
+    258.6,
+    241.3,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "childhood",
    "size": 30,
    "bbox": [
-    128.9,
+    467.9,
     258.6,
-    294.1,
+    633.1,
     285.2
    ],
    "fill": "#1F3864",
@@ -26,21 +38,9 @@
    "text": "modern",
    "size": 30,
    "bbox": [
-    485.6,
+    824.6,
     258.6,
-    615.4,
-    285.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "gas",
-   "size": 30,
-   "bbox": [
-    859.7,
-    258.6,
-    919.3,
+    954.4,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: childhood, modern, gas, engine.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: gas, childhood, modern, engine.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "b5873a51cb980041f25b412d266bb85cbf83f9166018f05d59fb0869342f216d"
+ "sha256": "3900bac81496e0fe8c13ee940c7a0971dfacb255c612ef9e518ecb8e6a297e27"
 }

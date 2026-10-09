@@ -11,24 +11,24 @@
  ],
  "texts": [
   {
-   "text": "throat",
+   "text": "headache",
    "size": 30,
    "bbox": [
-    158.6,
+    129.9,
     258.6,
-    264.4,
+    293.1,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "headache",
+   "text": "throat",
    "size": 30,
    "bbox": [
-    468.9,
+    497.6,
     258.6,
-    632.1,
+    603.4,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: throat, headache, healthy, pain.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: headache, throat, healthy, pain.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "da69f75b8440f7851fc5f9e900b7c191ad0abe5652a2edb31cecb839cc0be2f7"
+ "sha256": "0cd5df7769047ba2ff853558b842e24889066bb14e9439445084e8688d1d531b"
 }

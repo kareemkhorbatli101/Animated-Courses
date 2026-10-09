@@ -11,12 +11,12 @@
  ],
  "texts": [
   {
-   "text": "holiday",
+   "text": "hotel",
    "size": 30,
    "bbox": [
-    150.1,
+    168.0,
     258.6,
-    272.9,
+    255.0,
     285.2
    ],
    "fill": "#1F3864",
@@ -35,24 +35,24 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "prepare",
+   "text": "holiday",
    "size": 30,
    "bbox": [
-    822.8,
+    828.1,
     258.6,
-    956.2,
+    950.9,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "hotel",
+   "text": "prepare",
    "size": 30,
    "bbox": [
-    1185.0,
+    1161.8,
     258.6,
-    1272.0,
+    1295.2,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the word bank, in the order the task prints them, each with a picture: holiday, remind, prepare, hotel.",
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: hotel, remind, holiday, prepare.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "9d23fd28a2b48d9d7a253824f1b35ca712a5e08a9fa75712c4051c7e6d900358"
+ "sha256": "8451bb30a9884dad3db1cff3a3d5572a299e8462d25d5c14f1b7d7dcc0d0ef0e"
 }

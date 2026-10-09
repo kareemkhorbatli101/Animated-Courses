@@ -76,10 +76,11 @@ FIGURES = {
             'write each time phrase.'),
 
  9: lambda: F.bank_strip(
-        [('childhood', 'person'), ('modern', 'screen'), ('gas', 'factory'), ('engine', 'factory')],
+        [('gas', 'factory'), ('childhood', 'person'), ('modern', 'screen'),
+         ('engine', 'factory')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: childhood, modern, gas, engine.'),
+            'drawn: gas, childhood, modern, engine.'),
  10: lambda: F.writing_frame(
         [('What changed', 'The market moved in the spring.'),
          ('What it has been like since', 'The square has been quiet ever since.'),
@@ -370,11 +371,13 @@ FIGURES = {
             'it.'),
 
  39: lambda: F.bank_strip(
-        [('modern', 'screen'), ('childhood', 'person'), ('nowadays', 'screen'), ('engine', 'factory'), ('opened', 'door'), ('has not changed', 'before_now'), ('abroad', 'plane'), ('pain', 'pill')],
+        [('engine', 'factory'), ('pain', 'pill'), ('modern', 'screen'),
+         ('has not changed', 'before_now'), ('nowadays', 'screen'),
+         ('childhood', 'person'), ('opened', 'door'), ('abroad', 'plane')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'modern, childhood, nowadays, engine, opened, has not changed, '
-            'abroad, pain.'),
+            'engine, pain, modern, has not changed, nowadays, childhood, '
+            'opened, abroad.'),
 
  40: lambda: F.progress_strip(
         [('I can say when something finished and when something still runs', False),

@@ -71,10 +71,11 @@ FIGURES = {
             'learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('private', 'key'), ('allowed', 'tick'), ('law', 'plaque'), ('smoking', 'cross')],
+        [('allowed', 'tick'), ('private', 'key'), ('law', 'plaque'),
+         ('smoking', 'cross')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: private, allowed, law, smoking.'),
+            'drawn: allowed, private, law, smoking.'),
  10: lambda: F.writing_frame(
         [('What you must not do', 'You must not leave anything on the stairs.'),
          ('Why everybody keeps it', 'Everybody keeps that one because of the fire door.'),
@@ -360,7 +361,10 @@ FIGURES = {
             'when somebody tells them off.'),
 
  39: lambda: F.bank_strip(
-        [('licence', 'certificate'), ('guard', 'guard'), ('fee', 'coins'), ('member', 'certificate'), ('mustn\u2019t', 'cross'), ('don\u2019t have to', 'cross'), ('storm', 'rain'), ('diary', 'notebook')],
+        [('member', 'certificate'), ('diary', 'notebook'),
+         ('licence', 'certificate'), ('don’t have to', 'cross'),
+         ('fee', 'coins'), ('guard', 'guard'), ('mustn’t', 'cross'),
+         ('storm', 'rain')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
             'licence, guard, fee, member, mustn\u2019t, don\u2019t have to, storm, '

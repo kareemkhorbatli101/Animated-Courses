@@ -25,8 +25,8 @@ Not needed: **d)** *a person who pays you every month*
 
 **Part 1: People and Routine Terms**
 
-1. g · 2. b · 3. c · 4. d · 5. f · 6. a · 7. e
-Not needed: **h)** *a day when nobody works*
+1. b · 2. f · 3. d · 4. a · 5. c · 6. h · 7. e
+Not needed: **g)** *a day when nobody works*
 
 > Item 0 (*Routine*) is a standalone worked example, exactly as in the source: the word is not in Column A and its meaning is not in Column B, so it uses up no letter. Seven items, eight letters, one spare.
 

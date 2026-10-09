@@ -358,10 +358,13 @@ FIGURES = {
             'buy the best, which lasts but makes you wait and pay more.'),
 
  39: lambda: F.bank_strip(
-        [('brand', 'star'), ('battery', 'battery'), ('screen', 'screen'), ('deal', 'pricetag'), ('cheaper', 'pricetag'), ('the cheapest', 'pricetag'), ('suitcase', 'suitcase'), ('basket', 'basket')],
+        [('deal', 'pricetag'), ('basket', 'basket'), ('brand', 'star'),
+         ('the cheapest', 'pricetag'), ('screen', 'screen'),
+         ('battery', 'battery'), ('cheaper', 'pricetag'),
+         ('suitcase', 'suitcase')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: brand, '
-            'battery, screen, deal, cheaper, the cheapest, suitcase, basket.'),
+        alt='The eight words of the spiral review bank, in bank order: deal, '
+            'basket, brand, the cheapest, screen, battery, cheaper, suitcase.'),
 
  40: lambda: F.progress_strip(
         [('I can name the things people compare when they choose', False),

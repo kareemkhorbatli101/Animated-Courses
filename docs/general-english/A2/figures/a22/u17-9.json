@@ -11,12 +11,24 @@
  ],
  "texts": [
   {
+   "text": "glass",
+   "size": 30,
+   "bbox": [
+    167.6,
+    258.6,
+    255.4,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
    "text": "cloth",
    "size": 30,
    "bbox": [
-    169.3,
+    508.3,
     258.6,
-    253.7,
+    592.7,
     285.2
    ],
    "fill": "#1F3864",
@@ -26,21 +38,9 @@
    "text": "produce",
    "size": 30,
    "bbox": [
-    481.6,
+    820.6,
     258.6,
-    619.4,
-    285.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "glass",
-   "size": 30,
-   "bbox": [
-    845.6,
-    258.6,
-    933.4,
+    958.4,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: cloth, produce, glass, recycle.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: glass, cloth, produce, recycle.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "88f68f1f47e646a25877e54b6fc1e43c97d2f9234ed93b9810ca7798c21df6d3"
+ "sha256": "e0d06b18a36bc723bbebc84bcdddecddff0ec756954cd7c482a4b957b5d8d5d7"
 }

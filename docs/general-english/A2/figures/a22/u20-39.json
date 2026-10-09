@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "news",
+   "text": "reporter",
    "size": 30,
    "bbox": [
-    167.9,
+    140.8,
     209.4,
-    255.1,
+    282.2,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "reply",
+   "text": "tailor",
    "size": 30,
    "bbox": [
-    507.3,
+    505.2,
     209.4,
-    593.7,
+    595.8,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "news",
+   "size": 30,
+   "bbox": [
+    845.9,
+    209.4,
+    933.1,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "told",
+   "size": 30,
+   "bbox": [
+    1195.1,
+    209.4,
+    1261.9,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "article",
    "size": 30,
    "bbox": [
-    835.5,
-    209.4,
-    943.5,
-    236.0
+    157.5,
+    427.4,
+    265.5,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "reporter",
+   "text": "reply",
    "size": 30,
    "bbox": [
-    1157.8,
-    209.4,
-    1299.2,
-    236.0
+    507.3,
+    427.4,
+    593.7,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "said",
    "size": 30,
    "bbox": [
-    176.6,
+    854.6,
     427.4,
-    246.4,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "told",
-   "size": 30,
-   "bbox": [
-    517.1,
-    427.4,
-    583.9,
+    924.4,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "unless",
    "size": 30,
    "bbox": [
-    835.0,
+    1174.0,
     427.4,
-    944.0,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "tailor",
-   "size": 30,
-   "bbox": [
-    1183.2,
-    427.4,
-    1273.8,
+    1283.0,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: news, reply, article, reporter, said, told, unless, tailor.",
+ "alt": "The eight words of the spiral review bank, in bank order: reporter, tailor, news, told, article, reply, said, unless.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "a965ddef17b203e80ca91700acc51398988190b63d583775ef91597aac302863"
+ "sha256": "d83cc6c2b654080cffee9f30293db6255fadbc6689e149c49957c6f2a5d14ea4"
 }

@@ -20,10 +20,11 @@ FIGURES = {
             'roundabout, lane, square, address.'),
 
  3: lambda: F.bank_strip(
-        [('address', 'envelope'), ('far', 'arrow_right'), ('towards', 'arrow_right'), ('lane', 'lane')],
+        [('far', 'arrow_right'), ('address', 'envelope'), ('lane', 'lane'),
+         ('towards', 'arrow_right')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: address, far, towards, lane.'),
+            'them, each with a picture: far, address, lane, towards.'),
 
  4: lambda: F.scene(
         [('the junction', 'sign', 'four roads, no sign'),
@@ -73,10 +74,11 @@ FIGURES = {
             'for the learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('ahead', 'arrow_up'), ('square', 'square'), ('junction', 'junction'), ('block', 'home')],
+        [('junction', 'junction'), ('ahead', 'arrow_up'),
+         ('square', 'square'), ('block', 'home')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: ahead, square, junction, block.'),
+            'drawn: junction, ahead, square, block.'),
  10: lambda: F.writing_frame(
         [('Where you live', 'I live in a lane behind a square.'),
          ('What is near', 'The nearest junction is two minutes away.'),
@@ -365,11 +367,13 @@ FIGURES = {
             'the landmark instead.'),
 
  39: lambda: F.bank_strip(
-        [('roundabout', 'roundabout'), ('lane', 'lane'), ('square', 'square'), ('address', 'envelope'), ('towards', 'arrow_right'), ('at', 'pin'), ('borrow', 'hands'), ('timetable', 'timetable')],
+        [('address', 'envelope'), ('timetable', 'timetable'),
+         ('roundabout', 'roundabout'), ('at', 'pin'), ('square', 'square'),
+         ('lane', 'lane'), ('towards', 'arrow_right'), ('borrow', 'hands')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'roundabout, lane, square, address, towards, at, borrow, '
-            'timetable.'),
+            'address, timetable, roundabout, at, square, lane, towards, '
+            'borrow.'),
 
  40: lambda: F.progress_strip(
         [('I can say where places are, using prepositions of place', False),

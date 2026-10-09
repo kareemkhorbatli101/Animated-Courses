@@ -1,6 +1,7 @@
 """I · Covers and front matter — 12 checks. Book-scope."""
 import os, re, json, struct
 from . import check, ok, fail, expect
+import level as LV
 
 def _cov(ctx, side):
     return os.path.join(ctx.root, 'covers', f'{ctx.book}-{side}.png')
@@ -20,7 +21,8 @@ def i01(units, ctx):
     m = _meta(ctx, 'front') or {}
     t = ' '.join(x['text'] for x in m.get('texts', [])).lower()
     # a cover legitimately sets the series name in caps
-    missing = [k for k in ('English for Daily Life', ctx.volume_title, 'A2')
+    missing = [k for k in ('English for Daily Life', ctx.volume_title,
+                           LV.level(ctx.book))
                if k.lower() not in t]
     return expect(not missing, f'front cover missing {missing}')
 
@@ -117,7 +119,7 @@ def i09(units, ctx):
 def i10(units, ctx):
     s = _skip(ctx)
     if s: return s
-    other = 'a22' if ctx.book == 'a21' else 'a21'
+    other = LV.sibling(ctx.book)
     p2 = os.path.join(ctx.root, 'covers', f'{other}-front.png')
     if not os.path.exists(p2):
         return ok(f'{other} cover not built yet')

@@ -17,7 +17,7 @@ ex = E._exempt(u, ctx)
 
 if 'E02' in want:
     off = sorted({t.lower() for t in E._running(u)
-                  if t.lower() not in ex and L.is_b1plus(t) and not E.CONTR.match(t.lower())})
+                  if t.lower() not in ex and L.above_band(t) and not E.CONTR.match(t.lower())})
     print(f'E02 ({len(off)}):', off)
 if 'E04' in want:
     bad = [s for s in u.sentences if len(s.split()) > 25]

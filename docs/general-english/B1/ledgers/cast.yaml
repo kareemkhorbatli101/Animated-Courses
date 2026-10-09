@@ -1,0 +1,286 @@
+# B1's cast ledger. DERIVED from ../A2/ledgers/cast.yaml by
+# tools/make_b1_ledgers.py: the same fourteen people at the same address, two
+# years on. Every A2 fact is kept, because it is still true -- what Maya did at
+# A2 Unit 1 is what she did. Every age is raised by two, and the A2 age is
+# recorded in `ages_also`, so F04 accepts a sentence written at either level
+# without either level having to be re-checked. Append B1 facts under each
+# person as they are written, with the unit in brackets, exactly as A2 did.
+address: 14 Alder Street
+street: Alder Street
+building:
+  floors: 4
+  flats: 5
+  lift: false
+  ground_floor: Amina's corner shop
+  empty_flat: first floor, next to Dani
+
+people:
+  Maya:
+    full: Maya Oduya
+    age: 28
+    ages_also: [26]        # 26 at A2; F04 accepts both
+    pronouns: she/her
+    job: bookshop assistant
+    home: flat 2, 14 Alder Street
+    flatmate: Tomas
+    facts:
+      - gets up at half past six
+      - makes coffee, then listens to the radio
+      - commutes twenty minutes by bus
+      - starts work at nine
+      - is studying for an exam; leaves work early on Tuesdays
+      - can find any book in under a minute
+      - walks with the map open and still turns the wrong way
+      - knocked on Yuki's door on her fifth day with a note
+      - makes small books by hand, one at a time
+      - reads the whole thing twice before she touches anything
+      - is meeting her sister off the nine o'clock train on Saturday (U11)
+      - takes a coat whatever anybody says; is never cold and never right (U12)
+      - checks the front door is shut and comes back up two floors to check (U13)
+      - says you should look it up, and has frightened herself twice doing it (U14)
+      - has read the same book four times and understood it differently each time (U15)
+      - has lived in three of the five flats in four years (U16)
+      - has used the same camera since she was fifteen; it takes film (U16)
+      - has taken nine thousand photographs on her mobile and looked at none (U16)
+      - says the corner has always been the phone shop (U16)
+      - makes small books by hand, one at a time, and sells about four a year (U17)
+      - gives most of the books she makes away (U17)
+      - will put her books on the top shelf if the water comes up, and says she
+        will be the one to wake Dani (U18)
+      - moved her books off the floor once and felt silly on the Monday (U18)
+      - the street describes her as the one who carries books, in both
+        directions (U19)
+      - takes in the letters for the man who cleans Mill Lane, and so knows
+        his name is Mr Hall; has not corrected Amina, who has called him the
+        caretaker for nine years (U19)
+      - said she had not seen the van at all, because she was reading (U20)
+      - knows about Yuki's notebook, does not like it, and has not said so (U20)
+      - did not reply to a message of Dani's for four days, because he asked
+        whether she was free and then said what they were doing (U20)
+    first_unit: 1
+  Tomas:
+    full: Tomas Nilsen
+    age: 33
+    ages_also: [31]        # 31 at A2; F04 accepts both
+    pronouns: he/him
+    job: nurse at the city hospital
+    home: flat 2, 14 Alder Street
+    flatmate: Maya
+    facts:
+      - usually works three days a week
+      - some weeks works nights; sleeps mornings, gets up at four
+      - is patient with people who are frightened
+      - knows every back lane between Alder Street and the hospital
+      - can sew a straight line, because the work taught him
+      - works in the same order every time
+      - finishes a night shift around eight in the morning
+      - worked eleven of the last twelve Saturday nights
+      - missed Maya's birthday dinner and sent a photograph of the cake
+      - mustn't be late, and says that is the hospital talking and not him (U13)
+      - says rest and water, which is right and is never what anybody wants (U14)
+      - will not say what is wrong with somebody on a staircase (U14)
+      - has slept in an airport three times and mentions it like a bus stop (U15)
+      - started at the city hospital at twenty-four and has been on nights ever since (U16)
+      - sews because the hospital taught him, and the hospital is strict about it (U17)
+      - the hospital rings everybody when the roads are bad, and rings the next
+        name if he does not answer; he always answers (U18)
+      - the street describes him as the one who works nights (U19)
+      - said the van had been outside an hour; he was sure, and he had come in
+        at the end (U20)
+    first_unit: 1
+  Amina:
+    full: Amina Chaudhry
+    age: 60
+    ages_also: [58]        # 58 at A2; F04 accepts both
+    pronouns: she/her
+    job: runs the corner shop downstairs
+    home: 14 Alder Street, ground floor
+    facts:
+      - opens the shop at seven every morning
+      - opens every day except Sunday
+      - closes at six, and at two on Saturday
+      - knows almost everybody in the street
+      - keeps a notebook under the till for people who pay on Friday
+      - keeps four spare keys in a tin under the till
+      - has a son who thinks the notebook should stop
+      - sells no meat, because there is no room for a fridge
+      - painted GREEN SHOP across her window instead of a number
+      - builds her window display quickly, because the shop is open while she works
+      - knows everybody's Saturday and never asks (U11)
+      - hears all six forecasts before nine every morning (U12)
+      - says her shoulder tells her when it will rain, and it is right more often than the radio (U12)
+      - lost two days of trade and a freezer in a storm (U12)
+      - has one rule she will not break and one she breaks every week, like everybody in the street (U13)
+      - gets told how to feel better about four times a week (U14)
+      - says you should eat something, whatever is wrong with you (U14)
+      - has never been on a plane (U15)
+      - has not changed the shelves since she opened, eleven years ago (U16)
+      - remembers the corner as a bread shop, because it was one for the two
+        years before she opened her own shop (U16)
+      - painted GREEN SHOP across her own window herself (U17)
+      - keeps the bottles behind the till, because the glass is worth something (U17)
+      - knows who in the building makes and who buys (U17)
+      - lost a freezer when the water came up in the spring, and will move the
+        new one first; the list is in her head and has four things on it (U18)
+      - knows which bus is late from who comes in for a paper, after nine
+        years of it (U19)
+      - calls the man who cleans Mill Lane the caretaker, and has for nine
+        years (U19)
+      - buys her potatoes from the same farmer at the market (U19)
+      - said the van had been outside twenty minutes, and she was looking at
+        it (U20)
+      - knows about Yuki's notebook and says so, loudly and often (U20)
+    first_unit: 1
+  Dani:
+    full: Dani Rossi
+    age: 21
+    ages_also: [19]        # 19 at A2; F04 accepts both
+    pronouns: he/him
+    job: student
+    home: flat 3, 14 Alder Street
+    facts:
+      - cooks badly; burned the rice once
+      - can cook rice for twelve people with no warning, badly
+      - carries large bags of rice home
+      - lives on the first floor, flat 3, next to the empty flat
+      - carries a bike down the stairs every day
+      - forgot his wallet and missed the coach one Tuesday
+      - leaves a spare key in Amina's tin
+      - finds his way by the shops, and gets there
+      - cooks fast and loudly and cleans up badly
+      - reads a recipe out of order and starts at step four
+      - said yes to the dinner and then asked what he could cook (U11)
+      - books by telephone and writes nothing down (U11)
+      - says it will be fine, and is wrong about this every week (U12)
+      - slept through the storm on the first floor (U12)
+      - says you shouldn't worry, and says it about everything (U14)
+      - was in bed all week being sick after saying he is never ill (U14)
+      - has lost his papers in two countries (U15)
+      - came to Alder Street last year and has changed nothing, including a
+        light bulb that went in June (U16)
+      - has never thought about what the corner used to be (U16)
+      - has made nothing, and has cooked one meal for eight people, badly (U17)
+      - will sleep through a flood unless somebody wakes him (U18)
+      - ate the chocolate out of the emergency bag once and replaced it (U18)
+      - the street describes him as the boy whose cooking you can smell on the
+        stairs (U19)
+      - has a brother who is an athlete and runs before it is light (U19)
+      - said somebody had told him the van was a bigger one (U20)
+      - has asked to read his own page in Yuki's notebook twice, and said
+        nothing about it either time (U20)
+    first_unit: 1
+  Okonkwo:
+    full: Mr Okonkwo
+    age: 72
+    ages_also: [70]        # 70 at A2; F04 accepts both
+    pronouns: he/him
+    job: retired teacher
+    home: flat 4, 14 Alder Street
+    facts:
+      - reads his newspaper in the afternoon
+      - watches the street from his window
+      - has an appointment at the clinic on Thursday
+      - lives on the fourth floor and has the best view in the street
+      - keeps forty years of newspapers
+      - owns a coat older than Dani, relined twice, with different buttons
+      - mends what he has and buys almost nothing
+      - can play the piano, badly, and says badly is enough
+      - since February cannot carry a full bag up four floors without stopping
+      - gives directions by shops that closed years ago
+      - repairs slowly and once, and what he repairs outlasts the watchers
+      - keeps every rule there is and makes two more of his own (U13)
+      - made the rule about the bins twenty years ago and never needed a sign (U13)
+      - says you should go outside for ten minutes, which works more often than it should (U14)
+      - turned seventy-one during volume two; carried bread up four flights at that age (U14)
+      - has lived in four cities and will not say which he liked (U15)
+      - arrived at number 14 before any of the others and has seen off two owners (U16)
+      - says the corner was a tool shop, which it was for twenty of its thirty years (U16)
+      - bought a hinge there in his first week and still has it (U16)
+      - has minded about the market moving for seven months and said nothing (U16)
+      - owns a coat older than Dani; it has been relined twice and the buttons
+        were changed, and two of them do not match (U17)
+      - the coat was made in a factory where the station is now (U17)
+      - has bought almost nothing in forty years (U17)
+      - will do nothing at all if the water comes up, and has been right twice (U18)
+      - questioned the bag by the door and then put his keys in it (U18)
+      - the street describes him as the man who watches from the fourth floor
+        and says one thing a month (U19)
+      - says the woman in flat 1 is the only person in the building who has
+        never asked him anything, and says it as praise (U19)
+      - said nothing about the van for six days and then said one sentence,
+        and his was the only account that mentioned the driver (U20)
+      - gave an interview to a paper long ago and has mentioned it ever
+        since (U20)
+      - has never mentioned Yuki's notebook, and she reads that as
+        permission (U20)
+    first_unit: 1
+    ages_also: [71]
+  Yuki:
+    full: Yuki Tanaka
+    age: 36
+    ages_also: [34]        # 34 at A2; F04 accepts both
+    pronouns: she/her
+    job: works from home
+    home: top flat, 14 Alder Street
+    facts:
+      - moved in on a Saturday in March
+      - knew nobody in the city when she arrived
+      - after three weeks knew four of the six people at number 14
+      - has the top flat, flat 5, with a small balcony and two plants
+      - pays six hundred a month, which includes the water
+      - cannot swim; could float at eight; is learning as an adult
+      - is learning to make a bowl, and threw the first four away
+      - writes directions down and reads them again at every junction
+      - asks what the rule is first, which nobody else in the building ever did (U13)
+      - learned nine of the building's eleven unwritten rules in her first month (U13)
+      - ate something in a market and has never found out what it was (U15)
+      - arrived in March and has already learned every name in the building (U16)
+      - asked all five of the others what the corner used to be (U16)
+      - threw the first four bowls away; the first had no fault, except that
+        you could see how it was made (U17)
+      - the newest bowl has been under a cloth since March, unglazed, and the
+        glaze is the part she cannot get right (U17)
+      - put a bag by the front door in April, on a Saturday, telling nobody
+        first; it holds a lamp, six telephone numbers, two sets of spare keys
+        and a bar of chocolate (U18)
+      - the street describes her as the one who knows everybody's name, which
+        is the only one of the six descriptions nobody chose for themselves
+        (U19)
+      - has written the woman in flat 1 a note twice and posted neither; she
+        keeps both notes in her notebook (U19)
+      - keeps a notebook started in her first month, because she could not
+        keep the names and faces together; six pages have names on them, and
+        it has settled four arguments in two years and started none (U20)
+      - wrote down what each of the six said about the van, with the day
+        beside it, which is the only reason anybody knows they disagree (U20)
+    first_unit: 1
+
+# One-unit walk-ons from the Part 8 Global Story. Never recur.
+walk_ons:
+  - {name: Jun, unit: 1, country: South Korea}
+  - {name: Clara, unit: 2, country: Brazil}
+  - {name: the Tokyo underground diagram, unit: 3, country: Japan}
+  - {name: the sellers of Fez, unit: 4, country: Morocco}
+  - {name: the Iceland trial, unit: 5, country: Iceland}
+  - {name: the Lima railway, unit: 6, country: Peru}
+  - {name: the jua kali workshops, unit: 7, country: Kenya}
+  - {name: the Toronto tool library, unit: 8, country: Canada}
+  - {name: the Dutch junction numbers, unit: 9, country: Netherlands}
+  - {name: the stone-layers of Lisbon, unit: 10, country: Portugal}
+  - {name: the Bergen bus shelters, unit: 11, country: Norway}
+  - {name: the monsoon watchers, unit: 12, country: India}
+  - {name: the Irish indoor rule, unit: 13, country: Ireland}
+  - {name: the Wellington triage nurses, unit: 14, country: New Zealand}
+  - {name: the name-cutters of the temple, unit: 15, country: Egypt}
+  - {name: the rebuilders of Warsaw, unit: 16, country: Poland}
+  - {name: the NEWater plants, unit: 17, country: Singapore}
+  - {name: the September earthquake drill, unit: 18, country: Mexico}
+  - {name: the kente weavers of Bonwire, unit: 19, country: Ghana}
+  - {name: the ward loudspeakers of Hanoi, unit: 20, country: Vietnam}
+
+places:
+  - Alder Street
+  - Mill Lane
+  - the corner shop
+  - the city hospital
+  - the bookshop

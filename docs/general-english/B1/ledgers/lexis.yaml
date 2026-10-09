@@ -1,0 +1,6 @@
+# Append-only glossary ledger. 10 words a unit, 200 across both
+# books, and none repeating any of A2's 200 (F19). E10 and E11
+# reject a repeat; E09 requires three plantings before Part 10.
+# A unit is appended the moment it is written, never before.
+units: {}
+fixed_phrases: []

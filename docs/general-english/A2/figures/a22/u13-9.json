@@ -11,24 +11,24 @@
  ],
  "texts": [
   {
-   "text": "private",
+   "text": "allowed",
    "size": 30,
    "bbox": [
-    151.0,
+    146.0,
     258.6,
-    272.0,
+    277.0,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "allowed",
+   "text": "private",
    "size": 30,
    "bbox": [
-    485.0,
+    490.0,
     258.6,
-    616.0,
+    611.0,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: private, allowed, law, smoking.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: allowed, private, law, smoking.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "36af270862c8dbf4d479a558e4c47b13af1513a903f7183ab439df85059d7f6e"
+ "sha256": "bf30f01c21aaacc74a83e50106c72af0bb16d681a3da839381279e6067d885fe"
 }

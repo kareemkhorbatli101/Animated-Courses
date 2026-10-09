@@ -20,10 +20,11 @@ FIGURES = {
             'coach, gate, wallet, airport.'),
 
  3: lambda: F.bank_strip(
-        [('taxi', 'taxi'), ('umbrella', 'umbrella'), ('spare', 'key'), ('missed', 'cross')],
+        [('spare', 'key'), ('missed', 'cross'), ('umbrella', 'umbrella'),
+         ('taxi', 'taxi')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: taxi, umbrella, spare, missed.'),
+            'them, each with a picture: spare, missed, umbrella, taxi.'),
 
  4: lambda: F.timeline(
         [('7.00', 'he left the flat'), ('7.10', 'he forgot his wallet'),
@@ -358,10 +359,12 @@ FIGURES = {
             'nothing, and risk a night on the stairs.'),
 
  39: lambda: F.bank_strip(
-        [('suitcase', 'suitcase'), ('delay', 'delay'), ('gate', 'gate'), ('spare', 'key'), ('went', 'before_now'), ('caught', 'bus'), ('museum', 'museum'), ('basket', 'basket')],
+        [('spare', 'key'), ('basket', 'basket'), ('suitcase', 'suitcase'),
+         ('caught', 'bus'), ('gate', 'gate'), ('delay', 'delay'),
+         ('went', 'before_now'), ('museum', 'museum')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'suitcase, delay, gate, spare, went, caught, museum, basket.'),
+            'spare, basket, suitcase, caught, gate, delay, went, museum.'),
 
  40: lambda: F.progress_strip(
         [('I can name the things you take and lose on a journey', False),

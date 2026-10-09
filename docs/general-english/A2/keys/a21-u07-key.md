@@ -25,8 +25,8 @@ Not needed: **f)** *the paper that shows what you paid*
 
 **Part 1: Comparing and Choosing Terms**
 
-1. b · 2. c · 3. d · 4. a · 5. e · 6. f · 7. g
-Not needed: **h)** *a small flat case you keep money in*
+1. h · 2. e · 3. f · 4. g · 5. c · 6. a · 7. b
+Not needed: **d)** *a small flat case you keep money in*
 
 > Item 0 (*Second-hand*) is a standalone worked example, as in the source: the word is not in Column A and its meaning is not in Column B, so it uses up no letter. Seven items, eight letters, one spare.
 

@@ -10,6 +10,7 @@ sys.path[:0] = [HERE, os.path.join(HERE, 'checks')]
 
 import model as M                      # noqa: E402
 import checks as C                     # noqa: E402
+import level as LV                     # noqa: E402
 
 
 @dataclass
@@ -48,14 +49,15 @@ class Ctx:
     # named a file that has never existed, so every book-scoped check asking
     # for it skipped in silence -- J15 (page count per volume) had never
     # executed once in this project. Resolve the real name off disk instead.
-    BOOK_VOL = {'a21': '1', 'a22': '2'}
+    # The level half of that prefix comes from tools/level.py, so the same
+    # runner resolves EFDL-B1.1- when it is run from B1/.
 
     def _book_docx(self):
         d = os.path.join(self.root, 'build')
         fallback = os.path.join(d, f'{self.book}-book.docx')
         if not os.path.isdir(d):
             return fallback
-        pre = f'EFDL-A2.{self.BOOK_VOL[self.book]}-'
+        pre = LV.prefix(self.book)
         hits = sorted(f for f in os.listdir(d)
                       if f.startswith(pre) and f.endswith('.docx')
                       and 'AnswerKey' not in f)
@@ -108,8 +110,8 @@ def _load_yaml(*parts):
 def load_ctx(book='a21') -> Ctx:
     y = _load_yaml
     c = Ctx(book=book,
-            book_label={'a21': 'A2.1', 'a22': 'A2.2'}[book],
-            volume_title={'a21': 'Everyday Life', 'a22': 'Out in the World'}[book])
+            book_label=LV.label(book),
+            volume_title=LV.title(book))
     c.spec = y('spec', 'golden.yaml')
     c.typo = y('spec', 'typography.yaml')
     c.palette = y('spec', 'palette.yaml')

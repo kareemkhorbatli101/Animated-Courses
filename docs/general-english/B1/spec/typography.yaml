@@ -1,0 +1,181 @@
+# Extracted from EFD_Book_U1-U10_Illustrated_StudentBook_2.docx. Do not edit by hand.
+source_file: EFD_Book_U1-U10_Illustrated_StudentBook_2.docx
+page:
+  size_twips: {w: 11906, h: 16838}     # A4 portrait
+  orient: portrait
+  margins_twips: {top: 1440, right: 1440, bottom: 1440, left: 1440}
+  header_offset_twips: 708
+  footer_offset_twips: 708
+  text_width_twips: 9026
+font:
+  name: Calibri
+  slots: [ascii, cs, eastAsia, hAnsi]
+  default_half_points: 22               # 11 pt
+  allowed_half_points: [18, 20, 22, 24, 28, 40]   # unchanged: the refined
+                                                 # layout reuses the source's
+                                                 # own six sizes and adds none
+  pdf_substitute: Carlito               # metric-compatible
+styles:
+  paragraph_styles_permitted: [ListParagraph]
+  headings_are_word_styles: false        # source uses bold runs in body paragraphs
+tables:
+  border: {val: single, color: auto, sz: 4}   # 0.5 pt
+  edges: [top, left, bottom, right, insideH, insideV]
+  table_style: null
+justification:
+  used: [center]                         # figures only
+figure_placement:
+  # The law that reproduces all 40 source placements to the EMU.
+  render_px_width: 1440
+  # MEASURED source box, kept for the diff. The shipped box is golden.yaml's
+  # box_default / box_by_slot, raised 2026-10-08 -- see `departures` below.
+  source_box_in: {w: 5.625, h: 1.9791666666666667}
+  box_in: {w: 6.2604166667, h: 3.0937500000}
+  fit: contain                           # preserve aspect, fit inside box
+  round_to_dpi: 96                       # then round each dimension to a whole 96-DPI px
+  rounding: half_up
+  # Because the rounding is half-UP, every box dimension must itself be a whole
+  # number of 96-DPI pixels, or a fitted image can overflow the box it was
+  # fitted into. Check G11 asserts it.
+  box_dims_must_be_whole_px: true
+  full_page:
+    # A cover or a unit opener takes the whole sheet, so it needs its own
+    # section: the body section has 1 in margins and the largest image that
+    # fits inside them is 6.27 x 9.69 in -- a big image on a page, not a page.
+    box_in: {w: 8.268333333333333, h: 11.693055555555556}   # A4 trim
+    fit: fill_trim                       # the extent IS the box; no contain,
+                                         # which would leave a hairline of white
+                                         # where A4 art and A4 page differ by 0.02%
+    section_margins_twips: {top: 0, right: 0, bottom: 0, left: 0}
+    alone_on_page: true                  # enforced by H23
+    footer: false                        # a cover carries no page number
+# ---------------------------------------------------------------------------
+# DECLARED DEPARTURES from the source, approved 2026-10-07 and extended on
+# 2026-10-07 after review: "too crammed ... I want visuals at the beginning of
+# every unit and almost in every page".
+#
+# The source sets 42 sub-sections of solid 11pt Calibri with no paragraph
+# spacing, no heading hierarchy beyond bold, no page breaks and no cell
+# padding. It is legible but it is a wall. Everything below is a deliberate
+# change; the measured source values stay above so the diff is always visible.
+# ---------------------------------------------------------------------------
+departures:
+  page_numbers: true
+  # Approved 2026-10-08: "the front cover and back covers and first image of
+  # each unit must fill a page and every other exercise or so must have a
+  # pedagogically useful diagram or image or visual."
+  #
+  # Phase 1 of 00-VISUAL-PLAN.md, geometry only, no new art:
+  #   - the figure box goes from the source's 5.625 x 1.979 in to the full text
+  #     width, 6.2604 x 3.0938 in. The 1.979 in height cap was squashing every
+  #     figure in the book; two of Unit 16's printed 4.79 and 4.94 in wide
+  #     instead of the full width purely to stay under it.
+  #   - covers print full-page instead of 1.40 x 1.98 in, which is what they
+  #     had been doing since the first build.
+  visual_density_phase: 1
+  running_footer: "Unit {unit} · {part}"
+  layout: refined
+  # 11-17 pages was the source's own density. The refined layout gives every
+  # part its own page, 1.15 line spacing, 6pt paragraph spacing, padded cells
+  # and 14 figures a unit, and runs 20-32. That is the point of the change.
+  # 2026-10-08, phase 5: raised from 34. Unit 1 on the full 41-slot layout
+  # measures 39 pages against 25 before it -- 27 new figures at a mean 2.5 in
+  # of printed height is about 14 pages, and the measurement agrees. The min
+  # stays at 20: units 2-10 are still on 14 figures and run 24-26, and the
+  # band has to admit both layouts while phase 5 is the only one built.
+  # FORECAST, not a measurement -- B1 has no source book (see golden.yaml).
+  # A2 measures 37.2 pages a unit at 5,016 prose words and 41 figures; B1
+  # carries 6,201 prose words (1.24x) with the same figure area, which at
+  # A2's measured density is about +4.6 pages. The band is deliberately
+  # wide and is NARROWED to Unit 1's own measurement at the Phase 4 gate.
+  pages_per_unit: {min: 36, max: 50}
+  # Raised 2026-10-08 from max 380 to the measured truth. J15 had never
+  # executed -- Ctx.pdf_for(None) named a file build_book.py has never
+  # written -- so the volumes sat at 386 and 396 pages against a declared
+  # ceiling of 380 and nothing said so. 400 is the current measurement plus
+  # a single page of slack, not a guess; it moves again when the figures do.
+  # 2026-10-08, phase 1: raised again from 400. Un-squashing the figures
+  # (box height cap 1.979 -> 3.094 in) and giving the covers a full page each
+  # took A2.1 from 386 to 392 pages and A2.2 from 396 to 401. 410 is that
+  # measurement plus a page of slack per volume.
+  # 2026-10-08, phase 2: raised again from 410. Giving each of the ten unit
+  # openers a whole page took A2.1 from 392 to 411 and A2.2 from 401 to 420.
+  # 2026-10-08, phase 6: raised from 430. All ten units of A2.1 are on the
+  # 41-slot layout and the volume measures 492 pages against 411 with one
+  # dense unit -- nine more at about nine pages each, which is the forecast
+  # the per-unit measurement gives. 520 is that measurement plus a unit of
+  # slack, not a guess.
+  # FORECAST: ten units at 42-43 pages plus front matter, covers and the
+  # bound key is about 565. Narrowed at Phase 4, as above.
+  pages_per_volume: {min: 350, max: 620}
+  # Measured 2026-10-08 on the phase-2 build: A2.1 7.0 MB DOCX / 10.3 MB PDF,
+  # A2.2 7.2 / 10.5. The band is wide on purpose -- it is there to catch a
+  # factor, not a percent. The dense layout will move it, and when it does the
+  # new number goes here with the measurement that produced it.
+  size_envelope_mb:
+    docx: {min: 2, max: 60}
+    pdf:  {min: 3, max: 90}
+
+layout:
+  body:
+    line_rule: auto
+    line: 276                 # 1.15
+    space_after_twips: 120
+    space_before_twips: 0
+  unit_title:
+    half_points: 40           # 20 pt
+    colour: "1F3864"
+    rule_below: true
+    space_after_twips: 240
+  strap:
+    half_points: 20           # 10 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 360
+  part_header:
+    half_points: 28           # 14 pt
+    colour: "FFFFFF"
+    shading: "1F3864"
+    page_break_before: true
+    space_before_twips: 0
+    space_after_twips: 160
+    indent_twips: 142
+  track_label:
+    half_points: 18           # 9 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 240
+  sub_header:
+    half_points: 24           # 12 pt
+    colour: "1F3864"
+    space_before_twips: 280
+    space_after_twips: 100
+    rule_below: true
+  instruction:
+    shading: "EEF3F9"
+    left_border: {colour: "6E88AC", sz: 18}
+    indent_twips: 170
+    space_before_twips: 100
+    space_after_twips: 140
+  callout:                    # Gloss, Word bank, Model, Check, Remember, ...
+    shading: "F7F9FC"
+    left_border: {colour: "009688", sz: 18}
+    indent_twips: 170
+    space_before_twips: 100
+    space_after_twips: 140
+  mcq_option:
+    indent_twips: 454
+    space_after_twips: 40
+  figure:
+    space_before_twips: 200
+    space_after_twips: 80
+  caption:
+    half_points: 18           # 9 pt
+    colour: "6E88AC"
+    italic: true
+    space_after_twips: 240
+  tables:
+    cell_margin_twips: {top: 70, bottom: 70, left: 110, right: 110}
+    border_colour: "AEB6C2"
+    row_shading_alt: null
+    column_a_shading: "F7F9FC"

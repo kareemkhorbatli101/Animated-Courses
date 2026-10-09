@@ -91,11 +91,11 @@ FIGURES = {
             'your commute, your break, and one sentence about what is happening '
             'at the moment, with a line of the model beside each.'),
  9: lambda: F.bank_strip(
-        [('shift', 'moon'), ('commute', 'bus'), ('appointment', 'notebook'),
+        [('commute', 'bus'), ('shift', 'moon'), ('appointment', 'notebook'),
          ('break', 'cup')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each drawn: '
-            'a shift as night hours, a commute as a bus, an appointment as a '
+            'a commute as night hours, a shift as a bus, an appointment as a '
             'diary and a break as a cup of tea.'),
  12: lambda: F.grammar_contrast(
         ('Present simple', 'he works · she opens',

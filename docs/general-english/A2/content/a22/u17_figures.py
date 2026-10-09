@@ -77,10 +77,11 @@ FIGURES = {
             'for the learner to write each sentence.'),
 
  9: lambda: F.bank_strip(
-        [('cloth', 'cloth'), ('produce', 'factory'), ('glass', 'bottle'), ('recycle', 'recycling')],
+        [('glass', 'bottle'), ('cloth', 'cloth'), ('produce', 'factory'),
+         ('recycle', 'recycling')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: cloth, produce, glass, recycle.'),
+            'drawn: glass, cloth, produce, recycle.'),
  10: lambda: F.writing_frame(
         [('Where it was made', 'This cup was made in a factory.'),
          ('How a part was added', 'The handle was put on by a machine.'),
@@ -364,11 +365,14 @@ FIGURES = {
             'this one.'),
 
  39: lambda: F.bank_strip(
-        [('material', 'cloth'), ('metal', 'chain'), ('plastic', 'bottle'), ('recycle', 'recycling'), ('was made', 'before_now'), ('is produced', 'factory'), ('century', 'calendar'), ('pain', 'pill')],
+        [('recycle', 'recycling'), ('pain', 'pill'), ('material', 'cloth'),
+         ('is produced', 'factory'), ('plastic', 'bottle'),
+         ('metal', 'chain'), ('was made', 'before_now'),
+         ('century', 'calendar')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'material, metal, plastic, recycle, was made, is produced, '
-            'century, pain.'),
+            'recycle, pain, material, is produced, plastic, metal, '
+            'was made, century.'),
 
  40: lambda: F.progress_strip(
         [('I can say what a thing is made of and where', False),

@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "material",
+   "text": "recycle",
    "size": 30,
    "bbox": [
-    140.6,
+    151.1,
     209.4,
-    282.4,
+    271.9,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "metal",
+   "text": "pain",
    "size": 30,
    "bbox": [
-    502.3,
+    513.8,
     209.4,
-    598.7,
+    587.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "material",
+   "size": 30,
+   "bbox": [
+    818.6,
+    209.4,
+    960.4,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is produced",
+   "size": 30,
+   "bbox": [
+    1129.6,
+    209.4,
+    1327.4,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "plastic",
    "size": 30,
    "bbox": [
-    833.4,
-    209.4,
-    945.6,
-    236.0
+    155.4,
+    427.4,
+    267.6,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "recycle",
+   "text": "metal",
    "size": 30,
    "bbox": [
-    1168.1,
-    209.4,
-    1288.9,
-    236.0
+    502.3,
+    427.4,
+    598.7,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "was made",
    "size": 30,
    "bbox": [
-    126.7,
+    804.7,
     427.4,
-    296.3,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "is produced",
-   "size": 30,
-   "bbox": [
-    451.6,
-    427.4,
-    649.4,
+    974.3,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "century",
    "size": 30,
    "bbox": [
-    824.7,
+    1163.7,
     427.4,
-    954.3,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "pain",
-   "size": 30,
-   "bbox": [
-    1191.8,
-    427.4,
-    1265.2,
+    1293.3,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: material, metal, plastic, recycle, was made, is produced, century, pain.",
+ "alt": "The eight words of the spiral review bank, in bank order: recycle, pain, material, is produced, plastic, metal, was made, century.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "faaf61d2bb861a732d50526191ab34800b3089d80f47f3beac016d4628552cce"
+ "sha256": "b1ee4158f955d4409b5bba1744125aa202e9bd5e3a6bbc2e9f5bf7f1774e6cee"
 }

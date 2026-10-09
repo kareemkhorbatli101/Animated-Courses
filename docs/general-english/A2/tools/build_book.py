@@ -13,8 +13,12 @@ sys.path[:0] = [HERE, os.path.join(HERE, 'checks')]
 import model as M          # noqa: E402
 import build_docx as B     # noqa: E402
 import runner as R         # noqa: E402
+import level as LV         # noqa: E402
 
-VOL = {'a21': ('1', 'Everyday Life'), 'a22': ('2', 'Out in the World')}
+# The volume number and title now come from tools/level.py, which is the one
+# place a level is written down -- B1/tools is a symlink to this directory and
+# the same code builds b11 and b12.
+VOL = {b: (LV.vol(b), LV.title(b)) for b in LV.BOOKS}
 
 
 def front_matter(book, units, g):
@@ -92,18 +96,19 @@ def build(book='a21'):
     body = '\n\n'.join(parts)
     srcs = B.img_sources(body)
     open(tmp, 'w', encoding='utf-8').write(body)
-    out = os.path.join(ROOT, 'build', f'EFDL-A2.{vol}-{title.replace(" ", "")}-'
+    pre = LV.prefix(book)
+    out = os.path.join(ROOT, 'build', f'{pre}{title.replace(" ", "")}-'
                                       f'u{min(u.num for u in units):02d}-'
                                       f'{max(u.num for u in units):02d}.docx')
     for old in os.listdir(os.path.join(ROOT, 'build')):
-        if old.startswith(f'EFDL-A2.{vol}-') and old.endswith(('.docx', '.pdf')):
+        if old.startswith(pre) and old.endswith(('.docx', '.pdf')):
             os.remove(os.path.join(ROOT, 'build', old))
     subprocess.run(['pandoc', tmp, '-f', 'gfm', '-t', 'docx',
                     '--reference-doc', os.path.join(ROOT, 'build', 'reference.docx'),
                     '-o', out], check=True)
     os.remove(tmp)
-    B.postprocess(out, f'English for Daily Life · A2 Volume {vol}: {title}',
-                  f'English for Daily Life · A2.{vol}', srcs)
+    B.postprocess(out, f'English for Daily Life · {LV.level(book)} Volume {vol}: {title}',
+                  f'English for Daily Life · {LV.label(book)}', srcs)
     subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                     '--outdir', os.path.join(ROOT, 'build'), out],
                    # A dense volume is about 500 pages and 18 MB. The old 900 s

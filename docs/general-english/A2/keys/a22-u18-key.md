@@ -52,7 +52,7 @@ Open; there is no expected set, because the right-hand column is the learner’s
 
 **Part 1: If, When or Unless?**
 
-1. a · 2. b · 3. c · 4. d · 5. e
+1. e · 2. d · 3. c · 4. b · 5. a
 Not needed: **f)** *a hundred years*
 
 > This is the whole unit in five lines. *If* and *when* are the pair learners confuse, and the difference is certainty and nothing else: *when the rain stops* says it will stop, *if the rain stops* says it may not. English will not let you choose freely, and a learner who says *when I win* about a lottery has said something about themselves.

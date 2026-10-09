@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "modern",
+   "text": "engine",
    "size": 30,
    "bbox": [
-    146.6,
+    153.9,
     209.4,
-    276.4,
+    269.1,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "childhood",
+   "text": "pain",
    "size": 30,
    "bbox": [
-    467.9,
+    513.8,
     209.4,
-    633.1,
+    587.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "modern",
+   "size": 30,
+   "bbox": [
+    824.6,
+    209.4,
+    954.4,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "has not changed",
+   "size": 30,
+   "bbox": [
+    1088.2,
+    209.4,
+    1368.8,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "nowadays",
    "size": 30,
    "bbox": [
-    805.4,
-    209.4,
-    973.6,
-    236.0
+    127.4,
+    427.4,
+    295.6,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "engine",
+   "text": "childhood",
    "size": 30,
    "bbox": [
-    1170.9,
-    209.4,
-    1286.1,
-    236.0
+    467.9,
+    427.4,
+    633.1,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "opened",
    "size": 30,
    "bbox": [
-    148.7,
+    826.7,
     427.4,
-    274.3,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "has not changed",
-   "size": 30,
-   "bbox": [
-    410.2,
-    427.4,
-    690.8,
+    952.3,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "abroad",
    "size": 30,
    "bbox": [
-    830.1,
+    1169.1,
     427.4,
-    948.9,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "pain",
-   "size": 30,
-   "bbox": [
-    1191.8,
-    427.4,
-    1265.2,
+    1287.9,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: modern, childhood, nowadays, engine, opened, has not changed, abroad, pain.",
+ "alt": "The eight words of the spiral review bank, in bank order: engine, pain, modern, has not changed, nowadays, childhood, opened, abroad.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "465d79e357b7995a5df9de53eccd0ab7004bd21552dcd6e29df56cd6c806d056"
+ "sha256": "0e962116955d900912ef973ba9d7c077ea0f088ecd297dee3b51ce94b4342676"
 }

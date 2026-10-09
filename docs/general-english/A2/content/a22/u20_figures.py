@@ -20,10 +20,11 @@ FIGURES = {
             'envelope, stamp, rumour.'),
 
  3: lambda: F.bank_strip(
-        [('text', 'mobile'), ('article', 'newspaper'), ('interview', 'speech'), ('reporter', 'newspaper')],
+        [('article', 'newspaper'), ('interview', 'speech'),
+         ('text', 'mobile'), ('reporter', 'newspaper')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: text, article, interview, reporter.'),
+            'them, each with a picture: article, interview, text, reporter.'),
 
  4: lambda: F.scene(
         [('Amina', 'shop', 'said twenty minutes'),
@@ -77,10 +78,11 @@ FIGURES = {
             'run to the right for the learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('news', 'newspaper'), ('stamp', 'stamp'), ('envelope', 'envelope'), ('false', 'cross')],
+        [('news', 'newspaper'), ('stamp', 'stamp'), ('false', 'cross'),
+         ('envelope', 'envelope')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: news, stamp, envelope, false.'),
+            'drawn: news, stamp, false, envelope.'),
  10: lambda: F.writing_frame(
         [('Who told you', 'Amina told me the van had been there since Tuesday.'),
          ('What they said', 'She said nobody had asked about it.'),
@@ -374,10 +376,12 @@ FIGURES = {
             'and say nothing, and let her believe the worst of it.'),
 
  39: lambda: F.bank_strip(
-        [('news', 'newspaper'), ('reply', 'envelope'), ('article', 'newspaper'), ('reporter', 'newspaper'), ('said', 'speech'), ('told', 'speech'), ('unless', 'question'), ('tailor', 'needle')],
+        [('reporter', 'newspaper'), ('tailor', 'needle'),
+         ('news', 'newspaper'), ('told', 'speech'), ('article', 'newspaper'),
+         ('reply', 'envelope'), ('said', 'speech'), ('unless', 'question')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: news, '
-            'reply, article, reporter, said, told, unless, tailor.'),
+        alt='The eight words of the spiral review bank, in bank order: reporter, '
+            'tailor, news, told, article, reply, said, unless.'),
 
  40: lambda: F.progress_strip(
         [('I can report what somebody said', False),

@@ -1,4 +1,4 @@
-"""C · Exercise integrity — 28 checks."""
+"""C · Exercise integrity — 30 checks."""
 import re
 from collections import Counter
 from . import check, ok, fail, expect
@@ -307,3 +307,79 @@ def c28(u, ctx):
     main, n = widths.most_common(1)[0]
     odd = {w: c for w, c in widths.items() if w != main}
     return expect(len(widths) <= 3, f'gap widths {dict(widths)} - dominant {main}')
+
+
+# --- C29 / C30 --------------------------------------------------------------
+# These two are not level checks and they are not new ideas. They are the
+# answer to a question nothing in the suite could answer: is a closed task
+# answerable WITHOUT reading it?
+#
+# C18 has asked that of ordering tasks since the first unit. Nothing asked it
+# of matching tasks or of word banks, and both leaked. Measured across the
+# twenty shipped A2 units at the point these were written: of 140 matching
+# tasks, 4 printed Column B in exactly Column A's order -- their keys read
+# a,b,c,d,e -- and 7 had three or more answers sitting on the diagonal. Of 60
+# word-bank gap-fills, 27 printed the bank in exactly answer order and 37
+# opened with the first answer as the first bank word.
+#
+# Every one of those 44 tasks passed C01-C17. They are CORRECT: the columns
+# parse, B is one longer than A, the distractor is plausible, the key is a
+# bijection. Correctness checks cannot see a task that is free.
+
+def _diag_hits(ans: list[str]) -> int:
+    """How many answers sit at their own ordinal position (1->a, 2->b, ...)."""
+    return sum(1 for i, c in enumerate(ans) if c == 'abcdefgh'[i])
+
+
+@check('C29', 'golden.devices.not_needed',
+       'No matching key reads a,b,c,d,e and at most 2 answers sit on the diagonal')
+def c29(u, ctx):
+    bad = []
+    for s, m in _matchings(u):
+        ans = [v for n, v in sorted(_keyitems(ctx, s.heading).items())
+               if n > 0 and re.fullmatch(r'[a-h]', v)]
+        if len(ans) != len(m.a) or not ans:
+            continue                      # C04 owns that failure
+        hits = _diag_hits(ans)
+        if hits == len(ans):
+            bad.append(f'{s.heading}: Column B is printed in Column A’s order '
+                       f'(key reads {",".join(ans)})')
+        elif hits > 2:
+            bad.append(f'{s.heading}: {hits} of {len(ans)} answers on the diagonal '
+                       f'({",".join(ans)})')
+    return expect(not bad, '; '.join(bad))
+
+
+@check('C30', 'golden.devices.word_bank',
+       'A word bank is not printed in answer order and does not open with the first answer')
+def c30(u, ctx):
+    bad = []
+    for s in u.subs:
+        bank = M.word_bank(s)
+        if not bank:
+            continue
+        ans = [re.sub(r'[*.]', '', v).strip().split('—')[0].strip()
+               for n, v in sorted(_keyitems(ctx, s.heading).items()) if n > 0]
+        ans = [a for a in ans if a]
+        if len(ans) < 3:
+            continue
+        lower = [a.lower() for a in ans]
+        blow = [b.lower() for b in bank]
+        order = []
+        for a in lower:
+            if a not in order:
+                order.append(a)
+        if order == blow:
+            bad.append(f'{s.heading}: bank is printed in answer order')
+        elif lower[0] == blow[0]:
+            bad.append(f'{s.heading}: first bank word is the first answer '
+                       f'({bank[0]!r})')
+        else:
+            # A bank can avoid being in answer order and still have most of its
+            # words standing exactly where their own answer stands, which is
+            # the same giveaway spread out. One such coincidence is chance.
+            hits = sum(1 for i, a in enumerate(lower) if i < len(blow) and blow[i] == a)
+            if hits > max(1, len(bank) // 4):
+                bad.append(f'{s.heading}: {hits} of {len(bank)} bank words stand '
+                           f'at their own answer\u2019s position')
+    return expect(not bad, '; '.join(bad))

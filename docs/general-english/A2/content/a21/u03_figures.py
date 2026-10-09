@@ -20,10 +20,11 @@ FIGURES = {
             'bridge, crossing, bench, library.'),
 
  3: lambda: F.bank_strip(
-        [('traffic', 'traffic'), ('crowd', 'crowd'), ('ticket', 'ticket'), ('park', 'bench')],
+        [('park', 'bench'), ('traffic', 'traffic'), ('crowd', 'crowd'),
+         ('ticket', 'ticket')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: traffic, crowd, ticket, park.'),
+            'them, each with a picture: park, traffic, crowd, ticket.'),
 
  4: lambda: F.before_after(
         ('Eight in the morning', ['buses stop at the corner', 'the market is opening',
@@ -369,11 +370,14 @@ FIGURES = {
             'your street what the stop was worth to them.'),
 
  39: lambda: F.bank_strip(
-        [('timetable', 'timetable'), ('crossing', 'crossing'), ('traffic', 'traffic'), ('crowd', 'crowd'), ('opens', 'calendar'), ('is opening', 'door'), ('balcony', 'balcony'), ('commute', 'bus')],
+        [('crowd', 'crowd'), ('commute', 'bus'), ('timetable', 'timetable'),
+         ('is opening', 'door'), ('traffic', 'traffic'),
+         ('crossing', 'crossing'), ('opens', 'calendar'),
+         ('balcony', 'balcony')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'timetable, crossing, traffic, crowd, opens, is opening, balcony, '
-            'commute.'),
+            'crowd, commute, timetable, is opening, traffic, crossing, opens, '
+            'balcony.'),
 
  40: lambda: F.progress_strip(
         [('I can name the main places and things in a city', False),

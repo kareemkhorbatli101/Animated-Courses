@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "suitcase",
+   "text": "spare",
    "size": 30,
    "bbox": [
-    141.5,
+    164.1,
     209.4,
-    281.5,
+    258.9,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "delay",
+   "text": "basket",
    "size": 30,
    "bbox": [
-    505.0,
+    493.8,
     209.4,
-    596.0,
+    607.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "suitcase",
+   "size": 30,
+   "bbox": [
+    819.5,
+    209.4,
+    959.5,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "caught",
+   "size": 30,
+   "bbox": [
+    1170.2,
+    209.4,
+    1286.8,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "gate",
    "size": 30,
    "bbox": [
-    851.3,
-    209.4,
-    927.7,
-    236.0
+    173.3,
+    427.4,
+    249.7,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "spare",
+   "text": "delay",
    "size": 30,
    "bbox": [
-    1181.1,
-    209.4,
-    1275.9,
-    236.0
+    505.0,
+    427.4,
+    596.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "went",
    "size": 30,
    "bbox": [
-    169.6,
+    847.6,
     427.4,
-    253.4,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "caught",
-   "size": 30,
-   "bbox": [
-    492.2,
-    427.4,
-    608.8,
+    931.4,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "museum",
    "size": 30,
    "bbox": [
-    817.8,
+    1156.8,
     427.4,
-    961.2,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "basket",
-   "size": 30,
-   "bbox": [
-    1171.8,
-    427.4,
-    1285.2,
+    1300.2,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: suitcase, delay, gate, spare, went, caught, museum, basket.",
+ "alt": "The eight words of the spiral review bank, in bank order: spare, basket, suitcase, caught, gate, delay, went, museum.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "dac0c55672f2a913f32878a66e620633c8296be35cd8c9c67bb7522e841601b3"
+ "sha256": "4076411e918f1281e802d70ea118626514826c23dea3f607be27697bd224fb9f"
 }

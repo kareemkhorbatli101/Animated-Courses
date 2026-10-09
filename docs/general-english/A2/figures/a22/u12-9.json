@@ -11,24 +11,24 @@
  ],
  "texts": [
   {
-   "text": "ice",
+   "text": "storm",
    "size": 30,
    "bbox": [
-    187.3,
+    162.1,
     258.6,
-    235.7,
+    260.9,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "storm",
+   "text": "ice",
    "size": 30,
    "bbox": [
-    501.1,
+    526.3,
     258.6,
-    599.9,
+    574.7,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: ice, storm, degree, sunny.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: storm, ice, degree, sunny.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "a228c01672201db1299c1259d4de76e0377eca6e99c63826950967ee52a79cbe"
+ "sha256": "cf09481589f15709c04c0c28c4c8d4f4b9c6b68ea7fa4ff4b247401cdf7ce9f8"
 }

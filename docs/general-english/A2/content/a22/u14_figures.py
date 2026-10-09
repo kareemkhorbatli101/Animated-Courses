@@ -20,10 +20,11 @@ FIGURES = {
             'headache, fever, throat, medicine.'),
 
  3: lambda: F.bank_strip(
-        [('doctor', 'nurse'), ('sick', 'bed'), ('pill', 'pill'), ('healthy', 'apple')],
+        [('sick', 'bed'), ('healthy', 'apple'), ('pill', 'pill'),
+         ('doctor', 'nurse')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: doctor, sick, pill, healthy.'),
+            'them, each with a picture: sick, healthy, pill, doctor.'),
 
  4: lambda: F.scene(
         [('Amina', 'shop', 'you should eat something'),
@@ -70,10 +71,11 @@ FIGURES = {
             'run to the right for the learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('throat', 'person'), ('headache', 'pill'), ('healthy', 'apple'), ('pain', 'pill')],
+        [('headache', 'pill'), ('throat', 'person'), ('healthy', 'apple'),
+         ('pain', 'pill')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: throat, headache, healthy, pain.'),
+            'drawn: headache, throat, healthy, pain.'),
  10: lambda: F.writing_frame(
         [('What they should do', 'You should drink more than you want to.'),
          ('What they should not do', 'You shouldn\u2019t take medicine for a small fever.'),
@@ -355,7 +357,9 @@ FIGURES = {
             'walk past a conversation.'),
 
  39: lambda: F.bank_strip(
-        [('fever', 'thermometer'), ('medicine', 'pill'), ('dentist', 'tooth'), ('healthy', 'apple'), ('should', 'list'), ('shouldn\u2019t', 'cross'), ('guard', 'guard'), ('storm', 'rain')],
+        [('healthy', 'apple'), ('storm', 'rain'), ('fever', 'thermometer'),
+         ('shouldn’t', 'cross'), ('dentist', 'tooth'), ('medicine', 'pill'),
+         ('should', 'list'), ('guard', 'guard')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: fever, '
             'medicine, dentist, healthy, should, shouldn\u2019t, guard, storm.'),

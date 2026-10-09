@@ -18,6 +18,8 @@ import os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path[:0] = [HERE]
+import level as LV   # noqa: E402
 
 # old slot -> new slot. Every existing figure keeps its job and its artwork;
 # only the number changes, to make room for the 27 new ones between them.
@@ -29,7 +31,7 @@ FIGCAP = re.compile(r'^\*Figure (\d+)\.(\d+) · (.+)\.\*$')
 
 def plan():
     jobs = []
-    for book in ('a21', 'a22'):
+    for book in LV.books_here(ROOT):
         d = os.path.join(ROOT, 'units')
         for f in sorted(os.listdir(d)):
             m = re.fullmatch(rf'{book}-u(\d\d)\.md', f)

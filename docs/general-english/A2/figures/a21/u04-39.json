@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "basket",
+   "text": "change",
    "size": 30,
    "bbox": [
-    154.8,
+    150.2,
     209.4,
-    268.2,
+    272.8,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "aisle",
+   "text": "balcony",
    "size": 30,
    "bbox": [
-    511.0,
+    484.8,
     209.4,
-    590.0,
+    616.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "basket",
+   "size": 30,
+   "bbox": [
+    832.8,
+    209.4,
+    946.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "a little",
+   "size": 30,
+   "bbox": [
+    1173.2,
+    209.4,
+    1283.8,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "fresh",
    "size": 30,
    "bbox": [
-    845.8,
-    209.4,
-    933.2,
-    236.0
+    167.8,
+    427.4,
+    255.2,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "change",
+   "text": "aisle",
    "size": 30,
    "bbox": [
-    1167.2,
-    209.4,
-    1289.8,
-    236.0
+    511.0,
+    427.4,
+    590.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "a few",
    "size": 30,
    "bbox": [
-    165.6,
+    843.6,
     427.4,
-    257.4,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "a little",
-   "size": 30,
-   "bbox": [
-    495.2,
-    427.4,
-    605.8,
+    935.4,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "timetable",
    "size": 30,
    "bbox": [
-    808.0,
+    1147.0,
     427.4,
-    971.0,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "balcony",
-   "size": 30,
-   "bbox": [
-    1162.8,
-    427.4,
-    1294.2,
+    1310.0,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: basket, aisle, fresh, change, a few, a little, timetable, balcony.",
+ "alt": "The eight words of the spiral review bank, in bank order: change, balcony, basket, a little, fresh, aisle, a few, timetable.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "db2d546d6eef6c3461bce02ecb82639ec3b2768a6062738e8c3a02ab1bc0da55"
+ "sha256": "6bf59e0a37e6ebadb0f3d56d7f2b1c938c1f9b95262af9535402cc5fcc8897ff"
 }

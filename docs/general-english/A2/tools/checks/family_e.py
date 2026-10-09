@@ -39,15 +39,15 @@ def _exempt(u, ctx):
 def _running(u):
     return L.tokens(' '.join(u.sentences))
 
-@check('E01', 'golden.language.min_a2_coverage', '>= 90% of running words inside the A2 band')
+@check('E01', 'golden.language.min_band_coverage', '>= 90% of running words inside the level\u2019s band')
 def e01(u, ctx):
     ex = _exempt(u, ctx)
     toks = _running(u)
     off = [t for t in toks
-           if t.lower() not in ex and not L.in_a2(t)
+           if t.lower() not in ex and not L.in_band(t)
            and not CONTR.match(t.lower()) and '-' not in t]
     cov = 1 - len(off) / max(1, len(toks))
-    lim = ctx.spec['language']['min_a2_coverage']
+    lim = ctx.spec['language']['min_band_coverage']
     worst = [w for w, _ in Counter(t.lower() for t in off).most_common(8)]
     return expect(cov >= lim, f'A2 coverage {cov:.1%} < {lim:.0%}; off-band e.g. {worst}')
 
@@ -55,7 +55,7 @@ def e01(u, ctx):
 def e02(u, ctx):
     ex = _exempt(u, ctx)
     off = {t.lower() for t in _running(u)
-           if t.lower() not in ex and L.is_b1plus(t) and not CONTR.match(t.lower())}
+           if t.lower() not in ex and L.above_band(t) and not CONTR.match(t.lower())}
     return expect(not off, f'{len(off)} unglossed B1+ words: {sorted(off)[:10]}')
 
 @check('E03', 'golden.language.mean_sentence_words_max', 'Mean sentence length <= 14 words')

@@ -11,24 +11,24 @@
  ],
  "texts": [
   {
-   "text": "shift",
+   "text": "commute",
    "size": 30,
    "bbox": [
-    173.1,
+    133.0,
     258.6,
-    249.9,
+    290.0,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "commute",
+   "text": "shift",
    "size": 30,
    "bbox": [
-    472.0,
+    512.1,
     258.6,
-    629.0,
+    588.9,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: a shift as night hours, a commute as a bus, an appointment as a diary and a break as a cup of tea.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: a commute as night hours, a shift as a bus, an appointment as a diary and a break as a cup of tea.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "4f7951b86ddb1de6844b657df73ec34a31068302db80c94726afd47c976f2f0d"
+ "sha256": "46c83f3216092e4b37c722f8aa10ac0cf38375fbfe263c6aeaf4da7763b8848a"
 }

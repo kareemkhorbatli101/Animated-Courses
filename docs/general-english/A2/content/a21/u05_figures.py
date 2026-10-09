@@ -351,10 +351,12 @@ FIGURES = {
             'ask for and hard to refuse.'),
 
  39: lambda: F.bank_strip(
-        [('museum', 'museum'), ('picnic', 'picnic'), ('village', 'village'), ('windy', 'wind'), ('was', 'before_now'), ('were', 'before_now'), ('aisle', 'aisle'), ('timetable', 'timetable')],
+        [('windy', 'wind'), ('timetable', 'timetable'), ('museum', 'museum'),
+         ('were', 'before_now'), ('village', 'village'), ('picnic', 'picnic'),
+         ('was', 'before_now'), ('aisle', 'aisle')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'museum, picnic, village, windy, was, were, aisle, timetable.'),
+            'windy, timetable, museum, were, village, picnic, was, aisle.'),
 
  40: lambda: F.progress_strip(
         [('I can name places outside the city and talk about the weather', False),

@@ -1,4 +1,4 @@
-"""G · Figures and visuals — 30 checks.
+"""G · Figures and visuals — 31 checks.
 
 Geometry checks read the sidecar `.json` the renderer emits beside each PNG:
 label boxes, leader segments, drawn bounds, glyph sizes. Pixel checks read the PNG.
@@ -598,3 +598,78 @@ def g30(u, ctx):
             if x0 < MARGIN or y0 < MARGIN or x1 > pw - MARGIN or y1 > ph - MARGIN:
                 bad.append(f'{n}: {t["text"][:18]!r} inside the trim margin')
     return expect(not bad, '; '.join(bad[:5]))
+
+
+# --- G32 --------------------------------------------------------------------
+# G23 hashes the PNG against the hash recorded in its own sidecar JSON, so it
+# proves the file has not been corrupted since it was written. It cannot see
+# the one failure that actually happened: a change to figure CODE that was
+# committed without re-rendering.
+#
+# `cue_cards` was changed in the A2.2 commit so its card title fits instead of
+# overflowing at a fixed 34 px. The figures were not re-rendered, and slots 21
+# and 33 of all twenty units -- forty figures -- sat in the repository drawn by
+# the old code, with G23 green over every one of them, because each PNG still
+# matched its own recorded hash. This check compares the SVG on disk against
+# the SVG the CURRENT content module and figure code produce. SVG rather than
+# PNG because `Fig.svg()` is pure string building and costs milliseconds,
+# while cairosvg for 820 figures would cost minutes -- and rendering is
+# deterministic (G23, J11), so identical SVG means identical PNG.
+
+_FIGMOD: dict = {}
+# The expected SVG for a (book, unit) is a function of the content module and
+# the figure code, neither of which a mutation changes -- only the files on
+# disk do. Without this cache the mutation suite re-draws 410 figures for
+# every one of its 223 fixtures, which took it from eight minutes to over
+# twenty.
+_EXPECT: dict = {}
+
+
+def _figmod(ctx, u):
+    k = (ctx.book, u.num)
+    if k not in _FIGMOD:
+        import importlib.util
+        p = os.path.join(ctx.root, 'content', ctx.book, f'u{u.num:02d}_figures.py')
+        if not os.path.exists(p):
+            _FIGMOD[k] = None
+        else:
+            spec = importlib.util.spec_from_file_location(
+                f'_g32_{ctx.book}_{u.num}', p)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            _FIGMOD[k] = mod
+    return _FIGMOD[k]
+
+
+@check('G32', 'golden.figures',
+       'Every figure on disk is what the current content module and figure code draw')
+def g32(u, ctx):
+    s = _skip_if_absent(ctx, u)
+    if s:
+        return s
+    mod = _figmod(ctx, u)
+    if mod is None:
+        return fail(f'no content/{ctx.book}/u{u.num:02d}_figures.py')
+    import figures as F
+    full = set(_fig(ctx, u).get('full_page_slots') or [])
+    key = (ctx.book, u.num)
+    if key not in _EXPECT:
+        e = {}
+        for n, make in mod.FIGURES.items():
+            f = make()
+            if n not in full:
+                f = F.tighten(f)
+            e[n] = f.svg()
+        _EXPECT[key] = e
+    exp = _EXPECT[key]
+    bad = []
+    for n in _present(ctx, u):
+        want = exp.get(n)
+        if want is None:
+            bad.append(f'{n}: on disk but not in the content module'); continue
+        p = _figpath(ctx, u, n, 'svg')
+        if not os.path.exists(p):
+            bad.append(f'{n}: no SVG beside the PNG'); continue
+        if open(p, encoding='utf-8').read() != want:
+            bad.append(f'{n}: stale render')
+    return expect(not bad, '; '.join(bad))

@@ -74,10 +74,11 @@ FIGURES = {
             'right for the learner to write each joining word.'),
 
  9: lambda: F.bank_strip(
-        [('safe', 'tick'), ('danger', 'warning'), ('luck', 'star'), ('emergency', 'siren')],
+        [('luck', 'star'), ('safe', 'tick'), ('danger', 'warning'),
+         ('emergency', 'siren')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: safe, danger, luck, emergency.'),
+            'drawn: luck, safe, danger, emergency.'),
  10: lambda: F.writing_frame(
         [('What might go wrong', 'If the bus does not come at eight I will walk.'),
          ('What you will do', 'I will be late, and nobody will mind.'),
@@ -367,11 +368,14 @@ FIGURES = {
             'first.'),
 
  39: lambda: F.bank_strip(
-        [('chance', 'question'), ('risk', 'warning'), ('safe', 'tick'), ('emergency', 'siren'), ('rains', 'rain'), ('will stay', 'arrow_right'), ('factory', 'factory'), ('century', 'calendar')],
+        [('emergency', 'siren'), ('century', 'calendar'),
+         ('chance', 'question'), ('will stay', 'arrow_right'),
+         ('safe', 'tick'), ('risk', 'warning'), ('rains', 'rain'),
+         ('factory', 'factory')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'chance, risk, safe, emergency, rains, will stay, factory, '
-            'century.'),
+            'emergency, century, chance, will stay, safe, risk, rains, '
+            'factory.'),
 
  40: lambda: F.progress_strip(
         [('I can say what I will do if something happens', False),

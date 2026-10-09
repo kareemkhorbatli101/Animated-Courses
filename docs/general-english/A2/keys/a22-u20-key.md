@@ -54,8 +54,8 @@ Mark three things, in this order of importance: the tense has moved back, there 
 
 **Part 1: Said, Told or Asked?**
 
-1. a · 2. b · 3. c · 4. d · 5. e
-Not needed: **f)** *a hundred years*
+1. b · 2. c · 3. e · 4. f · 5. d
+Not needed: **a)** *a hundred years*
 
 > Items 1 and 2 are the whole of the unit’s most common error. *Said* takes the words straight after it; *told* takes a person first. There is no reason for this, it is simply what those two verbs do, and no amount of explaining will fix it faster than drilling the pair.
 

@@ -1,0 +1,31 @@
+# Counted across every pixel of all 40 source figures. 97.5% of the book.
+# Closed set: check G09 rejects any pixel further than deltaE 3 from these.
+colours:
+  background:      {hex: "#FFFFFF", share: 0.7057, role: canvas}
+  card_fill:       {hex: "#EEF3F9", share: 0.2031, role: card and panel fill}
+  ink:             {hex: "#1F3864", share: 0.0130, role: every stroke and every label}
+  blue_mid:        {hex: "#8FA8C8", share: 0.0115, role: primary object fill}
+  tan_dark:        {hex: "#A97C43", share: 0.0098, role: wood, shadow side}
+  tan:             {hex: "#C79A5C", share: 0.0098, role: wood, legs, frames}
+  tan_light:       {hex: "#E6C78F", share: 0.0093, role: highlight side}
+  rule:            {hex: "#AEB6C2", share: 0.0071, role: answer rules, light lines}
+  blue_deep:       {hex: "#6E88AC", share: 0.0057, role: secondary object fill}
+  grey:            {hex: "#9AA6B2", share: 0.0019, role: secondary grey}
+  accent:          {hex: "#009688", share: 0.0015, role: the single accent - ticks, arrows}
+  brown:           {hex: "#8A5A3B", share: 0.0013, role: leather, dark wood}
+# Calibrated against the source's own 40 figures, not guessed.
+#
+# Measuring each pixel's distance to the NEAREST PALETTE COLOUR fails the source
+# book itself: up to 3.6% of a source figure's pixels sit that far out, because
+# every antialiased edge is a blend of two palette colours and lands between them.
+#
+# Measuring distance to the nearest LINE BETWEEN TWO PALETTE COLOURS tolerates
+# those blends and still catches a foreign hue. Worst source figure under that
+# metric: 1.197%. Worst of this course's figures: 0.000%. The limit is set at
+# 1.5% - above the source, far below anything an off-palette colour produces.
+metric: distance_to_nearest_palette_blend_line
+blend_line_tolerance_deltaE: 12
+max_offpalette_pixel_fraction: 0.015
+source_worst_measured: 0.01197
+# kept for the cover check, which has no antialiasing budget to speak of
+antialias_tolerance_deltaE: 3

@@ -20,10 +20,11 @@ FIGURES = {
             'booking, meeting, host, invite.'),
 
  3: lambda: F.bank_strip(
-        [('holiday', 'tent'), ('remind', 'alarm'), ('prepare', 'list'), ('hotel', 'home')],
+        [('hotel', 'home'), ('remind', 'alarm'), ('holiday', 'tent'),
+         ('prepare', 'list')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: holiday, remind, prepare, hotel.'),
+            'them, each with a picture: hotel, remind, holiday, prepare.'),
 
  4: lambda: F.scene(
         [('Maya', 'person', 'is meeting her sister at nine'),
@@ -72,10 +73,11 @@ FIGURES = {
             'for the learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('invite', 'envelope'), ('diary', 'notebook'), ('meeting', 'crowd'), ('party', 'concert')],
+        [('invite', 'envelope'), ('diary', 'notebook'), ('party', 'concert'),
+         ('meeting', 'crowd')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: invite, diary, meeting, party.'),
+            'drawn: invite, diary, party, meeting.'),
  10: lambda: F.writing_frame(
         [('One day in your diary', 'I am at the hospital on Tuesday.'),
          ('Who you are meeting', 'On Thursday I am meeting a friend.'),
@@ -357,7 +359,9 @@ FIGURES = {
             'down and never answer.'),
 
  39: lambda: F.bank_strip(
-        [('booking', 'book'), ('meeting', 'crowd'), ('host', 'guest'), ('remind', 'alarm'), ('holiday', 'tent'), ('am meeting', 'calendar'), ('am going to', 'arrow_right'), ('junction', 'junction')],
+        [('remind', 'alarm'), ('junction', 'junction'), ('booking', 'book'),
+         ('am meeting', 'calendar'), ('host', 'guest'), ('meeting', 'crowd'),
+         ('holiday', 'tent'), ('am going to', 'arrow_right')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
             'booking, meeting, host, remind, holiday, am meeting, am going '

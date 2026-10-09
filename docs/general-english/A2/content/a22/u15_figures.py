@@ -20,10 +20,11 @@ FIGURES = {
             'camping, festival, island, desert.'),
 
  3: lambda: F.bank_strip(
-        [('experience', 'star'), ('memory', 'before_now'), ('tour', 'path'), ('adventure', 'mountain')],
+        [('memory', 'before_now'), ('adventure', 'mountain'),
+         ('tour', 'path'), ('experience', 'star')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: experience, memory, tour, adventure.'),
+            'them, each with a picture: memory, adventure, tour, experience.'),
 
  4: lambda: F.scene(
         [('Amina', 'shop', 'has never been on a plane'),
@@ -357,11 +358,14 @@ FIGURES = {
             'and get another yes; or go alone.'),
 
  39: lambda: F.bank_strip(
-        [('island', 'island'), ('exhibition', 'museum'), ('memory', 'before_now'), ('festival', 'concert'), ('have been', 'before_now'), ('has never', 'before_now'), ('pain', 'pill'), ('guard', 'guard')],
+        [('festival', 'concert'), ('guard', 'guard'), ('island', 'island'),
+         ('has never', 'before_now'), ('memory', 'before_now'),
+         ('exhibition', 'museum'), ('have been', 'before_now'),
+         ('pain', 'pill')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'island, exhibition, memory, festival, have been, has never, '
-            'pain, guard.'),
+            'festival, guard, island, has never, memory, exhibition, '
+            'have been, pain.'),
 
  40: lambda: F.progress_strip(
         [('I can talk about things I have done, with no date', False),

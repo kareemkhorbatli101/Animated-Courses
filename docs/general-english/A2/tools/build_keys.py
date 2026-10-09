@@ -16,6 +16,7 @@ import model as M          # noqa: E402
 import build_docx as B     # noqa: E402
 import runner as R         # noqa: E402
 import build_book as BK    # noqa: E402
+import level as LV         # noqa: E402
 
 
 def front_matter(book, units, keys, g):
@@ -72,20 +73,21 @@ def build(book='a21'):
     tmp = os.path.join(ROOT, 'build', f'.{book}-key.md')
     srcs = B.img_sources(md)
     open(tmp, 'w', encoding='utf-8').write(md)
-    name = (f'EFDL-A2.{vol}-{title.replace(" ", "")}-AnswerKey-'
+    pre = LV.prefix(book)
+    name = (f'{pre}{title.replace(" ", "")}-AnswerKey-'
             f'u{lo:02d}-{hi:02d}.docx')
     out = os.path.join(ROOT, 'build', name)
     # a rename leaves the previous span behind, as build_book does
     for old in os.listdir(os.path.join(ROOT, 'build')):
-        if re.fullmatch(rf'EFDL-A2\.{vol}-\S+-AnswerKey-u\d\d-\d\d\.(docx|pdf)',
+        if re.fullmatch(rf'{re.escape(pre)}\S+-AnswerKey-u\d\d-\d\d\.(docx|pdf)',
                         old) and not old.startswith(name[:-5]):
             os.remove(os.path.join(ROOT, 'build', old))
     subprocess.run(['pandoc', tmp, '-f', 'gfm', '-t', 'docx',
                     '--reference-doc', os.path.join(ROOT, 'build', 'reference.docx'),
                     '-o', out], check=True)
     os.remove(tmp)
-    B.postprocess(out, f'English for Daily Life · A2.{vol} Answer Key: {title}',
-                  f'English for Daily Life · A2.{vol} Answer Key', srcs)
+    B.postprocess(out, f'English for Daily Life · {LV.label(book)} Answer Key: {title}',
+                  f'English for Daily Life · {LV.label(book)} Answer Key', srcs)
     subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                     '--outdir', os.path.join(ROOT, 'build'), out],
                    # A dense volume is about 500 pages and 18 MB. The old 900 s

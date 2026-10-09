@@ -25,8 +25,8 @@ Not needed: **f)** *the paper that shows what you paid*
 
 **Part 1: Weekend and Weather Terms**
 
-1. b · 2. d · 3. c · 4. a · 5. e · 6. f · 7. g
-Not needed: **h)** *a meal you eat outside*
+1. e · 2. b · 3. a · 4. h · 5. f · 6. g · 7. d
+Not needed: **c)** *a meal you eat outside*
 
 > Item 0 (*Countryside*) is a standalone worked example, as in the source: the word is not in Column A and its meaning is not in Column B, so it uses up no letter. Seven items, eight letters, one spare.
 

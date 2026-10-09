@@ -327,7 +327,10 @@ language:
   mean_sentence_words_max: 14
   max_clause_depth: 2
   fk_grade_max: 5.0
-  min_a2_coverage: 0.90
+  # Renamed from `min_a2_coverage` when B1 arrived: the band is the level's own
+  # band, not A2's, and E01 reads the same key in both specs. The number is
+  # unchanged and so is the list it scores against.
+  min_band_coverage: 0.90
   target_grammar_min_occurrences: 8
   glossary_plantings_before_part10: 3
   spelling: en-GB

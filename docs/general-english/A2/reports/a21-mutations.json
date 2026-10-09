@@ -1,6 +1,6 @@
 {
- "total": 221,
- "caught": 221,
+ "total": 222,
+ "caught": 222,
  "escaped": [],
  "deferred": [
   "F08",
@@ -8,5 +8,10 @@
   "J13",
   "J14"
  ],
- "broken": []
+ "broken": [
+  {
+   "id": "D04",
+   "why": "key anchor missing: '1. g \u00b7 2. b \u00b7 3. c \u00b7 4. d \u00b7 5. f \u00b7 6. a \u00b7 7. e'"
+  }
+ ]
 }

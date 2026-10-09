@@ -22,10 +22,11 @@ FIGURES = {
             'basket, receipt, flour.'),
 
  3: lambda: F.bank_strip(
-        [('fresh', 'apple'), ('sugar', 'sugar'), ('vegetables', 'vegetable'), ('dish', 'bowl')],
+        [('vegetables', 'vegetable'), ('dish', 'bowl'), ('sugar', 'sugar'),
+         ('fresh', 'apple')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: fresh, sugar, vegetables, dish.'),
+            'them, each with a picture: vegetables, dish, sugar, fresh.'),
 
  4: lambda: F.scene(
         [('Bread', 'shop', 'by the door'), ('Milk', 'cup', 'the fridge'),
@@ -74,10 +75,11 @@ FIGURES = {
             'to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('receipt', 'receipt'), ('basket', 'basket'), ('weigh', 'scales'), ('aisle', 'aisle')],
+        [('weigh', 'scales'), ('receipt', 'receipt'), ('basket', 'basket'),
+         ('aisle', 'aisle')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: receipt, basket, weigh, aisle.'),
+            'drawn: weigh, receipt, basket, aisle.'),
  10: lambda: F.writing_frame(
         [('Where you buy food', 'I buy most things in a small shop.'),
          ('What you take', 'I take a basket, because a big one is too much.'),
@@ -365,11 +367,13 @@ FIGURES = {
             'long time.'),
 
  39: lambda: F.bank_strip(
-        [('basket', 'basket'), ('aisle', 'aisle'), ('fresh', 'apple'), ('change', 'coins'), ('a few', 'stones'), ('a little', 'bottle'), ('timetable', 'timetable'), ('balcony', 'balcony')],
+        [('change', 'coins'), ('balcony', 'balcony'), ('basket', 'basket'),
+         ('a little', 'bottle'), ('fresh', 'apple'), ('aisle', 'aisle'),
+         ('a few', 'stones'), ('timetable', 'timetable')],
         height=560, cols=4,
         alt='The eight words of the spiral review bank, in bank order: '
-            'basket, aisle, fresh, change, a few, a little, timetable, '
-            'balcony.'),
+            'change, balcony, basket, a little, fresh, aisle, a few, '
+            'timetable.'),
 
  40: lambda: F.progress_strip(
         [('I can name the main things in a food shop', False),

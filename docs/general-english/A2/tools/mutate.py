@@ -307,6 +307,24 @@ def run(book='a21', verbose=False):
                         _json.dump(meta, open(os.path.join(dst, jf), 'w'))
                     # the spec and ledgers still live in the real root
                     ctx.spec_root = ROOT
+                elif kind == 'svg':
+                    # G32 compares the SVG beside each PNG against the SVG the
+                    # current code draws, so its negative test has to corrupt
+                    # the SVG rather than the sidecar JSON that FIG touches.
+                    src = os.path.join(ROOT, 'figures', book)
+                    if not os.path.isdir(src) or not os.listdir(src):
+                        deferred.append((cid, 'svg: no figures rendered')); continue
+                    dst = os.path.join(tmp, 'figures', book)
+                    shutil.rmtree(os.path.join(tmp, 'figures'), ignore_errors=True)
+                    os.makedirs(os.path.dirname(dst), exist_ok=True)
+                    shutil.copytree(src, dst)
+                    ctx.root = tmp
+                    for sf in sorted(os.listdir(dst)):
+                        if sf.endswith('.svg'):
+                            q = os.path.join(dst, sf)
+                            open(q, 'w', encoding='utf-8').write(
+                                fn(open(q, encoding='utf-8').read()))
+                    ctx.spec_root = ROOT
                 elif kind == 'ctx':
                     fn(ctx)
                 elif kind in STATIC:

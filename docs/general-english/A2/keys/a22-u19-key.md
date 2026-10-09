@@ -52,7 +52,7 @@ Open in wording, fixed in sense: a builder puts up walls and roofs, an author wr
 
 **Part 1: Who, Which or That?**
 
-1. a · 2. b · 3. c · 4. d · 5. e
+1. c · 2. d · 3. b · 4. e · 5. a
 Not needed: **f)** *a hundred years*
 
 > Item 3 is the practical one. *That* covers both columns and it is what people say, so a learner who only ever uses *that* will be right almost always. Teach *who* and *which* so they can read, and let them say *that*.

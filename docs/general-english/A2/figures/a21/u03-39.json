@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "timetable",
+   "text": "crowd",
    "size": 30,
    "bbox": [
-    130.0,
+    160.3,
     209.4,
-    293.0,
+    262.7,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "crossing",
+   "text": "commute",
    "size": 30,
    "bbox": [
-    479.5,
+    472.0,
     209.4,
-    621.5,
+    629.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "timetable",
+   "size": 30,
+   "bbox": [
+    808.0,
+    209.4,
+    971.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "is opening",
+   "size": 30,
+   "bbox": [
+    1140.8,
+    209.4,
+    1316.2,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "traffic",
    "size": 30,
    "bbox": [
-    839.2,
-    209.4,
-    939.8,
-    236.0
+    161.2,
+    427.4,
+    261.8,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "crowd",
+   "text": "crossing",
    "size": 30,
    "bbox": [
-    1177.3,
-    209.4,
-    1279.7,
-    236.0
+    479.5,
+    427.4,
+    621.5,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "opens",
    "size": 30,
    "bbox": [
-    160.7,
+    838.7,
     427.4,
-    262.3,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "is opening",
-   "size": 30,
-   "bbox": [
-    462.8,
-    427.4,
-    638.2,
+    940.3,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "balcony",
    "size": 30,
    "bbox": [
-    823.8,
+    1162.8,
     427.4,
-    955.2,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "commute",
-   "size": 30,
-   "bbox": [
-    1150.0,
-    427.4,
-    1307.0,
+    1294.2,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: timetable, crossing, traffic, crowd, opens, is opening, balcony, commute.",
+ "alt": "The eight words of the spiral review bank, in bank order: crowd, commute, timetable, is opening, traffic, crossing, opens, balcony.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "26bd17cb09dc8520614856508fa0ba0919d585eb3c3cc690b07655189d9720c4"
+ "sha256": "cb6f9a1fbe86cb8c907dc5b42eed74c119d638811a3dff35105916f9bc433e97"
 }

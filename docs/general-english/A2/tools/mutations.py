@@ -48,6 +48,9 @@ def CTX(f):
 def FIG(f):
     return ('fig', f)
 
+def SVG(f):
+    return ('svg', f)
+
 def DOCX(f):
     return ('docx', f)
 
@@ -131,8 +134,8 @@ MUTATIONS = {
 'C11': ('keyall', 'all_A'),
 'C14': URE(r'> \*\*Word bank:\*\* routine \| shift \| flatmate \| appointment \| present continuous \| present simple \| neighbour \| usually',
            '> **Word bank:** routine | shift | flatmate'),
-'C15': U('> **Word bank:** shift | commute | appointment | break',
-         '> **Word bank:** shift | commute | appointment | break | holiday'),
+'C15': U('> **Word bank:** commute | shift | appointment | break',
+         '> **Word bank:** commute | shift | appointment | break | holiday'),
 'C17': K('Ask one question about them — **3**', 'Ask one question about them — **5**'),
 'C18': K('''Give one or two useful local facts — **4**
 Say your name and where you live — **2**
@@ -153,6 +156,15 @@ Offer help and say when you are usually in — **5**'''),
 'C27': ('key2', lambda t: t),      # duplicate a stem across two units
 'C28': URE(r'______________________ \.$', '_____ .'),
 
+# C29 and C30 are the shuffling pair. Both mutations restore the exact defect
+# the twenty shipped units carried before `tools/fix_shuffle.py` ran: a matching
+# key that reads straight down the alphabet, and a word bank whose first word is
+# the first answer.
+'C29': K('1. b · 2. f · 3. d · 4. a · 5. c · 6. h · 7. e',
+         '1. a · 2. b · 3. c · 4. d · 5. e · 6. f · 7. g'),
+'C30': U('> **Word bank:** commute | shift | appointment | break',
+         '> **Word bank:** shift | commute | appointment | break'),
+
 # ------------------------------------------------------------- D answer key
 'D01': ('key', lambda t: t.replace('**Unit 1: People and Routines — Answer Key**',
                                    '**Unit 2: People and Routines — Answer Key**')),
@@ -160,7 +172,7 @@ Offer help and say when you are usually in — **5**'''),
     (lambda L: L[:1] + L[1:][::-1])(t.split('\n')))),
 'D03': K('**Part 1: Vocabulary Fill-in**\n\n1. shift · 2. commute · 3. break · 4. appointment',
          '**Part 1: Vocabulary Fill-in**\n'),
-'D04': K('1. g · 2. b · 3. c · 4. d · 5. f · 6. a · 7. e', '1. g · 2. b · 3. c'),
+'D04': K('1. b · 2. f · 3. d · 4. a · 5. c · 6. h · 7. e', '1. b · 2. f · 3. d'),
 'D05': K('1. c · 2. a · 3. d · 4. b', '1. c · 2. a · 3. z · 4. b'),
 'D06': K('1. **B)** Dani is cooking the rice. · 2. **C)** Maya works in a bookshop.',
          '1. Dani is cooking the rice. · 2. Maya works in a bookshop.'),
@@ -274,6 +286,11 @@ Offer help and say when you are usually in — **5**'''),
     'no_figure_subs', c.spec['figures']['no_figure_subs'][:-1])),
 # push a label into the 10 mm the printer cuts off
 'G30': FIG(lambda m: m['texts'][0].update(bbox=[4, 4, 60, 40]) or m),
+
+# G32 is the stale-render check: the PNG and its sidecar agree with each other
+# (so G23 is green) while neither agrees with what the code now draws. Moving a
+# single coordinate in the SVG is exactly that state.
+'G32': SVG(lambda s: s.replace('<rect ', '<rect data-stale="1" ', 1)),
 'G27': ('ctx', lambda c: [c.spec['unit'].__setitem__(k, {'target': 1, 'min': 0, 'max': 1})
                           for k in ('caption_words', 'caption_words_dense')]),
 'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),

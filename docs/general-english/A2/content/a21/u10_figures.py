@@ -20,10 +20,11 @@ FIGURES = {
             'press, glue, step.'),
 
  3: lambda: F.bank_strip(
-        [('carefully', 'magnifier'), ('finally', 'tick'), ('tidy', 'box'), ('layer', 'layer')],
+        [('finally', 'tick'), ('carefully', 'magnifier'), ('tidy', 'box'),
+         ('layer', 'layer')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: carefully, finally, tidy, layer.'),
+            'them, each with a picture: finally, carefully, tidy, layer.'),
 
  4: lambda: F.scene(
         [('Mr Okonkwo', 'home', 'repairs slowly and once'),
@@ -355,10 +356,12 @@ FIGURES = {
             'takes a week; or leave it, and it is still upside down.'),
 
  39: lambda: F.bank_strip(
-        [('pour', 'pour'), ('press', 'press'), ('glue', 'glue'), ('layer', 'layer'), ('carefully', 'magnifier'), ('do not', 'cross'), ('junction', 'junction'), ('borrow', 'hands')],
+        [('layer', 'layer'), ('borrow', 'hands'), ('pour', 'pour'),
+         ('do not', 'cross'), ('glue', 'glue'), ('press', 'press'),
+         ('carefully', 'magnifier'), ('junction', 'junction')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: pour, '
-            'press, glue, layer, carefully, do not, junction, borrow.'),
+        alt='The eight words of the spiral review bank, in bank order: layer, '
+            'borrow, pour, do not, glue, press, carefully, junction.'),
 
  40: lambda: F.progress_strip(
         [('I can tell somebody how to make or repair something', False),

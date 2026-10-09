@@ -20,10 +20,11 @@ FIGURES = {
             'fog, flood, ice.'),
 
  3: lambda: F.bank_strip(
-        [('temperature', 'thermometer'), ('sunny', 'sun'), ('wind', 'wind'), ('freeze', 'snow')],
+        [('sunny', 'sun'), ('wind', 'wind'), ('freeze', 'snow'),
+         ('temperature', 'thermometer')],
         height=400,
         alt='The four words of the word bank, in the order the task prints '
-            'them, each with a picture: temperature, sunny, wind, freeze.'),
+            'them, each with a picture: sunny, wind, freeze, temperature.'),
 
  4: lambda: F.scene(
         [('Amina', 'shop', 'it will rain, her shoulder says'),
@@ -71,10 +72,11 @@ FIGURES = {
             'numbered lines run to the right for the learner to write each word.'),
 
  9: lambda: F.bank_strip(
-        [('ice', 'snow'), ('storm', 'rain'), ('degree', 'thermometer'), ('sunny', 'sun')],
+        [('storm', 'rain'), ('ice', 'snow'), ('degree', 'thermometer'),
+         ('sunny', 'sun')],
         height=400,
         alt='The four words of the fill-in word bank, in bank order, each '
-            'drawn: ice, storm, degree, sunny.'),
+            'drawn: storm, ice, degree, sunny.'),
  10: lambda: F.writing_frame(
         [('What it usually does', 'It rains here in short showers.'),
          ('What happens twice a winter', 'We get fog twice a winter and the buses stop.'),
@@ -359,10 +361,12 @@ FIGURES = {
             'else as well.'),
 
  39: lambda: F.bank_strip(
-        [('storm', 'rain'), ('shower', 'rain'), ('flood', 'water'), ('temperature', 'thermometer'), ('will', 'arrow_right'), ('might', 'question'), ('diary', 'notebook'), ('junction', 'junction')],
+        [('temperature', 'thermometer'), ('junction', 'junction'),
+         ('storm', 'rain'), ('might', 'question'), ('flood', 'water'),
+         ('shower', 'rain'), ('will', 'arrow_right'), ('diary', 'notebook')],
         height=560, cols=4,
-        alt='The eight words of the spiral review bank, in bank order: storm, '
-            'shower, flood, temperature, will, might, diary, junction.'),
+        alt='The eight words of the spiral review bank, in bank order: temperature, '
+            'junction, storm, might, flood, shower, will, diary.'),
 
  40: lambda: F.progress_strip(
         [('I can talk about the weather and say what it will do', False),

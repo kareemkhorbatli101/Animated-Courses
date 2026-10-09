@@ -457,8 +457,8 @@ v1 asserted that B1 flows from A2 and within itself. v2 names the three mechanis
    in at least **three** B1 Spiral Reviews, and that **no B1 unit presents one as
    new**. v2 tightens the second clause from a convention into a marker test: a sub-
    section headed *Grammar Focus Box* may not introduce an A2 point.
-3. **The cast and place spine.** The same fourteen people, two years on (§5), on the
-   same street. Every unit's Part 9 is on that street; `F01`–`F11` already enforce
+3. **The cast and place spine.** The same six principals and twenty walk-ons,
+   two years on (§5), on the same street. Every unit's Part 9 is on that street; `F01`–`F11` already enforce
    that nobody's age, job, family or history contradicts A2 or an earlier B1 unit.
 
 **`E06` has a harder job at B1 than it had at A2, and this is the subtlety that
@@ -941,7 +941,7 @@ present — one step back, a step back still going, a step behind that, the habi
 past, forward, then unreal present, unreal past, inference, inference about the past,
 ability across all of it; Book 2 is saying and joining), the **A2 spine recycled**
 (`K19`, now with a marker test: no *Grammar Focus Box* may introduce an A2 point), and
-the **cast and place spine** (the same fourteen people, two years on, same street,
+the **cast and place spine** (the same six people (and A2’s twenty walk-ons), two years on, same street,
 `F01`–`F11` enforcing it). Eight of the twenty B1 points *extend* an A2 point rather
 than introduce one, which makes `E06` subtler at B1 than at A2 — the markers must
 match the extension, not the family. ⚠️ **sound — made checkable**

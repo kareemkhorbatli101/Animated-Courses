@@ -11,24 +11,12 @@
  ],
  "texts": [
   {
-   "text": "temperature",
-   "size": 30,
-   "bbox": [
-    104.7,
-    258.6,
-    318.3,
-    285.2
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
    "text": "sunny",
    "size": 30,
    "bbox": [
-    499.8,
+    160.8,
     258.6,
-    601.2,
+    262.2,
     285.2
    ],
    "fill": "#1F3864",
@@ -38,9 +26,9 @@
    "text": "wind",
    "size": 30,
    "bbox": [
-    849.1,
+    510.1,
     258.6,
-    929.9,
+    590.9,
     285.2
    ],
    "fill": "#1F3864",
@@ -50,9 +38,21 @@
    "text": "freeze",
    "size": 30,
    "bbox": [
-    1175.3,
+    836.3,
     258.6,
-    1281.7,
+    942.7,
+    285.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "temperature",
+   "size": 30,
+   "bbox": [
+    1121.7,
+    258.6,
+    1335.3,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the word bank, in the order the task prints them, each with a picture: temperature, sunny, wind, freeze.",
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: sunny, wind, freeze, temperature.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "477ee88841472eee91b4f5f3261ccde7aed8f0f46c606f2ac06594706c84611f"
+ "sha256": "c74f2d01d61ec57fb4fd1f5319c43060700d15e0474dd174fb3ea04c791fc9c9"
 }

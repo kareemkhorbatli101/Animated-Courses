@@ -44,7 +44,7 @@ def main():
         shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     sent = []
     for f in sorted(os.listdir(BUILD)):
-        if f.startswith('EFDL-A2.') and f.endswith(('.docx', '.pdf')):
+        if f.startswith('EFDL-') and f.endswith(('.docx', '.pdf')):
             shutil.copy2(os.path.join(BUILD, f), os.path.join(REL, f))
             sent.append(f)
     # The single units as well. A whole volume is 500 pages and 18 MB; a

@@ -11,24 +11,48 @@
  ],
  "texts": [
   {
-   "text": "balcony",
+   "text": "there is",
    "size": 30,
    "bbox": [
-    145.8,
+    146.6,
     209.4,
-    277.2,
+    276.4,
     236.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "cupboard",
+   "text": "commute",
    "size": 30,
    "bbox": [
-    470.9,
+    472.0,
     209.4,
-    630.1,
+    629.0,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "balcony",
+   "size": 30,
+   "bbox": [
+    823.8,
+    209.4,
+    955.2,
+    236.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "much",
+   "size": 30,
+   "bbox": [
+    1182.6,
+    209.4,
+    1274.4,
     236.0
    ],
    "fill": "#1F3864",
@@ -38,22 +62,22 @@
    "text": "neighbour",
    "size": 30,
    "bbox": [
-    803.0,
-    209.4,
-    976.0,
-    236.0
+    125.0,
+    427.4,
+    298.0,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "there is",
+   "text": "cupboard",
    "size": 30,
    "bbox": [
-    1163.6,
-    209.4,
-    1293.4,
-    236.0
+    470.9,
+    427.4,
+    630.1,
+    454.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -62,21 +86,9 @@
    "text": "there are",
    "size": 30,
    "bbox": [
-    133.0,
+    811.0,
     427.4,
-    290.0,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "much",
-   "size": 30,
-   "bbox": [
-    504.6,
-    427.4,
-    596.4,
+    968.0,
     454.0
    ],
    "fill": "#1F3864",
@@ -86,21 +98,9 @@
    "text": "many",
    "size": 30,
    "bbox": [
-    843.3,
+    1182.3,
     427.4,
-    935.7,
-    454.0
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "commute",
-   "size": 30,
-   "bbox": [
-    1150.0,
-    427.4,
-    1307.0,
+    1274.7,
     454.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 8,
  "stages": 0,
  "arrows": 0,
- "alt": "The eight words of the spiral review bank, in bank order: balcony, cupboard, neighbour, there is, there are, much, many, commute.",
+ "alt": "The eight words of the spiral review bank, in bank order: there is, commute, balcony, much, neighbour, cupboard, there are, many.",
  "placed_in": [
   6.260416666666667,
   2.2916666666666665
  ],
- "sha256": "44a0bed01811adf659b3521a9fb1606d2507f2e798c7fe9fbf0c9f7ff7d64d4b"
+ "sha256": "dcfe0c1d2e561a2116dac7faa733add0eb535210fd194837e56eb97c394bb3f9"
 }

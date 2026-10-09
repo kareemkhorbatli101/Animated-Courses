@@ -54,8 +54,8 @@ The example is doing a job. *And then again in another one* is the recycling the
 
 **Part 1: Who Did It, or Just What Happened?**
 
-1. a · 2. b · 3. c · 4. d · 5. e
-Not needed: **f)** *how much the thing cost*
+1. d · 2. a · 3. b · 4. f · 5. c
+Not needed: **e)** *how much the thing cost*
 
 > This is the whole unit in five lines, and it is worth going through item by item. The passive is not a more polite active. Items 3 and 4 differ in what the speaker is willing to say: *somebody broke the window* says a person did it, *the window was broken* declines to. Learners who meet the passive as a transformation exercise never notice that choice, and then produce it in the wrong places for years.
 
