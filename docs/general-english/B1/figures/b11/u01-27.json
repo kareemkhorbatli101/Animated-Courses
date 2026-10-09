@@ -23,24 +23,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "two reasons",
+   "text": "two facts with times",
    "size": 30,
    "bbox": [
     190,
     90.9,
-    396.2,
+    535.1,
     117.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "In my opinion it was nobody\u2019s fault.",
+   "text": "Your email arrived to say somebody took it.",
    "size": 26,
    "bbox": [
     670,
     91.2,
-    1134.1,
+    1235.8,
     114.9
    ],
    "fill": "#1F3864",
@@ -71,24 +71,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "The cable was old and water was getting",
+   "text": "I was showing the flat on Saturday",
    "size": 26,
    "bbox": [
     670,
     239.2,
-    1203.4,
+    1120.2,
     262.9
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "into.",
+   "text": "afternoon.",
    "size": 26,
    "bbox": [
     670,
     269.2,
-    727.6,
+    804.1,
     292.9
    ],
    "fill": "#1F3864",
@@ -107,25 +107,37 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "your opinion in the first",
+   "text": "one clear request",
    "size": 30,
    "bbox": [
     190,
     416.9,
-    591.0,
+    487.2,
     443.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "That is quick.",
+   "text": "When a viewing is booked, please",
    "size": 26,
    "bbox": [
     670,
-    417.2,
-    843.6,
-    440.9
+    402.2,
+    1111.2,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "telephone.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    809.0,
+    455.9
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -135,10 +147,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the opinion paragraph in three steps -- two reasons, while or when at least, your opinion in the first -- with a line of the model beside each one.",
+ "alt": "The shape of the email in three steps -- two facts with times, while or when at least once, and one clear request -- with a line of the model beside each one.",
  "placed_in": [
   6.260416666666667,
   2.3020833333333335
  ],
- "sha256": "6d4f43d72e76e764fff0d2422028103bbc7d9984f192e6b4bd2521d1486a068e"
+ "sha256": "42e5243ee6b19cc002f1d0c09136f1f97f8c0c20a144984e5a07393dc2c0a5f6"
 }

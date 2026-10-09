@@ -23,24 +23,36 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "a first line a passer-by",
+   "text": "a first line in three",
    "size": 30,
    "bbox": [
     190,
-    90.9,
-    569.8,
-    117.5
+    74.9,
+    506.3,
+    101.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Tuesday, about 7.",
+   "text": "seconds",
+   "size": 30,
+   "bbox": [
+    190,
+    106.9,
+    327.3,
+    133.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "A skip arrived on the pavement outside.",
    "size": 26,
    "bbox": [
     670,
     91.2,
-    900.4,
+    1192.7,
     114.9
    ],
    "fill": "#1F3864",
@@ -71,12 +83,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "20pm \u2014 power cut, the whole street.",
+   "text": "Nobody will say who filled it.",
    "size": 26,
    "bbox": [
     670,
     254.2,
-    1154.0,
+    1041.4,
     277.9
    ],
    "fill": "#1F3864",
@@ -107,12 +119,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I called the emergency line at about half.",
+   "text": "I will ring again and give them that number.",
    "size": 26,
    "bbox": [
     670,
     417.2,
-    1204.8,
+    1241.9,
     440.9
    ],
    "fill": "#1F3864",
@@ -123,10 +135,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the Part 7 writing task in three steps -- a first line a passer-by, what is still unknown, what you will do next -- with a line of the model beside each one.",
+ "alt": "The shape of the noticeboard note in three steps -- a first line a passer-by understands in three seconds, what is still unknown, and what you will do next -- with a line of the model beside each one.",
  "placed_in": [
   6.260416666666667,
   2.3020833333333335
  ],
- "sha256": "8b0823ced25fec3ed71f3cf8ef3063f42970ae93661ea752bf39d07373515e3a"
+ "sha256": "3ba28d2f11f025b2c1720c076f7346c8962c58778f9de760504e6da366d145ca"
 }

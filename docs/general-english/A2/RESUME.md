@@ -3,10 +3,43 @@
 Everything here is reproducible from the repository. If a session ends, a new
 one can pick up from this file alone.
 
+## 2026-10-09, later — the suite is 263, and A2 is still untouched
+
+B1's Unit 1 was built green at 251 checks and was rejected for running one
+subject through all eleven of its parts. Twelve checks were added for that:
+**family M**, ten checks that read a per-unit content ledger and bound how much
+of a unit any one situation may occupy, and **`G34`/`G35`**, which require an
+icon to be licensed by its own label and a contrast figure to actually
+contrast. All twelve live in the shared toolchain, so they run here too.
+
+**All twelve are inert at A2, by design and with the reason written down.**
+Family M reads `ledgers/situations.yaml`, which only B1 has; `G34` and `G35`
+are gated on `golden.figures.depictive_icons`, which only B1's spec sets. Each
+check says so in its own result rather than passing in silence.
+
+**The measurement behind that decision, because it is not flattering.** 332 of
+A2's 1,354 depictive icon/label pairs — 25% — would fail `G34` today,
+concentrated in `category_set` (84 of 110), `scene` (77 of 96) and `world_strip`
+(59 of 66). A2's 820 figures are drawn and shipped, and re-choosing a quarter of
+their glyphs in the same commit that invented the law would not have been
+reviewable. `B1/00-MASTER-PLAN.md` §6a carries the number and the offer to
+reverse it.
+
+**One real finding for A2 came out of writing `G34`**, and it is the §8f lesson
+again: the pair-extraction recognised `(label, icon)` and
+`(name, icon, descriptor)` but not `(title, [lines], icon)`, which is the shape
+`cue_cards` and `before_after` take — so the icon at the top of every role-play
+card and every before-and-after panel in both courses had never been looked at
+by anything. It is looked at now.
+
+A2 is green at **263 of 263 on both volumes**, mutations **230 of 230**.
+Nothing in `units/`, `keys/` or `content/` changed.
+
 ## 2026-10-09 — six defects found and fixed, and B1 started
 
 The work on B1 audited A2 and found six things A2 had shipped with. All six
 are fixed and A2 is green at a new total of **251 checks** on both volumes.
+(263 as of the later entry above.)
 Between them they re-ordered 44 closed tasks, re-rendered 40 stale figures,
 redrew 61 truncated ones, corrected both back covers, and rebuilt both books
 and both answer keys — without changing a word of the course.

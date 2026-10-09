@@ -326,6 +326,24 @@ def run(book='a21', verbose=False):
                     # given, so its negative test has to be a job that drops
                     # one. The loop head restores `figures` every iteration.
                     fn(_FIGMOD)
+                elif kind == 'content':
+                    # G34 and G35 read the CONTENT MODULE -- the figure
+                    # definitions, not the rendered files -- because what they
+                    # check is the choice of glyph for a label, which exists
+                    # only in that source. So their negative tests rewrite it in
+                    # a scratch copy of content/ and point the root at that.
+                    src = os.path.join(ROOT, 'content', book)
+                    if not os.path.isdir(src):
+                        deferred.append((cid, 'content: no content module')); continue
+                    dst = os.path.join(tmp, 'content', book)
+                    shutil.rmtree(os.path.join(tmp, 'content'), ignore_errors=True)
+                    os.makedirs(os.path.dirname(dst), exist_ok=True)
+                    shutil.copytree(src, dst)
+                    q = os.path.join(dst, f'u{u.num:02d}_figures.py')
+                    open(q, 'w', encoding='utf-8').write(
+                        fn(open(q, encoding='utf-8').read()))
+                    ctx.root = tmp
+                    ctx.spec_root = ROOT
                 elif kind == 'svg_below':
                     # K20's negative test. K20 reads the level BELOW this one,
                     # so neither a unit nor a figure mutation of THIS level can

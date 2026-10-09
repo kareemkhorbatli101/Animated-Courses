@@ -1,24 +1,28 @@
 # English for Daily Life · B1 — downloads
 
-**Phase 4 review gate, 2026-10-09.** One finished unit of twenty, for review
-before the other nineteen are built. Everything below is in the repository on
+**Phase 4 review gate, 2026-10-09 — second pass.** One finished unit of twenty,
+for review before the other nineteen are built. The first version of this unit
+was green at 251 checks and was rejected for running one subject through all
+eleven parts; it has been rebuilt whole as nine situations under one theme, the
+pictures have been rebuilt with it, and twelve new checks now hold that design
+in place. `00-MASTER-PLAN.md` §4c and §6a say what they are. Everything below is in the repository on
 branch `claude/jolly-johnson-9khdgl`; click a filename to download it.
 
 ## The unit on its own
 
 | What | File | Size | Pages |
 |---|---|---|---|
-| Unit 1 — The Night the Power Went Out | [b11-u01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/units/b11-u01.docx) | 1.8 MB | 37 |
-| the same as PDF | [b11-u01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/units/b11-u01.pdf) | 2.1 MB | 37 |
+| Unit 1 — The Afternoon Everything Happened at Once | [b11-u01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/units/b11-u01.docx) | 2.0 MB | 37 |
+| the same as PDF | [b11-u01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/units/b11-u01.pdf) | 2.2 MB | 37 |
 
 ## The volume as it stands (one unit of ten)
 
 | What | File | Size | Pages |
 |---|---|---|---|
-| B1.1 *Looking Back* — student book | [EFDL-B1.1-LookingBack-u01-01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-u01-01.docx) | 2.2 MB | 56 |
-| the same as PDF | [EFDL-B1.1-LookingBack-u01-01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-u01-01.pdf) | 2.7 MB | 56 |
-| answer key, bound separately | [EFDL-B1.1-LookingBack-AnswerKey-u01-01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-AnswerKey-u01-01.docx) | 23 KB | 15 |
-| the same as PDF | [EFDL-B1.1-LookingBack-AnswerKey-u01-01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-AnswerKey-u01-01.pdf) | 0.2 MB | 15 |
+| B1.1 *Looking Back* — student book | [EFDL-B1.1-LookingBack-u01-01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-u01-01.docx) | 2.3 MB | 57 |
+| the same as PDF | [EFDL-B1.1-LookingBack-u01-01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-u01-01.pdf) | 2.7 MB | 57 |
+| answer key, bound separately | [EFDL-B1.1-LookingBack-AnswerKey-u01-01.docx](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-AnswerKey-u01-01.docx) | 23 KB | 16 |
+| the same as PDF | [EFDL-B1.1-LookingBack-AnswerKey-u01-01.pdf](https://github.com/kareemkhorbatli101/Animated-Courses/raw/refs/heads/claude/jolly-johnson-9khdgl/docs/general-english/B1/release/EFDL-B1.1-LookingBack-AnswerKey-u01-01.pdf) | 0.2 MB | 16 |
 
 The student book carries the front cover, the front matter, the unit and the
 answer key bound in, which is the shape A2 ships in. The unit-only files are
@@ -45,10 +49,25 @@ there for a teacher who wants next week's unit without the volume.
 
 ## What the checks say
 
-**251 of 251 green on Unit 1**, 0 failures, 13 adjudication gates answered, 3
+**263 of 263 green on Unit 1**, 0 failures, 13 adjudication gates answered, 2
 skips, both of them volume-scoped envelopes that cannot be measured against one
-unit of ten.
+unit of ten. B1's mutation suite is **16 of 16 caught, 0 escaped**.
 
-A2 is unchanged and still green at its new total: **251 of 251 on both
-volumes**, which includes `C29` and `C30`, the two checks that found and fixed
-the answer-shuffling defect A2 had shipped with.
+Twelve of those 263 are new since the last download, and they exist because the
+last download was green and still wrong:
+
+| | What it holds |
+|---|---|
+| `M01`–`M10` | A unit carries at least **7 distinct situations** in at least **5 settings**, none of them taking more than a seventh of its 42 sub-sections or a quarter of its attributions; every theme-level section draws on at least two of them and names words that are actually in its own text; every situation declares the objection a reader will raise and answers it; four premises are blocklisted outright; and `M10` fails unless the law would have rejected the superseded unit, which is kept in the repository for exactly that purpose. |
+| `G34`, `G35` | Every icon must be licensed by its own label — no more generic person glyph under *was reading in bed* — and a figure drawn to show a contrast must draw something different on each side. |
+
+Unit 1 now carries **9 situations in 9 settings**; the largest takes 6 of 42
+sub-sections. The superseded version carried 2 situations in 2 settings, and the
+largest took 37.
+
+A2 is unchanged and still green at its new total: **263 of 263 on both
+volumes**, mutations 230 of 230. That includes `C29` and `C30`, the two checks
+that found and fixed the answer-shuffling defect A2 had shipped with. The two
+new picture checks are declared at B1 only; the plan (§6a) records the
+measurement behind that decision — 332 of A2's 1,354 icon/label pairs would fail
+`G34` — rather than leaving it unsaid.

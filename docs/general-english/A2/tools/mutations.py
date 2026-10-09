@@ -454,18 +454,58 @@ Offer help and say when you are usually in — **5**'''),
 # So B1's set is those four and nothing else. It is not a thinner standard: the
 # other 229 are proved against A2.1's text, and nothing about B1's text could
 # make the same code behave differently.
+def _u1(c):
+    """B1 Unit 1's entry in the situations ledger, which family M reads."""
+    return c.situations['units'][1]
+
+
 MUTATIONS_B1 = {
 
 'F19': ('ctx', lambda c: c.lexis['units'][1]['words'].__setitem__(0, 'routine')),
 
 'K19': U('| **past continuous** | was/were + -ing | the longer action, in the '
-         'middle of happening | She was closing the shop. |',
+         'middle of happening | She was serving a queue. |',
          '| **present perfect** | has/have + participle | the longer action, in '
-         'the middle of happening | She was closing the shop. |'),
+         'the middle of happening | She was serving a queue. |'),
 
 'K20': ('svg_below', lambda s: s.replace('<rect ', '<rect data-drift="1" ', 1)),
 
 'K21': ('ctx', lambda c: c.grammar['cefrj_disposition'].pop('TA')),
+
+# --- the content law (family M) and the depiction law (G34, G35) -------------
+# Twelve more that A2 structurally cannot test, for the same reason as the four
+# above and not a weaker one. Family M reads ledgers/situations.yaml, which only
+# B1 has; G34 and G35 are gated on golden.figures.depictive_icons, which only
+# B1's spec sets. Each fixture below breaks the thing its check exists to catch,
+# in the ledger or in the content module rather than in the unit, because that
+# is where the fault would really be.
+'M01': ('ctx', lambda c: _u1(c)['strands'][0]['subs'].pop()),
+'M02': ('ctx', lambda c: _u1(c).__setitem__('strands', _u1(c)['strands'][:4])),
+'M03': ('ctx', lambda c: _u1(c)['strands'][0]['subs'].extend(['x'] * 8)),
+'M04': ('ctx', lambda c: [s.__setitem__('setting', 'the pavement outside 14 Alder Street')
+                          for s in _u1(c)['strands']]),
+'M05': ('ctx', lambda c: _u1(c)['theme_subs'].__setitem__(
+            'Warm-up: Words for a Busy Afternoon', ['skip'])),
+'M06': ('ctx', lambda c: _u1(c)['strands'][1].__setitem__('why_not', '')),
+'M07': ('ctx', lambda c: _u1(c)['strands'][1].__setitem__('probes', ['zeppelin'])),
+# the banned premise that got family M written: twenty minutes of being unable
+# to see, in a unit whose own cast is carrying lit telephones.
+'M08': U('I was on the forty-two',
+         'I could not see a thing for twenty minutes. I was on the forty-two'),
+'M09': ('ctx', lambda c: [s['people'].append('Maya') for s in _u1(c)['strands']
+                          if 'Maya' not in s['people']]),
+# M10 is the calibration check, so its fixture relaxes the LAW rather than the
+# unit -- exactly as L01's does for the level floors.
+'M10': ('ctx', lambda c: c.situations['law'].update(
+            {'min_strands': 1, 'max_strand_subs': 99, 'min_settings': 1})),
+'G34': ('content', lambda t: t.replace("('Skip', 'bin')", "('Skip', 'horse')", 1)),
+'G35': ('content', lambda t: t
+        .replace("('the door shut, the brick gone', 'stones')",
+                 "('the door shut, the brick gone', 'door')", 1)
+        .replace("('the cat is out in the car park', 'tyre')",
+                 "('the cat is out in the car park', 'cat')", 1)
+        .replace("('the box gone up to the flat', 'home')",
+                 "('the box gone up to the flat', 'box')", 1)),
 }
 
 

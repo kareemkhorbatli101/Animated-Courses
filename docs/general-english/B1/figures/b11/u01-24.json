@@ -23,12 +23,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Grid",
+   "text": "Overlap",
    "size": 30,
    "bbox": [
-    141.2,
+    110.7,
     330.9,
-    212.4,
+    242.9,
     357.5
    ],
    "fill": "#1F3864",
@@ -47,12 +47,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Substation",
+   "text": "Capacity",
    "size": 30,
    "bbox": [
-    356.7,
+    375.4,
     330.9,
-    540.1,
+    521.4,
     357.5
    ],
    "fill": "#1F3864",
@@ -71,12 +71,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Demand",
+   "text": "Slot",
    "size": 30,
    "bbox": [
-    650.2,
+    686.6,
     330.9,
-    789.8,
+    753.4,
     357.5
    ],
    "fill": "#1F3864",
@@ -95,12 +95,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Cable",
+   "text": "Backlog",
    "size": 30,
    "bbox": [
-    944.4,
+    925.0,
     330.9,
-    1038.8,
+    1058.2,
     357.5
    ],
    "fill": "#1F3864",
@@ -119,12 +119,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Fault",
+   "text": "Kerb",
    "size": 30,
    "bbox": [
-    1220.7,
+    1223.5,
     330.9,
-    1305.7,
+    1302.9,
     357.5
    ],
    "fill": "#1F3864",
@@ -135,10 +135,10 @@
  "cards": 5,
  "stages": 0,
  "arrows": 0,
- "alt": "The five words from the reading as numbered picture cards: grid, substation, demand, cable, fault.",
+ "alt": "The five words from the reading as numbered picture cards: overlap, capacity, slot, backlog, kerb.",
  "placed_in": [
   6.260416666666667,
   1.7291666666666667
  ],
- "sha256": "f7c15736d2dfa41f5e1bd823d09ac1f1e8374287d3027894923c5af3402a57d1"
+ "sha256": "8c42ba5f4022665ec31e862219ea9b781338f97692da81ad2b5781495359c7a6"
 }

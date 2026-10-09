@@ -119,24 +119,36 @@
    "on": "#1F3864"
   },
   {
-   "text": "What was everybody",
+   "text": "What were the other",
    "size": 28,
    "bbox": [
-    1007.0,
+    1008.2,
+    289.7,
+    1335.8,
+    314.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "people doing at the",
+   "size": 28,
+   "bbox": [
+    1017.2,
     323.7,
-    1337.0,
+    1326.8,
     348.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "else doing at the time?",
+   "text": "time?",
    "size": 28,
    "bbox": [
-    990.0,
+    1128.3,
     357.7,
-    1354.0,
+    1215.7,
     382.2
    ],
    "fill": "#1F3864",
@@ -152,5 +164,5 @@
   6.260416666666667,
   1.9270833333333333
  ],
- "sha256": "13a00b9ccd7153f0bae2545d2c40cd2c8cab86cb4b4c906ee604de2c39dd111b"
+ "sha256": "13379a0126c9db1d1dec0548559a950f9310645067c34508efee00277bbdc179"
 }

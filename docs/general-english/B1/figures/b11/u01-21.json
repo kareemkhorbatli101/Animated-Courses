@@ -11,205 +11,193 @@
  ],
  "texts": [
   {
-   "text": "Card A \u2014 the stairs",
+   "text": "Card A \u2014 the car park",
    "size": 34,
    "bbox": [
-    185.9,
+    160.7,
     48.2,
-    554.1,
+    579.3,
     78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "say where you were",
+   "text": "say where you were in",
    "size": 28,
    "bbox": [
     138.0,
     148.9,
-    452.9,
+    492.2,
     173.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "standing",
+   "text": "the afternoon",
    "size": 28,
    "bbox": [
     138.0,
     182.9,
-    276.5,
+    355.7,
     207.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say how long you",
+   "text": "say what you saw, which",
    "size": 28,
    "bbox": [
     138.0,
     234.9,
-    411.5,
+    527.7,
     259.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "waited",
+   "text": "is nothing",
    "size": 28,
    "bbox": [
     138.0,
     268.9,
-    244.8,
+    296.1,
     293.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say what could have",
+   "text": "argue for a note about",
    "size": 28,
    "bbox": [
     138.0,
     320.9,
-    459.8,
+    495.8,
     345.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "happened",
+   "text": "ball games",
    "size": 28,
    "bbox": [
     138.0,
     354.9,
-    294.9,
+    309.6,
     379.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask for a light above the",
+   "text": "say who should pay for",
    "size": 28,
    "bbox": [
     138.0,
     406.9,
-    525.3,
+    502.0,
     431.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "stairs",
+   "text": "the glass",
    "size": 28,
    "bbox": [
     138.0,
     440.9,
-    227.0,
+    281.9,
     465.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Card B \u2014 tonight",
+   "text": "Card B \u2014 the fund",
    "size": 34,
    "bbox": [
-    907.6,
+    896.3,
     48.2,
-    1232.4,
+    1243.7,
     78.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "say what you could not",
+   "text": "say what the fund holds",
    "size": 28,
    "bbox": [
     838.0,
     148.9,
-    1203.4,
+    1218.0,
     173.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "find",
+   "text": "say what the glass will",
    "size": 28,
    "bbox": [
     838.0,
-    182.9,
-    898.7,
-    207.4
+    204.9,
+    1196.9,
+    229.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say what the fund has",
+   "text": "cost",
    "size": 28,
    "bbox": [
     838.0,
-    234.9,
-    1188.0,
-    259.4
+    238.9,
+    903.9,
+    263.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "bought",
+   "text": "argue against a rule",
    "size": 28,
    "bbox": [
     838.0,
-    268.9,
-    950.6,
-    293.4
+    290.9,
+    1157.6,
+    315.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "say what twenty-two",
+   "text": "nobody can enforce",
    "size": 28,
    "bbox": [
     838.0,
-    320.9,
-    1168.5,
-    345.4
+    324.9,
+    1149.4,
+    349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "pounds buys",
+   "text": "answer the other side",
    "size": 28,
    "bbox": [
     838.0,
-    354.9,
-    1038.5,
-    379.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "answer the objection",
-   "size": 28,
-   "bbox": [
-    838.0,
-    406.9,
-    1170.6,
-    431.4
+    376.9,
+    1184.4,
+    401.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -219,10 +207,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two role-play cards side by side. Card A, the stairs: say where you were standing, say how long you waited, say what could have happened, ask for a light above the stairs. Card B, tonight: say what you could not find, say what the fund has bought, say what twenty-two pounds buys, answer the objection.",
+ "alt": "The two role-play cards side by side. Card A, the car park: say where you were in the afternoon, say what you saw, argue for a note about ball games, say who should pay for the glass. Card B, the fund: say what the fund holds, say what the glass will cost, argue against a rule nobody can enforce, answer the other side.",
  "placed_in": [
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "3c05ce582ee93e47beb6780208c167a0f80bbda87cce2297fa137463dcbc6b91"
+ "sha256": "9246db9badf65dfd9f59294b128f50c46969225f5c470c5a1ceb81aca218ce7e"
 }

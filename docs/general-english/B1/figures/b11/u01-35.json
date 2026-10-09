@@ -11,96 +11,96 @@
  ],
  "texts": [
   {
-   "text": "Before a quarter to nine",
+   "text": "Thursday \u2014 the letter",
    "size": 34,
    "bbox": [
-    132.8,
+    156.5,
     67.8,
-    597.2,
+    573.5,
     98.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "the fan on",
+   "text": "a letter on the fridge",
    "size": 27,
    "bbox": [
-    295.9,
+    224.6,
     282.5,
-    434.1,
+    505.4,
     307.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "the radio on",
+   "text": "the street named on it",
    "size": 27,
    "bbox": [
-    283.1,
+    213.5,
     328.5,
-    446.9,
+    516.5,
     353.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "the light above the table",
+   "text": "no hours given at all",
    "size": 27,
    "bbox": [
-    198.0,
+    226.6,
     374.5,
-    532.0,
+    503.4,
     399.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "After a quarter to nine",
+   "text": "Saturday \u2014 the filming",
    "size": 34,
    "bbox": [
-    887.7,
+    885.7,
     67.8,
-    1322.3,
+    1324.3,
     98.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "two candles on saucers",
+   "text": "two lorries across the entrance",
    "size": 27,
    "bbox": [
-    946.7,
+    895.6,
     282.5,
-    1263.3,
+    1314.4,
     307.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the front door open",
+   "text": "a diversion at the corner",
    "size": 27,
    "bbox": [
-    973.5,
+    938.7,
     328.5,
-    1236.5,
+    1271.3,
     353.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "half the building on the landing",
+   "text": "residents on their own steps",
    "size": 27,
    "bbox": [
-    893.0,
+    913.4,
     374.5,
-    1317.0,
+    1296.6,
     399.0
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 1,
- "alt": "The flat in Buenos Aires before and after a quarter to nine. Before: the fan on, the radio on, the light above the table. After: two candles standing on saucers, the front door open, and half the building out on the landing.",
+ "alt": "Calle Sarmiento before and after. On Thursday: a letter on the fridge, the street named on it, and no hours given. On Saturday: two lorries parked across the entrance, a diversion at the corner, and a camera at the far end.",
  "placed_in": [
   6.260416666666667,
   1.9166666666666667
  ],
- "sha256": "896fde8bd8f77aafb6cb2835744afe59ce36db7760ad28e34dcb5ed4ce26cf09"
+ "sha256": "881065c1165617474ff9720af990a2bced6e77efc25493b6140fefc5b44ea200"
 }

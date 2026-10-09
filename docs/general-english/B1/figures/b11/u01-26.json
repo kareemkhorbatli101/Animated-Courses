@@ -35,13 +35,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I was on the stairs with the shopping.",
+   "text": "I was carrying a bike out through the car",
    "size": 26,
    "bbox": [
     670,
-    61.6,
-    1157.7,
-    85.4
+    46.6,
+    1199.4,
+    70.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "park.",
+   "size": 26,
+   "bbox": [
+    670,
+    76.6,
+    736.5,
+    100.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -59,24 +71,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "What the problem was",
+   "text": "What the damage is",
    "size": 30,
    "bbox": [
     190,
     170.8,
-    572.5,
+    529.6,
     197.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I could not see the steps at all.",
+   "text": "The window on the half landing cracked.",
    "size": 26,
    "bbox": [
     670,
     171.2,
-    1071.3,
+    1196.9,
     194.8
    ],
    "fill": "#1F3864",
@@ -95,24 +107,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "What you are asking for",
+   "text": "What you are not asking",
    "size": 30,
    "bbox": [
     190,
     280.3,
-    597.3,
+    605.2,
     307.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I would like us to buy a lamp.",
+   "text": "I am not trying to find out who did it.",
    "size": 26,
    "bbox": [
     670,
     280.6,
-    1051.2,
+    1150.0,
     304.3
    ],
    "fill": "#1F3864",
@@ -131,24 +143,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Where it should be kept",
+   "text": "What you want agreed",
    "size": 30,
    "bbox": [
     190,
     389.8,
-    596.4,
+    574.2,
     416.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "And to agree where we keep it.",
+   "text": "The fund pays for the glass this once.",
    "size": 26,
    "bbox": [
     670,
     390.2,
-    1076.4,
+    1159.8,
     413.8
    ],
    "fill": "#1F3864",
@@ -159,10 +171,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the message the learner is about to write, in four steps: what you were doing when it happened, what the problem was, what you are asking the neighbours to agree, and where the thing should be kept.",
+ "alt": "The shape of the message the learner is about to write, in four steps: what you were doing when it happened, what the damage is, what you are not asking for, and what you want the building to agree.",
  "placed_in": [
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "3af7393459854312800ea1c044c51f53e474c44265a697f40def5ec26b09a74c"
+ "sha256": "905f5d54926edf92269289d03d23c4087d890ee220474b3c1ab1ae3d837c61db"
 }

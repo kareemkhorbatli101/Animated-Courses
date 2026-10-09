@@ -11,12 +11,12 @@
  ],
  "texts": [
   {
-   "text": "Amina closed the shop.",
+   "text": "The card reader stopped.",
    "size": 38,
    "bbox": [
-    120.0,
+    98.4,
     56.4,
-    620.0,
+    641.6,
     89.9
    ],
    "fill": "#FFFFFF",
@@ -47,36 +47,36 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "The shop was already shut.",
+   "text": "One moment, and it was over.",
    "size": 30,
    "bbox": [
-    137.8,
+    117.0,
     390.7,
-    602.2,
+    623.0,
     417.3
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Amina was closing the",
+   "text": "Maya was serving a",
    "size": 38,
    "bbox": [
-    829.8,
+    859.7,
     56.4,
-    1310.2,
+    1280.3,
     89.9
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "shop.",
+   "text": "queue.",
    "size": 38,
    "bbox": [
-    1011.3,
+    996.4,
     100.4,
-    1128.7,
+    1143.6,
     133.9
    ],
    "fill": "#FFFFFF",
@@ -140,5 +140,5 @@
   6.260416666666667,
   2.5833333333333335
  ],
- "sha256": "cf4c76d3f29cf1341d40b34938439187a47d532f53b316b5ad177b82c50e0607"
+ "sha256": "e11b7a2f86ab45a4dc7467ad4a5f9802ec7853036eb9a8d12635ace9b7a67864"
 }

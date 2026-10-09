@@ -11,12 +11,12 @@
  ],
  "texts": [
   {
-   "text": "Amina closed the shop at seven",
+   "text": "The lorry left the skip on the pavement",
    "size": 32,
    "bbox": [
     142,
     53.9,
-    716.2,
+    852.3,
     82.1
    ],
    "fill": "#1F3864",
@@ -35,12 +35,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Amina was closing the shop at seven",
+   "text": "The van was arriving when the lorry left",
    "size": 32,
    "bbox": [
     142,
     151.4,
-    809.6,
+    867.2,
     179.6
    ],
    "fill": "#1F3864",
@@ -59,12 +59,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "The lights went out",
+   "text": "Then the van arrived",
    "size": 32,
    "bbox": [
     142,
     248.9,
-    493.1,
+    519.1,
     277.1
    ],
    "fill": "#1F3864",
@@ -83,12 +83,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "She was somewhere in the middle of it",
+   "text": "The van was in the middle of coming down",
    "size": 32,
    "bbox": [
     142,
     346.4,
-    843.8,
+    913.3,
     374.6
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The four lines of the notice with the verb ringed in each: closed, was closing, went, was. The ring is what a correct underlining looks like.",
+ "alt": "The four lines of the notice with the verb ringed in each: left, was arriving, arrived, was. The ring is what a correct underlining looks like.",
  "placed_in": [
   6.260416666666667,
   1.84375
  ],
- "sha256": "0db59a747ef7cb8dd4739375b4ddcc2014802ca1695dc588d35dbb731282a73f"
+ "sha256": "5dba4b1be0f370fc898dc192b54e33d08cd54543e9372ffe47dcb59df73dfdc9"
 }

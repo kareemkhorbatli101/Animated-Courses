@@ -29,6 +29,11 @@ class Ctx:
     cast: dict = field(default_factory=dict)
     grammar: dict = field(default_factory=dict)
     lexis: dict = field(default_factory=dict)
+    # The content law's ledger (ledgers/situations.yaml), loaded here beside the
+    # other three so family M reads it through the context and a `ctx` mutation
+    # can break it. A level without the file gets {}, and every M check says so
+    # rather than passing in silence.
+    situations: dict = field(default_factory=dict)
     key: object = None
     results: dict = field(default_factory=dict)
     previous_results: dict = field(default_factory=dict)
@@ -118,6 +123,10 @@ def load_ctx(book='a21') -> Ctx:
     c.cast = y('ledgers', 'cast.yaml')
     c.grammar = y('ledgers', 'grammar.yaml')
     c.lexis = y('ledgers', 'lexis.yaml')
+    try:
+        c.situations = y('ledgers', 'situations.yaml') or {}
+    except Exception:
+        c.situations = {}        # A2 has none; family M reports that, not a crash
     prev = os.path.join(ROOT, 'reports', f'{book}-last.json')
     if os.path.exists(prev):
         c.previous_results = json.load(open(prev)).get('results', {})

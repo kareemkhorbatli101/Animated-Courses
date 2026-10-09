@@ -23,24 +23,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "a beginning, a middle",
+   "text": "a beginning and a middle",
    "size": 30,
    "bbox": [
     190,
     90.9,
-    557.7,
+    619.8,
     117.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "It was about twenty past seven and I was.",
+   "text": "I was on the forty-two, twenty minutes out.",
    "size": 26,
    "bbox": [
     670,
     91.2,
-    1218.5,
+    1232.8,
     114.9
    ],
    "fill": "#1F3864",
@@ -59,24 +59,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "how long it lasted",
+   "text": "what you lost",
    "size": 30,
    "bbox": [
     190,
     253.9,
-    493.9,
+    419.2,
     280.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Every light in the building went out.",
+   "text": "I was reading the handover notes on it.",
    "size": 26,
    "bbox": [
     670,
     254.2,
-    1136.4,
+    1181.3,
     277.9
    ],
    "fill": "#1F3864",
@@ -95,25 +95,37 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "both past tenses",
+   "text": "how it finished",
    "size": 30,
    "bbox": [
     190,
     416.9,
-    474.7,
+    440.1,
     443.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "That is what I noticed first.",
+   "text": "Two other nurses took the shift before",
    "size": 26,
    "bbox": [
     670,
-    417.2,
-    1017.8,
-    440.9
+    402.2,
+    1163.9,
+    425.9
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "lunch.",
+   "size": 26,
+   "bbox": [
+    670,
+    432.2,
+    749.2,
+    455.9
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -123,10 +135,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the message in three steps -- a beginning, a middle, how long it lasted, both past tenses -- with a line of the model beside each one.",
+ "alt": "The shape of the account in three steps -- a beginning and a middle, what you lost, and how it finished -- with a line of the model beside each one.",
  "placed_in": [
   6.260416666666667,
   2.3020833333333335
  ],
- "sha256": "af29fc67596be6f0f560e97c59dee76206a0d6fa8af5e8ed8f479700845fcbc0"
+ "sha256": "d55aaa2f803c40a3dd6afda6f3314a751583f55437e5bdc4836e835addb5d5a0"
 }

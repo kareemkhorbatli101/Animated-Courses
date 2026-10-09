@@ -35,24 +35,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "twenty minutes on the",
+   "text": "a flat battery on the",
    "size": 26,
    "bbox": [
-    119.4,
+    135.9,
     356.9,
-    414.0,
+    397.4,
     380.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "stairs",
+   "text": "forty-two",
    "size": 26,
    "bbox": [
-    231.1,
+    207.9,
     388.9,
-    302.2,
+    325.5,
     412.6
    ],
    "fill": "#1F3864",
@@ -71,12 +71,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Amina and a",
+   "text": "Maya and a",
    "size": 32,
    "bbox": [
-    607.7,
+    617.0,
     287.0,
-    832.3,
+    823.0,
     315.2
    ],
    "fill": "#1F3864",
@@ -95,13 +95,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "keeping the shop open",
+   "text": "a card reader that",
    "size": 26,
    "bbox": [
-    571.2,
+    602.1,
     356.9,
-    868.8,
+    837.9,
     380.6
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "stopped",
+   "size": 26,
+   "bbox": [
+    667.4,
+    388.9,
+    772.6,
+    412.6
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -143,12 +155,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "evening",
+   "text": "cracked window",
    "size": 26,
    "bbox": [
-    1121.3,
+    1069.0,
     388.9,
-    1225.4,
+    1277.7,
     412.6
    ],
    "fill": "#1F3864",
@@ -159,10 +171,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The three listenings in this unit: Tomas describes twenty minutes standing on the stairs in the dark, Amina and a customer talk about keeping the shop open by candle, and four people at number 14 give four different accounts of the same twenty minutes.",
+ "alt": "The three listenings in this unit, each drawn with the thing it is about: Tomas and a flat battery on the forty-two, Maya and a customer at a card reader that stopped, and four people giving four versions of one cracked window.",
  "placed_in": [
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "bb94d8ceea6eced2bbdf6ac2652440f5466986ce72f256c2f059c7cb7d94ca60"
+ "sha256": "ded1b00282d711034e3ea9f9ef1244906a9ad57baa6bfffeceff0d8e28ee8bb1"
 }

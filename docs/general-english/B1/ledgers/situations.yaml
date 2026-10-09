@@ -1,0 +1,691 @@
+# B1's SITUATIONS ledger -- the content law, made declarable and therefore checkable.
+#
+# Why this file exists
+# --------------------
+# B1 Unit 1 was built, passed 251 checks, and was rejected on sight. The suite
+# could prove the unit had 42 sub-sections, 41 figures, a 15.5-word mean sentence
+# and a 6.61 reading grade. It could not see that 37 of those 42 sub-sections were
+# about the same power cut on the same evening, that the pictures restated their
+# own captions, or that the opening listening had a man standing still for twenty
+# minutes in a stairwell while his own script said somebody walked past him holding
+# out a lit phone.
+#
+# Nothing in a structural spec can catch any of that, because monotony and
+# implausibility are properties of CONTENT, and every check in families A-L
+# compares a unit with a shape. So the content gets a shape of its own here, and
+# family M checks it.
+#
+# The law, in one sentence
+# ------------------------
+# A unit is a THEME carrying several distinct STRANDS; the grammar point is the
+# thread that runs through all of them, and it is the grammar that repeats, never
+# the situation.
+#
+# A strand is a situation with its own setting, its own people, its own stakes and
+# its own ending. `theme` is not a strand: it is the attribution for a sub-section
+# that works at the level of the whole unit -- a vocabulary field, a grammar box, a
+# review -- and such a sub-section must draw its examples from at least two named
+# strands, which `touches` records and M05 verifies against the text.
+#
+# The realism clause
+# ------------------
+# No machine can judge whether a situation is plausible. It can, however, refuse to
+# accept one whose obvious objection has not been named and answered. So every
+# strand declares `obvious_out` -- the thing any adult reader thinks of within two
+# seconds -- and `why_not`, the answer, in the strand's own facts. M06 requires
+# both. M07 requires the answer to appear in the unit's own text, not only here,
+# because an objection answered in a ledger the learner never reads is not answered.
+# `banned_premises` below is the blocklist, and its first entry is the one that got
+# this file written.
+
+level: B1
+version: 3
+supersedes: >
+  v1 and v2 of 00-MASTER-PLAN.md section 4, in which each of the twenty units was
+  a single topic named in its title and carried through all eleven parts.
+
+# ---------------------------------------------------------------- the occupancy law
+# Numbers, not adjectives. Every one is enforced by a check in family M, and the
+# calibration evidence that each one bites is the superseded Unit 1, recorded under
+# `calibration` at the foot of this file.
+law:
+  min_strands: 7              # M02 -- distinct situations a unit must carry
+  min_strand_subs: 1          # M02 -- each must own at least one sub-section outright
+  max_strand_subs: 7          # M03 -- and none may own more than this (16.7% of 42)
+  min_settings: 5             # M04 -- distinct physical settings among the strands
+  max_setting_subs: 9         # M04 -- and no one setting on more than this
+  min_touches: 2              # M05 -- strands a `theme` sub-section must draw on
+  min_why_not_words: 8        # M06 -- an answer shorter than this is not an answer
+  max_person_strand_share: 0.6  # M09 -- nobody may be in more than 60% of strands
+  max_strand_share: 0.25      # M03b -- a strand's subs plus its mentions in `touches`
+                              #         may not exceed a quarter of all attributions
+
+# Premises this course does not use, each with the reason. M08 greps the unit text.
+# These are not style preferences. Each one is a thing an adult reader knows to be
+# false, and printing it costs the book its authority on everything else.
+banned_premises:
+  - id: dark_without_phone
+    pattern: '(?i)(could not see|couldn.t see|in the dark|no light)[^.]{0,80}(twenty|fifteen|ten|30|20|15) minutes'
+    why: >
+      Every adult in 2026 carries a torch. A scene whose tension is that nobody
+      could see for twenty minutes is contradicted by the pockets of everyone in
+      it -- and the superseded Unit 1 contradicted it in its own script, which had
+      somebody walk past holding a lit phone out in front of them.
+  - id: unreachable_by_phone
+    pattern: '(?i)(no way (of|to) (reach|contact|phone|call)|nobody could (reach|contact|phone))[^.]{0,60}(him|her|them|anyone)'
+    why: >
+      Being unreachable now needs a stated cause -- a flat battery, a dead area, a
+      number nobody knows by heart. Asserting it bare reads as a plot convenience.
+      A strand may still use it; it must then name the cause, which `why_not` does.
+  - id: nobody_knew
+    pattern: '(?i)nobody (knew|had heard|had any idea) (what|that|why|anything)[^.]{0,40}(for (days|a week|weeks))'
+    why: >
+      Information travels. A week of total ignorance in a street with a group chat
+      is not a situation, it is an excuse for one.
+  - id: unexplained_authority
+    pattern: '(?i)(the council|the company|the landlord) (simply )?(refused|would not say|said nothing)( at all)?\.'
+    why: >
+      Institutions are slow, not silent, and the slowness is the interesting part.
+      A flat refusal with no reason removes the language work -- chasing, escalating,
+      rephrasing -- that the unit is supposed to teach.
+
+# ====================================================================== the twenty
+# Each unit: a theme, the grammar thread that justifies carrying several situations
+# at once, and the strands. `subs` lists the sub-section headings the strand owns.
+# A unit that has been BUILT must carry full strand detail (M06); a unit not yet
+# built carries its theme and its strand titles, which is what locks the design.
+
+units:
+
+  # ------------------------------------------------------------------------ Unit 1
+  1:
+    title: The Afternoon Everything Happened at Once
+    theme: >
+      One Saturday afternoon on and around Alder Street, with six or seven ordinary
+      things going wrong at the same time in different places -- and the work of
+      saying, afterwards, what was going on when each of them happened.
+    grammar: past continuous vs past simple -- while / when
+    why_this_theme: >
+      The past continuous is the tense of simultaneity. Teaching it through one
+      event is teaching it against its own grain: a single interruption gives one
+      long action and one short one, and then the unit has nothing left to do but
+      restate it. A theme of several things happening at once gives the tense the
+      shape it actually has, and gives the unit seven different places to stand.
+    built: true
+    strands:
+
+      - id: skip
+        title: The skip that came to the wrong number
+        premise: >
+          A six-tonne skip was dropped outside number 14 at half past one. It was
+          ordered by number 40, four doors up. It leaves the street too narrow for
+          the van that brings Amina's stock, and her Saturday delivery went back to
+          the depot.
+        setting: the pavement outside 14 Alder Street
+        people: [Amina, Mr Okonkwo]
+        probes: [skip, depot, pavement]
+        obvious_out: Move it, or have the driver take it four doors up.
+        why_not: >
+          It was full within the hour, because two other households had already
+          started putting things in it, and a loaded skip needs the lorry back --
+          the hire company's next free slot is Tuesday morning.
+        subs:
+          - 'Part 2: Notice'
+          - '7A: Phrase Bank'
+          - '7B: The Call to the Skip Company'
+          - '7C: Controlled Practice — Saying What Went Wrong'
+          - '7D: Role-Play — Two Versions of the Same Afternoon'
+          - '7E: Writing — A Note for the Noticeboard (100–120 words)'
+
+      - id: reader
+        title: The card reader at Hadley Books
+        premise: >
+          At ten past two, in the busiest hour of the week, the bookshop's card
+          reader stopped talking to the bank. Maya was halfway through serving a
+          queue of eleven people when it happened.
+        setting: Hadley Books, two streets from Alder Street
+        people: [Maya]
+        probes: [card reader, bookshop, reader, Hadley]
+        obvious_out: Take cash instead.
+        why_not: >
+          Seven of the eleven people in the queue had no cash on them at all, and
+          the shop's paper backup slip asks for a long card number that a
+          contactless card does not print on its front.
+        subs:
+          - 'Part 2: Interrupted or Finished?'
+          - 'Part 3: The Queue at Hadley Books'
+
+      - id: window
+        title: The window on the half landing
+        premise: >
+          A window on the half landing of number 14 cracked some time between three
+          and four. Three separate groups were in the car park behind the building
+          that afternoon, and none of them was watching the others.
+        setting: the car park behind 14 Alder Street, and the half landing above it
+        people: [Dani, Mr Okonkwo]
+        probes: [car park, half landing, crack, cracked]
+        obvious_out: Ask the children in the car park who did it.
+        why_not: >
+          Nobody is lying. Two groups of children and a man loading a car were all
+          there at different points in the hour, each of them saw the window only
+          after it was broken, and the crack makes no sound worth turning round for.
+        subs:
+          - 'Part 3: Four People, Four Versions'
+          - 'Part 6: A Message to the Neighbours (90–110 words)'
+
+      - id: phone
+        title: Tomas, the 42 bus and a flat battery
+        premise: >
+          Tomas crossed town to cover somebody else's shift. His phone died
+          somewhere around the ring road, and for fifty minutes the ward had no way
+          of telling him the shift had been covered twice over.
+        setting: the 42 bus and St Luke's Hospital
+        people: [Tomas]
+        probes: [battery, forty-two, ward, handover]
+        obvious_out: Borrow a phone from somebody on the bus.
+        why_not: >
+          He did borrow one, from a woman two seats forward. He does not know the
+          ward's number by heart, and the only place it is written down is in the
+          phone that is flat.
+        subs:
+          - 'Part 3: Tomas and the Forty-Two'
+          - 'Part 6: What Happened on the Way to the Shift (90–110 words)'
+
+      - id: viewing
+        title: The flat that was already let
+        premise: >
+          Dani was showing the empty first-floor flat to somebody at half past two.
+          The agent's email saying it had gone that morning was sent at ten past,
+          and arrived while they were both standing in the kitchen.
+        setting: the empty flat, first floor, 14 Alder Street
+        people: [Dani]
+        probes: [agent, viewing, letting]
+        obvious_out: The agent should have telephoned instead of emailing.
+        why_not: >
+          The agent did send it in time, by the channel the agency logs, and Dani's
+          phone was in his coat in the hall while he was talking in the kitchen.
+        subs:
+          - 'Part 6: An Email to the Letting Agent (90–110 words)'
+
+      - id: call
+        title: The call that dropped
+        premise: >
+          Yuki's work call cut out in the middle of her turn to speak. When she got
+          back in, four minutes later, the group had moved on and the thing she was
+          arguing against had been agreed.
+        setting: the top flat, 14 Alder Street
+        people: [Yuki]
+        probes: [connection, dropped, video call]
+        obvious_out: Just say it again when you get back in.
+        why_not: >
+          She did say it again. A decision that has already been minuted takes four
+          times as long to reopen as it would have taken to stop.
+        subs:
+          - 'Part 2: Correct the Sentence'
+
+      - id: cat
+        title: Three hours of looking for a cat
+        premise: >
+          The street door was propped open for the skip. Mr Okonkwo's cat went
+          through it at some point after two, and was found at ten past five under a
+          car on the far side of the car park.
+        setting: the stairwell and car park of 14 Alder Street
+        people: [Mr Okonkwo, Maya]
+        probes: [cat, stairwell, propped]
+        obvious_out: Cats come back on their own.
+        why_not: >
+          He did come back, in the end, and that was never in doubt. The three hours
+          are the story: what everybody was doing while one person went up and down
+          the street, and who was asked what.
+        subs:
+          - 'Part 4: Find the Difference (pairwork)'
+
+      - id: rosario
+        title: The street that was closed for a film
+        premise: >
+          A street in Rosario, Argentina, was closed for a day's filming. Everyone
+          who lived on it had been told; most of them read the letter the evening
+          before, and spent the day working out what to do about the things they had
+          already arranged.
+        setting: Rosario, Argentina
+        people: []
+        probes: [Rosario, Sarmiento, filming, diversion, location]
+        obvious_out: They were told, so they had no excuse.
+        why_not: >
+          Being told the night before is not the same as being able to move a
+          hospital appointment, a delivery or a shift, and the letter named the
+          street without naming the hours.
+        subs:
+          - 'Part 8: Vocabulary in Context'
+          - 'Part 8: Discussion'
+
+      - id: meeting
+        title: Three weeks later, about the car park
+        premise: >
+          The residents meet about the cracked window: who pays for it, and whether
+          the car park should have a rule about ball games at all.
+        setting: the ground-floor room at 14 Alder Street
+        people: [Maya, Tomas, Amina, Dani, Mr Okonkwo, Yuki]
+        probes: [residents' meeting, building fund, fund]
+        obvious_out: The landlord pays for a communal window.
+        why_not: >
+          The half landing is communal, and the lease puts communal glass on the
+          residents' own fund, which has two hundred and ten pounds in it.
+        subs:
+          - 'Part 4: The Meeting About the Car Park'
+          - 'Part 9: Decision Task'
+
+    # Sub-sections that work at the level of the theme. Each names the strands its
+    # examples come from, and M05 checks that each named strand's probe words are
+    # actually in that sub-section's text.
+    theme_subs:
+      'Warm-up: Words for a Busy Afternoon':                                [skip, phone]
+      'Warm-up: Saying What Was Going On':                                  [phone, window, call, cat]
+      'Warm-up: Six People, One Saturday':                                  [skip, reader, viewing, call]
+      'Part 1: Words for a Street That Is Not Working':                     [skip, reader, window, viewing]
+      'Part 1: Pronunciation':                                              [phone, cat, reader]
+      'Part 1: What Kind of Word Is It?':                                   [skip, call, phone, cat]
+      'Part 1: Where Does Each One Happen?':                                [reader, window, cat]
+      'Part 1: Streets and Interruptions — Multiple Choice':                [skip, viewing, window, cat]
+      'Part 1: Vocabulary Fill-in':                                         [reader, cat]
+      'Part 1: Write About an Afternoon That Did Not Go to Plan (short)':   [window, phone]
+      'Part 2: Grammar Focus Box':                                          [reader, window]
+      'Part 2: Controlled Practice':                                        [window, viewing, call, cat]
+      'Part 2: Freer Practice':                                             [reader, skip]
+      'Part 2: Grammar Review':                                             [skip, reader]
+      'Part 4: What Were You Doing?':                                       [phone, call]
+      'Part 4: Mini-Presentation':                                          [viewing, skip]
+      'Part 5: Why Two Things Always Happen at Once':                       [skip, reader, viewing]
+      'Part 5: Vocabulary in Context':                                      [skip, window]
+      'Part 5: Three Streets, Three Saturdays':                             [skip, call]
+      'Part 6: Reflection — The Afternoon I Lost (80–100 words)':           [skip, call]
+      'Part 10: Spiral Review':                                             [reader, window, phone]
+      'Part 10: Can-Do':                                                    [skip, window]
+      'Part 10: Glossary':                                                  [reader, cat, window]
+
+  # ---------------------------------------------------------------- Units 2 to 20
+  # Designed, not yet built. The theme and the strand titles are what lock the
+  # design; the premise / obvious_out / why_not detail is written as each unit is
+  # written, and M06 demands it of any unit marked built.
+
+  2:
+    title: Still Waiting
+    theme: >
+      The things in a neighbourhood that have been dragging on for months and are
+      still not finished -- and the difference between how long something has taken
+      and how long it has been going on.
+    grammar: present perfect continuous -- how long, for, since
+    why_this_theme: >
+      Duration is only interesting when several durations can be set beside each
+      other. One repair that has taken eight months teaches the form once; five
+      things at five different stages teach the contrast with the simple.
+    built: false
+    strands:
+      - {id: scaffold,  title: The scaffolding that has been up since March}
+      - {id: claim,     title: A benefits claim in its fourth month}
+      - {id: consult,   title: The bus route consultation nobody has heard back from}
+      - {id: damp,      title: Damp in flat 1, reported four times}
+      - {id: licence,   title: Amina's licence renewal, sitting somewhere}
+      - {id: helsinki,  title: Finland -- a street that waited eleven years for a crossing}
+      - {id: list,      title: The list on the stair door, and who has been adding to it}
+
+  3:
+    title: Nobody Told Us
+    theme: >
+      Information that arrived after it was any use -- and the order of events that
+      makes a person say "by the time we found out".
+    grammar: past perfect -- by the time, before, after
+    why_this_theme: >
+      The past perfect exists to put one past event behind another. A theme of late
+      information gives a different pair of events every time, instead of one story
+      retold.
+    built: false
+    strands:
+      - {id: rent,      title: The rent rise that had been agreed in June}
+      - {id: road,      title: A road closure announced the morning it started}
+      - {id: school,    title: A school place offered after the deadline}
+      - {id: pharmacy,  title: The chemist that had already shut when they got there}
+      - {id: deposit,   title: A deposit that had gone to the wrong account}
+      - {id: kathmandu, title: Nepal -- a landslide warning that reached the village late}
+      - {id: noticebd,  title: What the noticeboard had said, and who had read it}
+
+  4:
+    title: What This Street Used to Be
+    theme: >
+      Ten years of change on one street -- the market, the rents, the bus, the
+      launderette, who lived where -- told by people who disagree about it.
+    grammar: used to / would for past habit
+    why_this_theme: >
+      Habitual past is a comparison, and a comparison needs more than one thing
+      compared. Six changes give six comparisons; one gives a nostalgia piece.
+    built: false
+    strands:
+      - {id: market,    title: The Thursday market that used to fill the top end}
+      - {id: rents,     title: What the flats used to go for}
+      - {id: bus,       title: The 42 before they changed the route}
+      - {id: laundry,   title: The launderette, and what is there now}
+      - {id: whowhere,  title: Who used to live in flat 3}
+      - {id: tunis,     title: Tunisia -- a quarter that remembers itself differently}
+      - {id: photos,    title: A box of photographs from the residents' fund}
+
+  5:
+    title: The Year the Street Gets Dug Up
+    theme: >
+      What is coming -- roadworks, a new block, a lease ending, an exam, a baby --
+      and the difference between a plan, an arrangement and a prediction.
+    grammar: future forms contrasted + future continuous
+    why_this_theme: >
+      Four future forms need four different kinds of future to be told apart. A
+      single upcoming event can only demonstrate one of them honestly.
+    built: false
+    strands:
+      - {id: works,     title: Eleven weeks of roadworks, starting in April}
+      - {id: block,     title: The block going up where the garages are}
+      - {id: lease,     title: Amina's lease, which ends in October}
+      - {id: exam,      title: Dani's exam in June}
+      - {id: baby,      title: A pram in the hall by August}
+      - {id: perth,     title: Australia -- a suburb planning for a hotter decade}
+      - {id: calendar,  title: The year on one page, on the stair door}
+
+  6:
+    title: If We Had the Money
+    theme: >
+      A community fund of two hundred and ten pounds, five things it could be spent
+      on, and the private what-ifs people admit to while arguing about it.
+    grammar: second conditional
+    why_this_theme: >
+      A hypothetical is a choice, and a choice needs alternatives. Five competing
+      uses of one small sum is the second conditional's natural habitat.
+    built: false
+    strands:
+      - {id: fund,      title: Two hundred and ten pounds, and five claims on it}
+      - {id: bikes,     title: If there were somewhere to put a bike}
+      - {id: lighting,  title: If the car park had a light}
+      - {id: garden,    title: If anybody had time for the beds at the front}
+      - {id: private,   title: What each of them would do with a different life}
+      - {id: medellin,  title: Colombia -- a neighbourhood that was given a budget}
+      - {id: vote,      title: The vote, and the two people who would not take part}
+
+  7:
+    title: The Ones That Got Away
+    theme: >
+      Decisions people look back on -- a flat not taken, a job not applied for, a
+      deposit lost, an argument that need not have happened.
+    grammar: third conditional
+    why_this_theme: >
+      The third conditional is regret, and regret is personal. Six people's regrets
+      are six situations; one person's is a monologue.
+    built: false
+    strands:
+      - {id: flat,      title: The flat Tomas and Maya did not take in 2023}
+      - {id: job,       title: The job Dani saw and did not apply for}
+      - {id: deposit7,  title: A deposit nobody chased in time}
+      - {id: row,       title: An argument at a party, three years ago}
+      - {id: shop7,     title: The second shop Amina nearly took on}
+      - {id: tallinn,   title: Estonia -- a town that voted against a factory}
+      - {id: letter,    title: A letter written and not sent}
+
+  8:
+    title: Somebody's Been Here
+    theme: >
+      Five things in and around a building with no obvious explanation -- a parcel,
+      a noise at night, a smell, a light left on, a bill for somebody else.
+    grammar: modals of deduction -- must / might / may / can't be
+    why_this_theme: >
+      Deduction needs evidence, and evidence needs cases. Five small mysteries give
+      five chains of reasoning; one gives a whodunnit the unit has to resolve.
+    built: false
+    strands:
+      - {id: parcel,    title: A parcel addressed to nobody in the building}
+      - {id: noise,     title: Something at the back, twice, after midnight}
+      - {id: smell,     title: The smell on the second floor}
+      - {id: light,     title: A light on in the empty flat}
+      - {id: bill,      title: A bill for a meter that is not theirs}
+      - {id: manila,    title: The Philippines -- a street that solved its own mystery}
+      - {id: notes,     title: What five people wrote down, and what follows from it}
+
+  9:
+    title: We Should Have Checked
+    theme: >
+      Money and paperwork that went wrong in ways that were avoidable -- a used car,
+      a deposit, a contract, a holiday let, a subscription.
+    grammar: should have / ought to / had better
+    why_this_theme: >
+      Hindsight advice only teaches when the mistakes differ. Five transactions give
+      five different things that ought to have been read.
+    built: false
+    strands:
+      - {id: car,       title: A car bought on a Saturday}
+      - {id: holiday,   title: A holiday let with a photograph eight years old}
+      - {id: contract,  title: A phone contract with a second year in it}
+      - {id: sub,       title: A subscription nobody noticed for fourteen months}
+      - {id: builder,   title: A quotation that was not a quotation}
+      - {id: valpo,     title: Chile -- a city's advice line for exactly this}
+      - {id: checklist, title: The checklist the group wrote afterwards}
+
+  10:
+    title: Starting Something at Forty
+    theme: >
+      Learning, retraining, failing and managing -- a course, a driving test, a
+      language, a small business, a qualification taken late.
+    grammar: be able to / manage to
+    why_this_theme: >
+      Ability over time is a story of attempts. Five people at five stages make the
+      distinction between could, was able to and managed to visible.
+    built: false
+    strands:
+      - {id: course,    title: Amina's bookkeeping course, two evenings a week}
+      - {id: driving,   title: A driving test at the fourth attempt}
+      - {id: language,  title: Mr Okonkwo's Portuguese}
+      - {id: business,  title: A business that took eleven months to break even}
+      - {id: access,    title: An access course and a childcare problem}
+      - {id: dakar,     title: Senegal -- a scheme for people starting late}
+      - {id: howto,     title: A how-to sheet written by somebody who did it}
+
+  11:
+    title: Where Everything Comes From
+    theme: >
+      The supply chains behind one ordinary street -- the shop's stock, the bus, the
+      recycling, the water, a parcel, the bread.
+    grammar: passive extended -- perfect, future, modal, get + past participle
+    why_this_theme: >
+      The passive is for when the doer is unknown or beside the point, which is the
+      native condition of a supply chain. Six chains give six.
+    built: false
+    strands:
+      - {id: stock,     title: How the shop's stock is ordered and when it is delivered}
+      - {id: recycle,   title: Where the recycling is taken}
+      - {id: water,     title: What has been done to the water before it arrives}
+      - {id: parcel11,  title: A parcel tracked backwards}
+      - {id: bread,     title: Bread baked where}
+      - {id: dhaka,     title: Bangladesh -- the other end of one of these chains}
+      - {id: label,     title: Reading a label properly}
+
+  12:
+    title: A Week Without It
+    theme: >
+      Giving things up and taking things on -- a phone, meat, the car, a job, a
+      habit -- and what people say they will and will not do.
+    grammar: gerunds and infinitives -- -ing vs to, not to do
+    why_this_theme: >
+      Verb complementation is learnt by meeting many verbs, not one. Five
+      experiments give the unit five sets of verbs to need.
+    built: false
+    strands:
+      - {id: phone12,   title: Seven days without a smartphone}
+      - {id: meat,      title: A month of not cooking meat}
+      - {id: car12,     title: Leaving the car where it is}
+      - {id: quit,      title: Handing in a notice}
+      - {id: screen,    title: An hour before bed, agreed and broken}
+      - {id: aarhus,    title: Denmark -- a town that tried it together}
+      - {id: diary,     title: What the diaries said at the end of the week}
+
+  13:
+    title: Too Many, Too Few
+    theme: >
+      Pressure on shared things -- the park, the surgery, the parking, the bins, the
+      school -- and what is too small, too late or too full for what.
+    grammar: too ... to / so ... that
+    why_this_theme: >
+      Degree is comparative by nature. Five pressures give five measurements;
+      one gives a complaint.
+    built: false
+    strands:
+      - {id: park,      title: One park, four uses, at the same hour}
+      - {id: surgery,   title: Eleven days for an appointment}
+      - {id: parking,   title: Nine spaces, nineteen cars}
+      - {id: bins,      title: Bins emptied fortnightly}
+      - {id: class,     title: A class of thirty-four}
+      - {id: bangkok,   title: Thailand -- a district that measured it before arguing}
+      - {id: counts,    title: Counting something for a week before saying it}
+
+  14:
+    title: Nothing Like the Picture
+    theme: >
+      The gap between what was promised and what arrived -- a flat, a sofa, a
+      holiday, a job description, a phone plan.
+    grammar: comparison refined -- not as ... as, intensified, -er and -er
+    why_this_theme: >
+      Comparison needs two things, and a theme of mismatches supplies a fresh pair
+      every time without the unit having to invent one.
+    built: false
+    strands:
+      - {id: flat14,    title: Eight photographs and one viewing}
+      - {id: sofa,      title: A sofa in a colour with a name}
+      - {id: holiday14, title: Twelve minutes from the sea}
+      - {id: jobdesc,   title: What the advertisement said the job was}
+      - {id: plan14,    title: Unlimited, with conditions}
+      - {id: kingston,  title: Jamaica -- an advertising rule and what it changed}
+      - {id: review,    title: Writing the review that would have helped you}
+
+  15:
+    title: The Names on the Street
+    theme: >
+      The people behind the places -- a bridge, a bench, a school, a mural, a shop
+      sign, a ward -- and the extra information a sentence can carry without stopping.
+    grammar: non-defining relatives + where / when / whose
+    why_this_theme: >
+      A non-defining clause adds a fact about something already identified, so the
+      unit needs many identified things. Six names give six.
+    built: false
+    strands:
+      - {id: bridge,    title: The woman whose name is on the bridge}
+      - {id: bench,     title: A bench with a plate on it}
+      - {id: school15,  title: Who the school was named after, and the argument about it}
+      - {id: mural,     title: A mural nobody has repainted}
+      - {id: sign,      title: The sign Amina kept}
+      - {id: bologna,   title: Italy -- a city that renamed forty streets}
+      - {id: plaque,    title: Writing a plaque in thirty words}
+
+  16:
+    title: What the Group Chat Said
+    theme: >
+      How news travels wrong -- a building rumour, a school message, a work email,
+      a neighbourhood app, a thing somebody's cousin said.
+    grammar: reported speech in full -- backshift, reported questions and commands
+    why_this_theme: >
+      Reporting needs an original and a report, and a chain of retellings is the
+      only way to show backshift doing real damage rather than grammar practice.
+    built: false
+    strands:
+      - {id: rumour,    title: What was said about the building being sold}
+      - {id: schoolmsg, title: A message home, forwarded four times}
+      - {id: email16,   title: An email read as an instruction}
+      - {id: app,       title: The neighbourhood app at eleven at night}
+      - {id: cousin,    title: Somebody's cousin, who works for the council}
+      - {id: kigali,    title: Rwanda -- a campaign about checking before sharing}
+      - {id: source16,  title: Going back to the person who actually said it}
+
+  17:
+    title: Asking the Council
+    theme: >
+      Getting an answer out of an institution -- a licence, a repair, a permit, a
+      fine, a form that asks the wrong question.
+    grammar: indirect questions and question tags
+    why_this_theme: >
+      Indirectness is a register, and a register is learnt across several
+      encounters with different people on the other end of the line.
+    built: false
+    strands:
+      - {id: licence17, title: Chasing a licence that is with somebody}
+      - {id: repair17,  title: A repair logged three times under three numbers}
+      - {id: permit,    title: A skip permit, applied for too late}
+      - {id: fine,      title: A fine for a bus lane, and what the photograph shows}
+      - {id: form,      title: A form with no box for the situation}
+      - {id: izmir,     title: Turkey -- a single-number service and what it fixed}
+      - {id: record17,  title: Keeping a record that makes the next call shorter}
+
+  18:
+    title: Fixing It Ourselves
+    theme: >
+      What neighbours do without being asked -- a shared tool, a repair afternoon,
+      a garden, a rota, a list of who can do what.
+    grammar: reflexives, each other, -thing / -body, others
+    why_this_theme: >
+      Reciprocity is the point of the theme and the point of the grammar at once,
+      and five arrangements show it without the unit saying the word community.
+    built: false
+    strands:
+      - {id: tools,     title: A drill that belongs to everybody}
+      - {id: repaircafe, title: Saturday afternoon, and what people brought}
+      - {id: garden18,  title: Four beds and a watering rota}
+      - {id: rota,      title: The stair rota, and the month it broke down}
+      - {id: skills,    title: A list of who can do what}
+      - {id: montev,    title: Uruguay -- a block that built its own workshop}
+      - {id: thanks,    title: Saying it properly afterwards}
+
+  19:
+    title: Somebody Ought to Say Something
+    theme: >
+      The things everyone notices and nobody raises -- a loose step, a dumped
+      mattress, an overcharge, a smell from a drain, a door that does not lock.
+    grammar: it + be + adj + to-infinitive; there + modal + be
+    why_this_theme: >
+      Impersonal structures are how English says a thing is wrong without naming
+      who should fix it, which is exactly the social problem the theme is about.
+    built: false
+    strands:
+      - {id: step,      title: The third step from the bottom}
+      - {id: mattress,  title: A mattress by the bins since Tuesday week}
+      - {id: charge,    title: Four pounds a month that nobody queried}
+      - {id: drain,     title: The drain at the front}
+      - {id: lock,      title: A street door that closes but does not lock}
+      - {id: colombo,   title: Sri Lanka -- a reporting line that took anonymous calls}
+      - {id: who19,     title: Deciding who says it, and in what words}
+
+  20:
+    title: Putting a Case
+    theme: >
+      Speaking at a meeting, writing to a paper, standing for something, and saying
+      no in a way that keeps the room -- four kinds of being heard.
+    grammar: adverbs of attitude and discourse linkers
+    why_this_theme: >
+      Stance is a thing you do to an audience, and four audiences need four
+      registers. A single speech would teach one.
+    built: false
+    strands:
+      - {id: meeting20, title: Three minutes at a public meeting}
+      - {id: paper,     title: Two hundred words to a local paper}
+      - {id: stand,     title: Standing for the residents' committee}
+      - {id: no20,      title: Saying no to something reasonable}
+      - {id: panel,     title: Answering a question you were not expecting}
+      - {id: zagreb,    title: Croatia -- a consultation that changed its mind}
+      - {id: close20,   title: The last word, and who gets it}
+
+# ------------------------------------------------------------------- calibration
+# A law that would have passed the thing it was written to reject is not a law.
+# These are the superseded Unit 1's measurements, taken from the file as it was
+# committed at 8949959 and kept at spec/fixtures/b11-u01-v1.md. M10 asserts that
+# the law above rejects it.
+calibration:
+  fixture: spec/fixtures/b11-u01-v1.md
+  commit: '8949959'
+  measured:
+    distinct_strands: 2          # the power cut, and Buenos Aires
+    largest_strand_subs: 37      # of 42 -- 88% of the unit
+    distinct_settings: 2
+  rejected_by: [M02, M03, M04]
+  note: >
+    Two of those 37 sub-sections were about the same twenty minutes on the same
+    staircase, and a third asked the learner to write about it. The unit was green
+    on 251 checks when it was rejected.

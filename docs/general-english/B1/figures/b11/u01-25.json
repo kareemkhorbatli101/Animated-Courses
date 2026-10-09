@@ -11,108 +11,108 @@
  ],
  "texts": [
   {
-   "text": "a hospital",
+   "text": "Alder Street",
    "size": 32,
    "bbox": [
-    190.9,
+    170.0,
     217.2,
-    369.1,
+    390.0,
     245.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "no darkness at all is",
+   "text": "one lane, and a skip",
    "size": 26,
    "bbox": [
-    149.8,
+    148.7,
     269.1,
-    410.2,
+    411.3,
     292.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "permitted",
+   "text": "stopped the delivery",
    "size": 26,
    "bbox": [
-    215.9,
+    145.6,
     301.1,
-    344.1,
+    414.4,
     324.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "an office block",
+   "text": "Pell Road",
    "size": 32,
    "bbox": [
-    589.4,
+    635.3,
     217.2,
-    850.6,
+    804.7,
     245.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "half of it worked, which",
+   "text": "the van used the kerb and",
    "size": 26,
    "bbox": [
-    568.6,
+    548.4,
     269.1,
-    871.4,
+    891.6,
     292.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "was worse",
+   "text": "lost nine minutes",
    "size": 26,
    "bbox": [
-    651.8,
+    607.6,
     301.1,
-    788.2,
+    832.4,
     324.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a block of flats",
+   "text": "Carrow Street",
    "size": 32,
    "bbox": [
-    1026.7,
+    1033.9,
     217.2,
-    1293.3,
+    1286.1,
     245.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "nobody had decided",
+   "text": "a list of numbers that is",
    "size": 26,
    "bbox": [
-    1027.4,
+    1005.5,
     269.1,
-    1292.6,
+    1314.5,
     292.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "anything",
+   "text": "three years old",
    "size": 26,
    "bbox": [
-    1102.7,
+    1061.8,
     301.1,
-    1217.3,
+    1258.2,
     324.8
    ],
    "fill": "#1F3864",
@@ -123,10 +123,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The same twenty minutes in three buildings: a hospital, where a generator starts and no darkness at all is permitted; an office block, where half the building kept working, which was worse than either; and a block of flats, where nothing was protected because nobody had ever decided that anything should be.",
+ "alt": "The same Saturday afternoon on three streets: a street with one lane, where a skip stopped the delivery; a street rebuilt with a loading bay, where the van used the kerb and lost nine minutes; and a street with a list of numbers three years old, which lost the afternoon knowing why.",
  "placed_in": [
   6.260416666666667,
   1.71875
  ],
- "sha256": "c56659042baa5c7191b5a655c17664d4dc2e2f1c71c888e24d5654f866b1835b"
+ "sha256": "713415fcc60c18a7f48158b4bd93434d04853edbb7031e08ba76503a44d648af"
 }

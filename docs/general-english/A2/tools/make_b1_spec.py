@@ -179,8 +179,18 @@ def main():
         assert old in out, f'anchor missing for: {what}\n{old[:90]!r}'
         out = out.replace(old, new, 1)
     # 41 figures from Unit 1, so the sparse/dense split goes
-    out = out.replace('  per_unit: 14\n  source_per_unit: 4\n',
-                      '  per_unit: 41\n  source_per_unit: null\n')
+    out = out.replace(
+        '  per_unit: 14\n  source_per_unit: 4\n',
+        '  per_unit: 41\n  source_per_unit: null\n'
+        # The depiction law, G34 and G35. Set at B1 and not at A2, because A2's
+        # 820 figures were drawn before it existed: measured when the law was
+        # written, 332 of A2's 1,354 depictive icon/label pairs (25%) would fail
+        # G34 and would have to be re-chosen by hand. 00-MASTER-PLAN.md 4c
+        # carries that decision and what reversing it would cost. The allow list
+        # is for pairs a human has judged depictive that the map cannot see; it
+        # is empty, and every entry added to it needs a reason beside it.
+        '  depictive_icons: true\n'
+        '  icon_allow: []\n')
     m = re.search(r'^  slots:\n(?:    .*\n|    #.*\n)*?(?=^  # -{10,} the 41 slots)',
                   out, re.M)
     assert m, 'sparse slots block not found'

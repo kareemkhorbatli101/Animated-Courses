@@ -35,24 +35,24 @@
    "on": "#1F3864"
   },
   {
-   "text": "The Night the Power Went",
+   "text": "The Afternoon Everything",
    "size": 140,
    "bbox": [
     190,
     438.6,
-    2271.7,
+    2226.1,
     560.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "Out",
+   "text": "Happened at Once",
    "size": 140,
    "bbox": [
     190,
     596.6,
-    475.6,
+    1647.4,
     718.4
    ],
    "fill": "#FFFFFF",
@@ -155,12 +155,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I can tell the story of twenty minutes in 90\u2013110 words.",
+   "text": "I can tell the story of an afternoon in 90\u2013110 words.",
    "size": 56,
    "bbox": [
     310,
     2665.4,
-    2039.5,
+    1953.4,
     2714.4
    ],
    "fill": "#1F3864",
@@ -195,10 +195,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The opening page of Unit 1, The Night the Power Went Out: the grammar point is the past continuous against the past simple with while and when, and three things the learner will be able to do by the end of the unit.",
+ "alt": "The opening page of Unit 1, The Afternoon Everything Happened at Once: the grammar point is the past continuous against the past simple with while and when, and three things the learner will be able to do by the end of the unit.",
  "placed_in": [
   8.268333333333333,
   11.693055555555556
  ],
- "sha256": "94c2d2dd3a54a74a21d93d5fd72b2aeeabc42a105d4e564201518821d9a05c5a"
+ "sha256": "17e7f6c00c11f24d4f229c8d5f14fe1d7e364434d7dcde15a29059e3cb7e6105"
 }

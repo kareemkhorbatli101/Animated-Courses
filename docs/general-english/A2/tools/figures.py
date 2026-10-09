@@ -272,7 +272,32 @@ def icon(f: Fig, name: str, cx: float, cy: float, s: float = 1.0):
     def L(x0, y0, x1, y1, stroke=P['ink'], sw=3):
         f.line(cx + x0 * s, cy + y0 * s, cx + x1 * s, cy + y1 * s, stroke=stroke, sw=sw)
 
-    if name == 'person':
+    # Two glyphs drawn for B1 Unit 1, because the depiction law (G34) will not
+    # accept a picture that does not show what its label says, and no existing
+    # glyph shows a van or an animal.
+    if name == 'car_park':
+        R(-34, -38, 68, 68, fill=P['blue'], r=10)              # the sign
+        R(-13, -26, 12, 44, fill=P['bg'], r=2)                 # stem of the P
+        R(-13, -26, 30, 24, fill=P['bg'], r=10)                # bowl of the P
+        R(-5, -20, 12, 12, fill=P['blue'], r=5)                # counter
+        L(0, 30, 0, 48, sw=5)                                  # post
+    elif name == 'van':
+        R(-46, -20, 58, 40, fill=P['card'], r=6)               # box body
+        R(12, -10, 32, 30, fill=P['blue'], r=6)                # cab
+        R(17, -5, 19, 13, fill=P['bg'], r=3)                   # windscreen
+        C(-26, 22, 9, fill=P['ink']); C(28, 22, 9, fill=P['ink'])
+    elif name == 'cat':
+        f.path(f'M {cx-24*s:.1f} {cy-14*s:.1f} L {cx-20*s:.1f} {cy-36*s:.1f} '
+               f'L {cx-6*s:.1f} {cy-22*s:.1f} Z', fill=P['blue'], stroke=P['ink'], sw=3)
+        f.path(f'M {cx+10*s:.1f} {cy-22*s:.1f} L {cx+24*s:.1f} {cy-36*s:.1f} '
+               f'L {cx+28*s:.1f} {cy-14*s:.1f} Z', fill=P['blue'], stroke=P['ink'], sw=3)
+        C(2, -12, 20)                                          # head
+        C(-6, -15, 3, fill=P['ink'], sw=0); C(10, -15, 3, fill=P['ink'], sw=0)
+        R(-18, 4, 42, 26, r=12)                                # body
+        f.path(f'M {cx+24*s:.1f} {cy+24*s:.1f} C {cx+44*s:.1f} {cy+22*s:.1f} '
+               f'{cx+42*s:.1f} {cy-2*s:.1f} {cx+30*s:.1f} {cy-4*s:.1f}',
+               fill='none', stroke=P['ink'], sw=5)             # tail
+    elif name == 'person':
         C(0, -34, 17); R(-20, -14, 40, 46, r=14)
     elif name == 'nurse':
         C(0, -34, 17, fill=P['blue']); R(-20, -14, 40, 46, fill=P['bg'], r=14)

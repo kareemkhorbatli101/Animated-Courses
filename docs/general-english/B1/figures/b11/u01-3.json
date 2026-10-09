@@ -11,48 +11,48 @@
  ],
  "texts": [
   {
-   "text": "candle",
+   "text": "connection",
    "size": 30,
    "bbox": [
-    155.8,
+    118.6,
     258.6,
-    267.2,
+    304.4,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "freezer",
+   "text": "landing",
    "size": 30,
    "bbox": [
-    489.9,
+    487.3,
     258.6,
-    611.1,
+    613.7,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "switch",
+   "text": "battery",
    "size": 30,
    "bbox": [
-    834.8,
+    826.9,
     258.6,
-    944.2,
+    952.1,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "power cut",
+   "text": "car park",
    "size": 30,
    "bbox": [
-    1144.1,
+    1158.6,
     258.6,
-    1312.9,
+    1298.4,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the word bank, in the order the task prints them, each with a picture: candle, freezer, switch, power cut.",
+ "alt": "The four words of the word bank, in the order the task prints them, each with a picture: connection, landing, battery, car park.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "6e7b1541faa785495f435fa1aa68fd9415d162018ab38a48d841c7cf7b35c2fb"
+ "sha256": "253a8d36e607fba6f68b5ce9cd6831a1fd74d496af6d39d101be16820a3a79ad"
 }

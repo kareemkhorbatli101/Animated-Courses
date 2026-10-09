@@ -11,12 +11,12 @@
  ],
  "texts": [
   {
-   "text": "I was reading when the lights went out",
+   "text": "I was crossing town when the battery went flat",
    "size": 32,
    "bbox": [
     142,
     53.9,
-    848.7,
+    994.3,
     82.1
    ],
    "fill": "#1F3864",
@@ -35,12 +35,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "She was serving a customer when it happened",
+   "text": "She was serving a queue when the reader stopped",
    "size": 32,
    "bbox": [
     142,
     151.4,
-    984.6,
+    1059.2,
     179.6
    ],
    "fill": "#1F3864",
@@ -59,12 +59,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "We were waiting on the stairs for twenty minutes",
+   "text": "The cat went out while the door was propped open",
    "size": 32,
    "bbox": [
     142,
     248.9,
-    1039.2,
+    1062.9,
     277.1
    ],
    "fill": "#1F3864",
@@ -83,12 +83,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "He was carrying two bags when he stopped",
+   "text": "We were standing on the steps for twenty minutes",
    "size": 32,
    "bbox": [
     142,
     346.4,
-    929.7,
+    1059.7,
     374.6
    ],
    "fill": "#1F3864",
@@ -111,10 +111,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Four lines from the drill with the part that carries the beat ringed in each: reading, serving, waiting, carrying. The auxiliary is never ringed, because it never carries the beat.",
+ "alt": "Four lines from the drill with the part that carries the beat ringed in each: crossing, serving, propped, standing. The auxiliary is never ringed, because it never carries the beat.",
  "placed_in": [
   6.260416666666667,
   1.84375
  ],
- "sha256": "60c4bea782c52d9a1652582c24b4ea9271747b80a51ecf0ec6885a38e40e27fe"
+ "sha256": "cc587289067d28adbefbd4a9f75e96699baa2216670a7004e1019c34fd3cf22a"
 }

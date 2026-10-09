@@ -1,4 +1,4 @@
-**Unit 1: The Night the Power Went Out — Answer Key**
+**Unit 1: The Afternoon Everything Happened at Once — Answer Key**
 
 *English for Daily Life · Teacher’s section. Open tasks carry a sample answer, not the only correct one.*
 
@@ -6,179 +6,172 @@
 
 **Warm Up**
 
-**Warm-up: Words for a Dark Evening**
+**Warm-up: Words for a Busy Afternoon**
 
-1. b · 2. e · 3. c · 4. a · 5. d
-Not needed: **f)** *the wire that carries electricity into a building*
+1. b · 2. f · 3. e · 4. a · 5. c
+Not needed: **d)** *the small room where a shop keeps what it has not sold*
 
-**Warm-up: Talking About That Evening**
+**Warm-up: Saying What Was Going On**
 
-1. power cut · 2. switch · 3. candle · 4. freezer
+1. battery · 2. connection · 3. car park · 4. landing
 
-**Warm-up: Six People, One Tuesday Evening**
+**Warm-up: Six People, One Saturday**
 
-1. **A)** Carrying shopping upstairs · 2. **B)** He was sitting in the dark already
+1. **A)** Serving a queue in the bookshop · 2. **B)** A skip was blocking the way for the van
 
-> Item 2 is the one worth going over. Three of the four options are things he might have been doing; only one explains the *delay*. He noticed nothing for several minutes because he was already sitting in an unlit room, so nothing about his own evening changed. Learners who pick C have read “out” as “out of the building” rather than “out” of the lights.
+> Item 2 is the one worth going over, because three of the four options are plausible reasons for a delivery to fail and only one is in the text. The paragraph gives six people and six separate afternoons, and learners who read it as one story will hunt for a connection between them. There is none, and that is the shape of the whole unit: these people did not know about each other until the evening.
 
 ---
 
 **Part 1 · Vocabulary and Terminology**
 
-**Part 1: Words for Electricity and Buildings**
+**Part 1: Words for a Street That Is Not Working**
 
-0. Electricity → the power that arrives at a building and makes everything in it work *(given)*
+0. Pavement → the paved path at the side of a road, for people on foot *(given)*
 
-1. b · 2. e · 3. d · 4. g · 5. c · 6. f · 7. a
-Not needed: **h)** *the small room where a generator is kept*
+1. e · 2. g · 3. f · 4. b · 5. c · 6. a · 7. d
+Not needed: **h)** *the paper slip a shop writes out when a machine has failed*
 
-> The distractor is the one that matters. *Generator* arrives properly in the Part 5 gloss and in the Part 8 story, so a learner who has read ahead will recognise it; a learner who has not will reject **h)** because no word in Column A is a room. Either route is a success.
+> The distractor is doing real work here. The paper slip turns up in the Part 3 listening, where Maya has one in the drawer and it is useless to her, so a learner who has read ahead will recognise it and still have to reject it, because no word in Column A is a piece of paper.
 
 **Part 1: Pronunciation** (Track 1.1)
 
 This is the first drill of the level, and it is about hearing, not producing.
 
-The past continuous has three parts — *was*, the *-ing*, and whatever the sentence is about — and English speakers put the beat on the third. *I was READing when the LIGHTS went OUT* carries three stresses and not one of them is on *was*. Reduced, *was* is /wəz/ and *were* is /wə/, which at speed is barely a syllable.
+The past continuous has three parts — *was*, the *-ing*, and whatever the sentence is about — and English speakers put the beat on the third. *I was CROSSing TOWN when the BATTery went FLAT* carries four stresses and not one of them is on *was*. Reduced, *was* is /wəz/ and *were* is /wə/, which at speed is barely a syllable.
 
-The test to give the class: read *I was reading* aloud at normal speed, then ask how many beats they heard. Most will say two. There are two.
+The test to give the class: read *I was crossing* aloud at normal speed, then ask how many beats they heard. Most will say two. There are two.
 
 The failure to listen for: learners who have been taught to find the auxiliary will hunt for *was* in a recording, miss it, and conclude the sentence is past simple. Teach them to listen for the *-ing* instead. It is at the end of a stressed word and it is impossible to miss, and it is sufficient: if there is an *-ing*, the sentence is continuous.
 
 **Part 1: What Kind of Word Is It?**
 
-0. candle → something you can touch *(given)*
+0. skip → something you can touch *(given)*
 
 | **The word** | **Can you touch it?** |
 |---|---|
-| bulb | **yes** |
-| darkness | **no** |
-| electricity | **no** |
-| freezer | **yes** |
-| meter | **yes** |
-| silence | **no** |
-| supply | **no** |
-| switch | **yes** |
+| battery | **yes** |
+| connection | **no** |
+| delivery | **no** |
+| pavement | **yes** |
+| queue | **yes** |
+| shift | **no** |
+| stairwell | **yes** |
+| capacity | **no** |
 
-> *Supply* is the interesting one and the argument is the point of the task. The *cable* carrying the supply is a thing you can touch; the supply itself is not, any more than *traffic* is. Accept a learner who argues the other way if they can say why, and then ask them whether they could point at it.
+> *Queue* and *delivery* are the two that start an argument, and the argument is the point. A queue is made of people you could touch, but the queue itself is an arrangement of them; a delivery is a van and some boxes, but the word names the event, not the goods. Accept either answer for those two if the learner can say which meaning they chose.
 
-**Part 1: Where Is Each One?**
+**Part 1: Where Does Each One Happen?**
 
-1. c · 2. d · 3. e · 4. a · 5. b
-Not needed: **f)** *in a locked cupboard in the basement, behind the bikes*
+1. c · 2. e · 3. a · 4. b · 5. d
+Not needed: **f)** *in the depot on the far side of the ring road*
 
-> The unused option is not arbitrary. The locked basement cupboard is real, it appears in the Part 1 fill-in and again in Part 9, and nobody in the building has a key for it — which is why nothing useful is in it.
+> Five things in five places, and only two of them are in the same building. That is worth pointing out before Part 2 begins, because the grammar of this unit only works when more than one thing is going on at once.
 
-**Part 1: Electricity and Buildings — Multiple Choice**
+**Part 1: Streets and Interruptions — Multiple Choice**
 
-1. **A)** meter · 2. **C)** basement · 3. **D)** power cut
+1. **D)** depot · 2. **C)** shift · 3. **A)** agent
 
 **Part 1: Vocabulary Fill-in**
 
-1. meter · 2. bulb · 3. basement · 4. supply
+1. card reader · 2. queue · 3. cat · 4. stairwell
 
-> Item 2 rewards reading the whole sentence. *Bulb* is the only word that somebody would change twice, and the sentence is funny only if the learner notices that changing it was useless.
+**Part 1: Write About an Afternoon That Did Not Go to Plan (short)**
 
-**Part 1: Write About an Evening Without Electricity (short)**
+Marking points: ☐ more than one thing goes wrong ☐ each one has a *what I was doing* ☐ one of them named as the costliest ☐ 60–80 words.
 
-Open. Sixty to eighty words, with at least one past continuous. The unit prints a model; this is a second one.
-
-> Sample (74 words): *The internet went off for most of a Sunday last year. I was in the middle of a long form that I had been putting off for a month, and of course it had not saved anything. I went for a walk instead, which I had also been putting off for a month. When it came back at six I filled the form in twenty minutes. I had spent four weeks dreading twenty minutes.*
-
+> Sample (68 words): *I was repainting the hall on Saturday when the shop rang to say my order was ready, and it closes at two. While I was out collecting it, the man came to read the meter and found nobody in. He left a card. The paint dried in the tray. Collecting the order took forty minutes and cost me the whole afternoon, because everything else was waiting on it.*
 ---
 
 **Part 2 · Grammar — Past Continuous vs Past Simple**
 
 **Part 2: Notice**
 
-The difference is finished against unfinished, and it is worth saying out loud that nothing else has changed: same subject, same verb, same time.
+Not a task. Two sentences, one difference, and the difference is the unit.
 
-**closed** — the shop was shut before the darkness arrived. Two events in a row.
-**was closing** — she was in the middle of shutting it. Two events overlapping, with the second interrupting the first.
-
-The teaching point to land: the past continuous is not a politer or a longer past simple. It does one specific job, which is to put an action *in progress* so that something else can land on top of it. Everything the unit does afterwards depends on learners having that one idea.
+> The pair is deliberately about a vehicle rather than a person, because a van coming down a street is visibly an action in progress and learners do not have to imagine it. *The lorry left the skip, and then the van arrived* gives two events in a row and the driver has a choice. *The van was arriving when the lorry left the skip* gives one event inside another and the driver has none. Ask which version the driver would use.
 
 **Part 2: Grammar Focus Box**
 
-Nothing to mark. Two things to check that the class has, because the rest of the unit assumes both.
+Reference. The five rows are the whole of the unit's grammar, and the examples are taken from three different afternoons on purpose.
 
-First, *while* and *when* are not interchangeable in practice even though both sentences mean the same thing. *When* fronts the short finished action; *while* fronts the long one. A learner who writes *while the lights went out* has not made a grammar mistake exactly, but they have put the interruption in the background slot, and the sentence stops meaning what they wanted.
-
-Second, the state verbs. *Know*, *understand*, *believe*, *own*, *need*, *want*, *hear*, *see*, *like*, *hate* do not take the continuous however long the state lasted, and the Grammar Review tests exactly this.
+> The **Remember** box is the one learners come back to. State verbs do not take the continuous however long the state lasted, and *I was knowing* is the error that survives longest because it is logical. The **Watch out!** box carries the other two: the interrupting event is past simple, and *was/were* must agree.
 
 **Part 2: Controlled Practice**
 
-0. was reading / went *(given)*
+0. Dani **was showing** / the agent **sent** *(given)*
 
-1. was coming / went
-2. was serving / stopped
-3. was watching / turned
-4. was sitting / did not notice
+1. were playing · cracked
+2. was speaking · dropped
+3. went · was watching
+4. was looking · did not hear
 
-> Item 4 has two past actions and no interruption: he was sitting, and he did not notice. *Was not noticing* is wrong because *notice* here is the moment of noticing, not a stretch of it.
+> Item 3 is the one that catches people, because the long action comes second. *The cat went out while nobody was watching the propped door* has the short event first and the background after it, which is the order English allows but learners rarely produce. If a group gets it wrong, write it on the board the other way round and ask whether the meaning changed.
 
 **Part 2: Interrupted or Finished?**
 
-0. I was walking home when it started to rain. — **interrupted** *(given)*
+0. Maya was serving a queue when the card reader stopped. — **interrupted** *(given)*
 
 | **The sentence** | **Interrupted or finished?** |
 |---|---|
-| She closed the shop and went upstairs. | **finished** |
-| They were eating when the phone rang. | **interrupted** |
-| He put the bags down on the landing. | **finished** |
-| We were waiting for the engineer for an hour. | **interrupted** |
+| She wrote the amount on a slip and gave it to him. | **finished** |
+| They were counting the stock when the bank rang back. | **interrupted** |
+| He paid in cash and went out of the bookshop. | **finished** |
+| We were waiting at the till for twenty minutes. | **interrupted** |
 
-> *We were waiting for the engineer for an hour* is the one learners argue about, and they are right to. Nothing interrupts it. It is *interrupted* because the waiting is presented as a stretch of time rather than a completed event, and that is the same job the continuous does everywhere else. If a learner answers *finished*, ask them what the sentence would be if the engineer had arrived.
+> *We were waiting at the till for twenty minutes* is the one learners argue about, and they are right to. Nothing interrupts it. It is *interrupted* because the waiting is presented as a stretch of time rather than a completed event, and that is the same job the continuous does everywhere else. If a learner answers *finished*, ask them what the sentence would be if somebody had finally served them.
 
 **Part 2: Correct the Sentence**
 
-1. While Maya was reading, the lights **went** out. *(the interrupting action is past simple)*
-2. I **knew** the answer before he had finished the question. *(*know* is a state verb)*
-3. Tomas was carrying the bags when he **put** them down. *(the second action interrupts the first)*
-4. While we **were** waiting on the stairs, nobody said anything useful. *(the continuous needs* was *or* were*)*
+1. While Yuki was speaking, the connection **dropped**. *(the interrupting action is past simple)*
+2. I **knew** the answer before anybody asked me the question. *(*know* is a state verb)*
+3. Yuki was joining the call again when she **lost** it a second time. *(the second action interrupts the first)*
+4. While the others **were** talking, nobody noticed that she left. *(the continuous needs* was *or* were*)*
 
 **Part 2: Freer Practice**
 
-Open. One sentence with *when* and one with *while*, both about the same evening.
+Open. One sentence with *when* and one with *while*, about any of the afternoon's situations or one of the learner's own.
 
-> Sample: *I was washing up when somebody knocked on the door, and I let them stand there for a moment because my hands were wet. While I was drying them, they knocked again.*
+> Sample: *I was carrying the shopping in when the delivery van pulled up behind me and blocked the door. While I was moving the bags out of the way, the driver went to the wrong flat.*
 
 **Part 2: Grammar Review**
 
-1. **B)** Amina closed the shop, and then the lights went out. · 2. **C)** I was understanding the problem.
+1. **B)** Maya served the queue, and then the reader stopped. · 2. **C)** I was understanding the problem.
 
-> → Harvest: both forms come back in Part 3, where they have to be heard, and in Part 5, where the past continuous carries the whole of the second paragraph.
+> → Harvest: both forms come back in Part 3, where they have to be heard rather than read, and in Part 5, where the past continuous carries most of the third paragraph.
 
 ---
 
 **Part 3 · Listening**
 
-**Part 3: Tomas Tells It From the Stairs** (Track 1.2)
+**Part 3: Tomas and the Forty-Two** (Track 1.2)
 
 0. True *(given)*
 
-1. **False** — he says he was about halfway up the *second* flight.
-2. **True** — “the hum of the lift as well, which is the part I actually noticed”.
-3. **Not Given** — he explains why he was careful and says nothing about an accident. Learners who answer False have reasoned, correctly, that he probably did not have one; the point of Not Given is that the text does not say.
+1. **False** — the battery sat at nine per cent all morning, and he says he decided it would hold.
+2. **True** — “A woman two seats forward lent me hers straight away.”
+3. **Not Given** — he says the shift was covered twice over, and nothing about whether he arrived late. Learners who answer False have reasoned that the lateness did not matter, which is a different claim.
 
-**Part 3: Amina Keeps the Shop Open** (Track 1.3)
+> The useful discussion is the one the script sets up and does not resolve: he had a phone in his hand within a minute and it did not help him, because the number he needed lived in the dead one. That is a modern problem rather than a story problem, and most classes will have a version of it.
 
-0. She was serving a customer. *(given)*
+**Part 3: The Queue at Hadley Books** (Track 1.3)
 
-1. The till would not open and she could not weigh anything.
-2. Nineteen years.
-3. She did not open it once, because a full freezer stays cold for about a day if it is left shut.
+0. She was serving the man in front of the queue. *(given)*
 
-> Item 3 wants both halves. A learner who says only “she did not open it” has heard the action and missed the reason, and the reason is the only part worth remembering.
+1. Two of them.
+2. Because the slip asks for the long number off the front of the card, and the customer's card does not print one.
+3. She took their names and telephone numbers and will ring them the next day.
+
+> Item 2 wants the mechanism and not the outcome. A learner who answers “because it did not work” has heard that the slip failed and missed why, and the why is the only part that transfers: a backup designed for the thing it is replacing stops being a backup when the thing changes.
 
 **Part 3: Four People, Four Versions** (Track 1.4)
 
-0. Maya → thought at first that one lamp had failed *(given)*
+0. Dani → went out through the car park without looking back at the building *(given)*
 
-1. c · 2. a · 3. b
-Not needed: **d)** *went downstairs to ask the shopkeeper what had happened*
+1. b · 2. a · 3. d
+Not needed: **c)** *saw which of the children threw the ball, and said so at once*
 
-> All four speakers use the past continuous for their own evening and the past simple for the moment it stopped, which is the pattern the unit has been building towards. It is worth playing Mr Okonkwo’s account twice: the street lamps staying on for a few seconds is the only detail in the unit that no other account confirms, and the discussion in Part 8 depends on learners being comfortable with that.
-
+> Four people were in the same car park within the same hour and not one of them saw the window break. That is the honest answer and the distractor is the dishonest one, which is why it is there. It is worth saying out loud that nobody in this recording is lying.
 ---
 
 **Part 4 · Speaking**
@@ -187,185 +180,185 @@ Not needed: **d)** *went downstairs to ask the shopkeeper what had happened*
 
 Open pairwork. What you are listening for is the pair of tenses in one sentence, not fluency.
 
-> Expect: *I was sitting on the bus when my phone died* · *While I was cooking, somebody rang the bell* · *I was waiting about half an hour*. Correct only the shape, and only if the learner has put the interruption in the continuous.
+Marking points: ☐ one sentence carrying both tenses ☐ the interruption in the past simple ☐ what happened next ☐ three questions asked of the partner.
+
+> Expect: *I was sitting on the bus when my phone died* · *While I was cooking, somebody rang the bell* · *I was waiting about half an hour*. Correct only the shape, and only if the learner has put the background in the continuous.
 
 **Part 4: Find the Difference (pairwork)**
 
 Four differences, and the task is a tense task disguised as a spotting task.
 
-Marking points: ☐ four differences found ☐ the continuous for what was still going on ☐ the past simple for what had finished by the second picture ☐ neither partner looks at the other's picture.
+Marking points: ☐ four differences found ☐ the continuous for what was still going on ☐ the past simple for what had ended by the second picture ☐ neither partner looks at the other's picture.
 
-> Sample exchange: *In my picture Tomas is standing on the stairs with two bags. — In mine he has put them down, so yours must be the earlier one. — And in mine Amina is still at the till. — Mine too, but she is holding a candle.*
+> Sample exchange: *In my picture the street door is propped open with a brick. — In mine it is shut, so yours must be the earlier one. — And in mine Mr Okonkwo is standing at the bottom of the stairs. — In mine he is in the car park, and he is carrying the cat.*
 
-**Part 4: The Meeting About the Power Cut**
+**Part 4: The Meeting About the Car Park**
 
-Open group task. Sixty pounds, three options, and the rule that everybody must say what they were doing before they argue for anything.
+Open group task. Two questions, a hundred and forty pounds of glass, and the rule that everybody must say what they were doing before they argue for anything.
 
-> The task is built so that the strongest argument is the most expensive one. Tomas is right that the stairs are the only dangerous part of the building, and the staircase light costs more than the fund holds. A group that agrees quickly has usually skipped the rule; make them go back and do the “what were you doing” round, because the whole point is that the position each person argues for follows from where they were standing.
+Marking points: ☐ every speaker opens with what they were doing ☐ a decision on the glass ☐ a decision on the rule ☐ one person's position changes, or is openly refused.
 
-***Stretch:*** arguing for another year with nothing. Accept *I know you were stuck on those stairs, and I am still saying wait, because twenty-two pounds of torches we cannot find is worse than one more winter.* The marker is a learner who concedes the other person’s experience before disagreeing with it.
+> The task is built so that nobody in the room saw the thing they are arguing about. Mr Okonkwo was the only person out there for any length of time and he was looking at the ground; Dani crossed the car park twice and looked at nothing. A group that settles it in two minutes has usually skipped the round of *what were you doing*, and the round is the whole exercise, because each position follows from where the speaker was standing.
+
+***Stretch:*** arguing for paying out of the fund and making no rule. Accept *I know a rule looks like doing something, and I am still saying no rule, because we would be asking the children of this street to prove they did not break a window nobody saw break.* The marker is a learner who concedes the other position before disagreeing with it.
 
 **Part 4: Mini-Presentation**
 
-One minute. “The most useful thing to keep in a drawer.”
+One minute. “The thing I would want somebody to tell me straight away.”
 
-Marking points: ☐ one thing, not a list ☐ where it is kept ☐ a story about somebody who needed it ☐ at least one past continuous ☐ about a minute.
+Marking points: ☐ one thing, not a list ☐ who would have to say it ☐ a story about news that came too late ☐ at least one past continuous ☐ about a minute.
 
-> Sample: *A pair of scissors. Ours live in the kitchen drawer, on the left, and everybody in the flat knows it. Last year my sister was wrapping a present at eleven at night and the scissors were not there, because I was using them in the other room and had not put them back. She wrapped it with her teeth and told everybody. They have been in the drawer ever since.*
+> Sample: *A cancellation. If something is off, I want to know within the hour, and I would want it from the person who cancelled it rather than from a system. Last spring I was driving to a viewing forty minutes away while the agent was emailing me to say the flat had gone. I read the email in the car park afterwards. The email was sent in good time. It just was not read in time, and an email nobody has read is not a cancellation.*
 
 ---
 
 **Part 5 · Reading**
 
-**Part 5: Why the Lights Go Out**
+**Part 5: Why Two Things Always Happen at Once**
 
-0. At a substation. *(given)*
+0. Saturday. *(given)*
 
-1. **A)** A problem that had been slowly getting worse
-2. **D)** Because electricity is difficult to store
-3. **B)** The ones where somebody knows where the candles are
+1. **A)** Because most people are at home to receive something
+2. **D)** Because a smaller weekend shift is handling a backlog
+3. **C)** Because each person saw a different few minutes of it
 
-> Item 1 is the hardest in the unit and is worth the time. The text never says that “a fault developed” means a slow failure; it says that is what the phrase is *hiding*, and the evidence is in the three sentences before it, all of them in the past continuous. Learners who choose B have found the control room in the next paragraph and attached it to the wrong sentence.
+> Item 3 is the hardest and is worth the time. The text does not say that people are unwilling to speak or that they remember badly; it says the opposite, that a crowded hour is seen in fragments. Learners who choose A have supplied a motive the text never offers, which is exactly the habit the Part 3 listening is designed to break.
 
 **Part 5: Vocabulary in Context**
 
-1. c · 2. a · 3. d · 4. f · 5. b
-Not needed: **e)** *the amount a household pays every three months*
+1. c · 2. f · 3. e · 4. a · 5. b
+Not needed: **d)** *the number of cars a car park can hold at one time*
 
-**Part 5: Three Buildings, Three Tuesdays**
+> The distractor is a definition of *capacity* with the wrong noun attached, so a learner who matched 2 by meaning rather than by wording will come back to it. That is the intended route.
 
-0. A generator. *(given)*
+**Part 5: Three Streets, Three Saturdays**
 
-1. Because the parts that kept working made it harder to admit that the rest had stopped — the lifts were off and the air conditioning was off, but the lights were on, so nobody left.
-2. They carried on having the meeting.
-3. One candle behind a shop counter, and a phone with enough battery to tell six people it was not just them.
+0. Half past one. *(given)*
 
-> Item 1 accepts any answer that gets the mechanism: half-working is worse than not working because it removes the excuse. A learner who answers “because the lifts stopped” has listed a fact rather than answered the question.
+1. Because the street has a kerb on one side and parked cars on the other, so there is only one lane.
+2. Nine minutes, because the van could use one of the loading bays the street was rebuilt with.
+3. That the fault was in the exchange and not in anybody's own flat.
 
+> Item 2 wants both halves. “Nine minutes” on its own is a number; the reason is the point of the whole paragraph, which is that the same event costs what the street was built to let it cost. The Pell Road sentence to read aloud is the last one: nobody remembers it, and that is the measure of it.
 ---
 
 **Part 6 · Writing**
 
 **Part 6: A Message to the Neighbours (90–110 words)**
 
-Marking points: ☐ what you were doing when it happened, in the past continuous ☐ the problem stated once, plainly ☐ one clear thing you are asking for ☐ where it should be kept ☐ 90–110 words.
+Marking points: ☐ what you were doing when it happened, in the past continuous ☐ the damage stated once, plainly ☐ one clear thing you are asking for ☐ one thing you say you are *not* asking for ☐ 90–110 words.
 
-> Sample (96 words): *This is Yuki from the top flat. I was working when the power went out on Tuesday, and the laptop battery meant I did not even notice for half a minute. Then I did, and there was nothing in the flat to see by. I went down two flights in the dark to borrow a candle from a shop that was also in the dark. I would like us to buy torches out of the fund, one for each flat, and I would like them kept inside the flats and not in a box on the landing.*
+> Sample (98 words): *This is Yuki from the top flat. I was in a video call for most of Saturday afternoon and I saw nothing at all, so I am no use as a witness and neither is anybody I have spoken to. The window on the half landing is cracked and the glass is communal, which means it comes out of our own fund. I am not asking anybody to own up. I am asking for two things at the meeting: that we pay for it now, and that we put a note in the car park about the far end.*
 
-**Part 6: Was the Power Cut Anybody’s Fault? (90–110 words)**
+**Part 6: An Email to the Letting Agent (90–110 words)**
 
-Marking points: ☐ an opinion in the first sentence ☐ two reasons ☐ *while* or *when* at least once ☐ a distinction between the cut and the response ☐ 90–110 words.
+Marking points: ☐ two facts with times attached ☐ *while* or *when* at least once ☐ the other side's position acknowledged ☐ one clear request at the end ☐ 90–110 words.
 
-> Sample (99 words): *I think the company did its job and the building did not. The engineers were already on their way before anybody at number 14 had called them, and the supply was back in under two hours, which for an underground cable on a cold night is quick. What was not quick was us. Tomas was standing on the stairs for twenty minutes because nobody owned a torch. Amina had the only candle in the building and she had bought it nineteen years ago. The cut was an accident. The twenty minutes were a choice that nobody remembers making.*
+> Sample (98 words): *Dear Ms Dalby, I was standing in the kitchen of the first-floor flat with a viewer on Saturday at about half past two. Your email saying the flat had gone was timed at ten past, and my coat was in the hall. I read it at twenty to four, by which time the viewer had looked at every room and asked about the heating. You did nothing wrong and the email was in good time. What I am asking is that a booked viewing gets a telephone call as well, because an unread email cancels nothing at all.*
 
-**Part 6: What Happened on the Stairs (90–110 words)**
+**Part 6: What Happened on the Way to the Shift (90–110 words)**
 
-Marking points: ☐ a beginning, a middle and an end ☐ the background in the past continuous ☐ the events in the past simple ☐ how long it lasted ☐ 90–110 words.
+Marking points: ☐ a beginning, a middle and an end ☐ how long the journey took ☐ both past tenses used ☐ the thing that was actually lost named ☐ 90–110 words.
 
-> Sample (101 words): *I was on a train that stopped between two stations on a Friday evening in July. I was standing, because everybody was standing, and I was reading over somebody’s shoulder because there was nothing else to look at. The lights stayed on and the air conditioning did not. After ten minutes a voice said there was a fault ahead of us and after twenty it said the same thing again in the same words. Nobody complained. A man near the door was telling a long story about a worse journey, and about forty of us listened to all of it.*
+> Sample (101 words): *I was on the last train out of town and reading the address on my phone when the screen died. I had the station and nothing else. The woman opposite lent me hers without being asked, which was kind and no help at all, because the address lived in the dead phone and I had never written it down. I walked three streets guessing, found the right door on the second attempt, and arrived forty minutes late to a room where nobody had worried. The whole journey cost me an evening and taught me to carry one piece of paper.*
 
-**Part 6: Reflection — The Thing I Never Get Round To (80–100 words)**
+**Part 6: Reflection — The Afternoon I Lost (80–100 words)**
 
-Marking points: ☐ one specific thing, not a category ☐ an honest reason it does not happen ☐ one sentence about what would change it ☐ 80–100 words.
+Marking points: ☐ what was planned ☐ what actually took the time, honestly ☐ one sentence about what the writer decided afterwards ☐ 80–100 words.
 
-> Sample (96 words): *I have been meaning to write down where everything is — the stopcock, the meter, the fuse box — since the week I moved in. I know where two of the three are and I have never checked the third. What stops me is that it takes a torch and fifteen minutes and there is never a reason to do it today. What would change it is somebody else needing to know, which is exactly the situation in which I will not be able to tell them. I have written it in the diary for Sunday.*
+> Sample (88 words): *I had a free afternoon and a list of four things. A delivery window of two hours sat in the middle of it, and I had not chosen the hours. I watched the street, answered a call that could have waited, and did one of the four. I was annoyed for about a day. What I think now is that the afternoon was never mine in the first place: it belonged to a company, a neighbour and a telephone, and the list was a way of not noticing that.*
 
 ---
 
-**Part 7 · Real-World File — Reporting a Power Cut**
+**Part 7 · Real-World File — Sorting Out a Delivery to the Wrong Address**
 
 **7A: Phrase Bank**
 
-1. d · 2. e · 3. f · 4. a · 5. b
-Not needed: **c)** *when you want to know how much the repair will cost you*
+1. e · 2. c · 3. f · 4. a · 5. d
+Not needed: **b)** *when you want to know how much the collection will cost*
 
-> The unused option is the one learners expect to be there, because a repair at home costs money. A fault on the supply side of the meter does not: it is the company’s cable and the company’s cost. Saying so is worth thirty seconds.
+> The distractor is the question most learners want to ask first, and on this call it is the wrong one, because the charge follows whoever filled the skip rather than whoever rang about it. Point that out only after the matching is done.
 
-**7B: The Call to the Electricity Company** (Track 1.5)
+**7B: The Call to the Skip Company** (Track 1.5)
 
-0. The postcode. *(given)*
+0. An order number. *(given)*
 
-1. Because the engineers were still looking for the fault when they last reported in.
-2. Because eleven people in the building were going to ask her, and she wanted something she could quote.
-3. The call goes higher up the list.
+1. Because it is already full, and a full skip needs the lorry rather than the pickup.
+2. It reached the corner at twenty to two and took the whole load back to the depot.
+3. Because the charge goes to whoever filled it, and not to the address it is standing outside.
 
-> The exchange teaches the shape of a useful emergency call: location first, scope second, your own observation third. Amina gives all three in two sentences, and the operator thanks her for it.
+> The exchange is worth a second listen for what the operator does rather than what she says. She finds the booking, accepts the mistake without being pushed, explains why the easy answer is not available, and then tells Amina the one thing that is actually worth money to her. The phrase to take away is *that is where it gets difficult*, which is how a competent person says no.
 
-**7C: Controlled Practice — Making the Call Well**
+**7C: Controlled Practice — Saying What Went Wrong**
 
-0. Find the emergency number before you need it, not during. — **1** *(given)*
+0. Find out what you can before you ring — **1** *(given)*
 
-Ask what time to plan for, and then plan for longer. — **4**
-Give the postcode and say whether the whole street is affected. — **2**
-Ask for a reference number and write it down. — **5**
-Say whether anybody at the address needs priority help. — **3**
+- Ask what the earliest date is, and then ask what would make it sooner. — **4**
+- Say which part of it is wrong: the street, the number or the day. — **2**
+- Ask for a job number and write it down. — **5**
+- Say why it cannot simply wait, in one sentence. — **3**
 
-> The order is not arbitrary and the reason is worth saying. Priority help comes before the estimate because it changes the estimate. A learner who puts the reference number earlier has not done anything foolish, but they will be asking for a number before there is a job to attach it to.
+> The order is the argument. You narrow down the fault before you explain the urgency, because an operator who does not yet know what went wrong cannot act on how much it matters.
 
-**7D: Role-Play — Telling the Building What You Know**
+**7D: Role-Play — Two Versions of the Same Afternoon**
 
-Open pairwork. Student A must pass on three things and admit one.
+Open pairwork. Student A has the job number, the date and the news about the charge; Student B has been waiting since one o'clock.
 
-Marking points: ☐ engineers already sent ☐ no estimated time ☐ the note about the third floor ☐ the unknown admitted, not invented ☐ Student B asks at least two questions.
+Marking points: ☐ three facts passed on accurately ☐ the one thing A got wrong admitted ☐ two questions from B ☐ B annoyed but not unreasonable ☐ both past tenses in use.
 
-> Sample exchange: *They were already on their way before I rang. — So when? — They would not give me a time, and I am not going to make one up. I have the job number and I can ring again at half past nine. — And if it is still off then? — Then I ring, and whatever they tell me goes on the door.*
->
-> The commonest failure is a Student A who, under pressure from an impatient Student B, produces a time that nobody gave them. Listen for *they would not say*.
+> Sample: *A: They had our number on the sheet, so the driver did what the paper said. B: And the delivery? A: Gone back to the depot. I was watching them fill the skip and I said nothing, which is the part I got wrong. B: So when does it move? A: Tuesday morning, and the charge goes to number 40.*
 
-***Stretch:*** Student B has already called and was told something different. Accept *Then one of us was told wrong, and I would rather find out which than argue about it — I have a reference number, what did they give you?* The marker is a learner who treats the disagreement as information.
+***Stretch:*** swapping roles with B as somebody from number 40 who believes they gave the right address. The marker is a learner who stops defending and starts establishing what each of them actually wrote down.
 
 **7E: Writing — A Note for the Noticeboard (100–120 words)**
 
-Marking points: ☐ a first line a passer-by understands in three seconds ☐ what you were told ☐ what is still unknown, said plainly ☐ what you will do next, with a time ☐ 100–120 words.
+Marking points: ☐ a first line a passer-by understands in three seconds ☐ what is known, with times ☐ what is still unknown, named as unknown ☐ what the writer will do next ☐ 100–120 words.
 
-> Sample (104 words): *Thursday — the lift is out, and it is not coming back this week. I spoke to the company at nine this morning. A part has to come from somewhere else and they were not able to tell me where from, so the engineer who looked at it on Tuesday has gone away again. They are saying Monday or Tuesday and I would not plan around either. I have the job number in flat 3 if anybody needs it. If nobody has rung by Monday lunchtime I will ring them, and I will put whatever they say up here the same afternoon. Yuki.*
-
+> Sample (100 words): *Saturday — the scaffolding at the front is not ours and is not coming down this week. I rang the firm that put it up at nine this morning. It belongs to the roof job at number 22, and the licence runs to the end of the month. They were still checking whether it can be narrowed when I came off the phone, so I do not yet know whether the pushchair ramp stays blocked. My job number is 2204. I will ring again on Thursday and I will put the answer up here, whatever it is. Maya, flat 2.*
 ---
 
-**Part 8 · Global Story — The Night Buenos Aires Went Quiet**
+**Part 8 · Global Story — The Day Our Street Became a Film Set**
 
-0. It was the only cool thing in the flat. *(given)*
+0. The hours the closure would cover. *(given)*
 
-1. The silence that arrived with the darkness.
-2. Because they were already working at their limit and could not take what the failed one had been carrying.
-3. The sound of every television in the building coming on at once.
-
-> Item 3 is the detail that makes the story a story rather than an account, and it is worth asking the class why. Every television was still switched on and still tuned to whatever had been playing at eight forty-three, so the building woke up in the middle of six hours earlier. Nobody had turned anything off, because nobody had been given the chance.
+1. Because she read the word *location* and pictured one camera at the end of the road.
+2. It walked the woman with the hospital appointment to a taxi at the far end, and it offered the man on the night shift the cost of a taxi.
+3. A line on the letter saying when — the hours, not only the street and the date.
 
 **Part 8: Vocabulary in Context**
 
-1. c · 2. d · 3. a · 4. f · 5. b
-Not needed: **e)** *the room where a generator is kept*
+1. c · 2. b · 3. e · 4. a · 5. d
+Not needed: **f)** *the person who decides where a film is made*
+
+> The distractor is a definition of a job rather than a place, and *location* is the word that attracts it, because in English the same word does both in film talk. A learner who picks **f)** for item 1 has understood the industry and not the sentence.
 
 **Part 8: Discussion**
 
-Open, in threes. Elena’s mother opened the front door.
+Open, groups of three. The man took the money and says it was not the point.
 
-Marking points: ☐ each learner uses one of the three frames ☐ an answer about Elena's building ☐ an answer about their own ☐ a reason for the difference.
+Marking points: ☐ an answer to what the point actually was ☐ one reason drawn from the story ☐ one comparison with the learner's own street ☐ everybody speaks.
 
-> Sample: *What I noticed about this story is that nobody asked her to open the door. The part I would find hardest is standing on a landing with people I have never spoken to. In my experience, people in my building would wait inside and listen at the door, and I think the difference is not the heat but whether you already know the names.*
->
-> There is no right answer, and the frames are there to stop the conversation from becoming one. What usually comes out is that opening the door was obviously right in that building and would be unthinkable in several of the buildings the class lives in.
+> Sample: *What I noticed about this story is that everybody behaved well and he was still angry. The point was not the taxi. The point is that for one day he had to ask a stranger with a list for permission to leave his own street, and money does not touch that. In my experience, people mind being asked far less than they mind not being asked.*
 
 ---
 
 **Part 9 · Close to Home — Three Weeks Later at Number 14**
 
-0. Painting the front door. *(given)*
+0. That the residents pay for it. *(given)*
 
-1. Because it is the only part of the building where somebody could actually be hurt.
-2. That the fund has bought nothing in three years, and a box of torches is something you can put your hand on tonight.
-3. Because she thinks the problem was not equipment but that nobody had thought about it.
+1. Because he thinks a building that spends one evening arguing over a hundred and forty pounds will spend the next one arguing over eighty.
+2. A bollard that keeps the kerb clear, so that the next delivery can get through.
+3. She asked whether the crack was there before Saturday, and three people could not swear that it was not.
+
+> Yuki's question is the one to end the reading on. Everybody in the room has spent an hour deciding who should pay for something nobody can prove happened that afternoon, and the person who missed the afternoon is the only one who asked. Learners usually spot that she was not there; the better observation is that being absent is what made the question available to her.
 
 **Part 9: Decision Task**
 
-Open. Sixty to eighty words, one option chosen, and an answer to the strongest objection.
+Open. Three options, two hundred and ten pounds, and the answer frame to hang it on.
 
-Marking points: ☐ one option, named ☐ a reason that is not just the price ☐ the strongest argument against it, stated fairly ☐ an answer to it ☐ 60–80 words.
+Marking points: ☐ one option chosen outright ☐ a reason that is not only cost ☐ the strongest argument against it stated fairly ☐ an answer to that argument ☐ 60–80 words.
 
-> Sample (78 words): *I would spend nothing, which I know sounds like doing nothing. The fund has sixty-one pounds and the building has no plan, and a plan is the only one of the three that would have changed Tuesday. Amina had a candle because she had thought about it nineteen years ago. The strongest argument against me is Tomas’s, because a plan does not light a staircase, and my answer is that it tells him whose job the staircase is.*
->
-> All three options are defensible and the marking is about the fourth bullet, not the first. A learner who chooses the staircase light must deal with the fund being thirty pounds short; one who chooses the torches must deal with Tomas’s objection that a torch in a box in the dark is a torch you cannot find; one who chooses the plan must deal with the fact that a plan is not a light.
+> Sample (71 words): *I would choose (c), the bollard, because Amina is the only person here describing something that will happen again. The strongest argument against it is that the crack is real and the bollard is a guess about next time. My answer is that the glass is not dangerous and the kerb is, and that the fund will still be there in three months when we know whether the crack has moved.*
 
 ---
 
@@ -373,18 +366,20 @@ Marking points: ☐ one option, named ☐ a reason that is not just the price �
 
 **Part 10: Spiral Review**
 
-0. candle *(given)*
+0. queue *(given)*
 
-1. power cut · 2. meter · 3. was serving · 4. basement · 5. While · 6. supply · 7. darkness
+1. pavement · 2. delivery · 3. was crossing · 4. landing · 5. While · 6. car park · 7. depot
 
-> Item 3 is the only one that tests the unit’s grammar rather than its vocabulary, and item 5 is the only one that tests the conjunction. Both are in the bank, so a learner who has the vocabulary can get them by elimination; ask them afterwards why *while* and not *when*, and the answer — because the shouting and the standing were both going on — is the unit in one sentence.
+> Item 3 is the only one that tests the grammar rather than the vocabulary, and item 5 is the only one that tests *while*. If a learner writes *crossed* for 3, the sentence still means something — it just means he finished crossing before the battery died, which is not what happened.
 
 **Part 10: Can-Do**
 
-Self-assessment. Nothing to mark. The fifth line is the Plus one, and a Core-only class should not be asked to tick it.
+Self-assessment. The fifth line is Plus-track and should be left unticked by Core learners without comment.
+
+> If a learner ticks everything in under a minute, ask them for the one sentence behind line two: a *while* clause and a *when* clause about the same afternoon. The checklist is only worth anything if each line can be cashed for a sentence.
 
 **Part 10: Glossary**
 
-Ten words: power cut · electricity · candle · darkness · switch · freezer · meter · supply · bulb · basement
+Ten words: skip · delivery · queue · pavement · card reader · depot · agent · stairwell · crack · slot
 
-> All ten appear at least three times before Part 10 and none of them appears in any A2 glossary. *Supply* and *darkness* are the two that learners will have met without noticing, because both do most of their work in the Part 5 reading rather than in a vocabulary task.
+> Every one of the ten appears at least three times before this page, and seven of them appear in more than one of the afternoon's situations. That is deliberate: a word met once in one story is a word met once.

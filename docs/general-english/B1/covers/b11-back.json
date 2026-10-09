@@ -185,12 +185,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "The Night the Power Went Out",
+   "text": "The Afternoon Everything Happened at Once",
    "size": 42,
    "bbox": [
     330,
     1408.1,
-    1054.9,
+    1392.7,
     1444.5
    ],
    "fill": "#1F3864",
@@ -281,12 +281,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "I can describe a problem in a building and say what I want people to agree.",
+   "text": "I can describe a street problem \u2014 a skip, a cracked window \u2014 and say what I want agreed.",
    "size": 40,
    "bbox": [
     320,
     1742.9,
-    1831.9,
+    2146.3,
     1778.5
    ],
    "fill": "#1F3864",
@@ -305,12 +305,12 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "I can telephone to report a fault and ask for a job number.",
+   "text": "I can telephone about a delivery or a booking and ask for a job number.",
    "size": 40,
    "bbox": [
     320,
     1808.9,
-    1484.6,
+    1757.8,
     1844.5
    ],
    "fill": "#1F3864",
@@ -330,14 +330,14 @@
   }
  ],
  "alt": "Back cover of English for Daily Life B1 volume 1: a blurb, the ten unit titles, the ten grammar points and six things the learner will be able to do.",
- "sha256": "bed8646d2a9b6312237e136303e6e3a7eadd15ed980f5945315647e4be4f35b8",
+ "sha256": "987d9a0c9f7168ec5bcb960745976378f1d755467eb07d086c54a30d2f7e90d0",
  "theme": "b11",
  "volume": 1,
  "title": "Looking Back",
  "level": "B1",
  "blurb": "English for Daily Life at B1 picks up the same six people two years later, on the same street, and gives them the past behind the past and the things that never happened: what was going on when something interrupted it, how long it has been going on, what had already happened by the time anybody said anything, what the rent used to be, what would happen if the money came, and what would have happened if they had taken the other flat. One unit, each with the same eleven parts and the same support as at A2: a worked example at the top of almost every task, a model before every piece of writing, a word bank under every gap-fill and a checklist before you hand anything in. The readings and the recordings are twice the length they were, because that is what the level is. The Core track is for everybody; the Plus track is there when you want it. Answers for every closed question are in the book.",
  "units": [
-  "The Night the Power Went Out"
+  "The Afternoon Everything Happened at Once"
  ],
  "grammar": [
   "past continuous vs past simple - while/when"
@@ -345,8 +345,8 @@
  "can_do": [
   "I can say what I was doing when something interrupted me, using the past continuous.",
   "I can use *while* and *when* to join a long action and a short one.",
-  "I can describe a problem in a building and say what I want people to agree.",
-  "I can telephone to report a fault and ask for a job number."
+  "I can describe a street problem \u2014 a skip, a cracked window \u2014 and say what I want agreed.",
+  "I can telephone about a delivery or a booking and ask for a job number."
  ],
  "unit_count": 1
 }

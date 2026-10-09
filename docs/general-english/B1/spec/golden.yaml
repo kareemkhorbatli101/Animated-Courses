@@ -203,6 +203,8 @@ figures:
   # teaching device the text refers to, never decoration.
   per_unit: 41
   source_per_unit: null
+  depictive_icons: true
+  icon_allow: []
   caption_pattern: '^\*Figure (\d+)\.(\d+) · (.+)\.\*$'
   # Numbered in document order, so Figure N.1 is the first the learner meets.
   # Renumbered 2026-10-08 by tools/renumber_figures.py. The numbers are spread

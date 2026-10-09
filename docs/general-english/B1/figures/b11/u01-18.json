@@ -23,12 +23,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Dani",
+   "text": "Mr Okonkwo",
    "size": 30,
    "bbox": [
     240,
     88.1,
-    316.8,
+    450.0,
     114.7
    ],
    "fill": "#1F3864",
@@ -47,12 +47,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Mr Okonkwo",
+   "text": "A neighbour",
    "size": 30,
    "bbox": [
     240,
     246.8,
-    450.0,
+    446.7,
     273.4
    ],
    "fill": "#1F3864",
@@ -71,13 +71,25 @@
    "on": "#1F3864"
   },
   {
-   "text": "Yuki",
+   "text": "A second",
    "size": 30,
    "bbox": [
     240,
-    405.4,
-    311.1,
-    432.1
+    388.4,
+    393.1,
+    415.1
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "neighbour",
+   "size": 30,
+   "bbox": [
+    240,
+    422.4,
+    413.0,
+    449.1
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -95,24 +107,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "saw something outside that",
+   "text": "could not see the building",
    "size": 28,
    "bbox": [
     814,
     54.6,
-    1255.1,
+    1226.7,
     79.1
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "nobody else",
+   "text": "behind something",
    "size": 28,
    "bbox": [
     814,
     86.6,
-    1004.7,
+    1099.3,
     111.1
    ],
    "fill": "#1F3864",
@@ -131,13 +143,25 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "noticed nothing at first",
+   "text": "saw two of the children while",
    "size": 28,
    "bbox": [
     814,
-    189.1,
-    1180.0,
-    213.5
+    173.1,
+    1278.9,
+    197.5
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "looking down",
+   "size": 28,
+   "bbox": [
+    814,
+    205.1,
+    1025.1,
+    229.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -155,24 +179,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "went out of the flat rather than",
+   "text": "saw which of the children threw",
    "size": 28,
    "bbox": [
     814,
     291.6,
-    1311.0,
+    1320.4,
     316.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "stay",
+   "text": "the ball",
    "size": 28,
    "bbox": [
     814,
     323.6,
-    880.3,
+    934.2,
     348.0
    ],
    "fill": "#1F3864",
@@ -191,24 +215,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "went downstairs to ask the",
+   "text": "was there briefly and will not",
    "size": 28,
    "bbox": [
     814,
     410.1,
-    1244.4,
+    1276.8,
     434.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "shopkeeper",
+   "text": "say for certain",
    "size": 28,
    "bbox": [
     814,
     442.1,
-    998.6,
+    1042.9,
     466.5
    ],
    "fill": "#1F3864",
@@ -224,5 +248,5 @@
   6.260416666666667,
   2.25
  ],
- "sha256": "97ad472c7bb7622b64c56d565c8167b094ba584d90742a49fe0d95866654329c"
+ "sha256": "1c0cc2056e5a606896cc003c6329c89d1b24aa95fa9c2d7a3a2c7affd6d1b506"
 }

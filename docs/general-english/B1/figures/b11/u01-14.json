@@ -11,96 +11,96 @@
  ],
  "texts": [
   {
-   "text": "eating when the",
+   "text": "serving a queue when",
+   "size": 22,
+   "bbox": [
+    78.5,
+    69.0,
+    352.0,
+    89.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the reader stopped",
+   "size": 22,
+   "bbox": [
+    95.5,
+    97.0,
+    335.0,
+    117.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "wrote the amount",
    "size": 28,
    "bbox": [
-    86.6,
+    409.9,
     64.3,
-    343.9,
+    693.6,
     88.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "phone rang",
+   "text": "on a slip",
    "size": 28,
    "bbox": [
-    125.0,
+    485.0,
     98.3,
-    305.5,
+    618.5,
     122.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "closed the shop",
+   "text": "counting the stock",
+   "size": 24,
+   "bbox": [
+    761.8,
+    67.2,
+    1014.7,
+    88.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "when the bank rang",
+   "size": 24,
+   "bbox": [
+    752.6,
+    97.2,
+    1023.9,
+    118.7
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "paid in cash and",
    "size": 28,
    "bbox": [
-    427.3,
+    1095.6,
     64.3,
-    676.2,
+    1353.9,
     88.8
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "and went up",
+   "text": "went out",
    "size": 28,
    "bbox": [
-    453.5,
+    1154.5,
     98.3,
-    650.0,
-    122.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "put the bags",
-   "size": 28,
-   "bbox": [
-    787.8,
-    64.3,
-    988.7,
-    88.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "down",
-   "size": 28,
-   "bbox": [
-    845.7,
-    98.3,
-    930.8,
-    122.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "waiting for an",
-   "size": 28,
-   "bbox": [
-    1114.3,
-    64.3,
-    1335.2,
-    88.8
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "hour",
-   "size": 28,
-   "bbox": [
-    1188.3,
-    98.3,
-    1261.2,
+    1295.0,
     122.8
    ],
    "fill": "#1F3864",
@@ -140,5 +140,5 @@
   6.260416666666667,
   2.5
  ],
- "sha256": "8a987968178b4543d5b61d0c1dbba3c49b9a3c55928bf6a7260b3c6dcf58b85f"
+ "sha256": "aca99f05c1e5325f5599efa3ab3d03647583fc3931f8f33acbf75bb7a2db1eba"
 }

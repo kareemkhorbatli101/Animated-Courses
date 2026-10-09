@@ -35,36 +35,36 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "I can describe a problem in a building",
+   "text": "I can describe a street problem and say what I want agreed",
    "size": 28,
    "bbox": [
     156,
     206.1,
-    751.8,
+    1098.0,
     230.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "I can telephone to report a fault and ask for a job number",
+   "text": "I can telephone about a delivery and ask for a job number",
    "size": 28,
    "bbox": [
     156,
     286.1,
-    1070.7,
+    1074.0,
     310.6
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "I can tell the story of twenty minutes",
+   "text": "I can tell the story of an afternoon when several things went wrong",
    "size": 28,
    "bbox": [
     156,
     366.1,
-    744.3,
+    1226.5,
     390.6
    ],
    "fill": "#1F3864",
@@ -92,5 +92,5 @@
   6.260416666666667,
   1.8854166666666667
  ],
- "sha256": "0f1882b08d653acf052b00b30624ce72ef06ca8e9efe4f88c550b720df24fa8a"
+ "sha256": "a13aba87eb5ab99a1a2146d8918adba330251b19963217bc7c05961172e7bffd"
 }

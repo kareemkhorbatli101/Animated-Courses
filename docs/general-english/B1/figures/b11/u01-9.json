@@ -11,48 +11,48 @@
  ],
  "texts": [
   {
-   "text": "basement",
+   "text": "stairwell",
    "size": 30,
    "bbox": [
-    127.9,
+    138.4,
     258.6,
-    295.1,
+    284.6,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "meter",
+   "text": "queue",
    "size": 30,
    "bbox": [
-    500.0,
+    498.1,
     258.6,
-    601.0,
+    602.9,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "supply",
+   "text": "card reader",
    "size": 30,
    "bbox": [
-    833.5,
+    791.1,
     258.6,
-    945.5,
+    987.9,
     285.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "bulb",
+   "text": "cat",
    "size": 30,
    "bbox": [
-    1191.2,
+    1202.3,
     258.6,
-    1265.8,
+    1254.7,
     285.2
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 4,
  "stages": 0,
  "arrows": 0,
- "alt": "The four words of the fill-in word bank, in bank order, each drawn: basement, meter, supply, bulb.",
+ "alt": "The four words of the fill-in word bank, in bank order, each drawn: stairwell, queue, card reader, cat.",
  "placed_in": [
   6.260416666666667,
   1.5208333333333333
  ],
- "sha256": "8a6fdb40c87ea4c93d2b025fb91a9ffd88b8c2f86c37ff31cb44ca89915f7a53"
+ "sha256": "faf173083b1a81cbbd51b0774ea8648efe556440cd078fb38b6e6033869c1bf4"
 }

@@ -11,108 +11,108 @@
  ],
  "texts": [
   {
-   "text": "candle",
+   "text": "skip",
    "size": 34,
    "bbox": [
-    212.2,
+    235.9,
     127.0,
-    338.5,
+    314.8,
     157.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "bulb",
+   "text": "battery",
    "size": 34,
    "bbox": [
-    677.7,
+    649.1,
     127.0,
-    762.3,
+    790.9,
     157.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "darkness",
+   "text": "connection",
    "size": 34,
    "bbox": [
-    1077.5,
+    1059.4,
     127.0,
-    1251.9,
+    1270.0,
     157.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "electricity",
+   "text": "delivery",
    "size": 34,
    "bbox": [
-    178.9,
+    197.9,
     307.7,
-    371.7,
+    352.8,
     338.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "freezer",
+   "text": "pavement",
    "size": 34,
    "bbox": [
-    651.3,
+    624.3,
     307.7,
-    788.7,
+    815.7,
     338.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "meter",
+   "text": "queue",
    "size": 34,
    "bbox": [
-    1107.4,
+    1105.2,
     307.7,
-    1221.9,
+    1224.1,
     338.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "silence",
+   "text": "shift",
    "size": 34,
    "bbox": [
-    208.3,
+    231.8,
     488.3,
-    342.3,
+    318.9,
     518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "supply",
+   "text": "stairwell",
    "size": 34,
    "bbox": [
-    656.5,
+    637.2,
     488.3,
-    783.5,
+    802.8,
     518.7
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "switch",
+   "text": "capacity",
    "size": 34,
    "bbox": [
-    1102.7,
+    1084.4,
     488.3,
-    1226.6,
+    1245.0,
     518.7
    ],
    "fill": "#1F3864",
@@ -123,10 +123,10 @@
  "cards": 9,
  "stages": 0,
  "arrows": 0,
- "alt": "The nine words of the sorting task, each on its own card with a picture: candle, bulb, darkness, electricity, freezer, meter, silence, supply and switch.",
+ "alt": "The nine words of the sorting task, each on its own card with a picture: skip, battery, connection, delivery, pavement, queue, shift, stairwell and capacity.",
  "placed_in": [
   6.260416666666667,
   2.4791666666666665
  ],
- "sha256": "c98a9d0bdf6454afd0f485c72116d711407eb7c6c66fc10a3fe271b0498cb505"
+ "sha256": "a0e69bd3a8f5b0eb696853b2a47be779a899ddb890d7623776011fa193af2898"
 }

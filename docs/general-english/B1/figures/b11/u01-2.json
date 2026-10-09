@@ -23,12 +23,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Power cut",
+   "text": "Skip",
    "size": 30,
    "bbox": [
-    92.1,
+    140.1,
     352.0,
-    261.5,
+    213.5,
     378.6
    ],
    "fill": "#1F3864",
@@ -47,12 +47,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Candle",
+   "text": "Delivery",
    "size": 30,
    "bbox": [
-    390.5,
+    378.4,
     352.0,
-    506.3,
+    518.4,
     378.6
    ],
    "fill": "#1F3864",
@@ -71,12 +71,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Darkness",
+   "text": "Queue",
    "size": 30,
    "bbox": [
-    641.3,
+    665.5,
     352.0,
-    798.7,
+    774.5,
     378.6
    ],
    "fill": "#1F3864",
@@ -95,12 +95,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Switch",
+   "text": "Landing",
    "size": 30,
    "bbox": [
-    935.1,
+    924.0,
     352.0,
-    1048.1,
+    1059.2,
     378.6
    ],
    "fill": "#1F3864",
@@ -119,10 +119,10 @@
    "on": "#1F3864"
   },
   {
-   "text": "Freezer",
+   "text": "Battery",
    "size": 30,
    "bbox": [
-    1199.9,
+    1200.0,
     352.0,
     1326.5,
     378.6
@@ -135,10 +135,10 @@
  "cards": 5,
  "stages": 0,
  "arrows": 0,
- "alt": "The five warm-up words as numbered picture cards: power cut, candle, darkness, switch, freezer.",
+ "alt": "The five warm-up words as numbered picture cards: skip, delivery, queue, landing, battery.",
  "placed_in": [
   6.260416666666667,
   1.8229166666666667
  ],
- "sha256": "481297ee416ec9beb92db71ca5303304da10b14a9ed9bd230c228ace740c82af"
+ "sha256": "55d90ffd1ea5528309ce856f1f5e3350355aa3c345c907c77fee0a024215582e"
 }

@@ -1,35 +1,83 @@
 {
  "canvas": [
   1440,
-  577
+  574
  ],
  "bounds": [
   74.0,
-  28.6,
+  28.5,
   1366.0,
-  548.7
+  546.0
  ],
  "texts": [
   {
-   "text": "Maya",
+   "text": "Amina",
    "size": 34,
    "bbox": [
-    229.6,
-    203.5,
-    330.4,
-    233.9
+    219.7,
+    168.8,
+    340.3,
+    199.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "was reading in bed",
+   "text": "was waiting for the",
    "size": 28,
    "bbox": [
-    147.0,
-    244.2,
-    413.0,
-    268.7
+    146.0,
+    209.5,
+    414.0,
+    234.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "delivery van",
+   "size": 28,
+   "bbox": [
+    193.6,
+    241.5,
+    366.4,
+    266.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Maya",
+   "size": 34,
+   "bbox": [
+    669.6,
+    168.8,
+    770.4,
+    199.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was serving a queue at",
+   "size": 28,
+   "bbox": [
+    556.7,
+    209.5,
+    883.3,
+    234.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "the till",
+   "size": 28,
+   "bbox": [
+    675.4,
+    241.5,
+    764.6,
+    266.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -38,46 +86,34 @@
    "text": "Tomas",
    "size": 34,
    "bbox": [
-    659.7,
-    203.5,
-    780.3,
-    233.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "was coming up the stairs",
-   "size": 28,
-   "bbox": [
-    544.2,
-    244.2,
-    895.8,
-    268.7
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "Amina",
-   "size": 34,
-   "bbox": [
     1099.7,
-    203.5,
+    168.8,
     1220.3,
-    233.9
+    199.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "was serving a customer",
+   "text": "was crossing town on a",
    "size": 28,
    "bbox": [
-    993.2,
-    244.2,
-    1326.8,
-    268.7
+    996.5,
+    209.5,
+    1323.5,
+    234.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "flat battery",
+   "size": 28,
+   "bbox": [
+    1081.5,
+    241.5,
+    1238.5,
+    266.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -87,45 +123,33 @@
    "size": 34,
    "bbox": [
     236.5,
-    483.5,
+    448.8,
     323.5,
-    513.9
+    479.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "was watching a film",
+   "text": "was showing the flat to a",
    "size": 28,
    "bbox": [
-    140.6,
-    524.2,
-    419.4,
-    548.7
+    104.1,
+    489.5,
+    455.9,
+    514.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "Mr Okonkwo",
-   "size": 34,
-   "bbox": [
-    601.0,
-    483.5,
-    839.0,
-    513.9
-   ],
-   "fill": "#1F3864",
-   "on": "#FFFFFF"
-  },
-  {
-   "text": "was sitting by the window",
+   "text": "viewer",
    "size": 28,
    "bbox": [
-    537.7,
-    524.2,
-    902.3,
-    548.7
+    233.4,
+    521.5,
+    326.6,
+    546.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -134,22 +158,58 @@
    "text": "Yuki",
    "size": 34,
    "bbox": [
-    1119.7,
-    483.5,
-    1200.3,
-    513.9
+    679.7,
+    448.8,
+    760.3,
+    479.2
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "was working, as always",
+   "text": "was speaking when the",
    "size": 28,
    "bbox": [
-    995.4,
-    524.2,
-    1324.6,
-    548.7
+    555.4,
+    489.5,
+    884.6,
+    514.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "connection dropped",
+   "size": 28,
+   "bbox": [
+    580.2,
+    521.5,
+    859.8,
+    546.0
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "Mr Okonkwo",
+   "size": 34,
+   "bbox": [
+    1041.0,
+    448.8,
+    1279.0,
+    479.2
+   ],
+   "fill": "#1F3864",
+   "on": "#FFFFFF"
+  },
+  {
+   "text": "was looking for the cat",
+   "size": 28,
+   "bbox": [
+    1000.1,
+    489.5,
+    1319.9,
+    514.0
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
@@ -159,10 +219,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "What each of the six people at number 14 was doing at twenty past seven: Maya was reading in bed, Tomas was coming up the stairs with shopping, Amina was serving a customer, Dani was watching a film, Mr Okonkwo was sitting by the window, and Yuki was working.",
+ "alt": "What each of the six people was doing on Saturday afternoon, with the thing it went wrong with drawn beside each name: Amina was waiting for a delivery, Maya was serving a queue at the till, Tomas was crossing town on a flat battery, Dani was showing the flat to a viewer, Yuki was speaking when the connection dropped, and Mr Okonkwo was looking for the cat.",
  "placed_in": [
   6.260416666666667,
-  2.5104166666666665
+  2.5
  ],
- "sha256": "49b7ec717522aa2c5d6baa6f08dce257f6def3d65dfcea32e1c04efae890ef45"
+ "sha256": "46664bb9645aeb0826ad670aa0c8290d1b24cbd1aff4b0165382598bcaff66b2"
 }

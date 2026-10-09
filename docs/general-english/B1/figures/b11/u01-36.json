@@ -23,12 +23,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Heatwave",
+   "text": "Location",
    "size": 30,
    "bbox": [
-    92.8,
+    104.6,
     330.9,
-    260.8,
+    249.0,
     357.5
    ],
    "fill": "#1F3864",
@@ -47,12 +47,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Transformer",
+   "text": "Permit",
    "size": 30,
    "bbox": [
-    345.3,
+    391.9,
     330.9,
-    551.5,
+    504.9,
     357.5
    ],
    "fill": "#1F3864",
@@ -71,12 +71,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Shift",
+   "text": "Diversion",
    "size": 30,
    "bbox": [
-    679.7,
+    640.0,
     330.9,
-    760.3,
+    800.0,
     357.5
    ],
    "fill": "#1F3864",
@@ -95,13 +95,13 @@
    "on": "#1F3864"
   },
   {
-   "text": "Saucer",
-   "size": 30,
+   "text": "Compensation",
+   "size": 26,
    "bbox": [
-    933.5,
-    330.9,
-    1049.7,
-    357.5
+    886.8,
+    333.2,
+    1096.4,
+    356.9
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
@@ -119,12 +119,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Queue",
+   "text": "Resident",
    "size": 30,
    "bbox": [
-    1208.7,
+    1188.7,
     330.9,
-    1317.7,
+    1337.7,
     357.5
    ],
    "fill": "#1F3864",
@@ -135,10 +135,10 @@
  "cards": 5,
  "stages": 0,
  "arrows": 0,
- "alt": "The five words from the global story as numbered picture cards: heatwave, transformer, shift, saucer, queue.",
+ "alt": "The five words from the global story as numbered picture cards: location, permit, diversion, compensation, resident.",
  "placed_in": [
   6.260416666666667,
   1.7291666666666667
  ],
- "sha256": "04c15dfadcde3d1d4293beedb155b03d00ee0aed497ddc123d0ed8486cbf4c61"
+ "sha256": "ef1bca49a386b1215e9490d11a8a0f294e6800c61b64d2df14d1f7bec1ce8333"
 }

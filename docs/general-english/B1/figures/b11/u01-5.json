@@ -23,12 +23,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Meter",
+   "text": "Depot",
    "size": 30,
    "bbox": [
-    160.9,
+    159.9,
     208.5,
-    260.6,
+    261.6,
     235.1
    ],
    "fill": "#1F3864",
@@ -47,12 +47,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Supply",
+   "text": "Card reader",
    "size": 30,
    "bbox": [
-    492.4,
+    449.8,
     208.5,
-    608.1,
+    650.7,
     235.1
    ],
    "fill": "#1F3864",
@@ -71,12 +71,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Bulb",
+   "text": "Agent",
    "size": 30,
    "bbox": [
-    851.8,
+    839.4,
     208.5,
-    927.7,
+    940.1,
     235.1
    ],
    "fill": "#1F3864",
@@ -95,12 +95,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Basement",
+   "text": "Stairwell",
    "size": 30,
    "bbox": [
-    1144.9,
+    1154.3,
     208.5,
-    1313.6,
+    1304.2,
     235.1
    ],
    "fill": "#1F3864",
@@ -119,12 +119,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Plug",
+   "text": "Shift",
    "size": 30,
    "bbox": [
-    173.2,
+    170.4,
     457.5,
-    248.3,
+    251.1,
     484.1
    ],
    "fill": "#1F3864",
@@ -143,12 +143,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Kettle",
+   "text": "Crack",
    "size": 30,
    "bbox": [
-    499.1,
+    502.9,
     457.5,
-    601.4,
+    597.6,
     484.1
    ],
    "fill": "#1F3864",
@@ -167,12 +167,12 @@
    "on": "#1F3864"
   },
   {
-   "text": "Stairs",
+   "text": "Car park",
    "size": 30,
    "bbox": [
-    840.2,
+    817.8,
     457.5,
-    939.3,
+    961.7,
     484.1
    ],
    "fill": "#1F3864",
@@ -183,10 +183,10 @@
  "cards": 7,
  "stages": 0,
  "arrows": 0,
- "alt": "The seven words of Column A as numbered picture cards: meter, supply, bulb, basement, plug, kettle, stairs, each with the thing it means drawn beside its number.",
+ "alt": "The seven words of Column A as numbered picture cards: depot, card reader, agent, stairwell, shift, crack, car park, each with the thing it means drawn beside its number.",
  "placed_in": [
   6.260416666666667,
   2.3125
  ],
- "sha256": "4ccdc397df4666ef50b8b006422f54d8e95b7b7d31246629c69088c53abd9152"
+ "sha256": "7600e2b99d769c11621239a309dc16480d9b9fc14cff74fd8a783ad4d6c4f68d"
 }

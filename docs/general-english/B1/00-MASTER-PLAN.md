@@ -1,6 +1,6 @@
 # English for Daily Life · B1 — Master Production Plan
 
-### Version 2 · audited, corrected, and now carrying a defect found in A2
+### Version 3 · the content law, after Unit 1 was built green and rejected on sight
 
 **Two student books, twenty units, full B1. The same architecture, the same visual
 density and the same check discipline that A2 shipped with — raised to B1 on numbers
@@ -11,6 +11,40 @@ the twenty A2 units that already exist, (b) was measured out of the CEFR-J
 Vocabulary and Grammar Profiles, which I downloaded and counted, or (c) is a
 forecast — and every forecast is labelled as one, with the measurement that will
 replace it named in §10.
+
+---
+
+## v3 changelog — the one thing 251 checks could not see
+
+Version 2's Unit 1 passed every check in the suite and was rejected on sight, in
+four words: *it has one subject.* It did. Thirty-seven of its forty-two
+sub-sections were about the same power cut on the same Tuesday evening, its
+forty-one pictures mostly restated their own captions, and its opening listening
+had a man standing still for twenty minutes in a dark stairwell while the same
+script said somebody walked past him holding out a lit phone.
+
+Every one of those is a property of **content**, and every check in families A–L
+compares a unit with a **shape**. That is not a gap in the checks; it is the
+boundary of what a structural suite can do, and v2 did not say where that
+boundary was. v3 says it, and then moves it.
+
+| | v2 | v3 |
+|---|---|---|
+| **What a unit is** | a topic, named in the title, carried through all eleven parts | a **theme** carrying **seven to nine distinct situations**, with the grammar point as the thread |
+| **§4, the twenty units** | twenty single topics | twenty neighbourhood themes, each with its strands named — the full list is in `ledgers/situations.yaml` |
+| **Where the design lives** | this document, as prose | `ledgers/situations.yaml`, as declarations a check can read |
+| **Realism** | an authorial intention | a declared `obvious_out` and `why_not` per situation, plus a blocklist of four premises (§4c) |
+| **Pictures** | 41 a unit, 28 distinct jobs — and a quarter of the icons said nothing their caption had not | `G34` depiction and `G35` contrast, measured and enforced (§6a) |
+| **The suite** | 251 checks | **263** — family M (10) and `G34`/`G35` |
+| **Unit 1** | *The Night the Power Went Out* | *The Afternoon Everything Happened at Once* — rebuilt whole, 263/263, nine situations |
+
+**The one finding that matters most.** A check that compares an artefact with
+itself is blind — that was the lesson of the five A2 defects in §8f, and this is
+the same lesson at a level up. The suite could prove Unit 1's 42 sub-sections,
+41 figures, 15.5-word mean and 6.61 reading grade, and every one of those
+numbers was true of a unit nobody would want to teach. §4c is the answer: the
+author declares the content, and the checks hold the declaration against the
+page.
 
 ---
 
@@ -51,7 +85,7 @@ checks so B1 cannot be born with it.
 ## 0 · The one-paragraph version
 
 **Unit 1 is built and this plan has been through it.** A2 is finished and, after
-five defects this work found in it, green at 251 checks on both volumes. B1 is
+six defects this work found in it, green at 263 checks on both volumes. B1 is
 the same shell — Warm Up + Parts 1–10, 42 sub-sections, 110 bold headings, 41
 figures, 5 audio tracks, CORE/PLUS — filled with B1 content and measured against
 a B1 band. **B1.1 — *Looking Back* (Units 1–10)** carries the past behind the
@@ -62,7 +96,7 @@ vocabulary band widens from 2,356 headwords to **4,530**, a measured 1.92×. The
 toolchain is not copied and not moved: `B1/tools` is a symlink, which costs one
 line and makes A2 byte-identical by construction rather than by gate.
 
-**Unit 1 measures 251 of 251 green, 7,598 prose words, 41 figures, 37 pages.**
+**Unit 1 measures 263 of 263 green, 7,874 prose words, 41 figures, 37 pages — after being built green at 251 and rejected for having one subject, and rebuilt whole as nine situations under one theme (§4c, §16).**
 Three numbers in this plan were forecasts and came back wrong — the word budget
 by 1,397 words, the page count by five pages in the safe direction, and the
 `E27` floor by nearly 3×. All three are now measurements, with the forecast kept
@@ -418,47 +452,111 @@ the spec. **The mean-sentence ceiling is 16**, and above roughly a 15-word mean 
 
 ---
 
-## 4 · The syllabus — twenty units — **retitled and completed in v2**
+## 4 · The syllabus — twenty units — **rebuilt as themes in v3**
 
 Grammar from the CEFR-J B1 Grammar Profile; the code in the last column is the item
 the unit teaches. No point repeats any of A2's twenty. No country repeats any of
-A2's twenty.
+A2's twenty. **The grammar order and the countries are unchanged from v2, because
+both were sound.** What changed is everything in the Theme column.
 
-**What v2 changed.** v1's topic column named each unit after its grammar —
-*"Interruptions and Accidents"*, *"Comparing and Choosing Again"*. That is a syllabus
-label, not a reason to turn the page. Every title below is now **a specific situation
-an adult learner in 2026 is actually in**, and the grammar is what that situation
-needs. The grammar order is unchanged, because it was sound.
+**What v3 changed, and why.** v1 named each unit after its grammar. v2 renamed each
+unit after a concrete situation — and that turned out to be the same mistake wearing
+better clothes, because a unit named after one situation is a unit that spends
+eleven parts on it. v2's Unit 1 was *The Night the Power Went Out*, and it was a
+power cut in the warm-up, a power cut in the vocabulary, three power-cut listenings,
+a power-cut meeting, a power-cut reading, four power-cut writing tasks, a power-cut
+phone call, a power cut in Buenos Aires and a power-cut argument three weeks later.
+
+**A unit is now a theme carrying several situations.** The theme is a region of
+neighbourhood life wide enough to hold six or seven different things going wrong in
+different places to different people. The grammar point is the thread that runs
+through all of them, and it is the grammar that repeats, never the situation. Each
+unit's situations are named below and declared in full in `ledgers/situations.yaml`,
+where family M reads them (§4c).
+
+**This is not decoration. It is what the grammar wants.** The past continuous is the
+tense of simultaneity: teaching it through one interruption gives the unit one long
+action and one short one and then nothing left to do. Five things happening at once
+give it the shape it actually has. The same argument holds down the list — duration
+needs several durations beside each other, deduction needs several chains of
+evidence, comparison needs several pairs, regret needs several people's regrets.
 
 ### Book 1 — *Looking Back* (the past behind the past, and what might have been)
 
-| U | Title | Grammar | Part 8 | CEFR-J |
-|---|---|---|---|---|
-| 1 | **The Night the Power Went Out** | past continuous vs past simple — *while / when* | Argentina | `TA.PASTPRG` (declared bridge, §4b) |
-| 2 | **How Long Have You Been Waiting?** | present perfect continuous — *how long, for, since* | Finland | `TA.PRPFPRG` |
-| 3 | **By the Time They Told Us** | past perfect — *by the time, before, after* | Nepal | `TA.PASTPF` |
-| 4 | **What the Rent Used to Be** | *used to* / *would* for past habit | Tunisia | `MD.used_to` |
-| 5 | **This Time Next Year** | future forms contrasted + future continuous | Australia | `TA.FUT`, `TA.FUTPRG` |
-| 6 | **If the Money Came Tomorrow** | second conditional | Colombia | `SUBJ.PAST` |
-| 7 | **The Flat They Didn't Take** | third conditional | Estonia | `SUBJ.PASTPF` |
-| 8 | **Something in the Garden** | modals of deduction — *must / might / may / can't be* | Philippines | `MD.must`, `MD.might`, `MD.may` |
-| 9 | **We Should Have Read the Reviews** | *should have / ought to / had better* | Chile | `MD.MD_PF`, `MD.ought_to` |
-| 10 | **Learning Something at Forty** | *be able to / manage to* | Senegal | `MD.be_able_to`, **`IMP.V.NEG`**, **`IMP.do_V`** |
+| U | Theme | The situations it carries | Grammar | Part 8 | CEFR-J |
+|---|---|---|---|---|---|
+| 1 | **The Afternoon Everything Happened at Once** | a misdelivered skip · a card reader that failed mid-queue · a window cracked with nobody watching · a flat battery halfway across town · a flat already let · a dropped call · three hours looking for a cat · a street closed for filming · the meeting three weeks later | past continuous vs past simple — *while / when* | Argentina | `TA.PASTPRG` (declared bridge, §4b) |
+| 2 | **Still Waiting** | scaffolding up since March · a claim in its fourth month · a consultation with no reply · damp reported four times · a licence renewal somewhere · a list on the stair door | present perfect continuous — *how long, for, since* | Finland | `TA.PRPFPRG` |
+| 3 | **Nobody Told Us** | a rent rise agreed in June · a road closed that morning · a school place after the deadline · a chemist already shut · a deposit in the wrong account · what the noticeboard had said | past perfect — *by the time, before, after* | Nepal | `TA.PASTPF` |
+| 4 | **What This Street Used to Be** | the Thursday market · what the flats went for · the 42 before the route changed · the launderette · who lived in flat 3 · a box of photographs | *used to* / *would* for past habit | Tunisia | `MD.used_to` |
+| 5 | **The Year the Street Gets Dug Up** | eleven weeks of roadworks · a block going up · a lease ending in October · an exam in June · a pram in the hall by August · the year on one page | future forms contrasted + future continuous | Australia | `TA.FUT`, `TA.FUTPRG` |
+| 6 | **If We Had the Money** | £210 and five claims on it · somewhere to put a bike · a light in the car park · the beds at the front · five private what-ifs · the two who would not vote | second conditional | Colombia | `SUBJ.PAST` |
+| 7 | **The Ones That Got Away** | a flat not taken in 2023 · a job not applied for · a deposit nobody chased · an argument at a party · a second shop nearly taken · a letter not sent | third conditional | Estonia | `SUBJ.PASTPF` |
+| 8 | **Somebody's Been Here** | a parcel for nobody · a noise at the back, twice · a smell on the second floor · a light in the empty flat · a bill for the wrong meter · what five people wrote down | modals of deduction — *must / might / may / can't be* | Philippines | `MD.must`, `MD.might`, `MD.may` |
+| 9 | **We Should Have Checked** | a car bought on a Saturday · a holiday let with an old photograph · a contract with a second year in it · a subscription nobody noticed · a quotation that was not one · the checklist written afterwards | *should have / ought to / had better* | Chile | `MD.MD_PF`, `MD.ought_to` |
+| 10 | **Starting Something at Forty** | a bookkeeping course · a driving test at the fourth attempt · Mr Okonkwo's Portuguese · eleven months to break even · an access course and a childcare problem · a how-to sheet | *be able to / manage to* | Senegal | `MD.be_able_to`, **`IMP.V.NEG`**, **`IMP.do_V`** |
 
 ### Book 2 — *Making Yourself Clear* (saying, joining, explaining)
 
-| U | Title | Grammar | Part 8 | CEFR-J |
-|---|---|---|---|---|
-| 11 | **Where It Was Made, and How It Got Here** | passive extended — perfect, future, modal, *get + pp* | Bangladesh | `PASS.MD`, `PASS.get_VN`, `PASS.IO` |
-| 12 | **Giving Up the Phone for a Week** | gerunds and infinitives — *-ing* vs *to*, *not to do* | Denmark | `TO.not_to_do`, `VG.P`, `VN.P`, **`VP.SV.AFF`** |
-| 13 | **Too Many People, Too Little Room** | *too … to* / *so … that* | Thailand | `RBDEG.too_to`, `RBDEG.so_JJ`, **`EXCL.how_JJ.RB`** |
-| 14 | **Nothing Like the Picture** | comparison refined — *not as … as*, intensified, *-er and -er* | Jamaica | `COMP.EQ`, `COMP.even_JJR`, `COMP.and`, **`DT.these.those_N`**, **`PPOS.mine.etc`** |
-| 15 | **The Woman Whose Name Is on the Bridge** | non-defining relatives + *where / when / whose* | Italy | `PREL.NR`, `RBREL.NR`, `RBREL.NOANT` |
-| 16 | **What the Group Chat Said** | reported speech in full — backshift, reported questions and commands | Rwanda | `INDSP.tell`, `INDQ.ask`, `CAUS.ask`, **`VP.SVOtoO.AFF`** |
-| 17 | **Asking the Council** | indirect questions and question tags | Turkey | `CL.WH.OBJ`, `TO.WH_to_do`, `TAG.AFF`, `TAG.NEG`, **`INTF` ×6** |
-| 18 | **Fixing It Ourselves** | reflexives, *each other*, *-thing / -body*, *others* | Uruguay | `PREFL.oneself.etc`, `PREF.each_other`, `NN.thing_JJ`, `P.others` |
-| 19 | **Somebody Ought to Say Something** | *it + be + adj + to-infinitive*; *there + modal + be* | Sri Lanka | `PP.it_to_do`, `EX.there.MD` |
-| 20 | **Putting a Case, and Being Heard** | adverbs of attitude and discourse linkers | Croatia | `RB.ATT` |
+| U | Theme | The situations it carries | Grammar | Part 8 | CEFR-J |
+|---|---|---|---|---|---|
+| 11 | **Where Everything Comes From** | how the shop's stock is ordered · where the recycling goes · what is done to the water · a parcel tracked backwards · bread baked where · reading a label properly | passive extended — perfect, future, modal, *get + pp* | Bangladesh | `PASS.MD`, `PASS.get_VN`, `PASS.IO` |
+| 12 | **A Week Without It** | seven days without a smartphone · a month without cooking meat · leaving the car · handing in a notice · an hour before bed, agreed and broken · the diaries at the end | gerunds and infinitives — *-ing* vs *to*, *not to do* | Denmark | `TO.not_to_do`, `VG.P`, `VN.P`, **`VP.SV.AFF`** |
+| 13 | **Too Many, Too Few** | one park, four uses · eleven days for an appointment · nine spaces, nineteen cars · fortnightly bins · a class of thirty-four · counting it for a week first | *too … to* / *so … that* | Thailand | `RBDEG.too_to`, `RBDEG.so_JJ`, **`EXCL.how_JJ.RB`** |
+| 14 | **Nothing Like the Picture** | eight photographs and one viewing · a sofa in a colour with a name · twelve minutes from the sea · what the advertisement said the job was · unlimited, with conditions · the review that would have helped | comparison refined — *not as … as*, intensified, *-er and -er* | Jamaica | `COMP.EQ`, `COMP.even_JJR`, `COMP.and`, **`DT.these.those_N`**, **`PPOS.mine.etc`** |
+| 15 | **The Names on the Street** | the woman on the bridge · a bench with a plate · who the school was named after · a mural nobody repaints · the sign Amina kept · a plaque in thirty words | non-defining relatives + *where / when / whose* | Italy | `PREL.NR`, `RBREL.NR`, `RBREL.NOANT` |
+| 16 | **What the Group Chat Said** | the building being sold · a message home, forwarded four times · an email read as an instruction · the app at eleven at night · somebody's cousin who works for the council · going back to the source | reported speech in full — backshift, reported questions and commands | Rwanda | `INDSP.tell`, `INDQ.ask`, `CAUS.ask`, **`VP.SVOtoO.AFF`** |
+| 17 | **Asking the Council** | a licence that is with somebody · a repair logged three times · a skip permit applied for late · a bus-lane fine and a photograph · a form with no box for it · the record that shortens the next call | indirect questions and question tags | Turkey | `CL.WH.OBJ`, `TO.WH_to_do`, `TAG.AFF`, `TAG.NEG`, **`INTF` ×6** |
+| 18 | **Fixing It Ourselves** | a drill that belongs to everybody · a repair afternoon · four beds and a watering rota · the month the stair rota broke · a list of who can do what · saying it properly afterwards | reflexives, *each other*, *-thing / -body*, *others* | Uruguay | `PREFL.oneself.etc`, `PREF.each_other`, `NN.thing_JJ`, `P.others` |
+| 19 | **Somebody Ought to Say Something** | the third step from the bottom · a mattress by the bins · £4 a month nobody queried · the drain at the front · a door that shuts but does not lock · deciding who says it | *it + be + adj + to-infinitive*; *there + modal + be* | Sri Lanka | `PP.it_to_do`, `EX.there.MD` |
+| 20 | **Putting a Case** | three minutes at a public meeting · two hundred words to a local paper · standing for the committee · saying no to something reasonable · a question you were not expecting · the last word | adverbs of attitude and discourse linkers | Croatia | `RB.ATT` |
+
+### 4c · The content law — what family M enforces, and what it cannot
+
+The law is one sentence: **a unit is a theme carrying several distinct situations,
+and it is the grammar that repeats, never the situation.** `ledgers/situations.yaml`
+makes that declarable and family M makes it checkable. The numbers:
+
+| | | Check |
+|---|---|---|
+| Distinct situations a unit carries | **≥ 7**, each owning at least one sub-section outright | `M02` |
+| Sub-sections any one situation may own | **≤ 7** of 42 (16.7%) | `M03` |
+| Share of all attributions any one may take | **≤ 25%**, counting the theme sub-sections that draw on it | `M03` |
+| Distinct physical settings | **≥ 5**, and none on more than 9 sub-sections | `M04` |
+| Strands a theme-level sub-section must draw on | **≥ 2**, each verified present in its own text | `M05` |
+| Share of a unit's situations any one person may be in | **≤ 60%** | `M09` |
+
+`M01` requires every one of the 42 sub-sections to be attributed to a situation or to
+the theme, and every attribution to name a heading that exists — so the map cannot
+drift from the unit. `M07` requires each situation to be findable in the unit's own
+text, by its own declared probe words, in the very sub-sections it claims.
+
+**The realism clause, and its honest limit.** No check can judge whether a situation
+is plausible. What `M06` can do is refuse one whose obvious objection has not been
+named and answered: every strand declares `obvious_out` — the thing any adult reader
+thinks of within two seconds — and `why_not`, the answer, in the strand's own facts.
+`M08` greps four blocklisted premises, and the first of them is the one that got the
+file written:
+
+| id | What it forbids | Why |
+|---|---|---|
+| `dark_without_phone` | twenty minutes of being unable to see | Every adult in 2026 carries a torch, and v2's own script had somebody walk past holding out a lit phone |
+| `unreachable_by_phone` | being uncontactable, asserted bare | It needs a stated cause — a flat battery, a dead area, a number nobody knows by heart. Unit 1 now uses all three, and names them |
+| `nobody_knew` | a week of total ignorance | Information travels; a street with a group chat does not have one |
+| `unexplained_authority` | a flat refusal with no reason | Institutions are slow, not silent, and the slowness is where the language work is |
+
+**`M10` is the calibration**, and it is to this family what `L01` is to the level
+floors. A law that would have passed the thing it was written to reject is not a law,
+so the superseded unit is kept at `spec/fixtures/b11-u01-v1.md` and `M10` fails if
+the numbers above would have let it through. They would not: it carried **2** distinct
+situations against a floor of 7, ran **37** of its 42 sub-sections on one of them
+against a cap of 7, and stood in **2** settings against a floor of 5.
+
+**What this still cannot do.** It cannot tell you a situation is boring, that a
+sentence is flat, or that a joke does not land. It can tell you that a unit is not
+one story in disguise, that every situation in it has survived its own obvious
+objection, and that the objection's answer reached the page. That is the whole
+claim, and §13 does not make a larger one.
 
 ### 4a · CEFR-J B1 coverage — audited, and the six gaps closed
 
@@ -569,6 +667,55 @@ draws:
 money, study, media, services, the environment and officialdom. Forecast **45–65 new
 icons**; the icon map already covers both volumes of A2 and is extended, not replaced.
 
+### 6a · The depiction law — added in v3, because the pictures were rejected too
+
+"The visuals are not interesting at all either." Half of that is taste and half of it
+is measurable, and this is the measurable half: **a figure that restates its own
+caption teaches nothing, and a figure drawn to show a contrast that draws the same
+thing on both sides teaches the opposite of what it was for.** v2's Unit 1 had both.
+
+* Its `scene` of six people put a generic person glyph under *was reading in bed*, a
+  nurse under *was coming up the stairs* and a house under *was sitting by the
+  window*. The glyph named the person's job; the caption did all the work. Six
+  pictures, no information.
+* Its `info_gap_pair`, whose entire task is for two students to find four
+  differences, drew the same stairs, the same bag and the same door on both sides —
+  including for the pair *three doors shut* / *three doors open*, where the picture
+  contradicted the text it served.
+
+**`G34` — depiction.** In the eleven jobs whose glyph is there to depict (`scene`,
+`word_grid`, `bank_strip`, `cue_cards`, `glossary_grid`, `category_set`,
+`close_scene`, `world_strip`, `info_gap_pair`, `before_after`, `sort_bins`), every
+icon must be licensed by some content word of its own label — the icon's own name, or
+a word or pair of words that `tools/icon_map.py` resolves to it. `dialogue_strip` and
+`speakers` are deliberately outside it: there the glyph identifies who is talking and
+is a portrait, not a depiction.
+
+**`G35` — contrast.** In `info_gap_pair` and `before_after`, the two sides may not
+draw the same glyph in more than half their positions.
+
+**Scope, stated rather than implied.** Both are gated on
+`golden.figures.depictive_icons`, which B1's spec sets and A2's does not. Measured
+when the law was written: **332 of A2's 1,354 depictive icon/label pairs (25%) would
+fail `G34`**, concentrated in `category_set` (84/110), `scene` (77/96) and
+`world_strip` (59/66). A2 is not retrofitted. Eight hundred and twenty figures are
+already drawn and shipped, and re-choosing a quarter of their glyphs in the same
+commit that invents the law would be a change nobody could review. The law applies
+forward; the measurement is recorded here so the decision is visible rather than
+silent, and reversing it is a day's work with `G34` as the worklist.
+
+**Two new glyphs**, `van` and `cat`, drawn for Unit 1 because the law would not
+accept a picture that does not show what its label says and nothing existing showed
+a vehicle that was not a bus or an animal at all. Both go into the shared library.
+
+**What G34 found while being written**, and this is the part worth keeping: the
+pair-extraction it uses originally recognised only `(label, icon)` and
+`(name, icon, descriptor)`. The third shape, `(title, [lines], icon)`, is what
+`cue_cards` and `before_after` take — so the icon at the top of **every role-play
+card and every before-and-after panel in both courses** was never looked at. That is
+another instance of §8f's lesson, found by writing a new check rather than by
+running an old one.
+
 **The pronunciation slot** is already five jobs in A2 (`sound_shape`, `sound_groups`,
 `function_map`, `annotated_lines`, and the A2.2 phrase-and-explanation shape). B1
 pronunciation is connected speech, weak forms, sentence stress and intonation —
@@ -593,11 +740,17 @@ marking points and sample answers grow with them.
 
 ---
 
-## 8 · The checks — 238 inherited, 13 changed, 13 new
+## 8 · The checks — 238 inherited, 13 changed, 25 new
 
 B1 does not get a new check suite. It gets **the same suite**, because a second suite
 is a second standard and that is the definition of drift. 238 checks carry over as
-they are. Thirteen read a number that moves. Nine are new.
+they are. Thirteen read a number that moves. **Twenty-five are new: thirteen in v2,
+and twelve more in v3** — family M's ten (§4c) and `G34`/`G35` (§6a), which take the
+suite from 251 to **263**. All twelve are declared at B1 only, for a stated reason:
+family M reads `ledgers/situations.yaml`, which A2 does not have, and `G34`/`G35` are
+gated on a spec flag A2 does not set. All twelve carry a mutation fixture in
+`MUTATIONS_B1`, so `K15` accounts for every one of them rather than letting them sit
+quietly untested.
 
 ### 8a · The 238, by family
 
@@ -623,7 +776,10 @@ human judgement rather than pass or fail on their own.
 | `J15` | pages a volume | 230–520 | **forecast 330–560, locked at Phase 4** |
 | `F12` | Part 8 countries | A2's twenty | **B1's twenty** (§4) |
 
-### 8c · New — 13, taking the suite to 251
+### 8c · New in v2 — 13, taking the suite to 251
+
+*(v3 adds twelve more — family M and `G34`/`G35` — taking it to 263. They are
+specified in §4c and §6a rather than repeated here.)*
 
 | New | Family | What it enforces | Why it must exist |
 |---|---|---|---|
@@ -837,12 +993,12 @@ B1 Unit 1 would be written against a suite that does not yet have `C29`/`C30`.
 | **0a** | **Fix the A2 shuffling defect (§8e).** Add `C29`, `C30` and their two mutation fixtures. Permute the matching tasks and word banks, rewrite the affected keys, regenerate the affected figures. | Both A2 volumes green, every unaffected figure byte-identical. **Met** — 7 matching tasks and 42 word banks repaired. |
 | **0b** | **Share the toolchain (§9).** One symlink, five data edits. | 820 A2 figure hashes identical, 2 book hashes identical, 240×2 checks green. `K20` added. |
 | **1** | The B1 spec. Derive both wordlists from the CEFR-J CSV. Grammar ledger from the B1 profile, **every one of the 84 rows carrying a `taught`/`recycled` disposition (§4a)**. Cast ledger seeded from A2's final state, ages +2. The twenty countries. `golden.yaml` with §3.3's forecast envelopes, hash-locked. | The spec loads, the hash locks, `K01` and `K21` green. Wordlist derivation reproduces A2's shipped list at ≥ 99%. |
-| **2** | The checks. 13 spec changes, 10 remaining new checks, the fixtures. **Calibrate the three floors against the twenty A2 units.** | **251** checks registered; `L01` proves every A2 unit fails all three floors; A2's mutation suite **229/229** and B1's own **4/4**. |
+| **2** | The checks. 13 spec changes, 10 remaining new checks, the fixtures. **Calibrate the three floors against the twenty A2 units.** | **263** checks registered (251 at v2, plus family M and `G34`/`G35` at v3); `L01` proves every A2 unit fails all three floors; A2's mutation suite **230/230** and B1's own **16/16**. |
 | **3** | Covers and front matter for both volumes. | `I01`–`I12` green on four covers. |
-| **4** | **Unit 1, end to end — the calibration and review gate.** Markdown, key, 41 figures, build, both suites. Then **measure it** and replace every forecast in §3.3, `H21` and `J15` with the measured value. | **251/251** on Unit 1. The spec's forecasts are gone, replaced by numbers. **I stop here and show you one finished unit before building nineteen more.** |
-| **5** | Units 2–10. Build B1.1. | 251/251 on the volume; page and size envelopes hold. |
+| **4** | **Unit 1, end to end — the calibration and review gate.** Markdown, key, 41 figures, build, both suites. Then **measure it** and replace every forecast in §3.3, `H21` and `J15` with the measured value. | **263/263** on Unit 1, at the second attempt: the first was green at 251 and was rejected for having one subject, which is what family M now exists to prevent. The spec's forecasts are gone, replaced by numbers. **I stop here and show you one finished unit before building nineteen more.** |
+| **5** | Units 2–10. Build B1.1. | 263/263 on the volume; page and size envelopes hold; family M green on every unit. |
 | **6** | Units 11–20. Build B1.2. | Same, plus `F19` (no glossary collision with A2) and `K19` (A2 spine recycled). |
-| **7** | Release. Both books, both keys, twenty single units, covers, reports, `DOWNLOADS.md`, every link verified by download. | Both volumes 251/251, mutations 229/229 + 4/4, **A2 still 251/251**. |
+| **7** | Release. Both books, both keys, twenty single units, covers, reports, `DOWNLOADS.md`, every link verified by download. | Both volumes 263/263, mutations 230/230 + 16/16, **A2 still 263/263**. |
 
 **The per-unit loop**, unchanged from the one that built A2's last nineteen units:
 
@@ -917,11 +1073,12 @@ that halves it. Your call; the default is to match A2 exactly.
 
 B1 is done when, and only when:
 
-1. Both volumes: **251 of 251 checks green**, zero failures, every adjudication gate
+1. Both volumes: **263 of 263 checks green**, zero failures, every adjudication gate
    answered.
 2. Mutation suite: **A2's 229 of 229 caught and B1's 4 of 4**, 0 escaped, 0 broken.
 3. **A2 still green and byte-identical** — `K20` green — at its new total of
-   **251/251**, i.e. including `C29`, `C30` and `G32` (§8e, §8f).
+   **263/263**, i.e. including `C29`, `C30` and `G32` (§8e, §8f), and including
+   family M and `G34`/`G35` on every B1 unit (§4c, §6a).
 4. Every unit: 41 figures, 42 sub-sections, 110 bold headings, 60 closed items, 10
    glossary words, 5 audio tracks, 5 writing tasks.
 5. Every unit clears all three level floors and all five ceilings.
@@ -1054,32 +1211,48 @@ unchanged, so structural parity is not a promise in this plan, it is a gate. ✅
 
 ## 16 · Where Unit 1 actually landed
 
-Built, measured, green. Read this before §17.
+Built, rejected, rebuilt whole, measured, green. The v2 row is kept beside the
+v3 row wherever the number moved, because the size of the correction is the
+point of this section.
 
-| | |
-|---|---|
-| Checks | **251 of 251, 0 FAIL**, 13 adjudication gates answered, 3 skips |
-| Prose words | 7,598 against a forecast of 6,201 — §3.3 and §11 |
-| Figure captions | 551 words, inside the 480–625 allowance |
-| Figures | 41, all rendered, preflight clean |
-| Pages | 37 for the unit, 15 for its key, 56 for the one-unit volume |
-| Mean sentence | 15.5 — inside the 12.0–16.0 corridor |
-| Flesch–Kincaid | 6.61 — inside the 5.5–7.0 corridor |
-| B1-tier share | 3.24% against a floor of 2.2% and A2's own-tier mean of 4.09% |
-| Off-band words left unglossed | 0 |
-| Glossary words shared with A2 | 0 |
+| | v2 — *The Night the Power Went Out* | v3 — *The Afternoon Everything Happened at Once* |
+|---|---|---|
+| Checks | 251 of 251, 0 FAIL | **263 of 263, 0 FAIL**, 13 gates answered, 2 skips |
+| Mutations | 4 of 4 | **16 of 16 caught**, 0 escaped, 0 broken |
+| Distinct situations | **2** | **9** |
+| Largest share one situation takes | **37 of 42 sub-sections (88%)** | **6 of 42 (14%)**; 19% of all attributions |
+| Distinct settings | 2 | **9** |
+| Icons that restate their own label | 15 of 78 (19%) | **0 of 83** |
+| Contrast figures drawing the same glyph on both sides | 1 of 1 | **0 of 2** |
+| Prose words | 7,598 | 7,874 |
+| Figure captions | 551 words | 547 — inside the 480–625 allowance |
+| Figures | 41 | 41, all rendered, preflight clean |
+| Pages | 37 unit / 15 key / 56 volume | 37 unit / 16 key / 57 volume |
+| Mean sentence | 15.5 | **14.8** — inside the 12.4–16.3 corridor |
+| Flesch–Kincaid | 6.61 | **5.99** — inside the 5.5–7.0 corridor |
+| B1-tier share | 3.24% | **2.75%**, above the 2.2% floor |
+| Off-band words unglossed · glossary shared with A2 | 0 · 0 | 0 · 0 |
 
-**Three skips, and all three are honest.** `J15` and `J17` are per-*volume*
-envelopes and cannot be measured against one unit of ten, so they report what
-they see and stand down. `G29` is the coverage law; it ran, and passed — the
-skip in the first run was the §8f defect.
+**Two skips, and both are honest.** `J15` and `J17` are per-*volume* envelopes and
+cannot be measured against one unit of ten, so they report what they see and stand
+down. (`G29` skipped in the very first run; that was the §8f defect, and it has run
+and passed ever since.)
 
-**The one number I would watch.** The mean-sentence corridor is narrow and it
-is arithmetic, not taste: `FK = 0.39 × mean + 11.8 × syllables − 15.59`, so at
-Unit 1's measured 1.37 syllables a word the ceilings and floors together admit
-a mean between **12.4 and 16.3 words**. The first draft of Unit 1 came in at
-19.5 and the over-correction at 11.8 — failing in both directions before it
-settled at 15.5. `RESUME.md` says so where the next unit will be written.
+**The two numbers I would watch, and one of them nearly shipped wrong.** The
+mean-sentence corridor is arithmetic, not taste:
+`FK = 0.39 × mean + 11.8 × syllables − 15.59`, so at Unit 1's 1.35 syllables a word
+the ceilings and floors together admit a mean between **12.4 and 16.3 words**. The
+first rebuild landed at a 13.5-word mean and **FK 5.55** — passing, with five
+hundredths of margin above a floor of 5.5, which is a unit one editorial tidy-up
+away from turning the book red. Eighteen sentence joins took it to 14.8 and 5.99.
+Margin is part of being green; a check that passes by 0.05 has not really been
+satisfied, and `RESUME.md` says so where Unit 2 will be written.
+
+**What the rebuild cost, for estimating Unit 2.** The unit's markdown, its key, its
+41 figure definitions and 4 of its icons were written again from nothing; the
+toolchain, the spec and the shell were untouched. Twelve new checks, two new glyphs,
+48 new icon-map entries, one new ledger and one new mutation kind. A2 was not
+reopened and both its volumes are still green at 263.
 
 ---
 
@@ -1091,21 +1264,30 @@ the toolchain — is built and green, and A2 is rebuilt and green with six
 defects out of it. Units 2–10 are the next commitment, and these five want an
 answer before I make it:
 
-1. **Read Unit 1.** `B1/DOWNLOADS.md` has one-click links. The thing most worth
-   your eye is whether it *reads* as B1 — the checks can tell you the sentences
-   average 15.5 words and the reading grade is 6.6, and they cannot tell you
-   whether a learner coming off A2 Unit 20 would open this and feel the step.
+1. **Read Unit 1 again.** `B1/DOWNLOADS.md` has one-click links. The checks can
+   now tell you it carries nine situations in nine settings, that no one of them
+   takes more than a seventh of the unit, and that every picture shows something
+   its caption does not. They cannot tell you whether the nine are *interesting*,
+   which is the one judgement left entirely with you — and it is the judgement
+   that sent the last version back.
 2. **Do you have a B1 coursebook to measure?** (§1.) If yes, drop it in
    `B1/source/` and §3's numbers are replaced by that book's. If no, Route B
    stands — and Unit 1 has now replaced the three forecasts that mattered.
-3. **Volume titles** — *Looking Back* and *Making Yourself Clear*, or your own.
-   **The twenty unit titles and twenty countries** in §4 — any you want changed.
-   Both are cheap to change now and expensive after Unit 10.
+3. **The twenty themes in §4** are the thing to read next, and the thing that is
+   cheap now and expensive after Unit 10. Each row names the six or seven
+   situations that unit will carry; `ledgers/situations.yaml` has them in full.
+   Strike any theme you do not want and I will replace it before Unit 2. Volume
+   titles (*Looking Back*, *Making Yourself Clear*) and the twenty countries are
+   unchanged from v2 and equally cheap to change.
 4. **`release/` size** — match A2 exactly (+150 MB), or PDFs only (+75 MB)?
    A2's `release/` is already 150 MB and B1's will be comparable.
 5. **The two numbers that most decide how B1 feels**: the 32-word sentence cap
-   and the 7.0 reading-grade ceiling (§3.2). Unit 1 sits at a 15.5-word mean
-   and FK 6.61, so there is room in both directions, and moving either one
+   and the 7.0 reading-grade ceiling (§3.2). Unit 1 sits at a 14.8-word mean
+   and FK 5.99, so there is room in both directions, and moving either one
    moves every unit after it.
+6. **A2's 332 unlicensed icons** (§6a). The depiction law applies forward and A2
+   is not retrofitted. Say the word and I will work `G34`'s list back through
+   A2's 820 figures; it is about a day, and it would touch two books that are
+   currently green.
 
 Silence on 3–5 means I proceed as written; silence on 2 means Route B.

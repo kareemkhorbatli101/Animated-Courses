@@ -11,180 +11,204 @@
  ],
  "texts": [
   {
-   "text": "Card A \u2014 you made the call",
+   "text": "Card A \u2014 you made the",
    "size": 34,
    "bbox": [
-    107.1,
-    48.2,
-    632.9,
-    78.6
-   ],
-   "fill": "#FFFFFF",
-   "on": "#1F3864"
-  },
-  {
-   "text": "engineers already sent",
-   "size": 28,
-   "bbox": [
-    138.0,
-    148.9,
-    501.9,
-    173.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "no time was given",
-   "size": 28,
-   "bbox": [
-    138.0,
-    204.9,
-    425.8,
-    229.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "a note about the third",
-   "size": 28,
-   "bbox": [
-    138.0,
-    260.9,
-    488.0,
-    285.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "floor",
-   "size": 28,
-   "bbox": [
-    138.0,
-    294.9,
-    211.0,
-    319.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "say what you do not",
-   "size": 28,
-   "bbox": [
-    138.0,
-    346.9,
-    457.3,
-    371.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "know",
-   "size": 28,
-   "bbox": [
-    138.0,
-    380.9,
-    221.7,
-    405.4
-   ],
-   "fill": "#1F3864",
-   "on": "#EEF3F9"
-  },
-  {
-   "text": "Card B \u2014 you have been",
-   "size": 34,
-   "bbox": [
-    837.6,
+    146.2,
     42.2,
-    1302.4,
+    593.8,
     72.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "waiting",
+   "text": "telephone call",
    "size": 34,
    "bbox": [
-    998.8,
+    234.3,
     80.2,
-    1141.2,
+    505.7,
     110.6
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "ask how long",
+   "text": "the job number you",
    "size": 28,
    "bbox": [
-    838.0,
+    138.0,
     148.9,
-    1045.5,
+    447.8,
     173.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask what was actually",
+   "text": "were given",
+   "size": 28,
+   "bbox": [
+    138.0,
+    182.9,
+    312.2,
+    207.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Tuesday morning, not",
+   "size": 28,
+   "bbox": [
+    138.0,
+    234.9,
+    480.4,
+    259.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "before",
+   "size": 28,
+   "bbox": [
+    138.0,
+    268.9,
+    241.2,
+    293.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "the charge goes to",
+   "size": 28,
+   "bbox": [
+    138.0,
+    320.9,
+    435.4,
+    345.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "number 40",
+   "size": 28,
+   "bbox": [
+    138.0,
+    354.9,
+    308.6,
+    379.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "admit the one thing you",
+   "size": 28,
+   "bbox": [
+    138.0,
+    406.9,
+    518.9,
+    431.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "got wrong",
+   "size": 28,
+   "bbox": [
+    138.0,
+    440.9,
+    299.3,
+    465.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "Card B \u2014 you waited all day",
+   "size": 34,
+   "bbox": [
+    803.0,
+    48.2,
+    1337.0,
+    78.6
+   ],
+   "fill": "#FFFFFF",
+   "on": "#1F3864"
+  },
+  {
+   "text": "ask about the delivery",
+   "size": 28,
+   "bbox": [
+    838.0,
+    148.9,
+    1192.8,
+    173.4
+   ],
+   "fill": "#1F3864",
+   "on": "#EEF3F9"
+  },
+  {
+   "text": "ask what the depot",
    "size": 28,
    "bbox": [
     838.0,
     204.9,
-    1186.1,
+    1143.5,
     229.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "said",
+   "text": "actually said",
    "size": 28,
    "bbox": [
     838.0,
     238.9,
-    903.2,
+    1038.1,
     263.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ask what you will do",
+   "text": "ask what happens on",
    "size": 28,
    "bbox": [
     838.0,
     290.9,
-    1160.6,
+    1173.2,
     315.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "next",
+   "text": "Tuesday",
    "size": 28,
    "bbox": [
     838.0,
     324.9,
-    908.4,
+    965.9,
     349.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "be impatient, not",
+   "text": "be annoyed, not",
    "size": 28,
    "bbox": [
     838.0,
     376.9,
-    1112.7,
+    1095.0,
     401.4
    ],
    "fill": "#1F3864",
@@ -207,10 +231,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The two 7D role-play cards side by side. Card A, you made the call: engineers already sent, no time was given, a note about the third floor, say what you do not know. Card B, you have been waiting: ask how long, ask what was actually said, ask what you will do next, be impatient but not unreasonable.",
+ "alt": "The two 7D role-play cards side by side. Card A, you made the call: the job number you were given, Tuesday morning and not before, the charge goes to number 40, admit the one thing you got wrong. Card B, you waited all day: ask about the delivery, ask what the depot actually said, ask what happens on Tuesday, be annoyed but not unreasonable.",
  "placed_in": [
   6.260416666666667,
   2.2083333333333335
  ],
- "sha256": "cd68e90342c44d93d99cccde53a0d0c46928826f87a1492754204c6d22ba0a9a"
+ "sha256": "34ac36bba010a240ee3370c41caea05a85ff848ac59d4ab6f541b5b942f7470a"
 }

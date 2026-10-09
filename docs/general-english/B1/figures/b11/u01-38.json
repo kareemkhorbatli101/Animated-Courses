@@ -11,216 +11,216 @@
  ],
  "texts": [
   {
-   "text": "There is sixty-one pounds. What does the building buy?",
+   "text": "Two hundred and ten pounds in the fund. What now?",
    "size": 34,
    "bbox": [
-    185.1,
+    211.5,
     67.0,
-    1254.9,
+    1228.5,
     97.4
    ],
    "fill": "#FFFFFF",
    "on": "#1F3864"
   },
   {
-   "text": "The staircase light,",
+   "text": "Pay for the glass and",
    "size": 30,
    "bbox": [
-    98.4,
+    82.8,
     368.2,
-    424.3,
+    439.9,
     394.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "ninety pounds",
+   "text": "put up the note",
    "size": 30,
    "bbox": [
-    140.4,
+    129.3,
     404.2,
-    382.2,
+    393.3,
     430.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the dangerous part is lit",
+   "text": "the crack is paid for now",
    "size": 26,
    "bbox": [
-    105.4,
+    101.0,
     470.5,
-    417.3,
+    421.6,
     494.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "next autumn before",
+   "text": "a note nobody can",
    "size": 26,
    "bbox": [
-    132.0,
+    140.0,
     514.5,
-    390.7,
+    382.7,
     538.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "anything else",
+   "text": "enforce",
    "size": 26,
    "bbox": [
-    173.5,
+    212.4,
     545.5,
-    349.2,
+    310.3,
     569.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "A box of lamps,",
+   "text": "Pay for the glass and",
    "size": 30,
    "bbox": [
-    588.9,
+    541.4,
     368.2,
-    851.1,
+    898.6,
     394.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "twenty-two pounds",
+   "text": "make no rule",
    "size": 30,
    "bbox": [
-    556.3,
+    609.7,
     404.2,
-    883.7,
+    830.3,
     430.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "something arrives this",
+   "text": "nobody has to say who",
    "size": 26,
    "bbox": [
-    574.7,
+    569.8,
     470.5,
-    865.3,
+    870.2,
     494.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "week",
+   "text": "did it",
    "size": 26,
    "bbox": [
-    685.8,
+    687.1,
     501.5,
-    754.2,
+    752.9,
     525.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a lamp in the dark is",
+   "text": "the same thing next",
    "size": 26,
    "bbox": [
-    586.2,
+    588.6,
     544.5,
-    853.8,
+    851.4,
     568.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "hard to find",
+   "text": "Saturday",
    "size": 26,
    "bbox": [
-    644.4,
+    661.4,
     575.5,
-    795.6,
+    778.6,
     599.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "Spend nothing, write",
+   "text": "Leave the crack, buy",
    "size": 30,
    "bbox": [
-    1000.3,
+    1003.0,
     368.2,
-    1357.1,
+    1354.3,
     394.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the plan",
+   "text": "a bollard",
    "size": 30,
    "bbox": [
-    1108.7,
+    1103.7,
     404.2,
-    1248.6,
+    1253.6,
     430.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "somebody checks the",
+   "text": "the kerb is clear for the",
    "size": 26,
    "bbox": [
-    1036.7,
+    1026.3,
     470.5,
-    1320.7,
+    1331.0,
     494.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "cupboard",
+   "text": "van",
    "size": 26,
    "bbox": [
-    1117.5,
+    1154.8,
     501.5,
-    1239.8,
+    1202.6,
     525.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "a plan does not light a",
+   "text": "nothing is done about",
    "size": 26,
    "bbox": [
-    1032.9,
+    1036.3,
     544.5,
-    1324.4,
+    1321.0,
     568.2
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "staircase",
+   "text": "the crack",
    "size": 26,
    "bbox": [
-    1120.3,
+    1118.1,
     575.5,
-    1237.1,
+    1239.3,
     599.2
    ],
    "fill": "#1F3864",
@@ -231,10 +231,10 @@
  "cards": 0,
  "stages": 3,
  "arrows": 0,
- "alt": "The decision task as one question and three branches, with what each one costs: the staircase light at ninety pounds, which lights the dangerous part but makes the fund wait until next autumn; a box of lamps at twenty-two pounds, which arrives this week but is hard to find in the dark; and spending nothing and writing the plan, which makes somebody check the cupboard but does not light a staircase.",
+ "alt": "The decision task as one question and three branches, with what each one costs: paying for the glass and putting up a note, which pays for the crack now but adds a rule nobody can enforce; paying for the glass and making no rule, which asks nobody to say who did it but risks the same thing next Saturday; and leaving the crack and buying a bollard, which keeps the kerb clear for the van but does nothing about the crack.",
  "placed_in": [
   6.260416666666667,
   2.9895833333333335
  ],
- "sha256": "0f275d4f8f9fd62dc083748b644f755e8932ff24c35a450d35593f2a17a33865"
+ "sha256": "3ffe678c3bd2dd7cdb1d26266116d5f184af4dc54a5ccce5695584b17b3399c3"
 }

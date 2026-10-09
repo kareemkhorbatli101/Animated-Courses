@@ -35,12 +35,12 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "I was cooking when it happened.",
+   "text": "I was carrying shopping up to the flat.",
    "size": 26,
    "bbox": [
     670,
     61.6,
-    1097.4,
+    1164.7,
     85.4
    ],
    "fill": "#1F3864",
@@ -59,24 +59,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "What you found instead",
+   "text": "What interrupted it",
    "size": 30,
    "bbox": [
     190,
     170.8,
-    595.6,
+    519.5,
     197.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I found two candles in a drawer.",
+   "text": "My phone rang, and the battery was low.",
    "size": 26,
    "bbox": [
     670,
     171.2,
-    1085.7,
+    1202.4,
     194.8
    ],
    "fill": "#1F3864",
@@ -95,36 +95,36 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "What you did for two",
+   "text": "What the second thing",
    "size": 30,
    "bbox": [
     190,
     264.3,
-    546.7,
+    574.6,
     291.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "hours",
+   "text": "was",
    "size": 30,
    "bbox": [
     190,
     296.3,
-    286.0,
+    255.8,
     323.0
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "We ate in the kitchen with the door open.",
+   "text": "The man below me left the street door open.",
    "size": 26,
    "bbox": [
     670,
     280.6,
-    1210.5,
+    1253.4,
     304.3
    ],
    "fill": "#1F3864",
@@ -143,24 +143,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Whether you enjoyed it",
+   "text": "Which one cost the time",
    "size": 30,
    "bbox": [
     190,
     389.8,
-    587.1,
+    600.8,
     416.5
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "I quite enjoyed it.",
+   "text": "All of it took twice as long.",
    "size": 26,
    "bbox": [
     670,
     390.2,
-    898.0,
+    1014.2,
     413.8
    ],
    "fill": "#1F3864",
@@ -171,10 +171,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The shape of the short piece of writing in four steps -- what you were doing, what you found instead, what you did for two hours, and whether you enjoyed it -- with a line of the model beside each one.",
+ "alt": "The shape of the short piece of writing in four steps -- what you were doing, what interrupted it, what the second thing was, and which one cost the time -- with a line of the model beside each one.",
  "placed_in": [
   6.260416666666667,
   2.0520833333333335
  ],
- "sha256": "abc67d788070ac55199a716b5e7b84c9af4f2d677516837abc614fe4c560c2ba"
+ "sha256": "a992c432dd278bb5fd0d8994fb09aabe2e90db372ec5bed172c594af996a9ae9"
 }

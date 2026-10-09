@@ -11,7 +11,7 @@
  ],
  "texts": [
   {
-   "text": "7.20",
+   "text": "1.30",
    "size": 34,
    "bbox": [
     148.1,
@@ -23,31 +23,31 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "every light",
+   "text": "a lorry left the",
    "size": 28,
    "bbox": [
-    104.7,
+    75.3,
     267.9,
-    275.3,
+    304.7,
     292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "goes out",
+   "text": "skip",
    "size": 28,
    "bbox": [
-    121.4,
+    157.5,
     303.9,
-    258.6,
+    222.5,
     328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "7.21",
+   "text": "1.40",
    "size": 34,
    "bbox": [
     413.1,
@@ -59,31 +59,31 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Dani shouting",
-   "size": 28,
+   "text": "the van went back",
+   "size": 24,
    "bbox": [
-    344.9,
-    267.9,
-    565.1,
-    292.4
+    330.3,
+    270.3,
+    579.7,
+    291.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "on the landing",
-   "size": 28,
+   "text": "to the depot",
+   "size": 24,
    "bbox": [
-    340.5,
-    303.9,
-    569.5,
-    328.4
+    370.9,
+    302.3,
+    539.1,
+    323.8
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "7.25",
+   "text": "2.10",
    "size": 34,
    "bbox": [
     678.1,
@@ -95,31 +95,31 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Amina lights",
+   "text": "the card reader",
    "size": 28,
    "bbox": [
-    620.9,
+    597.2,
     267.9,
-    819.1,
+    842.8,
     292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "the candle",
+   "text": "stopped",
    "size": 28,
    "bbox": [
-    636.9,
+    655.8,
     303.9,
-    803.1,
+    784.2,
     328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "7.32",
+   "text": "2.30",
    "size": 34,
    "bbox": [
     943.1,
@@ -131,31 +131,31 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "Amina called the",
-   "size": 26,
+   "text": "the agent sent",
+   "size": 28,
    "bbox": [
-    862.1,
-    268.7,
-    1107.9,
+    869.0,
+    267.9,
+    1101.0,
     292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "emergency line",
-   "size": 26,
+   "text": "the email",
+   "size": 28,
    "bbox": [
-    872.3,
-    302.7,
-    1097.7,
-    326.4
+    910.9,
+    303.9,
+    1059.1,
+    328.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "9.10",
+   "text": "5.10",
    "size": 34,
    "bbox": [
     1208.1,
@@ -167,24 +167,24 @@
    "on": "#EEF3F9"
   },
   {
-   "text": "the supply",
+   "text": "the cat found",
    "size": 28,
    "bbox": [
-    1166.7,
+    1144.0,
     267.9,
-    1333.3,
+    1356.0,
     292.4
    ],
    "fill": "#1F3864",
    "on": "#EEF3F9"
   },
   {
-   "text": "comes back",
+   "text": "under a car",
    "size": 28,
    "bbox": [
-    1157.7,
+    1159.8,
     303.9,
-    1342.3,
+    1340.2,
     328.4
    ],
    "fill": "#1F3864",
@@ -195,10 +195,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "One evening on a line: at twenty past seven every light goes out, a minute later Dani is shouting on the landing, at twenty-five past Amina lights the candle she keeps behind the counter, at half past she called the emergency line, and at ten past nine the supply comes back.",
+ "alt": "One Saturday afternoon on a line: at half past one the lorry left the skip on the pavement, ten minutes later the van went back to the depot, at ten past two the card reader stopped, at half past two the agent sent the email, and at ten past five the cat was found under a car.",
  "placed_in": [
   6.260416666666667,
   1.8645833333333333
  ],
- "sha256": "58f07ab6c614391460d80aea40af02653f008b7398a878679a1d266e33b4f8af"
+ "sha256": "46ab800aab8140c7da77a3626421d69619124d21d35cf5cf66343eff211b52bd"
 }

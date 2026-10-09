@@ -23,36 +23,36 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "the staircase",
+   "text": "the crack",
    "size": 28,
    "bbox": [
-    451.7,
+    481.2,
     331.2,
-    657.3,
+    627.8,
     355.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "a box of lamps",
+   "text": "the car park",
    "size": 28,
    "bbox": [
-    769.9,
+    789.3,
     331.2,
-    1001.1,
+    981.7,
     355.7
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "a written plan",
+   "text": "the kerb",
    "size": 28,
    "bbox": [
-    1105.6,
+    1150.1,
     331.2,
-    1327.4,
+    1282.9,
     355.7
    ],
    "fill": "#1F3864",
@@ -63,10 +63,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "The argument at number 14 drawn along one line: the sixty-one pounds in the fund, the staircase where Tomas stood for twenty minutes, the box of lamps Dani wants on the landing, and the written plan Amina would rather have instead.",
+ "alt": "The meeting at number 14 drawn along one line: the two hundred and ten pounds in the fund, the crack in the communal glass, the car park where nobody saw it happen, and the kerb Amina would rather spend the money on.",
  "placed_in": [
   6.260416666666667,
   1.625
  ],
- "sha256": "865b54fb3ea2eb0ca0e57708c13b5b87fe6afd253fe8ceddf80376c840aa4a19"
+ "sha256": "f812522066d2a720cdc968d10ee3f72ca1cca0e42ac7fadb58e8d48e8e6c4468"
 }

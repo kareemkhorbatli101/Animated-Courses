@@ -635,7 +635,11 @@ _EXPECT: dict = {}
 
 
 def _figmod(ctx, u):
-    k = (ctx.book, u.num)
+    # The root is part of the key. Without it a mutation that rewrites the
+    # content module in a scratch tree is handed back the real module from the
+    # cache, and its check passes -- which would make G34's and G35's negative
+    # tests silently untestable.
+    k = (ctx.root, ctx.book, u.num)
     if k not in _FIGMOD:
         import importlib.util
         p = os.path.join(ctx.root, 'content', ctx.book, f'u{u.num:02d}_figures.py')
@@ -643,7 +647,7 @@ def _figmod(ctx, u):
             _FIGMOD[k] = None
         else:
             spec = importlib.util.spec_from_file_location(
-                f'_g32_{ctx.book}_{u.num}', p)
+                f'_g32_{abs(hash(ctx.root))}_{ctx.book}_{u.num}', p)
             mod = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(mod)
             _FIGMOD[k] = mod
@@ -718,3 +722,199 @@ def g33(u, ctx):
             bad.append(f'{n}: {dropped[:3]}')
     return expect(not bad, f'{len(bad)} figure(s) print a label short: '
                            f'{"; ".join(bad[:4])}')
+
+
+# --- G34, G35 ---------------------------------------------------------------
+# Two checks about whether a picture carries information.
+#
+# B1 Unit 1 was rejected with "the visuals are not interesting at all". The
+# measurable half of that complaint is this: a figure that restates its own
+# caption teaches nothing, and a figure drawn to show a contrast that draws the
+# same thing on both sides teaches the opposite of what it was drawn for.
+#
+# The superseded unit had both. Its `scene` of six people put a generic person
+# glyph under "was reading in bed", a nurse glyph under "was coming up the
+# stairs" and a house glyph under "was sitting by the window" -- the icon named
+# the person's job, not the action the sentence is about, so six pictures said
+# nothing the six captions had not already said. And its `info_gap_pair`, whose
+# whole task is for two students to find four differences, drew stairs, a bag
+# and a door identically on both sides -- including for the pair "three doors
+# shut" / "three doors open", where the figure contradicted the text it served.
+#
+# Scope. Both are gated on `golden.figures.depictive_icons`, which B1's spec
+# sets and A2's does not. A2's 820 figures shipped before this law: measured at
+# the time it was written, 332 of A2's 1,354 depictive pairs (25%) would fail
+# G34. They are not retrofitted, and 00-MASTER-PLAN.md section 4c carries that
+# decision, the measurement, and what changing it would cost. A law applied
+# forward is honest; a law applied retroactively to 820 drawn figures in the
+# same commit that invents it is not reviewable.
+
+# Jobs where the icon is there to DEPICT the label. Deliberately excludes
+# `dialogue_strip` and `speakers`, where the glyph identifies who is talking
+# and is a portrait rather than a depiction, and `match_columns`, whose left
+# column is often a name.
+_DEPICT_JOBS = {'word_grid', 'bank_strip', 'cue_cards', 'glossary_grid',
+                'category_set', 'scene', 'close_scene', 'world_strip',
+                'info_gap_pair', 'before_after', 'sort_bins'}
+# Jobs whose whole purpose is a contrast between two halves.
+_CONTRAST_JOBS = {'info_gap_pair', 'before_after'}
+
+_STOP = set(
+    'a an the and or but of to in on at by for with from is are was were be been '
+    'being am do does did have has had will would can could shall should may might '
+    'must this that these those it he she they we i you his her its their my your our '
+    'as so not no all one two three four five six seven eight nine ten very still just '
+    'about up down out off over into than then there here when while what who how '
+    'again more most some any each every other another same'.split())
+
+
+def _fig_calls(ctx, u):
+    """[(slot, job, args)] for a unit, by calling each lambda against a recorder.
+
+    The content modules bind `import figures as F` at module level, so swapping
+    that one attribute intercepts every job call without touching figures.py.
+    """
+    import types
+    mod = _figmod(ctx, u)
+    if mod is None:
+        return None
+    calls, out = [], []
+    class _Rec(types.ModuleType):
+        def __getattr__(s, job):
+            if job.startswith('_'):
+                raise AttributeError(job)
+            def f(*a, **k):
+                calls.append((job, a, k))
+            return f
+    real = getattr(mod, 'F', None)
+    mod.F = _Rec('figures')
+    try:
+        for n, fn in sorted(mod.FIGURES.items()):
+            calls.clear()
+            try:
+                fn()
+            except Exception:
+                continue
+            if calls:
+                job, a, k = calls[0]
+                out.append((n, job, a))
+    finally:
+        mod.F = real
+    return out
+
+
+def _icon_pairs(args, names):
+    """(label, icon) for every tuple in `args` that pairs a word with a glyph.
+
+    Two shapes, because the jobs use two. `(label, icon)` and
+    `(name, icon, descriptor)` put the glyph second; `(title, [lines], icon)` --
+    which is what `cue_cards` and `before_after` take -- puts it last, after a
+    list. Only the first shape was recognised, so the icon at the top of every
+    role-play card and every before-and-after panel went unchecked.
+    """
+    def walk(x):
+        if (isinstance(x, tuple) and len(x) >= 2
+                and all(isinstance(i, str) for i in x[:2]) and x[1] in names):
+            yield ((x[2] if len(x) > 2 and isinstance(x[2], str) else x[0]), x[1])
+            return
+        if (isinstance(x, tuple) and len(x) >= 2 and isinstance(x[0], str)
+                and isinstance(x[-1], str) and x[-1] in names):
+            yield (x[0], x[-1])
+        if isinstance(x, (list, tuple)):
+            for i in x:
+                yield from walk(i)
+    yield from walk(args)
+
+
+def _licensed(lab, ic, pick):
+    """Does some content word of this label license this icon?
+
+    Three ways, any of which is enough: the icon's own name is in the label; the
+    label as a whole resolves to it through icon_map; or some word or adjacent
+    pair of words in it does. The last two matter because `power cut` -> spark
+    and `while` -> clock are deliberate map entries, and a word-by-word test
+    alone would reject both.
+    """
+    t = re.sub(r"[^a-z0-9 -]", ' ', (lab or '').lower())
+    t = re.sub(r'\s+', ' ', t).strip()
+    ws = t.split()
+    if ic in ws or ic.replace('_', ' ') in t:
+        return True
+    if pick(t) == ic:
+        return True
+    cands = [w for w in ws if w not in _STOP]
+    cands += [f'{a} {b}' for a, b in zip(ws, ws[1:])]
+    for w in cands:
+        for v in (w, w.rstrip('s'), re.sub(r'ing$', '', w),
+                  re.sub(r'ing$', 'e', w), re.sub(r'ed$', '', w)):
+            if v and pick(v) == ic:
+                return True
+    return False
+
+
+@check('G34', 'golden.figures.depictive_icons',
+       'In a figure drawn to depict, every icon is licensed by its own label')
+def g34(u, ctx):
+    if not ctx.spec.get('figures', {}).get('depictive_icons'):
+        return ok('golden.figures.depictive_icons is not set at this level; '
+                  'the depiction law is B1-forward (plan 4c)')
+    import icon_map as IM
+    allow = {tuple(x) for x in
+             (ctx.spec.get('figures', {}).get('icon_allow') or [])}
+    # Deliberately NOT guarded on whether the figures have been rendered. What
+    # this reads is the content module's choice of glyph, which exists the
+    # moment the unit does; waiting for a render would mean the first thing
+    # anybody checked about a picture came after they had drawn 41 of them.
+    calls = _fig_calls(ctx, u)
+    if calls is None:
+        return ok('no content module for this unit')
+    bad, tot = [], 0
+    for n, job, a in calls:
+        if job not in _DEPICT_JOBS:
+            continue
+        for lab, ic in _icon_pairs(a, IM.ICON_NAMES):
+            tot += 1
+            if (lab, ic) in allow or (ic, lab) in allow:
+                continue
+            if not _licensed(lab, ic, IM.pick):
+                bad.append(f'slot {n} ({job}): "{lab}" drawn as `{ic}`')
+    if bad:
+        return fail(f'{len(bad)} of {tot} icons say nothing their own label has not '
+                    f'already said: {bad[:5]}. Either choose a glyph for what is '
+                    f'happening, add the synonym to tools/icon_map.py, or declare '
+                    f'the pair in golden.figures.icon_allow with a reason.')
+    return ok(f'{tot} depictive icons, each licensed by its own label')
+
+
+@check('G35', 'golden.figures.depictive_icons',
+       'A figure drawn to show a contrast draws something different on each side')
+def g35(u, ctx):
+    if not ctx.spec.get('figures', {}).get('depictive_icons'):
+        return ok('golden.figures.depictive_icons is not set at this level; '
+                  'the contrast law is B1-forward (plan 4c)')
+    import icon_map as IM
+    calls = _fig_calls(ctx, u)
+    if calls is None:
+        return ok('no content module for this unit')
+    bad, tot = [], 0
+    for n, job, a in calls:
+        if job not in _CONTRAST_JOBS:
+            continue
+        sides = [x for x in a if isinstance(x, (list, tuple))]
+        if len(sides) < 2:
+            continue
+        tot += 1
+        left = [ic for _, ic in _icon_pairs(sides[0], IM.ICON_NAMES)]
+        right = [ic for _, ic in _icon_pairs(sides[1], IM.ICON_NAMES)]
+        if not left or not right:
+            continue
+        pairs = list(zip(left, right))
+        same = [i for i, (x, y) in enumerate(pairs, 1) if x == y]
+        if len(same) > len(pairs) // 2:
+            bad.append(f'slot {n} ({job}): {len(same)} of {len(pairs)} positions draw '
+                       f'the same glyph on both sides ({left} vs {right})')
+    if bad:
+        return fail(f'{len(bad)} contrast figure(s) that do not contrast: {bad}. '
+                    f'The task asks the learner to find the difference; the picture '
+                    f'must have one.')
+    return ok(f'{tot} contrast figures, each differing on more than half its positions')

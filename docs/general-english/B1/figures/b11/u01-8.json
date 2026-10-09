@@ -73,32 +73,32 @@
  ],
  "leaders": [
   [
-   580.8,
-   97.4,
+   568.0,
+   121.0,
    846,
    45.3
   ],
   [
-   580.8,
-   186.8,
+   606.4,
+   198.5,
    846,
    155.3
   ],
   [
-   606.4,
-   276.1,
+   312.0,
+   285.5,
    846,
    265.3
   ],
   [
-   315.2,
-   332.5,
+   593.6,
+   353.6,
    846,
    375.3
   ],
   [
-   219.2,
-   358.3,
+   235.2,
+   395.9,
    846,
    485.3
   ]
@@ -106,10 +106,10 @@
  "cards": 0,
  "stages": 0,
  "arrows": 0,
- "alt": "Number 14 Alder Street cut through from the basement to the top flat. A box waits on the top shelf of a cupboard in the top flat, a drawer stands open in a third-floor kitchen, a small plate sits on the wall beside a door on the second floor, a humming cabinet stands in the corner of the ground-floor shop, and a grey box sits in the hall beside it. Five numbered lines run to the right for the learner to write each word, numbered from the top down.",
+ "alt": "Number 14 Alder Street and the ground around it, cut through. A thin line runs across a window on the half landing, a small machine stands beside a till two streets away, a street door is held back with a brick, a large open container sits on the pavement outside, and open ground lies behind the building. Five numbered lines run to the right for the learner to write each word, numbered from the top down.",
  "placed_in": [
   6.260416666666667,
   2.3125
  ],
- "sha256": "4c51b2e6894adf193a942e28e196e1025dd2dbc34bafb193378e9e356d4e129e"
+ "sha256": "ab42127d955ed622b8fa843fd6c67eefa6a776ede5289ec3b8a080c19d636b35"
 }

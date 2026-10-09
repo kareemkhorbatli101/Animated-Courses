@@ -11,36 +11,36 @@
  ],
  "texts": [
   {
-   "text": "While Maya was reading, the",
+   "text": "While Yuki was speaking, the",
    "size": 28,
    "bbox": [
     134,
     58.0,
-    590.7,
+    595.6,
     82.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "lights was going out.",
+   "text": "connection were dropping.",
    "size": 28,
    "bbox": [
     134,
     92.0,
-    466.0,
+    558.0,
     116.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "\u2026the lights went out.",
+   "text": "\u2026the connection dropped.",
    "size": 28,
    "bbox": [
     842.0,
     58.0,
-    1182.2,
+    1258.1,
     82.5
    ],
    "fill": "#1F3864",
@@ -59,60 +59,60 @@
    "on": "#FFFFFF"
   },
   {
-   "text": "he had finished.",
+   "text": "anybody asked me.",
    "size": 28,
    "bbox": [
     134,
     218.0,
-    387.9,
+    439.4,
     242.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "Tomas was carrying the bags",
+   "text": "Yuki was joining the call again",
    "size": 28,
    "bbox": [
     134,
     310.0,
-    592.7,
+    612.9,
     334.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "when he was putting them down.",
+   "text": "when she was losing it.",
    "size": 28,
    "bbox": [
     134,
     344.0,
-    661.4,
+    503.5,
     368.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "While we waiting on the stairs,",
+   "text": "While the others talking, nobody",
    "size": 28,
    "bbox": [
     134,
     436.0,
-    625.1,
+    653.8,
     460.5
    ],
    "fill": "#1F3864",
    "on": "#FFFFFF"
   },
   {
-   "text": "nobody said anything.",
+   "text": "noticed that she left.",
    "size": 28,
    "bbox": [
     134,
     470.0,
-    486.1,
+    467.0,
     494.5
    ],
    "fill": "#1F3864",
@@ -128,5 +128,5 @@
   6.260416666666667,
   2.3958333333333335
  ],
- "sha256": "1b688f53c490e29831d35704ec892f89633b34eaacd45d49b4573bbafe182f45"
+ "sha256": "360f884c5c6720a030e420d83c65624c072007c613ade393a01708d64bdcfd4f"
 }

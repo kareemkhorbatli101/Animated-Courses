@@ -14,6 +14,28 @@ import os, re
 # specific keys come first within each block.
 MAP = [
     # ----------------------------------------------- B1 vocabulary (Units 1-20)
+    # Unit 1, rewritten 2026-10-09 against the depiction law. Every entry here
+    # answers one question: if a learner saw only this picture, would they be
+    # thinking about this word? `skip -> bin` passes it; `skip -> person` does
+    # not, and G34 is the check that says so.
+    ('card reader', 'wallet'), ('skip', 'bin'), ('delivery', 'box'),
+    ('pavement', 'path'), ('depot', 'factory'), ('agent', 'key'),
+    ('stairwell', 'stairs'), ('landing', 'stairs'), ('slot', 'timetable'),
+    ('car park', 'car_park'), ('shift', 'clock'), ('connection', 'network'),
+    ('cracked', 'crack'), ('lorry', 'van'), ('driver', 'van'),
+    ('overlap', 'layer'), ('capacity', 'scales'), ('backlog', 'many_things'),
+    ('kerb', 'slab'), ('permit', 'certificate'), ('diversion', 'junction'),
+    ('compensation', 'coins'), ('resident', 'home'), ('location', 'pin'),
+    ('filming', 'camera'), ('viewing', 'magnifier'), ('viewer', 'magnifier'),
+    ('email', 'envelope'), ('video call', 'screen'), ('handover', 'notebook'),
+    ('ward', 'hospital'), ('propped', 'door'), ('bookshop', 'book'),
+    ('fund', 'coins'), ('glass', 'window'), ('ring road', 'roundabout'),
+    ('forty-two', 'bus'), ('was crossing', 'crossing'), ('meeting', 'speech'),
+    ('rubbish', 'bin'), ('till', 'wallet'), ('cash', 'coins'),
+    ('children', 'crowd'), ('note', 'notice'), ('letter', 'envelope'),
+    ('bay', 'slab'), ('exchange', 'network'), ('telephone', 'mobile'),
+    ('waited', 'clock'), ('waiting', 'clock'), ('keys', 'key'),
+    ('one lane', 'lane'), ('brick', 'stones'),
     # Added for B1 Unit 1. A label that IS an icon name needs no entry (switch,
     # meter, bulb, cable, stairs, road, laptop, ear, spark are drawn glyphs), so
     # these are the synonyms only.
