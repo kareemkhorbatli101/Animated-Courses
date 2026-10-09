@@ -122,8 +122,8 @@ items:
       twice, puts it in her apron pocket and goes on laying the table; only
       the second time she sets down a fork does the audience see that her hand
       is not steady. The change is so ________ that a man two rows back missed
-      it altogether and had to be told afterwards what had happened.
-    clue: "a man two rows back missed it altogether and had to be told afterwards what had happened"
+      it altogether and had to be told afterward what had happened.
+    clue: "a man two rows back missed it altogether and had to be told afterward what had happened"
     relation: cause
     noise: ["her apron pocket", "laying the table", "sets down a fork"]
     pathway: >-
@@ -199,8 +199,8 @@ items:
       d: "nothing in the three paragraphs makes a noise; a heron at dawn is silent."
 
   - id: L2-HUM-10
-    word: satirise
-    options: [satirise, praise, explain, decorate]
+    word: satirize
+    options: [satirize, praise, explain, decorate]
     answer: a
     traps: {b: T4, c: T1, d: T2}
     passage: >-

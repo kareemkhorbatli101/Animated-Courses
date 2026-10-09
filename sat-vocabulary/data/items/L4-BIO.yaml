@@ -13,7 +13,7 @@ items:
       It will let its body temperature climb six degrees before it begins to
       sweat at all. Its kidneys return water to the blood until the urine runs
       like syrup, and its droppings are dry enough to burn on a fire. An animal
-      that must ________ every litre it carries cannot afford the habits of one
+      that must ________ every liter it carries cannot afford the habits of one
       that drinks twice a day.
     clue: ["It will let its body temperature climb six degrees before it begins to sweat at all", "cannot afford the habits of one that drinks twice a day"]
     relation: cause
@@ -28,20 +28,20 @@ items:
       d: "the camel is not gauging its water but spending it as slowly as it can."
 
   - id: L4-BIO-02
-    word: harbour
+    word: harbor
     rare_sense: true
-    options: [harbour, anchor, destroy, release]
+    options: [harbor, anchor, destroy, release]
     answer: a
     traps: {b: T3, c: T4, d: T2}
     passage: >-
       The ward was scrubbed twice a day for a month and the infection rate did
       not move. Two different disinfectants were tried, one of them new to the
       hospital. When the team finally cultured the mattresses themselves, they
-      found the organism living two centimetres inside the foam, where no cloth
+      found the organism living two centimeters inside the foam, where no cloth
       and no spray had ever reached, in numbers that had not fallen in six
       weeks. A surface can look clean and still ________ a population that
       will reach the next patient through a split in the cover.
-    clue: ["living two centimetres inside the foam, where no cloth and no spray had ever reached", "a population that will reach the next patient through a split in the cover"]
+    clue: ["living two centimeters inside the foam, where no cloth and no spray had ever reached", "a population that will reach the next patient through a split in the cover"]
     relation: contrast
     noise: ["twice a day for a month", "the infection rate", "six weeks", "Two different disinfectants"]
     pathway: >-
@@ -120,7 +120,7 @@ items:
     noise: ["six violinists", "four hours a day", "in childhood", "an instrument"]
     pathway: >-
       Use has enlarged part of an adult cortex, so the tissue can still be
-      reshaped. The blank must mean able to be moulded by what happens to it.
+      reshaped. The blank must mean able to be molded by what happens to it.
     key:
       b: "man-made material is the everyday sense of the answer word, and no material is at issue here."
       c: "that is exactly the old view which these measurements overturned."
@@ -136,13 +136,13 @@ items:
       Nylon has been in the sea for eighty years, which is nothing at all. No
       bacterium had ever met it before 1935, and for decades nothing in the
       water would touch a lost net. Then in 2016 a team working in the sediment
-      of a Japanese harbour found a strain that grows on nylon and on almost
+      of a Japanese harbor found a strain that grows on nylon and on almost
       nothing else, using two enzymes with no close relatives anywhere. A
       ________ food source will find an organism to eat it in the end, but
       eighty years is quick work.
     clue: ["No bacterium had ever met it before 1935", "using two enzymes with no close relatives anywhere"]
     relation: cause
-    noise: ["a Japanese harbour", "a lost net", "in 2016", "in the sediment"]
+    noise: ["a Japanese harbor", "a lost net", "in 2016", "in the sediment"]
     pathway: >-
       The material did not exist until 1935 and the enzymes that digest it have
       no ancestors to speak of. The blank must mean new and not met before.
@@ -162,7 +162,7 @@ items:
       not go back to the sea. The fish that drift down tail first in October
       have nothing left in them: the fat is gone, the jaw will not close, and
       the flesh has begun to break down while they are still swimming. For a
-      fortnight the bears and the gulls live on little else. A ________ fish
+      two weeks the bears and the gulls live on little else. A ________ fish
       still feeds a valley, and the nitrogen in its body turns up the
       following summer in the needles of the spruce.
     clue: ["the fat is gone, the jaw will not close, and the flesh has begun to break down while they are still swimming", "they do not go back to the sea"]
@@ -232,9 +232,9 @@ items:
       The water leaves the rock at eighty degrees, carries enough acid to take
       the skin off a hand, and holds almost no nitrogen. Conditions ________ to
       every other plant on the hillside are the reason the alga has the place
-      to itself; a cooler and sweeter pool thirty metres down the slope is
+      to itself; a cooler and sweeter pool thirty meters down the slope is
       crowded with competitors that would shade it out in a week.
-    clue: ["carries enough acid to take the skin off a hand", "a cooler and sweeter pool thirty metres down the slope is crowded with competitors"]
+    clue: ["carries enough acid to take the skin off a hand", "a cooler and sweeter pool thirty meters down the slope is crowded with competitors"]
     relation: cause
     noise: ["eighty degrees", "on the hillside", "almost no nitrogen", "the hot spring"]
     pathway: >-

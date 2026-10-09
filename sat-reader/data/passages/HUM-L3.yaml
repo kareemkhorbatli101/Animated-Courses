@@ -66,7 +66,7 @@ passages:
       hand, and they are the chapters she threw away. The published version
       carries the famous scene in which Captain Wentworth writes a letter while
       overhearing a conversation he is not part of, and then puts the folded
-      paper into Anne Elliot hand before leaving the room. The canceled chapter,
+      paper into Anne Elliot's hand before leaving the room. The canceled chapter,
       meaning the draft section she replaced, handles the same reconciliation
       through an awkward interview arranged by a third party.
 
@@ -134,11 +134,11 @@ passages:
       point carries more weight than four placed in passing. The two methods
       therefore have to be used together, which is the current practice:
       counting to find where to look, and reading to say what is there. A claim
-      that survives both is about as secure as literary claims get. Spurgeon
+      that survives both is about as secure as literary claims get. Spurgeon's
       work has been criticized for categories that reflect her own period more
       than the plays. Her counts, however, have been checked and are
       substantially accurate. The combination is now standard practice in any
-      serious study of a writer vocabulary, and the counting is usually done
+      serious study of a writer's vocabulary, and the counting is usually done
       first because it is cheap.
     anchors:
       - take: "A concordance indexes every occurrence of every word with its context."
@@ -165,7 +165,7 @@ passages:
     passage: |
       Scansion, meaning the marking of stressed and unstressed syllables in a
       line, looks like the least consequential of literary skills, and it has
-      produced one of the field most solid results. Shakespeare plays are not
+      produced one of the field's most solid results. Shakespeare's plays are not
       dated by their title pages, most of which do not exist, and the order in
       which he wrote them was established largely by counting metrical features.
 
@@ -201,7 +201,7 @@ passages:
       - {term: "scansion", gloss: "marking the pattern of stressed and unstressed syllables in a line", glossed: true}
       - {term: "feminine ending", gloss: "a line that finishes on an unstressed extra syllable", glossed: true}
     facts:
-      - "Shakespeare plays were ordered chronologically largely by counting metrical features."
+      - "Shakespeare's plays were ordered chronologically largely by counting metrical features."
       - "Feminine endings rise from under ten percent in early plays to over thirty percent in late ones."
       - "The method cannot distinguish collaboration from stylistic development."
   - id: HUM-S05-L3
@@ -380,11 +380,11 @@ passages:
       person most often cited as proof of it.
 
       Manuscripts also force decisions on everyone who performs the music. The
-      autograph score, meaning the full score in the composer hand, often
+      autograph score, meaning the full score in the composer's hand, often
       differs from the first printed edition, and the composer sometimes
       corrected the proofs and sometimes did not. Where they disagree, an editor
-      has to choose, and the choice is published as though it were the composer
-      wish. Beethoven metronome marks survive for some works and have been
+      has to choose, and the choice is published as though it were the composer's
+      wish. Beethoven's metronome marks survive for some works and have been
       thought impossibly fast for a century, and the argument over whether to
       obey them is unresolved.
 
@@ -406,7 +406,7 @@ passages:
         quote: "what was tried and not why it was rejected"
     terms:
       - {term: "sketchbook", gloss: "a composers working notebook of fragments, trials and rejected versions", glossed: true}
-      - {term: "autograph score", gloss: "the full score written out in the composers own hand", glossed: true}
+      - {term: "autograph score", gloss: "the full score written out in the composer's own hand", glossed: true}
     facts:
       - "About eight thousand pages of Beethoven sketches survive."
       - "A theme from the Ninth Symphony appears in a notebook twelve years earlier."
@@ -424,13 +424,13 @@ passages:
       every street in London and recorded what they found. The result was a set
       of poverty maps, meaning street plans colored house by house, with seven
       classes from the wealthy to what Booth labeled the lowest class of
-      occasional labourers and criminals. The maps were based on school board
-      visitors knowledge of individual families, on police walks, and on
+      occasional laborers and criminals. The maps were based on school board
+      visitors' knowledge of individual families, on police walks, and on
       interviews, and they run to seventeen volumes of notes alongside the
       sheets.
 
       They are the first systematic measurement of a city and they carry their
-      period inside them. Booth classifications mixed income with moral
+      period inside them. Booth's classifications mixed income with moral
       judgment, his categories were applied by middle-class observers walking
       through streets they did not live in, and the notebooks contain remarks
       that no modern survey would print. The maps are nonetheless accurate
@@ -442,10 +442,10 @@ passages:
       mobile telephone data. Transport cards record journeys. Satellite images
       give building footprints and tree cover. Each series is precise about one
       thing and silent about the rest, and none of them contains anything like
-      Booth notebooks, where an investigator records that a street is quiet, or
+      Booth's notebooks, where an investigator records that a street is quiet, or
       respectable, or whimsical in its decoration. The modern city is measured
       better and described worse, and the two kinds of evidence answer different
-      questions. Booth maps have been digitized and can be laid over a modern
+      questions. Booth's maps have been digitized and can be laid over a modern
       map in a browser. A majority of the street classifications still predict
       present-day deprivation measures. Historians of the modern city therefore
       have better numbers and thinner description than Booth had, and have to
@@ -464,7 +464,7 @@ passages:
     facts:
       - "Charles Booth surveyed London between 1886 and 1903 and produced colored poverty maps."
       - "The survey used seven classes and runs to seventeen volumes of notes."
-      - "Booth maps have been digitized and overlaid on modern maps."
+      - "Booth's maps have been digitized and overlaid on modern maps."
   - id: HUM-S10-L3
     strand: S10
     title: "Reputations That Moved"

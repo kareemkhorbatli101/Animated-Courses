@@ -317,7 +317,7 @@ passages:
       Where people live is largely settled by a single trade. Land near the
       center of a city is scarce and therefore expensive, and travel from the
       edge costs time and money. A household chooses a point on that line, and
-      the economists description of the choice is bid rent, meaning the amount a
+      the economists' description of the choice is bid rent, meaning the amount a
       household or firm will pay for land at a given distance from the center.
       Bid rent falls as distance rises, and the slope of the fall is set by the
       cost of travel.
@@ -419,8 +419,8 @@ passages:
       measured over a year and gone at the end of it. Wealth, meaning what a
       household owns minus what it owes, is a stock, accumulated over a life and
       inherited across generations. Mobility is neither of those.
-      Intergenerational mobility, meaning how much a child position depends on
-      the parents position, can be high in a country with wide income gaps.
+      Intergenerational mobility, meaning how much a child's position depends on
+      the parents' position, can be high in a country with wide income gaps.
 
       The three behave differently because their mechanisms differ. Wealth
       inequality is always larger than income inequality, in every country
@@ -453,7 +453,7 @@ passages:
         quote: "while its wealth gaps widen"
     terms:
       - {term: "wealth", gloss: "what a household owns minus what it owes", glossed: true}
-      - {term: "intergenerational mobility", gloss: "how much a child position depends on the parents position", glossed: true}
+      - {term: "intergenerational mobility", gloss: "how much a child's position depends on the parents' position", glossed: true}
     facts:
       - "Wealth is assets minus debts and is accumulated over a lifetime."
       - "Wealth inequality is larger than income inequality in every country measured."

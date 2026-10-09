@@ -436,7 +436,7 @@ def appendices(doc, items):
             r.font.size = Pt(9); r.font.name = SERIF
             r.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
     para(doc, 'Two hundred questions in all. A set below six out of ten is worth doing '
-              'again after a fortnight, not immediately: the second attempt tests memory '
+              'again after two weeks, not immediately: the second attempt tests memory '
               'of the answer, the third tests the skill.', size=10.5, before=12)
 
 

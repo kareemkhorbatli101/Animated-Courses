@@ -78,7 +78,7 @@ passages:
       The sharpest version of the dispute concerns what a reader is doing when
       making inferences about a character inner life. The formalist says the
       reader is constructing from textual cues and that the construction is an
-      effect the author arranged, so talk of a character psychology is a
+      effect the author arranged, so talk of a character's psychology is a
       convenient shorthand for a pattern on the page. The humanist says the
       shorthand is the point, that fiction is an instrument for modeling other
       minds, and that an account which cannot say why anyone would be affected
@@ -124,7 +124,7 @@ passages:
       symbolic reading is a way of converting an experience into a proposition,
       and something is lost rather than gained in the conversion. Writers have
       often said so bluntly when asked what their images mean, and the usual
-      critical answer is that an author statement does not settle the question,
+      critical answer is that an author's statement does not settle the question,
       a position known as the intentional fallacy.
 
       That answer is good as far as it goes and does not resolve the dispute,
@@ -182,7 +182,7 @@ passages:
       the claim. Free verse has form, it says, but the form is established
       inside each poem rather than inherited, which means that a reader must
       learn the pattern from the poem itself and cannot bring one to it. That
-      makes the poet task harder and the reader task less reliable, and it
+      makes the poet's task harder and the reader's task less reliable, and it
       explains why the worst free verse is worse than the worst metrical verse.
       Both sides now accept something like that, and the argument has moved to
       whether a studied irregularity in metrical verse achieves the same thing
@@ -219,7 +219,7 @@ passages:
       is a score for performance, incomplete until performed, and what a reader
       holds is not the work but the instructions.
 
-      Directors theater, meaning a tradition in which the director
+      Directors' theater, meaning a tradition in which the director's
       interpretation is the primary creative act, pushed the second account hard
       from the middle of the twentieth century. Productions set the plays in
       asylums and boardrooms, cut and reordered freely, cast against the text,
@@ -248,10 +248,10 @@ passages:
       - take: "A production that reverses the text is making a different work."
         quote: "is making a different work and should say so"
     terms:
-      - {term: "directors theater", gloss: "a tradition in which the director interpretation is the primary creative act", glossed: true}
+      - {term: "directors' theater", gloss: "a tradition in which the director's interpretation is the primary creative act", glossed: true}
       - {term: "performance text", gloss: "the version of a play that a particular production actually realizes", glossed: true}
     facts:
-      - "Directors theater treats the director interpretation as the primary creative act."
+      - "Directors' theater treats the director's interpretation as the primary creative act."
       - "Victorian productions of Shakespeare commonly cut a third of the text."
       - "Living playwrights can refuse permission for productions, which dead ones cannot."
   - id: HUM-S06-L4
@@ -383,7 +383,7 @@ passages:
       several said so in letters, which makes the appeal to original practice an
       appeal to a compromise rather than to an intention.
 
-      The movement answer has largely been to drop the strongest claim. Few
+      The movement's answer has largely been to drop the strongest claim. Few
       practitioners now argue that period performance is authentic in the sense
       of recovering a lost original. What they argue instead is that the
       instruments and the treatises are evidence about choices the music

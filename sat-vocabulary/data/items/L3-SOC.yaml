@@ -116,7 +116,7 @@ items:
       Each household does something for another and gets something back. The
       blank must mean given and returned on both sides.
     key:
-      a: "every favour listed is answered by another one."
+      a: "every favor listed is answered by another one."
       c: "nobody keeps accounts and nothing is written down."
       d: "the parcels and the ladder are described as a standing habit, and the last clause treats it as lasting."
 
@@ -141,7 +141,7 @@ items:
       can test it. The blank must mean stating a standard rather than a fact.
     key:
       a: "the first sentence is the factual one, and the passage sets the second against it."
-      b: "the sentence says what ought to be so, which is a judgement, not a choice."
+      b: "the sentence says what ought to be so, which is a judgment, not a choice."
       c: "both sentences are printed in the report, one after the other."
 
   - id: L3-SOC-07

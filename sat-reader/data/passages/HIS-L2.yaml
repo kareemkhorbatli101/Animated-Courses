@@ -281,7 +281,7 @@ passages:
       Nineteenth-century courts blocked this with three doctrines. The first was
       that a worker who knew of a risk had accepted it. The second was that an
       employer was not answerable for the carelessness of a fellow servant. The
-      third was that any fault by the worker barred recovery altogether. Workers
+      third was that any fault by the worker barred recovery altogether. Workers'
       compensation laws, which are schedules of automatic payments replacing the
       lawsuit, were passed by most states between 1910 and 1920.
 
@@ -304,11 +304,11 @@ passages:
         quote: "insurers had a direct interest in safer plants"
     terms:
       - {term: "liability", gloss: "legal responsibility for the cost of an injury", glossed: true}
-      - {term: "workers compensation", gloss: "a schedule of automatic payments replacing the lawsuit", glossed: true}
+      - {term: "workers' compensation", gloss: "a schedule of automatic payments replacing the lawsuit", glossed: true}
     facts:
       - "New York had roughly fifty factory inspectors for tens of thousands of workplaces in 1912."
       - "Courts used the doctrines of assumed risk, the fellow servant rule and contributory fault."
-      - "Most states passed workers compensation laws between 1910 and 1920."
+      - "Most states passed workers' compensation laws between 1910 and 1920."
   - id: HIS-S07-L2
     strand: S07
     title: "What the 1965 Act Actually Did"
@@ -436,14 +436,14 @@ passages:
       decision and its execution. The third is control of information, and it
       operates in two directions at once. One is censorship of what the public
       learns. The other is classification, which is the withholding of the
-      governments own evidence from examination, so that the basis for a measure
+      government's own evidence from examination, so that the basis for a measure
       cannot be tested while the measure is in force.
 
       Those three together produce a characteristic difficulty. The executive
       holds the facts, the courts defer to the executive on military necessity,
       and dissent is therefore conducted in the dark. In the Japanese American
       cases the Supreme Court was told that military necessity required removal,
-      and was not shown the reports already in the governments possession that
+      and was not shown the reports already in the government's possession that
       said otherwise. Powers of this kind are rarely repealed outright. They are
       allowed to lapse, or narrowed quietly, or left on the books unused, which
       is why each emergency begins with a stock of instruments inherited from
@@ -460,7 +460,7 @@ passages:
         quote: "the courts defer to the executive on military necessity"
     terms:
       - {term: "delegation", gloss: "a grant of broad authority from a legislature to an executive", glossed: true}
-      - {term: "classification", gloss: "the withholding of the governments own evidence from examination", glossed: true}
+      - {term: "classification", gloss: "the withholding of the government's own evidence from examination", glossed: true}
     facts:
       - "Executive Order 9066 delegated power to the army to define areas and exclude persons."
       - "Congress made violation of such exclusion orders a criminal offense."

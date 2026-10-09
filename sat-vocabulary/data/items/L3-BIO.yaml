@@ -8,7 +8,7 @@ items:
     traps: {b: T2, c: T4, d: T1}
     passage: >-
       Nothing the trust does will stop the sea coming over the shingle bank in
-      a spring tide; the bank is losing a metre a year and the money to rebuild
+      a spring tide; the bank is losing a meter a year and the money to rebuild
       it does not exist. What the wardens have done instead is dig a shallow
       lagoon behind it and plant two hectares of reed. When the water comes it
       spreads out, slows, and drops its salt among the reeds rather than in the
@@ -16,7 +16,7 @@ items:
       costs the farms.
     clue: "it spreads out, slows, and drops its salt among the reeds rather than in the grazing marsh"
     relation: contrast
-    noise: ["a metre a year", "two hectares", "a spring tide"]
+    noise: ["a meter a year", "two hectares", "a spring tide"]
     pathway: >-
       The flood still happens; what reaches the farmland is made less harmful.
       The blank must mean make less severe.
@@ -56,7 +56,7 @@ items:
     traps: {a: T4, c: T1, d: T2}
     passage: >-
       The lake had been clear for as long as the village could remember. Two
-      summers after the dairy enlarged its herd, the water was the colour of
+      summers after the dairy enlarged its herd, the water was the color of
       pea soup by the middle of July. Nitrogen in the run-off had given the
       algae the one thing they had always lacked, and in warm still weather a
       population that can double every eighteen hours will ________ until it
@@ -106,16 +106,16 @@ items:
       fire that destroyed it, which carbon dating puts at about two thousand
       years ago. Of the forty the archaeologists sent to the laboratory,
       thirty-eight did nothing at all. Two put out a root in the fourth week,
-      and one of those is now a date palm four metres high. A seed can stay
+      and one of those is now a date palm four meters high. A seed can stay
       ________ for twenty centuries if it is kept dry and dark.
-    clue: "Two put out a root in the fourth week, and one of those is now a date palm four metres high"
+    clue: "Two put out a root in the fourth week, and one of those is now a date palm four meters high"
     relation: example
     noise: ["a clay jar", "carbon dating", "thirty-eight did nothing"]
     pathway: >-
       After two thousand years a seed still grew into a tree, so the life in it
       had survived. The blank must mean still able to grow or live.
     key:
-      a: "a seed that becomes a four-metre palm is plainly not incapable of life."
+      a: "a seed that becomes a four-meter palm is plainly not incapable of life."
       b: "the jar was in a storehouse floor, kept dry and dark; no cold is mentioned."
       d: "the seeds could be seen all along; what is remarkable is that they could still grow."
 
@@ -151,13 +151,13 @@ items:
     passage: >-
       On paper the colony is thriving: eight hundred pairs, up from two hundred
       in 1990. Every one of those pairs nests on a single stack of rock three
-      hundred metres long, and the birds take whatever the tide leaves on the
+      hundred meters long, and the birds take whatever the tide leaves on the
       one beach below it. A single oil spill in the sound, or rats off one
       fishing boat, would end the whole population inside a season. Numbers
       like these look healthy and are in fact ________.
     clue: "A single oil spill in the sound, or rats off one fishing boat, would end the whole population inside a season"
     relation: contrast
-    noise: ["eight hundred pairs", "three hundred metres long", "the tide"]
+    noise: ["eight hundred pairs", "three hundred meters long", "the tide"]
     pathway: >-
       The whole population sits in one place where one accident could finish
       it. The blank must mean liable to collapse at any moment.
@@ -221,7 +221,7 @@ items:
       The gut of a healthy infant holds several hundred kinds of bacteria in a
       balance that takes the first two years of life to settle. A single
       five-day course of a broad antibiotic, given for an ear infection, will
-      ________ that community for months afterwards: a dozen kinds vanish from
+      ________ that community for months afterward: a dozen kinds vanish from
       the samples, two others take their place, and the pattern a year later is
       still not the pattern it was.
     clue: "a dozen kinds vanish from the samples, two others take their place, and the pattern a year later is still not the pattern it was"

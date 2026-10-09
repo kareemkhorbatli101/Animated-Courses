@@ -9,7 +9,7 @@ items:
     traps: {a: T3, c: T4, d: T2}
     passage: >-
       A tall building is designed to move. The top of a steel tower a thousand
-      feet high travels through nearly a metre in a strong wind, and the lift
+      feet high travels through nearly a meter in a strong wind, and the lift
       guides, the glass joints and the water pipes are all built to take it.
       Visitors who are told the figure assume the engineers are confessing to a
       fault. Few people outside the trade ________ how much flexibility a
@@ -37,11 +37,11 @@ items:
       A bigger lens gathers more light, which is why a cheap telescope will
       show a faint star at all. Gathering light, though, is not the same as
       separating detail. Two stars eleven seconds of arc apart will come to one
-      blur in a sixty-millimetre instrument however long the exposure is left
+      blur in a sixty-millimeter instrument however long the exposure is left
       open, and the only cure is a wider opening. The power to ________ two
       points depends on the width of the aperture and the wavelength of the
       light, and on nothing else whatever.
-    clue: ["Two stars eleven seconds of arc apart will come to one blur in a sixty-millimetre instrument", "Gathering light, though, is not the same as separating detail"]
+    clue: ["Two stars eleven seconds of arc apart will come to one blur in a sixty-millimeter instrument", "Gathering light, though, is not the same as separating detail"]
     relation: contrast
     noise: ["a cheap telescope", "the exposure", "the wavelength of the light", "a wider opening"]
     pathway: >-
@@ -74,7 +74,7 @@ items:
       The heat is real but too small to be noticed until it passes a threshold
       of detection. The blank must mean great enough to be perceived.
     key:
-      b: "good judgement is the everyday sense of the answer word, and the passage is about what can be detected."
+      b: "good judgment is the everyday sense of the answer word, and the passage is about what can be detected."
       c: "the senses at issue are touch and warmth, not hearing."
       d: "the question is whether the change can be noticed at all, not how long it lasts."
 
@@ -85,33 +85,33 @@ items:
     answer: c
     traps: {a: T3, b: T4, d: T2}
     passage: >-
-      The weighbridge at the quarry gives one number: lorry, driver, fuel and
+      The weighbridge at the quarry gives one number: truck, driver, fuel and
       stone all together. The office wants the stone by itself, so the empty
       weight of each vehicle is kept on a card and taken off at the end of the
       day. A driver who fills his tank before the first weighing and runs it
       down before the last will appear to have carried sixty kilograms of rock
       that never existed. The ________ figure is honest enough; it is the
       subtraction that has to be watched.
-    clue: ["lorry, driver, fuel and stone all together", "it is the subtraction that has to be watched"]
+    clue: ["truck, driver, fuel and stone all together", "it is the subtraction that has to be watched"]
     relation: contrast
     noise: ["on a card", "sixty kilograms", "at the end of the day", "The weighbridge at the quarry"]
     pathway: >-
       One number contains everything and a deduction is made from it
-      afterwards. The blank must mean the whole amount before anything is taken
+      afterward. The blank must mean the whole amount before anything is taken
       off.
     key:
       a: "that is the everyday sense of the answer word, and nothing about a weighbridge is unpleasant."
-      b: "the figure includes the lorry itself, so it is the largest number in play."
+      b: "the figure includes the truck itself, so it is the largest number in play."
       d: "a single weighing is not an average, and the passage sets the whole against what is taken off it."
 
   - id: L4-PHY-05
     word: marked
     rare_sense: true
-    options: [labelled, slight, expected, marked]
+    options: [labeled, slight, expected, marked]
     answer: d
     traps: {a: T3, b: T4, c: T1}
     passage: >-
-      The two batches of cement came from the same works a fortnight apart, and
+      The two batches of cement came from the same works a two weeks apart, and
       were mixed and cured in the same shed by the same men. The first set of
       cubes broke at an average of thirty-one megapascals and the second at
       forty-four, while the spread inside each batch was less than two. Nobody
@@ -120,7 +120,7 @@ items:
       cause is ever found.
     clue: ["The first set of cubes broke at an average of thirty-one megapascals and the second at forty-four, while the spread inside each batch was less than two", "Nobody has explained it, and the works says it changed nothing"]
     relation: restatement
-    noise: ["a fortnight apart", "the same shed", "the same men", "from the same works"]
+    noise: ["a two weeks apart", "the same shed", "the same men", "from the same works"]
     pathway: >-
       Thirteen megapascals of difference against a scatter of two is large and
       unmistakable. The blank must mean clearly noticeable.
@@ -137,15 +137,15 @@ items:
     traps: {a: T3, c: T4, d: T1}
     passage: >-
       The first error was in the survey: a bench mark copied with two digits
-      reversed, which put the whole site eighteen centimetres low. That by
+      reversed, which put the whole site eighteen centimeters low. That by
       itself would have been caught. But the drainage was then set out from the
       same sheet, the levels for the car park were taken from the drainage, and
-      the kerbs were taken from the car park. Each stage will ________ a
+      the curbs were taken from the car park. Each stage will ________ a
       mistake made at the beginning, and by the time water stood in the loading
       bay four trades had built on the same wrong number.
-    clue: ["the drainage was then set out from the same sheet, the levels for the car park were taken from the drainage, and the kerbs were taken from the car park", "four trades had built on the same wrong number"]
+    clue: ["the drainage was then set out from the same sheet, the levels for the car park were taken from the drainage, and the curbs were taken from the car park", "four trades had built on the same wrong number"]
     relation: cause
-    noise: ["two digits reversed", "eighteen centimetres", "the loading bay", "a bench mark"]
+    noise: ["two digits reversed", "eighteen centimeters", "the loading bay", "a bench mark"]
     pathway: >-
       Each stage of work builds on the error and adds to the damage. The blank
       must mean make worse by adding to it.
@@ -157,7 +157,7 @@ items:
   - id: L4-PHY-07
     word: degenerate
     rare_sense: true
-    options: [improve, stabilise, degenerate, corrupt]
+    options: [improve, stabilize, degenerate, corrupt]
     answer: c
     traps: {a: T4, b: T2, d: T3}
     passage: >-
@@ -211,20 +211,20 @@ items:
     traps: {a: T2, c: T4, d: T1}
     passage: >-
       The pump at the mine head ran for ninety years. From the day it was
-      switched off, the water has come up the shafts at eleven centimetres a
+      switched off, the water has come up the shafts at eleven centimeters a
       day, and it has not varied with the season or the rainfall by more than a
-      centimetre. Nobody has found anything that can be done about it: the
+      centimeter. Nobody has found anything that can be done about it: the
       galleries fill in the order they were dug, and the surveyors can say to
       within a week when each level will go under. A rise as ________ as that
       one is easier to plan for than to fight.
-    clue: ["it has not varied with the season or the rainfall by more than a centimetre", "Nobody has found anything that can be done about it"]
+    clue: ["it has not varied with the season or the rainfall by more than a centimeter", "Nobody has found anything that can be done about it"]
     relation: restatement
     noise: ["ninety years", "the galleries", "to within a week", "at the mine head"]
     pathway: >-
       The rise is perfectly steady and nothing will stop it. The blank must
       mean impossible to stop and going on regardless.
     key:
-      a: "eleven centimetres a day, year in and year out, is steady rather than abrupt."
+      a: "eleven centimeters a day, year in and year out, is steady rather than abrupt."
       c: "nothing has been found that will turn it back."
       d: "the surveyors can say to within a week when each level will flood, so the rise is very well observed."
 
@@ -236,18 +236,18 @@ items:
     passage: >-
       A fuse is not chosen to protect the appliance; it is chosen to protect
       the cable behind it. The lighting circuit is wired in one and a half
-      square millimetres and takes a six-amp fuse. The cooker is wired in six
-      square millimetres and takes thirty. Put the thirty-amp fuse on the
+      square millimeters and takes a six-amp fuse. The cooker is wired in six
+      square millimeters and takes thirty. Put the thirty-amp fuse on the
       lighting circuit and the wire buried in the ceiling becomes the weakest
       thing in the chain. The rating has to be ________ with the conductor, and
       an electrician who remembers nothing else remembers that.
-    clue: ["The lighting circuit is wired in one and a half square millimetres and takes a six-amp fuse. The cooker is wired in six square millimetres and takes thirty", "the wire buried in the ceiling becomes the weakest thing in the chain"]
+    clue: ["The lighting circuit is wired in one and a half square millimeters and takes a six-amp fuse. The cooker is wired in six square millimeters and takes thirty", "the wire buried in the ceiling becomes the weakest thing in the chain"]
     relation: example
     noise: ["the appliance", "remembers nothing else", "an electrician", "behind it"]
     pathway: >-
       Each fuse is sized to the cable behind it, and a mismatch moves the
       weakness into the wall. The blank must mean matched in size or degree to.
     key:
-      a: "six amps and one and a half square millimetres are not the same number: the two have to be matched in scale, not made equal."
+      a: "six amps and one and a half square millimeters are not the same number: the two have to be matched in scale, not made equal."
       b: "a fuse too large for its cable is exactly the mistake the passage warns against."
       c: "the whole point is that the two must be chosen together."

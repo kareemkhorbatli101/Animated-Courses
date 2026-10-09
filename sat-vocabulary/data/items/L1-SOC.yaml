@@ -8,7 +8,7 @@ items:
     traps: {a: T1, b: T4, d: T2}
     passage: >-
       Shoppers in a supermarket study bought more fruit when a mirror was
-      fixed above the shelf. None of them mentioned the mirror afterwards, yet
+      fixed above the shelf. None of them mentioned the mirror afterward, yet
       something as small as catching your own eye ________ what ends up in the
       basket.
     clue: "bought more fruit when a mirror was fixed above the shelf"
@@ -159,7 +159,7 @@ items:
     noise: ["by a fifth", "Four years later", "in every kitchen"]
     pathway: >-
       Once meters were fitted, the same price change produced a much bigger
-      change in behaviour. The blank must mean act in return.
+      change in behavior. The blank must mean act in return.
     key:
       a: "listening is taking something in; what the figures show is a change in how much water people used."
       b: "nobody is said to approve of the price, only to use less."

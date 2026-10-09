@@ -28,8 +28,8 @@ passages:
 
       Nineteenth-century novelists developed a fourth option which is now the
       commonest of all. In free indirect style, meaning a third-person voice
-      that slides into a character way of thinking without announcing it, the
-      sentence carries the character vocabulary and judgments while staying
+      that slides into a character's way of thinking without announcing it, the
+      sentence carries the character's vocabulary and judgments while staying
       grammatically outside. Jane Austen uses it constantly, and so does almost
       every modern novel. It lets a writer convey a mind from the inside and
       withdraw to judge it in the next clause. Recognizing the shift is a skill
@@ -43,11 +43,11 @@ passages:
         quote: "defined by access rather than by personality"
       - take: "Each position decides what kind of surprise is possible."
         quote: "Each position decides what kind of surprise is available."
-      - take: "Free indirect style carries a character judgments from grammatically outside."
+      - take: "Free indirect style carries a character's judgments from grammatically outside."
         quote: "while staying grammatically outside"
     terms:
       - {term: "omniscient", gloss: "a narrator with access to every mind in the book", glossed: true}
-      - {term: "free indirect style", gloss: "a third-person voice that slides into a character way of thinking", glossed: true}
+      - {term: "free indirect style", gloss: "a third-person voice that slides into a character's way of thinking", glossed: true}
     facts:
       - "The three standard narrative positions are first person, third limited and omniscient."
       - "Strict first-person narration cannot easily produce suspense about what the narrator does not know."
@@ -281,7 +281,7 @@ passages:
       entirely unconscious, and the writer only needs the pattern to be present,
       not to be named. Genres also drift, because every successful breach
       becomes the next convention. The unreliable narrator was a shock in 1926
-      and is now a standard item on a publisher list. The useful question about
+      and is now a standard item on a publisher's list. The useful question about
       any genre work is therefore which rule it is leaning on and which it is
       pushing against.
     anchors:
@@ -419,7 +419,7 @@ passages:
       decides whether a street reads as a room or as a gap. Older European
       streets commonly run between one to one and one to two, and above about
       one to three the space stops holding together. The third is permeability,
-      counted as the number of ways out of a block. A fine grid gives walkers
+      counted as the number of ways out of a block. A fine grid gives walkers'
       choices and spreads traffic; a single loop road forces everyone onto one
       route and makes walking pointless.
 
@@ -468,7 +468,7 @@ passages:
       Each part fails in a characteristic way. A claim fails by being
       unfalsifiable, as when a reviewer calls a novel important without saying
       what would make it unimportant. Evidence fails by being about something
-      else, which is why a review that spends its length on the author biography
+      else, which is why a review that spends its length on the author's biography
       is not a review of the book. The criterion fails by staying hidden, and a
       hidden standard produces the commonest kind of useless disagreement, in
       which two people argue about a work while measuring it against different

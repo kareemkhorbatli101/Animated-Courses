@@ -31,7 +31,7 @@ HIS:
     l3: "What the sources say: Congressional testimony, registration rolls, and the gap between them."
     l4: "Whether Reconstruction failed or was defeated: Du Bois against the Dunning school."
   S06:
-    title: "Industry, labour and the regulating state"
+    title: "Industry, labor and the regulating state"
     l1: "The Triangle fire, 1911: a locked door, 146 deaths, and what followed."
     l2: "How regulation spread: inspection, liability, hours laws, and the cost of each."
     l3: "The evidence behind factory law: commission reports, mortality tables, and their gaps."
@@ -89,7 +89,7 @@ BIO:
     title: "Populations: growth, limit and collapse"
     l1: "Reindeer on St. Matthew Island: 29 animals, then 6,000, then 42."
     l2: "Exponential and logistic growth: the ceiling, the overshoot, and the lag."
-    l3: "The Hudson's Bay fur records: a 90-year cycle, and what a trapping ledger can show."
+    l3: "The Hudson's Bay fur returns: a ten-year cycle across a century, and what a ledger can show."
     l4: "Whether food or predators drive the hare cycle: fifty years of disagreement."
   S06:
     title: "Microbes and disease"
@@ -156,7 +156,7 @@ PHY:
     title: "Waves, light and sound"
     l1: "A straw that looks bent in a glass of water."
     l2: "Refraction, reflection and diffraction: one rule, three effects."
-    l3: "Measuring the speed of light: from Fizeau's wheel to a defined metre."
+    l3: "Measuring the speed of light: from Fizeau's wheel to a defined meter."
     l4: "Whether light is wave or particle: what the two-slit result forced."
   S07:
     title: "Matter: atoms, bonds and reactions"
@@ -188,7 +188,7 @@ HUM:
     l1: "Two openings of one scene: the maid's account, then the mistress's."
     l2: "First person, third limited, omniscient: what each can and cannot report."
     l3: "How critics establish an unreliable narrator: the textual evidence they cite."
-    l4: "Whether a narrator's judgement is the author's: the quarrel over irony."
+    l4: "Whether a narrator's judgment is the author's: the quarrel over irony."
   S02:
     title: "Character, motive, and the gap between them"
     l1: "A man who gives away his coat and cannot say why."
@@ -241,8 +241,8 @@ HUM:
     title: "Criticism: how arguments about art are made"
     l1: "Two reviews of one first night, printed the same morning."
     l2: "What a critical argument needs: a claim, evidence from the work, and a standard."
-    l3: "How a judgement is tested: counter-examples, context and the record of reception."
-    l4: "Whether judgements of art can be true: taste, standards and the long argument."
+    l3: "How a judgment is tested: counter-examples, context and the record of reception."
+    l4: "Whether judgments of art can be true: taste, standards and the long argument."
 SOC:
   S01:
     title: "Asking people things: surveys and their traps"
@@ -287,19 +287,19 @@ SOC:
     l3: "Reading a census: boundaries, undercounts, and the problem of comparison."
     l4: "Whether building more houses lowers rents: two readings of the same city."
   S08:
-    title: "Work, wages and the labour market"
+    title: "Work, wages and the labor market"
     l1: "A dockside where men waited each morning to be picked for a day's work."
     l2: "Supply, demand, bargaining power, and what sets a wage."
     l3: "The minimum wage studies: New Jersey, Pennsylvania, and the method that started a fight."
     l4: "Whether a minimum wage costs jobs: thirty years of contested estimates."
   S09:
     title: "Inequality and how it is measured"
-    l1: "Two neighbourhoods three miles apart with an eleven-year gap in life expectancy."
+    l1: "Two neighborhoods three miles apart with an eleven-year gap in life expectancy."
     l2: "Income, wealth, mobility: three different inequalities and their different causes."
     l3: "The Gini coefficient and its rivals: what each measure is blind to."
     l4: "Whether inequality or poverty is the problem: the argument over the top one per cent."
   S10:
-    title: "Judgement under uncertainty"
+    title: "Judgment under uncertainty"
     l1: "A doctor, a test that is ninety-nine per cent accurate, and a rare disease."
     l2: "Base rates, anchoring and availability: three predictable errors."
     l3: "How the heuristics were demonstrated: the original problems and their replications."

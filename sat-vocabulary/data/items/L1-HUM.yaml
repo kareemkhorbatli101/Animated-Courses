@@ -7,13 +7,13 @@ items:
     answer: a
     traps: {b: T4, c: T1, d: T2}
     passage: >-
-      The painting is three metres wide and shows nothing but a kitchen: a
+      The painting is three meters wide and shows nothing but a kitchen: a
       woman scaling fish, a boy asleep under the table, a cat at the door. It
       ________ an ordinary evening in a poor house, down to the knife marks
       on the board.
     clue: "shows nothing but a kitchen"
     relation: restatement
-    noise: ["three metres wide", "a cat at the door", "the knife marks on the board"]
+    noise: ["three meters wide", "a cat at the door", "the knife marks on the board"]
     pathway: >-
       The second sentence lists what can be seen in the picture, so the blank
       must mean shows or represents.
@@ -91,7 +91,7 @@ items:
     passage: >-
       Under the dirt of two centuries the portrait looked like a man in black.
       Cleaning ________ a green coat, a dog at his knee, and a window with a
-      harbour in it that nobody had known was there.
+      harbor in it that nobody had known was there.
     clue: "that nobody had known was there"
     relation: restatement
     noise: ["two centuries", "a dog at his knee", "a green coat"]
@@ -150,17 +150,17 @@ items:
     traps: {a: T2, c: T1, d: T1}
     passage: >-
       Cheap paint in tubes arrived in the eighteen forties. Painters could
-      suddenly work outdoors in an afternoon instead of grinding colours in a
+      suddenly work outdoors in an afternoon instead of grinding colors in a
       studio, and that one invention ________ what European pictures looked
       like for the rest of the century.
-    clue: "Painters could suddenly work outdoors in an afternoon instead of grinding colours in a studio"
+    clue: "Painters could suddenly work outdoors in an afternoon instead of grinding colors in a studio"
     relation: cause
     noise: ["in tubes", "the eighteen forties", "European"]
     pathway: >-
       A change in materials changed how and where pictures were made, and so
       how they looked. The blank must mean gave form to.
     key:
-      a: "the tubes replaced ground colours, but what the sentence says was affected is how pictures looked."
+      a: "the tubes replaced ground colors, but what the sentence says was affected is how pictures looked."
       c: "pictures made outdoors in an afternoon were more visible, not less."
       d: "nothing was put off; the change happened at once."
 

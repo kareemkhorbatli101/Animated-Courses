@@ -30,16 +30,16 @@ items:
     answer: d
     traps: {a: T4, b: T2, c: T1}
     passage: >-
-      The city tried signs, and then leaflets, and the kerbs in the centre
+      The city tried signs, and then leaflets, and the curbs in the center
       stayed full all day. Then it made the first hour free in the car park
       behind the station. Drivers moved within a month: what notices could
       not do, one small ________ did.
     clue: "it made the first hour free in the car park behind the station"
     relation: cause
-    noise: ["leaflets", "the kerbs in the centre", "within a month"]
+    noise: ["leaflets", "the curbs in the center", "within a month"]
     pathway: >-
-      Something was offered that made the wanted behaviour worth a driver's
-      while, and behaviour changed. The blank must mean a reward that
+      Something was offered that made the wanted behavior worth a driver's
+      while, and behavior changed. The blank must mean a reward that
       encourages an action.
     key:
       a: "a free hour is a reward for moving, not a punishment for staying."
@@ -61,9 +61,9 @@ items:
     relation: contrast
     noise: ["eleven years", "the window table", "in April"]
     pathway: >-
-      Behaviour is regular and enforced by the group although nothing is
+      Behavior is regular and enforced by the group although nothing is
       written or ordered. The blank must name an unwritten standard of
-      behaviour.
+      behavior.
     key:
       b: "the first sentence says no rule covers it and the last says nothing is written down."
       c: "eleven years of the same seating, and a clerk being moved along, show a pattern that is kept up."
@@ -99,12 +99,12 @@ items:
     traps: {a: T1, b: T2, c: T1}
     passage: >-
       The grant reached the county as a single sum with no conditions
-      attached. Two officers spent a fortnight working out how to ________
+      attached. Two officers spent a two weeks working out how to ________
       it, and in the end the schools took half, the libraries a fifth, and
       what was left went on the buses that reach the hill villages.
     clue: "the schools took half, the libraries a fifth, and what was left went on the buses"
     relation: restatement
-    noise: ["a fortnight", "Two officers", "the hill villages"]
+    noise: ["a two weeks", "Two officers", "the hill villages"]
     pathway: >-
       A fixed sum is divided between named purposes in named shares. The blank
       must mean give out in portions for particular uses.
@@ -120,7 +120,7 @@ items:
     traps: {a: T2, c: T1, d: T1}
     passage: >-
       The panel read eight hundred applications and chose nineteen people.
-      Afterwards somebody noticed that every one of the nineteen had played a
+      Afterward somebody noticed that every one of the nineteen had played a
       team sport at school, a line the form happened to ask about near the
       top. Nobody on the panel intended it. A ________ of that kind works best
       on people who are certain they have none.
@@ -129,7 +129,7 @@ items:
     noise: ["eight hundred applications", "near the top", "somebody noticed"]
     pathway: >-
       All nineteen choices leaned the same way without anyone meaning them to.
-      The blank must name a leaning that shapes judgement unnoticed.
+      The blank must name a leaning that shapes judgment unnoticed.
     key:
       a: "an error is one mistake that can be put right; this ran through all nineteen choices in the same direction."
       c: "the same leaning nineteen times out of nineteen is a pattern rather than chance."

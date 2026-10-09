@@ -75,7 +75,7 @@ items:
 
   - id: L3-HIS-04
     word: repudiated
-    options: [repudiated, honoured, delayed, translated]
+    options: [repudiated, honored, delayed, translated]
     answer: a
     traps: {b: T4, c: T2, d: T1}
     passage: >-
@@ -153,14 +153,14 @@ items:
     passage: >-
       The constitution gave the power of appointment to the senate, and for
       ninety years the senate used it. The general's first act after the
-      harbour rising was to issue commissions in his own name, from a building
+      harbor rising was to issue commissions in his own name, from a building
       the senate had not been allowed to enter since the spring. No vote was
       taken and no law was altered. He had ________ an authority that was not
       his, and the forms of the old republic went on being printed for another
       decade.
     clue: "The constitution gave the power of appointment to the senate"
     relation: contrast
-    noise: ["ninety years", "the harbour rising", "since the spring"]
+    noise: ["ninety years", "the harbor rising", "since the spring"]
     pathway: >-
       A power the constitution placed elsewhere is being exercised by a man
       with no vote or law behind him. The blank must mean seized a power that
@@ -203,14 +203,14 @@ items:
     passage: >-
       By the time the commission sat, the terraces had stood for sixty years
       and nothing could be done about the way they had been built: one tap to
-      a court, no through draught, privies against the kitchen wall. The act
+      a court, no through draft, privies against the kitchen wall. The act
       that followed did not pretend to cure any of that. It paid for a
       standpipe in every court, a weekly cart for the ashes and an inspector
       on a salary, measures that could ________ conditions without touching
       the cause of them.
     clue: "It paid for a standpipe in every court, a weekly cart for the ashes and an inspector on a salary"
     relation: contrast
-    noise: ["sixty years", "no through draught", "the kitchen wall"]
+    noise: ["sixty years", "no through draft", "the kitchen wall"]
     pathway: >-
       The causes are left alone and the daily conditions are made less bad.
       The blank must mean make a bad situation better without ending it.
@@ -229,14 +229,14 @@ items:
       against in four years. The letters the members wrote to one another tell
       another story: two groups, one from the port and one from the cloth
       towns, each with its own candidate for secretary and its own view of the
-      harbour dues, and neither willing to be outvoted where anyone could see
+      harbor dues, and neither willing to be outvoted where anyone could see
       it. The quarrel was ________ from the start, and men changed sides only
       when their group did.
-    clue: "two groups, one from the port and one from the cloth towns, each with its own candidate for secretary and its own view of the harbour dues"
+    clue: "two groups, one from the port and one from the cloth towns, each with its own candidate for secretary and its own view of the harbor dues"
     relation: restatement
     noise: ["four years", "neither willing to be outvoted", "its minutes"]
     pathway: >-
-      The committee is split into two organised camps and men move only with
+      The committee is split into two organized camps and men move only with
       their camp. The blank must mean belonging to rival groups inside one
       body.
     key:

@@ -39,6 +39,8 @@ sat_frames:
 levels:
   1:
     name: Foundation
+    description: >
+      Read for the case itself. Every passage names one thing that happened, or one thing that is so, and holds to it. If the reader can say afterward what the passage was about in a single sentence, the passage has done its work.
     words_min: 288
     words_max: 312
     paras_min: 3
@@ -55,6 +57,8 @@ levels:
     sents_min: 12
   2:
     name: Developing
+    description: >
+      Read for the working. These passages do not stop at what happens; they say why it happens and how much. Watch for the sentence that carries the cause, and for the number that gives the size of it.
     words_min: 288
     words_max: 312
     paras_min: 3
@@ -71,6 +75,8 @@ levels:
     sents_min: 11
   3:
     name: Target
+    description: >
+      Read for the warrant. Someone had to find this out. These passages name the study, the document, or the measurement behind the claim, and say what it cannot show. The limit is part of the finding, not an apology for it.
     words_min: 288
     words_max: 312
     paras_min: 3
@@ -87,6 +93,8 @@ levels:
     sents_min: 10
   4:
     name: Stretch
+    description: >
+      Read for the disagreement. One body of evidence, two readings of it. The writer takes a side, and the passage is built so that the side taken can be told apart from the evidence it rests on.
     words_min: 288
     words_max: 312
     paras_min: 3

@@ -50,7 +50,7 @@ items:
     answer: b
     traps: {a: T4, c: T2, d: T1}
     passage: >-
-      Copper costs four times what aluminium costs, and every mile of it is
+      Copper costs four times what aluminum costs, and every mile of it is
       heavier to hang. Electricians wire a house with it anyway. Copper of a
       given thickness will ________ the current from the board to the furthest
       socket with less loss on the way than any cheaper metal, and a loss
@@ -118,10 +118,10 @@ items:
       A ball dropped down the old mineshaft passes the first marker a second
       after it leaves the hand, and passes the fourth marker less than a
       second after the third. Nothing pushes it. Gravity alone will ________ a
-      falling body by about ten metres a second for every second of the fall.
+      falling body by about ten meters a second for every second of the fall.
     clue: "passes the first marker a second after it leaves the hand, and passes the fourth marker less than a second after the third"
     relation: example
-    noise: ["the old mineshaft", "ten metres a second", "Nothing pushes it"]
+    noise: ["the old mineshaft", "ten meters a second", "Nothing pushes it"]
     pathway: >-
       Equal distances are covered in shorter and shorter times, so the ball is
       going faster and faster. The blank must mean make go faster.
@@ -162,7 +162,7 @@ items:
       soup of hundreds of compounds, from tar at one end to gas at the other.
       A refinery's towers ________ it by boiling the mixture and drawing off
       each part at the height where it turns back to liquid, and only after
-      that is there petrol in the pump.
+      that is there gasoline in the pump.
     clue: "by boiling the mixture and drawing off each part at the height where it turns back to liquid"
     relation: restatement
     noise: ["hundreds of compounds", "tar at one end", "in the pump"]
@@ -182,16 +182,16 @@ items:
     passage: >-
       The salt mine under the village had been worked out by 1911 and left
       open. Water got into the timber props over the next eighty years, and
-      in one wet March the roof began to ________: a field dropped two metres
+      in one wet March the roof began to ________: a field dropped two meters
       in a night and a stone barn went down with it.
-    clue: "a field dropped two metres in a night and a stone barn went down with it"
+    clue: "a field dropped two meters in a night and a stone barn went down with it"
     relation: restatement
     noise: ["by 1911", "eighty years", "in one wet March"]
     pathway: >-
       The ground above fell suddenly and took a building with it, so the roof
       gave way. The blank must mean fall in.
     key:
-      b: "a settling floor sinks slowly; a field falling two metres in a night is a sudden failure."
+      b: "a settling floor sinks slowly; a field falling two meters in a night is a sudden failure."
       c: "the ground went down, not outward."
       d: "iron rusts, but the props are timber and what the sentence describes is the roof giving way."
 

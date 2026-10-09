@@ -465,16 +465,16 @@ passages:
       of a kind any surveyor would recognize at once. Every figure printed in an
       astronomy textbook rests on that chain.
 
-      The first rung is geometry. Parallax, which is the shift in a star
+      The first rung is geometry. Parallax, which is the shift in a star's
       position as the Earth moves from one side of its orbit to the other, gives
       a distance by triangulation, exactly as a surveyor uses a baseline. The
-      baseline is the width of the Earth orbit, about three hundred million
+      baseline is the width of the Earth's orbit, about three hundred million
       kilometers, and even so the angles are tiny. The nearest star shifts by
       less than one second of arc, which is the width of a coin seen from three
       miles. Ground telescopes manage parallax out to a few hundred light years,
       and a satellite has now pushed it to tens of thousands.
 
-      Beyond that, brightness takes over. If an object true brightness is known,
+      Beyond that, brightness takes over. If an object's true brightness is known,
       its apparent dimness gives its distance, because light spreads out with
       the square of distance. Such an object is called a standard candle.
       Certain pulsating stars and certain exploding stars both serve. Their true
@@ -487,14 +487,14 @@ passages:
     anchors:
       - take: "Astronomical distances come from a ladder of methods."
         quote: "a ladder of methods"
-      - take: "Parallax is triangulation from the width of the Earth orbit."
-        quote: "The baseline is the width of the Earth orbit"
+      - take: "Parallax is triangulation from the width of the Earth's orbit."
+        quote: "The baseline is the width of the Earth's orbit"
       - take: "An error low on the ladder moves every distance above it."
         quote: "moves every distance in the universe above it"
     terms:
-      - {term: "parallax", gloss: "the shift in a star position as the Earth moves from one side of its orbit to the other", glossed: true}
+      - {term: "parallax", gloss: "the shift in a star's position as the Earth moves from one side of its orbit to the other", glossed: true}
       - {term: "standard candle", gloss: "an object whose true brightness is known, so that its dimness gives its distance", glossed: true}
     facts:
-      - "Parallax uses the diameter of the Earth orbit, about 300 million kilometers, as a baseline."
+      - "Parallax uses the diameter of the Earth's orbit, about 300 million kilometers, as a baseline."
       - "The nearest star shifts by less than one second of arc."
       - "Standard candles are objects whose true brightness is known independently."

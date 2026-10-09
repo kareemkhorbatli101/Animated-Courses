@@ -33,17 +33,17 @@ items:
     traps: {a: T3, c: T4, d: T1}
     passage: >-
       He had been born in the town and had gone to the same school as the men
-      who loaded his lorries. By the time the second gallery opened he had
+      who loaded his trucks. By the time the second gallery opened he had
       acquired a way of saying that one simply does not, and a habit of pausing
       before the names of painters. Nobody who had known him at sixteen was
       taken in for a moment. A man who has ________ a manner in middle age
       usually chooses one that answers the room he wants to be let into.
     clue: ["he had acquired a way of saying that one simply does not, and a habit of pausing before the names of painters", "Nobody who had known him at sixteen was taken in for a moment"]
     relation: restatement
-    noise: ["loaded his lorries", "the second gallery", "the same school", "in the town"]
+    noise: ["loaded his trucks", "the second gallery", "the same school", "in the town"]
     pathway: >-
       He has taken on a manner that is not his own, and the people who knew him
-      earlier can see it. The blank must mean put on as a pretence.
+      earlier can see it. The blank must mean put on as a pretense.
     key:
       a: "having an effect on something is the everyday sense of the answer word, and a manner is what he puts on rather than something he acts upon."
       c: "he takes the manner up, and his old schoolfellows see through it."
@@ -110,7 +110,7 @@ items:
       being paid by both of them, and a letter that is read aloud twice with a
       different ending each time. Audiences in 1890 followed it without any
       difficulty, and the printed text gives fourteen pages to the explanation
-      alone. A plot as ________ as that would not be attempted now, and the production at the Lyceum last year cut the servant out altogether. The theatre was still lit by gas when the play first ran.
+      alone. A plot as ________ as that would not be attempted now, and the production at the Lyceum last year cut the servant out altogether. The theater was still lit by gas when the play first ran.
     clue: ["a will, two half-brothers, a servant who is being paid by both of them, and a letter that is read aloud twice with a different ending each time", "the printed text gives fourteen pages to the explanation alone"]
     relation: restatement
     noise: ["in 1890", "the Lyceum", "last year", "still lit by gas"]
@@ -159,7 +159,7 @@ items:
       eighteenth-century parts usually carry. He was not trying to deceive
       anybody, and he was not making fun of anybody either. The piece is a
       ________, written out of plain affection, and three festivals now
-      programme it beside the real thing. The score was first published in
+      program it beside the real thing. The score was first published in
       Leipzig in a run of two hundred copies.
     clue: ["Every bar of it could have been written in 1740", "He was not trying to deceive anybody, and he was not making fun of anybody either"]
     relation: restatement
@@ -207,10 +207,10 @@ items:
       had come in. Eleven men owed him their lives, and the transcript of his
       evidence covers rather less than a page. A ________ witness is a trial to
       a commission and a gift to a newspaper, and both quoted him for a
-      fortnight. The inquiry sat for nine days in a hall above a post office.
+      two weeks. The inquiry sat for nine days in a hall above a post office.
     clue: ["the skipper said: Waited", "the transcript of his evidence covers rather less than a page"]
     relation: example
-    noise: ["off the bar", "Eleven men", "a fortnight", "a hall above a post office"]
+    noise: ["off the bar", "Eleven men", "a two weeks", "a hall above a post office"]
     pathway: >-
       He answers a question about saving eleven lives in one word, and his whole
       evidence fits on a page. The blank must mean using very few words.

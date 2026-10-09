@@ -47,7 +47,7 @@ items:
 
   - id: L2-HIS-03
     word: prevailed
-    options: [prevailed, withdrew, apologised, delayed]
+    options: [prevailed, withdrew, apologized, delayed]
     answer: a
     traps: {b: T4, c: T1, d: T2}
     passage: >-
@@ -64,7 +64,7 @@ items:
       rival. The blank must mean won in the end.
     key:
       b: "a scheme that was withdrawn would not have been built."
-      c: "committees are not apologised to, and an apology would not lay a line of track."
+      c: "committees are not apologized to, and an apology would not lay a line of track."
       d: "a delay postpones a decision; here the decision went the hill scheme's way."
 
   - id: L2-HIS-04
@@ -147,7 +147,7 @@ items:
     noise: ["For twenty years", "the tannery", "never stood for election"]
     pathway: >-
       He spent two decades publicly pressing for a particular plan. The blank
-      must mean argued in public in favour of.
+      must mean argued in public in favor of.
     key:
       a: "the hill scheme was his own proposal; he was its chief supporter."
       b: "reporting tells readers what has happened; he was pressing for something that had not happened yet."

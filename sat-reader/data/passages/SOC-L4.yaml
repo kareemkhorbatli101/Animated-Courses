@@ -1,0 +1,526 @@
+field: SOC
+level: 4
+passages:
+  - id: SOC-S01-L4
+    strand: S01
+    title: "Whether Polling Can Be Repaired"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S01-L3"
+    advances: "Diagnoses the recent polling failures and weighs the proposed repairs against the structural objection."
+    vocab_link: [obtain]
+    passage: |
+      National polls in the United States were close to the popular vote in 2016
+      and badly wrong in several states, and in 2020 the error was larger and
+      ran in the same direction again. Two diagnoses were offered. The first
+      diagnosis is technical and fixable. It holds that polls had underweighted
+      voters without college degrees, who were numerous and disproportionately
+      supporting one candidate, and the remedy was to weight on education, which
+      most firms promptly did. That correction was not enough in 2020, and the
+      error in several states ran the same way again.
+
+      The second diagnosis is differential nonresponse, meaning that one group
+      answers surveys at a different rate from another, in a way that correlates
+      with how they vote. If people who distrust institutions are both less
+      likely to answer a pollster and more likely to support a particular
+      candidate, then no weighting on demographics can repair the sample,
+      because the people missing are not missing at random within their
+      categories. That is a structural problem rather than a technical one, and
+      it cannot be fixed by obtaining more interviews.
+
+      Several remedies are under test. Weighting on recalled past vote helps and
+      introduces its own error, because recall is unreliable and drifts toward
+      the winner. Registration-based sampling allows respondents to be verified
+      against the voter files, at the cost of excluding anyone not registered.
+      The most honest position available is that polls remain the best
+      instrument for measuring opinion between elections and have a known and
+      currently unrepaired weakness in forecasting close ones, and that the
+      appropriate response is to widen the stated uncertainty rather than to
+      pretend the problem has been solved. Several national associations
+      published post-mortems after each election with largely consistent
+      findings, and the 2020 report concluded that the cause could not be
+      identified from the data available to it.
+    anchors:
+      - take: "Weighting on education was adopted and was not enough."
+        quote: "That correction was not enough in 2020"
+      - take: "The people missing are not missing at random within their categories."
+        quote: "not missing at random within their categories"
+      - take: "The appropriate response is to widen the stated uncertainty."
+        quote: "to widen the stated uncertainty"
+    terms:
+      - {term: "differential nonresponse", gloss: "a situation in which one group answers surveys at a different rate from another", glossed: true}
+    facts:
+      - "National polls in 2016 were close on the popular vote and wrong in several states."
+      - "The 2020 polling error was larger and in the same direction."
+      - "Weighting on education was widely adopted after 2016 and did not resolve the problem."
+  - id: SOC-S02-L4
+    strand: S02
+    title: "Gold Standard or Narrow Tool"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S02-L3"
+    advances: "Presents the external validity objection to randomized trials and what each side concedes."
+    vocab_link: [tenuous]
+    passage: |
+      A randomized trial establishes that a treatment worked in the place it was
+      run, with the people who took part, under the conditions that prevailed.
+      The claim that it is the gold standard asserts something more: that this
+      design sits above others in a hierarchy of evidence regardless of the
+      question being asked. Angus Deaton and Nancy Cartwright have pressed the
+      objection hardest, and it concerns external validity, meaning whether a
+      result obtained in one setting holds in another.
+
+      Their argument is that transferring a trial result requires knowledge the
+      trial does not supply. A deworming program that raised school attendance
+      in one Kenyan district may do nothing in a district with different worm
+      species, different schools or different distances to a clinic, and knowing
+      which features matter requires a mechanism rather than another trial.
+      Without that, the basis for applying the finding anywhere else is tenuous,
+      and a hierarchy that ranks trials above the mechanistic evidence needed to
+      use them has the order wrong.
+
+      The defense concedes the point about transfer and denies the conclusion.
+      Trials settle the one thing other designs cannot, which is whether the
+      effect exists at all in a known population, and the history of medicine is
+      a long record of treatments that mechanism and observation endorsed and
+      trials destroyed. The position most practitioners now hold is that a trial
+      is the best available instrument for a narrow question and that the
+      hierarchy was always a slogan. Replication across settings, with the
+      mechanism investigated in each, is what makes a finding usable, and that
+      program is slower and less quotable than a single result. Multi-site
+      trials with pre-specified comparisons across sites are one response to the
+      objection. They are expensive and the number of them remains small.
+    anchors:
+      - take: "A trial establishes that a treatment worked where it was run."
+        quote: "worked in the place it was run"
+      - take: "Transferring a result requires knowledge the trial does not supply."
+        quote: "requires knowledge the trial does not supply"
+      - take: "Trials settle whether the effect exists at all in a known population."
+        quote: "whether the effect exists at all in a known population"
+    terms:
+      - {term: "external validity", gloss: "whether a result obtained in one setting holds in another", glossed: true}
+      - {term: "mechanism", gloss: "the account of how a treatment produces its effect, which may differ between settings", glossed: false}
+    facts:
+      - "Deaton and Cartwright have objected to the ranking of randomized trials above other evidence."
+      - "Transferring a trial result requires mechanistic knowledge about which features matter."
+      - "Medicine has a long record of treatments endorsed by observation and refuted by trials."
+  - id: SOC-S03-L4
+    strand: S03
+    title: "Fisher, Hill and the Cigarette"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S03-L3"
+    advances: "Uses the smoking dispute to show how observational evidence was eventually made to carry a causal claim."
+    vocab_link: [sound]
+    passage: |
+      Ronald Fisher, the greatest statistician of his generation, argued until
+      his death in 1962 that the link between smoking and lung cancer had not
+      been shown to be causal. His objection was not foolish and is still taught
+      in courses on causal inference. He proposed the constitutional hypothesis,
+      meaning that a third factor, in this case an inherited disposition, might
+      cause both the taste for tobacco and the susceptibility to the disease,
+      which would produce the observed association with no causal arrow between
+      the two. He also pointed out, entirely correctly, that nobody could run
+      the experiment that would settle the question directly.
+
+      Austin Bradford Hill answered not with a single study but with a list. The
+      Bradford Hill's considerations, meaning the features that strengthen a
+      causal reading, include the size of the association, its consistency
+      across populations and designs, a dose response, the right time order, a
+      plausible mechanism, and what happens when the exposure is removed.
+      Smoking satisfied all of them, and the agreement was unusually complete.
+      Heavy smokers had about twenty times the risk, the finding appeared in
+      every country examined, risk rose with consumption and fell after
+      quitting, and lung tissue from smokers showed the damage directly.
+
+      Fisher's objection was answered rather than dismissed, and the answer took
+      fifteen years. Twin studies addressed the constitutional hypothesis
+      directly, animal experiments supplied the mechanism, and the removal of
+      exposure in people who quit supplied something close to an experiment.
+      What the episode establishes is that observational evidence can carry a
+      causal claim, that doing so requires many independent lines rather than
+      one strong correlation, and that a sound objection from a serious opponent
+      is the most useful thing a field can be given. Fisher had been a paid
+      consultant to the tobacco industry, which is often mentioned and does not
+      dispose of his argument.
+    anchors:
+      - take: "Fisher proposed an inherited disposition causing both."
+        quote: "might cause both the taste for tobacco and the susceptibility"
+      - take: "Hill answered with a list of considerations rather than one study."
+        quote: "not with a single study but with a list"
+      - take: "The answer required many independent lines of evidence."
+        quote: "many independent lines rather than one strong correlation"
+    terms:
+      - {term: "constitutional hypothesis", gloss: "the proposal that a third factor causes both the exposure and the disease", glossed: true}
+      - {term: "Bradford Hill's considerations", gloss: "a set of features that strengthen a causal reading of an association", glossed: true}
+    facts:
+      - "Fisher argued until 1962 that the smoking and lung cancer link was not shown to be causal."
+      - "Bradford Hill set out considerations including strength, consistency, dose response and reversibility."
+      - "Heavy smokers were found to have about twenty times the lung cancer risk of non-smokers."
+  - id: SOC-S04-L4
+    strand: S04
+    title: "The Average Patient"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S04-L3"
+    advances: "Questions whether an average is the right object of study, using a case where it was nearly fatal advice."
+    vocab_link: [want]
+    passage: |
+      In 1982 Stephen Jay Gould was told he had a cancer with a median survival,
+      meaning the time by which half of patients have died, of eight months. He
+      was a statistician by training and read the sentence correctly: a median
+      is a location, the distribution had a long right tail, he was young and
+      well treated and otherwise healthy, and he had reason to think he belonged
+      in that tail. He lived twenty years. His essay on the subject is the
+      clearest statement of the case against taking an average as a description
+      of a person.
+
+      The general problem is the heterogeneous treatment effect, meaning a
+      situation in which a treatment helps some people and harms others while
+      the average looks small. A drug that saves one patient in ten and kills
+      one in twenty reports a modest net benefit, and the figure is correct and
+      useless for the decision in front of a doctor. Trials are powered to
+      detect averages, and the subgroups that would reveal the structure are
+      exactly the comparisons that produce false positives if examined without
+      discipline.
+
+      The defense of the average is practical and strong. It is the only
+      quantity that can be estimated reliably from a feasible sample, subgroup
+      claims have a poor record, and personalized predictions from small data
+      perform badly in tests. The position that has emerged is not a choice but
+      a sequence: estimate the average first, pre-specify a small number of
+      subgroups on mechanistic grounds, and treat anything else as a hypothesis.
+      The want of good individual-level evidence is a real limitation and not an
+      argument for guessing. Modern trial protocols register the subgroup
+      analyzes in advance for exactly this reason. Where they are registered,
+      the proportion of positive subgroup findings falls sharply.
+    anchors:
+      - take: "A median is a location, not a prediction about a person."
+        quote: "a median is a location"
+      - take: "A treatment can help some and harm others while the average is small."
+        quote: "helps some people and harms others while the average looks small"
+      - take: "The position is a sequence rather than a choice."
+        quote: "not a choice but a sequence"
+    terms:
+      - {term: "heterogeneous treatment effect", gloss: "a situation in which a treatment helps some people and harms others", glossed: true}
+      - {term: "median survival", gloss: "the time by which half of a group of patients has died", glossed: true}
+    facts:
+      - "Gould was given a median survival of eight months in 1982 and lived twenty years."
+      - "Heterogeneous treatment effects can produce a small average from large opposite effects."
+      - "Modern protocols require subgroup analyzes to be registered in advance."
+  - id: SOC-S05-L4
+    strand: S05
+    title: "When Paying Makes Things Worse"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S05-L3"
+    advances: "Examines the crowding-out claim against incentives, with the two experiments that are always cited."
+    vocab_link: [pernicious]
+    passage: |
+      Richard Titmuss argued in 1970 that paying for blood produces less blood
+      and worse blood than asking for it. His reasoning was that payment changes
+      the meaning of the act, driving out donors who gave from duty while
+      attracting those with most reason to conceal an infection. Kenneth Arrow
+      replied that the argument confused two claims and that a market and a gift
+      system could coexist. The data at the time were not good enough to settle
+      it, and the dispute became the standard case for crowding out, meaning the
+      displacement of an internal motive by an external reward.
+
+      The experiment usually cited against incentives is smaller and cleaner.
+      Ten Israeli day care centers introduced a fine for parents who collected
+      their children late, and lateness increased, substantially and
+      permanently, and did not fall back when the fine was removed. The
+      explanation offered is that the fine converted a social obligation into a
+      price, and once a parent could buy an extra twenty minutes the obligation
+      was gone and did not return.
+
+      The honest reading of the literature is narrower than either slogan.
+      Crowding out is real, is documented in a modest number of settings, and
+      depends on what the payment signals: a payment that reads as recognition
+      does not displace the motive, while one that reads as a transaction does.
+      Most incentives in most places work in the ordinary direction. The
+      pernicious cases share a feature worth remembering, which is that the
+      activity being paid for already carried a meaning that the payment
+      replaced, and that meanings are harder to restore than prices. Blood
+      systems in most rich countries are unpaid, which is consistent with
+      Titmuss and does not demonstrate him. Plasma collection, which is paid in
+      several countries, has a different safety record and a different donor
+      population.
+    anchors:
+      - take: "Titmuss argued that payment changes the meaning of the act."
+        quote: "payment changes the meaning of the act"
+      - take: "Lateness increased when a fine was introduced and did not fall back."
+        quote: "did not fall back when the fine was removed"
+      - take: "Crowding out depends on what the payment signals."
+        quote: "depends on what the payment signals"
+    terms:
+      - {term: "crowding out", gloss: "the displacement of an internal motive by an external reward or penalty", glossed: true}
+      - {term: "signal", gloss: "the information that the introduction of a payment conveys about the activity", glossed: false}
+    facts:
+      - "Titmuss argued in 1970 that paying for blood reduces both supply and safety."
+      - "Israeli day care centers that fined late parents saw lateness increase and stay high after the fine was removed."
+      - "Blood collection in most rich countries is unpaid."
+  - id: SOC-S06-L4
+    strand: S06
+    title: "Chosen or Inherited"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S06-L3"
+    advances: "Weighs two accounts of where norms come from and shows which predictions distinguish them."
+    vocab_link: [insular]
+    passage: |
+      Two accounts of norms are current, one from game theory and one from
+      anthropology, and they make different predictions. The equilibrium account
+      holds that a norm persists because it is in each person's interest to follow
+      it once others do: driving on one side of the road is the clear case, and
+      the content of the rule is arbitrary while the coordination is not. On
+      this view norms are chosen, in the weak sense that anyone would choose
+      them given what everyone else is doing, and they change rapidly when the
+      incentives change.
+
+      The transmission account, meaning the view that norms are learned in
+      childhood and reproduced largely unexamined, holds that they are carried
+      by people who could not say why they hold them. On this view a norm is
+      inherited rather than chosen, and the evidence is that norms survive the
+      conditions that produced them. Rules about food, cleanliness and family
+      obligation persist for generations after migration, and differences
+      between neighboring and insular communities with identical economic
+      conditions can be large and stable.
+
+      The distinguishing prediction concerns speed. Equilibrium norms should
+      change fast when the payoffs do, and several have: smoking indoors became
+      unacceptable in many countries within about fifteen years, and so did seat
+      belt use. Transmitted norms should change at the speed of generations, and
+      several have done that instead, including attitudes to marriage and to
+      authority, which track birth cohort more closely than they track current
+      conditions. The useful conclusion is that both mechanisms exist and that
+      the observed speed of change is the evidence that identifies which one is
+      operating, which also means that a policy working on one of them will not
+      work on the other. Studies of migrant communities in Toronto and elsewhere
+      are the standard testing ground for the second account. They are
+      confounded by selection, since migrants are not a random sample.
+    anchors:
+      - take: "The equilibrium account makes the content arbitrary and coordination essential."
+        quote: "the content of the rule is arbitrary while the coordination is not"
+      - take: "Norms survive the conditions that produced them."
+        quote: "norms survive the conditions that produced them"
+      - take: "The observed speed of change tells you which mechanism is at work."
+        quote: "the observed speed of change is the evidence"
+    terms:
+      - {term: "equilibrium account", gloss: "the view that a norm persists because it is in each persons interest once others follow it", glossed: true}
+      - {term: "transmission account", gloss: "the view that norms are learned in childhood and reproduced largely unexamined", glossed: true}
+    facts:
+      - "Driving on one side of the road is the standard example of a coordination norm."
+      - "Indoor smoking became socially unacceptable in many countries within about fifteen years."
+      - "Attitudes to marriage and authority track birth cohort more closely than current conditions."
+  - id: SOC-S07-L4
+    strand: S07
+    title: "Does Building Lower Rents"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S07-L3"
+    advances: "Sets the supply argument against the skeptical reply and reports what the local evidence shows."
+    vocab_link: [bear]
+    passage: |
+      The textbook position is that rents are high where housing is scarce, so
+      building more housing reduces rents. The skeptical reply, common among
+      tenant organizations in expensive cities, is that new buildings are luxury
+      buildings, that they arrive with cafes and rising rents around them, and
+      that supply in practice produces induced demand, meaning that new units
+      attract additional people and the price does not fall.
+
+      Both claims have evidence and the evidence operates at different scales.
+      Studies of individual new buildings in San Francisco, Helsinki and New
+      York find that rents in the immediately surrounding blocks rise, which
+      supports the skeptics on the thing residents actually observe. Studies of
+      metropolitan areas find that places which built more have lower rent
+      growth, which supports the textbook. The reconciling mechanism is
+      filtering, meaning the process by which new expensive housing frees older
+      cheaper housing for others, and tracking individual moves shows chains of
+      six or seven vacancies following one new building, reaching down the
+      income distribution within a few years.
+
+      The dispute that remains is about who bears the costs and over what
+      period. A tenant displaced this year is not compensated by lower regional
+      rents in five years, and the chains work through a market in which the
+      first beneficiaries are better off than the last. The defensible position
+      is that supply does reduce rents at the scale of a region, that it does
+      not protect the people nearest the construction, and that these two facts
+      are not in conflict, which is why the policy argument is about
+      compensation and timing rather than about economics. Both literatures have
+      grown quickly since administrative rent data became available. The local
+      and regional findings have each been replicated in several countries.
+    anchors:
+      - take: "Rents rise in the blocks immediately around a new building."
+        quote: "rents in the immediately surrounding blocks rise"
+      - take: "Areas that built more have lower rent growth."
+        quote: "places which built more have lower rent growth"
+      - take: "The two facts are not in conflict."
+        quote: "these two facts are not in conflict"
+    terms:
+      - {term: "induced demand", gloss: "new supply attracting additional people and so sustaining the price", glossed: true}
+      - {term: "filtering", gloss: "the process by which new expensive housing frees older cheaper housing for others", glossed: true}
+    facts:
+      - "Studies find rents rise in blocks immediately around new construction."
+      - "Metropolitan areas that build more housing show lower rent growth."
+      - "Tracking moves shows chains of six or seven vacancies following one new building."
+  - id: SOC-S08-L4
+    strand: S08
+    title: "Thirty Years of Estimates"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S08-L3"
+    advances: "Surveys what the accumulated minimum wage research shows and why the question stayed open so long."
+    vocab_link: [discriminate]
+    passage: |
+      The minimum wage literature now contains hundreds of estimates and the
+      central finding is that modest increases have small employment effects.
+      That sentence conceals thirty years of argument, and the argument is
+      instructive about how a contested empirical question gets settled or fails
+      to. Few empirical questions in economics have been fought over for as long
+      or with as much data.
+
+      Three things changed the field. The first was data: administrative
+      employment records replaced surveys, and the number of separate minimum
+      wage changes available for study rose into the hundreds as states and
+      cities set their own rates. The second was method: comparisons began to
+      use only nearby areas, or only the same industry, or the distribution of
+      wages rather than total employment, which can discriminate between a job
+      lost and a job that simply pays more. The third was meta-analysis, meaning
+      the statistical combination of many studies, which revealed that the
+      literature had a funnel plot consistent with small null results going
+      unpublished.
+
+      What remains disputed is the boundary. Everyone agrees that a very high
+      minimum would cost jobs and that a very low one would not bind at all, and
+      the argument is about where the turn comes, which depends on the local
+      wage distribution and cannot be answered in general. Monopsony provides
+      the theory for why small increases may not cost jobs, since an employer
+      with wage-setting power is already paying below the competitive level. The
+      honest summary is that the simple textbook prediction was wrong about the
+      range of increases actually legislated, that nobody has established the
+      upper boundary, and that recent increases in some American cities are the
+      largest natural experiment yet run. Several cities have raised minimum
+      wages above half the local median wage, which is beyond the range
+      previously studied. Results from those cases are being published now and
+      are not yet consistent.
+    anchors:
+      - take: "Administrative records replaced surveys and the number of cases rose."
+        quote: "administrative employment records replaced surveys"
+      - take: "Meta-analysis found evidence that null results went unpublished."
+        quote: "small null results going unpublished"
+      - take: "The disputed question is where the turn comes."
+        quote: "the argument is about where the turn comes"
+    terms:
+      - {term: "meta-analysis", gloss: "a statistical combination of the results of many separate studies", glossed: true}
+      - {term: "funnel plot", gloss: "a chart used to detect whether small studies with null results are missing from a literature", glossed: true}
+    facts:
+      - "The minimum wage literature now contains hundreds of estimates."
+      - "Administrative records replaced survey data and the number of studied wage changes rose into the hundreds."
+      - "Meta-analysis found evidence of publication bias against small null results."
+  - id: SOC-S09-L4
+    strand: S09
+    title: "Inequality or Poverty"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S09-L3"
+    advances: "Separates two targets that are often confused and shows that the same data supports different priorities."
+    vocab_link: [ostensible]
+    passage: |
+      Two targets are available to anyone who wants to act on the distribution
+      of income, and they are not the same target. One is absolute poverty,
+      meaning a standard fixed at a level of goods and services rather than
+      relative to others. On that measure the world has improved enormously in
+      forty years, with the share of people below the international line falling
+      from something near four in ten to under one in ten. The other is
+      inequality, measured as the gap between the top and the rest, and on that
+      measure many rich countries have moved sharply the other way.
+
+      The priority dispute follows directly. One side holds that poverty is what
+      matters, that a gap is only bad if it makes someone worse off, and that
+      the ostensible concern about inequality is often envy with a theory
+      attached. The other side holds that inequality does make people worse off,
+      through mechanisms that can be specified. Political influence buys rules,
+      and high inequality raises the price of positional goods such as housing
+      near good schools. Relative standing has also been shown to affect health
+      and trust in ways that can be measured across populations.
+
+      The empirical question is whether those mechanisms are large, and the
+      evidence is mixed in a way that does not favor either side decisively.
+      Correlations between inequality and poor health across countries are real
+      and shrink substantially when income levels are controlled for. The
+      political mechanism is the best supported of the three and is hard to
+      quantify. What can be said is that the two targets sometimes conflict in
+      policy, since growth has reduced poverty in several countries while
+      increasing inequality, and anyone who declines to choose between them is
+      not facing the arithmetic. Both measures depend on choices about price
+      indices and household size, as the World Bank has documented, that move
+      the headline figures.
+    anchors:
+      - take: "Absolute poverty has fallen enormously in forty years."
+        quote: "falling from something near four in ten to under one in ten"
+      - take: "The two targets sometimes conflict in policy."
+        quote: "the two targets sometimes conflict in policy"
+      - take: "Health correlations shrink substantially when income is controlled for."
+        quote: "shrink substantially when income levels are controlled for"
+    terms:
+      - {term: "absolute poverty", gloss: "a standard fixed at a level of goods and services rather than relative to others", glossed: true}
+      - {term: "positional good", gloss: "something whose value depends on how much of it others have", glossed: false}
+    facts:
+      - "The share of people below the international poverty line fell from about four in ten to under one in ten over forty years."
+      - "Inequality has risen in many rich countries over the same period."
+      - "Cross-country correlations between inequality and health weaken when income levels are controlled for."
+  - id: SOC-S10-L4
+    strand: S10
+    title: "Irrational or Economical"
+    move: dispute
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "SOC-S10-L3"
+    advances: "Presents the two readings of the heuristics literature and the experimental results that distinguish them."
+    vocab_link: [telling]
+    passage: |
+      The heuristics literature can be read in two ways, and the reading chosen
+      decides what follows from it. The first reading treats each documented
+      departure from a formal model as a bias, meaning an error, and it
+      concludes that human judgment is systematically defective and in need of
+      correction by institutions and by experts. The second holds that the rules
+      people use are adapted to the environments in which they normally operate,
+      a position called ecological rationality, and that performance in an
+      artificial problem is not evidence about performance in life.
+
+      The second reading has experimental support that is easy to state. Several
+      famous errors shrink or vanish when the same problem is posed in
+      frequencies rather than in single-event probabilities, which is how
+      information arrives in experience. Doctors who fail the base rate problem
+      in percentages mostly succeed when it is posed as counts out of a
+      thousand. Simple rules that ignore most of the available information
+      outperform complex models in some forecasting tasks, which is not what a
+      defect account predicts.
+
+      Neither reading explains everything. Anchoring is robust across formats
+      and is hard to call adaptive. Framing effects persist in frequency
+      presentations. Against that, the practical lesson from the second reading
+      has proved more useful than the practical lesson from the first:
+      redesigning the presentation of information works better and more reliably
+      than training people out of errors. The most telling evidence is therefore
+      about remedies rather than about theory, and the two camps have converged
+      on practice while continuing to disagree about what the practice shows.
+      Gigerenzer and Kahneman debated the question in print for two decades, and
+      both endorsed the frequency presentation of medical risk. That convergence
+      on practice is probably the most useful thing the whole argument has
+      produced, and it arrived without either side conceding the theoretical
+      point at issue.
+    anchors:
+      - take: "One reading treats each departure as an error in need of correction."
+        quote: "in need of correction by institutions and by experts"
+      - take: "Doctors succeed with counts out of a thousand where they fail with percentages."
+        quote: "mostly succeed when it is posed as counts out of a thousand"
+      - take: "The camps converged on practice while disagreeing about theory."
+        quote: "converged on practice while continuing to disagree"
+    terms:
+      - {term: "ecological rationality", gloss: "the view that a rule is rational if it performs well in the environment where it is used", glossed: true}
+      - {term: "bias", gloss: "a departure from the answer a formal model prescribes", glossed: false}
+    facts:
+      - "Several documented errors shrink when problems are posed in frequencies rather than probabilities."
+      - "Doctors largely solve the base rate problem when it is presented as counts out of a thousand."
+      - "Anchoring is robust across presentation formats."

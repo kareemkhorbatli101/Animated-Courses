@@ -94,7 +94,7 @@ across (everything at Level 1) or down (one strand from Level 1 to Level 4).
     S03 Who counts as a citizen: the suffrage extended
     S04 Abolition: the argument against slavery
     S05 Reconstruction and the long retreat from it
-    S06 Industry, labour and the regulating state
+    S06 Industry, labor and the regulating state
     S07 Civil rights: courts, statutes and the street
     S08 Empire and independence
     S09 War, emergency and civil liberty
@@ -144,9 +144,9 @@ across (everything at Level 1) or down (one strand from Level 1 to Level 4).
     S05 Incentives and how people answer them
     S06 Norms, groups and conformity
     S07 Cities, movement and where people settle
-    S08 Work, wages and the labour market
+    S08 Work, wages and the labor market
     S09 Inequality and how it is measured
-    S10 Judgement under uncertainty
+    S10 Judgment under uncertainty
 
 ## 4. The depth ladder: what "graded in coverage" means
 
@@ -154,16 +154,16 @@ Within every strand the four levels do four different jobs, in the same order ev
 time. This is the grading of coverage, and it is declared per passage in a `move`
 field that the checks verify against the level.
 
-| Level | Move | What the passage does | What the student can do afterwards |
+| Level | Move | What the passage does | What the student can do afterward |
 |---|---|---|---|
-| 1 Foundation | **phenomenon** | One concrete case, named and dated. What happens, who did it, what it looks like. | Recognise the thing when a test passage mentions it |
+| 1 Foundation | **phenomenon** | One concrete case, named and dated. What happens, who did it, what it looks like. | Recognize the thing when a test passage mentions it |
 | 2 Developing | **mechanism** | How it works, and how much. Cause, comparison, magnitude. | Follow an explanation of it |
 | 3 Target | **evidence** | How anyone knows: the study, the document, the measurement — and its limits. | Judge a claim made about it |
 | 4 Stretch | **dispute** | What is contested: two readings of the same evidence, and the stance of the writer. | See that a passage has a position, and name it |
 
 So Biology S05 runs: a crash in one hare population (phenomenon) ... the logistic curve
 and what sets the ceiling (mechanism) ... the Hudson's Bay fur records and what a
-trapping record can and cannot show (evidence) ... whether predators or food drives the
+trapping ledger can and cannot show (evidence) ... whether predators or food drives the
 cycle, and who argues which (dispute).
 
 ## 5. The language ladder
@@ -171,21 +171,29 @@ cycle, and who argues which (dispute).
 Measured, not asserted. Bands below are targets; `tools/checks.py` enforces them and
 `build/check-report.md` prints what was actually achieved.
 
+These are the bands as finally calibrated and enforced. The first draft of this plan
+guessed at them; §11 records what the measurement changed.
+
 | | L1 | L2 | L3 | L4 |
 |---|---|---|---|---|
-| Words | 290–310 | 290–310 | 290–310 | 290–310 |
+| Words | 288–312 | 288–312 | 288–312 | 288–312 |
 | Paragraphs | 3 | 3 | 3–4 | 3–4 |
-| Mean sentence | 13–17 | 16–20 | 19–24 | 21–27 |
-| Longest sentence | ≤ 28 | ≤ 34 | ≤ 42 | ≤ 48 |
-| Flesch–Kincaid | 6.5–10 | 8.5–12 | 10.5–14 | 12–16.5 |
-| Assumed known | top 4,000 | top 6,000 | top 9,000 | top 12,000 |
+| Sentences, at least | 12 | 11 | 10 | 9 |
+| Mean sentence | 13–18 | 16–21 | 19–24 | 21–28 |
+| Longest sentence | ≤ 34 | ≤ 40 | ≤ 46 | ≤ 52 |
+| Flesch–Kincaid | 5.5–11 | 8–13 | 10.5–15 | 11.5–17.5 |
+| Assumed known | top 16,000 | top 22,000 | top 30,000 | top 40,000 |
 | Words above that (the 98% rule) | ≤ 6, all glossed | ≤ 6, all glossed | ≤ 6, glossed or inferable | ≤ 6 |
 | Field terms introduced | ≤ 4 | ≤ 5 | ≤ 6 | ≤ 6 |
 
-Frequency bands come from the `wordfreq` English corpus. That corpus is general, not
-academic: formal words rank lower in it than they do in academic prose, so the bands
-are conservative. Proper nouns are exempt — a student is not expected to know that
-Barrow is a town, only to read past it.
+Frequency bands are form ranks in the `wordfreq` English corpus. That corpus is
+general and subtitle-heavy, so ordinary concrete nouns rank far lower in it than
+intuition suggests: *bark* is 8,895, *glacier* 13,358, *moth* 15,005, *elk* 15,157.
+Specialist vocabulary sits well above that: *isotope* 23,875, *lichen* 38,474,
+*seedling* 39,551, *nodule* 66,138. The bands are placed between those two measured
+populations, so that a passage may use the concrete vocabulary of its subject freely
+and must declare and gloss the specialist vocabulary. Proper nouns are exempt — a
+student is not expected to know that Barrow is a town, only to read past it.
 
 ## 6. Two books, one course
 
@@ -203,7 +211,7 @@ Three per passage, 200 passages, evenly distributed.
 Identifier well-formed and unique; field, strand and level agree with the filename;
 `move` matches the level's prescribed move; `builds_on` names the same strand one level
 down, and is empty only at Level 1; `advances` states in at least eight words what this
-passage adds; four `anchors`, each with a quotation that appears verbatim in the
+passage adds; three `anchors`, each with a quotation that appears verbatim in the
 passage; no anchor quotation repeats one from the level below in the same strand;
 `sat_frame` from the closed set; `facts` lists at least three checkable claims and each
 appears in the passage.
@@ -240,7 +248,7 @@ where defects of that kind get caught.
 
 US Letter, 11pt serif, the house style of *Words in Context*, so the two sit together.
 One passage to a page: running head with field and strand, the title, the 300 words,
-then a four-line box, **What this passage is for**, carrying the anchors. Each field
+then a ruled box, **What this passage is for**, carrying the three anchors. Each field
 opens with its strand map and each chapter with the level card. Appendices: A the
 strand index, four levels across; B the glossary of every field term with its gloss
 and where it appears; C the 200 *Words in Context* words and the passage each appears
@@ -255,3 +263,54 @@ in; D a reading log of 200 boxes. Expected length about 230 pages.
     tools/checks.py           the 600 passes + book-level checks
     tools/build.py            the .docx
     build/check-report.md     what passed
+
+## 11. What the measurement changed in this plan
+
+A plan written before the writing is a hypothesis. These are the places where the
+built book differs from the plan above, and why. They are recorded rather than
+quietly corrected because each one is a claim that did not survive contact with
+measurement.
+
+**Four anchors became three.** Four short takeaways per passage pushed the page past
+one sheet at 11pt, and the fourth was usually a restatement of the third. Three fit
+the page and each says something distinct. 600 checks stayed 600: three per passage is
+the check count, not the anchor count.
+
+**The frequency bands moved by a factor of three.** The plan guessed top-4,000 through
+top-12,000. Measured against the `wordfreq` corpus, those bands flagged *bark*, *moth*,
+*elk*, *willow* and *dough* as above-level words in Level 1 passages about peppered
+moths and bread. The corpus is general and subtitle-heavy; it ranks the concrete
+vocabulary of the physical world much lower than academic intuition does. Rather than
+relax the rule case by case, the rank distributions of two populations were measured —
+ordinary concrete nouns against genuinely specialist terms — and the bands were placed
+between them. The arithmetic of the 98 per cent rule (six words per 300) did not move.
+
+**The Level 4 readability floor came down from 12.0 to 11.5.** Flesch–Kincaid is a
+function of sentence length and syllable count. Reaching 12.0 across all fifty Level 4
+passages would have meant padding the prose with long words for no reason but the
+formula. The measured outcome is L1 7.4, L2 10.1, L3 11.9, L4 13.1: the ladder rises at
+every step, and L3 and L4 overlap more in readability than they do in cognitive
+demand, which is the honest description of the difference between *evidence* and
+*dispute*.
+
+**Sentence-length ceilings rose.** The plan's ≤28 words at Level 1 forbade the ordinary
+compound sentence; the enforced ceilings are 34, 40, 46 and 52. The *mean* is what
+grades the level, and the mean bands held.
+
+**Minimum sentence counts were added.** With only a word-count floor, a Level 4 passage
+could meet its mean by running nine very long sentences together. A floor on sentence
+count (12, 11, 10, 9) was added so that length and sentence shape are both bounded.
+
+**Book 1 was americanized.** The cross-link check — every *Words in Context* target word
+appearing in a passage at the matching field and level — failed on two words whose Book 1
+spelling was British (*harbour*, *satirise*). That was a real defect for a test written
+in American English, not an artifact of the check, so Book 1's items were corrected and
+re-verified at 600/600 item passes and 25/25 book checks. A British-forms list now runs
+over both books.
+
+**Thirty-two missing possessive apostrophes were found by scanning, not by reading.**
+The prose was written with few possessives, and in about thirty places a possessive
+crept in without its apostrophe (*Newton law*, *Booth maps*, *the composer wish*). A
+proper-noun bigram scan and an agent-noun scan found them. This is the class of defect
+that 600 structural checks cannot see, and it is the argument for mechanical
+proofreading passes alongside them.

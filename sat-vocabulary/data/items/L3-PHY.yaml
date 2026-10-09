@@ -101,14 +101,14 @@ items:
     traps: {b: T4, c: T1, d: T2}
     passage: >-
       The report on the bridge runs to four hundred pages and lists everything
-      from the colour of the paint to the depth of the piles. Readers with only
+      from the color of the paint to the depth of the piles. Readers with only
       an afternoon are told to begin at section nine. One fact there explains
       the collapse and the rest of the document is background: the hangers
       were forty years old and had never once been inspected from above. That
       is the ________ point, and the whole inquiry turned on it.
     clue: "One fact there explains the collapse and the rest of the document is background"
     relation: contrast
-    noise: ["four hundred pages", "the colour of the paint", "section nine"]
+    noise: ["four hundred pages", "the color of the paint", "section nine"]
     pathway: >-
       Out of four hundred pages one fact carries the explanation. The blank
       must mean the most noticeable and important.
@@ -182,7 +182,7 @@ items:
     noise: ["the brightness of a certain kind of star", "a collapsing cloud of gas", "probably right"]
     pathway: >-
       Three unrelated methods end up within two million light years of one
-      another. The blank must mean come together towards the same value.
+      another. The blank must mean come together toward the same value.
     key:
       a: "the three answers fall inside two million light years of each other."
       b: "the three methods share no assumption, so they are not repetitions of one measurement."
@@ -199,7 +199,7 @@ items:
       melting ice and then into water boiling at a known pressure, and the two
       marks are compared with where the scale says they ought to fall. Unless
       somebody takes the trouble to ________ it against something already
-      known, every number it gives afterwards is a guess with a decimal point.
+      known, every number it gives afterward is a guess with a decimal point.
     clue: "the instrument goes into melting ice and then into water boiling at a known pressure, and the two marks are compared with where the scale says they ought to fall"
     relation: restatement
     noise: ["out of its box", "a printed scale", "a decimal point"]
@@ -210,7 +210,7 @@ items:
     key:
       a: "the ice and the boiling water are reference points, not a wash."
       b: "the thermometer is being made fit to use, not swapped for another one."
-      d: "taking a figure off the scale is what happens afterwards, and the passage says those figures mean nothing until this has been done."
+      d: "taking a figure off the scale is what happens afterward, and the passage says those figures mean nothing until this has been done."
 
   - id: L3-PHY-10
     word: attribute
@@ -221,16 +221,16 @@ items:
       The cracks in the terrace appeared in the same August that the water
       company laid a main along the road, and the owners' first letter blamed
       the digging. But the clay under that part of the town shrank four
-      centimetres that summer, every garden in the row lost its lawn, and
+      centimeters that summer, every garden in the row lost its lawn, and
       houses a mile from any trench cracked in the same week. It is easy to
       ________ damage to the newest thing in the street, and usually wrong.
     clue: "houses a mile from any trench cracked in the same week"
     relation: contrast
-    noise: ["four centimetres", "lost its lawn", "the water company"]
+    noise: ["four centimeters", "lost its lawn", "the water company"]
     pathway: >-
       The owners name the trench as the cause, and the evidence points to the
       dry clay instead. The blank must mean name as the cause.
     key:
       b: "the owners are assigning a cause, not refusing one."
-      c: "the four centimetres are measured, but the mistake the passage describes is naming the wrong cause."
+      c: "the four centimeters are measured, but the mistake the passage describes is naming the wrong cause."
       d: "the letter does announce a complaint; the sentence is about deciding what caused the damage."

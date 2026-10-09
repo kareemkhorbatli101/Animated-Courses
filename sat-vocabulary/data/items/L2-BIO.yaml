@@ -73,13 +73,13 @@ items:
     traps: {b: T2, c: T1, d: T4}
     passage: >-
       The farm track above the beach ended at a gate in 1950. The gate now
-      hangs forty metres out over the water, and the field it once closed is
+      hangs forty meters out over the water, and the field it once closed is
       not there. Waves that strike the same clay cliff twice a day will
       ________ it faster than any river cuts its bed: the parish has lost nine
-      metres of coast in a single lifetime.
-    clue: "the parish has lost nine metres of coast in a single lifetime"
+      meters of coast in a single lifetime.
+    clue: "the parish has lost nine meters of coast in a single lifetime"
     relation: restatement
-    noise: ["in 1950", "forty metres", "twice a day"]
+    noise: ["in 1950", "forty meters", "twice a day"]
     pathway: >-
       Land that was there is gone, worn off by water. The blank must mean wear
       away.

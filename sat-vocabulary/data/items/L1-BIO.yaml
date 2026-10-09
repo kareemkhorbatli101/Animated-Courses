@@ -30,10 +30,10 @@ items:
     passage: >-
       Seeds of the desert poppy can lie in dry sand for eleven years. They do
       not sprout and they do not rot; they simply ________ until a wet spring
-      finally comes, and then the whole slope turns orange in a fortnight.
+      finally comes, and then the whole slope turns orange in a two weeks.
     clue: "They do not sprout and they do not rot"
     relation: contrast
-    noise: ["eleven years", "the whole slope", "in a fortnight"]
+    noise: ["eleven years", "the whole slope", "in a two weeks"]
     pathway: >-
       The seeds neither develop nor die during the dry years. The blank must
       mean stay alive without changing.
@@ -111,15 +111,15 @@ items:
     passage: >-
       The seed pod of the sandbox tree dries in the sun until it splits with
       a crack that can be heard across a field. The halves ________ the seeds
-      so hard that some land forty metres away.
-    clue: "so hard that some land forty metres away"
+      so hard that some land forty meters away.
+    clue: "so hard that some land forty meters away"
     relation: cause
     noise: ["in the sun", "across a field", "The seed pod"]
     pathway: >-
       The pod bursts open and the seeds end up far from the tree, so the
       blank must mean let go outwards.
     key:
-      a: "to take in is the reverse of sending seeds forty metres away."
+      a: "to take in is the reverse of sending seeds forty meters away."
       c: "measuring is something a scientist does, not something a splitting pod does to seeds."
       d: "wasting seeds would mean losing them for nothing, but throwing them far is useful to the tree."
 

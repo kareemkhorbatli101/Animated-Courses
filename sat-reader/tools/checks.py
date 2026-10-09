@@ -15,7 +15,9 @@ SPEC = yaml.safe_load(open(os.path.join(ROOT, 'data', 'spec.yaml')))
 STRANDS = yaml.safe_load(open(os.path.join(ROOT, 'data', 'strands.yaml')))
 
 BRITISH_FORMS = set("""behaviour behaviours colour colours coloured honour honours honoured
-labour labours laboured favour favours favoured neighbour neighbours neighbourhood
+labour labours laboured labourer labourers labouring favour favours favoured favourite favourites
+digitise digitised digitises digitisation reanalyse reanalysed reanalyses moulded mould sulphur
+sulphide sulphate aluminium draught draughts ploughed plough cosy sceptical scepticism vapour vapours neighbour neighbours neighbourhood
 neighbourhoods harbour harbours harboured rumour rumours humour odour odours vigour
 splendour armour armoured endeavour saviour metre metres kilometre kilometres millimetre
 millimetres centimetre centimetres centre centres centred theatre theatres litre litres

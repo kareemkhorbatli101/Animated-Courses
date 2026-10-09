@@ -131,12 +131,12 @@ items:
     answer: b
     traps: {a: T1, c: T1, d: T2}
     passage: >-
-      A harbour master could order any ship to move, fine a captain who
+      A harbor master could order any ship to move, fine a captain who
       refused, and close the dock in a storm. Nobody in the port had more
       ________ than he did, though he owned not a single boat.
     clue: "could order any ship to move, fine a captain who refused, and close the dock in a storm"
     relation: restatement
-    noise: ["A harbour master", "in the port", "not a single boat"]
+    noise: ["A harbor master", "in the port", "not a single boat"]
     pathway: >-
       The powers listed are all powers to give orders that others must obey.
       The blank must name the right to command.

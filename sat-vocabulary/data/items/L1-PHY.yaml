@@ -119,7 +119,7 @@ items:
     noise: ["in hot soup", "a wooden one", "cooking pans"]
     pathway: >-
       The heat starts in the soup and arrives at the fingers, so it has
-      travelled along the metal. The blank must mean pass along.
+      traveled along the metal. The blank must mean pass along.
     key:
       a: "a spoon does not take a reading; the heat simply arrives at the handle."
       b: "holding the heat in the soup end is what the wooden spoon effectively does."
@@ -193,9 +193,9 @@ items:
     traps: {a: T1, c: T1, d: T2}
     passage: >-
       The tank is made of steel two fingers thick and closed with eighteen
-      bolts. The gas inside pushes outward with the force of a lorry, and the
+      bolts. The gas inside pushes outward with the force of a truck, and the
       wall has one job: to ________ it until the valve is opened.
-    clue: "The gas inside pushes outward with the force of a lorry"
+    clue: "The gas inside pushes outward with the force of a truck"
     relation: cause
     noise: ["two fingers thick", "eighteen bolts", "the valve is opened"]
     pathway: >-

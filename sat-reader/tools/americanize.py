@@ -8,6 +8,12 @@ import re, sys, glob
 MAP = {
  'behaviour':'behavior','behaviours':'behaviors','colour':'color','colours':'colors',
  'coloured':'colored','honour':'honor','honours':'honors','honoured':'honored',
+ 'favourite':'favorite','favourites':'favorites','digitise':'digitize','digitised':'digitized',
+ 'digitises':'digitizes','digitisation':'digitization','reanalyse':'reanalyze','reanalysed':'reanalyzed',
+ 'reanalyses':'reanalyzes','labourer':'laborer','labourers':'laborers','labouring':'laboring',
+ 'moulded':'molded','mould':'mold','sulphur':'sulfur','sulphide':'sulfide','sulphate':'sulfate',
+ 'aluminium':'aluminum','draught':'draft','draughts':'drafts','ploughed':'plowed','plough':'plow',
+ 'cosy':'cozy','sceptical':'skeptical','scepticism':'skepticism','vapour':'vapor','vapours':'vapors',
  'labour':'labor','labours':'labors','laboured':'labored','favour':'favor',
  'favours':'favors','favoured':'favored','neighbour':'neighbor','neighbours':'neighbors',
  'neighbourhood':'neighborhood','neighbourhoods':'neighborhoods','harbour':'harbor',

@@ -37,7 +37,7 @@ items:
       The advance had covered ninety miles in eleven days, and the staff
       officers were already drawing lines beyond the city. What stopped it was
       not a battle. The one road forward crossed four miles of marsh, the rains
-      came a fortnight early, and the fuel lorries could manage walking pace
+      came a two weeks early, and the fuel trucks could manage walking pace
       where they could move at all. A column can be ________ by weather and a
       bad road as thoroughly as by an army, and this one did not move again
       until the frost came in November.
@@ -211,13 +211,13 @@ items:
       The garrison had water for nine days and no prospect of relief; the
       second wall had come down on the Tuesday and the hospital had been moved
       into the cellars. The terms now offered were word for word the terms that
-      had been refused in March: the men to march out with their colours, the
+      had been refused in March: the men to march out with their colors, the
       guns to be left where they stood. At four in the afternoon the commander
       signed. A force in that position can ________ on the very terms it threw
       back two months earlier, and all it has bought is the two months.
     clue: ["The terms now offered were word for word the terms that had been refused in March", "At four in the afternoon the commander signed"]
     relation: restatement
-    noise: ["the second wall", "the cellars", "with their colours", "nine days"]
+    noise: ["the second wall", "the cellars", "with their colors", "nine days"]
     pathway: >-
       With no water and no relief the commander signs terms he had previously
       rejected. The blank must mean give in and surrender on the enemy's
@@ -229,7 +229,7 @@ items:
 
   - id: L4-HIS-10
     word: retrench
-    options: [expand, borrow, retrench, modernise]
+    options: [expand, borrow, retrench, modernize]
     answer: c
     traps: {a: T4, b: T2, d: T1}
     passage: >-
