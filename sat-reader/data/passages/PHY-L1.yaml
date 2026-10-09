@@ -10,13 +10,14 @@ passages:
     advances: "Starts from the bare fact that repeated measurements of one object disagree, before error is classified."
     vocab_link: [measure]
     passage: |
-      A smooth stone from the bed of the river Aire is placed on a laboratory balance, which is an instrument that compares an unknown weight against a known one. The
-      reading is 48.213 grams. It is lifted off and put back, and the reading is
-      now 48.209. Eleven weighings in a row give eleven numbers. They differ in
-      the third decimal place, and sometimes in the second. Nothing has been
-      done to the stone between weighings. It has not been chipped, wetted or
-      warmed. The stone has one mass, and the instrument has given eleven
-      answers.
+      A smooth stone from the bed of the river Aire is placed on a laboratory
+      balance, which is an instrument that compares an unknown weight against a
+      known one. The reading is 48.213 grams. It is lifted off and put back, and
+      the reading is now 48.209. Eleven weighings in a row give eleven numbers.
+      They differ in the third decimal place, and sometimes in the second.
+      Nothing has been done to the stone between weighings. It has not been
+      chipped, wetted or warmed. The stone has one mass, and the instrument has
+      given eleven answers.
 
       Some of the spread has obvious sources. A door opens and moves the air.
       The bench carries a slight vibration from a corridor. A fingerprint adds a
@@ -33,7 +34,9 @@ passages:
       says two things at once: a best figure and a width. A result given as
       48.213 grams on its own looks more confident and tells the reader less.
       Every quantity in a science report carries a width of that kind, whether
-      or not it is printed, and the habit of asking how wide is the beginning of reading such a report properly. Working laboratories record how many repeats were made.
+      or not it is printed, and the habit of asking how wide is the beginning of
+      reading such a report properly. Working laboratories record how many
+      repeats were made.
     anchors:
       - take: "One stone weighed eleven times gives eleven different readings."
         quote: "Eleven weighings in a row give eleven numbers."
@@ -77,7 +80,10 @@ passages:
       objects reached the ground in about one and a third seconds from a height
       of about five feet, which is slower than the same drop on Earth. The Moon
       pulls less hard. A sensitive instrument can detect that difference without
-      any dropping at all, but a hammer, a feather and a camera make it visible to anyone. The pull at the surface of the Moon is about one sixth of the pull at the surface of the Earth. Scott reported afterward that he had been slightly worried the feather would stick to his glove.
+      any dropping at all, but a hammer, a feather and a camera make it visible
+      to anyone. The pull at the surface of the Moon is about one sixth of the
+      pull at the surface of the Earth. Scott reported afterward that he had
+      been slightly worried the feather would stick to his glove.
     anchors:
       - take: "A hammer and a feather dropped on the Moon fell together."
         quote: "They fell together and landed together"
@@ -122,7 +128,9 @@ passages:
       century, because a filament lamp turned only about five percent of its
       electricity into light and the rest into heat. That is why replacing the
       bulbs in a town saves more energy than improving the turbines. The chain
-      is only as efficient as its worst step, and the worst step is usually the one closest to the user. A modern light-emitting diode turns about forty percent of its electricity into light.
+      is only as efficient as its worst step, and the worst step is usually the
+      one closest to the user. A modern light-emitting diode turns about forty
+      percent of its electricity into light.
     anchors:
       - take: "Each step in the chain changes energy from one form to another."
         quote: "Each step takes energy in one form and gives most of it back in another."
@@ -144,10 +152,13 @@ passages:
     advances: "Puts the gas laws on a bicycle pump that anyone has held, with the measured temperature rise."
     vocab_link: [transfer]
     passage: |
-      Robert Boyle described the behavior of squeezed air in 1662, and anyone with a bicycle can repeat the core of it. Pump up a tire from flat and the barrel of the pump becomes hot to hold within about thirty strokes. The base of the pump, nearest the valve,
-      is the hottest part. Nothing is burning and nothing is rubbing hard enough
-      to explain it. A thermometer taped to the barrel will show a rise of
-      twenty degrees or more on a cool day. The heat comes from the air inside.
+      Robert Boyle described the behavior of squeezed air in 1662, and anyone
+      with a bicycle can repeat the core of it. Pump up a tire from flat and the
+      barrel of the pump becomes hot to hold within about thirty strokes. The
+      base of the pump, nearest the valve, is the hottest part. Nothing is
+      burning and nothing is rubbing hard enough to explain it. A thermometer
+      taped to the barrel will show a rise of twenty degrees or more on a cool
+      day. The heat comes from the air inside.
 
       Air is mostly empty space. The molecules in it are far apart and moving
       fast, and the push that a tire feels from the inside is the sum of
@@ -161,8 +172,12 @@ passages:
       The same relation runs the other way, which is easier to feel than to
       explain. Let the air out of a full tire quickly and the escaping stream is
       noticeably cold, because the air expands as it leaves and does work
-      pushing the outside air aside. A refrigerator uses exactly this. It squeezes a gas until the gas is hot and lets that heat transfer to the kitchen through a radiator at the back. The gas is then allowed to expand inside the cabinet, where it is now colder than the food. Pressure, volume and temperature cannot be
-      changed one at a time. Fix any two and the third is decided.
+      pushing the outside air aside. A refrigerator uses exactly this. It
+      squeezes a gas until the gas is hot and lets that heat transfer to the
+      kitchen through a radiator at the back. The gas is then allowed to expand
+      inside the cabinet, where it is now colder than the food. Pressure, volume
+      and temperature cannot be changed one at a time. Fix any two and the third
+      is decided.
     anchors:
       - take: "A bicycle pump grows hot because work is done on the air inside it."
         quote: "The piston moving down does work on the air"
@@ -230,19 +245,32 @@ passages:
     advances: "Starts from one everyday appearance and names the single rule behind it, before the rule is generalized."
     vocab_link: [absorbs]
     passage: |
-      Ptolemy wrote about this effect in Alexandria in the second century. Stand a straw in a glass of water and look at it from the side. The straw
+      Ptolemy wrote about this effect in Alexandria in the second century. Stand
+      a straw in a glass of water and look at it from the side. The straw
       appears to break at the surface. The part under water seems to be at a
       different angle from the part above, and if the glass is moved the break
-      moves with it. The straw is perfectly straight. A ruler laid against it in the air, and then in the water, demonstrates that no physical bending has occurred.
+      moves with it. The straw is perfectly straight. A ruler laid against it in
+      the air, and then in the water, demonstrates that no physical bending has
+      occurred.
 
       Light travels more slowly through water than through air, by about a
       quarter. When a beam crosses the surface at an angle, the side of the beam
       that enters first is slowed first, and the whole beam swings. The
       technical word is refraction, meaning the bending of light as it passes
-      from one material into another. Everything seen through the water is therefore seen in a shifted position. The eye has no mechanism for detecting that the light changed direction along the way. It reports the straw where the light appears to have come from.
+      from one material into another. Everything seen through the water is
+      therefore seen in a shifted position. The eye has no mechanism for
+      detecting that the light changed direction along the way. It reports the
+      straw where the light appears to have come from.
 
-      The same rule explains a long list of ordinary things. A swimming pool looks shallower than it is, which is why bathers misjudge the deep end. A spoon in water looks broken. A spoon in oil looks more broken, because oil slows light more than water does. A lens in a pair of spectacles is a piece of glass ground to a curve, so that the bending happens in a chosen direction and brings light to a focus on the retina. Some light is also reflected at the surface, which is why a window shows a faint image of the room. Some is absorbed by the water itself, which is why the deep sea is dark. One
-      surface does three things to a beam at once.
+      The same rule explains a long list of ordinary things. A swimming pool
+      looks shallower than it is, which is why bathers misjudge the deep end. A
+      spoon in water looks broken. A spoon in oil looks more broken, because oil
+      slows light more than water does. A lens in a pair of spectacles is a
+      piece of glass ground to a curve, so that the bending happens in a chosen
+      direction and brings light to a focus on the retina. Some light is also
+      reflected at the surface, which is why a window shows a faint image of the
+      room. Some is absorbed by the water itself, which is why the deep sea is
+      dark. One surface does three things to a beam at once.
     anchors:
       - take: "The straw looks broken at the surface although it is straight."
         quote: "The straw appears to break at the surface."
@@ -265,21 +293,31 @@ passages:
     advances: "Contrasts two forms of one substance to show that reaction depends on surface, before rates are explained."
     vocab_link: [stable]
     passage: |
-      Antoine Lavoisier established in the 1770s that burning is a reaction with oxygen. Hold a match to a steel bar and nothing happens. The bar warms near the
-      flame and stays a bar. Hold the same match to a pad of fine steel wool and
-      the wool catches, glows orange, and travels across the pad in a slow front
-      that leaves a gray ash behind it. A nine-volt battery held across the same
-      pad will start it just as well. The two objects are the same metal, from
-      the same kind of ingot, and one of them burns.
+      Antoine Lavoisier established in the 1770s that burning is a reaction with
+      oxygen. Hold a match to a steel bar and nothing happens. The bar warms
+      near the flame and stays a bar. Hold the same match to a pad of fine steel
+      wool and the wool catches, glows orange, and travels across the pad in a
+      slow front that leaves a gray ash behind it. A nine-volt battery held
+      across the same pad will start it just as well. The two objects are the
+      same metal, from the same kind of ingot, and one of them burns.
 
-      What differs is surface. Steel reacts with oxygen in the air to make iron oxide, which is rust. That reaction can happen only where metal and air meet. A solid bar presents a few square centimeters of surface for every hundred grams. The same hundred grams, drawn into threads a hundredth of a millimeter thick, presents several square meters.
-      Every thread is also thin enough to be heated right through. The reaction then releases enough heat in one spot to light the thread beside it.
+      What differs is surface. Steel reacts with oxygen in the air to make iron
+      oxide, which is rust. That reaction can happen only where metal and air
+      meet. A solid bar presents a few square centimeters of surface for every
+      hundred grams. The same hundred grams, drawn into threads a hundredth of a
+      millimeter thick, presents several square meters. Every thread is also
+      thin enough to be heated right through. The reaction then releases enough
+      heat in one spot to light the thread beside it.
 
       Rust on a gate is the same reaction running at a crawl. It takes years
       because the surface is small, the heat escapes, and a layer of oxide
       shields what is underneath. The chemistry does not change with the shape
-      of the metal; only the rate does. That is why a flour mill can explode while a bag of flour on a shelf is perfectly stable. Fire crews treat a grain silo and a sack of grain as different problems. A
-      substance has no single level of danger. It has a level for each state it is divided into. Powdered sugar and powdered coal have both destroyed buildings where the solid form had been handled safely for years.
+      of the metal; only the rate does. That is why a flour mill can explode
+      while a bag of flour on a shelf is perfectly stable. Fire crews treat a
+      grain silo and a sack of grain as different problems. A substance has no
+      single level of danger. It has a level for each state it is divided into.
+      Powdered sugar and powdered coal have both destroyed buildings where the
+      solid form had been handled safely for years.
     anchors:
       - take: "The same metal burns as wool and not as a bar."
         quote: "The two objects are the same metal"
@@ -323,7 +361,11 @@ passages:
       wind. That was not unusual in 1879. It became unusual immediately
       afterward. The second Tay Bridge, built beside the first and still in use,
       used wrought iron and steel, had doubled columns, and was designed against
-      a wind load of fifty-six pounds per square foot. The stumps of the old piers still stand in the water beside it, and every train from Edinburgh to Aberdeen passes them. The inquiry also asked who should have noticed. Workmen had reported loose bolts and rattling joints for months, and the reports had gone no further than the foreman.
+      a wind load of fifty-six pounds per square foot. The stumps of the old
+      piers still stand in the water beside it, and every train from Edinburgh
+      to Aberdeen passes them. The inquiry also asked who should have noticed.
+      Workmen had reported loose bolts and rattling joints for months, and the
+      reports had gone no further than the foreman.
     anchors:
       - take: "The bridge fell in a gale fourteen months after it opened."
         quote: "the thirteen central spans went into the river"
@@ -354,11 +396,13 @@ passages:
       between strokes. Some of them painted their nails and teeth with the paint
       for a party trick.
 
-      The first deaths were put down to other causes. A dial painter named Mollie Maggia lost teeth through 1922 and then pieces of her jaw. She died in September of that year, with the cause recorded as a disease of the mouth.
-      By 1924 a dentist in the town had seen enough cases to write to the state.
-      Radium behaves chemically much like calcium, so a body builds it into
-      bone, where it sits for the rest of a life giving out radiation at close
-      range. The jaw and the hip were the usual sites of damage.
+      The first deaths were put down to other causes. A dial painter named
+      Mollie Maggia lost teeth through 1922 and then pieces of her jaw. She died
+      in September of that year, with the cause recorded as a disease of the
+      mouth. By 1924 a dentist in the town had seen enough cases to write to the
+      state. Radium behaves chemically much like calcium, so a body builds it
+      into bone, where it sits for the rest of a life giving out radiation at
+      close range. The jaw and the hip were the usual sites of damage.
 
       Five of the women sued in 1927, in a case the newspapers followed closely.
       All five were too ill to raise their arms to take the oath. The settlement
@@ -366,7 +410,9 @@ passages:
       company could be held liable for a disease contracted at work years
       earlier. The factories were made to stop the lip-pointing, to issue
       washable aprons and screens, and to reduce the time any one worker spent
-      at the bench. Later work on those same patients produced the first serious figures on what a given amount of radium in the body does to bone. Those figures were still being used to set safety limits fifty years afterward.
+      at the bench. Later work on those same patients produced the first serious
+      figures on what a given amount of radium in the body does to bone. Those
+      figures were still being used to set safety limits fifty years afterward.
     anchors:
       - take: "Dial painters shaped their brushes with their lips and swallowed radium."
         quote: "shape each brush with their lips between strokes"
@@ -389,19 +435,33 @@ passages:
     advances: "Converts the sizes of the solar system into travel times for light, as the concrete basis of astronomical distance."
     vocab_link: [contain]
     passage: |
-      Light moves at a fixed speed, about three hundred thousand kilometers in a second. Nothing in the universe carries information faster than that. Albert Michelson measured it to within a few percent in the 1880s. That single fact turns every distance in the sky into a length of time. The times are easier to hold in the head than the distances. A distance tells a reader how far away a thing is. A time tells the reader how old the view of it is.
+      Light moves at a fixed speed, about three hundred thousand kilometers in a
+      second. Nothing in the universe carries information faster than that.
+      Albert Michelson measured it to within a few percent in the 1880s. That
+      single fact turns every distance in the sky into a length of time. The
+      times are easier to hold in the head than the distances. A distance tells
+      a reader how far away a thing is. A time tells the reader how old the view
+      of it is.
 
       The Moon is about four hundred thousand kilometers away, so its light
-      reaches an observer in a little over one second. Radio instructions to the Apollo crews took the same time, which is why those recordings have an odd pause in every exchange of speech. The Sun is four hundred times further off.
-      Sunlight takes eight minutes and twenty seconds to arrive, so the Sun that
-      anyone sees above the horizon left the surface before the viewer sat down.
-      Jupiter is between thirty-three and fifty-three minutes away, depending on where the two planets stand. Light from the edge of the solar system takes
-      several hours.
+      reaches an observer in a little over one second. Radio instructions to the
+      Apollo crews took the same time, which is why those recordings have an odd
+      pause in every exchange of speech. The Sun is four hundred times further
+      off. Sunlight takes eight minutes and twenty seconds to arrive, so the Sun
+      that anyone sees above the horizon left the surface before the viewer sat
+      down. Jupiter is between thirty-three and fifty-three minutes away,
+      depending on where the two planets stand. Light from the edge of the solar
+      system takes several hours.
 
-      Beyond that the numbers change scale. The nearest star beyond the Sun, Proxima Centauri, is about four and a quarter light years off. The light arriving tonight set out when a child now at school was born. The nearest large galaxy, Andromeda, lies two and a half million light years away. It is still close enough to see with the naked eye on a dark night, as a faint smudge about the width of a thumb. Every view of the night
-      sky must therefore contain many different dates at once. A telescope is a
-      kind of record, and the further it is pointed the older the record is.
-      Nobody has ever seen any part of the universe as it is now.
+      Beyond that the numbers change scale. The nearest star beyond the Sun,
+      Proxima Centauri, is about four and a quarter light years off. The light
+      arriving tonight set out when a child now at school was born. The nearest
+      large galaxy, Andromeda, lies two and a half million light years away. It
+      is still close enough to see with the naked eye on a dark night, as a
+      faint smudge about the width of a thumb. Every view of the night sky must
+      therefore contain many different dates at once. A telescope is a kind of
+      record, and the further it is pointed the older the record is. Nobody has
+      ever seen any part of the universe as it is now.
     anchors:
       - take: "Light speed turns every distance in the sky into a time."
         quote: "turns every distance in the sky into a length of time"

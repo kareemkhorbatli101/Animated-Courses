@@ -21,7 +21,7 @@ def dump(path, d):
         out.append('    passage: |')
         paras = [x.strip() for x in p['passage'].strip().split('\n\n') if x.strip()]
         for i, para in enumerate(paras):
-            for line in textwrap.wrap(' '.join(para.split()), 74):
+            for line in textwrap.wrap(' '.join(para.split()), 74, break_on_hyphens=False):
                 out.append('      ' + line)
             if i < len(paras) - 1:
                 out.append('')

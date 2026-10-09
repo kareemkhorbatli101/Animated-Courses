@@ -416,34 +416,34 @@ passages:
     vocab_link: [stigma]
     passage: |
       Three quantities are routinely confused under one word. Income is a flow,
-      measured per year. Wealth, meaning what a household owns minus what it
-      owes, is a stock, accumulated over a life and inherited across
-      generations. Mobility is neither of those. Intergenerational mobility,
-      meaning how much a child position depends on the parents position, can be
-      high in a country with wide income gaps.
+      measured over a year and gone at the end of it. Wealth, meaning what a
+      household owns minus what it owes, is a stock, accumulated over a life and
+      inherited across generations. Mobility is neither of those.
+      Intergenerational mobility, meaning how much a child position depends on
+      the parents position, can be high in a country with wide income gaps.
 
       The three behave differently because their mechanisms differ. Wealth
       inequality is always larger than income inequality, in every country
       measured. Savings compound and so do debts, and a person on a modest
       income may still own a house. Income inequality responds to wages, taxes
-      and transfers within a few years. Wealth inequality responds over decades,
-      and inheritance is the reason. Mobility depends on schooling,
-      neighborhood, early childhood and the labor market, and it responds
-      slowest of all.
+      and transfers within a few years of any change to them. Wealth inequality
+      responds over decades, and inheritance is the reason. Mobility depends on
+      schooling, neighborhood, early childhood and the labor market, and it
+      responds slowest of all.
 
-      Confusing them produces bad arguments on every side. A country can reduce
-      income inequality by taxing and transferring while its wealth gaps widen,
-      which several European countries did between 1980 and 2010. A country can
-      have high mobility between the middle and the top and almost none out of
-      the bottom, which is what the American data show. And a measure that
-      captures none of the three is the experience of being poor, where stigma,
+      A country can reduce income inequality by taxing and transferring while
+      its wealth gaps widen, which several European countries did between 1980
+      and 2010. A country can have high mobility between the middle and the top
+      and almost none out of the bottom, which is what the American data show.
+      None of the three captures the experience of being poor, where stigma,
       insecurity and the cost of credit do damage that no distribution figure
       records. Wealth is measured from surveys that the very rich do not answer,
       so published wealth gaps are probably understated. Any serious argument
       about inequality therefore has to say which of the three quantities it is
       about, and a good many arguments never do. The three also respond at very
       different speeds, so a government can honestly report progress on income
-      while the wealth gap widens behind it. Mobility is slower still.
+      while the wealth gap widens behind it. Mobility is slower still, since a
+      change in schooling shows up in the figures a generation later.
     anchors:
       - take: "Income is a flow, wealth a stock, mobility neither."
         quote: "Income is a flow"

@@ -23,7 +23,9 @@ passages:
       figures describe different publics, and the gap is roughly twenty points.
       The study has been repeated many times since, in several countries, with
       the same result. People are more willing to refuse permission than to
-      impose a ban, even when the practical effect is identical. The word forbid is heavier than the phrase not allow, and respondents, meaning the people who answer a survey, hear the weight.
+      impose a ban, even when the practical effect is identical. The word forbid
+      is heavier than the phrase not allow, and respondents, meaning the people
+      who answer a survey, hear the weight.
 
       That is one of a family of effects that pollsters have to manage. The
       order of the items changes answers. A question about national problems
@@ -33,7 +35,9 @@ passages:
       about welfare, though the programs named are the same ones. None of this
       means that surveys are useless. It means that a number from a survey is a
       number about a particular form of words, and that the wording influences
-      the result as much as the subject does. A reader who is given a percentage without the question is not being given much. Good polling organizations publish the exact wording alongside the figure for this reason.
+      the result as much as the subject does. A reader who is given a percentage
+      without the question is not being given much. Good polling organizations
+      publish the exact wording alongside the figure for this reason.
     anchors:
       - take: "Two logically identical wordings gave answers twenty points apart."
         quote: "the gap is roughly twenty points"
@@ -56,13 +60,13 @@ passages:
     advances: "Describes one large experiment with real random assignment, giving its size and result."
     vocab_link: [compare]
     passage: |
-      Tennessee ran an unusual experiment in its schools between 1985 and 1989. It is still known by the name Project STAR.
-      The state wanted to know whether small classes help young children.
-      Earlier studies had compared schools that happened to have small classes
-      with schools that did not, and those comparisons were hard to trust. Small
-      classes are common in rich districts and in schools with spare rooms. Any
-      difference in results might come from the wealth or the building rather
-      than the class size.
+      Tennessee ran an unusual experiment in its schools between 1985 and 1989.
+      It is still known by the name Project STAR. The state wanted to know
+      whether small classes help young children. Earlier studies had compared
+      schools that happened to have small classes with schools that did not, and
+      those comparisons were hard to trust. Small classes are common in rich
+      districts and in schools with spare rooms. Any difference in results might
+      come from the wealth or the building rather than the class size.
 
       So the state assigned children by lot. About eleven thousand six hundred
       pupils in seventy-nine schools entered the study in kindergarten. Within
@@ -78,8 +82,10 @@ passages:
       some of it could still be found years later in high school test taking.
       The experiment also cost a great deal, because small classes need more
       teachers and more rooms, and that cost is the reason the policy argument
-      continued after the result was in. Tennessee published the data, and economists including Alan Krueger reanalyzed it for years afterward. What the lot made possible was a fair comparison. Nothing except the class size distinguished the two groups at
-      the start.
+      continued after the result was in. Tennessee published the data, and
+      economists including Alan Krueger reanalyzed it for years afterward. What
+      the lot made possible was a fair comparison. Nothing except the class size
+      distinguished the two groups at the start.
     anchors:
       - take: "Children and teachers were assigned to class sizes by lot."
         quote: "the state assigned children by lot"
@@ -115,13 +121,19 @@ passages:
       other explanations are available at once. Rich countries eat more
       chocolate and also fund more laboratories, so national wealth could
       produce both figures without either touching the other. The measures are
-      also crude. Prizes are awarded to people who did their work decades earlier, often in a different country from the one that claims them. A country of two million people needs only one laureate, meaning one person awarded the prize, to lead the table.
+      also crude. Prizes are awarded to people who did their work decades
+      earlier, often in a different country from the one that claims them. A
+      country of two million people needs only one laureate, meaning one person
+      awarded the prize, to lead the table.
 
       The paper is now used in teaching, which was not quite its purpose. It is
       a clean case of a pattern that is real, strong, measurable and useless as
       a guide to action. Two figures can rise together because one causes the
       other, because the second causes the first, because a third thing causes
-      both, or because a small sample has fallen out that way. A reader who sees two lines moving together and does not ask which of those four is in play will assume the first. That reader will be wrong most of the time. The habit of asking is most of what a course in statistics is for.
+      both, or because a small sample has fallen out that way. A reader who sees
+      two lines moving together and does not ask which of those four is in play
+      will assume the first. That reader will be wrong most of the time. The
+      habit of asking is most of what a course in statistics is for.
     anchors:
       - take: "A real published paper found a tight fit between chocolate and Nobel prizes."
         quote: "The points lined up remarkably well."
@@ -148,7 +160,9 @@ passages:
       a year. The tenth household has an income of four million. The mean income
       on the street is four hundred and four thousand dollars. That figure is
       correct and it describes nobody. Nine of the ten families are nowhere near
-      it, and the tenth is ten times above it. The middle household, which is the median, meaning the middle value when the cases are put in order, earns forty thousand dollars like its eight neighbors.
+      it, and the tenth is ten times above it. The middle household, which is
+      the median, meaning the middle value when the cases are put in order,
+      earns forty thousand dollars like its eight neighbors.
 
       Real national figures behave in the same way for the same reason. In the
       United States the mean household income runs well above the median, by
@@ -165,7 +179,10 @@ passages:
       the distribution rose enough. A report that uses the median will show the
       opposite trend from the same raw data, and neither report is lying. The
       responsible practice is to give both, along with some measure of the
-      spread. When only one is offered, the useful question is which one, and the second useful question is why that one was chosen. Government statistical offices publish both as a matter of routine. Newspapers usually print whichever supports the sentence already written.
+      spread. When only one is offered, the useful question is which one, and
+      the second useful question is why that one was chosen. Government
+      statistical offices publish both as a matter of routine. Newspapers
+      usually print whichever supports the sentence already written.
     anchors:
       - take: "A mean can be correct and describe nobody in the group."
         quote: "That figure is correct and it describes nobody."
@@ -195,13 +212,14 @@ passages:
       up of cars hunting for a space rather than going anywhere. The city
       decided to attack the hunting rather than build more parking.
 
-      The method was price. Meters in the test districts were fitted with sensors, which are devices that reported whether the space was occupied. Rates were then
-      adjusted block by block and hour by hour, with a target of leaving about
-      one space free on every block. Where a block was always full, the price
-      went up by twenty-five cents an hour at the next review. Where a block was
-      often empty, the price came down. Rates ended up ranging from twenty-five
-      cents to six dollars an hour, and on many blocks at many hours they fell
-      rather than rose.
+      The method was price. Meters in the test districts were fitted with
+      sensors, which are devices that reported whether the space was occupied.
+      Rates were then adjusted block by block and hour by hour, with a target of
+      leaving about one space free on every block. Where a block was always
+      full, the price went up by twenty-five cents an hour at the next review.
+      Where a block was often empty, the price came down. Rates ended up ranging
+      from twenty-five cents to six dollars an hour, and on many blocks at many
+      hours they fell rather than rose.
 
       The city reported that the time spent searching for a space dropped by
       about forty percent in the test areas. Average rates in those areas went
@@ -209,7 +227,10 @@ passages:
       works by paying attention to the one thing a driver cannot ignore, and by
       letting the price reward whoever is willing to walk two blocks. A campaign
       asking drivers to circle less would have cost less and done nothing.
-      Several cities have since copied the design. The main obstacle everywhere has been political rather than technical. A price that moves is easy to attack and hard to defend in one sentence. Los Angeles, Seattle and Calgary now run versions of the same scheme.
+      Several cities have since copied the design. The main obstacle everywhere
+      has been political rather than technical. A price that moves is easy to
+      attack and hard to defend in one sentence. Los Angeles, Seattle and
+      Calgary now run versions of the same scheme.
     anchors:
       - take: "Much downtown traffic was cars hunting for a space."
         quote: "cars hunting for a space rather than going anywhere"
@@ -233,11 +254,13 @@ passages:
     vocab_link: [behave]
     passage: |
       Hotels put cards in bathrooms asking guests to use their towels more than
-      once. In 2008 three researchers, led by Noah Goldstein, tested what those cards should say. They
-      ran the test in a real hotel, across several hundred rooms, over several
-      months. Housekeeping staff recorded whether the towels in each room had
-      been hung up for reuse. The guests did not know that anything was being
-      measured. That is what makes the study a field experiment, meaning a trial run in a real setting rather than a laboratory.
+      once. In 2008 three researchers, led by Noah Goldstein, tested what those
+      cards should say. They ran the test in a real hotel, across several
+      hundred rooms, over several months. Housekeeping staff recorded whether
+      the towels in each room had been hung up for reuse. The guests did not
+      know that anything was being measured. That is what makes the study a
+      field experiment, meaning a trial run in a real setting rather than a
+      laboratory.
 
       One version of the card made the usual environmental appeal and asked
       guests to help save the environment. Another version reported a plain fact
@@ -254,7 +277,9 @@ passages:
       other people actually do is a stronger lever than an appeal to a value,
       and it costs the same to print. People behave partly by reading the room,
       and a sentence that tells them what the room is doing will be acted on by
-      some of them. Nobody in the hotel was arguing about the environment. They were deciding, in about four seconds, what a normal guest does with a towel. The hotel saved laundry costs, which is why it agreed to the study.
+      some of them. Nobody in the hotel was arguing about the environment. They
+      were deciding, in about four seconds, what a normal guest does with a
+      towel. The hotel saved laundry costs, which is why it agreed to the study.
     anchors:
       - take: "Housekeeping recorded towel reuse without the guests knowing."
         quote: "The guests did not know that anything was being measured."
@@ -284,17 +309,25 @@ passages:
       often in the same street, because nobody could afford the time to live far
       out.
 
-      Then came the omnibus, which is a large horse-drawn carriage running a fixed route, and the steam railway, and from 1889 the electric streetcar. A streetcar held forty people and ran at about eight
-      miles an hour, which put land four or five miles out within reach of a
-      downtown office. Builders bought fields along the new lines. They put up houses in rows. Between 1870 and 1900 Boston spread from a two-mile city
-      to a ten-mile one. The historian Sam Bass Warner counted twenty-three
-      thousand houses built in three suburbs in those thirty years, almost all
-      of them by small builders putting up a handful at a time.
+      Then came the omnibus, which is a large horse-drawn carriage running a
+      fixed route, and the steam railway, and from 1889 the electric streetcar.
+      A streetcar held forty people and ran at about eight miles an hour, which
+      put land four or five miles out within reach of a downtown office.
+      Builders bought fields along the new lines. They put up houses in rows.
+      Between 1870 and 1900 Boston spread from a two-mile city to a ten-mile
+      one. The historian Sam Bass Warner counted twenty-three thousand houses
+      built in three suburbs in those thirty years, almost all of them by small
+      builders putting up a handful at a time.
 
-      Who moved out was decided by the fare. A ride cost five cents each way. That was real money for a laborer earning a dollar and a half a day. It was nothing to a clerk earning three. Those who could pay it moved to new
+      Who moved out was decided by the fare. A ride cost five cents each way.
+      That was real money for a laborer earning a dollar and a half a day. It
+      was nothing to a clerk earning three. Those who could pay it moved to new
       wooden houses with gardens, and those who could not stayed in the center.
       The new districts sorted themselves by income along each line. A pattern
-      of this kind is not a matter of taste alone. People prefer space when they can buy the travel time, and the price of the travel decides who is allowed to prefer it. The same sorting happened later with the automobile, at a larger scale and a higher price.
+      of this kind is not a matter of taste alone. People prefer space when they
+      can buy the travel time, and the price of the travel decides who is
+      allowed to prefer it. The same sorting happened later with the automobile,
+      at a larger scale and a higher price.
     anchors:
       - take: "A walking city could not be much wider than an hour on foot."
         quote: "could not be much wider than an hour on foot"
@@ -327,16 +360,23 @@ passages:
 
       The system suited the dock companies exactly. Ship arrivals were
       irregular, and a company that employed a steady workforce would be paying
-      men to stand about on quiet days. Casual hiring, meaning taking men on by the half day with no contract, moved that risk onto the workers. It also gave the foreman very great power, since he chose faces
-      each morning and could be bought a drink the night before. The men who did
-      best were not the strongest but the best known to the man at the gate.
+      men to stand about on quiet days. Casual hiring, meaning taking men on by
+      the half day with no contract, moved that risk onto the workers. It also
+      gave the foreman very great power, since he chose faces each morning and
+      could be bought a drink the night before. The men who did best were not
+      the strongest but the best known to the man at the gate.
 
-      Hiring of that kind was normal across the whole port. In August 1889 the dockers struck for a guaranteed minimum call of four hours and a rate of sixpence an hour. The strike lasted five weeks, drew
-      financial support from as far away as Australia, and largely won. The
-      deeper arrangement took much longer to change. Casual hiring at the docks
-      was not ended in Britain until 1967. The same practice ran in New York
-      under the name of the shape-up into the 1950s. A market can be organized
-      so that one side carries nearly all the uncertainty, and the side that benefits will usually describe the arrangement as flexibility. The word has not changed much since. Delivery work booked by the hour raises the same question in a new form.
+      Hiring of that kind was normal across the whole port. In August 1889 the
+      dockers struck for a guaranteed minimum call of four hours and a rate of
+      sixpence an hour. The strike lasted five weeks, drew financial support
+      from as far away as Australia, and largely won. The deeper arrangement
+      took much longer to change. Casual hiring at the docks was not ended in
+      Britain until 1967. The same practice ran in New York under the name of
+      the shape-up into the 1950s. A market can be organized so that one side
+      carries nearly all the uncertainty, and the side that benefits will
+      usually describe the arrangement as flexibility. The word has not changed
+      much since. Delivery work booked by the hour raises the same question in a
+      new form.
     anchors:
       - take: "Men were chosen from a crowd at the gate twice a day."
         quote: "chose from the crowd that had gathered"
@@ -361,17 +401,31 @@ passages:
     passage: |
       Streeterville and Englewood are both neighborhoods of Chicago. They lie
       about nine miles apart and are served by the same city government, the
-      same state laws and the same hospitals in principle. Life expectancy at birth means the average number of years a person born now is expected to live. In figures published in 2019 it was about ninety years in Streeterville.
-      In Englewood it was about sixty. The gap is roughly thirty years, inside
-      one city, between two places a short train ride apart.
+      same state laws and the same hospitals in principle. Life expectancy at
+      birth means the average number of years a person born now is expected to
+      live. In figures published in 2019 it was about ninety years in
+      Streeterville. In Englewood it was about sixty. The gap is roughly thirty
+      years, inside one city, between two places a short train ride apart.
 
       Nothing in those figures is about individual choices in any simple sense.
-      The two areas differ in income and in the share of adults with work. They differ in the quality of housing and the number of grocery stores. They differ in air quality near the expressways and in the presence of violence. They differ in how far a resident must travel for unhurried medical care. They also differ in history. The boundaries follow lines drawn by lending maps and by covenants, which were clauses in deeds restricting who could buy a house. These things arrive together and
-      are hard to separate.
+      The two areas differ in income and in the share of adults with work. They
+      differ in the quality of housing and the number of grocery stores. They
+      differ in air quality near the expressways and in the presence of
+      violence. They differ in how far a resident must travel for unhurried
+      medical care. They also differ in history. The boundaries follow lines
+      drawn by lending maps and by covenants, which were clauses in deeds
+      restricting who could buy a house. These things arrive together and are
+      hard to separate.
 
       Figures of this kind are now published for most large American cities and
-      for many European ones, usually by small area. Glasgow produced a famous example. The reported gap there was more than twenty years between two districts eight miles apart. The exact numbers move when the boundaries or the years change. Some early figures were later revised downward, which is a reason to read any single pair of numbers carefully. The
-      pattern does not move. A postal code will predict the length of a life better than most facts about the person living there. Later passages in this strand ask what such a measure is actually measuring.
+      for many European ones, usually by small area. Glasgow produced a famous
+      example. The reported gap there was more than twenty years between two
+      districts eight miles apart. The exact numbers move when the boundaries or
+      the years change. Some early figures were later revised downward, which is
+      a reason to read any single pair of numbers carefully. The pattern does
+      not move. A postal code will predict the length of a life better than most
+      facts about the person living there. Later passages in this strand ask
+      what such a measure is actually measuring.
     anchors:
       - take: "Two Chicago neighborhoods nine miles apart differ by about thirty years."
         quote: "The gap is roughly thirty years"
@@ -396,16 +450,32 @@ passages:
     vocab_link: [respond]
     passage: |
       In 1978 three researchers put a short problem to sixty doctors and medical
-      students at Harvard. A disease affects one person in a thousand. A test for it never misses a case. It does give a false positive, which is a positive result in a person who does not have the condition, in five percent of healthy people. A patient has tested positive and nothing else is known about him. The doctors were asked for the chance that he has the disease.
+      students at Harvard. A disease affects one person in a thousand. A test
+      for it never misses a case. It does give a false positive, which is a
+      positive result in a person who does not have the condition, in five
+      percent of healthy people. A patient has tested positive and nothing else
+      is known about him. The doctors were asked for the chance that he has the
+      disease.
 
       Most of the sixty answered ninety-five percent. Only about one in six gave
       an answer near the right one. The right answer is about two percent. The
-      arithmetic is short enough to do on a napkin. Take a thousand people, of whom exactly one has the disease, and that one tests positive as the test never misses a case. Of the nine hundred and ninety-nine who do not have it, about fifty also test positive.
-      So fifty-one people in the thousand test positive and only one of them is actually ill, and one in fifty-one is about two percent.
+      arithmetic is short enough to do on a napkin. Take a thousand people, of
+      whom exactly one has the disease, and that one tests positive as the test
+      never misses a case. Of the nine hundred and ninety-nine who do not have
+      it, about fifty also test positive. So fifty-one people in the thousand
+      test positive and only one of them is actually ill, and one in fifty-one
+      is about two percent.
 
       What goes wrong is not the arithmetic but the starting point. The five
       percent figure is vivid and the one in a thousand figure is not, so the
-      second gets dropped. The rate at which a condition occurs before any test is run is called the base rate. Ignoring it is among the most reliable errors in human judgment. It matters wherever a rare thing is screened for in a large population. That covers cancer screening, airport security, drug testing and fraud detection. A positive result on a good test for a rare condition is usually a false alarm. How a doctor or an official should respond to one depends entirely on the number that most people forget. Screening programs are designed around this arithmetic.
+      second gets dropped. The rate at which a condition occurs before any test
+      is run is called the base rate. Ignoring it is among the most reliable
+      errors in human judgment. It matters wherever a rare thing is screened for
+      in a large population. That covers cancer screening, airport security,
+      drug testing and fraud detection. A positive result on a good test for a
+      rare condition is usually a false alarm. How a doctor or an official
+      should respond to one depends entirely on the number that most people
+      forget. Screening programs are designed around this arithmetic.
     anchors:
       - take: "Most of the sixty doctors answered ninety-five percent."
         quote: "Most of the sixty answered ninety-five percent."

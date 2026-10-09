@@ -51,7 +51,7 @@ def emit(path, field, level, passages):
         paras = [x.strip() for x in p['text'].strip().split('\n\n') if x.strip()]
         for i, para in enumerate(paras):
             flat = ' '.join(para.split())
-            for line in textwrap.wrap(flat, 74):
+            for line in textwrap.wrap(flat, 74, break_on_hyphens=False):
                 out.append('      ' + line)
             if i < len(paras) - 1:
                 out.append('')

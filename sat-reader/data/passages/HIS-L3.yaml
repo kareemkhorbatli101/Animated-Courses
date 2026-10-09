@@ -1,0 +1,523 @@
+field: HIS
+level: 3
+passages:
+  - id: HIS-S01-L3
+    strand: S01
+    title: "What the Rough Draft Shows"
+    move: evidence
+    sat_frame: "founding document: the claim and its warrant"
+    builds_on: "HIS-S01-L2"
+    advances: "Introduces the manuscript evidence, including the deleted passage, and what a draft can and cannot establish."
+    vocab_link: [repudiated]
+    passage: |
+      The Declaration exists in more than one state, and the differences are
+      evidence. What survives includes Jefferson's rough draft, meaning the
+      working manuscript with its crossings-out and insertions still visible,
+      several fair copies he made for friends, the printed broadside of July 4,
+      and the engrossed parchment signed in August. Historians read these
+      against one another in the way a textual critic reads the manuscripts of a
+      poem, and the method is identical. Where two versions differ, the question
+      is who altered the wording, and at what stage of the proceedings.
+
+      The most studied difference is a deletion. Jefferson's draft contained a
+      long passage blaming George III for the slave trade, in language calling
+      it a cruel war against human nature. Congress struck the whole passage out
+      before approving the text. Jefferson himself recorded that delegates from
+      South Carolina and Georgia objected, and that northern members who
+      profited from the trade were not sorry to see it go. The deleted paragraph
+      is therefore a double piece of evidence about the proceedings. It shows
+      what one drafter was prepared to say, and it shows what a body of
+      fifty-six could be brought to sign.
+
+      A draft will not bear every weight, and the limits are worth being exact
+      about. A deletion tells us that a sentence was removed and not, by itself,
+      why. Jefferson wrote his account of the objection decades later, when his
+      memory had reasons of its own. The passage also blamed the king for a
+      trade in which Virginia planters were participants, so its removal cannot
+      simply be read as the moment when the republic repudiated its own stated
+      principle. What the manuscript establishes is narrower and still
+      substantial: the question was raised in 1776, in writing, by the author,
+      and was taken out. The rough draft is held at the Library of Congress and
+      has been photographed at high resolution.
+    anchors:
+      - take: "The document survives in several states and the differences are evidence."
+        quote: "the differences are evidence"
+      - take: "The deleted passage shows what fifty-six men could be brought to sign."
+        quote: "what a body of fifty-six could be brought to sign"
+      - take: "A deletion shows that a sentence was removed, not why."
+        quote: "not, by itself, why"
+    terms:
+      - {term: "rough draft", gloss: "the working manuscript with its crossings-out and insertions still visible", glossed: true}
+    facts:
+      - "Jefferson's rough draft contained a passage condemning the slave trade, which Congress deleted."
+      - "Jefferson recorded that South Carolina and Georgia delegates objected to it."
+      - "His account of the deletion was written decades after the event."
+  - id: HIS-S02-L3
+    strand: S02
+    title: "Reading the Ratification Debates"
+    move: evidence
+    sat_frame: "paired texts: two sides of one question"
+    builds_on: "HIS-S02-L2"
+    advances: "Shows what the ratification record actually consists of, and why the Federalist is a biased sample of it."
+    vocab_link: [usurped]
+    passage: |
+      The Federalist is the most quoted source on the Constitution and the least
+      representative. It consists of eighty-five newspaper essays written to
+      persuade New York to ratify, by three men with an interest in the outcome.
+      Reading it as a neutral explanation of the document is like reading a
+      campaign pamphlet as a description of a policy. It is first-class evidence
+      of what its authors wanted understood.
+
+      The rest of the surviving record is a great deal larger and considerably
+      messier. Each state held a ratifying convention, meaning an assembly
+      elected to vote on the Constitution, and the debates in several of them
+      were taken down by shorthand writers of uneven skill and published later,
+      sometimes by partisans. Essays opposing ratification appeared under names
+      such as Brutus and the Federal Farmer, the Pennsylvania minority published
+      a dissent, and private letters survive in considerable quantity. Madison's
+      own notes of the convention, the fullest account of what was said in
+      Philadelphia, were not published until 1840, after every participant was
+      dead.
+
+      Each kind of source carries a characteristic defect that can be stated.
+      Published debates were edited before printing, and in one well-known case
+      the reporter admitted that he had improved the speeches as he set them
+      down. Private letters are candid and partial in the same breath. Madison's
+      notes were revised by him over forty years, and the revisions can be dated
+      by the ink and the paper. A historian who wants to show that executive
+      power was later usurped, or that it was always intended to be large, can
+      find support in the record for either claim. That is why the argument at
+      the end of this strand has outlasted everyone who began it. Modern
+      editions print the sources side by side with notes on their reliability.
+      The Documentary History of the Ratification of the Constitution now runs
+      to more than thirty volumes.
+    anchors:
+      - take: "The Federalist is persuasive writing, not neutral explanation."
+        quote: "It is first-class evidence of what its authors wanted understood."
+      - take: "Madison's notes appeared in 1840, after every participant was dead."
+        quote: "after every participant was dead"
+      - take: "The record supports either claim about executive power."
+        quote: "can find support in the record for either claim"
+    terms:
+      - {term: "ratifying convention", gloss: "a state assembly elected to vote on the Constitution", glossed: true}
+    facts:
+      - "The Federalist consists of eighty-five essays written to persuade New York to ratify."
+      - "Madison's notes of the convention were published in 1840."
+      - "The Documentary History of the Ratification now runs to more than thirty volumes."
+  - id: HIS-S03-L3
+    strand: S03
+    title: "Signatures, Poll Books and a Trial"
+    move: evidence
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S03-L2"
+    advances: "Examines the records historians use to study the suffrage campaign and what each one measures."
+    vocab_link: [mandate]
+    passage: |
+      Four kinds of record carry the history of the suffrage campaign, and they
+      measure different things. Petitions survive in bulk, with names, addresses
+      and sometimes occupations, and Congress preserved them by the cartload. A
+      signature count measures organizing capacity rather than opinion, because
+      gathering fifty thousand names tells a historian mainly that somebody
+      could pay for canvassers and print the sheets. Membership rolls of the
+      suffrage associations measure that same capacity rather more directly, and
+      they were kept with varying care from one state association to the next.
+
+      The third record is the poll book, meaning the register of who actually
+      voted in a given election, and it supplies the hardest evidence in the
+      whole subject. In 1872 Susan Anthony and fourteen other women registered
+      and voted in Rochester, New York, arguing that the Fourteenth Amendment
+      already gave them a mandate to do so. The poll book records the votes. The
+      subsequent prosecution produced the fourth record, a court transcript, in
+      which the judge directed the jury to find her guilty and fined her a
+      hundred dollars, which she never paid. The case had been invited on
+      purpose, and the judge refused to let it go further.
+
+      Each record has a boundary. Petitions say nothing about those who declined
+      to sign, and poll books record who voted rather than what any of them
+      thought. Transcripts record what was said in a room where everyone was
+      performing for a result. Newspaper coverage, which survives in the
+      greatest quantity of all, mainly measures what editors thought their
+      readers would enjoy. The combination is still enough to answer specific
+      questions, and it is the reason historians can state with confidence that
+      the campaign was organized state by state rather than directed from one
+      center. Digitization has changed the field in twenty years, since petition
+      signatures can now be matched against census records by name and street.
+    anchors:
+      - take: "A signature count measures organizing capacity rather than opinion."
+        quote: "measures organizing capacity rather than opinion"
+      - take: "Anthony and fourteen others voted in Rochester in 1872."
+        quote: "In 1872 Susan Anthony and fourteen other women registered and voted"
+      - take: "Poll books record who voted, not what they thought."
+        quote: "poll books record who voted rather than what any of them thought"
+    terms:
+      - {term: "poll book", gloss: "the register of who actually voted in a given election", glossed: true}
+      - {term: "test case", gloss: "a prosecution deliberately invited in order to get a ruling", glossed: false}
+    facts:
+      - "Susan Anthony and fourteen other women voted in Rochester, New York, in 1872."
+      - "She was convicted, fined one hundred dollars, and never paid it."
+      - "Suffrage petitions survive with names, addresses and sometimes occupations."
+  - id: HIS-S04-L3
+    strand: S04
+    title: "Ledgers, Narratives and Manifests"
+    move: evidence
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S04-L2"
+    advances: "Sets out the sources for the history of slavery and the characteristic distortion of each."
+    vocab_link: [coercion]
+    passage: |
+      The history of slavery is written from four kinds of source, each with a
+      distortion that can be stated precisely. Ships manifests, meaning the
+      lists of people and goods carried on particular voyages, survive in large
+      numbers because they were commercial and legal documents. A database
+      assembled from them now covers more than thirty-six thousand Atlantic
+      voyages and permits estimates of numbers, routes and mortality. What it
+      cannot contain is anyone name, because the people listed were entered as
+      cargo by age and sex.
+
+      Plantation ledgers supply the opposite kind of detail: individuals, with
+      names, prices, tasks and punishments, recorded by the person applying the
+      coercion. They are precise and they are testimony by an interested party.
+      Published narratives by formerly enslaved people, such as those of
+      Frederick Douglass and Harriet Jacobs, supply the inside view, and they
+      were written to persuade, often with an abolitionist editor involved.
+      Contemporaries disputed their accuracy, and modern historians have since
+      verified much of the detail from other records.
+
+      The fourth source is the set of interviews recorded in the 1930s with
+      people who had been children in slavery. There are more than two thousand
+      of them, and they are the most difficult of all. The speakers were in
+      their eighties and nineties, most interviewers were white, and many
+      interviews took place in states where the speaker still depended on local
+      goodwill. The transcripts were also written in a dialect spelling imposed
+      by the interviewer. Historians use them, carefully, and the care consists
+      in reading across many interviews rather than quoting one. The slave trade
+      database is now public and can be queried by anyone with a browser. It was
+      built over thirty years from archives in seven countries and is still
+      being corrected.
+    anchors:
+      - take: "Manifests permit estimates of numbers but contain no names."
+        quote: "because the people listed were entered as cargo"
+      - take: "Ledgers are precise testimony by an interested party."
+        quote: "testimony by an interested party"
+      - take: "The 1930s interviews are used by reading across many, not by quoting one."
+        quote: "reading across many interviews rather than quoting one"
+    terms:
+      - {term: "manifest", gloss: "the list of people and goods carried on a particular voyage", glossed: true}
+    facts:
+      - "A database of Atlantic slave voyages covers more than 36,000 voyages."
+      - "Plantation ledgers record named individuals but were kept by enslavers."
+      - "More than two thousand interviews with formerly enslaved people were recorded in the 1930s."
+  - id: HIS-S05-L3
+    strand: S05
+    title: "Thirteen Volumes of Testimony"
+    move: evidence
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S05-L2"
+    advances: "Uses the Klan hearings and the registration rolls to show how two sources answer different questions."
+    vocab_link: [entrenched]
+    passage: |
+      In 1871 a joint committee of Congress took sworn testimony, meaning
+      evidence given under oath and taken down by a clerk, on violence in the
+      southern states. The published result runs to thirteen volumes. Hundreds
+      of witnesses appear, including people who had been attacked, people
+      accused of attacking them, sheriffs, teachers, planters and former
+      officers. It is one of the fullest records of political violence anywhere
+      in the nineteenth century, and it exists because a congressional majority
+      wanted the violence on the record.
+
+      Testimony of that kind has two uses and two problems. It establishes
+      particular events in detail, with names and dates that can be checked
+      against local papers and court files. It also preserves the voices of
+      people who left no other written trace, which is rare. The problems are
+      that witnesses were selected by committee members with purposes, and that
+      both sides understood what the hearings were for, so the accused denied
+      and minimized while the committee pressed for the worst cases.
+
+      Registration rolls, which are the official lists of those entitled to
+      vote, answer a different question and answer it coldly. They show how many
+      Black men were registered in a county in 1867 and in 1904, and the fall is
+      not a matter of interpretation. What they cannot show is why any
+      individual stopped registering, since a roll records an absence without a
+      reason. Put the two sources together and the picture is reasonably firm: a
+      pattern of violence established by testimony, followed by an entrenched
+      legal exclusion established by the rolls, with a decade in between where
+      the evidence is thinner than historians would like. The hearings are now
+      searchable online, which has produced a series of local studies. Several
+      of them have matched named witnesses to census entries and property
+      records.
+    anchors:
+      - take: "The 1871 hearings run to thirteen volumes of sworn testimony."
+        quote: "runs to thirteen volumes"
+      - take: "Witnesses were selected by members with purposes."
+        quote: "witnesses were selected by committee members with purposes"
+      - take: "A roll records an absence without a reason."
+        quote: "a roll records an absence without a reason"
+    terms:
+      - {term: "sworn testimony", gloss: "evidence given under oath and taken down by a clerk", glossed: true}
+      - {term: "registration roll", gloss: "the official list of those entitled to vote", glossed: true}
+    facts:
+      - "A joint congressional committee published thirteen volumes of testimony on southern violence in 1871."
+      - "Registration rolls show the number entitled to vote in each county."
+      - "Rolls cannot explain why any individual ceased to register."
+  - id: HIS-S06-L3
+    strand: S06
+    title: "Mortality Tables and Their Gaps"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "HIS-S06-L2"
+    advances: "Examines the statistical evidence behind factory law and the three ways such figures mislead."
+    vocab_link: [ameliorate]
+    passage: |
+      Factory legislation in Britain and in New York was argued from numbers,
+      and those numbers came from three places. There were commission reports
+      with their collected testimony, the annual returns of the factory
+      inspectors, and the registers of deaths kept by the civil authorities.
+      Each was collected for a purpose other than research, which is the normal
+      condition of historical statistics and the first thing to hold in mind.
+
+      Three defects recur. The first is the missing denominator, meaning the
+      figure a count must be divided by before it means anything. A report that
+      a trade killed four hundred men in a year is uninterpretable without
+      knowing how many men worked in it, and employment figures by trade were
+      poor before the twentieth century. The second is cause of death coding. A
+      weaver who died of tuberculosis after twenty years in a damp shed was
+      recorded as dying of tuberculosis, and the shed appears nowhere in the
+      record, so industrial disease was systematically invisible while
+      industrial accident was not.
+
+      The third defect is reporting incentive. Accidents were reported by
+      employers to inspectors who could prosecute them. Comparisons across years
+      are therefore contaminated by changes in how willing employers were to
+      report, and a fall in recorded accidents after a new law may mean fewer
+      accidents or more concealment. Historians handle this by looking for
+      series collected by somebody with no stake, such as burial registers or
+      union benefit payments, and by comparing trades that were covered by a law
+      with trades that were not. Measures that appeared to ameliorate conditions
+      sometimes only improved the paperwork, and the distinction can usually be
+      settled with a second source. Union sick-pay records have turned out to be
+      among the best series available. They were kept carefully because money
+      depended on them, and nobody involved had a reason to flatter an employer.
+    anchors:
+      - take: "Historical statistics were collected for purposes other than research."
+        quote: "collected for a purpose other than research"
+      - take: "A count without a denominator cannot be interpreted."
+        quote: "the figure a count must be divided by before it means anything"
+      - take: "A fall in recorded accidents may mean concealment."
+        quote: "may mean fewer accidents or more concealment"
+    terms:
+      - {term: "denominator", gloss: "the figure a count must be divided by before it means anything", glossed: true}
+      - {term: "cause of death coding", gloss: "the system by which a death is assigned to a single cause", glossed: false}
+    facts:
+      - "Factory law was argued from commission reports, inspectors returns and death registers."
+      - "Industrial disease was largely invisible in cause of death records."
+      - "Accident figures were reported by employers to inspectors who could prosecute them."
+  - id: HIS-S07-L3
+    strand: S07
+    title: "What the Files Turned Out to Hold"
+    move: evidence
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S07-L2"
+    advances: "Describes the documentary record of the civil rights period, including material released long afterward."
+    vocab_link: [partisan]
+    passage: |
+      The civil rights period is unusually well documented, and a large part of
+      the documentation was created by people trying to stop it. Court
+      transcripts and pleadings survive for thousands of cases, and registration
+      figures by county were collected by the federal government in order to
+      decide which areas the 1965 Act would cover, which is why they are
+      unusually careful. Organizations kept minutes, and the movement itself
+      produced a flood of printed material.
+
+      Then there are the surveillance files. The Federal Bureau of Investigation
+      watched the main organizations and their leaders, tapped telephones under
+      warrants it had obtained by misrepresenting the purpose, and compiled
+      files that ran to thousands of pages. Much of this became available after
+      1974, when amendments to the freedom of information statute, which is a
+      right to demand government documents, gave researchers a usable
+      instrument. The files are a strange source. They record meetings in detail
+      because an agent was present, and they record them through a lens that
+      treated the subject as a threat.
+
+      Using them requires a particular discipline. An informer report is
+      evidence that something was said and no evidence at all that it was true,
+      since informers were paid and had reason to produce material. An agency
+      summary is a partisan document whose purpose was to justify continued
+      attention. Where a file can be matched against a minute, a newspaper
+      account or a participant recollection, the match is often close on facts
+      and wide apart on meaning. Historians therefore treat the files as a
+      record of what was observed rather than as a record of what was happening.
+      Some files are still closed, and several thousand pages remain redacted. A
+      standing committee reviews the releases, and material has continued to
+      appear into the present decade.
+    anchors:
+      - take: "Much of the documentation was created by people trying to stop the movement."
+        quote: "created by people trying to stop it"
+      - take: "Registration figures were collected to decide which areas the Act would cover."
+        quote: "in order to decide which areas the 1965 Act would cover"
+      - take: "An informer report shows what was said, not that it was true."
+        quote: "no evidence at all that it was true"
+    terms:
+      - {term: "freedom of information", gloss: "a statutory right to demand government documents", glossed: true}
+      - {term: "surveillance file", gloss: "a record compiled by an agency about a person it was watching", glossed: false}
+    facts:
+      - "Federal registration figures by county were compiled to determine coverage under the 1965 Act."
+      - "FBI files on civil rights organizations ran to thousands of pages."
+      - "Amendments to the freedom of information statute in 1974 made much of the material available."
+  - id: HIS-S08-L3
+    strand: S08
+    title: "Whose Numbers Are the Famine Reports"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "HIS-S08-L2"
+    advances: "Examines the colonial statistical record, who compiled it and what that does to the figures."
+    vocab_link: [expedient]
+    passage: |
+      British India generated statistics on an extraordinary scale, and almost
+      all of them were produced by the administration for administrative
+      purposes. The revenue settlement, meaning the periodic assessment that
+      fixed what each district owed, required measurement of land, crops and
+      population, and the resulting series run for a century. A historian
+      therefore has a great deal of data and no independent check on it, which
+      is a specific and awkward position.
+
+      The famines illustrate the problem. Mortality figures were compiled by the
+      same district officers whose management was in question, and the usual
+      measure is excess mortality, meaning deaths above the number that would
+      have been expected without the event, which requires a baseline that is
+      itself an estimate. Published figures for the famine of 1876 to 1878 range
+      from five million to over eight million depending on the baseline chosen.
+      The Famine Commission of 1880 collected evidence and made recommendations,
+      and it was also a defense of policy, since it had been appointed by the
+      government whose policy was at issue.
+
+      Three practices help. Comparisons between districts under different
+      revenue systems, such as areas where the tax was fixed and areas where it
+      was reassessed, allow something like a natural experiment. Private records
+      kept by merchants and missionaries, who had their own reasons for
+      accuracy, provide a partial check. Later census data can be read backward
+      for the holes left in age structure by a famine twenty years earlier. None
+      of this makes the official series reliable, and none makes it useless. It
+      makes it a source with a known direction of error, which is the most that
+      is usually available when the expedient of collecting new data is not
+      open. Famine codes written after 1880 did change administrative behavior,
+      and the later record shows it.
+    anchors:
+      - take: "Nearly all the statistics were produced by the administration for its own purposes."
+        quote: "produced by the administration for administrative purposes"
+      - take: "Excess mortality requires a baseline that is itself an estimate."
+        quote: "requires a baseline that is itself an estimate"
+      - take: "The result is a source with a known direction of error."
+        quote: "a source with a known direction of error"
+    terms:
+      - {term: "revenue settlement", gloss: "the periodic assessment that fixed what each district owed", glossed: true}
+      - {term: "excess mortality", gloss: "deaths above the number that would have been expected without the event", glossed: true}
+    facts:
+      - "The revenue settlement required measurement of land, crops and population."
+      - "Published death tolls for the 1876 to 1878 famine range from five million to over eight million."
+      - "The Famine Commission of 1880 was appointed by the government whose policy was in question."
+  - id: HIS-S09-L3
+    strand: S09
+    title: "Two Reports That Were Not Shown"
+    move: evidence
+    sat_frame: "historical narrative: event and consequence"
+    builds_on: "HIS-S09-L2"
+    advances: "Presents the suppressed intelligence reports and the legal consequence of their rediscovery forty years later."
+    vocab_link: [precedent]
+    passage: |
+      Two assessments of the loyalty of Japanese Americans were in government
+      hands before the removal was ordered. Curtis Munson, a businessman sent by
+      the State Department, reported in November 1941 that the community
+      presented no substantial danger and that an immense majority were loyal.
+      Kenneth Ringle, a naval intelligence officer who spoke Japanese and had
+      worked in the community, reported in January 1942 that the number of
+      genuinely dangerous individuals was small and already known, and that mass
+      removal was unnecessary.
+
+      Neither report was given to the Supreme Court when it heard the cases in
+      1943 and 1944. The government argued military necessity, and the Court
+      accepted it, upholding the exclusion in Korematsu by six votes to three.
+      The dissents are worth reading precisely because they had to be written
+      without the documents. Justice Murphy wrote that the claim of necessity
+      rested on misinformation and half-truths, which turned out to be exactly
+      right, and he had no proof.
+
+      Peter Irons, a legal historian, found the suppressed material in
+      government archives in 1981 while writing a book. One memorandum from a
+      Justice Department lawyer warned his superiors that the brief contained
+      statements he believed to be false. Lawyers then brought coram nobis
+      petitions, a rare procedure for reopening a conviction on the ground that
+      the court was misled, and the convictions of Fred Korematsu, Gordon
+      Hirabayashi and Minoru Yasui were vacated in the mid-1980s. The precedent
+      set in 1944 was never formally overruled until 2018, in a sentence inside
+      a case about something else. The National Archives holds the files and
+      they are open to any reader. The documents also explain something
+      otherwise puzzling about the dissents, which read as though their authors
+      suspected exactly what was missing. Both were reasoning from the shape of
+      the argument rather than from anything they had seen.
+    anchors:
+      - take: "Both reports concluded that mass removal was unnecessary."
+        quote: "that mass removal was unnecessary"
+      - take: "Neither report was given to the Supreme Court."
+        quote: "Neither report was given to the Supreme Court"
+      - take: "A historian found the suppressed material in 1981."
+        quote: "found the suppressed material in government archives in 1981"
+    terms:
+      - {term: "coram nobis", gloss: "a rare procedure for reopening a conviction on the ground that the court was misled", glossed: true}
+      - {term: "intelligence assessment", gloss: "a report evaluating a supposed threat for the government", glossed: false}
+    facts:
+      - "The Munson report of November 1941 and the Ringle report of January 1942 both found no substantial danger."
+      - "Korematsu was decided against the plaintiff by six votes to three in 1944."
+      - "Convictions were vacated in coram nobis proceedings in the mid-1980s after Peter Irons found the documents."
+  - id: HIS-S10-L3
+    strand: S10
+    title: "Two Million Replies and a Wrong Answer"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "HIS-S10-L2"
+    advances: "Uses the 1936 polling failure to show that sample size is not what makes a survey correct."
+    vocab_link: [factional]
+    passage: |
+      In 1936 the Literary Digest ran the largest straw poll, meaning an
+      informal canvass with no attempt at a representative sample, that had ever
+      been attempted. It mailed about ten million ballots and received more than
+      two million replies, a sample two thousand times larger than anything a
+      modern pollster uses. It predicted that Alf Landon would beat Franklin
+      Roosevelt by fifty-seven to forty-three. Roosevelt won by sixty-one to
+      thirty-seven, the largest margin in a century, and the magazine was out of
+      business within two years.
+
+      The failure had two causes and neither was size. The addresses came from
+      telephone directories, automobile registrations and the magazine own
+      subscription lists, which in 1936 described a population that was richer
+      than the country. That is a frame error. On top of it, only about a fifth
+      of those contacted replied, and people who felt strongly against the
+      administration were more willing to spend a stamp on saying so. That is
+      nonresponse bias. The two pushed in the same direction and the result was
+      wrong by eighteen points.
+
+      In the same election George Gallup predicted the outcome correctly from
+      about fifty thousand interviews, and he also predicted, in advance and in
+      print, what the Digest poll would say and why. His method was quota
+      sampling, meaning that interviewers were instructed to fill a set number
+      of respondents in each category to match known proportions in the
+      population. The episode became the founding lesson of survey research, and
+      it has had to be relearned repeatedly, most recently where an enormous but
+      self-selected sample is collected online and reported as though its
+      factional enthusiasm were representative. Gallup method failed in its turn
+      in 1948, for a different reason, and was replaced by probability sampling.
+      Each generation of the technique has been broken by a change in how people
+      can be reached.
+    anchors:
+      - take: "The poll had more than two million replies and was wrong by eighteen points."
+        quote: "received more than two million replies"
+      - take: "The address lists described a population richer than the country."
+        quote: "a population that was richer than the country"
+      - take: "Gallup predicted the outcome from about fifty thousand interviews."
+        quote: "from about fifty thousand interviews"
+    terms:
+      - {term: "straw poll", gloss: "an informal canvass with no attempt at a representative sample", glossed: true}
+      - {term: "quota sampling", gloss: "choosing respondents to match known proportions in the population", glossed: true}
+    facts:
+      - "The Literary Digest mailed about ten million ballots in 1936 and received over two million replies."
+      - "It predicted Landon 57 to 43; Roosevelt won 61 to 37."
+      - "George Gallup predicted the result correctly from about fifty thousand interviews."

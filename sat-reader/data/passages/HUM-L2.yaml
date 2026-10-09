@@ -204,7 +204,7 @@ passages:
     strand: S05
     title: "How a Building Writes a Play"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S05-L1"
     advances: "Traces specific features of Elizabethan playwriting back to the physical conditions of the playhouse."
     vocab_link: [renders]
@@ -253,7 +253,7 @@ passages:
     strand: S06
     title: "The Uses of a Rule"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S06-L1"
     advances: "Explains how genre conventions do their work and what a writer gains by breaking a specific one."
     vocab_link: [allusion]
@@ -302,7 +302,7 @@ passages:
     strand: S07
     title: "Where the Eye Is Sent"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S07-L1"
     advances: "Sets out the devices by which a painter controls the order in which a picture is read."
     vocab_link: [ornate]
@@ -351,7 +351,7 @@ passages:
     strand: S08
     title: "Tension, Delay and Arrival"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S08-L1"
     advances: "Explains how music creates and resolves expectation, using key, cadence and rhythm as the mechanism."
     vocab_link: [evokes]
@@ -402,7 +402,7 @@ passages:
     strand: S09
     title: "What Makes a Street Work"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S09-L1"
     advances: "Identifies the measurable features that make a street usable, and the trade-offs between them."
     vocab_link: [austere]
@@ -453,7 +453,7 @@ passages:
     strand: S10
     title: "What a Judgment Needs"
     move: mechanism
-    sat_frame: "humanities criticism: a judgement defended"
+    sat_frame: "humanities criticism: a judgment defended"
     builds_on: "HUM-S10-L1"
     advances: "Breaks a critical argument into its three required parts and shows how each can fail."
     vocab_link: [satirize]

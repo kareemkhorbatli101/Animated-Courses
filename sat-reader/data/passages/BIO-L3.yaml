@@ -1,0 +1,513 @@
+field: BIO
+level: 3
+passages:
+  - id: BIO-S01-L3
+    strand: S01
+    title: "Forty Years of Beaks"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S01-L2"
+    advances: "Presents the long finch study as the measurement that turned the mechanism into an observed rate."
+    vocab_link: [viable]
+    passage: |
+      Peter and Rosemary Grant began working on Daphne Major, a volcanic cone in
+      the Galapagos about a kilometer across, in 1973, and they kept at it for
+      forty years. Their method was exhaustive rather than clever. Every finch
+      on the island was caught, banded, weighed and measured, which was possible
+      because the population ran to a few hundred birds and the island has no
+      fresh water and almost no visitors. Beak length and depth were recorded to
+      a tenth of a millimeter, and because the birds were individually marked
+      the team could follow particular lineages and establish the heritability
+      of each trait, meaning the share of its variation that is passed to
+      offspring.
+
+      Then the weather did the experiment. In 1977 the rains failed, no seeds
+      were set for eighteen months, and about eighty-five percent of the medium
+      ground finches died. The small soft seeds went first, so the survivors
+      were disproportionately the birds with deeper beaks able to crack the
+      large hard fruits that remained, and the mean beak depth of the next
+      generation was measurably greater than that of their parents. In 1983 an
+      exceptional wet year reversed the conditions, small seeds became abundant,
+      and the trait moved back.
+
+      What this study provides that no laboratory can is a measured rate of
+      change in a wild population under natural conditions, with the selective
+      agent identified and the inheritance established separately. Its limits
+      are equally clear. One island, a few species, and a trait that happens to
+      be easy to measure. Whether the same rates apply to traits that are not
+      viable to measure in the field, or to populations too large to band
+      individually, is not something this work can settle. The Grants published
+      the measurements in full, which is why others have been able to reanalyse
+      them.
+    anchors:
+      - take: "Every bird on the island was caught, banded and measured."
+        quote: "Every finch on the island was caught, banded, weighed and measured"
+      - take: "A drought killed most of the population and shifted mean beak depth."
+        quote: "the mean beak depth of the next generation was measurably greater"
+      - take: "The study gives a measured rate in a wild population."
+        quote: "a measured rate of change in a wild population"
+    terms:
+      - {term: "heritability", gloss: "the share of the variation in a trait that is passed to offspring", glossed: true}
+      - {term: "mark and recapture", gloss: "the practice of tagging individuals so that the same animal can be identified again", glossed: true}
+    facts:
+      - "The Grants began work on Daphne Major in 1973 and continued for about forty years."
+      - "About eighty-five percent of medium ground finches died in the drought of 1977."
+      - "Mean beak depth rose in the generation after the drought and fell back after the wet year of 1983."
+  - id: BIO-S02-L3
+    strand: S02
+    title: "From Linkage Maps to Sequence"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S02-L2"
+    advances: "Compares three generations of genetic method by what each one can and cannot resolve."
+    vocab_link: [nascent]
+    passage: |
+      Three generations of method have been used to find out where genes are and
+      what they do, and each resolves something the previous one could not. The
+      first was the linkage map, meaning a chart of gene order built from how
+      often two inherited traits are separated in breeding. Alfred Sturtevant
+      drew the first one in 1913 as an undergraduate, using fruit flies, and the
+      logic is indirect but sound: traits that are rarely separated must sit
+      close together, and the frequency of separation can be converted into a
+      distance.
+
+      The second generation was physical mapping, which located genes on visible
+      chromosomes using stains, deletions and later fluorescent probes. That
+      gave an actual position rather than a relative order. The third is
+      sequencing, meaning reading the order of the chemical letters along a
+      stretch of DNA, which arrived in a usable form in 1977 and became
+      industrial in the 1990s. A draft of the human sequence was announced in
+      2001 and completed in stages over the following two decades.
+
+      What has not changed is the hard part. A sequence tells a reader the
+      letters and nothing about what they do, and most of the human sequence
+      does not code for protein at all. Establishing function still requires
+      breeding experiments, cell studies and natural variation, which is to say
+      that the nascent methods of 1913 are still in use. The characteristic
+      error of the sequencing era has been to treat a correlation between a
+      sequence variant and a trait as an explanation of it, which it is not, any
+      more than knowing a word position in a dictionary explains its meaning.
+      Each generation also inherited the errors of the last, and linkage maps
+      for several organisms had to be reordered once sequences arrived.
+    anchors:
+      - take: "A linkage map infers order from how often traits are separated."
+        quote: "traits that are rarely separated must sit close together"
+      - take: "Sequencing became usable in 1977 and industrial in the 1990s."
+        quote: "which arrived in a usable form in 1977"
+      - take: "A sequence gives the letters and not what they do."
+        quote: "tells a reader the letters and nothing about what they do"
+    terms:
+      - {term: "linkage map", gloss: "a chart of gene order built from how often inherited traits are separated", glossed: true}
+      - {term: "sequencing", gloss: "reading the order of chemical letters along a stretch of DNA", glossed: true}
+    facts:
+      - "Sturtevant drew the first genetic linkage map in 1913 using fruit flies."
+      - "Practical DNA sequencing arrived in 1977."
+      - "A draft human genome sequence was announced in 2001."
+  - id: BIO-S03-L3
+    strand: S03
+    title: "Poisons, Labels and Broken Cells"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S03-L2"
+    advances: "Shows the three experimental tactics by which an invisible chemical pathway was established."
+    vocab_link: [attenuate]
+    passage: |
+      Nobody has ever watched a sugar molecule being dismantled. The pathway was
+      established by indirect means, and three tactics did most of the work. The
+      first was the inhibitor, meaning a substance that blocks one particular
+      step. Cyanide stops one reaction near the end of the chain, and in a cell
+      treated with it the substances that accumulate are the ones immediately
+      before the block, so the order of steps can be deduced from what piles up
+      behind each poison.
+
+      The second tactic was the isotope label, meaning an atom of unusual weight
+      used to trace a substance through a sequence of reactions. Feed a cell
+      sugar in which particular carbon atoms are heavy, collect the carbon
+      dioxide it breathes out, and the position of the heavy atoms shows which
+      parts of the original molecule ended up where. Rudolph Schoenheimer and
+      others established the technique in the 1930s, and it turned metabolic
+      chemistry from speculation into bookkeeping.
+
+      The third was to take the cell apart. In the 1940s mitochondria were
+      separated out by spinning broken cells at carefully chosen speeds, and the
+      isolated particles were shown to carry out the oxygen-dependent steps on
+      their own, which located the pathway in a structure rather than in the
+      cell at large. The limits of all three are worth naming. A poison may
+      attenuate several steps rather than one. A label may be scrambled by
+      reactions nobody suspected. An isolated organelle has been removed from
+      everything it was connected to, and the question of whether it still
+      behaves as it did inside the cell can only be answered by further
+      experiments of the same indirect kind. The last large piece of the
+      account, how the energy gradient is actually converted, was proposed by
+      Peter Mitchell in 1961.
+    anchors:
+      - take: "Substances pile up behind a blocked step, which reveals the order."
+        quote: "what piles up behind each poison"
+      - take: "Heavy atoms show which part of a molecule ended up where."
+        quote: "the position of the heavy atoms"
+      - take: "An isolated organelle has been removed from everything it was connected to."
+        quote: "has been removed from everything it was connected to"
+    terms:
+      - {term: "isotope label", gloss: "an atom of unusual weight used to trace a substance through a sequence of reactions", glossed: true}
+      - {term: "inhibitor", gloss: "a substance that blocks one particular step in a pathway", glossed: true}
+    facts:
+      - "Cyanide blocks one reaction near the end of the respiratory chain."
+      - "Isotope labeling of metabolism was established in the 1930s."
+      - "Mitochondria were isolated by differential spinning of broken cells in the 1940s."
+  - id: BIO-S04-L3
+    strand: S04
+    title: "Fences and Isotope Ratios"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S04-L2"
+    advances: "Describes the two methods used to test food web claims in the field and the inference each supports."
+    vocab_link: [perturb]
+    passage: |
+      A claim that one species controls another is hard to test, because the
+      obvious experiment would require removing a predator from a landscape and
+      waiting. Two methods make the question tractable without that. The first
+      is the exclosure, meaning a fenced plot that keeps a particular animal out
+      while leaving everything else the same. Fence twenty plots along a creek,
+      leave twenty unfenced beside them, and the difference in willow growth
+      after ten years separates the effect of browsing from the effects of
+      water, soil and weather, because those act on both sets of plots equally.
+
+      The second method reads the animals themselves. The proportion of heavy to
+      light atoms of nitrogen and carbon in a tissue, called the stable isotope
+      ratio, differs systematically by diet and rises at each step up a food
+      chain. A tuft of hair or a feather therefore carries a record of what its
+      owner had been eating, averaged over the period in which the tissue grew.
+      Museum specimens can be sampled, which allows comparisons with animals
+      that died a century ago.
+
+      Both methods have boundaries that matter in the Yellowstone argument. An
+      exclosure tests browsing and cannot test fear, so it cannot distinguish
+      elk eating fewer willows from elk standing in different places. Isotope
+      ratios give diet, not cause, and the baseline ratios in a river valley
+      vary with geology. Anyone who wishes to perturb a system and watch, which
+      is the cleanest design available, is also asking for an experiment at a
+      scale that no institution will fund and no regulator will permit. The
+      reintroduction itself was therefore the experiment, and it was performed
+      without a control. That single fact is the reason the dispute in the next
+      passage has never been settled on the evidence.
+    anchors:
+      - take: "An exclosure separates browsing from water, soil and weather."
+        quote: "because those act on both sets of plots equally"
+      - take: "Isotope ratios in tissue record what the animal had been eating."
+        quote: "carries a record of what its owner had been eating"
+      - take: "An exclosure tests browsing and cannot test fear."
+        quote: "it cannot distinguish elk eating fewer willows from elk standing in different places"
+    terms:
+      - {term: "exclosure", gloss: "a fenced plot that keeps a particular animal out while leaving everything else the same", glossed: true}
+      - {term: "stable isotope ratio", gloss: "the proportion of heavy to light atoms in a tissue, which differs by diet", glossed: true}
+    facts:
+      - "Exclosure plots keep one animal out while leaving other conditions unchanged."
+      - "Stable isotope ratios of nitrogen and carbon rise at each step up a food chain."
+      - "The Yellowstone reintroduction was carried out without a control area."
+  - id: BIO-S05-L3
+    strand: S05
+    title: "Ninety Years of Fur Returns"
+    move: evidence
+    sat_frame: "data commentary: a figure described in words"
+    builds_on: "BIO-S05-L2"
+    advances: "Introduces the longest animal population record available and the several things it actually measures."
+    vocab_link: [precarious]
+    passage: |
+      The Hudson Bay Company bought furs across northern Canada for three
+      centuries and kept its accounts. Those accounts were published in the
+      1930s as a series of annual fur returns, meaning the number of pelts
+      bought in each season, and for lynx and snowshoe hare they run from the
+      1820s to the 1930s. The series shows something striking: both animals rise
+      and crash on a cycle of roughly ten years, the hare peaks slightly before
+      the lynx, and the pattern repeats for more than a century. No other wild
+      population record of that length exists.
+
+      A fur return is a proxy, meaning a measurement used to stand in for a
+      quantity that cannot be observed directly, and it is a proxy for several
+      things at once. It depends on how many animals there were and on how many
+      trappers were working. It also depends on how hard they worked, on fur
+      prices in London, on where the company posts happened to be, and on
+      whether a war or an epidemic had reduced the local human population. Each
+      of those varies over a century, and several vary on their own cycles.
+
+      Ecologists have therefore spent decades separating the signal from the
+      record. Price series can be used to correct for effort. Independent counts
+      from the twentieth century overlap the end of the series and can be
+      compared. Tree ring records of hare browsing provide a second and entirely
+      separate proxy, and they show the same cycle, which is the strongest
+      argument that the pattern is real rather than an artifact of commerce. The
+      conclusion drawn is modest and firm: these populations are genuinely
+      cyclic, and a population of that kind is permanently precarious even when
+      its average is healthy. The cycle is also visible in the records of other
+      companies and in the memories of trappers.
+    anchors:
+      - take: "The fur returns run from the 1820s to the 1930s for lynx and hare."
+        quote: "they run from the 1820s to the 1930s"
+      - take: "A fur return is a proxy for several things at once."
+        quote: "a proxy for several things at once"
+      - take: "Tree ring records of browsing show the same cycle independently."
+        quote: "they show the same cycle"
+    terms:
+      - {term: "fur return", gloss: "the number of pelts a trading company bought in a season", glossed: true}
+      - {term: "proxy", gloss: "a measurement used to stand in for a quantity that cannot be observed directly", glossed: true}
+    facts:
+      - "Hudson Bay Company fur returns for lynx and hare run from the 1820s to the 1930s."
+      - "Both species cycle on a period of roughly ten years, with the hare peaking slightly earlier."
+      - "Tree ring records of hare browsing provide an independent proxy showing the same cycle."
+  - id: BIO-S06-L3
+    strand: S06
+    title: "The Rules and the Exceptions"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S06-L2"
+    advances: "Sets out the formal test for establishing a cause of disease and the organisms that defeat it."
+    vocab_link: [ubiquitous]
+    passage: |
+      Robert Koch laid down conditions that a claim about the cause of a disease
+      should satisfy, and they are still the starting point. The organism must
+      be found in every case of the disease, and it must be isolated from a
+      patient and grown in pure culture. The cultured organism must then produce
+      the disease when introduced into a healthy host, and must be recovered
+      again from that host afterward. A postulate, meaning a condition laid down
+      in advance, is useful precisely because it can fail, and these have failed
+      in instructive ways.
+
+      The first condition breaks on the asymptomatic carrier, meaning a person
+      who harbors an organism without becoming ill. Koch himself found cholera
+      in people who were perfectly well, and the organism that causes diphtheria
+      is ubiquitous in some populations with no disease at all. The second
+      breaks on organisms that cannot be grown outside a living cell, which
+      includes every virus and several bacteria. The third breaks wherever the
+      disease occurs only in humans, since the experiment cannot ethically be
+      done.
+
+      Workers have therefore treated the postulates as a standard to be
+      approached rather than met. Where an animal model is impossible, the third
+      condition has occasionally been satisfied by a researcher who volunteered.
+      Barry Marshall drank a culture of Helicobacter pylori in 1984, developed
+      gastritis, and recovered the organism from his own stomach, which was one
+      step in overturning the view that ulcers were caused by stress. Modern
+      practice replaces the missing steps with statistical association, dose
+      response, and the test of whether removing the organism cures the disease.
+      Molecular versions of the postulates were proposed in 1988 for organisms
+      that cannot be cultured. They substitute the presence of particular genes
+      for the growing of a pure culture.
+    anchors:
+      - take: "A postulate is useful because it can fail."
+        quote: "useful precisely because it can fail"
+      - take: "Asymptomatic carriers break the first condition."
+        quote: "a person who harbors an organism without becoming ill"
+      - take: "Marshall drank a culture in 1984 and recovered the organism from himself."
+        quote: "recovered the organism from his own stomach"
+    terms:
+      - {term: "postulate", gloss: "a condition laid down in advance that a claim must satisfy", glossed: true}
+      - {term: "asymptomatic carrier", gloss: "a person who harbors an organism without becoming ill", glossed: true}
+    facts:
+      - "Koch's postulates require the organism in every case, pure culture, reproduction of disease and recovery."
+      - "Viruses cannot be grown in pure culture outside living cells."
+      - "Barry Marshall drank a Helicobacter culture in 1984 and developed gastritis."
+  - id: BIO-S07-L3
+    strand: S07
+    title: "The Same Field Since 1843"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S07-L2"
+    advances: "Describes the longest running agricultural experiment and explains what a very long series can establish."
+    vocab_link: [proliferate]
+    passage: |
+      At Rothamsted in Hertfordshire a field called Broadbalk has been growing
+      wheat under fixed treatments since 1843. The field is divided into strips,
+      and one of them has received nothing at all for a hundred and eighty
+      years. Another has received farmyard manure every year without exception,
+      and the others receive measured combinations of nitrogen, phosphate and
+      potash. The treatments have barely changed, the plots are in the same
+      places, and the yields have been recorded every harvest, which makes this
+      the longest continuous agricultural experiment in the world.
+
+      A long-term experiment answers questions that a three-year trial cannot.
+      Soil organic matter changes over decades, so only a series of this length
+      shows the manured strip climbing steadily while the unfertilized strip
+      settles at about a third of the yield and stays there. Slow processes
+      become visible: the accumulation of phosphate, the acidification of soil
+      under ammonium fertilizer, the way weed populations proliferate and then
+      shift in composition as management changes. Rare events are captured
+      because the experiment happens to be running when they occur.
+
+      The second, less obvious value is the archive. Soil and grain samples have
+      been stored since the beginning, in sealed jars, and they can be analyzed
+      by methods that did not exist when they were collected. Those jars have
+      since been used to measure the arrival of industrial pollution, the rise
+      of radioactive fallout in the 1950s and its decline, and changes in soil
+      bacteria, none of which anyone in 1843 could have intended. The limits are
+      those of any single site. One soil, one climate, one rotation, and a set
+      of treatments chosen by Victorians. Several other long-term sites now
+      exist, in Illinois, Sweden and India, and comparisons between them are
+      informative. Where two sites disagree, the disagreement is usually about
+      soil type rather than about the chemistry.
+    anchors:
+      - take: "Broadbalk has grown wheat under fixed treatments since 1843."
+        quote: "under fixed treatments since 1843"
+      - take: "Only a long series shows soil organic matter changing."
+        quote: "Soil organic matter changes over decades"
+      - take: "Stored samples can be analyzed by methods invented later."
+        quote: "analyzed by methods that did not exist when they were collected"
+    terms:
+      - {term: "long-term experiment", gloss: "a trial continued for decades so that slow effects become visible", glossed: true}
+    facts:
+      - "The Broadbalk experiment at Rothamsted has run since 1843."
+      - "The unfertilized strip yields about a third of the manured strip."
+      - "Archived soil and grain samples have been used to measure pollution and fallout."
+  - id: BIO-S08-L3
+    strand: S08
+    title: "Three Proxies, One Picture"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S08-L2"
+    advances: "Explains how the climate record before instruments is reconstructed, and how three independent proxies are combined."
+    vocab_link: [dormant]
+    passage: |
+      The Mauna Loa record begins in 1958. Everything earlier has to be
+      reconstructed, and three independent proxies carry most of the weight. An
+      ice core, meaning a cylinder drilled from a glacier, is the strongest of
+      them, because the air trapped in its bubbles is a physical sample of the
+      atmosphere of the year the snow fell. Cores from Antarctica now reach back
+      about eight hundred thousand years, and the carbon dioxide in them is
+      measured directly rather than inferred.
+
+      Tree rings provide annual resolution over the last two thousand years in
+      suitable species, and their width and density respond to temperature and
+      moisture. Corals grow in annual bands whose chemistry records sea surface
+      temperature. Each proxy has a weakness that the others do not share. Ice
+      cores smooth the record, because air diffuses in the snow before the
+      bubbles close, and they come from two polar regions. Tree rings respond to
+      several variables at once and to the age of the tree. Corals are tropical
+      and marine.
+
+      Combining them depends on the calibration period, meaning the overlap in
+      which each proxy can be checked against direct measurement. Where
+      instruments and proxies run together for a century, the relation can be
+      established and then extended backward, which is also where the method is
+      most criticized, since a relation fitted in one period may not hold in
+      another. Reconstruction is therefore reported with error bars that widen
+      as they go back. The agreement between three methods with unrelated
+      weaknesses is the real argument, and it is stronger than any one of them,
+      including the one that lay dormant in a freezer for twenty years before
+      anyone thought to measure its bubbles. Cores are stored at low temperature
+      in national facilities and reanalysed as techniques improve.
+    anchors:
+      - take: "Air in ice core bubbles is a physical sample of ancient atmosphere."
+        quote: "a physical sample of the atmosphere of the year the snow fell"
+      - take: "Each proxy has a weakness the others do not share."
+        quote: "a weakness that the others do not share"
+      - take: "Agreement between methods with unrelated weaknesses is the real argument."
+        quote: "three methods with unrelated weaknesses"
+    terms:
+      - {term: "ice core", gloss: "a cylinder of ice drilled from a glacier, with annual layers and trapped air", glossed: true}
+      - {term: "calibration period", gloss: "the overlap in which a proxy can be checked against direct measurement", glossed: true}
+    facts:
+      - "Antarctic ice cores reach back about eight hundred thousand years."
+      - "Carbon dioxide in ice core bubbles is measured directly rather than inferred."
+      - "Proxy reconstructions are reported with error bars that widen further back in time."
+  - id: BIO-S09-L3
+    strand: S09
+    title: "How the Age Was Settled"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S09-L2"
+    advances: "Traces the measurement that fixed the age of the Earth and explains why meteorites were used."
+    vocab_link: [resilient]
+    passage: |
+      Before radioactivity there was no way to date a rock, and estimates for
+      the age of the Earth ranged over two orders of magnitude. Radiometric
+      dating, which is the dating of a rock by the proportion of a radioactive
+      element that has decayed, changed that. A radioactive element decays at a
+      rate that nothing in geology alters, so the proportion remaining is a
+      clock. Arthur Holmes spent forty years applying the method to rocks and
+      had the order of magnitude right by the 1920s, when almost nobody believed
+      him.
+
+      The remaining problem was that the oldest rock on Earth is younger than
+      the Earth, since the surface has been melted, buried and recycled
+      continuously. Claire Patterson solved it in 1953 by dating meteorites
+      instead, on the argument that they formed from the same cloud of material
+      at the same time and have been undisturbed since. He measured lead
+      isotopes in a fragment of the Canyon Diablo iron and obtained four and a
+      half billion years, a figure that has moved by less than two percent in
+      seventy years of refinement.
+
+      The method depends on an assumption that has to be checked rather than
+      assumed: that the sample is a closed system, meaning that nothing relevant
+      has entered or escaped since it formed. Geologists test it in two ways.
+      They date the same rock with two different decay chains, which must agree,
+      and they prefer minerals physically resilient enough to survive heating.
+      Zircon crystals are the favourite, because they hold their uranium and
+      reject lead so strongly that grains four billion years old are still
+      usable. Where two methods disagree, the rock has been disturbed, and the
+      disagreement itself is the evidence. Patterson had to build a clean
+      laboratory to do the work, because ordinary dust carried enough lead to
+      swamp the measurement.
+    anchors:
+      - take: "A radioactive element decays at a rate nothing in geology alters."
+        quote: "at a rate that nothing in geology alters"
+      - take: "Meteorites were dated because the oldest Earth rock is younger than the Earth."
+        quote: "the oldest rock on Earth is younger than the Earth"
+      - take: "Where two methods disagree, the rock has been disturbed."
+        quote: "the rock has been disturbed"
+    terms:
+      - {term: "radiometric dating", gloss: "dating a rock by the proportion of a radioactive element that has decayed", glossed: true}
+      - {term: "closed system", gloss: "a sample from which nothing relevant has entered or escaped since it formed", glossed: true}
+    facts:
+      - "Arthur Holmes applied radiometric dating to rocks over forty years from the 1910s."
+      - "Claire Patterson dated meteorites in 1953 and obtained about four and a half billion years."
+      - "Zircon crystals retain uranium and reject lead, so very old grains remain usable."
+  - id: BIO-S10-L3
+    strand: S10
+    title: "Weighing an Ice Sheet"
+    move: evidence
+    sat_frame: "science report: method and limitation"
+    builds_on: "BIO-S10-L2"
+    advances: "Compares the two independent methods of measuring ice loss and sea level, and states what each misses."
+    vocab_link: [mitigate]
+    passage: |
+      Two quite different instruments measure what Antarctica is doing, and they
+      were designed by people who had no interest in each other methods. The
+      first is gravimetry, meaning the measurement of mass by its gravitational
+      pull. A pair of satellites launched in 2002 flew in the same orbit about
+      two hundred kilometers apart, and the distance between them was measured
+      continuously to within a few microns. When the leading satellite passed
+      over a heavier region it was pulled forward slightly, and the change in
+      separation gives the mass below. Repeating the orbit for years gives the
+      change in mass, which for Antarctica came out as a loss of some hundreds
+      of gigatons a year.
+
+      The second instrument is older and simpler. A tide gauge, meaning a fixed
+      instrument recording sea level against a local benchmark, has been
+      operating in some harbors since the nineteenth century. Gauges measure the
+      sea where they stand, and the land they are bolted to may itself be rising
+      or sinking, so each record must be corrected using independent
+      measurements of ground movement.
+
+      The two methods fail in opposite directions, which is why they are used
+      together. Gravimetry measures mass but cannot see where the water went,
+      and it cannot separate ice loss from water moving in the rock beneath.
+      Tide gauges measure what matters to a harbor but are clustered in the
+      northern hemisphere and in rich countries. Satellite altimetry, which
+      bounces radar off the sea surface, now provides a third series covering
+      the whole ocean since 1992. Planning that aims to mitigate a rise depends
+      on all three, since local sea level is what floods a street and global
+      mass is what drives it. The first satellite pair was replaced in 2018
+      after the original instruments failed.
+    anchors:
+      - take: "Satellite separation was measured to within a few microns."
+        quote: "to within a few microns"
+      - take: "The land a tide gauge is bolted to may itself be moving."
+        quote: "may itself be rising or sinking"
+      - take: "The two methods fail in opposite directions."
+        quote: "The two methods fail in opposite directions"
+    terms:
+      - {term: "gravimetry", gloss: "measuring mass by its gravitational pull on a satellite", glossed: true}
+      - {term: "tide gauge", gloss: "a fixed instrument recording sea level against a local benchmark", glossed: true}
+    facts:
+      - "A pair of gravimetry satellites launched in 2002 measured changes in mass from orbit."
+      - "Tide gauges measure local sea level and must be corrected for ground movement."
+      - "Satellite altimetry has provided a global sea level series since 1992."

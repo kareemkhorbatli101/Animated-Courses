@@ -18,11 +18,12 @@ passages:
       moths had changed in any obvious way. What had changed was the bark.
 
       Coal smoke had killed the pale lichens, which are the crusty growths that
-      cover healthy bark, and had left the trunks black with soot, which is the black powder left by burning coal. On a clean
-      trunk a pale moth is almost invisible and a black one stands out. On a
-      sooty trunk the reverse is true. Birds hunt these moths by sight, and they
-      take whichever form they can see. The counts in rural Dorset, where the
-      air stayed clean, stayed overwhelmingly pale through the same years.
+      cover healthy bark, and had left the trunks black with soot, which is the
+      black powder left by burning coal. On a clean trunk a pale moth is almost
+      invisible and a black one stands out. On a sooty trunk the reverse is
+      true. Birds hunt these moths by sight, and they take whichever form they
+      can see. The counts in rural Dorset, where the air stayed clean, stayed
+      overwhelmingly pale through the same years.
 
       Then the direction reversed. Britain passed a clean air law in 1956, coal
       smoke fell away over the next thirty years, the lichens came back, and the
@@ -30,7 +31,11 @@ passages:
       around Manchester. The same reversal happened near Detroit, which gives
       two records rather than one. A population that has adapted to one kind of
       background will swing back when the background changes, and the moths did
-      it twice within living memory. The whole story can be read off a series of ordinary counts made with a light trap and a notebook. Collectors had been keeping such records since the 1830s, for reasons of their own, and the numbers were there when biologists came looking for them. Soot turned out to be the quiet agent in all of it.
+      it twice within living memory. The whole story can be read off a series of
+      ordinary counts made with a light trap and a notebook. Collectors had been
+      keeping such records since the 1830s, for reasons of their own, and the
+      numbers were there when biologists came looking for them. Soot turned out
+      to be the quiet agent in all of it.
     anchors:
       - take: "A single moth population shifted from pale to black and back within 150 years."
         quote: "the black form made up more than nine in ten of the moths caught in that city"
@@ -57,22 +62,31 @@ passages:
       Gregor Mendel was a monk and a science teacher in Brno, a city now in the
       Czech Republic. Between 1856 and 1863 he grew peas in the monastery garden
       and counted them. He chose seven features that came in two clear forms and
-      nothing in between. Seeds were either round or wrinkled, and pods were either green or yellow. Plants were tall or short, with no middling heights. Over seven years he grew and counted something near twenty-eight thousand plants, by hand, in a plot about the size of a tennis court.
+      nothing in between. Seeds were either round or wrinkled, and pods were
+      either green or yellow. Plants were tall or short, with no middling
+      heights. Over seven years he grew and counted something near twenty-eight
+      thousand plants, by hand, in a plot about the size of a tennis court.
 
       His method was simple and exact. He began with lines that bred true,
       meaning that tall plants from those lines always gave tall offspring. Then
-      he crossed a tall line with a short one. Every plant in the first generation was tall, and yet the short form had not been diluted or lost. When he
-      let that generation breed among itself, the short plants came back, and
-      they came back in a steady proportion. For every three tall plants there
-      was about one short plant. He got a ratio close to three to one for all
-      seven features he had chosen.
+      he crossed a tall line with a short one. Every plant in the first
+      generation was tall, and yet the short form had not been diluted or lost.
+      When he let that generation breed among itself, the short plants came
+      back, and they came back in a steady proportion. For every three tall
+      plants there was about one short plant. He got a ratio close to three to
+      one for all seven features he had chosen.
 
       Mendel published the work in 1866 in the journal of a local natural
       history society. Almost nobody read it. He sent copies to well-known
       scientists and received little in reply, became an abbot, and did no more
       breeding work. The paper sat unused for thirty-four years. In 1900 three
       separate researchers, working on their own plants, found the same ratios
-      and then found his paper. What any inherited feature looks like in the next generation depends on rules of this kind. Mendel had those rules written down while other naturalists were still arguing about whether offspring simply blend their two parents together. He also chose his plant well. Peas pollinate themselves unless a breeder interferes, so every cross was controlled.
+      and then found his paper. What any inherited feature looks like in the
+      next generation depends on rules of this kind. Mendel had those rules
+      written down while other naturalists were still arguing about whether
+      offspring simply blend their two parents together. He also chose his plant
+      well. Peas pollinate themselves unless a breeder interferes, so every
+      cross was controlled.
     anchors:
       - take: "Mendel chose features with two clear forms and no middle ground."
         quote: "He chose seven features that came in two clear forms and nothing in between."
@@ -103,19 +117,25 @@ passages:
       different halves of the same process.
 
       In bread the gas does the work. Each bubble of carbon dioxide pushes the
-      stretchy dough outward, and a loaf left in a warm kitchen roughly doubles in ninety minutes. The alcohol boils off in the oven. In
-      beer and wine the alcohol is the point and the gas is allowed to escape,
-      except in bottles that are sealed early on purpose. The same organism,
-      Saccharomyces cerevisiae, has been used for both for at least five
-      thousand years, long before anyone knew that a living thing was involved.
+      stretchy dough outward, and a loaf left in a warm kitchen roughly doubles
+      in ninety minutes. The alcohol boils off in the oven. In beer and wine the
+      alcohol is the point and the gas is allowed to escape, except in bottles
+      that are sealed early on purpose. The same organism, Saccharomyces
+      cerevisiae, has been used for both for at least five thousand years, long
+      before anyone knew that a living thing was involved.
 
       Yeast can work with air or without it. With oxygen available it burns
       sugar all the way down and gets far more energy from each molecule.
-      Without oxygen it takes a short cut, called fermentation, and must release alcohol as a waste product because the chemistry stops halfway. The short cut yields less than a tenth as much
-      energy, which is why yeast grows slowly in a sealed vessel and quickly in
-      an open one. Louis Pasteur showed this difference in the 1860s by
-      measuring how much sugar disappeared and how much yeast was produced in
-      each case. The cell has no choice in the matter. The chemistry available to it is decided by what is dissolved in the liquid around it. A brewer controls that liquid deliberately. Air is kept out of the vessel, the temperature is held near twenty degrees, and the sugar is allowed to run down over several days.
+      Without oxygen it takes a short cut, called fermentation, and must release
+      alcohol as a waste product because the chemistry stops halfway. The short
+      cut yields less than a tenth as much energy, which is why yeast grows
+      slowly in a sealed vessel and quickly in an open one. Louis Pasteur showed
+      this difference in the 1860s by measuring how much sugar disappeared and
+      how much yeast was produced in each case. The cell has no choice in the
+      matter. The chemistry available to it is decided by what is dissolved in
+      the liquid around it. A brewer controls that liquid deliberately. Air is
+      kept out of the vessel, the temperature is held near twenty degrees, and
+      the sugar is allowed to run down over several days.
     anchors:
       - take: "Yeast takes in sugar and gives out carbon dioxide and alcohol."
         quote: "The cells are taking in sugar and giving back two things, carbon dioxide and alcohol"
@@ -140,20 +160,31 @@ passages:
     passage: |
       Wolves were shot out of Yellowstone National Park by the 1920s. The last
       known pair was killed in 1926. For the next seventy years the park had no
-      wolves, and the elk, which are the large deer that wolves hunt there, lived in large numbers on the valley floors. Along the creeks the willows and young aspens were eaten
-      down to stumps every year, and the beaver, which need willow, almost
-      disappeared from the northern part of the park.
+      wolves, and the elk, which are the large deer that wolves hunt there,
+      lived in large numbers on the valley floors. Along the creeks the willows
+      and young aspens were eaten down to stumps every year, and the beaver,
+      which need willow, almost disappeared from the northern part of the park.
 
       In 1995 and 1996 the park service brought thirty-one wolves from Canada
       and released them in the Lamar Valley. The animals were held in pens for
-      ten weeks first, then let out. They bred quickly. Within ten years there were well over a hundred wolves in the park. Elk numbers on the northern range had fallen by more than half. Part of that was hunting by wolves, and part was that the elk now moved more and spent less time standing in open valleys.
+      ten weeks first, then let out. They bred quickly. Within ten years there
+      were well over a hundred wolves in the park. Elk numbers on the northern
+      range had fallen by more than half. Part of that was hunting by wolves,
+      and part was that the elk now moved more and spent less time standing in
+      open valleys.
 
       Then the plants changed. Willows along some creeks that had been browsed
       flat for decades grew to two or three meters. Cottonwood seedlings
-      survived their first years for the first time in living memory. Beaver colonies on the northern range rose from one in the early 1990s to nine by 2015. Each new dam held water back and made still more willow possible. Songbirds that nest in streamside bushes
-      recovered along with them. The park service has photographs of the same
-      stretches of creek taken in 1996 and in 2015, and the difference is not
-      subtle. What is in dispute is not the change but its cause, and that argument is taken up later in this strand. The park keeps counts of wolves, elk and beaver every year, and has done so since the release. The willow measurements are taken at fixed points along the same creeks each summer.
+      survived their first years for the first time in living memory. Beaver
+      colonies on the northern range rose from one in the early 1990s to nine by
+      2015. Each new dam held water back and made still more willow possible.
+      Songbirds that nest in streamside bushes recovered along with them. The
+      park service has photographs of the same stretches of creek taken in 1996
+      and in 2015, and the difference is not subtle. What is in dispute is not
+      the change but its cause, and that argument is taken up later in this
+      strand. The park keeps counts of wolves, elk and beaver every year, and
+      has done so since the release. The willow measurements are taken at fixed
+      points along the same creeks each summer.
     anchors:
       - take: "Yellowstone had no wolves for about seventy years."
         quote: "For the next seventy years the park had no wolves"
@@ -177,26 +208,32 @@ passages:
     vocab_link: [survive]
     passage: |
       St Matthew Island lies in the Bering Sea, about two hundred miles from the
-      nearest other land. It is thirty-two miles long, treeless, and covered in moss, low grass and lichen, which is the slow crusty growth that reindeer eat. Nobody lives there. In 1944 the United States
-      Coast Guard put twenty-nine reindeer ashore as an emergency meat supply
-      for nineteen men stationed on the island. The war ended, the station
-      closed, and the men left. The reindeer stayed.
+      nearest other land. It is thirty-two miles long, treeless, and covered in
+      moss, low grass and lichen, which is the slow crusty growth that reindeer
+      eat. Nobody lives there. In 1944 the United States Coast Guard put
+      twenty-nine reindeer ashore as an emergency meat supply for nineteen men
+      stationed on the island. The war ended, the station closed, and the men
+      left. The reindeer stayed.
 
       They had no predators of any kind. No wolves, no bears, no hunters. The
       lichen on the island had been growing undisturbed for thousands of years
-      and lay thick on the ground. A biologist counted the herd in 1957 and found about thirteen hundred animals in good condition. He counted again in 1963 and found six thousand. That is
-      roughly two hundred times the number put ashore nineteen years earlier, on
-      an island of fixed size.
+      and lay thick on the ground. A biologist counted the herd in 1957 and
+      found about thirteen hundred animals in good condition. He counted again
+      in 1963 and found six thousand. That is roughly two hundred times the
+      number put ashore nineteen years earlier, on an island of fixed size.
 
       The next count was in 1966. There were forty-two reindeer left, forty-one
-      of them female and one male, and no young of that year. The winter of 1963 had been
-      severe, with deep snow, but the important fact was underneath the snow.
-      The lichen was gone, grazed down to bare rock and soil across most of the
-      island, and lichen grows back at a rate measured in decades rather than
-      years. The herd had eaten its own future. By the 1980s there were no
+      of them female and one male, and no young of that year. The winter of 1963
+      had been severe, with deep snow, but the important fact was underneath the
+      snow. The lichen was gone, grazed down to bare rock and soil across most
+      of the island, and lichen grows back at a rate measured in decades rather
+      than years. The herd had eaten its own future. By the 1980s there were no
       reindeer on St Matthew Island at all. The whole episode took less than
       forty years from start to finish, and every number in it comes from counts
-      made on the ground. A population can survive on borrowed capital for a while, and the bill falls due in one bad winter. Nothing about the island was unusual except the absence of anything that eats a reindeer. Mainland herds, hunted by wolves and by people, had held steady for centuries.
+      made on the ground. A population can survive on borrowed capital for a
+      while, and the bill falls due in one bad winter. Nothing about the island
+      was unusual except the absence of anything that eats a reindeer. Mainland
+      herds, hunted by wolves and by people, had held steady for centuries.
     anchors:
       - take: "Twenty-nine reindeer were put on a remote island in 1944 with no predators."
         quote: "In 1944 the United States Coast Guard put twenty-nine reindeer ashore"
@@ -221,8 +258,10 @@ passages:
     passage: |
       In late August 1854 people in Soho, a crowded district of London, began to
       die of cholera. The disease killed quickly, often within a day. Within a
-      week more than five hundred were dead in a few streets. Most doctors believed that cholera traveled in bad air rising from drains and rotting matter. John Snow, a local physician, did not believe it, and he
-      went out to look.
+      week more than five hundred were dead in a few streets. Most doctors
+      believed that cholera traveled in bad air rising from drains and rotting
+      matter. John Snow, a local physician, did not believe it, and he went out
+      to look.
 
       Snow collected the address of every death he could trace and marked each
       one on a street map as a small black bar. The bars piled up around one
@@ -237,7 +276,13 @@ passages:
       pump. Deaths were already falling, because many residents had fled, so the
       removal did not end the outbreak and Snow said so himself. What the map
       did was show that the disease had spread from a single source that people
-      drank from, not from the air they breathed. Years later an inspection found a leaking cesspit, which is a pit for household waste, less than a meter from the well. Cloths from a sick baby had been washed into it. The water board did not accept the argument for another decade. Snow died in 1858 without seeing it accepted. The map itself is still reprinted in textbooks, and the pump site is marked with a replica on the street now called Broadwick.
+      drank from, not from the air they breathed. Years later an inspection
+      found a leaking cesspit, which is a pit for household waste, less than a
+      meter from the well. Cloths from a sick baby had been washed into it. The
+      water board did not accept the argument for another decade. Snow died in
+      1858 without seeing it accepted. The map itself is still reprinted in
+      textbooks, and the pump site is marked with a replica on the street now
+      called Broadwick.
     anchors:
       - take: "Snow mapped each death as a bar on a street plan."
         quote: "marked each one on a street map as a small black bar"
@@ -263,15 +308,31 @@ passages:
     passage: |
       Two fields on the same farm can be given the same seed, the same rain and
       the same plowing and still produce very different crops of wheat. One
-      useful predictor is what grew in each field the year before. Wheat sown after clover, which is a low plant of the pea family grown for hay, will usually beat wheat sown after wheat. The difference can be a third or more. English farmers
-      knew this long before anyone could say why.
+      useful predictor is what grew in each field the year before. Wheat sown
+      after clover, which is a low plant of the pea family grown for hay, will
+      usually beat wheat sown after wheat. The difference can be a third or
+      more. English farmers knew this long before anyone could say why.
 
       In the eighteenth century a rotation became standard across light soils in
-      Norfolk. The farmer divided a field into four parts and moved the crops around them on a four-year cycle: turnips, then barley, then clover, then wheat. The turnips were a root crop lifted for winter feed. The clover was cut for hay or eaten by sheep, whose droppings stayed on the land, and the roots were then turned into the soil. Yields on such farms roughly doubled over the century. The system spread across northern Europe as the Norfolk four-course rotation.
+      Norfolk. The farmer divided a field into four parts and moved the crops
+      around them on a four-year cycle: turnips, then barley, then clover, then
+      wheat. The turnips were a root crop lifted for winter feed. The clover was
+      cut for hay or eaten by sheep, whose droppings stayed on the land, and the
+      roots were then turned into the soil. Yields on such farms roughly doubled
+      over the century. The system spread across northern Europe as the Norfolk
+      four-course rotation.
 
-      The explanation is in the roots. Clover and other members of the pea family carry small swellings called nodules on their roots. Inside these nodules live bacteria that take nitrogen from the air and turn it into a form that plants can use. Wheat cannot do this and must consume what it
+      The explanation is in the roots. Clover and other members of the pea
+      family carry small swellings called nodules on their roots. Inside these
+      nodules live bacteria that take nitrogen from the air and turn it into a
+      form that plants can use. Wheat cannot do this and must consume what it
       finds in the soil. Clover leaves the soil richer than it found it; wheat
-      leaves it poorer. A farmer who alternates the two runs a slow cycle of deposit and withdrawal. One who grows wheat on wheat is making withdrawals only, and the yields show it by the third or fourth year. The practice spread because it paid, not because the chemistry was understood. Nitrogen itself was not identified as the active element until the 1830s, two generations after the rotation had become normal.
+      leaves it poorer. A farmer who alternates the two runs a slow cycle of
+      deposit and withdrawal. One who grows wheat on wheat is making withdrawals
+      only, and the yields show it by the third or fourth year. The practice
+      spread because it paid, not because the chemistry was understood. Nitrogen
+      itself was not identified as the active element until the 1830s, two
+      generations after the rotation had become normal.
     anchors:
       - take: "Wheat after clover outyields wheat after wheat, often by a third."
         quote: "The difference can be a third or more."
@@ -305,14 +366,24 @@ passages:
 
       The record is one of the most familiar graphs in science. It does two
       things at once. It wobbles up and down each year, and it climbs. The
-      yearly wobble has a sharp shape, like the teeth of a saw. Carbon dioxide falls through the northern spring and summer, when the forests and crops of the northern half of the world are growing and taking it in. It rises again through the fall and winter as leaves drop and rot. The swing is
+      yearly wobble has a sharp shape, like the teeth of a saw. Carbon dioxide
+      falls through the northern spring and summer, when the forests and crops
+      of the northern half of the world are growing and taking it in. It rises
+      again through the fall and winter as leaves drop and rot. The swing is
       about six parts per million from peak to trough.
 
-      The climb is the other half. The first readings in 1958 were near three hundred and fifteen parts per million, which is the unit in which the measurement is reported. The figure passed four hundred in
-      2013 and has gone on rising since. The yearly wobble has not changed much,
-      but the level around which it wobbles has shifted upward every single year
-      of the record without exception. That is the part no one disputes, because
-      it is a direct reading from an instrument rather than an estimate. Other stations, from Alaska to the South Pole, now run the same measurement and give the same climb with a slightly different wobble. The South Pole record shows almost no yearly wobble, because the southern half of the world has little plant life to drive one. Keeling nearly lost his funding twice in the 1960s.
+      The climb is the other half. The first readings in 1958 were near three
+      hundred and fifteen parts per million, which is the unit in which the
+      measurement is reported. The figure passed four hundred in 2013 and has
+      gone on rising since. The yearly wobble has not changed much, but the
+      level around which it wobbles has shifted upward every single year of the
+      record without exception. That is the part no one disputes, because it is
+      a direct reading from an instrument rather than an estimate. Other
+      stations, from Alaska to the South Pole, now run the same measurement and
+      give the same climb with a slightly different wobble. The South Pole
+      record shows almost no yearly wobble, because the southern half of the
+      world has little plant life to drive one. Keeling nearly lost his funding
+      twice in the 1960s.
     anchors:
       - take: "One station on Mauna Loa has measured carbon dioxide hourly since 1958."
         quote: "measuring the carbon dioxide in it every hour since 1958"
@@ -321,8 +392,7 @@ passages:
       - take: "The level has risen every year of the record, from about 315 to over 400 parts per million."
         quote: "the level around which it wobbles has shifted upward every single year of the record"
     terms:
-            - {term: "parts per million", gloss: "the unit in which the measurement is reported", glossed: true}
-
+      - {term: "parts per million", gloss: "the unit in which the measurement is reported", glossed: true}
     facts:
       - "The Mauna Loa carbon dioxide record began in 1958 under Charles David Keeling."
       - "Readings were about 315 parts per million in 1958 and passed 400 in 2013."
@@ -337,11 +407,12 @@ passages:
     vocab_link: [threatened]
     passage: |
       At Thingvellir in southwest Iceland there is a valley with a wall of dark
-      rock on either side. The two walls are the torn edges of a crack in the crust, which is the outer rock layer of the Earth. A visitor can walk along the floor between them.
-      The ground there is pulling apart at about an inch a year, which is
-      roughly the rate at which a fingernail grows. Over a thousand years that
-      is thirty feet, and the valley floor has dropped as the sides have moved
-      away from each other.
+      rock on either side. The two walls are the torn edges of a crack in the
+      crust, which is the outer rock layer of the Earth. A visitor can walk
+      along the floor between them. The ground there is pulling apart at about
+      an inch a year, which is roughly the rate at which a fingernail grows.
+      Over a thousand years that is thirty feet, and the valley floor has
+      dropped as the sides have moved away from each other.
 
       The crack is part of a line that runs the length of the Atlantic Ocean,
       some ten thousand miles from north of Iceland to the far south. Almost all
@@ -351,9 +422,17 @@ passages:
       crack: molten rock rises, cools and sticks to both edges, so the two sides
       grow outward from the middle.
 
-      Thingvellir has a second kind of history. Iceland's assembly met in this valley from the year 930 until 1798. That makes it one of the oldest meeting places in Europe. The chieftains who gathered there had no idea that they stood between two plates. The rock they used as a speaking platform is basalt, which is rock that was once liquid. Earthquakes are common
-      and small. When the land moves suddenly rather than slowly, farms and
-      roads are threatened, and Iceland's building rules reflect that. The slow pull continues whether anyone is watching or not. Surveyors have measured the width of the valley with satellite instruments since the 1990s. Those figures agree with the long-term average taken from the age of the rock on each side.
+      Thingvellir has a second kind of history. Iceland's assembly met in this
+      valley from the year 930 until 1798. That makes it one of the oldest
+      meeting places in Europe. The chieftains who gathered there had no idea
+      that they stood between two plates. The rock they used as a speaking
+      platform is basalt, which is rock that was once liquid. Earthquakes are
+      common and small. When the land moves suddenly rather than slowly, farms
+      and roads are threatened, and Iceland's building rules reflect that. The
+      slow pull continues whether anyone is watching or not. Surveyors have
+      measured the width of the valley with satellite instruments since the
+      1990s. Those figures agree with the long-term average taken from the age
+      of the rock on each side.
     anchors:
       - take: "The valley walls at Thingvellir are the torn edges of a crack in the crust."
         quote: "the torn edges of a crack in the crust"
@@ -379,9 +458,10 @@ passages:
     passage: |
       Thwaites Glacier sits in West Antarctica and reaches the sea along a front
       about eighty miles wide. The ice behind that front is more than a mile
-      thick in places. If all of it melted, the water added to the ocean would raise sea level by roughly two feet. The glacier also acts as a plug for a much larger body of ice behind it. For that reason more field
-      money has been spent on it in the last ten years than on any other
-      glacier.
+      thick in places. If all of it melted, the water added to the ocean would
+      raise sea level by roughly two feet. The glacier also acts as a plug for a
+      much larger body of ice behind it. For that reason more field money has
+      been spent on it in the last ten years than on any other glacier.
 
       The front is not a cliff standing on rock. For the last part of its
       journey the ice floats, and the line where it lifts off the sea bed is
@@ -392,7 +472,15 @@ passages:
       and large pieces have broken away.
 
       The reason is not warm air. Air temperatures over that part of Antarctica
-      stay below freezing for most of the year. The reason is water. A current of relatively warm sea water reaches the underside of the floating ice. It is about two degrees above the freezing point of salt water. That is enough to melt the ice from below at tens of meters a year in places. In 2019 a team drilled through six hundred meters of ice and lowered a robot into the cavity, meaning the space under the floating ice. That is how the melting rate at the grounding line was first measured directly. The hole took five days to make with a hot-water drill. The robot sent back pictures of a staircase of ice overhead.
+      stay below freezing for most of the year. The reason is water. A current
+      of relatively warm sea water reaches the underside of the floating ice. It
+      is about two degrees above the freezing point of salt water. That is
+      enough to melt the ice from below at tens of meters a year in places. In
+      2019 a team drilled through six hundred meters of ice and lowered a robot
+      into the cavity, meaning the space under the floating ice. That is how the
+      melting rate at the grounding line was first measured directly. The hole
+      took five days to make with a hot-water drill. The robot sent back
+      pictures of a staircase of ice overhead.
     anchors:
       - take: "Thwaites holds enough ice to raise sea level by roughly two feet and plugs more behind it."
         quote: "a plug for a much larger body of ice behind it"
