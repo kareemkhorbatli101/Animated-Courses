@@ -153,7 +153,7 @@ HIS = dict(domain='HIS', note_ar=(
                  'D': ('wrong_mark', '; most')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause removes the boundary question, and the "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate removes the boundary question, and the "
              "concession the sentence makes needs a subordinator to carry it.",
          trap="D uses a semicolon, which would be correct grammar and would lose the "
               "concession the sentence is making."),
@@ -237,7 +237,7 @@ BIO = dict(domain='BIO', note_ar=(
                  'D': ('overpunctuated', ', because the')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause removes the boundary problem, since a "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate removes the boundary problem, since a "
              "subordinate clause needs no mark to attach it.",
          trap="D puts a comma in front of a restrictive because-clause, which needs no "
               "mark at all."),
@@ -278,7 +278,7 @@ BIO = dict(domain='BIO', note_ar=(
                  'C': ('wrong_mark', '; the')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause attaches it without any boundary mark and "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate attaches it without any boundary mark and "
              "states the connection the sentence is drawing.",
          trap="C uses a semicolon, which is correct grammar and leaves the reader to supply "
               "the connection."),
@@ -311,7 +311,7 @@ BIO = dict(domain='BIO', note_ar=(
                  'C': ('wrong_mark', '; the')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause removes the boundary question and names the "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate removes the boundary question and names the "
              "evidence the first clause rests on.",
          trap="C uses a semicolon, which joins the clauses correctly and says nothing about "
               "why the first should be believed."),
@@ -403,7 +403,7 @@ PHY = dict(domain='PHY', note_ar=(
                  'D': ('wrong_mark', '; the order')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause attaches it without a mark and states the "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate attaches it without a mark and states the "
              "consequence the sentence is drawing.",
          trap="D uses a semicolon, which is correct and leaves the reader to work out why "
               "the second clause follows at all."),
@@ -612,7 +612,7 @@ HUM = dict(domain='HUM', note_ar=(
                  'D': ('wrong_mark', '; the habit')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause removes the boundary question and states why "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate removes the boundary question and states why "
              "the teaching mattered less than it looked.",
          trap="D uses a semicolon, which is grammatical and leaves the two facts side by "
               "side with no relation between them."),
@@ -703,7 +703,7 @@ SOC = dict(domain='SOC', note_ar=(
                  'D': ('wrong_mark', '; the subject')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause attaches it without a mark and states why the "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate attaches it without a mark and states why the "
              "experiment worked as it did.",
          trap="D uses a semicolon, which joins the clauses correctly and leaves the reason "
               "for the reader to guess."),
@@ -748,7 +748,7 @@ SOC = dict(domain='SOC', note_ar=(
                  'D': ('wrong_mark', '; the two')},
          ctx=dict(left_independent=True, right_independent=True, mark_ok=[],
                   marks_expected=0),
-         why="A subordinate clause attaches without a boundary mark, so making the second clause attaches it without a mark and names the "
+         why="A subordinate clause attaches without a boundary mark, so making the second clause subordinate attaches it without a mark and names the "
              "consequence the first clause has.",
          trap="D uses a semicolon, which is correct grammar and leaves the two halves "
               "standing side by side without a relation."),

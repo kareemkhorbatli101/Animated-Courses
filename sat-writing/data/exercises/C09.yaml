@@ -370,8 +370,9 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
-      the boundary question, and the concession the sentence makes needs a subordinator to carry it.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      removes the boundary question, and the concession the sentence makes needs a subordinator to
+      carry it.
     trap: D uses a semicolon, which would be correct grammar and would lose the concession the sentence
       is making.
   - n: 410
@@ -608,8 +609,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
-      the boundary problem, since a subordinate clause needs no mark to attach it.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      removes the boundary problem, since a subordinate clause needs no mark to attach it.
     trap: D puts a comma in front of a restrictive because-clause, which needs no mark at all.
   - n: 416
     id: C09-BIO-E06
@@ -726,8 +727,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
-      it without any boundary mark and states the connection the sentence is drawing.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      attaches it without any boundary mark and states the connection the sentence is drawing.
     trap: C uses a semicolon, which is correct grammar and leaves the reader to supply the connection.
   - n: 419
     id: C09-BIO-E09
@@ -807,8 +808,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
-      the boundary question and names the evidence the first clause rests on.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      removes the boundary question and names the evidence the first clause rests on.
     trap: C uses a semicolon, which joins the clauses correctly and says nothing about why the first
       should be believed.
 - domain: PHY
@@ -1046,8 +1047,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
-      it without a mark and states the consequence the sentence is drawing.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      attaches it without a mark and states the consequence the sentence is drawing.
     trap: D uses a semicolon, which is correct and leaves the reader to work out why the second clause
       follows at all.
   - n: 427
@@ -1604,8 +1605,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
-      the boundary question and states why the teaching mattered less than it looked.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      removes the boundary question and states why the teaching mattered less than it looked.
     trap: D uses a semicolon, which is grammatical and leaves the two facts side by side with no relation
       between them.
 - domain: SOC
@@ -1845,8 +1846,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
-      it without a mark and states why the experiment worked as it did.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      attaches it without a mark and states why the experiment worked as it did.
     trap: D uses a semicolon, which joins the clauses correctly and leaves the reason for the reader
       to guess.
   - n: 447
@@ -1964,8 +1965,8 @@ parts:
       mark_ok: []
       marks_expected: 0
       right_independent: true
-    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
-      it without a mark and names the consequence the first clause has.
+    why: A subordinate clause attaches without a boundary mark, so making the second clause subordinate
+      attaches it without a mark and names the consequence the first clause has.
     trap: D uses a semicolon, which is correct grammar and leaves the two halves standing side by
       side without a relation.
   - n: 450
