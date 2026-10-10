@@ -1,0 +1,394 @@
+# ---------------------------------------------------------------------------
+# Writing the Five Fields - single source of truth.
+# 15 chapters x 5 domains x 10 exercises = 750. See PLAN.md.
+# Nothing in data/exercises/*.yaml may contradict this file: the emitter fills
+# level, difficulty, element and the planned key letter from here rather than
+# letting an author type them.
+# ---------------------------------------------------------------------------
+title: "Writing the Five Fields"
+subtitle: "750 graded exercises in Standard English, transitions, synthesis and quantitative evidence"
+
+domains:
+  HIS: "History and Civics"
+  BIO: "Biology and Earth Science"
+  PHY: "Physical Science"
+  HUM: "Humanities"
+  SOC: "Social Science"
+domain_order: [HIS, BIO, PHY, HUM, SOC]
+
+# What each domain's sentences natively stress. PLAN.md section 3 argues for these;
+# they are a curricular judgment, not a measurement.
+domain_grammar:
+  HIS: "long nonrestrictive appositives naming people, offices and dates; sequences of past events"
+  BIO: "Latin and technical plurals; process chains; restrictive choice of organism"
+  PHY: "units and quantities; passives; as-X-increases constructions; lists of apparatus"
+  HUM: "authors' and composers' names in the genitive; titles; quotation; narrator pronouns"
+  SOC: "percentages and comparisons; collective and distributive subjects"
+
+# ---------------------------------------------------------------------------
+# The position map. Position within the ten fixes level, level fixes difficulty.
+# Difficulty is monotone non-decreasing across a part by construction.
+# ---------------------------------------------------------------------------
+level_by_pos:   {1: 1, 2: 1, 3: 2, 4: 2, 5: 2, 6: 3, 7: 3, 8: 3, 9: 4, 10: 4}
+diff_by_pos:
+  1: easy
+  2: easy
+  3: easy
+  4: medium
+  5: medium
+  6: medium
+  7: medium
+  8: hard
+  9: hard
+  10: hard
+level_names: {1: Foundation, 2: Developing, 3: Target, 4: Stretch}
+
+# Carrier length in words, by level. Checked per exercise and in aggregate.
+carrier_words:
+  1: [12, 22]
+  2: [18, 30]
+  3: [25, 40]
+  4: [32, 55]
+# Words between the governing word and the blank, by level.
+span_gap:
+  1: [0, 3]
+  2: [2, 8]
+  3: [5, 14]
+  4: [10, 25]
+
+# ---------------------------------------------------------------------------
+# The fifteen elements, one chapter each.
+# part: which of the four parts of the book. home: the domain where the element
+# is natively hardest; its ten exercises carry the chapter's hardest rules.
+# hardest: the subset of rules the home-domain part must use.
+# ---------------------------------------------------------------------------
+chapters:
+  1:
+    element: sv_agree
+    title: "Subject-verb agreement"
+    part: 1
+    home: BIO
+    gloss: "A verb agrees with its subject, not with whatever noun happens to sit next to it."
+    rules: [agr_singular, agr_plural, agr_compound, agr_intervening, agr_collective,
+            agr_indefinite, agr_inverted]
+    hardest: [agr_intervening, agr_collective, agr_indefinite, agr_inverted]
+    moves: [wrong_number, agree_with_nearest, tense_shift, wrong_aspect]
+  2:
+    element: verb_tense
+    title: "Verb tense and aspect"
+    part: 1
+    home: HIS
+    gloss: "A verb form places an action in time and says whether it is finished, continuing or prior to another."
+    rules: [past_simple, past_perfect_sequence, present_perfect_continuing, present_general,
+            past_progressive, conditional_sequence]
+    hardest: [past_perfect_sequence, present_perfect_continuing, conditional_sequence]
+    moves: [wrong_tense, tense_shift, wrong_aspect, nonfinite]
+  3:
+    element: pro_agree
+    title: "Pronoun-antecedent agreement"
+    part: 1
+    home: SOC
+    gloss: "A pronoun matches the number of the noun it stands for, and it must be clear which noun that is."
+    rules: [pro_singular, pro_plural, pro_collective, pro_indefinite_singular, pro_distributive]
+    hardest: [pro_collective, pro_indefinite_singular, pro_distributive]
+    moves: [pro_number, pro_vague, person_shift, wrong_number]
+  4:
+    element: pro_case
+    title: "Pronoun case and clarity"
+    part: 1
+    home: HUM
+    gloss: "A pronoun takes the case its position requires: subject, object or possessive."
+    rules: [subject_case, object_case, possessive_det, who_subject, whom_object, reflexive_proper]
+    hardest: [who_subject, whom_object, reflexive_proper]
+    moves: [pro_case, who_whom, reflexive_misuse, pro_vague]
+  5:
+    element: poss
+    title: "Plural and possessive nouns"
+    part: 1
+    home: HUM
+    gloss: "An apostrophe marks possession, never a plural, and where it sits depends on where the s already is."
+    rules: [sing_possessive, plural_possessive, plural_plain, irregular_plural_poss,
+            joint_possession, its_possessive]
+    hardest: [plural_possessive, irregular_plural_poss, joint_possession]
+    moves: [poss_missing, poss_misplaced, plural_for_poss, poss_for_plural]
+  6:
+    element: modifier
+    title: "Modifier placement"
+    part: 1
+    home: PHY
+    gloss: "A modifying phrase attaches to whatever it stands next to, so it has to stand next to what it modifies."
+    rules: [modifier_adjacent, agent_named_first, participle_matched, squint_resolved]
+    hardest: [participle_matched, squint_resolved]
+    moves: [dangler, misplaced, squinting, agent_mismatch]
+  7:
+    element: parallel
+    title: "Parallel structure"
+    part: 1
+    home: PHY
+    gloss: "Items joined in a series or a comparison take the same grammatical form."
+    rules: [parallel_series, parallel_correlative, parallel_comparison, parallel_infinitive,
+            parallel_gerund]
+    hardest: [parallel_correlative, parallel_comparison]
+    moves: [faulty_parallel, mixed_form, unbalanced_correlative, incomplete_comparison]
+  8:
+    element: finite
+    title: "Finite verbs and fragments"
+    part: 1
+    home: HIS
+    gloss: "A sentence needs a subject and a finite verb; a participle is not a finite verb."
+    rules: [finite_main_verb, independent_clause, subordinate_attached, participle_attached]
+    hardest: [subordinate_attached, participle_attached]
+    moves: [fragment, nonfinite_only, loose_subordinate, missing_subject]
+  9:
+    element: splice
+    title: "Sentence boundaries"
+    part: 2
+    home: BIO
+    gloss: "Two independent clauses need a period, a semicolon, or a comma with a conjunction."
+    rules: [period_boundary, semicolon_boundary, comma_conjunction, subordinate_boundary]
+    hardest: [semicolon_boundary, subordinate_boundary]
+    moves: [comma_splice, run_on, wrong_mark, overpunctuated]
+  10:
+    element: supplement
+    title: "Supplements and paired punctuation"
+    part: 2
+    home: HIS
+    gloss: "A supplement interrupting a sentence is closed with the same mark that opened it."
+    rules: [paired_commas, paired_dashes, paired_parentheses, appositive_commas, no_marks_needed]
+    hardest: [paired_dashes, paired_parentheses, no_marks_needed]
+    moves: [unpaired, mismatched_pair, wrong_mark, overpunctuated]
+  11:
+    element: colon
+    title: "Colons, semicolons and lists"
+    part: 2
+    home: PHY
+    gloss: "A colon follows a complete clause; a semicolon separates items that already contain commas."
+    rules: [colon_after_independent, semicolon_between_items, comma_series, no_mark_needed]
+    hardest: [semicolon_between_items, no_mark_needed]
+    moves: [colon_after_fragment, wrong_mark, missing_series_mark, overpunctuated]
+  12:
+    element: restrictive
+    title: "Restrictive and nonrestrictive elements"
+    part: 2
+    home: BIO
+    gloss: "Commas around a modifier say the sentence would still name the same thing without it."
+    rules: [restrictive_no_comma, nonrestrictive_commas, restrictive_name, nonrestrictive_name]
+    hardest: [restrictive_name, nonrestrictive_name]
+    moves: [restrictive_shift, wrong_relativizer, unpaired, overpunctuated]
+  13:
+    element: transition
+    title: "Transitions"
+    part: 3
+    home: SOC
+    gloss: "A transition states the relation the next sentence bears to the one before it."
+    rules: [contrast, cause, result, addition, example, concession, sequence, emphasis,
+            comparison, restatement_rel]
+    hardest: [concession, emphasis, restatement_rel, comparison]
+    moves: [wrong_direction, near_miss, restatement, no_relation]
+  14:
+    element: synthesis
+    title: "Rhetorical synthesis"
+    part: 3
+    home: HUM
+    gloss: "Given notes and a stated goal, one sentence serves the goal and the others do not."
+    rules: [goal_contrast, goal_cause, goal_introduce, goal_compare, goal_finding, goal_limitation]
+    hardest: [goal_limitation, goal_compare, goal_cause]
+    moves: [wrong_goal, true_not_asked, imported, underreach, overreach]
+  15:
+    element: quant
+    title: "Tables and graphs"
+    part: 4
+    home: SOC
+    gloss: "A claim about data is supported only by the numbers that actually bear on it."
+    rules: [read_cell, compare_cells, trend_across_rows, support_claim, no_support]
+    hardest: [trend_across_rows, support_claim, no_support]
+    moves: [misread_row, reversed_comparison, overreach, imported, true_not_asked]
+
+book_parts:
+  1: {title: "Form, Structure and Sense", chapters: [1, 2, 3, 4, 5, 6, 7, 8],
+      domain: "Standard English Conventions"}
+  2: {title: "Boundaries", chapters: [9, 10, 11, 12],
+      domain: "Standard English Conventions"}
+  3: {title: "Expression of Ideas", chapters: [13, 14],
+      domain: "Expression of Ideas"}
+  4: {title: "Quantitative Evidence", chapters: [15],
+      domain: "Information and Ideas"}
+
+# ---------------------------------------------------------------------------
+# Stems. Chapters 1-12 share one stem, 600 times over, because that is the stem
+# the test uses. Stem uniqueness is therefore NOT a check in this book, unlike
+# Book 2; X8 checks stem conformance instead. See PLAN.md section 8.
+# ---------------------------------------------------------------------------
+stems:
+  conventions: "Which choice completes the text so that it conforms to the conventions of Standard English?"
+  transition: "Which choice completes the text with the most logical transition?"
+  synthesis: "Which choice most effectively uses relevant information from the notes to {goal}?"
+quant_stems:
+  - "Which choice best describes data from the table that support the student's claim?"
+  - "Which choice most effectively uses data from the table to complete the statement?"
+  - "Which choice best states a conclusion the table supports?"
+
+exercise_rules:
+  labels: [A, B, C, D]
+  # Option shape. A 2.40 length ratio is the right guard for options that are
+  # phrases, and the wrong one for options that are inflections of one verb:
+  # "form" against "has formed" is a ratio of 2.75 and is exactly what the test
+  # prints. So the ratio governs only option sets whose shortest member reaches
+  # option_short_chars; below that an absolute spread governs instead. The real
+  # anti-tell -- that the key is not reliably the longest or shortest option --
+  # is a book-level check (H6) rather than a per-exercise one.
+  option_ratio_max: 2.40
+  option_short_chars: 12
+  option_spread_max: 14
+  key_extreme_max: 0.30
+  why_words: [8, 40]
+  trap_words: [6, 30]
+  notes_min: 3
+  notes_max: 5
+  table_rows_min: 3
+  table_rows_max: 6
+  banned_option_forms:
+    - "none of these"
+    - "none of the above"
+    - "all of the above"
+    - "both a and b"
+    - "no change"
+  blank: "___"
+
+key_base: [B, D, A, C, B, A, D, C, A, C]
+
+# ---------------------------------------------------------------------------
+# Arabic. Fifteen chapter pages of four parts each, seventy-five part notes.
+# ---------------------------------------------------------------------------
+arabic:
+  chapter_parts: [qaida, kayf, fakh, sila]
+  chapter_headings:
+    qaida: "القاعدة"
+    kayf: "كيف يُختبر"
+    fakh: "الفخّ"
+    sila: "الصلة بالاختبار"
+  chapter_words: [120, 260]
+  chapter_sila_min: 20
+  note_words: [25, 60]
+  script_share_min: 0.92
+  test_name: "سات"
+  domain_names:
+    HIS: "التاريخ والنظام المدني"
+    BIO: "الأحياء وعلوم الأرض"
+    PHY: "العلوم الفيزيائية"
+    HUM: "الإنسانيات"
+    SOC: "العلوم الاجتماعية"
+  element_names:
+    sv_agree: "مطابقة الفعل للفاعل"
+    verb_tense: "زمن الفعل وجهته"
+    pro_agree: "مطابقة الضمير لمرجعه"
+    pro_case: "حالة الضمير ووضوحه"
+    poss: "الجمع والملكية"
+    modifier: "موضع العبارة الواصفة"
+    parallel: "التوازي في التركيب"
+    finite: "الفعل التام والجملة الناقصة"
+    splice: "حدود الجملة"
+    supplement: "العبارات المعترضة وترقيمها"
+    colon: "النقطتان والفاصلة المنقوطة والقوائم"
+    restrictive: "الوصف المحدِّد وغير المحدِّد"
+    transition: "أدوات الربط"
+    synthesis: "التأليف البلاغي"
+    quant: "الجداول والرسوم"
+  latin_allowlist: [SAT, Text, A, B, C, D]
+
+checks:
+  per_exercise: 8
+  total: 6000
+  book_level: 120
+  exercises: 750
+  parts: 75
+  page_band: [260, 400]
+
+# ---------------------------------------------------------------------------
+# The rule index. [human label, the word the `why` must use].
+# X8 requires the second element to appear in the exercise's `why`, so that an
+# explanation names the rule it rests on instead of restating the answer. This
+# table is also Appendix C.
+# ---------------------------------------------------------------------------
+rule_labels:
+  agr_singular: ["A singular subject takes a singular verb", "singular"]
+  agr_plural: ["A plural subject takes a plural verb", "plural"]
+  agr_compound: ["Two subjects joined by *and* take a plural verb", "compound"]
+  agr_intervening: ["A phrase between subject and verb does not change the number", "intervening"]
+  agr_collective: ["A collective noun acting as one body takes a singular verb", "collective"]
+  agr_indefinite: ["*Each*, *every* and *either* are singular", "indefinite"]
+  agr_inverted: ["In inverted order the verb agrees with what follows it", "inverted"]
+  past_simple: ["A finished action in past time takes the simple past", "simple past"]
+  past_perfect_sequence: ["The earlier of two past actions takes the past perfect", "past perfect"]
+  present_perfect_continuing: ["An action begun earlier and still going takes the present perfect", "present perfect"]
+  present_general: ["A standing truth takes the simple present", "present"]
+  past_progressive: ["An action in progress when another interrupted takes the past progressive", "progressive"]
+  conditional_sequence: ["The consequence of an unreal condition takes *would*", "would"]
+  pro_singular: ["A singular antecedent takes a singular pronoun", "singular"]
+  pro_plural: ["A plural antecedent takes a plural pronoun", "plural"]
+  pro_collective: ["A collective noun acting as one body takes a singular pronoun", "collective"]
+  pro_indefinite_singular: ["*Each*, *every* and *either* take a singular pronoun", "indefinite"]
+  pro_distributive: ["A distributive subject takes a singular pronoun", "distributive"]
+  subject_case: ["A pronoun that is the subject of a verb takes the subject case", "subject"]
+  object_case: ["A pronoun that is an object takes the object case", "object"]
+  possessive_det: ["A pronoun modifying a noun takes the possessive form", "possessive"]
+  who_subject: ["*Who* is the subject form", "who"]
+  whom_object: ["*Whom* is the object form", "whom"]
+  reflexive_proper: ["A reflexive is used only when subject and object are the same", "reflexive"]
+  sing_possessive: ["A singular noun takes apostrophe-s", "singular possessive"]
+  plural_possessive: ["A plural already ending in s takes the apostrophe after it", "plural possessive"]
+  plural_plain: ["A plural that possesses nothing takes no apostrophe", "plural"]
+  irregular_plural_poss: ["An irregular plural not ending in s takes apostrophe-s", "irregular"]
+  joint_possession: ["Joint possession marks only the last name", "joint"]
+  its_possessive: ["*Its* is the possessive and has no apostrophe", "its"]
+  modifier_adjacent: ["A modifier stands next to what it modifies", "next to"]
+  agent_named_first: ["An opening participial phrase modifies the subject that follows", "subject"]
+  participle_matched: ["The participle's implied actor must be the sentence's subject", "participle"]
+  squint_resolved: ["A modifier that could look both ways is moved so it looks one way", "ambiguous"]
+  parallel_series: ["Items in a series take the same form", "series"]
+  parallel_correlative: ["*Both-and*, *either-or*, *not only-but also* join matching forms", "correlative"]
+  parallel_comparison: ["A comparison compares things of the same kind", "comparison"]
+  parallel_infinitive: ["A series of infinitives keeps the infinitive form", "infinitive"]
+  parallel_gerund: ["A series of gerunds keeps the -ing form", "gerund"]
+  finite_main_verb: ["A sentence needs a finite main verb", "finite"]
+  independent_clause: ["The words must make a clause that can stand alone", "independent"]
+  subordinate_attached: ["A subordinate clause attaches to a main clause", "subordinate"]
+  participle_attached: ["A participial phrase attaches to a clause; it does not replace one", "participial"]
+  period_boundary: ["Two independent clauses may be separated by a period", "period"]
+  semicolon_boundary: ["Two independent clauses may be joined by a semicolon", "semicolon"]
+  comma_conjunction: ["A comma with a coordinating conjunction joins two independent clauses", "conjunction"]
+  subordinate_boundary: ["Subordinating one clause removes the boundary problem", "subordinate"]
+  paired_commas: ["A supplement set off by commas takes a comma at each end", "commas"]
+  paired_dashes: ["A supplement set off by dashes takes a dash at each end", "dashes"]
+  paired_parentheses: ["Parentheses come in twos", "parentheses"]
+  appositive_commas: ["A nonessential appositive is enclosed in commas", "appositive"]
+  no_marks_needed: ["An essential element takes no marks at all", "no marks"]
+  colon_after_independent: ["A colon follows a complete clause", "colon"]
+  semicolon_between_items: ["Semicolons separate list items that themselves contain commas", "semicolons"]
+  comma_series: ["Plain list items are separated by commas", "commas"]
+  no_mark_needed: ["No mark belongs between a verb and its object", "no mark"]
+  restrictive_no_comma: ["An essential modifier takes no commas", "essential"]
+  nonrestrictive_commas: ["A nonessential modifier is enclosed in commas", "nonessential"]
+  restrictive_name: ["When the modifier says which one, it takes no commas", "which one"]
+  nonrestrictive_name: ["When the thing is already identified, the modifier takes commas", "already identified"]
+  contrast: ["The second statement runs against the first", "contrast"]
+  cause: ["The second statement gives the reason for the first", "reason"]
+  result: ["The second statement is the consequence of the first", "consequence"]
+  addition: ["The second statement adds to the first", "adds"]
+  example: ["The second statement is an instance of the first", "instance"]
+  concession: ["The second statement grants a point and holds its ground", "concession"]
+  sequence: ["The second statement comes next in order", "order"]
+  emphasis: ["The second statement presses the first harder", "emphasis"]
+  comparison: ["The second statement is like the first", "like"]
+  restatement_rel: ["The second statement says the first again, more precisely", "again"]
+  goal_contrast: ["The goal is to set two findings against each other", "contrast"]
+  goal_cause: ["The goal is to explain why something happened", "explain"]
+  goal_introduce: ["The goal is to introduce the subject to an unfamiliar reader", "introduce"]
+  goal_compare: ["The goal is to compare two things on one dimension", "compare"]
+  goal_finding: ["The goal is to state what the study found", "found"]
+  goal_limitation: ["The goal is to state a limitation of the work", "limitation"]
+  read_cell: ["The claim rests on one value in the table", "value"]
+  compare_cells: ["The claim rests on the difference between two values", "difference"]
+  trend_across_rows: ["The claim rests on the direction of change across rows", "direction"]
+  support_claim: ["The data bear on the claim and support it", "support"]
+  no_support: ["The table does not contain what the claim would need", "does not"]
