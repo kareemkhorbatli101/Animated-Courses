@@ -248,7 +248,7 @@ SETS.append(dict(
                    'Air resistance is what makes a truck stop slowly'],
              key='A', moves={'B': 'restatement', 'C': 'restatement', 'D': 'wrong_direction'},
              why='Text 2 shows two very different masses falling alike once the air is gone, which '
-                 'is the clean version of the cancelling that Text 1 derives in two steps.',
+                 'is the clean version of the canceling that Text 1 derives in two steps.',
              trap='B repeats the first step of the chain that Text 1 has already given.'),
         dict(carrier='That force is roughly proportional to the weight pressing down, so a heavy '
                      'vehicle does get more braking force than a light one. ___ the second step '

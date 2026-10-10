@@ -357,7 +357,7 @@ sets:
       C: restatement
       D: wrong_direction
     why: Text 2 shows two very different masses falling alike once the air is gone, which is the clean
-      version of the cancelling that Text 1 derives in two steps.
+      version of the canceling that Text 1 derives in two steps.
     trap: B repeats the first step of the chain that Text 1 has already given.
   - slot: 8
     type: transitions
