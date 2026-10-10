@@ -575,3 +575,14 @@ rewritten so that the longest option is often an *imported* or *overreaching*
 sentence -- which is what the real test does, because a well-made wrong answer is
 usually as long as the right one. Chapter 14 now puts the key at the top in
 twenty-four of fifty.
+
+**15. "No blank outside the carrier chapters" was the wrong rule.** G8 forbade the
+blank marker anywhere in chapters 14 and 15, and chapter 15 broke it ten times.
+The check was right about chapter 14, where a blank in a set of notes would mean
+the exercise had been written to the wrong shape, and wrong about chapter 15: one
+of the three quantitative stems asks the student to *complete a statement*, and the
+real test prints that form with the statement's end left open. The check now ties
+the blank to the stem -- a claim carries exactly one blank when its stem is the
+completing form and none otherwise -- which is a narrower claim than the old one
+and catches more: it would now fail an exercise that offers a blank with the wrong
+stem, or a stem that asks for a completion and gives nothing to complete.

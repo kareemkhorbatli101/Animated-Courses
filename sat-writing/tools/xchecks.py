@@ -645,9 +645,27 @@ def book_checks(chapters, xs, xres):
     nb = [x['id'] for x in xs if x['chapter'] in CARRIER_CHAPTERS
           and x['carrier'].count(BLANK) != 1]
     ck('G7 exactly one blank in every carrier', not nb, '%d bad' % len(nb))
-    stray = [x['id'] for x in xs if x['chapter'] not in CARRIER_CHAPTERS
-             and BLANK in stim(x)]
-    ck('G8 no blank in the notes or table chapters', not stray, '%d stray' % len(stray))
+    # A blank belongs in exactly one place outside the carrier chapters: the claim of
+    # a quantitative item whose stem asks the student to COMPLETE a statement, which
+    # is how the real test prints that form. Anywhere else -- in a set of notes, in a
+    # goal, in a claim whose stem asks which data support it -- a blank means the
+    # exercise was written to the wrong shape. The check is narrower than "no blanks"
+    # and says more: where a blank appears, it has to match the stem.
+    complete_form = SPEC['quant_stems'][1]
+    stray = []
+    for x in xs:
+        if x['chapter'] in CARRIER_CHAPTERS:
+            continue
+        if x['chapter'] == 14:
+            if BLANK in stim(x):
+                stray.append(x['id'])
+            continue
+        n = (x.get('claim') or '').count(BLANK)
+        rest = stim(x).replace(x.get('claim') or '', '')
+        if BLANK in rest or n > 1 or (n == 1) != (x['stem'] == complete_form):
+            stray.append(x['id'])
+    ck('G8 a blank only in a claim the stem asks the student to complete',
+       not stray, '%d stray' % len(stray))
     shape = []
     for x in xs:
         if x['chapter'] == 14 and not R['notes_min'] <= len(x['notes']) <= R['notes_max']:
