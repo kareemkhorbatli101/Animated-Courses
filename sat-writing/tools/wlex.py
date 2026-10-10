@@ -240,25 +240,109 @@ FINITE_AUX = (SING_AUX | PLUR_AUX | MODALS
 NONFIN_GOV = {'to', 'having', 'been', 'being'}
 PERF_AUX = {'have', 'has', 'had', 'is', 'are', 'was', 'were', 'am', 'be',
             'been', 'being'}
+# Words that end in -ed and are not verbs. Without these, "a hundred and
+# forty-six workers" reads as a finite clause because "hundred" ends in -ed, and
+# the fragment detector then stays silent on a real fragment. Words in -eed are
+# already excluded by the test below, which is why seed, need and breed are
+# absent here.
+NOT_VERB_ED = {'hundred', 'sacred', 'hatred', 'naked', 'wicked', 'red', 'bed',
+               'sled', 'jagged', 'rugged', 'ragged', 'wretched', 'crooked',
+               'hallowed', 'learned', 'beloved', 'aged', 'shed', 'zed'}
+
+
+# Determiners, quantifiers and number words. An -s word standing after one of
+# these is a plural noun, not a third-person verb: "a hundred and forty-six
+# WORKERS" is not a clause, and without this test the fragment detector stayed
+# silent on every fragment that ended in a plural. The test applies only when the
+# preceding word is lower-case, so that a proper-noun subject is not mistaken for
+# a determiner -- "Article Two GIVES" is a clause and must stay one.
+# Determiners and adjectives, which are determiners whatever their case: a
+# sentence-initial "The" is as much a determiner as a mid-sentence "the".
+DET = {'a', 'an', 'the', 'this', 'that', 'these', 'those', 'some', 'any', 'all',
+       'both', 'few', 'many', 'several', 'most', 'more', 'other', 'such', 'each',
+       'every', 'no', 'its', 'their', 'our', 'my', 'his', 'her', 'first', 'second',
+       'third', 'fourth', 'last', 'same', 'own', 'new', 'old', 'small', 'large',
+       'long', 'short', 'full', 'whole', 'single', 'separate', 'surviving', 'deep',
+       'early', 'late', 'rare', 'sealed', 'pure'}
+# Number words and quantifiers, which count as determiners only in lower case,
+# because a capitalized one is usually part of a name: "Article Two GIVES" is a
+# clause, while "a hundred and forty-six WORKERS" is a noun phrase.
+NUMQ = {'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+        'eleven', 'twelve', 'twenty', 'thirty', 'forty', 'fifty', 'sixty',
+        'seventy', 'eighty', 'ninety', 'hundred', 'thousand', 'million', 'billion'}
+_NUMWORD = re.compile(
+    r'^(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen'
+    r'|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty'
+    r'|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion)'
+    r'(-(one|two|three|four|five|six|seven|eight|nine))?$')
+
+
+# Words after which an -s form is a plural noun rather than a verb: prepositions,
+# coordinators and comparatives. "taking CENTURIES rather than DECADES" has no
+# finite verb in it, and without this the fragment detector called it a clause.
+S_SKIP = {'than', 'of', 'in', 'on', 'at', 'by', 'for', 'with', 'from', 'into',
+          'over', 'under', 'between', 'among', 'through', 'about', 'after',
+          'before', 'during', 'without', 'within', 'across', 'against', 'rather',
+          'and', 'or', 'but', 'as', 'like', 'per', 'only', 'nor', 'toward'}
+
+
+def _seg_finite(seg):
+    """Whether one comma-free stretch of text can head a finite clause.
+
+    The nonfinite scope matters: once to, having, been or being has opened a
+    phrase, the verbs after it are participles however they are spelled, and
+    they stay participles to the end of the stretch -- "having overshot and then
+    CRASHED" is one phrase, not a clause with a past tense in it. Commas close
+    the scope, which is why has_finite splits on them first: in "the engineers,
+    having reviewed the plan, APPROVED it" the finite verb is outside the
+    participial phrase and must still be found.
+    """
+    raw = words(seg)
+    w = [x.lower() for x in raw]
+    nonfin = False
+    for i, t in enumerate(w):
+        prev = w[i - 1] if i else ''
+        prev_raw = raw[i - 1] if i else ''
+        if t in NONFIN_GOV:
+            nonfin = True
+            continue
+        if t in FINITE_AUX:
+            if nonfin or prev in NONFIN_GOV:
+                continue
+            return True
+        if t.endswith('ing') or t in NOT_VERB_S or nonfin:
+            continue
+        ends_s = t.endswith('s') and not t.endswith('ss') and not t.endswith('us')
+        ends_ed = (t.endswith('ed') and not t.endswith('eed')
+                   and t not in NOT_VERB_ED)
+        # An -s or -ed word standing immediately after a determiner or a number is
+        # a plural noun or an attributive participle, not a verb: "the SEALED
+        # vessel", "a hundred and forty-six WORKERS". The lower-case test keeps a
+        # proper-noun subject from being mistaken for a determiner.
+        if (ends_s or ends_ed) and prev and (
+                prev in DET
+                or (prev_raw[:1].islower()
+                    and (prev in NUMQ or prev in S_SKIP or _NUMWORD.match(prev)
+                         or prev.endswith('ing') or prev in PARTICIPLES))):
+            continue
+        looks = t in PAST_FORMS or ends_ed or ends_s
+        if looks and prev not in PERF_AUX:
+            return True
+    return False
 
 
 def has_finite(span):
-    """True when the span contains a word that can head a finite clause."""
-    w = [x.lower() for x in words(span)]
-    for i, t in enumerate(w):
-        prev = w[i - 1] if i else ''
-        if t in FINITE_AUX:
-            if prev not in NONFIN_GOV:
-                return True
-            continue
-        if t.endswith('ing') or t in NOT_VERB_S:
-            continue
-        looks = (t in PAST_FORMS
-                 or (t.endswith('ed') and not t.endswith('eed'))
-                 or (t.endswith('s') and not t.endswith('ss') and not t.endswith('us')))
-        if looks and prev not in NONFIN_GOV and prev not in PERF_AUX:
-            return True
-    return False
+    """True when the span contains a word that can head a finite clause.
+
+    Conservative in one direction only: a bare present-tense plural verb ("the
+    grievances FILL the space") carries no mark that distinguishes it from a
+    noun, so it is not recognised. Chapter 8's keys are therefore written with
+    their finiteness on an auxiliary or a past form, which is a constraint on the
+    content rather than a guess by the detector. For the same reason its fragment
+    distractors hold no embedded relative clause: a noun phrase with a finite
+    verb inside it is not a clause, and no detector short of a parser can say so.
+    """
+    return any(_seg_finite(seg) for seg in re.split(r'[,;:]', span or ''))
 
 
 def fragment(span, ctx=None):
@@ -706,6 +790,33 @@ def _tests():
     eq(has_finite('has collapsed'), True, 'a perfect with a finite auxiliary is finite')
     eq(has_finite('the engineers, having reviewed the plan, approved it'), True,
        'a finite verb after a participial phrase is still found')
+    eq(has_finite('having killed a hundred and forty-six workers'), False,
+       'hundred is not read as a past-tense verb')
+    eq(nonfinite_only('having killed a hundred workers'), True,
+       'nonfinite_only is not defeated by a word ending in -ed')
+    eq(has_finite('a sacred and naked truth'), False, 'nor are sacred and naked')
+    eq(has_finite('Article Two gives the executive power to one person'), True,
+       'a proper-noun subject before an -s verb is not read as a determiner')
+    eq(has_finite('the grievances filled everything between them'), True,
+       'a plural noun after a determiner does not block a real past-tense verb')
+    eq(has_finite('filling everything between them'), False,
+       'a participial phrase is not finite')
+    eq(has_finite('none of them being surrendered until after a second war'), False,
+       'a passive participle under being is not finite')
+    eq(has_finite('having overshot and then crashed'), False,
+       'a participle coordinated inside a perfect phrase stays nonfinite')
+    eq(has_finite('taking centuries rather than decades'), False,
+       'plural nouns after a gerund and after than are not verbs')
+    eq(has_finite('having taken centuries rather'), False,
+       'nor is a plural noun after a past participle')
+    eq(has_finite('the engineers, having reviewed the plan, approved it'), True,
+       'a comma closes the nonfinite scope, so the later finite verb is found')
+    eq(has_finite('acts'), True, 'a bare third-person -s form standing alone is finite')
+    eq(has_finite('The sealed vessel being weighed'), False,
+       'an attributive participle after a determiner is not a finite verb')
+    eq(has_finite('the work done on it became internal energy'), True,
+       'but a real past tense later in the span is still found')
+    eq(has_finite('the seed needed water'), True, 'a real -eed verb is still finite')
     eq(pro_case('whom', 'who_subject'), True, 'whom in a subject position')
     eq(pro_case('who', 'who_subject'), False, 'who in a subject position')
     eq(who_whom('who', 'whom_object'), True, 'who in an object position')

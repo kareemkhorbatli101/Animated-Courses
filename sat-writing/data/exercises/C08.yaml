@@ -1,0 +1,1756 @@
+# Chapter 8 - Finite verbs and fragments. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 8
+element: finite
+title: Finite verbs and fragments
+home: HIS
+summary_ar:
+  qaida: 'الفعل التام والجملة الناقصة بابان متلازمان: الجملة التامّة تحتاج إلى مسند ومسند إليه، وإلى
+    فعل تامّ يحمل الزمن. واسم الفاعل واسم المفعول ليسا فعلاً تامّاً، فالعبارة التي ليس فيها غيرهما
+    جملة ناقصة وإن طالت. والجملة الموصولة أو الشرطية لا تقوم وحدها، بل تتعلّق بجملة رئيسة.'
+  kayf: يعرض الاختبار عبارة طويلة فيها اسم وصفة ومتعلّقات كثيرة ولا فعل تامّ فيها، فتبدو جملة لطولها.
+    ويعرض كذلك جملتين تامّتين بينهما فاصلة، أو جملة شرطية بلا جواب، فيطلب منك أن تعيّن أيّ الصور يصحّ
+    أن يقوم بنفسه.
+  fakh: 'الفخّ أن الطول يوهم التمام. فعبارة من عشرين كلمة فيها اسم فاعل واحد تبدو جملة، وهي ليست جملة.
+    والعلاج أن تسأل: أين الفعل الذي يحمل الزمن؟ فإن لم تجده فليست جملة.'
+  sila: هذا الباب هو أساس الفصول الأربعة التي تليه في اختبار سات، لأن حدود الجملة لا تُعرف إلّا بعد
+    معرفة ما يصحّ أن يكون جملة. فمن أتقنه هنا سهل عليه باب الفاصلة المنقوطة والنقطة بعده.
+parts:
+- domain: HIS
+  partno: 36
+  note_ar: 'التاريخ والنظام المدني هو المجال الأصلي لهذا الفصل: جمله مليئة بالتواريخ والألقاب والعبارات
+    المعترضة التي تطيل الكلام بلا فعل تامّ، فتبدو الجملة الناقصة فيها تامّة لطولها.'
+  exercises:
+  - n: 351
+    id: C08-HIS-E01
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: The Declaration states its premise in the second sentence and its conclusion in the last;
+      ___.
+    rule: finite_main_verb
+    rule_span: the grievances filled everything between
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the grievances filled everything between them
+    - filling everything between them
+    - having filled everything between them
+    - which filled everything between them
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: filling everything between them
+      C:
+        move: nonfinite_only
+        span: having filled everything between them
+      D:
+        move: loose_subordinate
+        span: which filled everything between them
+    ctx: {}
+    why: What follows a semicolon must be able to stand alone, which takes a subject and a finite
+      verb.
+    trap: B has a subject and a participle, which reads like a clause and carries no tense.
+  - n: 352
+    id: C08-HIS-E02
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: Article One gives the whole of the legislative power to a Congress of two chambers; ___.
+    rule: independent_clause
+    rule_span: Article Two gives the executive power to one person
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - giving the executive power to one person
+    - having given the executive power to one person
+    - Article Two gives the executive power to one person
+    - which gives the executive power to one person
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: giving the executive power to one person
+      B:
+        move: nonfinite_only
+        span: having given the executive power
+      D:
+        move: loose_subordinate
+        span: which gives the executive power
+    ctx: {}
+    why: A semicolon joins two things that can each stand alone, so what follows it has to be an independent
+      clause.
+    trap: D is a relative clause, which has a finite verb and still cannot stand by itself.
+  - n: 353
+    id: C08-HIS-E03
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The Naturalization Act of 1790 named a residence requirement, an oath of allegiance,
+      and a racial bar that stood for eighty years; ___.
+    rule: finite_main_verb
+    rule_span: Congress removed only the last of the three
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - removing only the last of the three
+    - having removed only the last of the three
+    - which Congress removed last of the three
+    - Congress removed only the last of the three
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: removing only the last of the three
+      B:
+        move: nonfinite_only
+        span: having removed only the last
+      C:
+        move: loose_subordinate
+        span: which Congress removed last
+    ctx: {}
+    why: What stands after a semicolon needs a finite verb of its own, and only one of these supplies
+      it with a subject.
+    trap: A looks complete because it is as long as the clause it replaces, and length is not what
+      makes a sentence.
+  - n: 354
+    id: C08-HIS-E04
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: ___, the abolitionists could argue from a document that their opponents claimed to honor
+      as much as they did.
+    rule: subordinate_attached
+    rule_span: Because the Declaration spoke of all men
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - The Declaration had spoken of all men without qualification
+    - Because the Declaration spoke of all men
+    - The Declaration speaking of all men
+    - Having spoken of all men without qualification
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: The Declaration had spoken
+      C:
+        move: fragment
+        span: The Declaration speaking of all men
+      D:
+        move: nonfinite_only
+        span: Having spoken of all men
+    ctx: {}
+    why: A subordinate clause attaches to the main clause that follows it, which is what the comma
+      is doing here.
+    trap: A is a complete sentence, which leaves two sentences joined by nothing but a comma.
+  - n: 355
+    id: C08-HIS-E05
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: The federal occupation of the former Confederate states ended in 1877 with a bargain
+      struck over a disputed presidential election, ___.
+    rule: participle_attached
+    rule_span: leaving the governments that replaced it to decide the rest
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - leaving the governments that replaced it to decide the rest
+    - the governments that replaced it decided the rest
+    - the rest left to the governments that replaced it
+    - it left the governments that replaced it to decide
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: the governments that replaced it decided
+      C:
+        move: missing_subject
+        span: the rest left to the governments
+      D:
+        move: loose_subordinate
+        span: it left the governments
+    ctx: {}
+    why: A participial phrase attaches to the clause in front of it and does not need a subject of
+      its own.
+    trap: B is a complete sentence and so needs more than a comma to join it to the one before.
+  - n: 356
+    id: C08-HIS-E06
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: ___, the legislature wrote thirty-eight bills in eighteen months and the inspectors who
+      enforced them were given power to close a building on the spot without a hearing.
+    rule: subordinate_attached
+    rule_span: Once the Triangle fire had killed a hundred and forty-six workers
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - A hundred and forty-six workers had died in the Triangle fire
+    - The Triangle fire killing a hundred and forty-six workers
+    - Having killed a hundred and forty-six workers
+    - Once the Triangle fire had killed a hundred and forty-six workers
+    key: D
+    faults:
+      A:
+        move: loose_subordinate
+        span: A hundred and forty-six workers had died
+      B:
+        move: fragment
+        span: The Triangle fire killing
+      C:
+        move: nonfinite_only
+        span: Having killed a hundred
+    ctx: {}
+    why: The opening element has to be a subordinate clause, which attaches to the main clause the
+      comma introduces.
+    trap: 'A is grammatical on its own and that is the problem: two complete sentences cannot be joined
+      by a comma.'
+  - n: 357
+    id: C08-HIS-E07
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: The Court heard the school cases twice, ___, and the second argument turned on the history
+      of the amendment rather than on the schools themselves at all.
+    rule: participle_attached
+    rule_span: having asked the parties to return a year later
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it asked the parties to return a year later
+    - the parties were asked to return a year later
+    - having asked the parties to return a year later
+    - the parties asked to return a year later
+    key: C
+    faults:
+      A:
+        move: loose_subordinate
+        span: it asked the parties
+      B:
+        move: loose_subordinate
+        span: the parties were asked
+      D:
+        move: missing_subject
+        span: the parties asked to return
+    ctx: {}
+    why: The element between the commas is a participial phrase attached to the clause around it,
+      not a clause of its own.
+    trap: A is a complete sentence dropped between two commas, which gives the sentence three clauses
+      and two commas to join them.
+  - n: 358
+    id: C08-HIS-E08
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: The mandates created after the First World War were to be held in trust for their inhabitants
+      and surrendered as soon as those inhabitants were ready to govern themselves; ___.
+    rule: independent_clause
+    rule_span: none of them was surrendered until after a second war
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - none of them being surrendered until after a second war
+    - none of them was surrendered until after a second war
+    - having surrendered none of them until after a second war
+    - which none of them was until after a second war
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: none of them being surrendered
+      C:
+        move: nonfinite_only
+        span: having surrendered none of them
+      D:
+        move: loose_subordinate
+        span: which none of them was
+    ctx: {}
+    why: A semicolon demands an independent clause on each side, so the second half needs a subject
+      and a finite verb.
+    trap: A differs from the key by one word and that word is the whole difference between a clause
+      and a phrase.
+  - n: 359
+    id: C08-HIS-E09
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: ___, the courts declined to decide who had the power to suspend the writ, and the question
+      has not been squarely answered in the century and a half since the war itself ended.
+    rule: subordinate_attached
+    rule_span: Although Congress had ratified the suspension two years after the fact
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Congress ratified the suspension two years after the fact
+    - Congress ratifying the suspension two years after the fact
+    - Having ratified the suspension two years after the fact
+    - Although Congress had ratified the suspension two years after the fact
+    key: D
+    faults:
+      A:
+        move: loose_subordinate
+        span: Congress ratified the suspension
+      B:
+        move: fragment
+        span: Congress ratifying the suspension
+      C:
+        move: nonfinite_only
+        span: Having ratified the suspension
+    ctx: {}
+    why: A subordinate clause is what attaches to the main clause here, and the concession the sentence
+      needs can only be carried by one.
+    trap: A is a complete sentence and so splices itself to the clause that follows with nothing but
+      a comma.
+  - n: 360
+    id: C08-HIS-E10
+    chapter: 8
+    element: finite
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: The penny papers sold for a cent when the established papers sold for six, ___, and the
+      model of recovering the cost from advertisers rather than from readers has outlasted every one
+      of the papers that invented it.
+    rule: participle_attached
+    rule_span: making up the difference by selling space to advertisers
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - they made up the difference by selling space to advertisers
+    - making up the difference by selling space to advertisers
+    - the difference made up by selling space to advertisers
+    - it was made up by selling space to advertisers
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: they made up the difference
+      C:
+        move: missing_subject
+        span: the difference made up
+      D:
+        move: loose_subordinate
+        span: it was made up
+    ctx: {}
+    why: A participial phrase attaches to the clause beside it and borrows that clause's subject.
+    trap: A is a complete sentence inserted between commas, which leaves three clauses held together
+      by punctuation that cannot do it.
+- domain: BIO
+  partno: 37
+  note_ar: جمل الأحياء وعلوم الأرض تطيل وصف الكائن أو الطبقة بعبارات متتابعة لا فعل فيها، فتبدو جملة.
+    والعلاج أن تبحث عن الفعل الذي يحمل الزمن لا عن طول الكلام.
+  exercises:
+  - n: 361
+    id: C08-BIO-E01
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: Selection acts on the variation that is already present in a population; ___.
+    rule: finite_main_verb
+    rule_span: it created none of that variation itself
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - creating none of that variation itself
+    - it created none of that variation itself
+    - having created none of that variation itself
+    - which created none of that variation itself
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: creating none of that variation
+      C:
+        move: nonfinite_only
+        span: having created none of that variation
+      D:
+        move: loose_subordinate
+        span: which created none of that variation
+    ctx: {}
+    why: What follows a semicolon has to stand alone, which takes a subject and a finite verb.
+    trap: A has a participle where the tense should be, which reads like a clause and is not one.
+  - n: 362
+    id: C08-BIO-E02
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: Mendel counted some twenty-eight thousand pea plants across eight seasons in the monastery
+      garden; ___.
+    rule: independent_clause
+    rule_span: nobody read the paper for thirty-five years
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - reading the paper only thirty-five years later
+    - having been read only thirty-five years later
+    - which nobody read for thirty-five years
+    - nobody read the paper for thirty-five years
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: reading the paper only thirty-five
+      B:
+        move: nonfinite_only
+        span: having been read only thirty-five
+      C:
+        move: loose_subordinate
+        span: which nobody read for thirty-five
+    ctx: {}
+    why: A semicolon wants an independent clause on each side of it, so the second half needs a subject
+      and a tensed verb.
+    trap: C has a finite verb and still cannot stand by itself, because which binds it to something
+      earlier.
+  - n: 363
+    id: C08-BIO-E03
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: The inner membrane of a mitochondrion is folded into a surface many times the area of
+      the smooth outer one; ___.
+    rule: finite_main_verb
+    rule_span: the folding is what makes the gradient possible
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the folding is what makes the gradient possible
+    - the folding making the gradient possible
+    - having made the gradient possible by folding
+    - which makes the gradient possible
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: the folding making the gradient
+      C:
+        move: nonfinite_only
+        span: having made the gradient possible
+      D:
+        move: loose_subordinate
+        span: which makes the gradient possible
+    ctx: {}
+    why: A clause after a semicolon needs a finite verb, and only one of these has one with a subject
+      in front of it.
+    trap: B supplies a subject and then a participle, which is the commonest shape a fragment takes.
+  - n: 364
+    id: C08-BIO-E04
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: The wolves came back to the valley in 1995, ___, and the willows along the streams followed
+      within ten years.
+    rule: participle_attached
+    rule_span: changing where the elk were willing to feed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - they changed where the elk were willing to feed
+    - the places where the elk fed were changed
+    - changing where the elk were willing to feed
+    - it changed where the elk were willing to feed
+    key: C
+    faults:
+      A:
+        move: loose_subordinate
+        span: they changed where the elk
+      B:
+        move: missing_subject
+        span: the places where the elk fed
+      D:
+        move: loose_subordinate
+        span: it changed where the elk
+    ctx: {}
+    why: A participial phrase attaches to the clause beside it and takes its subject from there.
+    trap: A is a complete sentence, which cannot be joined to the clause before it by a comma alone.
+  - n: 365
+    id: C08-BIO-E05
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: A population that has already outrun its food does not settle gently at the level the
+      habitat would support; ___.
+    rule: independent_clause
+    rule_span: it overshoots and then crashes below it
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - overshooting and then crashing below it
+    - it overshoots and then crashes below it
+    - having overshot and then crashed below it
+    - which overshoots and then crashes below it
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: overshooting and then crashing
+      C:
+        move: nonfinite_only
+        span: having overshot and then crashed
+      D:
+        move: loose_subordinate
+        span: which overshoots and then crashes
+    ctx: {}
+    why: The second half of a sentence joined by a semicolon has to be an independent clause in its
+      own right.
+    trap: A is two participles joined by and, which is twice as long as the key and half a sentence.
+  - n: 366
+    id: C08-BIO-E06
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: ___, the parish board agreed to take the handle off the pump in Broad Street, and the
+      number of new cases fell within a few days of their doing it.
+    rule: subordinate_attached
+    rule_span: Although nobody yet knew what the organism was
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Although nobody yet knew what the organism was
+    - The organism itself was still entirely unknown
+    - Nobody yet knowing what the organism was
+    - Having no idea what the organism was
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: The organism itself was still
+      C:
+        move: fragment
+        span: Nobody yet knowing what
+      D:
+        move: nonfinite_only
+        span: Having no idea what
+    ctx: {}
+    why: A subordinate clause is what can attach to the main clause the comma introduces, and the
+      concession needs one.
+    trap: B is a complete sentence, so a comma leaves two sentences spliced together.
+  - n: 367
+    id: C08-BIO-E07
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: Industrial fixation made nitrogen cheap enough to spread by the ton on any field at all,
+      and it did so in the decade before the First World War; ___.
+    rule: finite_main_verb
+    rule_span: the guano trade collapsed inside ten years
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - collapsing the guano trade inside ten years
+    - having collapsed the guano trade inside ten years
+    - which collapsed the guano trade inside ten years
+    - the guano trade collapsed inside ten years
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: collapsing the guano trade
+      B:
+        move: nonfinite_only
+        span: having collapsed the guano trade
+      C:
+        move: loose_subordinate
+        span: which collapsed the guano trade
+    ctx: {}
+    why: What follows the semicolon must carry a finite verb, and a participle cannot carry one however
+      much it says.
+    trap: A names the same event in almost the same words and leaves the sentence without a second
+      verb.
+  - n: 368
+    id: C08-BIO-E08
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: The deepest section of the Vostok core was lifted out in pieces that had to be kept colder
+      than the Antarctic air, ___, and the bubbles inside it were eight hundred thousand years old.
+    rule: participle_attached
+    rule_span: each piece numbered as it came off the drill
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - each piece was numbered as it came off the drill
+    - they numbered each piece as it came off the drill
+    - each piece numbered as it came off the drill
+    - it was numbered as each piece came off the drill
+    key: C
+    faults:
+      A:
+        move: loose_subordinate
+        span: each piece was numbered
+      B:
+        move: loose_subordinate
+        span: they numbered each piece
+      D:
+        move: missing_subject
+        span: it was numbered as each
+    ctx: {}
+    why: The phrase between the commas is a participial phrase attached to the clause around it rather
+      than a clause of its own.
+    trap: A differs from the key by one word, and that word turns a phrase into a sentence the comma
+      cannot hold.
+  - n: 369
+    id: C08-BIO-E09
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: ___, the discipline came round to the idea that a single flood had cut the channels,
+      and the man who had argued it for fifty years received the highest medal the field awards.
+    rule: subordinate_attached
+    rule_span: After the ice dam that would have held the water was mapped
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - After the ice dam that would have held the water was mapped
+    - Somebody finally mapped the ice dam that held the water
+    - The ice dam being mapped at last by somebody
+    - Having mapped the ice dam that would have held the water
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: Somebody finally mapped the ice dam
+      C:
+        move: fragment
+        span: The ice dam being mapped at last
+      D:
+        move: nonfinite_only
+        span: Having mapped the ice dam
+    ctx: {}
+    why: The opening element has to be a subordinate clause, which attaches to the main clause after
+      the comma.
+    trap: B is a complete sentence, which makes the comma do work only a semicolon or a conjunction
+      can do.
+  - n: 370
+    id: C08-BIO-E10
+    chapter: 8
+    element: finite
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: A tracer released into the surface water of the North Atlantic in the early 1960s had
+      still not reached the deepest water of the Pacific Ocean when it was looked for again twenty
+      years later; ___.
+    rule: independent_clause
+    rule_span: the circulation therefore takes centuries rather than decades
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - taking centuries rather than decades to circulate
+    - having taken centuries rather than decades
+    - the circulation therefore takes centuries rather than decades
+    - which therefore takes centuries rather than decades
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: taking centuries rather than decades
+      B:
+        move: nonfinite_only
+        span: having taken centuries rather
+      D:
+        move: loose_subordinate
+        span: which therefore takes centuries
+    ctx: {}
+    why: A semicolon joins two independent clauses, so the second half needs its own subject and its
+      own tensed verb.
+    trap: D has a tensed verb and no subject of its own, which is what which always does.
+- domain: PHY
+  partno: 38
+  note_ar: جمل العلوم الفيزيائية تصف الجهاز بعبارات طويلة فيها أسماء الأدوات والوحدات ولا فعل تامّ،
+    فتُقرأ كأنها جملة. والفعل التامّ في هذه الجمل كثيراً ما يكون فعلاً مساعداً واحداً، فإن سقط سقطت
+    الجملة.
+  exercises:
+  - n: 371
+    id: C08-PHY-E01
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: Eleven readings of one quantity scattered over two per cent of the mean; ___.
+    rule: independent_clause
+    rule_span: the scatter was not a mistake
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - scattering without being a mistake
+    - having scattered without any mistake
+    - the scatter was not a mistake
+    - which was not a mistake at all
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: scattering without being a mistake
+      B:
+        move: nonfinite_only
+        span: having scattered without any mistake
+      D:
+        move: loose_subordinate
+        span: which was not a mistake
+    ctx: {}
+    why: A semicolon takes an independent clause on each side, so the second half needs a subject
+      and a tensed verb.
+    trap: D has a tensed verb and no subject, which is what a relative pronoun always leaves behind.
+  - n: 372
+    id: C08-PHY-E02
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: A heavy ball and a light one reach the ground together in a vacuum; ___.
+    rule: finite_main_verb
+    rule_span: the air is what separates them
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the air is what separates them
+    - the air separating them
+    - having been separated by the air
+    - which the air separates
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: the air separating them
+      C:
+        move: nonfinite_only
+        span: having been separated by the air
+      D:
+        move: loose_subordinate
+        span: which the air separates
+    ctx: {}
+    why: The second half needs a finite verb, and only one of these supplies a tensed verb with a
+      subject in front of it.
+    trap: B gives a subject and then a participle, which is the commonest shape a fragment takes in
+      prose like this.
+  - n: 373
+    id: C08-PHY-E03
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: Energy in a wound clock passes from the spring to the gears and from the gears to the
+      bearings; ___.
+    rule: independent_clause
+    rule_span: none of it was destroyed on the way
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - none of it being destroyed on the way
+    - none of it was destroyed on the way
+    - having been destroyed nowhere on the way
+    - which was destroyed nowhere on the way
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: none of it being destroyed
+      C:
+        move: nonfinite_only
+        span: having been destroyed nowhere
+      D:
+        move: loose_subordinate
+        span: which was destroyed nowhere
+    ctx: {}
+    why: What stands on the far side of a semicolon has to be an independent clause.
+    trap: A differs from the key by one word, and that one word is the difference between a phrase
+      and a sentence.
+  - n: 374
+    id: C08-PHY-E04
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: A gas compressed faster than heat can leave the cylinder rises in temperature even though
+      nothing has been added to it; ___.
+    rule: finite_main_verb
+    rule_span: the work done on it became internal energy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the work done on it becoming internal energy
+    - having become internal energy by then
+    - which became internal energy instead
+    - the work done on it became internal energy
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: the work done on it becoming
+      B:
+        move: nonfinite_only
+        span: having become internal energy
+      C:
+        move: loose_subordinate
+        span: which became internal energy
+    ctx: {}
+    why: A clause needs a finite verb, and a participle at the end of a long subject never supplies
+      one.
+    trap: A is longer than the key and still has no tense anywhere in it.
+  - n: 375
+    id: C08-PHY-E05
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: Three lamps wired in parallel across one battery each burn at full brightness, ___, and
+      the failure of one of them leaves the other two alight.
+    rule: participle_attached
+    rule_span: drawing current according to the resistance of each
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - they draw current according to the resistance of each
+    - the current drawn according to the resistance of each
+    - drawing current according to the resistance of each
+    - it draws current according to the resistance of each
+    key: C
+    faults:
+      A:
+        move: loose_subordinate
+        span: they draw current according
+      B:
+        move: missing_subject
+        span: the current drawn according
+      D:
+        move: loose_subordinate
+        span: it draws current according
+    ctx: {}
+    why: The participial phrase here leans on the clause in front of it, which is what supplies the
+      subject it does not state.
+    trap: A is a complete sentence set between commas, which gives the sentence more clauses than
+      its punctuation can hold.
+  - n: 376
+    id: C08-PHY-E06
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: ___, the chemists who had believed that burning destroys matter gave up the idea inside
+      a decade, and the balance became the instrument that settled arguments.
+    rule: subordinate_attached
+    rule_span: Once the sealed vessel had been weighed twice
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Somebody weighed the sealed vessel before and after
+    - Once the sealed vessel had been weighed twice
+    - The sealed vessel being weighed twice over
+    - Having weighed the sealed vessel twice over
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: Somebody weighed the sealed vessel
+      C:
+        move: fragment
+        span: The sealed vessel being weighed
+      D:
+        move: nonfinite_only
+        span: Having weighed the sealed vessel
+    ctx: {}
+    why: The opening element has to be a subordinate clause, which is what attaches to the main clause
+      after the comma.
+    trap: A is a complete sentence, so the comma is left joining two sentences on its own.
+  - n: 377
+    id: C08-PHY-E07
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: A prism bends the short waves more than it bends the long ones and so spreads white light
+      into a band whose order never changes from one prism to the next; ___.
+    rule: independent_clause
+    rule_span: a second prism was able to put the band back together
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - a second prism was able to put the band back together
+    - a second prism putting the band back together
+    - having put the band back together with a second prism
+    - which a second prism put back together
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: a second prism putting the band
+      C:
+        move: nonfinite_only
+        span: having put the band back together
+      D:
+        move: loose_subordinate
+        span: which a second prism put
+    ctx: {}
+    why: A semicolon joins two independent clauses, so what follows it must be able to stand as a
+      sentence.
+    trap: B has a subject and a participle, which is a phrase however much it reads like a clause.
+  - n: 378
+    id: C08-PHY-E08
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: The rare earths were separated from one another only after decades of repeated crystallization,
+      and nobody at the time could say why the elements were so nearly alike; ___.
+    rule: finite_main_verb
+    rule_span: the answer was a shell of electrons that fills inward
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the answer being a shell of electrons that fills inward
+    - having been a shell of electrons filling inward
+    - which was a shell of electrons filling inward
+    - the answer was a shell of electrons that fills inward
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: the answer being a shell
+      B:
+        move: nonfinite_only
+        span: having been a shell of electrons
+      C:
+        move: loose_subordinate
+        span: which was a shell of electrons
+    ctx: {}
+    why: What follows the semicolon needs a finite verb of its own, and being is not one.
+    trap: A is a noun phrase with a relative clause inside it, which supplies a verb to the wrong
+      clause.
+  - n: 379
+    id: C08-PHY-E09
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: A radioactive nucleus has no way of recording how long it has already waited, ___, and
+      the chance that it decays in the next second is the same whether it formed yesterday or a billion
+      years ago.
+    rule: participle_attached
+    rule_span: making the idea of an aging nucleus meaningless
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it makes the idea of an aging nucleus meaningless
+    - making the idea of an aging nucleus meaningless
+    - the idea of an aging nucleus made meaningless
+    - they make the idea of an aging nucleus meaningless
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: it makes the idea
+      C:
+        move: missing_subject
+        span: the idea of an aging nucleus made
+      D:
+        move: loose_subordinate
+        span: they make the idea
+    ctx: {}
+    why: The phrase between the commas is a participial phrase attached to the clause around it, not
+      a clause of its own.
+    trap: A is a complete sentence dropped between commas, which leaves the comma doing a semicolon's
+      work.
+  - n: 380
+    id: C08-PHY-E10
+    chapter: 8
+    element: finite
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: ___, a photographic plate covered in anonymous points of light became a measuring rod
+      that reached out of the galaxy, and the relation that made it possible still carries the name
+      of the woman who found it.
+    rule: subordinate_attached
+    rule_span: After the period of a Cepheid had been tied to its brightness
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Somebody tied the period of a Cepheid to its brightness
+    - The period of a Cepheid being tied to its brightness
+    - Having tied the period of a Cepheid to its brightness
+    - After the period of a Cepheid had been tied to its brightness
+    key: D
+    faults:
+      A:
+        move: loose_subordinate
+        span: Somebody tied the period
+      B:
+        move: fragment
+        span: The period of a Cepheid being tied
+      C:
+        move: nonfinite_only
+        span: Having tied the period
+    ctx: {}
+    why: The opening element is a subordinate clause, which attaches to the main clause and cannot
+      be replaced by a sentence.
+    trap: A is a complete sentence and so leaves two sentences joined by a comma, which is the error
+      the whole chapter is about.
+- domain: HUM
+  partno: 39
+  note_ar: جمل الإنسانيات تطيل في وصف العمل والأسلوب بعبارات اسمية متتابعة، ثمّ تضع الفعل التامّ في
+    آخرها أو تنساه. والجملة الناقصة هنا تبدو أدبية لا خاطئة، وهذا أخفى ما في الباب.
+  exercises:
+  - n: 381
+    id: C08-HUM-E01
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: An unreliable narrator does not lie to the reader outright at any point; ___.
+    rule: finite_main_verb
+    rule_span: he had merely left things out
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - merely leaving things out
+    - having merely left things out
+    - which merely left things out
+    - he had merely left things out
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: merely leaving things out
+      B:
+        move: nonfinite_only
+        span: having merely left things out
+      C:
+        move: loose_subordinate
+        span: which merely left things out
+    ctx: {}
+    why: A clause after a semicolon needs a finite verb with a subject in front of it.
+    trap: A says exactly the right thing and carries no tense, which is the whole difference between
+      a phrase and a clause.
+  - n: 382
+    id: C08-HUM-E02
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: A character's stated reason rarely accounts for everything that she actually goes on
+      to do; ___.
+    rule: independent_clause
+    rule_span: the gap was left for the reader
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the gap being left for the reader
+    - the gap was left for the reader
+    - having been left for the reader
+    - which was left for the reader
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: the gap being left for the reader
+      C:
+        move: nonfinite_only
+        span: having been left for the reader
+      D:
+        move: loose_subordinate
+        span: which was left for the reader
+    ctx: {}
+    why: A semicolon takes an independent clause on each side, so the second half needs a subject
+      and a tense.
+    trap: A differs from the key by a single word and that word is the difference between being and
+      was.
+  - n: 383
+    id: C08-HUM-E03
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: A metaphor used often enough stops being felt as a figure at all and passes into the
+      language as one word; ___.
+    rule: finite_main_verb
+    rule_span: its two halves had been welded together
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - its two halves welding together
+    - having welded its two halves together
+    - its two halves had been welded together
+    - which welded its two halves together
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: its two halves welding together
+      B:
+        move: nonfinite_only
+        span: having welded its two halves
+      D:
+        move: loose_subordinate
+        span: which welded its two halves
+    ctx: {}
+    why: The second half of the sentence needs a finite verb, and only an auxiliary supplies one here.
+    trap: A has a subject and a participle, which reads like a clause and reports no time at all.
+  - n: 384
+    id: C08-HUM-E04
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: ___, the English poets who were translating it changed the rhyme scheme and moved the
+      turn to the ninth line.
+    rule: subordinate_attached
+    rule_span: Because the Italian form did not fit the language
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Because the Italian form did not fit the language
+    - The Italian form was a poor fit for English
+    - The Italian form not fitting the language
+    - Having found the Italian form a poor fit
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: The Italian form was a poor fit
+      C:
+        move: fragment
+        span: The Italian form not fitting
+      D:
+        move: nonfinite_only
+        span: Having found the Italian form
+    ctx: {}
+    why: A subordinate clause attaches to the main clause the comma introduces, and the reason needs
+      one.
+    trap: B is a complete sentence, which leaves two sentences joined by a comma.
+  - n: 385
+    id: C08-HUM-E05
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: The company at the Globe played to an audience standing in daylight on three sides of
+      a thrust stage; ___.
+    rule: independent_clause
+    rule_span: the weather had as much say as the writing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the weather having as much say as the writing
+    - having had as much say as the writing
+    - which had as much say as the writing
+    - the weather had as much say as the writing
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: the weather having as much say
+      B:
+        move: nonfinite_only
+        span: having had as much say
+      C:
+        move: loose_subordinate
+        span: which had as much say
+    ctx: {}
+    why: A semicolon wants an independent clause after it, which takes a subject and a finite verb.
+    trap: A is the key with one word changed, and the changed word is the one that carried the tense.
+  - n: 386
+    id: C08-HUM-E06
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: A detective novel written now cannot avoid commenting on the hundred that came before
+      it, ___, and a reader who knows none of them misses half of what is going on.
+    rule: participle_attached
+    rule_span: borrowing a shape it then declines to fill
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it borrows a shape it then declines to fill
+    - a shape borrowed and then left unfilled
+    - borrowing a shape it then declines to fill
+    - they borrow a shape and then decline to fill it
+    key: C
+    faults:
+      A:
+        move: loose_subordinate
+        span: it borrows a shape
+      B:
+        move: missing_subject
+        span: a shape borrowed and then left
+      D:
+        move: loose_subordinate
+        span: they borrow a shape
+    ctx: {}
+    why: A participial phrase attaches to the clause beside it and takes its subject from that clause.
+    trap: A is a complete sentence between two commas, which asks a comma to do a semicolon's work.
+  - n: 387
+    id: C08-HUM-E07
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: The academy ranked a history painting above a landscape however well the landscape had
+      been made, and the ranking held until the market stopped agreeing with it; ___.
+    rule: finite_main_verb
+    rule_span: the first landscapes shown there were defended as histories
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the first landscapes shown there being defended as histories
+    - the first landscapes shown there were defended as histories
+    - having been defended there as histories
+    - which were defended there as histories
+    key: B
+    faults:
+      A:
+        move: fragment
+        span: the first landscapes shown there being
+      C:
+        move: nonfinite_only
+        span: having been defended there
+      D:
+        move: loose_subordinate
+        span: which were defended there
+    ctx: {}
+    why: What follows the semicolon needs a finite verb, and being cannot be one however long the
+      subject in front of it runs.
+    trap: A is the longest option and the only one of the four with no tense in it at all.
+  - n: 388
+    id: C08-HUM-E08
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: ___, an editor who prepares a performing score has to decide which readings came from
+      the composer and which came from a copyist working against a deadline.
+    rule: subordinate_attached
+    rule_span: Since no two of the surviving copies have ever agreed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Since no two of the surviving copies have ever agreed
+    - No two of the surviving copies agree with one another
+    - No two surviving copies of the parts agreeing
+    - Having found no two copies in agreement
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: No two of the surviving copies agree
+      C:
+        move: fragment
+        span: No two surviving copies of the parts agreeing
+      D:
+        move: nonfinite_only
+        span: Having found no two copies
+    ctx: {}
+    why: The opening element must be a subordinate clause, which is what attaches to the main clause
+      after the comma.
+    trap: B is a complete sentence, so the comma is left splicing two sentences together.
+  - n: 389
+    id: C08-HUM-E09
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: The viaduct along the waterfront was raised a full twenty feet above the shops that lined
+      it so that the traffic could pass without ever stopping, and the traffic found another route
+      inside thirty years; ___.
+    rule: independent_clause
+    rule_span: the city has since spent more on removing it than on building it
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the city having since spent more on removing it than on building it
+    - having spent more since on removing it than on building it
+    - the city has since spent more on removing it than on building it
+    - which has cost more to remove than it cost to build
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: the city having since spent more
+      B:
+        move: nonfinite_only
+        span: having spent more since on removing
+      D:
+        move: loose_subordinate
+        span: which has cost more to remove
+    ctx: {}
+    why: A semicolon joins two independent clauses, so the second half needs a subject and a finite
+      verb of its own.
+    trap: A is longer than the key, says the same thing, and is not a sentence.
+  - n: 390
+    id: C08-HUM-E10
+    chapter: 8
+    element: finite
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: The critics who held that a poem's meaning is settled by the words on the page were arguing
+      against a habit of reading rather than against a theory, ___, and the habit outlived the argument
+      by fifty years.
+    rule: participle_attached
+    rule_span: teaching two generations to read as if the author were unavailable
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - teaching two generations to read as if the author were unavailable
+    - they taught two generations to read as if the author were unavailable
+    - two generations taught to read as if the author were unavailable
+    - it taught two generations to read as if the author were gone
+    key: A
+    faults:
+      B:
+        move: loose_subordinate
+        span: they taught two generations
+      C:
+        move: missing_subject
+        span: two generations taught to read
+      D:
+        move: loose_subordinate
+        span: it taught two generations
+    ctx: {}
+    why: A participial phrase attaches to the clause around it and does not need a subject of its
+      own.
+    trap: B is a complete sentence inserted between commas, which leaves three clauses and two commas
+      to hold them.
+- domain: SOC
+  partno: 40
+  note_ar: 'جمل العلوم الاجتماعية تصف المنهج بعبارات طويلة: عيّنة مختارة بالقرعة، ومقاسة مرّتين، وموزونة
+    بحسب العمر. وهذه كلّها أوصاف لا جمل، فإن لم يأتِ بعدها فعل تامّ بقي الكلام ناقصاً.'
+  exercises:
+  - n: 391
+    id: C08-SOC-E01
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The wording of a survey question changes the answers that it gets back; ___.
+    rule: independent_clause
+    rule_span: the order of the options does too
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the order of the options does too
+    - the order of the options doing the same
+    - having done the same with the order
+    - which the order of the options also does
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: the order of the options doing
+      C:
+        move: nonfinite_only
+        span: having done the same with the order
+      D:
+        move: loose_subordinate
+        span: which the order of the options
+    ctx: {}
+    why: A semicolon takes an independent clause after it, so the second half needs a subject and
+      a tensed verb.
+    trap: B has a subject and a participle, which is the commonest fragment in careful prose.
+  - n: 392
+    id: C08-SOC-E02
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: Random assignment leaves the two arms of a trial alike at the start; ___.
+    rule: finite_main_verb
+    rule_span: no other method had done as much
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - no other method doing as much
+    - having done as much by no other method
+    - no other method had done as much
+    - which no other method had done
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: no other method doing as much
+      B:
+        move: nonfinite_only
+        span: having done as much by no other
+      D:
+        move: loose_subordinate
+        span: which no other method had done
+    ctx: {}
+    why: The second half of the sentence needs a finite verb, and only the auxiliary had supplies
+      one.
+    trap: A reports the same fact and reports no time, which is what makes it a fragment.
+  - n: 393
+    id: C08-SOC-E03
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: Two measurements can rise and fall together for years without either of them causing
+      the other at all; ___.
+    rule: independent_clause
+    rule_span: a third variable had been moving both of them
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - a third variable moving both of them
+    - having moved both of them all along
+    - which had been moving both of them
+    - a third variable had been moving both of them
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: a third variable moving both
+      B:
+        move: nonfinite_only
+        span: having moved both of them
+      C:
+        move: loose_subordinate
+        span: which had been moving both
+    ctx: {}
+    why: A semicolon wants an independent clause on each side of it, which takes a subject and a finite
+      verb.
+    trap: A is a subject followed by a participle, which has the shape of a clause and none of the
+      grammar.
+  - n: 394
+    id: C08-SOC-E04
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: ___, the mean of a distribution sits well above the middle of it, and a report that gives
+      only the mean has said very little.
+    rule: subordinate_attached
+    rule_span: When a few very large values have stretched out the top
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - A few very large values stretch out the top of it
+    - When a few very large values have stretched out the top
+    - A few very large values stretching out the top
+    - Having been stretched out at the top by a few values
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: A few very large values stretch
+      C:
+        move: fragment
+        span: A few very large values stretching
+      D:
+        move: nonfinite_only
+        span: Having been stretched out
+    ctx: {}
+    why: A subordinate clause attaches to the main clause the comma introduces, and the condition
+      needs one.
+    trap: A is a complete sentence, which leaves the comma joining two sentences on its own.
+  - n: 395
+    id: C08-SOC-E05
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: A dollar paid in advance buys a better response rate than five dollars promised on completion
+      of the whole questionnaire; ___.
+    rule: finite_main_verb
+    rule_span: the gesture had mattered more than the money
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the gesture had mattered more than the money
+    - the gesture mattering more than the money
+    - having mattered more than the money did
+    - which had mattered more than the money
+    key: A
+    faults:
+      B:
+        move: fragment
+        span: the gesture mattering more
+      C:
+        move: nonfinite_only
+        span: having mattered more than the money
+      D:
+        move: loose_subordinate
+        span: which had mattered more
+    ctx: {}
+    why: A finite verb is what the second half needs, and the auxiliary had is the only one on offer.
+    trap: B is a subject and a participle, which is a phrase wearing the clothes of a clause.
+  - n: 396
+    id: C08-SOC-E06
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: Seven confederates gave the same wrong answer calmly and in turn before the subject was
+      asked for his own, ___, and about a third of the subjects went along with them.
+    rule: participle_attached
+    rule_span: leaving him nothing to argue with
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it left him nothing to argue with
+    - nothing left for him to argue with
+    - they left him nothing to argue with
+    - leaving him nothing to argue with
+    key: D
+    faults:
+      A:
+        move: loose_subordinate
+        span: it left him nothing
+      B:
+        move: missing_subject
+        span: nothing left for him
+      C:
+        move: loose_subordinate
+        span: they left him nothing
+    ctx: {}
+    why: A participial phrase is attached to the clause it stands beside and takes from that clause
+      the subject it has none of its own.
+    trap: A is a complete sentence placed between commas, which gives the sentence more clauses than
+      it can punctuate.
+  - n: 397
+    id: C08-SOC-E07
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: A neighborhood laid out along a streetcar line kept the shape the line had given it long
+      after the rails had been pulled up and the cars had gone; ___.
+    rule: independent_clause
+    rule_span: the automobile had inherited a street built for something else
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the automobile inheriting a street built for something else
+    - having inherited a street built for something else
+    - the automobile had inherited a street built for something else
+    - which had inherited a street built for something else
+    key: C
+    faults:
+      A:
+        move: fragment
+        span: the automobile inheriting a street
+      B:
+        move: nonfinite_only
+        span: having inherited a street built
+      D:
+        move: loose_subordinate
+        span: which had inherited a street
+    ctx: {}
+    why: A semicolon joins two independent clauses, so the second half must stand as a sentence by
+      itself.
+    trap: A is the key with one word changed, and that word is the one that held the tense.
+  - n: 398
+    id: C08-SOC-E08
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: ___, a figure for unemployment that counts only the people who are still actively looking
+      for work will understate how bad a long recession has been.
+    rule: subordinate_attached
+    rule_span: Because people who give up looking have dropped out of the count
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - People who give up looking drop out of the count altogether
+    - Because people who give up looking have dropped out of the count
+    - People who give up looking dropping out of the count
+    - Having dropped out of the count by giving up
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: People who give up looking drop
+      C:
+        move: fragment
+        span: People who give up looking dropping
+      D:
+        move: nonfinite_only
+        span: Having dropped out of the count
+    ctx: {}
+    why: The opening element has to be a subordinate clause, which is what attaches to the main clause
+      the comma introduces.
+    trap: A is a complete sentence, and two complete sentences cannot be joined by a comma.
+  - n: 399
+    id: C08-SOC-E09
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: The share of income going to the richest households can be computed from tax returns
+      in some countries and only from household surveys in others, and the two sources disagree most
+      about exactly the households the measure is for; ___.
+    rule: finite_main_verb
+    rule_span: the choice of source had decided the answer in advance
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the choice of source deciding the answer in advance
+    - having decided the answer in advance by the choice of source
+    - which had decided the answer in advance
+    - the choice of source had decided the answer in advance
+    key: D
+    faults:
+      A:
+        move: fragment
+        span: the choice of source deciding
+      B:
+        move: nonfinite_only
+        span: having decided the answer in advance by
+      C:
+        move: loose_subordinate
+        span: which had decided the answer
+    ctx: {}
+    why: What follows the semicolon needs a finite verb, and a participle at the end of a long subject
+      never provides one.
+    trap: A is the longest of the four and the only one with nothing in it that carries a tense.
+  - n: 400
+    id: C08-SOC-E10
+    chapter: 8
+    element: finite
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: People asked how likely a rare event is do not consult any count of how often it has
+      happened but ask instead how easily an example comes to mind, ___, and the answer therefore
+      follows last week's newspapers rather than the record of the last century.
+    rule: participle_attached
+    rule_span: substituting a question they can answer for one they cannot
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - they substitute a question they can answer for one they cannot
+    - substituting a question they can answer for one they cannot
+    - a question they can answer substituted for one they cannot
+    - it substitutes a question they can answer for one they cannot
+    key: B
+    faults:
+      A:
+        move: loose_subordinate
+        span: they substitute a question
+      C:
+        move: missing_subject
+        span: a question they can answer substituted
+      D:
+        move: loose_subordinate
+        span: it substitutes a question
+    ctx: {}
+    why: A participial phrase attaches to the clause around it and takes its subject from there.
+    trap: A is a complete sentence inserted between commas, which leaves the comma doing work only
+      a semicolon can do.
