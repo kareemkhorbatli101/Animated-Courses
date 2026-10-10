@@ -1437,7 +1437,8 @@ SETS.append(dict(
              key='B', moves={'A': 'comma_splice', 'C': 'run_on', 'D': 'misplaced'},
              why='The clause about the rock surface deepening inland is a complete sentence, so a '
                  'period separates it from the clause about the sea bed deciding the outcome.',
-             trap='A splices the two complete sentences together with a comma.'),
+             trap='A splices the clause about the deepening rock onto the clause about the sea '
+                  'bed with a comma.'),
         dict(goal='explain why a current only two degrees above freezing matters',
              notes=['Water is a far better carrier of heat than air.',
                     'Melting ice absorbs a great deal of energy without changing temperature, a '

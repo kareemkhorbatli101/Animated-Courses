@@ -2088,7 +2088,7 @@ sets:
       D: misplaced
     why: The clause about the rock surface deepening inland is a complete sentence, so a period separates
       it from the clause about the sea bed deciding the outcome.
-    trap: A splices the two complete sentences together with a comma.
+    trap: A splices the clause about the deepening rock onto the clause about the sea bed with a comma.
   - slot: 10
     type: synthesis
     difficulty: hard
