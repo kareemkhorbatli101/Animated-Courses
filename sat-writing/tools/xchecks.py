@@ -79,6 +79,14 @@ def ctx_of(x):
     return c
 
 
+def filled(x):
+    """The carrier with the key in its blank: the sentence the student reads."""
+    if x['chapter'] not in CARRIER_CHAPTERS:
+        return stim(x)
+    return xemit.filled(x.get('carrier') or '',
+                        x['options'][LABELS.index(x['key'])] if x['key'] in LABELS else '')
+
+
 def stim(x):
     """Everything the student reads before the stem, as one string."""
     if x['chapter'] in CARRIER_CHAPTERS:
@@ -138,10 +146,11 @@ def x3_stimulus(x):
         n = cr.count(BLANK)
         if n != 1:
             bad.append('%d blanks, wants one' % n)
-        w = len(wlex.words(cr))
+        w = len(wlex.words(filled(x)))
         lo, hi = SPEC['carrier_words'][x['level']]
         if not lo <= w <= hi:
-            bad.append('carrier %d words, level %d band %d-%d' % (w, x['level'], lo, hi))
+            bad.append('filled carrier %d words, level %d band %d-%d'
+                       % (w, x['level'], lo, hi))
     elif ch == 14:
         k = len(x.get('notes') or [])
         if not R['notes_min'] <= k <= R['notes_max']:
@@ -228,6 +237,7 @@ def x7_uniqueness(x):
             bad.append('fault on %r' % L)
             continue
         o = x['options'][LABELS.index(L)]
+        ctx['option'] = o
         sp = v['span']
         spans.append(sp)
         if not xemit.token_run_in(sp, o):
@@ -239,7 +249,10 @@ def x7_uniqueness(x):
         if got is False:
             bad.append('%s predicate %s silent on %r' % (L, v['move'], sp))
         if v['move'] in wlex.PREDICATES:
-            if wlex.predict(v['move'], x['rule_span'], ctx) is True:
+            ctx['option'] = keyopt
+            fires = wlex.predict(v['move'], x['rule_span'], ctx) is True
+            ctx['option'] = o
+            if fires:
                 bad.append('%s predicate %s also fires on the key' % (L, v['move']))
             need = wlex.PREDICATES[v['move']][0]
             if need == 'number' and ctx.get('number') not in ('sing', 'plur'):
@@ -555,13 +568,17 @@ def book_checks(chapters, xs, xres):
              != len(x.get('faults') or {})]
     ck('F3 the three fault spans of an exercise are distinct', not dupsp,
        '%d repeat' % len(dupsp))
-    silent = [(x['id'], v['move']) for x, _, v in allf
-              if wlex.predict(v['move'], v['span'], ctx_of(x)) is False]
+    def pctx(x, L):
+        c = ctx_of(x)
+        c['option'] = x['options'][LABELS.index(L)]
+        return c
+    silent = [(x['id'], v['move']) for x, L, v in allf
+              if wlex.predict(v['move'], v['span'], pctx(x, L)) is False]
     ck('F4 every predicate that exists fires on the distractor it is given',
        not silent, '%d silent: %s' % (len(silent), silent[:4]))
     onkey = [(x['id'], v['move']) for x, _, v in allf
              if v['move'] in wlex.PREDICATES
-             and wlex.predict(v['move'], x['rule_span'], ctx_of(x)) is True]
+             and wlex.predict(v['move'], x['rule_span'], pctx(x, x['key'])) is True]
     ck('F5 no predicate fires on any of the seven hundred and fifty keys',
        not onkey, '%d fire on a key: %s' % (len(onkey), onkey[:4]))
     ck('F6 four distinct options in every exercise',
@@ -609,10 +626,10 @@ def book_checks(chapters, xs, xres):
     ck('G2 no carrier reproduces a sentence of Book 2', not lifted, '%d lifted' % len(lifted))
     means = {}
     for lv in (1, 2, 3, 4):
-        g = [len(wlex.words(x['carrier'])) for x in xs
+        g = [len(wlex.words(filled(x))) for x in xs
              if x['level'] == lv and x['chapter'] in CARRIER_CHAPTERS]
         means[lv] = sum(g) / len(g) if g else 0
-    ck('G3 mean carrier length rises strictly with level',
+    ck('G3 mean filled-carrier length rises strictly with level',
        all(means[i] < means[i + 1] for i in (1, 2, 3)),
        ' '.join('L%d:%.1f' % (k, v) for k, v in means.items()))
     strands = set(x['strand'] for x in xs)
@@ -643,9 +660,10 @@ def book_checks(chapters, xs, xres):
     ck('G9 notes and tables inside their declared shapes', not shape, '%d bad' % len(shape))
     oob = [x['id'] for x in xs if x['chapter'] in CARRIER_CHAPTERS
            and not SPEC['carrier_words'][x['level']][0]
-           <= len(wlex.words(x['carrier']))
+           <= len(wlex.words(filled(x)))
            <= SPEC['carrier_words'][x['level']][1]]
-    ck('G10 every carrier inside its level word band', not oob, '%d out of band' % len(oob))
+    ck('G10 every filled carrier inside its level word band', not oob,
+       '%d out of band' % len(oob))
 
     # --- H. language ------------------------------------------------------
     def alltext(x):

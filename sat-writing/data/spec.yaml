@@ -43,12 +43,15 @@ diff_by_pos:
   10: hard
 level_names: {1: Foundation, 2: Developing, 3: Target, 4: Stretch}
 
-# Carrier length in words, by level. Checked per exercise and in aggregate.
+# Length in words of the carrier WITH THE KEY IN THE BLANK, by level: the sentence
+# the student actually reads. Measuring the bare carrier understated every exercise
+# and badly understated the list and boundaries chapters, where most of the sentence
+# sits in the options. Checked per exercise and in aggregate. See PLAN.md section 14.
 carrier_words:
-  1: [12, 22]
-  2: [18, 30]
-  3: [25, 40]
-  4: [32, 55]
+  1: [12, 28]
+  2: [18, 38]
+  3: [24, 46]
+  4: [30, 62]
 # Words between the governing word and the blank, by level.
 span_gap:
   1: [0, 3]

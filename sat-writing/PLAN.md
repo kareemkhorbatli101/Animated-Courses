@@ -506,3 +506,33 @@ auxiliary of a verb phrase, so a verb standing after *to*, *having*, *been* or
 as a finite past tense and the fragment detector would have passed every fragment
 in chapter 8. This is the single most important line in the predicate library and
 the reason the library has a test suite at all.
+
+**9. `overpunctuated` could not see a mark outside its quoted span.** Chapter 11
+broke it. A list whose only fault is a stray semicolon four words before the
+blank's end has a two-word span — the words the fault sits between — and the mark
+itself fell outside it. The predicate now weighs the whole option, which
+`ctx['option']` carries in, while the span stays what it has always been: the words
+the student must look at. The same threading lets the key-silence tests put the key
+option back before they run, so the predicate is asked about the key's own text
+rather than the distractor's.
+
+**10. `wrong_mark` needed two modes, not one.** Where the span opens with a mark,
+that mark is the junction between the two halves of the sentence and is the whole
+question: a semicolon offered where a colon belongs. Where the span opens with a
+word, the junction is not in play and the marks *inside* the span are the ones in
+question: a list whose internal separators are wrong. One rule could not state
+both, and the single-mode version reported a fault on correct items of the other
+kind. `ends()` now distinguishes them.
+
+**11. The length band measured the wrong sentence.** It counted the bare carrier,
+so a thirty-word list sentence counted as nine words: in the list and boundaries
+chapters most of the text sits in the options rather than in the carrier, and
+nothing was measuring it. The band now measures the carrier with the key in the
+blank — the sentence the student actually reads. Doing so moved every exercise in
+the book up by the length of its key, which put 46 correctly written exercises
+outside bands calibrated against the old measurement. The bands were the thing that
+was wrong, not the exercises, so the bands were rewidened against the measured
+distribution (level 1 ranges 13 to 27 words, level 4 ranges 35 to 60) and the
+ladder claim now rests where it belongs, on G3's strictly rising means rather than
+on four non-overlapping boxes. Levels differ in how much text they present on
+average; they were never going to differ in it absolutely.

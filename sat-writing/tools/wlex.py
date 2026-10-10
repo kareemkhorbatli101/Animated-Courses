@@ -605,20 +605,41 @@ def colon_after_fragment(span, ctx):
 
 
 def overpunctuated(span, ctx):
-    """More marks than the construction takes."""
+    """More marks than the construction takes.
+
+    This one counts the WHOLE option rather than the quoted span, because a mark
+    too many is a property of the option: a list whose only fault is a trailing
+    semicolon has a span of two words and a fault four words earlier. The caller
+    supplies the option as ctx['option'].
+    """
     want = ctx.get('marks_expected')
     if want is None:
         return None
-    m = marks(span)
+    m = marks(ctx.get('option') or span)
     got = m['comma'] + m['semi'] + m['colon'] + m['dash']
     return got > want
 
 
 def wrong_mark(span, ctx):
-    """A mark of the wrong kind in a place that admits only one kind."""
+    """A mark of the wrong kind in a place that admits only one kind.
+
+    Where the span opens with a mark, that mark is the junction and is what the
+    check is about -- a semicolon offered where a colon belongs. Where the span
+    opens with a word, the marks inside it are the ones in question, which is the
+    case for a list whose internal separators are wrong.
+
+    An empty mark_ok says that no mark belongs at the junction at all, which is
+    the no_mark_needed item: a span opening with a word complies, and the commas
+    inside a list are not what that item asks about.
+    """
     ok = ctx.get('mark_ok')
     if ok is None:
         return None
+    a, _ = ends(span)
+    if a is not None:
+        return a not in ok
+    if not ok:
+        return False
     m = marks(span)
     present = {k for k in ('comma', 'semi', 'colon', 'dash', 'period') if m[k]}
     if not present:
@@ -887,6 +908,12 @@ def _tests():
        'a colon after a clause')
     eq(wrong_mark(';', dict(mark_ok=['comma'])), True, 'a semicolon where only a comma serves')
     eq(wrong_mark(',', dict(mark_ok=['comma'])), False, 'the mark the construction takes')
+    eq(wrong_mark('lives; fortunes and honor', dict(mark_ok=['comma'])), True,
+       'a semicolon inside a plain list')
+    eq(wrong_mark('the codes, the advertisements and the Declaration', dict(mark_ok=[])),
+       False, 'a bare junction is what no_mark_needed asks for')
+    eq(wrong_mark('; the codes, the advertisements', dict(mark_ok=[])), True,
+       'any mark at a junction that takes none')
     eq(overpunctuated(', and,', dict(marks_expected=1)), True, 'two marks where one is due')
 
     # parallelism

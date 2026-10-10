@@ -162,6 +162,17 @@ def option_shape(opts):
     return None
 
 
+def filled(carrier, key_option):
+    """The carrier with the key put into the blank: what the student reads.
+
+    The length band is a claim about how much text an exercise presents, and in
+    the list and boundaries chapters most of that text sits in the options rather
+    than in the carrier. Measuring the carrier alone made a thirty-word sentence
+    count as nine. See PLAN.md section 14.
+    """
+    return _b((carrier or '').replace(BLANK, ' %s ' % (key_option or '')))
+
+
 def emit(chapter, ar, parts, path=None):
     c = CH[chapter]
     out = collections.OrderedDict()
@@ -325,6 +336,7 @@ def _diagnose(row, c, chapter):
     ctx['key_option'] = keyopt
     for L, f in row['faults'].items():
         o = opts[LABELS.index(L)]
+        ctx['option'] = o
         if not token_run_in(f['span'], o):
             m.append('FIX   %s %s span %r is not a token run of %r' % (i, L, f['span'], o))
         # The span must be absent from the key only where the span is the ONLY
@@ -342,7 +354,9 @@ def _diagnose(row, c, chapter):
             m.append('FIX   %s %s predicate for %s does not fire on %r'
                      % (i, L, f['move'], f['span']))
         if f['move'] in wlex.PREDICATES:
+            ctx['option'] = keyopt
             kv = wlex.predict(f['move'], row['rule_span'], ctx)
+            ctx['option'] = o
             if kv is True:
                 m.append('FIX   %s %s predicate for %s also fires on the key span %r'
                          % (i, L, f['move'], row['rule_span']))
@@ -369,10 +383,10 @@ def _diagnose(row, c, chapter):
         if cr.count(BLANK) != 1:
             m.append('FIX   %s carrier holds %d blanks, wants exactly one'
                      % (i, cr.count(BLANK)))
-        n = len(wlex.words(cr))
+        n = len(wlex.words(filled(cr, keyopt)))
         lo, hi = SPEC['carrier_words'][row['level']]
         if not lo <= n <= hi:
-            m.append('FIX   %s carrier %d words, level %d band is %d to %d'
+            m.append('FIX   %s filled carrier %d words, level %d band is %d to %d'
                      % (i, n, row['level'], lo, hi))
     elif chapter == 14:
         k = len(row['notes'])
