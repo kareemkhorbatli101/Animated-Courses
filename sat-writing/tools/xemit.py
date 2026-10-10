@@ -278,7 +278,11 @@ def emit(chapter, ar, parts, path=None):
             msgs.append('FIX   C%02d %s arabic note does not name its domain'
                         % (chapter, p['domain']))
 
-    path = path or os.path.join(ROOT, 'data', 'exercises', 'C%02d.yaml' % chapter)
+    # XEMIT_OUT lets tools/xdrift.py re-emit every chapter into a scratch directory
+    # and diff it against the committed files without touching them.
+    path = path or os.path.join(os.environ.get('XEMIT_OUT')
+                                or os.path.join(ROOT, 'data', 'exercises'),
+                                'C%02d.yaml' % chapter)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     yaml.add_representer(
         collections.OrderedDict,

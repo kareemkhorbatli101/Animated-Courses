@@ -47,6 +47,7 @@ cancelling modelling labelled labelling signalling programme programmes
 catalogue catalogues dialogue sceptical sceptic enquire enquiry
 aluminium sulphur sulphate sulphuric judgement acknowledgement""".split())
 SECOND_PERSON = re.compile(r'\b(you|your|yours|yourself|yourselves)\b', re.I)
+DOUBLED = re.compile(r'\b(\w+)\s+\1\b', re.I)
 CONTRACTION = re.compile(r"\b\w+'(t|re|ve|ll|m)\b|\b(it|that|there|who|what|let|he|she|here)'s\b",
                          re.I)
 
@@ -688,7 +689,32 @@ def book_checks(chapters, xs, xres):
         return ' '.join([stim(x), x['stem'], x['why'], x['trap']] + x['options'])
     brit = sorted({w.lower() for x in xs for w in wlex.words(alltext(x))
                    if w.lower() in BRITISH})
-    ck('H1 no British spellings anywhere', not brit, ' '.join(brit[:10]))
+    # A word typed twice belongs here too. "lying in plain sight sight the whole
+    # time" survived every one of the other hundred and nineteen checks and was
+    # caught by reading the rendered page, which is the one method that does not
+    # scale. Doubling is the kind of fault a machine should be catching, and the
+    # four words that legitimately repeat in English prose -- "that that", "had
+    # had" and the like -- are named rather than guessed at.
+    # Measured piece by piece, never on the pieces joined: four option sets of one
+    # verb in four inflections put "argued" next to "argued" across the join, and
+    # a check that reads the join reports a typo in correct content.
+    ok2 = {'that', 'had', 'and', 'in', 'very', 'no', 'did'}
+    def pieces(x):
+        out = [x['stem'], x['why'], x['trap']] + list(x['options'])
+        out += list(x.get('notes') or [])
+        for k in ('carrier', 'goal', 'claim'):
+            if x.get(k):
+                out.append(x[k])
+        if x.get('table'):
+            t = x['table']
+            out += [t['title']] + list(t['cols']) + [c for r in t['rows'] for c in r]
+        return out
+    dbl = sorted({'%s %s' % (x['id'], m.group(0))
+                  for x in xs for piece in pieces(x)
+                  for m in DOUBLED.finditer(piece)
+                  if m.group(1).lower() not in ok2})
+    ck('H1 no British spellings and no word typed twice', not brit and not dbl,
+       ' '.join(brit[:6] + dbl[:6]))
     sp = [x['id'] for x in xs if SECOND_PERSON.search(alltext(x))]
     ck('H2 no second person anywhere', not sp, '%d exercises' % len(sp))
     con = [x['id'] for x in xs

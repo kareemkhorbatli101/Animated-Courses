@@ -21,7 +21,6 @@ distractors, uniqueness of correctness, and mechanics. Run them with
 - `part_heads`: 75
 - `split`: 0
 
-
 ## A — completeness
 
 - ok A1 fifteen chapters present  15 chapters
@@ -115,7 +114,7 @@ distractors, uniqueness of correctness, and mechanics. Run them with
 
 ## H — the language
 
-- ok H1 no British spellings anywhere  
+- ok H1 no British spellings and no word typed twice  
 - ok H2 no second person anywhere  0 exercises
 - ok H3 no contractions in stem, explanation or trap  0 exercises
 - ok H4 every stem is the form its element prescribes  0 bad

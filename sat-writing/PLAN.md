@@ -586,3 +586,27 @@ the blank to the stem -- a claim carries exactly one blank when its stem is the
 completing form and none otherwise -- which is a narrower claim than the old one
 and catches more: it would now fail an exercise that offers a blank with the wrong
 stem, or a stem that asks for a completion and gives nothing to complete.
+
+**16. A word typed twice passed all hundred and twenty checks.** "Boulders the size
+of small houses that the water had rolled were lying in plain sight sight the whole
+time" is in chapter 9, and it was found by reading the rendered page, which is the
+one method that does not scale to 750 exercises. Doubling is exactly the kind of
+fault a machine should catch, so H1 now claims no British spellings *and* no word
+typed twice. Two things had to be got right for the check to be worth having. It
+measures each piece of an exercise separately, never the pieces joined: a chapter 2
+option set is one verb in four inflections, and joining the options puts *argued*
+next to *argued* in correct content. And the handful of words that legitimately
+double in English prose -- *that that*, *had had* -- are named rather than guessed.
+
+**17. The numerals of chapter 15 are audited, not trusted.** A quantitative option
+can be perfect English, name the right rows and still give a figure the table does
+not support, and no grammatical predicate can see it. `tools/xnum.py` lists every
+numeral in every option that appears neither in its own table nor in its claim: on
+the finished chapter it flags fifteen options, and all fifteen were checked by hand.
+Thirteen are derived and correct -- 1,699 minus 30 is the 1,669,000 Chicago gained,
+87 plus 14 is the 101 votes of the free states, 54.5 thousand is 54,500 dollars, 108
+plus 4 is the 112 poems of the 1591 collection -- one is the arithmetic of a
+*misread_row* distractor, which is right for the wrong pair of rows and so is doing
+its job, and one is the figure an *imported* distractor brings in from outside the
+table on purpose. The tool cannot be a pass-or-fail check, because a derived figure
+is the point of the chapter; it is a list to be read, and it was read.

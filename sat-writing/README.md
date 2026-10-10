@@ -85,6 +85,8 @@ python3 tools/wlex.py              # 136 self-tests of the predicate library
 python3 tools/xchecks.py           # 6,000 per-exercise + 120 book-level checks
 python3 tools/xchecks.py -v        # every line
 python3 tools/xbal.py              # the balances that only fail at book scale
+python3 tools/xdrift.py            # re-emit all 15 chapters and diff against data/
+python3 tools/xnum.py              # audit every numeral in chapter 15 against its table
 python3 tools/xbuild.py            # the .docx, the .pdf and build/doc-stats.json
 ```
 

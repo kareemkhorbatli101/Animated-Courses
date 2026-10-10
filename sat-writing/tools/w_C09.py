@@ -286,7 +286,7 @@ BIO = dict(domain='BIO', note_ar=(
          carrier="The channels that water cut across eastern Washington were read for fifty "
                  "years as the work of a slow river over millions of years ___ boulders the "
                  "size of small houses that the water had rolled were lying in plain sight "
-                 "sight the whole time, and nobody wanted to say what could have moved "
+                 "the whole time, and nobody wanted to say what could have moved "
                  "them.",
          rule='semicolon_boundary', rule_span='; the boulders',
          opts=[', the boulders', '; the boulders', 'the boulders', ': the boulders'],
