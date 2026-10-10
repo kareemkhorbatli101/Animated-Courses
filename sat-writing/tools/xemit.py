@@ -87,7 +87,18 @@ def token_run_in(span, text):
     a, b = tokens(span), tokens(text)
     if not a:
         return False
-    return any(b[i:i + len(a)] == a for i in range(len(b) - len(a) + 1))
+    n = len(a)
+    for i in range(len(b) - n + 1):
+        if b[i:i + n - 1] != a[:n - 1]:
+            continue
+        last = b[i + n - 1]
+        # A quoted span may stop where the option happens to put a comma. The
+        # punctuation is not part of what the span claims, so the final token
+        # matches with or without it. Only the LAST token is treated this way,
+        # which keeps the punctuation spans of the boundaries chapters exact.
+        if last == a[-1] or last.rstrip(',;:.') == a[-1]:
+            return True
+    return False
 
 
 # Auxiliaries and the infinitive marker. Two options differing only by these are
