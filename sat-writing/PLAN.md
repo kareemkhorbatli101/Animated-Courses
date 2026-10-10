@@ -536,3 +536,19 @@ distribution (level 1 ranges 13 to 27 words, level 4 ranges 35 to 60) and the
 ladder claim now rests where it belongs, on G3's strictly rising means rather than
 on four non-overlapping boxes. Levels differ in how much text they present on
 average; they were never going to differ in it absolutely.
+
+**12. Two moves left the undetectable list.** `restrictive_shift` and
+`wrong_relativizer` were declared undetectable when the plan was written, which
+would have left chapter 12 with a third of its distractors judged by the span rule
+alone -- and the span rule cannot judge them, because a restrictive_shift distractor
+is the key with its commas taken off and so is a token run of the key. Both turn out
+to be detectable from the span and one statement of context. `restrictive_shift`
+reads the two ends of the span against `ctx['enclosed']`, the author's statement of
+whether the sentence requires the modifier to be fenced; it says nothing about the
+one-comma case, which belongs to `unpaired`, so the two moves are disjoint rather
+than overlapping. `wrong_relativizer` asserts only the three faults that follow from
+`ctx['antecedent']`: *who* or *whom* for a thing, *which* for a person, and *that*
+heading a clause shut in commas. It stays silent on *that* against *which* in a
+restrictive clause and on *whose* for an inanimate possessor, which are house style
+and accepted usage, not errors. Twenty-two moves are still declared undetectable,
+and the declaration is now a shorter and more honest list.

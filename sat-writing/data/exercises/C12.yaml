@@ -1,0 +1,1966 @@
+# Chapter 12 - Restrictive and nonrestrictive elements. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 12
+element: restrictive
+title: Restrictive and nonrestrictive elements
+home: BIO
+summary_ar:
+  qaida: 'الوصف المحدِّد وغير المحدِّد: إذا كان الوصف هو الذي يعيّن المقصود فلا فواصل حوله، وإذا كان
+    المقصود معيّناً من قبل فالوصف زيادة بيان يُحاط بفاصلتين. والمعيار واحد: احذف الوصف واقرأ الجملة،
+    فإن بقيت تدلّ على الشيء نفسه فالوصف غير محدِّد.'
+  kayf: 'يعرض اختبار سات الوصف ويحذف فواصله، فتكون الخيارات أربعة: بلا فاصلة، وبفاصلة واحدة، وبفاصلتين،
+    وبضمير وصل غير مطابق. والسؤال الذي يحسم الأمر: هل سُمّي الشيء قبل الوصف؟ فإن كان اسماً علماً أو
+    وُصف بأنه الوحيد فالفاصلتان لازمتان.'
+  fakh: الفخّ الأوّل الفاصلة الواحدة، فهي تفتح ولا تغلق، والعين لا تلحظها. والفخّ الثاني أن الفاصلتين
+    تبدوان أدباً في الكتابة فتُوضعان حيث لا موضع لهما، فيصير المعنى أن كلّ الأشياء كذلك لا واحداً
+    منها.
+  sila: 'هذا الباب من أكثر أبواب الترقيم دوراناً في اختبار سات، وهو امتداد لفصل العبارات المعترضة،
+    إلّا أن الحكم فيه معنويّ لا شكليّ: الفاصلتان تغيّران ما تدلّ عليه الجملة لا شكلها وحده.'
+parts:
+- domain: HIS
+  partno: 56
+  note_ar: في التاريخ والنظام المدني يأتي الوصف على المواد والقوانين والأشخاص، وكثيراً ما يكون الشيء
+    مسمّى باسمه العلم كأن يقال مواد الكونفدرالية، فيكون الوصف بعده زيادة بيان محاطة بفاصلتين لا تحديداً.
+  exercises:
+  - n: 551
+    id: C12-HIS-E01
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: The clause ___ gave Congress its power over the territories.
+    rule: restrictive_no_comma
+    rule_span: that the convention argued over longest
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that the convention argued over longest
+    - ', which the convention argued over longest,'
+    - ', which the convention argued over longest'
+    - who the convention argued over longest
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which the convention argued over longest,'
+      C:
+        move: unpaired
+        span: ', which the convention argued over longest'
+      D:
+        move: wrong_relativizer
+        span: who the convention argued over longest
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: Which clause is meant has not been said, so the modifier is essential to the sentence and
+      takes no commas at all.
+    trap: B shuts the modifier in commas, which claims the clause has already been named and leaves
+      the reader asking which one.
+  - n: 552
+    id: C12-HIS-E02
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: The Northwest Ordinance ___ set the pattern for every territory admitted after it.
+    rule: nonrestrictive_commas
+    rule_span: ', passed under the Articles of Confederation,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - passed under the Articles of Confederation
+    - ', passed under the Articles of Confederation'
+    - ', passed under the Articles of Confederation,'
+    - ', passed, under the Articles of Confederation,'
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: passed under the Articles of Confederation
+      B:
+        move: unpaired
+        span: ', passed under the Articles of Confederation'
+      D:
+        move: overpunctuated
+        span: ', passed, under the Articles of Confederation,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The ordinance is named, so the phrase that follows is nonessential and is shut in a comma
+      at each end.
+    trap: A drops both commas, which turns the phrase into the words that say which ordinance is meant.
+  - n: 553
+    id: C12-HIS-E03
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The only part of the Compromise of 1850 ___ was the fugitive slave provision.
+    rule: restrictive_no_comma
+    rule_span: that the South insisted on in writing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which the South insisted on in writing,'
+    - that the South insisted on in writing,
+    - who the South insisted on in writing
+    - that the South insisted on in writing
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which the South insisted on in writing,'
+      B:
+        move: unpaired
+        span: that the South insisted on in writing,
+      C:
+        move: wrong_relativizer
+        span: who the South insisted on in writing
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'The modifier is essential: it is the one thing that picks out which part of the Compromise
+      the sentence means.'
+    trap: A encloses the modifier in commas, which would have the sentence say that every part was
+      insisted on in writing.
+  - n: 554
+    id: C12-HIS-E04
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: The Freedmen's Bureau ___ was shut down by Congress after seven years.
+    rule: nonrestrictive_commas
+    rule_span: ', created in the last month of the war,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - created in the last month of the war
+    - ', created in the last month of the war,'
+    - ', created in the last month of the war'
+    - ', created, in the last month of the war,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: created in the last month of the war
+      C:
+        move: unpaired
+        span: ', created in the last month of the war'
+      D:
+        move: overpunctuated
+        span: ', created, in the last month of the war,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: There was only one Freedmen's Bureau, so the phrase is nonessential and needs a comma on
+      both sides of it.
+    trap: C opens the phrase with a comma and closes it with none, so the reader waits for the sentence
+      to resume and it never does.
+  - n: 555
+    id: C12-HIS-E05
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: Lincoln's message to Congress mentions the general ___ by his title and not by his name.
+    rule: restrictive_name
+    rule_span: who had refused to move in the spring
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had refused to move in the spring
+    - ', who had refused to move in the spring,'
+    - ', who had refused to move in the spring'
+    - which had refused to move in the spring
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', who had refused to move in the spring,'
+      C:
+        move: unpaired
+        span: ', who had refused to move in the spring'
+      D:
+        move: wrong_relativizer
+        span: which had refused to move in the spring
+    ctx:
+      antecedent: person
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The sentence has not said which general, so the clause is doing the work of saying which
+      one and cannot take commas.
+    trap: D uses which for a person, a fault no arrangement of commas can repair.
+  - n: 556
+    id: C12-HIS-E06
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: Thaddeus Stevens ___ held the Reconstruction committee together for four years by nothing
+      more than force of temper.
+    rule: nonrestrictive_name
+    rule_span: ', who was already old and ill by 1865,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who was already old and ill by 1865
+    - ', who was already old and ill by 1865'
+    - ', who was already old, and ill, by 1865,'
+    - ', who was already old and ill by 1865,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: who was already old and ill by 1865
+      B:
+        move: unpaired
+        span: ', who was already old and ill by 1865'
+      C:
+        move: overpunctuated
+        span: ', who was already old, and ill, by 1865,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Stevens is already identified by his name, so the clause about him is set off by a comma
+      at each end.
+    trap: A leaves the commas off, which makes the sentence mean whichever Stevens was old and ill
+      by that year.
+  - n: 557
+    id: C12-HIS-E07
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: Of the thirteen states only the two ___ sent no delegates at all to the Annapolis meeting
+      of 1786.
+    rule: restrictive_no_comma
+    rule_span: that had already settled their western claims
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which had already settled their western claims,'
+    - who had already settled their western claims
+    - that had already settled their western claims
+    - that had already settled their western claims,
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which had already settled their western claims,'
+      B:
+        move: wrong_relativizer
+        span: who had already settled their western claims
+      D:
+        move: unpaired
+        span: that had already settled their western claims,
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The modifier is essential, because without it the sentence names two states and gives the
+      reader no way to tell which two.
+    trap: A adds the commas, which would say that all thirteen had settled their claims and that two
+      of them happened to stay away.
+  - n: 558
+    id: C12-HIS-E08
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: The Articles of Confederation ___ left the national government with no power to tax and
+      no way of making a state pay.
+    rule: nonrestrictive_commas
+    rule_span: ', which no state had wanted to amend in 1781,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which no state had wanted to amend in 1781
+    - ', which no state had wanted to amend in 1781,'
+    - ', which no state, had wanted to amend, in 1781,'
+    - which no state had wanted to amend in 1781,
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: which no state had wanted to amend in 1781
+      C:
+        move: overpunctuated
+        span: ', which no state, had wanted to amend, in 1781,'
+      D:
+        move: unpaired
+        span: which no state had wanted to amend in 1781,
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Only one document bears that name, so the clause adds nonessential information and has to
+      be enclosed in commas.
+    trap: D closes the clause with a comma but opens it with none, so the sentence loses its left-hand
+      boundary altogether.
+  - n: 559
+    id: C12-HIS-E09
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: The one clause of the Fourteenth Amendment ___ has been argued in the Supreme Court more
+      often than the rest of the amendment together.
+    rule: restrictive_name
+    rule_span: that says no state shall deny equal protection
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which says no state shall deny equal protection,'
+    - ', which says no state shall deny equal protection'
+    - who says no state shall deny equal protection
+    - that says no state shall deny equal protection
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which says no state shall deny equal protection,'
+      B:
+        move: unpaired
+        span: ', which says no state shall deny equal protection'
+      C:
+        move: wrong_relativizer
+        span: who says no state shall deny equal protection
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The modifier says which one of the clauses is meant, and a modifier doing that work never
+      takes commas, however long the sentence runs.
+    trap: B opens with a comma and closes without one, which leaves the clause half enclosed and the
+      sentence impossible to parse.
+  - n: 560
+    id: C12-HIS-E10
+    chapter: 12
+    element: restrictive
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: Frederick Douglass ___ spent the last decade of his life arguing that the amendments
+      had been abandoned rather than merely left unenforced in the South.
+    rule: nonrestrictive_name
+    rule_span: ', who had written three autobiographies by then,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had written three autobiographies by then
+    - ', who had written three autobiographies by then,'
+    - ', who had written three autobiographies by then'
+    - ', who had written three autobiographies, by then,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: who had written three autobiographies by then
+      C:
+        move: unpaired
+        span: ', who had written three autobiographies by then'
+      D:
+        move: overpunctuated
+        span: ', who had written three autobiographies, by then,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Douglass is already identified by his name, so what the sentence adds about him belongs between
+      two commas.
+    trap: A removes the commas, which makes the clause say which Douglass is meant rather than tell
+      the reader more about him.
+- domain: BIO
+  partno: 57
+  note_ar: في الأحياء وعلوم الأرض يكون الشيء إمّا نوعاً مسمّى باسمه اللاتيني فالوصف بعده بيان محاط
+    بفاصلتين، وإمّا نوعاً من بين أنواع فالوصف هو الذي يختاره من بينها فلا فاصلة حوله. وهذا الفرق هو
+    أصعب ما في الباب وأكثره دوراناً.
+  exercises:
+  - n: 561
+    id: C12-BIO-E01
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: The coelacanth ___ was known only from fossils until 1938.
+    rule: nonrestrictive_commas
+    rule_span: ', a fish of the deep reefs,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - a fish of the deep reefs
+    - ', a fish of the deep reefs,'
+    - ', a fish of the deep reefs'
+    - ', a fish, of the deep reefs,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: a fish of the deep reefs
+      C:
+        move: unpaired
+        span: ', a fish of the deep reefs'
+      D:
+        move: overpunctuated
+        span: ', a fish, of the deep reefs,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The fish is named, so what the sentence adds about it is nonessential and goes between two
+      commas.
+    trap: A takes the commas away, which turns the phrase into the words that say which coelacanth
+      is meant.
+  - n: 562
+    id: C12-BIO-E02
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: The enzyme ___ is destroyed by a few minutes of boiling.
+    rule: restrictive_no_comma
+    rule_span: that breaks the starch down
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which breaks the starch down,'
+    - who breaks the starch down
+    - ', which breaks the starch down'
+    - that breaks the starch down
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which breaks the starch down,'
+      B:
+        move: wrong_relativizer
+        span: who breaks the starch down
+      C:
+        move: unpaired
+        span: ', which breaks the starch down'
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'A cell holds hundreds of enzymes, so the clause is essential and takes no commas: it is
+      what tells the reader which enzyme.'
+    trap: A sets the clause between commas, which would say that every enzyme in the cell breaks starch
+      down.
+  - n: 563
+    id: C12-BIO-E03
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: Barbara McClintock ___ worked on maize for forty years before the prize came.
+    rule: nonrestrictive_name
+    rule_span: ', who published her transposition papers in 1950,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', who published her transposition papers in 1950,'
+    - who published her transposition papers in 1950
+    - ', who published her transposition papers in 1950'
+    - ', who published her transposition papers, in 1950,'
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: who published her transposition papers in 1950
+      C:
+        move: unpaired
+        span: ', who published her transposition papers in 1950'
+      D:
+        move: overpunctuated
+        span: ', who published her transposition papers, in 1950,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: McClintock is already identified by her name, so the clause about her papers is enclosed
+      in commas.
+    trap: B drops the commas, which makes the clause pick out one McClintock from several and leaves
+      the sentence saying less, not more.
+  - n: 564
+    id: C12-BIO-E04
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: In a mixed culture the species ___ is the one that will dominate the flask within a week.
+    rule: restrictive_name
+    rule_span: that divides fastest at thirty degrees
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which divides fastest at thirty degrees,'
+    - who divides fastest at thirty degrees
+    - that divides fastest at thirty degrees
+    - that divides fastest at thirty degrees,
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which divides fastest at thirty degrees,'
+      B:
+        move: wrong_relativizer
+        span: who divides fastest at thirty degrees
+      D:
+        move: unpaired
+        span: that divides fastest at thirty degrees,
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the species in the flask is meant, and a clause doing that takes
+      no commas.
+    trap: A encloses it, which would make the sentence claim that all the species in the culture divide
+      at the same rate.
+  - n: 565
+    id: C12-BIO-E05
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: The Burgess Shale ___ holds the best record anywhere of the animals of the middle Cambrian.
+    rule: nonrestrictive_commas
+    rule_span: ', quarried in British Columbia since 1909,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - quarried in British Columbia since 1909
+    - ', quarried in British Columbia since 1909,'
+    - ', quarried in British Columbia since 1909'
+    - ', quarried, in British Columbia, since 1909,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: quarried in British Columbia since 1909
+      C:
+        move: unpaired
+        span: ', quarried in British Columbia since 1909'
+      D:
+        move: overpunctuated
+        span: ', quarried, in British Columbia, since 1909,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: There is one Burgess Shale, so the phrase about the quarry is nonessential and sits inside
+      a pair of commas.
+    trap: C gives the phrase an opening comma and no closing one, so the sentence never comes back
+      to its verb.
+  - n: 566
+    id: C12-BIO-E06
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: A culture kept in the dark will lose only the pigments ___ and will hold on to all the
+      rest for weeks.
+    rule: restrictive_no_comma
+    rule_span: that the cell makes in response to light
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that the cell makes in response to light
+    - ', which the cell makes in response to light,'
+    - ', which the cell makes in response to light'
+    - who the cell makes in response to light
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which the cell makes in response to light,'
+      C:
+        move: unpaired
+        span: ', which the cell makes in response to light'
+      D:
+        move: wrong_relativizer
+        span: who the cell makes in response to light
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'Only is the word that gives the game away: the clause is essential, because it divides the
+      pigments that go from the pigments that stay.'
+    trap: B adds the commas, which would say that the cell makes all its pigments in response to light
+      and loses all of them.
+  - n: 567
+    id: C12-BIO-E07
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: The Antarctic ice sheet ___ holds about seven tenths of the fresh water on the surface
+      of the earth.
+    rule: nonrestrictive_name
+    rule_span: ', which is nowhere less than a mile thick,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which is nowhere less than a mile thick
+    - ', which is nowhere less than a mile thick'
+    - ', which is nowhere less than a mile, thick,'
+    - ', which is nowhere less than a mile thick,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: which is nowhere less than a mile thick
+      B:
+        move: unpaired
+        span: ', which is nowhere less than a mile thick'
+      C:
+        move: overpunctuated
+        span: ', which is nowhere less than a mile, thick,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The sheet is already identified by name, so the clause about its thickness is an addition
+      and takes a comma at each end.
+    trap: A leaves both commas out, which says that one Antarctic ice sheet among several is the thick
+      one.
+  - n: 568
+    id: C12-BIO-E08
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: Among the ground finches of the Galapagos the one species ___ was the species that came
+      through the drought of 1977.
+    rule: restrictive_name
+    rule_span: that could crack the largest seeds
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which could crack the largest seeds,'
+    - ', which could crack the largest seeds'
+    - that could crack the largest seeds
+    - who could crack the largest seeds
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which could crack the largest seeds,'
+      B:
+        move: unpaired
+        span: ', which could crack the largest seeds'
+      D:
+        move: wrong_relativizer
+        span: who could crack the largest seeds
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the finches survived, which is the whole point of the sentence,
+      so it stands without commas.
+    trap: A encloses the clause, and the sentence then says that all the ground finches could crack
+      the largest seeds.
+  - n: 569
+    id: C12-BIO-E09
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: The Great Barrier Reef ___ lost about half of its shallow-water coral in the two bleaching
+      summers of 2016 and 2017 alone.
+    rule: nonrestrictive_name
+    rule_span: ', which is not one reef but some three thousand of them,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which is not one reef but some three thousand of them,'
+    - which is not one reef but some three thousand of them
+    - ', which is not one reef but some three thousand of them'
+    - ', which is not one reef, but some three thousand of them,'
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: which is not one reef but some three thousand of them
+      C:
+        move: unpaired
+        span: ', which is not one reef but some three thousand of them'
+      D:
+        move: overpunctuated
+        span: ', which is not one reef, but some three thousand of them,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The reef is already identified, so the correction the clause offers is an addition to the
+      sentence and is fenced by commas.
+    trap: C opens the clause and never closes it, so the reader loses track of where the main sentence
+      picks up again.
+  - n: 570
+    id: C12-BIO-E10
+    chapter: 12
+    element: restrictive
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: In a lake that has begun to lose its oxygen through the summer the first fish ___ are
+      the ones a fisherman notices, and the carp are the last to go.
+    rule: restrictive_name
+    rule_span: that need the coldest and deepest water
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which need the coldest and deepest water,'
+    - that need the coldest and deepest water,
+    - that need the coldest and deepest water
+    - who need the coldest and deepest water
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which need the coldest and deepest water,'
+      B:
+        move: unpaired
+        span: that need the coldest and deepest water,
+      D:
+        move: wrong_relativizer
+        span: who need the coldest and deepest water
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the kinds of fish goes first, so no commas may stand around
+      it however long the sentence has grown.
+    trap: B closes the clause with a comma that nothing opened, which is the hardest of these faults
+      to see on the page.
+- domain: PHY
+  partno: 58
+  note_ar: 'في العلوم الفيزيائية يأتي الوصف على الأجهزة والتجارب والكمّيات، والجملة في الغالب مبنيّة
+    للمجهول فيطول ما بين الموصوف ووصفه. ومع ذلك فالحكم واحد: إن كان الجهاز واحداً معلوماً فالفاصلتان،
+    وإن كان واحداً من عدّة فلا فاصلة.'
+  exercises:
+  - n: 571
+    id: C12-PHY-E01
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: The wire ___ carried much the larger share of the current.
+    rule: restrictive_no_comma
+    rule_span: that had the smaller resistance
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which had the smaller resistance,'
+    - ', which had the smaller resistance'
+    - that had the smaller resistance
+    - who had the smaller resistance
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which had the smaller resistance,'
+      B:
+        move: unpaired
+        span: ', which had the smaller resistance'
+      D:
+        move: wrong_relativizer
+        span: who had the smaller resistance
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'Two wires are in the circuit, so the clause is essential and bare: it is what says which
+      of the two is meant.'
+    trap: A puts commas round the clause, which would say that both wires had the smaller resistance.
+  - n: 572
+    id: C12-PHY-E02
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: The second trial ___ gave a figure twice the size of the first.
+    rule: nonrestrictive_commas
+    rule_span: ', run with the heater switched off,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', run with the heater switched off,'
+    - run with the heater switched off
+    - ', run with the heater switched off'
+    - ', run, with the heater switched off,'
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: run with the heater switched off
+      C:
+        move: unpaired
+        span: ', run with the heater switched off'
+      D:
+        move: overpunctuated
+        span: ', run, with the heater switched off,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Second has already said which trial, so the phrase about the heater is nonessential and takes
+      a comma on each side.
+    trap: B leaves the phrase bare, which implies that there were several second trials and this was
+      the one without the heater.
+  - n: 573
+    id: C12-PHY-E03
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: Of the four pendulums only the one ___ kept time to better than a second a day.
+    rule: restrictive_name
+    rule_span: that hung from a steel wire
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which hung from a steel wire,'
+    - that hung from a steel wire
+    - ', which hung from a steel wire'
+    - who hung from a steel wire
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which hung from a steel wire,'
+      C:
+        move: unpaired
+        span: ', which hung from a steel wire'
+      D:
+        move: wrong_relativizer
+        span: who hung from a steel wire
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the four pendulums kept time, so it belongs to the noun without
+      any comma between them.
+    trap: A encloses the clause, which would say that all four hung from steel wire and only one of
+      them worked.
+  - n: 574
+    id: C12-PHY-E04
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: The 1919 eclipse expedition ___ measured a deflection of about two seconds of arc.
+    rule: nonrestrictive_commas
+    rule_span: ', which sailed to Principe and to Brazil,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which sailed to Principe and to Brazil
+    - ', which sailed to Principe and to Brazil'
+    - ', which sailed to Principe, and to Brazil,'
+    - ', which sailed to Principe and to Brazil,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: which sailed to Principe and to Brazil
+      B:
+        move: unpaired
+        span: ', which sailed to Principe and to Brazil'
+      C:
+        move: overpunctuated
+        span: ', which sailed to Principe, and to Brazil,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The year and the word eclipse have identified the expedition, so the clause is nonessential
+      and is closed off at both ends.
+    trap: A removes the commas, which makes the clause distinguish this expedition from other 1919
+      eclipse expeditions that did not exist.
+  - n: 575
+    id: C12-PHY-E05
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: A capacitor of this kind will hold its charge for hours if the dielectric ___ is thick
+      enough.
+    rule: restrictive_no_comma
+    rule_span: that separates the plates
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which separates the plates,'
+    - who separates the plates
+    - that separates the plates
+    - that separates the plates,
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which separates the plates,'
+      B:
+        move: wrong_relativizer
+        span: who separates the plates
+      D:
+        move: unpaired
+        span: that separates the plates,
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause is essential because dielectric on its own does not say which layer of the capacitor
+      the sentence has in mind.
+    trap: D gives the clause a closing comma without an opening one, and the sentence then seems to
+      break off before its verb.
+  - n: 576
+    id: C12-PHY-E06
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: Absolute zero ___ has been approached to within a few billionths of a degree but has
+      never been reached.
+    rule: nonrestrictive_name
+    rule_span: ', which is a limit rather than a temperature,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which is a limit rather than a temperature
+    - ', which is a limit rather than a temperature,'
+    - ', which is a limit rather than a temperature'
+    - ', which is a limit, rather than a temperature,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: which is a limit rather than a temperature
+      C:
+        move: unpaired
+        span: ', which is a limit rather than a temperature'
+      D:
+        move: overpunctuated
+        span: ', which is a limit, rather than a temperature,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Absolute zero is already identified by its name, so the clause that corrects the reader's
+      picture of it is enclosed in commas.
+    trap: A drops the commas, which leaves the clause selecting one absolute zero from a field of
+      them.
+  - n: 577
+    id: C12-PHY-E07
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: In the spectrum of hydrogen the only lines ___ fall in the visible range, and all the
+      others lie in the ultraviolet.
+    rule: restrictive_name
+    rule_span: that end on the second energy level
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that end on the second energy level
+    - ', which end on the second energy level,'
+    - ', which end on the second energy level'
+    - who end on the second energy level
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which end on the second energy level,'
+      C:
+        move: unpaired
+        span: ', which end on the second energy level'
+      D:
+        move: wrong_relativizer
+        span: who end on the second energy level
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the families of lines is visible, so it takes no commas and
+      the word only depends on it.
+    trap: B sets the clause in commas, which would put every line of hydrogen in the visible range
+      and contradict the rest of the sentence.
+  - n: 578
+    id: C12-PHY-E08
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: The kilogram ___ is now defined from the Planck constant rather than from a lump of metal
+      in a vault.
+    rule: nonrestrictive_commas
+    rule_span: ', the last of the base units to be redefined,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the last of the base units to be redefined
+    - ', the last of the base units to be redefined'
+    - ', the last of the base units, to be redefined,'
+    - ', the last of the base units to be redefined,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: the last of the base units to be redefined
+      B:
+        move: unpaired
+        span: ', the last of the base units to be redefined'
+      C:
+        move: overpunctuated
+        span: ', the last of the base units, to be redefined,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: There is only one kilogram, so the appositive is nonessential and both of its commas have
+      to be there.
+    trap: A leaves the appositive bare, which reads as though the sentence were choosing among several
+      kilograms.
+  - n: 579
+    id: C12-PHY-E09
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: When a beam of light passes from water into air at a shallow angle the part of the beam
+      ___ never leaves the water at all.
+    rule: restrictive_no_comma
+    rule_span: that meets the surface beyond the critical angle
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which meets the surface beyond the critical angle,'
+    - that meets the surface beyond the critical angle
+    - ', which meets the surface beyond the critical angle'
+    - who meets the surface beyond the critical angle
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which meets the surface beyond the critical angle,'
+      C:
+        move: unpaired
+        span: ', which meets the surface beyond the critical angle'
+      D:
+        move: wrong_relativizer
+        span: who meets the surface beyond the critical angle
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'The clause is essential: the sentence is about one part of the beam and not the beam, and
+      the clause is what makes the difference.'
+    trap: A encloses the clause, which would say that no light at all escapes the water, whatever
+      angle it meets the surface at.
+  - n: 580
+    id: C12-PHY-E10
+    chapter: 12
+    element: restrictive
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: The Michelson-Morley experiment ___ is taught as the experiment that failed, although
+      its authors spent years hunting for the fault they were sure lay in their own apparatus.
+    rule: nonrestrictive_name
+    rule_span: ', which was repeated in Cleveland in 1887,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which was repeated in Cleveland in 1887
+    - ', which was repeated in Cleveland in 1887'
+    - ', which was repeated in Cleveland, in 1887,'
+    - ', which was repeated in Cleveland in 1887,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: which was repeated in Cleveland in 1887
+      B:
+        move: unpaired
+        span: ', which was repeated in Cleveland in 1887'
+      C:
+        move: overpunctuated
+        span: ', which was repeated in Cleveland, in 1887,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The experiment is already identified by the two names, so the clause about the repetition
+      is an addition and is shut in commas.
+    trap: B opens the clause with a comma and closes it with none, which is easy to miss in a sentence
+      that already holds two other commas.
+- domain: HUM
+  partno: 59
+  note_ar: 'في الإنسانيات يكون الموصوف في الغالب مسمّى: كاتباً باسمه أو كتاباً بعنوانه، فالوصف بعده
+    زيادة بيان بين فاصلتين. فإذا جاء الموصوف مجهولاً كأن يقال القصيدة أو النسخة صار الوصف هو الذي
+    يعيّنه فلا فاصلة.'
+  exercises:
+  - n: 581
+    id: C12-HUM-E01
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: Middlemarch ___ was published in eight parts over a single year.
+    rule: nonrestrictive_commas
+    rule_span: ', the longest of the novels,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the longest of the novels
+    - ', the longest of the novels'
+    - ', the longest, of the novels,'
+    - ', the longest of the novels,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: the longest of the novels
+      B:
+        move: unpaired
+        span: ', the longest of the novels'
+      C:
+        move: overpunctuated
+        span: ', the longest, of the novels,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The novel is named in the first word, so the appositive after it is nonessential and takes
+      a comma at each end.
+    trap: A leaves the appositive bare, which reads as though several books were called Middlemarch
+      and this is the long one.
+  - n: 582
+    id: C12-HUM-E02
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: The sonnet ___ is the one that every anthology prints.
+    rule: restrictive_no_comma
+    rule_span: that opens with a question
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which opens with a question,'
+    - that opens with a question
+    - ', which opens with a question'
+    - who opens with a question
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which opens with a question,'
+      C:
+        move: unpaired
+        span: ', which opens with a question'
+      D:
+        move: wrong_relativizer
+        span: who opens with a question
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: 'The sonnet has not been named, so the clause is essential and bare: it is the only thing
+      telling the reader which sonnet.'
+    trap: A sets the clause in commas, which would say that every sonnet opens with a question and
+      one of them is anthologized.
+  - n: 583
+    id: C12-HUM-E03
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: Zora Neale Hurston ___ was buried in an unmarked grave and found again thirty years later.
+    rule: nonrestrictive_name
+    rule_span: ', who had trained as an anthropologist,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had trained as an anthropologist
+    - ', who had trained as an anthropologist'
+    - ', who had trained as an anthropologist,'
+    - ', who had trained, as an anthropologist,'
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: who had trained as an anthropologist
+      B:
+        move: unpaired
+        span: ', who had trained as an anthropologist'
+      D:
+        move: overpunctuated
+        span: ', who had trained, as an anthropologist,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Hurston is already identified by her three names, so the clause about her training is enclosed
+      in a pair of commas.
+    trap: A takes both commas out, which makes the clause single out one Hurston from a crowd of them.
+  - n: 584
+    id: C12-HUM-E04
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: Of the four quartos only the one ___ carries the lines the editors now print.
+    rule: restrictive_name
+    rule_span: that the players themselves set in type
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that the players themselves set in type
+    - ', which the players themselves set in type,'
+    - ', which the players themselves set in type'
+    - who the players themselves set in type
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which the players themselves set in type,'
+      C:
+        move: unpaired
+        span: ', which the players themselves set in type'
+      D:
+        move: wrong_relativizer
+        span: who the players themselves set in type
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the four quartos is meant, and only is left without a job if
+      the clause is fenced off.
+    trap: B encloses the clause, which would say that the players set all four quartos in type themselves.
+  - n: 585
+    id: C12-HUM-E05
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: The first folio ___ gathers thirty-six plays and leaves two of them out.
+    rule: nonrestrictive_commas
+    rule_span: ', printed seven years after the poet died,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - printed seven years after the poet died
+    - ', printed seven years after the poet died'
+    - ', printed seven years, after the poet died,'
+    - ', printed seven years after the poet died,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: printed seven years after the poet died
+      B:
+        move: unpaired
+        span: ', printed seven years after the poet died'
+      C:
+        move: overpunctuated
+        span: ', printed seven years, after the poet died,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: First has already said which folio, so the phrase about the printing is nonessential and
+      needs both of its commas.
+    trap: A drops the commas, and the phrase then claims to distinguish this first folio from other
+      first folios.
+  - n: 586
+    id: C12-HUM-E06
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: In a first-person novel the reader comes to trust only the sentences ___ and discounts
+      a good deal of the rest.
+    rule: restrictive_no_comma
+    rule_span: that the narrator has no reason to shade
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which the narrator has no reason to shade,'
+    - ', which the narrator has no reason to shade'
+    - that the narrator has no reason to shade
+    - who the narrator has no reason to shade
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which the narrator has no reason to shade,'
+      B:
+        move: unpaired
+        span: ', which the narrator has no reason to shade'
+      D:
+        move: wrong_relativizer
+        span: who the narrator has no reason to shade
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause is essential because the sentence trusts some sentences and not others, and the
+      clause is what draws the line.
+    trap: A encloses the clause, which would have the reader trusting every sentence in the novel
+      and the word only meaning nothing.
+  - n: 587
+    id: C12-HUM-E07
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: Chinua Achebe ___ went on to say that the novel had taught generations to read Africa
+      as a backdrop.
+    rule: nonrestrictive_name
+    rule_span: ', who had read Heart of Darkness as a student,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had read Heart of Darkness as a student
+    - ', who had read Heart of Darkness as a student,'
+    - ', who had read Heart of Darkness as a student'
+    - ', who had read Heart of Darkness, as a student,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: who had read Heart of Darkness as a student
+      C:
+        move: unpaired
+        span: ', who had read Heart of Darkness as a student'
+      D:
+        move: overpunctuated
+        span: ', who had read Heart of Darkness, as a student,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Achebe is already identified by name, so the clause about his reading is an addition and
+      sits between two commas.
+    trap: A removes the commas, which turns an addition into a way of saying which Achebe the sentence
+      means.
+  - n: 588
+    id: C12-HUM-E08
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: The one translation of the Odyssey ___ has outsold all the others in English put together
+      since the war.
+    rule: restrictive_name
+    rule_span: that keeps the line count of the Greek
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that keeps the line count of the Greek
+    - ', which keeps the line count of the Greek,'
+    - that keeps the line count of the Greek,
+    - who keeps the line count of the Greek
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which keeps the line count of the Greek,'
+      C:
+        move: unpaired
+        span: that keeps the line count of the Greek,
+      D:
+        move: wrong_relativizer
+        span: who keeps the line count of the Greek
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the many translations has sold, so it joins the noun with nothing
+      between them.
+    trap: C ends the clause with a comma and begins it with none, which breaks the subject of the
+      sentence in half.
+  - n: 589
+    id: C12-HUM-E09
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: The last chapter of A Clockwork Orange ___ was left out of the American edition for twenty-five
+      years and restored to it only in 1986.
+    rule: nonrestrictive_commas
+    rule_span: ', in which the narrator grows tired of violence,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - in which the narrator grows tired of violence
+    - ', in which the narrator grows tired of violence'
+    - ', in which the narrator grows tired of violence,'
+    - ', in which the narrator grows tired, of violence,'
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: in which the narrator grows tired of violence
+      B:
+        move: unpaired
+        span: ', in which the narrator grows tired of violence'
+      D:
+        move: overpunctuated
+        span: ', in which the narrator grows tired, of violence,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The last chapter of a named novel is one chapter and no other, so the clause about it is
+      nonessential and is closed at both ends.
+    trap: A leaves the clause bare, which would imply that the novel has several last chapters and
+      this is the gentle one.
+  - n: 590
+    id: C12-HUM-E10
+    chapter: 12
+    element: restrictive
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: Among the eighteen hundred poems that Dickinson left behind her in manuscript the few
+      ___ are the ones that every reader still meets first.
+    rule: restrictive_name
+    rule_span: that her first editors chose to retitle
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that her first editors chose to retitle
+    - ', which her first editors chose to retitle,'
+    - ', which her first editors chose to retitle'
+    - who her first editors chose to retitle
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which her first editors chose to retitle,'
+      C:
+        move: unpaired
+        span: ', which her first editors chose to retitle'
+      D:
+        move: wrong_relativizer
+        span: who her first editors chose to retitle
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the eighteen hundred groups of poems is meant, so the few and
+      the clause belong together without a mark.
+    trap: B fences the clause off, which would say that the editors retitled all eighteen hundred
+      poems.
+- domain: SOC
+  partno: 60
+  note_ar: في العلوم الاجتماعية يكون الموصوف فئة من الناس أو مقياساً من المقاييس، والوصف هو الذي يحدّد
+    أيّ فئة وأيّ مقياس، فحذف فاصلته أو زيادتها يغيّر الرقم الذي تتحدّث عنه الجملة لا شكلها.
+  exercises:
+  - n: 591
+    id: C12-SOC-E01
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The households ___ were counted twice in the 1950 return.
+    rule: restrictive_no_comma
+    rule_span: that had moved during the week
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that had moved during the week
+    - ', which had moved during the week,'
+    - ', which had moved during the week'
+    - who had moved during the week
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which had moved during the week,'
+      C:
+        move: unpaired
+        span: ', which had moved during the week'
+      D:
+        move: wrong_relativizer
+        span: who had moved during the week
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: Some households were counted twice and most were not, so the clause is essential and goes
+      without commas.
+    trap: B encloses the clause, which would have every household in the country moving that week
+      and being counted twice.
+  - n: 592
+    id: C12-SOC-E02
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: The 1950 census ___ counted three fifths of the country as urban.
+    rule: nonrestrictive_commas
+    rule_span: ', the first to be taken partly by mail,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - the first to be taken partly by mail
+    - ', the first to be taken partly by mail'
+    - ', the first to be taken partly by mail,'
+    - ', the first to be taken partly, by mail,'
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: the first to be taken partly by mail
+      B:
+        move: unpaired
+        span: ', the first to be taken partly by mail'
+      D:
+        move: overpunctuated
+        span: ', the first to be taken partly, by mail,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The year has identified the census, so the appositive is nonessential and takes a comma on
+      both sides.
+    trap: B opens the appositive and leaves it open, so the reader cannot tell where the subject of
+      counted ends.
+  - n: 593
+    id: C12-SOC-E03
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: Of the three measures of poverty in common use the one ___ gives much the lowest figure.
+    rule: restrictive_name
+    rule_span: that counts income after taxes and transfers
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which counts income after taxes and transfers,'
+    - ', which counts income after taxes and transfers'
+    - who counts income after taxes and transfers
+    - that counts income after taxes and transfers
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which counts income after taxes and transfers,'
+      B:
+        move: unpaired
+        span: ', which counts income after taxes and transfers'
+      C:
+        move: wrong_relativizer
+        span: who counts income after taxes and transfers
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the three measures is meant, so it cannot be shut away in commas
+      without emptying the sentence.
+    trap: A sets the clause between commas, which would say that all three measures count income the
+      same way.
+  - n: 594
+    id: C12-SOC-E04
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: Jane Addams ___ wrote that the settlement house had taught her more than her reading
+      had.
+    rule: nonrestrictive_name
+    rule_span: ', who had founded Hull House in 1889,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had founded Hull House in 1889
+    - ', who had founded Hull House in 1889,'
+    - ', who had founded Hull House in 1889'
+    - ', who had founded Hull House, in 1889,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: who had founded Hull House in 1889
+      C:
+        move: unpaired
+        span: ', who had founded Hull House in 1889'
+      D:
+        move: overpunctuated
+        span: ', who had founded Hull House, in 1889,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Addams is already identified by her name, so the clause about Hull House is an addition and
+      is fenced by commas.
+    trap: A leaves the clause bare, which reads as though the sentence were choosing between two women
+      of that name.
+  - n: 595
+    id: C12-SOC-E05
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: A question ___ will be answered differently by the same person in June and in November.
+    rule: restrictive_no_comma
+    rule_span: that asks about last year's income
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that asks about last year's income
+    - ', which asks about last year''s income,'
+    - ', which asks about last year''s income'
+    - who asks about last year's income
+    key: A
+    faults:
+      B:
+        move: restrictive_shift
+        span: ', which asks about last year''s income,'
+      C:
+        move: unpaired
+        span: ', which asks about last year''s income'
+      D:
+        move: wrong_relativizer
+        span: who asks about last year's income
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: A question is any question until the clause narrows it, so the clause is essential and bare.
+    trap: B encloses the clause, which would say that every question on every form asks about last
+      year's income.
+  - n: 596
+    id: C12-SOC-E06
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: The Moynihan report ___ was read as an attack on the families it had set out to describe.
+    rule: nonrestrictive_commas
+    rule_span: ', written inside the Department of Labor in 1965,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - written inside the Department of Labor in 1965
+    - ', written inside the Department of Labor in 1965'
+    - ', written inside the Department of Labor, in 1965,'
+    - ', written inside the Department of Labor in 1965,'
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: written inside the Department of Labor in 1965
+      B:
+        move: unpaired
+        span: ', written inside the Department of Labor in 1965'
+      C:
+        move: overpunctuated
+        span: ', written inside the Department of Labor, in 1965,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The report is identified by the name of its author, so the phrase about where it was written
+      is nonessential and needs two commas.
+    trap: A drops both commas, which implies that there are several Moynihan reports and this is the
+      departmental one.
+  - n: 597
+    id: C12-SOC-E07
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: In every survey of this kind the respondents ___ are the ones whose answers shift most
+      between one wave and the next.
+    rule: restrictive_name
+    rule_span: whom the interviewers reach on a first call
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', whom the interviewers reach on a first call,'
+    - ', whom the interviewers reach on a first call'
+    - whom the interviewers reach on a first call
+    - which the interviewers reach on a first call
+    key: C
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', whom the interviewers reach on a first call,'
+      B:
+        move: unpaired
+        span: ', whom the interviewers reach on a first call'
+      D:
+        move: wrong_relativizer
+        span: which the interviewers reach on a first call
+    ctx:
+      antecedent: person
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause says which one of the groups of respondents is meant, so it takes no commas, and
+      whom is the form the object of reach requires.
+    trap: D uses which for people, which the sentence cannot carry whatever its punctuation.
+  - n: 598
+    id: C12-SOC-E08
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: W. E. B. Du Bois ___ walked the Seventh Ward street by street and counted all of its
+      households himself.
+    rule: nonrestrictive_name
+    rule_span: ', who had been trained in Berlin,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - who had been trained in Berlin
+    - ', who had been trained in Berlin,'
+    - ', who had been trained in Berlin'
+    - ', who had been trained, in Berlin,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: who had been trained in Berlin
+      C:
+        move: unpaired
+        span: ', who had been trained in Berlin'
+      D:
+        move: overpunctuated
+        span: ', who had been trained, in Berlin,'
+    ctx:
+      antecedent: person
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: Du Bois is already identified by name, so the clause about his training is an addition and
+      belongs between a pair of commas.
+    trap: A takes the commas away, which asks the reader to pick this Du Bois out from others who
+      were not trained in Berlin.
+  - n: 599
+    id: C12-SOC-E09
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: When a city counts the people sleeping outside on one night in January the part of the
+      population ___ is the only part the published figure describes.
+    rule: restrictive_no_comma
+    rule_span: that has nowhere indoors to go at all
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which has nowhere indoors to go at all,'
+    - ', which has nowhere indoors to go at all'
+    - who has nowhere indoors to go at all
+    - that has nowhere indoors to go at all
+    key: D
+    faults:
+      A:
+        move: restrictive_shift
+        span: ', which has nowhere indoors to go at all,'
+      B:
+        move: unpaired
+        span: ', which has nowhere indoors to go at all'
+      C:
+        move: wrong_relativizer
+        span: who has nowhere indoors to go at all
+    ctx:
+      antecedent: thing
+      enclosed: false
+      marks_expected: 0
+      pair: comma
+    why: The clause is essential because the sentence is about one part of the population and the
+      clause is the only thing that marks that part off.
+    trap: A encloses the clause, and the count then covers the whole population of the city rather
+      than the part that sleeps outside.
+  - n: 600
+    id: C12-SOC-E10
+    chapter: 12
+    element: restrictive
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: The General Social Survey ___ is the reason that sociologists can say anything at all
+      about how American opinion has moved since the Nixon years.
+    rule: nonrestrictive_commas
+    rule_span: ', which has asked some of the same questions since 1972,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which has asked some of the same questions since 1972
+    - ', which has asked some of the same questions since 1972,'
+    - ', which has asked some of the same questions since 1972'
+    - ', which has asked some of the same questions, since 1972,'
+    key: B
+    faults:
+      A:
+        move: restrictive_shift
+        span: which has asked some of the same questions since 1972
+      C:
+        move: unpaired
+        span: ', which has asked some of the same questions since 1972'
+      D:
+        move: overpunctuated
+        span: ', which has asked some of the same questions, since 1972,'
+    ctx:
+      antecedent: thing
+      enclosed: true
+      marks_expected: 2
+      pair: comma
+    why: The survey is named, so the clause about its questions is nonessential, and a nonessential
+      clause is closed at both ends.
+    trap: A leaves the clause unpunctuated, which makes it select one General Social Survey from several
+      that do not exist.

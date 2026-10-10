@@ -648,6 +648,56 @@ def wrong_mark(span, ctx):
 
 
 # ---------------------------------------------------------------------------
+# restrictive and nonrestrictive modifiers
+# ---------------------------------------------------------------------------
+RELATIVIZERS = ('who', 'whom', 'whose', 'which', 'that')
+
+
+def restrictive_shift(span, ctx):
+    """Commas around a modifier the sentence needs, or none around one it does not.
+
+    ctx['enclosed'] is the author's statement of which the sentence requires:
+    True for a modifier that must be shut in commas because the thing is already
+    identified, False for one that must stay bare because it says which one. The
+    predicate reads only the two ends of the span, so it says nothing about the
+    one-comma case, which is unpaired's business and not this move's.
+    """
+    want = ctx.get('enclosed')
+    if want is None:
+        return None
+    a, b = ends(span)
+    both = a == 'comma' and b == 'comma'
+    neither = a != 'comma' and b != 'comma'
+    return neither if want else both
+
+
+def wrong_relativizer(span, ctx):
+    """A relative pronoun that does not match its antecedent or its clause.
+
+    Three faults are detectable from the span and ctx['antecedent'] alone: who or
+    whom for a thing, which for a person, and that heading a clause shut in commas,
+    which English does not allow. Everything else -- that against which for a
+    restrictive clause about a thing, whose for an inanimate possessor -- is either
+    accepted usage or a matter of house style, so the predicate stays silent.
+    """
+    kind = ctx.get('antecedent')
+    if kind not in ('person', 'thing'):
+        return None
+    toks = [t.lower() for t in words(span)]
+    rel = next((t for t in toks if t in RELATIVIZERS), None)
+    if rel is None:
+        return None
+    if kind == 'thing' and rel in ('who', 'whom'):
+        return True
+    if kind == 'person' and rel == 'which':
+        return True
+    a, b = ends(span)
+    if rel == 'that' and a == 'comma' and b == 'comma':
+        return True
+    return False
+
+
+# ---------------------------------------------------------------------------
 # parallelism
 # ---------------------------------------------------------------------------
 def form_of(span):
@@ -707,6 +757,8 @@ PREDICATES = {
     'colon_after_fragment': ('ctx', colon_after_fragment),
     'overpunctuated':    ('ctx', overpunctuated),
     'wrong_mark':        ('ctx', wrong_mark),
+    'restrictive_shift': ('ctx', restrictive_shift),
+    'wrong_relativizer': ('ctx', wrong_relativizer),
     'faulty_parallel':   ('ctx', faulty_parallel),
     'mixed_form':        ('ctx', mixed_form),
 }
@@ -716,7 +768,7 @@ NO_PREDICATE = {
     'dangler', 'misplaced', 'squinting', 'agent_mismatch', 'pro_vague', 'person_shift',
     'near_miss', 'restatement', 'no_relation', 'wrong_direction', 'wrong_goal',
     'true_not_asked', 'imported', 'underreach', 'overreach', 'misread_row',
-    'reversed_comparison', 'restrictive_shift', 'wrong_relativizer', 'loose_subordinate',
+    'reversed_comparison', 'loose_subordinate',
     'missing_subject', 'incomplete_comparison', 'unbalanced_correlative',
     'missing_series_mark',
 }
@@ -914,6 +966,29 @@ def _tests():
        False, 'a bare junction is what no_mark_needed asks for')
     eq(wrong_mark('; the codes, the advertisements', dict(mark_ok=[])), True,
        'any mark at a junction that takes none')
+    eq(restrictive_shift(', which was ratified in 1870,', dict(enclosed=False)), True,
+       'commas around a modifier that says which one')
+    eq(restrictive_shift('that was ratified in 1870', dict(enclosed=False)), False,
+       'a bare modifier where bare is right')
+    eq(restrictive_shift('which was ratified in 1870', dict(enclosed=True)), True,
+       'no commas around a modifier the sentence does not need')
+    eq(restrictive_shift(', which was ratified in 1870,', dict(enclosed=True)), False,
+       'a modifier shut in commas where that is right')
+    eq(restrictive_shift(', which was ratified in 1870', dict(enclosed=True)), False,
+       'the one-comma case belongs to unpaired, not to this move')
+    eq(restrictive_shift('that was ratified', dict()), None, 'no statement, no answer')
+    eq(wrong_relativizer('who the convention argued over', dict(antecedent='thing')), True,
+       'who for a thing')
+    eq(wrong_relativizer('which Madison had drafted', dict(antecedent='person')), True,
+       'which for a person')
+    eq(wrong_relativizer(', that Madison had drafted,', dict(antecedent='thing')), True,
+       'that heading a clause shut in commas')
+    eq(wrong_relativizer('that Madison had drafted', dict(antecedent='thing')), False,
+       'that for a thing in a restrictive clause')
+    eq(wrong_relativizer('whose wording Madison had drafted', dict(antecedent='thing')),
+       False, 'whose for an inanimate possessor is not a fault this book asserts')
+    eq(wrong_relativizer('passed under the Articles', dict(antecedent='thing')), None,
+       'no relativizer in the span at all')
     eq(overpunctuated(', and,', dict(marks_expected=1)), True, 'two marks where one is due')
 
     # parallelism
