@@ -1,0 +1,2010 @@
+# Chapter 9 - Sentence boundaries. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 9
+element: splice
+title: Sentence boundaries
+home: BIO
+summary_ar:
+  qaida: 'حدود الجملة تعني أن الجملتين التامّتين لا تُجمعان بفاصلة وحدها. فلهما أربع طرق: نقطة تفصلهما،
+    أو فاصلة منقوطة تصلهما، أو فاصلة مع حرف عطف، أو أن تُجعل إحداهما تابعة للأخرى بأداة ربط فتزول
+    المسألة من أصلها.'
+  kayf: 'يعرض الاختبار جملتين تامّتين ويضع بينهما فراغاً، فتكون الخيارات: فاصلة وحدها، ولا شيء، وفاصلة
+    منقوطة، وفاصلة مع حرف عطف. والسؤال واحد في كلّ مرّة: هل ما قبل الفراغ جملة تامّة وما بعده جملة
+    تامّة؟'
+  fakh: 'الفخّ أن الفاصلة وحدها تبدو كافية لأن المعنى متّصل. ولا تنظر إلى المعنى بل إلى التركيب: إن
+    صحّ أن تضع نقطة مكان الفراغ فلا تكفي الفاصلة وحدها أبداً.'
+  sila: حدود الجملة من أكثر ما يُختبر في قواعد الإنجليزية المعيارية في اختبار سات، وكان هذا الباب
+    في الكتاب الثاني سهلاً في كلّ المستويات، فجاء هنا في المستويات الأربعة كلّها حتّى الصعب منها.
+parts:
+- domain: HIS
+  partno: 41
+  note_ar: جمل التاريخ والنظام المدني تضع حدثين متتابعين في جملة واحدة، فيكون كلّ منهما جملة تامّة،
+    ويكون الوصل بينهما هو المسألة. والفاصلة وحدها هي الخطأ المتوقّع.
+  exercises:
+  - n: 401
+    id: C09-HIS-E01
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: The Declaration lists the grievances at length ___ names the king only once by title.
+    rule: comma_conjunction
+    rule_span: ', but it'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', it'
+    - ', but it'
+    - it
+    - ; but it
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', it'
+      C:
+        move: run_on
+        span: it
+      D:
+        move: wrong_mark
+        span: ; but it
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: Two independent clauses may be joined by a comma together with a coordinating conjunction.
+    trap: A has the comma and not the conjunction, which is the commonest splice in English prose.
+  - n: 402
+    id: C09-HIS-E02
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: Article One vests the legislative power in a Congress of two chambers ___ vests the executive
+      power in one person.
+    rule: period_boundary
+    rule_span: . Article Two
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', Article Two'
+    - Article Two
+    - ; and Article Two
+    - . Article Two
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', Article Two'
+      B:
+        move: run_on
+        span: Article Two
+      C:
+        move: wrong_mark
+        span: ; and Article Two
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: Two independent clauses can simply be separated by a period, which is always available and
+      never wrong.
+    trap: C uses a semicolon and a conjunction together, which is one mark more than the join needs.
+  - n: 403
+    id: C09-HIS-E03
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The Act of 1790 set a residence requirement of two years ___ did not drop the racial
+      bar for another eighty years.
+    rule: comma_conjunction
+    rule_span: ', and Congress'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', and Congress'
+    - ', Congress'
+    - Congress
+    - ; and Congress
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', Congress'
+      C:
+        move: run_on
+        span: Congress
+      D:
+        move: wrong_mark
+        span: ; and Congress
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction is one of the four ways two independent clauses may
+      be joined.
+    trap: B drops the conjunction and leaves the comma to do work it cannot do alone.
+  - n: 404
+    id: C09-HIS-E04
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: Garrison reprinted the laws of the slave states without any comment at all ___ reprinting
+      was itself the whole of the argument.
+    rule: semicolon_boundary
+    rule_span: ; the
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - the
+    - ; the
+    - ': the'
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      B:
+        move: run_on
+        span: the
+      D:
+        move: wrong_mark
+        span: ': the'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses directly, which suits a pair as closely related
+      as these.
+    trap: D uses a colon, which announces a list or an explanation rather than joining two equal clauses.
+  - n: 405
+    id: C09-HIS-E05
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: Federal troops left the South in 1877 under a bargain over a disputed election ___ governments
+      that replaced them disenfranchised black voters within twenty years.
+    rule: period_boundary
+    rule_span: . The
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - . The
+    - the
+    - ; and the
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      C:
+        move: run_on
+        span: the
+      D:
+        move: wrong_mark
+        span: ; and the
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and nothing about the length of either makes
+      it unavailable.
+    trap: A joins two full sentences with a comma, which is what the whole chapter is about.
+  - n: 406
+    id: C09-HIS-E06
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: The fire that killed a hundred and forty-six garment workers was not the largest in the
+      city's history ___ exits had been locked from the outside to stop the women leaving early, which
+      made it the one that changed the law.
+    rule: subordinate_boundary
+    rule_span: because its
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - because its
+    - ', its'
+    - its
+    - ; its
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', its'
+      C:
+        move: run_on
+        span: its
+      D:
+        move: wrong_mark
+        span: ; its
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: Making the second clause subordinate removes the boundary problem altogether, because a subordinate
+      clause needs no mark to attach it.
+    trap: B leaves two complete sentences joined by a comma, which no amount of logical connection
+      repairs.
+  - n: 407
+    id: C09-HIS-E07
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: The boycott in Montgomery lasted three hundred and eighty-one days ___ that ended it
+      had been handed down six weeks before the buses were actually integrated.
+    rule: semicolon_boundary
+    rule_span: ; the ruling
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the ruling'
+    - the ruling
+    - ': the ruling'
+    - ; the ruling
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the ruling'
+      B:
+        move: run_on
+        span: the ruling
+      C:
+        move: wrong_mark
+        span: ': the ruling'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon is the right join for two independent clauses that belong together closely enough
+      that a period would separate them too far.
+    trap: C uses a colon, which promises that what follows explains what came before rather than standing
+      beside it.
+  - n: 408
+    id: C09-HIS-E08
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: The mandates were to be surrendered as soon as their inhabitants were ready to govern
+      themselves ___ of them was surrendered until after a second world war had been fought and lost.
+    rule: comma_conjunction
+    rule_span: ', but none'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', none'
+    - none
+    - ', but none'
+    - ; but none
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', none'
+      B:
+        move: run_on
+        span: none
+      D:
+        move: wrong_mark
+        span: ; but none
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma and a coordinating conjunction join two independent clauses, and the contrast here
+      calls for one.
+    trap: A has the comma without the conjunction, so the contrast is left to the reader and the grammar
+      is left broken.
+  - n: 409
+    id: C09-HIS-E09
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: The wartime sedition statutes were never squarely tested in the Supreme Court while the
+      fighting continued ___ convictions under them were of editors rather than of spies, and several
+      of those convictions were later set aside without any opinion being written at all.
+    rule: subordinate_boundary
+    rule_span: although most
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - although most
+    - ', most'
+    - most
+    - ; most
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', most'
+      C:
+        move: run_on
+        span: most
+      D:
+        move: wrong_mark
+        span: ; most
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
+      the boundary question, and the concession the sentence makes needs a subordinator to carry it.
+    trap: D uses a semicolon, which would be correct grammar and would lose the concession the sentence
+      is making.
+  - n: 410
+    id: C09-HIS-E10
+    chapter: 9
+    element: splice
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: The penny papers sold for a cent where the established papers sold for six and recovered
+      the difference from advertisers rather than from readers ___ has outlived every one of the papers
+      that invented it, and the editors who worked it out first were the ones who survived the decade.
+    rule: semicolon_boundary
+    rule_span: ; the model
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the model'
+    - the model
+    - ; the model
+    - ': the model'
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the model'
+      B:
+        move: run_on
+        span: the model
+      D:
+        move: wrong_mark
+        span: ': the model'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and after a first clause this long it keeps the
+      pair together where a period would break them apart.
+    trap: A is the splice the length of the first clause makes easy to miss.
+- domain: BIO
+  partno: 42
+  note_ar: 'الأحياء وعلوم الأرض هو المجال الأصلي لهذا الفصل: وصف العملية سلسلة من الجمل التامّة المتعاقبة،
+    فتتكرّر الحدود في كلّ سطر، والفاصلة المنقوطة هي أنسب ما يصلها.'
+  exercises:
+  - n: 411
+    id: C09-BIO-E01
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: Selection cannot create variation ___ can only work on what is already there.
+    rule: period_boundary
+    rule_span: . It
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', it'
+    - it
+    - . It
+    - ; and it
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', it'
+      B:
+        move: run_on
+        span: it
+      D:
+        move: wrong_mark
+        span: ; and it
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, which is what these two are.
+    trap: A joins two sentences with a comma, which is a splice however short they are.
+  - n: 412
+    id: C09-BIO-E02
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: Mendel published his ratios in 1866 ___ built on the paper for another thirty-five years.
+    rule: comma_conjunction
+    rule_span: ', but nobody'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', but nobody'
+    - ', nobody'
+    - nobody
+    - ; but nobody
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', nobody'
+      C:
+        move: run_on
+        span: nobody
+      D:
+        move: wrong_mark
+        span: ; but nobody
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma together with a coordinating conjunction joins two independent clauses, and the contrast
+      needs the conjunction.
+    trap: B supplies the comma without the conjunction, which a join between two full clauses cannot
+      do.
+  - n: 413
+    id: C09-BIO-E03
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: The inner membrane is folded into a surface many times the area of the outer one ___
+      folding is where the proton gradient is built.
+    rule: semicolon_boundary
+    rule_span: ; the
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - ; the
+    - the
+    - ': the'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      C:
+        move: run_on
+        span: the
+      D:
+        move: wrong_mark
+        span: ': the'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, which keeps a pair this closely related in one
+      sentence.
+    trap: D uses a colon, which announces an explanation rather than joining two equal clauses.
+  - n: 414
+    id: C09-BIO-E04
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: A lake loses nine tenths of the energy at every step of the food chain ___ fifth link
+      is almost unknown anywhere.
+    rule: period_boundary
+    rule_span: . A
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a'
+    - a
+    - ; and a
+    - . A
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', a'
+      B:
+        move: run_on
+        span: a
+      C:
+        move: wrong_mark
+        span: ; and a
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period is always available to separate two independent clauses, and nothing here rules
+      it out.
+    trap: C puts a semicolon and a conjunction together, which is one mark more than the join needs.
+  - n: 415
+    id: C09-BIO-E05
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: A population that has already outrun its food does not level off gently ___ crash can
+      carry it below what the habitat would support.
+    rule: subordinate_boundary
+    rule_span: because the
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - the
+    - because the
+    - ', because the'
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      B:
+        move: run_on
+        span: the
+      D:
+        move: overpunctuated
+        span: ', because the'
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
+      the boundary problem, since a subordinate clause needs no mark to attach it.
+    trap: D puts a comma in front of a restrictive because-clause, which needs no mark at all.
+  - n: 416
+    id: C09-BIO-E06
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: Koch could not apply his own postulates to the organisms that will not grow in a pure
+      culture ___ of them in particular has never been satisfied for a virus, and the test is still
+      the one he wrote.
+    rule: semicolon_boundary
+    rule_span: ; the fourth
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the fourth'
+    - ; the fourth
+    - the fourth
+    - ': the fourth'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the fourth'
+      C:
+        move: run_on
+        span: the fourth
+      D:
+        move: wrong_mark
+        span: ': the fourth'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses and keeps them in the one sentence the argument
+      needs.
+    trap: A is a splice that the length of the first clause makes easy to read past.
+  - n: 417
+    id: C09-BIO-E07
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: Industrial fixation made nitrogen cheap enough to spread by the ton on any field at all
+      ___ guano trade and the Chilean nitrate trade both collapsed inside a single decade.
+    rule: comma_conjunction
+    rule_span: ', and the'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', and the'
+    - ', the'
+    - the
+    - ; and the
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the'
+      C:
+        move: run_on
+        span: the
+      D:
+        move: wrong_mark
+        span: ; and the
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction joins two independent clauses, and the consequence
+      here wants the conjunction.
+    trap: B has the comma and no conjunction, which is the splice this chapter exists to catch.
+  - n: 418
+    id: C09-BIO-E08
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: The air in the bubbles at the bottom of a deep ice core was last in contact with the
+      atmosphere eight hundred thousand years ago ___ record reaches back further than any other direct
+      measurement we have.
+    rule: subordinate_boundary
+    rule_span: which is why the
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - the
+    - ; the
+    - which is why the
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      B:
+        move: run_on
+        span: the
+      C:
+        move: wrong_mark
+        span: ; the
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
+      it without any boundary mark and states the connection the sentence is drawing.
+    trap: C uses a semicolon, which is correct grammar and leaves the reader to supply the connection.
+  - n: 419
+    id: C09-BIO-E09
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: The channels that water cut across eastern Washington were read for fifty years as the
+      work of a slow river over millions of years ___ boulders the size of small houses that the water
+      had rolled were lying in plain sight sight the whole time, and nobody wanted to say what could
+      have moved them.
+    rule: semicolon_boundary
+    rule_span: ; the boulders
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the boulders'
+    - ; the boulders
+    - the boulders
+    - ': the boulders'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the boulders'
+      C:
+        move: run_on
+        span: the boulders
+      D:
+        move: wrong_mark
+        span: ': the boulders'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, which is what holds a contrast this long inside
+      one sentence.
+    trap: A is a comma splice across two very long clauses, which is where a splice is hardest to
+      see.
+  - n: 420
+    id: C09-BIO-E10
+    chapter: 9
+    element: splice
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: The overturning time of the ocean has to be measured in centuries rather than in decades
+      ___ tracer released into the surface of the North Atlantic in the early 1960s had still not
+      reached the deepest water of the Pacific when it was looked for again twenty years later.
+    rule: subordinate_boundary
+    rule_span: because the
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the'
+    - the
+    - ; the
+    - because the
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the'
+      B:
+        move: run_on
+        span: the
+      C:
+        move: wrong_mark
+        span: ; the
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
+      the boundary question and names the evidence the first clause rests on.
+    trap: C uses a semicolon, which joins the clauses correctly and says nothing about why the first
+      should be believed.
+- domain: PHY
+  partno: 43
+  note_ar: جمل العلوم الفيزيائية تضع القانون ثمّ نتيجته المقيسة في جملة واحدة، فكلٌّ منهما جملة تامّة
+    قائمة بنفسها. والفاصلة المنقوطة والنقطة كلتاهما تصلح للوصل بينهما، والفاصلة وحدها لا تصلح أبداً
+    مهما كان المعنى متّصلاً.
+  exercises:
+  - n: 421
+    id: C09-PHY-E01
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: A single reading settles very little ___ of eleven of them settles a great deal.
+    rule: period_boundary
+    rule_span: . The scatter
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the scatter'
+    - the scatter
+    - ; and the scatter
+    - . The scatter
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the scatter'
+      B:
+        move: run_on
+        span: the scatter
+      C:
+        move: wrong_mark
+        span: ; and the scatter
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, which is the simplest of the four joins and never
+      wrong.
+    trap: A joins two full clauses with a comma, which the shortness of each makes easy to accept.
+  - n: 422
+    id: C09-PHY-E02
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: The two forces on a resting book are equal in size ___ point in exactly opposite directions.
+    rule: comma_conjunction
+    rule_span: ', and they'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', they'
+    - ', and they'
+    - they
+    - ; and they
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', they'
+      C:
+        move: run_on
+        span: they
+      D:
+        move: wrong_mark
+        span: ; and they
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction is what joins two independent clauses of equal weight.
+    trap: A gives the comma and no conjunction, which a join between two full clauses cannot manage.
+  - n: 423
+    id: C09-PHY-E03
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: Energy is never destroyed in any process that has ever been measured ___ moves and spreads
+      and becomes harder to use than it was.
+    rule: period_boundary
+    rule_span: . It
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', it'
+    - it
+    - . It
+    - ; and it
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', it'
+      B:
+        move: run_on
+        span: it
+      D:
+        move: wrong_mark
+        span: ; and it
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: Two independent clauses may be separated by a period, and the second here is long enough
+      to stand alone.
+    trap: A puts a comma where a period or a semicolon belongs, which is the splice this chapter is
+      about.
+  - n: 424
+    id: C09-PHY-E04
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: A gas compressed faster than heat can leave the cylinder grows warmer ___ expanding against
+      a piston grows colder instead.
+    rule: semicolon_boundary
+    rule_span: ; the same gas
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ; the same gas
+    - ', the same gas'
+    - the same gas
+    - ': the same gas'
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the same gas'
+      C:
+        move: run_on
+        span: the same gas
+      D:
+        move: wrong_mark
+        span: ': the same gas'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and a pair as balanced as these belongs inside
+      one sentence.
+    trap: D uses a colon, which would promise that the second clause explains the first rather than
+      matching it.
+  - n: 425
+    id: C09-PHY-E05
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: Each lamp in a parallel circuit sees the whole of the battery voltage ___ of one of them
+      leaves the others alight.
+    rule: comma_conjunction
+    rule_span: ', and the failure'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the failure'
+    - the failure
+    - ; and the failure
+    - ', and the failure'
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the failure'
+      B:
+        move: run_on
+        span: the failure
+      C:
+        move: wrong_mark
+        span: ; and the failure
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma and a coordinating conjunction join two independent clauses, and the second fact
+      follows from the first.
+    trap: A drops the conjunction and leaves a comma holding two whole sentences together.
+  - n: 426
+    id: C09-PHY-E06
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: A prism always bends the short waves more than it bends the long ones ___ of the colors
+      in the band it throws on the wall never changes from one prism to the next.
+    rule: subordinate_boundary
+    rule_span: which is why the order
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the order'
+    - the order
+    - which is why the order
+    - ; the order
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the order'
+      B:
+        move: run_on
+        span: the order
+      D:
+        move: wrong_mark
+        span: ; the order
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
+      it without a mark and states the consequence the sentence is drawing.
+    trap: D uses a semicolon, which is correct and leaves the reader to work out why the second clause
+      follows at all.
+  - n: 427
+    id: C09-PHY-E07
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: Lavoisier weighed the sealed vessel before the reaction and again afterward and found
+      the very same mass both times ___ that burning destroys matter did not survive the decade.
+    rule: semicolon_boundary
+    rule_span: ; the idea
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the idea'
+    - ; the idea
+    - the idea
+    - ': the idea'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the idea'
+      C:
+        move: run_on
+        span: the idea
+      D:
+        move: wrong_mark
+        span: ': the idea'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and the second follows closely enough from the
+      first to stay in the sentence.
+    trap: A leaves a comma between two clauses either of which could have ended with a period.
+  - n: 428
+    id: C09-PHY-E08
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: A load that stays below the fatigue limit of a steel beam may be applied without end
+      ___ just above it will open a crack after a number of cycles that can be worked out in advance.
+    rule: period_boundary
+    rule_span: . A load
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - . A load
+    - ', a load'
+    - a load
+    - ; and a load
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', a load'
+      C:
+        move: run_on
+        span: a load
+      D:
+        move: wrong_mark
+        span: ; and a load
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and the contrast reads more sharply for the full
+      stop between them.
+    trap: B is a splice across a contrast, where the comma feels like the mark the sense is asking
+      for.
+  - n: 429
+    id: C09-PHY-E09
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: A radioactive nucleus has no way of recording how long it has already waited, so the
+      chance that it decays in the next second is the same whether it formed yesterday or a billion
+      years ago ___ of an aging nucleus has no meaning at all.
+    rule: subordinate_boundary
+    rule_span: and so the idea
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the idea'
+    - the idea
+    - and so the idea
+    - ; the idea
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the idea'
+      B:
+        move: run_on
+        span: the idea
+      D:
+        move: wrong_mark
+        span: ; the idea
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate connective attaches the last clause without any mark and names the conclusion
+      the two clauses before it support.
+    trap: D uses a semicolon after a sentence that already holds a comma and a conjunction, which
+      is grammatical and loses the inference.
+  - n: 430
+    id: C09-PHY-E10
+    chapter: 9
+    element: splice
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: A Cepheid gives away its true brightness by the time it takes to brighten and fade again,
+      and a plate full of anonymous points of light therefore became a measuring rod ___ that made
+      it possible still carries the name of the woman who found it.
+    rule: semicolon_boundary
+    rule_span: ; the relation
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ; the relation
+    - ', the relation'
+    - the relation
+    - ': the relation'
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the relation'
+      C:
+        move: run_on
+        span: the relation
+      D:
+        move: wrong_mark
+        span: ': the relation'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and after a first clause that already carries
+      a comma it is the only join that will not confuse.
+    trap: B would give the sentence three commas doing three different jobs, one of them a job no
+      comma can do.
+- domain: HUM
+  partno: 44
+  note_ar: 'جمل الإنسانيات توازن بين جملتين تامّتين: ما يقوله النصّ وما يفعله. وهذا التوازن هو أنسب
+    موضع للفاصلة المنقوطة، لأن النقطة تفصل ما أراد الكاتب وصله.'
+  exercises:
+  - n: 431
+    id: C09-HUM-E01
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: An unreliable narrator does not lie to the reader ___ leaves out what would damage him.
+    rule: comma_conjunction
+    rule_span: ', and he'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', and he'
+    - ', he'
+    - he
+    - ; and he
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', he'
+      C:
+        move: run_on
+        span: he
+      D:
+        move: wrong_mark
+        span: ; and he
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction joins two independent clauses, and the second qualifies
+      the first.
+    trap: B has the comma without the conjunction, which is the splice that sounds most natural of
+      all.
+  - n: 432
+    id: C09-HUM-E02
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: A character's stated reason is rarely the whole of her motive ___ is where the reader
+      does the work.
+    rule: semicolon_boundary
+    rule_span: ; the gap
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the gap'
+    - the gap
+    - ; the gap
+    - ': the gap'
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the gap'
+      B:
+        move: run_on
+        span: the gap
+      D:
+        move: wrong_mark
+        span: ': the gap'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, which is what a pair this closely paired needs.
+    trap: D uses a colon, which would announce an explanation where the two clauses stand side by
+      side.
+  - n: 433
+    id: C09-HUM-E03
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: A metaphor used often enough stops being felt as a figure at all ___ passes into the
+      language as a single word nobody looks twice at.
+    rule: period_boundary
+    rule_span: . It
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', it'
+    - it
+    - ; and it
+    - . It
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', it'
+      B:
+        move: run_on
+        span: it
+      C:
+        move: wrong_mark
+        span: ; and it
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and the second is long enough to want the full
+      stop.
+    trap: A joins two whole clauses with a comma, which is the error the chapter is named for.
+  - n: 434
+    id: C09-HUM-E04
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: The Italian sonnet turns at the ninth line of fourteen ___ in the English form arrives
+      two lines later and leaves a couplet behind it.
+    rule: comma_conjunction
+    rule_span: ', and the turn'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the turn'
+    - ', and the turn'
+    - the turn
+    - ; and the turn
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the turn'
+      C:
+        move: run_on
+        span: the turn
+      D:
+        move: wrong_mark
+        span: ; and the turn
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma together with a coordinating conjunction joins two independent clauses of equal standing.
+    trap: A leaves the comma to join two sentences by itself, which is what a comma cannot do.
+  - n: 435
+    id: C09-HUM-E05
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: The company at the Globe played in daylight to an audience standing on three sides ___
+      had as much say in the afternoon as the writing did.
+    rule: semicolon_boundary
+    rule_span: ; the weather
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ; the weather
+    - ', the weather'
+    - the weather
+    - ': the weather'
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the weather'
+      C:
+        move: run_on
+        span: the weather
+      D:
+        move: wrong_mark
+        span: ': the weather'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, keeping in one sentence a pair that belong together.
+    trap: D uses a colon, which promises that the second clause explains the first rather than adding
+      to it.
+  - n: 436
+    id: C09-HUM-E06
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: A detective novel written now cannot help commenting on the hundred that came before
+      it, and it borrows a shape it then declines to fill ___ who knows none of the hundred misses
+      half of what is going on.
+    rule: subordinate_boundary
+    rule_span: which is why a reader
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a reader'
+    - a reader
+    - ; a reader
+    - which is why a reader
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', a reader'
+      B:
+        move: run_on
+        span: a reader
+      C:
+        move: wrong_mark
+        span: ; a reader
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the last clause attaches
+      it without a mark and names the consequence the sentence has been building to.
+    trap: C uses a semicolon, which joins the clauses correctly and leaves the consequence unstated.
+  - n: 437
+    id: C09-HUM-E07
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: The academy ranked a history painting above every other kind of subject and painted it
+      at a scale no private buyer could hang ___ shown there at all had to be defended as a history
+      in disguise.
+    rule: period_boundary
+    rule_span: . A landscape
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a landscape'
+    - a landscape
+    - . A landscape
+    - ; and a landscape
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', a landscape'
+      B:
+        move: run_on
+        span: a landscape
+      D:
+        move: wrong_mark
+        span: ; and a landscape
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and after a first clause this long it gives the
+      reader somewhere to stop.
+    trap: A is a splice the length of the first clause makes easy to read straight past.
+  - n: 438
+    id: C09-HUM-E08
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: No two of the surviving copies of the parts agree with one another in every reading ___
+      who prepares a performing score has to choose, and has to say in a note which choice was made.
+    rule: semicolon_boundary
+    rule_span: ; an editor
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', an editor'
+    - ; an editor
+    - an editor
+    - ': an editor'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', an editor'
+      C:
+        move: run_on
+        span: an editor
+      D:
+        move: wrong_mark
+        span: ': an editor'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, which is what holds the problem and its consequence
+      in a single sentence.
+    trap: D uses a colon, which would make the second clause an explanation of the first rather than
+      what follows from it.
+  - n: 439
+    id: C09-HUM-E09
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: The viaduct was raised twenty feet above the shops that lined it so that the traffic
+      could pass without ever stopping ___ found another route inside thirty years, and the city has
+      since spent more on taking the structure down than it spent putting it up.
+    rule: comma_conjunction
+    rule_span: ', and the traffic'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the traffic'
+    - the traffic
+    - ; and the traffic
+    - ', and the traffic'
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the traffic'
+      B:
+        move: run_on
+        span: the traffic
+      C:
+        move: wrong_mark
+        span: ; and the traffic
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction joins two independent clauses, and the sentence needs
+      the conjunction to carry the irony.
+    trap: A has the comma and not the conjunction, and the length of the first clause hides it.
+  - n: 440
+    id: C09-HUM-E10
+    chapter: 9
+    element: splice
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: The critics who held that a poem's meaning is settled by the words on the page taught
+      two generations to read as though the author were unavailable ___ of asking what the poet had
+      intended outlived the argument against it by fifty years.
+    rule: subordinate_boundary
+    rule_span: because the habit
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the habit'
+    - because the habit
+    - the habit
+    - ; the habit
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the habit'
+      C:
+        move: run_on
+        span: the habit
+      D:
+        move: wrong_mark
+        span: ; the habit
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause removes
+      the boundary question and states why the teaching mattered less than it looked.
+    trap: D uses a semicolon, which is grammatical and leaves the two facts side by side with no relation
+      between them.
+- domain: SOC
+  partno: 45
+  note_ar: جمل العلوم الاجتماعية تقرن النتيجة بتفسيرها في جملة واحدة، وكلّ منهما جملة تامّة قائمة
+    بنفسها. والفاصلة وحدها بينهما خطأ شائع جدّاً في كتابة التقارير والأبحاث، وعليه بُني هذا الفصل
+    كلّه.
+  exercises:
+  - n: 441
+    id: C09-SOC-E01
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The wording of a question changes the answers it gets ___ of the options changes them
+      too.
+    rule: period_boundary
+    rule_span: . The order
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the order'
+    - . The order
+    - the order
+    - ; and the order
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', the order'
+      C:
+        move: run_on
+        span: the order
+      D:
+        move: wrong_mark
+        span: ; and the order
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and two findings of equal weight read best as
+      two sentences.
+    trap: A joins two whole clauses with a comma, which is the splice this chapter is about.
+  - n: 442
+    id: C09-SOC-E02
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: Matching two groups on the measured things leaves them unlike in the unmeasured ones
+      ___ does not have that problem.
+    rule: semicolon_boundary
+    rule_span: ; randomization
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', randomization'
+    - randomization
+    - ': randomization'
+    - ; randomization
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', randomization'
+      B:
+        move: run_on
+        span: randomization
+      C:
+        move: wrong_mark
+        span: ': randomization'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, which is right for a contrast this tight.
+    trap: C uses a colon, which would announce that the second clause explains the first instead of
+      contradicting it.
+  - n: 443
+    id: C09-SOC-E03
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: Two measurements can rise and fall together for years without either one causing the
+      other ___ variable may have been moving both of them all along.
+    rule: comma_conjunction
+    rule_span: ', and a third'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', and a third'
+    - ', a third'
+    - a third
+    - ; and a third
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', a third'
+      C:
+        move: run_on
+        span: a third
+      D:
+        move: wrong_mark
+        span: ; and a third
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma and a coordinating conjunction join two independent clauses, and the second explains
+      the first.
+    trap: B drops the conjunction and leaves the comma holding two sentences on its own.
+  - n: 444
+    id: C09-SOC-E04
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: A distribution with a long tail at one end pulls the mean away from the middle ___ numbers
+      are needed before anyone can picture it.
+    rule: period_boundary
+    rule_span: . Two
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', two'
+    - two
+    - . Two
+    - ; and two
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', two'
+      B:
+        move: run_on
+        span: two
+      D:
+        move: wrong_mark
+        span: ; and two
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and nothing about the pair makes the full stop
+      unavailable.
+    trap: A is a splice between a fact and its consequence, where a comma feels like enough.
+  - n: 445
+    id: C09-SOC-E05
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: Five dollars promised on completion of a questionnaire buys a worse response rate than
+      a smaller sum would ___ paid in advance does better than any promise.
+    rule: semicolon_boundary
+    rule_span: ; a dollar
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a dollar'
+    - ; a dollar
+    - a dollar
+    - ': a dollar'
+    key: B
+    faults:
+      A:
+        move: comma_splice
+        span: ', a dollar'
+      C:
+        move: run_on
+        span: a dollar
+      D:
+        move: wrong_mark
+        span: ': a dollar'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and the second is the surprising half of a pair
+      that belongs together.
+    trap: A is a comma splice between two findings, which a report would print without anyone noticing.
+  - n: 446
+    id: C09-SOC-E06
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: Seven confederates gave the same wrong answer calmly and in turn before anyone asked
+      the subject for his ___ had nothing at all to argue with and about a third of the time went
+      along with them.
+    rule: subordinate_boundary
+    rule_span: because the subject
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - because the subject
+    - ', the subject'
+    - the subject
+    - ; the subject
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the subject'
+      C:
+        move: run_on
+        span: the subject
+      D:
+        move: wrong_mark
+        span: ; the subject
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
+      it without a mark and states why the experiment worked as it did.
+    trap: D uses a semicolon, which joins the clauses correctly and leaves the reason for the reader
+      to guess.
+  - n: 447
+    id: C09-SOC-E07
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: A neighborhood laid out along a streetcar line kept the shape the line gave it long after
+      the cars had gone ___ were pulled up in the 1950s and nothing about the street was redrawn.
+    rule: comma_conjunction
+    rule_span: ', and the rails'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the rails'
+    - the rails
+    - ; and the rails
+    - ', and the rails'
+    key: D
+    faults:
+      A:
+        move: comma_splice
+        span: ', the rails'
+      B:
+        move: run_on
+        span: the rails
+      C:
+        move: wrong_mark
+        span: ; and the rails
+    ctx:
+      left_independent: true
+      mark_ok:
+      - comma
+      marks_expected: 1
+      right_independent: true
+    why: A comma with a coordinating conjunction joins two independent clauses, and the second fills
+      in the first.
+    trap: A has the comma and no conjunction, which is the error a long first clause conceals.
+  - n: 448
+    id: C09-SOC-E08
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: A count of unemployment that includes only the people still actively looking for work
+      understates how bad a long recession has been ___ that the monthly report publishes beside it
+      moves differently and is almost never quoted.
+    rule: semicolon_boundary
+    rule_span: ; the figure
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the figure'
+    - the figure
+    - ; the figure
+    - ': the figure'
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the figure'
+      B:
+        move: run_on
+        span: the figure
+      D:
+        move: wrong_mark
+        span: ': the figure'
+    ctx:
+      left_independent: true
+      mark_ok:
+      - semi
+      marks_expected: 1
+      right_independent: true
+    why: A semicolon joins two independent clauses, and the two measures belong in one sentence because
+      the point is the comparison.
+    trap: A is a splice between two long clauses, which is where a splice is hardest to see at all.
+  - n: 449
+    id: C09-SOC-E09
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: The share of income going to the richest households can be computed from tax returns
+      in some countries and only from household surveys in others ___ kinds of source disagree most
+      about exactly the households that the measure was designed to describe.
+    rule: subordinate_boundary
+    rule_span: which is why the two
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - which is why the two
+    - ', the two'
+    - the two
+    - ; the two
+    key: A
+    faults:
+      B:
+        move: comma_splice
+        span: ', the two'
+      C:
+        move: run_on
+        span: the two
+      D:
+        move: wrong_mark
+        span: ; the two
+    ctx:
+      left_independent: true
+      mark_ok: []
+      marks_expected: 0
+      right_independent: true
+    why: A subordinate clause attaches without a boundary mark, so making the second clause attaches
+      it without a mark and names the consequence the first clause has.
+    trap: D uses a semicolon, which is correct grammar and leaves the two halves standing side by
+      side without a relation.
+  - n: 450
+    id: C09-SOC-E10
+    chapter: 9
+    element: splice
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: People asked how likely a rare event is do not consult any record of how often it has
+      happened but ask instead how easily an example of it comes to mind ___ therefore follows what
+      the newspapers reported last week rather than what the century actually contains.
+    rule: period_boundary
+    rule_span: . The answer
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the answer'
+    - the answer
+    - . The answer
+    - ; and the answer
+    key: C
+    faults:
+      A:
+        move: comma_splice
+        span: ', the answer'
+      B:
+        move: run_on
+        span: the answer
+      D:
+        move: wrong_mark
+        span: ; and the answer
+    ctx:
+      left_independent: true
+      mark_ok:
+      - period
+      marks_expected: 1
+      right_independent: true
+    why: A period separates two independent clauses, and after a first clause of this length the reader
+      needs the stop.
+    trap: A joins two long clauses with a comma, which is the splice the whole chapter has been about.

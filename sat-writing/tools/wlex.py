@@ -515,8 +515,13 @@ DASH = '—–-'
 SUBJ_START = {'he', 'she', 'it', 'they', 'we', 'i', 'this', 'that', 'these', 'those',
               'the', 'a', 'an', 'its', 'their', 'his', 'her', 'such', 'both', 'each'}
 CONJ = {'and', 'but', 'or', 'nor', 'for', 'so', 'yet'}
+# Subordinators, including the relativizers. A relative clause is a subordinate
+# clause, so "which is why the ..." attaches without a boundary mark and is not a
+# run-on; without the relativizers here the run_on detector fired on keys that
+# subordinate the second clause with which or that.
 SUBORD = {'although', 'though', 'because', 'since', 'while', 'whereas', 'if', 'unless',
-          'after', 'before', 'when', 'whenever', 'until', 'as', 'once', 'where'}
+          'after', 'before', 'when', 'whenever', 'until', 'as', 'once', 'where',
+          'which', 'who', 'whom', 'whose', 'that', 'whereby', 'wherein'}
 
 
 def marks(s):
@@ -847,6 +852,10 @@ def _tests():
     eq(comma_splice('; it', ind), False, 'a semicolon is not a splice')
     eq(comma_splice(', it', {}), None, 'without a declared clause structure there is no verdict')
     eq(run_on(' it', ind), True, 'no mark at all between two clauses')
+    eq(run_on('which is why the', ind), False,
+       'a relative clause attaches without a mark and is not a run-on')
+    eq(comma_splice(', which is why the', ind), False,
+       'nor is a comma before a relative clause a splice')
     eq(run_on(', it', ind), False, 'a comma is not a run-on')
     eq(unpaired(', a geologist', dict(pair='comma')), True, 'one comma of a pair')
     eq(unpaired(', a geologist,', dict(pair='comma')), False, 'both commas present')

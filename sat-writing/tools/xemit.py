@@ -107,6 +107,22 @@ def token_run_in(span, text):
 AUX_ONLY = {'is', 'are', 'am', 'was', 'were', 'be', 'been', 'being', 'have', 'has',
             'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'can',
             'could', 'may', 'might', 'must', 'to'}
+# Junction material: the marks and connectives that a boundaries item is made of.
+# Its four options differ by exactly this and nothing else -- ", the" against
+# "; the" against "because the" against "the" -- so the bare run-on option is
+# inside every other one, and the containment rule would reject every item in
+# four chapters. A pair differing only by a mark or a connective is a punctuation
+# pair, not one option with words added, which is the tell the rule exists for.
+JUNCTION = {'and', 'but', 'or', 'nor', 'for', 'so', 'yet', 'although', 'though',
+            'because', 'since', 'while', 'whereas', 'if', 'unless', 'after',
+            'before', 'when', 'whenever', 'until', 'as', 'once', 'where', 'then',
+            'however', 'therefore', 'moreover', 'thus', 'nevertheless',
+            'which', 'who', 'whom', 'whose', 'that', 'why', 'how', 'what'}
+
+
+def _neutral(t):
+    return (t in AUX_ONLY or t in JUNCTION
+            or not any(c.isalnum() for c in t))
 
 
 def token_contains(a, b):
@@ -126,7 +142,7 @@ def token_contains(a, b):
     for i in range(len(low) - len(la) + 1):
         if low[i:i + len(la)] == la:
             extra = low[:i] + low[i + len(la):]
-            if all(t in AUX_ONLY for t in extra if t):
+            if all(_neutral(t) for t in extra if t):
                 continue
             return True
     return False
