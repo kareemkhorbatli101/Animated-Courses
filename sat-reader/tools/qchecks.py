@@ -711,8 +711,12 @@ def book_checks(passages, sets, qres):
     ck('I7 every answer-key explanation in the document', have and not keymiss,
        '%d missing' % len(keymiss))
     code = re.compile(r'(HIS|BIO|PHY|HUM|SOC)\s*·?\s*S\d\d')
-    multi = [i for i, p in enumerate(pages, 1) if len(code.findall(p)) > 1]
-    ck('I8 no page carries two passage codes', have and not multi, '%d pages' % len(multi))
+    # The rule is about the body: one passage to a page. Appendix E lists every
+    # passage's code beside its answer rows, so it is not in scope.
+    end = next((j for j, pg in enumerate(pages) if 'Appendix A' in pg), len(pages))
+    multi = [j for j, pg in enumerate(pages[:end], 1) if len(code.findall(pg)) > 1]
+    ck('I8 no body page carries two passage codes', have and not multi,
+       '%d of %d body pages' % (len(multi), end))
     ck('I9 the Arabic part headings present', bool(dxml) and all(
         arnorm(AR['part_headings'][p]) in dxn for p in AR['parts']))
     ck('I10 page count inside the declared band',
