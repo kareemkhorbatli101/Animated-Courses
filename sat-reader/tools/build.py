@@ -186,6 +186,9 @@ def question_label(q):
 
 
 def one_question(doc, n, q):
+    # Every paragraph of a question is collected and then pinned together, so that a
+    # stem never appears at the foot of a page with its four options overleaf. A
+    # question is at most about a third of a page, so nothing is forced to break.
     kept = []
     head = doc.add_paragraph()
     head.paragraph_format.space_before = Pt(7)
@@ -205,11 +208,11 @@ def one_question(doc, n, q):
     r2.font.color.rgb = RGBColor(0x99, 0x99, 0x99)
 
     if q['type'] == 'cross_text':
-        para(doc, disp(q['sibling_gloss']), size=9.5, indent=0.22, after=4, italic=True,
-             grey=True)
+        kept.append(para(doc, disp(q['sibling_gloss']), size=9.5, indent=0.22, after=4,
+                         italic=True, grey=True))
     if q['type'] == 'synthesis':
-        para(doc, 'While researching a topic, a student has taken the following notes.',
-             size=9.5, indent=0.22, after=2, grey=True)
+        kept.append(para(doc, 'While researching a topic, a student has taken the following '
+                              'notes.', size=9.5, indent=0.22, after=2, grey=True))
         for note in q['notes']:
             b = doc.add_paragraph()
             b.paragraph_format.left_indent = Inches(0.42)
@@ -217,11 +220,12 @@ def one_question(doc, n, q):
             rr = b.add_run('•  ' + disp(note))
             rr.font.size = Pt(9.5)
             rr.font.name = SERIF
-        doc.add_paragraph().paragraph_format.space_after = Pt(2)
+            kept.append(b)
+        gap = doc.add_paragraph()
+        gap.paragraph_format.space_after = Pt(2)
+        kept.append(gap)
     if q.get('carrier'):
-        para(doc, disp(q['carrier']), size=10, indent=0.22, after=4)
-    if q.get('claim'):
-        pass
+        kept.append(para(doc, disp(q['carrier']), size=10, indent=0.22, after=4))
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.22)
@@ -229,6 +233,7 @@ def one_question(doc, n, q):
     rs = p.add_run(disp(q['stem']))
     rs.font.size = Pt(10.5)
     rs.font.name = SERIF
+    kept.append(p)
 
     for i, o in enumerate(q['options']):
         op = doc.add_paragraph()
@@ -243,6 +248,11 @@ def one_question(doc, n, q):
         ro = op.add_run(disp(o))
         ro.font.size = Pt(10)
         ro.font.name = SERIF
+        kept.append(op)
+    for pp in kept:
+        pp.paragraph_format.keep_together = True
+    for pp in kept[:-1]:
+        pp.paragraph_format.keep_with_next = True
 
 
 def question_pages(doc, x, qset):
