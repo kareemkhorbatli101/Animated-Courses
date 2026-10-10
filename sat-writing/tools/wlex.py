@@ -405,6 +405,25 @@ def poss_for_plural(span, key):
     return any(c in APOS for c in span)
 
 
+def wrong_plural(span, key):
+    """A singular where the plural is due, or the reverse, with no apostrophe in it.
+
+    The canonical item in this chapter offers all four of author, authors,
+    author's and authors', and one of the four is wrong on number alone with no
+    apostrophe anywhere in it. That is a distinct error from any misplaced
+    apostrophe and it needed a name of its own.
+    """
+    if any(c in APOS for c in span) or any(c in APOS for c in key):
+        return None
+    a, b = span.strip().lower(), key.strip().lower()
+    if a == b:
+        return False
+    for x, y in ((a, b), (b, a)):
+        if y.startswith(x) and y[len(x):] in ('s', 'es'):
+            return True
+    return False
+
+
 # ---------------------------------------------------------------------------
 # punctuation and boundaries
 # ---------------------------------------------------------------------------
@@ -562,6 +581,7 @@ PREDICATES = {
     'poss_misplaced':    ('key', poss_misplaced),
     'plural_for_poss':   ('key', plural_for_poss),
     'poss_for_plural':   ('key', poss_for_plural),
+    'wrong_plural':      ('key', wrong_plural),
     'fragment':          ('ctx', fragment),
     'nonfinite_only':    ('ctx', nonfinite_only),
     'comma_splice':      ('ctx', comma_splice),
@@ -703,6 +723,11 @@ def _tests():
     eq(plural_for_poss('composers', "composer's"), True, 'a plain plural for a possessive')
     eq(poss_for_plural("composer's", 'composers'), True, 'an apostrophe on a plain plural')
     eq(poss_for_plural('composers', 'composers'), False, 'a plain plural where one is due')
+    eq(wrong_plural('composer', 'composers'), True, 'a singular where the plural is due')
+    eq(wrong_plural('composers', 'composer'), True, 'a plural where the singular is due')
+    eq(wrong_plural('composers', 'composers'), False, 'the number the sentence asks for')
+    eq(wrong_plural("composer's", 'composers'), None,
+       'an apostrophe makes it a different fault, not a number fault')
 
     # boundaries
     ind = dict(left_independent=True, right_independent=True)

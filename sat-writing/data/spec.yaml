@@ -110,7 +110,7 @@ chapters:
     rules: [sing_possessive, plural_possessive, plural_plain, irregular_plural_poss,
             joint_possession, its_possessive]
     hardest: [plural_possessive, irregular_plural_poss, joint_possession]
-    moves: [poss_missing, poss_misplaced, plural_for_poss, poss_for_plural]
+    moves: [poss_missing, poss_misplaced, plural_for_poss, poss_for_plural, wrong_plural]
   6:
     element: modifier
     title: "Modifier placement"

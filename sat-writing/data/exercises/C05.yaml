@@ -1,0 +1,1764 @@
+# Chapter 5 - Plural and possessive nouns. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 5
+element: poss
+title: Plural and possessive nouns
+home: HUM
+summary_ar:
+  qaida: الجمع والملكية بابان يُختبران معاً لأن الفاصلة العليا هي ما يفرّق بينهما. فالاسم المفرد المالك
+    يأخذ فاصلة عليا ثمّ سيناً، والجمع المنتهي بسين يأخذ الفاصلة بعد السين لا قبلها، والجمع الذي لا
+    يملك شيئاً لا يأخذ فاصلة أصلاً. وجمع التكسير الذي لا ينتهي بسين يأخذ فاصلة ثمّ سيناً كالمفرد.
+  kayf: 'يعرض الاختبار أربع صور للكلمة الواحدة: المفرد، والجمع، والمفرد المالك، والجمع المالك. فالسؤال
+    ليس هل تعرف القاعدة بل أيّ المعاني أرادته الجملة: واحد يملك، أم كثير يملك، أم كثير لا يملك.'
+  fakh: 'الفخّ أن الصور الأربع تُلفظ لفظاً واحداً تقريباً، فلا يفيد السمع شيئاً. والعلاج أن تسأل سؤالين:
+    هل بعد الكلمة اسم مملوك؟ وهل المالك واحد أم أكثر؟ فجواب السؤالين يعيّن الصورة تعييناً لا يحتمل
+    غيره.'
+  sila: 'الجمع والملكية من أكثر أبواب قواعد الإنجليزية المعيارية تكراراً في اختبار سات، وأقلّها احتياجاً
+    إلى حفظ: قاعدتان فقط تحكمان الصور الأربع. وتعود الفاصلة العليا في فصل العبارات المعترضة حيث تُستعمل
+    لغرض آخر تماماً.'
+parts:
+- domain: HIS
+  partno: 21
+  note_ar: 'جمل التاريخ والنظام المدني مليئة بالمالكين الجماعيين: مطالب العمّال، وحجج الموقّعين، وقرارات
+    المحكمة. وهذه كلّها جموع مالكة، وهي أصعب الصور الأربع لأن السين موجودة قبل الفاصلة.'
+  exercises:
+  - n: 201
+    id: C05-HIS-E01
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: The fifty-six ___ who signed the Declaration did not all sign on the same day.
+    rule: plural_plain
+    rule_span: signers
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - signer's
+    - signers
+    - signers'
+    - signer
+    key: B
+    faults:
+      A:
+        move: poss_for_plural
+        span: signer's
+      C:
+        move: poss_for_plural
+        span: signers'
+      D:
+        move: wrong_plural
+        span: signer
+    ctx: {}
+    why: The word is a plain plural that possesses nothing, so it takes no apostrophe.
+    trap: C looks like the careful choice because the noun is plural, but a plural owning nothing
+      needs no mark.
+  - n: 202
+    id: C05-HIS-E02
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: The ___ veto can be overridden only by a two-thirds vote in both chambers.
+    rule: sing_possessive
+    rule_span: President's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Presidents
+    - Presidents'
+    - President
+    - President's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: Presidents
+      B:
+        move: poss_misplaced
+        span: Presidents'
+      C:
+        move: poss_missing
+        span: President
+    ctx: {}
+    why: One officeholder owns the veto, so the noun takes the singular possessive form, apostrophe
+      before the s.
+    trap: B puts the apostrophe after the s, which would mean several presidents share one veto.
+  - n: 203
+    id: C05-HIS-E03
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The early ___ requirements for citizenship included two years of residence and good moral
+      character, and a petition to drop the racial bar failed in 1795.
+    rule: plural_possessive
+    rule_span: statutes'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - statutes'
+    - statute's
+    - statutes
+    - statute
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: statute's
+      C:
+        move: plural_for_poss
+        span: statutes
+      D:
+        move: poss_missing
+        span: statute
+    ctx: {}
+    why: Several statutes own the requirements, so the plural possessive takes the apostrophe after
+      the s that is already there.
+    trap: B marks one statute as the owner, which the word early and the plural requirements both
+      contradict.
+  - n: 204
+    id: C05-HIS-E04
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: An argument resting on natural rights draws ___ force from a premise that its opponents
+      also accept, which is why abolitionists used it so often.
+    rule: its_possessive
+    rule_span: its
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it's
+    - its'
+    - its
+    - it
+    key: C
+    faults:
+      A:
+        move: poss_for_plural
+        span: it's
+      B:
+        move: poss_for_plural
+        span: its'
+      D:
+        move: wrong_plural
+        span: it
+    ctx: {}
+    why: Its is the possessive form of it and carries no apostrophe at all, unlike every noun in this
+      chapter.
+    trap: A is the contraction of it is, which cannot stand in front of a noun it is meant to own.
+  - n: 205
+    id: C05-HIS-E05
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: The ___ enforcement clause is what later Congresses relied on, once the courts had emptied
+      the rest of it of content.
+    rule: sing_possessive
+    rule_span: amendment's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - amendments
+    - amendment's
+    - amendments'
+    - amendment
+    key: B
+    faults:
+      A:
+        move: plural_for_poss
+        span: amendments
+      C:
+        move: poss_misplaced
+        span: amendments'
+      D:
+        move: poss_missing
+        span: amendment
+    ctx: {}
+    why: One amendment owns the clause, so the singular possessive is right, with the apostrophe before
+      the s.
+    trap: C would make several amendments share a single enforcement clause, which is not what the
+      sentence says.
+  - n: 206
+    id: C05-HIS-E06
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: The ___ demands at Homestead were for recognition rather than for wages, and the company's
+      refusal to recognize the union was what the strike was finally about.
+    rule: plural_possessive
+    rule_span: strikers'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - strikers'
+    - striker's
+    - strikers
+    - striker
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: striker's
+      C:
+        move: plural_for_poss
+        span: strikers
+      D:
+        move: poss_missing
+        span: striker
+    ctx: {}
+    why: Many strikers own the demands, so the plural possessive puts the apostrophe after the existing
+      s.
+    trap: C drops the apostrophe entirely and leaves the demands belonging to nobody.
+  - n: 207
+    id: C05-HIS-E07
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: The brief that won the school cases was ___ joint work, and neither man would afterward
+      claim the larger share of it in public, though their collaborators disagreed about who had done
+      what.
+    rule: joint_possession
+    rule_span: Marshall and Houston's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Marshall's and Houston's
+    - Marshall and Houstons
+    - Marshall and Houston
+    - Marshall and Houston's
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: Marshall's and Houston's
+      B:
+        move: plural_for_poss
+        span: Marshall and Houstons
+      C:
+        move: poss_missing
+        span: Marshall and Houston
+    ctx: {}
+    why: One brief belongs to both men together, and joint possession marks only the last name in
+      the pair.
+    trap: A marks both names and so says each man had a brief of his own, which the word joint denies.
+  - n: 208
+    id: C05-HIS-E08
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: The ___ suffrage campaign split in 1869 over whether to support an amendment that enfranchised
+      black men and left women out, and the two wings did not reunite for twenty years.
+    rule: irregular_plural_poss
+    rule_span: women's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - women
+    - womens
+    - women's
+    - womens'
+    key: C
+    faults:
+      A:
+        move: poss_missing
+        span: women
+      B:
+        move: plural_for_poss
+        span: womens
+      D:
+        move: poss_misplaced
+        span: womens'
+    ctx: {}
+    why: Women is already an irregular plural and does not end in s, so it takes an apostrophe and
+      then an s, exactly as a singular would.
+    trap: D treats women as though it were a regular plural ending in s and puts the apostrophe after
+      a letter that is not there.
+  - n: 209
+    id: C05-HIS-E09
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: The ___ convictions under the wartime sedition statutes were mostly of editors rather
+      than of spies, and the Supreme Court, which upheld the statutes while the war lasted, never
+      squarely reconsidered them once it had ended.
+    rule: plural_possessive
+    rule_span: defendants'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - defendants'
+    - defendant's
+    - defendants
+    - defendant
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: defendant's
+      C:
+        move: plural_for_poss
+        span: defendants
+      D:
+        move: poss_missing
+        span: defendant
+    ctx: {}
+    why: Many defendants own the convictions, so the plural possessive places the apostrophe after
+      the s.
+    trap: B marks a single defendant as the owner of convictions the sentence counts in the plural
+      throughout.
+  - n: 210
+    id: C05-HIS-E10
+    chapter: 5
+    element: poss
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: The partnership that built the first penny papers was ___ idea before it was anyone else's,
+      and the model of selling cheaply to a large audience and recovering the cost from advertisers
+      outlived both of them by a century and a half.
+    rule: joint_possession
+    rule_span: Day and Bennett's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Day's and Bennett's
+    - Day and Bennetts
+    - Day and Bennett's
+    - Day and Bennett
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: Day's and Bennett's
+      B:
+        move: plural_for_poss
+        span: Day and Bennetts
+      D:
+        move: poss_missing
+        span: Day and Bennett
+    ctx: {}
+    why: The idea belonged to the two of them together, and joint possession marks only the second
+      name.
+    trap: A marks each name separately, which would give the two men one idea apiece rather than one
+      between them.
+- domain: BIO
+  partno: 22
+  note_ar: جمل الأحياء وعلوم الأرض تستعمل جموعاً شاذّة لا تنتهي بسين، مثل البكتيريا والأنوية واليرقات،
+    وهذه تأخذ الفاصلة ثمّ السين كالمفرد تماماً، وهو ما يخالف توقّع الطالب.
+  exercises:
+  - n: 211
+    id: C05-BIO-E01
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: A ___ fitness is measured by the offspring it leaves, not by how long it lives.
+    rule: sing_possessive
+    rule_span: organism's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - organisms
+    - organisms'
+    - organism's
+    - organism
+    key: C
+    faults:
+      A:
+        move: plural_for_poss
+        span: organisms
+      B:
+        move: poss_misplaced
+        span: organisms'
+      D:
+        move: poss_missing
+        span: organism
+    ctx: {}
+    why: One organism owns the fitness, so the singular possessive is right, with the apostrophe before
+      the s.
+    trap: B puts the apostrophe after the s and so hands the fitness to a group rather than to the
+      single organism the sentence names.
+  - n: 212
+    id: C05-BIO-E02
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: The seven ___ that Mendel followed each sorted independently of the other six.
+    rule: plural_plain
+    rule_span: traits
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - traits
+    - trait's
+    - traits'
+    - trait
+    key: A
+    faults:
+      B:
+        move: poss_for_plural
+        span: trait's
+      C:
+        move: poss_for_plural
+        span: traits'
+      D:
+        move: wrong_plural
+        span: trait
+    ctx: {}
+    why: The word is a plain plural owning nothing, so it takes no apostrophe at all.
+    trap: C is the form a writer reaches for when a noun is plural, though plurality alone never calls
+      for a mark.
+  - n: 213
+    id: C05-BIO-E03
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: A mitochondrion folds ___ inner membrane so tightly that the surface inside it is many
+      times the area of the smooth outer one.
+    rule: its_possessive
+    rule_span: its
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it's
+    - its
+    - its'
+    - it
+    key: B
+    faults:
+      A:
+        move: poss_for_plural
+        span: it's
+      C:
+        move: poss_for_plural
+        span: its'
+      D:
+        move: wrong_plural
+        span: it
+    ctx: {}
+    why: Its is the possessive of it and takes no apostrophe, which is the one noun-like word in English
+      that works this way.
+    trap: A is the contraction of it is and cannot own the membrane that follows it.
+  - n: 214
+    id: C05-BIO-E04
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: The ___ energy losses at each step are what keep a food chain short, and a fifth link
+      is rare in any ecosystem that has been measured.
+    rule: plural_possessive
+    rule_span: consumers'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - consumer's
+    - consumers
+    - consumer
+    - consumers'
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: consumer's
+      B:
+        move: plural_for_poss
+        span: consumers
+      C:
+        move: poss_missing
+        span: consumer
+    ctx: {}
+    why: Many consumers own the losses, so the plural possessive puts the apostrophe after the s already
+      there.
+    trap: A marks one consumer, which the plural losses and the phrase at each step both rule out.
+  - n: 215
+    id: C05-BIO-E05
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: A ___ growth outruns its food supply before any gentle levelling off can happen, and
+      the crash that follows can carry it below the level the habitat would support.
+    rule: sing_possessive
+    rule_span: population's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - populations
+    - populations'
+    - population's
+    - population
+    key: C
+    faults:
+      A:
+        move: plural_for_poss
+        span: populations
+      B:
+        move: poss_misplaced
+        span: populations'
+      D:
+        move: poss_missing
+        span: population
+    ctx: {}
+    why: One population owns the growth, as its later in the sentence confirms, so the singular possessive
+      is right.
+    trap: A drops the apostrophe and leaves growth belonging to nothing, which reads smoothly and
+      says nothing.
+  - n: 216
+    id: C05-BIO-E06
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: The ___ role in disease was not accepted until Koch could show that one organism grown
+      in pure culture produced one illness, and the postulates he wrote are still the test.
+    rule: irregular_plural_poss
+    rule_span: bacteria's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - bacteria
+    - bacteria's
+    - bacterias
+    - bacterias'
+    key: B
+    faults:
+      A:
+        move: poss_missing
+        span: bacteria
+      C:
+        move: plural_for_poss
+        span: bacterias
+      D:
+        move: poss_misplaced
+        span: bacterias'
+    ctx: {}
+    why: Bacteria is already an irregular plural and does not end in s, so it takes an apostrophe
+      and then an s.
+    trap: C invents a second plural ending for a word that is plural already, and then drops the mark
+      of possession as well.
+  - n: 217
+    id: C05-BIO-E07
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: The ___ nitrogen comes from bacteria housed in nodules on the roots rather than from
+      the soil, and a field of them leaves the ground richer than it found it.
+    rule: plural_possessive
+    rule_span: legumes'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - legumes'
+    - legume's
+    - legumes
+    - legume
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: legume's
+      C:
+        move: plural_for_poss
+        span: legumes
+      D:
+        move: poss_missing
+        span: legume
+    ctx: {}
+    why: Many legumes own the nitrogen, so the plural possessive places the apostrophe after the s.
+    trap: C leaves out the apostrophe, which turns the owner into a bare plural and the sentence into
+      a list.
+  - n: 218
+    id: C05-BIO-E08
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: The first clear account of the carbon cycle in the deep ocean was ___ work, and the two
+      of them published it together after a decade of measurements that neither could have made alone.
+    rule: joint_possession
+    rule_span: Revelle and Suess's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Revelle's and Suess's
+    - Revelle and Suesses
+    - Revelle and Suess
+    - Revelle and Suess's
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: Revelle's and Suess's
+      B:
+        move: plural_for_poss
+        span: Revelle and Suesses
+      C:
+        move: poss_missing
+        span: Revelle and Suess
+    ctx: {}
+    why: One account belongs to both men, and joint possession marks only the second name in the pair.
+    trap: A marks each name and so describes two separate accounts, which together later in the sentence
+      denies.
+  - n: 219
+    id: C05-BIO-E09
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: The ___ arrangement in a rock tells a geologist the order in which the layers were laid
+      down, and an overturned sequence, where the oldest sits on top, is itself the evidence that
+      the whole block has been folded right over.
+    rule: irregular_plural_poss
+    rule_span: strata's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - stratas
+    - strata's
+    - strata
+    - stratas'
+    key: B
+    faults:
+      A:
+        move: plural_for_poss
+        span: stratas
+      C:
+        move: poss_missing
+        span: strata
+      D:
+        move: poss_misplaced
+        span: stratas'
+    ctx: {}
+    why: Strata is an irregular plural that does not end in s, so it takes an apostrophe and then
+      an s, as a singular would.
+    trap: D adds a regular plural ending and then marks possession after it, going wrong twice in
+      one word.
+  - n: 220
+    id: C05-BIO-E10
+    chapter: 5
+    element: poss
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: The ___ circulation times differ by a factor of ten, and a tracer put into the North
+      Atlantic in the 1960s has still not reached the deepest water of the Pacific, which is why one
+      measurement cannot stand for the ocean as a whole.
+    rule: plural_possessive
+    rule_span: basins'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - basin's
+    - basins
+    - basin
+    - basins'
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: basin's
+      B:
+        move: plural_for_poss
+        span: basins
+      C:
+        move: poss_missing
+        span: basin
+    ctx: {}
+    why: Several basins own the circulation times, so the plural possessive puts the apostrophe after
+      the s.
+    trap: A marks a single basin, which the plural times and the comparison between oceans both exclude.
+- domain: PHY
+  partno: 23
+  note_ar: جمل العلوم الفيزيائية تضيف أسماء القياسات والأجهزة بعضها إلى بعض، فتتوالى صور الملكية.
+    وتستعمل كذلك جموعاً لاتينية شاذّة مثل الأنوية والأوساط، وحكمها حكم جمع التكسير.
+  exercises:
+  - n: 221
+    id: C05-PHY-E01
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: A ___ uncertainty must be reported with it, or the number means very little.
+    rule: sing_possessive
+    rule_span: measurement's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - measurements
+    - measurements'
+    - measurement
+    - measurement's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: measurements
+      B:
+        move: poss_misplaced
+        span: measurements'
+      C:
+        move: poss_missing
+        span: measurement
+    ctx: {}
+    why: One measurement owns the uncertainty, so the singular possessive takes the apostrophe before
+      the s.
+    trap: B hands one uncertainty to several measurements, which the singular it later contradicts.
+  - n: 222
+    id: C05-PHY-E02
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: A pendulum keeps time by ___ length alone, whatever mass is hung at the bottom of it.
+    rule: its_possessive
+    rule_span: its
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - it's
+    - its
+    - it
+    - its'
+    key: B
+    faults:
+      A:
+        move: poss_for_plural
+        span: it's
+      C:
+        move: wrong_plural
+        span: it
+      D:
+        move: poss_for_plural
+        span: its'
+    ctx: {}
+    why: Its is the possessive form of it and takes no apostrophe, unlike every noun in this chapter.
+    trap: A is the contraction of it is, which cannot own the length that follows it.
+  - n: 223
+    id: C05-PHY-E03
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: The two ___ acting on a book at rest on a table are equal in size and opposite in direction,
+      and neither of them is the cause of the other.
+    rule: plural_plain
+    rule_span: forces
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - force's
+    - forces'
+    - forces
+    - force
+    key: C
+    faults:
+      A:
+        move: poss_for_plural
+        span: force's
+      B:
+        move: poss_for_plural
+        span: forces'
+      D:
+        move: wrong_plural
+        span: force
+    ctx: {}
+    why: The word is a plain plural owning nothing, so it takes no apostrophe.
+    trap: B adds the mark a plural possessive would carry, though nothing here is owned by the forces.
+  - n: 224
+    id: C05-PHY-E04
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: The ___ efficiencies are bounded by the temperatures they work between, and no amount
+      of engineering moves the limit that Carnot worked out in 1824.
+    rule: plural_possessive
+    rule_span: engines'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - engines'
+    - engines
+    - engine's
+    - engine
+    key: A
+    faults:
+      B:
+        move: plural_for_poss
+        span: engines
+      C:
+        move: poss_misplaced
+        span: engine's
+      D:
+        move: poss_missing
+        span: engine
+    ctx: {}
+    why: Several engines own the efficiencies, so the plural possessive places the apostrophe after
+      the s.
+    trap: C marks one engine, though the sentence counts efficiencies and temperatures in the plural.
+  - n: 225
+    id: C05-PHY-E05
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: A ___ resistance depends on the material it is made of and on how long and thin it is,
+      and nothing else about it matters to the current at all.
+    rule: sing_possessive
+    rule_span: wire's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - wires
+    - wires'
+    - wire
+    - wire's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: wires
+      B:
+        move: poss_misplaced
+        span: wires'
+      C:
+        move: poss_missing
+        span: wire
+    ctx: {}
+    why: One wire owns the resistance, as it is made of later confirms, so the singular possessive
+      is right.
+    trap: A drops the apostrophe altogether and reads as a list of wires rather than a property of
+      one.
+  - n: 226
+    id: C05-PHY-E06
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: The ___ wavelengths are what a prism separates, and the order of the colors never changes
+      because the glass always bends the short waves more than the long.
+    rule: plural_possessive
+    rule_span: colors'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - color's
+    - colors
+    - colors'
+    - color
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: color's
+      B:
+        move: plural_for_poss
+        span: colors
+      D:
+        move: poss_missing
+        span: color
+    ctx: {}
+    why: The several colors own the wavelengths, so the plural possessive puts the apostrophe after
+      the s.
+    trap: A marks a single color as the owner of wavelengths the sentence keeps in the plural.
+  - n: 227
+    id: C05-PHY-E07
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: The ___ binding energies rise steeply through the lightest elements and then fall away
+      slowly, which is why both fusion at the bottom and fission at the top release energy.
+    rule: irregular_plural_poss
+    rule_span: nuclei's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - nucleis
+    - nuclei's
+    - nuclei
+    - nucleis'
+    key: B
+    faults:
+      A:
+        move: plural_for_poss
+        span: nucleis
+      C:
+        move: poss_missing
+        span: nuclei
+      D:
+        move: poss_misplaced
+        span: nucleis'
+    ctx: {}
+    why: Nuclei is an irregular plural that does not end in s, so it takes an apostrophe and then
+      an s.
+    trap: A adds a second plural ending to a word already plural and drops the mark of possession
+      as well.
+  - n: 228
+    id: C05-PHY-E08
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: The first reliable distance to another galaxy came out of ___ joint work, one of them
+      timing the variable stars on the plates and the other measuring how bright they were.
+    rule: joint_possession
+    rule_span: Leavitt and Shapley's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Leavitt and Shapley's
+    - Leavitt's and Shapley's
+    - Leavitt and Shapleys
+    - Leavitt and Shapley
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: Leavitt's and Shapley's
+      C:
+        move: plural_for_poss
+        span: Leavitt and Shapleys
+      D:
+        move: poss_missing
+        span: Leavitt and Shapley
+    ctx: {}
+    why: The work belonged to both of them together, and joint possession marks only the second name.
+    trap: B marks both names and so describes two separate bodies of work rather than the one the
+      sentence calls joint.
+  - n: 229
+    id: C05-PHY-E09
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: The ___ fatigue limits are what an engineer designs to, and a load that stays below the
+      limit may be applied without end while one just above it will open a crack after a number of
+      cycles that can be counted in advance.
+    rule: plural_possessive
+    rule_span: alloys'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - alloy's
+    - alloys
+    - alloys'
+    - alloy
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: alloy's
+      B:
+        move: plural_for_poss
+        span: alloys
+      D:
+        move: poss_missing
+        span: alloy
+    ctx: {}
+    why: Several alloys own the limits, so the plural possessive puts the apostrophe after the s that
+      is already there.
+    trap: A marks one alloy as the owner of limits the sentence counts in the plural.
+  - n: 230
+    id: C05-PHY-E10
+    chapter: 5
+    element: poss
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: A ___ period, once it has been timed on a long enough series of plates, gives away the
+      true brightness of the star, and that single fact turned a photographic plate full of anonymous
+      points of light into a measuring rod that reached out of the galaxy altogether.
+    rule: sing_possessive
+    rule_span: Cepheid's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Cepheid's
+    - Cepheids
+    - Cepheids'
+    - Cepheid
+    key: A
+    faults:
+      B:
+        move: plural_for_poss
+        span: Cepheids
+      C:
+        move: poss_misplaced
+        span: Cepheids'
+      D:
+        move: poss_missing
+        span: Cepheid
+    ctx: {}
+    why: One star owns the period, so the singular possessive is right, with the apostrophe standing
+      before the s.
+    trap: C puts the apostrophe after the s and so hands one period to a whole class of stars.
+- domain: HUM
+  partno: 24
+  note_ar: 'الإنسانيات هي المجال الأصلي لهذا الفصل: أسماء المؤلّفين والملحّنين تُضاف إليها أعمالهم
+    في كلّ سطر، ومعها جموع شاذّة مثل النساء والأطفال، ومعها الملكية المشتركة بين مؤلّفين اثنين. فالصور
+    الأربع كلّها حاضرة هنا في جملة واحدة أحياناً.'
+  exercises:
+  - n: 231
+    id: C05-HUM-E01
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: A ___ reliability is something a reader has to judge from inside the story.
+    rule: sing_possessive
+    rule_span: narrator's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - narrator's
+    - narrators
+    - narrators'
+    - narrator
+    key: A
+    faults:
+      B:
+        move: plural_for_poss
+        span: narrators
+      C:
+        move: poss_misplaced
+        span: narrators'
+      D:
+        move: poss_missing
+        span: narrator
+    ctx: {}
+    why: One narrator owns the reliability, so the singular possessive takes the apostrophe before
+      the s.
+    trap: C puts the apostrophe after the s and so attributes one reliability to a crowd of narrators.
+  - n: 232
+    id: C05-HUM-E02
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: The ___ a novelist gives a character are usually left for the reader to infer.
+    rule: plural_plain
+    rule_span: motives
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - motive's
+    - motives'
+    - motives
+    - motive
+    key: C
+    faults:
+      A:
+        move: poss_for_plural
+        span: motive's
+      B:
+        move: poss_for_plural
+        span: motives'
+      D:
+        move: wrong_plural
+        span: motive
+    ctx: {}
+    why: The word is a plain plural owning nothing, so no apostrophe belongs on it.
+    trap: B is the plural possessive, which looks careful but gives the motives something to own that
+      the sentence never names.
+  - n: 233
+    id: C05-HUM-E03
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: A ___ two halves stop being felt as two when the figure has been used often enough, and
+      the phrase then passes into the language as a single word.
+    rule: sing_possessive
+    rule_span: metaphor's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - metaphors
+    - metaphors'
+    - metaphor
+    - metaphor's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: metaphors
+      B:
+        move: poss_misplaced
+        span: metaphors'
+      C:
+        move: poss_missing
+        span: metaphor
+    ctx: {}
+    why: One metaphor owns the two halves, so the singular possessive is right, with the apostrophe
+      before the s.
+    trap: B marks a plural owner, which the singular a at the start of the sentence rules out.
+  - n: 234
+    id: C05-HUM-E04
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: The ___ rhyme schemes differ from the Italian originals they were translated from, and
+      the English form settled into three quatrains and a couplet within a generation.
+    rule: plural_possessive
+    rule_span: sonnets'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - sonnet's
+    - sonnets'
+    - sonnets
+    - sonnet
+    key: B
+    faults:
+      A:
+        move: poss_misplaced
+        span: sonnet's
+      C:
+        move: plural_for_poss
+        span: sonnets
+      D:
+        move: poss_missing
+        span: sonnet
+    ctx: {}
+    why: Many sonnets own the schemes, so the plural possessive places the apostrophe after the s.
+    trap: A marks a single sonnet, which the plural schemes and originals both contradict.
+  - n: 235
+    id: C05-HUM-E05
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: The ___ parts on the Elizabethan stage were played by boys, and a successful apprentice
+      could expect to move on to men's roles once his voice had broken.
+    rule: irregular_plural_poss
+    rule_span: women's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - women's
+    - womens
+    - women
+    - womens'
+    key: A
+    faults:
+      B:
+        move: plural_for_poss
+        span: womens
+      C:
+        move: poss_missing
+        span: women
+      D:
+        move: poss_misplaced
+        span: womens'
+    ctx: {}
+    why: Women is an irregular plural that does not end in s, so it takes an apostrophe and then an
+      s, as men's later in the sentence does.
+    trap: D adds a regular plural ending to a word already plural and then marks possession after
+      it.
+  - n: 236
+    id: C05-HUM-E06
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: The comic operas that filled the Savoy for twenty years were ___ joint invention, and
+      the quarrel that ended the partnership was about the cost of a carpet.
+    rule: joint_possession
+    rule_span: Gilbert and Sullivan's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Gilbert's and Sullivan's
+    - Gilbert and Sullivans
+    - Gilbert and Sullivan
+    - Gilbert and Sullivan's
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: Gilbert's and Sullivan's
+      B:
+        move: plural_for_poss
+        span: Gilbert and Sullivans
+      C:
+        move: poss_missing
+        span: Gilbert and Sullivan
+    ctx: {}
+    why: The invention belonged to the two of them together, and joint possession marks only the second
+      name.
+    trap: A marks each name separately and so describes two inventions, which joint denies.
+  - n: 237
+    id: C05-HUM-E07
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: The ___ first thoughts are what a sketchbook preserves, and the corrections visible under
+      the paint of a finished canvas tell the same story in a way no catalog entry can.
+    rule: plural_possessive
+    rule_span: painters'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - painter's
+    - painters
+    - painters'
+    - painter
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: painter's
+      B:
+        move: plural_for_poss
+        span: painters
+      D:
+        move: poss_missing
+        span: painter
+    ctx: {}
+    why: Many painters own the first thoughts, so the plural possessive puts the apostrophe after
+      the s.
+    trap: A marks one painter, though the sentence speaks of sketchbooks and canvases in the plural
+      throughout.
+  - n: 238
+    id: C05-HUM-E08
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: The ___ parts in an opera are written for voices that will break within a season or two,
+      which is why the roles are short and why a company has to train replacements continuously.
+    rule: irregular_plural_poss
+    rule_span: children's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - childrens
+    - children's
+    - children
+    - childrens'
+    key: B
+    faults:
+      A:
+        move: plural_for_poss
+        span: childrens
+      C:
+        move: poss_missing
+        span: children
+      D:
+        move: poss_misplaced
+        span: childrens'
+    ctx: {}
+    why: Children is an irregular plural ending in n rather than s, so it takes an apostrophe and
+      then an s.
+    trap: A treats children as a singular needing a plural ending, which doubles the plural and loses
+      the possession.
+  - n: 239
+    id: C05-HUM-E09
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: The street that everyone now photographs was ___ compromise, one of them wanting an arcade
+      along the whole length of it and the other wanting the shops set back, and the line where the
+      two intentions meet is still visible in the stonework.
+    rule: joint_possession
+    rule_span: Nash and Soane's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Nash's and Soane's
+    - Nash and Soanes
+    - Nash and Soane
+    - Nash and Soane's
+    key: D
+    faults:
+      A:
+        move: poss_misplaced
+        span: Nash's and Soane's
+      B:
+        move: plural_for_poss
+        span: Nash and Soanes
+      C:
+        move: poss_missing
+        span: Nash and Soane
+    ctx: {}
+    why: One compromise belonged to both men, and joint possession marks only the second of the two
+      names.
+    trap: A gives each architect a compromise of his own, which is not what a compromise between two
+      people is.
+  - n: 240
+    id: C05-HUM-E10
+    chapter: 5
+    element: poss
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: The ___ disagreements about whether a poem's meaning is fixed by its author outlasted
+      every one of the positions taken in them, and a reader who opens a journal from the period finds
+      the same argument conducted in a vocabulary that has since gone out of use.
+    rule: plural_possessive
+    rule_span: critics'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - critic's
+    - critics'
+    - critics
+    - critic
+    key: B
+    faults:
+      A:
+        move: poss_misplaced
+        span: critic's
+      C:
+        move: plural_for_poss
+        span: critics
+      D:
+        move: poss_missing
+        span: critic
+    ctx: {}
+    why: Many critics own the disagreements, so the plural possessive places the apostrophe after
+      the s.
+    trap: A marks one critic as the owner of disagreements that by definition took more than one person
+      to have.
+- domain: SOC
+  partno: 25
+  note_ar: جمل العلوم الاجتماعية تتحدّث عن أجوبة المستجيبين، وخصائص الأسر، ومعايير الاختيار، وهي كلّها
+    جموع مالكة. ومعها جمع شاذّ متكرّر هو الناس، وحكمه حكم المفرد في الفاصلة.
+  exercises:
+  - n: 241
+    id: C05-SOC-E01
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The order of the ___ on a questionnaire changes which one gets picked.
+    rule: plural_plain
+    rule_span: choices
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - choice's
+    - choices
+    - choices'
+    - choice
+    key: B
+    faults:
+      A:
+        move: poss_for_plural
+        span: choice's
+      C:
+        move: poss_for_plural
+        span: choices'
+      D:
+        move: wrong_plural
+        span: choice
+    ctx: {}
+    why: The word is a plain plural that owns nothing, so it takes no apostrophe.
+    trap: C adds the mark of a plural possessive, though the choices in this sentence possess nothing
+      at all.
+  - n: 242
+    id: C05-SOC-E02
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: A ___ wording matters more to the answers than the order of the options does.
+    rule: sing_possessive
+    rule_span: question's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - questions
+    - questions'
+    - question
+    - question's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: questions
+      B:
+        move: poss_misplaced
+        span: questions'
+      C:
+        move: poss_missing
+        span: question
+    ctx: {}
+    why: One question owns the wording, so the singular possessive is right, with the apostrophe before
+      the s.
+    trap: B marks a plural owner, which the singular a at the head of the sentence forbids.
+  - n: 243
+    id: C05-SOC-E03
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: A trial earns ___ authority from the drawing of lots rather than from the size of the
+      groups, and a small randomized study can settle what a large uncontrolled one cannot.
+    rule: its_possessive
+    rule_span: its
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - its
+    - it's
+    - its'
+    - it
+    key: A
+    faults:
+      B:
+        move: poss_for_plural
+        span: it's
+      C:
+        move: poss_for_plural
+        span: its'
+      D:
+        move: wrong_plural
+        span: it
+    ctx: {}
+    why: Its is the possessive form of it and carries no apostrophe, which is what separates it from
+      the nouns in this chapter.
+    trap: B is the contraction of it is and cannot own the authority that follows it.
+  - n: 244
+    id: C05-SOC-E04
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: The ___ characteristics have to be measured before the treatment begins, because a difference
+      found afterward can always be blamed on the treatment itself.
+    rule: plural_possessive
+    rule_span: subjects'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - subject's
+    - subjects
+    - subjects'
+    - subject
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: subject's
+      B:
+        move: plural_for_poss
+        span: subjects
+      D:
+        move: poss_missing
+        span: subject
+    ctx: {}
+    why: Many subjects own the characteristics, so the plural possessive puts the apostrophe after
+      the s.
+    trap: A marks a single subject, which the plural characteristics and the comparison between groups
+      both rule out.
+  - n: 245
+    id: C05-SOC-E05
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: A ___ shape matters as much as its center, and two distributions with the same mean can
+      describe populations that have almost nothing in common.
+    rule: sing_possessive
+    rule_span: distribution's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - distributions
+    - distribution's
+    - distributions'
+    - distribution
+    key: B
+    faults:
+      A:
+        move: plural_for_poss
+        span: distributions
+      C:
+        move: poss_misplaced
+        span: distributions'
+      D:
+        move: poss_missing
+        span: distribution
+    ctx: {}
+    why: One distribution owns the shape, as its center confirms, so the singular possessive is right.
+    trap: A drops the apostrophe and leaves shape belonging to nothing, which is the easiest of the
+      four to overlook.
+  - n: 246
+    id: C05-SOC-E06
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: The ___ responses to a cash incentive differ by how much they earn already, and a dollar
+      that persuades one household is an insult to another.
+    rule: plural_possessive
+    rule_span: respondents'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - respondents'
+    - respondent's
+    - respondents
+    - respondent
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: respondent's
+      C:
+        move: plural_for_poss
+        span: respondents
+      D:
+        move: poss_missing
+        span: respondent
+    ctx: {}
+    why: Many respondents own the responses, so the plural possessive places the apostrophe after
+      the s.
+    trap: C leaves out the apostrophe and turns the owner into a bare plural, which reads smoothly
+      and says nothing.
+  - n: 247
+    id: C05-SOC-E07
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: The ___ willingness to give an answer they know to be wrong is what the line-judging
+      experiments measured, and the rate fell sharply as soon as one confederate broke ranks.
+    rule: irregular_plural_poss
+    rule_span: people's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - peoples
+    - people
+    - peoples'
+    - people's
+    key: D
+    faults:
+      A:
+        move: plural_for_poss
+        span: peoples
+      B:
+        move: poss_missing
+        span: people
+      C:
+        move: poss_misplaced
+        span: peoples'
+    ctx: {}
+    why: People is an irregular plural that does not end in s, so it takes an apostrophe and then
+      an s.
+    trap: A is a real word but means nations rather than persons, and it drops the mark of possession
+      as well.
+  - n: 248
+    id: C05-SOC-E08
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: The idea that a judgment made quickly uses a rule of thumb rather than a calculation
+      was ___ joint contribution, and the two of them published almost everything together for fifteen
+      years.
+    rule: joint_possession
+    rule_span: Tversky and Kahneman's
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - Tversky's and Kahneman's
+    - Tversky and Kahnemans
+    - Tversky and Kahneman's
+    - Tversky and Kahneman
+    key: C
+    faults:
+      A:
+        move: poss_misplaced
+        span: Tversky's and Kahneman's
+      B:
+        move: plural_for_poss
+        span: Tversky and Kahnemans
+      D:
+        move: poss_missing
+        span: Tversky and Kahneman
+    ctx: {}
+    why: One contribution belonged to both men, and joint possession marks only the second name in
+      the pair.
+    trap: A marks both names and so describes two separate contributions, which joint contradicts.
+  - n: 249
+    id: C05-SOC-E09
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: The ___ shares of national income can be computed from tax records in some countries
+      and only from household surveys in others, and the two kinds of source disagree most about exactly
+      the households that the measure is designed to describe.
+    rule: plural_possessive
+    rule_span: earners'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - earners'
+    - earner's
+    - earners
+    - earner
+    key: A
+    faults:
+      B:
+        move: poss_misplaced
+        span: earner's
+      C:
+        move: plural_for_poss
+        span: earners
+      D:
+        move: poss_missing
+        span: earner
+    ctx: {}
+    why: Many earners own the shares, so the plural possessive puts the apostrophe after the s already
+      present.
+    trap: B marks one earner as the owner of shares that the whole sentence counts in the plural.
+  - n: 250
+    id: C05-SOC-E10
+    chapter: 5
+    element: poss
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: The ___ that a committee writes down before it starts reading applications are what keep
+      the decision from drifting toward whichever candidate is being discussed at the moment, and
+      a committee that writes them down afterward has not used them at all.
+    rule: plural_plain
+    rule_span: criteria
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - criteria's
+    - criterias
+    - criteria
+    - criterias'
+    key: C
+    faults:
+      A:
+        move: poss_for_plural
+        span: criteria's
+      B:
+        move: wrong_plural
+        span: criterias
+      D:
+        move: poss_for_plural
+        span: criterias'
+    ctx: {}
+    why: Criteria is already a plural and owns nothing here, so it takes neither an apostrophe nor
+      a further s.
+    trap: B adds an English plural ending to a word that is plural in Latin already, which is the
+      commonest error with this noun.
