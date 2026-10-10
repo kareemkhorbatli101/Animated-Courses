@@ -1362,7 +1362,8 @@ sets:
   - slot: 6
     type: structure
     difficulty: medium
-    stem: Which choice best describes the function of the first paragraph of the text?
+    stem: Which choice best describes the function of the opening paragraph about two fields on the
+      same farm?
     options:
     - It names the bacteria that live inside the root nodules
     - It reports the four crops of the Norfolk rotation in order

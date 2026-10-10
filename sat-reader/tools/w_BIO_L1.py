@@ -909,7 +909,8 @@ SETS.append(dict(
              why='Wheat cannot fix nitrogen and must take what the soil already holds, so the word '
                  'names drawing on a store.',
              trap='A gives the sense in which a fire consumes a building.'),
-        dict(stem='Which choice best describes the function of the first paragraph of the text?',
+        dict(stem='Which choice best describes the function of the opening paragraph about two '
+                  'fields on the same farm?',
              opts=['It names the bacteria that live inside the root nodules',
                    'It reports the four crops of the Norfolk rotation in order',
                    'It sets up a difference that the rest of the text explains',
