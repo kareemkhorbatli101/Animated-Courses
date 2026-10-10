@@ -1,0 +1,1367 @@
+"""Humanities, Level 2: ten question sets."""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import qemit                                                            # noqa: E402
+
+Q = '«%s»'.__mod__
+FIELD, LEVEL = 'HUM', 2
+
+SETS = []
+
+# --- 1 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='HUM-S01-L2',
+    ar=dict(
+        khulasa='يُعرَّف الراوي بما يصل إليه لا بشخصيّته، وللرواية ثلاثة مواضع قياسيّة: متكلّم '
+                'لا يروي إلّا ما يدركه شخص واحد أو يذكره أو يحدسه، وغائب محدود يقف خارجًا '
+                'ويلازم عقلًا واحدًا في المرّة، وعليم له وصول إلى كلّ عقل في الكتاب فيُخبر بما '
+                'يفكّر فيه اثنان في اللحظة نفسها.',
+        maana='المعنى أنّ كلّ موضع يحدّد نوع المفاجأة المتاحة: الخديعة تسهل في المتكلّم لأنّ '
+              'القارئ داخل العقل المخدوع، والسخرية تسهل في العليم لأنّ الصوت يُظهر شخصًا مخطئًا '
+              'في جملة يوافق عليها، والتشويق البسيط يكاد يستحيل في المتكلّم الصارم.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: طوّر روائيّو القرن التاسع عشر '
+                  'خيارًا رابعًا هو الأشيع اليوم، وهو الأسلوب غير المباشر الحرّ: صوت غائب '
+                  'ينزلق إلى طريقة تفكير الشخص دون إعلان، فتحمل الجملة معجمه وأحكامه وتبقى '
+                  'نحويًّا خارجه.',
+        sila='في اختبار سات يكثر السؤال عن النبرة وعن وظيفة جزء من النصّ وعن معنى كلمة في '
+             'سياقها، وسؤال النبرة في الحقيقة سؤال عن موضع الصوت. والفخّ المتوقّع هنا أن '
+             'يُعرَّف الراوي بشخصيّته، مع أنّ النصّ يعرّفه بوصوله. ويقترن المقطع بالمقطع الحادي '
+             'والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Jane Austen uses free indirect style constantly',
+                   'What a narrator can report decides what surprises are possible',
+                   'An omniscient narrator may comment on two characters',
+                   'A narrator is defined by personality rather than access'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='The text defines a narrator by access, names three positions, and then says '
+                 'each position decides what kind of surprise is available.',
+             trap='D reverses the opening definition, which sets personality aside for access.'),
+        dict(stem='According to the text, which kind of surprise is almost impossible in strict '
+                  'first person?',
+             opts=['Deception of the narrator', "Irony at a character's expense",
+                   'A comment on two minds at once',
+                   'Fear of what the character does not suspect'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'C': 'detail_swap'},
+             why='The text says suspense of the simplest kind, in which the reader fears '
+                 'something the character does not suspect, is almost impossible in strict first '
+                 'person.',
+             trap='A names the effect the text says works easily in that position.'),
+        dict(claim='free indirect style lets a writer judge a mind it has just occupied',
+             stem='Which quotation from the text most strongly supports the claim that free '
+                  'indirect style lets a writer judge a mind it has just occupied?',
+             opts=[Q('It lets a writer convey a mind from the inside and withdraw to judge it in '
+                     'the next clause'),
+                   Q('Jane Austen uses it constantly, and so does almost every modern novel'),
+                   Q('A first-person narrator reports only what one character perceives, '
+                     'remembers or guesses'),
+                   Q('Recognizing the shift is a skill worth practicing')],
+             key='A', moves={'B': 'true_not_asked', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation names both halves of the claim: conveying the mind from the '
+                 'inside, and withdrawing to judge it in the next clause.',
+             trap='D says the shift is worth noticing without saying what it lets a writer do.'),
+        dict(carrier='Irony works easily in the omniscient position, because the voice can show a '
+                     'character being wrong in a sentence the character would endorse. A novel '
+                     'that stayed inside one mind throughout would therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['produce irony more easily still', 'be unable to deceive its reader',
+                   'have to get its irony another way', 'need a fourth narrative position'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'wrong_direction', 'D': 'near_miss'},
+             why='The irony described depends on a voice outside the character, so a novel '
+                 'confined to one mind cannot produce it by that route.',
+             trap='B denies the first novel the deception the text says it does best.'),
+        dict(target='convey',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('convey'),
+             opts=['carry from place to place', 'render for a reader', 'transfer legal title to',
+                   'escort under guard'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'imported'},
+             why='A writer is said to convey a mind from the inside and then withdraw, so the '
+                 'word names putting that mind before a reader.',
+             trap='A takes the sense of moving a thing from one place to another.'),
+        dict(stem='Which choice best describes the function of the sentence that closes the '
+                  'text with a test?',
+             opts=['It supplies a test for telling the voices apart',
+                   'It defines the omniscient position for the first time',
+                   'It names the three standard narrative positions',
+                   'It concedes that the shift cannot be detected'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'wrong_direction'},
+             why='The last sentence gives two questions to put to a sentence, after the text has '
+                 'said that recognizing the shift is a skill worth practicing.',
+             trap='D denies a detection the sentence is there to make possible.'),
+        dict(sibling='HUM-S01-L1',
+             sibling_gloss='Text 2 is passage 31 of this book. It compares the first person of '
+                           'Jane Eyre with the outside voice of Pride and Prejudice, says neither '
+                           'is better, and grants the outside voice movement between rooms and '
+                           'years and a judgment on two characters at once.',
+             stem='Text 1 says each position decides what surprise is available. Based on Text 2, '
+                  'which choice best describes what the first person gives up?',
+             opts=['Access to the mind of the deceived character',
+                   'The vocabulary of the character it follows',
+                   'A reader who finds out when the narrator does',
+                   'Movement between rooms and years, and a verdict on both'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'imported', 'C': 'wrong_direction'},
+             why='Text 2 grants the outside voice movement between rooms and years and a judgment '
+                 'on two characters at once, which is what the first person cannot have.',
+             trap='A names the access the first person is said to keep.'),
+        dict(carrier='Deception works easily in the first person, because the reader is inside the '
+                     'deceived mind. ___ irony works easily in the omniscient position, because '
+                     'the voice can show a character being wrong.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['As a result,', 'In other words,', 'By contrast,', 'For instance,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'restatement', 'D': 'near_miss'},
+             why='The second sentence pairs a different effect with a different position, so the '
+                 'transition must mark a contrast rather than a consequence.',
+             trap='A makes the omniscient irony follow from the first-person deception.'),
+        dict(carrier='Jane Austen uses it constantly ___ and so does almost every modern novel.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['constantly, and', 'constantly and', 'constantly; and', 'constantly and,'],
+             key='A', moves={'B': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause saying almost every modern novel does the same is independent, so '
+                 'the conjunction joining it to the clause about Austen takes a comma.',
+             trap='B runs the clause about Austen straight into the clause about modern novels.'),
+        dict(goal='explain why an examiner asking about tone is asking about the narrator',
+             notes=["Free indirect style carries a character's vocabulary while staying outside.",
+                    'The effect depends on the reader not quite noticing where the voice '
+                    'changed.',
+                    'An examiner asking about tone is usually asking about that movement.',
+                    'The test is whether the character could speak the sentence and the author '
+                    'endorse it.'],
+             stem='The student wants to explain why an examiner asking about tone is asking about '
+                  'the narrator. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=["Free indirect style keeps a third-person voice while borrowing a character's "
+                   'words',
+                   'The effect depends on the reader not quite noticing the change',
+                   'A question about tone is a question about where the voice slid from the '
+                   'character to the author',
+                   'The test is whether the character could speak the sentence'],
+             key='C', moves={'A': 'underreach', 'B': 'underreach', 'D': 'restatement'},
+             why='Only this choice identifies the tone question with the movement of the voice '
+                 'between the character and the author, which is what the notes say an examiner '
+                 'is after.',
+             trap='B names the condition of the effect without connecting it to the question '
+                  'asked.'),
+    ]))
+
+# --- 2 -------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='HUM-S02-L2',
+    ar=dict(
+        khulasa='يستنتج القارئ الدافع من أربعة أنواع من الدليل، والكاتب يختار كم يُعطي من كلّ '
+                'نوع: الشرح، أي تصريح الراوي بالخلفيّة، والفعل بما فيه الاختيارات الصغيرة التي '
+                'لا يعلّق عليها أحد، والكلام، والباطن، أي الوصول المباشر إلى ما يفكّر فيه '
+                'الشخص.',
+        maana='المعنى أنّ الشرح نافع ومكلّف، فمن قيل له لماذا يفعل الشخص لم يبق له ما يستخرجه. '
+              'والكلام أقلّ ثقةً ممّا يبدو، فالأشخاص يكذبون ويفخرون ويحكون لأنفسهم حكايات، '
+              'فالدافع المُعلن دليل على المتكلّم لا على السبب.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: كلّ نوع يمكن حَجبه، والحجب '
+                  'نفسه حيلة. فملفل يعطي بارتلبي فعلًا وكلامًا ولا باطن له البتّة. والدافع '
+                  'المبنيّ على الفعل والصمت يبقى مفتوحًا فيتجادل القرّاء فيه قرنًا، وهي قيمة '
+                  'قد يفضّلها مؤلّف على اليقين.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن النصّين '
+             'المتقابلين. والفخّ المتوقّع هنا أن يُحسب كلّ دافع محجوب تعسّفًا، مع أنّ النصّ '
+             'يسمّي النمط المتكرّر علاجًا للخطر. ويقترن المقطع بالمقطع الثاني والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Chekhov said an author should state problems correctly',
+                   'Exposition is the most efficient way to give a motive',
+                   'A writer chooses among four kinds of evidence, and may withhold any',
+                   'A withheld motive always reads as arbitrary'],
+             key='C', moves={'A': 'true_not_asked', 'B': 'underreach', 'D': 'overreach'},
+             why='The text names exposition, action, speech and interiority as the four kinds of '
+                 'evidence, says a writer chooses how much of each to supply, and calls '
+                 'withholding itself a device.',
+             trap='D hardens a named risk into something that always happens.'),
+        dict(stem='According to the text, why is speech less reliable than it looks?',
+             opts=['Characters lie, boast and tell themselves stories',
+                   'Speech is available only in certain positions',
+                   'Speech leaves the reader nothing to work out',
+                   'Speech is repeated too often to be noticed'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'imported'},
+             why='The text says characters lie, boast and tell themselves stories, so a stated '
+                 'motive is evidence about the speaker rather than about the cause.',
+             trap='C gives the objection the text raises against exposition instead.'),
+        dict(claim='an open motive can be worth more to a writer than a settled one',
+             stem='Which quotation from the text most strongly supports the claim that an open '
+                  'motive can be worth more to a writer than a settled one?',
+             opts=[Q('Exposition is efficient and expensive, because a reader who is told why a '
+                     'character acts has nothing left to work out'),
+                   Q('Motive built from action and silence stays open, and readers argue about it '
+                     'for a century, which is a kind of value an author may prefer to certainty'),
+                   Q('Melville gives Bartleby action and speech and no interiority at all'),
+                   Q('Henry James described the technique as a matter of what to leave in '
+                     'shadow')],
+             key='B', moves={'A': 'near_miss', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation names the openness, the century of argument and the value an '
+                 'author may prefer to certainty, which is the comparison the claim makes.',
+             trap='A gives the cost of the settled kind without naming the value of the open '
+                  'kind.'),
+        dict(carrier='Writers manage that risk with pattern, by repeating a gesture or an '
+                     'avoidance often enough that a reader can see a shape without being handed a '
+                     'reason. A character who acts only once, without pattern, would therefore '
+                     '___',
+             stem='Which choice most logically completes the text?',
+             opts=['be easier to explain than a repeated one',
+                   'require exposition from an omniscient voice',
+                   'have a motive settled and inert',
+                   'risk reading as arbitrary rather than deep'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'imported', 'C': 'wrong_direction'},
+             why='The pattern is what lets a reader see a shape without a reason, so a single '
+                 'unrepeated act leaves the arbitrariness the text names as the risk.',
+             trap='C gives the quality of a motive supplied by exposition, not of one withheld.'),
+        dict(target='subtle',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('subtle'),
+             opts=['quietly clever', 'deliberately unkind', 'faintly marked', 'plainly stated'],
+             key='C', moves={'A': 'near_miss', 'B': 'imported', 'D': 'wrong_direction'},
+             why='The motive is said to be too subtle to recover, so the word names a signal too '
+                 'faint for a reader to pick up.',
+             trap='A gives the admiring sense, which the sentence treats as a failure.'),
+        dict(stem='Which choice best describes the function of the reference to Bartleby?',
+             opts=['It defines interiority for the first time',
+                   'It gives an instance of a kind withheld',
+                   'It argues that Melville used exposition',
+                   'It names the four kinds of evidence'],
+             key='B', moves={'A': 'detail_swap', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='The reference follows the statement that each kind can be withheld and names a '
+                 'book that supplies action and speech and no interiority at all.',
+             trap='C puts Melville on the kind of evidence the text says he leaves out.'),
+        dict(sibling='HUM-S02-L1',
+             sibling_gloss='Text 2 is passage 32 of this book. It reports a story in which a '
+                           'clerk refuses work without explanation, says the withholding is the '
+                           'design, and observes that the pressure of the story falls on the '
+                           'narrator instead.',
+             stem='Text 1 says withholding is itself a device. Based on Text 2, which choice best '
+                  'describes what the withholding in Bartleby produces?',
+             opts=['The pressure of the story falls on the narrator',
+                   'The lawyer accepts the dead letter office as the cause',
+                   'Bartleby is given action and speech and no interiority',
+                   'Melville had published Moby-Dick two years earlier'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'restatement', 'D': 'true_not_asked'},
+             why='Text 2 says the weight of the story falls on the narrator instead, and that the '
+                 'reader learns a great deal about the lawyer.',
+             trap='B treats a rumor in Text 2 as the explanation the lawyer settles on.'),
+        dict(carrier='Motive supplied by exposition is settled and inert. ___ motive built from '
+                     'action and silence stays open, and readers argue about it for a century.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['As a result,', 'For example,', 'In other words,', 'By contrast,'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'near_miss', 'C': 'restatement'},
+             why='The second sentence sets the open kind of motive against the settled kind, so '
+                 'the transition must mark a contrast.',
+             trap='C treats the open motive as a restatement of the inert one.'),
+        dict(carrier='Exposition is efficient and expensive ___ and a reader who is told why a '
+                     'character acts has nothing left to work out.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['expensive and', 'expensive, and', 'expensive; and', 'expensive and,'],
+             key='B', moves={'A': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about the reader who is told is independent, so the conjunction '
+                 'joining it to the clause about exposition takes a comma.',
+             trap='A runs the clause about exposition straight into the clause about the '
+                  'reader.'),
+        dict(goal='explain how a writer keeps a withheld motive from reading as arbitrary',
+             notes=['A motive too faint to recover reads as arbitrary rather than deep.',
+                    'Writers manage the risk with pattern.',
+                    'A gesture or an avoidance is repeated often enough to show a shape.',
+                    'The reader sees the shape without being handed a reason.'],
+             stem='The student wants to explain how a writer keeps a withheld motive from reading '
+                  'as arbitrary. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['A motive too faint to recover reads as arbitrary rather than deep',
+                   'Writers manage the risk of a withheld motive with pattern',
+                   'The reader is never handed a reason for the behavior',
+                   'Repeating one gesture often enough shows a shape, so the reader sees design '
+                   'without a reason'],
+             key='D', moves={'A': 'underreach', 'B': 'underreach', 'C': 'restatement'},
+             why='Only this choice joins the repetition to the shape the reader sees, which is '
+                 'how the notes say the risk is managed.',
+             trap='B names the remedy without saying how a pattern does the work.'),
+    ]))
+
+# --- 3 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='HUM-S03-L2',
+    ar=dict(
+        khulasa='تُدرَّس اللغة المجازية قائمةَ أسماء، وهذا يحجب أنّ الصور تعمل أعمالًا مختلفة. '
+                'فالتشبيه يُعلن المقارنة بأداة ويُبقي الشيئين منفصلين؛ والاستعارة تحذف الإعلان '
+                'وتثبت الهويّة فيلزم القارئ أن يحدّد في أيّ وجه؛ والكناية عمليّة ثالثة '
+                'مختلفة.',
+        maana='المعنى أنّ الكناية تسمّي الشيء بما يُقترن به لا بما يشابهه، كأن تُراد الصحافة '
+              'بالصحفيّين، أو الحكم بالتاج، أو الحكومة بالعاصمة. فلا شيء يُقارَن هنا، بل يُشار '
+              'إلى الكلّ بجزء منه أو بملحق به، ولهذا تبدو الكناية كلامًا عاديًّا.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: ما تشترك فيه الثلاث هو '
+                  'الاقتصاد، فالصورة الحيّة تدفع القارئ إلى إمداد التفصيل، فتعمل أربع كلمات عمل '
+                  'فقرة. وهنا يقع الفشل أيضًا: صورة تشير في جهتين تُربك، واستعارة أُعيدت حتّى '
+                  'لا يلحظها أحد كفّت عن العمل.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى '
+             'كلمة في سياقها. والفخّ المتوقّع هنا أن يُسوّى بين التشبيه والكناية، مع أنّ النصّ '
+             'يفصل بينهما فصلًا صريحًا. ويقترن المقطع بالمقطع الثالث والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Orwell made the test practical in 1946',
+                   'Most newspaper prose is thick with metonymy',
+                   'A simile and a metonymy do the same work',
+                   'The named figures do different work, and share only economy'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'underreach', 'C': 'wrong_direction'},
+             why='The text separates the three figures by the operation each performs and then '
+                 'says what all three share is economy.',
+             trap='C collapses a distinction the text spends three sentences drawing.'),
+        dict(stem='According to the text, what does metonymy do with a thing it names?',
+             opts=['Announces a comparison with like or as',
+                   'Names it by something associated with it',
+                   'Asserts that one thing is another thing',
+                   'Repeats an image until nobody notices it'],
+             key='B', moves={'A': 'detail_swap', 'C': 'detail_swap', 'D': 'near_miss'},
+             why='The text says metonymy names a thing by something associated with it rather '
+                 'than something like it, as when the press means journalists.',
+             trap='A gives the mark of a simile rather than of metonymy.'),
+        dict(claim='metonymy is not a comparison at all',
+             stem='Which quotation from the text most strongly supports the claim that metonymy '
+                  'is not a comparison at all?',
+             opts=[Q('Most newspaper prose is thick with metonymy and nobody calls it poetic'),
+                   Q('A metaphor removes the announcement and asserts the identity'),
+                   Q('Nothing is being compared. The reader is being pointed at a whole through '
+                     'one of its parts or attachments'),
+                   Q('keeps the two things separate: the reader is told to hold a hand and a leaf '
+                     'side by side')],
+             key='C', moves={'A': 'true_not_asked', 'B': 'near_miss', 'D': 'near_miss'},
+             why='The quotation says in so many words that nothing is being compared and then '
+                 'describes the pointing that replaces comparison.',
+             trap='B describes what a metaphor does rather than what metonymy does not do.'),
+        dict(carrier='A metaphor repeated until nobody notices it, as in the heart of the matter, '
+                     'has stopped doing any work at all. A writer who reaches for such an '
+                     'expression is therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['getting neither an image nor plain speech',
+                   'compressing four words into a paragraph',
+                   'using a live metaphor instead of a plain word',
+                   'pointing at a whole through one of its parts'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'imported'},
+             why='The usual advice is said to be a live figure or a plain word and not something '
+                 'halfway, which is exactly where the worn expression falls.',
+             trap='C makes the dead expression the live figure the advice recommends.'),
+        dict(target='vivid',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('vivid'),
+             opts=['brightly colored', 'still alive', 'briefly stated', 'sharply present'],
+             key='D', moves={'A': 'near_miss', 'B': 'near_miss', 'C': 'imported'},
+             why='A vivid image is said to make the reader supply the detail, so the word names '
+                 'an image that comes through sharply enough to be filled in.',
+             trap='A narrows the word to color, which the text does not mention.'),
+        dict(stem='Which choice best describes the function of the reference to Orwell?',
+             opts=['It defines metonymy for the first time',
+                   'It names three figures and their differences',
+                   'It turns the diagnosis into a usable test',
+                   'It concedes that dead metaphors still work'],
+             key='C', moves={'A': 'detail_swap', 'B': 'detail_swap', 'D': 'wrong_direction'},
+             why='The reference follows the account of expressions that have stopped working and '
+                 'gives a question a writer can ask: whether the image can be seen.',
+             trap='D revives a figure the text has just called asleep.'),
+        dict(sibling='HUM-S03-L1',
+             sibling_gloss='Text 2 is passage 33 of this book. It describes a sixteen-word poem '
+                           'that names three objects and says a great deal depends on them, '
+                           'leaving the reader to supply the rest, and reports that replacing the '
+                           'objects with abstractions kills the poem.',
+             stem='Text 1 says an image makes the reader supply the detail. Based on Text 2, '
+                  'which choice best shows that mechanism at work?',
+             opts=['Williams was a doctor who wrote between patients',
+                   'Three objects are handed over and the rest is left to the reader',
+                   'The poem is now one of the most anthologized in English',
+                   'Replacing the objects with abstractions kills the poem'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='Text 2 says the reader is handed three objects, told that something rests on '
+                 'them, and left to supply the rest.',
+             trap='D gives the result of removing the images rather than the mechanism itself.'),
+        dict(carrier='Metonymy is a third operation and a different one. ___ it names a thing by '
+                     'something associated with it rather than something like it.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['That is,', 'By contrast,', 'All the same,', 'For instance,'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'near_miss'},
+             why='The second sentence spells out what the third operation is, so the transition '
+                 'must mark an explanation of the sentence before it.',
+             trap='B sets the explanation against the statement it explains.'),
+        dict(carrier='Nothing is being compared ___ and the reader is being pointed at a whole '
+                     'through one of its parts.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['compared and', 'compared; and', 'compared, and', 'compared and,'],
+             key='C', moves={'A': 'run_on', 'B': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about the reader being pointed at a whole is independent, so the '
+                 'conjunction joining it to the clause about comparison takes a comma.',
+             trap='A runs the clause about comparison straight into the clause about the '
+                  'pointing.'),
+        dict(goal='explain why figurative language is taught badly as a list of names',
+             notes=['A list of names hides the fact that the figures do different work.',
+                    'A simile keeps two things separate and a metaphor asserts an identity.',
+                    'Metonymy compares nothing and points at a whole through a part.',
+                    'What all three share is economy.'],
+             stem='The student wants to explain why figurative language is taught badly as a list '
+                  'of names. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['A list of names hides three different operations that happen to share one '
+                   'economy',
+                   'A simile keeps two things separate and a metaphor asserts an identity',
+                   'Metonymy compares nothing and points at a whole through a part',
+                   'What all three of the figures share is economy'],
+             key='A', moves={'B': 'underreach', 'C': 'underreach', 'D': 'restatement'},
+             why='Only this choice says both what the list hides, three distinct operations, and '
+                 'the one thing it correctly groups, their economy.',
+             trap='C describes one of the three operations without saying what the list '
+                  'obscures.'),
+    ]))
+
+# --- 4 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='HUM-S04-L2',
+    ar=dict(
+        khulasa='يعمل الشكل الثابت بإنشاء توقّع يمكن استعماله بعد ذلك. فمن سمع ثلاثة أسطر من '
+                'عشرة مقاطع صار الرابع متوقَّعًا، ومن قدّم أحد عشر مقطعًا فعل شيئًا يحسّه '
+                'القارئ قبل أن يقدر على تسميته، ولا يلزم أن يكون عادًّا واعيًا.',
+        maana='المعنى أنّ أداتين تستغلّان السطر مباشرة: التدوير، وهو إجراء الجملة إلى ما بعد '
+              'نهاية السطر دون وقفة، فيصطدم النحو بالإيقاع ويعلّق الشاعر كلمة في الهواء؛ '
+              'والوقفة الداخلية، وهي قطع قويّ داخل السطر يوقف الصوت حيث يأمر الوزن بالمتابعة.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: لا تعمل الأداتان إلّا لأنّ '
+                  'النمط تحتهما منتظم بقدر يُحَسّ، ولهذا يثقل الإبدال الوزني: سطر يامبي كلّه '
+                  'ثمّ تُقلب تفعيلة واحدة فيقع النبر حيث لم يُتوقَّع، والتفعيلة المقلوبة تكون '
+                  'على كلمة يريد الشاعر ضربها.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن '
+             'الانتقال الأكثر منطقيّة. والفخّ المتوقّع هنا أن يُحسب الشعر الحرّ ناجيًا من '
+             'الآلية، مع أنّ النصّ ينفي ذلك. ويقترن المقطع بالمقطع الرابع والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Devices work by setting something against a felt pattern',
+                   'Enjambment runs a sentence past the end of a line',
+                   'Free verse escapes the mechanism entirely',
+                   'Reading a line aloud twice is the quickest way to hear it'],
+             key='A', moves={'B': 'underreach', 'C': 'wrong_direction', 'D': 'true_not_asked'},
+             why='The text says a fixed form works by setting up an expectation that can then be '
+                 'used, and that both line devices only work because the pattern is regular '
+                 'enough to be felt.',
+             trap='C exempts free verse from a mechanism the text says it does not escape.'),
+        dict(stem='According to the text, what does a caesura do to the voice?',
+             opts=['Runs it past the end of a line', 'Puts a stress where none was expected',
+                   'Stops it where the meter says to continue', 'Leaves a strong beat silent'],
+             key='C', moves={'A': 'detail_swap', 'B': 'detail_swap', 'D': 'near_miss'},
+             why='The text says a caesura is a strong break inside a line and does the opposite '
+                 'of enjambment, stopping the voice where the meter says to continue.',
+             trap='A gives what enjambment does rather than what a caesura does.'),
+        dict(claim='a reader need not be counting for the effect to land',
+             stem='Which quotation from the text most strongly supports the claim that a reader '
+                  'need not be counting for the effect to land?',
+             opts=[Q('Both only work because the underlying pattern is regular enough to be '
+                     'felt'),
+                   Q('A caesura, which is a strong break inside a line, does the opposite'),
+                   Q('Free verse does not escape the mechanism, because a reader brings '
+                     'expectations to any line'),
+                   Q('The effect does not require the reader to be counting consciously, any more '
+                     'than a listener counts the beats in a dance tune')],
+             key='D', moves={'A': 'near_miss', 'B': 'true_not_asked', 'C': 'near_miss'},
+             why='The quotation denies that conscious counting is required and offers the dance '
+                 'tune as a parallel, which is the claim exactly.',
+             trap='A says the pattern must be felt without saying that it need not be counted.'),
+        dict(carrier='A line that is iambic throughout and then reverses one foot puts a stress '
+                     'where none was expected, and the reversed foot is almost always on a word '
+                     'the poet wants struck. A reader looking for the emphasis in such a line '
+                     'should therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['count the syllables in every line of the poem',
+                   'look at the word that broke the pattern',
+                   'read the closing couplet of the poem first',
+                   'ignore the regular feet that came before'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'wrong_direction'},
+             why='The reversed foot is said to fall almost always on the word the poet wants '
+                 'struck, so the break in the pattern locates the emphasis.',
+             trap='D throws away the regularity that makes the break detectable.'),
+        dict(target='lyrical',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('lyrical'),
+             opts=['warmly expressive', 'set to music', 'written in lines', 'coolly measured'],
+             key='A', moves={'B': 'near_miss', 'C': 'imported', 'D': 'wrong_direction'},
+             why='The text sets a lyrical effect against the arithmetic that produces it, so the '
+                 'word names the feeling a reader hears rather than the counting behind it.',
+             trap='D makes the word name the measuring the sentence contrasts it with.'),
+        dict(stem='Which choice best describes the function of the dance tune comparison?',
+             opts=['It defines enjambment for the first time',
+                   'It names the two devices that exploit the line',
+                   'It argues that meter must be counted aloud',
+                   'It makes an unconscious response familiar'],
+             key='D', moves={'A': 'detail_swap', 'B': 'detail_swap', 'C': 'wrong_direction'},
+             why='The comparison follows the claim that the effect does not require conscious '
+                 'counting and offers a listener who does not count beats as the parallel.',
+             trap='C requires the counting the comparison is there to excuse.'),
+        dict(sibling='HUM-S04-L1',
+             sibling_gloss='Text 2 is passage 34 of this book. It describes the fourteen-line '
+                           'sonnet and its turn, and reports a sonnet that spends twelve lines '
+                           'listing what the mistress is not before a closing pair says he loves '
+                           'her all the same.',
+             stem='Text 1 explains how a felt pattern can be exploited. Based on Text 2, which '
+                  'choice best illustrates a pattern being used that way?',
+             opts=['A sonnet has fourteen lines and reached England from Italy',
+                   'Each line runs to ten syllables with a stress on every second',
+                   'Twelve lines of denial are reversed by the closing pair',
+                   'Hayes published seventy sonnets titled the same way'],
+             key='C', moves={'A': 'true_not_asked', 'B': 'restatement', 'D': 'true_not_asked'},
+             why='Text 2 reports twelve lines listing what the mistress is not, followed by a '
+                 'closing pair that says he loves her all the same, which lands because the '
+                 'reader has been counting.',
+             trap='B names the pattern itself rather than a use made of it.'),
+        dict(carrier='A caesura stops the voice where the meter says to continue. ___ both only '
+                     'work because the underlying pattern is regular enough to be felt.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For example,', 'In both cases,', 'By contrast,', 'In other words,'],
+             key='B', moves={'A': 'near_miss', 'C': 'wrong_direction', 'D': 'restatement'},
+             why='The second sentence states a condition that holds for enjambment and for the '
+                 'caesura alike, so the transition must gather both.',
+             trap='C sets the shared condition against the devices it covers.'),
+        dict(carrier='The reader hears the feeling ___ and the poet counted.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['feeling and', 'feeling; and', 'feeling and,', 'feeling, and'],
+             key='D', moves={'A': 'run_on', 'B': 'wrong_mark', 'C': 'misplaced'},
+             why='The clause saying the poet counted is independent, so the conjunction joining '
+                 'it to the clause about the reader hearing takes a comma.',
+             trap='A runs the clause about the feeling straight into the clause about the '
+                  'counting.'),
+        dict(goal='explain why a regular meter is worth establishing',
+             notes=['Three lines of ten syllables make the fourth one predictable.',
+                    'A reader feels an eleventh syllable before being able to name it.',
+                    'Enjambment and caesura work only against a felt pattern.',
+                    'A reversed foot puts a stress where none was expected.'],
+             stem='The student wants to explain why a regular meter is worth establishing. Which '
+                  'choice most effectively uses relevant information from the notes to accomplish '
+                  'that goal?',
+             opts=['Three lines of ten syllables make the fourth one predictable',
+                   'A pattern a reader can feel is what gives any break its force',
+                   'Enjambment and caesura work only against a felt pattern',
+                   'A reversed foot puts a stress where none was expected'],
+             key='B', moves={'A': 'underreach', 'C': 'restatement', 'D': 'underreach'},
+             why='Only this choice states the general point the notes converge on, that the '
+                 'regularity is what any departure from it can work against.',
+             trap='A gives one instance of the prediction without naming what it is for.'),
+    ]))
+
+# --- 5 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='HUM-S05-L2',
+    ar=dict(
+        khulasa='عدّة عادات في الكتابة المسرحية الإليزابيثية نتائج للبناء لا اختيارات في الذوق. '
+                'فالجمهور كان يقف في ضوء النهار على ثلاث جهات من منصّة، فيستطيع الممثّل أن '
+                'يخاطبه مباشرة دون أن يُخِلّ بشيء، ولهذا كان الهمس الجانبي أداة قياسيّة لا '
+                'حيلة.',
+        maana='المعنى أنّ قاعة مظلمة ومنصّة مضاءة تجعل السطر نفسه متكلّفًا، ولهذا كاد الهمس '
+              'الجانبي يزول في القرن التاسع عشر ثمّ عاد حين رجعت المسارح إلى التمثيل المكشوف. '
+              'ولانعدام المناظر لزم أن يُثبَت المكان في الحوار، ولانعدام السِّتر الأمامي لزم أن '
+              'ينتهي المشهد بخروج.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: الشروط حدّدت طول الخطبة '
+                  'أيضًا، فالممثّل في الهواء المكشوف أمام ألفَي واقف يحبس الانتباه بالصوت '
+                  'وحده، والشعر يجعل ذلك ممكنًا لأنّه يعطي الصوت نمطًا يستند إليه. ولا شيء من '
+                  'هذا ينقص فنّ المسرحيّات، بل يوطّنه في غرفة بعينها.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن السبب المذكور في النصّ وعن '
+             'النصّين المتقابلين. والفخّ المتوقّع هنا أن يُستنتج أنّ الشروط تنقص الفنّ، مع أنّ '
+             'النصّ ينفي ذلك صريحًا. ويقترن المقطع بالمقطع الخامس والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The aside nearly disappeared in the nineteenth century',
+                   'Habits of the writing follow from the room it was written for',
+                   'Prose in these plays is used for different registers',
+                   'The art of the plays is lessened by its conditions'],
+             key='B', moves={'A': 'underreach', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='The text calls the habits consequences of the building rather than choices of '
+                 'taste, and ends by saying this locates the art in a particular room rather than '
+                 'making the plays less artful.',
+             trap='D draws the conclusion the last sentences expressly refuse.'),
+        dict(stem='According to the text, why did a scene have to end with an exit?',
+             opts=['Because the stage had a discovery space',
+                   'Because the audience stood in daylight',
+                   'Because the verse gave the voice a pattern',
+                   'Because there was no front curtain'],
+             key='D', moves={'A': 'detail_swap', 'B': 'detail_swap', 'C': 'near_miss'},
+             why='The text says that because there was no front curtain a scene could not end '
+                 'with a held tableau and had to end with an exit.',
+             trap='A names a different feature of the stage with a different consequence.'),
+        dict(claim='the aside depends on the room rather than on taste',
+             stem='Which quotation from the text most strongly supports the claim that the aside '
+                  'depends on the room rather than on taste?',
+             opts=[Q('which is why the aside nearly disappeared in the nineteenth century and '
+                     'returned when playhouses went back to open staging'),
+                   Q('Because there was no scenery, place had to be established in the dialogue'),
+                   Q('Prose in these plays is used for different registers and rarely sustains a '
+                     'long solo turn'),
+                   Q('Cutting an aside, or lighting a soliloquy as private thought, changes the '
+                     'relationship the line was written for')],
+             key='A', moves={'B': 'near_miss', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation ties the fate of the aside to the lighting and the staging, '
+                 'disappearing in one arrangement and returning in another.',
+             trap='D names a modern cost without showing the device following the room.'),
+        dict(carrier='An actor in the open air with two thousand people standing has to hold '
+                     'attention by voice alone, and the verse renders that possible by giving the '
+                     'voice a pattern to lean on. A long speech written for a small indoor room '
+                     'would therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['need a louder voice than the open air does',
+                   'require a discovery space at the back',
+                   'have less need of that pattern to lean on',
+                   'end with a rhyming couplet to clear the stage'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'imported', 'D': 'true_not_asked'},
+             why='The pattern is said to be what makes holding attention by voice alone possible '
+                 'in the open air, so a small room removes the condition it answers.',
+             trap='A reverses the difficulty that the open air is said to create.'),
+        dict(target='renders',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('renders'),
+             opts=['performs for an audience', 'causes to be', 'translates into words',
+                   'hands over to'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'imported'},
+             why='The verse is said to render holding attention possible, so the word names '
+                 'bringing that state about.',
+             trap='A takes the sense in which an actor renders a speech.'),
+        dict(stem='Which choice best describes the function of the sentence denying that the '
+                  'plays are less artful?',
+             opts=['It blocks a conclusion the explanation invites',
+                   'It defines the discovery space at the back',
+                   'It reports when the aside disappeared',
+                   'It argues that modern staging is superior'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'imported'},
+             why='The sentence comes after a list of features traced to the building and refuses '
+                 'the inference that the art is thereby diminished, locating it in a room '
+                 'instead.',
+             trap='D ranks the stagings, which the text does not do.'),
+        dict(sibling='HUM-S05-L1',
+             sibling_gloss='Text 2 is passage 35 of this book. It describes the Globe as a ring '
+                           'of galleries open to the sky with a platform pushed into the yard, '
+                           'and says the cheapest paid a penny and stood in the open around three '
+                           'sides of the stage in the early afternoon.',
+             stem='Text 1 derives the habits of the writing from the building. Based on Text 2, '
+                  'which choice best supplies the physical fact behind the aside?',
+             opts=['The theater burned down in 1613 after a cannon',
+                   'A modern copy plays in daylight without microphones',
+                   'The platform had a trap door for a grave or a devil',
+                   'The cheapest stood in the open on three sides of the stage'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'true_not_asked', 'C': 'near_miss'},
+             why='Text 2 says the cheapest stood in the open around three sides of the stage in '
+                 'daylight, which is the arrangement Text 1 says lets an actor address the '
+                 'house.',
+             trap='C names a feature of the platform with a different use.'),
+        dict(carrier='Because there was no front curtain, a scene could not end with a held '
+                     'tableau and had to end with an exit. ___ so many scenes finish on a rhyming '
+                     'couplet that tells the audience the stage is clearing.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Conversely,', 'To illustrate,', 'Consequently,', 'Put differently,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'near_miss', 'D': 'restatement'},
+             why='The second sentence gives what followed from the absence of a curtain, so the '
+                 'transition must mark a consequence.',
+             trap='A sets the couplets against the condition that produced them.'),
+        dict(carrier='The audience stood in daylight on three sides of a platform ___ and an '
+                     'actor could speak directly to them without breaking anything.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['platform, and', 'platform and', 'platform; and', 'platform and,'],
+             key='A', moves={'B': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about the actor speaking directly is independent, so the conjunction '
+                 'joining it to the clause about the audience takes a comma.',
+             trap='B runs the clause about the audience straight into the clause about the '
+                  'actor.'),
+        dict(goal='explain what a modern indoor production has to solve',
+             notes=['The aside was written for an audience standing in daylight.',
+                    'A dark auditorium with a lit stage makes the same line awkward.',
+                    'Cutting an aside changes the relationship the line was written for.',
+                    'Modern productions indoors face problems the original staging did not '
+                    'have.'],
+             stem='The student wants to explain what a modern indoor production has to solve. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['The aside was written for an audience standing in daylight',
+                   'Modern productions indoors face problems the original staging did not',
+                   'A line written for a lit house turns awkward in a dark one, and cutting it '
+                   'changes what it was for',
+                   'A dark auditorium with a lit stage makes the line awkward'],
+             key='C', moves={'A': 'underreach', 'B': 'restatement', 'D': 'underreach'},
+             why='Only this choice names both halves of the difficulty: the line that stops '
+                 'working in the new room and the cost of removing it.',
+             trap='D names the awkwardness without saying what a production must then decide.'),
+    ]))
+
+# --- 6 -------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='HUM-S06-L2',
+    ar=dict(
+        khulasa='العُرف، أي قاعدة يُتوقّع من نوع من الحكايات أن يتبعها، يؤدّي عملين في وقت '
+                'واحد: يعلّم القارئ كيف يقرأ، فجسد في الفصل الأوّل يُشير إلى أنّ بقيّة الكتاب '
+                'بحث عن سبب، فيبدأ القارئ يصنّف التفاصيل قرائنَ بلا طلب.',
+        maana='المعنى أنّ العُرف يُنشئ أيضًا إمكان الانحراف الدالّ، لأنّ قاعدة يعرفها الجميع '
+              'يمكن نقضها عن قصد وسيُلحَظ النقض. وقد كتبت القصّة البوليسية أعرافها: في '
+              'عشرينيّات القرن العشرين وضع أعضاء نادٍ لندنيّ قائمة قواعد، منها شرط اللعب '
+              'النزيه.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: الفضيحة لم تكن لتوجد لولا '
+                  'وجود القاعدة، فمن لا توقّع له لا يُفاجأ. وتعمل الآلية نفسها بالتلميح الذي '
+                  'يُسنِد عملًا لاحقًا إلى عمل سابق، ولا يلزم أن يكون الجمهور قد درس '
+                  'التاريخ.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى '
+             'كلمة في سياقها. والفخّ المتوقّع هنا أن يُحسب القارئ الخالي من التوقّع أسهلَ '
+             'مفاجأةً، مع أنّ النصّ يقول عكسه. ويقترن المقطع بالمقطع السادس والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['A London club drew up a list of rules in the 1920s',
+                   'The unreliable narrator was a shock in 1926',
+                   'A rule both guides a reader and makes a breach legible',
+                   'A reader with no expectations is the most easily surprised'],
+             key='C', moves={'A': 'true_not_asked', 'B': 'underreach', 'D': 'wrong_direction'},
+             why='The text says a convention does two jobs at once, telling a reader how to read '
+                 'and creating the possibility of significant deviation.',
+             trap='D reverses the sentence saying a reader with no expectations cannot be '
+                  'surprised.'),
+        dict(stem='According to the text, what does the fair play rule require?',
+             opts=['That every clue be shown before the solution',
+                   'That a body appear in the first chapter',
+                   'That the narrator be reliable throughout',
+                   'That a breach of a rule be announced'],
+             key='A', moves={'B': 'detail_swap', 'C': 'imported', 'D': 'detail_swap'},
+             why='The text says the requirement of fair play means that every clue must be shown '
+                 'to the reader before the solution is given.',
+             trap='B names a different convention the text uses as an example.'),
+        dict(claim='a reader need not know the history for an allusion to work',
+             stem='Which quotation from the text most strongly supports the claim that a reader '
+                  'need not know the history for an allusion to work?',
+             opts=[Q('A western in which the hero walks down a street at noon is borrowing a '
+                     'hundred earlier walks'),
+                   Q('Recognition can be entirely unconscious, and the writer only needs the '
+                     'pattern to be present, not to be named'),
+                   Q('Genres also drift, because every successful breach becomes the next '
+                     'convention'),
+                   Q('The scandal only existed because the rule existed')],
+             key='B', moves={'A': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation says recognition can be entirely unconscious and that the pattern '
+                 'need only be present, not named.',
+             trap='A gives an instance of the borrowing without saying what the audience must '
+                  'know.'),
+        dict(carrier='Genres also drift, because every successful breach becomes the next '
+                     'convention. The unreliable narrator was a shock in 1926 and is now a '
+                     'standard item on a list. A novelist who used that device today would '
+                     'therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['be accused of cheating by the London club',
+                   'shock a reader as the 1926 book did',
+                   'have broken the requirement of fair play',
+                   'be leaning on a rule rather than breaking one'],
+             key='D', moves={'A': 'imported', 'B': 'wrong_direction', 'C': 'near_miss'},
+             why='The device is said to have become a standard item, so using it now follows a '
+                 'convention instead of departing from one.',
+             trap='B keeps a shock the text says the device has lost.'),
+        dict(target='allusion',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('allusion'),
+             opts=['a misleading appearance', 'an open quotation', 'an unannounced reference',
+                   'a hint at a solution'],
+             key='C', moves={'A': 'imported', 'B': 'near_miss', 'D': 'imported'},
+             why='Allusion is said to let a later work lean on an earlier one, and the text adds '
+                 'that the pattern need only be present rather than named.',
+             trap='B makes the reference explicit when the text says it need not be named.'),
+        dict(stem='Which choice best describes the function of the sentence about the Christie '
+                  'novel?',
+             opts=['It defines the requirement of fair play',
+                   'It shows a rule making a breach visible',
+                   'It reports when the London club was founded',
+                   'It settles the question of whether she cheated'],
+             key='B', moves={'A': 'detail_swap', 'C': 'detail_swap', 'D': 'wrong_direction'},
+             why='The sentence follows the written rules and is followed by the statement that '
+                 'the scandal only existed because the rule existed.',
+             trap='D settles an argument the text says is still going.'),
+        dict(sibling='HUM-S06-L1',
+             sibling_gloss='Text 2 is passage 36 of this book. It reports an 1841 story that '
+                           'introduced a brilliant private reasoner, a slower companion, a '
+                           'competent and wrong police force and a mechanical solution, and says '
+                           'later writers counted on a reader knowing the pattern.',
+             stem='Text 1 says a convention makes a deliberate breach noticeable. Based on Text '
+                  '2, which choice best shows where the detective convention came from?',
+             opts=['One story in 1841 supplied the parts still in use',
+                   'Doyle had Holmes dismiss Dupin by name',
+                   'Christie built a career on breaking the rules',
+                   'Poe wrote only three stories about Dupin'],
+             key='A', moves={'B': 'near_miss', 'C': 'restatement', 'D': 'true_not_asked'},
+             why='Text 2 says the 1841 story introduced a set of parts that are still in use and '
+                 'that later writers counted on a reader knowing them.',
+             trap='B gives a later writer acknowledging the debt rather than the origin itself.'),
+        dict(carrier='A convention tells a reader how to read. ___ it creates the possibility of '
+                     'significant deviation, because a rule that everybody knows can be broken on '
+                     'purpose.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['By contrast,', 'For example,', 'In other words,', 'Beyond that,'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'near_miss', 'C': 'restatement'},
+             why='The second sentence names the second of two jobs the convention is said to do '
+                 'at once, so the transition must mark an addition.',
+             trap='C treats the second job as another way of stating the first.'),
+        dict(carrier='Detective fiction wrote its conventions down ___ and in the 1920s members '
+                     'of a London club drew up a list of rules.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['down and', 'down, and', 'down; and', 'down and,'],
+             key='B', moves={'A': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about the London club is independent, so the conjunction joining it '
+                 'to the clause about the written conventions takes a comma.',
+             trap='A runs the clause about the conventions straight into the clause about the '
+                  'club.'),
+        dict(goal='explain the one question worth asking about a genre work',
+             notes=['A convention tells a reader how to read.',
+                    'It also makes a deliberate breach noticeable.',
+                    'Every successful breach becomes the next convention.',
+                    'The useful question is which rule a work leans on and which it pushes '
+                    'against.'],
+             stem='The student wants to explain the one question worth asking about a genre work. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['A convention tells a reader how to read the book',
+                   'Every successful breach becomes the next convention',
+                   'A convention also makes a deliberate breach noticeable',
+                   'Since rules both guide and get broken, ask which one a work leans on and '
+                   'which it resists'],
+             key='D', moves={'A': 'underreach', 'B': 'underreach', 'C': 'restatement'},
+             why='Only this choice puts the two jobs of a rule behind the question the notes name '
+                 'as the useful one.',
+             trap='B states the drift without turning it into a question to ask.'),
+    ]))
+
+# --- 7 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='HUM-S07-L2',
+    ar=dict(
+        khulasa='تُقرأ اللوحة في ترتيب، والرسّام هو الذي يقرّر ذلك الترتيب. والتأليف، أي تنظيم '
+                'الأشكال والفراغات داخل الإطار، هو آلة ذلك، وثلاث أدوات تحمل معظم الحمل. أولاها '
+                'التضادّ الضوئيّ، وهو الفرق بين أفتح المناطق وأغمقها.',
+        maana='المعنى أنّ العين تذهب إلى أقوى تضادّ أوّلًا، ولهذا يضع فرمير أشدّ بياضه على اللبن '
+              'والخِمار ويترك سائر الجدار في مدًى ضيّق. والأداة الثانية الخطّ، فالحروف المائلة '
+              'تقود العين على امتدادها. والثالثة الحجم والموضع، فجسم يقطعه الإطار يُقرأ '
+              'ممتدًّا خارجه.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: ثمّ طريقة عمل في النظر: اسأل '
+                  'أين ذهبت العين أوّلًا ولماذا، واتبع المسار الذي سلكته بعد ذلك، والحظ ما '
+                  'تُرك في تضادّ منخفض لأنّه ما قرّر الرسّام أنّه يمكن أن ينتظر.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن التفصيل المذكور في النصّ وعن '
+             'النصّين المتقابلين. والفخّ المتوقّع هنا أن تُحسب اللوحة المزدحمة فاشلة التأليف، '
+             'مع أنّ النصّ ينفي ذلك ويضع الفشل في عين تهيم بلا وصول. ويقترن المقطع بالمقطع '
+             'السابع والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['X-ray images reveal a map painted out of the Milkmaid',
+                   'The eye goes to the strongest contrast in a picture first',
+                   'A crowded picture is always badly composed',
+                   'A painter decides the order in which a picture is read'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'underreach', 'C': 'overreach'},
+             why='The text opens by saying a painting is read in an order that the painter decides '
+                 'and then names the three devices that do it.',
+             trap='C condemns the crowded picture the text expressly declines to condemn.'),
+        dict(stem='According to the text, how does an object cut by the frame read?',
+             opts=['As the strongest contrast in the picture', 'As continuing beyond the frame',
+                   'As a figure placed on the center line',
+                   'As an edge that leads the eye along it'],
+             key='B', moves={'A': 'detail_swap', 'C': 'detail_swap', 'D': 'near_miss'},
+             why='The text says an object cut by the frame reads as continuing beyond it, which '
+                 'pulls the viewer into imagining a room rather than a panel.',
+             trap='A names a different device from the three the text sets out.'),
+        dict(claim='a failed composition can be told from a merely busy one',
+             stem='Which quotation from the text most strongly supports the claim that a failed '
+                  'composition can be told from a merely busy one?',
+             opts=[Q('The eye goes to the strongest contrast first, which is why Vermeer puts his '
+                     'brightest white on the milk and the cap'),
+                   Q('Edges that run diagonally lead the eye along them, and painters arrange '
+                     'table edges, floor tiles, arms and gazes to point where they want attention '
+                     'to travel'),
+                   Q('a painter may want the eye to wander, but a composition that fails will '
+                     'leave the eye drifting without arriving'),
+                   Q('Conservators can sometimes show that an artist moved a figure to improve '
+                     'this order')],
+             key='C', moves={'A': 'true_not_asked', 'B': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation allows a picture in which the eye wanders and locates failure '
+                 'instead in an eye that drifts without arriving.',
+             trap="D names a conservator's finding about one picture rather than the test "
+                  'itself.'),
+        dict(carrier='Notice what has been left in low contrast, because that is what the painter '
+                     'decided could wait. A viewer who starts with the dimmest corner is '
+                     'therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['beginning where the painter meant them to end',
+                   'following the strongest contrast in the picture',
+                   'looking at an object cut by the frame',
+                   'reading the picture in the intended order'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'imported', 'D': 'wrong_direction'},
+             why='Low contrast is said to mark what the painter decided could wait, so the '
+                 'dimmest area is the last stop in the order rather than the first.',
+             trap='D calls the reversed route the intended one.'),
+        dict(target='ornate',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('ornate'),
+             opts=['formally arranged', 'brightly lit', 'plainly finished',
+                   'heavily decorated'],
+             key='D', moves={'A': 'near_miss', 'B': 'imported', 'C': 'wrong_direction'},
+             why='The word is paired with crowded in a sentence about a picture that may still be '
+                 'well composed, so it names a surface loaded with detail.',
+             trap='C gives the opposite of the loaded surface the sentence describes.'),
+        dict(stem='Which choice best describes the function of the three instructions for '
+                  'looking?',
+             opts=['They define tonal contrast for the first time',
+                   'They report what an X-ray of the picture showed',
+                   'They turn the three devices into a procedure',
+                   'They concede that the order cannot be described'],
+             key='C', moves={'A': 'detail_swap', 'B': 'detail_swap', 'D': 'wrong_direction'},
+             why='The instructions follow the three devices under the announcement of a working '
+                 'method and tell a viewer what to ask and in what order.',
+             trap='D denies a description the last of the instructions treats as the test.'),
+        dict(sibling='HUM-S07-L1',
+             sibling_gloss='Text 2 is passage 37 of this book. It lists the surfaces Vermeer '
+                           'recorded in a small kitchen picture, among them a hard highlight on '
+                           'the jug, crumbs of thick paint on the bread and a whitewashed wall '
+                           'warm in the sun and cool in the shadow.',
+             stem='Text 1 says the eye goes to the strongest contrast first. Based on Text 2, '
+                  'which choice best explains why the wall comes last in that order?',
+             opts=['The wall carries a nail and a nail hole',
+                   'Its warm and cool areas stay close together in tone',
+                   'The bread crust holds small dots of thick paint',
+                   'The milk is the only moving thing in the painting'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'near_miss', 'D': 'near_miss'},
+             why='Text 2 describes the wall as warm where the sun falls and cool in the shadow, a '
+                 'narrow range beside the thickened white of the milk.',
+             trap='C names a surface that catches light sharply rather than one in a narrow '
+                  'range.'),
+        dict(carrier='A figure placed on a diagonal from a corner reads differently from one on '
+                     'the center line. ___ an object cut by the frame reads as continuing beyond '
+                     'it.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Likewise,', 'By contrast,', 'As a result,', 'In short,'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'restatement'},
+             why='The second sentence gives a second instance of position deciding how something '
+                 'reads, so the transition must mark a parallel.',
+             trap='B sets the second instance against the first when both make the same point.'),
+        dict(carrier='A painting is read in an order ___ and the painter decides that order.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['order and', 'order; and', 'order, and', 'order and,'],
+             key='C', moves={'A': 'run_on', 'B': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause saying the painter decides the order is independent, so the '
+                 'conjunction joining it to the clause about the reading takes a comma.',
+             trap='A runs the clause about the reading straight into the clause about the '
+                  'painter.'),
+        dict(goal='give a viewer something to do in front of a painting',
+             notes=['Ask where the eye went first and why.',
+                    'Follow the path it took and find the edge or gaze that sent it.',
+                    'Notice what was left in low contrast.',
+                    'The test is whether the order of looking can be described at all.'],
+             stem='The student wants to give a viewer something to do in front of a painting. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['Trace the order of looking from the first stop to the dimmest, then try to '
+                   'describe it',
+                   'Ask where the eye went first in the picture and why',
+                   'Notice what the painter left in low contrast',
+                   'The test is whether the order of looking can be described'],
+             key='A', moves={'B': 'underreach', 'C': 'underreach', 'D': 'restatement'},
+             why='Only this choice runs the three steps together and ends on the test, which is '
+                 'what turns looking into something a viewer does.',
+             trap='B gives the first step alone without the path or the test.'),
+    ]))
+
+# --- 8 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='HUM-S08-L2',
+    ar=dict(
+        khulasa='تعمل الموسيقى على التوقّع عملًا يمكن وصفه بلا تدريب فنّيّ. فالقطعة في مقام '
+                'تُقيم نغمة بيت تُسمّى الركيزة، ومن سمع موازير قليلة يقدر على ترنيمها دون أن '
+                'يعرف اسمها. والبعد عن ذلك البيت يُنشئ الشدّ، والرجوع إليه يُفرجه.',
+        maana='المعنى أنّ كلّ ما بقي تدبيرٌ للمسافة والتأخير بين هذين الحدثين. والقفلة، أي صيغة '
+              'ختامية تُشير إلى الانتهاء، هي آلة الوصول القياسية، وقد تعلّم المؤلّفون مبكّرًا '
+              'أنّ القفلة المتوقّعة يمكن قطعها، والقطع من أقوى الآثار المتاحة.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: تصل الموسيقى إلى لحظة الحلّ '
+                  'فتذهب إلى مكان آخر، غالبًا إلى وتر قريب خاطئ، فيحسّ السامع الانزياح خيبةً '
+                  'جسديّة. والإيقاع يعمل العمل نفسه في الزمن لا في الحدّة، والنبرة القويّة '
+                  'المتروكة صامتة أعلى من أيّ نغمة.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن النصّين '
+             'المتقابلين. والفخّ المتوقّع هنا أن يُوضَع الشعور في النغمات، مع أنّ النصّ يضعه في '
+             'الفجوة بين ما أُقيم وما حُجب. ويقترن المقطع بالمقطع الثامن والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Music works by managing the distance from a home note and back',
+                   'A cadence is a closing formula that signals an ending',
+                   'Film composers work with very simple material',
+                   'Emotion in music sits in the notes themselves'],
+             key='A', moves={'B': 'underreach', 'C': 'true_not_asked', 'D': 'wrong_direction'},
+             why='The text says moving away from the home note creates tension and returning '
+                 'releases it, and that almost everything else is management of the distance and '
+                 'the delay.',
+             trap='D puts the emotion in the notes when the text puts it in the gap.'),
+        dict(stem='According to the text, what happens in an interrupted cadence?',
+             opts=['The home note is established for the listener',
+                   'A strong beat is left silent in the pattern',
+                   'The music reaches resolution and goes elsewhere',
+                   'The listener hums the tonic without naming it'],
+             key='C', moves={'A': 'detail_swap', 'B': 'near_miss', 'D': 'detail_swap'},
+             why='The text says the music arrives at the moment of resolution and goes somewhere '
+                 'else, often to a chord that is close by and wrong.',
+             trap='A names the setting up of the home note rather than the broken arrival.'),
+        dict(claim='a feeling in music can be located in what did not happen',
+             stem='Which quotation from the text most strongly supports the claim that a feeling '
+                  'in music can be located in what did not happen?',
+             opts=[Q('A piece in a key establishes a home note, the tonic, and a listener who has '
+                     'heard a few bars can hum it without knowing its name'),
+                   Q('Haydn built jokes on it and Wagner built whole acts by refusing to arrive '
+                     'for an hour at a time'),
+                   Q('Rhythm does the same job in time rather than in pitch. A pattern once '
+                     'established can be stretched, interrupted or contradicted'),
+                   Q('A piece that evokes grief usually does so by establishing something and '
+                     'then withholding it, and the emotion sits in the gap rather than in the '
+                     'notes')],
+             key='D', moves={'A': 'true_not_asked', 'B': 'near_miss', 'C': 'true_not_asked'},
+             why='The quotation says the emotion sits in the gap rather than in the notes, after '
+                 'naming the establishing and the withholding that make the gap.',
+             trap='B gives two composers using the device without saying where the feeling '
+                  'sits.'),
+        dict(carrier='A pattern once established can be stretched, interrupted or contradicted, '
+                     'and a strong beat left silent is louder than any note. A silence in a piece '
+                     'with no established pattern would therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['be louder than any note in the piece',
+                   'have nothing to be heard against',
+                   'resolve the tension the key set up',
+                   'interrupt an expected cadence instead'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'imported', 'D': 'near_miss'},
+             why='The silent beat is said to be loud because a pattern was established, so '
+                 'without one there is no expectation for the silence to break.',
+             trap='A keeps the loudness the text makes conditional on the pattern.'),
+        dict(target='evokes',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('evokes'),
+             opts=['calls up in a listener', 'cries out against', 'states in words',
+                   'remembers from before'],
+             key='A', moves={'B': 'imported', 'C': 'wrong_direction', 'D': 'near_miss'},
+             why='A piece is said to evoke grief by establishing something and withholding it, so '
+                 'the word names raising the feeling in whoever is listening.',
+             trap='C makes the music state the feeling the text says it produces by a gap.'),
+        dict(stem='Which choice best describes the function of the sentence about film composers?',
+             opts=['It defines the tonic for the first time',
+                   'It reports that Haydn built jokes on it',
+                   'It argues that film music needs no pattern',
+                   'It shows the mechanism carrying very little material'],
+             key='D', moves={'A': 'detail_swap', 'B': 'detail_swap', 'C': 'wrong_direction'},
+             why='The sentence says film composers work almost entirely with this mechanism and '
+                 'often with very simple material, and is followed by one held chord doing the '
+                 'work of a page.',
+             trap='C removes the pattern that the single held chord depends on.'),
+        dict(sibling='HUM-S08-L1',
+             sibling_gloss='Text 2 is passage 38 of this book. It describes a set of twelve '
+                           'variations on an eight-bar tune, says the tune is stated plainly '
+                           'first so that every listener knows what will be worked on, and locates '
+                           'the pleasure in hearing the original survive.',
+             stem='Text 1 says an effect requires something to have been set up. Based on Text 2, '
+                  'which choice best shows a composer doing the setting up?',
+             opts=['Beethoven wrote thirty-three variations on a waltz',
+                   'One variation turns the key from major to minor',
+                   'The tune is stated plainly before it is changed',
+                   'Jazz musicians take a theme apart every night'],
+             key='C', moves={'A': 'true_not_asked', 'B': 'near_miss', 'D': 'near_miss'},
+             why='Text 2 says Mozart states the tune plainly first, so that every listener knows '
+                 'exactly what will be worked on.',
+             trap='D names the taking apart rather than the statement it depends on.'),
+        dict(carrier='Moving away from that home creates tension. ___ returning to it releases '
+                     'the tension.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For example,', 'Conversely,', 'As a result,', 'In other words,'],
+             key='B', moves={'A': 'near_miss', 'C': 'wrong_direction', 'D': 'restatement'},
+             why='The second sentence gives the opposite movement with the opposite result, so '
+                 'the transition must mark a reversal.',
+             trap='C makes the release follow from the tension rather than from the return.'),
+        dict(carrier='The music arrives at the moment of resolution ___ and it goes somewhere '
+                     'else.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['resolution and', 'resolution; and', 'resolution and,', 'resolution, and'],
+             key='D', moves={'A': 'run_on', 'B': 'wrong_mark', 'C': 'misplaced'},
+             why='The clause saying the music goes somewhere else is independent, so the '
+                 'conjunction joining it to the clause about the arrival takes a comma.',
+             trap='A runs the clause about the arrival straight into the clause about the '
+                  'swerve.'),
+        dict(goal='give a listener a better question than whether a passage is beautiful',
+             notes=['Moving away from the home note creates tension and returning releases it.',
+                    'A cadence can be interrupted, which is one of the strongest effects '
+                    'available.',
+                    'The question to ask is what a passage set up and whether it has paid.',
+                    'A description of a piece as sad is less useful than a note of where it '
+                    'was expected to resolve.'],
+             stem='The student wants to give a listener a better question than whether a passage '
+                  'is beautiful. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Moving away from the home note creates tension and returning releases it',
+                   'Ask what the passage set up and whether it paid, and note where it failed to '
+                   'resolve',
+                   'An interrupted cadence is one of the strongest effects available',
+                   'A description of a piece as sad is less useful than other descriptions'],
+             key='B', moves={'A': 'underreach', 'C': 'underreach', 'D': 'restatement'},
+             why='Only this choice states the question and the observation that replaces the '
+                 'verdict, which is what the notes offer a listener.',
+             trap='D rejects the description as sad without supplying the question to ask '
+                  'instead.'),
+    ]))
+
+# --- 9 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='HUM-S09-L2',
+    ar=dict(
+        khulasa='يمكن وصف الشارع بأرقام، وقليل منها يتنبّأ بمعظم ما يُحسّ عند المشي فيه. أوّلها '
+                'الواجهة، أي طول وجه البناء الملاقي للرصيف، وأدقّ منه الواجهة النشطة، وهي '
+                'الواجهة ذات الأبواب والنوافذ التي يستعملها الناس فعلًا.',
+        maana='المعنى أنّ مئة متر فيها اثنا عشر بابًا تسلك سلوكًا مختلفًا عن مئة متر فيها باب '
+              'واحد، ولو تساوى البناءان ارتفاعًا وعمرًا. والرقم الثاني العرض، ونسبة العرض إلى '
+              'ارتفاع البناء تقرّر هل يُقرأ الشارع غرفةً أو فجوة. والثالث النفاذيّة، وتُعدّ بعدد '
+              'المخارج من المَربَع.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: هذه الأرقام تتعارض، وذلك هو '
+                  'كلّ الصعوبة. فالطرق العريضة تنقل المَركبات وتقطع مسارات المشي، '
+                  'والمَربَعات الكبيرة أرخص بناءً وتُنتج جدرانًا صمّاء طويلة، والبرج '
+                  'المتراجع في أرض مكشوفة قد يكون جميلًا من بعيد ويترك الرصيف ميّتًا.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن التفصيل المذكور في النصّ وعن '
+             'النصّين المتقابلين. والفخّ المتوقّع هنا أن تُقدَّم جودة العمارة على عدّ الأبواب، '
+             'مع أنّ النصّ يقول عكسه. ويقترن المقطع بالمقطع التاسع والثلاثين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Jane Jacobs made her argument from observation in 1961',
+                   'A few measurable numbers predict how a street feels, and they conflict',
+                   'A street can be measured in an afternoon with a tape',
+                   'Architectural quality predicts street life best'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='The text names frontage, width to height and permeability as numbers that '
+                 'predict how a street feels, then says the numbers conflict, which is the whole '
+                 'difficulty.',
+             trap='D reverses the comparison the counts are said to settle.'),
+        dict(stem='According to the text, how is permeability counted?',
+             opts=['By the length of building face meeting the pavement',
+                   'By the proportion of width to building height',
+                   'By the number of doorways per hundred meters',
+                   'By the number of ways out of a block'],
+             key='D', moves={'A': 'detail_swap', 'B': 'detail_swap', 'C': 'near_miss'},
+             why='The text says the third number is permeability, counted as the number of ways '
+                 'out of a block.',
+             trap='A gives the definition of frontage instead.'),
+        dict(claim='a handsome building can still kill the pavement beside it',
+             stem='Which quotation from the text most strongly supports the claim that a handsome '
+                  'building can still kill the pavement beside it?',
+             opts=[Q('A tower set back in open ground may be austere and handsome from a distance '
+                     'and leave the pavement beside it dead, because nothing at ground level '
+                     'opens onto it'),
+                   Q('Wide roads move vehicles and break walking routes. Large blocks are cheaper '
+                     'to build and produce long blank walls'),
+                   Q('Transport departments now count footfall, crossings and dwell time as a '
+                     'matter of routine'),
+                   Q('A hundred meters with twelve doorways behaves quite differently from a '
+                     'hundred meters with one')],
+             key='A', moves={'B': 'near_miss', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation grants the tower its looks and still reports a dead pavement, '
+                 'giving the reason as nothing opening onto it at ground level.',
+             trap='B names two other conflicts without conceding anything to the building.'),
+        dict(carrier="A fine grid gives walkers' choices and spreads traffic; a single loop road "
+                     'forces everyone onto one route and makes walking pointless. A neighborhood '
+                     'built on one loop road would therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['spread its traffic across many routes',
+                   'count more doorways per hundred meters',
+                   'score low on the third of the numbers',
+                   'read as a room rather than as a gap'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'imported', 'D': 'imported'},
+             why='Permeability is the third number and is counted as the ways out of a block, '
+                 'which a single loop road reduces to one.',
+             trap='A gives the advantage of the grid to the loop road instead.'),
+        dict(target='austere',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('austere'),
+             opts=['harshly strict', 'plain and spare', 'richly detailed', 'strongly built'],
+             key='B', moves={'A': 'near_miss', 'C': 'wrong_direction', 'D': 'imported'},
+             why='The word sits beside handsome in a judgment of how a tower looks from a '
+                 'distance, so it names an unornamented appearance.',
+             trap='A takes the sense used of a person rather than of a building.'),
+        dict(stem='Which choice best describes the function of the sentence saying the numbers '
+                  'conflict?',
+             opts=['It turns a list of measures into a problem',
+                   'It defines active frontage for the first time',
+                   'It reports what transport departments count',
+                   'It concludes that the numbers are useless'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'wrong_direction'},
+             why='The sentence follows the three numbers and introduces the trade-offs between '
+                 'wide roads, large blocks and the set-back tower.',
+             trap='D discards measures the text goes on to say have been confirmed.'),
+        dict(sibling='HUM-S09-L1',
+             sibling_gloss='Text 2 is passage 39 of this book. It describes a covered lane about '
+                           'six hundred feet long, lined on both sides with small shops under a '
+                           'glass roof, in which a shopper could walk the whole length dry and '
+                           'look in forty windows.',
+             stem='Text 1 names the numbers that predict street life. Based on Text 2, which '
+                  'choice best describes how the arcade scores on the first of them?',
+             opts=['Its glass roof was admired as engineering',
+                   'It has beadles who forbid running and whistling',
+                   'It is about six hundred feet long from end to end',
+                   'Small shops line both of its sides for its whole length'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'true_not_asked', 'C': 'near_miss'},
+             why='The first number is active frontage, and Text 2 describes a lane lined on both '
+                 'sides with small shops in which a shopper can look in forty windows.',
+             trap='C gives the length without saying what meets the pavement along it.'),
+        dict(carrier='A hundred meters with twelve doorways behaves quite differently from a '
+                     'hundred meters with one. ___ the second number is width, and the proportion '
+                     'of width to building height decides whether a street reads as a room.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['By contrast,', 'In other words,', 'After that,', 'For example,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'restatement', 'D': 'near_miss'},
+             why='The second sentence moves on to the next of the three numbers, so the '
+                 'transition must mark a step in a sequence.',
+             trap='A sets the second number against the first when the text is listing them.'),
+        dict(carrier='Wide roads move vehicles and break walking routes ___ and large blocks are '
+                     'cheaper to build.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['routes, and', 'routes and', 'routes; and', 'routes and,'],
+             key='A', moves={'B': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about large blocks being cheaper is independent, so the conjunction '
+                 'joining it to the clause about wide roads takes a comma.',
+             trap='B runs the clause about the roads straight into the clause about the blocks.'),
+        dict(goal='explain why a street can be judged without an architect',
+             notes=['Active frontage counts doorways and windows that people use.',
+                    'Doorways per hundred meters predicts street life better than architectural '
+                    'quality.',
+                    'Jacobs made the argument by counting uses and watching sidewalks.',
+                    'A street can be measured in an afternoon with a tape and a counter.'],
+             stem='The student wants to explain why a street can be judged without an architect. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['Active frontage counts the doorways and windows people use',
+                   'Jacobs counted uses and watched sidewalks to make her argument',
+                   'A tape and a counter measure the doorways that predict street life better '
+                   'than quality does',
+                   'A street can be measured in an afternoon with a tape'],
+             key='C', moves={'A': 'underreach', 'B': 'underreach', 'D': 'restatement'},
+             why='Only this choice joins the tools anyone can carry to the count that is said to '
+                 'beat architectural quality as a predictor.',
+             trap='B credits one observer without saying what the counting establishes.'),
+    ]))
+
+# --- 10 ------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='HUM-S10-L2',
+    ar=dict(
+        khulasa='للحكم النقديّ الذي يمكن فحصه ثلاثة أجزاء: دعوى يجب أن تقول شيئًا قابلًا '
+                'للتكذيب، ودليل مأخوذ من العمل نفسه مقتبسًا أو موصوفًا وصفًا يتيح للقارئ '
+                'التحقّق، ومعيار، أي المقياس الذي يُحاكَم العمل إليه، وهو الجزء الأكثر '
+                'إغفالًا.',
+        maana='المعنى أنّ كلّ جزء يفسد فسادًا مميّزًا: الدعوى تفسد بأن تكون غير قابلة للتكذيب، '
+              'كناقد يسمّي رواية مهمّة ولا يقول ما الذي يجعلها غير مهمّة؛ والدليل يفسد بأن يكون '
+              'عن شيء آخر؛ والمعيار يفسد ببقائه خفيًّا.',
+        ahammiyya='في مجال الإنسانيات هذه المادة في مستوى الآلية: المعيار الخفيّ يُنتج أشيع '
+                  'خلاف عديم النفع، حيث يتجادل اثنان في عمل وهما يقيسانه إلى شيئين مختلفين. '
+                  'وإظهار المعيار يغيّر الجدال، فمن قال إنّ مسرحية تفشل لعدم اتّساق '
+                  'شخصيّاتها نفسيًّا جاز أن يُسأل أهذا هو المقياس الصحيح.',
+        sila='في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى '
+             'كلمة في سياقها. والفخّ المتوقّع هنا أن يُحسب المعيار الخفيّ مُيسِّرًا للحكم، مع '
+             'أنّ النصّ يجعله سبب الخلاف العقيم. ويقترن المقطع بالمقطع الأربعين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Samuel Johnson insisted on the point in 1765',
+                   'Academic criticism reads unlike journalism',
+                   'A judgment can be examined only if its three parts are present',
+                   'A hidden standard makes a disagreement easier to settle'],
+             key='C', moves={'A': 'true_not_asked', 'B': 'underreach', 'D': 'wrong_direction'},
+             why='The text divides a judgment into a claim, evidence and a criterion, says each '
+                 'fails in a characteristic way, and that a hidden criterion produces useless '
+                 'disagreement.',
+             trap='D reverses the effect the text attributes to a hidden standard.'),
+        dict(stem='According to the text, how does a claim fail?',
+             opts=['By being impossible to show false', 'By being about the author instead',
+                   'By staying hidden from the reader', 'By quoting the work too closely'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'imported'},
+             why='The text says a claim fails by being unfalsifiable, as when a reviewer calls a '
+                 'novel important without saying what would make it unimportant.',
+             trap='B gives the way evidence fails rather than the way a claim fails.'),
+        dict(claim='naming a standard makes a dispute workable rather than settling it',
+             stem='Which quotation from the text most strongly supports the claim that naming a '
+                  'standard makes a dispute workable rather than settling it?',
+             opts=[Q('The criterion fails by staying hidden, and a hidden standard produces the '
+                     'commonest kind of useless disagreement'),
+                   Q('Neither question settles the matter, and both move it to the one place '
+                     'where it can be argued productively'),
+                   Q('Academic criticism makes the standard explicit as a matter of convention'),
+                   Q('Evidence fails by being about something else, which is why a review that '
+                     "spends its length on the author's biography is not a review of the book")],
+             key='B', moves={'A': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation denies that the questions settle anything and says they move the '
+                 'argument to the one place where it can be conducted.',
+             trap='A names the harm a hidden standard does without saying what naming one '
+                  'achieves.'),
+        dict(carrier='Critics who name their standards can be disagreed with. Critics who do not '
+                     'can only be ignored or believed. A reader who wants to argue with a review '
+                     'therefore needs ___',
+             stem='Which choice most logically completes the text?',
+             opts=['a longer review with more quotation',
+                   "a reviewer who shares the reader's taste",
+                   'an author willing to answer the charge',
+                   'the standard the review was using'],
+             key='D', moves={'A': 'near_miss', 'B': 'imported', 'C': 'imported'},
+             why='The text says critics who name their standards can be disagreed with and that '
+                 'those who do not can only be ignored or believed.',
+             trap='B looks for agreement where the text calls for a stated standard.'),
+        dict(target='satirize',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('satirize'),
+             opts=['describe in detail', 'borrow a style from', 'attack by ridicule',
+                   'satisfy the demands of'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'imported', 'D': 'imported'},
+             why='The complaint is that the film does not satirize the system it depicts, so the '
+                 'word names mockery aimed at that system.',
+             trap='A asks only for depiction, which the sentence says the film already gives.'),
+        dict(stem='Which choice best describes the function of the two questions in the text?',
+             opts=['They define the criterion for the first time',
+                   'They show what an explicit standard lets a reader ask',
+                   'They report the year Johnson insisted on the point',
+                   'They settle both of the disputes they raise'],
+             key='B', moves={'A': 'detail_swap', 'C': 'detail_swap', 'D': 'wrong_direction'},
+             why='The two questions follow the claim that making the criterion explicit changes '
+                 'the argument, and each puts the stated standard itself in question.',
+             trap='D settles disputes the next sentence says are not settled.'),
+        dict(sibling='HUM-S10-L1',
+             sibling_gloss='Text 2 is passage 40 of this book. It reports three reviews of one '
+                           'first performance, notes that all three critics sat in the same room '
+                           'for the same thirty-three minutes, and says each had a different '
+                           'standard in mind.',
+             stem='Text 1 says a hidden criterion produces useless disagreement. Based on Text 2, '
+                  'which choice best illustrates that outcome?',
+             opts=['Three reviews of one evening disagreed because each wanted something '
+                   'different',
+                   'The audience fought in the aisles within the first minutes',
+                   'Stravinsky gave several accounts that do not agree either',
+                   'The theater had opened only six weeks before'],
+             key='A', moves={'B': 'true_not_asked', 'C': 'near_miss', 'D': 'true_not_asked'},
+             why='Text 2 reports three critics in the same room whose verdicts differed because '
+                 'one wanted melody, one wanted novelty and one wanted a social occasion.',
+             trap='C gives one man disagreeing with himself rather than two standards in '
+                  'conflict.'),
+        dict(carrier='A claim fails by being unfalsifiable. ___ evidence fails by being about '
+                     'something else, which is why a review that spends its length on a biography '
+                     'is not a review of the book.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['As a result,', 'In other words,', 'All the same,', 'Similarly,'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'restatement', 'C': 'wrong_direction'},
+             why='The second sentence names the second of three characteristic failures, so the '
+                 'transition must mark a parallel rather than a consequence.',
+             trap='B treats a failure of evidence as a restatement of a failure of claim.'),
+        dict(carrier='Critics who name their standards can be disagreed with ___ and critics who '
+                     'do not can only be ignored or believed.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['with and', 'with, and', 'with; and', 'with and,'],
+             key='B', moves={'A': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about critics who do not name their standards is independent, so the '
+                 'conjunction joining it to the clause about those who do takes a comma.',
+             trap='A runs the clause about the named standards straight into the clause about the '
+                  'hidden ones.'),
+        dict(goal='explain what academic criticism gains by naming its standard',
+             notes=['The criterion is the part most often left out.',
+                    'A hidden standard produces useless disagreement.',
+                    'Academic criticism makes the standard explicit by convention.',
+                    'The convention costs it readers and buys it the ability to be refuted.'],
+             stem='The student wants to explain what academic criticism gains by naming its '
+                  'standard. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['The criterion is the part of a judgment most often left out',
+                   'A hidden standard produces the commonest useless disagreement',
+                   'Academic criticism makes its standard explicit by convention',
+                   'Stating the standard loses readers and buys the chance of being refuted'],
+             key='D', moves={'A': 'underreach', 'B': 'underreach', 'C': 'restatement'},
+             why='Only this choice names the price and the purchase together, which is the trade '
+                 'the notes set out.',
+             trap='C reports the convention without saying what it costs or earns.'),
+    ]))
+
+if __name__ == '__main__':
+    qemit.emit(FIELD, LEVEL, SETS)
