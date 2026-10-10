@@ -92,6 +92,17 @@ check and the level total are exact.
 Book totals: 275 easy, 450 medium, 275 hard, plus 1,000 at the level-dependent
 positions — in full, 550 easy, 900 medium, 550 hard across 2,000 questions.
 
+Three of the ten slots are **anchors** and hold one difficulty at every level:
+slot 7, the cross-text pair, is hard throughout, because reading two passages
+against each other is the hardest thing the book asks; slot 9, the Standard
+English carrier, is easy throughout, because a comma splice is a comma splice at
+any level; and slot 4, the inference, sits at medium throughout. The other seven
+slots move with the level, and that movement is what produces the ladder in the
+table above. An earlier draft of this plan stated the check in section 10 as
+"every slot carries at least one easy and one hard somewhere", which the map
+above cannot satisfy and was never meant to; the check reads as it does below
+instead.
+
 Difficulty here is a **design position, not a measurement**. A real SAT difficulty
 label comes from how students performed on the item. Nothing in this book can
 produce that, and §11 says so plainly rather than implying otherwise.
@@ -213,8 +224,8 @@ consecutive identical keys in a set · no slot above 40 per cent on one letter.
 
 **D. Difficulty (31–40).** Each level's easy, medium and hard totals exactly as
 mapped (four checks) · labels all valid · book totals as declared · hard rises with
-every level · easy falls with every level · every slot carries at least one easy and
-one hard somewhere · no set of one difficulty only.
+every level · easy falls with every level · the three anchor slots hold one
+difficulty and the other seven move · no set of one difficulty only.
 
 **E. Stem quality (41–50).** Every stem ends as its type prescribes · stem length 6
 to 60 words · no negative stems · no two stems identical book-wide · no stem

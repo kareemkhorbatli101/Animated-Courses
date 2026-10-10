@@ -547,9 +547,16 @@ def book_checks(passages, sets, qres):
             for lv in (1, 2, 3, 4)]
     ck('D8 easy questions fall with every level',
        easy == sorted(easy, reverse=True) and len(set(easy)) == 4, ' > '.join(map(str, easy)))
-    ck('D9 every slot carries an easy and a hard somewhere',
-       all({q['difficulty'] for q in qs if q['slot'] == i} >= {'easy', 'hard'} for i in SLOTS)
-       if qs else False)
+    # Three slots are anchors and hold one difficulty at every level by design: the
+    # cross-text pair is the hardest thing in the book, the Standard English carrier
+    # the easiest, and the inference slot sits in the middle throughout. The other
+    # seven move with the level. See QUESTIONS-PLAN.md section 3.
+    ANCHOR = {4: 'medium', 7: 'hard', 9: 'easy'}
+    diffs = {i: {q['difficulty'] for q in qs if q['slot'] == i} for i in SLOTS}
+    ck('D9 the three anchor slots hold one difficulty and the other seven move',
+       bool(qs) and all(diffs[i] == {ANCHOR[i]} for i in ANCHOR)
+       and all(len(diffs[i]) > 1 for i in SLOTS if i not in ANCHOR),
+       ' '.join('%d:%s' % (i, '/'.join(sorted(diffs[i]))) for i in SLOTS) if qs else '')
     ck('D10 no set of one difficulty only',
        all(len({q['difficulty'] for q in s['questions']}) > 1 for s in sets))
 
