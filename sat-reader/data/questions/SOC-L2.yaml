@@ -1,0 +1,2084 @@
+# Social Science level 2 - ten SAT-style questions and an Arabic summary per passage.
+# Written by tools/qemit.py; checked by tools/qchecks.py.
+field: SOC
+level: 2
+sets:
+- id: SOC-S01-L2
+  summary_ar:
+    khulasa: يمكن أن يُخطئ المسح في ثلاث جهات منفصلة، وعلاج كلّ واحدة مختلف. أوّلها إطار المعاينة،
+      أي القائمة التي يُسحَب منها من سيُسألون. فمسح هاتفيّ على الخطوط الأرضية يصل إلى قائمة أكبر سنًّا
+      وأكثر استقرارًا من السكّان.
+    maana: المعنى أنّ الثانية عدم الاستجابة، وهي تخلّف المختارين عن الإجابة أصلًا. فقد هبطت نسب الاستجابة
+      للمسوح الهاتفية في الولايات المتّحدة من نحو سبعين في المئة في السبعينيّات إلى أقلّ من عشرة،
+      ومن يجيب اليوم ليس نسخة صغيرة ممّن لا يجيب.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: والثالثة في الأداة، وتشمل آثار
+      الصياغة من المقطع السابق مع آثار الترتيب وضغط الجواب المقبول. وبيت القصيد في الثلاث أنّ تحيّزًا
+      من هذا النوع لا يزيله حجم أكبر للعيّنة، فحجم العيّنة يحكم الخطأ العشوائيّ وحده.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب الترجيح مُصلِحًا لكلّ فرق، مع أنّه لا يعمل إلّا في خصائص معروفة
+      ومقيسة. ويقترن المقطع بالمقطع الحادي والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Telephone response rates fell below ten percent
+    - A bias of any of the three kinds survives a larger sample
+    - Weighting corrects for every unmeasured difference
+    - A margin of error describes the worst of the problems
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text names the frame, nonresponse and the instrument and says the central point of all
+      three is that a bias of this kind is not removed by a larger sample.
+    trap: C credits weighting with correcting what the text says it cannot reach.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does weighting correct for?
+    options:
+    - Every characteristic of those who refuse
+    - The exclusion of a third of the country
+    - The pressure to give an acceptable answer
+    - Characteristics that are known and measured
+    key: D
+    moves:
+      A: overreach
+      B: detail_swap
+      C: detail_swap
+    why: The text says statisticians correct for nonresponse by weighting and that weighting works
+      only for characteristics that are known and measured.
+    trap: A extends weighting to everything about the people who refuse.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the people who still
+      answer differ from those who do not?
+    claim: the people who still answer differ from those who do not
+    options:
+    - «the people who still answer are not a small copy of those who do not. They are more interested
+      in the subject, more trusting of institutions and older»
+    - «A telephone poll on landlines reaches a list older and more settled than the population»
+    - «Respondents understate how much they drink and overstate whether they voted»
+    - «Sample size governs only random error, so a poorly framed poll of fifty thousand people is
+      worse than a well framed poll of a thousand»
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: The quotation denies that the remaining answerers are a small copy of the rest and then names
+      three ways they differ.
+    trap: B describes the frame rather than the people who answer within it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Sample size governs only random error, so a poorly framed poll of fifty thousand people
+      is worse than a well framed poll of a thousand, and more confident. A reader shown a very large
+      sample should therefore ___
+    options:
+    - treat the figure as settled
+    - expect a smaller frame problem
+    - ask about the frame as well
+    - weight the answers by age
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: imported
+    why: The text says sample size governs only random error and that a large badly framed poll is
+      worse and more confident, so the frame remains the open question.
+    trap: A takes the confidence the text calls misplaced.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «bias» most nearly mean?
+    target: bias
+    options:
+    - a personal prejudice
+    - a systematic error
+    - a random fluctuation
+    - a diagonal cut of cloth
+    key: B
+    moves:
+      A: near_miss
+      C: wrong_direction
+      D: imported
+    why: The text says a bias of this kind is not removed by a larger sample, and contrasts it with
+      the random error that sample size governs.
+    trap: C puts the word on the side of the error a larger sample does fix.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about fifty thousand people?
+    options:
+    - It shows size failing to rescue a bad frame
+    - It defines nonresponse for a reader
+    - It reports the fall in response rates
+    - It argues that small polls are always better
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence follows the claim that a bias is not removed by a larger sample and sets a badly
+      framed poll of fifty thousand against a well framed poll of a thousand.
+    trap: D turns one comparison into a rule about every poll.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 names the instrument as one source of error. Based on Text 2, which choice best illustrates
+      that source?
+    sibling: SOC-S01-L1
+    sibling_gloss: Text 2 is passage 41 of this book. It reports a 1940 test in which about fifty-four
+      percent would forbid public speeches while about seventy-five percent would refuse to allow
+      them, a gap of roughly twenty points made by the wording alone.
+    options:
+    - A landline list older than the population
+    - A response rate that has fallen below ten percent
+    - A weighting scheme published with the figures
+    - A twenty-point gap between forbid and allow
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: near_miss
+    why: Text 2 reports about fifty-four percent willing to forbid and about seventy-five percent
+      unwilling to allow, which is a difference made by the wording alone.
+    trap: A names the frame, which Text 1 counts as a separate failure.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: A telephone poll on landlines reaches a list older and more settled than the population.
+      ___ no amount of courtesy on the call fixes a frame that excludes a third of the country.
+    options:
+    - By contrast,
+    - For instance,
+    - As a result,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence states what follows from a frame that misses part of the population,
+      so the transition must mark a consequence.
+    trap: A sets the limit of courtesy against the frame that creates it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A survey can be wrong in three separate ways ___ and the remedies are different in each
+      case.
+    options:
+    - ways, and
+    - ways and
+    - ways; and
+    - ways and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the remedies is independent, so the conjunction joining it to the clause
+      about the three ways takes a comma.
+    trap: B runs the clause about the three ways straight into the clause about the remedies.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what a report should publish alongside its figures. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what a report should publish alongside its figures
+    notes:
+    - The three failures are the frame, nonresponse and the instrument.
+    - A bias of that kind is not removed by a larger sample.
+    - Good practice reports the frame, the response rate and the weighting scheme.
+    - A margin of error describes the least of the problems.
+    options:
+    - The three failures are the frame, nonresponse and the instrument
+    - A margin of error describes the least of the problems
+    - The frame, the response rate and the weighting, since a margin of error covers the smallest
+      fault
+    - Good practice reports the frame and the response rate
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice names the three disclosures and says why the usual figure is the least informative
+      of them.
+    trap: D lists two of the three without the reason the notes give.
+- id: SOC-S02-L2
+  summary_ar:
+    khulasa: يبدو التماثل بديلًا معقولًا من القرعة وليس كذلك. فالباحث الذي يقارن مدرستين يستطيع أن
+      يماثلهما في الحجم والدخل ومؤهّلات المعلّمين، ثمّ يهزمه شيء ليس في القائمة.
+    maana: المعنى أنّ الخطر هو المُلتبِس، أي فرق بين المجموعتين يؤثّر في النتيجة كما يؤثّر فيها العلاج،
+      وخصيصته القاتلة أنّ الملتبسات الخطيرة هي التي لم يفكّر فيها أحد. والعشوائية تحلّ مشكلة لا يحلّها
+      التماثل.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: حين تُستعمل القرعة لتوزيع الناس
+      على علاج وعلى مجموعة ضابطة، تُصنع المجموعتان متماثلتين في كلّ خصيصة في وقت واحد، ومنها ما لم
+      يقسه أحد ولم يتخيّله، وهي خصيصة لافتة أثرٌ خالص للمصادفة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب نتيجة التجربة منقولة إلى كلّ سكّان، مع أنّ النصّ ينفي ذلك. ويقترن
+      المقطع بالمقطع الثاني والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The streptomycin trial of 1948 is usually cited first
+    - Matching equalizes the characteristics on the list
+    - A lottery balances what nobody has thought to measure
+    - A randomized result transfers to any population
+    key: C
+    moves:
+      A: true_not_asked
+      B: underreach
+      D: wrong_direction
+    why: The text says the dangerous confounders are the ones nobody thought of and that a lottery
+      makes the groups alike on every characteristic at once, including the unmeasured ones.
+    trap: D claims a transfer the text says randomization says nothing about.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is the fatal property of confounders?
+    options:
+    - The dangerous ones go unthought of
+    - They are listed before the study begins
+    - They affect only the control group
+    - They vanish when people drop out
+    key: A
+    moves:
+      B: wrong_direction
+      C: imported
+      D: imported
+    why: The text says the fatal property of confounders is that the dangerous ones are the ones nobody
+      thought of.
+    trap: B puts the dangerous differences on the list that matching uses.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the balance a lottery
+      produces is a matter of chance?
+    claim: the balance a lottery produces is a matter of chance
+    options:
+    - «A researcher comparing two schools can match them on size, income, and the qualifications of
+      the teachers»
+    - «That is a remarkable property and it is purely a consequence of chance. It also comes with
+      a stated size of uncertainty»
+    - «A trial in seventy-nine Tennessee schools tells us about those schools in those years»
+    - «It also does not survive people dropping out in different numbers from the two groups»
+    key: B
+    moves:
+      A: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation calls the balancing purely a consequence of chance and adds that the luck involved
+      has a stated size.
+    trap: D names a way the design fails rather than the source of its strength.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: It says nothing about whether the result transfers to another population, another scale
+      or another decade. A state that found small classes effective in seventy-nine schools would
+      therefore ___
+    options:
+    - know that the result holds statewide
+    - have balanced the unmeasured differences
+    - be running an unrandomized comparison
+    - still face a question about supply
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: wrong_direction
+    why: The text says the trial cannot tell whether the state would have found enough good teachers
+      everywhere, which it calls a question about supply.
+    trap: A extends a local finding to the whole state.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «allocate» most nearly mean?
+    target: allocate
+    options:
+    - speak at length about
+    - set aside as a reserve
+    - assign to a group
+    - remove from a list
+    key: C
+    moves:
+      A: imported
+      B: near_miss
+      D: wrong_direction
+    why: A lottery is said to allocate people to a treatment and to a control group, so the word names
+      the putting of a person into one group or the other.
+    trap: B takes the sense in which money is allocated to a purpose.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the Tennessee schools?
+    options:
+    - It defines a control group for a reader
+    - It shows the limit of what a trial covers
+    - It dates the first randomized clinical trial
+    - It argues that the trial was badly run
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: imported
+    why: The sentence follows the statement of what randomization does not do and confines the finding
+      to those schools in those years.
+    trap: D faults a design the text uses as its example of a good one.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says a lottery makes two groups alike at once. Based on Text 2, which choice best
+      describes that property in practice?
+    sibling: SOC-S02-L1
+    sibling_gloss: Text 2 is passage 42 of this book. It describes a Tennessee experiment in which
+      about eleven thousand six hundred pupils were assigned by lot to small or regular classes, and
+      ends by saying nothing except the class size distinguished the groups at the start.
+    options:
+    - Nothing but the class size distinguished the groups
+    - Small classes are common in rich districts
+    - The experiment also cost a great deal to run
+    - The gap was larger for children from poorer families
+    key: A
+    moves:
+      B: wrong_direction
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 ends by saying that nothing except the class size distinguished the two groups at
+      the start, which is the property Text 1 attributes to the lottery.
+    trap: B names the trouble with the comparisons the lottery replaced.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Matching looks like a reasonable substitute for a lottery and is not. ___ a researcher
+      comparing two schools can still be defeated by something not on the list.
+    options:
+    - By contrast,
+    - As a result,
+    - In other words,
+    - After all,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence gives the reason matching falls short, so the transition must mark a
+      ground.
+    trap: B makes the defeat follow from the judgment rather than support it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Randomization solves a problem that matching cannot ___ and the two groups are made alike
+      on every characteristic at once.
+    options:
+    - cannot and
+    - cannot, and
+    - cannot; and
+    - cannot and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the two groups being made alike is independent, so the conjunction joining
+      it to the clause about randomization takes a comma.
+    trap: A runs the clause about randomization straight into the clause about the groups.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain the exact reach of a randomized result. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain the exact reach of a randomized result
+    notes:
+    - A lottery makes the groups alike on every characteristic at once.
+    - It comes with a stated size of uncertainty.
+    - It says nothing about transfer to another population or decade.
+    - It fails when people drop out unevenly.
+    options:
+    - A lottery makes the groups alike on every characteristic at once
+    - The design comes with a stated size of uncertainty
+    - It fails when people drop out unevenly from the two groups
+    - The groups are balanced here, and nothing follows about another place or time
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: true_not_asked
+    why: Only this choice states the internal strength and the external silence together, which is
+      the reach the notes describe.
+    trap: A names the balancing without the limit the notes place on it.
+- id: SOC-S03-L2
+  summary_ar:
+    khulasa: 'قياسان يتلازمان قد يقومان في أيّ من أربع علاقات، وواحدة منها وحدها تُجيز العمل. الأولى
+      الظاهرة: الأوّل يُحدث الثاني. والثانية السببية المعكوسة، أي أنّ النتيجة هي التي تُحدث السبب
+      المفترض.'
+    maana: المعنى أنّ المستشفيات ذات العدد الأكبر من العاملين لكلّ سرير فيها معدّلات وفاة أعلى، وهذا
+      مُقلق حتّى يُلاحَظ أنّ أشدّ المرضى يُرسَلون إلى أفضل الأقسام تجهيزًا. والثالثة سبب مشترك، وهو
+      ما تُظهره حالة الشوكولاتة ونوبل.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: والرابعة أثر الانتقاء، أي نمط
+      ينشأ من كيفية دخول الحالات في البيانات أصلًا. فدراسة لياقة الجنود تقول قليلًا عن السكّان لأنّ
+      غير اللائقين لم يُجنَّدوا، والطائرات العائدة كان أكثر عطبها في الأجنحة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقرأ التلازم إجازةً للعمل، مع أنّ واحدة من أربع علاقات وحدها تُجيزه.
+      ويقترن المقطع بالمقطع الثالث والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Wald worked out the armor problem in 1943
+    - The best staffed units receive the sickest patients
+    - A correlation licenses action by itself
+    - Only one of four relations licenses action
+    key: D
+    moves:
+      A: true_not_asked
+      B: underreach
+      C: wrong_direction
+    why: The text says two correlated measurements may stand in any of four relations and that only
+      one of them licenses action, and then names the other three.
+    trap: C takes the authority the text reserves for one of the four relations.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, why did the returning planes show damage on the wings?
+    options:
+    - Because the wings carried the least armor
+    - Because planes hit in the engines did not return
+    - Because the unfit were never enlisted at all
+    - Because the sickest patients went to the best units
+    key: B
+    moves:
+      A: imported
+      C: detail_swap
+      D: detail_swap
+    why: The text says the planes hit in the engines had not come back to be inspected, so armoring
+      the wings was exactly the wrong conclusion.
+    trap: C gives the other selection example the text uses.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a correlation becomes
+      a finding only with outside variation?
+    claim: a correlation becomes a finding only with outside variation
+    options:
+    - «Hospitals with more staff per bed have higher death rates»
+    - «Time order helps a little, since a cause must precede its effect»
+    - «Until something of that kind is in hand, a correlation is a question rather than a finding»
+    - «His solution was to reason about the missing planes rather than the ones in front of him»
+    key: C
+    moves:
+      A: true_not_asked
+      B: near_miss
+      D: true_not_asked
+    why: The quotation follows the source of variation unrelated to everything else and says that
+      until such a thing is in hand the correlation is only a question.
+    trap: B names a weaker aid rather than the condition the claim states.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A study of the fitness of soldiers says little about the population, because the unfit
+      were never enlisted. A survey of the graduates of a selective course would therefore ___
+    options:
+    - describe the people the course admitted
+    - measure the population at large
+    - reverse the direction of the cause
+    - require a dose response to interpret
+    key: A
+    moves:
+      B: wrong_direction
+      C: near_miss
+      D: imported
+    why: The soldier example turns on who entered the data, so a study of a selected group describes
+      that group rather than the population.
+    trap: B credits a selected sample with a population it excludes.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «correlate» most nearly mean?
+    target: correlate
+    options:
+    - cause one another
+    - agree in meaning
+    - arrive at the same time
+    - move together in value
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: near_miss
+    why: The text speaks of two measurements that correlate and then asks which of four relations
+      holds between them, so the word names only the joint movement.
+    trap: A supplies the causation the next sentences treat as one possibility of four.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the hospital example?
+    options:
+    - It defines a selection effect for a reader
+    - It reports what Wald recommended in 1943
+    - It gives a case of the second possibility
+    - It argues that staffing raises death rates
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: wrong_direction
+    why: The example follows the naming of reverse causation and shows the sickest patients being
+      sent to the best staffed units.
+    trap: D takes the alarming reading the example is there to dissolve.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 names a common cause as its third possibility. Based on Text 2, which choice best
+      supplies the common cause in that case?
+    sibling: SOC-S03-L1
+    sibling_gloss: Text 2 is passage 43 of this book. It reports a tight fit between chocolate eaten
+      and Nobel prizes won across twenty-three countries and notes that rich countries eat more chocolate
+      and also fund more laboratories.
+    options:
+    - The crudeness of the prize measure
+    - The wealth that buys both chocolate and laboratories
+    - A country of two million with one laureate
+    - A joke with a serious point behind it
+    key: B
+    moves:
+      A: near_miss
+      C: near_miss
+      D: true_not_asked
+    why: Text 2 says rich countries eat more chocolate and fund more laboratories, so national wealth
+      could produce both figures without either touching the other.
+    trap: A names a weakness in the measure rather than the third thing causing both.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Time order helps a little, since a cause must precede its effect. ___ anticipation can
+      reverse the apparent order.
+    options:
+    - Even so,
+    - As a result,
+    - For instance,
+    - In other words,
+    key: A
+    moves:
+      B: wrong_direction
+      C: near_miss
+      D: restatement
+    why: The second sentence takes back part of the help just granted, so the transition must mark
+      a concession.
+    trap: B makes the reversal follow from the usefulness of time order.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The planes that returned had most of their damage on the wings ___ and the planes hit
+      in the engines had not come back.
+    options:
+    - wings and
+    - wings; and
+    - wings, and
+    - wings and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause about the planes hit in the engines is independent, so the conjunction joining
+      it to the clause about the returning planes takes a comma.
+    trap: A runs the clause about the returning planes straight into the clause about the missing
+      ones.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why armoring the wings was the wrong conclusion. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why armoring the wings was the wrong conclusion
+    notes:
+    - The planes that returned had most of their damage on the wings.
+    - The planes hit in the engines had not come back to be inspected.
+    - The pattern was produced by how the cases entered the data.
+    - Wald reasoned about the missing planes rather than the ones in front of him.
+    options:
+    - The wings showed damage because the planes hit elsewhere never arrived to be seen
+    - The returning planes had most of their damage on the wings
+    - Wald reasoned about the planes that were missing
+    - The pattern came from how the cases entered the data
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice joins the observed damage to the planes absent from the sample, which is
+      what makes the obvious conclusion wrong.
+    trap: C credits the solution without saying what was wrong with the data.
+- id: SOC-S04-L2
+  summary_ar:
+    khulasa: 'أيّ مجموعة أرقام تُلخَّص بأربع كمّيّات، وكلّ واحدة تحجب شيئًا آخر: المتوسّط هو المجموع
+      مقسومًا على العدد، والوسيط هو الحالة الوسطى، والانحراف المعياري مقياس لبعد الحالة النمطية عن
+      المتوسّط، والالتواء يصف أذنب التوزيع طويل في جهة.'
+    maana: 'المعنى أنّ مجموعتين قد تشتركان في المتوسّط والوسيط وتختلفان في كلّ ما يهمّ: فبلدة يكسب
+      فيها الجميع ثلاثين ألفًا وبلدة يكسب نصفها عشرة ونصفها خمسين لهما المتوسّط نفسه، وسياسة مبنيّة
+      لإحداهما عديمة النفع في الأخرى.'
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: ومدرستان لهما المعدّل نفسه قد
+      تختلفان في أنّ النتيجة من وسط متساوٍ أو من انقسام بين نصف قويّ ونصف راسب، ولا يُظهر ذلك إلّا
+      الانتشار. والقاعدة العملية أن تُطلَب الهيئة لا الملخّص.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقنَع برقم واحد بلا انتشار، مع أنّ النصّ يسمّيه أسوأ الحالات. ويقترن
+      المقطع بالمقطع الرابع والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Each summary figure hides something the shape would show
+    - Anscombe published four data sets in 1973
+    - Income distributions always have a long upper tail
+    - A single figure with no spread is enough
+    key: A
+    moves:
+      B: true_not_asked
+      C: underreach
+      D: wrong_direction
+    why: The text names four summary quantities, says each hides something different, and gives the
+      practical rule of asking for the shape rather than the summary.
+    trap: D accepts the figure the text calls the worst case.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does the skew describe?
+    options:
+    - How far the typical case sits from the average
+    - The total divided by the count of cases
+    - Whether a long tail sits on one side
+    - Which case stands in the middle of the line
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: near_miss
+    why: The text says the skew describes whether the distribution has a long tail on one side, which
+      income always does and height never does.
+    trap: A gives what the standard deviation describes instead.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that two groups can match
+      on the summaries and differ entirely?
+    claim: two groups can match on the summaries and differ entirely
+    options:
+    - «The mean is the total divided by the count. The median is the middle case»
+    - «A histogram, which sorts the cases into bins and draws the counts, usually settles in one glance
+      questions that an aggregate figure leaves open»
+    - «Where a shape is not available, two numbers are much better than one»
+    - «Francis Anscombe assembled four data sets in 1973 with identical means, variances and correlations
+      and completely different shapes»
+    key: D
+    moves:
+      A: true_not_asked
+      B: near_miss
+      C: near_miss
+    why: The quotation reports four data sets agreeing on every summary quantity named and differing
+      completely in shape.
+    trap: B names the remedy rather than the case the claim describes.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A town where everyone earns thirty thousand dollars and a town where half earn ten and
+      half earn fifty have the same mean, and a policy built for one would be useless in the other.
+      A planner given only the mean would therefore ___
+    options:
+    - know which town is being described
+    - be unable to tell the two apart
+    - see the long tail in the distribution
+    - have the standard deviation as well
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: wrong_direction
+    why: The two towns share a mean and differ in everything a policy would need, so the mean alone
+      cannot distinguish them.
+    trap: D supplies the second figure the case stipulates is missing.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «aggregate» most nearly mean?
+    target: aggregate
+    options:
+    - summed into one total
+    - crushed stone for building
+    - drawn as a picture
+    - collected at random
+    key: A
+    moves:
+      B: imported
+      C: wrong_direction
+      D: near_miss
+    why: The word qualifies the figure a histogram outperforms, and the text has already defined such
+      figures as sums and divisions over the cases.
+    trap: C makes the word name the picture the figure is contrasted with.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the two-school comparison?
+    options:
+    - It defines the standard deviation for a reader
+    - It reports the figures in the Anscombe sets
+    - It argues that averages should be abandoned
+    - It shows the spread carrying the difference
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: overreach
+    why: The comparison follows the two towns and says only the spread shows whether a shared average
+      comes from a uniform middle or from a split.
+    trap: C abandons a figure the text keeps and pairs with another.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 lists four summary quantities. Based on Text 2, which choice best describes what
+      the first two did on the street?
+    sibling: SOC-S04-L1
+    sibling_gloss: Text 2 is passage 44 of this book. It describes a street of nine households at
+      forty thousand dollars and one at four million, where the mean of four hundred and four thousand
+      describes nobody while the median matches the middle household.
+    options:
+    - Both figures landed on forty thousand dollars
+    - Both figures rose with the tenth household
+    - One described nobody and the other described nine
+    - Neither figure could be calculated at all
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: imported
+    why: Text 2 says the mean of four hundred and four thousand describes nobody while the median
+      of forty thousand matches the middle household and its eight neighbors.
+    trap: A collapses the two figures the street was built to separate.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Two groups can share a mean and a median and differ in every way that matters. ___ a
+      town where everyone earns thirty thousand dollars and a town where half earn ten and half earn
+      fifty have the same mean.
+    options:
+    - By contrast,
+    - For instance,
+    - As a result,
+    - In other words,
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: restatement
+    why: The second sentence gives a case of the claim just made, so the transition must mark an example.
+    trap: C makes the two towns follow from the claim rather than illustrate it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The mean is the total divided by the count ___ and the median is the middle case.
+    options:
+    - count and
+    - count; and
+    - count and,
+    - count, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause about the median is independent, so the conjunction joining it to the clause about
+      the mean takes a comma.
+    trap: A runs the clause about the mean straight into the clause about the median.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what the worst way to publish a statistic is. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what the worst way to publish a statistic is
+    notes:
+    - The practical rule is to ask for the shape and not the summary.
+    - Where no shape is available, two numbers beat one.
+    - A mean with a standard deviation is the usual pairing.
+    - The worst case is a single figure with no spread and no sample size.
+    options:
+    - The practical rule is to ask for the shape and not the summary
+    - One figure alone, with no spread and no sample size, is the least a reader can use
+    - A mean with a standard deviation is the usual pairing
+    - Where no shape is available, two numbers beat one
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names the case the notes call worst and says what makes it so, the absence
+      of the spread and the count.
+    trap: C names the better pairing without the case the goal asks about.
+- id: SOC-S05-L2
+  summary_ar:
+    khulasa: 'يعمل المُحَفِّز بثلاث خصائص، وحجم المبلغ أقلّها أهمّية في الغالب. أولاها البروز، أي
+      مدى ظهور الكلفة أو الفائدة في لحظة الاختيار: فأجرة ركن تُدفع عند عدّاد قبل المشي بارزة، والمبلغ
+      نفسه مضافًا إلى فاتورة ضريبة سنوية ليس بارزًا.'
+    maana: المعنى أنّ الثانية وجود البديل، أي خيار يسهل الانتقال إليه. فرسمٌ بخمسة سنتات على الأكياس
+      البلاستيكية قلّص استعمالها تقليصًا حادًّا في أيرلندا وويلز، لأنّ كيس القماش بديل قريب والقرار
+      يُتّخذ عند الصندوق.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: ورسمٌ بالحجم نفسه على البنزين
+      يغيّر قليلًا جدًّا في الأمد القصير، لأنّ أحدًا لا يستطيع أن يستبدل رحلة العمل هذا الأسبوع. والثالثة
+      التوقيت: فكلفة تأتي في لحظة القرار تغيّر السلوك أكثر من كلفة تأتي بعد ثلاثة أشهر.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب حجم المبلغ هو الحاكم، مع أنّ النصّ يجعله أقلّ الخصائص أهمّية. ويقترن
+      المقطع بالمقطع الخامس والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - A five cent charge cut plastic bag use sharply
+    - An incentive works through placement rather than size
+    - The size of the sum is the most important property
+    - Fuel and tobacco become more responsive over years
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: true_not_asked
+    why: The text says the size of the sum is often the least important and names salience, substitution
+      and timing as the three properties that decide the effect.
+    trap: C reverses the sentence that demotes the size of the sum.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, why does a charge on gasoline change little?
+    options:
+    - Because the sum charged is too small
+    - Because the cost arrives in three months
+    - Because the charge is paid at a meter
+    - Because the journey has no substitute
+    key: D
+    moves:
+      A: wrong_direction
+      B: detail_swap
+      C: detail_swap
+    why: The text says a charge of the same size on gasoline changes very little in the short run
+      because nobody can substitute for the journey to work this week.
+    trap: A blames the size, which the text says is the least important property.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the same sum can act
+      differently depending on where it lands?
+    claim: the same sum can act differently depending on where it lands
+    options:
+    - «A parking charge paid at a meter before walking away is salient; the same amount added to an
+      annual tax bill is not, and the two produce quite different behavior for identical money»
+    - «A charge of five cents on plastic bags cut their use sharply in Ireland and in Wales»
+    - «Economists call the extreme cases of this inelastic demand, and they test for it by looking
+      at what happened when prices moved»
+    - «A cost that arrives at the moment of the decision changes behavior more than a cost that arrives
+      in three months»
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: near_miss
+    why: The quotation sets a meter charge against the same amount on a tax bill and says identical
+      money produces quite different behavior.
+    trap: B gives one case of a charge working rather than a comparison of placements.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A cost that arrives at the moment of the decision changes behavior more than a cost that
+      arrives in three months, and people discount the future steeply. A fine for late payment therefore
+      ___
+    options:
+    - acts at the moment of the decision
+    - offers a close substitute to the payer
+    - arrives too late to shape the choice
+    - works better than a bottle deposit
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: wrong_direction
+    why: The text names deposit schemes as working and fines for late payment as often failing, because
+      the cost of the fine arrives after the decision.
+    trap: D reverses the comparison the text draws between the two schemes.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «incentive» most nearly mean?
+    target: incentive
+    options:
+    - a motive of conscience
+    - a cost or benefit that steers a choice
+    - a bonus paid at the end of a year
+    - a rule backed by a penalty
+    key: B
+    moves:
+      A: imported
+      C: near_miss
+      D: imported
+    why: The text says an incentive works through salience, substitution and timing, all of which
+      are properties of a cost or benefit attached to a decision.
+    trap: C narrows the word to one deferred payment, which the text treats as the weak case.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence that sets the amount of money aside?
+    options:
+    - It demotes the obvious property before the three
+    - It defines salience for a reader
+    - It reports the charge on plastic bags
+    - It concludes that price has no effect
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence comes between the announcement of three properties and the naming of the first,
+      and sets the amount of money aside.
+    trap: D denies an effect the rest of the text measures.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 names a substitute as the second property. Based on Text 2, which choice best describes
+      the substitute a driver had?
+    sibling: SOC-S05-L1
+    sibling_gloss: Text 2 is passage 45 of this book. It describes parking rates adjusted block by
+      block in San Francisco and says the policy works by letting the price reward whoever is willing
+      to walk two blocks.
+    options:
+    - A tax bill arriving once a year
+    - A sensor reporting the empty space
+    - A campaign asking drivers to circle less
+    - A cheaper block two streets away
+    key: D
+    moves:
+      A: imported
+      B: near_miss
+      C: near_miss
+    why: Text 2 says the price rewards whoever is willing to walk two blocks, so the nearby cheaper
+      block is the alternative a driver could switch to.
+    trap: B names the instrument that set the price rather than the alternative itself.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: A cloth bag is a close substitute and the decision is made at the till. ___ a charge
+      of the same size on gasoline changes very little in the short run.
+    options:
+    - As a result,
+    - For instance,
+    - By contrast,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence sets a charge with no substitute against one with a close substitute,
+      so the transition must mark a contrast.
+    trap: A makes the weak effect on gasoline follow from the cloth bag.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: An incentive works through three properties ___ and the size of the sum is often the
+      least important.
+    options:
+    - properties, and
+    - properties and
+    - properties; and
+    - properties and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the size of the sum is independent, so the conjunction joining it to the
+      clause about the three properties takes a comma.
+    trap: B runs the clause about the properties straight into the clause about the sum.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why many incentives fail. Which choice most effectively uses
+      relevant information from the notes to accomplish that goal?
+    goal: explain why many incentives fail
+    notes:
+    - The money is real but arrives in the wrong form.
+    - It arrives at the wrong moment.
+    - It arrives where nothing can be switched to.
+    - A well-placed nuisance can outperform a large sum badly placed.
+    options:
+    - The money in a failing incentive is real enough
+    - A well-placed nuisance can outperform a large sum
+    - Real money fails when its form, its moment and the alternatives are all wrong
+    - It arrives where nothing at all can be switched to
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice gathers the three mismatches the notes name and attaches them to money that
+      is real.
+    trap: B states the comparison without the three faults that explain it.
+- id: SOC-S06-L2
+  summary_ar:
+    khulasa: 'القاعدة غير المكتوبة تبقى لأنّ نقضها يُكلّف شيئًا، والكُلف يقدّمها الناس الآخرون. وللآلة
+      أربعة أجزاء: لا بدّ من ملاحظة حتّى يُرى النقض، ولا بدّ من جزاء، أي عقوبة يوقعها الناس لا القانون،
+      وقد تكون نظرة.'
+    maana: المعنى أنّه لا بدّ أيضًا من استعداد لإيقاعه، فجزاء لا يبالي به أحد ليس جزاءً، ولا بدّ أن
+      تكون القاعدة معلومة لأنّ الناس لا يتبعون قاعدة لا سبيل لهم إلى استنتاجها. فقوّة العُرف تتعلّق
+      بالظهور أكثر من الاتّفاق.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: فالقَذَر يقلّ حيث يُرى الملقي،
+      والالتزام الضريبيّ أعلى حيث تكون الإقرارات علنية كما في النرويج، وعُرف يحكم سلوكًا خاصًّا لا
+      آلة تنفيذ له فيبقى اعتقادًا فحسب.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب العُرف الخاصّ أقوى، مع أنّ النصّ ينزع عنه آلة التنفيذ. ويقترن المقطع
+      بالمقطع السادس والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Tax compliance is higher where returns are public
+    - A sanction may be as small as a look
+    - The strength of a norm depends on what can be seen
+    - A norm governing private behavior is the strongest kind
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: wrong_direction
+    why: The text lists the four parts of the machinery and then says the strength of a norm depends
+      on visibility more than on agreement.
+    trap: D makes the private case strongest where the text says it has no enforcement at all.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is a sanction?
+    options:
+    - A penalty applied by other people
+    - A rule written into the law
+    - What people actually do in practice
+    - A belief held in private
+    key: A
+    moves:
+      B: wrong_direction
+      C: detail_swap
+      D: imported
+    why: The text defines a sanction as a penalty applied by other people rather than by law, which
+      may be as small as a look.
+    trap: B puts the penalty in the law the definition excludes.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a norm can be made worse
+      by reporting it?
+    claim: a norm can be made worse by reporting it
+    options:
+    - «Littering falls where people can be seen littering»
+    - «telling people that most of their neighbors do the undesirable thing makes the undesirable
+      thing more common»
+    - «Each further breach is then cheaper than the last»
+    - «There must be some willingness to apply it, since a sanction nobody bothers with is no sanction»
+    key: B
+    moves:
+      A: true_not_asked
+      C: near_miss
+      D: true_not_asked
+    why: 'The quotation names the failure case directly: a report that most neighbors do the undesirable
+      thing makes it more common.'
+    trap: C describes how a norm collapses rather than how a message can cause it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A norm that governs private behavior has no enforcement machinery at all and survives
+      only as a belief. A rule about what people do behind closed doors would therefore ___
+    options:
+    - be enforced by a look from a neighbor
+    - depend on returns being made public
+    - collapse faster than a visible rule
+    - hold only as long as it is believed
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: near_miss
+    why: The text says such a norm has no enforcement machinery and survives only as a belief, so
+      belief is all that holds it.
+    trap: A supplies the sanction a private rule has no way to apply.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «norm» most nearly mean?
+    target: norm
+    options:
+    - an average figure
+    - a written statute
+    - an unwritten rule
+    - a personal habit
+    key: C
+    moves:
+      A: imported
+      B: wrong_direction
+      D: near_miss
+    why: The text opens on an unwritten rule and keeps the word for a rule whose penalties are applied
+      by other people rather than by law.
+    trap: B makes the word name a law, which the definition of a sanction excludes.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the hotel towel result?
+    options:
+    - It defines the descriptive norm for a reader
+    - It fits an earlier finding to the machinery
+    - It reports where tax returns are public
+    - It argues that the card had no effect
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The sentence follows the account of visibility and says the card provides the information
+      the enforcement machinery needs and cannot otherwise get.
+    trap: D denies an effect the sentence is explaining.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says visibility decides the strength of a norm. Based on Text 2, which choice best
+      shows visibility being manufactured?
+    sibling: SOC-S06-L1
+    sibling_gloss: Text 2 is passage 46 of this book. It reports a hotel experiment in which a card
+      saying that most guests reuse their towels raised reuse by roughly a quarter, and a card naming
+      the room itself did better still.
+    options:
+    - A card telling a guest what others in that room did
+    - Housekeeping staff recording the hung towels
+    - An appeal asking guests to save the environment
+    - A hotel that saved money on its laundry
+    key: A
+    moves:
+      B: near_miss
+      C: wrong_direction
+      D: true_not_asked
+    why: Text 2 reports a card naming what guests in that room had done, which supplies what a guest
+      cannot see for himself.
+    trap: C names the card that reported no behavior at all.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The strength of a norm therefore depends on visibility more than on agreement. ___ littering
+      falls where people can be seen littering.
+    options:
+    - By contrast,
+    - As a result,
+    - In other words,
+    - For instance,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence gives one case of visibility deciding a norm, so the transition must
+      mark an example.
+    trap: B makes the littering follow from the claim rather than illustrate it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: An unwritten rule survives because breaking it costs something ___ and the costs are
+      supplied by other people.
+    options:
+    - something and
+    - something, and
+    - something; and
+    - something and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the costs being supplied by other people is independent, so the conjunction
+      joining it to the clause about the rule takes a comma.
+    trap: A runs the clause about the rule straight into the clause about the costs.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why a campaign can do harm. Which choice most effectively uses
+      relevant information from the notes to accomplish that goal?
+    goal: explain why a campaign can do harm
+    notes:
+    - A card that reports the descriptive norm supplies the missing information.
+    - The message is only as good as the fact it reports.
+    - Telling people that most neighbors do the undesirable thing makes it more common.
+    - Campaigns that advertise how widespread a problem is run that risk.
+    options:
+    - A card reporting the descriptive norm supplies missing information
+    - The message is only as good as the fact that it reports
+    - Campaigns advertising a widespread problem run exactly that risk
+    - Advertising how many people offend tells the rest that offending is normal
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice states the mechanism by which the campaign backfires, which is the norm
+      it reports rather than the appeal it makes.
+    trap: C names the risk without saying how the harm is done.
+- id: SOC-S07-L2
+  summary_ar:
+    khulasa: 'موضع سكن الناس يُحسَم في الأغلب بمقايضة واحدة: الأرض قرب مركز المدينة نادرة ولذلك غالية،
+      والسفر من الحاشية يُكلّف وقتًا ومالًا. والأسرة تختار نقطة على ذلك الخطّ، ووصف الاقتصاديّين للاختيار
+      هو الإيجار المعروض.'
+    maana: المعنى أنّ الإيجار المعروض هو المبلغ الذي تدفعه أسرة أو شركة للأرض على مسافة معيّنة من
+      المركز، وهو يهبط كلّما ارتفعت المسافة، وميل الهبوط تحدّده كلفة السفر. فإن صار السفر أرخص أو
+      أسرع استوى الميل وانتشرت المدينة.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: وإن صار السفر أغلى أو أبطأ تقلّصت
+      المدينة. والنتيجة الثانية تخصّ من ينتهي إلى أين، فالأُسَر تختلف في تقديرها لكلفة وقت السفر عليها.
+      والكمّية التي تحكم ذلك كلّه هي الكلفة المعمَّمة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب أرض المركز رخيصة وفيرة، مع أنّ النصّ يقول عكسه. ويقترن المقطع بالمقطع
+      السابع والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Alonso set out the formal version in 1964
+    - Offices concentrate where many workers can reach them
+    - Land near the center is cheap and plentiful
+    - The cost of travel sets the shape of the city
+    key: D
+    moves:
+      A: true_not_asked
+      B: underreach
+      C: wrong_direction
+    why: The text describes bid rent falling with distance, says the slope of that fall is set by
+      the cost of travel, and draws the spreading and tightening of the city from it.
+    trap: C reverses the opening fact about land at the center.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does generalized cost combine?
+    options:
+    - Rent and the price of land
+    - Travel time and money
+    - Distance and building height
+    - Congestion and road width
+    key: B
+    moves:
+      A: detail_swap
+      C: imported
+      D: imported
+    why: The text says generalized cost means travel time and money added together as one figure.
+    trap: A names the rent the model is about rather than the quantity in the cost.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a new road buys less
+      relief than it seems to?
+    claim: a new road buys less relief than it seems to
+    options:
+    - «Land near the center of a city is scarce and therefore expensive»
+    - «It predicts that firms needing many workers cluster where many workers can reach them»
+    - «It predicts that a new road reduces congestion for a while and then fills, since cheaper travel
+      brings more distant land into play»
+    - «Households differ in how much they perceive travel time to cost them»
+    key: C
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      D: near_miss
+    why: The quotation says a new road reduces congestion for a while and then fills, because cheaper
+      travel brings more distant land into play.
+    trap: B gives another prediction of the model rather than the one about roads.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: If travel becomes cheaper or faster, the slope flattens and the city spreads. If travel
+      becomes dearer or slower, the city tightens. A sharp rise in the price of fuel would therefore
+      ___
+    options:
+    - steepen the slope and draw the city in
+    - flatten the slope and spread the city
+    - leave the shape of the city unchanged
+    - raise the number of ways out of a block
+    key: A
+    moves:
+      B: wrong_direction
+      C: wrong_direction
+      D: imported
+    why: The text pairs dearer or slower travel with a tightening city, which is a steeper fall of
+      bid rent with distance.
+    trap: B gives the effect of cheaper travel rather than dearer.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «perceive» most nearly mean?
+    target: perceive
+    options:
+    - see with the eyes
+    - understand in full
+    - measure exactly
+    - reckon the cost of
+    key: D
+    moves:
+      A: near_miss
+      B: imported
+      C: wrong_direction
+    why: Households are said to differ in how much they perceive travel time to cost them, so the
+      word names their own reckoning of that cost.
+    trap: C makes the reckoning exact when the sentence makes it a household judgment.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence calling the model crude and useful?
+    options:
+    - It defines bid rent for a reader
+    - It dates the formal version of the model
+    - It concedes a weakness before listing the predictions
+    - It abandons the model as unworkable
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: wrong_direction
+    why: The sentence comes just before the predictions about clustering offices and filling roads
+      and admits the roughness of the account that makes them.
+    trap: D discards a model the text goes on to use.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says cheaper travel flattens the slope and spreads a city. Based on Text 2, which
+      choice best records that spreading?
+    sibling: SOC-S07-L1
+    sibling_gloss: Text 2 is passage 47 of this book. It reports that Boston spread from a two-mile
+      city to a ten-mile one between 1870 and 1900 as omnibus, railway and streetcar put land four
+      or five miles out within reach of a downtown office.
+    options:
+    - A clerk who walked to a counting house by eight
+    - A two-mile city becoming a ten-mile one
+    - A fare of five cents in each direction
+    - Builders buying fields along the new lines
+    key: B
+    moves:
+      A: wrong_direction
+      C: near_miss
+      D: near_miss
+    why: Text 2 says Boston spread from a two-mile city to a ten-mile one between 1870 and 1900 as
+      the new lines opened.
+    trap: C names the price that sorted the movers rather than the spreading itself.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Bid rent falls as distance rises, and the slope of the fall is set by the cost of travel.
+      ___ two consequences follow immediately.
+    options:
+    - Accordingly,
+    - By contrast,
+    - For instance,
+    - In other words,
+    key: A
+    moves:
+      B: wrong_direction
+      C: near_miss
+      D: restatement
+    why: The second sentence announces what follows from the slope just described, so the transition
+      must mark a consequence.
+    trap: B sets the consequences against the account that produces them.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Land near the center of a city is scarce and therefore expensive ___ and travel from
+      the edge costs time and money.
+    options:
+    - expensive and
+    - expensive; and
+    - expensive, and
+    - expensive and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause about the cost of travel from the edge is independent, so the conjunction joining
+      it to the clause about the land takes a comma.
+    trap: A runs the clause about the land straight into the clause about the travel.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what a transport planner is really calculating. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what a transport planner is really calculating
+    notes:
+    - The slope of bid rent is set by the cost of travel.
+    - Generalized cost adds travel time and money into one figure.
+    - Transport planners calculate it for every scheme they assess.
+    - Every prediction of the model has been tested against city data.
+    options:
+    - One figure combining time and money, since it is what sets the slope of the rent
+    - Generalized cost adds travel time and money into one figure
+    - The slope of bid rent is set by the cost of travel
+    - Planners calculate it for every scheme that they assess
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names the combined figure and the reason it is the one that matters, which
+      is its hold on the slope.
+    trap: B defines the figure without saying what it decides.
+- id: SOC-S08-L2
+  summary_ar:
+    khulasa: سمّى آدم سميث العناصر سنة ألف وسبعمئة وستّ وسبعين، وثلاثة منها ما زالت تعمل، وهي تجذب
+      في جهات مختلفة. أوّلها ما يُنتجه العمل لصاحب العمل، وهو يثبّت سقفًا.
+    maana: المعنى أنّ الثاني أجر التحفّظ، أي أدنى أجر يقبل به الشخص العمل، وهو يثبّت أرضًا ويتعلّق
+      بما هو متاح غيره من مُدَّخَر وعَون أسرة. وبين الأرض والسقف يُحسَم الأجر بقوّة التفاوض، وهي الأمر
+      الثالث.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: قوّة التفاوض تتعلّق بعدد البدائل
+      لكلّ طرف. فالعامل في بلدة فيها صاحب عمل واحد يكون في سوق تُسمّى احتكار الشراء، أي مشتر واحد
+      أو قليل لنوع من العمل، وموضعه ضعيف وإن كانت المهارة نادرة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب ندرة المهارة كافية للقوّة، مع أنّ النصّ ينفي ذلك. ويقترن المقطع
+      بالمقطع الثامن والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - A wage sits between two limits and bargaining decides the rest
+    - Adam Smith named the elements in 1776
+    - A scarce skill guarantees a strong position
+    - Dock work in the 1880s was unprofitable
+    key: A
+    moves:
+      B: true_not_asked
+      C: wrong_direction
+      D: wrong_direction
+    why: The text names a ceiling, a reservation wage as a floor, and bargaining power as what settles
+      the wage between them.
+    trap: C grants a scarce skill a strength the text denies it under monopsony.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is a reservation wage?
+    options:
+    - What the work produces for the employer
+    - The pay offered by a single employer
+    - The lowest pay at which work is taken
+    - The wage set by a collective bargain
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: imported
+    why: The text says the reservation wage is the lowest pay at which a person will take the work
+      and that it depends on what else is available.
+    trap: A gives the ceiling rather than the floor.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that organization rather
+      than output changed the dock wage?
+    claim: organization rather than output changed the dock wage
+    options:
+    - «A worker in a town with one employer is in a market called monopsony»
+    - «By hiring at a gate twice a day the companies ensured that each man competed against a crowd
+      for that day only»
+    - «Studies of graduates entering work in recessions find losses persisting ten to fifteen years»
+    - «What changed in 1889 was not productivity but organization, which replaced a thousand individual
+      bargains with one»
+    key: D
+    moves:
+      A: true_not_asked
+      B: near_miss
+      C: true_not_asked
+    why: The quotation says what changed in 1889 was organization rather than productivity, and names
+      the replacement of many bargains by one.
+    trap: B describes the arrangement that was overturned rather than the change itself.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Bargaining power depends on how many alternatives each side has. A worker in a town with
+      one employer therefore ___
+    options:
+    - can set the wage at the ceiling
+    - has little to threaten the employer with
+    - enjoys a high reservation wage
+    - earns more in a recession year
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: imported
+    why: The text says bargaining power depends on the alternatives each side has and that such a
+      worker has a weak position however scarce the skill.
+    trap: C raises a floor that the lack of alternatives holds down.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «cohort» most nearly mean?
+    target: cohort
+    options:
+    - a group entering at one time
+    - a companion in arms
+    - a unit of the Roman army
+    - a single worker in a market
+    key: A
+    moves:
+      B: imported
+      C: imported
+      D: wrong_direction
+    why: The text speaks of a cohort that enters a labor market in a bad year and earns less than
+      neighboring years, so the word names everyone who starts together.
+    trap: D reduces a group entering together to one person.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the dock arrangement?
+    options:
+    - It defines monopsony for a reader
+    - It reports what Adam Smith named
+    - It argues that productivity was low
+    - It shows monopsony produced on purpose
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: wrong_direction
+    why: The sentence follows the definition of monopsony and says the companies engineered the same
+      position deliberately by hiring at a gate twice a day.
+    trap: C lowers an output the text calls productive.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says each man competed against a crowd for one day only. Based on Text 2, which choice
+      best records that crowd?
+    sibling: SOC-S08-L1
+    sibling_gloss: Text 2 is passage 48 of this book. It describes London dockers hired twice a day
+      at a gate, with a crowd always larger than the number of jobs and a man who went home with nothing
+      if he was passed over.
+    options:
+    - A strike that drew support from Australia
+    - A foreman who could be bought a drink
+    - A gathering always larger than the jobs available
+    - A practice that lasted in Britain until 1967
+    key: C
+    moves:
+      A: true_not_asked
+      B: near_miss
+      D: true_not_asked
+    why: Text 2 says the crowd at the gate was always larger than the number of jobs, which is the
+      competition Text 1 describes.
+    trap: B names a consequence of the crowd rather than the crowd itself.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The arrangement also shows why wages can stick far below the ceiling. ___ dock work in
+      the 1880s was productive and the trade was profitable.
+    options:
+    - By contrast,
+    - Indeed,
+    - As a result,
+    - In other words,
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: restatement
+    why: The second sentence confirms the claim by naming a productive trade whose men captured none
+      of it, so the transition must mark a confirmation.
+    trap: C makes the profitability follow from the wages sticking.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Adam Smith named the elements in 1776 ___ and three of them still do the work.
+    options:
+    - 1776 and
+    - 1776; and
+    - 1776 and,
+    - 1776, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause saying three of the elements still do the work is independent, so the conjunction
+      joining it to the clause about Smith takes a comma.
+    trap: A runs the clause about Smith straight into the clause about the three elements.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why a first job matters for a decade. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain why a first job matters for a decade
+    notes:
+    - A cohort entering a labor market in a bad year earns less for a decade or more.
+    - The first job sets the next.
+    - Studies find losses persisting ten to fifteen years.
+    - The size varies by country and by how easily people can move.
+    options:
+    - A cohort entering in a bad year earns less for a decade
+    - Because each job sets the next, a bad first year is still paid for ten years later
+    - Studies find the losses persisting ten to fifteen years
+    - The size of the loss varies by country and by mobility
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: true_not_asked
+    why: Only this choice supplies the mechanism the notes name, the first job setting the next, alongside
+      the length of the loss.
+    trap: C measures the loss without saying what carries it forward.
+- id: SOC-S09-L2
+  summary_ar:
+    khulasa: 'ثلاث كمّيّات تُخلَط عادةً تحت كلمة واحدة: الدخل جريان يُقاس على سنة وينتهي بانتهائها،
+      والثروة، أي ما تملكه الأسرة ناقصًا ما عليها، مخزون يتراكم عبر عمر ويورَث عبر الأجيال، والحركيّة
+      ليست واحدة منهما.'
+    maana: 'المعنى أنّ الحركيّة بين الأجيال، أي مدى اعتماد موضع الابن على موضع الأبوين، قد تكون عالية
+      في بلد فيه فجوات دخل واسعة. والثلاث تسلك سلوكًا مختلفًا لاختلاف آلياتها: فعدم مساواة الثروة
+      أكبر دائمًا من عدم مساواة الدخل في كلّ بلد قيس.'
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: فالمُدَّخَرات تتراكم وكذلك الديون،
+      ومن له دخل متوسّط قد يملك بيتًا. وعدم مساواة الدخل يستجيب للأجور والضرائب والتحويلات في سنوات،
+      وعدم مساواة الثروة يستجيب في عقود، والميراث هو السبب، والحركيّة أبطأ الجميع.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب فجوات الثروة المنشورة مبالَغًا فيها، مع أنّ النصّ يقول إنّها أقلّ
+      من الواقع. ويقترن المقطع بالمقطع التاسع والأربعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Wealth inequality is larger than income inequality everywhere
+    - An argument about inequality must say which quantity it is about
+    - Published wealth gaps are probably overstated
+    - Mobility responds faster than income inequality
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text separates income, wealth and mobility, shows that they behave differently and respond
+      at different speeds, and says any serious argument has to say which of the three it is about.
+    trap: C reverses the sentence about surveys the very rich do not answer.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, which of the three responds slowest?
+    options:
+    - Income inequality
+    - Wealth inequality
+    - The cost of credit
+    - Mobility
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: imported
+    why: The text says mobility depends on schooling, neighborhood, early childhood and the labor
+      market, and that it responds slowest of all.
+    trap: B names the quantity that responds over decades rather than slowest.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a government can report
+      progress while a gap widens?
+    claim: a government can report progress while a gap widens
+    options:
+    - «A country can reduce income inequality by taxing and transferring while its wealth gaps widen,
+      which several European countries did between 1980 and 2010»
+    - «Savings compound and so do debts, and a person on a modest income may still own a house»
+    - «Wealth is measured from surveys that the very rich do not answer»
+    - «Mobility depends on schooling, neighborhood, early childhood and the labor market»
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: The quotation names a country reducing income inequality by taxes and transfers while its
+      wealth gaps widen, and dates the case.
+    trap: B explains why wealth gaps are large rather than how progress can be reported.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Wealth is measured from surveys that the very rich do not answer, so published wealth
+      gaps are probably understated. A figure taken from such a survey therefore ___
+    options:
+    - overstates the gap it reports
+    - measures income rather than wealth
+    - gives a floor rather than the figure
+    - captures the cost of credit as well
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: imported
+    why: The text says the gaps are probably understated because the very rich do not answer, so a
+      published figure is a minimum.
+    trap: A reverses the direction of the error the text names.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «stigma» most nearly mean?
+    target: stigma
+    options:
+    - a visible scar
+    - a mark of disgrace
+    - a measure of income
+    - a legal penalty
+    key: B
+    moves:
+      A: imported
+      C: wrong_direction
+      D: imported
+    why: The word appears among the things that damage the experience of being poor, beside insecurity
+      and the cost of credit, so it names the shame attached to it.
+    trap: A takes the physical sense of a mark on the body.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the three speeds?
+    options:
+    - It explains how an honest report can mislead
+    - It defines intergenerational mobility for a reader
+    - It reports what the American data show
+    - It argues that the three are really one
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The sentence saying the three respond at very different speeds is followed at once by a government
+      reporting progress on income while the wealth gap widens behind it.
+    trap: D merges three quantities the text spends its length separating.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says no distribution figure records the experience of being poor. Based on Text 2,
+      which choice best shows a measure that reaches further?
+    sibling: SOC-S09-L1
+    sibling_gloss: Text 2 is passage 49 of this book. It reports a thirty-year gap in life expectancy
+      between two Chicago neighborhoods and lists the housing, the grocery stores, the air quality
+      and the travel to medical care that differ alongside it.
+    options:
+    - A gap of thirty years between two neighborhoods
+    - A boundary drawn by a lending map
+    - A figure published for most large cities
+    - A count of grocery stores and the quality of housing
+    key: D
+    moves:
+      A: near_miss
+      B: near_miss
+      C: true_not_asked
+    why: Text 2 names the housing, the grocery stores, the air quality and the travel to medical care,
+      which record conditions rather than a distribution.
+    trap: A names the headline figure rather than the conditions behind it.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Income inequality responds to wages, taxes and transfers within a few years of any change
+      to them. ___ wealth inequality responds over decades.
+    options:
+    - As a result,
+    - For instance,
+    - By contrast,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence sets a slower response against a faster one, so the transition must mark
+      a contrast.
+    trap: A makes the slow wealth response follow from the quick income one.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Income is a flow, measured over a year ___ and wealth is a stock, accumulated over a
+      life.
+    options:
+    - year, and
+    - year and
+    - year; and
+    - year and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about wealth as a stock is independent, so the conjunction joining it to the clause
+      about income takes a comma.
+    trap: B runs the clause about income straight into the clause about wealth.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what a figure about inequality fails to reach. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what a figure about inequality fails to reach
+    notes:
+    - None of the three captures the experience of being poor.
+    - Stigma, insecurity and the cost of credit do damage.
+    - No distribution figure records that damage.
+    - Wealth gaps are probably understated by the surveys.
+    options:
+    - None of the three captures the experience of being poor
+    - Wealth gaps are probably understated by the surveys used
+    - The shame, the insecurity and the price of credit, none of which a distribution records
+    - No distribution figure records the damage that is done
+    key: C
+    moves:
+      A: underreach
+      B: true_not_asked
+      D: restatement
+    why: Only this choice names the three harms and says in the same breath that a distribution figure
+      records none of them.
+    trap: D states the omission without naming what is omitted.
+- id: SOC-S10-L2
+  summary_ar:
+    khulasa: 'خطأ المعدّل الأساسيّ واحد من أسرة، وأفراد الأسرة أُظهروا مرّات تكفي للتنبّؤ بهم. فالتثبيت،
+      أي جذب رقم لا صلة له لتقدير لاحق، أبسطها: فمن طُلب منه أن يدوّر عجلة ثمّ يقدّر كمّية جاء جوابه
+      منجذبًا إلى ما أظهرته العجلة.'
+    maana: المعنى أنّ الأثر يبقى حين يُقال للمُختبَرين إنّ الرقم عشوائيّ، وأنّ وكلاء العقار إذا أُعطوا
+      أسعار طلب مختلفة للبيت نفسه قدّروه تقديرًا مختلفًا. والثانية الإتاحة، وهي الحكم في شيوع شيء
+      بسهولة ورود أمثلته إلى الذهن.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الآلية: فالوفيات من أسباب تصنع الأخبار
+      تُقدَّر أعلى بمقادير كبيرة، وترتيب التقديرات يتبع تغطية الصحف أكثر ممّا يتبع الأرقام. والثالثة
+      التأطير: فالخيار الطبّيّ نفسه موصوفًا بالنجاة وموصوفًا بالموت يُنتج قرارين مختلفين.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب هذه الأخطاء متعادلةً عبر كثرة الأحكام، مع أنّها تميل جميعًا في
+      جهة واحدة. ويقترن المقطع بالمقطع الخمسين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Kahneman and Tversky set out three errors in 1974
+    - Estate agents value the same house differently
+    - The errors are systematic, so they can be designed around
+    - The errors cancel out over many judgments
+    key: C
+    moves:
+      A: true_not_asked
+      B: underreach
+      D: wrong_direction
+    why: The text names anchoring, availability and framing and says what makes them useful is that
+      they are systematic, so the mistake can be anticipated and designed around.
+    trap: D gives the behavior of a random error, which the text contrasts with these.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what happens when subjects are told the number is random?
+    options:
+    - The pull of that number survives
+    - The estimate becomes accurate
+    - The framing effect disappears
+    - The news coverage is ignored
+    key: A
+    moves:
+      B: wrong_direction
+      C: detail_swap
+      D: detail_swap
+    why: The text says the anchoring effect survives when the subjects are told that the number is
+      random.
+    trap: B removes an error the sentence says persists.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that these errors can be
+      planned for in advance?
+    claim: these errors can be planned for in advance
+    options:
+    - «Estate agents given different asking prices for the same house value it differently»
+    - «these all deviate in the same direction for the same reason, which means the mistake can be
+      anticipated and designed around»
+    - «Deaths from causes that make the news are overestimated by large factors»
+    - «The same medical choice described in terms of survival and in terms of death produces different
+      decisions from the same doctors»
+    key: B
+    moves:
+      A: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation says the deviations all run the same way for the same reason, which is what
+      lets the mistake be anticipated and designed around.
+    trap: D gives one of the three effects rather than the property that makes them manageable.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A random error would cancel over many judgments, but these all deviate in the same direction
+      for the same reason. A hospital that averaged many such judgments would therefore ___
+    options:
+    - remove the error from the average
+    - produce a framing effect instead
+    - need a different asking price
+    - average a set of errors that agree
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: imported
+    why: The text says a random error would cancel while these deviate in the same direction, so averaging
+      leaves the bias in place.
+    trap: A gives the result that would follow if the errors were random.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «deviate» most nearly mean?
+    target: deviate
+    options:
+    - wander without aim
+    - behave improperly
+    - depart from the truth
+    - return to an average
+    key: C
+    moves:
+      A: near_miss
+      B: imported
+      D: wrong_direction
+    why: The word describes judgments that all miss in the same direction for the same reason, so
+      it names the departure from the correct value.
+    trap: A makes the departure aimless when the sentence makes it uniform.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the list of checklists and standard forms?
+    options:
+    - It defines availability for a reader
+    - It gives the remedies the systematic error allows
+    - It reports the year the first account appeared
+    - It argues that people are simply irrational
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The list follows the claim that the mistake can be anticipated and designed around and names
+      three devices that exist for that purpose.
+    trap: D settles a question the next sentence says is still open.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 calls the base rate error one of a family. Based on Text 2, which choice best describes
+      the error itself?
+    sibling: SOC-S10-L1
+    sibling_gloss: Text 2 is passage 50 of this book. It reports a problem on which most of sixty
+      doctors answered ninety-five percent where the right answer was about two, and says the five
+      percent figure is vivid while the one in a thousand figure is not.
+    options:
+    - A rare condition is forgotten beside a vivid rate
+    - A test that never misses a case was used
+    - Sixty doctors were asked a short question
+    - Screening programs are designed around the arithmetic
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 says the five percent figure is vivid and the one in a thousand figure is not, so
+      the second gets dropped.
+    trap: B names a feature of the test rather than the error in reading it.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Availability is the second, and it means judging how common something is by how easily
+      examples come to mind. ___ deaths from causes that make the news are overestimated by large
+      factors.
+    options:
+    - By contrast,
+    - As a result,
+    - In other words,
+    - For instance,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence gives a case of the rule just defined, so the transition must mark an
+      example.
+    trap: B makes the overestimate follow from the definition rather than illustrate it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The base rate error is one of a family ___ and the family members have been demonstrated
+      often enough to be predictable.
+    options:
+    - family and
+    - family, and
+    - family; and
+    - family and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the family members being demonstrated is independent, so the conjunction
+      joining it to the clause about the base rate error takes a comma.
+    trap: A runs the clause about the error straight into the clause about the family members.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what makes these patterns useful rather than entertaining.
+      Which choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what makes these patterns useful rather than entertaining
+    notes:
+    - The three effects are anchoring, availability and framing.
+    - A random error would cancel over many judgments.
+    - These all deviate in the same direction for the same reason.
+    - The mistake can be anticipated and designed around.
+    options:
+    - The three effects are anchoring, availability and framing
+    - A random error would cancel over many judgments
+    - The mistake can be anticipated and designed around
+    - Because the errors all lean the same way, a procedure can be built to catch them
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice joins the common direction of the errors to the possibility of building
+      something that allows for them.
+    trap: C names the remedy without the property that makes it available.
