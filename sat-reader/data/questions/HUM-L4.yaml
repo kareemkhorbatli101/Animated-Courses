@@ -1,0 +1,2096 @@
+# Humanities level 4 - ten SAT-style questions and an Arabic summary per passage.
+# Written by tools/qemit.py; checked by tools/qchecks.py.
+field: HUM
+level: 4
+sets:
+- id: HUM-S01-L4
+  summary_ar:
+    khulasa: 'إذا أصدر الراوي حكمًا فثلاثة مرشّحين لصاحبه: الراوي وحده، وذلك حيث يرى القارئ الراوي
+      مخطئًا؛ والمؤلّف المُضمَر، أي الحسّ الذي يبنيه القارئ من النصّ كلّه وهو ليس الراوي ولا الكاتب؛
+      أو الكاتب نفسه، وله آراء وسيرة ورسائل قد تقول العكس.'
+    maana: المعنى أنّ التمييز مهمّ لأنّه يقرّر ما تُلزمه الجملة الساخرة أحدًا. فراوٍ يُثني على مالك
+      عبيد في رواية تدعو إلى إلغاء العبودية ليس الرواية تُثني عليه، ومن طوى المستويات الثلاثة قرأ
+      الكتاب نقيضَ نفسه.
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: والاعتراض أنّ هذه الأداة تُجيز أيّ
+      قراءة تقريبًا، فالحجّة دائرية، وقد استعمل نقّاد هذه الحركة لتخليص كتّاب معجَبٍ بهم من مواقف
+      قالوا بها صريحًا. والضابط نصّيّ: يجب أن تُعلَّم السخرية في موضع ما.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن النصّين المتقابلين.
+      والفخّ المتوقّع هنا أن تُجاز السخرية بلا علامة في النصّ، مع أنّ النصّ يشترط العلامة. ويقترن
+      المقطع بالمقطع الحادي والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Wayne Booth introduced the implied author in 1961
+    - The three levels must be kept apart, and the text marks the irony
+    - An ironic reading can always be defended from the text
+    - A narrator who praises a slave owner speaks for the novel
+    key: B
+    moves:
+      A: true_not_asked
+      C: wrong_direction
+      D: wrong_direction
+    why: The text names three candidates for a judgment, says collapsing them reads a book as its
+      own opposite, and then requires that irony be marked somewhere in the text.
+    trap: C licenses the reading the textual discipline is there to control.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what is the usefulness of the implied author?
+    options:
+    - That it reports the opinions in a writer's letters
+    - That it settles what a class should discuss first
+    - That it marks irony by exaggeration
+    - That it can be derived from the text alone
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: detail_swap
+    why: The text says the usefulness of the implied author is that it can be derived from the text
+      alone, by asking what values would make the arrangement coherent.
+    trap: A sends a reader to the letters the text treats as a separate level.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the implied author can
+      be used to excuse a writer?
+    claim: the implied author can be used to excuse a writer
+    options:
+    - «the argument is circular, and critics have used the move to rescue admired writers from positions
+      the writers plainly held»
+    - «it can be derived from the text alone, by asking what set of values would make the whole arrangement
+      coherent»
+    - «irony has to be marked somewhere, by exaggeration, by a detail that will not fit, or by a pattern
+      across the book»
+    - «The dispute is sharpest in teaching, where a class has to decide what a text is doing»
+    key: A
+    moves:
+      B: near_miss
+      C: near_miss
+      D: true_not_asked
+    why: The quotation names the circularity and says critics have used the move to rescue admired
+      writers from positions those writers plainly held.
+    trap: B gives the strength claimed for the tool rather than the abuse of it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Where nothing in the text marks it, the sentence stands, and some admired writers believed
+      unpleasant things. A critic who called such a sentence ironic would therefore ___
+    options:
+    - be following the textual discipline
+    - have found a detail that will not fit
+    - be supplying the irony rather than reading it
+    - be quoting the writer's own letters
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: imported
+    why: The discipline requires a mark in the text, so a reading with no such mark comes from the
+      critic and not from the page.
+    trap: B asserts the very marking whose absence the sentence specifies.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «arch» most nearly mean?
+    target: arch
+    options:
+    - curved overhead
+    - knowingly sly
+    - chief among many
+    - plainly sincere
+    key: B
+    moves:
+      A: imported
+      C: imported
+      D: wrong_direction
+    why: The word is paired with ironic in a sentence about what such a sentence commits anybody to,
+      so it names a tone that says one thing and means another.
+    trap: D gives the sincerity the pairing with irony rules out.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the abolitionist novel?
+    options:
+    - It shows the cost of collapsing the three levels
+    - It defines the implied author for a reader
+    - It reports when Booth introduced the tool
+    - It concedes that the novel endorses the praise
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The sentence follows the three candidates and says that a reader who collapses them will
+      read the book as its own opposite.
+    trap: D accepts the endorsement the sentence is there to deny.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 requires that irony be marked in the text. Based on Text 2, which choice best describes
+      the strongest mark available?
+    sibling: HUM-S01-L3
+    sibling_gloss: Text 2 is passage 131 of this book. It ranks three kinds of evidence for calling
+      a narrator unreliable, from tone at the weakest to a discrepancy between what the narrator reports
+      and how other characters respond at the strongest.
+    options:
+    - A voice the reader finds self-serving
+    - A date in the narration that cannot be right
+    - A critic who has changed his mind twice
+    - A gap between a report and how the room responds
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: true_not_asked
+    why: Text 2 calls the strongest kind of evidence a discrepancy between what the narrator reports
+      and how other characters respond.
+    trap: A names the weakest kind, which Text 2 calls a response rather than a proof.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Its usefulness is that it can be derived from the text alone. ___ the objection is that
+      this licenses almost any reading.
+    options:
+    - As a result,
+    - For example,
+    - On the other hand,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence raises an objection against the strength just claimed, so the transition
+      must mark a turn to the other side.
+    trap: A makes the objection follow from the usefulness it opposes.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: It may be the narrator alone ___ and a reader can see the narrator being wrong.
+    options:
+    - alone, and
+    - alone and
+    - alone; and
+    - alone and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the reader seeing the narrator being wrong is independent, so the conjunction
+      joining it to the clause about the narrator takes a comma.
+    trap: B runs the clause about the narrator straight into the clause about the reader.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what keeps an ironic reading honest. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain what keeps an ironic reading honest
+    notes:
+    - The implied author can be derived from the text alone.
+    - The objection is that this licenses almost any reading.
+    - Irony has to be marked by exaggeration, a detail that will not fit, or a pattern.
+    - Where nothing marks it, the sentence stands.
+    options:
+    - The implied author can be derived from the text alone
+    - The objection is that the tool licenses almost any reading
+    - A reading counts only where exaggeration, a misfitting detail or a pattern marks the irony
+    - Where nothing marks the irony, the sentence stands as written
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice names the marks the text requires and makes them the condition on which
+      a reading rests.
+    trap: D states the default without naming what would displace it.
+- id: HUM-S02-L4
+  summary_ar:
+    khulasa: 'حلّل فلاديمير بروب مئة حكاية شعبية روسية فوجد أنّ الشخصيّات تُردّ إلى سبعة أدوار: الشرّير
+      والمانح والمساعد والأميرة والمُرسِل والبطل والبطل الزائف، وأنّ الحكايات تختلف في من يملأ كلّ
+      دور ولا تكاد تختلف في شيء غيره.'
+    maana: المعنى أنّ تلك هي الشكلانية، أي دراسة العمل بنيةً من أجزاء، وعلى هذا الحساب الشخصية وظيفةٌ
+      في حبكة والطبع زينة. والردّ الإنسانيّ أنّ هذا يصلح للحكايات الشعبية ويفشل في الروايات، فالقرّاء
+      يتجادلون أكان الشخص ليفعل ذلك فعلًا، وهو سؤال نفسيّ.
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: أحدّ صور الخلاف تتعلّق بما يفعله القارئ
+      حين يستنتج عن باطن شخصية. فالشكلانيّ يقول إنّه يبني من قرائن نصّية وإنّ البناء أثر رتّبه المؤلّف،
+      والإنسانيّ يقول إنّ الأدب آلة لنمذجة عقول الآخرين.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب التجارب حاسمةً لأحد الطرفين، مع أنّ النصّ يذكر ردًّا يُفقدها حسمها.
+      ويقترن المقطع بالمقطع الثاني والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Propp reduced the characters to seven roles
+    - Cognitive experiments settle the dispute for one side
+    - The two sides disagree about what literary study is for
+    - A character is nothing but a function in a plot
+    key: C
+    moves:
+      A: underreach
+      B: overreach
+      D: wrong_direction
+    why: The text sets the formalist account against the humanist reply and ends by saying both positions
+      are held by serious people and the disagreement is about what literary study is for.
+    trap: B settles a dispute the text says remains open.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, how many roles did Propp identify?
+    options:
+    - Seven in all
+    - A hundred of them
+    - Three or four
+    - Eight hundred
+    key: A
+    moves:
+      B: detail_swap
+      C: imported
+      D: detail_swap
+    why: The text says the characters could be reduced to seven roles and names them one by one.
+    trap: B gives the number of tales analyzed rather than of roles.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the formalist account
+      leaves out what a novel spends its length on?
+    claim: the formalist account leaves out what a novel spends its length on
+    options:
+    - «The tales differ in who fills each role and in almost nothing else»
+    - «A critic who says that Dorothea Brooke is the dispatcher has described a function and left
+      out everything the book spends eight hundred pages on»
+    - «Readers also form attachments that no account of function predicts»
+    - «The formalist side points out that the same experiments work on tales with no psychology in
+      them at all»
+    key: B
+    moves:
+      A: true_not_asked
+      C: near_miss
+      D: true_not_asked
+    why: The quotation names the function described and then the eight hundred pages the description
+      leaves out, which is the claim exactly.
+    trap: C gives a second objection rather than the one about length.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Novelists revise in order to make motive consistent, which is a psychological labor.
+      A critic who treated personality as decoration would therefore ___
+    options:
+    - explain why readers form attachments
+    - have described a hundred folk tales
+    - be following the humanist account
+    - have no account of that revision
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: wrong_direction
+    why: The revising is called a psychological labor, so an account that reduces personality to decoration
+      has nothing to say about why it is undertaken.
+    trap: C puts the formalist position on the humanist side of the dispute.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «affected» most nearly mean?
+    target: affected
+    options:
+    - pretended for show
+    - troubled by illness
+    - moved in feeling
+    - left unchanged by
+    key: C
+    moves:
+      A: imported
+      B: imported
+      D: wrong_direction
+    why: The humanist objection is that an account unable to say why anyone would be affected by a
+      novel has explained the wrong thing, so the word names being moved.
+    trap: A takes the sense in which a manner is affected.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the two sentences about readers arguing and
+      novelists revising?
+    options:
+    - They define character function for a reader
+    - They give the grounds of the humanist reply
+    - They list the seven roles Propp identified
+    - They concede that the novel is a structure
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The two sentences follow the humanist claim that formalism fails for novels and supply a
+      reader-side and a writer-side reason for it.
+    trap: D grants the formalist account what the sentences are offered against.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says novelists revise to make motive consistent. Based on Text 2, which choice best
+      supplies a documented instance of that labor?
+    sibling: HUM-S02-L3
+    sibling_gloss: Text 2 is passage 132 of this book. It reports two canceled chapters of Persuasion
+      in which a reconciliation is handled through an arranged interview, replaced in the published
+      version by a scene in which a letter is written and overheard.
+    options:
+    - A reconciliation rewritten from an interview into an overheard scene
+    - A manuscript that is undated and inferred from the paper
+    - A novelist who died a few months after finishing
+    - A family that edited what survived of the papers
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 reports both the canceled interview and the published overheard scene, and says the
+      pair lets a reader see a decision being made.
+    trap: B names a limit on the evidence rather than the revision it documents.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The tales differ in who fills each role and in almost nothing else. ___ the humanist
+      reply is that this works for folk tales and fails for novels.
+    options:
+    - As a result,
+    - For instance,
+    - In other words,
+    - Even so,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The second sentence answers the formalist finding with a limit on it, so the transition must
+      mark a concession rather than a consequence.
+    trap: A makes the reply follow from the finding it disputes.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Readers argue about whether a character would really have done something ___ and novelists
+      revise in order to make motive consistent.
+    options:
+    - something and
+    - something, and
+    - something; and
+    - something and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the novelists revising is independent, so the conjunction joining it to
+      the clause about the readers arguing takes a comma.
+    trap: A runs the clause about the readers straight into the clause about the novelists.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the experiments leave the dispute open. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the experiments leave the dispute open
+    notes:
+    - Cognitive approaches have given the humanist side experimental support.
+    - The support concerns mind-reading in readers.
+    - The same experiments work on tales with no psychology in them.
+    - The disagreement is about what literary study is for.
+    options:
+    - Cognitive approaches have given the humanist side experimental support
+    - The support concerns the mind-reading that readers do
+    - The disagreement is about what literary study is for
+    - A result that holds for tales without psychology decides nothing between the two accounts
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice joins the formalist rejoinder to the conclusion that the experimental support
+      settles neither side.
+    trap: A reports the support without the objection that blunts it.
+- id: HUM-S03-L4
+  summary_ar:
+    khulasa: 'الدعوى القويّة في الصور أنّها رموز، أي أنّها تنوب عن شيء وراءها نيابةً يمكن النطق بها:
+      النهر هو الزمن، والحديقة هي البراءة، والضباب هو التشوّش الأخلاقيّ. وهذه الدعوى تُجيز جنسًا كاملًا
+      من النقد ومن أجوبة الامتحان.'
+    maana: 'المعنى أنّ لها مشكلة ظاهرة: المعادلات يأتي بها الناقد ولا يمكن فحصها بشيء. والبديل المُخفِّض
+      يقول إنّ معظم الصور تعمل في المزاج لا في المعنى: فالضباب في رواية يُقلق القارئ، وذلك أثر فيه
+      لا يحتاج إلى ترجمة.'
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: والذي يضبط القراءة الرمزية عمليًّا
+      هو النمط والاتّساق: صورة تتكرّر، وتُوضَع في منعطفات الحبكة، وتعاملها عناصر النصّ الأخرى على
+      أنّها دالّة، تعمل أكثر ممّا تعمل صورة تظهر مرّة واحدة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُعمَّم الدعوى القويّة على كلّ صورة، مع أنّ النصّ يجعل الحسابين عن صور
+      مختلفة. ويقترن المقطع بالمقطع الثالث والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The intentional fallacy removes one constraint
+    - Examination boards now require evidence of pattern
+    - Every image in a text is a symbol to be translated
+    - The two accounts fit different images, and the skill is telling which
+    key: D
+    moves:
+      A: underreach
+      B: true_not_asked
+      C: wrong_direction
+    why: The text states the strong and the deflationary accounts, then calls the best current position
+      that they are about different images and that the skill lies in telling which kind is on the
+      page.
+    trap: C universalizes the strong claim the text restricts to some images.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what constrains a symbolic reading in practice?
+    options:
+    - A statement of purpose from the author
+    - Recurrence and placement at the turns
+    - The mood an image produces in a reader
+    - The genre of examination answer it serves
+    key: B
+    moves:
+      A: wrong_direction
+      C: detail_swap
+      D: imported
+    why: 'The text says what constrains a symbolic reading in practice is pattern and consistency:
+      an image that recurs and is placed at the turns of the plot.'
+    trap: A names the constraint the intentional fallacy is said to remove.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the deflationary account
+      treats an image as an effect rather than a message?
+    claim: the deflationary account treats an image as an effect rather than a message
+    options:
+    - «the equations are supplied by the critic and cannot be checked against anything»
+    - «Cleanth Brooks and his successors made the stronger case and the weaker one has worn better»
+    - «Fog in a novel makes a reader uneasy, which is an effect in the reader and requires no translation»
+    - «Examination boards have quietly moved toward requiring evidence of pattern rather than assertion
+      of symbolism»
+    key: C
+    moves:
+      A: near_miss
+      B: true_not_asked
+      D: true_not_asked
+    why: The quotation locates the fog in the reader as an effect and says it requires no translation,
+      which is the account the claim describes.
+    trap: A gives the objection to the strong claim rather than the alternative to it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: 'What constrains a symbolic reading in practice is pattern and consistency: an image
+      that recurs, that is placed at the turns of the plot, and that other elements of the text treat
+      as significant. An image that appears once in passing is therefore ___'
+    options:
+    - a poor candidate for a symbolic reading
+    - the strongest evidence a critic can cite
+    - excluded from the deflationary account
+    - settled by a statement from the author
+    key: A
+    moves:
+      B: wrong_direction
+      C: wrong_direction
+      D: imported
+    why: The constraints are recurrence, placement and treatment by other elements, none of which
+      a single passing image satisfies.
+    trap: B makes the weakest case the strongest one.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «involved» most nearly mean?
+    target: involved
+    options:
+    - taking part in
+    - emotionally caught up
+    - plainly stated
+    - elaborately worked out
+    key: D
+    moves:
+      A: imported
+      B: near_miss
+      C: wrong_direction
+    why: The word qualifies a reading that converts an experience into a proposition, so it names
+      an interpretation built up at length.
+    trap: B takes the sense in which a person is involved rather than a reading.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the intentional fallacy?
+    options:
+    - It defines a symbol for the first time
+    - It reports what mark schemes now require
+    - It names the standard reply and limits it
+    - It settles the dispute in favor of the critic
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: wrong_direction
+    why: The sentence gives the usual critical answer to the writers and is followed at once by the
+      statement that it removes one constraint without supplying another.
+    trap: D settles a dispute the next sentence says is unresolved.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 makes pattern the constraint on a symbolic reading. Based on Text 2, which choice
+      best describes how such a pattern is established?
+    sibling: HUM-S03-L3
+    sibling_gloss: Text 2 is passage 133 of this book. It describes the concordance as an index of
+      every occurrence of every word with its context, and says counting establishes presence, distribution
+      and comparison while leaving aesthetic effect untouched.
+    options:
+    - By asking a writer what the images mean
+    - By indexing every occurrence and comparing counts
+    - By showing that an image works on a reader
+    - By publishing a revised examination mark scheme
+    key: B
+    moves:
+      A: wrong_direction
+      C: near_miss
+      D: imported
+    why: Text 2 says a concordance lists every occurrence with its context and that counting establishes
+      presence, distribution and comparison.
+    trap: C names what Text 2 says counting leaves untouched.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: That answer is good as far as it goes. ___ it removes one constraint without supplying
+      another.
+    options:
+    - Even so,
+    - As a result,
+    - In other words,
+    - For instance,
+    key: A
+    moves:
+      B: wrong_direction
+      C: restatement
+      D: near_miss
+    why: The second sentence takes back part of the credit just given, so the transition must mark
+      a concession rather than a consequence.
+    trap: B makes the missing constraint follow from the answer being good.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Fog in a novel makes a reader uneasy ___ and that is an effect in the reader.
+    options:
+    - uneasy and
+    - uneasy; and
+    - uneasy, and
+    - uneasy and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause saying that is an effect in the reader is independent, so the conjunction joining
+      it to the clause about the fog takes a comma.
+    trap: A runs the clause about the fog straight into the clause about the effect.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what a reader of images actually has to decide. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what a reader of images actually has to decide
+    notes:
+    - The strong claim is that an image stands for something statable.
+    - The deflationary account says most images work on mood.
+    - The two accounts are about different images.
+    - The critical skill lies in telling which kind is on the page.
+    options:
+    - Since some images translate and others only color the mood, the decision is which is on the
+      page
+    - The strong claim is that an image stands for something statable
+    - The deflationary account says most images work on mood
+    - The two accounts are about different images entirely
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names both kinds of image and turns the difference into the judgment the
+      notes say a reader must make.
+    trap: C gives one of the two accounts without the decision between them.
+- id: HUM-S04-L4
+  summary_ar:
+    khulasa: 'نشر والت ويتمن شعرًا بلا وزن منتظم ولا قافية سنة ألف وثمانمئة وخمس وخمسين، وكان الاعتراض
+      فوريًّا: بلا نمط معدود لا يوجد ما يُنحرَف عنه، فتكون فواصل الأسطر تعسّفية والحصيلة نثر بحواشٍ
+      مهلهلة.'
+    maana: 'المعنى أنّ الاعتراض ليس سخيفًا، فإن لم يكن للقارئ توقّع لم تعمل الأدوات التي تعتمد على
+      التوقّع. والدفاع شُقّتان: الأولى أنّ الشعر الحرّ يُبدل أنماطًا أخرى من الوزن: طول النَّفَس،
+      وتكرار الصيغة النحوية، والجمل المتوازية المتراكمة، والنغمة.'
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: والشقّة الثانية تجريبية: القرّاء يسمعون
+      فواصل الأسطر فعلًا، وإعادة ترتيب أسطر قصيدة حرّة جيّدة يُفسدها إفسادًا يمكن إظهاره لصفّ دراسيّ.
+      وأقوى صور النقد تُسلّم بالأمرين وتضيّق الدعوى.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن النصّين المتقابلين.
+      والفخّ المتوقّع هنا أن يُقنَع بالاعتراض الأوّل وحده، مع أنّ النصّ يردّ عليه في شقّتين. ويقترن
+      المقطع بالمقطع الرابع والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Free verse has form, established inside each poem
+    - Whitman published verse without meter in 1855
+    - Free verse is prose with ragged edges
+    - Eliot wrote that no verse is free for a serious poet
+    key: A
+    moves:
+      B: underreach
+      C: wrong_direction
+      D: true_not_asked
+    why: 'The text reports the objection, gives the two-part defense, and then states the narrowed
+      claim both sides now accept: that the form is established inside each poem rather than inherited.'
+    trap: C stops at the objection the rest of the text answers.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what does free verse put in place of meter?
+    options:
+    - A rhyme scheme borrowed from the sonnet
+    - A pattern a reader brings to the poem
+    - Breath length, grammatical repetition and cadence
+    - A line ending that suspends a word
+    key: C
+    moves:
+      A: detail_swap
+      B: wrong_direction
+      D: near_miss
+    why: The text says free verse substitutes the length of the breath, the repetition of a grammatical
+      shape, parallel clauses and cadence for meter.
+    trap: B reverses the direction, since the pattern must be learned from the poem.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the line breaks of a
+      good free verse poem do work?
+    claim: the line breaks of a good free verse poem do work
+    options:
+    - «without a counted pattern there is nothing to depart from, so the line breaks are arbitrary»
+    - «the length of the breath, the repetition of a grammatical shape, parallel clauses that accumulate»
+    - «Eliot wrote that no verse is free for the poet who wants to do a good job»
+    - «readers do hear the line breaks, and rearranging the lines of a good free verse poem damages
+      it in ways that can be demonstrated to a class»
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: true_not_asked
+    why: The quotation reports that readers hear the breaks and that rearranging the lines does demonstrable
+      damage, which is the empirical half of the defense.
+    trap: A states the objection the claim is set against.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The form is established inside each poem rather than inherited, which means that a reader
+      must learn the pattern from the poem itself. A reader who brought an expectation from elsewhere
+      would therefore ___
+    options:
+    - hear the line breaks more reliably
+    - be measuring against the wrong pattern
+    - be reading a sonnet rather than free verse
+    - find the poem damaged by rearrangement
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: near_miss
+    why: The pattern is said to be learnable only from the poem, so an imported expectation is not
+      the one the poem set up.
+    trap: A makes an outside expectation a help when the text makes it a hindrance.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «studied» most nearly mean?
+    target: studied
+    options:
+    - carefully deliberate
+    - examined by scholars
+    - learned by heart
+    - entirely accidental
+    key: A
+    moves:
+      B: imported
+      C: imported
+      D: wrong_direction
+    why: The phrase describes an irregularity a metrical poet introduces on purpose, set against the
+      inherited regularity around it.
+    trap: D makes the irregularity accidental when the word marks it as intended.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence conceding both points?
+    options:
+    - It defines cadence for a reader
+    - It dates the first free verse publication
+    - It withdraws the objection altogether
+    - It narrows the objection into a claim both sides accept
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: wrong_direction
+    why: The sentence saying the strongest version concedes both points is followed by the narrowed
+      claim and then by the statement that both sides now accept something like it.
+    trap: C drops an objection the sentence keeps in a narrower form.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says metrical verse inherits its pattern. Based on Text 2, which choice best shows
+      that an inherited pattern can still be measured?
+    sibling: HUM-S04-L3
+    sibling_gloss: Text 2 is passage 134 of this book. It reports that three measurable metrical features
+      change steadily across a career and that counting them against plays of known date gives a curve
+      on which an undated play can be placed.
+    options:
+    - An understated late style differs without being better
+    - The method leaves collaboration and development apart
+    - Counted features shift steadily across a career
+    - A play revised late looks late to the counting
+    key: C
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      D: near_miss
+    why: Text 2 says three measurable metrical features change steadily across the career and that
+      counting them gives a curve.
+    trap: D names a limit on what the counting can date rather than the measuring.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The objection is not frivolous. ___ if the reader has no expectation, the devices that
+      depend on expectation cannot work.
+    options:
+    - By contrast,
+    - After all,
+    - In other words,
+    - All the same,
+    key: B
+    moves:
+      A: wrong_direction
+      C: restatement
+      D: wrong_direction
+    why: The second sentence supplies the reason the objection deserves to be taken seriously, so
+      the transition must mark a ground.
+    trap: A sets the reason against the judgment it supports.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The defense has two parts ___ and the first is that free verse substitutes other patterns
+      for meter.
+    options:
+    - parts and
+    - parts; and
+    - parts and,
+    - parts, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause about the first part is independent, so the conjunction joining it to the clause
+      about the two parts takes a comma.
+    trap: A runs the clause about the defense straight into the clause about its first part.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why bad free verse is worse than bad metrical verse. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why bad free verse is worse than bad metrical verse
+    notes:
+    - The form is established inside each poem rather than inherited.
+    - A reader must learn the pattern from the poem itself.
+    - That makes the task of the poet harder and the reader less reliable.
+    - Readers do hear the line breaks in a good poem.
+    options:
+    - The form of a free verse poem is established inside it
+    - A poet who must build the pattern from nothing can fail where an inherited one would carry
+    - A reader has to learn the pattern from the poem itself
+    - Readers do hear the line breaks in a good poem
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice turns the absence of an inherited pattern into the reason the failures are
+      worse, which is what the notes support.
+    trap: C names the reader burden without the poet risk the goal asks about.
+- id: HUM-S05-L4
+  summary_ar:
+    khulasa: المسرحية موجودة في حالين، وسؤال أيّهما هو العمل أنتج قرنًا من الجدال. فعلى الحساب المتمركز
+      حول النصّ المسرحيّة هي ما كتبه المؤلّف، والعروض تأويلات له، والعرض الذي يناقض النصّ فشل كما
+      تفشل ترجمة تقلب جملة.
+    maana: المعنى أنّه على الحساب المتمركز حول الخشبة المسرحيّة نوتة للتمثيل، ناقصة حتّى تُمثَّل،
+      وما يحمله القارئ ليس العمل بل التعليمات. ومسرح المخرجين، أي تقليد يكون فيه تأويل المخرج هو الفعل
+      الخلّاق الأوّل، دفع الحساب الثاني دفعًا قويًّا.
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: للردّ المتمركز حول النصّ صورة ضيّقة
+      قويّة: يُسلّم بأنّ الإخراج خلّاق، ويُلزم العرض الذي يقلب معنى النصّ بأن يقول إنّه يصنع عملًا
+      آخر، وإلّا وُجد طالب رأى المسرحيّة ولم يلقَها.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسم الخلاف لأحد الطرفين، مع أنّ النصّ يقول إنّ الممارسة استقرّت على
+      التصريح بما فُعل. ويقترن المقطع بالمقطع الخامس والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Victorian productions commonly cut a third of the text
+    - Practice has settled on labeling what a production has done
+    - A production that reverses the text has always failed
+    - Copyright gives living playwrights a veto
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: true_not_asked
+    why: The text sets the two accounts against each other and says practice has landed on programs
+      describing what was done, adaptations labeled as such, and the arguments moved to particular
+      cases.
+    trap: C adopts one side of a dispute the text says labeling has settled.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what does the stage-centered account call a play?
+    options:
+    - A translation of the written text
+    - The primary creative act of a director
+    - A work completed by the author alone
+    - A score for performance, incomplete until performed
+    key: D
+    moves:
+      A: near_miss
+      B: detail_swap
+      C: wrong_direction
+    why: The text says that on the stage-centered account a play is a score for performance, incomplete
+      until performed, and that a reader holds the instructions.
+    trap: B names what directors' theater makes primary rather than what a play is.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the narrow text-centered
+      reply concedes a great deal?
+    claim: the narrow text-centered reply concedes a great deal
+    options:
+    - «It concedes that staging is creative and insists that a production which reverses the meaning
+      of the text is making a different work and should say so»
+    - «Programs now routinely describe what has been done, adaptations are labeled as such»
+    - «Copyright gives living playwrights a veto that dead ones do not have»
+    - «Several estates have withdrawn permission from productions they considered unfaithful»
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: The quotation grants that staging is creative before it makes its demand, which is the concession
+      the claim names.
+    trap: B reports where practice has landed rather than what the reply gives up.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A production which reverses the meaning of the text is making a different work and should
+      say so, because the alternative is a situation in which a student who has seen the play has
+      not encountered it. A program that labels an adaptation therefore ___
+    options:
+    - rules out any reordering of the scenes
+    - returns the production to the written text
+    - removes the objection the reply raises
+    - gives a living playwright a veto
+    key: C
+    moves:
+      A: overreach
+      B: wrong_direction
+      D: imported
+    why: The demand is only that a production which reverses the text say so, so a label meets exactly
+      the condition the reply sets.
+    trap: A turns a labeling requirement into a ban on free staging.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «arrest» most nearly mean?
+    target: arrest
+    options:
+    - take into custody
+    - seize the attention of
+    - bring to a halt
+    - leave unmoved
+    key: B
+    moves:
+      A: imported
+      C: near_miss
+      D: wrong_direction
+    why: The word is used of a production that held an audience which already knew the play, so it
+      names the catching of attention.
+    trap: A takes the legal sense, which the theatrical context rules out.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the reference to the Victorians?
+    options:
+    - It answers a charge of infidelity with a precedent
+    - It defines a performance text for a reader
+    - It reports which estates withdrew permission
+    - It argues that cutting is always wrong
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The reference comes from the defenders of free staging and points out that the Victorians
+      cut a third while nobody now calls that fidelity.
+    trap: D condemns the cutting that the reference is used to excuse.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 cites the Victorians as a precedent for free staging. Based on Text 2, which choice
+      best describes how that precedent is known?
+    sibling: HUM-S05-L3
+    sibling_gloss: Text 2 is passage 135 of this book. It describes the promptbook as a working copy
+      marked up for one production, and says such books show precisely what nineteenth-century productions
+      removed and when it came back.
+    options:
+    - From photographs that show poses rather than performances
+    - From reviews, letters and memoirs of the period
+    - From recordings made after the middle of the century
+    - From marked-up copies that record every cut
+    key: D
+    moves:
+      A: near_miss
+      B: near_miss
+      C: imported
+    why: Text 2 says the promptbook is a working copy marked up for one production and that such books
+      show precisely what was removed and when it came back.
+    trap: B names documents Text 2 calls unreliable in the ordinary ways.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Defenders argued that this is what the plays had always received. ___ the text-centered
+      reply has a narrow and strong version.
+    options:
+    - As a result,
+    - For instance,
+    - Even so,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence turns from the defense to the answer it receives, so the transition must
+      mark a concession rather than a consequence.
+    trap: A makes the reply follow from the defense it opposes.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A play exists in two states ___ and the question of which one is the work has produced
+      a century of argument.
+    options:
+    - states, and
+    - states and
+    - states; and
+    - states and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the century of argument is independent, so the conjunction joining it to
+      the clause about the two states takes a comma.
+    trap: B runs the clause about the two states straight into the clause about the argument.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what the labeling of adaptations is meant to prevent. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what the labeling of adaptations is meant to prevent
+    notes:
+    - A production can reverse the meaning of the text.
+    - A student who has seen the play may have failed to encounter it.
+    - Programs now routinely describe what has been done.
+    - Adaptations are labeled as such.
+    options:
+    - A production is able to reverse the meaning of the text
+    - Programs now routinely describe what has been done
+    - A label keeps a reversed staging from passing for the play a student came to see
+    - Adaptations in the theater are now labeled as such
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice joins the labeling to the case the reply worries about, a viewer who has
+      seen the play without encountering it.
+    trap: B reports the practice without naming what it guards against.
+- id: HUM-S06-L4
+  summary_ar:
+    khulasa: الدعوى على النوع الشعبيّ أنّه فئة تسويق تتزيّا بزيّ جنس أدبيّ، وأنّه يجزي التكرار، وأنّ
+      الكاتب داخله يحلّ لغزًا لا يصنع شيئًا. والتراتب الأدبيّ، أي ترتيب أنواع الكتابة بجدّيّة مفترضة،
+      وضع البوليسيّة والرومانسيّة والخيال العلميّ قريبًا من الأسفل قرنًا.
+    maana: 'المعنى أنّ الدعوى للنوع تبدأ بأنّ تلك الملاحظة صحيحة في كلّ شيء: فالسونيتات تتشابه، والتراجيديات
+      تتشابه، ولا يأخذ أحد ذلك عليها. والشكل الذي يعرفه القارئ شكل يستطيع الكاتب أن يستعمله، فالتوقّع
+      مَورد.'
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: ما يجعل هذا خلافًا حقيقيًّا أنّ الطرفين
+      يشيران إلى الكتب نفسها. فرواية بوليسية تحفظ كلّ قاعدة متقنة منسيّة، وهذا يسند النقّاد؛ ورواية
+      تنقض قاعدة واحدة بدقّة لافتة، وهذا يسند المدافعين.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسم الحكم بالتشابه وحده، مع أنّ النصّ يفصل جودة الكتابة عن نوع الكتاب.
+      ويقترن المقطع بالمقطع السادس والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Prize juries have moved substantially in thirty years
+    - Sonnets and tragedies resemble one another
+    - Constraints make choices possible, and quality is a separate question
+    - Resemblance between books settles their worth
+    key: C
+    moves:
+      A: true_not_asked
+      B: underreach
+      D: wrong_direction
+    why: 'The text calls the surviving position unexciting and states it: a genre is a set of constraints,
+      constraints make significant choices possible, and quality is a separate question from kind.'
+    trap: D makes resemblance decide a verdict the text says it cannot decide.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, on what does pastiche depend?
+    options:
+    - A style familiar enough to be recognized
+    - A reader who has studied the hierarchy
+    - A rule broken at a known point
+    - Deceit about the source of the style
+    key: A
+    moves:
+      B: imported
+      C: detail_swap
+      D: wrong_direction
+    why: The text says pastiche is open imitation of a style without deceit or mockery and is only
+      legible where the style is familiar enough to be recognized.
+    trap: D supplies the deceit the definition excludes.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the same evidence serves
+      both sides of the dispute?
+    claim: the same evidence serves both sides of the dispute
+    options:
+    - «Sonnets resemble one another, tragedies resemble one another, and nobody holds that against
+      them»
+    - «A detective novel that keeps every rule is competent and forgettable, which supports the critics.
+      A detective novel that breaks one rule precisely is remarkable, which supports the defenders»
+    - «Prize juries have moved substantially on this in thirty years, and several genre writers now
+      appear on literary lists»
+    - «the reasons given usually amount to the observation that such books resemble one another»
+    key: B
+    moves:
+      A: near_miss
+      C: true_not_asked
+      D: near_miss
+    why: The quotation gives one novel that supports the critics and another that supports the defenders,
+      both drawn from the same genre.
+    trap: A answers the critics rather than showing the evidence cutting both ways.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: 'A form that a reader knows is a form a writer can use: the expectation is a resource,
+      and the most admired works in several genres are the ones that bend a known rule at a known
+      point. A writer in a form nobody recognized would therefore ___'
+    options:
+    - be free of the literary hierarchy
+    - have broken a rule precisely
+    - be writing competent and forgettable work
+    - have no expectation to work against
+    key: D
+    moves:
+      A: near_miss
+      B: wrong_direction
+      C: wrong_direction
+    why: The expectation is called the resource, so a form without recognition leaves a writer nothing
+      to bend.
+    trap: B credits a precise breach to a writer with no known rule to break.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «Pastiche» most nearly mean?
+    target: pastiche
+    options:
+    - a mocking parody
+    - a hidden forgery
+    - open imitation of a style
+    - a mixture of materials
+    key: C
+    moves:
+      A: near_miss
+      B: wrong_direction
+      D: imported
+    why: The text glosses the word as open imitation of a style without deceit or mockery, legible
+      only where the style is familiar.
+    trap: A supplies the mockery the gloss rules out.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentences about sonnets and tragedies?
+    options:
+    - They define the literary hierarchy for a reader
+    - They turn the charge of resemblance against itself
+    - They report how prize juries have changed
+    - They concede that genre rewards repetition
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The two sentences follow the claim that the observation is true of everything and name two
+      admired forms whose members resemble one another.
+    trap: D grants the charge the sentences are offered to defuse.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says a known form is a resource for a writer. Based on Text 2, which choice best
+      describes how such a form becomes known?
+    sibling: HUM-S06-L3
+    sibling_gloss: Text 2 is passage 136 of this book. It tests the usual account of the gothic novel
+      against bibliography and names the pattern of a first instance, a gap, and then a rush of derivative
+      work as what one would expect if a form were being established.
+    options:
+    - A first instance is followed by a rush of imitation
+    - Cheap print of the period survives very badly
+    - A collector thought the surviving items respectable
+    - Catalogues list items with dates and printers
+    key: A
+    moves:
+      B: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: Text 2 names the pattern of a first instance, a gap and then a rush of derivative work as
+      what one would expect if a form were being established.
+    trap: D names the tool that records the pattern rather than the pattern itself.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The case for genre begins by pointing out that the observation is true of everything.
+      ___ sonnets resemble one another, and nobody holds that against them.
+    options:
+    - By contrast,
+    - As a result,
+    - In other words,
+    - For instance,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence gives one admired form as a case of the resemblance just claimed to be
+      universal, so the transition must mark an example.
+    trap: B makes the sonnets follow from the claim rather than illustrate it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A detective novel that keeps every rule is competent and forgettable ___ and that supports
+      the critics.
+    options:
+    - forgettable and
+    - forgettable, and
+    - forgettable; and
+    - forgettable and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause saying that supports the critics is independent, so the conjunction joining it
+      to the clause about the competent novel takes a comma.
+    trap: A runs the clause about the novel straight into the clause about the critics.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain the position that survives both sides. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain the position that survives both sides
+    notes:
+    - A genre is a set of constraints.
+    - Constraints are what make significant choices possible.
+    - The quality of the writing is a separate question from the kind of book.
+    - Both sides can point to the same books.
+    options:
+    - A genre is a set of constraints on a writer
+    - Both sides of the dispute can point to the same books
+    - Constraints are what make significant choices possible
+    - Constraints make choices possible, and the quality of a book is a separate question
+    key: D
+    moves:
+      A: underreach
+      B: true_not_asked
+      C: underreach
+    why: Only this choice states both halves of the surviving position, the use of the constraints
+      and the independence of quality from kind.
+    trap: C names the value of constraints without separating quality from kind.
+- id: HUM-S07-L4
+  summary_ar:
+    khulasa: لوحة هولندية من القرن السابع عشر لامرأة عند نافذة قد تكون مشهدًا وقد تكون تحذيرًا من
+      الغرور، والاختيار بين القراءتين أقدم خلاف منهجيّ في تاريخ الفنّ. والأيقونوغرافيا، أي دراسة المعاني
+      الاصطلاحية الملتصقة بالصور في عصر، ترى أنّ هذه اللوحات استعملت شفرة مشتركة.
+    maana: 'المعنى أنّ دليلها كتب الرموز والخُطَب وقوائم جرد البيوت، وقد بقي منها آلاف من القرن السابع
+      عشر. والاعتراض ليس على وجود الشفرة بل على إطلاق تطبيقها: فالكلب في لوحة قد يدلّ على الوفاء وقد
+      يكون كلبًا.'
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: اقترح مايكل باكساندول حدًّا وسطًا نافعًا
+      هو عين العصر، أي عادات النظر التي حملها مشاهد ذلك الزمن إلى العمل، ومنها مهارات لا صلة لها بالفنّ
+      كتقدير الأحجام في حرفة تقتضيه، فيصير السؤال تجريبيًّا.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب الاعتراض نفيًا للشفرة، مع أنّ النصّ يقصره على إطلاق تطبيقها. ويقترن
+      المقطع بالمقطع السابع والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Thousands of emblem books survive from the century
+    - Both camps use the same conservation reports
+    - The shared code of images was a later invention
+    - The dispute is over what inference the evidence allows
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: wrong_direction
+    why: The text sets iconography against the formal alternative, offers the period eye as a middle
+      term, and ends by saying the camps differ in what counts as a legitimate inference.
+    trap: C denies a code the text says the objection does not dispute.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what does the period eye include?
+    options:
+    - The conventional meanings attached to images
+    - Skills unrelated to art, such as gauging volumes
+    - The arrangement of shapes within the frame
+    - A code read by a contemporary without effort
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: near_miss
+    why: The text says the period eye means the habits of seeing a viewer of the time brought to a
+      work, including skills unrelated to art such as gauging volumes.
+    trap: A gives the definition of iconography instead.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the emblem books let
+      a scholar prove too much?
+    claim: the emblem books let a scholar prove too much
+    options:
+    - «The evidence is emblem books, sermons and household inventories, of which thousands survive
+      from the seventeenth century»
+    - «the mirror, the dog, the open window and the extinguished candle all carried meanings that
+      a contemporary viewer read without effort»
+    - «the available emblem books supply several meanings for most objects, which allows a determined
+      scholar to find a recondite reading for anything»
+    - «Both camps use the same conservation reports and the same inventories»
+    key: C
+    moves:
+      A: true_not_asked
+      B: near_miss
+      D: true_not_asked
+    why: The quotation names the multiplicity of meanings in the emblem books and says it lets a determined
+      scholar find a reading for anything.
+    trap: A counts the surviving sources without naming the trouble they cause.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The dispute survives because a picture whose audience left no record cannot be read that
+      way at all. A scholar facing such a picture would therefore ___
+    options:
+    - be unable to reconstruct the period eye
+    - find several meanings in the emblem books
+    - have evidence about schooling and commerce
+    - read the mirror as a warning about vanity
+    key: A
+    moves:
+      B: wrong_direction
+      C: wrong_direction
+      D: imported
+    why: The period eye has to be reconstructed from evidence about schooling, commerce and devotion,
+      which an audience that left no record does not supply.
+    trap: C supplies the very evidence the case stipulates is missing.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «recondite» most nearly mean?
+    target: recondite
+    options:
+    - frequently repeated
+    - carefully measured
+    - open to a beginner
+    - obscure and far-fetched
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: wrong_direction
+    why: The word describes the reading a determined scholar can find for anything once the emblem
+      books supply several meanings, so it marks a reading reached by a stretch.
+    trap: C makes the reading accessible when the sentence makes it remote.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the dog?
+    options:
+    - It defines iconography for a reader
+    - It reports what the emblem books contain
+    - It states the objection in one example
+    - It denies that the dog could signify anything
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: wrong_direction
+    why: The sentence follows the statement that the code is being applied too freely and says the
+      dog may signify fidelity and may also be a dog.
+    trap: D takes away a signification the sentence keeps as one of two options.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says both camps use the same conservation reports. Based on Text 2, which choice
+      best describes what those reports can settle?
+    sibling: HUM-S07-L3
+    sibling_gloss: Text 2 is passage 137 of this book. It describes radiography, reflectography and
+      pigment analysis, and says they can show that a panel is of the right date and that the materials
+      are consistent while leaving the hand unsettled.
+    options:
+    - Which hand made a particular brushstroke
+    - The date of a panel and the materials in it
+    - The conventional meaning of an extinguished candle
+    - The habits of seeing an audience brought
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: restatement
+    why: Text 2 says the techniques can show that a panel is of the right date and that the materials
+      are consistent, while leaving the hand unsettled.
+    trap: A names the finding Text 2 says the laboratory cannot deliver.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The objection is not that the code did not exist. ___ it is that the code is being applied
+      too freely.
+    options:
+    - Rather,
+    - As a result,
+    - For instance,
+    - In addition,
+    key: A
+    moves:
+      B: wrong_direction
+      C: near_miss
+      D: wrong_direction
+    why: The second sentence supplies what the objection is in place of what it is not, so the transition
+      must mark a correction.
+    trap: D adds the second clause when the sentence replaces the first.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A dog in a painting may signify fidelity ___ and it may also be a dog.
+    options:
+    - fidelity and
+    - fidelity; and
+    - fidelity, and
+    - fidelity and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause saying it may also be a dog is independent, so the conjunction joining it to the
+      clause about fidelity takes a comma.
+    trap: A runs the clause about fidelity straight into the clause about the dog itself.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the period eye reframes the question. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the period eye reframes the question
+    notes:
+    - The period eye means the habits of seeing a viewer of the time brought.
+    - It includes skills unrelated to art, such as gauging volumes.
+    - 'That makes the question empirical: what this audience knew how to do.'
+    - Answering it requires evidence about schooling, commerce and devotion.
+    options:
+    - Asking what an audience knew how to do turns interpretation into a question about schooling
+      and trade
+    - The period eye means the habits of seeing a viewer brought
+    - It includes skills unrelated to art, such as gauging volumes
+    - The question becomes empirical rather than symbolic
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice joins the reframed question to the kind of evidence that answers it, which
+      is what the reframing buys.
+    trap: D names the shift without saying what evidence it calls for.
+- id: HUM-S08-L4
+  summary_ar:
+    khulasa: 'من ستّينيّات القرن العشرين دعت حركة إلى الأداء المستنير تاريخيًّا، أي عزف الموسيقى القديمة
+      على آلات عصرها وعلى طريقته: آلات العصر، ودرجة صوته، والأعداد التي كانت بين يدي المؤلّف، والزخارف
+      والسرعات التي تصفها الرسائل المعاصرة.'
+    maana: 'المعنى أنّ هذا أنتج تسجيلات تخالف التقليد الأوركسترالي مخالفة مذهلة: أعداد أصغر، وسرعات
+      أعلى، واهتزاز أقلّ، وتوزيع صوت مختلف تمامًا. وأنتج أيضًا طبعات أصلية تعرض ما كتبه المؤلّف بلا
+      إضافات محرّرين لاحقين.'
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: جاءت الاعتراضات سريعًا وبعضها صمد:
+      فلا تسجيل لشيء قبل سنة ألف وثمانمئة وسبع وسبعين، والدعوى تستند إلى مصادر مكتوبة ناقصة ومتخالفة،
+      والجمهور الحديث غير جمهور العصر، والمؤلّفون كتبوا لأعداد رأوها غير كافية.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب الحركة مُصِرّة على استعادة أصل مفقود، مع أنّ النصّ يقول إنّها تركت
+      أقوى دعواها. ويقترن المقطع بالمقطع الثامن والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The movement dropped its strongest claim and kept its evidence
+    - No recording of anything exists before 1877
+    - Period performance recovers a lost original
+    - Several conductors move between the two traditions
+    key: A
+    moves:
+      B: underreach
+      C: wrong_direction
+      D: true_not_asked
+    why: The text lists the objections, says the answer has largely been to drop the strongest claim,
+      and reports the defensible position that the sources are evidence about choices the music assumes.
+    trap: C keeps the claim the text says few practitioners now make.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what did composers often say in letters?
+    options:
+    - That the treatises disagreed with one another
+    - That the pitch of the period was too low
+    - That the forces they wrote for were inadequate
+    - That urtext editions removed later additions
+    key: C
+    moves:
+      A: detail_swap
+      B: imported
+      D: detail_swap
+    why: The text says composers frequently wrote for forces they considered inadequate and that several
+      said so in letters.
+    trap: A names a different objection the text makes about the written sources.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the appeal to original
+      practice may appeal to a compromise?
+    claim: the appeal to original practice may appeal to a compromise
+    options:
+    - «There is no recording of anything before 1877, so the claim rests on written sources which
+      are incomplete and often disagree»
+    - «A modern audience is not a period audience, so reproducing the acoustic conditions does not
+      reproduce the experience»
+    - «It also produced urtext editions, meaning editions that present what the composer wrote without
+      later editorial additions»
+    - «Composers frequently wrote for forces they considered inadequate, and several said so in letters,
+      which makes the appeal to original practice an appeal to a compromise rather than to an intention»
+    key: D
+    moves:
+      A: near_miss
+      B: near_miss
+      C: true_not_asked
+    why: The quotation reports the inadequate forces and the letters and then draws exactly the conclusion
+      the claim states.
+    trap: A names a different weakness, the absence of recordings, rather than the compromise.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: What they argue instead is that the instruments and the treatises are evidence about
+      choices the music assumes, and that a performer who knows them has more options rather than
+      fewer. A performer who ignored those sources would therefore ___
+    options:
+    - be recovering a lost original
+    - be choosing from a shorter list
+    - reproduce the period acoustic exactly
+    - have dropped the strongest claim
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: near_miss
+    why: Knowing the instruments and the treatises is said to add options, so leaving them aside subtracts
+      them.
+    trap: A gives the claim the movement is said to have abandoned.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «economy» most nearly mean?
+    target: economy
+    options:
+    - a way of distributing resources
+    - a saving of money
+    - a system of trade
+    - a brevity of statement
+    key: A
+    moves:
+      B: imported
+      C: imported
+      D: near_miss
+    why: The phrase names what distinguishes the recordings, alongside smaller forces, faster tempos
+      and less vibrato, so it marks how the sound is apportioned.
+    trap: B takes the monetary sense, which the list of musical features rules out.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the movement dropping a claim?
+    options:
+    - It defines an urtext edition for a reader
+    - It dates the start of the movement
+    - It concedes that the objections all failed
+    - It turns the account from objection to reply
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: wrong_direction
+    why: The sentence follows the three objections and introduces what practitioners now argue instead
+      of authenticity.
+    trap: C dismisses objections the text says have held up.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says the claim rests on written sources. Based on Text 2, which choice best describes
+      a written source that still leaves a choice open?
+    sibling: HUM-S08-L3
+    sibling_gloss: Text 2 is passage 138 of this book. It reports that the autograph score often differs
+      from the first printed edition, that an editor has to choose where they disagree, and that the
+      choice is published as though it were a wish of the composer.
+    options:
+    - A sketch that shows what was tried
+    - A facsimile published for performers
+    - A score that disagrees with the first edition
+    - A watermark used to date a page
+    key: C
+    moves:
+      A: near_miss
+      B: true_not_asked
+      D: near_miss
+    why: Text 2 says the autograph score often differs from the first printed edition and that an
+      editor has to choose where they disagree.
+    trap: A names a source whose silence concerns reasons rather than performance.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The objections came quickly and some have held up. ___ there is no recording of anything
+      before 1877, so the claim rests on written sources.
+    options:
+    - By contrast,
+    - For one thing,
+    - In other words,
+    - All the same,
+    key: B
+    moves:
+      A: wrong_direction
+      C: restatement
+      D: wrong_direction
+    why: The second sentence gives the first of the objections just announced, so the transition must
+      open a list of instances.
+    trap: A sets the objection against the sentence that introduces it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A modern audience is not a period audience ___ and reproducing the acoustic conditions
+      leaves the experience unreproduced.
+    options:
+    - audience and
+    - audience; and
+    - audience and,
+    - audience, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause about the acoustic conditions is independent, so the conjunction joining it to
+      the clause about the audience takes a comma.
+    trap: A runs the clause about the audience straight into the clause about the acoustics.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain how a weakened claim can still change practice. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain how a weakened claim can still change practice
+    notes:
+    - Few practitioners now argue that period performance is authentic.
+    - They argue that the sources are evidence about choices the music assumes.
+    - A performer who knows them has more options rather than fewer.
+    - Mainstream practice now uses smaller forces and faster tempos.
+    options:
+    - Few practitioners now argue that period performance is authentic
+    - Treating the sources as evidence about options won the practice without winning the argument
+    - A performer who knows the sources has more options
+    - Mainstream practice now uses smaller forces and faster tempos
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice joins the modest version of the claim to the change in mainstream practice
+      that followed without a concession.
+    trap: D reports the change without saying what brought it about.
+- id: HUM-S09-L4
+  summary_ar:
+    khulasa: 'اقترح لو كوربوزييه إبدال المدينة الكثيفة بأبراج في حدائق، ولم تكن الحجّة سخيفة: فأحياء
+      القرن التاسع عشر الفقيرة كانت مظلمة مزدحمة قاتلة، وبرج على بصمة صغيرة يُسكن العدد نفسه مع ضوء
+      وهواء وشجر وبلا مرور عند الباب.'
+    maana: المعنى أنّ المَربَع الكبير، أي موقع واسع يُخطَّط وحدةً واحدة بأبراج قائمة في أرض مكشوفة،
+      بُني بهذه الروح في أوروبا وآسيا وأمريكا أربعين سنة، ثمّ هاجمته جين جيكوبس سنة ألف وتسعمئة وإحدى
+      وستّين من المشاهدة لا من المذهب.
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: الحكم الأمين لا بدّ أن يكون مقسومًا،
+      فالمذهبان أنتجا كوارث ونجاحات. فمَربَعات فيينّا وسنغافورة تعمل بالشكل نفسه وبإدارة وصيانة وحيازة
+      مختلفة، والشوارع التقليدية الكثيفة تُنتج غلاءً يُخرج من دافعت عنهم جيكوبس.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب الشكل هو المتغيّر الحاسم، مع أنّ الدراسات ترجّح الأمن والصيانة
+      وبعض التحكّم. ويقترن المقطع بالمقطع التاسع والثلاثين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Le Corbusier proposed towers set in parkland
+    - Security, maintenance and control predict success better than form
+    - Jane Jacobs published her critique in 1961
+    - The form of a project decides whether it works
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: wrong_direction
+    why: The text says both doctrines produced disasters and successes and that the variable which
+      best predicts success in the studies is whether residents have security, maintenance and some
+      control.
+    trap: D makes the form decisive when the studies put it second.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what did Jacobs say destroys a useful street?
+    options:
+    - A maintenance budget cut to a fraction
+    - Gentrification that prices out residents
+    - A tower on a small footprint with trees
+    - A design that removes short blocks and doorways
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: near_miss
+    why: The text says her claim was that short blocks, many doorways, mixed uses and people on the
+      pavement are destroyed by the design.
+    trap: A names a cause the text raises later and attributes to management.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the same built form
+      can work or fail?
+    claim: the same built form can work or fail
+    options:
+    - «Superblocks in Vienna and Singapore work, with the same form and different management, maintenance
+      and tenure»
+    - «Nineteenth-century slums were dark, overcrowded and lethal»
+    - «Dense traditional streets produce gentrification that prices out exactly the populations Jacobs
+      defended»
+    - «Her book is laconic about architecture and specific about behavior»
+    key: A
+    moves:
+      B: true_not_asked
+      C: near_miss
+      D: true_not_asked
+    why: The quotation names two places where the form succeeds and attributes the difference to management,
+      maintenance and tenure rather than to the form.
+    trap: C gives a failure of the other doctrine rather than the same form doing both.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Several demolished American projects had maintenance budgets cut to a fraction of what
+      their designs required. Comparable buildings elsewhere with funded maintenance are still standing
+      and sought after. The pattern of demolitions therefore ___
+    options:
+    - follows the form of the buildings
+    - shows that Jacobs was wrong about streets
+    - tracks the money spent on upkeep
+    - proves the superblock was always doomed
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: overreach
+    why: The text contrasts demolished projects whose budgets were cut with maintained buildings of
+      the same kind still standing, which puts the difference in the upkeep.
+    trap: D condemns a form the text says works where it is maintained.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «laconic» most nearly mean?
+    target: laconic
+    options:
+    - relaxed in manner
+    - sparing of words
+    - full of detail
+    - severe in judgment
+    key: B
+    moves:
+      A: imported
+      C: wrong_direction
+      D: near_miss
+    why: The word is set against specific about behavior in the same sentence, so it names a book
+      that says little on the first subject.
+    trap: C gives the fullness the sentence reserves for the other subject.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence saying the verdict has to be split?
+    options:
+    - It refuses to decide between the two doctrines
+    - It defines a superblock for a reader
+    - It reports what Jacobs attacked in 1961
+    - It awards the argument to Le Corbusier
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The sentence introduces the successes and failures of both doctrines and is followed by Vienna
+      and Singapore on one side and gentrification on the other.
+    trap: D hands a verdict to one side when the sentence withholds it from both.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says most of the observations have since been measured. Based on Text 2, which choice
+      best describes how such measuring is now done?
+    sibling: HUM-S09-L3
+    sibling_gloss: Text 2 is passage 139 of this book. It contrasts a survey that walked every street
+      in London with modern measurement that is cheaper, narrower and continuous, naming footfall
+      counts from sensors and journeys from transport cards.
+    options:
+    - By walking every street and recording what is found
+    - By coloring a street plan house by house
+    - By printing seventeen volumes of notes
+    - By continuous counts from sensors and transport cards
+    key: D
+    moves:
+      A: near_miss
+      B: near_miss
+      C: true_not_asked
+    why: Text 2 says measurement today is cheaper, narrower and continuous, and names footfall counts
+      from sensors and mobile data and journeys from transport cards.
+    trap: A describes the nineteenth-century survey rather than present-day measurement.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Le Corbusier proposed replacing the dense city with towers in parkland. ___ nineteenth-century
+      slums were dark, overcrowded and lethal.
+    options:
+    - By contrast,
+    - In other words,
+    - After all,
+    - All the same,
+    key: C
+    moves:
+      A: wrong_direction
+      B: restatement
+      D: wrong_direction
+    why: The second sentence supplies the reason the proposal was not foolish, so the transition must
+      mark a ground for what precedes it.
+    trap: A sets the slums against the proposal they motivated.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Her book is laconic about architecture ___ and it is specific about behavior.
+    options:
+    - architecture, and
+    - architecture and
+    - architecture; and
+    - architecture and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause saying it is specific about behavior is independent, so the conjunction joining
+      it to the clause about architecture takes a comma.
+    trap: B runs the clause about architecture straight into the clause about behavior.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the evidence disappoints both parties. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the evidence disappoints both parties
+    notes:
+    - Both doctrines produced disasters and successes.
+    - Superblocks in Vienna and Singapore work with the same form.
+    - Dense traditional streets produce gentrification.
+    - The best predictor is security, maintenance and some control.
+    options:
+    - Both doctrines have produced disasters and successes
+    - Superblocks in Vienna and Singapore work with the same form
+    - The best predictor is upkeep and tenure, which belongs to neither doctrine
+    - Dense traditional streets produce gentrification as well
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice names the variable the studies favor and says why a finding about upkeep
+      answers to neither side of the design dispute.
+    trap: B gives one success of one doctrine without the variable behind it.
+- id: HUM-S10-L4
+  summary_ar:
+    khulasa: 'سؤال هل يمكن أن يكون الحكم على الفنّ صادقًا ليس سؤالًا فارغًا، فممارسة النقد كلّها تفترض
+      جوابًا. والنسبية، أي القول بأنّ مثل هذا الحكم لا يصدق إلّا نسبةً إلى معيار، لها فضل تفسير السجلّ
+      التاريخيّ: فالمعايير تتغيّر تغيّرًا يمكن إظهاره.'
+    maana: المعنى أنّ التقليد المقابل يحاول تثبيت الحكم في الاتّفاق لا في العمل. فقد لاحظ ديفيد هيوم
+      أنّ أحكام ذوي الخبرة الواسعة بفنّ تتقارب أكثر من أحكام المبتدئين، واقترح الناقد المِثال، أي
+      قاضيًا مفترضًا تامّ المعرفة بلا هوًى، معيارًا لصواب الحكم.
+    ahammiyya: 'في مجال الإنسانيات هذه المادة في مستوى الخلاف: ولكلّ موقف حالة عسيرة: فالنسبيّ عليه
+      أن يفسّر لماذا يحدث التقارب أصلًا، ولماذا تُحسم الخلافات في التقنية والاتّساق حسمًا روتينيًّا؛
+      والهيوميّ عليه أن يتخلّص من حالات تقارب فيها الرأي المستنير ثمّ انقلب.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب التقارب حاسمًا لكلّ سؤال قيمة، مع أنّ النصّ يفصل أحكام الصنعة من
+      أحكام القيمة. ويقترن المقطع بالمقطع الأربعين بعد المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Hume proposed the ideal critic as a standard
+    - The practical consequence is smaller than the heat suggests
+    - Craft can be argued to a conclusion and value cannot
+    - Convergence among experts settles every question of value
+    key: C
+    moves:
+      A: underreach
+      B: true_not_asked
+      D: overreach
+    why: The text sets relativism against the Humean appeal to convergence, gives each a hard case,
+      and calls the most defensible position the one that separates craft from value.
+    trap: D hardens convergence into a settlement the text denies it can give.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what did Hume observe about experienced judges?
+    options:
+    - That their verdicts converge more than beginners
+    - That they have full knowledge and no prejudice
+    - That they cannot be wrong about a work
+    - That standards demonstrably change over time
+    key: A
+    moves:
+      B: detail_swap
+      C: overreach
+      D: detail_swap
+    why: The text says Hume observed that the verdicts of people with wide experience of an art form
+      converge more than the verdicts of beginners.
+    trap: B gives the definition of the ideal critic rather than the observation behind it.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the Humean position
+      has a case it must explain away?
+    claim: the Humean position has a case it must explain away
+    options:
+    - «standards demonstrably change, as the earlier passages in this strand showed»
+    - «The Humean has to explain away the cases where informed opinion converged and later reversed,
+      which are numerous enough to be embarrassing»
+    - «The relativist has to explain why the convergence happens at all»
+    - «Both positions have been defended in detail by philosophers who agree about almost every particular
+      verdict»
+    key: B
+    moves:
+      A: near_miss
+      C: near_miss
+      D: true_not_asked
+    why: The quotation names the reversals of informed opinion as the burden on the Humean side and
+      calls them numerous enough to be embarrassing.
+    trap: C gives the burden on the other side of the dispute.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The relativist has to explain why the convergence happens at all, and why disagreements
+      about technique and coherence are settled so routinely in practice. A relativist who treated
+      every verdict as equally groundless would therefore ___
+    options:
+    - be following the ideal critic standard
+    - have explained away the reversals
+    - be defending the historical record
+    - leave the routine settlements unexplained
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: wrong_direction
+    why: The text names the routine settling of technical disagreements as the thing a relativist
+      owes an account of.
+    trap: B answers the burden the text puts on the other position.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «sardonic» most nearly mean?
+    target: sardonic
+    options:
+    - carefully impartial
+    - densely technical
+    - mockingly dry
+    - openly admiring
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: wrong_direction
+    why: The word describes a literature about verdicts that converged and later reversed, so it names
+      a tone that treats those reversals with dry mockery.
+    trap: A makes the literature impartial when the word marks it as amused.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about each position having a hard
+      case?
+    options:
+    - It defines relativism for a reader
+    - It opens the burdens placed on both sides
+    - It reports what Hume proposed as a standard
+    - It concludes that both positions fail
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence is followed at once by what the relativist has to explain and then by what the
+      Humean has to explain away.
+    trap: D fails positions the text says are both defended in detail.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says relativism explains the historical record. Based on Text 2, which choice best
+      describes the record it explains?
+    sibling: HUM-S10-L3
+    sibling_gloss: Text 2 is passage 140 of this book. It reports two writers whose standing moved
+      sharply while the texts stayed the same, and says what changed was the criteria, which makes
+      standards historical objects with datable origins.
+    options:
+    - Reputations that moved while the texts stayed the same
+    - Verdicts of experienced judges that converge
+    - Databases of borrowings and school curricula
+    - A hypothetical judge with full knowledge
+    key: A
+    moves:
+      B: wrong_direction
+      C: near_miss
+      D: imported
+    why: Text 2 reports two writers whose standing changed while the texts did not, and says what
+      changed was the criteria.
+    trap: B names the convergence the opposing tradition appeals to.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The relativist has to explain why the convergence happens at all. ___ the Humean has
+      to explain away the cases where informed opinion converged and later reversed.
+    options:
+    - As a result,
+    - In other words,
+    - For instance,
+    - Equally,
+    key: D
+    moves:
+      A: wrong_direction
+      B: restatement
+      C: near_miss
+    why: The second sentence states the matching burden on the other side, so the transition must
+      mark a parallel rather than a consequence.
+    trap: B treats the second burden as a restatement of the first.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Standards demonstrably change ___ and a claim that one period simply saw correctly looks
+      hard to defend.
+    options:
+    - change and
+    - change, and
+    - change; and
+    - change and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the claim that looks hard to defend is independent, so the conjunction joining
+      it to the clause about the changing standards takes a comma.
+    trap: A runs the clause about the standards straight into the clause about the claim.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why criticism is worth doing on the most defensible position.
+      Which choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why criticism is worth doing on the most defensible position
+    notes:
+    - Judgments about craft can be argued to a conclusion.
+    - Judgments about value resist settlement in the same way.
+    - Criticism is worth doing anyway.
+    - The practical consequence of the choice is smaller than the argument suggests.
+    options:
+    - Judgments about craft can be argued to a conclusion
+    - Judgments about value resist settlement in the same way
+    - The practical consequence of the choice is small
+    - Craft arguments reach conclusions, so the work remains worth doing where value stays open
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: true_not_asked
+    why: Only this choice joins the settleable half of criticism to the conclusion that the practice
+      is worth continuing while the other half stays open.
+    trap: B names the unsettleable half without saying what still holds.
