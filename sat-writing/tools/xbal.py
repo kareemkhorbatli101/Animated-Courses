@@ -18,11 +18,16 @@ L = X.LABELS
 
 
 def extremes(g):
-    sh = sum(1 for x in g if len(x['options'][L.index(x['key'])])
-             == min(len(o) for o in x['options']))
-    lg = sum(1 for x in g if len(x['options'][L.index(x['key'])])
-             == max(len(o) for o in x['options']))
-    return sh, lg
+    """How often the key is the uniquely longest option, and the uniquely shortest.
+
+    Ties do not count: three options of the same length give a student nothing to
+    pick by, which is what H6 is really about.
+    """
+    def ext(x, pick):
+        ls = [len(o) for o in x['options']]
+        k = len(x['options'][L.index(x['key'])])
+        return k == pick(ls) and ls.count(k) == 1
+    return (sum(1 for x in g if ext(x, min)), sum(1 for x in g if ext(x, max)))
 
 
 print('chapter                      n   key shortest   key longest   worst set')

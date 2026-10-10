@@ -1,0 +1,1862 @@
+# Chapter 10 - Supplements and paired punctuation. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 10
+element: supplement
+title: Supplements and paired punctuation
+home: HIS
+summary_ar:
+  qaida: 'العبارات المعترضة وترقيمها: العبارة التي تعترض الجملة ولا تلزم لتحديد المعنى تُحاط بعلامتين
+    من جنس واحد، فاصلتين أو شرطتين أو قوسين. والعلامة التي فتحت هي التي تغلق، ولا يُفتح بشرطة ويُغلق
+    بفاصلة. وما كان لازماً لتحديد المقصود لا يُحاط بشيء أصلاً.'
+  kayf: 'يعرض الاختبار عبارة معترضة ويحذف علامتيها، فتكون الخيارات: علامتان متفقتان، وعلامة واحدة،
+    وعلامتان مختلفتان، ولا علامة. والسؤال سؤالان: هل العبارة لازمة؟ فإن لم تكن لازمة فهل أُغلقت بما
+    فُتحت به؟'
+  fakh: 'الفخّ أن العلامة الأولى تُقرأ ثمّ يطول الكلام فتُنسى، فيُغلق بغيرها أو لا يُغلق أصلاً. والعلاج
+    أن تحذف العبارة المعترضة كلّها فتقرأ الجملة بدونها: فإن استقامت فالعبارة غير لازمة وتحتاج إلى
+    علامتين.'
+  sila: 'هذا الباب من أكثر ما يتكرّر في اختبار سات بعد حدود الجملة، وهو أسهل منه لأن العلاج ميكانيكي:
+    احذف ما بين العلامتين. ويتّصل بالفصل الذي يليه في النقطتين، وبالفصل الثاني عشر في الوصف المحدِّد.'
+parts:
+- domain: HIS
+  partno: 46
+  note_ar: 'التاريخ والنظام المدني هو المجال الأصلي لهذا الفصل، لأن جمله مليئة بالألقاب والتواريخ
+    والتعريفات التي تعترض الكلام: فلان، وهو كذا، فعل كذا. وهذه العبارات تطول فتُنسى علامتها الأولى.'
+  exercises:
+  - n: 451
+    id: C10-HIS-E01
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: Jefferson ___ wrote the first draft in seventeen days at a desk of his own design.
+    rule: appositive_commas
+    rule_span: ', then thirty-three years old,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', then thirty-three years old'
+    - — then thirty-three years old,
+    - ', then thirty-three years old,'
+    - (then thirty-three years old,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', then thirty-three years old'
+      B:
+        move: mismatched_pair
+        span: — then thirty-three years old,
+      D:
+        move: mismatched_pair
+        span: (then thirty-three years old,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A nonessential appositive is enclosed in commas, which means a comma at each end of it and
+      not one.
+    trap: A opens the supplement and never closes it, which is the commonest fault in this chapter.
+  - n: 452
+    id: C10-HIS-E02
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: The veto ___ can be overridden only by a two-thirds vote in both chambers.
+    rule: paired_commas
+    rule_span: ', which Article One gives to the President alone,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which Article One gives to the President alone,'
+    - ', which Article One gives to the President alone'
+    - — which Article One gives to the President alone,
+    - (which Article One gives to the President alone,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', which Article One gives to the President alone'
+      C:
+        move: mismatched_pair
+        span: — which Article One gives to the President alone,
+      D:
+        move: mismatched_pair
+        span: (which Article One gives to the President alone,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end, and a which-clause that merely
+      adds information is a supplement.
+    trap: B leaves the supplement open at the far end, which a long interruption makes easy to forget.
+  - n: 453
+    id: C10-HIS-E03
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The Naturalization Act of 1790 ___ restricted eligibility to free white persons of good
+      character who had lived two years in the country.
+    rule: appositive_commas
+    rule_span: ', the first statute Congress passed on the subject,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the first statute Congress passed on the subject'
+    - ', the first statute Congress passed on the subject,'
+    - — the first statute Congress passed on the subject,
+    - (the first statute Congress passed on the subject,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', the first statute Congress passed on the subject'
+      C:
+        move: mismatched_pair
+        span: — the first statute Congress passed on the subject,
+      D:
+        move: mismatched_pair
+        span: (the first statute Congress passed on the subject,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive names the same thing the subject names, so it is nonessential and takes a
+      comma at each end.
+    trap: C opens with a dash and closes with a comma, which is a pair of two different marks.
+  - n: 454
+    id: C10-HIS-E04
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: Garrison's newspaper ___ ran for thirty-five years and stopped the week the Thirteenth
+      Amendment was ratified by the states.
+    rule: paired_dashes
+    rule_span: — never profitable and never quiet —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — never profitable and never quiet
+    - ', never profitable and never quiet —'
+    - (never profitable and never quiet —
+    - — never profitable and never quiet —
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: — never profitable and never quiet
+      B:
+        move: mismatched_pair
+        span: ', never profitable and never quiet —'
+      C:
+        move: mismatched_pair
+        span: (never profitable and never quiet —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: A supplement set off by dashes takes a dash at each end, and dashes suit an interruption
+      the writer wants heard.
+    trap: A supplies the opening dash and no closing one, so the sentence never comes back from the
+      interruption.
+  - n: 455
+    id: C10-HIS-E05
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: The governments ___ disenfranchised black voters within twenty years of the federal withdrawal
+      and were not seriously challenged for another sixty.
+    rule: no_marks_needed
+    rule_span: that replaced the occupation
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that replaced the occupation,'
+    - ', that replaced the occupation'
+    - that replaced the occupation
+    - — that replaced the occupation —
+    key: C
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that replaced the occupation,'
+      B:
+        move: overpunctuated
+        span: ', that replaced the occupation'
+      D:
+        move: wrong_mark
+        span: — that replaced the occupation —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which governments are meant, so it is essential and takes no marks at all.
+    trap: A encloses an essential clause in commas, which tells the reader it could be removed when
+      it cannot.
+  - n: 456
+    id: C10-HIS-E06
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: The commission that investigated the Chicago packinghouses ___ reported within six months,
+      and the Meat Inspection Act followed it into law before the end of the same year.
+    rule: paired_parentheses
+    rule_span: (two lawyers and a physician)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (two lawyers and a physician
+    - (two lawyers and a physician)
+    - (two lawyers and a physician,
+    - — two lawyers and a physician)
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: (two lawyers and a physician
+      C:
+        move: mismatched_pair
+        span: (two lawyers and a physician,
+      D:
+        move: mismatched_pair
+        span: — two lawyers and a physician)
+    ctx:
+      marks_expected: 2
+      pair: paren
+    why: Parentheses come in twos, and an aside this incidental is what they are for.
+    trap: A opens a parenthesis and leaves it open, which no reader forgives and many writers do.
+  - n: 457
+    id: C10-HIS-E07
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: The Court asked the parties in the school cases ___ to come back a year later and argue
+      the history of the amendment, which is why the decision took two full terms rather than one.
+    rule: paired_dashes
+    rule_span: — all of whom had thought the matter closed —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — all of whom had thought the matter closed —
+    - — all of whom had thought the matter closed
+    - ', all of whom had thought the matter closed —'
+    - (all of whom had thought the matter closed —
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: — all of whom had thought the matter closed
+      C:
+        move: mismatched_pair
+        span: ', all of whom had thought the matter closed —'
+      D:
+        move: mismatched_pair
+        span: (all of whom had thought the matter closed —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: Dashes set off a supplement at both ends, and a dash pair carries an aside more loudly than
+      commas would.
+    trap: C opens with a comma and closes with a dash, which is two marks of different kinds doing
+      one job.
+  - n: 458
+    id: C10-HIS-E08
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: The mandates ___ were to be surrendered as soon as their inhabitants were ready to govern
+      themselves, and not one of them was surrendered until after a second world war.
+    rule: no_marks_needed
+    rule_span: that the League created after the First World War
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that the League created after the First World War,'
+    - — that the League created after the First World War —
+    - ', that the League created after the First World War'
+    - that the League created after the First World War
+    key: D
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that the League created after the First World War,'
+      B:
+        move: wrong_mark
+        span: — that the League created after the First World War —
+      C:
+        move: overpunctuated
+        span: ', that the League created after the First World War'
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause identifies which mandates are meant, so it is essential and takes no marks.
+    trap: A sets an essential clause inside commas, which invites the reader to skip the words that
+      say what the sentence is about.
+  - n: 459
+    id: C10-HIS-E09
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: The Supreme Court upheld the internment of Japanese Americans while the war was still
+      being fought ___ and the three dissents in that case are quoted far more often now than the
+      opinion of the Court itself, which has never been formally overruled.
+    rule: paired_parentheses
+    rule_span: (by six votes to three)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (by six votes to three
+    - (by six votes to three)
+    - (by six votes to three,
+    - — by six votes to three)
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: (by six votes to three
+      C:
+        move: mismatched_pair
+        span: (by six votes to three,
+      D:
+        move: mismatched_pair
+        span: — by six votes to three)
+    ctx:
+      marks_expected: 2
+      pair: paren
+    why: Parentheses come in twos, and a bare count of votes is exactly the kind of detail they hold.
+    trap: D opens with a dash and closes with a parenthesis, which leaves the reader with one of each.
+  - n: 460
+    id: C10-HIS-E10
+    chapter: 10
+    element: supplement
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: The penny papers sold for a cent where the established papers sold for six and recovered
+      the difference from advertisers ___ and the model outlived every one of the papers that invented
+      it by more than a century.
+    rule: paired_dashes
+    rule_span: — a reversal nobody in the trade had thought possible —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — a reversal nobody in the trade had thought possible
+    - ', a reversal nobody in the trade had thought possible —'
+    - (a reversal nobody in the trade had thought possible —
+    - — a reversal nobody in the trade had thought possible —
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: — a reversal nobody in the trade had thought possible
+      B:
+        move: mismatched_pair
+        span: ', a reversal nobody in the trade had thought possible —'
+      C:
+        move: mismatched_pair
+        span: (a reversal nobody in the trade had thought possible —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: A supplement held between dashes needs a dash at each end, and this one interrupts a sentence
+      already long enough to lose its way.
+    trap: A leaves the dash open, so the aside runs on into the clause that follows it and never ends.
+- domain: BIO
+  partno: 47
+  note_ar: جمل الأحياء وعلوم الأرض تعترضها تعريفات الأسماء العلمية وأرقام القياسات، وهذه التعريفات
+    غير لازمة في الغالب فتحتاج إلى علامتين. وبعضها لازم لتحديد النوع المقصود فلا يحتاج إلى شيء.
+  exercises:
+  - n: 461
+    id: C10-BIO-E01
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: Variation ___ is what selection acts on and is not what selection makes.
+    rule: paired_commas
+    rule_span: ', which is already present in a population,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which is already present in a population'
+    - — which is already present in a population,
+    - (which is already present in a population,
+    - ', which is already present in a population,'
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: ', which is already present in a population'
+      B:
+        move: mismatched_pair
+        span: — which is already present in a population,
+      C:
+        move: mismatched_pair
+        span: (which is already present in a population,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas carries one of the two commas at each end of itself.
+    trap: A opens the supplement and does not close it, which is the fault this whole chapter turns
+      on.
+  - n: 462
+    id: C10-BIO-E02
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: Mendel ___ counted some twenty-eight thousand pea plants over eight seasons in a walled
+      garden.
+    rule: appositive_commas
+    rule_span: ', a monk with a mathematical training,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a monk with a mathematical training'
+    - ', a monk with a mathematical training,'
+    - — a monk with a mathematical training,
+    - (a monk with a mathematical training,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', a monk with a mathematical training'
+      C:
+        move: mismatched_pair
+        span: — a monk with a mathematical training,
+      D:
+        move: mismatched_pair
+        span: (a monk with a mathematical training,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: An appositive that only renames the subject is nonessential, so commas enclose it at both
+      ends.
+    trap: C opens with a dash and closes with a comma, which is a pair of different marks.
+  - n: 463
+    id: C10-BIO-E03
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: The inner membrane of a mitochondrion ___ carries a surface many times the area of the
+      smooth outer one that encloses it.
+    rule: paired_commas
+    rule_span: ', folded over on itself many times,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', folded over on itself many times'
+    - — folded over on itself many times,
+    - ', folded over on itself many times,'
+    - (folded over on itself many times,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', folded over on itself many times'
+      B:
+        move: mismatched_pair
+        span: — folded over on itself many times,
+      D:
+        move: mismatched_pair
+        span: (folded over on itself many times,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A participial supplement takes commas at both ends, since it could be lifted out and leave
+      a sentence behind.
+    trap: B mixes a dash and a comma, and the length of the supplement is what lets it pass.
+  - n: 464
+    id: C10-BIO-E04
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: The elk ___ browsed the streamside willows almost to the ground for seventy years and
+      then stopped within a decade of the wolves returning.
+    rule: no_marks_needed
+    rule_span: that had no predator left in the valley
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that had no predator left in the valley
+    - ', that had no predator left in the valley,'
+    - ', that had no predator left in the valley'
+    - — that had no predator left in the valley —
+    key: A
+    faults:
+      B:
+        move: overpunctuated
+        span: ', that had no predator left in the valley,'
+      C:
+        move: overpunctuated
+        span: ', that had no predator left in the valley'
+      D:
+        move: wrong_mark
+        span: — that had no predator left in the valley —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which elk are meant, so it is essential and takes no marks at all.
+    trap: B encloses an essential clause in commas, which tells the reader it may be skipped when
+      it cannot.
+  - n: 465
+    id: C10-BIO-E05
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: A population that has outrun its food ___ falls below the level the habitat would have
+      supported and may take decades to come back.
+    rule: paired_dashes
+    rule_span: — and this is the part that surprises —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — and this is the part that surprises
+    - ', and this is the part that surprises —'
+    - (and this is the part that surprises —
+    - — and this is the part that surprises —
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: — and this is the part that surprises
+      B:
+        move: mismatched_pair
+        span: ', and this is the part that surprises —'
+      C:
+        move: mismatched_pair
+        span: (and this is the part that surprises —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: Dashes set a supplement off at both ends, and an aside the writer wants heard is what a dash
+      pair is for.
+    trap: A opens with a dash and never closes it, so the aside runs into the rest of the sentence.
+  - n: 466
+    id: C10-BIO-E06
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: Koch's fourth postulate ___ has never been satisfied for an organism that will not grow
+      in a pure culture, and that is most of the viruses.
+    rule: appositive_commas
+    rule_span: ', the recovery of the same organism from the second host,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the recovery of the same organism from the second host'
+    - — the recovery of the same organism from the second host,
+    - ', the recovery of the same organism from the second host,'
+    - (the recovery of the same organism from the second host,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', the recovery of the same organism from the second host'
+      B:
+        move: mismatched_pair
+        span: — the recovery of the same organism from the second host,
+      D:
+        move: mismatched_pair
+        span: (the recovery of the same organism from the second host,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive renames the postulate, so it is nonessential and is enclosed in commas at
+      both ends.
+    trap: A is open at the far end, and a supplement nine words long is where that is easiest to miss.
+  - n: 467
+    id: C10-BIO-E07
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: Nitrogen enters the soil of a legume field ___ rather than from any chemistry the plant
+      performs itself, and a field of them leaves the ground richer than it found it.
+    rule: paired_parentheses
+    rule_span: (by way of bacteria housed in root nodules)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (by way of bacteria housed in root nodules,
+    - (by way of bacteria housed in root nodules)
+    - (by way of bacteria housed in root nodules
+    - — by way of bacteria housed in root nodules)
+    key: B
+    faults:
+      A:
+        move: mismatched_pair
+        span: (by way of bacteria housed in root nodules,
+      C:
+        move: unpaired
+        span: (by way of bacteria housed in root nodules
+      D:
+        move: mismatched_pair
+        span: — by way of bacteria housed in root nodules)
+    ctx:
+      marks_expected: 2
+      pair: paren
+    why: Parentheses come in twos, and a mechanism mentioned in passing is what they hold.
+    trap: C opens a parenthesis and leaves it open, which the length of the phrase makes easy to do.
+  - n: 468
+    id: C10-BIO-E08
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: The ice ___ holds air that was last in contact with the atmosphere eight hundred thousand
+      years ago, and no other record reaches so far back directly.
+    rule: no_marks_needed
+    rule_span: at the bottom of a deep Antarctic core
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - at the bottom of a deep Antarctic core
+    - ', at the bottom of a deep Antarctic core,'
+    - ', at the bottom of a deep Antarctic core'
+    - — at the bottom of a deep Antarctic core —
+    key: A
+    faults:
+      B:
+        move: overpunctuated
+        span: ', at the bottom of a deep Antarctic core,'
+      C:
+        move: overpunctuated
+        span: ', at the bottom of a deep Antarctic core'
+      D:
+        move: wrong_mark
+        span: — at the bottom of a deep Antarctic core —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The phrase says which ice is meant, so it is essential and takes no marks.
+    trap: B puts commas round the words that identify the subject, which makes the sentence say something
+      it does not mean.
+  - n: 469
+    id: C10-BIO-E09
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: The channels cut across eastern Washington were read for fifty years as the work of a
+      slow river ___ and the boulders the water had rolled were lying in plain sight the whole time,
+      waiting for somebody willing to say what could have moved them.
+    rule: paired_dashes
+    rule_span: — a reading nobody now defends —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — a reading nobody now defends
+    - ', a reading nobody now defends —'
+    - — a reading nobody now defends —
+    - (a reading nobody now defends —
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: — a reading nobody now defends
+      B:
+        move: mismatched_pair
+        span: ', a reading nobody now defends —'
+      D:
+        move: mismatched_pair
+        span: (a reading nobody now defends —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: A supplement held between dashes needs a dash at each end, and the judgment this one carries
+      is why dashes suit it.
+    trap: B opens with a comma and closes with a dash, which is one mark of each kind doing a single
+      job.
+  - n: 470
+    id: C10-BIO-E10
+    chapter: 10
+    element: supplement
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: A tracer released into the surface of the North Atlantic in the early 1960s ___ had still
+      not reached the deepest water of the Pacific when it was looked for again twenty years later,
+      which is how the overturning time came to be measured in centuries.
+    rule: paired_commas
+    rule_span: ', in an experiment nobody had planned as one,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', in an experiment nobody had planned as one,'
+    - ', in an experiment nobody had planned as one'
+    - — in an experiment nobody had planned as one,
+    - (in an experiment nobody had planned as one,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', in an experiment nobody had planned as one'
+      C:
+        move: mismatched_pair
+        span: — in an experiment nobody had planned as one,
+      D:
+        move: mismatched_pair
+        span: (in an experiment nobody had planned as one,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes one at each end, and this one sits inside a sentence
+      that holds two other commas.
+    trap: B leaves the supplement open, so the reader cannot tell where the interruption stops and
+      the main clause starts again.
+- domain: PHY
+  partno: 48
+  note_ar: جمل العلوم الفيزيائية تعترضها الأرقام والوحدات وشروح المصطلحات، وتُستعمل فيها القوسان كثيراً
+    لأن الرقم الدقيق تفصيل لا يلزم القارئ. والشرطتان أعلى صوتاً من أن تُستعمل لرقم.
+  exercises:
+  - n: 471
+    id: C10-PHY-E01
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: Uncertainty ___ must be reported with any figure that claims to be a measurement.
+    rule: appositive_commas
+    rule_span: ', the spread of repeated readings,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the spread of repeated readings,'
+    - ', the spread of repeated readings'
+    - — the spread of repeated readings,
+    - (the spread of repeated readings,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', the spread of repeated readings'
+      C:
+        move: mismatched_pair
+        span: — the spread of repeated readings,
+      D:
+        move: mismatched_pair
+        span: (the spread of repeated readings,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A nonessential appositive is enclosed in commas, one at each end of it.
+    trap: B closes nothing, which leaves the reader unsure where the definition stops.
+  - n: 472
+    id: C10-PHY-E02
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: The two forces on a resting book ___ are equal in size and opposite in direction.
+    rule: paired_commas
+    rule_span: ', its weight and the push of the table,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', its weight and the push of the table'
+    - — its weight and the push of the table,
+    - ', its weight and the push of the table,'
+    - (its weight and the push of the table,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', its weight and the push of the table'
+      B:
+        move: mismatched_pair
+        span: — its weight and the push of the table,
+      D:
+        move: mismatched_pair
+        span: (its weight and the push of the table,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end, and this one names the pair the
+      sentence has just counted.
+    trap: A is open at the far end, which a supplement of eight words makes easy to overlook.
+  - n: 473
+    id: C10-PHY-E03
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: The joules ___ do not disappear when the spring unwinds but turn into motion and then
+      into warmth in the bearings.
+    rule: no_marks_needed
+    rule_span: that a wound clock spring holds
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that a wound clock spring holds,'
+    - ', that a wound clock spring holds'
+    - — that a wound clock spring holds —
+    - that a wound clock spring holds
+    key: D
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that a wound clock spring holds,'
+      B:
+        move: overpunctuated
+        span: ', that a wound clock spring holds'
+      C:
+        move: wrong_mark
+        span: — that a wound clock spring holds —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which joules are meant, so it is essential and takes no marks at all.
+    trap: A puts commas round the words that identify the subject, which changes what the sentence
+      claims.
+  - n: 474
+    id: C10-PHY-E04
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: A gas compressed faster than heat can leave the cylinder ___ grows warmer than it was
+      before anything was added to it.
+    rule: paired_commas
+    rule_span: ', which is what a bicycle pump does,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which is what a bicycle pump does'
+    - ', which is what a bicycle pump does,'
+    - — which is what a bicycle pump does,
+    - (which is what a bicycle pump does,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', which is what a bicycle pump does'
+      C:
+        move: mismatched_pair
+        span: — which is what a bicycle pump does,
+      D:
+        move: mismatched_pair
+        span: (which is what a bicycle pump does,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A which-clause that merely adds an example is a supplement, so it takes commas at both ends.
+    trap: C opens with a dash and closes with a comma, which is a mismatched pair however natural
+      each mark looks alone.
+  - n: 475
+    id: C10-PHY-E05
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: Three lamps wired in parallel across one battery ___ each burn at the full brightness
+      the battery can give them.
+    rule: paired_dashes
+    rule_span: — and this is the whole point —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — and this is the whole point —
+    - — and this is the whole point
+    - ', and this is the whole point —'
+    - (and this is the whole point —
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: — and this is the whole point
+      C:
+        move: mismatched_pair
+        span: ', and this is the whole point —'
+      D:
+        move: mismatched_pair
+        span: (and this is the whole point —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: A supplement between dashes needs a dash at each end, and dashes carry an aside the writer
+      means to be heard.
+    trap: B opens the pair and never closes it, so the aside swallows the clause after it.
+  - n: 476
+    id: C10-PHY-E06
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: A prism bends the short waves of light more than it bends the long ones ___ and the order
+      of the colors in the band it throws never changes from one prism to the next.
+    rule: paired_parentheses
+    rule_span: (by something under two degrees in ordinary glass)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (by something under two degrees in ordinary glass
+    - (by something under two degrees in ordinary glass,
+    - — by something under two degrees in ordinary glass)
+    - (by something under two degrees in ordinary glass)
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: (by something under two degrees in ordinary glass
+      B:
+        move: mismatched_pair
+        span: (by something under two degrees in ordinary glass,
+      C:
+        move: mismatched_pair
+        span: — by something under two degrees in ordinary glass)
+    ctx:
+      marks_expected: 2
+      pair: paren
+    why: Parentheses come in twos, and a figure as incidental as this one is exactly what they are
+      for.
+    trap: A opens the parenthesis and leaves it open, which a nine-word aside makes easy to do.
+  - n: 477
+    id: C10-PHY-E07
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: Lavoisier ___ weighed the sealed vessel before the reaction and again afterward, and
+      the idea that burning destroys matter did not survive the decade that followed.
+    rule: appositive_commas
+    rule_span: ', a tax collector as well as a chemist,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a tax collector as well as a chemist'
+    - — a tax collector as well as a chemist,
+    - ', a tax collector as well as a chemist,'
+    - (a tax collector as well as a chemist,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', a tax collector as well as a chemist'
+      B:
+        move: mismatched_pair
+        span: — a tax collector as well as a chemist,
+      D:
+        move: mismatched_pair
+        span: (a tax collector as well as a chemist,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive renames the subject and could be removed, so it is enclosed in commas at both
+      ends.
+    trap: A leaves the appositive open at the far end, and the sentence has two other commas to hide
+      behind.
+  - n: 478
+    id: C10-PHY-E08
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: The load ___ may be applied to a steel beam without end, while a load just above it will
+      open a crack after a number of cycles that can be worked out in advance.
+    rule: no_marks_needed
+    rule_span: that stays below the fatigue limit
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that stays below the fatigue limit,'
+    - that stays below the fatigue limit
+    - ', that stays below the fatigue limit'
+    - — that stays below the fatigue limit —
+    key: B
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that stays below the fatigue limit,'
+      C:
+        move: overpunctuated
+        span: ', that stays below the fatigue limit'
+      D:
+        move: wrong_mark
+        span: — that stays below the fatigue limit —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which load is meant, and the contrast that follows depends on it, so it is
+      essential and takes no marks.
+    trap: A encloses the words the whole contrast rests on, which tells the reader they can be dropped.
+  - n: 479
+    id: C10-PHY-E09
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: A radioactive nucleus has no way of recording how long it has already waited ___ and
+      the chance that it decays in the next second is therefore the same whether it formed yesterday
+      or found itself in a rock a billion years old.
+    rule: paired_dashes
+    rule_span: — no clock, no memory, nothing —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — no clock, no memory, nothing
+    - ', no clock, no memory, nothing —'
+    - (no clock, no memory, nothing —
+    - — no clock, no memory, nothing —
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: — no clock, no memory, nothing
+      B:
+        move: mismatched_pair
+        span: ', no clock, no memory, nothing —'
+      C:
+        move: mismatched_pair
+        span: (no clock, no memory, nothing —
+    ctx:
+      marks_expected: 3
+      pair: dash
+    why: Dashes set off a supplement at both ends, and they are the only pair that will work here
+      because the supplement already contains commas of its own.
+    trap: B opens with a comma, which the supplement's own commas make impossible to read as a boundary.
+  - n: 480
+    id: C10-PHY-E10
+    chapter: 10
+    element: supplement
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: A Cepheid gives away its true brightness by the time it takes to brighten and fade ___
+      and a photographic plate full of anonymous points of light therefore became a measuring rod
+      that reached clean out of the galaxy.
+    rule: paired_commas
+    rule_span: ', a relation found by measuring hundreds of plates,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a relation found by measuring hundreds of plates'
+    - ', a relation found by measuring hundreds of plates,'
+    - — a relation found by measuring hundreds of plates,
+    - (a relation found by measuring hundreds of plates,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', a relation found by measuring hundreds of plates'
+      C:
+        move: mismatched_pair
+        span: — a relation found by measuring hundreds of plates,
+      D:
+        move: mismatched_pair
+        span: (a relation found by measuring hundreds of plates,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end, which is what holds it inside a
+      sentence this long.
+    trap: A is open at the far end, and by the time the reader reaches the closing clause the opening
+      comma is forgotten.
+- domain: HUM
+  partno: 49
+  note_ar: جمل الإنسانيات تعترضها تواريخ الأعمال وأسماء المؤلّفين وأحكام الناقد على ما يصف، وهذه الأحكام
+    أنسب ما يُحاط بالشرطتين، لأنها صوت الكاتب نفسه داخل الوصف فيحسن أن يُسمع على حدة.
+  exercises:
+  - n: 481
+    id: C10-HUM-E01
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: The narrator ___ does not lie to the reader but leaves out what would damage him.
+    rule: paired_commas
+    rule_span: ', whose account is all we have,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', whose account is all we have'
+    - ', whose account is all we have,'
+    - — whose account is all we have,
+    - (whose account is all we have,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', whose account is all we have'
+      C:
+        move: mismatched_pair
+        span: — whose account is all we have,
+      D:
+        move: mismatched_pair
+        span: (whose account is all we have,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end of it.
+    trap: A opens the supplement and leaves it open, which is the fault of this chapter in its plainest
+      form.
+  - n: 482
+    id: C10-HUM-E02
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: Henry James ___ gave the technique its name and used it in most of his late novels.
+    rule: appositive_commas
+    rule_span: ', himself a critic before he was a novelist,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', himself a critic before he was a novelist'
+    - — himself a critic before he was a novelist,
+    - (himself a critic before he was a novelist,
+    - ', himself a critic before he was a novelist,'
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: ', himself a critic before he was a novelist'
+      B:
+        move: mismatched_pair
+        span: — himself a critic before he was a novelist,
+      C:
+        move: mismatched_pair
+        span: (himself a critic before he was a novelist,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A nonessential appositive is enclosed in commas, one at each end.
+    trap: B opens with a dash and closes with a comma, which is a pair made of two different marks.
+  - n: 483
+    id: C10-HUM-E03
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: A metaphor ___ stops being felt as a figure and passes into the language as a single
+      word nobody looks at twice.
+    rule: paired_commas
+    rule_span: ', used often enough and long enough,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', used often enough and long enough,'
+    - ', used often enough and long enough'
+    - — used often enough and long enough,
+    - (used often enough and long enough,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', used often enough and long enough'
+      C:
+        move: mismatched_pair
+        span: — used often enough and long enough,
+      D:
+        move: mismatched_pair
+        span: (used often enough and long enough,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A participial supplement is enclosed in commas, one at each end, since the sentence stands
+      without it.
+    trap: B closes nothing, so the reader cannot tell where the condition stops and the main verb
+      starts.
+  - n: 484
+    id: C10-HUM-E04
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: The English sonnet turns two lines later than the Italian form it was translated from
+      ___ and leaves a couplet at the end that the Italian does not have.
+    rule: paired_dashes
+    rule_span: — at the ninth line rather than the eighth —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — at the ninth line rather than the eighth
+    - ', at the ninth line rather than the eighth —'
+    - — at the ninth line rather than the eighth —
+    - (at the ninth line rather than the eighth —
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: — at the ninth line rather than the eighth
+      B:
+        move: mismatched_pair
+        span: ', at the ninth line rather than the eighth —'
+      D:
+        move: mismatched_pair
+        span: (at the ninth line rather than the eighth —
+    ctx:
+      marks_expected: 2
+      pair: dash
+    why: A supplement held between dashes needs a dash at each end of it.
+    trap: B opens with a comma and closes with a dash, which leaves the reader one of each.
+  - n: 485
+    id: C10-HUM-E05
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: The audience ___ had as much say in how an afternoon at the Globe went as the writing
+      did, and the weather had more.
+    rule: no_marks_needed
+    rule_span: that stood on three sides of the stage
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that stood on three sides of the stage,'
+    - that stood on three sides of the stage
+    - ', that stood on three sides of the stage'
+    - — that stood on three sides of the stage —
+    key: B
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that stood on three sides of the stage,'
+      C:
+        move: overpunctuated
+        span: ', that stood on three sides of the stage'
+      D:
+        move: wrong_mark
+        span: — that stood on three sides of the stage —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which part of the audience is meant, so it is essential and takes no marks
+      at all.
+    trap: A sets commas round the words that identify the subject, which offers the reader permission
+      to skip them.
+  - n: 486
+    id: C10-HUM-E06
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: The locked room ___ is the oldest promise the detective story makes, and a novel written
+      now cannot make it without also commenting on the hundred that made it before.
+    rule: appositive_commas
+    rule_span: ', a space nobody could have entered or left,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a space nobody could have entered or left,'
+    - ', a space nobody could have entered or left'
+    - — a space nobody could have entered or left,
+    - (a space nobody could have entered or left,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', a space nobody could have entered or left'
+      C:
+        move: mismatched_pair
+        span: — a space nobody could have entered or left,
+      D:
+        move: mismatched_pair
+        span: (a space nobody could have entered or left,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive explains the phrase in front of it and could be lifted out, so it is enclosed
+      in commas at both ends.
+    trap: B leaves the appositive unclosed, and the sentence runs on long enough for that to go unnoticed.
+  - n: 487
+    id: C10-HUM-E07
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: The academy ranked a history painting above every other kind of subject ___ and a landscape
+      shown there at all had to be defended as a history in disguise.
+    rule: paired_parentheses
+    rule_span: (portrait, landscape, still life, in that order)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (portrait, landscape, still life, in that order
+    - (portrait, landscape, still life, in that order,
+    - — portrait, landscape, still life, in that order)
+    - (portrait, landscape, still life, in that order)
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: (portrait, landscape, still life, in that order
+      B:
+        move: mismatched_pair
+        span: (portrait, landscape, still life, in that order,
+      C:
+        move: mismatched_pair
+        span: — portrait, landscape, still life, in that order)
+    ctx:
+      marks_expected: 4
+      pair: paren
+    why: Parentheses come in twos, and they are the only pair that will hold a list which already
+      contains commas of its own.
+    trap: B closes with a comma that the reader cannot tell apart from the three commas inside the
+      list.
+  - n: 488
+    id: C10-HUM-E08
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: No two of the surviving copies of the parts ___ agree with one another in every reading,
+      and an editor has to choose and then say in a note which choice was made.
+    rule: paired_commas
+    rule_span: ', all of them made by hand from one score,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', all of them made by hand from one score'
+    - — all of them made by hand from one score,
+    - ', all of them made by hand from one score,'
+    - (all of them made by hand from one score,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', all of them made by hand from one score'
+      B:
+        move: mismatched_pair
+        span: — all of them made by hand from one score,
+      D:
+        move: mismatched_pair
+        span: (all of them made by hand from one score,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end, and this one sits between a long
+      subject and its verb.
+    trap: A is open at the far end, which leaves the verb looking as though it belongs to the supplement.
+  - n: 489
+    id: C10-HUM-E09
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: The viaduct ___ was raised twenty feet above the shops that lined it so that traffic
+      could pass without stopping, and the city has since spent more on taking the structure down
+      than it ever spent putting it up.
+    rule: no_marks_needed
+    rule_span: that the 1948 plan proposed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - that the 1948 plan proposed
+    - ', that the 1948 plan proposed,'
+    - ', that the 1948 plan proposed'
+    - — that the 1948 plan proposed —
+    key: A
+    faults:
+      B:
+        move: overpunctuated
+        span: ', that the 1948 plan proposed,'
+      C:
+        move: overpunctuated
+        span: ', that the 1948 plan proposed'
+      D:
+        move: wrong_mark
+        span: — that the 1948 plan proposed —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which viaduct is meant and so is essential, which means no marks at all.
+    trap: B encloses the identifying clause in commas, which makes the sentence sound as though there
+      were only one viaduct in the world.
+  - n: 490
+    id: C10-HUM-E10
+    chapter: 10
+    element: supplement
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: The critics who held that a poem's meaning is settled by the words on the page ___ taught
+      two generations to read as though the author were unavailable, and the habit of asking what
+      the poet had intended outlived their argument by fifty years.
+    rule: paired_dashes
+    rule_span: — and they were arguing against a habit, not a theory —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — and they were arguing against a habit, not a theory
+    - ', and they were arguing against a habit, not a theory —'
+    - — and they were arguing against a habit, not a theory —
+    - (and they were arguing against a habit, not a theory —
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: — and they were arguing against a habit, not a theory
+      B:
+        move: mismatched_pair
+        span: ', and they were arguing against a habit, not a theory —'
+      D:
+        move: mismatched_pair
+        span: (and they were arguing against a habit, not a theory —
+    ctx:
+      marks_expected: 3
+      pair: dash
+    why: Dashes set a supplement off at both ends, and they are the pair to use when the supplement
+      carries a comma of its own.
+    trap: B opens with a comma, which the comma inside the supplement then makes impossible to read
+      as a boundary.
+- domain: SOC
+  partno: 50
+  note_ar: جمل العلوم الاجتماعية تعترضها تعريفات المقاييس وحدود العيّنة، وكثير منها لازم لتحديد المقصود
+    فلا يُحاط بعلامة. والتمييز بين اللازم وغير اللازم هو أصعب ما في الباب.
+  exercises:
+  - n: 491
+    id: C10-SOC-E01
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The wording ___ changes the answers a question gets more than the order of the options
+      does.
+    rule: appositive_commas
+    rule_span: ', not the subject matter,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', not the subject matter'
+    - — not the subject matter,
+    - ', not the subject matter,'
+    - (not the subject matter,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', not the subject matter'
+      B:
+        move: mismatched_pair
+        span: — not the subject matter,
+      D:
+        move: mismatched_pair
+        span: (not the subject matter,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A contrasting appositive is nonessential and is enclosed in commas at both ends.
+    trap: A opens the supplement and never closes it, which is the plainest fault of the chapter.
+  - n: 492
+    id: C10-SOC-E02
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: Random assignment ___ leaves two groups alike in the things nobody thought to measure.
+    rule: paired_commas
+    rule_span: ', and this is the whole of its value,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', and this is the whole of its value,'
+    - ', and this is the whole of its value'
+    - — and this is the whole of its value,
+    - (and this is the whole of its value,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', and this is the whole of its value'
+      C:
+        move: mismatched_pair
+        span: — and this is the whole of its value,
+      D:
+        move: mismatched_pair
+        span: (and this is the whole of its value,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes one at each end, and this interruption could be removed
+      without loss.
+    trap: B is open at the far end, so the main verb reads as part of the interruption.
+  - n: 493
+    id: C10-SOC-E03
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: A confounder ___ is what makes two measurements rise and fall together without either
+      one causing the other at all.
+    rule: appositive_commas
+    rule_span: ', a third variable nobody measured,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a third variable nobody measured'
+    - ', a third variable nobody measured,'
+    - — a third variable nobody measured,
+    - (a third variable nobody measured,
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: ', a third variable nobody measured'
+      C:
+        move: mismatched_pair
+        span: — a third variable nobody measured,
+      D:
+        move: mismatched_pair
+        span: (a third variable nobody measured,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive defines the word in front of it and could be removed, so it is enclosed in
+      commas.
+    trap: C opens with a dash and closes with a comma, and each mark looks right on its own.
+  - n: 494
+    id: C10-SOC-E04
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: The distributions ___ can describe populations with almost nothing in common, which is
+      why a report that gives only a mean has said very little.
+    rule: no_marks_needed
+    rule_span: that share a mean
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that share a mean,'
+    - ', that share a mean'
+    - — that share a mean —
+    - that share a mean
+    key: D
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that share a mean,'
+      B:
+        move: overpunctuated
+        span: ', that share a mean'
+      C:
+        move: wrong_mark
+        span: — that share a mean —
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which distributions are meant, so it is essential and takes no marks.
+    trap: A puts commas round the three words the sentence depends on, which says they could be left
+      out.
+  - n: 495
+    id: C10-SOC-E05
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: A dollar paid in advance ___ buys a better response rate than five dollars promised on
+      completion of the whole questionnaire.
+    rule: paired_commas
+    rule_span: ', a finding that has held for forty years,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', a finding that has held for forty years'
+    - — a finding that has held for forty years,
+    - ', a finding that has held for forty years,'
+    - (a finding that has held for forty years,
+    key: C
+    faults:
+      A:
+        move: unpaired
+        span: ', a finding that has held for forty years'
+      B:
+        move: mismatched_pair
+        span: — a finding that has held for forty years,
+      D:
+        move: mismatched_pair
+        span: (a finding that has held for forty years,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A supplement set off by commas takes a comma at each end, and this one interrupts a subject
+      and its verb.
+    trap: A closes nothing, which leaves the verb looking as though it belongs to the supplement rather
+      than to the subject.
+  - n: 496
+    id: C10-SOC-E06
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: The seven confederates in an Asch experiment gave the same wrong answer calmly and in
+      turn ___ and about a third of the subjects went along with them rather than say what they could
+      plainly see.
+    rule: paired_dashes
+    rule_span: — no argument, no pressure, nothing —
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - — no argument, no pressure, nothing
+    - — no argument, no pressure, nothing —
+    - ', no argument, no pressure, nothing —'
+    - (no argument, no pressure, nothing —
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: — no argument, no pressure, nothing
+      C:
+        move: mismatched_pair
+        span: ', no argument, no pressure, nothing —'
+      D:
+        move: mismatched_pair
+        span: (no argument, no pressure, nothing —
+    ctx:
+      marks_expected: 3
+      pair: dash
+    why: Dashes set a supplement off at both ends, and they are the only pair that will hold a phrase
+      with its own commas in it.
+    trap: C opens with a comma, which the two commas inside the supplement then make unreadable as
+      a boundary.
+  - n: 497
+    id: C10-SOC-E07
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: The streetcar line ___ gave the neighborhood a shape it kept long after the rails had
+      been pulled up and nothing about the street had been redrawn.
+    rule: paired_commas
+    rule_span: ', which ran every six minutes,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', which ran every six minutes,'
+    - ', which ran every six minutes'
+    - — which ran every six minutes,
+    - (which ran every six minutes,
+    key: A
+    faults:
+      B:
+        move: unpaired
+        span: ', which ran every six minutes'
+      C:
+        move: mismatched_pair
+        span: — which ran every six minutes,
+      D:
+        move: mismatched_pair
+        span: (which ran every six minutes,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: A which-clause that adds a detail rather than identifying the subject is a supplement, so
+      it takes commas at both ends.
+    trap: B leaves the clause open, which makes the verb that follows read as part of it.
+  - n: 498
+    id: C10-SOC-E08
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: The count of unemployment ___ understates how bad a long recession has been, and the
+      alternative measures the monthly report publishes beside it are almost never quoted.
+    rule: no_marks_needed
+    rule_span: that includes only the people still looking for work
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', that includes only the people still looking for work,'
+    - — that includes only the people still looking for work —
+    - ', that includes only the people still looking for work'
+    - that includes only the people still looking for work
+    key: D
+    faults:
+      A:
+        move: overpunctuated
+        span: ', that includes only the people still looking for work,'
+      B:
+        move: wrong_mark
+        span: — that includes only the people still looking for work —
+      C:
+        move: overpunctuated
+        span: ', that includes only the people still looking for work'
+    ctx:
+      mark_ok: []
+      marks_expected: 0
+      pair: null
+    why: The clause says which count is meant, and the whole point of the sentence depends on it,
+      so it is essential and takes no marks.
+    trap: A encloses the clause the argument rests on, which tells the reader it is an aside.
+  - n: 499
+    id: C10-SOC-E09
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: The share of income going to the richest households can be computed from tax returns
+      in some countries and only from household surveys in others ___ and the two sources disagree
+      most about exactly the households the measure was built to describe.
+    rule: paired_parentheses
+    rule_span: (the top one per cent, on the usual definition)
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - (the top one per cent, on the usual definition
+    - (the top one per cent, on the usual definition)
+    - (the top one per cent, on the usual definition,
+    - — the top one per cent, on the usual definition)
+    key: B
+    faults:
+      A:
+        move: unpaired
+        span: (the top one per cent, on the usual definition
+      C:
+        move: mismatched_pair
+        span: (the top one per cent, on the usual definition,
+      D:
+        move: mismatched_pair
+        span: — the top one per cent, on the usual definition)
+    ctx:
+      marks_expected: 3
+      pair: paren
+    why: Parentheses come in twos, and they can hold a definition that carries a comma inside it without
+      the reader losing the boundary.
+    trap: C closes with a comma, which cannot be told apart from the comma already inside the parenthesis.
+  - n: 500
+    id: C10-SOC-E10
+    chapter: 10
+    element: supplement
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: People asked how likely a rare event is do not consult any record of how often it has
+      happened ___ which is why the answer follows what the newspapers reported last week rather than
+      what the century actually contains.
+    rule: appositive_commas
+    rule_span: ', the one thing that would settle it,'
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - ', the one thing that would settle it'
+    - — the one thing that would settle it,
+    - (the one thing that would settle it,
+    - ', the one thing that would settle it,'
+    key: D
+    faults:
+      A:
+        move: unpaired
+        span: ', the one thing that would settle it'
+      B:
+        move: mismatched_pair
+        span: — the one thing that would settle it,
+      C:
+        move: mismatched_pair
+        span: (the one thing that would settle it,
+    ctx:
+      marks_expected: 2
+      pair: comma
+    why: The appositive renames what came before it and is nonessential, so it takes a comma at each
+      end.
+    trap: A leaves the appositive open, and the which-clause that follows then reads as part of it.

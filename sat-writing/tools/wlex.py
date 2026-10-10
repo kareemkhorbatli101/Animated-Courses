@@ -558,35 +558,41 @@ def run_on(span, ctx):
     return not (set(w) & CONJ) and not (set(w) & SUBORD)
 
 
+# The boundary marks, by kind. A supplement's punctuation is what stands at its
+# two ends; a mark inside it belongs to the supplement's own grammar and says
+# nothing about the pair. Counting marks anywhere in the span -- which is what
+# these two predicates did at first -- reported a mismatch on every correct
+# parenthesis that held a list, because the list's own commas were counted too.
+BOUNDARY = {',': 'comma', ';': 'semi', ':': 'colon', '(': 'paren', ')': 'paren',
+            '—': 'dash', '–': 'dash', '-': 'dash'}
+
+
+def ends(span):
+    """The kind of boundary mark at the start of the span, and at the end."""
+    s = (span or '').strip()
+    if not s:
+        return None, None
+    return BOUNDARY.get(s[0]), BOUNDARY.get(s[-1])
+
+
 def unpaired(span, ctx):
-    """One mark of a pair the supplement needs two of."""
-    pair = ctx.get('pair')
-    m = marks(span)
-    if pair == 'comma':
-        return m['comma'] == 1 and not m['dash'] and not m['open'] and not m['close']
-    if pair == 'dash':
-        return m['dash'] == 1
-    if pair == 'paren':
-        return (m['open'] + m['close']) == 1
-    return None
-
-
-def mismatched_pair(span, ctx):
-    """Opened with one mark and closed with another."""
+    """The supplement carries its mark at one end only."""
     pair = ctx.get('pair')
     if pair not in ('comma', 'dash', 'paren'):
         return None
-    m = marks(span)
-    kinds = sum(1 for k in ('comma', 'dash') if m[k]) + (1 if m['open'] or m['close'] else 0)
-    if kinds < 2:
+    a, b = ends(span)
+    return (a == pair) != (b == pair)
+
+
+def mismatched_pair(span, ctx):
+    """Opened with one kind of mark and closed with another."""
+    pair = ctx.get('pair')
+    if pair not in ('comma', 'dash', 'paren'):
+        return None
+    a, b = ends(span)
+    if a is None or b is None:
         return False
-    if pair == 'dash':
-        return m['dash'] == 1 and (m['comma'] >= 1 or m['open'] or m['close'])
-    if pair == 'paren':
-        return (m['open'] or m['close']) and (m['comma'] >= 1 or m['dash'] >= 1)
-    if pair == 'comma':
-        return m['comma'] >= 1 and (m['dash'] >= 1 or m['open'] or m['close'])
-    return None
+    return a != b
 
 
 def colon_after_fragment(span, ctx):
@@ -862,6 +868,19 @@ def _tests():
     eq(unpaired('—a geologist', dict(pair='dash')), True, 'one dash of a pair')
     eq(mismatched_pair('—a geologist,', dict(pair='dash')), True, 'dash opened, comma closed')
     eq(mismatched_pair('—a geologist—', dict(pair='dash')), False, 'a matched dash pair')
+    P = dict(pair='paren')
+    eq(mismatched_pair('(portrait, landscape, still life)', P), False,
+       'a comma inside a correct parenthesis pair is not a mismatch')
+    eq(unpaired('(portrait, landscape, still life)', P), False,
+       'nor does it make the pair unpaired')
+    eq(mismatched_pair('(portrait, landscape,', P), True,
+       'but a parenthesis closed by a comma is a mismatch')
+    eq(unpaired('(portrait, landscape', P), True,
+       'and an unclosed parenthesis is unpaired')
+    eq(mismatched_pair(', no clock, no memory, nothing —', dict(pair='dash')), True,
+       'a dash pair opened with a comma is a mismatch whatever is inside it')
+    eq(unpaired('— no clock, no memory, nothing —', dict(pair='dash')), False,
+       'and a matched dash pair with internal commas is neither fault')
     eq(colon_after_fragment(': iron, tin', dict(before_independent=False)), True,
        'a colon after a fragment')
     eq(colon_after_fragment(': iron, tin', dict(before_independent=True)), False,

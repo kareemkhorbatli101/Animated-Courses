@@ -464,7 +464,28 @@ general lever found here is worth recording: include one distractor shorter than
 key and one longer, which for an auxiliary key means a short tense-shift distractor
 such as *is* against a key of *was*.
 
-**5. The span-not-in-the-key rule is right only where the span is the only
+**5. H6 counted ties, and so measured nothing in the punctuation chapters.** The
+check asks that option length carry no information about where the key is. In a
+boundaries item the four options are the same words under four different marks:
+*; the* / *, the* / *the* / *: the*. Three of them are the same length, and only
+the unmarked one is shorter — so the key ties for longest in almost every item,
+and chapter 9 scored 74 per cent against a limit of 40. But a three-way tie tells
+a student nothing: *pick the longest* is not a move anyone can make when three
+options are the longest. H6 now counts only the **uniquely** longest and the
+**uniquely** shortest, which is what the claim was always about, and the band
+stays at eight to forty per cent. Measured that way the first ten chapters stand
+at 13.6 and 17.4 per cent. The floor still binds — a book whose key is never
+identifiably long or short would fail — so the check lost nothing but the noise.
+
+**6. The paired-punctuation predicates counted marks anywhere in the span.**
+`mismatched_pair` asked whether a comma or a dash appeared alongside a
+parenthesis, which reported a mismatch on *(portrait, landscape, still life)* —
+a correct parenthesis pair holding a list. A supplement's punctuation is what
+stands at its two ends; a mark inside it belongs to the supplement's own grammar.
+Both predicates now read the first and last characters only, which also made them
+shorter and clearer than the versions that were wrong.
+
+**7. The span-not-in-the-key rule is right only where the span is the only
 evidence.** Chapter 2's natural option set is *abolished / has abolished / had
 abolished / was abolishing* — one lexical verb under four auxiliaries. For a
 past-perfect key, the simple past is the best distractor there is, and its span is
@@ -478,7 +499,7 @@ still checked by one of the two, never by neither. The containment rule got the 
 treatment: two options differing only by auxiliaries are an inflection pair, not a
 tell, and are exempt.
 
-**6. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
+**8. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
 test suite before any exercise was written. Finiteness is carried by the first
 auxiliary of a verb phrase, so a verb standing after *to*, *having*, *been* or
 *being* is a participle however it is spelled; without that, every *-ed* word read

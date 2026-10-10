@@ -674,20 +674,25 @@ def book_checks(chapters, xs, xres):
     ban = [x['id'] for x in xs for o in x['options']
            if o.strip().lower().rstrip('.') in R['banned_option_forms']]
     ck('H5 no banned option forms', not ban, '%d bad' % len(ban))
-    longest = sum(1 for x in xs
-                  if len(x['options'][LABELS.index(x['key'])])
-                  == max(len(o) for o in x['options']))
-    shortest = sum(1 for x in xs
-                   if len(x['options'][LABELS.index(x['key'])])
-                   == min(len(o) for o in x['options']))
+    # Uniquely longest and uniquely shortest. A key that merely ties for the
+    # longest carries no information: in a punctuation item three of the four
+    # options are the same length and only the unmarked one is shorter, so
+    # "pick the longest" is not a move a student can make. Counting ties put the
+    # boundaries chapters at 74 per cent and measured nothing.
+    def extreme(x, pick):
+        ls = [len(o) for o in x['options']]
+        k = len(x['options'][LABELS.index(x['key'])])
+        return k == pick(ls) and ls.count(k) == 1
+    longest = sum(1 for x in xs if extreme(x, max))
+    shortest = sum(1 for x in xs if extreme(x, min))
     # Two-sided on purpose. A one-sided cap would be satisfied by a book in which
     # the key is NEVER the longest option, and that is a tell of its own: a student
     # who notices it gets to strike one option free on every question. The key has
     # to land at both extremes often enough that length carries no information.
     lo2, hi2 = R['key_extreme_min'], R['key_extreme_max']
-    ck('H6 option length carries no information about where the key is',
+    ck('H6 no identifiable extreme of option length locates the key',
        nx and lo2 <= longest / nx <= hi2 and lo2 <= shortest / nx <= hi2,
-       'key longest %.1f%%, shortest %.1f%%, band %.0f-%.0f%%'
+       'key uniquely longest %.1f%%, uniquely shortest %.1f%%, band %.0f-%.0f%%'
        % (100 * longest / nx, 100 * shortest / nx, 100 * lo2, 100 * hi2) if nx else '')
     mixed = [x['id'] for x in xs
              if len({o.rstrip()[-1] == '.' for o in x['options'] if o.rstrip()}) != 1]
