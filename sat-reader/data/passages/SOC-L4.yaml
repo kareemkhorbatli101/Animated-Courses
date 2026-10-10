@@ -123,7 +123,7 @@ passages:
       the two. He also pointed out, entirely correctly, that nobody could run
       the experiment that would settle the question directly.
 
-      Austin Bradford Hill answered not with a single study but with a list. The
+      Austin Bradford Hill answered not with a single study but with a list.
       Bradford Hill's considerations, meaning the features that strengthen a
       causal reading, include the size of the association, its consistency
       across populations and designs, a dose response, the right time order, a
@@ -207,7 +207,7 @@ passages:
     facts:
       - "Gould was given a median survival of eight months in 1982 and lived twenty years."
       - "Heterogeneous treatment effects can produce a small average from large opposite effects."
-      - "Modern protocols require subgroup analyzes to be registered in advance."
+      - "Modern protocols require subgroup analyses to be registered in advance."
   - id: SOC-S05-L4
     strand: S05
     title: "When Paying Makes Things Worse"
@@ -307,7 +307,7 @@ passages:
       - take: "The observed speed of change tells you which mechanism is at work."
         quote: "the observed speed of change is the evidence"
     terms:
-      - {term: "equilibrium account", gloss: "the view that a norm persists because it is in each persons interest once others follow it", glossed: true}
+      - {term: "equilibrium account", gloss: "the view that a norm persists because it is in each person's interest once others follow it", glossed: true}
       - {term: "transmission account", gloss: "the view that norms are learned in childhood and reproduced largely unexamined", glossed: true}
     facts:
       - "Driving on one side of the road is the standard example of a coordination norm."

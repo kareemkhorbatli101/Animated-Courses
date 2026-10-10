@@ -321,7 +321,7 @@ passages:
       X-radiography shows the denser pigments and the structure of the support,
       so a figure painted out fifty years later appears as a ghost. Infrared
       reflectography, meaning a method that sees through upper paint layers to
-      the drawing underneath, reveals the artist first thoughts, including
+      the drawing underneath, reveals the artist's first thoughts, including
       changes of position that were never meant to be seen. Pigment analysis
       takes a sample smaller than a full stop and identifies the materials from
       which the paint was made.
@@ -405,7 +405,7 @@ passages:
       - take: "A sketch shows what was tried, not why it was rejected."
         quote: "what was tried and not why it was rejected"
     terms:
-      - {term: "sketchbook", gloss: "a composers working notebook of fragments, trials and rejected versions", glossed: true}
+      - {term: "sketchbook", gloss: "a composer's working notebook of fragments, trials and rejected versions", glossed: true}
       - {term: "autograph score", gloss: "the full score written out in the composer's own hand", glossed: true}
     facts:
       - "About eight thousand pages of Beethoven sketches survive."
@@ -500,7 +500,7 @@ passages:
       borrowings and school curricula now make such histories quantitative. They
       have confirmed several reputational stories and demolished others,
       including some about neglect that turned out to be overstated. The record
-      of a standard arrival is also a record of what it displaced, which is the
+      of a standard's arrival is also a record of what it displaced, which is the
       part most often left out of the story.
     anchors:
       - take: "Reception history uses reviews, sales, borrowings and syllabuses."

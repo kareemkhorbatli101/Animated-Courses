@@ -14,9 +14,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SPEC = yaml.safe_load(open(os.path.join(ROOT, 'data', 'spec.yaml')))
 STRANDS = yaml.safe_load(open(os.path.join(ROOT, 'data', 'strands.yaml')))
 
+# 'analyses' and 'reanalyses' are deliberately absent. They are the plural of a noun
+# in American English exactly as in British -- two analyses -- and are only British as
+# a third-person verb, which no word list can tell apart from the noun. The
+# unambiguous verb forms (analyse, analysed, reanalyse, reanalysed) are listed.
 BRITISH_FORMS = set("""behaviour behaviours colour colours coloured honour honours honoured
 labour labours laboured labourer labourers labouring favour favours favoured favourite favourites
-digitise digitised digitises digitisation reanalyse reanalysed reanalyses moulded mould sulphur
+digitise digitised digitises digitisation reanalyse reanalysed moulded mould sulphur
 sulphide sulphate aluminium draught draughts ploughed plough cosy sceptical scepticism vapour vapours neighbour neighbours neighbourhood
 neighbourhoods harbour harbours harboured rumour rumours humour odour odours vigour
 splendour armour armoured endeavour saviour metre metres kilometre kilometres millimetre
@@ -25,7 +29,7 @@ fibre fibres sombre calibre lustre sabre organise organised organises organising
 recognise recognised recognises realise realised realises apologise apologised
 criticise criticised emphasise emphasised summarise summarised specialise specialised
 modernise modernised stabilise stabilised satirise satirised memorise memorised
-minimise minimised maximise maximised analyse analysed analyses paralyse paralysed
+minimise minimised maximise maximised analyse analysed paralyse paralysed
 defence defences offence offences pretence practise practised practising programme
 programmes whilst amongst learnt burnt spelt lorry lorries petrol kerb kerbs fortnight
 fortnights gaol aluminium sulphur sulphuric tyre tyres storey storeys moustache plough

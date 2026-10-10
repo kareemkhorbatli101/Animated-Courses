@@ -34,7 +34,7 @@ passages:
       micrograms, and nobody could say which had changed. In 2019 the definition
       was replaced. The kilogram is now fixed by assigning an exact value to a
       constant of nature and building an apparatus that realizes the unit from
-      it, A laboratory with the right equipment can therefore reproduce the
+      it. A laboratory with the right equipment can therefore reproduce the
       standard, instead of shipping a weight to Paris. Four of the seven base
       units were redefined on the same day for the same reason. The arrangement
       is less convenient and very much harder to lose.
@@ -134,7 +134,7 @@ passages:
       an accounting that follows energy and materials from extraction through
       manufacture and use to disposal. Its weakness is that the result depends
       on assumptions that are not themselves measurable: how long the product
-      lasts, what it displaces, what happens at the end. Two careful analyzes of
+      lasts, what it displaces, what happens at the end. Two careful analyses of
       the same object can differ by a factor of two for that reason, and a
       difference between them that looks negligible in the summary can turn out
       to be the whole argument once the assumptions are printed. Standards
@@ -154,7 +154,7 @@ passages:
     facts:
       - "An electric motor is about ninety-five percent efficient measured at its terminals."
       - "Measured from the power station, the same work is about forty percent efficient."
-      - "Life cycle analyzes of the same product can differ by a factor of two."
+      - "Life cycle analyses of the same product can differ by a factor of two."
   - id: PHY-S04-L3
     strand: S04
     title: "A Paddle Wheel and a Thermometer"

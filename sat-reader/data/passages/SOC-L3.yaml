@@ -114,7 +114,7 @@ passages:
     passage: |
       Where a lottery cannot be run, researchers look for one that has already
       happened by accident. A natural experiment, meaning a situation in which
-      something outside the researchers control has allocated people almost at
+      something outside the researchers' control has allocated people almost at
       random, is now the main instrument of modern social science. Three kinds
       of situation account for most of the published work, and each carries a
       characteristic weakness that a careful reader can look for before
@@ -144,13 +144,13 @@ passages:
       which the assumption failed quietly.
     anchors:
       - take: "A natural experiment uses an allocation made by something outside the researcher."
-        quote: "something outside the researchers control has allocated people almost at random"
+        quote: "something outside the researchers' control has allocated people almost at random"
       - take: "Scores either side of an arbitrary cutoff are otherwise indistinguishable."
         quote: "indistinguishable in every respect except the award"
       - take: "Each kind rests on an assumption that must be defended."
         quote: "an assumption that has to be defended rather than assumed"
     terms:
-      - {term: "natural experiment", gloss: "a situation in which something outside the researchers control has allocated people almost at random", glossed: true}
+      - {term: "natural experiment", gloss: "a situation in which something outside the researchers' control has allocated people almost at random", glossed: true}
       - {term: "regression discontinuity", gloss: "comparing cases just above and just below an arbitrary cutoff", glossed: true}
     facts:
       - "The Vietnam draft lottery assigned numbers by date of birth, allowing comparison of later earnings."
