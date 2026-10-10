@@ -91,7 +91,7 @@ chapters:
     gloss: "A pronoun matches the number of the noun it stands for, and it must be clear which noun that is."
     rules: [pro_singular, pro_plural, pro_collective, pro_indefinite_singular, pro_distributive]
     hardest: [pro_collective, pro_indefinite_singular, pro_distributive]
-    moves: [pro_number, pro_vague, person_shift, wrong_number]
+    moves: [pro_number, pro_vague, person_shift]
   4:
     element: pro_case
     title: "Pronoun case and clarity"

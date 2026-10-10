@@ -90,20 +90,35 @@ def token_run_in(span, text):
     return any(b[i:i + len(a)] == a for i in range(len(b) - len(a) + 1))
 
 
+# Auxiliaries and the infinitive marker. Two options differing only by these are
+# two inflections of one verb -- "vested" and "had vested" -- which is what a tense
+# item is made of and is not the tell the containment rule exists to catch.
+AUX_ONLY = {'is', 'are', 'am', 'was', 'were', 'be', 'been', 'being', 'have', 'has',
+            'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'can',
+            'could', 'may', 'might', 'must', 'to'}
+
+
 def token_contains(a, b):
     """True when a's tokens are a strict contiguous run of b's tokens.
 
     Substring containment is the wrong test for this book: "form" is a substring
     of "forms" and of "is forming", and three quarters of the conventions
     chapters offer exactly such sets. Whole-token containment still catches the
-    real tell -- one option being another with words added.
+    real tell -- one option being another with ordinary words added -- but exempts
+    a pair that differs only by auxiliaries, which is an inflection pair.
     """
     ta, tb = tokens(a), tokens(b)
     if not ta or len(ta) >= len(tb):
         return False
-    low = [t.lower() for t in tb]
-    la = [t.lower() for t in ta]
-    return any(low[i:i + len(la)] == la for i in range(len(low) - len(la) + 1))
+    low = [t.lower().strip(',;:.') for t in tb]
+    la = [t.lower().strip(',;:.') for t in ta]
+    for i in range(len(low) - len(la) + 1):
+        if low[i:i + len(la)] == la:
+            extra = low[:i] + low[i + len(la):]
+            if all(t in AUX_ONLY for t in extra if t):
+                continue
+            return True
+    return False
 
 
 def option_shape(opts):
@@ -285,9 +300,16 @@ def _diagnose(row, c, chapter):
         o = opts[LABELS.index(L)]
         if not token_run_in(f['span'], o):
             m.append('FIX   %s %s span %r is not a token run of %r' % (i, L, f['span'], o))
-        if token_run_in(f['span'], keyopt):
-            m.append('FIX   %s %s span %r also appears in the key %r -- the key would '
-                     'carry the same fault' % (i, L, f['span'], keyopt))
+        # The span must be absent from the key only where the span is the ONLY
+        # evidence. Where the move carries a machine predicate, that predicate is
+        # the stronger test and runs below: an "abolished" faulted as the wrong
+        # tense is a token of the key "had abolished" and yet the key is in the
+        # right tense, so a token test would reject a sound item. See PLAN.md
+        # section 7 and section 14 entry 6.
+        if f['move'] not in wlex.PREDICATES and token_run_in(f['span'], keyopt):
+            m.append('FIX   %s %s span %r also appears in the key %r, and the move '
+                     'carries no predicate to tell them apart'
+                     % (i, L, f['span'], keyopt))
         v = wlex.predict(f['move'], f['span'], ctx)
         if v is False:
             m.append('FIX   %s %s predicate for %s does not fire on %r'

@@ -254,9 +254,13 @@ The real test avoids this by building carriers where **only one option is
 grammatical at all**. Three mechanisms enforce it here.
 
 **First, the verbatim `span`.** Every distractor must quote the exact words in it
-that are wrong. The check then proves three things: the span occurs in that
-distractor; the span occurs in **no** other option, the key above all; and the move
-is from the chapter's closed set. This is a weak-looking rule that does enormous
+that are wrong. The check then proves that the span occurs in that distractor, that
+the move is from the chapter's closed set, and — **for the moves that carry no
+machine predicate** — that the span occurs in no other option, the key above all.
+Where a predicate exists it is the stronger test and supersedes the span comparison,
+because English morphology makes the crude test wrong: a distractor *abolished*
+faulted as the wrong tense is a token of the key *had abolished*, and yet the key is
+in the right tense. §14 entry 6 records how that was found. This is a weak-looking rule that does enormous
 work, because it is impossible to satisfy for an item with two defensible answers —
 if an option is defensible, there is no span to quote. Writing it out 2,250 times
 is the discipline, and it is mechanical to verify.
@@ -460,7 +464,21 @@ general lever found here is worth recording: include one distractor shorter than
 key and one longer, which for an auxiliary key means a short tense-shift distractor
 such as *is* against a key of *was*.
 
-**5. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
+**5. The span-not-in-the-key rule is right only where the span is the only
+evidence.** Chapter 2's natural option set is *abolished / has abolished / had
+abolished / was abolishing* — one lexical verb under four auxiliaries. For a
+past-perfect key, the simple past is the best distractor there is, and its span is
+necessarily a token of the key. The first version of the check rejected seven such
+items in one part. The key does not carry the fault: past simple is not past
+perfect, and the tense predicate says so. So the span-absence test now applies only
+to the moves with no predicate, where the span is all the evidence there is, and the
+predicated moves are judged by *fires on the distractor, silent on the key*, which
+is a stronger claim than token absence ever was. Every distractor in the book is
+still checked by one of the two, never by neither. The containment rule got the same
+treatment: two options differing only by auxiliaries are an inflection pair, not a
+tell, and are exempt.
+
+**6. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
 test suite before any exercise was written. Finiteness is carried by the first
 auxiliary of a verb phrase, so a verb standing after *to*, *having*, *been* or
 *being* is a participle however it is spelled; without that, every *-ed* word read

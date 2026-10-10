@@ -1,0 +1,1764 @@
+# Chapter 2 - Verb tense and aspect. Fifty exercises, five domains, ten each.
+# Written by tools/xemit.py; checked by tools/xchecks.py.
+chapter: 2
+element: verb_tense
+title: Verb tense and aspect
+home: HIS
+summary_ar:
+  qaida: 'زمن الفعل وجهته بابان متلازمان: الزمن يحدّد موضع الحدث من الماضي والحاضر، والجهة تحدّد هل
+    تمّ الحدث أم كان مستمرّاً أم كان سابقاً على حدث آخر. فالماضي البسيط لحدث منتهٍ مؤرَّخ، والماضي
+    التامّ لأسبق حدثين ماضيين، والمضارع التامّ لحدث بدأ في الماضي ولم ينته بعد، والمضارع البسيط لحقيقة
+    قائمة لا تتعلّق بوقت.'
+  kayf: يضع الاختبار في الجملة حدثين ماضيين ويطلب منك أن تحدّد الأسبق، أو يضع ظرفاً يدلّ على الامتداد
+    أو الأسبقية فيحصر الزمن حصراً لا يقبل غيره، أو يأتي بشرط غير واقعي في الماضي ويطلب جوابه.
+  fakh: 'الفخّ أن الخيارات الأربعة كلّها سليمة نحوياً لو وُضعت في جملة أخرى. فلا تسأل أيّها صحيح في
+    نفسه، بل أيّها يوافق القرينة الزمنية الموجودة في الجملة نفسها: التاريخ، أو الظرف، أو الفعل الآخر.'
+  sila: زمن الفعل باب ثابت في قسم قواعد الإنجليزية المعيارية في اختبار سات، وهو من أسهل ما يُكتسب
+    لأن القرينة مكتوبة في الجملة دائماً ولا تحتاج إلى معرفة خارجية. والقاعدة نفسها تعود في فصل التوازي
+    حيث يجب أن تتطابق الأزمنة بين المتعاطفات.
+parts:
+- domain: HIS
+  partno: 6
+  note_ar: جمل التاريخ والنظام المدني تحتوي على حدثين ماضيين أو أكثر، ومعها تواريخ صريحة وظروف تدلّ
+    على الأسبقية، وهذه أوضح قرينة زمنية في الكتاب. فالترتيب بين الحدثين هو ما يُختبر هنا، وهذا هو
+    المجال الأصلي لهذا الفصل.
+  exercises:
+  - n: 51
+    id: C02-HIS-E01
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HIS-S01
+    carrier: Jefferson ___ the first draft of the Declaration in seventeen days in June 1776.
+    rule: past_simple
+    rule_span: wrote
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - writing
+    - has written
+    - wrote
+    - was writing
+    key: C
+    faults:
+      A:
+        move: nonfinite
+        span: writing
+      B:
+        move: wrong_tense
+        span: has written
+      D:
+        move: wrong_aspect
+        span: was writing
+    ctx: {}
+    why: The action is finished and carries a date, so it takes the simple past.
+    trap: A leaves a participle where the sentence needs its only finite verb, so no clause is completed
+      at all.
+  - n: 52
+    id: C02-HIS-E02
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HIS-S02
+    carrier: Article One ___ all legislative power in a Congress of two chambers, a House and a Senate.
+    rule: present_general
+    rule_span: vests
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - vests
+    - vested
+    - had vested
+    - is vesting
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: vested
+      C:
+        move: wrong_tense
+        span: had vested
+      D:
+        move: wrong_aspect
+        span: is vesting
+    ctx: {}
+    why: A standing provision of a document still in force takes the simple present.
+    trap: B reads the clause as history, but the Constitution still vests the power, so the present
+      is right.
+  - n: 53
+    id: C02-HIS-E03
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HIS-S03
+    carrier: The Naturalization Act of 1790 ___ eligibility to free white persons of good character
+      who had lived in the country two years.
+    rule: past_simple
+    rule_span: restricted
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - restricts
+    - restricted
+    - has restricted
+    - was restricting
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: restricts
+      C:
+        move: wrong_tense
+        span: has restricted
+      D:
+        move: wrong_aspect
+        span: was restricting
+    ctx: {}
+    why: The Act is dated and its provision has since been replaced, so the simple past is right.
+    trap: C uses the present perfect, which reaches into the present and so denies that the Act was
+      superseded.
+  - n: 54
+    id: C02-HIS-E04
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HIS-S04
+    carrier: By the time Garrison founded his newspaper in 1831, Britain ___ the trade in slaves across
+      the Atlantic but had not yet touched slavery itself.
+    rule: past_perfect_sequence
+    rule_span: had abolished
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - abolished
+    - abolishes
+    - was abolishing
+    - had abolished
+    key: D
+    faults:
+      A:
+        move: wrong_aspect
+        span: abolished
+      B:
+        move: wrong_tense
+        span: abolishes
+      C:
+        move: wrong_aspect
+        span: was abolishing
+    ctx: {}
+    why: Of two past actions the earlier takes the past perfect, and the abolition of the trade came
+      first.
+    trap: A puts both actions in the simple past and loses the order the sentence depends on.
+  - n: 55
+    id: C02-HIS-E05
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HIS-S05
+    carrier: Historians ___ about the ending of Reconstruction since the 1930s, and the argument has
+      shifted direction at least twice since then.
+    rule: present_perfect_continuing
+    rule_span: have argued
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - argued
+    - argue
+    - have argued
+    - are arguing
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: argued
+      B:
+        move: wrong_tense
+        span: argue
+      D:
+        move: wrong_aspect
+        span: are arguing
+    ctx: {}
+    why: The arguing began in the past and still goes on, which is what since marks, so the present
+      perfect is right.
+    trap: A uses the simple past and so says the argument is over, which since the 1930s contradicts.
+  - n: 56
+    id: C02-HIS-E06
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HIS-S06
+    carrier: When the Triangle factory caught fire in 1911, the legislature ___ a bill that would
+      have required outward-opening doors, and the bill passed into law within the year.
+    rule: past_progressive
+    rule_span: was considering
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - considered
+    - was considering
+    - has considered
+    - considers
+    key: B
+    faults:
+      A:
+        move: wrong_aspect
+        span: considered
+      C:
+        move: wrong_tense
+        span: has considered
+      D:
+        move: wrong_tense
+        span: considers
+    ctx: {}
+    why: The action was already in progress when the fire interrupted it, so the past progressive
+      is right.
+    trap: A uses the simple past, which makes the consideration a finished event rather than one the
+      fire cut across.
+  - n: 57
+    id: C02-HIS-E07
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HIS-S07
+    carrier: By the time the Montgomery boycott ended in December 1956, the Supreme Court ___ that
+      segregation on the city's buses was unconstitutional, and the boycott's leaders had already
+      turned to other cities.
+    rule: past_perfect_sequence
+    rule_span: had ruled
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - had ruled
+    - ruled
+    - rules
+    - was ruling
+    key: A
+    faults:
+      B:
+        move: wrong_aspect
+        span: ruled
+      C:
+        move: tense_shift
+        span: rules
+      D:
+        move: wrong_aspect
+        span: was ruling
+    ctx: {}
+    why: The ruling came before the boycott ended, and of two past actions the earlier takes the past
+      perfect.
+    trap: B uses the simple past, which leaves the order of the ruling and the ending undecided.
+  - n: 58
+    id: C02-HIS-E08
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HIS-S08
+    carrier: Had the mandates been granted to the inhabitants rather than to the victorious powers,
+      the map of the Middle East ___ a different shape, and several of the borders drawn in 1920 would
+      not exist.
+    rule: conditional_sequence
+    rule_span: would have taken
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - would take
+    - took
+    - has taken
+    - would have taken
+    key: D
+    faults:
+      A:
+        move: wrong_aspect
+        span: would take
+      B:
+        move: wrong_tense
+        span: took
+      C:
+        move: wrong_tense
+        span: has taken
+    ctx:
+      tense: conditional_perfect
+    why: The condition is contrary to fact and set in past time, so the consequence takes would with
+      a perfect infinitive.
+    trap: A uses would with a plain verb, which fits a present condition but not one set in 1920.
+  - n: 59
+    id: C02-HIS-E09
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HIS-S09
+    carrier: When the Supreme Court finally considered the internment of Japanese Americans in 1944,
+      the War Relocation Authority ___ most of the camps for more than a year, and the military necessity
+      the government had claimed was no longer being asserted by anyone.
+    rule: past_perfect_sequence
+    rule_span: had been running
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - has been running
+    - had been running
+    - was running
+    - ran
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: has been running
+      C:
+        move: wrong_aspect
+        span: was running
+      D:
+        move: wrong_aspect
+        span: ran
+    ctx: {}
+    why: The running of the camps began before the Court considered the case, so the earlier action
+      takes the past perfect.
+    trap: A uses the present perfect, which would mean the camps are still being run today.
+  - n: 60
+    id: C02-HIS-E10
+    chapter: 2
+    element: verb_tense
+    domain: HIS
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HIS-S10
+    carrier: Ever since the first newspaper endorsements were counted against election returns in
+      the 1920s, researchers ___ whether an endorsement changes any votes at all, and the honest answer
+      is still that the effect, if there is one, is too small to measure reliably.
+    rule: present_perfect_continuing
+    rule_span: have been asking
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - asked
+    - ask
+    - are asking
+    - have been asking
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: asked
+      B:
+        move: wrong_tense
+        span: ask
+      C:
+        move: wrong_aspect
+        span: are asking
+    ctx: {}
+    why: The asking began in the 1920s and has not stopped, so the present perfect carries it.
+    trap: A uses the simple past, which would close a question the sentence says is still open.
+- domain: BIO
+  partno: 7
+  note_ar: 'جمل الأحياء وعلوم الأرض تخلط الحقيقة القائمة بالحدث المؤرَّخ: الانتخاب الطبيعي يعمل الآن،
+    ومندل زرع نباتاته مرّة واحدة في القرن التاسع عشر. والتمييز بين الاثنين هو أوّل ما يُطلب في هذا
+    الفصل.'
+  exercises:
+  - n: 61
+    id: C02-BIO-E01
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: BIO-S01
+    carrier: Natural selection ___ on variation that already exists in a population rather than creating
+      it.
+    rule: present_general
+    rule_span: acts
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - acted
+    - had acted
+    - acting
+    - acts
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: acted
+      B:
+        move: wrong_tense
+        span: had acted
+      C:
+        move: nonfinite
+        span: acting
+    ctx: {}
+    why: Selection works this way now and always, which is a standing truth and takes the simple present.
+    trap: C leaves a participle where the sentence needs a finite verb, so the words never become
+      a clause.
+  - n: 62
+    id: C02-BIO-E02
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: BIO-S02
+    carrier: Mendel ___ about twenty-eight thousand pea plants over eight years in the monastery garden.
+    rule: past_simple
+    rule_span: grew
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - grows
+    - grew
+    - has grown
+    - was growing
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: grows
+      C:
+        move: wrong_tense
+        span: has grown
+      D:
+        move: wrong_aspect
+        span: was growing
+    ctx: {}
+    why: The work is finished and bounded by eight named years, so the simple past is right.
+    trap: C uses the present perfect, which would have Mendel still growing peas.
+  - n: 63
+    id: C02-BIO-E03
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: BIO-S03
+    carrier: A cell ___ most of its energy from the gradient of protons across the inner mitochondrial
+      membrane, not from the splitting of glucose itself.
+    rule: present_general
+    rule_span: draws
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - drew
+    - had drawn
+    - draws
+    - is drawing
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: drew
+      B:
+        move: tense_shift
+        span: had drawn
+      D:
+        move: wrong_aspect
+        span: is drawing
+    ctx: {}
+    why: How a cell works is a standing truth, so it takes the simple present.
+    trap: A puts a permanent mechanism in the past, as though cells had since changed their chemistry.
+  - n: 64
+    id: C02-BIO-E04
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: BIO-S04
+    carrier: By the time wolves returned to Yellowstone in 1995, elk ___ the streamside willows so
+      heavily that beavers had almost vanished from the park.
+    rule: past_perfect_sequence
+    rule_span: had browsed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - had browsed
+    - browsed
+    - browse
+    - were browsing
+    key: A
+    faults:
+      B:
+        move: wrong_aspect
+        span: browsed
+      C:
+        move: wrong_tense
+        span: browse
+      D:
+        move: wrong_aspect
+        span: were browsing
+    ctx: {}
+    why: The browsing came before the wolves returned, and the earlier of two past actions takes the
+      past perfect.
+    trap: B uses the simple past, which puts the browsing and the return in no particular order.
+  - n: 65
+    id: C02-BIO-E05
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: BIO-S05
+    carrier: When the last passenger pigeon died in 1914, the species ___ for forty years, and nobody
+      had thought to count the birds while they were still common.
+    rule: past_perfect_sequence
+    rule_span: had been declining
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - has been declining
+    - declined
+    - is declining
+    - had been declining
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: has been declining
+      B:
+        move: wrong_aspect
+        span: declined
+      C:
+        move: wrong_tense
+        span: is declining
+    ctx: {}
+    why: The decline ran for forty years up to the death, so the past perfect carries it, in its continuing
+      form.
+    trap: A uses the present perfect, which would have a species extinct in 1914 still declining now.
+  - n: 66
+    id: C02-BIO-E06
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: BIO-S06
+    carrier: Since Koch set out his postulates in the 1880s, microbiologists ___ for a way to apply
+      them to organisms that cannot be grown in pure culture, and some viruses still resist the test.
+    rule: present_perfect_continuing
+    rule_span: have been looking
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - looked
+    - are looking
+    - have been looking
+    - had looked
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: looked
+      B:
+        move: wrong_aspect
+        span: are looking
+      D:
+        move: wrong_tense
+        span: had looked
+    ctx: {}
+    why: The looking began in the 1880s and has not finished, so the present perfect is right.
+    trap: A uses the simple past and so closes a search the sentence says is still open.
+  - n: 67
+    id: C02-BIO-E07
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: BIO-S07
+    carrier: When Haber and Bosch found a way to fix nitrogen industrially in 1913, European farmers
+      ___ guano shipped from Peru and nitrate mined in Chile, and both trades collapsed within a decade.
+    rule: past_progressive
+    rule_span: were using
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - used
+    - were using
+    - has been using
+    - would use
+    key: B
+    faults:
+      A:
+        move: wrong_aspect
+        span: used
+      C:
+        move: wrong_tense
+        span: has been using
+      D:
+        move: tense_shift
+        span: would use
+    ctx: {}
+    why: The practice was going on when the discovery interrupted it, so the past progressive is right.
+    trap: A uses the simple past, which makes the practice a finished episode rather than one the
+      discovery ended.
+  - n: 68
+    id: C02-BIO-E08
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: BIO-S08
+    carrier: The ice at the bottom of a deep Antarctic core ___ air that was last in contact with
+      the atmosphere eight hundred thousand years ago, which is why the record reaches so far back.
+    rule: present_general
+    rule_span: holds
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - holds
+    - held
+    - has held
+    - holding
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: held
+      C:
+        move: wrong_aspect
+        span: has held
+      D:
+        move: nonfinite
+        span: holding
+    ctx: {}
+    why: The ice holds the air now, which is a present fact about a present object, so the simple
+      present is right.
+    trap: B puts in the past something that is true of the core as it sits in the laboratory today.
+  - n: 69
+    id: C02-BIO-E09
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: BIO-S09
+    carrier: If Bretz had published his account of the Channeled Scablands a generation later, when
+      aerial photographs of the region were available and the Missoula ice dam had been mapped, the
+      reception of his argument ___ very different, and he would not have waited fifty years for the
+      discipline's highest medal.
+    rule: conditional_sequence
+    rule_span: would have been
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - would be
+    - was
+    - would have been
+    - has been
+    key: C
+    faults:
+      A:
+        move: wrong_aspect
+        span: would be
+      B:
+        move: wrong_tense
+        span: was
+      D:
+        move: wrong_tense
+        span: has been
+    ctx:
+      tense: conditional_perfect
+    why: The condition is contrary to fact and set in the past, so the consequence takes would with
+      a perfect infinitive.
+    trap: A uses would with a plain verb, which would suit a condition about the present rather than
+      one about the 1920s.
+  - n: 70
+    id: C02-BIO-E10
+    chapter: 2
+    element: verb_tense
+    domain: BIO
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: BIO-S10
+    carrier: By the time the first satellite measurements of sea ice began in 1979, the Arctic ___
+      through a warm period in the 1930s and a cool one in the 1960s, neither of which the satellite
+      record can see at all.
+    rule: past_perfect_sequence
+    rule_span: had passed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - had passed
+    - passes
+    - has passed
+    - was passing
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: passes
+      C:
+        move: wrong_tense
+        span: has passed
+      D:
+        move: wrong_aspect
+        span: was passing
+    ctx: {}
+    why: Both warm and cool periods came before the satellites began, so the earlier actions take
+      the past perfect.
+    trap: C uses the present perfect, which cannot sit under a by-the-time clause set in 1979.
+- domain: PHY
+  partno: 8
+  note_ar: جمل العلوم الفيزيائية تقرّر قوانين لا تتغيّر، فتطلب المضارع البسيط، ثمّ تروي تاريخ اكتشاف
+    تلك القوانين، فتطلب الماضي. والفخّ أن تنجرّ بالتاريخ المذكور في الجملة فتضع الماضي حيث القانون
+    ما زال قائماً.
+  exercises:
+  - n: 71
+    id: C02-PHY-E01
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: PHY-S01
+    carrier: Every measurement ___ an uncertainty, and a result reported without one is incomplete.
+    rule: present_general
+    rule_span: carries
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - carries
+    - carried
+    - had carried
+    - is carrying
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: carried
+      C:
+        move: wrong_tense
+        span: had carried
+      D:
+        move: wrong_aspect
+        span: is carrying
+    ctx: {}
+    why: This is true of every measurement ever made, so it takes the simple present.
+    trap: B puts a permanent fact about measurement into the past.
+  - n: 72
+    id: C02-PHY-E02
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: PHY-S02
+    carrier: Galileo ___ that a heavy ball and a light one fall at the same rate in a vacuum.
+    rule: past_simple
+    rule_span: argued
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - argues
+    - has argued
+    - argued
+    - was arguing
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: argues
+      B:
+        move: wrong_tense
+        span: has argued
+      D:
+        move: wrong_aspect
+        span: was arguing
+    ctx: {}
+    why: Galileo's arguing is over, so the simple past is right even though what he argued is still
+      true.
+    trap: A uses the present because the claim still holds, but the arguing was done four centuries
+      ago.
+  - n: 73
+    id: C02-PHY-E03
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: PHY-S03
+    carrier: Energy ___ neither created nor destroyed in any process yet measured, though it moves
+      and spreads and becomes harder to use.
+    rule: present_general
+    rule_span: is
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - was
+    - had been
+    - has been
+    - is
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: was
+      B:
+        move: tense_shift
+        span: had been
+      C:
+        move: wrong_aspect
+        span: has been
+    ctx: {}
+    why: A conservation law holds now, so it takes the simple present, matching moves and spreads
+      later in the sentence.
+    trap: C uses the present perfect, which makes a law sound like an accumulated result rather than
+      a standing one.
+  - n: 74
+    id: C02-PHY-E04
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: PHY-S04
+    carrier: Carnot ___ the limit on the efficiency of a heat engine in 1824, before the first law
+      of thermodynamics had been clearly stated.
+    rule: past_simple
+    rule_span: established
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - establishes
+    - established
+    - has established
+    - was establishing
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: establishes
+      C:
+        move: wrong_tense
+        span: has established
+      D:
+        move: wrong_aspect
+        span: was establishing
+    ctx: {}
+    why: A dated act by a named person is finished, so the simple past is right.
+    trap: C uses the present perfect, which cannot carry the date 1824.
+  - n: 75
+    id: C02-PHY-E05
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: PHY-S05
+    carrier: Before Volta built the first battery in 1800, experimenters ___ only with charge stored
+      briefly in jars, and no steady current had ever been produced.
+    rule: past_perfect_sequence
+    rule_span: had worked
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - had worked
+    - works
+    - were working
+    - have been working
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: works
+      C:
+        move: wrong_aspect
+        span: were working
+      D:
+        move: wrong_tense
+        span: have been working
+    ctx: {}
+    why: The jar experiments came before Volta's battery, so the earlier work takes the past perfect.
+    trap: C uses the past progressive, which says what was going on rather than what had been finished
+      by 1800.
+  - n: 76
+    id: C02-PHY-E06
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: PHY-S06
+    carrier: Physicists ___ the speed of light since the seventeenth century, and since 1983 the number
+      has been fixed by definition rather than measured, which makes the meter depend on it.
+    rule: present_perfect_continuing
+    rule_span: have been measuring
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - measured
+    - measure
+    - are measuring
+    - have been measuring
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: measured
+      B:
+        move: wrong_tense
+        span: measure
+      C:
+        move: wrong_aspect
+        span: are measuring
+    ctx: {}
+    why: The measuring runs from the seventeenth century to the present, which is what since marks,
+      so the present perfect is right.
+    trap: A uses the simple past and so detaches the work from the present that since the seventeenth
+      century reaches into.
+  - n: 77
+    id: C02-PHY-E07
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: PHY-S07
+    carrier: When Lavoisier weighed the sealed vessel before and after the reaction in 1774, most
+      chemists ___ that burning destroyed matter, and his measurement ended the idea within a decade.
+    rule: past_progressive
+    rule_span: were still holding
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - held
+    - have been holding
+    - were still holding
+    - to hold
+    key: C
+    faults:
+      A:
+        move: wrong_aspect
+        span: held
+      B:
+        move: wrong_tense
+        span: have been holding
+      D:
+        move: nonfinite
+        span: to hold
+    ctx: {}
+    why: The belief was in force at the moment the measurement cut across it, so the past progressive
+      is right.
+    trap: A uses the simple past, which does not mark the belief as the thing the experiment interrupted.
+  - n: 78
+    id: C02-PHY-E08
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: PHY-S08
+    carrier: If the designers of the Tacoma Narrows bridge had tested a model in a wind tunnel, as
+      the designers of later suspension bridges routinely did, the deck ___ the oscillation that destroyed
+      it four months after it opened.
+    rule: conditional_sequence
+    rule_span: might have survived
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - survives
+    - might have survived
+    - would survive
+    - had survived
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: survives
+      C:
+        move: wrong_aspect
+        span: would survive
+      D:
+        move: wrong_tense
+        span: had survived
+    ctx:
+      tense: conditional_perfect
+    why: The condition is contrary to fact and set in 1940, so the consequence takes would, or another
+      modal, with a perfect infinitive.
+    trap: C uses a plain conditional, which would fit a bridge not yet built rather than one that
+      fell.
+  - n: 79
+    id: C02-PHY-E09
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: PHY-S09
+    carrier: By the time Libby published the first radiocarbon dates in 1949, archaeologists ___ on
+      stylistic sequences and on the rare site where a written date survived, and a method that could
+      date a piece of charcoal directly changed the discipline within ten years.
+    rule: past_perfect_sequence
+    rule_span: had relied
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - rely
+    - have relied
+    - were relying
+    - had relied
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: rely
+      B:
+        move: wrong_tense
+        span: have relied
+      C:
+        move: wrong_aspect
+        span: were relying
+    ctx: {}
+    why: The reliance ran up to 1949 and stopped there, so the past perfect is right.
+    trap: B uses the present perfect, which would have archaeologists still without radiocarbon dating
+      today.
+  - n: 80
+    id: C02-PHY-E10
+    chapter: 2
+    element: verb_tense
+    domain: PHY
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: PHY-S10
+    carrier: A Cepheid variable ___ its period to its true brightness, which is why a star of this
+      kind, once its period is timed, gives the distance to the galaxy that holds it, and why the
+      method still carries Leavitt's name.
+    rule: present_general
+    rule_span: ties
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - tied
+    - ties
+    - has tied
+    - tying
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: tied
+      C:
+        move: wrong_aspect
+        span: has tied
+      D:
+        move: nonfinite
+        span: tying
+    ctx: {}
+    why: The relation between period and brightness holds whenever such a star is observed, so the
+      simple present is right.
+    trap: A puts in the past a relation the rest of the sentence states in the present with gives
+      and carries.
+- domain: HUM
+  partno: 9
+  note_ar: جمل الإنسانيات تتحدّث عن أعمال كُتبت في زمن بعيد وما زالت تُقرأ، فيلتقي فيها الماضي المؤرَّخ
+    بالمضارع الذي يصف العمل نفسه. وهذا الالتقاء هو مصدر الخطأ الأكثر شيوعاً في هذا الباب.
+  exercises:
+  - n: 81
+    id: C02-HUM-E01
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: HUM-S01
+    carrier: Henry James ___ the phrase central intelligence for the character through whose eyes
+      a story is seen.
+    rule: past_simple
+    rule_span: coined
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - coins
+    - coined
+    - has coined
+    - was coining
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: coins
+      C:
+        move: wrong_tense
+        span: has coined
+      D:
+        move: wrong_aspect
+        span: was coining
+    ctx: {}
+    why: The coining happened once and is over, so the simple past is right even though the phrase
+      is still used.
+    trap: A uses the present because the term survives, but the act of coining does not repeat.
+  - n: 82
+    id: C02-HUM-E02
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: HUM-S02
+    carrier: A character's stated reason for acting ___ rarely the whole of the motive a reader is
+      meant to infer.
+    rule: present_general
+    rule_span: is
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - was
+    - had been
+    - has been
+    - is
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: was
+      B:
+        move: tense_shift
+        span: had been
+      C:
+        move: wrong_aspect
+        span: has been
+    ctx: {}
+    why: This is a general claim about how fiction works, so it takes the simple present, matching
+      is meant later in the sentence.
+    trap: A puts a general truth about reading into the past, as though it had stopped being true.
+  - n: 83
+    id: C02-HUM-E03
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: HUM-S03
+    carrier: Imagism ___ in 1912 with the demand that a poem present a thing directly and drop every
+      word that did not contribute.
+    rule: past_simple
+    rule_span: began
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - began
+    - begins
+    - has begun
+    - was beginning
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: begins
+      C:
+        move: wrong_tense
+        span: has begun
+      D:
+        move: wrong_aspect
+        span: was beginning
+    ctx: {}
+    why: A movement with a date began once, so the simple past is right.
+    trap: C uses the present perfect, which cannot take the date 1912 that the sentence supplies.
+  - n: 84
+    id: C02-HUM-E04
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: HUM-S04
+    carrier: When Shakespeare wrote his sonnets in the 1590s, English poets ___ with the Italian form
+      for half a century and had already settled on a rhyme scheme of their own.
+    rule: past_perfect_sequence
+    rule_span: had been experimenting
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - experimented
+    - experiment
+    - had been experimenting
+    - have experimented
+    key: C
+    faults:
+      A:
+        move: wrong_aspect
+        span: experimented
+      B:
+        move: wrong_tense
+        span: experiment
+      D:
+        move: wrong_tense
+        span: have experimented
+    ctx: {}
+    why: The experimenting ran for fifty years up to the 1590s, so the past perfect is right, in its
+      continuing form.
+    trap: A uses the simple past, which gives no sense of a half-century already behind the sonnets.
+  - n: 85
+    id: C02-HUM-E05
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: HUM-S05
+    carrier: When the Globe burned in 1613, the company ___ a new play by Shakespeare and Fletcher,
+      and the wadding from a stage cannon set the thatch alight.
+    rule: past_progressive
+    rule_span: was performing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - performed
+    - was performing
+    - has performed
+    - performs
+    key: B
+    faults:
+      A:
+        move: wrong_aspect
+        span: performed
+      C:
+        move: wrong_tense
+        span: has performed
+      D:
+        move: tense_shift
+        span: performs
+    ctx: {}
+    why: The performance was under way when the fire began, so the past progressive is right.
+    trap: A uses the simple past, which makes the performance a completed event rather than the thing
+      in progress.
+  - n: 86
+    id: C02-HUM-E06
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: HUM-S06
+    carrier: Ever since the detective story settled into its shape in the 1890s, writers ___ against
+      the rules of the form, and a novel that breaks them still depends on the reader knowing them.
+    rule: present_perfect_continuing
+    rule_span: have pushed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - have pushed
+    - pushes
+    - push
+    - are still pushing
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: pushes
+      C:
+        move: wrong_tense
+        span: push
+      D:
+        move: wrong_aspect
+        span: are still pushing
+    ctx: {}
+    why: The pushing started in the 1890s and continues, so the present perfect is right.
+    trap: B uses the simple present, which drops the century the sentence reaches back across.
+  - n: 87
+    id: C02-HUM-E07
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: HUM-S07
+    carrier: A varnish layer that has yellowed ___ a painting's blues toward green, which is why a
+      cleaned canvas can look colder than any viewer alive has ever seen it.
+    rule: present_general
+    rule_span: turns
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - turned
+    - had turned
+    - is turning
+    - turns
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: turned
+      B:
+        move: wrong_tense
+        span: had turned
+      C:
+        move: wrong_aspect
+        span: is turning
+    ctx: {}
+    why: This is what yellowed varnish always does, a standing truth, so it takes the simple present.
+    trap: A puts in the past an effect that is on the canvas now, which is why a cleaned one looks
+      colder.
+  - n: 88
+    id: C02-HUM-E08
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: HUM-S08
+    carrier: By the time the Rite of Spring was played again in 1914, a year after the riot at its
+      premiere, the Paris audience ___ to the sound, and the piece was applauded without incident.
+    rule: past_perfect_sequence
+    rule_span: had grown accustomed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - grew accustomed
+    - grows accustomed
+    - had grown accustomed
+    - has grown accustomed
+    key: C
+    faults:
+      A:
+        move: wrong_aspect
+        span: grew accustomed
+      B:
+        move: wrong_tense
+        span: grows accustomed
+      D:
+        move: wrong_tense
+        span: has grown accustomed
+    ctx: {}
+    why: The audience changed before the second performance, so the earlier of the two past events
+      takes the past perfect.
+    trap: A uses the simple past and leaves the order of growing used to it and hearing it again unsettled.
+  - n: 89
+    id: C02-HUM-E09
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: HUM-S09
+    carrier: If the elevated expressway along the waterfront had been built as the 1948 plan proposed,
+      running for two miles between the old market and the harbor, the district that tourists now
+      walk through ___ a service road under a concrete deck.
+    rule: conditional_sequence
+    rule_span: would have become
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - would have become
+    - becomes
+    - would become
+    - had become
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: becomes
+      C:
+        move: wrong_aspect
+        span: would become
+      D:
+        move: wrong_tense
+        span: had become
+    ctx:
+      tense: conditional_perfect
+    why: The expressway was never built, so the condition is contrary to fact in past time and takes
+      would with a perfect infinitive.
+    trap: C uses a plain conditional, which would suit a plan still on the table rather than one abandoned
+      in 1948.
+  - n: 90
+    id: C02-HUM-E10
+    chapter: 2
+    element: verb_tense
+    domain: HUM
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: HUM-S10
+    carrier: By the time Wimsatt and Beardsley published their essay on the intentional fallacy in
+      1946, critics ___ for two decades about whether a poet's stated purpose settles what a poem
+      means, and the essay did not end the argument so much as name it.
+    rule: past_perfect_sequence
+    rule_span: had been arguing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - have been arguing
+    - argued
+    - had been arguing
+    - arguing
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: have been arguing
+      B:
+        move: wrong_aspect
+        span: argued
+      D:
+        move: nonfinite
+        span: arguing
+    ctx: {}
+    why: The arguing filled the twenty years before 1946, so the past perfect is right, in its continuing
+      form.
+    trap: A uses the present perfect, which would run the two decades up to today rather than up to
+      the essay.
+- domain: SOC
+  partno: 10
+  note_ar: جمل العلوم الاجتماعية تقول نتائج دراسات بدأت في الماضي ولم تنته، ومعها ظروف تدلّ على الامتداد
+    من وقت معيّن إلى الآن، وهذه القرينة تطلب المضارع التامّ لا الماضي البسيط.
+  exercises:
+  - n: 91
+    id: C02-SOC-E01
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 1
+    level: 1
+    difficulty: easy
+    strand: SOC-S01
+    carrier: The order in which the choices appear ___ which one a respondent picks.
+    rule: present_general
+    rule_span: affects
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - affected
+    - had affected
+    - affects
+    - is affecting
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: affected
+      B:
+        move: wrong_tense
+        span: had affected
+      D:
+        move: wrong_aspect
+        span: is affecting
+    ctx: {}
+    why: This is a finding about how surveys work in general, so it takes the simple present.
+    trap: A puts a standing property of questionnaires into the past.
+  - n: 92
+    id: C02-SOC-E02
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 2
+    level: 1
+    difficulty: easy
+    strand: SOC-S02
+    carrier: Fisher ___ the drawing of lots into agricultural experiments at Rothamsted in the 1920s.
+    rule: past_simple
+    rule_span: introduced
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - introduced
+    - introduces
+    - has introduced
+    - was introducing
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: introduces
+      C:
+        move: wrong_tense
+        span: has introduced
+      D:
+        move: wrong_aspect
+        span: was introducing
+    ctx: {}
+    why: Fisher did this once, at a named place in a named decade, so the simple past is right.
+    trap: C uses the present perfect, which cannot carry a decade as specific as the 1920s.
+  - n: 93
+    id: C02-SOC-E03
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 3
+    level: 2
+    difficulty: easy
+    strand: SOC-S03
+    carrier: A correlation between two measurements ___ nothing about which of them, if either, causes
+      the other, and a third variable may cause both.
+    rule: present_general
+    rule_span: settles
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - settled
+    - settles
+    - has settled
+    - settling
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: settled
+      C:
+        move: wrong_aspect
+        span: has settled
+      D:
+        move: nonfinite
+        span: settling
+    ctx: {}
+    why: This is a permanent limitation of correlation, so it takes the simple present, matching may
+      later in the sentence.
+    trap: D leaves a participle where the clause needs a finite verb, so nothing is asserted at all.
+  - n: 94
+    id: C02-SOC-E04
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 4
+    level: 2
+    difficulty: medium
+    strand: SOC-S04
+    carrier: When the Census Bureau adopted the current unemployment measure in 1940, statisticians
+      ___ for twenty years about who should count as looking for work.
+    rule: past_perfect_sequence
+    rule_span: had disagreed
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - disagree
+    - have disagreed
+    - were disagreeing
+    - had disagreed
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: disagree
+      B:
+        move: wrong_tense
+        span: have disagreed
+      C:
+        move: wrong_aspect
+        span: were disagreeing
+    ctx: {}
+    why: The twenty years of disagreement ran up to 1940, so the past perfect is right.
+    trap: B uses the present perfect, which would run the disagreement up to today instead of up to
+      the adoption.
+  - n: 95
+    id: C02-SOC-E05
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 5
+    level: 2
+    difficulty: medium
+    strand: SOC-S05
+    carrier: Economists ___ small cash incentives in survey research since the 1970s, and the finding
+      that a dollar in advance beats five on completion has held up repeatedly.
+    rule: present_perfect_continuing
+    rule_span: have been testing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - tested
+    - test
+    - have been testing
+    - are testing
+    key: C
+    faults:
+      A:
+        move: wrong_tense
+        span: tested
+      B:
+        move: wrong_tense
+        span: test
+      D:
+        move: wrong_aspect
+        span: are testing
+    ctx: {}
+    why: The testing began in the 1970s and continues, which is what since marks, so the present perfect
+      is right.
+    trap: A uses the simple past and so detaches the work from the present that has held up reaches
+      into.
+  - n: 96
+    id: C02-SOC-E06
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 6
+    level: 3
+    difficulty: medium
+    strand: SOC-S06
+    carrier: When Asch ran his line-judging experiments in the early 1950s, American social psychologists
+      ___ mainly about why people had obeyed orders in wartime, and conformity looked like the same
+      question in a smaller room.
+    rule: past_progressive
+    rule_span: were arguing
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - argued
+    - were arguing
+    - have been arguing
+    - argue
+    key: B
+    faults:
+      A:
+        move: wrong_aspect
+        span: argued
+      C:
+        move: wrong_tense
+        span: have been arguing
+      D:
+        move: tense_shift
+        span: argue
+    ctx: {}
+    why: The discipline's preoccupation was in force while Asch worked, so the past progressive is
+      right.
+    trap: A uses the simple past, which makes the preoccupation a finished episode rather than the
+      climate Asch worked in.
+  - n: 97
+    id: C02-SOC-E07
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 7
+    level: 3
+    difficulty: medium
+    strand: SOC-S07
+    carrier: A city ___ its shape from the cost of moving people across it, which is why the streetcar
+      left a different pattern behind than the automobile did.
+    rule: present_general
+    rule_span: takes
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - takes
+    - took
+    - has taken
+    - was taking
+    key: A
+    faults:
+      B:
+        move: wrong_tense
+        span: took
+      C:
+        move: wrong_aspect
+        span: has taken
+      D:
+        move: wrong_tense
+        span: was taking
+    ctx: {}
+    why: This is a general principle about cities, so it takes the simple present even though the
+      examples are historical.
+    trap: B is pulled into the past by streetcar and automobile, but the principle holds for cities
+      being built now.
+  - n: 98
+    id: C02-SOC-E08
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 8
+    level: 3
+    difficulty: hard
+    strand: SOC-S08
+    carrier: If the monthly household survey had been designed to follow the same families for a decade
+      rather than to sample fresh households each month, the question of how long a spell of unemployment
+      lasts ___ far easier to answer.
+    rule: conditional_sequence
+    rule_span: would have been
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - is
+    - would be
+    - had been
+    - would have been
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: is
+      B:
+        move: wrong_aspect
+        span: would be
+      C:
+        move: wrong_tense
+        span: had been
+    ctx:
+      tense: conditional_perfect
+    why: The survey was designed the other way long ago, so the condition is contrary to fact in past
+      time and takes would with a perfect infinitive.
+    trap: B uses a plain conditional, which would fit a survey still being designed.
+  - n: 99
+    id: C02-SOC-E09
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 9
+    level: 4
+    difficulty: hard
+    strand: SOC-S09
+    carrier: By the time Kuznets presented the first American income distributions to Congress in
+      the 1930s, European statisticians ___ comparable tables from tax records for a generation, and
+      the two kinds of source still do not agree about the top of the distribution.
+    rule: past_perfect_sequence
+    rule_span: had been building
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - have been building
+    - had been building
+    - built
+    - build
+    key: B
+    faults:
+      A:
+        move: wrong_tense
+        span: have been building
+      C:
+        move: wrong_aspect
+        span: built
+      D:
+        move: wrong_tense
+        span: build
+    ctx: {}
+    why: The European tables came first and ran for a generation, so the past perfect is right, in
+      its continuing form.
+    trap: A uses the present perfect, which would make the generation of work run up to now rather
+      than up to Kuznets.
+  - n: 100
+    id: C02-SOC-E10
+    chapter: 2
+    element: verb_tense
+    domain: SOC
+    pos: 10
+    level: 4
+    difficulty: hard
+    strand: SOC-S10
+    carrier: Since Tversky and Kahneman published their first papers on heuristics in the early 1970s,
+      psychologists ___ the list of systematic departures from what a calculating agent would do,
+      and the list is now long enough that its length has itself become an objection.
+    rule: present_perfect_continuing
+    rule_span: have been extending
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    options:
+    - extended
+    - extend
+    - are extending
+    - have been extending
+    key: D
+    faults:
+      A:
+        move: wrong_tense
+        span: extended
+      B:
+        move: wrong_tense
+        span: extend
+      C:
+        move: wrong_aspect
+        span: are extending
+    ctx: {}
+    why: The extending began in the 1970s and is still going on, so the present perfect is right.
+    trap: A uses the simple past, which would close a program the sentence says is still producing
+      entries.

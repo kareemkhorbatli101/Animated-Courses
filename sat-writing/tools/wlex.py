@@ -117,16 +117,34 @@ PARTICIPLES = {v[1] for v in IRREGULAR.values()}
 # A bare past participle that is spelled like the past tense is ambiguous, so the
 # classifier only uses participle-hood after an auxiliary that demands one.
 
-TENSES = ('past_simple', 'past_perfect', 'present_perfect', 'past_progressive',
-          'present_progressive', 'present', 'future', 'conditional',
-          'conditional_perfect', 'future_perfect')
+TENSES = ('past_simple', 'past_perfect', 'past_perfect_progressive', 'present_perfect',
+          'present_perfect_progressive', 'past_progressive', 'present_progressive',
+          'present', 'future', 'future_perfect', 'conditional', 'conditional_perfect')
+# What each rule will accept, as a set. Sets rather than single values because two
+# of these rules are genuinely satisfied by more than one form: a continuing action
+# takes the present perfect or the present perfect progressive, both correct and
+# both printed by the test, and the consequence of an unreal condition takes a plain
+# conditional after a present condition and a conditional perfect after a past one.
+# An exercise may override the rule's set with ctx['tense'] when its carrier settles
+# which form is the only right one.
 RULE_TENSE = {
-    'past_simple': 'past_simple',
-    'past_perfect_sequence': 'past_perfect',
-    'present_perfect_continuing': 'present_perfect',
-    'present_general': 'present',
-    'past_progressive': 'past_progressive',
-    'conditional_sequence': 'conditional',
+    'past_simple': {'past_simple'},
+    'past_perfect_sequence': {'past_perfect', 'past_perfect_progressive'},
+    'present_perfect_continuing': {'present_perfect', 'present_perfect_progressive'},
+    'present_general': {'present'},
+    'past_progressive': {'past_progressive'},
+    'conditional_sequence': {'conditional', 'conditional_perfect'},
+}
+# The time a tense places its action in, for telling a wrong aspect from a wrong
+# tense. Two forms sharing a time and differing in aspect is a wrong aspect; two
+# forms in different times is a wrong tense.
+TIME = {
+    'past_simple': 'past', 'past_perfect': 'past', 'past_perfect_progressive': 'past',
+    'past_progressive': 'past',
+    'present': 'present', 'present_progressive': 'present',
+    'present_perfect': 'present', 'present_perfect_progressive': 'present',
+    'future': 'future', 'future_perfect': 'future',
+    'conditional': 'conditional', 'conditional_perfect': 'conditional',
 }
 
 
@@ -135,20 +153,28 @@ def tense_of(span):
     w = [x.lower() for x in words(span)]
     if not w:
         return None
+    # Skip an adverb sitting between the auxiliary and the verb -- "has never been
+    # supported", "would certainly have taken" -- so that it does not shift the
+    # whole phrase out of recognition.
+    w = [t for t in w if not (t.endswith('ly') or t in ('never', 'not', 'already',
+                                                        'still', 'always', 'just',
+                                                        'ever', 'then', 'now'))] or w
     a, rest = w[0], w[1:]
     nxt = rest[0] if rest else ''
-    ing = nxt.endswith('ing')
+    ing2 = len(rest) > 1 and rest[1].endswith('ing')
     if a == 'had':
-        return 'past_perfect' if rest else None
+        if not rest:
+            return None
+        return 'past_perfect_progressive' if (nxt == 'been' and ing2) else 'past_perfect'
     if a in ('has', 'have'):
-        if nxt == 'been':
-            return 'present_progressive' if len(rest) > 1 and rest[1].endswith('ing') \
-                else 'present_perfect'
-        return 'present_perfect' if rest else None
+        if not rest:
+            return None
+        return 'present_perfect_progressive' if (nxt == 'been' and ing2) \
+            else 'present_perfect'
     if a in ('was', 'were'):
-        return 'past_progressive' if ing else 'past_simple'
+        return 'past_progressive' if nxt.endswith('ing') else 'past_simple'
     if a in ('is', 'are', 'am'):
-        return 'present_progressive' if ing else 'present'
+        return 'present_progressive' if nxt.endswith('ing') else 'present'
     if a == 'will':
         return 'future_perfect' if nxt == 'have' else 'future'
     if a in ('would', 'could', 'should', 'might'):
@@ -159,9 +185,7 @@ def tense_of(span):
         t = w[0]
         if t in PAST_FORMS or (t.endswith('ed') and t not in NOT_VERB_S):
             return 'past_simple'
-        if t.endswith('ing'):
-            return None
-        if t in NOT_VERB_S:
+        if t.endswith('ing') or t in NOT_VERB_S:
             return None
         if t.endswith('s') and not t.endswith('ss') and not t.endswith('us'):
             return 'present'
@@ -169,30 +193,37 @@ def tense_of(span):
     return None
 
 
-def wrong_tense(span, rule):
-    """The span's tense is not the one the rule names."""
-    want = RULE_TENSE.get(rule)
+def _want_tense(ctx):
+    w = ctx.get('tense')
+    if w:
+        return {w} if isinstance(w, str) else set(w)
+    return RULE_TENSE.get(ctx.get('rule'))
+
+
+def wrong_tense(span, ctx):
+    """The span's tense is not one the rule, or the exercise, will accept."""
+    want = _want_tense(ctx)
     got = tense_of(span)
-    if want is None or got is None:
+    if not want or got is None:
         return None
-    return got != want
+    return got not in want
 
 
-def wrong_aspect(span, rule):
+def wrong_aspect(span, ctx):
     """Right time, wrong aspect: a progressive or a perfect where a simple is due."""
-    want = RULE_TENSE.get(rule)
+    want = _want_tense(ctx)
     got = tense_of(span)
-    if want is None or got is None or got == want:
-        return None if got is None or want is None else False
-    simple = {'past_simple': 'past', 'present': 'present', 'past_perfect': 'past',
-              'present_perfect': 'present', 'past_progressive': 'past',
-              'present_progressive': 'present'}
-    if want in simple and got in simple and simple[want] == simple[got]:
+    if not want or got is None:
+        return None
+    if got in want:
+        return False
+    times = {TIME.get(t) for t in want}
+    if TIME.get(got) in times and TIME.get(got) is not None:
         return True
     return None
 
 
-def nonfinite(span, rule=None):
+def nonfinite(span, ctx=None):
     """The span supplies no finite verb at all."""
     return not has_finite(span)
 
@@ -261,6 +292,10 @@ PRO = {
     'they': ('plur', 'subject'), 'them': ('plur', 'object'), 'their': ('plur', 'poss'),
     'theirs': ('plur', 'poss'), 'themselves': ('plur', 'reflex'),
     'who': (None, 'subject'), 'whom': (None, 'object'), 'whose': (None, 'poss'),
+    # Demonstratives carry number as plainly as the personal pronouns. 'that' is
+    # deliberately absent: it is also a relativizer and a conjunction, and a span
+    # that merely contains the word would be misread as a singular demonstrative.
+    'this': ('sing', 'det'), 'these': ('plur', 'det'), 'those': ('plur', 'det'),
 }
 RULE_CASE = {'subject_case': 'subject', 'object_case': 'object',
              'possessive_det': 'poss', 'who_subject': 'subject',
@@ -515,10 +550,10 @@ mixed_form = faulty_parallel
 PREDICATES = {
     'wrong_number':      ('number', wrong_number),
     'agree_with_nearest': ('number', wrong_number),
-    'wrong_tense':       ('rule', wrong_tense),
-    'tense_shift':       ('rule', wrong_tense),
-    'wrong_aspect':      ('rule', wrong_aspect),
-    'nonfinite':         ('rule', nonfinite),
+    'wrong_tense':       ('ctx', wrong_tense),
+    'tense_shift':       ('ctx', wrong_tense),
+    'wrong_aspect':      ('ctx', wrong_aspect),
+    'nonfinite':         ('ctx', nonfinite),
     'pro_number':        ('number', pro_number),
     'pro_case':          ('rule', pro_case),
     'who_whom':          ('rule', who_whom),
@@ -600,14 +635,35 @@ def _tests():
     eq(tense_of('would survey'), 'conditional', 'tense_of would survey')
     eq(tense_of('wrote'), 'past_simple', 'an irregular past is recognised')
     eq(tense_of('written'), None, 'a bare participle is left unclassified')
-    eq(wrong_tense('surveyed', 'past_perfect_sequence'), True,
+    eq(tense_of('have been asking'), 'present_perfect_progressive',
+       'a present perfect progressive is not a present progressive')
+    eq(tense_of('had been running'), 'past_perfect_progressive', 'tense_of had been running')
+    eq(tense_of('would have taken'), 'conditional_perfect', 'tense_of would have taken')
+    eq(tense_of('has never been supported'), 'present_perfect',
+       'an adverb between auxiliary and verb does not hide the tense')
+    R = lambda r: dict(rule=r)
+    eq(wrong_tense('surveyed', R('past_perfect_sequence')), True,
        'a simple past where the sequence needs a past perfect')
-    eq(wrong_tense('had surveyed', 'past_perfect_sequence'), False,
+    eq(wrong_tense('had surveyed', R('past_perfect_sequence')), False,
        'the past perfect the rule asks for')
-    eq(wrong_tense('surveyed', 'nonsuch_rule'), None, 'an unknown rule gives no verdict')
-    eq(wrong_aspect('was surveying', 'past_simple'), True,
+    eq(wrong_tense('had been surveying', R('past_perfect_sequence')), False,
+       'the past perfect progressive the same rule also accepts')
+    eq(wrong_tense('have been asking', R('present_perfect_continuing')), False,
+       'the present perfect progressive a continuing action may take')
+    eq(wrong_tense('would have taken', R('conditional_sequence')), False,
+       'a conditional perfect after a past unreal condition')
+    eq(wrong_tense('would take', dict(rule='conditional_sequence',
+                                      tense='conditional_perfect')), True,
+       'the exercise may narrow the rule to the one form its carrier allows')
+    eq(wrong_tense('surveyed', R('nonsuch_rule')), None, 'an unknown rule gives no verdict')
+    eq(wrong_aspect('was surveying', R('past_simple')), True,
        'a past progressive where a simple past is due')
-    eq(wrong_aspect('surveyed', 'past_simple'), False, 'the aspect the rule asks for')
+    eq(wrong_aspect('surveyed', R('past_simple')), False, 'the aspect the rule asks for')
+    eq(wrong_aspect('would take', dict(rule='conditional_sequence',
+                                       tense='conditional_perfect')), True,
+       'a plain conditional where a conditional perfect is due')
+    eq(wrong_aspect('has surveyed', R('past_perfect_sequence')), None,
+       'a different time is a wrong tense, not a wrong aspect')
 
     # finiteness
     eq(has_finite('had collapsed'), True, 'had is finite')
@@ -622,6 +678,9 @@ def _tests():
     eq(pro_number('its', 'sing'), False, 'its for a singular antecedent')
     eq(pro_number('its', 'plur'), True, 'its for a plural antecedent')
     eq(pro_number('her', 'plur'), True, 'her for a plural antecedent: number is not ambiguous')
+    eq(pro_number('these', 'sing'), True, 'a plural demonstrative for a singular antecedent')
+    eq(pro_number('this', 'plur'), True, 'a singular demonstrative for a plural antecedent')
+    eq(_pro('that the committee'), None, 'the relativizer that is never read as a pronoun')
     eq(pro_case('her', 'object_case'), None, 'her is case-ambiguous, so case is left alone')
     eq(has_finite('to have collapsed'), False, 'an infinitive perfect is not finite')
     eq(has_finite('has collapsed'), True, 'a perfect with a finite auxiliary is finite')

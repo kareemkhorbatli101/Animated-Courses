@@ -232,8 +232,9 @@ def x7_uniqueness(x):
         spans.append(sp)
         if not xemit.token_run_in(sp, o):
             bad.append('%s span %r not in its own option' % (L, sp))
-        if xemit.token_run_in(sp, keyopt):
-            bad.append('%s span %r also in the key' % (L, sp))
+        if v['move'] not in wlex.PREDICATES and xemit.token_run_in(sp, keyopt):
+            bad.append('%s span %r also in the key, with no predicate to separate them'
+                       % (L, sp))
         got = wlex.predict(v['move'], sp, ctx)
         if got is False:
             bad.append('%s predicate %s silent on %r' % (L, v['move'], sp))
@@ -541,8 +542,9 @@ def book_checks(chapters, xs, xres):
 
     # --- F. uniqueness of correctness -------------------------------------
     inkey = [x['id'] for x, _, v in allf
-             if xemit.token_run_in(v['span'], x['options'][LABELS.index(x['key'])])]
-    ck('F1 no fault span appears anywhere inside its exercise key', not inkey,
+             if v['move'] not in wlex.PREDICATES
+             and xemit.token_run_in(v['span'], x['options'][LABELS.index(x['key'])])]
+    ck('F1 no span that is a fault only evidence appears inside its key', not inkey,
        '%d spans in a key' % len(inkey))
     notown = [x['id'] for x, L, v in allf
               if not xemit.token_run_in(v['span'], x['options'][LABELS.index(L)])]
