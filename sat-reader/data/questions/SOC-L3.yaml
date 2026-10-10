@@ -1,0 +1,2094 @@
+# Social Science level 3 - ten SAT-style questions and an Arabic summary per passage.
+# Written by tools/qemit.py; checked by tools/qchecks.py.
+field: SOC
+level: 3
+sets:
+- id: SOC-S01-L3
+  summary_ar:
+    khulasa: 'المسح الجادّ يُبنى على أربع مراحل، ومن عرف المراحل قدر على الحكم في النتيجة. أولاها
+      الإطار: فالمعاينة بالعناوين تبدأ من قائمة عناوين سكنية تغطّي كلّ بيت تقريبًا، وتُرسَل رسائل
+      تدعو الناس إلى الإجابة على الشبكة أو بالهاتف.'
+    maana: المعنى أنّ المرحلة الثانية الاختيار، والغاية عيّنة احتمالية، أي عيّنة لكلّ فرد من السكّان
+      فيها احتمال معلوم أن يُختار، وذلك الاحتمال المعلوم هو ما يُجيز الحساب بعدها. والثالثة الترجيح
+      لتطابق العيّنة نسب السكّان المعروفة.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: الترجيح هو موضع دخول الاجتهاد،
+      لأنّ على القائم بالمسح أن يقرّر أيّ الخصائص يهمّ، وقد ظهر أنّ التعليم يهمّ أكثر كثيرًا بعد سنة
+      ألفين وستّ عشرة ممّا افترضت أكثر الشركات.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب هامش الخطأ شاملًا لعدم الاستجابة والصياغة، مع أنّ النصّ ينفي ذلك.
+      ويقترن المقطع بالمقطع الحادي والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Address-based sampling covers almost every household
+    - The reported margin describes only two of the four stages
+    - A margin of error allows for nonresponse and wording
+    - Firms that decline to join an association are wrong
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text sets out four stages and says the reported margin describes only the first two,
+      making no allowance for the frame, the nonresponse or the wording.
+    trap: C credits the margin with coverage the text denies it.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is a probability sample?
+    options:
+    - One drawn from a list of addresses
+    - One adjusted to match population proportions
+    - One in which education is weighted heavily
+    - One in which every chance of selection is known
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: imported
+    why: The text says the aim of the second stage is a probability sample, meaning one in which every
+      member of the population has a known chance of being chosen.
+    trap: B gives the third stage, weighting, rather than the second.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that judgment enters the
+      process at one identifiable stage?
+    claim: judgment enters the process at one identifiable stage
+    options:
+    - «Weighting is where judgment enters, because the pollster must decide which characteristics
+      matter, and education turned out to matter a great deal more after 2016»
+    - «Telephone sampling generates numbers at random, including unlisted ones»
+    - «the aim is a probability sample, meaning one in which every member of the population has a
+      known chance of being chosen»
+    - «Several national polling associations now require that disclosure as a condition of membership»
+    key: A
+    moves:
+      B: true_not_asked
+      C: near_miss
+      D: true_not_asked
+    why: The quotation names weighting as the place judgment enters and gives the characteristic whose
+      weight firms had underrated.
+    trap: C describes what the known chance licenses rather than where judgment is exercised.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A margin of error of three points on a thousand interviews is a statement about sampling
+      variation under the assumption that the frame is right and the weights are right. A poll whose
+      frame missed a group would therefore ___
+    options:
+    - report a larger margin of error
+    - have weighted for past vote
+    - be wrong by more than its margin
+    - need a probability sample as well
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: near_miss
+    why: The margin is said to assume a right frame, so a frame that misses people leaves an error
+      the reported figure does not count.
+    trap: A expects the margin to grow when the text says it takes no account of the fault.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «methodical» most nearly mean?
+    target: methodical
+    options:
+    - slow and plodding
+    - open about its procedure
+    - confident in its figures
+    - modern in its equipment
+    key: B
+    moves:
+      A: near_miss
+      C: wrong_direction
+      D: imported
+    why: A methodical firm is said to publish all four stages and its weighting targets, so the word
+      names a practice carried out and disclosed in order.
+    trap: C gives the quality the text sets against carefulness.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about education after 2016?
+    options:
+    - It shows a judgment that turned out to matter
+    - It defines a probability sample for a reader
+    - It reports what the fourth stage describes
+    - It argues that weighting should be abandoned
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The remark follows the statement that the pollster must decide which characteristics matter
+      and names one whose weight firms had got wrong.
+    trap: D discards a stage the text treats as necessary.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 calls weighting the place where judgment enters. Based on Text 2, which choice best
+      states the limit on what weighting can do?
+    sibling: SOC-S01-L2
+    sibling_gloss: Text 2 is passage 91 of this book. It separates the sampling frame, nonresponse
+      and the instrument as three ways a survey fails, and says weighting works only for characteristics
+      that are known and measured.
+    options:
+    - It cannot reach a frame that excludes a third of the country
+    - It cannot raise a response rate that has fallen
+    - It cannot be published alongside the figures
+    - It works only for characteristics already measured
+    key: D
+    moves:
+      A: near_miss
+      B: near_miss
+      C: imported
+    why: Text 2 says statisticians correct for nonresponse by weighting and that weighting works only
+      for characteristics that are known and measured.
+    trap: A names a different failure that weighting is not addressed to.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The fourth stage is the reported margin, and it describes only the first two stages.
+      ___ it makes no allowance for a frame that misses people.
+    options:
+    - By contrast,
+    - Even so,
+    - In particular,
+    - For all that,
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: near_miss
+    why: The second sentence spells out what the margin leaves out, so the transition must mark a
+      specification of the claim before it.
+    trap: B sets the omission against the claim it details.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A serious poll is built in four stages ___ and a reader who knows the stages can judge
+      the result.
+    options:
+    - stages, and
+    - stages and
+    - stages; and
+    - stages and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the reader judging the result is independent, so the conjunction joining
+      it to the clause about the four stages takes a comma.
+    trap: B runs the clause about the stages straight into the clause about the reader.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain how a careful poll can be told from a confident one. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain how a careful poll can be told from a confident one
+    notes:
+    - A methodical firm publishes all four stages and its weighting targets.
+    - The reported margin describes only the first two stages.
+    - Several associations require that disclosure for membership.
+    - Firms that decline to join are harder to check.
+    options:
+    - A methodical firm publishes all four of its stages
+    - Several associations require that disclosure for membership
+    - Only a firm that publishes its stages and weights can be checked at all
+    - The reported margin describes only the first two stages
+    key: C
+    moves:
+      A: underreach
+      B: true_not_asked
+      D: underreach
+    why: Only this choice ties the disclosure of the stages and the weights to the possibility of
+      checking a poll, which is what the notes together give.
+    trap: B names the rule without saying what the disclosure buys a reader.
+- id: SOC-S02-L3
+  summary_ar:
+    khulasa: 'سنة ألفين وثمانٍ كان عند ولاية أوريغون مال يمدّ التغطية الصحّية إلى نحو عشرة آلاف بالغ،
+      وتقدّم نحو تسعين ألفًا. فوزّعت الولاية الأماكن بالقرعة، فصنعت من غير قصد أنظف مقارنة متاحة:
+      مجموعتان كبيرتان متماثلتان في كلّ شيء إلّا التغطية.'
+    maana: المعنى أنّ من نال التغطية استعمل رعاية أكثر، وقلّ احتمال مواجهته فواتير طبّية ساحقة، وأبلغ
+      عن صحّة نفسية أفضل. أمّا ضغط الدم والكولسترول المقيسان بعد سنتين فلم يظهر فيهما فرق معتبر إحصائيًّا،
+      وهو أكثر أجزاء الدراسة جدالًا.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: ودراسة بيري للحضانة أقدم وأصغر:
+      في الستّينيّات وُزّع مئة وثلاثة وعشرون طفلًا فقيرًا في إبسيلانتي بميشيغان بالقرعة على برنامج
+      حضانة عالي الجودة أو على لا شيء، وتُوبعوا منذ ذلك الحين.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب تجربة واحدة حاسمة لحجّة وطنية، مع أنّ النصّ يسمّي أساسها نحيلًا.
+      ويقترن المقطع بالمقطع الثاني والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Oregon allocated about ten thousand places by lottery
+    - Later preschool trials have found smaller effects
+    - The lottery licenses the claim and the setting limits it
+    - A single trial settles a national argument
+    key: C
+    moves:
+      A: underreach
+      B: true_not_asked
+      D: wrong_direction
+    why: The text says both studies support causal claims because of the lottery and are limited by
+      the same thing, each telling us about one program in one place at one time.
+    trap: D settles nationally what the text calls a slender base.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, how many children entered the Perry study?
+    options:
+    - A hundred and twenty-three
+    - About ten thousand
+    - About ninety thousand
+    - About forty of them
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: imported
+    why: The text says a hundred and twenty-three poor children in Ypsilanti were assigned by lot
+      to a preschool program or to nothing.
+    trap: B gives the number of Oregon coverage places instead.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the length of the follow-up
+      changed the verdict?
+    claim: the length of the follow-up changed the verdict
+    options:
+    - «The state allocated the places by lottery, which created, without intending to, the cleanest
+      comparison available anywhere»
+    - «turned out to be the crucial design choice. By age forty the treated group had higher earnings,
+      more home ownership and fewer arrests»
+    - «Several later preschool trials have found smaller effects, and the differences are still being
+      argued about»
+    - «Differences in measured intelligence faded by the early school years, which was read at the
+      time as failure»
+    key: B
+    moves:
+      A: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation calls the length of the tracking the crucial design choice and then reports
+      the outcomes that appeared by age forty.
+    trap: D gives the early reading that the longer follow-up overturned.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Each tells us about one program, in one place, at one time, for one population. A policy
+      argued from the Perry result alone would therefore ___
+    options:
+    - rest on a randomized comparison
+    - be supported by later trials
+    - measure blood pressure at two years
+    - rest on a slender base
+    key: D
+    moves:
+      A: near_miss
+      B: wrong_direction
+      C: imported
+    why: The text calls a hundred and twenty-three children in a single town in the 1960s a slender
+      base for a national argument.
+    trap: B enlists later trials the text says found smaller effects.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «causal» most nearly mean?
+    target: causal
+    options:
+    - happening by chance
+    - relaxed in manner
+    - about what produced what
+    - about what moved together
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: near_miss
+    why: The text says both studies support causal claims because of the lottery, so the word marks
+      a claim about one thing producing another.
+    trap: D gives a claim about correlation rather than production.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about blood pressure?
+    options:
+    - It defines the follow-up period for a reader
+    - It names the finding that was not expected
+    - It reports the number of Oregon applicants
+    - It argues that coverage made no difference
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence follows the gains in care, bills and mental health and reports the measured
+      result the text calls the most argued-over part of the study.
+    trap: D generalizes one null result into a verdict on coverage.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says each study describes one program in one place. Based on Text 2, which choice
+      best names that limitation?
+    sibling: SOC-S02-L2
+    sibling_gloss: Text 2 is passage 92 of this book. It says a lottery makes two groups alike on
+      every characteristic at once and then adds that randomization says nothing about whether the
+      result transfers to another population, scale or decade.
+    options:
+    - A lottery says nothing about transfer to another setting
+    - Matching cannot equalize what nobody listed
+    - The streptomycin trial of 1948 came first
+    - Uneven dropout spoils a good design
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 says randomization says nothing about whether the result transfers to another population,
+      another scale or another decade.
+    trap: B names the weakness of the alternative design rather than the limit of this one.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Differences in measured intelligence faded by the early school years, which was read
+      at the time as failure. ___ the follow-up period turned out to be the crucial design choice.
+    options:
+    - As a result,
+    - For instance,
+    - In other words,
+    - Even so,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The second sentence overturns the early reading of failure, so the transition must mark a
+      concession rather than a consequence.
+    trap: A makes the design choice follow from the faded differences.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The Perry Preschool study is older and smaller ___ and the children have been followed
+      ever since.
+    options:
+    - smaller and
+    - smaller, and
+    - smaller; and
+    - smaller and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the children being followed ever since is independent, so the conjunction
+      joining it to the clause about the study takes a comma.
+    trap: A runs the clause about the study straight into the clause about the children.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what honest practice does with a narrow result. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what honest practice does with a narrow result
+    notes:
+    - Both studies support causal claims because of the lottery.
+    - Each tells us about one program in one place at one time.
+    - The Perry sample is a slender base for a national argument.
+    - The honest practice is to say so while using the result.
+    options:
+    - Both studies support causal claims because of the lottery
+    - The Perry sample is a slender base for a national argument
+    - Each study tells us about one program in one place
+    - Use the finding and state its narrowness in the same breath
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice states the practice the notes name, which is to say the base is narrow while
+      still using what the lottery licensed.
+    trap: B names the narrowness without the use the notes keep alongside it.
+- id: SOC-S03-L3
+  summary_ar:
+    khulasa: حيث لا يمكن إجراء قرعة يبحث الباحثون عن قرعة وقعت بالعَرَض. والتجربة الطبيعية، أي حال
+      وزّع فيها شيء خارج سيطرة الباحثين الناسَ توزيعًا شبه عشوائيّ، هي اليوم الأداة الرئيسة في العلم
+      الاجتماعي الحديث.
+    maana: 'المعنى أنّ ثلاثة أنواع من الأحوال تستأثر بمعظم ما يُنشَر، ولكلّ منها ضعف مميّز يستطيع
+      القارئ المتنبّه أن يبحث عنه. الأوّل قرعة حقيقية أُجريت لغرض آخر: فقرعات التجنيد في عهد فيتنام
+      أعطت الشبّان الأمريكيّين رقمًا بتاريخ الميلاد.'
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: والثاني الانقطاع: فحيث يكون
+      للبرنامج حدّ فاصل تعسّفيّ، كدرجة ستّين لمنحة، يكون من نال تسعة وخمسين ومن نال واحدًا وستّين
+      سواءً في كلّ شيء إلّا المنحة. والثالث الحدود بين الولايات.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب التجربة الطبيعية خالية من الافتراضات، مع أنّ النصّ يذكر لكلّ نوع
+      افتراضًا يجب الدفاع عنه. ويقترن المقطع بالمقطع الثالث والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The Vietnam draft lotteries assigned numbers by date of birth
+    - Regression discontinuity compares cases near a cutoff
+    - A natural experiment needs no assumption at all
+    - Each kind rests on an assumption that must be defended
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: wrong_direction
+    why: The text names three kinds of natural experiment and then says each rests on an assumption
+      that has to be defended rather than assumed, giving the test for each.
+    trap: C removes the assumptions the second half of the text sets out.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, how is a manipulated cutoff detected?
+    options:
+    - By comparing two sides of a state line
+    - By bunching of scores just above the line
+    - By the date of birth of each applicant
+    - By the number of applicants who moved
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: near_miss
+    why: The text says discontinuities assume that nobody manipulated the score, which can be tested
+      by looking for a suspicious bunching of scores just above the line.
+    trap: A gives the test of a different kind of natural experiment.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the draft comparison
+      measures something narrower than service?
+    claim: the draft comparison measures something narrower than service
+    options:
+    - «Three kinds of situation account for most of the published work, and each carries a characteristic
+      weakness that a careful reader can look for»
+    - «applicants who scored fifty-nine and sixty-one are indistinguishable in every respect except
+      the award»
+    - «The draft numbers were random, but service was not, since men could enlist or evade, so what
+      the comparison measures is the effect of being more likely to serve»
+    - «Borders assume that people do not move across them in response to the policy, which they sometimes
+      do»
+    key: C
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      D: near_miss
+    why: The quotation grants the randomness of the numbers, denies it of service, and names the effect
+      of being more likely to serve as what is measured.
+    trap: B describes a different design rather than what the draft comparison captures.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Borders assume that people do not move across them in response to the policy, which they
+      sometimes do. A border study of a tax that drove residents across the line would therefore ___
+    options:
+    - have lost the similarity it relied on
+    - be strengthened by the movement
+    - need a bunching test on the scores
+    - measure the effect of being likely to serve
+    key: A
+    moves:
+      B: wrong_direction
+      C: imported
+      D: imported
+    why: The design rests on the two sides remaining similar in every respect but the law, which movement
+      in response to the policy destroys.
+    trap: B makes the movement a help when the text makes it the failure.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «confound» most nearly mean?
+    target: confound
+    options:
+    - defeat an enemy
+    - puzzle a reader
+    - confirm a finding
+    - mix up with the cause
+    key: D
+    moves:
+      A: imported
+      B: near_miss
+      C: wrong_direction
+    why: The comparison is said to isolate the effect of service from everything that would otherwise
+      confound it, so the word names a mingling with the cause under study.
+    trap: B takes the sense in which a difficulty confounds a person.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about scores of fifty-nine and
+      sixty-one?
+    options:
+    - It defines a natural experiment for a reader
+    - It reports the test for a manipulated cutoff
+    - It shows what makes the second kind work
+    - It argues that the cutoff was arbitrary
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: near_miss
+    why: The sentence follows the naming of the discontinuity and gives the pair of applicants whose
+      only difference is the award.
+    trap: D repeats a feature of the cutoff rather than naming what the comparison exploits.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 calls the natural experiment the main instrument of the field. Based on Text 2, which
+      choice best explains why it is needed?
+    sibling: SOC-S03-L2
+    sibling_gloss: Text 2 is passage 93 of this book. It sets out four relations two correlated measurements
+      may stand in and says the strongest ordinary tool is a source of variation unrelated to everything
+      else of interest.
+    options:
+    - Time order shows which event came first
+    - A correlation alone is a question, not a finding
+    - Hospitals with more staff have higher death rates
+    - Wald reasoned about the planes that never returned
+    key: B
+    moves:
+      A: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 says the strongest ordinary tool is a source of variation unrelated to everything
+      else and that until one is in hand a correlation is only a question.
+    trap: A names a weaker aid Text 2 grants only a little weight.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The military draft lotteries of the Vietnam era assigned young American men a number
+      by date of birth. ___ comparing the later earnings of men with low and high numbers isolates
+      the effect of service.
+    options:
+    - As a result,
+    - By contrast,
+    - In other words,
+    - For instance,
+    key: A
+    moves:
+      B: wrong_direction
+      C: restatement
+      D: near_miss
+    why: The second sentence gives what the randomness of the numbers makes possible, so the transition
+      must mark a consequence.
+    trap: B sets the comparison against the lottery that permits it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Where a lottery cannot be run, researchers look for one that has already happened by
+      accident ___ and three kinds of situation account for most of the published work.
+    options:
+    - accident and
+    - accident; and
+    - accident, and
+    - accident and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause about the three kinds of situation is independent, so the conjunction joining
+      it to the clause about the accidental lottery takes a comma.
+    trap: A runs the clause about the accident straight into the clause about the three kinds.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what a careful reader looks for in such a study. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what a careful reader looks for in such a study
+    notes:
+    - Each kind carries a characteristic weakness.
+    - The draft comparison measures the effect of being more likely to serve.
+    - A manipulated cutoff shows as bunching above the line.
+    - Borders fail where people move in response to the policy.
+    options:
+    - The assumption each design rests on, since each one fails in its own way
+    - Each kind of natural experiment carries a characteristic weakness
+    - A manipulated cutoff shows as bunching above the line
+    - Borders fail where people move in response to the policy
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names the thing common to the three cases the notes list, which is the assumption
+      a reader has to see defended.
+    trap: C names one test without the general question behind it.
+- id: SOC-S04-L3
+  summary_ar:
+    khulasa: 'فاصل الثقة قول عن إجراء لا عن رقم. فإذا أبلغ مسح عن ثمانية وأربعين في المئة بهامش ثلاث
+      نقاط فالدعوى أضيق ممّا تبدو: الطريقة المستعملة، لو أُعيدت مرّات كثيرة على عيّنات جديدة، لأنتجت
+      فاصلًا يحوي القيمة الحقيقية في نحو خمس وتسعين حالة من مئة.'
+    maana: المعنى أنّها لا تقول إنّ ثمّ احتمالًا بخمس وتسعين في المئة أنّ الحقيقة بين خمس وأربعين
+      وإحدى وخمسين، مع أنّ كلّ جملة صحفية في الموضوع تقول ذلك تمامًا. وثلاثة أخطاء تتبع هذا الالتباس.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: الأوّل أن يُحسب تداخل فاصلين
+      انعدامًا للفرق، ولا يلزم ذلك. والثاني أن تُقرأ نتيجة حدّية كأنّ المعنوية صفة في العالم، والمعنوية
+      الإحصائية حكم بأنّ النتيجة يُستبعد أن تكون من تغيّر المعاينة وحده، وهي تتعلّق بحجم العيّنة.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب تداخل الفاصلين دليلًا على انعدام الفرق، مع أنّ النصّ ينفي اللزوم.
+      ويقترن المقطع بالمقطع الرابع والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - An interval describes a procedure, and three misuses follow
+    - Journals now require the pre-registered comparison
+    - A difference is significant whatever the sample size
+    - Two overlapping intervals show no difference
+    key: A
+    moves:
+      B: true_not_asked
+      C: wrong_direction
+      D: wrong_direction
+    why: The text says a confidence interval is a statement about a procedure rather than a number,
+      and then names three misuses that follow from the confusion.
+    trap: D takes the first of the misuses as the truth.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does examining twenty subgroups produce?
+    options:
+    - A narrower confidence interval
+    - A pre-registered main comparison
+    - About one significant result by chance
+    - A margin of three points on a thousand
+    key: C
+    moves:
+      A: imported
+      B: detail_swap
+      D: detail_swap
+    why: The text says that if twenty subgroups are examined and one shows a significant difference,
+      that is what twenty tests produce by chance about once in every set.
+    trap: B names the remedy rather than the effect.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that significance depends
+      on the size of the study?
+    claim: significance depends on the size of the study
+    options:
+    - «A confidence interval is a statement about a procedure rather than about a number»
+    - «Trials registered in advance, stating which comparison is the main one, exist to close that
+      door»
+    - «The method used, repeated many times on fresh samples, would produce an interval containing
+      the true value in about ninety-five cases out of a hundred»
+    - «A trivial difference becomes significant in a large enough study, and an important one stays
+      invisible in a small one»
+    key: D
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      C: near_miss
+    why: The quotation says a trivial difference becomes significant in a large study and an important
+      one stays invisible in a small one.
+    trap: C explains what the interval means rather than what the sample size does.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: If twenty subgroups are examined and one shows a significant difference, that is what
+      twenty tests produce by chance about once in every set. A headline built on that one subgroup
+      would therefore ___
+    options:
+    - report a pre-registered comparison
+    - be reporting an expected accident
+    - need a narrower confidence interval
+    - show a difference in every subgroup
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: near_miss
+    why: The text says one significant result in twenty is what chance produces, so a headline built
+      on it reports exactly what was expected without any effect.
+    trap: A credits the headline with the declaration the text says closes that door.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «marginal» most nearly mean?
+    target: marginal
+    options:
+    - barely over the line
+    - written in a margin
+    - of no importance
+    - far from the cutoff
+    key: A
+    moves:
+      B: imported
+      C: near_miss
+      D: wrong_direction
+    why: The text speaks of reading a result that is marginal as though significance were a property
+      of the world, so the word names a result that only just qualifies.
+    trap: C turns a borderline result into a worthless one.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about newspaper sentences?
+    options:
+    - It defines statistical significance for a reader
+    - It reports what journals now require
+    - It concedes that the common reading is right
+    - It names the misreading the text is correcting
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: wrong_direction
+    why: The sentence follows the denial that the interval gives a probability about the truth and
+      says almost every newspaper sentence says exactly that.
+    trap: C endorses the reading the sentence is there to reject.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says a reader needs the interval and the sample size. Based on Text 2, which choice
+      best describes the figure that omits them both?
+    sibling: SOC-S04-L2
+    sibling_gloss: Text 2 is passage 94 of this book. It calls a single figure with no spread and
+      no sample size the worst case and also the most common way a statistic arrives in public, and
+      recommends a mean with a standard deviation instead.
+    options:
+    - A histogram sorting the cases into bins
+    - A mean paired with a standard deviation
+    - The commonest way a statistic arrives in public
+    - A set of four data sets with identical means
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: imported
+    why: Text 2 calls a single figure with no spread and no sample size the worst case and also the
+      most common way a statistic arrives in public.
+    trap: B names the pairing Text 2 recommends rather than the figure that lacks it.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: It does not say that there is a ninety-five percent chance that the truth lies between
+      forty-five and fifty-one. ___ almost every newspaper sentence on the subject says exactly that.
+    options:
+    - As a result,
+    - Even so,
+    - In other words,
+    - For instance,
+    key: B
+    moves:
+      A: wrong_direction
+      C: restatement
+      D: near_miss
+    why: The second sentence sets the common practice against the correct reading, so the transition
+      must mark a concession.
+    trap: A makes the newspaper usage follow from the correct statement.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A confidence interval is a statement about a procedure ___ and it is not a statement
+      about a number.
+    options:
+    - procedure and
+    - procedure; and
+    - procedure and,
+    - procedure, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause denying that it is a statement about a number is independent, so the conjunction
+      joining it to the clause about the procedure takes a comma.
+    trap: A runs the clause about the procedure straight into the clause about the number.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain the three things a reader needs to judge a figure. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain the three things a reader needs to judge a figure
+    notes:
+    - A reader needs the interval.
+    - A reader needs the sample size.
+    - A reader needs the number of comparisons made before this one.
+    - Journals now require the pre-registered comparison to be identified.
+    options:
+    - A reader needs the interval that was reported
+    - The interval, the sample size and how many comparisons came first
+    - Journals now require the pre-registered comparison to be named
+    - A reader needs the number of comparisons that were made
+    key: B
+    moves:
+      A: underreach
+      C: true_not_asked
+      D: underreach
+    why: Only this choice names all three of the things the notes say a reader must have in order
+      to judge a reported figure.
+    trap: D gives one of the three and leaves the other two out.
+- id: SOC-S05-L3
+  summary_ar:
+    khulasa: 'مدينة كسان فرانسيسكو تغيّر سعرًا ثمّ تقيس ما جرى لم تقس أثر السعر. فشيء آخر يتغيّر دائمًا
+      في المدّة نفسها: الطقس، والاقتصاد، وبناء مكاتب جديد، وسعر الوقود.'
+    maana: المعنى أنّ العلاج القياسيّ هو فرق الفروق، أي مقارنة التغيّر في موضع معالَج بالتغيّر في
+      موضع غير معالَج في المدّة نفسها. فإن هبط ركن السيّارات ثمانية في المئة في أحياء الأسعار الجديدة
+      واثنين في أحياء مشابهة بلا أسعار جديدة فالتقدير ستّ نقاط لا ثماني.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: والكمّية التي تُبلَّغ عادةً
+      هي المرونة، أي النسبة المئوية لتغيّر الكمّية من تغيّر السعر بواحد في المئة. والمرونات تنتقل
+      بين المواضع أحسن من الأرقام المطلقة، وهي خطيرة لأنّها ليست ثوابت.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب الهبوط الخامّ هو الأثر، مع أنّ النصّ يطرح منه تغيّر منطقة المقارنة.
+      ويقترن المقطع بالمقطع الخامس والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - An elasticity transfers between settings better than an absolute figure
+    - A before-and-after figure needs a comparison area to mean anything
+    - A city that measures its own change has measured the effect
+    - Spillover makes a real effect look smaller than it is
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text says something else always changed in the same period and gives difference in differences,
+      in which an eight-point fall beside a two-point fall yields six.
+    trap: C credits the before-and-after figure with the effect it does not isolate.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is the estimated effect in the parking example?
+    options:
+    - Eight points
+    - Two points
+    - Ten points
+    - Six points
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: imported
+    why: The text says a fall of eight percent where the rates changed and two percent where they
+      did not gives an estimate of six points.
+    trap: A gives the raw fall rather than the difference between the two areas.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that an elasticity cannot
+      be carried from one case to another unchanged?
+    claim: an elasticity cannot be carried from one case to another unchanged
+    options:
+    - «Elasticities transfer between settings better than absolute figures do, and they are dangerous
+      because they are not constants. The same good is more elastic over a year than over a week»
+    - «The standard remedy is difference in differences, meaning the comparison of the change in a
+      treated place with the change in an untreated one»
+    - «Analysts test it by checking whether the two series ran parallel in the years before the change»
+    - «The design fails where the untreated area is affected by the treatment, as when drivers simply
+      move to the next district»
+    key: A
+    moves:
+      B: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation calls elasticities dangerous because they are not constants and shows the same
+      good behaving differently over a year and over a week.
+    trap: C names the test of the design rather than the behavior of the elasticity.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The design fails where the untreated area is affected by the treatment, as when drivers
+      simply move to the next district, and that spillover will make a real effect look larger than
+      it is. A study whose comparison district filled with displaced drivers would therefore ___
+    options:
+    - understate the effect of the price
+    - require an elasticity instead
+    - overstate the effect of the price
+    - show the two series running parallel
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: near_miss
+    why: The text says spillover makes a real effect look larger than it is, which is what a comparison
+      district filling with displaced drivers produces.
+    trap: A reverses the direction in which spillover is said to bend an estimate.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «latent» most nearly mean?
+    target: latent
+    options:
+    - arriving after a delay
+    - already under way unseen
+    - measured in both areas
+    - recent and well known
+    key: B
+    moves:
+      A: near_miss
+      C: wrong_direction
+      D: wrong_direction
+    why: The text speaks of a latent change already under way in one area and not the other, so the
+      word names a movement present but unobserved.
+    trap: A takes the sense of a delay rather than of something hidden.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the weather and the economy?
+    options:
+    - It explains why a single series proves nothing
+    - It defines an elasticity for a reader
+    - It reports the parking figures in the example
+    - It argues that prices have no effect
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence follows the claim that a city measuring its own change has not measured the
+      effect and lists what else moved in the same period.
+    trap: D denies an effect the rest of the text sets out to measure.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says the same good is more elastic for people with substitutes. Based on Text 2,
+      which choice best explains that pattern?
+    sibling: SOC-S05-L2
+    sibling_gloss: Text 2 is passage 95 of this book. It says the effect of a price depends on what
+      else is available, and that a charge on gasoline changes little in the short run because nobody
+      can substitute for the journey to work.
+    options:
+    - A cost at the moment of choosing is salient
+    - A deposit on a bottle is returned later
+    - The size of the sum is often least important
+    - A charge bites only where something can be switched to
+    key: D
+    moves:
+      A: near_miss
+      B: imported
+      C: near_miss
+    why: Text 2 says the effect of a price depends on what else is available, and that a charge on
+      gasoline changes little because nobody can substitute for the journey.
+    trap: A names a different one of the three properties.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Elasticities transfer between settings better than absolute figures do. ___ they are
+      dangerous because they are not constants.
+    options:
+    - As a result,
+    - For instance,
+    - Even so,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence sets a danger against the advantage just granted, so the transition must
+      mark a concession.
+    trap: A makes the danger follow from the advantage.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Something else always changed in the same period ___ and the weather and the economy
+      are the usual candidates.
+    options:
+    - period, and
+    - period and
+    - period; and
+    - period and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the usual candidates is independent, so the conjunction joining it to the
+      clause about the period takes a comma.
+    trap: B runs the clause about the period straight into the clause about the candidates.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what makes the comparison design testable. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain what makes the comparison design testable
+    notes:
+    - The method depends on the two areas moving in parallel had nothing been done.
+    - Analysts check whether the series ran parallel before the change.
+    - That is weak evidence and better than none.
+    - Where several places adopt a policy at different times, comparisons can be stacked.
+    options:
+    - The method depends on the two areas moving in parallel
+    - Analysts check the series for the years before the change
+    - The parallel assumption can be checked against the earlier years, weakly but really
+    - Comparisons can be stacked where adoption happens at different times
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: true_not_asked
+    why: Only this choice names the assumption and the check the notes pair with it, and keeps the
+      limited strength the notes assign to that check.
+    trap: B names the check without the assumption it is a check on.
+- id: SOC-S06-L3
+  summary_ar:
+    khulasa: 'طلب سولومون آش من شبّان أن يقارنوا أطوال خطوط، والمهمّة بسيطة كما تبدو: يُعرَض على كلّ
+      واحد خطّ قياسيّ وثلاثة غيره أحدها مطابق ظاهرًا، ويُسأل أن يقول جهرًا أيّها هو، وكانت المهمّة
+      من اليسر حدًّا يُهين.'
+    maana: المعنى أنّ سبعة آخرين في الغرفة يجيبون أوّلًا وكلّهم متواطئون، أي أشخاص يظهرون مشاركين
+      وهم يعملون للباحث، وقد أجابوا الجواب الخطأ نفسه في اثنتي عشرة محاولة من ثماني عشرة.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: والأرقام تُروى بتسامح وحقّها
+      أن تُضبط: نحو ثلث أجوبة المشاركين الحقيقيّين جرى مع الأغلبية المخطئة، ونحو ربع المشاركين لم
+      يوافق قطّ، ونحو ثلاثة أرباعهم وافق مرّة على الأقلّ.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب معدّل الموافقة ثابتًا في كلّ مكان، مع أنّ الإعادات نقلته من قريب
+      الصفر إلى فوق الأصل. ويقترن المقطع بالمقطع السادس والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The confederates gave a wrong answer on twelve of eighteen trials
+    - A British replication in 1980 found almost no conformity
+    - What survives is a mechanism rather than a constant rate
+    - The rate of conformity is the same everywhere
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: wrong_direction
+    why: The text gives the original figures, reports replications from near zero to above the original,
+      and says what survives is not a constant but a mechanism.
+    trap: D fixes a rate the replications are said to move.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what share of participants never conformed?
+    options:
+    - About a quarter
+    - About a third
+    - About three quarters
+    - About a tenth
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: imported
+    why: The text says about a quarter of participants never conformed at all and around three quarters
+      conformed at least once.
+    trap: B gives the share of responses that went along with the majority.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the pressure works through
+      being heard rather than being believed?
+    claim: the pressure works through being heard rather than being believed
+    options:
+    - «Each was shown a standard line and three others, one of which plainly matched, and was asked
+      to say aloud which one it was»
+    - «Conformity collapsed when one confederate gave the correct answer, and fell sharply when participants
+      could write their answers privately instead of speaking them»
+    - «Later analysis found the effect larger in collectivist societies and smaller in later decades»
+    - «About a third of the responses by real participants went along with the wrong majority»
+    key: B
+    moves:
+      A: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation reports conformity falling sharply when the answer could be written privately,
+      which puts the pressure in the speaking aloud.
+    trap: D gives the headline rate rather than the condition that changes it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Conformity collapsed when one confederate gave the correct answer. A participant who
+      found one ally in the room would therefore ___
+    options:
+    - conform more often than before
+    - answer in writing instead of aloud
+    - face a larger normative cost
+    - find the pressure largely gone
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: wrong_direction
+    why: The text says conformity collapsed when one confederate gave the correct answer, so a single
+      ally removes most of the pressure.
+    trap: A reverses the effect the variation produced.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «normative» most nearly mean?
+    target: normative
+    options:
+    - average in size
+    - written into a rule
+    - arising from what others expect
+    - measured in a laboratory
+    key: C
+    moves:
+      A: imported
+      B: near_miss
+      D: imported
+    why: The text speaks of the normative cost of disagreeing being visible, so the word names a price
+      exacted by the expectations of the people present.
+    trap: B puts the cost in a written rule rather than in the room.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence calling the figures worth having
+      exactly?
+    options:
+    - It defines a confederate for a reader
+    - It corrects a loose report before giving the numbers
+    - It reports the British replication of 1980
+    - It argues that the figures cannot be trusted
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The sentence follows the remark that the figures are often reported loosely and introduces
+      the three precise shares.
+    trap: D rejects figures the sentence is there to state exactly.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports conformity falling when answers were written privately. Based on Text 2,
+      which choice best explains that fall?
+    sibling: SOC-S06-L2
+    sibling_gloss: Text 2 is passage 96 of this book. It says an unwritten rule needs observation,
+      a sanction, some willingness to apply it and a known rule, and that the strength of a norm depends
+      on visibility more than on agreement.
+    options:
+    - A breach nobody can see carries no penalty
+    - A sanction nobody bothers with is no sanction
+    - Tax compliance is higher where returns are public
+    - Each further breach is cheaper than the last
+    key: A
+    moves:
+      B: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: Text 2 says there must be observation for a breach to be seen at all and that the strength
+      of a norm depends on visibility more than on agreement.
+    trap: B names a different one of the four parts of the machinery.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The figures are often reported loosely and are worth having exactly. ___ about a third
+      of the responses by real participants went along with the wrong majority.
+    options:
+    - By contrast,
+    - As a result,
+    - In other words,
+    - Specifically,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence supplies the first of the exact figures just promised, so the transition
+      must mark a specification.
+    trap: B makes the figure follow from the loose reporting rather than replace it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Seven other people in the room gave their answers first ___ and all seven were confederates.
+    options:
+    - first and
+    - first, and
+    - first; and
+    - first and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause saying all seven were confederates is independent, so the conjunction joining
+      it to the clause about the answers takes a comma.
+    trap: A runs the clause about the answers straight into the clause about the confederates.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what the replications left standing. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain what the replications left standing
+    notes:
+    - Rates have run from near zero to above the original.
+    - A British replication in 1980 found almost no conformity.
+    - What survives is not a constant but a mechanism.
+    - The size depends on who is in the room.
+    options:
+    - Rates have run from near zero to above the original
+    - A British replication in 1980 found almost no conformity
+    - What survives is not a constant but a mechanism
+    - The pressure is real, and its size is set by the company a person is in
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice keeps the mechanism and attaches its varying size to the people present,
+      which is what the notes together establish.
+    trap: B gives one replication without what the set of them leaves standing.
+- id: SOC-S07-L3
+  summary_ar:
+    khulasa: إحصاء السكّان على النحو الذي تُجريه الولايات المتّحدة أفضل بيانات اجتماعية موجودة، وليس
+      استعماله بسيطًا. وثلاث خصائص تُعقّد كلّ مقارنة. أولاها النقص في العدّ، أي من يفوت الإحصاءَ تسجيلُهم،
+      وصافيه في إحصاء حديث كبير نحو واحد في المئة.
+    maana: 'المعنى أنّ هذا يبدو مهملًا حتّى يُفصَّل، فالنقص غير موزّع بانتظام: فالشبّان والمستأجرون
+      والمهاجرون الجدد والأطفال في بيوت مركّبة يفوتهم التسجيل بأضعاف المعدّل، فيغيّر النقص هيئة المكان
+      الظاهرة لا حجمه فقط.'
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: والخصيصة الثانية تغيّر الحدود،
+      أي تعديل المناطق التي تُبلَّغ عنها الأرقام: فالأحياء الإحصائية تُشقّ إذا نمت وتُدمَج إذا تقلّصت،
+      فقد يقارن جدول حيًّا في إحصاءين وهو يقارن قطعتَي أرض مختلفتين.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب البيانات غير قابلة للاستعمال، مع أنّ النصّ يسمّيها أفضل ما يوجد.
+      ويقترن المقطع بالمقطع السابع والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The net undercount is often about one percent
+    - Agencies publish conversion tables for the boundaries
+    - The census data are unusable for comparison
+    - Three features make a comparison a piece of work
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: wrong_direction
+    why: The text names the undercount, the boundary change and the changing questions, then says
+      a comparison across decades is a piece of work rather than a lookup.
+    trap: C discards data the text calls the best that exists.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, who is missed at several times the average rate?
+    options:
+    - Households in merged tracts
+    - Young men, renters and recent migrants
+    - People in the same tract for a century
+    - Those answering a rewritten category
+    key: B
+    moves:
+      A: detail_swap
+      C: imported
+      D: detail_swap
+    why: The text says young men, renters, recent migrants and children in complex households are
+      missed at several times the average rate.
+    trap: D names the third complication rather than the people the undercount misses.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a small undercount can
+      still distort a picture?
+    claim: a small undercount can still distort a picture
+    options:
+    - «Statistical agencies publish conversion tables for this purpose»
+    - «Tracts are split as they grow and merged as they shrink»
+    - «the undercount changes the apparent composition of a place and not merely its size»
+    - «A heterogeneous category in one year may appear as three separate categories in the next»
+    key: C
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      D: near_miss
+    why: The quotation says the undercount changes the apparent composition of a place and not merely
+      its size, which is the distortion the claim names.
+    trap: D gives the third complication rather than the effect of the undercount.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A table that compares a neighborhood in two censuses may therefore be comparing two different
+      pieces of ground. A researcher who used the two tables without a conversion would therefore
+      ___
+    options:
+    - be measuring a change in the boundary
+    - have corrected for the undercount
+    - find the questions unchanged between them
+    - need a heterogeneous category instead
+    key: A
+    moves:
+      B: near_miss
+      C: wrong_direction
+      D: imported
+    why: The two tables may cover different ground, so a difference between them can come from the
+      boundary rather than from the neighborhood.
+    trap: C assumes a constancy the third complication denies.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «heterogeneous» most nearly mean?
+    target: heterogeneous
+    options:
+    - drawn from one source
+    - measured in detail
+    - standing for a boundary
+    - holding unlike things together
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: imported
+    why: The word describes a category that may appear as three separate categories in the next census,
+      so it names one label covering unlike cases.
+    trap: A gives the opposite of the mixture the sentence describes.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about a century-long series?
+    options:
+    - It defines an undercount for a reader
+    - It reports what the conversions allow
+    - It names the cost of rewriting a question
+    - It argues that the rewriting was unwise
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: wrong_direction
+    why: The sentence follows the account of categories rewritten repeatedly and says a series apparently
+      running for a century is in places a series of different questions.
+    trap: D criticizes changes the text says were usually made for good reasons.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 warns that tracts are split as they grow. Based on Text 2, which choice best explains
+      why a tract would grow in the first place?
+    sibling: SOC-S07-L2
+    sibling_gloss: Text 2 is passage 97 of this book. It says bid rent falls as distance from the
+      center rises, that the slope is set by the cost of travel, and that cheaper or faster travel
+      flattens it and spreads the city outward.
+    options:
+    - Firms needing many workers cluster together
+    - Cheaper travel brings distant land into play
+    - Generalized cost adds time and money together
+    - Bid rent is highest at the center of a city
+    key: B
+    moves:
+      A: near_miss
+      C: true_not_asked
+      D: near_miss
+    why: Text 2 says cheaper or faster travel flattens the slope of bid rent and spreads the city,
+      bringing more distant land into use.
+    trap: D names the shape of the curve rather than what pushes development outward.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The net figure for a large modern census is often about one percent, which sounds negligible
+      until it is broken down. ___ the undercount is not spread evenly.
+    options:
+    - After all,
+    - By contrast,
+    - In other words,
+    - For instance,
+    key: A
+    moves:
+      B: wrong_direction
+      C: restatement
+      D: near_miss
+    why: The second sentence gives the reason the one percent stops sounding negligible, so the transition
+      must mark a ground.
+    trap: B sets the reason against the claim it supports.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Tracts are split as they grow ___ and they are merged as they shrink.
+    options:
+    - grow and
+    - grow; and
+    - grow, and
+    - grow and,
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: misplaced
+    why: The clause about tracts being merged is independent, so the conjunction joining it to the
+      clause about their splitting takes a comma.
+    trap: A runs the clause about the splitting straight into the clause about the merging.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain the commonest error in using a census table. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain the commonest error in using a census table
+    notes:
+    - The undercount changes the apparent composition of a place.
+    - Tracts are split and merged between censuses.
+    - Categories have been rewritten repeatedly.
+    - The commonest error is to treat the column headings as constant.
+    options:
+    - Reading the column headings as though they had always meant one thing
+    - The undercount changes the apparent composition of a place
+    - Tracts are split and merged between one census and the next
+    - Categories in a census have been rewritten repeatedly
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names the error the notes converge on, which is treating the words at the
+      top of a column as fixed.
+    trap: C names one of the three complications without the error they produce.
+- id: SOC-S08-L3
+  summary_ar:
+    khulasa: رفعت نيوجيرسي حدّها الأدنى للأجر في أبريل سنة ألف وتسعمئة واثنتين وتسعين. ورأى ديفيد
+      كارد وآلان كروغر في ذلك تجربة طبيعية، لأنّ شرق بنسلفانيا يقع عبر حدّ ولاية ببلدات مشابهة وأسواق
+      عمل مشابهة ولا تغيير في حدّها الأدنى.
+    maana: المعنى أنّهما مسحا أكثر من أربعمئة مطعم للوجبات السريعة على الجانبين قبل الرفع وبعده بالأسئلة
+      نفسها، فلم يجدا هبوطًا في التشغيل في نيوجيرسي نسبةً إلى بنسلفانيا، مع أنّ التوقّع القياسيّ من
+      نموذج الكتاب أنّ التشغيل كان ينبغي أن يهبط.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: كان الردّ فوريًّا وفنّيًّا:
+      حصل ديفيد نيومارك ووليام واشر على سجلّات الرواتب، أي أرقام التشغيل من حسابات الشركات الإدارية،
+      لعيّنة من المطاعم نفسها، فوجدا أنّ التشغيل هبط. فالفريقان يختلفان في القياس لا في النظرية.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب إحدى الورقتين حاسمة، مع أنّ النصّ يقول إنّ أيًّا منهما لم يحسم.
+      ويقترن المقطع بالمقطع الثامن والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The two teams disagreed about measurement, not theory
+    - New Jersey raised its minimum wage in April 1992
+    - The survey data settled the question for good
+    - Payroll records are free of any weakness
+    key: A
+    moves:
+      B: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text says the two teams were disagreeing about measurement rather than about theory,
+      and then names a weakness in each kind of data.
+    trap: C settles a question the text says neither paper settled.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what did Neumark and Wascher use?
+    options:
+    - A survey of four hundred restaurants
+    - A border between two labor markets
+    - Payroll records from the firms
+    - A register of minimum wage changes
+    key: C
+    moves:
+      A: detail_swap
+      B: detail_swap
+      D: imported
+    why: The text says the two obtained payroll records, meaning employment figures taken from the
+      administrative accounts of firms.
+    trap: A gives the method of the other team.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that each kind of data carries
+      its own weakness?
+    claim: each kind of data carries its own weakness
+    options:
+    - «The standard prediction from the textbook model is that employment should have fallen»
+    - «the two principals shared a Nobel prize in 2021 with a third economist»
+    - «Both data sets were eventually released, which is why the exchange could be adjudicated at
+      all»
+    - «Survey data may suffer from respondents who misremember or who answer for a chain rather than
+      a store. Payroll data covers only the firms that supply it»
+    key: D
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      C: near_miss
+    why: The quotation names a weakness of the survey and then a weakness of the payroll record, one
+      after the other.
+    trap: C explains why the dispute could be judged rather than what each source lacks.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Payroll data covers only the firms that supply it, and the sample was assembled with
+      help from a restaurant trade association, which the other side pointed out at length. A figure
+      drawn from that sample would therefore ___
+    options:
+    - be free of any selection worry
+    - carry a question about who supplied it
+    - be a survey of four hundred stores
+    - settle the textbook prediction at last
+    key: B
+    moves:
+      A: wrong_direction
+      C: imported
+      D: overreach
+    why: The text says payroll data covers only the firms that supply it and notes who helped assemble
+      the sample, which is what the other side raised.
+    trap: A clears a sample the text says was challenged on exactly that ground.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «reciprocal» most nearly mean?
+    target: reciprocal
+    options:
+    - running in both directions
+    - given in return for payment
+    - performed by one side only
+    - written in a journal article
+    key: A
+    moves:
+      B: imported
+      C: wrong_direction
+      D: imported
+    why: The text speaks of the reciprocal checking of methods that the exchange forced, so the word
+      names each side testing the other.
+    trap: C makes the checking one-sided, which the exchange was not.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the textbook model?
+    options:
+    - It defines payroll records for a reader
+    - It reports when the Nobel prize was shared
+    - It argues that the model was wrong
+    - It sets the expectation the finding broke
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: overreach
+    why: The sentence follows the survey result of no fall in employment and states what the standard
+      prediction had been.
+    trap: C convicts a model the text leaves standing and under argument.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says modest increases have small effects whose sign varies. Based on Text 2, which
+      choice best explains why the local market matters?
+    sibling: SOC-S08-L2
+    sibling_gloss: Text 2 is passage 98 of this book. It sets a wage between a ceiling and a reservation
+      wage and says bargaining power, which depends on how many alternatives each side has, settles
+      where in between the wage lands.
+    options:
+    - Adam Smith named the elements in 1776
+    - The first job a worker takes sets the next
+    - Bargaining power depends on the alternatives each side has
+    - A reservation wage is the lowest pay accepted
+    key: C
+    moves:
+      A: true_not_asked
+      B: true_not_asked
+      D: near_miss
+    why: Text 2 says bargaining power depends on how many alternatives each side has, which is a feature
+      of the local labor market.
+    trap: D names the floor rather than what moves between the floor and the ceiling.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The response was immediate and technical. ___ David Neumark and William Wascher obtained
+      payroll records for a sample of the same restaurants.
+    options:
+    - By contrast,
+    - In particular,
+    - In other words,
+    - Even so,
+    key: B
+    moves:
+      A: wrong_direction
+      C: restatement
+      D: wrong_direction
+    why: The second sentence names the particular response just announced in general terms, so the
+      transition must mark a specification.
+    trap: D sets the response against the sentence that introduces it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Neither paper settled the matter ___ and both improved the field.
+    options:
+    - matter and
+    - matter; and
+    - matter and,
+    - matter, and
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: misplaced
+    why: The clause saying both improved the field is independent, so the conjunction joining it to
+      the clause about the matter takes a comma.
+    trap: A runs the clause about the matter straight into the clause about the field.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain what the exchange left behind. Which choice most effectively
+      uses relevant information from the notes to accomplish that goal?
+    goal: explain what the exchange left behind
+    notes:
+    - Neither paper settled the matter and both improved the field.
+    - The dispute drove work using administrative data and borders.
+    - The reciprocal checking of methods is now standard practice.
+    - Both data sets were eventually released.
+    options:
+    - Neither paper settled the matter and both improved the field
+    - A method of mutual checking and a generation of work on administrative data
+    - Both of the data sets were eventually released
+    - The reciprocal checking of methods is now standard practice
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names both of the lasting results the notes give, the checking practice
+      and the body of later work.
+    trap: D names one legacy and leaves the other out.
+- id: SOC-S09-L3
+  summary_ar:
+    khulasa: 'المقياس القياسيّ لعدم المساواة يبدأ برسم: منحنى لورنز، أي رسم للحصّة التراكمية من الدخل
+      التي يحوزها الأفقر من حصّة تراكمية من السكّان، يجري من أسفل اليسار إلى أعلى اليمين في مربّع.'
+    maana: المعنى أنّ المساواة التامّة ستكون قُطر ذلك المربّع، حيث يحوز العُشر الأفقر عُشر الدخل بالضبط،
+      وكلّ توزيع واقعيّ يتهدّل تحته. ومعامل جيني، أي رقم واحد يلخّص بعد التوزيع عن المساواة، هو المساحة
+      بين المنحنى والقُطر، مقيسة من الصفر إلى الواحد.
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: ويُسر الرقم الواحد هو عيبه أيضًا،
+      فقيمة جيني نفسها قد تنتج من توزيعات شديدة الاختلاف: فبلد يحوز فيه الواحد في المئة الأعلى كثيرًا
+      وبقيّته متشابهة قد يشارك معاملًا بلدًا تمرّ فيه الفجوة في الوسط.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب قيمة جيني الواحدة دالّة على توزيع واحد، مع أنّ النصّ ينفي ذلك.
+      ويقترن المقطع بالمقطع التاسع والتسعين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The Lorenz curve runs from corner to corner of a square
+    - One figure is convenient and the least informative available
+    - The same Gini value always means the same distribution
+    - Comparisons across countries are easy to make
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: wrong_direction
+    why: The text calls the convenience of one number its defect, shows the same value coming from
+      different distributions, and says a report giving a Gini alone gives the least informative summary.
+    trap: C denies the multiplicity the text builds its case on.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does the Palma ratio compare?
+    options:
+    - The ninetieth percentile with the tenth
+    - Inequality within regions with that between them
+    - The curve with the diagonal of the square
+    - The top tenth with the bottom four tenths
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: near_miss
+    why: The text says the Palma ratio compares the top tenth with the bottom four tenths, on the
+      argument that the middle half changes little.
+    trap: A gives the percentile ratio rather than the Palma.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that one value can hide two
+      different problems?
+    claim: one value can hide two different problems
+    options:
+    - «A country where the top one percent hold a great deal and the rest are similar to one another
+      can share a coefficient with a country where the gap runs through the middle»
+    - «Perfect equality would be the diagonal of that square, where the poorest tenth hold exactly
+      a tenth of the income»
+    - «The measure is also least sensitive at the two ends, which is where the political argument
+      usually is»
+    - «Serious work reports more than one, and a report that gives a Gini alone is giving the least
+      informative summary available»
+    key: A
+    moves:
+      B: true_not_asked
+      C: near_miss
+      D: near_miss
+    why: The quotation sets two differently shaped distributions side by side and says they can share
+      the same coefficient.
+    trap: C names a different limitation of the measure rather than the sharing of a value.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The measure is also least sensitive at the two ends, which is where the political argument
+      usually is. A reform aimed at the very top would therefore ___
+    options:
+    - move the coefficient sharply
+    - flatten the Lorenz curve entirely
+    - show up faintly in the Gini
+    - be captured by the Theil index alone
+    key: C
+    moves:
+      A: wrong_direction
+      B: overreach
+      D: imported
+    why: The measure is said to be least sensitive at the ends, so a change concentrated at the very
+      top registers only weakly in it.
+    trap: A expects a sharp movement where the text reports least sensitivity.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «disparity» most nearly mean?
+    target: disparity
+    options:
+    - a loss of hope
+    - a gap between shares
+    - a single summary figure
+    - a curve drawn on a square
+    key: B
+    moves:
+      A: imported
+      C: wrong_direction
+      D: imported
+    why: The text says policies reducing one disparity will not touch the other, after describing
+      two different gaps in a distribution.
+    trap: C makes the word name the measure rather than what it measures.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about serious work?
+    options:
+    - It draws the practical rule from the comparison
+    - It defines the Lorenz curve for a reader
+    - It reports what the Theil index decomposes
+    - It argues that the Gini should be banned
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: overreach
+    why: The sentence follows the three alternatives and says serious work reports more than one,
+      calling a Gini alone the least informative summary.
+    trap: D bans a measure the text keeps as one of several.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says a single figure can hide the shape of a distribution. Based on Text 2, which
+      choice best names a further thing it can hide?
+    sibling: SOC-S09-L2
+    sibling_gloss: Text 2 is passage 99 of this book. It separates income, wealth and mobility and
+      says any serious argument about inequality has to state which of the three quantities it is
+      about, while a good many never do.
+    options:
+    - The Palma ratio of the top tenth
+    - The sensitivity of the measure at the ends
+    - The survey that the very rich did not answer
+    - Whether the figure is about income or wealth
+    key: D
+    moves:
+      A: imported
+      B: restatement
+      C: near_miss
+    why: Text 2 says any serious argument about inequality has to say which of income, wealth and
+      mobility it is about, and that a good many never do.
+    trap: B repeats a limitation Text 1 has already given.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The convenience of one number is also its defect. ___ the same Gini value can be produced
+      by very different distributions.
+    options:
+    - By contrast,
+    - Even so,
+    - After all,
+    - For instance,
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: near_miss
+    why: The second sentence gives the reason the convenience is also a defect, so the transition
+      must mark a ground.
+    trap: B sets the shared coefficient against the defect it demonstrates.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A percentile ratio compares the income at the ninetieth percentile with the tenth ___
+      and that is easy to interpret.
+    options:
+    - tenth, and
+    - tenth and
+    - tenth; and
+    - tenth and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause saying that is easy to interpret is independent, so the conjunction joining it
+      to the clause about the percentile ratio takes a comma.
+    trap: B runs the clause about the ratio straight into the clause about interpretation.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why a single coefficient should never stand alone. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why a single coefficient should never stand alone
+    notes:
+    - The same Gini value can come from very different distributions.
+    - The measure is least sensitive at the two ends.
+    - Alternatives are chosen for what they expose.
+    - Serious work reports more than one.
+    options:
+    - The same Gini value can come from very different distributions
+    - The measure is least sensitive at the two ends
+    - One figure hides the shape and the ends, so serious work reports several
+    - Serious work in the field reports more than one measure
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice joins the two blind spots the notes name to the practice of reporting more
+      than one measure.
+    trap: B names one blind spot without the practice it argues for.
+- id: SOC-S10-L3
+  summary_ar:
+    khulasa: بُنيت أدبيّات الحكم والقرار من دراسات صغيرة، كثيرًا على الطلّاب، تُحلَّل بعد الواقعة.
+      ومن نحو سنة ألفين وإحدى عشرة نظّم علماء نفس في فرجينيا وغيرها محاولات منهجية لإعادة أشهر النتائج،
+      ففرزت النتائج المجالَ أقسامًا.
+    maana: 'المعنى أنّ إعادات منسّقة كبيرة أكّدت الآثار الجوهرية بمقادير أقلّ: فالتثبيت نجا نجاةً
+      قويّة، والتأطير نجا، ونُفور الخسارة نجا وحجمه متنازَع فيه. وعدّة نتائج مُدرَّسة على نطاق واسع
+      لم تنجُ البتّة.'
+    ahammiyya: 'في مجال العلوم الاجتماعية هذه المادة في مستوى الدليل: وعُيّن سببان: الأوّل تحيّز النشر،
+      أي ميل النتائج الموجبة إلى النشر وبقاء النتائج الصفرية في الأدراج، وهو ينفخ حجم كلّ أثر في أدبيّة.
+      والثاني المرونة في التحليل.'
+    sila: في اختبار سات يكثر السؤال عن الفكرة الرئيسة وعن الدليل الذي يسند دعوى وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُقرأ الحادثة إسقاطًا للمجال، مع أنّ النصّ يسمّيها قياسًا للمجال أجراه
+      المجال نفسه. ويقترن المقطع بالمقطع المئة.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Systematic replication began around 2011
+    - Anchoring and framing both survived replication
+    - The strongest effects are real and smaller than advertised
+    - The episode showed the field to be worthless
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: wrong_direction
+    why: The text separates the surviving effects from the ones that did not, names the two mechanisms
+      and the remedies, and ends on the strongest effects being real and smaller than advertised.
+    trap: D discards a field the text says measured itself successfully.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what does a registered report add?
+    options:
+    - Acceptance on the design before any results
+    - A plan published before data collection
+    - A larger sample of student participants
+    - A ban on excluding any outliers
+    key: A
+    moves:
+      B: near_miss
+      C: imported
+      D: imported
+    why: The text says registered reports go further because a journal accepts the study on its design
+      before any results exist.
+    trap: B gives preregistration, which the registered report goes beyond.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that a significant result
+      can come from noise without dishonesty?
+    claim: a significant result can come from noise without dishonesty
+    options:
+    - «Large coordinated replications confirmed the core effects with reduced magnitudes»
+    - «A researcher who may choose when to stop collecting data, which outliers to exclude, and which
+      of several outcomes to report can produce a significant result from noise without any dishonesty»
+    - «Published effect sizes in preregistered work are smaller and more stable than in the older
+      literature»
+    - «publication bias, meaning the tendency for positive results to be published while null results
+      stay in drawers»
+    key: B
+    moves:
+      A: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation lists the choices available to a researcher and says they can produce a significant
+      result from noise without any dishonesty.
+    trap: D names the other mechanism rather than the one the claim describes.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Registered reports go further, since a journal accepts the study on its design before
+      any results exist, which removes the incentive to produce a positive finding at all. A null
+      result under that arrangement would therefore ___
+    options:
+    - stay in a drawer unpublished
+    - have to be reanalyzed first
+    - inflate the apparent effect size
+    - be published like any other
+    key: D
+    moves:
+      A: wrong_direction
+      B: imported
+      C: wrong_direction
+    why: Acceptance on the design before any results exist removes the incentive to produce a positive
+      finding, so a null result is published on the same terms.
+    trap: A leaves the null result where publication bias would have put it.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «endemic» most nearly mean?
+    target: endemic
+    options:
+    - spreading quickly
+    - confined to one place
+    - present throughout
+    - recently arrived
+    key: C
+    moves:
+      A: near_miss
+      B: imported
+      D: wrong_direction
+    why: The text says the number of available choices was large enough to make the problem endemic,
+      so the word names a fault running through the whole literature.
+    trap: B narrows a general condition to a single location.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the final sentence about other fields?
+    options:
+    - It defines publication bias for a reader
+    - It widens the case beyond psychology
+    - It reports which effects survived the tests
+    - It denies that the exercise was useful
+    key: B
+    moves:
+      A: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The last sentence says economics, medicine and political science have since run versions
+      of the same exercise with much the same result.
+    trap: D dismisses an exercise the text calls a measurement of the field.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports that anchoring survived robustly. Based on Text 2, which choice best describes
+      the effect that survived?
+    sibling: SOC-S10-L2
+    sibling_gloss: Text 2 is passage 100 of this book. It defines anchoring as the pull of an irrelevant
+      number on a later estimate and reports that the effect survives even when the subjects are told
+      the number is random.
+    options:
+    - An irrelevant number pulls a later estimate
+    - Examples that come to mind easily seem common
+    - The same choice framed two ways splits a decision
+    - A random error cancels over many judgments
+    key: A
+    moves:
+      B: near_miss
+      C: near_miss
+      D: wrong_direction
+    why: Text 2 defines anchoring as the pull of an irrelevant number on a later estimate and reports
+      that it survives even when the number is known to be random.
+    trap: C names framing, which Text 1 lists as a separate survivor.
+  - slot: 8
+    type: transitions
+    difficulty: medium
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The remedies that followed were procedural rather than theoretical. ___ preregistration
+      removes most of that flexibility at a stroke.
+    options:
+    - By contrast,
+    - Even so,
+    - In other words,
+    - For instance,
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: restatement
+    why: The second sentence gives the first of the procedural remedies just announced, so the transition
+      must mark an example.
+    trap: B sets the remedy against the sentence that introduces it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The judgment and decision literature was built from small studies ___ and those studies
+      were often analyzed after the fact.
+    options:
+    - studies and
+    - studies, and
+    - studies; and
+    - studies and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the studies being analyzed after the fact is independent, so the conjunction
+      joining it to the clause about the literature takes a comma.
+    trap: A runs the clause about the literature straight into the clause about the analysis.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the episode is better called a measurement than a crisis.
+      Which choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the episode is better called a measurement than a crisis
+    notes:
+    - The attempts to repeat the findings were organized by psychologists.
+    - Core effects were confirmed with reduced magnitudes.
+    - Several widely taught results failed to survive.
+    - The main result is that the strongest effects are real and smaller.
+    options:
+    - The attempts to repeat the findings were organized by psychologists
+    - Core effects were confirmed with reduced magnitudes
+    - Several widely taught results failed to survive the tests
+    - The field measured itself and found its best effects real and smaller
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice names who did the measuring and what it established, which is the reading
+      the notes support.
+    trap: B reports the confirmation without the self-examination that produced it.
