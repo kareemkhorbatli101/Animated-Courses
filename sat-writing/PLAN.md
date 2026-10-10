@@ -440,7 +440,27 @@ check H6 became *the key is neither reliably the longest option nor reliably the
 shortest*, capped at thirty per cent each. That is a stronger claim than the ratio
 ever made.
 
-**3. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
+**3. Check F8 was "no two exercises offer the same four options", which this book
+cannot satisfy and should not.** The conventions chapters draw their options from a
+small closed family of auxiliaries — *is / are / has been / was being* and its
+neighbours — and the real test reuses them constantly; the thing that must differ is
+the carrier, which check G1 proves for all 750. F8 now reads *no part repeats an
+option set, and none is the habit of the book*: distinct within each part, and no
+single set used more than thirty times in 750. That is the anti-cloning claim the
+check was reaching for.
+
+**4. The key was never the longest option, in all fifty exercises of the pilot
+chapter.** Found by H6, and the more interesting half of the finding is that H6 as
+first written would have passed it: a one-sided cap of "no more than thirty per cent"
+is satisfied by zero per cent, and a book in which the key is never the longest hands
+the student a free elimination on every question. H6 is now two-sided — the key must
+fall at each extreme between eight and forty per cent of the time — and five
+exercises per chapter are built so that the correct answer is the longest option. The
+general lever found here is worth recording: include one distractor shorter than the
+key and one longer, which for an auxiliary key means a short tense-shift distractor
+such as *is* against a key of *was*.
+
+**5. `has_finite` read "having collapsed" as finite.** Found by `wlex.py`'s own
 test suite before any exercise was written. Finiteness is carried by the first
 auxiliary of a verb phrase, so a verb standing after *to*, *having*, *been* or
 *being* is a participle however it is spelled; without that, every *-ed* word read

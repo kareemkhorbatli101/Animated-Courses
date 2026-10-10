@@ -568,10 +568,19 @@ def book_checks(chapters, xs, xres):
                  if any(a != b and xemit.token_contains(x['options'][a], x['options'][b])
                         for a in range(4) for b in range(4))]
     ck('F7 no option contained inside another', not contained, '%d contained' % len(contained))
+    # Not "no option set twice in the book": the conventions chapters draw their
+    # options from a small closed family of auxiliaries -- is/are/has been/was
+    # being and its neighbours -- and the real test reuses them constantly. What
+    # matters is that no part repeats itself and that no one set becomes the
+    # book's habit. The carriers are what must all differ, and G1 proves that.
+    inpart = [(c, p['domain']) for c, p in parts
+              if len({tuple(sorted(x['options'])) for x in p['exercises']})
+              != len(p['exercises'])]
     sig = collections.Counter(tuple(sorted(x['options'])) for x in xs)
-    ck('F8 no two exercises offer the same four options',
-       all(v == 1 for v in sig.values()),
-       '%d repeated sets' % sum(1 for v in sig.values() if v > 1))
+    worstset = max(sig.values()) if sig else 0
+    ck('F8 no part repeats an option set, and none is the habit of the book',
+       not inpart and worstset <= 30,
+       '%d parts repeat; commonest set used %d times' % (len(inpart), worstset))
     noctx = [(x['id'], v['move']) for x, _, v in allf
              if v['move'] in wlex.PREDICATES
              and wlex.PREDICATES[v['move']][0] == 'number'
@@ -669,11 +678,15 @@ def book_checks(chapters, xs, xres):
     shortest = sum(1 for x in xs
                    if len(x['options'][LABELS.index(x['key'])])
                    == min(len(o) for o in x['options']))
-    lim = R['key_extreme_max']
-    ck('H6 the key is neither reliably the longest option nor reliably the shortest',
-       nx and longest / nx <= lim and shortest / nx <= lim,
-       'longest %.0f%%, shortest %.0f%%, limit %.0f%%'
-       % (100 * longest / nx, 100 * shortest / nx, 100 * lim) if nx else '')
+    # Two-sided on purpose. A one-sided cap would be satisfied by a book in which
+    # the key is NEVER the longest option, and that is a tell of its own: a student
+    # who notices it gets to strike one option free on every question. The key has
+    # to land at both extremes often enough that length carries no information.
+    lo2, hi2 = R['key_extreme_min'], R['key_extreme_max']
+    ck('H6 option length carries no information about where the key is',
+       nx and lo2 <= longest / nx <= hi2 and lo2 <= shortest / nx <= hi2,
+       'key longest %.1f%%, shortest %.1f%%, band %.0f-%.0f%%'
+       % (100 * longest / nx, 100 * shortest / nx, 100 * lo2, 100 * hi2) if nx else '')
     mixed = [x['id'] for x in xs
              if len({o.rstrip()[-1] == '.' for o in x['options'] if o.rstrip()}) != 1]
     ck('H7 uniform end punctuation inside every option set', not mixed, '%d mixed' % len(mixed))

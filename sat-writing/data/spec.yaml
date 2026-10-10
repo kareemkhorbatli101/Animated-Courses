@@ -240,7 +240,8 @@ exercise_rules:
   option_ratio_max: 2.40
   option_short_chars: 12
   option_spread_max: 14
-  key_extreme_max: 0.30
+  key_extreme_min: 0.08
+  key_extreme_max: 0.40
   why_words: [8, 40]
   trap_words: [6, 30]
   notes_min: 3
