@@ -1001,8 +1001,8 @@ SETS.append(dict(
                   'Standard English?',
              opts=['further and', 'further; and', 'further, and', 'further, it'],
              key='C', moves={'A': 'run_on', 'B': 'wrong_mark', 'D': 'comma_splice'},
-             why='Two independent clauses joined by a coordinating conjunction take a comma before '
-                 'the conjunction.',
+             why='Going further and being the clearest case are each a complete clause, so the '
+                 'conjunction between them needs a comma before it.',
              trap='D drops the conjunction and joins the clauses with a comma, which is a splice.'),
         dict(goal='explain to a reader why two statutes of the same decade worked at different '
                   'speeds',
@@ -1286,7 +1286,7 @@ SETS.append(dict(
              key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'wrong_mark'},
              why='Two independent clauses with no conjunction between them need a semicolon rather '
                  'than a comma, a colon, or nothing at all.',
-             trap='B joins two independent clauses with a comma alone, which is a splice.'),
+             trap='B sets a comma between the two directions, each of which is a full clause.'),
         dict(goal='explain to a reader why emergency powers are hard to challenge at the time',
              notes=['Delegation grants broad authority without specifying what will be done.',
                     'Ordinary procedure is suspended, which shortens the distance between '

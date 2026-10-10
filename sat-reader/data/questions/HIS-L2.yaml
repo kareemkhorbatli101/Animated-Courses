@@ -1460,7 +1460,8 @@ sets:
       A: run_on
       B: wrong_mark
       D: comma_splice
-    why: Two independent clauses joined by a coordinating conjunction take a comma before the conjunction.
+    why: Going further and being the clearest case are each a complete clause, so the conjunction
+      between them needs a comma before it.
     trap: D drops the conjunction and joins the clauses with a comma, which is a splice.
   - slot: 10
     type: synthesis
@@ -1884,7 +1885,7 @@ sets:
       D: wrong_mark
     why: Two independent clauses with no conjunction between them need a semicolon rather than a comma,
       a colon, or nothing at all.
-    trap: B joins two independent clauses with a comma alone, which is a splice.
+    trap: B sets a comma between the two directions, each of which is a full clause.
   - slot: 10
     type: synthesis
     difficulty: hard

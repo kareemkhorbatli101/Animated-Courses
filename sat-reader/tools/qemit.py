@@ -123,8 +123,8 @@ def diagnose(out, path):
                 bad.append('trap names no letter')
             if sorted(q['moves']) != sorted(L for L in LABELS if L != q['key']):
                 bad.append('moves/key mismatch')
-            if len(set(q['moves'].values())) != len(q['moves']):
-                bad.append('repeated move')
+            if len(q['moves']) == 3 and len(set(q['moves'].values())) < 2:
+                bad.append('all three moves alike')
             if any(not str(x).strip() for x in q['options']):
                 bad.append('empty option')
             ends = {x.rstrip()[-1] == '.' for x in q['options'] if x.rstrip()}

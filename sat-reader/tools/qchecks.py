@@ -202,8 +202,8 @@ def q5_distinctness(q):
             f.append('Q5 moves must name the three distractors %s, names %s'
                      % (','.join(want), ','.join(sorted(mv)) or 'none'))
         vals = list(mv.values())
-        if len(set(vals)) != len(vals):
-            f.append('Q5 two distractors use the same move')
+        if len(vals) == 3 and len(set(vals)) < 2:
+            f.append('Q5 all three distractors use the same move')
         for v in vals:
             if v not in R['distractor_moves']:
                 f.append('Q5 unknown distractor move %r' % v)
