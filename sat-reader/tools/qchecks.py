@@ -101,9 +101,15 @@ def content(text):
 
 
 def run_in(carrier, flat, n=6):
-    ws = [w for w in re.split(r'\s+', re.sub(r'_+', ' ', str(carrier))) if w]
+    """Does the carrier share a run of n words with the passage? Compared on words
+    alone: a carrier that ends a borrowed clause with a period where the passage had
+    a comma is still built from the passage."""
+    def norm(t):
+        return re.findall(r"[a-z0-9']+", str(t).lower())
+    ws = norm(re.sub(r'_+', ' ', str(carrier)))
+    hay = ' '.join(norm(flat))
     for i in range(len(ws) - n + 1):
-        if ' '.join(ws[i:i + n]) in flat:
+        if ' '.join(ws[i:i + n]) in hay:
             return True
     return False
 
