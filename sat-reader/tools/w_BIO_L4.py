@@ -1,0 +1,1447 @@
+"""Biology and Earth Science, Level 4: ten question sets."""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import qemit                                                            # noqa: E402
+
+Q = '«%s»'.__mod__
+FIELD, LEVEL = 'BIO', 4
+
+SETS = []
+
+# --- 1 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='BIO-S01-L4',
+    ar=dict(
+        khulasa='كان الافتراض العامل قرنًا بعد داروين أنّ كلّ صفة شائعة في كائن قد فضّلها '
+                'الانتقاء، وأنّ العمل هو البحث عن وجه النفع. ثمّ اقترح موتو كيمورا سنة ألف '
+                'وتسعمئة وثمان وستّين أنّ معظم التغيّر على المستوى الجزيئي محايد، لا ينفع '
+                'ولا يضرّ، وأنّ انتشاره يخضع للانزياح العشوائي.',
+        maana='المعنى أنّ دليله حسابيّ: معدّل اختلاف تتابعات البروتين بين الأنواع أعلى بكثير '
+              'من أن يفسّره انتقاء يعمل على كلّ تغيّر. والجدال الذي تلا ذلك خلاف في الأصل '
+              'المفترض لا في الآليات، فلم ينكر أحد وقوع الانزياح ولا وقوع الانتقاء، وإنّما '
+              'السؤال أيّهما يُفترض عند غياب الدليل.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: حسمت بيانات '
+                  'التتابع معظمه، فمال الحكم إلى المحايديّين على المستوى الجزيئي وإلى '
+                  'الانتقائيّين على مستوى الصفات الظاهرة.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسند دعوى وعن وظيفة '
+             'الجملة التي تعيد صياغة الخلاف. والفخّ المتوقّع هنا أن يُحسب الخلاف إنكارًا '
+             'لإحدى العمليتين، مع أنّ النصّ ينصّ على أنّ أحدًا لم ينكر. ويقترن المقطع '
+             'بالمقطع المئة والحادي عشر في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Kimura had to argue his case in English',
+                   'The dispute was about which assumption to make, not about mechanisms',
+                   'Nobody accepted that drift happens at all',
+                   'Protein sequences differ between species'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'wrong_direction', 'D': 'underreach'},
+             why='The text says the argument is worth understanding as a dispute about defaults, '
+                 'since nobody denied either process and the question was which to assume without '
+                 'evidence.',
+             trap='C contradicts the text, which says nobody denied that drift happens.'),
+        dict(stem='According to the text, how did the settlement divide between the two camps?',
+             opts=['It went to the selectionists at every level',
+                   'It went to the neutralists at every level',
+                   'It left both positions entirely undecided',
+                   'Molecular change to one camp, visible traits to the other'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'wrong_direction', 'C': 'near_miss'},
+             why='The text says the settlement went mostly to the neutralists at the molecular '
+                 'level and mostly to the selectionists at the level of visible traits.',
+             trap='C denies a settlement the text says sequencing data largely produced.'),
+        dict(claim='the dispute has left a working procedure rather than a winner',
+             stem='Which quotation from the text most strongly supports the claim that the dispute '
+                  'has left a working procedure rather than a winner?',
+             opts=[Q('The practical consequence is a test rather than a doctrine: a researcher '
+                     'comparing the two classes of change in a gene can say whether selection '
+                     'has acted on it'),
+                   Q('His evidence was arithmetical: the rate at which protein sequences were '
+                     'found to differ between species was far too high to be explained by '
+                     'selection operating on each change'),
+                   Q('Selectionists held that an apparently useless difference usually has a use '
+                     'that has not been found'),
+                   Q('Changes that do not alter a protein accumulate at a steady rate, as drift '
+                     'predicts')],
+             key='A', moves={'B': 'true_not_asked', 'C': 'near_miss', 'D': 'near_miss'},
+             why='The quotation names the outcome as a test a researcher can apply to any gene '
+                 'rather than a position either camp won, which is the claim exactly.',
+             trap='D gives one half of the settlement rather than the procedure it leaves '
+                  'behind.'),
+        dict(carrier='Changes that do not alter a protein accumulate at a steady rate, as drift '
+                     'predicts, and that steadiness is now used as a clock. A clock of that kind '
+                     'therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['depends on selection acting on each change',
+                   'measures the strength of an advantage',
+                   'works because nothing is pushing those changes',
+                   'runs faster in species with larger populations'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'D': 'imported'},
+             why='A steady rate follows from change by chance alone, so the clock depends on the '
+                 'absence of selection rather than on its presence.',
+             trap='A requires the very process that the steady rate rules out.'),
+        dict(target='novel',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('novel'),
+             opts=['written as fiction', 'newly appeared', 'strange and useless',
+                   'already explained'],
+             key='B', moves={'A': 'imported', 'C': 'overreach', 'D': 'wrong_direction'},
+             why='Neutralists held that a novel feature should be presumed accidental until an '
+                 'advantage is shown, so the word marks the feature as newly arisen.',
+             trap='C adds a verdict about usefulness that the word itself does not carry.'),
+        dict(stem='Which choice best describes the function of the sentence calling this a dispute '
+                  'about defaults?',
+             opts=['It reframes the argument so that both sides can be stated',
+                   'It introduces the molecular clock for the first time',
+                   'It concedes that neither process really occurs',
+                   'It reports the year in which Kimura published'],
+             key='A', moves={'B': 'detail_swap', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='The sentence comes between the evidence and the two positions, and it tells a '
+                 'reader that what follows is a disagreement about where the burden of proof '
+                 'lies.',
+             trap='C denies both processes, though the text says nobody denied either.'),
+        dict(sibling='BIO-S01-L3',
+             sibling_gloss='Text 2 is passage 111 of this book. It reports forty years of banding '
+                           'on Daphne Major, a drought in 1977 that killed about eighty-five '
+                           'percent of the medium ground finches, and a measured rise in mean '
+                           'beak depth with the selective agent identified.',
+             stem='Text 1 asks which process should be assumed. Based on Text 2, what would be '
+                  'added to that question?',
+             opts=['Changes that alter a protein show the signature of selection',
+                   'Drift governs the spread of a neutral change',
+                   'Beak depth is governed by chance rather than by seeds',
+                   'A case in which the selective agent was actually named'],
+             key='D', moves={'A': 'restatement', 'B': 'restatement', 'C': 'wrong_direction'},
+             why='Text 2 identifies the agent and measures the response, which is the '
+                 'demonstration that neutralists demand before an advantage may be assumed.',
+             trap='B repeats a definition Text 1 has already given rather than adding anything.'),
+        dict(carrier='Nobody denied that drift happens or that selection happens. ___ the question '
+                     'was which should be assumed in the absence of evidence.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Likewise,', 'For instance,', 'Instead,', 'As a result,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'near_miss', 'D': 'near_miss'},
+             why='The second sentence replaces the denial just ruled out with the real question, '
+                 'so the transition must mark a substitution rather than a likeness or a '
+                 'consequence.',
+             trap='D reads the question about defaults as following from the agreement about both '
+                  'processes.'),
+        dict(carrier='His evidence was arithmetical ___ the rate at which protein sequences differ '
+                     'between species was far too high to be explained by selection.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['arithmetical: the', 'arithmetical, the', 'arithmetical the',
+                   'arithmetical; the,'],
+             key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'misplaced'},
+             why='A colon introduces the arithmetic that the sentence has just announced, which a '
+                 'comma between two independent clauses cannot do.',
+             trap='B joins the clause about the rate to the announcement with a comma alone.'),
+        dict(goal='explain why sequencing could settle a dispute about defaults',
+             notes=['Changes that do not alter a protein accumulate at a steady rate, as drift '
+                    'predicts.',
+                    'Changes that alter a protein show the signature of selection.',
+                    'The settlement went mostly to the neutralists at the molecular level.',
+                    'A researcher comparing the two classes of change can say whether selection '
+                    'has acted.'],
+             stem='The student wants to explain why sequencing could settle a dispute about '
+                  'defaults. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Changes that alter a protein show the signature of selection',
+                   'The settlement went mostly to the neutralists at the molecular level',
+                   'The two classes of change behave differently, so a gene can be compared '
+                   'against both and no default has to be assumed',
+                   'Kimura argued from the rate at which protein sequences differ'],
+             key='C', moves={'A': 'underreach', 'B': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice explains that the comparison removes the need for an '
+                 'assumption, which is what makes it a settlement of a dispute about defaults.',
+             trap='B names who won without saying what replaced the assumption.'),
+    ]))
+
+# --- 2 -------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='BIO-S02-L4',
+    ar=dict(
+        khulasa='نسبة التوريث أكثر رقم يُساء فهمه في الأحياء، وسوء الفهم محدّد: فالمصطلح '
+                'يعني حصّة التباين في صفة ما، داخل جماعة واحدة بعينها في زمن واحد، المرتبطة '
+                'بالتباين الوراثي في تلك الجماعة. وهو ليس حكمًا على فرد، ولا حكمًا على مقدار '
+                'ما يمكن تغييره من الصفة.',
+        maana='المعنى أنّ الطول عالي التوريث وقد ارتفع مع ذلك عدّة إنشات في بلدان كثيرة في '
+              'جيلين، وليس هذا تناقضًا بل بيانًا أنّ الرقم لا يقول شيئًا عن أثر تغيير '
+              'البيئة. ثمّ جاء عصر الجينوم بمفاجأة: المتغيّرات المعروفة مجموعةً تفسّر أقلّ '
+              'بكثير مما أوحت دراسات التوائم.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: قراءتان باقيتان '
+                  'لتلك الفجوة، إحداهما أنّ تقديرات التوائم انتفخت بالبيئة المشتركة، '
+                  'والأخرى أنّ التباين موزّع على آلاف المتغيّرات الضئيلة الأثر، وكلتاهما '
+                  'تتنبّأ بما يُختبر.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل وعن معنى كلمة في سياقها. '
+             'والفخّ المتوقّع هنا أن يُستنتج أنّ الصفة الموروثة ثابتة لا تتغيّر، مع أنّ '
+             'النصّ ينفي ذلك صراحة. ويقترن المقطع بالمقطع المئة والثاني عشر في أسئلة النصّين '
+             'المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Twin studies were run in Minnesota',
+                   'A heritable trait cannot be changed by the environment',
+                   'A number about variation in a population says nothing about an individual',
+                   'The policy misuse of these numbers has a long history'],
+             key='C', moves={'A': 'underreach', 'B': 'wrong_direction', 'D': 'true_not_asked'},
+             why='The text defines heritability as a proportion of variation within one population '
+                 'and says twice that it is not a statement about an individual or about how much '
+                 'a trait can change.',
+             trap='B states the inference the text says nothing in the number supports.'),
+        dict(stem='According to the text, what does the height example demonstrate?',
+             opts=['That the number says nothing about changing the environment',
+                   'That twin studies overstate shared environment',
+                   'That height is not in fact heritable',
+                   'That identified variants explain most of the variation'],
+             key='A', moves={'B': 'detail_swap', 'C': 'wrong_direction', 'D': 'wrong_direction'},
+             why='The text says height is highly heritable and also rose by several inches in two '
+                 'generations, which demonstrates that the number says nothing about the effect '
+                 'of changing the environment.',
+             trap='C denies the heritability that the example depends on.'),
+        dict(claim='the two readings of the gap are not idle positions',
+             stem='Which quotation from the text most strongly supports the claim that the two '
+                  'readings of the gap are not idle positions?',
+             opts=[Q('they have been attacked most seriously on the ground that identical twins '
+                     'are treated more alike'),
+                   Q('Both predict testable things and both have been partly borne out'),
+                   Q('That gap has narrowed with larger samples and better methods and has not '
+                     'closed'),
+                   Q('the variation is spread across many thousands of variants of very small '
+                     'effect, most still undetected')],
+             key='B', moves={'A': 'true_not_asked', 'C': 'near_miss', 'D': 'near_miss'},
+             why='The quotation says both readings make testable predictions and both have been '
+                 'partly confirmed, which is what makes them live positions rather than '
+                 'postures.',
+             trap='C reports the state of the gap rather than the standing of the two readings.'),
+        dict(carrier='What neither supports is the inference that a heritable trait is fixed, since '
+                     'a highly plastic trait can be heritable and a trait with low heritability '
+                     'can be impossible to shift. Heritability and changeability are therefore '
+                     '___',
+             stem='Which choice most logically completes the text?',
+             opts=['the same quantity under two names',
+                   'both measured by the same twin studies',
+                   'opposites, so that one rules out the other',
+                   'two different things that may vary apart'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'C': 'wrong_direction'},
+             why='The text gives an example in each direction, a plastic trait that is heritable '
+                 'and a stubborn trait that is not, so neither quantity fixes the other.',
+             trap='C turns independence into opposition, which the two examples rule out.'),
+        dict(target='plastic',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('plastic'),
+             opts=['made of synthetic material', 'fixed in its final form',
+                   'readily changed by conditions', 'measured with a twin study'],
+             key='C', moves={'A': 'imported', 'B': 'wrong_direction', 'D': 'imported'},
+             why='The sentence says a highly plastic trait can still be heritable, so the word '
+                 'names a trait that conditions can readily change.',
+             trap='B reverses the sense, since the example turns on a trait that does change.'),
+        dict(stem='Which choice best describes the function of the two readings set out near the '
+                  'end?',
+             opts=['They introduce the definition of missing heritability',
+                   'They show an open question still being worked on',
+                   'They withdraw heritability as a useless number',
+                   'They report the attack on the twin method'],
+             key='B', moves={'A': 'detail_swap', 'C': 'overreach', 'D': 'detail_swap'},
+             why='The text says two readings persist, gives each one, and adds that both make '
+                 'testable predictions and have been partly borne out, which marks the question '
+                 'as live.',
+             trap='C reads a disagreement about one gap as a verdict against the measure.'),
+        dict(sibling='BIO-S02-L3',
+             sibling_gloss='Text 2 is passage 112 of this book. It traces linkage maps, physical '
+                           'mapping and sequencing, and says that a sequence gives the letters '
+                           'and not their function, so a correlation between a variant and a '
+                           'trait is not an explanation of it.',
+             stem='Text 1 describes a gap between two kinds of estimate. Based on Text 2, what '
+                  'would be added to that description?',
+             opts=['A reason that identified variants explain less than they seem to',
+                   'Heritability is a proportion of variation within one population',
+                   'Twin studies compare identical and non-identical pairs',
+                   'Sequencing has now closed the gap completely'],
+             key='A', moves={'B': 'restatement', 'C': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 says a sequence gives letters and not function, which is why adding up '
+                 'identified variants need not account for the variation a trait shows.',
+             trap='B repeats the definition Text 1 opens with rather than adding to it.'),
+        dict(carrier='That gap has narrowed with larger samples and better methods and has not '
+                     'closed. ___ two readings persist.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['By contrast,', 'For instance,', 'In other words,', 'Accordingly,'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'near_miss', 'C': 'restatement'},
+             why='The survival of two readings follows from a gap that has shrunk without '
+                 'disappearing, so the transition must mark a consequence rather than a contrast '
+                 'or a restatement.',
+             trap='C treats the two readings as another way of saying the gap is open.'),
+        dict(carrier='It is not a statement about an individual ___ and it is not a statement '
+                     'about how much a trait can be changed.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['individual and', 'individual, and', 'individual; and', 'individual and,'],
+             key='B', moves={'A': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about how much a trait can be changed is independent, so the '
+                 'conjunction joining it to the clause about an individual takes a comma before '
+                 'it.',
+             trap='A leaves the clause about an individual and the clause about change with no '
+                  'mark between them.'),
+        dict(goal='explain why a high heritability does not mean a trait is fixed',
+             notes=['Heritability is the proportion of variation within one population associated '
+                    'with genetic variation.',
+                    'Height is highly heritable and rose several inches in two generations.',
+                    'A highly plastic trait can be heritable.',
+                    'A trait with low heritability can be impossible to shift.'],
+             stem='The student wants to explain why a high heritability does not mean a trait is '
+                  'fixed. Which choice most effectively uses relevant information from the notes '
+                  'to accomplish that goal?',
+             opts=['Heritability is a proportion of variation within one population',
+                   'A trait with low heritability can still be impossible to shift at all',
+                   'A trait that conditions change readily can nevertheless be heritable',
+                   'The number describes variation in a population, which is why height can be '
+                   'highly heritable and still rise several inches in two generations'],
+             key='D', moves={'A': 'underreach', 'B': 'true_not_asked', 'C': 'underreach'},
+             why='Only this choice joins what the number measures to the case of a trait that is '
+                 'both heritable and changed, which is the point the goal needs.',
+             trap='C states one half of the independence without the measured example that shows '
+                  'it.'),
+    ]))
+
+# --- 3 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='BIO-S03-L4',
+    ar=dict(
+        khulasa='الصورة المدرسية للخلية مصنع: حُجَر لكلّ منها عمل، وخطوط نقل بينها، وغرفة '
+                'تحكّم في النواة، ومحطّة طاقة في الميتوكندريا. وهي صورة نافعة وهي خاطئة '
+                'تاريخيًّا خطأً يترتّب عليه أثر، فقد حجّت لين مارغوليس من الستّينيات بأنّ '
+                'الميتوكندريا والبلاستيدات ليست حُجَرًا بل أحفاد بكتيريا حرّة ابتُلعت ولم '
+                'تُهضم.',
+        maana='المعنى أنّ الدليل الذي أقنع الميدان من جنس لا يحتمل جدلًا كبيرًا: فللعُضيّتين '
+              'حمض نوويّ دائريّ من النوع البكتيريّ، وكلتاهما محفوفة بغشاء مزدوج كما يكون '
+              'الكائن المبتلَع، وكلتاهما تصنع ريبوسوماتها التي تشبه البكتيرية حتى تُسكتها '
+              'مضادّات البكتيريا، وكلتاهما تنقسم بجدولها.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: الباقي متنازعًا '
+                  'فيه هو إلى أيّ حدّ تُدفع الصورة الاستعمارية، فقد حجّت مارغوليس آخر '
+                  'عمرها لحالات أخرى منها أصل الأسواط، ولم يُقبل معظم تلك الدعاوى.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن وظيفة قائمة الأدلّة وعن معنى كلمة '
+             'في سياقها. والفخّ المتوقّع هنا أن تُعمَّم الدعوى على كلّ عُضيّة، مع أنّ النصّ '
+             'يحصر ما ثبت في اثنتين. ويقترن المقطع بالمقطع المئة والثالث عشر في أسئلة '
+             'النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Margulis opposed well-supported positions in other fields',
+                   'The factory picture of the cell is historically accurate',
+                   'Her first paper was rejected by fifteen journals',
+                   'The colonial account is settled for two organelles and open beyond them'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'wrong_direction', 'C': 'underreach'},
+             why='The text lists the evidence that persuaded the field about mitochondria and '
+                 'chloroplasts and then says what remains disputed is how far the colonial '
+                 'picture should be pushed.',
+             trap='B reverses the text, which calls the factory picture historically false.'),
+        dict(stem='According to the text, what does the action of certain antibiotics show?',
+             opts=['That the organelles divide with the cell around them',
+                   'That organelle ribosomes closely resemble bacterial ones',
+                   'That the nucleus carries circular bacterial DNA',
+                   'That cilia also descend from engulfed bacteria'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'detail_swap', 'D': 'overreach'},
+             why='The text says both organelles make their own ribosomes, which resemble bacterial '
+                 'ribosomes closely enough to be shut down by antibiotics that act on bacteria.',
+             trap='A reverses the text, which says the organelles divide on a schedule of their '
+                  'own.'),
+        dict(claim='the evidence that convinced the field left little room for argument',
+             stem='Which quotation from the text most strongly supports the claim that the '
+                  'evidence that convinced the field left little room for argument?',
+             opts=[Q('Lynn Margulis argued from the 1960s that mitochondria and chloroplasts are '
+                     'not compartments at all but descendants of free-living bacteria'),
+                   Q('Margulis argued late in her life for further cases, including the origin '
+                     'of cilia, which the evidence does not flag as strongly'),
+                   Q('Both make their own ribosomes, which resemble bacterial ribosomes closely '
+                     'enough to be shut down by antibiotics that act on bacteria and leave the '
+                     'rest of the cell alone'),
+                   Q('The textbook picture of a cell is a factory, with compartments that have '
+                     'jobs')],
+             key='C', moves={'A': 'true_not_asked', 'B': 'wrong_direction', 'D': 'near_miss'},
+             why='A drug that shuts down the organelle ribosomes and leaves the rest of the cell '
+                 'alone is a direct test, which is the kind of evidence that admits little '
+                 'argument.',
+             trap='B names the later claims the evidence does not support rather than the ones it '
+                  'does.'),
+        dict(carrier='Both divide on a schedule of their own rather than with the cell that '
+                     'contains them. A structure built by the cell for a job would therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['divide when the cell divides, not when it chooses',
+                   'carry its own circular DNA as well',
+                   'be shut down by antibiotics that act on bacteria',
+                   'be enclosed in a double membrane too'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='An ordinary compartment is made by the cell for a purpose, so its timing would '
+                 'follow the cell rather than a schedule of its own.',
+             trap='B gives the organelle a feature that marks it as a former bacterium.'),
+        dict(target='flag',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('flag'),
+             opts=['grow weaker over time', 'mark with a banner', 'hail from a distance',
+                   'point out clearly'],
+             key='D', moves={'A': 'imported', 'B': 'imported', 'C': 'near_miss'},
+             why='The text says the evidence does not flag the later cases as strongly, so the '
+                 'word names how clearly the evidence indicates them.',
+             trap='A takes the other common sense of the word, that of tiring, which cannot apply '
+                  'to evidence.'),
+        dict(stem='Which choice best describes the function of the list of five shared features?',
+             opts=['It introduces the dispute about cilia for the first time',
+                   'It concedes that the factory picture is useful after all',
+                   'It sets out the evidence that closed the first question',
+                   'It reports the number of journals that rejected her paper'],
+             key='C', moves={'A': 'detail_swap', 'B': 'wrong_direction', 'D': 'detail_swap'},
+             why='The five features come after the sentence about evidence that admits little '
+                 'argument and before the turn to what remains disputed, so they carry the '
+                 'settled part of the case.',
+             trap='A names the open question rather than the evidence for the settled one.'),
+        dict(sibling='BIO-S03-L3',
+             sibling_gloss='Text 2 is passage 113 of this book. It explains that the respiratory '
+                           'pathway was established by inhibitors, isotope labels and the '
+                           'spinning of broken cells, and that each of those three tactics has a '
+                           'weakness the others do not share.',
+             stem='Text 1 argues about what an organelle is. Based on Text 2, what would be added '
+                  'to that argument?',
+             opts=['Mitochondria carry circular DNA of the bacterial type',
+                   'How the work inside the organelle was traced in the first place',
+                   'Both organelles divide on a schedule of their own',
+                   'The spinning experiments established the bacterial origin'],
+             key='B', moves={'A': 'restatement', 'C': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 reports how the oxygen-dependent steps were located in the isolated '
+                 'particles, which is how anyone knew what the structure under dispute actually '
+                 'does.',
+             trap='D credits the spinning work with a finding that Text 1 attributes to other '
+                  'evidence.'),
+        dict(carrier='It is a useful picture and it is historically false in a way that turns out '
+                     'to matter. ___ Lynn Margulis argued from the 1960s that mitochondria and '
+                     'chloroplasts are not compartments at all.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['In fact,', 'Even so,', 'By contrast,', 'As a result,'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'near_miss'},
+             why='The second sentence supplies the history that makes the picture false, so the '
+                 'transition must press the point further rather than concede or oppose it.',
+             trap='B treats the history as a qualification of the falsity it establishes.'),
+        dict(carrier='Her first paper on it was rejected by fifteen journals ___ the evidence that '
+                     'persuaded the field is of a kind that admits little argument.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['journals, the', 'journals the', 'journals. The', 'journals, and, the'],
+             key='C', moves={'A': 'comma_splice', 'B': 'run_on', 'D': 'misplaced'},
+             why='The clause about the evidence that persuaded the field is a complete sentence, '
+                 'so a period separates it from the clause about the rejected paper.',
+             trap='A splices the clause about the evidence onto the clause about the journals with '
+                  'a comma.'),
+        dict(goal='explain why the dispute still matters outside the laboratory',
+             notes=['Mitochondria and chloroplasts descend from engulfed bacteria.',
+                    'How far the colonial picture should be pushed is still disputed.',
+                    'Mitochondrial diseases are inherited only from the mother.',
+                    'Those diseases behave unlike anything else in medical genetics.'],
+             stem='The student wants to explain why the dispute still matters outside the '
+                  'laboratory. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Because the organelle is a former bacterium with its own line of descent, the '
+                   'diseases it carries pass only from the mother',
+                   'Mitochondria and chloroplasts descend from engulfed bacteria',
+                   'How far the colonial picture should be pushed is still disputed',
+                   'Mitochondrial diseases behave unlike anything else in medical genetics'],
+             key='A', moves={'B': 'underreach', 'C': 'underreach', 'D': 'restatement'},
+             why='Only this choice links the separate ancestry of the organelle to the unusual '
+                 'inheritance of its diseases, which is the practical consequence the goal asks '
+                 'for.',
+             trap='D reports the oddity without naming what in the organelle produces it.'),
+    ]))
+
+# --- 4 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='BIO-S04-L4',
+    ar=dict(
+        khulasa='تُروى قصّة يلوستون نموذجًا نقيًّا للشلّال الغذائي، أي سلسلة آثار تنزل في '
+                'شبكة الغذاء من المفترس إلى النبات، وقد سبقت الروايةُ الدليلَ في كثير منها. '
+                'عادت الذئاب سنة ألف وتسعمئة وخمس وتسعين، وهبطت أعداد الأيائل، وتعافى '
+                'الصفصاف والحور على الجداول، وعاد القندس، واستقرّت الضفاف.',
+        maana='المعنى أنّ كلّ حلقة في تلك السلسلة قد قيست، والصعوبة أنّ أشياء أخرى تغيّرت في '
+              'العشرين سنة نفسها، فصار التصميم مشوبًا بالمعنى الدقيق: هبطت الأيائل لأسباب '
+              'مجتمعة منها جفاف شديد وصيد بشريّ كثيف خارج الحدود وتكاثر الدببة وأسود الجبال.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: الموقف الذي '
+                  'يُدافع عنه أضيق من الشائع وما زال معتبرًا: الذئاب سبب من أسباب تغيّر '
+                  'حقيقيّ، وأثرها أقوى حيث يسمح الماء، ودعوى أنّها أعادت كتابة الأنهار غير '
+                  'مسندة.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسند دعوى وعن التحوّل '
+             'الذي يقدّم اعتراضًا. والفخّ المتوقّع هنا أن يُنفى أثر الذئاب كلّه، مع أنّ '
+             'النصّ يبقيها سببًا من عدّة أسباب. ويقترن المقطع بالمقطع المئة والرابع عشر في '
+             'أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['A real change has several causes, and the clean story outran the evidence',
+                   'Wolves had no measurable effect on the park at all',
+                   'Willow recovery was general across the whole park',
+                   'A short film compressed the chain into a minute'],
+             key='A', moves={'B': 'overreach', 'C': 'wrong_direction', 'D': 'true_not_asked'},
+             why='The text says the telling has outrun the evidence, lists the other changes over '
+                 'the same years, and ends with a narrower position that keeps the wolves as one '
+                 'cause among several.',
+             trap='B overshoots the correction, since the text calls the wolves one cause of a '
+                  'real change.'),
+        dict(stem='According to the text, where was willow recovery strongest?',
+             opts=['Where human hunting outside the park was heaviest',
+                   'Where bear and cougar numbers were growing',
+                   'Where the water table was high enough',
+                   'Where elk were fenced out and water was absent'],
+             key='C', moves={'A': 'detail_swap', 'B': 'detail_swap', 'D': 'wrong_direction'},
+             why='The text says recovery was patchy rather than general and that the strongest '
+                 'recovery occurred where the water table was high enough to support it.',
+             trap='D reverses the exclosure result, where willows grew only when water was '
+                  'available.'),
+        dict(claim='the design cannot separate two causes that moved together',
+             stem='Which quotation from the text most strongly supports the claim that the design '
+                  'cannot separate two causes that moved together?',
+             opts=[Q('Wolves returned in 1995, elk numbers fell, willows and aspen recovered '
+                     'along the creeks, beaver returned, and streambanks stabilized'),
+                   Q('The Yellowstone story is told as a clean case of a trophic cascade'),
+                   Q('Exclosure studies showed willows growing where elk were fenced out and '
+                     'water was available'),
+                   Q('other things changed over the same twenty years, which makes the design '
+                     'confounded in the strict sense')],
+             key='D', moves={'A': 'near_miss', 'B': 'true_not_asked', 'C': 'near_miss'},
+             why='The quotation says other things changed over the same twenty years and names the '
+                 'design confounded, which is exactly the inability the claim describes.',
+             trap='A lists the chain of changes rather than the reason their causes cannot be '
+                  'separated.'),
+        dict(carrier='Exclosure studies showed willows growing where elk were fenced out and water '
+                     'was available, and not where water was absent. Fencing out the elk alone is '
+                     'therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['enough to produce recovery anywhere in the park',
+                   'not enough without water in the ground',
+                   'the only cause of the recovery observed',
+                   'a test of the fear that wolves produce'],
+             key='B', moves={'A': 'overreach', 'C': 'overreach', 'D': 'detail_swap'},
+             why='The willows grew only where the fence and the water were both present, so '
+                 'removing the browsing does nothing on its own in a dry site.',
+             trap='A generalizes a result the exclosures obtained only where water was '
+                  'available.'),
+        dict(target='stem',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('stem'),
+             opts=['hold back', 'arise from', 'grow upward', 'measure out'],
+             key='A', moves={'B': 'near_miss', 'C': 'imported', 'D': 'imported'},
+             why='The sentence suggests that hydrology may stem the effect as much as browsing '
+                 'does, so the word names a check on the effect rather than its source.',
+             trap='B takes the other common sense of the word, which would reverse the '
+                  'direction.'),
+        dict(stem='Which choice best describes the function of the paragraph beginning with the '
+                  'defensible position?',
+             opts=['It introduces the exclosure studies for the first time',
+                   'It restates the popular story without changing it',
+                   'It reports the three reasons elk numbers fell',
+                   'It states what survives the objections just raised'],
+             key='D', moves={'A': 'detail_swap', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='The paragraph comes after the specific objections and keeps the wolves as one '
+                 'cause among several while dropping the claim that they rewrote the rivers.',
+             trap='B denies the narrowing that the paragraph performs.'),
+        dict(sibling='BIO-S04-L3',
+             sibling_gloss='Text 2 is passage 114 of this book. It describes the exclosure and the '
+                           'stable isotope ratio, says an exclosure tests browsing but cannot '
+                           'test fear, and reports that the reintroduction itself was the '
+                           'experiment and was run without a control.',
+             stem='Text 1 narrows the claim about the wolves. Based on Text 2, what would be added '
+                  'to that narrowing?',
+             opts=['Willow recovery was patchy rather than general',
+                   'Several causes of the fall in elk numbers acted at once',
+                   'Why no available method could have settled the question',
+                   'An isotope ratio can distinguish fear from browsing'],
+             key='C', moves={'A': 'restatement', 'B': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 names what each method can and cannot reach and reports the missing '
+                 'control, which explains why the dispute in Text 1 had to be settled on '
+                 'judgment.',
+             trap='A repeats one of the objections Text 1 has already raised.'),
+        dict(carrier='Each link in that chain has been measured. ___ other things changed over the '
+                     'same twenty years, which makes the design confounded in the strict sense.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Likewise,', 'All the same,', 'As a result,', 'For instance,'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'near_miss'},
+             why='The sentence sets a problem against the measurement just reported, so the '
+                 'transition must concede the measurements and then raise the objection.',
+             trap='C reads the confounding as a result of the measuring rather than a problem with '
+                  'it.'),
+        dict(carrier='Willow recovery was patchy rather than general ___ and the strongest '
+                     'recovery occurred where the water table was high enough.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['general; and', 'general and', 'general: and', 'general, and'],
+             key='D', moves={'A': 'wrong_mark', 'B': 'run_on', 'C': 'wrong_mark'},
+             why='The clause about the strongest recovery and the water table is independent, so '
+                 'the conjunction joining it to the clause about patchiness takes a comma before '
+                 'it.',
+             trap='B leaves the clause about patchiness and the clause about the water table '
+                  'unmarked.'),
+        dict(goal='explain why the episode is now taught as a lesson about inference',
+             notes=['Each link in the chain has been measured.',
+                    'Other things changed over the same twenty years, which makes the design '
+                    'confounded.',
+                    'A spectacular natural experiment without a control area produces a story '
+                    'that cannot be checked.',
+                    'The defensible position keeps the wolves as one cause among several.'],
+             stem='The student wants to explain why the episode is now taught as a lesson about '
+                  'inference. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Each link in the chain of effects in the park has been measured',
+                   'Every link was measured and the story still cannot be checked, because '
+                   'several causes moved together with no control area',
+                   'The defensible position keeps the wolves as one cause among several',
+                   'Other things changed over the same twenty years in the park'],
+             key='B', moves={'A': 'underreach', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice puts the measured links beside the missing control, which is '
+                 'what makes the case a lesson about inference rather than about wolves.',
+             trap='C gives the conclusion reached without the reasoning that forced it.'),
+    ]))
+
+# --- 5 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='BIO-S05-L4',
+    ar=dict(
+        khulasa='دورة الأرنب العشرية ولّدت تفسيرين متنافسين حكما الميدان خمسين سنة. أحدهما '
+                'الغذاء: الأرانب تأكل الشجيرات حتى تنهكها، فتردّ الشجيرات بدفاعات كيميائية '
+                'وتحتاج سنين لتعود، فينهار عددها لقلّة ما يُؤكل. والآخر المفترسات: الوشق '
+                'والذئب والبوم تتكاثر وراءها ثمّ تجاوزها فتُسقطها.',
+        maana='المعنى أنّ الروايتين تطابقان سلسلة مردودات الفراء، وهذا هو الحال المعتاد إذا '
+              'لم يكن في اليد إلّا ملازمة. فحسمها تشارلز كريبس وزملاؤه بالتجربة في يوكون بين '
+              'عام ألف وتسعمئة وستّ وثمانين وعام ألف وتسعمئة وستّ وتسعين، بتصميم عاملي '
+              'تُطبَّق فيه المعالجات منفردة ومجتمعة.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: الغذاء وحده ضاعف '
+                  'الكثافة، وإقصاء المفترسات وحده ضاعفها، وهما معًا رفعاها نحو أحد عشر '
+                  'ضعفًا، وهو أكثر بكثير من مجموع الأثرين، وذلك التفاعل هو الكشف الذي لم '
+                  'يتوقّعه أيّ من الفريقين.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل وعن إكمال النصّ إكمالًا '
+             'منطقيًّا. والفخّ المتوقّع هنا أن تُنسب النتيجة المشتركة إلى معالجة واحدة، مع '
+             'أنّ النصّ يفرّق بينها وبين المجتمعتين. ويقترن المقطع بالمقطع المئة والخامس عشر '
+             'في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The enclosures had to be electrified against bears',
+                   'An interaction neither camp predicted settled a fifty-year question',
+                   'Food alone produced the elevenfold increase',
+                   'The experiment ran in the Yukon for ten years'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'wrong_direction', 'D': 'underreach'},
+             why='The text says the two treatments together raised density about elevenfold, far '
+                 'more than their effects added, and calls that interaction the finding neither '
+                 'camp had predicted.',
+             trap='C gives the joint result to one treatment alone, which doubled density by '
+                  'itself.'),
+        dict(stem='According to the text, what did predator exclusion alone do to hare density?',
+             opts=['It raised density about elevenfold', 'It left density where it had been',
+                   'It raised density by about a half', 'It roughly doubled density on its own'],
+             key='D', moves={'A': 'detail_swap', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='The text says food alone roughly doubled hare density and predator exclusion '
+                 'alone roughly doubled it, with the large increase coming only from the two '
+                 'together.',
+             trap='A gives the result of the two treatments together rather than of exclusion '
+                  'alone.'),
+        dict(claim='a correlation could not have settled the question',
+             stem='Which quotation from the text most strongly supports the claim that a '
+                  'correlation could not have settled the question?',
+             opts=[Q('a correlation cannot reveal an interaction, and the two single-cause '
+                     'theories were both correct and both insufficient'),
+                   Q('Both accounts fit the fur return series, which is the usual situation when '
+                     'a correlation is all anyone has'),
+                   Q('The experiment cost a decade and about a hundred kilometers of fence'),
+                   Q('Several blocks were lost to fire and weather over the ten years and the '
+                     'design had to be rebuilt')],
+             key='A', moves={'B': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation says a correlation cannot reveal an interaction and that both '
+                 'single-cause theories were insufficient, which is why the series could not '
+                 'decide between them.',
+             trap='B shows both theories fitting the series rather than why a correlation cannot '
+                  'choose.'),
+        dict(carrier='A hare with enough food can afford to be vigilant and a hare in cover can '
+                     'afford to forage carelessly, so the two pressures are not independent. '
+                     'Measuring one pressure with the other held constant is therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['the only design that could have worked',
+                   'enough to predict the joint result',
+                   'bound to understate what the pair can do',
+                   'a way of removing the interaction entirely'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'overreach', 'D': 'near_miss'},
+             why='If the two pressures reinforce each other, a treatment applied alone cannot '
+                 'produce the joint effect, so a single-factor measurement falls short of it.',
+             trap='B claims a prediction that the text says neither camp was able to make.'),
+        dict(target='fecund',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('fecund'),
+             opts=['unusually mild', 'rich in offspring', 'short and crowded', 'poor in food'],
+             key='B', moves={'A': 'imported', 'C': 'imported', 'D': 'wrong_direction'},
+             why='The sentence says a fecund season under both conditions produces an explosion, '
+                 'so the word describes a season of heavy breeding.',
+             trap='D reverses the sense, since the season in question has food in abundance.'),
+        dict(stem='Which choice best describes the function of the two rival explanations at the '
+                  'start?',
+             opts=['They set up the question the experiment was built to decide',
+                   'They report the result of the factorial design',
+                   'They show that neither pressure affects the hares',
+                   'They introduce the electric fencing for the first time'],
+             key='A', moves={'B': 'detail_swap', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='The text gives the food account and the predator account, says both fit the '
+                 'series, and then describes the experiment that was run to choose between them.',
+             trap='C denies both pressures, though each roughly doubled density on its own.'),
+        dict(sibling='BIO-S05-L3',
+             sibling_gloss='Text 2 is passage 115 of this book. It reports a century of annual fur '
+                           'returns for lynx and hare, says a fur return is a proxy for several '
+                           'things at once, and names tree ring records of browsing as an '
+                           'independent check on the cycle.',
+             stem='Text 1 reports an experiment on the hare cycle. Based on Text 2, what would be '
+                  'added to that report?',
+             opts=['Both single-cause accounts fit the fur return series',
+                   'The two treatments together raised density elevenfold',
+                   'The fur returns were a direct count of the animals',
+                   'What had to be corrected before the cycle could be trusted'],
+             key='D', moves={'A': 'restatement', 'B': 'restatement', 'C': 'wrong_direction'},
+             why='Text 2 describes the corrections and the second proxy that establish the cycle, '
+                 'which is the pattern the experiment in Text 1 was built to explain.',
+             trap='A repeats the point Text 1 makes about the series rather than adding to it.'),
+        dict(carrier='Both accounts fit the fur return series, which is the usual situation when a '
+                     'correlation is all anyone has. ___ Charles Krebs and colleagues settled it '
+                     'by experiment in the Yukon between 1986 and 1996.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Likewise,', 'In other words,', 'In the end,', 'For instance,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'restatement', 'D': 'near_miss'},
+             why='The sentence reports the resolution of the impasse just described, so the '
+                 'transition must mark the outcome rather than a likeness or a restatement.',
+             trap='B treats the experiment as another way of stating the impasse.'),
+        dict(carrier='That interaction is the finding ___ and neither camp had predicted it.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['finding, and', 'finding and', 'finding; and', 'finding and,'],
+             key='A', moves={'B': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause saying neither camp had predicted the interaction is independent, so '
+                 'the conjunction joining it to the clause naming the finding takes a comma.',
+             trap='B leaves the clause about the finding and the clause about the camps '
+                  'unmarked.'),
+        dict(goal='explain why both old theories were correct and insufficient',
+             notes=['Food alone roughly doubled hare density.',
+                    'Predator exclusion alone roughly doubled it.',
+                    'The two together increased it about elevenfold.',
+                    'A hare with enough food can afford to be vigilant, so the pressures are not '
+                    'independent.'],
+             stem='The student wants to explain why both old theories were correct and '
+                  'insufficient. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Food alone roughly doubled the density of the hares in the blocks',
+                   'The two treatments together increased density about elevenfold',
+                   'Each pressure doubled density on its own, so each theory was right, and the '
+                   'elevenfold joint result shows neither was enough',
+                   'The two pressures are not independent of one another at all'],
+             key='C', moves={'A': 'underreach', 'B': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice reports both single-factor doublings and the much larger joint '
+                 'result, which together show each theory right and each one short.',
+             trap='B gives the joint result alone and so leaves both theories unjudged.'),
+    ]))
+
+# --- 6 -------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='BIO-S06-L4',
+    ar=dict(
+        khulasa='وافق ماكس فون بتنكوفر روبرت كوخ على وجود كائن الكوليرا، وأنكر أن يكون وجوده '
+                'كافيًا لإحداث وباء. وكانت صيغته أنّ الوباء يحتاج الجرثومة والأرض، أي حال '
+                'التراب ومنسوب الماء والأحوال المحلّية، وحجّ بأنّ الكائن وحده لا يُحدث مرضًا '
+                'في جماعة سليمة حسنة الصرف.',
+        maana='المعنى أنّ أنصار نظرية الجرثومة ربحوا القرن، وكانوا على حقّ في السؤال الذي '
+              'كانوا يجيبونه: سمِّ الكائن، واقطع الطريق، يتوقّف الوباء، وهذا ما فعله مقبض '
+              'المضخّة ومرشّح الماء. لكنّ القرن العشرين أنتج أيضًا الأرقام التي كان بتنكوفر '
+              'يريدها.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: معظم من يحمل '
+                  'عصيّة السلّ لا يمرض قطّ، ووفيات الكوليرا في الوباء الواحد تتفاوت '
+                  'تفاوتًا كبيرًا بالتغذية وبتوافر السوائل النظيفة، فالكائن لازم وحال '
+                  'الشخص هي التي تحدّد أكثر من يموت.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسند دعوى وعن وظيفة '
+             'جملة التسليم. والفخّ المتوقّع هنا أن يُحسب الخلاف إنكارًا لنظرية الجرثومة، مع '
+             'أنّ النصّ يسلّم لها بالنصر. ويقترن المقطع بالمقطع المئة والسادس عشر في أسئلة '
+             'النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Pettenkofer drank a cholera culture in front of witnesses',
+                   'The germ theorists were wrong about the question they answered',
+                   'The organism is necessary and the condition of the person decides much',
+                   'Tuberculosis mortality fell before effective treatment existed'],
+             key='C', moves={'A': 'underreach', 'B': 'wrong_direction', 'D': 'true_not_asked'},
+             why='The text grants the germ theorists their victory and then says the organism is '
+                 'necessary while the condition of the person largely decides who dies of it.',
+             trap='B denies a victory the text explicitly grants on the question they were '
+                  'answering.'),
+        dict(stem='According to the text, what did Pettenkofer mean by the ground?',
+             opts=['The soil, the water table and local conditions',
+                   'The nutrition and fluids available to the sick',
+                   'The route by which the organism travels',
+                   'The vaccine, the drug and the filter'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'imported'},
+             why='The text says his formula required the germ and the ground, meaning the state of '
+                 'the soil, the water table and the local conditions.',
+             trap='B names the modern figures about who dies rather than his own term.'),
+        dict(claim='the modern dispute is about spending rather than about biology',
+             stem='Which quotation from the text most strongly supports the claim that the modern '
+                  'dispute is about spending rather than about biology?',
+             opts=[Q('Most people who harbor the tuberculosis bacterium never develop the '
+                     'disease at all'),
+                   Q('The practical question of allocation is not settled by the biology, which '
+                     'is why it is still an argument'),
+                   Q('Identify the organism, interrupt the route, and the epidemic stops'),
+                   Q('His experiment proved less than he claimed, and the point he was making '
+                     'was not thereby wrong')],
+             key='B', moves={'A': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation says the question of allocation is not settled by the biology, '
+                 'which is exactly the claim that the live dispute is about where money goes.',
+             trap='A gives one of the figures about who falls ill rather than the question of '
+                  'spending.'),
+        dict(carrier='The organism is necessary, and the condition of the person largely decides '
+                     'who dies of it. A program that attends only to the organism is therefore '
+                     '___',
+             stem='Which choice most logically completes the text?',
+             opts=['certain to end every epidemic at once',
+                   'proof that the ground plays no part',
+                   'identical to one that attends to housing',
+                   'leaving out much of what decides the outcome'],
+             key='D', moves={'A': 'overreach', 'B': 'wrong_direction', 'C': 'wrong_direction'},
+             why='If the condition of the person largely decides who dies, a program aimed at the '
+                 'organism alone misses the factor that settles most of the mortality.',
+             trap='A promises an outcome the text attributes to interrupting the route, not to '
+                  'every case.'),
+        dict(target='harbor',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('harbor'),
+             opts=['shelter a ship', 'hide from view', 'carry inside the body',
+                   'die of an infection'],
+             key='C', moves={'A': 'imported', 'B': 'near_miss', 'D': 'wrong_direction'},
+             why='The text says most people who harbor the tuberculosis bacterium never develop '
+                 'the disease, so the word names carrying the organism rather than falling ill of '
+                 'it.',
+             trap='D confuses carrying the organism with the outcome the sentence denies.'),
+        dict(stem='Which choice best describes the function of the sentence granting the germ '
+                  'theorists their victory?',
+             opts=['It introduces the figures about tuberculosis mortality',
+                   'It concedes a point so that the remaining question stands out',
+                   'It withdraws the formula about the germ and the ground',
+                   'It reports the year of the cholera demonstration'],
+             key='B', moves={'A': 'detail_swap', 'C': 'overreach', 'D': 'detail_swap'},
+             why='The text says the germ theorists won the century and were right about the '
+                 'question they were answering, which leaves open the question of who among the '
+                 'infected dies.',
+             trap='C reads a concession to one side as the abandonment of the other.'),
+        dict(sibling='BIO-S06-L3',
+             sibling_gloss='Text 2 is passage 116 of this book. It sets out the conditions Koch '
+                           'laid down for naming the cause of a disease and shows each one '
+                           'failing, on the asymptomatic carrier, on organisms that cannot be '
+                           'cultured, and on diseases that occur only in humans.',
+             stem='Text 1 reports a dispute about what produces an epidemic. Based on Text 2, what '
+                  'would be added to that report?',
+             opts=['A standard that already allows for carriers who stay well',
+                   'The organism alone need not produce disease in a healthy population',
+                   'Pettenkofer drank a culture in front of witnesses',
+                   'Koch denied that the cholera organism existed at all'],
+             key='A', moves={'B': 'restatement', 'C': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 reports that the first of the conditions breaks on the asymptomatic '
+                 'carrier, which is the observation Pettenkofer was pressing in Text 1.',
+             trap='B repeats his own formula as Text 1 already states it.'),
+        dict(carrier='The germ theorists won the century, and they were right about the question '
+                     'they were answering. ___ the twentieth century also produced the figures '
+                     'Pettenkofer would have wanted.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For instance,', 'Accordingly,', 'In other words,', 'All the same,'],
+             key='D', moves={'A': 'near_miss', 'B': 'near_miss', 'C': 'restatement'},
+             why='The sentence sets the figures that favor the other side against the victory just '
+                 'granted, so the transition must mark a concession rather than a consequence.',
+             trap='B reads the figures as following from the victory of the germ theorists.'),
+        dict(carrier='The organism is necessary ___ and the condition of the person largely '
+                     'decides who dies of it.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['necessary and', 'necessary, and', 'necessary; and', 'necessary and,'],
+             key='B', moves={'A': 'run_on', 'C': 'wrong_mark', 'D': 'misplaced'},
+             why='The clause about the condition of the person is independent, so the conjunction '
+                 'joining it to the clause about the organism takes a comma before it.',
+             trap='A leaves the clause about the organism and the clause about the person '
+                  'unmarked.'),
+        dict(goal='explain why the biology cannot settle the question of allocation',
+             notes=['Identify the organism, interrupt the route, and the epidemic stops.',
+                    'Most people who harbor the tuberculosis bacterium never develop the disease.',
+                    'Housing, income and sanitation produce larger effects across more diseases '
+                    'at once.',
+                    'Both claims are supported.'],
+             stem='The student wants to explain why the biology cannot settle the question of '
+                  'allocation. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Interrupting the route of an organism will stop an epidemic',
+                   'Most carriers of the tuberculosis bacterium never fall ill at all',
+                   'Housing, income and sanitation act across more diseases at once',
+                   'Both the specific intervention and the broad one are supported by the '
+                   'evidence, so the choice between them is about money rather than biology'],
+             key='D', moves={'A': 'underreach', 'B': 'underreach', 'C': 'true_not_asked'},
+             why='Only this choice says that both sides are supported, which is what leaves the '
+                 'decision to be made on grounds other than the biology.',
+             trap='A gives the case for one side without saying why that does not settle it.'),
+    ]))
+
+# --- 7 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='BIO-S07-L4',
+    ar=dict(
+        khulasa='نحو نصف النيتروجين في جسم إنسان حيّ اليوم ثُبّت صناعيًّا، ومعنى ذلك أنّ نحو '
+                'نصف سكّان الأرض يُطعمهم تفاعل كيميائي اختُرع سنة ألف وتسعمئة وتسع. ولا '
+                'يستقيم تفسير نموّ السكّان في القرن العشرين بإسقاط ذلك التفاعل من الحساب.',
+        maana='المعنى أنّ محاصيل الحبوب في البلدان التي أخذت حزمة السماد والسقي والأصناف '
+              'المنتخبة ارتفعت ضِعفين إلى أربعة في جيل واحد، وأنّ المجاعة في آسيا صارت نادرة '
+              'بعد أن كانت حادثًا منتظمًا. والتكاليف مقيسة أيضًا، وهذا ما يجعل المسألة '
+              'خلافًا حقيقيًّا لا شعارًا.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: لعلّ نصف '
+                  'النيتروجين المضاف إلى الحقل لا يبلغ المحصول قطّ، بل يخرج في الماء '
+                  'والهواء، فيُحدث في الماء إغناءً يسلبه الأكسجين، وقد خلق مناطق ميتة عند '
+                  'مصابّ الأنهار الكبرى.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يفرّق بين خلاف في '
+             'الوقائع وخلاف في العمل. والفخّ المتوقّع هنا أن يُحسب أحد الفريقين منكرًا '
+             'للأرقام، مع أنّ النصّ يقول إنّ أحدًا منهما لا ينكرها. ويقترن المقطع بالمقطع '
+             'المئة والسابع عشر في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Precision application has cut losses in a few wealthy countries',
+                   'Neither position accepts the figures about losses',
+                   'Global fertilizer use has fallen throughout the period',
+                   'A technology that cannot be dropped or kept unchanged divides two serious '
+                   'positions'],
+             key='D', moves={'A': 'underreach', 'B': 'wrong_direction', 'C': 'wrong_direction'},
+             why='The text sets the gains against the measured costs and ends by saying the two '
+                 'sides agree on the figures and disagree about what to do with a technology of '
+                 'that kind.',
+             trap='C reverses the closing sentence, which says fertilizer use has gone on '
+                  'rising.'),
+        dict(stem='According to the text, what share of applied nitrogen never reaches the crop?',
+             opts=['About one or two percent of it', 'Perhaps half of what is applied',
+                   'Nearly all of what is applied', 'None of it once timing is improved'],
+             key='B', moves={'A': 'detail_swap', 'C': 'overreach', 'D': 'wrong_direction'},
+             why='The text says perhaps half the nitrogen applied to a field never reaches the '
+                 'crop, and that it leaves in water and air.',
+             trap='A gives the share of world energy the process consumes rather than the share '
+                  'lost.'),
+        dict(claim='the two positions are a disagreement about action rather than fact',
+             stem='Which quotation from the text most strongly supports the claim that the two '
+                  'positions are a disagreement about action rather than fact?',
+             opts=[Q('Cereal yields in countries that adopted the package of fertilizer, '
+                     'irrigation and selected varieties rose by factors of two to four in a '
+                     'generation'),
+                   Q('in the water it produces eutrophication, meaning enrichment that strips '
+                     'the water of oxygen'),
+                   Q('Neither position disputes the figures. They disagree about what to do with '
+                     'a technology that cannot be given up and cannot be continued unchanged'),
+                   Q('Precision application has cut losses substantially in a few wealthy '
+                     'countries')],
+             key='C', moves={'A': 'true_not_asked', 'B': 'true_not_asked', 'D': 'near_miss'},
+             why='The quotation says neither position disputes the figures and that the '
+                 'disagreement is about what to do, which is the distinction the claim draws.',
+             trap='D names one practical response rather than the nature of the disagreement.'),
+        dict(carrier='Perhaps half the nitrogen applied to a field never reaches the crop. It '
+                     'leaves in water and air. A gain in placement and timing would therefore '
+                     '___',
+             stem='Which choice most logically completes the text?',
+             opts=['cut the losses without cutting the harvest',
+                   'raise the share that leaves in water',
+                   'end the argument about what to do',
+                   'reduce the energy used in fixation to nothing'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'overreach', 'D': 'overreach'},
+             why='The losses are the share that never reaches the crop, so reducing them returns '
+                 'more of the same application to the plant rather than to the water and the air.',
+             trap='C treats an engineering improvement as a settlement of the disagreement about '
+                  'action.'),
+        dict(target='husband',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('husband'),
+             opts=['take as a spouse', 'buy by the ton', 'break up and plow', 'use sparingly'],
+             key='D', moves={'A': 'imported', 'B': 'wrong_direction', 'C': 'imported'},
+             why='The sentence sets a system that must husband its soil against one that buys '
+                 'fertility by the ton, so the word names careful and sparing use.',
+             trap='B names the opposite practice that the same sentence contrasts with it.'),
+        dict(stem='Which choice best describes the function of the sentence calling the costs '
+                  'measurable?',
+             opts=['It introduces the dead zone in the Gulf of Mexico',
+                   'It concedes that the gains were never real',
+                   'It marks the turn from the gains to what they cost',
+                   'It reports the year the process was invented'],
+             key='C', moves={'A': 'detail_swap', 'B': 'wrong_direction', 'D': 'detail_swap'},
+             why='The sentence follows the account of the yields and says the costs are also '
+                 'measurable, which is what makes the argument a real one rather than a slogan.',
+             trap='B denies the yields that the preceding sentences report.'),
+        dict(sibling='BIO-S07-L3',
+             sibling_gloss='Text 2 is passage 117 of this book. It describes a field at Rothamsted '
+                           'under fixed treatments since 1843, where one strip has received '
+                           'nothing and another farmyard manure every year, and reports what a '
+                           'series of that length makes visible.',
+             stem='Text 1 weighs the bargain of industrial nitrogen. Based on Text 2, what would '
+                  'be added to that weighing?',
+             opts=['Half the nitrogen applied never reaches the crop',
+                   'A place where the two kinds of fertility can be compared',
+                   'Eutrophication strips oxygen from the water it enriches',
+                   'Rothamsted abandoned mineral nitrogen in the 1950s'],
+             key='B', moves={'A': 'restatement', 'C': 'restatement', 'D': 'imported'},
+             why='Text 2 describes strips under manure and under measured minerals in the same '
+                 'field for a hundred and eighty years, which is the comparison the second '
+                 'position appeals to.',
+             trap='A repeats a figure Text 1 has already given about the losses.'),
+        dict(carrier='No serious account of twentieth-century population growth can leave that '
+                     'process out of the explanation. ___ cereal yields in countries that adopted '
+                     'the package rose by factors of two to four in a generation.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['After all,', 'By contrast,', 'Even so,', 'In conclusion,'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'wrong_direction', 'D': 'restatement'},
+             why='The second sentence gives the figures that justify the claim just made, so the '
+                 'transition must introduce a reason rather than a contrast or a conclusion.',
+             trap='C sets the yield figures against the claim they support.'),
+        dict(carrier='The costs are also measurable ___ is what makes the argument a real one '
+                     'rather than a slogan.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['measurable, this', 'measurable this', 'measurable, which',
+                   'measurable; which,'],
+             key='C', moves={'A': 'comma_splice', 'B': 'run_on', 'D': 'misplaced'},
+             why='A relative pronoun attaches the clause about what makes the argument real, where '
+                 'a second independent clause joined by a comma would splice two sentences.',
+             trap='A joins two complete sentences about the costs with a comma alone.'),
+        dict(goal='explain why the technology must be kept and must also be changed',
+             notes=['About half the nitrogen in a living human body was fixed industrially.',
+                    'Perhaps half the nitrogen applied to a field never reaches the crop.',
+                    'Fixing nitrogen industrially consumes one or two percent of world energy.',
+                    'Neither position disputes the figures.'],
+             stem='The student wants to explain why the technology must be kept and must also be '
+                  'changed. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['Half the nitrogen in a person was fixed industrially, and half of what is '
+                   'applied is lost, so the process feeds the world and wastes as it goes',
+                   'About half the nitrogen in a living human body was fixed industrially',
+                   'Perhaps half the nitrogen applied to a field never reaches the crop',
+                   'Fixing nitrogen industrially consumes one or two percent of world energy'],
+             key='A', moves={'B': 'underreach', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice puts the dependence and the waste in the same sentence, which '
+                 'is what makes the technology impossible to abandon and impossible to leave as '
+                 'it is.',
+             trap='C gives the waste alone and so names no reason the process cannot be dropped.'),
+    ]))
+
+# --- 8 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='BIO-S08-L4',
+    ar=dict(
+        khulasa='لا يُنكر أحد في هذا الجدال أنّ مناخ الأرض قد تغيّر من قبل، والسؤال الذي '
+                'يهمّ فعلًا هو الإسناد، أي إثبات كم من تغيّر مرصود سببه عامل بعينه. '
+                'فاعتراض أنّ المناخ كان دائمًا متغيّرًا ليس اعتراضًا تافهًا، وجوابه ليس '
+                'توكيدًا أعلى صوتًا بل منهج.',
+        maana='المعنى أنّ المنهج هو بصم الأثر: البحث عن نمط تغيّر يُحدثه سبب واحد ولا '
+              'تُحدثه البدائل. فالتسخين الدفيئي يتنبّأ بأنّ الجوّ الأدنى يسخن والستراتوسفير '
+              'الأعلى يبرد، وهذا هو المقيس، ولا يقدر أيّ ازدياد في خرج الشمس على إحداث هذا '
+              'الاقتران.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: الاعتراضات '
+                  'الجدّية في المقدار لا في الإسناد، وهي داخل العلم لا خارجه، فاستجابة '
+                  'السحاب أكبر مصدر للارتياب في كلّ نموذج، وهي تحرّك التسخين المتوقّع على '
+                  'مدى عدّة درجات.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسند دعوى وعن '
+             'التحوّل الذي يستبدل مقولة بأخرى. والفخّ المتوقّع هنا أن يُقدّم النزاع في وجود '
+             'الآلية نزاعًا حقيقيًّا، مع أنّ النصّ يسمّيه الحجّة الخطأ. ويقترن المقطع '
+             'بالمقطع المئة والثامن عشر في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Fingerprinting answers the attribution question, and the live disputes are '
+                   'about size',
+                   'The objection that climate has always varied is a trivial one',
+                   'Profiling floats have measured deep ocean heat uptake',
+                   'Solar warming predicts nights warming faster than days'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='The text says the question that matters is attribution, names fingerprinting as '
+                 'the method, and then locates the serious objections in magnitude rather than in '
+                 'attribution.',
+             trap='B contradicts the text, which calls that objection not a trivial one.'),
+        dict(stem='According to the text, which pattern no increase in solar output can produce?',
+             opts=['A lower atmosphere that cools with the stratosphere',
+                   'A shift in the isotopic composition of carbon',
+                   'A warming lower atmosphere with a cooling stratosphere',
+                   'Days that warm faster than nights do'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'D': 'wrong_direction'},
+             why='The text says greenhouse warming predicts that the lower atmosphere warms while '
+                 'the upper stratosphere cools, and that no increase in solar output can produce '
+                 'that combination.',
+             trap='D names what solar warming does predict rather than what it cannot.'),
+        dict(claim='the method could have failed and that is what makes it a test',
+             stem='Which quotation from the text most strongly supports the claim that the method '
+                  'could have failed and that is what makes it a test?',
+             opts=[Q('the question that actually matters is attribution, meaning the establishing '
+                     'of how much of an observed change is caused by a particular factor'),
+                   Q('How strongly clouds respond to warming remains the largest uncertainty in '
+                     'every model'),
+                   Q('Greenhouse warming predicts that nights warm faster than days, which is '
+                     'observed. Solar warming predicts the opposite in both cases'),
+                   Q('Each of these is an independent test of a kind that could have failed and '
+                     'did not')],
+             key='D', moves={'A': 'near_miss', 'B': 'true_not_asked', 'C': 'near_miss'},
+             why='The quotation says in so many words that each pattern was an independent test '
+                 'that could have failed, which is the point the claim makes about the method.',
+             trap='C gives one of the tests rather than the statement that they could have '
+                  'failed.'),
+        dict(carrier='A reader who encounters a dispute about whether the mechanism exists has '
+                     'been handed the wrong argument, and one about how large the response is has '
+                     'been handed the real one. A reader deciding which to attend to should '
+                     'therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['treat both disputes as equally open',
+                   'ask whether the question is existence or size',
+                   'conclude that the models cannot be trusted',
+                   'look first at the isotopic composition of carbon'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'overreach', 'D': 'detail_swap'},
+             why='The text sorts arguments by whether they concern the existence of the mechanism '
+                 'or the magnitude of the response, so that distinction is what a reader has to '
+                 'apply.',
+             trap='A treats the settled question as open, which is the error the sentence warns '
+                  'against.'),
+        dict(target='quiescent',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('quiescent'),
+             opts=['inactive and without cause', 'quietly measured', 'open to dispute',
+                   'recently discovered'],
+             key='A', moves={'B': 'imported', 'C': 'near_miss', 'D': 'imported'},
+             why='The isotopic shift is called not a quiescent coincidence but a direct trace of '
+                 'origin, so the word marks something inert rather than something caused.',
+             trap='C reads the word as a comment on the dispute rather than on the coincidence.'),
+        dict(stem='Which choice best describes the function of the sentence introducing '
+                  'fingerprinting?',
+             opts=['It introduces the uncertainty about cloud response',
+                   'It concedes that attribution cannot be established',
+                   'It reports the shift in the isotopic composition',
+                   'It supplies the method that answers the objection raised'],
+             key='D', moves={'A': 'detail_swap', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='The sentence comes after the text says the answer to the objection is not a '
+                 'louder assertion, and names the search for a pattern that only one cause '
+                 'produces.',
+             trap='B denies the attribution that the following sentences then establish.'),
+        dict(sibling='BIO-S08-L3',
+             sibling_gloss='Text 2 is passage 118 of this book. It describes ice cores, tree rings '
+                           'and corals as three proxies with unrelated weaknesses, and says that '
+                           'their agreement, reported with widening error bars, is the real '
+                           'argument.',
+             stem='Text 1 defends the attribution of the change. Based on Text 2, what would be '
+                  'added to that defense?',
+             opts=['Greenhouse warming predicts that nights warm faster than days',
+                   'Each pattern is an independent test that could have failed',
+                   'How the record being attributed was assembled in the first place',
+                   'Ice cores measure the response of clouds to warming'],
+             key='C', moves={'A': 'restatement', 'B': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 explains how the earlier part of the record was reconstructed, which is '
+                 'the series that the fingerprinting in Text 1 is applied to.',
+             trap='B repeats the point Text 1 makes about its own tests rather than adding to '
+                  'it.'),
+        dict(carrier='The objection that the climate has always varied is therefore not a trivial '
+                     'one, and the answer to it is not a louder assertion. ___ it is a method, and '
+                     'the method is fingerprinting.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Likewise,', 'Rather,', 'As a result,', 'For instance,'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'near_miss'},
+             why='The sentence puts a method in place of the assertion just ruled out, so the '
+                 'transition must mark a substitution rather than a likeness or a consequence.',
+             trap='C reads the method as following from the objection rather than replacing the '
+                  'assertion.'),
+        dict(carrier='It is a method ___ and the method is fingerprinting.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['method; and', 'method and', 'method: and', 'method, and'],
+             key='D', moves={'A': 'wrong_mark', 'B': 'run_on', 'C': 'wrong_mark'},
+             why='The clause naming the method as fingerprinting is independent, so the '
+                 'conjunction joining it to the clause calling the answer a method takes a comma.',
+             trap='B leaves the clause about a method and the clause naming it unmarked.'),
+        dict(goal='explain which dispute about the climate is the real one',
+             notes=['Attribution means establishing how much of a change a particular factor '
+                    'caused.',
+                    'Greenhouse warming predicts a warming lower atmosphere with a cooling '
+                    'stratosphere, which is measured.',
+                    'Cloud response remains the largest uncertainty in every model.',
+                    'It moves the projected warming across a range of several degrees.'],
+             stem='The student wants to explain which dispute about the climate is the real one. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['Attribution means establishing how much of a change a factor caused',
+                   'The fingerprints settle whether the mechanism is at work, so the live argument '
+                   'is over the size of the response to it',
+                   'Greenhouse warming predicts a cooling stratosphere, which is measured',
+                   'Cloud response is the largest uncertainty in every model built'],
+             key='B', moves={'A': 'underreach', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice separates the question the patterns answer from the question '
+                 'still open, which is what the goal asks a reader to tell apart.',
+             trap='D names the open uncertainty without saying what has already been settled.'),
+    ]))
+
+# --- 9 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='BIO-S09-L4',
+    ar=dict(
+        khulasa='قامت الجيولوجيا على قاعدة منهجية: أنّ العمليات العاملة الآن هي التي شكّلت '
+                'الماضي. وكانت هذه القاعدة هي الأداة التي هزمت تقليدًا أقدم يفسّر المناظر '
+                'بكوارث مفردة، وقد نجحت: فالتعرية البطيئة والترسيب البطيء والرفع البطيء '
+                'تفسّر معظم سطح الأرض.',
+        maana='المعنى أنّ هارلن بريتز وجد منظرًا لا تفسّره تلك القاعدة: أخاديد شُقّت مئات '
+              'الأقدام في البازلت الصلب، وصخور بحجم البيوت نُقلت خمسين ميلًا، وحواجز حصى '
+              'بعلوّ تلال صغيرة، وتجاعيد بين قمّة وقمّة خمسون قدمًا. فحجّ من سنة ألف '
+              'وتسعمئة وثلاث وعشرين بأنّ سيلًا هائلًا صنع ذلك.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: ردّ عليه زملاؤه '
+                  'لا لأنّ عندهم تفسيرًا أحسن، بل لأنّ السيل المفرد الهائل هو بالضبط نوع '
+                  'التفسير الذي أمضى الميدان قرنًا في التخلّص منه، ثمّ تبيّن أنّه كان على '
+                  'حقّ.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي حسمه وعن وظيفة '
+             'الفقرة الافتتاحية. والفخّ المتوقّع هنا أن تُقرأ الواقعة إبطالًا للقاعدة، مع '
+             'أنّ النصّ يقول إنّها تبقى الأصل الصحيح. ويقترن المقطع بالمقطع المئة والتاسع '
+             'عشر في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Bretz received the highest medal of his discipline in 1979',
+                   'A rule that found the anomaly also stopped the field believing it',
+                   'Uniformitarianism has been abandoned as a false default',
+                   'The scablands are channels cut into solid basalt'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'wrong_direction', 'D': 'underreach'},
+             why='The text says the rule told geologists where to look and then told them not to '
+                 'believe what they found, and that it remains the correct default.',
+             trap='C contradicts the text, which calls the rule the correct default still.'),
+        dict(stem='According to the text, on what ground did other geologists reject his account?',
+             opts=['Because they had measured the channels themselves',
+                   'Because a better explanation was already available',
+                   'Because the boulders had moved only a short way',
+                   'Because a single enormous flood was the kind of account the field had '
+                   'discarded'],
+             key='D', moves={'A': 'imported', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='The text says they rejected it not because they had a better account but because '
+                 'a single enormous flood was exactly what the discipline had spent a century '
+                 'getting rid of.',
+             trap='B denies the text, which says they had no better account to offer.'),
+        dict(claim='the case was settled by something other than the landscape itself',
+             stem='Which quotation from the text most strongly supports the claim that the case '
+                  'was settled by something other than the landscape itself?',
+             opts=[Q('the evidence that settled it came from somewhere else entirely. A lake '
+                     'dammed by ice in Montana was identified'),
+                   Q('boulders the size of houses carried fifty miles, gravel bars the height of '
+                     'small hills, and ripple marks fifty feet from crest to crest'),
+                   Q('Slow erosion, slow deposition and slow uplift account for most of the '
+                     'surface of the Earth'),
+                   Q('Comparable flood channels have since been identified on Mars and are '
+                     'interpreted using the scablands')],
+             key='A', moves={'B': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation says the deciding evidence came from elsewhere and names the '
+                 'ice-dammed lake in Montana, which is not part of the scabland surface at all.',
+             trap='B lists the features of the landscape that failed to persuade anyone.'),
+        dict(carrier='It is an argument about what a default is for: the rule told geologists '
+                     'where to look and then told them not to believe what they found. A default '
+                     'used that way is therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['the wrong instrument for reading a cliff face',
+                   'a guarantee against mistaken conclusions',
+                   'useful for finding an anomaly and no more',
+                   'the reason flood channels were found on Mars'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'overreach', 'D': 'detail_swap'},
+             why='The rule performed well in identifying a landscape it could not explain and '
+                 'badly in judging the explanation, so its value stops at the discovery.',
+             trap='B credits the default with reliability the episode shows it does not have.'),
+        dict(target='spent',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('spent'),
+             opts=['used up entirely', 'passed in doing', 'paid out in money',
+                   'worn out by effort'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'near_miss'},
+             why='The discipline had spent a century getting rid of such explanations, so the word '
+                 'reports the passing of time in that work rather than exhaustion or payment.',
+             trap='C takes the financial sense, which the century of effort does not involve.'),
+        dict(stem='Which choice best describes the function of the opening paragraph about the '
+                  'rule?',
+             opts=['It establishes the standard that the later case strains',
+                   'It introduces the ice-dammed lake in Montana',
+                   'It argues that single catastrophes explain most landscapes',
+                   'It reports the medal Bretz received in 1979'],
+             key='A', moves={'B': 'detail_swap', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='The paragraph says the rule defeated an earlier tradition and gave geologists a '
+                 'disciplined method, which is the standard the scablands then put under '
+                 'pressure.',
+             trap='C states the tradition the rule defeated rather than the rule itself.'),
+        dict(sibling='BIO-S09-L3',
+             sibling_gloss='Text 2 is passage 119 of this book. It explains how the age of the '
+                           'Earth was fixed by radiometric dating, why meteorites had to be used '
+                           'because the surface is recycled, and how a disagreement between two '
+                           'methods is itself evidence.',
+             stem='Text 1 reports a rule that blocked a conclusion. Based on Text 2, what would be '
+                  'added to that report?',
+             opts=['Uniformitarianism remains the correct default for geology',
+                   'Slow processes account for most of the surface of the Earth',
+                   'Radiometric dating confirmed the flood that cut the scablands',
+                   'A case in which a disagreement was treated as evidence'],
+             key='D', moves={'A': 'restatement', 'B': 'restatement', 'C': 'wrong_direction'},
+             why='Text 2 treats a conflict between two methods as information about the sample, '
+                 'which is the opposite of the reflex that Text 1 reports in the scabland '
+                 'dispute.',
+             trap='A repeats the verdict Text 1 reaches rather than adding anything from Text 2.'),
+        dict(carrier='His colleagues rejected it, not because they had a better account, but '
+                     'because a single enormous flood was exactly the kind of explanation the '
+                     'discipline had spent a century getting rid of. ___ he turned out to be '
+                     'right.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Accordingly,', 'Likewise,', 'As it happens,', 'In other words,'],
+             key='C', moves={'A': 'near_miss', 'B': 'wrong_direction', 'D': 'restatement'},
+             why='The sentence reports an outcome that runs against the rejection just explained, '
+                 'so the transition must mark the turn rather than a consequence or a '
+                 'restatement.',
+             trap='A reads his being right as following from the rejection of his argument.'),
+        dict(carrier='It is an argument about what a default is for ___ the rule told geologists '
+                     'where to look and then told them not to believe what they found.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['for: the', 'for, the', 'for the', 'for; the,'],
+             key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'misplaced'},
+             why='A colon introduces the explanation of what a default is for, which a comma '
+                 'between two independent clauses cannot do.',
+             trap='B joins the clause about the rule to the announcement with a comma alone.'),
+        dict(goal='explain how a good rule can produce a bad judgment',
+             notes=['Uniformitarianism defeated an earlier tradition of explaining landscapes by '
+                    'single catastrophes.',
+                    'Slow erosion, deposition and uplift account for most of the surface of the '
+                    'Earth.',
+                    'The rule told geologists where to look and then told them not to believe '
+                    'what they found.',
+                    'It remains the correct default.'],
+             stem='The student wants to explain how a good rule can produce a bad judgment. Which '
+                  'choice most effectively uses relevant information from the notes to accomplish '
+                  'that goal?',
+             opts=['Uniformitarianism defeated an earlier tradition of single catastrophes',
+                   'Slow processes account for most of the surface of the Earth',
+                   'The rule is right about most of the Earth, which is why it both found the '
+                   'anomaly and refused to accept it',
+                   'Uniformitarianism remains the correct default for the discipline'],
+             key='C', moves={'A': 'underreach', 'B': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice makes the rule correct in general and wrong in the one case, '
+                 'which is the shape of the failure the goal asks about.',
+             trap='D affirms the rule without saying how it produced the mistaken judgment.'),
+    ]))
+
+# --- 10 ------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='BIO-S10-L4',
+    ar=dict(
+        khulasa='دعويان في ثوايتس تُجمعان كثيرًا وحقّهما الفصل. الأولى عدم استقرار الصفيحة '
+                'الجليدية البحرية، أي التراجع الذي يُعيل نفسه في نهر جليدي مرتكز تحت مستوى '
+                'البحر على ميل يزداد عمقًا نحو الداخل. والفيزياء فيها مباشرة ومقبولة على '
+                'نطاق واسع.',
+        maana='المعنى أنّ خطّ التأريض إذا رجع إلى ماء أعمق انكشف جليد أسمك، فخرج جليد أكثر، '
+              'واستمرّ التراجع دون مزيد من التسخين. وهل بدأت هذه العملية في ثوايتس فعلًا؟ '
+              'ذلك متنازع فيه، وقياسات تراجع خطّ التأريض هي الدليل الذي يُتجادل فيه.',
+        ahammiyya='في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الخلاف: الدعوى الثانية '
+                  'هي انهيار جرف الجليد، أي تهاوي وجه مكشوف أعلى من أن يحمل نفسه، '
+                  'والاعتراضات عليها جدّية وليست سياسية: فالآلية لم تُرصد في المقياس '
+                  'المعنيّ، والنموذج احتاج معاملات اختيرت لتُحاكي مستويات بحر قديمة '
+                  'مرتابة.',
+        sila='في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسند دعوى وعن وظيفة '
+             'الجملة الافتتاحية. والفخّ المتوقّع هنا أن تُقرأ الدعويان دعوى واحدة، فتبدو '
+             'الأولى أقلّ ثبوتًا مما هي والثانية أكثر. ويقترن المقطع بالمقطع المئة والعشرين '
+             'في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['A 2016 model produced sea level rise of a meter or more',
+                   'Both claims about Thwaites rest on the same physics',
+                   'Two claims are run together, and only one of them is settled physics',
+                   'Ice cannot support a cliff above roughly ninety meters'],
+             key='C', moves={'A': 'underreach', 'B': 'wrong_direction', 'D': 'underreach'},
+             why='The text separates the two claims, calls the first widely accepted physics and '
+                 'the second a possibility that has not been demonstrated, and says they are '
+                 'often reported as one.',
+             trap='B denies the separation the whole text is built to make.'),
+        dict(stem='According to the text, what does marine ice sheet instability describe?',
+             opts=['Retreat that sustains itself on a bed deepening inland',
+                   'The collapse of a face too tall to hold itself up',
+                   'A model result obtained in 2016',
+                   'Warming that must continue for the retreat to go on'],
+             key='A', moves={'B': 'detail_swap', 'C': 'detail_swap', 'D': 'wrong_direction'},
+             why='The text defines the first claim as the self-sustaining retreat of a glacier '
+                 'grounded below sea level on a slope that deepens inland.',
+             trap='B gives the definition of the second claim rather than the first.'),
+        dict(claim='the objections to the second claim come from inside the science',
+             stem='Which quotation from the text most strongly supports the claim that the '
+                  'objections to the second claim come from inside the science?',
+             opts=[Q('Whether that process has already begun at Thwaites is debated'),
+                   Q('The model required parameters chosen to reproduce ancient sea levels that '
+                     'are themselves uncertain'),
+                   Q('Ice cannot support a cliff above roughly ninety meters'),
+                   Q('which was several times the previous projections and was reported very '
+                     'widely')],
+             key='B', moves={'A': 'near_miss', 'C': 'true_not_asked', 'D': 'true_not_asked'},
+             why='The quotation faults the model on the choice of its parameters and the '
+                 'uncertainty of the record they were fitted to, which is a technical objection.',
+             trap='A names the dispute about the first claim rather than the objections to the '
+                  'second.'),
+        dict(carrier='The mechanism has never been observed at the relevant scale. Later work '
+                     'found that the same ancient levels could be reproduced without it. The '
+                     'second claim is therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['ruled out by the evidence available',
+                   'the settled physics of the two claims',
+                   'the reason the first claim is debated',
+                   'neither demonstrated nor excluded as yet'],
+             key='D', moves={'A': 'overreach', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='The absence of observation and the availability of an account without the '
+                 'mechanism leave it unsupported, and the text says it also cannot be excluded.',
+             trap='A hardens an undemonstrated mechanism into one the evidence rules out.'),
+        dict(target='inimical',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('inimical'),
+             opts=['very unlikely', 'poorly measured', 'damaging in its effects',
+                   'easy to plan against'],
+             key='C', moves={'A': 'near_miss', 'B': 'imported', 'D': 'wrong_direction'},
+             why='The planner faces a distribution with a long inimical tail, so the word names '
+                 'the harm the far outcomes would do rather than how likely they are.',
+             trap='A reads the word as a statement of probability, which the tail already '
+                  'supplies.'),
+        dict(stem='Which choice best describes the function of the first sentence of the text?',
+             opts=['It introduces the model result obtained in 2016',
+                   'It announces the separation the rest of the text performs',
+                   'It concedes that the two claims cannot be told apart',
+                   'It reports the height a cliff of ice can reach'],
+             key='B', moves={'A': 'detail_swap', 'C': 'wrong_direction', 'D': 'detail_swap'},
+             why='The opening sentence says two claims are often run together and should be '
+                 'separated, which is what the two halves of the text then do in turn.',
+             trap='C denies the separation that the sentence calls for.'),
+        dict(sibling='BIO-S10-L3',
+             sibling_gloss='Text 2 is passage 120 of this book. It describes gravimetry from a '
+                           'satellite pair, the much older tide gauge and satellite altimetry, '
+                           'and says the first two methods fail in opposite directions, which is '
+                           'why they are used together.',
+             stem='Text 1 separates two claims about one glacier. Based on Text 2, what would be '
+                  'added to that separation?',
+             opts=['The measurements that the first claim is argued over',
+                   'Ice cannot support a cliff above about ninety meters',
+                   'The first claim is physics that is probably under way',
+                   'Gravimetry has observed an ice cliff failing at scale'],
+             key='A', moves={'B': 'restatement', 'C': 'restatement', 'D': 'wrong_direction'},
+             why='Text 2 describes the instruments that weigh the ice sheet, which is where the '
+                 'evidence about whether the retreat has begun actually comes from.',
+             trap='B repeats the physical limit that Text 1 has already given.'),
+        dict(carrier='The physics is straightforward and widely accepted: as the grounding line '
+                     'moves back into deeper water, thicker ice is exposed, more ice flows out, '
+                     'and the retreat continues without any further warming. ___ whether that '
+                     'process has already begun at Thwaites is debated.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Accordingly,', 'Likewise,', 'In other words,', 'Even so,'],
+             key='D', moves={'A': 'near_miss', 'B': 'wrong_direction', 'C': 'restatement'},
+             why='The sentence sets an open question against the accepted physics just described, '
+                 'so the transition must mark a concession rather than a consequence or a '
+                 'restatement.',
+             trap='A reads the debate as following from the acceptance of the physics.'),
+        dict(carrier='The physics is straightforward and widely accepted ___ thicker ice is '
+                     'exposed as the grounding line moves into deeper water.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['accepted, thicker', 'accepted: thicker', 'accepted thicker',
+                   'accepted; thicker,'],
+             key='B', moves={'A': 'comma_splice', 'C': 'run_on', 'D': 'misplaced'},
+             why='A colon introduces the physics that the sentence has just called '
+                 'straightforward, which a comma between two independent clauses cannot do.',
+             trap='A joins the clause about the exposed ice to the announcement with a comma '
+                  'alone.'),
+        dict(goal='explain why reporting the two claims as one misleads in both directions',
+             notes=['The physics of the first claim is straightforward and widely accepted.',
+                    'Whether that process has begun at Thwaites is debated.',
+                    'The mechanism of the second claim has never been observed at the relevant '
+                    'scale.',
+                    'The first is probably under way and the second has not been demonstrated.'],
+             stem='The student wants to explain why reporting the two claims as one misleads in '
+                  'both directions. Which choice most effectively uses relevant information from '
+                  'the notes to accomplish that goal?',
+             opts=['The physics of the first claim is widely accepted among workers',
+                   'The mechanism of the second has never been observed at that scale',
+                   'Whether the process has begun at Thwaites is still being debated',
+                   'Joined together, the accepted physics looks less certain than it is and the '
+                   'untested mechanism looks more certain than it is'],
+             key='D', moves={'A': 'underreach', 'B': 'underreach', 'C': 'true_not_asked'},
+             why='Only this choice states the effect in both directions at once, which is what the '
+                 'goal asks for and what joining the two claims produces.',
+             trap='B gives the weakness of the second claim without naming the cost to the '
+                  'first.'),
+    ]))
+
+if __name__ == '__main__':
+    qemit.emit(FIELD, LEVEL, SETS)
