@@ -148,14 +148,22 @@ def token_contains(a, b):
     return False
 
 
-def option_shape(opts):
-    """The length complaint for an option set, or None."""
+def option_shape(opts, chapter=None):
+    """The length complaint for an option set, or None.
+
+    The ratio is looser where the options are whole sentences, because one of
+    those chapters' moves is a sentence that says too little and is therefore
+    short by design. Padding it to meet a fragment chapter's ratio would destroy
+    the move. See data/spec.yaml.
+    """
     lens = [len(o) for o in opts]
     if not lens or not min(lens):
         return 'empty option'
+    cap = (R['option_ratio_max_sentence']
+           if chapter in R['sentence_option_chapters'] else R['option_ratio_max'])
     if min(lens) >= R['option_short_chars']:
         r = max(lens) / min(lens)
-        if r > R['option_ratio_max']:
+        if r > cap:
             return 'length ratio %.2f' % r
     elif max(lens) - min(lens) > R['option_spread_max']:
         return 'length spread %d characters' % (max(lens) - min(lens))
@@ -368,7 +376,7 @@ def _diagnose(row, c, chapter):
             if a != b and token_contains(opts[a], opts[b]):
                 m.append('FIX   %s option %s is contained in option %s'
                          % (i, LABELS[a], LABELS[b]))
-    sh = option_shape(opts)
+    sh = option_shape(opts, chapter)
     if sh:
         m.append('FIX   %s %s' % (i, sh))
     ends = {o.rstrip()[-1] == '.' for o in opts if o.rstrip()}

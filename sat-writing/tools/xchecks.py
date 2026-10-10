@@ -275,7 +275,7 @@ def x8_mechanics(x):
         for b in range(4):
             if a != b and xemit.token_contains(opts[a], opts[b]):
                 bad.append('%s inside %s' % (LABELS[a], LABELS[b]))
-    sh = xemit.option_shape(opts)
+    sh = xemit.option_shape(opts, x['chapter'])
     if sh:
         bad.append(sh)
     ends = {o.rstrip()[-1] == '.' for o in opts if o.rstrip()}
@@ -708,10 +708,21 @@ def book_checks(chapters, xs, xres):
     # who notices it gets to strike one option free on every question. The key has
     # to land at both extremes often enough that length carries no information.
     lo2, hi2 = R['key_extreme_min'], R['key_extreme_max']
+    # The book-wide band can be met while one chapter still hands the student a
+    # rule of its own: in the two chapters whose options are whole sentences the
+    # key naturally gathers the most notes and would be the longest option every
+    # time. So the same check also caps any single chapter at sixty per cent.
+    bych = collections.defaultdict(list)
+    for x in xs:
+        bych[x['chapter']].append(x)
+    hot = ['C%02d %.0f%%' % (c, 100 * sum(1 for x in g if extreme(x, max)) / len(g))
+           for c, g in sorted(bych.items())
+           if sum(1 for x in g if extreme(x, max)) / len(g) > 0.60]
     ck('H6 no identifiable extreme of option length locates the key',
-       nx and lo2 <= longest / nx <= hi2 and lo2 <= shortest / nx <= hi2,
-       'key uniquely longest %.1f%%, uniquely shortest %.1f%%, band %.0f-%.0f%%'
-       % (100 * longest / nx, 100 * shortest / nx, 100 * lo2, 100 * hi2) if nx else '')
+       nx and lo2 <= longest / nx <= hi2 and lo2 <= shortest / nx <= hi2 and not hot,
+       'key uniquely longest %.1f%%, uniquely shortest %.1f%%, band %.0f-%.0f%%%s'
+       % (100 * longest / nx, 100 * shortest / nx, 100 * lo2, 100 * hi2,
+          '; chapters over 60%%: ' + ' '.join(hot) if hot else '') if nx else '')
     mixed = [x['id'] for x in xs
              if len({o.rstrip()[-1] == '.' for o in x['options'] if o.rstrip()}) != 1]
     ck('H7 uniform end punctuation inside every option set', not mixed, '%d mixed' % len(mixed))

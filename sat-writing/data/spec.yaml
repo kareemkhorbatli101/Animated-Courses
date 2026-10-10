@@ -241,6 +241,14 @@ exercise_rules:
   # anti-tell -- that the key is not reliably the longest or shortest option --
   # is a book-level check (H6) rather than a per-exercise one.
   option_ratio_max: 2.40
+  # Chapters 14 and 15 offer whole sentences rather than interchangeable fragments,
+  # and one of their moves -- underreach -- is BY DEFINITION a sentence that says too
+  # little, so it is short by design while the key gathers two or three notes. A 2.40
+  # ratio is unreachable there and would only push the author into padding the short
+  # option. The anti-tell for those chapters is H6, which is two-sided and now also
+  # caps how often a single chapter puts the key at the top. See PLAN.md section 14.
+  option_ratio_max_sentence: 3.40
+  sentence_option_chapters: [14, 15]
   option_short_chars: 12
   option_spread_max: 14
   key_extreme_min: 0.08

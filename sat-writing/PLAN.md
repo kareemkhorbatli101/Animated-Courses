@@ -552,3 +552,26 @@ heading a clause shut in commas. It stays silent on *that* against *which* in a
 restrictive clause and on *whose* for an inanimate possessor, which are house style
 and accepted usage, not errors. Twenty-two moves are still declared undetectable,
 and the declaration is now a shorter and more honest list.
+
+**13. A fragment chapter's length ratio is not a sentence chapter's.** The 2.40
+ratio was written for options that are interchangeable pieces of one sentence.
+Chapters 14 and 15 offer whole sentences, and one of their five moves --
+*underreach* -- is by definition a sentence that says too little, so it is short
+by design while the key gathers two or three notes. The first ten synthesis
+exercises reported ratios from 2.44 to 6.03. Two things were wrong, and both were
+fixed rather than one excused. The cap for those two chapters is now 3.40, which a
+sentence item can meet. And the short options were rewritten: an empty sentence
+should be *vague*, not *brief* -- "The two hearts are not alike in their rate or in
+their size" says as little as "The two hearts are not alike" and no longer announces
+itself by being a third the length of everything else.
+
+**14. The key was the longest option in nine of the first ten synthesis
+exercises.** H6's book-wide band was comfortably met and yet this one chapter
+handed the student a rule: pick the longest. A synthesis key gathers notes, so
+length follows the correct answer around unless the author works against it. Two
+things changed. H6 now also caps any single chapter at sixty per cent, so the book
+cannot hide a chapter-sized tell inside a healthy total. And the distractors were
+rewritten so that the longest option is often an *imported* or *overreaching*
+sentence -- which is what the real test does, because a well-made wrong answer is
+usually as long as the right one. Chapter 14 now puts the key at the top in
+twenty-four of fifty.
