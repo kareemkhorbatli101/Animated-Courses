@@ -98,7 +98,7 @@ SETS.append(dict(
                  'as a conclusion the mechanism does not support.',
              trap='D treats the moths as newly introduced when the text has already used them.'),
         dict(sibling='BIO-S01-L1',
-             sibling_gloss='Text 2 is passage 1 of this book. It reports that a nearly black '
+             sibling_gloss='Text 2 is passage 11 of this book. It reports that a nearly black '
                            'peppered moth was recorded near Manchester in 1848, that the black '
                            'form was more than nine in ten of the local catch fifty years later, '
                            'and that it fell below five percent again after the clean air law of '
@@ -250,7 +250,7 @@ SETS.append(dict(
                  'drawn.',
              trap='C turns a stated limit into the collapse of the whole account.'),
         dict(sibling='BIO-S02-L1',
-             sibling_gloss='Text 2 is passage 2 of this book. It reports that Mendel grew about '
+             sibling_gloss='Text 2 is passage 12 of this book. It reports that Mendel grew about '
                            'twenty-eight thousand pea plants between 1856 and 1863, chose seven '
                            'features that came in two clear forms, found a ratio close to three '
                            'to one for all seven, and published in 1866 to almost no readers.',
@@ -398,7 +398,7 @@ SETS.append(dict(
              trap='B describes the closing sentences of the text rather than the three '
                   'consequences.'),
         dict(sibling='BIO-S03-L1',
-             sibling_gloss='Text 2 is passage 3 of this book. It reports that yeast stirred into '
+             sibling_gloss='Text 2 is passage 13 of this book. It reports that yeast stirred into '
                            'warm sugar water foams within ten minutes, that a baker wants the gas '
                            'and a brewer the alcohol, and that Pasteur showed in the 1860s how '
                            'much more energy the cell gets when air is present.',
@@ -538,7 +538,7 @@ SETS.append(dict(
                  'chain.',
              trap='C names material about the park that this text does not supply.'),
         dict(sibling='BIO-S04-L1',
-             sibling_gloss='Text 2 is passage 4 of this book. It reports that thirty-one wolves '
+             sibling_gloss='Text 2 is passage 14 of this book. It reports that thirty-one wolves '
                            'were released in Yellowstone in 1995 and 1996, that elk numbers on '
                            'the northern range fell by more than half, and that beaver colonies '
                            'rose from one in the early 1990s to nine by 2015.',
@@ -680,7 +680,7 @@ SETS.append(dict(
                  'assumption that fails, which is what the rest of the text sets out to correct.',
              trap='C treats a correction to one curve as the rejection of both.'),
         dict(sibling='BIO-S05-L1',
-             sibling_gloss='Text 2 is passage 5 of this book. It reports that twenty-nine reindeer '
+             sibling_gloss='Text 2 is passage 15 of this book. It reports that twenty-nine reindeer '
                            'were put ashore on St Matthew Island in 1944, that the herd was about '
                            'thirteen hundred in 1957 and six thousand in 1963, that forty-two '
                            'animals were left in 1966, and that lichen grows back over decades.',
@@ -823,7 +823,7 @@ SETS.append(dict(
                  'equivalent handle.',
              trap='C generalizes from one successful map to every outbreak.'),
         dict(sibling='BIO-S06-L1',
-             sibling_gloss='Text 2 is passage 6 of this book. It reports that John Snow marked '
+             sibling_gloss='Text 2 is passage 16 of this book. It reports that John Snow marked '
                            'every traced death on a street map of Soho in 1854, that the bars '
                            'piled up around one public pump on Broad Street, that brewery workers '
                            'who drank their own well water did not fall ill, and that deaths were '
@@ -969,7 +969,7 @@ SETS.append(dict(
                  'must pass through.',
              trap='A names material that comes later, after the cycle has been described.'),
         dict(sibling='BIO-S07-L1',
-             sibling_gloss='Text 2 is passage 7 of this book. It reports that wheat sown after '
+             sibling_gloss='Text 2 is passage 17 of this book. It reports that wheat sown after '
                            'clover beats wheat sown after wheat by a third or more, that the '
                            'Norfolk four-course rotation of turnips, barley, clover and wheat '
                            'became standard in the eighteenth century, and that yields roughly '
@@ -1114,7 +1114,7 @@ SETS.append(dict(
                  'common images, which lets the text name the mechanism as a delay instead.',
              trap='C names the historical measurement rather than the correction being made.'),
         dict(sibling='BIO-S08-L1',
-             sibling_gloss='Text 2 is passage 8 of this book. It reports that an instrument near '
+             sibling_gloss='Text 2 is passage 18 of this book. It reports that an instrument near '
                            'the top of Mauna Loa has measured carbon dioxide every hour since '
                            '1958, that the readings wobble by about six parts per million each '
                            'year as northern plants grow and die back, and that the level climbed '
@@ -1254,7 +1254,7 @@ SETS.append(dict(
                  'three kinds are named.',
              trap='B treats the sentence as the naming that only comes afterward.'),
         dict(sibling='BIO-S09-L1',
-             sibling_gloss='Text 2 is passage 9 of this book. It reports that the valley at '
+             sibling_gloss='Text 2 is passage 19 of this book. It reports that the valley at '
                            'Thingvellir in Iceland lies between the torn edges of a crack in the '
                            'crust, that a visitor can walk along the floor between them, that the '
                            'ground pulls apart at about an inch a year, and that surveyors have '
@@ -1400,7 +1400,7 @@ SETS.append(dict(
                  'better than air, which is the comparison the rest of the explanation rests on.',
              trap='C reverses the point, since the text uses the comparison to rule air out.'),
         dict(sibling='BIO-S10-L1',
-             sibling_gloss='Text 2 is passage 10 of this book. It reports that Thwaites reaches '
+             sibling_gloss='Text 2 is passage 20 of this book. It reports that Thwaites reaches '
                            'the sea along a front about eighty miles wide, that the grounding line '
                            'retreated about nine miles between 1992 and 2011 in one sector, and '
                            'that a team drilled through six hundred meters of ice in 2019 to '
