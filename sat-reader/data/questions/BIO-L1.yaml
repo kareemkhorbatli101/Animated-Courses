@@ -1253,3 +1253,840 @@ sets:
     why: Only this choice states the finding and the limit together, which is the double point the
       goal asks for.
     trap: C gives the limit alone and so leaves the achievement unstated.
+- id: BIO-S07-L1
+  summary_ar:
+    khulasa: حقلان في المزرعة نفسها قد يُعطيان البذر نفسه والمطر نفسه والحراثة نفسها ويُنتجان محصولي
+      قمح مختلفين جدًّا، وأحد المؤشّرات المفيدة هو ما نما في كلّ حقل في السنة السابقة. فالقمح المزروع
+      بعد البرسيم يتجاوز عادةً القمح المزروع بعد القمح، والفرق قد يبلغ الثلث أو أكثر، وقد عرف المزارعون
+      الإنجليز ذلك قبل أن يستطيع أحد تفسيره.
+    maana: المعنى أنّ التفسير في الجذور. فالبرسيم وغيره من العائلة البقولية يحمل انتفاخات صغيرة تُسمّى
+      العُقيدات على جذوره، وفي داخلها تعيش بكتيريا تأخذ النيتروجين من الهواء وتحوّله إلى صورة تستطيع
+      النباتات استخدامها. والقمح لا يقدر على ذلك وعليه أن يستهلك ما يجده في التراب.
+    ahammiyya: 'في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الظاهرة: ممارسة زراعية مؤرّخة بنتائجها.
+      فدورة نورفولك الرباعية صارت قياسية في القرن الثامن عشر، وتضاعفت المحاصيل تقريبًا على مدى القرن،
+      وانتشرت الممارسة لأنّها كانت مربحة لا لأنّ الكيمياء كانت مفهومة.'
+    sila: في اختبار سات يُسأل عن التفصيل وعن الاستنتاج ومعنى الكلمة في سياقها. والفخّ الشائع أن يُفترض
+      أنّ الفهم الكيميائي سبق الممارسة، مع أنّ النصّ يقول إنّ النيتروجين لم يُعرف عنصرًا فاعلًا إلّا
+      في ثلاثينيات القرن التاسع عشر. ويقترن المقطع بالمقطع السابع والستّين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Nitrogen was not identified as the active element until the 1830s
+    - Yields on Norfolk farms roughly doubled over the eighteenth century
+    - The turnips in the rotation were a root crop lifted for winter feed
+    - Wheat does better after clover, and the reason lies in bacteria on clover roots
+    key: D
+    moves:
+      A: underreach
+      B: true_not_asked
+      C: detail_swap
+    why: The text opens on the difference between the two fields and closes on the nodules and the
+      bacteria inside them that supply the nitrogen.
+    trap: B gives a measured consequence of the practice rather than the explanation of it.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what happened to the clover in the rotation?
+    options:
+    - It was lifted and stored as winter feed for the sheep
+    - It was cut for hay or eaten by sheep, and the roots turned in
+    - It was sown immediately after the wheat each year
+    - It was left standing through the winter to protect the soil
+    key: B
+    moves:
+      A: detail_swap
+      C: wrong_direction
+      D: imported
+    why: The text says the clover was cut for hay or eaten by sheep, whose droppings stayed on the
+      land, and that the roots were then turned into the soil.
+    trap: A gives the treatment of the turnips rather than of the clover.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the practice was adopted
+      for reasons unconnected with the explanation?
+    claim: the practice was adopted for reasons unconnected with the explanation
+    options:
+    - «Clover and other members of the pea family carry small swellings called nodules on their roots»
+    - «The farmer divided a field into four parts and moved the crops around them on a four-year cycle»
+    - «The practice spread because it paid, not because the chemistry was understood»
+    - «Inside these nodules live bacteria that take nitrogen from the air»
+    key: C
+    moves:
+      A: near_miss
+      B: underreach
+      D: near_miss
+    why: The sentence separates the reason for adoption from the understanding of the mechanism, which
+      is exactly what the claim asserts.
+    trap: A names part of the explanation rather than the reason for adoption.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Clover leaves the soil richer than it found it; wheat leaves it poorer. A farmer who
+      alternates the two therefore ___
+    options:
+    - runs a cycle of deposit and withdrawal
+    - needs no winter feed for the sheep
+    - exhausts the field by the fourth year
+    - must apply nitrogen from outside the farm
+    key: A
+    moves:
+      B: imported
+      C: wrong_direction
+      D: near_miss
+    why: One crop adds to the soil and the other draws on it, so alternating them is a slow cycle
+      of putting in and taking out.
+    trap: C describes what happens to a farmer who grows wheat on wheat instead.
+  - slot: 5
+    type: words_in_context
+    difficulty: easy
+    stem: As used in the text, what does the word «consume» most nearly mean?
+    target: consume
+    options:
+    - destroy by burning
+    - buy for immediate use
+    - take up a great deal of time
+    - draw on what is available
+    key: D
+    moves:
+      A: imported
+      B: imported
+      C: near_miss
+    why: Wheat cannot fix nitrogen and must take what the soil already holds, so the word names drawing
+      on a store.
+    trap: A gives the sense in which a fire consumes a building.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the first paragraph of the text?
+    options:
+    - It names the bacteria that live inside the root nodules
+    - It reports the four crops of the Norfolk rotation in order
+    - It sets up a difference that the rest of the text explains
+    - It explains why the rotation spread across northern Europe
+    key: C
+    moves:
+      A: wrong_direction
+      B: detail_swap
+      D: near_miss
+    why: The paragraph establishes that wheat after clover beats wheat after wheat and says farmers
+      knew it before anyone could say why.
+    trap: B names the content of the second paragraph rather than the first.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 says a farmer who grows wheat on wheat makes withdrawals only. Based on Text 2, which
+      leak does the harvest itself represent?
+    sibling: BIO-S07-L2
+    sibling_gloss: Text 2 is passage 67 of this book. It sets out fixation, uptake, breakdown and
+      return as the steps of the nitrogen cycle, and names harvest, leaching and gas losses as the
+      three leaks from a field.
+    options:
+    - Nitrogen washed below the root zone by rain
+    - Nitrogen removed in the grain and carried away
+    - Nitrogen returned to the air as gas by bacteria
+    - Nitrogen fixed industrially by the Haber process
+    key: B
+    moves:
+      A: near_miss
+      C: near_miss
+      D: detail_swap
+    why: Text 2 lists the harvest as the leak that removes nitrogen in the grain and takes it away
+      in a truck.
+    trap: A names leaching, which is a different one of the three leaks.
+  - slot: 8
+    type: transitions
+    difficulty: easy
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Wheat cannot do this and must consume what it finds in the soil. ___ clover leaves the
+      soil richer than it found it.
+    options:
+    - By contrast,
+    - For example,
+    - In other words,
+    - Consequently,
+    key: A
+    moves:
+      B: near_miss
+      C: restatement
+      D: wrong_direction
+    why: The two crops do opposite things to the soil, so the second sentence stands against the first.
+    trap: D makes the enrichment by clover a consequence of what wheat cannot do.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Wheat sown after clover ___ a low plant of the pea family grown for hay ___ will usually
+      beat wheat sown after wheat.
+    options:
+    - clover which is a low plant of the pea family grown for hay
+    - clover; which is a low plant of the pea family grown for hay;
+    - clover, which is a low plant of the pea family grown for hay,
+    - clover, which is a low plant of the pea family grown for hay
+    key: C
+    moves:
+      A: run_on
+      B: wrong_mark
+      D: unpaired
+    why: The clause describing clover interrupts the sentence before its verb, so it needs a comma
+      at each end.
+    trap: D opens the interruption with a comma and never closes it before the verb.
+  - slot: 10
+    type: synthesis
+    difficulty: medium
+    stem: The student wants to explain to a reader why the rotation worked before anyone understood
+      it. Which choice most effectively uses relevant information from the notes to accomplish that
+      goal?
+    goal: explain to a reader why the rotation worked before anyone understood it
+    notes:
+    - English farmers knew wheat did better after clover long before anyone could say why.
+    - Yields on Norfolk farms roughly doubled over the century.
+    - The practice spread because it paid.
+    - Nitrogen was not identified as the active element until the 1830s.
+    options:
+    - The rotation paid for itself in doubled yields two generations before the chemistry behind it
+      was known
+    - Yields on farms using the rotation roughly doubled over the century
+    - English farmers knew that wheat did better after clover had been grown
+    - Nitrogen was not identified as the active element until the 1830s
+    key: A
+    moves:
+      B: underreach
+      C: restatement
+      D: true_not_asked
+    why: Only this choice sets the measured benefit beside the delay in understanding, which is what
+      the goal asks for.
+    trap: D gives the date of the understanding without the benefit that preceded it.
+- id: BIO-S08-L1
+  summary_ar:
+    khulasa: قرب قمّة ماونا لوا، وهو بركان في جزيرة هاواي، يسحب جهاز الهواء عبر أنبوب ويقيس ثاني أكسيد
+      الكربون فيه كلّ ساعة منذ عام ألف وتسعمئة وثمانية وخمسين. واختير الموقع لأنّه بعيد عن المدن والغابات
+      والمصانع، على ارتفاع أحد عشر ألف قدم، في هواء عبر آلاف الأميال من المحيط، وأنشأ تشارلز ديفيد
+      كيلينغ أوّل منظومة قياس هناك وأدارها سبعًا وأربعين سنة.
+    maana: 'المعنى أنّ السجلّ يفعل شيئين في وقت واحد: يتذبذب صعودًا وهبوطًا كلّ سنة، ويصعد. فالتذبذّب
+      السنوي حادّ الشكل كأسنان منشار: يهبط ثاني أكسيد الكربون في الربيع والصيف الشماليين حين تنمو
+      الغابات والمحاصيل وتأخذه، ويرتفع في الخريف والشتاء حين تتساقط الأوراق وتتعفّن، والمدى نحو ستّة
+      أجزاء في المليون.'
+    ahammiyya: 'في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الظاهرة: قراءة مباشرة من جهاز لا تقدير.
+      فالقراءات الأولى عام ثمانية وخمسين كانت نحو ثلاثمئة وخمسة عشر جزءًا في المليون، وتجاوز الرقم
+      أربعمئة عام ألفين وثلاثة عشر، وارتفع المستوى كلّ سنة من السجلّ بلا استثناء.'
+    sila: في اختبار سات يُسأل عن التعليق على رسم بياني موصوف بالكلمات. والفخّ الشائع أن يُخلط التذبذّب
+      السنوي بالصعود طويل المدى، مع أنّ النصّ يفصل بينهما فصلًا واضحًا. ويقترن المقطع بالمقطع الثامن
+      والستّين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - One instrument has recorded a yearly wobble and a yearly climb since 1958
+    - Keeling nearly lost his funding twice during the 1960s
+    - The South Pole record shows almost no yearly wobble at all
+    - The site was chosen because it is far from cities and factories
+    key: A
+    moves:
+      B: underreach
+      C: true_not_asked
+      D: detail_swap
+    why: The text says the record does two things at once and then takes the wobble and the climb
+      in turn.
+    trap: C reports a comparison from the end of the text rather than its subject.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, why does carbon dioxide fall each northern spring?
+    options:
+    - Because leaves drop and rot through the colder months
+    - Because the instrument is eleven thousand feet above the sea
+    - Because northern forests and crops are growing and taking it in
+    - Because the southern half of the world has little plant life
+    key: C
+    moves:
+      A: wrong_direction
+      B: imported
+      D: detail_swap
+    why: The text says the figure falls through the northern spring and summer when the forests and
+      crops of the northern half are growing and taking it in.
+    trap: A gives the reason for the rise in the other half of the year.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the climb is harder
+      to dispute than an estimate would be?
+    claim: the climb is harder to dispute than an estimate would be
+    options:
+    - «The site was chosen because it is far from cities, forests and factories»
+    - «The swing is about six parts per million from peak to trough»
+    - «Other stations, from Alaska to the South Pole, now run the same measurement»
+    - «it is a direct reading from an instrument rather than an estimate»
+    key: D
+    moves:
+      A: near_miss
+      B: underreach
+      C: near_miss
+    why: The clause gives the reason the climb is undisputed, which is that it is read off an instrument
+      rather than inferred.
+    trap: C names corroboration from other stations rather than the character of the reading.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: The yearly wobble has not changed much, but the level around which it wobbles has shifted
+      upward every single year of the record. The two features of the graph are therefore ___
+    options:
+    - the same process measured in two ways
+    - independent of one another in the record
+    - both produced by northern plant growth
+    - confined to the station on Mauna Loa
+    key: B
+    moves:
+      A: wrong_direction
+      C: near_miss
+      D: detail_swap
+    why: One feature has stayed steady while the other has risen every year, so the two are not moving
+      together.
+    trap: C assigns both features to plant growth, which the text gives only to the wobble.
+  - slot: 5
+    type: words_in_context
+    difficulty: easy
+    stem: As used in the text, what does the word «shifted» most nearly mean?
+    target: shifted
+    options:
+    - moved steadily higher
+    - changed in shape
+    - swapped one thing for another
+    - slid sideways a little
+    key: A
+    moves:
+      B: near_miss
+      C: imported
+      D: wrong_direction
+    why: The level around which the wobble sits has gone up every year of the record, so the word
+      names a steady upward movement.
+    trap: B gives a change of form, which the text assigns to the wobble and denies.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the South Pole record?
+    options:
+    - It reports the first readings taken in 1958
+    - It explains why the Mauna Loa site was chosen
+    - It shows that the climb has been measured only in Hawaii
+    - It confirms the explanation offered for the yearly wobble
+    key: D
+    moves:
+      A: detail_swap
+      B: near_miss
+      C: wrong_direction
+    why: The southern half has little plant life and shows almost no wobble, which is what the plant-growth
+      explanation predicts.
+    trap: C contradicts the sentence before, which says other stations give the same climb.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports that the curve has no downward step in any year. Based on Text 2, which property
+      explains that?
+    sibling: BIO-S08-L2
+    sibling_gloss: Text 2 is passage 68 of this book. It explains that the ground radiates in the
+      infrared, that water vapor and carbon dioxide absorb there, and that a substantial fraction
+      of carbon dioxide stays in circulation for centuries.
+    options:
+    - The strongest parts of the absorption band are already saturated
+    - A warmer atmosphere holds more water vapor than a cold one
+    - A large share of the gas stays in circulation for centuries
+    - Methane breaks down in the atmosphere in about a decade
+    key: C
+    moves:
+      A: near_miss
+      B: near_miss
+      D: detail_swap
+    why: Text 2 says a substantial fraction remains in circulation for centuries, which is why no
+      recession shows as a step down in the curve.
+    trap: D gives the residence time of a different gas, which is far shorter.
+  - slot: 8
+    type: transitions
+    difficulty: easy
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Carbon dioxide falls through the northern spring and summer, when the forests and crops
+      are growing and taking it in. ___ it rises again through the fall and winter as leaves drop
+      and rot.
+    options:
+    - Therefore,
+    - Then in turn,
+    - In other words,
+    - For instance,
+    key: B
+    moves:
+      A: wrong_direction
+      C: restatement
+      D: near_miss
+    why: The two halves of the year are given in order, so the second sentence continues the sequence.
+    trap: A makes the autumn rise a consequence of the spring fall.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The first readings in 1958 were near three hundred and fifteen parts per million ___
+      the unit in which the measurement is reported.
+    options:
+    - million which is
+    - million; which is
+    - 'million: which is'
+    - million, which is
+    key: D
+    moves:
+      A: run_on
+      B: wrong_mark
+      C: wrong_mark
+    why: The clause naming the unit adds information about the figure, so a comma attaches it to the
+      clause before.
+    trap: A drops the comma a supplementary clause needs after a measurement.
+  - slot: 10
+    type: synthesis
+    difficulty: medium
+    stem: The student wants to help a reader read the graph without confusing its two features. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: help a reader read the graph without confusing its two features
+    notes:
+    - The record wobbles up and down each year and it climbs.
+    - The swing is about six parts per million from peak to trough.
+    - The yearly wobble has not changed much.
+    - The level around which it wobbles has shifted upward every year.
+    options:
+    - The record both wobbles up and down each year and climbs over time
+    - The sawtooth of about six parts per million has stayed the same size while the line it sits
+      on has risen every year
+    - The swing is about six parts per million from its peak to its trough
+    - The level around which the record wobbles has shifted upward every year
+    key: B
+    moves:
+      A: underreach
+      C: true_not_asked
+      D: restatement
+    why: Only this choice separates the steady annual swing from the rising level it sits on, which
+      is the distinction a reader needs.
+    trap: A names both features without distinguishing them, which is the confusion the goal sets
+      out to prevent.
+- id: BIO-S09-L1
+  summary_ar:
+    khulasa: في ثينغفيلير بجنوب غرب أيسلندا وادٍ بجدار من صخر داكن على كلّ جانب، والجدارَان هما الحافّتان
+      الممزّقتان لشقّ في القشرة، أي الطبقة الصخرية الخارجية للأرض. ويستطيع زائر أن يسير على الأرضية
+      بينهما. والأرض هناك تتباعد بنحو بوصة في السنة، وهو تقريبًا معدّل نموّ الأظافر، فذلك ثلاثون قدمًا
+      في ألف سنة.
+    maana: 'المعنى أنّ الشقّ جزء من خطّ يمتدّ بطول المحيط الأطلسي نحو عشرة آلاف ميل، وكلّه تقريبًا
+      تحت ميلين من الماء. وأيسلندا من الأماكن القليلة التي يصل فيها الخطّ إلى البرّ، لأنّ منطقة حارّة
+      بشكل غير معتاد تحت الجزيرة بنت صخرًا يكفي للوقوف فوق البحر. وتُصنع أرض جديدة على الشقّ: يصعد
+      الصخر المنصهر ويبرد ويلتصق بالحافّتين.'
+    ahammiyya: 'في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الظاهرة: مكان يمكن الوقوف فيه ورقم
+      يمكن قياسه. ولثينغفيلير تاريخ آخر: اجتمع مجلس أيسلندا في هذا الوادي من عام تسعمئة وثلاثين حتى
+      عام ألف وسبعمئة وثمانية وتسعين، ولم يدرِ الزعماء أنّهم يقفون بين صفيحتين.'
+    sila: في اختبار سات يُسأل عن التفصيل ومعنى الكلمة وبنية المقطع. والفخّ الشائع أن يُفترض أنّ الخطر
+      من الحركة البطيئة، مع أنّ النصّ ينسب التهديد إلى الحركة المفاجئة. ويقترن المقطع بالمقطع التاسع
+      والستّين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Iceland assembly met in the valley from the year 930 until 1798
+    - A visitor can stand in a valley where two plates are pulling apart and new ground is made
+    - Satellite instruments have measured the valley since the 1990s
+    - The rock used as a speaking platform is basalt, once liquid
+    key: B
+    moves:
+      A: true_not_asked
+      C: underreach
+      D: detail_swap
+    why: The text opens on the walls of the rift and the rate of separation and explains how new ground
+      forms along the crack.
+    trap: A names the second kind of history rather than the subject of the passage.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, how fast is the ground pulling apart?
+    options:
+    - About two miles in ten thousand years of slow movement
+    - About an inch a century, which is slower than a fingernail
+    - About ten thousand miles from north of Iceland to the far south
+    - About thirty feet in a thousand years, or an inch a year
+    key: D
+    moves:
+      A: detail_swap
+      B: wrong_direction
+      C: true_not_asked
+    why: The text gives about an inch a year and then converts it to thirty feet over a thousand years.
+    trap: B slows the rate by a factor of a hundred and misstates the fingernail comparison.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that two independent methods
+      agree on the rate?
+    claim: two independent methods agree on the rate
+    options:
+    - «Those figures agree with the long-term average taken from the age of the rock on each side»
+    - «Almost all of it is two miles under water»
+    - «The chieftains who gathered there had no idea that they stood between two plates»
+    - '«New ground is made along the crack: molten rock rises, cools and sticks to both edges»'
+    key: A
+    moves:
+      B: underreach
+      C: true_not_asked
+      D: near_miss
+    why: Satellite measurement and the age of the rock are two separate routes to the same figure,
+      which the sentence states.
+    trap: D explains how new ground forms rather than how the rate was checked.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: When the land moves suddenly rather than slowly, farms and roads are threatened, and
+      Iceland building rules reflect that. The danger therefore ___
+    options:
+    - comes from the steady inch a year of separation
+    - has been removed by the rules now in force
+    - lies in the sudden movements rather than the slow pull
+    - is confined to the floor of the valley itself
+    key: C
+    moves:
+      A: wrong_direction
+      B: overreach
+      D: detail_swap
+    why: The sentence makes the threat follow from land moving suddenly rather than slowly, which
+      is where the risk lies.
+    trap: A assigns the danger to the slow pull the sentence sets against it.
+  - slot: 5
+    type: words_in_context
+    difficulty: easy
+    stem: As used in the text, what does the word «threatened» most nearly mean?
+    target: threatened
+    options:
+    - warned of a penalty
+    - put at risk of damage
+    - frightened into leaving
+    - promised a reprisal
+    key: B
+    moves:
+      A: imported
+      C: near_miss
+      D: imported
+    why: Farms and roads are the things at stake when the land moves suddenly, so the word names being
+      placed in danger.
+    trap: C treats inanimate farms and roads as though they could be frightened.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the hot region beneath the
+      island?
+    options:
+    - It explains why the line comes ashore in Iceland at all
+    - It reports how deep the line lies under the Atlantic
+    - It introduces the assembly that met in the valley
+    - It gives the rate at which the valley floor has dropped
+    key: A
+    moves:
+      B: near_miss
+      C: wrong_direction
+      D: detail_swap
+    why: The hot region has built up enough rock to stand above the sea, which is the reason the ridge
+      is visible in Iceland.
+    trap: B names the depth of the line elsewhere rather than the reason for the exception.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports small, common earthquakes at Thingvellir. Based on Text 2, which kind of
+      edge does that indicate?
+    sibling: BIO-S09-L2
+    sibling_gloss: Text 2 is passage 69 of this book. It explains that there are only three kinds
+      of plate edge, that plates moving apart build new crust and produce ridges and shallow earthquakes,
+      and that collision and erosion set the height of a range.
+    options:
+    - A collision in which one plate goes down beneath another
+    - A boundary where two plates slide past one another
+    - A range still rising because the collision has not finished
+    - A divergent edge, where new crust is being made
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: imported
+    why: Text 2 assigns ridges, rift valleys and shallow earthquakes to plates moving apart, which
+      is what Text 1 describes.
+    trap: B names the third kind of edge, which makes and destroys nothing.
+  - slot: 8
+    type: transitions
+    difficulty: easy
+    stem: Which choice completes the text with the most logical transition?
+    carrier: A visitor can walk along the floor between them. ___ the ground there is pulling apart
+      at about an inch a year.
+    options:
+    - By contrast,
+    - In other words,
+    - All the while,
+    - For instance,
+    key: C
+    moves:
+      A: wrong_direction
+      B: restatement
+      D: near_miss
+    why: The separation continues during the visit, so the second sentence reports something going
+      on at the same time.
+    trap: A sets the movement against the visit rather than placing it alongside.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The two walls are the torn edges of a crack in the crust ___ the outer rock layer of
+      the Earth.
+    options:
+    - crust, which is
+    - crust which is
+    - crust; which is
+    - 'crust: which is'
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: wrong_mark
+    why: The clause defining the crust adds information about the noun before it, so a comma attaches
+      the two.
+    trap: B omits the comma that a clause of this kind needs after the noun.
+  - slot: 10
+    type: synthesis
+    difficulty: medium
+    stem: The student wants to explain to a reader why Thingvellir is worth visiting as a geological
+      site. Which choice most effectively uses relevant information from the notes to accomplish that
+      goal?
+    goal: explain to a reader why Thingvellir is worth visiting as a geological site
+    notes:
+    - The two walls are the torn edges of a crack in the crust.
+    - The ground is pulling apart at about an inch a year.
+    - Almost all of the line is two miles under water.
+    - Iceland is one of the few places where the line comes ashore.
+    options:
+    - The two walls of the valley are the torn edges of a crack in the crust
+    - The ground in the valley is pulling apart at about an inch each year
+    - A boundary that is otherwise two miles under water can here be walked into on foot
+    - Almost all of the line runs two miles beneath the Atlantic Ocean
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice says what makes the place exceptional, which is that a submarine boundary
+      is here above water.
+    trap: D gives the depth of the line without the exception that makes Iceland remarkable.
+- id: BIO-S10-L1
+  summary_ar:
+    khulasa: يقع نهر ثوايتس الجليدي في غرب أنتاركتيكا ويبلغ البحر على جبهة عرضها نحو ثمانين ميلًا،
+      والجليد وراء تلك الجبهة أسمك من ميل في أماكن. ولو ذاب كلّه لرفع الماء المضاف إلى المحيط مستوى
+      البحر نحو قدمين، وهو يعمل أيضًا سدّادةً لكتلة جليد أكبر بكثير وراءه، ولذلك أُنفق عليه من مال
+      الميدان في عشر سنوات أكثر مما أُنفق على أي نهر جليدي آخر.
+    maana: المعنى أنّ الجبهة ليست جرفًا قائمًا على صخر. فالجليد يطفو في الجزء الأخير من رحلته، والخطّ
+      الذي يرتفع فيه عن قاع البحر يُسمّى خطّ التأريض، وقد تحرّك هذا الخطّ إلى الداخل نحو تسعة أميال
+      بين عام ألف وتسعمئة واثنين وتسعين وعام ألفين وأحد عشر في جزء من النهر.
+    ahammiyya: 'في مجال الأحياء وعلوم الأرض هذه المادة في مستوى الظاهرة: السبب ليس الهواء الدافئ بل
+      الماء. فتيّار من ماء البحر الدافئ نسبيًّا يصل إلى الوجه السفلي للجليد الطافي، وهو نحو درجتين
+      فوق نقطة تجمّد الماء المالح، وذلك يكفي لإذابة عشرات الأمتار في السنة.'
+    sila: في اختبار سات تتكرّر تقارير العلوم التي تستبعد سببًا متوقّعًا وتقدّم آخر. والفخّ الشائع
+      أن يُنسب الذوبان إلى حرارة الهواء، مع أنّ النصّ يقول إنّ الهواء يبقى تحت التجمّد معظم السنة.
+      ويقترن المقطع بالمقطع السبعين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: easy
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The hole drilled in 2019 took five days to make with a hot-water drill
+    - The robot sent back pictures of a staircase of ice overhead
+    - A glacier is retreating because warm sea water is melting it from below
+    - More field money has been spent on Thwaites than on any other glacier
+    key: C
+    moves:
+      A: underreach
+      B: true_not_asked
+      D: near_miss
+    why: The text rules out warm air, names the warm current reaching the underside, and reports the
+      retreat of the grounding line.
+    trap: D gives the reason the glacier is studied rather than what the study found.
+  - slot: 2
+    type: detail
+    difficulty: easy
+    stem: According to the text, what is the grounding line?
+    options:
+    - The line where the floating ice lifts off the sea bed
+    - The front along which the glacier reaches the sea
+    - The depth at which the warm current is found
+    - The edge where large pieces have broken away
+    key: A
+    moves:
+      B: near_miss
+      C: imported
+      D: near_miss
+    why: The text says the ice floats for the last part of its journey and that the line where it
+      lifts off the sea bed is called the grounding line.
+    trap: B names the eighty-mile front rather than the line further inland.
+  - slot: 3
+    type: evidence
+    difficulty: medium
+    stem: Which quotation from the text most strongly supports the claim that the cause of the melting
+      is not the temperature of the air?
+    claim: the cause of the melting is not the temperature of the air
+    options:
+    - «That line has moved inland. Radar and satellite measurements put the retreat at about nine
+      miles»
+    - «Air temperatures over that part of Antarctica stay below freezing for most of the year»
+    - «The ice behind that front is more than a mile thick in places»
+    - «has thinned and cracked, and large pieces have broken away»
+    key: B
+    moves:
+      A: underreach
+      C: true_not_asked
+      D: near_miss
+    why: Air that stays below freezing most of the year cannot be doing the melting, which is why
+      the text turns to the water.
+    trap: D names an effect of the thinning rather than evidence about the air.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A current of relatively warm sea water reaches the underside of the floating ice. It
+      is about two degrees above the freezing point of salt water, and that is enough to melt the
+      ice from below at tens of meters a year. Two degrees therefore ___
+    options:
+    - is colder than the air above the glacier
+    - would melt the whole glacier within a decade
+    - has been measured only since 2019
+    - is a small margin doing a great deal of work
+    key: D
+    moves:
+      A: wrong_direction
+      B: overreach
+      C: detail_swap
+    why: A difference of two degrees produces melting at tens of meters a year, so a small margin
+      is removing a large quantity of ice.
+    trap: B turns a rate of melting into a prediction the text does not make.
+  - slot: 5
+    type: words_in_context
+    difficulty: easy
+    stem: As used in the text, what does the word «shelter» most nearly mean?
+    target: shelter
+    options:
+    - a roof over a structure
+    - a place of refuge for people
+    - protection from a force
+    - a legal exemption from tax
+    key: C
+    moves:
+      A: imported
+      B: near_miss
+      D: imported
+    why: The floating ice in front stands between the glacier and the open sea, so the word names
+      protection from what the sea would otherwise do.
+    trap: B reads a word about ice and sea as though it concerned people.
+  - slot: 6
+    type: structure
+    difficulty: medium
+    stem: Which choice best describes the function of the sentence about the robot lowered into the
+      cavity?
+    options:
+    - It reports the width of the front at the sea
+    - It names how the melting rate was first measured directly
+    - It explains why the floating ice has thinned and cracked
+    - It gives the depth of the ice behind the front
+    key: B
+    moves:
+      A: detail_swap
+      C: near_miss
+      D: detail_swap
+    why: The next sentence says that is how the melting rate at the grounding line was first measured
+      directly.
+    trap: C names a consequence described earlier rather than the work of this sentence.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports that the grounding line has moved inland. Based on Text 2, why does that
+      matter beyond the distance involved?
+    sibling: BIO-S10-L2
+    sibling_gloss: Text 2 is passage 70 of this book. It explains that water carries heat far better
+      than air, that melt water rising along the ice draws more warm water in, and that a bed deepening
+      inland makes a retreat accelerate.
+    options:
+    - Because a deepening bed puts thicker ice into contact with the water
+    - Because air temperatures stay below freezing for most of the year
+    - Because the front is about eighty miles wide at the sea
+    - Because the hole took five days to drill with hot water
+    key: A
+    moves:
+      B: detail_swap
+      C: near_miss
+      D: imported
+    why: Text 2 says each retreat on a retrograde slope exposes thicker ice to melting, so the retreat
+      feeds itself.
+    trap: B quotes a fact about the air, which neither text makes relevant to the grounding line.
+  - slot: 8
+    type: transitions
+    difficulty: easy
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The front is not a cliff standing on rock. ___ for the last part of its journey the ice
+      floats.
+    options:
+    - Nevertheless,
+    - For instance,
+    - In short,
+    - Instead,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The first sentence denies one picture and the second supplies the one that replaces it.
+    trap: A sets the floating ice against the denial rather than offering it as the alternative.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: In 2019 a team drilled through six hundred meters of ice and lowered a robot into the
+      cavity ___ the space under the floating ice.
+    options:
+    - cavity; meaning
+    - cavity, meaning
+    - cavity meaning
+    - 'cavity: meaning,'
+    key: B
+    moves:
+      A: wrong_mark
+      C: run_on
+      D: unpaired
+    why: The phrase defining the cavity is a supplement to the noun before it, so a comma attaches
+      it.
+    trap: A puts a semicolon before a phrase that could not stand as a sentence.
+  - slot: 10
+    type: synthesis
+    difficulty: medium
+    stem: The student wants to explain to a reader why this glacier receives so much attention. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain to a reader why this glacier receives so much attention
+    notes:
+    - If all of it melted, sea level would rise by roughly two feet.
+    - The glacier acts as a plug for a much larger body of ice behind it.
+    - The grounding line retreated about nine miles between 1992 and 2011.
+    - More field money has been spent on it than on any other glacier.
+    options:
+    - The grounding line retreated about nine miles between 1992 and 2011
+    - More field money has been spent on it than on any other glacier
+    - If the whole of it melted, sea level would rise by roughly two feet
+    - It holds two feet of sea level itself and plugs a far larger body of ice, and its grounding
+      line is already retreating
+    key: D
+    moves:
+      A: underreach
+      B: restatement
+      C: underreach
+    why: Only this choice puts the quantity, the plug and the observed retreat together, which is
+      what accounts for the attention.
+    trap: B names the attention itself rather than any reason for it.
