@@ -609,7 +609,26 @@ def book_checks(chapters, xs, xres):
        '%d missing: %s' % (len(noctx), noctx[:4]))
     keyeq = [x['id'] for x in xs
              if x['rule_span'] in set(v['span'] for v in (x.get('faults') or {}).values())]
-    ck('F10 the key span is never also quoted as a fault', not keyeq, '%d bad' % len(keyeq))
+    # The transitions chapter has the one route to two defensible answers that no
+    # predicate in wlex can reach: two options that announce the same relation. So
+    # the same check also classifies all four options of every transition exercise
+    # and requires the key's relation to be its own. An unclassifiable option is a
+    # failure too: it would mean the chapter had reached outside the vocabulary the
+    # classifier knows, and the claim would then be untested rather than true.
+    rel = []
+    for x in xs:
+        if x['chapter'] != 13:
+            continue
+        cs = [wlex.relation_of(o) for o in x['options']]
+        if any(c is None for c in cs):
+            rel.append('%s unclassified' % x['id'])
+            continue
+        k = cs[LABELS.index(x['key'])]
+        if cs.count(k) > 1:
+            rel.append('%s %s twice' % (x['id'], k))
+    ck('F10 nothing in an exercise duplicates the key, not its span and not its '
+       'relation', not keyeq and not rel,
+       '%d spans, %d relations: %s' % (len(keyeq), len(rel), rel[:4]))
 
     # --- G. stimulus ------------------------------------------------------
     st = [re.sub(r'\s+', ' ', stim(x)).strip().lower() for x in xs]

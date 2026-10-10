@@ -648,6 +648,50 @@ def wrong_mark(span, ctx):
 
 
 # ---------------------------------------------------------------------------
+# transitions: which relation a connective states
+# ---------------------------------------------------------------------------
+# Chapter 13 has the one risk no predicate in this library can reach: two options
+# that state the same relation, where both would then be defensible. This is the
+# machine form of that test. The classes are coarse on purpose -- they say which
+# relation a connective announces, not whether it fits the sentences -- and the
+# two directions of sequence are kept apart, because "beforehand" against "only
+# then" is the whole of a sequence item and not a tie.
+RELATIONS = {
+    'addition': ['moreover', 'in addition', 'also', 'furthermore', 'what is more',
+                 'besides'],
+    'contrast': ['however', 'by contrast', 'in contrast', 'on the other hand',
+                 'on the contrary', 'conversely', 'whereas', 'instead'],
+    'concession': ['admittedly', 'to be sure', 'to be fair', 'granted', 'of course',
+                   'all the same', 'even so', 'nevertheless', 'nonetheless', 'still',
+                   'at any rate'],
+    'cause': ['after all', 'because of this', 'for this reason'],
+    'result': ['therefore', 'consequently', 'as a result', 'accordingly', 'thus',
+               'hence', 'and so'],
+    'example': ['for example', 'for instance', 'to take one case', 'in particular'],
+    'sequence_after': ['then', 'next', 'only then', 'only afterward', 'afterward',
+                       'later', 'subsequently', 'two years later', 'a year later',
+                       'in the years that followed'],
+    'sequence_before': ['beforehand', 'earlier', 'formerly', 'previously',
+                        'up to that point'],
+    'simultaneity': ['at the same time', 'meanwhile', 'in the meantime',
+                     'all the while'],
+    'comparison': ['similarly', 'likewise', 'in the same way',
+                   'in much the same way'],
+    'restatement': ['in other words', 'that is', 'that is to say', 'put differently',
+                    'put another way', 'more precisely', 'put more precisely',
+                    'more exactly', 'in short', 'in sum', 'to put it another way'],
+    'emphasis': ['indeed', 'in fact', 'more than that', 'above all'],
+}
+_REL = {phrase: name for name, lst in RELATIONS.items() for phrase in lst}
+
+
+def relation_of(span):
+    """The relation a transition announces, or None if it is not one this knows."""
+    t = (span or '').strip().strip(',;:.').lower()
+    return _REL.get(t)
+
+
+# ---------------------------------------------------------------------------
 # restrictive and nonrestrictive modifiers
 # ---------------------------------------------------------------------------
 RELATIVIZERS = ('who', 'whom', 'whose', 'which', 'that')
@@ -989,6 +1033,14 @@ def _tests():
        False, 'whose for an inanimate possessor is not a fault this book asserts')
     eq(wrong_relativizer('passed under the Articles', dict(antecedent='thing')), None,
        'no relativizer in the span at all')
+    eq(relation_of('However,'), 'contrast', 'a plain contrast')
+    eq(relation_of('  by contrast '), 'contrast', 'trimmed and lower-cased')
+    eq(relation_of('Only then,'), 'sequence_after', 'the later of two steps')
+    eq(relation_of('Beforehand,'), 'sequence_before', 'the earlier of two steps')
+    eq(relation_of('At the same time,'), 'simultaneity', 'neither before nor after')
+    eq(relation_of('Put more precisely,'), 'restatement', 'the first said again')
+    eq(relation_of('Nonetheless,'), 'concession', 'a point granted')
+    eq(relation_of('The Globe burned'), None, 'not a transition at all')
     eq(overpunctuated(', and,', dict(marks_expected=1)), True, 'two marks where one is due')
 
     # parallelism

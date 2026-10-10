@@ -73,7 +73,7 @@ not appear in the key at all. Every distractor in the book is checked by one of 
 two, never by neither.
 
 `tools/wlex.py` answers `True`, `False` or `None`, and `None` — "I cannot tell" — is
-a first-class answer rather than a failure. The library has 136 self-tests of its
+a first-class answer rather than a failure. The library has 144 self-tests of its
 own, because four distinct false positives in one function (`has_finite` reading
 "having collapsed" as a finite verb, and three more) would each have passed a whole
 chapter of fragments as sentences.
@@ -81,7 +81,7 @@ chapter of fragments as sentences.
 ## The checks
 
 ```
-python3 tools/wlex.py              # 136 self-tests of the predicate library
+python3 tools/wlex.py              # 144 self-tests of the predicate library
 python3 tools/xchecks.py           # 6,000 per-exercise + 120 book-level checks
 python3 tools/xchecks.py -v        # every line
 python3 tools/xbal.py              # the balances that only fail at book scale

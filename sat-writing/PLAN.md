@@ -610,3 +610,20 @@ plus 4 is the 112 poems of the 1591 collection -- one is the arithmetic of a
 its job, and one is the figure an *imported* distractor brings in from outside the
 table on purpose. The tool cannot be a pass-or-fail check, because a derived figure
 is the point of the chapter; it is a list to be read, and it was read.
+
+**18. The transitions chapter's one route to two defensible answers is now
+machine-checked.** Every other chapter has predicates that fire on a distractor and
+stay silent on the key; chapter 13 has none and can have none, because whether a
+connective states the relation two sentences bear is a question about meaning. But
+one form of the failure *is* mechanical: two options that announce the same relation,
+where both would then be defensible. `wlex.relation_of` classifies a connective into
+twelve relations -- addition, contrast, concession, cause, result, example, sequence
+after, sequence before, simultaneity, comparison, restatement, emphasis -- and F10
+now requires the key's relation to be its own among the four options. The two
+directions of sequence are kept apart deliberately: *beforehand* against *only then*
+is the whole of a sequence item and not a tie, and a classifier that lumped them
+would have reported five false collisions. An option the classifier cannot place
+fails the check as well, because an unplaceable option means the chapter reached
+outside the vocabulary the claim is tested over, and the claim would then be
+untested rather than true. The finished chapter: 200 options classified, no
+duplicate relations.

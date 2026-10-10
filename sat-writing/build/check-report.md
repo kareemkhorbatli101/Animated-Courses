@@ -97,7 +97,7 @@ distractors, uniqueness of correctness, and mechanics. Run them with
 - ok F7 no option contained inside another  0 contained
 - ok F8 no part repeats an option set, and none is the habit of the book  0 parts repeat; commonest set used 5 times
 - ok F9 every exercise supplies the context its predicates need  0 missing: []
-- ok F10 the key span is never also quoted as a fault  0 bad
+- ok F10 nothing in an exercise duplicates the key, not its span and not its relation  0 spans, 0 relations: []
 
 ## G — the stimulus
 
