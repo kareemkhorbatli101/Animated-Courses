@@ -1,0 +1,178 @@
+"""History and Civics, Level 1: ten question sets."""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import qemit                                                            # noqa: E402
+
+Q = '«%s»'.__mod__
+
+SETS = []
+
+SETS.append(dict(
+    id='HIS-S01-L1',
+    ar=dict(
+        khulasa='اجتمع المؤتمر القاري الثاني في فيلادلفيا صيف عام ألف وسبعمئة وستة وسبعين، '
+                'وصوّت المندوبون في الثاني من تموز على الانفصال عن بريطانيا، ثم أقرّوا بعد '
+                'يومين النصّ الذي يشرح الأسباب. كتب توماس جيفرسون المسودة الأولى، وحذف '
+                'المؤتمر نحو ربعها. وتتألف الوثيقة من ثلاثة أقسام: مقدمة تقرّر مصدر سلطة أي '
+                'حكومة، وقسم أوسط يسرد المظالم على الملك جورج الثالث، ثم الخاتمة.',
+        maana='المعنى الأساسي أنّ الوثيقة بُنيت مرافعةً قانونية لا بيانَ مبادئ. فالمظالم '
+              'تشغل معظم الصفحة لأنّ القضية القانونية تحتاج تفاصيل محدّدة: فعلٌ بعينه، في '
+              'تاريخ، وفي مكان. وهذا يفسّر ما يفاجئ من يقرأ السطور الأولى وحدها.',
+        ahammiyya='في مجال التاريخ والنظام المدني تمثّل هذه المادة مستوى الظاهرة: واقعة '
+                  'مؤرّخة ومسمّاة يُبنى عليها لاحقًا فهم الآلية والدليل والخلاف. ومن دون '
+                  'معرفة ما تقوله الوثيقة فعلًا يصعب تقييم أي حجّة تُبنى عليها.',
+        sila='في اختبار سات تتكرّر النصوص التأسيسية كثيرًا، ويُسأل عنها عادةً في الفكرة '
+             'المركزية والدليل النصّي وبنية المقطع. والفخّ الشائع اختيار تفصيل صحيح لا يجيب '
+             'عن السؤال، كذكر طباعة النسخ أو قراءتها في الساحات بدل سبب طول قائمة المظالم. '
+             'ويقترن هذا المقطع بالمقطع الحادي والخمسين ليكوّنا نصّين متقابلين.'),
+    qs=[
+        # 1 central_idea, easy
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Copies of the Declaration were printed and read aloud across the colonies '
+                   'within a week of its approval',
+                   'Most of the Declaration is a list of particular complaints, because Congress '
+                   'was building a legal case against the king',
+                   'Thomas Jefferson wrote the Declaration alone, and Congress approved his draft '
+                   'without altering it',
+                   'The Declaration proves that every government everywhere draws its power from '
+                   'the people it rules'],
+             key='B', moves={'A': 'underreach', 'C': 'wrong_direction', 'D': 'overreach'},
+             why='Most of the document is a list of particular grievances because Congress was '
+                 'assembling a legal case against the king, which the third paragraph states '
+                 'outright.',
+             trap='A is true of the text but reports a detail rather than its main idea.'),
+        # 2 detail, easy
+        dict(stem='According to the text, what did Congress do with the draft that Jefferson '
+                  'produced?',
+             opts=['It approved the draft without making changes to it',
+                   'It returned the draft to a committee of five to be rewritten',
+                   'It added the list of grievances to the draft itself',
+                   'It cut about a quarter of what he had written'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'C': 'imported'},
+             why='The second paragraph states that Congress cut about a quarter of what Jefferson '
+                 'produced after the other committee members left most of the writing to him.',
+             trap='A reverses the record, since the draft was shortened rather than approved '
+                  'untouched.'),
+        # 3 evidence, medium
+        dict(claim='the Declaration was written as a legal argument rather than as a statement '
+                   'of principle',
+             stem='Which quotation from the text most strongly supports the claim that the '
+                  'Declaration was written as a legal argument rather than as a statement of '
+                  'principle?',
+             opts=[Q('Congress was building a legal case, and a legal case needs particulars'),
+                   Q('Thomas Jefferson wrote the first draft in about two weeks'),
+                   Q('Copies were read out in public squares within the week'),
+                   Q('He had shut down elected assemblies, kept soldiers in the colonies in time '
+                     'of peace')],
+             key='A', moves={'B': 'true_not_asked', 'C': 'underreach', 'D': 'near_miss'},
+             why='The quotation says directly that Congress was assembling a legal case and that '
+                 'such a case requires particulars, which is the claim at issue.',
+             trap='D quotes the grievances themselves, which show what the case contained rather '
+                  'than that it was a legal case.'),
+        # 4 inference, medium
+        dict(carrier='The Declaration was approved on July 4, 1776, but Congress had no army fund '
+                     'and no treasury of its own that July. It established both within the year, '
+                     'which suggests that the vote to separate ___',
+             stem='Which choice most logically completes the text?',
+             opts=['was delayed until the institutions it required already existed',
+                   'had little effect on how the Congress afterward spent its time',
+                   'created obligations the Congress was not yet equipped to meet',
+                   'was carried out by Thomas Jefferson without the other delegates'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'underreach', 'D': 'imported'},
+             why='Congress voted to separate before it had either an army fund or a treasury and '
+                 'then had to build both within the year, so the vote committed it to work it '
+                 'could not yet do.',
+             trap='A inverts the sequence, since the institutions followed the vote rather than '
+                  'preceding it.'),
+        # 5 words_in_context, easy
+        dict(target='established',
+             stem='As used in the text, what does the word %s most nearly mean?'
+                  % Q('established'),
+             opts=['demonstrated as true', 'brought into being', 'made peace with',
+                   'took control of'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'wrong_direction'},
+             why='Congress had neither an army fund nor a treasury and then had both, so here the '
+                 'word means brought into being rather than proved.',
+             trap='A gives the other common sense of the word, as in establishing that something '
+                  'is true.'),
+        # 6 structure, medium
+        dict(stem='Which choice best describes the function of the third paragraph in the text as '
+                  'a whole?',
+             opts=['It explains why the bulk of the document is taken up by complaints',
+                   'It lists the grievances that the second paragraph had only named',
+                   'It describes how copies of the document were distributed and read',
+                   'It corrects the account of the drafting given in the paragraph before'],
+             key='A', moves={'B': 'near_miss', 'C': 'true_not_asked', 'D': 'imported'},
+             why='The paragraph opens by noting that the grievances take up most of the page and '
+                 'then supplies the reason, which is that a legal case needs particulars.',
+             trap='B describes work the second paragraph has already done rather than the third.'),
+        # 7 cross_text, hard
+        dict(sibling='HIS-S01-L2',
+             sibling_gloss='Text 2 is passage 51 of this book. It argues that the second paragraph '
+                           'of the Declaration moves from premises to a conclusion in order, and '
+                           'that the grievances are offered as evidence for a factual claim '
+                           'rather than as argument about principle.',
+             stem='Text 1 reports that the grievances take up most of the document. Based on Text '
+                  '2, how would its author most likely explain that proportion?',
+             opts=['The grievances were the only part of the document Congress could agree on',
+                   'The opening principles were added after the complaints had been drafted',
+                   'The document was shortened by a quarter, which left mostly complaints',
+                   'The premises needed no proof, so the space went to the factual claim'],
+             key='D', moves={'A': 'imported', 'B': 'wrong_direction', 'C': 'detail_swap'},
+             why='Text 2 holds that the premises are offered without proof while the grievances '
+                 'are evidence for a factual claim, so the evidence is what needs the space.',
+             trap='C uses a real detail, the cut of a quarter, to explain a proportion it did not '
+                  'produce.'),
+        # 8 transitions, easy
+        dict(carrier='Congress had no army fund and no treasury of its own that July. ___ it '
+                     'established both within the year.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For instance,', 'Likewise,', 'Nevertheless,', 'In other words,'],
+             key='C', moves={'A': 'near_miss', 'B': 'wrong_direction', 'D': 'restatement'},
+             why='Congress lacked both an army fund and a treasury and then built both within the '
+                 'year, so the two sentences stand in contrast.',
+             trap='D would fit if the second sentence restated the first, but it reports a change '
+                  'instead.'),
+        # 9 boundaries, easy
+        dict(carrier='The Declaration of Independence was printed in a shop a few streets from the '
+                     'room where Congress had voted ___ copies were read out in public squares '
+                     'within the week.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['voted; copies', 'voted, copies', 'voted copies', 'voted: copies'],
+             key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'wrong_mark'},
+             why='Both halves are independent clauses, so a semicolon is needed rather than a '
+                 'comma, a colon, or no mark at all.',
+             trap='B is the comma splice, joining two independent clauses with only a comma.'),
+        # 10 synthesis, medium
+        dict(goal='explain to an audience unfamiliar with the subject why the document contains '
+                  'so many complaints',
+             notes=['The grievances take up most of the page.',
+                    'Congress was building a legal case, and a legal case needs particulars.',
+                    'Each complaint named something the king had actually done, on a date, in a '
+                    'place.',
+                    'Readers who know only the opening lines are surprised by the proportion.'],
+             stem='The student wants to explain to an audience unfamiliar with the subject why the '
+                  'document contains so many complaints. Which choice most effectively uses '
+                  'relevant information from the notes to accomplish that goal?',
+             opts=['The Declaration has three parts, and the middle one is a list of grievances '
+                   'against the king',
+                   'Readers who know only the opening lines are surprised, although the grievances '
+                   'take up most of the page',
+                   'The Declaration gives most of its space to grievances because Congress was '
+                   'making a legal case, which needs named particulars',
+                   'Congress named each complaint on a date and in a place, and the war had '
+                   'already run for more than a year'],
+             key='C', moves={'A': 'underreach', 'B': 'restatement', 'D': 'true_not_asked'},
+             why='Only this choice gives the reason for the proportion, tying the space taken by '
+                 'the grievances to the legal case that required named particulars.',
+             trap='B repeats two of the notes without explaining the proportion the student set '
+                  'out to explain.'),
+    ]))
+
+if __name__ == '__main__':
+    qemit.emit('HIS', 1, SETS,
+               path=os.path.join(os.path.dirname(os.path.dirname(
+                   os.path.abspath(__file__))), 'data', 'questions', 'HIS-L1.yaml'))

@@ -131,3 +131,94 @@ checks:
     A: "Coverage and progression — the strand advances and the anchors are real."
     B: "Language grading — length, sentence shape, readability, and the 98 per cent rule."
     C: "Register and integrity — American usage, particulars, no second person."
+
+# ---------------------------------------------------------------------------
+# Questions, answer key and Arabic summaries. See QUESTIONS-PLAN.md.
+# ---------------------------------------------------------------------------
+slots:
+  1:  {type: central_idea,     domain: "Information and Ideas"}
+  2:  {type: detail,           domain: "Information and Ideas"}
+  3:  {type: evidence,         domain: "Information and Ideas"}
+  4:  {type: inference,        domain: "Information and Ideas"}
+  5:  {type: words_in_context, domain: "Craft and Structure"}
+  6:  {type: structure,        domain: "Craft and Structure"}
+  7:  {type: cross_text,       domain: "Craft and Structure"}
+  8:  {type: transitions,      domain: "Expression of Ideas"}
+  9:  {type: boundaries,       domain: "Standard English Conventions"}
+  10: {type: synthesis,        domain: "Expression of Ideas"}
+
+# Difficulty is a design position, not a measurement. Fixed per level by slot so
+# that the per-question check and the level total are both exact.
+difficulty_map:
+  1: {easy: [1, 2, 5, 8, 9],  medium: [3, 4, 6, 10],      hard: [7]}
+  2: {easy: [1, 2, 9],        medium: [3, 4, 5, 6, 8],    hard: [7, 10]}
+  3: {easy: [2, 9],           medium: [1, 3, 4, 5, 8],    hard: [6, 7, 10]}
+  4: {easy: [9],              medium: [1, 2, 4, 5],       hard: [3, 6, 7, 8, 10]}
+
+question_rules:
+  options: 4
+  labels: [A, B, C, D]
+  stem_words_min: 6
+  stem_words_max: 60
+  option_ratio_max: 2.4
+  key_longest_share_max: 0.30
+  key_shortest_share_max: 0.30
+  key_letter_share_book: [0.22, 0.28]
+  key_letter_share_level: [0.18, 0.32]
+  key_letter_share_field: [0.15, 0.35]
+  key_run_max: 3
+  slot_letter_share_max: 0.40
+  why_words: [8, 45]
+  trap_words: [5, 30]
+  notes_min: 3
+  notes_max: 4
+  banned_option_forms:
+    - "all of the above"
+    - "none of the above"
+    - "both a and b"
+    - "a and b"
+    - "b and c"
+    - "none of these"
+  distractor_moves:
+    true_not_asked: "supported by the text but not an answer to the stem"
+    wrong_direction: "reverses a cause, a comparison or a sign"
+    overreach: "the right idea pushed to always, never, proves"
+    underreach: "true and trivial, answering less than was asked"
+    imported: "plausible on the subject and absent from the text"
+    detail_swap: "one name, number or date exchanged for another"
+    near_miss: "on the right topic but answering a slightly different question"
+    restatement: "repeats the text or the stem without answering"
+    comma_splice: "joins two independent clauses with a comma"
+    run_on: "joins two independent clauses with no mark at all"
+    wrong_mark: "a punctuation mark that asserts a relation the sentence does not have"
+    misplaced: "a modifier or clause attached to the wrong element"
+
+arabic:
+  parts: [khulasa, maana, ahammiyya, sila]
+  part_headings:
+    khulasa: "خلاصة"
+    maana: "المعنى"
+    ahammiyya: "الأهمية في المجال"
+    sila: "الصلة بالاختبار"
+  words_min: 90
+  words_max: 200
+  sila_words_min: 15
+  script_share_min: 0.92
+  test_name: "سات"
+  field_names:
+    HIS: "التاريخ والنظام المدني"
+    BIO: "الأحياء وعلوم الأرض"
+    PHY: "العلوم الفيزيائية"
+    HUM: "الإنسانيات"
+    SOC: "العلوم الاجتماعية"
+  move_names:
+    phenomenon: "الظاهرة"
+    mechanism: "الآلية"
+    evidence: "الدليل"
+    dispute: "الخلاف"
+  latin_allowlist: [SAT, Text, A, B, C, D]
+
+question_checks:
+  per_question: 10
+  total: 20000
+  book_level: 100

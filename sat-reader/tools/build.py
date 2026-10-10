@@ -132,6 +132,202 @@ def passage_page(doc, x, first_in_section=False):
     anchor_box(doc, x)
 
 
+ARSERIF = 'FreeSerif'
+QSETS = {}
+AR = SPEC['arabic']
+SLOTS = SPEC['slots']
+
+
+def load_questions():
+    out = {}
+    for p in sorted(glob.glob(os.path.join(ROOT, 'data', 'questions', '*.yaml'))):
+        d = yaml.safe_load(open(p))
+        for s in d['sets']:
+            out[s['id']] = s
+    return out
+
+
+def disp(s):
+    return str(s).replace('«', '“').replace('»', '”')
+
+
+def arabic_para(doc, text, size=10.5, bold=False, before=0, after=3, indent=0.0):
+    """A right-to-left paragraph in an Arabic-capable serif face."""
+    p = doc.add_paragraph()
+    pr = p._p.get_or_add_pPr()
+    bidi = OxmlElement('w:bidi')
+    pr.append(bidi)
+    p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    p.paragraph_format.space_before = Pt(before)
+    p.paragraph_format.space_after = Pt(after)
+    p.paragraph_format.right_indent = Inches(indent)
+    r = p.add_run(text)
+    r.bold = bold
+    r.font.size = Pt(size)
+    r.font.name = ARSERIF
+    rpr = r._element.get_or_add_rPr()
+    rtl = OxmlElement('w:rtl')
+    rpr.append(rtl)
+    fonts = rpr.find(qn('w:rFonts'))
+    if fonts is None:
+        fonts = OxmlElement('w:rFonts')
+        rpr.insert(0, fonts)
+    for a in ('w:cs', 'w:ascii', 'w:hAnsi', 'w:eastAsia'):
+        fonts.set(qn(a), ARSERIF)
+    sz = OxmlElement('w:szCs')
+    sz.set(qn('w:val'), str(int(size * 2)))
+    rpr.append(sz)
+    return p
+
+
+def question_label(q):
+    return '%s · %s · %s' % (q['type'].replace('_', ' '), q['difficulty'],
+                                       SLOTS[q['slot']]['domain'])
+
+
+def one_question(doc, n, q):
+    kept = []
+    head = doc.add_paragraph()
+    head.paragraph_format.space_before = Pt(7)
+    head.paragraph_format.space_after = Pt(2)
+    head.paragraph_format.keep_with_next = True
+    kept.append(head)
+    head.paragraph_format.tab_stops.add_tab_stop(Inches(6.5), WD_TAB_ALIGNMENT.RIGHT)
+    r = head.add_run('%d.%d' % (n, q['slot']))
+    r.bold = True
+    r.font.size = Pt(10)
+    r.font.name = SERIF
+    r2 = head.add_run('\t' + question_label(q))
+    r2.font.size = Pt(7.5)
+    r2.font.name = SERIF
+    r2.font.all_caps = True
+    r2.font.spacing = Pt(0.6)
+    r2.font.color.rgb = RGBColor(0x99, 0x99, 0x99)
+
+    if q['type'] == 'cross_text':
+        para(doc, disp(q['sibling_gloss']), size=9.5, indent=0.22, after=4, italic=True,
+             grey=True)
+    if q['type'] == 'synthesis':
+        para(doc, 'While researching a topic, a student has taken the following notes.',
+             size=9.5, indent=0.22, after=2, grey=True)
+        for note in q['notes']:
+            b = doc.add_paragraph()
+            b.paragraph_format.left_indent = Inches(0.42)
+            b.paragraph_format.space_after = Pt(1)
+            rr = b.add_run('•  ' + disp(note))
+            rr.font.size = Pt(9.5)
+            rr.font.name = SERIF
+        doc.add_paragraph().paragraph_format.space_after = Pt(2)
+    if q.get('carrier'):
+        para(doc, disp(q['carrier']), size=10, indent=0.22, after=4)
+    if q.get('claim'):
+        pass
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.22)
+    p.paragraph_format.space_after = Pt(3)
+    rs = p.add_run(disp(q['stem']))
+    rs.font.size = Pt(10.5)
+    rs.font.name = SERIF
+
+    for i, o in enumerate(q['options']):
+        op = doc.add_paragraph()
+        op.paragraph_format.left_indent = Inches(0.52)
+        op.paragraph_format.first_line_indent = Inches(-0.22)
+        op.paragraph_format.space_after = Pt(1)
+        op.paragraph_format.keep_together = True
+        rl = op.add_run('%s)  ' % SPEC['question_rules']['labels'][i])
+        rl.font.size = Pt(10)
+        rl.font.name = SERIF
+        rl.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
+        ro = op.add_run(disp(o))
+        ro.font.size = Pt(10)
+        ro.font.name = SERIF
+
+
+def question_pages(doc, x, qset):
+    page_break(doc)
+    p = doc.add_paragraph()
+    p.paragraph_format.space_after = Pt(2)
+    p.paragraph_format.tab_stops.add_tab_stop(Inches(6.5), WD_TAB_ALIGNMENT.RIGHT)
+    r = p.add_run('Questions %d.1 to %d.10' % (x['n'], x['n']))
+    r.bold = True
+    r.font.size = Pt(11)
+    r.font.name = SERIF
+    r2 = p.add_run('\ton passage %d, %s' % (x['n'], x['title']))
+    r2.font.size = Pt(8.5)
+    r2.font.name = SERIF
+    r2.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+    rule(doc, before=2, after=2, color='999999')
+    for q in qset['questions']:
+        one_question(doc, x['n'], q)
+    arabic_summary(doc, x, qset)
+
+
+def arabic_summary(doc, x, qset):
+    a = qset.get('summary_ar') or {}
+    if not a:
+        return
+    kept = [rule(doc, before=11, after=3, color='999999'),
+            arabic_para(doc, 'ملخّص المقطع %d بالعربية' % x['n'], size=10, bold=True, after=4)]
+    for part in AR['parts']:
+        if not a.get(part):
+            continue
+        kept.append(arabic_para(doc, '%s: %s' % (AR['part_headings'][part], a[part]),
+                                size=9.5, after=3, indent=0.12))
+    kept.append(rule(doc, before=3, after=0, color='999999'))
+    for pp in kept[:-1]:
+        pp.paragraph_format.keep_together = True
+        pp.paragraph_format.keep_with_next = True
+
+
+def answer_key(doc, items, qsets):
+    new_section(doc, 'Appendix E · answer key')
+    para(doc, 'Appendix E', size=20, bold=True, after=2)
+    para(doc, 'Answer key', size=12, italic=True, after=4)
+    para(doc, 'Two thousand questions in passage order. Each row gives the key, what makes it '
+              'right, and the wrong answer most likely to attract. The trap line is the one '
+              'worth reading twice.', size=10, grey=True, after=10)
+    for x in items:
+        qs = qsets.get(x['id'])
+        if not qs:
+            continue
+        h = doc.add_paragraph()
+        h.paragraph_format.space_before = Pt(10)
+        h.paragraph_format.space_after = Pt(3)
+        h.paragraph_format.keep_with_next = True
+        rh = h.add_run('%d · %s' % (x['n'], x['title']))
+        rh.bold = True
+        rh.font.size = Pt(10.5)
+        rh.font.name = SERIF
+        rh2 = h.add_run('   %s · %s · %s' % (x['field'], x['strand'], x['move']))
+        rh2.font.size = Pt(8)
+        rh2.font.name = SERIF
+        rh2.font.color.rgb = RGBColor(0x99, 0x99, 0x99)
+        for q in qs['questions']:
+            p = doc.add_paragraph()
+            p.paragraph_format.left_indent = Inches(0.55)
+            p.paragraph_format.first_line_indent = Inches(-0.55)
+            p.paragraph_format.space_after = Pt(2)
+            p.paragraph_format.keep_together = True
+            r1 = p.add_run('%d.%-2d  %s  ' % (x['n'], q['slot'], q['key']))
+            r1.bold = True
+            r1.font.size = Pt(9.5)
+            r1.font.name = SERIF
+            r2 = p.add_run('%s · %s   ' % (q['type'].replace('_', ' '), q['difficulty']))
+            r2.font.size = Pt(8)
+            r2.font.name = SERIF
+            r2.font.color.rgb = RGBColor(0x99, 0x99, 0x99)
+            r3 = p.add_run(disp(q['why']))
+            r3.font.size = Pt(9.5)
+            r3.font.name = SERIF
+            r4 = p.add_run('  Trap: ' + disp(q['trap']))
+            r4.font.size = Pt(9.5)
+            r4.font.name = SERIF
+            r4.italic = True
+            r4.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
+
+
 def front_matter(doc, items):
     for _ in range(5):
         doc.add_paragraph()
@@ -310,6 +506,8 @@ def body(doc, items):
             rule(doc, after=0)
             for i, x in enumerate(sub):
                 passage_page(doc, x, first_in_section=(i == 0))
+                if x['id'] in QSETS:
+                    question_pages(doc, x, QSETS[x['id']])
 
 
 def appendices(doc, items):
@@ -421,12 +619,15 @@ def appendices(doc, items):
 
 def main():
     items = load()
+    QSETS.update(load_questions())
     doc = Document()
     style(doc)
     front_matter(doc, items)
     strand_map(doc)
     body(doc, items)
     appendices(doc, items)
+    if QSETS:
+        answer_key(doc, items, QSETS)
     out = os.path.join(ROOT, 'build', 'Reading-the-Five-Fields.docx')
     doc.save(out)
     print('wrote', out, '%.0f KB' % (os.path.getsize(out) / 1024))
