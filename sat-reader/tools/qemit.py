@@ -32,6 +32,19 @@ AR = SPEC['arabic']
 LABELS = R['labels']
 EXTRA = ['claim', 'carrier', 'target', 'sibling', 'sibling_gloss', 'goal', 'notes']
 
+# The key letters are planned, not left to chance. One base pattern, rotated by one
+# letter for each successive set in a file, makes every letter exactly a quarter of
+# the keys in every file -- and so in every field, every level and the book -- while
+# holding each slot to at most 30 per cent on any one letter. See QUESTIONS-PLAN.md
+# section 4. emit() reports any set that departs from its planned pattern.
+KEY_BASE = ['B', 'D', 'A', 'C', 'B', 'A', 'D', 'C', 'A', 'C']
+
+
+def keyplan(i):
+    """The planned ten key letters for the i-th set in a file, counting from 1."""
+    r = (i - 1) % 4
+    return [LABELS[(LABELS.index(L) + r) % 4] for L in KEY_BASE]
+
 
 def _block(s):
     return re.sub(r'\s+', ' ', str(s)).strip()
@@ -129,6 +142,12 @@ def diagnose(out, path):
                            (AR['test_name'], 'test')):
             if need not in ' '.join(str(a.get(p, '')) for p in AR['parts']):
                 print('FIX   %s arabic does not name the %s (%s)' % (s['id'], what, need))
+    for i, st in enumerate(out['sets'], 1):
+        got = [q['key'] for q in st['questions']]
+        want = keyplan(i)
+        if got != want:
+            print('KEYS  %s set %d: planned %s, got %s'
+                  % (st['id'], i, ''.join(want), ''.join(got)))
     c = collections.Counter(keys)
     print('wrote %s  %d sets, %d questions' % (path, len(out['sets']), len(rows)))
     print('  keys %s  stems %d-%dw  worst ratio %.2f'

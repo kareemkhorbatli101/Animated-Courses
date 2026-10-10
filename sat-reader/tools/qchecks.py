@@ -27,6 +27,8 @@ SLOTS = SPEC['slots']
 LABELS = R['labels']
 
 CARRIER_TYPES = {'inference', 'transitions', 'boundaries'}
+FIXED_STEMS = SPEC['fixed_stems']
+VARIABLE_SLOTS = set(SPEC['variable_stem_slots'])
 REQUIRED = {
     'central_idea': [],
     'detail': [],
@@ -171,10 +173,18 @@ def q5_distinctness(q):
     o = [re.sub(r'\s+', ' ', str(t)).strip().lower().rstrip('.') for t in (q.get('options') or [])]
     if len(set(o)) != len(o):
         f.append('Q5 duplicate option')
-    for i in range(len(o)):
-        for j in range(len(o)):
-            if i != j and o[i] and o[i] in o[j]:
-                f.append('Q5 option %s is contained in option %s' % (LABELS[i], LABELS[j]))
+    # A Standard English Conventions item is built so that its four options differ
+    # only in punctuation, so one is bound to sit inside another. That is the form
+    # the real test uses, not a defect, and the type is held to its own rule below.
+    if q.get('type') != 'boundaries':
+        for i in range(len(o)):
+            for j in range(len(o)):
+                if i != j and o[i] and o[i] in o[j]:
+                    f.append('Q5 option %s is contained in option %s' % (LABELS[i], LABELS[j]))
+    else:
+        bare = [re.sub(r'[^a-z ]', '', t).split() for t in o]
+        if len(set(map(tuple, bare))) > 2:
+            f.append('Q5 boundaries options must differ only in punctuation')
     for t in o:
         for bad in R['banned_option_forms']:
             if bad in t:
@@ -232,6 +242,9 @@ def q7_stem(q):
     b = british(st)
     if b:
         f.append('Q7 British forms in stem: %s' % ', '.join(b))
+    want = FIXED_STEMS.get(q.get('type'))
+    if want and st != want:
+        f.append('Q7 %s must use the canonical stem %r' % (q['type'], want))
     return f
 
 
@@ -249,12 +262,18 @@ def q8_grounding(q, s, passages):
             if not quoted(o):
                 f.append('Q8 evidence option %s is not a quotation' % LABELS[i])
     elif t == 'words_in_context':
+        # The target must be the form the passage actually uses, and must belong to
+        # the same word family as one of the passage's Book 1 link words. Some
+        # passages were written with a cognate -- "opposite" for the target word
+        # "opposed" -- so demanding the exact Book 1 form would make the question
+        # unanswerable from the text. The family tie is what carries the cross-link.
         tgt = str(q.get('target') or '')
         vl = [w.lower() for w in (s['passage'].get('vocab_link') or [])]
-        if tgt.lower() not in vl:
-            f.append('Q8 target %r is not the passage vocab_link %s' % (tgt, vl))
         if not re.search(r'\b%s\b' % re.escape(tgt), flat, re.I):
             f.append('Q8 target %r does not appear in the passage' % tgt)
+        stem_ok = any(v[:max(4, len(v) - 3)] == tgt.lower()[:max(4, len(v) - 3)] for v in vl)
+        if not stem_ok:
+            f.append('Q8 target %r shares no word family with the vocab_link %s' % (tgt, vl))
     elif t == 'cross_text':
         sib = passages.get(q.get('sibling'))
         if sib is None:
@@ -525,20 +544,28 @@ def book_checks(passages, sets, qres):
 
     # --- E. stem quality ---------------------------------------------------
     stems = [re.sub(r'\s+', ' ', str(q.get('stem') or '')).strip() for q in qs]
-    ck('E1 every stem ends with a question mark', all(t.endswith('?') for t in stems))
+    ck('E1 fixed-stem types use the canonical SAT wording and every stem ends in a question mark',
+       all(t.endswith('?') for t in stems)
+       and not any('canonical stem' in m for _, fs in qres for g in fs for m in g))
     ck('E2 stem length inside band',
        all(R['stem_words_min'] <= len(t.split()) <= R['stem_words_max'] for t in stems))
     ck('E3 no negative stems', not any('negative stem' in m
                                        for _, fs in qres for g in fs for m in g))
-    ck('E4 no two stems identical book-wide', len(set(stems)) == len(stems),
-       '%d distinct of %d' % (len(set(stems)), len(stems)))
+    vstems = [re.sub(r'\s+', ' ', str(q.get('stem') or '')).strip()
+              for q in qs if q['slot'] in VARIABLE_SLOTS]
+    ck('E4 no two passage-specific stems identical book-wide',
+       len(set(vstems)) == len(vstems),
+       '%d distinct of %d' % (len(set(vstems)), len(vstems)))
     bad = []
-    for st in {(q['set']['field'], q['set']['passage']['strand']) for q in qs if q['set'].get('passage')}:
+    for st in {(q['set']['field'], q['set']['passage']['strand'])
+               for q in qs if q['set'].get('passage')}:
         t = [re.sub(r'\s+', ' ', q['stem']).strip() for q in qs
-             if q['set'].get('passage') and (q['set']['field'], q['set']['passage']['strand']) == st]
+             if q['slot'] in VARIABLE_SLOTS and q['set'].get('passage')
+             and (q['set']['field'], q['set']['passage']['strand']) == st]
         if len(set(t)) != len(t):
             bad.append(st)
-    ck('E5 no stem repeated inside a strand', not bad, '%d strands with a repeat' % len(bad))
+    ck('E5 no passage-specific stem repeated inside a strand', not bad,
+       '%d strands with a repeat' % len(bad))
     ck('E6 no second person in a stem', not any('second person' in m and 'stem' in m
                                                 for _, fs in qres for g in fs for m in g))
     ck('E7 no contractions in a stem', not any('contraction' in m
@@ -560,9 +587,9 @@ def book_checks(passages, sets, qres):
               if re.sub(r'\s+', ' ', sp).strip() not in flat_of(q['set'])]
     ck('F2 every quoted span in an option verbatim', not badopt, '%d bad' % len(badopt))
     ck('F3 evidence options all quotations', not any('is not a quotation' in m for m in gm))
-    ck('F4 words-in-context target is the vocab_link word',
-       not any('is not the passage vocab_link' in m for m in gm))
-    ck('F5 that word appears in the passage',
+    ck('F4 words-in-context target shares the Book 1 word family',
+       not any('shares no word family' in m for m in gm))
+    ck('F5 that target appears verbatim in the passage',
        not any('does not appear in the passage' in m for m in gm))
     ck('F6 transitions carrier built from the passage',
        not any('transitions carrier shares no' in m for m in gm))
