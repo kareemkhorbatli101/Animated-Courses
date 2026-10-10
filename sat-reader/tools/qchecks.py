@@ -46,7 +46,13 @@ REQUIRED = {
 CONTRACTIONS = re.compile(
     r"\b\w+'(t|re|ve|ll|m)\b|\b(it|that|there|who|what|let|he|she|here)'s\b|\bn't\b", re.I)
 SECOND_PERSON = re.compile(r'\b(you|your|yours|yourself|yourselves)\b', re.I)
-NEGATIVE_STEM = re.compile(r'\b(not|except|least|never)\b', re.I)
+# A negative stem is one whose TASK is negated -- "which is NOT true", "all of the
+# following EXCEPT", "which is least like". A "not" inside a clause describing what
+# the text says is ordinary English and is not a negative stem, so the negation has
+# to govern the interrogative to count.
+NEGATIVE_STEM = re.compile(
+    r'\bNOT\b|\bEXCEPT\b|\bexcept\b|\bleast\b|\bneither\b'
+    r'|[Ww]hich choice.{0,40}?\b(is|are|was|were|does|do|did|would|could|can|will|may)\s+not\b')
 STOP = set("""a an the and or but of to in on at by for with from as is are was were be been being
 that this these those it its which who whom whose what when where why how than then so if not no
 than more most less least very much many such each any all both one two three into over under
@@ -236,8 +242,7 @@ def q7_stem(q):
         f.append('Q7 stem uses the second person')
     if CONTRACTIONS.search(st):
         f.append('Q7 stem uses a contraction')
-    tail = st.split('?')[-2] if '?' in st else st
-    if NEGATIVE_STEM.search(tail.split('.')[-1]):
+    if NEGATIVE_STEM.search(st):
         f.append('Q7 negative stem')
     b = british(st)
     if b:
