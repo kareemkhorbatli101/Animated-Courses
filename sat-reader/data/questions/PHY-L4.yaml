@@ -1,0 +1,2113 @@
+# Physical Science level 4 - ten SAT-style questions and an Arabic summary per passage.
+# Written by tools/qemit.py; checked by tools/qchecks.py.
+field: PHY
+level: 4
+sets:
+- id: PHY-S01-L4
+  summary_ar:
+    khulasa: قراءة المحرار تبدو واقعة عن العالم وليست كذلك تمامًا، فمعاملتها حرارةً تقتضي التسليم
+      بأنّ السائل يتوسّع تناسبًا مع الحرارة، وأنّ الزجاج لا يتوسّع توسّعًا يهمّ، وأنّ الآلة بلغت التوازن
+      مع ما تقيسه، وكلّ ذلك افتراض خلفيّ لا بدّ منه، وكلّه مأخوذ من نظرية.
+    maana: 'المعنى أنّ الفلاسفة من بيير دوهيم سمّوا هذا تحمّل القياس بالنظرية، أي أنّ ما يُعدّ قياسًا
+      متعلّق بالإطار المستعمل؛ وصورته القويّة تمضي أبعد: أنّ عالمين مختلفي النظرية لا يقيسان الكمّية
+      نفسها حين يبدو أنّهما يختلفان.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: الصورة الضعيفة لا خلاف فيها
+      ونافعة، والقويّة فيها مشكلة، وهي أنّ القياسات تقلب النظريات التي أذنت بها كثيرًا، فقد وجد مهندسان
+      خلفيّة الموجات الدقيقة وهما يبحثان عن ضجيج هوائي فهدمت النموذج السائد.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُحسب قراءة المحرار واقعة ساذجة، مع أنّ النصّ ينفي ذلك في أوّل جملة.
+      ويقترن المقطع بالمقطع المئة والحادي والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Several psychological constructs are in that position
+    - The weak form of the claim is useful and the strong form fails
+    - A thermometer reading is a plain fact about the world
+    - The microwave background was found by two engineers
+    key: B
+    moves:
+      A: true_not_asked
+      C: wrong_direction
+      D: underreach
+    why: The text calls the weak version uncontroversial and useful and says the strong version has
+      a problem, since measurements regularly overturn the theories that licensed them.
+    trap: C denies the opening sentence, which says the reading is not quite a fact.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, how do scientists manage theory-ladenness?
+    options:
+    - By refusing to use more than one instrument
+    - By treating two theories as the same framework
+    - By accepting the strong version of the claim
+    - By making the assumptions explicit and testing them
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: wrong_direction
+    why: The text says scientists manage theory-ladenness by making the assumptions explicit and testing
+      them separately, which is what a calibration chain does.
+    trap: A reverses the remedy, since agreement between two instruments is the evidence sought.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the strong version is
+      refuted by the history of the subject?
+    claim: the strong version is refuted by the history of the subject
+    options:
+    - «The cosmic microwave background was found by two engineers looking for noise in an antenna,
+      and it destroyed the model most cosmologists then held»
+    - «Each of those is an auxiliary assumption, meaning a background claim that must hold for the
+      measurement to mean what it is taken to mean»
+    - «two scientists with different theories are not measuring the same quantity when they appear
+      to disagree»
+    - «single-method results are treated with caution in every field that has learned the lesson the
+      hard way»
+    key: A
+    moves:
+      B: true_not_asked
+      C: near_miss
+      D: near_miss
+    why: The quotation reports a measurement made in search of antenna noise that destroyed the prevailing
+      model, which is a measurement overturning the theory around it.
+    trap: C states the strong version rather than the history that counts against it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Where two instruments resting on different theories agree, the agreement is evidence
+      that neither theory is distorting the result. A quantity measured by one instrument alone is
+      therefore ___
+    options:
+    - free of any theoretical assumption
+    - measured twice over by definition
+    - open to the objection the text names
+    - the same quantity under two theories
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: near_miss
+    why: The protection comes from agreement between instruments resting on different theories, so
+      a single method leaves the worry about distortion standing.
+    trap: A claims a freedom from theory that the first paragraph rules out.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «appreciate» most nearly mean?
+    target: appreciate
+    options:
+    - rise in value
+    - take the force of
+    - be grateful for
+    - reject outright
+    key: B
+    moves:
+      A: imported
+      C: imported
+      D: wrong_direction
+    why: The working resolution is said to appreciate the point without accepting the conclusion,
+      so the word names granting the point its weight.
+    trap: D reverses the sense, since the point is granted and only the conclusion refused.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the working resolution?
+    options:
+    - It separates what is kept from what is dropped
+    - It introduces the auxiliary assumptions for the first time
+    - It concedes the strong version of the claim
+    - It reports the discovery of the microwave background
+    key: A
+    moves:
+      B: detail_swap
+      C: wrong_direction
+      D: detail_swap
+    why: The sentence says the point is appreciated and the conclusion not accepted, which divides
+      the weak version from the strong one for the rest of the text.
+    trap: C grants the version the text has just said has a problem.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 argues about what a measurement presupposes. Based on Text 2, what would be added
+      to that argument?
+    sibling: PHY-S01-L3
+    sibling_gloss: Text 2 is passage 121 of this book. It describes traceability as an unbroken chain
+      of comparisons back to a national standard, reports the drift of the official kilogram against
+      its copies, and says the unit is now fixed by a constant of nature.
+    options:
+    - A reading rests on assumptions drawn from a theory
+    - Agreement between two instruments is the evidence sought
+    - A calibration chain removes every theoretical assumption
+    - What a calibration chain looks like in practice
+    key: D
+    moves:
+      A: restatement
+      B: restatement
+      C: wrong_direction
+    why: Text 2 sets out the certified masses, the recorded uncertainties and the national standard,
+      which is the chain that Text 1 names as the remedy without describing.
+    trap: B repeats the test Text 1 has already proposed rather than adding to it.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The weak version is uncontroversial and useful. ___ the strong version has a problem,
+      which is that measurements regularly overturn the theories that licensed them.
+    options:
+    - Likewise,
+    - For instance,
+    - By contrast,
+    - In other words,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The second sentence sets the strong version against the weak one just approved, so the transition
+      must mark the opposition between them.
+    trap: A treats the two versions as standing in the same position.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: A thermometer reading looks like a fact about the world ___ and it is not quite one.
+    options:
+    - world, and
+    - world and
+    - world; and
+    - world and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause saying the reading is not quite a fact is independent, so the conjunction joining
+      it to the clause about how it looks takes a comma.
+    trap: B leaves the clause about the look and the clause about the fact unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why agreement between two instruments is worth having. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why agreement between two instruments is worth having
+    notes:
+    - Each reading rests on auxiliary assumptions drawn from a theory.
+    - Scientists make the assumptions explicit and test them separately.
+    - Where two instruments resting on different theories agree, neither theory is distorting the
+      result.
+    - The objection remains live wherever only one method exists.
+    options:
+    - Each reading rests on assumptions drawn from some theory
+    - Scientists make their assumptions explicit and test them apart
+    - Two instruments built on different theories cannot both be distorted in the same way, so their
+      agreement answers the objection
+    - The objection remains live wherever only one method exists
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice explains why an agreement across different frameworks is evidence, which
+      is what makes the convergence worth seeking.
+    trap: D names where the worry survives without saying what settles it elsewhere.
+- id: PHY-S02-L4
+  summary_ar:
+    khulasa: 'كان قانون نيوتن في الجاذبية أنجح نظرية في تاريخ العلم وهو خاطئ، وهو مع ذلك ما يزال يُستعمل
+      لتسيير المركبات الفضائية. والجملتان صادقتان، والجمع بينهما يحتاج تمييزًا قلّ أن يُعطاه الطلّاب:
+      بين نظرية نُقضت ونظرية وُضعت داخل أوسع منها حالةً حدّية.'
+    maana: 'المعنى أنّ الدليل الذي أوجب التغيير كان صغيرًا: فالحَضيض في مدار عطارد، أي أقرب نقطة من
+      الشمس، يتقدّم مقدارًا ضئيلًا كلّ قرن، وبعد حساب كلّ مؤثّر جاذبيّ معروف بقي فارق نحو ثلاث وأربعين
+      ثانية قوسية في القرن.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: حاول الفلكيون ستّين سنة أن يحلّوه
+      بكوكب غير مرئي وبشمس مفلطحة وبتعديل الأُسّ، ثمّ تنبّأت النسبية العامّة بالرقم بالضبط من نظرية
+      بُنيت لأسباب أخرى تمامًا، ولهذا قُبلت ولم يُكتفَ بالإعجاب بها.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن التحوّل بين وجهين. والفخّ
+      المتوقّع هنا أن يُحسب بيان الحدّ نقضًا للنظرية، مع أنّ النصّ ينفي ذلك. ويقترن المقطع بالمقطع
+      المئة والثاني والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Spacecraft navigation uses relativistic corrections
+    - A theory shown to have a boundary has been refuted
+    - A refuted theory and a bounded theory are different things
+    - Mercury advances by forty-three seconds of arc a century
+    key: C
+    moves:
+      A: underreach
+      B: wrong_direction
+      D: underreach
+    why: The text says holding the two statements together requires a distinction between a theory
+      that has been refuted and one placed inside a larger one as a limiting case.
+    trap: B states the view the closing sentences of the text rule out.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, why was general relativity accepted rather than admired?
+    options:
+    - It gave the figure exactly from a theory built elsewhere
+    - It proposed an unseen planet near the Sun
+    - It modified the exponent in the inverse square law
+    - It abandoned the Newtonian equations altogether
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: wrong_direction
+    why: The text says general relativity predicted the figure exactly, from a theory built for quite
+      different reasons, and that is why it was accepted rather than merely admired.
+    trap: B names one of the sixty years of attempts rather than the theory that succeeded.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the newer theory is
+      expected to have a boundary of its own?
+    claim: the newer theory is expected to have a boundary of its own
+    options:
+    - «the theory says that gravity is a force acting instantaneously at a distance, and that is simply
+      not the case»
+    - «the equations remain correct within a stated domain, which is the ordinary condition of every
+      physical law, and relativity itself is expected to fail where quantum effects matter»
+    - «Astronomers tried to resolve it for sixty years by proposing an unseen planet, a flattened
+      Sun, and a modification of the exponent»
+    - «Spacecraft navigation uses Newtonian calculations with relativistic corrections applied where
+      they matter»
+    key: B
+    moves:
+      A: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: The quotation says relativity is itself expected to fail where quantum effects matter, which
+      is the boundary the claim attributes to the newer theory.
+    trap: A gives the charge against the older theory rather than the limit on the newer one.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A theory is not refuted by being shown to have a boundary, and is not safe for being
+      useful inside it. A theory that works perfectly in its own domain is therefore ___
+    options:
+    - proved correct outside that domain as well
+    - refuted by the existence of the domain
+    - exempt from any further testing at all
+    - still open to a question about its reach
+    key: D
+    moves:
+      A: overreach
+      B: wrong_direction
+      C: overreach
+    why: Usefulness inside a domain is said not to make a theory safe, so the question of how far
+      it extends stays open however well it performs within it.
+    trap: A takes success inside a boundary as evidence for what lies beyond it.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «resolve» most nearly mean?
+    target: resolve
+    options:
+    - make a firm decision
+    - break into parts
+    - account for and remove
+    - see in fine detail
+    key: C
+    moves:
+      A: imported
+      B: imported
+      D: near_miss
+    why: Astronomers tried for sixty years to resolve a discrepancy of forty-three seconds of arc,
+      so the word names explaining it away.
+    trap: D takes the optical sense of the word rather than the one about a discrepancy.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the two accounts set out near the end?
+    options:
+    - They introduce the perihelion of Mercury by name
+    - They give the two answers to the question just posed
+    - They concede that relativity failed the test
+    - They report the figure of forty-three seconds
+    key: B
+    moves:
+      A: detail_swap
+      C: wrong_direction
+      D: detail_swap
+    why: The text asks whether Newton was mistaken and then gives one account on which he was and
+      another on which the equations hold within a stated domain.
+    trap: C denies a prediction the text says was exact.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 asks whether a bounded theory is wrong. Based on Text 2, what would be added to that
+      question?
+    sibling: PHY-S02-L3
+    sibling_gloss: Text 2 is passage 122 of this book. It reports the torsion balance of 1798, the
+      controls Cavendish used against air currents and bias, and says published values of the constant
+      still disagree by more than their stated uncertainties.
+    options:
+    - How hard the quantity in the law is to measure
+    - The theory remains correct within a stated domain
+    - Mercury leaves a residual of forty-three seconds
+    - The torsion balance refuted the inverse square law
+    key: A
+    moves:
+      B: restatement
+      C: restatement
+      D: wrong_direction
+    why: Text 2 reports that the constant in the law is still the least precisely known, which bears
+      on how sharply any boundary could be located by measurement.
+    trap: B repeats the account that Text 1 attributes to working physicists.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: 'On one account yes: the theory says that gravity is a force acting instantaneously at
+      a distance, and that is simply not the case. ___ the equations remain correct within a stated
+      domain.'
+    options:
+    - Likewise,
+    - As a result,
+    - In short,
+    - On the other hand,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The sentence gives the second of two opposed accounts, so the transition must mark the turn
+      from one side of the question to the other.
+    trap: B reads the second account as following from the first rather than opposing it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Newton wrote the most successful theory in the history of science ___ and it is still
+      used to fly spacecraft.
+    options:
+    - science and
+    - science, and
+    - science; and
+    - science and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about flying spacecraft is independent, so the conjunction joining it to the clause
+      about the successful theory takes a comma before it.
+    trap: A leaves the clause about the theory and the clause about spacecraft unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why a small discrepancy could overturn a great theory. Which
+      choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why a small discrepancy could overturn a great theory
+    notes:
+    - The residual was about forty-three seconds of arc per century.
+    - Astronomers tried for sixty years to explain it away.
+    - General relativity predicted the figure exactly from a theory built for other reasons.
+    - That is why it was accepted rather than merely admired.
+    options:
+    - The residual was about forty-three seconds of arc per century
+    - Astronomers tried for sixty years to explain the residual away
+    - General relativity was accepted rather than merely admired
+    - A figure that resisted sixty years of patching was then given exactly by a theory built for
+      other reasons
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice joins the long failure to patch the residual with the exact prediction from
+      an unrelated theory, which is what made the small figure decisive.
+    trap: B reports the failed attempts without the success that followed them.
+- id: PHY-S03-L4
+  summary_ar:
+    khulasa: إضاءة غرفة في بريطانيا أرخص بالقيمة الحقيقية نحو سبعمئة مرّة مما كانت قبل قرنين، ومع
+      ذلك لم تكد حصّة الدخل التي تصرفها الأسر على الإضاءة تتغيّر، والسبب أنّ الناس اشتروا ضوءًا أكثر.
+      وتلك المشاهدة أساس أثر الارتداد.
+    maana: المعنى أنّ أثر الارتداد هو زيادة استعمال خدمة تتبع رخص تقديمها، وهو أقوى حجّة على عدم اتّخاذ
+      الكفاءة طريقًا مباشرًا إلى خفض استهلاك الطاقة. وللحجّة صورة ضعيفة لا ينازع فيها أحد وصورة قويّة
+      متنازع فيها.
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: في الصورة الضعيفة يُستردّ بعض
+      الوفر، والارتداد المباشر المقيس في البلدان الغنيّة يُقدَّر بين عشرة وثلاثين في المئة فيبقى معظم
+      الوفر؛ وفي الصورة القويّة قد يفوق الارتدادُ الوفرَ كلّه في اقتصاد كامل.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يحدّ التعميم وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن تُعمَّم حالة الإضاءة على كلّ خدمة، مع أنّ النصّ يشترط عدم التشبّع. ويقترن
+      المقطع بالمقطع المئة والثالث والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The lighting figure comes from a study of the price of light
+    - Rebound is large where a service is already saturated
+    - Direct rebound is usually put between ten and thirty percent
+    - The weak form of the effect holds and the strong form does not
+    key: D
+    moves:
+      A: true_not_asked
+      B: wrong_direction
+      C: underreach
+    why: The text says the weak form is undisputed and the strong form is contested, and that the
+      evidence does not support the strong form as a general rule.
+    trap: B reverses the text, which says rebound is small where a service is saturated.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what do the historical cases of complete rebound share?
+    options:
+    - A service already saturated in a rich country
+    - A service far from saturated, with room to grow
+    - A measured figure between ten and thirty percent
+    - An economy whose output did not require energy
+    key: B
+    moves:
+      A: wrong_direction
+      C: detail_swap
+      D: wrong_direction
+    why: The text says the historical examples share a feature, that the service was far from saturated,
+      so demand had room to grow.
+    trap: A names the opposite condition, under which the text says rebound is small.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the lighting case does
+      not settle the question in general?
+    claim: the lighting case does not settle the question in general
+    options:
+    - «Lighting a room in Britain is about seven hundred times cheaper in real terms than it was two
+      centuries ago»
+    - «rebound across a whole economy can exceed the saving entirely, because cheaper energy services
+      raise output and output requires energy»
+    - «Where a service is already saturated, as domestic refrigeration is in a rich country, rebound
+      is small»
+    - «The lighting figure comes from a study that reconstructed the real price of light since the
+      candle»
+    key: C
+    moves:
+      A: near_miss
+      B: near_miss
+      D: true_not_asked
+    why: The quotation names a saturated service where rebound is small, which shows the lighting
+      result turning on a condition that does not always hold.
+    trap: A gives the lighting figure itself rather than the limit on generalizing from it.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: 'Historical examples of complete rebound exist, lighting among them, and they share a
+      feature: the service was far from saturated, so demand had room to grow. A standard applied
+      to a saturated service would therefore ___'
+    options:
+    - keep most of the saving it produces
+    - lose the whole saving to extra demand
+    - raise output across the whole economy
+    - be the clearest case of complete rebound
+    key: A
+    moves:
+      B: wrong_direction
+      C: detail_swap
+      D: wrong_direction
+    why: Complete rebound is tied to services with room to grow, so a saturated service leaves the
+      demand side little scope to take the saving back.
+    trap: B transfers the lighting outcome to the case the text says behaves otherwise.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «commensurate» most nearly mean?
+    target: commensurate
+    options:
+    - measured in the same units
+    - announced in public
+    - agreed by both sides
+    - matched in scale to
+    key: D
+    moves:
+      A: near_miss
+      B: imported
+      C: imported
+    why: The policy conclusion is said to be commensurate with the detail rather than with the slogan,
+      so the word names a conclusion scaled to the evidence.
+    trap: A takes the strict arithmetical sense rather than the one about proportion.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the refrigeration example?
+    options:
+    - It introduces the rebound effect for the first time
+    - It concedes that efficiency standards save nothing
+    - It marks the condition under which rebound is small
+    - It reports the price of light since the candle
+    key: C
+    moves:
+      A: detail_swap
+      B: wrong_direction
+      D: detail_swap
+    why: The example of a saturated service follows the account of complete rebound and shows the
+      same mechanism producing almost no take-back.
+    trap: B denies the saving that the same sentence allows for saturated services.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 disputes what efficiency saves. Based on Text 2, what would be added to that dispute?
+    sibling: PHY-S03-L3
+    sibling_gloss: Text 2 is passage 123 of this book. It explains that an efficiency figure depends
+      on where the system boundary is drawn, describes life cycle analysis, and says its results turn
+      on assumptions that cannot be measured.
+    options:
+    - Rebound is the take-back of part of a saving
+    - A second reason the same saving can be counted twice over
+    - Measured direct rebound usually falls below a third
+    - A boundary drawn wider makes rebound disappear
+    key: B
+    moves:
+      A: restatement
+      C: restatement
+      D: wrong_direction
+    why: Text 2 shows the figure itself moving with the boundary chosen, so the saving under dispute
+      in Text 1 is not a fixed quantity to begin with.
+    trap: C repeats the measured range that Text 1 has already given.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The argument has a weak form that nobody disputes and a strong form that is contested.
+      ___ in the weak form, some of the saving is taken back.
+    options:
+    - To begin with,
+    - By contrast,
+    - Even so,
+    - In conclusion,
+    key: A
+    moves:
+      B: wrong_direction
+      C: wrong_direction
+      D: restatement
+    why: The sentence opens the account of the two forms just announced, so the transition must mark
+      the first of them rather than a contrast.
+    trap: C sets the weak form against the sentence that promised it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Lighting is far cheaper in real terms than it was two centuries ago ___ the share of
+      income spent on it has barely changed.
+    options:
+    - ago, the
+    - ago the
+    - ago, and the
+    - ago; and, the
+    key: C
+    moves:
+      A: comma_splice
+      B: run_on
+      D: misplaced
+    why: The clause about the share of income is independent, so it joins the clause about the price
+      with a comma and a conjunction rather than a comma alone.
+    trap: A splices the clause about the share onto the clause about the price with a comma.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the policy answer depends on the service. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the policy answer depends on the service
+    notes:
+    - Rebound is the increase in use that follows from making a service cheaper.
+    - Historical cases of complete rebound share a service far from saturated.
+    - Where a service is saturated, rebound is small.
+    - Measured direct rebound in rich countries is ten to thirty percent.
+    options:
+    - A saving survives where demand is near its limit and is taken back where the service has room
+      to grow
+    - Rebound is the increase in use that follows from a cheaper service
+    - Measured direct rebound in rich countries is ten to thirty percent
+    - Where a service is already saturated the rebound is small
+    key: A
+    moves:
+      B: underreach
+      C: true_not_asked
+      D: underreach
+    why: Only this choice states both halves of the condition, the saturated case and the unsaturated
+      one, which is what makes the answer depend on the service.
+    trap: D gives one half of the condition and so settles only one kind of case.
+- id: PHY-S04-L4
+  summary_ar:
+    khulasa: الحرارة تسري من الحارّ إلى البارد، والغازات تمتزج ولا تنفصل، والكوب المكسور لا يعود.
+      والقانون الثاني في الدِّيناميكا الحرارية يقول ذلك دعوى أنّ الإنتروبيا، أي مقياس عدد التراتيب
+      الميكروية الموافقة لحال معلومة، لا تنقص في نظام معزول، وهذه الانتظامية موثوقة كأيّ شيء في الفيزياء.
+    maana: 'المعنى أنّ أيّ نوع من القوانين هي مسألة متنازعة منذ بولتزمان: فعلى حساب هي قانون طبيعة
+      بالمعنى المعتاد، قيد على ما يمكن أن يحدث؛ وعلى حساب آخر هي قانون إحصائي، أي انتظامية تصحّ لأنّ
+      الاستثناءات بالغة الاستبعاد لا لأنّها ممتنعة.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: الحساب الثاني يتبع الميكانيكا،
+      فمعادلات الجزيئات تعمل عملها عكسيًّا، فلا شيء فيها يمنع تجمّع الغاز في زاوية، والذي يمنع وقوعه
+      أنّ عدد تراتيب الانتشار يفوق عدد تراتيب التجمّع بعامل أصفاره أكثر من ذرّات المجرّة.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقال إنّ المعادلات تمنع الاستثناء، مع أنّ النصّ ينفي ذلك. ويقترن المقطع
+      بالمقطع المئة والرابع والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The law holds because exceptions are improbable, not impossible
+    - Nothing in the molecular equations allows a gas to spread out
+    - The relations governing fluctuations were derived in the 1990s
+    - Entropy counts the arrangements consistent with a state
+    key: A
+    moves:
+      B: wrong_direction
+      C: true_not_asked
+      D: underreach
+    why: The text says the statistical reading is now standard, that the mechanics forbid nothing,
+      and that brief genuine decreases have been measured in small systems.
+    trap: B reverses the mechanics, which the text says work equally well run backward.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, why does a gas never collect in one corner?
+    options:
+    - Because the molecular equations forbid it outright
+    - Because entropy cannot decrease in any system at all
+    - Because the spread arrangements vastly outnumber the collected
+    - Because single molecules have been measured directly
+    key: C
+    moves:
+      A: wrong_direction
+      B: overreach
+      D: detail_swap
+    why: The text says the number of arrangements in which the gas is spread out exceeds the number
+      in which it is collected by an enormous factor.
+    trap: A appeals to a prohibition the text says the equations do not contain.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the strict reading of
+      the law has been contradicted by measurement?
+    claim: the strict reading of the law has been contradicted by measurement
+    options:
+    - «Heat flows from hot to cold, gases mix and do not unmix, and a broken cup does not reassemble»
+    - «the molecular equations work equally well run backward, so nothing in them forbids a gas collecting
+      in one corner»
+    - «The regularity is as reliable as anything in physics. What kind of law it is has been argued
+      since Boltzmann»
+    - «experiments on single molecules and tiny beads have measured brief, genuine decreases in entropy
+      of exactly the kind the strict reading forbids»
+    key: D
+    moves:
+      A: true_not_asked
+      B: near_miss
+      C: near_miss
+    why: The quotation reports measured decreases in entropy of exactly the kind the strict reading
+      forbids, which is a contradiction by measurement.
+    trap: B shows the mechanics permitting the exception rather than an experiment finding one.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: If the law is statistical, it says nothing about an individual molecule and nothing in
+      principle about a sufficiently small system. A machine built at the scale of a cell is therefore
+      ___
+    options:
+    - governed by the strict reading of the law
+    - exposed to fluctuations the law does not forbid
+    - free of the second law in every respect
+    - as reliable as anything else in physics
+    key: B
+    moves:
+      A: wrong_direction
+      C: overreach
+      D: detail_swap
+    why: A statistical law leaves small systems unconstrained in principle, so a device at cellular
+      scale meets the very fluctuations the strict reading would rule out.
+    trap: C turns a limit on the strict reading into exemption from the law.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «inexorable» most nearly mean?
+    target: inexorable
+    options:
+    - impossible to resist
+    - cruel in its effects
+    - slow but steady
+    - open to exception
+    key: A
+    moves:
+      B: imported
+      C: near_miss
+      D: wrong_direction
+    why: The text says the inexorable character of the law is a property of large numbers, so the
+      word names a regularity that cannot be withstood at that scale.
+    trap: D reverses the sense, since the word marks what admits no exception.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the galaxy of zeros?
+    options:
+    - It introduces the definition of entropy for the first time
+    - It concedes that the law may fail at any moment
+    - It reports the measurements made on tiny beads
+    - It explains why an allowed event is never seen
+    key: D
+    moves:
+      A: detail_swap
+      B: overreach
+      C: detail_swap
+    why: The sentence follows the admission that nothing forbids the gas collecting and gives the
+      ratio of arrangements, which is why the permitted case never occurs.
+    trap: B turns the improbability of the exception into its imminence.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 asks what kind of law the second law is. Based on Text 2, what would be added to
+      that question?
+    sibling: PHY-S04-L3
+    sibling_gloss: Text 2 is passage 124 of this book. It reports the paddle wheel measurement of
+      the mechanical equivalent of heat, the precision it required, and the way it left one quantity,
+      energy, where there had been two.
+    options:
+    - Entropy counts the arrangements consistent with a state
+    - The molecular equations work equally well run backward
+    - The measurement that fixed the quantity the law governs
+    - The paddle wheel measured a decrease in entropy
+    key: C
+    moves:
+      A: restatement
+      B: restatement
+      D: wrong_direction
+    why: Text 2 reports the work that made heat and energy one quantity in one unit, which is the
+      bookkeeping the second law then constrains.
+    trap: B repeats the point about the mechanics that Text 1 uses to argue its case.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: On one account it is a law of nature in the ordinary sense, a constraint on what can
+      happen. ___ it is a statistical law, meaning a regularity that holds because the exceptions
+      are overwhelmingly improbable rather than impossible.
+    options:
+    - Likewise,
+    - On the other,
+    - As a result,
+    - In short,
+    key: B
+    moves:
+      A: wrong_direction
+      C: near_miss
+      D: restatement
+    why: The sentence gives the second of two opposed accounts, so the transition must mark the turn
+      from one to the other rather than a likeness.
+    trap: C reads the statistical account as following from the first rather than opposing it.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The regularity is as reliable as anything in physics ___ and what kind of law it is has
+      been argued since Boltzmann.
+    options:
+    - physics; and
+    - physics and
+    - 'physics: and'
+    - physics, and
+    key: D
+    moves:
+      A: wrong_mark
+      B: run_on
+      C: wrong_mark
+    why: The clause about what kind of law it is is independent, so the conjunction joining it to
+      the clause about the reliability takes a comma.
+    trap: B leaves the clause about reliability and the clause about the argument unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the statistical reading matters to an engineer. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the statistical reading matters to an engineer
+    notes:
+    - A statistical law holds because the exceptions are improbable rather than impossible.
+    - It says nothing in principle about a sufficiently small system.
+    - Brief decreases in entropy have been measured in single molecules and tiny beads.
+    - At the scale of a cell the fluctuations are the same size as the effects being engineered.
+    options:
+    - A statistical law holds because exceptions are improbable rather than impossible
+    - Because the law leaves small systems unconstrained, a machine the size of a cell meets fluctuations
+      as large as its own effects
+    - Brief decreases in entropy have been measured in tiny beads
+    - The law says nothing in principle about a very small system
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice carries the statistical reading down to the scale where the fluctuations
+      are as large as the effect a designer wants.
+    trap: C reports the measurements without saying what they mean for a design.
+- id: PHY-S05-L4
+  summary_ar:
+    khulasa: في آب سنة ألفين وثلاثة تهدّل خطّ في أوهايو على شجرة، ففصلته أجهزة الحماية، فانتقلت قدرته
+      إلى خطوط مجاورة فانفصلت هي الأخرى، وفي نحو ثماني دقائق بقي خمسة وخمسون مليون نسمة في الولايات
+      المتّحدة وكندا بلا كهرباء، وكلّ جهاز فعل ما صُمّم له.
+    maana: 'المعنى أنّ هذه هي السمة المميّزة للانهيار المتسلسل، أي تتابع يحمي فيه كلّ عنصر نفسه فيُحمّل
+      التالي فوق طاقته. واستُخرج من الواقعة نفسها درسان: الأول أنّ الشبكة كانت ضعيفة الربط ضعيفة التنسيق،
+      فلم يرَ المشغّلون ما خارج نطاقهم، وتعطّل برنامج الإنذار فلم يلاحظ أحد.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: والدرس الثاني نقيض الأول، فالشبكة
+      شديدة الربط تنقل البلاء بكفاءة نقلها القدرة، والدواء المقترح هو التجزير، أي فصل أجزاء الشبكة
+      قصدًا ليعمل كلّ جزء وحده، مع توليد وخزن محلّيين.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن وظيفة الجملة المعرِّفة.
+      والفخّ المتوقّع هنا أن يُقال إنّ الأجهزة أخلّت بما صُمّمت له، مع أنّ النصّ يقول عكسه. ويقترن
+      المقطع بالمقطع المئة والخامس والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Standards written after 2003 are mandatory and enforced
+    - The same connection that shares reserves also shares faults
+    - Each piece of equipment failed to do what it was designed to do
+    - Fifty-five million people lost power within about eight minutes
+    key: B
+    moves:
+      A: underreach
+      C: wrong_direction
+      D: underreach
+    why: The text draws two opposite lessons from one event and says they are not fully reconcilable,
+      because the same connection that shares reserves also shares faults.
+    trap: C reverses the text, which says each piece did what it was designed to do.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what is islanding?
+    options:
+    - The transfer of power to neighboring lines
+    - The sharing of monitoring between operators
+    - The failure of alarm software in a control room
+    - The deliberate separation of parts of a network
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: near_miss
+    why: The text defines islanding as the deliberate separation of parts of a network so that each
+      can run alone, with local generation and storage.
+    trap: A names a step in the cascade rather than the remedy proposed.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the two lessons cannot
+      both be acted on fully?
+    claim: the two lessons cannot both be acted on fully
+    options:
+    - «they are not fully reconcilable, because the same connection that shares reserves also shares
+      faults»
+    - «operators could not see conditions beyond their own territory, the alarm software in the control
+      room had failed and nobody noticed»
+    - «Standards written after 2003 are mandatory and enforced with penalties, which was not previously
+      the case»
+    - «Large blackouts have become less frequent in North America and have not stopped»
+    key: A
+    moves:
+      B: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation says the two are not fully reconcilable and gives the reason, that one connection
+      carries both the reserves and the faults.
+    trap: D reports the record since the event rather than the tension between the lessons.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A tightly connected network transmits trouble as efficiently as it transmits power, and
+      a continent-wide machine in which a tree in Ohio can darken New York is fragile by construction.
+      Stronger interconnection therefore ___
+    options:
+    - removes both failure modes at once
+    - makes a cascade impossible to start
+    - buys one kind of safety with another
+    - has no effect on either failure mode
+    key: C
+    moves:
+      A: overreach
+      B: overreach
+      D: wrong_direction
+    why: The connection that lets a disturbance be absorbed is the same one that carries it, so a
+      gain against one failure mode is a loss against the other.
+    trap: A claims a remedy for both modes, which the text says are not reconcilable.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «marked» most nearly mean?
+    target: marked
+    options:
+    - written down plainly
+    - large and noticeable
+    - graded for quality
+    - set aside for later
+    key: B
+    moves:
+      A: imported
+      C: imported
+      D: wrong_direction
+    why: The argument is said to have produced a marked increase in transmission investment, so the
+      word names an increase large enough to notice.
+    trap: A takes the sense of writing something down rather than of size.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about each piece of equipment?
+    options:
+    - It names the feature that defines the kind of failure
+    - It introduces the islanding remedy for the first time
+    - It concedes that the equipment was badly designed
+    - It reports the number of people left without power
+    key: A
+    moves:
+      B: detail_swap
+      C: wrong_direction
+      D: detail_swap
+    why: The sentence says each piece did what it was designed to do and calls that the defining feature
+      of a cascading failure.
+    trap: C blames the design, though the text says the equipment performed as intended.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 weighs two remedies for one failure. Based on Text 2, what would be added to that
+      weighing?
+    sibling: PHY-S05-L3
+    sibling_gloss: Text 2 is passage 125 of this book. It reports that grid frequency is a continuous
+      readout of the balance between generation and demand, and that stored rotational energy governs
+      how fast the frequency can move.
+    options:
+    - A tightly connected network shares faults as well as power
+    - Each piece of equipment did what it was designed to do
+    - Frequency measures the strength of a connection between regions
+    - The signal that tells an operator a cascade has begun
+    key: D
+    moves:
+      A: restatement
+      B: restatement
+      C: wrong_direction
+    why: Text 2 describes the frequency as a continuous readout of the balance, which is the instrument
+      an operator would watch while a disturbance spreads.
+    trap: A repeats the point Text 1 makes about tight connection rather than adding to it.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: That argument produced the modern reliability standards and a marked increase in transmission
+      investment. ___ the second lesson is the opposite.
+    options:
+    - Likewise,
+    - As a result,
+    - For its part,
+    - In short,
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: restatement
+    why: The sentence turns from the first lesson and its consequences to the second, so the transition
+      must hand the floor over rather than draw a consequence.
+    trap: B reads the second lesson as following from the standards the first produced.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Each piece of equipment did what it was designed to do ___ and that is the defining feature
+      of a cascading failure.
+    options:
+    - do, and
+    - do and
+    - do; and
+    - do and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the defining feature is independent, so the conjunction joining it to the
+      clause about the equipment takes a comma before it.
+    trap: B leaves the clause about the equipment and the clause about the feature unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why grid planning is a judgment rather than a calculation.
+      Which choice most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why grid planning is a judgment rather than a calculation
+    notes:
+    - Stronger interconnection would have let the disturbance be absorbed.
+    - A tightly connected network transmits trouble as efficiently as power.
+    - Both arguments are supported by engineering and by later events.
+    - The same connection that shares reserves also shares faults.
+    options:
+    - Stronger interconnection would have let the disturbance be absorbed
+    - A tightly connected network transmits trouble as well as power
+    - Both remedies are supported, and the connection that shares reserves shares faults, so the choice
+      is between failure modes
+    - Both arguments are supported by engineering and by later events
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice puts the support for both remedies beside the single connection that carries
+      both, which is what leaves a choice rather than a sum.
+    trap: D reports that both are supported without naming what forces a choice.
+- id: PHY-S06-L4
+  summary_ar:
+    khulasa: الضوء إذا مرّ في شقّين ضيّقين أحدث على شاشة خلفهما نمطًا من أهدابٍ مضيئة ومعتمة، وقد
+      أراه توماس يونغ سنة ألف وثمانمئة وواحد، وعُدّ قرنًا كاملًا دليلًا على أنّ الضوء موجة، لأنّ جسيمات
+      تصل إلى شاشة لا يلغي بعضها بعضًا.
+    maana: 'المعنى أنّ الأثر الكهرضوئي أظهر بعد ذلك أنّ الضوء يسلّم طاقته كُتَلًا منفصلة، وذلك ما
+      لا تفعله الأمواج، فزادت الحجّتان الإشكالَ ولم تحلّاه. والتجربة التي أوجبت الحساب الحديث ترسل
+      الضوء جسيمًا واحدًا في المرّة: فكلّ وصول نقطة واحدة، وهذا سلوك جسيم.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: بعد وصولات كافية تكون النقاط
+      قد بنت نمط التداخل، وهذا سلوك موجة، والنمط موجود مع أنّ جسيمين لم يحضرا معًا قطّ ليتداخلا، وإن
+      وُضع كاشف عند الشقّين اختفى النمط.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقال إنّ التجربة أثبتت أنّ الضوء موجة وجسيم معًا، مع أنّ النصّ يسمّي
+      ذلك جملةً لا دعوى. ويقترن المقطع بالمقطع المئة والسادس والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Several interpretations make identical predictions
+    - The experiment showed that light is both a wave and a particle
+    - Neither picture applies, and the mathematics needs neither
+    - Young demonstrated the pattern of bands in 1801
+    key: C
+    moves:
+      A: true_not_asked
+      B: wrong_direction
+      D: underreach
+    why: 'The text says what the experiment settled is narrower than usually claimed: neither picture
+      applies to the thing described, and the mathematics predicts every result without either.'
+    trap: B states the formula the text calls a sentence rather than a claim.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what happens if a detector is placed at the slits?
+    options:
+    - The interference pattern disappears
+    - Each arrival becomes a band rather than a point
+    - The particles arrive two at a time
+    - The pattern builds up more quickly
+    key: A
+    moves:
+      B: wrong_direction
+      C: detail_swap
+      D: wrong_direction
+    why: The text says that putting a detector at the slits to find out which one each particle went
+      through makes the pattern disappear.
+    trap: B reverses the behavior, since each arrival is a single point either way.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the pattern cannot be
+      explained by particles meeting one another?
+    claim: the pattern cannot be explained by particles meeting one another
+    options:
+    - «Thomas Young demonstrated it in 1801, and for a century it was taken as proof that light is
+      a wave»
+    - «the pattern is there even though no two particles were ever present together to interfere with
+      each other»
+    - «The same result has been obtained with electrons, neutrons, whole atoms and molecules of several
+      thousand atoms»
+    - «Several interpretations make identical predictions for every experiment performed so far»
+    key: B
+    moves:
+      A: near_miss
+      C: true_not_asked
+      D: true_not_asked
+    why: The quotation says the pattern appears although no two particles were present together, which
+      rules out their interfering with each other.
+    trap: A gives the old reading of the pattern rather than the result that rules out meeting.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: It did not show that light is both a wave and a particle, which is a sentence rather
+      than a claim. A reader who repeats that formula is therefore ___
+    options:
+    - stating what the experiment established
+    - denying that the pattern was observed
+    - describing the detector placed at the slits
+    - saying less than it sounds like
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: detail_swap
+    why: The text calls the formula a sentence rather than a claim, so repeating it leaves the content
+      of the result unstated.
+    trap: A credits the formula with the finding the text says it does not carry.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «compounded» most nearly mean?
+    target: compounded
+    options:
+    - mixed into one substance
+    - paid with added interest
+    - made worse than before
+    - settled by agreement
+    key: C
+    moves:
+      A: imported
+      B: imported
+      D: wrong_direction
+    why: The two bodies of evidence are said to have compounded the difficulty rather than resolving
+      it, so the word names making the trouble worse.
+    trap: D reverses the sense, since the sentence contrasts it with resolving.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about what was settled?
+    options:
+    - It introduces the photoelectric effect for the first time
+    - It narrows the claim before the text restates it
+    - It concedes that the experiment settled nothing
+    - It reports the molecules of several thousand atoms
+    key: B
+    moves:
+      A: detail_swap
+      C: overreach
+      D: detail_swap
+    why: The sentence says what the experiment settled is narrower than usually said, and the two
+      sentences after it give the narrower version in place of the familiar one.
+    trap: C empties the result, though the text gives a precise statement of it.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 argues about what light is. Based on Text 2, what would be added to that argument?
+    sibling: PHY-S06-L3
+    sibling_gloss: Text 2 is passage 126 of this book. It traces the measurement of the speed of light
+      from Romer through Fizeau to the redefinition of the meter in 1983, which made the speed exact
+      by definition.
+    options:
+    - A property of light that neither picture is needed for
+    - Light delivers its energy in discrete lumps
+    - Each arrival is a single point on the detector
+    - The two-slit pattern fixed the speed of light
+    key: A
+    moves:
+      B: restatement
+      C: restatement
+      D: wrong_direction
+    why: Text 2 measures and then defines a speed, which is a quantity the two-slit dispute in Text
+      1 never touches and neither picture is required to supply.
+    trap: B repeats the evidence Text 1 uses to set up its difficulty.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Each arrival is a single point on the detector, which is particle behavior. ___ after
+      enough arrivals the points have built up the interference pattern, which is wave behavior.
+    options:
+    - Likewise,
+    - As a result,
+    - In short,
+    - And yet,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The second sentence reports behavior of the opposite kind from the first, so the transition
+      must mark the surprise rather than a likeness or a consequence.
+    trap: B reads the wave pattern as following from the single points rather than opposing them.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Each arrival is a single point on the detector ___ after enough arrivals the points have
+      built up the interference pattern.
+    options:
+    - detector, after
+    - detector. After
+    - detector after
+    - detector, and, after
+    key: B
+    moves:
+      A: comma_splice
+      C: run_on
+      D: misplaced
+    why: The clause about the points building up the pattern is a complete sentence, so a period separates
+      it from the clause about a single arrival.
+    trap: A splices the clause about the pattern onto the clause about the arrival with a comma.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why sending one particle at a time was decisive. Which choice
+      most effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why sending one particle at a time was decisive
+    notes:
+    - Each arrival is a single point on the detector.
+    - After enough arrivals the points build up the interference pattern.
+    - No two particles were ever present together to interfere with each other.
+    - Putting a detector at the slits destroys the pattern.
+    options:
+    - Each arrival is a single point on the detector screen itself
+    - After enough arrivals the points build up the pattern
+    - Putting a detector at the slits destroys the pattern entirely
+    - The pattern appeared although no two particles were ever present together, so nothing could
+      have interfered with anything
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: true_not_asked
+    why: Only this choice names the absence of any partner for the interference, which is what the
+      one-at-a-time arrangement established.
+    trap: B reports the pattern without saying what its appearance ruled out.
+- id: PHY-S07-L4
+  summary_ar:
+    khulasa: الدعوى القويّة في الكيمياء هي الاختزال، أي أنّ علمًا يُستخرج من علم آخر في الأصل، وهنا
+      أنّ الكيمياء تتبع ميكانيكا الكمّ التي وضعها إرفين شرودنغر وغيره. والدعوى ليست فارغة، لأنّ الاستخراج
+      قد أُجري في أنظمة صغيرة.
+    maana: المعنى أنّ مستويات الطاقة في جزيء الهيدروجين تُحسب من المبادئ الأولى بدقّة تفوق القياس،
+      وأنّ المدارات المتساوية الطاقة تخرج من الرياضيات دون أن تُدسّ فيها. والصعوبة في المقياس، وليست
+      صعوبة في الأصل بالمعنى المعتاد.
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: كلفة الحلّ المضبوط تنمو بعدد
+      الإلكترونات نموًّا يجعل جزيئًا من أربعين ذرّة خارج قدرة أيّ حاسوب، وكلّ طريقة عملية تقريب تُضبط
+      أخطاؤه بالمقايسة بالقياس، فيستعمل الكيميائي قواعد لا تُستخرج من النظرية.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقال إنّ الاستخراج لم يُجرَ قطّ، مع أنّ النصّ يذكر إجراءه في الأنظمة
+      الصغيرة. ويقترن المقطع بالمقطع المئة والسابع والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The boundary has moved from three atoms to several dozen
+    - The derivation has never been carried out for any system
+    - Funding goes to those who claim their level is fundamental
+    - The two sides disagree about what reducible should mean
+    key: D
+    moves:
+      A: underreach
+      B: wrong_direction
+      C: true_not_asked
+    why: The text sets the reductionist against the advocate of emergence and says the disagreement
+      is partly about the word reducible, with a practical edge about funding.
+    trap: B contradicts the text, which says the derivation has been carried out for small systems.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what happens to the cost of an exact solution?
+    options:
+    - It falls as the number of electrons rises
+    - It grows so fast that forty atoms is out of reach
+    - It is controlled by comparison with measurement
+    - It has not changed in fifty years of work
+    key: B
+    moves:
+      A: wrong_direction
+      C: detail_swap
+      D: wrong_direction
+    why: The text says the computational cost of an exact solution grows so fast with the number of
+      electrons that a molecule of forty atoms is beyond any possible computer.
+    trap: C names how the errors of an approximation are handled rather than the cost.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the derivation does
+      succeed where it can be carried out?
+    claim: the derivation does succeed where it can be carried out
+    options:
+    - «A chemist therefore uses rules, such as the ones about acids, bonds and reaction rates, that
+      are not derived from the underlying theory»
+    - «every practical method is an approximation whose errors are controlled empirically, by comparison
+      with measurement»
+    - «The energy levels of a hydrogen molecule can be computed from first principles to an accuracy
+      better than measurement»
+    - «The boundary has moved from three atoms to several dozen in half a century»
+    key: C
+    moves:
+      A: wrong_direction
+      B: near_miss
+      D: near_miss
+    why: The quotation reports a computation from first principles more accurate than the measurement
+      it is checked against, which is a successful derivation.
+    trap: A names the rules that are not derived rather than the case where derivation works.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: A chemist therefore uses rules, such as the ones about acids, bonds and reaction rates,
+      that are not derived from the underlying theory and could not be. Those rules are therefore
+      ___
+    options:
+    - held in place by measurement rather than derivation
+    - derived from the equations after all
+    - the exact solutions for forty atoms
+    - of no use to a working chemist
+    key: A
+    moves:
+      B: wrong_direction
+      C: detail_swap
+      D: wrong_direction
+    why: The text says such rules are not derived and could not be, and that practical errors are
+      controlled by comparison with measurement.
+    trap: B supplies a derivation the same sentence says is impossible.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «Degenerate» most nearly mean?
+    target: degenerate
+    options:
+    - fallen into decay
+    - simplified for use
+    - without any energy
+    - sharing one energy level
+    key: D
+    moves:
+      A: imported
+      B: imported
+      C: wrong_direction
+    why: The text defines degenerate orbitals as states that share the same energy, so the word marks
+      them as equal in energy rather than decayed.
+    trap: A takes the everyday sense of the word, which has nothing to do with energy.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the sentence about the difficulty of scale?
+    options:
+    - It introduces the degenerate orbitals by name
+    - It concedes that the equations are incorrect
+    - It marks the turn from the success to the limit
+    - It reports the funding that goes to each side
+    key: C
+    moves:
+      A: detail_swap
+      B: wrong_direction
+      D: detail_swap
+    why: The sentence comes after the hydrogen computation and before the account of growing cost,
+      and says the difficulty is scale and not principle in the usual sense.
+    trap: B denies the correctness that the reductionist position rests on.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 argues about whether chemistry reduces to physics. Based on Text 2, what would be
+      added to that argument?
+    sibling: PHY-S07-L3
+    sibling_gloss: Text 2 is passage 127 of this book. It reports that Mendeleev left gaps in his
+      table and predicted the properties of the missing elements, and that the reason the columns
+      exist, discrete electron shells, arrived half a century later.
+    options:
+    - Degenerate orbitals fall out of the mathematics unbidden
+    - A case where the pattern came long before the theory
+    - Exact solutions are impossible for a molecule of forty atoms
+    - The periodic table was derived from the equations in 1869
+    key: B
+    moves:
+      A: restatement
+      C: restatement
+      D: wrong_direction
+    why: Text 2 reports a working arrangement that predicted elements for fifty years before the shells
+      explained it, which is the emergence case put historically.
+    trap: A repeats one of the successes Text 1 credits to the derivation.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The claim is not idle, because the derivation has been carried out for small systems.
+      ___ the energy levels of a hydrogen molecule can be computed from first principles to an accuracy
+      better than measurement.
+    options:
+    - For instance,
+    - By contrast,
+    - Even so,
+    - In conclusion,
+    key: A
+    moves:
+      B: wrong_direction
+      C: wrong_direction
+      D: restatement
+    why: The second sentence gives one of the small systems just referred to, so the transition must
+      introduce an example rather than a contrast or a conclusion.
+    trap: C sets the hydrogen computation against the claim that it supports.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The difficulty is scale ___ it is not a difficulty of principle in the usual sense.
+    options:
+    - scale, it
+    - scale it
+    - scale, and it
+    - scale; and, it
+    key: C
+    moves:
+      A: comma_splice
+      B: run_on
+      D: misplaced
+    why: The clause about a difficulty of principle is independent, so it joins the clause about scale
+      with a comma and a conjunction rather than a comma alone.
+    trap: A splices the clause about principle onto the clause about scale with a comma.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why both positions can cite the same facts. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why both positions can cite the same facts
+    notes:
+    - The energy levels of a hydrogen molecule can be computed from first principles.
+    - Exact solutions are impossible for a molecule of forty atoms.
+    - Every practical method is an approximation checked against measurement.
+    - The disagreement is partly about the word reducible.
+    options:
+    - The equations work for small molecules and not for larger ones, so each side reads the same
+      limit differently
+    - The energy levels of a hydrogen molecule can be computed exactly
+    - Exact solutions are impossible for a molecule of forty atoms
+    - The disagreement is partly about the word reducible itself
+    key: A
+    moves:
+      B: underreach
+      C: underreach
+      D: restatement
+    why: Only this choice names the success and the failure together and says the dispute is about
+      how to read them, which is why the facts are shared.
+    trap: C gives the failure alone and so supports only one of the two readings.
+- id: PHY-S08-L4
+  summary_ar:
+    khulasa: 'التحقيقات في انهيارات الهندسة تنتج نوعين من التفسير دائمًا، والاختيار بينهما ليس مسألة
+      دليل وحده. فالحساب الفنّي يسمّي قطعة وآلية: أعمدة حديد زهر بثقوب براغي مصبوبة، وحمل ريح غائب
+      عن الحساب، وحشوة تتصلّب تحت درجة معلومة.'
+    maana: 'المعنى أنّ الحساب التنظيمي يسمّي مسار قرار: تقارير لم تجاوز رئيس عمل، وجدولًا يجعل التأخير
+      مكلفًا، ومهندسًا رُدّ اعتراضه ممّن سمعوا اعتراضات قبله. وكلا الحسابين صحيح عادةً، وهما يجيبان
+      سؤالين مختلفين: الأول يحدّد ما انكسر، والثاني يفسّر لماذا سُمح له أن يكون على تلك الحال.'
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: النزاع يهمّ لأنّ الحسابين يستلزمان
+      علاجين مختلفين ومسؤوليتين مختلفتين، فالنتيجة الفنّية تُنتج تغييرًا في التصميم رخيصًا قابلًا
+      للتحقّق، والنتيجة التنظيمية تستلزم أنّ بنية الإدارة كانت غير آمنة.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقال إنّ أحد الحسابين وحده صحيح، مع أنّ النصّ يقول إنّ كليهما صحيح عادةً.
+      ويقترن المقطع بالمقطع المئة والثامن والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Two correct accounts of a failure imply different remedies
+    - Only one of the two accounts of a failure is ever correct
+    - Both shuttle reports are read in engineering ethics courses
+    - A technical finding produces a design change
+    key: A
+    moves:
+      B: wrong_direction
+      C: true_not_asked
+      D: underreach
+    why: The text says both accounts are usually correct and answer different questions, and that
+      the dispute matters because they imply different remedies and liabilities.
+    trap: B denies the text, which says both accounts are usually correct.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, which account is the more useful for preventing the next failure?
+    options:
+    - The technical account, because it names the component
+    - Neither, because both answer the same question
+    - The organizational account, because the process recurs
+    - The account with the narrower remit behind it
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: detail_swap
+    why: The text says the organizational account is generally the more useful for preventing the
+      next failure, because the component will not recur and the decision process will.
+    trap: A chooses the account the text says addresses what will not happen again.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the choice between the
+      accounts is not driven by evidence alone?
+    claim: the choice between the accounts is not driven by evidence alone
+    options:
+    - '«The technical account names a component and a mechanism: cast iron columns with cast bolt
+      holes, no wind load in the calculation»'
+    - «Both accounts are usually correct and they answer different questions»
+    - «it found that the organizational causes identified seventeen years earlier had not been addressed»
+    - «An organizational finding implies that the management structure was unsafe, which is expensive,
+      contestable in court, and refractory to engineering solutions»
+    key: D
+    moves:
+      A: true_not_asked
+      B: near_miss
+      C: near_miss
+    why: The quotation names cost, litigation and intractability as the consequences of one finding,
+      which are reasons to prefer the other that have nothing to do with evidence.
+    trap: B says both accounts are correct rather than why one is chosen.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Inquiries with a narrow remit tend to produce technical findings, and the second shuttle
+      inquiry was unusual in saying so explicitly. A reader of an inquiry report should therefore
+      ___
+    options:
+    - accept the technical finding as the whole account
+    - ask what the inquiry was allowed to examine
+    - prefer the report with the narrowest remit
+    - treat the two accounts as answering one question
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: detail_swap
+    why: If the remit shapes which kind of finding appears, the scope of the inquiry is part of what
+      a reader has to know before weighing its conclusion.
+    trap: A takes a finding shaped by the remit as the complete explanation.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «refractory» most nearly mean?
+    target: refractory
+    options:
+    - not yielding to treatment
+    - able to resist great heat
+    - arranged in a sequence
+    - open to a cheap remedy
+    key: A
+    moves:
+      B: imported
+      C: imported
+      D: wrong_direction
+    why: An organizational finding is called refractory to engineering solutions, so the word names
+      a problem that does not give way to the remedy offered.
+    trap: B takes the sense used of a furnace lining rather than of a problem.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the two sentences about what each account does?
+    options:
+    - They introduce the normalization of deviance by name
+    - They concede that neither account can be established
+    - They report the findings of the second shuttle inquiry
+    - They assign each account the question it answers
+    key: D
+    moves:
+      A: detail_swap
+      B: wrong_direction
+      C: detail_swap
+    why: The text says the technical account identifies what broke and the organizational account
+      explains why the broken thing was allowed to be in that condition.
+    trap: B denies accounts the text says are usually both correct.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 distinguishes two accounts of a failure. Based on Text 2, what would be added to
+      that distinction?
+    sibling: PHY-S08-L3
+    sibling_gloss: Text 2 is passage 128 of this book. It explains how a characteristic strength and
+      a safety factor are chosen, and says the method handles only the hazards that have been listed,
+      so codes are revised after failures.
+    options:
+    - A technical finding produces a cheap design change
+    - The organizational account explains why the condition was allowed
+    - Where in the technical account the missing item sits
+    - A safety factor covers the decisions a manager makes
+    key: C
+    moves:
+      A: restatement
+      B: restatement
+      D: wrong_direction
+    why: Text 2 says a margin covers only the listed hazards, which locates the technical gap that
+      the organizational account in Text 1 then has to explain.
+    trap: B repeats the work Text 1 assigns to the second account.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Both accounts are usually correct and they answer different questions. ___ the technical
+      account identifies what broke.
+    options:
+    - Even so,
+    - In the first place,
+    - By contrast,
+    - In conclusion,
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: restatement
+    why: The sentence takes the first of the two accounts just referred to, so the transition must
+      open the pair rather than set itself against them.
+    trap: C sets the technical account against the claim that both are correct.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: The technical account identifies what broke ___ and the organizational account explains
+      why it was allowed to be in that condition.
+    options:
+    - broke; and
+    - broke and
+    - 'broke: and'
+    - broke, and
+    key: D
+    moves:
+      A: wrong_mark
+      B: run_on
+      C: wrong_mark
+    why: The clause about the organizational account is independent, so the conjunction joining it
+      to the clause about what broke takes a comma before it.
+    trap: B leaves the two clauses about the accounts with no mark between them.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the organizational account is resisted. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the organizational account is resisted
+    notes:
+    - A technical finding produces a design change, which is cheap and verifiable.
+    - An organizational finding implies that the management structure was unsafe.
+    - That is expensive, contestable in court and refractory to engineering solutions.
+    - Inquiries with a narrow remit tend to produce technical findings.
+    options:
+    - A technical finding produces a change that is cheap and verifiable
+    - The organizational finding costs more, can be fought in court and resists an engineering fix,
+      so a narrow remit is preferred
+    - An organizational finding implies that the management was unsafe
+    - Inquiries with a narrow remit tend to produce technical findings
+    key: B
+    moves:
+      A: underreach
+      C: underreach
+      D: true_not_asked
+    why: Only this choice names the three costs of the organizational finding and the narrowing that
+      follows, which is what the resistance consists of.
+    trap: C names the implication without the costs that make it unwelcome.
+- id: PHY-S09-L4
+  summary_ar:
+    khulasa: في الجرعات العالية لا خلاف في آثار الإشعاع على النسيج، ودراسات الناجين من هيروشيما وناغازاكي
+      أساس كلّ تنظيم ساري. والخلاف كلّه في شكل المنحنى عند أسفله، حيث تصغر الآثار عن أن تُكشف في أيّ
+      دراسة ممكنة، والمصالح العملية كبيرة لأنّ التنظيم كلّه يكاد يكون في ذلك الحيّز.
+    maana: المعنى أنّ الافتراض المعياري هو الخطّية بلا عتبة، أي أنّ الخطر يهبط تناسبًا مع الجرعة إلى
+      الأسفل بلا حدّ آمن، وسنده الاستقراء من بيانات الناجين، والآلية، إذ قد يُتلف مسارٌ واحد في خلية
+      الحمض النووي، وملاءمة قاعدة تسمح بجمع الجرعات على جماعة.
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: والموقف الآخر يرى أنّ آليات
+      الإصلاح تعالج الجرعات الصغيرة كلّها، فتوجد عتبة لا أثر دونها، ويذهب بعضهم إلى أنّ الجرعات الضئيلة
+      واقية لأنّها تنبّه الإصلاح.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُحسب الخلاف في الجرعات العالية، مع أنّ النصّ ينفي ذلك في أوّل جملة.
+      ويقترن المقطع بالمقطع المئة والتاسع والعشرين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - The largest worker study excludes a small threshold
+    - The question at low dose is not currently decidable
+    - The effects of radiation at high dose are disputed
+    - Hormesis proposes that small doses are protective
+    key: B
+    moves:
+      A: wrong_direction
+      C: wrong_direction
+      D: underreach
+    why: The text says the argument is entirely about the shape of the curve at the bottom and that
+      the honest position is that the question is not currently decidable.
+    trap: C denies the opening sentence, which says the high dose effects are not in dispute.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, what would it take to distinguish the curves?
+    options:
+    - A single track through one cell
+    - A study of the Hiroshima survivors
+    - A regulation written in the safer direction
+    - Millions of people with exposure measured individually
+    key: D
+    moves:
+      A: detail_swap
+      B: detail_swap
+      C: near_miss
+    why: The text says distinguishing the curves at the doses in question would require a study of
+      millions of people with exposure measured individually.
+    trap: A names the mechanism cited for the linear assumption rather than the study needed.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the dispute survives
+      because the two choices cost different things?
+    claim: the dispute survives because the two choices cost different things
+    options:
+    - «assuming no threshold makes cleanup and shielding extremely expensive, while assuming a threshold
+      risks harm that would never be sensible to detect afterward»
+    - «The survivor studies from Hiroshima and Nagasaki are the basis of every regulation in force»
+    - «Its support comes from extrapolating the survivor data, from the mechanism, since a single
+      track through a cell can damage DNA»
+    - «The largest worker study is consistent with the linear assumption and does not exclude a small
+      threshold»
+    key: A
+    moves:
+      B: true_not_asked
+      C: true_not_asked
+      D: near_miss
+    why: The quotation sets the cost of assuming no threshold against the harm risked by assuming
+      one, which is the asymmetry the text says keeps the dispute alive.
+    trap: D reports what the largest study allows rather than the costs on each side.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: To distinguish the curves at the doses in question would require a study of millions
+      of people with exposure measured individually, and the confounding factors are larger than the
+      effect. Both sides therefore ___
+    options:
+    - have the study they would need already
+    - agree that the linear assumption is proved
+    - argue from mechanism and from other data
+    - measure the effect at the doses in question
+    key: C
+    moves:
+      A: overreach
+      B: wrong_direction
+      D: wrong_direction
+    why: With the decisive study out of reach, the text says both sides argue from mechanism and from
+      the shape of data collected elsewhere.
+    trap: D claims the measurement the preceding sentence says cannot be made.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «sensible» most nearly mean?
+    target: sensible
+    options:
+    - showing good judgment
+    - able to be perceived
+    - aware of a feeling
+    - large in its effect
+    key: B
+    moves:
+      A: imported
+      C: imported
+      D: near_miss
+    why: The text speaks of harm that would never be sensible to detect afterward, so the word names
+      what could be perceived rather than what is wise.
+    trap: A takes the common sense of the word, which cannot apply to a harm.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the opening two sentences of the text?
+    options:
+    - They mark off what is settled from what is argued
+    - They introduce the proposal called hormesis by name
+    - They concede that high dose effects are unknown
+    - They report the size of the study that would settle it
+    key: A
+    moves:
+      B: detail_swap
+      C: wrong_direction
+      D: detail_swap
+    why: The text says the high dose effects are not in dispute and the survivor studies underlie
+      every regulation, before turning to the bottom of the curve.
+    trap: C denies the agreement the first sentence establishes.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 argues about the shape of a curve at low dose. Based on Text 2, what would be added
+      to that argument?
+    sibling: PHY-S09-L3
+    sibling_gloss: Text 2 is passage 129 of this book. It lists the four conditions a radiocarbon
+      date needs, including a calibration curve that doubles back, and says a date reported without
+      its range is not a date.
+    options:
+    - The survivor studies underlie every regulation in force
+    - Confounding factors are larger than the effect being sought
+    - A calibration curve would settle the shape of the dose curve
+    - A case where a curve is reported with its range
+    key: D
+    moves:
+      A: restatement
+      B: restatement
+      C: wrong_direction
+    why: Text 2 insists that a figure be given with the range the curve allows, which is the practice
+      the dose dispute in Text 1 cannot yet supply.
+    trap: B repeats the obstacle Text 1 has already named.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: The honest position is that the question is not currently decidable. ___ to distinguish
+      the curves at the doses in question would require a study of millions of people with exposure
+      measured individually.
+    options:
+    - By contrast,
+    - Even so,
+    - After all,
+    - In conclusion,
+    key: C
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      D: restatement
+    why: The second sentence supplies the reason the question cannot be decided, so the transition
+      must introduce a justification rather than a contrast.
+    trap: B sets the size of the needed study against the claim it supports.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: At high doses the effects of radiation on tissue are not in dispute ___ and the survivor
+      studies are the basis of every regulation in force.
+    options:
+    - dispute, and
+    - dispute and
+    - dispute; and
+    - dispute and,
+    key: A
+    moves:
+      B: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the survivor studies is independent, so the conjunction joining it to the
+      clause about the high doses takes a comma before it.
+    trap: B leaves the clause about the doses and the clause about the studies unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why regulators keep the linear assumption. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why regulators keep the linear assumption
+    notes:
+    - The question at low dose is not currently decidable.
+    - Assuming no threshold makes cleanup and shielding extremely expensive.
+    - Assuming a threshold risks harm that could never be detected afterward.
+    - Regulators have kept the assumption on the ground that it errs in the safer direction.
+    options:
+    - The question at low dose is not currently decidable either way
+    - Assuming no threshold makes cleanup and shielding expensive
+    - With the question undecidable, the rule that risks cost rather than undetectable harm is the
+      safer error to make
+    - Regulators have kept the linear assumption for many years
+    key: C
+    moves:
+      A: underreach
+      B: underreach
+      D: restatement
+    why: Only this choice joins the undecidability to the comparison of the two errors, which is the
+      ground the text gives for the choice.
+    trap: B names one cost without the harm it is being weighed against.
+- id: PHY-S10-L4
+  summary_ar:
+    khulasa: طريقتان تقيسان ثابت هَبل، أي المعدّل الحاضر لتوسّع الكون، وهما مختلفتان إحداهما عن الأخرى
+      أكثر من عقد. الأولى تعمل بالخروج على سُلّم المسافات بنجوم نابضة ونجوم متفجّرة لقياس أبعاد مجرّات
+      معلومة سرعة تراجعها، والثانية تعمل من نمط خلفيّة الموجات الدقيقة.
+    maana: المعنى أنّ كلتيهما نُقّحت بفِرق كبيرة حُسب فيها كلّ خطأ معروف، وكلتاهما فُحصت بفِرق منافسة
+      على البيانات نفسها. والرقمان نحو ثلاثة وسبعين من الطريقة الأولى ونحو سبعة وستّين من الثانية،
+      والاتّفاق الإجمالي بين منهجين مستقلّين تمامًا لافت ويخفي خلافًا نحو خمس وحدات.
+    ahammiyya: 'في مجال العلوم الفيزيائية هذه المادة في مستوى الخلاف: ثلاثة حلول ممكنة ولكلّ منها
+      قائلون: خطأ منهجي غير مكشوف في السُّلّم، أو خطأ في النموذج المركّب على الخلفية، أو أنّ النموذج
+      الكوني المعياري ناقص، فيكون الخلاف أوّل قياس لشيء جديد.'
+    sila: في اختبار سات يكثر السؤال عن موضع النزاع وعن الدليل الذي يسنده وعن معنى كلمة في سياقها.
+      والفخّ المتوقّع هنا أن يُقال إنّ الطريقتين متّفقتان، مع أنّ النصّ يقول إنّهما مختلفتان أكثر
+      من عقد. ويقترن المقطع بالمقطع المئة والثلاثين في أسئلة النصّين المتقابلين.
+  questions:
+  - slot: 1
+    type: central_idea
+    difficulty: medium
+    stem: Which choice best states the main idea of the text?
+    options:
+    - Independent methods have begun to report values between the two
+    - The two methods have agreed with each other for a decade
+    - Two careful methods disagree by five times their uncertainty
+    - The background method gives about sixty-seven
+    key: C
+    moves:
+      A: underreach
+      B: wrong_direction
+      D: underreach
+    why: The text reports two refined and independently checked methods giving about seventy-three
+      and about sixty-seven, and calls the gap about five sigma.
+    trap: B reverses the text, which says they have been disagreeing for more than a decade.
+  - slot: 2
+    type: detail
+    difficulty: medium
+    stem: According to the text, where is the error in the ladder most likely to be?
+    options:
+    - In the calibration of the pulsating stars
+    - In the model fitted to the background
+    - In the recession speeds of the galaxies
+    - In the standard cosmological model itself
+    key: A
+    moves:
+      B: detail_swap
+      C: detail_swap
+      D: near_miss
+    why: The text says one resolution is an unidentified systematic error in the ladder, most likely
+      in the calibration of the pulsating stars.
+    trap: B names the second of the three resolutions rather than the first.
+  - slot: 3
+    type: evidence
+    difficulty: hard
+    stem: Which quotation from the text most strongly supports the claim that the disagreement has
+      the character of a real effect?
+    claim: the disagreement has the character of a real effect
+    options:
+    - «Both have been refined by large teams with every known error accounted for»
+    - «the disagreement has survived every improvement in both methods, which is roughly what a real
+      effect does»
+    - «Independent methods not using either route have begun to report, with values between the two»
+    - «Their uncertainties are still too large to decide the question either way»
+    key: B
+    moves:
+      A: near_miss
+      C: near_miss
+      D: true_not_asked
+    why: The quotation says the gap has survived every improvement and adds that this is roughly what
+      a real effect does, which is the claim itself.
+    trap: A reports the care taken rather than the behavior of the gap under improvement.
+  - slot: 4
+    type: inference
+    difficulty: medium
+    stem: Which choice most logically completes the text?
+    carrier: Most working cosmologists have been betting on the first for a decade, and the disagreement
+      has survived every improvement in both methods. The bet is therefore ___
+    options:
+    - confirmed by the survival of the gap
+    - the only resolution anyone has proposed
+    - an error in the model of the early universe
+    - looking worse than it did at the start
+    key: D
+    moves:
+      A: wrong_direction
+      B: wrong_direction
+      C: detail_swap
+    why: The bet was on a hidden error in the ladder, and a gap that persists through every improvement
+      is evidence against that explanation rather than for it.
+    trap: A reads the survival of the gap as support for the bet it undermines.
+  - slot: 5
+    type: words_in_context
+    difficulty: medium
+    stem: As used in the text, what does the word «gross» most nearly mean?
+    target: gross
+    options:
+    - offensive to the senses
+    - before any deduction
+    - broad rather than exact
+    - a dozen dozen in number
+    key: C
+    moves:
+      A: imported
+      B: near_miss
+      D: imported
+    why: The gross agreement between two independent methods is said to conceal a disagreement, so
+      the word marks the agreement as broad rather than close.
+    trap: A takes the everyday sense of the word, which has no place in a measurement.
+  - slot: 6
+    type: structure
+    difficulty: hard
+    stem: Which choice best describes the function of the three resolutions in the text?
+    options:
+    - They introduce the Hubble constant by name
+    - They sort the possible explanations before weighing them
+    - They concede that neither figure can be measured
+    - They report the figures the two methods give
+    key: B
+    moves:
+      A: detail_swap
+      C: wrong_direction
+      D: detail_swap
+    why: The text says three resolutions are possible, names an error in the ladder, an error in the
+      model and an incomplete cosmology, and then reports where the betting has gone.
+    trap: C denies measurements the text calls refined and independently checked.
+  - slot: 7
+    type: cross_text
+    difficulty: hard
+    stem: Text 1 reports two figures that disagree. Based on Text 2, what would be added to that report?
+    sibling: PHY-S10-L3
+    sibling_gloss: Text 2 is passage 130 of this book. It reports how Henrietta Leavitt found the
+      relation between the period and the brightness of pulsating stars, and why the common distance
+      of one cloud made the pattern visible.
+    options:
+    - Where the suspected error in the ladder would have to sit
+    - The ladder uses pulsating stars to reach distant galaxies
+    - The disagreement amounts to about five sigma in size
+    - The relation was calibrated from the microwave background
+    key: A
+    moves:
+      B: restatement
+      C: restatement
+      D: wrong_direction
+    why: Text 2 explains how the brightness of a pulsating star is fixed, which is the step Text 1
+      names as the most likely home of a hidden error.
+    trap: B repeats the method of the ladder as Text 1 already describes it.
+  - slot: 8
+    type: transitions
+    difficulty: hard
+    stem: Which choice completes the text with the most logical transition?
+    carrier: Both have been refined by large teams with every known error accounted for. Both have
+      been checked by rival teams using the same data. ___ the figures are about seventy-three kilometers
+      per second per megaparsec from the ladder and about sixty-seven from the background.
+    options:
+    - Likewise,
+    - For instance,
+    - In short,
+    - And yet,
+    key: D
+    moves:
+      A: wrong_direction
+      B: near_miss
+      C: restatement
+    why: The sentence reports the gap that survives all the care just described, so the transition
+      must mark the surprise rather than a likeness or a summary.
+    trap: B treats the two figures as an instance of the checking just reported.
+  - slot: 9
+    type: boundaries
+    difficulty: easy
+    stem: Which choice completes the text so that it conforms to the conventions of Standard English?
+    carrier: Both have been refined by large teams ___ and both have been checked by rival teams using
+      the same data.
+    options:
+    - teams and
+    - teams, and
+    - teams; and
+    - teams and,
+    key: B
+    moves:
+      A: run_on
+      C: wrong_mark
+      D: misplaced
+    why: The clause about the checking by rival teams is independent, so the conjunction joining it
+      to the clause about the refinement takes a comma.
+    trap: A leaves the clause about refinement and the clause about checking unmarked.
+  - slot: 10
+    type: synthesis
+    difficulty: hard
+    stem: The student wants to explain why the disagreement is taken seriously. Which choice most
+      effectively uses relevant information from the notes to accomplish that goal?
+    goal: explain why the disagreement is taken seriously
+    notes:
+    - Both methods have been refined with every known error accounted for.
+    - Both have been checked by rival teams using the same data.
+    - The gap is about five times the combined uncertainty.
+    - In most of physics five sigma is the threshold for taking a discrepancy seriously.
+    options:
+    - Both methods have been refined with every known error accounted for
+    - Both have been checked by rival teams using the same data
+    - The gap is about five times the combined uncertainty of the two
+    - Two carefully checked methods are apart by five times their own uncertainty, which is the usual
+      threshold for a real discrepancy
+    key: D
+    moves:
+      A: underreach
+      B: underreach
+      C: restatement
+    why: Only this choice joins the care taken in both methods to the size of the gap in units of
+      its own uncertainty, which is what makes it serious.
+    trap: B names the checking without the size of the gap that survived it.
