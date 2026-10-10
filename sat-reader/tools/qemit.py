@@ -125,7 +125,9 @@ def diagnose(out, path):
                 bad.append('moves/key mismatch')
             if len(set(q['moves'].values())) != len(q['moves']):
                 bad.append('repeated move')
-            ends = {x.rstrip()[-1] == '.' for x in q['options']}
+            if any(not str(x).strip() for x in q['options']):
+                bad.append('empty option')
+            ends = {x.rstrip()[-1] == '.' for x in q['options'] if x.rstrip()}
             if len(ends) != 1:
                 bad.append('mixed end punctuation')
             if bad:

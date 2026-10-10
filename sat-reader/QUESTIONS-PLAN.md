@@ -303,6 +303,64 @@ before the next file starts. Twenty increments.
 
 ## 12. What the measurement changed in this plan
 
-*Reserved. Filled in as the build proceeds, on the same principle as `PLAN.md` §11:
-a claim in a plan that does not survive contact with measurement is recorded, not
-quietly corrected.*
+On the same principle as `PLAN.md` §11: a claim in a plan that does not survive
+contact with measurement is recorded, not quietly corrected.
+
+**The no-duplicate-stem rule contradicted the test it imitates.** Four of the ten
+slots have a fixed stem on the real SAT, word for word: *Which choice best states
+the main idea of the text?*, *Which choice most logically completes the text?*,
+*Which choice completes the text with the most logical transition?*, and *Which
+choice completes the text so that it conforms to the conventions of Standard
+English?* Writing two hundred variations of those would make the book less like the
+test. The rule now applies to the six passage-specific slots, and §2's canonical
+wording is **required** for the other four and checked.
+
+**The containment rule failed every Standard English Conventions item.** Those four
+options differ only in punctuation by design, so one is always inside another.
+Boundaries items are now held to their own rule: the options must differ *only* in
+punctuation.
+
+**The stem minimum of eight words forbade the real inference stem**, which is seven.
+Lowered to six.
+
+**Self-containment cannot mean that every content word of a key appears in the
+passage.** A central-idea or inference key must paraphrase; that is what it is. The
+check now forbids importing a *particular* — a name, a number or a date the text
+never supplies — which is what an outside-knowledge question actually smuggles in.
+
+**The words-in-context target is tied to the word family, not the exact form.**
+Eleven passages use an inflection of their Book 1 link word and one, HIS-S04-L1,
+uses a cognate: *opposite* for *opposed*. Demanding the exact Book 1 form would make
+the question unanswerable from the text. 188 of the 200 links are exact; the check
+now requires the target to appear verbatim in the passage **and** to share a stem
+with the link word.
+
+**The negative-stem rule flagged ordinary English.** It rejected *the sentence
+reporting that Douglass did not reject the founding documents*. A negative stem is
+one whose **task** is negated, so the rule now requires the negation to govern the
+interrogative, and still catches NOT, EXCEPT, *least*, *neither* and *which choice …
+does not*.
+
+**The distractor taxonomy was too small.** Six moves could not cover evidence items
+or Standard English items without repeating within a question. It now runs to
+thirteen, with `near_miss`, `restatement`, `comma_splice`, `run_on`, `wrong_mark`,
+`misplaced` and `unpaired` added.
+
+**The one-passage-a-page check had the wrong scope.** Appendix E prints every
+passage's field and strand code beside its answer rows, so the rule applies to the
+body only.
+
+**Arabic is verified against the .docx, not the PDF.** `pdftotext` reorders the
+lam-alef ligature, so an exact match against the text layer fails on correctly
+rendered Arabic. The render is held to the weaker claim that one page per set carries
+Arabic script.
+
+**The expected page count rose from 640–700 to 900–1,000.** Measured: 233 pages of
+passages, plus two pages of questions and one of Arabic summary for each of the 200,
+plus about a hundred and ten pages of answer key.
+
+**The key-letter plan was added, and it earned its place.** One base pattern rotated
+by a letter for each successive set in a file gives every letter exactly 25 of the
+100 keys in that file — and so a quarter of every field, every level and the book —
+while holding each slot to at most 30 per cent on one letter. `qemit` reports any
+departure from it, and caught fourteen drifted keys in the first twenty sets.

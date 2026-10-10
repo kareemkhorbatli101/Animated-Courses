@@ -301,3 +301,1149 @@ SETS.append(dict(
                  'causes of faction cannot be removed and only its effects can be slowed.',
              trap='A names the mechanisms without explaining why obstacles are needed at all.'),
     ]))
+
+# --- 3 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='HIS-S03-L2',
+    ar=dict(
+        khulasa='لم يكن حقّ الانتخاب في الولايات المتحدة مقيّدًا بقاعدة واحدة بل بأربع، '
+                'وسقطت كلّ واحدة منها على حدة. فشروط الملكية أُزيلت ولايةً ولايةً بين نحو '
+                'ألف وسبعمئة وتسعين وألف وثمانمئة وخمسين، والعرق جاء ثانيًا في القانون '
+                'وأخيرًا في الواقع، والجنس أُزيل بالتعديل التاسع عشر عام ألف وتسعمئة '
+                'وعشرين، والسنّ جاء آخرًا بالتعديل السادس والعشرين عام ألف وتسعمئة وواحد '
+                'وسبعين.',
+        maana='المعنى أنّ التعديل الدستوري يحسم القاعدة ولا يحسم شيئًا غيرها. فكلّ تغيير '
+              'احتاج دورة ثانية من أدوات التنفيذ بعد عقود، لأنّ الولاية التي تريد استبعاد '
+              'ناخبين تملك أدوات كثيرة والقاعدة الصريحة واحدة منها فقط: اختبارات قراءة، '
+              'وشروط إقامة، وساعات تسجيل، ومواقع اقتراع، ورسم دوائر.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: كيف يتّسع '
+                  'الحقّ فعلًا وكيف يُفرَغ من مضمونه، لا تواريخ التعديلات وحدها. وتاريخ '
+                  'حقّ الانتخاب ليس خطًّا مستقيمًا بل سلسلة قواعد تتبعها حيلٌ للتفلّت '
+                  'منها.',
+        sila='في اختبار سات يُسأل عن الاستنتاج الذي يكمل النصّ وعن الدليل الذي يسند دعوى '
+             'محدّدة. والفخّ الشائع أن يُفترض أنّ إزالة القاعدة تُزيل الممارسة، وهو ما '
+             'ينفيه النصّ بتسعين سنة من التفلّت. ويقترن المقطع بالمقطع الثالث في أسئلة '
+             'النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Property requirements were removed state by state between about 1790 and '
+                   '1850',
+                   'The Twenty-Sixth Amendment passed in under four months during a war',
+                   'An amendment removes a barrier, and the barrier does not return',
+                   'Four barriers fell separately, and each amendment settled a rule and nothing '
+                   'else'],
+             key='D', moves={'A': 'underreach', 'B': 'true_not_asked', 'C': 'wrong_direction'},
+             why='The text names four barriers coming down at different times and then states the '
+                 'pattern, which is that an amendment settles the rule and settles nothing else.',
+             trap='C is the reading that the second half of the text sets out to correct.'),
+        dict(stem='According to the text, which barrier was the last to be removed?',
+             opts=['The poll tax in state elections', 'The requirement of a minimum age',
+                   'Denial of the vote by race', 'The ownership of property'],
+             key='B', moves={'A': 'detail_swap', 'C': 'near_miss', 'D': 'underreach'},
+             why='The text says age came last, and that the Twenty-Sixth Amendment of 1971 set the '
+                 'voting age at eighteen.',
+             trap='A names the fifth barrier, the poll tax, which fell in 1964 and again in '
+                  '1966.'),
+        dict(claim='removing a barrier in law does not remove it in practice',
+             stem='Which quotation from the text most strongly supports the claim that removing a '
+                  'barrier in law does not remove it in practice?',
+             opts=[Q('Each new amendment also had to be ratified by three quarters of the states, '
+                     'which meant persuading legislatures that had no obligation to listen'),
+                   Q('Sex was removed by the Nineteenth Amendment in 1920, after campaigners had '
+                     'petitioned, marched and picketed for seventy years'),
+                   Q('the Fifteenth Amendment of 1870 forbade denial of the vote on racial '
+                     'grounds, and was then evaded for ninety years by devices that did not '
+                     'mention race at all'),
+                   Q('Property requirements were the first to go, removed state by state between '
+                     'about 1790 and 1850')],
+             key='C', moves={'A': 'near_miss', 'B': 'true_not_asked', 'D': 'underreach'},
+             why='The Fifteenth Amendment forbade racial denial of the vote in 1870 and was then '
+                 'evaded for ninety years, which is exactly the gap the claim describes.',
+             trap='A names a difficulty in passing an amendment rather than in enforcing one.'),
+        dict(carrier='A state that wishes to exclude voters has many instruments and only one of '
+                     'them is an explicit rule. Removing the explicit rule therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['leaves the other instruments in working order',
+                   'removes the motive for exclusion as well',
+                   'requires the consent of three quarters of the states',
+                   'ends the practice within a single generation'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'detail_swap', 'D': 'overreach'},
+             why='Only one of the instruments of exclusion is an explicit rule, so striking that '
+                 'rule leaves literacy tests, registration hours and district lines untouched.',
+             trap='D promises an end within a generation, where the text reports evasion lasting '
+                  'ninety years.'),
+        dict(target='petitioned',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('petitioned'),
+             opts=['voted in large numbers', 'brought a case to court',
+                   'withdrew from public life', 'made formal requests to authority'],
+             key='D', moves={'A': 'imported', 'B': 'near_miss', 'C': 'wrong_direction'},
+             why='Campaigners petitioned, marched and picketed for seventy years, so the word '
+                 'names a formal appeal made to those in power.',
+             trap='B narrows the word to litigation, which is not what a campaign of seventy years '
+                  'did.'),
+        dict(stem='Which choice best describes the function of the list of instruments in the '
+                  'third paragraph?',
+             opts=['It names the amendments that removed each barrier in turn',
+                   'It explains why the poll tax counted as a fifth barrier',
+                   'It shows how exclusion continued without any explicit rule',
+                   'It reports how long each amendment took to be ratified'],
+             key='C', moves={'A': 'detail_swap', 'B': 'near_miss', 'D': 'underreach'},
+             why='Literacy tests, residence requirements, registration hours and district lines '
+                 'are given as instruments that survive the removal of the rule they replaced.',
+             trap='A confuses the instruments of exclusion with the amendments that struck at '
+                  'them.'),
+        dict(sibling='HIS-S03-L1',
+             sibling_gloss='Text 2 is passage 3 of this book. It describes the Seneca Falls '
+                           'convention of 1848, the Declaration of Sentiments that borrowed the '
+                           'form of 1776, and the single resolution asking for the vote that was '
+                           'argued over and nearly lost.',
+             stem='Text 1 says sex was removed as a barrier in 1920. Based on Text 2, what does '
+                  'that date conceal?',
+             opts=['That the Nineteenth Amendment was ratified by three quarters of the states',
+                   'That the demand had been made seventy-two years earlier and nearly abandoned',
+                   'That property requirements had already fallen by the Civil War',
+                   'That literacy tests were still being administered by local officials'],
+             key='B', moves={'A': 'restatement', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='Text 2 places the demand at Seneca Falls in 1848 and reports that the resolution '
+                 'asking for the vote nearly failed, which a single date in 1920 hides.',
+             trap='C is true of Text 1 but says nothing about what the date of 1920 conceals.'),
+        dict(carrier='Property requirements were the first to go, removed state by state between '
+                     'about 1790 and 1850. ___ race was next in law and last in practice.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['After that,', 'Even so,', 'In other words,', 'For example,'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'restatement', 'D': 'near_miss'},
+             why='The text is working through the four barriers in the order they fell, so the '
+                 'second sentence continues a sequence.',
+             trap='B sets the fall of the racial barrier against the fall of the property '
+                  'barrier.'),
+        dict(carrier='The Twenty-Sixth Amendment of 1971 set the voting age at eighteen ___ it '
+                     'passed in under four months during a war.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['eighteen it', 'eighteen, it', 'eighteen, and', 'eighteen; and'],
+             key='C', moves={'A': 'run_on', 'B': 'comma_splice', 'D': 'wrong_mark'},
+             why='Both halves are independent clauses, so the conjunction joining them needs a '
+                 'comma standing before it.',
+             trap='B joins two independent clauses with a comma and no conjunction, which is a '
+                  'splice.'),
+        dict(goal='warn a reader against treating an amendment as the end of a story',
+             notes=['The Fifteenth Amendment of 1870 forbade denial of the vote on racial '
+                    'grounds.',
+                    'It was then evaded for ninety years by devices that did not mention race.',
+                    'A state that wishes to exclude voters has many instruments.',
+                    'Each change required a second round of enforcement machinery, usually decades '
+                    'later.'],
+             stem='The student wants to warn a reader against treating an amendment as the end of '
+                  'a story. Which choice most effectively uses relevant information from the notes '
+                  'to accomplish that goal?',
+             opts=['The Fifteenth Amendment forbade racial denial of the vote in 1870 and was then '
+                   'evaded for ninety years, because a rule is only one instrument among many',
+                   'The Fifteenth Amendment of 1870 forbade denial of the vote on racial grounds',
+                   'Each change required a second round of enforcement machinery, usually decades '
+                   'later',
+                   'A state that wishes to exclude voters has a good many instruments available'],
+             key='A', moves={'B': 'restatement', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice sets the amendment beside the ninety years of evasion and gives '
+                 'the reason, which is what warning a reader requires.',
+             trap='B states the amendment alone, which is exactly the impression the goal warns '
+                  'against.'),
+    ]))
+
+# --- 4 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='HIS-S04-L2',
+    ar=dict(
+        khulasa='قامت الحجّة ضدّ العبودية التي دعا إليها دوغلاس وغيره على مقدّمة واحدة '
+                'وخطوة واحدة. المقدّمة أنّ الإنسان ليس نوعًا من الملك، لأنّ القدرة على '
+                'التفكير والاختيار تضعه في فئة غير فئة الفرس أو الحقل. والخطوة أن تُطبَّق '
+                'الوثائق التأسيسية تطبيقًا حرفيًّا: فإذا كانت الحقوق غير قابلة للتنازل، '
+                'فلا عقد بيع ينقلها ولا قانون يصحّح نقلها.',
+        maana='المعنى أنّ الدفاع عن العبودية لم يردّ على الحجّة في أرضها بل أزاح الأرض. '
+              'فقد احتجّ كالهون وغيره بالنظام لا بالحقوق، وقالوا إنّ كلّ مجتمع مستقرّ '
+              'يقوم على ترتيب ما من العمل غير المتكافئ، وإنّ الترتيب الجنوبي أرحم من '
+              'عمل الأجر في مصانع الشمال.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: شكل الحجّتين '
+                  'وما تهدف كلّ منهما إليه. فإحداهما تسأل ما يُستحقّ للإنسان، والأخرى '
+                  'تسأل ما يُمسك المجتمع وما يسمح به القانون أصلًا.',
+        sila='في اختبار سات تتكرّر النصوص المتقابلة في موضوع واحد، ويُسأل عن الاستنتاج وعن '
+             'الدليل النصّي. والفخّ الشائع أن يُنسب أحد حجج الدفاع إلى الطرف المناهض، أو '
+             'أن يُفترض أنّ دليلًا أفضل كان سيحسم الأمر. ويقترن المقطع بالمقطع الرابع في '
+             'أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The two sides argued toward different kinds of conclusion and so could not be '
+                   'reconciled by evidence',
+                   'Douglass had read Calhoun and quoted him in his own speeches',
+                   'The Constitution had recognized slavery in three separate clauses',
+                   'Better evidence would eventually have settled the dispute'],
+             key='A', moves={'B': 'true_not_asked', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='The text sets a case from rights against a case from order and says such '
+                 'arguments cannot be settled by better evidence, because the parties disagree '
+                 'about what counts as evidence.',
+             trap='D states the position that the text explicitly denies.'),
+        dict(stem='According to the text, on what ground did Calhoun and others argue?',
+             opts=['On the ground of unalienable rights', 'On the ground of a capacity to reason',
+                   'On the ground of social order', 'On the ground of the amendment of 1865'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'near_miss', 'D': 'detail_swap'},
+             why='The text says Calhoun and others argued from order rather than from rights, '
+                 'holding that every settled society rests on some arrangement of unequal labor.',
+             trap='A names the ground the antislavery case used rather than the one the defense '
+                  'shifted to.'),
+        dict(claim='the antislavery case treated slavery as legally void rather than merely wrong',
+             stem='Which quotation from the text most strongly supports the claim that the '
+                  'antislavery case treated slavery as legally void rather than merely wrong?',
+             opts=[Q('They added that abolition would destroy property worth more than the whole '
+                     'industrial capital of the country'),
+                   Q('Douglass had read Calhoun and quoted him, which is why his speeches so '
+                     'often answer a specific sentence'),
+                   Q('One asked what is owed to a person. The other asked what will hold a '
+                     'society together'),
+                   Q('no bill of sale can transfer them and no statute can make the transfer '
+                     'valid')],
+             key='D', moves={'A': 'near_miss', 'B': 'true_not_asked', 'C': 'underreach'},
+             why='The quotation says that neither a sale nor a statute can transfer unalienable '
+                 'rights, which makes the arrangement void in law rather than only cruel.',
+             trap='A gives an argument from the defense of slavery rather than from the case '
+                  'against it.'),
+        dict(carrier='Arguments of that shape cannot be settled by better evidence, because the '
+                     'parties disagree about what counts as evidence in the first place. A dispute '
+                     'of that kind therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['ends as soon as one side produces a document',
+                   'is settled by force or not settled at all',
+                   'can be resolved by a careful reading of the Constitution',
+                   'was invented by historians of a later century'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'imported'},
+             why='The text says the dispute moved from the pulpit and the pamphlet to the '
+                 'territories and then to the battlefield, and ended in a flat prohibition.',
+             trap="C offers the very move the text calls one side's argument from history."),
+        dict(target='advocated',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('advocated'),
+             opts=['argued publicly for', 'represented in court', 'listened to in silence',
+                   'wrote down for the record'],
+             key='A', moves={'B': 'near_miss', 'C': 'wrong_direction', 'D': 'imported'},
+             why='Douglass and others put the case against slavery in speeches and pamphlets, so '
+                 'the word names public argument on its behalf.',
+             trap='B narrows the word to legal representation, which is not what the pamphleteers '
+                  'did.'),
+        dict(stem='Which choice best describes the function of the sentence saying that the '
+                  'defense shifted the ground?',
+             opts=['It concedes that the defense had the stronger argument',
+                   'It introduces the three clauses of the Constitution',
+                   'It reports what Douglass had read and then quoted',
+                   'It marks the two cases as answering different questions'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'C': 'underreach'},
+             why='The sentence stands between the case from rights and the case from order, and it '
+                 'names the fact that the second did not meet the first.',
+             trap='B names material that follows later rather than the work this sentence does.'),
+        dict(sibling='HIS-S04-L1',
+             sibling_gloss='Text 2 is passage 4 of this book. It describes the Fourth of July '
+                           'address of 1852, which praised the founders for twenty minutes and '
+                           'then argued that the country was failing its own words rather than '
+                           'that the words were wrong.',
+             stem='Text 1 sets out a case built on applying the founding documents literally. '
+                  'Based on Text 2, how did Douglass put that case to an audience?',
+             opts=['By rejecting the founding documents as worthless to him',
+                   'By quoting the three clauses that recognized slavery',
+                   'By praising the founders first and then charging the country with failing '
+                   'them',
+                   'By arguing that wage labor was crueler than slavery'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'D': 'near_miss'},
+             why='Text 2 reports twenty minutes of praise followed by the charge that the country '
+                 'was failing its own words, which is the literal application made audible.',
+             trap='A states the reading that Text 2 calls the part readers miss.'),
+        dict(carrier='The defense of slavery did not answer that argument on its own ground. ___ '
+                     'it shifted the ground.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Therefore,', 'Instead,', 'Likewise,', 'For example,'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'restatement', 'D': 'near_miss'},
+             why='The first sentence says the defense did not meet the argument and the second '
+                 'says what it did in place of that, so the second replaces the first.',
+             trap='A makes the shift of ground a consequence of the failure to answer.'),
+        dict(carrier='A second line argued from history ___ claiming that the Constitution had '
+                     'recognized slavery in three clauses and therefore protected it.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['history claiming', 'history; claiming', 'history: claiming',
+                   'history, claiming'],
+             key='D', moves={'A': 'run_on', 'B': 'wrong_mark', 'C': 'near_miss'},
+             why='A participial phrase describing the argument attaches to the main clause with a '
+                 'comma rather than a semicolon or a colon.',
+             trap='B uses a semicolon, which would need an independent clause on each side of '
+                  'it.'),
+        dict(goal='explain why the dispute over slavery could not be settled by argument',
+             notes=['The antislavery case held that a human being is not a kind of property.',
+                    'The defense argued from order rather than from rights.',
+                    'The parties disagreed about what counts as evidence in the first place.',
+                    'The amendment of 1865 was framed as a flat prohibition rather than as a '
+                    'compromise.'],
+             stem='The student wants to explain why the dispute over slavery could not be settled '
+                  'by argument. Which choice most effectively uses relevant information from the '
+                  'notes to accomplish that goal?',
+             opts=['The antislavery case held that a human being is not a kind of property at '
+                   'all',
+                   'Because one side asked what is owed to a person and the other what holds a '
+                   'society together, the parties disagreed about what counts as evidence',
+                   'The defense of slavery argued from social order rather than from individual '
+                   'rights',
+                   'The amendment of 1865 was framed as a flat prohibition rather than as a '
+                   'compromise'],
+             key='B', moves={'A': 'restatement', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Only this choice names the reason argument could not settle the matter, which is '
+                 'that the two sides did not share a standard of evidence.',
+             trap='A gives one premise without explaining why the dispute could not be settled.'),
+    ]))
+
+# --- 5 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='HIS-S05-L2',
+    ar=dict(
+        khulasa='لم يكن انقلاب إعادة الإعمار حادثة واحدة، ولم يتحقّق أساسًا بتغيير القانون. '
+                'أربع أدوات أدّت العمل وعزّزت إحداها الأخرى: عنف منظّم واسع ضدّ أصحاب '
+                'المناصب والمعلّمين والناخبين، ثم محاكم قرأت التعديل الرابع عشر قراءة ضيّقة '
+                'من عام ألف وثمانمئة وثلاثة وسبعين، ثم تسوية انتخابات عام ألف وثمانمئة '
+                'وستّة وسبعين، ثم قانون الولايات.',
+        maana='المعنى أنّ التركيبة نجحت لأنّ كلّ جزء غطّى ضعف الأجزاء الأخرى: العنف هيّأ '
+              'الظرف لكتابة القواعد، والأحكام الضيّقة أزالت العلاج الفدرالي، واللامبالاة '
+              'الوطنية أزالت الكلفة السياسية للتقاعس. ولم تذكر أي من القواعد الجديدة العرق، '
+              'وهذا ما أتاح لها النجاة من المراجعة القضائية عقودًا.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: ليس ماذا حدث '
+                  'بل بأي أدوات، وكيف يُقاس الأثر. وتسجيل الناخبين السود في لويزيانا هبط '
+                  'من أكثر من تسعين في المئة عام ألف وثمانمئة وستّة وتسعين إلى نحو واحد '
+                  'في المئة عام ألف وتسعمئة وأربعة.',
+        sila='في اختبار سات يُسأل عن الاستنتاج وعن بنية الحجّة وعن الدليل. والفخّ الشائع أن '
+             'تُختار أداة واحدة من الأربع وتُعامل كأنّها السبب الكامل، مع أنّ النصّ يشدّد '
+             'على التعاضد. ويقترن المقطع بالمقطع الخامس في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The disputed presidential election of 1876 was settled by an arrangement',
+                   'Four instruments reversed Reconstruction, each covering a weakness in the '
+                   'others',
+                   'The courts repealed the Fourteenth Amendment in a series of decisions',
+                   'Black registration in Louisiana fell to about one percent by 1904'],
+             key='B', moves={'A': 'underreach', 'C': 'wrong_direction', 'D': 'true_not_asked'},
+             why='The text names four instruments and then says the combination worked because '
+                 'each part covered a weakness in the others.',
+             trap='C overstates the courts, which read the amendment narrowly rather than '
+                  'repealing it.'),
+        dict(stem='According to the text, what did the new state rules avoid mentioning?',
+             opts=['The cost of keeping federal troops in the region',
+                   'The decisions handed down by the courts after 1873',
+                   'The arrangement that settled the election of 1876',
+                   'Race, which is what allowed them to survive review'],
+             key='D', moves={'A': 'imported', 'B': 'near_miss', 'C': 'detail_swap'},
+             why='The text says none of the new state rules mentioned race, which is what allowed '
+                 'them to survive judicial review for decades.',
+             trap='B names another of the four instruments rather than the silence in the rules.'),
+        dict(claim='the reversal was achieved without changing the Constitution',
+             stem='Which quotation from the text most strongly supports the claim that the '
+                  'reversal was achieved without changing the Constitution?',
+             opts=[Q('Nothing in the Constitution had changed in those eight years, and what '
+                     'changed instead was everything around it'),
+                   Q('The architects of the new constitutions said in public what they were '
+                     'doing, and the convention debates were printed'),
+                   Q('Armed groups attacked officeholders, teachers and voters through the years '
+                     'around 1870'),
+                   Q('Between 1890 and 1908 southern states enacted new constitutions and '
+                     'statutes imposing literacy tests')],
+             key='A', moves={'B': 'true_not_asked', 'C': 'underreach', 'D': 'near_miss'},
+             why='The sentence says in so many words that nothing in the Constitution changed '
+                 'while everything around it did.',
+             trap='D names the state constitutions, which are not the federal Constitution the '
+                  'claim concerns.'),
+        dict(carrier='Violence created the conditions in which the new rules could be written, '
+                     'narrow court rulings removed the federal remedy, and national indifference '
+                     'removed the political cost of doing nothing. Each instrument alone therefore '
+                     '___',
+             stem='Which choice most logically completes the text?',
+             opts=['would have been enough to end Reconstruction',
+                   'operated at a different level of government',
+                   'would have left a weakness the others covered',
+                   'was declared unconstitutional within a decade'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'near_miss', 'D': 'imported'},
+             why='The text says the combination worked because each part covered a weakness in the '
+                 'others, so any one of them alone would have left that weakness open.',
+             trap='A reverses the point, since the text insists on the combination rather than on '
+                  'any single instrument.'),
+        dict(target='enacted',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('enacted'),
+             opts=['performed on a stage', 'passed into law', 'brought before a court',
+                   'set aside as void'],
+             key='B', moves={'A': 'near_miss', 'C': 'imported', 'D': 'wrong_direction'},
+             why='Southern states enacted new constitutions and statutes between 1890 and 1908, so '
+                 'the word names the making of law.',
+             trap='A gives the theatrical sense of the word, which a legislature does not use.'),
+        dict(stem='Which choice best describes the function of the final paragraph of the text?',
+             opts=['It explains why the four instruments worked together and measures the result',
+                   'It introduces the disputed presidential election of 1876',
+                   'It lists the devices that the new state constitutions imposed',
+                   'It reports which federal prosecutions were brought after 1870'],
+             key='A', moves={'B': 'detail_swap', 'C': 'near_miss', 'D': 'imported'},
+             why='The paragraph gives the reason the combination worked and then measures it '
+                 'against the fall in Black registration in Louisiana.',
+             trap='C names the content of the second paragraph rather than the last.'),
+        dict(sibling='HIS-S05-L1',
+             sibling_gloss='Text 2 is passage 5 of this book. It reports what Reconstruction built '
+                           'in twelve years, three amendments and more than fifteen hundred Black '
+                           'officeholders, and then that the amendments stayed in the Constitution '
+                           'unrepealed and largely unenforced for sixty years.',
+             stem='Text 1 explains how the retreat was managed. Based on Text 2, what makes that '
+                  'explanation necessary?',
+             opts=['The amendments were repealed and had to be reinstated later',
+                   'Federal troops remained in the South until 1890',
+                   'The gains were made by state law rather than by amendment',
+                   'The amendments survived while their enforcement did not'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'imported', 'C': 'near_miss'},
+             why='Text 2 reports amendments standing unrepealed and unenforced, which is a '
+                 'puzzle that only an account of the instruments of retreat can answer.',
+             trap='A assumes a repeal, which both texts deny took place.'),
+        dict(carrier='Armed groups attacked officeholders, teachers and voters through the years '
+                     'around 1870. ___ federal prosecutions under the enforcement acts fell away '
+                     'almost entirely once the troops had left.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For instance,', 'In other words,', 'Meanwhile,', 'As a result,'],
+             key='C', moves={'A': 'near_miss', 'B': 'restatement', 'D': 'wrong_direction'},
+             why='The two sentences report things happening alongside one another rather than one '
+                 'following from the other.',
+             trap='D makes the collapse of prosecutions a consequence of the violence rather than '
+                  'a parallel development.'),
+        dict(carrier='The third instrument was national politics ___ the fourth was state law, and '
+                     'it proved the most durable.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['politics; the', 'politics, the', 'politics the', 'politics: the'],
+             key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'wrong_mark'},
+             why='Two independent clauses with no conjunction between them take a semicolon rather '
+                 'than a comma, a colon, or no mark at all.',
+             trap='B sets a comma between two clauses that could each stand alone, which is a '
+                  'splice.'),
+        dict(goal='show a reader that the reversal was a political achievement rather than a '
+                  'legal one',
+             notes=['Armed groups attacked officeholders, teachers and voters around 1870.',
+                    'Courts from 1873 read the Fourteenth Amendment narrowly.',
+                    'After 1876 no administration would spend political capital on enforcement.',
+                    'Nothing in the Constitution had changed in those eight years.'],
+             stem='The student wants to show a reader that the reversal was a political achievement '
+                  'rather than a legal one. Which choice most effectively uses relevant '
+                  'information from the notes to accomplish that goal?',
+             opts=['Courts from 1873 onward read the Fourteenth Amendment narrowly',
+                   'Armed groups attacked officeholders, teachers and voters around 1870',
+                   'Nothing in the Constitution changed, and yet violence, narrow rulings and '
+                   'national indifference together emptied it of effect',
+                   'After 1876 no administration would spend political capital on enforcement'],
+             key='C', moves={'A': 'underreach', 'B': 'true_not_asked', 'D': 'restatement'},
+             why='Only this choice holds the unchanged text beside the political means that '
+                 'drained it, which is what the goal requires.',
+             trap='A names one instrument and so leaves the political point unmade.'),
+    ]))
+
+# --- 6 -------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='HIS-S06-L2',
+    ar=dict(
+        khulasa='للدولة التي تريد وفيات أقلّ في المصانع أربع أدوات تعمل بطرائق مختلفة. '
+                'الأولى قاعدة وراءها مفتّش: نصّ يفرض واجبًا كإبقاء المخارج غير مقفلة، '
+                'وجهاز تفتيش له حقّ الدخول بلا إشعار. وضعفها الكلفة والتغطية: كان في '
+                'نيويورك نحو خمسين مفتّشًا لعشرات آلاف أماكن العمل عام ألف وتسعمئة واثني '
+                'عشر.',
+        maana='المعنى أنّ الأداة الثانية هي المسؤولية القانونية: إذا استطاع العامل المصاب '
+              'المقاضاة والفوز حمل صاحب العمل كلفة الخطر فصار له سبب للإنفاق على الوقاية. '
+              'والثالثة تسعير التأمين، والرابعة قانون ساعات العمل الذي يقلّل التعرّض لا '
+              'الخطر نفسه.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: لا ما حدث بعد '
+                  'الحريق بل بأي وسائل يُحتمل أن يتغيّر شيء، وأي وسيلة تسدّ ثغرة الأخرى. '
+                  'ويشير السجلّ إلى أنّ أداة واحدة لم تفعل الكثير بمفردها.',
+        sila='في اختبار سات يكثر النصّ الذي يعدّد وسائل ويوازن بينها، ويُسأل عن الاستنتاج '
+             'وعن وظيفة الفقرة. والفخّ الشائع أن تُنسب النتيجة إلى وسيلة واحدة، أو أن '
+             'يُخلط تقليل التعرّض بتقليل الخطر. ويقترن المقطع بالمقطع السادس في أسئلة '
+             'النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['New York had about fifty inspectors for tens of thousands of workplaces',
+                   'Britain had a factory inspectorate from 1833, fifty years earlier',
+                   'Four instruments act on factory safety in different ways, and none did much '
+                   'alone',
+                   'Liability was the instrument that finally made factories safe'],
+             key='C', moves={'A': 'underreach', 'B': 'true_not_asked', 'D': 'overreach'},
+             why='The text sets out four instruments working in quite different ways and then says '
+                 'no single one did much on its own.',
+             trap='D singles out one instrument, which the closing sentences explicitly refuse to '
+                  'do.'),
+        dict(stem='According to the text, what weakness does a rule with an inspector behind it '
+                  'have?',
+             opts=['Cost and coverage', 'The fellow servant rule',
+                   'The pricing of insurance', 'The length of the working day'],
+             key='A', moves={'B': 'detail_swap', 'C': 'near_miss', 'D': 'imported'},
+             why='The text says the weakness is cost and coverage, and gives about fifty '
+                 'inspectors for tens of thousands of workplaces as the measure of it.',
+             trap='B names one of the three doctrines that blocked liability, a different '
+                  'instrument.'),
+        dict(claim='liability works by making danger expensive for the employer',
+             stem='Which quotation from the text most strongly supports the claim that liability '
+                  'works by making danger expensive for the employer?',
+             opts=[Q('New York had about fifty inspectors for tens of thousands of workplaces in '
+                     '1912'),
+                   Q('If an injured worker can sue and win, the employer carries the cost of '
+                     'danger and has a reason to spend on prevention'),
+                   Q('Britain had reached much the same conclusion fifty years earlier'),
+                   Q('a worker in the building for ten hours instead of fourteen is at risk for '
+                     'less time')],
+             key='B', moves={'A': 'true_not_asked', 'C': 'underreach', 'D': 'near_miss'},
+             why='The quotation states the mechanism directly: the employer carries the cost of '
+                 'danger and therefore has a reason to spend on preventing it.',
+             trap='D describes the hours law, which reduces exposure rather than pricing danger.'),
+        dict(carrier='The fourth instrument is the hours law, which reduces exposure rather than '
+                     'hazard, since a worker in the building for ten hours instead of fourteen is '
+                     'at risk for less time. An hours law therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['removes the danger from the workplace itself',
+                   'makes the machinery of a factory safer to use',
+                   'raises the price an insurer will charge a plant',
+                   'leaves the hazard in place and shortens the exposure'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'near_miss', 'C': 'detail_swap'},
+             why='The text distinguishes exposure from hazard and assigns the hours law to the '
+                 'first, so the danger itself is untouched while the time spent near it falls.',
+             trap='A collapses the distinction the sentence is built on.'),
+        dict(target='imposed',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('imposed'),
+             opts=['took unfair advantage', 'placed one thing over another',
+                   'laid down as a requirement', 'offered as a suggestion'],
+             key='C', moves={'A': 'near_miss', 'B': 'wrong_direction', 'D': 'underreach'},
+             why='A statute imposed a duty such as keeping exits unlocked, so the word names a '
+                 'requirement laid down in law.',
+             trap='D turns a statutory duty into advice, which an inspector could not enforce.'),
+        dict(stem='Which choice best describes the function of the three doctrines listed in the '
+                  'second paragraph?',
+             opts=['They explain why insurers began to inspect and grade plants',
+                   'They explain why liability did not work for most of a century',
+                   'They list the duties that a statute could impose on an employer',
+                   'They give the hours worked by women and children before 1910'],
+             key='B', moves={'A': 'near_miss', 'C': 'detail_swap', 'D': 'imported'},
+             why='Assumption of risk, the fellow servant rule and contributory fault are given as '
+                 'the three ways nineteenth-century courts blocked an injured worker from '
+                 'recovering.',
+             trap='A names what followed once compensation became automatic rather than what '
+                  'blocked it.'),
+        dict(sibling='HIS-S06-L1',
+             sibling_gloss='Text 2 is passage 6 of this book. It describes the Triangle fire of '
+                           '1911, a locked stair door kept locked so that bags could be checked, '
+                           'a refused inspection, and more than thirty state laws passed within '
+                           'three years of the fire.',
+             stem='Text 1 holds that no single instrument did much alone. Based on Text 2, which '
+                  'instruments did New York put in place at once?',
+             opts=['Rules with inspectors behind them, together with limits on hours',
+                   'Insurance pricing and the fellow servant rule',
+                   'Liability alone, through the courts of the state',
+                   'An hours law, but no power of inspection at all'],
+             key='A', moves={'B': 'detail_swap', 'C': 'underreach', 'D': 'wrong_direction'},
+             why='Text 2 reports laws requiring unlocked exits and limits on hours, and an '
+                 'inspection service with the power to enter without warning.',
+             trap='C reduces the wave of law to one instrument, which Text 2 does not support.'),
+        dict(carrier='A statute imposed a duty, such as keeping exits unlocked. ___ an inspection '
+                     'service with the right to enter unannounced makes that duty real.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['By contrast,', 'In short,', 'Even so,', 'For its part,'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'restatement', 'C': 'near_miss'},
+             why='The two sentences give the two halves of one instrument, the duty and the body '
+                 'that enforces it, so the second takes up its own part.',
+             trap='A sets the inspectorate against the statute rather than beside it.'),
+        dict(carrier='Nineteenth-century courts blocked this with three doctrines ___ assumption '
+                     'of risk, the fellow servant rule, and contributory fault.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['doctrines, assumption', 'doctrines: assumption', 'doctrines assumption',
+                   'doctrines; assumption'],
+             key='B', moves={'A': 'comma_splice', 'C': 'run_on', 'D': 'wrong_mark'},
+             why='A colon introduces the list that names the three doctrines the clause before has '
+                 'just announced.',
+             trap='A uses a comma where a colon is needed to present a list that has been '
+                  'announced.'),
+        dict(goal='explain to a reader why factory deaths fell when they did',
+             notes=['A rule needs an inspection service with the right to enter unannounced.',
+                    'Liability makes the employer carry the cost of danger.',
+                    'Once compensation became automatic, insurers had an interest in safer '
+                    'plants.',
+                    'The sharp falls came where three or four instruments were operating at '
+                    'once.'],
+             stem='The student wants to explain to a reader why factory deaths fell when they did. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['A rule needs an inspection service with the right to enter unannounced',
+                   'Liability makes an employer carry the cost of the danger it creates',
+                   'Insurers gained an interest in safer plants once compensation was automatic',
+                   'Deaths fell sharply where inspection, liability, insurance pricing and hours '
+                   'laws were all working together'],
+             key='D', moves={'A': 'underreach', 'B': 'near_miss', 'C': 'restatement'},
+             why='Only this choice gives the condition the text identifies, which is three or four '
+                 'instruments operating at the same time.',
+             trap='B names one instrument and so cannot account for the timing of the fall.'),
+    ]))
+
+# --- 7 -------------------------------------------------------------- DBCADCBACA
+SETS.append(dict(
+    id='HIS-S07-L2',
+    ar=dict(
+        khulasa='أعلن حكم براون ضدّ مجلس التعليم عام ألف وتسعمئة وأربعة وخمسين أنّ التعليم '
+                'المفصول غير دستوري، ولم يوفّر أي جهاز تنفيذ على الإطلاق. فتوقّف التطبيق '
+                'على دعاوى تُرفع منطقةً منطقة، وبعد عشر سنوات كان أقلّ من اثنين في المئة '
+                'من الأطفال السود في ولايات الكونفدرالية القديمة يدرسون مع أطفال بيض.',
+        maana='المعنى أنّ الحقّ الذي يحتاج دعوى يتحرّك بسرعة الدعاوى، أمّا قانون حقوق '
+              'التصويت عام ألف وتسعمئة وخمسة وستين فقد أنشأ جهازًا إداريًّا يعمل بلا مدّع: '
+              'أوقف اختبارات القراءة، وأرسل مفتّشين فدراليين يسجّلون الناخبين مباشرة، '
+              'وألزم المناطق المشمولة بالحصول على موافقة فدرالية قبل تغيير أي قاعدة.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: ليس أي قانون '
+                  'صدر بل أي جهاز أنشأه. والنمط ثابت: حيث نشأ جهاز إداري يعمل بلا مدّع '
+                  'جاء التغيير سريعًا، وحيث نشأ حقّ يُطالَب به في محكمة جاء بطيئًا '
+                  'ومتفاوتًا.',
+        sila='في اختبار سات يُسأل عن الاستنتاج وعن الدليل الذي يسند مقارنة. والفخّ الشائع أن '
+             'يُقاس أثر القانون بقوّة لغته لا بوجود من ينفّذه. ويقترن المقطع بالمقطع السابع '
+             'في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The approval requirement in the 1965 Act was narrowed by the Supreme Court in '
+                   '2013',
+                   'Black registration in Mississippi rose from under seven percent to about '
+                   'sixty',
+                   'Congress used its power over interstate commerce to reach private businesses',
+                   'A right with an administrator behind it moves quickly, and a right without '
+                   'one waits'],
+             key='D', moves={'A': 'true_not_asked', 'B': 'underreach', 'C': 'near_miss'},
+             why='The text contrasts a ruling enforced by litigation with statutes that created '
+                 'machinery operating without a plaintiff, and ends on exactly that lesson.',
+             trap='B gives the strongest single measurement rather than the point it is offered '
+                  'to support.'),
+        dict(stem='According to the text, what did the Civil Rights Act of 1964 rely on instead '
+                  'of the Fourteenth Amendment?',
+             opts=['Federal examiners sent into the covered areas',
+                   'The commerce power and conditions on federal funding',
+                   'The suspension of literacy tests in covered areas',
+                   'The equal protection clause of the Fourteenth Amendment'],
+             key='B', moves={'A': 'detail_swap', 'C': 'near_miss', 'D': 'wrong_direction'},
+             why='The text says Congress used its power over interstate commerce to reach private '
+                 'businesses and attached conditions to federal funding for school districts.',
+             trap='C names an instrument of the 1965 Act rather than of the 1964 Act.'),
+        dict(claim='machinery matters more than the strength of the words',
+             stem='Which quotation from the text most strongly supports the claim that machinery '
+                  'matters more than the strength of the words?',
+             opts=[Q('The Civil Rights Act of 1964 took a different route. Rather than rest on '
+                     'the Fourteenth Amendment'),
+                   Q('several covered states changed their voting rules within weeks. The two '
+                     'statutes are therefore studied together'),
+                   Q('A ruling that must be enforced by litigation moves at the speed of '
+                     'litigation, and that speed is set by how many lawyers exist'),
+                   Q('Black registration in Mississippi rose from under seven percent in 1964 to '
+                     'about sixty percent in 1967')],
+             key='C', moves={'A': 'underreach', 'B': 'near_miss', 'D': 'true_not_asked'},
+             why='The sentence ties the pace of a remedy to the means of enforcing it rather than '
+                 'to the force of what the ruling said.',
+             trap='D measures an outcome without naming what produced it.'),
+        dict(carrier='Where a statute created an administrative mechanism that operated without a '
+                     'plaintiff, change prevailed quickly. Where it created a right that had to be '
+                     'claimed in court, change was slow and uneven. A reformer drafting a statute '
+                     'should therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['build the administrator into the statute itself',
+                   'rest the statute on the Fourteenth Amendment',
+                   'leave enforcement to the courts of each state',
+                   'use the strongest language the subject allows'],
+             key='A', moves={'B': 'near_miss', 'C': 'wrong_direction', 'D': 'underreach'},
+             why='The text shows change moving quickly only where a mechanism worked without a '
+                 'plaintiff, so the lesson for a drafter is to supply that mechanism.',
+             trap='D mistakes strong wording for the machinery the text says is decisive.'),
+        dict(target='prevailed',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('prevailed'),
+             opts=['was widely believed', 'was argued over in court', 'persuaded by entreaty',
+                   'came about and held'],
+             key='D', moves={'A': 'near_miss', 'B': 'imported', 'C': 'wrong_direction'},
+             why='Change prevailed quickly where a mechanism worked without a plaintiff, so the '
+                 'word names a change that took hold.',
+             trap='A gives the sense in which an opinion prevails, which is not what the sentence '
+                  'measures.'),
+        dict(stem='Which choice best describes the function of the first paragraph of this text?',
+             opts=['It lists the instruments created by the Voting Rights Act',
+                   'It explains why federal examiners could register voters directly',
+                   'It gives the case of a ruling with no machinery behind it',
+                   'It reports the registration figures for Mississippi in 1967'],
+             key='C', moves={'A': 'detail_swap', 'B': 'near_miss', 'D': 'imported'},
+             why='The paragraph presents Brown, which declared segregated schooling '
+                 'unconstitutional and provided no machinery, and measures the result ten years '
+                 'on.',
+             trap='A names the content of the second paragraph rather than the first.'),
+        dict(sibling='HIS-S07-L1',
+             sibling_gloss='Text 2 is passage 7 of this book. It describes the Montgomery bus '
+                           'boycott of 1955 and 1956, which held for three hundred and eighty-one '
+                           'days, and reports that what finally ended segregation on the buses was '
+                           'a lawsuit upheld by the Supreme Court.',
+             stem='Text 1 argues that a right claimed in court moves slowly. Based on Text 2, what '
+                  'makes the Montgomery case consistent with that argument?',
+             opts=['The boycott itself had no effect on the bus company at all',
+                   'The remedy arrived through a lawsuit after a year of pressure',
+                   'Federal examiners were sent to register voters in Alabama',
+                   'The city repealed its own ordinance within three days'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'detail_swap', 'D': 'imported'},
+             why='Text 2 reports that segregation ended by court ruling rather than by the boycott, '
+                 'and only after the campaign had run for a year.',
+             trap='A denies an effect that Text 2 records in the loss of two thirds of the '
+                  "company's income."),
+        dict(carrier='Enforcement depended on lawsuits brought district by district. ___ ten '
+                     'years later fewer than two percent of Black children in the states of the '
+                     'old Confederacy attended schools with white children.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['As a result,', 'In other words,', 'For instance,', 'Nevertheless,'],
+             key='A', moves={'B': 'restatement', 'C': 'near_miss', 'D': 'wrong_direction'},
+             why='The dependence on litigation is the reason the figure after ten years was so '
+                 'low, so the second sentence reports a consequence.',
+             trap='D sets the figure against the dependence on lawsuits, when it followed from '
+                  'it.'),
+        dict(carrier='The Voting Rights Act of 1965 went further ___ it is the clearest case of '
+                     'machinery in the whole period.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['further and', 'further; and', 'further, and', 'further, it'],
+             key='C', moves={'A': 'run_on', 'B': 'wrong_mark', 'D': 'comma_splice'},
+             why='Two independent clauses joined by a coordinating conjunction take a comma before '
+                 'the conjunction.',
+             trap='D drops the conjunction and joins the clauses with a comma, which is a splice.'),
+        dict(goal='explain to a reader why two statutes of the same decade worked at different '
+                  'speeds',
+             notes=['Brown provided no enforcement machinery and depended on lawsuits.',
+                    'The 1964 Act attached conditions to federal funding.',
+                    'The 1965 Act sent federal examiners and required prior federal approval.',
+                    'Where a mechanism operated without a plaintiff, change prevailed quickly.'],
+             stem='The student wants to explain to a reader why two statutes of the same decade '
+                  'worked at different speeds. Which choice most effectively uses relevant '
+                  'information from the notes to accomplish that goal?',
+             opts=['The statutes that worked fastest were the ones whose machinery operated '
+                   'without waiting for a plaintiff',
+                   'The 1965 Act sent federal examiners and required prior federal approval of '
+                   'rule changes',
+                   'Brown provided no enforcement machinery and depended on lawsuits brought '
+                   'district by district',
+                   'The 1964 Act attached conditions to the federal funding of school districts'],
+             key='A', moves={'B': 'underreach', 'C': 'true_not_asked', 'D': 'restatement'},
+             why='Only this choice names the property that separates the fast remedies from the '
+                 'slow one, which is machinery that needs no plaintiff.',
+             trap='B describes one statute without stating the principle that explains the '
+                  'difference.'),
+    ]))
+
+# --- 8 -------------------------------------------------------------- ACDBADCBDB
+SETS.append(dict(
+    id='HIS-S08-L2',
+    ar=dict(
+        khulasa='الإمبراطورية مسألة إدارية قبل أي شيء آخر. فقد حُكمت الهند البريطانية بخدمة '
+                'مدنية من نحو ألف موظّف بريطاني على سكّان تجاوزوا ثلاثمئة مليون، ولم يكن '
+                'ذلك ممكنًا إلّا لأنّ معظم العمل أدّاه موظّفون هنود وحكّام محلّيون أبقوا '
+                'على عروشهم. وكذلك الجيش: معظم جنوده هنود، يُدفع لهم من إيراد هندي.',
+        maana='المعنى أنّ للترتيب شرطًا: على المستعمرة أن تنتج فائضًا. فإيراد الأرض مع '
+              'ضريبة الملح والرسوم الجمركية كان عليه أن يغطّي كلفة الحكم ويترك زيادة. '
+              'وكسر هذا الحساب أمران: كلفة الرضى، أي كلّ تنازل للمطلب الوطني، ثم كلفة '
+              'حربين عالميّتين خيضت بمال مستدان.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: ليس متى جاء '
+                  'الاستقلال بل بأي حساب صار الاستمرار غير مجدٍ. فبحلول عام ألف وتسعمئة '
+                  'وخمسة وأربعين كانت بريطانيا مدينة للهند بنحو ألف وثلاثمئة مليون جنيه، '
+                  'وصارت المستعمرة دائنة للدولة التي تحكمها.',
+        sila='في اختبار سات يكثر النصّ الذي يفسّر حدثًا كبيرًا بحساب صغير، ويُسأل عن '
+             'الاستنتاج وعن الدليل. والفخّ الشائع أن يُقرأ الاستقلال منحةً أو انتصارًا '
+             'خالصًا، مع أنّ النصّ يقدّمه نقطةً تجاوزت فيها الكلفة أي عائد محتمل. ويقترن '
+             'المقطع بالمقطع الثامن في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Independence came when the cost of holding on exceeded any plausible return',
+                   'Most soldiers in the Indian army were Indian and paid from Indian revenue',
+                   'France, the Netherlands and Portugal each reached a similar reckoning',
+                   'Land revenue was the tax that funded most of the administration'],
+             key='A', moves={'B': 'underreach', 'C': 'true_not_asked', 'D': 'near_miss'},
+             why='The text builds an arithmetic of surplus and then shows two pressures breaking '
+                 'it, ending on the point at which holding on stopped paying.',
+             trap='B gives one of the arrangements that made the arithmetic work rather than the '
+                  'conclusion drawn from it.'),
+        dict(stem='According to the text, what condition was attached to the arrangement?',
+             opts=['That most soldiers be recruited locally',
+                   'That local rulers should keep their thrones',
+                   'That the colony had to produce a surplus',
+                   'That the railways be paid for from London'],
+             key='C', moves={'A': 'near_miss', 'B': 'true_not_asked', 'D': 'wrong_direction'},
+             why='The text says the arrangement had a condition attached, which was that the '
+                 'colony had to produce a surplus over the cost of government.',
+             trap='D reverses the flow of money, since the railways were paid for from Indian '
+                  'revenue.'),
+        dict(claim='by the end of the war the financial relation had reversed',
+             stem='Which quotation from the text most strongly supports the claim that by the end '
+                  'of the war the financial relation had reversed?',
+             opts=[Q('Most soldiers were Indian, paid out of Indian revenue, and the same revenue '
+                     'paid for the railways'),
+                   Q('Each concession to nationalist demand, from the councils of 1909 to the '
+                     'provincial governments conceded in 1935'),
+                   Q('the Indian officer corps had been largely Indianized, and the police could '
+                     'no longer be relied on in a general strike'),
+                   Q('By 1945 the colony had become a creditor of the country that governed it')],
+             key='D', moves={'A': 'true_not_asked', 'B': 'near_miss', 'C': 'underreach'},
+             why='The sentence states the reversal in so many words: the colony had become a '
+                 'creditor of the country governing it.',
+             trap='A describes the ordinary working of the arrangement rather than its reversal.'),
+        dict(carrier='Land revenue, together with the salt tax and customs duties, had to cover '
+                     'the cost of government and leave something over. A colony that stopped '
+                     'producing that margin therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['could be governed more cheaply than before',
+                   'became a cost rather than a source of income',
+                   'was obliged to raise its own customs duties',
+                   'had already won its independence in practice'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'overreach'},
+             why='The arrangement required a surplus over the cost of government, so a colony '
+                 'without that margin turns from an asset into a charge.',
+             trap='D turns a financial condition into a political fact the text places in 1947.'),
+        dict(target='conceded',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('conceded'),
+             opts=['granted under pressure', 'admitted to be false',
+                   'surrendered in a contest', 'offered as a gift'],
+             key='A', moves={'B': 'near_miss', 'C': 'wrong_direction', 'D': 'imported'},
+             why='Provincial governments were conceded in 1935 as one of a series of concessions '
+                 'to nationalist demand, so the word names something yielded under pressure.',
+             trap='B gives the sense in which a speaker concedes a point in argument.'),
+        dict(stem='Which choice best describes the function of the sentence about the cost of '
+                  'consent?',
+             opts=['It reports the size of the civil service in British India',
+                   'It explains why most soldiers in the army were Indian',
+                   'It gives the figure that Britain owed India by 1945',
+                   'It names the first of two pressures that broke the arithmetic'],
+             key='D', moves={'A': 'underreach', 'B': 'near_miss', 'C': 'detail_swap'},
+             why='The sentence introduces the first of the two things that broke the arithmetic, '
+                 'which is the price of each concession to nationalist demand.',
+             trap='C names the measurement that follows rather than the pressure this sentence '
+                  'identifies.'),
+        dict(sibling='HIS-S08-L1',
+             sibling_gloss='Text 2 is passage 8 of this book. It describes the salt march of 1930, '
+                           'reports that the march won nothing at the time, and says that a '
+                           'government arresting a man of sixty for picking up mud has rejected '
+                           'its own claim to rule by consent.',
+             stem='Text 1 names the cost of consent as a pressure. Based on Text 2, how did the '
+                  'salt march raise that cost?',
+             opts=['By emptying the British treasury during a world war',
+                   'By persuading Indian officials to leave the service',
+                   'By making the claim to rule by consent indefensible in public',
+                   'By abolishing the salt tax sixteen years ahead of independence'],
+             key='C', moves={'A': 'detail_swap', 'B': 'imported', 'D': 'wrong_direction'},
+             why='Text 2 reports that the march broke a law no one could defend in public, which '
+                 'is precisely what makes consent expensive to claim.',
+             trap='A borrows the second pressure from Text 1 rather than reading Text 2.'),
+        dict(carrier='Britain finished the Second World War owing India about thirteen hundred '
+                     'million pounds. ___ by 1945 the colony had become a creditor of the country '
+                     'that governed it.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Even so,', 'In other words,', 'For instance,', 'By contrast,'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'restatement'},
+             why='The second sentence restates the debt as a reversal of the relation, so it '
+                 'recasts the first rather than adding to it.',
+             trap='A sets the reversal against the debt, when the two are the same fact.'),
+        dict(carrier='The army was similar ___ most soldiers were Indian, paid out of Indian '
+                     'revenue.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['similar most', 'similar, most', 'similar, and most', 'similar: most'],
+             key='D', moves={'A': 'run_on', 'B': 'comma_splice', 'C': 'near_miss'},
+             why='A colon introduces the explanation of what the similarity consists in, which a '
+                 'comma or no mark could not do.',
+             trap='B leaves a comma to do the work of a colon between two full clauses.'),
+        dict(goal='correct the impression that independence was simply granted',
+             notes=['The arrangement required the colony to produce a surplus.',
+                    'Each concession to nationalist demand moved spending decisions away from '
+                    'remitting money abroad.',
+                    'Britain finished the war owing India about thirteen hundred million pounds.',
+                    'Independence was the point at which the cost of holding on exceeded any '
+                    'plausible return.'],
+             stem='The student wants to correct the impression that independence was simply '
+                  'granted. Which choice most effectively uses relevant information from the notes '
+                  'to accomplish that goal?',
+             opts=['The arrangement in India required the colony to produce a surplus every year',
+                   'Independence came when a colony that had to pay for itself had become a '
+                   'creditor and a charge instead',
+                   'Britain finished the war owing India about thirteen hundred million pounds',
+                   'Each concession moved spending decisions away from remitting money abroad'],
+             key='B', moves={'A': 'underreach', 'C': 'true_not_asked', 'D': 'restatement'},
+             why='Only this choice replaces the idea of a gift with the arithmetic that ran out, '
+                 'which is what correcting the impression requires.',
+             trap='C gives the figure without saying what the figure changed.'),
+    ]))
+
+# --- 9 -------------------------------------------------------------- BDACBADCAC
+SETS.append(dict(
+    id='HIS-S09-L2',
+    ar=dict(
+        khulasa='سلطات الطوارئ في دولة دستورية تتبع نمطًا معروفًا، واستخدم ترحيل عام ألف '
+                'وتسعمئة واثنين وأربعين ثلاثًا من أدواته المعتادة. الأولى التفويض: منح '
+                'سلطة واسعة من المشرّع إلى السلطة التنفيذية في طارئ محدّد، دون تحديد ما '
+                'سيُفعل، لأنّ الغرض من المنح هو السرعة.',
+        maana='المعنى أنّ الأداة الثانية تعليق الإجراء المعتاد: الحبس دون تهمة، والمحاكم '
+              'العسكرية، وإزالة حقّ الطعن أمام قاضٍ مدني، وكلّها تقصّر المسافة بين القرار '
+              'وتنفيذه. والثالثة التحكّم في المعلومات في اتّجاهين: رقابة على ما يعرفه '
+              'الجمهور، وحجب أدلّة الحكومة نفسها عن الفحص.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: ليس ما حدث لجماعة '
+                  'بعينها بل كيف تعمل سلطة الطوارئ عمومًا. والنتيجة صعوبة مميّزة: الحكومة '
+                  'تملك الوقائع، والمحاكم تتنازل لها في الضرورة العسكرية، فيُدار الخلاف في '
+                  'العتمة.',
+        sila='في اختبار سات يكثر النصّ الذي يحلّل بنية سلطة لا واقعة، ويُسأل عن الاستنتاج '
+             'وعن وظيفة الجملة. والفخّ الشائع أن يُفترض أنّ هذه السلطات تُلغى صراحةً، مع '
+             'أنّ النصّ يقول إنّها تُترك لتنقضي أو تُضيَّق بهدوء. ويقترن المقطع بالمقطع '
+             'التاسع في أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['The order of 1942 was not formally revoked until 1976',
+                   'Emergency power works through three standard instruments that together leave '
+                   'dissent in the dark',
+                   'Congress made violation of an exclusion order a criminal offense',
+                   'Lawyers discovered the suppressed reports in government archives'],
+             key='B', moves={'A': 'true_not_asked', 'C': 'underreach', 'D': 'near_miss'},
+             why='The text names delegation, the suspension of ordinary procedure and the control '
+                 'of information, and then draws the difficulty the three produce together.',
+             trap='A reports a date at the end of the text rather than the pattern it sets out.'),
+        dict(stem='According to the text, in which two directions does the control of information '
+                  'operate?',
+             opts=['Through delegation and through detention without charge',
+                   'Through military courts and through the removal of appeal',
+                   'Through the courts and through the legislature',
+                   'Through censorship and through classification'],
+             key='D', moves={'A': 'near_miss', 'B': 'detail_swap', 'C': 'imported'},
+             why='The text says one direction is censorship of what the public learns and the '
+                 'other is classification, the withholding of the government\'s own evidence.',
+             trap='B names instruments belonging to the suspension of ordinary procedure instead.'),
+        dict(claim='the courts were asked to defer on a question they could not examine',
+             stem='Which quotation from the text most strongly supports the claim that the courts '
+                  'were asked to defer on a question they could not examine?',
+             opts=[Q('the Supreme Court was told that military necessity required removal, and '
+                     'was not shown the reports already in the government\'s possession'),
+                   Q('Powers of this kind are rarely repealed outright. They are allowed to '
+                     'lapse, or narrowed quietly'),
+                   Q('Executive Order 9066 handed the army power to define areas and exclude '
+                     'persons from them'),
+                   Q('The order itself was not formally revoked until 1976, thirty-four years '
+                     'after it was signed')],
+             key='A', moves={'B': 'near_miss', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='The Court was given the claim of military necessity and withheld the evidence '
+                 'already held against it, which is deference without examination.',
+             trap='D reports the formal life of the order rather than the position of the courts.'),
+        dict(carrier='The executive holds the facts, the courts defer to the executive on military '
+                     'necessity, and dissent is therefore conducted in the dark. A challenge '
+                     'brought during the emergency therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['can rely on the reports the government has prepared',
+                   'is decided by a military court rather than a civilian one',
+                   'must argue against a case it is not allowed to see',
+                   'had already been made impossible by Congress'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'detail_swap', 'D': 'overreach'},
+             why='The executive holds the facts and the courts defer to it, so a challenger argues '
+                 'without access to the basis of the measure.',
+             trap='A assumes access to the very reports the text says were withheld.'),
+        dict(target='dissent',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('dissent'),
+             opts=['a difference of taste', 'objection to the measure',
+                   'withdrawal from office', 'a formal declaration of war'],
+             key='B', moves={'A': 'underreach', 'C': 'wrong_direction', 'D': 'imported'},
+             why='Dissent is conducted in the dark because the basis of the measure cannot be '
+                 'tested, so the word names objection to the measure itself.',
+             trap='A reduces political objection to a matter of preference.'),
+        dict(stem='Which choice best describes the function of the sentence saying that such '
+                  'powers are rarely repealed outright?',
+             opts=['It explains why each emergency begins with instruments inherited from the last',
+                   'It reports when the order of 1942 was finally revoked',
+                   'It introduces the three instruments the text has just listed',
+                   'It accounts for the discovery of the suppressed reports'],
+             key='A', moves={'B': 'detail_swap', 'C': 'wrong_direction', 'D': 'imported'},
+             why='The sentence is followed at once by the remark that each emergency begins with a '
+                 'stock of instruments inherited from the last one.',
+             trap='B names the date that follows rather than the reason this sentence supplies.'),
+        dict(sibling='HIS-S09-L1',
+             sibling_gloss='Text 2 is passage 9 of this book. It reports that Executive Order 9066 '
+                           'named no group, that the army declared the whole Pacific coast a '
+                           'military area, that about one hundred and twenty thousand people were '
+                           'removed, and that nobody of Japanese descent was ever charged with '
+                           'spying.',
+             stem='Text 1 calls delegation the first instrument. Based on Text 2, what makes the '
+                  'delegation in 1942 a clear example?',
+             opts=['The whole Pacific coast was declared a military area within weeks',
+                   'Two thirds of those removed were American citizens by birth',
+                   'The last of the ten camps did not close until 1946',
+                   'The order granted a power to act without naming whom it would be used on'],
+             key='D', moves={'A': 'near_miss', 'B': 'true_not_asked', 'C': 'underreach'},
+             why='Text 1 defines delegation as a broad grant that does not specify what will be '
+                 'done, and Text 2 reports an order that named no group at all.',
+             trap='A gives the use made of the power rather than the character of the grant.'),
+        dict(carrier='The second instrument is the suspension of ordinary procedure. ___ the '
+                     'third is control of information, and it operates in two directions at '
+                     'once.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['Nevertheless,', 'In other words,', 'Beyond that,', 'For example,'],
+             key='C', moves={'A': 'wrong_direction', 'B': 'restatement', 'D': 'near_miss'},
+             why='The text is numbering the instruments in order, so the sentence adds the third '
+                 'to the two already given.',
+             trap='A sets the third instrument against the second rather than beside it.'),
+        dict(carrier='One is censorship of what the public learns ___ the other is classification, '
+                     'which is the withholding of evidence from examination.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['learns; the', 'learns, the', 'learns the', 'learns: the'],
+             key='A', moves={'B': 'comma_splice', 'C': 'run_on', 'D': 'wrong_mark'},
+             why='Two independent clauses with no conjunction between them need a semicolon rather '
+                 'than a comma, a colon, or nothing at all.',
+             trap='B joins two independent clauses with a comma alone, which is a splice.'),
+        dict(goal='explain to a reader why emergency powers are hard to challenge at the time',
+             notes=['Delegation grants broad authority without specifying what will be done.',
+                    'Ordinary procedure is suspended, which shortens the distance between '
+                    'decision and execution.',
+                    'Classification withholds the government\'s own evidence from examination.',
+                    'The courts defer to the executive on military necessity.'],
+             stem='The student wants to explain to a reader why emergency powers are hard to '
+                  'challenge at the time. Which choice most effectively uses relevant information '
+                  'from the notes to accomplish that goal?',
+             opts=['Delegation grants broad authority without specifying what will be done with '
+                   'it',
+                   'Ordinary procedure is suspended, which shortens the distance between decision '
+                   'and execution',
+                   'The executive holds the evidence and the courts defer to it, so a challenge '
+                   'must be made without access to the case',
+                   'Classification withholds the evidence of the government from any '
+                   'examination'],
+             key='C', moves={'A': 'underreach', 'B': 'true_not_asked', 'D': 'restatement'},
+             why='Only this choice joins the withholding of evidence to the deference of the '
+                 'courts, which together make a challenge at the time almost impossible.',
+             trap='D names the withholding without the deference that makes it decisive.'),
+    ]))
+
+# --- 10 ------------------------------------------------------------- CABDCBADBD
+SETS.append(dict(
+    id='HIS-S10-L2',
+    ar=dict(
+        khulasa='الخبر ليس انتقاءً من كلّ ما حدث، بل انتقاء من كلّ ما وصل إلى غرفة التحرير '
+                'بصورة قابلة للاستخدام قبل موعد الإغلاق، وهذا الفرق يفسّر الكثير. فللمراسل '
+                'دائرة تغطية مخصّصة كالمحاكم أو بلدية المدينة أو الشرطة، وهذه الدائرة تسلّم '
+                'مادّة منتظمة من مصادر رسمية يسهل الوصول إليها وترغب في الكلام.',
+        maana='المعنى أنّ ثلاثة ضغوط تحدّد ما يبقى: موعد الإغلاق يكافئ ما يُتحقّق منه سريعًا '
+              'فيرجّح الوثائق والبيانات الرسمية على التحقيق البطيء؛ والمنافسة تكافئ ما لا '
+              'يملكه الخصوم فترجّح الجديد على المهمّ؛ والحاجة إلى حكاية تكافئ الأحداث ذات '
+              'الأبطال والبداية والتغيّر المرئي.',
+        ahammiyya='في مجال التاريخ والنظام المدني هذه المادة في مستوى الآلية: ليس ما نشرته '
+                  'صحيفة بل كيف تُصنع الأخبار أصلًا. ولا شيء في هذا يحتاج صحافيًّا غير '
+                  'نزيه، والنتائج قابلة للقياس: المجاعات والأوبئة البطيئة والتحسّن '
+                  'التدريجي تُغطّى تغطية ناقصة لأنّها بلا بنية حدث.',
+        sila='في اختبار سات يكثر النصّ الذي يشرح نظامًا ينتج تحيّزًا بلا نيّة، ويُسأل عن '
+             'الاستنتاج وعن الفكرة المركزية. والفخّ الشائع أن يُنسب النقص إلى سوء نيّة '
+             'الصحافيين، مع أنّ النصّ ينفي ذلك صراحةً. ويقترن المقطع بالمقطع العاشر في '
+             'أسئلة النصّين المتقابلين.'),
+    qs=[
+        dict(stem='Which choice best states the main idea of the text?',
+             opts=['Coverage of crime rises and falls with police practice as much as with crime',
+                   'Research finds that closing a paper is followed by falls in local turnout',
+                   'The production process, not dishonesty, decides the shape of what is '
+                   'reported',
+                   'A reporter has a beat such as the courts, the city hall or the police'],
+             key='C', moves={'A': 'near_miss', 'B': 'true_not_asked', 'D': 'underreach'},
+             why='The text sets out the beat and three pressures, insists that none of it requires '
+                 'dishonesty, and concludes that the gaps are predictable from the process.',
+             trap='A gives one measurable consequence rather than the argument it illustrates.'),
+        dict(stem='According to the text, what does the pressure of competition reward?',
+             opts=['Whatever rivals do not already have',
+                   'Whatever can be confirmed most quickly',
+                   'Whatever has actors and a visible change',
+                   'Whatever an official source is willing to say'],
+             key='A', moves={'B': 'detail_swap', 'C': 'near_miss', 'D': 'imported'},
+             why='The text says competition rewards whatever rivals do not have, which favors '
+                 'novelty over importance.',
+             trap='B names the pressure of the deadline rather than of competition.'),
+        dict(claim='the gaps in coverage can be predicted without accusing anyone',
+             stem='Which quotation from the text most strongly supports the claim that the gaps in '
+                  'coverage can be predicted without accusing anyone?',
+             opts=[Q('Famines, slow epidemics and gradual improvements are systematically '
+                     'underreported because they have no event structure'),
+                   Q('Nothing in this requires any journalist to be dishonest'),
+                   Q('a story that takes six hours to confirm has already been overtaken'),
+                   Q('Coverage of crime rises and falls with police practice as much as with '
+                     'crime itself')],
+             key='B', moves={'A': 'near_miss', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='The sentence states the point about blame directly, which is that the pattern '
+                 'needs no dishonesty to explain it.',
+             trap='A gives a predicted gap rather than the assurance that no accusation is '
+                  'needed.'),
+        dict(carrier='The need for a narrative rewards events with actors, a beginning and a '
+                     'visible change, which is why a vote is covered and a trend is not. A slow '
+                     'improvement therefore ___',
+             stem='Which choice most logically completes the text?',
+             opts=['is covered more heavily than a single vote',
+                   'is reported once its actors have been identified',
+                   'must be confirmed within six hours to be printed',
+                   'has no day on which it becomes a story'],
+             key='D', moves={'A': 'wrong_direction', 'B': 'near_miss', 'C': 'detail_swap'},
+             why='The text says events need actors, a beginning and a visible change, so a gradual '
+                 'improvement never supplies the day a story requires.',
+             trap='A reverses the comparison the sentence has just drawn.'),
+        dict(target='abolished',
+             stem='As used in the text, what does the word %s most nearly mean?' % Q('abolished'),
+             opts=['reduced in size', 'moved to another city', 'done away with',
+                   'reorganized internally'],
+             key='C', moves={'A': 'underreach', 'B': 'imported', 'D': 'near_miss'},
+             why='A department that is abolished produces a story on the day and then silence, so '
+                 'the word names an ending rather than a change of scale.',
+             trap='D softens the sense to reorganization, which would leave the work going on.'),
+        dict(stem='Which choice best describes the function of the sentence denying that '
+                  'journalists must be dishonest?',
+             opts=['It introduces the three pressures described just before it',
+                   'It locates the cause in the process rather than in the people',
+                   'It explains why official sources are easy to reach',
+                   'It reports the research on the closing of local papers'],
+             key='B', moves={'A': 'wrong_direction', 'C': 'near_miss', 'D': 'true_not_asked'},
+             why='The sentence closes the account of the three pressures by placing the '
+                 'explanation in the production process rather than in anyone\'s character.',
+             trap='A has the sentence introduce material it in fact follows.'),
+        dict(sibling='HIS-S10-L1',
+             sibling_gloss='Text 2 is passage 10 of this book. It describes the penny press of '
+                           '1833, which lived on advertising rather than subscription, needed the '
+                           'largest crowd it could gather, and hired reporters to go out to '
+                           'courts, docks and police stations.',
+             stem='Text 1 explains how a beat supplies a steady flow of material. Based on Text 2, '
+                  'when did the beat come into being?',
+             opts=['When the penny papers began sending paid reporters to fixed places',
+                   'When newspapers first began to carry opinion supplied by friends',
+                   'When a single copy was read by a dozen people in a coffee house',
+                   'When the Sun printed its invented reports about the moon'],
+             key='A', moves={'B': 'wrong_direction', 'C': 'underreach', 'D': 'true_not_asked'},
+             why='Text 2 reports that the penny papers hired reporters and sent them to courts, '
+                 'docks and police stations, which is the beat Text 1 describes.',
+             trap='B names the older practice the penny press displaced.'),
+        dict(carrier='The deadline rewards whatever can be confirmed quickly, which favors '
+                     'documents and official statements over slow inquiry. ___ competition '
+                     'rewards whatever rivals do not have.',
+             stem='Which choice completes the text with the most logical transition?',
+             opts=['For instance,', 'As a result,', 'In other words,', 'Meanwhile,'],
+             key='D', moves={'A': 'near_miss', 'B': 'wrong_direction', 'C': 'restatement'},
+             why='The text is listing three pressures that operate at the same time, so the second '
+                 'stands alongside the first rather than following from it.',
+             trap='B makes the pressure of competition a consequence of the deadline.'),
+        dict(carrier='Events that occur where no reporter is assigned arrive late ___ never.',
+             stem='Which choice completes the text so that it conforms to the conventions of '
+                  'Standard English?',
+             opts=['late; or', 'late or', 'late, or', 'late or,'],
+             key='B', moves={'A': 'wrong_mark', 'C': 'near_miss', 'D': 'unpaired'},
+             why='The two words joined are single adverbs rather than clauses, so the conjunction '
+                 'needs no mark before it at all.',
+             trap='C inserts a comma before a conjunction joining two words rather than two '
+                  'clauses.'),
+        dict(goal='help a reader predict which stories a newspaper will miss',
+             notes=['News is a selection from what reached a newsroom usable and in time.',
+                    'The deadline rewards whatever can be confirmed quickly.',
+                    'The need for a narrative rewards events with actors and a visible change.',
+                    'Famines, slow epidemics and gradual improvements are systematically '
+                    'underreported.'],
+             stem='The student wants to help a reader predict which stories a newspaper will miss. '
+                  'Which choice most effectively uses relevant information from the notes to '
+                  'accomplish that goal?',
+             opts=['News is a selection from whatever reached a newsroom usable and in time',
+                   'The deadline rewards whatever can be confirmed quickly rather than slowly',
+                   'Famines and slow epidemics are systematically underreported by newspapers',
+                   'What gets missed is whatever has no actors, no beginning and no day on which '
+                   'it changes'],
+             key='D', moves={'A': 'underreach', 'B': 'true_not_asked', 'C': 'restatement'},
+             why='Only this choice states the test a reader could apply to any story, which is the '
+                 'absence of the event structure the process rewards.',
+             trap='C names examples without giving the rule that would let a reader predict '
+                  'others.'),
+    ]))
