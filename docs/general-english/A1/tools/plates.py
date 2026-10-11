@@ -571,3 +571,139 @@ def qa_pairs(pairs, h=None, size=30):
         cv.rect(ax, y, aw, 70, shade(C['lime'], 1.58), r=14, stroke=deep(C['lime']), sw=2.5)
         cv.text(a, ax + 22, y + 46, size, weight='Medium', bg=shade(C['lime'], 1.58))
     return cv
+
+
+def sort_two(left, right, items, h=560):
+    """The things to sort, drawn, above two labelled bins.
+
+    items = [(prop, colour_or_None, word)]. The pictures are the data: an
+    empty pair of bins is a worksheet box, not a figure, and this plate was
+    one until the pictures went in.
+    """
+    cv = _cv(h, C['paper'])
+    n = len(items)
+    cw = (W_ - 60) / n
+    for i, (pname, col, word) in enumerate(items):
+        x = 30 + cw * (i + 0.5)
+        cv.rect(x - cw / 2 + 8, 24, cw - 16, 150, C['cream'], r=14, stroke=C['silver'],
+                sw=2)
+        W.prop(cv, pname, x, 84, s=min(cw, 150) / 112, col=C[col] if col else None)
+        cv.fit(word, x - cw / 2 + 16, 158, cw - 32, 25, weight='SemiBold', anchor='start',
+               bg=C['cream'])
+    bw = (W_ - 100) / 2
+    for i, (head, col) in enumerate((left, right)):
+        x = 40 + i * (bw + 20)
+        hc = deep(C[col])
+        cv.rect(x, 206, bw, h - 236, shade(C[col], 1.70), r=16)
+        cv.rect(x, 206, bw, 62, hc, r=16)
+        cv.rect(x, 244, bw, 24, hc)
+        cv.text(head, x + bw / 2, 248, 32, fill='#FFFFFF', weight='Bold', anchor='middle',
+                bg=hc)
+        for j in range(3):
+            cv.line(x + 30, 324 + j * 66, x + bw - 30, 324 + j * 66,
+                    shade(C[col], 1.22), sw=3, dash='10 9')
+    return cv
+
+
+def doors(items, h=520):
+    """Numbered doors along a corridor. Room signs where room signs live."""
+    cv = _cv(h, C['wall'])
+    cv.rect(0, h * 0.80, W_, h * 0.20, C['tile'])
+    cv.rect(0, h * 0.80 - 5, W_, 10, shade(C['tile'], 0.84))
+    n = len(items)
+    cw = W_ / n
+    for i, (label, col) in enumerate(items):
+        x = cw * (i + 0.5) - cw * 0.17
+        W.doorway(cv, x, h * 0.82, cw * 0.34, h * 0.60, C[col])
+        pc = deep(C[col])
+        bw = min(cw * 0.46, tw(label, 27, 'Bold') + 44)
+        cv.rect(x + cw * 0.17 - bw / 2, h * 0.14, bw, 58, C['paper'], r=8,
+                stroke=pc, sw=4)
+        cv.text(label, x + cw * 0.17, h * 0.14 + 39, 27, fill=pc, weight='Bold',
+                anchor='middle', bg=C['paper'])
+    return cv
+
+
+def object_cards(items, h=400, cols=5):
+    """Numbered pictures of things, with no word under them.
+
+    The word is what the learner supplies. A picture card with its own answer
+    printed under it is not a task, it is a poster.
+    """
+    rows = (len(items) + cols - 1) // cols
+    cv = _cv(h, C['cream'])
+    cw = (W_ - 50) / cols
+    ch = (h - 40) / rows
+    for i, (tag, pname, col) in enumerate(items):
+        r, c = i // cols, i % cols
+        x, y = 25 + cw * c, 20 + ch * r
+        cv.rect(x + 8, y + 6, cw - 16, ch - 20, C['paper'], r=14, stroke=C['silver'], sw=2)
+        W.prop(cv, pname, x + cw / 2, y + ch * 0.52, s=min(cw, ch) / 105,
+               col=C[col] if col else None)
+        cv.circle(x + 34, y + 32, 20, deep(C['navy']))
+        cv.text(str(tag), x + 34, y + 40, 22, fill='#FFFFFF', weight='Bold',
+                anchor='middle', bg=deep(C['navy']))
+    return cv
+
+
+def classroom_scene(a, b, say_a, say_b=None, sitting=None, h=580, size=30,
+                    pose_a='point', pose_b='stand'):
+    """A lesson in progress: a teacher, a student, and people at desks."""
+    cv = _cv(h, C['cream'])
+    W.classroom(cv, 0, 0, W_, h)
+    base = h * 0.90
+    seated = sitting or []
+    if seated:
+        # draw_person treats ybase as the GROUND, and a seated figure never
+        # reaches the ground -- its legs stop at the hip plus a lap. So the
+        # ybase for a seated person is solved backwards from where the hip has
+        # to be: hip = ybase - 0.48H, and the hip has to sit just below the
+        # desk top or the figure floats above the furniture, which is what the
+        # first two versions of this plate did.
+        Hs = h * 0.42
+        desk_top = base - h * 0.150
+        hip_target = desk_top + h * 0.030
+        yb = hip_target + 0.48 * Hs
+        for i, pid in enumerate(seated):
+            x = W_ * (0.58 + i * 0.17)
+            W.prop(cv, 'chair', x + W_ * 0.045, hip_target + h * 0.010, s=h / 300)
+            draw_person(cv, who(pid), x, yb, Hs, pose='sit', face=-0.3, shadow=False)
+        dx = W_ * 0.58 - W_ * 0.090
+        dw = W_ * (0.17 * (len(seated) - 1)) + W_ * 0.21
+        W.table_scene(cv, dx, desk_top, dw, h * 0.17)
+        for i in range(len(seated)):
+            W.prop(cv, 'notebook', W_ * (0.58 + i * 0.17) + W_ * 0.012,
+                   desk_top + h * 0.004, s=h / 820)
+    pa = draw_person(cv, who(a), W_ * 0.16, base, h * 0.56, pose=pose_a, expr='talk',
+                     face=0.5)
+    pb = draw_person(cv, who(b), W_ * 0.40, base, h * 0.54, pose=pose_b, expr='smile',
+                     face=-0.4)
+    W.say(cv, pa, say_a, size, side='right', maxw=380, lift=0.26)
+    if say_b:
+        W.say(cv, pb, say_b, size, side='right', fill=C['sky_bg'], maxw=360, lift=-0.04)
+    return cv
+
+
+def notice(heading, lines, h=520, col='amber'):
+    """A notice pinned to a board: the print a learner meets on a real wall."""
+    cv = _cv(h, shade(C['wood'], 1.36))
+    nw = W_ - 420
+    x, y = (W_ - nw) / 2, 48
+    nh = h - 96
+    cv.rect(x + 7, y + 10, nw, nh, C['ink'], r=4, opacity=0.16)
+    cv.rect(x, y, nw, nh, C['paper'], r=4, stroke=C['silver'], sw=2)
+    hc = deep(C[col])
+    cv.rect(x, y, nw, 70, hc)
+    cv.fit(heading, x + 28, y + 46, nw - 56, 32, fill='#FFFFFF', weight='Bold', bg=hc)
+    for i, ln in enumerate(lines):
+        ly = y + 128 + i * 56
+        if isinstance(ln, tuple):
+            cv.text(ln[0], x + 30, ly, 27, weight='SemiBold', bg=C['paper'])
+            cv.text(ln[1], x + nw - 30, ly, 27, anchor='end', bg=C['paper'])
+            cv.line(x + 30, ly + 16, x + nw - 30, ly + 16, C['rule'], sw=1.5)
+        else:
+            cv.text(ln, x + 30, ly, 27, bg=C['paper'])
+    for cx in (x + 26, x + nw - 26):
+        cv.circle(cx, y + 14, 11, C['red'])
+        cv.circle(cx - 3, y + 11, 4, shade(C['red'], 1.45))
+    return cv

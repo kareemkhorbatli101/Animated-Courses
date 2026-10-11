@@ -49,9 +49,13 @@ def build(unit_md, book, unit, out_base, title):
     return docx
 
 
+UNITS = {1: 'Hello', 2: 'InTheClass'}
+
+
 if __name__ == '__main__':
     os.makedirs(os.path.join(HERE, 'build'), exist_ok=True)
-    d = build(os.path.join(HERE, 'units', 'a11-u01.md'), 'a11', 1,
-              os.path.join(HERE, 'build', 'EFDL-A1.1-Unit01-Hello'),
-              'Unit 1: Hello')
-    print('built', d)
+    for n in ([int(a) for a in sys.argv[1:]] or sorted(UNITS)):
+        d = build(os.path.join(HERE, 'units', f'a11-u{n:02d}.md'), 'a11', n,
+                  os.path.join(HERE, 'build',
+                               f'EFDL-A1.1-Unit{n:02d}-{UNITS[n]}'), '')
+        print('built', d)

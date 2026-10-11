@@ -233,6 +233,96 @@ def prop(cv: Canvas, name, x, y, s=1.0, col=None):
         cv.line(x - u * 0.16, y - u * 0.26, x - u * 0.16, y + u * 0.26, C['slate'],
                 sw=u * 0.035)
         cv.rect(x - u * 0.16, y - u * 0.26, u * 0.36, u * 0.24, col or C['red'], r=u * 0.015)
+    elif k == 'pencil':
+        cv.path(f'M{x-u*0.06:.2f},{y-u*0.28:.2f} h{u*0.12:.2f} v{u*0.40:.2f} '
+                f'l{-u*0.06:.2f},{u*0.12:.2f} l{-u*0.06:.2f},{-u*0.12:.2f} Z',
+                fill=col or C['amber'])
+        cv.rect(x - u * 0.06, y - u * 0.28, u * 0.12, u * 0.09, shade(C['red'], 1.05))
+        cv.path(f'M{x-u*0.03:.2f},{y+u*0.18:.2f} l{u*0.03:.2f},{u*0.06:.2f} '
+                f'l{u*0.03:.2f},{-u*0.06:.2f} Z', fill=C['ink'])
+    elif k == 'notebook':
+        cv.rect(x - u * 0.22, y - u * 0.28, u * 0.44, u * 0.56, col or C['green'], r=u * 0.02)
+        cv.rect(x - u * 0.16, y - u * 0.28, u * 0.38, u * 0.56, C['paper'], r=u * 0.02)
+        for i in range(5):
+            cv.line(x - u * 0.10, y - u * 0.18 + i * u * 0.09, x + u * 0.16,
+                    y - u * 0.18 + i * u * 0.09, C['silver'], sw=u * 0.018)
+        for i in range(4):
+            cv.circle(x - u * 0.20, y - u * 0.20 + i * u * 0.13, u * 0.022, C['steel'])
+    elif k == 'ruler':
+        cv.rect(x - u * 0.30, y - u * 0.07, u * 0.60, u * 0.14, col or C['aqua'], r=u * 0.015)
+        for i in range(7):
+            cv.line(x - u * 0.26 + i * u * 0.085, y - u * 0.07,
+                    x - u * 0.26 + i * u * 0.085, y - u * 0.01, C['ink'], sw=u * 0.014)
+    elif k == 'rubber':
+        cv.rect(x - u * 0.17, y - u * 0.10, u * 0.34, u * 0.20, C['rose'], r=u * 0.025)
+        cv.rect(x - u * 0.17, y - u * 0.10, u * 0.34, u * 0.07, shade(C['rose'], 1.10),
+                r=u * 0.025)
+        cv.rect(x + u * 0.03, y - u * 0.10, u * 0.14, u * 0.20, C['sky'], r=u * 0.025)
+    elif k == 'bottle':
+        cv.rect(x - u * 0.09, y - u * 0.30, u * 0.18, u * 0.10, shade(C['sky'], 0.86),
+                r=u * 0.02)
+        cv.path(rr_path(x - u * 0.13, y - u * 0.22, u * 0.26, u * 0.50, 6 * s, 6 * s,
+                        14 * s, 14 * s), fill=C['glass'], stroke=C['steel'], sw=u * 0.022)
+        cv.path(rr_path(x - u * 0.13, y - u * 0.02, u * 0.26, u * 0.30, 0, 0,
+                        14 * s, 14 * s), fill=shade(C['sky'], 1.30))
+    elif k == 'chair':
+        cv.rect(x - u * 0.20, y - u * 0.30, u * 0.40, u * 0.26, col or C['blue'], r=u * 0.04)
+        cv.rect(x - u * 0.24, y - u * 0.04, u * 0.48, u * 0.09, shade(col or C['blue'], 0.88),
+                r=u * 0.03)
+        for sx in (-1, 1):
+            cv.line(x + sx * u * 0.18, y + u * 0.05, x + sx * u * 0.21, y + u * 0.30,
+                    C['steel'], sw=u * 0.045)
+    elif k == 'desk':
+        cv.rect(x - u * 0.34, y - u * 0.12, u * 0.68, u * 0.10, C['wood'], r=u * 0.02)
+        cv.rect(x - u * 0.34, y - u * 0.12, u * 0.68, u * 0.04, shade(C['wood'], 1.14),
+                r=u * 0.02)
+        for sx in (-1, 1):
+            cv.line(x + sx * u * 0.27, y - u * 0.02, x + sx * u * 0.27, y + u * 0.30,
+                    C['steel'], sw=u * 0.045)
+    elif k == 'board':
+        cv.rect(x - u * 0.38, y - u * 0.26, u * 0.76, u * 0.52, shade(C['forest'], 0.80),
+                r=u * 0.02, stroke=C['wood'], sw=u * 0.035)
+        cv.line(x - u * 0.26, y - u * 0.10, x + u * 0.16, y - u * 0.10, C['paper'],
+                sw=u * 0.025, opacity=0.9)
+        cv.line(x - u * 0.26, y + u * 0.02, x - u * 0.02, y + u * 0.02, C['paper'],
+                sw=u * 0.025, opacity=0.9)
+    elif k == 'window':
+        cv.rect(x - u * 0.28, y - u * 0.26, u * 0.56, u * 0.52, C['glass'],
+                stroke=C['steel'], sw=u * 0.04)
+        cv.line(x, y - u * 0.26, x, y + u * 0.26, C['steel'], sw=u * 0.04)
+        cv.line(x - u * 0.28, y, x + u * 0.28, y, C['steel'], sw=u * 0.04)
+    elif k == 'door':
+        cv.rect(x - u * 0.20, y - u * 0.32, u * 0.40, u * 0.64, col or C['wood'], r=u * 0.02)
+        cv.rect(x - u * 0.13, y - u * 0.26, u * 0.26, u * 0.20, C['glass'], r=u * 0.015)
+        cv.circle(x + u * 0.12, y + u * 0.04, u * 0.035, C['amber'])
+    elif k == 'apple':
+        cv.path(f'M{x:.2f},{y-u*0.16:.2f} C{x-u*0.30:.2f},{y-u*0.34:.2f} '
+                f'{x-u*0.30:.2f},{y+u*0.26:.2f} {x:.2f},{y+u*0.24:.2f} '
+                f'C{x+u*0.30:.2f},{y+u*0.26:.2f} {x+u*0.30:.2f},{y-u*0.34:.2f} '
+                f'{x:.2f},{y-u*0.16:.2f} Z', fill=col or C['red'])
+        cv.ellipse(x - u * 0.11, y - u * 0.06, u * 0.08, u * 0.11,
+                   shade(col or C['red'], 1.28), opacity=0.55, rot=-20)
+        cv.line(x, y - u * 0.17, x + u * 0.03, y - u * 0.31, C['brown'], sw=u * 0.035)
+        cv.ellipse(x + u * 0.11, y - u * 0.28, u * 0.10, u * 0.05, C['leaf'], rot=-22)
+    elif k == 'orange':
+        cv.circle(x, y, u * 0.25, col or C['orange'])
+        cv.ellipse(x - u * 0.09, y - u * 0.09, u * 0.09, u * 0.06,
+                   shade(col or C['orange'], 1.26), opacity=0.6, rot=-30)
+        cv.line(x, y - u * 0.25, x, y - u * 0.33, C['brown'], sw=u * 0.035)
+        cv.ellipse(x + u * 0.09, y - u * 0.30, u * 0.09, u * 0.045, C['leaf'], rot=-20)
+    elif k == 'umbrella':
+        cv.path(f'M{x-u*0.32:.2f},{y-u*0.02:.2f} '
+                f'A{u*0.32:.2f},{u*0.30:.2f} 0 0 1 {x+u*0.32:.2f},{y-u*0.02:.2f} Z',
+                fill=col or C['indigo'])
+        for i, sx in enumerate((-0.32, -0.107, 0.107, 0.32)):
+            if i % 2 == 0:
+                continue
+            cv.path(f'M{x+u*sx:.2f},{y-u*0.02:.2f} '
+                    f'A{u*0.107:.2f},{u*0.09:.2f} 0 0 0 {x+u*(sx-0.214):.2f},{y-u*0.02:.2f} Z',
+                    fill=shade(col or C['indigo'], 1.24))
+        cv.line(x, y - u * 0.30, x, y + u * 0.24, C['brown'], sw=u * 0.040)
+        cv.path(f'M{x:.2f},{y+u*0.24:.2f} a{u*0.09:.2f},{u*0.09:.2f} 0 0 1 '
+                f'{-u*0.18:.2f},0', stroke=C['brown'], sw=u * 0.040)
     else:
         raise KeyError(f'no prop {name!r}')
 
@@ -345,3 +435,28 @@ def window_wall(cv: Canvas, x, y, w, h, panes=3):
                 stroke=C['steel'], sw=4)
         cv.line(x + i * pw + pw * 0.50, y + h * 0.16, x + i * pw + pw * 0.50, y + h * 0.68,
                 C['steel'], sw=4)
+
+
+def classroom(cv: Canvas, x, y, w, h):
+    """A room with a board, a window and a clock. Where Unit 2 happens."""
+    cv.rect(x, y, w, h * 0.74, C['wall'])
+    cv.rect(x, y + h * 0.74, w, h * 0.26, C['tile'])
+    cv.rect(x, y + h * 0.74 - 5, w, 10, shade(C['tile'], 0.84))
+    # board
+    bw, bh = w * 0.34, h * 0.36
+    bx, by = x + w * 0.08, y + h * 0.16
+    cv.rect(bx - 8, by - 8, bw + 16, bh + 16, C['wood'], r=6)
+    cv.rect(bx, by, bw, bh, shade(C['forest'], 0.78), r=3)
+    cv.line(bx + bw * 0.10, by + bh * 0.30, bx + bw * 0.74, by + bh * 0.30,
+            C['paper'], sw=5, opacity=0.85)
+    cv.line(bx + bw * 0.10, by + bh * 0.52, bx + bw * 0.52, by + bh * 0.52,
+            C['paper'], sw=5, opacity=0.85)
+    cv.rect(bx - 8, by + bh + 8, bw + 16, 12, shade(C['wood'], 0.86), r=4)
+    # window
+    wx, wy, ww, wh = x + w * 0.62, y + h * 0.14, w * 0.26, h * 0.32
+    cv.rect(wx, wy, ww, wh, C['sky_bg'], stroke=C['steel'], sw=6)
+    cv.line(wx + ww / 2, wy, wx + ww / 2, wy + wh, C['steel'], sw=6)
+    cv.line(wx, wy + wh / 2, wx + ww, wy + wh / 2, C['steel'], sw=6)
+    cv.ellipse(wx + ww * 0.28, wy + wh * 0.26, ww * 0.16, wh * 0.10, '#FFFFFF', opacity=0.9)
+    # clock
+    prop(cv, 'clock', x + w * 0.52, y + h * 0.17, s=w / 540)

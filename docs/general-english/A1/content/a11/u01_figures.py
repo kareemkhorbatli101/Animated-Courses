@@ -61,11 +61,15 @@ fig(2, 'W', 'data', 'Three times of day',
                       ('Evening', 'indigo', 'fatima', 'wave', 'Good evening!')]))
 
 # ---- Part 1 · Words & Sounds -------------------------------------------
-fig(3, '1', 'lexis', 'Four people on Hill Road',
-    lambda: P.people_row([('nadia', 'a cook', 'offer', 'tray'),
-                          ('fatima', 'a nurse', 'stand', None),
-                          ('sam', 'a driver', 'stand', 'timetable'),
-                          ('lili', 'a student', 'hold', 'book')]))
+# The labels are NAMES, not jobs. Figure 1.3 used to print the job under each
+# person, which made exercise 1A -- match the person and the job -- answerable
+# by copying the picture. The job now has to be read off the depiction: the
+# apron and tray, the tunic and badge, the uniform and timetable, the book.
+fig(3, '1', 'data', 'Four people on Hill Road',
+    lambda: P.people_row([('nadia', 'Nadia', 'offer', 'tray'),
+                          ('fatima', 'Fatima', 'stand', None),
+                          ('sam', 'Sam', 'stand', 'timetable'),
+                          ('lili', 'Lili', 'hold', 'book')]))
 
 fig(4, '1', 'data', 'The alphabet in seven sounds',
     lambda: P.alphabet(ALPHA))

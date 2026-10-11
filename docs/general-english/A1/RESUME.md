@@ -53,3 +53,62 @@ Unit 1: 38 exercises, 22 figures, 1,012 words. Gate 21/21. Visual 15/15.
 Figure 14's bubble says *"Hello, Nadia. This is Omar"* and the first build
 did not contain Omar. Every automated check passed. Found by looking at the
 picture. This is the argument for the adjudication passes.
+
+
+## 2026-10-11 (later) · Unit 2 built, and a third layer of checks
+
+`units/a11-u02.md` — **In the Class**. 38 exercises, 22 figures, 1,058 words,
+15 pages. Questions and short answers with *be*, the short negatives, *a/an*
+by sound, *this/that*, classroom things, eleven to twenty.
+
+Fatima teaches the evening class. She is the nurse from Unit 1, which is how
+a small cast earns its keep: the learner already knows her, so the only new
+thing on the page is the language.
+
+New in the engine: thirteen props (pencil, notebook, ruler, rubber, bottle,
+chair, desk, board, window, door, apple, orange, umbrella), a classroom, and
+four plates — `object_cards`, `sort_two`, `doors`, `notice`,
+`classroom_scene`.
+
+`tools/cross.py` is new: X1 lexical, X3 duplication, X5 the ladder, run for
+unit *u* against every earlier unit *p*. Unit 2 runs them once; unit 20 will
+run them nineteen times.
+
+Results: gate 21/21 on both units, visual 15/15 on both (616 figure passes),
+cross-unit 8/8.
+
+### Things that bit
+
+- **Seated figures float.** `draw_person` treats `ybase` as the ground, and a
+  seated figure's legs stop at the hip plus a lap. The seat height has to be
+  solved backwards: `hip = ybase - 0.48H`, and the hip goes just below the
+  desk top. Two versions had students hovering over the furniture.
+- **I joined the file again.** `cross.py`'s first seven-gram check ran over
+  the whole unit and reported three collisions, every one of them the tail of
+  one rubric welded to the head of the next. *"a listen look at figure write
+  the"* is not a phrase anybody wrote. This is the third time this exact
+  mistake has been made in this repository — SAT Book 3 invented a typo the
+  same way, and B1's gate produced nine false positives the same way.
+  **Measure the pieces, never the pieces joined.**
+- **Rubric repetition is not duplication.** Two units of one course are
+  supposed to share their instructions. The n-gram check now reads content
+  only — items, texts, word boxes — and rubric repetition has its own check
+  with its own threshold (X3b, at most six).
+- Once those two were fixed the check found something real: `Name: Lili Chen`
+  was the seeded example in **both** units' 6A. Unit 2's is now Omar Haddad.
+
+### What the checks did not catch, again
+
+Figure 2.6 printed the job under each person, and exercise 1E asked the
+learner to match the person to the job — answerable by copying the picture.
+Unit 1's Figure 1.3 had the same fault. Every automated check passed both.
+Found by reading the rendered page.
+
+Unit 1's figure now carries **names**, so the job has to be read off the
+depiction: the apron and tray, the tunic and badge, the uniform and
+timetable, the book. Unit 2's keeps its job labels, because its declared job
+is to supply those words — so exercise 1E changed instead, to match the job
+to the place, which needs the figure for the jobs and Unit 1 for the places.
+
+**Two units, two no-guess violations, both found by eye and neither by
+machine.** A check for this is the next thing the toolchain needs.
