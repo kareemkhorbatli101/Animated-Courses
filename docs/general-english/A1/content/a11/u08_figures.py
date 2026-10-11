@@ -85,7 +85,7 @@ fig(15, '5', 'document', 'A notice in the park',
         ('Open', '7.00 - 21.00'), ('Cafe', 'in the park'),
         ('Bus', 'number 12'),
         'The museum is opposite the park.']))
-fig(16, '5', 'document', 'Messages about a meeting',
+fig(16, '5', 'document', 'Messages about a place',
     lambda: P.phone('Sam', [('them', 'Where are you?'), ('me', 'At the cafe on Hill Road.'),
                             ('them', 'Is it near the school?'),
                             ('me', "Yes, it's next to it.")]))

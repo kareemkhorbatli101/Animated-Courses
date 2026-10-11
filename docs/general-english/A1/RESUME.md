@@ -276,3 +276,92 @@ New in the engine: 18 props, 7 plates (`family_tree`, `room_plan`, `clocks`,
 drift 220/220 byte-identical, 0 missing · gate 210/210 over ten units ·
 visual 150/150, 3,080 figure passes · cross-unit **360/360 over all 45
 pairs** · Student Book and Answer Key built in both formats.
+
+## 2026-10-11 (fifth pass) · Tiers 1 and 2 of the check recommendation
+
+Seven checks built before starting A1.2, on the argument that a fault found
+in ten units is cheaper than the same fault found in twenty.
+
+### tools/mutate.py + tools/mutations.py
+
+The thing the run plan promised at Unit 2 and I never built: *"The run does
+not start writing unit 2 until every check has been proven able to fail."*
+Thirty mutations, each a deliberate break that one named check must notice.
+**30 live, 0 inert, on every one of units 2 to 10.**
+
+It immediately found what it exists to find. **G20, "every figure is
+referenced by an exercise", could never fail.** It counted references in the
+caption lines too — and every figure has a caption — so the reference set was
+always a superset of the figure set. The check had been reporting green for
+ten units while testing nothing. Nothing but mutation testing would have
+found that.
+
+It also found that six of my first mutations were too weak or aimed at the
+wrong unit, which matters just as much: *an inert mutation looks exactly like
+an inert check*. The mutations now take the unit number and reach for the
+right neighbour, so the suite is not unit-5-specific.
+
+### tools/check_lexis.py — E4, never implemented until now
+
+At A1 an unknown word is a wall. The first run reported 713 words outside
+the Word File; nearly all was noise, and the real findings were buried. Three
+rounds of making the instrument honest — inflection stripping, a visible
+`spec/metalanguage.txt`, a `function.txt` for closed-class words, and
+measuring the learner's page rather than the teacher's key — brought it to
+**0 across ten units**, via about forty genuine omissions:
+
+- the wordlists **did not contain the grammar words the units teach**: *am*,
+  *are*, *and*, *at*, *there*, *was*. Unit 1's grammar point was not in Unit
+  1's vocabulary.
+- forty content words used in figures and items were never registered.
+- **Unit 1's exercise 8A reviewed six objects the unit never taught** — ball,
+  cup, phone, book. A review that reviews unteachable words is not a review.
+  It is four of Unit 1's own people now.
+
+### tools/check_coupling.py — the no-guess check
+
+Canvas already records every string it draws, so a figure's printed text is
+data and can be compared against the key. Two rules, LEAK and GAP, both
+reports rather than hard failures, because the judgement at the end is a
+reader's.
+
+It found **Unit 10's exercise 1B asking "1 — ?" against a map printing names
+and no numbers** — unanswerable, the same class as Unit 8's doctor, and the
+first fault of that family caught by a machine rather than an eye.
+
+Getting it there took two corrections worth recording. My SUPPLY and LOOKUP
+patterns both matched "write the word", so every supply task fell through to
+the lookup rule and 61 reported as unanswerable — *a classifier whose classes
+intersect is not a classifier*. And a figure whose declared job is `contrast`
+or `lexis` **is** the model: printing the forms is the point of it, the way a
+Grammar Spot box prints the pattern. Only a `data` figure can leak.
+
+### tools/check_keys.py — K1 to K7
+
+The keys are hand-written, which breaks this project's own guard, *one source
+for item and answer*. Until they are generated, these stand in: every
+exercise keyed, answer count matching item count, the key's example matching
+the unit's, matching letters that exist with a spare that is genuinely spare,
+MCQ answers in range, letter balance, and **caption parity** — the printed
+caption and the module's caption are two separate strings and nothing else
+compared them.
+
+71 checks, 0 failures, after fixing two keys whose format broke the parser.
+K6 needed a minimum sample: six letters cannot test a 45% ceiling, and a
+check that reports noise trains you to ignore it. Pooled over the volume,
+`a` takes 40% of 75.
+
+### tools/check_doc.py — family K, the artefact
+
+Everything else checks the source. This checks what a learner holds, and it
+found a fault that exists only there: **rubrics stranded at the foot of a
+page with their figure overleaf**. `build_volume.py` now sets `keepNext` on
+every exercise label and every paragraph next to an image, so a rubric, its
+picture and its caption travel as one block. 600 paragraphs in the Student
+Book, 380 in the Answer Key.
+
+### State
+
+drift 220/220 · gate 210/210 · visual 150/150 · cross 360/360 over 45 pairs ·
+lexis 0 outside the Word File · keys 71/71 · document 7/7 · coupling 3 read
+and judged sound, 0 gaps · **mutation 30 live, 0 inert**.

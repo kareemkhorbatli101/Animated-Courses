@@ -1,0 +1,23 @@
+# The house's own instruction vocabulary. These words appear in rubrics,
+# labels and headings. A learner meets them as furniture, not as content, and
+# a teacher glosses them once in week one. They are NOT counted against the
+# Word File -- but they are listed here so the list is finite and visible,
+# which is the whole point: an allow-list nobody can see is a hole.
+look write say listen match complete choose tick answer ask read find
+correct mistake example words word number letter letters sentence sentences
+conversation question questions box line lines part unit figure page
+grammar sounds review warm up file real world can do about again
+count tell name names opposite plural short long form forms first second
+third order put circle underline true false yes no
+# --- added after the first run of tools/check_lexis.py ---
+# Every word below appears ONLY in a rubric, a key or a label. None is
+# something a learner is asked to know. Anything that turned out to be
+# content went into a unit's wordlist instead, which is the whole discipline
+# here: an allow-list is only honest if adding to it is the harder choice.
+alphabet become hear introduce introduces list message messages needed
+negative note option person people speaking thing things time times voice
+voices sound own owner talk talking use maybe plan shows picture pictures
+add happens grid instruction writer text texts try need perhaps nothing
+something doing see make meets everyone someone correctly capital agrees
+attempt accept audio ending feelings
+know knows

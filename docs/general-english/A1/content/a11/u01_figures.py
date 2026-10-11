@@ -157,11 +157,14 @@ fig(20, '7', 'document', 'A badge with no name',
     lambda: P.badge('', 'Student', 'HILL ROAD SCHOOL', col='blue'))
 
 # ---- Part 8 · Review & Can-Do ------------------------------------------
-fig(21, '8', 'lexis', 'Six things in this unit',
-    lambda: P.picture_cards([(1, 'book', 'purple'), (2, 'phone', None),
-                             (3, 'badge', 'teal'), (4, 'cup', None),
-                             (5, 'timetable', None), (6, 'ball', None)],
-                            cols=6, h=300))
+# Was six objects -- ball, cup, phone -- none of which Unit 1 teaches. A
+# review exercise that reviews words the unit never taught is not a review.
+# It is four of this unit's own people instead.
+fig(21, '8', 'data', 'Four people to name',
+    lambda: P.people_row([('nadia', '1', 'offer', 'tray'),
+                          ('sam', '2', 'stand', 'timetable'),
+                          ('fatima', '3', 'stand', None),
+                          ('lili', '4', 'hold', 'book')], label_size=34))
 
 fig(22, '8', 'data', 'What I can do',
     lambda: P.can_do(['I can say hello and goodbye.',

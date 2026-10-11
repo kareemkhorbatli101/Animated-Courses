@@ -1,0 +1,25 @@
+# Closed-class words, and the grammar words the course teaches as grammar
+# rather than as topic vocabulary. They belong to no single unit: "am" is
+# Unit 1's grammar point, "was" is Unit 10's, "there" is Unit 4's, and all of
+# them recur on every page afterwards. Listing them here once is honest;
+# scattering them through ten topic lists was not.
+a an the
+I you he she it we they me him her us them
+my your his her its our their mine yours
+this that these those
+am is are be was were been
+do does did don doesn didn
+have has had got
+can could cant cannot will would
+not no yes and or but so because then
+in on at to from of for with without under over
+behind near next opposite between into
+there here where when who what which why how whose
+very too also more most some any much many all every each other another
+one two first second third last
+up down out off back again now today
+good bad big small new old long short
+please thank thanks sorry excuse hello hi goodbye bye ok
+of course here you are
+if
+by about

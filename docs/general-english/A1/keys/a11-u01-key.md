@@ -95,7 +95,8 @@ letter.
 
 **Part 8 · Review & Can-Do**
 
-**8A** 0 book (example) · 1 phone · 2 badge · 3 cup · 4 ball
+**8A** 0 cook (example) · 1 driver · 2 nurse · 3 student
+*(teacher is the spare)*
 
 **8B** 0 Hello (example) · 1 name · 2 you · 3 am
 

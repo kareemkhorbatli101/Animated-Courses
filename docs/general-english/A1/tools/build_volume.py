@@ -49,6 +49,48 @@ class. Ben works in the shop. Rosa is Marek's mother. Omar is his son.
 """
 
 
+def keep_together(docx):
+    """Stop a rubric being stranded a page away from its own figure.
+
+    "Look at Figure 1.5" at the foot of page 4 with the picture on page 5 is
+    a real fault and it only exists in the printed artefact -- the source is
+    fine. Word fixes it with keepNext, so the rubric, the image and the
+    caption travel as one block.
+    """
+    from docx import Document
+    from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+
+    import re as _re
+    LABEL = _re.compile(r'^(W\d|\d{1,2}[A-H])\s')
+    doc = Document(docx)
+    ps = doc.paragraphs
+    n = 0
+    for i, para in enumerate(ps):
+        # An exercise label is never the last thing on a page: its rubric
+        # must stay with its first item, figure or not. The first pass only
+        # handled paragraphs next to an image and left the figureless
+        # exercises -- "Say it.", "Write the numbers." -- still stranded.
+        if LABEL.match(para.text.strip()):
+            pPr = para._p.get_or_add_pPr()
+            from docx.oxml.ns import qn as _qn
+            if pPr.find(_qn('w:keepNext')) is None:
+                pPr.append(OxmlElement('w:keepNext'))
+                n += 1
+        has_img = bool(para._p.findall('.//' + qn('w:drawing')))
+        cap_next = (i + 1 < len(ps)
+                    and ps[i + 1].text.strip().startswith('Figure '))
+        img_next = (i + 1 < len(ps)
+                    and ps[i + 1]._p.findall('.//' + qn('w:drawing')))
+        if has_img or img_next or (has_img and cap_next):
+            pPr = para._p.get_or_add_pPr()
+            if pPr.find(qn('w:keepNext')) is None:
+                pPr.append(OxmlElement('w:keepNext'))
+                n += 1
+    doc.save(docx)
+    return n
+
+
 def build(kind, nums, src, out_base):
     parts = [front_matter(kind)]
     for n in nums:
@@ -78,6 +120,7 @@ def build(kind, nums, src, out_base):
     if os.path.exists(ref):
         cmd += ['--reference-doc', ref]
     subprocess.run(cmd, check=True)
+    print(f'  keepNext set on {keep_together(docx)} paragraphs')
     try:
         subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                         '--outdir', os.path.dirname(out_base), docx],

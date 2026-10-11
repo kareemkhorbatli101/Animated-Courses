@@ -16,8 +16,8 @@
 
 **1C** 0 some (example) · 1 any · 2 any · 3 some
 
-**1D** Spoken. 1 one pound fifty · 2 four pounds · 3 eighty · 4 three
-pounds fifty
+**1D** Spoken. 0 two pounds fifty (example) · 1 one pound fifty · 2 four
+pounds · 3 eighty · 4 three pounds fifty
 
 **1E** 0 coin (example) · 1 cup · 2 cake · 3 bread
 

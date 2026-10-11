@@ -139,7 +139,11 @@ def main(path):
     check('G18 figures numbered 1..n', nums == list(range(1, len(caps) + 1)), str(nums))
     longc = [c for a, b, c in caps if len(c.split()) > fig['caption_max_words']]
     check('G19 caption ceiling', not longc, str(longc))
-    refs = set(int(m) for m in re.findall(r'Figure \d+\.(\d+)', raw))
+    # NOT from the caption lines: a caption contains "Figure 5.3" itself, so
+    # counting those made every figure its own reference and the check could
+    # never go red. Mutation testing found this; nothing else would have.
+    body_only = re.sub(r'^\*Figure \d+\.\d+ · .+\.\*$', '', raw, flags=re.M)
+    refs = set(int(m) for m in re.findall(r'Figure \d+\.(\d+)', body_only))
     check('G20 every figure referenced by an exercise',
           set(nums) <= refs, str(sorted(set(nums) - refs)))
 

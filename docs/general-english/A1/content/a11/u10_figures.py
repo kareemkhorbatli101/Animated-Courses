@@ -18,11 +18,16 @@ fig(3, '1', 'lexis', 'Four feelings',
                           ('marek', 'tired', 'stand', 'toolbox'),
                           ('omar', 'hungry', 'stand', None),
                           ('rosa', 'fine', 'carry', 'basket')]))
-fig(4, '1', 'data', 'Where people were',
-    lambda: P.town_map([('PARK', 0.04, 0.08, 0.26, 0.26, 'green'),
-                        ('MUSEUM', 0.60, 0.06, 0.32, 0.28, 'purple'),
-                        ('CAFE', 0.06, 0.64, 0.24, 0.26, 'red'),
-                        ('HOME', 0.58, 0.64, 0.30, 0.26, 'amber')]))
+# Numbered, not named. Exercise 1B asks "1 -- ?" and the first version of
+# this map printed the place names instead of numbers, so the item had no
+# referent at all: unanswerable, the same fault as Unit 8's doctor, and
+# found the same way -- by a check that compares what a figure prints with
+# what its exercise expects.
+fig(4, '1', 'data', 'Four places by number',
+    lambda: P.town_map([('1', 0.04, 0.08, 0.26, 0.26, 'green'),
+                        ('2', 0.60, 0.06, 0.32, 0.28, 'purple'),
+                        ('3', 0.06, 0.64, 0.24, 0.26, 'red'),
+                        ('4', 0.58, 0.64, 0.30, 0.26, 'amber')]))
 fig(5, '1', 'contrast', 'Yesterday and last week',
     lambda: P.blocks([[('yesterday', 'red'), ('one day ago', None)],
                       [('last night', 'teal'), ('the night before', None)],

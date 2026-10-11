@@ -18,8 +18,8 @@
 
 **1C** 0 at (example) · 1 on · 2 at · 3 on
 
-**1D** Spoken. 1 half past nine · 2 twelve o'clock · 3 half past four ·
-4 quarter past six
+**1D** Spoken. 0 seven o'clock (example) · 1 half past nine · 2 twelve
+o'clock · 3 half past four · 4 quarter past six
 
 **1E** 0 work (example) · 1 school · 2 at the cafe · 3 at home
 
@@ -81,7 +81,7 @@
 
 **Part 7 · Real-World File**
 
-**7A** 0 5.30 (example) · 1 23.30 · 2 every 20 minutes · 3 7.00
+**7A** 0 5.30 (example) · 1 23.30 · 2 22.00 · 3 7.00
 
 **7B** 0 half past five (example) · 1 eleven o'clock · 2 half past five ·
 3 eleven o'clock
