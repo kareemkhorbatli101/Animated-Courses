@@ -541,13 +541,15 @@ second item, not in a footnote.
 
 ---
 
-## 12. The one question I still owe you
+## 12. The loose end, closed
 
-`docs/english-animated/` holds nineteen design documents and several per-unit
-builds on an architecture you rejected. The A2 plan asked whether to keep or
-delete it and the question was never answered. It is not in the way of this
-run — I will leave it exactly as it is — but it is the last loose end in
-`docs/`, and a one-word answer closes it whenever you like.
+`docs/english-animated/` held nineteen design documents and several per-unit
+builds on an architecture you rejected. **Deleted, 2026-10-11, on your
+instruction.** It was safe: no module imported from it, and the only things
+that referred to it were two sentences of prose in these plans. Its history
+remains in git — `git log --all -- docs/english-animated` finds it, and a
+checkout of any earlier commit restores it — so the decision is reversible if
+it ever needs to be. `docs/` now contains `general-english/` and nothing else.
 
 ---
 

@@ -695,3 +695,8 @@ the bold ones.
 One more thing I need a decision on, outside the A2 work: the twenty B2 units in
 `docs/english-animated/` were built on the architecture you rejected. **Keep them, or delete
 them?** They are not referenced by anything in this plan.
+
+**Answered, 2026-10-11: deleted.** Nothing imported from it and nothing but two
+prose mentions referred to it. The directory is gone from the working tree; its
+history is still in git, so `git log --all -- docs/english-animated` and a
+checkout of any earlier commit will bring it back if it is ever wanted.
