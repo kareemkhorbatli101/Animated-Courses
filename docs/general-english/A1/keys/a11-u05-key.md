@@ -45,7 +45,7 @@ o'clock · 3 half past four · 4 quarter past six
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 six (example) · 1 Friday · 2 Saturday · 3 10.00
+**3B** 0 18.00 (example) · 1 Friday · 2 19.30 · 3 10.00
 
 **3C** 0 1 (example) · 1 2 · 2 3 · 3 Nadia
 

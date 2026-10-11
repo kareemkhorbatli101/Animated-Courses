@@ -28,7 +28,7 @@ def main(pdf, n_units, n_figs):
     pg = pages(pdf)
     while pg and not pg[-1].strip():
         pg.pop()
-    check('D1 page count is in band', 80 <= len(pg) <= 400, f'{len(pg)} pages')
+    check('D1 page count is in band', 80 <= len(pg) <= 600, f'{len(pg)} pages')
 
     text = '\n'.join(pg)
     caps = re.findall(r'Figure (\d+)\.(\d+)\s*·', text)
@@ -71,5 +71,14 @@ def main(pdf, n_units, n_figs):
 
 
 if __name__ == '__main__':
-    sys.exit(main(os.path.join(HERE, 'build', 'EFDL-A1.1-StudentBook-u01-10.pdf'),
-                  10, 220))
+    # The first version hardcoded the ten-unit build and ignored its own
+    # argv, so pointing it at the twenty-unit PDF silently re-checked the
+    # old one and reported 157 pages for a 439-page book.
+    if len(sys.argv) > 1:
+        pdf = sys.argv[1]
+        units = int(sys.argv[2]) if len(sys.argv) > 2 else 20
+        figs = int(sys.argv[3]) if len(sys.argv) > 3 else units * 22
+    else:
+        pdf = os.path.join(HERE, 'build', 'EFDL-A1-StudentBook-u01-20.pdf')
+        units, figs = 20, 440
+    sys.exit(main(pdf, units, figs))

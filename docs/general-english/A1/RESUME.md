@@ -423,3 +423,116 @@ cross **840/840 over 105 pairs** · lexis 0 outside the Word File ·
 keys 106/106 · document 7/7 · mutation 30 live, 0 inert.
 
 Units 16 to 20 remain.
+
+---
+
+# Run 6 — units 16 to 20, and the back matter
+
+The book is finished. Twenty units, 760 exercises, 440 figures, and the
+eight reference files that go behind them.
+
+## The five units
+
+| Unit | Title | Grammar |
+|---|---|---|
+| 16 | Things I Like Doing | like, love, hate + ing |
+| 17 | Would You Like? | would like · polite requests |
+| 18 | The Best in Town | superlatives |
+| 19 | How Are You? | have got · should |
+| 20 | See You Soon | past, present and will, together |
+
+Two plates were new. **`body_map`** draws a person with parts labelled and
+joined by leader lines; **`rank_three`** ranks three things for the
+superlatives unit.
+
+### Three faults in the new plates, found by looking
+
+1. **`body_map` put the stomach marker on an arm.** Arms down the sides
+   leave no clear line to the middle of the body: every leader to the trunk
+   crosses a limb. The plate now takes a `pose`, and Unit 19 lifts the arms
+   out of the way. Each of the seven dots now lands on the part it names.
+2. **`rank_three` drew a thumbnail over a hole and dropped its number off
+   the card.** The prop was at `s=1.6` near the top and the value was
+   printed at `h-62` when the card ended at `h-70`. Both are inside the card
+   now, and the picture fills it.
+3. **A seated figure in `people_row` floated in mid-air.** The row plate has
+   no chair to sit on. The fix was not to the plate: Unit 19's figure uses
+   a standing pose. *A pose is only as good as the furniture around it.*
+
+### What the checks caught that the eye did not
+
+- **Part 8 had one figure in three of the five units.** F7 and G21 want two
+  to four per part. Fixed by moving a lexis plate from Part 1 or the Warm Up
+  into Part 8, where a review figure belongs anyway — and renumbering every
+  figure after it, in the module, the unit and the key.
+- **A caption ending in a question mark** (`Who lives the nearest?`) is not
+  a caption: the pattern is `· text.`, so figure 13 vanished from the count
+  and G18 reported the numbering as `… 12, 14 …`.
+- **Two listening tasks were answerable with the sound off.** Unit 18
+  Figure 12 printed each person's distance under their face while 3C asked
+  for that distance; Unit 20 Figure 10 printed each person's destination.
+  Both now print only who the four people are. `check_coupling` found both.
+- **Forty-five cross-unit failures at twenty units**, almost all X1b:
+  the later units were not recycling earlier vocabulary. Fixed where a
+  coursebook fixes it — in the speaking and writing prompts, which is also
+  what lifted Unit 16's item mean past X5a.
+- **`love` was not in any wordlist**, in a book whose sixteenth unit is
+  built on *love, like and hate*.
+
+### A fault in a shipped unit, found by writing the scripts
+
+Unit 5 exercise 3B asked *"Computers is in room ______"* against a timetable
+with no room column, and its key answered the two items after the example
+one slot out: *Saturday* for "starts at", *10.00* for "in room". Nothing in
+the suite could see it — K2 counts answers, it does not read them. Writing
+the eighty audio scripts to the word is what found it, because a script has
+to say the answer out loud. The item now asks when Computers starts, and the
+example quotes the figure's own 18.00 rather than the word *six*.
+
+*An answer key is checked by a tool that counts. It is proved by a human
+trying to say it.*
+
+## The back matter
+
+Eight files. Three are **generated** from the course so they cannot go
+stale — the Word File from the wordlists, the Can-Do Record from every
+unit's 8E, the Picture File from each figure module's own manifest and the
+strings its canvas actually draws. Five are **written**, because nothing in
+the repository held them: the Grammar File, the Phrase File, the
+irregular-verb list, the sound-symbol table, and the Audio File.
+
+- **Word File**: 687 words, each with the unit that teaches it and an Arabic
+  gloss. Every one glossed; none missing, none spare.
+- **Audio File**: all 80 listening scripts, to the word, with speaker
+  letters.
+- **Picture File**: all 440 figures with part, job, caption and alt text.
+- **Grammar File**: one entry per unit, and **B8 holds it to the eight terms
+  it declares** — a reference that says *auxiliary* has stopped being
+  readable by the person it is for.
+
+`tools/check_back.py` (B1–B8) re-derives the generated files and fails if
+what is on disk is not what the source now produces.
+
+### Two checks that could not fail
+
+- **B1 matched script labels anywhere in the file**, so Unit 3's `3A`
+  satisfied Unit 17's. It reported 76 missing scripts when 4 were missing.
+  It scopes by unit section now. *Third time in this repository that a
+  check measured the file instead of the pieces.*
+- **`check_doc` ignored its own `argv`** and re-checked the ten-unit PDF,
+  reporting 157 pages for a 439-page book.
+
+## State
+
+**20 units · 760 exercises · 440 figures · 687 words.**
+
+gate 420/420 · visual 300/300 (6,160 figure passes) ·
+cross **1,520/1,520 over 190 pairs** · lexis 0 outside the Word File ·
+keys 141/141 · coupling 0 new · drift 440/440 · back matter 8/8 ·
+document 7/7 on the 439-page volume · mutation 30 live, 0 inert on Unit 18,
+a unit the suite was not built on.
+
+`python3 tools/runall.py` runs all nine stages and writes `REPORT.md`.
+
+**Not built, and on the cut list for it:** the four Loops (Tier 4 — Part 8
+reviews in every unit regardless) and the Workbook (Tier 1).

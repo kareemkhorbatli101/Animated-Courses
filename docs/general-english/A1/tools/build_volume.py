@@ -12,7 +12,9 @@ TITLES = {1: 'Hello', 2: 'In the Class', 3: "Who's This?", 4: 'Where I Live',
           5: 'Every Day', 6: 'She Works Here', 7: 'Food and Drink',
           8: 'In the Town', 9: 'I Can Do That', 10: 'Last Weekend',
           11: 'A Day Out', 12: 'Last Year', 13: 'Right Now',
-          14: 'Next Week', 15: 'Bigger and Better'}
+          14: 'Next Week', 15: 'Bigger and Better',
+          16: 'Things I Like Doing', 17: 'Would You Like?',
+          18: 'The Best in Town', 19: 'How Are You?', 20: 'See You Soon'}
 GRAMMAR = {1: 'am, is, are · my, your, his, her',
            2: "questions and short answers · isn't, aren't · a/an · this, that",
            3: "possessive 's · plural nouns · our, their",
@@ -27,13 +29,56 @@ GRAMMAR = {1: 'am, is, are · my, your, his, her',
            12: 'past simple, irregular verbs · questions with did',
            13: 'present continuous · beside the present simple',
            14: 'going to',
-           15: 'comparatives · adjectives'}
+           15: 'comparatives · adjectives',
+           16: 'like, love, hate + ing',
+           17: 'would like · polite requests',
+           18: 'superlatives',
+           19: 'have got · should',
+           20: 'past, present and will, together'}
 
 
-def front_matter(kind):
+BACK = [('grammar-file.md', 'Grammar File'),
+        ('word-file.md', 'Word File'),
+        ('phrase-file.md', 'Phrase File'),
+        ('irregular-verbs.md', 'Irregular Verbs'),
+        ('sound-symbol-table.md', 'Sound and Symbol Table'),
+        ('audio-file.md', 'Audio File'),
+        ('picture-file.md', 'Picture File'),
+        ('can-do-record.md', 'Can-Do Record')]
+
+
+def back_matter(nums):
+    """The reference section, appended to the Student Book.
+
+    Only whole-course volumes carry it: a ten-unit build would otherwise
+    print a Word File listing words from units it does not contain.
+    """
+    if list(nums) != list(range(1, 21)):
+        return []
+    out = []
+    for name, _title in BACK:
+        raw = open(os.path.join(HERE, 'back', name), encoding='utf-8').read()
+        out.append('\n\n```{=openxml}\n'
+                   '<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n' + raw)
+    return out
+
+
+def front_matter(kind, nums=()):
     rows = '\n'.join(
-        f'| **{k}** | {TITLES[k]} | {GRAMMAR[k]} |' for k in sorted(TITLES))
-    n = len(TITLES)
+        f'| **{k}** | {TITLES[k]} | {GRAMMAR[k]} |'
+        for k in sorted(TITLES) if k in nums or not nums)
+    n = len([k for k in TITLES if k in nums]) or len(TITLES)
+    back_note = ''
+    if kind == 'Student Book' and list(nums) == list(range(1, 21)):
+        back_note = (
+            '**At the back of this book**\n\n'
+            'Grammar File, one entry per unit · Word File, every word with '
+            'the unit that\n'
+            'teaches it and an Arabic gloss · Phrase File · irregular verbs '
+            '· sound and\n'
+            'symbol table · Audio File, all eighty listening scripts to the '
+            'word ·\n'
+            'Picture File, all 440 figures with alt text · Can-Do Record.\n')
     return f"""# English for Daily Life
 
 ## A1 — {kind}
@@ -54,6 +99,7 @@ Nadia cooks at the cafe. Sam drives bus 12. Lili is a student. Marek looks
 after the flats. Fatima is a nurse at the clinic and teaches the evening
 class. Ben works in the shop. Rosa is Marek's mother. Omar is his son.
 
+{back_note}
 """
 
 
@@ -100,7 +146,7 @@ def keep_together(docx):
 
 
 def build(kind, nums, src, out_base):
-    parts = [front_matter(kind)]
+    parts = [front_matter(kind, nums)]
     for n in nums:
         raw = open(src.format(n)).read()
         figdir = os.path.join(HERE, 'figures', 'a11')
@@ -119,6 +165,8 @@ def build(kind, nums, src, out_base):
         # break has to be raw OpenXML.
         parts.append('\n\n```{=openxml}\n'
                      '<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n' + raw)
+    if kind == 'Student Book':
+        parts += back_matter(nums)
     md = '\n'.join(parts)
     tmp = out_base + '.src.md'
     open(tmp, 'w').write(md)

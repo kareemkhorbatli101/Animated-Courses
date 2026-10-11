@@ -1013,3 +1013,64 @@ def compare_two(a, b, rows, h=None):
                     bg=cv.bg)
         cv.line(50, ly + 14, W_ - 50, ly + 14, C['rule'], sw=1.5)
     return cv
+
+
+def body_map(pid, parts, h=640, pose='stand'):
+    """A person with parts of the body labelled, joined by leader lines.
+
+    parts = [(label, side, frac, xoff)] where side is 'l' or 'r', frac is the
+    height down the figure (0 at the crown, 1 at the feet) and xoff is how far
+    out from the centre line the dot sits, as a fraction of the figure height.
+    A single rule for the dot's x -- narrow above the shoulder, wide below --
+    put the hand marker on the shoulder, so the caller places it now.
+
+    Arms down the sides leave no clear line to the middle of the body: every
+    leader to the stomach crosses an arm. `pose` is here so the caller can
+    lift the arms out of the way and label the trunk properly.
+    """
+    cv = _cv(h, C['cream'])
+    base = h - 50
+    H = h - 110
+    a = draw_person(cv, who(pid), W_ / 2, base, H, pose=pose, expr='neutral')
+    top = base - H
+    for label, side, frac, xoff in parts:
+        py = top + H * frac
+        sgn = -1 if side == 'l' else 1
+        px = W_ / 2 + sgn * H * xoff
+        lx = W_ / 2 + sgn * W_ * 0.27
+        cv.line(px, py, lx - sgn * 14, py, C['steel'], sw=3)
+        cv.circle(px, py, 7, deep(C['red']))
+        bw = tw(label, 28, 'SemiBold') + 40
+        bx = lx - (bw if sgn < 0 else 0)
+        cv.rect(bx, py - 25, bw, 50, C['paper'], r=10, stroke=C['silver'], sw=2.5)
+        cv.text(label, bx + bw / 2, py + 9, 28, weight='SemiBold', anchor='middle',
+                bg=C['paper'])
+    return cv
+
+
+def rank_three(title, items, h=None):
+    """Three things ranked, for superlatives. items = [(name, prop, col, value)]"""
+    h = h or 440
+    cv = _cv(h, C['paper'])
+    cv.text(title, 80, 52, 30, weight='Bold', bg=cv.bg)
+    n = len(items)
+    cw = (W_ - 160) / n
+    for i, (name, pname, col, value) in enumerate(items):
+        x = 80 + cw * i
+        rank = ['1', '2', '3'][i] if i < 3 else str(i + 1)
+        ch = h - 140
+        cv.rect(x + 12, 80, cw - 24, ch, C['cream'], r=16, stroke=C['silver'],
+                sw=2)
+        # The picture is the card. An earlier version drew it at s=1.6 high up
+        # and dropped the value below the card's own bottom edge: a thumbnail
+        # floating over a hole, with the number half off the card.
+        W.prop(cv, pname, x + cw / 2, 80 + ch * 0.40, s=min(2.6, (cw - 70) / 60),
+               col=C[col] if col else None)
+        cv.circle(x + 46, 114, 24, deep(C['navy']))
+        cv.text(rank, x + 46, 123, 26, fill='#FFFFFF', weight='Bold', anchor='middle',
+                bg=deep(C['navy']))
+        cv.fit(name, x + 30, 80 + ch - 74, cw - 60, 27, weight='SemiBold', anchor='start',
+               bg=C['cream'])
+        cv.fit(str(value), x + 30, 80 + ch - 30, cw - 60, 32, weight='Bold', anchor='start',
+               bg=C['cream'])
+    return cv

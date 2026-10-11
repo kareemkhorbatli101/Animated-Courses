@@ -28,7 +28,9 @@ chen haddad saleh okafor nowak wright silva kowalski ana jan
 china egypt brazil poland spain japan nigeria turkey england
 monday tuesday wednesday thursday friday saturday sunday
 english computers football music cooking swimming spanish hannah
-hr lagos madrid beijing nigeria january june july august may""".split())
+hr lagos madrid beijing greenfield
+january february march april may june july august
+september october november december""".split())
 
 # contraction wreckage: the apostrophe splits the token
 CONTRACTION = set("""isn aren wasn weren don doesn didn can cann won shouldn
@@ -53,6 +55,15 @@ def stem(w):
         yield w[:-2]
     if w.endswith('est') and len(w) > 5:
         yield w[:-3]
+    # big -> bigger/biggest, swim -> swimming, hot -> hottest. The doubled
+    # consonant is the spelling rule Units 15, 16 and 18 teach outright, so
+    # a stemmer that cannot undo it reports the course's own output as
+    # unknown vocabulary.
+    for suf in ('est', 'er', 'ing', 'ed'):
+        if w.endswith(suf) and len(w) > len(suf) + 2:
+            base = w[:-len(suf)]
+            if len(base) > 2 and base[-1] == base[-2] and base[-1] not in 'aeiou':
+                yield base[:-1]
 
 
 def known(w, vocab):

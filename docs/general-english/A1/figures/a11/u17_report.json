@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "At the counter",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things to buy",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "1",
+  "job": "contrast",
+  "caption": "A polite way to ask",
+  "w": 1280,
+  "h": 468,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "document",
+  "caption": "A receipt",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "lexis",
+  "caption": "Money words",
+  "w": 1280,
+  "h": 468,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "document",
+  "caption": "Sizes in the shop",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Would like and like",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Asking and answering",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "2",
+  "job": "contrast",
+  "caption": "The short form",
+  "w": 1280,
+  "h": 298,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "3",
+  "job": "data",
+  "caption": "Four customers",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "3",
+  "job": "document",
+  "caption": "What they paid",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four ways to pay",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "4",
+  "job": "data",
+  "caption": "Buying a coat",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "4",
+  "job": "contrast",
+  "caption": "In the shop",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "5",
+  "job": "document",
+  "caption": "A shop notice",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages about a coat",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "6",
+  "job": "document",
+  "caption": "A form for an order",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines for a shop",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "7",
+  "job": "document",
+  "caption": "A long receipt",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "7",
+  "job": "data",
+  "caption": "Three prices in the shop",
+  "w": 1280,
+  "h": 440,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

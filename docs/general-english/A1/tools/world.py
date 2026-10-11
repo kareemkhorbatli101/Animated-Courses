@@ -511,6 +511,33 @@ def prop(cv: Canvas, name, x, y, s=1.0, col=None):
                 r=u * 0.025)
         cv.circle(x, y - u * 0.04, u * 0.09, 'none', stroke=C['amber'], sw=u * 0.022)
         cv.rect(x - u * 0.09, y + u * 0.10, u * 0.18, u * 0.030, C['amber'])
+    elif k == 'camera':
+        cv.rect(x - u * 0.26, y - u * 0.16, u * 0.52, u * 0.34, shade(C['ink'], 1.5),
+                r=u * 0.04)
+        cv.rect(x - u * 0.10, y - u * 0.24, u * 0.20, u * 0.09, shade(C['ink'], 1.3),
+                r=u * 0.02)
+        cv.circle(x, y + u * 0.01, u * 0.13, C['glass'], stroke=C['ink'], sw=u * 0.025)
+        cv.circle(x + u * 0.18, y - u * 0.10, u * 0.03, C['amber'])
+    elif k == 'pill':
+        cv.rect(x - u * 0.24, y - u * 0.10, u * 0.48, u * 0.20, C['paper'], r=u * 0.10,
+                stroke=C['silver'], sw=u * 0.022)
+        cv.path(f'M{x:.2f},{y-u*0.10:.2f} v{u*0.20:.2f}', stroke=C['silver'],
+                sw=u * 0.022)
+        cv.rect(x - u * 0.24, y - u * 0.10, u * 0.24, u * 0.20, shade(C['red'], 1.30),
+                r=u * 0.10)
+    elif k == 'mountain':
+        cv.poly([(x - u * 0.32, y + u * 0.22), (x - u * 0.06, y - u * 0.26),
+                 (x + u * 0.14, y + u * 0.22)], C['slate'])
+        cv.poly([(x - u * 0.12, y + u * 0.22), (x + u * 0.12, y - u * 0.16),
+                 (x + u * 0.32, y + u * 0.22)], shade(C['slate'], 1.18))
+        cv.poly([(x - u * 0.06, y - u * 0.26), (x - u * 0.15, y - u * 0.10),
+                 (x + u * 0.03, y - u * 0.10)], C['paper'])
+    elif k == 'envelope':
+        cv.rect(x - u * 0.28, y - u * 0.18, u * 0.56, u * 0.36, C['paper'], r=u * 0.02,
+                stroke=C['silver'], sw=u * 0.022)
+        cv.path(f'M{x-u*0.28:.2f},{y-u*0.18:.2f} L{x:.2f},{y+u*0.04:.2f} '
+                f'L{x+u*0.28:.2f},{y-u*0.18:.2f}', stroke=C['steel'], sw=u * 0.025)
+        cv.rect(x + u * 0.12, y - u * 0.15, u * 0.12, u * 0.09, shade(C['red'], 1.25))
     else:
         raise KeyError(f'no prop {name!r}')
 

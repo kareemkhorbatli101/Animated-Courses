@@ -10,6 +10,10 @@ that the learner can now talk about time other than now.
 | 13 | Right Now | present continuous · and the present simple beside it | say what is happening |
 | 14 | Next Week | going to | say what you will do |
 | 15 | Bigger and Better | comparatives · adjectives | compare and choose |
-| 16–20 | *not yet written* | | |
+| 16 | Things I Like Doing | like, love, hate + ing | say what you enjoy |
+| 17 | Would You Like? | would like · polite requests | shop and pay |
+| 18 | The Best in Town | superlatives | say which is best |
+| 19 | How Are You? | have got · the body · advice | say how you feel |
+| 20 | See You Soon | everything, together | write and say goodbye |
 
-Units 11 to 15 are built. Units 16 to 20 are not.
+All twenty units are built.
