@@ -1,0 +1,121 @@
+code,family,family name,what it holds
+A1,A,completeness,seventeen units
+A2,A,completeness,four Loops
+A3,A,completeness,592 Student Book exercises
+A4,A,completeness,340 Workbook exercises
+A5,A,completeness,932 visuals
+A6,A,completeness,932 alt texts
+A7,A,completeness,17 videos
+A8,A,completeness,16 reading texts and 17 Workbook texts
+A9,A,completeness,32 listenings in two versions
+A10,A,completeness,16 writing tasks and 16 models
+B1,B,the grid,32 exercises a unit
+B2,B,the grid,slots in skeleton order everywhere
+B3,B,the grid,minutes 270 ± 10 a unit
+B4,B,the grid,"the page economy, 8 pages a unit"
+B5,B,the grid,"Loops after 4, 8, 12, 16"
+B6,B,the grid,the path tags present on every exercise
+B7,B,the grid,the `S` set alone reaches every descriptor
+B8,B,the grid,the blocks hold four units each
+B9,B,the grid,Unit 0 outside the blocks
+B10,B,the grid,176 pages
+C1,C,the ladder,"reading 40 → 140 words, monotone"
+C2,C,the ladder,model 60 → 110
+C3,C,the ladder,writing 10 → 60
+C4,C,the ladder,audio 30 → 70 seconds
+C5,C,the ladder,audio speed rising
+C6,C,the ladder,mean sentence length rising
+C7,C,the ladder,new items 30 → 48 → 48
+C8,C,the ladder,output turns rising
+C9,C,the ladder,no unit easier than its predecessor on any measure in this family
+C10,C,the ladder,the Loops at the level of the block they close
+D1,D,grammar,all 44 points taught
+D2,D,grammar,each taught once
+D3,D,grammar,none from the exclusion list
+D4,D,grammar,every Notice box ≤ 4 lines
+D5,D,grammar,no metalanguage beyond the eight terms
+D6,D,grammar,every Notice box cross-referenced to its Grammar File page
+D7,D,grammar,every Grammar File page reached from a Notice box
+D8,D,grammar,every point drilled at least four times in its unit
+D9,D,grammar,every point used productively in a later unit
+D10,D,grammar,"Unit 16's four-band paradigm contains exactly points 14, 21, 33, 35"
+E1,E,lexis,48 new items a unit
+E2,E,lexis,cap 55
+E3,E,lexis,798 in the level
+E4,E,lexis,every item banded A1 or justified
+E5,E,lexis,no item taught twice
+E6,E,lexis,ten encounters for every item
+E7,E,lexis,three of them inside the teaching unit
+E8,E,lexis,four of them after it
+E9,E,lexis,one of them two blocks later
+E10,E,lexis,every text ≥ 98 per cent covered
+F1,F,functions,34 functions
+F2,F,functions,two a unit
+F3,F,functions,phrase boxes of 6–8
+F4,F,functions,every box heard before it is read
+F5,F,functions,every function in a role-play
+F6,F,functions,every role-play with a printed goal
+F7,F,functions,every goal forcing the phrases
+F8,F,functions,no phrase in more than two boxes
+F9,F,functions,every box recycled in a later unit
+F10,F,functions,the eight trouble phrases of Unit 16 drawn from four earlier functions
+G1,G,phonology,16 points
+G2,G,phonology,one a unit
+G3,G,phonology,each revisited exactly twice
+G4,G,phonology,in the units §5.5 names
+G5,G,phonology,every Say it slot has audio
+G6,G,phonology,every Say it slot has an F-class visual
+G7,G,phonology,the three Arabic-edition contrasts present as optional boxes
+G8,G,phonology,no point introduced without a minimal pair or a sorted set
+G9,G,phonology,every point tested in its block's Loop
+G10,G,phonology,the Unit 16 review covers all sixteen
+H1,H,keys,every exercise keyed
+H2,H,keys,variants present where English allows two
+H3,H,keys,letter balance 25 ± 3 per cent
+H4,H,keys,no option letter over 40 per cent in an exercise
+H5,H,keys,no key sequence repeated in the book
+H6,H,keys,no run of three identical letters
+H7,H,keys,every T10 key carries the error and the correction
+H8,H,keys,every T19 has success criteria instead of a key
+H9,H,keys,every T22 has a band and page references
+H10,H,keys,the Workbook's with-key edition carries a *why* line on its eight hardest items a unit
+I1,I,the visual system,every exercise has a visual
+I2,I,the visual system,every visual declares type and class
+I3,I,the visual system,class shares within ±5 points of §8.1
+I4,I,the visual system,all 28 types used
+I5,I,the visual system,no type over 12 per cent of exercises
+I6,I,the visual system,at most 8 photographs a unit
+I7,I,the visual system,every visual referred to by its rubric or carrying task data
+I8,I,the visual system,"adjacency: within a column-width, same page"
+I9,I,the visual system,contrast 4.5:1 and 3:1
+I10,I,the visual system,colour never the only channel
+J1,J,the Arabic edition,every Grammar File page has its Arabic counterpart
+J2,J,the Arabic edition,every lexical set glossed
+J3,J,the Arabic edition,every *likely trouble* note translated
+J4,J,the Arabic edition,≥ 92 per cent Arabic script in Arabic blocks
+J5,J,the Arabic edition,no Latin beyond the allow-list
+J6,J,the Arabic edition,the three extra sound contrasts present
+J7,J,the Arabic edition,the Arabic build paginates to the same unit boundaries
+J8,J,the Arabic edition,no Arabic in the international build
+J9,J,the Arabic edition,both builds from one source
+J10,J,the Arabic edition,the Arabic alt texts complete
+K1,K,the document,built
+K2,K,the document,page count in band
+K3,K,the document,every unit opens recto
+K4,K,the document,no exercise split across a page
+K5,K,the document,no visual split from its rubric
+K6,K,the document,all cross-references resolve
+K7,K,the document,the Word File complete and alphabetical
+K8,K,the document,the Picture File complete
+K9,K,the document,the Audio File complete and matching the recordings
+K10,K,the document,the contents page matches the units
+L1,L,originality and record,the n-gram sweep clean
+L2,L,originality and record,the fixed-phrase allow-list reviewed
+L3,L,originality and record,no character-name collision
+L4,L,originality and record,no place-name collision
+L5,L,originality and record,no unit-title collision
+L6,L,originality and record,no section-name collision
+L7,L,originality and record,every artwork credited
+L8,L,originality and record,every photograph licensed
+L9,L,originality and record,every unit's provenance block complete
+L10,L,originality and record,the structure diff reviewed and signed

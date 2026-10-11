@@ -1,0 +1,538 @@
+unit,exercise,slot type path,what the student does,visual
+0,0.1,Open · T01 · C/S,"hear ten international words and point: *taxi, hotel, pizza, bank, computer, airport, football, music, coffee, hospital*","**V04 P** · ten line illustrations in a 2×5 grid, no labels — the student already knows these and the picture proves it"
+0,0.2,Open · T02 · C,"say the ten, then name the three their own language also uses","**V28 P** · the same ten as pictograms in a strip, for choral pointing"
+0,0.3,Model · T01 · C/S,"hear the alphabet once, follow the printed letters with a finger","**V05 F** · the 26 letters as a labelled band, upper and lower case paired, our typeface"
+0,0.4,Model · T02 · C,"say the alphabet in the seven vowel-sound groups, not A to Z","**V16 F** · seven labelled columns (*A H J K · B C D E G P T V · F L M N S X Z · I Y · O · Q U W · R*), each headed by its vowel sound"
+0,0.5,Say it · T14 · C/S,sort the 26 letters into the seven columns,"**V16 F** · the same matrix, empty, with 26 letter chips to place"
+0,0.6,Say it · T05 · S,"hear a letter, choose between two confusables: *b/p, g/j, i/e, m/n, v/w, a/r, u/w, k/q*","**V16 F** · eight pairs of large letterforms, the confusable pair side by side"
+0,0.7,Drill · T04 · S,hear eight names spelled aloud and write them,**V14 T** · a class list facsimile with eight empty name fields and line rules
+0,0.8,Drill · T19 · C,"spell your own name to a partner, who writes it; check; swap","**V19 T** · a two-part card, *my name* and *my partner's name*, printed to be folded"
+0,0.9,Words · T16 · C/S,label twelve classroom objects,"**V05 P** · our classroom drawn from the student's seat, twelve callout lines, the cast at the desks"
+0,0.10,Words · T06 · S,match twelve instruction verbs to twelve small pictures,"**V04 P** · a 3×4 grid of action pictograms (*listen, look, write, say, open, close, point, read, sit, stand, ask, answer*)"
+0,0.11,Words · T01 · C,"total physical response: the teacher says, the class does, eight rounds, faster each time",**V28 P** · the same twelve pictograms as a wall strip the teacher points at
+0,0.12,Model · T04 · C/S,hear three two-line exchanges and complete six gaps,"**V06 O** · three comic panels, speech bubbles gapped, the cast at the school door"
+0,0.13,Notice · T13 · C/S,complete the three frames: *My name ___ Omar · ___ your name? · This ___ Sara*,"**V25 F** · a paradigm card, the three frames with colour-coded empty slots"
+0,0.14,Drill · T07 · S,"complete six mini-dialogues with *hello, hi, goodbye, bye, thank you, sorry*","**V06 O** · six two-panel strips, one bubble filled, one empty"
+0,0.15,Real Life · T06 · C/S,match six phrases to six situations,"**V22 O** · a six-step flow strip of a first meeting, each step a small scene"
+0,0.16,Real Life · T02 · C,"say the six phrases with the recorded intonation; *Again, please* and *Slowly, please* three times each","**V18 F** · the six phrases with intonation arrows, the two survival phrases boxed"
+0,0.17,Real Life · T19 · C,"stand up, greet five classmates, exchange names, say goodbye",**V20 T** · a five-row grid: *name · how to spell it · tick when done*
+0,0.18,Words · T03 · C/S,hear 0–10 in random order and number them,"**V04 T** · eleven number cards, numeral and word, in a scrambled grid"
+0,0.19,Drill · T04 · S,hear six phone numbers and write them,**V15 T** · a phone screen mock with six empty call entries
+0,0.20,Use it · T18 · C,"information gap: A has five names with numbers, B has the same names with gaps","**V19 T** · the A and B halves of a contact list, printed on facing pages"
+0,0.21,Write it · T21 · S,"print your first name, family name and email in the boxes","**V23 O** · a name-card facsimile with three callouts: capitals, the dot, the *at* sign"
+0,0.22,Write it · T06 · S,match four written forms to what they are,"**V23 O** · four small facsimiles: a name card, an email address, a phone number, a class list"
+0,0.23,On Screen · T05 · C/S,video 0 (60 s): three people meet at the school reception; who says each phrase?,"**V24 R** · three stills from our own render, one per character, with a speech-bubble callout"
+0,0.24,Can I? · T22 · S,"ten items: five letters to write from audio, two numbers, two phrase choices, one name card",**V21 O** · a ten-segment score bar with the page to revisit printed under each segment
+1,1.1,Open · T06 · C/S · 4 min.,Match six Unit 0 instructions to six pictures. The warm-up reviews; it never teaches.,"**V28 P** — the six instruction pictograms in a strip, deliberately the same drawings as 0"
+1,1.2,Open · T01 · C · 5 min.,Hear eight country names and point to them on the map. Two of the eight are not on the map and must not be pointed at.,"**V07 T** — a world map carrying our twelve countries as shapes with flags, no names printed, so the task is listening and not reading"
+1,1.3,Model · T05 · C/S · 5 min.,Look at the reception desk. Who are the three people? Choose from three options. The task before a listening is always about the picture.,"**V01 P/R** — a photo-real illustration of the school reception, Lina with a bag, Mei at the desk, Mr Haddad behind it; the three are distinguishable by what they are doing, which is what the three options test"
+1,1.4,Model · T04 · C/S · 10 min.,"Hear the 60-word dialogue twice; complete six gaps. *Eight lines: Mr Haddad, Lina (Jordan), Mei (Korea). Contains* I'm ×3, you're ×1, What's your name? ×2, Where are you from? ×2, This is … ×1. *No word outside the 48 plus three names.","**V06 O** — the dialogue as four comic panels with the six gapped bubbles, so the discourse has a shape before it has words"
+1,1.5,Model · T02 · C · 10 min.,"Say the dialogue in threes, then swap in your own name and country. The first move from model to self is on page one, in minute thirty.",**V22 O** — a four-box flow strip: *greet · ask the name · say where you are from · introduce the third person*
+1,1.6,Notice · T13 · C/S · 6 min.,"Complete the paradigm from the dialogue: *I ___ Omar · I'm ___ Jordan · You ___ Mei · ___ your name? · ___ is Mei · Where ___ you from?* Four lines, six gaps, no prose, ending **→ Grammar File 1A, p.118**.","**V25 F** — a paradigm card: subject pronouns down the left in one colour, the verb slots empty in another, the contraction shown once as a worked example"
+1,1.7,Drill · T09 · S · 5 min.,Circle the form: *I (am / are) a student* ×8.,"**V26 F** — two arrows from one subject to two forms, the wrong one greyed in the example item only"
+1,1.8,Drill · T07 · S · 6 min.,"Complete eight sentences with *am, are, 'm, 're, 's*.","**V04 T** — the five forms as chips in a box above the exercise, which is the cue the type requires"
+1,1.9,Drill · T11 · S · 6 min.,Word order: six scrambled questions. *name / your / what / is / ?* → *What's your name?* Variants keyed (*What is your name?*).,"**V26 F** — the example item drawn as five word-tiles with arrows showing the order, so the task's mechanics need no explanation"
+1,1.10,Drill · T12 · S · 7 min.,"Transform six affirmatives into questions, then into negatives.","**V26 F** — a two-column transformation card, the moving element highlighted in the worked row"
+1,1.11,Drill · T10 · S · 6 min.,"Correct one planted error per line, six lines, from our own error list: *\*I am from the Egypt · \*You are name Mei? · \*My name Omar · \*I from Jordan · \*Where you are from? · \*She is my name.","**V27 F** — an error card: the wrong line struck through in red *and* marked with a cross (colour is never alone), the corrected line beneath"
+1,1.12,Say it · T05 · C/S · 4 min.,"Hear eight words, choose /aɪ/ or /ɪ/: *I, in, my, this, hi, it, nine, is*.","**V16 F** — two columns headed by a mouth diagram for each vowel and by the symbol, eight word chips to place"
+1,1.13,Say it · T02 · C · 5 min.,"Say four sentences with three /aɪ/ each: *Hi, I'm Mike. I'm fine.* Then at speed.","**V17 F** — stress bubbles over each sentence, the /aɪ/ syllables marked with a small diamond under the bubble"
+1,1.14,Words · T16 · C/S · 8 min.,Label the twelve countries.,**V07 T** — the same map as 1
+1,1.15,Words · T14 · C/S · 7 min.,"Sort the twelve names into three stress patterns (●○, ○●, ●○○). The audio decides; the student does not guess.","**V17 F** — three columns headed by bubble patterns, twelve country chips"
+1,1.16,Words · T06 · S · 5 min.,Match eight greeting and parting phrases to eight times and situations.,"**V04 P** — eight small scenes in a grid: morning at the bakery, evening at the station, and so on, all from our seven places"
+1,1.17,Words · T20 · C · 8 min.,"Survey: ask five classmates their name and country; report two to the class. (*She's from Morocco* previews *she*, which Unit 2 teaches; a receptive preview is allowed in Words, never in Notice.)",**V20 T** — a five-row grid: *name · how to spell it · country*
+1,1.18,Hear it · T03 · C/S · 7 min.,The clean listening: five introductions at a conference; number the five badges in the order heard. 45 s.,"**V02 R** — five conference badges as a photo set, each with a name and a country, scrambled"
+1,1.19,Hear it · T04 · C/S · 8 min.,"The same five at natural speed, with hesitation and one overlap; write only the country. 55 s.","**V15 T** — a notes-app mock with five empty country fields, which is where a listener would actually write"
+1,1.20,Use it · T18 · C · 12 min.,"Information gap: A holds four complete name cards, B the same four with countries missing; ask, answer, check; swap with four new cards.","**V19 T** — the A and B card sets on facing pages, cut lines printed"
+1,1.21,Use it · T19 · C · 10 min.,Introduce yourself to three people and introduce one of them to a third. Success criteria printed: *you said your name · you asked theirs · you said where you are from · you introduced one person to another.,**V22 O** — the four-move flow strip from 1
+1,1.22,Real Life · T04 · C/S · 7 min.,"Hear three reception-desk exchanges and complete the phrase box of eight: *Hello. I'm … · Nice to meet you. · Nice to meet you too. · This is … · How do you spell that? · It's A-H-M-E-D. · Sorry? Again, please. · See you tomorrow.","**V22 O** — the phrase box drawn as a transaction strip, each phrase in the position of the move it performs"
+1,1.23,Real Life · T06 · S · 5 min.,Match the eight phrases to eight moments in a first meeting.,"**V06 O** — an eight-panel strip of one meeting, bubbles empty"
+1,1.24,Real Life · T07 · C/S · 8 min.,Complete a six-line exchange with the phrases; listen and check.,**V14 T** — a visitor-book facsimile: the exchange takes place over it and the student writes the name into it
+1,1.25,Real Life · T19 · C · 12 min.,"Role-play: the first day at the Language School. Three role cards; the receptionist must write both names correctly, which forces the spelling language.",**V19 T** — three role cards and one blank visitor book
+1,1.26,Read it · T16 · S · 4 min.,"Before reading: label three things on a name card — *first name, family name, country*.","**V23 O** — one name card, enlarged, with three callout lines"
+1,1.27,Read it · T17 · S · 8 min.,"Read three name cards with one line each (40 words) and answer five items: two true/false, two choose, one find-the-word.","**V23 O** — the three cards as facsimiles, typeset as cards and not as paragraphs, because the text type is part of the reading"
+1,1.28,Read it · T21 · S · 5 min.,One line: *Which card is like yours? Why?,"**V01 R** — a single photo of the three cards on a desk beside a pen, which is the invitation to write"
+1,1.29,On Screen · T05 + T17 · C/S · 8 min.,"Video 1. Predict from the still (who are they, where are they), watch for gist (three items), watch again for the language (complete four lines).",**V24 R** — the opening still with two callout questions
+1,1.30,On Screen · T19 · C · 6 min.,"Perform the video's last six lines in threes, then change the names and countries.",**V22 O** — the six lines as a flow strip with the speakers' faces from the render
+1,1.31,Write it · T17 · S · 6 min.,"Read the model — a 25-word name card and profile line — and notice three features: capitals on names and countries, the apostrophe in *I'm*, the full stop.","**V23 O** — the model with exactly three callouts, numbered, which is Mayer's signalling applied to a writing model"
+1,1.32,Write it · T07 · S · 6 min.,"Complete a profile frame with your own details, six gaps.","**V23 O** — the same card, blank, at the same size"
+1,1.33,Write it · T21 · S · 15 min.,"Write your own name card and profile, 40 words, to the five-item checklist: *capitals · I'm or I am · my country · my job or student · a full stop.","**V23 O** — a card-shaped writing area with the checklist printed beside it, not beneath it, so that checking happens during writing"
+1,1.34,Can I? · T22 · S · 15 min.,"Ten items: three on *am/are*, two on *my/your*, two country-and-stress, two phrase choices, one spell-aloud from audio. Band at 8/10, the page to revisit printed beside each answer; then the four descriptors, each ticked *yes / almost / not yet*.","**V21 O** — a ten-segment bar the student fills, with the four descriptors as four short rows beneath"
+2,2.1,Open · T06 · C/S,review: match 6 countries to 6 flags,"V28 P · the twelve-country flag strip from 1.14, six marked"
+2,2.2,Open · T01/T03 · C,"hear 8 jobs, point to the person in the office","V01 P · the office at Mill Street, eight people visibly working"
+2,2.3,Model · T05 · C/S,who works here? choose from 3 captions,"V01 R · the same scene, three caption cards beside it"
+2,2.4,Model · T04 · C/S,the 70-word model about two absent colleagues; 6 gaps on *is/his/her*,"V06 O · four panels, Tarek and Dana talking over a desk"
+2,2.5,Model · T02 · C,"say it, then swap in two people the class knows",V22 O · *ask who · say the name · say the job · say where from*
+2,2.6,Notice · T13 · C/S,the paradigm: *he ___ · she ___ · ___ name is Sara · What ___ his job?*,"V25 F · paradigm card, he/she/it rows, *his/her* in a second colour and column"
+2,2.7,Drill · T09 · S,choose: *(his / her) name is Omar* ×8,V26 F · two arrows from one photo to two forms
+2,2.8,Drill · T07 · S,"gap-fill with *is, 's, his, her* ×8",V04 T · four form chips in a cue box
+2,2.9,Drill · T11/T12 · S,word order: 6 questions with *What / Where / Who*,"V26 F · word tiles, the worked example arrowed"
+2,2.10,Drill · T10 · S,correct the error ×6: *\*She is name Lina · \*He's a engineer · \*What his job?*,"V27 F · error card, struck and crossed, corrected beneath"
+2,2.11,Say it · T05/T14 · C/S,"hear 8 job words, mark the weak syllable","V16 F · two columns, *strong* and *weak*, with a mouth icon"
+2,2.12,Say it · T02 · C,say 4 sentences with two weak syllables each,"V17 F · stress bubbles, the schwa marked with a small dot"
+2,2.13,Words · T16/T06 · C/S,match 14 jobs to 14 pictures,"V04 P · 2×7 grid, our cast in their working clothes"
+2,2.14,Words · T14/T15 · C/S,"sort 10 nationalities by stress pattern, from the audio","V17 F · three bubble-pattern columns, ten chips"
+2,2.15,Words · T20 · C,"survey: a family member's job, 5 classmates",V20 T · five rows: *person · job · where*
+2,2.16,Hear it · T03 · C/S,"clean listening: 5 phone numbers and 5 names, match them",V02 R · five contact photos with empty number fields
+2,2.17,Hear it · T04/T05 · C/S,natural speed: the same 5 calls; write only the job,V15 T · a recent-calls screen with five job fields
+2,2.18,Hear it · T17 · S,which caller is at work? how do you know? plus a personal line,V24 R · a still of Omar's dispatch desk
+2,2.19,Use it · T18 · C,"information gap: A has 5 staff cards with jobs, B the same with numbers","V19 T · two half-sets of staff cards, facing pages"
+2,2.20,Use it · T19 · C,tell a partner about three people you know,V22 O · three-move strip with tick-boxes
+2,2.21,Real Life · T04 · C/S,the box of 8: *Who's that? · That's … · What does he do?* (chunk) *· He's a … · What's his number? · It's … · Can you repeat that? · Thanks.*,V22 O · the office introduction as an eight-step strip
+2,2.22,Real Life · T06 · S,match the 8 phrases to 8 moments,"V06 O · eight panels, bubbles empty"
+2,2.23,Real Life · T07/T11 · C/S,"complete a 6-line exchange about a new colleague, then check",V14 T · a staff noticeboard facsimile to write onto
+2,2.24,Real Life · T19 · C,role-play: the first day in a new office; each must write one number,V19 T · three role cards and a blank contact sheet
+2,2.25,Read it · T16/T06 · S,pre-reading: label 4 things on a contact card,"V23 O · one card enlarged, four callouts"
+2,2.26,Read it · T17 · S,"read 4 photo captions (50 w), answer 6 items",V23 O · four captioned photographs as a noticeboard
+2,2.27,Read it · T21 · S,"personal line: which person has your job, or the job you want?",V01 R · one photograph of the office doorway
+2,2.28,On Screen · T05+T17 · C/S,"video 2: predict who is who; watch for gist, 3 items","V24 R · opening still, two callout questions"
+2,2.29,On Screen · T04+T19 · C,watch for the 4 phrases; perform the last 6 lines,V22 O · six lines with the render's faces
+2,2.30,Write it · T17+T07 · S,"the model contact card: capitals on nationalities, the dash in a number, the full stop",V23 O · the model with three numbered callouts
+2,2.31,Write it · T21 · S,"write a contact card and two lines about a colleague, 40 w","V23 O · a blank card at the model's size, checklist beside"
+2,2.32,Can I? · T22 · S,"Can I? 3 on *is/his/her*, 2 jobs, 2 nationality stress, 2 phrases, 1 number from audio","V21 O · ten-segment bar, four descriptor rows"
+3,3.1,Open · T06 · C/S,review: match 6 jobs to 6 workplaces,"V28 P · six job pictograms, six place pictograms"
+3,3.2,Open · T01/T03 · C,"hear 10 objects, point to them on the market stall","V01 P · the Central Market stall, ten objects in plain view"
+3,3.3,Model · T05 · C/S,what does this stall sell? choose from 3,"V01 R · the same stall, three option cards"
+3,3.4,Model · T04 · C/S,the 70-word shop exchange; 6 gaps on *this/these* and prices,"V06 O · four panels, Youssef buying from Sofia"
+3,3.5,Model · T02 · C,"say it, then change the objects and prices",V22 O · *greet · ask the price · ask about two · pay*
+3,3.6,Notice · T13 · C/S,the paradigm: *we ___ · they ___ · this ___ a pen · these ___ pens*,"V25 F · paradigm card, singular and plural columns, the *-s* in a second colour"
+3,3.7,Drill · T09 · S,choose: *(this / these) bags* ×8,"V26 F · one object against two objects, the determiners under each"
+3,3.8,Drill · T07 · S,"gap-fill: plurals of 8 nouns, incl. *watch, box, key, city*","V04 T · eight object pictures as cues, one and many"
+3,3.9,Drill · T11/T12 · S,word order: 6 *How much …?* questions and answers,V26 F · word tiles with the arrow
+3,3.10,Drill · T10 · S,"correct the error ×6: *\*How much is these? · \*Two coffee, please · \*They is cheap*",V27 F · error card
+3,3.11,Say it · T05/T14 · C/S,"hear 12 plurals, sort into /s/ /z/ /ɪz/","V16 F · three labelled columns, each with its own shape marker"
+3,3.12,Say it · T02 · C,say 4 sentences with three plurals each,V17 F · stress bubbles with the plural endings flagged
+3,3.13,Words · T16/T06 · C/S,label 16 objects in a bag and on a desk,"V05 P · a bag tipped out, sixteen callout lines"
+3,3.14,Words · T14/T15 · C/S,"odd one out ×8, with a reason",V04 T · eight rows of four object pictures
+3,3.15,Words · T20 · C,"exchange: show three things in your bag, say the colour",V20 T · a three-row grid: *thing · colour · whose*
+3,3.16,Hear it · T03 · C/S,"clean listening: 5 prices, number them","V13 T · five price tags, scrambled"
+3,3.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose what each person buys,"V15 T · a card-payment screen mock, five amounts"
+3,3.18,Hear it · T17 · S,which price is wrong on the receipt? plus a personal line,V13 T · a receipt facsimile with six lines
+3,3.19,Use it · T18 · C,"information gap: two price lists, 6 items, four prices missing each","V19 T · two half price lists, facing pages"
+3,3.20,Use it · T19 · C,sell three things to a partner; they must ask each price,V22 O · a four-move selling strip with ticks
+3,3.21,Real Life · T04 · C/S,the box of 8: *Excuse me · How much is this? · How much are these? · It's … · They're … · That's expensive · I'll take it · Here you are.*,V22 O · the counter transaction as eight steps
+3,3.22,Real Life · T06 · S,match the 8 phrases to 8 moments at a counter,V06 O · eight panels at Sofia's stall
+3,3.23,Real Life · T07/T11 · C/S,"order a scrambled 6-line shop exchange, then check",V14 T · a till-roll facsimile the lines are ordered onto
+3,3.24,Real Life · T19 · C,role-play: a stall with a price list and a buyer on a budget,"V19 T · a price list, a budget card, a cash card"
+3,3.25,Read it · T16/T06 · S,pre-reading: match 5 prices to 5 tags,V13 T · five tags and five numerals
+3,3.26,Read it · T17 · S,"read a 60-word market notice, 5 items",V23 O · the notice as a printed board
+3,3.27,Read it · T21 · S,personal line: the last thing you bought and its price,V01 R · a photo of a market bag on a table
+3,3.28,On Screen · T05+T17 · C/S,"video 3: predict what they buy; gist, 3 items",V24 R · opening still with callouts
+3,3.29,On Screen · T04+T19 · C,watch for the 4 price phrases; perform with new objects,V22 O · six lines with faces
+3,3.30,Write it · T17+T07 · S,"the model list: the numeral, the currency sign, the column","V23 O · a handwritten list facsimile, three callouts"
+3,3.31,Write it · T21 · S,"write a shopping list of 8 things with prices, plus one line, 40 w",V23 O · a blank list pad with the checklist beside
+3,3.32,Can I? · T22 · S,"Can I? 3 plurals, 2 *this/these*, 2 prices from audio, 2 phrases, 1 spelling",V21 O · score bar and descriptors
+4,4.1,Open · T06 · C/S,review: match 6 objects to 6 prices,V28 P · six object pictograms with tags
+4,4.2,Open · T01/T03 · C,"hear 8 family words, point to the people in the photo","V01 P · Dana's family at the bakery table, eight people"
+4,4.3,Model · T05 · C/S,whose family is this? choose from 3,"V01 R · the same photo, three name cards"
+4,4.4,Model · T04 · C/S,the 75-word photo conversation; 6 gaps on *'s* and possessives,"V06 O · four panels, Lina showing Mei a phone"
+4,4.5,Model · T02 · C,"say it, then use a photo on your own phone",V22 O · *show · ask who · answer · say more*
+4,4.6,Notice · T13 · C/S,"the paradigm: *He ___ my brother · ___ she your sister? · Yes, she ___ · No, she ___*","V25 F · paradigm card, affirmative, negative, question, short answer in four bands"
+4,4.7,Drill · T09 · S,"choose: *(my/mine)*, *(her/she's)*, *(Omar's/Omars)* ×8",V26 F · two forms under one relation line
+4,4.8,Drill · T07 · S,"gap-fill with *isn't, aren't, 's* ×8",V04 T · three form chips as cues
+4,4.9,Drill · T11/T12 · S,transform 6 affirmatives into yes/no questions with short answers,V26 F · the inversion drawn as a swap arrow
+4,4.10,Drill · T10 · S,"correct the error ×6: *\*She isn't my sister's · \*Yes, he's · \*My mothers name*",V27 F · error card
+4,4.11,Say it · T05/T14 · C/S,"hear 8 sentences, mark *isn't / is not*, *aren't / are not*","V16 F · two columns, full form and contraction"
+4,4.12,Say it · T02 · C,"say 4 short exchanges, stress on the short answer",V17 F · bubbles with the stressed answer enlarged
+4,4.13,Words · T16/T06 · C/S,label a family tree of 14 people,"V09 T · Dana's family tree, fourteen nodes, relations on the lines"
+4,4.14,Words · T14/T15 · C/S,sort 10 adjectives into *looks* and *character*,"V04 T · ten chips, two labelled columns with icons"
+4,4.15,Words · T20 · C,exchange: describe two people in your family,V20 T · two rows: *who · looks · character*
+4,4.16,Hear it · T03 · C/S,clean listening: 5 people describe one family member; number the photos,V02 R · five portrait photographs
+4,4.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the relation,V15 T · a message thread with five relation fields
+4,4.18,Hear it · T17 · S,who is not in the photo? how do you know? plus a personal line,V24 R · a still of the bakery table
+4,4.19,Use it · T18 · C,"information gap: two family trees, four names missing each",V19 T · two half trees on facing pages
+4,4.20,Use it · T19 · C,show three photos and answer four questions,V22 O · a four-move strip with ticks
+4,4.21,Real Life · T04 · C/S,"the box of 8: *Look at this photo · Who's this? · That's my … · Is that your …? · No, it isn't · Sorry, I mean … · He looks nice · They're lovely.*",V22 O · the photo-sharing exchange as eight steps
+4,4.22,Real Life · T06 · S,match the 8 phrases to 8 moments,V06 O · eight panels over a phone screen
+4,4.23,Real Life · T07/T11 · C/S,"complete a 6-line photo conversation, then check",V15 T · a phone gallery mock with the dialogue beside it
+4,4.24,Real Life · T19 · C,role-play: two people share photos; each corrects one wrong guess politely,V19 T · two photo sets and a *politely* criteria card
+4,4.25,Read it · T16/T06 · S,pre-reading: match 4 captions to 4 photos,V23 O · four captioned photographs
+4,4.26,Read it · T17 · S,"read a 70-word caption set, 6 items",V23 O · the set as an album page
+4,4.27,Read it · T21 · S,personal line: who in your family is like you?,V01 R · a photograph of two generations at one table
+4,4.28,On Screen · T05+T17 · C/S,"video 4: predict the relations; gist, 3 items",V24 R · still with callouts
+4,4.29,On Screen · T04+T19 · C,watch for the 4 photo phrases; perform with your own photos,V22 O · six lines with faces
+4,4.30,Write it · T17+T07 · S,"the model caption: capitals on names, the comma in apposition, the apostrophe","V23 O · one caption, three callouts"
+4,4.31,Write it · T21 · S,"write three sentences about one photo, 40 w",V23 O · a blank album page with the checklist
+4,4.32,Can I? · T22 · S,"Can I? 3 negatives and questions, 2 possessive *'s*, 2 family words, 2 phrases, 1 contraction from audio",V21 O · score bar and descriptors
+5,5.1,Open · T06 · C/S,review: match 6 family words to 6 photos,V28 P · six relation pictograms
+5,5.2,Open · T01/T03 · C,"hear 8 daily actions, number the pictures in a day's order","V04 P · eight action pictures, scrambled, Mei through her day"
+5,5.3,Model · T05 · C/S,what time is it in each of 3 photos? choose,V11 T · three clock faces beside three photos
+5,5.4,Model · T04 · C/S,the 80-word routine monologue; 6 gaps on verbs and times,"V06 O · four panels, Mei's morning, a clock in each"
+5,5.5,Model · T02 · C,say it with your own times,V22 O · *get up · leave · start · finish* with empty clocks
+5,5.6,Notice · T13 · C/S,the paradigm: *I ___ at six · I ___ work at eight · We ___ (not) work on Friday*,"V25 F · paradigm card, affirmative and negative bands, *don't* in a second colour"
+5,5.7,Drill · T09 · S,"choose: *(get up / gets up)*, *(don't / doesn't)* ×8 — third person is a distractor only","V26 F · one subject, two forms, the third-person form greyed"
+5,5.8,Drill · T07 · S,gap-fill with 8 daily verbs from the box,V04 T · eight verb chips with tiny clock icons
+5,5.9,Drill · T11/T12 · S,word order: 6 sentences with a frequency adverb in place,V26 F · tiles with the adverb tile a different shape
+5,5.10,Drill · T10 · S,correct the error ×6: *\*I no work on Friday · \*Every day I am go · \*I get up in 7*,V27 F · error card
+5,5.11,Say it · T05/T14 · C/S,"hear 6 sentences, mark the stressed words; *do* is weak","V17 F · six bubble rows, the weak *do* a hollow bubble"
+5,5.12,Say it · T02 · C,"say 4 sentences at two speeds, keeping the stress",V17 F · the same rows with a metronome mark
+5,5.13,Words · T16/T06 · C/S,match 16 daily verbs to 16 clock pictures,"V04 P · 4×4 grid, verb picture and clock in each cell"
+5,5.14,Words · T14/T15 · C/S,"sort 12 activities into morning, afternoon, evening",V04 T · three labelled columns with sun-position icons
+5,5.15,Words · T20 · C,survey: when do 5 classmates get up? report the earliest,V20 T · five rows and a small clock to draw in each
+5,5.16,Hear it · T03 · C/S,clean listening: 5 people say when they start work; number them,V11 T · five clock faces
+5,5.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the day,"V15 T · a calendar-app mock, five day fields"
+5,5.18,Hear it · T17 · S,who works at night? how do you know? plus a personal line,V24 R · a still of the clinic corridor at 6 a.m.
+5,5.19,Use it · T18 · C,"information gap: two timetables, four gaps each",V19 T · two half timetables on facing pages
+5,5.20,Use it · T19 · C,"tell a partner about a typical Tuesday, then answer three questions",V22 O · a four-move strip with ticks
+5,5.21,Real Life · T04 · C/S,the box of 8: *What time is it? · It's half past six · It's a quarter to nine · What time do you start? · At eight · When? · On Monday · See you at ten.*,"V22 O · a day as an eight-step strip, clocks above"
+5,5.22,Real Life · T06 · S,match the 8 phrases to 8 clock faces and moments,"V11 T · eight clocks, eight phrase cards"
+5,5.23,Real Life · T07/T11 · C/S,"complete a 6-line exchange about a meeting time, then check",V15 T · a message thread with the times blanked
+5,5.24,Real Life · T19 · C,role-play: agree a time to study; both have three busy slots,V19 T · two timetables with three blocks shaded
+5,5.25,Read it · T16/T06 · S,pre-reading: put 5 pictures of the baker's day in order,V04 P · five pictures of Dana's morning
+5,5.26,Read it · T17 · S,"read the 80-word text, 6 items",V23 O · the text as a magazine column with a photo
+5,5.27,Read it · T21 · S,personal line: one difference between your day and the baker's,V01 R · a photograph of the bakery at 4 a.m.
+5,5.28,On Screen · T05+T17 · C/S,"video 5: predict the job; gist, 3 items",V24 R · still with callouts
+5,5.29,On Screen · T04+T19 · C,watch for the 4 time phrases; perform the shift handover,V22 O · six lines with faces
+5,5.30,Write it · T17+T07 · S,"the model *my day*: capitals on days, *and* between two actions, the time at the end","V23 O · a handwritten day page, three callouts"
+5,5.31,Write it · T21 · S,"write *my day*, 40 w, five actions with times",V23 O · a blank day page with a clock column
+5,5.32,Can I? · T22 · S,"Can I? 3 present simple, 2 frequency adverbs, 2 times from audio, 2 phrases, 1 day spelling",V21 O · score bar and descriptors
+6,6.1,Open · T06 · C/S,review: match 6 daily verbs to 6 times,V28 P · six action pictograms with clock icons
+6,6.2,Open · T01/T03 · C,"hear 8 workplaces, point to them on the town picture","V07 T · the town map, eight workplaces drawn, unlabelled"
+6,6.3,Model · T05 · C/S,which three people work at night? choose,V02 R · four portraits with their workplaces behind them
+6,6.4,Model · T04 · C/S,the 85-word interview; 6 gaps on third-person forms,"V06 O · four panels, Youssef interviewing Omar at the cart"
+6,6.5,Model · T02 · C,"say it in pairs, then interview your partner",V22 O · *ask the job · ask where · ask when · ask if they like it*
+6,6.6,Notice · T13 · C/S,the paradigm: *He ___ (work) at night · She ___ (not) work on Sunday · ___ he like it?*,"V25 F · paradigm card, the *-s* and *does* in the same second colour, marked with a shape"
+6,6.7,Drill · T09 · S,"choose: *(work / works)*, *(do / does)* ×8","V26 F · one subject, two forms"
+6,6.8,Drill · T07 · S,"gap-fill: 8 verbs into the third person, incl. *go, do, watch, study, finish*",V04 T · eight verb chips with their spelling change flagged
+6,6.9,Drill · T11/T12 · S,transform 6 statements into *Does …?* with short answers,V26 F · the auxiliary appearing as a new tile
+6,6.10,Drill · T10 · S,correct the error ×6: *\*He work in a bank · \*Does she works here? · \*He doesn't likes it*,V27 F · error card
+6,6.11,Say it · T05/T14 · C/S,"hear 12 third-person verbs, sort into /s/ /z/ /ɪz/","V16 F · three labelled, shape-marked columns"
+6,6.12,Say it · T02 · C,say 4 sentences with three third-person verbs each,V17 F · bubbles with the endings flagged
+6,6.13,Words · T16/T06 · C/S,match 12 work verbs to 12 pictures,"V04 P · 3×4 grid, our cast at work"
+6,6.14,Words · T14/T15 · C/S,sort 10 workplaces by inside and outside,V04 T · two columns with a roof icon and a sun icon
+6,6.15,Words · T20 · C,survey: what does one person in each classmate's family do?,V20 T · five rows: *person · job · workplace*
+6,6.16,Hear it · T03 · C/S,clean listening: 5 answers to *What does he do?*; match to 5 photos,V02 R · five workplace photographs
+6,6.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the workplace,V15 T · a voice-note list with five workplace fields
+6,6.18,Hear it · T17 · S,who works the longest day? how do you know? plus a personal line,V24 R · a still of the cart at midnight
+6,6.19,Use it · T18 · C,"information gap: six staff profiles, three gaps each side",V19 T · two half sets of profile cards
+6,6.20,Use it · T19 · C,describe a job without naming it; the partner guesses in three questions,V22 O · a three-question strip with ticks
+6,6.21,Real Life · T04 · C/S,"the box of 8: *What does she do? · She works in a … · Sorry? · Can you say that again? · Can you spell it? · Slowly, please · Got it · Thanks a lot.*",V22 O · a conversation with two repair moves marked in a different shape
+6,6.22,Real Life · T06 · S,match the 8 phrases to 8 moments,"V06 O · eight panels, two of them showing the repair"
+6,6.23,Real Life · T07/T11 · C/S,"complete a 6-line exchange with two requests for repetition, then check",V14 T · a phone-note facsimile with a half-written name
+6,6.24,Real Life · T19 · C,role-play: a phone call about a job; the caller must spell a name and a street,V19 T · two role cards and a blank message pad
+6,6.25,Read it · T16/T06 · S,pre-reading: match 4 photos to 4 job titles,"V02 R · four photographs, four title cards"
+6,6.26,Read it · T17 · S,"read the 90-word profile, 6 items",V23 O · the profile as a newspaper column with a photo
+6,6.27,Read it · T21 · S,personal line: would you like this job? one reason,V01 R · a photograph of a night bus at a stop
+6,6.28,On Screen · T05+T17 · C/S,"video 6: predict the food; gist, 3 items",V24 R · still with callouts
+6,6.29,On Screen · T04+T19 · C,watch for the 4 repair phrases; perform the interview with a new job,V22 O · six lines with faces
+6,6.30,Write it · T17+T07 · S,"the model profile: the *-s* on every verb, the comma list, the closing line",V23 O · the profile with three callouts
+6,6.31,Write it · T21 · S,write a 50-word profile of a classmate from your survey notes,V23 O · a blank profile card with the checklist
+6,6.32,Can I? · T22 · S,"Can I? 3 third-person forms, 2 *does* questions, 2 workplaces, 2 phrases, 1 *-s* sound",V21 O · score bar and descriptors
+7,7.1,Open · T06 · C/S,review: match 6 jobs to 6 third-person sentences,V28 P · six job pictograms
+7,7.2,Open · T01/T03 · C,"hear 10 foods, point to them on the breakfast table","V01 P · the Blue Door's breakfast table from above, ten items"
+7,7.3,Model · T05 · C/S,which breakfast is yours? choose from 3,V02 R · three plated breakfasts photographed
+7,7.4,Model · T04 · C/S,the 90-word café conversation; 6 gaps on *like / don't like* and *it/them*,"V06 O · four panels, Sofia serving Lina and Tarek"
+7,7.5,Model · T02 · C,"say it, then order what you really want",V22 O · *greet · order · answer the extra question · pay*
+7,7.6,Notice · T13 · C/S,the paradigm: *I ___ coffee · I don't ___ it · I like ___ (cook) · She likes ___ (I)?*,V25 F · paradigm card with a fourth line that opens the object-pronoun box
+7,7.7,Drill · T09 · S,"choose: *(it / them)*, *(like / likes)* ×8",V26 F · one object picture against two pronouns
+7,7.8,Drill · T07 · S,gap-fill with 8 object pronouns,V04 T · eight pronoun chips with the referent pictured
+7,7.9,Drill · T11/T12 · S,word order: 6 sentences with *like + -ing*,V26 F · tiles with the *-ing* tile shaped differently
+7,7.10,Drill · T10 · S,correct the error ×6: *\*I like very much tea · \*I don't like it coffee · \*She like them*,V27 F · error card
+7,7.11,Say it · T05/T14 · C/S,"hear 10 words, sort /ɪ/ and /iː/: *this, these, it, eat, chicken, cheese, fish, tea, milk, meat*","V16 F · two columns with mouth diagrams, ten word chips with pictures"
+7,7.12,Say it · T02 · C,say 4 sentences with both sounds in each,V17 F · bubbles with the two vowels in two marks
+7,7.13,Words · T16/T06 · C/S,"match 20 foods and drinks to pictures, in four meal groups","V04 P · 4×5 grid, grouped and headed by meal"
+7,7.14,Words · T14/T15 · C/S,"odd one out ×8: by category, then by *one / not one*",V04 T · eight rows of four food pictures
+7,7.15,Words · T20 · C,survey: three things 5 classmates like and one they don't,"V20 T · five rows, three ticks and a cross"
+7,7.16,Hear it · T03 · C/S,clean listening: 5 café orders; tick the menu,"V23 O · the Blue Door menu as a board, tick boxes beside items"
+7,7.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the total,V13 T · five receipt totals to choose from
+7,7.18,Hear it · T17 · S,which order is for two people? how do you know? plus a personal line,V24 R · a still of two cups and two plates
+7,7.19,Use it · T18 · C,"information gap: two menus, four prices and two items missing each","V19 T · two half menus, facing pages"
+7,7.20,Use it · T19 · C,"offer a partner four things; accept two, refuse two politely",V22 O · an offer-and-answer strip with ticks
+7,7.21,Real Life · T04 · C/S,"the box of 8: *Can I have …, please? · Anything else? · A coffee, please · For here or to go? · Would you like …? · Yes, please · No, thanks · Enjoy!*",V22 O · the counter order as eight steps
+7,7.22,Real Life · T06 · S,match the 8 phrases to 8 moments at the counter,V06 O · eight panels at the Blue Door
+7,7.23,Real Life · T07/T11 · C/S,"order a scrambled 6-line café exchange, then check",V14 T · an order pad facsimile
+7,7.24,Real Life · T19 · C,role-play: a café with a printed menu; the server must get the order and the total right,"V19 T · a menu, an order pad, two role cards"
+7,7.25,Read it · T16/T06 · S,pre-reading: match 5 menu sections to 5 pictures,"V23 O · the menu's five headings, five photographs"
+7,7.26,Read it · T17 · S,"read the 90-word menu and two notes, 6 items","V23 O · the menu as the artifact, notes in a footer"
+7,7.27,Read it · T21 · S,personal line: what do you order in a café?,V01 R · a photograph of the Blue Door's counter
+7,7.28,On Screen · T05+T17 · C/S,"video 7: predict the orders; gist, 3 items",V24 R · still with callouts
+7,7.29,On Screen · T04+T19 · C,watch for the 4 ordering phrases; perform with your own orders,V22 O · six lines with faces
+7,7.30,Write it · T17+T07 · S,"the model order and review: the comma in a list, the *please*, the one-adjective review",V23 O · a handwritten order with three callouts
+7,7.31,Write it · T21 · S,"write a café order and a one-line review, 40 w",V23 O · a blank order slip and a review card
+7,7.32,Can I? · T22 · S,"Can I? 3 on *like + -ing*, 2 object pronouns, 2 food words, 2 phrases, 1 vowel from audio",V21 O · score bar and descriptors
+8,8.1,Open · T06 · C/S,review: match 6 foods to 6 *like* sentences,V28 P · six food pictograms
+8,8.2,Open · T01/T03 · C,"hear 8 rooms and places, point to them on the plan","V08 T · a two-bedroom apartment plan, rooms unlabelled"
+8,8.3,Model · T05 · C/S,which room is the best in this apartment? choose,V08 T · the same plan with three rooms circled
+8,8.4,Model · T04 · C/S,the 90-word viewing; 6 gaps on *there is/are* and *some/any*,"V06 O · four panels, Tarek showing Youssef the apartment"
+8,8.5,Model · T02 · C,"say it, then describe your own kitchen",V22 O · *there is · there are · there isn't · is there?*
+8,8.6,Notice · T13 · C/S,the paradigm: *There ___ a sofa · There ___ two chairs · ___ there any chairs? · There ___ any windows*,"V25 F · paradigm card, singular and plural bands, *any* flagged"
+8,8.7,Drill · T09 · S,"choose: *(is / are)*, *(some / any)* ×8","V26 F · one object against many, with the determiners"
+8,8.8,Drill · T07 · S,gap-fill with 8 prepositions of place,V08 T · the plan with eight objects placed and eight gaps
+8,8.9,Drill · T11/T12 · S,transform 6 statements into *Is/Are there …?* with short answers,V26 F · the inversion as a swap arrow
+8,8.10,Drill · T10 · S,correct the error ×6: *\*There are a table · \*It has three rooms in the apartment · \*There isn't some chairs*,V27 F · error card
+8,8.11,Say it · T05/T14 · C/S,"hear 8 sentences, mark the weak *a, of, the, there's*",V17 F · bubble rows with the weak words hollow
+8,8.12,Say it · T02 · C,say 4 sentences keeping the weak forms weak,"V17 F · the same rows, with a speed mark"
+8,8.13,Words · T16/T06 · C/S,label 14 pieces of furniture on the plan,"V08 T · the plan furnished, fourteen callout lines"
+8,8.14,Words · T14/T15 · C/S,sort 10 places in town by *you go there to …*,V07 T · the town map with ten pins and two labelled columns
+8,8.15,Words · T20 · C,"exchange: describe your room; the partner draws it, then compares",V19 T · a blank grid for the partner to draw on
+8,8.16,Hear it · T03 · C/S,"clean listening: 5 descriptions, match to 5 room photos",V02 R · five room photographs
+8,8.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose what is missing in each room,V15 T · a listings-app mock with five *missing* fields
+8,8.18,Hear it · T17 · S,which apartment is for a family? how do you know? plus a personal line,V24 R · a still of the apartment door and the street
+8,8.19,Use it · T18 · C,information gap: two apartment plans; ask about four rooms each,"V19 T · two half plans, facing pages"
+8,8.20,Use it · T19 · C,describe a place in town without naming it; the partner guesses,V22 O · a three-clue strip with ticks
+8,8.21,Real Life · T04 · C/S,"the box of 8: *Excuse me, where's the …? · Is there a … near here? · Go straight on · Turn left at the … · It's on your right · It's next to the … · How far is it? · Thanks, that's great.*",V22 O · the exchange as eight steps along a drawn street
+8,8.22,Real Life · T06 · S,match the 8 phrases to 8 points on a street map,V07 T · the town map with eight numbered points
+8,8.23,Real Life · T07/T11 · C/S,"complete a 6-line directions exchange from the map, then check",V07 T · the map with a dotted route to trace
+8,8.24,Real Life · T19 · C,role-play: two maps; each must find two places from the other's directions,"V19 T · two town maps, different places marked"
+8,8.25,Read it · T16/T06 · S,pre-reading: match 5 advertisement abbreviations to 5 words,V23 O · the advertisement with five terms circled
+8,8.26,Read it · T17 · S,"read the 100-word advertisement, 6 items",V23 O · the advertisement as a listing card with a plan
+8,8.27,Read it · T21 · S,personal line: would you rent it? one reason,V01 R · a photograph of the building's entrance
+8,8.28,On Screen · T05+T17 · C/S,"video 8: predict the problem; gist, 3 items",V24 R · still with callouts
+8,8.29,On Screen · T04+T19 · C,watch for the 4 locating phrases; perform the viewing,V22 O · six lines with faces
+8,8.30,Write it · T17+T07 · S,"the model room description: *there is/are* as the frame, the prepositions, big to small",V23 O · the description with three callouts
+8,8.31,Write it · T21 · S,write a 50-word description of a room in your home,V23 O · a blank page with a small plan to draw first
+8,8.32,Can I? · T22 · S,"Can I? 3 on *there is/are*, 2 *some/any*, 2 prepositions, 2 phrases, 1 weak form",V21 O · score bar and descriptors
+9,9.1,Open · T06 · C/S,review: match 6 places to 6 *there is/are* sentences,V28 P · six place pictograms
+9,9.2,Open · T01/T03 · C,"hear 8 months, number them; then say the twelve in order","V12 T · a twelve-month calendar strip, scrambled chips"
+9,9.3,Model · T05 · C/S,three old photographs — when? choose a decade for each,V02 R · three photographs with visible period detail
+9,9.4,Model · T04 · C/S,the 85-word registration exchange; 6 gaps on *was/were* and a date,"V06 O · four panels, Mr Haddad and Dana at the desk"
+9,9.5,Model · T02 · C,"say it, then register your partner for a class",V22 O · *name · spell it · date of birth · sign*
+9,9.6,Notice · T13 · C/S,the paradigm: *I ___ born in 1998 · She ___ born in Cairo · ___ you born here? · We ___ (not) at home*,"V25 F · paradigm card, *was/were* bands with the subject column fixed"
+9,9.7,Drill · T09 · S,choose: *(was / were)* ×8,"V26 F · one subject, two forms"
+9,9.8,Drill · T07 · S,"gap-fill with *was, were, wasn't, weren't* ×8",V04 T · four form chips
+9,9.9,Drill · T11/T12 · S,word order: 6 questions with *When / Where was …?*,V26 F · word tiles with the arrow
+9,9.10,Drill · T10 · S,correct the error ×6: *\*I born in 1999 · \*She was born at March · \*Where you were born?*,V27 F · error card
+9,9.12,Say it · T02 · C,say 4 sentences with a year and a month in each,V17 F · bubbles over the year halves
+9,9.13,Words · T16/T06 · C/S,match 12 months to 12 pictures of a year,"V12 T · a twelve-cell calendar, each month a small scene from our city"
+9,9.14,Words · T14/T15 · C/S,sort 20 ordinals into the three spelling patterns,"V04 T · three labelled columns, twenty ordinal chips"
+9,9.15,Words · T20 · C,survey: the birthday month of 5 classmates; build the class calendar,V20 T · a twelve-month grid to write names into
+9,9.16,Hear it · T03 · C/S,clean listening: 5 dates of birth; write them on 5 forms,V14 T · five form rows with date fields
+9,9.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the age of each speaker,V15 T · five profile cards with age options
+9,9.18,Hear it · T17 · S,who is the oldest? how do you know? plus a personal line,V24 R · a still of the desk with the five forms
+9,9.19,Use it · T18 · C,"information gap: two class lists, four dates missing each","V19 T · two half lists, facing pages"
+9,9.20,Use it · T19 · C,interview a partner about three dates that matter to them,V10 F · a blank timeline with three empty points
+9,9.21,Real Life · T04 · C/S,"the box of 8: *What's your date of birth? · The fifth of May · Where were you born? · How do you spell your surname? · Sign here, please · Here you are · Is that right? · That's all, thanks.*",V22 O · the desk transaction as eight steps
+9,9.22,Real Life · T06 · S,match the 8 phrases to 8 lines on a form,V14 T · a registration form with eight numbered fields
+9,9.23,Real Life · T07/T11 · C/S,"complete a 6-line form-filling exchange, then check","V14 T · the form, half completed in handwriting"
+9,9.24,Real Life · T19 · C,role-play: the desk; the clerk completes six fields and reads them back,V19 T · two role cards and a blank form
+9,9.25,Read it · T16/T06 · S,pre-reading: put 5 events of a life in order from the dates,V10 F · five dated cards to place on a timeline
+9,9.26,Read it · T17 · S,"read the 100-word short life, 6 items",V23 O · the text as a museum label beside a portrait
+9,9.27,Read it · T21 · S,personal line: which year in the text was important for you too?,V10 F · a one-line timeline with your year to mark
+9,9.28,On Screen · T05+T17 · C/S,"video 9: predict the form; gist, 3 items",V24 R · still with callouts
+9,9.29,On Screen · T04+T19 · C,watch for the 4 form phrases; perform with your own details,V22 O · six lines with faces
+9,9.30,Write it · T17+T07 · S,"the model biography: the date format, the comma after the year, the two-sentence shape",V23 O · the biography with three callouts
+9,9.31,Write it · T21 · S,"complete a form and write a two-line biography, 40 w",V14 T + V23 O · the blank form and a card beside it
+9,9.32,Can I? · T22 · S,"Can I? 3 on *was/were*, 2 dates, 2 ordinals, 2 phrases, 1 year from audio",V21 O · score bar and descriptors
+10,10.1,Open · T06 · C/S,review: match 6 dates to 6 events,V28 P · six event pictograms with dates
+10,10.2,Open · T01/T03 · C,"hear 8 weekend activities, number the photos","V04 P · eight weekend pictures, scrambled"
+10,10.3,Model · T05 · C/S,whose Saturday was busier? choose,"V02 R · two photo pairs, one per person"
+10,10.4,Model · T04 · C/S,the 95-word weekend account; 6 gaps on regular past forms,"V06 O · four panels, Lina and Sofia on the stairs"
+10,10.5,Model · T02 · C,"say it, then tell your own Saturday in four sentences",V22 O · *first · then · after that · in the evening*
+10,10.6,Notice · T13 · C/S,the paradigm: *I ___ (work) on Saturday · We ___ (watch) a film · Then we ___ (walk) home*,"V25 F · paradigm card, base and *-ed* columns, the ending in a second colour"
+10,10.7,Drill · T09 · S,"choose: *(walk / walked)*, *(play / played)* ×8",V26 F · a now-icon against a yesterday-icon
+10,10.8,Drill · T07 · S,"gap-fill: 8 regular verbs into the past, incl. *stop, study, arrive*",V04 T · eight verb chips with their spelling change flagged
+10,10.9,Drill · T11/T12 · S,"word order: 6 sentences with *then, after that, at six*","V26 F · tiles, the sequencer tile shaped differently"
+10,10.10,Drill · T10 · S,correct the error ×6: *\*Yesterday I watch TV · \*We stoped at a café · \*I studyed English*,V27 F · error card
+10,10.11,Say it · T05/T14 · C/S,"hear 12 past forms, sort into /t/ /d/ /ɪd/","V16 F · three labelled, shape-marked columns"
+10,10.12,Say it · T02 · C,say 4 sentences with three past forms each,V17 F · bubbles with the endings flagged
+10,10.13,Words · T16/T06 · C/S,match 14 weekend verbs to 14 pictures,"V04 P · 2×7 grid, our cast at the weekend"
+10,10.14,Words · T14/T15 · C/S,sort 8 time expressions into *yesterday / last / ago*,V10 F · a timeline with three labelled zones
+10,10.15,Words · T20 · C,survey: what did 5 classmates do on Friday evening?,V20 T · five rows: *who · what · where*
+10,10.16,Hear it · T03 · C/S,clean listening: 5 people on their weekend; number the pictures,V02 R · five weekend photographs
+10,10.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose who enjoyed it most,V15 T · five voice notes with a smile-scale to mark
+10,10.18,Hear it · T17 · S,who worked on Sunday? how do you know? plus a personal line,V24 R · a still of the bakery on Sunday morning
+10,10.19,Use it · T18 · C,"information gap: two diaries for one weekend, four entries missing each",V19 T · two half diary pages
+10,10.20,Use it · T19 · C,three true things and one false about your weekend; the partner finds the lie,"V22 O · four cards to lay out, one to be turned over"
+10,10.21,Real Life · T04 · C/S,the box of 8: *How was your weekend? · It was great · Not bad · What did you do? · Really? · That sounds nice · Oh no! · Me too.*,"V22 O · the Monday chat as eight steps, the four reactions marked"
+10,10.22,Real Life · T06 · S,match the 8 phrases to 8 moments in a Monday chat,V06 O · eight panels in the stairwell
+10,10.23,Real Life · T07/T11 · C/S,"complete a 6-line Monday chat, then check",V15 T · a message thread with the reactions blanked
+10,10.24,Real Life · T19 · C,"role-play: Monday morning; each must react three times, not only answer",V19 T · two role cards and a *react* tally card
+10,10.25,Read it · T16/T06 · S,pre-reading: match 5 diary entries to 5 days,V23 O · a diary spread with five dated lines
+10,10.26,Read it · T17 · S,"read the 110-word diary, 6 items",V23 O · the diary as handwriting on a dated page
+10,10.27,Read it · T21 · S,personal line: which day in the diary is like your Saturday?,V01 R · a photograph of a park bench on a Saturday
+10,10.28,On Screen · T05+T17 · C/S,"video 10: predict the weather and the plan; gist, 3 items",V24 R · still with callouts
+10,10.29,On Screen · T04+T19 · C,watch for the 4 reacting phrases; perform with your own weekend,V22 O · six lines with faces
+10,10.30,Write it · T17+T07 · S,"the model *my weekend*: the past forms, the sequencers, the one-line opinion",V23 O · the text with three callouts
+10,10.31,Write it · T21 · S,"write *my weekend*, 50 w, four sentences with two sequencers",V23 O · a blank dated page with the checklist
+10,10.32,Can I? · T22 · S,"Can I? 3 regular past forms, 2 spellings, 2 sequencers, 2 phrases, 1 *-ed* sound",V21 O · score bar and descriptors
+11,11.1,Open · T06 · C/S,review: match 6 regular past forms to 6 pictures,V28 P · six action pictograms
+11,11.2,Open · T01/T03 · C,"hear 8 kinds of transport, point to them in the station","V01 P · Central Station concourse, eight vehicles and signs"
+11,11.3,Model · T05 · C/S,where are they going? choose from 3,V07 T · a regional map with three destinations marked
+11,11.4,Model · T04 · C/S,the 100-word trip story; 6 gaps on irregular past forms,"V06 O · four panels, Youssef telling Mei about a trip"
+11,11.5,Model · T02 · C,"say it, then tell one trip of your own in four sentences",V22 O · *where · how · what you saw · what went wrong*
+11,11.6,Notice · T13 · C/S,the paradigm: *I ___ (go) to Amman · We ___ (not) take the bus · ___ you see the castle?*,"V25 F · paradigm card: base, past, negative, question, with the base form reappearing after *didn't* in the same colour as the base"
+11,11.7,Drill · T09 · S,"choose: *(went / goed)*, *(didn't see / didn't saw)* ×8","V26 F · correct and incorrect pairs, the wrong one greyed in the example"
+11,11.8,Drill · T07 · S,"gap-fill: 8 irregular verbs from the box (*go, come, see, buy, take, have, eat, get*)","V04 T · eight verb chips, base above, past below"
+11,11.9,Drill · T11/T12 · S,transform 6 statements into *Did …?* with short answers,"V26 F · the auxiliary as a new tile, the main verb returning to base"
+11,11.10,Drill · T10 · S,correct the error ×6: *\*Did you went? · \*I didn't went · \*We buyed tickets*,V27 F · error card
+11,11.11,Say it · T05/T14 · C/S,"hear 8 sentences, mark the stress on *didn't* and the linking in *did you*",V17 F · bubbles with *didn't* enlarged and a link curve under *did you*
+11,11.12,Say it · T02 · C,say 4 question-and-answer pairs at speed,V18 F · intonation arrows over the pairs
+11,11.13,Words · T16/T06 · C/S,match 12 travel verbs to 12 pictures,"V04 P · 3×4 grid, journeys from our city"
+11,11.14,Words · T14/T15 · C/S,"the irregular-verb grid: 16 base forms, write the past, check the Grammar File","V04 T · a 16-cell grid, base printed, past empty, one worked"
+11,11.15,Words · T20 · C,survey: the longest trip 5 classmates have made,V07 T · a world map with five lines to draw
+11,11.16,Hear it · T03 · C/S,clean listening: 5 announcements; write platform and time,V14 T · a departures board with five gapped rows
+11,11.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose which train each traveller takes,V14 T · the same board with five traveller photos beside it
+11,11.18,Hear it · T17 · S,which traveller is late? how do you know? plus a personal line,V24 R · a still of the clock and the closing door
+11,11.19,Use it · T18 · C,"information gap: two timetables, four departures missing each",V19 T · two half timetables
+11,11.20,Use it · T19 · C,tell a partner about a journey that went wrong; four questions back,V22 O · a four-question strip with ticks
+11,11.21,Real Life · T04 · C/S,"the box of 8: *A ticket to …, please · Single or return? · What time is the next train? · Which platform? · Is this seat free? · I missed my train · Can I change it? · Thank you for your help.*",V22 O · the ticket office as eight steps
+11,11.22,Real Life · T06 · S,match the 8 phrases to 8 moments in a station,V06 O · eight panels from entrance to platform
+11,11.23,Real Life · T07/T11 · C/S,"order a scrambled 6-line ticket-office exchange, then check",V13 T · a ticket facsimile the lines are ordered beside
+11,11.24,Real Life · T19 · C,role-play: the traveller must change a ticket after missing a train,"V19 T · two role cards, a timetable, a used ticket"
+11,11.25,Read it · T16/T06 · S,pre-reading: put 6 pictures of a journey in order,"V04 P · six journey pictures, scrambled"
+11,11.26,Read it · T17 · S,"read the 140-word trip story, 6 items",V23 O · the story as a blog post with one photo
+11,11.27,Read it · T21 · S,personal line: what went wrong on one of your trips?,V01 R · a photograph of a platform at night
+11,11.28,On Screen · T05+T17 · C/S,"video 11: predict the problem; gist, 3 items",V24 R · still with callouts
+11,11.29,On Screen · T04+T19 · C,watch for the 4 station phrases; perform with a new destination,V22 O · six lines with faces
+11,11.30,Write it · T17+T07 · S,"the model postcard: the greeting line, the past forms, the closing, the address block","V23 O · a postcard front and back, three callouts"
+11,11.31,Write it · T21 · S,"write a postcard about a trip, 60 w",V23 O · a blank postcard at real size with the checklist
+11,11.32,Can I? · T22 · S,"Can I? 3 irregular forms, 2 *did/didn't*, 2 transport words, 2 phrases, 1 linking item",V21 O · score bar and descriptors
+12,12.1,Open · T06 · C/S,review: match 6 irregular past forms to 6 base forms,"V28 P · six verb pictograms, base and past"
+12,12.2,Open · T01/T03 · C,"hear 8 skills, point to the person doing each","V04 P · eight skill pictures, our cast"
+12,12.3,Model · T05 · C/S,which of the 3 people can help you? choose,V02 R · three portraits with their tools
+12,12.4,Model · T04 · C/S,the 90-word exchange about a volunteer job; 6 gaps on *can / can't*,"V06 O · four panels, Dana interviewing Lina at the bakery"
+12,12.5,Model · T02 · C,"say it, then apply for the job yourself",V22 O · *say what you can do · say what you can't · ask about the time · accept*
+12,12.6,Notice · T13 · C/S,"the paradigm: *I ___ drive · She ___ (not) swim · ___ you cook? · Yes, I ___*","V25 F · paradigm card, one form for every person, which is the point — no *-s* row to fill"
+12,12.7,Drill · T09 · S,"choose: *(can / can to)*, *(can't / don't can)* ×8",V26 F · correct and incorrect pairs
+12,12.8,Drill · T07 · S,"gap-fill with *can, can't* and an adverb ×8",V04 T · two form chips and four adverb chips
+12,12.9,Drill · T11/T12 · S,transform 6 statements into questions and short answers,V26 F · the inversion as a swap arrow
+12,12.10,Drill · T10 · S,correct the error ×6: *\*I can to drive · \*She cans swim · \*I can speak English very good*,V27 F · error card
+12,12.11,Say it · T05/T14 · C/S,"hear 8 sentences, choose *can* or *can't*; mark which *can* is strong","V16 F · two columns, strong and weak, with a loudness mark"
+12,12.12,Say it · T02 · C,"say 4 pairs, one weak *can* and one *can't*",V17 F · bubbles with the vowel length drawn
+12,12.13,Words · T16/T06 · C/S,match 14 skills to 14 pictures,V04 P · 2×7 grid
+12,12.14,Words · T14/T15 · C/S,sort 8 sports by *can you do it alone?*,V04 T · two labelled columns with a person icon and a group icon
+12,12.15,Words · T20 · C,"survey: three things 5 classmates can do well, one they can't","V20 T · five rows, three ticks and a cross"
+12,12.16,Hear it · T03 · C/S,clean listening: 5 requests; yes or no for each,V15 T · five call screens with a yes/no toggle
+12,12.17,Hear it · T04/T05 · C/S,natural speed: the same 5; which request is refused politely,V18 F · five intonation traces to match to the calls
+12,12.18,Hear it · T17 · S,which caller gets help? how do you know? plus a personal line,V24 R · a still of the two phone calls side by side
+12,12.19,Use it · T18 · C,"information gap: two skill grids for six volunteers, three gaps each",V19 T · two half grids
+12,12.20,Use it · T19 · C,ask three classmates for three favours; one must be refused politely,V22 O · a request-and-answer strip with ticks
+12,12.21,Real Life · T04 · C/S,"the box of 8: *Can you help me? · Of course · Sure, no problem · Can I give you a hand? · Sorry, I can't right now · Maybe later? · That's very kind · Don't mention it.*","V22 O · request and response as eight steps, the refusals marked"
+12,12.22,Real Life · T06 · S,match the 8 phrases to 8 moments,V06 O · eight panels in a shared kitchen
+12,12.23,Real Life · T07/T11 · C/S,"complete a 6-line request exchange, then check",V15 T · a message thread with the requests blanked
+12,12.24,Real Life · T19 · C,role-play: three favours in a shared apartment,V19 T · three favour cards and two role cards
+12,12.25,Read it · T16/T06 · S,pre-reading: match 3 volunteer roles to 3 skills,V23 O · the notice with three roles boxed
+12,12.26,Read it · T17 · S,"read the 120-word notice, 6 items",V23 O · the notice as a community-board poster
+12,12.27,Read it · T21 · S,personal line: which role could you do? one reason,V01 R · a photograph of the community centre door
+12,12.28,On Screen · T05+T17 · C/S,"video 12: predict which request works; watch both versions, 3 items","V24 R · two stills side by side, the same request twice"
+12,12.29,On Screen · T04+T19 · C,watch for the 4 request phrases; perform the polite version,V18 F + V22 O · the six lines with intonation arrows
+12,12.30,Write it · T17+T07 · S,"the model application: the opening line, the *can* list, the closing",V23 O · the application with three callouts
+12,12.31,Write it · T21 · S,"write a short application: what you can do, 50 w",V23 O · a blank form-letter with the checklist
+12,12.32,Can I? · T22 · S,"Can I? 3 on *can/can't*, 2 adverbs, 2 skills, 2 phrases, 1 strong/weak *can*",V21 O · score bar and descriptors
+13,13.1,Open · T06 · C/S,review: match 6 skills to 6 *can* sentences,V28 P · six skill pictograms
+13,13.2,Open · T01/T03 · C,"hear 8 clothes words, point to them in the street photo","V01 P · the Mill Street crossing, eight people in different clothes"
+13,13.3,Model · T05 · C/S,"which person is waiting, and which is working? choose",V01 R · the same photo with three people circled
+13,13.4,Model · T04 · C/S,the 95-word video call; 6 gaps on the present continuous,"V06 O · four panels split down the middle, two places at once"
+13,13.5,Model · T02 · C,"say it, then call a partner and say what you are doing",V22 O · *greet · say where · say what · ask back*
+13,13.6,Notice · T13 · C/S,the paradigm: *I ___ ___ (wait) · She ___ ___ (cook) · What ___ you ___ (do)?*,"V25 F · paradigm card, two slots per line — *be* and *-ing* in two colours and two columns"
+13,13.7,Drill · T09 · S,"choose: *(is / are)*, *(waiting / wait)* ×8",V26 F · a now-icon above each pair
+13,13.8,Drill · T07 · S,"gap-fill: 8 verbs into the present continuous, with *sit, write, run*",V04 T · eight verb chips with the doubling flagged
+13,13.9,Drill · T11/T12 · S,word order: 6 present-continuous questions,"V26 F · tiles, the *be* tile shaped differently"
+13,13.10,Drill · T10 · S,correct the error ×6: *\*I am go now · \*She cooking · \*What you are doing?*,V27 F · error card
+13,13.11,Say it · T05/T14 · C/S,"hear 8 *-ing* forms, mark the /ŋ/; mark the weak *are* in four questions",V16 F · two columns and a weak-form row
+13,13.12,Say it · T02 · C,say 4 questions and answers with weak *are*,V17 F · bubbles with *are* hollow
+13,13.13,Words · T16/T06 · C/S,"match 16 clothes words to the pictures, with colours","V04 P · 4×4 grid, the cast dressed for four seasons"
+13,13.14,Words · T14/T15 · C/S,sort 10 actions into *now* and *every day* — the Unit 5 contrast is the point,"V04 T · two labelled columns, a clock icon and a calendar icon"
+13,13.15,Words · T20 · C,exchange: describe what three people in a photo are wearing and doing,V01 R · a crowd photograph with three people numbered
+13,13.16,Hear it · T03 · C/S,clean listening: 5 calls; match to 5 places,V02 R · five place photographs
+13,13.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose what each speaker is doing,V15 T · five call screens with action options
+13,13.18,Hear it · T17 · S,which caller is not at home? how do you know? plus a personal line,V24 R · a still of the market stall mid-call
+13,13.19,Use it · T18 · C,"information gap: two crowd pictures with four differences, found by asking",V19 T · two nearly-identical crowd scenes
+13,13.20,Use it · T19 · C,"mime an action, answer three questions about it",V22 O · a three-question strip with ticks
+13,13.21,Real Life · T04 · C/S,"the box of 8: *Hi, it's me · Where are you? · I'm on the bus · What are you doing? · I'm just cooking · Can I call you back? · Sorry, I can't hear you · Talk later.*","V22 O · the call as eight steps, the two repair moves marked"
+13,13.22,Real Life · T06 · S,match the 8 phrases to 8 moments in a call,V06 O · eight split panels
+13,13.23,Real Life · T07/T11 · C/S,"complete a 6-line call with two bad-signal lines, then check",V15 T · a call screen with a weak-signal icon
+13,13.24,Real Life · T19 · C,"role-play: two calls back to back, from two different places",V19 T · two place cards and two action cards
+13,13.25,Read it · T16/T06 · S,pre-reading: match 4 photos to 4 captions,V23 O · four posts with the captions detached
+13,13.26,Read it · T17 · S,"read the 120-word post set, 6 items",V23 O · the four posts as a feed
+13,13.27,Read it · T21 · S,personal line: what are you doing today that you do not do every day?,V01 R · a photograph of the same street in the evening
+13,13.28,On Screen · T05+T17 · C/S,"video 13: predict the two places; gist, 3 items",V24 R · a split still
+13,13.29,On Screen · T04+T19 · C,watch for the 4 call phrases; perform the call from two places,V22 O · six lines with faces
+13,13.30,Write it · T17+T07 · S,"the model message: the present continuous, the short sentences, the closing","V23 O · a message bubble facsimile, three callouts"
+13,13.31,Write it · T21 · S,"write a message saying where you are and what is happening, 40 w",V15 T · a blank message screen with the checklist beside
+13,13.32,Can I? · T22 · S,"Can I? 3 present-continuous forms, 2 spellings, 2 clothes words, 2 phrases, 1 weak *are*",V21 O · score bar and descriptors
+14,14.1,Open · T06 · C/S,review: match 6 actions to 6 present-continuous sentences,V28 P · six action pictograms
+14,14.2,Open · T01/T03 · C,"hear 10 shopping items, point to them on the shelves","V01 P · the market's dry-goods shelves, ten items"
+14,14.3,Model · T05 · C/S,which list goes with which basket? choose,"V13 T · three baskets photographed, three lists beside them"
+14,14.4,Model · T04 · C/S,the 95-word shop and phone order; 6 gaps on *I'd like* and quantities,"V06 O · four panels, Mr Haddad ordering by phone"
+14,14.5,Model · T02 · C,"say it, then order a delivery for your own home",V22 O · *greet · order · give the quantity · confirm*
+14,14.6,Notice · T13 · C/S,"the paradigm: *I'd ___ some bread · ___ you like a bag? · Yes, ___ · No, ___*","V25 F · paradigm card, the contraction expanded once beside it"
+14,14.7,Drill · T09 · S,"choose: *(a / some)*, *(I'd like / I like)* ×8 — the Unit 7 contrast is deliberate",V26 F · a want-icon against a general-liking icon
+14,14.8,Drill · T07 · S,"gap-fill with *some, any, a, an* ×8",V04 T · four determiner chips with count and mass pictures
+14,14.9,Drill · T11/T12 · S,transform 6 blunt requests into polite ones with *Could I …?*,V18 F · the same words with two intonation traces
+14,14.10,Drill · T10 · S,"correct the error ×6: *\*I like a coffee, please · \*Would you like some bag? · \*Give me water*",V27 F · error card
+14,14.11,Say it · T05/T14 · C/S,"hear 8 requests, choose polite or blunt from the intonation alone",V18 F · eight traces to match
+14,14.12,Say it · T02 · C,"say 4 requests twice: flat, then polite","V18 F · two traces per request, drawn"
+14,14.13,Words · T16/T06 · C/S,match 14 shopping words and 6 containers to the pictures,V04 P · a 4×5 grid of items in their containers
+14,14.14,Words · T14/T15 · C/S,sort 12 nouns into *one / not one* — count and mass without the terms,"V04 T · two labelled columns, a single-item icon and a heap icon"
+14,14.15,Words · T20 · C,"exchange: order five things from a partner's shop, with quantities",V20 T · a five-row order grid
+14,14.16,Hear it · T03 · C/S,clean listening: 5 phone orders; complete the order form,V14 T · an order form with five gapped lines
+14,14.17,Hear it · T04/T05 · C/S,natural speed: the same 5; choose the delivery time,V11 T · five clock faces to choose from
+14,14.18,Hear it · T17 · S,which order is wrong on the form? how do you know? plus a personal line,V14 T · a completed form with one wrong quantity
+14,14.19,Use it · T18 · C,information gap: two shopping lists and two fridges; ask what is needed,V19 T · two fridge interiors and two lists
+14,14.20,Use it · T19 · C,ask a partner for four things you need today; they may refuse one,V22 O · a four-move strip with ticks
+14,14.21,Real Life · T04 · C/S,"the box of 8: *Could I have …, please? · How many would you like? · Two, please · Anything else? · That's all · Do you have …? · I'm afraid we don't · Never mind.*","V22 O · the store transaction as eight steps, the out-of-stock branch drawn"
+14,14.22,Real Life · T06 · S,match the 8 phrases to 8 moments in a store,V06 O · eight panels at the counter
+14,14.23,Real Life · T07/T11 · C/S,"complete a 6-line store exchange with one item out of stock, then check",V13 T · a shelf with one empty space
+14,14.24,Real Life · T19 · C,role-play: a store where two items are missing; the customer must adapt,"V19 T · a stock card, a list card, two role cards"
+14,14.25,Read it · T16/T06 · S,pre-reading: match 5 store signs to 5 meanings,V23 O · five sign facsimiles
+14,14.26,Read it · T17 · S,"read the 120-word notice, 6 items",V23 O · the notice as two panels on a shop door
+14,14.27,Read it · T21 · S,personal line: what do you buy every week?,V01 R · a photograph of a full shopping bag
+14,14.28,On Screen · T05+T17 · C/S,"video 14: predict the order; gist, 3 items",V24 R · still with callouts
+14,14.29,On Screen · T04+T19 · C,watch for the 4 request phrases; perform with your own list,V22 O · six lines with faces
+14,14.30,Write it · T17+T07 · S,"the model note: the greeting, the one-sentence request, the thank-you","V23 O · a handwritten note, three callouts"
+14,14.31,Write it · T21 · S,"write a note asking someone to buy three things, 40 w",V23 O · a blank note card with the checklist
+14,14.32,Can I? · T22 · S,"Can I? 3 on *I'd like*, 2 *some/any*, 2 quantities, 2 phrases, 1 intonation item",V21 O · score bar and descriptors
+15,15.1,Open · T06 · C/S,review: match 6 quantities to 6 items,V28 P · six container pictograms
+15,15.2,Open · T01/T03 · C,"hear 8 weather words, point to them on the four-season picture","V28 P · a four-panel seasons strip, eight weather icons"
+15,15.3,Model · T05 · C/S,which plan is for which weather? choose,"V02 R · three plans as photographs, three weather icons"
+15,15.4,Model · T04 · C/S,the 100-word planning conversation; 6 gaps on *going to* and arrangements,"V06 O · four panels, Lina, Tarek and Sofia round a table"
+15,15.5,Model · T02 · C,"say it, then plan next Saturday with a partner",V22 O · *suggest · agree the day · agree the time · agree the place*
+15,15.6,Notice · T13 · C/S,the paradigm: *I'm ___ ___ visit my aunt · We ___ (not) going to fly · What ___ you going to do?*,"V25 F · paradigm card, three slots per line, the *to* hollow"
+15,15.7,Drill · T09 · S,"choose: *(going to visit / going visit)*, *(am / is)* ×8",V26 F · correct and incorrect pairs
+15,15.8,Drill · T07 · S,gap-fill with *going to* + 8 verbs,V04 T · eight verb chips with a forward-arrow icon
+15,15.9,Drill · T11/T12 · S,"transform 6 plans into questions, then negatives",V26 F · the inversion as a swap arrow
+15,15.10,Drill · T10 · S,"correct the error ×6, the last one marked *not this level — say it another way*",V27 F · error card with one line in a different border
+15,15.11,Say it · T05/T14 · C/S,hear 8 sentences with reduced *going to*; write the full form,"V16 F · two columns, written form and heard form"
+15,15.12,Say it · T02 · C,"say 4 plans at natural speed, then slowly; both are correct",V17 F · two bubble rows per plan
+15,15.13,Words · T16/T06 · C/S,match 10 weather words and 4 seasons to the pictures,V04 P · a 2×7 grid of weather photographs
+15,15.14,Words · T14/T15 · C/S,"sort 12 holiday words into beach, city, mountain",V04 T · three labelled columns with place icons
+15,15.15,Words · T20 · C,survey: what are 5 classmates going to do next weekend?,V20 T · five rows: *who · what · when*
+15,15.16,Hear it · T03 · C/S,clean listening: 5 plans; match to 5 places,V07 T · a regional map with five pins
+15,15.17,Hear it · T04/T05 · C/S,natural speed: the same 5; whose plan changed,"V15 T · five message threads, one with an edit"
+15,15.18,Hear it · T17 · S,which plan depends on the weather? how do you know? plus a personal line,V24 R · a still of three friends looking at a forecast
+15,15.19,Use it · T18 · C,information gap: two diaries for next week; find two free hours you share,V19 T · two half diaries with shaded blocks
+15,15.20,Use it · T19 · C,"agree a real plan: what, when, where, and one thing to bring",V22 O · a four-field agreement card to complete
+15,15.21,Real Life · T04 · C/S,the box of 8: *Are you free on Saturday? · What about Sunday? · Let's meet at … · What time? · See you at the station · I can't make it · Can we change it to …? · Perfect.*,"V22 O · the arrangement as eight steps, the re-plan branch drawn"
+15,15.22,Real Life · T06 · S,match the 8 phrases to 8 moments in making a plan,"V06 O · eight panels, two of them the change of plan"
+15,15.23,Real Life · T07/T11 · C/S,"order a scrambled 6-line arrangement, then check","V15 T · a message thread, the order scrambled"
+15,15.24,Real Life · T19 · C,"role-play: three diaries, one meeting to agree",V19 T · three diary cards with different busy blocks
+15,15.25,Read it · T16/T06 · S,pre-reading: match 5 items in a bag to 5 reasons,V04 P · an open bag with five items
+15,15.26,Read it · T17 · S,"read the 130-word plan, 6 items",V23 O · the plan as a shared note with a weather line
+15,15.27,Read it · T21 · S,personal line: what are you going to do this evening?,V01 R · a photograph of the park at six o'clock
+15,15.28,On Screen · T05+T17 · C/S,"video 15: predict the change of plan; gist, 3 items",V24 R · still with callouts
+15,15.29,On Screen · T04+T19 · C,watch for the 4 arrangement phrases; perform the new plan,V22 O · six lines with faces
+15,15.30,Write it · T17+T07 · S,"the model invitation and reply: the invitation line, the time and place, the thanks and the answer","V23 O · two message bubbles, three callouts"
+15,15.31,Write it · T21 · S,"write an invitation and a reply, 50 w in total",V15 T · a blank two-bubble thread with the checklist
+15,15.32,Can I? · T22 · S,"Can I? 3 on *going to*, 2 arrangements, 2 weather words, 2 phrases, 1 reduced form",V21 O · score bar and descriptors
+16,16.1,Open · T06 · C/S,review: match 6 plans to 6 weather conditions,V28 P · six plan pictograms
+16,16.2,Open · T01/T03 · C,"hear 8 airport words, point to them on the terminal map","V05 P · terminal 2 as a labelled diagram, eight callouts empty"
+16,16.3,Model · T05 · C/S,which traveller has a problem? choose from 3,V02 R · three travellers photographed at three desks
+16,16.4,Model · T04 · C/S,the 110-word arrival-day exchange; 6 gaps across four auxiliaries,"V06 O · four panels, Mei arriving and asking for help"
+16,16.5,Model · T02 · C,"say it, then tell a partner about an arrival of your own",V22 O · *ask · explain · answer · thank*
+16,16.6,Notice · T13 · C/S,the paradigm only this unit can hold: *___ you a student? · ___ you live here? · ___ you come yesterday? · ___ you help me?*,"V25 F · a four-band paradigm card, one auxiliary per band, each in the colour that unit used — the visual that makes the level's grammar one object"
+16,16.7,Drill · T09 · S,choose the auxiliary ×8: *(Are / Do / Did / Can)*,V26 F · four form chips above eight sentence frames
+16,16.8,Drill · T07 · S,"gap-fill: 8 questions, one auxiliary each, mixed","V04 T · the four chips again, as cues"
+16,16.9,Drill · T11/T12 · S,"word order: 6 questions with *What, Where, When, Who, How much, How many*",V26 F · tiles with the question-word tile in its own shape
+16,16.10,Drill · T10 · S,"correct the error ×6, one for each auxiliary","V27 F · error card, four rows colour-matched to the paradigm"
+16,16.11,Say it · T05/T14 · C/S,"hear 8 questions, mark rising or falling","V18 F · eight traces, two labelled examples"
+16,16.12,Say it · T02 · C,say 4 pairs: the same words as a yes/no and as a wh- question,V18 F · two traces per pair
+16,16.13,Words · T16/T06 · C/S,match 14 airport and station words to the map and the signs,V05 P · the terminal diagram plus six sign facsimiles
+16,16.14,Words · T14/T15 · C/S,sort 8 trouble phrases by *lost / late / broken / wrong*,V04 T · four labelled columns with icons
+16,16.15,Words · T20 · C,survey: the worst journey 5 classmates have had,V20 T · five rows: *who · what happened · how it ended*
+16,16.16,Hear it · T03 · C/S,clean listening: 4 service exchanges; match to 4 desks,V05 P · the terminal diagram with four desks numbered
+16,16.17,Hear it · T04/T05 · C/S,natural speed: the same 4; choose what each traveller needs,V14 T · four service tickets with need fields
+16,16.18,Hear it · T17 · S,which problem is solved? how do you know? plus a personal line,V24 R · a still of the information desk
+16,16.19,Use it · T18 · C,"information gap: an arrivals board and a passenger list, four gaps each","V19 T · a board and a list, facing pages"
+16,16.20,Use it · T19 · C,"solve a partner's travel problem, then swap",V22 O · a four-move strip with printed criteria
+16,16.21,Real Life · T04 · C/S,"the box of 8: *Excuse me, can you help me? · I've lost my bag* (chunk) *· Where's the information desk? · My flight is late · Is there another one? · Which gate? · Thank you so much · Keep in touch!*",V22 O · the arrival day as eight steps across the terminal map
+16,16.22,Real Life · T06 · S,match the 8 phrases to 8 moments on an arrival day,"V06 O · eight panels, one per desk and one goodbye"
+16,16.23,Real Life · T07/T11 · C/S,"complete a 6-line help exchange, then check",V14 T · a lost-property form half completed
+16,16.24,Real Life · T19 · C,"the level's last role-play: four desks round the room, four problem cards; everyone solves two and helps with one",V19 T · four desk signs and eight problem cards
+16,16.25,Read it · T16/T06 · S,pre-reading: put 6 events of an arrival day in order,"V04 P · six arrival pictures, scrambled"
+16,16.26,Read it · T17 · S,"read the 140-word story, 6 items, two across paragraphs","V23 O · the story as a letter home, two paragraphs"
+16,16.27,Read it · T21 · S,personal line: what was your longest journey?,V07 T · a world map with one line to draw
+16,16.28,On Screen · T05+T17 · C/S,"video 16: predict the four problems from four stills; gist, 4 items",V24 R · four stills in a row
+16,16.29,On Screen · T04+T19 · C,watch for the 8 phrases; perform one exchange from memory,"V22 O · the eight-step strip, half of it blanked"
+16,16.30,Write it · T17+T07 · S,"the model thank-you message: the greeting, the reason, the wish, the sign-off",V23 O · the message with three callouts
+16,16.31,Write it · T21 · S,"write a thank-you message to someone who helped you, 50 w",V23 O · a blank message card with the checklist
+16,16.32,Can I? · T22 · S,"Can I? ten items across the four auxiliaries, the airport lexis, the two intonation patterns and the two functions","V21 O · a sixteen-segment bar — the level, not the unit"

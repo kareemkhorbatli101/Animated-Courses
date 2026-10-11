@@ -1,0 +1,18 @@
+code,scope,name,what it tests
+E1,per-exercise,identity and placement,"id, unit, slot, position and global number agree; the exercise appears once"
+E2,per-exercise,skeleton conformance,"slot, type, path and minutes match the skeleton; only rows 9, 14, 17 vary, within their pair"
+E3,per-exercise,item form,rubric <=8 words from the template; example item 0; count in band; the eleven item-writing rules; no script beside its own audio task
+E4,per-exercise,lexis and coverage,every word in the cumulative Word File; >=98% coverage in texts; <=3 glossed items in a Model
+E5,per-exercise,key integrity,key present and shaped for the type; variants listed; no letter over 40%; no repeated key sequence in the unit
+E6,per-exercise,visual integrity,"exists, type and class declared, referred to by the rubric or carrying task data, adjacent, labels in the Word File, alt text <=25 words, 4.5:1 and 3:1 contrast, colour never alone"
+E7,per-exercise,pedagogical warrant,one of the 32 descriptors; a one-verb statement of what the learner does; the no-guess test
+U1,per-unit,completeness and order,32 exercises in skeleton order; 270 +/- 10 minutes; Words before Hear it; one video; two listenings in two versions
+U2,per-unit,internal spacing,"each of the 48 new items three times inside the unit, in two or more slots"
+U3,per-unit,variety and investment,"no two consecutive types; five visual classes; one new visual type; four personalization exercises; Drills blocked, never interleaved"
+U4,per-unit,media integrity,audio 30-60 s clean and 30-70 s natural; video 60-150 s; scripts match recordings; two hesitation or overlap features in the natural take
+U5,per-unit,descriptor closure,"four descriptors, each with two exercises and one Can I? item; Can I? covers grammar, lexis, function, pronunciation"
+X1,per earlier unit,lexical,no item of p re-taught in u; items of p due in u appear; u's Word File a superset of p's; the ten-encounter schedule on track
+X2,per earlier unit,grammatical,u teaches no point of p; u uses one of p's points productively; u uses nothing from a later unit; no Notice box contradiction
+X3,per earlier unit,duplication and keys,no shared 7-gram outside the allow-list; no repeated item set; different key-letter sequences; at most two shared phrases; no reused unit-opener visual
+X4,per earlier unit,world continuity,"every stated fact about every recurring character agrees, or the text accounts for the change; places and spellings match; the drawn cast matches"
+X5,per earlier unit,the ladder,"reading length, sentence length, new-item load, audio wpm and output length all >= p's; coverage >=98%; no text easier by more than one band"
