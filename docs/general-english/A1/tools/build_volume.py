@@ -10,7 +10,9 @@ import sys
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TITLES = {1: 'Hello', 2: 'In the Class', 3: "Who's This?", 4: 'Where I Live',
           5: 'Every Day', 6: 'She Works Here', 7: 'Food and Drink',
-          8: 'In the Town', 9: 'I Can Do That', 10: 'Last Weekend'}
+          8: 'In the Town', 9: 'I Can Do That', 10: 'Last Weekend',
+          11: 'A Day Out', 12: 'Last Year', 13: 'Right Now',
+          14: 'Next Week', 15: 'Bigger and Better'}
 GRAMMAR = {1: 'am, is, are · my, your, his, her',
            2: "questions and short answers · isn't, aren't · a/an · this, that",
            3: "possessive 's · plural nouns · our, their",
@@ -20,17 +22,23 @@ GRAMMAR = {1: 'am, is, are · my, your, his, her',
            7: 'some, any · countable and uncountable · like',
            8: 'prepositions of place · imperatives',
            9: "can, can't",
-           10: 'was, were · past time words'}
+           10: 'was, were · past time words',
+           11: 'past simple, regular verbs',
+           12: 'past simple, irregular verbs · questions with did',
+           13: 'present continuous · beside the present simple',
+           14: 'going to',
+           15: 'comparatives · adjectives'}
 
 
 def front_matter(kind):
     rows = '\n'.join(
-        f'| **{n}** | {TITLES[n]} | {GRAMMAR[n]} |' for n in sorted(TITLES))
+        f'| **{k}** | {TITLES[k]} | {GRAMMAR[k]} |' for k in sorted(TITLES))
+    n = len(TITLES)
     return f"""# English for Daily Life
 
-## A1.1 — {kind}
+## A1 — {kind}
 
-**Ten units · 380 exercises · 220 figures**
+**{n} units · {n * 38} exercises · {n * 22} figures**
 
 A beginner's course. Everything happens on one street, Hill Road, and the
 same eight people live there, so the only new thing on any page is the
@@ -138,7 +146,7 @@ if __name__ == '__main__':
     os.makedirs(os.path.join(HERE, 'build'), exist_ok=True)
     print(build('Student Book', nums,
                 os.path.join(HERE, 'units', 'a11-u{:02d}.md'),
-                os.path.join(HERE, 'build', f'EFDL-A1.1-StudentBook-u01-{last:02d}')))
+                os.path.join(HERE, 'build', f'EFDL-A1-StudentBook-u01-{last:02d}')))
     print(build('Answer Key', nums,
                 os.path.join(HERE, 'keys', 'a11-u{:02d}-key.md'),
-                os.path.join(HERE, 'build', f'EFDL-A1.1-AnswerKey-u01-{last:02d}')))
+                os.path.join(HERE, 'build', f'EFDL-A1-AnswerKey-u01-{last:02d}')))

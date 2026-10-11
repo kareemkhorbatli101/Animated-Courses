@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "A day out",
+  "w": 1280,
+  "h": 430,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things from the day",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Add the ending",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Two endings to hear",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "data",
+  "caption": "Four people yesterday",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "document",
+  "caption": "What happened and when",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "2",
+  "job": "contrast",
+  "caption": "The form does not change",
+  "w": 1280,
+  "h": 564,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "2",
+  "job": "contrast",
+  "caption": "The short negative",
+  "w": 1280,
+  "h": 194,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Questions about yesterday",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "3",
+  "job": "data",
+  "caption": "Four voices",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "3",
+  "job": "document",
+  "caption": "The day at the clinic",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "3",
+  "job": "data",
+  "caption": "Four times to hear",
+  "w": 1280,
+  "h": 330,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "4",
+  "job": "data",
+  "caption": "Lili talks about the day",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Ask about yesterday",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "5",
+  "job": "document",
+  "caption": "A note about the trip",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages after the day",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "6",
+  "job": "document",
+  "caption": "A form about yesterday",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines about yesterday",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "7",
+  "job": "document",
+  "caption": "The ticket for the park",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "7",
+  "job": "contrast",
+  "caption": "Yesterday and today",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

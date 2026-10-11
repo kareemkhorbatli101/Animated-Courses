@@ -440,6 +440,77 @@ def prop(cv: Canvas, name, x, y, s=1.0, col=None):
         cv.circle(x, y - u * 0.10, u * 0.20, C['leaf'])
         cv.circle(x - u * 0.15, y + u * 0.01, u * 0.14, C['leaf_dk'])
         cv.circle(x + u * 0.15, y + u * 0.01, u * 0.14, C['leaf'])
+    elif k == 'shirt':
+        cv.path(f'M{x-u*0.26:.2f},{y-u*0.18:.2f} L{x-u*0.10:.2f},{y-u*0.24:.2f} '
+                f'L{x:.2f},{y-u*0.14:.2f} L{x+u*0.10:.2f},{y-u*0.24:.2f} '
+                f'L{x+u*0.26:.2f},{y-u*0.18:.2f} L{x+u*0.20:.2f},{y+u*0.24:.2f} '
+                f'L{x-u*0.20:.2f},{y+u*0.24:.2f} Z', fill=col or C['sky'])
+        cv.line(x, y - u * 0.12, x, y + u * 0.22, shade(col or C['sky'], 0.80),
+                sw=u * 0.022)
+    elif k == 'coat':
+        cv.path(f'M{x-u*0.28:.2f},{y-u*0.20:.2f} L{x-u*0.08:.2f},{y-u*0.26:.2f} '
+                f'L{x+u*0.08:.2f},{y-u*0.26:.2f} L{x+u*0.28:.2f},{y-u*0.20:.2f} '
+                f'L{x+u*0.24:.2f},{y+u*0.28:.2f} L{x-u*0.24:.2f},{y+u*0.28:.2f} Z',
+                fill=col or C['brown'])
+        cv.line(x, y - u * 0.24, x, y + u * 0.28, shade(col or C['brown'], 0.76),
+                sw=u * 0.026)
+        for i in range(3):
+            cv.circle(x - u * 0.05, y - u * 0.10 + i * u * 0.13, u * 0.025,
+                      C['amber'])
+    elif k == 'shoes':
+        for sx in (-1, 1):
+            cv.path(f'M{x+sx*u*0.14-u*0.11:.2f},{y+u*0.10:.2f} '
+                    f'q0,{-u*0.16:.2f} {u*0.09:.2f},{-u*0.16:.2f} '
+                    f'l{u*0.04:.2f},{u*0.10:.2f} l{u*0.09:.2f},{u*0.04:.2f} '
+                    f'q{u*0.04:.2f},{u*0.03:.2f} 0,{u*0.02:.2f} Z',
+                    fill=col or C['ink'])
+    elif k == 'hat':
+        cv.ellipse(x, y + u * 0.10, u * 0.30, u * 0.08, col or C['red'])
+        cv.path(f'M{x-u*0.17:.2f},{y+u*0.10:.2f} q0,{-u*0.28:.2f} '
+                f'{u*0.17:.2f},{-u*0.28:.2f} q{u*0.17:.2f},0 {u*0.17:.2f},{u*0.28:.2f} Z',
+                fill=col or C['red'])
+        cv.rect(x - u * 0.17, y + u * 0.02, u * 0.34, u * 0.06,
+                shade(col or C['red'], 0.74))
+    elif k == 'dress':
+        cv.path(f'M{x-u*0.12:.2f},{y-u*0.22:.2f} L{x+u*0.12:.2f},{y-u*0.22:.2f} '
+                f'L{x+u*0.10:.2f},{y-u*0.04:.2f} L{x+u*0.26:.2f},{y+u*0.26:.2f} '
+                f'L{x-u*0.26:.2f},{y+u*0.26:.2f} L{x-u*0.10:.2f},{y-u*0.04:.2f} Z',
+                fill=col or C['pink'])
+    elif k == 'trousers':
+        cv.path(f'M{x-u*0.18:.2f},{y-u*0.22:.2f} L{x+u*0.18:.2f},{y-u*0.22:.2f} '
+                f'L{x+u*0.16:.2f},{y+u*0.26:.2f} L{x+u*0.03:.2f},{y+u*0.26:.2f} '
+                f'L{x:.2f},{y-u*0.02:.2f} L{x-u*0.03:.2f},{y+u*0.26:.2f} '
+                f'L{x-u*0.16:.2f},{y+u*0.26:.2f} Z', fill=col or C['blue'])
+    elif k == 'plane':
+        cv.path(f'M{x-u*0.30:.2f},{y:.2f} L{x+u*0.14:.2f},{y-u*0.07:.2f} '
+                f'L{x+u*0.30:.2f},{y:.2f} L{x+u*0.14:.2f},{y+u*0.07:.2f} Z',
+                fill=col or C['silver'])
+        cv.poly([(x - u * 0.04, y - u * 0.04), (x - u * 0.16, y - u * 0.24),
+                 (x - u * 0.24, y - u * 0.22), (x - u * 0.16, y - u * 0.02)],
+                shade(col or C['silver'], 0.84))
+        cv.poly([(x - u * 0.04, y + u * 0.04), (x - u * 0.16, y + u * 0.24),
+                 (x - u * 0.24, y + u * 0.22), (x - u * 0.16, y + u * 0.02)],
+                shade(col or C['silver'], 0.84))
+    elif k == 'train':
+        cv.path(rr_path(x - u * 0.30, y - u * 0.18, u * 0.60, u * 0.34, 14 * s,
+                        14 * s, 4 * s, 4 * s), fill=col or C['green'])
+        cv.rect(x - u * 0.24, y - u * 0.12, u * 0.18, u * 0.14, C['glass'], r=u * 0.02)
+        cv.rect(x + u * 0.02, y - u * 0.12, u * 0.18, u * 0.14, C['glass'], r=u * 0.02)
+        cv.rect(x - u * 0.30, y + u * 0.14, u * 0.60, u * 0.06, C['ink'])
+        for sx in (-0.18, 0.18):
+            cv.circle(x + u * sx, y + u * 0.22, u * 0.06, C['ink'])
+    elif k == 'boat':
+        cv.path(f'M{x-u*0.30:.2f},{y+u*0.10:.2f} L{x+u*0.30:.2f},{y+u*0.10:.2f} '
+                f'L{x+u*0.20:.2f},{y+u*0.24:.2f} L{x-u*0.20:.2f},{y+u*0.24:.2f} Z',
+                fill=col or C['red'])
+        cv.line(x, y + u * 0.08, x, y - u * 0.28, C['brown'], sw=u * 0.030)
+        cv.poly([(x + u * 0.02, y - u * 0.26), (x + u * 0.24, y + u * 0.04),
+                 (x + u * 0.02, y + u * 0.04)], C['paper'])
+    elif k == 'passport':
+        cv.rect(x - u * 0.17, y - u * 0.24, u * 0.34, u * 0.48, deep(C['navy']),
+                r=u * 0.025)
+        cv.circle(x, y - u * 0.04, u * 0.09, 'none', stroke=C['amber'], sw=u * 0.022)
+        cv.rect(x - u * 0.09, y + u * 0.10, u * 0.18, u * 0.030, C['amber'])
     else:
         raise KeyError(f'no prop {name!r}')
 

@@ -365,3 +365,61 @@ Book, 380 in the Answer Key.
 drift 220/220 · gate 210/210 · visual 150/150 · cross 360/360 over 45 pairs ·
 lexis 0 outside the Word File · keys 71/71 · document 7/7 · coupling 3 read
 and judged sound, 0 gaps · **mutation 30 live, 0 inert**.
+
+## 2026-10-11 (sixth pass) · Units 11 to 15
+
+A1.2 is begun. **Fifteen units, 570 exercises, 330 figures**, a 236-page
+Student Book and a 33-page Answer Key.
+
+| | | |
+|---|---|---|
+| 11 | A Day Out | past simple, regular verbs |
+| 12 | Last Year | past simple, irregular · questions with did |
+| 13 | Right Now | present continuous, beside the simple |
+| 14 | Next Week | going to |
+| 15 | Bigger and Better | comparatives |
+
+New in the engine: ten props (clothes, plane, train, boat, passport) and
+three plates — `verb_change`, `calendar`, `compare_two`.
+
+### What the new checks earned on their first real use
+
+They were built on the argument that a fault found in ten units is cheaper
+than the same fault found in twenty. Writing five more units is the first
+test of that, and the answer is clear.
+
+- **`check_lexis` found 56 words outside the Word File in the new units**,
+  including `than` — the single most important word in a unit about
+  comparatives — missing from Unit 15's own vocabulary. It also caught four
+  forward references: `went` used in Unit 11 before Unit 12 teaches it,
+  `train` in Unit 12 but registered to Unit 13, `later` and `soon` used two
+  units before they are taught, and a deliberate wrong form, `goed`, built
+  from a word the course never teaches.
+- **`check_keys` held all 106 checks** across fifteen units with no drift
+  between a caption in a unit and the caption its figure module declares.
+- **`check_coupling` had nothing new to report** beyond one first-exposure
+  noticing task (Unit 11 W1, where the past forms are in the speech bubbles
+  and the learner transfers them) — judged sound, since the task also
+  requires matching the right person to the right verb.
+- **`mutate` stayed 30 live, 0 inert** when pointed at Unit 12, so the suite
+  is not tuned to the units it was built on.
+- **`check_doc` passed on the 236-page volume**, which is the same `keepNext`
+  machinery holding at more than twice the page count.
+
+### The engine fault worth recording
+
+`verb_change` picks the changed ending out in amber, and the engine's own
+contrast check refused it: **plain amber on deep teal is 2.6:1**. The fix
+lightens the colour until it passes — but the first version of that fix was
+an unbounded `while contrast < 4.5: lighten`, and it **never returned**,
+because `shade()` converges on white asymptotically and integer truncation
+stalls it a few points short. A loop that cannot reach its own exit
+condition hangs the build. It is bounded now.
+
+### State
+
+drift 330/330 · gate 315/315 · visual 225/225 (4,620 figure passes) ·
+cross **840/840 over 105 pairs** · lexis 0 outside the Word File ·
+keys 106/106 · document 7/7 · mutation 30 live, 0 inert.
+
+Units 16 to 20 remain.

@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "contrast",
+  "caption": "Some verbs change",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things from last year",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Eight new past forms",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Add it or change it",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "data",
+  "caption": "Four people last year",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "document",
+  "caption": "Where people went",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Did and the plain verb",
+  "w": 1280,
+  "h": 468,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Questions and answers",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "2",
+  "job": "data",
+  "caption": "Who did what",
+  "w": 1280,
+  "h": 378,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "3",
+  "job": "data",
+  "caption": "Four voices about last year",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "3",
+  "job": "document",
+  "caption": "A birthday last year",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four ways to travel",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "4",
+  "job": "data",
+  "caption": "Sam talks about last year",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Ask about last year",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "5",
+  "job": "document",
+  "caption": "A letter about a trip",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages about a party",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "6",
+  "job": "document",
+  "caption": "A form about last year",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines about last year",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "7",
+  "job": "document",
+  "caption": "A plane ticket",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "7",
+  "job": "contrast",
+  "caption": "Then and now",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

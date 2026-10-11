@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "Two bikes to choose",
+  "w": 1280,
+  "h": 434,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "contrast",
+  "caption": "Add er to the word",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Opposites",
+  "w": 1280,
+  "h": 564,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "data",
+  "caption": "Two cars to compare",
+  "w": 1280,
+  "h": 434,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Long words take more",
+  "w": 1280,
+  "h": 564,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "document",
+  "caption": "Four things and their prices",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "2",
+  "job": "contrast",
+  "caption": "than between the two",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Questions about two things",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "2",
+  "job": "data",
+  "caption": "Which one is which",
+  "w": 1280,
+  "h": 316,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "3",
+  "job": "data",
+  "caption": "Two coats",
+  "w": 1280,
+  "h": 376,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "3",
+  "job": "document",
+  "caption": "Two towns",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four things to compare",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "4",
+  "job": "data",
+  "caption": "Choosing in the shop",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Ask and choose",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "5",
+  "job": "document",
+  "caption": "A notice in the shop",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages about a bike",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "6",
+  "job": "document",
+  "caption": "A form to compare two things",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines comparing",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "7",
+  "job": "document",
+  "caption": "Two buses to the beach",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "7",
+  "job": "data",
+  "caption": "Two hats in the window",
+  "w": 1280,
+  "h": 376,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

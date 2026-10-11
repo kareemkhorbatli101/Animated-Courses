@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import math
 
-from draw import C, Canvas, arc, deep, rr_path, shade, tw
+from draw import C, Canvas, arc, contrast, deep, rr_path, shade, tw
 from people import draw_person
 from cast import who
 import world as W
@@ -909,4 +909,107 @@ def then_now(items, h=None, left='LAST WEEKEND', right='NOW'):
         cv.path(f'M{50+bw-6:.2f},{ly+31:.2f} h26', stroke=C['ink_mute'], sw=5)
         cv.path(f'M{50+bw+10:.2f},{ly+21:.2f} l12,10 l-12,10', stroke=C['ink_mute'], sw=5,
                 fill='none')
+    return cv
+
+
+def verb_change(pairs, h=None, size=38):
+    """base form -> past form, with the part that changes picked out.
+
+    pairs = [(base, past, 'add' | 'new')]. `add` means the ending is glued on
+    and the stem survives, which is the whole point of the regular past;
+    `new` means the word changes and there is nothing to add.
+    """
+    h = h or (84 + 98 * len(pairs))
+    cv = _cv(h, C['cream'])
+    for i, (base, past, kind) in enumerate(pairs):
+        y = 50 + i * 98
+        bw = tw(base, size, 'SemiBold') + 48
+        cv.rect(150, y, bw, 68, C['paper'], r=12, stroke=C['silver'], sw=2.5)
+        cv.text(base, 150 + bw / 2, y + 47, size, anchor='middle', bg=C['paper'])
+        ax = 150 + bw + 28
+        cv.path(f'M{ax:.2f},{y+34:.2f} h70', stroke=C['ink_mute'], sw=6)
+        cv.path(f'M{ax+56:.2f},{y+22:.2f} l14,12 l-14,12', stroke=C['ink_mute'],
+                sw=6, fill='none')
+        sx = ax + 110
+        pw = tw(past, size, 'Bold') + 48
+        col = deep(C['teal'] if kind == 'add' else C['purple'])
+        cv.rect(sx, y, pw, 68, col, r=12)
+        cv.rect(sx, y, pw, 22, shade(col, 1.16), r=12)
+        if kind == 'add' and past.startswith(base):
+            stem, end = base, past[len(base):]
+            wstem = tw(stem, size, 'Bold')
+            x0 = sx + (pw - tw(past, size, 'Bold')) / 2
+            cv.text(stem, x0, y + 47, size, fill='#FFFFFF', weight='Bold', bg=col)
+            # the ending has to stand out AND be legal: plain amber on deep
+            # teal is 2.6:1, which the engine's own contrast check refused.
+            # Lighten it until it passes, then use that.
+            # Bounded, because shade() converges on white asymptotically and
+            # integer truncation stalls it a few points short: an unbounded
+            # `while contrast < 4.5` loop here never returned.
+            hi = C['amber']
+            for _ in range(14):
+                if contrast(hi, col) >= 4.5:
+                    break
+                hi = shade(hi, 1.10)
+            else:
+                hi = '#FFFFFF'
+            cv.text(end, x0 + wstem, y + 47, size, fill=hi, weight='Bold', bg=col)
+        else:
+            cv.text(past, sx + pw / 2, y + 47, size, fill='#FFFFFF', weight='Bold',
+                    anchor='middle', bg=col)
+        cv.text('a new word' if kind == 'new' else 'add the ending',
+                sx + pw + 26, y + 45, 22, fill=C['ink_soft'], bg=cv.bg)
+    return cv
+
+
+def calendar(title, days, marks, h=520):
+    """A week or a month with things written on the days."""
+    cv = _cv(h, C['paper'])
+    gw = W_ - 160
+    x, y = 80, 44
+    cv.text(title, x, y + 8, 30, weight='Bold', bg=cv.bg)
+    y += 40
+    cols = len(days)
+    cw = gw / cols
+    hc = deep(C['navy'])
+    cv.rect(x, y, gw, 54, hc, r=8)
+    for i, d in enumerate(days):
+        cv.fit(d, x + cw * i + 12, y + 36, cw - 24, 24, fill='#FFFFFF',
+               weight='Bold', bg=hc)
+    bh = h - y - 54 - 40
+    for i in range(cols):
+        bg = C['cream'] if i % 2 == 0 else C['paper']
+        cv.rect(x + cw * i, y + 54, cw, bh, bg)
+        cv.rect(x + cw * i, y + 54, cw, bh, 'none', stroke=C['rule'], sw=1.5)
+        for j, m in enumerate(marks.get(i, [])):
+            cv.rect(x + cw * i + 10, y + 70 + j * 54, cw - 20, 42,
+                    shade(C['teal'], 1.55), r=8)
+            cv.fit(m, x + cw * i + 20, y + 98 + j * 54, cw - 40, 23,
+                   bg=shade(C['teal'], 1.55))
+    cv.rect(x, y, gw, 54 + bh, 'none', r=8, stroke=C['steel'], sw=2.5)
+    return cv
+
+
+def compare_two(a, b, rows, h=None):
+    """Two things side by side on the same measures. For comparatives.
+
+    a, b = (name, prop, colour); rows = [(label, a_value, b_value)]
+    """
+    h = h or (260 + 58 * len(rows))
+    cv = _cv(h, C['paper'])
+    cw = (W_ - 150) / 2
+    for i, (name, pname, col) in enumerate((a, b)):
+        x = 50 + i * (cw + 50)
+        cv.rect(x, 30, cw, 180, C['cream'], r=16, stroke=C['silver'], sw=2)
+        W.prop(cv, pname, x + cw / 2, 108, s=1.7, col=C[col] if col else None)
+        cv.fit(name, x + 20, 190, cw - 40, 28, weight='Bold', anchor='start',
+               bg=C['cream'])
+    for j, (lab, va, vb) in enumerate(rows):
+        ly = 250 + j * 58
+        cv.text(lab, 50, ly, 25, fill=C['ink_soft'], bg=cv.bg)
+        for i, v in enumerate((va, vb)):
+            x = 50 + i * (cw + 50)
+            cv.text(str(v), x + cw - 20, ly, 27, weight='SemiBold', anchor='end',
+                    bg=cv.bg)
+        cv.line(50, ly + 14, W_ - 50, ly + 14, C['rule'], sw=1.5)
     return cv

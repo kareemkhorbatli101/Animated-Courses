@@ -27,7 +27,8 @@ NAMES = set("""nadia sam lili marek fatima ben rosa omar hill green new alder
 chen haddad saleh okafor nowak wright silva kowalski ana jan
 china egypt brazil poland spain japan nigeria turkey england
 monday tuesday wednesday thursday friday saturday sunday
-english computers football music cooking swimming spanish hannah""".split())
+english computers football music cooking swimming spanish hannah
+hr lagos madrid beijing nigeria january june july august may""".split())
 
 # contraction wreckage: the apostrophe splits the token
 CONTRACTION = set("""isn aren wasn weren don doesn didn can cann won shouldn
