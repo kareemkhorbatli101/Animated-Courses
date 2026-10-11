@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Hill Road",
+  "w": 1280,
+  "h": 620,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "data",
+  "caption": "Three times of day",
+  "w": 1280,
+  "h": 430,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "1",
+  "job": "lexis",
+  "caption": "Four people on Hill Road",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "data",
+  "caption": "The alphabet in seven sounds",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "lexis",
+  "caption": "One to ten",
+  "w": 1280,
+  "h": 300,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Two sounds in hello and name",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "2",
+  "job": "contrast",
+  "caption": "am, is and are",
+  "w": 1280,
+  "h": 564,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Two words become one",
+  "w": 1280,
+  "h": 506,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "2",
+  "job": "contrast",
+  "caption": "my, your, his and her",
+  "w": 1280,
+  "h": 564,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "3",
+  "job": "data",
+  "caption": "Four voices",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "3",
+  "job": "document",
+  "caption": "The class list",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Eight countries",
+  "w": 1280,
+  "h": 440,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "4",
+  "job": "contrast",
+  "caption": "A question and an answer",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "4",
+  "job": "data",
+  "caption": "Marek introduces Omar",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "5",
+  "job": "document",
+  "caption": "Three name badges",
+  "w": 1280,
+  "h": 360,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "5",
+  "job": "document",
+  "caption": "Two messages",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "6",
+  "job": "document",
+  "caption": "A form for a new student",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "6",
+  "job": "data",
+  "caption": "Three lines about you",
+  "w": 1280,
+  "h": 346,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "7",
+  "job": "document",
+  "caption": "Signs on Hill Road",
+  "w": 1280,
+  "h": 420,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "7",
+  "job": "document",
+  "caption": "A badge with no name",
+  "w": 1280,
+  "h": 330,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things in this unit",
+  "w": 1280,
+  "h": 300,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

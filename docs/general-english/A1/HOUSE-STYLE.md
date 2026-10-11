@@ -23,7 +23,7 @@ And the correction that followed it:
 |---|---|---|
 | Numbered exercises | 59 | **38**, labelled `W1`–`W3`, `1A`–`1F`, `2A`–`2F`, `3A`–`3D`, `4A`–`4D`, `5A`–`5D`, `6A`–`6C`, `7A`–`7C`, `8A`–`8E` |
 | Parts | 11 | **9** (Warm Up + eight) |
-| Total words | 5,000–6,800 | **2,400–3,600** |
+| Total words | 5,000–6,800 | **at most 3,600** |
 | Texts over 60 words | at most 5 | **at most 3** |
 | Longest text | 190 words | **80 words** |
 | Figures | 28 | **22**, two to four per part |
@@ -53,6 +53,15 @@ come back.
 | Clause depth | at most 2 | **at most 1** |
 | Exercise item | mean ≤ 11, none > 22 | **mean ≤ 7, none > 12** |
 | Rubric | at most 20 words | **at most 12** |
+
+**A note on that row, because it caught me out.** The first draft of this
+file said *2,400–3,600 words*, and that is a floor. Unit 1 came in at 1,012
+words and was the better for it: thirty-eight exercises, twenty-two figures,
+forty new words, and nothing padded to reach a number. The floor would have
+made me pad it. It is gone. This is exactly the mistake B1 paid three
+rejected drafts to learn, and I made it again in the first hour of writing
+the A1 spec — which is the best argument I have for keeping the rule written
+down in capital letters.
 
 One clause is the A1 default. A second clause needs a reason, and *and* or
 *but* is the only join a unit may use before it has taught another.

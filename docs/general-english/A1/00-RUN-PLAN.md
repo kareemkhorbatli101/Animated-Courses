@@ -11,6 +11,17 @@ Branch: `claude/jolly-johnson-9khdgl`. Target directory: `docs/general-english/A
 
 ## 0. Read this part first: two corrections to what I told you earlier
 
+> **Superseded in part, 2026-10-11.** You told me the A2 I shipped was a
+> disaster, and on the visual side you were right: its figures were rounded
+> boxes with sentences in them and its whole cast was one grey pill repeated.
+> So this plan no longer reuses `A2/tools/figures.py`. A1 gets **new
+> machinery** — about 2,100 new lines across `draw.py`, `people.py`,
+> `cast.py`, `world.py` and `plates.py` — documented in `VISUAL-SYSTEM.md`
+> and already proven on Unit 1. Everything else below stands: the EFDL
+> naming, the shell, the ledgers, the gate pattern, the check architecture.
+> Where this document says the figure library is inherited, read
+> `VISUAL-SYSTEM.md` instead.
+
 **(a) The A1 plan you approved describes a course that does not belong to your
 series.** `english-a1/PLAN.md` (v2, 2,665 lines) invents a standalone course —
 seventeen units, its own figure system, its own tool names, its own naming
@@ -88,7 +99,7 @@ irregular-verb list, sound-symbol table, and the Can-Do record.
 - **No recorded audio or video.** The container has `ffmpeg` but no voices and
   no licence to synthesise any. The run produces scripts, timings, speaker
   notes and the recording spec. The Audio File is complete; the audio is not.
-- **No photographs.** Every visual is drawn by `tools/figures.py` from data.
+- **No photographs.** Every visual is drawn by the new engine from data.
   This is a feature — it is why all 440 are checkable — but it means the book
   has no photographic register at all, where American Headway has one on
   every page.

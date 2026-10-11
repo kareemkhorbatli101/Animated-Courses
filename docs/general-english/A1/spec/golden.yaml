@@ -1,0 +1,67 @@
+# The A1 architecture. CEILINGS ONLY.
+#
+# Derived, not measured: there is no A1 source book in this repository. Every
+# number is set strictly below the figure measured from the B2 source that B1
+# used (source/PE_B2_U08_StudentBook.docx), by the ratio the CEFR descriptors
+# and the American Headway Starter research support. It is declared derived
+# wherever it is quoted.
+#
+# There are no floors. Not on words, not on sentence length, not on reading
+# grade, not on figure count. The first B1 spec had them and they were the
+# single worst thing in that project: they made a unit harder and the suite
+# called it quality. A unit of 1,400 words that teaches its forty items and
+# reads cleanly is a PASS.
+schema_version: 1
+level: A1
+derived_from: {file: PE_B2_U08_StudentBook.docx, level: B2, note: ceilings scaled down}
+
+unit:
+  title_pattern: '^\*\*Unit (\d+): (.+)\*\*$'
+  strap_pattern: '^\*In this unit you.+\*$'
+  exercises: 38
+  words_max: 3600          # ceiling only; no minimum exists
+
+sections:
+  - {part: Warm Up, header: "**Warm Up**", labels: [W1, W2, W3]}
+  - {part: Part 1, header: "**Part 1 · Words & Sounds**", labels: [1A, 1B, 1C, 1D, 1E, 1F]}
+  - {part: Part 2, header: "**Part 2 · Grammar**", labels: [2A, 2B, 2C, 2D, 2E, 2F]}
+  - {part: Part 3, header: "**Part 3 · Listening**", labels: [3A, 3B, 3C, 3D]}
+  - {part: Part 4, header: "**Part 4 · Speaking**", labels: [4A, 4B, 4C, 4D]}
+  - {part: Part 5, header: "**Part 5 · Reading**", labels: [5A, 5B, 5C, 5D]}
+  - {part: Part 6, header: "**Part 6 · Writing**", labels: [6A, 6B, 6C]}
+  - {part: Part 7, header: "**Part 7 · Real-World File**", labels: [7A, 7B, 7C]}
+  - {part: Part 8, header: "**Part 8 · Review & Can-Do**", labels: [8A, 8B, 8C, 8D, 8E]}
+
+exercise:
+  label_pattern: '^\*\*(W\d|\d[A-H])\*\*\s+(.+)$'
+  rubric_max_words: 12
+  example_pattern: '^0\.\s+.+\*\(example\)\*$'
+  example_required: true
+  items_min: 3
+  items_max: 8
+  item_max_words: 12
+  item_mean_words_max: 7
+  not_needed_line: 'One option is not needed.'
+
+figures:
+  per_unit: 22
+  min_per_part: 2
+  max_per_part: 4
+  caption_pattern: '^\*Figure (\d+)\.(\d+) · (.+)\.\*$'
+  caption_max_words: 6
+  jobs: [data, contrast, lexis, document]      # there is no fifth job
+
+language:
+  mean_sentence_words_max: 8
+  max_sentence_words: 14
+  fk_grade_max: 2.0
+  long_texts_max: 3
+  long_text_words_max: 80
+
+mcq:
+  options: 3
+  option_pattern: '\((a|b|c)\)\s'
+  max_letter_share_per_unit: 0.45
+
+lexis:
+  new_items_max: 42
