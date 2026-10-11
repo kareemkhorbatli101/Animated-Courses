@@ -658,27 +658,24 @@ def classroom_scene(a, b, say_a, say_b=None, sitting=None, h=580, size=30,
     base = h * 0.90
     seated = sitting or []
     if seated:
-        # Solve the seated figure from the FLOOR up, not from a guess.
-        # draw_person puts the hip at ybase - 0.48H and the seated foot at
-        # hip + 0.285H, so the foot lands at ybase - 0.195H. Feet on the
-        # floor therefore means ybase = floor + 0.195H, and the hip then
-        # falls at floor - 0.285H, which is where the chair seat goes and
-        # just under where the desk top goes.
-        Hs = h * 0.42
-        yb = base + 0.195 * Hs
-        hip_y = base - 0.285 * Hs
-        # A desk top sits about 28cm above a 45cm seat. The seated figure
-        # gives 0.285H from floor to hip, so 28/45 of that is 0.177H above
-        # the hip -- mid-torso, not knee height.
-        desk_top = hip_y - 0.177 * Hs
+        # Solved from the floor up. draw_person puts the hip at ybase - 0.48H
+        # and the seated foot at hip + 0.268H, so feet on the floor means
+        # ybase = floor + 0.19H and the hip falls at floor - 0.29H -- the
+        # seat. The desk top is 0.177H above that, the scale equivalent of a
+        # 73cm desk over a 45cm seat.
+        Hs = h * 0.47
+        yb = base + 0.190 * Hs
+        hip_y = base - 0.290 * Hs
+        desk_top = hip_y - 0.140 * Hs
         for i, pid in enumerate(seated):
             x = W_ * (0.58 + i * 0.17)
-            W.prop(cv, 'chair', x, hip_y + h * 0.004, s=h / 300)
-            draw_person(cv, who(pid), x, yb, Hs, pose='sit', face=-0.3, shadow=False)
-            cv.ellipse(x, base + h * 0.006, Hs * 0.13, Hs * 0.022, C['ink'], opacity=0.11)
+            W.chair_back(cv, x, hip_y, Hs * 0.32, Hs * 0.42,
+                         C['steel'] if i % 2 else C['slate'])
+            draw_person(cv, who(pid), x, yb, Hs, pose='at_desk', face=-0.3,
+                        shadow=False)
         dx = W_ * 0.58 - W_ * 0.090
         dw = W_ * (0.17 * (len(seated) - 1)) + W_ * 0.21
-        W.table_scene(cv, dx, desk_top, dw, base - desk_top)
+        W.desk_run(cv, dx, desk_top, dw, base)
     pa = draw_person(cv, who(a), W_ * 0.16, base, h * 0.56, pose=pose_a, expr='talk',
                      face=0.5)
     pb = draw_person(cv, who(b), W_ * 0.40, base, h * 0.54, pose=pose_b, expr='smile',

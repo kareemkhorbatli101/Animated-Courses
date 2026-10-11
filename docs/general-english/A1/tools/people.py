@@ -75,12 +75,21 @@ POSES = {
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'walk':    dict(la=[(-0.036, 0.100), (-0.014, 0.208)], ra=[(0.038, 0.100), (0.064, 0.204)],
                     ll=[(-0.042, 0.210), (-0.072, 0.430)], rl=[(0.040, 0.212), (0.064, 0.436)]),
-    # Seated: the hip rests on the seat and the leg below it is SHORT --
-    # 0.285H to the foot, against 0.452H standing. The thigh is
-    # foreshortened to nothing because the figure faces the reader, and
-    # the desk in front hides where it would be.
+    # Seated. The first attempt shortened the leg and left it vertical,
+    # which does not read as sitting at all -- it reads as a short person
+    # standing behind the furniture, which is exactly what a reader said.
+    # What signals sitting is the BEND: a thigh going forward to the knee
+    # and a shin dropping from it. An L, not a line.
     'sit':     dict(la=[(-0.030, 0.100), (-0.014, 0.196)], ra=[(0.030, 0.100), (0.014, 0.196)],
-                    ll=[(-0.012, 0.112), (-0.018, 0.285)], rl=[(0.012, 0.112), (0.018, 0.285)]),
+                    ll=[(0.088, 0.050), (0.112, 0.268)], rl=[(0.126, 0.044), (0.152, 0.262)]),
+    # Seated at a desk: the bent leg of 'sit', plus forearms resting on the
+    # surface. Hands on the desk are the third sitting cue after the bend and
+    # the chair, and the cheapest one -- without it the arms hang into a lap
+    # the reader cannot see.
+    'at_desk': dict(la=[(-0.052, 0.058), (-0.082, 0.086)], ra=[(0.052, 0.058), (0.082, 0.086)],
+                    ll=[(0.088, 0.050), (0.112, 0.268)], rl=[(0.126, 0.044), (0.152, 0.262)]),
+    'sit_l':   dict(la=[(-0.030, 0.100), (-0.014, 0.196)], ra=[(0.030, 0.100), (0.014, 0.196)],
+                    ll=[(-0.126, 0.044), (-0.152, 0.262)], rl=[(-0.088, 0.050), (-0.112, 0.268)]),
     'carry':   dict(la=[(-0.028, 0.118), (-0.044, 0.244)], ra=[(0.022, 0.112), (0.036, 0.228)],
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'think':   dict(la=[(-0.020, 0.112), (-0.034, 0.228)], ra=[(0.078, 0.068), (0.026, -0.038)],
@@ -90,7 +99,7 @@ POSES = {
     'both_up': dict(la=[(-0.058, 0.040), (-0.096, -0.086)], ra=[(0.058, 0.040), (0.096, -0.086)],
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'write':   dict(la=[(-0.034, 0.100), (0.014, 0.176)], ra=[(0.046, 0.094), (0.072, 0.168)],
-                    ll=[(-0.012, 0.112), (-0.018, 0.285)], rl=[(0.012, 0.112), (0.018, 0.285)]),
+                    ll=[(0.088, 0.050), (0.112, 0.268)], rl=[(0.126, 0.044), (0.152, 0.262)]),
 }
 
 
@@ -371,7 +380,9 @@ def draw_person(cv: Canvas, p: Person, x: float, ybase: float, H: float,
         pts = [o] + [(o[0] + dx * H, o[1] + dy * H) for dx, dy in P[key]]
         _limb(cv, pts, trouser, leg_w)
         fx, fy = pts[-1]
-        cv.ellipse(fx + sgn * H * 0.014, fy + H * 0.014, H * 0.040, H * 0.019,
+        toe = 1 if P[key][-1][0] > P[key][0][0] else (-1 if P[key][-1][0] < P[key][0][0]
+                                                      else sgn)
+        cv.ellipse(fx + toe * H * 0.016, fy + H * 0.014, H * 0.040, H * 0.019,
                    shade(C['ink'], 1.30))
 
     # ---- arms ------------------------------------------------------------

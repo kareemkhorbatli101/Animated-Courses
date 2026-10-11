@@ -179,3 +179,50 @@ the tool I would have fixed Unit 2 and shipped a course with two Omars.
 Final state: drift 44/44 byte-identical, 0 missing · gate 21/21 on both
 units · visual 15/15 on both, 616 figure passes · cross-unit 8/8 · both
 books rebuilt in DOCX and PDF.
+
+## 2026-10-11 (third pass) · The sitting figures, properly
+
+The second attempt was rejected too, and correctly: *"but now the children
+aren't sitting."* They weren't. I had shortened the leg and left it
+**vertical**, under a see-through table. A short vertical leg under an open
+table is a short person standing behind it. Nothing in the picture said
+sitting.
+
+The reasoning that produced it — *"a seated figure facing the reader is a
+standing figure from the knee down"* — is wrong. It is true of the
+proportions and false of the reading, and a figure that measures correctly
+and reads wrongly is wrong.
+
+**Three cues say sitting.** Not one of them is proportion.
+
+1. **The bend.** A thigh going forward to the knee and a shin dropping from
+   it. An L, not a line. `sit` now carries that bend; `sit_l` mirrors it for
+   a figure facing the other way.
+2. **A chair you can see.** `world.chair_back()` draws a back behind the
+   shoulders and a seat edge under the hips. Thin chair legs peeping out
+   beside a body do not do it.
+3. **Hands on the desk.** The new `at_desk` pose rests the forearms on the
+   surface. The hand has to sit *above* the desk's top edge, since the desk
+   is drawn after the person — a hand three pixels below the edge is a hand
+   that does not exist.
+
+And one thing that stops it reading: **a desk that hides the sitter.** The
+first fix gave the desk a modesty panel to the floor, which boxed the
+students in so completely that only their heads showed. The panel is now
+shallow. The desk's job is to be a desk, not to hide the problem.
+
+### Drift, twice
+
+First sweep after the pose change: 5 changed, all expected. Second sweep
+after the shoe-direction fix: **9 changed**, because the toe now points the
+way the foot is going, and that touches every figure in the course
+containing a person. Both sweeps named the files; both were checked by eye
+before re-rendering; standing figures were compared before and after and are
+unchanged but for a two-pixel shoe.
+
+That is the whole argument for the tool. "I fixed the classroom" was true
+and incomplete twice over.
+
+Final: drift 44/44 byte-identical, 0 missing · gate 21/21 both units ·
+visual 15/15 both, 616 figure passes · cross-unit 8/8 · both books rebuilt
+in both formats.

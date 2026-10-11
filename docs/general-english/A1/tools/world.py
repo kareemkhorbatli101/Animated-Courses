@@ -460,3 +460,42 @@ def classroom(cv: Canvas, x, y, w, h):
     cv.ellipse(wx + ww * 0.28, wy + wh * 0.26, ww * 0.16, wh * 0.10, '#FFFFFF', opacity=0.9)
     # clock
     prop(cv, 'clock', x + w * 0.52, y + h * 0.17, s=w / 540)
+
+
+def chair_back(cv: Canvas, x, seat_y, w, h, col=None):
+    """The back of a chair, drawn BEHIND a seated person.
+
+    A seated figure needs something to be sitting on that the reader can
+    see. Thin chair legs peeping out beside the body do not do it.
+    """
+    col = col or C['blue']
+    cv.rect(x - w * 0.50, seat_y - h, w, h * 0.78, shade(col, 0.92), r=w * 0.10)
+    cv.rect(x - w * 0.50, seat_y - h, w, h * 0.26, shade(col, 1.10), r=w * 0.10)
+    for sx in (-1, 1):
+        cv.line(x + sx * w * 0.40, seat_y - h * 0.26, x + sx * w * 0.40, seat_y,
+                shade(col, 0.80), sw=w * 0.085)
+    cv.rect(x - w * 0.56, seat_y, w * 1.12, h * 0.10, shade(col, 0.84), r=w * 0.05)
+
+
+def desk_run(cv: Canvas, x, y, w, floor_y, top=None):
+    """A classroom desk with a SOLID front, like a real one.
+
+    An open table shows the legs of whoever is behind it, and a straight
+    vertical leg under a see-through table reads as standing. The modesty
+    panel is not decoration: it is what makes the figure read as seated.
+    """
+    top = top or C['wood']
+    front = shade(top, 0.86)
+    d = floor_y - y
+    # A shallow modesty panel, not a wall to the floor. The first version
+    # boxed the desk in completely and left nothing of the students showing
+    # but their heads. The bent legs read as seated on their own, so the
+    # desk's job is to be a desk, not to hide the problem.
+    cv.rect(x + w * 0.02, y + d * 0.16, w * 0.96, d * 0.20, front)
+    cv.rect(x + w * 0.02, y + d * 0.34, w * 0.96, 5, shade(top, 0.70))
+    for lx in (x + w * 0.03, x + w * 0.93):
+        cv.rect(lx, y + d * 0.16, w * 0.04, d * 0.84, shade(top, 0.78))
+        cv.rect(lx, floor_y - 7, w * 0.04, 7, shade(top, 0.62))
+    cv.rect(x, y, w, (floor_y - y) * 0.17, top, r=5)
+    cv.rect(x, y, w, (floor_y - y) * 0.07, shade(top, 1.14), r=5)
+    cv.rect(x, y + (floor_y - y) * 0.15, w, 4, shade(top, 0.70))
