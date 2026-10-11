@@ -323,6 +323,123 @@ def prop(cv: Canvas, name, x, y, s=1.0, col=None):
         cv.line(x, y - u * 0.30, x, y + u * 0.24, C['brown'], sw=u * 0.040)
         cv.path(f'M{x:.2f},{y+u*0.24:.2f} a{u*0.09:.2f},{u*0.09:.2f} 0 0 1 '
                 f'{-u*0.18:.2f},0', stroke=C['brown'], sw=u * 0.040)
+    elif k == 'bed':
+        cv.rect(x - u * 0.34, y - u * 0.02, u * 0.68, u * 0.20, col or C['wood'], r=u * 0.02)
+        cv.rect(x - u * 0.34, y - u * 0.26, u * 0.14, u * 0.26, shade(col or C['wood'], 0.86),
+                r=u * 0.02)
+        cv.rect(x - u * 0.22, y - u * 0.10, u * 0.54, u * 0.09, C['paper'], r=u * 0.02)
+        cv.rect(x - u * 0.20, y - u * 0.16, u * 0.18, u * 0.09, C['cloud'], r=u * 0.02)
+        cv.rect(x - u * 0.02, y - u * 0.10, u * 0.34, u * 0.09, C['sky'], r=u * 0.02)
+    elif k == 'sofa':
+        cv.rect(x - u * 0.34, y - u * 0.18, u * 0.68, u * 0.26, col or C['teal'], r=u * 0.05)
+        cv.rect(x - u * 0.34, y - u * 0.30, u * 0.68, u * 0.16, shade(col or C['teal'], 1.12),
+                r=u * 0.05)
+        for sx in (-1, 1):
+            cv.rect(x + sx * u * 0.30 - u * 0.06, y - u * 0.26, u * 0.12, u * 0.30,
+                    shade(col or C['teal'], 0.88), r=u * 0.04)
+        cv.rect(x - u * 0.30, y + u * 0.08, u * 0.60, u * 0.06, shade(col or C['teal'], 0.76))
+    elif k == 'fridge':
+        cv.rect(x - u * 0.20, y - u * 0.34, u * 0.40, u * 0.66, C['cloud'], r=u * 0.04,
+                stroke=C['silver'], sw=u * 0.02)
+        cv.line(x - u * 0.20, y - u * 0.06, x + u * 0.20, y - u * 0.06, C['silver'],
+                sw=u * 0.025)
+        cv.rect(x + u * 0.10, y - u * 0.26, u * 0.035, u * 0.14, C['steel'], r=u * 0.015)
+        cv.rect(x + u * 0.10, y + u * 0.02, u * 0.035, u * 0.14, C['steel'], r=u * 0.015)
+    elif k == 'cooker':
+        cv.rect(x - u * 0.24, y - u * 0.22, u * 0.48, u * 0.54, C['silver'], r=u * 0.03)
+        cv.rect(x - u * 0.24, y - u * 0.26, u * 0.48, u * 0.08, C['steel'], r=u * 0.03)
+        for sx in (-1, 1):
+            cv.circle(x + sx * u * 0.11, y - u * 0.23, u * 0.055, shade(C['ink'], 1.5))
+        cv.rect(x - u * 0.17, y - u * 0.08, u * 0.34, u * 0.26, shade(C['ink'], 1.35),
+                r=u * 0.02)
+    elif k == 'lamp':
+        cv.path(f'M{x-u*0.18:.2f},{y-u*0.06:.2f} L{x-u*0.10:.2f},{y-u*0.28:.2f} '
+                f'L{x+u*0.10:.2f},{y-u*0.28:.2f} L{x+u*0.18:.2f},{y-u*0.06:.2f} Z',
+                fill=col or C['amber'])
+        cv.line(x, y - u * 0.06, x, y + u * 0.24, C['steel'], sw=u * 0.035)
+        cv.ellipse(x, y + u * 0.26, u * 0.16, u * 0.05, C['slate'])
+    elif k == 'tv':
+        cv.rect(x - u * 0.30, y - u * 0.22, u * 0.60, u * 0.38, C['ink'], r=u * 0.025)
+        cv.rect(x - u * 0.26, y - u * 0.18, u * 0.52, u * 0.30, C['sky_bg'], r=u * 0.015)
+        cv.rect(x - u * 0.05, y + u * 0.16, u * 0.10, u * 0.08, C['slate'])
+        cv.rect(x - u * 0.16, y + u * 0.24, u * 0.32, u * 0.04, C['slate'], r=u * 0.015)
+    elif k == 'bread':
+        cv.path(f'M{x-u*0.26:.2f},{y+u*0.14:.2f} '
+                f'C{x-u*0.30:.2f},{y-u*0.16:.2f} {x+u*0.30:.2f},{y-u*0.16:.2f} '
+                f'{x+u*0.26:.2f},{y+u*0.14:.2f} Z', fill=C['sand'])
+        cv.path(f'M{x-u*0.22:.2f},{y-u*0.02:.2f} '
+                f'C{x-u*0.24:.2f},{y-u*0.14:.2f} {x+u*0.24:.2f},{y-u*0.14:.2f} '
+                f'{x+u*0.22:.2f},{y-u*0.02:.2f} Z', fill=shade(C['sand'], 1.12))
+        cv.rect(x - u * 0.26, y + u * 0.10, u * 0.52, u * 0.05, shade(C['sand'], 0.82))
+    elif k == 'milk':
+        cv.path(f'M{x-u*0.15:.2f},{y+u*0.26:.2f} L{x-u*0.15:.2f},{y-u*0.12:.2f} '
+                f'L{x:.2f},{y-u*0.30:.2f} L{x+u*0.15:.2f},{y-u*0.12:.2f} '
+                f'L{x+u*0.15:.2f},{y+u*0.26:.2f} Z', fill=C['paper'],
+                stroke=C['silver'], sw=u * 0.022)
+        cv.rect(x - u * 0.15, y + u * 0.02, u * 0.30, u * 0.12, C['sky'])
+    elif k == 'egg':
+        cv.path(f'M{x:.2f},{y-u*0.26:.2f} C{x-u*0.20:.2f},{y-u*0.10:.2f} '
+                f'{x-u*0.18:.2f},{y+u*0.24:.2f} {x:.2f},{y+u*0.24:.2f} '
+                f'C{x+u*0.18:.2f},{y+u*0.24:.2f} {x+u*0.20:.2f},{y-u*0.10:.2f} '
+                f'{x:.2f},{y-u*0.26:.2f} Z', fill=C['cream'], stroke=C['sand'], sw=u * 0.02)
+    elif k == 'fish':
+        cv.ellipse(x - u * 0.04, y, u * 0.24, u * 0.14, col or C['sky'])
+        cv.poly([(x + u * 0.18, y), (x + u * 0.30, y - u * 0.13),
+                 (x + u * 0.30, y + u * 0.13)], col or C['sky'])
+        cv.circle(x - u * 0.14, y - u * 0.03, u * 0.030, C['ink'])
+    elif k == 'cake':
+        cv.rect(x - u * 0.24, y - u * 0.06, u * 0.48, u * 0.24, C['sand'], r=u * 0.02)
+        cv.path(f'M{x-u*0.24:.2f},{y-u*0.06:.2f} q{u*0.12:.2f},{u*0.10:.2f} '
+                f'{u*0.24:.2f},0 q{u*0.12:.2f},{-u*0.10:.2f} {u*0.24:.2f},0 '
+                f'l0,{-u*0.08:.2f} l{-u*0.48:.2f},0 Z', fill=C['rose'])
+        cv.circle(x, y - u * 0.16, u * 0.05, C['red'])
+    elif k == 'coin':
+        cv.circle(x, y, u * 0.22, C['amber'], stroke=shade(C['amber'], 0.72), sw=u * 0.03)
+        cv.circle(x, y, u * 0.13, shade(C['amber'], 1.14))
+    elif k == 'bike':
+        for sx in (-1, 1):
+            cv.circle(x + sx * u * 0.22, y + u * 0.10, u * 0.15, 'none',
+                      stroke=C['ink'], sw=u * 0.035)
+        cv.path(f'M{x-u*0.22:.2f},{y+u*0.10:.2f} L{x-u*0.04:.2f},{y-u*0.10:.2f} '
+                f'L{x+u*0.14:.2f},{y-u*0.10:.2f} L{x+u*0.22:.2f},{y+u*0.10:.2f} '
+                f'M{x-u*0.04:.2f},{y-u*0.10:.2f} L{x+u*0.05:.2f},{y+u*0.10:.2f}',
+                stroke=col or C['red'], sw=u * 0.035)
+        cv.line(x + u * 0.14, y - u * 0.10, x + u * 0.20, y - u * 0.18, C['ink'], sw=u * 0.03)
+        cv.rect(x - u * 0.10, y - u * 0.15, u * 0.14, u * 0.05, C['ink'], r=u * 0.02)
+    elif k == 'guitar':
+        cv.ellipse(x - u * 0.04, y + u * 0.10, u * 0.20, u * 0.17, col or C['wood'])
+        cv.ellipse(x + u * 0.04, y - u * 0.08, u * 0.14, u * 0.12, col or C['wood'])
+        cv.circle(x - u * 0.02, y + u * 0.07, u * 0.055, shade(C['ink'], 1.3))
+        cv.rect(x + u * 0.08, y - u * 0.32, u * 0.07, u * 0.24, shade(C['wood'], 0.74))
+        cv.rect(x + u * 0.06, y - u * 0.36, u * 0.11, u * 0.06, C['ink'], r=u * 0.015)
+    elif k == 'car':
+        cv.path(rr_path(x - u * 0.34, y - u * 0.06, u * 0.68, u * 0.22, 8 * s, 8 * s,
+                        6 * s, 6 * s), fill=col or C['blue'])
+        cv.path(f'M{x-u*0.20:.2f},{y-u*0.06:.2f} L{x-u*0.12:.2f},{y-u*0.24:.2f} '
+                f'L{x+u*0.14:.2f},{y-u*0.24:.2f} L{x+u*0.22:.2f},{y-u*0.06:.2f} Z',
+                fill=shade(col or C['blue'], 1.10))
+        cv.rect(x - u * 0.11, y - u * 0.21, u * 0.11, u * 0.14, C['glass'], r=u * 0.02)
+        cv.rect(x + u * 0.03, y - u * 0.21, u * 0.11, u * 0.14, C['glass'], r=u * 0.02)
+        for sx in (-1, 1):
+            cv.circle(x + sx * u * 0.20, y + u * 0.16, u * 0.09, C['ink'])
+            cv.circle(x + sx * u * 0.20, y + u * 0.16, u * 0.04, C['silver'])
+    elif k == 'suitcase':
+        cv.rect(x - u * 0.24, y - u * 0.14, u * 0.48, u * 0.36, col or C['brown'], r=u * 0.03)
+        cv.rect(x - u * 0.24, y - u * 0.02, u * 0.48, u * 0.05, shade(col or C['brown'], 0.76))
+        cv.path(arc(x, y - u * 0.15, u * 0.11, 195, 345), stroke=shade(col or C['brown'], 0.72),
+                sw=u * 0.04)
+    elif k == 'sun':
+        cv.circle(x, y, u * 0.17, C['amber'])
+        for a in range(0, 360, 45):
+            import math as _m
+            cv.line(x + u * 0.23 * _m.cos(_m.radians(a)), y + u * 0.23 * _m.sin(_m.radians(a)),
+                    x + u * 0.31 * _m.cos(_m.radians(a)), y + u * 0.31 * _m.sin(_m.radians(a)),
+                    C['amber'], sw=u * 0.035)
+    elif k == 'tree':
+        cv.rect(x - u * 0.05, y, u * 0.10, u * 0.28, C['brown'])
+        cv.circle(x, y - u * 0.10, u * 0.20, C['leaf'])
+        cv.circle(x - u * 0.15, y + u * 0.01, u * 0.14, C['leaf_dk'])
+        cv.circle(x + u * 0.15, y + u * 0.01, u * 0.14, C['leaf'])
     else:
         raise KeyError(f'no prop {name!r}')
 

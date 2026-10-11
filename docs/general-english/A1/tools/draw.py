@@ -176,6 +176,21 @@ class Canvas:
     def add(self, s: str):
         self.parts.append(s)
 
+    def clip(self, x, y, w, h, r=0):
+        """Open a clipped group. Everything until endgroup() is cut to this box.
+
+        Erasing after the fact with a filled rectangle only works when the
+        thing behind is one flat colour; over a card on a tinted page it
+        leaves white blocks, which is what the first family tree did.
+        """
+        self._clip += 1
+        cid = f'c{self._clip}'
+        rr = f' rx="{r}" ry="{r}"' if r else ''
+        self.add(f'<clipPath id="{cid}"><rect x="{x:.2f}" y="{y:.2f}" '
+                 f'width="{w:.2f}" height="{h:.2f}"{rr}/></clipPath>'
+                 f'<g clip-path="url(#{cid})">')
+        return self
+
     def group(self, transform: str = '', opacity: float | None = None):
         o = f' opacity="{opacity}"' if opacity is not None else ''
         t = f' transform="{transform}"' if transform else ''

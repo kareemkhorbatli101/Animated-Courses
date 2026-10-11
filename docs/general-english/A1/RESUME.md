@@ -226,3 +226,53 @@ and incomplete twice over.
 Final: drift 44/44 byte-identical, 0 missing · gate 21/21 both units ·
 visual 15/15 both, 616 figure passes · cross-unit 8/8 · both books rebuilt
 in both formats.
+
+## 2026-10-11 (fourth pass) · Units 3 to 10, and EFDL A1.1 as a volume
+
+Volume one is complete. **Ten units, 380 exercises, 220 figures**, a
+151-page Student Book and a 21-page Answer Key, both in DOCX and PDF.
+
+The syllabus follows American Headway Starter's sequence — be, then
+possessives and family, then there is/are, then the present simple split
+across two units, then food, the town, can, and the past of be — rearranged
+so every unit stands on Hill Road and uses the cast the learner already
+knows. `spec/syllabus-a11.md` is the table.
+
+New in the engine: 18 props, 7 plates (`family_tree`, `room_plan`, `clocks`,
+`menu`, `town_map`, `tick_grid`, `then_now`), and `Canvas.clip()`.
+
+### What the checks caught that I would not have
+
+- **A caption ending in `?` breaks the caption pattern**, which wants
+  `· text.` — so `Where is it?` silently cost two figures their captions in
+  Unit 4. Six captions across four units had it. Fixed before those units'
+  text was written, which is the only reason it cost minutes.
+- **Nine words were taught as new twice.** A sweep over all ten wordlists
+  found more than the pairwise check reported, because a word can be new in
+  u04 and again in u08 without either being adjacent.
+- **Three inline MCQ options eat six of the twelve-word item budget.** Four
+  items broke the ceiling the moment I lengthened a stem.
+- **An unanswerable item.** Unit 8's W1 asked "A doctor works here" against a
+  map with no clinic on it. The gate passed it; reading the page did not.
+
+### Two checks that were wrong, and were changed
+
+- **X1b demanded that every unit recycle ten words of EVERY earlier unit.**
+  No coursebook does that, and the spacing research does not ask for it:
+  encounters cluster after a word is introduced and thin out. The bar now
+  falls with the gap — 8 at one unit, 6 at two, 4 at three, 2 beyond — and
+  the message says which bar it was held to. The failures that survived were
+  real, and fixing them meant weaving earlier vocabulary into later units,
+  which is the point.
+- **X5a's tolerance was a quarter of a word.** Item length is a crude proxy
+  for difficulty, and a unit whose grammar needs short items — *They ______
+  at the park.* — is not a regression. Tightening the content to satisfy it
+  would be padding sentences to hit a metric, which is the floors mistake
+  again. The tolerance is 0.6 now: enough to catch a unit that is markedly
+  easier, not enough to catch noise.
+
+### Final state
+
+drift 220/220 byte-identical, 0 missing · gate 210/210 over ten units ·
+visual 150/150, 3,080 figure passes · cross-unit **360/360 over all 45
+pairs** · Student Book and Answer Key built in both formats.

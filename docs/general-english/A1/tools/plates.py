@@ -709,3 +709,204 @@ def notice(heading, lines, h=520, col='amber'):
         cv.circle(cx, y + 14, 11, C['red'])
         cv.circle(cx - 3, y + 11, 4, shade(C['red'], 1.45))
     return cv
+
+
+def family_tree(rows, h=620, link=True):
+    """A family tree drawn as people, not as boxes with words in them.
+
+    rows = [[(pid, label), ...], ...] -- one list per generation. The card
+    size drives the figure size, not the other way round: the first version
+    sized the figure from the row height and the heads came out above the
+    cards and off the top of the canvas.
+    """
+    cv = _cv(h, C['cream'])
+    n = len(rows)
+    rh = (h - 40) / n
+    ch = rh - 54                      # card height
+    centres = []
+    for r, row in enumerate(rows):
+        y = 24 + rh * r
+        cw = W_ / (len(row) + 1)
+        line = []
+        for i, (pid, label) in enumerate(row):
+            x = cw * (i + 1)
+            bw = cw * 0.76
+            cv.rect(x - bw / 2, y, bw, ch, C['paper'], r=14, stroke=C['silver'], sw=2)
+            # solve the figure from the card: the visible part must fill it
+            vis = ch - 54
+            H = vis / 0.46
+            cv.clip(x - bw / 2, y, bw, vis, r=14)
+            draw_person(cv, who(pid), x, y + 10 + H, H, pose='stand', shadow=False)
+            cv.endgroup()
+            cv.fit(label, x, y + ch - 16, bw - 24, 26, weight='SemiBold',
+                   anchor='middle', bg=C['paper'])
+            line.append(x)
+        centres.append((y, line))
+    if link and n > 1:
+        for r in range(n - 1):
+            y0 = centres[r][0] + ch
+            y1 = centres[r + 1][0]
+            top = sum(centres[r][1]) / len(centres[r][1])
+            mid = (y0 + y1) / 2
+            cv.line(top, y0, top, mid, C['steel'], sw=4)
+            lo = centres[r + 1][1]
+            cv.line(min(lo), mid, max(lo), mid, C['steel'], sw=4)
+            for x in lo:
+                cv.line(x, mid, x, y1, C['steel'], sw=4)
+    return cv
+
+
+def room_plan(rooms, things=None, h=580):
+    """A flat seen from above, with the rooms named and things in them.
+
+    rooms = [(name, x, y, w, h, colour)] in fractions of the plan box.
+    things = [(prop, x, y, colour)] in the same fractions.
+    """
+    cv = _cv(h, shade(C['wood'], 1.42))
+    px, py = 110, 36
+    pw, ph = W_ - 220, h - 72
+    cv.rect(px - 8, py - 8, pw + 16, ph + 16, C['wall'], r=6)
+    cv.rect(px, py, pw, ph, C['tile'])
+    for name, x, y, w, hh, col in rooms:
+        rx, ry, rw, rh = px + pw * x, py + ph * y, pw * w, ph * hh
+        cv.rect(rx, ry, rw, rh, shade(C[col], 1.62))
+        cv.rect(rx, ry, rw, rh, 'none', stroke=C['slate'], sw=5)
+        cv.fit(name, rx + 14, ry + 36, rw - 28, 27, weight='Bold', bg=shade(C[col], 1.62))
+    for pname, x, y, col in (things or []):
+        W.prop(cv, pname, px + pw * x, py + ph * y, s=1.55,
+               col=C[col] if col else None)
+    return cv
+
+
+def clocks(times, h=330):
+    """Clock faces. The time is read off the hands, not printed under them."""
+    cv = _cv(h, C['paper'])
+    n = len(times)
+    cw = (W_ - 60) / n
+    for i, (hh, mm, tag) in enumerate(times):
+        cx = 30 + cw * (i + 0.5)
+        cy = h * 0.44
+        r = min(cw * 0.36, h * 0.30)
+        cv.circle(cx, cy + 4, r, C['ink'], opacity=0.12)
+        cv.circle(cx, cy, r, C['paper'], stroke=C['slate'], sw=r * 0.10)
+        for k in range(12):
+            a = math.radians(k * 30 - 90)
+            cv.line(cx + r * 0.82 * math.cos(a), cy + r * 0.82 * math.sin(a),
+                    cx + r * 0.93 * math.cos(a), cy + r * 0.93 * math.sin(a),
+                    C['ink_mute'], sw=r * (0.07 if k % 3 == 0 else 0.04))
+        ah = math.radians((hh % 12) * 30 + mm * 0.5 - 90)
+        am = math.radians(mm * 6 - 90)
+        cv.line(cx, cy, cx + r * 0.50 * math.cos(ah), cy + r * 0.50 * math.sin(ah),
+                C['ink'], sw=r * 0.11)
+        cv.line(cx, cy, cx + r * 0.76 * math.cos(am), cy + r * 0.76 * math.sin(am),
+                C['ink'], sw=r * 0.075)
+        cv.circle(cx, cy, r * 0.08, deep(C['red']))
+        if tag:
+            cv.circle(cx - r * 0.82, cy - r * 0.82, 20, deep(C['navy']))
+            cv.text(str(tag), cx - r * 0.82, cy - r * 0.74, 22, fill='#FFFFFF',
+                    weight='Bold', anchor='middle', bg=deep(C['navy']))
+    return cv
+
+
+def menu(title, sections, h=None):
+    """A real menu with real prices. sections = [(head, [(item, price)])]"""
+    rows = sum(len(s[1]) + 1 for s in sections)
+    h = h or (150 + 46 * rows)
+    cv = _cv(h, shade(C['wood'], 1.30))
+    mw = W_ - 480
+    x, y = (W_ - mw) / 2, 40
+    mh = h - 80
+    cv.rect(x + 6, y + 9, mw, mh, C['ink'], r=8, opacity=0.15)
+    cv.rect(x, y, mw, mh, C['cream'], r=8, stroke=shade(C['wood'], 0.80), sw=4)
+    cv.text(title, x + mw / 2, y + 52, 34, weight='Bold', anchor='middle', bg=C['cream'])
+    cv.line(x + 36, y + 70, x + mw - 36, y + 70, shade(C['wood'], 0.86), sw=3)
+    ly = y + 112
+    for head, items in sections:
+        cv.text(head, x + 36, ly, 26, weight='Bold', fill=deep(C['red']), bg=C['cream'])
+        ly += 40
+        for item, price in items:
+            cv.text(item, x + 52, ly, 26, bg=C['cream'])
+            cv.text(price, x + mw - 36, ly, 26, weight='SemiBold', anchor='end',
+                    bg=C['cream'])
+            ly += 44
+        ly += 8
+    return cv
+
+
+def town_map(places, h=620):
+    """A town seen from above: roads, named buildings, a compass.
+
+    places = [(name, x, y, w, hh, colour)] in fractions.
+    """
+    cv = _cv(h, shade(C['leaf'], 1.70))
+    cv.rect(0, h * 0.44, W_, h * 0.14, C['road'])
+    cv.rect(W_ * 0.44, 0, W_ * 0.11, h, C['road'])
+    for i in range(9):
+        cv.rect(40 + i * 140, h * 0.505, 70, 8, C['line'], r=4)
+    for i in range(6):
+        if h * 0.07 + i * h * 0.17 > h * 0.42 and h * 0.07 + i * h * 0.17 < h * 0.60:
+            continue
+        cv.rect(W_ * 0.492, h * 0.04 + i * h * 0.17, 8, 56, C['line'], r=4)
+    for name, x, y, w, hh, col in places:
+        bx, by, bw, bh = W_ * x, h * y, W_ * w, h * hh
+        cv.rect(bx + 5, by + 7, bw, bh, C['ink'], r=6, opacity=0.14)
+        cv.rect(bx, by, bw, bh, shade(C[col], 1.30), r=6)
+        cv.rect(bx, by, bw, bh * 0.30, deep(C[col]), r=6)
+        cv.fit(name, bx + 10, by + bh * 0.22, bw - 20, 23, fill='#FFFFFF',
+               weight='Bold', bg=deep(C[col]))
+    return cv
+
+
+def tick_grid(cols, rows, h=None, label_w=0.30):
+    """A tick-and-cross table. rows = [(label, [True/False, ...])]"""
+    h = h or (130 + 62 * (len(rows) + 1))
+    cv = _cv(h, C['paper'])
+    tw_ = W_ - 160
+    x, y = 80, 48
+    lw = tw_ * label_w
+    cw = (tw_ - lw) / len(cols)
+    cv.rect(x, y, tw_, 62, deep(C['navy']), r=10)
+    for i, c in enumerate(cols):
+        cv.fit(c, x + lw + cw * i + 10, y + 40, cw - 20, 24, fill='#FFFFFF',
+               weight='Bold', anchor='start', bg=deep(C['navy']))
+    for r, (lab, marks) in enumerate(rows):
+        ry = y + 62 + r * 62
+        bgc = C['cream'] if r % 2 == 0 else C['paper']
+        cv.rect(x, ry, tw_, 62, bgc)
+        cv.line(x, ry + 62, x + tw_, ry + 62, C['rule'], sw=1.5)
+        cv.text(lab, x + 18, ry + 40, 26, weight='SemiBold', bg=bgc)
+        for i, m in enumerate(marks):
+            mx = x + lw + cw * i + cw / 2
+            if m:
+                cv.path(f'M{mx-13:.2f},{ry+31:.2f} l9,10 l17,-19', stroke=deep(C['green']),
+                        sw=6, fill='none')
+            else:
+                cv.path(f'M{mx-11:.2f},{ry+21:.2f} l22,22 M{mx+11:.2f},{ry+21:.2f} '
+                        f'l-22,22', stroke=deep(C['red']), sw=6)
+    cv.rect(x, y, tw_, 62 + 62 * len(rows), 'none', r=10, stroke=C['steel'], sw=2.5)
+    return cv
+
+
+def then_now(items, h=None, left='LAST WEEKEND', right='NOW'):
+    """Two columns, then and now. The contrast a past tense needs."""
+    h = h or (140 + 92 * len(items))
+    cv = _cv(h, C['paper'])
+    bw = (W_ - 120) / 2
+    for i, (head, col) in enumerate(((left, 'purple'), (right, 'teal'))):
+        x = 50 + i * (bw + 20)
+        hc = deep(C[col])
+        cv.rect(x, 34, bw, h - 68, shade(C[col], 1.70), r=16)
+        cv.rect(x, 34, bw, 60, hc, r=16)
+        cv.rect(x, 70, bw, 24, hc)
+        cv.text(head, x + bw / 2, 74, 28, fill='#FFFFFF', weight='Bold', anchor='middle',
+                bg=hc)
+    for j, (a, b) in enumerate(items):
+        ly = 150 + j * 92
+        for i, s in enumerate((a, b)):
+            x = 50 + i * (bw + 20)
+            cv.rect(x + 22, ly, bw - 44, 62, C['paper'], r=10, stroke=C['silver'], sw=2)
+            cv.fit(s, x + 40, ly + 40, bw - 80, 27, bg=C['paper'])
+        cv.path(f'M{50+bw-6:.2f},{ly+31:.2f} h26', stroke=C['ink_mute'], sw=5)
+        cv.path(f'M{50+bw+10:.2f},{ly+21:.2f} l12,10 l-12,10', stroke=C['ink_mute'], sw=5,
+                fill='none')
+    return cv

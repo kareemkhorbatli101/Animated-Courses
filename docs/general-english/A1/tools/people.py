@@ -351,7 +351,8 @@ def _garment(cv, p, x, ytop, H, sw, hw, hip):
 
 def draw_person(cv: Canvas, p: Person, x: float, ybase: float, H: float,
                 pose: str = 'stand', expr: str = 'smile', face: float = 0.0,
-                shadow: bool = True, cut: float | None = None) -> dict:
+                shadow: bool = True, cut: float | None = None,
+                cut_fill: str | None = None) -> dict:
     """Draw `p` standing on (x, ybase) at total height H.
 
     Returns anchor points -- hands, head top, mouth, chest -- so props and
@@ -443,7 +444,10 @@ def draw_person(cv: Canvas, p: Person, x: float, ybase: float, H: float,
             cv.circle(cx + sgn * rx * 1.04, cy + ry * 0.40, rx * 0.10, C['amber'])
 
     if cut:
-        cv.rect(x - H * 0.46, y + H * cut, H * 0.92, H * (1 - cut) + 6, cv.bg)
+        # erase with whatever is actually behind the figure. Using the
+        # canvas background paints cream over a white card.
+        cv.rect(x - H * 0.46, y + H * cut, H * 0.92, H * (1 - cut) + 6,
+                cut_fill or cv.bg)
 
     foot_y = hip - H * 0.010 + P['rl'][-1][1] * H
     return dict(hand_near=hand_near, hand_far=hand_far, foot_y=foot_y,

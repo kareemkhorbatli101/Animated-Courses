@@ -25,6 +25,7 @@ sys.path.insert(0, os.path.join(HERE, 'tools'))
 
 def load(book, unit):
     path = os.path.join(HERE, 'content', book, f'u{unit:02d}_figures.py')
+    sys.path.insert(0, os.path.dirname(path))     # so `import _common` resolves
     spec = importlib.util.spec_from_file_location(f'drift_u{unit}', path)
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
