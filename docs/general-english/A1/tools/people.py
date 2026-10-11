@@ -75,8 +75,12 @@ POSES = {
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'walk':    dict(la=[(-0.036, 0.100), (-0.014, 0.208)], ra=[(0.038, 0.100), (0.064, 0.204)],
                     ll=[(-0.042, 0.210), (-0.072, 0.430)], rl=[(0.040, 0.212), (0.064, 0.436)]),
+    # Seated: the hip rests on the seat and the leg below it is SHORT --
+    # 0.285H to the foot, against 0.452H standing. The thigh is
+    # foreshortened to nothing because the figure faces the reader, and
+    # the desk in front hides where it would be.
     'sit':     dict(la=[(-0.030, 0.100), (-0.014, 0.196)], ra=[(0.030, 0.100), (0.014, 0.196)],
-                    ll=[], rl=[]),
+                    ll=[(-0.012, 0.112), (-0.018, 0.285)], rl=[(0.012, 0.112), (0.018, 0.285)]),
     'carry':   dict(la=[(-0.028, 0.118), (-0.044, 0.244)], ra=[(0.022, 0.112), (0.036, 0.228)],
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'think':   dict(la=[(-0.020, 0.112), (-0.034, 0.228)], ra=[(0.078, 0.068), (0.026, -0.038)],
@@ -86,7 +90,7 @@ POSES = {
     'both_up': dict(la=[(-0.058, 0.040), (-0.096, -0.086)], ra=[(0.058, 0.040), (0.096, -0.086)],
                     ll=[(-0.008, 0.225), (-0.014, 0.452)], rl=[(0.008, 0.225), (0.014, 0.452)]),
     'write':   dict(la=[(-0.034, 0.100), (0.014, 0.176)], ra=[(0.046, 0.094), (0.072, 0.168)],
-                    ll=[], rl=[]),
+                    ll=[(-0.012, 0.112), (-0.018, 0.285)], rl=[(0.012, 0.112), (0.018, 0.285)]),
 }
 
 
@@ -113,12 +117,17 @@ def _hair_back(cv, p, cx, cy, rx, ry):
     if s == 'cap':
         return
     if s == 'afro':
-        for a in range(0, 360, 24):
-            cv.circle(cx + rx * 1.30 * math.cos(math.radians(a)),
-                      cy - ry * 0.22 + ry * 1.22 * math.sin(math.radians(a)),
-                      rx * 0.40, col)
-        cv.ellipse(cx, cy - ry * 0.22, rx * 1.30, ry * 1.24, col)
-        cv.ellipse(cx - rx * 0.70, cy - ry * 0.92, rx * 0.42, ry * 0.26, lt,
+        # Nothing below the jaw. The first version ran the puff all the way
+        # round, so the bottom circles sat under the chin and Omar appeared
+        # to have a beard in every figure he was in.
+        for a in range(0, 360, 22):
+            if 48 < (a % 360) < 132:
+                continue
+            cv.circle(cx + rx * 1.28 * math.cos(math.radians(a)),
+                      cy - ry * 0.34 + ry * 1.10 * math.sin(math.radians(a)),
+                      rx * 0.38, col)
+        cv.ellipse(cx, cy - ry * 0.34, rx * 1.26, ry * 1.10, col)
+        cv.ellipse(cx - rx * 0.70, cy - ry * 1.00, rx * 0.42, ry * 0.26, lt,
                    opacity=0.40, rot=-24)
         return
     if s == 'curly':
@@ -357,21 +366,13 @@ def draw_person(cv: Canvas, p: Person, x: float, ybase: float, H: float,
         cv.ellipse(x, ybase + H * 0.012, H * 0.150, H * 0.026, C['ink'], opacity=0.13)
 
     # ---- legs, behind the torso -----------------------------------------
-    if P['ll']:
-        for key, sgn in (('ll', -1), ('rl', 1)):
-            o = (x + sgn * hw * 0.46, hip - H * 0.010)
-            pts = [o] + [(o[0] + dx * H, o[1] + dy * H) for dx, dy in P[key]]
-            _limb(cv, pts, trouser, leg_w)
-            fx, fy = pts[-1]
-            cv.ellipse(fx + sgn * H * 0.014, fy + H * 0.014, H * 0.040, H * 0.019,
-                       shade(C['ink'], 1.30))
-    else:                                            # seated
-        for sgn in (-1, 1):
-            o = (x + sgn * hw * 0.46, hip - H * 0.010)
-            pts = [o, (o[0], o[1] + H * 0.165), (o[0] + H * 0.130, o[1] + H * 0.195)]
-            _limb(cv, pts, trouser, leg_w)
-            cv.ellipse(pts[-1][0] + H * 0.024, pts[-1][1] + H * 0.016, H * 0.040,
-                       H * 0.018, shade(C['ink'], 1.30))
+    for key, sgn in (('ll', -1), ('rl', 1)):
+        o = (x + sgn * hw * 0.46, hip - H * 0.010)
+        pts = [o] + [(o[0] + dx * H, o[1] + dy * H) for dx, dy in P[key]]
+        _limb(cv, pts, trouser, leg_w)
+        fx, fy = pts[-1]
+        cv.ellipse(fx + sgn * H * 0.014, fy + H * 0.014, H * 0.040, H * 0.019,
+                   shade(C['ink'], 1.30))
 
     # ---- arms ------------------------------------------------------------
     def arm(key, sgn):
@@ -433,7 +434,8 @@ def draw_person(cv: Canvas, p: Person, x: float, ybase: float, H: float,
     if cut:
         cv.rect(x - H * 0.46, y + H * cut, H * 0.92, H * (1 - cut) + 6, cv.bg)
 
-    return dict(hand_near=hand_near, hand_far=hand_far,
+    foot_y = hip - H * 0.010 + P['rl'][-1][1] * H
+    return dict(hand_near=hand_near, hand_far=hand_far, foot_y=foot_y,
                 head=(cx, cy - ry * 1.35), mouth=(cx, cy + ry * 0.6),
                 chest=(x, sh + H * 0.09), foot=(x, ybase),
                 top=y, cx=cx, cy=cy, rx=rx, ry=ry, H=H, sh=sh, hip=hip)

@@ -112,3 +112,70 @@ to the place, which needs the figure for the jobs and Unit 1 for the places.
 
 **Two units, two no-guess violations, both found by eye and neither by
 machine.** A check for this is the next thing the toolchain needs.
+
+## 2026-10-11 (later still) · Seated figures, and a drift tool
+
+A reader looked at Figure 2.1 and said the sitting children had malformed
+legs and misplaced bottoms. Both true, and both the same cause.
+
+`draw_person` had a special case for the seated pose that ran the shin
+straight down from the hip and then kicked the foot forward. That is a
+**kneel**, not a sit. And nothing tied the hip to the chair, so the figure
+hovered wherever the caller had guessed.
+
+The fix is geometry, not nudging. A seated figure facing the reader is a
+standing figure from the knee down: the hip rests on the seat and the leg
+below it is short — **0.285H to the foot, against 0.452H standing** — with
+the thigh foreshortened to nothing because the figure faces us, and the desk
+hiding where it would be. So `sit` is now an ordinary entry in `POSES` with
+ordinary leg offsets, the special case is deleted, and there is one leg path
+for every pose in the engine.
+
+The placement is then solved from the floor up rather than guessed:
+
+    foot   = ybase - 0.195H        (0.52H to the hip, 0.285H of leg)
+    ybase  = floor + 0.195H        feet on the floor
+    hip    = floor - 0.285H        where the chair seat goes
+    desk   = hip - 0.177H          28cm above a 45cm seat
+
+`draw_person` now returns `foot_y` so no caller has to re-derive it.
+
+### Two more defects found by eye in the same pass
+
+- **Omar had a beard in every figure he appeared in.** The afro mass was
+  drawn as a full ring of circles, and the bottom ones sat under his jaw.
+  The ring now skips 48°–132° and the mass stops above the chin.
+- **A notebook standing upright at chest height** is not a notebook on a
+  desk. Removed.
+- **`sixteenseventeeneighteen`.** `numbers()` drew its word with `text`, not
+  `fit`, and *seventeen* at 26px is as wide as its cell. Ten of them printed
+  as one run. Now fitted to the cell.
+
+### tools/drift.py
+
+New, and the reason the fix can be called complete rather than claimed
+complete. It re-renders every figure of every unit from the current code and
+diffs it byte-for-byte against the SVG on disk: `same`, `CHANGED`, or
+`MISSING` (a figure with no file, or a file with no module entry).
+
+Run after any edit to the **engine**, not just to a unit. A change to
+`people.py` reaches every figure in the course that contains a person, and
+rendering them all is the only way to know which moved.
+
+It immediately earned its place. The seated-pose and afro fixes reported:
+
+    CHANGED  u01 fig 10  Four voices
+    CHANGED  u01 fig 14  Marek introduces Omar
+    CHANGED  u02 fig  1  The evening class
+    CHANGED  u02 fig 10  Four people in the class
+    CHANGED  u02 fig 13  Asking in the class
+    39 unchanged, 5 changed, 0 missing
+
+Exactly the blast radius: every figure containing Omar, plus the two
+classroom scenes. **Unit 1 was affected**, which a reader looking only at
+Unit 2 would not have known — the afro reached two of its figures. Without
+the tool I would have fixed Unit 2 and shipped a course with two Omars.
+
+Final state: drift 44/44 byte-identical, 0 missing · gate 21/21 on both
+units · visual 15/15 on both, 616 figure passes · cross-unit 8/8 · both
+books rebuilt in DOCX and PDF.

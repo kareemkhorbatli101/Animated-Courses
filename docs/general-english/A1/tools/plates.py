@@ -389,7 +389,11 @@ def numbers(items, h=300):
             dotw = min((cw - 40) / per, 17)
             cv.circle(x - (min(cnt, per) - 1) * dotw / 2 + c * dotw, 128 + r * dotw,
                       dotw * 0.34, C[col])
-        cv.text(word, x, h - 44, 26, weight='SemiBold', anchor='middle', bg=C['paper'])
+        # fit, not text: 'seventeen' at 26px is as wide as its cell, and ten
+        # of them printed as one run -- 'sixteenseventeeneighteen' -- on the
+        # first build of Unit 2's teens.
+        cv.fit(word, x, h - 44, cw - 22, 26, weight='SemiBold', anchor='middle',
+               bg=C['paper'])
     return cv
 
 
@@ -654,26 +658,27 @@ def classroom_scene(a, b, say_a, say_b=None, sitting=None, h=580, size=30,
     base = h * 0.90
     seated = sitting or []
     if seated:
-        # draw_person treats ybase as the GROUND, and a seated figure never
-        # reaches the ground -- its legs stop at the hip plus a lap. So the
-        # ybase for a seated person is solved backwards from where the hip has
-        # to be: hip = ybase - 0.48H, and the hip has to sit just below the
-        # desk top or the figure floats above the furniture, which is what the
-        # first two versions of this plate did.
+        # Solve the seated figure from the FLOOR up, not from a guess.
+        # draw_person puts the hip at ybase - 0.48H and the seated foot at
+        # hip + 0.285H, so the foot lands at ybase - 0.195H. Feet on the
+        # floor therefore means ybase = floor + 0.195H, and the hip then
+        # falls at floor - 0.285H, which is where the chair seat goes and
+        # just under where the desk top goes.
         Hs = h * 0.42
-        desk_top = base - h * 0.150
-        hip_target = desk_top + h * 0.030
-        yb = hip_target + 0.48 * Hs
+        yb = base + 0.195 * Hs
+        hip_y = base - 0.285 * Hs
+        # A desk top sits about 28cm above a 45cm seat. The seated figure
+        # gives 0.285H from floor to hip, so 28/45 of that is 0.177H above
+        # the hip -- mid-torso, not knee height.
+        desk_top = hip_y - 0.177 * Hs
         for i, pid in enumerate(seated):
             x = W_ * (0.58 + i * 0.17)
-            W.prop(cv, 'chair', x + W_ * 0.045, hip_target + h * 0.010, s=h / 300)
+            W.prop(cv, 'chair', x, hip_y + h * 0.004, s=h / 300)
             draw_person(cv, who(pid), x, yb, Hs, pose='sit', face=-0.3, shadow=False)
+            cv.ellipse(x, base + h * 0.006, Hs * 0.13, Hs * 0.022, C['ink'], opacity=0.11)
         dx = W_ * 0.58 - W_ * 0.090
         dw = W_ * (0.17 * (len(seated) - 1)) + W_ * 0.21
-        W.table_scene(cv, dx, desk_top, dw, h * 0.17)
-        for i in range(len(seated)):
-            W.prop(cv, 'notebook', W_ * (0.58 + i * 0.17) + W_ * 0.012,
-                   desk_top + h * 0.004, s=h / 820)
+        W.table_scene(cv, dx, desk_top, dw, base - desk_top)
     pa = draw_person(cv, who(a), W_ * 0.16, base, h * 0.56, pose=pose_a, expr='talk',
                      face=0.5)
     pb = draw_person(cv, who(b), W_ * 0.40, base, h * 0.54, pose=pose_b, expr='smile',
