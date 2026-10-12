@@ -1,384 +1,224 @@
-"""Unit 1 figures, in document order. Every label word appears in the unit (G18)."""
-import figures as F
+"""EFDL A2 Unit 1 -- Back on Hill Road. Tense review: be, present, past, will.
 
-FIGURES = {
- 1: lambda: F.unit_opener_page(
-        1, 'People and Routines',
-        'Present simple and present continuous',
-        ['I can name the people around me: neighbour, flatmate, colleague.',
-         'I can use the present simple for routines and the present continuous for now.',
-         'I can describe a person’s day in 50–70 words.'],
-        ['person', 'clock', 'home', 'bus', 'shop'],
-        alt='The opening page of Unit 1, People and Routines: the grammar point is '
-            'the present simple and the present continuous, and three things the '
-            'learner will be able to do by the end of the unit.'),
+One figure per exercise, numbered to match: Figure 1.k belongs to the kth
+exercise of the unit.
+"""
+from _common import make, runner, P, C
 
- 3: lambda: F.bank_strip(
-        [('busy', 'bus'), ('neighbour', 'home'), ('routine', 'clock'),
-         ('works', 'shop')],
-        height=400,
-        alt='The four words of the word bank, in the order the task prints them, '
-            'each with a picture: busy, neighbour, routine and works.'),
- 2: lambda: F.word_grid(
-        [('Neighbour', 'home'), ('Flatmate', 'person'), ('Colleague', 'nurse'),
-         ('Routine', 'clock'), ('Shift', 'moon')],
-        height=460, cols=5,
-        alt='The five warm-up words as numbered picture cards: a neighbour is '
-            'drawn as the house next door, a flatmate as a person, a colleague '
-            'as somebody at work, a routine as a clock and a shift as the hours '
-            'worked at night.'),
- 4: lambda: F.scene(
-        [('Maya', 'person', 'bookshop'), ('Tomas', 'nurse', 'hospital'),
-         ('Amina', 'shop', 'corner shop'), ('Dani', 'book', 'student'),
-         ('Mr Okonkwo', 'home', 'teacher'), ('Yuki', 'cup', 'works at home')],
-        height=560,
-        alt='The six people of 14 Alder Street at eight in the morning, each with '
-            'the place they belong to: Maya and the bookshop, Tomas and the '
-            'hospital, Amina and the corner shop, Dani the student, Mr Okonkwo the '
-            'teacher, and Yuki who works at home.'),
+UNIT, BOOK = 1, 'a21'
+FIGURES, fig = make(UNIT)
 
- 6: lambda: F.sound_shape(
-        [('routine', ['rou', 'tine'], 1), ('commute', ['com', 'mute'], 1),
-         ('appointment', ['ap', 'point', 'ment'], 1),
-         ('colleague', ['col', 'league'], 0),
-         ('usually', ['u', 'su', 'al', 'ly'], 0),
-         ('neighbour', ['neigh', 'bour'], 0)],
-        height=710,
-        alt='Where the stress falls in six words from this unit. Each word has a '
-            'bar above every syllable, tall and dark where the stress falls and '
-            'short and pale elsewhere, and the same pattern is repeated at the '
-            'right as one large dot among small ones.'),
- 5: lambda: F.word_grid(
-        [('Shift', 'moon'), ('Commute', 'bus'), ('Appointment', 'notebook'),
-         ('Colleague', 'nurse'), ('Flatmate', 'person'), ('Break', 'cup'),
-         ('Weekday', 'clock')],
-        height=560, cols=4,
-        alt='The seven words of Column A as numbered picture cards: shift, '
-            'commute, appointment, colleague, flatmate, break and weekday, each '
-            'with the thing it means drawn beside the number.'),
- 7: lambda: F.category_set(
-        [('Nurse', 'nurse'), ('Shop assistant', 'shop'), ('Teacher', 'school'),
-         ('Bus driver', 'bus'), ('Cook', 'kitchen'), ('Student', 'book')],
-        height=600,
-        alt='Six cards, each showing a job and the place that job is done: a nurse '
-            'at a hospital, a shop assistant at a shop, a teacher at a school, a bus '
-            'driver on a bus, a cook in a kitchen and a student with books.'),
+# ---------------------------------------------------------------- Warm Up
+fig(1, 'W', 'data', 'Hill Road, a year later',
+    lambda: P.street([('nadia', 150, 'wave', 0.4), ('ben', 330, 'stand', -0.3),
+                      ('lili', 520, 'carry', 0.3), ('sam', 800, 'hold', -0.4),
+                      ('fatima', 950, 'stand', 0.3), ('rosa', 1090, 'carry', -0.3),
+                      ('omar', 1220, 'wave', -0.4)],
+                     title='HILL ROAD'))
+fig(2, 'W', 'data', 'Lili comes back',
+    lambda: P.two_talk('cafe', 'lili', 'nadia', 'I came back last Friday.',
+                       'Welcome home! You look well.',
+                       pose_a='carry', pose_b='offer'))
+fig(3, 'W', 'lexis', 'Six things in a suitcase',
+    lambda: P.object_cards([(1, 'suitcase', None), (2, 'passport', None),
+                            (3, 'camera', None), (4, 'book', 'teal'),
+                            (5, 'envelope', None), (6, 'coat', 'navy')],
+                           cols=6, h=320))
 
- 8: lambda: F.label_me(
-        [('dawn', 0.10, 0.46), ('midday', 0.30, 0.56), ('afternoon', 0.50, 0.46),
-         ('evening', 0.70, 0.56), ('midnight', 0.90, 0.46)],
-        height=620, draw=F.day_column,
-        alt='A single day drawn as a column of five bands, light at the top and dark '
-            'at the bottom, with a sun, a clock and a moon beside it. Five numbered '
-            'lines run to the right for the learner to write dawn, midday, '
-            'afternoon, evening and midnight.'),
+# ------------------------------------------------- Part 1 Words & Sounds
+fig(4, '1', 'contrast', 'The three times, in one line',
+    lambda: P.blocks([[('Last year', 'amber'), ('I lived in Spain.', None)],
+                      [('Now', 'teal'), ('I live on Hill Road.', None)],
+                      [('Next year', 'purple'), ('I will live here too.', None)]],
+                     legend=[('before', 'amber'), ('today', 'teal'),
+                             ('after', 'purple')]))
+fig(5, '1', 'contrast', 'Now and then, four verbs',
+    lambda: P.verb_change([('live', 'lived', 'add'), ('arrive', 'arrived', 'add'),
+                           ('come', 'came', 'new'), ('go', 'went', 'new')]))
+fig(6, '1', 'data', 'Four neighbours and their news',
+    lambda: P.people_row([('lili', 'Lili', 'carry', 'suitcase'),
+                          ('omar', 'Omar', 'carry', 'backpack'),
+                          ('rosa', 'Rosa', 'carry', 'basket'),
+                          ('marek', 'Marek', 'hold', 'toolbox')],
+                         label_size=30))
+fig(7, '1', 'contrast', 'The short forms we say',
+    lambda: P.contraction([('I am', "I'm", 'a'), ('she is', "she's", 'i'),
+                           ('we will', "we'll", 'wil'), ('did not', "didn't", 'o')]))
+fig(8, '1', 'document', 'Who lives where now',
+    lambda: P.register('HILL ROAD · THE FLATS',
+                       (['Flat', 'Who', 'Since'], [0.22, 0.44, 0.34]),
+                       [('11', 'Lili', 'last Friday'), ('12', 'Marek and Nadia',
+                                                        'nine years'),
+                        ('13', 'Ben', 'two years'), ('14', 'Rosa', 'twenty years')]))
+fig(9, '1', 'lexis', 'Five words for coming back',
+    lambda: P.blocks([[('abroad', 'teal'), ('in another country', None)],
+                      [('arrival', 'green'), ('when you get there', None)],
+                      [('departure', 'amber'), ('when you leave', None)],
+                      [('reunion', 'purple'), ('friends meet again', None)],
+                      [('familiar', 'blue'), ('you know it well', None)]]))
 
- 11: lambda: F.annotated_lines(
-        [('Maya works in a bookshop.', 'works'),
-         ('Right now, she is waiting for the bus.', 'is waiting'),
-         ('Tomas works at the hospital every week.', 'works'),
-         ('This week, he is working nights.', 'is working')],
-        height=440,
-        alt='Four lines from the notice with the verb ringed in each: works, is '
-            'waiting, works, is working. This is what a correct underlining of '
-            'the verbs looks like.'),
- 10: lambda: F.writing_frame(
-        [('Your commute', 'My commute takes half an hour on two buses.'),
-         ('Your break', 'I usually have a break at eleven.'),
-         ('At the moment', 'At the moment I am starting work early.')],
-        height=420,
-        alt='The shape of the two or three sentences to write, in three steps: '
-            'your commute, your break, and one sentence about what is happening '
-            'at the moment, with a line of the model beside each.'),
- 9: lambda: F.bank_strip(
-        [('commute', 'bus'), ('shift', 'moon'), ('appointment', 'notebook'),
-         ('break', 'cup')],
-        height=400,
-        alt='The four words of the fill-in word bank, in bank order, each drawn: '
-            'a commute as night hours, a shift as a bus, an appointment as a '
-            'diary and a break as a cup of tea.'),
- 12: lambda: F.grammar_contrast(
-        ('Present simple', 'he works · she opens',
-         'Maya works in a bookshop.', [0.12, 0.34, 0.56, 0.78]),
-        ('Present continuous', 'am / is / are + -ing',
-         'Tomas is working nights.', [0.5]),
-        height=640,
-        alt='The unit’s grammar as two columns. On the left the present simple, with '
-            'four marks spread across a timeline for something that happens again and '
-            'again. On the right the present continuous, with one mark at now.'),
+# ------------------------------------------------------- Part 2 Grammar
+fig(10, '2', 'contrast', 'One line for each time',
+    lambda: P.timeline([('I lived in Spain', 0.22, 'point'),
+                        ('I came back on Friday', 0.80, 'point'),
+                        ('I live here now', 0.86, 'span')]))
+fig(11, '2', 'contrast', 'Where the question word goes',
+    lambda: P.blocks([[('Where', 'red'), ('did', 'teal'), ('you', 'amber'),
+                       ('live?', 'purple')],
+                      [('What', 'red'), ('do', 'teal'), ('you', 'amber'),
+                       ('do?', 'purple')]],
+                     legend=[('question word', 'red'), ('did or do', 'teal'),
+                             ('who', 'amber'), ('the verb', 'purple')]))
+fig(12, '2', 'contrast', 'Asking and answering',
+    lambda: P.qa_pairs([('Where did you live?', 'In Madrid, for a year.'),
+                        ('Do you work there now?', 'No, I work here.'),
+                        ('Will you go back?', 'Yes, I think so.')]))
+fig(13, '2', 'contrast', 'Last year and next year',
+    lambda: P.then_now([('I lived in Madrid.', 'I will live here.'),
+                        ('I worked in a hotel.', 'I will work in the cafe.'),
+                        ('I was a student.', 'I will be a teacher.')],
+                       left='LAST YEAR', right='NEXT YEAR'))
+fig(14, '2', 'data', 'Who did what last year',
+    lambda: P.tick_grid(['moved', 'travelled', 'changed job'],
+                        [('Lili', [True, True, True]),
+                         ('Ben', [False, False, True]),
+                         ('Rosa', [False, True, False])]))
+fig(15, '2', 'contrast', 'After did, the verb goes back',
+    lambda: P.verb_change([('Did you went?', 'Did you go?', 'new'),
+                           ('She didn\'t came.', "She didn't come.", 'new')],
+                          size=30))
 
- 13: lambda: F.timeline(
-        [('6.30', 'Maya gets up'), ('8.10', 'she catches the bus'),
-         ('9.00', 'she starts work'), ('11.00', 'a short break'),
-         ('18.00', 'the shop closes')],
-        height=400,
-        alt='One weekday on a line, with five times marked: Maya gets up at half past '
-            'six, catches the bus at ten past eight, starts work at nine, has a short '
-            'break at eleven, and the shop closes at six.'),
+# ----------------------------------------------------- Part 3 Listening
+fig(16, '3', 'data', 'Four voices on the street',
+    lambda: P.people_row([('nadia', '1', 'offer', 'tray'),
+                          ('sam', '2', 'hold', 'timetable'),
+                          ('fatima', '3', 'stand', None),
+                          ('ben', '4', 'hold', 'phone')], label_size=34))
+fig(17, '3', 'document', 'What Lili did in Spain',
+    lambda: P.register('LILI · LAST YEAR',
+                       (['When', 'Where', 'What'], [0.24, 0.32, 0.44]),
+                       [('June', 'Madrid', 'she started a course'),
+                        ('October', 'a hotel', 'she worked at the desk'),
+                        ('March', 'the coast', 'she taught English'),
+                        ('June', 'Hill Road', 'she came home')]))
+fig(18, '3', 'document', 'The week she came back',
+    lambda: P.rota('THAT WEEK', ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                   [('Lili', ['', '', 'packed', 'flew', 'arrived']),
+                    ('Nadia', ['cafe', 'cafe', 'cafe', '', 'cafe']),
+                    ('Omar', ['school', 'school', 'school', 'school', 'school'])]))
+fig(19, '3', 'lexis', 'Four words you will hear',
+    lambda: P.object_cards([(1, 'plane', None), (2, 'suitcase', None),
+                            (3, 'phone', None), (4, 'key', None)],
+                           cols=4, h=320))
 
- 15: lambda: F.error_pairs(
-        [('She work in a shop.', 'She works in a shop.'),
-         ('Amina open the shop at seven.', None),
-         ('Look! Maya wait for the bus.', None),
-         ('He work at the hospital every night.', None)],
-        height=500,
-        alt='One correction worked through -- she work in a shop struck out and '
-            'she works in a shop beside it -- and then three more sentences with '
-            'an empty line for the learner to write the correct form.'),
- 14: lambda: F.sort_bins(
-        ['Present simple', 'Present continuous'],
-        ['every morning', 'right now', 'usually', 'this week', 'every week'],
-        height=540,
-        alt='The five time words of this unit as chips above two empty bins, one '
-            'for the present simple and one for the present continuous. Which '
-            'chip goes in which bin is the exercise, so none of them is placed.'),
- 16: lambda: F.speakers(
-        [('Track 1.2', 'Tomas', 'nurse', 'his week at the hospital'),
-         ('Track 1.3', 'Amina and Yuki', 'shop', 'in the corner shop'),
-         ('Track 1.4', 'Mr Okonkwo', 'home', 'a morning on Alder Street')],
-        height=560,
-        alt='The three listenings in this unit: Tomas talks about his week at the '
-            'hospital, Amina and Yuki talk in the corner shop, and Mr Okonkwo '
-            'describes a morning on Alder Street.'),
+# ------------------------------------------------------ Part 4 Speaking
+fig(20, '4', 'data', 'Ben asks about the year',
+    lambda: P.two_talk('street', 'ben', 'lili', 'What did you do in Spain?',
+                       'I worked and I studied.', pose_a='hold', pose_b='stand'))
+fig(21, '4', 'contrast', 'Four questions to ask',
+    lambda: P.qa_pairs([('Where did you go?', 'I went to Spain.'),
+                        ('How long were you there?', 'For a year.'),
+                        ('What do you do now?', 'I work in the cafe.'),
+                        ('Will you stay?', 'Yes, I will.')]))
+fig(22, '4', 'data', 'A year in four pictures',
+    lambda: P.panels([('She flew to Madrid.', 'blue', 'lili', 'carry',
+                       'Here we go!'),
+                      ('She worked in a hotel.', 'teal', 'lili', 'stand',
+                       'Good morning!'),
+                      ('She taught English.', 'green', 'lili', 'point',
+                       'Open your books.'),
+                      ('She came home.', 'amber', 'lili', 'wave',
+                       "I'm back!")]))
+fig(23, '4', 'data', 'Three neighbours to ask',
+    lambda: P.badges([('Nadia', 'cook', 'the cafe', 'red'),
+                      ('Sam', 'driver', 'bus 12', 'navy'),
+                      ('Fatima', 'nurse', 'the clinic', 'teal')]))
 
- 20: lambda: F.info_gap_pair(
-        ('Student A', [('get up 6.30', 'alarm'), ('bookshop', 'book'),
-                       ('by bus', 'bus'), ('evening class', 'school')]),
-        ('Student B', [('get up 6.30', 'alarm'), ('hospital', 'nurse'),
-                       ('by bike', 'bicycle'), ('working nights', 'moon')]),
-        height=560,
-        alt='Student A\u2019s routine on the left and Student B\u2019s on the right, with '
-            'a fold line between them. Both get up at half past six. A works in a '
-            'bookshop, travels by bus and has an evening class this week; B works '
-            'in a hospital, travels by bike and is working nights. Three of the '
-            'four facts differ, which is what the task asks the pair to find.'),
- 19: lambda: F.question_cards(
-        [('What time do you usually get up?', 'clock'),
-         ('What are you doing this week?', 'pencil'),
-         ('Who do you see every day?', 'person')],
-        height=480,
-        alt='The three discussion questions as numbered cards a pair can put on '
-            'the table and take one at a time: what time you get up, what you are '
-            'doing this week, and who you see every day.'),
- 18: lambda: F.match_columns(
-        [('Amina', 'shop'), ('Maya', 'person'), ('Tomas', 'nurse'),
-         ('Dani', 'bag')],
-        ['running for the bus', 'coming home from a night shift',
-         'sleeping in the afternoon', 'opening her shop',
-         'carrying a bag of rice'],
-        height=640,
-        alt='Four people on the left and five things happening on the right, for '
-            'the learner to join. One of the five, sleeping in the afternoon, is '
-            'not needed, and it is drawn so the spare option is visible.'),
- 17: lambda: F.dialogue_strip(
-        [('Amina', 'shop', 'Good morning, Yuki. You are new here.'),
-         ('Yuki', 'computer', 'Yes, this is my first week.'),
-         ('Amina', 'shop', 'I open every day except Sunday.'),
-         ('Yuki', 'computer', 'I am working from home, so I am here a lot.')],
-        height=560,
-        alt='The corner shop conversation as four speech bubbles, Amina on one '
-            'side and Yuki on the other: Amina welcomes her, Yuki says it is her '
-            'first week, Amina says when she opens, and Yuki says she works from '
-            'home.'),
- 21: lambda: F.cue_cards(
-        ('Card A — Maya', ['greet', 'say your name and your floor',
-                           'say where you work', 'ask two questions'], 'person'),
-        ('Card B — Yuki', ['greet', 'say that you are new here',
-                           'say what you do', 'ask about the shop and the bus'], 'cup'),
-        height=560,
-        alt='The two role-play cards side by side. Card A, Maya: greet, say your name '
-            'and your floor, say where you work, ask two questions. Card B, Yuki: '
-            'greet, say that you are new here, say what you do, ask about the shop '
-            'and the bus.'),
+# ------------------------------------------------------- Part 5 Reading
+fig(24, '5', 'document', 'Two notes on the door',
+    lambda: P.two_text(('A NOTE FROM MAREK',
+                        ['Lili, welcome back!',
+                         'Your key is with Rosa in flat 14.',
+                         'The heating works now.'], 'navy'),
+                       ('A NOTE FROM BEN',
+                        ['I am at the shop until six.',
+                         'Come and say hello.',
+                         'I will make you a coffee.'], 'teal')))
+fig(25, '5', 'document', 'A message about Friday',
+    lambda: P.phone('Nadia', [('me', 'I arrive on Friday at four.'),
+                              ('them', 'I will meet you at the stop.'),
+                              ('me', 'Thank you! Is the cafe open?'),
+                              ('them', 'Yes. We close at eight.')]))
+fig(26, '5', 'document', 'A notice in the hall',
+    lambda: P.notice('HILL ROAD FLATS · THIS MONTH', [
+        ('Water off', 'Tuesday 9.00 - 12.00'), ('New locks', 'Thursday'),
+        ('Rent day', 'the first of the month'),
+        'Please tell Marek if you are away.'], col='amber'))
+fig(27, '5', 'document', 'A postcard that arrived late',
+    lambda: P.notice('A POSTCARD FROM MADRID', [
+        ('To', 'Nadia, Hill Road'), ('From', 'Lili'),
+        ('Sent', 'in April'), ('Arrived', 'in June'),
+        'I will be home before this postcard!'], col='blue'))
 
- 22: lambda: F.talk_shape(
-        [('who they are', 1, 'person'),
-         ('what they usually do', 2, 'clock'),
-         ('what they are doing at the moment', 2, 'bus')],
-        height=420,
-        alt='The one-minute talk as three beats on a clock line, each block as '
-            'wide as the share of the minute it should take: a short one for who '
-            'the person is, then two longer ones for what they usually do and '
-            'what they are doing at the moment.'),
- 23: lambda: F.process_strip(
-        [('Tomas finishes', 'nurse'), ('Amina opens', 'shop'),
-         ('Maya catches the bus', 'bus'), ('Dani starts', 'school'),
-         ('Mr Okonkwo watches', 'home')],
-        height=460,
-        alt='Five stages of one morning on Alder Street in order, each with an arrow '
-            'to the next: Tomas finishes a night shift, Amina opens the shop, Maya '
-            'catches the bus, Dani starts his class, Mr Okonkwo watches from his '
-            'window.'),
+# ------------------------------------------------------- Part 6 Writing
+fig(28, '6', 'document', 'A form for the flats',
+    lambda: P.form('HILL ROAD FLATS · NEW TENANT',
+                   [('Name', None), ('Flat', None), ('Came from', None),
+                    ('Phone', None), ('Works at', None)]))
+fig(29, '6', 'data', 'Four lines about your year',
+    lambda: P.writing_frame('My year', ['Last year I ', 'I lived in ',
+                                        'Now I ', 'Next year I will ']))
+fig(30, '6', 'document', 'A model to copy',
+    lambda: P.two_text(('LILI WRITES',
+                        ['Last year I lived in Madrid.',
+                         'I worked in a hotel and I studied.',
+                         'Now I am back on Hill Road.',
+                         'Next year I will teach at the school.'], 'purple'),
+                       ('THE FOUR PARTS',
+                        ['1 where you were',
+                         '2 what you did there',
+                         '3 where you are now',
+                         '4 what you will do'], 'steel')))
 
- 24: lambda: F.word_grid(
-        [('commute', 'bus'), ('flexible', 'cloth'), ('habit', 'cup'),
-         ('weekday', 'clock')],
-        height=440, cols=4,
-        alt='The four words from the reading as numbered picture cards: commute '
-            'drawn as the bus journey, flexible as cloth that bends, habit as the '
-            'same cup every day, and weekday as the clock.'),
- 25: lambda: F.world_strip(
-        [('Spain', 'sun', 'some shops close in the early afternoon'),
-         ('Japan', 'bus', 'station staff help people onto the trains'),
-         ('the north of Europe', 'moon', 'the working day finishes at four or five')],
-        height=460,
-        alt='The same day in three places: in Spain some shops close in the early '
-            'afternoon, in Japan station staff help people onto the trains in the '
-            'morning, and in the north of Europe the working day finishes at four or '
-            'five.'),
+# --------------------------------------------- Part 7 Real-World File
+fig(31, '7', 'document', 'A registration form',
+    lambda: P.form('GREENFIELD LIBRARY · JOIN',
+                   [('Family name', 'Chen'), ('First name', 'Lili'),
+                    ('Address', '11 Hill Road'), ('Town', 'Greenfield'),
+                    ('Date of birth', '14 May 2001')], filled=True))
+fig(32, '7', 'document', 'What the library asks for',
+    lambda: P.notice('TO JOIN THE LIBRARY', [
+        ('Bring', 'one letter with your address'), ('Cost', 'free'),
+        ('Books at one time', '8'), ('Keep a book for', '3 weeks'),
+        'Tell us if you move to a new address.'], col='teal'))
+fig(33, '7', 'data', 'Three forms, three places',
+    lambda: P.signs([('LIBRARY', 'board', 'teal'), ('CLINIC', 'post', 'green'),
+                     ('SCHOOL', 'board', 'blue')]))
 
- 26: lambda: F.writing_frame(
-        [('Who and when', 'Amina opens her shop at seven.'),
-         ('First, then', 'First she puts the bread on the shelf, then she makes tea.'),
-         ('Usually', 'She usually closes at six.'),
-         ('At the moment', 'At the moment she is serving a new customer.')],
-        height=520,
-        alt='The shape of the paragraph the learner is about to write, in four steps: '
-            'who and when, then first and then, then a usually sentence, and last one '
-            'sentence about what is happening at the moment.'),
+# ------------------------------------------- Part 8 Review & Can-Do
+fig(34, '8', 'lexis', 'Six things from this unit',
+    lambda: P.object_cards([(1, 'suitcase', None), (2, 'passport', None),
+                            (3, 'key', None), (4, 'plane', None),
+                            (5, 'camera', None), (6, 'envelope', None)],
+                           cols=6, h=320))
+fig(35, '8', 'contrast', 'The conversation, in blocks',
+    lambda: P.blocks([[('Where', 'red'), ('were you?', None)],
+                      [('What', 'red'), ('did you do?', None)],
+                      [('How long', 'red'), ('will you stay?', None)]],
+                     legend=[('the question word', 'red')]))
+fig(36, '8', 'contrast', 'Four more verbs to change',
+    lambda: P.verb_change([('work', 'worked', 'add'), ('stay', 'stayed', 'add'),
+                           ('meet', 'met', 'new'), ('take', 'took', 'new')]))
+fig(37, '8', 'data', 'Four people, four answers',
+    lambda: P.people_row([('lili', 'a', 'stand', None), ('sam', 'b', 'hold',
+                                                         'timetable'),
+                          ('rosa', 'c', 'carry', 'basket'),
+                          ('omar', 'd', 'walk', 'ball')], label_size=34))
+fig(38, '8', 'data', 'What I can do',
+    lambda: P.can_do(['I can say where I was and what I did.',
+                      'I can use the present, the past and will.',
+                      'I can ask someone about their year.',
+                      'I can fill in a form with my address.']))
 
- 29: lambda: F.writing_frame(
-        [('The morning', 'My perfect weekday starts late.'),
-         ('Until two', 'I work until two, and then I stop.'),
-         ('The afternoon', 'In the afternoon I read, and I cook.'),
-         ('The evening', 'In the evening I see one friend.')],
-        height=470,
-        alt='Your perfect weekday as four times of day -- the morning, until two, '
-            'the afternoon and the evening -- with a line of the model beside '
-            'each one.'),
- 28: lambda: F.writing_frame(
-        [('Welcome her', 'Dear Yuki, Welcome to 14 Alder Street.'),
-         ('Say where you live', 'I live on the second floor with Tomas.'),
-         ('Two useful things', 'The post comes before nine.'),
-         ('Offer help', 'If you need anything, knock on our door.')],
-        height=470,
-        alt='The four moves of the message to a new neighbour -- welcome her, say '
-            'where you live, give two useful things, offer help -- with a line '
-            'from the model beside each.'),
- 27: lambda: F.writing_frame(
-        [('Your opinion', 'I think a routine is a good thing.'),
-         ('First reason', 'A routine saves time.'),
-         ('Second reason', 'It also helps you sleep well.'),
-         ('The other side', 'A routine that never changes is boring.')],
-        height=470,
-        alt='The shape of the opinion paragraph in four steps -- your opinion, a '
-            'first reason, a second reason, and the other side -- with a line of '
-            'the model beside each one.'),
- 30: lambda: F.function_map(
-        [('You must be the new neighbour.', 'opening a conversation'),
-         ('Let me show you where the post boxes are.', 'showing somebody around'),
-         ('The shop closes early on Saturday.', 'giving useful local information'),
-         ('Just knock if you need anything.', 'offering help')],
-        height=580,
-        alt='Four things a neighbour says, each with an arrow to what it does: '
-            'opening a conversation, showing somebody around, giving useful local '
-            'information, and offering help.'),
-
- 34: lambda: F.writing_frame(
-        [('Welcome', 'Dear Yuki, Welcome to number 14.'),
-         ('Fact one', 'The post comes before nine.'),
-         ('Fact two', 'The shop is open every day except Sunday.'),
-         ('Offer help', 'We are on the second floor.')],
-        height=470,
-        alt='The welcome note in four lines -- the welcome, the first fact, the '
-            'second fact and the offer of help -- with a line of the model beside '
-            'each one.'),
- 33: lambda: F.cue_cards(
-        ('Card A \u2014 Neighbour',
-         ['open the conversation', 'say your name and floor',
-          'give two useful facts', 'offer help'], 'home'),
-        ('Card B \u2014 New arrival',
-         ['say when you moved in', 'say what you do',
-          'ask two questions about the area', 'thank them'], 'bag'),
-        height=560,
-        alt='The two 7D role-play cards side by side. Card A, the neighbour: open '
-            'the conversation, say your name and floor, give two useful facts, '
-            'offer help. Card B, the new arrival: say when you moved in, say what '
-            'you do, ask two questions about the area, thank them.'),
- 32: lambda: F.sequence_steps(
-        [('Give one or two useful local facts.', 'notice'),
-         ('Say your name and where you live.', 'person'),
-         ('Offer help and say when you are usually in.', 'key'),
-         ('Ask one question about them.', 'question')],
-        height=500,
-        alt='The four steps still to be numbered, in the order the task prints '
-            'them and not in the right order, each with an empty box at the left '
-            'for its number.'),
- 31: lambda: F.dialogue_strip(
-        [('Maya', 'person', 'Hello, you must be the new neighbour.'),
-         ('Yuki', 'bag', 'Yes, I moved in on Saturday.'),
-         ('Tomas', 'bed', 'Sorry, I am half asleep. I am working nights.'),
-         ('Maya', 'person', 'The post comes before nine.')],
-        height=560,
-        alt='The 7B exchange as four speech bubbles: Maya opens the conversation, '
-            'Yuki says she moved in on Saturday, Tomas says he is half asleep '
-            'because he is working nights, and Maya gives the first useful fact '
-            'about the post.'),
- 35: lambda: F.before_after(
-        ('Before', ['the alarm four times', 'ran for the train',
-                    'arrived angry'], 'moon'),
-        ('After', ['the phone in the kitchen', 'time for tea',
-                   'ten pages on the train'], 'cup'),
-        height=520,
-        alt='Jun’s mornings before and after one small change. Before: he stopped the '
-            'alarm four times, ran for the train and arrived angry. After: the phone '
-            'in the kitchen, time for tea, and ten pages on the train.'),
-
- 39: lambda: F.bank_strip(
-        [('routine', 'clock'), ('shift', 'moon'), ('flatmate', 'person'),
-         ('appointment', 'notebook'), ('present continuous', 'bus'),
-         ('present simple', 'home'), ('neighbour', 'window'),
-         ('usually', 'sun')],
-        height=560, cols=4,
-        alt='The eight words of the spiral review bank on two rows, in bank '
-            'order: routine, shift, flatmate, appointment, present continuous, '
-            'present simple, neighbour and usually, each with a picture.'),
- 38: lambda: F.decision_fork(
-        'A new person moves in next week. What do you do?',
-        [('Knock with a note',
-          ['a shy person can read it later', 'it takes two minutes'],
-          'envelope'),
-         ('Wait on the stairs',
-          ['you may never meet them', 'they work from home'], 'clock'),
-         ('Use the group chat',
-          ['all six people see it', 'nobody reads a group chat'], 'mobile')],
-        height=580,
-        alt='The decision task as one question and three branches, each with what '
-            'it costs: knock with a note, which a shy person can read later and '
-            'takes two minutes; wait on the stairs, where you may never meet '
-            'somebody who works from home; or use the group chat, which everybody '
-            'sees and nobody reads.'),
- 37: lambda: F.close_scene(
-        [('the top flat', 'home'), ('the shop', 'shop'),
-         ('the street', 'street'), ('a short note', 'envelope')],
-        height=460,
-        alt='Yuki\u2019s first four days at number 14 drawn along one street: the top '
-            'flat she moved into, the shop where she spoke only about bread, the '
-            'street whose voices she did not know, and the short note Maya put '
-            'through her door.'),
- 36: lambda: F.word_grid(
-        [('alarm', 'alarm'), ('swap', 'mobile'), ('habit', 'cup'),
-         ('secret', 'key')],
-        height=440, cols=4,
-        alt='The four words from the global story as numbered picture cards: the '
-            'alarm that wakes you, the phone Jun swapped from one room to '
-            'another, the habit of tea, and a secret drawn as a key.'),
- 40: lambda: F.progress_strip(
-        [('I can name the people around me', False),
-         ('I can use the present simple and the present continuous', False),
-         ('I can understand a short conversation between neighbours', False),
-         ('I can describe a person’s day in 50–70 words', False),
-         ('I can welcome somebody new and give them useful information', True)],
-        height=520,
-        alt='The five Can-Do lines of the unit as a strip with a box to tick beside '
-            'each, the last one marked Plus.'),
- 41: lambda: F.glossary_grid(
-        [('routine', 'clock'), ('shift', 'moon'), ('flatmate', 'person'),
-         ('neighbour', 'home'), ('colleague', 'nurse'), ('commute', 'bus'),
-         ('appointment', 'notebook'), ('busy', 'street'), ('usually', 'sun'),
-         ('at the moment', 'speech')],
-        height=700, cols=5,
-        alt='All ten glossary words of Unit 1 as picture cards on one page: '
-            'routine, shift, flatmate, neighbour, colleague, commute, '
-            'appointment, busy, usually and at the moment.'),
-}
+if __name__ == '__main__':
+    runner(UNIT, FIGURES)

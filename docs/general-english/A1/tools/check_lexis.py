@@ -51,6 +51,10 @@ def stem(w):
     if w.endswith('ed') and len(w) > 4:
         yield w[:-2]
         yield w[:-1]
+    # studied -> study, carried -> carry. The 'ies' rule was there and its
+    # past-tense twin was not, so every -ied past read as an unknown word.
+    if w.endswith('ied') and len(w) > 4:
+        yield w[:-3] + 'y'
     if w.endswith('er') and len(w) > 4:
         yield w[:-2]
     if w.endswith('est') and len(w) > 5:

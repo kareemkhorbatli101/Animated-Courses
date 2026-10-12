@@ -1,26 +1,22 @@
-#!/usr/bin/env python3
-"""The B1 gate: HOUSE-STYLE.md, checked.
+"""The A2 gate. Ceilings only.
 
-This replaces the 269-check suite for B1, and the reason is worth writing down.
-That suite was built around A2's architecture and then tuned to make B1 look
-harder than A2. It enforced a 42-section shell, 41 figures, a mean sentence of
-at least 12 words and a reading grade of at least 5.5 -- and it reported a unit
-as green that three readers in a row rejected. Its floors were not a safety
-net; they were the fault.
+Run: python3 tools/gate.py units/a21-u01.md
 
-So the gate is now small, and every number in it came off the supplied
-coursebook rather than off A2. A2 keeps its own suite, untouched and still
-green; nothing here runs against A2.
+Every number comes from spec/golden.yaml. The gate refuses to invent one, and
+it refuses to check a minimum, because the single most expensive mistake in
+this repository was a suite that enforced floors and reported a bad unit green.
 
-    python3 tools/gate.py            # check units/b11-u01.md
-    python3 tools/gate.py --unit 2
+Sentences are measured LINE BY LINE, never on the file joined. Measuring a
+whole markdown file as one string produced nine false positives in B1, and in
+the SAT books joining option sets put a word next to itself and invented a
+typo that was not there.
 """
-from __future__ import annotations
-import argparse, os, re, sys, statistics
+import re
+import statistics
+import sys
+
 import yaml
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
 OK, BAD = [], []
 
 
@@ -28,176 +24,170 @@ def check(name, cond, detail=''):
     (OK if cond else BAD).append((name, detail))
 
 
-def syl(w):
-    w = w.lower(); n = len(re.findall(r'[aeiouy]+', w))
-    return max(1, n - (1 if w.endswith('e') and n > 1 else 0))
+VOWELS = 'aeiouy'
 
 
-def run(unit=1):
-    spec = yaml.safe_load(open(os.path.join(ROOT, 'spec', 'golden.yaml'), encoding='utf-8'))
-    clarity = yaml.safe_load(open(os.path.join(ROOT, 'ledgers', 'clarity.yaml'), encoding='utf-8'))
-    p = os.path.join(ROOT, 'units', f'b11-u{unit:02d}.md')
-    t = open(p, encoding='utf-8').read()
-    lines = t.split('\n')
-    lang, ex, fig = spec['language'], spec['exercise'], spec['figures']
+def syllables(w):
+    w = re.sub(r'[^a-z]', '', w.lower())
+    if not w:
+        return 0
+    n, prev = 0, False
+    for ch in w:
+        v = ch in VOWELS
+        if v and not prev:
+            n += 1
+        prev = v
+    if w.endswith('e') and n > 1:
+        n -= 1
+    return max(1, n)
 
-    # ---- 1 the shape ------------------------------------------------------
-    labels = re.findall(r'^\*\*(W\d|\d{1,2}[A-H])\*\*\s+(\S.*)$', t, re.M)
-    want = [l for s in spec['sections'] for l in s['labels']]
-    got = [l for l, _ in labels]
+
+def main(path):
+    spec = yaml.safe_load(open('spec/golden.yaml'))
+    raw = open(path).read()
+    lines = raw.split('\n')
+    ex, fig, lang, S = spec['exercise'], spec['figures'], spec['language'], spec['sections']
+
+    # ---- structure ------------------------------------------------------
+    want = [l for s in S for l in s['labels']]
+    got = re.findall(r'^\*\*(W\d|\d[A-H])\*\*\s', raw, re.M)
     check('G1 exercise labels', got == want,
-          f'{len(got)} labels; first difference at '
-          f'{next((i for i, (a, b) in enumerate(zip(got, want)) if a != b), len(got))}')
-    check('G2 every part present',
-          all(any(l.startswith(f'**{s["part"]}') for l in lines) for s in spec['sections']),
-          'a part header is missing')
+          f'{len(got)} found, {len(want)} wanted; first difference '
+          f'{next((a for a, b in zip(got + [None] * 9, want) if a != b), None)}')
+    check('G2 every part header present',
+          all(s['header'] in raw for s in S),
+          str([s['part'] for s in S if s['header'] not in raw]))
+    check('G3 title', bool(re.search(spec['unit']['title_pattern'], raw, re.M)))
+    check('G4 strap', bool(re.search(spec['unit']['strap_pattern'], raw, re.M)))
 
-    words = len(t.split())
-    lo, hi = spec['unit']['words']['min'], spec['unit']['words']['max']
-    check('G3 unit length', lo <= words <= hi, f'{words} words, want {lo}-{hi}')
+    words = len(re.findall(r"[A-Za-z'’]+", raw))
+    check('G5 unit length ceiling', words <= spec['unit']['words_max'],
+          f'{words} words, ceiling {spec["unit"]["words_max"]} (no floor exists)')
 
-    # ---- 2 the texts ------------------------------------------------------
-    quoted = [re.sub(r'^>\s?', '', l).strip() for l in lines if l.strip().startswith('>')]
-    texts = [q for q in quoted if len(q.split()) > 60]
-    check('G4 few long texts', len(texts) <= lang['long_texts_max'],
-          f'{len(texts)} texts over 60 words, limit {lang["long_texts_max"]}')
-    longest = max((len(q.split()) for q in texts), default=0)
-    check('G5 no long text is long', longest <= lang['long_text_words_max'],
-          f'longest text {longest} words, limit {lang["long_text_words_max"]}')
-
-    # ---- 3 the language ---------------------------------------------------
-    # Sentences are measured LINE BY LINE. Measuring the whole file as one
-    # string makes the title, the four unit bullets and a run of table rows
-    # into a single 40-word "sentence", because none of them ends in a stop --
-    # which is how the first run of this gate reported nine sentences over the
-    # limit in a unit whose longest real sentence is 19 words.
-    sents = []
-    for raw in lines:
-        l = raw.strip()
-        # the texts, the dialogues and the models all live inside blockquotes,
-        # so the quote marker comes off and the line is measured. Only the
-        # apparatus inside a quote is skipped.
-        if l.startswith('>'):
-            l = re.sub(r'^>\s?', '', l).strip()
-            if l.startswith('**') or not l:
-                continue
-            l = re.sub(r'^\*\*[A-Z][A-Za-z ]+:\*\*\s*', '', l)
-        if (not l or l.startswith(('|', '*Figure', '**', '-', '☐', '____'))
-                or re.match(r'^\(?[a-d0-9]+[.)]', l)):
+    # ---- language, measured line by line --------------------------------
+    prose, items = [], []
+    for ln in lines:
+        s = ln.strip()
+        if not s or s.startswith('|') or s.startswith('*Figure') or s.startswith('>'):
             continue
-        l = re.sub(r'[|*>#☐]', ' ', l)
-        l = re.sub(r'_{3,}', ' something ', l)
-        for x in re.split(r'(?<=[.!?])\s+', l):
-            if len(x.split()) > 2:
-                sents.append(x.strip())
-    L = [len(s.split()) for s in sents]
-    ws = [w for s in sents for w in re.findall(r"[A-Za-z']+", s)]
-    mean = statistics.mean(L)
-    fk = 0.39 * mean + 11.8 * sum(syl(w) for w in ws) / len(ws) - 15.59
-    check('G6 mean sentence', mean <= lang['mean_sentence_words_max'],
-          f'{mean:.1f}, limit {lang["mean_sentence_words_max"]}')
-    over = [s for s in sents if len(s.split()) > lang['max_sentence_words']]
-    check('G7 longest sentence', not over,
-          f'{len(over)} over {lang["max_sentence_words"]}w: "{over[0][:60]}..."' if over else '')
+        s = re.sub(r'\*\(example\)\*', '', s)
+        s = re.sub(r'\*\*|\*|_{3,}|✓', '', s).strip()
+        if not s:
+            continue
+        if re.match(r'^\d+\.\s', s) or re.match(r'^0\.\s', s):
+            items.append(re.sub(r'^\d+\.\s*', '', s))
+        else:
+            prose.append(s)
+
+    sent = []
+    for s in prose + items:
+        for piece in re.split(r'(?<=[.!?])\s+', s):
+            w = re.findall(r"[A-Za-z'’]+", piece)
+            if w:
+                sent.append(w)
+    means = [len(w) for w in sent]
+    check('G6 mean sentence', statistics.mean(means) <= lang['mean_sentence_words_max'],
+          f'{statistics.mean(means):.1f} words, ceiling {lang["mean_sentence_words_max"]}')
+    over = [' '.join(w) for w in sent if len(w) > lang['max_sentence_words']]
+    check('G7 longest sentence', not over, f'{len(over)} over: {over[:3]}')
+    allw = [w for s in sent for w in s]
+    fk = (0.39 * statistics.mean(means)
+          + 11.8 * (sum(syllables(w) for w in allw) / max(1, len(allw))) - 15.59)
     check('G8 reading grade', fk <= lang['fk_grade_max'],
-          f'FK {fk:.2f}, limit {lang["fk_grade_max"]}')
+          f'FK {fk:.2f}, ceiling {lang["fk_grade_max"]}')
 
-    # ---- 4 the items ------------------------------------------------------
-    items = [l.strip() for l in lines if re.match(r'^\d+\.\s+\S', l.strip())]
-    IL = [len(i.split()) for i in items]
-    check('G9 item length mean', statistics.mean(IL) <= ex['item_mean_words_max'],
-          f'{statistics.mean(IL):.1f}, limit {ex["item_mean_words_max"]}')
-    long_items = [i for i in items if len(i.split()) > ex['item_max_words']]
-    check('G10 no long item', not long_items,
-          f'{len(long_items)} over {ex["item_max_words"]}w: "{long_items[0][:60]}..."'
-          if long_items else '')
+    il = [len(re.findall(r"[A-Za-z'’]+", i)) for i in items]
+    check('G9 item mean', statistics.mean(il) <= ex['item_mean_words_max'],
+          f'{statistics.mean(il):.1f}, ceiling {ex["item_mean_words_max"]}')
+    long_items = [i for i in items
+                  if len(re.findall(r"[A-Za-z'’]+", i)) > ex['item_max_words']]
+    check('G10 no long item', not long_items, f'{len(long_items)}: {long_items[:3]}')
 
-    # ---- 5 every exercise ------------------------------------------------
-    blocks = re.split(r'^\*\*(?:W\d|\d{1,2}[A-H])\*\*\s', t, flags=re.M)[1:]
-    noex = [got[i] for i, b in enumerate(blocks)
-            if '*(example)*' not in b and not re.search(r'^\*\*(4[A-E]|\dG|\dD|7D|8E|10F)', '')]
-    # speaking and free-writing tasks carry no example in the source either
-    FREE = {'1H', '2F', '4A', '4B', '4C', '4D', '4E', '5G', '6B', '6D', '7A',
-            '7D', '8E', '9B', '9C', '10F', '6A'}
-    noex = [got[i] for i, b in enumerate(blocks)
-            if '*(example)*' not in b and got[i] not in FREE]
-    check('G11 seeded example', not noex, f'{len(noex)} exercises with no example: {noex[:6]}')
+    # ---- every exercise -------------------------------------------------
+    blocks = re.split(r'^\*\*(W\d|\d[A-H])\*\*\s', raw, flags=re.M)[1:]
+    pairs = list(zip(blocks[::2], blocks[1::2]))
+    noex, longr, fewitems, manyitems = [], [], [], []
+    for lab, body in pairs:
+        if not re.search(ex['example_pattern'], body, re.M):
+            noex.append(lab)
+        rub = body.split('\n')[0]
+        if len(rub.split()) > ex['rubric_max_words']:
+            longr.append((lab, len(rub.split())))
+        n = len(re.findall(r'^\d+\.\s', body, re.M))
+        if n < ex['items_min']:
+            fewitems.append((lab, n))
+        if n > ex['items_max']:
+            manyitems.append((lab, n))
+    check('G11 seeded example in every exercise', not noex, str(noex))
+    check('G12 rubric ceiling', not longr, str(longr))
+    check('G13 at least three items', not fewitems, str(fewitems))
+    check('G14 at most eight items', not manyitems, str(manyitems))
 
-    rubrics = [r for _, r in labels]
-    longr = [r for r in rubrics if len(r.split()) > ex['rubric_max_words']]
-    check('G12 short rubrics', not longr,
-          f'{len(longr)} over {ex["rubric_max_words"]}w: "{longr[0][:60]}..."' if longr else '')
+    # ---- matching, mcq ---------------------------------------------------
+    nospare = []
+    for lab, body in pairs:
+        if '|---|' in body and ex['not_needed_line'] not in body:
+            nospare.append(lab)
+    check('G15 matching prints a spare', not nospare, str(nospare))
+    check('G16 three-option mcq', not re.search(r'\(d\)\s', raw), '')
 
-    matches = [b for b in blocks if '| **Match** | **to** |' in b]
-    nospare = [i for i, b in enumerate(matches) if ex['not_needed_line'] not in b]
-    check('G13 matching has a spare', not nospare,
-          f'{len(nospare)} of {len(matches)} matching tasks have no spare option')
+    # ---- figures ---------------------------------------------------------
+    caps = re.findall(fig['caption_pattern'], raw, re.M)
+    check('G17 figure count', len(caps) == fig['per_unit'],
+          f'{len(caps)} captions, want {fig["per_unit"]}')
+    nums = [int(b) for a, b, c in caps]
+    check('G18 figures numbered 1..n', nums == list(range(1, len(caps) + 1)), str(nums))
+    longc = [c for a, b, c in caps if len(c.split()) > fig['caption_max_words']]
+    check('G19 caption ceiling', not longc, str(longc))
+    # NOT from the caption lines: a caption contains "Figure 5.3" itself, so
+    # counting those made every figure its own reference and the check could
+    # never go red. Mutation testing found this; nothing else would have.
+    body_only = re.sub(r'^\*Figure \d+\.\d+ · .+\.\*$', '', raw, flags=re.M)
+    refs = set(int(m) for m in re.findall(r'Figure \d+\.(\d+)', body_only))
+    check('G20 every figure referenced by an exercise',
+          set(nums) <= refs, str(sorted(set(nums) - refs)))
 
-    opts = re.findall(r'^\((a|b|c)\)\s', t, re.M)
-    check('G14 three-option mcq', not re.search(r'^\(d\)\s', t, re.M),
-          'a four-option question is present')
+    # ---- figures per part -------------------------------------------------
+    thin = []
+    for s in S:
+        seg = raw.split(s['header'])
+        if len(seg) < 2:
+            continue
+        nxt = len(seg[1])
+        for s2 in S:
+            if s2['header'] in seg[1]:
+                nxt = min(nxt, seg[1].index(s2['header']))
+        body = seg[1][:nxt]
+        n = len(re.findall(fig['caption_pattern'], body, re.M))
+        if n != len(s['labels']):
+            thin.append((s['part'], f"{n} figures, {len(s['labels'])} exercises"))
+    check('G21 one figure per exercise in every part', not thin, str(thin))
 
-    # ---- 6 the figures ----------------------------------------------------
-    caps = re.findall(r'^\*Figure (\d+)\.(\d+) · (.+?)\.\*$', t, re.M)
-    check('G15 figure count', len(caps) == fig['per_unit'],
-          f'{len(caps)}, want {fig["per_unit"]}')
-    nums = [int(b) for _, b, _ in caps]
-    check('G16 figures numbered 1..n', nums == list(range(1, len(caps) + 1)),
-          f'out of order at {next((i for i, n in enumerate(nums, 1) if n != i), None)}')
-    longc = [c for _, _, c in caps if len(c.split()) > fig['caption_max_words']]
-    check('G17 short captions', not longc,
-          f'{len(longc)} over {fig["caption_max_words"]}w: "{longc[0]}"' if longc else '')
-    part, perpart = 'front', {}
-    for l in lines:
-        m = re.match(r'^\*\*(Warm Up|Part \d+)', l)
-        if m:
-            part = m.group(1)
-        if l.startswith('*Figure'):
-            perpart[part] = perpart.get(part, 0) + 1
-    thin = {k: v for k, v in perpart.items()
-            if k != 'front' and not (fig['min_per_part'] <= v <= fig['max_per_part'])}
-    check('G18 figures per part', not thin, f'{thin}')
+    # ---- G22: the figure of exercise k IS figure k -------------------------
+    #
+    # At A1 a figure served two or three exercises and some exercises had
+    # none, so the mapping was many-to-many and only G20 could be checked.
+    # A2 gives every exercise its own figure, which makes the mapping total:
+    # the kth exercise of the unit cites Figure N.k. That is worth checking
+    # rather than trusting, because a renumber that slips by one is invisible
+    # on the page and wrong on every page after it.
+    want = [m.group(1) for m in re.finditer(ex['label_pattern'], raw, re.M)]
+    cited = []
+    blocks = re.split(ex['label_pattern'], raw, flags=re.M)
+    for lab, body in zip(blocks[1::3], blocks[3::3]):
+        m = re.search(r'\*Figure (\d+)\.(\d+) · ', body)
+        cited.append((lab, int(m.group(2)) if m else None))
+    off = [(lab, got, k) for k, (lab, got) in enumerate(cited, 1) if got != k]
+    check('G22 exercise k cites figure k', not off, str(off[:4]))
 
-    # ---- 7 the devices ----------------------------------------------------
-    dev = spec['devices']
-    counts = {
-        'word_meaning_table': t.count('| **Word** | **Meaning** |'),
-        'words_box': len(re.findall(r'\*\*Words:\*\*', t)),
-        'glossary_box': len(re.findall(r'\*\*Glossary:\*\*', t)),
-        'model_box': len(re.findall(r'\*\*Model:?\*\*', t)),
-        'sentence_starters': len(re.findall(r'\*\*Sentence starters:\*\*', t)),
-        'check_before_you_finish': len(re.findall(r'\*\*Check before you finish\*\*', t)),
-        'can_do': len(re.findall(r'\*\*Can-Do', t)),
-        'exam_skill': len(re.findall(r'\*\*Exam skill', t)),
-        'before_you_read': len(re.findall(r'\*\*Before you (read|listen):\*\*', t)),
-    }
-    for k, rule in dev.items():
-        check(f'G19 device {k}', counts.get(k, 0) >= rule['min'],
-              f'{counts.get(k,0)}, want at least {rule["min"]}')
-
-    # ---- 8 the banned constructions ---------------------------------------
-    hits = [b['id'] for b in clarity['banned_phrasing'] if re.search(b['pattern'], t)]
-    check('G20 no banned phrasing', not hits, f'{hits}')
-
-    # ---- 9 a pre-task question must be answerable from the page -----------
-    pres = re.findall(r'\*\*Before you (?:read|listen):\*\*\s*(.+?)(?:\n|$)', t)
-    vague = [q for q in pres if not re.search(
-        r'(look at the picture|look at the table|read the|listen)', q, re.I)]
-    check('G21 pre-task points at the page', not vague,
-          f'{len(vague)} that cannot be answered from the page: {vague[:2]}')
-
-    print(f'\nB1 Unit {unit} — gate against HOUSE-STYLE.md\n')
+    # ---- report ----------------------------------------------------------
     for n, d in OK:
-        print(f'  ok    {n}' + (f'  ({d})' if d else ''))
+        print(f'  ok   {n}' + (f'  — {d}' if d else ''))
     for n, d in BAD:
-        print(f'  FAIL  {n}  {d}')
-    print(f'\n{len(OK)} pass · {len(BAD)} FAIL   '
-          f'[{len(got)} exercises · {words} words · mean {mean:.1f} · FK {fk:.2f} '
-          f'· {len(caps)} figures · {len(texts)} long texts]\n')
+        print(f'  FAIL {n}  — {d}')
+    print(f'\n{len(OK)} passed, {len(BAD)} failed   [{path}]')
     return 1 if BAD else 0
 
 
 if __name__ == '__main__':
-    a = argparse.ArgumentParser()
-    a.add_argument('--unit', type=int, default=1)
-    sys.exit(run(a.parse_args().unit))
+    sys.exit(main(sys.argv[1]))

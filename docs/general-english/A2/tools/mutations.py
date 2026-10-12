@@ -1,539 +1,221 @@
-"""A negative test for every non-gate check.
+"""One mutation per check: a deliberate break that check must notice.
 
-Each entry breaks a good unit (or key, or context, or artefact) in exactly the way
-its check exists to catch. K15 asserts every non-gate check has one; K14 asserts
-every exercisable one is actually caught.
+A check that cannot fail is worse than no check, because it reports green.
+Every entry below edits a known-good unit in a way that should turn exactly
+one check red. If the check stays green, the check is inert and the number
+it contributes to every report is a lie.
 
-kind:  'unit' | 'key' | 'ctx' | 'fig' | 'docx' | 'cover'
+Each mutation is (check_id, target, function). `target` says which file to
+damage: 'unit', 'key', 'lex' (the unit's wordlist), or 'fig' (the figure
+module). The function takes (text, unit) and returns the broken text, or
+None if it cannot apply to that unit.
 
-Every anchor below is a literal string from A2.1, so the suite runs against that
-book and only that book. That is not a gap: the mutations test the CHECK CODE,
-which both volumes share, and re-anchoring the same 217 mutations in A2.2's text
-would prove nothing further about any check. K14 therefore reads the report from
-FIXTURE_BOOK whichever volume is being validated.
+The unit argument matters: a mutation that hardcodes unit 5's neighbour
+goes inert the moment the suite is run on unit 8, and an inert mutation
+looks exactly like an inert check.
 """
 import re
 
-FIXTURE_BOOK = 'a21'
-FIXTURE_BOOK_FOR = {'A2': 'a21', 'B1': 'b11'}
 
-# Checks that cannot be mutation-tested at the LOWEST level, because there they
-# are vacuous by design: each one reads the level below, and A2 has none. Their
-# fixtures live in the level above's set. Named here, with the reason, so K15
-# can account for them instead of them sitting quietly uncovered.
-CROSS_LEVEL = {
-    'F19': 'compares glossaries with the level below; A2 has none',
-    'K19': 'asserts the level below is recycled; A2 has none',
-    'K20': 'verifies the level below is byte-identical; A2 has none',
-    'K21': 'reads this level\'s CEFR-J grammar profile; A2 ships none',
-}
-
-def U(old, new, n=1):
-    def f(t):
-        assert old in t, f'mutation anchor missing: {old[:50]!r}'
-        return t.replace(old, new, n)
-    return ('unit', f)
-
-def URE(pat, new, n=1):
-    def f(t):
-        t2, k = re.subn(pat, new, t, count=n, flags=re.M)
-        assert k, f'mutation regex matched nothing: {pat}'
-        return t2
-    return ('unit', f)
-
-def K(old, new, n=1):
-    def f(t):
-        assert old in t, f'key anchor missing: {old[:50]!r}'
-        return t.replace(old, new, n)
-    return ('key', f)
-
-def KRE(pat, new, n=1):
-    def f(t):
-        t2, k = re.subn(pat, new, t, count=n, flags=re.M)
-        assert k, f'key regex matched nothing: {pat}'
-        return t2
-    return ('key', f)
-
-def CTX(f):
-    return ('ctx', f)
-
-def FIG(f):
-    return ('fig', f)
-
-def _one_line_timeline(F):
-    """`timeline` as it was before the truncation sweep: it draws only the
-    first line of a two-line `when` label. G33 must catch it."""
-    real = F.timeline
-
-    def broken(points, height=460, alt=''):
-        f = F.Fig(height, alt)
-        for when, what in points:
-            F.fit_lines(when, 300, size_hi=34, size_lo=24)      # read nothing
-        return real(points, height, alt)
-    return broken
+def _first(t, pat, rep):
+    new, n = re.subn(pat, rep, t, count=1, flags=re.M)
+    return new if n else None
 
 
-def SVG(f):
-    return ('svg', f)
-
-def DOCX(f):
-    return ('docx', f)
-
-def COVER(f):
-    return ('cover', f)
-
-APPEND = lambda s: ('unit', lambda t: t + '\n' + s + '\n')
-KAPPEND = lambda s: ('key', lambda t: t + '\n' + s + '\n')
-
-MUTATIONS = {
-# ---------------------------------------------------------------- A structure
-'A01': U('**Unit 1: People and Routines**', 'Unit 1 People and Routines'),
-'A02': URE(r'^\*English for Daily Life.*$', '*A book*'),
-'A03': U('**Warm Up**\n', '**Warm Upp**\n'),
-'A04': U('**Warm-up: A Street of Neighbours**', '**Warm-ups: A Street of Neighbours**'),
-'A05': U('**Part 3 · Listening**', '**Part 11 · Listening**'),
-'A06': U('**Part 4 · Speaking**', '**Part 4 - Speaking**'),
-'A07': U('***[CORE] Core track · in-class output***\n', ''),
-'A08': U('***[CORE] Core track · in-class output***', '***[CORE] Core track · whenever***'),
-'A09': U('**Part 1: Pronunciation**', '**Part 1x: Pronunciation**'),
-'A10': U('**Part 2: Notice**', '**Part 2x: Notice**'),
-'A11': U('**Part 3: In the Corner Shop**', '**Part 3x: In the Corner Shop**'),
-'A12': U('**Part 4: Mini-Presentation**', '**Part 4x: Mini-Presentation**'),
-'A13': U('**Part 5: Vocabulary in Context**', '**Part 5x: Vocabulary in Context**'),
-'A14': U('**Part 6: Reflection — My Perfect Weekday (40–60 words)**', '**Part 6x: Reflection**'),
-'A15': U('**7C: Controlled Practice — Meeting Someone New**', '**7Z: Controlled Practice**'),
-'A16': U('**Part 8: Discussion**', '**Part 8: Debate**'),
-'A17': U('**Part 9: Decision Task**', '**Part 9: Choice Task**'),
-'A18': U('**Part 10: Can-Do**', '**Part 10: Self Check**'),
-'A19': APPEND('**An extra heading**'),
-'A20': U('**Part 5: Routines Around the World**', '**Part 5: Routines Around the World**\n\n**Part 5: One More**'),
-'A21': APPEND('**Part 10: Afterword**'),
-'A22': U('**Part 10: Can-Do**', '**Part 10: Zz**'),
-'A23': U('**Part 3: In the Corner Shop**', '**Part 3: A Nurse Talks About His Week**'),
-'A24': U('**Part 2: Notice**', '**Part 2: Notice**\n\n**A Stray Bold Heading**'),
-'A25': U('**Part 6: Why Routines Matter (50–70 words)**', '**Part 5: Why Routines Matter (50–70 words)**'),
-'A26': U('| | **Form** | **Use** | **Example** |', '| | **Shape** | **Why** | **Case** |'),
-'A27': U('**7A: Phrase Bank**', '**7A: Word List**'),
-'A28': URE(r'\(a\) knock on the door with a note, \(b\)', 'knock on the door with a note, or'),
-'A29': U('**Part 5: Vocabulary in Context**', '**Part 5: Words**'),
-'A30': U('**Part 1: Pronunciation**', '**Part 1: Sounds**'),
-
-# ------------------------------------------------------------- B scaffolding
-'B01': URE(r'^0\. ', '1. '),
-'B02': U('One meaning is not needed. Write the letter.', 'Write the letter.'),
-'B03': U('**Model — read this first:**\n', '', 2),
-'B04': URE(r'(\*\*Model — read this first:\*\*\n\n)> .*', r'\1'),
-'B05': U('Before you read:', 'Before reading:', 5),
-'B06': U('Before you listen:', 'First:', 3),
-'B07': U('**Check before you finish:**', '**Check:**', 5),
-'B08': URE(r'\*\*Check before you finish:\*\* ☐ .*', '**Check before you finish:** ☐ done?'),
-'B09': U('> **Word bank:**', '> Words:', 5),
-'B10': U('> **Gloss:**', '> Note:', 4),
-'B11': U('Useful language:', 'Language:', 5),
-'B12': U('Model exchange:', 'Example:', 2),
-'B13': U('*Stretch [PLUS]:', '*Stretch:', 2),
-'B14': U('**Remember:**', '**Note:**'),
-'B15': URE(r'✗ .*?✓ [^*]*\*[^*]*\*', 'Add -s for he/she/it.', 0),
-'B16': U('→ Harvest:', 'Next:'),
-'B17': U('Answer frame:', 'Frame:'),
-'B18': U('**7A: Phrase Bank**', '**7A: Openers**'),
-'B19': U('Discussion frames:', 'Frames:'),
-'B20': U('**Plan (fill in, then write):**', '**Outline:**', 2),
-'B21': U('**🔊 Audio Track 1.1**\n', ''),
-'B22': U('**Model — read this first:**', '**Model - read this first:**', 1),
-
-# -------------------------------------------------------------- C exercises
-'C01': U('**Column B**\n\n| | |\n|---|---|\n| **a)** | a person you work with |', '**Column C**'),
-'C02': U('| **f)** | a person who shares your home |\n', '', 1),
-'C03': U('Match the words with their meanings. One meaning is not needed. Write the letter.',
-         'Match the words with their meanings. Write the letter.'),
-'C04': K('1. c · 2. f · 3. a · 4. e · 5. b', '1. c · 2. f · 3. a · 4. e · 5. c'),
-'C05': K('1. d · 2. a · 3. b · 4. f · 5. e', '1. d · 2. d · 3. b · 4. f · 5. e'),
-'C07': U('> ○ D) In six different cities\n', ''),
-'C08': U('> ○ C) In a bookshop', '> ○ E) In a bookshop'),
-'C09': K('1. **B)** At 14 Alder Street · 2. **A)** Opening her shop',
-         '1. **F)** At 14 Alder Street · 2. **A)** Opening her shop'),
-'C10': KRE(r'\*\*[A-D]\)\*\*', '**A)**', 40),
-'C12': K('1. **B)** neighbour · 2. **C)** commute · 3. **A)** appointment',
-         '1. **B)** neighbour · 2. **B)** commute · 3. **A)** appointment'),
-'C11': ('keyall', 'all_A'),
-'C14': URE(r'> \*\*Word bank:\*\* routine \| shift \| flatmate \| appointment \| present continuous \| present simple \| neighbour \| usually',
-           '> **Word bank:** routine | shift | flatmate'),
-'C15': U('> **Word bank:** commute | shift | appointment | break',
-         '> **Word bank:** commute | shift | appointment | break | holiday'),
-'C17': K('Ask one question about them — **3**', 'Ask one question about them — **5**'),
-'C18': K('''Give one or two useful local facts — **4**
-Say your name and where you live — **2**
-Offer help and say when you are usually in — **5**
-Ask one question about them — **3**''',
-         '''Say your name and where you live — **2**
-Ask one question about them — **3**
-Give one or two useful local facts — **4**
-Offer help and say when you are usually in — **5**'''),
-'C19': K('3. **Not Given** — he says where he works, never for how long.',
-         '3. **False** — he says where he works, never for how long.'),
-'C22': U('0. Routine → the same things you do every day or every week.',
-         '0. Weekday → Monday, Tuesday, Wednesday, Thursday or Friday'),
-'C24': K('**Part 3: A Morning on Alder Street**', '**Part 3: Something Else**'),
-'C25': KAPPEND('**Part 11: Nowhere**\n\n1. a'),
-'C26': U('**2. The journey from your home to your work is your…**',
-         '**1. A person who lives near you is a…**'),
-'C27': ('key2', lambda t: t),      # duplicate a stem across two units
-'C28': URE(r'______________________ \.$', '_____ .'),
-
-# C29 and C30 are the shuffling pair. Both mutations restore the exact defect
-# the twenty shipped units carried before `tools/fix_shuffle.py` ran: a matching
-# key that reads straight down the alphabet, and a word bank whose first word is
-# the first answer.
-'C29': K('1. b · 2. f · 3. d · 4. a · 5. c · 6. h · 7. e',
-         '1. a · 2. b · 3. c · 4. d · 5. e · 6. f · 7. g'),
-'C30': U('> **Word bank:** commute | shift | appointment | break',
-         '> **Word bank:** shift | commute | appointment | break'),
-
-# ------------------------------------------------------------- D answer key
-'D01': ('key', lambda t: t.replace('**Unit 1: People and Routines — Answer Key**',
-                                   '**Unit 2: People and Routines — Answer Key**')),
-'D02': ('key', lambda t: '\n'.join(
-    (lambda L: L[:1] + L[1:][::-1])(t.split('\n')))),
-'D03': K('**Part 1: Vocabulary Fill-in**\n\n1. shift · 2. commute · 3. break · 4. appointment',
-         '**Part 1: Vocabulary Fill-in**\n'),
-'D04': K('1. b · 2. f · 3. d · 4. a · 5. c · 6. h · 7. e', '1. b · 2. f · 3. d'),
-'D05': K('1. c · 2. a · 3. d · 4. b', '1. c · 2. a · 3. z · 4. b'),
-'D06': K('1. **B)** Dani is cooking the rice. · 2. **C)** Maya works in a bookshop.',
-         '1. Dani is cooking the rice. · 2. Maya works in a bookshop.'),
-'D07': K('1. shift · 2. commute · 3. break · 4. appointment',
-         '1. holiday · 2. commute · 3. break · 4. appointment'),
-'D08': K('Offer help and say when you are usually in — **5**',
-         'Offer help and say when you are usually in — **2**'),
-'D09': K('2. **True** — “This is my first week.”', '2. **Yes** — “This is my first week.”')
-       if False else K('2. **True** — “This week I’m working nights.”',
-                       '2. **Yes** — “This week I’m working nights.”'),
-'D10': KRE(r'^Marking points: .*$', 'Notes.'),
-'D11': KRE(r'^> Sample.*$', '> Example omitted.', 0),
-'D12': KRE(r'> Sample \((\d+) words\):', '> Sample (999 words):'),
-'D14': U('**Part 2: Freer Practice**', '**Part 2: Freer Practice** *(given)*'),
-
-# ---------------------------------------------------------- E language/level
-'E01': URE(r'^> ([A-Z][a-z]+) ', r'> \1 quotidian vicissitudes notwithstanding erstwhile '
-           r'consternation inordinate ostensibly bureaucratic inertia progeny acquaintances ', 0),
-'E02': U('Every morning the street is busy.', 'Every morning the neighbourhood is enormous and the atmosphere is remarkable.'),
-'E03': URE(r'\.\s+(?=[A-Z][a-z])', ' and ', 0),
-'E04': U('Every morning the street is busy.',
-         'Every morning the street is busy with people who are going to work and to school '
-         'and to the shops and to the station before the day has really started at all.'),
-'E05': U('Every morning the street is busy.',
-         'Every morning the street is busy because people leave when the buses come although '
-         'the shops are shut while the light is still low since nobody wants to wait.'),
-'E06': U('Right now, Maya is waiting for the bus', 'Yesterday Maya walked to the bus and waited'),
-'E07': ('ctx', lambda c: c.grammar.__setitem__(
-    'markers', {**c.grammar['markers'], 1: [r'\bzzqq\b']})),
-'E08': URE(r'^> routine · shift · flatmate.*$', '> routine · shift · flatmate'),
-'E09': U('**Unit 1 glossary (10 words)**\n\n> routine · shift · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment',
-         '**Unit 1 glossary (10 words)**\n\n> xylophone · ukulele · flatmate · neighbour · colleague · commute · appointment · busy · usually · at the moment'),
-'E10': ('unit2', 'same_glossary'),
-'E11': ('ctx', lambda c: c.lexis['units'].__setitem__(
-    2, {'book': 'A2.1', 'words': ['routine', 'shift']})),
-'E12': ('unit2', 'no_recycling'),
-'E13': U('the number 7 bus goes to the centre', 'the number 7 bus goes to the center'),
-'E14': URE(r'’(s|t|re|ve|ll|m|d)\b', r' \1', 0),
-'E15': U('Amina’s shop', "Amina's shop", 1),
-'E16': U('Every morning the street is busy.', 'Every  morning the street is busy.'),
-'E17': U('“What is your secret?”', '"What is your secret?"'),
-'E18': U('Every morning the street is busy.', 'Every morning the street - busy - is loud.'),
-'E19': U('0. Nurse — a hospital', '0. Nurse at 7:30 — a hospital'),
-'E20': U('Every morning the street is busy.', 'Every morning the upholstery showroom is busy.'),
-'E21': URE(r'\b(I|you|we)\b', 'one', 0),
-'E22': URE(r'^> ([A-Z][a-z]+) ', r'> \1 extraordinarily complicated administration '
-           r'systematically reconsidering responsibilities continuously accumulating ', 0),
-'E23': URE(r'^> Six people live at 14 Alder Street\.',
-           '> And six people live here. But the street is busy. So they hurry. Or they wait.'),
-'E24': U('0. Nurse — a hospital', '0. Nurse from 03/04/2026 — a hospital'),
-'E25': U('Every morning the street is busy.', 'Every morning the shop is opened by Amina.'),
-'E26': ('ctx', lambda c: c.lexis['units'].__setitem__(
-    3, {'book': 'A2.1', 'words': ['street', 'morning']})),
-
-# --------------------------------------------------------------- F content
-'F01': U('Every morning the street is busy.', 'Every morning the production line is busy.'),
-'F03': U('Tomas is a nurse', 'Tomas is a bookshop assistant and Tomas is a nurse'),
-'F04': U('Amina: I open every day except Sunday.', 'Amina: I open on Sunday.'),
-'F06': ('unit2', 'same_story_opening'),
-'F07': U('Maya works in a bookshop.', 'Maya works at Starbucks.'),
-'F08': ('needs_check', 'F08 reports proper nouns for adjudication; it has no fail path'),
-'F10': URE(r'\bhe\b', 'she', 0),
-'F12': ('unit2', 'repeat_country'),
-'F13': URE(r'\b(Yuki|Maya|Amina|Tomas|Dani|Okonkwo|Alder Street)\b', 'Someone', 0),
-'F14': ('ctx', lambda c: c.cast['people'].__setitem__(
-    'Maya2', {**c.cast['people']['Dani'], 'full': 'Maya Rossi'})),
-'F15': U('Every morning the street is busy.', 'Every morning in 2024 the street is busy.'),
-'F16': U('Every morning the street is busy.', 'Every morning you should take 500 mg tablets.'),
-
-# --------------------------------------------------------------- G figures
-'G01': URE(r'^\*Figure 1\.23 · .*$', ''),
-'G02': U('*Figure 1.23 ·', '*Figure 1.44 ·'),
-'G03': U('*Figure 1.7 · Six jobs and the places people do them.*\n', ''),
-'G04': U('*Figure 1.7 · Six jobs and the places people do them.*',
-         '*Figure 1.7 Six jobs and the places people do them.*'),
-'G05': U('*Figure 1.7 · Six jobs and the places people do them.*',
-         '*Figure 1.7 · Six jobs and the places people do them*'),
-'G06': FIG(lambda m: m.update(width=1200) or m),
-'G07': FIG(lambda m: m.update(height=200) or m),
-'G08': FIG(lambda m: m.update(mode='P') or m),
-'G09': FIG(lambda m: m.update(contaminate='#FF00FF') or m),
-'G10': FIG(lambda m: m.update(bloat=True) or m),
-'G11': FIG(lambda m: m.update(placed_in=[9.9, 9.9]) or m),
-# move a figure to the end of its section, where nothing uses it any more
-'G12': ('unit', lambda t: t
-        .replace('*Figure 1.4 \u00b7 14 Alder Street at eight in the morning.*\n\n', '')
-        .replace('**Part 1 \u00b7 Vocabulary and Terminology**',
-                 '*Figure 1.4 \u00b7 14 Alder Street at eight in the morning.*\n\n'
-                 '**Part 1 \u00b7 Vocabulary and Terminology**')),
-'G13': FIG(lambda m: m['texts'][0].update(size=8) or m),
-'G14': FIG(lambda m: m['texts'][0].update(bbox=m['texts'][1]['bbox']) or m),
-'G15': FIG(lambda m: m.update(leaders=[[0, 0, 100, 100], [0, 100, 100, 0]]) or m),
-'G16': FIG(lambda m: m.update(bounds=[-50, -50, 99999, 99999]) or m),
-'G17': FIG(lambda m: m.update(bounds=[10, m['canvas'][1] * 0.4, 100, m['canvas'][1] * 0.5]) or m),
-'G18': FIG(lambda m: m['texts'].append({'text': 'Quetzalcoatl', 'size': 30,
-                                        'bbox': [0, 0, 1, 1], 'fill': '#1F3864', 'on': '#FFFFFF'}) or m),
-'G19': FIG(lambda m: m.update(leaders=m.get('leaders', [])[:1]) or m),
-'G20': FIG(lambda m: m.update(cards=1) or m),
-'G21': FIG(lambda m: m.update(arrows=0) or m),
-'G22': FIG(lambda m: m['texts'][0].update(fill='#EEF3F9', on='#FFFFFF') or m),
-'G23': FIG(lambda m: m.update(sha256='0' * 64) or m),
-# G25/G26/H23 read the built DOCX. G25 and H23 are book-scoped, so the per-unit
-# docx mutation cannot reach them; both are driven from ctx instead.
-# G25: tell the check the page is a different size from the one the covers
-#      were actually printed at.
-# renumber the second figure past the last one, so the sequence descends
-'G28': ('unit', lambda t: t.replace('*Figure 1.4 \u00b7', '*Figure 1.41 \u00b7', 1)),
-# drop the last excuse from no_figure_subs: that sub-section then has no figure
-# and no licence to be without one, which is exactly what G29 exists to say
-'G29': ('ctx', lambda c: c.spec['figures'].__setitem__(
-    'no_figure_subs', c.spec['figures']['no_figure_subs'][:-1])),
-# push a label into the 10 mm the printer cuts off
-'G30': FIG(lambda m: m['texts'][0].update(bbox=[4, 4, 60, 40]) or m),
-
-# G32 is the stale-render check: the PNG and its sidecar agree with each other
-# (so G23 is green) while neither agrees with what the code now draws. Moving a
-# single coordinate in the SVG is exactly that state.
-'G32': SVG(lambda s: s.replace('<rect ', '<rect data-stale="1" ', 1)),
-
-# G33's negative test lives in the FIGURE CODE, not in a file: put the
-# one-line-only bug back into one job and the check has to see it again.
-'G33': ('figcode', lambda F: F.__dict__.__setitem__(
-    'timeline', _one_line_timeline(F))),
-
-# ------------------------------------------------------- E/L the level floors
-# A2's spec declares no floors, so each of these first sets one and then
-# proves the check reads it. The value is absurd on purpose: the fixture is a
-# test of the check, and L01 is the test of the VALUE.
-'E27': ('ctx', lambda c: c.spec['language'].__setitem__('min_b1_tier_share', 0.99)),
-'E28': ('ctx', lambda c: c.spec['language'].__setitem__('mean_sentence_words_min', 99.0)),
-'E29': ('ctx', lambda c: c.spec['language'].__setitem__('fk_grade_min', 99.0)),
-# L01 the other way round: a floor set so low that every A2 unit clears it is
-# not a floor, and saying so is the whole of L01's job.
-'L01': ('ctx', lambda c: c.spec['language'].update(
-    {'min_b1_tier_share': 0.0, 'mean_sentence_words_min': 1.0,
-     'fk_grade_min': 0.0})),
-# E30 is the one of the four that needs real prose: an above-band word in a
-# reading, not in any unit's glossary and not glossed in place. E02 bounds the
-# SHARE of such words at 10%; E30 allows none at all.
-'E30': U('A good routine is also flexible.',
-         'A good routine is also remarkable.'),
-'G27': ('ctx', lambda c: [c.spec['unit'].__setitem__(k, {'target': 1, 'min': 0, 'max': 1})
-                          for k in ('caption_words', 'caption_words_dense')]),
-'G25': ('ctx', lambda c: c.typo['page']['size_twips'].__setitem__('w', 12240)),
-# G26: rewrite one printed extent in the unit DOCX so it no longer matches the law.
-'G26': DOCX(lambda d: d.replace('<wp:extent cx=', '<wp:extent cx="99999" cy="99999" x=', 1)),
-# H23: claim slot 1 is full-page, so the expected count of zero-margin sections
-#      jumps by one per unit while the document still holds two.
-'H23': ('ctx', lambda c: c.spec['figures'].__setitem__('full_page_slots', [1, 2])),
-'G24': FIG(lambda m: m.update(alt='x') or m),
-
-# ------------------------------------------------------------ H typography
-'H01': DOCX(lambda d: d.replace('w:w="11906"', 'w:w="12240"')),
-'H02': DOCX(lambda d: d.replace('w:top="1440"', 'w:top="720"')),
-'H03': ('styles', lambda d: d.replace('w:ascii="Calibri"', 'w:ascii="Arial"', 1)),
-'H04': ('styles', lambda d: re.sub(r'(<w:docDefaults>.*?<w:sz w:val=")22(")',
-                                   r'\g<1>24\g<2>', d, count=1, flags=re.S)),
-'H05': DOCX(lambda d: d.replace('<w:rPr>', '<w:rPr><w:sz w:val="23"/>', 1)),
-'H06': DOCX(lambda d: d.replace('<w:pPr>', '<w:pPr><w:pStyle w:val="Quote"/>', 1)),
-'H07': DOCX(lambda d: re.sub(r'<w:insideV w:val="single" w:color="\w+" w:sz="4"/>',
-                             '', d, count=1)),
-'H08': DOCX(lambda d: re.sub(r'<w:tbl>.*?</w:tbl>', '', d, flags=re.S)),
-'H09': DOCX(lambda d: re.sub(r'<w:t[^>]*>[^<]*</w:t>', '<w:t></w:t>', d)),
-'H10': DOCX(lambda d: d.replace('<w:cantSplit/>', '', 1)),
-'H11': DOCX(lambda d: d.replace('<w:jc w:val="center"/>', '', 1)),
-'H12': DOCX(lambda d: re.sub(
-        r'(<w:p\b(?:(?!</w:p>).)*?<w:t[^>]*>Figure (?:(?!</w:p>).)*?</w:p>)',
-        lambda m: re.sub(r'<w:i\s*/>', '', m.group(1)), d, count=1, flags=re.S)),
-'H13': DOCX(lambda d: d.replace('<w:keepNext/>', '', 1)),
-'H14': DOCX(lambda d: d.replace('<w:pPr>', '<w:pPr><w:widowControl w:val="0"/>', 1)),
-'H15': DOCX(lambda d: re.sub(r'(<w:t[^>]*>)\[CORE\] Core track · in-class starter',
-                             r'\g<1>something else', d, count=1)),
-'H16': ('ctx', lambda c: c.grammar['book'].__setitem__('A2.1', [11, 20])),
-'H17': COVER(lambda side: None if side == 'back' else 'keep'),
-'H18': COVER(lambda n: (100, 100)),
-'H19': ('core', lambda d: d.replace('<dc:title>', '<dc:title></dc:title><x>', 1)),
-'H20': ('zip', lambda z: z),
-'H21': ('pdf', 'one_page'),
-'H22': ('pdf', 'tofu'),
-
-# ---------------------------------------------------------------- I covers
-'I01': ('covermeta', lambda m: m.update(texts=[]) or m),
-'I02': ('coverpx', lambda m: m.update(contaminate='#FF00FF') or m),
-'I03': ('covermeta', lambda m: m.update(blurb='') or m),
-'I04': ('covermeta', lambda m: m.update(blurb='Too short.') or m),
-'I05': ('covermeta', lambda m: m.update(blurb=m.get('blurb', '') + ' ISBN 978-0-00-000000-0') or m),
-'I06': ('covermeta', lambda m: m.update(blurb=m.get('blurb', '') + ' Alder Press Ltd') or m),
-'I07': ('covermeta', lambda m: m.update(units=['Something Else']) or m),
-'I08': ('covermeta', lambda m: m.update(unit_count=99) or m),
-# only the BACK carries a blurb, so this breaks the pair rather than renaming both
-'I09': ('covermeta', lambda m: (m.update(theme='other') if m.get('blurb') else None) or m),
-'I10': ('needs_artefact', 'both volumes covers'),
-'I11': ('coverpx', lambda m: m.update(resize=(1000, 1414)) or m),
-'I12': ('covermeta', lambda m: m['texts'].append(
-    {'text': 'edge', 'bbox': [0, 0, 40, 40]}) or m),
-
-# ----------------------------------------------------------------- J build
-'J01': DOCX(lambda d: re.sub(r'<w:t[^>]*>[^<]*</w:t>', '', d)),
-'J02': DOCX(lambda d: d.replace('Warm Up', 'XX', 1)),
-'J03': DOCX(lambda d: re.sub(r'<w:tbl>.*?</w:tbl>', '', d, flags=re.S)),
-'J04': DOCX(lambda d: d.replace('r:embed="rId', 'r:embed="rIdBROKEN', 1)),
-'J05': ('pdf', 'no_pages'),
-'J06': U('Every morning the street is busy.', 'Every morning {{PLACEHOLDER}} is busy.'),
-'J07': U('Every morning the street is busy.', 'Every morning the street is busy. TODO'),
-'J08': U('Every morning the street is busy.', 'Every morning lorem ipsum dolor sit amet.'),
-'J09': U('Every morning the street is busy.', 'Every morning the street is busy. Generated by claude-opus.'),
-'J10': U('Every morning the street is busy.', 'Every morning /home/user/secret is busy.'),
-'J11': ('ctx', lambda c: c.manifest.__setitem__('a21-u01.docx', 'deadbeef')),
-'J12': ('ctx', lambda c: c.manifest.clear()),
-'J13': ('needs_artefact', 'pdf/git state'),
-'J14': ('needs_artefact', 'pdf/git state'),
-'J15': ('ctx', lambda c: c.typo['departures'].__setitem__(
-            'pages_per_volume', {'min': 1, 'max': 2})),
-'J17': ('ctx', lambda c: c.typo['departures'].__setitem__(
-    'size_envelope_mb', {'docx': {'min': 0, 'max': 0.1},
-                         'pdf': {'min': 0, 'max': 0.1}})),
-'J16': ('rename', lambda n: 'a21-unit1.md'),
-
-# ------------------------------------------------------------ K regression
-'K01': ('sha', lambda h: '0' * 64),
-'K02': ('ctx', lambda c: setattr(c, 'spec_source', 'somewhere/else.yaml')),
-'K03': ('ctx', lambda c: setattr(c, 'unit_executions', 1)),
-'K04': ('ctx', lambda c: (setattr(c, 'partial', False),
-                          setattr(c, 'expected_units', c.expected_units + 1))),
-'K05': U('> **Gloss:**', '> Note:', 4),
-'K06': U('**Part 3 · Listening**', '**Part 11 · Listening**'),
-'K07': ('ctx', lambda c: c.lexis['units'][1]['words'].pop()),
-'K08': U('Tomas is a nurse', 'Tomas is a student'),
-'K09': ('ctx', lambda c: c.grammar['spine'][2].__setitem__(
-    'point', c.grammar['spine'][1]['point'])),
-'K10': ('ctx', lambda c: c.previous_results.__setitem__('A01@u01', 'PASS')
-        or c.results.__setitem__('A01@u01', 'FAIL')),
-'K11': U('Every morning the street is busy.', 'Busy. ' * 400),
-'K12': ('ctx', lambda c: (c.unit_status.__setitem__('u01', 'done'),
-                          c.results.__setitem__('A01@u01', 'FAIL'))),
-'K13': ('ctx', lambda c: (setattr(c, 'releasing', True),
-                          c.results.__setitem__('A01@u01', 'FAIL'))),
-'K14': ('ctx', lambda c: setattr(c, 'mutation_report',
-                                 {'total': 5, 'caught': 3, 'escaped': ['X01', 'X02']})),
-'K15': ('registry', lambda r: r),
-'K16': ('registry', lambda r: r),
-'K17': ('registry', lambda r: r),
-'K18': ('registry', lambda r: r),
-}
+M = []
 
 
-# ----------------------------------------------------------- the per-level sets
-# MUTATIONS above is anchored to literal strings from A2.1 and tests the CHECK
-# CODE, which every level shares -- the argument that lets A2.2 read A2.1's
-# report. The same argument carries across levels, with exactly one stated
-# exception: the four checks in CROSS_LEVEL read the level BELOW this one, so at
-# A2 they are vacuous and cannot be mutation-tested there at all.
-#
-# So B1's set is those four and nothing else. It is not a thinner standard: the
-# other 229 are proved against A2.1's text, and nothing about B1's text could
-# make the same code behave differently.
-def _u1(c):
-    """B1 Unit 1's entry in the situations ledger, which family M reads."""
-    return c.situations['units'][1]
+def mut(check, target):
+    def deco(fn):
+        M.append((check, target, fn))
+        return fn
+    return deco
 
 
-MUTATIONS_B1 = {
-
-'F19': ('ctx', lambda c: c.lexis['units'][1]['words'].__setitem__(0, 'routine')),
-
-'K19': U('| **past continuous** | was/were + -ing | the longer action, in the '
-         'middle of happening | She was serving a queue. |',
-         '| **present perfect** | has/have + participle | the longer action, in '
-         'the middle of happening | She was serving a queue. |'),
-
-'K20': ('svg_below', lambda s: s.replace('<rect ', '<rect data-drift="1" ', 1)),
-
-'K21': ('ctx', lambda c: c.grammar['cefrj_disposition'].pop('TA')),
-
-# --- the content law (family M) and the depiction law (G34, G35) -------------
-# Twelve more that A2 structurally cannot test, for the same reason as the four
-# above and not a weaker one. Family M reads ledgers/situations.yaml, which only
-# B1 has; G34 and G35 are gated on golden.figures.depictive_icons, which only
-# B1's spec sets. Each fixture below breaks the thing its check exists to catch,
-# in the ledger or in the content module rather than in the unit, because that
-# is where the fault would really be.
-'M01': ('ctx', lambda c: _u1(c)['strands'][0]['subs'].pop()),
-'M02': ('ctx', lambda c: _u1(c).__setitem__('strands', _u1(c)['strands'][:4])),
-'M03': ('ctx', lambda c: _u1(c)['strands'][0]['subs'].extend(['x'] * 8)),
-'M04': ('ctx', lambda c: [s.__setitem__('setting', 'the pavement outside 14 Alder Street')
-                          for s in _u1(c)['strands']]),
-'M05': ('ctx', lambda c: _u1(c)['theme_subs'].__setitem__(
-            'Warm-up: Words for a Busy Afternoon', ['skip'])),
-'M06': ('ctx', lambda c: _u1(c)['strands'][1].__setitem__('why_not', '')),
-'M07': ('ctx', lambda c: _u1(c)['strands'][1].__setitem__('probes', ['zeppelin'])),
-# the banned premise that got family M written: twenty minutes of being unable
-# to see, in a unit whose own cast is carrying lit telephones.
-'M08': U('I was on the forty-two',
-         'I could not see a thing for twenty minutes. I was on the forty-two'),
-'M09': ('ctx', lambda c: [s['people'].append('Maya') for s in _u1(c)['strands']
-                          if 'Maya' not in s['people']]),
-# M10 is the calibration check, so its fixture relaxes the LAW rather than the
-# unit -- exactly as L01's does for the level floors.
-'M10': ('ctx', lambda c: c.situations['law'].update(
-            {'min_strands': 1, 'max_strand_subs': 99, 'min_settings': 1})),
-'G34': ('content', lambda t: t.replace("('Skip', 'bin')", "('Skip', 'horse')", 1)),
-# --- the clarity law (family N) ----------------------------------------------
-# Six more that A2 structurally cannot test: all six are gated on
-# golden.language.clarity_law, which only B1's spec sets. Each fixture breaks
-# the thing its check exists to catch, in the prose rather than in a ledger --
-# because the prose is where the fault was.
-# N01: replace a topic sentence with a transition that names nothing.
-'N01': U('The second reason is that the services behind those companies run a '
-         'smaller shift at the weekend.',
-         'Now let us turn to something else entirely.'),
-# N02: strip the signpost off a continuation paragraph.
-'N02': U('But the same thing happened on Pell Road on the same afternoon:',
-         'The same thing happened on Pell Road on the same afternoon:'),
-# N03: an answer the learner cannot find anywhere in the passage.
-'N03': K('1. Because Alder Street has one lane: a kerb on one side and parked '
-         'cars on the other.',
-         '1. Because the council had revoked the loading exemption that quarter.'),
-# N04: make a paragraph finish on a subject it never raised.
-'N04': U('Everybody is at home, and everybody sees a different part of the same hour.',
-         'Memory is a curious and unreliable instrument.'),
-# N05: put one of the blocklisted constructions back.
-'N05': U('It asks for the long number on the front of the card.',
-         'It wants the long number on the front of the card.'),
-# N06: answer a question with a turn that does not address it.
-'N06': U('**MAYA:** The queue will take about ten more minutes, I am afraid.',
-         '**MAYA:** My aunt always said that November is the worst month.'),
-'G35': ('content', lambda t: t
-        .replace("('the door shut, the brick gone', 'stones')",
-                 "('the door shut, the brick gone', 'door')", 1)
-        .replace("('the cat is out in the car park', 'tyre')",
-                 "('the cat is out in the car park', 'cat')", 1)
-        .replace("('the box gone up to the flat', 'home')",
-                 "('the box gone up to the flat', 'box')", 1)),
-}
+# ---------------------------------------------------------------- gate
+@mut('G1', 'unit')
+def _(t, u=5): return _first(t, r'^\*\*1C\*\*', '**1Z**')
 
 
-def for_level(lv: str) -> dict:
-    return MUTATIONS_B1 if lv == 'B1' else MUTATIONS
+@mut('G2', 'unit')
+def _(t, u=5): return t.replace('**Part 3 · Listening**', '**Part 3 · Hearing**', 1)
 
+
+@mut('G3', 'unit')
+def _(t, u=5): return _first(t, r'^\*\*Unit (\d+): (.+)\*\*$', r'Unit \1: \2')
+
+
+@mut('G4', 'unit')
+def _(t, u=5): return _first(t, r'^\*In this unit you.+\*$', 'This unit is about things.')
+
+
+@mut('G5', 'unit')
+def _(t, u=5): return t + '\n\n' + ('filler word ' * 1800)
+
+
+@mut('G6', 'unit')
+def _(t, u=5):
+    # one long rubric does not move a mean taken over four hundred
+    # sentences; the mutation has to be proportionate to the measure
+    # thirteen words a sentence, under the fourteen-word ceiling so that G7
+    # does not fire instead, repeated until the mean has to move
+    return t + '\n\n' + ('A sentence of just under the longest length that is '
+                          'allowed. ' * 500)
+
+
+@mut('G7', 'unit')
+def _(t, u=5): return t.replace('\n0. ', '\n0. ' + ' '.join(['word'] * 16) + ' ', 1)
+
+
+@mut('G8', 'unit')
+def _(t, u=5):
+    return t + '\n\n' + ('Extraordinary complication necessitates particularly '
+                          'sophisticated vocabulary. ' * 160)
+
+
+@mut('G9', 'unit')
+def _(t, u=5): return re.sub(r'^(\d\. )', r'\1' + ' '.join(['x'] * 8) + ' ', t,
+                        count=400, flags=re.M)
+
+
+@mut('G10', 'unit')
+def _(t, u=5): return _first(t, r'^(1\. )', r'\1' + ' '.join(['w'] * 14) + ' ')
+
+
+@mut('G11', 'unit')
+def _(t, u=5): return _first(t, r'\*\(example\)\*', '')
+
+
+@mut('G12', 'unit')
+def _(t, u=5): return _first(t, r'^(\*\*1C\*\* )', r'\1' + ' '.join(['w'] * 13) + ' ')
+
+
+@mut('G13', 'unit')
+def _(t, u=5):
+    b = re.search(r'^\*\*1C\*\*.*?(?=^\*\*\w)', t, re.M | re.S)
+    if not b:
+        return None
+    body = b.group(0)
+    kept = re.sub(r'^\d\. .*\n', '', body, count=3, flags=re.M)
+    return t.replace(body, kept, 1)
+
+
+@mut('G14', 'unit')
+def _(t, u=5):
+    b = re.search(r'^\*\*1C\*\*.*?(?=^\*\*\w)', t, re.M | re.S)
+    if not b:
+        return None
+    extra = ''.join(f'{i}. more\n' for i in range(5, 14))
+    return t.replace(b.group(0), b.group(0).rstrip() + '\n' + extra + '\n', 1)
+
+
+@mut('G15', 'unit')
+def _(t, u=5): return t.replace('One option is not needed.', 'All options are used.', 1)
+
+
+@mut('G16', 'unit')
+def _(t, u=5): return _first(t, r'\(c\) ', '(c) x (d) ')
+
+
+@mut('G17', 'unit')
+def _(t, u=5): return _first(t, r'^\*Figure (\d+)\.(\d+) · (.+)\.\*$', '')
+
+
+@mut('G19', 'unit')
+def _(t, u=5): return _first(t, r'^\*Figure (\d+)\.1 · (.+)\.\*$',
+                        r'*Figure \1.1 · ' + ' '.join(['word'] * 8) + r'.*')
+
+
+@mut('G20', 'unit')
+def _(t, u=5):
+    # every mention outside the captions must go, or the figure is still
+    # referenced by some other exercise
+    return re.sub(r'Look at Figure (\d+)\.(\d+)', r'Look at the picture', t)
+
+
+@mut('G21', 'unit')
+def _(t, u=5):
+    """Move every Part 6 figure out, leaving that part with none."""
+    return re.sub(r'^\*Figure (\d+)\.(1[78]) · (.+)\.\*$', '', t, flags=re.M) or None
+
+
+# ---------------------------------------------------------------- cross
+@mut('X1a', 'lex')
+def _(t, u=5):
+    # must collide with the unit cross.py is comparing against, which is the
+    # one immediately before -- not with Unit 1
+    import pathlib as _p
+    prev = (_p.Path(__file__).parent.parent / 'spec' / 'wordlists'
+            / f'u{u-1:02d}.txt')
+    return t.strip() + ' ' + prev.read_text().split()[0] + '\n'
+
+
+@mut('X1b', 'unit')
+def _(t, u=5):
+    # erase EVERY word the previous unit taught, so recycling falls to zero
+    # whichever unit the suite is pointed at. The first version listed seven
+    # words by hand and was live on unit 5 and dead everywhere else.
+    import pathlib as _p
+    prev = (_p.Path(__file__).parent.parent / 'spec' / 'wordlists'
+            / f'u{u-1:02d}.txt').read_text().split()
+    for w in prev:
+        t = re.sub(r'\b' + re.escape(w) + r'\b', 'zzz', t, flags=re.I)
+    return t
+
+
+@mut('X3c', 'unit')
+def _(t, u=5):
+    # a verbatim item from the unit before: X3c compares the normalised
+    # content items of the two units in the pair
+    # a verbatim item from the unit before, blanks and all: the normaliser
+    # strips blanks, so an item retyped without one does not collide
+    import pathlib as _p, re as _re
+    prev = (_p.Path(__file__).parent.parent / 'units'
+            / f'a21-u{u-1:02d}.md').read_text()
+    for ln in _re.findall(r'^\d\. .+$', prev, _re.M):
+        if len([w for w in _re.findall(r"[A-Za-z']{2,}", ln)]) >= 4:
+            return _first(t, r'^1\. .+$', '1. ' + ln[3:])
+    return None
+
+
+@mut('X5c', 'unit')
+def _(t, u=5):
+    # strip most of the items, not a fixed sixty: a fixed count is a
+    # different proportion of every unit
+    n = len(re.findall(r'^\d\. ', t, re.M))
+    cut = re.sub(r'^\d\. .*\n', '', t, count=int(n * 0.85), flags=re.M)
+    return cut if cut != t else None
+
+
+# ---------------------------------------------------------------- lexis
+@mut('LEX', 'unit')
+def _(t, u=5): return _first(t, r'^0\. ', '0. The perpendicular aardvark. ')
+
+
+# ---------------------------------------------------------------- keys
+@mut('K1', 'key')
+def _(t, u=5): return _first(t, r'^\*\*8C\*\*', '**ZZ**')
+
+
+@mut('K2', 'key')
+def _(t, u=5): return _first(t, r'· 1 ', '· 1 x · 9 ')
+
+
+@mut('K3', 'key')
+def _(t, u=5): return _first(t, r'^\*\*W2\*\* 0 \S+', '**W2** 0 zzzzz')
+
+
+@mut('K5', 'key')
+def _(t, u=5):
+    # must break the MULTIPLE-CHOICE key, not the first lettered answer in
+    # the file -- that one belongs to a matching table and trips K4 instead
+    b = re.search(r'^\*\*5C\*\*.*?(?=^\*\*)', t, re.M | re.S)
+    if not b:
+        return None
+    return t.replace(b.group(0),
+                     re.sub(r'·\s*1\s+[abc]\b', '· 1 z', b.group(0), count=1), 1)
+
+
+@mut('K7', 'unit')
+def _(t, u=5): return _first(t, r'^\*Figure (\d+)\.2 · (.+)\.\*$',
+                        r'*Figure \1.2 · A different caption.*')
