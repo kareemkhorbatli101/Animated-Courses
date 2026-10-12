@@ -33,3 +33,11 @@ meaning
 blocks
 model
 copy
+dash
+kind
+kinds
+tense
+tenses
+partner
+inside
+mean

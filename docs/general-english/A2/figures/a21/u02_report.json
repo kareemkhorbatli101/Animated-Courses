@@ -1,0 +1,382 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "Nadia talks about her week",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "document",
+  "caption": "The cafe rota this week",
+  "w": 1280,
+  "h": 388,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things at work",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Every day and right now",
+  "w": 1280,
+  "h": 416,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Adding ing to the verb",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "data",
+  "caption": "Four people, four jobs now",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "1",
+  "job": "contrast",
+  "caption": "The short forms with ing",
+  "w": 1280,
+  "h": 402,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "1",
+  "job": "document",
+  "caption": "The staff list",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "1",
+  "job": "lexis",
+  "caption": "How often we say it",
+  "w": 1280,
+  "h": 504,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Am, is, are, plus ing",
+  "w": 1280,
+  "h": 468,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Questions about now",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "2",
+  "job": "data",
+  "caption": "Who is doing what now",
+  "w": 1280,
+  "h": 378,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Two kinds of verb",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Every day or at the moment",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Mistakes with the two tenses",
+  "w": 1280,
+  "h": 280,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "3",
+  "job": "data",
+  "caption": "Four voices at the cafe",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "3",
+  "job": "document",
+  "caption": "What the supervisor wrote",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "3",
+  "job": "document",
+  "caption": "The hours they worked",
+  "w": 1280,
+  "h": 388,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four more things to hear",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "4",
+  "job": "data",
+  "caption": "Lili asks Ben about work",
+  "w": 1280,
+  "h": 580,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Four questions about today",
+  "w": 1280,
+  "h": 486,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "4",
+  "job": "data",
+  "caption": "A morning in four moments",
+  "w": 1280,
+  "h": 430,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 23,
+  "part": "4",
+  "job": "data",
+  "caption": "Three workmates to ask",
+  "w": 1280,
+  "h": 360,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 24,
+  "part": "5",
+  "job": "document",
+  "caption": "Two notes about the shift",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 25,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages at lunchtime",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 26,
+  "part": "5",
+  "job": "document",
+  "caption": "A notice for the staff",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 27,
+  "part": "5",
+  "job": "document",
+  "caption": "The uniform rules",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 28,
+  "part": "6",
+  "job": "document",
+  "caption": "A form about your hours",
+  "w": 1280,
+  "h": 494,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 29,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines about your day",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 30,
+  "part": "6",
+  "job": "document",
+  "caption": "A model day",
+  "w": 1280,
+  "h": 598,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 31,
+  "part": "7",
+  "job": "document",
+  "caption": "A real work rota",
+  "w": 1280,
+  "h": 388,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 32,
+  "part": "7",
+  "job": "document",
+  "caption": "What the rota means",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 33,
+  "part": "7",
+  "job": "data",
+  "caption": "Three places people work",
+  "w": 1280,
+  "h": 420,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 34,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 35,
+  "part": "8",
+  "job": "contrast",
+  "caption": "The two tenses in blocks",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 36,
+  "part": "8",
+  "job": "contrast",
+  "caption": "Four verbs to change",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 37,
+  "part": "8",
+  "job": "data",
+  "caption": "Four workers, four answers",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 38,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]
