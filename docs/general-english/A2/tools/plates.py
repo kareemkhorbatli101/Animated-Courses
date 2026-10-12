@@ -243,8 +243,16 @@ def register(title, cols, rows, h=None, highlight=None):
     cw = [tw_ * c for c in cols[1]]
     cv.rect(x, y, tw_, 56, C['navy'], r=10)
     cx = x
+    # Header and cell are drawn with fit, not text: a column is a box with a
+    # width, and this plate used to let a cell run straight through its own
+    # right-hand border and out of the table -- "stay with one friend" in a
+    # 0.24 column. Nothing failed, because the overlap check compares drawn
+    # boxes with each other and a run of text is not a box. fit shrinks to
+    # the column and, when even that is not enough, records the warning the
+    # figure runner already reads.
     for i, hd in enumerate(cols[0]):
-        cv.text(hd, cx + 20, y + 37, 25, fill='#FFFFFF', weight='Bold', bg=C['navy'])
+        cv.fit(hd, cx + 20, y + 37, cw[i] - 36, 25, fill='#FFFFFF', weight='Bold',
+               bg=C['navy'])
         cx += cw[i]
     for r, row in enumerate(rows):
         ry = y + 56 + r * 58
@@ -255,8 +263,8 @@ def register(title, cols, rows, h=None, highlight=None):
         cv.line(x, ry + 58, x + tw_, ry + 58, C['rule'], sw=1.5)
         cx = x
         for i, cell in enumerate(row):
-            cv.text(str(cell), cx + 20, ry + 38, 26,
-                    weight='SemiBold' if i == 0 else 'Regular', bg=bgc)
+            cv.fit(str(cell), cx + 20, ry + 38, cw[i] - 36, 26,
+                   weight='SemiBold' if i == 0 else 'Regular', bg=bgc)
             cx += cw[i]
     cv.rect(x, y, tw_, 56 + 58 * len(rows), 'none', r=10, stroke=C['steel'], sw=2.5)
     return cv

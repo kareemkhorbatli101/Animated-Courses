@@ -56,6 +56,21 @@ def stem(w):
     # past-tense twin was not, so every -ied past read as an unknown word.
     if w.endswith('ied') and len(w) > 4:
         yield w[:-3] + 'y'
+    # -ly. Unit 10 teaches adverbs of manner and the stemmer could not undo a
+    # single one of them: slowly, carefully, generously, happily and sensibly
+    # all read as words the course had never taught. The adjective unit was
+    # the unit that exposed it, which is late but not too late.
+    if w.endswith('ly') and len(w) > 4:
+        yield w[:-2]            # slowly -> slow, generously -> generous
+        yield w[:-3] + 'y'      # happily -> happy
+        yield w[:-1] + 'e'      # sensibly -> sensible
+    # -ier / -iest. The 'ies' and 'ied' twins were both here and this one was
+    # not, so tidier and noisier read as unknown in a course that teaches
+    # comparatives.
+    if w.endswith('ier') and len(w) > 4:
+        yield w[:-3] + 'y'
+    if w.endswith('iest') and len(w) > 5:
+        yield w[:-4] + 'y'
     if w.endswith('er') and len(w) > 4:
         yield w[:-2]
     if w.endswith('est') and len(w) > 5:
