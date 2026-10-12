@@ -207,9 +207,15 @@ def two_text(a, b, h=None):
     # The height is computed from the longest of the two texts. A fixed 560
     # left half a page of cream under a two-line note, which reads as a
     # printing fault rather than as a design.
+    #
+    # 68 a line was still twice what a line takes. cv.wrap returns the last
+    # BASELINE, not the line after it, so one entry advances 34 and not 34
+    # plus a line -- and a four-line note sat in a box a third of which was
+    # empty. Measured off the rendered page rather than read off the source,
+    # which is how it was wrong in the first place.
     if h is None:
         per = max(sum(1 + len(ln) // 42 for ln in side[1]) for side in (a, b))
-        h = 190 + 68 * per
+        h = 196 + 34 * per
     cv = _cv(h, C['paper'])
     cwid = (W_ - 150) / 2
     for i, (head, lines, col) in enumerate((a, b)):

@@ -44,9 +44,9 @@
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 600 (example) · 1 180 · 2 Rosa · 3 Lili
+**3B** 0 600 (example) · 1 180 · 2 140 · 3 72
 
-**3C** 0 1.80 (example) · 1 2.90 · 2 large · 3 2.20
+**3C** 0 1.80 (example) · 1 2.90 · 2 large · 3 2.60
 
 **3D** 0 1 (example) · 1 2 · 2 3 · 3 4
 

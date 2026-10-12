@@ -1,4 +1,4 @@
-"""Build EFDL A2.1 as a volume: ten units in one book, plus the answer key.
+"""Build EFDL A2 as a volume: twenty units in one book, plus the answer key.
 
 The per-unit files remain; this is the thing a learner actually holds.
 """
@@ -8,33 +8,35 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TITLES = {1: 'Hello', 2: 'In the Class', 3: "Who's This?", 4: 'Where I Live',
-          5: 'Every Day', 6: 'She Works Here', 7: 'Food and Drink',
-          8: 'In the Town', 9: 'I Can Do That', 10: 'Last Weekend',
-          11: 'A Day Out', 12: 'Last Year', 13: 'Right Now',
-          14: 'Next Week', 15: 'Bigger and Better',
-          16: 'Things I Like Doing', 17: 'Would You Like?',
-          18: 'The Best in Town', 19: 'How Are You?', 20: 'See You Soon'}
-GRAMMAR = {1: 'am, is, are · my, your, his, her',
-           2: "questions and short answers · isn't, aren't · a/an · this, that",
-           3: "possessive 's · plural nouns · our, their",
-           4: 'there is, there are · how many · in, on, under',
-           5: 'present simple I, you, we, they · time · days',
-           6: 'present simple he, she, it · does',
-           7: 'some, any · countable and uncountable · like',
-           8: 'prepositions of place · imperatives',
-           9: "can, can't",
-           10: 'was, were · past time words',
-           11: 'past simple, regular verbs',
-           12: 'past simple, irregular verbs · questions with did',
-           13: 'present continuous · beside the present simple',
-           14: 'going to',
-           15: 'comparatives · adjectives',
-           16: 'like, love, hate + ing',
-           17: 'would like · polite requests',
-           18: 'superlatives',
-           19: 'have got · should',
-           20: 'past, present and will, together'}
+TITLES = {1: 'Back on Hill Road', 2: 'Every Day and Right Now',
+          3: 'A Place of My Own', 4: 'How Much, How Many',
+          5: 'What Happened', 6: 'Getting There', 7: 'Making Plans',
+          8: 'At Work', 9: 'Feeling Better', 10: 'The Way I Am',
+          11: 'Ever and Never', 12: 'Just, Yet, Already',
+          13: 'How Long?', 14: 'Then and Now', 15: 'The One Who',
+          16: 'If and When', 17: 'Things I Like Doing',
+          18: 'Telling the Story', 19: "How It's Made",
+          20: 'Looking Ahead'}
+GRAMMAR = {1: 'tense review: be, present simple, past simple, will',
+           2: 'present simple vs present continuous · state verbs',
+           3: 'have got · too and enough',
+           4: 'much, many, a lot of, a few, a little',
+           5: 'past simple vs past continuous · when and while',
+           6: 'prepositions of movement · have to, don\'t have to',
+           7: 'will vs going to vs present continuous for arrangements',
+           8: 'must, mustn\'t, should',
+           9: 'should and shouldn\'t for advice',
+           10: 'adverbs of manner · frequency · not as … as',
+           11: 'present perfect with ever and never · been and gone',
+           12: 'present perfect with just, yet, already',
+           13: 'present perfect with for and since',
+           14: 'used to',
+           15: 'defining relative clauses: who, which, that',
+           16: 'first conditional · time clauses with when and as soon as',
+           17: 'verb patterns: enjoy doing, want to do, decide to do',
+           18: 'so, because, although, but',
+           19: 'the simple present passive',
+           20: 'everything together · will for prediction'}
 
 
 BACK = [('grammar-file.md', 'Grammar File'),

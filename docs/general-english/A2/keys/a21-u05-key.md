@@ -48,8 +48,8 @@
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 at the shop door (example) · 1 she saw Rosa fall · 2 outside ·
-3 Nadia
+**3B** 0 at the shop door (example) · 1 she saw Rosa fall ·
+2 the ambulance · 3 Nadia
 
 **3C** 0 the shop (example) · 1 the stairs · 2 at 9.05 · 3 the phone
 

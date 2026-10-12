@@ -94,16 +94,14 @@ fig(17, '3', 'document', 'The interview times',
     lambda: P.register('INTERVIEWS · FRIDAY',
                        (['Time', 'Who', 'For', 'Room'],
                         [0.20, 0.28, 0.30, 0.22]),
-                       [('09.30', 'A. Silva', 'assistant', '2'),
-                        ('10.15', 'L. Chen', 'assistant', '2'),
-                        ('11.00', 'J. Kowalski', 'driver', '4')]))
+                       [('09.30', 'A. Silva', '', ''),
+                        ('10.15', 'L. Chen', '', ''),
+                        ('11.00', 'J. Kowalski', '', '')]))
 fig(18, '3', 'document', 'The rules on the board',
     lambda: P.rota('THE STAFF BOARD', ['Must', 'Must not', 'Should'],
-                   [('Everyone', ['wear a badge', 'smoke inside',
-                                  'arrive early']),
-                    ('Kitchen', ['wash hands', 'use a phone', 'tie hair back']),
-                    ('Drivers', ['carry a licence', 'use a phone',
-                                 'check the oil'])]))
+                   [('Everyone', ['wear a badge', '', '']),
+                    ('Kitchen', ['wash hands', '', '']),
+                    ('Drivers', ['carry a licence', '', ''])]))
 fig(19, '3', 'lexis', 'Four more things to hear',
     lambda: P.object_cards([(1, 'paper', None), (2, 'card', None),
                             (3, 'key', None), (4, 'shirt', 'teal')],

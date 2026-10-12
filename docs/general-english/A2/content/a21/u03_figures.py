@@ -93,9 +93,9 @@ fig(17, '3', 'document', 'What the landlord said',
     lambda: P.register('THE LANDLORD · ON THE PHONE',
                        (['Flat', 'Free from', 'Rent', 'Note'],
                         [0.26, 0.22, 0.20, 0.32]),
-                       [('11', 'now', '600', 'furnished'),
-                        ('4', 'June', '450', 'no garage'),
-                        ('9', 'August', '820', 'very bright')]))
+                       [('11', 'now', '600', ''),
+                        ('4', 'June', '450', ''),
+                        ('9', 'August', '820', '')]))
 fig(18, '3', 'data', 'A second flat from above',
     lambda: P.room_plan([('Studio', 0.00, 0.00, 0.68, 1.00, 'green'),
                          ('Bathroom', 0.68, 0.00, 0.32, 0.50, 'blue'),

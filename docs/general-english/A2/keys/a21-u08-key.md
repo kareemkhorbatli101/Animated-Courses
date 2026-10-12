@@ -45,9 +45,9 @@
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 A. Silva (example) · 1 10.15 · 2 driver · 3 room 4
+**3B** 0 A. Silva (example) · 1 assistant · 2 driver · 3 room 4
 
-**3C** 0 a badge (example) · 1 smoke · 2 wash their hands · 3 the oil
+**3C** 0 a badge (example) · 1 smoke · 2 their hair · 3 the oil
 
 **3D** 0 1 (example) · 1 2 · 2 3 · 3 4
 

@@ -91,9 +91,9 @@ fig(17, '3', 'document', 'Who said yes and no',
                         ('Sam', 'no', '', 'he is driving that evening')]))
 fig(18, '3', 'document', 'The diary for the week',
     lambda: P.rota('THE DIARY', ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
-                   [('Nadia', ['cafe', 'cafe', 'shopping', 'cooking', 'party']),
-                    ('Lili', ['class', 'cafe', 'class', 'cafe', 'party']),
-                    ('Ben', ['shop', 'shop', 'shop', 'shop', 'party'])]))
+                   [('Nadia', ['', 'cafe', '', 'cooking', '']),
+                    ('Lili', ['', 'cafe', '', 'cafe', '']),
+                    ('Ben', ['', 'shop', '', 'shop', ''])]))
 fig(19, '3', 'lexis', 'Four more things to hear',
     lambda: P.object_cards([(1, 'cake', None), (2, 'clock', None),
                             (3, 'envelope', None), (4, 'phone', None)],

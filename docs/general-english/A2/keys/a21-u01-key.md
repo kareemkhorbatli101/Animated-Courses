@@ -46,8 +46,8 @@
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 she started a course (example) · 1 a hotel · 2 she taught English ·
-3 June
+**3B** 0 she started a course (example) · 1 she worked at the desk ·
+2 she taught English · 3 she came home
 
 **3C** 0 she packed (example) · 1 she flew · 2 Thursday · 3 five
 

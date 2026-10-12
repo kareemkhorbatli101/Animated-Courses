@@ -91,14 +91,14 @@ fig(17, '3', 'document', 'What they paid in May',
     lambda: P.register('MAY · WHAT THEY PAID',
                        (['Who', 'Rent', 'Food', 'Travel'],
                         [0.24, 0.26, 0.24, 0.26]),
-                       [('Lili', '600', '210', '72'),
-                        ('Ben', '480', '180', '40'),
-                        ('Rosa', '0', '140', '18')]))
+                       [('Lili', '600', '', ''),
+                        ('Ben', '480', '', ''),
+                        ('Rosa', '0', '', '')]))
 fig(18, '3', 'document', 'The prices in the shop',
     lambda: P.rota('THE SHOP · PRICES', ['Small', 'Medium', 'Large'],
-                   [('Coffee', ['1.80', '2.20', '2.60']),
+                   [('Coffee', ['1.80', '2.20', '']),
                     ('Bread', ['1.10', '1.60', '']),
-                    ('Juice', ['2.00', '2.40', '2.90'])]))
+                    ('Juice', ['2.00', '2.40', ''])]))
 fig(19, '3', 'lexis', 'Four more things to hear',
     lambda: P.object_cards([(1, 'milk', None), (2, 'egg', None),
                             (3, 'apple', None), (4, 'ticket', None)],

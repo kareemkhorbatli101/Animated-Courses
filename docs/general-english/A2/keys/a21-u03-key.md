@@ -45,7 +45,7 @@
 
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
-**3B** 0 flat 11 (example) · 1 June · 2 flat 4 · 3 flat 9
+**3B** 0 flat 11 (example) · 1 furnished · 2 flat 4 · 3 flat 9
 
 **3C** 0 three (example) · 1 in the studio · 2 the storage · 3 no
 

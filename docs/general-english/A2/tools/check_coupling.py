@@ -91,7 +91,7 @@ def answers(keyblock):
 
 
 def main(book, units):
-    leaks, gaps, pictorial, n_ex = [], [], [], 0
+    leaks, gaps, pictorial, silent, n_ex = [], [], [], [], 0
     for u in units:
         figs = figure_strings(book, u)
         ut = open(os.path.join(HERE, 'units', f'a21-u{u:02d}.md')).read()
@@ -129,6 +129,15 @@ def main(book, units):
                 return bool(ws) and all(
                     any(w.rstrip("'s") in p or p in w for p in words) for w in ws)
             hit = [a for a in ans if a in printed or seen(a)]
+            # SILENT -- the fault that got through A1 twice and was found by
+            # eye both times: a Part 3 task whose figure already prints every
+            # answer. The learner does it with the audio off, which means the
+            # listening section of that unit is one exercise shorter than it
+            # says it is. LOOKUP wants the answers in the figure and LISTEN
+            # wants them out of it, so no rule already in this file could see
+            # it: the two want opposite things of the same exercise.
+            if lab.startswith('3') and len(hit) == len(ans):
+                silent.append((u, lab, fn, ans[:4], rubric[:54]))
             # A figure whose declared job is `contrast` or `lexis` IS the
             # model -- printing the forms is the whole point of it, the way
             # a Grammar Spot box prints the pattern the exercise practises.
@@ -158,8 +167,12 @@ def main(book, units):
     for u, lab, fn, ans, r in pictorial:
         print(f'  u{u:02d} {lab:3} fig {fn:2d}  {r}')
     print(f'  ({len(pictorial)} not checkable by text, by design)\n')
+    print('SILENT — a listening task whose every answer is printed in its figure')
+    for u, lab, fn, ans, r in silent:
+        print(f'  u{u:02d} {lab:3} fig {fn:2d}  {ans}\n        {r}')
+    print(f'  ({len(silent)} answerable with the sound off)\n')
     print(f'{n_ex} exercises examined over {len(units)} units')
-    return 0
+    return 1 if silent else 0
 
 
 if __name__ == '__main__':

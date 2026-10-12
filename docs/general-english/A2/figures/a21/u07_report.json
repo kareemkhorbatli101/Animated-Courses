@@ -235,7 +235,7 @@
   "job": "document",
   "caption": "Two replies to the same invitation",
   "w": 1280,
-  "h": 462,
+  "h": 332,
   "warnings": [],
   "overlaps": []
  },
@@ -295,7 +295,7 @@
   "job": "document",
   "caption": "A model reply",
   "w": 1280,
-  "h": 462,
+  "h": 332,
   "warnings": [],
   "overlaps": []
  },

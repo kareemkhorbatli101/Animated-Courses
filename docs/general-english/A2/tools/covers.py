@@ -164,7 +164,7 @@ def front(kind, accent='navy'):
     cv.circle(1480, 300, 118, C['amber'])
     cv.text('A2', 1480, 345, 110, fill=deep(C['ink']), weight='Bold',
             anchor='middle', bg=C['amber'])
-    cv.text('beginner', 1480, 466, 30, fill='#FFFFFF', weight='SemiBold',
+    cv.text('elementary', 1480, 466, 30, fill='#FFFFFF', weight='SemiBold',
             anchor='middle', bg=band)
 
     kc = sub(band)
@@ -193,7 +193,7 @@ def front(kind, accent='navy'):
 def back_student():
     n_u, n_ex, n_fig, n_w = counts()
     cv = Canvas(PW, PH, bg=C['cream'])
-    band = deep(C['navy'], 7.0)
+    band = deep(C['plum'], 7.0)
     cv.rect(0, 0, PW, 230, band)
     cv.text('ENGLISH FOR DAILY LIFE', 96, 108, 34, fill='#FFFFFF',
             weight='SemiBold', bg=band, track=7)
@@ -201,11 +201,13 @@ def back_student():
             weight='Bold', bg=band)
 
     y = 330
-    cv.text('A beginner starts here.', 96, y, 54, weight='Bold', bg=cv.bg)
-    y = cv.wrap('A2 takes you from your first hello to writing a postcard, '
-                'asking for what you want, saying how you feel and talking '
-                'about last year and next year. Nothing is explained in words '
-                'you have not met.',
+    cv.text('The year after your first year.', 96, y, 54, weight='Bold',
+            bg=cv.bg)
+    y = cv.wrap('A2 picks up where A1 left off, on the same street, with the '
+                'same eight people. You tell a story in the past, say what '
+                'you have done, describe a person, read a label and a '
+                'timetable, and write the letter that gets you the job. '
+                'Nothing is explained in words you have not met.',
                 96, y + 62, PW - 192, 33, lead=1.44, fill=C['ink_soft'],
                 bg=cv.bg)
 
@@ -266,7 +268,7 @@ def back_student():
 def back_key():
     n_u, n_ex, n_fig, n_w = counts()
     cv = Canvas(PW, PH, bg=C['cream'])
-    band = deep(C['teal'], 7.0)
+    band = deep(C['forest'], 7.0)
     cv.rect(0, 0, PW, 230, band)
     cv.text('ENGLISH FOR DAILY LIFE', 96, 108, 34, fill='#FFFFFF',
             weight='SemiBold', bg=band, track=7)
@@ -305,7 +307,7 @@ def back_key():
     pairs = n_u * (n_u - 1) // 2
     rows = [
         'No word is taught as new twice.',
-        f'Checked across all {pairs} pairs of units.',
+        f'Across all {pairs} pairs here, and against every A1 unit too.',
         'Every exercise carries a worked example.',
         'Numbered 0, and repeated in this key.',
         'Every figure is used by an exercise.',
@@ -343,9 +345,9 @@ def back_key():
 
 
 COVERS = {
-    'cover-sb-front': lambda: front('Student Book', 'navy'),
+    'cover-sb-front': lambda: front('Student Book', 'plum'),
     'cover-sb-back': back_student,
-    'cover-ak-front': lambda: front('Answer Key', 'teal'),
+    'cover-ak-front': lambda: front('Answer Key', 'forest'),
     'cover-ak-back': back_key,
 }
 

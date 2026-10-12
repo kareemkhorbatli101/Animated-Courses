@@ -235,7 +235,7 @@
   "job": "document",
   "caption": "Two people in the club",
   "w": 1280,
-  "h": 598,
+  "h": 400,
   "warnings": [],
   "overlaps": []
  },
@@ -295,7 +295,7 @@
   "job": "document",
   "caption": "A model paragraph",
   "w": 1280,
-  "h": 598,
+  "h": 400,
   "warnings": [],
   "overlaps": []
  },

@@ -44,7 +44,7 @@
 **3A** 0 1 (example) · 1 2 · 2 3 · 3 4
 
 **3B** 0 Nadia (example) · 1 she cleaned the tables ·
-2 he counted the money · 3 Marek
+2 he counted the money · 3 he locked the door
 
 **3C** 0 eight (example) · 1 Thursday · 2 six · 3 Lili
 

@@ -101,9 +101,9 @@ fig(16, '3', 'data', 'Four people at the clinic',
 fig(17, '3', 'document', 'The clinic list on Thursday',
     lambda: P.register('GREENFIELD CLINIC · THURSDAY',
                        (['Time', 'Who', 'Room'], [0.24, 0.42, 0.34]),
-                       [('09.10', 'O. Hassan', '1'),
-                        ('09.30', 'R. Alvarez', '1'),
-                        ('10.00', 'M. Nowak', '3')]))
+                       [('09.10', 'O. Hassan', ''),
+                        ('09.30', 'R. Alvarez', ''),
+                        ('10.00', 'M. Nowak', '')]))
 fig(18, '3', 'document', 'The card the nurse fills in',
     lambda: P.form('CLINIC CARD · THURSDAY',
                    [('Name', None), ('Symptom', None),
@@ -133,8 +133,8 @@ fig(22, '4', 'data', 'Getting better in four days',
                        'I can run again.')]))
 fig(23, '4', 'data', 'Three people who can help you',
     lambda: P.badges([('Fatima', 'nurse', 'the clinic', 'teal'),
-                      ('Ben', 'pharmacy', 'number 14', 'lime'),
-                      ('Rosa', 'patient', 'flat 3', 'navy')]))
+                      ('Ben', 'assistant', 'the pharmacy', 'lime'),
+                      ('Rosa', 'neighbour', 'flat 3', 'navy')]))
 
 fig(24, '5', 'document', 'Two notes about a cough',
     lambda: P.two_text(('A COUGH · WHAT TO DO',
