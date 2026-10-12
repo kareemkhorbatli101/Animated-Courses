@@ -25,6 +25,7 @@ HERE = pathlib.Path(__file__).resolve().parent.parent
 
 NAMES = set("""nadia sam lili marek fatima ben rosa omar hill green new alder
 chen haddad saleh okafor nowak wright silva kowalski ana jan
+alvarez hassan
 china egypt brazil poland spain japan nigeria turkey england
 monday tuesday wednesday thursday friday saturday sunday
 english computers football music cooking swimming spanish hannah
@@ -109,8 +110,24 @@ def main(last=10, show=14):
         print(f'{flag} u{u:02d}  {n:3d} distinct, {len(unk):3d} outside the Word File')
         if unk:
             print('       ', ' '.join(unk[:show]) + (' …' if len(unk) > show else ''))
+
+    # E5 -- the load ceiling, which until now was a number in golden.yaml that
+    # NOTHING read. Six units were over the figure the plan wrote down and the
+    # suite said nothing, which is the same fault as G20 and B1: a check that
+    # cannot fail. The ceiling below is the course's real design, measured off
+    # the twenty wordlists, not the pre-build guess it replaces.
+    import yaml
+    ceil = yaml.safe_load(open(HERE / 'spec' / 'golden.yaml'))['lexis']['new_items_max']
+    over = []
+    for u in range(1, last + 1):
+        n = len((HERE / 'spec' / 'wordlists' / f'u{u:02d}.txt').read_text().split())
+        if n > ceil:
+            over.append((u, n))
+    print(('ok   ' if not over else 'FAIL ')
+          + f'E5 new items per unit, ceiling {ceil}  — '
+          + (', '.join(f'u{u:02d} {n}' for u, n in over) if over else 'every unit under'))
     print(f'\n{last} units, {bad_total} words outside the Word File')
-    return 1 if bad_total else 0
+    return 1 if (bad_total or over) else 0
 
 
 if __name__ == '__main__':

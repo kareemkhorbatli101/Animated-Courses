@@ -152,7 +152,17 @@ def panels(items, h=430, size=27):
         bw = tw(line, sz, 'Medium') + 36
         W.bubble(cv, min(x + pw * 0.44, x + pw - 14 - bw), 42, bw, line, sz,
                  tail=a['hand_near'] if False else (x + pw * 0.40, 112), pad=16)
-        cv.text(cap, x + pw / 2, h - 30, 28, weight='SemiBold', anchor='middle', bg=cv.bg)
+        # The caption had no width guard. The bubble above it has had one
+        # since the plate was written, and the caption -- drawn centred, at a
+        # fixed 28 -- simply ran off both ends of the strip the moment a
+        # caption went past about twenty characters. Nothing failed: the
+        # overlap check compares boxes against each other, not against the
+        # canvas. Shrink it the way the bubble is shrunk.
+        cs = 28
+        while cs > 18 and tw(cap, cs, 'SemiBold') > pw - 16:
+            cs -= 1
+        cv.text(cap, x + pw / 2, h - 30, cs, weight='SemiBold', anchor='middle',
+                bg=cv.bg)
     return cv
 
 

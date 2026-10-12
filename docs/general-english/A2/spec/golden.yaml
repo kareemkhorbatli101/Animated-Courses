@@ -74,4 +74,9 @@ audio:
   script_words_max: 140
 
 lexis:
-  new_items_max: 48
+  # Was 48, interpolated before a single wordlist existed, and NOTHING in the
+  # suite read it -- so six units sat over it in silence. Re-derived from the
+  # twenty wordlists as built (41 to 61 new items, the heavy units being the
+  # concrete ones: an accident, a journey, a kitchen). 62 is a ceiling the
+  # course can actually be held to. check_lexis E5 now enforces it.
+  new_items_max: 62
