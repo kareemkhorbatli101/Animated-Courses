@@ -536,3 +536,80 @@ a unit the suite was not built on.
 
 **Not built, and on the cut list for it:** the four Loops (Tier 4 — Part 8
 reviews in every unit regardless) and the Workbook (Tier 1).
+
+
+---
+
+# Run 7 — the four covers
+
+Four covers, front and back, on the Student Book and the Answer Key. They are
+drawn by the same engine that draws the 440 figures, from `tools/covers.py`,
+and the numbers on them are read from the book rather than typed: `counts()`
+counts the exercises and figures in the units, the words in the wordlists;
+`titles()` reads the twenty unit titles from the units themselves. A cover
+that keeps its own copy of the contents page is a cover that goes stale
+without anything noticing.
+
+## Three faults, found by rendering
+
+1. **Amber on deep teal is 2.6:1** — the Answer Key's accent against its own
+   band, the identical fault `verb_change` hit. The accent is now lightened
+   against whatever band it sits on, bounded, falling back to white.
+2. **Pandoc clamps every image to the text column it computes from the
+   reference document.** It silently rewrote `width=8.5in` as 5.83in and the
+   first cover came out a postcard in the middle of a blank page. The extent
+   is set after pandoc has had its say, in both places OOXML records it.
+3. **An inline image keeps the descent of its paragraph mark below it** — an
+   eighth of an inch of white under the cover, at the foot of the paper. The
+   obvious fix, `lineRule="exact"`, is not the fix: it clips the top of the
+   image instead. Setting the paragraph mark to 1pt leaves nothing, and the
+   art reaches the paper edge, measured: ink from row 0 to the last row.
+
+## The body did not move
+
+The covers are their own sections, with zero margins; the body keeps the
+one-inch margins it was laid out with, now written out explicitly rather than
+left to the reader's default. **441 pages = 439 body + 2 covers**, and the
+Answer Key **46 = 44 + 2**. Not one page of either book shifted.
+
+Two things were wrong on the way there and are worth recording:
+
+- **A page break after the front cover and a section break at the same
+  place** gave every build a blank page two. The section break alone is
+  enough.
+- **Pandoc already leaves an empty `<w:sectPr/>` as the last child of the
+  body.** Appending a second one is invalid — only the final child may be a
+  sectPr — and it showed as a fourth, propertyless section between the body
+  and the back cover. It is replaced now, not appended to.
+
+## Two checks that were measuring the wrong document
+
+- **`check_doc.pages()` dropped trailing empty pages in a `while` loop.** A
+  page whose only content is an image has no text at all, so it swallowed the
+  back cover and reported a 441-page book as 440. It now drops exactly the
+  one empty tail element `pdftotext` leaves after the last form feed, and a
+  new **D0** holds the text layer to the page count in the file.
+- **`check_doc` had only ever been pointed at the Student Book.** Run over
+  the Answer Key it reported four faults that are not faults — a key has no
+  figures, and `8E Learner's own answers.` at a page foot is a whole entry,
+  not a stranded rubric. It takes a `kind` now: the key gets D0, D1, D6, D8
+  and a new **D9** (every unit keyed in the document), and the band for D1
+  depends on which book it is.
+
+## New checks
+
+- **D8** — the first and last page of each book carry exactly one image, no
+  text, at 200 ppi, which is a 1700x2200 canvas filling 8.5 x 11 inches. A
+  cover pandoc has quietly scaled cannot pass it.
+- **B9** — the four covers re-render byte for byte against the files on disk,
+  the same guarantee `drift.py` gives every figure.
+
+## State
+
+**20 units · 760 exercises · 440 figures · 687 words · 4 covers.**
+
+`python3 tools/runall.py` — ten stages, 0 failures:
+gate 420/420 · visual 300/300 · cross 1,520/1,520 over 190 pairs · lexis 0
+outside the Word File · keys 141/141 · coupling 0 new · drift 440/440 ·
+covers 4/4 · back matter 9/9 · document 9/9 on the 441-page Student Book and
+5/5 on the 46-page Answer Key.

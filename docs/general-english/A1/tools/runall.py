@@ -26,10 +26,13 @@ STAGES = [
      [[PY, 'tools/check_coupling.py'] + [str(u) for u in UNITS]]),
     ('drift, all 440 figures',
      [[PY, 'tools/drift.py'] + [str(u) for u in UNITS]]),
-    ('back matter B1-B8', [[PY, 'tools/check_back.py']]),
-    ('document D1-D7',
+    ('covers, four, re-rendered', [[PY, 'tools/covers.py']]),
+    ('back matter B1-B9', [[PY, 'tools/check_back.py']]),
+    ('document D0-D9, both books',
      [[PY, 'tools/check_doc.py',
-       'build/EFDL-A1-StudentBook-u01-20.pdf', '20', '440']]),
+       'build/EFDL-A1-StudentBook-u01-20.pdf', '20', '440'],
+      [PY, 'tools/check_doc.py',
+       'build/EFDL-A1-AnswerKey-u01-20.pdf', '20', '0']]),
 ]
 
 

@@ -103,6 +103,133 @@ class. Ben works in the shop. Rosa is Marek's mother. Omar is his son.
 """
 
 
+COVER = {'Student Book': ('cover-sb-front', 'cover-sb-back'),
+         'Answer Key': ('cover-ak-front', 'cover-ak-back')}
+
+
+def _sectpr(margin=0):
+    """A section: US Letter, with these margins in twips. 1440 twips = 1 inch."""
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    sp = OxmlElement('w:sectPr')
+    sz = OxmlElement('w:pgSz')
+    sz.set(qn('w:w'), '12240')
+    sz.set(qn('w:h'), '15840')
+    sp.append(sz)
+    mar = OxmlElement('w:pgMar')
+    for k in ('top', 'right', 'bottom', 'left'):
+        mar.set(qn('w:' + k), str(margin))
+    for k in ('header', 'footer', 'gutter'):
+        mar.set(qn('w:' + k), '0')
+    sp.append(mar)
+    return sp
+
+
+def _attach(para, sp):
+    """Put a sectPr in a paragraph's pPr, where the schema wants it.
+
+    w:sectPr comes before w:rPr in w:pPr. Appending it blindly produces a
+    file LibreOffice will read and Word will refuse.
+    """
+    from docx.oxml.ns import qn
+    pPr = para._p.get_or_add_pPr()
+    rPr = pPr.find(qn('w:rPr'))
+    if rPr is not None:
+        rPr.addprevious(sp)
+    else:
+        pPr.append(sp)
+
+
+def covers(docx, kind):
+    """Three sections: cover, body, cover. The covers have no margins.
+
+    The body keeps the one-inch margins it was laid out with, written out
+    explicitly now rather than left to the reader's default -- the moment any
+    section in a document declares its geometry, every section should.
+    """
+    from docx import Document
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    doc = Document(docx)
+    ps = doc.paragraphs
+    first = ps[0]
+    last_body = None
+    for i in range(len(ps) - 1, -1, -1):
+        if ps[i]._p.findall('.//' + qn('w:drawing')):
+            back = ps[i]
+            last_body = ps[i - 1]
+            break
+    assert first._p.findall('.//' + qn('w:drawing')), 'no front cover image'
+
+    def full_page(para):
+        """Make the cover image the size of the paper.
+
+        Pandoc clamps every image to the text column it computes from the
+        reference document -- it rewrote 8.5in as 5.83in and the first cover
+        came out a postcard in the middle of a blank page. The extent has to
+        be set after pandoc has had its say, in both places it is recorded.
+        """
+        EMU_W, EMU_H = 7772400, 10058400          # 8.5in x 11in
+        for ext in para._p.findall('.//' + qn('wp:extent')):
+            ext.set('cx', str(EMU_W))
+            ext.set('cy', str(EMU_H))
+        for ext in para._p.iter():
+            if ext.tag == qn('a:ext'):
+                ext.set('cx', str(EMU_W))
+                ext.set('cy', str(EMU_H))
+
+    def tiny(el):
+        """1pt type on the cover paragraph and its runs.
+
+        An inline image sits on the baseline, and the line box keeps the
+        descent of the paragraph mark below it. At the body's type size that
+        descent is an eighth of an inch of white under the cover; at 1pt it
+        is nothing, and the art reaches the foot of the paper. A line rule of
+        `exact` looks like the obvious fix and is not: it clips the top of
+        the image instead.
+        """
+        rPr = el.find(qn('w:rPr'))
+        if rPr is None:
+            rPr = OxmlElement('w:rPr')
+            el.insert(0, rPr)
+        for tag in ('w:sz', 'w:szCs'):
+            e = OxmlElement(tag)
+            e.set(qn('w:val'), '2')             # half-points: 1pt
+            rPr.append(e)
+
+    for para in (first, back):
+        full_page(para)
+        pPr = para._p.get_or_add_pPr()
+        sp_ = OxmlElement('w:spacing')
+        sp_.set(qn('w:before'), '0')
+        sp_.set(qn('w:after'), '0')
+        sp_.set(qn('w:line'), '240')
+        sp_.set(qn('w:lineRule'), 'auto')
+        pPr.append(sp_)
+        ind = OxmlElement('w:ind')
+        for k in ('left', 'right', 'firstLine'):
+            ind.set(qn('w:' + k), '0')
+        pPr.append(ind)
+        tiny(pPr)
+        for r in para._p.findall(qn('w:r')):
+            tiny(r)
+    _attach(first, _sectpr(0))
+    _attach(last_body, _sectpr(1440))
+    # Pandoc already leaves an empty <w:sectPr/> as the last child of the
+    # body. Appending a second one there is invalid -- only the final child
+    # may be a sectPr -- and it showed up as a fourth, propertyless section
+    # between the body and the back cover. Replace it.
+    body = doc.element.body
+    tail = body.find(qn('w:sectPr'))
+    last = _sectpr(0)
+    if tail is not None:
+        body.replace(tail, last)
+    else:
+        body.append(last)
+    doc.save(docx)
+    return kind
+
+
 def keep_together(docx):
     """Stop a rubric being stranded a page away from its own figure.
 
@@ -145,8 +272,19 @@ def keep_together(docx):
     return n
 
 
+def _cover_md(name):
+    png = os.path.join(HERE, 'figures', 'a11', name + '.png')
+    if not os.path.exists(png):
+        raise SystemExit(f'missing cover {png}')
+    return f'![]({png}){{width=8.5in height=11in}}\n'
+
+
 def build(kind, nums, src, out_base):
-    parts = [front_matter(kind, nums)]
+    front_cov, back_cov = COVER[kind]
+    # No page break after the front cover: the cover is its own section and
+    # a section break already starts the next page. Both together left a
+    # blank page two in every build.
+    parts = [_cover_md(front_cov), front_matter(kind, nums)]
     for n in nums:
         raw = open(src.format(n)).read()
         figdir = os.path.join(HERE, 'figures', 'a11')
@@ -167,6 +305,9 @@ def build(kind, nums, src, out_base):
                      '<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n' + raw)
     if kind == 'Student Book':
         parts += back_matter(nums)
+    parts.append('\n\n```{=openxml}\n'
+                 '<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n'
+                 + _cover_md(back_cov))
     md = '\n'.join(parts)
     tmp = out_base + '.src.md'
     open(tmp, 'w').write(md)
@@ -177,6 +318,7 @@ def build(kind, nums, src, out_base):
         cmd += ['--reference-doc', ref]
     subprocess.run(cmd, check=True)
     print(f'  keepNext set on {keep_together(docx)} paragraphs')
+    covers(docx, kind)
     try:
         subprocess.run(['libreoffice', '--headless', '--convert-to', 'pdf',
                         '--outdir', os.path.dirname(out_base), docx],

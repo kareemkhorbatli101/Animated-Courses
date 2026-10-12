@@ -1,6 +1,6 @@
 # EFDL A1 — check report
 
-Run 2026-10-11 23:20  ·  20 units  ·  760 exercises  ·  440 figures
+Run 2026-10-12 08:15  ·  20 units  ·  760 exercises  ·  440 figures
 
 - **ok** — gate G1-G21, every unit
 - **ok** — visual V1-V7 F1-F8, every unit
@@ -9,7 +9,8 @@ Run 2026-10-11 23:20  ·  20 units  ·  760 exercises  ·  440 figures
 - **ok** — keys K1-K7 + K6v
 - **ok** — coupling LEAK/GAP
 - **ok** — drift, all 440 figures
-- **ok** — back matter B1-B8
-- **ok** — document D1-D7
+- **ok** — covers, four, re-rendered
+- **ok** — back matter B1-B9
+- **ok** — document D0-D9, both books
 
-**9 stages, 0 with failures**
+**10 stages, 0 with failures**

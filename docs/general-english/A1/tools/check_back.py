@@ -101,6 +101,21 @@ def main():
     check('B8 the Grammar File uses no term it did not declare', not found,
           str(found))
 
+    # B9 -- the covers get the same guarantee drift.py gives every figure:
+    # re-render from the current code and compare byte for byte. A cover is
+    # the one page everybody sees and the one nothing else checks.
+    import covers as CV
+    stale_cov, missing_cov = [], []
+    for name, fn in CV.COVERS.items():
+        f = os.path.join(HERE, 'figures', 'a11', name + '.svg')
+        if not os.path.exists(f):
+            missing_cov.append(name)
+            continue
+        if open(f, encoding='utf-8').read() != fn().svg():
+            stale_cov.append(name)
+    check('B9 the four covers match their source', not (stale_cov or missing_cov),
+          f'stale {stale_cov} missing {missing_cov}')
+
     for n, d in OK:
         print(f'  ok   {n}' + (f'  — {d}' if d else ''))
     for n, d in BAD:
