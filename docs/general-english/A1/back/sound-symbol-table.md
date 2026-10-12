@@ -1,6 +1,6 @@
 # Sound and Symbol Table
 
-English does not spell one sound one way. This table gives the twenty sounds
+English does not spell one sound one way. This table gives the twenty-three sounds
 the course asks you to say, each with a plain spelling you can read on sight,
 the symbol a dictionary uses, and words from the book.
 

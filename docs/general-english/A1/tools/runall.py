@@ -27,7 +27,7 @@ STAGES = [
     ('drift, all 440 figures',
      [[PY, 'tools/drift.py'] + [str(u) for u in UNITS]]),
     ('covers, four, re-rendered', [[PY, 'tools/covers.py']]),
-    ('back matter B1-B9', [[PY, 'tools/check_back.py']]),
+    ('back matter B1-B10', [[PY, 'tools/check_back.py']]),
     ('document D0-D9, both books',
      [[PY, 'tools/check_doc.py',
        'build/EFDL-A1-StudentBook-u01-20.pdf', '20', '440'],

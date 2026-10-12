@@ -101,6 +101,18 @@ def main():
     check('B8 the Grammar File uses no term it did not declare', not found,
           str(found))
 
+    # B10 -- a written file that counts its own contents has to count them
+    # right. The sound table said "the twenty sounds" and listed 23: nothing
+    # in the suite reads prose against the table under it, so it shipped.
+    WORDS = {'twenty': 20, 'twenty-one': 21, 'twenty-two': 22,
+             'twenty-three': 23, 'twenty-four': 24, 'twenty-five': 25}
+    snd = read('sound-symbol-table.md')
+    m = re.search(r'gives the ([a-z-]+) sounds', snd)
+    rows = len(re.findall(r'^\| /', snd, re.M))
+    check('B10 the sound table counts its own rows',
+          bool(m) and WORDS.get(m.group(1)) == rows,
+          f'says {m.group(1) if m else "nothing"}, lists {rows}')
+
     # B9 -- the covers get the same guarantee drift.py gives every figure:
     # re-render from the current code and compare byte for byte. A cover is
     # the one page everybody sees and the one nothing else checks.
