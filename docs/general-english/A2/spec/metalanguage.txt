@@ -61,3 +61,8 @@ hasto
 gotta
 set
 furthest
+myself
+yourself
+himself
+herself
+themselves
