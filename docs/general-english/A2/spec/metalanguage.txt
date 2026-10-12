@@ -41,3 +41,7 @@ tenses
 partner
 inside
 mean
+above
+showing
+whether
+problem

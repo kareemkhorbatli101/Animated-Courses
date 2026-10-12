@@ -60,6 +60,10 @@ def main(u):
             print('       ', line.strip())
 
     rc, out = run('tools/check_coupling.py', *[str(i) for i in range(1, u + 1)])
+    if 'LEAK' not in out or 'PICTORIAL' not in out:
+        print('FAIL  coupling  did not run (is the key written?)')
+        print(out.strip().split('\n')[-1][:120])
+        return 1
     leaks = out.split('LEAK')[1].split('GAP')[0]
     gaps = out.split('GAP')[1].split('PICTORIAL')[0]
     nl = re.search(r'\((\d+) to read\)', leaks)
