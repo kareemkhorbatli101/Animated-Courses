@@ -1,0 +1,382 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "Something happened on the stairs",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "contrast",
+  "caption": "One long action, one short",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things after an accident",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Was and were, plus ing",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "contrast",
+  "caption": "When and while",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "data",
+  "caption": "Four people on that morning",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "1",
+  "job": "contrast",
+  "caption": "The short forms in the past",
+  "w": 1280,
+  "h": 402,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "1",
+  "job": "document",
+  "caption": "The accident book",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "1",
+  "job": "lexis",
+  "caption": "Five words about an accident",
+  "w": 1280,
+  "h": 600,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "2",
+  "job": "contrast",
+  "caption": "The long one and the short one",
+  "w": 1280,
+  "h": 412,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Asking what happened",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "2",
+  "job": "data",
+  "caption": "Who was where at nine",
+  "w": 1280,
+  "h": 378,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Two cut across by one",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Which verb takes the ing",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Mistakes with the two pasts",
+  "w": 1280,
+  "h": 280,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "3",
+  "job": "data",
+  "caption": "Four witnesses",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "3",
+  "job": "document",
+  "caption": "What each witness said",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "3",
+  "job": "document",
+  "caption": "The times that morning",
+  "w": 1280,
+  "h": 388,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four more things to hear",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "4",
+  "job": "data",
+  "caption": "Telling a friend what happened",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Four questions about an accident",
+  "w": 1280,
+  "h": 486,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "4",
+  "job": "data",
+  "caption": "The morning in four moments",
+  "w": 1280,
+  "h": 430,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 23,
+  "part": "4",
+  "job": "data",
+  "caption": "Three people who were there",
+  "w": 1280,
+  "h": 360,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 24,
+  "part": "5",
+  "job": "document",
+  "caption": "Two reports of the same morning",
+  "w": 1280,
+  "h": 462,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 25,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages from the hospital",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 26,
+  "part": "5",
+  "job": "document",
+  "caption": "What to do in an emergency",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 27,
+  "part": "5",
+  "job": "document",
+  "caption": "A safety notice",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 28,
+  "part": "6",
+  "job": "document",
+  "caption": "An accident form",
+  "w": 1280,
+  "h": 580,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 29,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines about what happened",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 30,
+  "part": "6",
+  "job": "document",
+  "caption": "A model report",
+  "w": 1280,
+  "h": 462,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 31,
+  "part": "7",
+  "job": "document",
+  "caption": "A real incident report",
+  "w": 1280,
+  "h": 580,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 32,
+  "part": "7",
+  "job": "document",
+  "caption": "What the form asks for",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 33,
+  "part": "7",
+  "job": "data",
+  "caption": "Three places to report it",
+  "w": 1280,
+  "h": 420,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 34,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 35,
+  "part": "8",
+  "job": "contrast",
+  "caption": "The two pasts in blocks",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 36,
+  "part": "8",
+  "job": "contrast",
+  "caption": "Four verbs in the past",
+  "w": 1280,
+  "h": 476,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 37,
+  "part": "8",
+  "job": "data",
+  "caption": "Four people, four accounts",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 38,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]
