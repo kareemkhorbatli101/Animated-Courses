@@ -538,6 +538,45 @@ def prop(cv: Canvas, name, x, y, s=1.0, col=None):
         cv.path(f'M{x-u*0.28:.2f},{y-u*0.18:.2f} L{x:.2f},{y+u*0.04:.2f} '
                 f'L{x+u*0.28:.2f},{y-u*0.18:.2f}', stroke=C['steel'], sw=u * 0.025)
         cv.rect(x + u * 0.12, y - u * 0.15, u * 0.12, u * 0.09, shade(C['red'], 1.25))
+    elif k == 'card':
+        cv.rect(x - u * 0.30, y - u * 0.19, u * 0.60, u * 0.38, deep(C['navy']),
+                r=u * 0.04)
+        cv.rect(x - u * 0.30, y - u * 0.09, u * 0.60, u * 0.07, deep(C['ink']))
+        cv.rect(x - u * 0.22, y + u * 0.04, u * 0.17, u * 0.11,
+                shade(C['amber'], 1.10), r=u * 0.015)
+        cv.rect(x + u * 0.02, y + u * 0.09, u * 0.24, u * 0.035, C['cloud'])
+    elif k == 'note':
+        cv.rect(x - u * 0.31, y - u * 0.16, u * 0.62, u * 0.32,
+                shade(C['green'], 1.42), r=u * 0.02, stroke=deep(C['green']),
+                sw=u * 0.020)
+        cv.circle(x, y, u * 0.09, 'none', stroke=deep(C['green']), sw=u * 0.022)
+        cv.rect(x - u * 0.26, y - u * 0.11, u * 0.07, u * 0.07, deep(C['green']))
+        cv.rect(x + u * 0.19, y + u * 0.04, u * 0.07, u * 0.07, deep(C['green']))
+    elif k == 'ticket':
+        cv.rect(x - u * 0.30, y - u * 0.15, u * 0.60, u * 0.30,
+                shade(C['amber'], 1.30), r=u * 0.03, stroke=deep(C['amber']),
+                sw=u * 0.020)
+        cv.circle(x + u * 0.06, y - u * 0.15, u * 0.05, C['paper'])
+        cv.circle(x + u * 0.06, y + u * 0.15, u * 0.05, C['paper'])
+        for i in range(3):
+            cv.rect(x - u * 0.24, y - u * 0.07 + i * u * 0.07, u * 0.22,
+                    u * 0.030, deep(C['amber']))
+    elif k == 'wallet':
+        cv.rect(x - u * 0.28, y - u * 0.19, u * 0.56, u * 0.38, C['brown'],
+                r=u * 0.05)
+        cv.rect(x - u * 0.28, y - u * 0.02, u * 0.56, u * 0.08,
+                shade(C['brown'], 0.86))
+        cv.rect(x - u * 0.10, y - u * 0.25, u * 0.26, u * 0.09,
+                shade(C['green'], 1.42), r=u * 0.015,
+                stroke=deep(C['green']), sw=u * 0.016)
+    elif k == 'box':
+        cv.rect(x - u * 0.28, y - u * 0.18, u * 0.56, u * 0.36,
+                shade(C['sand'], 0.96), r=u * 0.02, stroke=C['wood_dk'],
+                sw=u * 0.020)
+        cv.rect(x - u * 0.28, y - u * 0.18, u * 0.56, u * 0.09,
+                shade(C['sand'], 0.88))
+        cv.rect(x - u * 0.05, y - u * 0.18, u * 0.10, u * 0.36,
+                shade(C['wood'], 1.18))
     else:
         raise KeyError(f'no prop {name!r}')
 

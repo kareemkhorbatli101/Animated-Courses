@@ -1,0 +1,382 @@
+[
+ {
+  "n": 1,
+  "part": "W",
+  "job": "data",
+  "caption": "Ben counts the money",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 2,
+  "part": "W",
+  "job": "document",
+  "caption": "A week of spending",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 3,
+  "part": "W",
+  "job": "lexis",
+  "caption": "Six things you pay for",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 4,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Much, many and a lot of",
+  "w": 1280,
+  "h": 468,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 5,
+  "part": "1",
+  "job": "contrast",
+  "caption": "A few and a little",
+  "w": 1280,
+  "h": 504,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 6,
+  "part": "1",
+  "job": "data",
+  "caption": "How much each one spends",
+  "w": 1280,
+  "h": 366,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 7,
+  "part": "1",
+  "job": "contrast",
+  "caption": "Saying the long numbers",
+  "w": 1280,
+  "h": 504,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 8,
+  "part": "1",
+  "job": "document",
+  "caption": "A bank statement",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 9,
+  "part": "1",
+  "job": "lexis",
+  "caption": "Five money words",
+  "w": 1280,
+  "h": 600,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 10,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Countable and uncountable",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 11,
+  "part": "2",
+  "job": "contrast",
+  "caption": "How much and how many",
+  "w": 1280,
+  "h": 382,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 12,
+  "part": "2",
+  "job": "data",
+  "caption": "Who has got how much",
+  "w": 1280,
+  "h": 366,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 13,
+  "part": "2",
+  "job": "contrast",
+  "caption": "A little and a few, again",
+  "w": 1280,
+  "h": 324,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 14,
+  "part": "2",
+  "job": "data",
+  "caption": "Three prices to compare",
+  "w": 1280,
+  "h": 440,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 15,
+  "part": "2",
+  "job": "contrast",
+  "caption": "Mistakes with much and many",
+  "w": 1280,
+  "h": 280,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 16,
+  "part": "3",
+  "job": "data",
+  "caption": "Four people at the bank",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 17,
+  "part": "3",
+  "job": "document",
+  "caption": "What they paid in May",
+  "w": 1280,
+  "h": 398,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 18,
+  "part": "3",
+  "job": "document",
+  "caption": "The prices in the shop",
+  "w": 1280,
+  "h": 388,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 19,
+  "part": "3",
+  "job": "lexis",
+  "caption": "Four more things to hear",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 20,
+  "part": "4",
+  "job": "data",
+  "caption": "Asking about the bill",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 21,
+  "part": "4",
+  "job": "contrast",
+  "caption": "Four questions about money",
+  "w": 1280,
+  "h": 486,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 22,
+  "part": "4",
+  "job": "data",
+  "caption": "Payday in four moments",
+  "w": 1280,
+  "h": 430,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 23,
+  "part": "4",
+  "job": "data",
+  "caption": "Three people to ask about money",
+  "w": 1280,
+  "h": 360,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 24,
+  "part": "5",
+  "job": "document",
+  "caption": "Two offers in the window",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 25,
+  "part": "5",
+  "job": "document",
+  "caption": "Messages about a refund",
+  "w": 1280,
+  "h": 560,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 26,
+  "part": "5",
+  "job": "document",
+  "caption": "What the bank charges",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 27,
+  "part": "5",
+  "job": "document",
+  "caption": "A letter about the rent",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 28,
+  "part": "6",
+  "job": "document",
+  "caption": "A budget form",
+  "w": 1280,
+  "h": 580,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 29,
+  "part": "6",
+  "job": "data",
+  "caption": "Four lines about your money",
+  "w": 1280,
+  "h": 418,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 30,
+  "part": "6",
+  "job": "document",
+  "caption": "A model budget",
+  "w": 1280,
+  "h": 462,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 31,
+  "part": "7",
+  "job": "document",
+  "caption": "A real bank statement",
+  "w": 1280,
+  "h": 460,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 32,
+  "part": "7",
+  "job": "document",
+  "caption": "How to read it",
+  "w": 1280,
+  "h": 520,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 33,
+  "part": "7",
+  "job": "data",
+  "caption": "Three ways to pay",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 34,
+  "part": "8",
+  "job": "lexis",
+  "caption": "Six things from this unit",
+  "w": 1280,
+  "h": 320,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 35,
+  "part": "8",
+  "job": "contrast",
+  "caption": "Much or many, in blocks",
+  "w": 1280,
+  "h": 372,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 36,
+  "part": "8",
+  "job": "data",
+  "caption": "Three weeks of spending",
+  "w": 1280,
+  "h": 366,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 37,
+  "part": "8",
+  "job": "data",
+  "caption": "Four answers about money",
+  "w": 1280,
+  "h": 400,
+  "warnings": [],
+  "overlaps": []
+ },
+ {
+  "n": 38,
+  "part": "8",
+  "job": "data",
+  "caption": "What I can do",
+  "w": 1280,
+  "h": 394,
+  "warnings": [],
+  "overlaps": []
+ }
+]

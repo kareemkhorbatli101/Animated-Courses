@@ -1,6 +1,6 @@
 # EFDL A1 — check report
 
-Run 2026-10-12 12:13  ·  20 units  ·  760 exercises  ·  440 figures
+Run 2026-10-12 12:23  ·  20 units  ·  760 exercises  ·  440 figures
 
 - **ok** — gate G1-G21, every unit
 - **ok** — visual V1-V7 F1-F8, every unit

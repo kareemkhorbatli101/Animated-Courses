@@ -45,3 +45,7 @@ above
 showing
 whether
 problem
+countable
+uncountable
+minus
+few
