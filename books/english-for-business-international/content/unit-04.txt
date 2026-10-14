@@ -1,0 +1,445 @@
+@UNIT 4 | Nothing Left Out — Honest Records | The passive voice · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter · INTEGRITY FOCUS
+@FIG u4-start | How a record is made: entered, checked, approved, filed.
+
+@TASK Warm-up: Words About an Honest Record
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Record (v) → to write something down so it can be found again. (example)
+@MATCH
+Enter (v)
+Check (v)
+Approve
+File (v)
+Trail
+@@
+to put information into a system
+to look at something to see that it is right
+to say officially that something is correct
+to store a document so it can be found
+the line of evidence that shows what was done
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK entered | checked | approved | filed
+@LINE 0. Every invoice has a name against it. (example)
+@ITEM 1. The invoice was ____________________ into the system on Tuesday.
+@ITEM 2. The total was ____________________ by Teresa the next morning.
+@ITEM 3. The payment was ____________________ by Mr Alvarez on Thursday.
+@ITEM 4. The document was then ____________________ for the auditor.
+
+@TASK Warm-up: Reading — Four Hands, One Record
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+In a group that trades in five countries, no record is ever made by one person alone. An invoice arrives in Istanbul and is entered by Can on the day it arrives. The total is then checked by Teresa in Lisbon, who compares it with the order and the delivery note. If everything agrees, the payment is approved by Mr Alvarez, and only then is the money sent. Finally the document is filed, with its reference number, where the group auditor can find it without asking anybody. Four hands touch every invoice, and each pair leaves its name. Teresa calls this the audit trail, and she says it is the most valuable thing the office owns. 'Any business can be wrong about a number,' she tells new assistants. 'What matters is whether the business can show how the number was reached, and who was looking at it when it was.' Notice how often she says 'was entered' and 'was approved'. In an accounts office, what was done comes first, and the name follows immediately.
+@LINE 0. No record is made by one person alone. (example)
+@MCQ 1. How many pairs of hands touch every invoice? | One | Two | Four | Ten
+@MCQ 2. What does Teresa call the most valuable thing the office owns? | The computer system | The audit trail | The bank account | The supplier list
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u4-words | The words of a process: record, check, approve, file.
+
+@TASK Part 1: Words for a Process
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Enter → to put information into a system.
+@MATCH
+Approve
+Audit trail
+Reference
+Supporting document
+Authorise
+Reverse (v)
+Evidence
+@@
+to say officially that something is correct
+the line of records that shows what was done, and by whom
+a number or code that lets you find a document again
+a paper that proves a figure, such as a receipt
+to give somebody the right to do something
+to undo an entry by making an equal, opposite one
+facts that show something is true
+a plan for next year
+@GLOSS audit trail = the line of records that shows what was done, and by whom · reverse = to undo an entry with an equal, opposite one
+
+@TASK Part 1: Pronunciation
+@AUDIO 4.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+approved | a-PROVED
+authorise | AU-tho-rise
+evidence | E-vi-dence
+procedure | pro-CE-dure
+reversed | re-VERSED
+documented | DO-cu-men-ted
+
+@TASK Part 1: Active or Passive — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. Can enters the invoice. → the active: the person comes first. (example)
+@MATCH
+The invoice is entered daily.
+The invoice was entered on Tuesday.
+The invoice has been entered.
+The invoice will be entered tomorrow.
+The invoice must be entered today.
+@@
+a present routine, described as a process
+one finished action in the past
+the record up to now, with no date
+a future action, arranged or expected
+an obligation, with no person named
+an action happening at this moment
+@GLOSS the passive = be + the past participle · by + the doer = the name, added when the reader needs it
+
+@TASK Part 1: The Passive — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. The passive is formed with 'be' and the past participle. (example)
+@MCQ 1. Which sentence is passive? | Can entered the invoice | The invoice was entered | Can is entering the invoice | Can will enter the invoice
+@MCQ 2. When should you add 'by …'? | Never | Whenever the reader needs the name | Only in questions | Only in the past
+@MCQ 3. What is an 'audit trail'? | A list of suppliers | The line of records showing what was done, and by whom | A kind of invoice | A bank statement
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK approved | reference | supporting document | reversed
+@LINE 0. Every entry can be found again. (example)
+@ITEM 1. The payment was ____________________ by the owner on Thursday.
+@ITEM 2. Every entry is given a ____________________ number.
+@ITEM 3. A receipt is the ____________________ for a cash purchase.
+@ITEM 4. The double entry was ____________________ , not deleted.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one active sentence about something you do, and the same idea in the passive.
+@PLAN Active: I ______ the ______ every day. Passive: The ______ is ______ every day (by me).
+@LINE Then swap your two sentences with a partner, and decide together which version a reader would prefer, and why.
+
+@BANNER Part 2 · Grammar — The Passive Voice
+@TRACK [OP] Accounts track · grammar focus
+@FIG u4-grammar | Active and passive: who did it, and what was done.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these two ways of saying the same thing. In the active, the person comes first: 'Can entered the invoice on Tuesday.' In the passive, the action comes first: 'The invoice was entered on Tuesday.' We form the passive with the verb 'be' and the past participle, and 'be' carries the tense: it is entered, it was entered, it has been entered, it will be entered, it must be entered. We choose the passive when the action matters more than the person, when the person is obvious, or when the process is the point. In accounting that is very often, because a procedure belongs to the office rather than to one member of staff. But the passive has a danger. 'Mistakes were made' is a sentence with nobody in it. Whenever you know who did something and the reader needs to know, add 'by' and the name.
+@RUBRIC Look at your teacher's copy. Which sentences are passive? Which of them should have a name added, and why?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+present passive | The invoice is checked every day. | a routine process
+past passive | The invoice was entered on Tuesday. | one finished action
+perfect and future | It has been approved. · It will be filed. | the record now · what comes next
+by + the doer | It was approved by Mr Alvarez. | add the name whenever the reader needs it
+@REMEMBER Form the passive with 'be' and the past participle. Use it when the action or the process matters most — and add 'by …' whenever you know who did it and the reader needs to know.
+@WATCH Watch out: never use the passive to hide a name — 'mistakes were made' tells the reader nothing and costs you their trust.
+@GLOSS past participle = the third form of a verb: entered, checked, approved, written · procedure = the fixed way a task is always done
+
+@TASK Part 2: Controlled Practice — Make It Passive
+@RUBRIC Rewrite each sentence in the passive. Keep the tense.
+@LINE 0. Can enters the invoices. → The invoices are entered (by Can). (example)
+@ITEM 1. Teresa checks every total. → ____________________
+@ITEM 2. Mr Alvarez approved the payment. → ____________________
+@ITEM 3. The office has filed the document. → ____________________
+@ITEM 4. Daniel will reconcile the accounts. → ____________________
+
+@TASK Part 2: Adding the Doer
+@RUBRIC Complete each sentence with the passive, and add 'by' and the name.
+@ITEM 1. The invoice ______ (enter) on Tuesday ______ Can.
+@ITEM 2. The total ______ (check) the next morning ______ Teresa.
+@ITEM 3. The payment ______ (approve) on Thursday ______ Mr Alvarez.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. The invoice was enter on Tuesday.
+@ITEM 2. The total has been check by Teresa.
+@ITEM 3. Mistakes were made in the March figures. (name the doer)
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Describe a process you know in the passive, step by step. Then say who does each step.
+@LINE First, the ______ is ______ . Then it is ______ by ______ .
+@LINE Finally, it is ______ , so that ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. The payment ______ by Mr Alvarez on Thursday. | approved | was approved | has approve | is approving
+@MCQ 2. Every total ______ before the money is sent. | checks | is checked | has check | checking
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u4-listen | The invoice was entered, checked and approved — and each step has a name.
+
+@TASK Part 3: Teresa Explains the Passive
+@AUDIO 4.2
+@LINE Before you listen: why does an accounts office use the passive so often?
+@BODY
+Teresa: You will notice that we speak in the passive all day in this office, and there is a reason for it. A procedure belongs to the group, not to the person who happens to be doing it this week. So we say 'the invoice is entered on the day it arrives', because that is true whoever enters it, in whichever country. We form it with 'be' and the past participle, and 'be' carries the tense: it is entered, it was entered, it has been entered, it will be entered. Now, the warning. The passive lets you leave the person out, and sometimes that is exactly right, because nobody needs to know which assistant typed the line. But it also lets you hide, and that is never right. If you ever write 'mistakes were made', ask yourself who made them, and whether the reader needs to know. If the reader needs to know, put the name in, and put it in the same sentence.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. The passive is formed with 'be' and the past participle. — T
+@ITEM 1. A procedure belongs to the group rather than to one person. ____
+@ITEM 2. The verb 'be' carries the tense in a passive sentence. ____
+@ITEM 3. Leaving the person out is always wrong. ____
+@ITEM 4. 'Mistakes were made' is a good sentence for a report. ____
+@LINE Useful phrases: the invoice is entered on the day it arrives · it was approved by… · who made them?
+
+@TASK Part 3: Was It Checked Before It Was Paid?
+@AUDIO 4.3
+@LINE Before you listen: what does an auditor want to know about a payment?
+@BODY
+Teresa: Can, the auditor has asked about invoice 2291. Was it checked before it was paid? Can: Yes. It was received on the fourth of March and entered the same day. Teresa: And then? Can: The total was checked against the order and the delivery note on the fifth, by you. Teresa: So it was. And the approval? Can: It was approved by Mr Alvarez on the sixth, and the payment was sent on the seventh. Teresa: Was anything unusual about it? Can: One thing. The delivery note was signed by a driver, not by our storeman, so I wrote a note explaining why. Teresa: Good. That note is worth more than the invoice. Send her the trail, with the note attached.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. When was the invoice received and entered? — It was received and entered on the fourth of March.
+@ITEM 1. What was the total checked against, and by whom?
+@ITEM 2. When was the payment approved, and by whom?
+@ITEM 3. What was unusual about the delivery note, and what did Can do?
+@LINE Useful phrases: it was received on… · it was checked against… · it was approved by… · I wrote a note explaining why.
+
+@TASK Part 3: Explaining a Procedure to a New Assistant
+@AUDIO 4.4
+@LINE Before you listen: how would you teach somebody a four-step procedure in one minute?
+@BODY
+Teresa: Noor, this is the procedure, and it is the same in all five countries. Every invoice is entered on the day it arrives. Nothing waits until tomorrow, because tomorrow is when things are forgotten. Noor: And after it is entered? Teresa: The total is checked against the order and the delivery note. If the three agree, it goes forward. If they do not, it is held and the supplier is called. Noor: Who approves the payment? Teresa: Payments under five thousand euro are approved by me. Above that, they are approved by Mr Alvarez. Noor: And then? Teresa: Then the document is filed with its reference, and the reference is written in the ledger line, so that the paper and the entry can always find each other.
+@RUBRIC While you listen: match each step with what happens. One step is not needed. (0. is done.) Write the letter.
+@LINE 0. The invoice arrives → it is entered on the same day.
+@MATCH
+The total
+A payment under five thousand euro
+A payment above five thousand euro
+The document
+@@
+is checked against the order and the delivery note
+is approved by Teresa
+is approved by Mr Alvarez
+is filed with its reference number
+is sent back to the supplier unopened
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u4-speak | Role play: explaining a process (Card A and Card B).
+
+@TASK Part 4: Talking About How Things Are Done
+@RUBRIC Work with a partner. Ask and answer these questions. Use the passive.
+@LINE How is an order handled where you work or study?
+@LINE Who is a decision approved by, and at what level?
+@LINE What is kept as proof, and where is it filed?
+@LINE Why is it sometimes better to describe a process without naming a person?
+@FRAME Useful language: it is entered on… · it is checked against… · it is approved by… · it is filed with…
+
+@TASK Part 4: Explaining a Process — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: How is an invoice handled here? — B: It is entered on the day it arrives, and the total is checked against the order. — A: And who approves the payment? — B: Payments under five thousand euro are approved by the controller; above that, by the owner.
+@FRAME Useful language: it is entered… · it is checked against… · it is approved by… · it is filed with its reference.
+@FRAME Card A — Auditor: ask how an invoice is handled · ask who approves a payment, and at what level.
+@FRAME Card B — Accountant: describe the four steps in the passive · add the name wherever it matters.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe a procedure you know in four steps, using the passive. Say who approves each step.
+@PLAN First, the ______ is ______ . Then it is ______ by ______ . After that, ______ . Finally, ______ .
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u4-read | What was done, and who did it.
+
+@TASK Part 5: Why Accountants Use the Passive
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+There is a reason why so much accounting English is written in the passive, and it is not laziness. An accounts procedure is meant to survive the people who carry it out. The invoice is entered on the day it arrives, whoever is at the desk that morning; the total is checked against the order, whichever country the order came from; the payment is approved at the right level, whoever happens to hold that post this year. Writing those sentences in the active would tie a permanent rule to a temporary person, and the rule would have to be rewritten every time somebody changed jobs. The passive also puts the action where a reader looks first, which matters when the reader is an auditor in another country working through two hundred pages. But the same grammar that makes a procedure durable can also make a mistake ownerless. 'Mistakes were made in the March figures' is a complete English sentence with nobody in it, and every experienced reader notices the absence immediately. The rule in this office is simple, and it costs nothing to follow: use the passive for the procedure, and use a name for the event. Processes do not make errors; people do, and people correct them.
+@LINE 0. Accounting English uses the passive a great deal. (example)
+@MCQ 1. Why is a procedure written in the passive? | It is shorter | It survives the people who carry it out | It is more polite | It is easier to translate
+@MCQ 2. What is wrong with 'Mistakes were made in the March figures'? | It is too long | It has nobody in it | It is in the wrong tense | It names too many people
+@MCQ 3. What is the rule in the office? | Never use the passive | The passive for the procedure, a name for the event | Always name everybody | Use the active only in reports
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. procedure → the fixed way a task is always done. (example)
+@MATCH
+durable
+permanent
+temporary
+absence
+ownerless
+@@
+lasting a long time without changing
+meant to last; not for a short period only
+lasting only for a short time
+the fact that something is not there
+belonging to nobody
+a receipt for a cash purchase
+@GLOSS durable = lasting a long time without changing · ownerless = belonging to nobody
+
+@TASK Part 5: What an Audit Trail Must Show
+@RUBRIC Read about audit trails. Then mark each sentence True (T) or False (F).
+@BODY
+An audit trail answers four questions about every figure, and it answers them without anybody having to be asked. What was done? When was it done? By whom was it done? And what paper supports it? If a trail answers all four, an auditor in another country can follow a number from the bank statement back to the delivery note without sending a single email. If it answers three, somebody loses a morning. A trail is not a special document that is written at the year end; it is simply the ordinary record, made carefully on the day. That is why nothing is ever deleted in this office. If an entry is wrong, it is reversed by an equal and opposite entry, and both lines stay visible for ever. A deleted line looks tidy and tells the reader nothing; a reversed line is untidy and tells them everything, including the fact that somebody noticed. The same rule applies across the group, in every currency and every system, because an auditor who finds one deletion in one country will reasonably ask what has been deleted in the other four.
+@LINE 0. An audit trail answers four questions. → T (example)
+@ITEM 1. A trail is written specially at the year end. ____
+@ITEM 2. A wrong entry is deleted so the page looks tidy. ____
+@ITEM 3. A reversal leaves both lines visible. ____
+@ITEM 4. A complete trail saves the auditor from asking questions. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u4-write | Describing a procedure, step by step, in the passive.
+
+@TASK Part 6: How an Invoice Is Handled (70–130 words)
+@RUBRIC Describe a procedure in four steps. Use the passive, and name the approver.
+@MODEL
+Every invoice is handled in the same way in all five countries. It is entered into the system on the day it arrives, and nothing is left until the following morning. The total is then checked against the purchase order and the delivery note, and the three must agree before anything moves. If they do not agree, the invoice is held and the supplier is called the same day. Payments below five thousand euro are approved by the group controller; larger payments are approved by the owner. Finally the document is filed with its reference number, and the same reference is written in the ledger.
+@PLAN First, it is… Then the total is… If they do not agree, it is… Finally, it is…
+@CHECK passive used for each step? | the approver named? | 70–130 words?
+
+@TASK Part 6: A Short Note to an Auditor (70–130 words)
+@RUBRIC Write a short note explaining how one payment was handled. Use the past passive, with dates and names.
+@MODEL
+Invoice 2291, Istanbul. The invoice was received on 4 March and was entered into the system on the same day by Can Demir. The total was checked against the purchase order and the delivery note on 5 March by the group controller, and the three documents agreed. The payment was approved on 6 March by Mr Alvarez, as the amount was above five thousand euro, and it was sent on 7 March. The delivery note was signed by the supplier's driver rather than by our storeman, and a note explaining this was written and filed with the invoice. All four documents are attached.
+@CHECK past passive throughout? | every date and name given? | 70–130 words?
+
+@TASK Part 6: Explaining a Correction (70–120 words)
+@RUBRIC Describe a mistake and how it was corrected. Use the passive for the process, and a name for the event.
+@MODEL
+Two supplier invoices were entered twice in the March figures, which made costs appear higher than they were. The duplication was found by Daniel on 11 April, while he was reconciling the quarter. Nothing was deleted. Both entries were reversed by an equal and opposite line on the same day, and the reversal was approved by the group controller. The whole month was then checked again, invoice by invoice, and no other duplicate was found. The original lines and the reversals are both visible in the ledger, so the correction can be followed by anybody who looks.
+@PLAN What happened: ______ was ______ . Who found it: ______ found it on ______ . What was done: ______ .
+@CHECK passive for the process? | a name for who found it? | 70–120 words?
+
+@TASK Part 6: A Record That Can Be Followed (70–120 words)
+@RUBRIC Write about why nothing is deleted in an accounts office. Use your own ideas.
+@MODEL
+Nothing is ever deleted in this office, and new assistants always ask why. The answer is that a deleted line looks perfect and proves nothing. If a figure is wrong, it is reversed by an equal and opposite entry, and both lines remain in the ledger for ever. Anybody who looks can see what was entered, what was wrong with it, when it was corrected and who approved the correction. The page is less tidy than it would have been. It is also the only version that an auditor in another country can believe without telephoning anybody.
+@CHECK passive used? | a clear reason given? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · how a bill is created
+@FIG u4-ra | How a bill is created: ordered, prepared, added up, settled.
+
+@TASK 7A: Phrase Bank — How a Bill Is Created
+@RUBRIC Match each step with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. The order is taken. → the guest says what they want, and it is written down. (example)
+@MATCH
+The order is sent to the kitchen.
+The dishes are prepared.
+The items are added to the table's bill.
+The bill is printed and brought to the table.
+The payment is taken and recorded.
+@@
+the kitchen receives the ticket and begins
+the food is cooked and plated
+each dish appears on the bill as it leaves the kitchen
+the guest is given the paper that shows what is owed
+the money is received and entered in the system
+the ingredients are ordered from a supplier
+
+@TASK 7B: Nothing Appears on a Bill by Accident
+@AUDIO 4.5
+@LINE Before you listen: how does a dish get onto a bill?
+@BODY
+Clara: Noor asked me a good question today. How does a dish actually get onto a bill? Teresa: Tell her the whole chain, because nothing appears by accident. The order is taken at the table and is sent to the kitchen in the same moment. Clara: And the bill? Teresa: The item is added to the table's bill automatically when the ticket is printed in the kitchen, not when the plate leaves. Clara: Why not when it leaves? Teresa: Because then a dish that is cooked and sent back would never be recorded at all, and we would have paid for the ingredients with nothing to show. If a dish is returned, it is cancelled on the bill by the manager, and the cancellation is recorded with a reason. Clara: So even a cancelled dish is written down. Teresa: Especially a cancelled dish. That is the line an auditor reads first.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. When is the order sent to the kitchen? — In the same moment it is taken at the table.
+@ITEM 1. When is the item added to the table's bill, and why then?
+@ITEM 2. What happens if a dish is returned?
+@ITEM 3. Which line does Teresa say an auditor reads first?
+
+@TASK 7C: Controlled Practice — How a Bill Is Created
+@RUBRIC Put the steps in order. Number them 1–5. (0. is done.)
+@LINE 0. The order is taken at the table. — 1
+@ITEM ___ The order is sent to the kitchen and the ticket is printed.
+@ITEM ___ The item is added to the table's bill.
+@ITEM ___ The bill is printed and brought to the guest.
+@ITEM ___ The payment is taken and recorded in the system.
+
+@TASK 7D: Role-Play — Explaining the Bill
+@RUBRIC In pairs. One is a new waiter; one is the restaurant manager. Use the model and cards.
+@FRAME Model: Waiter: How does a dish get onto the bill? — Manager: It is added when the ticket is printed in the kitchen. — Waiter: And if it is sent back? — Manager: It is cancelled by me, and the cancellation is recorded with a reason.
+@FRAME Card A — New waiter: ask how a dish reaches the bill · ask what happens when a dish is returned.
+@FRAME Card B — Manager: explain each step in the passive · say who cancels, and what is recorded.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note for new staff explaining how a bill is created.
+@MODEL
+Every bill is built the same way, and nothing is added to it by hand. The order is taken at the table and is sent to the kitchen at once. The item is added to the bill when the ticket is printed in the kitchen, not when the plate is carried out, so that every dish we cook is recorded even if it is never served. When the guests ask to pay, the bill is printed and brought to the table. The payment is taken, entered in the system, and matched to the table number. If a dish is cancelled, it is cancelled by a manager and the reason is written down.
+@CHECK passive used throughout? | the exception explained? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u4-consol | The audit trail: what was done, when, by whom, and on what paper.
+
+@TASK Part 8: Reading — The Line Nobody Deleted
+@LINE Before you read: why might an untidy record be more honest than a tidy one?
+@BODY
+When the group auditor came in May, she asked for one thing before anything else: the list of reversals. Noor was surprised, because a reversal is the record of a mistake, and she had expected the auditor to want the clean pages first. Teresa explained it over coffee. Every business makes errors, she said, and an auditor knows this before she arrives. What she cannot know, until she looks, is what the business does about them. A company that deletes its errors hands over a perfect ledger that proves nothing at all, because perfection is exactly what a careless or a dishonest office would also produce. A company that reverses its errors hands over an untidy ledger in which every mistake is visible, dated, explained and approved. That office is harder to doubt. In March, two invoices had been entered twice; both entries were reversed in April, and the reason was written beside them. The auditor read those four lines, nodded, and spent the rest of the morning somewhere else entirely. Noor asked afterwards whether that meant the office had passed. Teresa said it meant something better: that the auditor had stopped looking for the kind of problem she had come to find, because the first thing she opened had answered her.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What did the auditor ask for first? — The list of reversals.
+@ITEM 1. Why was Noor surprised?
+@ITEM 2. Why does a perfect ledger prove nothing?
+@ITEM 3. What did the auditor do after reading the four lines?
+@GLOSS reversal = an equal and opposite entry that undoes an earlier one · careless = not careful; done without enough attention
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. ledger → the system where every sale and cost is recorded. (example)
+@MATCH
+reversal
+visible
+doubt (v)
+careless
+approved
+@@
+an equal and opposite entry that undoes an earlier one
+able to be seen
+to be unsure whether something is true
+not careful; done without enough attention
+officially agreed to be correct
+a period of three months
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the most important thing is…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why did the auditor want to see the reversals before the clean pages?
+@LINE Is an untidy record ever better than a tidy one? Say why.
+@LINE What would you keep visible in your own work, even though it shows a mistake?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement · INTEGRITY
+@FIG u4-decide | A decision about naming who made an error.
+
+@TASK Part 9: Mistakes Were Made — By Whom?
+@LINE Before you read: when does leaving a name out become hiding?
+@BODY
+Noor has to write one line in the quarterly report about the duplicated invoices. The facts are not in dispute. Two supplier invoices were entered twice in March by a temporary assistant who had been in the office for six days and had not yet been shown the duplicate check. Daniel found the error in April, reversed both entries and told Teresa the same morning. Noor has three choices. She could write 'Mistakes were made in the March figures', which is grammatically perfect and tells the reader nothing. She could write 'A temporary assistant entered two invoices twice', which names a person who was badly trained rather than careless, in a document that will be read by the bank. Or she could write 'Two invoices were entered twice in March; the duplication was found and reversed in April, and the duplicate check is now part of the first-week training.' The third is the longest, and it is the only one that would survive a question. It also names the thing that actually failed, which was a procedure rather than a person, and it tells the reader what has changed since.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What are the facts? — Two invoices were entered twice in March by a new temporary assistant.
+@ITEM 1. Why was the assistant not really the cause?
+@ITEM 2. What is wrong with the first choice?
+@ITEM 3. What does the third choice name instead of a person?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which line should Noor write — (a) 'Mistakes were made in the March figures,' (b) 'A temporary assistant entered two invoices twice,' or (c) 'Two invoices were entered twice in March; the duplication was found and reversed in April, and the duplicate check is now part of the first-week training'? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should write sentence ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should write the third sentence. The first uses the passive to make the error ownerless, and any experienced reader will notice that nobody is in the sentence and wonder what else is missing. The second names a person in a document that goes to the bank, which is unfair and also inaccurate: the assistant did what an untrained person would do, so the failure was in the training, not in her. The third sentence uses the passive for the event, which is correct because the process failed, and then names what has been changed. It tells the reader the error was found, corrected and prevented, which is everything they need.
+@FRAME Phrase bank: two invoices were entered twice · the duplication was found and reversed · the check is now part of the training · the process failed, not the person.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u4-review | What you can do after Unit 4.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct passive form.
+@BANK is entered | was approved | has been filed | will be checked
+@LINE 0. Every invoice is handled the same way. (example)
+@ITEM 1. Every invoice ____________________ on the day it arrives.
+@ITEM 2. The payment ____________________ by Mr Alvarez on Thursday.
+@ITEM 3. The document ____________________ with its reference number.
+@ITEM 4. The total ____________________ again before the quarter closes.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can form the passive with be and the past participle
+I can choose the passive when the action or the process matters most
+I can add 'by …' whenever the reader needs the name
+I can describe a procedure so that an auditor can follow it
+
+@TASK Part 10: Unit 4 glossary
+@GLOSSHEAD Unit 4 glossary
+@GLOSSARY
+the passive = be + the past participle, when the action comes first · past participle = the third form of a verb: entered, checked, approved · procedure = the fixed way a task is always done · audit trail = the line of records showing what was done, when, by whom and on what paper · approve = to say officially that something is correct · authorise = to give somebody the right to do something · reference = a number or code that lets you find a document again · supporting document = a paper that proves a figure, such as a receipt · reversal = an equal and opposite entry that undoes an earlier one · duplicate = a second copy of the same thing, entered by mistake · delivery note = the paper that comes with goods and lists them · evidence = facts that show something is true

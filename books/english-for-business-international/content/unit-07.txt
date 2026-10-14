@@ -1,0 +1,445 @@
+@UNIT 7 | Budgets and Forecasts | Talking about the future · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u7-start | Next year's budget, branch by branch.
+
+@TASK Warm-up: Words About Planning Ahead
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Plan (n) → what you intend to do, and when. (example)
+@MATCH
+Budget
+Forecast
+Estimate (n)
+Target
+Assumption
+@@
+what you plan to earn and spend in a period
+what you expect will actually happen
+a careful guess at a number
+the figure you are aiming at
+something you have taken to be true, without proof
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK budget | forecast | estimate | target
+@LINE 0. The group plans twelve months ahead. (example)
+@ITEM 1. The ____________________ for next year is 4.7 million euros.
+@ITEM 2. Our ____________________ is that sales will grow by twelve per cent.
+@ITEM 3. Can gave a rough ____________________ of the opening costs.
+@ITEM 4. Montréal has a ____________________ of nine hundred covers a week.
+
+@TASK Warm-up: Reading — The Meeting About Next Year
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+Every October the five branch managers send their numbers to Lisbon, and every November Teresa puts them into one sheet and finds that the total is too optimistic. This year was no different. Added together, the branches expected revenue to grow by twenty-six per cent. 'They are not inventing anything,' Teresa told Mr Alvarez. 'Each of them is going to do what they say. The trouble is that all five are assuming a good year at the same time, and in nine years that has happened once.' So she does what she does every November. She takes each assumption out of the sheet and writes it on its own line: the Lisbon terrace will open in May, food costs will rise by about eight per cent, the Montréal restaurant will reach its first full quarter in March. Then she asks one question about each line. Is it a plan, or is it a hope? The budget that goes to the bank in December contains only the plans, and it grows by twelve per cent.
+@LINE 0. The branch managers send their numbers in October. (example)
+@MCQ 1. Why was the first total too optimistic? | The managers were inventing figures | All five assumed a good year at the same time | The sheet was wrong | The bank asked for more
+@MCQ 2. What does Teresa do with each assumption? | Deletes it | Writes it on its own line and questions it | Sends it to the branch | Doubles it
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u7-words | Planning ahead: forecast, budget, estimate, target.
+
+@TASK Part 1: Words for the Future
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Budget → what you plan to earn and spend in a period.
+@MATCH
+Forecast
+Assumption
+Variance
+Cash flow
+Seasonal
+Revise (v)
+Conservative
+@@
+what you expect will actually happen
+something taken to be true, without proof
+the difference between the plan and what happened
+the movement of money into and out of a business
+changing with the time of year
+to change a figure after new information arrives
+careful; deliberately not optimistic
+a plan for next year
+@GLOSS variance = the difference between the plan and what actually happened · conservative = careful; deliberately not optimistic
+
+@TASK Part 1: Pronunciation
+@AUDIO 7.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+forecast | FORE-cast
+assumption | a-SUMP-tion
+variance | VA-ri-ance
+seasonal | SEA-so-nal
+realistic | re-a-LIS-tic
+revision | re-VI-sion
+
+@TASK Part 1: Future Forms — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. opens → a timetable, fixed by somebody else. (example)
+@MATCH
+will rise
+is going to rise
+is opening
+will probably rise
+is due to open
+@@
+a prediction, or a decision made as you speak
+a plan already made, or evidence you can see now
+a fixed arrangement, with a date and people who know
+a prediction you are not certain about
+something arranged by a timetable or a contract
+something that happened last year
+@GLOSS due to = arranged by a timetable or a contract · prediction = what you expect will happen
+
+@TASK Part 1: Budgets and Forecasts — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. A budget is a plan; a forecast is an expectation. (example)
+@MCQ 1. What is an 'assumption'? | A finished figure | Something taken to be true without proof | A kind of invoice | A bank statement
+@MCQ 2. What is a 'variance'? | The difference between the plan and what happened | A tax | A discount | A supplier
+@MCQ 3. Which word means 'deliberately not optimistic'? | seasonal | conservative | material | approximate
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK assumption | variance | cash flow | seasonal
+@LINE 0. Every forecast rests on something. (example)
+@ITEM 1. The biggest ____________________ is that food costs will rise by eight per cent.
+@ITEM 2. The ____________________ between the plan and the result was four per cent.
+@ITEM 3. December is strong, so the ____________________ improves in January.
+@ITEM 4. Restaurant revenue is ____________________ in every one of our cities.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence about a plan you have already made, and one prediction you are not certain about.
+@PLAN I am going to ______ next month. I think ______ will probably ______ .
+@LINE Then swap your two sentences with a partner, and check together that a plan and a prediction are not written the same way.
+
+@BANNER Part 2 · Grammar — Talking About the Future
+@TRACK [OP] Accounts track · grammar focus
+@FIG u7-grammar | Will, going to and the present continuous.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at three ways of talking about the future, because business English uses all three in the same paragraph. We use 'will' for a prediction and for a decision made at the moment of speaking: 'Costs will rise in June.' 'Fine — I will send you the figures tonight.' We use 'going to' for a plan already made, and for a prediction based on evidence you can see now: 'We are going to open a terrace in May.' 'Look at these quotes — prices are going to rise.' We use the present continuous for a fixed arrangement, with a date, a place and other people who know about it: 'We are presenting the budget on Thursday at ten.' A forecast usually takes 'will' or 'going to'; a budget meeting takes the present continuous, because somebody has already put it in a diary.
+@RUBRIC Look at your teacher's copy. Which sentences are plans, which are predictions, and which are arrangements? Find one 'going to' that rests on evidence.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+will | Costs will rise in June. | a prediction, or a decision made now
+going to | We are going to open a terrace. | a plan already made, or evidence you can see
+present continuous | We are presenting the budget on Thursday. | a fixed arrangement, with a date
+hedging | Costs will probably rise by about 8%. | how certain you are, and by how much
+@REMEMBER Use 'will' for predictions and decisions made as you speak, 'going to' for plans already made and for evidence in front of you, and the present continuous for fixed arrangements. Say how certain you are.
+@WATCH Watch out: do not use 'will' after 'if', 'when' or 'as soon as' — say 'when the figures arrive, we will revise it'.
+@GLOSS hedging = saying how certain you are · evidence = facts you can see now that point to what will happen
+
+@TASK Part 2: Controlled Practice — Will, Going To or Present Continuous?
+@RUBRIC Complete each sentence with the best future form.
+@LINE 0. We are presenting (present) the budget on Thursday at ten. (example)
+@ITEM 1. We ____________________ (open) a terrace in Lisbon in May — the contract is signed.
+@ITEM 2. I think food costs ____________________ (rise) by about eight per cent.
+@ITEM 3. Look at these three quotes: prices ____________________ (go up).
+@ITEM 4. The branch managers ____________________ (send) their numbers on 14 October.
+
+@TASK Part 2: Saying How Certain You Are
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. Revenue ______ (probably / grow) by about twelve per cent.
+@ITEM 2. Montréal ______ (may / reach) its first full quarter in March.
+@ITEM 3. When the October figures ______ (arrive), we ______ (revise) the forecast.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. When the figures will arrive, we will revise the forecast.
+@ITEM 2. We will open a terrace in May; the contract is already signed.
+@ITEM 3. We are going to present the budget on Thursday at ten — it is in the diary.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say one plan you have already made, one prediction, and one fixed arrangement.
+@LINE I am going to ______ , because ______ .
+@LINE I think ______ will probably ______ . On ______ , I am ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. The contract is signed, so we ______ a terrace in May. | will open | are going to open | open | would open
+@MCQ 2. When the October figures ______ , we will revise the forecast. | will arrive | arrive | are arriving | arrived
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u7-listen | The budget meeting: an optimistic figure and a realistic one.
+
+@TASK Part 3: Teresa Explains a Budget and a Forecast
+@AUDIO 7.2
+@LINE Before you listen: what is the difference between a budget and a forecast?
+@BODY
+Teresa: People use these two words as though they meant the same thing, and they do not. A budget is a plan: it is what we intend to earn and spend, it is agreed once, and we measure ourselves against it all year. A forecast is an expectation: it is what we now think will actually happen, and we revise it whenever something changes. The budget stays still so that it can be a ruler. The forecast moves so that it can be useful. Both of them rest on assumptions, and the assumptions are the part that matters. If I write that revenue will grow by twelve per cent, that figure is worth nothing on its own. If I write that it will grow by twelve per cent because the Lisbon terrace is opening in May and because covers in Montréal are rising by four a week, then you can argue with me, and you should. The number is my opinion. The assumptions are what you can check.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. A budget is a plan; a forecast is an expectation. — T
+@ITEM 1. The budget is revised whenever something changes. ____
+@ITEM 2. The forecast moves so that it can stay useful. ____
+@ITEM 3. A growth figure is worth little without its assumptions. ____
+@ITEM 4. Assumptions are the part a reader can check. ____
+@LINE Useful phrases: the budget is a plan · the forecast is what we now expect · it rests on three assumptions.
+
+@TASK Part 3: Is That Forecast Realistic?
+@AUDIO 7.3
+@LINE Before you listen: how would you tell an owner that his figure is too high?
+@BODY
+Mr Alvarez: Sales are going to double next year. I can feel it. Teresa: They are going to grow. They are not going to double. Mr Alvarez: You always say that. Teresa: I always say it in November, and in March you always agree with me. Here is what I will put in the budget: twelve per cent. Mr Alvarez: Twelve? Teresa: Twelve, and I will show you how I reached it. The terrace is opening in May, which is worth about four. Montréal will have four full quarters instead of two, which is worth about six. Prices are rising by two. Mr Alvarez: And if the terrace is late? Teresa: Then I will revise it in June, and you will hear it from me before you hear it from the bank. Mr Alvarez: Twelve, then. Put it in writing.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What does Mr Alvarez expect? — That sales are going to double next year.
+@ITEM 1. What figure will Teresa put in the budget, and what are its three parts?
+@ITEM 2. What will Teresa do if the terrace opens late?
+@ITEM 3. Why does she say he always agrees with her in March?
+@LINE Useful phrases: they are going to grow, not double · it is worth about four · I will revise it in June.
+
+@TASK Part 3: The Cash Plan for the Winter
+@AUDIO 7.4
+@LINE Before you listen: why can a profitable restaurant still run out of cash?
+@BODY
+Daniel: Teresa, Montréal is going to be busy in December and very quiet in January. Teresa: It is, and that is the question I want you to answer before November ends. A restaurant can be profitable over a year and still be unable to pay its suppliers in a particular week. Daniel: Because the money comes in later than it goes out? Teresa: Exactly. December is comfortable, because the guests pay in the same month. But the January rent is due on the second, and January is the quietest week of the year. Daniel: So we are going to keep part of the December takings back. Teresa: We are going to hold six weeks of fixed costs in euro, in the group account, from the first of December. I am writing it into the plan this week. Daniel: And if January is better than we expect? Teresa: Then we will have a quiet, boring, unnecessary reserve, and I will be delighted.
+@RUBRIC While you listen: match each month with what is planned. One item is not needed. (0. is done.) Write the letter.
+@LINE 0. December → the busiest month in Montréal.
+@MATCH
+January
+the first of December
+this week
+six weeks of fixed costs
+@@
+the quietest month, with the rent due on the second
+the day the reserve starts to be held back
+when Teresa is writing the plan
+the size of the reserve, held in euro
+the month the terrace opens
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u7-speak | Role play: presenting a forecast (Card A and Card B).
+
+@TASK Part 4: Talking About Next Year
+@RUBRIC Work with a partner. Ask and answer these questions. Use all three future forms.
+@LINE What are you going to do differently next year, and why?
+@LINE What do you think will happen to prices where you live?
+@LINE What is already fixed in your diary for next month?
+@LINE Why should a forecast always come with its assumptions?
+@FRAME Useful language: we are going to… · I think… will probably… · on Thursday we are… · it rests on three assumptions.
+
+@TASK Part 4: Presenting a Forecast — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: What will revenue do next year? — B: It will grow by about twelve per cent. — A: On what? — B: Three assumptions: the terrace opens in May, Montréal has four full quarters, and prices rise by two per cent.
+@FRAME Useful language: it will grow by about… · it rests on… · if that changes, I will revise it in…
+@FRAME Card A — Owner: ask what the numbers will be next year · ask what could go wrong.
+@FRAME Card B — Controller: give a realistic forecast · say what it rests on, and when you will revise it.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Present a forecast for your work or your studies. Give the figure, the assumptions and the date you will revise it.
+@PLAN I expect… by about… This rests on… If… changes, I will revise it in…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u7-read | An optimistic forecast and a realistic one, side by side.
+
+@TASK Part 5: Why Forecasts Are Too High
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Forecasts in almost every business are too high, and the reason is not dishonesty. It is arithmetic done by hopeful people. Each manager builds a number from the things they can see, and the things they can see are their own plans: a terrace that is opening, a menu that is improving, a team that is finally complete. What they cannot see is the ordinary bad luck that arrives every year and is never in anybody's plan — a supplier that fails in February, a street that is closed for repairs in July, a quiet autumn that nobody predicted. When five managers in five countries each build an optimistic number, the group total is not five times as reliable; it is five times as optimistic. The remedy is not to argue about the total, which only makes people defend it. The remedy is to take the assumptions out of the sheet and write each one on its own line, with a number beside it and a date. Then the conversation changes. Instead of 'twenty-six per cent is too high', which is an opinion against an opinion, the meeting can ask whether the terrace really will open in May, and what happens to the figure if it opens in July. That question has an answer, and the answer is a smaller, better number that everybody in the room has agreed to.
+@LINE 0. Forecasts are usually too high. (example)
+@MCQ 1. Why are forecasts too high? | Managers are dishonest | Managers can see their own plans but not ordinary bad luck | The arithmetic is wrong | The bank asks for it
+@MCQ 2. What happens when five optimistic numbers are added together? | They become more reliable | They become five times as optimistic | They cancel each other out | They stay the same
+@MCQ 3. What is the remedy? | Argue about the total | Write each assumption on its own line, with a number and a date | Halve every figure | Ask the bank
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. hopeful → expecting good things to happen. (example)
+@MATCH
+reliable
+remedy
+ordinary
+defend (v)
+predicted
+@@
+able to be trusted, because it is usually right
+a way of putting something right
+usual; the kind of thing that happens often
+to argue in support of something
+said in advance that something would happen
+a written offer of a price
+@GLOSS reliable = able to be trusted, because it is usually right · remedy = a way of putting something right
+
+@TASK Part 5: What a Good Forecast Note Contains
+@RUBRIC Read about forecast notes. Then mark each sentence True (T) or False (F).
+@BODY
+A forecast note is one page, and it has four parts. First comes the figure, with the period and the currency: revenue of 4.7 million euros for next year. Second come the assumptions, each on its own line, each with a number and a date, because these are the only parts a reader can argue with. Third comes the risk: what would change the figure, in which direction, and by roughly how much. Fourth comes the revision date, which is the promise that the writer will come back. A note without a revision date is not a forecast; it is a hope that has been typed. The best forecasters in a group are rarely the most accurate ones. They are the ones whose assumptions are written plainly enough that somebody else can see, early, which one has stopped being true. A forecast that is wrong for a reason you can name is worth more than one that is right by accident, because only the first teaches the office anything it can use next year.
+@LINE 0. A forecast note has four parts. → T (example)
+@ITEM 1. Each assumption carries a number and a date. ____
+@ITEM 2. The risk section says what could change the figure. ____
+@ITEM 3. A revision date is optional. ____
+@ITEM 4. The best forecasters are always the most accurate. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u7-write | Writing a forecast note: the figure, the basis, the risk, the review.
+
+@TASK Part 6: A Forecast Note (70–130 words)
+@RUBRIC Write a short forecast note. Give the figure, its assumptions, the risk and a revision date.
+@MODEL
+Forecast for next year: group revenue of 4.7 million euros, which is about twelve per cent above this year. The figure rests on three assumptions. The Lisbon terrace will open in May, which is worth about four per cent. Montréal will trade for four full quarters instead of two, which is worth about six. Menu prices will rise by two per cent in March. The main risk is the terrace: if the permission is late, the opening will move to July and the figure will fall by about two per cent. I will revise this forecast when the June figures arrive, and sooner if the permission is refused.
+@PLAN The figure is… It rests on… The main risk is… I will revise it when…
+@CHECK every assumption on its own line? | a revision date given? | 70–130 words?
+
+@TASK Part 6: A Budget Explanation (70–130 words)
+@RUBRIC Explain a budget to somebody who did not build it. Use the future forms correctly.
+@MODEL
+This is the budget we are going to work to next year, and it will not change during the year, because it is our ruler. Revenue is set at 4.7 million euros and food cost at 1.6 million, a higher proportion than this year: we are assuming prices will rise faster than our menu. Staff costs are set eight per cent above this year, because we are opening the terrace and will need four more people from April. If we miss the budget, the variance will tell us exactly where.
+@CHECK the three future forms used correctly? | the plan distinguished from the expectation? | 70–130 words?
+
+@TASK Part 6: What Could Go Wrong (70–120 words)
+@RUBRIC Write about the risks in a plan. Say what would change, in which direction, and by how much.
+@MODEL
+Three things could move next year's figure, and all of them are visible now. If the terrace permission is refused, the May opening will move to July and revenue will fall by about two per cent. If food prices rise by twelve rather than eight per cent, the margin will fall by roughly one and a half points, and we will have to re-price the menu in the summer rather than in March. If the Montréal winter is as quiet as last year's, January cash will be tight, although the reserve will cover it. None of these is a reason to lower the budget today. All three are reasons to revise it in June.
+@PLAN If ______ , then ______ will ______ by about ______ .
+@CHECK each risk measured? | the direction given? | 70–120 words?
+
+@TASK Part 6: A Message About a Change (70–120 words)
+@RUBRIC Write a short message telling a colleague that a plan has changed. Use the present continuous and will.
+@MODEL
+A short note about the terrace. The permission arrived yesterday, two weeks earlier than we expected, so we are opening on the twelfth of May rather than the first of June. The builders are starting on Monday and the furniture is arriving on the fourth. This means the May revenue will be about nine thousand euros higher than the budget, and the opening costs will fall into April instead of May. I am revising the forecast this week and I will send it on Friday. Nothing else in the plan changes. Please tell the kitchen that the first terrace service is on the twelfth.
+@CHECK present continuous for the arrangements? | will for the results? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · a realistic forecast
+@FIG u7-ra | What the branch expects next quarter, evening by evening.
+
+@TASK 7A: Phrase Bank — Forecasting a Restaurant
+@RUBRIC Match each term with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Covers → the number of guests served in a period. (example)
+@MATCH
+Average spend
+Peak
+Quiet period
+Booking
+No-show
+@@
+what one guest pays, on average
+the busiest time, when every table is used
+a time of year when few guests come
+a table reserved in advance
+a guest who books a table and never arrives
+a written offer of a price
+
+@TASK 7B: Counting Forwards, Not Backwards
+@AUDIO 7.5
+@LINE Before you listen: how would you forecast next month's revenue for a restaurant?
+@BODY
+Clara: Teresa, how do I forecast a month? I usually look at last year and add something. Teresa: That is backwards, and it hides everything. Build it forwards from two numbers you already know. Clara: Covers and average spend? Teresa: Covers and average spend. How many guests will sit down, and what will each of them pay? Multiply, and you have a revenue figure you can defend line by line. Clara: December is easy — we are full every evening. Teresa: Then say so: twenty-six evenings at a hundred and forty-eight covers. January is the one that needs thought. Clara: About eighty-eight covers, I think, and the average spend falls as well. Teresa: Write both numbers down, and write why. When January comes, you will find out which of the two you were wrong about, and next year you will be wrong by less. Clara: And if I only wrote the revenue? Teresa: Then you would learn nothing at all.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What does Clara usually do? — She looks at last year and adds something.
+@ITEM 1. Which two numbers does Teresa build a forecast from?
+@ITEM 2. What does Clara expect in December, and in January?
+@ITEM 3. Why is it better to write both numbers rather than only the revenue?
+
+@TASK 7C: Controlled Practice — Building a Forecast
+@RUBRIC Put the steps of building a monthly forecast in order. Number them 1–5. (0. is done.)
+@LINE 0. Count the trading evenings in the month. — 1
+@ITEM ___ Estimate the covers for an average evening.
+@ITEM ___ Estimate the average spend per guest.
+@ITEM ___ Multiply the three figures to reach the revenue.
+@ITEM ___ Write down why each estimate is what it is.
+
+@TASK 7D: Role-Play — The Quarter Ahead
+@RUBRIC In pairs. One is the controller; one is the restaurant manager. Use the model and cards.
+@FRAME Model: Controller: What are you expecting for January? — Manager: About eighty-eight covers an evening, and the average spend will fall to thirty-one euros. — Controller: Why will it fall? — Manager: Fewer tables of four, and almost no wine at lunch.
+@FRAME Card A — Controller: ask what the branch expects next quarter · ask why each figure is what it is.
+@FRAME Card B — Manager: give covers and average spend for each month · say what you are going to change.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short forecast for the coming quarter, with your reasons.
+@MODEL
+Forecast for the coming quarter. In October I am expecting about ninety-six covers an evening, which is close to last October. November will be slightly better, at about a hundred and four, because the conference season begins. December will be our strongest month: we are already taking bookings for twenty-two of the twenty-six evenings, and I expect about a hundred and forty-eight covers an evening. January will be the quietest, at about eighty-eight, and the average spend will fall as well, because there are fewer large tables and very little wine at lunch. I am going to close for two days in January to repaint the dining room.
+@CHECK covers and average spend given? | reasons for each month? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u7-consol | The budget table: revenue up twelve per cent, profit up one.
+
+@TASK Part 8: Reading — The Year the Budget Was Right
+@LINE Before you read: why might a budget that is exactly right be a worry rather than a comfort?
+@BODY
+Two years ago the group hit its budget almost exactly: revenue was within a tenth of a per cent of the figure Teresa had written the previous November. Mr Alvarez was delighted, and at the December meeting he said so twice. Teresa was less comfortable, and she explained why. Over a year, in five countries, with five currencies and a thousand suppliers, a result that lands exactly on the plan is not usually a sign of good forecasting. It is usually a sign that somebody has been managing the result instead of managing the business: holding an invoice back for a week, bringing a delivery forward, moving a repair into January. None of that is fraud, and all of it is corrosive, because once the figure matters more than the facts, the facts start to move. She asked for one thing: the list of invoices received in the last week of December and entered in January. There were four, all small, all explainable. She published the list anyway, with a short note saying why she had looked. The following year nobody held anything back, the group missed the budget by two per cent, and Teresa called it the healthiest result in nine years.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What happened two years ago? — The group hit its budget almost exactly.
+@ITEM 1. Why was Teresa less comfortable than Mr Alvarez?
+@ITEM 2. What did she ask for, and what did she find?
+@ITEM 3. Why did she call the following year's result the healthiest in nine years?
+@GLOSS corrosive = slowly damaging, without being obvious · fraud = deliberately making a record false in order to gain
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. budget → what you plan to earn and spend in a period. (example)
+@MATCH
+corrosive
+explainable
+publish (v)
+hold back
+healthy
+@@
+slowly damaging, without being obvious
+able to be accounted for with a reason
+to make something available for others to read
+to delay something on purpose
+in good condition; working as it should
+a period of three months
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think a budget is useful when…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why can hitting a budget exactly be a warning sign?
+@LINE Is delaying an invoice by a week the same as falsifying a record? Say why.
+@LINE What would you measure to see whether a team was managing the business or the figure?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u7-decide | A decision between the forecast that pleases and the forecast that holds.
+
+@TASK Part 9: Which Forecast Goes to the Bank?
+@LINE Before you read: what does a bank actually want from a forecast?
+@BODY
+The group needs a loan for the Montréal kitchen, and the bank has asked for a three-year forecast by Friday. Teresa has three versions on her desk. The first is the one the branch managers sent in October, which shows revenue growing by twenty-six per cent next year; it is the most attractive document and it would almost certainly get the loan. The second is a very cautious version she wrote in an hour, showing growth of four per cent, which would probably not get the loan and would be easy to beat. The third is the budget the board has actually approved: twelve per cent, with the three assumptions named, the risks measured and a revision date in June. Mr Alvarez has pointed out, reasonably, that the bank will compare the group with other applicants, and that twenty-six per cent is what other applicants will be showing. Teresa has pointed out, equally reasonably, that the bank will still be reading these pages in three years' time, and that the group will have to explain every one of them.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What has the bank asked for? — A three-year forecast, by Friday.
+@ITEM 1. What are the three versions, and what growth does each show?
+@ITEM 2. What is Mr Alvarez's argument?
+@ITEM 3. What is Teresa's argument?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which forecast should go to the bank — (a) the optimistic twenty-six per cent, (b) the cautious four per cent, or (c) the approved twelve per cent, with its assumptions and risks? Choose one and give your reasons.
+@FRAME Answer frame: 'I think the group should send ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think the group should send the third version. The first would win the loan and then lose the relationship, because for three years the group would be explaining why it was behind a figure it never believed. The second is dishonest in the other direction: a number chosen to be beaten is not a forecast, and a bank that notices will trust nothing else in the file. The third is the only one the group has agreed to, and the only one that can be defended line by line. If twelve per cent is not enough for this bank, the answer is a different bank, not a different number.
+@FRAME Phrase bank: it would win the loan and lose the relationship · a number chosen to be beaten · defended line by line · a different bank, not a different number.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u7-review | What you can do after Unit 7.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct future form.
+@BANK are going to open | will rise | are presenting | arrive
+@LINE 0. The group plans twelve months ahead. (example)
+@ITEM 1. The contract is signed, so we ____________________ a terrace in May.
+@ITEM 2. I think food costs ____________________ by about eight per cent.
+@ITEM 3. We ____________________ the budget on Thursday at ten.
+@ITEM 4. When the October figures ____________________ , we will revise the forecast.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use will, going to and the present continuous for the future
+I can present a budget and a forecast, and say which is which
+I can name the assumptions a forecast rests on
+I can describe what could change a figure, and by how much
+
+@TASK Part 10: Unit 7 glossary
+@GLOSSHEAD Unit 7 glossary
+@GLOSSARY
+budget = what you plan to earn and spend in a period · forecast = what you expect will actually happen · estimate = a careful guess at a number · target = the figure you are aiming at · assumption = something taken to be true, without proof · variance = the difference between the plan and what happened · cash flow = the movement of money into and out of a business · seasonal = changing with the time of year · conservative = careful; deliberately not optimistic · revise = to change a figure after new information arrives · covers = the number of guests served in a period · average spend = what one guest pays, on average · hedging = saying how certain you are

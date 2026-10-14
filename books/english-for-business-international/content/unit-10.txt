@@ -1,0 +1,458 @@
+@UNIT 10 | If We Were Bigger — Planning and Risk | Second conditional and wish · End of Course · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u10-start | Imagining, wishing, and advising.
+
+@TASK Warm-up: Words About Growth and Risk
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Growth → an increase in the size of a business. (example)
+@MATCH
+Invest
+Risk
+Reserve (n)
+Investor
+Expand
+@@
+to put money in, hoping it will grow
+the chance that something goes wrong
+money kept back in case it is needed
+a person or company that puts money into a business
+to make a business larger
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK invest | risk | reserve | expand
+@LINE 0. Mr Alvarez has been asked a difficult question. (example)
+@ITEM 1. An investor would like to ____________________ in the group.
+@ITEM 2. The money would let Blue Door ____________________ into two more cities.
+@ITEM 3. The biggest ____________________ is growing faster than the cash allows.
+@ITEM 4. We hold six weeks of fixed costs as a ____________________ .
+
+@TASK Warm-up: Reading — If We Were Bigger
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+An investor wrote to Mr Alvarez in September, offering enough money to open two more restaurants. The letter has been on Teresa's desk for three weeks, and the conversation in the office has been the same every day since. If the group were bigger, it would buy better, because five restaurants order less than seven. If it were bigger, it would also be slower, because every decision would pass through more hands. Clara says that if she had a second kitchen she would run the terrace properly at last. Daniel wishes the group had more cash in January, every year, and says so every January. Can wishes the five tax calendars were one calendar. These are not idle sentences; they are the way a business thinks before it decides. Teresa writes each of them on the board in the same form: if this were true, that would follow. The board fills quickly, because everybody has a version, and most of the versions are reasonable. Then she rubs out the ones that are only wishes and asks the question that matters about the rest. Which of these would still be true in a bad year? That question has emptied the board twice already, and both times what remained was worth doing.
+@LINE 0. An investor wrote in September. (example)
+@MCQ 1. What would the group gain if it were bigger? | Better buying | Faster decisions | Fewer branches | Lower rent
+@MCQ 2. What question does Teresa ask about each sentence? | Who said it? | Which would still be true in a bad year? | How much does it cost? | When did it happen?
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u10-words | Imagining and planning: imagine, invest, risk, wish.
+
+@TASK Part 1: Words for Imagining
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Imagine → to picture something that is not real.
+@MATCH
+Scenario
+Reserve (n)
+Exposure
+Return (n)
+Dilute (v)
+Prudent
+Sustainable
+@@
+one possible version of the future
+money kept back in case it is needed
+how much a business could lose if something went wrong
+what an investor earns on the money they put in
+to make each existing share smaller by issuing more
+careful and sensible with money
+able to be continued without running out
+a plan for next year
+@GLOSS exposure = how much a business could lose if something went wrong · prudent = careful and sensible with money
+
+@TASK Part 1: Pronunciation
+@AUDIO 10.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+investor | in-VES-tor
+scenario | sce-NA-rio
+sustainable | sus-TAI-na-ble
+exposure | ex-PO-sure
+prudent | PRU-dent
+dilute | di-LUTE
+
+@TASK Part 1: Imagining — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. If it rains, we will close the terrace. → a real possibility. (example)
+@MATCH
+If we opened a sixth, we would need a loan.
+I wish we had more cash.
+If I were you, I would wait.
+If we were bigger, we would buy better.
+I wish the five calendars were one.
+@@
+an imaginary situation, and its imaginary result
+a regret about the way things are now
+advice, given from the other person's position
+an imagined condition that is not true today
+a wish about a situation you cannot change
+something that happened last year
+@GLOSS second conditional = if + past, would + verb, for an imagined situation · wish + past = a regret about now
+
+@TASK Part 1: Growth and Risk — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. A scenario is one possible version of the future. (example)
+@MCQ 1. What does 'exposure' mean? | How much you could lose | How much you earn | How many branches you have | How long you wait
+@MCQ 2. Which sentence is a regret about now? | If we open a sixth, we will need a loan | I wish we had more cash | We opened in 2016 | We are opening in May
+@MCQ 3. What does 'prudent' mean? | Fast | Careful and sensible with money | Expensive | Optimistic
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK scenario | exposure | return | sustainable
+@LINE 0. Growth has to be paid for. (example)
+@ITEM 1. In the worst ____________________ , two branches lose a quarter of their covers.
+@ITEM 2. Our ____________________ to one currency is larger than it looks.
+@ITEM 3. The investor expects a ____________________ of about twelve per cent.
+@ITEM 4. Growth is only ____________________ if the cash lasts through January.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one imaginary sentence about your work, and one wish about now.
+@PLAN If I had ______ , I would ______ . I wish I ______ .
+@LINE Then swap your two sentences with a partner, and check together that both use a past form with a present meaning.
+
+@BANNER Part 2 · Grammar — Second Conditional and Wish
+@TRACK [OP] Accounts track · grammar focus
+@FIG u10-grammar | The second conditional, and wish for a regret about now.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at a pattern that looks like the past and means the present. The second conditional describes an imaginary situation now or in the future, and its imaginary result: 'If we opened a sixth restaurant, we would need a loan.' The 'if' half takes a past form, and the result half takes 'would'. Nothing in the sentence is about the past at all. We use the same pattern for 'wish', which expresses a regret about the way things are: 'I wish we had more cash' means we do not have it. 'I wish the five calendars were one' means they are five. With the verb 'to be', careful written English uses 'were' for all persons: 'if I were you', 'if it were cheaper'. That phrase, 'if I were you', is how English gives advice from inside the other person's position, and it is gentler than 'you should'.
+@RUBRIC Look at your teacher's copy. Which sentences are imaginary, and which are real possibilities? Find one wish, and say what is actually true.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+second conditional | If we opened a sixth, we would need a loan. | imaginary now or in the future
+wish + past | I wish we had more cash. | a regret: we do not have it
+if I were you | If I were you, I would wait a year. | advice, from the other person's position
+first vs second | If we open a sixth, we will need a loan. | real possibility vs imagined one
+@REMEMBER The second conditional uses a past form with a present meaning: if + past, would + verb. 'Wish' works the same way. Use 'were' for all persons with the verb 'to be' in careful writing.
+@WATCH Watch out: never use 'would' in the 'if' half — say 'if we opened', not 'if we would open'.
+@GLOSS imaginary = not real, but thought about · regret = a feeling that you wish something were different
+
+@TASK Part 2: Controlled Practice — The Second Conditional
+@RUBRIC Complete each sentence with the second conditional.
+@LINE 0. If we opened (open) a sixth restaurant, we would need (need) a loan. (example)
+@ITEM 1. If the group ____________________ (be) bigger, it ____________________ (buy) better.
+@ITEM 2. If Clara ____________________ (have) a second kitchen, she ____________________ (run) the terrace properly.
+@ITEM 3. If we ____________________ (lose) a lease, we ____________________ (need) three months' rent.
+@ITEM 4. If I ____________________ (be) you, I ____________________ (wait) a year.
+
+@TASK Part 2: Wish and Advice
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. I wish we ______ (have) more cash in January.
+@ITEM 2. Can wishes the five tax calendars ______ (be) one calendar.
+@ITEM 3. If I ______ (be) you, I ______ (ask) what the investor wants in return.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. If we would open a sixth restaurant, we would need a loan.
+@ITEM 2. I wish we have more cash in January.
+@ITEM 3. If I was you, I would ask for the terms in writing.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say what you would do if your business or your studies were twice as large, and one thing you wish were different now.
+@LINE If ______ were twice as large, I would ______ .
+@LINE I wish ______ . If I were you, I would ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. If the group ______ bigger, it would buy better. | is | were | will be | would be
+@MCQ 2. I wish we ______ more cash in January. | have | had | will have | would have
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u10-listen | Dreaming of a sixth restaurant, and counting what it would cost.
+
+@TASK Part 3: Teresa Explains Imaginary Situations
+@AUDIO 10.2
+@LINE Before you listen: why does a business need a grammar for things that are not true?
+@BODY
+Teresa: This is the last piece of grammar in the course, and it is the one a finance office uses most in a planning meeting. The second conditional describes something that is not true, and what would follow if it were. If we opened a sixth restaurant, we would need a loan of about four hundred thousand euros. Nothing in that sentence has happened; it is a measurement of an idea. Notice the shape: a past form after 'if', and 'would' in the result. We use the same shape for regrets. I wish we had more cash in January means that we do not. I wish the five tax calendars were one means that they are five and will stay five. And there is one phrase I want you to take away from this whole course: if I were you. It is how English gives advice from inside somebody else's position, and it is far gentler than 'you should'. In a group with five countries and five ways of being right, gentler is usually faster.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. The second conditional describes something that is not true. — T
+@ITEM 1. The 'if' half of a second conditional takes a past form. ____
+@ITEM 2. 'I wish we had more cash' means that we have enough. ____
+@ITEM 3. 'If I were you' gives advice from the other person's position. ____
+@ITEM 4. The second conditional is about the past. ____
+@LINE Useful phrases: if we opened… , we would need… · I wish we had… · if I were you, I would…
+
+@TASK Part 3: If We Opened a Sixth
+@AUDIO 10.3
+@LINE Before you listen: what would a sixth restaurant actually cost a group of five?
+@BODY
+Clara: If we opened a sixth restaurant, where would you put it? Teresa: Somewhere we already know. If I were choosing, I would open a second one in a city where we have a kitchen already, rather than a first one in a city where we have nobody. Clara: Because of the cost? Teresa: Because of the people. The money is the easy part. If we opened in a new country, we would need a sixth tax calendar, a sixth bank, a sixth payroll and somebody who knows all three. Clara: And in a city we know? Teresa: Then the hardest part is a lease, and we have done leases before. Clara: I wish we had the cash to do both. Teresa: So do I, every January. But if we did both, we would be borrowing to pay for optimism, and I would rather borrow to pay for a kitchen.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. Where would Teresa open a sixth restaurant? — Somewhere the group already knows.
+@ITEM 1. What four things would a new country require?
+@ITEM 2. What is the hardest part in a city the group already knows?
+@ITEM 3. What does Teresa say she would rather borrow for?
+@LINE Useful phrases: if we opened… , we would need… · if I were choosing, I would… · I wish we had…
+
+@TASK Part 3: Everyone's Wish
+@AUDIO 10.4
+@LINE Before you listen: what would each person in an accounts office wish for?
+@BODY
+Teresa: It is the last meeting of the year, so I am going to ask each of you for one wish. Daniel? Daniel: I wish we had more cash in January. Every year I say it, and every year you tell me that is what the reserve is for. Teresa: And every year you are still right to say it. Mei? Mei: I wish the card machines in all five branches were the same machine. If they were, I could train anybody in an hour. Teresa: Can? Can: I wish the five tax calendars were one calendar. If they were, I would sleep in February. Teresa: Clara? Clara: I wish the terrace had opened in May instead of July. Teresa: That one is a regret about the past, which is a different grammar and a longer conversation. Keep it for next year's course.
+@RUBRIC While you listen: match each person with their wish. One wish is not needed. (0. is done.) Write the letter.
+@LINE 0. Teresa → asks each person for one wish.
+@MATCH
+Daniel
+Mei
+Can
+Clara
+@@
+wishes the group had more cash in January
+wishes the card machines were all the same
+wishes the five tax calendars were one
+wishes the terrace had opened in May
+wishes the group were smaller
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u10-speak | Role play: the big idea (Card A and Card B).
+
+@TASK Part 4: Imagining and Wishing
+@RUBRIC Work with a partner. Ask and answer these questions. Use the second conditional and wish.
+@LINE If your business or your school were twice as large, what would change first?
+@LINE What do you wish were different about the way you work now?
+@LINE If you had six months and no other work, what would you build?
+@LINE What advice would you give a friend who wanted to grow a business quickly?
+@FRAME Useful language: if we were bigger, we would… · I wish… · if I were you, I would… · the first thing that would change is…
+
+@TASK Part 4: The Big Idea — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: If we opened a sixth restaurant, what would it cost? — B: About four hundred thousand, and a sixth tax calendar. — A: I wish we had the cash. — B: If I were you, I would open where we already have a kitchen.
+@FRAME Useful language: if we opened… , we would… · I wish we had… · if I were you, I would… · what would it cost?
+@FRAME Card A — Dreamer: say what you would do if the group were bigger · say what you wish you had now.
+@FRAME Card B — Controller: ask what it would cost · give advice with 'If I were you…'.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe one change you would make if you had the money and the time, what it would cost, and what could go wrong.
+@PLAN If I had… , I would… It would cost about… The risk would be… If I were advising somebody else, I would say…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u10-read | Four things an accountant asks before a business grows.
+
+@TASK Part 5: Growing a Business, Carefully
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Businesses rarely fail because they are unprofitable. They fail because they run out of cash while they are growing, which is a different and much crueller thing. A new restaurant costs its money at the beginning — the lease, the kitchen, the staff who must be paid for two months before a guest sits down — and it earns it back slowly over years. If a group opened two restaurants at once, it would pay both of those costs in the same quarter and earn neither of them back for two years. The profit and loss account might look respectable throughout; the bank account would not. That is why an accountant asks four questions before any expansion. Could we survive a bad quarter immediately after opening? How much of our cash would be committed, and for how long? Who would run it, and what would they stop doing? And what would we do if it did not work — could we close it, and what would that cost? None of these questions is about optimism, and none of them is an argument against growing. They are the difference between a business that grows because it chose to and one that grows until something stops it.
+@LINE 0. Businesses rarely fail because they are unprofitable. (example)
+@MCQ 1. Why do growing businesses fail? | They are unprofitable | They run out of cash while growing | They are too careful | They have too many guests
+@MCQ 2. When does a new restaurant cost its money? | At the beginning | At the end | Evenly over ten years | Only in its second year
+@MCQ 3. What is the fourth question? | Who would run it? | What would we do if it did not work? | How much would we earn? | Where would it be?
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. expansion → making a business larger. (example)
+@MATCH
+unprofitable
+committed
+respectable
+survive
+cruel
+@@
+not making a profit
+promised to something, and not available for anything else
+good enough to be shown to others without embarrassment
+to continue to exist through a difficult period
+causing pain without caring
+a written offer of a price
+@GLOSS committed = promised to something, and not available for anything else · survive = to continue to exist through a difficult period
+
+@TASK Part 5: The Four Questions Before You Grow
+@RUBRIC Read about planning growth. Then mark each sentence True (T) or False (F).
+@BODY
+The four questions have a shape, and the shape is deliberate. The first is about the worst case, not the expected one, because a plan that only survives the expected case is not a plan. The second is about time as much as money: cash committed for three months is a different animal from cash committed for three years. The third is about people, and it is the one that is most often skipped, because every manager believes they can take on one more thing. The fourth asks how the business would get out, and it is the question that frightens people, since nobody wants to begin by describing the end. An honest answer to the fourth is often what makes the first three bearable. A group that knows it could close a branch for ninety thousand euros can take a risk that a group with no idea at all cannot. The number itself is rarely the point. What matters is that somebody has worked it out in advance, calmly, at a desk, rather than at speed in the week when it is needed.
+@LINE 0. The four questions have a deliberate shape. → T (example)
+@ITEM 1. The first question is about the expected case. ____
+@ITEM 2. The second question is about time as well as money. ____
+@ITEM 3. The third question is the one most often skipped. ____
+@ITEM 4. Knowing the cost of closing can make a risk easier to take. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u10-write | A proposal: the idea, the cost, the risk, the ask.
+
+@TASK Part 6: If Our Business Were Bigger (70–140 words)
+@RUBRIC Write about what you would do if your business or your team were larger. Use the second conditional.
+@MODEL
+If Blue Door had seven restaurants instead of five, three things would change. We would buy better, because our orders would be large enough for suppliers to quote properly, and I would expect two or three per cent on food cost. We would be slower, because every decision would pass through more hands, and the things that take an afternoon today would take a week. And we would need one more person in this office, probably in Lisbon, because five sets of books can be closed by four people and seven cannot. If I had to choose one of the three to prepare for now, I would choose the third, because people take longer to find than money.
+@PLAN If we had… , we would… We would also… And we would need… If I had to choose…
+@CHECK second conditional used throughout? | consequences measured? | 70–140 words?
+
+@TASK Part 6: Advice to a Colleague (70–130 words)
+@RUBRIC Give advice to somebody planning something ambitious. Use 'If I were you'.
+@MODEL
+If I were you, I would not open both restaurants in the same year. You would be paying for two kitchens, two leases and two sets of staff in the same quarter, and you would be earning from neither of them for at least eighteen months. If I were you, I would open the first one where you already have a kitchen and a manager, so that the only new thing is the lease. I would keep six months of fixed costs in reserve, and I would not touch it, however good the first autumn looked. And if the first one worked, I would open the second a year later, with the money it had earned rather than the money you borrowed.
+@CHECK 'if I were you' used correctly? | clear, measured advice? | 70–130 words?
+
+@TASK Part 6: My Wishes for the Year (70–120 words)
+@RUBRIC Write about three things you wish were different now. Use 'wish' with a past form.
+@MODEL
+Three wishes for this office, none of them impossible. I wish we had more cash in January; the reserve covers it, but it is the one month when I count twice. I wish the five tax calendars were one calendar, or at least that two of them agreed with each other, because almost every late filing in nine years has come from a date that applied somewhere else. And I wish the card machines in all five branches were the same machine, so that anybody could be trained in an hour instead of a week. Two of those three are within our own control, which is a comfortable discovery.
+@PLAN I wish we had… I wish ______ were… And I wish…
+@CHECK 'wish' used with a past form? | what is actually true made clear? | 70–120 words?
+
+@TASK Part 6: A Message of Thanks (70–120 words)
+@RUBRIC Write a short message thanking a team at the end of a difficult year. Use your own ideas.
+@MODEL
+Thank you, all five of you, for a year that was harder than the plan said it would be. We lost a payment system on a Friday evening and did not lose a single sale. We found two duplicated invoices and reversed them in the open, which is the part I am proudest of. We closed every month, once a working day late and honestly, and never once with a gap. If I had to choose one sentence for next year, it would be the one Can used in February: we do not sign until every difference has been explained. Keep that, and the rest will follow.
+@CHECK a clear reason for the thanks? | one sentence worth keeping? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · the five values · End of Course
+@FIG u10-ra | Five values, one purpose: trust.
+
+@TASK 7A: Phrase Bank — The Five Values
+@RUBRIC Match each value with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Do the right thing. → act honestly, even when it is hard. (example)
+@MATCH
+Be accurate.
+Be honest.
+Keep good records.
+Protect private data.
+Comply with the law.
+@@
+make sure every number is exactly right
+never hide a mistake or a difference
+write everything down, so nothing is lost
+keep confidential information safe
+follow every rule, in every country
+cook the food in the kitchen
+
+@TASK 7B: The Whole Course in One Idea
+@AUDIO 10.5
+@LINE Before you listen: if you had to reduce a whole course to one word, what would it be?
+@BODY
+Clara: Teresa, this has been a long year. If you had to sum the whole of it up in one idea, what would it be? Teresa: That is easy. Everything we have learned comes back to one word: trust. If our records were not honest, nothing else would matter — not the forecasts, not the margins, not the five currencies. Clara: So all the rules serve that one idea? Teresa: All of them. We are accurate, so the numbers are right. We are honest, so we never hide a mistake. We keep good records, so nothing is lost and anybody can follow us. We protect confidential data, so people can tell us things. And we comply with the law in five countries, so the business is still here next year. Clara: Accuracy, honesty, records, confidentiality, compliance. Teresa: Five values, one purpose. If we kept only four of them, the fifth would find us out.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What one word does Teresa choose? — Trust.
+@ITEM 1. What would happen if the records were not honest?
+@ITEM 2. What are the five values, in Clara's words?
+@ITEM 3. What does Teresa say would happen if the group kept only four?
+
+@TASK 7C: Controlled Practice — The Five Values in Action
+@RUBRIC Match each action to the value it serves. Write the value. (0. is done.)
+@LINE 0. Mei counts the change back aloud. — accuracy
+@ITEM ___ Daniel reverses a wrong entry instead of deleting it.
+@ITEM ___ Can refuses to pay against a paper invoice in Istanbul.
+@ITEM ___ Clara will not give one guest another guest's number.
+@ITEM ___ Noor records a difference she cannot yet explain.
+
+@TASK 7D: Role-Play — One Idea
+@RUBRIC In pairs. One asks; one answers. Use the model and cards.
+@FRAME Model: A: If you had to keep only one of the five values, which would you keep? — B: Honesty. If I were accurate but not honest, the numbers would be right and the picture would still be false.
+@FRAME Card A — Interviewer: ask which value matters most · ask what would happen without it.
+@FRAME Card B — Accountant: choose one value · defend it with a second conditional.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note for your team about the five values on the floor.
+@MODEL
+These five words are on the office wall, and all five of them live on the floor as much as in the accounts. Be accurate: count the change back, every time. Be honest: if the drawer is short, write that it is short. Keep good records: a dish that is cancelled is still written down, with the reason. Protect private data: we never give one guest another guest's details, whatever the reason we are offered. Comply with the law: the rules here are not the rules in our other four cities, and ours are the ones that apply. If I had to keep one, I would keep the second, because the other four depend on it.
+@CHECK all five values named? | a second conditional used? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u10-consol | A risk table: what would happen, how likely, and what we would do.
+
+@TASK Part 8: Reading — If I Were You
+@LINE Before you read: why is advice easier to take when it begins 'if I were you'?
+@BODY
+In October a manager from another restaurant group telephoned Teresa for advice. He had been offered money to open four restaurants in two years, and he wanted to know what she would do. Teresa asked three questions and then gave one answer. Her questions were about cash, people and exit: how much would be committed and for how long, who would run the new kitchens and what would they stop doing, and what would it cost to close one if it failed. He had good answers to the first and none at all to the other two. 'If I were you,' she said, 'I would take the money and open one.' He said that an investor offering four would not be interested in one. 'Then if I were you, I would find out what the investor actually wants. If they want four restaurants, you are a tool. If they want a return, one good restaurant that works is a better argument for the second than any plan on paper.' He opened one in March. The second opened eighteen months later, out of the first one's own cash, and he telephoned her again to say so.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What had the manager been offered? — Money to open four restaurants in two years.
+@ITEM 1. What three questions did Teresa ask?
+@ITEM 2. Which of them could he answer?
+@ITEM 3. What happened in the end?
+@GLOSS exit = how a business would get out of something if it did not work · tool = somebody used to achieve another person's purpose
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. advice → an opinion about what somebody should do. (example)
+@MATCH
+exit
+committed
+interested
+argument
+on paper
+@@
+how a business would get out of something
+promised to something, and not available for anything else
+wanting to be involved, because it may be worth it
+a reason that persuades somebody
+written down, but not yet proved in practice
+a period of three months
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'If I were them, I would…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why did Teresa ask about the exit before she gave any advice?
+@LINE Was she right that one working restaurant is a better argument than a plan? Say why.
+@LINE What would you ask somebody before advising them to grow quickly?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement · the capstone
+@FIG u10-decide | The investor's condition.
+
+@TASK Part 9: The Investor's Condition
+@LINE Before you read: what should a business never agree to, whatever the money?
+@BODY
+The investor's offer is now in writing, and it is better than Mr Alvarez expected. The money would open two restaurants, the return expected is reasonable, and the investor has a good name in the industry. There is one condition. The investor would have the right to approve the figures before the group publishes them, and to ask for a change if they thought a figure would be read badly. The letter calls this 'alignment on external communications', and the investor's lawyer says it is ordinary. Teresa has read the clause four times. She agrees that the investor's concern is reasonable: nobody wants to find out from a published report that a branch is losing money. She also knows exactly what the clause would mean on a Thursday evening in February, when an unexplained difference is sitting in the Singapore ledger and somebody in another city would rather it were published next quarter. Mr Alvarez has asked her for one page by Monday. She has three choices, and all three are defensible to somebody.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What would the money do? — It would open two more restaurants.
+@ITEM 1. What is the one condition in the offer?
+@ITEM 2. Why does Teresa agree the investor's concern is reasonable?
+@ITEM 3. What does she imagine happening on a Thursday evening in February?
+
+@TASK Part 9: Make the Decision
+@RUBRIC What should Teresa recommend — (a) accept, since the money would open two restaurants, (b) refuse the investment entirely, or (c) accept only if the figures remain the group's to publish, and say so in writing? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Teresa should recommend ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Teresa should recommend the third. If the group accepted the clause as written, it would be agreeing that somebody outside the business could delay a figure they did not like, and everything this course has taught would become optional on the one evening it mattered. Refusing the investment entirely would be easier and would also throw away two restaurants for a clause that could probably be redrafted. The third choice keeps both: the investor sees every figure before publication and may comment on all of it, and the decision to publish stays with the board. If the investor wants the comment, they will agree. If they want the veto, the group has learned something very cheaply.
+@FRAME Phrase bank: if we accepted the clause, we would… · the investor may see and comment · the decision to publish stays with the board · we would have learned something cheaply.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review · END OF COURSE
+@FIG u10-review | What you can do after this course.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the second conditional or wish.
+@BANK were | would need | had | would buy
+@LINE 0. The group has five restaurants. (example)
+@ITEM 1. If we opened a sixth, we ____________________ a loan.
+@ITEM 2. If the group ____________________ bigger, it would buy better.
+@ITEM 3. I wish we ____________________ more cash in January.
+@ITEM 4. If our orders were larger, suppliers ____________________ quote properly.
+
+@TASK Part 10: End-of-Course Review
+@RUBRIC Complete each sentence with the grammar of the unit named.
+@LINE 0. Unit 1: Daniel records the Nairobi sales every morning. (present simple) (example)
+@ITEM 1. Unit 2: While the team ______ (serve), the system failed. (past continuous)
+@ITEM 2. Unit 3: We ______ (open) five restaurants since 2016. (present perfect)
+@ITEM 3. Unit 4: The invoice ______ (enter) on the day it arrived. (past passive)
+@ITEM 4. Unit 7: When the figures ______ (arrive), we will revise the forecast. (time clause)
+
+@TASK Part 10: The Five Values
+@RUBRIC Read the five values once more, and write one sentence about the one you will use most.
+@FRAME Be accurate. · Be honest. · Keep good records. · Protect private data. · Comply with the law.
+@LINE The value I will use most is ______ , because ______ .
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use the second conditional for an imaginary situation
+I can use wish with a past form for a regret about now
+I can give advice with 'If I were you…'
+I can weigh a plan, a cost and a risk in English
+
+@TASK Part 10: Unit 10 glossary
+@GLOSSHEAD Unit 10 glossary
+@GLOSSARY
+second conditional = if + past, would + verb, for an imagined situation · wish + past = a regret about the way things are now · if I were you = advice given from the other person's position · invest = to put money in, hoping it will grow · investor = a person or company that puts money into a business · return = what an investor earns on the money they put in · risk = the chance that something goes wrong · exposure = how much a business could lose if something went wrong · reserve = money kept back in case it is needed · scenario = one possible version of the future · prudent = careful and sensible with money · sustainable = able to be continued without running out · exit = how a business would get out of something if it did not work

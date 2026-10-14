@@ -1,0 +1,445 @@
+@UNIT 8 | What We Must, Must Not and Might | Modals of obligation, permission and deduction · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter · INTEGRITY FOCUS
+@FIG u8-start | Four small words that decide what a business may do.
+
+@TASK Warm-up: Words About Rules
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Rule → something you are required to do, or not to do. (example)
+@MATCH
+Obligation
+Permission
+Prohibition
+Deadline
+Confidential
+@@
+something you are required to do
+being allowed to do something
+being forbidden to do something
+the time by which something must be done
+private; not to be shared outside
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK must | must not | don't have to | might
+@LINE 0. Every branch follows the rules of its own country. (example)
+@ITEM 1. We ____________________ charge VAT on every invoice in Lisbon.
+@ITEM 2. We ____________________ share a guest's personal data without consent.
+@ITEM 3. In Lisbon we ____________________ file a return every month; it is quarterly.
+@ITEM 4. The rate ____________________ change next year — nobody is certain yet.
+
+@TASK Warm-up: Reading — Five Countries, Five Rule Books
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+When Noor joined the group office, she assumed that a rule was a rule. Then she spent a morning with the compliance file and found five of almost everything. In Lisbon, the VAT return must be filed every quarter; in Nairobi, the equivalent return must be filed every month. In Istanbul, an invoice must be issued electronically through a government system, and a paper invoice is not valid at all. Singapore does not charge VAT; it charges GST, at a different rate and with different rules about what is included. Montréal has two taxes at once, one federal and one provincial. 'None of this is difficult,' Teresa told her, 'but all of it is specific. The danger is never that somebody breaks a rule they know about. It is that somebody applies the rule they learned at home to a country where it does not exist.' That is why the compliance sheet is on the wall of every branch office, and why the first question in this group is always: which country are we in?
+@LINE 0. Noor assumed that a rule was a rule. (example)
+@MCQ 1. How often must the VAT return be filed in Nairobi? | Every quarter | Every month | Every year | Never
+@MCQ 2. What is the danger Teresa describes? | Breaking a known rule | Applying a home-country rule where it does not exist | Filing too early | Charging too little
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u8-words | The words of the rules: obligation, permission, prohibition, deduction.
+
+@TASK Part 1: Words for Rules
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Obligation → something you are required to do.
+@MATCH
+Compliance
+Consent
+Deduction
+Policy
+Breach (n)
+Exempt
+Penalty
+@@
+doing what the law and the rules require
+permission that a person gives, freely and knowingly
+a conclusion you reach from the evidence
+a rule a business sets for itself
+a case where a rule has been broken
+not required to do something that others must do
+a fine or punishment for breaking a rule
+a plan for next year
+@GLOSS compliance = doing what the law and the rules require · exempt = not required to do something that others must do
+
+@TASK Part 1: Pronunciation
+@AUDIO 8.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+obligation | o-bli-GA-tion
+compliance | com-PLI-ance
+confidential | con-fi-DEN-tial
+permission | per-MI-ssion
+deduction | de-DUC-tion
+authority | au-THO-ri-ty
+
+@TASK Part 1: Modals — Match the Use
+@RUBRIC Match each modal with the way we use it. One use is not needed. Write the letter.
+@LINE 0. can → ability, or informal permission. (example)
+@MATCH
+must
+must not
+don't have to
+should
+might
+@@
+an obligation: there is no choice
+a prohibition: it is forbidden
+no obligation: it is not necessary
+advice: it is the better course
+possibility: it may or may not be so
+a finished action in the past
+@GLOSS modal = a verb such as must, may or should, used before another verb · deduction = a conclusion from the evidence
+
+@TASK Part 1: Rules and Possibility — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'Must not' means it is forbidden. (example)
+@MCQ 1. Which means 'it is not necessary'? | must not | don't have to | must | should not
+@MCQ 2. What is a 'breach'? | A kind of invoice | A case where a rule has been broken | A tax rate | A supplier
+@MCQ 3. Which modal expresses a deduction from evidence? | must not | don't have to | might | shall
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK compliance | consent | policy | exempt
+@LINE 0. Every branch keeps a compliance sheet. (example)
+@ITEM 1. We may not use a guest's data without their ____________________ .
+@ITEM 2. Our own ____________________ is stricter than the law in two countries.
+@ITEM 3. Small suppliers are ____________________ from the electronic system.
+@ITEM 4. The group pays for a ____________________ review every two years.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence about something you must do, and one about something you must not do.
+@PLAN At work or at school, I must ______ . I must not ______ .
+@LINE Then swap your two sentences with a partner, and check together that 'must not' and 'don't have to' have not been confused.
+
+@BANNER Part 2 · Grammar — Obligation, Permission and Deduction
+@TRACK [OP] Accounts track · grammar focus
+@FIG u8-grammar | Must, must not, don't have to — and might, may, could.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these modal verbs, because two of them are opposites in a way that surprises almost every learner. 'Must' and 'have to' are obligations: there is no choice. 'We must charge VAT on every invoice.' 'Must not' is a prohibition: it is forbidden. 'We must not share personal data without consent.' But 'don't have to' is not a prohibition at all; it means there is no obligation. 'In Lisbon we don't have to file monthly' means we may if we wish, and we are not required to. 'Should' and 'ought to' give advice: the better course, but not the law. And 'might', 'may' and 'could' express possibility, including a deduction from evidence: 'The rate might change next year.' 'That invoice could be a duplicate.' In a group with five rule books, these distinctions are not grammar points; they are the difference between a compliant branch and a fine.
+@RUBRIC Look at your teacher's copy. Which sentences are obligations, which are prohibitions, and which are only advice? Find one deduction.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+must / have to | We must charge VAT on every invoice. | an obligation: there is no choice
+must not | We must not share data without consent. | a prohibition: it is forbidden
+don't have to | We don't have to file monthly in Lisbon. | no obligation: it is not necessary
+might / may / could | The rate might change next year. | possibility, or a deduction from evidence
+@REMEMBER 'Must not' forbids; 'don't have to' simply removes the obligation. Use 'should' and 'ought to' for advice, and 'might', 'may' and 'could' for what is possible.
+@WATCH Watch out: do not confuse 'must not' with 'don't have to' — 'you must not file monthly' and 'you don't have to file monthly' mean opposite things.
+@GLOSS prohibition = being forbidden to do something · deduction = a conclusion you reach from the evidence
+
+@TASK Part 2: Controlled Practice — Must, Must Not or Don't Have To?
+@RUBRIC Complete each sentence with must, must not or don't have to.
+@LINE 0. We must charge VAT on every invoice in Lisbon. (example)
+@ITEM 1. In Nairobi, the return ____________________ be filed every month.
+@ITEM 2. In Lisbon, we ____________________ file monthly; it is quarterly.
+@ITEM 3. We ____________________ send a guest list to anybody outside the group.
+@ITEM 4. In Istanbul, an invoice ____________________ be issued electronically.
+
+@TASK Part 2: Advice and Possibility
+@RUBRIC Complete each sentence with should, might or may.
+@ITEM 1. The Singapore rate ______ change next year; nobody is certain.
+@ITEM 2. We ______ check the compliance sheet before we answer a new supplier.
+@ITEM 3. That invoice ______ be a duplicate — the amount is identical.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. In Lisbon we must not file monthly; the rule is quarterly.
+@ITEM 2. We must to charge VAT on every invoice.
+@ITEM 3. The rate might to change next year.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say one thing you must do at work, one you must not do, and one you don't have to do.
+@LINE I must ______ , because ______ .
+@LINE I must not ______ . I don't have to ______ , although I usually do.
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. In Lisbon the return is quarterly, so we ______ file monthly. | must not | don't have to | must | should not
+@MCQ 2. The amount is identical, so that invoice ______ be a duplicate. | must not | doesn't have to | could | should not
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u8-listen | Five countries, five rule books — and one question that comes first.
+
+@TASK Part 3: Teresa Explains the Three Modals
+@AUDIO 8.2
+@LINE Before you listen: what is the difference between 'must not' and 'don't have to'?
+@BODY
+Teresa: There are three modal verbs in this unit and one of them causes almost every mistake I see. 'Must' is an obligation. We must charge the tax, we must keep the records, we must offer the guest a receipt. There is no choice in any of those. 'Must not' is a prohibition. We must not share personal data without consent, and that is the same in all five countries, because our own policy is stricter than the weakest law we work under. Now the difficult one. 'Don't have to' sounds like a weaker version of 'must not', and it is actually the opposite. In Lisbon we don't have to file monthly, which means we are free not to, because the rule there is quarterly. If I told a new assistant that we must not file monthly, she would believe that filing monthly was forbidden, and she would be wrong. One is a locked door. The other is an open door you need not walk through.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. 'Must' expresses an obligation. — T
+@ITEM 1. 'Must not' and 'don't have to' mean almost the same thing. ____
+@ITEM 2. The group's own data policy is stricter than the weakest law it works under. ____
+@ITEM 3. 'Don't have to' means there is no obligation. ____
+@ITEM 4. Teresa compares 'must not' to a locked door. ____
+@LINE Useful phrases: we must… · we must not… · we don't have to… · a locked door, and an open door.
+
+@TASK Part 3: Which Country Are We In?
+@AUDIO 8.3
+@LINE Before you listen: why must a group ask which country a transaction belongs to?
+@BODY
+Noor: Teresa, a supplier has asked why we have not paid an invoice from Istanbul. Teresa: What does the invoice look like? Noor: It is a paper invoice, and it is signed. Teresa: Then it is not valid in Turkey. In Istanbul an invoice must be issued electronically through the government system, and a paper one does not exist in law, however carefully it is signed. Noor: So we must not pay it? Teresa: We must not pay it as it stands — but be careful with your words. We are not forbidden to pay the supplier; we are forbidden to accept that document. Ask them to issue the electronic invoice, and the payment will go the same day. Noor: And if they say that a paper invoice is enough in their other markets? Teresa: Then they may well be right about those markets. The first question in this group is always: which country are we in?
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What is wrong with the invoice? — It is a paper invoice; in Istanbul it must be issued electronically.
+@ITEM 1. What exactly is forbidden, according to Teresa?
+@ITEM 2. What should Noor ask the supplier to do?
+@ITEM 3. What is the first question in this group?
+@LINE Useful phrases: it must be issued electronically · we must not accept that document · which country are we in?
+
+@TASK Part 3: What Might Have Happened
+@AUDIO 8.4
+@LINE Before you listen: how do you talk about a cause you are not yet sure of?
+@BODY
+Daniel: There is a difference of four hundred euros in the Nairobi bank line, and I do not know yet what it is. Teresa: Then tell me what it might be, and say that you are guessing. Daniel: It could be a bank charge that we have not booked. It might be a payment that left on the last day of the month and arrived on the first. Teresa: Both are likely. What else? Daniel: It may be a duplicate, although the amounts are not identical, so I think that is unlikely. Teresa: Good. Notice what you have done. You have not told me what it is; you have told me what it might be, and how likely each one is. That is a proper answer to an unfinished question. Daniel: And when I know? Teresa: Then you will tell me what it is, with no modal verb in the sentence at all.
+@RUBRIC While you listen: match each possibility with how likely Daniel thinks it is. One item is not needed. (0. is done.) Write the letter.
+@LINE 0. The difference → is four hundred euros in the Nairobi bank line.
+@MATCH
+a bank charge not yet booked
+a payment that crossed the month end
+a duplicate
+when he knows for certain
+@@
+likely
+likely
+unlikely, because the amounts differ
+he will say what it is, with no modal verb
+it was a fraud
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u8-speak | Role play: explaining a rule (Card A and Card B).
+
+@TASK Part 4: Talking About Rules
+@RUBRIC Work with a partner. Ask and answer these questions. Use must, must not, don't have to and might.
+@LINE What must you do in your job or your studies, every time, with no choice?
+@LINE What must you never do?
+@LINE What are you free not to do, although people often think it is required?
+@LINE Why should a rule always come with its reason?
+@FRAME Useful language: we must… · we must not… · we don't have to… · it might… · the reason is…
+
+@TASK Part 4: Explaining a Rule — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: Must I file a return every month? — B: In Nairobi, yes. In Lisbon you don't have to; it is quarterly. — A: And may I send the guest list to the marketing company? — B: No. We must not share personal data without consent.
+@FRAME Useful language: in this country you must… · here you don't have to… · we must not… , because…
+@FRAME Card A — New manager: ask what you must do · ask what you must not do.
+@FRAME Card B — Controller: explain one obligation · explain one prohibition, and give the reason.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain three rules that apply where you work or study: one obligation, one prohibition, and one thing people wrongly believe is required.
+@PLAN We must… We must not… , because… People often think we must… , but in fact we don't have to…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u8-read | The same company, five rule books.
+
+@TASK Part 5: One Company, Five Rule Books
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+A group that trades in five countries does not have one set of rules with small local differences. It has five sets of rules that happen to overlap, and the overlap is smaller than most people expect. Tax is the obvious case. Lisbon charges VAT and files quarterly; Nairobi charges VAT and files monthly; Singapore charges GST, which is a different tax with different rules about what is included; Montréal charges two taxes at once, one federal and one provincial; and Istanbul requires every invoice to be issued electronically through a government system, so that a paper invoice is not a valid document at all. Data is the less obvious case, and the more dangerous one. What a business may do with a guest's name and telephone number is different in each of the five, and the penalties are different too. A group can deal with this in two ways. It can learn five sets of rules and apply each one in its own country, which is correct and slow. Or it can write one internal policy that meets the strictest of the five, apply it everywhere, and then check only the local additions. Blue Door does the second. It means the Lisbon office sometimes keeps a consent record that Portuguese law does not require, and nobody has ever regretted holding it.
+@LINE 0. The group does not have one set of rules. (example)
+@MCQ 1. What is required in Istanbul? | Paper invoices only | Every invoice issued electronically | No invoices at all | Quarterly filing
+@MCQ 2. Which case does the text call the more dangerous one? | Tax | Data | Wages | Rent
+@MCQ 3. What does Blue Door do? | Learns five rule books and applies each locally | Writes one policy meeting the strictest, then checks local additions | Applies the Lisbon rules everywhere | Asks the auditor each time
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. overlap (n) → the part that two things have in common. (example)
+@MATCH
+penalty
+internal
+strictest
+valid
+addition
+@@
+a fine or punishment for breaking a rule
+inside the business; not for outsiders
+allowing the fewest exceptions
+accepted as correct in law
+something extra, added to what is already there
+a written offer of a price
+@GLOSS valid = accepted as correct in law · internal = inside the business, not for outsiders
+
+@TASK Part 5: Why a Policy Beats a Rule Book
+@RUBRIC Read about internal policies. Then mark each sentence True (T) or False (F).
+@BODY
+An internal policy is a rule a business sets for itself, and a good one is written to be remembered rather than consulted. 'We never share a guest's details outside the group without written consent' can be learned in one reading by a waiter on their first evening. The five legal texts behind it cannot. That is the whole argument for a single strict policy: a rule that is carried in people's heads is followed at eleven o'clock on a busy Friday, and a rule that lives in a file is not. The cost is that the group sometimes does more than one country requires. Lisbon keeps a consent record that Portuguese law does not demand, and Montréal keeps a record for longer than it must. Teresa calls that the cheapest insurance the group buys. The rule is also easier to explain to a guest, which matters more than it sounds: 'we are not allowed to' is a weak sentence, and 'we never do' is a strong one.
+@LINE 0. An internal policy is a rule a business sets for itself. → T (example)
+@ITEM 1. A good policy is written to be remembered. ____
+@ITEM 2. A single strict policy sometimes does more than the law requires. ____
+@ITEM 3. Teresa thinks the extra cost is too high. ____
+@ITEM 4. 'We never do' is a stronger sentence than 'we are not allowed to'. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u8-write | Writing a policy note: what, who, why and what if not.
+
+@TASK Part 6: A Policy Note (70–130 words)
+@RUBRIC Write a short policy note for a team. Say what must and must not be done, and why.
+@MODEL
+Guest data: group policy. We must not share a guest's name, telephone number or card details with anybody outside the group, in any country, without their written consent. This applies even where the local law is less strict, because one policy that everybody remembers is safer than five that nobody does. We must record consent in the booking system at the moment it is given, with the date. We don't have to ask again for a guest who has already given consent this year, although you may. If you are asked for guest details by anybody, including a supplier or an authority, say that you will refer the request, and tell your manager the same day.
+@PLAN We must… We must not… , because… We don't have to… If you are asked…
+@CHECK must, must not and don't have to used correctly? | the reason given? | 70–130 words?
+
+@TASK Part 6: Explaining a Local Rule (70–130 words)
+@RUBRIC Explain one country's rule to a colleague in another country. Use modals of obligation.
+@MODEL
+A note about Istanbul invoices, because two branches have now made the same mistake. In Turkey an invoice must be issued electronically through the government system. A paper invoice, however carefully it is signed and stamped, is not a valid document, and we must not enter it or pay against it. This is not our policy; it is the law there, and the penalty falls on us as well as on the supplier. If a paper invoice arrives, do not refuse the supplier: ask them to issue the electronic version, and the payment will go on the same day. In Lisbon and Nairobi, by contrast, you don't have to insist on an electronic invoice at all.
+@CHECK the obligation and the prohibition clear? | the contrast with another country? | 70–130 words?
+
+@TASK Part 6: What Might Have Happened (70–120 words)
+@RUBRIC Describe a difference you have not yet explained. Use might, may and could, and say how likely each is.
+@MODEL
+There is a difference of four hundred euros in the Nairobi bank line, and I cannot yet say what it is. It could be a bank charge that we have not booked, which would be the ordinary explanation at a month end. It might be a payment that left on the last day of March and arrived on the first of April; two of these crossed the quarter last year. It may be a duplicate, although the amounts are not identical, so I think that is unlikely. I am checking the bank file this afternoon and I will tell you what it is, rather than what it might be, before Friday.
+@PLAN It could be… It might be… It may be… , although…
+@CHECK modals of possibility used? | each one weighed for likelihood? | 70–120 words?
+
+@TASK Part 6: Advice to a New Colleague (70–120 words)
+@RUBRIC Write short advice for somebody starting in your job. Use should and ought to.
+@MODEL
+Three pieces of advice for your first month. You should read the compliance sheet for your own country before you read anything else, because almost every mistake in this office begins with a rule borrowed from somewhere it does not apply. You ought to ask which country a document belongs to before you ask anything else about it. And you should never be embarrassed to say that you do not know yet; in this office an honest 'I am checking' is worth far more than a confident answer that turns out to be from the wrong rule book. Nobody here has ever been in trouble for asking.
+@CHECK should and ought to used for advice? | three clear pieces? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · confidentiality · REDACTED DATA
+@FIG u8-ra | What the floor team must, must not and may do with a guest's details.
+
+@TASK 7A: Phrase Bank — Confidentiality on the Floor
+@RUBRIC Match each phrase with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Take a booking. → write down a guest's table reservation. (example)
+@MATCH
+Record consent.
+Redact a detail.
+Refer a request.
+Keep it in the system.
+Shred the paper.
+@@
+note that the guest has agreed, with the date
+hide part of a record before it is shown to anybody
+pass a question to the person who may answer it
+never copy guest details into a message or a notebook
+destroy a paper record safely when it is no longer needed
+order the ingredients from a supplier
+
+@TASK 7B: The Request That Sounded Reasonable
+@AUDIO 8.5
+@LINE Before you listen: what should a waiter do if somebody asks for a guest's details?
+@BODY
+Clara: Teresa, something happened last night and I want to check I was right. A man came in and said he had dined on Tuesday and had left a coat. He asked for the name and telephone number of the guests at the next table, because he thought they had taken it. Teresa: And what did you say? Clara: I said I could not give him that, but that I would telephone them myself and ask. Teresa: That was exactly right, and I want every manager to hear it. We must not give one guest another guest's details, whatever the reason, and the reasons are often good ones. Clara: He was not pleased. Teresa: He was not pleased with the rule, which is different from being badly served. You offered him the only thing we may do: we contact them, and they decide. Clara: They had the coat. They brought it back this morning. Teresa: Then the rule worked, and so did you.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What did the man ask for? — The name and telephone number of the guests at the next table.
+@ITEM 1. What did Clara offer to do instead?
+@ITEM 2. What must a restaurant never do, whatever the reason?
+@ITEM 3. How did the story end?
+
+@TASK 7C: Controlled Practice — Must, Must Not, May
+@RUBRIC Decide whether each action is required, forbidden or permitted. Write M (must), MN (must not) or MAY. (0. is done.)
+@LINE 0. Record a guest's consent with the date. — M
+@ITEM ___ Give one guest another guest's telephone number.
+@ITEM ___ Telephone a guest yourself and pass on a message.
+@ITEM ___ Copy a card number into a notebook.
+@ITEM ___ Refer a difficult request to your manager the same day.
+
+@TASK 7D: Role-Play — A Reasonable-Sounding Request
+@RUBRIC In pairs. One asks for a guest's details; one is the manager. Use the model and cards.
+@FRAME Model: Visitor: Could you give me their telephone number? — Manager: I am afraid we never give out a guest's details. What I can do is telephone them myself and pass on your message.
+@FRAME Card A — Visitor: ask for another guest's name and number · give a good reason.
+@FRAME Card B — Manager: refuse politely, with 'we never…' · offer what you may do instead.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note for the floor team about guest details.
+@MODEL
+A short note about guest details, because we were asked twice last week. We must never give one guest another guest's name, telephone number or table. The reasons people give are often good, and that changes nothing: a lost coat, a forgotten jacket, an old friend. What we may do is take the message ourselves, telephone the guest, and let them decide whether to reply. You must not copy a card number anywhere, at any time, for any reason. If a request is difficult, or if the person is insistent, refer it to me the same evening. Nobody has ever been in trouble here for saying 'I will ask my manager'.
+@CHECK must, must not and may used correctly? | an alternative offered? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u8-consol | A compliance checklist: five countries, five calendars.
+
+@TASK Part 8: Reading — The Deadline Nobody Owned
+@LINE Before you read: why do shared responsibilities get missed more often than personal ones?
+@BODY
+The Montréal provincial return was filed four days late in February, and nobody had decided not to file it. The branch believed that Lisbon filed everything central; Lisbon believed that returns in the branch's own country were filed by the branch. Both beliefs were reasonable, and between them lay a return that belonged to nobody. The penalty was small, about three hundred Canadian dollars, and Teresa paid it without argument. Then she did the thing that mattered. She printed the compliance calendar for all five countries on one sheet, and beside every line she wrote a name — not a department, a name — and the date by which that person must file. Where a task needed two people, she wrote both names and which one must act first. The sheet is now reviewed on the first Monday of every month, and the names are read aloud, which takes four minutes and sounds faintly ridiculous. Nothing has been late since. 'A deadline without a name is a wish,' Teresa says. 'It costs nothing to add the name, and three hundred dollars to leave it out.'
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What happened in February? — The Montréal provincial return was filed four days late.
+@ITEM 1. Why did each office believe the other was filing it?
+@ITEM 2. What did Teresa write beside every line of the calendar?
+@ITEM 3. What happens on the first Monday of every month?
+@GLOSS penalty = a fine or punishment for breaking a rule · central = done in one place for the whole group
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. deadline → the time by which something must be done. (example)
+@MATCH
+penalty
+central
+reasonable
+review (v)
+ridiculous
+@@
+a fine or punishment for breaking a rule
+done in one place for the whole group
+sensible; the kind of thing a fair person would think
+to look at something again, to check it
+silly, in a way that makes people smile
+a period of three months
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the rule should be…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why is 'a deadline without a name is a wish' a fair description?
+@LINE Is reading names aloud for four minutes a month worth it? Say why.
+@LINE What in your own work has no name against it, and who should own it?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement · REDACTED DATA
+@FIG u8-decide | A decision about sharing confidential data.
+
+@TASK Part 9: The Colleague Who Asked for the List
+@LINE Before you read: when is a reasonable request still one you must refuse?
+@BODY
+A marketing manager in another part of the group has asked Noor for the Singapore guest list. She wants names, telephone numbers and the dates guests last dined, so that she can invite the most frequent of them to the opening of the Montréal restaurant. She works for Blue Door, the request is sensible, the invitation is a pleasant one, and she needs an answer today because the cards are being printed. Noor checks the policy and finds that it says exactly what Teresa says: guest details must not leave the system without the guest's written consent, and consent was recorded for bookings only. Noor has three choices. She could send the list, since the colleague works for the same group and the purpose is harmless. She could send a shortened version with the names removed, which feels like a compromise but would still be personal data, because a telephone number identifies a person. Or she could refuse the data, explain why in two sentences, and offer what she can actually do: the system itself can send an invitation to guests who have consented, without any list leaving it at all.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What has the marketing manager asked for? — The Singapore guest list, with names, numbers and dates.
+@ITEM 1. Why does the request seem reasonable?
+@ITEM 2. Why is a list without names still personal data?
+@ITEM 3. What can the system itself do instead?
+
+@TASK Part 9: Make the Decision
+@RUBRIC What should Noor do — (a) send the list, (b) send it with the names removed, or (c) refuse the data, explain, and offer what the system can do? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should choose ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should choose the third option. The policy is not ambiguous: guest details must not leave the system without consent, and consent here covers bookings only. The first choice breaks that, and the fact that the colleague works for the group does not change what the guest agreed to. The second choice looks careful and is not: a telephone number identifies a person on its own, so removing the names removes nothing that matters. The third refuses the data without refusing the colleague, which is the whole skill. She gets her invitations, the guests get their choice, and no list ever leaves the system. It also takes less time than the argument the first choice would eventually cause.
+@FRAME Phrase bank: we must not… without consent · a telephone number identifies a person · refuse the data, not the colleague · the system can send it without a list leaving.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u8-review | What you can do after Unit 8.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with must, must not, don't have to or might.
+@BANK must | must not | don't have to | might
+@LINE 0. Every branch follows the rules of its own country. (example)
+@ITEM 1. In Nairobi, the return ____________________ be filed every month.
+@ITEM 2. In Lisbon, we ____________________ file monthly; it is quarterly.
+@ITEM 3. We ____________________ share guest data without consent.
+@ITEM 4. The Singapore rate ____________________ change next year.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use must and have to for an obligation
+I can use must not for a prohibition, and don't have to for no obligation
+I can use might, may and could for possibility and deduction
+I can explain a rule, and the reason behind it
+
+@TASK Part 10: Unit 8 glossary
+@GLOSSHEAD Unit 8 glossary
+@GLOSSARY
+obligation = something you are required to do · prohibition = being forbidden to do something · permission = being allowed to do something · deduction = a conclusion you reach from the evidence · compliance = doing what the law and the rules require · consent = permission a person gives, freely and knowingly · policy = a rule a business sets for itself · breach = a case where a rule has been broken · penalty = a fine or punishment for breaking a rule · exempt = not required to do something that others must do · valid = accepted as correct in law · redact = to hide part of a record before it is shown · confidential = private; not to be shared outside

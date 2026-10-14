@@ -1,0 +1,445 @@
+@UNIT 6 | Getting the Numbers Exactly Right | Quantifiers, articles and precise numbers · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u6-start | One figure, written five ways — and only one of them is right.
+
+@TASK Warm-up: Words About Precision
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Figure → a number in a report or an account. (example)
+@MATCH
+Exactly
+Approximately
+Round (v)
+Decimal
+Separator
+@@
+with no difference at all
+about; close but not exact
+to make a number simpler by removing small amounts
+the part of a number after the point
+the mark that divides thousands, or whole from part
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK exactly | approximately | rounded | decimal
+@LINE 0. Every figure must be readable in five countries. (example)
+@ITEM 1. The sale was ____________________ 1,987.40 Singapore dollars.
+@ITEM 2. In the summary we wrote ____________________ two thousand.
+@ITEM 3. The figure was ____________________ to the nearest hundred.
+@ITEM 4. Always write two places after the ____________________ point.
+
+@TASK Warm-up: Reading — The Figure That Changed Shape
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+A sale of one thousand, nine hundred and eighty-seven Singapore dollars and forty cents left Mei's till on a Tuesday evening and reached four different documents by Friday. In the branch ledger it was written 1,987.40. In a summary for the kitchen it became 'about 2,000', which was helpful and true. In an email it was typed as 1.987,40, because the writer used the separators of her own country, and the reader in another country understood one euro ninety-nine. In a message to the owner it appeared simply as '2,000', with no 'about' at all. Three of those four versions were defensible, and one was not. Teresa spent twenty minutes that Friday explaining which was which, and nobody enjoyed the twenty minutes, least of all her. She has since written one line at the top of the group's reporting sheet: name the currency, keep two decimal places, use one separator style, and say the word 'about' whenever you have rounded. The line is in four languages and it takes nine seconds to read. Nobody in five countries has misread a figure since, which Teresa says is the cheapest improvement the group has ever made.
+@LINE 0. The sale was 1,987.40 Singapore dollars. (example)
+@MCQ 1. Why did the reader of the email misunderstand? | The figure was wrong | The writer used a different separator style | The currency was missing | The email arrived late
+@MCQ 2. Which version was not defensible? | 1,987.40 | 'about 2,000' | '2,000' with no 'about' | the kitchen summary
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u6-words | Saying how much and how many: a few, a little, several, exactly.
+
+@TASK Part 1: Words for Quantity
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. A few → a small number of countable things.
+@MATCH
+A little
+Several
+Plenty of
+Hardly any
+Countable
+Uncountable
+Rounding
+@@
+a small amount of something uncountable
+more than a few, but not many
+more than enough
+almost none at all
+able to be counted one by one: invoices, suppliers
+not counted one by one: cash, revenue, information
+making a number simpler by removing small amounts
+a plan for next year
+@GLOSS countable = able to be counted one by one · uncountable = not counted one by one, such as cash or information
+
+@TASK Part 1: Pronunciation
+@AUDIO 6.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+accurate | A-ccu-rate
+decimal | DE-ci-mal
+approximately | a-PRO-xi-ma-tely
+currency | CU-rren-cy
+material | ma-TE-rial
+precision | pre-CI-sion
+
+@TASK Part 1: Quantifiers — Match the Use
+@RUBRIC Match each quantifier with the way we use it. One use is not needed. Write the letter.
+@LINE 0. many → with countable things, usually in questions and negatives. (example)
+@MATCH
+a few invoices
+a little cash
+several branches
+much revenue
+hardly any waste
+@@
+a small number of countable things
+a small amount of an uncountable thing
+more than a few countable things
+a large amount of an uncountable thing
+almost none at all
+every one, without exception
+@GLOSS material = large enough to change a reader's decision · immaterial = too small to change anything
+
+@TASK Part 1: Precision — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'Approximately' means about, but not exactly. (example)
+@MCQ 1. Which word goes with an uncountable noun? | a few | several | a little | many
+@MCQ 2. What does 'material' mean in accounting? | Made of cloth | Large enough to change a decision | Written on paper | Paid in cash
+@MCQ 3. What should always go beside a figure? | The writer's name | The currency | The time of day | The page number
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK a few | a little | several | hardly any
+@LINE 0. Precision costs nothing and saves a great deal. (example)
+@ITEM 1. ____________________ invoices are still unpaid — three, I think.
+@ITEM 2. There is only ____________________ cash left in the Istanbul till.
+@ITEM 3. ____________________ branches have already closed the month.
+@ITEM 4. There was ____________________ waste in last week's delivery.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence with a countable quantifier and one with an uncountable quantifier, about your own work.
+@PLAN There are a few ______ . There is a little ______ .
+@LINE Then swap your two sentences with a partner, and check together that each quantifier matches its noun.
+
+@BANNER Part 2 · Grammar — Quantifiers, Articles and Numbers
+@TRACK [OP] Accounts track · grammar focus
+@FIG u6-grammar | Countable and uncountable, and the articles that go with them.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at two small things that decide whether a figure is understood. The first is the quantifier. Countable nouns take 'a few', 'several', 'many' and a number: a few invoices, several branches, three suppliers. Uncountable nouns take 'a little' and 'much': a little cash, much revenue, some information. 'Some' and 'plenty of' work with both. The second is the article. We use 'a' or 'an' the first time we mention something, and 'the' when both writer and reader already know which one we mean: 'A supplier wrote to us. The supplier offered a discount.' We use no article at all for a general plural: 'Suppliers often offer discounts.' In an accounts office these small words carry weight, because 'the invoice is unpaid' and 'an invoice is unpaid' send a reader to two different places.
+@RUBRIC Look at your teacher's copy. Which nouns are countable, and which are uncountable? Find one 'a' and one 'the', and say why each was chosen.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+countable | a few invoices · several branches · three suppliers | things you can count one by one
+uncountable | a little cash · much revenue · some information | things you cannot count one by one
+a / an and the | A supplier wrote. The supplier offered a discount. | first mention, then the one we both know
+no article | Suppliers often offer discounts. | a general plural, not particular ones
+@REMEMBER Match the quantifier to the noun: 'a few' and 'many' with countable things, 'a little' and 'much' with uncountable ones. Use 'a' for a first mention, 'the' when the reader already knows which one, and no article for a general plural.
+@WATCH Watch out: say 'a little cash' and 'a few invoices' — never 'a few cash' or 'a little invoices'.
+@GLOSS first mention = the first time something appears in a text · general plural = all of a kind, not particular ones
+
+@TASK Part 2: Controlled Practice — Which Quantifier?
+@RUBRIC Complete each sentence with the correct quantifier.
+@LINE 0. There are a few (a few / a little) invoices still unpaid. (example)
+@ITEM 1. There is only ____________________ (a few / a little) cash in the till.
+@ITEM 2. ____________________ (Several / Much) branches have closed the month.
+@ITEM 3. We do not have ____________________ (many / much) information yet.
+@ITEM 4. ____________________ (Hardly any / Hardly some) waste was recorded.
+
+@TASK Part 2: Articles
+@RUBRIC Complete each sentence with a, an, the, or no article (–).
+@ITEM 1. ______ supplier wrote to us last week. ______ supplier offered a discount.
+@ITEM 2. ______ suppliers often offer discounts in March.
+@ITEM 3. Please send me ______ invoice you mentioned on ______ telephone.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. There are a little invoices still unpaid.
+@ITEM 2. We do not have many information about the delivery.
+@ITEM 3. We received a invoice from the new supplier.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Describe what there is a lot of, and a little of, in your work this week.
+@LINE There are several ______ , but only a few ______ .
+@LINE There is plenty of ______ , and hardly any ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. There is only ______ cash left in the till. | a few | several | a little | many
+@MCQ 2. ______ supplier wrote to us. ______ supplier offered a discount. | The … A | A … The | A … A | The … The
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u6-listen | Reading a figure aloud, digit by digit, across two currencies.
+
+@TASK Part 3: Teresa Explains Precision
+@AUDIO 6.2
+@LINE Before you listen: why does a figure need a currency beside it?
+@BODY
+Teresa: A number on its own is not information. It becomes information when you add four things to it, and we add all four every time. First, the currency, because 1,987.40 means nothing until somebody knows whether it is dollars, lira or euro. Second, the decimal places: two, always, even when the second is a zero, because a figure that ends in a single digit invites somebody to add one. Third, the separator style, which in this group is a comma for thousands and a point for decimals, in every country, whatever people use at home. Fourth, the word 'about' whenever you have rounded. 'About two thousand' is honest and useful. 'Two thousand' is a different claim, and if the real figure was 1,987.40, it is not quite true. These four habits cost you nothing and they have saved us a great deal of time, because nobody has to telephone another country to ask what a number means.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. A number on its own is not information. — T
+@ITEM 1. The currency must be written beside the figure. ____
+@ITEM 2. One decimal place is enough. ____
+@ITEM 3. The group uses one separator style in every country. ____
+@ITEM 4. 'Two thousand' and 'about two thousand' are the same claim. ____
+@LINE Useful phrases: name the currency · two decimal places · one separator style · say 'about' when you round.
+
+@TASK Part 3: Read Me the Figure Again
+@AUDIO 6.3
+@LINE Before you listen: how do you read a long figure aloud so that nobody mishears it?
+@BODY
+Teresa: Mei, read me the Tuesday figure again, slowly. Mei: One, nine, eight, seven, point four zero. Singapore dollars. Teresa: Thank you. Digit by digit is the only safe way on a telephone. Mei: Should I give you the euro figure as well? Teresa: Give me both, and give me the rate you used. Mei: At this month's rate, that is one thousand, three hundred and sixty-one euros and eleven cents. The rate was 0.6849. Teresa: And is that the rate on the day of the sale, or today's? Mei: The day of the sale. We always use the rate of the day, and I wrote it in the line. Teresa: Perfect. If anybody asks next March why the figure is what it is, that one number will answer them.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. How does Mei read the figure? — Digit by digit, and then the currency.
+@ITEM 1. Why is digit by digit the safe way on a telephone?
+@ITEM 2. What three things does Teresa want with the figure?
+@ITEM 3. Which rate does the group use, and where is it written?
+@LINE Useful phrases: one, nine, eight, seven, point four zero · at this month's rate · the rate of the day.
+
+@TASK Part 3: How Much, and How Many?
+@AUDIO 6.4
+@LINE Before you listen: when is a difference too small to matter?
+@BODY
+Daniel: Teresa, I have a few questions about the quarter. Teresa: How many is a few? Daniel: Three. The first is the rounding. We have hardly any differences this time — two cents in Nairobi and one in Singapore. Teresa: Then record them and move on. They are immaterial. Daniel: The second is information. We do not have much information about the Montréal opening costs yet. Teresa: Then say so, in those words, rather than guessing. The third? Daniel: Several invoices are still unpaid in Istanbul. Teresa: How many, and how much? Daniel: Eleven invoices, about forty thousand lira in total. Teresa: Now that is a real answer. 'Several' tells me to worry; 'eleven, about forty thousand lira' tells me whether I should.
+@RUBRIC While you listen: match each quantity with what it describes. One item is not needed. (0. is done.) Write the letter.
+@LINE 0. Three → the number of questions Daniel has.
+@MATCH
+hardly any
+not much
+several
+eleven, about forty thousand lira
+@@
+the rounding differences this quarter
+the information about the Montréal costs
+the unpaid invoices, before Teresa asks
+the unpaid invoices, after Teresa asks
+the number of branches in the group
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u6-speak | Role play: confirming a figure on a call (Card A and Card B).
+
+@TASK Part 4: Talking About Numbers
+@RUBRIC Work with a partner. Ask and answer these questions. Use quantifiers and exact figures.
+@LINE How do you read a long number aloud so that nobody mishears it?
+@LINE How much cash do you usually carry, and how many cards?
+@LINE When is it right to round a figure, and when is it not?
+@LINE Why does a group that works in five currencies need one separator style?
+@FRAME Useful language: digit by digit · about two thousand · exactly 1,987.40 · at the rate of the day.
+
+@TASK Part 4: Confirming a Figure — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: Read me the figure again, slowly. — B: One, nine, eight, seven, point four zero. Singapore dollars. — A: And in euro? — B: One thousand, three hundred and sixty-one euros eleven, at the rate of the day.
+@FRAME Useful language: read it digit by digit · which currency? · at which rate? · let me read it back to you.
+@FRAME Card A — Head office: ask for the figure digit by digit · ask which currency and which rate.
+@FRAME Card B — Branch: read the figure back slowly · give the currency, the rate and the date.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain one figure from your own work: what it is, what it is in, how exact it is, and where it came from.
+@PLAN The figure is… It is in… It is exact to… It came from… I would round it only when…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u6-read | One amount, five ways of writing it.
+
+@TASK Part 5: The Honest Round Number
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Rounding is not dishonest. A summary that gives every figure to the cent is harder to read than one that does not, and a reader who wants the cents can always open the ledger. What makes rounding dishonest is silence. 'About two thousand' and '2,000' look similar on a page, but they make different promises: the first says that the writer has rounded and invites you to ask by how much, while the second says that the figure is two thousand. If the real number was 1,987.40, only one of those sentences is true. There is a second rule that matters even more in a group that reports from five countries. Round once, at the end, and never in the middle. If each of five branches rounds its own total to the nearest hundred before sending it, the group figure can be several hundred away from the sum of the real sales, and nobody will be able to say where the difference went. So the branches send the exact figure to the cent, the group adds them up, and only the final summary is rounded, with the word 'about' in front of it. Accountants call the small differences that remain immaterial, which does not mean invisible. They are recorded, explained in one line, and left where anybody can see them.
+@LINE 0. Rounding is not dishonest in itself. (example)
+@MCQ 1. What makes rounding dishonest? | Doing it at all | Silence about having done it | Using a comma | Rounding to the cent
+@MCQ 2. Where should rounding happen in a group? | In each branch, before sending | Once, at the end | Twice, to be safe | Never
+@MCQ 3. What does 'immaterial' mean here? | Invisible | Too small to change a decision | Written on paper | Paid in cash
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. summary → a short version that gives the main points. (example)
+@MATCH
+immaterial
+silence
+promise (n)
+remain
+to the cent
+@@
+too small to change a decision
+saying nothing about something
+what a sentence tells a reader to expect
+to be left after everything else is taken away
+exactly, with no rounding at all
+a written offer of a price
+@GLOSS immaterial = too small to change a decision · to the cent = exactly, with no rounding at all
+
+@TASK Part 5: Four Habits That Prevent a Misread Figure
+@RUBRIC Read about writing figures. Then mark each sentence True (T) or False (F).
+@BODY
+Four habits stop almost every misread figure, and none of them takes longer than a second. The first is to name the currency every single time, even inside a branch where everybody knows it, because the document will eventually be read somewhere else. The second is to use two decimal places and one separator style everywhere, whatever people write at home, so that a figure means the same in Lisbon and Montréal. The third is to write the word 'about' whenever a figure has been rounded, and to give the exact figure in the line beneath if the reader may need it. The fourth is to read a figure back aloud, digit by digit, whenever it travels by telephone. A group that keeps these four habits spends almost no time arguing about what a number said, which leaves it free to argue about what the number means. That second argument is the useful one, and it is the only one an accountant is actually paid to have.
+@LINE 0. Four habits stop almost every misread figure. → T (example)
+@ITEM 1. The currency can be left out inside a branch. ____
+@ITEM 2. One separator style is used in every country. ____
+@ITEM 3. 'About' is written whenever a figure has been rounded. ____
+@ITEM 4. Figures are read back digit by digit on the telephone. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u6-write | Writing numbers so that nobody misreads them.
+
+@TASK Part 6: A Note About a Figure (70–130 words)
+@RUBRIC Write a short note explaining one figure to a colleague in another country. Give the currency, the exactness and the source.
+@MODEL
+The Tuesday sales figure for Singapore is 1,987.40 Singapore dollars, exactly as it left the till. Converted at the rate of the day, 0.6849, it is 1,361.11 euros. Both figures are in the branch line, together with the rate, so that anybody who looks at this in March will be able to see where the euro figure came from. In the kitchen summary I have written 'about two thousand dollars', because the chefs do not need the cents and the word 'about' tells them that I have rounded. The exact figure is never rounded in the ledger, only in the summary.
+@PLAN The figure is… in… At the rate of… it is… In the summary I wrote… because…
+@CHECK currency named? | the rate and its date given? | 70–130 words?
+
+@TASK Part 6: Explaining a Rounding Difference (70–130 words)
+@RUBRIC Explain a small difference caused by rounding. Use quantifiers correctly.
+@MODEL
+There are three rounding differences in this quarter, and together they come to four cents. Two cents arose in Nairobi, where the sum of the daily lines is 29,114.02 euros and the reported figure is 29,114.00. One cent arose in Singapore in the opposite direction. Hardly any of this matters in a quarter of several million euros, and all of it is immaterial, but none of it has been hidden. Each difference is recorded on its own line with the branch, the amount and the reason. We round once, in the final summary, and never in the branches, which is why the differences are this small.
+@CHECK quantifiers correct for countable and uncountable? | every difference recorded? | 70–130 words?
+
+@TASK Part 6: How Much and How Many (70–120 words)
+@RUBRIC Describe the state of your work using quantifiers. Be exact wherever you can.
+@MODEL
+At the end of this week, several things are finished and a few are not. Four branches have closed the month, and only one has not. There are eleven invoices still unpaid in Istanbul, which is about forty thousand lira in total, and most of them are with one supplier. We have hardly any cash differences this week: two cents in all. We do not have much information about the Montréal opening costs yet, because the branch has been trading for five weeks. I would rather tell you how many and how much than say 'several' and leave you guessing.
+@PLAN Several ______ are… A few ______ are… There are ______ invoices, about ______ in total. We have hardly any…
+@CHECK quantifiers matched to their nouns? | exact numbers where possible? | 70–120 words?
+
+@TASK Part 6: A Rule for Writing Figures (70–120 words)
+@RUBRIC Write a short rule for your team about writing figures. Use your own ideas.
+@MODEL
+Four rules, and then we never discuss it again. Name the currency beside every figure, even in your own office, because the sheet will be read somewhere else. Write two decimal places, always, and use a comma for thousands and a point for decimals, whatever you use at home. Write 'about' whenever you have rounded, and put the exact figure underneath if the reader may need it. Read every figure back, digit by digit, when it goes by telephone. None of this takes a second longer than being careless, and it has saved this office more hours than I can count.
+@CHECK a clear rule for each habit? | the reason given? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · giving exact change
+@FIG u6-ra | Counting the change back: the last number a guest remembers.
+
+@TASK 7A: Phrase Bank — At the Till
+@RUBRIC Match each phrase with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. The bill comes to… → the total the guest must pay. (example)
+@MATCH
+Out of fifty.
+Your change is…
+Let me count it back to you.
+Would you like the receipt?
+We are a little short.
+@@
+the note the guest has handed over
+the money being returned to the guest
+to say each coin and note aloud as you hand it over
+asking whether the guest wants the printed record
+the till has less in it than the system says
+a written offer of a price
+
+@TASK 7B: The Last Number They Remember
+@AUDIO 6.5
+@LINE Before you listen: why does a cashier count the change back aloud?
+@BODY
+Clara: Mei, you always count the change back aloud. Is that a Singapore habit? Mei: It is a cashier's habit, and I would teach it everywhere. The change is the last number a guest hears, so it is the one they remember. Clara: And if you simply hand it over? Mei: Then two people are trusting a silent calculation, and one of them is tired. Counting it back takes four seconds and it catches almost every mistake while the guest is still at the table. Clara: Does it ever embarrass anybody? Mei: Never. The guests like it. What they dislike is finding out at the door that they are three dollars short. Clara: And the till at the end of the night? Mei: Hardly any differences, and when there is one, it is usually a note that went into the wrong part of the drawer. We write it down, we do not argue with it, and we check the drawer first the next evening.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. Why does Mei count the change back? — The change is the last number a guest hears, so it is the one they remember.
+@ITEM 1. What is wrong with handing the change over silently?
+@ITEM 2. How long does counting it back take, and what does it catch?
+@ITEM 3. What is the usual cause of a small till difference?
+
+@TASK 7C: Controlled Practice — Giving Change
+@RUBRIC Put the steps in order. Number them 1–5. (0. is done.)
+@LINE 0. Tell the guest the total: 'The bill comes to 87.40.' — 1
+@ITEM ___ Say what they have given you: 'Out of a hundred.'
+@ITEM ___ Count the change back aloud, coins first.
+@ITEM ___ Offer the receipt.
+@ITEM ___ Enter the payment in the system before the next table.
+
+@TASK 7D: Role-Play — At the Till
+@RUBRIC In pairs. One is a guest; one is the cashier. Use the model and cards.
+@FRAME Model: Cashier: The bill comes to eighty-seven forty. — Guest: Out of a hundred. — Cashier: Out of a hundred. Twelve sixty change: sixty cents, and that makes eighty-eight, and twelve makes a hundred. Would you like the receipt?
+@FRAME Card A — Guest: pay with a large note · ask for the receipt.
+@FRAME Card B — Cashier: say the total · say what you were given · count the change back aloud.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note for new cashiers about handling money exactly.
+@MODEL
+Three habits at the till, and your evenings will be quiet. First, say the total aloud and say what the guest has given you: 'Eighty-seven forty, out of a hundred.' Both of you then know where you are. Second, count the change back aloud, coins first, until you reach the note they gave you. It takes four seconds and catches almost every mistake while the guest is still sitting down. Third, enter the payment before you serve the next table, because a payment entered later is a payment somebody has to remember. If the drawer is short at midnight, write the amount down and tell me. We never argue with a difference; we find it.
+@CHECK the three habits clear? | exact figures used? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u6-consol | The rounding difference: recorded, explained, and left where anybody can see it.
+
+@TASK Part 8: Reading — Two Cents in Nairobi
+@LINE Before you read: can a difference be too small to write down?
+@BODY
+When Daniel closed the Nairobi month in April, the sum of his daily lines came to 29,114.02 euros and the figure the group system expected was 29,114.00. Two cents. He could have moved on, and nobody in five countries would ever have noticed. Instead he spent eleven minutes finding where the two cents came from, which turned out to be a single conversion rounded in the opposite direction on a Tuesday in March. Then he wrote one line in the file: 'Two cents, Nairobi, March conversion rounding, immaterial, not adjusted.' Noor asked him whether eleven minutes was a sensible price for two cents. Daniel said the eleven minutes had not been spent on the money. They had been spent on finding out whether the difference had a reason, because a difference with a reason is arithmetic and a difference without one is a question. The first can be left alone. The second grows. In May the same rounding produced three cents, and because the reason was already written down, it took him forty seconds. In June the group changed the conversion so that the rounding happened once instead of twice, and the difference disappeared altogether. Teresa later said that the whole improvement had begun with two cents and eleven minutes.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What was the difference, and where? — Two cents, in the Nairobi month.
+@ITEM 1. Where did the two cents come from?
+@ITEM 2. What did Daniel say the eleven minutes had been spent on?
+@ITEM 3. Why did the same difference take forty seconds in May?
+@GLOSS adjust = to change a figure in the records on purpose · conversion = changing an amount from one currency into another
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. difference → the amount by which two figures do not agree. (example)
+@MATCH
+adjust
+conversion
+reason
+immaterial
+notice (v)
+@@
+to change a figure in the records on purpose
+changing an amount from one currency into another
+why something happened
+too small to change a decision
+to see that something is there
+a bill from a supplier
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think a difference matters when…' · 'I agree, because…' · 'Yes, but…'
+@LINE Was eleven minutes a sensible price for two cents? Say why.
+@LINE What is the difference between a difference with a reason and one without?
+@LINE How small would a difference have to be before you stopped writing it down?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u6-decide | A decision between 'about two thousand' and the exact figure.
+
+@TASK Part 9: About Two Thousand, or Exactly?
+@LINE Before you read: who decides how exact a figure should be?
+@BODY
+Noor has to put the Singapore Tuesday figure into three different documents before the end of the day, and somebody has told her that consistency matters, so she wants to use the same words in all three. The exact figure is 1,987.40 Singapore dollars. The first document is the audited year-end schedule, which is read by the auditor and the bank, and which supports a number in the published accounts. The second is a one-page summary for the kitchens, which is pinned to a wall and read in thirty seconds by people with their hands full. The third is a message to Mr Alvarez, who asked how Tuesday went and is waiting on his telephone. Noor has three choices. She could write 'about 2,000' everywhere, which is friendly and consistent and wrong in one of the three. She could write '1,987.40' everywhere, which is right everywhere and unreadable in one of them. Or she could decide that consistency is about the method, not about the words, and write what each reader actually needs.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What is the exact figure? — 1,987.40 Singapore dollars.
+@ITEM 1. Who reads each of the three documents?
+@ITEM 2. What is wrong with writing 'about 2,000' everywhere?
+@ITEM 3. What does the third choice mean by 'consistency is about the method'?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which should Noor do — (a) write 'about 2,000' in all three, (b) write '1,987.40' in all three, or (c) write the exact figure in the audited schedule and 'about 2,000' in the summary and the message? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should choose ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should choose the third option. An audited schedule supports a published number, so it takes the exact figure to the cent, with the currency named: nothing else is defensible there. A summary on a kitchen wall is read in thirty seconds by people who need the size of the day, not its cents, so 'about two thousand dollars' is both honest and more useful, provided the word 'about' is there. The message to Mr Alvarez is the same case. What must stay the same in all three is the method: the same source, the same currency, the same rate, and the word 'about' wherever a figure has been rounded. Consistency means the reader can always get back to the exact number, not that every document uses identical words.
+@FRAME Phrase bank: exactly 1,987.40 · about two thousand · consistency is in the method · the reader can always get back to the exact figure.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u6-review | What you can do after Unit 6.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct quantifier or article.
+@BANK a few | a little | several | the
+@LINE 0. Every figure needs a currency beside it. (example)
+@ITEM 1. There are only ____________________ invoices still unpaid.
+@ITEM 2. There is ____________________ cash left in the Istanbul till.
+@ITEM 3. ____________________ branches have already closed the month.
+@ITEM 4. A supplier wrote to us; ____________________ supplier offered a discount.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use a few, a little, several and much correctly
+I can use a, an, the and no article correctly
+I can say and write a figure in any currency so that nobody misreads it
+I can explain a rounding difference instead of hiding it
+
+@TASK Part 10: Unit 6 glossary
+@GLOSSHEAD Unit 6 glossary
+@GLOSSARY
+countable = able to be counted one by one, such as invoices · uncountable = not counted one by one, such as cash or information · quantifier = a word that says how much or how many · article = a, an or the, before a noun · first mention = the first time something appears in a text · round (v) = to make a number simpler by removing small amounts · decimal place = a digit after the point · separator = the mark that divides thousands, or whole from part · material = large enough to change a reader's decision · immaterial = too small to change a decision · conversion = changing an amount from one currency into another · adjust = to change a figure in the records on purpose · to the cent = exactly, with no rounding at all

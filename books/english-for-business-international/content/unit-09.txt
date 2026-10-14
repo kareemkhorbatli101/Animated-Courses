@@ -1,0 +1,445 @@
+@UNIT 9 | Closing the Month | First conditional and time clauses · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u9-start | The month-end close: five branches, five time zones, one deadline.
+
+@TASK Warm-up: Words About the Close
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Close (n) → the work of finishing a period's accounts. (example)
+@MATCH
+Reconcile
+Post (v)
+Accrual
+Cut-off
+Sign off
+@@
+to make two records agree
+to enter a figure into the ledger
+a cost that belongs to this month but has not been invoiced
+the moment after which a cost belongs to the next period
+to approve the accounts as finished
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK reconcile | post | accrual | cut-off
+@LINE 0. The group closes every month in four days. (example)
+@ITEM 1. Each branch must ____________________ its journals by the end of day one.
+@ITEM 2. On day two we ____________________ the bank against the ledger.
+@ITEM 3. The electricity bill has not arrived, so we book an ____________________ .
+@ITEM 4. The ____________________ is midnight on the last day of the month.
+
+@TASK Warm-up: Reading — Four Days, Five Countries
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+The group closes its month in four working days, and the four days are the same every time. On day one each branch posts everything it has: sales, wages, supplier invoices, and an accrual for any cost that belongs to the month but has not yet been invoiced. On day two the branches reconcile their banks, so that the ledger and the statement agree to the cent. On day three the group converts every currency into euro at the rate of the last day, and the five sets of figures become one. On day four Teresa reviews the result and Mr Alvarez signs. The order never changes, because each step depends on the one before it: if the bank is not reconciled, converting the figures only produces a tidier version of the same mistake. Singapore finishes first and Montréal last, simply because of the clock. Nobody waits for anybody except where the work requires it, and the whole group knows, by the end of day one, whether the fourth day will be comfortable.
+@LINE 0. The group closes its month in four working days. (example)
+@MCQ 1. What happens on day two? | The branches post their journals | The branches reconcile their banks | The group converts to euro | Mr Alvarez signs
+@MCQ 2. Why does the order never change? | It is a tradition | Each step depends on the one before it | The bank requires it | It is faster alphabetically
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u9-words | The words of the close: close, reconcile, deadline, submit.
+
+@TASK Part 1: Words for Closing a Period
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Close → to finish a period's accounts.
+@MATCH
+Reconciliation
+Journal
+Accrual
+Prepayment
+Cut-off
+Submit
+Outstanding
+@@
+the work of making two records agree
+an entry, or a group of entries, put into the ledger
+a cost that belongs to this month but is not yet invoiced
+a payment made now for something belonging to a later period
+the moment after which a cost belongs to the next period
+to send work in officially, by a deadline
+not yet paid or not yet settled
+a plan for next year
+@GLOSS accrual = a cost that belongs to this month but has not yet been invoiced · prepayment = a payment made now for a later period
+
+@TASK Part 1: Pronunciation
+@AUDIO 9.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+reconcile | RE-con-cile
+accrual | a-CRU-al
+deadline | DEAD-line
+submit | sub-MIT
+outstanding | out-STAN-ding
+procedure | pro-CE-dure
+
+@TASK Part 1: If, When and Until — Match the Use
+@RUBRIC Match each word with the way we use it. One use is not needed. Write the letter.
+@LINE 0. because → the reason something happens. (example)
+@MATCH
+if
+when
+as soon as
+until
+unless
+@@
+a real possibility: it may or may not happen
+a time that is certain to come
+the moment immediately after something happens
+up to the point at which something happens
+except in the case that something happens
+something that happened last year
+@GLOSS unless = except if · as soon as = the moment immediately after
+
+@TASK Part 1: Closing the Month — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. The cut-off decides which month a cost belongs to. (example)
+@MCQ 1. What is an 'accrual'? | A payment made early | A cost that belongs to this month but is not yet invoiced | A kind of bank charge | A discount
+@MCQ 2. What does 'outstanding' mean? | Excellent | Not yet paid or settled | Rounded | Approved
+@MCQ 3. Which word means 'except if'? | until | unless | as soon as | when
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK reconciliation | accrual | cut-off | outstanding
+@LINE 0. The close has four fixed days. (example)
+@ITEM 1. The bank ____________________ is finished on day two.
+@ITEM 2. We book an ____________________ for the electricity we have used.
+@ITEM 3. Nothing after the ____________________ belongs to this month.
+@ITEM 4. Eleven invoices are still ____________________ in Istanbul.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence with 'if' about a real possibility, and one with 'when' about something certain.
+@PLAN If ______ , I will ______ . When ______ , I will ______ .
+@LINE Then swap your two sentences with a partner, and check together that neither of them uses 'will' in the first half.
+
+@BANNER Part 2 · Grammar — First Conditional and Time Clauses
+@TRACK [OP] Accounts track · grammar focus
+@FIG u9-grammar | If, when, as soon as and until — and the tense that follows them.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these two patterns, because they are built the same way and mean different things. The first conditional describes a real possibility and its result: 'If Nairobi posts today, we will close on Friday.' The 'if' half uses the present simple, and the result half uses 'will'. The time clause describes something that is going to happen anyway, and says when: 'When the bank statement arrives, we will reconcile it.' 'As soon as it arrives, we will post it.' 'We will not close until every branch has posted.' Notice the rule that catches almost everybody: after 'if', 'when', 'as soon as', 'until', 'before' and 'after', English uses a present tense, even though the meaning is clearly future. 'When the figures will arrive' is wrong in every variety of English; 'when the figures arrive' is right in all of them.
+@RUBRIC Look at your teacher's copy. Which sentences are real possibilities, and which are certainties with a time attached? Find one 'until' and one 'unless'.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+first conditional | If Nairobi posts today, we will close on Friday. | a real possibility, and its result
+time clause | When the statement arrives, we will reconcile it. | something certain, with its time
+until and unless | We will not close until all five have posted. | up to a point · except if
+the tense rule | after if, when, as soon as, until: the present | never 'will' in the first half
+@REMEMBER Use the first conditional for a real possibility and a time clause for something certain. After if, when, as soon as, until, before and after, use a present tense — never 'will'.
+@WATCH Watch out: say 'as soon as the figures arrive' — never 'as soon as the figures will arrive'.
+@GLOSS time clause = a clause beginning with when, until, as soon as, before or after · real possibility = something that may or may not happen
+
+@TASK Part 2: Controlled Practice — If or When?
+@RUBRIC Complete each sentence with if or when, and put the verb in the correct tense.
+@LINE 0. If Nairobi posts (post) today, we will close on Friday. (example)
+@ITEM 1. ____________________ the bank statement ____________________ (arrive), we will reconcile it.
+@ITEM 2. ____________________ Istanbul ____________________ (be) late, the close will move to Monday.
+@ITEM 3. ____________________ every branch ____________________ (post), the group will convert the figures.
+@ITEM 4. ____________________ the rate ____________________ (change) before day three, we will use the new one.
+
+@TASK Part 2: Until, Unless and As Soon As
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. We will not close ______ every branch ______ (post) its journals.
+@ITEM 2. ______ the statement ______ (arrive), I will send it to you.
+@ITEM 3. We will not sign ______ the difference ______ (be) explained.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. When the figures will arrive, we will reconcile them.
+@ITEM 2. We will not close until every branch will post.
+@ITEM 3. If Istanbul will be late, the close moves to Monday.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say what will happen if your next deadline moves, and what you will do as soon as it is finished.
+@LINE If ______ , we will ______ .
+@LINE As soon as ______ , I will ______ . I will not ______ until ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. If Nairobi ______ today, we will close on Friday. | will post | posts | posted | is posting
+@MCQ 2. We will not close ______ every branch has posted. | until | unless | as soon as | if
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u9-listen | The close checklist, step by step.
+
+@TASK Part 3: Teresa Explains the Close
+@AUDIO 9.2
+@LINE Before you listen: why must the steps of a close happen in a fixed order?
+@BODY
+Teresa: The close has four days and they never change places, because each one rests on the one before. On day one everything is posted. If a branch has a cost it has not been invoiced for, it books an accrual, because the month must carry its own costs even when the paper is late. On day two the banks are reconciled. If the bank and the ledger do not agree, we stop there: converting an unreconciled figure only gives you a tidier version of the same mistake. On day three the group converts every currency at the rate of the last day. On day four I review and Mr Alvarez signs. Now the two sentences I want you to learn. If a branch posts late, the close moves, and we tell everybody the same hour. And we do not sign until every difference has been explained — not corrected, necessarily, but explained. Those two sentences have saved this group more arguments than any system we have ever bought.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. The four days never change places. — T
+@ITEM 1. An accrual is booked when a cost belongs to the month but the invoice is late. ____
+@ITEM 2. The group converts the currencies before the banks are reconciled. ____
+@ITEM 3. If a branch posts late, the close moves and everybody is told. ____
+@ITEM 4. The accounts are signed as soon as every difference has been corrected. ____
+@LINE Useful phrases: on day one, everything is posted · if a branch posts late… · we do not sign until…
+
+@TASK Part 3: If You Post Today, We Close on Friday
+@AUDIO 9.3
+@LINE Before you listen: what does a branch need to know about a deadline it might miss?
+@BODY
+Teresa: Daniel, if you post the Nairobi journals today, we will close on Friday. Daniel: And if the bank statement does not arrive? Teresa: Then we will close on Monday. We never close with a gap. Daniel: It usually comes on the second working day. Teresa: Then it will probably come in time. But tell me as soon as you know, not as soon as you are sure — those are two different days. Daniel: Understood. I will send the journals this afternoon either way, and the bank line separately when the statement arrives. Teresa: That is exactly right, and it is why you are never the branch we are waiting for. Daniel: And if Istanbul is late again? Teresa: Then the same rule applies to them as to you, and I will say so in the same words. A deadline that bends for one branch is not a deadline.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What will happen if Daniel posts today? — The group will close on Friday.
+@ITEM 1. What will happen if the bank statement does not arrive?
+@ITEM 2. What is the difference between 'as soon as you know' and 'as soon as you are sure'?
+@ITEM 3. What does Teresa say about a deadline that bends for one branch?
+@LINE Useful phrases: if you post today, we will close on Friday · we never close with a gap · tell me as soon as you know.
+
+@TASK Part 3: The Close Across Time Zones
+@AUDIO 9.4
+@LINE Before you listen: how do you set one deadline for five countries?
+@BODY
+Mei: Teresa, when you say 'end of day one', whose day do you mean? Teresa: That is the right question, and we answer it on the sheet. Every deadline is written twice: the local hour and the Lisbon hour. Mei: So Singapore at eighteen hundred is Lisbon at eleven. Teresa: Exactly, and Montréal at seventeen hundred is Lisbon at twenty-two. If we only wrote 'end of day', Singapore would finish eleven hours before Montréal started, and somebody would always be wrong. Mei: And the order? Teresa: The order follows the clock, not the size of the branch. You finish first because your day ends first, and nobody thinks that means Singapore is more important than Montréal. Mei: What happens when a public holiday falls on day two in one country? Teresa: Then that branch posts the day before, and the sheet says so. We decide that in the month before, not on the morning.
+@RUBRIC While you listen: match each item with what it refers to. One item is not needed. (0. is done.) Write the letter.
+@LINE 0. 'End of day one' → is written twice, in local and Lisbon time.
+@MATCH
+Singapore, eighteen hundred
+Montréal, seventeen hundred
+the order of the close
+a public holiday on day two
+@@
+is eleven in Lisbon
+is twenty-two in Lisbon
+follows the clock, not the size of the branch
+means that branch posts the day before
+means the close is cancelled
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u9-speak | Role play: agreeing the close (Card A and Card B).
+
+@TASK Part 4: Talking About Deadlines
+@RUBRIC Work with a partner. Ask and answer these questions. Use conditionals and time clauses.
+@LINE What will happen if your next deadline moves by two days?
+@LINE What do you always do as soon as a piece of work is finished?
+@LINE What will you not start until something else is complete?
+@LINE Why should a deadline be written in two time zones?
+@FRAME Useful language: if… , we will… · as soon as… · we will not… until… · unless…
+
+@TASK Part 4: Agreeing the Close — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: If you post today, we will close on Friday. — B: And if the statement is late? — A: Then we will close on Monday. We never close with a gap. — B: I will tell you as soon as I know.
+@FRAME Useful language: if you post today… · then we will… · we never close with a gap · as soon as I know.
+@FRAME Card A — Group: say what will happen if each branch posts on time · say what will happen if one is late.
+@FRAME Card B — Branch: ask what you must send, and by when · say when you will send it.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe a process you are responsible for. Say what happens if a step is late, and what you will not do until it is finished.
+@PLAN First we… If… , then… We will not… until… As soon as… , I…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u9-read | The order of the close: post, reconcile, convert, review.
+
+@TASK Part 5: Why the Order Matters
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+A month-end close looks like a list of tasks and is really a chain of dependencies. Posting comes first because nothing else can be done to a figure that is not yet in the ledger. Reconciliation comes second because it is the only step that compares the group's own record with somebody else's: the bank's. That outside comparison is what turns a set of entries into evidence, and it is the reason an unreconciled month is worth so little, however neat it looks. Conversion comes third, and only third, because converting an unreconciled figure produces a tidier version of the same mistake, now in a second currency and twice as hard to find. Review comes last, when there is something worth reviewing. The chain also explains why a late branch delays everybody. In a single-country business a late ledger is a nuisance; in a group it is a stopped clock, because the conversion step needs all five sets of figures before it can begin at all. That is why the close calendar names a person for every line and writes every hour in two time zones, and why the group would rather move the whole close by one day, in public, than let one branch quietly slip behind the other four.
+@LINE 0. A close is a chain of dependencies. (example)
+@MCQ 1. Why does reconciliation come second? | It is the quickest | It compares the group's record with the bank's | It is the most popular | The bank requires it
+@MCQ 2. What happens if an unreconciled figure is converted? | It becomes correct | It becomes a tidier version of the same mistake | It disappears | It is rounded
+@MCQ 3. Why does a late branch delay everybody? | The conversion step needs all five sets of figures | The auditor refuses to work | The bank closes | The rate changes
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. chain → a set of things connected one after another. (example)
+@MATCH
+dependency
+evidence
+nuisance
+slip behind
+in public
+@@
+something that cannot happen until something else has
+facts that show something is true
+something annoying, but not serious
+to fall quietly behind the others
+openly, where everybody can see
+a written offer of a price
+@GLOSS dependency = something that cannot happen until something else has · slip behind = to fall quietly behind the others
+
+@TASK Part 5: What a Close Checklist Contains
+@RUBRIC Read about close checklists. Then mark each sentence True (T) or False (F).
+@BODY
+A close checklist has one line for every task, and each line carries four things: what must be done, who must do it, by when in two time zones, and what depends on it. The fourth is the one most checklists leave out, and it is the one that saves the week. If a line says that the conversion cannot start until all five branches have posted, then a branch that is going to be late knows, before it is late, exactly whom it is holding up. A good checklist is also honest about the things that are not in anybody's control. The bank statement arrives when the bank sends it. A public holiday falls where it falls. These are written on the sheet in the month before, with the alternative plan beside them, so that nobody has to invent a solution at eight o'clock on the morning of day two. The checklist is read aloud at the start of every close, and it takes six minutes.
+@LINE 0. Each line carries four things. → T (example)
+@ITEM 1. The fourth item is what depends on the task. ____
+@ITEM 2. Most checklists already include dependencies. ____
+@ITEM 3. Public holidays are written on the sheet in the month before. ____
+@ITEM 4. The checklist is read aloud at the start of every close. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u9-write | A close plan: who, what, when, and what happens if a step is late.
+
+@TASK Part 6: A Close Plan (70–130 words)
+@RUBRIC Write a short close plan. Use the first conditional and time clauses.
+@MODEL
+Close plan for March. On day one, every branch posts its journals and books an accrual for any cost that is not yet invoiced. On day two, the banks are reconciled; we will not move to day three until all five reconciliations agree. On day three the group converts at the rate of the thirty-first. On day four I review and Mr Alvarez signs. If a branch cannot post on day one, it must tell me as soon as it knows, and the whole close will move by one day for everybody. We will not sign until every difference has been explained.
+@PLAN On day one… On day two… If a branch… , then… We will not… until…
+@CHECK first conditional used for a real possibility? | present tense after if, when and until? | 70–130 words?
+
+@TASK Part 6: A Message About a Late Step (70–130 words)
+@RUBRIC Write a short message telling the group that a step will be late. Say what will happen next.
+@MODEL
+A short note about the Istanbul bank reconciliation. The statement has not arrived; the bank has confirmed that it will be sent tomorrow morning. If it arrives before ten o'clock Lisbon time, I will reconcile the same day and we will keep the Friday close. If it arrives later, we will close on Monday, and I will tell everybody by eleven so that nobody waits. Nothing else in Istanbul is outstanding: the journals were posted yesterday and the accrual for the electricity is booked. I am sorry to be the branch that is holding the others, and I will send one line as soon as I know.
+@CHECK conditionals and time clauses correct? | the next step named? | 70–130 words?
+
+@TASK Part 6: Explaining a Difference at the Close (70–120 words)
+@RUBRIC Explain a difference you have found during a close, and what you will do. Use time clauses.
+@MODEL
+There is a difference of four hundred euros in the Nairobi bank line. It is a payment that left on the thirty-first and arrived on the first, so it belongs to this month in our ledger and to next month at the bank. I will book it as outstanding and it will clear as soon as the April statement arrives. I will not adjust anything until I have seen it on that statement, because the difference is explained and nothing is missing. If it has not cleared by the tenth of April, I will telephone the bank and tell you the same day.
+@PLAN The difference is… It is… I will not… until… If… , I will…
+@CHECK present tense after until and as soon as? | a clear next step? | 70–120 words?
+
+@TASK Part 6: A Note on Accruals (70–120 words)
+@RUBRIC Explain to a colleague why the month carries costs that have not been invoiced. Use your own ideas.
+@MODEL
+The electricity we used in March is a March cost, even though the bill will not arrive until the middle of April. If we waited for the paper, March would look cheaper than it was and April would look dearer, and neither month would be true. So we book an accrual: our best estimate of the cost, entered in March, and reversed when the real invoice arrives. If the invoice turns out to be higher, the difference falls in April and we can see exactly how good our estimate was. The rule is simple: the month carries its own costs, invoiced or not.
+@CHECK the reason explained? | conditionals used correctly? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · an honest close
+@FIG u9-ra | An honest close: count, compare, explain, sign.
+
+@TASK 7A: Phrase Bank — Closing the Till
+@RUBRIC Match each step with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Count the drawer. → count the cash in the till at the end of the night. (example)
+@MATCH
+Compare with the system.
+Record the difference.
+Write the reason.
+Sign the sheet.
+Bank it the next morning.
+@@
+check the cash against what the till says was taken
+write the amount by which the two do not agree
+say what you believe caused the difference
+put your name on the record, so it can be followed
+take the money to the bank and keep the receipt
+order the ingredients from a supplier
+
+@TASK 7B: A Clean Close Is Not a Perfect One
+@AUDIO 9.5
+@LINE Before you listen: should a till that is two euros short be a problem?
+@BODY
+Clara: My new supervisor asked me what a good close looks like. I said 'no differences', and you made a face. Teresa: I did, and I am sorry. A close with no differences at all, every night, for a month, is not a sign of a careful team. It is a sign that somebody is making the drawer agree. Clara: By putting their own money in? Teresa: It happens, and it is kinder than it sounds and worse than it looks. If a supervisor quietly adds two euros, the record is false and the cause is never found. Clara: So what should the close look like? Teresa: Small differences, written down, with a reason beside each. If the drawer is two euros short, record two euros short. If you think a note went into the wrong part of the drawer, write that. As soon as a pattern appears, we will see it. Clara: And if there is no pattern? Teresa: Then it is the ordinary friction of handling money, and nobody will say a word.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What did Clara say a good close looks like? — No differences at all.
+@ITEM 1. Why is a month with no differences a warning sign?
+@ITEM 2. What should a supervisor do if the drawer is two euros short?
+@ITEM 3. What will the group see as soon as a pattern appears?
+
+@TASK 7C: Controlled Practice — Closing the Till
+@RUBRIC Put the steps in order. Number them 1–5. (0. is done.)
+@LINE 0. Count the cash in the drawer. — 1
+@ITEM ___ Compare the cash with what the system says was taken.
+@ITEM ___ Record any difference, with the amount.
+@ITEM ___ Write the reason you believe caused it.
+@ITEM ___ Sign the sheet and lock the takings in the safe.
+
+@TASK 7D: Role-Play — The Drawer Is Short
+@RUBRIC In pairs. One is a supervisor; one is the restaurant manager. Use the model and cards.
+@FRAME Model: Supervisor: The drawer is two euros short. — Manager: Then record two euros short, and write what you think happened. — Supervisor: Should I make it up? — Manager: Never. If you do, the cause is never found.
+@FRAME Card A — Supervisor: report a small difference · ask whether you should make it up.
+@FRAME Card B — Manager: say what must be recorded · explain what will happen if a pattern appears.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note for supervisors about closing the till honestly.
+@MODEL
+When you close a till, four things happen in the same order every night. Count the drawer. Compare it with what the system says was taken. Record any difference, in either direction. Write one line saying what you believe caused it. Then sign the sheet. If the drawer is short, write that it is short; if it is over, write that too. Never make a difference up out of your own pocket, however small it is and however kindly it is meant: the record becomes false and the cause is never found. If the same difference appears twice in a week, tell me as soon as you notice it.
+@CHECK the four steps clear? | conditionals used correctly? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u9-consol | The close calendar: every hour written twice.
+
+@TASK Part 8: Reading — The Month That Closed on Monday
+@LINE Before you read: is it better to close late and right, or on time and incomplete?
+@BODY
+In February the Istanbul bank statement did not arrive on day two. The branch had posted everything, the accrual was booked, and the only missing item was the outside evidence that the bank agreed with the ledger. Can telephoned Lisbon at nine in the morning, before anybody asked him, and said that he did not have it and did not know when he would. Teresa moved the whole close to Monday and told all five branches within the hour, in one message, with the new hours in two time zones. Nobody was pleased and nobody was surprised. On Monday the statement arrived, the reconciliation took forty minutes, and a difference of four hundred euros turned out to be a payment that had crossed the month end. The group signed on Monday afternoon. Afterwards Mr Alvarez asked whether they could not simply have closed on Friday and corrected it later. Teresa said they could have, once. The second time, somebody would have assumed it was allowed, and the third time nobody would have telephoned at nine in the morning at all. The cost of moving the close was one working day and four short conversations. The cost of the alternative would have been the thing that made the nine o'clock telephone call possible in the first place, and that is not something a group can buy back once it has gone.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What was missing on day two? — The Istanbul bank statement.
+@ITEM 1. What did Can do, and when?
+@ITEM 2. What did the four hundred euro difference turn out to be?
+@ITEM 3. Why did Teresa refuse to close on Friday and correct it later?
+@GLOSS outside evidence = proof that comes from somebody else, such as a bank · cross the month end = to leave in one month and arrive in the next
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. statement → a record from the bank of money in and out. (example)
+@MATCH
+outside evidence
+assume
+allowed
+within the hour
+cross the month end
+@@
+proof that comes from somebody else
+to take something to be true without checking
+permitted
+in less than sixty minutes
+to leave in one month and arrive in the next
+a period of three months
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think it is better to…' · 'I agree, because…' · 'Yes, but…'
+@LINE Was Teresa right to move the whole close for one branch? Say why.
+@LINE Why did she say they could have closed on Friday 'once'?
+@LINE What rule in your own work would change if it were broken once?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u9-decide | A decision about closing with an unexplained difference.
+
+@TASK Part 9: Close With a Difference, or Hold?
+@LINE Before you read: what does a signature on a set of accounts actually promise?
+@BODY
+It is day four, the bank is reconciled in four branches, and Singapore has a difference of eleven hundred euros that nobody has yet explained. Mei has checked the till records, the card machine and the three largest payments, and none of them accounts for it. The accounts are due with the bank on Friday morning, and Mr Alvarez is travelling on Thursday. Noor has three choices, and each of them is defended by somebody in the room. She could close on time and correct the difference next month, which is what the branch manager wants, because the amount is small against a quarter of several million. She could post an adjustment to make the two figures agree, which would take four minutes and is what nobody will admit to wanting. Or she could hold the close, tell the bank the accounts will be a working day late, and keep looking. The third choice costs the group a day and an awkward telephone call. The second costs nothing today and makes the record untrue. The first is somewhere in between, and it is the one that sounds most reasonable.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What is unexplained? — A difference of eleven hundred euros in Singapore.
+@ITEM 1. What has Mei already checked?
+@ITEM 2. What does the branch manager want, and why?
+@ITEM 3. What does the third choice cost?
+
+@TASK Part 9: Make the Decision
+@RUBRIC What should Noor do — (a) close on time and correct it next month, (b) post an adjustment so the figures agree, or (c) hold the close, tell the bank, and keep looking? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should choose ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should choose the third option. A signature on a set of accounts says that the figures have been checked, and an unexplained difference means they have not. The second choice is the only one that is actually dishonest: an adjustment with no reason behind it makes the record agree with itself and disagree with the world, which is exactly what an audit exists to find. The first choice sounds reasonable and is the dangerous one, because next month the difference will be a month old, the till records will have been overwritten, and nobody will find it. A working day is a cheap price for a signature that means something, and the bank will respect the telephone call.
+@FRAME Phrase bank: a signature says the figures have been checked · an adjustment with no reason · next month nobody will find it · a cheap price for a signature that means something.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u9-review | What you can do after Unit 9.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the first conditional or a time clause.
+@BANK posts | will close | arrives | until
+@LINE 0. The group closes in four working days. (example)
+@ITEM 1. If Nairobi ____________________ today, we will close on Friday.
+@ITEM 2. If the statement is late, we ____________________ on Monday.
+@ITEM 3. As soon as the statement ____________________ , I will reconcile it.
+@ITEM 4. We will not sign ____________________ every difference has been explained.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use the first conditional for a real possibility and its result
+I can use when, as soon as and until with a present tense
+I can describe the steps of a month-end close, in order
+I can say what will happen if a deadline is missed
+
+@TASK Part 10: Unit 9 glossary
+@GLOSSHEAD Unit 9 glossary
+@GLOSSARY
+close (n) = the work of finishing a period's accounts · reconcile = to make two records agree · post (v) = to enter a figure into the ledger · journal = an entry, or group of entries, put into the ledger · accrual = a cost that belongs to this month but is not yet invoiced · prepayment = a payment made now for a later period · cut-off = the moment after which a cost belongs to the next period · outstanding = not yet paid or settled · sign off = to approve the accounts as finished · first conditional = if + present, will + verb, for a real possibility · time clause = a clause with when, until, as soon as, before or after · dependency = something that cannot happen until something else has

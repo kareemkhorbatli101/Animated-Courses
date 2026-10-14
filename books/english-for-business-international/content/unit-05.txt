@@ -1,0 +1,445 @@
+@UNIT 5 | Value, Not Just Price | Comparatives, superlatives and modifiers · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u5-start | Five restaurants, five price lists — and five different costs behind them.
+
+@TASK Warm-up: Words About Price and Value
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Price → the amount of money you pay for something. (example)
+@MATCH
+Value
+Quality
+Waste
+Supplier
+Quote (n)
+@@
+what you get for what you pay
+how good something is
+what is thrown away and never used
+a business that sells goods to another business
+a written offer of a price
+a bill from a guest
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK cheaper | value | waste | quote
+@LINE 0. Two suppliers sent their prices this week. (example)
+@ITEM 1. Supplier B is fifteen per cent ____________________ than Supplier A.
+@ITEM 2. Its quality is lower, so there is more ____________________ .
+@ITEM 3. The cheapest price is not always the best ____________________ .
+@ITEM 4. Can asked each supplier for a written ____________________ .
+
+@TASK Warm-up: Reading — The Cheapest Is Not the Cheapest
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+Can had two quotes on his desk in Istanbul, and at first the decision looked easy. Supplier A wanted eight euros forty a kilo for its tomatoes. Supplier B wanted seven euros ten, which is far cheaper, and Supplier B had sent a friendly letter as well. Can almost signed. Then he did what Teresa had taught him and looked past the price. He asked both kitchens how much of each delivery they actually used. With Supplier A, the chefs threw away about four kilos in every hundred. With Supplier B, they threw away nineteen. When he divided the cost by the number of plates the kitchen could actually make, Supplier A worked out at one euro eighty-two a plate and Supplier B at one euro ninety-five. The cheaper supplier was more expensive. Can wrote both calculations on one page, sent it to Lisbon, and signed with Supplier A. He kept the letter in the file with the arithmetic stapled behind it, so that the next person to look would see why. 'Price is one number,' Teresa wrote back. 'Value is two numbers and a little arithmetic.' Can has had that sentence above his desk ever since.
+@LINE 0. Can had two quotes on his desk. (example)
+@MCQ 1. Which supplier had the lower price per kilo? | Supplier A | Supplier B | Both were the same | Neither sent a price
+@MCQ 2. Why was the cheaper supplier more expensive in the end? | It delivered late | Much more of its delivery was wasted | Its letter was unfriendly | It charged for delivery
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u5-words | Comparing value: cheaper, more expensive, value, as good as.
+
+@TASK Part 1: Words for Comparing
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Cheaper → lower in price.
+@MATCH
+More expensive
+Value
+Margin
+Per unit
+Discount
+Far (adv)
+Slightly
+@@
+higher in price
+what you get for what you pay
+what is left after the costs are taken away
+for each single item, kilo or plate
+an amount taken off the price
+by a large amount
+by a small amount
+a plan for next year
+@GLOSS margin = what is left after the costs are taken away · per unit = for each single item, kilo or plate
+
+@TASK Part 1: Pronunciation
+@AUDIO 5.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+expensive | ex-PEN-sive
+quality | QUA-li-ty
+supplier | su-PPLI-er
+comparison | com-PA-ri-son
+discount | DIS-count
+economy | e-CO-no-my
+
+@TASK Part 1: Comparing Forms — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. cheap → the plain adjective, with no comparison. (example)
+@MATCH
+cheaper than
+the cheapest
+as good as
+not as good as
+far cheaper than
+@@
+comparing two things
+comparing three or more, and naming the top one
+saying two things are equal
+saying one is below the other
+making a comparison much stronger
+saying something is happening now
+@GLOSS comparative = -er or more, with 'than' · superlative = the -est or the most, for three or more
+
+@TASK Part 1: Price and Value — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'Value' means what you get for what you pay. (example)
+@MCQ 1. Which is a comparative? | the cheapest | cheaper than | as cheap as | cheap
+@MCQ 2. What does 'per unit' mean? | In total | For each single item | Before tax | After delivery
+@MCQ 3. What is a 'margin'? | The price on the menu | What is left after the costs | The number of guests | A discount
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK far | slightly | as good as | per unit
+@LINE 0. Two quotes arrived this week. (example)
+@ITEM 1. Supplier B is ____________________ cheaper than Supplier A — by fifteen per cent.
+@ITEM 2. Supplier C is only ____________________ more expensive than Supplier A.
+@ITEM 3. The quality of B is not ____________________ the quality of A.
+@ITEM 4. We always compare the cost ____________________ , not the total.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence comparing two things you know, and one naming the best of three.
+@PLAN ______ is ______ than ______ . Of the three, ______ is the ______ .
+@LINE Then swap your two sentences with a partner, and check together that the comparative and the superlative are formed correctly.
+
+@BANNER Part 2 · Grammar — Comparatives, Superlatives and Modifiers
+@TRACK [OP] Accounts track · grammar focus
+@FIG u5-grammar | Comparatives and superlatives, and the modifiers that make them exact.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at how we compare. With short adjectives we add '-er' and 'than': cheaper than, higher than, later than. With longer adjectives we use 'more' and 'than': more expensive than, more reliable than. For three or more things we use the superlative: the cheapest, the most expensive, and we usually say which group we mean — the cheapest of the three, the best in the region. A few forms are irregular and must be learned: good, better, the best; bad, worse, the worst; far, further, the furthest. Then there are the modifiers, which are what turn a comparison into a measurement. 'Cheaper' tells a reader very little. 'Fifteen per cent cheaper', 'far cheaper', 'slightly cheaper', 'almost as cheap as' and 'not nearly as cheap as' all tell them something they can use.
+@RUBRIC Look at your teacher's copy. Which comparisons are measured, and which are only opinions? Find one superlative and say which group it compares.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+comparative | Supplier B is cheaper than Supplier A. | comparing two things
+superlative | Supplier C is the best value of the three. | three or more, with the group named
+as … as | B is not as good as A. | equal, or not equal
+modifiers | far cheaper · slightly higher · 15% cheaper | how big the difference is
+@REMEMBER Use '-er … than' for short adjectives and 'more … than' for long ones; use 'the -est' or 'the most' for three or more, and say which group. A comparison without a measure is only an opinion.
+@WATCH Watch out: never double the comparative — say 'cheaper' or 'more expensive', not 'more cheaper'.
+@GLOSS modifier = a word that makes a comparison stronger or weaker · irregular = not following the usual rule
+
+@TASK Part 2: Controlled Practice — Comparative or Superlative?
+@RUBRIC Complete each sentence with the correct form of the adjective.
+@LINE 0. Supplier B is cheaper (cheap) than Supplier A. (example)
+@ITEM 1. Supplier C is ____________________ (expensive) than Supplier A.
+@ITEM 2. Of the three, Supplier C gives ____________________ (good) value per plate.
+@ITEM 3. The waste from Supplier B is ____________________ (bad) than we expected.
+@ITEM 4. Lisbon is ____________________ (busy) branch of the five in summer.
+
+@TASK Part 2: Modifiers and as … as
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. B is ______ (far / cheap) than A, but the quality is lower.
+@ITEM 2. C is only ______ (slight / expensive) than A.
+@ITEM 3. The quality of B is not ______ (good) as the quality of A.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. Supplier B is more cheaper than Supplier A.
+@ITEM 2. Of the three, Supplier C is the better value.
+@ITEM 3. The quality of B is not so good than the quality of A.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Compare two things you both know — two shops, two routes to work, two suppliers. Measure the difference.
+@LINE ______ is ______ than ______ , by about ______ .
+@LINE Of the three, ______ is the ______ , because ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. Supplier B is ______ than Supplier A. | more cheap | cheaper | cheapest | the cheaper
+@MCQ 2. Of the five branches, Lisbon is ______ in summer. | busier | more busy | the busiest | as busy
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u5-listen | Cheaper is not always better value.
+
+@TASK Part 3: Teresa Explains Price and Value
+@AUDIO 5.2
+@LINE Before you listen: what is the difference between a price and a cost per plate?
+@BODY
+Teresa: There is one lesson in this unit, and if you learn it you will save the group more money than I do. A price is what a supplier asks. A cost is what the dish actually costs you when it reaches the guest. They are not the same number, and the distance between them is called waste. If a supplier is fifteen per cent cheaper per kilo, but you throw away a fifth of every box, then the cheaper supplier has quietly become the more expensive one. So always compare the cost per plate, not the price per kilo, and say which you are comparing. And when you compare, measure. 'Cheaper' is an opinion. 'Fifteen per cent cheaper per kilo, but four cents more per plate' is a fact, and your manager can act on a fact. Use the modifiers too: far cheaper, slightly higher, almost as good as. They cost you one word and they carry the whole size of the difference.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. A price and a cost per plate are not the same number. — T
+@ITEM 1. Waste is the distance between the price and the real cost. ____
+@ITEM 2. A cheaper price per kilo always means a cheaper cost per plate. ____
+@ITEM 3. 'Cheaper' on its own is a measurement. ____
+@ITEM 4. Modifiers carry the size of a difference. ____
+@LINE Useful phrases: the price per kilo · the cost per plate · fifteen per cent cheaper · almost as good as.
+
+@TASK Part 3: Comparing Two Suppliers
+@AUDIO 5.3
+@LINE Before you listen: which questions should you ask before choosing the cheaper quote?
+@BODY
+Can: I have both quotes. Supplier B is fifteen per cent cheaper than Supplier A per kilo. Teresa: And the quality? Is it as good? Can: Not quite. The chefs say they throw away about nineteen kilos in a hundred, against four with Supplier A. Teresa: Then do the arithmetic. What is the cost per plate? Can: One euro ninety-five with B, and one euro eighty-two with A. Teresa: So B is cheaper per kilo and more expensive per plate. Can: Yes. And there is a third quote. Supplier C is slightly more expensive than A per kilo, but the waste is only three per cent, so it comes out at one euro seventy-nine. Teresa: Then C is the best value of the three, and you can prove it in one line. Write the line, not the feeling.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. How much cheaper is Supplier B per kilo? — Fifteen per cent.
+@ITEM 1. How much does each kitchen throw away with B, and with A?
+@ITEM 2. What is the cost per plate for A, B and C?
+@ITEM 3. Which supplier is the best value, and how can Can prove it?
+@LINE Useful phrases: fifteen per cent cheaper per kilo · the cost per plate is… · the best value of the three.
+
+@TASK Part 3: Five Branches, Five Price Lists
+@AUDIO 5.4
+@LINE Before you listen: why can the same dish cost different amounts in different countries?
+@BODY
+Daniel: Teresa, a guest in Nairobi asked me why the same dish costs less here than in Lisbon. What should I have said? Teresa: The truth, which is more interesting than people expect. The dish is not the same price because the costs behind it are not the same. Rent is far higher in Lisbon. Wages are different in every country. The tomatoes travel further to one kitchen than to another. Daniel: So the menu price follows the cost? Teresa: It follows the cost, the local market and the tax. Singapore has GST where Lisbon has VAT, and the rates are not the same either. Daniel: Then comparing the two menu prices directly tells you nothing. Teresa: It tells you almost nothing. Compare the margins instead, and then the two restaurants can be compared honestly. Daniel: I shall tell the guest the short version. Teresa: Tell her the margin version. She will be impressed.
+@RUBRIC While you listen: match each thing with how it differs between branches. One item is not needed. (0. is done.) Write the letter.
+@LINE 0. The dish → costs a different amount in each country.
+@MATCH
+Rent
+Wages
+Tax
+The honest comparison
+@@
+is far higher in Lisbon than in Nairobi
+are different in every country
+is GST in Singapore and VAT in Lisbon
+is the margin, not the menu price
+is the same in all five countries
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u5-speak | Role play: choosing a supplier (Card A and Card B).
+
+@TASK Part 4: Talking About Value
+@RUBRIC Work with a partner. Ask and answer these questions. Use comparatives and superlatives.
+@LINE Which is better value where you live: cooking at home or eating out? Measure the difference.
+@LINE Think of two shops you both use. Which is cheaper, and which is better value?
+@LINE What is the most expensive mistake a buyer can make?
+@LINE Why is the cheapest quote not always the one to accept?
+@FRAME Useful language: far cheaper than… · slightly more expensive than… · not as good as… · the best value of the three.
+
+@TASK Part 4: Choosing a Supplier — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: Supplier B is fifteen per cent cheaper than A. — B: And the waste? — A: Nineteen per cent, against four. — B: Then B is cheaper per kilo and more expensive per plate. Which is the best value of the three?
+@FRAME Useful language: cheaper per kilo · more expensive per plate · the waste is… · the best value of the three.
+@FRAME Card A — Buyer: compare two suppliers on price · say which is cheaper, and by how much.
+@FRAME Card B — Controller: ask about quality and waste · say which offers the best value, and why.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Compare three options and recommend one. Measure every comparison you make.
+@PLAN Option A is… Option B is ______ per cent… Of the three, C is the… , because…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u5-read | Price and value are not the same number.
+
+@TASK Part 5: What a Buyer Actually Compares
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Every buyer learns the same lesson, usually by making the same mistake first. A quote arrives with a price on it, the price is lower than the one you are paying now, and the decision seems to have been made for you. But a price is only the first of four numbers, and the other three decide whether the saving is real. The second number is waste: how much of each delivery reaches a plate, and how much reaches a bin. The third is reliability: a supplier who is cheaper but late twice a month forces a kitchen to buy at local shop prices to fill the gap, and those emergency purchases are the most expensive food a restaurant ever buys. The fourth is the payment term, because a cheaper supplier who wants paying in seven days is not cheaper than a dearer one who waits sixty, when the business is short of cash. In a group that buys in five currencies there is a fifth number as well, since a quote that is cheaper in lira this month may not be cheaper in euro next month. A buyer who compares all of them, and writes the comparison down with its measurements, will be contradicted far less often than one who compares only the first.
+@LINE 0. A price is only the first of several numbers. (example)
+@MCQ 1. What is the second number a buyer must compare? | The delivery date | Waste | The supplier's letter | The menu price
+@MCQ 2. Why is an unreliable supplier expensive? | The kitchen buys at local shop prices to fill gaps | The invoices are longer | The quality is better | The orders are smaller
+@MCQ 3. What is the fifth number in a group that buys in five currencies? | The number of branches | The exchange rate | The tax rate | The number of guests
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. quote → a written offer of a price. (example)
+@MATCH
+reliability
+payment term
+emergency (adj)
+dearer
+contradicted
+@@
+how often a supplier does what it promised
+how long you have before you must pay
+needed suddenly, and usually at a bad price
+more expensive
+told by somebody that you are wrong
+a period of three months
+@GLOSS payment term = how long you have before you must pay · reliability = how often a supplier does what it promised
+
+@TASK Part 5: How to Write a Comparison Nobody Argues With
+@RUBRIC Read about writing comparisons. Then mark each sentence True (T) or False (F).
+@BODY
+A comparison that survives a meeting has four parts. It names the options, so nobody wonders what was left out. It gives both numbers, because a reader who is told only that something is cheaper cannot check anything. It measures the difference in a way the reader already understands — per cent, per kilo, per plate, per month — and it uses the same measure for every option. And it states the judgement in one sentence at the end, so that the reader knows what the writer actually recommends. Two habits spoil a comparison. The first is the single direction: 'B is cheaper' is an argument, while 'B is fifteen per cent cheaper per kilo and four cents more per plate' is a fact. The second is the moving measure, where one option is compared per kilo and the next per plate, which hides the answer inside the arithmetic. Write the table first and the sentence afterwards. If the table is honest, the sentence writes itself; if the sentence came first, the table is usually built to agree with it, and a reader can feel the difference even when they cannot explain it.
+@LINE 0. A good comparison names the options. → T (example)
+@ITEM 1. A comparison should give both numbers, not one. ____
+@ITEM 2. Different options may be measured in different ways. ____
+@ITEM 3. The judgement belongs in one sentence at the end. ____
+@ITEM 4. 'B is cheaper' on its own is a fact. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u5-write | A comparison report: the options, the numbers, the difference, the judgement.
+
+@TASK Part 6: Comparing Two Suppliers (70–130 words)
+@RUBRIC Write a short comparison of two suppliers. Give both numbers and measure the difference.
+@MODEL
+We asked two suppliers to quote for tomatoes. Supplier A quoted eight euros forty a kilo; Supplier B quoted seven euros ten, which is fifteen per cent cheaper. The difference in waste is larger than the difference in price. The kitchens use ninety-six kilos in every hundred from Supplier A, and only eighty-one from Supplier B. Measured per plate, which is the only measure that reaches the guest, Supplier A costs one euro eighty-two and Supplier B one euro ninety-five. Supplier B is therefore cheaper per kilo and seven per cent more expensive per plate. I recommend Supplier A.
+@PLAN Supplier A quoted… Supplier B quoted… , which is ______ per cent… Measured per plate… I recommend…
+@CHECK both numbers given? | the difference measured? | 70–130 words?
+
+@TASK Part 6: The Best of Three (70–130 words)
+@RUBRIC Compare three options and recommend one. Use superlatives, and name the group you are comparing.
+@MODEL
+Of the three quotes we received, Supplier C offers the best value, although it does not offer the lowest price. Supplier B is the cheapest per kilo at seven euros ten, but it is also the worst for waste, at nineteen per cent. Supplier A is slightly dearer per kilo and far better in the kitchen. Supplier C is only forty cents a kilo more expensive than A, and its waste is the lowest of the three at three per cent, which brings it to one euro seventy-nine a plate. That is the lowest cost per plate of the three, and it is the number the guest eventually pays for.
+@CHECK superlatives used correctly? | the group named? | 70–130 words?
+
+@TASK Part 6: Explaining a Price Difference (70–120 words)
+@RUBRIC Explain to a guest or a colleague why the same dish costs different amounts in two countries. Use comparatives.
+@MODEL
+The same dish costs less in Nairobi than in Lisbon, and the reason is not the recipe. Rent in the Lisbon street is far higher than in Nairobi, and it is paid every month whether the room is full or empty. Wages are different in each country, and so is the tax: Singapore charges GST where Lisbon charges VAT, at different rates. The tomatoes themselves travel further to one kitchen than to the other. The menu price follows all of those costs. If you want to compare the two restaurants honestly, compare the margins, not the prices.
+@PLAN The dish costs ______ in ______ than in ______ . Rent is… Wages are… Tax is… So the price follows…
+@CHECK comparatives used correctly? | the real reason given? | 70–120 words?
+
+@TASK Part 6: A Recommendation (70–120 words)
+@RUBRIC Write a short recommendation to a manager. Measure every comparison you make.
+@MODEL
+I recommend that we move our tomato order to Supplier C from the first of next month. C is forty cents a kilo dearer than our current supplier, which is about five per cent, but its waste is three per cent against our present four, and its deliveries have been on time in eleven weeks out of twelve. Measured per plate, C costs one euro seventy-nine against our one euro eighty-two. The saving is small, at three cents a plate, but we serve nine hundred plates a week, and the reliability is worth more than the money.
+@CHECK every comparison measured? | a clear recommendation? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · pricing the menu
+@FIG u5-ra | Four numbers behind one line on a menu.
+
+@TASK 7A: Phrase Bank — Pricing a Dish
+@RUBRIC Match each term with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Portion → the amount of food served to one guest. (example)
+@MATCH
+Food cost
+Waste
+Margin
+Menu price
+Mark-up
+@@
+what the ingredients of one dish cost
+what is thrown away and never served
+what is left after the costs are taken away
+what the guest pays for the dish
+how much is added to the cost to reach the price
+a written offer from a supplier
+
+@TASK 7B: Four Numbers Behind One Line
+@AUDIO 5.5
+@LINE Before you listen: how does a restaurant decide what to charge for a dish?
+@BODY
+Clara: Every month somebody asks me why a dish costs what it costs. What do I say? Teresa: Give them the four numbers. The first is the food cost: what the ingredients of one portion cost us. The second is waste, because we buy more than we serve. Clara: And the third? Teresa: The third is everything that is not food — the rent, the wages, the electricity — spread across the plates we expect to sell. The fourth is the margin we need to stay open. Clara: And the menu price is all four added together? Teresa: All four, rounded to a number that looks sensible on a menu. Clara: Our tomato dish is cheaper than the same dish in Lisbon. Teresa: It is, and it should be. The rent behind it is far lower. The dish is not cheaper; the city is.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What is the first number? — The food cost: what the ingredients of one portion cost.
+@ITEM 1. Why is waste the second number?
+@ITEM 2. What does the third number include?
+@ITEM 3. Why is the same dish cheaper in Nairobi than in Lisbon?
+
+@TASK 7C: Controlled Practice — Building the Menu Price
+@RUBRIC Put the steps of pricing a dish in order. Number them 1–5. (0. is done.)
+@LINE 0. Work out the food cost of one portion. — 1
+@ITEM ___ Add the waste, because we buy more than we serve.
+@ITEM ___ Add a share of the rent, wages and electricity.
+@ITEM ___ Add the margin the restaurant needs.
+@ITEM ___ Round the total to a sensible menu price.
+
+@TASK 7D: Role-Play — Why Does It Cost That?
+@RUBRIC In pairs. One is a guest or a new waiter; one is the restaurant manager. Use the model and cards.
+@FRAME Model: Waiter: Why is this dish more expensive than the same one in Nairobi? — Manager: The food cost is almost the same, but the rent here is far higher, and the tax is different. The dish is not dearer; the city is.
+@FRAME Card A — Waiter: ask why a dish costs what it costs · ask why it is cheaper in another branch.
+@FRAME Card B — Manager: give the four numbers · compare the two cities, and measure the difference.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note to your team explaining how a menu price is built.
+@MODEL
+When a guest asks why a dish costs what it costs, give them the whole answer, because it is a good one. First, the ingredients of one portion cost us a known amount, and we check it every month. Second, we buy more than we serve, so a small part of every delivery is waste and has to be carried by the dishes we do sell. Third, the rent, the wages and the electricity are shared across the plates we expect to sell that month. Fourth, we add the margin that keeps the restaurant open. The price on the menu is all four, rounded sensibly.
+@CHECK the four numbers given? | comparatives used where needed? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u5-consol | Two suppliers compared, in the only measure that reaches the guest.
+
+@TASK Part 8: Reading — The Quote That Looked Too Good
+@LINE Before you read: why is a very low quote sometimes a warning rather than an opportunity?
+@BODY
+In March a new supplier wrote to all five branches at once, offering prices about a quarter below anything Blue Door was paying. Two branch managers wanted to sign immediately, which is exactly what the letter was designed to produce. Teresa asked for one week and three questions. How long had the supplier been trading? Could it name two restaurants of a similar size that it already delivered to? And would it hold the price for six months in writing? The answers came back slowly. The business was eleven months old, it could name one small café, and it would hold the price for six weeks. None of that proved the supplier was bad. It proved that the quote was not comparable with the others, because it was a different kind of offer: a short price from a young business that needed the volume. The group ordered from them for one branch only, for two months, and measured the waste every week. The waste was ordinary, the deliveries were late twice, and in May the price rose by eleven per cent. Blue Door had lost nothing and had learned the shape of the offer.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What did the new supplier offer? — Prices about a quarter below what the group was paying.
+@ITEM 1. What three questions did Teresa ask?
+@ITEM 2. Why were the answers important, even though none of them proved the supplier was bad?
+@ITEM 3. What did the group do instead of signing, and what happened?
+@GLOSS volume = the amount of business, measured in quantity · comparable = able to be compared fairly with something else
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. opportunity → a good chance to do something. (example)
+@MATCH
+volume
+comparable
+hold (a price)
+trading
+ordinary
+@@
+the amount of business, measured in quantity
+able to be compared fairly with something else
+to keep a price unchanged for an agreed period
+buying and selling, as a business
+usual; nothing unexpected
+a written offer of a price
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the most important question is…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why did Teresa want the price held in writing for six months?
+@LINE Is a young business always a risk? Say why, or why not.
+@LINE What would you measure during a two-month trial, and how often?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u5-decide | A decision between the cheapest price and the best value.
+
+@TASK Part 9: The Cheapest, or the Best Value?
+@LINE Before you read: when is it right to pay more?
+@BODY
+Can has three quotes and a decision to make before Friday. Supplier B is the cheapest per kilo at seven euros ten, which is fifteen per cent below Supplier A. Supplier A has served the group for four years, wastes four kilos in a hundred, and has never been late. Supplier C is forty cents a kilo dearer than A, wastes only three, and has delivered on time in eleven weeks out of twelve, but the group has used it for three months only. Measured per plate, the three come out at one euro ninety-five, one euro eighty-two, and one euro seventy-nine. The branch manager wants B, because the price list is what he sees every week. The head chef wants A, because he knows it. Can can recommend the cheapest price, the supplier everybody trusts, or the lowest cost per plate with the shortest record. Whatever he recommends, he will have to defend it in one line in front of three people who all have a different number in their heads.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. Which supplier is cheapest per kilo? — Supplier B, at seven euros ten.
+@ITEM 1. What is the cost per plate for each of the three?
+@ITEM 2. What does the branch manager want, and why?
+@ITEM 3. What is the one weakness of Supplier C?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which should Can recommend — (a) Supplier B, the cheapest price, (b) Supplier A, the supplier everybody trusts, or (c) Supplier C, the lowest cost per plate? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Can should recommend ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Can should recommend Supplier C. The comparison has to be made in one measure, and the only measure that reaches the guest is the cost per plate. On that measure C is the lowest of the three, by three cents against A and sixteen against B. Supplier B is cheapest only on the number the branch manager happens to see each week, and its waste makes it the dearest in the kitchen. Supplier A is the safe answer, and it is three cents a plate more expensive, which over nine hundred plates a week is not nothing. C's record is short, so I would recommend it for one branch for three months, with the waste measured weekly, exactly as the group did in March.
+@FRAME Phrase bank: the only measure that reaches the guest · the lowest cost per plate · cheapest per kilo, dearest in the kitchen · for one branch, for three months.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u5-review | What you can do after Unit 5.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct comparative or superlative form.
+@BANK cheaper | the best | worse | far
+@LINE 0. Two quotes arrived this week. (example)
+@ITEM 1. Supplier B is ____________________ than Supplier A per kilo.
+@ITEM 2. Of the three, Supplier C gives ____________________ value per plate.
+@ITEM 3. The waste from Supplier B is ____________________ than we expected.
+@ITEM 4. Rent in Lisbon is ____________________ higher than in Nairobi.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can compare two things with comparatives
+I can say which is best with superlatives, and name the group
+I can use modifiers like far, slightly and almost as … as
+I can explain the difference between a price and a value
+
+@TASK Part 10: Unit 5 glossary
+@GLOSSHEAD Unit 5 glossary
+@GLOSSARY
+comparative = the -er or 'more' form, used with 'than' · superlative = the -est or 'the most' form, for three or more · modifier = a word that makes a comparison stronger or weaker, such as far or slightly · value = what you get for what you pay · waste = what is thrown away and never served · margin = what is left after the costs are taken away · per unit = for each single item, kilo or plate · quote = a written offer of a price · payment term = how long you have before you must pay · reliability = how often a supplier does what it promised · mark-up = how much is added to the cost to reach the price · comparable = able to be compared fairly with something else
