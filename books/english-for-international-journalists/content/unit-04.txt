@@ -1,0 +1,736 @@
+@UNITHEAD UNIT 4 | The Interview: Asking Politely | Beat · Interview | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+ask polite questions with can, could and would
+make yes/no and wh- questions correctly
+set up and run a short interview, with or without an interpreter
+listen well and get a good quote
+
+@FIG g-team | The Atlas Wire team — Mira runs her first full interview in this unit.
+@STORY The story so far. | Mira has reported live from the crossing at Kalina. Now a family is opening a café at the end of the bridge, and Mira is going to interview them. First she must ask, politely, if she can — and she must agree how to work with Dren, the local journalist who is helping her.
+
+@WARMUP May I ask a question? | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team decides who is going to do the interview.
+@WARMBOX
+Mira wants to interview a family at the Kalina crossing. She walks up to them and smiles. "Good morning. My name is Mira Sandoval, and I am a correspondent with Atlas Wire," she says. "Can I ask you a few questions? Could you tell me your names? And would you like to say something about coming back?" The family smile. "Of course," says the father. "Please, sit with us."
+
+@EX W1 | Answer the questions.
+@NUM
+Who does Mira want to interview? ___________
+What does Mira do before she asks? ___________
+What does the father say? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Mira is rude to the family. ______
+Mira says her name and her agency. ______
+The family say no. ______
+
+@EX W3 | Find three polite questions in the text. Write the first word of each.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+How do you ask for something politely in your language?
+Is it easy or hard to talk to a stranger in another country? Why?
+
+@PART 1 | The words of the interview | The words a reporter needs for an interview. Learn these first.
+@FIG u4-words | Four key words — interview, polite, quote, interpreter.
+@H The words
+@VOCAB
+interview | a meeting to ask questions
+question | what you ask
+answer | what someone says back
+polite | kind and respectful
+request | when you ask for something
+permission | a yes to do something
+appointment | a set time to meet
+arrange | to plan a meeting
+record | to save sound or video
+quote | a person's exact words
+interpreter | a person who turns one language into another
+follow-up | a second question about the answer
+guest | the person you interview
+notes | short words you write down
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  interview
+2.  polite
+3.  permission
+4.  arrange
+5.  record
+6.  quote
+7.  interpreter
+8.  follow-up
+9.  guest
+10.  appointment
+@@
+a)  kind and respectful
+b)  a set time to meet
+c)  a meeting to ask questions
+d)  the person you interview
+e)  to save sound or video
+f)  a person who turns one language into another
+g)  a person's exact words
+h)  to plan a meeting
+i)  a yes to do something
+j)  a second question
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | interview · polite · quote · record · appointment · interpreter
+@NUM
+Mira asks for an ___________ to meet the family.
+She is always ___________ with people.
+May I ___________ this on my phone?
+Here is a good ___________ from the café owner.
+The family do not speak English, so Dren works as the ___________ .
+A short ___________ is only ten minutes.
+
+@EX 1C | Match the two halves (collocations).
+@MATCH
+1.  ask a
+2.  give an
+3.  take
+4.  make an
+5.  get
+@@
+a)  question
+b)  answer
+c)  notes
+d)  appointment
+e)  permission
+
+@EX 1D | Circle the word that is different.
+@NUM
+question · answer · quote · deadline
+polite · kind · rude · respectful
+arrange · plan · prepare · shout
+guest · source · person · microphone
+
+@FIG g-pageflow | From interview to front page — a good quote makes the story strong.
+@EX 1E | Complete the paragraph. Use: interview · questions · polite · quote · notes.
+@WHITE
+Mira has an ___________ today. She prepares her ___________ first. She is always ___________ . She listens well and takes ___________ . Then she chooses one good ___________ for her story.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+a set time to meet → ___________
+a person's exact words → ___________
+a second question about the answer → ___________
+a person who turns one language into another → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+Who would you like to interview? Why?
+What is one polite question you could ask them?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write three questions you would ask a person who is coming home to their town. Be polite.
+
+@PART 2 | Grammar: asking politely | Can and could for requests, would for offers, and the order of a question.
+@FIG u4-gA | Can, could and would make a question polite.
+@GRAMMAR 1 · can / could — requests
+{{can}}: {{Can I}} ask you a question?   {{Can you}} say that again?
+{{could}} is more polite: {{Could you}} tell me your name, please?
+Use them to ask for permission and to make a request.
+
+@GRAMMAR 2 · would — offers and polite requests
+{{Would you like}} to talk to me?   (an offer / a soft request)
+{{Would you}} say a little more, please?
+*would* is gentle and very polite.
+
+@FIG u4-gB | A question: (wh-) + do / can / is + subject + verb + ?
+@GRAMMAR 3 · Question forms
+Yes / no: [[Do]] you live here?   [[Is]] the crossing open?   [[Can]] I record this?
+Wh-: [[What do]] you do?   [[Where do]] you live?   [[Why did]] you come back?
+Order: (wh-) + do / does / can / is + subject + verb + ?
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Make the request more polite. Change can to could.
+@NUM
+Can you tell me your name? → ________________________
+Can I ask a question? → ________________________
+Can you say that again? → ________________________
+
+@EX 2B | Complete with can, could or would.
+@NUM
+___________ I ask you a question, please?
+___________ you like a cup of coffee?
+___________ you tell me the time, please? (very polite)
+
+@EX 2C | Put the words in order to make a question.
+@NUM
+you / do / where / live → ________________________
+the crossing / is / open → ________________________
+come back / why / did / you → ________________________
+
+@EX 2D | Write the yes/no question.
+@NUM
+(you / live / here) → ___________ ?
+(the café / open / is) → ___________ ?
+(I / record / can / this) → ___________ ?
+
+@H Your own words
+@EX 2E | Write two polite requests you could make to a guest. Use could and would.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two wh- questions you would ask a person about their day.
+@NUM
+________________________
+________________________
+
+@PART 3 | Running an interview | A good interview: prepare, be polite, listen, and ask a follow-up.
+@FIG u4-skill | Working with an interpreter — look at your guest, not at the interpreter.
+@LABEL MODEL | A model interview
+@DIALOGUE
+Mira | Good morning. Could you tell me your name, please?
+Guest | I am Elena Marku. This is my family.
+Mira | Thank you, Elena. Why did you come back to Kalina?
+Guest | It is our home. My mother lives on the other side of the river.
+Mira | That is lovely. And what are you going to do here now?
+Guest | We are going to open a small café at the end of the bridge.
+
+@LABEL NOTICE | Notice the interview
+@EX 3A | Answer about the model.
+@NUM
+What is the guest's name? ___________
+Why did the family come back? ___________
+What are they going to do? ___________
+
+@EX 3B | Find the polite opening question. Write it.
+@NUM
+________________________
+
+@LABEL PRACTISE | Prepare questions
+@FIG g-interview | Prepare a mix of wh- questions and yes/no questions.
+@EX 3C | Write a wh- question to ask the guest.
+@NUM
+about their home → ________________________
+about their plan → ________________________
+about their feelings → ________________________
+
+@EX 3D | Complete the interview. Use: could · what · would · why.
+@WHITE
+"______ you tell me your name? ______ did you come back? ______ are you going to do next? And ______ you like to add anything?"
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a person (real or invented). Write four interview questions: a polite opening, two wh- questions, and one follow-up.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. What makes an interview go well? What makes it go badly?
+@EX 3G | Why is a follow-up question useful? Give one example.
+
+@PART 4 | Listening: setting it up | Two audios. Listen for the polite questions.
+@FIG g-newsroom | In the newsroom — Mira arranges the interview by phone.
+@SUBHEAD Listening A | · a phone call to arrange an interview
+@LABEL MODEL | Audio 4.1 — Mira makes an appointment
+@DIALOGUE
+Mira | Hello, this is Mira Sandoval from Atlas Wire. Could I speak to Elena Marku, please?
+Elena | Speaking. Good morning.
+Mira | Good morning. Can I ask you for a short interview about coming back to Kalina?
+Elena | Yes, of course. When would you like to meet?
+Mira | Could we meet tomorrow morning, at the café?
+Elena | Ten o'clock is good for me.
+Mira | Perfect. Thank you very much. See you then.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: why is Mira calling? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+Who does Mira want to speak to? ___________
+What does she ask for? ___________
+Where are they going to meet? ___________
+What time? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+Mira is rude on the phone. ______
+Elena says yes. ______
+They meet in the evening. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Guest: ___________
+Place: ___________
+Time: ___________
+
+@FIG g-studio | Audio 4.2 — the interview at the café, the next morning.
+@SUBHEAD Listening B | · the interview
+@LABEL MODEL | Audio 4.2 — the interview
+@DIALOGUE
+Mira | Thank you for meeting me. Could you tell me your name?
+Elena | I am Elena Marku, and this is my café.
+Mira | It is lovely. When did you open?
+Elena | We opened last week. It is our first café.
+Mira | And why did you choose Kalina?
+Elena | Because it is our home. My mother lives on the other side, and now I can see her every day.
+Mira | Would you like to say anything to the people of the valley?
+Elena | Yes — please come and visit us!
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Mira ask first? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Elena has a ___________ .
+They opened it ___________ .
+She chose Kalina because it is her ___________ .
+Elena asks people to come and ___________ .
+
+@EX 4G | Which polite words do you hear? Write two (could / would / please).
+@NUM
+________________________
+
+@EX 4H | Answer. Which answer would make the best quote? Write it.
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: interview · polite · appointment · café.
+@WHITE
+First, Mira phones Elena and makes an ______ . She is very ______ . The next morning, she does the ______ at the ______ and gets a good quote.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why does Mira call first, before the interview? What could go wrong if she does not?
+
+@PART 5 | Reading: the interview | Two readings. Read for the questions and the quotes.
+@FIG g-reach | A short interview, written up for the wire.
+@SUBHEAD Reading A | · an interview, written up
+@READING 'My mother is on the other side': a family comes back to Kalina
+This week, correspondent Mira Sandoval sat down with Elena Marku and her family at their new café, at the end of the bridge at Kalina. The family came back to the town last month, and they are already part of the street.
+"Could you tell me why you came back?" Mira asked. Elena smiled. "It is our home," she said. "We were away for seven years, but we always wanted to come back. When we heard that the crossing was open again, we knew it was time. My mother is on the other side of the river. Now I can see her every day."
+Mira asked what they were going to do. "We are going to run this little café," Elena said. "My husband makes the coffee, and I make the bread. Our children help after school. Every day, more neighbours come and sit with us."
+The café is small — only six tables — but it is always full. "People do not only come for coffee," Elena said. "They come to talk, and to see old friends. The valley is waking up, and we are happy to be a part of it."
+Dren, a journalist from the town, sat with them and helped when the English was difficult. "People here want to tell their own story," he said afterwards. "They only need somebody to ask properly."
+Before she left, Mira asked one more question. "Would you like to say anything to your neighbours?" Elena laughed. "Yes," she said. "Please come and visit us. The door is always open, and the coffee is always hot."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. Who is the interview with? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The family came back seven years ago. ______
+Elena makes the bread. ______
+The café has six tables. ______
+People come to the café only for coffee. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why did the family come back? ___________
+What are they going to do at the café? ___________
+What does Elena say to the neighbours? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+a person's exact words are a … → ___________
+kind and respectful → ___________
+people who live near you → ___________
+
+@FIG u4-read | Prepare, be polite, listen, and get the quote exactly right.
+@SUBHEAD Reading B | · preparing for an interview — four tips
+@READING Four tips for a good interview
+**1. Prepare your questions.** Write three or four questions before you go. Mix wh- questions and yes/no questions.
+**2. Be polite.** Start with a request: 'Can I ask you a question?' Use *could* and *would*. Say please and thank you.
+**3. Listen well.** Do not only read your questions. Listen to the answer, and ask a follow-up: 'Could you say more about that?'
+**4. Get the quote right.** Write the person's exact words. If you work with an interpreter, ask them to translate word for word, and check anything you are not sure of. Do not change what the guest said.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: what should you do before an interview? Guess one thing.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  Prepare your questions
+2.  Be polite
+3.  Listen well
+4.  Get the quote right
+@@
+a)  'Could you say more about that?'
+b)  Write three questions before you go.
+c)  Write the exact words; check what you are not sure of.
+d)  'Can I ask you a question?'
+
+@EX 5G | Which tip is about accuracy? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+a meeting to ask questions → ___________
+a second question → ___________
+a person's exact words → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which quote from Elena do you like best? Why?
+@EX 5J | Which of the four tips is the most important? Say why.
+
+@PART 6 | Writing: questions and a quote | Two short pieces: a list of questions, and a short write-up with a quote.
+@FIG g-notes | Prepare your questions before the interview.
+@SUBHEAD Writing 1 | · interview questions
+@LABEL MODEL | A model
+@WARMBOX
+Opening: Could you tell me your name?
+Wh- 1: Why did you come back?
+Wh- 2: What are you going to do here?
+Follow-up: Could you say more about that?
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+How many questions are there? ___________
+Which one is the polite opening? ___________
+
+@LABEL PRODUCE | Write your questions
+@EX 6B | Choose a guest (real or invented). Write four questions: an opening, two wh-, and a follow-up.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@FIG g-fivew | A short write-up ends with one strong quote.
+@SUBHEAD Writing 2 | · a short write-up with a quote
+@LABEL MODEL | A model
+@WARMBOX
+"This week, Mira Sandoval met Elena Marku at her new café at the Kalina crossing. The family came back last month. 'It is our home,' Elena said. 'Please come and visit us.'"
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Where are the guest's exact words? What marks them?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a write-up
+@EX 6D | Complete the write-up. Use: interview · said · quote.
+@WHITE
+In her ______ , Mira asked Elena why she came back. "It is our home," Elena ______ . Mira chose this as the ______ for her story.
+
+@LABEL PRODUCE | Write your write-up
+@EX 6E | Write a short write-up (3–4 sentences) about an interview. End with one exact quote.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This is rude. Make it polite. Rewrite the two questions.
+@WHITE
+"Tell me your name. Say why you came back."
+
+@P
+________________________
+
+@PART 7 | Speaking: the interview | Set up and run an interview with a partner. Be polite.
+@FIG g-interview | Ask politely, listen, and ask a follow-up.
+@SUBHEAD A model dialogue | · asking for the interview
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | Excuse me. My name is Mira Sandoval, from Atlas Wire. Could I ask you a few questions?
+Guest | Yes, of course.
+Mira | Thank you. Can you tell me your name?
+Guest | I am Elena.
+Mira | Would you like to say why you came back?
+Guest | It is our home. My mother is on the other side of the river.
+Mira | Thank you very much.
+
+@LABEL NOTICE | Notice the questions
+@EX 7A | Which three questions are polite? Write the first word of each.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Make the question more polite. Use could or would.
+@NUM
+Tell me your name. → ________________________
+Say that again. → ________________________
+Do you want to add anything? → ________________________
+
+@FIG g-introduce | Introduce yourself first, then ask.
+@EX 7C | Put the words in order to make a polite question.
+@NUM
+I / could / a question / ask → ________________________
+you / would / to talk / like → ________________________
+me / could / your name / tell / you → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Introduce yourself. Ask three polite questions (an opening, a wh-, and a follow-up).
+Guest | Answer politely. Give one good, short quote.
+Interpreter | Translate word for word. Do not add anything of your own.
+Observer | Listen. Did the reporter say please and thank you? Was every question polite?
+
+@EX 7D | Choose a role from the table. Ask your questions to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a full interview: a reporter, a guest, an interpreter, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · a follow-up question
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | What are you going to do at the café?
+Elena | We are going to make coffee and bread.
+Mira | That sounds lovely. Could you say a little more about the bread?
+Elena | Yes — they are my grandmother's recipes, from before the crossing closed.
+Mira | How wonderful. Thank you for sharing that.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the follow-up question Mira asks.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+introduce myself first?
+ask politely (can / could / would)?
+listen and ask a follow-up?
+say please and thank you?
+
+@EX 7G | Role-play the follow-up dialogue with a partner. Then swap roles.
+
+@PART 8 | Ethics: a fair interview | An interview is a promise: report what the guest really said.
+@FIG u4-ethA | Report the guest's exact words — do not change them to sound better.
+@SUBHEAD A first case | · changing the quote
+@CASE After the interview, Elena calls Mira. "I have thought about it," she says. "Can you make my answer sound better? Please write that my café is the best in the region, and that hundreds of people come every day." But Elena did not say that in the interview, and it is not true. Mira wrote down Elena's real words: 'It is our home, and the coffee is always hot.' Mira likes Elena and wants to help. But she is a journalist, and she knows the Code: report what the guest really said, and do not print things that are not true. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) change the quote  (b) keep Elena's real words.   Choice: ______  Because ________________________
+'Hundreds come every day' (nobody counted) is (a) a fact  (b) not true.   Choice: ______
+
+@EX 8B | True quote or not? Write T (true, she said it) or N (she did not).
+@NUM
+"It is our home." ______
+"My café is the best in the region." ______
+"The coffee is always hot." ______
+"Hundreds of people come every day." ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: said · change · true · exact.
+@WHITE
+Report what the guest really ______ . Use their ______ words. Do not ______ a quote, and never print things that are not ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is it wrong to change a quote, even to help a friend?
+@SUBHEAD A second case | · off the record
+@FIG u4-ethB | If a guest says 'please do not print that', respect their answer.
+@CASE During the interview, a guest tells Mira something sad about the seven years when the crossing was closed. Then he says, "Please do not put that in the story. I only wanted you to understand. It is private." It is a strong story, and it would travel far on the wire. But the guest asked Mira not to use it. The Code says: respect people, and keep your promise. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) print it anyway  (b) leave it out.   Choice: ______  Because ________________________
+When a guest says 'please do not print that', a journalist should (a) use it  (b) respect it.   Choice: ______
+
+@EX 8F | Complete with: respect · promise · private · trust.
+@NUM
+A journalist must ___________ people.
+Some things a guest says are ___________ .
+If you say you will not print it, keep your ___________ .
+People ___________ a reporter who keeps their word.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is trust so important between a reporter and a guest?
+@LABEL PRODUCE | Write it
+@EX 8H | Write what Mira says to the guest (2–3 sentences). Be kind, and keep your promise.
+
+@PART 9 | Digital: sharing the quote | Online, a good quote travels fast — but it must be exact.
+@FIG g-phonealert | A quote card on a phone — the guest's exact words.
+@LABEL MODEL | A model quote card
+@WARMBOX
+"It is our home, and the coffee is always hot."
+— Elena Marku, at her new café at the Kalina crossing · @AtlasWire
+
+@LABEL NOTICE | The parts of a quote card
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  " "
+2.  Elena Marku
+3.  at her new café
+4.  @AtlasWire
+@@
+a)  who said it
+b)  the exact words
+c)  the outlet
+d)  where
+
+@LABEL PRACTISE | Find and build
+@EX 9B | In the model card, whose exact words are these? Write the name.
+@NUM
+______
+
+@EX 9C | This quote card has a mistake: it changes the words. Write it correctly.
+@WHITE
+"It is the best café in the region." — Elena (she really said: 'It is our home.')
+
+@P
+________________________
+
+@FIG g-website | The quote card also goes on the website with the full story.
+@EX 9D | Make a quote card. Write an exact quote and say who said it.
+@WHITE
+"___________ "  — ___________ (who?), @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line online post to share your interview. Say who you talked to.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your interview story.
+@EX 9G | Write a polite reply to a reader who asks: 'Can I read the full interview?'
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Why must an online quote be exact? What can go wrong if it is not?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 5.
+@FIG u4-sum | Unit 4 — asking politely, and running an interview.
+@EX 10A | Vocabulary. Complete with: interview · question · polite · quote · appointment · guest · record · follow-up.
+@NUM
+Mira makes an ___________ to meet the family.
+She prepares a good ___________ .
+She is always ___________ .
+May I ___________ this on my phone?
+The ___________ sits down and answers.
+Mira asks a ___________ about the answer.
+She does the ___________ and gets a good ___________ .
+
+@EX 10B | Grammar. Make the request polite. Use could or would.
+@NUM
+Tell me your name. → ________________________
+Say that again. → ________________________
+Do you want to add anything? → ________________________
+
+@EX 10C | Grammar. Write the question in the correct order.
+@NUM
+you / do / where / live → ________________________
+come back / did / why / you → ________________________
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Choose: can · could · would.
+@NUM
+______ I ask you a question, please?
+______ you like a cup of coffee?
+______ you tell me the time, please? (very polite)
+
+@EX 10E | Read and answer.
+@WHITE
+Mira is at the café. She introduces herself and asks politely for an interview. The guest says yes. Mira asks three questions, listens well, and writes down one exact quote for her story.
+
+@NUM
+What does Mira ask for? ___________
+How many questions does she ask? ___________
+What does she write down? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can ask polite questions with can, could and would.
+I can make yes/no and wh- questions.
+I can set up and run a short interview.
+I can write an exact quote.
+
+@EX 10F | Reflect. Which part of Unit 4 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+Can you telling me your name? → ________________________
+Where you live? → ________________________
+Would you likes a cup of coffee? → ________________________
+Why you came back? → ________________________
+
+@PART 11 | Assignment: an interview | Put the unit together: plan and run a short interview.
+@FIG g-template | The assignment template — your interview plan.
+@P
+**Your task. **Choose a person (real or invented). Plan four questions: a polite opening (Can I / Could you), two wh- questions, and one follow-up. Run the interview with a partner. Then write a short write-up (4–5 sentences) that ends with one exact quote. Be polite, and report their real words.
+
+@FIG g-model | A model — use it to check the shape of your write-up.
+@WHITE
+Remember: introduce yourself; ask politely; listen and ask a follow-up; write the exact quote; do not change what they said.
+
+@CRITERIA Success criteria
+I have a polite opening (can / could).
+I have two wh- questions and one follow-up.
+My write-up ends with one exact quote.
+I did not change the guest's words.
+It is neat and easy to read.
+
+@P
+**Keep this. **In Unit 5, you learn to report what people said — reported speech and attribution ('she said that…', 'according to…').
+
+@KEY Unit 4 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 a family at the Kalina crossing · 2 she smiles / says her name and agency · 3 'Of course… please sit with us'
+W2 | 1 F · 2 T · 3 F
+W3 | (any three) Can… · Could… · Would…
+1A | 1-c, 2-a, 3-i, 4-h, 5-e, 6-g, 7-f, 8-j, 9-d, 10-b (accept sensible matches)
+1B | 1 appointment · 2 polite · 3 record · 4 quote · 5 interpreter · 6 interview
+1C | 1 ask a question · 2 give an answer · 3 take notes · 4 make an appointment · 5 get permission
+1D | 1 deadline · 2 rude · 3 shout · 4 microphone
+1E | 1 interview · 2 questions · 3 polite · 4 notes · 5 quote
+1F | 1 appointment · 2 quote · 3 follow-up · 4 interpreter
+2A | 1 Could you tell me your name? · 2 Could I ask a question? · 3 Could you say that again?
+2B | 1 Can / Could · 2 Would · 3 Could
+2C | 1 Where do you live? · 2 Is the crossing open? · 3 Why did you come back?
+2D | 1 Do you live here? · 2 Is the café open? · 3 Can I record this?
+3A | 1 Elena Marku · 2 it is their home; her mother lives on the other side · 3 open a small café at the end of the bridge
+3B | 'Could you tell me your name, please?'
+3C | (example) 1 Where do you live? · 2 What are you going to do? · 3 How do you feel?
+3D | could · Why · What · would
+4B | 1 Elena Marku · 2 a short interview · 3 at the café · 4 ten o'clock
+4C | 1 F · 2 T · 3 F
+4D | Guest = Elena Marku · Place = the café · Time = 10 o'clock (tomorrow morning)
+4F | 1 café · 2 last week · 3 home · 4 visit
+4G | (any two) could · would · please
+4I | appointment · polite · interview · café
+5B | 1 F · 2 T · 3 T · 4 F
+5C | 1 it is their home; her mother is on the other side of the river · 2 make coffee and bread / run the café · 3 'Please come and visit us.'
+5D | 1 quote · 2 polite · 3 neighbours
+5F | Prepare your questions → write three before you go · Be polite → 'Can I ask you a question?' · Listen well → 'Could you say more about that?' · Get the quote right → write the exact words; check what you are not sure of
+5G | Tip 4
+5H | 1 interview · 2 follow-up · 3 quote
+6A | 1 four · 2 'Could you tell me your name?'
+6C | the guest's exact words; quotation marks " " mark them
+6D | interview · said · quote
+6F | (example) 'Could you tell me your name?' · 'Could you say why you came back?'
+7A | (any three) Could… · Can… · Would…
+7B | (example) 1 Could you tell me your name? · 2 Could you say that again? · 3 Would you like to add anything?
+7C | 1 Could I ask a question? · 2 Would you like to talk? · 3 Could you tell me your name?
+7F | 'Could you say a little more about the bread?'
+8A | 1 (b) keep Elena's real words · 2 (b) not true
+8B | 1 T · 2 N · 3 T · 4 N
+8C | said · exact · change · true
+8E | 1 (b) leave it out · 2 (b) respect it
+8F | 1 respect · 2 private · 3 promise · 4 trust
+9A | " " → the exact words · Elena Marku → who said it · at her new café → where · @AtlasWire → the outlet
+9B | Elena Marku
+9C | "It is our home." — Elena Marku
+10A | 1 appointment · 2 question · 3 polite · 4 record · 5 guest · 6 follow-up · 7 interview, quote
+10B | 1 Could you tell me your name? · 2 Could you say that again? · 3 Would you like to add anything?
+10C | 1 Where do you live? · 2 Why did you come back?
+10D | 1 Can / Could · 2 Would · 3 Could
+10E | 1 (a short) interview · 2 three · 3 one exact quote
+10G | 1 Can you tell me your name? · 2 Where do you live? · 3 Would you like a cup of coffee? · 4 Why did you come back?
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4H, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Elena Marku's family, Dren, Kalina and the interviews are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 4 (v6 standard). | CEFR A2 → lower B1 · Beat: Interview · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

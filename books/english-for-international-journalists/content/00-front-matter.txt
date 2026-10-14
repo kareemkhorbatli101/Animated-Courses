@@ -1,0 +1,54 @@
+@FIG g-bridge | The Kalina crossing — the story this course follows, from the first bulletin to the front page.
+
+@TITLE English for Journalists
+@SUBTITLE International Edition
+@CENTER
+Student's Book
+*A free press, in plain English.*
+CEFR A2 → lower B1   ·   10 units   ·   the Atlas Wire world desk
+
+@NOTE A note on real and invented content. | The facts about journalism around the world — the press-freedom indexes, the safety figures, the international days, the codes of ethics, the way accreditation and embargoes work — are true, dated and attributed on the page. Atlas Wire, its staff, the town of Kalina, the river Vara, the crossing and the people in the stories are invented, for practice. Real people and real organisations appear only in true, sourced facts — never in an invented quote.
+
+@DIVIDER
+@BIGLABEL WELCOME | About this course
+@P
+English for Journalists · International Edition is a ten-unit English course for journalists who work across borders. You learn English through the work of Atlas Wire, an invented independent news agency with a world desk in Geneva and correspondents in many countries, and through one continuous story: the reopening of the Kalina crossing — from the morning the barrier went up to the front page that told the year.
+The course climbs from CEFR A2 to lower B1. Each unit teaches one new piece of grammar and one part of an international journalist's work — from the words of the world desk, to interviews through an interpreter, to attribution, to a full front page.
+
+@H How to use this book
+@NUM
+Each unit has a Warm-Up and eleven parts: Words, Grammar, a Skill, Listening, Reading, Writing, Speaking, Ethics, Digital, Review, and an Assignment.
+Every part builds up step by step: you see a model, notice how it works, practise it, and then produce your own.
+Grammar is taught half as controlled practice and half in your own words. Every part mixes exercises you can check with open tasks to discuss and create.
+The Ethics part in every unit builds the Code: be accurate, be honest, be fair, be independent, and be kind.
+The Answer Key at the end of each unit gives the answers to the closed exercises. Open tasks (discussion, role-play, and your own writing) are marked.
+
+@H The Atlas Wire world desk
+@FIG g-team | The team you meet in every unit. These people are invented, for practice.
+
+@DIVIDER
+@BIGLABEL CONTENTS | The ten units
+@COLS
+**Unit 1   **The Newsroom
+be · present simple · there is/are
+**Unit 2   **What Is News? The Five Ws
+wh-questions · adjectives
+**Unit 3   **Live from the Scene
+present continuous · going to · prepositions
+**Unit 4   **The Interview
+can, could, would · question forms
+**Unit 5   **Getting the Quote Right
+reported speech · say/tell · attribution
+@@
+**Unit 6   **Telling the Story
+past simple · past continuous
+**Unit 7   **What Was Done
+the passive
+**Unit 8   **What Has Happened
+the present perfect · for/since
+**Unit 9   **What You Should Do
+should, must, have to · first conditional
+**Unit 10   **The Front Page
+relative clauses · the capstone project
+
+@NOTEP *Every unit also has a Warm-Up, eleven parts, ~24 illustrations, and a full Answer Key. The Kalina story runs through all ten.*

@@ -1,0 +1,735 @@
+@UNITHEAD UNIT 6 | Telling the Story: What Happened | Beat · Report & feature | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+tell what happened (past simple)
+describe what was happening (past continuous)
+use time words (ago, last, when, while)
+write a short news story about a past event
+
+@FIG g-team | The Atlas Wire team — Mira writes the story of the past year.
+@STORY The story so far. | The crossing is open, the interviews are done. Now Mira writes a feature for the wire: the story of the seven years when the bridge at Kalina was closed, and of the spring when the families came back.
+
+@WARMUP What happened? | A short story to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team plans a feature about the past year.
+@WARMBOX
+For seven years, the bridge at Kalina was closed. The road was empty, and the stalls were gone. Then, last spring, things changed. Workers repaired the bridge, and the barrier went up. Families started to cross again. When Mira first visited, people were carrying bags across the river and children were running ahead of them. "It was a happy day," one stall-holder said. "After seven quiet years, the valley came back."
+
+@EX W1 | Answer the questions.
+@NUM
+How was the bridge for seven years? ___________
+What did the workers do? ___________
+What were the children doing when Mira visited? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+For seven years, the bridge was open. ______
+Families started to cross again last spring. ______
+The stall-holder was sad. ______
+
+@EX W3 | Find three past verbs in the text (e.g. was, changed). Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What happened in your city last year? Say two things.
+What were you doing this time last year?
+
+@PART 1 | The words of the story | The words for telling a past story. Learn these first.
+@FIG u6-words | Four key words — reopen, rebuild, return, ago.
+@H The words
+@VOCAB
+event | a thing that happened
+happen | to take place
+return | to come back
+reopen | to open again
+rebuild | to build again
+change | to become different
+start | to begin
+finish | to end
+ago | before now (two years ago)
+last | the one before this (last week)
+yesterday | the day before today
+then | after that
+before | earlier
+after | later
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  event
+2.  return
+3.  rebuild
+4.  reopen
+5.  change
+6.  ago
+7.  last
+8.  then
+9.  before
+10.  after
+@@
+a)  to build again
+b)  to come back
+c)  a thing that happened
+d)  to open again
+e)  the one before this
+f)  to become different
+g)  before now
+h)  earlier
+i)  after that
+j)  later
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | event · returned · rebuilt · reopened · changed · ago
+@NUM
+Seven years ___________ , the bridge closed.
+Then everything ___________ .
+Families ___________ to the valley.
+Workers ___________ the old road.
+The crossing ___________ last spring.
+The festival was a happy ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  last
+2.  seven years
+3.  the crossing
+4.  children
+5.  a happy
+@@
+a)  week
+b)  ago
+c)  reopened
+d)  returned to school
+e)  event
+
+@EX 1D | Circle the word that is different.
+@NUM
+yesterday · last week · tomorrow · two years ago
+started · began · finished · opened
+returned · came back · left · went home
+event · story · report · deadline
+
+@FIG g-pageflow | A feature tells the story behind the headline.
+@EX 1E | Complete the paragraph. Use: closed · returned · rebuilt · reopened · happened.
+@WHITE
+For seven years, the bridge was ___________ . Then something good ___________ . Families ___________ to the valley. Workers ___________ the road, and the crossing ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+a thing that happened → ___________
+to open again → ___________
+before now → ___________
+after that → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What is one thing that changed in your city in the last year?
+What did you do last weekend?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write two sentences about a place that changed. Use returned, rebuilt or reopened.
+
+@PART 2 | Grammar: the past | Past simple for the events, past continuous for the background.
+@FIG u6-gA | Past simple — the events, one after another.
+@GRAMMAR 1 · Past simple — what happened
+Regular: add {{-ed}}: open → {{opened}}, return → {{returned}}, start → {{started}}.
+Irregular: come → {{came}}, go → {{went}}, be → {{was / were}}, say → {{said}}, build → {{built}}.
+The crossing {{opened}} last spring.  Families {{came}} back.  It {{was}} a happy day.
+
+@FIG u6-gB | Past continuous — what was happening in the background.
+@GRAMMAR 2 · Past continuous — what was happening
+Form: {{was / were}} + verb{{-ing}}.
+When Mira arrived, people {{were crossing}} and children {{were running}}.
+Use it for the background — a longer action that was going on.
+
+@GRAMMAR 3 · Time words
+{{ago}}: seven years {{ago}}.   {{last}}: {{last}} week / {{last}} spring.   {{yesterday}}.
+{{when}} + past simple: {{When}} the barrier went up, people were waiting.
+{{while}} = at the same time: {{While}} the workers repaired the road, families returned.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Write the past simple of the verb.
+@NUM
+open → ___________
+return → ___________
+come → ___________
+go → ___________
+be (he) → ___________
+build → ___________
+
+@EX 2B | Complete with the past simple.
+@NUM
+The crossing ___________ (open) last spring.
+Families ___________ (come) back.
+Workers ___________ (build) a new road.
+It ___________ (be) a happy day.
+
+@EX 2C | Complete with the past continuous (was/were + -ing).
+@NUM
+When Mira arrived, children ___________ (run).
+People ___________ (carry) bags across the bridge.
+A family ___________ (open) a café.
+
+@EX 2D | Choose: ago · last · when.
+@NUM
+Seven years ______ , the bridge closed.
+The crossing reopened ______ spring.
+______ the barrier went up, people were waiting.
+
+@H Your own words
+@EX 2E | Write two things you did last week. Use the past simple.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write one sentence about what you were doing yesterday evening. Use the past continuous.
+@NUM
+________________________
+
+@PART 3 | Telling it in order | A good story has an order: before, then, and after.
+@FIG u6-skill | Time words show the order — ago, last, when, while, then.
+@LABEL MODEL | A model paragraph
+@WARMBOX
+Seven years ago, the bridge closed. Then, last spring, workers started the repairs. While the workers repaired the road, the stall-holders cleaned the market. When the barrier went up, hundreds of people were waiting on both sides. After that morning, Kalina was busy again.
+
+@LABEL NOTICE | Notice the order
+@EX 3A | Answer about the model.
+@NUM
+What happened seven years ago? ___________
+What were the workers doing? ___________
+What happened when the barrier went up? ___________
+
+@EX 3B | Find three time words in the model (e.g. ago, then). Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Put it in order
+@FIG g-fivew | A story answers: what happened, when, and in what order?
+@EX 3C | Put the events in order (1–4).
+@NUM
+The crossing reopened. ______
+The bridge was closed. ______
+Workers started the repairs. ______
+Kalina was busy again. ______
+
+@EX 3D | Complete the story. Use: ago · then · when · after.
+@WHITE
+Two years ______ , the school was closed. ______ , last month, the workers finished. ______ the doors opened, children were waiting. ______ that, the school was full again.
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a place that changed. Write four sentences in order (before, then, while, after). Use past tenses.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why do time words help the reader? Give one example.
+@EX 3G | Which is more interesting to read: a list of facts, or a story with an order? Why?
+
+@PART 4 | Listening: eyewitnesses | Two audios. Listen for what happened, and when.
+@FIG g-newsroom | In the newsroom — the team listens to an eyewitness.
+@SUBHEAD Listening A | · an eyewitness remembers
+@LABEL MODEL | Audio 6.1 — a stall-holder remembers
+@DIALOGUE
+Mira | Could you tell me about the day the crossing reopened?
+Bekim | Of course. It was last spring, on a Friday morning.
+Bekim | I arrived early, and I opened my stall for the first time in seven years.
+Bekim | While I was setting up, families started to arrive on both sides.
+Bekim | When the barrier went up, everyone was smiling.
+Bekim | It was a wonderful day. The valley came back.
+Mira | Thank you. That is a lovely memory.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what day is Bekim going to describe? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+When did the crossing reopen? ___________
+What was Bekim doing when the families arrived? ___________
+How did people feel? ___________
+How long was his stall closed? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+The crossing reopened in the winter. ______
+Bekim arrived early. ______
+People were sad. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Event: ___________
+When: ___________
+Background (while): ___________
+
+@FIG g-studio | Audio 6.2 — Mira tells the editor what the eyewitness said.
+@SUBHEAD Listening B | · reporting the story
+@LABEL MODEL | Audio 6.2 — Mira and Daniel
+@DIALOGUE
+Daniel | What did Bekim tell you?
+Mira | He said that the crossing reopened last spring, on a Friday.
+Daniel | What was happening that morning?
+Mira | While he was setting up, families were arriving. Everyone was smiling.
+Daniel | That is a great story. Did he give a quote?
+Mira | Yes. He said, 'The valley came back.'
+Daniel | Perfect. Use that quote at the end.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Daniel ask about? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The crossing reopened ___________ spring.
+While Bekim was setting up, families were ___________ .
+Everyone was ___________ .
+Bekim's quote was: 'The valley ___________ back.'
+
+@EX 4G | Which past continuous verbs do you hear? Write two (was/were + -ing).
+@NUM
+________________________
+
+@EX 4H | Answer. Which sentence would make the best ending quote? Write it.
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: reopened · setting · arriving · quote.
+@WHITE
+The crossing ______ last spring. While Bekim was ______ up, families were ______ . Mira reported his story to Daniel, and kept his ______ for the end.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why is an eyewitness a good source for a past story? What must a reporter still check?
+
+@PART 5 | Reading: the feature | Two readings. Read for the events and the order.
+@FIG u6-read | A feature tells the whole story — from how it was, to how it is.
+@SUBHEAD Reading A | · a feature about the seven years
+@READING The year the crossing came back
+Seven years ago, the bridge at Kalina closed. The barrier came down one evening, and it stayed down. The road was empty. The stalls disappeared. The old gate at the end of the bridge rusted in the rain, and for a long time the only sound on the river was the water.
+Then, last spring, things began to change. First, a small team of workers arrived and looked at the bridge. While they were measuring the rail, people on both sides watched them from their windows. Nobody said very much, but everybody understood.
+The repairs took four months. Workers rebuilt the road surface and painted the rail. In April, the barrier went up. "I opened my stall for the first time in seven years," one stall-holder remembered. "While I was setting up, families started to arrive. Everyone was smiling."
+When the school bus crossed the bridge in the autumn, forty children returned to class on the other side. Their teacher said that it was the happiest day of the year. After that, more stalls opened, and a young family started a small café at the end of the bridge.
+Today, the crossing is busy again. According to the Crossing Office, a hundred families have now returned to the valley. "For seven years, we were waiting," Elena Marku, the café owner, said. "Now the door is open, and the coffee is hot. The valley came back."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What is the feature about? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+Seven years ago, the bridge was busy. ______
+The barrier went up in April. ______
+Forty children returned to class. ______
+The crossing is still empty today. ______
+
+@EX 5C | Answer the questions.
+@NUM
+How was the road for seven years? ___________
+What were people doing while the workers measured the rail? ___________
+How many families have returned today? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+to build again → ___________
+to go away and not be seen → ___________
+the season after winter → ___________
+
+@FIG g-model | A good feature helps readers far away understand how a place changed.
+@SUBHEAD Reading B | · writing a story about the past — four tips
+@READING Four tips for a past story
+**1. Use the past simple for the events.** What happened, one thing after another: 'The crossing opened. Families came back.'
+**2. Use the past continuous for the background.** What was going on at the time: 'While the workers were painting, families were arriving.'
+**3. Use time words to show the order.** 'Seven years ago… Then… When… After that…' The reader follows the story.
+**4. Keep it accurate.** Check the dates and the numbers. Name a source. Use the eyewitness's exact words in a quote.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which tense tells the main events? Guess.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  Past simple for events
+2.  Past continuous for background
+3.  Time words for order
+4.  Keep it accurate
+@@
+a)  'While they were painting…'
+b)  'The crossing opened.'
+c)  Check the dates and name a source
+d)  'Seven years ago… Then… After that…'
+
+@EX 5G | Which tip is about accuracy? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+to come back → ___________
+to build again → ___________
+a thing that happened → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which part of the feature did you like best? Why?
+@EX 5J | Which of the four tips is the most important? Say why.
+
+@PART 6 | Writing: a past story | Two short pieces: a timeline of notes, and a short story.
+@FIG g-notes | Notes: the events, in order.
+@SUBHEAD Writing 1 | · a timeline of notes
+@LABEL MODEL | A model
+@WARMBOX
+Seven years ago: the bridge closed
+Last spring: workers arrived; repairs began
+April: the barrier went up
+Now: the crossing is busy again
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which tense do the notes use? ___________
+What happened in April? ___________
+
+@LABEL PRODUCE | Write your notes
+@EX 6B | Choose a place that changed. Write a timeline of notes: before, then, and now.
+@WHITE
+Before: ___________
+Then: ___________
+Now: ___________
+
+@FIG g-fivew | A short story uses past tenses and one good quote.
+@SUBHEAD Writing 2 | · a short story
+@LABEL MODEL | A model
+@WARMBOX
+Last spring, the crossing at Kalina reopened. While the stall-holders were setting up, families were arriving on both sides. "It was a happy day," one stall-holder said. "The valley came back."
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which verbs are past simple? Which are past continuous?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a story
+@EX 6D | Complete the story. Use: reopened · were waiting · said.
+@WHITE
+Last month, the school ______ . When the doors opened, forty children ______ outside. "It was the happiest day of the year," the teacher ______ .
+
+@LABEL PRODUCE | Write your story
+@EX 6E | Write a short story (3–4 sentences) about a past event. Use past simple and past continuous, and one quote.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This has the wrong tense. Write it in the past.
+@WHITE
+"Last year, the crossing is closed. Then families come back."
+
+@P
+________________________
+
+@PART 7 | Speaking: what happened | Interview an eyewitness, and tell the story.
+@FIG g-interview | Ask an eyewitness what happened, and what they were doing.
+@SUBHEAD A model dialogue | · interviewing an eyewitness
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | Could you tell me what happened on the day the crossing reopened?
+Guest | Yes. I arrived early and opened my stall.
+Mira | What were you doing when the families arrived?
+Guest | I was setting up. Then I saw them, and I was very happy.
+Mira | How did you feel?
+Guest | It was a wonderful day. The valley came back.
+Mira | Thank you for sharing that.
+
+@LABEL NOTICE | Notice the questions
+@EX 7A | Find the past simple question and the past continuous question. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Make a past question for each answer.
+@NUM
+___________ ? — I opened my stall.
+___________ ? — I was setting up.
+___________ ? — Last spring.
+___________ ? — I was very happy.
+
+@FIG g-introduce | Introduce yourself, then ask about the past.
+@EX 7C | Change to the past simple.
+@NUM
+The crossing opens. → The crossing ___________ .
+Families come back. → Families ___________ back.
+It is a happy day. → It ___________ a happy day.
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Ask an eyewitness: 'What happened?' and 'What were you doing when…?'
+Eyewitness | Answer in the past. Give one good quote about the day.
+Observer | Listen. Did the reporter use past simple and past continuous?
+
+@EX 7D | Choose a role from the table. Ask your questions to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play an eyewitness interview: a reporter, an eyewitness, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · telling the story
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | I spoke to a stall-holder today. He told me a lovely story.
+Priya | What did he say?
+Mira | He said that the crossing reopened last spring. While he was setting up, families were arriving.
+Priya | How did people feel?
+Mira | Everyone was smiling. He said, 'The valley came back.'
+Priya | That is a great quote. Use it.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the past continuous sentence Mira uses (While he was …).
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use the past simple for the events?
+use the past continuous for the background?
+use time words (ago, when, while)?
+keep the quote exact?
+
+@EX 7G | Role-play telling a colleague what happened. Then swap roles.
+
+@PART 8 | Ethics: a true story | A story about the past must still be accurate and kind.
+@FIG u6-ethA | Report what you can confirm — not what sounds bigger.
+@SUBHEAD A first case | · the number grows
+@CASE Mira is writing the story of the day the crossing reopened. One stall-holder tells her, "I think ten thousand people crossed that day — maybe more!" It makes a great line, and the story is due soon. But nobody counted, and the Crossing Office says the real number was much smaller. Mira cannot confirm ten thousand. She is a journalist, and she knows the Code: report what you can confirm, and do not make a past event bigger than it was. What does Mira write?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) write 'ten thousand people crossed'  (b) write 'many people crossed' (what she can confirm).   Choice: ______  Because ________________________
+A number nobody counted is (a) a fact  (b) not confirmed.   Choice: ______
+
+@EX 8B | Can you confirm it? Write Y (yes) or N (no).
+@NUM
+The crossing reopened last spring (the office confirms it). ______
+Exactly ten thousand people crossed (nobody counted). ______
+Families were arriving all morning (many saw it). ______
+It was the biggest day in the valley's history. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: confirm · bigger · true · check.
+@WHITE
+Tell a ______ story. Only write what you can ______ . ______ the dates and numbers, and do not make a past event ______ than it was.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is it tempting to make a story bigger? Why is it wrong?
+@SUBHEAD A second case | · a hard memory
+@FIG u6-ethB | Some memories are painful — be gentle, and ask before you print.
+@CASE An old man tells Mira about the seven quiet years — how the road was empty, and how much he missed his family on the other side. He becomes sad, and his eyes fill with tears. Then he says, "Please, I do not want people to see me cry. Do not put that part in the story." It is a strong, human moment, and it would travel far on the wire. But the man asked Mira not to use it. The Code says: respect people, and be gentle with a hard memory. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) print the moment anyway  (b) leave it out, as he asked.   Choice: ______  Because ________________________
+When a person shares a painful memory and says 'do not print that', a reporter should (a) use it  (b) respect it.   Choice: ______
+
+@EX 8F | Complete with: respect · gentle · private · kind.
+@NUM
+A journalist must ___________ people.
+Some memories are ___________ .
+Be ___________ with a hard story.
+Being first is not more important than being ___________ .
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. How can a reporter tell a sad story with kindness?
+@LABEL PRODUCE | Write it
+@EX 8H | Write what Mira says to the old man (2–3 sentences). Be gentle, and keep your promise.
+
+@PART 9 | Digital: a look back | Online, a 'then and now' post tells a past story fast.
+@FIG g-phonealert | A 'then and now' post — what happened, in a line.
+@LABEL MODEL | A model post
+@WARMBOX
+THEN AND NOW · Seven years ago, the bridge at Kalina closed. Last spring, it reopened. Today, a hundred families are back. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to the time.
+@MATCH
+1.  Seven years ago, the bridge closed
+2.  Last spring, it reopened
+3.  Today, a hundred families are back
+4.  @AtlasWire
+@@
+a)  the past event
+b)  now
+c)  before
+d)  the outlet
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the past simple verb in the post. Write it.
+@NUM
+______
+
+@EX 9C | This post has the wrong tense. Put it in the past.
+@WHITE
+"Last year, the crossing is closed. Then it reopens."
+
+@P
+________________________
+
+@FIG g-website | The post links to the full feature on the website.
+@EX 9D | Write a 'then and now' post. Say how a place changed.
+@WHITE
+THEN: ___________ (before).  NOW: ___________ (today). — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post about a past event in your city. Use the past simple.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your 'then and now' story.
+@EX 9G | A reader asks: 'When did that happen?' Write a short reply with a time word.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Why do people like 'then and now' stories? What must the reporter still get right?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 7.
+@FIG u6-sum | Unit 6 — telling the story of what happened.
+@EX 10A | Vocabulary. Complete with: event · returned · rebuilt · reopened · changed · ago · then · after.
+@NUM
+Seven years ___________ , the bridge closed.
+Everything ___________ .
+Families ___________ home.
+Workers ___________ the road.
+The crossing ___________ .
+First it was quiet; ___________ it was busy.
+The festival was a happy ___________ .
+___________ that day, the valley was busy.
+
+@EX 10B | Grammar. Write the past simple.
+@NUM
+open → ___________
+come → ___________
+be (they) → ___________
+build → ___________
+
+@EX 10C | Grammar. Complete with the past continuous.
+@NUM
+When Mira arrived, children ___________ (run).
+While the workers ___________ (paint), families arrived.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Choose: ago · last · when.
+@NUM
+Seven years ______ , the bridge closed.
+The crossing reopened ______ spring.
+______ the barrier went up, people were waiting.
+
+@EX 10E | Read and answer.
+@WHITE
+Last spring, the crossing reopened. While the stall-holders were setting up, families were arriving. "It was a happy day," one stall-holder said. After that, the valley was busy again.
+
+@NUM
+When did the crossing reopen? ___________
+What were the stall-holders doing? ___________
+What did the stall-holder say? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can tell what happened (past simple).
+I can describe what was happening (past continuous).
+I can use time words (ago, last, when, while).
+I can write a short story about a past event.
+
+@EX 10F | Reflect. Which part of Unit 6 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence in the past.
+@NUM
+The crossing opens last week. → ________________________
+Families comes back. → ________________________
+When Mira arrives, children play. → ________________________
+It is a happy day. → ________________________
+
+@PART 11 | Assignment: a short feature | Put the unit together: write the story of a place that changed.
+@FIG g-template | The assignment template — your past story.
+@P
+**Your task. **Choose a place that changed (real or invented). Write a short feature (5–6 sentences). Say how it was before, tell what happened (past simple), describe the background (past continuous), and use time words for the order. Name a source, and end with one exact quote. Keep it accurate and kind.
+
+@FIG g-model | A model — use it to check the shape of your feature.
+@WHITE
+Remember: past simple for events; past continuous for background; time words for order; name a source; keep the quote exact; report only what you can confirm.
+
+@CRITERIA Success criteria
+I say how the place was before.
+I use past simple for the events.
+I use past continuous for the background.
+I use time words (ago, when, while, after).
+I name a source and end with one exact quote.
+
+@P
+**Keep this. **In Unit 7, you learn the passive — to say what was done ('the bridge was rebuilt', 'the road was repaired').
+
+@KEY Unit 6 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 closed (the road was empty, the stalls were gone) · 2 repaired the bridge · 3 (they were) running
+W2 | 1 F · 2 T · 3 F
+W3 | (any three) was · were · changed · repaired · went · started · came · said
+1A | 1-c, 2-b, 3-a, 4-d, 5-f, 6-g, 7-e, 8-i, 9-h, 10-j (accept sensible matches)
+1B | 1 ago · 2 changed · 3 returned · 4 rebuilt · 5 reopened · 6 event
+1C | 1 last week · 2 seven years ago · 3 the crossing reopened · 4 children returned to school · 5 a happy event
+1D | 1 tomorrow · 2 finished · 3 left · 4 deadline
+1E | 1 closed · 2 happened · 3 returned · 4 rebuilt · 5 reopened
+1F | 1 event · 2 reopen · 3 ago · 4 then
+2A | 1 opened · 2 returned · 3 came · 4 went · 5 was · 6 built
+2B | 1 opened · 2 came · 3 built · 4 was
+2C | 1 were running · 2 were carrying · 3 was opening
+2D | 1 ago · 2 last · 3 When
+3A | 1 the bridge closed · 2 repairing the road / measuring the rail · 3 hundreds of people were waiting on both sides
+3B | (any three) ago · Then · last · While · When · After that
+3C | 1 the crossing reopened = 3 · 2 the bridge was closed = 1 · 3 workers started the repairs = 2 · 4 busy again = 4
+3D | ago · Then · When · After
+4B | 1 last spring (Friday morning) · 2 setting up (his stall) · 3 (they were) smiling / happy · 4 seven years
+4C | 1 F · 2 T · 3 F
+4D | Event = the crossing reopened · When = last spring, Friday · Background = families were arriving while he was setting up
+4F | 1 last · 2 arriving · 3 smiling · 4 came
+4G | (any two) was setting up · were arriving · were smiling
+4H | 'The valley came back.'
+4I | reopened · setting · arriving · quote
+5B | 1 F · 2 T · 3 T · 4 F
+5C | 1 empty (the stalls disappeared) · 2 watching the workers from their windows · 3 a hundred
+5D | 1 rebuild · 2 disappear · 3 spring
+5F | Past simple for events → 'The crossing opened.' · Past continuous for background → 'While they were painting…' · Time words → 'Seven years ago… Then… After that…' · Keep it accurate → check the dates and name a source
+5G | Tip 4
+5H | 1 return · 2 rebuild · 3 event
+6A | 1 past simple · 2 the barrier went up
+6C | past simple: reopened, said, came; past continuous: were setting up, were arriving
+6D | reopened · were waiting · said
+6F | (example) 'Last year, the crossing was closed. Then families came back.'
+7A | past simple: 'what happened…?'; past continuous: 'What were you doing when the families arrived?'
+7B | (example) 1 What did you do? · 2 What were you doing? · 3 When did it reopen? · 4 How did you feel?
+7C | 1 opened · 2 came · 3 was
+7F | 'While he was setting up, families were arriving.'
+8A | 1 (b) write 'many people crossed' · 2 (b) not confirmed
+8B | 1 Y · 2 N · 3 Y · 4 N
+8C | true · confirm · Check · bigger
+8E | 1 (b) leave it out · 2 (b) respect it
+8F | 1 respect · 2 private · 3 gentle · 4 kind
+9A | '…the bridge closed' → before · '…it reopened' → the past event · '…families are back' → now · @AtlasWire → the outlet
+9B | closed (also: reopened)
+9C | 'Last year, the crossing was closed. Then it reopened.'
+10A | 1 ago · 2 changed · 3 returned · 4 rebuilt · 5 reopened · 6 then · 7 event · 8 After
+10B | 1 opened · 2 came · 3 were · 4 built
+10C | 1 were running · 2 were painting
+10D | 1 ago · 2 last · 3 When
+10E | 1 last spring · 2 setting up · 3 'It was a happy day.'
+10G | 1 The crossing opened last week. · 2 Families came back. · 3 When Mira arrived, children were playing. · 4 It was a happy day.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4H, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Elena Marku, Bekim, Kalina and the story of the crossing are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 6 (v6 standard). | CEFR A2 → lower B1 · Beat: Report & feature · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

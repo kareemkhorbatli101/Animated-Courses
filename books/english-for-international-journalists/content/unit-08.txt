@@ -1,0 +1,738 @@
+@UNITHEAD UNIT 8 | What Has Happened: The Present Perfect | Beat · Report & feature | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+say what has happened (present perfect: has/have + done)
+talk about a change with a result now
+use for and since
+use just, already, yet, ever and never
+
+@FIG g-team | The Atlas Wire team — Mira reports on how the valley has changed.
+@STORY The story so far. | The work is done and reported. Now Mira writes about the change itself: what has happened at Kalina, and how the valley has become a place where people live again. The present perfect links the past to the result we can see now.
+
+@WARMUP What has changed? | A short piece to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team looks at how much has changed.
+@WARMBOX
+Kalina has changed a lot this year. The crossing has reopened, and many families have returned. The school has just started again, and the old gate has been replaced. "The valley has become a home again," one stall-holder said. "I have had my stall here since the spring, and every week is better than the last." But some things have not changed yet: the clinic is still closed, and the bus does not cross the bridge yet.
+
+@EX W1 | Answer the questions.
+@NUM
+What has happened to the crossing? ___________
+Since when has the stall-holder had his stall? ___________
+What has not changed yet? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Many families have returned. ______
+The school has just started again. ______
+The clinic has reopened. ______
+
+@EX W3 | Find three present-perfect verbs in the text (e.g. has changed). Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What has changed in your city this year? Say two things.
+What has not changed yet, but should?
+
+@PART 1 | The words of change | The words for talking about change. Learn these first.
+@FIG u8-words | Four key words — improve, recently, since, yet.
+@H The words
+@VOCAB
+change | to become different
+improve | to get better
+grow | to get bigger
+become | to start to be
+progress | moving forward; getting better
+development | a new thing that happens
+recently | a short time ago
+since | from a time until now
+for | for a length of time
+already | before now
+yet | until now (in questions and negatives)
+just | a very short time ago
+ever | at any time
+never | at no time
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  change
+2.  improve
+3.  grow
+4.  become
+5.  progress
+6.  recently
+7.  already
+8.  yet
+9.  ever
+10.  never
+@@
+a)  to get better
+b)  to become different
+c)  to get bigger
+d)  a short time ago
+e)  to start to be
+f)  getting better
+g)  before now
+h)  until now
+i)  at any time
+j)  at no time
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | changed · improved · grown · recently · already · yet
+@NUM
+The valley has ___________ a lot.
+Life has ___________ for many families.
+The market has ___________ bigger.
+___________ , a new café opened.
+Many families have ___________ returned.
+But the clinic has not reopened ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  since
+2.  for
+3.  just
+4.  not
+5.  have
+@@
+a)  the spring
+b)  six months
+c)  reopened
+d)  yet
+e)  changed
+
+@EX 1D | Circle the word that is different.
+@NUM
+change · improve · grow · deadline
+since · for · already · microphone
+ever · never · recently · loud
+development · progress · change · rumour
+
+@FIG g-pageflow | A 'what has changed' story helps readers see the whole year at once.
+@EX 1E | Complete the paragraph. Use: changed · reopened · returned · improved · since.
+@WHITE
+Kalina has ___________ a lot. The crossing has ___________ , and many families have ___________ . Life has ___________ for everyone ___________ the spring.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+to become different → ___________
+to get better → ___________
+from a time until now → ___________
+a very short time ago → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What has changed in your life this year?
+What have you learned recently?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write two sentences about how your school or street has changed. Use has/have + a verb.
+
+@PART 2 | Grammar: the present perfect | Has/have + done for a past action with a result now.
+@FIG u8-gA | Present perfect — a past action with a result now.
+@GRAMMAR 1 · Present perfect — what has happened
+Form: {{has / have}} + past participle.
+The crossing {{has reopened}}.  Families {{have returned}}.  The valley {{has changed}}.
+We use it for a past action with a result now — the crossing is open now.
+
+@FIG u8-gB | since + a point in time · for + a length of time.
+@GRAMMAR 2 · for and since
+{{since}} + a point in time: The valley has changed {{since}} the spring.
+{{for}} + a length of time: Families have been back {{for}} six months.
+Both go with the present perfect — from the past until now.
+
+@GRAMMAR 3 · just, already, yet, ever, never
+{{just}}: The school has {{just}} reopened.   {{already}}: Families have {{already}} returned.
+{{yet}} (– / ?): The clinic has not reopened {{yet}}.
+{{ever}} / {{never}}: Have you {{ever}} visited?  I have {{never}} seen it so busy.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Write the past participle.
+@NUM
+reopen → ___________
+return → ___________
+change → ___________
+be → ___________
+become → ___________
+grow → ___________
+
+@EX 2B | Complete with the present perfect (has/have + done).
+@NUM
+The crossing ___________ (reopen).
+Families ___________ (return).
+The valley ___________ (change).
+Life ___________ (improve).
+
+@EX 2C | Choose: for or since.
+@NUM
+The valley has changed ______ the spring.
+Families have been back ______ six months.
+The café has been open ______ April.
+I have lived here ______ two years.
+
+@EX 2D | Complete with just, already or yet.
+@NUM
+The school has ______ reopened. (a moment ago)
+Many families have ______ returned. (before now)
+The clinic has not reopened ______ .
+
+@H Your own words
+@EX 2E | Write two things that have changed in your town. Use the present perfect.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write one thing you have never done, and one thing you have already done today.
+@NUM
+________________________
+________________________
+
+@PART 3 | Telling what has changed | The present perfect links the change to the result we see now.
+@FIG u8-skill | A fair change story holds both halves at once.
+@LABEL MODEL | A model paragraph
+@WARMBOX
+Kalina has changed a lot since the spring. The crossing has reopened, and many families have already returned. The school has just started again. Life has improved for everyone. But the clinic has not reopened yet, and there is still work to do.
+
+@LABEL NOTICE | Notice the tense
+@EX 3A | Answer about the model.
+@NUM
+What has happened to the crossing? ___________
+Since when has the valley changed? ___________
+What has not happened yet? ___________
+
+@EX 3B | Find three present-perfect verbs in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Now and result
+@FIG g-fivew | Ask: what has happened, and what is the result now?
+@EX 3C | Write the present perfect, then the result now.
+@NUM
+The crossing (reopen) → ___________ . Result: it is ___________ now.
+Families (return) → ___________ . Result: the valley is ___________ .
+The gate (be replaced) → ___________ . Result: it ___________ every morning.
+
+@EX 3D | Complete the paragraph. Use: has · have · since · yet.
+@WHITE
+The school ______ reopened, and forty children ______ come back. Life has improved ______ the spring. But the bus does not cross the bridge ______ .
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a place that has changed. Write four sentences about what has happened, with results now. Use the present perfect.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why does a 'what has changed' story feel close to now? Give one example.
+@EX 3G | Is it fair to write only what has improved? What else should a reporter say?
+
+@PART 4 | Listening: what has changed | Two audios. Listen for what has happened, and the result now.
+@FIG g-newsroom | In the newsroom — the team hears how much has changed.
+@SUBHEAD Listening A | · a resident describes the change
+@LABEL MODEL | Audio 8.1 — a resident speaks
+@DIALOGUE
+Mira | Could you tell me how the valley has changed?
+Resident | Of course. It has changed a lot since the spring.
+Resident | The crossing has reopened, and many families have come back.
+Resident | My children have just started school again — it reopened last week.
+Mira | Has everything improved?
+Resident | Not everything. The clinic has not reopened yet, and the bus does not cross yet.
+Resident | But I have never been so happy to live here.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what changes do you think the resident will mention? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+Since when has the valley changed? ___________
+What has just happened for the children? ___________
+What has not reopened yet? ___________
+How does the resident feel? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+The crossing has reopened. ______
+Everything has improved. ______
+The children have started school again. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Has changed since: ___________
+Just happened: ___________
+Not yet: ___________
+
+@FIG g-studio | Audio 8.2 — Mira reports to the editor what has changed.
+@SUBHEAD Listening B | · reporting it back
+@LABEL MODEL | Audio 8.2 — Mira and Daniel
+@DIALOGUE
+Daniel | So, how has the valley changed?
+Mira | It has changed a lot. The crossing has reopened and families have returned.
+Daniel | Anything just now?
+Mira | Yes — the school has just reopened. The children have already gone back.
+Daniel | And the problems?
+Mira | The clinic has not reopened yet, and there is no bus yet.
+Daniel | Good. Put the good news and the problems both in the story.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Daniel ask about? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The crossing ___________ reopened.
+The school has ___________ reopened.
+The children have ___________ gone back.
+The clinic has not reopened ___________ .
+
+@EX 4G | Which present-perfect forms do you hear? Write two (has/have + done).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Daniel want both the good news and the problems?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: changed · reopened · returned · yet.
+@WHITE
+The valley has ______ a lot. The crossing has ______ and families have ______ . But the clinic has not reopened ______ .
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why is it important to report the problems, not only the good changes?
+
+@PART 5 | Reading: a year of change | Two readings. Read for what has changed, and what has not.
+@FIG g-reach | A 'what has changed' feature — good news, and the work still to do.
+@SUBHEAD Reading A | · how the valley has changed
+@READING How Kalina has changed
+Kalina has changed a great deal since the spring. A year ago, the bridge was closed and the road was empty; today, people cross it from six in the morning. The market has reopened, and, according to the Crossing Office, a hundred families have returned to the valley.
+Life has improved in many small ways. The road has been repaired, the old gate has been replaced, and new lamps have been fitted along the river. The school itself has just reopened, and forty children have already gone back to class on the other side.
+"I have had my stall here since the spring," said Bekim, who sells fruit and vegetables on the bridge. "Every week is better than the last. The valley has become a home again. I have never been so busy."
+But not everything has changed yet. The clinic is still closed, and the bus does not cross the bridge yet. "We have done a lot," the Crossing Office said, "but we have not finished. There is still work to do."
+For the people of Kalina, the change is easy to see. In one year, a quiet, empty crossing has become a busy road again — and, they say, the best is still to come.
+
+@FIG u8-read | Five dates that have changed how the world talks about press freedom. Sources: UNESCO; Reporters Without Borders.
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What is the feature about? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+A hundred families have returned. ______
+The school has just reopened. ______
+The clinic has reopened. ______
+The bus crosses the bridge now. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Since when has the valley changed? ___________
+What has just happened at the school? ___________
+What has not changed yet? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+to get better → ___________
+to become different → ___________
+to start to be → ___________
+
+@FIG g-model | A change story feels close to readers, because the result is now.
+@SUBHEAD Reading B | · present perfect or past simple? — four tips
+@READING Four tips for the present perfect
+**1. Use the present perfect for a result now.** 'The crossing has reopened.' (and it is open now).
+**2. Use the past simple for a finished time.** 'The crossing reopened last April.' (a finished time — last April).
+**3. Use since and for.** 'since the spring' (a point) / 'for six months' (a length). Both link to now.
+**4. Report both sides.** Say what has improved — and what has not changed yet. That is fair and accurate.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which tense shows a result now? Guess.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  Present perfect for a result now
+2.  Past simple for a finished time
+3.  Use since and for
+4.  Report both sides
+@@
+a)  'The crossing reopened last April.'
+b)  say what has and has not changed
+c)  'The crossing has reopened.'
+d)  'since the spring' / 'for six months'
+
+@EX 5G | Which tip is about fairness? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+to become different → ___________
+to get better → ___________
+a short time ago → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which change in the feature is the most important? Why?
+@EX 5J | Which of the four tips is the most important? Say why.
+
+@PART 6 | Writing: a change story | Two short pieces: a 'then and now' note, and a short change story.
+@FIG g-notes | Notes: what has changed, and what has not.
+@SUBHEAD Writing 1 | · then-and-now notes
+@LABEL MODEL | A model
+@WARMBOX
+Crossing: has reopened (open now)
+Families: have returned — a hundred, since the spring
+School: has just reopened
+Not yet: the clinic has not reopened; no bus yet
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which tense do the notes use? ___________
+What has NOT changed yet? ___________
+
+@LABEL PRODUCE | Write your notes
+@EX 6B | Choose a place that has changed. Write four notes: three things that have changed, and one that has not yet.
+@WHITE
+Changed 1: ___________
+Changed 2: ___________
+Changed 3: ___________
+Not yet: ___________
+
+@FIG g-fivew | A short change story ends with one hopeful, honest quote.
+@SUBHEAD Writing 2 | · a short change story
+@LABEL MODEL | A model
+@WARMBOX
+Kalina has changed a lot since the spring. The crossing has reopened, and many families have returned. "The valley has become a home again," Bekim said. But the clinic has not reopened yet.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which verbs are present perfect? Where does the story say what has NOT changed?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a story
+@EX 6D | Complete the story. Use: has · have · since · yet.
+@WHITE
+The school ______ reopened, and the children ______ gone back. Life has improved ______ the spring. But the bus does not cross ______ .
+
+@LABEL PRODUCE | Write your story
+@EX 6E | Write a short change story (3–4 sentences). Use the present perfect, and say one thing that has not changed yet.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This uses the wrong tense. Change it to the present perfect.
+@WHITE
+"The crossing reopened, and it is open now. Families returned since the spring."
+
+@P
+________________________
+
+@PART 7 | Speaking: has it changed? | Ask and answer about changes. Use the present perfect.
+@FIG g-interview | Ask what has changed, and what has not.
+@SUBHEAD A model dialogue | · asking about changes
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | How has the valley changed since the spring?
+Guest | It has changed a lot. The crossing has reopened.
+Mira | Have the families returned?
+Guest | Yes, many have already come back.
+Mira | Has everything improved?
+Guest | Not yet. The clinic has not reopened yet.
+Mira | Thank you very much.
+
+@LABEL NOTICE | Notice the questions
+@EX 7A | Find the two present-perfect questions. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Make a present-perfect question for each answer.
+@NUM
+___________ ? — The crossing has reopened.
+___________ ? — Yes, many have returned.
+___________ ? — No, the clinic has not reopened yet.
+___________ ? — Since the spring.
+
+@FIG g-introduce | Introduce yourself, then ask what has changed.
+@EX 7C | Make an 'ever' or 'never' sentence.
+@NUM
+you / ever / visit → ________________________
+I / never / see / it so busy → ________________________
+they / already / return → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Ask a resident: 'How has it changed?' and 'What has not changed yet?'
+Resident | Answer with the present perfect. Say what has improved and what has not.
+Observer | Listen. Did the reporter ask about both the good news and the problems?
+
+@EX 7D | Choose a role from the table. Ask your questions to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a 'what has changed' interview: a reporter, a resident, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · reporting the change
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | I have spoken to a resident. The valley has really changed.
+Priya | What has happened?
+Mira | The crossing has reopened, and the families have come back.
+Priya | Has everything improved?
+Mira | Not yet. The clinic has not reopened, and there is no bus yet.
+Priya | Good. Report both — the good news and the problems.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the sentence Mira uses about what has NOT changed.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use the present perfect (has/have + done)?
+talk about a result now?
+report what has not changed yet?
+use since or for?
+
+@EX 7G | Role-play reporting the change to a colleague. Then swap roles.
+
+@PART 8 | Ethics: the whole picture | Good news is real — but so are the problems. Report both.
+@FIG u8-ethA | 'It has fully recovered' is a claim — not a fact until it is true.
+@SUBHEAD A first case | · 'fully recovered'
+@CASE An official gives Mira a happy line: "Write that Kalina has fully recovered, and everything is finished." It would be a bright, positive headline on an international wire. But it is not accurate. The clinic has not reopened yet, there is no bus, and some families have not returned. A lot has improved — but the valley has not 'fully recovered'. Mira knows the Code: be accurate. Progress is not the same as 'finished'. What does Mira write?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) write 'fully recovered, everything finished'  (b) write 'a lot has improved, but work remains'.   Choice: ______  Because ________________________
+'Fully recovered', when things are not finished, is (a) accurate  (b) not accurate.   Choice: ______
+
+@EX 8B | Has it happened yet? Write Y (yes) or N (not yet).
+@NUM
+The crossing has reopened. ______
+The clinic has reopened. ______
+Many families have returned. ______
+The valley has fully recovered. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: accurate · progress · finished · both.
+@WHITE
+Be ______ . ______ is not the same as '______ '. Report ______ what has changed and what has not.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is a 'too positive' story a problem? Who could it hurt?
+@SUBHEAD A second case | · only the good news
+@FIG u8-ethB | A fair story shows the whole picture — not only the parts that shine.
+@CASE Mira's story is full of good news: the crossing has reopened, the school has restarted, families have come back. It is all true. But a reader writes: "What about us? Our street still has no water, and the bus has not returned." Mira checks, and the reader is right — some problems have not changed yet, and she left them out. The Code says: be complete and fair — show the whole picture, not only the good parts. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) leave the story as only good news  (b) add the problems that have not changed.   Choice: ______  Because ________________________
+A story with only the good parts is (a) complete  (b) not the whole picture.   Choice: ______
+
+@EX 8F | Complete with: whole · fair · problems · both.
+@NUM
+Show the ___________ picture.
+A report must be ___________ .
+Do not leave out the ___________ .
+Report the good news and the problems — ___________ .
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why do readers trust a story that shows both sides?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences that add the problems to Mira's story. Use the present perfect (has not … yet).
+
+@PART 9 | Digital: the update post | Online, a 'what has changed' post shares the news of the year fast.
+@FIG g-phonealert | A 'what has changed' post — good news, honestly.
+@LABEL MODEL | A model post
+@WARMBOX
+ONE YEAR ON · The crossing has reopened, 100 families have returned, and the school has just restarted. The clinic has not reopened yet. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  The crossing has reopened
+2.  100 families have returned
+3.  the school has just restarted
+4.  The clinic has not reopened yet
+@@
+a)  a recent change
+b)  what has not changed
+c)  good news (1)
+d)  good news (2)
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one present-perfect verb in the post. Write it.
+@NUM
+______
+
+@EX 9C | This post is only good news. Add one honest line about what has not changed yet.
+@WHITE
+"The crossing has reopened and families have returned."
+
+@P
+________________________
+
+@FIG g-website | The post links to the full 'what has changed' feature.
+@EX 9D | Write a 'what has changed' post. Say one thing that has changed, and one that has not yet.
+@WHITE
+CHANGED: ___________ .  NOT YET: ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post about how your city has changed this year. Use the present perfect.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your 'one year on' story.
+@EX 9G | A reader asks: 'Has the clinic reopened?' Write a short, honest reply.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Online, good news is shared fast. Why must a reporter still add what has not changed?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 9.
+@FIG u8-sum | Unit 8 — what has happened, and what has changed.
+@EX 10A | Vocabulary. Complete with: changed · improved · grown · recently · already · yet · since · become.
+@NUM
+The valley has ___________ a lot.
+Life has ___________ for families.
+The market has ___________ bigger.
+___________ , a new café opened.
+Many families have ___________ returned.
+But the clinic has not reopened ___________ .
+Everything is better ___________ the spring.
+The valley has ___________ a home again.
+
+@EX 10B | Grammar. Write the present perfect (has/have + done).
+@NUM
+the crossing / reopen → ___________
+families / return → ___________
+the valley / change → ___________
+life / improve → ___________
+
+@EX 10C | Grammar. Choose: for or since.
+@NUM
+The valley has changed ______ the spring.
+Families have been back ______ six months.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Complete with just, already or yet.
+@NUM
+The school has ______ reopened. (a moment ago)
+Families have ______ returned. (before now)
+The clinic has not reopened ______ .
+
+@EX 10E | Read and answer.
+@WHITE
+Kalina has changed a lot since the spring. The crossing has reopened, and families have returned. The school has just restarted. But the clinic has not reopened yet.
+
+@NUM
+Since when has the valley changed? ___________
+What has just restarted? ___________
+What has not reopened yet? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can say what has happened (present perfect).
+I can talk about a change with a result now.
+I can use for and since.
+I can use just, already, yet, ever and never.
+
+@EX 10F | Reflect. Which part of Unit 8 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence in the present perfect.
+@NUM
+The crossing reopens. → ________________________
+Families return. → ________________________
+The valley changes a lot. → ________________________
+The school just restarts. → ________________________
+
+@PART 11 | Assignment: a year in review | Put the unit together: write about how a place has changed.
+@FIG g-template | The assignment template — your 'what has changed' story.
+@P
+**Your task. **Choose a place that has changed (real or invented). Write a short 'year in review' (5–6 sentences). Say what has happened (present perfect), with the result now. Use for or since. Include at least one thing that has not changed yet. End with one exact quote. Be accurate, and show the whole picture.
+
+@FIG g-model | A model — use it to check the shape of your review.
+@WHITE
+Remember: present perfect for what has happened; for/since for the time; add what has NOT changed yet; do not say 'finished' unless it is true; end with an exact quote.
+
+@CRITERIA Success criteria
+I use the present perfect for what has changed.
+I use for or since.
+I include one thing that has not changed yet.
+I do not say 'finished' unless it is true.
+It is accurate, fair, and easy to read.
+
+@P
+**Keep this. **In Unit 9, you learn should, must and have to, and the first conditional — to give advice and talk about what will happen if…
+
+@KEY Unit 8 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 it has reopened · 2 since the spring · 3 the clinic is still closed; no bus yet
+W2 | 1 T · 2 T · 3 F
+W3 | (any three) has changed · has reopened · have returned · has started · has been replaced · has become · have not changed
+1A | 1-b, 2-a, 3-c, 4-e, 5-f, 6-d, 7-g, 8-h, 9-i, 10-j (accept sensible matches)
+1B | 1 changed · 2 improved · 3 grown · 4 Recently · 5 already · 6 yet
+1C | 1 since the spring · 2 for six months · 3 just reopened · 4 not yet · 5 have changed
+1D | 1 deadline · 2 microphone · 3 loud · 4 rumour
+1E | 1 changed · 2 reopened · 3 returned · 4 improved · 5 since
+1F | 1 change · 2 improve · 3 since · 4 just
+2A | 1 reopened · 2 returned · 3 changed · 4 been · 5 become · 6 grown
+2B | 1 has reopened · 2 have returned · 3 has changed · 4 has improved
+2C | 1 since · 2 for · 3 since · 4 for
+2D | 1 just · 2 already · 3 yet
+3A | 1 it has reopened · 2 since the spring · 3 the clinic has not reopened (yet)
+3B | (any three) has changed · has reopened · have returned · has started · has improved
+3C | 1 has reopened; open · 2 have returned; busy/full · 3 has been replaced; opens
+3D | has · have · since · yet
+4B | 1 since the spring · 2 the children have started school (it reopened) · 3 the clinic (and the bus does not cross) · 4 very happy / never so happy
+4C | 1 T · 2 F · 3 T
+4D | Since = the spring · Just = children started school again · Not yet = clinic reopened / bus crosses
+4F | 1 has · 2 just · 3 already · 4 yet
+4G | (any two) has reopened · have returned · has (just) reopened · have (already) gone back
+4H | so the story is fair and shows the whole picture
+4I | changed · reopened · returned · yet
+5B | 1 T · 2 T · 3 F · 4 F
+5C | 1 since the spring · 2 it has just reopened · 3 the clinic (closed); no bus yet
+5D | 1 improve · 2 change · 3 become
+5F | present perfect for a result now → 'The crossing has reopened.' · past simple for a finished time → 'The crossing reopened last April.' · since and for → 'since the spring' / 'for six months' · report both sides → say what has and has not changed
+5G | Tip 4
+5H | 1 change · 2 improve · 3 recently
+6A | 1 present perfect · 2 the clinic has not reopened; no bus yet
+6C | present perfect: has changed, has reopened, have returned, has become; 'But the clinic has not reopened yet.'
+6D | has · have · since · yet
+6F | 'The crossing has reopened, and it is open now. Families have returned since the spring.'
+7A | 'How has the valley changed…?' · 'Have the families returned?'
+7B | (example) 1 What has happened to the crossing? · 2 Have the families returned? · 3 Has the clinic reopened? · 4 Since when has it changed?
+7C | 1 Have you ever visited? · 2 I have never seen it so busy. · 3 They have already returned.
+7F | 'The clinic has not reopened (yet), and there is no bus yet.'
+8A | 1 (b) write 'a lot has improved, but work remains' · 2 (b) not accurate
+8B | 1 Y · 2 N · 3 Y · 4 N
+8C | accurate · Progress · finished · both
+8E | 1 (b) add the problems that have not changed · 2 (b) not the whole picture
+8F | 1 whole · 2 fair · 3 problems · 4 both
+9A | 'The crossing has reopened' → good news (1) · '100 families have returned' → good news (2) · 'the school has just restarted' → a recent change · 'The clinic has not reopened yet' → what has not changed
+9B | (any) has reopened · have returned · has (just) restarted · has (not) reopened
+9C | (example) 'But the clinic has not reopened yet.'
+10A | 1 changed · 2 improved · 3 grown · 4 Recently · 5 already · 6 yet · 7 since · 8 become
+10B | 1 has reopened · 2 have returned · 3 has changed · 4 has improved
+10C | 1 since · 2 for
+10D | 1 just · 2 already · 3 yet
+10E | 1 since the spring · 2 the school · 3 the clinic
+10G | 1 The crossing has reopened. · 2 Families have returned. · 3 The valley has changed a lot. · 4 The school has just restarted.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Bekim, the Crossing Office, Kalina and the story of the valley's change are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 8 (v6 standard). | CEFR A2 → lower B1 · Beat: Report & feature · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

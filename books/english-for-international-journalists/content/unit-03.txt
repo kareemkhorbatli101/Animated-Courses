@@ -1,0 +1,728 @@
+@UNITHEAD UNIT 3 | Live from the Scene: Reporting Now | Beat · Report & live | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+describe what is happening now (present continuous)
+talk about plans with going to
+say where people and things are (prepositions of place)
+report a short live update from a scene
+
+@FIG g-team | The Atlas Wire team — Mira reports live in this unit.
+@STORY The story so far. | The crossing at Kalina is open again. Today Mira is at the bridge, reporting live for the wire and for radio. She tells us what is happening now, and what is going to happen next.
+
+@WARMUP What's happening now? | A short live report to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team decides who is going to cover the scene.
+@WARMBOX
+Mira is standing on the bridge at Kalina. It is nine o'clock in the morning. Many people are crossing, and the stalls are opening. Mira is holding a microphone. "This is Mira Sandoval, live from the crossing at Kalina," she says. "The bridge is open again, and families are walking across. In a moment, I am going to talk to a stall-holder."
+
+@EX W1 | Answer the questions.
+@NUM
+Where is Mira? ___________
+What time is it? ___________
+What are the people doing? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Mira is in the newsroom. ______
+The bridge is open again. ______
+Families are walking across. ______
+
+@EX W3 | Find three words that end in -ing in the text. Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What is happening near you right now? Say two things.
+Have you ever seen a correspondent live on TV? What were they doing?
+
+@PART 1 | Live: the words of the scene | The words a reporter needs at the scene. Learn these first.
+@FIG u3-words | Four key words — live, scene, crowd, update.
+@H The words
+@VOCAB
+live | news as it happens, now
+scene | the place a story happens
+report | a story; to tell the news
+microphone | a reporter speaks into it
+crowd | many people together
+happening | going on now
+plan | what you are going to do
+cover | to report a story
+on air | being shown or heard now
+update | new information
+breaking | very new and important
+event | a thing that happens
+moment | a very short time
+broadcast | to send news on TV or radio
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  live
+2.  scene
+3.  crowd
+4.  cover
+5.  update
+6.  microphone
+7.  broadcast
+8.  breaking
+9.  moment
+10.  event
+@@
+a)  many people together
+b)  a thing that happens
+c)  news as it happens
+d)  to report a story
+e)  a reporter speaks into it
+f)  new information
+g)  a very short time
+h)  the place a story happens
+i)  very new and important
+j)  to send news on TV or radio
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | live · scene · crowd · microphone · update · report
+@NUM
+Mira speaks into the ___________ .
+There is a big ___________ on the bridge today.
+She is reporting ___________ from the ___________ .
+Here is a short news ___________ .
+We have a new ___________ every hour.
+
+@EX 1C | Match the two halves (collocations).
+@MATCH
+1.  breaking
+2.  live
+3.  cover
+4.  on
+5.  the
+@@
+a)  news
+b)  report
+c)  a story
+d)  air
+e)  scene
+
+@EX 1D | Circle the word that is different.
+@NUM
+crowd · people · families · microphone
+report · story · update · deadline
+scene · place · plan · bridge
+now · live · later · happening
+
+@FIG g-pageflow | From live report to the front page — the same story, written down.
+@EX 1E | Complete the paragraph. Use: scene · live · microphone · crowd · report.
+@WHITE
+Mira is at the ___________ . She is on air, ___________ from the bridge. She holds a ___________ and speaks to the camera. Behind her, a big ___________ is crossing. Later, she files a short ___________ for the wire.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+being shown or heard now → ___________
+news as it happens → ___________
+new information → ___________
+a very short time → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What is happening in your street or home right now?
+Would you like to report live from another country? Why or why not?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write three sentences about a busy place you know. Use: there is / there are / -ing.
+
+@PART 2 | Grammar: now and next | Present continuous for now, going to for plans, and prepositions for place.
+@FIG u3-gA | Present continuous — am / is / are + verb-ing = happening now.
+@GRAMMAR 1 · Present continuous — happening now
+Form: {{am / is / are}} + verb{{-ing}}.
+Mira {{is reporting}}.   People {{are crossing}}.   The stalls {{are opening}}.
+We use it for things that are happening now, at this moment.
+
+@GRAMMAR 2 · going to — plans and the future
+Form: {{am / is / are}} + {{going to}} + verb.
+She {{is going to}} interview a stall-holder.   We {{are going to}} cover the story.
+We use it for plans and what we think will happen next.
+
+@FIG u3-gB | Prepositions of place — in, at, next to, in front of.
+@GRAMMAR 3 · Prepositions of place
+{{in}} a place: The town is {{in}} the valley.
+{{at}} a point: Mira is {{at}} the crossing.
+{{next to}} / {{in front of}} / {{behind}}: The café is {{next to}} the bridge.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Write the -ing form of the verb.
+@NUM
+report → ___________
+come → ___________
+open → ___________
+stand → ___________
+run → ___________
+
+@EX 2B | Complete with am / is / are + -ing.
+@NUM
+Mira ___________ (report) live.
+The stalls ___________ (open) now.
+People ___________ (cross) the bridge.
+I ___________ (write) a report.
+
+@EX 2C | Write the plan with going to.
+@NUM
+Mira / interview / a stall-holder → ________________________
+the team / cover / the opening → ________________________
+Hana / take / photographs → ________________________
+
+@EX 2D | Choose the right preposition: in · at · next to.
+@NUM
+The town is ______ the valley.
+Mira is ______ the crossing.
+The café is ______ the bridge.
+
+@H Your own words
+@EX 2E | Look out of the window (or around the room). Write three things that are happening now.
+@NUM
+________________________
+________________________
+________________________
+
+@EX 2F | Write two plans for tomorrow with going to.
+@NUM
+________________________
+________________________
+
+@PART 3 | At the scene: reporting live | A live report says where you are, and what is happening now.
+@FIG u3-skill | A live report — Mira says what is happening now, from the scene.
+@LABEL MODEL | A model live report
+@WARMBOX
+"This is Mira Sandoval, live from the crossing at Kalina. It is a busy morning. The barrier is up, the stalls are open, and a big crowd is here. Families are carrying bags across the bridge. In a moment, I am going to talk to a stall-holder. Back to you in the studio."
+
+@LABEL NOTICE | Notice the report
+@EX 3A | Answer about the model.
+@NUM
+Where is Mira? ___________
+What is the crowd doing? ___________
+What is she going to do next? ___________
+
+@EX 3B | Underline the three -ing verbs in the report. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Say where
+@FIG g-fivew | A live report still answers the questions — where, what, who, and now.
+@EX 3C | Where is each thing? Write a sentence with a preposition.
+@NUM
+the reporter / the crossing → ________________________
+the crowd / the bridge → ________________________
+the café / the bridge → ________________________
+
+@EX 3D | Complete the live report. Use the words in brackets.
+@WHITE
+"This is Tomas, ______ (live) from the village above Kalina. A crowd ______ (gather) here now. People ______ (wait) for the new school to open. In a moment, the head teacher ______ (going to) speak."
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a busy place. Write a short live report (3–4 sentences). Say where you are and what is happening now.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why is a live report exciting? What is difficult about it?
+@EX 3G | Which is better for breaking news: a live report or a written report? Say one reason.
+
+@PART 4 | Listening: on air | Two audios. Listen for what is happening now.
+@FIG g-studio | In the studio — the desk listens to the live report.
+@SUBHEAD Listening A | · a live broadcast
+@LABEL MODEL | Audio 3.1 — Mira goes live
+@DIALOGUE
+Studio | And now, live from the crossing at Kalina, here is Mira Sandoval.
+Mira | Thank you. This is Mira, live from the bridge. It is a busy morning here.
+Mira | The barrier is up, and a big crowd is crossing with bags and boxes.
+Mira | Right now, a family is opening a small café next to the old gate.
+Mira | In a moment, I am going to talk to the owner. Back to you in the studio.
+Studio | Thank you, Mira. We will come back to you soon.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think Mira can see? Write two ideas.
+@NUM
+________________________
+
+@EX 4B | Answer the questions.
+@NUM
+Where is Mira? ___________
+What is the crowd carrying? ___________
+What is the family doing? ___________
+What is Mira going to do next? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+Mira is in the studio. ______
+The barrier is up. ______
+The café is next to the old gate. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Place: ___________
+Now (happening): ___________
+Next (plan): ___________
+
+@FIG g-phonealert | Audio 3.2 — Tomas phones in a live update from the bridge.
+@SUBHEAD Listening B | · a live phone-in
+@LABEL MODEL | Audio 3.2 — Tomas calls in
+@DIALOGUE
+Daniel | Tomas, you are on air. What is happening?
+Tomas | Hi, Daniel. I am on the bridge, near the old gate. A big crowd is here.
+Daniel | What are the people doing?
+Tomas | They are watching a small concert. A band is playing now.
+Daniel | Is the market still open?
+Tomas | Yes, the stalls are open, and children are dancing. It is a happy scene.
+Daniel | Thank you, Tomas. We are going to put your photographs on the wire next.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: where is Tomas? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Tomas is near the old ___________ .
+The people are watching a ___________ .
+The children are ___________ .
+Daniel is going to put the ___________ on the wire.
+
+@EX 4G | Which -ing verbs do you hear? Write three.
+@NUM
+________________________
+
+@EX 4H | Answer. Is this hard news or soft news? Why?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: live · bridge · crowd · going to.
+@WHITE
+In both audios, a reporter is ______ from the ______ . A big ______ is there. Each reporter says what is happening now, and what they are ______ do next.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why does a studio go 'live' to a reporter in another country? What can go wrong?
+
+@PART 5 | Reading: from the field | Two readings. Read for what is happening, and for the plan.
+@FIG g-notes | Live updates in brief — short items from the field.
+@SUBHEAD Reading A | · a live report, written down
+@READING A busy morning at the Kalina crossing
+It is nine o'clock, and the crossing at Kalina is waking up. The barrier is up, the stalls are open, and a big crowd is here. Correspondent Mira Sandoval is standing at the old gate with a microphone.
+"This is a very busy morning," Mira says. "People are carrying bags and boxes across the bridge. Families are coming from both sides of the river, and children are running ahead of them. Next to the gate, a young family is opening a small café. This is their first day."
+Behind Mira, a stall-holder is putting fruit on his table. He is smiling. "The people are coming back," he says. "Every morning, more families cross. It is good for business, and it is good for the valley."
+At the end of the bridge, a group of workers is painting the rail. "We are getting the crossing ready," one worker says. "Next week, there is going to be a small festival here, on both sides."
+A little further on, two teachers are standing in front of the new school bus. They are waiting for the children. "We are starting again today," one teacher says. "Forty children are coming this morning, and more are coming next week. It is a very happy day for us."
+Near the barrier, an old man is watching the crowd. He is not shopping; he is just looking. "For seven years, this bridge was closed and quiet," he says slowly. "Now it is full of people again. I am very happy. I am coming here every morning now, just to see the families."
+Mira looks at the camera. "So the news this morning is simple and happy: Kalina is open. In a moment, I am going to talk to the family at the new café. This is Mira Sandoval, live from the crossing. Back to you in the studio."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What is the report about? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The barrier is down. ______
+A family is opening a café. ______
+Workers are painting the rail. ______
+There is going to be a festival next week. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Where is Mira standing? ___________
+What are the children doing? ___________
+What is Mira going to do next? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+many people together → ___________
+a place to drink coffee → ___________
+a happy party → ___________
+
+@FIG u3-read | Say where you are, say what is happening, say what is next — then stop.
+@SUBHEAD Reading B | · reporting from the field — three tips
+@READING Three tips for a live report
+**1. Say where you are.** Start with the place: 'This is Mira Sandoval, live from the crossing at Kalina.' The listener is far away and needs to see the scene.
+**2. Say what is happening now.** Use the present continuous: 'The stalls are opening. A crowd is crossing.' Talk about this moment, not last week.
+**3. Say what is next.** Use *going to* for the plan: 'In a moment, I am going to talk to a stall-holder.' This keeps the listener with you.
+And always: stay calm, speak clearly, and only say what you can see. Do not guess.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: what makes a good live report? Guess one thing.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  Say where you are
+2.  Say what is happening
+3.  Say what is next
+4.  Stay calm
+@@
+a)  'The stalls are opening now.'
+b)  'This is Mira, from the crossing.'
+c)  Speak slowly and clearly.
+d)  'I am going to talk to a stall-holder.'
+
+@EX 5G | Which tip uses *going to*? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+news as it happens → ___________
+the place a story happens → ___________
+a plan for the future → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which reading helped you more: the report or the tips? Why?
+@EX 5J | Which of the three tips is the most important? Say why.
+
+@PART 6 | Writing: notes and a live script | Two short pieces: field notes now, and a live script.
+@FIG g-notes | Field notes — what is happening, right now.
+@SUBHEAD Writing 1 | · field notes
+@LABEL MODEL | A model
+@WARMBOX
+Place: the bridge at Kalina
+Now: barrier up; crowd crossing with bags; children running
+Next: going to interview the café family
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Are the notes about now or last week? ___________
+What is the plan (next)? ___________
+
+@LABEL PRODUCE | Write your notes
+@EX 6B | Choose a real or invented scene. Write field notes: Place, Now, Next.
+@WHITE
+Place: ___________
+Now: ___________
+Next: ___________
+
+@FIG g-model | A live script is short — where, what is happening, and what is next.
+@SUBHEAD Writing 2 | · a live script
+@LABEL MODEL | A model
+@WARMBOX
+"This is [name], live from [place]. Right now, [what is happening]. In a moment, I am going to [plan]. Back to you in the studio."
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which tense says what is happening now? Which words say the plan?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a script
+@EX 6D | Complete the live script. Use: live · opening · going to.
+@WHITE
+"This is Leila, ______ from the school. Right now, the doors are ______ , and children are coming in. In a moment, I am ______ talk to a teacher."
+
+@LABEL PRODUCE | Write your script
+@EX 6E | Write your own live script (3–4 lines) for a scene you choose.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This script has two mistakes. Write it correctly.
+@WHITE
+"the stalls is opening. people is crossing."
+
+@P
+________________________
+
+@PART 7 | Speaking: to the studio | Report live to a partner. Ask and answer about now.
+@FIG g-interview | At the scene — ask what is happening now.
+@SUBHEAD A model dialogue | · at the scene
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | Hello. I am Mira, from Atlas Wire. Can I ask you a question?
+Person | Yes, of course.
+Mira | What are you doing here today?
+Person | I am opening my café. It is my first day.
+Mira | Why are so many people crossing?
+Person | The bridge is open again. Everyone is happy.
+Mira | Thank you, and good luck!
+
+@LABEL NOTICE | Notice the questions
+@EX 7A | Which two questions use the present continuous? Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Make a present-continuous question for each answer.
+@NUM
+___________ ? — I am opening my café.
+___________ ? — They are carrying bags.
+___________ ? — Because the bridge is open.
+___________ ? — A band is playing.
+
+@FIG g-introduce | Introduce yourself before you ask your questions.
+@EX 7C | Put the words in order to make a question.
+@NUM
+you / what / doing / are → ________________________
+crossing / people / why / are → ________________________
+playing / who / is → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Introduce yourself. Ask two present-continuous questions about the scene.
+Person at the scene | Answer. Say what you are doing and why you are here.
+Studio host | Welcome the reporter, then ask: 'What is happening now?'
+
+@EX 7D | Choose a role from the table. Ask your two questions to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a live report: a studio host, a reporter at the scene, and a person. Then swap roles.
+@SUBHEAD A second dialogue | · studio and reporter
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Host | Ana here in the studio. Mira, are you there? What is happening?
+Mira | Yes, I am here on the bridge. A big crowd is crossing, and the stalls are open.
+Host | That is great. What are you going to do next?
+Mira | I am going to talk to a stall-holder. Then I am going to send some photographs.
+Host | Thank you, Mira. We will come back to you soon.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the question the host asks about the plan.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+introduce myself clearly?
+ask about now (present continuous)?
+say my plan with going to?
+speak slowly and clearly?
+
+@EX 7G | Role-play the studio-and-reporter call with a partner. Then swap roles.
+
+@PART 8 | Ethics: live and fair | Live news is fast. A journalist is still accurate and kind.
+@FIG u3-ethA | On air, still say only what you can see — a fact, not a guess.
+@SUBHEAD A first case | · a number you cannot see
+@CASE Mira is live at the crossing. The studio asks her: "How many people are there?" Mira can see a big crowd, but she did not count them. A voice in her ear says, "Just say ten thousand — it sounds good." The report is live, and listeners in many countries are hearing it now. But Mira did not count ten thousand people. She is a journalist, and she knows the Code: report only what you can see, and do not guess a number as a fact. What does Mira say on air?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) say 'ten thousand people'  (b) say 'a big crowd'.   Choice: ______  Because ________________________
+A number you did not count is (a) a fact  (b) a guess.   Choice: ______
+
+@EX 8B | Fact or guess? Write F or G.
+@NUM
+"The stalls are open." (she can see them) ______
+"There are exactly 10,000 people." (she did not count) ______
+"A band is playing." (she can hear it) ______
+"Everyone in the valley is here." ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: see · guess · calm · number.
+@WHITE
+On air, say only what you can ______ . Do not ______ a ______ as a fact. Stay ______ , and speak clearly.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is it easy to make a mistake on live news? How can a reporter stay careful?
+@SUBHEAD A second case | · filming an upset person
+@FIG u3-ethB | Respect people — ask before you film, even on a busy day.
+@CASE Tomas is filming the crowd for the live report. He sees a woman at the barrier who is crying. It is a strong picture, and the deadline is now. But the woman does not want to be on camera. She turns away and puts up her hand. Tomas needs pictures for the report, and the pictures will go out in many countries. But the woman said no. The Code says: respect people, and ask before you film. What does Tomas do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) film her anyway  (b) do not film her.   Choice: ______  Because ________________________
+Next time, Tomas (a) films first, asks later  (b) asks first.   Choice: ______
+
+@EX 8F | Complete with: respect · ask · people · no.
+@NUM
+A journalist must ___________ people.
+Always ___________ before you film.
+If a person says ___________ , do not film them.
+The news is about ___________ , so be kind.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Is it more important to get the picture, or to respect people? Why?
+@LABEL PRODUCE | Write it
+@EX 8H | Write what Tomas says to the woman (2–3 sentences). Be kind, and respect her answer.
+
+@PART 9 | Digital: the live update | Online, a live update is short and fast — but still true.
+@FIG g-phonealert | A live update on a phone — short, now, and true.
+@LABEL MODEL | A model live update
+@WARMBOX
+LIVE · 9:12 a.m. — The crossing at Kalina is open. A big crowd is here. A family is opening a café next to the old gate. — @AtlasWire
+
+@LABEL NOTICE | The parts of an update
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  LIVE
+2.  9:12 a.m.
+3.  a big crowd is here
+4.  @AtlasWire
+@@
+a)  the time, now
+b)  the outlet
+c)  it is happening now
+d)  what you can see
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the present-continuous verb in the update. Write it.
+@NUM
+______
+
+@EX 9C | This update has two mistakes. Write it correctly.
+@WHITE
+"LIVE — the crossing are open. a crowd are crossing."
+
+@P
+________________________
+
+@FIG g-website | The live update also goes on the website home page.
+@EX 9D | Complete the live update. Answer: where and what is happening.
+@WHITE
+LIVE · now — ___________ (what is happening?) at ___________ (where?). — @AtlasWire
+
+@LABEL PRODUCE | Write your update
+@EX 9E | Write a one-line live update for a scene you choose. Use the present continuous.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your live story. Use the present continuous.
+@EX 9G | Write a second, later update for the same story (what is happening now).
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Do you follow live updates online? Are they always true? How do you check?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 4.
+@FIG u3-sum | Unit 3 — reporting live, as it happens.
+@EX 10A | Vocabulary. Complete with: live · scene · crowd · update · microphone · report · on air · breaking.
+@NUM
+Mira speaks into a ___________ .
+There is a big ___________ on the bridge.
+She is reporting ___________ from the ___________ .
+Here is a short news ___________ and a new ___________ .
+This is ___________ news — it is very new, and she is ___________ now.
+
+@EX 10B | Grammar. Write am / is / are + -ing.
+@NUM
+Mira ___________ (report).
+The stalls ___________ (open).
+Children ___________ (run).
+I ___________ (write).
+
+@EX 10C | Grammar. Write the plan with going to.
+@NUM
+Mira / interview / the family → ________________________
+we / cover / the festival → ________________________
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Prepositions. Choose: in · at · next to.
+@NUM
+The town is ______ the valley.
+Mira is ______ the crossing.
+The café is ______ the old gate.
+
+@EX 10E | Read and answer.
+@WHITE
+Tomas is at the scene. He is holding a camera and filming the crowd. People are dancing, and a band is playing. In a moment, he is going to send the photographs to the desk.
+
+@NUM
+What is Tomas holding? ___________
+What are the people doing? ___________
+What is he going to do next? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can say what is happening now (present continuous).
+I can talk about plans with going to.
+I can say where things are (prepositions).
+I can give a short live update.
+
+@EX 10F | Reflect. Which part of Unit 3 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+The stalls is opening. → ________________________
+People is crossing. → ________________________
+She go to interview a stall-holder. → ________________________
+The crossing is on Kalina. → ________________________
+
+@PART 11 | Assignment: a live report | Put the unit together: plan and write a short live report.
+@FIG g-template | The assignment template — your live report.
+@P
+**Your task. **Choose a busy place (real or invented). Write a short live report (5–6 sentences). Say where you are, what is happening now (present continuous), and what is going to happen next (going to). Add one thing you can see, and stay accurate — only what you can see.
+
+@FIG g-model | A model — use it to check the shape of your report.
+@WHITE
+Remember: say where you are; use -ing for now; use *going to* for the plan; report only what you can see.
+
+@CRITERIA Success criteria
+I say where I am (a preposition).
+I use the present continuous for now.
+I use going to for the plan.
+I report only what I can see — no guesses.
+It is neat and easy to read.
+
+@P
+**Keep this. **In Unit 4, you learn to run a full interview — asking polite questions with can, could and would.
+
+@KEY Unit 3 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 on the bridge at Kalina · 2 nine o'clock (in the morning) · 3 crossing; the stalls are opening
+W2 | 1 F · 2 T · 3 T
+W3 | (any three) standing · crossing · opening · holding · walking
+1A | 1-c, 2-h, 3-a, 4-d, 5-f, 6-e, 7-j, 8-i, 9-g, 10-b (accept sensible matches)
+1B | 1 microphone · 2 crowd · 3 live, scene · 4 report · 5 update
+1C | 1 breaking news · 2 live report · 3 cover a story · 4 on air · 5 the scene
+1D | 1 microphone · 2 deadline · 3 plan · 4 later
+1E | 1 scene · 2 live · 3 microphone · 4 crowd · 5 report
+1F | 1 on air · 2 live · 3 update · 4 moment
+2A | 1 reporting · 2 coming · 3 opening · 4 standing · 5 running
+2B | 1 is reporting · 2 are opening · 3 are crossing · 4 am writing
+2C | 1 Mira is going to interview a stall-holder. · 2 The team is going to cover the opening. · 3 Hana is going to take photographs.
+2D | 1 in · 2 at · 3 next to
+3A | 1 at the crossing (the scene), Kalina · 2 carrying bags across the bridge · 3 talk to a stall-holder
+3B | (any three) is up / are open / is here / are carrying
+3C | (example) 1 The reporter is at the crossing. · 2 The crowd is on the bridge. · 3 The café is next to the bridge.
+3D | 1 live · 2 is gathering · 3 are waiting · 4 is going to
+4B | 1 on the bridge at Kalina · 2 bags and boxes · 3 opening a small café · 4 talk to the owner
+4C | 1 F · 2 T · 3 T
+4D | Place = the bridge at Kalina · Now = barrier up, crowd crossing, family opening a café · Next = interview the owner
+4F | 1 gate · 2 concert (band) · 3 dancing · 4 photographs
+4G | (any three) watching · playing · dancing
+4I | live · bridge · crowd · going to
+5B | 1 F · 2 T · 3 T · 4 T
+5C | 1 at the old gate · 2 running (ahead of their families) · 3 talk to the family at the new café
+5D | 1 crowd · 2 café · 3 festival
+5F | Say where you are → 'This is Mira, from the crossing.' · Say what is happening → 'The stalls are opening now.' · Say what is next → 'I am going to talk to a stall-holder.' · Stay calm → speak slowly and clearly
+5G | Tip 3
+5H | 1 live · 2 scene · 3 plan
+6A | 1 now · 2 interview the café family
+6C | present continuous (-ing) says now; 'going to' says the plan
+6D | 1 live · 2 opening · 3 going to
+6F | The stalls are opening. People are crossing.
+7A | (any two) 'What are you doing here today?' · 'Why are so many people crossing?'
+7B | (example) 1 What are you doing? · 2 What are they carrying? · 3 Why are people crossing? · 4 Who is playing?
+7C | 1 What are you doing? · 2 Why are people crossing? · 3 Who is playing?
+7F | What are you going to do next?
+8A | 1 (b) say 'a big crowd' — she did not count · 2 (b) a guess
+8B | 1 F · 2 G · 3 F · 4 G
+8C | see · guess · number · calm
+8E | 1 (b) do not film her — she said no · 2 (b) asks first
+8F | 1 respect · 2 ask · 3 no · 4 people
+9A | LIVE → it is happening now · 9:12 a.m. → the time, now · a big crowd is here → what you can see · @AtlasWire → the outlet
+9B | is open / is here / is opening (any present-continuous or 'is' form)
+9C | LIVE — the crossing is open. A crowd is crossing.
+10A | 1 microphone · 2 crowd · 3 live, scene · 4 report, update · 5 breaking, on air
+10B | 1 is reporting · 2 are opening · 3 are running · 4 am writing
+10C | 1 Mira is going to interview the family. · 2 We are going to cover the festival.
+10D | 1 in · 2 at · 3 next to
+10E | 1 a camera · 2 dancing (and a band is playing) · 3 send the photographs to the desk
+10G | 1 The stalls are opening. · 2 People are crossing. · 3 She is going to interview a stall-holder. · 4 The crossing is at Kalina.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4H, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Kalina, the river Vara and the people in the scenes are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 3 (v6 standard). | CEFR A2 → lower B1 · Beat: Report & live · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

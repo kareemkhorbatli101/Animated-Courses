@@ -1,0 +1,726 @@
+@UNITHEAD UNIT 5 | Getting the Quote Right: Attribution | Beat · Verify & report | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+report what people said (reported speech)
+use say and tell correctly
+say who a fact comes from (attribution: 'according to…')
+keep a quote accurate across languages
+
+@FIG g-team | The Atlas Wire team — Mira writes up what everyone said.
+@STORY The story so far. | Mira has interviewed the family at the new café. Now she must write the story of the Kalina crossing for the wire — reporting what people said, and always saying who said it. On an international story, the numbers come from an agency, and the agency must be named.
+
+@WARMUP Who said that? | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team checks who said what.
+@WARMBOX
+At the conference, Mira reads from her notebook. "Elena told me that the café is always full," she says. "And a stall-holder said the market is busy every morning." Priya, the verification journalist, looks up. "Good," she says. "But who said the number — that a hundred families have crossed back? We must know the source. According to whom?" Mira checks her notes. "That is from the Crossing Office," she says. "I will write 'according to the Crossing Office'."
+
+@EX W1 | Answer the questions.
+@NUM
+What did Elena tell Mira? ___________
+What did the stall-holder say? ___________
+Where does the number come from? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Priya wants to know the source. ______
+Mira invented the number. ______
+Mira will name the source in the story. ______
+
+@EX W3 | Find the words Priya uses to ask about the source. Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+When someone tells you news, do you ask who said it? Why?
+Why is it important to know where a fact comes from?
+
+@PART 1 | The words of the quote | The words a reporter needs to report what people said. Learn these first.
+@FIG u5-words | Four key words — attribution, statement, confirm, spokesperson.
+@H The words
+@VOCAB
+quote | a person's exact words
+source | a person who gives information
+attribution | saying who said it
+statement | an official thing someone says
+claim | to say something is true (maybe not sure)
+confirm | to say yes, it is true
+deny | to say no, it is not true
+add | to say one more thing
+explain | to make something clear
+mention | to say something quickly
+spokesperson | a person who speaks for a group
+agency | an organisation that does official work
+accurate | correct, with no mistakes
+exact | just right; the same words
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  quote
+2.  source
+3.  attribution
+4.  statement
+5.  confirm
+6.  deny
+7.  claim
+8.  spokesperson
+9.  accurate
+10.  exact
+@@
+a)  saying who said it
+b)  a person who gives information
+c)  a person's exact words
+d)  to say yes, it is true
+e)  to say no, it is not true
+f)  an official thing someone says
+g)  correct, with no mistakes
+h)  to say something is true
+i)  a person who speaks for a group
+j)  the same words
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | source · quote · statement · confirm · deny · spokesperson
+@NUM
+Mira always names her ___________ .
+Here is an exact ___________ from Elena.
+The Crossing Office made an official ___________ .
+The ___________ answered the questions.
+Did the office ___________ the number, or ___________ it?
+
+@EX 1C | Match the two halves (collocations).
+@MATCH
+1.  name a
+2.  make a
+3.  get the
+4.  according
+5.  an exact
+@@
+a)  source
+b)  statement
+c)  facts right
+d)  to
+e)  quote
+
+@EX 1D | Circle the word that is different.
+@NUM
+quote · source · statement · deadline
+confirm · agree · deny · say yes
+accurate · exact · correct · loud
+spokesperson · source · person · microphone
+
+@FIG g-sources | On the wire, every quote and every number needs a source.
+@EX 1E | Complete the paragraph. Use: source · quote · according · confirm · report.
+@WHITE
+Mira writes her ___________ . For every fact, she names a ___________ . She uses an exact ___________ from Elena, and writes '___________ to the Crossing Office' for the number. Priya will ___________ it before it goes out.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+saying who said it → ___________
+to say yes, it is true → ___________
+a person who speaks for a group → ___________
+a person's exact words → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+Who is a good source of news in your country? Why?
+When you hear a big number in the news, do you trust it? Why or why not?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write two sentences that report what a colleague told you today. Say who said it.
+
+@PART 2 | Grammar: reporting what people said | say and tell, reported speech, and attribution.
+@FIG u5-gA | say (that)… / tell + a person + (that)…
+@GRAMMAR 1 · say and tell
+{{say}} (that)… — no person: She {{said}} (that) the crossing {{was}} open.
+{{tell}} + a person + (that)…: She {{told me}} (that) it {{was}} open.
+Remember: we **tell somebody**, but we **say something**.
+
+@FIG u5-gB | Direct words become reported speech — the tense moves back.
+@GRAMMAR 2 · Reported speech
+Direct: "The crossing {{is}} open."  →  Reported: He said the crossing {{was}} open.
+Direct: "We {{are}} happy."  →  She said they {{were}} happy.
+The tense moves back: [[is → was]], [[are → were]], [[am → was]].
+
+@GRAMMAR 3 · Attribution
+Always say who a fact comes from.
+{{According to}} the Crossing Office, a hundred families have crossed back.
+The spokesperson {{said}} that the bridge {{was}} open.  A stall-holder {{told}} Mira it {{was}} busy.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Say or tell? Write the correct word.
+@NUM
+She ___________ that the crossing was open.
+He ___________ me that he was happy.
+Elena ___________ Mira about the café.
+The office ___________ that the number was correct.
+
+@EX 2B | Change to reported speech (is → was, are → were).
+@NUM
+"The crossing is open."  →  He said the crossing ___________ open.
+"We are happy."  →  They said they ___________ happy.
+"The café is full."  →  She said the café ___________ full.
+
+@EX 2C | Rewrite with according to.
+@NUM
+The Crossing Office says a hundred families have come back. → ________________________
+A stall-holder says the market is busy. → ________________________
+
+@EX 2D | Choose the correct verb: said / told.
+@NUM
+Elena ______ that the café was full.
+She ______ Mira that it was busy.
+The office ______ a statement.
+He ______ me the news.
+
+@H Your own words
+@EX 2E | Report two things a classmate said today. Use said or told.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write one fact about your city, and give a source with according to.
+@NUM
+________________________
+
+@PART 3 | Attribution: who said it? | Every quote and every number needs a source.
+@FIG u5-skill | Attribution — say where the fact comes from, every time.
+@LABEL MODEL | A model paragraph
+@WARMBOX
+According to Elena Marku, the café owner, the crossing is busy every morning. A stall-holder told Mira that families come back every day. The Crossing Office said that a hundred families have returned to the valley. "It is our home," Elena added.
+
+@LABEL NOTICE | Notice the attribution
+@EX 3A | Answer about the model.
+@NUM
+Who says the crossing is busy? ___________
+Who gave the number (a hundred families)? ___________
+What are Elena's exact words? ___________
+
+@EX 3B | Find the three ways the writer names a source. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Add the source
+@FIG g-sources | For every fact, ask: who said it? Then write it down.
+@EX 3C | Add a source to each fact. Use according to or … said.
+@NUM
+The crossing is busy. → ________________________
+A hundred families have come back. → ________________________
+The café is always full. → ________________________
+
+@EX 3D | Complete the paragraph. Use: according · told · said · statement.
+@WHITE
+"______ to the office, the festival is on Friday. A worker ______ Mira that the bridge was ready. The spokesperson ______ that everyone was welcome, and the office made an official ______ ."
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a small story. Write three sentences. Give a source for each (according to… or … said).
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why is a fact with no source a problem? Give one example.
+@EX 3G | Is 'people say…' a good source? Why or why not?
+
+@PART 4 | Listening: statements and sources | Two audios. Listen for who said what.
+@FIG g-newsroom | In the newsroom — the team listens to a statement.
+@SUBHEAD Listening A | · a spokesperson's statement
+@LABEL MODEL | Audio 5.1 — the Crossing Office speaks
+@DIALOGUE
+Spokesperson | Good morning. I am the spokesperson for the Crossing Office.
+Spokesperson | I have a short statement about Kalina.
+Spokesperson | According to our records, a hundred families have crossed back to the valley.
+Spokesperson | The crossing is open every day, and the school opens next week.
+Spokesperson | On Friday, there is going to be a small festival on both sides of the river.
+Mira | Thank you. Can I quote the number — a hundred families?
+Spokesperson | Yes. You can say 'according to the Crossing Office'.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: who is speaking, and about what? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+Who is speaking? ___________
+How many families have crossed back? ___________
+When does the school open? ___________
+What can Mira say before the number? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+The number comes from the Crossing Office. ______
+There is a festival on Friday. ______
+Mira must not name the source. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Source: ___________
+Fact (number): ___________
+Attribution to use: ___________
+
+@FIG g-studio | Audio 5.2 — Mira reports back to the editor what the office said.
+@SUBHEAD Listening B | · reporting it back
+@LABEL MODEL | Audio 5.2 — Mira and Daniel
+@DIALOGUE
+Daniel | Mira, what did the office say?
+Mira | They said that a hundred families have crossed back to the valley.
+Daniel | Good. Did they confirm the number?
+Mira | Yes. The spokesperson told me I could quote it.
+Daniel | And the festival?
+Mira | The office said it is on Friday, and everyone is welcome.
+Daniel | Perfect. Write 'according to the Crossing Office' for the number.
+Mira | I will.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Daniel ask about? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers (reported speech).
+@NUM
+Mira said that a hundred families ___________ crossed back.
+The spokesperson ___________ her she could quote it.
+The office ___________ the festival is on Friday.
+Daniel says to write 'according to the ___________ '.
+
+@EX 4G | Which reporting verbs do you hear? Write two (said / told).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Daniel ask 'did they confirm the number?'
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: statement · source · confirm · according.
+@WHITE
+First, the spokesperson makes a ______ . Then Mira reports it to Daniel. She names the ______ and they ______ the number. In the story, Mira writes '______ to the Crossing Office'.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why does a good reporter always report the source, not just the fact?
+
+@PART 5 | Reading: what people said | Two readings. Read for the quotes and the sources.
+@FIG g-reach | A report is built from what people said — with their names.
+@SUBHEAD Reading A | · a report with quotes
+@READING Voices from the Kalina crossing
+This week, correspondent Mira Sandoval spoke to many people at the crossing at Kalina. They all had something to say about the bridge that is open again.
+Elena Marku, who owns the new café at the end of the bridge, told Mira that business was good. "The café is always full," she said. "People do not only come for coffee. They come to talk, and to see old friends."
+A stall-holder on the bridge said that families crossed every morning. According to him, the market was busy from early until late. "Every day, I see new faces," he added.
+The Crossing Office made a short statement. According to the office, a hundred families have now returned to the valley, and the school will open next week. The office also said that a small festival is planned for Friday.
+Not everyone agreed on the numbers. One worker told Mira that he thought there were more than a hundred families. Another said there were fewer. Mira wrote down both, and she used the office's figure, with attribution, for the story.
+Priya Nair, the verification journalist at Atlas Wire, said that this was the right thing to do. "We report what people say," she explained, "but we always name the source. If two people say different things, we say so. We do not choose one and hide the other. On an international story that goes out in six languages, that matters even more: a number with no name behind it travels a very long way."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What is the report about? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+Elena said the café is always empty. ______
+The number of families comes from the office. ______
+Everyone agreed on the numbers. ______
+Mira used the office number with a source. ______
+
+@EX 5C | Answer the questions.
+@NUM
+What did Elena say about the café? ___________
+Where does the number 'a hundred families' come from? ___________
+What did Priya say a reporter must always do? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+saying who said it → ___________
+a person who gives information → ___________
+to make something clear → ___________
+
+@FIG u5-read | Name the source, use say and tell correctly, move the tense back, keep it exact.
+@SUBHEAD Reading B | · say it right — four rules for quotes
+@READING Four rules for quotes
+**1. Name your source.** For every fact and every number, say who said it: 'according to…' or '… said'.
+**2. Use say and tell correctly.** You *say* something; you *tell* somebody. 'She said that…' or 'She told me that…'.
+**3. Change the tense.** In reported speech, the tense moves back: 'is' becomes 'was', 'are' becomes 'were'.
+**4. Keep it accurate.** Use the person's exact words in a quote. Do not change what they said. If the interview was in another language, keep the translation close and say that it is a translation. If two sources disagree, report both.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: what must you do with every number in a story? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  Name your source
+2.  Use say and tell
+3.  Change the tense
+4.  Keep it accurate
+@@
+a)  'is' becomes 'was'
+b)  'According to the office…'
+c)  If two sources disagree, report both
+d)  'She told me that…'
+
+@EX 5G | Which rule is about attribution? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+a person's exact words → ___________
+saying who said it → ___________
+correct, with no mistakes → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which quote in Reading A do you like best? Why?
+@EX 5J | Which of the four rules is the most important? Say why.
+
+@PART 6 | Writing: reporting the words | Two short pieces: reported-speech notes, and a short report with sources.
+@FIG g-notes | Notes: what each source said, and their name.
+@SUBHEAD Writing 1 | · source notes
+@LABEL MODEL | A model
+@WARMBOX
+Elena Marku: 'the café is always full' (exact quote)
+Stall-holder: said families cross every morning
+Crossing Office: 100 families back — according to the office
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which note is an exact quote? ___________
+Where does the number come from? ___________
+
+@LABEL PRODUCE | Write your notes
+@EX 6B | Choose a small story. Write three source notes: one exact quote, and two facts with a source.
+@WHITE
+Source 1: ___________
+Source 2: ___________
+Source 3: ___________
+
+@FIG g-fivew | A short report uses reported speech and names its sources.
+@SUBHEAD Writing 2 | · a short report
+@LABEL MODEL | A model
+@WARMBOX
+According to the Crossing Office, a hundred families have come back to the valley at Kalina. Elena Marku, the café owner, told Mira that business was good. "The café is always full," she said.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. How many sources are named? Where are the exact words?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a report
+@EX 6D | Complete the report. Use: according · said · told.
+@WHITE
+______ to the office, the school opens next week. A teacher ______ Mira that forty children were coming. "We are very happy," she ______ .
+
+@LABEL PRODUCE | Write your report
+@EX 6E | Write a short report (3–4 sentences). Name at least two sources and use one exact quote.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This report has no source. Add one, and fix the tense.
+@WHITE
+"A hundred families are back. Someone said it is true."
+
+@P
+________________________
+
+@PART 7 | Speaking: reporting back | Tell a partner what someone said. Use reported speech.
+@FIG g-interview | Report what your source said — and check the exact words.
+@SUBHEAD A model dialogue | · reporting to the editor
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Daniel | What did Elena say?
+Mira | She said that the café was always full.
+Daniel | Did she say why?
+Mira | Yes. She told me that people came to see old friends.
+Daniel | And the number of families?
+Mira | According to the Crossing Office, a hundred families have come back.
+Daniel | Good. Name the office in the story.
+
+@LABEL NOTICE | Notice the reporting
+@EX 7A | Find two examples of reported speech. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Report what the person said. Use said or told.
+@NUM
+Elena: 'The café is full.' → She ___________ that the café was full.
+Stall-holder: 'Families cross every day.' → He ___________ me that families crossed every day.
+Office: 'The school opens next week.' → The office ___________ that the school opened next week.
+
+@FIG g-introduce | Before you report a quote, check you have the exact words.
+@EX 7C | Change to reported speech.
+@NUM
+"The crossing is open." → He said the crossing ___________ open.
+"We are happy." → They said they ___________ happy.
+"The café is busy." → She said the café ___________ busy.
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Report to the editor what two sources said. Use 'said' / 'told' and name each source.
+World Editor | Listen. Ask: 'Who said that?' and 'Did they confirm the number?'
+Verification | Check that every fact has a named source.
+
+@EX 7D | Choose a role from the table. Report your two sources to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play the newsroom: a correspondent, an editor, and a verification journalist. Then swap roles.
+@SUBHEAD A second dialogue | · checking the quote
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | I want to check your words. You said, 'It is our home.' Is that right?
+Elena | Yes, that is exactly right.
+Mira | And can I write 'according to Elena Marku, the café is always full'?
+Elena | Yes, you can.
+Mira | Thank you. I want to get your words exactly right.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the question Mira asks to check the quote.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+report what the source really said?
+use said / told correctly?
+name every source?
+check the exact words of the quote?
+
+@EX 7G | Role-play checking a quote with a partner. Then swap roles.
+
+@PART 8 | Ethics: fair and sourced | Report what people said — all of it, and always with a source.
+@FIG u5-ethA | When two sources disagree, report both — do not choose one and hide the other.
+@SUBHEAD A first case | · two sources disagree
+@CASE Mira asks about the number of families. A stall-holder tells her that a hundred families have come back. But a worker says there are only fifty. The two sources do not agree. The story is due soon, and a bigger number sounds better on an international wire. Mira could just write 'a hundred families' and leave out the worker. But two people said different things. The Code says: be accurate and fair — report what each source said, and name them. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) write only the bigger number  (b) report both, with the office's figure and attribution.   Choice: ______  Because ________________________
+When two sources disagree, a reporter should (a) hide one  (b) report both.   Choice: ______
+
+@EX 8B | Fair or not fair? Write F (fair) or U (unfair).
+@NUM
+Report both numbers, and name the sources. ______
+Print only the number you like. ______
+Use the official figure, with attribution. ______
+Hide the source that disagrees. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: both · source · accurate · hide.
+@WHITE
+Be ______ and fair. Give a ______ for every fact. If two people disagree, report ______ — do not ______ one of them.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is it unfair to report only one side? Who does it hurt?
+@SUBHEAD A second case | · 'do not use my name'
+@FIG u5-ethB | A claim with no name needs a second source before you report it.
+@CASE A person tells Mira something important about the crossing, but says, "Do not use my name." It is a big claim, and it could be a strong story on the wire. But Mira has only one source, and that source will not be named. She cannot write 'according to…' because she cannot say who. The Code says: check a claim with a second source before you report it, and be careful with information you cannot attribute. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) report the claim as a fact now  (b) check it with a second source first.   Choice: ______  Because ________________________
+A big claim from one unnamed source is (a) ready to file  (b) not yet confirmed.   Choice: ______
+
+@EX 8F | Complete with: check · source · confirm · claim.
+@NUM
+A ___________ is not yet a fact.
+Always name a ___________ if you can.
+If you cannot name it, ___________ the claim with a second source.
+Do not file it until you ___________ it.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is one unnamed source not enough for a big story?
+@LABEL PRODUCE | Write it
+@EX 8H | Write what Mira says to the source (2–3 sentences). Be kind, and explain why she must check first.
+
+@PART 9 | Digital: quotes online | Online, a quote travels fast — so the source must travel with it.
+@FIG g-phonealert | A quote online — the exact words, and the source.
+@LABEL MODEL | A model online post
+@WARMBOX
+"The café is always full."
+— Elena Marku, café owner, Kalina. 100 families back, according to the Crossing Office. · @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  " "
+2.  Elena Marku, café owner
+3.  according to the Crossing Office
+4.  @AtlasWire
+@@
+a)  the exact words
+b)  the source of the number
+c)  who said it
+d)  the outlet
+
+@LABEL PRACTISE | Find and build
+@EX 9B | In the model post, who is the source of the number? Write it.
+@NUM
+______
+
+@EX 9C | This post has no source for the number. Add one.
+@WHITE
+"100 families are back in the valley." — @AtlasWire
+
+@P
+________________________
+
+@FIG g-website | The post links to the full story, with all its sources.
+@EX 9D | Make an online post. Add an exact quote and name the source.
+@WHITE
+"___________ "  — ___________ (who?), @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line online post that reports a fact and its source. Use according to.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your report. Keep it accurate.
+@EX 9G | A reader comments: 'Who said that?' Write a short, polite reply that names your source.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Online, quotes are shared across borders in minutes. Why must the source be shared too?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 6.
+@FIG u5-sum | Unit 5 — reporting what people said, with attribution.
+@EX 10A | Vocabulary. Complete with: quote · source · attribution · statement · confirm · deny · spokesperson · accurate.
+@NUM
+Mira names her ___________ for every fact.
+Here is an exact ___________ from Elena.
+The office made an official ___________ .
+Did they ___________ the number, or ___________ it?
+The ___________ answered the questions.
+Good ___________ means saying who said it, and being ___________ .
+
+@EX 10B | Grammar. Say or tell?
+@NUM
+She ___________ that the crossing was open.
+He ___________ me the news.
+The spokesperson ___________ a statement.
+Elena ___________ Mira about the café.
+
+@EX 10C | Grammar. Change to reported speech.
+@NUM
+"The café is full." → She said the café ___________ full.
+"We are happy." → They said they ___________ happy.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Attribution. Rewrite with according to.
+@NUM
+The office says a hundred families have come back. → ________________________
+A stall-holder says the market is busy. → ________________________
+
+@EX 10E | Read and answer.
+@WHITE
+Mira writes her report. She names a source for every fact. She uses one exact quote from Elena, and 'according to the office' for the number. Priya will confirm it before it goes out on the wire.
+
+@NUM
+What does Mira give for every fact? ___________
+Whose exact words does she use? ___________
+Who will confirm the report? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can report what people said (reported speech).
+I can use say and tell correctly.
+I can say who a fact comes from (according to…).
+I can keep a quote accurate.
+
+@EX 10F | Reflect. Which part of Unit 5 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+She told that the crossing was open. → ________________________
+He said me the news. → ________________________
+They said they are happy. → ________________________
+The office say the school opens next week. → ________________________
+
+@PART 11 | Assignment: a sourced report | Put the unit together: write a short report with named sources.
+@FIG g-template | The assignment template — your report, with sources.
+@P
+**Your task. **Choose a small story (real or invented). Talk to two 'sources' (classmates can help). Write a short report (5–6 sentences). Name both sources, use reported speech (said / told) and at least one exact quote, and attribute any number with 'according to…'. Keep every quote accurate.
+
+@FIG g-model | A model — use it to check the shape of your report.
+@WHITE
+Remember: name every source; use said / told correctly; move the tense back in reported speech; keep the quote exact; if sources disagree, report both.
+
+@CRITERIA Success criteria
+I name both sources.
+I use reported speech (said / told) correctly.
+I use at least one exact quote.
+I attribute the number with 'according to…'.
+It is accurate, fair, and easy to read.
+
+@P
+**Keep this. **In Unit 6, you learn to tell the story of what happened — the past simple and the past continuous.
+
+@KEY Unit 5 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 that the café is always full · 2 the market is busy every morning · 3 the Crossing Office
+W2 | 1 T · 2 F · 3 T
+W3 | 'According to whom?'
+1A | 1-c, 2-b, 3-a, 4-f, 5-d, 6-e, 7-h, 8-i, 9-g, 10-j (accept sensible matches)
+1B | 1 source · 2 quote · 3 statement · 4 spokesperson · 5 confirm, deny
+1C | 1 name a source · 2 make a statement · 3 get the facts right · 4 according to · 5 an exact quote
+1D | 1 deadline · 2 deny · 3 loud · 4 microphone
+1E | 1 report · 2 source · 3 quote · 4 according · 5 confirm
+1F | 1 attribution · 2 confirm · 3 spokesperson · 4 quote
+2A | 1 said · 2 told · 3 told · 4 said
+2B | 1 was · 2 were · 3 was
+2C | 1 According to the Crossing Office, a hundred families have come back. · 2 According to a stall-holder, the market is busy.
+2D | 1 said · 2 told · 3 made / said · 4 told
+3A | 1 Elena Marku (the café owner) · 2 the Crossing Office · 3 'It is our home.'
+3B | (any three) 'According to Elena Marku…' · '… a stall-holder told Mira…' · 'The Crossing Office said…'
+3C | (example) 1 According to a stall-holder, the crossing is busy. · 2 According to the office, a hundred families have come back. · 3 Elena said the café is always full.
+3D | According · told · said · statement
+4B | 1 the spokesperson (Crossing Office) · 2 a hundred · 3 next week · 4 'according to the Crossing Office'
+4C | 1 T · 2 T · 3 F
+4D | Source = the Crossing Office · Fact = 100 families back · Attribution = 'according to the Crossing Office'
+4F | 1 had · 2 told · 3 said · 4 Crossing Office
+4G | (any two) said · told
+4H | to be sure the number is true / has a source before it goes out
+4I | statement · source · confirm · according
+5B | 1 F · 2 T · 3 F · 4 T
+5C | 1 it is always full (people come to see old friends) · 2 the Crossing Office · 3 name the source (and report both sides)
+5D | 1 attribution · 2 source · 3 explain
+5F | Name your source → 'According to the office…' · Use say and tell → 'She told me that…' · Change the tense → 'is' becomes 'was' · Keep it accurate → if two sources disagree, report both
+5G | Rule 1
+5H | 1 quote · 2 attribution · 3 accurate
+6A | 1 'the café is always full' · 2 the Crossing Office
+6C | two sources; the exact words are in the quotation marks " "
+6D | According · told · said
+6F | (example) 'According to the Crossing Office, a hundred families have come back.'
+7A | (any two) 'She said that the café was always full.' · 'She told me that people came to see old friends.'
+7B | 1 said · 2 told · 3 said
+7C | 1 was · 2 were · 3 was
+7F | (example) 'You said, "It is our home." Is that right?'
+8A | 1 (b) report both, with the office's figure and attribution · 2 (b) report both
+8B | 1 F · 2 U · 3 F · 4 U
+8C | accurate · source · both · hide
+8E | 1 (b) check it with a second source first · 2 (b) not yet confirmed
+8F | 1 claim · 2 source · 3 check · 4 confirm
+9A | " " → the exact words · Elena Marku, café owner → who said it · according to the Crossing Office → the source of the number · @AtlasWire → the outlet
+9B | the Crossing Office
+9C | (example) '100 families are back, according to the Crossing Office.' — @AtlasWire
+10A | 1 source · 2 quote · 3 statement · 4 confirm, deny · 5 spokesperson · 6 attribution, accurate
+10B | 1 said · 2 told · 3 made / said · 4 told
+10C | 1 was · 2 were
+10D | 1 According to the office, a hundred families have come back. · 2 According to a stall-holder, the market is busy.
+10E | 1 a source · 2 Elena's · 3 Priya (the verification journalist)
+10G | 1 She said that the crossing was open. · 2 He told me the news. · 3 They said they were happy. · 4 The office says the school opens next week.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Elena Marku, the Crossing Office, Kalina and the quotes are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 5 (v6 standard). | CEFR A2 → lower B1 · Beat: Verify & report · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

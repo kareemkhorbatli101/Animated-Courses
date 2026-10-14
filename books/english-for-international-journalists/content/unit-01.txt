@@ -1,0 +1,928 @@
+@BANNER ENGLISH FOR JOURNALISTS · INTERNATIONAL EDITION · STUDENT'S BOOK | UNIT 1 | The Newsroom & the World Media Landscape | Beat · Report & newswriting        CEFR A2 | In this unit you learn to…
+• introduce yourself, your job, and the outlet you work for
+• name the people, places, and things of an international newsroom
+• use be, the present simple, have got, and there is / there are
+• read and talk about press freedom around the world today
+• write a short staff bio and an "about our agency" note
+
+@FIG g-team | Figure 1.1 · The Atlas Wire team. These people are not real. You meet them in every unit.
+
+@WARMUP Mira's first day | A short story to start the unit. Read it, then answer.
+@FIG g-hownews | How news reaches people — a journalist finds the news, checks it, and shares it.
+@EX W1 | Before you read. Talk with a partner.
+@NUM
+What is a news agency?
+Do you know a news outlet in another country? Say its name.
+
+@WARMBOX
+Today is Mira's first day at Atlas Wire. Atlas Wire is a news agency in Geneva. There are eight journalists on the world desk. The editor-in-chief, Ana, welcomes Mira. "Welcome to the desk," she says.
+There is a big story today. The crossing at Kalina is open again, and families are crossing the bridge. "This is your first story, Mira," says Ana. Mira is happy. She has got a notebook, a press card, and a visa. She is ready.
+
+@EX W2 | Read and answer.
+@NUM
+Where does Mira work?
+How many journalists are on the world desk?
+Who is the editor-in-chief?
+What is the big story today?
+
+@EX W3 | Find a word in the text.
+@NUM
+a company that sends news to many outlets → ______
+a card that shows you are a journalist → ______
+
+@EX W4 | Discuss with a partner.
+@NUM
+What do you know about the news from other countries? Who reports it?
+Would you like to work in another country? Why or why not?
+
+@PART 1 | Newsroom words | The people, places, and things of an international newsroom. Learn these words first.
+@LABEL MODEL | The words
+@VOCAB
+journalist | a person who finds and reports the news
+correspondent | a journalist who reports from another country
+stringer | a journalist who sends stories to an outlet, but is not staff
+editor | a person who checks and prepares stories
+editor-in-chief | the top editor; the head of the newsroom
+news agency | a company that sends news to many outlets
+wire | the stream of stories an agency sends out
+desk | the team that covers one subject (the world desk)
+bureau | an agency office in another city or country
+dateline | the place and date at the top of a report
+beat | the subject a journalist covers
+deadline | the time a story must be ready
+press card | a card that shows you are a journalist
+fixer | a local journalist who helps a visiting team
+
+@FIG g-newsroom | Figure 1.2 · A world desk has screens, a wall of clocks, and one deadline after another.
+@LABEL PRACTISE | Controlled practice
+@FIG u1-words | Four key words — correspondent, news agency, desk, deadline.
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  journalist ______
+2.  editor-in-chief ______
+3.  news agency ______
+4.  dateline ______
+5.  fixer ______
+6.  deadline ______
+7.  bureau ______
+8.  wire ______
+9.  correspondent ______
+10.  beat ______
+@@
+a)  the place and date at the top of a report
+b)  a person who reports the news
+c)  the head of the newsroom
+d)  a company that sends news to many outlets
+e)  the time a story must be ready
+f)  a local journalist who helps a visiting team
+g)  the stream of stories an agency sends out
+h)  an agency office in another city or country
+i)  the subject a journalist covers
+j)  a journalist who reports from another country
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | news agency · press card · front page · notebook · editor · camera · visa · media
+@NUM
+Mira writes an article for a ___________ in Geneva.
+Hana takes photographs with her ___________.
+The big story is on the ___________ of the newspaper.
+A reporter writes notes in a ___________.
+The ___________ checks the story before it goes out.
+Your ___________ shows people that you are a journalist.
+To work in another country you often need a ___________.
+Newspapers, TV, radio and websites are all part of the ___________.
+
+@EX 1C | Put the words in the correct group: PEOPLE, PLACES, or THINGS.
+@WORDBOX WORDS | correspondent · camera · bureau · editor · notebook · press card · fixer · desk · stringer · dateline
+@WHITE
+People:  ________________________ ,  ________________________ ,  ________________________ ,  ________________________
+Places:  ________________________ ,  ________________________
+Things:  ________________________ ,  ________________________ ,  ________________________ ,  ________________________
+
+@LABEL NOTICE | Words that go together
+@WHITE
+In English, some words go together. We say **file a story**, **take a photo**, **meet a deadline**, **check a fact**, **cover a beat**, **ask a question**. Learn the verb and the noun together.
+
+@EX 1D | Match the verb to the noun (collocations).
+@MATCH
+1.  file ______
+2.  take ______
+3.  meet ______
+4.  check ______
+5.  cover ______
+6.  ask ______
+@@
+a)  a photo
+b)  a fact
+c)  a story
+d)  a deadline
+e)  a question
+f)  a beat
+
+@EX 1E | Find the word that is different. Circle it.
+@NUM
+correspondent · editor · camera · stringer
+bureau · newsroom · desk · deadline
+dateline · byline · headline · fixer
+TV · radio · website · notebook
+visa · camera · notebook · press card
+wire · bulletin · report · editor
+
+@EX 1F | Complete the paragraph. Use words from this unit.
+@WHITE
+Mira is a ___________ at Atlas Wire. She works on the world ___________ with seven other journalists. Every day she files an ___________ about another country. She talks to a ___________ and asks questions. She writes notes in her ___________. The ___________ checks her story. Then it goes out on the ___________. Her ___________ is at six o'clock.
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+Do you read news from other countries every day?
+What is your favourite news outlet?
+Do you watch world news on TV, or read it online?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss with a partner.
+@NUM
+Which two words in this unit are new for you? Make a sentence with one of them.
+Do you know a correspondent or a fixer? What is their job?
+
+@EX 1I | Creative. Write three sentences about your dream job in an international newsroom. Use I am… , I have got… , and There is… .
+
+@PART 2 | Grammar in the newsroom | The present. Half the practice is controlled; half is your own words.
+@LABEL MODEL | The four structures
+@GRAMMAR 1 · the verb be — am / is / are
+{{I am}} a correspondent.     {{We are}} journalists.
+{{She is}} the world editor.     {{They are}} at the desk.
+Negative: She [[isn't]] a photographer.     Question: [[Are]] you a correspondent?
+
+@GRAMMAR 2 · present simple — daily work and facts
+{{I work}} for Atlas Wire.     {{He files}} at six. (he/she/it + -s)
+Correspondents {{report}} from many countries.     She {{writes}} the news.
+Negative: I [[don't]] work Sundays.     Question: [[Do]] you work here?
+
+@GRAMMAR 3 · have got — for things you have
+{{I have got}} a notebook.     {{She has got}} a press card.
+Question: [[Have]] you got a visa?
+
+@GRAMMAR 4 · there is / there are
+{{There is}} a bureau in Nairobi. (one)     {{There are}} three correspondents. (more than one)
+Negative: There [[isn't]] a photographer today.     Question: [[Is there]] a deadline?
+
+@WATCHOUT With he / she / it, add -s: *she files* (not *she file*). Use *have got / has got* (not *haves*). Use *there is* for one, *there are* for more than one.
+
+@HALF Structured practice | half of this part.
+@LABEL NOTICE | Which structure is it?
+@FIG u1-gB | There is one world editor. There are three correspondents.
+@EX 2A | Read each sentence. Write the structure: be / present simple / have got / there is-are.
+@NUM
+Ana is the editor-in-chief. → ___________
+Mira files stories from Kalina. → ___________
+I have got a press card. → ___________
+There are eight journalists. → ___________
+We work every day. → ___________
+
+@LABEL PRACTISE | Controlled practice
+@EX 2B | Complete the sentence. Each one uses one of the four structures.
+@NUM
+Ana ______ the editor-in-chief.
+Mira ______ (file) stories from abroad.
+I ______ a press card.
+______ three bureaux in the agency.
+Tomas and Hana ______ in the field.
+The desk ______ (have) ten computers.
+______ a deadline today?
+We ______ (report) the news every day.
+
+@FIG u1-gA | Mira is a correspondent. She works for Atlas Wire. She has got a notebook, a press card, and a visa.
+@EX 2C | Each sentence has one mistake. Write it correctly.
+@NUM
+She file the story. → ________________________
+There is three correspondents. → ________________________
+I has got a visa. → ________________________
+We is a good team. → ________________________
+Hana take photographs. → ________________________
+
+@HALF Your own words | the other half. Use the grammar to talk and write about you.
+@LABEL PRODUCE | Make it true for you
+@EX 2D | Write four true sentences about YOU — one of each structure.
+@WHITE
+(be)  I am ___________ .
+(present simple)  Every day I ___________ .
+(have got)  I have got ___________ .
+(there is/are)  In my city there is / are ___________ .
+
+@LABEL PRODUCE | Ask a partner
+@EX 2E | Ask and answer with a partner. Use full sentences.
+@NUM
+Are you a student? Are you a journalist?
+Have you got a phone? What have you got in your bag?
+Is there a news agency in your country? What is there in your newsroom?
+Do you read world news? When do you read it?
+
+@LABEL PRODUCE | Write about a newsroom
+@EX 2F | Write 4–5 sentences about a newsroom or an agency (real or invented). Use all four structures. Start like this:
+@WHITE
+My newsroom is ____ . There is / are ____ . The team has got ____ . Every day the correspondents ____ . I am ____ .
+
+@PART 3 | Skill focus: who's who, and the front page | Different jobs, different beats, and one shared front page.
+@LABEL MODEL | Who does what
+@FIG u1-skill | Figure 1.3 · The editor-in-chief leads. The world editor runs the desk. The team reports, checks, and files.
+@WHITE
+The **editor-in-chief** leads the agency and makes the big decisions.
+The **world editor** chooses the stories and runs the desk.
+A **correspondent** reports from another country, talks to sources, and writes.
+A **field reporter** goes to the place and reports from there, with video.
+A **verification journalist** checks that every fact and every picture is true.
+A **photojournalist** takes the photographs.
+A **digital editor** puts the news online and on social media.
+
+@LABEL PRACTISE | Controlled practice
+@EX 3A | Match the job (1–7) to what the person does (a–g).
+@MATCH
+1.  editor-in-chief ______
+2.  world editor ______
+3.  correspondent ______
+4.  field reporter ______
+5.  verification journalist ______
+6.  photojournalist ______
+7.  digital editor ______
+@@
+a)  takes the photographs
+b)  leads the whole agency
+c)  checks that the facts and pictures are true
+d)  chooses the stories and runs the desk
+e)  puts the news online
+f)  reports from another country and writes
+g)  reports from the place of the event, with video
+
+@EX 3B | Read about the team. Answer with a name.
+@WHITE
+Ana is the editor-in-chief. Daniel is the world editor; he chooses the stories. Mira is a correspondent and her beat is the region around Kalina. Tomas reports from the field with a camera. Priya checks all the facts. Hana is the photojournalist. Leila puts the news on the website.
+
+@NUM
+Who leads the agency? ___________
+Who checks the facts? ___________
+Who takes the photographs? ___________
+Who works online? ___________
+Who chooses the stories? ___________
+Whose beat is the region around Kalina? ___________
+
+@LABEL MODEL | The beats — the sections of the news
+@FIG u2-gA | Figure 1.4b · The beats of an international newsroom — politics, economy, climate, health, conflict, culture.
+@WORDBOX COMMON BEATS | politics · economy · climate · world news · conflict & security · health · culture · technology
+@EX 3C | Which beat is it? Write the beat next to the story.
+@NUM
+"Two governments sign an agreement on the river" → ___________
+"Food prices rise in three countries this month" → ___________
+"A new clinic opens for families at the crossing" → ___________
+"The summit agrees new targets for 2030" → ___________
+"A festival of music on both sides of the river" → ___________
+"A new phone network reaches the valley" → ___________
+
+@LABEL MODEL | The front page
+@FIG g-frontpage-parts | Figure 1.4 · masthead (name) · headline (title) · byline (who wrote it) · dateline (place and date) · caption (under the photo).
+@LABEL PRACTISE | Label it
+@EX 3D | Label the front page. Write: masthead · headline · byline · dateline · photo · caption.
+@NUM
+the name of the newspaper at the top → ___________
+the big title of the main story → ___________
+the name of the journalist → ___________
+the place and date at the start of the report → ___________
+the picture → ___________
+the words under the picture → ___________
+
+@LABEL PRODUCE | Apply it
+@EX 3E | Plan a front page for today. Write a headline, a byline and a one-line caption for the Kalina story.
+@WHITE
+Headline: ________________________
+Byline: By ________________________
+Caption: ________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner.
+@NUM
+Which job in an international newsroom is the most interesting for you? Why?
+Which job is the most difficult? Why?
+
+@LABEL PRACTISE | The sections
+@EX 3G | Which section of the news? Write: climate · politics · health · culture.
+@NUM
+A summit on rising seas → ___________
+Two governments sign an agreement → ___________
+A new clinic opens → ___________
+A music festival → ___________
+
+@PART 4 | Listen & view | Two listenings. Do the tasks for each.
+@SUBHEAD Listening A | · the morning conference
+@FIG g-meeting | Figure 1.5 · Audio 1.1 — The morning conference at Atlas Wire.
+@LABEL NOTICE | Before you listen
+@EX 4A | You will hear the morning conference. Tick who you think speaks: Ana · Daniel · Mira · Tomas · Priya · Hana · Leila · Jonas.
+@DIALOGUE
+Ana | Good morning, everyone. Welcome to the conference. We have got a lot of news today.
+Daniel | Good morning. I am Daniel, the world editor. We have got three big stories.
+Ana | What is the main story?
+Daniel | The crossing at Kalina. It is open again.
+Mira | Hello. I am Mira. My beat is that region. I have got the crossing story. Families are crossing.
+Tomas | I am Tomas. I am in the field today. There is a market on the bridge, too.
+Priya | I am Priya. I check the facts. Mira, is your story ready?
+Mira | Not yet. I have got two sources, but I need one more.
+Ana | Good. Hana, have you got the photographs?
+Hana | Yes. I have got ten photographs from this morning.
+Leila | And I am Leila. I put the top story online at twelve o'clock.
+Jonas | I am Jonas. I read the world bulletin on the radio at one o'clock.
+Ana | Perfect. We are a good team. Let's start.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4B | Who says it? Write the name.
+@NUM
+"I check the facts." ___________
+"I am in the field today." ___________
+"I put the top story online." ___________
+"We have got three big stories." ___________
+"I have got ten photographs." ___________
+"Welcome to the conference." ___________
+
+@EX 4C | True or False? Write T or F.
+@NUM
+Daniel is the world editor. ______
+Mira's beat is sport. ______
+Tomas is in the newsroom today. ______
+Mira's story is ready. ______
+Hana has got ten photographs. ______
+Leila works online. ______
+Priya is a photographer. ______
+The team has got a lot of news today. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Big stories today: ______
+Mira's beat: ___________
+Mira's sources so far: ______ (needs one more)
+Hana's photographs: ______
+Story goes online at: ___________
+
+@SUBHEAD Listening B | · a phone call
+@FIG g-studio | Figure 1.6 · Audio 1.2 — Tomas calls the desk from the Kalina crossing.
+@LABEL NOTICE | Before you listen
+@EX 4E | Tomas calls Daniel from the crossing. What do you think he says? Tick: (a) there are many people (b) the crossing is closed (c) he has got photographs.
+@DIALOGUE
+Tomas | Hello, Daniel. This is Tomas. I am at the crossing at Kalina.
+Daniel | Hi, Tomas. What is the news?
+Tomas | The crossing is open. There are many people here. Families are crossing.
+Daniel | That is great. Have you got photographs?
+Tomas | Yes, I have got ten photographs. And I have got a short video.
+Daniel | Good. Is Mira there?
+Tomas | Yes, she is here. She is with a stall-holder.
+Daniel | Who is the stall-holder?
+Tomas | His name is Bekim. He sells fruit and vegetables on the bridge.
+Daniel | Perfect. Send the photographs now, please. The deadline is at six.
+Tomas | OK. I send them now. Thank you, Daniel.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4F | Complete the sentences.
+@NUM
+Tomas is at the ___________ at Kalina.
+The crossing is ___________.
+There are many ___________ there.
+Tomas has got ten ___________ and a short ___________.
+Mira is with a ___________.
+
+@EX 4G | True or False? Write T or F.
+@NUM
+Tomas is in the newsroom. ______
+The crossing is open. ______
+Tomas has got no photographs. ______
+Mira is at the crossing too. ______
+
+@EX 4H | Answer.
+@NUM
+Where is Tomas?
+What does Daniel ask Tomas to do?
+
+@LABEL PRODUCE | What do you think?
+@EX 4I | Discuss.
+@NUM
+Is a morning conference a good idea for a world desk? Why?
+A reporter calls the desk from another country. Why is this important?
+
+@LABEL PRACTISE | Both listenings
+@EX 4J | Complete the summary of the two audios.
+@WHITE
+In the conference, the team chooses the main ______ : the ______ at Kalina. Mira has the story, but she needs one more ______ . Then Tomas calls from the ______ . He has got ten ______ . The stall-holder, ______ , sells fruit and vegetables.
+
+@PART 5 | Read the story | Two readings. Reading A is a true report about the world's press. Reading B is a staff profile.
+@SUBHEAD Reading A | · factual · current
+@LABEL NOTICE | Before you read
+@EX 5A | Talk with a partner.
+@NUM
+How do you get news from other countries: TV, radio, or online?
+Do you know any international news agencies?
+What makes a good correspondent? Say one thing.
+
+@READING A free press, around the world
+Journalism crosses borders. A story that starts in one country is read in fifty. This is big news for journalists, and for everyone.
+Every year, Reporters Without Borders publishes the World Press Freedom Index. It ranks 180 countries and territories. Some countries rise; some countries fall. The Index does not say that one country is good and another is bad. It asks a simpler question: can a journalist do the work, and is the journalist safe?
+In many places, the answer is still no. Every year on 1 December, the Committee to Protect Journalists counts the journalists who are in prison for their work. In recent years, that number has been more than three hundred. UNESCO reports that when a journalist is killed, nobody is punished in about nine of every ten cases.
+There is also good news. In 1991, journalists met in Windhoek and wrote a declaration for a free press. In 1993, the United Nations named 3 May World Press Freedom Day. In 2012, the United Nations agreed a Plan of Action on the Safety of Journalists. And 2 November is now the International Day to End Impunity for Crimes against Journalists.
+Journalists also work together. Reporters in many countries share documents and check each other's facts. One story, forty newsrooms, one deadline: this is normal now.
+The work is the same in every language. Find the story. Check the facts. Name the source. Be fair, and be kind. A free press is not a building. It is a habit — and journalists keep it, together.
+
+@FIG u1-read | Figure 1.7 · Journalists in prison for their work, counted every 1 December. Source: Committee to Protect Journalists.
+@LABEL PRACTISE | Comprehension
+@EX 5B | True or False? Write T or F.
+@NUM
+The World Press Freedom Index ranks 180 countries and territories. ______
+Reporters Without Borders publishes the Index. ______
+The CPJ counts journalists in prison on 1 May. ______
+World Press Freedom Day is 3 May. ______
+The UN Plan of Action is from 2012. ______
+There are no problems for journalists now. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Who publishes the World Press Freedom Index?
+How many countries and territories does it rank?
+What does the CPJ count every 1 December?
+What happens on 3 May, and what happens on 2 November?
+Name two things a journalist must do, in any language.
+
+@EX 5D | Find a word in the text with the same meaning.
+@NUM
+not in danger → ___________
+a line between two countries → ___________
+a thing you do again and again → ___________
+
+@SUBHEAD Reading B | · a staff profile
+@LABEL NOTICE | Before you read
+@EX 5E | This is a profile page from the Atlas Wire website. What information do you think a profile shows?
+@FIG g-website | Figure 1.8 · A staff profile page on the Atlas Wire website.
+@READING Meet the team: Mira Sandoval
+Name: Mira Sandoval   ·   Job: Correspondent   ·   Agency: Atlas Wire, Geneva   ·   Beat: the region around Kalina
+About: Mira is a correspondent at Atlas Wire. She is from Montevideo, and she speaks three languages. She writes about the valley at Kalina — the crossing, the market, the families, and daily life. Every morning she reads the wire. Then she goes out to find her own stories. She has got a notebook, a press card, and a small camera. She is not a photographer, but she takes simple photographs for her stories. Her first big story is the reopening of the crossing.
+Quick questions
+Q: Why are you a journalist?   A: Because somebody has to go and look.
+Q: What is a good day at work?   A: A true story and a happy source.
+Q: What is hard about your job?   A: The deadline! There is never enough time.
+
+@LABEL PRACTISE | Comprehension
+@EX 5F | Answer about Mira.
+@NUM
+What is her job? ___________
+Where is she from? ___________
+What is her beat? ___________
+What three things has she got? ___________
+What is her first big story? ___________
+
+@EX 5G | Compare the two texts. Answer.
+@NUM
+Reading A is about the whole world. Reading B is about one ___________ .
+Which text has a quote (words a person says)?
+
+@LABEL PRODUCE | Talk about it
+@EX 5H | Discuss in small groups.
+@NUM
+Why is a free press good for a country?
+The work is "find the story, check the facts, name the source, be fair, be kind". Which is most important? Why?
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about Reading B.
+@NUM
+What questions would you ask Mira about her job?
+What is a good day at work for you? Why?
+
+@LABEL PRACTISE | Words from the readings
+@EX 5J | Find a word in Reading A or Reading B.
+@NUM
+not in danger → ___________
+a person who reports from another country → ___________
+the time a story must be ready → ___________
+a line between two countries → ___________
+
+@PART 6 | Write it | Two writing pieces. Each has a model, a plan, and a checklist.
+@SUBHEAD Writing 1 | · a staff bio
+@LABEL MODEL | Study the model
+@WARMBOX
+**MODEL · A STAFF BIO**
+Mira Sandoval is a correspondent at Atlas Wire. She is from Montevideo. Her beat is the region around Kalina. She writes stories about the crossing and the people who use it. She has got a notebook and a press card. She is not a photographer.
+
+@LABEL NOTICE | Notice how it works
+@FIG g-fivew | A reporter's 5-W notes.
+@EX 6A | Answer about the model.
+@NUM
+What is Mira's job? ___________
+What two things has she got? ___________
+Which sentence uses *has got*? ________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 6B | Complete the bio of Tomas. Use: is · from · reports · takes · has got · works.
+@WHITE
+Tomas Varga ______ a field reporter at Atlas Wire. He is ______ Bratislava. He ______ from the field with a camera. He ______ video and photographs. He ______ a camera and a microphone. He ______ with the world editor, Daniel.
+
+@LABEL PRODUCE | Write your own
+@FIG g-model | A model staff bio.
+@EX 6C | Write your own bio (4–6 sentences). Plan first, then write.
+@WHITE
+Plan: name · job (or dream job) · where you are from · your beat · one thing you have got.
+
+@WHITE
+Checklist:
+☐   I use am / is / are correctly.
+☐   I use the present simple (with -s for he/she).
+☐   I use have got / has got at least once.
+☐   My sentences are true and clear.
+
+@SUBHEAD Writing 2 | · an "about our agency" note
+@LABEL MODEL | Study the model
+@WARMBOX
+**MODEL · AN "ABOUT OUR AGENCY" NOTE**
+Atlas Wire is a news agency in Geneva. It has got eight journalists on the world desk, and bureaux in four countries. There is a world desk, a photo team, and a digital team. Atlas Wire reports world news for outlets in many countries. Our rules are simple: we are accurate, we are honest, and we are fair.
+
+@LABEL NOTICE | Notice how it works
+@EX 6D | Answer about the model.
+@NUM
+How many journalists has the agency got on the world desk? ___________
+Which three teams are there? ________________________
+What are the three rules? ________________________
+
+@LABEL PRODUCE | Write the note
+@EX 6E | Write an "about our agency" note (5–7 sentences) for a real or an invented outlet.
+@WHITE
+Sentence starters: ____ is a news outlet in ____ . · It has got ____ journalists. · There is/are ____ . · We report ____ . · Our rules are simple: ____ .
+
+@WHITE
+Checklist:
+☐   I use there is / there are and has got.
+☐   I end with three rules from the Code.
+☐   Then swap with a partner and check each other's note.
+
+@LABEL PRACTISE | Fix the bio
+@EX 6F | This bio has two mistakes. Write it correctly.
+@WHITE
+"Hana are a photojournalist. She take photographs for Atlas Wire."
+
+@P
+________________________
+
+@PART 7 | In the field: introduce yourself | Meet people, introduce yourself, and practise from your own role.
+@LABEL MODEL | A model dialogue
+@DIALOGUE
+Mira | Hello. I am Mira, from Atlas Wire.
+Omar | Nice to meet you, Mira. I am Omar, from the Meridian Post.
+Mira | Are you a correspondent?
+Omar | Yes, I am. I cover the economy. And you?
+Mira | I am a correspondent, too. My beat is the Kalina valley.
+Omar | Have you got a card?
+Mira | Yes. Here you are.
+
+@NOTEP *The Meridian Post is an invented international outlet. Omar is not a real person.*
+@LABEL NOTICE | Notice the language
+@FIG g-introduce | Introducing yourself at work.
+@EX 7A | Read the dialogue. Answer.
+@NUM
+Where is Omar from? ___________
+What is Omar's beat? ___________
+What is Mira's beat? ___________
+
+@EX 7B | Complete the useful phrases.
+@WHITE
+Hello. I ______ [name], from [outlet].
+Nice to ______ you.
+I ______ a correspondent. My beat ______ [beat].
+______ you got a press card?
+
+@LABEL PRACTISE | Controlled practice
+@EX 7C | Make three new introductions. Swap the name, outlet and beat each time.
+@WHITE
+1 Sara · Radio Vara · climate      2 Omar · the Meridian Post · politics      3 (you) · (your outlet) · (your beat)
+
+@LABEL PRODUCE | Your role
+@P
+Everyone learns the same core language. Now practise it **from your own job**. Choose your role and introduce yourself that way.
+@ROLES
+Editor-in-Chief | Welcome the team and say the agency's mission.
+World Editor | Introduce the desk and the day's top stories.
+Correspondent | Introduce yourself and the country or region you cover.
+Field & Video | Say where you are reporting from and what you have got.
+Verification | Explain what you check and how.
+Photojournalist | Describe your kit and today's assignment.
+Digital & Social | Describe your platforms and your audience.
+Radio / Podcast | Open the world bulletin and introduce a guest.
+
+@EX 7D | Pair work. You are at a press briefing. Introduce yourself to a partner from your role. Then swap.
+@EX 7E | Find someone who… Ask your classmates. Write a name for each.
+@NUM
+…reads world news every day. Name: ___________
+…has got a favourite correspondent. Name: ___________
+…watches the news on TV. Name: ___________
+…is interested in climate news. Name: ___________
+…listens to the radio. Name: ___________
+…follows a news agency online. Name: ___________
+
+@LABEL CHECK | Check yourself
+@CRITERIA When I speak, I can…
+say my name, outlet, job and beat
+ask a simple question (Are you…? Have you got…?)
+answer about my work
+
+@SUBHEAD A second situation | · at a press briefing
+@FIG g-interview | Figure 1.10 · At a press briefing — Ana meets a guest with a story.
+@LABEL MODEL | A model dialogue
+@DIALOGUE
+Ana | Good evening. I am Ana Ferreira, the editor-in-chief of Atlas Wire.
+Guest | Nice to meet you. I am from a school near the crossing at Kalina.
+Ana | Welcome. What is your news?
+Guest | Our school is open again. Two hundred children are back.
+Ana | That is a wonderful story. Can my correspondent call you?
+Guest | Yes, of course. Here is my card.
+
+@LABEL PRODUCE | Your turn
+@EX 7F | Role-play. One of you is a journalist; one is a guest with news. Introduce yourselves and share one piece of news. Then swap.
+@EX 7G | Discuss. Is it easy or hard to introduce yourself in English? What helps you?
+
+@PART 8 | Ethics & the Code | Good English is not enough. A good journalist follows the rules of the job.
+@LABEL MODEL | A case, and the Code
+@CASE Mira is at the crossing at Kalina. She writes a good story about the market on the bridge. An official is very happy with the story. "Your story is beautiful," he says. "Please write only good things about the crossing. Here — we will pay for your flight and your hotel next time." He puts an envelope in her hand. Mira likes the official, and the agency has little money. But she is a journalist. She knows the Code: a journalist is independent, and does not take money to change a story. What does Mira do? What does she say to the official?
+
+@COLS
+**Accuracy** — The facts are correct.
+**Honesty** — You tell the truth.
+@@
+**Fairness** — You give more than one side.
+**Respect** — You treat people well.
+
+@NOTEP *A fifth idea — independence — means no one controls your news. These ideas appear in codes of ethics all over the world, among them the IFJ Global Charter of Ethics for Journalists (2019).*
+@LABEL PRACTISE | Understand the values
+@FIG u1-ethA | A case — an official offers a paid trip; a journalist stays independent.
+@EX 8A | Match the value (1–5) to its meaning (a–e).
+@MATCH
+1.  Accuracy ______
+2.  Honesty ______
+3.  Fairness ______
+4.  Respect ______
+5.  Independence ______
+@@
+a)  you tell the truth
+b)  the facts are correct
+c)  you give more than one side
+d)  you treat people well
+e)  no one controls your news
+
+@EX 8B | Good or not good? Write GOOD or NOT GOOD.
+@NUM
+A journalist checks the facts. ___________
+A journalist invents a quote. ___________
+A journalist tells the truth. ___________
+A journalist takes money to change a story. ___________
+A journalist respects people. ___________
+A journalist copies another reporter's work. ___________
+A journalist gives two sides of a story. ___________
+A journalist shares a rumour as news. ___________
+
+@LABEL NOTICE | Decide — what would you do?
+@EX 8C | Read each situation. Choose (a) or (b), and write one reason.
+@NUM
+An official offers to pay for your flight and hotel. (a) accept it (b) say "no, thank you".   Choice: ______   Because ________________________
+You are not sure a fact is true. (a) file it now (b) check it first.   Choice: ______   Because ________________________
+A family says "please do not use our photograph". (a) use it (b) respect the family.   Choice: ______   Because ________________________
+
+@LABEL PRACTISE | Apply the Code
+@EX 8D | Complete Atlas Wire's code. Use: accurate · honest · fair · respect · independent.
+@WHITE
+1. We are ______. Our facts are correct.
+2. We are ______. We tell the truth.
+3. We are ______. We give more than one side.
+4. We ______ people.
+5. We are ______. No one controls our news.
+
+@LABEL PRODUCE | Talk about it
+@EX 8E | Discuss.
+@NUM
+In the case above, what should Mira say to the official?
+Why is "independence" important for a free press?
+
+@LABEL PRODUCE | Write it
+@EX 8F | Write what Mira says to the official (2–3 sentences). Be polite, but say no.
+@SUBHEAD A second case | · a photograph and a family
+@FIG u1-ethB | Figure 1.11 · A family asks Tomas not to use their photograph.
+@CASE Tomas takes a photograph at the crossing. In the photograph there is a family: a mother, a father, and two children. The photograph is very good. But the mother sees Tomas. "Please do not use our photograph," she says. "We do not want to be in the news." Tomas needs a picture for the story. The photograph is good, and the deadline is soon. But the family says no. The Code says: respect people. What does Tomas do?
+
+@LABEL NOTICE | What do you do?
+@EX 8G | Choose (a) or (b), and write one reason.
+@NUM
+(a) use the photograph  (b) do not use the photograph.   Choice: ______  Because ________________________
+Next time, what does Tomas do first? (a) take the photograph, then ask  (b) ask the family first.   Choice: ______
+
+@LABEL PRODUCE | Discuss
+@EX 8H | Discuss. Is it more important to get the story, or to respect people? Why?
+
+@PART 9 | The digital angle: your profile online | Most news is online. Learn the parts of a news website, then build your own profile.
+@LABEL MODEL | A news website
+@FIG g-website | Figure 1.9 · A news website home page. Label the six parts in 9A.
+@LABEL PRACTISE | Label it
+@EX 9A | Label the website. Write the number (1–6) next to the word.
+@MATCH
+1.  logo (the name) ______
+2.  menu (the sections) ______
+3.  headline ______
+@@
+a)  byline ______
+b)  photo ______
+c)  "Read more" link ______
+
+@LABEL NOTICE | Notice the parts
+@EX 9B | Answer.
+@NUM
+Which part shows the writer? ___________
+Which part shows the sections? ___________
+Which part is the title of the story? ___________
+Which part opens the full story? ___________
+
+@LABEL PRACTISE | Build and fix
+@EX 9C | Complete your online profile.
+@WHITE
+Name: ________________________
+Role: ________________________
+Outlet: ________________________
+Beat (country or subject): ________________________
+City: ________________________
+
+@EX 9D | This bio has four mistakes. Write it correctly.
+@WHITE
+Sara are a correspondent. She have got a camera. She write world news. There is many stories in her region.
+
+@P
+________________________  ________________________
+
+@LABEL PRODUCE | Publish
+@FIG g-phonealert | A news alert on a phone — short, true, and fast.
+@EX 9E | Write a one-line bio (10–15 words). Example: "Mira Sandoval is a correspondent at Atlas Wire in Geneva."
+@EX 9F | Write a short social post (1–2 sentences) about your first day in a newsroom. Use the present simple.
+@WHITE
+Checklist: a clear sentence · correct present simple · true or clearly invented.
+
+@LABEL PRODUCE | Discuss
+@EX 9G | Talk with a partner.
+@NUM
+Do you follow any correspondents or agencies online? Which ones?
+Is online news good or bad for a free press? Say one reason.
+
+@EX 9H | Creative. Write a short headline (4–6 words) for the Kalina story.
+
+@PART 10 | Review & Can-Do | Check your new English before you move to Unit 2.
+@FIG u1-sum | Unit 1 — the eight skills you practised, one story.
+@EX 10A | Vocabulary. Complete with a word from the box.
+@WORDBOX WORD BOX | headline · fixer · caption · deadline · bureau · beat · wire · editor · press card · byline
+@NUM
+The ___________ is the big title of a story.
+A ___________ is a local journalist who helps a visiting team.
+The words under a photo are the ___________.
+The ___________ is the time a story must be ready.
+An agency office in another country is a ___________.
+The subject you cover is your ___________.
+The stream of stories an agency sends out is the ___________.
+The ___________ checks and prepares stories.
+Your ___________ shows you are a journalist.
+The name of the writer is the ___________.
+
+@EX 10B | Grammar. Circle the correct word.
+@NUM
+She (is / are) a correspondent.
+They (work / works) at Atlas Wire.
+He (take / takes) photographs.
+I (have got / has got) a visa.
+Priya (have got / has got) a notebook.
+(There is / There are) three bureaux.
+(There is / There are) a clock on the wall.
+We (am / are) a good team.
+Does she (file / files) the story?
+(Do / Does) you read world news?
+The desk (have got / has got) two screens.
+Tomas (is / are) in the field.
+
+@EX 10C | Complete the paragraph. Use the words in the box.
+@WORDBOX WORD BOX | am · work · is · file · has got · There are · take · reports · have got · are
+@WHITE
+My name is Sara. I ______ (1) a journalist. I ______ (2) at a small agency in Nairobi. My beat ______ (3) climate. I ______ (4) stories about my region. My agency ______ (5) six journalists. ___________ (6) two photographers on the team. They ______ (7) photographs every day. My colleague Tomas ______ (8) from the field. My team and I ______ (9) a lot of news. We ______ (10) a good team.
+
+@EX 10D | Quick recall. Answer from this unit.
+@NUM
+How many countries and territories does the World Press Freedom Index rank?
+Name three of the values in the Code.
+Say one part of a front page.
+
+@FIG g-cando | Can-Do — what you can do now.
+@H Can-Do — tick what you can do now
+@CANDO
+I can introduce myself, my job, and the outlet I work for.
+I can name the people, places, and things of an international newsroom.
+I can use am / is / are correctly.
+I can use the present simple to say what people do.
+I can use have got and there is / there are.
+I can understand two texts about the world's press and a newsroom.
+I can write a short staff bio and an agency note.
+I can name the key ideas of the Code.
+
+@EX 10E | Reflect. Answer for yourself.
+@NUM
+What is the most useful word you learned in this unit?
+What do you want to practise more?
+
+@EX 10F | Read and answer.
+@WHITE
+Priya is a verification journalist at Atlas Wire. She has got a computer and a phone. She checks every fact and every picture. There are many stories today, and she is busy.
+
+@NUM
+What is Priya's job? ___________
+What has she got? ___________
+What does she check? ___________
+
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+There is three correspondents. → ________________________
+She have got a camera. → ________________________
+Tomas take photographs. → ________________________
+We is a team. → ________________________
+
+@PART 11 | Assignment: an outlet profile |
+@FIG g-template | The assignment template — your outlet profile.
+@ASSIGNTITLE Make a one-page profile of a news outlet
+@P
+Choose a real international news outlet or agency (write only true facts), or invent your own outlet. Make a one-page profile with these parts:
+@NUM
+the **name** and the **city**;
+the **team** — how many journalists, and their jobs (use *there is/are* and *has got*);
+the **beats** or the **countries** it covers;
+**one rule** from the Code;
+one sentence: **why** you like it, or why it is important.
+
+@WHITE
+Plan: make notes for each of the five parts before you write.
+
+@CRITERIA Success criteria
+All five parts are there (name/city, team, beats, one rule, why).
+Facts are true (real outlet) or clearly invented (my own).
+I use be, present simple, have got, there is/are.
+It is neat and easy to read.
+
+@P
+**Keep this profile. **In Unit 10, your outlet publishes your final story — the capstone. This is where it begins.
+
+@KEY Unit 1 | Answers for the closed tasks. "Your own answers", pair work and discussion have no single answer.
+@ANS
+W2 | 1 at Atlas Wire (a news agency in Geneva) · 2 eight · 3 Ana · 4 the crossing at Kalina is open again
+W3 | 1 news agency · 2 press card
+1A | 1-b, 2-c, 3-d, 4-a, 5-f, 6-e, 7-h, 8-g, 9-j, 10-i
+1B | 1 news agency · 2 camera · 3 front page · 4 notebook · 5 editor · 6 press card · 7 visa · 8 media
+1C | People: correspondent, editor, fixer, stringer · Places: bureau, desk · Things: camera, notebook, press card, dateline
+1D | 1-c (file a story) · 2-a (take a photo) · 3-d (meet a deadline) · 4-b (check a fact) · 5-f (cover a beat) · 6-e (ask a question)
+1E | 1 camera · 2 deadline · 3 fixer · 4 notebook · 5 visa · 6 editor
+1F | correspondent · desk · article · source · notebook · editor · wire · deadline
+1G | Your own answers.
+2A | 1 be · 2 present simple · 3 have got · 4 there is/are · 5 present simple
+2B | 1 is · 2 files · 3 have got · 4 There are · 5 are · 6 has got · 7 Is there · 8 report
+2C | 1 She files the story. · 2 There are three correspondents. · 3 I have got a visa. · 4 We are a good team. · 5 Hana takes photographs.
+2D / 2E / 2F | Your own answers.
+3A | 1-b, 2-d, 3-f, 4-g, 5-c, 6-a, 7-e
+3B | 1 Ana · 2 Priya · 3 Hana · 4 Leila · 5 Daniel · 6 Mira
+3C | 1 politics · 2 economy · 3 health · 4 climate · 5 culture · 6 technology
+3D | 1 masthead · 2 headline · 3 byline · 4 dateline · 5 photo · 6 caption
+3E / 5A / 5E / 5H / 6C / 6E / 7C / 7D / 7E / 8E / 9C / 9E / 9F / 10E | Your own answers.
+4A / 4E | Your own predictions (in 4A all eight speak; in 4E, a and c).
+4B | 1 Priya · 2 Tomas · 3 Leila · 4 Daniel · 5 Hana · 6 Ana
+4C | 1 T · 2 F · 3 F · 4 F · 5 T · 6 T · 7 F · 8 T
+4D | stories: 3 · beat: the region around Kalina · sources: 2 · photographs: 10 · online at: twelve o'clock
+4F | 1 crossing · 2 open · 3 people · 4 photographs, video · 5 stall-holder
+4G | 1 F · 2 T · 3 F · 4 T
+4H | 1 at the crossing at Kalina · 2 send the photographs now
+5B | 1 T · 2 T · 3 F (1 December) · 4 T · 5 T · 6 F
+5C | 1 Reporters Without Borders · 2 180 · 3 the journalists in prison for their work · 4 3 May is World Press Freedom Day; 2 November is the International Day to End Impunity for Crimes against Journalists · 5 (any two) find the story / check the facts / name the source / be fair / be kind
+5D | 1 safe · 2 border · 3 habit
+5F | 1 correspondent · 2 Montevideo · 3 the region around Kalina · 4 a notebook, a press card and a small camera · 5 the reopening of the crossing
+5G | 1 journalist (person) · 2 Reading B
+6A | 1 a correspondent · 2 a notebook and a press card · 3 "She has got a notebook and a press card."
+6B | is · from · reports · takes · has got · works
+6D | 1 eight · 2 a world desk, a photo team, a digital team · 3 accurate, honest, fair
+7A | 1 the Meridian Post · 2 the economy · 3 the Kalina valley
+7B | am · meet · am (is) · Have
+8A | 1-b, 2-a, 3-c, 4-d, 5-e
+8B | 1 GOOD · 2 NOT GOOD · 3 GOOD · 4 NOT GOOD · 5 GOOD · 6 NOT GOOD · 7 GOOD · 8 NOT GOOD
+8C | Suggested: 1 (b) · 2 (b) · 3 (b) — with your own reason.
+8D | 1 accurate · 2 honest · 3 fair · 4 respect · 5 independent
+9A | logo 1 · menu 2 · headline 3 · byline 5 · photo 4 · "Read more" 6
+9B | 1 the byline · 2 the menu · 3 the headline · 4 the "Read more" link
+9D | Sara is a correspondent. She has got a camera. She writes world news. There are many stories in her region.
+10A | 1 headline · 2 fixer · 3 caption · 4 deadline · 5 bureau · 6 beat · 7 wire · 8 editor · 9 press card · 10 byline
+10B | 1 is · 2 work · 3 takes · 4 have got · 5 has got · 6 There are · 7 There is · 8 are · 9 file · 10 Do · 11 has got · 12 is
+10C | 1 am · 2 work · 3 is · 4 file · 5 has got · 6 There are · 7 take · 8 reports · 9 have got · 10 are
+10D | 1 180 · 2 (any three) accuracy, honesty, fairness, respect, independence · 3 (any) masthead / headline / byline / dateline / photo / caption
+3G | 1 climate · 2 politics · 3 health · 4 culture
+4J | story · crossing · source · crossing (the field) · photographs · Bekim
+5J | 1 safe · 2 correspondent · 3 deadline · 4 border
+8G | 1 (b) do not use the photograph — respect the family · 2 (b) ask the family first
+6F | Hana is a photojournalist. She takes photographs for Atlas Wire.
+10F | 1 (a) verification journalist · 2 a computer and a phone · 3 every fact and every picture
+10G | 1 There are three correspondents. · 2 She has got a camera. · 3 Tomas takes photographs. · 4 We are a team.
+Open tasks | W1, W4, 1H, 1I, 3F, 4I, 5I, 7F, 7G, 8F, 8H, 9G, 9H — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about the world's press (the World Press Freedom Index and its 180 countries and territories, the CPJ prison census of 1 December, UNESCO's finding on impunity, World Press Freedom Day, named by the UN in 1993 and marked on 3 May, the UN Plan of Action of 2012, the International Day to End Impunity on 2 November, the Windhoek Declaration of 1991) are true and attributed. Atlas Wire, its staff, Kalina, the crossing, the Meridian Post and Omar are invented, for practice. In this course, real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 1 (v5 — 25-page standard). | CEFR A2 · two readings · two listenings · two writing pieces · every part scaffolded · grounded in the world's media reality as of 2026 · fictional agency (Atlas Wire), factual backdrop.

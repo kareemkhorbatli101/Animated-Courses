@@ -1,0 +1,756 @@
+@UNITHEAD UNIT 10 | The Front Page: Bringing It Together | Beat · Capstone | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+join two ideas with a relative clause (who, which, that, where)
+describe people, things, and places
+edit and finish a news story
+make a full front page — using everything you have learned
+
+@FIG g-team | The Atlas Wire team — together, they make a special front page.
+@STORY The story so far, and the end. | It has been a full year. The crossing has reopened, the families have returned, and the valley has come back. Now the team makes one special front page that tells the whole story — the correspondent who followed it, the people who came back, and the town where it all happened.
+
+@WARMUP The story that… | A short piece to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team plans the special front page.
+@WARMBOX
+Today the team is making a special front page. "This is the story that everyone has waited for," says Ana. "Mira, who has followed Kalina all year, will write the lead. Hana, who takes the best photographs, will choose the picture. And we need a headline that people will remember." Sofia, the new correspondent, asks, "Is this the town where the crossing reopened?" "Yes," says Mira. "The town that was quiet is a home again — and this is the page that will tell everyone."
+
+@EX W1 | Answer the questions.
+@NUM
+Who will write the lead? ___________
+What will Hana, who takes the best photographs, choose? ___________
+Which town is the story about? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Mira has followed the story all year. ______
+Hana will write the headline. ______
+The town was always busy. ______
+
+@EX W3 | Find three words that join two ideas (who, which, that, where). Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+Think of a person who you admire. Say one thing about them, using 'who'.
+Think of a place where something happened to you. Tell your partner about it.
+
+@PART 1 | The words of the page | The words for making a front page. Learn these first.
+@FIG u10-words | Four key words — front page, lead, byline, edit.
+@H The words
+@VOCAB
+front page | the first page of a newspaper
+masthead | the newspaper's name at the top
+headline | the big title
+byline | the line with the writer's name
+dateline | the place and date at the start of a report
+lead | the first sentence of a story
+caption | the words under a photo
+layout | how a page is arranged
+edit | to check and improve a story
+publish | to make public; to print
+column | a tall block of text
+describe | to say what someone or something is like
+connect | to join two ideas
+final | the last
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  front page
+2.  masthead
+3.  headline
+4.  byline
+5.  lead
+6.  caption
+7.  layout
+8.  edit
+9.  publish
+10.  dateline
+@@
+a)  the newspaper's name at the top
+b)  the big title
+c)  the first page of a newspaper
+d)  the line with the writer's name
+e)  the words under a photo
+f)  the first sentence of a story
+g)  to make public
+h)  how a page is arranged
+i)  to check and improve a story
+j)  the place and date at the start of a report
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | headline · byline · lead · caption · edit · publish
+@NUM
+The ___________ is the big title at the top.
+The ___________ says who wrote the story.
+The ___________ is the first sentence.
+The words under the photo are the ___________ .
+Priya will ___________ the story and fix any mistakes.
+Then the team will ___________ the page.
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  write the
+2.  choose the
+3.  edit the
+4.  design the
+5.  publish the
+@@
+a)  headline
+b)  photograph
+c)  story
+d)  layout
+e)  page
+
+@EX 1D | Circle the word that is different.
+@NUM
+headline · byline · lead · deadline
+edit · check · improve · shout
+column · caption · masthead · rumour
+publish · print · describe · page
+
+@FIG g-frontpage-parts | The parts of a front page — masthead, headline, byline, photo.
+@EX 1E | Complete the paragraph. Use: front page · headline · byline · lead · photograph.
+@WHITE
+The team makes the ___________ . At the top is a big ___________ . Under it, the ___________ says who wrote the story, and the ___________ gives the news in one sentence. A ___________ fills the middle of the page.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+the newspaper's name at the top → ___________
+the first sentence of a story → ___________
+to check and improve a story → ___________
+a tall block of text → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What story would you put on the front page of an international newspaper today?
+What headline would you give it?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write a headline (5–7 words) and a byline for a story about your town.
+
+@PART 2 | Grammar: relative clauses | who for people, which/that for things, where for places.
+@FIG u10-gA | who = people · which / that = things.
+@GRAMMAR 1 · who / which / that
+{{who}} for people: The correspondent {{who}} wrote the story is Mira.
+{{which}} / {{that}} for things: The story {{that}} everyone read.  The photograph {{which}} we chose.
+We use them to say which person or thing we mean.
+
+@FIG u10-gB | where — for places.
+@GRAMMAR 2 · where
+{{where}} for places: Kalina is the town {{where}} the families came back.
+This is the desk {{where}} the team works.
+Use *where* to join a place to what happened there.
+
+@GRAMMAR 3 · Joining two ideas
+Two sentences: Mira is a correspondent. She wrote the story.
+One sentence: Mira is a correspondent {{who}} wrote the story.
+Joining ideas makes your writing flow, and is better to read.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Choose: who, which/that, or where.
+@NUM
+The correspondent ___________ wrote the story is Mira.
+The story ___________ everyone read was on the front page.
+Kalina is the town ___________ the families came back.
+The photograph ___________ Hana took is beautiful.
+
+@EX 2B | Complete with who or which/that.
+@NUM
+Elena is the woman ___________ owns the café.
+The crossing ___________ reopened is busy again.
+Priya is the person ___________ checks the facts.
+This is the page ___________ tells the whole story.
+
+@EX 2C | Join the two sentences with who, which/that, or where.
+@NUM
+Mira is a correspondent. She wrote the story. → ________________________
+This is the bridge. It reopened in April. → ________________________
+That is the town. The families came back there. → ________________________
+
+@EX 2D | Add where or who.
+@NUM
+This is the desk ___________ the team works.
+Hana is the photographer ___________ took the picture.
+Kalina is the town ___________ the story happened.
+
+@H Your own words
+@EX 2E | Write two sentences about people you know. Use who.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write one sentence about a place, using where.
+@NUM
+________________________
+
+@PART 3 | Editing: making it flow | A good editor joins short sentences to make the writing flow.
+@FIG u10-skill | Two short sentences → one clear sentence.
+@LABEL MODEL | Before and after
+@WARMBOX
+**Before:** Mira is a correspondent. She works at Atlas Wire. She wrote the story. Everyone read the story.
+**After:** Mira, who works at Atlas Wire, wrote the story that everyone read.
+
+@LABEL NOTICE | Notice the change
+@EX 3A | Answer about the model.
+@NUM
+How many sentences are there 'before'? ___________
+How many 'after'? ___________
+Which words join the ideas? ___________
+
+@EX 3B | In the 'after' sentence, underline the two relative clauses. Write the joining words.
+@NUM
+________________________
+
+@LABEL PRACTISE | Join them
+@FIG g-fivew | Editing makes a story clearer, without changing the facts.
+@EX 3C | Join each pair into one sentence.
+@NUM
+The crossing reopened. It is at Kalina. → ________________________
+Elena owns the café. The café is always full. → ________________________
+Priya checks the facts. She is the verification journalist. → ________________________
+
+@EX 3D | Complete the edited paragraph. Use: who · which · where · that.
+@WHITE
+Kalina is the town ______ the crossing reopened. Elena, ______ owns the café, is happy. The story, ______ Mira wrote, is on the page ______ everyone will read.
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Write four short sentences about a person and a place. Then join them into two flowing sentences with who / which / where.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why is a joined sentence often better to read than three short ones?
+@EX 3G | When you edit, you must not change the facts. Why is that a rule?
+
+@PART 4 | Listening: planning the page | Two audios. Listen for who does what.
+@FIG g-newsroom | In the newsroom — the team plans the special front page.
+@SUBHEAD Listening A | · planning the front page
+@LABEL MODEL | Audio 10.1 — the team plans
+@DIALOGUE
+Ana | This is the front page that will tell the whole story. Let us plan it.
+Ana | Mira, who has followed the valley all year, will write the lead.
+Mira | Thank you. I will write the story that people have waited for.
+Ana | Hana, who takes the best photographs, will choose the picture.
+Hana | I have a photograph which shows the busy bridge.
+Ana | And Priya, who checks the facts, will edit the page.
+Priya | I will make sure every fact is right before we publish.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: who do you think will do each job? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+Who will write the lead? ___________
+Who will choose the photograph? ___________
+What does Hana's photograph show? ___________
+Who will edit the page? ___________
+
+@EX 4C | Match the person to the job.
+@MATCH
+1.  Mira
+2.  Hana
+3.  Priya
+4.  Ana
+@@
+a)  chooses the photograph
+b)  leads the conference
+c)  writes the lead
+d)  checks the facts
+
+@EX 4D | Complete the notes.
+@WHITE
+Lead (who?): ___________
+Photograph (who?): ___________
+Edit (who?): ___________
+
+@FIG g-studio | Audio 10.2 — Mira presents the finished front page.
+@SUBHEAD Listening B | · presenting the page
+@LABEL MODEL | Audio 10.2 — Mira presents
+@DIALOGUE
+Mira | Here is the front page. The headline, which is short and strong, says: 'A crossing comes home'.
+Daniel | And the lead?
+Mira | The lead gives the five Ws in one sentence, with the number that the office confirmed.
+Daniel | The photograph?
+Mira | It is the picture that Hana took — the bridge where the families came back.
+Daniel | And the quote?
+Mira | At the end: 'It is our home,' which are Elena's exact words.
+Daniel | It is perfect. We will publish it tonight.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what parts of the page will Mira describe? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The headline, ___________ is short and strong, says 'A crossing comes home'.
+The lead gives the five ___________ .
+The photograph is the picture ___________ Hana took.
+The quote is Elena's exact ___________ .
+
+@EX 4G | Which relative words do you hear? Write two (who / which / that / where).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does the lead use 'the number that the office confirmed'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: who · which · lead · photograph.
+@WHITE
+The team plans the page: Mira, ______ followed the story, writes the ______ ; Hana chooses the ______ ; and Priya edits it. Then Mira presents the page, ______ is ready to publish.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why does a good front page need many people, each with a different job?
+
+@PART 5 | Reading: the front page | Two readings. Read for the story, and for the parts of the page.
+@FIG u10-read | The front page that told the whole story.
+@SUBHEAD Reading A | · the story that brought a town home
+@READING A crossing comes home
+**By Mira Sandoval, Atlas Wire · KALINA**
+Kalina, the town that was quiet for seven years, is a home again. The bridge, which reopened last April, is busy every morning, and the families who left have come back.
+The correspondent who followed the story all year is Mira Sandoval. "I have watched this valley change," she said. "The road that was empty is full of children, and the stalls that disappeared have come back."
+Much of the work was done by the volunteers who live here, on both sides of the river. Elena Marku, who owns the café at the end of the bridge, is one of them. "It is our home," she said — words that many people in the valley now repeat.
+According to the Crossing Office, a hundred families have returned. There is still work to do: the clinic, which is closed, has not reopened yet. But the change is easy to see.
+This is the front page that tells the story — a story about a place where, after seven quiet years, the people came home. As Elena said, and as the headline now reads: the crossing has come home.
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the headline, the byline and the dateline. What is the story about, who wrote it, and where is it from?
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The bridge reopened last April. ______
+Elena owns the café. ______
+A hundred families have returned. ______
+The clinic has reopened. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Who is the correspondent who followed the story? ___________
+Who did much of the work? ___________
+What has not reopened yet? ___________
+
+@EX 5D | Find a relative clause in the text (e.g. 'who owns the café'). Write one.
+@NUM
+________________________
+
+@FIG g-reach | One front page can tell a whole year's story, in many countries at once.
+@SUBHEAD Reading B | · making a front page — the parts
+@READING The parts of a front page
+**1. Masthead and headline.** The masthead is the paper's name at the top. The headline is the big title that people read first.
+**2. Byline and dateline.** The byline names the writer. The dateline says where the report comes from — on an international page, it is the first thing a reader looks for.
+**3. Lead, photograph and caption.** The lead is the first sentence, which gives the five Ws. A strong photograph, and a caption which says what the photograph shows.
+**4. Edit and check.** Before you publish, edit the page: check every fact, every name, and every quote. A front page that has a mistake loses trust.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which part do people read first? Guess.
+@NUM
+______
+
+@EX 5F | Match the part to what it does.
+@MATCH
+1.  masthead
+2.  headline
+3.  byline
+4.  dateline
+@@
+a)  the big title people read first
+b)  says where the report comes from
+c)  the paper's name at the top
+d)  names the writer
+
+@EX 5G | Which step is about checking before you publish? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+the big title → ___________
+the first sentence → ___________
+the line with the writer's name → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Reading A uses many relative clauses. Do they make it easier or harder to read? Why?
+@EX 5J | Which part of a front page is the most important? Say why.
+
+@PART 6 | Writing: headline and lead | Two short pieces: a headline, and a lead with the five Ws.
+@FIG g-notes | The lead answers the five Ws in one sentence.
+@SUBHEAD Writing 1 | · a headline, byline and dateline
+@LABEL MODEL | A model
+@WARMBOX
+Headline: A crossing comes home
+Byline: By Mira Sandoval, Atlas Wire
+Dateline: KALINA
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+How many words is the headline? ___________
+What do the byline and the dateline tell us? ___________
+
+@LABEL PRODUCE | Write your headline
+@EX 6B | Choose a story. Write a headline (5–7 words), a byline and a dateline.
+@WHITE
+Headline: ___________
+Byline: ___________
+Dateline: ___________
+
+@FIG g-fivew | The lead gives the five Ws — and names a source for the number.
+@SUBHEAD Writing 2 | · a lead sentence
+@LABEL MODEL | A model
+@WARMBOX
+Kalina, the town that was quiet for seven years, is a home again: a hundred families have returned since the spring, according to the Crossing Office.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which of the five Ws are in the lead? Where is the source?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a lead
+@EX 6D | Complete the lead. Use: who · which · according.
+@WHITE
+The bridge, ______ reopened last April, is busy again, and the families ______ left have come back — ______ to the Crossing Office.
+
+@LABEL PRODUCE | Write your lead
+@EX 6E | Write a lead sentence for your story. Give the five Ws, use one relative clause, and name a source.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | Join these three short sentences into one flowing lead. Use who and which.
+@WHITE
+"Mira is a correspondent. She works at Atlas Wire. She wrote the story that is on the front page."
+
+@P
+________________________
+
+@PART 7 | Speaking: presenting the page | Describe your front page to a partner. Use relative clauses.
+@FIG g-interview | Present your page: the story, the photograph, and the people.
+@SUBHEAD A model dialogue | · presenting the front page
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | This is our front page. The headline, which is short, says 'A crossing comes home'.
+Ana | Who wrote the lead?
+Mira | I did. It gives the five Ws, with the number that the office confirmed.
+Ana | And the photograph?
+Mira | It is the picture that Hana took — the bridge where the families came back.
+Ana | It is a page that everyone will want to read.
+
+@LABEL NOTICE | Notice the description
+@EX 7A | Find two relative clauses Mira uses. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Describe each part. Use a relative clause.
+@NUM
+the headline / people read first → The headline is the part ___________ .
+the correspondent / wrote the story → Mira is the correspondent ___________ .
+the bridge / the families came back → It is the bridge ___________ .
+
+@FIG g-introduce | Introduce your page, then describe each part.
+@EX 7C | Join the two sentences to describe your page.
+@NUM
+This is the photograph. Hana took it. → ________________________
+This is the town. The story happened there. → ________________________
+This is the quote. Elena said it. → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Presenter | Present your front page. Describe the headline, the lead, and the photograph, using relative clauses.
+Editor | Ask: 'Who wrote it?' 'Where did it happen?' 'What does the photograph show?'
+Observer | Listen. Did the presenter use who, which/that, and where?
+
+@EX 7D | Choose a role from the table. Present your page to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play the final conference: a presenter, an editor, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · the last check
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Priya | Before we publish, I have checked the page which you gave me.
+Mira | Is everything right?
+Priya | Yes. Every fact is checked, and the quote, which is Elena's, is exact.
+Mira | And the number?
+Priya | The number that the office confirmed is correct. The page is ready.
+Mira | Then let us publish it.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the relative clause Priya uses about the quote (the quote, which…).
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use who for people and which/that for things?
+use where for a place?
+join short sentences to make them flow?
+describe each part of my page?
+
+@EX 7G | Role-play the last check before publishing. Then swap roles.
+
+@PART 8 | Ethics: the whole Code | The front page brings the whole Code together: accurate, fair, and kind.
+@FIG g-code | Five words that have held this course together, and now hold one page together.
+@FIG u10-ethA | The lead story is the important one — not the loudest one.
+@SUBHEAD A first case | · which story leads?
+@CASE The team has two stories. One is the town that has come home — an important, true story that helps readers in many countries understand the year. The other is a small, shocking claim that would be shared more widely, but that nobody has checked. An editor says, "Put the shocking one on the front — it will travel further." But it is a rumour, and it is not the story that matters most. The Code says: choose the story that is important and true, not the one that is loud. Which story does the team put on the front page?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) the shocking, unchecked claim  (b) the important, true story.   Choice: ______  Because ________________________
+A front page should carry the story that is (a) loudest  (b) most important and true.   Choice: ______
+
+@EX 8B | Front page or not? Write Y (yes) or N (no).
+@NUM
+An important, checked, true story. ______
+A shocking claim nobody has checked. ______
+A story that helps readers understand. ______
+A story chosen only because it will be shared. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: important · true · loud · checked.
+@WHITE
+Lead with the story that is ______ and ______ . Do not lead with a story only because it is ______ . Everything on the page must be ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why should a newspaper not choose its front page only to be shared more widely?
+@SUBHEAD A second case | · a correction on the front
+@FIG u10-ethB | If the front page had a mistake, correct it — in public.
+@CASE Yesterday's front page had a small mistake: it gave the wrong number of families. A reader found it, and the reader is right. The story went out on the wire, so outlets in six countries printed the wrong number too. Someone says, "It was small. Just fix it quietly online, and say nothing." But the mistake was on the front page, where everyone saw it. The Code says: be honest — if you make a public mistake, you correct it in public, and you tell everyone who used it. What does the team do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) fix it quietly and say nothing  (b) print a correction, in public, and send it on the wire.   Choice: ______  Because ________________________
+Correcting a public mistake in public makes readers trust the paper (a) less  (b) more.   Choice: ______
+
+@EX 8F | Complete with: honest · public · correct · trust.
+@NUM
+A journalist must be ___________ .
+A ___________ mistake needs a public correction.
+Say sorry and ___________ it.
+Readers ___________ a paper that owns its mistakes.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why does correcting a mistake in public build trust, not lose it?
+@LABEL PRODUCE | Write it
+@EX 8H | Write a short, honest correction (2–3 sentences) for the wrong number. Say sorry, and give the right fact.
+
+@PART 9 | Digital: the online front page | Online, the front page is the home page — the same rules apply.
+@FIG g-phonealert | The online front page — the lead story, on every phone.
+@LABEL MODEL | A model home-page post
+@WARMBOX
+TOP STORY · A crossing comes home: Kalina, where the bridge reopened, is busy again. 100 families have returned, according to the Crossing Office. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  A crossing comes home
+2.  where the bridge reopened
+3.  100 families have returned
+4.  according to the Crossing Office
+@@
+a)  a relative clause (where)
+b)  the headline
+c)  the source
+d)  the fact
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the relative clause in the post. Write it.
+@NUM
+________________________
+
+@EX 9C | Join these two into one home-page line, using where.
+@WHITE
+"The bridge is busy again. The families came back there."
+
+@P
+________________________
+
+@FIG g-website | The online front page links to the full story.
+@EX 9D | Write a top-story post. Use one relative clause and name a source.
+@WHITE
+TOP STORY · ___________ (headline), ___________ (a relative clause). — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line top-story post for your front page. Use a relative clause.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write the headline (5–7 words) for your online front page.
+@EX 9G | A reader comments: 'Who wrote this?' Write a short reply. Use a byline and a relative clause.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Online or on paper, the front page has the same rules. What are two of them?
+
+@PART 10 | Review & Can-Do | Check your English — and everything you have learned this course.
+@FIG u10-sum | Ten units, one story: the Kalina crossing came home.
+@EX 10A | Vocabulary. Complete with: front page · masthead · headline · byline · lead · caption · edit · publish.
+@NUM
+The team makes the ___________ .
+The ___________ is the paper's name at the top.
+The big title is the ___________ .
+The ___________ names the writer.
+The ___________ is the first sentence.
+The words under a photo are the ___________ .
+Priya will ___________ the story.
+Then the team will ___________ it.
+
+@EX 10B | Grammar. Choose: who, which/that, or where.
+@NUM
+The correspondent ___________ wrote the story is Mira.
+The story ___________ everyone read was on the front page.
+Kalina is the town ___________ the families came back.
+Elena is the woman ___________ owns the café.
+
+@EX 10C | Grammar. Join the two sentences.
+@NUM
+Mira is a correspondent. She wrote the story. → ________________________
+This is the bridge. It reopened in April. → ________________________
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Course review. Match the unit skill to the example.
+@MATCH
+1.  the 5 Ws (U2)
+2.  reported speech (U5)
+3.  the passive (U7)
+4.  present perfect (U8)
+@@
+a)  'The bridge was rebuilt.'
+b)  'Who, what, when, where, why?'
+c)  'The crossing has reopened.'
+d)  'She said the crossing was open.'
+
+@EX 10E | Read and answer.
+@WHITE
+Mira, who has followed the story all year, wrote the front page that everyone read. It is about Kalina, the town where the families came back. Priya, who checks the facts, edited it before the team published it.
+
+@NUM
+Who wrote the front page? ___________
+Which town is the story about? ___________
+Who edited it? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can join two ideas with who, which, that, and where.
+I can describe people, things, and places.
+I can edit short sentences to make writing flow.
+I can plan and make a front page.
+
+@EX 10F | Reflect. Look back at all ten units. Which unit helped you the most? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+Mira is the correspondent which wrote the story. → ________________________
+This is the bridge who reopened. → ________________________
+Kalina is the town which the families came back. → ________________________
+The story that Mira wrote it is on the front page. → ________________________
+
+@PART 11 | Final project: your front page | Bring the whole course together. Make a complete front page.
+@FIG g-template | The template — build your front page part by part.
+@P
+**Your task. **Make a full front page for a story of your choice (real or invented). Use everything you have learned this course. Work alone or in a small team — a correspondent, a photographer, and an editor.
+
+@FIG g-frontpage-parts | Every part of the page, and what it is for.
+@H Your front page must have:
+@NUM
+a **masthead** (your outlet's name) and a strong **headline** (5–7 words) — Units 1 & 10;
+a **byline** (By…) and a **dateline** (the place you are reporting from) — Units 1 & 10;
+a **lead** sentence that gives the five Ws — Units 2 & 6;
+a short **story** that reports what happened and what has changed — Units 6, 7 & 8;
+at least one **exact quote**, with attribution ('… said' / 'according to…') — Units 4 & 5;
+a **photo box** and a **caption** — Unit 10;
+at least two **relative clauses** (who / which / that / where) — Unit 10.
+
+@FIG g-model | A model — use it, and Reading A, to check the shape of your page.
+@WHITE
+Before you publish, edit it. Check every fact, every name, and every quote. Be accurate, fair, and kind. Lead with the story that is important and true — not the one that is loud. That is the whole Code, on one page.
+
+@CRITERIA Success criteria — the whole course
+It has a masthead, a headline, a byline and a dateline.
+The lead gives the five Ws.
+It has one exact quote, with a named source.
+It uses the past, the passive, or the present perfect correctly.
+It uses at least two relative clauses.
+It is edited: every fact, name, and quote is checked.
+It is accurate, fair, and kind.
+
+@P
+**Congratulations. **You have finished English for Journalists. You started by learning the words of the newsroom; now you can plan, write, edit, and publish a front page — in English, in any country, and with a journalist's care for the truth. A free press, in plain English.
+
+@KEY Unit 10 | Check your answers. Open tasks (discussion, role-play, your own writing, and the final project) are marked at the end.
+@ANS
+W1 | 1 Mira · 2 the picture (the photograph) · 3 Kalina
+W2 | 1 T · 2 F · 3 F
+W3 | (any three) that · who · where · that
+1A | 1-c, 2-a, 3-b, 4-d, 5-f, 6-e, 7-h, 8-i, 9-g, 10-j (accept sensible matches)
+1B | 1 headline · 2 byline · 3 lead · 4 caption · 5 edit · 6 publish
+1C | 1 write the headline · 2 choose the photograph · 3 edit the story · 4 design the layout · 5 publish the page
+1D | 1 deadline · 2 shout · 3 rumour · 4 describe
+1E | 1 front page · 2 headline · 3 byline · 4 lead · 5 photograph
+1F | 1 masthead · 2 lead · 3 edit · 4 column
+2A | 1 who · 2 that/which · 3 where · 4 that/which
+2B | 1 who · 2 that/which · 3 who · 4 that/which
+2C | 1 Mira is a correspondent who wrote the story. · 2 This is the bridge that/which reopened in April. · 3 That is the town where the families came back.
+2D | 1 where · 2 who · 3 where
+3A | 1 four · 2 one · 3 who / that
+3B | who (works at Atlas Wire) · that (everyone read)
+3C | 1 The crossing that/which reopened is at Kalina. · 2 Elena owns the café, which is always full. · 3 Priya, who is the verification journalist, checks the facts.
+3D | where · who · which/that · that/which
+4B | 1 Mira · 2 Hana · 3 the busy bridge · 4 Priya
+4C | Mira → writes the lead · Hana → chooses the photograph · Priya → checks the facts · Ana → leads the conference
+4D | Lead = Mira · Photograph = Hana · Edit = Priya
+4F | 1 which · 2 Ws · 3 that · 4 words
+4G | (any two) who · which · that · where
+4H | so the number has a source and is confirmed / accurate
+4I | who · lead · photograph · which
+5B | 1 T · 2 T · 3 T · 4 F
+5C | 1 Mira Sandoval · 2 the volunteers (who live there, on both sides) · 3 the clinic
+5D | (any) 'that was quiet' · 'which reopened last April' · 'who left' · 'who owns the café' · 'where the people came home'
+5F | masthead → the paper's name at the top · headline → the big title people read first · byline → names the writer · dateline → says where the report comes from
+5G | Step 4 (edit and check)
+5H | 1 headline · 2 lead · 3 byline
+6A | 1 four · 2 the writer and the outlet (By Mira Sandoval, Atlas Wire), and the place the report comes from (KALINA)
+6C | who/what/when/where (and why); the source is 'according to the Crossing Office'
+6D | which · who · according
+6F | 'Mira, who works at Atlas Wire, wrote the story which/that is on the front page.'
+7A | (any two) 'which is short' · 'that Hana took' · 'where the families came back'
+7B | 1 (that) people read first · 2 who wrote the story · 3 where the families came back
+7C | 1 This is the photograph that/which Hana took. · 2 This is the town where the story happened. · 3 This is the quote that/which Elena said.
+7F | 'the quote, which is Elena's, is exact'
+8A | 1 (b) the important, true story · 2 (b) most important and true
+8B | 1 Y · 2 N · 3 Y · 4 N
+8C | important · true · loud · checked
+8E | 1 (b) print a correction, in public, and send it on the wire · 2 (b) more
+8F | 1 honest · 2 public · 3 correct · 4 trust
+9A | 'A crossing comes home' → the headline · 'where the bridge reopened' → a relative clause (where) · '100 families have returned' → the fact · 'according to the Crossing Office' → the source
+9B | 'where the bridge reopened'
+9C | 'The bridge where the families came back is busy again.'
+10A | 1 front page · 2 masthead · 3 headline · 4 byline · 5 lead · 6 caption · 7 edit · 8 publish
+10B | 1 who · 2 that/which · 3 where · 4 who
+10C | 1 Mira is a correspondent who wrote the story. · 2 This is the bridge that/which reopened in April.
+10D | the 5 Ws → 'Who, what, when, where, why?' · reported speech → 'She said the crossing was open.' · the passive → 'The bridge was rebuilt.' · present perfect → 'The crossing has reopened.'
+10E | 1 Mira · 2 Kalina · 3 Priya
+10G | 1 Mira is the correspondent who wrote the story. · 2 This is the bridge that/which reopened. · 3 Kalina is the town where the families came back. · 4 The story that Mira wrote is on the front page.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F, and the Final Project — your own answers (discussion, role-play, writing, and your front page).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Elena Marku, Dren, Sofia Mendes, Kalina, the river Vara and the front-page story are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 10 (v6 standard) · the capstone. | CEFR A2 → lower B1 · Beat: Capstone · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.  A free press, in plain English.

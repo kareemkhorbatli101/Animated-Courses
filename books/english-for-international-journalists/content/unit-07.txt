@@ -1,0 +1,735 @@
+@UNITHEAD UNIT 7 | What Was Done: The Passive | Beat · Report | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+say what was done (past passive: was/were + done)
+say what is done (present passive: is/are + done)
+choose between active and passive
+write a short report using the passive
+
+@FIG g-team | The Atlas Wire team — Mira reports on the work at the crossing.
+@STORY The story so far. | The families are back and the story of the seven years is told. Now Mira reports on the work itself: what was done to the bridge at Kalina, and who did it. In a report, the passive puts the result first — 'the bridge was rebuilt'.
+
+@WARMUP What was done here? | A short report to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team plans a report on the rebuilding.
+@WARMBOX
+A lot of work was done at Kalina this year. The bridge was rebuilt, and the road was repaired. The rail was painted, and the old gate was replaced. New lamps were fitted along the river. Most of the work was done by local volunteers, with help from two councils. "Every week, something new is finished," one worker said. "The crossing is being brought back to life."
+
+@EX W1 | Answer the questions.
+@NUM
+What was done to the bridge? ___________
+What was done to the old gate? ___________
+Who did most of the work? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+The bridge was closed again. ______
+New lamps were fitted. ______
+The work was done by volunteers. ______
+
+@EX W3 | Find three passive verbs in the text (e.g. was done). Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What was built or repaired in your city recently? Say two things.
+Who does this kind of work — the city, or volunteers?
+
+@PART 1 | The words of the project | The words for reporting a project. Learn these first.
+@FIG u7-words | Four key words — project, repair, volunteer, result.
+@H The words
+@VOCAB
+project | a big piece of work
+result | what happens at the end
+complete | finished
+repair | to fix something broken
+rebuild | to build again
+replace | to put a new one in place of an old one
+paint | to put colour on
+fit | to put a thing in place
+fix | to repair
+build | to make a building or a road
+damage | harm to a thing
+restore | to make like before
+volunteer | a person who helps for free
+finish | to end / complete
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  project
+2.  repair
+3.  volunteer
+4.  result
+5.  restore
+6.  rebuild
+7.  damage
+8.  complete
+9.  replace
+10.  fit
+@@
+a)  to fix something broken
+b)  a person who helps for free
+c)  a big piece of work
+d)  what happens at the end
+e)  to build again
+f)  harm to a thing
+g)  to make like before
+h)  finished
+i)  to put a new one in place of an old one
+j)  to put a thing in place
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | project · repaired · volunteers · complete · fitted · rebuilt
+@NUM
+The rebuilding was a big ___________ .
+The old road was ___________ .
+Most of the work was done by ___________ .
+Now the project is nearly ___________ .
+New lamps were ___________ along the river.
+The bridge was ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  a big
+2.  local
+3.  the
+4.  rebuild
+5.  paint
+@@
+a)  project
+b)  volunteers
+c)  result
+d)  the bridge
+e)  the rail
+
+@EX 1D | Circle the word that is different.
+@NUM
+repair · fix · restore · break
+project · work · result · deadline
+volunteer · helper · worker · microphone
+fitted · painted · repaired · yesterday
+
+@FIG g-pageflow | A report on a project tells readers what was done, and the result.
+@EX 1E | Complete the paragraph. Use: project · rebuilt · repaired · volunteers · complete.
+@WHITE
+The rebuilding of the crossing was a big ___________ . The bridge was ___________ , and the road was ___________ . Most of the work was done by ___________ . Now the project is nearly ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+a big piece of work → ___________
+to make like before → ___________
+a person who helps for free → ___________
+what happens at the end → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What is one thing that was repaired or built near you?
+Have you ever been a volunteer? What did you do?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write two sentences about a project in your town. Say what was done.
+
+@PART 2 | Grammar: the passive | Was/were + done for the past, is/are + done for now.
+@FIG u7-gA | Active → passive: the result comes first.
+@GRAMMAR 1 · Past passive — what was done
+Form: {{was / were}} + past participle.
+The bridge {{was rebuilt}}.  The road {{was repaired}}.  New lamps {{were fitted}}.
+We use it to say what was done, when the result matters more than who did it.
+
+@GRAMMAR 2 · Active and passive
+Active: Workers {{rebuilt}} the bridge.  (who + did + what)
+Passive: The bridge {{was rebuilt}} ({{by}} workers).  (what + was done)
+Add {{by}}… only if the doer matters. Often, we do not need it.
+
+@FIG u7-gB | Present passive — for what is done again and again.
+@GRAMMAR 3 · Present passive — what is done
+Form: {{is / are}} + past participle.
+The wire {{is filed}} every hour.  The stalls {{are cleaned}} each morning.
+We use it for things that happen again and again.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Write the past participle.
+@NUM
+rebuild → ___________
+repair → ___________
+paint → ___________
+replace → ___________
+do → ___________
+write → ___________
+
+@EX 2B | Complete with the past passive (was / were + done).
+@NUM
+The bridge ___________ (rebuild).
+The road ___________ (repair).
+New lamps ___________ (fit).
+The work ___________ (do) by volunteers.
+
+@EX 2C | Change from active to passive.
+@NUM
+Workers rebuilt the bridge. → The bridge ___________ .
+Volunteers painted the rail. → The rail ___________ .
+The council repaired the road. → The road ___________ .
+
+@EX 2D | Complete with the present passive (is / are + done).
+@NUM
+The wire ___________ (file) every hour.
+The stalls ___________ (clean) each morning.
+The news ___________ (report) by Atlas Wire.
+
+@H Your own words
+@EX 2E | Write two things that were done in your school or street. Use the past passive.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write one thing that is done in your city every day. Use the present passive.
+@NUM
+________________________
+
+@PART 3 | Reporting the work | A report often uses the passive: the result comes first.
+@FIG u7-skill | A report answers: what was done, who by, and with what result?
+@LABEL MODEL | A model paragraph
+@WARMBOX
+A lot of work was done at Kalina this year. The bridge was rebuilt, and the road was repaired. The rail was painted, and new lamps were fitted. Most of the work was done by local volunteers. Every week, something new is finished.
+
+@LABEL NOTICE | Notice the passive
+@EX 3A | Answer about the model.
+@NUM
+What was done to the bridge? ___________
+What was done to the rail? ___________
+Who was the work done by? ___________
+
+@EX 3B | Find three past-passive verbs in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Turn it around
+@FIG g-fivew | A report still answers the five Ws — and adds 'who by?'.
+@EX 3C | Change to the passive (put the result first).
+@NUM
+Workers rebuilt the school. → ________________________
+Volunteers cleaned the market. → ________________________
+The council fitted new lamps. → ________________________
+
+@EX 3D | Complete the report. Use: were · was · are · by.
+@WHITE
+Last month, the school ______ reopened. The classrooms ______ painted ______ volunteers. Now the rooms ______ cleaned every morning.
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Choose a project (real or invented). Write four sentences about what was done. Use the past passive.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Why does a report often use the passive? Give one example.
+@EX 3G | When is it important to say who did the work ('by…')? When is it not?
+
+@PART 4 | Listening: the project | Two audios. Listen for what was done.
+@FIG g-newsroom | In the newsroom — the team hears about the project.
+@SUBHEAD Listening A | · a report on the project
+@LABEL MODEL | Audio 7.1 — the Crossing Office reports
+@DIALOGUE
+Spokesperson | Good morning. I can tell you what was done at the crossing this year.
+Spokesperson | The bridge was rebuilt, and the road was repaired in April.
+Spokesperson | The rail was painted, and new lamps were fitted along the river.
+Mira | Who was the work done by?
+Spokesperson | Most of it was done by local volunteers, with help from two councils.
+Mira | And is anything still being done?
+Spokesperson | Yes. The school is being painted this week, and the riverside path is being cleaned.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what kind of work do you think was done? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What was done to the bridge? ___________
+When was the road repaired? ___________
+Who was most of the work done by? ___________
+What is being done this week? ___________
+
+@EX 4C | True or false? Write T or F.
+@NUM
+The road was repaired in April. ______
+The work was done by volunteers. ______
+Nothing is being done now. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Bridge: ___________
+Road: ___________
+Done by: ___________
+
+@FIG g-studio | Audio 7.2 — Mira reports to the editor what was done.
+@SUBHEAD Listening B | · reporting it back
+@LABEL MODEL | Audio 7.2 — Mira and Daniel
+@DIALOGUE
+Daniel | What did the office say was done?
+Mira | The bridge was rebuilt, and the road was repaired in April.
+Daniel | Good. Who was it done by?
+Mira | It was done by local volunteers, with help from two councils.
+Daniel | And now?
+Mira | The school is being painted, and the riverside path is being cleaned.
+Daniel | Perfect. Put the volunteers in the story — they should be named.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Daniel want to know? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The bridge ___________ rebuilt.
+The road ___________ repaired in April.
+The work was done ___________ volunteers.
+The school ___________ being painted now.
+
+@EX 4G | Which passive forms do you hear? Write two (was/were + done).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Daniel want to name the volunteers?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: rebuilt · repaired · volunteers · painted.
+@WHITE
+This year, the bridge was ______ and the road was ______ . Most of the work was done by local ______ . Now the school is being ______ .
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. When a reporter uses the passive, what important information can be lost? Why does Daniel ask 'who by?'
+
+@PART 5 | Reading: the report | Two readings. Read for what was done, and by whom.
+@FIG u7-read | The work on the bridge — and the people who did it.
+@SUBHEAD Reading A | · a report on the rebuilding
+@READING A crossing rebuilt: the work at Kalina
+A great deal of work was done at the Kalina crossing this year. According to the Crossing Office, the bridge was rebuilt and the road was repaired last April.
+The rail was painted, and the old gate was replaced. New lamps were fitted along the river, and the riverside path was cleared after seven years. Most of this work was done by local volunteers, with help from the councils on both sides.
+"Every week, something new is finished," said one volunteer, who worked on the bridge. "The gate was the hardest job. It was rusted shut for years, but now it opens every morning. Children walk through it on their way to school."
+Some work is still being done. This week, the school is being painted, and the riverside path is being cleaned. "The project is not complete," the office said, "but most of it is finished, and the crossing looks like a crossing again."
+The office asked to thank the volunteers by name. "The bridge was rebuilt by our neighbours — from both sides of the river," one worker said. "This was done by us, together. That is why it means so much."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What is the report about? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The bridge was rebuilt. ______
+The gate was easy to replace. ______
+The school is being painted this week. ______
+The project is completely finished. ______
+
+@EX 5C | Answer the questions.
+@NUM
+What was done to the old gate? ___________
+Who was most of the work done by? ___________
+What is being done this week? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+a person who helps for free → ___________
+to fix something broken → ___________
+finished → ___________
+
+@FIG g-model | A report reaches readers who want to know what was done — and by whom.
+@SUBHEAD Reading B | · active or passive? — four tips
+@READING Four tips for the passive
+**1. Use the passive for the result.** When the work matters more than the worker: 'The bridge was rebuilt.'
+**2. Use 'by…' when the doer matters.** 'The bridge was rebuilt by local volunteers.' Name people who should get credit.
+**3. Do not hide who did it.** 'Mistakes were made' hides the person. If readers should know who, say who.
+**4. Keep it clear.** The active voice is often shorter and clearer. Use the passive when it helps — not everywhere.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: when is the passive a good choice? Guess.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  Use the passive for the result
+2.  Use 'by…' when the doer matters
+3.  Do not hide who did it
+4.  Keep it clear
+@@
+a)  'Mistakes were made' hides the person
+b)  'The bridge was rebuilt.'
+c)  The active is often shorter
+d)  '…rebuilt by local volunteers.'
+
+@EX 5G | Which tip is about credit for the work? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+a big piece of work → ___________
+to put a new one in place of an old one → ___________
+finished → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which part of the report did you like best? Why?
+@EX 5J | Which of the four tips is the most important? Say why.
+
+@PART 6 | Writing: a report | Two short pieces: a list of what was done, and a short report.
+@FIG g-notes | Notes: what was done, item by item.
+@SUBHEAD Writing 1 | · a 'what was done' list
+@LABEL MODEL | A model
+@WARMBOX
+Bridge: was rebuilt (by volunteers)
+Road: was repaired in April
+Gate: was replaced
+Lamps: were fitted along the river
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which tense are the notes in? ___________
+Which item names who did the work? ___________
+
+@LABEL PRODUCE | Write your notes
+@EX 6B | Choose a project. Write four 'what was done' notes. Use the past passive.
+@WHITE
+1: ___________
+2: ___________
+3: ___________
+4: ___________
+
+@FIG g-fivew | A short report uses the passive and names the people who deserve credit.
+@SUBHEAD Writing 2 | · a short report
+@LABEL MODEL | A model
+@WARMBOX
+This year, the bridge at Kalina was rebuilt and the road was repaired. Most of the work was done by local volunteers. "The bridge was rebuilt by our neighbours," one worker said.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which verbs are passive? Where does the report name who did the work?
+@NUM
+___________
+
+@LABEL PRACTISE | Complete a report
+@EX 6D | Complete the report. Use: was · were · by.
+@WHITE
+The school ______ reopened last month. The classrooms ______ painted ______ volunteers, and new books were given to every child.
+
+@LABEL PRODUCE | Write your report
+@EX 6E | Write a short report (3–4 sentences) about a project. Use the passive, and name who did the work.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | Change this to the passive (put the result first).
+@WHITE
+"Volunteers rebuilt the bridge. Workers repaired the road."
+
+@P
+________________________
+
+@PART 7 | Speaking: about the work | Ask and answer about a project. Use the passive.
+@FIG g-interview | Ask about a project: what was done, and who by.
+@SUBHEAD A model dialogue | · asking about the project
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | Could you tell me what was done here?
+Guest | Yes. The bridge was rebuilt, and the gate was replaced.
+Mira | Who was the work done by?
+Guest | It was done by local volunteers, from both sides of the river.
+Mira | And is anything still being done?
+Guest | Yes, the school is being painted this week.
+Mira | Thank you very much.
+
+@LABEL NOTICE | Notice the questions
+@EX 7A | Find the two passive questions. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Make a passive question for each answer.
+@NUM
+___________ ? — The bridge was rebuilt.
+___________ ? — By local volunteers.
+___________ ? — The gate was replaced.
+___________ ? — The school is being painted.
+
+@FIG g-introduce | Introduce yourself, then ask what was done.
+@EX 7C | Change the question to the passive.
+@NUM
+Who rebuilt the bridge? → What ___________ done to the bridge?
+Who cleaned the path? → How ___________ the path cleaned?
+Who repaired the road? → When ___________ the road repaired?
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Ask about the project: 'What was done?' and 'Who was it done by?'
+Worker / volunteer | Answer with the passive. Name who did the work.
+Observer | Listen. Did the reporter ask who the work was done by?
+
+@EX 7D | Choose a role from the table. Ask your questions to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a report on a project: a reporter, a worker, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · reporting the work
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | I visited the school today. A lot was done there.
+Priya | What was done?
+Mira | The classrooms were painted, and new books were given to the children.
+Priya | Who was it done by?
+Mira | It was done by volunteers, and the councils paid for the books.
+Priya | Good. Name the volunteers in the story.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the passive sentence Mira uses about the classrooms.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use the past passive (was/were + done)?
+ask who the work was done by?
+name the people who did the work?
+keep my report clear?
+
+@EX 7G | Role-play reporting a project to a colleague. Then swap roles.
+
+@PART 8 | Ethics: who did it? | The passive can hide the doer. A fair report says who — when it matters.
+@FIG u7-ethA | 'Mistakes were made' hides the person. If readers should know who, say who.
+@SUBHEAD A first case | · hiding the doer
+@CASE A part of the new river wall fell down a month after it was built. The building company sends Mira a line for the story: "A mistake was made, and the wall will be repaired." But the passive hides who made the mistake. Readers — and the families who live beside the wall — have a right to know which company built it. Mira can file the company's soft line, or she can find out who did the work and name them. The Code says: be accountable — do not use the passive to hide who is responsible. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) file 'a mistake was made'  (b) find out who built the wall and name them.   Choice: ______  Because ________________________
+'A mistake was made' (no name) tells readers (a) who is responsible  (b) nothing about who.   Choice: ______
+
+@EX 8B | Does it name who? Write Y (yes) or N (no).
+@NUM
+"The wall was built by the Vara Company." ______
+"A mistake was made." ______
+"The office says the company will repair it." ______
+"The wall fell down." ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: hide · who · responsible · name.
+@WHITE
+Do not use the passive to ______ the doer. When readers should know ______ is ______ , ______ them.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is 'mistakes were made' a problem in the news? Who does it protect?
+@SUBHEAD A second case | · who gets the credit
+@FIG u7-ethB | Give credit fairly — to the people who did the work, not only the officials.
+@CASE The bridge was rebuilt mostly by local volunteers, who worked for four months. But an official asks Mira to write only that "the bridge was rebuilt by the councils." The councils helped and paid for materials, but the volunteers did most of the work. If Mira writes only 'by the councils', the volunteers get no credit — and the story goes out in six languages. The Code says: be fair and accurate — give credit to the people who really did the work. What does Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) write only 'by the councils'  (b) name the volunteers and the councils.   Choice: ______  Because ________________________
+Giving credit only to officials, not the workers, is (a) fair  (b) unfair.   Choice: ______
+
+@EX 8F | Complete with: credit · fair · workers · true.
+@NUM
+Give ___________ to the people who did the work.
+A report must be ___________ .
+Do not forget the ___________ .
+Write what is ___________ , not only what an official wants.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why does it matter who gets the credit in a story?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences for Mira's report that give fair credit for the rebuilding. Use the passive.
+
+@PART 9 | Digital: the results post | Online, a 'what was done' post shares the results fast.
+@FIG g-phonealert | A results post — what was done, in a line.
+@LABEL MODEL | A model post
+@WARMBOX
+DONE · The bridge was rebuilt, the road was repaired, and the old gate was replaced at Kalina — by local volunteers. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to what it shows.
+@MATCH
+1.  The bridge was rebuilt
+2.  the road was repaired
+3.  by local volunteers
+4.  @AtlasWire
+@@
+a)  the doer (credit)
+b)  what was done (1)
+c)  what was done (2)
+d)  the outlet
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one past-passive verb in the post. Write it.
+@NUM
+______
+
+@EX 9C | This post hides who did the work. Add the doer with 'by…'.
+@WHITE
+"The bridge was rebuilt. The road was repaired."
+
+@P
+________________________
+
+@FIG g-website | The post links to the full report on the website.
+@EX 9D | Write a results post. Say what was done, and by whom.
+@WHITE
+DONE · ___________ (what was done) — by ___________ (who). — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line results post about a project in your city. Use the passive.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for your results story. Use the passive.
+@EX 9G | A reader asks: 'Who did the work?' Write a short reply that names the doer.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. A short post often drops the 'by…'. When is that a problem?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 8.
+@FIG u7-sum | Unit 7 — saying what was done, with the passive.
+@EX 10A | Vocabulary. Complete with: project · repaired · volunteers · complete · rebuilt · fitted · result · restored.
+@NUM
+The rebuilding was a big ___________ .
+The old road was ___________ .
+Most of the work was done by ___________ .
+Now the project is nearly ___________ .
+The bridge was ___________ .
+New lamps were ___________ .
+The old gate was ___________ to its first colour.
+A busy crossing is the ___________ .
+
+@EX 10B | Grammar. Write the past passive (was/were + done).
+@NUM
+the bridge / rebuild → ___________
+the road / repair → ___________
+the lamps / fit → ___________
+the work / do → ___________
+
+@EX 10C | Grammar. Change from active to passive.
+@NUM
+Volunteers painted the rail. → ________________________
+The council repaired the road. → ________________________
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Present passive. Complete with is / are.
+@NUM
+The wire ______ filed every hour.
+The stalls ______ cleaned each morning.
+The news ______ reported by Atlas Wire.
+
+@EX 10E | Read and answer.
+@WHITE
+This year, the bridge was rebuilt and the road was repaired. The old gate was replaced by local volunteers. Now the school is being painted, and new books are given to every child.
+
+@NUM
+What was done to the bridge? ___________
+Who replaced the gate? ___________
+What is being done to the school now? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can say what was done (past passive).
+I can say what is done (present passive).
+I can change active to passive.
+I can write a short report using the passive.
+
+@EX 10F | Reflect. Which part of Unit 7 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence in the passive.
+@NUM
+Workers rebuilt the bridge. → ________________________
+Volunteers cleaned the path. → ________________________
+The council repairs the roads. → ________________________
+Atlas Wire reports the news. → ________________________
+
+@PART 11 | Assignment: a project report | Put the unit together: report what was done on a project.
+@FIG g-template | The assignment template — your project report.
+@P
+**Your task. **Choose a project (real or invented). Write a short report (5–6 sentences). Say what was done (past passive), say what is done now (present passive) if it helps, and name who did the work with 'by…' where the doer should get credit. End with one exact quote. Be accurate, and do not use the passive to hide who is responsible.
+
+@FIG g-model | A model — use it to check the shape of your report.
+@WHITE
+Remember: past passive for what was done; present passive for what is done; add 'by…' for credit; do not hide the doer; end with an exact quote.
+
+@CRITERIA Success criteria
+I use the past passive for what was done.
+I use 'by…' to give credit where it matters.
+I do not hide who is responsible.
+I end with one exact quote.
+It is accurate and easy to read.
+
+@P
+**Keep this. **In Unit 8, you learn the present perfect — to say what has happened and what has changed ('the crossing has reopened', 'the valley has changed').
+
+@KEY Unit 7 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 it was rebuilt · 2 it was replaced · 3 (by) local volunteers, with help from two councils
+W2 | 1 F · 2 T · 3 T
+W3 | (any three) was done · was rebuilt · was repaired · was painted · was replaced · were fitted
+1A | 1-c, 2-a, 3-b, 4-d, 5-g, 6-e, 7-f, 8-h, 9-i, 10-j (accept sensible matches)
+1B | 1 project · 2 repaired · 3 volunteers · 4 complete · 5 fitted · 6 rebuilt
+1C | 1 a big project · 2 local volunteers · 3 the result · 4 rebuild the bridge · 5 paint the rail
+1D | 1 break · 2 deadline · 3 microphone · 4 yesterday
+1E | 1 project · 2 rebuilt · 3 repaired · 4 volunteers · 5 complete
+1F | 1 project · 2 restore · 3 volunteer · 4 result
+2A | 1 rebuilt · 2 repaired · 3 painted · 4 replaced · 5 done · 6 written
+2B | 1 was rebuilt · 2 was repaired · 3 were fitted · 4 was done
+2C | 1 was rebuilt · 2 was painted · 3 was repaired
+2D | 1 is filed · 2 are cleaned · 3 is reported
+3A | 1 it was rebuilt · 2 it was painted · 3 (by) local volunteers
+3B | (any three) was done · was rebuilt · was repaired · was painted · were fitted
+3C | 1 The school was rebuilt (by workers). · 2 The market was cleaned (by volunteers). · 3 New lamps were fitted (by the council).
+3D | was · were, by · are
+4B | 1 it was rebuilt · 2 in April · 3 (by) local volunteers (and two councils) · 4 the school is being painted (and the path cleaned)
+4C | 1 T · 2 T · 3 F
+4D | Bridge = rebuilt · Road = repaired in April · Done by = local volunteers (+ two councils)
+4F | 1 was · 2 was · 3 by · 4 is
+4G | (any two) was rebuilt · was repaired · were fitted · is being painted
+4H | because the volunteers did the work and should get credit
+4I | rebuilt · repaired · volunteers · painted
+5B | 1 T · 2 F · 3 T · 4 F
+5C | 1 it was replaced · 2 (by) local volunteers, with help from the councils · 3 the school is being painted / the path cleaned
+5D | 1 volunteer · 2 repair · 3 complete
+5F | result → 'The bridge was rebuilt.' · 'by…' → '…rebuilt by local volunteers.' · do not hide → 'Mistakes were made' hides the person · keep it clear → the active is often shorter
+5G | Tip 2
+5H | 1 project · 2 replace · 3 complete
+6A | 1 past passive · 2 the bridge (by volunteers)
+6C | passive: was rebuilt, was repaired, was done; it names the doer with 'by local volunteers' / 'by our neighbours'
+6D | was · were · by
+6F | The bridge was rebuilt (by volunteers). The road was repaired (by workers).
+7A | '…what was done here?' · 'Who was the work done by?'
+7B | (example) 1 What was done? · 2 Who was it done by? · 3 What was replaced? · 4 What is being painted?
+7C | 1 was · 2 was · 3 was
+7F | 'The classrooms were painted (by volunteers).'
+8A | 1 (b) find out who built the wall and name them · 2 (b) nothing about who
+8B | 1 Y · 2 N · 3 Y · 4 N
+8C | hide · who · responsible · name
+8E | 1 (b) name the volunteers and the councils · 2 (b) unfair
+8F | 1 credit · 2 fair · 3 workers · 4 true
+9A | 'The bridge was rebuilt' → what was done (1) · 'the road was repaired' → what was done (2) · 'by local volunteers' → the doer (credit) · @AtlasWire → the outlet
+9B | (any) was rebuilt · was repaired · was replaced
+9C | (example) 'The bridge was rebuilt by local volunteers. The road was repaired by workers.'
+10A | 1 project · 2 repaired · 3 volunteers · 4 complete · 5 rebuilt · 6 fitted · 7 restored · 8 result
+10B | 1 was rebuilt · 2 was repaired · 3 were fitted · 4 was done
+10C | 1 The rail was painted (by volunteers). · 2 The road was repaired (by the council).
+10D | 1 is · 2 are · 3 is
+10E | 1 it was rebuilt · 2 (by) local volunteers · 3 it is being painted
+10G | 1 The bridge was rebuilt (by workers). · 2 The path was cleaned (by volunteers). · 3 The roads are repaired (by the council). · 4 The news is reported by Atlas Wire.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, the volunteers, the Vara Company, Kalina and the project are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 7 (v6 standard). | CEFR A2 → lower B1 · Beat: Report · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.

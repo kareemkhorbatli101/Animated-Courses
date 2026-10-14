@@ -1,0 +1,732 @@
+@UNITHEAD UNIT 9 | What You Should Do: Advice and Rules | Beat · Verify & ethics | CEFR A2 → lower B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+give advice with should
+talk about rules with must and have to
+say what will happen if… (first conditional)
+write advice for a new correspondent
+
+@FIG g-team | The Atlas Wire team — they welcome a new trainee, Sofia.
+@STORY The story so far. | A new trainee correspondent, Sofia Mendes, has started at Atlas Wire, and her first assignment is Kalina. The team gives her advice and rules: what she should do, what she must do, and what will happen if she checks her facts — or if she does not. (Sofia is invented, for practice.)
+
+@WARMUP What should I do? | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team gives the new trainee some advice.
+@WARMBOX
+It is Sofia's first day at Atlas Wire. "Welcome," says Mira. "I will give you some advice. You should check every fact before you file it. You shouldn't guess. And there are rules: you must protect your source, and you have to meet the deadline." Sofia asks, "What will happen if I make a mistake?" Mira smiles. "If you check your work, you will not make many. And if you do make a mistake, you must say sorry and correct it. That is the rule."
+
+@EX W1 | Answer the questions.
+@NUM
+What advice does Mira give about facts? ___________
+What must Sofia protect? ___________
+What must Sofia do if she makes a mistake? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Sofia should guess. ______
+Sofia must protect her source. ______
+Sofia has to meet the deadline. ______
+
+@EX W3 | Find one sentence with should, one with must, and one with if. Write the first word of each.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What advice would you give a new colleague on their first day?
+What is one rule at your school or work? Why is it important?
+
+@PART 1 | The words of advice | The words for advice and rules. Learn these first.
+@FIG u9-words | Four key words — advice, rule, protect, fixer.
+@H The words
+@VOCAB
+advice | what you tell someone to do
+rule | what you must do
+mistake | a wrong thing
+careful | giving attention; not making mistakes
+protect | to keep safe
+safe | not in danger
+honest | telling the truth
+fair | treating everyone the same
+trust | to believe someone
+responsible | you must answer for it
+warn | to tell of a danger
+accreditation | official permission to work as a journalist at an event
+credit | to name the person who did the work
+tip | a small piece of advice
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  advice
+2.  rule
+3.  mistake
+4.  careful
+5.  protect
+6.  honest
+7.  fair
+8.  warn
+9.  responsible
+10.  credit
+@@
+a)  what you must do
+b)  a wrong thing
+c)  what you tell someone to do
+d)  to keep safe
+e)  giving attention
+f)  treating everyone the same
+g)  telling the truth
+h)  to tell of a danger
+i)  you must answer for it
+j)  to name the person who did the work
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | advice · rule · mistake · careful · protect · honest
+@NUM
+Mira gives Sofia good ___________ .
+There is a ___________ : always check the facts.
+If you rush, you may make a ___________ .
+A good reporter is ___________ with every word.
+A journalist must ___________ a source.
+You must be ___________ — tell the truth.
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  give
+2.  break
+3.  make a
+4.  protect a
+5.  be
+@@
+a)  advice
+b)  a rule
+c)  mistake
+d)  source
+e)  honest
+
+@EX 1D | Circle the word that is different.
+@NUM
+advice · tip · rule · deadline
+careful · honest · fair · loud
+protect · keep safe · warn · shout
+responsible · trusted · fair · rumour
+
+@FIG g-pageflow | Good advice makes a stronger story on the page.
+@EX 1E | Complete the paragraph. Use: advice · rules · check · careful · honest.
+@WHITE
+On her first day, Sofia gets good ___________ . There are ___________ : she must ___________ every fact, and she must be ___________ with every word. Above all, she must be ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+what you must do → ___________
+to keep safe → ___________
+telling the truth → ___________
+official permission to work as a journalist at an event → ___________
+
+@LABEL PRODUCE | Over to you
+@EX 1G | Answer about you. Write full sentences.
+@NUM
+What is one rule you always follow? Why?
+Who gives you good advice? What do they say?
+
+@LABEL PRODUCE | Talk about it
+@EX 1H | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1I | Creative. Write two pieces of advice for a new colleague. Use 'You should…'.
+
+@PART 2 | Grammar: advice and rules | Should for advice, must and have to for rules.
+@FIG u9-gA | should / shouldn't — for advice.
+@GRAMMAR 1 · should — advice
+{{You should}} + verb: {{You should}} check every fact.
+{{You shouldn't}} + verb: {{You shouldn't}} guess.
+We use *should* to give advice — a good idea, not a strong rule.
+
+@GRAMMAR 2 · must / have to — rules
+{{must}} = a strong rule: You {{must}} protect your source.
+{{have to}} = it is necessary: You {{have to}} meet the deadline.
+[[must not]] = it is forbidden: You {{must not}} file a rumour.
+
+@FIG u9-gB | must = a strong rule · have to = it is necessary.
+@GRAMMAR 3 · Which one?
+Advice (a good idea): You {{should}} ask a follow-up question.
+A rule (you have no choice): You {{must}} name your source.
+Not necessary: You {{don't have to}} file it today, but you can.
+
+@LABEL PRACTISE | Structured practice
+@EX 2A | Give advice. Complete with should or shouldn't.
+@NUM
+You ___________ check the facts.
+You ___________ guess a number.
+You ___________ listen to the answer.
+You ___________ file a rumour.
+
+@EX 2B | Complete with must or have to.
+@NUM
+You ___________ protect your source. (a strong rule)
+You ___________ meet the deadline. (it is necessary)
+You ___________ not file a rumour.
+
+@EX 2C | Advice or rule? Write S (should) or M (must).
+@NUM
+Name your source. ______
+Ask a follow-up question. ______
+Check every fact. ______
+Get to the briefing early. ______
+
+@EX 2D | Rewrite as advice with should.
+@NUM
+Check the facts. → You ___________ .
+Be honest. → You ___________ .
+Listen to the source. → You ___________ .
+
+@H Your own words
+@EX 2E | Write two rules for your school or work. Use must or have to.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two pieces of advice for a new correspondent. Use should.
+@NUM
+________________________
+________________________
+
+@PART 3 | If… will… (what happens next) | The first conditional: if you do this, that will happen.
+@FIG u9-skill | What a correspondent checks before they go.
+@LABEL MODEL | A model
+@WARMBOX
+"If you check the facts, your story will be strong. If you rush, you will make mistakes. If you protect your source, people will talk to you. And if you credit your local colleague, they will work with you again."
+
+@LABEL NOTICE | Notice the pattern
+@EX 3A | Answer about the model.
+@NUM
+What will happen if you check the facts? ___________
+What will happen if you rush? ___________
+What will happen if you credit your local colleague? ___________
+
+@EX 3B | In the model, which part has the present simple, and which has 'will'? Write one example of each.
+@NUM
+________________________
+
+@LABEL PRACTISE | Make the sentence
+@FIG g-fivew | If you do the right thing, a good result will follow.
+@EX 3C | Join the two halves with if.
+@NUM
+you check the facts / your story will be strong → ________________________
+you guess / you will make a mistake → ________________________
+you protect your source / people will trust you → ________________________
+
+@EX 3D | Complete the first conditional. Use: check · will · rush · trust.
+@WHITE
+If you ______ the facts, your story ______ be strong. If you ______ , you will make mistakes. If you are honest, people will ______ you.
+
+@LABEL PRODUCE | Your turn
+@EX 3E | Write four first-conditional sentences of advice for a new correspondent. Use If… will… .
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3F | Talk with a partner. Which piece of advice is the most important? Why?
+@EX 3G | Why is 'If you rush, you will make mistakes' good advice for a journalist?
+
+@PART 4 | Listening: first-week advice | Two audios. Listen for the advice and the rules.
+@FIG g-newsroom | In the newsroom — Mira gives Sofia her first-week advice.
+@SUBHEAD Listening A | · advice on the first day
+@LABEL MODEL | Audio 9.1 — Mira and Sofia
+@DIALOGUE
+Mira | Welcome, Sofia. Let me give you some advice.
+Mira | You should check every fact, and you shouldn't guess.
+Sofia | And the rules?
+Mira | You must protect your source, and you have to meet the deadline.
+Sofia | What will happen if I make a mistake?
+Mira | If you check your work, you will not make many. And if you do, you must correct it.
+Sofia | Thank you. I will be careful.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what advice do you think Mira will give? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What should Sofia do with every fact? ___________
+What must she protect? ___________
+What does she have to meet? ___________
+What must she do if she makes a mistake? ___________
+
+@EX 4C | Advice or rule? Write S (should) or M (must).
+@NUM
+Check every fact. ______
+Protect your source. ______
+Meet the deadline. ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Advice (should): ___________
+Rule (must): ___________
+If you make a mistake: ___________
+
+@FIG g-studio | Audio 9.2 — the editor warns about what will happen if…
+@SUBHEAD Listening B | · a warning
+@LABEL MODEL | Audio 9.2 — Daniel and Sofia
+@DIALOGUE
+Daniel | Sofia, one more thing. If you file a rumour, you will lose the reader's trust.
+Sofia | So I have to check everything?
+Daniel | Yes. If you check, your work will be strong.
+Sofia | And if I am not sure?
+Daniel | If you are not sure, you should ask, or leave it out. Do not guess.
+Sofia | I understand. I will always check first.
+Daniel | Good. Then you will be a fine correspondent.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what will Daniel warn Sofia about? Guess.
+@NUM
+______
+
+@EX 4F | Complete the first-conditional sentences.
+@NUM
+If you file a rumour, you ___________ the reader's trust.
+If you check, your work ___________ strong.
+If you are not sure, you ___________ ask.
+If you always check, you ___________ a fine correspondent.
+
+@EX 4G | Which modal verbs do you hear? Write two (should / must / have to).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Daniel warn Sofia about rumours?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: should · must · check · trust.
+@WHITE
+Mira and Daniel give Sofia advice. She ______ check every fact, and she ______ protect her source. If she ______ everything, readers will ______ her.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why is 'if you are not sure, ask or leave it out' good advice for any job?
+
+@PART 5 | Reading: the rules | Two readings. Read for the advice and the rules.
+@FIG g-reach | Advice for a new correspondent — what to do, and what will follow.
+@SUBHEAD Reading A | · advice for a new correspondent
+@READING Ten minutes of advice: a note for a new correspondent
+On Sofia's first day at Atlas Wire, Mira gave her a short note of advice. "I have been a correspondent for many years," she wrote, "and this is what I have learned."
+"First, you should check every fact. If you check, your story will be strong. If you rush and guess, you will make mistakes, and readers will not trust you. So take your time — it is better to be right than to be first."
+"Second, there are rules you must follow. You must protect your source. You have to be honest, and you must not file a rumour as a fact. If you break these rules, you will lose the one thing a journalist really has: trust."
+"Third, when you work in a country that is not your own, you should listen before you write. Learn how the place works. Get your accreditation early. And remember that the local journalist beside you knows more than you do — you should ask them, and you must credit them."
+"And last: if you make a mistake, you must say sorry and correct it. Everyone makes mistakes. A good reporter is not the one who never fails, but the one who always tells the truth about it."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. Who is the note for? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+A correspondent should check every fact. ______
+It is fine to file a rumour as a fact. ______
+A visiting reporter should listen before they write. ______
+If you make a mistake, you should hide it. ______
+
+@EX 5C | Answer the questions.
+@NUM
+What will happen if you check the facts? ___________
+What must a correspondent protect? ___________
+What must you do if you make a mistake? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+to keep safe → ___________
+to name the person who did the work → ___________
+official permission to work as a journalist → ___________
+
+@FIG u9-read | Four rules that hold in every newsroom, in every country.
+@SUBHEAD Reading B | · four things you must do
+@READING The rules of the newsroom
+**1. You must check every fact.** If you are not sure, ask, or leave it out. Do not guess.
+**2. You must protect your source.** If a source is not safe, you must keep their name out of the story.
+**3. You have to be fair.** Give both sides. If you only give one side, the story is not fair.
+**4. You should fix your mistakes.** If you make a mistake, say sorry and correct it. Readers will trust you more, not less.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which is a strong rule — should or must? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the reason.
+@MATCH
+1.  Check every fact
+2.  Protect your source
+3.  Be fair
+4.  Fix your mistakes
+@@
+a)  give both sides of the story
+b)  readers will trust you more
+c)  do not guess; ask or leave it out
+d)  keep an unsafe name out of the story
+
+@EX 5G | Which rule uses should (advice), not must? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+to keep safe → ___________
+treating everyone the same → ___________
+a wrong thing → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Which piece of advice in the note is the most important? Why?
+@EX 5J | Which of the four rules is the hardest to follow? Why?
+
+@PART 6 | Writing: advice | Two short pieces: a list of tips, and a note of advice.
+@FIG g-notes | Notes: your advice and your rules.
+@SUBHEAD Writing 1 | · a list of tips
+@LABEL MODEL | A model
+@WARMBOX
+Advice: You should check every fact.
+Rule: You must protect your source.
+Rule: You have to meet the deadline.
+If…: If you rush, you will make mistakes.
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line is advice (should)? ___________
+Which line uses if… will…? ___________
+
+@LABEL PRODUCE | Write your tips
+@EX 6B | Write four tips for a new correspondent: one with should, two with must/have to, and one with if… will… .
+@WHITE
+1 (should): ___________
+2 (must): ___________
+3 (have to): ___________
+4 (if… will…): ___________
+
+@FIG g-fivew | A note of advice is short, kind, and clear.
+@SUBHEAD Writing 2 | · a note of advice
+@LABEL MODEL | A model
+@WARMBOX
+Welcome to Atlas Wire. You should check every fact, and you must protect your source. If you are honest and fair, readers will trust you. And if you make a mistake, say sorry and correct it. Good luck!
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one 'should', one 'must', and one 'if… will…' in the note.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the note
+@EX 6D | Complete the note. Use: should · must · will.
+@WHITE
+You ______ listen to your source. You ______ not file a rumour. If you are fair, people ______ talk to you.
+
+@LABEL PRODUCE | Write your note
+@EX 6E | Write a short note of advice (3–4 sentences) for a new correspondent. Use should, must, and one if… will… .
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This advice is too strong for a 'good idea'. Change must to should where it is only advice.
+@WHITE
+"You must ask a follow-up question. You must be kind to people."
+
+@P
+________________________
+
+@PART 7 | Speaking: giving advice | Give advice and rules to a partner. Use should, must, and if… will… .
+@FIG g-interview | Give advice: what a new correspondent should and must do.
+@SUBHEAD A model dialogue | · advice for the first week
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | What should I do first?
+Mira | You should read the wire every morning.
+Sofia | And the rules?
+Mira | You must check every fact, and you must protect your source.
+Sofia | What will happen if I make a mistake?
+Mira | If you correct it and say sorry, people will still trust you.
+Sofia | Thank you. That is good advice.
+
+@LABEL NOTICE | Notice the advice
+@EX 7A | Find one 'should' sentence and one 'must' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Give advice with should for each situation.
+@NUM
+A new correspondent is not sure of a fact. → You ___________ .
+A reporter has a rumour, not a fact. → You ___________ not .
+A reporter forgets to credit a local colleague. → You ___________ .
+
+@FIG g-introduce | Introduce yourself, then give your advice.
+@EX 7C | Make a first-conditional sentence of advice.
+@NUM
+you / check / your story / be strong → ________________________
+you / rush / you / make mistakes → ________________________
+you / be honest / readers / trust you → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Mentor | Give a new correspondent three pieces of advice: one 'should', one 'must', and one 'if… will…'.
+New correspondent | Ask: 'What should I do?' and 'What will happen if…?'
+Observer | Listen. Did the mentor use should, must, and a first conditional?
+
+@EX 7D | Choose a role from the table. Give your advice to a partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play the first week: a mentor, a new correspondent, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · a rule and a reason
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | Why must I protect my source?
+Priya | Because if the source is not safe, they will not talk to us again.
+Sofia | So the rule protects them and us?
+Priya | Yes. If you protect your source, people will trust the whole newsroom.
+Sofia | I understand. I will always protect them.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the first-conditional reason Priya gives (If the source is not safe, …).
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+give advice with should?
+state a rule with must or have to?
+use a first conditional (if… will…)?
+give a reason for the rule?
+
+@EX 7G | Role-play explaining a rule and its reason. Then swap roles.
+
+@PART 8 | Ethics: the rules that matter | Some rules are not just advice — they protect people. You must follow them.
+@FIG u9-ethA | A deadline is not a reason to break a rule.
+@SUBHEAD A first case | · the deadline and the fact
+@CASE It is Sofia's first big story, and the wire goes in ten minutes. She has a strong line, but she has not checked one number. Her editor is waiting. She thinks: "If I check, I will miss the deadline. If I don't check, maybe it is fine." But the rule is clear: you must check every fact. If she files a wrong number, it will go out to outlets in many countries, readers will be misled, and the agency will lose trust. Sofia knows the Code: you should never break a rule to be fast. What should Sofia do?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) file it now, unchecked  (b) check first, even if the story is a little late.   Choice: ______  Because ________________________
+If she files a wrong number, readers will be (a) helped  (b) misled.   Choice: ______
+
+@EX 8B | Should or must? Write S or M.
+@NUM
+Check every fact. ______
+Ask a follow-up question. ______
+Protect your source. ______
+Read the wire every morning. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: check · fast · rule · trust.
+@WHITE
+You must ______ every fact. Do not break a ______ to be ______ . If you are always careful, readers will ______ you.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is 'right' more important than 'first' in the news?
+@SUBHEAD A second case | · your local colleague
+@FIG u9-ethB | A colleague's safety comes before a stronger byline.
+@CASE Dren, a journalist who lives at Kalina, has found most of Sofia's story. He knows everyone, he arranged the interviews, and he translated them. Now the desk wants a byline. Dren says, "Please do not put my name on it. I live here, and I will still be here when you go home." Another reporter says, "Use his name — it makes the story stronger, and it is his work." Sofia knows the Code: credit the people who did the work, but a colleague's safety comes first, and it is their decision, not yours. What should Sofia do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) put Dren's name on it anyway  (b) ask Dren what he wants, and do that.   Choice: ______  Because ________________________
+If Sofia respects Dren's answer, he will (a) stop working with the agency  (b) trust it more.   Choice: ______
+
+@EX 8F | Complete with: protect · safe · credit · decide.
+@NUM
+You must ___________ your colleague.
+A colleague's ___________ comes first.
+Where it is safe, always give ___________ for the work.
+The person at risk must ___________ , not you.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is it unfair when a visiting reporter takes all the credit for a local colleague's work?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences of advice for Sofia about working with a local colleague. Use must and if… will… .
+
+@PART 9 | Digital: a tips thread | Online, a short 'tips' post shares advice fast.
+@FIG g-phonealert | A tips post — short advice, one line each.
+@LABEL MODEL | A model tips post
+@WARMBOX
+TIPS FOR NEW CORRESPONDENTS · You should check every fact. You must protect your source. If you credit your local colleague, they will work with you again. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the line to the type.
+@MATCH
+1.  You should check every fact
+2.  You must protect your source
+3.  If you credit your local colleague, they will work with you again
+4.  @AtlasWire
+@@
+a)  a rule (must)
+b)  advice (should)
+c)  the outlet
+d)  a first conditional (if… will…)
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the first-conditional sentence in the post. Write it.
+@NUM
+________________________
+
+@EX 9C | This tip is too strong for a 'good idea'. Change must to should.
+@WHITE
+"You must ask a follow-up question."
+
+@P
+________________________
+
+@FIG g-website | The tips post links to the full advice on the website.
+@EX 9D | Write a tips post. Add one 'should', one 'must', and one 'if… will…'.
+@WHITE
+TIPS · You should ___________ . You must ___________ . If you ___________ , … will … . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line tip for a new correspondent. Use should or must.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a 'tips for correspondents' story.
+@EX 9G | A reader asks: 'What is your best tip?' Write a short reply with should or if… will… .
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Online, advice is shared fast. Why must a 'rule' be clear and not just a 'tip'?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 10.
+@FIG u9-sum | Unit 9 — advice, rules, and what will happen if…
+@EX 10A | Vocabulary. Complete with: advice · rule · mistake · careful · protect · honest · fair · trust.
+@NUM
+Mira gives Sofia good ___________ .
+There is a ___________ : always check.
+If you rush, you make a ___________ .
+Be ___________ with every word.
+You must ___________ your source.
+You must be ___________ — tell the truth.
+Give both sides; be ___________ .
+If you are honest, readers will ___________ you.
+
+@EX 10B | Grammar. Complete with should or shouldn't.
+@NUM
+You ___________ check the facts.
+You ___________ guess.
+You ___________ listen to the answer.
+You ___________ file a rumour.
+
+@EX 10C | Grammar. Complete with must or have to.
+@NUM
+You ___________ protect your source.
+You ___________ meet the deadline.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | First conditional. Complete with will.
+@NUM
+If you check the facts, your story ___________ be strong.
+If you rush, you ___________ make mistakes.
+If you are honest, readers ___________ trust you.
+
+@EX 10E | Read and answer.
+@WHITE
+On her first day, Sofia learns the rules. She should check every fact, and she must protect her source. If she is honest and fair, readers will trust her. If she makes a mistake, she must correct it.
+
+@NUM
+What should Sofia do with every fact? ___________
+What must she protect? ___________
+What will happen if she is honest and fair? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can give advice with should.
+I can talk about rules with must and have to.
+I can say what will happen if… (first conditional).
+I can write advice for a new correspondent.
+
+@EX 10F | Reflect. Which part of Unit 9 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+You should to check the facts. → ________________________
+You must protecting your source. → ________________________
+If you will rush, you will make mistakes. → ________________________
+You have meet the deadline. → ________________________
+
+@PART 11 | Assignment: a note of advice | Put the unit together: write advice for a new correspondent.
+@FIG g-template | The assignment template — your advice for a new correspondent.
+@P
+**Your task. **Write a short note of advice (5–6 sentences) for a new correspondent on their first week in a country that is not their own. Give at least one piece of advice with should, at least one rule with must or have to, and at least one first conditional (If…, … will…). Be clear, kind, and honest.
+
+@FIG g-model | A model — use it to check the shape of your note.
+@WHITE
+Remember: should for advice; must / have to for rules; if… will… for what happens next; a rule protects people, so make it clear.
+
+@CRITERIA Success criteria
+I give advice with should.
+I give a rule with must or have to.
+I use at least one first conditional (if… will…).
+My advice is kind and clear.
+It is easy to read.
+
+@P
+**Keep this. **In Unit 10, you bring it all together — relative clauses (the reporter who…, the story that…) and your final project: a full front page.
+
+@KEY Unit 9 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 you should check every fact; you shouldn't guess · 2 her source · 3 say sorry and correct it
+W2 | 1 F · 2 T · 3 T
+W3 | You should… · You must… · If…
+1A | 1-c, 2-a, 3-b, 4-e, 5-d, 6-g, 7-f, 8-h, 9-i, 10-j (accept sensible matches)
+1B | 1 advice · 2 rule · 3 mistake · 4 careful · 5 protect · 6 honest
+1C | 1 give advice · 2 break a rule · 3 make a mistake · 4 protect a source · 5 be honest
+1D | 1 deadline · 2 loud · 3 shout · 4 rumour
+1E | 1 advice · 2 rules · 3 check · 4 careful · 5 honest
+1F | 1 rule · 2 protect · 3 honest · 4 accreditation
+2A | 1 should · 2 shouldn't · 3 should · 4 shouldn't
+2B | 1 must · 2 have to · 3 must
+2C | 1 M · 2 S · 3 M · 4 S
+2D | 1 You should check the facts. · 2 You should be honest. · 3 You should listen to the source.
+3A | 1 your story will be strong · 2 you will make mistakes · 3 they will work with you again
+3B | present simple: 'If you check the facts…'; will: '…your story will be strong.'
+3C | 1 If you check the facts, your story will be strong. · 2 If you guess, you will make a mistake. · 3 If you protect your source, people will trust you.
+3D | check · will · rush · trust
+4B | 1 check it · 2 her source · 3 the deadline · 4 correct it (say sorry)
+4C | 1 S · 2 M · 3 M
+4D | Advice = check every fact (don't guess) · Rule = protect your source / meet the deadline · If mistake = correct it
+4F | 1 will lose · 2 will be · 3 should · 4 will be
+4G | (any two) should · must · have to
+4H | because a rumour is not a fact, and it loses the reader's trust
+4I | should · must · check · trust
+5B | 1 T · 2 F · 3 T · 4 F
+5C | 1 your story will be strong · 2 the source · 3 say sorry and correct it
+5D | 1 protect · 2 credit · 3 accreditation
+5F | Check every fact → do not guess; ask or leave it out · Protect your source → keep an unsafe name out · Be fair → give both sides · Fix your mistakes → readers will trust you more
+5G | Rule 4 (should fix your mistakes)
+5H | 1 protect · 2 fair · 3 mistake
+6A | 1 'You should check every fact.' · 2 'If you rush, you will make mistakes.'
+6C | should: 'You should check…'; must: 'you must protect…'; if…will…: 'If you are honest and fair, readers will trust you.'
+6D | should · must · will
+6F | 'You should ask a follow-up question. You should be kind to people.'
+7A | should: 'You should read the wire every morning.'; must: 'You must check every fact / protect your source.'
+7B | 1 You should ask (or check) · 2 shouldn't file it · 3 You should credit them
+7C | 1 If you check, your story will be strong. · 2 If you rush, you will make mistakes. · 3 If you are honest, readers will trust you.
+7F | 'If the source is not safe, they will not talk to us again.'
+8A | 1 (b) check first, even if a little late · 2 (b) misled
+8B | 1 M · 2 S · 3 M · 4 S
+8C | check · rule · fast · trust
+8E | 1 (b) ask Dren what he wants, and do that · 2 (b) trust it more
+8F | 1 protect · 2 safe · 3 credit · 4 decide
+9A | 'You should check every fact' → advice (should) · 'You must protect your source' → a rule (must) · 'If you credit your local colleague, they will work with you again' → a first conditional · @AtlasWire → the outlet
+9B | 'If you credit your local colleague, they will work with you again.'
+9C | 'You should ask a follow-up question.'
+10A | 1 advice · 2 rule · 3 mistake · 4 careful · 5 protect · 6 honest · 7 fair · 8 trust
+10B | 1 should · 2 shouldn't · 3 should · 4 shouldn't
+10C | 1 must · 2 have to
+10D | 1 will · 2 will · 3 will
+10E | 1 check it · 2 her source · 3 readers will trust her
+10G | 1 You should check the facts. · 2 You must protect your source. · 3 If you rush, you will make mistakes. · 4 You have to meet the deadline.
+Open tasks | W4, 1G, 1H, 1I, 2E, 2F, 3E, 3F, 3G, 4A, 4E, 4J, 5A, 5E, 5I, 5J, 6B, 6E, 7D, 7E, 7G, 8D, 8G, 8H, 9D, 9E, 9F, 9G, 9H, 10F — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world are true as of 2026. Atlas Wire, its staff, Sofia Mendes, Dren, Kalina and the advice are invented, for practice. Real people are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Unit 9 (v6 standard). | CEFR A2 → lower B1 · Beat: Verify & ethics · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~24 figures · featured cast · fictional agency, factual backdrop.
