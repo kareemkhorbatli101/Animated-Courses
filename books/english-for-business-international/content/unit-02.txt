@@ -1,0 +1,444 @@
+@UNIT 2 | The Day It Went Wrong | Past simple and past continuous · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u2-start | A busy evening goes wrong when the payment system fails at 20:30.
+
+@TASK Warm-up: Words About an Incident
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Incident → something unexpected that happens and must be dealt with. (example)
+@MATCH
+Fail
+Suddenly
+Interrupt
+Report (v)
+Backup
+@@
+to stop working
+quickly and without warning
+to stop something that is happening
+to tell somebody officially what happened
+a second copy, kept in case the first is lost
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK failed | suddenly | interrupted | reported
+@LINE 0. The restaurant was full when it happened. (example)
+@ITEM 1. At half past eight, the payment system ____________________ .
+@ITEM 2. The lights stayed on, but the tills stopped ____________________ .
+@ITEM 3. The problem ____________________ the service for forty minutes.
+@ITEM 4. Can ____________________ the incident to Lisbon the same night.
+
+@TASK Warm-up: Reading — The Night the System Failed
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+It was a Friday evening in Istanbul, and the restaurant was completely full. Can was entering invoices in the small office behind the kitchen, and Mei, who was visiting from Singapore that week, was helping at the till. At half past eight, while the team was serving the busiest tables of the night, the payment system suddenly failed. The lights stayed on and the kitchen kept cooking, but no card payment would go through, and the tills showed nothing at all. Nobody panicked. The manager told the guests what had happened, the waiters wrote every order on paper, and Mei recorded each amount by hand in a notebook. At ten past nine, the system came back. The team then entered every paper slip into the ledger, one by one, and checked the total twice. Can wrote a short report that night and sent it to Lisbon before he went home. He gave the time of the failure, the time of the repair, the number of slips and the final total. Teresa read it the next morning, and the first thing she did was thank him. The second was to send it to the other four branches, so everybody would know what to do if the same evening happened to them.
+@LINE 0. The restaurant was full that evening. (example)
+@MCQ 1. What was the team doing when the system failed? | Closing the restaurant | Serving the busiest tables of the night | Counting the week's cash | Training new staff
+@MCQ 2. What did the team do while the system was down? | They sent the guests home | They wrote every order on paper | They stopped cooking | They waited for Lisbon
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u2-words | Words for narrating: past simple, past continuous, while, when.
+
+@TASK Part 1: Words for Telling What Happened
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Incident → something unexpected that must be dealt with.
+@MATCH
+While
+When
+Breakdown
+Slip (n)
+Reconcile
+Delay (n)
+Witness (n)
+@@
+during a longer action
+at the moment that something happened
+the moment a machine stops working
+a small piece of paper with an amount on it
+to make two records agree
+a period of waiting, longer than planned
+a person who saw what happened
+a plan for next year
+@GLOSS slip = a small piece of paper with an amount written on it · reconcile = to make two records agree
+
+@TASK Part 1: Pronunciation
+@AUDIO 2.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+incident | IN-ci-dent
+suddenly | SU-dden-ly
+reconcile | RE-con-cile
+report | re-PORT
+continuous | con-TI-nu-ous
+interrupted | in-te-RRUP-ted
+
+@TASK Part 1: Past Forms — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. records → a routine that happens every day. (example)
+@MATCH
+failed
+was serving
+were writing
+had failed
+reconciled
+@@
+a single, finished event in the past
+a longer action going on at that moment
+two or more people in the middle of an action
+something that happened before another past action
+a finished action, completed and checked
+something happening right now
+@GLOSS past continuous = was/were + the -ing form · past simple = the finished event
+
+@TASK Part 1: Telling What Happened — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'Suddenly' means quickly and without warning. (example)
+@MCQ 1. What does 'while' introduce? | A finished event | A longer action going on at the time | A future plan | A price
+@MCQ 2. What is a 'slip'? | A mistake in the ledger | A small piece of paper with an amount on it | A kind of invoice | A bank account
+@MCQ 3. What does 'reconcile' mean? | To make two records agree | To cancel a payment | To hire a new cashier | To close a branch
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK while | when | breakdown | reconciled
+@LINE 0. The incident happened on a Friday. (example)
+@ITEM 1. ____________________ the team was serving, the system failed.
+@ITEM 2. Mei was writing in her notebook ____________________ the lights flickered.
+@ITEM 3. The engineer called the problem a complete ____________________ .
+@ITEM 4. The next morning, Daniel ____________________ the slips with the ledger.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence about a longer past action (past continuous) and one about a sudden event (past simple).
+@PLAN At eight o'clock, I was ______ . Then ______ happened.
+@LINE Then swap your two sentences with a partner, and check together that each verb is in the correct tense.
+
+@BANNER Part 2 · Grammar — Past Simple and Past Continuous
+@TRACK [OP] Accounts track · grammar focus
+@FIG u2-grammar | A long background action (continuous) interrupted by a sudden event (simple).
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these two past tenses, because together they tell a story. We use the past simple for a finished event: something happened, and it is over. 'The system failed at half past eight. Can wrote the report that night.' We form it with the past form of the verb, and most verbs add '-ed'. We use the past continuous for a longer action that was already going on at that moment. 'The team was serving the busiest tables. The waiters were writing the orders on paper.' We form it with 'was' or 'were' and the '-ing' form. The two tenses work together. The past continuous sets the scene, and the past simple breaks into it: 'While the team was serving, the system suddenly failed.'
+@RUBRIC Look at your teacher's copy. Which sentence is the background? Which is the sudden event? Find one 'while' and one 'when'.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+past simple | The system failed at 20:30. | a single finished event
+past continuous | The team was serving dinner. | a longer action going on at that time
+the two together | While we were serving, the system failed. | the background, broken by the event
+while and when | while + the long action · when + the event | 'while' takes the continuous
+@REMEMBER Use the past continuous for the longer action that was already happening, and the past simple for the sudden event that interrupted it. 'While' usually introduces the long action; 'when' usually introduces the short one.
+@WATCH Watch out: the sudden, short event takes the past simple — say 'the system failed' (not 'the system was failing').
+@GLOSS background = the longer action already happening · interrupt = to break into something that is happening
+
+@TASK Part 2: Controlled Practice — Simple or Continuous?
+@RUBRIC Complete each sentence with the past simple or the past continuous.
+@LINE 0. The team was serving (serve) dinner when the system failed. (example)
+@ITEM 1. At 20:30, the payment system ____________________ (fail) completely.
+@ITEM 2. Can ____________________ (enter) invoices when the lights flickered.
+@ITEM 3. While Mei ____________________ (help) at the till, the tills went blank.
+@ITEM 4. The team ____________________ (write) every order on paper that evening.
+
+@TASK Part 2: While, When and the Order of Events
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. While the kitchen ______ (cook), the office ______ (lose) the system.
+@ITEM 2. When the system ______ (come) back, the team ______ (enter) every slip.
+@ITEM 3. Teresa ______ (read) the report while she ______ (drink) her coffee.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. While the team served, the system was failing.
+@ITEM 2. Can was write the report at eleven o'clock.
+@ITEM 3. When the lights flickered, Mei was wrote in her notebook.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Describe something that went wrong at work or at home. Say what was happening, and what suddenly happened.
+@LINE I was ______ when ______ .
+@LINE While we were ______ , ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. While the team ______ dinner, the system failed. | served | was serving | serves | is serving
+@MCQ 2. When the system came back, the team ______ every slip. | entered | was entering | enters | is entering
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u2-listen | Teresa asks Mei what she was doing when the system went down.
+
+@TASK Part 3: Teresa Explains the Two Past Tenses
+@AUDIO 2.2
+@LINE Before you listen: which tense sets the scene, and which tells you what happened?
+@BODY
+Teresa: When something goes wrong, you will have to explain it, so let me show you how the two past tenses work together. The past simple gives the event. The system failed at half past eight. Can wrote the report that night. Each of those is one finished thing, with a time attached. The past continuous gives the background. The team was serving the busiest tables. The waiters were writing orders on paper. Those actions had already started and were still going on. Now put them together, and you have a story a reader in another country can follow: while the team was serving, the system suddenly failed. Notice that 'while' takes the longer action, and 'when' usually takes the short one. If you get those two tenses the right way round, nobody will ask you a second question. If you get them the wrong way round, a reader in another country will think the system was failing all evening, or that the team only started serving after the trouble began. Neither of those is what happened, and neither of them is what you meant to say.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. The past simple gives the finished event. — T
+@ITEM 1. The past continuous gives the background action. ____
+@ITEM 2. 'While' usually introduces the short, sudden event. ____
+@ITEM 3. The two tenses are often used together in one sentence. ____
+@ITEM 4. 'The system was failing at 20:30' is the better sentence. ____
+@LINE Useful phrases: while we were serving… · the system failed at… · when the lights went out…
+
+@TASK Part 3: What Were You Doing?
+@AUDIO 2.3
+@LINE Before you listen: what was Mei doing at the moment the system failed?
+@BODY
+Teresa: Mei, I have Can's report, but I would like to hear it from you. What were you doing when the system failed? Mei: I was taking a payment at table nine. The guest's card was in the machine, and then the screen simply went blank. Teresa: And what did you do? Mei: I apologised, I wrote the amount on paper, and I asked the guest to wait two minutes. Teresa: Did the guest mind? Mei: Not at all. She said she had seen worse in her own restaurant. Teresa: And after that? Mei: While the team kept serving, I wrote every amount in a notebook. When the system came back at ten past nine, we entered all of them together. Teresa: That is exactly what should have happened. Thank you.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What was Mei doing when the system failed? — She was taking a payment at table nine.
+@ITEM 1. What did Mei do immediately after the screen went blank?
+@ITEM 2. What was she doing while the team kept serving?
+@ITEM 3. What happened at ten past nine?
+@LINE Useful phrases: I was taking a payment when… · I wrote the amount on paper · when the system came back…
+
+@TASK Part 3: Reporting the Incident to Lisbon
+@AUDIO 2.4
+@LINE Before you listen: what does a head office need to know about an incident?
+@BODY
+Can: Teresa, I am calling about Friday evening. At 20:30 the payment system failed, and it was down for forty minutes. Teresa: What was the restaurant doing at the time? Can: We were serving a full dining room. The kitchen carried on, and the waiters wrote every order by hand. Teresa: Did you lose any sales? Can: No. We recorded forty-one slips, and we entered all of them when the system returned. The total agreed with the kitchen's list. Teresa: Did anybody check it twice? Can: Mei and I checked it together before we left. Teresa: Good. Send me the slips and the report, and I will tell the group auditor before she asks.
+@RUBRIC While you listen: match each person with what they did that evening. One action is not needed. (0. is done.) Write the letter.
+@LINE 0. The kitchen → carried on cooking the whole time.
+@MATCH
+Mei
+The waiters
+Can
+Teresa
+@@
+wrote every amount in a notebook
+wrote every order on paper
+sent the report and the slips to Lisbon
+told the group auditor before she asked
+closed the restaurant for the evening
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u2-speak | Role play: the outage (Card A and Card B).
+
+@TASK Part 4: Talking About Something That Went Wrong
+@RUBRIC Work with a partner. Ask and answer these questions. Use both past tenses.
+@LINE What were you doing yesterday evening at eight o'clock?
+@LINE Describe something that once went wrong at work or at school. What were you doing at the time?
+@LINE What did you and the people around you do next?
+@LINE Why is it useful to write down exactly what was happening when something failed?
+@FRAME Useful language: I was… when… · while we were… · suddenly… · after that, we…
+
+@TASK Part 4: The Outage — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: What were you doing when it happened? — B: I was taking a payment at table nine. — A: And what did you do then? — B: I wrote the amount on paper and told the manager. While the team kept serving, I recorded every slip.
+@FRAME Useful language: I was… when it happened · while we were… · then I… · we checked it twice.
+@FRAME Card A — Controller: ask what happened, and when · ask what each person was doing.
+@FRAME Card B — Branch manager: say what was happening at the time · say what the team did next.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Tell the story of something that went wrong. Say what was happening, what suddenly happened, and what you did.
+@PLAN At about… , we were… Then suddenly… After that, we… In the end…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u2-read | One event interrupting another: what was happening, and what changed.
+
+@TASK Part 5: The Story of an Evening
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Every business has an evening it remembers, and in a restaurant that evening is usually a busy one. The story is always told with two tenses, because two kinds of thing were going on. First there is the background: the dining room was full, the kitchen was working at its fastest, and the waiters were moving between twenty tables. Those actions had begun before the trouble started and continued after it. English puts them in the past continuous, with 'was' or 'were' and the '-ing' form. Then there is the event: at half past eight, the payment system failed. One moment, one verb, one finished action. English puts that in the past simple. A reader who was not there can follow the whole evening from those two tenses alone, because the grammar tells them what was already happening and what suddenly changed. This is not only a language point. In a group that reports from five countries, the person who reads the report has never seen the room, does not know the staff, and cannot ask a question until the next morning. The tenses are the only thing carrying the shape of the evening, so getting them right is part of the job.
+@LINE 0. Two kinds of action are described in the story. (example)
+@MCQ 1. Which tense gives the background? | The past simple | The past continuous | The present simple | The present perfect
+@MCQ 2. Which sentence is the event? | The dining room was full | The waiters were moving between tables | The payment system failed | The kitchen was working fast
+@MCQ 3. Why do the tenses matter so much in a group report? | They make the report longer | The reader was not there and cannot ask | They are easier to translate | They save paper
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. background → what was already happening at the time. (example)
+@MATCH
+event
+continue
+shape (n)
+carry (v)
+follow (v)
+@@
+one thing that happened, at one moment
+to go on, without stopping
+the general form of something; how it is put together
+to hold something and take it somewhere
+to understand the order of what happened
+to pay an invoice early
+@GLOSS event = one thing that happened, at one moment · shape = the general form of something
+
+@TASK Part 5: What a Good Incident Report Contains
+@RUBRIC Read about incident reports. Then mark each sentence True (T) or False (F).
+@BODY
+A good incident report is short, and it answers four questions. What was happening before the problem? What exactly happened, and at what time? What did the team do about it? And what was the result, in numbers? The first question takes the past continuous, and the other three take the past simple. A report that answers all four can be read in a minute by somebody in another country who was asleep when it happened. Two things spoil a report. The first is a missing time: 'the system failed on Friday' is far weaker than 'the system failed at 20:30 on Friday'. The second is a missing number: 'we lost some sales' is not a report at all, while 'we recorded forty-one slips and entered every one' is. Write the report the same evening, while you still remember, and send it before anybody asks for it. A report that arrives on its own is read as information; the same report, asked for twice, is read as an excuse. Send it to everybody who will have to answer a question about that evening, and keep a copy where the next person can find it.
+@LINE 0. A good incident report answers four questions. → T (example)
+@ITEM 1. The first question is answered with the past continuous. ____
+@ITEM 2. A report is better without an exact time. ____
+@ITEM 3. 'We lost some sales' is a complete report. ____
+@ITEM 4. The report should be written the same evening. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u2-write | The story of the outage, step by step.
+
+@TASK Part 6: What Happened on Friday (70–130 words)
+@RUBRIC Tell the story of something that went wrong. Use the past continuous for the background and the past simple for the events.
+@MODEL
+On Friday evening, the Istanbul restaurant was completely full. At half past eight, while the team was serving the busiest tables, the payment system suddenly failed. The lights stayed on and the kitchen continued cooking, but no card would go through. The manager told the guests at once, and the waiters wrote every order on paper. Mei recorded each amount in a notebook while the service carried on. At ten past nine, the system came back, and the team entered all forty-one slips together. We checked the total twice, and it agreed with the kitchen's list.
+@PLAN At about… , we were… Then, suddenly… While that was happening, we… In the end…
+@CHECK past continuous for the background? | past simple for the events? | 70–130 words?
+
+@TASK Part 6: A Short Incident Report (70–130 words)
+@RUBRIC Write a short, factual incident report for a head office in another country. Give times and numbers.
+@MODEL
+Incident report — Istanbul, Friday 14 March. At 20:30 the payment system failed. At the time, the restaurant was serving a full dining room and the kitchen was working normally. The system was unavailable for forty minutes. During that period the team recorded every order on paper, and the cashier wrote each amount in a notebook. At 21:10 the system returned, and the team entered forty-one slips into the ledger. The total was checked twice and agreed with the kitchen's list. No sale was lost. The slips are scanned and attached. The engineer visited on Saturday and replaced the card reader.
+@CHECK every time given? | every number given? | 70–130 words?
+@TASK Part 6: What a Colleague Was Doing (70–120 words)
+@RUBRIC Describe what two colleagues were doing when something happened. Use the past continuous and the past simple.
+@MODEL
+When the system failed, everybody in the building was already busy. Can was entering supplier invoices in the small office behind the kitchen, and he did not notice the screens at first. Mei was taking a payment at table nine, so she saw it immediately: the card machine simply went blank in her hand. She apologised to the guest and wrote the amount on paper. Can came out of the office, spoke to the manager, and began collecting the paper slips. Neither of them stopped working, and neither of them raised their voice.
+@PLAN When it happened, ______ was… and ______ was… Then they…
+@CHECK both tenses used correctly? | two people described? | 70–120 words?
+
+@TASK Part 6: The Lesson We Learned (70–120 words)
+@RUBRIC Write about what a team learned from something that went wrong. Use your own ideas.
+@MODEL
+We learned three things that evening. First, the paper notebook was worth more than the whole system, because it kept the record while the machines were dark. Second, the time matters: because Mei wrote the hour beside every amount, we could prove the order of events the next morning. Third, telling people early is always cheaper than explaining late. Can sent his report before anybody in Lisbon asked for one, and nobody had to spend Monday looking for answers. Since then, every branch keeps a notebook beside the till, and nobody thinks it is old-fashioned.
+@CHECK past simple used for what happened? | a clear lesson? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · handling an incident on the floor
+@FIG u2-ra | Handling the outage on the floor: calm, record, keep cooking.
+
+@TASK 7A: Phrase Bank — Handling an Incident
+@RUBRIC Match each phrase with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Stay calm. → do not show that you are worried. (example)
+@MATCH
+Tell the guests.
+Keep serving.
+Write it down.
+Check it twice.
+Report it the same day.
+@@
+explain honestly what has happened
+continue the service, so the evening goes on
+record every amount on paper while the system is down
+compare the two records before you accept them
+send the facts to the head office before anybody asks
+order the ingredients from a supplier
+
+@TASK 7B: Calm, Record, Keep Cooking
+@AUDIO 2.5
+@LINE Before you listen: what should a floor team do first when a system fails?
+@BODY
+Clara: Can, I heard about Friday. What did your floor team actually do? Can: The first thing the manager did was walk into the dining room and tell the guests. He did not wait. Clara: And the kitchen? Can: The kitchen never stopped. The chefs were cooking the whole time and they never knew. Clara: So what changed for your waiters? Can: Only the paper. While they were serving, they wrote every order twice: one slip for the kitchen, one for the till. Clara: And afterwards? Can: We entered every slip, checked the total against the kitchen list, and found that the two agreed exactly. Clara: Calm, record, keep cooking. Can: That is the whole rule, and we put it on the wall of the office the following week. Clara: Did anybody complain? Can: One table asked for the bill twice, because the first slip went to the kitchen by mistake. We apologised and gave them the correct bill. That was the whole of the damage. The guests hardly noticed, and the records were complete before midnight.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What was the first thing the manager did? — He told the guests, without waiting.
+@ITEM 1. What was the kitchen doing during the outage?
+@ITEM 2. What did the waiters write, and how many copies?
+@ITEM 3. What did the team compare afterwards, and what did they find?
+
+@TASK 7C: Controlled Practice — The Order of the Evening
+@RUBRIC Put the events of the evening in order. Number them 1–5. (0. is done.)
+@LINE 0. The team was serving a full dining room. — 1
+@ITEM ___ At 20:30 the payment system failed.
+@ITEM ___ The manager told the guests what had happened.
+@ITEM ___ The waiters wrote every order on paper.
+@ITEM ___ At 21:10 the system came back and the team entered the slips.
+
+@TASK 7D: Role-Play — The Evening It Went Wrong
+@RUBRIC In pairs. One is the restaurant manager; one is the controller. Use the model and cards.
+@FRAME Model: Controller: What were you doing when it failed? — Manager: We were serving a full room. — Controller: And what did you do? — Manager: We told the guests, wrote everything on paper, and entered it all when the system came back.
+@FRAME Card A — Controller: ask what was happening at the time · ask what the team did next, and when.
+@FRAME Card B — Manager: describe the background with the past continuous · give the events, with times, in the past simple.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short note to the group office describing the evening.
+@MODEL
+Friday evening, Istanbul. The dining room was full and the kitchen was working normally when the payment system failed at 20:30. I went into the dining room immediately and explained the problem to the guests, who were very patient. While the service continued, my team wrote every order on paper and the cashier recorded each amount in a notebook. The system returned at 21:10. We entered forty-one slips, checked the total against the kitchen list, and the two agreed. No sale was lost and no guest left unhappy. The notebook is in the safe, and the slips are scanned for you.
+@CHECK both past tenses used? | times and numbers given? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u2-consol | Filling the system's gap from the handwritten paper slips.
+
+@TASK Part 8: Reading — The Gap in the System
+@LINE Before you read: why is a handwritten note sometimes worth more than a computer system?
+@BODY
+On the Monday after the outage, Daniel sat down with forty-one paper slips and a cup of coffee. His job was to close a gap. For forty minutes on Friday evening, the system had recorded nothing at all, and the only proof that those meals had happened was the handwriting of a cashier who had been working at speed. Nothing in that gap had been entered automatically, so every line had to be put there by a person, and every line had to be right. He entered each slip in the order of its time. Where a slip was unclear, he did not guess; he put it aside and asked Mei, who remembered the table. Twice the kitchen list showed a dish that no slip mentioned, and both times a waiter remembered the table and the amount. By lunchtime the ledger agreed with the kitchen list to the lira. Daniel wrote one line in the file: 'Forty-one sales entered from paper slips, 14 March, 20:30–21:10. Reconciled against the kitchen list. Two queries resolved with the staff who served the tables.' That line, Teresa said later, was worth more than the system had been that evening.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What was Daniel's job on the Monday? — To close the gap left by the outage, using the paper slips.
+@ITEM 1. What did Daniel do when a slip was unclear?
+@ITEM 2. How were the two queries from the kitchen list resolved?
+@ITEM 3. What did Daniel write in the file, and why did it matter?
+@GLOSS gap = a period or a place where something is missing · query = a question about something that is not clear
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. proof → something that shows a thing is true. (example)
+@MATCH
+gap
+query
+resolve
+handwriting
+at speed
+@@
+a place where something is missing
+a question about something that is not clear
+to settle a question or a problem
+writing made by hand, not by a machine
+quickly, under pressure
+a guest who complains
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the most important thing is…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why did the team write everything on paper instead of waiting for the system?
+@LINE Why did Daniel ask a colleague instead of guessing?
+@LINE What would you keep beside your own till, and why?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u2-decide | A decision about a small difference of ten euros.
+
+@TASK Part 9: The Ten-Euro Difference
+@LINE Before you read: is a small difference ever too small to mention?
+@BODY
+When Daniel finished entering the forty-one slips, one number would not agree. The ledger showed ten euros more than the cash and card totals together. He checked the slips twice, and the difference stayed. Ten euros is very little in a restaurant that takes several thousand in an evening, and it would be easy to make it disappear. Daniel has three choices. He could write the ten euros off quietly as a rounding difference and say nothing, which would take one minute and nobody would ever ask. He could change one slip so that the totals agree, which would make the page look perfect. Or he could record the difference exactly as it is, write one line explaining what he has already checked, and tell Teresa the same day. He knows that the first choice hides something small, the second choice is not true, and the third costs him an uncomfortable conversation before lunch. He also knows which one an auditor would want to find.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What would not agree? — The ledger showed ten euros more than the cash and card totals.
+@ITEM 1. Why would it be easy to make the difference disappear?
+@ITEM 2. What are Daniel's three choices?
+@ITEM 3. What is wrong with the second choice?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which should Daniel do — (a) write the ten euros off quietly, (b) change a slip so the totals agree, or (c) record the difference, explain what he checked, and tell Teresa today? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Daniel should choose ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Daniel should choose the third option. The amount is small, but the principle is not. If he writes the difference off quietly, nobody learns anything, and the same ten euros may appear every Friday without anyone noticing. If he changes a slip, the page will look perfect and the record will be false, which is the one thing an accountant must never do, whatever the amount. Recording the difference costs him a short, uncomfortable conversation and nothing else. It also tells the auditor something valuable: that this team writes down what it cannot explain, instead of tidying it away.
+@FRAME Phrase bank: it is only ten euros, but… · a false record is a false record · I would rather explain it than hide it · tell the controller the same day.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u2-review | What you can do after Unit 2.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the past simple or the past continuous.
+@BANK failed | was serving | were writing | entered
+@LINE 0. The restaurant was full that evening. (example)
+@ITEM 1. At 20:30, the payment system ____________________ .
+@ITEM 2. The team ____________________ a full dining room at the time.
+@ITEM 3. The waiters ____________________ every order on paper.
+@ITEM 4. When the system came back, we ____________________ all forty-one slips.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use the past simple for a single finished event
+I can use the past continuous for the background action
+I can join the two with while and when
+I can tell the story of an incident clearly and honestly
+
+@TASK Part 10: Unit 2 glossary
+@GLOSSHEAD Unit 2 glossary
+@GLOSSARY
+past simple = the tense for a single finished event · past continuous = was/were + the -ing form, for the background · while = during the longer action · when = at the moment the event happened · incident = something unexpected that must be dealt with · outage = a period when a system is not working · slip = a small piece of paper with an amount written on it · reconcile = to make two records agree · query = a question about something that is not clear · gap = a period where the record is missing · report (v) = to tell somebody officially what happened · write off = to remove an amount from the records as a loss · background = the longer action that was already happening · interrupt = to break into something that is happening · the same day = before the evening is over, while you still remember

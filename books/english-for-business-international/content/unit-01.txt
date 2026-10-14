@@ -1,0 +1,446 @@
+@UNIT 1 | The Daily Work of a Group Accounts Office | Present simple and present continuous · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u1-start | The group accounts team at their desks, each with a daily routine.
+
+@TASK Warm-up: Words About the Working Day
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Office → the room where people do their business work. (example)
+@MATCH
+Routine
+Task
+Colleague
+Deal with
+Keep track of
+@@
+a piece of work you have to do
+a person you work with
+something you do regularly, in the same way
+to take care of, or handle, something
+to follow and remember the details of something
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK routine | task | colleague | deals with
+@LINE 0. Every person in the office has a clear job. (example)
+@ITEM 1. Every morning, Daniel follows the same ____________________ .
+@ITEM 2. Recording the sales in Nairobi is his main ____________________ .
+@ITEM 3. Mei is a friendly ____________________ who works at the till in Singapore.
+@ITEM 4. Can ____________________ the suppliers and their invoices in Istanbul.
+
+@TASK Warm-up: Reading — A Day in the Group Accounts Office
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+The group accounts office in Lisbon is a busy place, and every person in it has a clear routine. Teresa, the group financial controller, arrives first each morning, because she likes to check the figures before the messages begin. Daniel, the bookkeeper, records the sales and the costs of the Nairobi restaurant every single day, while Mei, the cashier in Singapore, counts the cash and gives every guest exact change. Can deals with the suppliers in Istanbul, and he keeps track of every invoice that comes into the office. Because the five restaurants are in five countries, the team also converts each day's figures into euro, the currency the group reports in. Nobody has to be told what to do, because the routine does the telling. Today, though, is not an ordinary day. The group auditor is coming next week, so everyone is doing something different. Teresa is training a new assistant instead of checking the figures, Daniel is looking through last year's records rather than yesterday's, and Can is calling the suppliers about the final orders of the month. By Friday the routine will be back, and everybody is quietly looking forward to it.
+@LINE 0. Every person in the office has a clear routine. (example)
+@MCQ 1. What does the team normally do every day? | Prepare for an audit | Their daily routines | Train new staff | Close the restaurants
+@MCQ 2. Why is today different from a normal day? | The group auditor is coming next week | The office is closed | Teresa is away | The system is broken
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u1-words | Words for the present: routine, temporary, at the moment, responsible for.
+
+@TASK Part 1: Words for the Present
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. Routine → a regular, repeated action.
+@MATCH
+Temporary
+At the moment
+These days
+Responsible for
+Department
+State verb
+Colleague
+@@
+right now
+in this general period
+lasting only for a short time
+in charge of, and expected to do
+a section of a business
+a verb that describes how things are, not an action
+a person you work with
+a plan for next year
+@GLOSS responsible for = in charge of, and expected to do · state verb = a verb that describes how things are, not an action
+
+@TASK Part 1: Pronunciation
+@AUDIO 1.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+colleague | CO-lleague
+temporary | TEM-po-ra-ry
+routine | rou-TINE
+responsible | res-PON-si-ble
+currency | CU-rren-cy
+continuous | con-TI-nu-ous
+
+@TASK Part 1: Present Forms — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. recorded → a finished action in the past. (example)
+@MATCH
+records
+is recording
+opens
+is opening
+understands
+@@
+a routine, repeated every day
+an action happening now, or this week
+a general fact that is always true
+a temporary change, just for this period
+a state, which has no continuous form
+a plan for next year
+@GLOSS present continuous = am/is/are + the -ing form · temporary = lasting only for a short time
+
+@TASK Part 1: The Present — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'At the moment' means right now. (example)
+@MCQ 1. What is a 'routine'? | A regular, repeated action | A single mistake | A future plan | A tax
+@MCQ 2. What does 'temporary' mean? | Permanent | Very large | Lasting only a short time | Expensive
+@MCQ 3. What is a 'state verb'? | An action you repeat | A verb that describes how things are | A past action | A question
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK temporary | responsible | department | at the moment
+@LINE 0. Every person has a clear task. (example)
+@ITEM 1. Teresa is ____________________ for the whole group accounts office.
+@ITEM 2. ____________________ , Daniel is checking last year's figures.
+@ITEM 3. The accounts ____________________ is on the first floor in Lisbon.
+@ITEM 4. This extra job is only ____________________ ; it ends next week.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence about your routine (present simple) and one about now (present continuous).
+@PLAN Every day, I ______ . At the moment, I am ______ .
+@LINE Then swap your two sentences with a partner, and check together that each verb is in the correct tense.
+
+@BANNER Part 2 · Grammar — Present Simple and Present Continuous
+@TRACK [OP] Accounts track · grammar focus
+@FIG u1-grammar | Present simple (routine) vs present continuous (now), plus state verbs.
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these two tenses. We use the present simple for routines, habits, and facts that are always true. 'Daniel records the Nairobi sales every day. The Lisbon restaurant opens at noon.' We form it with the base verb, and we add '-s' for he, she, or it. We use the present continuous for actions happening now, and for temporary situations. 'Daniel is checking last year's figures at the moment.' We form it with 'am', 'is', or 'are' and the '-ing' form. There is also one important exception. Some verbs, such as 'know', 'understand', 'need', 'cost', and 'believe', describe states rather than actions, and we do not normally use them in the continuous.
+@RUBRIC Look at your teacher's copy. Which sentences are routines? Which describe now? Find one state verb.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+present simple | Daniel records the sales every day. | routines, habits, general facts
+present continuous | Daniel is checking the figures now. | actions now, temporary situations
+forming them | base (+ -s) / am/is/are + -ing | he/she/it takes '-s'
+state verbs | I understand the report. (not 'am understanding') | know, need, cost, believe — no continuous
+@REMEMBER Use the present simple for routines and facts, and the present continuous for what is happening now or temporarily. State verbs like 'know' and 'understand' are not usually used in the continuous.
+@WATCH Watch out: do not use state verbs in the continuous — say 'I understand' (not 'I am understanding').
+@GLOSS habit = something you do regularly · exception = a case that does not follow the rule
+
+@TASK Part 2: Controlled Practice — Simple or Continuous?
+@RUBRIC Complete each sentence with the present simple or the present continuous.
+@LINE 0. Teresa usually arrives (arrive) first each morning. (example)
+@ITEM 1. Daniel usually ____________________ (record) the Nairobi sales in the morning.
+@ITEM 2. At the moment, he ____________________ (check) last year's figures.
+@ITEM 3. The Lisbon restaurant ____________________ (open) at noon every day.
+@ITEM 4. Look — Can ____________________ (talk) to a supplier in Istanbul right now.
+
+@TASK Part 2: State Verbs and Negatives
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. I ______ (understand) the group report now. (state verb)
+@ITEM 2. This new system ______ (not / work) well this week.
+@ITEM 3. She ______ (know) the exchange rate already. (state verb)
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. I am understanding the new report.
+@ITEM 2. Daniel record the sales every day.
+@ITEM 3. At the moment, Can talk to a supplier.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Describe your normal routine, then say what you are doing this week that is different.
+@LINE Normally, I ______ , and I usually ______ .
+@LINE But this week, I am ______ , because ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. At the moment, Daniel ______ last year's figures. | checks | check | checking | is checking
+@MCQ 2. The Lisbon restaurant ______ at noon every day. | opens | is opening | open | are opening
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u1-listen | Teresa asks what Daniel is doing now; he contrasts routine and this week.
+
+@TASK Part 3: Teresa Explains the Two Tenses
+@AUDIO 1.2
+@LINE Before you listen: which tense do we use for a routine, and which for something happening now?
+@BODY
+Teresa: Let me explain the two tenses we use most often in this office, because they describe our work in different ways. The first is the present simple. We use it for routines and for things that are always true. Daniel records the Nairobi sales every morning, and the Lisbon restaurant opens at noon. Those facts do not change from week to week. The second is the present continuous. We use it for what is happening right now, and for situations that are only temporary. At this moment, Daniel is checking last year's figures, because the group auditor is coming. That is not his routine; it is this week only. There is one more thing you must remember. Some verbs describe states, not actions, and we do not use them in the continuous. We say 'I understand the report', never 'I am understanding the report'. The same is true of 'know', 'need', 'cost' and 'believe'. If you remember only one rule from today, remember this: ask yourself whether the sentence is about every day or about now, and the tense will choose itself.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. We use the present simple for routines and things that are always true. — T
+@ITEM 1. We use the present simple for routines and things that are always true. ____
+@ITEM 2. We use the present continuous only for the past. ____
+@ITEM 3. Some state verbs are not used in the continuous form. ____
+@ITEM 4. 'I am understanding' is the correct form. ____
+@LINE Useful phrases: we use the present simple for routines · the present continuous for now · state verbs have no continuous.
+
+@TASK Part 3: Routine and Exception
+@AUDIO 1.3
+@LINE Before you listen: what is Daniel doing this week that is different from his routine?
+@BODY
+Teresa: Good morning, Daniel. What are you working on right now? Daniel: Good morning. At the moment, I am checking last year's figures for the group audit. It is taking longer than I expected. Teresa: I understand. And do you still record the daily sales? Daniel: Of course. I record them every morning before anything else, and I convert them into euro. That routine never changes. Teresa: So you are doing two jobs these days. Daniel: Exactly. The routine in the morning, and the audit work in the afternoon. Teresa: And how long will the second job last? Daniel: Until the auditor has what she needs — two weeks, I think. After that I go back to one job, and I will be glad. Teresa: Thank you. That is exactly the difference I want the new assistant to hear: what you do every day, and what you are doing this fortnight.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What is Daniel working on right now? — He is checking last year's figures for the group audit.
+@ITEM 1. Does Daniel still record the daily sales?
+@ITEM 2. What two jobs is Daniel doing these days?
+@ITEM 3. Which sentence describes his routine, and which describes this week?
+@LINE Useful phrases: at the moment, I am checking… · I record the sales every morning · that routine never changes.
+
+@TASK Part 3: Today's Special Tasks
+@AUDIO 1.4
+@LINE Before you listen: how does the team change its work when a group auditor visits?
+@BODY
+Teresa: Right, everyone, this is not an ordinary day, so let me give out today's special tasks. Daniel, you normally record the sales, but this morning I need you to gather all the receipts from the last three months. Mei, instead of your usual cash counting, please print the bank statements from Singapore for the auditor. Can, you deal with the suppliers every day, so today please list every open invoice and the currency it is in. I am going to check that nothing is missing, and I will answer the auditor's questions myself. Noor, you are new, so today you are watching and taking notes; that is a real task, and it is the fastest way to learn how five branches fit together. Remember that none of this is our routine. We are doing it because the auditor comes on Monday. Tomorrow we all go back to our normal work, and the day after that nobody will remember this morning.
+@RUBRIC While you listen: match each person with today's special task. One task is not needed. (0. is done.) Write the letter.
+@LINE 0. Teresa → gives out the tasks and checks that nothing is missing.
+@MATCH
+Daniel
+Mei
+Can
+Teresa
+@@
+gathers all the receipts from the last three months
+prints the bank statements from Singapore
+lists every open invoice and its currency
+answers the auditor's questions
+cooks the evening service
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u1-speak | Role play: a busy week (Card A and Card B).
+
+@TASK Part 4: Talking About Your Work
+@RUBRIC Work with a partner. Ask and answer these questions. Use both present tenses.
+@LINE What do you normally do every day at work or in your studies?
+@LINE What are you doing this week that is different from your routine?
+@LINE Why is it useful to know the difference between the two tenses?
+@LINE Which of your daily tasks would be the hardest to explain clearly in English, and why do you think so?
+@FRAME Useful language: every day, I… · at the moment, I am… · usually… , but this week… · I understand / I know…
+
+@TASK Part 4: A Busy Week — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: What are you working on at the moment? — B: I am checking last year's figures for the group audit. — A: And do you still do your normal job? — B: Of course. I record the Nairobi sales every morning, as always. So I am doing two jobs at once this week.
+@FRAME Useful language: at the moment, I am… · I still… every day · as always · two jobs at once.
+@FRAME Card A — Controller: ask what your colleague is doing now · ask if they still do their routine.
+@FRAME Card B — Bookkeeper: say what you are doing this week · say which routine never changes.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe your normal working day, then explain what you are doing differently this week. Use both tenses.
+@PLAN Normally, I… every day. This week, I am… , because… My routine that never changes is…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u1-read | Every day (present simple) vs right now (present continuous).
+
+@TASK Part 5: Now and Every Day
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Every accountant needs to describe two different kinds of action, and English gives us two tenses to do exactly that. The first is the present simple, which we use for routines, habits, and general facts. In a group with five restaurants, the routines are what hold everything together: each branch records its sales every day, each branch counts its cash every night, and the group converts every figure into euro at the end of the week. These sentences are true in January and true in July, so they take the present simple. The second tense is the present continuous, which we use for what is happening at this moment, and for situations that are temporary. When a group auditor is expected, the office works differently for a week or two: people are gathering receipts, printing statements, and listing invoices. Those sentences are true today and untrue next month. There is one group of verbs that does not follow this pattern. State verbs, such as know, understand, need, cost, and believe, describe how things are rather than what somebody is doing, and they are not normally used in the continuous. The difference matters in an accounts office, because a routine and a one-off task are not the same thing, and a reader in another country cannot see which is which unless the tense tells them.
+@LINE 0. English gives us two tenses for two kinds of action. (example)
+@MCQ 1. When do we use the present simple? | For actions happening right now | Only for the past | For routines and general facts | For temporary situations
+@MCQ 2. Which is a state verb that we do NOT use in the continuous? | Record | Check | Convert | Understand
+@MCQ 3. Why does the difference between the tenses matter in an accounts office? | It makes reports colourful | A routine and a one-off task are not the same | It saves paper | It is faster
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. describe → to say what something is like. (example)
+@MATCH
+convert
+general
+pattern
+temporary
+confuse
+@@
+to change money from one currency into another
+true in most cases; not detailed
+a way that something regularly happens
+lasting only for a short time
+to mix two things up by mistake
+to pay an invoice early
+@GLOSS convert = to change an amount from one currency into another · general = true in most cases; not detailed
+
+@TASK Part 5: The Rhythm of a Restaurant Year
+@RUBRIC Read about the restaurant year. Then mark each sentence True (T) or False (F).
+@BODY
+A restaurant does not earn the same amount of money every month, because business follows the rhythm of the year. In a group with five restaurants, those rhythms are not even the same from city to city. In Lisbon, the warm summer months are the busiest, since visitors fill the tables until late. In Singapore, the quiet months are different again, and in Montréal the coldest weeks are the slowest of all. A good accountant knows these patterns and plans for them, instead of being surprised twice a year. That is why the group keeps the figures of every branch beside each other: when one restaurant is quiet, another is usually busy, and the group as a whole is steadier than any single branch. Right now, the team is preparing for the Lisbon summer and for the Montréal winter at the same time, which is exactly what a group accounts office is for. The routines do not change with the seasons; only the numbers do. Every branch still records its sales each day, and the group still converts them into euro each week, in July and in January alike.
+@LINE 0. A restaurant does not earn the same amount every month. → T (example)
+@ITEM 1. In Lisbon, the warm summer months are the busiest. ____
+@ITEM 2. A good accountant only reacts to the numbers, and never plans ahead. ____
+@ITEM 3. Right now, the team is preparing for two seasons at the same time. ____
+@ITEM 4. The present continuous describes the daily routine. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u1-write | A daily routine, step by step, in the present simple.
+
+@TASK Part 6: My Daily Routine (70–130 words)
+@RUBRIC Describe your normal working day, or a working day you know well. Use the present simple.
+@MODEL
+My name is Daniel, and I am the bookkeeper for the Nairobi restaurant. My daily routine rarely changes. I arrive at eight o'clock, and the first thing I do is make a coffee. Then I open the ledger and record all of yesterday's sales. After that, I convert the day's total into euro for the group, and I check it against the bank. In the afternoon, I enter the suppliers' invoices and file the receipts. Before I leave, I send the daily figure to Lisbon. It is the same every day, and that is exactly why it works: when every step happens in the same order, nothing is ever forgotten.
+@PLAN I arrive at… First, I… Then I… In the afternoon, I… Before I leave, I…
+@CHECK present simple used for the routine? | several linked steps? | 70–130 words?
+
+@TASK Part 6: A Different Week (70–130 words)
+@RUBRIC Describe what is happening in an office this week that is different from normal. Use the present continuous.
+@MODEL
+This week is not a normal week in the group accounts office, because the auditor is visiting. At the moment, everyone is doing something unusual. Daniel is gathering all the receipts from the last three months, and Mei is printing the bank statements from Singapore instead of counting the cash. Can is listing every open invoice and the currency it is in. Teresa is answering questions all day, so she is not checking the figures herself. Even the coffee machine is working harder than usual. Nobody is panicking, because the records are already there; we are only finding them. Next week, everything goes back to normal, and we are all looking forward to it.
+@CHECK present continuous used for now? | several people described? | 70–130 words?
+
+@TASK Part 6: A Colleague's Job (70–120 words)
+@RUBRIC Describe a colleague's job. Use the present simple for their routine and the present continuous for what they are doing right now.
+@MODEL
+My colleague Mei is the cashier at the Singapore restaurant, and she has a very important job. Every evening, she takes the payments from the guests, and she counts the cash carefully at the end of the night. She also checks that the card machine agrees with the till. Right now, however, she is not counting cash at all. She is printing three months of bank statements for the group auditor, and she is training a new cashier at the same time. She knows the system better than anyone, so she is the right person to teach it.
+@PLAN My colleague ______ is the ______ . Every day, she/he… Right now, she/he is…
+@CHECK both tenses used correctly? | routine and 'now' both shown? | 70–120 words?
+
+@TASK Part 6: The Routine and the Exception (70–120 words)
+@RUBRIC Write about a normal routine and a temporary exception to it. Use your own ideas.
+@MODEL
+In a group accounts office, most days follow the same steady routine, but sometimes an exception appears. Normally, our system records every sale automatically and converts it into euro overnight, so the work is quick and simple. This month, however, the rate feed is not working in one country, so we are converting the Istanbul figures by hand every morning. It takes an extra hour, and we check each total twice. The routine has not changed; it is simply waiting. As soon as the feed is repaired, the exception will end, and the morning will be quiet again.
+@CHECK a routine and an exception? | both tenses used? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · the floor and the office
+@FIG u1-ra | The journey of a sale from the floor to the group ledger.
+
+@TASK 7A: Phrase Bank — The Journey of a Sale
+@RUBRIC Match each step with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. Greet the guests. → welcome the guests to the restaurant. (example)
+@MATCH
+Seat the guests.
+Take the order.
+Bring the bill.
+Take the payment.
+Record the sale.
+@@
+show them to a table
+write down what they want to eat
+give them the paper that shows what they must pay
+receive the money, in cash or by card
+enter the amount in the ledger
+order the ingredients from a supplier
+
+@TASK 7B: The Floor and the Office
+@AUDIO 1.5
+@LINE Before you listen: how does the work on the restaurant floor connect to the group accounts office?
+@BODY
+Clara: Teresa, I sometimes wonder how your work in the office connects to my work on the floor. They feel so separate. Teresa: They are closer than you think. Every time you seat a table, you start a story that ends in my ledger. Clara: So the story begins with me? Teresa: It begins on the floor, every time. You seat the guests, your team takes the order, and Mei takes the payment. Then Daniel records the sale, and I watch the totals appear from five countries. Clara: And right now? Teresa: Right now you are serving lunch, and I am watching your lunch sales arrive in euro, about a minute after each table pays. Clara: A minute? I thought it took days. Teresa: It takes days only when something is written on paper and nobody enters it. Clara: So when my team is careful with an order, you are the person who notices. Teresa: I am the person who never has to notice. That is the whole point. Two jobs, one story.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What does Clara wonder about? — How the office work connects to her work on the floor.
+@ITEM 1. According to Teresa, where does the story of every sale begin?
+@ITEM 2. What is Clara doing right now, and what is Teresa doing at the same time?
+@ITEM 3. How does Teresa describe the floor and the office?
+
+@TASK 7C: Controlled Practice — The Journey of a Sale
+@RUBRIC Put the steps of a sale in order. Number them 1–5. (0. is done.)
+@LINE 0. Clara seats the guests at a table. — 1
+@ITEM ___ Clara's team takes the order and sends it to the kitchen.
+@ITEM ___ Mei takes the payment at the end of the meal.
+@ITEM ___ Daniel records the sale in the branch ledger.
+@ITEM ___ Teresa watches the totals arrive in euro.
+
+@TASK 7D: Role-Play — The Floor and the Office
+@RUBRIC In pairs. One is the restaurant manager (Clara); one is the controller (Teresa). Use the model and cards.
+@FRAME Model: Clara: How does my work connect to yours? — Teresa: Every sale begins on the floor and ends in my ledger. — Clara: So what are you doing right now? — Teresa: I am watching your lunch sales arrive in euro.
+@FRAME Card A — Manager (Clara): ask how the two jobs connect · ask what Teresa is doing now.
+@FRAME Card B — Controller (Teresa): explain the journey of a sale · use both present tenses.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are Clara. Write a short note describing your routine on the floor and what your team is doing right now.
+@MODEL
+Every evening, my team and I follow the same routine on the floor. We greet the guests, we seat them at their tables, and we take their orders. When the meal ends, we bring the bill and thank the guests for coming. Tonight, though, the restaurant is fuller than usual, because a conference is in the city. At the moment, two of my team are serving the terrace, and I am helping at the door myself. The routine is the same; there is simply more of it. By midnight, every order will be in the system for Lisbon.
+@CHECK both present tenses used? | routine and 'now' both shown? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u1-consol | An audit morning: everyone is doing something unusual.
+
+@TASK Part 8: Reading — A Different Kind of Morning
+@LINE Before you read: why is an honest daily routine nothing to fear during an audit?
+@BODY
+Most mornings in the group accounts office follow the same quiet pattern. Daniel arrives at eight, he makes a coffee, and he opens the ledger to record yesterday's sales. Mei counts the cash in the Singapore till and sends the figure north. Teresa reads her emails and checks the exchange rates before the day begins. This morning is different, because the group auditor arrives on Monday, and five sets of records must be ready for her. Daniel is gathering receipts from three months instead of recording yesterday's sales. Mei is printing bank statements rather than counting cash. Can is listing every open invoice, in four currencies, and marking which ones are still unpaid. Noor, who joined two weeks ago, is watching all of it and writing down what she does not yet understand. Nobody is worried. 'An audit is only frightening when the daily routine has been careless,' Teresa says. 'Ours has not been. Everything the auditor wants to see, we wrote down on the day it happened, in the currency it happened in.' She points at the shelf where the files from five countries stand side by side. 'We are not preparing the records this week. We are only finding them. There is a very large difference between the two, and every accountant learns it exactly once.'
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What is a normal morning in the office like? — Quiet and ordered: Daniel records sales, Mei counts the cash, Teresa reads emails.
+@ITEM 1. Why is this morning different?
+@ITEM 2. What is each person doing to prepare?
+@ITEM 3. What does Teresa say about an honest daily routine?
+@GLOSS auditor = a person who checks that records are correct · gather = to bring things together in one place
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. familiar → well known, because you see it often. (example)
+@MATCH
+gather
+careless
+unpaid
+statement
+pattern
+@@
+to bring things together in one place
+not careful; done without enough attention
+not yet settled; still owing
+a record from the bank of money in and out
+a way that something regularly happens
+a guest who complains
+@GLOSS statement = a record from the bank of money in and out · unpaid = not yet settled; still owing
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the most important routine is…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why is it important to keep the daily routine going, even during a busy week?
+@LINE Why does a team with honest daily records not need to fear an audit?
+@LINE How would you describe your own 'normal' and your own 'this week'?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u1-decide | A decision about which tense tells the whole truth.
+
+@TASK Part 9: Which Sentence Tells the Truth?
+@LINE Before you read: how can the wrong tense make a true sentence misleading?
+@BODY
+The new assistant, Noor, is writing a short description of the group accounts office for the auditor. She wants every sentence to be accurate, but she is not sure which tense to use in one place. Normally, the office records every sale through the group system, which converts each branch's figures into euro overnight. This month, however, the rate feed from one bank is not working, so the team is converting the Istanbul figures by hand each morning until it is repaired. Noor has three choices. She could write 'The team records the sales by hand,' which uses the present simple and sounds like the permanent routine. She could write 'The team uses a group system,' which is the routine but hides this month entirely. Or she could write both, and say which is which. Noor knows that the auditor values a clear and honest picture, so she thinks carefully about which sentence tells the whole truth. She also knows that her sentence will be read in another country by someone who has never seen the office, and who cannot ask a quick question across a desk. Whatever she writes will be the only thing that reader has.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What is Noor writing? — A description of the group accounts office for the auditor.
+@ITEM 1. How does the office normally convert the figures, and how is it converting them this month?
+@ITEM 2. Why is the team converting by hand at the moment?
+@ITEM 3. What are Noor's three choices?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which sentence should Noor write — (a) 'The team converts the figures by hand,' (b) 'The team uses a group system,' or (c) 'The team normally uses a group system, but this month it is converting the Istanbul figures by hand'? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should write sentence ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should write the third sentence. It is the only one that tells the whole truth. The first sentence uses the present simple, so it makes a temporary problem sound like the permanent routine, and the auditor would think the group has no system at all. The second sentence describes the routine correctly, but it hides what is actually happening this month, and an auditor who later saw the handwritten sheets would wonder what else was missing. The third sentence uses both tenses, exactly as this unit teaches: the present simple for the routine, and the present continuous for the temporary exception. It is longer, but it is complete.
+@FRAME Phrase bank: I think… should… · it tells the whole truth · the present simple for the routine · the present continuous for this month.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u1-review | What you can do after Unit 1.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the present simple or the present continuous.
+@BANK records | is checking | opens | understand
+@LINE 0. Teresa arrives first every morning. (example)
+@ITEM 1. Every day, Daniel ____________________ the Nairobi sales.
+@ITEM 2. At the moment, he ____________________ last year's figures.
+@ITEM 3. The Lisbon restaurant ____________________ at noon.
+@ITEM 4. I ____________________ the group report now.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use the present simple for routines, habits and facts
+I can use the present continuous for actions now and temporary situations
+I can avoid the continuous with state verbs (know, understand, need)
+I can describe my daily work clearly and accurately
+
+@TASK Part 10: Unit 1 glossary
+@GLOSSHEAD Unit 1 glossary
+@GLOSSARY
+bookkeeper = a person who records the daily money · present simple = the tense for routines, habits and facts · present continuous = am/is/are + the -ing form, for actions now · state verb = a verb that describes how things are, not an action · routine = something you do regularly, in the same way · temporary = lasting only for a short time · responsible for = in charge of, and expected to do · convert = to change an amount from one currency into another · reporting currency = the one currency a group adds everything up in · auditor = a person who checks that records are correct · ledger = the book or system where every sale and cost is recorded · branch = one restaurant or office of a larger group · group = several businesses owned together and reported as one · exchange rate = how much one currency is worth in another · at the moment = right now, in this short period

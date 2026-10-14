@@ -1,0 +1,445 @@
+@UNIT 3 | The Record So Far | Present perfect and past simple · B1.1–B1.2 · Blue Door Group · five countries, one ledger
+
+@BANNER Warm Up
+@TRACK [OP] Accounts track · in-class starter
+@FIG u3-start | Blue Door since 2016: four finished moments, and a record that is still growing.
+
+@TASK Warm-up: Words About the Record So Far
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter. | warm
+@LINE 0. Record (n) → everything that has been written down about a business. (example)
+@MATCH
+So far
+Already
+Yet
+Since
+Growth
+@@
+up to now
+sooner than expected
+not up to now (in questions and negatives)
+from a point in the past until now
+an increase in size or amount
+a bill from a supplier
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank. | warm
+@BANK so far | already | yet | since
+@LINE 0. The group has grown every year. (example)
+@ITEM 1. ____________________ this year, we have opened one new restaurant.
+@ITEM 2. We have ____________________ passed last year's total.
+@ITEM 3. We have not closed the quarter ____________________ .
+@ITEM 4. The group has traded in five countries ____________________ March.
+
+@TASK Warm-up: Reading — The Story So Far
+@RUBRIC Read the text and choose the correct answer. | warm
+@BODY
+Blue Door began in 2016, when Mr Alvarez bought a small building in Lisbon and served the first meal that spring. For three years there was only one restaurant, one currency and one set of books. Then the group grew. It opened in Nairobi in 2019, and in Istanbul and Singapore in 2022. This year it has opened its fifth restaurant, in Montréal, and the accounts office has reported in euro for every one of them. Teresa keeps two kinds of sentence on the wall of her office. The first kind has a date: 'We opened in Nairobi in 2019.' The second kind has no date at all: 'We have opened five restaurants since 2016.' Both sentences are true, and they are not the same. The first is finished history. The second is the record so far, and it will change the day a sixth restaurant opens. Every quarter, Teresa writes a short report for Mr Alvarez. It always has both kinds of sentence in it, and the new assistant is learning which one to use where.
+@LINE 0. Blue Door began in 2016. (example)
+@MCQ 1. How many restaurants has the group opened since 2016? | Two | Three | Five | Nine
+@MCQ 2. What is the difference between Teresa's two kinds of sentence? | One is longer | One has a date and is finished; one is the record up to now | One is for guests | One is in euro
+
+@BANNER Part 1 · Vocabulary and Terminology
+@TRACK [OP] Accounts track · pre-class input
+@FIG u3-words | Talking about the record so far: so far, already, yet, since.
+
+@TASK Part 1: Words for the Record
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@LINE 0. So far → up to now.
+@MATCH
+Already
+Yet
+Since
+For
+Ever
+Never
+Just
+@@
+sooner than expected
+not up to now, in questions and negatives
+from a point in the past until now
+for a length of time, from then until now
+at any time in your life, in questions
+at no time, up to now
+a very short time ago
+a plan for next year
+@GLOSS since = from a point in time · for = for a length of time · just = a very short time ago
+
+@TASK Part 1: Pronunciation
+@AUDIO 3.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+already | al-REA-dy
+quarter | QUAR-ter
+reported | re-POR-ted
+experience | ex-PE-rience
+since | SINCE
+achievement | a-CHIEVE-ment
+
+@TASK Part 1: Perfect or Past — Match the Use
+@RUBRIC Match each form with the way we use it. One use is not needed. Write the letter.
+@LINE 0. opens → a routine that happens every day. (example)
+@MATCH
+has opened
+opened
+have reported
+reported
+has not closed
+@@
+the record up to now, with no finished time
+a finished action, at a finished time
+the record of a group, up to today
+what happened in a year that has ended
+something that is still not true, up to now
+something happening at this moment
+@GLOSS present perfect = have/has + the past participle · past simple = the finished action, with its date
+
+@TASK Part 1: The Record So Far — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@LINE 0. 'So far' means up to now. (example)
+@MCQ 1. Which sentence is about a finished time? | We have opened five restaurants | We opened in Nairobi in 2019 | We have not closed the quarter yet | We have traded since 2016
+@MCQ 2. What does 'yet' usually mean? | Sooner than expected | Not up to now | A long time ago | At the same time
+@MCQ 3. Which word takes a length of time? | since | ago | for | yet
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences with the correct word or phrase.
+@BANK since | for | already | yet
+@LINE 0. The group has grown every year. (example)
+@ITEM 1. Blue Door has traded ____________________ 2016.
+@ITEM 2. Daniel has worked in Nairobi ____________________ four years.
+@ITEM 3. We have ____________________ reached last year's total.
+@ITEM 4. The Montréal figures have not arrived ____________________ .
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write one sentence about the record up to now (present perfect) and one about a finished year (past simple).
+@PLAN So far this year, I have ______ . Last year, I ______ .
+@LINE Then swap your two sentences with a partner, and check together that the finished time takes the past simple.
+
+@BANNER Part 2 · Grammar — Present Perfect and Past Simple
+@TRACK [OP] Accounts track · grammar focus
+@FIG u3-grammar | The record up to now (perfect) and the finished moment (past simple).
+
+@TASK Part 2: Notice
+@BODY
+Look carefully at these two tenses, because business English uses them differently. We use the present perfect for the record up to now, when the time is not finished and often not mentioned at all. 'We have opened five restaurants. Costs have risen twice this year.' We form it with 'have' or 'has' and the past participle. We use the past simple for something that happened at a finished time. 'We opened in Nairobi in 2019. Costs rose in March.' The time word decides the tense. If the sentence contains a finished time — in 2019, last year, yesterday, in March — English requires the past simple. If the period is still running — this year, this quarter, since 2016, so far — English prefers the present perfect.
+@RUBRIC Look at your teacher's copy. Which sentences name a finished time? Which describe the record so far? Find one 'since' and one 'yet'.
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+present perfect | We have opened five restaurants. | the record up to now, no finished time
+past simple | We opened in Nairobi in 2019. | a finished action, at a finished time
+since and for | since 2016 · for four years | a point in time · a length of time
+already, yet, just | We have already passed it. Not yet. | how the record stands right now
+@REMEMBER Use the present perfect for the record up to now, and the past simple when the sentence names a finished time. The time word decides the tense, not the feeling.
+@WATCH Watch out: do not use the present perfect with a finished time — say 'we opened in 2019' (not 'we have opened in 2019').
+@GLOSS past participle = the third form of a verb: opened, risen, written · finished time = a time that has ended, such as 'last year'
+
+@TASK Part 2: Controlled Practice — Perfect or Past?
+@RUBRIC Complete each sentence with the present perfect or the past simple.
+@LINE 0. We have opened (open) five restaurants since 2016. (example)
+@ITEM 1. The group ____________________ (open) in Nairobi in 2019.
+@ITEM 2. So far this year, costs ____________________ (rise) twice.
+@ITEM 3. Daniel ____________________ (join) the company four years ago.
+@ITEM 4. We ____________________ (not / close) the quarter yet.
+
+@TASK Part 2: Since, For and the Time Words
+@RUBRIC Complete each sentence with the correct form.
+@ITEM 1. Blue Door ______ (trade) in five countries since March.
+@ITEM 2. Mei ______ (work) at the Singapore till for two years.
+@ITEM 3. We ______ (not / receive) the Montréal figures yet.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@ITEM 1. We have opened the Nairobi restaurant in 2019.
+@ITEM 2. Daniel works here since four years.
+@ITEM 3. Did you have finished the quarter yet?
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say what you have done so far this year, and what you did last year.
+@LINE So far this year, I have ______ , and I have not ______ yet.
+@LINE Last year, I ______ , and that was ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct answer.
+@MCQ 1. We ______ in Nairobi in 2019. | have opened | opened | have open | are opening
+@MCQ 2. So far this year, costs ______ twice. | rose | have risen | rise | are rising
+
+@BANNER Part 3 · Listening and Dialogue
+@TRACK [OP] Accounts track · listening
+@FIG u3-listen | What the group has done so far this year, and what happened in each finished year.
+
+@TASK Part 3: Teresa Explains the Two Tenses
+@AUDIO 3.2
+@LINE Before you listen: which tense do we use when the sentence names a year?
+@BODY
+Teresa: These two tenses confuse almost everybody, so let me give you the rule we use in this office. Ask yourself one question: does the sentence name a finished time? If it does — in 2019, last quarter, yesterday, in March — then English wants the past simple, and nothing will change that. We opened in Nairobi in 2019. Costs rose in March. If the sentence does not name a finished time, or if the period is still running, English prefers the present perfect. We have opened five restaurants. Costs have risen twice this year. Notice the second sentence: this year is not over, so the record is still growing. You will also meet three small words that almost always travel with the perfect: already, yet, and just. We have already passed last year's total. We have not closed the quarter yet. Mr Alvarez has just called. Learn those three with the tense, and half the work is done.
+@RUBRIC While you listen: write True (T) or False (F). (0. is done.)
+@LINE 0. A finished time in the sentence requires the past simple. — T
+@ITEM 1. 'In 2019' requires the present perfect. ____
+@ITEM 2. 'So far this year' suits the present perfect. ____
+@ITEM 3. Already, yet and just usually travel with the perfect. ____
+@ITEM 4. The feeling of the speaker decides the tense. ____
+@LINE Useful phrases: so far this year… · we opened in 2019 · we have not closed the quarter yet.
+
+@TASK Part 3: The Quarter So Far
+@AUDIO 3.3
+@LINE Before you listen: what has the group done this quarter, and what has it not done?
+@BODY
+Teresa: Can, give me the quarter so far. What have you done? Can: We have changed two suppliers and we have renegotiated the coffee contract. Teresa: And the supplier review? Can: I have not finished it yet. I finished the first half last month, and I will finish the rest next week. Teresa: Good — notice how you said that. The first half is a finished piece of work, so it takes the past simple. The review as a whole is not finished, so it takes the perfect. Can: I did not even think about it. Teresa: That is exactly when people get it right. Anything else? Can: Prices have risen twice since January, and I have already warned the kitchens. Teresa: Then write me those three sentences, and I will put them straight into the report.
+@RUBRIC While you listen: answer the questions. (0. is done.)
+@LINE 0. What two things has Can done this quarter? — He has changed two suppliers and renegotiated the coffee contract.
+@ITEM 1. Has Can finished the supplier review?
+@ITEM 2. Why does 'the first half' take the past simple?
+@ITEM 3. What has happened to prices since January?
+@LINE Useful phrases: we have changed… · I have not finished it yet · I finished the first half last month.
+
+@TASK Part 3: The Year the Group Grew
+@AUDIO 3.4
+@LINE Before you listen: how would you describe a company's history in one minute?
+@BODY
+Mr Alvarez: People always ask me how it started, so I keep the answer short. I bought the building in 2016 and we served the first meal that spring. For three years nothing else happened, and I was happy. Then we opened Nairobi in 2019, because Daniel wrote to me and I could not say no. In 2022 we opened two restaurants in one year, which I do not recommend to anybody. And this year we have opened Montréal, so we have five. Teresa: And how do you describe it to the bank? Mr Alvarez: Exactly the same way, but with the dates in the right places. The bank wants to hear what we have done since 2016, and then it wants to see each year on its own.
+@RUBRIC While you listen: match each year with what happened. One event is not needed. (0. is done.) Write the letter.
+@LINE 0. 2016 → Mr Alvarez bought the building and served the first meal.
+@MATCH
+2019
+2022
+this year
+since 2016
+@@
+the group opened in Nairobi
+the group opened two restaurants in one year
+the group has opened in Montréal
+the group has opened five restaurants in all
+the group closed a restaurant
+
+@BANNER Part 4 · Speaking
+@TRACK [OP] Accounts track · speaking
+@FIG u3-speak | Role play: the year so far (Card A and Card B).
+
+@TASK Part 4: Talking About the Record So Far
+@RUBRIC Work with a partner. Ask and answer these questions. Use both tenses.
+@LINE What have you done so far this year that you are pleased with?
+@LINE What did you do last year that you would do differently now?
+@LINE How long have you worked or studied where you are now?
+@LINE Why do banks and auditors want both kinds of sentence in a report?
+@FRAME Useful language: so far this year, I have… · last year, I… · I have worked here for / since… · I have not… yet.
+
+@TASK Part 4: The Year So Far — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards.
+@FRAME Model: A: What has the group done so far this year? — B: We have opened Montréal and we have changed two suppliers. — A: And what have you not done yet? — B: We have not closed the quarter yet. We closed the last one in April.
+@FRAME Useful language: so far… · we have already… · we have not… yet · we did that in April.
+@FRAME Card A — Owner: ask what the group has done so far · ask what has not happened yet.
+@FRAME Card B — Controller: say what has been done up to now · give the date of each finished thing.
+@LINE Your turn: run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe the record of your team or your studies so far this year, and one thing you finished at a known time.
+@PLAN So far this year, we have… We have already… We have not… yet. In March, we…
+
+@BANNER Part 5 · Extended Reading
+@TRACK [OP] Accounts track · extended reading
+@FIG u3-read | The record up to now, and the finished year beside it.
+
+@TASK Part 5: Two Ways to Tell the Same Story
+@RUBRIC Read the text and choose the correct answer.
+@BODY
+Every set of accounts tells its story twice, and the two versions are not rivals. The first version is the finished year. It has a beginning and an end, it is signed, it is audited, and nothing in it will change again. English describes it with the past simple: the group opened in Nairobi in 2019, revenue rose by nine per cent in 2022, the Istanbul restaurant made its first profit in its second year. These sentences carry dates, and the dates are the point of them. The second version is the record so far. It has a beginning but no end, because the period is still running and the figures are still arriving. English describes this with the present perfect: the group has opened five restaurants, costs have risen twice this year, Montréal has not reached its first full quarter yet. These sentences rarely carry a date at all, and that absence is deliberate. A reader who knows the difference can tell, from the tense alone, whether a number is final or still moving. In a group that reports from five countries, that single piece of information saves a great many questions, because the person reading in Lisbon on Monday cannot telephone Singapore on Sunday night to ask whether the figure is finished.
+@LINE 0. Accounts tell their story twice. (example)
+@MCQ 1. Which tense describes the finished, audited year? | The present perfect | The past simple | The present continuous | The past continuous
+@MCQ 2. Why do present perfect sentences rarely carry a date? | Dates are hard to translate | The period is still running | They are informal | They are shorter
+@MCQ 3. What can a reader tell from the tense alone? | Who wrote the report | Whether a number is final or still moving | Which currency is used | How long the report is
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. revenue → the money a business takes in from sales. (example)
+@MATCH
+audited
+final
+absence
+deliberate
+quarter
+@@
+checked officially by an independent examiner
+settled; it will not change again
+the fact that something is not there
+done on purpose, for a reason
+a period of three months
+a guest who complains
+@GLOSS audited = checked officially by an independent examiner · quarter = a period of three months
+
+@TASK Part 5: What a Quarterly Report Contains
+@RUBRIC Read about quarterly reports. Then mark each sentence True (T) or False (F).
+@BODY
+A quarterly report is short, and in a group it has to be readable in five countries at once. It opens with the record so far: what the group has done since the year began, in the present perfect, with no dates. It then gives the finished quarter on its own, in the past simple, with every figure dated and every comparison named. Next come the things that have not happened yet, which are often the most useful lines in the whole document, because they tell the reader what is still moving. Finally it gives one sentence on what the group expects next. A good report never mixes the two tenses in a single line, because a sentence that says 'we have opened in 2019' tells the reader that the writer has not checked their own work. Teresa reads every branch report before it goes to Mr Alvarez, and the tense is the first thing she checks. She says it takes her thirty seconds and saves the office a week, because a reader who trusts the first page rarely argues with the fourth.
+@LINE 0. A quarterly report has to be readable in five countries. → T (example)
+@ITEM 1. The report opens with the record so far, in the present perfect. ____
+@ITEM 2. The finished quarter is given in the past simple, with dates. ____
+@ITEM 3. Things that have not happened yet are left out. ____
+@ITEM 4. Teresa checks the tense before the report goes to the owner. ____
+
+@BANNER Part 6 · Writing
+@TRACK [OP] Accounts track · writing
+@FIG u3-write | A progress report: the record so far, and each finished step.
+
+@TASK Part 6: The Year So Far (70–130 words)
+@RUBRIC Write a short progress report on your year so far. Use the present perfect for the record and the past simple for finished moments.
+@MODEL
+So far this year, the group has opened one new restaurant and has changed two suppliers. Revenue has grown in four branches and has fallen slightly in one. We have already passed last year's total for the same period, which nobody expected in January. We have not closed the third quarter yet, so these figures are still moving. The finished steps are easy to date: we opened Montréal in April, we signed the new coffee contract in May, and we raised the Lisbon menu prices in June. Each of those is complete and will not change.
+@PLAN So far this year, we have… We have already… We have not… yet. In April, we…
+@CHECK present perfect for the record so far? | past simple for each dated step? | 70–130 words?
+
+@TASK Part 6: A Finished Year (70–130 words)
+@RUBRIC Describe a year that has ended. Use the past simple throughout, with dates.
+@MODEL
+Last year was the busiest in the group's history. We opened two restaurants in twelve months, one in Istanbul in March and one in Singapore in September. Revenue rose by nine per cent, and food costs rose by eleven, so the margin fell slightly. We changed our coffee supplier in June after three difficult deliveries, and the kitchens noticed the improvement within a fortnight. In November the Istanbul restaurant made its first profit, two months earlier than the plan. We closed the year with five hundred and twelve staff and no unpaid supplier. It was a hard year, and it ended well.
+@CHECK past simple throughout? | every figure dated? | 70–130 words?
+
+@TASK Part 6: A Colleague's Experience (70–120 words)
+@RUBRIC Describe a colleague's experience. Use the present perfect for how long, and the past simple for what they did.
+@MODEL
+Daniel has worked for Blue Door since 2019, so he has seen the group grow from one restaurant to five. He has been the Nairobi bookkeeper for four years, and he has trained two assistants in that time. Before he joined us, he worked for a hotel group in Mombasa, where he learned how to close a month in three days. He has not missed a close since he arrived, which is a record nobody else in the group can claim. Last year he rebuilt the whole supplier file, and we have used his system ever since.
+@PLAN ______ has worked here since… They have… Before that, they…
+@CHECK both tenses used correctly? | since/for used correctly? | 70–120 words?
+
+@TASK Part 6: What Has Not Happened Yet (70–120 words)
+@RUBRIC Write about what is still unfinished in your work. Use the present perfect with yet, already and just.
+@MODEL
+Three things are still open at the end of this quarter. We have not received the final Montréal figures yet, because the branch has only just finished its first full month. We have already reconciled four branches, so the work that remains is small, but it cannot be finished until the fifth arrives. The supplier review has not been completed either; Can has done the first half and will finish the rest next week. Nothing here is late, and nothing is hidden. I would rather send an honest list of what is still moving than a complete report that is not true.
+@CHECK yet, already and just used correctly? | an honest list of what is open? | 70–120 words?
+
+@BANNER Part 7 · Restaurant-Accounting Track
+@TRACK [RA] Restaurant track · the restaurant's story
+@FIG u3-ra | The restaurant's story: four finished moments, one growing record.
+
+@TASK 7A: Phrase Bank — Telling the Restaurant's Story
+@RUBRIC Match each phrase with what it means. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. We opened in 2016. → a finished moment, with its date. (example)
+@MATCH
+We have been here since 2016.
+We have served thousands of guests.
+We opened our second kitchen in 2019.
+We have not changed the recipe.
+We won an award last year.
+@@
+how long, from a point in the past until now
+the record so far, with no date
+a finished step, with the year named
+something that is still true, up to today
+a finished achievement, at a finished time
+a plan for next year
+
+@TASK 7B: The Story a Guest Can Hear
+@AUDIO 3.5
+@LINE Before you listen: how would you tell a guest the story of a restaurant in one minute?
+@BODY
+Clara: Guests ask me about the restaurant almost every evening. What should I say? Teresa: Say it the way Mr Alvarez says it, and keep the tenses apart. Start with the record: we have been here since 2016, and we have served more than four hundred thousand guests. Clara: And then the moments? Teresa: Then the moments, with their dates. He bought the building in 2016. We opened the second kitchen in 2019. We won the regional award in 2022. Clara: Why not mix them? Teresa: Because a guest who hears 'we have won the award in 2022' hears somebody who is not quite sure. The record makes them feel the place has lasted. The dates make them believe you. Clara: And the thing we have not done yet? Teresa: Tell them that too. We have not opened on Sundays yet — and watch their faces when you say 'yet'.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What should Clara start with? — The record: how long the restaurant has been there, and how many guests it has served.
+@ITEM 1. Which three dated moments does Teresa give?
+@ITEM 2. Why does Teresa say the two kinds of sentence should not be mixed?
+@ITEM 3. What does the word 'yet' do at the end of the story?
+
+@TASK 7C: Controlled Practice — The Restaurant's Story in Order
+@RUBRIC Put the story in order. Number the sentences 1–5. (0. is done.)
+@LINE 0. Mr Alvarez bought a small building in Lisbon in 2016. — 1
+@ITEM ___ The restaurant served its first meal that spring.
+@ITEM ___ We opened our second kitchen in 2019.
+@ITEM ___ We won the regional award in 2022.
+@ITEM ___ We have served more than four hundred thousand guests since then.
+
+@TASK 7D: Role-Play — Telling the Story
+@RUBRIC In pairs. One is a guest; one is the restaurant manager. Use the model and cards.
+@FRAME Model: Guest: How long have you been here? — Manager: We have been here since 2016, and we have served more than four hundred thousand guests. — Guest: And the award on the wall? — Manager: We won that in 2022.
+@FRAME Card A — Guest: ask how long the restaurant has been open · ask about something on the wall.
+@FRAME Card B — Manager: give the record with the present perfect · give each dated moment with the past simple.
+
+@TASK 7E: Restaurant Writing (70–130 words)
+@RUBRIC You are the restaurant manager. Write a short paragraph for the menu telling the story of the restaurant.
+@MODEL
+Blue Door has stood on this corner since 2016, and we have served more than four hundred thousand guests in that time. Mr Alvarez bought the building in the spring of that year and cooked the first meal himself, for eleven people, on a Tuesday. We opened our second kitchen in 2019, and in 2022 we won the regional award that hangs by the door. Since then we have added four more restaurants, in four other countries, and we have kept the same bread recipe in all of them. We have not opened on Sundays yet. Perhaps one day we shall.
+@CHECK present perfect for the record? | past simple for each dated moment? | 70–130 words?
+
+@BANNER Part 8 · Consolidation
+@TRACK [OP] Accounts track · consolidation
+@FIG u3-consol | The year to date, branch by branch.
+
+@TASK Part 8: Reading — A Question of Experience
+@LINE Before you read: why is it better to be honest about your experience, even when you want a job badly?
+@BODY
+A new assistant was needed in the group office, and Ingrid interviewed four people for it. The strongest candidate, Victor, had an impressive record, but one detail caught her eye. His application said that he had worked in group accounting for six years. In the interview, he said something slightly different: he had worked in accounts for six years, and in group accounting for two of them. Ingrid did not treat this as a disaster. She asked him directly which was correct, and he answered at once that the second version was. He explained that he had written the line quickly and had not read it again, which is exactly how most exaggerations begin. Ingrid thanked him for the straight answer and asked a second question: what had he learned in those two years? He talked for five minutes about converting currencies and closing late branches, and it was obvious that he had done the work. She gave him the job that afternoon, and she kept both versions of the sentence in the file, because the way a person corrects themselves tells you more than the line they corrected.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What caught Ingrid's eye? — His application said six years of group accounting; in the interview he said two.
+@ITEM 1. How did Victor explain the difference?
+@ITEM 2. What did Ingrid ask him next, and what did she learn?
+@ITEM 3. Why did she keep both versions of the sentence in the file?
+@GLOSS exaggeration = saying something is bigger or better than it really is · candidate = a person who applies for a job
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@LINE 0. application → the form and letter you send when you want a job. (example)
+@MATCH
+candidate
+impressive
+exaggeration
+straight (adj)
+obvious
+@@
+a person who applies for a job
+good enough to make people notice
+saying something is bigger or better than it is
+honest and direct, with nothing hidden
+easy to see or understand
+a record from the bank
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames: 'I think the most important thing is…' · 'I agree, because…' · 'Yes, but…'
+@LINE Why did Ingrid give Victor the job even after she found the difference?
+@LINE Is an exaggeration on an application the same as a lie? Say why.
+@LINE How would you describe your own experience in two honest sentences?
+
+@BANNER Part 9 · Decision Task
+@TRACK [OP] Accounts track · judgement
+@FIG u3-decide | A decision about which tense tells the truth about a repair.
+
+@TASK Part 9: Have We Fixed It, or Did We Fix It?
+@LINE Before you read: how can a tense make a finished problem sound unfinished — or the opposite?
+@BODY
+Noor is writing one line for the quarterly report about an error in the March figures. The facts are simple. In March, two supplier invoices were entered twice, which made costs look higher than they were. Daniel found the problem in April, corrected both entries, and checked the whole month again. The correction is finished and the figures are right. The question is how to write it. Noor has three choices. She could write 'We fixed the error', which is true, uses the past simple, and says nothing about the state of the accounts now. She could write 'We have fixed the error in March', which mixes a perfect with a finished time and would tell any careful reader that she had not checked her own sentence. Or she could write both halves properly: 'We found the error in March and we have corrected it', using the past simple for the dated discovery and the present perfect for the state the accounts are in today. The report goes to the bank as well as to Mr Alvarez, so the sentence has to be right the first time.
+@RUBRIC Answer the questions. (0. is done.)
+@LINE 0. What was the error? — Two supplier invoices were entered twice in March.
+@ITEM 1. What did Daniel do, and when?
+@ITEM 2. What is wrong with the second choice?
+@ITEM 3. Who will read the report?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Which line should Noor write — (a) 'We fixed the error,' (b) 'We have fixed the error in March,' or (c) 'We found the error in March and we have corrected it'? Choose one and give your reasons.
+@FRAME Answer frame: 'I think Noor should write sentence ___ , because ___ . The other choices ___ .'
+@MODEL
+Model decision: I think Noor should write the third sentence. It is the only one that does both jobs at once. The first sentence is grammatically correct, but it leaves the reader wondering whether the accounts are right now, which is the only thing the bank actually wants to know. The second sentence breaks the rule this unit teaches: a finished time cannot take the present perfect, and a careful reader will stop at that line and start doubting the rest. The third sentence dates the discovery with the past simple and reports today's position with the present perfect. It is one word longer and it closes the question.
+@FRAME Phrase bank: we found it in March · we have corrected it · the figures are right now · the time word decides the tense.
+@LINE My decision: ______ because ______ .
+
+@BANNER Part 10 · Review and Can-Do
+@TRACK [OP] Accounts track · review
+@FIG u3-review | What you can do after Unit 3.
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the present perfect or the past simple.
+@BANK have opened | opened | has risen | rose
+@LINE 0. The group has grown every year. (example)
+@ITEM 1. Since 2016, we ____________________ five restaurants.
+@ITEM 2. We ____________________ in Nairobi in 2019.
+@ITEM 3. So far this year, the food cost ____________________ twice.
+@ITEM 4. Revenue ____________________ by nine per cent last year.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can use the present perfect for the record up to now
+I can use the past simple for an action at a finished time
+I can use since, for, already, yet and just correctly
+I can report what my team has done this year
+
+@TASK Part 10: Unit 3 glossary
+@GLOSSHEAD Unit 3 glossary
+@GLOSSARY
+present perfect = have/has + the past participle, for the record up to now · past simple = the finished action, at a finished time · past participle = the third form of a verb: opened, risen, written · since = from a point in time until now · for = for a length of time · already = sooner than expected · yet = not up to now, in questions and negatives · just = a very short time ago · quarter = a period of three months · audited = checked officially by an independent examiner · revenue = the money a business takes in from sales · candidate = a person who applies for a job · exaggeration = saying something is bigger or better than it really is · growth = an increase in size or amount · so far = up to now, in a period that is still running
