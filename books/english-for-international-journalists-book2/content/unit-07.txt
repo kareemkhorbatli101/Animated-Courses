@@ -1,0 +1,851 @@
+@UNITHEAD BOOK 2 · UNIT 7 | For the Wire: Writing to Be Carried Everywhere | Beat · Across Borders (wholly) | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+form the passive in every tense
+choose the passive when the action matters most
+say by whom — and know when you must
+write wire copy that any newsroom can carry
+
+@FIG g-team | The Atlas Wire team — writing one sentence that two hundred newsrooms can publish unchanged.
+@STORY One sentence, two hundred newsrooms. | This unit is wholly cross-border. A wire report is not written for one audience; it is written to be carried, translated and cut by newsrooms that have never seen the place. That is why so much of it is in the passive: *three crossings have been reopened*, *the figure is being checked*. The passive is a tool, and it is also a hiding place. This week, Mira learns to use it for clarity and to refuse it when somebody wants to use it to hide a name. (Atlas Wire, Kalina Daily, the Meridian Post and their staff are invented, for practice.)
+
+@WARMUP On the wire | A short scene to start the unit. Read it, then answer.
+@FIG g-wire | A wire sentence travels further than its author ever will.
+@WARMBOX
+"The snap has gone," Daniel says, pushing the screen round. "'Three crossings on the river Vara have been reopened.' Eleven words, and it is already in Jakarta."
+Mira reads it. "Reopened by whom?"
+"By the Crossing Office. It is in the second take."
+"Then it should be in the snap."
+Daniel smiles. "It should. The lawyers in two countries asked for 'the crossings were reopened', with no name at all."
+"That is not shorter," Mira says. "That is quieter."
+"Yes. The piece is being rewritten now. The name goes back in."
+
+@EX W1 | Answer the questions.
+@NUM
+What did the snap say? ___________
+Who reopened the crossings? ___________
+What did the lawyers ask for? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+The snap named the Crossing Office. ______
+Mira thinks the name should be in the snap. ______
+The piece is being rewritten. ______
+
+@EX W3 | Find one present-perfect passive, one past passive and one present-continuous passive in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+Why might a lawyer prefer 'the crossings were reopened' with no name?
+When is leaving out the doer honest, and when is it not?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'That is not shorter. That is quieter.' What does Mira mean?
+
+@PART 1 | The words of the wire | The words for agency copy, credits and the newsrooms that carry it.
+@FIG u7-words | Four key words — wire, dateline, lead, snap.
+@H The words
+@VOCAB
+wire | an agency service that many outlets publish
+dateline | the place and date at the top of a report
+slug | the short name a story is filed under
+lead (n) | the first sentence of a report
+snap | a one-line urgent message on the wire
+take (n) | one part of a story sent in pieces
+byline | the reporter's name on a story
+credit (n) | the name of the outlet material came from
+subscriber | an outlet that pays to use the wire
+carry (v) | to publish material from the wire
+pick up | to take a story from the wire
+rewrite (v) | to write again for another audience
+style guide | rules on writing names, numbers and dates
+house style | one outlet's own rules
+neutral | not taking a side
+concise | short and clear
+update (n) | a new version with new facts
+kill (v) | to withdraw a story from the wire
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  wire
+2.  dateline
+3.  slug
+4.  snap
+5.  take
+6.  byline
+7.  credit
+8.  subscriber
+9.  carry
+10.  kill
+@@
+a)  the place and date at the top of a report
+b)  an agency service that many outlets publish
+c)  the short name a story is filed under
+d)  a one-line urgent message
+e)  one part of a story sent in pieces
+f)  the reporter's name on a story
+g)  the name of the outlet material came from
+h)  an outlet that pays to use the wire
+i)  to publish material from the wire
+j)  to withdraw a story from the wire
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | wire · dateline · lead · snap · credit · carried
+@NUM
+The story went out on the ___________ .
+The ___________ reads KALINA, 14 October.
+A good ___________ says what happened in one sentence.
+The ___________ was eleven words long.
+Kalina Daily's ___________ must stay on it.
+Two hundred newsrooms ___________ the piece.
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  file a
+2.  pick up a
+3.  keep the
+4.  follow the
+5.  send an
+@@
+a)  take
+b)  story
+c)  credit
+d)  style guide
+e)  update
+
+@EX 1D | Circle the word that is different.
+@NUM
+snap · lead · take · deadline
+neutral · balanced · fair · partial
+concise · short · brief · wordy
+carry · publish · run · kill
+
+@FIG g-pageflow | One wire story, two hundred front pages. Each one cuts it differently.
+@EX 1E | Complete the paragraph. Use: wire · neutral · concise · rewritten · carried.
+@WHITE
+Copy for the ___________ must be ___________ and ___________ , because it will be ___________ by newsrooms you will never meet, and ___________ for readers you cannot picture.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+an outlet that pays to use the wire → ___________
+rules on writing names, numbers and dates → ___________
+a new version with new facts → ___________
+to write again for another audience → ___________
+
+@FIG g-hownews | From snap to take to update: how a wire story is built while it is still happening.
+@EX 1G | Complete the collocation paragraph. Use: slug · takes · update · house style · byline.
+@WHITE
+The story was filed under the ___________ VARA-CROSSINGS, in three ___________ . An ___________ followed at six. Each subscriber applied its own ___________ , and most of them kept the ___________ .
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+Which outlets in your country carry agency copy? How can you tell?
+What would you want kept if your work were rewritten elsewhere?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: killed · picked up · subscriber · concise · take.
+@WHITE
+The first ___________ was ___________ by forty newsrooms. One ___________ asked for a shorter version. The second was more ___________ . The third was ___________ after an error was found.
+
+@EX 1K | Creative. Write a one-sentence wire lead about something that happened near you. Use the passive.
+
+@PART 2 | Grammar: the passive | be + past participle, in every tense; and when to name the doer.
+@FIG u7-gA | The passive puts the action first: 'three crossings have been reopened'.
+@GRAMMAR 1 · the passive — the action first
+Form: {{be}} + past participle. "The gates {{were opened}}." "The figure {{is checked}} twice."
+Use it when the action matters most, when the doer is unknown, or when the doer is obvious.
+Active: *The office reopened the crossing.* → Passive: The crossing {{was reopened}} (by the office).
+
+@GRAMMAR 2 · the passive across tenses
+present: {{is / are}} checked · past: {{was / were}} opened · present perfect: {{has / have been}} reopened
+continuous: {{is / are being}} checked · future: {{will be}} carried · modal: {{can / must be}} used
+[[Watch the participle]]: say *has been reopened*, NOT *has been reopen*.
+
+@FIG u7-gB | by + the doer: say it whenever you know it.
+@GRAMMAR 3 · by whom — and when you must say it
+Add {{by}} + the doer when the reader needs it: "The gates {{were opened by}} the Crossing Office."
+Leave it out only when it is unknown or obvious: "He {{was arrested}} yesterday."
+[[Never]] use the passive to hide a name you have: *mistakes were made* says nothing.
+
+@FIG u7-gC | Action first, doer unknown, or a name being hidden — know which you are doing.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Make these passive. Keep the tense.
+@NUM
+The office reopened three crossings. → ___________
+Priya checks every figure twice. → ___________
+The desk has rewritten the lead. → ___________
+Two hundred newsrooms will carry the piece. → ___________
+
+@EX 2B | Complete with the passive in the tense given.
+@NUM
+The figure ___________ (check) at the moment. (present continuous)
+The snap ___________ (send) at 06:40. (past)
+Three crossings ___________ (reopen) since April. (present perfect)
+The update ___________ (publish) tomorrow. (future)
+
+@EX 2C | Add the doer with by, where the reader needs it.
+@NUM
+The crossings were reopened. (the Crossing Office) → ___________
+The register was kept for seven years. (a resident) → ___________
+The lead was rewritten. (the foreign desk) → ___________
+
+@EX 2D | Which sentence hides a name? Write A or B, and say why.
+@NUM
+A: Mistakes were made. · B: The desk cut the credit line. ______
+A: The barrier was closed in 2019. · B: The council closed the barrier in 2019. ______
+
+@H Your own words
+@EX 2E | Write two passive sentences about work that is being done near you now.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two passive sentences with by + the doer.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (passive form).
+@NUM
+Three crossings have been reopen since April. → ________________________
+The figure is checking at the moment. → ________________________
+
+@EX 2H | Your own words. Write one sentence where the passive is right, and one where it hides too much.
+@NUM
+________________________
+
+@PART 3 | Writing for the wire | Wire copy is written to be carried: a dateline, a lead, short takes, and a name wherever you have one.
+@FIG g-desk | A subscriber's desk cuts your story to four paragraphs. Which four did you write first?
+@FIG u7-skill | A wire lead: what happened, where, when, and on whose authority.
+@LABEL MODEL | A model wire report
+@WARMBOX
+KALINA, 14 October (Atlas Wire) — Three crossings on the river Vara have been reopened by the Crossing Office, the first since the Kalina bridge was reopened last spring.
+The decision was announced on Tuesday and confirmed to Atlas Wire by the office on Wednesday. A figure of 112 returning families, published earlier by the office, is still being checked.
+Reporting from the upstream crossings was carried out with Kalina Daily, whose reporter Dren Markaj interviewed residents on the closed side. The piece may be used by subscribers with the credit line kept.
+
+@LABEL NOTICE | Notice the report
+@EX 3A | Answer about the report.
+@NUM
+What has been reopened, and by whom? ___________
+What is still being checked? ___________
+What must subscribers keep? ___________
+
+@EX 3B | Find a present-perfect passive, a past passive and a present-continuous passive in the report. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the copy
+@FIG g-fivew | A wire lead answers the five questions, and names the authority for each.
+@EX 3C | Write the sentence in the passive, with by where it is needed.
+@NUM
+the office / reopen / three crossings (present perfect) → ________________________
+the figure / check / now (present continuous) → ________________________
+subscribers / may use / the piece (modal passive) → ________________________
+
+@EX 3D | Complete the lead. Use: been · was · being · be.
+@WHITE
+Three crossings have ______ reopened by the Crossing Office. The decision ______ announced on Tuesday. The figure of 112 is still ______ checked. The piece may ______ used with the credit kept.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the wire report in order. Number the lines 1–4.
+@NUM
+What is still unconfirmed. ______
+The lead: what has been reopened, and by whom. ______
+How the reporting was done, and with whom. ______
+When it was announced and confirmed. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a story. Write a short wire report (4–5 sentences): a dateline, a passive lead with by, one thing still being checked, and a credit line.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why is so much wire copy written in the passive?
+@EX 3H | Why is 'reopened by the Crossing Office' better in a snap than 'reopened'? Explain.
+@EX 3I | Discuss. Your copy will be cut to four paragraphs. How does that change what you write first?
+
+@PART 4 | Listening: on the wire | Two audios. Listen for the passive, and for the name that was nearly left out.
+@FIG g-studio | Audio 7.1 — the world desk goes through a wire lead word by word.
+@SUBHEAD Listening A | · writing the lead
+@LABEL MODEL | Audio 7.1 — Daniel and Mira
+@DIALOGUE
+Daniel | Your lead: 'Three crossings on the Vara have been reopened.' Good. Reopened by whom?
+Mira | By the Crossing Office. It is in the second take.
+Daniel | Put it in the lead. A subscriber may only carry the first paragraph.
+Mira | And the figure of 112?
+Daniel | 'Is still being checked.' Present continuous passive — it tells the reader the work is not finished.
+Mira | The lawyers wanted 'the crossings were reopened', with no name.
+Daniel | The name is not a risk; it is the authority. Without it the sentence can be read as an accident.
+Mira | And the credit?
+Daniel | Kalina Daily and Dren's byline stay in every take, including the snap.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think Daniel will ask for first? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What does Daniel want added to the lead? ___________
+Why does it matter if a subscriber carries only one paragraph? ___________
+How should the figure of 112 be described? ___________
+What stays in every take? ___________
+
+@EX 4C | Present perfect, past, or continuous passive? Write PP, P, or C.
+@NUM
+"Three crossings have been reopened." ______
+"The decision was announced on Tuesday." ______
+"The figure is still being checked." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+The lead must say: ___________
+The figure is: ___________
+What stays in every take: ___________
+
+@FIG g-newsroom | Audio 7.2 — a subscriber has dropped a credit line, and is asked for it back.
+@SUBHEAD Listening B | · the credit that was cut
+@LABEL MODEL | Audio 7.2 — Mira and Omar
+@DIALOGUE
+Mira | Omar, the piece was carried last night without Kalina Daily's credit.
+Omar | It was cut on the page, not by me. The space was short.
+Mira | The credit is three words. Dren's interviews were done on the closed side, alone.
+Omar | I know. It will be corrected online within the hour, and in print tomorrow.
+Mira | Thank you. And the byline?
+Omar | It was dropped by the system, which uses agency bylines. That is being changed this week.
+Mira | Good. The reporting was not done by a system.
+Omar | No. It was done by him.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think has gone wrong? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The piece ___________ (carry) without Kalina Daily's credit.
+The credit ___________ (cut) on the page.
+It ___________ (correct) online within the hour.
+The byline ___________ (drop) by the system.
+
+@EX 4G | Which passive forms do you hear? Write one past, one future and one present-continuous passive.
+@NUM
+________________________
+
+@EX 4H | Answer. What does Mira mean by 'the reporting was not done by a system'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: been · was · being · be.
+@WHITE
+Three crossings have ______ reopened by the office. The figure is still ______ checked. The credit ______ cut by a page editor, and it will ______ corrected online within the hour.
+
+@EX 4J | The byline was dropped by a system, not a person. Why is that still somebody's responsibility?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The desk call is about: ___________
+The credit call is about: ___________
+
+@EX 4L | Discuss. Who should fix a credit that a subscriber's page template removed?
+
+@PART 5 | Reading: built to be carried | Two readings. Read for how a wire sentence is made, and for the rules of the passive.
+@FIG g-reach | Written once, published two hundred times. Every weakness is published too.
+@SUBHEAD Reading A | · how a wire sentence is built
+@READING Eleven words, two hundred newsrooms
+A wire sentence is written to be used by people who will never meet its author. It will be translated into languages nobody in the newsroom reads, shortened to four paragraphs, and read by someone who has never heard of the river. That is why it is built the way it is.
+
+"Most of our leads are passive, and that is not laziness," says Daniel Okoye, world editor at Atlas Wire. "What has happened is usually what the reader needs first. *Three crossings have been reopened* — then the name of the body that reopened them."
+
+The name of the body is not optional, and never has been. A snap that says *the crossings were reopened* can be read as an accident of nature, and a sentence that can be read two ways will be, somewhere. So the authority goes into the first paragraph, because the first paragraph is sometimes all that is carried.
+
+Unfinished work is marked in the same grammar. *The figure of 112 returning families is still being checked* tells a subscriber in another country exactly how much weight to give the number, in six words. "The continuous passive is the most honest tense we have," Daniel says. "It says the work is still going on."
+
+Two things are never cut, in any version and at any length. The credit line names the outlet whose reporting it is, and the byline names the reporter who did it. Both were nearly lost when one subscriber's page template used agency bylines automatically.
+
+"A credit is not a courtesy," says Omar Faris of the Meridian Post, who had it corrected within the hour. "It is the only payment some reporters get, and in some places it is also their protection. A name on a story says somebody stands behind it."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: why might eleven words reach two hundred newsrooms? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+Most wire leads are passive. ______
+The name of the authority is optional in a snap. ______
+'Is still being checked' tells a subscriber how much weight to give a number. ______
+A credit line is only a courtesy. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why does the authority go into the first paragraph? ___________
+Why does Daniel call the continuous passive honest? ___________
+What two things are never cut? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+an outlet that pays to use the wire → ___________
+the reporter's name on a story → ___________
+short and clear → ___________
+
+@FIG g-partners | The credit line is the smallest partner's name in the biggest newspaper.
+@SUBHEAD Reading B | · the passive on the wire
+@READING Four rules for the passive
+**1. Use it when the action comes first.** *Three crossings have been reopened* puts the news where a reader starts. The body follows at once.
+**2. Name the doer whenever you have one.** Leave out *by* only when the doer is unknown or obvious. A passive with no name can be read as nobody's fault.
+**3. Mark unfinished work with the continuous.** *The figure is still being checked* stops a subscriber abroad printing a number as settled.
+**4. Never use it to hide.** *Mistakes were made* is grammar standing in for reporting. If you know who did it, the sentence says so.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which tense shows work that is not finished? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  action first
+2.  name the doer
+3.  mark unfinished work
+4.  never hide
+@@
+a)  'the figure is still being checked'
+b)  'mistakes were made'
+c)  'three crossings have been reopened'
+d)  'reopened by the Crossing Office'
+
+@EX 5G | Which rule is about honesty rather than clarity? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+a one-line urgent message → ___________
+the name of the outlet material came from → ___________
+to publish material from the wire → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with the passive.
+@NUM
+Three crossings ___________ (reopen) by the office. (present perfect)
+The figure ___________ (check) at the moment. (present continuous)
+The credit ___________ (correct) within the hour. (future)
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. 'A sentence that can be read two ways will be, somewhere.' What does that mean for wire copy?
+@EX 5K | Which of the four rules is hardest to keep under pressure? Say why.
+@EX 5L | Discuss. 'A credit is the only payment some reporters get.' What follows from that?
+
+@PART 6 | Writing: wire copy | Two short pieces: a snap, and a full wire take.
+@FIG g-notes | A snap is one sentence. Everything in it has to be load-bearing.
+@SUBHEAD Writing 1 | · a snap
+@LABEL MODEL | A model
+@WARMBOX
+SNAP · VARA-CROSSINGS
+Three crossings on the river Vara have been reopened by the Crossing Office — Atlas Wire, with Kalina Daily
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which words are the passive verb? ___________
+Who is named as the doer? ___________
+
+@LABEL PRODUCE | Write your snap
+@EX 6B | Choose a story. Write a snap: a slug, one passive sentence with by, and a credit.
+@WHITE
+Slug: ___________
+Snap: ___________
+Credit: ___________
+
+@FIG g-model | A full take adds the authority, the date, the unfinished work and the credit.
+@SUBHEAD Writing 2 | · a full wire take
+@LABEL MODEL | A model
+@WARMBOX
+KALINA, 14 October (Atlas Wire) — Three crossings on the river Vara have been reopened by the Crossing Office, the first since the Kalina bridge was reopened last spring. The decision was announced on Tuesday and confirmed on Wednesday. A figure of 112 returning families is still being checked. The upstream reporting was carried out with Kalina Daily; interviews on the closed side were done by its reporter, Dren Markaj. The piece may be used by subscribers with the credit line kept.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find a present-perfect passive, a past passive and a continuous passive in the take.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the take. Use: been · was · being · be.
+@WHITE
+Three crossings have ______ reopened. The decision ______ announced on Tuesday. The figure is still ______ checked. The piece may ______ used with the credit kept.
+
+@LABEL PRODUCE | Write your take
+@EX 6E | Turn your snap into a full wire take (4–5 sentences). Use three different passive tenses.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This copy uses a broken participle and hides a name. Correct both.
+@WHITE
+"Three crossings have been reopen. Mistakes were made with the figure."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a take. Write three lines: the passive lead with by, one thing still being checked, the credit.
+@WHITE
+Lead: ___________
+Being checked: ___________
+Credit: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Does every passive either name the doer or have a reason not to? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: defending the copy | Explain your wire copy to a desk. Use the passive, and say by whom.
+@FIG g-interview | Defending a sentence: why the passive, and why the name stays.
+@SUBHEAD A model dialogue | · why the name stays
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | The lawyers want the name out of the lead.
+Mira | Then the sentence says the crossings reopened themselves.
+Sofia | Is the passive not enough?
+Mira | The passive puts the action first. It does not remove the doer — it moves it.
+Sofia | And if only one paragraph is carried?
+Mira | Then that paragraph has to hold the authority. It is the only one some readers will see.
+Sofia | And the figure?
+Mira | 'Is still being checked.' Six words, and no subscriber prints it as settled.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one passive with by, one continuous passive and one modal passive. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with the passive.
+@NUM
+What / happen / to the three crossings? → ___________
+Who / reopen / them? → ___________
+What / be done / with the figure? → ___________
+
+@FIG g-introduce | Open with the action, then the authority, then what is unfinished.
+@EX 7C | Make a passive question, then answer it.
+@NUM
+the piece / carry / by many subscribers → ________________________
+the credit / keep / in every take → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Wire reporter | Say what has been done, by whom, and what is still being checked.
+Desk editor | Ask: 'Reopened by whom?' and 'Can this be cut to one paragraph?'
+Observer | Listen. Did every passive either name the doer or have a reason not to?
+
+@EX 7D | Choose a role from the table. Defend your lead to your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a wire desk check: a reporter, a desk editor, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · asking for a credit back
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | The piece was carried without Kalina Daily's credit.
+Omar | It was cut by the page, not by the desk. I will have it corrected.
+Mira | Online and in print, please. Those interviews were done on the closed side.
+Omar | They were. The byline was dropped by our template; it is being changed.
+Mira | Three words, Omar. In your paper, they are worth a great deal in his town.
+Omar | They will be there tomorrow.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the two passive sentences Omar uses about the credit and the byline.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+form the passive correctly in each tense?
+name the doer with by wherever I have one?
+use the continuous passive for unfinished work?
+keep the credit and the byline in every version?
+
+@EX 7G | Role-play asking a subscriber to restore a partner's credit. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your answers. Note one passive lead, one unfinished item, one credit you will defend.
+@EX 7I | Discuss. How would you explain to a lawyer that a name makes a sentence safer, not riskier?
+
+@PART 8 | Ethics: the hiding place | The passive can put the action first, or it can make a person disappear. The grammar is the same; the journalism is not.
+@FIG g-code | Independence means the grammar is chosen by the newsroom, not by whoever is named in it.
+@FIG u7-ethA | 'Mistakes were made' is a sentence with nobody in it.
+@SUBHEAD A first case | · the name the lawyers wanted out
+@CASE Lawyers in two countries ask for the lead to read 'the crossings were reopened', with no body named. Their reasoning is reasonable: naming an authority invites a complaint, and the complaint lands on the smallest partner first. Nobody is asking Atlas Wire to write anything false. But a passive with no doer can be read as an accident, and the office's decision — taken by named people, announced on a Tuesday — becomes weather. If the sentence is wrong, nobody can even be asked about it. The Code says: the passive may order a sentence, never empty it. What goes in the lead?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'The crossings were reopened.'  (b) 'The crossings were reopened by the Crossing Office.'   Choice: ______  Because ________________________
+A passive that removes a name you have is (a) careful  (b) a gap the reader cannot see.   Choice: ______
+
+@EX 8B | Orders the sentence, or empties it? Write O or E.
+@NUM
+'Three crossings have been reopened by the Crossing Office.' ______
+'Mistakes were made in the figure.' ______
+'The figure is still being checked by our verification desk.' ______
+'The credit was removed.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: action · name · hide · unfinished.
+@WHITE
+Use the passive to put the ______ first. Add the ______ whenever you have it. Mark ______ work with the continuous. Never use it to ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why does a complaint about a named authority usually land on the smallest partner first?
+@SUBHEAD A second case | · the credit that disappeared
+@FIG u7-ethB | A template dropped three words. In Kalina, those three words are the story's spine.
+@CASE The Post's page template replaces partner credits with an agency line, automatically. Nobody decided to remove Kalina Daily's name; a system did, as it does every night. But Dren interviewed people on the closed side alone, and in his town the credit is both his pay and his standing — the proof that the work was his and that a large paper stands behind it. 'It was dropped by the system' is a true passive sentence with nobody in it. The Code says: a process is not an excuse; somebody owns it. What should the Post do, and what should Atlas Wire insist on?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) accept that templates do this  (b) correct it online and in print, and change the template.   Choice: ______  Because ________________________
+'It was dropped by the system' is (a) an explanation  (b) an explanation and not an excuse.   Choice: ______
+
+@EX 8F | Complete with: template · credit · owns · alone.
+@NUM
+The ___________ replaced the partner's name.
+Dren did the interviews ___________ .
+The ___________ is his pay and his standing.
+Somebody ___________ the process.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is a credit line worth more to a small local paper than to a large one?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences to a subscriber asking for a credit to be restored. Use the passive and name who must act.
+@LABEL PRACTISE | One more
+@EX 8I | Takes responsibility, or avoids it? Write R or A.
+@NUM
+'The credit was dropped by our template; I am having it changed.' ______
+'The credit was dropped.' ______
+'I cut the credit for space, and I was wrong.' ______
+'Credits are sometimes lost.' ______
+
+@EX 8J | Discuss. A passive sentence can be perfectly true and still leave a hole. How do you spot one?
+
+@PART 9 | Digital: the alert and the update | Online, the wire becomes an alert. The passive gets even shorter — and the name still has to fit.
+@FIG g-phonealert | An alert is a snap with a vibration. There is room for the name.
+@LABEL MODEL | A model alert
+@WARMBOX
+ALERT · Three crossings on the river Vara have been reopened by the Crossing Office — the first since the Kalina bridge reopened last spring. A figure of 112 returning families is still being checked. — @AtlasWire with @KalinaDaily
+
+@LABEL NOTICE | The parts of the alert
+@EX 9A | Match the part to its job.
+@MATCH
+1.  have been reopened
+2.  by the Crossing Office
+3.  is still being checked
+4.  with @KalinaDaily
+@@
+a)  the doer
+b)  the action, first
+c)  the credit
+d)  the unfinished work
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the present-perfect passive and the continuous passive in the alert. Write them.
+@NUM
+________________________
+
+@EX 9C | This alert has a broken participle and no doer. Correct both.
+@WHITE
+"Three crossings have been reopen. The figure was confirm."
+
+@P
+________________________
+
+@FIG u7-sum | A good alert answers: what has been done, by whom, and what is still being checked.
+@EX 9D | Write an alert. Use one present-perfect passive with by, and one continuous passive.
+@WHITE
+ALERT · ___________ have been ___________ by ___________ . ___________ is still being ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your alert
+@EX 9E | Write a one-line alert about something near you. Use the passive and name the doer.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) in the passive.
+@EX 9G | A reader replies: 'Who reopened them?' Write a short answer. Use the passive with by.
+@WHITE
+________________________
+
+@EX 9H | An alert has no room for context. Write one line that is short and still names the authority.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 what has been done and by whom, line 2 what is still being checked.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. An alert is read in two seconds. What must never be the thing you cut?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 8.
+@FIG g-website | The story as subscribers ran it: the action first, the authority named, the credit kept.
+@EX 10A | Vocabulary. Complete with: wire · dateline · lead · snap · byline · credit · subscriber · kill.
+@NUM
+The story went out on the ___________ .
+The ___________ reads KALINA, 14 October.
+A good ___________ says what happened in one sentence.
+The ___________ was eleven words long.
+Dren's ___________ stays on every take.
+Kalina Daily's ___________ must not be cut.
+One ___________ asked for a shorter version.
+An error was found, so the take was ___________ .
+
+@EX 10B | Grammar. Make these passive. Keep the tense.
+@NUM
+The office reopened three crossings. → ___________
+Priya checks every figure twice. → ___________
+The desk has rewritten the lead. → ___________
+Two hundred newsrooms will carry it. → ___________
+
+@EX 10C | Grammar. Complete with the passive in the tense given.
+@NUM
+The figure ___________ (check) at the moment. (present continuous)
+The snap ___________ (send) at 06:40. (past)
+Three crossings ___________ (reopen) since April. (present perfect)
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Add the doer with by.
+@NUM
+The crossings were reopened. (the Crossing Office) → ___________
+The register was kept for seven years. (a resident) → ___________
+The lead was rewritten. (the foreign desk) → ___________
+
+@EX 10E | Read and answer.
+@WHITE
+KALINA, 14 October (Atlas Wire) — Three crossings on the river Vara have been reopened by the Crossing Office. The decision was announced on Tuesday. A figure of 112 returning families is still being checked. The upstream reporting was carried out with Kalina Daily, and the piece may be used by subscribers with the credit kept.
+
+@NUM
+What has been reopened, and by whom? ___________
+What is still being checked? ___________
+On what condition may subscribers use the piece? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can form the passive in every tense.
+I can choose the passive when the action matters most.
+I can say by whom — and know when I must.
+I can write wire copy that any newsroom can carry.
+
+@EX 10F | Reflect. Which part of Unit 7 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+Three crossings have been reopen since April. → ________________________
+The figure is checking at the moment. → ________________________
+Mistakes were made with the credit. (name the doer) → ________________________
+The piece will carried by subscribers. → ________________________
+
+@EX 10H | Mixed review. Complete with the passive.
+@NUM
+The credit ___________ (correct) within the hour. (future)
+The byline ___________ (drop) by the template. (past)
+The template ___________ (change) this week. (present continuous)
+
+@EX 10I | Reflect. Write one passive sentence about your own work, and name the doer.
+
+@PART 11 | Assignment: a wire report | Put the unit together: write copy that two hundred newsrooms could carry.
+@FIG g-template | The assignment template — your wire report.
+@P
+**Your task. **Write a wire report (6–7 sentences) with a dateline and a slug. Your lead must be a passive sentence naming the body that acted. Use at least three passive tenses, mark one thing that is still being checked with the continuous passive, say how the reporting was done and with whom, and end with the credit line a subscriber must keep. Then write the same story as a one-sentence snap.
+
+@FIG g-model | A model — use Reading A and the Writing 2 model to check the shape of your report.
+@WHITE
+Remember: be + past participle; the action first, then the doer; by whenever you have a name; the continuous passive for unfinished work; the credit and the byline in every version; and never a passive used to hide.
+
+@CRITERIA Success criteria
+My passive forms are correct in every tense I use.
+My lead names the body that acted.
+I mark unfinished work with the continuous passive.
+No passive in my copy hides a name I have.
+The credit line and the byline survive into the snap.
+
+@P
+**Keep this. **In Unit 8, you explain the basin to a reader who has never seen it — comparatives, superlatives, as…as and too/enough — because scale is how a distant reader understands a place.
+
+@KEY Book 2 · Unit 7 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 'Three crossings on the Vara have been reopened.' · 2 the Crossing Office · 3 'the crossings were reopened', with no name
+W2 | 1 F (the name was in the second take) · 2 T · 3 T
+W3 | present perfect: 'have been reopened' · past: 'the crossings were reopened' · present continuous: 'the piece is being rewritten'
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 wire · 2 dateline · 3 lead · 4 snap · 5 credit · 6 carried
+1C | 1 file a take · 2 pick up a story · 3 keep the credit · 4 follow the style guide · 5 send an update
+1D | 1 deadline · 2 partial · 3 wordy · 4 kill
+1E | 1 wire · 2 neutral · 3 concise · 4 carried · 5 rewritten
+1F | 1 subscriber · 2 style guide · 3 update · 4 rewrite
+1G | slug · takes · update · house style · byline
+1J | take · picked up · subscriber · concise · killed
+2A | 1 Three crossings were reopened by the office. · 2 Every figure is checked twice by Priya. · 3 The lead has been rewritten by the desk. · 4 The piece will be carried by two hundred newsrooms.
+2B | 1 is being checked · 2 was sent · 3 have been reopened · 4 will be published
+2C | 1 The crossings were reopened by the Crossing Office. · 2 The register was kept for seven years by a resident. · 3 The lead was rewritten by the foreign desk.
+2D | 1 A — 'mistakes were made' names nobody · 2 A — the council is known, so the active names it
+2G | 1 Three crossings have been reopened since April. · 2 The figure is being checked at the moment.
+3A | 1 three crossings on the Vara, by the Crossing Office · 2 a figure of 112 returning families · 3 the credit line
+3B | present perfect: 'have been reopened' · past: 'was announced' / 'was reopened' · continuous: 'is still being checked'
+3C | 1 Three crossings have been reopened by the office. · 2 The figure is being checked. · 3 The piece may be used by subscribers.
+3D | been · was · being · be
+3E | 1 The lead: what has been reopened, and by whom. · 2 When it was announced and confirmed. · 3 What is still unconfirmed. · 4 How the reporting was done, and with whom.
+3H | a subscriber may carry only the first paragraph; without a name it reads as an accident
+4B | 1 the doer — by the Crossing Office · 2 the authority must be in the paragraph that is carried · 3 'is still being checked' · 4 the credit and the byline
+4C | 1 PP · 2 P · 3 C
+4D | The lead must say = what has been reopened and by whom · The figure = still being checked · Every take = the credit and the byline
+4F | 1 was carried · 2 was cut · 3 will be corrected · 4 was dropped
+4G | past: 'it was cut on the page' · future: 'it will be corrected within the hour' · continuous: 'that is being changed this week'
+4H | a person did the interviews alone, so a person's name belongs on them
+4I | been · being · was · be
+4J | somebody chose the template and somebody can change it
+4K | Desk = the lead, the authority, unfinished work · Credit = whose name, and who restores it
+5B | 1 T · 2 F · 3 T · 4 F
+5C | 1 because the first paragraph is sometimes all that is carried · 2 because it says the work is still going on · 3 the credit line and the byline
+5D | 1 subscriber · 2 byline · 3 concise
+5F | action first → 'three crossings have been reopened' · name the doer → 'reopened by the Crossing Office' · mark unfinished work → 'the figure is still being checked' · never hide → 'mistakes were made'
+5G | Rule 4
+5H | 1 snap · 2 credit · 3 carry
+5I | 1 have been reopened · 2 is being checked · 3 will be corrected
+6A | 1 'have been reopened' · 2 the Crossing Office
+6C | present perfect: 'have been reopened' · past: 'was announced' / 'were done' · continuous: 'is still being checked'
+6D | been · was · being · be
+6F | 'Three crossings have been reopened by the Crossing Office. The figure was published by the office and is still being checked.'
+7A | with by: 'the piece was carried without the credit' / 'reopened by the Crossing Office' · continuous: 'is still being checked' · modal: 'the piece may be used'
+7B | 1 They have been reopened. · 2 They were reopened by the Crossing Office. · 3 It is still being checked.
+7C | 1 Will the piece be carried by many subscribers? — Yes, by about two hundred. · 2 Is the credit kept in every take? — Yes, in every take, including the snap.
+7F | 'It was cut by the page, not by the desk.' · 'The byline was dropped by our template; it is being changed.'
+8A | 1 (b) 'The crossings were reopened by the Crossing Office.' · 2 (b) a gap the reader cannot see
+8B | 1 O · 2 E · 3 O · 4 E
+8C | action · name · unfinished · hide
+8E | 1 (b) correct it online and in print, and change the template · 2 (b) an explanation and not an excuse
+8F | 1 template · 2 alone · 3 credit · 4 owns
+8I | 1 R · 2 A · 3 R · 4 A
+9A | 'have been reopened' → the action, first · 'by the Crossing Office' → the doer · 'is still being checked' → the unfinished work · 'with @KalinaDaily' → the credit
+9B | present perfect: 'have been reopened' · continuous: 'is still being checked'
+9C | 'Three crossings have been reopened by the Crossing Office. The figure is still being checked.'
+10A | 1 wire · 2 dateline · 3 lead · 4 snap · 5 byline · 6 credit · 7 subscriber · 8 killed
+10B | 1 Three crossings were reopened by the office. · 2 Every figure is checked twice by Priya. · 3 The lead has been rewritten by the desk. · 4 It will be carried by two hundred newsrooms.
+10C | 1 is being checked · 2 was sent · 3 have been reopened
+10D | 1 The crossings were reopened by the Crossing Office. · 2 The register was kept for seven years by a resident. · 3 The lead was rewritten by the foreign desk.
+10E | 1 three crossings on the river Vara, by the Crossing Office · 2 a figure of 112 returning families · 3 that the credit line is kept
+10G | 1 Three crossings have been reopened since April. · 2 The figure is being checked at the moment. · 3 The page editor cut the credit. · 4 The piece will be carried by subscribers.
+10H | 1 will be corrected · 2 was dropped · 3 is being changed
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, the Crossing Office, Dren Markaj and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 7 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Across Borders (wholly) · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + the wire desk and a subscriber · fictional agency, factual backdrop.

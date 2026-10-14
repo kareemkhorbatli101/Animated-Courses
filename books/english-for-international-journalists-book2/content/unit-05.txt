@@ -1,0 +1,858 @@
+@UNITHEAD BOOK 2 · UNIT 5 | If We Confirm It: The Conditions for Publishing | Beat · Verification & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+state a rule with the zero conditional
+set a real condition with the first conditional
+use unless, as long as and provided that
+say when something will happen with time clauses
+
+@FIG g-team | The Atlas Wire team — agreeing the conditions that must be met before anything runs.
+@STORY Nothing runs until it is confirmed. | The Seven Crossings is written. Now come the conditions. Four newsrooms have agreed a single hour of publication, and a short list of things that must be true before that hour: two sources for every figure, a document for every claim, a right of reply for everyone named, and a lawyer's reading in each country. This week, Priya sets the conditions, Omar pushes to run early, and Mira learns to say *if* and *until* in a way nobody can misread. (Atlas Wire, Kalina Daily, the River Basin Network and the Meridian Post are invented, for practice.)
+
+@WARMUP The conditions | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the list of conditions goes on the wall.
+@WARMBOX
+"If a figure has one source, we do not publish it," Priya says. "That is the rule, and it does not change."
+Ana writes it on the board. "And if the Crossing Office gives us the method?"
+"Then we will run the figure on Sunday, with the method beside it."
+"And if it does not?"
+"We publish the story without the number. We do not publish a number we cannot stand behind."
+Omar's message arrives as she finishes. *If we wait, somebody else runs it first.* Ana reads it twice. "We will wait," she says, "until it is confirmed."
+
+@EX W1 | Answer the questions.
+@NUM
+What is Priya's rule about a figure with one source? ___________
+What will they do if the office gives them the method? ___________
+What does Ana decide? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+They will publish a figure with one source. ______
+They will run the figure if the office gives the method. ______
+Ana decides to publish before it is confirmed. ______
+
+@EX W3 | Find one zero conditional, one first conditional, and one time clause in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What is one rule in your work that never changes? Say it with 'if'.
+What will you do if your next deadline moves?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'Somebody else will run it first.' Is that ever a reason to publish early?
+
+@PART 1 | The words of verification | The words for conditions, proof and holding a story.
+@FIG u5-words | Four key words — condition, verify, embargo, second source.
+@H The words
+@VOCAB
+condition | something that must be true first
+verify | to prove that something is true
+second source | another independent person who confirms it
+corroborate | to support a claim with other evidence
+evidence | the facts that prove something
+document | a paper that proves something
+embargo | an agreed time before which nothing is published
+hold (v) | to wait before publishing
+withhold | to keep something back
+legal check | a lawyer's reading before publication
+sign off | to approve for publication
+right of reply | the chance to answer a claim about you
+threshold | the level you must reach before you publish
+provisional | not final; it may still change
+independent | not controlled by anyone
+risk (n) | the chance that something goes wrong
+unless | if not
+as soon as | immediately when
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  condition
+2.  verify
+3.  second source
+4.  embargo
+5.  hold
+6.  right of reply
+7.  threshold
+8.  provisional
+9.  independent
+10.  withhold
+@@
+a)  to prove that something is true
+b)  something that must be true first
+c)  an agreed time before which nothing is published
+d)  another person who confirms it
+e)  to wait before publishing
+f)  the chance to answer a claim about you
+g)  the level you must reach before you publish
+h)  not final; it may still change
+i)  not controlled by anyone
+j)  to keep something back
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | condition · verify · embargo · hold · evidence · legal check
+@NUM
+Two sources is the first ___________ .
+Priya cannot ___________ the figure yet.
+All four partners agreed one ___________ hour.
+We will ___________ the story until Sunday.
+A document is the strongest ___________ .
+Every country needs its own ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  meet a
+2.  break an
+3.  verify a
+4.  sign
+5.  offer a
+@@
+a)  figure
+b)  condition
+c)  embargo
+d)  right of reply
+e)  off
+
+@EX 1D | Circle the word that is different.
+@NUM
+verify · confirm · corroborate · guess
+evidence · document · proof · rumour
+hold · wait · delay · rush
+provisional · final · temporary · uncertain
+
+@FIG g-sources | One source is a claim. Two independent sources are a fact.
+@EX 1E | Complete the paragraph. Use: condition · verify · second source · provisional · embargo.
+@WHITE
+The first ___________ is simple: ___________ every figure. One voice is a claim; a ___________ makes it a fact. Until then the number is ___________ , and the ___________ holds.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+the chance to answer a claim about you → ___________
+to approve for publication → ___________
+the level you must reach before you publish → ___________
+if not → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: embargo · legal check · sign off · right of reply · threshold.
+@WHITE
+The partners agreed one ___________ . Each country ran its own ___________ . Nobody would ___________ until the ___________ had been offered to everyone named, and the two-source ___________ had been met.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What is one condition you always meet before you send work out?
+When did you last have to wait for proof? What happened?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: risk · withhold · independent · as soon as · corroborate.
+@WHITE
+We will ___________ the name ___________ there is any ___________ to her. Two ___________ witnesses ___________ the rest of the account.
+
+@EX 1K | Creative. Write two sentences about a condition you would set before publishing something.
+
+@PART 2 | Grammar: rules and real conditions | The zero conditional for rules; the first conditional for real futures; unless, as long as, provided that.
+@FIG u5-gA | Zero conditional = a rule that is always true. First conditional = one real future.
+@GRAMMAR 1 · zero conditional — a rule
+Form: {{If}} + present simple, present simple. "{{If}} a figure {{has}} one source, we {{do not publish}} it."
+For something always true: a rule, a law, a standing practice.
+You can swap the halves: "We {{do not publish}} a figure {{if}} it has one source."
+
+@GRAMMAR 2 · first conditional — one real future
+Form: {{If}} + present simple, {{will}} + verb. "{{If}} the office {{confirms}} it, we {{will run}} it on Sunday."
+For one real possibility in the future, and its result.
+[[Never 'if…will']] in the if-half: say *if it confirms*, NOT *if it will confirm*.
+
+@FIG u5-gB | unless = if not · as long as / provided that = only on this condition.
+@GRAMMAR 3 · unless · as long as · provided that
+{{Unless}} = if not: "We will not publish {{unless}} we have two sources."
+{{As long as}} / {{provided that}} = only on this condition: "We will run it {{as long as}} the method comes."
+[[Not with a second not]]: say *unless we have*, NOT *unless we don't have*.
+
+@FIG u5-gC | Rule, real future, or condition — each has its own form.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with the zero conditional.
+@NUM
+If a figure ___________ (have) one source, we ___________ (not publish) it.
+If a claim ___________ (be) about a named person, they ___________ (get) a right of reply.
+If a document ___________ (be) unsigned, the desk ___________ (ask) for the original.
+
+@EX 2B | Complete with the first conditional.
+@NUM
+If the office ___________ (confirm) the figure, we ___________ (run) it on Sunday.
+If Priya ___________ (not verify) it, we ___________ (publish) the story without the number.
+If one partner ___________ (break) the embargo, the others ___________ (lose) the day.
+
+@EX 2C | Rewrite with unless.
+@NUM
+We will not publish if we do not have two sources. → ________________________
+He will not be named if he does not agree. → ________________________
+
+@EX 2D | Complete with as long as or provided that.
+@NUM
+We will run the figure ___________ the method comes with it.
+The Post may use the quote ___________ Dren is credited.
+
+@H Your own words
+@EX 2E | Write two rules of your own work. Use the zero conditional.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two real conditions for your next piece of work. Use the first conditional.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (zero / first conditional / unless).
+@NUM
+If the office will confirm it, we will run it. → ________________________
+Unless we don't have two sources, we will not publish. → ________________________
+
+@EX 2H | Your own words. Write one rule and one real condition about your own work.
+@NUM
+________________________
+
+@PART 3 | Setting the conditions | A conditions note says what must be true before publication, and when each thing happens.
+@FIG g-timezones | One hour, four countries. Every condition has to be met before it, not after.
+@FIG u5-skill | A conditions note: what must be true, who checks it, and by when.
+@GRAMMAR 4 · time clauses — saying when
+After {{when, until, as soon as, before, after, by the time}}, use the {{present}} for the future.
+"We will run it {{when}} the method {{arrives}}." "We will hold {{until}} it {{is}} confirmed."
+[[Not 'will' twice]]: say *as soon as it arrives*, NOT *as soon as it will arrive*.
+
+@LABEL MODEL | A model conditions note
+@WARMBOX
+"Here are the conditions. If a figure has one source, it does not run — that is standing practice, not a judgement call. We will publish the Crossing Office number as soon as the method arrives; if it does not arrive by Friday, the story runs without it.
+Everyone named gets a right of reply, and we hold until the replies are in or the deadline passes. Each partner runs its own legal check. Nobody signs off before the two-source threshold is met.
+The embargo holds until 07:00 GMT on Sunday, unless all four of us agree to move it together."
+
+@LABEL NOTICE | Notice the conditions
+@FIG u5-read | Conditions are not delays. They are the reason a story survives contact with the world.
+@EX 3A | Answer about the model.
+@NUM
+What happens if a figure has one source? ___________
+When will they publish the Crossing Office number? ___________
+Until when does the embargo hold? ___________
+
+@EX 3B | Find one zero conditional, one first conditional, and one time clause in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the conditions
+@FIG g-fivew | A condition answers: what must be true, who checks it, and by when.
+@EX 3C | Write the sentence as a zero conditional, a first conditional, or a time clause.
+@NUM
+one source / we / not publish (a rule) → ________________________
+the method / arrive / we / run the figure (a real future) → ________________________
+the replies / be in / we / publish (a time clause with 'when') → ________________________
+
+@EX 3D | Complete the note. Use: if · unless · until · as soon as.
+@WHITE
+______ a figure has one source, it does not run. We will publish ______ the method arrives. We hold ______ the replies are in. Nobody signs off ______ the threshold is met.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the conditions in order. Number them 1–4.
+@NUM
+The legal check in each country. ______
+Two sources for every figure. ______
+Sign-off and publication at the agreed hour. ______
+A right of reply for everyone named. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a story. Write a conditions note (4–5 sentences): one rule (zero conditional), one real condition (first conditional), one time clause, and one thing you will not do.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why is 'we do not publish one-source figures' better as a rule than as a decision?
+@EX 3H | Why is 'we will hold until it is confirmed' clearer than 'we will probably wait'? Explain.
+@EX 3I | Discuss. Who should be allowed to move an embargo — any partner, or only all of them together?
+
+@PART 4 | Listening: before it runs | Two audios. Listen for the conditions, and for the pressure to break them.
+@FIG g-desk | Audio 5.1 — verification sets the conditions before anyone talks about hours.
+@SUBHEAD Listening A | · verification sets the bar
+@LABEL MODEL | Audio 5.1 — Priya and Mira
+@DIALOGUE
+Priya | Two sources for every figure. If we have one, it does not run.
+Mira | And the Crossing Office number?
+Priya | One source, and no method. If they send the method, we will run it on Sunday.
+Mira | And if they do not?
+Priya | The story runs without the number. It is a good story without it.
+Mira | The far-bank families?
+Priya | Two witnesses, and a document. That one is solid, as long as we do not name the woman who kept the records.
+Mira | Understood. When will the legal checks be finished?
+Priya | Geneva by Wednesday. The others as soon as their lawyers have read it.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what condition do you think Priya will set first? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What is Priya's rule about figures? ___________
+What will happen if the office sends the method? ___________
+What will happen if it does not? ___________
+On what condition is the far-bank account solid? ___________
+
+@EX 4C | Rule, real future, or time clause? Write R, F, or T.
+@NUM
+"If we have one source, it does not run." ______
+"If they send the method, we will run it." ______
+"As soon as their lawyers have read it." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+The standing rule: ___________
+The real condition on the figure: ___________
+What happens if the method does not come: ___________
+
+@FIG g-newsroom | Audio 5.2 — a partner asks to run early, and hears why nobody can.
+@SUBHEAD Listening B | · the pressure to run early
+@LABEL MODEL | Audio 5.2 — Omar and Ana
+@DIALOGUE
+Omar | Ana, I think somebody else has the story. If we wait, we lose it.
+Ana | If one of us runs early, the other three lose the day. That is the agreement.
+Omar | And if a rival publishes on Saturday?
+Ana | Then we publish on Saturday — all four of us, together, within the hour.
+Omar | That is fair. But I am under pressure here.
+Ana | So is Dren, and he has the most to lose. He will still be in Kalina next year.
+Omar | Understood. I will hold until Sunday.
+Ana | Thank you. As soon as anything changes, you will hear it from me first.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Omar will ask for? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+If one partner runs early, the other three ___________ the day.
+If a rival publishes on Saturday, all four ___________ publish on Saturday.
+Omar ___________ hold until Sunday.
+Ana will call him as soon as anything ___________ .
+
+@EX 4G | Which forms do you hear? Write one first conditional, one zero conditional, and one time clause.
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Ana say Dren has the most to lose?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: if · unless · until · as soon as.
+@WHITE
+______ a figure has one source, it does not run. Nothing publishes ______ all four partners agree. The embargo holds ______ Sunday, and Ana will call ______ anything changes.
+
+@EX 4J | Omar is under real pressure. Why is 'we will all move together' a better answer than 'no'?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+Priya's conditions are about: ___________
+Ana's conditions are about: ___________
+
+@EX 4L | Discuss. Which condition is harder to keep — a verification rule, or an embargo?
+
+@PART 5 | Reading: the rules they agreed first | Two readings. Read for the conditions, and for why they come before the calendar.
+@FIG g-reach | A story that runs in four countries can only be as strong as its weakest condition.
+@SUBHEAD Reading A | · what must be true before Sunday
+@READING Nothing runs until it is confirmed
+Before the four newsrooms agreed an hour, they agreed a list. It is one page long, it was written in a morning, and it is the reason the project will survive its own publication.
+
+The first condition is arithmetic. If a figure has one source, it does not run. "That is not a judgement we make story by story," says Priya Nair, who leads verification at Atlas Wire. "It is a rule. Rules are what you have when you are tired."
+
+The second is paper. Every claim about the crossings has to rest on something a reader could in principle see: a register, a council minute, a photograph with a date. Where a document exists but naming its keeper would put her at risk, the partners publish the document's substance and withhold her name.
+
+The third is the right of reply. Everyone named gets the chance to answer before publication, in their own language, with a real deadline. "If somebody answers us at the last hour, we will still carry it," says Omar Faris of the Meridian Post. "If they do not answer, we say that too."
+
+The fourth is law. Each partner runs its own legal check, in its own jurisdiction, because what is safe to print in one country is not always safe in another. Nobody signs off until all four have read the piece in their own jurisdiction.
+
+And then, last of all, comes the hour. The embargo holds until 07:00 GMT on the last Sunday of the month, and no partner may move it alone. "If a rival publishes first, we all move together, within the hour," says Ana Ferreira of Atlas Wire. "The one thing we never do is leave the smallest partner standing in the open on their own."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What do you think 'confirmed' will mean here? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+A figure with one source can run if the story is strong. ______
+The partners withhold a name if publishing it would put someone at risk. ______
+Everyone named gets a right of reply before publication. ______
+Any partner may move the embargo alone. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why does Priya call the two-source test a rule, not a judgement? ___________
+What happens if someone does not answer a right of reply? ___________
+Why does each partner run its own legal check? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+an agreed time before which nothing is published → ___________
+to keep something back → ___________
+a lawyer's reading before publication → ___________
+
+@FIG g-partners | The weakest partner sets the real deadline. That is not a weakness; it is the agreement.
+@SUBHEAD Reading B | · the conditions, in short
+@READING Four conditions before you publish
+**1. Two independent sources, or it does not run.** A rule, not a decision: *if a figure has one source, we do not publish it.* Rules survive tiredness.
+**2. Something a reader could see.** A register, a minute, a dated photograph. If naming its keeper would put them at risk, publish the substance and withhold the name.
+**3. A real right of reply.** Everyone named is asked before publication, with a deadline they can meet. If they answer late, carry it; if not, say so.
+**4. One hour, agreed by all.** Hold until the agreed time. If it breaks elsewhere, move together — never leave the smallest partner exposed.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which condition do you think is broken most often? Guess.
+@NUM
+______
+
+@EX 5F | Match the condition to the example.
+@MATCH
+1.  two sources
+2.  something a reader could see
+3.  a real right of reply
+4.  one hour, agreed by all
+@@
+a)  'we publish the substance and withhold her name'
+b)  'if they answer late, we carry it'
+c)  'if a figure has one source, it does not run'
+d)  'if it breaks elsewhere, all four move together'
+
+@EX 5G | Which condition protects a person rather than a fact? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+to prove that something is true → ___________
+not controlled by anyone → ___________
+the chance to answer a claim about you → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with the zero conditional, the first conditional, or a time clause.
+@NUM
+If a figure ___________ (have) one source, it ___________ (not run).
+If a rival ___________ (publish) first, all four ___________ (move) together.
+Nobody signs off until all four partners ___________ (read) the piece.
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. 'Rules are what you have when you are tired.' What does Priya mean?
+@EX 5K | Which of the four conditions would be hardest in your own work? Say why.
+@EX 5L | Discuss. Why is 'we all move together' a condition about fairness, not about speed?
+
+@PART 6 | Writing: the conditions on paper | Two short pieces: a conditions note, and a note holding a story.
+@FIG g-notes | Conditions on one page: the rule, the real condition, the hour.
+@SUBHEAD Writing 1 | · a conditions note
+@LABEL MODEL | A model
+@WARMBOX
+RULE: If a figure has one source, it does not run.
+CONDITION: If the Crossing Office sends the method, we will publish the figure on Sunday. If not, the story runs without it.
+REPLY: Everyone named is asked by Wednesday. We hold until the replies are in or the deadline passes.
+HOUR: The embargo holds until 07:00 GMT on Sunday, unless all four partners agree to move it together.
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line is a zero conditional? ___________
+Which line uses unless? ___________
+
+@LABEL PRODUCE | Write your note
+@EX 6B | Choose a story. Write a conditions note: one rule, one real condition, one time clause, one hour.
+@WHITE
+Rule: ___________
+Condition: ___________
+Reply: ___________
+Hour: ___________
+
+@FIG g-model | A holding note tells a partner why you are waiting, and exactly what will release it.
+@SUBHEAD Writing 2 | · a note holding a story
+@LABEL MODEL | A model
+@WARMBOX
+Dear Omar,
+We are holding the figure. If the Crossing Office sends its method, we will publish the number on Sunday with the method beside it. If it does not arrive by Friday, the story runs without the number.
+We will not move the embargo unless all four of us agree together. As soon as anything changes, you will hear it from me first.
+Best wishes, Mira
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find the first conditional, the 'unless' clause and the time clause in the note.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the note. Use: if · unless · as soon as · will.
+@WHITE
+______ the method arrives, we ______ publish on Sunday. We will not move the embargo ______ all four of us agree. ______ anything changes, you will hear it from me.
+
+@LABEL PRODUCE | Write your note
+@EX 6E | Turn your conditions into a short holding note to a partner (4–5 sentences). Use if, unless and one time clause.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This note uses 'if…will' and a double negative with 'unless'. Correct both.
+@WHITE
+"If the office will send the method, we will publish. Unless we don't agree together, the embargo stays."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a longer conditions note. Write three lines: one rule, one real condition, one time clause.
+@WHITE
+Rule: ___________
+Condition: ___________
+When: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Is every condition testable, and does every 'when' have a date? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: agreeing the conditions | Say what must be true before you publish. Use if, unless and time clauses.
+@FIG g-interview | Saying a condition out loud: what must be true, and what happens if it is not.
+@SUBHEAD A model dialogue | · setting the bar
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | Can we run the figure on Sunday?
+Mira | If the office sends the method, yes. If not, the story runs without it.
+Sofia | And the far-bank account?
+Mira | Two witnesses and a document. It runs, as long as we do not name the record-keeper.
+Sofia | When do the legal checks finish?
+Mira | Geneva on Wednesday, the others as soon as their lawyers have read it.
+Sofia | And the hour?
+Mira | 07:00 GMT. We do not move it unless all four of us agree together.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one zero conditional, one first conditional and one 'unless' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with a conditional or a time clause.
+@NUM
+What / happen / if the method / not arrive? → ___________
+On what condition / the far-bank account / run? → ___________
+When / the legal checks / finish? → ___________
+
+@FIG g-introduce | Open with the rule, then the condition, then the hour.
+@EX 7C | Make a question with 'if', then answer it.
+@NUM
+the office / confirm / the figure → ________________________
+a rival / publish / first → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Verification editor | State the rule, the condition, and what happens if it is not met.
+Partner | Ask: 'And if it does not arrive?' and 'Can we run early?'
+Observer | Listen. Was every condition testable, with a date?
+
+@EX 7D | Choose a role from the table. Agree the conditions with your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a conditions call: a verification editor, a partner, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · saying no to running early
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | If we hold until Sunday, we may lose it.
+Mira | If one of us runs early, the others lose the day. Especially Dren.
+Omar | And if somebody else breaks it first?
+Mira | Then we all move together, within the hour. Nobody stands out there alone.
+Omar | All right. I will hold.
+Mira | As soon as anything changes, you will hear it from me — before you hear it anywhere else.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the first conditional Mira uses about moving together.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use the zero conditional for a rule?
+use the first conditional for a real future (no 'if…will')?
+use unless, as long as or provided that correctly?
+use the present after when, until and as soon as?
+
+@EX 7G | Role-play saying no to a partner who wants to publish early. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your call. Note one rule, one condition, and one thing that would release the story.
+@EX 7I | Discuss. How would you say no to a bigger partner, and keep the partnership?
+
+@PART 8 | Ethics: holding and releasing | An embargo is a promise to three other newsrooms. A condition is a promise to the reader.
+@FIG g-code | Independence is a condition too: nobody outside the newsroom sets the hour.
+@FIG u5-ethA | Running early wins one morning and costs three partners a day.
+@SUBHEAD A first case | · the temptation to run early
+@CASE Omar hears that a rival may have the story. If the Post runs on Saturday morning, it gets the credit and the traffic; if it waits, a competitor may take both. Nobody would be publishing anything false — only early. But three newsrooms built their Sunday around the agreed hour, and the smallest of them, Kalina Daily, has one front page a week and no second chance. An embargo is not a courtesy; it is the only thing that makes a partnership of unequal outlets possible. The Code says: a promise to a partner is a promise. What should Omar do if the rival publishes first?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) run on Saturday and tell the others after  (b) call all four partners and move together.   Choice: ______  Because ________________________
+Breaking an embargo alone is (a) competitive  (b) a broken promise to three newsrooms.   Choice: ______
+
+@EX 8B | Keeps the agreement, or breaks it? Write K or B.
+@NUM
+'We will all move together, within the hour.' ______
+'We ran early; we will tell them afterwards.' ______
+'If a rival publishes, I call the others first.' ______
+'Our audience is bigger, so our hour wins.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: together · alone · agreed · first.
+@WHITE
+Hold until the ______ hour. If the story breaks elsewhere, move ______ . Call your partners ______ . Never leave the smallest one ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why does an embargo matter more to the smallest partner than to the biggest?
+@SUBHEAD A second case | · the condition that protects a person
+@FIG u5-ethB | A document proves the claim. Naming its keeper can cost her everything.
+@CASE The far-bank account rests on a register kept for seven years by a woman on the closed side. The document is decisive, and Dren wants it published in full: it is his town, his scoop, and the proof of what people there lost. But her handwriting is on every page, and three people in the valley know whose it is. Atlas Wire can publish the substance and withhold her name, which is weaker journalism and a safer life. The pressure here comes from below, not above — and it is sincere. The Code says: no story is worth a source. What do the partners publish?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) publish the register in full  (b) publish its substance and withhold her name.   Choice: ______  Because ________________________
+A condition that weakens a story but protects a source is (a) a loss  (b) the price of the story.   Choice: ______
+
+@EX 8F | Complete with: register · name · risk · substance.
+@NUM
+The ___________ proves what people lost.
+Her ___________ is on every page.
+Publishing it would put her at ___________ .
+The partners publish the ___________ only.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Dren's pressure is sincere and local. Why is it still pressure?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences to the partners, setting the condition that protects the record-keeper. Use if and unless.
+@LABEL PRACTISE | One more
+@EX 8I | Protects the source, or exposes her? Write P or E.
+@NUM
+'We publish the substance and withhold the name.' ______
+'We publish the pages as they are.' ______
+'We describe the document without its handwriting.' ______
+'We thank the keeper by name at the end.' ______
+
+@EX 8J | Discuss. 'No story is worth a source.' Is that a rule or a judgement? Say why.
+
+@PART 9 | Digital: holding the line online | Online, you can say what you know, what you do not, and what you are waiting for.
+@FIG g-phonealert | A holding post is journalism too: this is what we have, and this is what we are waiting for.
+@LABEL MODEL | A model post
+@WARMBOX
+WHAT WE KNOW · Two witnesses and a seven-year register describe what happened on the far bank. WHAT WE ARE WAITING FOR · The Crossing Office's method for its figure of 112. If it arrives, we will publish the number; if not, we will publish without it. Full story Sunday, 07:00 GMT, with @KalinaDaily and @MeridianPost. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to its job.
+@MATCH
+1.  Two witnesses and a register
+2.  the Crossing Office's method
+3.  if it arrives, we will publish
+4.  Sunday, 07:00 GMT
+@@
+a)  the real condition
+b)  what is already confirmed
+c)  the agreed hour
+d)  what is still missing
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the zero or first conditional in the post, and the time reference. Write them.
+@NUM
+________________________
+
+@EX 9C | This post uses 'if…will' and promises a number that is not confirmed. Correct both.
+@WHITE
+"If the office will confirm it, we publish. 112 families are back — more soon!"
+
+@P
+________________________
+
+@FIG u5-sum | A good holding post answers: what we know, what is missing, and when it runs.
+@EX 9D | Write a holding post. Use one first conditional and one time clause.
+@WHITE
+WHAT WE KNOW · ___________ . WHAT WE ARE WAITING FOR · ___________ . If ___________ , we will ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post saying you are holding a story, and what would release it.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a story that is still being confirmed.
+@EX 9G | A reader asks: 'Why have you not published it yet?' Write a short reply. Use unless and until.
+@WHITE
+________________________
+
+@EX 9H | A holding post can sound like a tease. Write one line that informs without teasing.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 what is confirmed, line 2 the condition on the rest.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. Saying 'we are waiting' tells a rival what you have. Is it still worth saying?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 6.
+@FIG g-website | The published story: every condition met, and the hour kept.
+@EX 10A | Vocabulary. Complete with: condition · verify · embargo · hold · evidence · right of reply · threshold · provisional.
+@NUM
+Two sources is the first ___________ .
+Priya could not ___________ the figure.
+All four partners agreed one ___________ .
+We will ___________ the story until Sunday.
+A document is the strongest ___________ .
+Everyone named is offered a ___________ .
+The two-source ___________ had been met.
+Until then the number is ___________ .
+
+@EX 10B | Grammar. Complete with the zero conditional.
+@NUM
+If a figure ___________ (have) one source, we ___________ (not publish) it.
+If a claim ___________ (name) a person, they ___________ (get) a right of reply.
+If a document ___________ (be) unsigned, the desk ___________ (ask) for the original.
+
+@EX 10C | Grammar. Complete with the first conditional.
+@NUM
+If the office ___________ (send) the method, we ___________ (run) the figure.
+If a rival ___________ (publish) first, all four ___________ (move) together.
+If Dren ___________ (not agree) , we ___________ (not publish) the name.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with unless, as long as, until or as soon as.
+@NUM
+We will not publish ___________ we have two sources.
+The Post may use the quote ___________ Dren is credited.
+We will hold ___________ the replies are in.
+I will call you ___________ anything changes.
+
+@EX 10E | Read and answer.
+@WHITE
+If a figure has one source, it does not run. If the Crossing Office sends its method, the partners will publish the number on Sunday; if it does not arrive, the story runs without it. Everyone named is offered a right of reply, and nobody signs off until all four legal checks are done. The embargo holds until 07:00 GMT unless all four partners agree to move it together.
+
+@NUM
+What happens if a figure has one source? ___________
+When will the partners publish the number? ___________
+What is the one way the embargo can move? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can state a rule with the zero conditional.
+I can set a real condition with the first conditional.
+I can use unless, as long as and provided that.
+I can say when something will happen with time clauses.
+
+@EX 10F | Reflect. Which part of Unit 5 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+If the office will send the method, we will publish. → ________________________
+Unless we don't agree, the embargo stays. → ________________________
+We will publish as soon as the method will arrive. → ________________________
+If a figure has one source, we will not publishing it. → ________________________
+
+@EX 10H | Mixed review. Complete with a conditional or a time clause.
+@NUM
+Nobody signs off until all four partners ___________ (read) it.
+If a rival ___________ (publish) first, we ___________ (move) together.
+We will not name her ___________ she agrees.
+
+@EX 10I | Reflect. Write one condition you will set before your next piece of work goes out.
+
+@PART 11 | Assignment: a conditions note | Put the unit together: write the conditions for publishing a story with partners.
+@FIG g-template | The assignment template — your conditions note.
+@P
+**Your task. **You are publishing a story with two partner newsrooms abroad. Write a conditions note (6–7 sentences). Give one standing rule (zero conditional), two real conditions and their results (first conditional), one condition with unless or as long as, and two time clauses saying when each step happens. End with what you will do if the story breaks elsewhere first.
+
+@FIG g-model | A model — use Reading A and the Writing 1 model to check the shape of your note.
+@WHITE
+Remember: the zero conditional for rules; the first conditional for real futures (never 'if…will'); unless = if not; the present tense after when, until and as soon as; and nothing published that the conditions do not cover.
+
+@CRITERIA Success criteria
+I state at least one rule in the zero conditional.
+I set real conditions in the first conditional, with no 'if…will'.
+I use unless or as long as correctly.
+I use the present after when, until and as soon as.
+Every condition is testable, and has a date.
+
+@P
+**Keep this. **In Unit 6, a claim spreads across the basin and nobody can prove it yet — so you learn might, may and could for what is possible, and should and ought to for what a newsroom owes its readers.
+
+@KEY Book 2 · Unit 5 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 it does not run (they do not publish it) · 2 run the figure on Sunday, with the method beside it · 3 to wait until it is confirmed
+W2 | 1 F · 2 T · 3 F
+W3 | zero: 'If a figure has one source, we do not publish it' · first: 'If the office gives us the method, we will run it' · time clause: 'until it is confirmed'
+1A | 1-b, 2-a, 3-d, 4-c, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 condition · 2 verify · 3 embargo · 4 hold · 5 evidence · 6 legal check
+1C | 1 meet a condition · 2 break an embargo · 3 verify a figure · 4 sign off · 5 offer a right of reply
+1D | 1 guess · 2 rumour · 3 rush · 4 final
+1E | 1 condition · 2 verify · 3 second source · 4 provisional · 5 embargo
+1F | 1 right of reply · 2 sign off · 3 threshold · 4 unless
+1G | embargo · legal check · sign off · right of reply · threshold
+1J | withhold · as soon as · risk · independent · corroborate
+2A | 1 has / do not publish · 2 is / get · 3 is / asks
+2B | 1 confirms / will run · 2 does not verify / will publish · 3 breaks / will lose
+2C | 1 We will not publish unless we have two sources. · 2 He will not be named unless he agrees.
+2D | 1 as long as · 2 provided that
+2G | 1 If the office confirms it, we will run it. · 2 Unless we have two sources, we will not publish.
+3A | 1 it does not run · 2 as soon as the method arrives (if it comes by Friday) · 3 until 07:00 GMT on Sunday
+3B | zero: 'If a figure has one source, it does not run' · first: 'if it does not arrive by Friday, the story runs without it' · time clause: 'until the replies are in'
+3C | 1 If a figure has one source, we do not publish it. · 2 If the method arrives, we will run the figure. · 3 We will publish when the replies are in.
+3D | If · as soon as · until · unless
+3E | 1 Two sources for every figure. · 2 A right of reply for everyone named. · 3 The legal check in each country. · 4 Sign-off and publication at the agreed hour.
+3H | 'hold until it is confirmed' names what will release the story; 'probably wait' names nothing
+4B | 1 two sources, or it does not run · 2 they will run it on Sunday · 3 the story runs without the number · 4 if the record-keeper is not named
+4C | 1 R · 2 F · 3 T
+4D | Rule = two sources · Condition = the method arrives · If not = the story runs without the number
+4F | 1 will lose · 2 will · 3 will · 4 changes
+4G | first: 'if they send the method, we will run it' · zero: 'if we have one source, it does not run' · time clause: 'as soon as their lawyers have read it'
+4H | because Kalina Daily is the smallest partner and he will still be in Kalina long after the others have left
+4I | If · unless · until · as soon as
+4J | it keeps the agreement and still answers his risk: nobody is left behind
+4K | Priya = verification: sources, documents, proof · Ana = the agreement: the hour, and moving together
+5B | 1 F · 2 T · 3 T · 4 F
+5C | 1 a rule still holds when you are tired; a judgement does not · 2 they say so in print · 3 what is safe to print in one country may not be in another
+5D | 1 embargo · 2 withhold · 3 legal check
+5F | two sources → 'if a figure has one source, it does not run' · something a reader could see → 'we publish the substance and withhold her name' · a real right of reply → 'if they answer late, we carry it' · one hour → 'if it breaks elsewhere, all four move together'
+5G | Condition 2
+5H | 1 verify · 2 independent · 3 right of reply
+5I | 1 has / does not run · 2 publishes / will move · 3 have read
+6A | 1 the RULE line · 2 the HOUR line
+6C | first conditional: 'If the Crossing Office sends its method, we will publish' · unless: 'unless all four of us agree together' · time clause: 'as soon as anything changes'
+6D | If · will · unless · As soon as
+6F | 'If the office sends the method, we will publish. Unless we agree together, the embargo stays.'
+7A | zero: 'If a figure has one source, it does not run' · first: 'If the office sends the method, yes' · unless: 'we do not move it unless all four of us agree'
+7B | 1 The story will run without the figure. · 2 As long as we do not name the record-keeper. · 3 Geneva on Wednesday; the others as soon as their lawyers have read it.
+7C | 1 What will we do if the office confirms the figure? — We will run it on Sunday. · 2 What will we do if a rival publishes first? — We will all move together.
+7F | 'If somebody else breaks it first, then we all move together, within the hour.'
+8A | 1 (b) call all four partners and move together · 2 (b) a broken promise to three newsrooms
+8B | 1 K · 2 B · 3 K · 4 B
+8C | agreed · together · first · alone
+8E | 1 (b) publish its substance and withhold her name · 2 (b) the price of the story
+8F | 1 register · 2 name · 3 risk · 4 substance
+8I | 1 P · 2 E · 3 P · 4 E
+9A | 'Two witnesses and a register' → what is already confirmed · 'the Crossing Office's method' → what is still missing · 'if it arrives, we will publish' → the real condition · 'Sunday, 07:00 GMT' → the agreed hour
+9B | conditional: 'if it arrives, we will publish the number' · time: 'Sunday, 07:00 GMT'
+9C | 'If the office confirms it, we will publish. The figure of 112 is not yet confirmed.'
+10A | 1 condition · 2 verify · 3 embargo · 4 hold · 5 evidence · 6 right of reply · 7 threshold · 8 provisional
+10B | 1 has / do not publish · 2 names / get · 3 is / asks
+10C | 1 sends / will run · 2 publishes / will move · 3 does not agree / will not publish
+10D | 1 unless · 2 as long as · 3 until · 4 as soon as
+10E | 1 it does not run · 2 on Sunday, if the Crossing Office sends its method · 3 if all four partners agree to move it together
+10G | 1 If the office sends the method, we will publish. · 2 Unless we agree, the embargo stays. · 3 We will publish as soon as the method arrives. · 4 If a figure has one source, we will not publish it.
+10H | 1 have read · 2 publishes / will move · 3 unless
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post, their staff, the register, the record-keeper and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 5 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Verification & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + three partner newsrooms · fictional agency, factual backdrop.

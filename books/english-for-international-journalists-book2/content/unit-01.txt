@@ -1,0 +1,858 @@
+@UNITHEAD BOOK 2 · UNIT 1 | Back on the Story: Where We Are Now | Beat · Report & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+contrast experience and finished events (present perfect vs past simple)
+use ever, never, just, already and yet
+recap a running story for a colleague
+introduce your outlet to a partner abroad
+
+@FIG g-team | The Atlas Wire team — a year on, their work has been noticed by bigger newsrooms.
+@STORY Where we are now. | A year has passed since Atlas Wire published its front page, *A crossing comes home*. The valley has changed, the story has run all year — and now the coverage has been noticed well beyond the wire. This week, a message arrived from Omar Faris, an editor at the Meridian Post, a large international daily. Atlas Wire has never co-produced a story with another newsroom before. (The Meridian Post and Omar Faris are invented, for practice.)
+
+@WARMUP Catching up | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team catches up on the running story.
+@WARMBOX
+At the conference, Ana has news. "Good morning, everyone. I have something to share," she says. "We have covered Kalina for a year now, and people have noticed. Yesterday, an editor at the Meridian Post wrote to us. His name is Omar Faris. He said he has followed our coverage for months, and he wants to talk."
+The room is quiet. "We have never co-produced with another newsroom," Mira says. "No," Ana smiles, "we haven't. But the story has grown, and it has reached further than we thought. Let's see where it goes."
+
+@EX W1 | Answer the questions.
+@NUM
+How long has Atlas Wire covered Kalina? ___________
+Who wrote to the team, and from where? ___________
+Has Atlas Wire co-produced with another newsroom before? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Omar wrote to the team yesterday. ______
+Omar has followed Atlas Wire for months. ______
+Atlas Wire has co-produced with many newsrooms. ______
+
+@EX W3 | Find one present-perfect verb (has/have + done) and one past-simple verb in the text. Write them.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What is a story that has run for a long time in your country? What has happened in it?
+Have you ever worked or studied with people from another country? How was it?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. Would you want a story you reported to reach a much bigger audience? What is good, and what is difficult, about that?
+
+@PART 1 | The words of a running story | The words for a story that grows and travels. Learn these first.
+@FIG u1-words | Four key words — coverage, running story, reach, pick up.
+@H The words
+@VOCAB
+coverage | the reporting of a story
+running story | a story that continues over time
+cover | to report on a story
+follow up | to report more on a story
+pick up | when another outlet takes your story
+reach | how many people see your work
+audience | the people who read or watch
+outlet | a paper, network, agency or website
+syndicate | to share or sell a story to other outlets
+update | new information
+so far | until now
+recently | a short time ago
+propose | to suggest
+partner | an outlet you work with
+co-production | a piece made by two or more outlets together
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  coverage
+2.  running story
+3.  reach
+4.  outlet
+5.  audience
+6.  follow up
+7.  pick up
+8.  propose
+9.  partner
+10.  co-production
+@@
+a)  a story that continues over time
+b)  the reporting of a story
+c)  how many people see your work
+d)  the people who read or watch
+e)  a paper, network, agency or website
+f)  to report more on a story
+g)  when another outlet takes your story
+h)  an outlet you work with
+i)  to suggest
+j)  a piece made by two or more outlets together
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | coverage · reach · outlet · audience · picked up · partner
+@NUM
+Atlas Wire's ___________ of the valley has run for a year.
+The story has a wide ___________ now — many people have seen it.
+An international ___________ , the Meridian Post, has noticed the work.
+The ___________ is far bigger than before.
+Two other newsrooms have ___________ our story.
+Omar wants Atlas Wire to be a ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  cover
+2.  follow
+3.  pick
+4.  reach
+5.  propose
+@@
+a)  a story
+b)  up a lead
+c)  up a story
+d)  an audience
+e)  a plan
+
+@EX 1D | Circle the word that is different.
+@NUM
+outlet · network · paper · deadline
+cover · report · follow up · shout
+reach · audience · readers · rumour
+partner · colleague · associate · rival
+
+@FIG g-pageflow | The front page that started it all — now read far beyond the wire.
+@EX 1E | Complete the paragraph. Use: coverage · running · reach · outlet · noticed.
+@WHITE
+Atlas Wire's ___________ of Kalina is a ___________ story. Over a year, its ___________ has grown. Now a large international ___________ has ___________ the work, and wants to talk.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+a story that continues over time → ___________
+how many people see your work → ___________
+a piece made by two or more outlets together → ___________
+until now → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: syndicate · update · follow up · audience · so far.
+@WHITE
+The desk will ___________ the story to other outlets. Mira will ___________ next week, and send an ___________ . ___________ , the ___________ is far wider than it was.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What news outlet do you follow? What does it cover?
+Has a story from your town ever reached a national or foreign outlet?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete the paragraph. Use: coverage · reach · partner · audience · noticed.
+@WHITE
+Atlas Wire's ___________ of the valley has a wide ___________ now. A large daily has ___________ the work and wants to be a ___________ . The ___________ is far bigger than before.
+
+@EX 1K | Creative. Write two sentences about a story you have followed for a long time. Use has/have + done.
+
+@PART 2 | Grammar: perfect and past | Present perfect for up to now; past simple for a finished time.
+@FIG u1-gA | present perfect = up to now · past simple = a finished time.
+@GRAMMAR 1 · Present perfect — up to now
+Form: {{has / have}} + past participle.
+We use it for experience and unfinished time: We {{have covered}} this story {{for}} a year. The Meridian Post {{has just}} contacted us.
+Signal words: {{for, since, just, already, yet, ever, never}}.
+
+@GRAMMAR 2 · Past simple — a finished time
+Form: the past form of the verb (regular {{-ed}}, or irregular).
+We use it for a finished time: The crossing {{reopened}} last spring. Omar {{wrote}} to us last week.
+Signal words: [[last week, ago, yesterday, in April]].
+
+@FIG u1-gB | just, already, yet, ever, never — all with the present perfect.
+@GRAMMAR 3 · Which one?
+Result now, or up to now → present perfect: "We {{have worked}} on it for a year."
+A finished time → past simple: "We {{started}} it last April."
+*Ever* and *never* ask and answer about experience: "{{Have}} you {{ever}} co-produced a story? — No, {{never}}."
+
+@FIG u1-gC | for + a length of time; since + a point in time.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Write the past participle and the past simple.
+@NUM
+cover → have ___________ / ___________ (past)
+write → have ___________ / ___________ (past)
+see → have ___________ / ___________ (past)
+do → have ___________ / ___________ (past)
+
+@EX 2B | Complete with the present perfect (has/have + done).
+@NUM
+We ___________ (cover) this story for a year.
+The Meridian Post ___________ (just / notice) our work.
+Mira ___________ (never / co-produce) with another newsroom.
+The story ___________ (reach) a wide audience.
+
+@EX 2C | Present perfect or past simple? Choose the correct form.
+@NUM
+The crossing ___________ (reopen) last spring.
+We ___________ (follow) the story since April.
+Omar ___________ (write) to us last week.
+The team ___________ (already / meet) about it.
+
+@EX 2D | Make a question with ever, and a short answer with never.
+@NUM
+you / work / with another newsroom → ________________________
+Atlas Wire / file / for a daily paper → ________________________
+
+@H Your own words
+@EX 2E | Write two things you have done this year. Use the present perfect.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two things you did last week. Use the past simple.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite in the present perfect or the past simple.
+@NUM
+we / cover / it / for a year (up to now) → ________________________
+the crossing / reopen / last spring (finished) → ________________________
+a daily / just / notice / us (up to now) → ________________________
+
+@EX 2H | Your own words. Write one thing you have done recently, and one thing you did last year.
+@NUM
+________________________
+________________________
+
+@PART 3 | Recapping a running story | Before a partner joins, you catch them up: what has happened, and what is new.
+@FIG g-bridge | The crossing at Kalina — the story that has run all year.
+@FIG u1-skill | A recap: what has happened so far, and what is new.
+@LABEL MODEL | A model recap
+@WARMBOX
+"Here is where we are. We have covered Kalina for a year. The crossing reopened last spring, and a hundred families have returned. Recently, the school reopened too. So far, the coverage has reached readers in a dozen countries. Just this week, a large daily noticed our work. Nothing has been agreed yet."
+
+@LABEL NOTICE | Notice the recap
+@FIG u1-read | A year on: the running story, from the reopening to the day it travelled.
+@EX 3A | Answer about the model.
+@NUM
+How long has the team covered the story? ___________
+What happened last spring? ___________
+What has just happened this week? ___________
+
+@EX 3B | Find one present-perfect verb and one past-simple verb in the recap. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | What has happened / what happened
+@FIG g-fivew | A recap answers: what has happened so far, and what is new?
+@EX 3C | Write the sentence in the present perfect (up to now) or past simple (a finished time).
+@NUM
+the coverage / reach / a wide audience (up to now) → ________________________
+the crossing / reopen / last spring (finished) → ________________________
+a daily / just / notice / our work (up to now) → ________________________
+
+@EX 3D | Complete the recap. Use: have · has · reopened · yet.
+@WHITE
+We ______ covered the story for a year. The crossing ______ last spring, and families ______ returned. Nothing has been agreed ______ .
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the recap in order. Number the sentences 1–4.
+@NUM
+A daily has just noticed our work. ______
+We have covered the story for a year. ______
+The crossing reopened last spring. ______
+A hundred families have returned. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a running story (real or invented). Write a short recap (4–5 sentences): what has happened so far, what happened at one point, and what is new.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why is a good recap useful when someone new joins a story?
+@EX 3H | When you recap, why do you use the present perfect for 'so far' and the past simple for one moment? Give an example of each.
+@EX 3I | Discuss. Think of one running story you know. Recap it in three sentences: so far, one moment, and what is new.
+
+@PART 4 | Listening: news from abroad | Two audios. Listen for what has happened, and for the message from abroad.
+@FIG g-newsroom | In the newsroom — the team catches up before the call.
+@SUBHEAD Listening A | · catching up in the newsroom
+@LABEL MODEL | Audio 1.1 — Mira and Ana
+@DIALOGUE
+Ana | Mira, catch me up. Where are we with the story?
+Mira | We have covered it for a year now. The crossing reopened last spring.
+Ana | And the families?
+Mira | A hundred have returned so far. The school reopened recently, too.
+Ana | Has anything new happened this week?
+Mira | Yes — a large international daily has just noticed our work. Omar Faris wrote yesterday.
+Ana | Good. Have we ever co-produced a story with another newsroom?
+Mira | No, never. This would be the first time.
+Ana | And the sources — are the numbers still solid?
+Mira | Yes. The Crossing Office has confirmed the hundred families, and Priya has checked every figure.
+Ana | Perfect. Then we are ready to talk to them.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think Mira will say has happened? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+How long has the team covered the story? ___________
+When did the crossing reopen? ___________
+How many families have returned so far? ___________
+What has just happened this week? ___________
+
+@EX 4C | Present perfect or past simple? Write PP or PS for each.
+@NUM
+"We have covered it for a year." ______
+"The crossing reopened last spring." ______
+"A daily has just noticed our work." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+So far (up to now): ___________
+One finished event: ___________
+Just this week: ___________
+
+@FIG g-desk | Audio 1.2 — the first message from Omar Faris at the Meridian Post.
+@SUBHEAD Listening B | · the message from the Meridian Post
+@LABEL MODEL | Audio 1.2 — Omar calls
+@DIALOGUE
+Omar | Hello, this is Omar Faris, an editor at the Meridian Post.
+Mira | Hello! Thank you for calling. We have heard a great deal about the Post.
+Omar | I have followed your coverage of the Kalina crossing for months. It is very careful work.
+Mira | Thank you. We have covered it since the crossing reopened.
+Omar | We would like to propose something. Have you ever co-produced a story with another newsroom?
+Mira | No, we haven't — this would be the first time.
+Omar | Then let us talk. I will send a proposal, and we can meet next week.
+Mira | Wonderful. I will introduce the whole desk.
+Omar | One more thing — we would never change your reporting. It stays yours, and the local paper's.
+Mira | Thank you. That matters to us.
+Omar | Of course. A careful local record is exactly why we called. I will write today.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Omar wants? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Omar is an editor at the ___________ .
+He has ___________ Atlas Wire's coverage for months.
+He wants to ___________ something.
+Atlas Wire has ___________ co-produced with another newsroom.
+
+@EX 4G | Which present-perfect forms do you hear? Write two (has/have + done).
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Omar ask 'Have you ever co-produced a story with another newsroom?'
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: covered · reopened · noticed · never.
+@WHITE
+Atlas Wire has ______ the story for a year; the crossing ______ last spring. A large daily has ______ the work. Atlas Wire has ______ co-produced a story before.
+
+@LABEL PRODUCE | What do you think?
+@EX 4J | Discuss. Why might an agency want to work with a bigger daily? What might it worry about?
+@LABEL PRACTISE | Both audios
+@EX 4K | Complete the summary of the two audios. Use: covered · reopened · noticed · never.
+@WHITE
+Mira told Ana the team has ______ the story for a year; the crossing ______ last spring. Then Omar called: a large daily has ______ the work. Atlas Wire has ______ co-produced a story before.
+
+@LABEL PRODUCE | What do you think?
+@EX 4L | Discuss. Would you trust a newsroom you have never worked with? What would you check first?
+
+@PART 5 | Reading: a year on | Two readings. Read for the whole year, and for how to catch up.
+@FIG g-reach | A year of coverage — and a story that has travelled.
+@SUBHEAD Reading A | · a year on: the story that travelled
+@READING A year on: the story that travelled
+It has been a year since Atlas Wire published its front page about the crossing at Kalina, and the story has never really stopped. It has become the desk's longest running story, and, this month, it has reached further than anyone expected.
+A great deal has happened since that front page. The crossing reopened last spring, and, according to the Crossing Office, a hundred families have returned to the valley. The school reopened in the autumn, and a small café has opened at the end of the bridge. Atlas Wire has followed every step, and its correspondent, Mira Sandoval, has written most of the coverage.
+"I have covered this valley for a year now," Mira said. "When we started, the road was empty. I never thought the story would travel so far. But it has — people have read it in countries that have never heard of the river Vara."
+Last week, that reach became clear. An editor at the Meridian Post, a large international daily, wrote to the desk. He said he had followed the coverage for months, and he proposed working together. Atlas Wire has never co-produced a story with another newsroom before.
+"We are an agency; we file, and others publish," said Ana Ferreira, the editor-in-chief. "We have not agreed anything yet. But the story has grown, and it has found a much wider audience. Now we have to decide, carefully, what to do next — and how to keep it honest."
+The Post is not the only outlet that has noticed. In recent weeks, the River Basin Network has asked to run the coverage across the region, and readers have written from four continents. The audience, once a wire list, has grown far wider than before.
+There is one more thing the desk has not forgotten. Kalina Daily, the small paper in the town itself, has covered the crossing every week since long before Atlas Wire arrived. "Whatever we build," Ana said, "they are in it, and their name is on it. That part is not negotiable."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What does 'the story that travelled' mean? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The story is the desk's longest running story. ______
+A hundred families have returned. ______
+Atlas Wire has co-produced a story before. ______
+The team has agreed to work with the Meridian Post. ______
+
+@EX 5C | Answer the questions.
+@NUM
+How long has Mira covered the valley? ___________
+What happened last spring? ___________
+What did the editor at the Meridian Post propose? ___________
+
+@EX 5D | Find a word in the text.
+@NUM
+a story that continues over time (2 words) → ___________
+how many people see your work → ___________
+to suggest → ___________
+
+@FIG g-partners | A long-running story can reach far beyond the town where it began.
+@SUBHEAD Reading B | · catching up on a running story — four tips
+@READING Four tips for a recap
+**1. Say what has happened so far.** Use the present perfect for the whole story up to now: 'We have covered it for a year.'
+**2. Say what happened at key moments.** Use the past simple for a finished time: 'The crossing reopened last spring.'
+**3. Say what is new.** Use *just*, *recently* and *already*: 'A daily has just noticed our work.' Keep it short.
+**4. Name your sources, and stay accurate.** A recap is still journalism: a source for each number, no more than has really happened, and the name of the newsroom that was there before you.
+**5. Keep it short.** A recap is a bridge, not the story. Give enough to understand where things stand, and no more.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which tense tells the whole story 'so far'? Guess.
+@NUM
+______
+
+@EX 5F | Match the tip to the example.
+@MATCH
+1.  What has happened so far
+2.  What happened at a key moment
+3.  What is new
+4.  Stay accurate
+@@
+a)  'The crossing reopened last spring.'
+b)  'A daily has just noticed us.'
+c)  give a source for each number
+d)  'We have covered it for a year.'
+
+@EX 5G | Which tip uses the past simple? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+the reporting of a story → ___________
+the people who read or watch → ___________
+to suggest → ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5I | Talk about it. Ana says the team must decide 'how to keep it honest'. What do you think she means?
+@EX 5J | Which of the four tips is the most important for a recap? Say why.
+@LABEL PRACTISE | Signal words
+@EX 5K | Which tense does each signal word take? Write PP (present perfect) or PS (past simple).
+@NUM
+for a year ______
+last spring ______
+just ______
+three days ago ______
+since April ______
+yesterday ______
+
+@LABEL PRODUCE | Discuss
+@EX 5L | Talk about it. Reading B says keep it short. Why is that hard when you love a story you have followed for a year?
+
+@PART 6 | Writing: a catch-up note | Two short pieces: a where-we-are note, and a short introduction to a partner.
+@FIG g-notes | A catch-up note: so far, and just in.
+@SUBHEAD Writing 1 | · a where-we-are note
+@LABEL MODEL | A model
+@WARMBOX
+So far: we have covered the story for a year; 100 families have returned
+Key moment: the crossing reopened last spring
+Just in: a large international daily has noticed our work
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line uses the present perfect? ___________
+Which line uses the past simple? ___________
+
+@LABEL PRODUCE | Write your note
+@EX 6B | Choose a running story. Write a where-we-are note: so far (present perfect), a key moment (past simple), and just in (present perfect).
+@WHITE
+So far: ___________
+Key moment: ___________
+Just in: ___________
+
+@FIG g-model | An introduction to a partner is short, warm, and clear.
+@SUBHEAD Writing 2 | · an introduction to a partner
+@LABEL MODEL | A model
+@WARMBOX
+Dear Omar, thank you for your message. We are Atlas Wire, an independent news agency with a world desk in Geneva. We have covered the Kalina crossing for a year, with Kalina Daily reporting alongside us from the town itself. We have never co-produced a story before, but we would be glad to talk. — Ana
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Which present-perfect sentences introduce the outlet's experience? Write one.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the note
+@EX 6D | Complete the introduction. Use: have · has · covered.
+@WHITE
+We are Atlas Wire. We ______ ______ the Kalina crossing for a year. Our correspondent ______ written most of the coverage.
+
+@LABEL PRODUCE | Write your introduction
+@EX 6E | Write a short introduction (3–4 sentences) of a news outlet to a new partner. Say who you are and what you have covered.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This uses the wrong tense. Correct it (present perfect for 'up to now', past simple for 'last spring').
+@WHITE
+"We covered the story for a year. The crossing has reopened last spring."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a longer catch-up. Write three points: what has happened so far, one key moment, and what is just in.
+@WHITE
+So far: ___________
+One moment: ___________
+Just in: ___________
+
+@LABEL PRACTISE | Fix it
+@EX 6H | This introduction is long and vague. Cut it to two clear sentences: who you are, and what you have covered.
+@WHITE
+"Hello, we are an agency and we do lots of things and we have been around and we cover many stories and things happen and we write about them."
+
+@P
+________________________
+
+@PART 7 | Speaking: introducing your outlet | Catch a partner up, and introduce your outlet. Use present perfect and past simple.
+@FIG g-hownews | A story that has travelled: from the valley, to the wire, to the world.
+@FIG g-interview | Catch a colleague up, then introduce your outlet.
+@SUBHEAD A model dialogue | · catching a colleague up
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | I'm new — can you catch me up on the story?
+Mira | Of course. We have covered the Kalina crossing for a year.
+Sofia | What happened first?
+Mira | The crossing reopened last spring. Since then, a hundred families have returned.
+Sofia | Has anything happened this week?
+Mira | Yes — a large daily has just noticed our work.
+Sofia | That's exciting! Have we ever co-produced a story before?
+Mira | No, never. This would be the first time.
+
+@LABEL NOTICE | Notice the tenses
+@EX 7A | Find one present-perfect sentence and one past-simple sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with the present perfect or the past simple.
+@NUM
+How long / you / cover / the story? → ___________
+When / the crossing / reopen? → ___________
+What / just / happen? → ___________
+
+@FIG g-introduce | Introduce yourself and your outlet before you begin.
+@EX 7C | Make a question with ever, then answer.
+@NUM
+you / ever / work / with a foreign outlet → ________________________
+your outlet / ever / win / a prize → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Catch a colleague up: say what has happened so far, one key moment, and what is new.
+New colleague | Ask: 'What has happened so far?' and 'Have you ever…?'
+Observer | Listen. Did the correspondent use the present perfect for 'so far' and the past simple for one moment?
+
+@EX 7D | Choose a role from the table. Catch your partner up on a story.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a catch-up: a correspondent, a new colleague, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · introducing your outlet to a partner
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Mira | Hello, Omar. I'd like to introduce our desk.
+Omar | Please do. Tell me about Atlas Wire.
+Mira | We are an independent news agency in Geneva. We have filed world news for eleven years.
+Omar | And this story?
+Mira | We have followed Kalina since the crossing reopened. It is our proudest work.
+Omar | It shows. I have read every piece.
+Mira | Thank you. We have never co-produced a story, but we are glad to talk — and Kalina Daily has to be part of it.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the present-perfect sentence Mira uses about the agency's experience.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use the present perfect for 'so far' / experience?
+use the past simple for one finished moment?
+use ever / never / just when they fit?
+introduce my outlet clearly?
+
+@EX 7G | Role-play introducing your outlet to a new partner. Then swap roles.
+@EX 7H | Complete the mini-dialogue with the correct tense.
+@NUM
+How long ___________ you covered it? — For a year.
+When ___________ it reopen? — Last spring.
+___________ you ever co-produced a story? — No, never.
+
+@LABEL PRODUCE | Over to you
+@EX 7I | Discuss. How would you introduce your own outlet (or a favourite one) to a foreign editor, in one clear sentence?
+
+@PART 8 | Ethics: keeping it accurate, keeping it ours | A story that travels must stay accurate — and stay true to the place it comes from.
+@FIG u1-ethA | 'Fully recovered' is a claim; 'has improved a lot' is what you can say.
+@SUBHEAD A first case | · the recap that says too much
+@CASE Mira writes a recap for the new partner. She wants it to sound strong, so she nearly writes: 'The Kalina valley has fully recovered, and everything is finished.' It would read well, and a big partner might like a simple, bright line. But that is not accurate. The crossing has reopened and many families have returned — a great deal has improved — but the clinic is still closed, the bus does not cross yet, and not everyone has come home. The partner has never been to Kalina; they will build their whole picture on Mira's words. A recap is still journalism, and its first reader trusts it completely. Mira knows the Code: report what has really happened, not more. What does Mira write in the recap?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'the valley has fully recovered'  (b) 'the valley has improved a lot, but work remains'.   Choice: ______  Because ________________________
+Saying 'fully recovered' when it is not is (a) accurate  (b) not accurate.   Choice: ______
+
+@EX 8B | Can you say it has happened? Write Y (yes) or N (not yet).
+@NUM
+The crossing has reopened. ______
+Everyone has returned. ______
+Many families have come back. ______
+The valley has fully recovered. ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: accurate · recap · more · check.
+@WHITE
+A ______ is still journalism. Be ______ : do not say ______ has happened than really has, and ______ every number.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is a 'too positive' recap a problem, especially for a partner who has never seen the valley?
+@SUBHEAD A second case | · keeping the local voice
+@FIG u1-ethB | A bigger partner's reach is welcome — but the story stays true to the place.
+@CASE The Meridian Post is interested — but the editor suggests a simpler, more dramatic angle: 'the miracle valley that came back from nothing'. It would travel well and reach millions. But it is not quite true. The recovery was slow and hard, and it was done, day by day, by the people who live there. 'Came back from nothing' erases years of ordinary work, and it makes the valley sound helpless rather than strong. There is a second problem: the Post's draft names only Atlas Wire, and Kalina Daily has covered this crossing every week for years. The Post's reach is real and welcome. But the facts, and the credit, are not the Post's to change. The Code says: independence — a partner's reach must never change the story, however large the audience. What does Atlas Wire do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) take the dramatic 'miracle' angle for the reach  (b) keep the true story, and name Kalina Daily.   Choice: ______  Because ________________________
+Letting a partner's reach change the facts is (a) independent  (b) not independent.   Choice: ______
+
+@EX 8F | Complete with: accurate · reach · local · independent.
+@NUM
+A partner's ___________ is welcome.
+But the story must stay ___________ .
+Keep the ___________ voice — and the name of the paper that was there first.
+Stay ___________ : the facts do not change for a bigger audience.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is it important to keep the local voice — and the local byline — when a story goes to a wide audience?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences that keep the story true and local, but still make it clear for a wider audience. Use the present perfect.
+@LABEL PRACTISE | One more
+@EX 8I | Fact, opinion, or overclaim (says too much)? Write F, O, or X.
+@NUM
+The crossing has reopened. ______
+The valley is the best place in the region. ______
+Everything has fully recovered. ______
+A hundred families have returned, the office says. ______
+
+@LABEL PRODUCE | Write it
+@EX 8J | Write one honest sentence Atlas Wire could send the Meridian Post about the recovery: true, and clear for a reader who has never been there.
+
+@PART 9 | Digital: the 'one year on' thread | Online, an anniversary post recaps a running story — accurately.
+@FIG g-phonealert | A 'one year on' post — what has happened, in a line.
+@LABEL MODEL | A model post
+@WARMBOX
+ONE YEAR ON · We have covered the Kalina crossing for a year, with @KalinaDaily. The crossing reopened last spring, and 100 families have returned. This week, our work has reached a large international daily. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@FIG u1-sum | The reach has grown over the year: more people have read the coverage each season.
+@EX 9A | Match the part to the tense/idea.
+@MATCH
+1.  We have covered it for a year
+2.  The crossing reopened last spring
+3.  100 families have returned
+4.  our work has reached a large daily
+@@
+a)  past simple (a finished time)
+b)  present perfect (up to now)
+c)  present perfect (result now)
+d)  present perfect (just now)
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one present-perfect verb and one past-simple verb in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post uses the wrong tense. Correct it.
+@WHITE
+"We have covered it since a year. The crossing has reopened last spring."
+
+@P
+________________________
+
+@FIG g-website | The post links to the full 'one year on' feature.
+@EX 9D | Write a 'one year on' post. Use one present-perfect and one past-simple sentence.
+@WHITE
+ONE YEAR ON · ___________ (up to now). ___________ (a finished moment). — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line anniversary post about a story you know. Use the present perfect.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a 'one year on' story.
+@EX 9G | A reader abroad asks: 'Has the valley fully recovered?' Write a short, honest reply.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9H | Discuss. Online, an anniversary post can travel fast and far. Why must it still be exact?
+@EX 9I | Creative. Write a two-line one-year-on thread: line 1 in the present perfect, line 2 in the past simple.
+@WHITE
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9J | Discuss. Do one-year-on posts help readers, or do they make a long story too simple? Why?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 2.
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10A | Vocabulary. Complete with: coverage · running · reach · outlet · audience · picked up · partner · co-production.
+@NUM
+Atlas Wire's ___________ has run for a year.
+It is a ___________ story — it continues over time.
+Its ___________ has grown; more people see it now.
+A large international ___________ has noticed the work.
+The ___________ is wider than before.
+Another newsroom has ___________ the story.
+Omar wants Atlas Wire to be a ___________ .
+A piece made by two outlets together is a ___________ .
+
+@EX 10B | Grammar. Present perfect or past simple? Choose the correct form.
+@NUM
+We ___________ (cover) the story for a year.
+The crossing ___________ (reopen) last spring.
+A daily ___________ (just / notice) our work.
+Omar ___________ (write) to us last week.
+
+@EX 10C | Grammar. Make a question with ever and a short answer with never.
+@NUM
+you / co-produce / a story → ________________________
+
+@EX 10D | Signal words. Choose: for · since · ago · yet.
+@NUM
+We have covered it ______ a year.
+We have followed it ______ the crossing reopened.
+The crossing reopened a year ______ .
+Nothing has been agreed ______ .
+
+@EX 10E | Read and answer.
+@WHITE
+Atlas Wire has covered the Kalina crossing for a year. The crossing reopened last spring, and a hundred families have returned. This week, a large international daily has noticed the work and proposed a co-production. The team has not agreed anything yet.
+
+@NUM
+How long has Atlas Wire covered the crossing? ___________
+What happened last spring? ___________
+Has the team agreed yet? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can contrast experience and finished events (present perfect vs past simple).
+I can use ever, never, just, already and yet.
+I can recap a running story.
+I can introduce my outlet to a partner.
+
+@EX 10F | Reflect. Which part of Unit 1 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+We have covered it since a year. → ________________________
+The crossing has reopened last spring. → ________________________
+Have you ever co-produced a story? — No, I have ever. → ________________________
+A daily has noticed our work last week. → ________________________
+
+@EX 10H | Mixed review. Complete with the present perfect or the past simple.
+@NUM
+We ___________ (follow) the story since April.
+The school ___________ (reopen) in the autumn.
+A daily ___________ (just / write) to us.
+We ___________ (never / co-produce) a story.
+
+@EX 10I | Reflect. Write one sentence about what you have learned in this unit. Use the present perfect.
+
+@PART 11 | Assignment: a catch-up for a partner | Put the unit together: recap your story and introduce your outlet.
+@FIG g-template | The assignment template — your catch-up note.
+@P
+**Your task. **Imagine a new partner is joining a story you are covering (real or invented). Write a short catch-up note (5–6 sentences). Say what has happened so far (present perfect), what happened at one key moment (past simple), and what is new (just / recently). Then add one line that introduces your outlet, and one that names anyone else who has been reporting the story. Be accurate — do not say more has happened than really has.
+
+@FIG g-model | A model — use Reading A to check the shape of your note.
+@WHITE
+Remember: present perfect for 'so far' and experience; past simple for one finished moment; just / recently for what is new; name a source for any number; name the newsroom that was there first; keep it true.
+
+@CRITERIA Success criteria
+I use the present perfect for what has happened so far.
+I use the past simple for one key moment.
+I say what is new (just / recently).
+I introduce my outlet in one line.
+It is accurate — no more than really happened.
+
+@P
+**Keep this. **In Unit 2, you learn the past deeper — used to and would — to tell a partner how things used to be, before the story began.
+
+@KEY Book 2 · Unit 1 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 for a year · 2 Omar Faris, from the Meridian Post · 3 no, never (not before)
+W2 | 1 F (he wrote yesterday) · 2 T · 3 F
+W3 | present perfect: have covered / has noticed / have never co-produced (any) · past simple: wrote / said (any)
+1A | 1-b, 2-a, 3-c, 4-e, 5-d, 6-f, 7-g, 8-i, 9-h, 10-j (accept sensible matches)
+1B | 1 coverage · 2 reach · 3 outlet · 4 audience · 5 picked up · 6 partner
+1C | 1 cover a story · 2 follow up a lead · 3 pick up a story · 4 reach an audience · 5 propose a plan
+1D | 1 deadline · 2 shout · 3 rumour · 4 rival
+1E | 1 coverage · 2 running · 3 reach · 4 outlet · 5 noticed
+1F | 1 running story · 2 reach · 3 co-production · 4 so far
+1G | syndicate · follow up · update · So far · audience
+1J | 1 coverage · 2 reach · 3 noticed · 4 partner · 5 audience
+2A | 1 covered / covered · 2 written / wrote · 3 seen / saw · 4 done / did
+2B | 1 have covered · 2 has just noticed · 3 has never co-produced · 4 has reached
+2C | 1 reopened · 2 have followed · 3 wrote · 4 has already met
+2D | 1 Have you ever worked with another newsroom? — No, never. · 2 Has Atlas Wire ever filed for a daily paper? — No, never.
+2G | 1 We have covered it for a year. · 2 The crossing reopened last spring. · 3 A daily has just noticed us.
+3A | 1 for a year · 2 the crossing reopened · 3 a large daily noticed the work (this week)
+3B | present perfect: have covered / have returned / has reached (any) · past simple: reopened
+3C | 1 The coverage has reached a wide audience. · 2 The crossing reopened last spring. · 3 A daily has just noticed our work.
+3D | have · reopened · have · yet
+3E | 1 We have covered the story for a year. · 2 The crossing reopened last spring. · 3 A hundred families have returned. · 4 A daily has just noticed our work.
+4B | 1 for a year · 2 last spring · 3 a hundred · 4 a large daily has noticed the work / Omar wrote
+4C | 1 PP · 2 PS · 3 PP
+4D | So far = covered a year; 100 families returned · One event = the crossing reopened last spring · Just this week = a daily noticed the work
+4F | 1 Meridian Post · 2 followed · 3 propose (something) · 4 never
+4G | (any two) have heard · have followed · have covered · has (never) co-produced
+4H | to find out whether it is Atlas Wire's first time / whether they have the experience
+4I | covered · reopened · noticed · never
+4K | covered · reopened · noticed · never
+5B | 1 T · 2 T · 3 F · 4 F
+5C | 1 for a year · 2 the crossing reopened · 3 working together (a co-production)
+5D | 1 running story · 2 reach · 3 propose
+5F | so far → 'We have covered it for a year.' · a key moment → 'The crossing reopened last spring.' · what is new → 'A daily has just noticed us.' · stay accurate → give a source for each number
+5G | Tip 2
+5H | 1 coverage · 2 audience · 3 propose
+5K | 1 PP · 2 PS · 3 PP · 4 PS · 5 PP · 6 PS
+6A | 1 'we have covered the story for a year' (present perfect) · 2 'the crossing reopened last spring' (past simple)
+6C | (any) 'We have covered the Kalina crossing for a year.' / 'We have never co-produced a story before.'
+6D | have · covered · has
+6F | 'We have covered the story for a year. The crossing reopened last spring.'
+6H | (example) We are Atlas Wire, an independent news agency in Geneva. We have covered the Kalina crossing for a year.
+7A | present perfect: 'We have covered the Kalina crossing for a year.' · past simple: 'The crossing reopened last spring.'
+7B | 1 We have covered it for a year. · 2 It reopened last spring. · 3 A daily has just noticed our work.
+7C | 1 Have you ever worked with a foreign outlet? — (answer) · 2 Has your outlet ever won a prize? — (answer)
+7F | 'We have filed world news for eleven years.'
+7H | 1 have · 2 did · 3 Have
+8A | 1 (b) 'improved a lot, but work remains' · 2 (b) not accurate
+8B | 1 Y · 2 N · 3 Y · 4 N
+8C | recap · accurate · more · check
+8E | 1 (b) keep the true story, and name Kalina Daily · 2 (b) not independent
+8F | 1 reach · 2 accurate · 3 local · 4 independent
+8I | 1 F · 2 O · 3 X (overclaim) · 4 F
+9A | 'We have covered it for a year' → present perfect (up to now) · 'The crossing reopened last spring' → past simple · '100 families have returned' → present perfect (result now) · 'our work has reached a large daily' → present perfect (just now)
+9B | present perfect: have covered / have returned / has reached (any) · past simple: reopened
+9C | 'We have covered it for a year. The crossing reopened last spring.'
+10A | 1 coverage · 2 running · 3 reach · 4 outlet · 5 audience · 6 picked up · 7 partner · 8 co-production
+10B | 1 have covered · 2 reopened · 3 has just noticed · 4 wrote
+10C | Have you ever co-produced a story? — No, never.
+10D | 1 for · 2 since · 3 ago · 4 yet
+10E | 1 for a year · 2 the crossing reopened · 3 no, not yet
+10G | 1 We have covered it for a year. · 2 The crossing reopened last spring. · 3 No, I never have. / No, never. · 4 A daily noticed our work last week.
+10H | 1 have followed · 2 reopened · 3 has just written · 4 have never co-produced
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3H, 3I, 4A, 4E, 4H, 4J, 4L, 5A, 5E, 5I, 5J, 5L, 6B, 6E, 6G, 7D, 7E, 7G, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, Omar Faris, Kalina and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 1 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Report & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + a partner abroad · fictional agency, factual backdrop.

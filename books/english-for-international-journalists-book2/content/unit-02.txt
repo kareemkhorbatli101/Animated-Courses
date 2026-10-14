@@ -1,0 +1,841 @@
+@UNITHEAD BOOK 2 · UNIT 2 | The Backstory: How Things Used to Be | Beat · Feature & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+describe how things used to be (used to)
+talk about repeated past actions (would)
+use the past continuous for background
+give the backstory to a colleague abroad
+
+@FIG g-team | The Atlas Wire team — now telling the valley's backstory to a much wider audience.
+@STORY An editor asks for the backstory. | The Meridian Post was not the only outlet to notice Atlas Wire's coverage. Omar Faris is now helping bring the story to readers on four continents. But to tell it well, he needs the backstory — how Kalina used to be, before the barrier came down and the families left. This week, Mira writes that backstory, and briefs Omar. Dren, at Kalina Daily, has the part no outsider has: he lived it. (Kalina Daily, the Meridian Post, Dren and Omar are invented, for practice.)
+
+@WARMUP The way it was | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — the team remembers how the valley used to be.
+@WARMBOX
+"Omar has asked for background," Ana says. "He wants to know what the valley was like before." Mira nods. "Dren remembers it better than any of us. The bridge used to be full every morning. Old Bekim would open his stall at dawn and sweep the boards. Then, over one hard winter, families began to leave. When the barrier came down, the road was emptying, week by week."
+She pauses. "For seven years it was quiet. But that quiet is the backstory — it is why the reopening matters so much. Omar needs to understand the before, or he cannot understand the now."
+
+@EX W1 | Answer the questions.
+@NUM
+What did the bridge use to be like every morning? ___________
+What would Bekim do at dawn? ___________
+What was happening when the barrier came down? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+The bridge used to be empty every morning. ______
+Bekim would open his stall at dawn. ______
+The road was emptying when the barrier came down. ______
+
+@EX W3 | Find one 'used to', one 'would', and one past-continuous verb (was/were + -ing) in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What did your town or street use to be like when you were a child? What has changed?
+What is one thing you used to do every day that you do not do now?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. Why does a reader abroad need the backstory before they can understand the news today?
+
+@PART 1 | The words of the backstory | The words for background and memory. Learn these first.
+@FIG u2-words | Four key words — background, context, backstory, brief.
+@H The words
+@VOCAB
+background | the facts behind a story
+context | what helps you understand a story
+backstory | what happened before the story began
+brief (v) | to give someone the key facts
+brief (n) | a short set of key facts
+in those days | at that time in the past
+quiet | with little noise or activity
+empty | with no people
+busy | full of activity
+rebuild | to build again
+return | to come back
+memory | something you remember
+recall | to remember
+no longer | not any more
+once | at a time in the past
+back then | at that time
+correspondent | a reporter who files from another place
+archive | the record of what an outlet has published
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  background
+2.  context
+3.  backstory
+4.  brief
+5.  in those days
+6.  recall
+7.  no longer
+8.  correspondent
+9.  archive
+10.  memory
+@@
+a)  what happened before the story
+b)  the facts behind a story
+c)  what helps you understand it
+d)  to give someone the key facts
+e)  at that time in the past
+f)  to remember
+g)  not any more
+h)  a reporter who files from far away
+i)  the record of what an outlet has published
+j)  something you remember
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | background · context · backstory · brief · correspondent · recall
+@NUM
+Omar needs the ___________ before he can write the story.
+The ___________ is what happened before the barrier came down.
+Mira will ___________ him — give him the key facts.
+Good ___________ helps a reader understand the news.
+Omar is a ___________ turned editor at an international daily.
+Older residents ___________ how the valley used to be.
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  give the
+2.  provide
+3.  brief a
+4.  recall a
+5.  search an
+@@
+a)  background
+b)  context
+c)  correspondent
+d)  memory
+e)  archive
+
+@EX 1D | Circle the word that is different.
+@NUM
+quiet · empty · still · busy
+background · context · backstory · deadline
+recall · remember · recover · look back
+correspondent · reporter · editor · rumour
+
+@FIG g-pageflow | Behind every front page there is a backstory.
+@EX 1E | Complete the paragraph. Use: backstory · quiet · used to · returned · context.
+@WHITE
+The valley ___________ be busy. Then it went ___________ for seven years, before the families ___________ . That ___________ is the ___________ — it helps a reader understand why the return matters.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+what happened before the story began → ___________
+a reporter who files from another place → ___________
+not any more → ___________
+to give someone the key facts → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: brief · background · memory · archive · context.
+@WHITE
+Omar asked Mira for ___________ , so she wrote a short ___________ . She searched the ___________ for the early coverage. It gave the ___________ a reader needs, and one clear ___________ from a resident.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What is one place that used to be very different? Describe how it used to be.
+Who could give you the backstory of your town? Why them?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: quiet · empty · busy · rebuild · return.
+@WHITE
+The road was ___________ and ___________ for years. Now it is ___________ again. People have begun to ___________ their houses, and families ___________ every month.
+
+@EX 1K | Creative. Write two sentences about how a place you know used to be, and how it is now.
+
+@PART 2 | Grammar: the way things were | used to for past states and habits; would for repeated actions; the past continuous for background.
+@FIG u2-gA | used to — a past state that is not true now; would — a repeated action.
+@GRAMMAR 1 · used to — how things were
+Form: {{used to}} + verb. The bridge {{used to be}} closed. Families {{used to live}} on both sides.
+For a past state or habit that is not true now.
+Negative: It [[didn't use to]] be busy. Question: [[Did]] it [[use to]] be quiet?
+
+@GRAMMAR 2 · would — what happened again and again
+Form: {{would}} + verb. Every morning, Bekim {{would open}} his stall.
+For a repeated past action — something that happened again and again.
+[[Not for states]]: say *it used to be closed*, NOT *it would be closed*.
+
+@FIG u2-gB | past continuous = the longer background; past simple = the event.
+@GRAMMAR 3 · past continuous — the background
+Form: {{was / were}} + verb{{-ing}}. The families {{were leaving}} when the barrier came down.
+For a longer background action, often interrupted by a past-simple event.
+Set the scene: "It {{was raining}}, and the road {{was}} quiet."
+
+@FIG u2-gC | State, scene, or event — each has its own form.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with used to (+ or –).
+@NUM
+The bridge ___________ (be) full every morning.
+The road ___________ not (be) empty.
+Families ___________ (live) on both sides.
+It ___________ not (be) quiet like this.
+
+@EX 2B | used to or would? (Remember: would is not for states.)
+@NUM
+Bekim ___________ open his stall at dawn. (repeated action)
+The bridge ___________ be busy. (state)
+Children ___________ cross on their way to school. (repeated action)
+There ___________ be a school on the far side. (state)
+
+@EX 2C | Complete with the past continuous (was/were + -ing).
+@NUM
+The families ___________ (leave) when the barrier came down.
+It ___________ (rain) that winter, and the road was quiet.
+People ___________ (pack) their things all week.
+
+@EX 2D | Join with when. Use the past continuous and the past simple.
+@NUM
+the families / leave // the barrier / come down → ________________________
+Mira / write / the backstory // Omar / call → ________________________
+
+@H Your own words
+@EX 2E | Write two things your town used to be like. Use used to.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two things you would do as a child (repeated actions). Use would.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (used to / would / past continuous).
+@NUM
+The bridge would be busy every day. → ________________________
+When the barrier came down, families left slowly for months. (use the past continuous) → ________________________
+
+@EX 2H | Your own words. Describe one memory: what was happening, and what used to be true then.
+@NUM
+________________________
+
+@PART 3 | Giving good background | Before a partner can tell the story, you give them the backstory — in order, and fairly.
+@FIG g-bridge | The crossing today. The backstory is everything this place was before the barrier came down.
+@FIG u2-skill | Good background gives the story in order: what came before, and when.
+@LABEL MODEL | A model backstory
+@WARMBOX
+"Here is the backstory. Kalina used to be one of the busiest crossings on the river. Every morning, stall-holders would set up before dawn, and children would cross to the school on the far side. Then, over one hard winter, things changed. Families were leaving, week by week, and when the barrier finally came down, the valley went quiet. For seven years it stayed that way. That quiet is the background — without it, you cannot see how far the return has come."
+
+@LABEL NOTICE | Notice the background
+@FIG u2-read | The backstory shows what a place used to be — and how far it has come.
+@EX 3A | Answer about the model.
+@NUM
+What did Kalina use to be? ___________
+What would the stall-holders do every morning? ___________
+What was happening when the barrier came down? ___________
+
+@EX 3B | Find one 'used to', one 'would', and one past-continuous verb in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the background
+@FIG g-fivew | Good background answers: how was it before, and when did it change?
+@EX 3C | Write the sentence with used to, would, or the past continuous.
+@NUM
+the crossing / be / busy (past state) → ________________________
+children / cross / to school (repeated action) → ________________________
+the families / leave (background, when the barrier came down) → ________________________
+
+@EX 3D | Complete the backstory. Use: used to · would · were · came.
+@WHITE
+The bridge ______ be full. Stall-holders ______ set up at dawn. Then families ______ leaving, and when the barrier ______ down, the valley went quiet.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the backstory in order. Number the sentences 1–4.
+@NUM
+The valley went quiet for seven years. ______
+The crossing used to be busy. ______
+Families were leaving, and the barrier came down. ______
+Last spring, the families began to return. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a place you know. Write a short backstory (4–5 sentences): how it used to be (used to), what people would do (would), and what was happening when it changed (past continuous).
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why must a backstory be in order for a reader who was not there?
+@EX 3H | Why is 'would' wrong for a state (e.g. 'the bridge would be closed')? Give the correct sentence.
+@EX 3I | Discuss. Think of a place that has changed a lot. Give its backstory in three sentences.
+
+@PART 4 | Listening: briefing the editor | Two audios. Listen for the backstory, and for a resident's memory.
+@FIG g-desk | An editor abroad needs the backstory. Mira briefs Omar.
+@SUBHEAD Listening A | · Mira briefs Omar
+@LABEL MODEL | Audio 2.1 — Mira and Omar
+@DIALOGUE
+Omar | Mira, thank you for the brief. Before I edit, I need the backstory.
+Mira | Of course. Kalina used to be one of the busiest crossings on the river.
+Omar | And the people?
+Mira | Families used to live on both sides. Every morning, stall-holders would set up before dawn, and children would cross to the school.
+Omar | So what changed?
+Mira | Over one hard winter, families were leaving, week by week. When the barrier finally came down, the valley went quiet.
+Omar | For how long?
+Mira | Seven years. That quiet is the background. Without it, the return does not mean much.
+Omar | I understand now. One more thing — who should I ask for the human side?
+Mira | Dren, at Kalina Daily. He grew up there. He remembers what I only read about.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what backstory do you think Mira will give? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What did Kalina use to be? ___________
+What would the stall-holders do? ___________
+What was happening over that hard winter? ___________
+How long did the valley stay quiet? ___________
+
+@EX 4C | used to, would, or past continuous? Write U, W, or PC.
+@NUM
+"Kalina used to be one of the busiest crossings." ______
+"Children would cross to the school." ______
+"Families were leaving, week by week." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Used to be: ___________
+People would: ___________
+What was happening when it changed: ___________
+
+@FIG g-studio | Audio 2.2 — an old stall-holder recalls how it used to be.
+@SUBHEAD Listening B | · a resident remembers
+@LABEL MODEL | Audio 2.2 — Bekim
+@DIALOGUE
+Dren | Bekim, you have worked on this bridge all your life. What was it like, back then?
+Bekim | Ah, in those days the bridge never slept. I used to open my stall before the sun.
+Dren | Every day?
+Bekim | Every day. I would sweep the boards, and my neighbour would bring me coffee from the far side.
+Dren | And when things changed?
+Bekim | It was slow. People were leaving quietly. One winter, I was sweeping the boards, and I looked up — the bridge was empty.
+Dren | That must have been hard.
+Bekim | It was. But now the children are back. This morning, I was setting up, and I heard them again. The sound had come home.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Bekim will remember? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Bekim ___________ (use to) open his stall before the sun.
+He ___________ (would) sweep the boards every day.
+One winter he was sweeping when he saw the bridge was ___________ .
+Now, when he sets up, he ___________ the children again.
+
+@EX 4G | Which forms do you hear? Write one 'used to', one 'would', and one past-continuous phrase.
+@NUM
+________________________
+
+@EX 4H | Answer. What does Bekim mean by 'the sound had come home'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: used to · would · leaving · quiet.
+@WHITE
+The crossing ______ be busy; stall-holders ______ set up at dawn. Then families were ______ , and for seven years the valley was ______ . Now the children are back.
+
+@EX 4J | A resident's memory is powerful background. Why is it stronger than a list of facts?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+Mira's brief gives: ___________
+Bekim's memory adds: ___________
+
+@EX 4L | Discuss. If you were Omar, which would help you more — the brief or the memory? Why not both?
+
+@PART 5 | Reading: the way it was | Two readings. Read for the backstory, and for how to give good background.
+@FIG g-reach | A backstory feature — the valley, before the story we know.
+@SUBHEAD Reading A | · the backstory: how the crossing used to be
+@READING Before the quiet: a short history of the Kalina crossing
+To understand the reopening of the Kalina crossing, you have to know the bridge as it used to be. For years, this was one of the busiest crossings on the river. It was never rich, but it was full of life, and everyone knew everyone on both banks.
+In those days, the market on the bridge opened before the sun. Stall-holders like Bekim would arrive at dawn, set out the boxes, and sweep the boards. By seven, the crossing was loud with sellers and buyers from both sides. Children would cut across on their way to the school on the far bank, and old men would sit outside the café at the end of the bridge, as they had for thirty years.
+Then, over one hard winter, things began to change. Families were leaving, quietly at first, and then in greater numbers. Stalls closed one by one. "I remember it clearly," Bekim says. "One morning I was sweeping the boards, and I looked up. The bridge was empty. I had never seen it empty before."
+When the barrier finally came down, the valley went quiet, and it stayed quiet for seven years. The café shut. Grass grew between the stones at the end of the bridge. For a long time, Kalina was a place people remembered rather than a place people crossed.
+That is the backstory, and it is not decoration: it matters. The crossing that reopened last spring did not open in an empty history; it opened where a whole life used to be. When a hundred families return, the number means little on its own. It means a great deal when you know how many left, and how long the valley waited. The past is not just background. It is the reason the present is news.
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. Why would a reader need to know 'how the crossing used to be'? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The crossing used to be one of the busiest on the river. ______
+The market used to open late in the day. ______
+The families all left in a single week. ______
+The valley stayed quiet for seven years. ______
+
+@EX 5C | Answer the questions.
+@NUM
+What would stall-holders do at dawn? ___________
+What was Bekim doing when he saw the empty bridge? ___________
+Why does the number 'a hundred families' matter more with the backstory? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+at that time in the past → ___________
+with no people → ___________
+the facts behind a story → ___________
+
+@FIG g-partners | The backstory is what lets a distant reader feel the weight of the news.
+@SUBHEAD Reading B | · good background: what an editor abroad needs
+@READING Four rules for good background
+**1. Use used to for how things were.** Past states and habits that are not true now: 'The market used to be busy.'
+**2. Use would for what people did again and again.** Repeated actions: 'Every morning, he would open his stall.' (But not for states.)
+**3. Use the past continuous to set the scene.** A longer background, often broken by an event: 'Families were leaving when the barrier came down.'
+**4. Keep it fair and in order.** Give the background in the order it happened, and never make the past worse or better than it was to make today bigger. Where you can, take it from someone who was there — and say who.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which form is for a repeated past action — used to or would? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  used to
+2.  would
+3.  past continuous
+4.  keep it fair
+@@
+a)  'Every morning, he would open his stall.'
+b)  'Families were leaving when it closed.'
+c)  'The market used to be busy.'
+d)  do not make the past sound worse than it was
+
+@EX 5G | Which rule is about honesty, not grammar? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+with little noise or activity → ___________
+to come back → ___________
+a reporter who files from another place → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete the sentence with used to, would, or the past continuous.
+@NUM
+The café ___________ (be) open all day. (state)
+Old men ___________ (sit) outside every afternoon. (repeated action)
+The river ___________ (run) high when the children crossed. (background)
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. Reading A says 'the past is the reason the present is news'. What does this mean?
+@EX 5K | Which of the four background rules is the hardest to follow? Say why.
+@EX 5L | Discuss. Bekim's memory of the empty bridge is one image. Why is one strong image good background?
+
+@PART 6 | Writing: a backstory brief | Two short pieces: a background brief, and a short backstory paragraph.
+@FIG g-notes | A brief gives the key background in a few clear lines.
+@SUBHEAD Writing 1 | · a background brief
+@LABEL MODEL | A model
+@WARMBOX
+Used to be: one of the busiest crossings on the river
+People would: set up stalls at dawn; children crossed to school
+What changed: families were leaving; the barrier came down one winter
+Then: quiet for seven years, until the reopening last spring
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line uses used to? ___________
+Which line uses the past continuous? ___________
+
+@LABEL PRODUCE | Write your brief
+@EX 6B | Choose a place. Write a background brief: used to be, people would, what changed (past continuous), and then.
+@WHITE
+Used to be: ___________
+People would: ___________
+What changed: ___________
+Then: ___________
+
+@FIG g-model | A backstory paragraph turns the brief into readable prose.
+@SUBHEAD Writing 2 | · a backstory paragraph
+@LABEL MODEL | A model
+@WARMBOX
+Kalina used to be one of the busiest crossings on the river. Every morning, stall-holders would set up at dawn, and children would cross to the school on the far bank. Then, over one hard winter, families were leaving, and the barrier came down. For seven years, the valley was quiet — and that quiet is why the return matters so much today.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one 'used to', one 'would', and one past-continuous verb in the paragraph.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the backstory. Use: used to · would · were · came.
+@WHITE
+The bridge ______ be full of children. Old men ______ sit by the café. Then families ______ leaving, and when the barrier ______ down, the valley went quiet.
+
+@LABEL PRODUCE | Write your paragraph
+@EX 6E | Turn your brief into a backstory paragraph (4–5 sentences). Use used to, would, and the past continuous.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This uses 'would' wrongly (for states). Correct it with used to.
+@WHITE
+"The market would be busy, and the café would be open all day."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a longer backstory. Write three notes: a past state (used to), a repeated action (would), and a scene (past continuous).
+@WHITE
+Used to: ___________
+Would: ___________
+Was happening: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Did they use used to for states and would only for repeated actions? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: giving the backstory | Brief a partner on the backstory. Use used to, would, and the past continuous.
+@FIG g-interview | Give the backstory: how it was, what people did, what changed.
+@SUBHEAD A model dialogue | · briefing a colleague
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | I'm writing the follow-up. Can you give me the backstory?
+Mira | Sure. The crossing used to be one of the busiest on the river.
+Sofia | And daily life?
+Mira | Every morning, stall-holders would set up early, and children would cross to school.
+Sofia | What changed?
+Mira | Families were leaving over one hard winter, and when the barrier came down, the valley went quiet.
+Sofia | For how long?
+Mira | Seven years. That is why the reopening is such big news now.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one 'used to', one 'would', and one past-continuous sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with used to, would, or the past continuous.
+@NUM
+What / the crossing / use to / be? → ___________
+What / stall-holders / would / do? → ___________
+What / happen / when the barrier / come down? → ___________
+
+@FIG g-introduce | Introduce the backstory before you tell today's news.
+@EX 7C | Make a 'used to' question, then answer it.
+@NUM
+the bridge / be / busy → ________________________
+a school / be / on the far bank → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Correspondent | Give the backstory: what the place used to be, what people would do, and what was happening when it changed.
+New colleague | Ask: 'What did it use to be like?' and 'What changed?'
+Observer | Listen. Did the correspondent use used to for states and would only for repeated actions?
+
+@EX 7D | Choose a role from the table. Brief your partner on a backstory.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a briefing: a correspondent, a new colleague, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · briefing an editor abroad
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | Mira, I have your brief, but I want the human side. What was it like?
+Mira | You should hear it from Dren — he grew up there. But the short version: there was an old stall-holder, Bekim. He used to open before the sun.
+Omar | Every day?
+Mira | Every day. He would sweep the boards while his neighbour brought coffee. Then, one winter, he was sweeping and looked up — the bridge was empty.
+Omar | That is the image I needed. Thank you.
+Mira | Use it well — and keep it true. It was ordinary life, not a fairy tale. And put Dren's name on it; it is his town.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the past-continuous sentence Mira uses about Bekim and the empty bridge.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use used to for past states?
+use would only for repeated actions?
+use the past continuous to set a scene?
+give the backstory in order, and fairly?
+
+@EX 7G | Role-play briefing an editor abroad. Give the backstory and one human memory. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your briefing. Note one used-to fact, one would action, and one past-continuous scene.
+@EX 7I | Discuss. How would you brief a foreign editor on the backstory of your own town, in four sentences?
+
+@PART 8 | Ethics: a fair backstory | The past is powerful. A fair backstory tells it as it was — not worse, and not like a fairy tale.
+@FIG g-code | The Code applies to the past as much as to today: the backstory must be accurate, honest and fair.
+@FIG u2-ethA | A backstory can be true, or it can be shaped to make today look bigger.
+@SUBHEAD A first case | · making the past sound worse
+@CASE Mira wants the reopening to feel like a triumph, so she is tempted to darken the backstory: to write that the valley 'used to be a place of nothing but fear and ruin.' It would make the recovery look bigger. But it is not true. The valley used to be poor, yes, and the quiet years were real — but before them it was an ordinary, living place, full of small joys: children crossing to school, coffee carried over the bridge at dawn, neighbours on two banks who knew each other. To paint the past as 'nothing but ruin' would erase those people and their ordinary lives, just to make a brighter headline today. The Code says: report the past as it was. What does Mira write?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'a place of nothing but fear and ruin'  (b) 'an ordinary, living crossing that went through hard years'.   Choice: ______  Because ________________________
+Darkening the past to make today look bigger is (a) fair  (b) not fair.   Choice: ______
+
+@EX 8B | Fair background, or shaped? Write F or S.
+@NUM
+'The market used to be busy every morning.' ______
+'There was nothing here but fear.' ______
+'Children used to cross to the school.' ______
+'The valley was a ruin with no life at all.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: was · fair · bigger · order.
+@WHITE
+Tell the past as it ______ . Keep it ______ , and in ______ . Do not darken it to make today's story ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why does erasing the ordinary good of the past also hurt the people who lived it?
+@SUBHEAD A second case | · the fairy-tale angle
+@FIG u2-ethB | A partner abroad may want a simpler, prettier past. Keep it true.
+@CASE Omar's own editor at the Meridian Post loves the backstory, but suggests a softer, prettier version for an international audience: 'the little paradise that was lost and found again.' It is warm and it would travel well. But it is not quite true. Kalina was never a paradise; it was an ordinary crossing, sometimes hard, made of real people. 'Paradise lost' turns them into a fairy tale, and a fairy tale is easy to forget. The Post's reach is real, and Mira wants the story to travel — but the people in it deserve to be seen as they were, and Dren, who grew up there, would not recognise the place in that sentence. The Code says: keep it true, even when a prettier version would please a partner. What does Mira tell Omar?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) the 'little paradise' fairy tale  (b) the ordinary, real backstory.   Choice: ______  Because ________________________
+A fairy-tale past is (a) easy to remember and true  (b) easy to forget and not true.   Choice: ______
+
+@EX 8F | Complete with: true · real · ordinary · fairy tale.
+@NUM
+The valley was an ___________ place, not a paradise.
+A ___________ is easy to forget.
+Keep the backstory ___________ .
+The people in it were ___________ .
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why does an honest, ordinary backstory respect people more than a beautiful, false one?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences of true backstory for Omar — warm and human, but not a fairy tale. Use used to and would.
+@LABEL PRACTISE | One more
+@EX 8I | True, shaped, or fairy tale? Write T, S, or FT.
+@NUM
+'Neighbours used to carry coffee across the bridge.' ______
+'It was a perfect little paradise.' ______
+'There was nothing here but ruin.' ______
+'Children would cross to school each morning.' ______
+
+@EX 8J | Discuss. A partner's bigger audience is tempting. Why is keeping the past true worth more than a version that travels?
+
+@PART 9 | Digital: a 'then and now' thread | Online, a 'then and now' post shares the backstory — in a line, and true.
+@FIG g-phonealert | A 'then and now' post — how it used to be, and how it is.
+@LABEL MODEL | A model post
+@WARMBOX
+THEN AND NOW · Kalina used to be one of the busiest crossings on the river. Stall-holders would set up at dawn. Then families were leaving, and the barrier came down. Today, the children are back. — @AtlasWire with @KalinaDaily
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to the form.
+@MATCH
+1.  used to be one of the busiest
+2.  Stall-holders would set up at dawn
+3.  families were leaving
+4.  the children are back
+@@
+a)  past continuous (the scene)
+b)  used to (a past state)
+c)  present (today)
+d)  would (a repeated action)
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one 'used to', one 'would', and one past-continuous verb in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post uses 'would' wrongly. Correct it with used to.
+@WHITE
+"The market would be busy, and there would be a school on the far bank."
+
+@P
+________________________
+
+@FIG u2-sum | A good 'then and now' answers: how was it, and how is it now?
+@EX 9D | Write a 'then and now' post. Use one used to, one would, and one past-continuous verb.
+@WHITE
+THEN AND NOW · ___________ (used to). ___________ (would). ___________ (past continuous). — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line 'then and now' post about a place you know. Use used to.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a 'then and now' backstory.
+@EX 9G | A reader abroad asks: 'What was it like before?' Write a short, true reply. Use used to and would.
+@WHITE
+________________________
+
+@EX 9H | A 'then and now' post can make the past look too dark or too golden. Write one line that stays fair.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 'then' (used to / would), line 2 'now' (present).
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. A short 'then and now' post loses a lot of the backstory. What is gained, and what is lost?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 3.
+@FIG g-website | Then and now — how the crossing used to be, and how it is.
+@EX 10A | Vocabulary. Complete with: background · context · backstory · brief · correspondent · recall · no longer · quiet.
+@NUM
+Omar needs the ___________ before he edits.
+Good ___________ helps a reader understand.
+The ___________ is what happened before.
+Mira wrote a short ___________ for him.
+Omar is a ___________ turned editor.
+Old residents ___________ how it was.
+The road is ___________ empty.
+For seven years, the valley was ___________ .
+
+@EX 10B | Grammar. Complete with used to (+ or –).
+@NUM
+The market ___________ (be) full every morning.
+It ___________ not (be) empty like this.
+Families ___________ (live) on both sides.
+There ___________ (be) a café at the end of the bridge.
+
+@EX 10C | Grammar. used to or would?
+@NUM
+Bekim ___________ open his stall at dawn. (repeated action)
+The crossing ___________ be busy. (state)
+Children ___________ cross to the school. (repeated action)
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with the past continuous.
+@NUM
+The families ___________ (leave) when the barrier came down.
+It ___________ (rain) that winter.
+Bekim ___________ (sweep) the boards when he saw the empty bridge.
+
+@EX 10E | Read and answer.
+@WHITE
+Kalina used to be one of the busiest crossings on the river. Stall-holders would set up at dawn, and children would cross to the school. Then families were leaving, and the barrier came down. For seven years the valley was quiet — and that is why the return is such news.
+
+@NUM
+What did the crossing use to be? ___________
+What would the stall-holders do? ___________
+What was happening before the barrier came down? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can describe how things used to be (used to).
+I can talk about repeated past actions (would).
+I can use the past continuous for background.
+I can give the backstory to a colleague abroad.
+
+@EX 10F | Reflect. Which part of Unit 2 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+The market would be busy in those days. → ________________________
+Children used to crossing to the school. → ________________________
+The families leaving when the barrier came down. → ________________________
+It use to be quiet here. → ________________________
+
+@EX 10H | Mixed review. Complete with used to, would, or the past continuous.
+@NUM
+The café ___________ (be) open all day.
+Old men ___________ (sit) by the bridge every afternoon.
+The river ___________ (run) high when the children crossed.
+
+@EX 10I | Reflect. Write one sentence about how your own town used to be. Use used to.
+
+@PART 11 | Assignment: a backstory brief | Put the unit together: write the backstory for a partner abroad.
+@FIG g-template | The assignment template — your backstory brief.
+@P
+**Your task. **An editor abroad is going to publish a story you know, and needs the backstory. Write a short backstory brief (6–7 sentences). Say how the place used to be (used to), what people would do (would), and what was happening when it changed (past continuous). Add one human memory, and name the person it came from. Keep it true and in order — not worse than it was, and not a fairy tale.
+
+@FIG g-model | A model — use Reading A to check the shape of your brief.
+@WHITE
+Remember: used to for past states; would only for repeated actions; the past continuous for the scene; give it in order; keep it fair and human; name whoever remembers it.
+
+@CRITERIA Success criteria
+I use used to for how things were.
+I use would only for repeated actions.
+I use the past continuous to set a scene.
+I add one true, human memory, with a name.
+It is fair and in order — not darkened, not a fairy tale.
+
+@P
+**Keep this. **In Unit 3, you plan the coverage ahead — the future forms (will, going to, present continuous) — to arrange a joint project across time zones.
+
+@KEY Book 2 · Unit 2 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 full every morning · 2 open his stall at dawn and sweep the boards · 3 the road was emptying (week by week)
+W2 | 1 F (it used to be full) · 2 T · 3 T
+W3 | used to: 'used to be full' · would: 'would open his stall' · past continuous: 'was emptying'
+1A | 1-b, 2-c, 3-a, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j (accept sensible matches)
+1B | 1 background · 2 backstory · 3 brief · 4 context · 5 correspondent · 6 recall
+1C | 1 give the background · 2 provide context · 3 brief a correspondent · 4 recall a memory · 5 search an archive
+1D | 1 busy · 2 deadline · 3 recover · 4 rumour
+1E | 1 used to · 2 quiet · 3 returned · 4 context · 5 backstory
+1F | 1 backstory · 2 correspondent · 3 no longer · 4 brief
+1G | background · brief · archive · context · memory
+1J | 1 quiet · 2 empty · 3 busy · 4 rebuild · 5 return
+2A | 1 used to be · 2 didn't use to be · 3 used to live · 4 didn't use to be
+2B | 1 would · 2 used to · 3 would · 4 used to
+2C | 1 were leaving · 2 was raining · 3 were packing
+2D | 1 The families were leaving when the barrier came down. · 2 Mira was writing the backstory when Omar called.
+2G | 1 The bridge used to be busy every day. · 2 When the barrier came down, families were leaving (for months).
+3A | 1 one of the busiest crossings on the river · 2 set up before dawn · 3 families were leaving (the valley went quiet)
+3B | used to: 'used to be one of the busiest' · would: 'would set up before dawn' · past continuous: 'families were leaving'
+3C | 1 The crossing used to be busy. · 2 Children would cross to school. · 3 The families were leaving when the barrier came down.
+3D | used to · would · were · came
+3E | 1 The crossing used to be busy. · 2 Families were leaving, and the barrier came down. · 3 The valley went quiet for seven years. · 4 Last spring, the families began to return.
+3H | 'would' is only for repeated actions, not states. Correct: 'The bridge used to be closed.'
+4B | 1 one of the busiest crossings on the river · 2 set up before dawn (children crossed to school) · 3 families were leaving · 4 seven years
+4C | 1 U · 2 W · 3 PC
+4D | Used to be = one of the busiest crossings · People would = set up stalls / children crossed · What was happening = families were leaving
+4F | 1 used to · 2 would · 3 empty · 4 hears
+4G | used to: 'used to open' · would: 'would sweep' · past continuous: 'was sweeping' / 'were leaving'
+4I | used to · would · leaving · quiet
+4J | because a memory gives a real image and feeling, which a reader far away can picture and remember
+4K | brief = the ordered facts (used to / would / what changed) · memory = one human image (the empty bridge)
+5B | 1 T · 2 F · 3 F · 4 T
+5C | 1 arrive at dawn, set out the boxes, sweep the boards · 2 sweeping the boards · 3 it shows how much was lost and how long the valley waited
+5D | 1 in those days · 2 empty · 3 background
+5F | used to → 'The market used to be busy.' · would → 'he would open his stall.' · past continuous → 'Families were leaving when it closed.' · keep it fair → do not make the past sound worse than it was
+5G | Rule 4
+5H | 1 quiet · 2 return · 3 correspondent
+5I | 1 used to be · 2 would sit · 3 was running
+6A | 1 'Used to be: one of the busiest crossings…' · 2 'families were leaving' (What changed)
+6C | used to: 'used to be one of the busiest' · would: 'would set up at dawn' · past continuous: 'families were leaving'
+6D | used to · would · were · came
+6F | 'The market used to be busy, and the café used to be open all day.'
+7A | used to: 'used to be one of the busiest' · would: 'would set up early' · past continuous: 'families were leaving'
+7B | 1 It used to be one of the busiest on the river. · 2 They would set up early. · 3 Families were leaving when it came down.
+7C | 1 Did the bridge use to be busy? — (answer) · 2 Did a school use to be on the far bank? — (answer)
+7F | 'he was sweeping (the boards) and looked up, and the bridge was empty'
+8A | 1 (b) 'an ordinary, living crossing that went through hard years' · 2 (b) not fair
+8B | 1 F · 2 S · 3 F · 4 S
+8C | was · fair · order · bigger
+8E | 1 (b) the ordinary, real backstory · 2 (b) easy to forget and not true
+8F | 1 ordinary · 2 fairy tale · 3 true · 4 real
+8I | 1 T · 2 FT · 3 S · 4 T
+9A | 'used to be one of the busiest' → used to · 'Stall-holders would set up at dawn' → would · 'families were leaving' → past continuous · 'the children are back' → present
+9B | used to: 'used to be' · would: 'would set up' · past continuous: 'were leaving'
+9C | 'The market used to be busy, and there used to be a school on the far bank.'
+10A | 1 background · 2 context · 3 backstory · 4 brief · 5 correspondent · 6 recall · 7 no longer · 8 quiet
+10B | 1 used to be · 2 didn't use to be · 3 used to live · 4 used to be
+10C | 1 would · 2 used to · 3 would
+10D | 1 were leaving · 2 was raining · 3 was sweeping
+10E | 1 one of the busiest crossings on the river · 2 set up at dawn (and children crossed) · 3 families were leaving
+10G | 1 The market used to be busy in those days. · 2 Children used to cross to the school. · 3 The families were leaving when the barrier came down. · 4 It used to be quiet here.
+10H | 1 used to be · 2 would sit · 3 was running
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4H, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, Omar Faris, Dren, Bekim, Kalina and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 2 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Feature & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + an editor abroad · fictional agency, factual backdrop.

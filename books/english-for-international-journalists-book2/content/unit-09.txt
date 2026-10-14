@@ -1,0 +1,858 @@
+@UNITHEAD BOOK 2 · UNIT 9 | Joining It Up: Co-Writing with Partners | Beat · Co-Writing & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+use quantifiers accurately (some, most, a few, several)
+use a, an, the and no article correctly
+join ideas with connectors
+co-write one piece with two other newsrooms
+
+@FIG g-team | The Atlas Wire team — merging three drafts into one piece that still tells the truth.
+@STORY Three drafts, one piece. | Three newsrooms have written three parts of The Seven Crossings, and now the parts have to become a piece. Atlas Wire has the mouth of the river, the River Basin Network has the middle, and Kalina Daily has upstream. The facts agree. The voices do not, the quantifiers do not match, and in two places the accounts contradict each other. This week, Mira learns that joining writing up is mostly a matter of small words — *some*, *most*, *the*, *however* — and that the smallest words carry the most. (Atlas Wire, Kalina Daily, the River Basin Network and the Meridian Post are invented, for practice.)
+
+@WARMUP The seam | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — three drafts on the table, and two of them disagree.
+@WARMBOX
+"Dren writes that most families upstream have returned," Mira says. "Ines writes that a few have. They are describing the same river."
+"Different crossings," Ana says. "Both can be true."
+"Then the piece has to say which, and where. However I join them, the reader must not think they contradict."
+Daniel reads over her shoulder. "And here the Post's draft says 'families have returned'. No quantifier at all."
+"That is the worst of the three," Mira says. "Some is a fact. None is a hole."
+
+@EX W1 | Answer the questions.
+@NUM
+What does Dren write about families upstream? ___________
+What does Ines write? ___________
+Why can both be true? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Dren and Ines are writing about the same crossings. ______
+The Post's draft has no quantifier. ______
+Mira thinks a missing quantifier is the worst problem. ______
+
+@EX W3 | Find two quantifiers and one connector in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+Have you ever written something with another person? What was hardest?
+What is the difference between 'some families' and 'families'?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'Some is a fact. None is a hole.' What does Mira mean?
+
+@PART 1 | The words of co-writing | The words for merging drafts, voices and bylines.
+@FIG u9-words | Four key words — merge, version, seam, shared byline.
+@H The words
+@VOCAB
+co-write | to write together
+merge (v) | to join two texts into one
+version | one of several forms of a text
+track changes | a record of each person's edits
+house voice | the way one outlet sounds
+connector | a word that links sentences or clauses
+transition | a phrase that carries a reader from one idea to the next
+paragraph | a block of sentences on one point
+structure (n) | the order of the parts
+repetition | saying the same thing twice
+overlap (n) | the part two texts both cover
+seam | the place where two pieces join
+consistent | the same all the way through
+contradiction | two statements that cannot both be true
+reconcile | to make two accounts agree
+shared byline | a byline with more than one name
+sign-off | the final approval
+comment (n) | a note left on a draft
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  co-write
+2.  merge
+3.  version
+4.  house voice
+5.  connector
+6.  overlap
+7.  seam
+8.  contradiction
+9.  reconcile
+10.  shared byline
+@@
+a)  to join two texts into one
+b)  to write together
+c)  one of several forms of a text
+d)  the way one outlet sounds
+e)  a word that links sentences
+f)  the part two texts both cover
+g)  the place where two pieces join
+h)  two statements that cannot both be true
+i)  to make two accounts agree
+j)  a byline with more than one name
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | merge · version · seam · overlap · contradiction · shared byline
+@NUM
+Three drafts have to ___________ into one piece.
+Each partner sent its own ___________ .
+A reader should not be able to feel the ___________ .
+The middle section had a large ___________ with the first.
+In two places there was a real ___________ .
+The piece went out with a ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  merge three
+2.  keep one
+3.  reconcile two
+4.  leave a
+5.  share a
+@@
+a)  drafts
+b)  house voice
+c)  accounts
+d)  comment
+e)  byline
+
+@EX 1D | Circle the word that is different.
+@NUM
+merge · join · combine · separate
+consistent · even · uniform · uneven
+connector · transition · link · gap
+version · draft · copy · chart
+
+@FIG g-credit | Three names on one byline. Each one did a part no one else could do.
+@EX 1E | Complete the paragraph. Use: merge · seam · house voice · consistent · connectors.
+@WHITE
+When you ___________ three drafts, the danger is the ___________ . Choose one ___________ , keep the quantifiers ___________ , and join the parts with ___________ a reader does not notice.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+a record of each person's edits → ___________
+saying the same thing twice → ___________
+the order of the parts → ___________
+the final approval → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: comments · track changes · sign-off · paragraph · structure.
+@WHITE
+Ines left eleven ___________ in ___________ . One asked for the ___________ of the middle section to change; another moved a whole ___________ . The ___________ came at six.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+When you write with someone, who decides the structure?
+What makes two people's writing sound like one voice?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: repetition · reconcile · overlap · versions · co-wrote.
+@WHITE
+The three ___________ had some ___________ , so there was ___________ in the middle. Mira had to ___________ two accounts, and in the end the partners ___________ the lead together.
+
+@EX 1K | Creative. Write two sentences joining two facts with a connector of your choice.
+
+@PART 2 | Grammar: the small words | Quantifiers; a, an, the and no article; connectors.
+@FIG u9-gA | some · most · a few · several — each one is a different fact.
+@GRAMMAR 1 · quantifiers — how many, how much
+Countable: {{a few}}, {{several}}, {{many}}, {{most}}, {{all}}, {{none}} of the families.
+Uncountable: {{a little}}, {{much}}, {{most}} of the water, {{plenty of}} time.
+[[A quantifier is part of the fact]]: *some families returned* and *most families returned* are different claims.
+
+@GRAMMAR 2 · a, an, the — and no article
+First mention: {{a}} crossing, {{an}} office. Second mention, or one we both know: {{the}} crossing.
+{{the}} with rivers and named things: {{the}} river Vara, {{the}} Crossing Office. No article with most place names: Kalina, Veren.
+[[Not 'the' for a general plural]]: say *families returned*, NOT *the families returned*, unless you mean particular ones.
+
+@FIG u9-gB | however · although · because · so — the joints of a paragraph.
+@GRAMMAR 3 · connectors — joining ideas
+Contrast: {{however}} (new sentence), {{although}} / {{whereas}} (one sentence), {{but}}.
+Cause and result: {{because}}, {{since}}, {{so}}, {{therefore}}.
+Adding and sequencing: {{in addition}}, {{also}}, {{meanwhile}}, {{then}}.
+[[Punctuation]]: *However, the figure is unconfirmed.* — comma after *however*, not before a clause.
+
+@FIG u9-gC | Quantifier, article, connector — the three joints of co-written copy.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with a quantifier: a few · several · most · none.
+@NUM
+___________ of the seven crossings have reopened — five of them.
+___________ of the eleven households in Veren has returned.
+___________ families came back last year: eleven in all.
+___________ crossings were counted twice in the first draft.
+
+@EX 2B | Complete with a, an, the, or – (no article).
+@NUM
+___________ crossing reopened last spring. ___________ crossing is now the busiest of seven.
+___________ river Vara runs through ___________ Kalina.
+___________ families have returned, according to ___________ Crossing Office.
+
+@EX 2C | Join the ideas with the connector given.
+@NUM
+Most families upstream have returned. A few have returned in the middle. (whereas) → ________________________
+The figure is unconfirmed. We are publishing the story. (however) → ________________________
+Veren has eleven households. It led the piece. (although) → ________________________
+
+@EX 2D | Choose the right connector: because · so · in addition · meanwhile.
+@NUM
+The office would not give its method, ___________ the figure stayed out.
+Dren reported upstream. ___________ , Ines was in the middle of the valley.
+We held the story ___________ two sources were missing.
+The piece ran in four countries. ___________ , it was translated twice.
+
+@H Your own words
+@EX 2E | Write two sentences about your own town using different quantifiers.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two sentences joined by a connector of contrast and one of result.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (quantifier / article / connector).
+@NUM
+Most of families have returned. → ________________________
+Although the figure is unconfirmed, but we are publishing. → ________________________
+
+@EX 2H | Your own words. Write one sentence where changing the quantifier changes the fact.
+@NUM
+________________________
+
+@PART 3 | Merging three drafts | Co-writing is mostly joining: one voice, consistent quantifiers, and seams a reader cannot feel.
+@FIG g-pageflow | Three drafts in, one piece out. The joins are where the errors live.
+@FIG u9-skill | Merge in four passes: structure, quantifiers, articles, connectors.
+@LABEL MODEL | A model merge note
+@WARMBOX
+"Four passes. First, structure: Veren leads, then Kalina, then the middle crossings; each section keeps its reporter's byline.
+Second, quantifiers. Dren has 'most families' upstream; Ines has 'a few' in the middle. Both are right, so the piece says which crossings, and where. The Post's 'families have returned' goes — a missing quantifier is not neutral.
+Third, articles. It is 'the river Vara', 'the Crossing Office', but 'Kalina' and 'Veren' with no article.
+Fourth, connectors. However for contrast between sections, whereas inside a sentence, and nothing clever at the seams."
+
+@LABEL NOTICE | Notice the merge note
+@FIG u9-read | A good seam is invisible. A bad one makes two true sentences look like a contradiction.
+@EX 3A | Answer about the merge note.
+@NUM
+What is the order of the sections? ___________
+Why are 'most' and 'a few' both right? ___________
+What happens to 'families have returned'? ___________
+
+@EX 3B | Find two quantifiers, one article rule and one connector in the note. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the merge
+@FIG g-fivew | At every seam: who is speaking, about which crossing, and how many.
+@EX 3C | Write the sentence with the right quantifier, article, or connector.
+@NUM
+most / families / upstream / return (quantifier) → ________________________
+a few / families / the middle crossings / return (quantifier) → ________________________
+join the two with a contrast (whereas) → ________________________
+
+@EX 3D | Complete the merge. Use: most · a few · the · however.
+@WHITE
+Upstream, ______ families have returned. In ______ middle crossings, only ______ have. ______ , no family has returned to Veren at all.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the four merge passes in order. Number them 1–4.
+@NUM
+Connectors at the seams. ______
+The structure of the sections. ______
+Articles and names. ______
+Quantifiers made consistent. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Take two short accounts of the same event (yours and a partner's). Write a merged paragraph (4–5 sentences): one structure, consistent quantifiers, correct articles, and two connectors.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why is a missing quantifier worse than a cautious one?
+@EX 3H | Why does 'the families have returned' mean something different from 'families have returned'? Explain.
+@EX 3I | Discuss. Who should decide the structure when three newsrooms co-write?
+
+@PART 4 | Listening: the merge call | Two audios. Listen for the quantifiers, and for the argument about the byline.
+@FIG g-desk | Audio 9.1 — two editors join two drafts, line by line.
+@SUBHEAD Listening A | · joining the drafts
+@LABEL MODEL | Audio 9.1 — Mira and Ines
+@DIALOGUE
+Ines | Your section says most families have returned. Mine says a few.
+Mira | Both are true — yours is the middle crossings, mine is upstream.
+Ines | Then we must name the crossings, or the reader sees a contradiction.
+Mira | Agreed. 'Upstream, most families have returned; in the middle crossings, only a few.'
+Ines | Good. And the Post's draft has no quantifier at all.
+Mira | That goes. A missing quantifier reads as 'all'.
+Ines | One more thing: I have eleven comments in track changes. Several are about structure.
+Mira | Send them. However we order it, Veren leads.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think the two editors will disagree about? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+Why are 'most' and 'a few' both true? ___________
+What must the piece name, and why? ___________
+What happens to the draft with no quantifier? ___________
+How many comments has Ines left? ___________
+
+@EX 4C | Quantifier, article, or connector? Write Q, A, or C.
+@NUM
+"Most families have returned." ______
+"In the middle crossings." ______
+"However we order it, Veren leads." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Upstream: ___________
+Middle crossings: ___________
+The Post's draft: ___________
+
+@FIG g-newsroom | Audio 9.2 — whose name goes first, and what a quantifier is worth.
+@SUBHEAD Listening B | · the byline and the hedge
+@LABEL MODEL | Audio 9.2 — Mira and Dren
+@DIALOGUE
+Dren | The Post's subeditor has changed my 'most families' to 'families'.
+Mira | I saw. It is going back. A quantifier is part of the fact.
+Dren | Thank you. And the byline order?
+Mira | Alphabetical by outlet, as we agreed: Atlas Wire, Kalina Daily, the River Basin Network.
+Dren | My name on a piece that leads with my village. That matters here.
+Mira | It should. You reported the only crossing that never reopened, alone.
+Dren | There is one more thing. My account and Ines's disagree about the second ferry.
+Mira | Then we print both, and say they disagree. We do not smooth that seam.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Dren will raise? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+The subeditor changed 'most families' to '___________ '.
+A quantifier is part of the ___________ .
+The byline order is ___________ by outlet.
+Where the two accounts disagree, the partners will print ___________ .
+
+@EX 4G | Which forms do you hear? Write one quantifier, one article and one connector.
+@NUM
+________________________
+
+@EX 4H | Answer. Why will the partners not 'smooth that seam'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: most · a few · however · the.
+@WHITE
+Upstream, ______ families have returned; in ______ middle crossings, only ______ have. ______ , no family has returned to Veren.
+
+@EX 4J | A subeditor removed one word. Why was that a change of fact, not of style?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The merge call is about: ___________
+Dren's call is about: ___________
+
+@EX 4L | Discuss. When two partners' accounts disagree, should the piece say so? Why?
+
+@PART 5 | Reading: written by three, read as one | Two readings. Read for the joins, and for the rules of co-writing.
+@FIG g-reach | One piece, three newsrooms, four countries — and it has to read as though one person wrote it.
+@SUBHEAD Reading A | · how three drafts became one piece
+@READING The seams: co-writing The Seven Crossings
+Three newsrooms wrote The Seven Crossings, and a reader should not be able to tell where one stopped and the next began. Getting there took four passes over three days, and almost none of the work was about facts. The facts had agreed with each other from the start.
+
+The first pass was structure. Veren, with eleven households, leads; Kalina follows; the middle crossings come third. "We argued for a day about the order and ten minutes about the facts," says Ines Duarte of the River Basin Network. "That is normal in co-writing."
+
+The second pass was quantifiers, and it was the dangerous one. Dren Markaj of Kalina Daily had written that most families upstream had returned. Ines had written that a few had. Both were correct, about different crossings, and side by side they looked like a contradiction. The piece now names the crossings in both sentences.
+
+Worse was a draft that had no quantifier at all: *families have returned*. "A missing quantifier reads as *all*," says Mira Sandoval of Atlas Wire. "Some is a fact. None is a hole, and the reader fills it."
+
+The third pass looked small: articles and names. The river Vara and the Crossing Office take *the*; Kalina and Veren take none. Three partners, two of them writing in a second language, had made eleven different choices between them, and a reader notices the eleventh even when they cannot say why.
+
+The fourth pass was the joins themselves, and it was the slowest. Contrast between sections is carried by *however*; contrast inside a sentence by *whereas*. Where Dren's account and Ines's disagree about a second ferry, nothing was smoothed: the piece says both, and says they disagree. "A seam you can feel is better than a seam that hides something," Ines says.
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: what do you think 'the seams' means here? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The partners spent longer on the order than on the facts. ______
+'Most' and 'a few' were both correct. ______
+A missing quantifier reads as 'none'. ______
+The disagreement about the ferry was smoothed away. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why did 'most' and 'a few' look like a contradiction? ___________
+Why is a missing quantifier worse than a cautious one? ___________
+What did the partners do about the ferry disagreement? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+the place where two pieces join → ___________
+two statements that cannot both be true → ___________
+to join two texts into one → ___________
+
+@FIG g-partners | Co-writing is an agreement about small words, made by people in different time zones.
+@SUBHEAD Reading B | · co-writing with partners
+@READING Four rules for co-writing
+**1. Agree the structure before the sentences.** Decide what leads, and in what order. Most arguments about style are arguments about structure.
+**2. Treat a quantifier as a fact.** *Most*, *some*, *a few* are not softeners; each is a different claim. Never delete one to tighten a sentence, or change one without asking its reporter.
+**3. Choose one house voice, and keep every byline.** One outlet's sound; every reporter's name, including the local one nobody could replace.
+**4. Do not smooth a real disagreement.** If two accounts differ, print both and say so. A visible seam is honest; a hidden one decides for the reader.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which is a fact — 'most families' or 'families'? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  agree the structure
+2.  a quantifier is a fact
+3.  one voice, every byline
+4.  do not smooth
+@@
+a)  'the piece says both, and says they disagree'
+b)  'most, some, a few — each is a different claim'
+c)  'Veren leads, then Kalina, then the middle'
+d)  'three names on the byline, one way of writing'
+
+@EX 5G | Which rule protects a reporter's words from an editor's tidying? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+the way one outlet sounds → ___________
+the same all the way through → ___________
+a byline with more than one name → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with a quantifier, an article, or a connector.
+@NUM
+Upstream, ___________ families have returned.
+It is ___________ river Vara, but ___________ Kalina.
+The figure is unconfirmed; ___________ , the story runs.
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. 'A seam you can feel is better than a seam that hides something.' Do you agree?
+@EX 5K | Which of the four rules would be hardest with a partner in another language? Say why.
+@EX 5L | Discuss. 'Arguments about structure wearing the costume of style.' What does Ines mean?
+
+@PART 6 | Writing: the merged piece | Two short pieces: a merge note, and a joined paragraph.
+@FIG g-notes | A merge note: the order, the quantifiers, the articles, the seams.
+@SUBHEAD Writing 1 | · a merge note
+@LABEL MODEL | A model
+@WARMBOX
+STRUCTURE: Veren leads · Kalina second · the middle crossings third
+QUANTIFIERS: upstream = most families · middle = a few · Veren = none. Name the crossings in every sentence.
+CUT: 'families have returned' with no quantifier
+ARTICLES: the river Vara, the Crossing Office · Kalina, Veren (no article)
+SEAMS: however between sections · whereas inside a sentence · the ferry disagreement stays visible
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line is about quantifiers? ___________
+Which line tells you not to hide something? ___________
+
+@LABEL PRODUCE | Write your note
+@EX 6B | Choose two accounts of one event. Write a merge note: structure, quantifiers, cuts, articles, seams.
+@WHITE
+Structure: ___________
+Quantifiers: ___________
+Cut: ___________
+Articles: ___________
+Seams: ___________
+
+@FIG g-model | A joined paragraph: three reporters, one voice, every quantifier kept.
+@SUBHEAD Writing 2 | · a joined paragraph
+@LABEL MODEL | A model
+@WARMBOX
+No family has returned to Veren, the smallest of the seven crossings on the river Vara, although it has been closed the longest. Upstream, most families have come back; in the middle crossings, only a few have. However, the Crossing Office has not published the method behind its figure of 112, so the number stays out of this paragraph. Dren Markaj of Kalina Daily and Ines Duarte of the River Basin Network disagree about whether a second ferry ran last winter; both accounts are below.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find two quantifiers, one 'the' with a named thing, and two connectors.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the paragraph. Use: most · a few · however · although.
+@WHITE
+Upstream, ______ families have come back. In the middle crossings, only ______ have. ______ , no family has returned to Veren, ______ it has been closed the longest.
+
+@LABEL PRODUCE | Write your paragraph
+@EX 6E | Turn your merge note into a joined paragraph (4–5 sentences). Use three quantifiers and two connectors.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This copy drops a quantifier and doubles a connector. Correct both.
+@WHITE
+"Families have returned upstream. Although the figure is unconfirmed, but the story runs."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a merge. Write three lines: the order of the sections, the quantifier for each, the one seam you will leave visible.
+@WHITE
+Order: ___________
+Quantifiers: ___________
+Visible seam: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Does every claim have a quantifier, and is every byline kept? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: agreeing the join | Agree how to join two accounts. Use quantifiers, articles and connectors.
+@FIG g-interview | Agreeing a join out loud: which crossing, how many, and in what order.
+@SUBHEAD A model dialogue | · joining two accounts
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | Your section says most families. Ines's says a few.
+Mira | Different crossings. We name them in both sentences.
+Sofia | And the draft with no quantifier?
+Mira | It goes. Without a quantifier a reader reads 'all'.
+Sofia | What leads?
+Mira | Veren. The smallest crossing, and the only one that never reopened.
+Sofia | And the ferry disagreement?
+Mira | Both accounts, and a line saying they disagree. However we write it, we do not hide it.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find two quantifiers and one connector in the dialogue. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with a quantifier or a connector.
+@NUM
+How many families upstream? → ___________
+How many in the middle crossings? → ___________
+What about the draft with no quantifier? → ___________
+
+@FIG g-introduce | Open the merge call with the structure, not the sentences.
+@EX 7C | Make a question with a quantifier, then answer it.
+@NUM
+how many / the seven crossings / reopen → ________________________
+how many / households / Veren → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Co-writer | Say your structure, your quantifiers, and which seam you will leave visible.
+Partner | Ask: 'Which crossings?' and 'Why does that section lead?'
+Observer | Listen. Did every claim keep a quantifier, and every reporter a byline?
+
+@EX 7D | Choose a role from the table. Agree a join with your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a merge call: a co-writer, a partner, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · the word that was deleted
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Dren | Someone deleted 'most' from my sentence.
+Mira | I know. It is going back in before sign-off.
+Dren | It is four letters.
+Mira | It is four letters and a different claim. 'Families have returned' means all of them.
+Dren | And the byline?
+Mira | All three outlets, alphabetically, as we agreed. Your name is on the section that leads.
+Dren | Then I am content. However this reads abroad, it is right here.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the sentence Mira uses to explain why four letters matter.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use quantifiers that match the facts?
+use a, an, the and no article correctly?
+join ideas with one connector, not two?
+keep every reporter's byline and every quantifier?
+
+@EX 7G | Role-play asking for a deleted quantifier to be restored. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your call. Note your structure, your three quantifiers, and your visible seam.
+@EX 7I | Discuss. How would you explain to a subeditor that one small word is a fact?
+
+@PART 8 | Ethics: the small words | Tidying is editing. Tidying away a quantifier, a byline or a disagreement is something else.
+@FIG g-code | Fairness lives in small words: which quantifier, whose name, whose account.
+@FIG u9-ethA | Deleting 'most' does not shorten a sentence. It enlarges a claim.
+@SUBHEAD A first case | · the quantifier that was tidied
+@CASE The Post's subeditor cuts 'most' from Dren's sentence, leaving 'families upstream have returned'. The motive is length: the line was one word over, and 'most' looked like a hedge. Nothing was invented, and no figure changed. But a sentence with no quantifier is read as *all*, and upstream some families have not come back and will not. Those families are now, in print, home. The person whose sentence it was was not asked, and he is the only one of the three who will meet them. The Code says: a quantifier is part of the fact. What happens before sign-off?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) leave it — it is one word  (b) restore 'most' and cut a word elsewhere.   Choice: ______  Because ________________________
+Deleting a quantifier to save space is (a) tightening  (b) enlarging a claim.   Choice: ______
+
+@EX 8B | Keeps the fact, or enlarges it? Write K or E.
+@NUM
+'Most families upstream have returned.' ______
+'Families upstream have returned.' ______
+'A few families in the middle crossings have returned.' ______
+'The valley's families are home.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: fact · reporter · structure · seam.
+@WHITE
+A quantifier is part of the ______ . Ask the ______ before you change one. Agree the ______ first. Leave a real ______ visible.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why does the reporter who lives in the place have the strongest claim on the wording?
+@SUBHEAD A second case | · the disagreement nobody wanted
+@FIG u9-ethB | Two partners, two accounts. Printing both is harder and better.
+@CASE Dren says a second ferry ran last winter; Ines's sources say it did not. Both have notes, neither can prove it, and the point matters: if it ran, people had a way out that the official account denies. The easiest edit is to cut the sentence, and both partners would accept that — Dren because he is tired, Ines because it is not her section. A cut would leave the piece smooth, and would quietly settle a question in favour of the official version. The Code says: publish the disagreement you cannot resolve. What does the piece do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) cut the ferry sentence  (b) print both accounts and say they disagree.   Choice: ______  Because ________________________
+Cutting an unresolved disagreement is (a) clean editing  (b) choosing a side silently.   Choice: ______
+
+@EX 8F | Complete with: ferry · notes · official · both.
+@NUM
+Dren says a second ___________ ran.
+Ines's sources say it did not; ___________ have notes.
+A cut would favour the ___________ version.
+The piece prints ___________ accounts.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is a smooth piece sometimes a less honest one?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences presenting two accounts that disagree. Use 'whereas' and a quantifier in each.
+@LABEL PRACTISE | One more
+@EX 8I | Honest join, or hidden choice? Write H or C.
+@NUM
+'Dren's sources say a ferry ran; Ines's say it did not.' ______
+'No ferry ran last winter.' ______
+'Accounts differ on whether a second ferry ran.' ______
+'The sentence was cut for length.' ______
+
+@EX 8J | Discuss. Three newsrooms, one piece. Who should have the last word on a sentence about somebody's village?
+
+@PART 9 | Digital: the joint thread | Online, a co-written piece becomes a thread with several handles. The joins are still the hard part.
+@FIG g-phonealert | Three handles, one thread. Each post has to stand alone and still join up.
+@LABEL MODEL | A model thread post
+@WARMBOX
+1/ No family has returned to Veren, the smallest of the seven crossings on the Vara — although it has been closed the longest. 2/ Upstream, most families have come back; in the middle crossings, only a few. 3/ The Crossing Office has not published the method behind its figure of 112, so we have left the number out. — @AtlasWire with @KalinaDaily and @RiverBasinNet
+
+@LABEL NOTICE | The parts of the thread
+@EX 9A | Match the part to its job.
+@MATCH
+1.  although it has been closed the longest
+2.  most families · only a few
+3.  so we have left the number out
+4.  with @KalinaDaily and @RiverBasinNet
+@@
+a)  the quantifiers, kept apart by place
+b)  a connector of contrast
+c)  the shared credit
+d)  a connector of result
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find two quantifiers and two connectors in the thread. Write them.
+@NUM
+________________________
+
+@EX 9C | This post drops its quantifiers and doubles a connector. Correct both.
+@WHITE
+"Families have returned to the valley. Although the figure is unconfirmed, but we are publishing it."
+
+@P
+________________________
+
+@FIG u9-sum | A good joint thread answers: how many, where, and whose reporting?
+@EX 9D | Write a thread post. Use two quantifiers, one connector and a shared credit.
+@WHITE
+1/ ___________ , although ___________ . 2/ ___________ ; ___________ . — @AtlasWire with ___________
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post about two groups of different sizes. Use two quantifiers.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) that keeps a quantifier.
+@EX 9G | A reader asks: 'So is everyone back?' Write a short reply. Use most, a few and none.
+@WHITE
+________________________
+
+@EX 9H | A thread can lose a partner's credit at the second post. Write one line that keeps it.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 with a quantifier, line 2 with a connector of contrast.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. Each post is shared on its own. What must every one of them carry?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 10.
+@FIG g-website | The published piece: three newsrooms, one voice, every quantifier in place.
+@EX 10A | Vocabulary. Complete with: merge · version · house voice · connector · overlap · seam · contradiction · shared byline.
+@NUM
+Three drafts had to ___________ into one.
+Each partner sent its own ___________ .
+The piece needed one ___________ .
+'However' is a ___________ of contrast.
+The middle section had a large ___________ .
+A reader should not feel the ___________ .
+In two places there was a real ___________ .
+The piece went out with a ___________ .
+
+@EX 10B | Grammar. Complete with a quantifier: a few · several · most · none.
+@NUM
+___________ of the seven crossings have reopened — five of them.
+___________ of the eleven households in Veren has returned.
+___________ families came back last year: eleven in all.
+___________ crossings were counted twice in the first draft.
+
+@EX 10C | Grammar. Complete with a, an, the, or – (no article).
+@NUM
+___________ river Vara runs through ___________ Kalina.
+___________ families have returned, according to ___________ Crossing Office.
+___________ crossing reopened last spring; ___________ crossing is now the busiest.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Choose the connector: because · so · however · although.
+@NUM
+The figure is unconfirmed. ___________ , the story runs.
+___________ Veren is the smallest, it leads the piece.
+The office gave no method, ___________ the number stayed out.
+We held the story ___________ two sources were missing.
+
+@EX 10E | Read and answer.
+@WHITE
+No family has returned to Veren, although it has been closed the longest. Upstream, most families have come back; in the middle crossings, only a few have. However, the Crossing Office has not published its method, so the figure of 112 stays out. Where two partners' accounts disagree, the piece prints both.
+
+@NUM
+How many families have returned to Veren? ___________
+How do upstream and the middle crossings differ? ___________
+Why does the figure of 112 stay out? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can use quantifiers accurately.
+I can use a, an, the and no article correctly.
+I can join ideas with connectors.
+I can co-write one piece with other newsrooms.
+
+@EX 10F | Reflect. Which part of Unit 9 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+Most of families have returned. → ________________________
+Although the figure is unconfirmed, but we publish. → ________________________
+The families have returned upstream. (general) → ________________________
+It is river Vara. → ________________________
+
+@EX 10H | Mixed review. Complete with a quantifier, an article or a connector.
+@NUM
+Upstream, ___________ families have returned.
+It is ___________ Crossing Office, but ___________ Veren.
+The accounts disagree; ___________ , we print both.
+
+@EX 10I | Reflect. Write one sentence with a quantifier you would defend word for word.
+
+@PART 11 | Assignment: a co-written piece | Put the unit together: join two accounts into one piece.
+@FIG g-template | The assignment template — your merge note and joined paragraph.
+@P
+**Your task. **With a partner, report the same event separately, then join the two accounts. Write a merge note and a joined paragraph (6–7 sentences). Agree the structure first. Use at least three different quantifiers, name the place each one applies to, use the and no article correctly with named things, and join your ideas with two connectors. Keep both bylines, and leave any real disagreement visible.
+
+@FIG g-model | A model — use Reading A and the Writing 2 model to check the shape of your piece.
+@WHITE
+Remember: a quantifier is part of the fact; first mention a, second mention the; the river Vara but Kalina; one connector, not two; every byline kept; and a seam you can feel is better than one that hides something.
+
+@CRITERIA Success criteria
+My quantifiers match the facts, and each names its place.
+My articles are correct with named and general things.
+I join ideas with single, correct connectors.
+Both reporters are credited.
+A real disagreement is printed, not smoothed.
+
+@P
+**Keep this. **In Unit 10, the whole project goes out — gerunds and infinitives, and the capstone — because the last thing a cross-border piece needs is a plan for *publishing it*, and the will *to publish it* together.
+
+@KEY Book 2 · Unit 9 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 that most families upstream have returned · 2 that a few have returned · 3 because they are describing different crossings
+W2 | 1 F (different crossings) · 2 T · 3 T
+W3 | quantifiers: 'most families', 'a few' (also 'no quantifier at all') · connector: 'However I join them' (also 'Then')
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 merge · 2 version · 3 seam · 4 overlap · 5 contradiction · 6 shared byline
+1C | 1 merge three drafts · 2 keep one house voice · 3 reconcile two accounts · 4 leave a comment · 5 share a byline
+1D | 1 separate · 2 uneven · 3 gap · 4 chart
+1E | 1 merge · 2 seam · 3 house voice · 4 consistent · 5 connectors
+1F | 1 track changes · 2 repetition · 3 structure · 4 sign-off
+1G | comments · track changes · structure · paragraph · sign-off
+1J | versions · overlap · repetition · reconcile · co-wrote
+2A | 1 Most · 2 None · 3 A few · 4 Several
+2B | 1 A / The · 2 The / – · 3 – / the
+2C | 1 Most families upstream have returned, whereas a few have returned in the middle. · 2 The figure is unconfirmed. However, we are publishing the story. · 3 Although Veren has eleven households, it led the piece.
+2D | 1 so · 2 Meanwhile · 3 because · 4 In addition
+2G | 1 Most families have returned. · 2 Although the figure is unconfirmed, we are publishing.
+3A | 1 Veren, then Kalina, then the middle crossings · 2 because they describe different crossings · 3 it goes — a missing quantifier is not neutral
+3B | quantifiers: 'most families', 'a few' · article rule: 'the river Vara, the Crossing Office, but Kalina and Veren with no article' · connector: 'however' (or 'whereas')
+3C | 1 Most families upstream have returned. · 2 A few families in the middle crossings have returned. · 3 Most families upstream have returned, whereas only a few have in the middle crossings.
+3D | most · the · a few · However
+3E | 1 The structure of the sections. · 2 Quantifiers made consistent. · 3 Articles and names. · 4 Connectors at the seams.
+3H | 'the families' means particular families already known to the reader; 'families' is a general plural — and with no quantifier it reads as all of them
+4B | 1 because they describe different crossings — upstream and the middle · 2 the crossings, so the reader does not see a contradiction · 3 it goes; a missing quantifier reads as 'all' · 4 eleven
+4C | 1 Q · 2 A · 3 C
+4D | Upstream = most families have returned · Middle crossings = only a few · The Post's draft = no quantifier, so it is cut
+4F | 1 families · 2 fact · 3 alphabetical · 4 both (accounts)
+4G | quantifier: 'most families' · article: 'the River Basin Network' · connector: 'and' / 'then'
+4H | because the disagreement is real and unresolved; hiding it would settle the question for the reader in favour of one account
+4I | most · the · a few · However
+4J | because without 'most' the sentence says all families have returned, which is a different and untrue claim
+4K | The merge call = quantifiers, structure and the seams · Dren's call = the deleted quantifier, the byline order, and the disagreement
+5B | 1 T · 2 T · 3 F · 4 F
+5C | 1 because they sat side by side describing different crossings · 2 because the reader fills the gap with 'all' · 3 printed both accounts and said they disagree
+5D | 1 seam · 2 contradiction · 3 merge
+5F | agree the structure → 'Veren leads, then Kalina, then the middle' · a quantifier is a fact → 'most, some, a few — each is a different claim' · one voice, every byline → 'three names on the byline, one way of writing' · do not smooth → 'the piece says both, and says they disagree'
+5G | Rule 2
+5H | 1 house voice · 2 consistent · 3 shared byline
+5I | 1 most · 2 the / – · 3 however
+6A | 1 the QUANTIFIERS line · 2 the SEAMS line
+6C | quantifiers: 'most families', 'only a few' (also 'No family') · the: 'the river Vara' / 'the Crossing Office' · connectors: 'although', 'However', 'so'
+6D | most · a few · However · although
+6F | 'Most families have returned upstream. Although the figure is unconfirmed, the story runs.'
+7A | quantifiers: 'most families', 'a few' · connector: 'However we write it'
+7B | 1 Most of them. · 2 Only a few. · 3 It goes — without a quantifier a reader reads 'all'.
+7C | 1 How many of the seven crossings have reopened? — Five of them. · 2 How many households are there in Veren? — Eleven.
+7F | 'It is four letters and a different claim.'
+8A | 1 (b) restore 'most' and cut a word elsewhere · 2 (b) enlarging a claim
+8B | 1 K · 2 E · 3 K · 4 E
+8C | fact · reporter · structure · seam
+8E | 1 (b) print both accounts and say they disagree · 2 (b) choosing a side silently
+8F | 1 ferry · 2 both · 3 official · 4 both
+8I | 1 H · 2 C · 3 H · 4 C
+9A | 'although it has been closed the longest' → a connector of contrast · 'most families · only a few' → the quantifiers, kept apart by place · 'so we have left the number out' → a connector of result · 'with @KalinaDaily and @RiverBasinNet' → the shared credit
+9B | quantifiers: 'most families', 'only a few' · connectors: 'although', 'so' (also 'However')
+9C | 'Most families have returned upstream, and only a few in the middle crossings. Although the figure is unconfirmed, we are publishing the story.'
+10A | 1 merge · 2 version · 3 house voice · 4 connector · 5 overlap · 6 seam · 7 contradiction · 8 shared byline
+10B | 1 Most · 2 None · 3 A few · 4 Several
+10C | 1 The / – · 2 – / the · 3 A / the
+10D | 1 However · 2 Although · 3 so · 4 because
+10E | 1 none · 2 upstream most have returned, in the middle crossings only a few · 3 because the Crossing Office has not published its method
+10G | 1 Most families have returned. · 2 Although the figure is unconfirmed, we publish. · 3 Families have returned upstream. · 4 It is the river Vara.
+10H | 1 most · 2 the / – · 3 however
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post, their staff, the Vara crossings and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 9 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Co-Writing & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + two co-writing partners · fictional agency, factual backdrop.

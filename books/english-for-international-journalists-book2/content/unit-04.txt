@@ -1,0 +1,854 @@
+@UNITHEAD BOOK 2 · UNIT 4 | Across the Desk: Reporting What Was Said | Beat · Across Borders (wholly) | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+report what someone said (reported speech)
+use say and tell correctly
+attribute a fact with according to
+file copy to a desk in another country
+
+@FIG g-team | The Atlas Wire team — filing to a foreign desk, where every quote is checked again.
+@STORY A quote crosses four borders. | This unit is wholly cross-border. A woman speaks at a stall in Kalina, in her own language. Dren writes it down. Mira reports it to Omar's desk at the Meridian Post, in English. A subeditor in another city tidies it for print. By the time a reader on another continent sees it, the sentence has crossed four borders — and it has to arrive meaning exactly what she meant. (Atlas Wire, Kalina Daily, the Meridian Post and everyone in the stories are invented, for practice.)
+
+@WARMUP What she actually said | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — one sentence, four versions, and a desk abroad waiting.
+@WARMBOX
+"The desk has queries," Ana says. "Omar's subeditor asks whether we can shorten the long quote."
+Mira looks up. "She said, 'The water is a little better this year.' The desk has it as 'residents say the river has recovered.'"
+"That is not the same sentence," says Daniel.
+"No," Mira says. "She told me it was a little better. She did not tell me it had recovered."
+Ana nods. "Then we send it back. According to the desk, it is only tidier. According to her, it is wrong."
+
+@EX W1 | Answer the questions.
+@NUM
+What did the woman say about the water? ___________
+What did the desk change it to? ___________
+What is Ana going to do? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+The woman said the river had recovered. ______
+Mira says the two sentences mean the same. ______
+Ana is going to send the query back. ______
+
+@EX W3 | Find one 'said', one 'told', and one 'according to' in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+Has anyone ever reported your words wrongly? What happened?
+Why is 'a little better' not the same as 'recovered'?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. A sentence passes through four people before it is printed. Where is it most likely to change?
+
+@PART 1 | The words of attribution | The words for quoting, reporting and saying where a fact came from.
+@FIG u4-words | Four key words — quote, paraphrase, attribution, according to.
+@H The words
+@VOCAB
+quote (n) | a person's exact words
+paraphrase (v) | to report what was said in your own words
+attribution | the name you put beside a fact
+attribute (v) | to say where a fact came from
+according to | as said by a person or body
+on the record | said for publication, with a name
+off the record | said not for publication
+desk | the editors who handle one kind of story
+file (v) | to send your story to the desk
+copy (n) | the text a reporter files
+subeditor | the editor who checks and cuts copy
+translate | to put words into another language
+interpreter | a person who translates speech
+accurate | exactly right
+claim (v) | to say something is true without proof
+deny | to say something is not true
+insist | to say something firmly again
+add | to say something more
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  quote
+2.  paraphrase
+3.  attribution
+4.  according to
+5.  off the record
+6.  desk
+7.  copy
+8.  subeditor
+9.  interpreter
+10.  claim
+@@
+a)  to report what was said in your own words
+b)  a person's exact words
+c)  the name beside a fact
+d)  as said by a person or body
+e)  said not for publication
+f)  the editors who handle one kind of story
+g)  the text a reporter files
+h)  the editor who checks and cuts copy
+i)  a person who translates speech
+j)  to say something is true without proof
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | quote · paraphrase · attribution · desk · filed · subeditor
+@NUM
+Mira ___________ the story at six.
+The foreign ___________ had three queries.
+A ___________ gives a person's exact words.
+A ___________ puts it in your own words.
+Every fact needs an ___________ .
+A ___________ cut two lines from the copy.
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  file
+2.  check
+3.  attribute
+4.  book an
+5.  deny a
+@@
+a)  copy
+b)  a quote
+c)  a fact
+d)  interpreter
+e)  claim
+
+@EX 1D | Circle the word that is different.
+@NUM
+quote · paraphrase · attribution · deadline
+say · tell · add · delete
+accurate · exact · correct · rough
+claim · insist · deny · schedule
+
+@FIG g-wire | A wire report travels further than any one newsroom. So does an error in it.
+@EX 1E | Complete the paragraph. Use: quote · attribution · according to · paraphrase · accurate.
+@WHITE
+A ___________ gives the exact words; a ___________ gives the sense. Both need an ___________ . Write '___________ the Crossing Office' when the fact is theirs, and check that your version is ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+said for publication, with a name → ___________
+to send your story to the desk → ___________
+to say something is not true → ___________
+to say something firmly again → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: filed · desk · subeditor · quote · off the record.
+@WHITE
+Mira ___________ her copy at six. The foreign ___________ read it twice. A ___________ queried one long ___________ , and asked whether a second source had spoken ___________ .
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+When do you quote, and when do you paraphrase?
+Who checks your work before it is published?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: translate · interpreter · accurate · claim · add.
+@WHITE
+Dren used an ___________ to ___________ the interview. The English had to be ___________ . One man made a ___________ about the lorries, and would not ___________ anything else.
+
+@EX 1K | Creative. Write two sentences reporting something a colleague told you. Use told and according to.
+
+@PART 2 | Grammar: reporting what was said | Reported speech and the tense shift; say and tell; according to for facts.
+@FIG u4-gA | Direct speech keeps the words; reported speech shifts the tense back.
+@GRAMMAR 1 · reported speech — one step back
+Direct: "The water {{is}} better." → Reported: She said the water {{was}} better.
+Present → past · past → past perfect · {{will}} → {{would}} · {{can}} → {{could}}
+Pronouns and times move too: *today* → {{that day}}, *tomorrow* → {{the next day}}.
+
+@GRAMMAR 2 · say and tell
+{{say}} + what was said: She [[said]] the water was better. ([[not]] *she said me*)
+{{tell}} + person + what was said: She [[told me]] the water was better.
+Also: *add*, *insist*, *deny*, *claim* — each carries a different weight. Choose carefully.
+
+@FIG u4-gB | say something · tell somebody something — the difference matters in print.
+@GRAMMAR 3 · according to — attributing a fact
+Form: {{According to}} + a person or body + a fact. "{{According to}} the Crossing Office, 112 families have returned."
+Use it for a fact you have not confirmed yourself, and for figures from an official body.
+[[Not for your own reporting]]: if you counted it, say so.
+
+@FIG u4-gC | Quote, paraphrase, or according to — three ways to carry what was said.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Put into reported speech.
+@NUM
+"The water is a little better." → She said ___________
+"We will reopen the second crossing." → He said ___________
+"I can reach the far bank." → She said ___________
+"The lorries came back last spring." → He said ___________
+
+@EX 2B | say or tell?
+@NUM
+She ___________ me the water was better.
+He ___________ that the office had no figures.
+Dren ___________ Mira what the woman had said.
+The spokesman ___________ nothing at all.
+
+@EX 2C | Complete with according to.
+@NUM
+___________ the Crossing Office, 112 families have returned.
+___________ Kalina Daily, the school reopened in March.
+___________ Dren, the far bank is still closed.
+
+@EX 2D | Rewrite with a stronger or weaker verb: added, insisted, denied, claimed.
+@NUM
+He said again that the road was safe. → He ___________
+He said it was not true. → He ___________
+
+@H Your own words
+@EX 2E | Write two things a colleague told you this week. Use told.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two facts with according to. Name the source each time.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (reported speech / say / tell).
+@NUM
+She said me the water was better. → ________________________
+He said the crossing is open. (report it) → ________________________
+
+@EX 2H | Your own words. Report one thing you heard today, twice: as a quote, and as a paraphrase.
+@NUM
+________________________
+
+@PART 3 | Filing to a foreign desk | Copy for a desk abroad must say who said what, where the fact came from, and in what language it was said.
+@FIG g-desk | A foreign desk reads your copy without knowing the place. Every name must carry its own weight.
+@FIG u4-skill | Good copy: the quote, the attribution, and the language it was spoken in.
+@LABEL MODEL | A model filing note
+@WARMBOX
+"Here is the copy. The long quote is exact: 'The water is a little better this year.' She said it in her own language; Dren interpreted, and I read the English back to her before we left.
+The figure is not ours. According to the Crossing Office, 112 families have returned. We have asked twice for the method and have not been given it.
+One man told Dren the lorries were coming back. He would not go on the record, so it is not in the copy."
+
+@LABEL NOTICE | Notice the filing note
+@EX 3A | Answer about the model.
+@NUM
+Which sentence is an exact quote? ___________
+Where does the figure come from? ___________
+Why is the man's claim not in the copy? ___________
+
+@EX 3B | Find one 'according to', one 'told', and one reported-speech verb in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the copy
+@FIG g-sources | Every fact, a name beside it. A desk abroad cannot ask the stall-holder itself.
+@EX 3C | Write the sentence in reported speech or with according to.
+@NUM
+"The water is a little better." (she / say) → ________________________
+112 families have returned. (the Crossing Office) → ________________________
+"The lorries are coming back." (he / tell / Dren) → ________________________
+
+@FIG g-fivew | Who said it, what they said, when, where — and in which language.
+@EX 3D | Complete the note. Use: said · according · told · asked.
+@WHITE
+She ______ the water was a little better. ______ to the Crossing Office, 112 families have returned. One man ______ Dren the lorries were coming back; we ______ him to go on the record, and he would not.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the filing note in order. Number the lines 1–4.
+@NUM
+What is not in the copy, and why. ______
+The exact quote, and how it was interpreted. ______
+The figure, and whose it is. ______
+What the desk still needs from us. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a story. Write a short filing note (4–5 sentences): one exact quote, one fact with according to, one thing a person told you off the record, and one query for the desk.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why must copy say which language a quote was spoken in?
+@EX 3H | Why is 'according to the Crossing Office' not the same as 'the Crossing Office says'? Is either wrong?
+@EX 3I | Discuss. A desk abroad cannot call your source. What does that mean for your notes?
+
+@PART 4 | Listening: the desk has queries | Two audios. Listen for what was said, and for what was changed.
+@FIG g-studio | Audio 4.1 — a foreign desk goes through the copy line by line.
+@SUBHEAD Listening A | · the desk calls back
+@LABEL MODEL | Audio 4.1 — Omar and Mira
+@DIALOGUE
+Omar | Mira, three queries. First, the long quote. May we shorten it to 'the river has recovered'?
+Mira | No. She said the water was a little better this year. That is not the same.
+Omar | Understood. Second: the figure of 112.
+Mira | According to the Crossing Office. Not our count. We asked twice for the method.
+Omar | Then we will write 'according to'. Third — the man and the lorries.
+Mira | He told Dren they were coming back, but off the record. It stays out.
+Omar | Agreed. One more thing: the quote was not in English?
+Mira | No. Dren interpreted, and I read the English back to her before we left.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think the desk will query first? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+What did the woman actually say? ___________
+Where does the figure of 112 come from? ___________
+Why does the man's claim stay out of the copy? ___________
+How was the quote checked? ___________
+
+@EX 4C | Quote, according to, or off the record? Write Q, A, or O.
+@NUM
+"The water is a little better this year." ______
+"112 families have returned." ______
+"The lorries are coming back." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+The exact words: ___________
+The attributed figure: ___________
+What stays out, and why: ___________
+
+@FIG g-newsroom | Audio 4.2 — two reporters check a sentence against the notebook.
+@SUBHEAD Listening B | · checking the notebook
+@LABEL MODEL | Audio 4.2 — Mira and Dren
+@DIALOGUE
+Mira | Dren, I need your notebook on one sentence. Did she say 'better' or 'recovered'?
+Dren | Better. 'A little better this year.' I wrote it down in her words first, then in English.
+Mira | Good. And the man at the lorry park?
+Dren | He told me the lorries were coming back. Then he said, 'Not with my name.'
+Mira | So we cannot use it.
+Dren | No. But I will ask him again next week. He may change his mind.
+Mira | Thank you. And Dren — the Post wants to credit the quote to Atlas Wire.
+Dren | It is my interview.
+Mira | It is. I will tell Omar it carries your name and your paper's.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Mira wants to check? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Dren ___________ (say) the woman had said 'better'.
+He ___________ (tell) Mira the lorries were coming back.
+The man ___________ (say) 'not with my name'.
+Mira ___________ tell Omar whose interview it was.
+
+@EX 4G | Which forms do you hear? Write one 'said', one 'told', and one reported question.
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Dren say 'It is my interview'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: said · told · according to · off the record.
+@WHITE
+She ______ the water was a little better. One man ______ Dren the lorries were coming back, but ______ , so it stays out. The figure of 112 is ______ the Crossing Office.
+
+@EX 4J | The desk wanted to tidy a quote. Why is tidying dangerous in reported speech?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The desk's call is about: ___________
+The reporters' call is about: ___________
+
+@EX 4L | Discuss. Who should settle a query about a quote — the desk, or the reporter who heard it?
+
+@PART 5 | Reading: how a quote travels | Two readings. Read for the journey of a sentence, and for the rules that protect it.
+@FIG g-reach | One sentence, four newsrooms, millions of readers. It has to arrive intact.
+@SUBHEAD Reading A | · a sentence crosses four borders
+@READING The long way round: how one sentence reached print
+The sentence began at a stall on the Kalina bridge, early on a Tuesday. A woman selling apples was asked how the river was this year, and she answered, in her own language, that the water was a little better than last year.
+
+Dren Markaj of Kalina Daily wrote the words down twice: once as she said them, once in English. "The first version is the evidence," he says. "The second is only my best attempt."
+
+Mira Sandoval of Atlas Wire read the English back to the woman before they left the bridge. The woman agreed with it. That took ninety seconds, and it is the reason the sentence survived everything that came next.
+
+The copy went to the Meridian Post's foreign desk, where a subeditor met it for the first time. She had never been to Kalina and could not call the woman. What she had was the copy, and the copy said who had spoken, in which language, and who had interpreted.
+
+Her first instinct was to shorten. 'The water is a little better this year' is nine words; 'the river has recovered' is four, and it reads better. She queried it. Mira said no, and explained why: the woman had made a small, careful claim about one year, and the shorter version made a large claim about a river.
+
+"A desk abroad has to be able to trust the copy, because it cannot check the stall," says Omar Faris, who edits the project at the Post. "So we do not improve quotes. We query them."
+
+The sentence ran as she said it, with her name, her town, and a line saying the interview was conducted in her own language. Four newsrooms, four editors, two languages — and nine words that still meant what she meant.
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. Why might a sentence take 'the long way round'? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+Dren wrote the woman's words down twice. ______
+Mira read the English back to the woman. ______
+The subeditor had been to Kalina. ______
+The sentence was shortened for print. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why does Dren call the first version 'the evidence'? ___________
+What could the subeditor not do? ___________
+Why did Mira refuse the shorter version? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+the editors who handle one kind of story → ___________
+the editor who checks and cuts copy → ___________
+to put words into another language → ___________
+
+@FIG g-partners | Partners do not improve each other's quotes. They query them.
+@SUBHEAD Reading B | · reporting what was said
+@READING Four rules for reported speech
+**1. Shift the tense, not the meaning.** 'The water is better' becomes *she said the water was better*. The tense moves back one step; the claim stays the same size.
+**2. Say who, and how you know.** *Said* and *told* for speech, *according to* for a fact you did not confirm. Name the person or body every time.
+**3. Never improve a quote.** A tidier sentence is a different sentence. If a quote is long, cut it with care, or paraphrase it and say that you have.
+**4. Carry the language with the words.** Say which language it was spoken in, say who interpreted, and read the English back to the speaker.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which do you use for an official figure — said or according to? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  shift the tense
+2.  say who, and how
+3.  never improve
+4.  carry the language
+@@
+a)  'according to the Crossing Office'
+b)  'Dren interpreted; the English was read back'
+c)  'she said the water was better'
+d)  do not turn 'a little better' into 'recovered'
+
+@EX 5G | Which rule is about honesty, not grammar? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+a person's exact words → ___________
+to report what was said in your own words → ___________
+exactly right → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete the sentence in reported speech or with according to.
+@NUM
+"The water is a little better." → She said ___________
+112 families have returned. (the Crossing Office) → ___________
+"I can read the English back to her." → She said ___________
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. Reading A says ninety seconds saved the sentence. Which ninety seconds, and why?
+@EX 5K | Which of the four rules is hardest on a deadline? Say why.
+@EX 5L | Discuss. 'We do not improve quotes. We query them.' What does a desk gain by querying?
+
+@PART 6 | Writing: copy for a desk abroad | Two short pieces: a filing note, and a reported-speech paragraph.
+@FIG g-notes | A filing note tells the desk what it cannot see for itself.
+@SUBHEAD Writing 1 | · a filing note
+@LABEL MODEL | A model
+@WARMBOX
+QUOTE (exact): 'The water is a little better this year.' — Hana Petri, apple seller, Kalina bridge
+LANGUAGE: spoken in her own language; interpreted by Dren Markaj (Kalina Daily); English read back and agreed
+FIGURE: 112 families returned — according to the Crossing Office; method requested twice, not supplied
+NOT IN COPY: one man told Dren the lorries were coming back — off the record
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line is the exact quote? ___________
+Which line uses according to? ___________
+
+@LABEL PRODUCE | Write your note
+@EX 6B | Choose a story. Write a filing note: the exact quote, the language, one attributed figure, and what you are leaving out.
+@WHITE
+Quote: ___________
+Language: ___________
+Figure: ___________
+Not in copy: ___________
+
+@FIG g-model | A reported-speech paragraph turns the note into copy a desk can run.
+@SUBHEAD Writing 2 | · a reported-speech paragraph
+@LABEL MODEL | A model
+@WARMBOX
+Hana Petri, who sells apples on the Kalina bridge, said the water was a little better this year. She told our reporter that the lorries had not yet returned to the far bank. According to the Crossing Office, 112 families have come back since the reopening; the office has not supplied its method. One resident said the lorries were coming back, but would not be named.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one 'said', one 'told', and one 'according to' in the paragraph.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the copy. Use: said · told · according · would.
+@WHITE
+She ______ the water was a little better. She ______ our reporter the lorries had not returned. ______ to the Crossing Office, 112 families have come back. One resident ______ not be named.
+
+@LABEL PRODUCE | Write your paragraph
+@EX 6E | Turn your note into a reported-speech paragraph (4–5 sentences). Use said, told and according to.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This copy uses 'say' wrongly and upgrades a quote. Correct both.
+@WHITE
+"She said me the river had recovered. According to me, 112 families are back."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a longer piece of copy. Write three lines: one exact quote, one paraphrase, one according-to fact.
+@WHITE
+Quote: ___________
+Paraphrase: ___________
+According to: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Does every fact carry a name, and does every paraphrase keep the same weight? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: answering the desk | Answer a desk's queries about what was said. Use said, told and according to.
+@FIG g-interview | Answering a query out loud: what she said, who heard it, how it was checked.
+@SUBHEAD A model dialogue | · a query on a quote
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | The desk wants the quote shortened. Can we?
+Mira | No. She said the water was a little better this year.
+Sofia | And 'the river has recovered'?
+Mira | That is a different claim. She did not say it.
+Sofia | What about the figure?
+Mira | According to the Crossing Office. We asked twice for the method.
+Sofia | And the lorries?
+Mira | A man told Dren they were coming back. Off the record, so it stays out.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one 'said', one 'told', and one 'according to' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with said, told or according to.
+@NUM
+What / she / say / about the water? → ___________
+Who / tell / Dren / about the lorries? → ___________
+Where / the figure / come from? → ___________
+
+@FIG g-introduce | Open with what is certain, then say what is attributed, then what is out.
+@EX 7C | Make a reported question, then answer it.
+@NUM
+the desk / ask / whether we can shorten the quote → ________________________
+Omar / ask / where the figure came from → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Reporter | Say what the source actually said, how it was checked, and what is attributed.
+Subeditor | Ask: 'May we shorten this?' and 'Where does the figure come from?'
+Observer | Listen. Did the reporter keep the claim the same size?
+
+@EX 7D | Choose a role from the table. Answer your partner's queries on a quote.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a desk query: a reporter, a subeditor, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · whose interview is it?
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | We would like to credit the quote to Atlas Wire. It is cleaner for the reader.
+Mira | It is Dren's interview. He found her, and he interpreted.
+Omar | He is not our correspondent.
+Mira | He is our partner. According to our own agreement, the local reporter is named.
+Omar | Then we name him, and his paper.
+Mira | Thank you. And it costs you four words.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the sentence Mira uses with 'according to' to settle the credit.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+shift the tense without changing the claim?
+use say and tell correctly?
+attribute every unconfirmed fact with according to?
+keep off-the-record material out?
+
+@EX 7G | Role-play a conversation about crediting a local partner's interview. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your answers. Note one exact quote, one attributed fact, one thing that stays out.
+@EX 7I | Discuss. How would you answer a desk that keeps asking for shorter quotes?
+
+@PART 8 | Ethics: the size of a claim | A reported sentence can be made bigger or smaller without a single word being invented. That is the danger.
+@FIG g-code | Accuracy is not only about facts. It is about the size of what someone said.
+@FIG u4-ethA | 'A little better' and 'recovered' are both true-sounding. Only one is true.
+@SUBHEAD A first case | · the tidier sentence
+@CASE The Post's subeditor is not trying to mislead anybody. She has nine words that read awkwardly and four that read well, and 'the river has recovered' is the kind of line a reader remembers. She does not invent anything: she is reporting what residents say. But the woman made a small claim about one year, and the short version makes a large claim about a river. If the water falls again next summer, the woman will be the one who said it had recovered. The Code says: a paraphrase must carry the same weight as the words. What does Mira tell the desk?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'residents say the river has recovered'  (b) 'the water is a little better this year'.   Choice: ______  Because ________________________
+Making a quote shorter and larger is (a) good editing  (b) a change of claim.   Choice: ______
+
+@EX 8B | Same size, or bigger? Write S or B.
+@NUM
+'She said the water was a little better.' ______
+'Residents say the river has recovered.' ______
+'According to the Crossing Office, 112 families have returned.' ______
+'Hundreds are pouring back, officials say.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: size · name · improve · back.
+@WHITE
+Keep the ______ of the claim. Put a ______ beside every fact. Do not ______ a quote. Read a translation ______ to the speaker.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Who carries the cost if a quote is made larger — the desk, or the person quoted?
+@SUBHEAD A second case | · the interview that was not ours
+@FIG u4-ethB | A partner's interview is theirs. Carrying it is not the same as owning it.
+@CASE Dren told Mira on a call what the man at the lorry park had said. He said it as a colleague, thinking aloud, not as copy — and the man had refused to be named. Later, the Post's desk asks Mira for 'anything on the lorries'. She could write 'Kalina Daily reported that the lorries were returning'. Nobody would be lying: Dren is a reporter, and he did say it. But he said it to her, not in print, and the man behind it never agreed to anything. The Code says: what a colleague tells you is not published by being repeated. What does Mira send the desk?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'Kalina Daily reported the lorries were returning'  (b) nothing, until Dren publishes it or the man agrees.   Choice: ______  Because ________________________
+Repeating a colleague's private words as a report is (a) attribution  (b) a claim nobody made in public.   Choice: ______
+
+@EX 8F | Complete with: colleague · named · published · agreement.
+@NUM
+Dren spoke to Mira as a ___________ .
+The man refused to be ___________ .
+Nothing becomes ___________ by being repeated.
+The partners' ___________ names the local reporter.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why is crediting a local partner's interview a matter of ethics, not only of manners?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences to the desk, explaining what you can and cannot send. Use told and according to.
+@LABEL PRACTISE | One more
+@EX 8I | Fair attribution, or not? Write F or N.
+@NUM
+'According to the Crossing Office, 112 families have returned.' ______
+'Sources say the river has recovered.' ______
+'Hana Petri told Kalina Daily the water was a little better.' ______
+'A colleague mentioned it on a call, so we reported it.' ______
+
+@EX 8J | Discuss. The desk never meets your sources. What does that give you, and what does it cost them?
+
+@PART 9 | Digital: quoting in a short post | A post has room for one sentence. The attribution still has to fit.
+@FIG g-phonealert | Even in twelve words, the name goes beside the claim.
+@LABEL MODEL | A model post
+@WARMBOX
+'The water is a little better this year,' Hana Petri told @KalinaDaily on the Kalina bridge. 112 families have returned since the reopening, according to the Crossing Office. Interview conducted in Vareni; full story with @MeridianPost. — @AtlasWire
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to its job.
+@MATCH
+1.  'The water is a little better this year'
+2.  Hana Petri told @KalinaDaily
+3.  according to the Crossing Office
+4.  Interview conducted in Vareni
+@@
+a)  the attribution of a figure
+b)  the exact quote
+c)  the language it was spoken in
+d)  who said it, and to whom
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the quote, the attribution and the language note in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post drops the name and upgrades the quote. Correct both.
+@WHITE
+"Sources say the river has recovered. Hundreds are back."
+
+@P
+________________________
+
+@FIG u4-sum | A good post answers: who said it, in what words, and who says the numbers.
+@EX 9D | Write a post. Use one exact quote, one told, and one according to.
+@WHITE
+'___________ ,' ___________ told ___________ . ___________ , according to ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post quoting someone you have spoken to. Name them.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) using reported speech.
+@EX 9G | A reader asks: 'Did she really say that?' Write a short reply. Use said and according to.
+@WHITE
+________________________
+
+@EX 9H | A short post has no room for context. Write one line that is short and still the right size.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 the quote with its name, line 2 the figure with its source.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. Online, an unattributed quote travels faster. Why is that an argument for attribution, not against it?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 5.
+@FIG g-website | The published story: every quote named, every figure attributed.
+@EX 10A | Vocabulary. Complete with: quote · paraphrase · attribution · desk · copy · subeditor · interpreter · on the record.
+@NUM
+A ___________ gives the exact words.
+A ___________ gives the sense in your own words.
+Every fact needs an ___________ .
+The foreign ___________ had three queries.
+Mira filed her ___________ at six.
+A ___________ cut two lines.
+Dren worked as an ___________ .
+The man would not go ___________ .
+
+@EX 10B | Grammar. Put into reported speech.
+@NUM
+"The water is a little better." → She said ___________
+"We will reopen the crossing." → He said ___________
+"I can reach the far bank." → She said ___________
+"The lorries came back." → He said ___________
+
+@EX 10C | Grammar. say or tell?
+@NUM
+She ___________ me the water was better.
+He ___________ that the office had no figures.
+Dren ___________ Mira what she had said.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with according to.
+@NUM
+___________ the Crossing Office, 112 families have returned.
+___________ Kalina Daily, the school reopened in March.
+___________ Dren, the far bank is still closed.
+
+@EX 10E | Read and answer.
+@WHITE
+Hana Petri said the water was a little better this year. She told our reporter the lorries had not returned. According to the Crossing Office, 112 families have come back. One resident said the lorries were coming, but would not be named.
+
+@NUM
+What did Hana Petri say about the water? ___________
+What did she tell our reporter? ___________
+Where does the figure of 112 come from? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can report what someone said (reported speech).
+I can use say and tell correctly.
+I can attribute a fact with according to.
+I can file copy to a desk in another country.
+
+@EX 10F | Reflect. Which part of Unit 4 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+She said me the water was better. → ________________________
+He told that the crossing was open. → ________________________
+According to me, 112 families are back. → ________________________
+She said the river has recovered, but she said 'a little better'. → ________________________
+
+@EX 10H | Mixed review. Complete with said, told or according to.
+@NUM
+She ___________ the water was a little better.
+She ___________ our reporter the lorries had not returned.
+___________ the Crossing Office, 112 families have come back.
+
+@EX 10I | Reflect. Write one sentence reporting something you were told this week. Use told.
+
+@PART 11 | Assignment: filing to a foreign desk | Put the unit together: file a short report that a desk abroad can trust.
+@FIG g-template | The assignment template — your filing note and copy.
+@P
+**Your task. **A desk in another country is going to publish your report. Write the copy (6–7 sentences) and a short filing note. Use one exact quote in reported speech, one fact with according to, and one thing you are leaving out and why. Say which language the interview was in and who interpreted. Name the local reporter if the interview was theirs.
+
+@FIG g-model | A model — use Reading A and the Writing 1 model to check the shape of your copy.
+@WHITE
+Remember: shift the tense, not the claim; say for words, tell for a person, according to for an unconfirmed fact; never improve a quote; carry the language with the words; credit whoever found the source.
+
+@CRITERIA Success criteria
+I report speech with the tense one step back.
+I use say and tell correctly.
+I attribute every unconfirmed fact with according to.
+My paraphrase is the same size as the words.
+I name the language, the interpreter and the local reporter.
+
+@P
+**Keep this. **In Unit 5, you set the conditions for publication — the zero and first conditionals, and time clauses — because a story runs *if* it is confirmed, and *when* the partners are ready.
+
+@KEY Book 2 · Unit 4 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 that it was a little better this year · 2 'residents say the river has recovered' · 3 send the query back (keep the original words)
+W2 | 1 F (she said 'a little better') · 2 F · 3 T
+W3 | said: 'She said, the water is a little better' · told: 'She told me it was a little better' · according to: 'According to the desk…'
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 filed · 2 desk · 3 quote · 4 paraphrase · 5 attribution · 6 subeditor
+1C | 1 file copy · 2 check a quote · 3 attribute a fact · 4 book an interpreter · 5 deny a claim
+1D | 1 deadline · 2 delete · 3 rough · 4 schedule
+1E | 1 quote · 2 paraphrase · 3 attribution · 4 according to · 5 accurate
+1F | 1 on the record · 2 file · 3 deny · 4 insist
+1G | filed · desk · subeditor · quote · off the record
+1J | interpreter · translate · accurate · claim · add
+2A | 1 the water was a little better · 2 they would reopen the second crossing · 3 she could reach the far bank · 4 the lorries had come back the previous spring
+2B | 1 told · 2 said · 3 told · 4 said
+2C | 1 According to · 2 According to · 3 According to
+2D | 1 insisted (that the road was safe) · 2 denied it
+2G | 1 She told me the water was better. · 2 He said the crossing was open.
+3A | 1 'The water is a little better this year.' · 2 the Crossing Office · 3 the man would not go on the record
+3B | according to: 'According to the Crossing Office' · told: 'One man told Dren' · reported speech: 'the lorries were coming back'
+3C | 1 She said the water was a little better. · 2 According to the Crossing Office, 112 families have returned. · 3 He told Dren the lorries were coming back.
+3D | said · According · told · asked
+3E | 1 The exact quote, and how it was interpreted. · 2 The figure, and whose it is. · 3 What is not in the copy, and why. · 4 What the desk still needs from us.
+3H | neither is wrong: 'according to' marks the fact as theirs, 'the Office says' reports it as speech — the first is clearer with a figure
+4B | 1 that the water was a little better this year · 2 the Crossing Office · 3 it was off the record · 4 the English was read back to her before they left
+4C | 1 Q · 2 A · 3 O
+4D | The exact words = 'the water is a little better this year' · The attributed figure = 112 families, Crossing Office · Out = the lorry claim, off the record
+4F | 1 said · 2 told · 3 said · 4 would
+4G | said: 'she said, not with my name' · told: 'he told me the lorries were coming back' · reported question: 'Mira asked whether she had said better or recovered'
+4H | because he found the source and interpreted the interview; the work and the relationship are his
+4I | said · told · off the record · according to
+4J | a tidier sentence is a different sentence; it can enlarge a claim without inventing a word
+4K | Desk = queries on the copy · Reporters = the notebook, and the credit
+5B | 1 T · 2 T · 3 F · 4 F
+5C | 1 it is her own words, before any translation · 2 call the woman · 3 the short version made a large claim about a river, not a small one about one year
+5D | 1 desk · 2 subeditor · 3 translate
+5F | shift the tense → 'she said the water was better' · say who → 'according to the Crossing Office' · never improve → do not turn 'a little better' into 'recovered' · carry the language → 'Dren interpreted; the English was read back'
+5G | Rule 3
+5H | 1 quote · 2 paraphrase · 3 accurate
+5I | 1 the water was a little better · 2 According to the Crossing Office, 112 families have returned. · 3 she could read the English back to her
+6A | 1 the QUOTE line · 2 the FIGURE line
+6C | said: 'said the water was a little better' · told: 'told our reporter' · according to: 'According to the Crossing Office'
+6D | said · told · According · would
+6F | 'She told me the water was a little better. According to the Crossing Office, 112 families are back.'
+7A | said: 'She said the water was a little better' · told: 'A man told Dren' · according to: 'According to the Crossing Office'
+7B | 1 She said the water was a little better this year. · 2 A man (at the lorry park) told Dren. · 3 According to the Crossing Office.
+7C | 1 The desk asked whether we could shorten the quote. · 2 Omar asked where the figure had come from.
+7F | 'According to our own agreement, the local reporter is named.'
+8A | 1 (b) 'the water is a little better this year' · 2 (b) a change of claim
+8B | 1 S · 2 B · 3 S · 4 B
+8C | size · name · improve · back
+8E | 1 (b) nothing, until Dren publishes it or the man agrees · 2 (b) a claim nobody made in public
+8F | 1 colleague · 2 named · 3 published · 4 agreement
+8I | 1 F · 2 N · 3 F · 4 N
+9A | 'The water is a little better this year' → the exact quote · 'Hana Petri told @KalinaDaily' → who said it, and to whom · 'according to the Crossing Office' → the attribution of a figure · 'Interview conducted in Vareni' → the language it was spoken in
+9B | quote: 'The water is a little better this year' · attribution: 'according to the Crossing Office' · language: 'Interview conducted in Vareni'
+9C | ''The water is a little better this year,' Hana Petri told Kalina Daily. 112 families have returned, according to the Crossing Office.'
+10A | 1 quote · 2 paraphrase · 3 attribution · 4 desk · 5 copy · 6 subeditor · 7 interpreter · 8 on the record
+10B | 1 the water was a little better · 2 they would reopen the crossing · 3 she could reach the far bank · 4 the lorries had come back
+10C | 1 told · 2 said · 3 told
+10D | 1 According to · 2 According to · 3 According to
+10E | 1 that it was a little better this year · 2 that the lorries had not returned · 3 the Crossing Office
+10G | 1 She told me the water was better. · 2 He said that the crossing was open. · 3 According to the Crossing Office, 112 families are back. · 4 She said the water was a little better.
+10H | 1 said · 2 told · 3 According to
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4H, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, Hana Petri, Dren, Kalina, the Vareni language and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 4 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Across Borders (wholly) · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + a foreign desk · fictional agency, factual backdrop.

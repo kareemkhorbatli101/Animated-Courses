@@ -1,0 +1,855 @@
+@UNITHEAD BOOK 2 · UNIT 3 | Planning the Coverage: What Happens Next | Beat · Planning & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+make plans and promises with will
+talk about plans already made with going to
+use the present continuous for fixed arrangements
+plan a joint project across time zones
+
+@FIG g-team | The Atlas Wire team — planning a project that will run in four countries at once.
+@STORY Three outlets, one project. | The backstory did its work: readers abroad now see why one crossing matters. So the story grows. Atlas Wire, Kalina Daily, the River Basin Network and the Meridian Post are going to cover the whole Vara basin together — the other crossings, what reopened and what did not. Four newsrooms, four clocks, one plan. (Atlas Wire, Kalina Daily, the River Basin Network and the Meridian Post are invented, for practice.)
+
+@WARMUP The plan for the month | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — four newsrooms, one plan, and a calendar on the wall.
+@WARMBOX
+"We are going to cover the whole basin," Ana says, "not just Kalina." She points at the calendar. "The kick-off call is on Thursday at two. Ines is joining from the River Basin Network, Omar from the Meridian Post, and Dren from Kalina Daily."
+Mira writes it down. "Two o'clock where?"
+Ana smiles. "Two o'clock here is seven in the morning for Omar. I'll move it to four. Dren is travelling on Thursday, so he will call in from the road."
+"And the deadline?"
+"We are publishing on the last Sunday of the month. All four of us, the same hour."
+
+@EX W1 | Answer the questions.
+@NUM
+What are the four newsrooms going to cover? ___________
+When is the kick-off call? ___________
+Who is joining from the Meridian Post? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+The project is only about Kalina. ______
+Ana is going to move the call to four o'clock. ______
+The four newsrooms are publishing on the same day. ______
+
+@EX W3 | Find one 'will', one 'going to', and one present-continuous future in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What are you going to do this week? Name two things.
+What is one thing you are doing at a fixed time tomorrow?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. Why is a shared deadline difficult when partners are in four different time zones?
+
+@PART 1 | The words of planning | The words for plans, dates and deadlines. Learn these first.
+@FIG u3-words | Four key words — plan, schedule, deadline, time zone.
+@H The words
+@VOCAB
+plan (n) | what you are going to do, and when
+schedule | a list of times for the work
+deadline | the time by which work must be finished
+time zone | the local clock in one part of the world
+coordinate | to make people's work fit together
+assignment | work given to a reporter
+commission (v) | to ask someone to do work for you
+pitch (v) | to offer an idea to an editor
+draft (n) | an early version of a text
+agree | to decide together
+diary | the list of planned stories
+slot | where and when a story will run
+lead time | the time you need before publication
+available | free to meet or to work
+confirm | to say something is certain
+kick-off | a project's first meeting
+milestone | a date when one part must be done
+ahead | in front, in time or place
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  plan
+2.  schedule
+3.  deadline
+4.  time zone
+5.  coordinate
+6.  pitch
+7.  draft
+8.  slot
+9.  lead time
+10.  milestone
+@@
+a)  a list of times for the work
+b)  what you are going to do, and when
+c)  the time by which work must be finished
+d)  the local clock in one part of the world
+e)  to make several people's work fit together
+f)  to offer a story idea to an editor
+g)  an early version of a piece of writing
+h)  the place and time a story will run
+i)  the time you need before publication
+j)  a date when one part must be finished
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | plan · deadline · time zones · coordinate · kick-off · available
+@NUM
+The four newsrooms have one ___________ for the basin.
+Our ___________ is the last Sunday of the month.
+The partners are in three different ___________ .
+Someone has to ___________ four teams.
+The ___________ call is on Thursday.
+Dren is travelling, so he is not ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  meet a
+2.  agree a
+3.  coordinate the
+4.  file a
+5.  book a
+@@
+a)  deadline
+b)  plan
+c)  coverage
+d)  draft
+e)  slot
+
+@EX 1D | Circle the word that is different.
+@NUM
+plan · schedule · diary · rumour
+deadline · milestone · slot · archive
+agree · confirm · settle · refuse
+commission · assign · pitch · delete
+
+@FIG g-newsroom | One newsroom, four clocks: the planning desk of a cross-border project.
+@EX 1E | Complete the paragraph. Use: plan · deadline · time zones · coordinate · milestones.
+@WHITE
+The partners agreed one ___________ , with three ___________ along the way and a single ___________ at the end. Because they work in different ___________ , one editor has to ___________ every call.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+the first meeting of a project → ___________
+free, able to meet or to work → ___________
+an early version of a piece of writing → ___________
+to say that something is certain → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: pitch · commission · draft · slot · deadline.
+@WHITE
+Mira will ___________ the idea on Thursday. Omar is going to ___________ a photo essay. Dren is sending his first ___________ next week, the subeditors have kept a ___________ on page three, and nobody will miss the ___________ .
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What is your next deadline? What are you going to do before it?
+Who coordinates the work in your team? How?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: agree · confirm · available · ahead · diary.
+@WHITE
+Put the call in the ___________ . Ana will ___________ the time by email, and the others will ___________ in writing. Dren is only ___________ after four. A week ___________ , and nothing is late.
+
+@EX 1K | Creative. Write two sentences about a plan for next month. Use going to and a time expression.
+
+@PART 2 | Grammar: talking about the future | will for decisions and promises; going to for plans already made; the present continuous for fixed arrangements.
+@FIG u3-gA | will — a decision at the moment of speaking; going to — a plan made before.
+@GRAMMAR 1 · will — decisions, promises, predictions
+Form: {{will}} + verb. "I {{will move}} the call to four." "It {{will take}} three weeks."
+For a decision made as you speak, a promise, an offer, or a prediction.
+Negative: It [[won't]] be ready. Question: [[Will]] you file by Friday?
+
+@GRAMMAR 2 · going to — a plan already made
+Form: {{am / is / are going to}} + verb. "We {{are going to cover}} the whole basin."
+For a plan or intention decided before now — and for a prediction you can see coming.
+[[Not a decision at the moment of speaking]]: for that, use *will*.
+
+@FIG u3-gB | going to = the plan; present continuous = the plan with a time and a place.
+@GRAMMAR 3 · present continuous — a fixed arrangement
+Form: {{am / is / are}} + verb{{-ing}}, with a future time. "We {{are publishing}} on Sunday."
+For an arrangement that is fixed: a time, a place, and other people who know.
+"Ines {{is joining}} at four." "Dren {{is travelling}} on Thursday."
+
+@FIG u3-gC | Decision now, plan already made, or fixed arrangement — each has its own form.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with will or won't.
+@NUM
+"The time does not suit Omar. I ___________ move the call."
+"Don't worry — we ___________ miss the deadline."
+"It ___________ take about three weeks."
+"___________ you confirm it by email?"
+
+@EX 2B | will or going to?
+@NUM
+We ___________ cover the whole basin. (a plan agreed last week)
+"The line is bad — I ___________ call you back." (a decision now)
+Omar ___________ commission a photo essay. (he has decided already)
+"That looks heavy. I ___________ carry it." (an offer)
+
+@EX 2C | Complete with the present continuous for a fixed arrangement.
+@NUM
+We ___________ (publish) on the last Sunday of the month.
+Ines ___________ (join) the call at four.
+Dren ___________ (travel) on Thursday.
+
+@EX 2D | Write the sentence. Use going to or the present continuous.
+@NUM
+we / cover / the whole basin (a plan) → ________________________
+the four partners / publish / on Sunday (a fixed arrangement) → ________________________
+
+@H Your own words
+@EX 2E | Write two plans you have for next month. Use going to.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two fixed arrangements in your week. Use the present continuous.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (will / going to / present continuous).
+@NUM
+We will cover the whole basin — we agreed it last week. → ________________________
+I think I am going to call you back; the line is bad. → ________________________
+
+@EX 2H | Your own words. Describe one plan and one promise about your next piece of work.
+@NUM
+________________________
+
+@PART 3 | Planning across time zones | A cross-border plan needs one calendar, one deadline, and a time that works for everybody.
+@FIG g-timezones | Four partners, four clocks. Somebody's convenient hour is somebody's dawn.
+@FIG u3-skill | A good plan says who, what, when — and in whose time zone.
+@LABEL MODEL | A model plan
+@WARMBOX
+"Here is the plan. We are going to cover the whole Vara basin — seven crossings, not one. Kalina Daily is reporting the two upstream; the River Basin Network is taking the middle three; we are taking the mouth of the river. The Meridian Post is editing the English version.
+The kick-off call is on Thursday at 16:00 Geneva — 10:00 for Omar, 18:00 for Ines. First drafts are due on the 14th. We are publishing on the last Sunday, all four of us, at 07:00 GMT. I will send the calendar tonight."
+
+@LABEL NOTICE | Notice the plan
+@FIG u3-read | Every milestone has a date; every date has a time zone.
+@EX 3A | Answer about the model.
+@NUM
+What are the four partners going to cover? ___________
+Who is reporting the two upstream crossings? ___________
+When are they publishing? ___________
+
+@EX 3B | Find one 'going to', one present-continuous future, and one 'will' in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the plan
+@FIG g-fivew | A plan answers the five questions too: who, what, where, when — and in whose clock.
+@EX 3C | Write the sentence with going to or the present continuous.
+@NUM
+we / cover / seven crossings (a plan) → ________________________
+Kalina Daily / report / the upstream crossings (agreed, fixed) → ________________________
+I / send / the calendar / tonight (an offer made now, use will) → ________________________
+
+@EX 3D | Complete the plan. Use: are · going · is · will.
+@WHITE
+We are ______ to cover the whole basin. Kalina Daily ______ reporting upstream, and we ______ taking the mouth of the river. I ______ send the calendar tonight.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the plan in order. Number the steps 1–4.
+@NUM
+First drafts are due. ______
+The kick-off call takes place. ______
+All four partners publish. ______
+The editors agree who covers what. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a story. Write a short plan (4–5 sentences): what you are going to cover (going to), who is doing which part (present continuous), one date, and one promise (will).
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why must a plan name the time zone as well as the hour?
+@EX 3H | Why is 'we are publishing on Sunday' stronger than 'we will publish on Sunday'? Explain.
+@EX 3I | Discuss. Who should choose the hour of a call: the biggest partner, or the one furthest away?
+
+@PART 4 | Listening: the kick-off call | Two audios. Listen for the plan, the dates, and who is doing what.
+@FIG g-desk | Three editors on one call, in three time zones.
+@SUBHEAD Listening A | · the three-way kick-off call
+@LABEL MODEL | Audio 3.1 — Ana, Ines and Omar
+@DIALOGUE
+Ana | Thank you both for the early hour. We are going to cover the whole basin — seven crossings.
+Omar | Good. The Post will run the English version in print on the last Sunday.
+Ines | The Network is taking the three middle crossings. We are sending a reporter upriver next week.
+Ana | And Kalina Daily is reporting the two upstream. Dren is travelling today, so he will call in later.
+Omar | When are the first drafts due?
+Ana | The 14th. Then we have eight days to edit and translate.
+Ines | That is tight. I will ask for a day more if the water levels change.
+Ana | Agreed. One deadline we do not move: we are publishing at 07:00 GMT.
+Omar | Understood. I will send the embargo note tomorrow.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think the three editors will agree first? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+How many crossings are the partners going to cover? ___________
+Which crossings is the River Basin Network taking? ___________
+When are the first drafts due? ___________
+At what time are all four publishing? ___________
+
+@EX 4C | will, going to, or present continuous? Write W, G, or PC.
+@NUM
+"We are going to cover the whole basin." ______
+"We are publishing at 07:00 GMT." ______
+"I will send the embargo note tomorrow." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+The plan: ___________
+Who is doing what: ___________
+The one date nobody moves: ___________
+
+@FIG g-studio | Audio 3.2 — the reporters sort out the week between them.
+@SUBHEAD Listening B | · two reporters fix the week
+@LABEL MODEL | Audio 3.2 — Mira and Dren
+@DIALOGUE
+Mira | Dren, I have the calendar. Are you still going to take the two upstream crossings?
+Dren | Yes. I am driving up on Monday and staying two nights.
+Mira | Then I will not duplicate you — I am taking the mouth of the river.
+Dren | Good. One thing: Thursday's call is at four your time. That is six for me, and I am at the council meeting.
+Mira | I will ask Ana to move it to three.
+Dren | Thank you. I will send my notes before the call, so nothing is lost.
+Mira | When are you filing?
+Dren | The 13th — a day early. The river is rising, and I would rather be ahead.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what problem do you think the two reporters will have to solve? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Dren ___________ (drive) up on Monday and staying two nights.
+Mira ___________ (take) the mouth of the river.
+Mira ___________ ask Ana to move the call to three.
+Dren ___________ (file) on the 13th, a day early.
+
+@EX 4G | Which forms do you hear? Write one 'will', one 'going to', and one present-continuous phrase.
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Dren want to file a day early?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: going to · publishing · will · filing.
+@WHITE
+The four partners are ______ cover seven crossings. Dren is ______ on the 13th, and Mira ______ take the mouth of the river. All four are ______ at 07:00 GMT.
+
+@EX 4J | On the call, one editor asked for the hour to be moved. Why does that matter in a partnership?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The editors' call decides: ___________
+The reporters' call decides: ___________
+
+@EX 4L | Discuss. Which call does more real work — the one between editors, or the one between reporters?
+
+@PART 5 | Reading: one basin, four newsrooms | Two readings. Read for the plan, and for how to plan across borders.
+@FIG g-reach | One project, four mastheads, four audiences — and a single hour of publication.
+@SUBHEAD Reading A | · the project plan, explained
+@READING Seven crossings, one Sunday: how the basin project will work
+At the end of this month, four newsrooms are publishing one investigation at the same hour. It is called *The Seven Crossings*, and it asks a simple question: a year after Kalina reopened, what has happened to the rest of the river?
+
+The work is divided by geography. Kalina Daily, the paper in the town itself, is reporting the two upstream crossings. The River Basin Network is taking the middle three. Atlas Wire is covering the two at the mouth of the river, and the Meridian Post is editing the English version.
+
+"Nobody could do this alone, and nobody should," says Ines Duarte, who edits for the River Basin Network. "We are going to put seven small stories beside each other, and the picture they make is the story."
+
+The calendar is short. First drafts are due on the 14th; the edit and translation take eight days; everything goes out at 07:00 GMT on the last Sunday. "That hour is the only thing we will not move," says Ana Ferreira of Atlas Wire. "If one partner runs early, the others lose the day."
+
+Four time zones have their own rules. The kick-off call was moved twice: four o'clock in Geneva is ten in the morning for the Post's desk and six in the evening for Dren Markaj at Kalina Daily. "We learned to write the time zone beside every hour," Omar Faris of the Meridian Post says. "It sounds small. It saves a week."
+
+The hardest part, all four editors say, is not the logistics. It is holding to one standard when four newsrooms have four house styles, four lawyers and four audiences. So the partners agreed their rules before their deadlines: every figure confirmed twice, every local reporter named, and nothing published that the others have not seen.
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What do you think 'one Sunday' refers to? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The four newsrooms are publishing at different hours. ______
+Kalina Daily is reporting the two upstream crossings. ______
+First drafts are due on the 14th. ______
+The partners agreed their deadlines before their rules. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Which crossings is Atlas Wire covering? ___________
+What is the one thing the partners will not move? ___________
+What do the editors call the hardest part of the project? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+the local clock in one part of the world → ___________
+a date when one part must be finished → ___________
+to make several people's work fit together → ___________
+
+@FIG g-partners | Four newsrooms, one standard: the rules come before the calendar.
+@SUBHEAD Reading B | · good planning across borders
+@READING Four rules for planning with partners
+**1. Name the time zone every time.** Write '16:00 Geneva' or '07:00 GMT', never just 'four o'clock'. A plan that does not say whose clock it means is not a plan.
+**2. Share the calendar, not only the deadline.** Partners need the milestones between: the kick-off, the drafts, the edit, the hour.
+**3. Agree the standard before the schedule.** How a figure is confirmed, who is named, what each partner may publish — all before anyone writes.
+**4. Let the smallest partner choose the hour.** The newsroom closest to the story has the fewest people and the least room to move. It should not be the one getting up at dawn.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which rule do you think matters most in a four-country project? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  name the time zone
+2.  share the calendar
+3.  agree the standard
+4.  the smallest partner chooses
+@@
+a)  'first drafts on the 14th, edit to the 22nd'
+b)  'every figure confirmed twice'
+c)  '07:00 GMT, not seven o'clock'
+d)  move the call so Dren does not lose his evening
+
+@EX 5G | Which rule is about fairness between partners, not about dates? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+the first meeting of a project → ___________
+an early version of a piece of writing → ___________
+a list of times for the work → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete the sentence with will, going to, or the present continuous.
+@NUM
+The four partners ___________ (publish) at 07:00 GMT. (a fixed arrangement)
+They ___________ (put) seven small stories beside each other. (a plan)
+"That hour is the only thing we ___________ not move." (a promise)
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. Reading A says seven small stories make one picture. What does this mean?
+@EX 5K | Which of the four planning rules would your own team find hardest? Say why.
+@EX 5L | Discuss. 'Agree the standard before the schedule.' Why is it harder to agree afterwards?
+
+@PART 6 | Writing: the plan on paper | Two short pieces: a project schedule, and a planning email to a partner.
+@FIG g-notes | A schedule on one page: who, what, when, in whose clock.
+@SUBHEAD Writing 1 | · a project schedule
+@LABEL MODEL | A model
+@WARMBOX
+PROJECT · The Seven Crossings
+Kick-off: Thursday 16:00 Geneva / 10:00 New York / 18:00 Kalina
+Reporting: Kalina Daily — upstream · RBN — middle · Atlas Wire — mouth
+First drafts: the 14th · Edit and translation: the 15th–22nd
+Publication: last Sunday, 07:00 GMT, all four partners
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line gives three time zones for one hour? ___________
+Which line is the one date nobody moves? ___________
+
+@LABEL PRODUCE | Write your schedule
+@EX 6B | Choose a story and two partners. Write a schedule: kick-off (with time zones), who reports what, drafts, publication.
+@WHITE
+Kick-off: ___________
+Reporting: ___________
+First drafts: ___________
+Publication: ___________
+
+@FIG g-model | A planning email turns the schedule into something a partner can answer.
+@SUBHEAD Writing 2 | · a planning email to a partner
+@LABEL MODEL | A model
+@WARMBOX
+Dear Ines,
+Here is the plan as we agreed it. We are going to cover the two crossings at the mouth; you are taking the middle three. First drafts are due on the 14th, and we are publishing at 07:00 GMT on the last Sunday.
+I will send the shared calendar tonight, with every hour in all three time zones. If the water levels change your plans, tell me early.
+Best wishes, Mira
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one 'going to', one present-continuous future, and one 'will' in the email.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the email. Use: going · are · will · am.
+@WHITE
+We are ______ to take the mouth of the river. You ______ taking the middle crossings. I ______ send the calendar tonight, and I ______ writing to Omar as well.
+
+@LABEL PRODUCE | Write your email
+@EX 6E | Turn your schedule into a short planning email (4–5 sentences). Use going to, the present continuous, and one will promise.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This email promises a date that is not fixed, and gives an hour with no time zone. Correct both.
+@WHITE
+"We will definitely publish some time next week. The call is at four. I will confirm everything later, probably."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a project note. Write three lines: the plan (going to), one arrangement (present continuous), one promise (will).
+@WHITE
+Plan: ___________
+Arrangement: ___________
+Promise: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Is there a time zone with every hour, and a date for every milestone? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: agreeing the plan | Agree a joint plan on a call. Use will, going to and the present continuous.
+@FIG g-interview | Agreeing a plan out loud: who does what, by when, in whose clock.
+@SUBHEAD A model dialogue | · agreeing who does what
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | So what are we going to do about the other six crossings?
+Mira | We are taking two, at the mouth. Kalina Daily is taking the upstream pair.
+Sofia | And the middle three?
+Mira | The River Basin Network. Ines is sending a reporter upriver next week.
+Sofia | When do we file?
+Mira | First drafts on the 14th. I will put the calendar in the shared folder tonight.
+Sofia | And publication?
+Mira | The last Sunday, 07:00 GMT. That hour does not move.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one 'going to', one present-continuous future, and one 'will' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with will, going to, or the present continuous.
+@NUM
+What / we / going to / do / about the other crossings? → ___________
+Who / take / the middle three? (fixed) → ___________
+When / you / send / the calendar? (a promise) → ___________
+
+@FIG g-introduce | Open a planning call by saying what is already agreed.
+@EX 7C | Make a question about a plan, then answer it.
+@NUM
+the partners / publish / on Sunday → ________________________
+Ines / send / a reporter / next week → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Coordinator | Say the plan: what you are going to cover, who is doing what, and the dates.
+Partner | Ask: 'When are you filing?' and 'Four o'clock in whose time zone?'
+Observer | Listen. Did the coordinator give a time zone with every hour?
+
+@EX 7D | Choose a role from the table. Agree a plan with your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a kick-off call: a coordinator, a partner, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · moving the hour
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | Mira, about Thursday — four o'clock Geneva is ten in the morning here. I can do it.
+Mira | You can; Dren cannot. Six in the evening is his council meeting, and he is the one in the town.
+Omar | Then we will move it. Three o'clock?
+Mira | Three works for everybody. I am sending the new invitation now.
+Omar | Good. And I will write the hour in all three zones.
+Mira | Thank you. It saves a week.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the two sentences Omar uses to agree the change — one with 'will', one with the present continuous.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use going to for a plan already made?
+use the present continuous for fixed arrangements?
+use will for a decision or a promise made now?
+give the time zone with every hour?
+
+@EX 7G | Role-play moving the hour of a call so that the smallest partner is not the one who loses. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your call. Note one going-to plan, one fixed arrangement, and one will promise.
+@EX 7I | Discuss. How would you agree one deadline with three partners under different pressures?
+
+@PART 8 | Ethics: a plan you can keep | A date is a promise. Promising one you cannot keep costs somebody else the work.
+@FIG g-code | A plan is part of the Code: what you promise a partner, you owe them.
+@FIG u3-ethA | A partner's perfect date can be another newsroom's impossible one.
+@SUBHEAD A first case | · the date that suits the biggest partner
+@CASE The Meridian Post wants to publish a week earlier, so the project lands in its big Sunday edition. Omar asks Mira: can Atlas Wire be ready? She wants to say yes — the Post's reach is enormous, and a partner who is pleased comes back. But a week earlier means Priya cannot confirm the water-level figures twice, and Dren cannot reach the far-bank families at all. The thin part would be the part about the people whose river it is. The Code says: do not promise a date that forces you to publish what you have not checked. What does Mira tell Omar?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'Yes, we will be ready.'  (b) 'No — a week earlier and the figures are unconfirmed.'   Choice: ______  Because ________________________
+Agreeing a date you cannot meet is (a) good partnership  (b) a risk you pass to others.   Choice: ______
+
+@EX 8B | A promise you can keep, or one you cannot? Write K or C.
+@NUM
+'We are publishing on the 28th; the drafts are in.' ______
+'We will be ready a week early, somehow.' ______
+'I will file on the 13th — I am ahead already.' ______
+'Yes to any date you like.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: check · keep · early · zone.
+@WHITE
+Promise only what you can ______ . Say no to a date that leaves no time to ______ . Tell a partner ______ if a plan changes, and always name the time ______ .
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is 'yes' to a bigger partner sometimes the least honest answer?
+@SUBHEAD A second case | · the call nobody could attend
+@FIG u3-ethB | A decision taken while one partner was offline is not an agreement.
+@CASE The second kick-off call falls at an hour when Dren is on the road and cannot join. The three larger partners take it anyway, and agree how the upstream crossings will be framed — his crossings, in his town. Afterwards, the minutes say 'agreed by all partners'. Nobody lied; Dren was simply not there. But Kalina Daily is the smallest partner, closest to the people in the story, and it will still be in Kalina long after the others have moved on. The Code says: a partner who could not be in the room has not agreed. What should Mira do?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) send the minutes as 'agreed by all'  (b) hold the upstream decisions until Dren can speak.   Choice: ______  Because ________________________
+A decision taken without the local partner is (a) efficient and fair  (b) efficient and not fair.   Choice: ______
+
+@EX 8F | Complete with: agreed · smallest · minutes · present.
+@NUM
+Dren was not ___________ on the call.
+Kalina Daily is the ___________ partner.
+The ___________ said 'all partners'.
+Nothing is ___________ until he has spoken.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why does the newsroom that stays in the town lose most from a framing it did not choose?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences to the partners, holding the upstream decisions until Dren can speak. Use will and going to.
+@LABEL PRACTISE | One more
+@EX 8I | Fair planning, or not? Write F or N.
+@NUM
+'We moved the call so the local reporter could join.' ______
+'He was not there, so we decided for him.' ______
+'Every hour is written in three time zones.' ______
+'We announced the date before the smallest partner agreed.' ______
+
+@EX 8J | Discuss. A big partner's calendar is powerful. What does a small partner have that is worth as much?
+
+@PART 9 | Digital: a 'coming soon' post | Online, you can announce a plan — carefully. A date you post is a date you owe.
+@FIG g-phonealert | A 'coming soon' post promises a date to the whole internet.
+@LABEL MODEL | A model post
+@WARMBOX
+COMING THIS MONTH · Four newsrooms are publishing one investigation into the seven crossings of the Vara basin. We are going to look at what reopened, and what did not. Out on the last Sunday, 07:00 GMT. — @AtlasWire with @KalinaDaily and @MeridianPost
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to the form.
+@MATCH
+1.  Four newsrooms are publishing
+2.  We are going to look at
+3.  Out on the last Sunday, 07:00 GMT
+4.  with @KalinaDaily
+@@
+a)  going to (the plan)
+b)  present continuous (the fixed arrangement)
+c)  the partners, named
+d)  the hour, with its time zone
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one 'going to' and one present-continuous future in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post gives no time zone and promises a date that is not fixed. Correct both.
+@WHITE
+"Big project coming at four o'clock, probably Sunday or maybe the week after."
+
+@P
+________________________
+
+@FIG u3-sum | A good 'coming soon' answers: what, with whom, and exactly when.
+@EX 9D | Write a 'coming soon' post. Use one going to, one present continuous, and one hour with its time zone.
+@WHITE
+COMING SOON · ___________ (present continuous). ___________ (going to). Out at ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line 'coming soon' post about a piece of work you have planned. Use going to.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a project that is still to come.
+@EX 9G | A reader asks: 'Why are four newsrooms doing this together?' Write a short reply. Use going to.
+@WHITE
+________________________
+
+@EX 9H | A 'coming soon' post can promise more than the work delivers. Write one line that promises only what is certain.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 the plan (going to), line 2 the fixed hour (present continuous).
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. Announcing a date brings readers — and risk. When is it better to say nothing until you publish?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 4.
+@FIG g-website | The project page: what is coming, with whom, and exactly when.
+@EX 10A | Vocabulary. Complete with: plan · schedule · deadline · time zone · coordinate · draft · slot · milestone.
+@NUM
+The partners agreed one ___________ for the basin.
+Ana sent the ___________ with every hour in it.
+The ___________ is the last Sunday.
+Four o'clock in which ___________ ?
+Somebody has to ___________ four newsrooms.
+Dren is sending his first ___________ .
+The subeditors kept a ___________ on page three.
+The 14th is the first ___________ .
+
+@EX 10B | Grammar. Complete with will or won't.
+@NUM
+"The hour does not suit Dren. I ___________ move it."
+"Don't worry — we ___________ miss the deadline."
+"It ___________ take about three weeks."
+"I ___________ send the calendar tonight."
+
+@EX 10C | Grammar. will or going to?
+@NUM
+We ___________ cover the whole basin. (agreed last week)
+"The line is bad — I ___________ call you back." (a decision now)
+Omar ___________ commission a photo essay. (already decided)
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with the present continuous for the future.
+@NUM
+We ___________ (publish) on the last Sunday.
+Ines ___________ (join) the call at four.
+Dren ___________ (travel) on Thursday.
+
+@EX 10E | Read and answer.
+@WHITE
+Four newsrooms are going to cover the seven crossings of the Vara basin. Kalina Daily is reporting upstream, the River Basin Network the middle, and Atlas Wire the mouth of the river. All four are publishing at 07:00 GMT on the last Sunday. "That hour is the only thing we will not move," Ana says.
+
+@NUM
+What are the four newsrooms going to cover? ___________
+Who is reporting upstream? ___________
+What is the one thing they will not move? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can make plans and promises with will.
+I can talk about plans already made with going to.
+I can use the present continuous for fixed arrangements.
+I can plan a joint project across time zones.
+
+@EX 10F | Reflect. Which part of Unit 3 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+We will cover the basin — we agreed it last week. → ________________________
+I am going to call you back; the line is bad. → ________________________
+We are going to publish at 07:00 on Sunday; it is fixed and agreed. → ________________________
+The call is at four o'clock. → ________________________
+
+@EX 10H | Mixed review. Complete with will, going to, or the present continuous.
+@NUM
+Ines ___________ (send) a reporter upriver next week. (fixed)
+We ___________ (put) seven stories beside each other. (a plan)
+"That hour is the only thing we ___________ (not move)." (a promise)
+
+@EX 10I | Reflect. Write one sentence about a plan you are going to make. Name a date.
+
+@PART 11 | Assignment: a project plan | Put the unit together: plan a joint story with two partners.
+@FIG g-template | The assignment template — your project plan.
+@P
+**Your task. **You and two partner newsrooms abroad are going to cover one story together. Write a project plan (6–7 sentences): what you are going to cover (going to), who is doing which part (present continuous), the kick-off hour in all three time zones, two milestones, the hour of publication, and one promise you can keep (will). Let the partner closest to the story choose the hour.
+
+@FIG g-model | A model — use Reading A and the Writing 1 model to check the shape of your plan.
+@WHITE
+Remember: going to for the plan; the present continuous for arrangements; will for a promise made now; a time zone with every hour; a date for every milestone; nothing agreed while a partner is offline.
+
+@CRITERIA Success criteria
+I use going to for the plan we have already made.
+I use the present continuous for the fixed arrangements.
+I use will for a promise I can keep.
+I give the time zone with every hour.
+Every partner, including the smallest, can meet the plan.
+
+@P
+**Keep this. **In Unit 4, you file to a foreign desk — reported speech (say, tell, according to) — so that what a source said arrives abroad exactly as they said it.
+
+@KEY Book 2 · Unit 3 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 the whole Vara basin (not just Kalina) · 2 Thursday at two, moved to four · 3 Omar (Faris)
+W2 | 1 F (the whole basin) · 2 T · 3 T
+W3 | will: 'I'll move it to four' · going to: 'we are going to cover' · present continuous: 'Ines is joining'
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 plan · 2 deadline · 3 time zones · 4 coordinate · 5 kick-off · 6 available
+1C | 1 meet a deadline · 2 agree a plan · 3 coordinate the coverage · 4 file a draft · 5 book a slot
+1D | 1 rumour · 2 archive · 3 refuse · 4 delete
+1E | 1 plan · 2 milestones · 3 deadline · 4 time zones · 5 coordinate
+1F | 1 kick-off · 2 available · 3 draft · 4 confirm
+1G | pitch · commission · draft · slot · deadline
+1J | agree/confirm · confirm · agree · available · ahead
+2A | 1 will · 2 won't · 3 will · 4 Will
+2B | 1 are going to · 2 will · 3 is going to · 4 will
+2C | 1 are publishing · 2 is joining · 3 is travelling
+2D | 1 We are going to cover the whole basin. · 2 The four partners are publishing on Sunday.
+2G | 1 We are going to cover the whole basin — we agreed it last week. · 2 I will call you back; the line is bad.
+3A | 1 the whole Vara basin — seven crossings · 2 Kalina Daily · 3 on the last Sunday of the month, at 07:00 GMT
+3B | going to: 'we are going to cover' · present continuous: 'Kalina Daily is reporting' · will: 'I will send the calendar tonight'
+3C | 1 We are going to cover seven crossings. · 2 Kalina Daily is reporting the upstream crossings. · 3 I will send the calendar tonight.
+3D | going · is · are · will
+3E | 1 The editors agree who covers what. · 2 The kick-off call takes place. · 3 First drafts are due. · 4 All four partners publish.
+3H | 'we are publishing' is a fixed arrangement — date, hour and partners already agreed; 'we will publish' sounds like an intention that could change
+4B | 1 seven · 2 the three in the middle of the valley · 3 the 14th · 4 07:00 GMT
+4C | 1 G · 2 PC · 3 W
+4D | The plan = the whole basin, seven crossings · Who is doing what = Kalina Daily upstream, RBN middle, Atlas Wire the mouth, the Post edits · The date nobody moves = 07:00 GMT, last Sunday
+4F | 1 is driving · 2 am taking · 3 will · 4 is filing
+4G | will: 'I will ask Ana' · going to: 'are you still going to take' · present continuous: 'I am driving up on Monday'
+4H | because the river is rising and he would rather be ahead, in case his plans change
+4I | going to · filing · will · publishing
+4J | an hour that suits the biggest partner can cost the smallest one its evening; agreeing the hour together is part of being equal partners
+4K | Editors decide = the plan, the division of work, the publication hour · Reporters decide = who goes where, when each files, how not to duplicate
+5B | 1 F · 2 T · 3 T · 4 F
+5C | 1 the two at the mouth of the river · 2 the hour of publication (07:00 GMT) · 3 holding to one standard across four newsrooms
+5D | 1 time zone · 2 milestone · 3 coordinate
+5F | name the time zone → '07:00 GMT, not seven o'clock' · share the calendar → 'drafts on the 14th, edit to the 22nd' · agree the standard → 'every figure confirmed twice' · the smallest partner chooses → move the call for Dren
+5G | Rule 4
+5H | 1 kick-off · 2 draft · 3 schedule / calendar
+5I | 1 are publishing · 2 are going to put · 3 will
+6A | 1 the kick-off line (16:00 Geneva / 10:00 New York / 18:00 Kalina) · 2 the publication line
+6C | going to: 'we are going to cover' · present continuous: 'you are taking' · will: 'I will send the shared calendar'
+6D | going · are · will · am
+6F | 'We are publishing on Sunday the 28th. The call is at 16:00 Geneva (18:00 Kalina). I will confirm tonight.'
+7A | going to: 'what are we going to do' · present continuous: 'Ines is sending a reporter' · will: 'I will put the calendar in the shared folder'
+7B | 1 We are going to cover the two crossings at the mouth. · 2 The River Basin Network is taking the middle three. · 3 I will send it tonight.
+7C | 1 Are the partners publishing on Sunday? — Yes, at 07:00 GMT. · 2 Is Ines sending a reporter next week? — Yes.
+7F | 'Then we will move it.' · 'I am sending the new invitation now.' (accept 'I will write the hour in all three zones')
+8A | 1 (b) 'No — a week earlier and the figures are unconfirmed.' · 2 (b) a risk you pass to others
+8B | 1 K · 2 C · 3 K · 4 C
+8C | keep · check · early · zone
+8E | 1 (b) hold the upstream decisions until Dren can speak · 2 (b) efficient and not fair
+8F | 1 present · 2 smallest · 3 minutes · 4 agreed
+8I | 1 F · 2 N · 3 F · 4 N
+9A | 'Four newsrooms are publishing' → present continuous · 'We are going to look at' → going to · '07:00 GMT' → the hour with its time zone · 'with @KalinaDaily' → the partners, named
+9B | going to: 'we are going to look at' · present continuous: 'four newsrooms are publishing'
+9C | 'Our joint investigation is out on Sunday the 28th at 07:00 GMT.'
+10A | 1 plan · 2 schedule · 3 deadline · 4 time zone · 5 coordinate · 6 draft · 7 slot · 8 milestone
+10B | 1 will · 2 won't · 3 will · 4 will
+10C | 1 are going to · 2 will · 3 is going to
+10D | 1 are publishing · 2 is joining · 3 is travelling
+10E | 1 the seven crossings of the Vara basin · 2 Kalina Daily · 3 the publication hour (07:00 GMT)
+10G | 1 We are going to cover the basin — we agreed it last week. · 2 I will call you back; the line is bad. · 3 We are publishing at 07:00 GMT on Sunday. · 4 The call is at 16:00 Geneva (18:00 Kalina).
+10H | 1 is sending · 2 are going to put · 3 will not move
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post, their staff, the Vara basin and the story are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 3 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Planning & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + three partners · fictional agency, factual backdrop.

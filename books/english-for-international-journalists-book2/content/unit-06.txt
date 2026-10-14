@@ -1,0 +1,852 @@
+@UNITHEAD BOOK 2 · UNIT 6 | How Sure Are You? Writing About a Claim | Beat · Verification & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+say what is possible with might, may and could
+say how likely something is
+give advice with should and ought to
+write about a claim you cannot prove yet
+
+@FIG g-team | The Atlas Wire team — weighing a claim that nobody can prove, and that everybody is sharing.
+@STORY A claim spreads across the basin. | A screenshot appears on Thursday evening. It says the gates of the upstream dam are going to be opened, and that the valley will flood within the week. By Friday morning it is in three countries, with no source, no date and no name. It might be true. It might be nothing. Thousands of people are frightened either way. This week, Priya traces it, Mira writes about it without repeating it, and four newsrooms learn how to say *we do not know* in a way that still helps. (Atlas Wire, Kalina Daily, the Meridian Post, the dam and the claim are invented, for practice.)
+
+@WARMUP The screenshot | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — one screenshot, three countries, and no source at all.
+@WARMBOX
+"It may be genuine," Priya says, "but there is no name on it and no date."
+Leila scrolls. "It has nine thousand shares since last night. People upstream are moving their animals."
+"Then it is already a story," Ana says, "whether or not it is true."
+Mira looks up. "Could the gates be opened without notice?"
+"They might be, in an emergency. The office says there is no plan. That is not the same as a denial."
+Ana closes her notebook. "We should write what we know, and say plainly what we do not. And we ought to say it before lunch."
+
+@EX W1 | Answer the questions.
+@NUM
+What is missing from the screenshot? ___________
+What are people upstream doing? ___________
+What does Ana say they should write? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+Priya is certain the screenshot is genuine. ______
+The office has denied that there is any plan. ______
+Ana thinks they should publish before lunch. ______
+
+@EX W3 | Find one 'may', one 'might', and one 'should' in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+Have you ever shared something that turned out to be untrue? What happened?
+What should a newsroom do when a claim is frightening but unproved?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'It is already a story, whether or not it is true.' Do you agree?
+
+@PART 1 | The words of doubt | The words for rumour, likelihood and careful reporting.
+@FIG u6-words | Four key words — rumour, unverified, plausible, speculation.
+@H The words
+@VOCAB
+rumour | a story that spreads without proof
+unverified | not yet proved
+plausible | it sounds possible
+likely | probable
+unlikely | not probable
+speculation | guessing without evidence
+hedge (v) | to use careful words when you are not sure
+caution | care, because something may be wrong
+doubt (n) | the feeling that it may not be true
+circulate | to pass from person to person
+screenshot | a picture of a screen, often shared
+origin | where something started
+trace (v) | to follow something back to its origin
+debunk | to show that a claim is false
+flag (v) | to mark something as doubtful
+correction | a published fix for an error
+restraint | not publishing what you cannot prove
+consequence | what happens because of something
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  rumour
+2.  unverified
+3.  plausible
+4.  speculation
+5.  hedge
+6.  circulate
+7.  origin
+8.  debunk
+9.  restraint
+10.  correction
+@@
+a)  not yet proved
+b)  a story that spreads without proof
+c)  it sounds possible
+d)  guessing without evidence
+e)  to use careful words when you are not sure
+f)  to pass from person to person
+g)  where something started
+h)  to show that a claim is false
+i)  not publishing what you cannot prove
+j)  a published fix for an error
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | rumour · unverified · origin · circulate · debunk · caution
+@NUM
+The screenshot is still ___________ .
+Priya is trying to find its ___________ .
+A ___________ can frighten a whole valley.
+Screenshots ___________ faster than corrections.
+If it is false, we will ___________ it.
+Until then, we write with ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  trace the
+2.  publish a
+3.  flag a
+4.  show
+5.  debunk a
+@@
+a)  origin
+b)  correction
+c)  claim
+d)  restraint
+e)  rumour
+
+@EX 1D | Circle the word that is different.
+@NUM
+rumour · speculation · guess · proof
+likely · probable · possible · certain
+caution · care · restraint · haste
+debunk · disprove · correct · spread
+
+@FIG g-phonealert | A screenshot with no name and no date can cross three countries by morning.
+@EX 1E | Complete the paragraph. Use: unverified · circulated · origin · plausible · caution.
+@WHITE
+The claim ___________ for a night before anyone asked where it came from. It was ___________ , which is why it spread — and ___________ , which is why we held it. Priya is looking for its ___________ ; until she finds it, we write with ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+to use careful words when you are not sure → ___________
+to follow something back to where it started → ___________
+what happens because of something → ___________
+not publishing what you cannot prove → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: rumour · screenshot · flagged · correction · consequences.
+@WHITE
+The ___________ began with one ___________ . Two platforms ___________ it by Friday. If we get it wrong, a ___________ will reach a tenth of the readers — and the ___________ will stay in the valley.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+How do you check something you are sent online?
+What is one rumour you have heard that had real consequences?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: doubt · likely · unlikely · hedge · speculation.
+@WHITE
+There is real ___________ about the date. A controlled release is ___________ ; a sudden flood is ___________ . We will ___________ carefully and keep ___________ out of the copy.
+
+@EX 1K | Creative. Write two sentences about a claim you cannot prove. Use might and may.
+
+@PART 2 | Grammar: possibility and advice | might, may and could for what is possible; should and ought to for what should be done.
+@FIG u6-gA | might · may · could — three ways to say 'possible, not certain'.
+@GRAMMAR 1 · might · may · could — it is possible
+Form: {{might / may / could}} + verb (no *to*, no *-s*). "The gates {{might be}} opened." "It {{may be}} genuine."
+All three say *possible*. {{May}} is a little more formal; {{could}} is often weaker.
+[[Not 'may to be']]: say *it may be true*, NOT *it may to be true*.
+
+@GRAMMAR 2 · saying it is not likely
+Negative: "The valley {{may not}} flood." "It {{might not}} be genuine."
+[[Careful]]: *could not* usually means *was unable*, not *is not likely* — so for possibility use *may not* or *might not*.
+Questions: "{{Could}} the gates {{be}} opened without notice?"
+
+@FIG u6-gB | should / ought to — what a newsroom owes its readers.
+@GRAMMAR 3 · should · ought to — advice and duty
+Form: {{should}} / {{ought to}} + verb. "We {{should}} say what we do not know." "A newsroom {{ought to}} publish a correction."
+For advice, and for a duty that is not a law.
+Negative: "We [[should not]] repeat the claim in the headline."
+
+@FIG u6-gC | Possible, unlikely, or what we ought to do — each has its own form.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with might, may or could.
+@NUM
+The gates ___________ be opened in an emergency.
+The screenshot ___________ be genuine; we do not know yet.
+___________ the claim have started as a joke?
+The valley ___________ flood, but it is not likely.
+
+@EX 2B | Make it less likely. Use may not or might not.
+@NUM
+The screenshot is genuine. → It ___________
+The gates will be opened this week. → They ___________
+
+@EX 2C | Complete with should or ought to.
+@NUM
+We ___________ say plainly what we do not know.
+A newsroom ___________ publish a correction quickly.
+We ___________ not repeat the claim in the headline.
+
+@EX 2D | Write the sentence with might, may, could, should or ought to.
+@NUM
+possible / the gates / be opened / in an emergency → ________________________
+duty / we / say / what we do not know → ________________________
+
+@H Your own words
+@EX 2E | Write two things that might be true about a story you are following.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two things a newsroom should do when a rumour spreads.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (might / may / should).
+@NUM
+It may to be genuine. → ________________________
+We should to say what we do not know. → ________________________
+
+@EX 2H | Your own words. Write one possibility and one duty about a claim you have seen online.
+@NUM
+________________________
+
+@PART 3 | Writing about what you cannot prove | You can report a claim without repeating it as a fact — if you are exact about what is known.
+@FIG g-sources | A claim with no origin is not a source. It is a thing that happened to the internet.
+@FIG u6-skill | Say what is claimed, who says it, what is confirmed, and what is not.
+@LABEL MODEL | A model paragraph
+@WARMBOX
+"A screenshot circulating since Thursday evening claims that the gates of the upstream dam will be opened this week and that the valley will flood. Atlas Wire has not been able to trace its origin, and no official body has issued such a notice.
+The Crossing Office says there is no plan to open the gates. That is not a denial that they could be opened in an emergency, and we have asked for one.
+Residents upstream have moved animals to higher ground. Whatever the claim turns out to be, that has already happened, and it is why we are reporting it."
+
+@LABEL NOTICE | Notice the paragraph
+@FIG u6-read | Reporting a rumour is reporting its consequences — not repeating its words.
+@EX 3A | Answer about the model.
+@NUM
+What does the screenshot claim? ___________
+What has Atlas Wire not been able to do? ___________
+Why are they reporting it at all? ___________
+
+@EX 3B | Find one 'could', one 'may' or 'might', and one 'should' or duty in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the paragraph
+@FIG g-fivew | A careful paragraph answers: what is claimed, who claims it, what is confirmed, what is not.
+@EX 3C | Write the sentence with might, may, could or should.
+@NUM
+the gates / be opened / in an emergency (possible) → ________________________
+the screenshot / not be genuine (not likely) → ________________________
+we / say / what is not confirmed (duty) → ________________________
+
+@EX 3D | Complete the paragraph. Use: claims · could · may · should.
+@WHITE
+A screenshot ______ that the gates will be opened. It ______ be genuine; nobody has traced it. The gates ______ be opened in an emergency, and we ______ say so.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the paragraph in order. Number the lines 1–4.
+@NUM
+What the office says, and what it does not say. ______
+What is claimed, and since when. ______
+Why we are reporting it: the consequences. ______
+What we have not been able to confirm. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a claim you have seen online. Write a careful paragraph (4–5 sentences): what is claimed, what is confirmed, what might be true, and what a newsroom should do.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why should a headline never repeat an unproved claim as a fact?
+@EX 3H | Why is 'there is no plan' not a denial? Explain the difference.
+@EX 3I | Discuss. When does reporting a rumour help people, and when does it only spread it?
+
+@PART 4 | Listening: tracing the claim | Two audios. Listen for what is possible, and for what a newsroom should do.
+@FIG g-desk | Audio 6.1 — verification looks for an origin, and does not find one.
+@SUBHEAD Listening A | · looking for the origin
+@LABEL MODEL | Audio 6.1 — Priya and Mira
+@DIALOGUE
+Priya | The earliest copy I can find is Thursday, 21:40, in a group of two hundred people.
+Mira | Could that be the origin?
+Priya | It might be. Or somebody may have copied it from somewhere we cannot see.
+Mira | Is it plausible?
+Priya | Partly. The dam does have gates, and they could be opened in an emergency. But the date in the message is wrong, and the logo is from an old document.
+Mira | So it may be a real document, used wrongly?
+Priya | That is the most likely explanation. We should say exactly that, and not more.
+Mira | And the office?
+Priya | They say there is no plan. They ought to say whether the gates could be opened at all.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think Priya will find? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+When is the earliest copy Priya can find? ___________
+What two things are wrong with the message? ___________
+What is the most likely explanation? ___________
+What ought the office to say? ___________
+
+@EX 4C | Possible, unlikely, or a duty? Write P, U, or D.
+@NUM
+"It might be the origin." ______
+"The date in the message is wrong." ______
+"They ought to say whether the gates could be opened." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+Earliest copy: ___________
+What is wrong with it: ___________
+Most likely explanation: ___________
+
+@FIG g-newsroom | Audio 6.2 — a partner wants a 'fears of flooding' story, today.
+@SUBHEAD Listening B | · should we publish the fear?
+@LABEL MODEL | Audio 6.2 — Omar and Mira
+@DIALOGUE
+Omar | We could run 'Fears of flooding in the Vara valley'. It is accurate: people are afraid.
+Mira | It is accurate and it is misleading. A reader will think there may be a flood.
+Omar | There might be.
+Mira | There might be anything. We should report what we traced: an old logo, a wrong date, and two hundred people in a group.
+Omar | And the fear itself?
+Mira | That is the story — people moving animals because of an unverified screenshot. Say that in the headline.
+Omar | 'Unverified claim moves families upstream.'
+Mira | Better. And we ought to say what we asked the office, and what it would not say.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what headline do you think Omar will suggest? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Omar says they ___________ run 'Fears of flooding'.
+Mira says a reader ___________ think there may be a flood.
+They ___________ report what has been traced.
+They ___________ to say what the office would not say.
+
+@EX 4G | Which forms do you hear? Write one 'could', one 'might', and one 'ought to'.
+@NUM
+________________________
+
+@EX 4H | Answer. Why does Mira call the first headline 'accurate and misleading'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: might · may · should · ought to.
+@WHITE
+The screenshot ______ be a real document used wrongly. The gates ______ be opened in an emergency. The newsroom ______ report what it traced, and ______ say what the office would not say.
+
+@EX 4J | A headline can be true and still mislead. Why is that a problem of possibility, not of fact?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The verification call is about: ___________
+The desk call is about: ___________
+
+@EX 4L | Discuss. Which headline would you run, and what would you put in the second line?
+
+@PART 5 | Reading: the claim that went upriver | Two readings. Read for what was possible, and for the rules of a careful report.
+@FIG g-reach | A claim with no author reached three countries in twelve hours. The correction will not.
+@SUBHEAD Reading A | · twelve hours, three countries
+@READING The screenshot that moved a valley
+At 21:40 on Thursday, a message appeared in a group of about two hundred people upstream. It said the gates of the Vara dam would be opened within the week and that the lower valley would flood. It carried an official-looking logo and no name.
+
+By Friday morning it had reached three countries. "It was plausible, and that is the whole problem," says Priya Nair of Atlas Wire, who spent the day tracing it. "The dam does have gates. They could be opened in an emergency. Everything around the false part was true."
+
+Two things did not hold. The date in the message had already passed, and the logo came from a document issued four years ago. "Our best explanation is a real document used wrongly," Priya says. "It may have started as a warning between neighbours. We cannot prove that, so we have not written it."
+
+The Crossing Office said there was no plan to open the gates. Asked whether the gates could be opened without notice in an emergency, it did not answer. "That is not a denial," says Ana Ferreira of Atlas Wire. "A reader ought to be told the difference."
+
+Meanwhile, families upstream moved animals to higher ground, and a school kept its children indoors. Those consequences were real while the claim was not, which is why four newsrooms decided the story had to be reported — carefully, and without the claim in the headline.
+
+The piece they published said what was claimed, since when, by nobody traceable; what might be true; what the office would not say; and what families had already done. "We should be able to say *we do not know* in a way that still helps people," says Omar Faris of the Meridian Post. "That sentence is the hardest one in journalism."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What do you think moved the valley? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The message carried a name. ______
+The dam does have gates. ______
+The logo came from a recent document. ______
+The office denied that the gates could be opened in an emergency. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why does Priya say the claim was plausible? ___________
+What two things did not hold? ___________
+Why did the partners decide the story had to be reported? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+it sounds possible → ___________
+to follow something back to its origin → ___________
+what happens because of something → ___________
+
+@FIG g-ladder | Four rungs from rumour to fact. You may report from the third; you can show from the fourth.
+@SUBHEAD Reading B | · from rumour to fact
+@READING From rumour to fact: four rungs
+**1. A rumour.** Somebody says it, and nobody can say who said it first. It might be true, and it is not yet reportable as a fact.
+**2. One source.** A person tells you directly, on the record. That is a claim with a name on it — still not a fact.
+**3. Two sources agree.** Two independent people who did not hear it from each other. Now you may report it, and say who.
+**4. A document.** A register, a notice, a dated photograph. Now you can show the reader what you saw.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which rung may you report from as a fact? Guess.
+@NUM
+______
+
+@EX 5F | Match the rung to the example.
+@MATCH
+1.  a rumour
+2.  one source
+3.  two sources agree
+4.  a document
+@@
+a)  a resident tells you directly, on the record
+b)  a screenshot with no name on it
+c)  a dated notice from the office
+d)  two neighbours who did not speak to each other
+
+@EX 5G | Which is the first rung you may report from, with a name? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+not yet proved → ___________
+a story that spreads without proof → ___________
+where something started → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with might, may, could, should or ought to.
+@NUM
+The gates ___________ be opened in an emergency.
+The screenshot ___________ be a real document used wrongly.
+A reader ___________ be told the difference.
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. Why is 'we do not know' the hardest sentence in journalism?
+@EX 5K | Which rung is hardest to reach when a story is moving fast? Say why.
+@EX 5L | Discuss. 'Everything around the false part was true.' Why does that make a claim dangerous?
+
+@PART 6 | Writing: careful copy | Two short pieces: a careful paragraph, and a correction.
+@FIG g-notes | Careful copy marks every claim: traced, untraced, confirmed, refused.
+@SUBHEAD Writing 1 | · a careful paragraph
+@LABEL MODEL | A model
+@WARMBOX
+CLAIMED: the gates of the Vara dam will be opened this week; the valley will flood
+SOURCE: a screenshot, first seen Thursday 21:40, origin not traced
+MAY BE TRUE: the dam has gates, and they could be opened in an emergency
+NOT CONFIRMED: any notice, any date, any official plan — the office would not say whether the gates could be opened at all
+ALREADY HAPPENED: animals moved upstream; one school kept children indoors
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line uses 'could' for a possibility? ___________
+Which line is the real news? ___________
+
+@LABEL PRODUCE | Write your note
+@EX 6B | Choose a claim. Write the five lines: claimed, source, may be true, not confirmed, already happened.
+@WHITE
+Claimed: ___________
+Source: ___________
+May be true: ___________
+Not confirmed: ___________
+Already happened: ___________
+
+@FIG g-model | A correction is a piece of journalism, not an apology note.
+@SUBHEAD Writing 2 | · a correction
+@LABEL MODEL | A model
+@WARMBOX
+CORRECTION · On Friday we reported that the upstream gates might be opened this week. The claim came from a screenshot whose origin we could not trace, and whose logo was taken from a document issued four years ago. There is no notice and no plan. We should have said in our first paragraph that the date in the message had already passed. We are sorry. Anyone who moved animals on the strength of it may contact us, and we will say so again as prominently as we said it first.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one 'might', one 'could' and one 'should have' in the correction.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the correction. Use: might · could · should · ought.
+@WHITE
+We reported that the gates ______ be opened. We ______ not trace the origin. We ______ have said so in the first paragraph. A correction ______ to be as prominent as the story.
+
+@LABEL PRODUCE | Write your correction
+@EX 6E | Turn your note into a short correction (4–5 sentences). Use might, could and should have.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This copy states a claim as fact and uses 'may to'. Correct both.
+@WHITE
+"The gates will be opened this week. The screenshot may to be genuine."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a careful piece. Write three lines: one possibility (might), one thing you could not do, one duty (ought to).
+@WHITE
+Possible: ___________
+Not traced: ___________
+Duty: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Is every unproved claim marked, and is the headline about consequences? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: how sure are you? | Say how likely something is, and what should be done. Use might, may, could, should, ought to.
+@FIG g-interview | Saying it out loud: what is possible, what is not likely, and what we owe the reader.
+@SUBHEAD A model dialogue | · weighing the claim
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | Is the screenshot genuine?
+Mira | It may be a real document, used wrongly. We could not trace its origin.
+Sofia | Could the gates actually be opened?
+Mira | They could, in an emergency. The office will not say.
+Sofia | So what do we write?
+Mira | What people did: families moved animals upstream. The claim goes lower down, marked unverified.
+Sofia | And if we are wrong?
+Mira | Then we correct it as prominently as we ran it. That is what we ought to do.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one 'may', one 'could' and one 'ought to' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with might, may, could or ought to.
+@NUM
+Is the screenshot genuine? → ___________
+Could the gates be opened? → ___________
+What should we do if we are wrong? → ___________
+
+@FIG g-introduce | Open with what you know, then what might be true, then what you will do.
+@EX 7C | Make a question with could, then answer it carefully.
+@NUM
+the gates / be opened / without notice → ________________________
+the claim / start / as a warning between neighbours → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Reporter | Say what is confirmed, what might be true, and what you could not trace.
+Editor | Ask: 'How sure are you?' and 'What should the headline say?'
+Observer | Listen. Did the reporter keep possibility and fact apart?
+
+@EX 7D | Choose a role from the table. Weigh the claim with your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a claim meeting: a reporter, an editor, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · the headline argument
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | 'Fears of flooding' is true. People are afraid.
+Mira | And a reader may finish the headline believing there will be a flood.
+Omar | We cannot write a headline about nothing happening.
+Mira | We can write one about what did happen: families moved animals because of an unverified claim.
+Omar | 'Unverified claim moves families upstream.' It is duller.
+Mira | It is duller and it is right. And we ought to say what the office would not answer.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the sentence Mira uses with 'may' about the reader.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use might, may or could for possibility, with no 'to'?
+use may not or might not for 'not likely'?
+use should or ought to for a duty?
+keep the unproved claim out of the headline?
+
+@EX 7G | Role-play arguing for a headline about consequences, not the claim. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your answers. Note one possibility, one thing you could not confirm, one duty.
+@EX 7I | Discuss. How would you tell an editor that a true headline is still misleading?
+
+@PART 8 | Ethics: giving a rumour oxygen | Repeating a claim to deny it still carries it further. So does debunking a person instead of a claim.
+@FIG g-code | Accuracy includes accuracy about your own doubt.
+@FIG u6-ethA | A headline that repeats a claim spreads it, even with 'claim' in front.
+@SUBHEAD A first case | · the headline that carries it
+@CASE The Post's traffic desk points out, correctly, that 'Fears of flooding in the Vara valley' will be read ten times more widely than 'Unverified claim moves families upstream'. More readers would then see the careful paragraphs underneath. But most people read only a headline, and the first version plants exactly the belief the piece exists to correct. The claim gets the audience; the correction gets the few who scroll on. The first version would also be quoted back at the newsroom for a year. The Code says: a true sentence that leaves a false impression is not accurate. What headline should the partners run?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'Fears of flooding in the Vara valley'  (b) 'Unverified claim moves families upstream'.   Choice: ______  Because ________________________
+A headline that is true and leaves a false impression is (a) acceptable if the article is careful  (b) not accurate.   Choice: ______
+
+@EX 8B | Carries the rumour, or contains it? Write C or N.
+@NUM
+'Unverified claim moves families upstream.' ______
+'Will the valley flood this week?' ______
+'No notice, no plan: what we traced and what we did not.' ______
+'Officials silent as flood fears grow.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: consequences · headline · impression · unverified.
+@WHITE
+Put the ______ in the headline, not the claim. Mark the claim ______ . Ask what ______ the ______ leaves.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Most readers see only a headline. What does that mean for careful reporting?
+@SUBHEAD A second case | · debunking a person
+@FIG u6-ethB | Debunk the claim. Naming the neighbour who forwarded it is not journalism.
+@CASE By Saturday, Dren has found the man who first posted the screenshot: a retired teacher upstream who believed it and sent it to a village group. Kalina Daily could name him, and the story would be strong — the origin, found, in a small town. But he invented nothing: he forwarded a real old document in fear, and he has neighbours who have already lost a great deal. Naming him would move the valley's anger from a claim to a person. Atlas Wire wants the origin in the copy; Dren wants his neighbour's name out of it. The Code says: debunk the claim, not the person. What do the partners publish?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) name the retired teacher  (b) describe the origin without the name.   Choice: ______  Because ________________________
+Naming someone who spread a rumour in good faith is (a) transparency  (b) a punishment the story did not need.   Choice: ______
+
+@EX 8F | Complete with: origin · invented · fear · name.
+@NUM
+Dren has found the ___________ of the screenshot.
+The teacher ___________ nothing.
+He forwarded it in ___________ .
+The partners keep his ___________ out.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why might naming the first sharer stop the next person from coming forward?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences describing the origin of a claim without naming anybody. Use may and could.
+@LABEL PRACTISE | One more
+@EX 8I | Debunks the claim, or punishes a person? Write C or P.
+@NUM
+'The logo came from a document issued four years ago.' ______
+'A retired teacher in the village started it.' ______
+'The date in the message had already passed.' ______
+'We publish his name so readers can judge.' ______
+
+@EX 8J | Discuss. Is there ever a case for naming the person who started a false claim?
+
+@PART 9 | Digital: the careful post | Online, you can say what you know, what you do not, and what people should do now.
+@FIG g-phonealert | A careful post is the fastest thing a newsroom can publish — if it is exact.
+@LABEL MODEL | A model post
+@WARMBOX
+UNVERIFIED · A screenshot claiming the Vara gates will be opened this week has circulated since Thursday. We cannot trace its origin; the logo is from a 2022 document and the date has passed. The Crossing Office says there is no plan, and would not say whether the gates could be opened in an emergency. We will update as soon as it does. — @AtlasWire with @KalinaDaily
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to its job.
+@MATCH
+1.  UNVERIFIED
+2.  we cannot trace its origin
+3.  the office says there is no plan
+4.  would not say whether the gates could be opened
+@@
+a)  what the body did say
+b)  the flag at the front
+c)  what it refused to say
+d)  what we could not do
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one 'could' and one thing the newsroom could not do. Write them.
+@NUM
+________________________
+
+@EX 9C | This post states a claim as fact and has no flag. Correct both.
+@WHITE
+"The gates are being opened this week. Move your animals now."
+
+@P
+________________________
+
+@FIG u6-sum | A good careful post answers: what is claimed, what is checked, what is refused, what next.
+@EX 9D | Write a careful post. Use one might or may, and one thing you could not confirm.
+@WHITE
+UNVERIFIED · ___________ . We could not ___________ . It ___________ be ___________ . We will update ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post flagging a claim you have seen. Use unverified.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) about consequences, not the claim.
+@EX 9G | A reader asks: 'So will it flood or not?' Write a short, honest reply. Use might and should.
+@WHITE
+________________________
+
+@EX 9H | A careful post can sound evasive. Write one line that is careful and still clear.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 what is checked, line 2 what people should do now.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. A correction reaches fewer people than the error. What follows from that for how you publish?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 7.
+@FIG g-website | The published piece: the claim marked, the consequences first, the correction promised.
+@EX 10A | Vocabulary. Complete with: rumour · unverified · plausible · speculation · origin · debunk · restraint · correction.
+@NUM
+The screenshot is still ___________ .
+A ___________ can frighten a valley.
+It was ___________ , which is why it spread.
+We keep ___________ out of the copy.
+Priya traced its ___________ .
+If it is false, we will ___________ it.
+Not publishing what you cannot prove is ___________ .
+A ___________ should be as prominent as the story.
+
+@EX 10B | Grammar. Complete with might, may or could.
+@NUM
+The gates ___________ be opened in an emergency.
+The screenshot ___________ be genuine; we do not know.
+___________ the claim have started as a warning?
+
+@EX 10C | Grammar. Make it less likely with may not or might not.
+@NUM
+The screenshot is genuine. → It ___________
+The valley will flood. → It ___________
+The office will answer. → It ___________
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with should or ought to.
+@NUM
+We ___________ say plainly what we do not know.
+A newsroom ___________ publish a correction quickly.
+We ___________ not repeat the claim in the headline.
+
+@EX 10E | Read and answer.
+@WHITE
+A screenshot claiming the gates will be opened has circulated since Thursday. Atlas Wire could not trace its origin; the logo is from an old document and the date has passed. The office says there is no plan, but would not say whether the gates could be opened in an emergency. Families upstream have moved animals, and that is what the headline reports.
+
+@NUM
+What could Atlas Wire not do? ___________
+What would the office not say? ___________
+What does the headline report? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can say what is possible with might, may and could.
+I can say how likely something is.
+I can give advice with should and ought to.
+I can write about a claim I cannot prove yet.
+
+@EX 10F | Reflect. Which part of Unit 6 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+It may to be genuine. → ________________________
+We should to publish a correction. → ________________________
+The gates could not be opened — it is not likely. → ________________________
+The valley will flood, maybe. → ________________________
+
+@EX 10H | Mixed review. Complete with might, could, should or ought to.
+@NUM
+The screenshot ___________ be a real document used wrongly.
+A reader ___________ be told the difference.
+The office ___________ to answer the question we asked.
+
+@EX 10I | Reflect. Write one sentence about something you are not sure of. Use might.
+
+@PART 11 | Assignment: a careful report | Put the unit together: report a claim you cannot prove.
+@FIG g-template | The assignment template — your careful report.
+@P
+**Your task. **A claim is spreading and you cannot prove it. Write a careful report (6–7 sentences). Say what is claimed and since when, what you could not trace, what might or may be true, what an official body said and would not say, and what people have already done. Put the consequences in your headline, not the claim. End with one sentence about what your newsroom should do if it turns out to be wrong.
+
+@FIG g-model | A model — use Reading A and the Writing 1 model to check the shape of your report.
+@WHITE
+Remember: might, may and could for possibility (no 'to'); may not or might not for 'not likely'; should and ought to for duty; the consequences in the headline; and the claim marked unverified.
+
+@CRITERIA Success criteria
+I use might, may or could correctly for possibility.
+I use may not or might not for what is not likely.
+I use should or ought to for what the newsroom owes its readers.
+My headline is about consequences, not the claim.
+I say exactly what I could not confirm.
+
+@P
+**Keep this. **In Unit 7, you write for the wire — the passive across tenses — because a wire sentence often has to say what was done before it can say who did it.
+
+@KEY Book 2 · Unit 6 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 a name and a date · 2 moving their animals (to higher ground) · 3 what they know, and plainly what they do not
+W2 | 1 F (she says it may be genuine) · 2 F (it says there is no plan — not a denial) · 3 T
+W3 | may: 'It may be genuine' · might: 'They might be, in an emergency' · should: 'We should write what we know'
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 unverified · 2 origin · 3 rumour · 4 circulate · 5 debunk · 6 caution
+1C | 1 trace the origin · 2 publish a correction · 3 flag a claim · 4 show restraint · 5 debunk a rumour
+1D | 1 proof · 2 certain · 3 haste · 4 spread
+1E | 1 circulated · 2 plausible · 3 unverified · 4 origin · 5 caution
+1F | 1 hedge · 2 trace · 3 consequence · 4 restraint
+1G | rumour · screenshot · flagged · correction · consequences
+1J | doubt · likely · unlikely · hedge · speculation
+2A | 1 could / might · 2 may / might · 3 Could · 4 might
+2B | 1 It may not be genuine. · 2 They might not be opened this week.
+2C | 1 should · 2 ought to · 3 should
+2D | 1 The gates could be opened in an emergency. · 2 We ought to say what we do not know.
+2G | 1 It may be genuine. · 2 We should say what we do not know.
+3A | 1 that the gates will be opened this week and the valley will flood · 2 trace the screenshot's origin · 3 because people are already acting on it (animals moved upstream)
+3B | could: 'they could be opened in an emergency' · may/might: 'whatever the claim turns out to be' / 'it may be genuine' · duty: 'we have asked for one'
+3C | 1 The gates could be opened in an emergency. · 2 The screenshot may not be genuine. · 3 We should say what is not confirmed.
+3D | claims · may · could · should
+3E | 1 What is claimed, and since when. · 2 What we have not been able to confirm. · 3 What the office says, and what it does not say. · 4 Why we are reporting it: the consequences.
+3H | 'no plan' describes today's intention; it does not say whether the thing is possible at all — a denial would answer the possibility
+4B | 1 Thursday, 21:40 · 2 the date had already passed, and the logo came from an old document · 3 a real document used wrongly · 4 whether the gates could be opened at all
+4C | 1 P · 2 U · 3 D
+4D | Earliest copy = Thursday 21:40, a group of 200 · Wrong = the date has passed, the logo is four years old · Most likely = a real document used wrongly
+4F | 1 could · 2 may / might · 3 should · 4 ought
+4G | could: 'they could be opened' · might: 'there might be' · ought to: 'we ought to say what the office would not say'
+4H | people are afraid, but the headline leaves a reader expecting a flood
+4I | might · may / could · should · ought to
+4J | the fact is true; the possibility it implies is not supported
+4K | The verification call = the origin, the logo, the date, the most likely explanation · The desk call = the headline, and what the piece implies
+5B | 1 F · 2 T · 3 F · 4 F
+5C | 1 the dam does have gates, and they could be opened in an emergency · 2 the date had passed; the logo was four years old · 3 the consequences were real: animals moved, children kept indoors
+5D | 1 plausible · 2 trace · 3 consequences
+5F | a rumour → 'a screenshot with no name on it' · one source → 'a resident tells you directly, on the record' · two sources agree → 'two neighbours who did not speak to each other' · a document → 'a dated notice from the office'
+5G | Rung 3
+5H | 1 unverified · 2 rumour · 3 origin
+5I | 1 could · 2 may / might · 3 ought to
+6A | 1 the MAY BE TRUE line · 2 the ALREADY HAPPENED line
+6C | might: 'the gates might be opened' · could: 'whose origin we could not trace' · should have: 'we should have said in our first paragraph'
+6D | might · could · should · ought
+6F | 'The gates may be opened this week, according to an unverified screenshot. The screenshot may be genuine.'
+7A | may: 'It may be a real document, used wrongly' · could: 'They could, in an emergency' · ought to: 'That is what we ought to do'
+7B | 1 It may be a real document, used wrongly. · 2 They could be, in an emergency. · 3 We ought to correct it as prominently as we ran it.
+7C | 1 Could the gates be opened without notice? — They could, in an emergency. · 2 Could it have started as a warning? — It may have; we cannot prove it.
+7F | 'A reader may finish the headline believing there will be a flood.'
+8A | 1 (b) 'Unverified claim moves families upstream' · 2 (b) not accurate
+8B | 1 N · 2 C · 3 N · 4 C
+8C | consequences · unverified · impression · headline
+8E | 1 (b) describe the origin without the name · 2 (b) a punishment the story did not need
+8F | 1 origin · 2 invented · 3 fear · 4 name
+8I | 1 C · 2 P · 3 C · 4 P
+9A | 'UNVERIFIED' → the flag at the front · 'we cannot trace its origin' → what we could not do · 'the office says there is no plan' → what the body did say · 'would not say whether the gates could be opened' → what it refused to say
+9B | could: 'whether the gates could be opened in an emergency' · could not: 'we cannot trace its origin'
+9C | 'UNVERIFIED · A screenshot claims the gates will be opened this week. We cannot trace its origin and there is no official notice.'
+10A | 1 unverified · 2 rumour · 3 plausible · 4 speculation · 5 origin · 6 debunk · 7 restraint · 8 correction
+10B | 1 could / might · 2 may / might · 3 Could
+10C | 1 It may not be genuine. · 2 It might not flood. · 3 It may not answer.
+10D | 1 should · 2 ought to · 3 should
+10E | 1 trace the screenshot's origin · 2 whether the gates could be opened in an emergency · 3 that families upstream have moved animals
+10G | 1 It may be genuine. · 2 We should publish a correction. · 3 The gates may not be opened — it is not likely. · 4 The valley might flood.
+10H | 1 may / might · 2 ought to · 3 ought
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, the Vara dam, the screenshot and everyone in the stories are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 6 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Verification & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + partners in three countries · fictional agency, factual backdrop.

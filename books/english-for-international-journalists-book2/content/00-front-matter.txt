@@ -1,0 +1,59 @@
+@FIG g-partners | Four newsrooms, one story — the partnership this book is about.
+
+@TITLE English for Journalists
+@SUBTITLE International Edition · Book 2
+@CENTER
+**Across Borders**
+Student's Book
+*A free press, without borders.*
+CEFR lower B1 → medium B1   ·   10 units   ·   Atlas Wire, and the newsrooms it works with
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true, dated and attributed on the page. Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post, their staff, the town of Kalina, the river Vara and the people in the stories are invented, for practice. Real people and real outlets are only ever in true, sourced facts — never in an invented quote.
+
+@DIVIDER
+@BIGLABEL WELCOME | About Book 2
+@P
+English for Journalists, Book 2, continues the newsroom English course. In Book 1, you learned to report a story with Atlas Wire, an invented independent news agency with a world desk in Geneva, and to carry it from the crossing at Kalina to a front page. In Book 2, that story grows: Atlas Wire begins to work with other newsrooms — Kalina Daily, the local paper in the town itself; the River Basin Network, a regional network; and the Meridian Post, a large international daily — and learns to make one story with partners who are bigger and smaller than itself, in English, without losing anybody's truth.
+The course climbs from lower B1 to medium B1 — the first half of B1. Each unit teaches one new piece of grammar and one part of cross-border journalism: recapping a running story, briefing a colleague abroad, planning across time zones, filing to a foreign desk, setting the conditions for publication, weighing a claim, writing for the wire, explaining a place to a distant reader, co-writing, and finally co-producing a package for the world.
+
+@H The cross-border strand
+@P
+About a fifth of the book is the **Across Borders** strand: in every unit, at least one part involves working with a partner in another country, and Units 4, 7 and 10 are wholly cross-border. It prepares a journalist to work inside an international partnership — with the outlets above them, who reach further, and the outlets below them, whose story it is.
+
+@H How to use this book
+@NUM
+Each unit has a Warm-Up and eleven parts: Words, Grammar, a Skill, Listening, Reading, Writing, Speaking, Ethics, Digital, Review, and an Assignment.
+Every part builds up step by step: you see a model, notice how it works, practise it, and then produce your own.
+Grammar is taught half as controlled practice and half in your own words. Every part mixes exercises you can check with open tasks to discuss and create.
+The Ethics part in every unit builds the Code — accurate, fair, independent, and kind — now tested across borders, and in both directions.
+The Answer Key at the end of each unit gives the answers to the closed exercises. Open tasks (discussion, role-play, and your own writing) are marked.
+
+@H The newsroom, and the newsrooms it works with
+@FIG g-team | The Atlas Wire team you meet in every unit. These people, and the partners abroad, are invented, for practice.
+
+@DIVIDER
+@BIGLABEL CONTENTS | The ten units
+@COLS
+**Unit 1   **Back on the Story
+present perfect vs past simple (+ ever/never/just/already/yet)
+**Unit 2   **The Backstory
+used to / would · past continuous
+**Unit 3   **Planning the Coverage
+future: will / going to / present continuous
+**Unit 4   **Across the Desk
+reported speech · say/tell · according to
+**Unit 5   **If We Confirm It
+zero and first conditionals · time clauses
+@@
+**Unit 6   **How Sure Are You?
+might/may/could · should/ought to
+**Unit 7   **For the Wire
+the passive across tenses
+**Unit 8   **The Bigger Picture
+comparatives and superlatives · as…as, too/enough
+**Unit 9   **Joining It Up
+quantifiers, articles and connectors
+**Unit 10   **Across Borders: The Co-Production
+gerunds and infinitives · the capstone
+
+@NOTEP *Every unit also has a Warm-Up, eleven parts, ~28 illustrations, and a full Answer Key. The Kalina story runs through all ten — from being noticed abroad to a full cross-border co-production.*

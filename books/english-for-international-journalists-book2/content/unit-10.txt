@@ -1,0 +1,887 @@
+@UNITHEAD BOOK 2 · UNIT 10 | Across Borders: The Co-Production | Beat · Capstone & Across Borders (wholly) | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+use verb + -ing (gerunds) correctly
+use verb + to + infinitive correctly
+choose between -ing and to, and know when it changes the meaning
+plan and publish a cross-border co-production
+
+@FIG g-team | The Atlas Wire team on launch morning — one package, four countries, seven o'clock.
+@STORY The co-production goes out. | This unit is wholly cross-border, and it is the capstone. At 07:00 GMT on the last Sunday of the month, four newsrooms publish The Seven Crossings: a long read, an audio piece, a subtitled film, a data page and seven photographs. Everything in this book is in it. What is left is the hardest part: deciding what to do after publishing, and agreeing to keep doing it. (Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post and everyone in the stories are invented, for practice.)
+
+@WARMUP Launch morning | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference at six — an hour before the world sees it.
+@WARMBOX
+"We agreed to publish at seven, and we are publishing at seven," Ana says. "Nobody waits for anybody."
+Leila finishes checking the subtitles. "The film is ready. I have stopped worrying about the data page; Priya has rechecked it twice."
+"And afterwards?" Mira asks. "People in Kalina will be reading about themselves by breakfast."
+"That is why we agreed to plan the aftercare before launching," Ana says. "Dren is going to the village at nine. We have promised to moderate the comments for a week, and we intend to keep that promise."
+"Then I will stop talking," Mira says, "and start publishing."
+
+@EX W1 | Answer the questions.
+@NUM
+What time did the partners agree to publish? ___________
+What has Leila stopped worrying about, and why? ___________
+What have they promised to do for a week? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+One partner is waiting for the others. ______
+Priya has rechecked the data page twice. ______
+The aftercare was planned before the launch. ______
+
+@EX W3 | Find two gerunds (-ing) and two infinitives (to + verb) in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+What do you enjoy most about finishing a piece of work?
+What have you promised to do that you intend to keep doing?
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'People will be reading about themselves by breakfast.' What duty does that create?
+
+@PART 1 | The words of publishing together | The words for a co-production, a launch and what comes after.
+@FIG u10-words | Four key words — co-production, package, launch, aftercare.
+@H The words
+@VOCAB
+co-production | a piece made by several newsrooms
+package | one story in several forms
+launch (n) | the moment of publication
+simultaneous | happening at the same time
+localise | to adapt a piece for one audience
+syndicate | to supply a piece to other outlets
+licence (n) | permission to republish
+credit line | the words naming every outlet
+metrics | the numbers showing how a piece did
+reach (n) | how many people saw it
+impact | the change a story makes
+follow-up | the next story after one
+debrief (n) | a meeting to review what happened
+aftercare | looking after sources after publication
+moderation | managing readers' comments
+transcript | the written version of audio
+subtitle (v) | to add written words to a film
+accountability | answering for what you publish
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  co-production
+2.  package
+3.  launch
+4.  syndicate
+5.  licence
+6.  metrics
+7.  impact
+8.  debrief
+9.  aftercare
+10.  accountability
+@@
+a)  one story in several forms together
+b)  a piece made by several newsrooms together
+c)  the moment of publication
+d)  to supply a piece to other outlets
+e)  permission to republish
+f)  the numbers that show how a piece performed
+g)  the change a story makes
+h)  a meeting to review what happened
+i)  looking after sources after publication
+j)  answering for what you publish
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | co-production · package · launch · simultaneous · aftercare · moderation
+@NUM
+The piece is a ___________ by four newsrooms.
+The ___________ has five parts, including a film.
+The ___________ is at 07:00 GMT.
+Publication is ___________ in four countries.
+The partners planned the ___________ before publishing.
+They agreed to pay for a week of ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  plan the
+2.  agree a
+3.  hold a
+4.  measure the
+5.  keep the
+@@
+a)  launch
+b)  licence
+c)  debrief
+d)  reach
+e)  credit line
+
+@EX 1D | Circle the word that is different.
+@NUM
+launch · publication · release · retraction
+reach · impact · metrics · guess
+localise · adapt · translate · invent
+debrief · review · assess · ignore
+
+@FIG g-package | One package: a long read, audio, film, data and photographs — published in one hour.
+@EX 1E | Complete the paragraph. Use: package · simultaneous · localised · credit line · metrics.
+@WHITE
+The ___________ went out at seven, ___________ in four countries. Each partner ___________ its own version, but nobody changed the ___________ . The ___________ came in by Monday.
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+the written version of audio → ___________
+permission to republish → ___________
+the next story after one is published → ___________
+to add written words to a film → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: syndicated · licence · follow-up · transcript · subtitled.
+@WHITE
+The film was ___________ in three languages and a full ___________ was published with the audio. The piece was ___________ to forty outlets under a ___________ that keeps every credit. A ___________ is planned for the spring.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What would you want in a package about your own town?
+What does your work owe people after it is published?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: debrief · impact · reach · accountability · moderation.
+@WHITE
+The ___________ was eleven million. The real ___________ was one reopened school. A week of ___________ cost money, the ___________ took two hours, and the ___________ is still ours.
+
+@EX 1K | Creative. Write two sentences about a project you would like to publish. Use one gerund and one infinitive.
+
+@PART 2 | Grammar: -ing and to | Verbs followed by -ing; verbs followed by to; and the ones that take both.
+@FIG u10-gA | Some verbs take -ing. Some take to. A few take both.
+@GRAMMAR 1 · verb + -ing (the gerund)
+After {{enjoy, avoid, finish, keep, suggest, consider, risk, mind, practise}}: "We {{finished checking}} the data."
+After every {{preposition}}: "before {{publishing}}", "instead of {{waiting}}", "good at {{explaining}}".
+As a subject: "{{Publishing}} together is harder than publishing alone."
+
+@GRAMMAR 2 · verb + to + infinitive
+After {{decide, agree, promise, refuse, manage, offer, hope, plan, learn, intend, want}}: "We {{agreed to publish}} at seven."
+After adjectives: "It is hard {{to explain}}." With {{too}} / {{enough}}: "too late {{to change}}", "ready {{enough to launch}}".
+[[Not 'agree publishing']]: say *agreed to publish*, NOT *agreed publishing*.
+
+@FIG u10-gB | stop doing · stop to do — the same verb, two different facts.
+@GRAMMAR 3 · verbs that take both
+No real change: {{start, begin, continue}} — "It {{started raining}}" = "It {{started to rain}}."
+A real change: {{stop}} {{-ing}} = end it; {{stop to}} = pause in order to.
+{{remember to}} = not forget; {{remember -ing}} = have a memory. {{try to}} = attempt; {{try -ing}} = experiment.
+
+@FIG u10-gC | -ing, to, or both — know which verb you have.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with the -ing form.
+@NUM
+We finished ___________ (check) the data at five.
+Nobody suggested ___________ (wait) for the Post.
+They avoided ___________ (name) the record-keeper.
+Dren kept ___________ (ask) about the second ferry.
+
+@EX 2B | Complete with to + infinitive.
+@NUM
+The partners agreed ___________ (publish) at seven.
+Omar promised ___________ (restore) the credit.
+Priya refused ___________ (sign) off on one source.
+We intend ___________ (moderate) the comments for a week.
+
+@EX 2C | -ing or to? Choose and write the verb.
+@NUM
+We decided ___________ (hold) the figure.
+It is worth ___________ (read) the transcript.
+She managed ___________ (reach) the far bank.
+Before ___________ (launch) , check the subtitles.
+
+@EX 2D | Explain the difference.
+@NUM
+We stopped moderating the comments. / We stopped to moderate the comments. → ________________________
+I remember filing it. / I remembered to file it. → ________________________
+
+@H Your own words
+@EX 2E | Write two things you enjoy or avoid doing at work. Use -ing.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two things you have agreed or promised to do. Use to + infinitive.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (-ing / to).
+@NUM
+They agreed publishing at seven. → ________________________
+We finished to check the data. → ________________________
+
+@EX 2H | Your own words. Write one sentence with 'stop -ing' and one with 'stop to', about your own work.
+@NUM
+________________________
+
+@PART 3 | Planning a co-production | A co-production plan says what is being made, by whom, when it goes out — and what happens afterwards.
+@FIG g-partners | Four newsrooms, one package. The plan has to hold after publication too.
+@FIG u10-skill | A co-production plan: the parts, the partners, the hour, and the aftercare.
+@LABEL MODEL | A model co-production plan
+@WARMBOX
+"The package has five parts. Kalina Daily is writing the Veren section; the River Basin Network is making the audio; we are building the data page; the Meridian Post is editing the English and printing it. Everybody agreed to deliver by the 22nd.
+We intend to publish simultaneously at 07:00 GMT. Each partner may localise its own version, but nobody may change the credit line, and the licence keeps every name on every republication.
+After launching, we have promised to moderate the comments for a week and to hold a debrief on the Tuesday. Dren is going to the village at nine on Sunday morning. Nobody stops working when the piece goes out."
+
+@LABEL NOTICE | Notice the plan
+@FIG u10-read | Publishing is the middle of the work, not the end of it.
+@EX 3A | Answer about the plan.
+@NUM
+Who is making the audio? ___________
+What may each partner change, and what may it not? ___________
+What have the partners promised to do after launching? ___________
+
+@EX 3B | Find two gerunds and two infinitives in the plan. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the plan
+@FIG g-fivew | A co-production plan answers one more question: and afterwards?
+@EX 3C | Write the sentence with a gerund or an infinitive.
+@NUM
+the partners / agree / deliver / by the 22nd → ________________________
+after / launch / we / moderate the comments → ________________________
+nobody / may change / the credit line (use 'without asking') → ________________________
+
+@EX 3D | Complete the plan. Use: to publish · launching · to moderate · building.
+@WHITE
+We are ______ the data page. We intend ______ at 07:00 GMT. After ______ , we have promised ______ the comments for a week.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the co-production plan in order. Number the steps 1–4.
+@NUM
+Publishing simultaneously at the agreed hour. ______
+Agreeing who makes which part. ______
+The aftercare and the debrief. ______
+Delivering every part by the deadline. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a story. Write a co-production plan (4–5 sentences): what is being made and by whom, what everyone has agreed to deliver, the hour, and what you have promised to do afterwards.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why should the aftercare be agreed before the launch, not after?
+@EX 3H | Why is 'we agreed to publish' right, and 'we agreed publishing' wrong? Explain.
+@EX 3I | Discuss. Which part of a package is hardest to make across borders? Say why.
+
+@PART 4 | Listening: launch day | Two audios. Listen for the plans, the promises, and what comes next.
+@FIG g-desk | Audio 10.1 — six o'clock, an hour before four countries publish.
+@SUBHEAD Listening A | · the hour before
+@LABEL MODEL | Audio 10.1 — Ana and Mira
+@DIALOGUE
+Ana | Everything in? The Post finished editing at four.
+Mira | Everything. Leila has stopped worrying about the subtitles, and Priya has rechecked the data page twice.
+Ana | Good. We agreed to publish at seven, and nobody waits.
+Mira | What if a partner is late?
+Ana | Then we publish and they join. We promised not to hold the others, and we intend to keep that.
+Mira | And the aftercare?
+Ana | Dren is going to the village at nine. We have agreed to moderate the comments for a week, and to hold a debrief on Tuesday.
+Mira | Then I will stop talking and start publishing.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what do you think the last check before launch will be? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+When did the Post finish editing? ___________
+What happens if a partner is late? ___________
+What is Dren doing at nine? ___________
+What two things have the partners agreed to do afterwards? ___________
+
+@EX 4C | Gerund, infinitive, or both possible? Write G, I, or B.
+@NUM
+"The Post finished editing at four." ______
+"We agreed to publish at seven." ______
+"It started raining / to rain." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+The hour: ___________
+If a partner is late: ___________
+The aftercare: ___________
+
+@FIG g-studio | Audio 10.2 — the Monday afterwards, and the questions nobody plans for.
+@SUBHEAD Listening B | · the day after
+@LABEL MODEL | Audio 10.2 — Mira and Dren
+@DIALOGUE
+Dren | Eleven million people read about Veren yesterday. Today I am the only journalist here.
+Mira | What do the eleven households need?
+Dren | Someone to keep answering the phone. Two of them have stopped sleeping; one has been asked to appear on television.
+Mira | We agreed to moderate for a week. I will ask for three.
+Dren | Thank you. And there is an award entry. The Post has entered it under its own name.
+Mira | That is being corrected today. The entry goes in under all four, or it does not go in.
+Dren | I would rather win nothing than see one name on it.
+Mira | So would I. Winning is not the point; keeping the partnership is.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what problem do you think the day after will bring? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Dren says someone must keep ___________ (answer) the phone.
+Two households have stopped ___________ (sleep) properly.
+Mira has agreed ___________ (ask) for three weeks.
+The award entry goes in under ___________ four names.
+
+@EX 4G | Which forms do you hear? Write two gerunds and two infinitives.
+@NUM
+________________________
+
+@EX 4H | Answer. What does Mira mean by 'winning is not the point'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: to publish · moderating · to ask · launching.
+@WHITE
+The partners agreed ______ at seven. After ______ , they kept ______ the comments. Mira has agreed ______ for three weeks instead of one.
+
+@EX 4J | The reach was eleven million; the aftercare was one reporter. What does that tell you about partnerships?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+Launch morning is about: ___________
+The day after is about: ___________
+
+@EX 4L | Discuss. Which of the two calls is the more important one? Say why.
+
+@PART 5 | Reading: seven o'clock, four countries | Two readings. Read for the launch, and for what a newsroom owes after publishing.
+@FIG g-reach | Eleven million readers. Eleven households. Both numbers are the story.
+@SUBHEAD Reading A | · the launch, and the morning after
+@READING Seven o'clock: publishing The Seven Crossings
+At 07:00 GMT on the last Sunday of October, four newsrooms published the same investigation. The package had five parts: a long read, an audio piece, a subtitled film, a data page and seven photographs. By noon it had been republished by forty outlets, under a licence that keeps every partner's name on every copy.
+
+"Publishing together is much harder than publishing alone, and it is the only way this story could exist," says Ana Ferreira of Atlas Wire. "No single newsroom could have reported seven crossings in four countries. We needed to be four."
+
+The reach was eleven million. The partners had agreed to measure something else as well. "Metrics tell you who saw it," says Omar Faris of the Meridian Post. "They do not tell you what changed. We decided to publish a follow-up in the spring, before we knew whether we would want to."
+
+The hardest part began the next morning. Veren, the village of eleven households, had led the piece, and by Monday its residents were being telephoned by broadcasters in three countries. Only one journalist was there: Dren Markaj of Kalina Daily, who had agreed to go at nine on Sunday and was still going at six on Wednesday.
+
+"That is what aftercare means, and it is why we plan it before launching," he says. "Eleven million people finished reading and went to lunch. I live twenty minutes away."
+
+The debrief was held on the Tuesday. The partners agreed to extend moderation to three weeks, to pay for it jointly, and to correct an award entry submitted in one outlet's name. "The work is four newsrooms' work," Ines Duarte of the River Basin Network says. "So is the credit, and so is everything that comes afterwards."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: what do you think 'seven o'clock' refers to? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+The package had five parts. ______
+The licence lets outlets drop a partner's name. ______
+The reach was eleven million. ______
+Moderation was extended from one week to three. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why does Ana say they 'needed to be four'? ___________
+What do metrics not tell you? ___________
+Why was Dren still working on the Wednesday? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+looking after sources after publication → ___________
+the numbers that show how a piece performed → ___________
+a meeting to review what happened → ___________
+
+@FIG g-credit | One licence, four names. The credit travels with every copy.
+@SUBHEAD Reading B | · after you publish
+@READING Four rules for after publication
+**1. Plan the aftercare before launching.** Who answers the phone, for how long, and who pays. The people in the story cannot move on.
+**2. Keep the credit on every copy.** Write the licence so republishing means keeping every name. A credit that survives syndication is worth most.
+**3. Measure what changed, not only who looked.** Metrics count readers; a follow-up asks what is different. Agree it before you know the answer.
+**4. Share everything that comes afterwards.** Awards, money, follow-ups and complaints belong to all the partners. If an entry carries one name, it is the wrong entry.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: who do you think should pay for moderation? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  plan the aftercare
+2.  keep the credit
+3.  measure what changed
+4.  share what comes afterwards
+@@
+a)  'a follow-up agreed before you know the answer'
+b)  'the entry goes in under all four names'
+c)  'who answers the phone, for how long, and who pays'
+d)  'republishing means keeping all four names'
+
+@EX 5G | Which rule is about money as well as credit? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+one story in several forms together → ___________
+permission to republish → ___________
+to supply a piece to other outlets → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with a gerund or an infinitive.
+@NUM
+Publishing together is harder than ___________ (publish) alone.
+They decided ___________ (publish) a follow-up in the spring.
+We plan the aftercare before ___________ (launch) .
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. 'Eleven million people finished reading and went to lunch.' What is Dren's point?
+@EX 5K | Which of the four rules would be hardest to agree with a much bigger partner? Say why.
+@EX 5L | Discuss. 'So is the credit, and so is everything that comes afterwards.' Do you agree?
+
+@PART 6 | Writing: the plan and the note | Two short pieces: a co-production plan, and a note to partners after publication.
+@FIG g-notes | The plan on one page: the parts, the hour, the licence, the aftercare.
+@SUBHEAD Writing 1 | · a co-production plan
+@LABEL MODEL | A model
+@WARMBOX
+PACKAGE: long read · audio · subtitled film · data page · seven photographs
+WHO MAKES WHAT: Kalina Daily — the Veren section · RBN — audio · Atlas Wire — data · the Meridian Post — English edit and print
+DELIVERY: everybody has agreed to deliver by the 22nd
+LAUNCH: simultaneous, 07:00 GMT; localising allowed, changing the credit line not allowed
+AFTERWARDS: moderation for one week (extendable), a debrief on Tuesday, a follow-up in the spring
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line uses a gerund after 'allowed'? ___________
+Which line is about what happens after publication? ___________
+
+@LABEL PRODUCE | Write your plan
+@EX 6B | Choose a story and two partners. Write the five lines: package, who makes what, delivery, launch, afterwards.
+@WHITE
+Package: ___________
+Who makes what: ___________
+Delivery: ___________
+Launch: ___________
+Afterwards: ___________
+
+@FIG g-model | A note to partners after publication: what happened, and what we now owe.
+@SUBHEAD Writing 2 | · a note after publication
+@LABEL MODEL | A model
+@WARMBOX
+Dear all,
+Thank you for publishing on time. The reach was eleven million, and forty outlets have republished the package with all four names intact.
+Dren has been in Veren since Sunday morning and intends to keep going this week. I would like to extend moderation from one week to three and to pay for it from the joint budget. I have also asked the Post to correct the award entry: it goes in under all four names, or not at all.
+We agreed to publish a follow-up in the spring. I suggest holding the debrief on Tuesday, before anyone starts forgetting.
+Mira
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find two gerunds and two infinitives in the note.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the note. Use: to extend · holding · publishing · to keep.
+@WHITE
+Thank you for ______ on time. Dren intends ______ going this week. I would like ______ moderation to three weeks. I suggest ______ the debrief on Tuesday.
+
+@LABEL PRODUCE | Write your note
+@EX 6E | Turn your plan into a note to partners after publication (4–5 sentences). Use two gerunds and two infinitives.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This note uses the wrong forms after 'agreed' and 'finished'. Correct both.
+@WHITE
+"We agreed publishing at seven, and we finished to check the data at five."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan the aftercare. Write three lines: one thing you have promised to do, one thing you will keep doing, one thing you suggest holding.
+@WHITE
+Promised to: ___________
+Keep: ___________
+Suggest: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Does the plan say who pays for the aftercare, and does the licence keep every name? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: agreeing the whole project | Agree a co-production and what follows it. Use gerunds and infinitives.
+@FIG g-interview | Agreeing the project out loud: the parts, the hour, and the week after.
+@SUBHEAD A model dialogue | · agreeing the co-production
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | What have the four of you agreed to make?
+Mira | Five parts: a long read, audio, a subtitled film, a data page and photographs.
+Sofia | And publishing?
+Mira | Simultaneously, at 07:00 GMT. Localising is allowed; changing the credit line is not.
+Sofia | What happens if someone is late?
+Mira | We publish. We promised not to hold the others.
+Sofia | And afterwards?
+Mira | We plan the aftercare before launching. Moderation for a week, a debrief on Tuesday, and a follow-up agreed in advance.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find two gerunds and two infinitives in the dialogue. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with a gerund or an infinitive.
+@NUM
+What / the partners / agree / make? → ___________
+What / be allowed / and / not allowed? → ___________
+When / you / plan / the aftercare? → ___________
+
+@FIG g-introduce | Open a project call with what everyone has agreed to do.
+@EX 7C | Make a question with a gerund or an infinitive, then answer it.
+@NUM
+you / finish / check / the data → ________________________
+the partners / promise / moderate / the comments → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Coordinator | Say what has been agreed: the parts, the hour, the licence, the aftercare.
+Partner | Ask: 'What are we allowed to change?' and 'Who pays for the moderation?'
+Observer | Listen. Did every verb take the right form — -ing or to?
+
+@EX 7D | Choose a role from the table. Agree the whole project with your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play a co-production call: a coordinator, a partner, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · the award entry
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | The entry has gone in under the Post's name. The system would not accept four.
+Mira | Then we will stop entering until it does. Winning under one name is worse than not winning.
+Omar | I agree, in fact. I have asked them to change the form.
+Mira | Thank you. And if they refuse?
+Omar | Then we withdraw. I would rather explain withdrawing than explain the byline.
+Mira | Dren said something similar. He would rather win nothing than see one name on it.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the sentence Mira uses with 'stop -ing' about the award.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+use -ing after enjoy, finish, avoid, suggest and prepositions?
+use to + infinitive after agree, promise, decide and intend?
+use 'stop -ing' and 'stop to' with the right meanings?
+say what happens after publication, not only before?
+
+@EX 7G | Role-play insisting that a credit or an entry carries every partner's name. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your call. Note one thing you have agreed to do, one thing you will keep doing, one thing you refuse to do.
+@EX 7I | Discuss. How would you explain to a big partner that a shared credit is worth more than a prize?
+
+@PART 8 | Ethics: after the launch | Publishing is the middle of the work. What a partnership does afterwards is what it was really worth.
+@FIG g-code | The Code does not end at publication. Neither does the partnership.
+@FIG u10-ethA | Eleven million readers moved on. Eleven households could not.
+@SUBHEAD A first case | · the morning after
+@CASE By Monday, broadcasters in three countries are telephoning Veren, and one family has been invited onto television. Nobody did anything wrong: the piece was accurate, fair and strong, and the attention is the consequence of its being read. But eleven households did not ask to become the most-read village in the basin, and the only journalist on the ground is Dren, who has a weekly paper to produce. Atlas Wire planned a week of moderation; three weeks is what the week after actually needs. The Code says: the duty starts at publication, it does not end there. What do the partners agree to do?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) keep to the week that was planned  (b) extend moderation to three weeks and pay for it jointly.   Choice: ______  Because ________________________
+Leaving the aftercare to the local partner is (a) practical  (b) passing the cost to the smallest newsroom.   Choice: ______
+
+@EX 8B | Takes the duty, or passes it on? Write T or P.
+@NUM
+'We will extend moderation and pay from the joint budget.' ______
+'Our part is finished; the piece is published.' ______
+'Dren is there, so he can handle it.' ______
+'Two of us will share the calls this week.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: before · afterwards · pays · starts.
+@WHITE
+Plan the aftercare ______ launching. Say who ______ for it. Share everything that comes ______ . The duty ______ at publication.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why does attention cost the smallest partner most?
+@SUBHEAD A second case | · the entry with one name
+@FIG u10-ethB | An award with one name on it is a smaller thing than the work it is for.
+@CASE The Post's entry for a major award has gone in under its own name, because the form accepts only one outlet. The reasoning is administrative, not greedy, and the Post did most of the editing and all of the printing. But the Veren section was reported alone by a man who still lives there, the audio was made in another country, and the data page took three weeks. An award is a record of who did the work, and this one would be wrong for ever. The Code says: the credit is the partnership's, or it is nobody's. What should the partners do if the form cannot take four names?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) let it stand — the form only takes one  (b) ask for the form to change, and withdraw if it cannot.   Choice: ______  Because ________________________
+An entry under one name is (a) an administrative detail  (b) a permanent record that is wrong.   Choice: ______
+
+@EX 8F | Complete with: form · withdraw · record · alone.
+@NUM
+The ___________ accepts only one outlet.
+Dren reported the Veren section ___________ .
+An award is a ___________ of who did the work.
+If the form cannot change, the partners will ___________ .
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Why would Dren rather win nothing than see one name on the entry?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences to an awards body asking it to accept four names. Use an infinitive and a gerund.
+@LABEL PRACTISE | One more
+@EX 8I | Shares the work's credit, or takes it? Write S or T.
+@NUM
+'The entry goes in under all four names.' ______
+'We entered it ourselves; we did the editing.' ______
+'The licence keeps every name on every copy.' ______
+'Our masthead is the one readers know.' ______
+
+@EX 8J | Discuss. A partnership of unequal newsrooms published one piece. What makes it equal, in the end?
+
+@PART 9 | Digital: launching online | Online, a co-production launches in one hour in four places. Every post has to carry all four names.
+@FIG g-phonealert | One hour, four handles, one package. The credit is part of the alert.
+@LABEL MODEL | A model launch post
+@WARMBOX
+OUT NOW · THE SEVEN CROSSINGS · A year after one crossing reopened, four newsrooms went to all seven. A long read, an audio piece, a subtitled film and a data page. Reported together by @AtlasWire, @KalinaDaily, @RiverBasinNet and @MeridianPost. Republishing is welcome — keeping all four names is the licence.
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to its job.
+@MATCH
+1.  OUT NOW
+2.  a long read, audio, film, data
+3.  Reported together by…
+4.  keeping all four names is the licence
+@@
+a)  the four credits
+b)  the launch flag
+c)  the condition on republishing
+d)  the parts of the package
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find one gerund and one infinitive (or a gerund as subject) in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post uses the wrong forms and drops two partners. Correct both.
+@WHITE
+"We are proud to publishing our investigation. Reported by @AtlasWire and @MeridianPost."
+
+@P
+________________________
+
+@FIG u10-sum | A good launch post answers: what it is, what is in it, who made it, and what republishing requires.
+@EX 9D | Write a launch post. Use one gerund, one infinitive and all your partners' names.
+@WHITE
+OUT NOW · ___________ . We set out ___________ . ___________ is welcome — ___________ is the licence. — ___________
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line launch post for a project of your own. Name every partner.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) for a cross-border co-production.
+@EX 9G | A reader asks: 'Why did four newsrooms do this together?' Write a short reply. Use a gerund as the subject.
+@WHITE
+________________________
+
+@EX 9H | A launch post can lose a partner's name when it is shared. Write one line that keeps all four.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 the launch, line 2 what happens after publication.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. The post travels further than the piece. What must it never leave out?
+
+@PART 10 | Review & Can-Do | Check everything you have learned in Book 2.
+@FIG g-website | The published co-production: four mastheads, five parts, one hour.
+@EX 10A | Vocabulary. Complete with: co-production · package · launch · simultaneous · licence · metrics · aftercare · debrief.
+@NUM
+The piece is a ___________ by four newsrooms.
+The ___________ has five parts.
+The ___________ was at 07:00 GMT.
+Publication was ___________ in four countries.
+The ___________ keeps every name on every copy.
+The ___________ came in by Monday.
+The partners planned the ___________ before publishing.
+The ___________ was held on the Tuesday.
+
+@EX 10B | Grammar. Complete with the -ing form.
+@NUM
+We finished ___________ (check) the data at five.
+Nobody suggested ___________ (wait) for the Post.
+They avoided ___________ (name) the record-keeper.
+Before ___________ (launch) , check the subtitles.
+
+@EX 10C | Grammar. Complete with to + infinitive.
+@NUM
+The partners agreed ___________ (publish) at seven.
+Omar promised ___________ (restore) the credit.
+We intend ___________ (moderate) the comments for a week.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar from the whole book. Match the unit's grammar to its sentence.
+@MATCH
+1.  present perfect vs past simple
+2.  used to / past continuous
+3.  future forms
+4.  reported speech
+5.  conditionals
+6.  might / should
+7.  the passive
+8.  comparatives
+@@
+a)  'We are publishing at 07:00 GMT.'
+b)  'She said the water was a little better.'
+c)  'Three crossings have been reopened.'
+d)  'The crossing used to be busy.'
+e)  'Kalina is the busiest of the seven.'
+f)  'The crossings reopened last spring; the school has not.'
+g)  'If a figure has one source, it does not run.'
+h)  'It might be a real document used wrongly.'
+
+@EX 10E | Read and answer.
+@WHITE
+Four newsrooms agreed to publish simultaneously at 07:00 GMT. Each partner was allowed to localise its version, but changing the credit line was not permitted. After launching, the partners kept moderating the comments for three weeks and held a debrief on the Tuesday. They had decided to publish a follow-up in the spring before they knew what it would say.
+
+@NUM
+What did the four newsrooms agree to do? ___________
+What was not permitted? ___________
+What did they do after launching? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can use verb + -ing and verb + to correctly.
+I can tell 'stop doing' from 'stop to do'.
+I can plan a cross-border co-production.
+I can say what a newsroom owes after publishing.
+
+@EX 10F | Reflect. Which unit of Book 2 changed the way you work? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+They agreed publishing at seven. → ________________________
+We finished to check the data. → ________________________
+I am looking forward to meet you. → ________________________
+She suggested to hold the debrief on Tuesday. → ________________________
+
+@EX 10H | Mixed review from the whole book. Complete each sentence.
+@NUM
+The crossing ___________ (reopen) last spring, and the school ___________ (not open) yet.
+If a figure ___________ (have) one source, it ___________ (not run).
+Three crossings ___________ (reopen) by the office. (present perfect passive)
+
+@EX 10I | Reflect. Write one sentence about a partnership you would like to build. Use a gerund and an infinitive.
+
+@PART 11 | Final project: your co-production | Bring the whole of Book 2 together. Plan and publish a cross-border co-production.
+@FIG g-template | The template — build your co-production part by part.
+@P
+**Your task. **Plan a co-production with two partner newsrooms abroad, on a story of your choice. Work alone or in a small team — a coordinator, a reporter and an editor. Write the plan, one section of the package, and the launch post.
+
+@FIG g-frontpage-parts | Every part of the package, and what each one is for.
+@H Your co-production must have:
+@NUM
+a **recap**, in the present perfect and the past simple — Unit 1;
+a **backstory** with used to, would and the past continuous — Unit 2;
+a **plan** with going to and every hour in every time zone — Unit 3;
+one **exact quote in reported speech**, with say, tell or according to — Unit 4;
+the **conditions** for publication, in the zero and first conditionals — Unit 5;
+one **careful paragraph** about something unproved — Unit 6;
+a **wire lead** in the passive, naming the body that acted — Unit 7;
+an **explainer** sentence with a provable superlative — Unit 8;
+**quantifiers, articles and connectors**, joining three accounts — Unit 9;
+a **launch post** and an **aftercare plan** — Unit 10.
+
+@FIG g-model | A model — use Reading A and the Writing 1 model to check the shape of your project.
+@WHITE
+Before you publish, agree the conditions. Check every figure twice, keep every quantifier, name every partner, and plan the morning after. Hold the hour you promised. Then publish — together, within the hour. That is the whole of Book 2, on one page.
+
+@CRITERIA Success criteria — the whole book
+My plan names every partner, every part and every hour with its time zone.
+My conditions are testable, and the aftercare is agreed before the launch.
+Every quote is reported accurately, and every figure is attributed.
+Every unproved claim is marked, and every superlative can be proved.
+The credit line carries every partner's name, on every copy.
+The smallest partner can meet the plan, and is not left alone afterwards.
+
+@P
+**Congratulations. **You have finished English for Journalists, Book 2. You began by recapping one story for a colleague abroad; you can now plan, report, write, verify and publish journalism made by newsrooms in four countries — in English, as an equal partner, and with a journalist's care for the people in the story. A free press, without borders.
+
+@KEY Book 2 · Unit 10 | Check your answers. Open tasks (discussion, role-play, your own writing and the final project) are marked at the end.
+@ANS
+W1 | 1 at seven (07:00 GMT) · 2 the subtitles — the film is ready (Priya has rechecked the data page) · 3 moderate the comments
+W2 | 1 F · 2 T · 3 T
+W3 | gerunds: 'worrying', 'launching' (also 'talking', 'publishing') · infinitives: 'to publish', 'to plan' (also 'to moderate', 'to keep')
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 co-production · 2 package · 3 launch · 4 simultaneous · 5 aftercare · 6 moderation
+1C | 1 plan the launch · 2 agree a licence · 3 hold a debrief · 4 measure the reach · 5 keep the credit line
+1D | 1 retraction · 2 guess · 3 invent · 4 ignore
+1E | 1 package · 2 simultaneous · 3 localised · 4 credit line · 5 metrics
+1F | 1 transcript · 2 licence · 3 follow-up · 4 subtitle
+1G | subtitled · transcript · syndicated · licence · follow-up
+1J | reach · impact · moderation · debrief · accountability
+2A | 1 checking · 2 waiting · 3 naming · 4 asking
+2B | 1 to publish · 2 to restore · 3 to sign · 4 to moderate
+2C | 1 to hold · 2 reading · 3 to reach · 4 launching
+2D | 1 'stopped moderating' = ended it; 'stopped to moderate' = paused in order to · 2 'remember filing' = the memory; 'remembered to file' = did not forget
+2G | 1 They agreed to publish at seven. · 2 We finished checking the data.
+3A | 1 the River Basin Network · 2 it may localise its own version; it may not change the credit line · 3 moderate the comments for a week and hold a debrief on the Tuesday
+3B | gerunds: 'writing', 'making' (also 'launching', 'working') · infinitives: 'to deliver', 'to publish' (also 'to moderate', 'to hold')
+3C | 1 The partners agreed to deliver by the 22nd. · 2 After launching, we will moderate the comments. · 3 Nobody may change the credit line without asking.
+3D | building · to publish · launching · to moderate
+3E | 1 Agreeing who makes which part. · 2 Delivering every part by the deadline. · 3 Publishing simultaneously at the agreed hour. · 4 The aftercare and the debrief.
+3H | because 'agree' is followed by to + infinitive, not by the -ing form
+4B | 1 at four · 2 the others publish and the late partner joins · 3 going to the village (Veren) · 4 moderate the comments for a week and hold a debrief on Tuesday
+4C | 1 G · 2 I · 3 B
+4D | Hour = 07:00 GMT, nobody waits · If late = we publish, they join · Aftercare = Dren in the village, moderation, a debrief
+4F | 1 answering · 2 sleeping · 3 to ask · 4 all
+4G | gerunds: 'answering', 'sleeping' · infinitives: 'to appear', 'to ask' (also 'to moderate')
+4H | the point is the journalism and the partnership; a prize under one name costs more than it is worth
+4I | to publish · launching · moderating · to ask
+4J | reach is shared; aftercare is not, unless the partners agree to share it
+4K | Launch morning = the hour and the last checks · The day after = the people, the moderation, the credit
+5B | 1 T · 2 F · 3 T · 4 T
+5C | 1 no single newsroom could report seven crossings in four countries · 2 what changed · 3 the aftercare was his, and the attention did not stop
+5D | 1 aftercare · 2 metrics · 3 debrief
+5F | plan the aftercare → 'who answers the phone, for how long, and who pays' · keep the credit → 'republishing means keeping all four names' · measure what changed → 'a follow-up agreed before you know the answer' · share what comes afterwards → 'the entry goes in under all four names'
+5G | Rule 4
+5H | 1 package · 2 licence · 3 syndicate
+5I | 1 publishing · 2 to publish · 3 launching
+6A | 1 the LAUNCH line ('localising allowed, changing the credit line not allowed') · 2 the AFTERWARDS line
+6C | gerunds: 'publishing', 'going' (also 'forgetting', 'holding') · infinitives: 'to keep', 'to extend' (also 'to pay', 'to correct', 'to publish')
+6D | publishing · to keep · to extend · holding
+6F | 'We agreed to publish at seven, and we finished checking the data at five.'
+7A | gerunds: 'publishing', 'localising' (also 'changing', 'launching') · infinitives: 'to make', 'to hold' (also 'not to hold the others')
+7B | 1 Five parts: a long read, audio, a film, a data page, photographs. · 2 Localising is allowed; changing the credit line is not. · 3 Before launching.
+7C | 1 Have you finished checking the data? — Yes, at five. · 2 Did the partners promise to moderate the comments? — Yes, for a week, and now for three.
+7F | 'Then we will stop entering until it does.'
+8A | 1 (b) extend moderation to three weeks and pay for it jointly · 2 (b) passing the cost to the smallest newsroom
+8B | 1 T · 2 P · 3 P · 4 T
+8C | before · pays · afterwards · starts
+8E | 1 (b) ask for the form to change, and withdraw if it cannot · 2 (b) a permanent record that is wrong
+8F | 1 form · 2 alone · 3 record · 4 withdraw
+8I | 1 S · 2 T · 3 S · 4 T
+9A | 'OUT NOW' → the launch flag · 'a long read, audio, film, data' → the parts of the package · 'Reported together by…' → the four credits · 'keeping all four names is the licence' → the condition on republishing
+9B | gerunds: 'Republishing is welcome' / 'keeping all four names' · infinitive: 'went to all seven' (accept 'to all seven crossings' as the purpose)
+9C | 'We are proud to publish our investigation. Reported by @AtlasWire, @KalinaDaily, @RiverBasinNet and @MeridianPost.'
+10A | 1 co-production · 2 package · 3 launch · 4 simultaneous · 5 licence · 6 metrics · 7 aftercare · 8 debrief
+10B | 1 checking · 2 waiting · 3 naming · 4 launching
+10C | 1 to publish · 2 to restore · 3 to moderate
+10D | present perfect vs past simple → 'The crossings reopened last spring; the school has not.' · used to / past continuous → 'The crossing used to be busy.' · future forms → 'We are publishing at 07:00 GMT.' · reported speech → 'She said the water was a little better.' · conditionals → 'If a figure has one source, it does not run.' · might / should → 'It might be a real document used wrongly.' · the passive → 'Three crossings have been reopened.' · comparatives → 'Kalina is the busiest of the seven.'
+10E | 1 publish simultaneously at 07:00 GMT · 2 changing the credit line · 3 kept moderating the comments for three weeks and held a debrief on the Tuesday
+10G | 1 They agreed to publish at seven. · 2 We finished checking the data. · 3 I am looking forward to meeting you. · 4 She suggested holding the debrief on Tuesday.
+10H | 1 reopened / has not opened · 2 has / does not run · 3 have been reopened
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4H, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I, and the Final Project — your own answers (discussion, role-play, writing, and your co-production).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the River Basin Network, the Meridian Post, their staff, Dren Markaj, Veren, the Vara basin, The Seven Crossings and every figure in it are invented, for practice. Real people and outlets are only ever in true, sourced facts — never in an invented quote.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 10 (30-page standard) · the capstone. | CEFR lower B1 → medium B1 · Beat: Capstone & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~29 figures · featured cast + three partner newsrooms · fictional agency, factual backdrop.  A free press, without borders.

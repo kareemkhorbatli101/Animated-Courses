@@ -1,0 +1,855 @@
+@UNITHEAD BOOK 2 · UNIT 8 | The Bigger Picture: Explaining Scale to a Distant Reader | Beat · Explainer & Across Borders | CEFR lower B1 → medium B1
+@AIMSHEAD In this unit you learn to…
+@AIMS
+compare two things with comparatives
+say which is the most with superlatives
+use as…as, not as…as, too and enough
+write an explainer for a reader who has never been there
+
+@FIG g-team | The Atlas Wire team — turning seven crossings into one picture a distant reader can hold.
+@STORY Explaining a place nobody has seen. | The Seven Crossings is reported. Now it has to be understood by someone two thousand miles away who has never heard of the river Vara. That is an explainer: scale, comparison, proportion. Which crossing is the busiest? Is the valley poorer than it was? Is a hundred and twelve families a lot? This week, Mira learns that a comparison is the most powerful sentence in an explainer — and the easiest one to get wrong. (Atlas Wire, Kalina Daily, the Meridian Post, the Vara basin and the figures in this unit are invented, for practice.)
+
+@WARMUP Is that a lot? | A short scene to start the unit. Read it, then answer.
+@FIG g-meeting | The morning conference — seven crossings on the wall, and one question: is that a lot?
+@WARMBOX
+"A hundred and twelve families," Daniel says. "Is that a lot?"
+"It is more than last year," Mira says, "and far fewer than left."
+"Then say both. A reader in another country has no idea whether a hundred is big."
+Leila looks up from the chart. "Kalina is the busiest of the seven now. The smallest is Veren — eleven households, and it is the only one that never reopened."
+"Too small for the piece?" Daniel asks.
+"Not small enough to leave out," Ana says. "It is the clearest case in the basin."
+
+@EX W1 | Answer the questions.
+@NUM
+Is 112 more or fewer than last year? ___________
+Which crossing is the busiest of the seven? ___________
+Which is the smallest, and what is special about it? ___________
+
+@EX W2 | True or false? Write T or F.
+@NUM
+A hundred and twelve is fewer than the number who left. ______
+Kalina is the smallest of the seven crossings. ______
+Ana wants Veren left out. ______
+
+@EX W3 | Find one comparative, one superlative and one 'too' or 'enough' in the text.
+@NUM
+________________________
+
+@LABEL PRODUCE | Talk about it
+@EX W4 | Discuss with a partner.
+@NUM
+How would you explain the size of your town to someone far away?
+When is a number too small to report? Give an example.
+
+@LABEL PRODUCE | One more
+@EX W5 | Discuss. 'Not small enough to leave out.' What does Ana mean?
+
+@PART 1 | The words of scale | The words for size, proportion and comparison.
+@FIG u8-words | Four key words — explainer, scale, proportion, benchmark.
+@H The words
+@VOCAB
+explainer | a piece that explains the background of a story
+scale (n) | how big something is
+compare | to say how two things are different or alike
+population | the number of people who live in a place
+statistic | a number that describes a group
+average | the usual or middle amount
+per cent | out of a hundred
+rate | how often or how fast something happens
+proportion | one part compared with the whole
+roughly | about; not exactly
+significant | big enough to matter
+benchmark | a figure you compare others against
+equivalent | equal in value or size
+misleading | giving a wrong impression
+exaggerate | to make something sound bigger than it is
+understate | to make something sound smaller than it is
+far (adv) | by a large amount
+slightly | by a small amount
+
+@LABEL PRACTISE | Controlled practice
+@EX 1A | Match the word (1–10) to the meaning (a–j).
+@MATCH
+1.  explainer
+2.  scale
+3.  proportion
+4.  benchmark
+5.  average
+6.  rate
+7.  significant
+8.  misleading
+9.  exaggerate
+10.  understate
+@@
+a)  how big something is
+b)  a piece that explains the background
+c)  one part compared with the whole
+d)  a figure you compare others against
+e)  the usual or middle amount
+f)  how often or how fast something happens
+g)  big enough to matter
+h)  giving a wrong impression
+i)  to make something sound bigger
+j)  to make something sound smaller
+
+@EX 1B | Complete the sentences with a word from the box.
+@WORDBOX WORD BOX | explainer · scale · compare · proportion · benchmark · misleading
+@NUM
+A good ___________ answers 'is that a lot?'
+A distant reader cannot judge ___________ .
+We ___________ this year with the year before.
+Eleven households is a small ___________ of the valley.
+Last year's figure is the obvious ___________ .
+A true number can still be ___________ .
+
+@EX 1C | Match the two halves.
+@MATCH
+1.  set a
+2.  give a
+3.  exaggerate the
+4.  write an
+5.  state a
+@@
+a)  benchmark
+b)  comparison
+c)  scale
+d)  explainer
+e)  proportion
+
+@EX 1D | Circle the word that is different.
+@NUM
+roughly · about · approximately · exactly
+exaggerate · overstate · inflate · understate
+significant · important · large · tiny
+average · typical · usual · unique
+
+@FIG g-scale | Seven crossings, side by side. A comparison is the fastest explainer there is.
+@EX 1E | Complete the paragraph. Use: scale · compare · benchmark · proportion · misleading.
+@WHITE
+A reader far away cannot judge ___________ , so you ___________ . Use last year as a ___________ , give the ___________ as well as the number, and check that the comparison is not ___________ .
+
+@EX 1F | Read the definition. Write the word.
+@NUM
+equal in value or size → ___________
+by a small amount → ___________
+a number that describes a group → ___________
+out of a hundred → ___________
+
+@EX 1G | Complete the collocation paragraph. Use: statistics · average · rate · far · slightly.
+@WHITE
+The ___________ in the piece are simple. The ___________ household has four people. The return ___________ is ___________ higher than last year, though ___________ lower than the office claimed.
+
+@LABEL PRODUCE | Over to you
+@EX 1H | Answer about you. Write full sentences.
+@NUM
+What benchmark would help a stranger understand your city's size?
+Which is more useful to a reader: a number, or a comparison? Why?
+
+@LABEL PRODUCE | Talk about it
+@EX 1I | Discuss. Which two words in this unit are new for you? Make a sentence with one.
+@EX 1J | Complete with: significant · equivalent · roughly · understate · population.
+@WHITE
+The valley's ___________ is ___________ nine thousand. Eleven households sounds small, but it is ___________ for Veren. Do not ___________ it, and do not call it the ___________ of a city district.
+
+@EX 1K | Creative. Write two sentences comparing two places you know. Use a comparative and a superlative.
+
+@PART 2 | Grammar: comparing | Comparatives and superlatives; as…as and not as…as; too and enough.
+@FIG u8-gA | -er and more · the -est and the most.
+@GRAMMAR 1 · comparatives — more than one other thing
+Short words: busy → {{busier}}, small → {{smaller}} ({{than}}). Longer words: {{more}} important {{than}}.
+Irregular: good → {{better}}, bad → {{worse}}, far → {{further}}.
+Make it bigger or smaller: {{far}} busier, {{much}} smaller, {{slightly}} higher, {{a little}} worse.
+
+@GRAMMAR 2 · superlatives — the one above all
+Short words: {{the busiest}}, {{the smallest}}. Longer: {{the most}} important.
+Irregular: {{the best}}, {{the worst}}, {{the furthest}}.
+Careful: "{{one of the}} busiest" is a claim you can prove; "{{the}} busiest" is a claim you must prove.
+
+@FIG u8-gB | as…as · not as…as · too small · small enough.
+@GRAMMAR 3 · as…as · too · enough
+Equal: "Veren is {{as}} old {{as}} Kalina." Not equal: "It is {{not as}} busy {{as}} Kalina."
+{{too}} + adjective = more than is wanted: "The figure is {{too small}} to publish alone."
+adjective + {{enough}} = as much as is needed: "The case is {{clear enough}} to lead the piece."
+
+@FIG u8-gC | Compare two, pick one from many, or measure against a need.
+@LABEL PRACTISE | Structured practice
+@EX 2A | Complete with the comparative.
+@NUM
+Kalina is ___________ (busy) than Veren.
+The return rate is ___________ (high) than last year.
+This winter was ___________ (bad) than the last.
+The far bank is ___________ (far) from the school.
+
+@EX 2B | Complete with the superlative.
+@NUM
+Kalina is ___________ (busy) of the seven crossings.
+Veren is ___________ (small) in the basin.
+It is ___________ (clear) case we have.
+That was ___________ (bad) year of the seven.
+
+@EX 2C | Complete with as…as or not as…as.
+@NUM
+Veren is ___________ old ___________ Kalina. (equal)
+It is ___________ busy ___________ Kalina. (not equal)
+The river is ___________ high ___________ it was in April. (not equal)
+
+@EX 2D | Complete with too or enough.
+@NUM
+Eleven households is ___________ small to make a chart.
+The case is clear ___________ to lead the piece.
+The figure is ___________ uncertain to publish alone.
+
+@H Your own words
+@EX 2E | Write two comparisons about two places you know. Use comparatives.
+@NUM
+________________________
+________________________
+
+@EX 2F | Write two superlatives about your town or country, and say how you could prove them.
+@NUM
+________________________
+________________________
+
+@EX 2G | Rewrite the sentence correctly (comparative / superlative / too–enough).
+@NUM
+Kalina is more busier than Veren. → ________________________
+Veren is the most small of the seven. → ________________________
+
+@EX 2H | Your own words. Write one comparison that helps a distant reader, and say why it helps.
+@NUM
+________________________
+
+@PART 3 | Writing an explainer | An explainer answers the question a distant reader cannot ask: is that a lot?
+@FIG g-ladder | Seven crossings, ranked. A ranking is a claim, so every step has to be defensible.
+@FIG u8-skill | An explainer gives the number, the benchmark, and the proportion.
+@LABEL MODEL | A model explainer paragraph
+@WARMBOX
+"There are seven crossings on the Vara. Kalina is the busiest: roughly two thousand people a week, more than the next two together. Veren is the smallest — eleven households — and the only one that has not reopened.
+A hundred and twelve families have returned to Kalina. That is far more than last year, when eleven came back, and far fewer than the nine hundred who left over the quiet years. In other words: the return is real, and it is about an eighth of what was lost.
+Eleven households sounds too small to matter. For Veren it is everything: it is the whole village."
+
+@LABEL NOTICE | Notice the explainer
+@FIG u8-read | A number alone means nothing. A number with a benchmark means something.
+@EX 3A | Answer about the model.
+@NUM
+Which crossing is the busiest, and by how much? ___________
+How does 112 compare with last year, and with the number who left? ___________
+Why is eleven households not too small to matter? ___________
+
+@EX 3B | Find one comparative, one superlative and one 'too' or 'enough' in the model. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Build the explainer
+@FIG g-fivew | An explainer answers one more question: compared with what?
+@EX 3C | Write the sentence with a comparative, a superlative, or too/enough.
+@NUM
+Kalina / busy / the seven crossings (superlative) → ________________________
+112 / many / last year's eleven (comparative) → ________________________
+eleven households / small / make a chart (too) → ________________________
+
+@EX 3D | Complete the paragraph. Use: busiest · more · fewer · enough.
+@WHITE
+Kalina is the ______ of the seven. A hundred and twelve families is ______ than last year and ______ than the nine hundred who left. The Veren case is clear ______ to lead on.
+
+@LABEL PRACTISE | One more
+@EX 3E | Put the explainer in order. Number the lines 1–4.
+@NUM
+What the number means as a proportion. ______
+How many crossings there are, and which is the biggest. ______
+Why the smallest one still matters. ______
+The new figure, against last year and against what was lost. ______
+
+@LABEL PRODUCE | Your turn
+@EX 3F | Choose a place you know. Write an explainer paragraph (4–5 sentences): one superlative, two comparatives, one proportion, and one 'too' or 'enough'.
+@WHITE
+________________________
+________________________
+________________________
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 3G | Talk with a partner. Why is 'far fewer than the nine hundred who left' more useful than '112 families'?
+@EX 3H | Why is 'one of the busiest' safer than 'the busiest'? When may you use each?
+@EX 3I | Discuss. Which comparison would help a reader in your country understand the Vara basin?
+
+@PART 4 | Listening: is that a lot? | Two audios. Listen for the comparisons, and for the argument about the smallest crossing.
+@FIG g-desk | Audio 8.1 — the world desk tests every comparison in the explainer.
+@SUBHEAD Listening A | · testing the comparisons
+@LABEL MODEL | Audio 8.1 — Daniel and Mira
+@DIALOGUE
+Daniel | 'A hundred and twelve families have returned.' Is that a lot?
+Mira | It is ten times more than last year, and about an eighth of the nine hundred who left.
+Daniel | Good — both directions. And the busiest crossing?
+Mira | Kalina, roughly two thousand a week. More than the next two together.
+Daniel | Can we prove 'the busiest'?
+Mira | From the office's weekly counts, yes. If we could not, I would write 'one of the busiest'.
+Daniel | And is the valley poorer than before?
+Mira | We do not have figures good enough to say that. I have left it out.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4A | Before you listen: what comparison do you think Daniel will ask for? Write one idea.
+@NUM
+______
+
+@EX 4B | Answer the questions.
+@NUM
+How does 112 compare with last year? ___________
+How does it compare with the number who left? ___________
+How busy is Kalina compared with the next two crossings? ___________
+Why has Mira left out 'poorer than before'? ___________
+
+@EX 4C | Comparative, superlative, or too/enough? Write C, S, or T.
+@NUM
+"Ten times more than last year." ______
+"Kalina is the busiest." ______
+"We do not have figures good enough to say that." ______
+
+@EX 4D | Complete the notes.
+@WHITE
+112 compared with last year: ___________
+112 compared with those who left: ___________
+Left out, and why: ___________
+
+@FIG g-newsroom | Audio 8.2 — the smallest crossing, and whether it belongs in the piece.
+@SUBHEAD Listening B | · the smallest crossing
+@LABEL MODEL | Audio 8.2 — Mira and Dren
+@DIALOGUE
+Dren | I hear Veren may be cut. Eleven households is too small for a chart.
+Mira | It is too small for a chart. It is not too small for the story.
+Dren | It is the only crossing that never reopened. That makes it the clearest case in the basin.
+Mira | I agree. I am arguing for it as the lead.
+Dren | Thank you. A chart is not the same as a reason.
+Mira | No. And the smallest number here is the most important one.
+Dren | Say that in the piece, in those words.
+Mira | I will.
+
+@LABEL PRACTISE | Listen for detail
+@EX 4E | Before you listen: what do you think Dren will argue? Guess.
+@NUM
+______
+
+@EX 4F | Complete the answers.
+@NUM
+Eleven households is too small for a ___________ .
+It is not too small for the ___________ .
+Veren is the ___________ case in the basin.
+The smallest number is the ___________ important one.
+
+@EX 4G | Which forms do you hear? Write one comparative, one superlative and one 'too' phrase.
+@NUM
+________________________
+
+@EX 4H | Answer. What does Dren mean by 'a chart is not the same as a reason'?
+@NUM
+________________________
+
+@LABEL PRACTISE | Both audios
+@EX 4I | Complete the summary. Use: more · fewer · busiest · too.
+@WHITE
+A hundred and twelve is ten times ______ than last year and far ______ than the number who left. Kalina is the ______ of the seven. Veren is ______ small for a chart, but not for the story.
+
+@EX 4J | Both calls are about size. Why do they reach different answers about what matters?
+@NUM
+________________________
+
+@LABEL PRODUCE | What do you think?
+@EX 4K | Complete the note comparing the two audios.
+@WHITE
+The desk call is about: ___________
+Dren's call is about: ___________
+
+@EX 4L | Discuss. Should the smallest crossing lead the piece? Say why.
+
+@PART 5 | Reading: seven crossings, compared | Two readings. Read for the comparisons, and for the rules that keep them honest.
+@FIG g-reach | An explainer is read by people who will never see the place. Scale is all they have.
+@SUBHEAD Reading A | · the basin, in proportion
+@READING Is a hundred and twelve a lot? The Vara basin in proportion
+There are seven crossings on the river Vara, and almost nobody outside the valley could have named a single one of them a year ago. That is exactly the problem an explainer exists to solve.
+
+Kalina is the busiest. Roughly two thousand people cross it in a week — more than the next two crossings together, and about twenty times more than the quietest. "Busiest is a claim, so we checked it against the office's weekly counts," says Mira Sandoval of Atlas Wire. "If we could not prove it, we would have written *one of the busiest*."
+
+A hundred and twelve families have returned to Kalina since it reopened. On its own the figure means nothing. Last year, eleven families came back; over the quiet years, about nine hundred left. So the return is roughly ten times larger than last year's and roughly an eighth of what was lost. "Give both comparisons or neither," says Daniel Okoye, the world editor. "One of them alone is an argument, not a fact."
+
+Some comparisons were left out. The partners could not show that the valley is poorer than it was before the closure, because the figures are not good enough. "We can say the market is not as busy as it was," Mira says. "We cannot put a number on poverty here, so we do not."
+
+The smallest crossing is Veren: eleven households, and the only one of the seven that has not reopened. Eleven is too small for a chart, and the partners nearly cut it. In the end it led the piece. "The smallest number in the basin is the most important one," the explainer says, in the voice of Dren Markaj of Kalina Daily. "It is a whole village, and nothing has changed for it."
+
+@LABEL PRACTISE | Comprehension
+@EX 5A | Before you read: look at the title. What makes a number 'a lot'? Write one sentence.
+@NUM
+______
+
+@EX 5B | True or false? Write T or F.
+@NUM
+Kalina is busier than the next two crossings together. ______
+The 112 figure is about an eighth of those who left. ______
+The partners could show the valley is poorer than before. ______
+Veren has reopened. ______
+
+@EX 5C | Answer the questions.
+@NUM
+Why did Mira check 'busiest' against the weekly counts? ___________
+Why does Daniel say 'give both comparisons or neither'? ___________
+Why did Veren lead the piece in the end? ___________
+
+@EX 5D | Find a word or phrase in the text.
+@NUM
+one part compared with the whole → ___________
+about; not exactly → ___________
+a piece that explains the background → ___________
+
+@FIG g-partners | Four newsrooms argued about one village of eleven households. It led the piece.
+@SUBHEAD Reading B | · comparing honestly
+@READING Four rules for comparison
+**1. Give both directions.** *Ten times more than last year, an eighth of those who left.* Either one alone is an argument.
+**2. Prove every superlative.** *The busiest* needs a source you can name. If you cannot prove it, write *one of the busiest* — almost as useful, and true.
+**3. Compare like with like.** Not a village against a city, or this April against a dry March. If they are less similar than they look, say so.
+**4. Never let size decide significance.** A number can be too small for a chart and large enough to lead. Eleven households is a whole village.
+
+@LABEL PRACTISE | Comprehension
+@EX 5E | Before you read: which is safer — 'the busiest' or 'one of the busiest'? Guess.
+@NUM
+______
+
+@EX 5F | Match the rule to the example.
+@MATCH
+1.  give both directions
+2.  prove every superlative
+3.  compare like with like
+4.  size is not significance
+@@
+a)  'one of the busiest, if you cannot prove the busiest'
+b)  'eleven households led the piece'
+c)  'ten times more than last year, an eighth of those who left'
+d)  do not measure a village against a city
+
+@EX 5G | Which rule is about what you choose to report, not how you word it? Write the number.
+@NUM
+______
+
+@LABEL PRACTISE | Words from the readings
+@EX 5H | Find a word in Reading A or Reading B.
+@NUM
+giving a wrong impression → ___________
+how big something is → ___________
+big enough to matter → ___________
+
+@LABEL PRACTISE | Both readings
+@EX 5I | Complete with a comparative, a superlative, or too/enough.
+@NUM
+Kalina is ___________ (busy) than the next two together.
+Veren is ___________ (small) of the seven.
+The figures are not good ___________ to say the valley is poorer.
+
+@LABEL PRODUCE | Discuss
+@EX 5J | Talk about it. 'One of them alone is an argument, not a fact.' What does Daniel mean?
+@EX 5K | Which of the four rules is hardest in a short piece? Say why.
+@EX 5L | Discuss. 'Never let size decide significance.' Give an example from your own country.
+
+@PART 6 | Writing: the explainer | Two short pieces: a comparison box, and an explainer paragraph.
+@FIG g-notes | A comparison box: the number, the benchmark, the proportion, the limit.
+@SUBHEAD Writing 1 | · a comparison box
+@LABEL MODEL | A model
+@WARMBOX
+THE NUMBER: 112 families have returned to Kalina
+AGAINST LAST YEAR: eleven returned — roughly ten times fewer
+AGAINST WHAT WAS LOST: about nine hundred left — the return is roughly an eighth
+BIGGEST / SMALLEST: Kalina is the busiest of the seven; Veren, with eleven households, is the smallest and the only one not reopened
+WHAT WE CANNOT SAY: that the valley is poorer than before — the figures are not good enough
+
+@LABEL NOTICE | Notice the model
+@EX 6A | Answer about the model.
+@NUM
+Which line gives a proportion? ___________
+Which line is a limit on what you may write? ___________
+
+@LABEL PRODUCE | Write your box
+@EX 6B | Choose a figure from your own country. Write the five lines: the number, against last year, against the whole, biggest/smallest, what you cannot say.
+@WHITE
+The number: ___________
+Against last year: ___________
+Against the whole: ___________
+Biggest / smallest: ___________
+Cannot say: ___________
+
+@FIG g-model | An explainer paragraph turns the box into prose a stranger can follow.
+@SUBHEAD Writing 2 | · an explainer paragraph
+@LABEL MODEL | A model
+@WARMBOX
+Kalina is the busiest of the seven crossings on the Vara: roughly two thousand people a week, more than the next two together. A hundred and twelve families have returned since it reopened — ten times more than last year, and about an eighth of the nine hundred who left. The market is not as busy as it was, though we cannot put a number on that. The smallest crossing, Veren, has eleven households and has not reopened at all. That is too small for a chart and large enough to lead.
+
+@LABEL NOTICE | Notice the model
+@EX 6C | Answer. Find one comparative, one superlative and one 'not as…as' in the paragraph.
+@NUM
+___________
+
+@LABEL PRACTISE | Complete the paragraph
+@EX 6D | Complete the explainer. Use: busiest · more · as · enough.
+@WHITE
+Kalina is the ______ of the seven. A hundred and twelve is ten times ______ than last year. The market is not ______ busy as it was. Veren is small, and clear ______ to lead.
+
+@LABEL PRODUCE | Write your paragraph
+@EX 6E | Turn your box into an explainer paragraph (4–5 sentences). Use a superlative, two comparatives and one too/enough.
+@WHITE
+________________________
+________________________
+________________________
+
+@LABEL PRACTISE | Fix it
+@EX 6F | This copy uses a double comparative and an unprovable superlative. Correct both.
+@WHITE
+"Kalina is more busier than Veren, and it is the most important crossing in the world."
+
+@P
+________________________
+
+@LABEL PRACTISE | Plan it
+@EX 6G | Plan a longer explainer. Write three lines: one superlative you can prove, one comparison in both directions, one thing you cannot say.
+@WHITE
+Superlative: ___________
+Both directions: ___________
+Cannot say: ___________
+
+@EX 6H | Peer-check. Swap with a partner. Is every superlative provable, and does every figure have a benchmark? Write one note.
+@WHITE
+________________________
+
+@PART 7 | Speaking: explaining scale | Explain how big something is. Use comparatives, superlatives, as…as, too and enough.
+@FIG g-interview | Explaining scale out loud: the number, the comparison, and the limit.
+@SUBHEAD A model dialogue | · explaining the basin
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Sofia | A hundred and twelve families. Is that a lot?
+Mira | Ten times more than last year. About an eighth of those who left.
+Sofia | And which crossing is the biggest?
+Mira | Kalina, by a long way — busier than the next two together.
+Sofia | Can we say the valley is poorer than before?
+Mira | No. The figures are not good enough. We can say the market is not as busy as it was.
+Sofia | And the smallest crossing?
+Mira | Veren. Eleven households, never reopened. Too small for a chart, clear enough to lead.
+
+@LABEL NOTICE | Notice the forms
+@EX 7A | Find one comparative, one superlative and one 'not as…as' sentence. Write them.
+@NUM
+________________________
+
+@LABEL PRACTISE | Controlled practice
+@EX 7B | Answer with a comparison.
+@NUM
+How / 112 / compare / last year? → ___________
+Which crossing / busy? → ___________
+Can we say / the valley / poor / before? → ___________
+
+@FIG g-introduce | Open with the number, then the benchmark, then the limit of what you know.
+@EX 7C | Make a comparison question, then answer it.
+@NUM
+Veren / small / Kalina → ________________________
+this winter / bad / last → ________________________
+
+@LABEL PRODUCE | Your role
+@ROLES
+Reporter | Give the number, two comparisons, and one thing you cannot say.
+Editor | Ask: 'Is that a lot?' and 'Can you prove the superlative?'
+Observer | Listen. Was every superlative provable, and every figure given a benchmark?
+
+@EX 7D | Choose a role from the table. Explain a figure to your partner.
+@LABEL PRODUCE | Role-play
+@EX 7E | Role-play an explainer meeting: a reporter, an editor, and an observer. Then swap roles.
+@SUBHEAD A second dialogue | · arguing for the smallest case
+@LABEL MODEL | Listen and read
+@DIALOGUE
+Omar | Eleven households will not hold a reader's attention. Kalina is the bigger story.
+Mira | Kalina is the bigger number. Veren is the clearer case.
+Omar | Clearer how?
+Mira | It is the only crossing of the seven that never reopened. Nothing has changed there at all.
+Omar | So the smallest is the most telling.
+Mira | Yes. It is too small for a chart and important enough to lead.
+Omar | Then lead with it, and put the chart underneath.
+
+@LABEL PRACTISE | Controlled practice
+@EX 7F | Write the two sentences Mira uses to contrast the bigger number with the clearer case.
+@NUM
+________________________
+
+@LABEL PRODUCE | Self-check
+@CRITERIA Did I…
+form comparatives and superlatives correctly?
+prove every superlative, or write 'one of the'?
+use as…as and not as…as correctly?
+use too and enough in the right order?
+
+@EX 7G | Role-play arguing that a small case should lead a piece. Then swap roles.
+@LABEL PRACTISE | Plan it
+@EX 7H | Plan your answers. Note one provable superlative, one two-way comparison, one limit.
+@EX 7I | Discuss. How would you explain your country's size to someone who has never been there?
+
+@PART 8 | Ethics: comparisons that mislead | Every comparison is an argument. A true number inside a false comparison is still a false sentence.
+@FIG g-code | Accuracy includes the size of what you claim, not only the figures in it.
+@FIG u8-ethA | 'The worst-hit valley in the region' is a superlative nobody has counted.
+@SUBHEAD A first case | · the superlative nobody can prove
+@CASE The Post's editors want a stronger line: 'the worst-hit valley in the region'. It would travel well, it would be quoted, and nobody could easily disprove it. The reporting supports something smaller, and firmer: Kalina is one of the worst-hit crossings on this river, by the office's own weekly counts. Nobody has counted the other valleys, so the bigger claim is not false exactly — it is unmeasured, which is worse, because a reader cannot tell the difference. The Code says: a superlative is a claim, and a claim needs a source. What line should run?
+
+@LABEL NOTICE | What do you do?
+@EX 8A | Choose (a) or (b), and write one reason.
+@NUM
+(a) 'the worst-hit valley in the region'  (b) 'one of the worst-hit crossings on the river'.   Choice: ______  Because ________________________
+An unmeasured superlative is (a) a strong line  (b) a claim with no source.   Choice: ______
+
+@EX 8B | Provable, or unmeasured? Write P or U.
+@NUM
+'Kalina is the busiest of the seven crossings, by the office's weekly counts.' ______
+'The worst-hit valley in the region.' ______
+'One of the worst-hit crossings on the river.' ______
+'The most isolated place anywhere.' ______
+
+@LABEL PRACTISE | Apply the Code
+@EX 8C | Complete the rule. Use: prove · one · both · like.
+@WHITE
+Give ______ directions. ______ every superlative, or write '______ of the'. Compare ______ with like.
+
+@LABEL PRODUCE | Discuss
+@EX 8D | Discuss. Why is an unmeasured claim harder for a reader to spot than a wrong number?
+@SUBHEAD A second case | · the village that was too small
+@FIG u8-ethB | A chart cannot hold eleven households. A newspaper can.
+@CASE Veren has eleven households, and the data team says it cannot be charted: the bar would be invisible beside Kalina's. The simplest decision is to cut it, and the argument is about scale, not politics — the piece is long, and eleven is a rounding error beside two thousand. But Veren is the only crossing of the seven that never reopened, which makes it the clearest case in the basin. Cutting it would leave a reader thinking the river had reopened everywhere. The Code says: do not let the size of a number decide whether people exist. What leads the piece?
+
+@LABEL NOTICE | What do you do?
+@EX 8E | Choose (a) or (b), and write one reason.
+@NUM
+(a) cut Veren — it cannot be charted  (b) lead with Veren and put the chart underneath.   Choice: ______  Because ________________________
+Letting the chart decide the story is (a) good data practice  (b) letting a tool choose the news.   Choice: ______
+
+@EX 8F | Complete with: invisible · smallest · reopened · clearest.
+@NUM
+Veren's bar would be ___________ beside Kalina's.
+It is the ___________ of the seven crossings.
+It is the only one that never ___________ .
+That makes it the ___________ case.
+
+@LABEL PRODUCE | Discuss
+@EX 8G | Discuss. Who is served when the smallest case is cut, and who is not?
+@LABEL PRODUCE | Write it
+@EX 8H | Write two sentences arguing for the smallest case. Use a superlative and 'too…to' or 'enough'.
+@LABEL PRACTISE | One more
+@EX 8I | Honest comparison, or misleading? Write H or M.
+@NUM
+'Ten times more than last year, an eighth of those who left.' ______
+'A record return to the valley.' ______
+'One of the busiest crossings on the river.' ______
+'Numbers up sharply — the valley has recovered.' ______
+
+@EX 8J | Discuss. 'Give both directions or neither.' Is that a rule you could always keep?
+
+@PART 9 | Digital: the chart post | Online, a comparison becomes a picture. The caption has to do what the chart cannot.
+@FIG g-phonealert | A chart post is a comparison with a caption. The caption carries the honesty.
+@LABEL MODEL | A model post
+@WARMBOX
+THE SEVEN CROSSINGS · Kalina is the busiest: roughly 2,000 people a week, more than the next two together. 112 families have returned — ten times more than last year, about an eighth of those who left. Not in the chart: Veren, eleven households, the only crossing that never reopened. — @AtlasWire with @KalinaDaily
+
+@LABEL NOTICE | The parts of the post
+@EX 9A | Match the part to its job.
+@MATCH
+1.  Kalina is the busiest
+2.  more than the next two together
+3.  about an eighth of those who left
+4.  Not in the chart: Veren
+@@
+a)  the comparison that gives scale
+b)  the superlative, provable
+c)  what the chart leaves out
+d)  the proportion
+
+@LABEL PRACTISE | Find and build
+@EX 9B | Find the superlative, one comparative and the proportion in the post. Write them.
+@NUM
+________________________
+
+@EX 9C | This post uses one direction only and an unprovable superlative. Correct both.
+@WHITE
+"Returns up ten times! The most dramatic recovery anywhere on the river."
+
+@P
+________________________
+
+@FIG u8-sum | A good chart post answers: compared with what, and what is missing?
+@EX 9D | Write a chart post. Use one provable superlative, one comparison in both directions, and one thing the chart leaves out.
+@WHITE
+___________ is the ___________ . ___________ is ___________ than ___________ and ___________ than ___________ . Not in the chart: ___________ . — @AtlasWire
+
+@LABEL PRODUCE | Write your post
+@EX 9E | Write a one-line post comparing two figures from your own country. Give both directions.
+@WHITE
+________________________
+
+@EX 9F | Creative. Write a short headline (4–6 words) using a comparative, not a superlative.
+@EX 9G | A reader asks: 'So has the valley recovered?' Write a short reply. Use not as…as and enough.
+@WHITE
+________________________
+
+@EX 9H | A chart can hide the smallest case. Write one line that puts it back.
+@WHITE
+________________________
+
+@LABEL PRODUCE | Discuss
+@EX 9I | Creative. Write a two-line thread: line 1 the biggest, line 2 the smallest and why it matters.
+@WHITE
+________________________
+________________________
+
+@EX 9J | Discuss. A chart is shared without its caption. What should you put in the picture itself?
+
+@PART 10 | Review & Can-Do | Check your new English before Unit 9.
+@FIG g-website | The explainer as published: the scale, the proportions, and the village that led it.
+@EX 10A | Vocabulary. Complete with: explainer · scale · proportion · benchmark · average · rate · misleading · exaggerate.
+@NUM
+A good ___________ answers 'is that a lot?'
+A distant reader cannot judge ___________ .
+Eleven households is a small ___________ of the valley.
+Last year's figure is the obvious ___________ .
+The ___________ household has four people.
+The return ___________ is higher than last year.
+A true number can still be ___________ .
+Do not ___________ the size of the return.
+
+@EX 10B | Grammar. Complete with the comparative.
+@NUM
+Kalina is ___________ (busy) than Veren.
+The rate is ___________ (high) than last year.
+This winter was ___________ (bad) than the last.
+The far bank is ___________ (far) from the school.
+
+@EX 10C | Grammar. Complete with the superlative.
+@NUM
+Kalina is ___________ (busy) of the seven.
+Veren is ___________ (small) in the basin.
+It is ___________ (clear) case we have.
+
+@FIG g-cando | Can-Do — tick what you can do now.
+@EX 10D | Grammar. Complete with as…as, not as…as, too or enough.
+@NUM
+Veren is ___________ old ___________ Kalina. (equal)
+The market is ___________ busy ___________ it was. (not equal)
+Eleven households is ___________ small for a chart.
+The case is clear ___________ to lead.
+
+@EX 10E | Read and answer.
+@WHITE
+Kalina is the busiest of the seven crossings: roughly two thousand a week, more than the next two together. A hundred and twelve families have returned — ten times more than last year, about an eighth of the nine hundred who left. The market is not as busy as it was. Veren, with eleven households, is the smallest and the only one that never reopened.
+
+@NUM
+Which crossing is the busiest, and by how much? ___________
+How does 112 compare, in both directions? ___________
+What is special about Veren? ___________
+
+@H Can-Do — tick what you can do now
+@CANDO
+I can compare two things with comparatives.
+I can say which is the most with superlatives.
+I can use as…as, not as…as, too and enough.
+I can write an explainer for a reader who has never been there.
+
+@EX 10F | Reflect. Which part of Unit 8 was the most useful for you? Why?
+@EX 10G | Grammar review. Write the sentence correctly.
+@NUM
+Kalina is more busier than Veren. → ________________________
+Veren is the most small of the seven. → ________________________
+The case is enough clear to lead. → ________________________
+This winter was worst than the last. → ________________________
+
+@EX 10H | Mixed review. Complete with a comparative, a superlative, or too/enough.
+@NUM
+Kalina is ___________ (busy) than the next two together.
+Veren is ___________ (small) of the seven.
+The figures are not good ___________ to say the valley is poorer.
+
+@EX 10I | Reflect. Write one sentence comparing this year with last year in your own work.
+
+@PART 11 | Assignment: an explainer | Put the unit together: explain a place and its numbers to a distant reader.
+@FIG g-template | The assignment template — your explainer.
+@P
+**Your task. **Write an explainer (6–7 sentences) about a place or a figure in your own country, for a reader who has never been there. Use one superlative you can prove and name its source, two comparatives, one comparison in both directions, one 'not as…as', and one 'too…to' or '…enough'. End with one thing you cannot say, and why. If there is a small case the numbers would hide, put it first.
+
+@FIG g-model | A model — use Reading A and the Writing 2 model to check the shape of your explainer.
+@WHITE
+Remember: -er / more…than; the -est / the most; 'one of the' when you cannot prove 'the'; both directions on every figure; too + adjective, adjective + enough; and never let size decide significance.
+
+@CRITERIA Success criteria
+My comparatives and superlatives are correctly formed.
+Every superlative has a source, or becomes 'one of the'.
+I give both directions on at least one figure.
+I use as…as or not as…as, and too or enough, correctly.
+A small but telling case is not hidden by the numbers.
+
+@P
+**Keep this. **In Unit 9, you co-write with two partners — quantifiers, articles and connectors — because a sentence written by three newsrooms has to join up and still sound like one voice.
+
+@KEY Book 2 · Unit 8 | Check your answers. Open tasks (discussion, role-play and your own writing) are marked at the end.
+@ANS
+W1 | 1 more than last year (and far fewer than the number who left) · 2 Kalina · 3 Veren — eleven households, and the only one that never reopened
+W2 | 1 T · 2 F · 3 F
+W3 | comparative: 'more than last year' / 'far fewer' · superlative: 'the busiest of the seven' · too/enough: 'Not small enough to leave out'
+1A | 1-b, 2-a, 3-c, 4-d, 5-e, 6-f, 7-g, 8-h, 9-i, 10-j
+1B | 1 explainer · 2 scale · 3 compare · 4 proportion · 5 benchmark · 6 misleading
+1C | 1 set a benchmark · 2 give a comparison · 3 exaggerate the scale · 4 write an explainer · 5 state a proportion
+1D | 1 exactly · 2 understate · 3 tiny · 4 unique
+1E | 1 scale · 2 compare · 3 benchmark · 4 proportion · 5 misleading
+1F | 1 equivalent · 2 slightly · 3 statistic · 4 per cent
+1G | statistics · average · rate · far · slightly
+1J | population · roughly · significant · understate · equivalent
+2A | 1 busier · 2 higher · 3 worse · 4 further
+2B | 1 the busiest · 2 the smallest · 3 the clearest · 4 the worst
+2C | 1 as / as · 2 not as / as · 3 not as / as
+2D | 1 too · 2 enough · 3 too
+2G | 1 Kalina is busier than Veren. · 2 Veren is the smallest of the seven.
+3A | 1 Kalina — more than the next two crossings together · 2 far more than last year's eleven; far fewer than the nine hundred who left · 3 because for Veren eleven households is the whole village
+3B | comparative: 'more than the next two together' · superlative: 'Kalina is the busiest' · too/enough: 'too small to matter'
+3C | 1 Kalina is the busiest of the seven crossings. · 2 A hundred and twelve is more than last year's eleven. · 3 Eleven households is too small to make a chart.
+3D | busiest · more · fewer · enough
+3E | 1 How many crossings there are, and which is the biggest. · 2 The new figure, against last year and against what was lost. · 3 What the number means as a proportion. · 4 Why the smallest one still matters.
+3H | 'one of the busiest' can be supported by any strong count, so it is almost always true; 'the busiest' is a ranking claim and needs a source that ranks them all
+4B | 1 ten times more · 2 about an eighth of the nine hundred who left · 3 busier than the next two together · 4 because the figures are not good enough to support it
+4C | 1 C · 2 S · 3 T
+4D | Against last year = ten times more · Against those who left = about an eighth · Left out = 'poorer than before', the figures are not good enough
+4F | 1 chart · 2 story · 3 clearest · 4 most
+4G | comparative: 'the bigger number' · superlative: 'the clearest case' / 'the most important' · too: 'too small for a chart'
+4H | the size of a bar does not decide whether something matters
+4I | more · fewer · busiest · too
+4J | one measures size, the other weighs significance; they do not always agree
+4K | Desk = can each comparison be proved · Dren = does the smallest case belong
+5B | 1 T · 2 T · 3 F · 4 F
+5C | 1 'busiest' is a ranking claim and needs a source · 2 one comparison alone argues a case · 3 it is the only crossing that never reopened
+5D | 1 proportion · 2 roughly · 3 explainer
+5F | give both directions → 'ten times more than last year, an eighth of those who left' · prove every superlative → 'one of the busiest, if you cannot prove the busiest' · compare like with like → do not measure a village against a city · size is not significance → 'eleven households led the piece'
+5G | Rule 4
+5H | 1 misleading · 2 scale · 3 significant
+5I | 1 busier · 2 the smallest · 3 enough
+6A | 1 the AGAINST WHAT WAS LOST line · 2 the WHAT WE CANNOT SAY line
+6C | comparative: 'more than the next two together' · superlative: 'the busiest of the seven' · not as…as: 'not as busy as it was'
+6D | busiest · more · as · enough
+6F | 'Kalina is busier than Veren, and it is one of the busiest crossings on the river.'
+7A | comparative: 'ten times more than last year' · superlative: 'Kalina, by a long way' (the biggest) · not as…as: 'the market is not as busy as it was'
+7B | 1 It is ten times more than last year, and about an eighth of those who left. · 2 Kalina — busier than the next two together. · 3 No — the figures are not good enough.
+7C | 1 Is Veren smaller than Kalina? — Yes, far smaller: eleven households. · 2 Was this winter worse than last? — It was slightly worse.
+7F | 'Kalina is the bigger number. Veren is the clearer case.'
+8A | 1 (b) 'one of the worst-hit crossings on the river' · 2 (b) a claim with no source
+8B | 1 P · 2 U · 3 P · 4 U
+8C | both · Prove · one · like
+8E | 1 (b) lead with Veren and put the chart underneath · 2 (b) letting a tool choose the news
+8F | 1 invisible · 2 smallest · 3 reopened · 4 clearest
+8I | 1 H · 2 M · 3 H · 4 M
+9A | 'Kalina is the busiest' → the superlative, provable · 'more than the next two together' → the comparison that gives scale · 'about an eighth of those who left' → the proportion · 'Not in the chart: Veren' → what the chart leaves out
+9B | superlative: 'Kalina is the busiest' · comparative: 'more than the next two together' / 'ten times more than last year' · proportion: 'about an eighth of those who left'
+9C | 'Returns are ten times higher than last year, and about an eighth of those who left. Kalina is one of the busiest crossings on the river.'
+10A | 1 explainer · 2 scale · 3 proportion · 4 benchmark · 5 average · 6 rate · 7 misleading · 8 exaggerate
+10B | 1 busier · 2 higher · 3 worse · 4 further
+10C | 1 the busiest · 2 the smallest · 3 the clearest
+10D | 1 as / as · 2 not as / as · 3 too · 4 enough
+10E | 1 Kalina — more than the next two crossings together · 2 ten times more than last year, about an eighth of those who left · 3 it is the smallest and the only one that never reopened
+10G | 1 Kalina is busier than Veren. · 2 Veren is the smallest of the seven. · 3 The case is clear enough to lead. · 4 This winter was worse than the last.
+10H | 1 busier · 2 the smallest · 3 enough
+Open tasks | W4, W5, 1H, 1I, 1K, 2E, 2F, 2H, 3F, 3G, 3I, 4A, 4E, 4L, 5A, 5E, 5J, 5K, 5L, 6B, 6E, 6G, 6H, 7D, 7E, 7G, 7H, 7I, 8D, 8G, 8H, 8J, 9D, 9E, 9F, 9G, 9H, 9I, 9J, 10F, 10I — your own answers (discussion, role-play, writing).
+
+@NOTE A note on real and invented content. | The facts about journalism around the world in 2026 are true. Atlas Wire, Kalina Daily, the Meridian Post, their staff, the Vara basin, Veren, the seven crossings and every figure in this unit are invented, for practice. Real people, places and outlets are only ever in true, sourced facts — never in an invented quote or an invented number.
+
+@COLOPHON English for Journalists — International Edition · Book 2 · Unit 8 (30-page standard). | CEFR lower B1 → medium B1 · Beat: Explainer & Across Borders · two readings · two listenings · two writing pieces · two ethics cases · two speaking dialogues · balanced sections · ~28 figures · featured cast + the data desk and a partner abroad · fictional agency, factual backdrop.
