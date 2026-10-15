@@ -1,0 +1,390 @@
+@H2 Appendix: Extended Listening Passages for Units 1 to 10
+
+@H2 Unit 1: The Accounting Office
+@H2 Listening Passage Title: The Morning Briefing
+@H2 Context:~The audio takes place in an open-plan accounting office at 8:45 AM. Mr Harrison, the Senior Accountant, is walking Alice, a new Junior Accountant, through the daily procedures while dealing with a current issue.~
+@BSCRIPT
+Mr Harrison: "Good morning, Alice. Welcome to your first full week. As you can see, the office is already quite busy. Usually, the finance team starts at 8:30 AM sharp, local time. I want to walk you through the standard routine versus what is happening right now."
+Alice: "Good morning, Mr Harrison. I am ready. I have my notebook."
+Mr Harrison: "Excellent. So, let’s talk about the daily rhythm. Generally, every morning, the first thing we do is check the bank feed. I log in, download the statement, and print the transaction list. That is a permanent habit. We also check the 'In-Tray' for physical invoices that arrive by post. Organization is key here. We always file receipts alphabetically by vendor name, never by date, to make them easier to find later."
+Alice: "Understood. Alphabetical filing. And what is everyone doing at the moment? It looks very chaotic."
+Mr Harrison: "Yes, well, today is an exception. Currently, we are upgrading our accounting software. Look over there at Tom. Usually, he sits at his desk and enters data into the ledger. But right now, he is standing by the printer because he is troubleshooting a connection error. And Priya—she normally processes the payroll on Tuesdays. However, at the moment, she is meeting with the IT consultants in the conference room. They are discussing the data migration."
+Alice: "I see. And what about me? What am I doing today?"
+Mr Harrison: "Good question. For your first week, you are shadowing me. Usually, I review the general ledger entries before lunch. But right now, I am looking for a discrepancy in the petty cash. There is a small error, and I am trying to find the missing voucher. So, while I am searching for that, I want you to observe the filing system. Are you understanding the difference between the routine tasks and the temporary projects?"
+Alice: "Yes, I think so. The routine tasks happen every day, like checking emails and filing, but the software upgrade is just happening this week."
+Mr Harrison: "Exactly. Accuracy is vital. Even though we are busy with the upgrade, we verify every figure, in every currency. Currently, I am double-checking these invoices before I post them. We never let the chaos interrupt our accuracy. Now, let’s go to the archive room."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What does the finance team usually do immediately after starting at 8:30 AM?
+Why is Tom standing by the printer instead of sitting at his desk?
+What is Mr Harrison doing right now instead of his usual routine of reviewing the ledger?
+How does the office file physical receipts?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Vendor
+Ledger
+Discrepancy
+Payroll
+@LINE a. The list of employees and the wages they are due.
+@LINE b. A difference or error between two figures.
+@LINE c. The supplier or seller of goods.
+@LINE d. The principal book for recording financial transactions.
+@H2 III. Grammar Application
+@LINE Identify if the following actions are Routine (Present Simple) or Temporary (Present Continuous) based on the audio:
+@NUM
+The team starts at 8:30 AM.
+Priya is meeting with IT consultants.
+Mr Harrison is double-checking invoices.
+They file receipts alphabetically.
+@PB
+
+@H2 Unit 2: Recording Past Transactions
+@H2 Listening Passage Title: The Audit Investigation
+@H2 Context:~Two accountants, Sarah and Mike, are reviewing a chaotic set of records from the previous month. They are trying to understand why the books didn't balance.~
+@BSCRIPT
+Sarah: "Mike, do you have a moment? We need to talk about what happened yesterday during the reconciliation process. I was reviewing the transaction logs from last month when I found a serious issue with the travel expenses."
+Mike: "Sure, Sarah. I remember you were working late. What did you find?"
+Sarah: "Well, it seems the problem started last Tuesday. I was checking the ledger entries when I noticed a gap in the invoice numbers. It looked like someone deleted a batch of data. I investigated further. It turns out, the intern, Jason, was entering the invoices while the system was updating. He didn’t realize the server was unstable."
+Mike: "Oh no. So, while he was posting the entries, the system was crashing?"
+Sarah: "Exactly. He posted about fifty invoices. The system recorded the debit side of the entry, but it failed to record the credit side. That’s why our trial balance was off by such a large amount. I asked him what he was doing at 3 PM. He said he was listening to music on his headphones while he was typing, so he didn’t hear the IT announcement about the server maintenance."
+Mike: "That explains a lot. I was trying to trace the source documents yesterday morning, but I couldn’t find the physical copies. Did you locate them?"
+Sarah: "Yes. After I found the digital error, I went to his desk. He had filed the receipts in the wrong binder. He was filing them by date, but he put them in the 2023 folder instead of 2024. I took the box, and I re-entered all fifty transactions correctly. I finished the work at 8 PM, and then I finally went home."
+Mike: "Good work, Sarah. It sounds exhausting. So, the discrepancy is resolved?"
+Sarah: "Yes. The closing balance matched the bank statement this morning, in all three currencies. But we need to be careful. While we were fixing this, the auditors were asking for the reports. I told them we were correcting a recording error and that we would submit it today."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What was Sarah doing when she noticed the gap in the invoice numbers?
+What technical issue occurred while Jason was entering the invoices?
+Why didn't Jason hear the IT announcement?
+Where did Jason wrongly file the physical receipts?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Source Document
+Posting
+Batch
+Trial Balance
+@LINE a. A group of transactions processed together.
+@LINE b. The report checking if total debits equal total credits.
+@LINE c. The original paper proof of a transaction (e.g., receipt).
+@LINE d. The act of transferring an entry to the ledger.
+@H2 III. Grammar Application
+@LINE Complete the sentences based on the listening using Past Simple or Past Continuous:
+@NUM
+Jason (listen) ________ to music while he (type) ________.
+Sarah (finish) ________ the work at 8 PM.
+The system (crash) ________ while he (post) ________ the entries.
+@PB
+
+@H2 Unit 3: Petty Cash and Office Expenses
+@H2 Listening Passage Title: The Petty Cash Dispute
+@H2 Context:~A conversation at the cashier's desk. An employee, Robert, is trying to claim expenses from the Petty Cash Custodian, Elena.~
+@BSCRIPT
+Robert: "Hi Elena. I’m in a bit of a rush. Can I get EUR 50 from the petty cash box? I need to buy some coffee and snacks for the client meeting happening in ten minutes."
+Elena: "Hello Robert. You know the procedure. Would you mind completing a petty cash voucher first? I cannot issue any cash without a signed document. That is the rule of the imprest system."
+Robert: "I understand, but I don’t have time right now. Could you just give me the cash, and I’ll sign it later?"
+Elena: "I’m sorry, Robert, but I can’t do that. However, I can offer to fill out the voucher for you if you give me the details right now. But you must sign it before I open the box. Also, do you have authorization from your line manager? The limit for undocumented requests is EUR 20, and you are asking for EUR 50."
+Robert: "I didn’t know about the limit. My manager is in a meeting. May I ask you to make an exception just this once? I promise to bring the receipt back immediately after the purchase."
+Elena: "I’m afraid I cannot grant that request. If the external auditors check the box and find a shortage without a signature, I will be responsible for the discrepancy. Here is what we can do: I can give you EUR 20 now for the coffee. For the rest, you would need to pay out-of-pocket and request reimbursement later."
+Robert: "Okay, that sounds fair. I will pay for the snacks myself. Could you process my reimbursement tomorrow if I bring the original receipt?"
+Elena: "Yes, certainly. Once you have the original receipt—not a photocopy—I can process it immediately. Just make sure the receipt lists the items clearly, and that it shows the currency. Last week someone tried to claim a personal lunch, and we had to refuse it."
+Robert: "Understood. I’ll sign for the EUR 20 now. Thank you, Elena."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+Why does Elena refuse Robert's initial request for EUR 50?
+What is the monetary limit for requests without manager authorization?
+What compromise does Elena offer to Robert regarding the cash?
+What condition must be met for Robert to be reimbursed tomorrow?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Imprest System
+Out-of-pocket
+Custodian
+Authorization
+@LINE a. The person responsible for guarding the cash fund.
+@LINE b. Official permission or approval.
+@LINE c. Paid by the employee personally, to be paid back later.
+@LINE d. A method where the cash fund is replenished to a fixed amount.
+@H2 III. Grammar Application
+@LINE Identify the function of the Modal Verbs used in the dialogue (Request, Offer, Permission, Ability):
+@NUM
+"Would you mind completing a voucher?"
+"I can offer to fill out the voucher."
+"May I ask you to make an exception?"
+@PB
+
+@H2 Unit 4: Inventory and Supplies
+@H2 Listening Passage Title: The Supply Room Crisis
+@H2 Context:~The Office Manager, David, is talking to the Inventory Clerk, Sarah, about a shortage of supplies.~
+@BSCRIPT
+David: "Sarah, I’ve just come from the supply room, and I’m concerned. We seem to have a problem with our stock levels. There is very little paper for the main printer, and the sales team is printing a large proposal this afternoon."
+Sarah: "I checked the shelves this morning, David. We have a few boxes of paper in the reserve cupboard, but you are right, the main stack is depleted. The consumption rate this month has been unusually high."
+David: "How much ink do we have? If they are printing a lot of documents, we can’t afford to run out of toner."
+Sarah: "That is the bigger issue. We have too many black cartridges—about twenty of them—but we don’t have any color cartridges left. Someone ordered the wrong type last month. The cyan and magenta are completely out of stock."
+David: "That is not good. We have a lot of money tied up in obsolete stock if those black cartridges don’t fit our new printers. We need to place an order immediately. Could you check the reorder point for the stationery as well?"
+Sarah: "Yes. I did a physical count yesterday. We have plenty of pens, but there are only a few notepads remaining. Also, there is too much coffee in the breakroom; we don’t need to buy any more of that for months. However, regarding the equipment, we have a few broken chairs that need disposal."
+David: "Okay. Let’s focus on the consumables first. Please place an urgent order for the color toner and the paper. Order from the regional supplier, not the overseas one — we do not have time for a customs delay. Do not order any more pens or coffee. We need to reduce the variance between our budget and our actual usage. Also, how many new laptops arrived today? Countable items like that need to be logged in the asset register immediately."
+Sarah: "Five laptops arrived. I will tag them now."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+Why is David worried about the paper supply specifically for this afternoon?
+What is the problem with the ink inventory?
+Which item does the office have "too much" of in the breakroom?
+What instructions does David give regarding the broken chairs?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Reorder Point
+Consumables
+Obsolete
+Physical Count
+@LINE a. Items that are used up quickly (paper, toner).
+@LINE b. Inventory that is old or no longer useful.
+@LINE c. The inventory level that triggers a new purchase.
+@LINE d. The act of manually counting every item in stock.
+@H2 III. Grammar Application
+@LINE Identify whether the following quantifiers describe Countable or Uncountable nouns in the passage:
+@NUM
+"Very little paper"
+"A few boxes"
+"Too many cartridges"
+"How much ink"
+@PB
+
+@H2 Unit 5: Accounts Payable and Receivable
+@H2 Listening Passage Title: The Weekly Cash Flow Meeting
+@H2 Context:~The Finance Director, Ms Lee, is holding a meeting with the Accounts Payable (AP) and Accounts Receivable (AR) leads to plan the week's finances.~
+@BSCRIPT
+Ms Lee: "Good morning, everyone. Let’s look at the schedule for the week. We need to manage our cash flow carefully. John, start with Accounts Payable. What is happening with the payment run?"
+John: "Well, Ms Lee, we are scheduling the main payment run for Thursday afternoon. We have a lot of outstanding invoices. I am going to prioritize the utility bills and the rent, because those are fixed arrangements. We cannot delay them. However, I think we will delay the payment to the stationery vendor until next week. Their invoice is not past due yet."
+Ms Lee: "Okay, delaying the vendor is a good idea. We need to keep cash in the bank. Now, Susan, what about Accounts Receivable? We need inflows. Who are you chasing?"
+Susan: "I am meeting with our largest debtor, Apex Construction, tomorrow morning at 10 AM their time. That is confirmed. They owe us EUR 50,000. I think they will settle the account this week, but they are asking for an extension on the credit terms."
+Ms Lee: "Do not extend the terms. Their debt is already 60 days outstanding. Tell them that if they don’t pay, we are going to suspend their credit. What about the smaller accounts?"
+Susan: "My team is going to send out reminder emails to all clients with invoices over 30 days old. We are doing that this afternoon, in two languages. I predict that this action will bring in about EUR 10,000 by Friday."
+Ms Lee: "Good. So, to summarize: John is paying the utilities on Thursday, and Susan is pushing for the Apex settlement tomorrow. If Apex pays, our cash flow forecast will look positive. If they don’t, we are going to have a difficult meeting with the Group CFO next Monday."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+When is the Accounts Payable payment run scheduled for?
+Which specific payments is John going to prioritize?
+What is Susan doing tomorrow morning at 10 AM?
+What action will the company take if Apex Construction does not pay?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Payment Run
+Debtor
+Settle
+Suspend Credit
+@LINE a. To pay a debt in full.
+@LINE b. A customer who owes money.
+@LINE c. To stop a customer from buying more goods on account.
+@LINE d. The process of paying multiple suppliers at once.
+@H2 III. Grammar Application
+@LINE Identify the Future Form used in these sentences (Will, Going To, or Present Continuous):
+@NUM
+"I am meeting with our largest debtor tomorrow."
+"We are going to suspend their credit."
+"I think they will settle the account."
+@PB
+
+@H2 Unit 6: Errors and Corrections
+@H2 Listening Passage Title: The Reconciliation Anomaly
+@H2 Context:~Two Senior Accountants, Mark and Linda, are analyzing a serious error discovered in the monthly accounts.~
+@BSCRIPT
+Mark: "Linda, have you seen the bank reconciliation report? I found a discrepancy of EUR 5,000 between the ledger and the bank statement."
+Linda: "That is significant. Do you know what caused it?"
+Mark: "I suspect it’s a duplicate payment. I was tracing the transactions this morning. It looks like we paid the cleaning company twice. Once by cheque, and once by wire transfer. If we had segregation of duties, this wouldn’t have happened. One person authorized the payment and the same person processed it."
+Linda: "I agree. If I were the CFO, I would implement a mandatory second signature for all payments over EUR 1,000 immediately. So, what are the consequences now?"
+Mark: "Well, looking at the First Conditional... if we don’t contact the bank today, we will lose the money. The wire transfer is already gone, and it crossed a border. But if the vendor is honest, they will return the funds."
+Linda: "And if they refuse to return it? What would we do then?"
+Mark: "If they refused, we would have to take legal action, in their jurisdiction rather than ours. But that would be expensive. I also found an omission. The bank fees for the wire transfer were not recorded. If we don’t record those fees, our expenses will be understated."
+Linda: "Okay. You need to rectify the entries. Reverse the duplicate journal entry first. Then, investigate why the internal controls failed. If we find that this was intentional fraud rather than just an error, we will have to report it to the authorities. But let’s hope it’s just a mistake."
+Mark: "I’m investigating it now. If I find evidence of fraud, I will report it to you immediately."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What is the specific nature of the EUR 5,000 discrepancy?
+What internal control failure allowed this mistake to happen?
+According to Mark, what will happen if they don't contact the bank today?
+What action does Linda recommend regarding the journal entry?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Duplicate Payment
+Omission
+Segregation of Duties
+Reverse
+@LINE a. Leaving something out (e.g., failing to record a fee).
+@LINE b. To undo a journal entry.
+@LINE c. Separation of tasks to prevent fraud.
+@LINE d. Paying the same invoice twice.
+@H2 III. Grammar Application
+@LINE Identify whether the speakers are using the First Conditional (Real possibility) or Second Conditional (Hypothetical/Advice):
+@NUM
+"If we don't contact the bank today, we will lose the money."
+"If I were the CFO, I would implement a mandatory second signature."
+"If they refused, we would have to take legal action."
+@PB
+
+@H2 Unit 7: Monthly Performance
+@H2 Listening Passage Title: Presenting the Variance Report
+@H2 Context:~The Financial Controller, James, is presenting the monthly financial results to the Operations Manager, Sarah.~
+@BSCRIPT
+James: "Thanks for meeting with me, Sarah. I’ve completed the monthly variance analysis, and I wanted to walk you through the key figures. Overall, it’s a mixed picture."
+Sarah: "Okay, James. Give me the headlines. How did we perform compared to the budget?"
+James: "Let’s start with the good news. Our sales revenue is higher than the budget by 10%. This is the strongest revenue month we have had all year. The new marketing campaign was more effective than we predicted."
+Sarah: "That’s excellent. But I assume there is a 'but'?"
+James: "Yes. While revenue is up, our costs are also up. The most alarming variance is in the shipping department. Shipping costs were 15% higher than last month. It seems we used a more expensive courier service than usual, and a few shipments went by air rather than sea."
+Sarah: "I see. We had to use the express courier because of the rush orders. Is that the largest adverse variance?"
+James: "Actually, no. The payroll expense is the largest adverse variance. We spent EUR 20,000 more on overtime than we planned. It seems your team worked a lot of extra hours. This makes the Operations department the most costly area of the business this month."
+Sarah: "We had to pay overtime to meet the sales demand. But surely the gross profit is still good?"
+James: "Yes. Even with the high costs, our gross profit margin is better than our main competitor’s. But our net profit is lower than forecasted because of the overtime. We need to be more efficient next month. The electricity bill was also higher than expected, but that is less significant than the payroll issue."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+How did the sales revenue compare to the budget?
+What reason is given for the high shipping costs?
+Which expense category had the largest adverse variance?
+How does the company's gross profit compare to their competitor's?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Adverse Variance
+Favorable Variance
+Forecast
+Actuals
+@LINE a. The predicted financial figures.
+@LINE b. The real financial results that occurred.
+@LINE c. A difference that reduces profit (e.g., higher costs).
+@LINE d. A difference that increases profit (e.g., higher sales).
+@H2 III. Grammar Application
+@LINE Identify whether the comparison used is a Comparative (comparing two) or a Superlative (comparing three or more/the absolute):
+@NUM
+"Revenue is higher than the budget."
+"This is the strongest revenue month."
+"The most alarming variance."
+"Gross profit is better than our competitor's."
+@PB
+
+@H2 Unit 8: The Accounting Cycle
+@H2 Listening Passage Title: Training the New Hire
+@H2 Context:~A Senior Accountant, Lisa, is explaining the closing process to a trainee, Alex. She is describing the steps in the passive voice.~
+@BSCRIPT
+Lisa: "Alex, sit down. Today we are going to review the month-end closing cycle. It is important that you understand the sequence because strict procedures must be followed in every one of our offices."
+Alex: "I’m ready. Where does the process start?"
+Lisa: "It starts with the source documents. Throughout the month, all invoices and receipts are collected and scanned. Then, the transactions are analyzed and journalized. That means the data is entered into the system daily. Nothing is left until the last minute."
+Alex: "Okay. And after they are entered?"
+Lisa: "Once the data is entered, it is posted to the General Ledger. This updates the account balances. At the end of the month, the unadjusted trial balance is generated. This document is checked for errors. If the debits and credits do not match, the discrepancy is investigated immediately."
+Alex: "And what about things like depreciation? They aren’t on the invoices."
+Lisa: "Exactly. That is the next step. Adjusting entries are made for depreciation, prepaid expenses, and accruals. These figures are derived from our internal schedules. After the adjustments are posted, the adjusted trial balance is prepared."
+Alex: "And then we create the financial statements?"
+Lisa: "Yes. The Income Statement and Balance Sheet are prepared from the adjusted figures. Local balances are translated into the reporting currency before they are consolidated. Finally, the books are closed. The temporary accounts—revenue and expenses—are closed to Retained Earnings. The final report is then reviewed by the Group CFO. The entire package must be approved before we send it to the investors."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What happens to the transactions after they are analyzed?
+When is the unadjusted trial balance generated?
+Where are figures for depreciation derived from?
+Who reviews the final report?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Posted
+Derived
+Adjusting Entries
+Closing the Books
+@LINE a. Calculated or obtained from a source.
+@LINE b. Entries made to update accounts like depreciation.
+@LINE c. Transferring entries to the General Ledger.
+@LINE d. The process of zeroing out temporary accounts.
+@H2 III. Grammar Application
+@LINE Identify the Passive Voice structures in the following sentences from the text:
+@NUM
+"Strict procedures must be followed."
+"The data is entered into the system."
+"The discrepancy is investigated immediately."
+@PB
+
+@H2 Unit 9: Professional Development
+@H2 Listening Passage Title: The Job Interview
+@H2 Context:~An interview for a Senior Accountant position. The Interviewer, Ms Gomez, is speaking with the candidate, Mr Chen.~
+@BSCRIPT
+Ms Gomez: "Thank you for coming, Mr Chen. I’ve reviewed your CV, and it looks impressive. I’d like to discuss your experience in more detail. How long have you worked in the accounting field?"
+Mr Chen: "I have worked in accounting for seven years. I started as a Junior Bookkeeper, but I have been a Management Accountant since 2020."
+Ms Gomez: "Excellent. And what about your software skills? Have you ever used SAP or Oracle?"
+Mr Chen: "I have used Oracle for the last three years. I haven’t used SAP yet, but I have utilized similar ERP systems, so I am confident I can learn it quickly. I have also mastered advanced Excel functions like macros and pivot tables."
+Ms Gomez: "That is very useful. We are currently migrating our data, so those skills are needed. Tell me about a significant achievement in your last role."
+Mr Chen: "Well, recently, I have successfully streamlined the month-end reporting process. When I joined, it took five days to close the books. I have reduced that time to two days. Also, I have just obtained my CPA certification last month. It was a lot of work, but I am proud of it."
+Ms Gomez: "Congratulations. That shows dedication. What about Continuous Professional Education? How do you keep your skills up to date?"
+Mr Chen: "I have attended several seminars on the new tax regulations this year, in two countries. I believe in up-skilling constantly. I haven’t completed my ethics module for this year yet, but I have registered for the course next week."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+How long has Mr Chen been working as a Management Accountant?
+Which software package has Mr Chen not used yet?
+What specific achievement did Mr Chen mention regarding the month-end process?
+What has Mr Chen just obtained last month?
+@H2 II. Vocabulary Context
+@LINE Match the terms mentioned in the audio to their context:
+@NUM
+Up-skilling
+CPA
+Streamlined
+Mastered
+@LINE a. Made a process more efficient and faster.
+@LINE b. To become an expert in a skill.
+@LINE c. Certified Public Accountant.
+@LINE d. Learning new skills to improve professional ability.
+@H2 III. Grammar Application
+@LINE Identify the use of the Present Perfect Simple in the text (e.g., Unfinished time, Experience, Recent result):
+@NUM
+"I have worked in accounting for seven years."
+"I have just obtained my CPA certification."
+"Have you ever used SAP?"
+@PB
+
+@H2 Unit 10: Reporting to Management
+@H2 Listening Passage Title: The Emergency Debrief
+@H2 Context:~The Finance Manager, Sarah, has just returned from a closed-door meeting with the Board. She is briefing her team on the directives she received.~
+@BSCRIPT
+Sarah: "Okay everyone, please gather round. I’ve just come from the meeting with the Group CFO and the Board. I need to relay exactly what was discussed because there are some urgent changes. Please take notes."
+Team Member: "Is it bad news, Sarah?"
+Sarah: "It is serious. The Group CFO stated that our Q3 revenue was below target. He emphasized that we had to take immediate action to protect our profit margin. He didn’t just ask for ideas; he mandated that we cut operating costs by 10% immediately, in every market."
+Team Member: "Does that mean a hiring freeze?"
+Sarah: "Yes. The CEO confirmed that a hiring freeze was in effect as of this morning. She explained that they were not going to approve any new contracts until the new year. She also clarified that this applied to the new intern program as well. We have to cancel the offers."
+Team Member: "What about the software migration project? We’ve already started it."
+Sarah: "I asked about that. The Board inquired whether the project was critical for compliance. When I told them it was, in three jurisdictions, they agreed that we could continue. However, they requested that we submit a revised budget for the project by Friday. They warned that if the budget goes over, they would cancel it."
+Team Member: "Okay. Anything else?"
+Sarah: "One last thing. The Auditor asserted that our documentation for travel expenses was poor. He said that we had to improve our filing immediately. So, my instruction to you is: check every receipt."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What did the Group CFO mandate regarding operating costs?
+What did the CEO confirm regarding new contracts?
+What condition did the Board place on the software migration project?
+What complaint did the Auditor make?
+@H2 II. Vocabulary Context
+@LINE Match the reporting verbs mentioned in the audio to their context:
+@NUM
+Mandated
+Clarified
+Inquired
+Asserted
+@LINE a. To ask for information.
+@LINE b. To state a fact forcefully/confidently.
+@LINE c. To give an official order.
+@LINE d. To make a statement clear/less successful.
+@H2 III. Grammar Application
+@LINE Convert the Reported Speech from the text back into Direct Speech:
+@NUM
+"He mandated that we cut operating costs by 10%." -> He said: "You must..."
+"The CEO confirmed that a hiring freeze was in effect." -> The CEO said: "A hiring freeze..."
+"They warned that if the budget goes over, they would cancel it." -> They said: "If the budget..."
+@PB

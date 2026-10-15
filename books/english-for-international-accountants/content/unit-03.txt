@@ -1,0 +1,376 @@
+@PB
+@UNITHEAD 3 | Petty Cash and Office Expenses
+@LINE Theme: Handling small payments, requesting approvals, dealing with suppliers for low-value goods, and processing reimbursement.
+@LINE Grammar Focus: Modals of Request and Offer (Could, Would, May, Can) – Essential for polite, professional communication.
+@LINE Communicative Focus: Asking for authorization, offering reimbursement, requesting receipts from staff.
+@PB
+
+@WARMUP 3 | The Small Money
+@TASK Task 1: The Petty Cash Fund
+@LABEL Context | Petty cash is a small amount of cash kept on hand for minor expenses and emergencies. Each Northwind office keeps its own float, in its own currency.
+@LINE Discuss in small groups:
+@BULLET
+Name three examples of office expenses that would typically be paid for using petty cash.
+What is the maximum limit for a petty cash expenditure in your company/country?
+Who is responsible for managing and safeguarding the petty cash fund?
+If the cash on hand does not match the total of receipts, what is that difference called?
+@TASK Task 2: Procurement Terminology
+@LINE The following terms relate to small-scale purchasing and supplier interactions. Match the term on the left to its definition on the right.
+@TABLE Term | Definition
+1. Reimbursement | a. An amount set aside to cover the cost of small expenditures.
+2. Petty Cash Voucher | b. The process of giving money back to an employee for out-of-pocket expenses.
+3. Fund Custodian | c. A document used to record a payment made from the small cash box.
+4. Imprest System | d. The individual responsible for operating and tracking the small cash box.
+5. Replenishment | e. A system where the fund is restored to its fixed amount periodically.
+6. Office Supplies | f. Low-value, non-inventory items needed for daily administrative work (e.g., paper, pens).
+
+@TASK Task 3: Dealing with Difficult Requests
+@LINE Think-Pair-Share:
+@BULLETLABEL
+Think: An employee asks you to reimburse them for a coffee they bought for themselves, but they lost the receipt. How do you politely request the original receipt?
+@BULLETLABEL
+Pair: Discuss with a partner: A vendor offers a small, unrecorded discount for paying cash immediately. How would you politely refuse the offer and request a formal invoice?
+@BULLETLABEL
+Share: Share your ideas with the class, focusing on using polite language (e.g., "Would you be able to provide the original receipt?" or "Could we please stick to the formal invoicing process?").
+
+@PART 1 | 3 | VOCABULARY – Expenses and Authorization
+@TASK 1A. Terms for Payment and Documentation
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Authorization | a. The process of restoring the small cash box to its original balance.
+2. Vendor | b. Permission or formal consent to proceed with an action or payment.
+3. Out-of-Pocket | c. A person or company supplying goods or services.
+4. Replenishment | d. A small monetary bonus or reduction given by a supplier.
+5. Discount | e. Paid for by the employee personally, expecting to be paid back later.
+6. Float | f. The amount of cash set aside for small daily payments.
+
+@TASK 1B. Transaction Verbs
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | request, , pay, approve, document, reconcile, issue
+@NUM
+We need the Financial Controller to approve the purchase order immediately.
+The custodian will request cash from the general cashier.
+We must document every expense, even the small ones.
+The accounts payable department will issue the payment to the supplier next week.
+I must pay for these stationery items from my own wallet first.
+It is the custodian's duty to reconcile the fund weekly.
+
+@TASK 1C. Vocabulary in Context: Petty Cash Memo
+@LINE Fill in the blanks with the correct word from the box:
+@BOLD limit, voucher, custodian, original, discrepancy, account
+@LINE Memo: Petty Cash Procedure Reminder
+@LINE To the (1) __________: Please remember that the daily (2) __________ for a single petty cash expenditure is EUR 50, or the local equivalent. You must prepare a (3) __________ for every payment and ensure that the (4) __________ receipt is securely attached. If there is a (5) __________ during (6) __________ reconciliation, it must be reported to the Group Finance Manager immediately.
+
+@TASK 1D. Collocations for Requests and Offers
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Grant | a. a payment deadline
+2. Offer | b. an original receipt
+3. Request | c. authorization
+4. Extend | d. a reimbursement
+5. Verify | e. a small discount
+6. Process | f. the final balance
+@LABEL Practice | Use two of these phrases in a sentence about a supplier.
+@LABEL Example | "The supplier offered a small discount if we extended the payment deadline."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLEB Verb | Noun | Related Term | Sentence Example
+Authorize | Authorization | Authority | "We need official authorization before payment."
+Reimburse | _________ | Reimbursable | "The reimbursement will be processed next Friday."
+Approve | _________ | Approved | "The Financial Controller's approval is required for the claim."
+Supply | Supplier | _________ | "The supply of stationery is running low."
+Replenish | _________ | Replenished | "The fund replenishment happens every Monday."
+@PB
+
+@PART 2 | 3 | GRAMMAR – Modals of Request and Offer (Could, Would, May, Can)
+@TASK 2A. Grammar Context: Professional Politeness
+@LINE Modals are used in accounting communication to ensure professionalism and politeness when asking for approvals, offering help, or making formal requests.
+@SCRIPT
+Accountant: "May I ask you to sign this petty cash voucher? Could you please attach the original receipt? I can offer to process your reimbursement immediately, but would you mind filling in the expense form first? You can find the form on the shared drive."
+@BLABEL Analysis
+@BULLET
+Underline the *modal verbs* (e.g., ~May, Could, Can, Would~).
+Which modals are used for making a request? Which are used for making an offer?
+Which modal is the most formal way to ask for permission?
+What is the difference in formality between ~Can you...?~ and ~Could you...?~
+
+@TASK 2B. Grammar Focus Box: Modals of Request and Offer
+@TABLEB Function | Modal | Structure | Formality/Usage | Example (Accounting Context)
+Formal Request | May | May I + base verb...? | Very formal. Asking permission. | "*May* I *request* the expense report by 4 PM?"
+Polite Request | Could | Could you + base verb...? | Polite and professional. | "*Could* you *verify* the vendor details on this invoice?"
+Stronger Request | Would | Would you + base verb...? Would you mind + -ing? | Polite. Often used for favor or commitment. | "*Would* you *mind* signing the *voucher* now?"
+Informal Request | Can | Can you + base verb...? | Informal/Friendly. Also used for ability. | "*Can* you *check* the cash balance now?"
+Offer/Willingness | Can | I can + base verb... | Offering assistance or capability. | "I *can offer* to *process* the *reimbursement* today."
+
+@TASK 2C. Guided Practice
+@LINE Complete the requests and offers using the most appropriate modal (Could, May, Can, or Would). (Only the first one is done for you).
+@NUM
+Could you check the petty cash balance right now? (Polite Request)
+I ____________________ process the replenishment for you this afternoon. (Offer)
+____________________ you mind filling in the date on this voucher? (Stronger Request / Favor)
+____________________ I ask the custodian to reconcile the fund before lunch? (Formal Request / Permission)
+____________________ you extend the payment deadline for these office supplies? (Polite Request to a supplier)
+We ____________________ offer you a 5% discount for immediate payment. (Offer)
+
+@TASK 2D. Sentence Transformation
+@LINE Rewrite the sentences using the modal verb in parentheses.
+@BULLETLABEL
+Original: Is it possible for me to request the authorization now? (MAY)
+Modal: May I request the authorization now?
+Original: Please check if the receipt is the original document. (COULD)
+Modal: ____________________ (check) if the receipt is the original document?
+Original: I am happy to pay the vendor today. (CAN)
+Modal: I ____________________ (pay) the vendor today.
+
+@TASK 2E. Speaking: Formal and Informal Requests
+@LINE In pairs, practice requesting the following items/actions, alternating between formal (May/Could) and informal (Can).
+@BULLETLABEL
+Request 1: The Financial Controller's signature for a EUR 400 expense claim.
+@SUBLABEL
+~Formal Example:~ "May I ask you to approve this claim now, please?"
+@BULLETLABEL
+Request 2: The original receipt for a taxi fare from a colleague.
+@BULLETLABEL
+Request 3: For the custodian to reconcile the fund at the end of the day.
+@BULLETLABEL
+Request 4: To look at the day's petty cash vouchers.
+@PB
+
+@PART 3 | 3 | LISTENING – Handling Requests
+@TASK 3A. Passage 1: Requesting Reimbursement (Functional)
+@LABEL Context | An employee asks the petty cash custodian for money back.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Employee: "Could you please process my reimbursement for the printer toner? It was an out-of-pocket expense of EUR 65. I have the original receipt here. I also need to request authorization for a EUR 100 payment for new courier services. Would you mind calling the Financial Controller for approval?"
+Custodian: "Can I see the receipt first? Thank you. I can offer to process the toner payment immediately. However, for the EUR 100 courier service, you must complete a purchase voucher first."
+@BLABEL Comprehension Questions (Use Modals in your answer)
+@NUM
+What could the employee request the custodian do?
+What did the employee pay for as an out-of-pocket expense?
+What can the custodian offer to do immediately?
+What must the employee do for the EUR 100 courier payment?
+What did the employee ask the custodian to do regarding the Financial Controller?
+
+@TASK 3B. Passage 2: Dealing with a Supplier (Operating Context)
+@LABEL Context | An accountant calls a vendor to ask for a new invoice.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Accountant: "Good morning, this is the accounting department at Northwind Group. Could we get a new invoice for the cleaning services from last month? The original is missing some authorization detail. Also, we noticed a small overcharge. Would you be willing to offer a discount if we pay in full today? I can process the full amount immediately if the discount is applied."
+@BOLD True or False:
+@TFBOX
+The accountant is requesting a new invoice because the original was lost.
+The original invoice was missing some authorization detail.
+The accountant could offer to pay in full next week.
+The accountant asked the supplier to remove the overcharge.
+The accountant used polite modals to make his requests.
+
+@TASK 3C. Passage 3: Replenishing the Fund (Financial Context)
+@LABEL Context | The fund custodian reports to the Financial Controller about the petty cash balance.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Custodian: "The petty cash fund is almost empty. I have EUR 50 left, and the float is EUR 500. May I request a replenishment of EUR 450? I have all the vouchers and receipts and have reconciled the fund. Would you mind reviewing the account ledger now and granting approval? If you authorize it, I can pick up the cash from the general cashier this afternoon."
+@BOLD Fill in the Custodian's Report (Use Modals):
+@BULLETLABEL
+Requesting Cash: ____________________ I request a replenishment of EUR 450?
+@BULLETLABEL
+Asking for Approval: ____________________ you mind reviewing the account ledger now?
+@BULLETLABEL
+Offering Action: I ____________________ pick up the cash this afternoon.
+@BULLETLABEL
+Confirmation: If you ____________________ it, I can pick up the cash.
+@PB
+
+@PART 4 | 3 | SPEAKING – Formal Requests and Offers
+@TASK 4A. Functional Language: Degree of Formality
+@LINE Practice using these structures with a partner.
+@TABLE High Formality (May / Would) | Medium Formality (Could) | Low Formality (Can)
+"May I ask for your authorization?" | "Could you send the receipt by email?" | "Can I get the forms from you later?"
+"Would you mind waiting five minutes?" | "Could we verify the original receipt?" | "I can offer to reimburse you now."
+
+@TASK 4B. Role-Play 1: Requesting Authorization
+@LABEL Scenario | Ask the Financial Controller for authorization for a EUR 450 payment to a vendor (above petty cash limit).
+@LINE Student A (Accountant): Ask for authorization politely (Could). Explain why you need it quickly.
+@LINE Student B (Financial Controller): Ask a clarifying question (Can/Would you mind). Grant the approval (Can).
+@BULLETLABEL
+A: "Could you approve this EUR 450 payment to the stationery vendor? We need the supplies urgently.
+@BULLETLABEL
+B: "Would you mind double-checking that the account code is correct? If it is, I can authorize it right away."
+
+@TASK 4C. Role-Play 2: The Missing Receipt
+@LABEL Scenario | A colleague is demanding reimbursement but only has a photocopy of the receipt.
+@LINE Student A (Custodian): Explain that you require the original receipt. Request the original politely (Could). Offer to process the reimbursement quickly once received (Can offer).
+@LINE Student B (Employee): Offer an alternative (Would). Explain what happened to the original.
+@BULLETLABEL
+A: "Could you please provide the original receipt? We must document the expense. I can offer to process the reimbursement as soon as you bring it in.
+@BULLETLABEL
+B: "I lost the original. Would you accept a signed note from my manager instead?
+
+@TASK 4D. Presentation: "Managing the Office Float"
+@LABEL Task | You have 60 seconds to explain the three main procedures for managing the petty cash float. Use Modals of Request and Offer where appropriate.
+@LABEL Structure
+@NUM
+Opening: The petty cash float is EUR 200.
+Procedure 1 (Request): "Could employees limit single expenses to EUR 50?"
+Procedure 2 (Offer): "We can offer immediate reimbursement once the voucher is signed."
+Procedure 3 (Duty): "The custodian must reconcile the fund weekly, and may request replenishment from the general cashier."
+@PB
+
+@PART 5 | 3 | READING – Petty Cash Procedures
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the difference between a petty cash voucher and a petty cash receipt?
+Why is it important to have an established limit for petty cash expenditures?
+How can poor management of the float affect the final financial statements?
+
+@TASK 5B. Reading Passage 1: Setting the Fund Limit
+@LINE Read the policy on establishing and maintaining the petty cash fund.
+@LINE The Finance Department set the petty cash float at a maximum limit of EUR 500, or the local equivalent in each office. This imprest system ensures that cash is available for minor expenses, such as courier services and small office supplies. The custodian may request replenishment when the cash on hand falls to EUR 100. Could the custodian ensure that all payments are documented with a signed voucher? The general cashier can only issue cash for replenishment if the total vouchers plus the cash on hand equals the float limit.
+@BLABEL Comprehension Questions (Use Modals in your answer)
+@NUM
+What is the maximum limit for the float?
+What may the custodian request when the cash on hand falls to EUR 100?
+What could the custodian ensure is done with all payments?
+What must the vouchers plus the cash on hand equal?
+What can the general cashier issue cash for?
+@LABEL Grammar Check
+@LINE Find three examples of Modals of Request or Permission in the passage.
+
+@TASK 5C. Reading Passage 2: Reimbursement and Documentation
+@LINE Read the procedure for employee reimbursement.
+@LINE All employees must submit a completed expense claim form for reimbursement of out-of-pocket expenditures. Would employees please attach the original receipt to the claim? We cannot process photocopies. If the expense exceeds the small purchase limit of EUR 100, management must provide formal authorization. The finance team can offer to process reimbursement every Friday. Could you ensure that the correct expense account code and the correct currency are used on the form?
+@BLABEL Comprehension Questions
+@NUM
+What must employees submit for reimbursement?
+What would employees be asked to attach to the claim?
+What cannot the finance team process?
+When can the finance team offer to process reimbursement?
+What is required if the expense exceeds EUR 100?
+
+@TASK 5D. Reading Passage 3: Dealing with Vendor Discounts
+@LINE Read the advice on negotiating with suppliers for small purchases.
+@LINE When dealing with a vendor for office supplies, polite negotiation is possible. You could request a small cash discount for immediate payment, but you must ensure the vendor issues a formal, itemized invoice. Would they be willing to extend the payment terms to 30 days? That is another option. We must not accept informal receipts or verbal agreements. The entire transaction must be documented. Could we offer to sign a long-term supply contract to gain a better discount?
+@BLABEL Comprehension Questions (Use Modals in your answer)
+@NUM
+What could you request from the vendor?
+What must you ensure the vendor issues?
+What would the vendor be asked to do with the payment terms?
+What must not the company accept?
+What could the company offer to gain a better discount?
+@PB
+
+@PART 6 | 3 | WRITING – Office Correspondence
+@TASK 6A. Guided Writing: Paraphrasing (Modals)
+@LABEL Task | Paraphrase the following statements using the modal in parentheses. (Only the first one is done for you).
+@NUM
+I need the Financial Controller to sign the voucher. (COULD) -> Could you sign the voucher, please?
+Is it alright if I process your payment now? (MAY) -> ____________________ I process your payment now?
+We are happy to give you the cash back today. (CAN) -> We ____________________ offer to reimburse you today.
+
+@TASK 6B. Writing Task 1: Requesting a Missing Receipt
+@LABEL Scenario | Write a short email (50–60 words) to a colleague politely requesting the original receipt for a EUR 45 expense.
+@LINE Include:
+@BULLET
+State the purpose of the email.
+Use Could or Would to make the request.
+Explain why the original is required for reimbursement.
+Offer assistance (Can offer).
+@BULLETLABEL
+Example: "Hi Tomás, Could you please provide the original receipt for the EUR 45 taxi fare? We must attach the original to the voucher for the audit. I can offer to process your reimbursement as soon as you bring it in. Would you mind checking your files this morning?"
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Modals of Request and Offer) in the following memo draft. (Only the first one is corrected).
+@LINE Subject: Petty Cash Replenishment
+@LINE Dear Aoife,
+@NUM
+Can I to request the replenishment now? -> Can I request the replenishment now?
+You would sign this voucher?
+May you check the cash balance for me?
+I could to offer assistance with the reconciliation.
+Would you mind to issue the payment to the vendor?
+
+@TASK 6D. Writing Task 3: Formal Note to the Custodian
+@LABEL Scenario | Write a formal note (80 words) to the new petty cash custodian, explaining the imprest system and the two main rules using polite requests and permissions.
+@LABEL Focus | Use May, Could, and Must.
+@BULLETLABEL
+Example: ~"To: Petty Cash Custodian, From: Group Finance Manager. The float limit is EUR 750 under the imprest system. Could you please ensure that all funds are reconciled weekly? You must attach an original voucher for every payment. May I ask you to review the official procedures? You may request replenishment only when the cash on hand is below EUR 100."~
+@PB
+
+@PART 7 | 3 | PRONUNCIATION – Stress and Modals
+@TASK 7A. Syllable Stress: Authorization and Approval
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Au-thor-i-za-tion
+Ap-pro-val
+Re-im-burse-ment
+Vend-or
+Cus-to-dian
+
+@TASK 7B. Pronunciation of Modals
+@LABEL Explanation | When modals are used for emphasis (especially for a formal request), they are usually stressed. When they are used in a general, quick speech, they are often reduced.
+@LABEL Practice | Read the sentences, stressing the modal verbs (e.g., if you sound insistent).
+@BULLET
+"Could you check the balance?"
+"May I request the form?"
+"I can offer the discount."
+
+@TASK 7C. Intonation: Polite Request vs. Command
+@LABEL Context | Use rising intonation for polite requests (Could/Would) and falling intonation for statements of ability or offers (Can/May).
+@LABEL Practice | Read these lines:
+@BULLETLABEL
+Polite Request (Rising): "Could you please verify the original receipt? (↗)"
+@BULLETLABEL
+Offer (Falling): "I can process your reimbursement today." (↘)
+@BULLETLABEL
+Formal Permission (Rising/Level): "May I request the cash float now? (↗)"
+
+@TASK 7D. Fluency Drill: Office Supplies Order
+@LABEL Task | Read the following passage, maintaining a polite and professional tone, ensuring correct stress on the modals.
+@LINE "We need to order more office supplies. Could you check the inventory levels? I can offer to call the vendor immediately. Would you mind if I requested a 10% discount? I will also ask them if they could extend the payment terms. We must ensure we get the best deal."
+@PB
+
+@PART 8 | 3 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the term to the correct concept.
+@TABLE Term | Concept
+1. The small cash amount. | a. Out-of-Pocket
+2. Formal consent to pay. | b. Reimbursement
+3. Paid by the employee first. | c. Petty Cash
+4. Getting money back from the company. | d. Imprest System
+5. System where the fund is fixed. | e. Authorization
+6. Document for a cash withdrawal. | f. Voucher
+
+@TASK 8B. Grammar Quiz
+@LINE Choose the correct structure for the modal verb. (Only the first one is done for you).
+@NUM
+Would you mind signing the voucher? (mind / sign)
+Could you to check the account code for me? (check)
+I can offer processing your reimbursement now. (process)
+May I to request the official approval? (request)
+Would you be able to find the original receipt? (find)
+
+@TASK 8C. Real-Life Simulation: The Annual Audit
+@LABEL Scenario | An external auditor is checking the petty cash records and asks you about the procedures.
+@LINE Roles:
+@BULLETLABEL
+Auditor (Student A): Use polite modals to request documents and ask about the process. ("Could you provide the voucher from March 12th? May I ask who the fund custodian is?")
+@BULLETLABEL
+Accountant (Student B): Use Can to offer documents and Would to explain the procedure. ("I can get you that voucher immediately. Would you like me to explain the replenishment procedure?")
+
+@TASK 8D. Extension Writing: Instructions for Suppliers
+@LABEL Task | Write a short instruction sheet (80 words) to a new vendor, explaining the company's requirements for payment documentation. Use Modals of Request.
+@BULLETLABEL
+Example: ~"To our new vendors: Could you please ensure that all invoices are itemized? Would you mind sending the original invoice as a PDF? We can process payment within 14 days, but we must have the correct P.O. number for authorization. Could you also confirm the bank account details and the currency on the invoice?"~
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can explain the role of petty cash and the imprest system.
+I can define and use vocabulary related to reimbursement and authorization.
+I can use Can/May to ask for permission or make an offer.
+I can use Could/Would to make a polite professional request.
+I can politely request a missing original receipt from a colleague.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "In a modern digital accounting system, is a physical petty cash float still necessary? Why or why not? What could a company do to replace the float system? Would this change make the process more or less secure?"

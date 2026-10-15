@@ -1,0 +1,475 @@
+@PB
+@UNITHEAD 1 | The Accounting Office – Daily Routines
+@LINE Theme: Daily routines, bookkeeping tasks, and the role of a junior accountant in a shared service centre.
+@LINE Grammar Focus: Present Simple vs. Present Continuous.
+@LINE Communicative Focus: Introducing yourself, describing daily responsibilities (ledger entry, filing), and explaining current tasks.
+@PB
+
+@WARMUP 1 | The Morning Routine
+@TASK Task 1: The Daily Checklist
+@LABEL Context | In a busy shared service centre, organization is key.
+@LINE Discuss in small groups:
+@LINE Imagine you have just arrived at your desk at 8:30 AM in Kraków. Dublin is one hour behind you and Singapore is six hours ahead.
+@BULLET
+What are the first three things you do before you start working on numbers? (e.g., ~Check emails, turn on accounting software, check the "In-Tray"~).
+How do you organize your physical receipts vs. your digital files?
+@BULLETLABEL
+Brainstorm: List 5 verbs related to your daily work (e.g., ~calculate, check, file, enter, print~).
+
+@TASK Task 2: Tools of the Trade
+@LINE Match the office tool to its primary function:
+@TABLE Tool | Primary Function
+1. Spreadsheet Software | a. To keep physical copies of invoices organized by date or vendor.
+2. Accounting Software (the group ERP) | b. To create quick calculations and check totals manually.
+3. Ring Binder / File | c. To shred confidential financial documents.
+4. Calculator | d. To analyze data, create tables, and use formulas.
+5. Shredder | e. To record official double-entry transactions and run reports.
+
+@TASK Task 3: The "Junior" Role
+@LINE Think-Pair-Share:
+@BULLETLABEL
+Think: What is the difference between a "Bookkeeper" and a "Financial Controller"?
+@BULLETLABEL
+Pair: Discuss with a partner: Who handles the small details (receipts) and who handles the big picture (strategy)?
+@BULLETLABEL
+Share: Share your ideas with the class.
+@PB
+
+@PART 1 | 1 | VOCABULARY – The Language of Bookkeeping
+@TASK 1A. Defining the Basics
+@LINE Match the accounting terms to their definitions.
+@TABLE Term | Definition
+1. Invoice | a. A book or digital file where accounts and transactions are recorded.
+2. Receipt | b. An entry that increases an asset or expense account.
+3. Ledger | c. A document sent by a seller to a buyer requesting payment.
+4. Transaction | d. Something valuable that a business owns (e.g., cash, computer).
+5. Asset | e. An entry that increases a liability or equity account.
+6. Liability | f. Any business event that has a monetary impact (e.g., buying paper).
+7. Debit | g. A written acknowledgment that a specified article or sum of money has been received.
+8. Credit | h. A debt or financial obligation the company owes (e.g., unpaid bills).
+
+@TASK 1B. Professional Roles in the Office
+@LABEL Activity | Read the descriptions and identify the job title.
+@LABEL Words | Payroll Clerk, Accounts Payable Clerk, Tax Accountant, Auditor, Bookkeeper.
+@LINE "I calculate wages and ensure everyone gets their salary on time, in five different payroll systems." ____________________
+@LINE "I enter daily data, record receipts, and reconcile the bank accounts." ____________________
+@LINE "I process invoices coming in from suppliers and schedule payments." ____________________
+@LINE "I check the company's financial records to ensure they are accurate and follow the rules." ____________________
+@LINE "I prepare the government returns and calculate how much tax each company owes." ____________________
+
+@TASK 1C. Vocabulary in Context: The New Hire
+@LINE Fill in the blanks with the correct word:
+@BOLD reconcile, entry, database, filing, double-check, post
+@LINE Internal Email: Welcome to the Team
+@LINE To: All Staff
+@LINE We are pleased to welcome our new Junior Accountant, Daniel Okoye, who joins the Nairobi office this week.
+@LINE His main duties will include data (1) __________ into our group system. He will (2) __________ supplier invoices to the correct ledger accounts.
+@LINE Every Friday, he will (3) __________ the petty cash to ensure the physical money matches the records. Please help him with the (4) __________ of physical receipts in the archive room.
+@LINE Accuracy is vital, so he will (5) __________ all figures before submitting them to the Senior Accountant in Kraków. Please verify that your supplier details are correct in the (6) __________.
+
+@TASK 1D. Collocations for Daily Tasks
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Post | a. a discrepancy / an error
+2. Reconcile | b. a report / a financial statement
+3. Process | c. a transaction to the ledger
+4. File | d. an invoice for payment
+5. Prepare | e. a tax return / a document
+6. Spot | f. a bank account
+@LABEL Practice | Use two of these phrases in a sentence about your own job.
+@LABEL Example | "Every Monday, I process invoices and file tax returns."
+
+@TASK 1E. Word Building: Action vs. Thing
+@LINE Complete the table.
+@TABLE Verb (The Action) | Noun (The Thing/Person) | Sentence Example
+Calculate | Calculator / Calculation | "I used a calculator for this math."
+Record | _________ | "Keep a _________ of every expense."
+Pay | _________ | "The _________ is due tomorrow."
+Audit | _________ | "The _________ is checking our books."
+Analyze | _________ | "The _________ showed a profit."
+@PB
+
+@PART 2 | 1 | GRAMMAR – Present Simple vs. Present Continuous
+@TASK 2A. Grammar Context: Routine vs. Right Now
+@LINE Read the dialogue between a Senior Accountant (Marta, in Kraków) and a Junior (Daniel, in Nairobi).
+@SCRIPT
+Marta: "Daniel, do you check the bank statements every morning?"
+Daniel: "Yes, I do. I usually download them at 9:00 AM my time. But right now, I am fixing a printer error, so I am a bit late."
+Marta: "Okay. What is Priya doing?"
+Daniel: "She is meeting with a supplier on a video call. They are discussing the payment terms."
+Marta: "I see. We generally hold supplier calls on Tuesdays, but this week is busy."
+@BLABEL Analysis
+@BULLET
+Underline verbs describing *habits/routines* (Present Simple).
+Circle verbs describing *actions happening now* (Present Continuous).
+
+@TASK 2B. Grammar Focus Box
+@TABLEB Tense | Function | Time Words | Example
+Present Simple | Routines, facts, permanent situations, schedules. | ~usually, always, daily, every month, often~ | "I *post* invoices every Friday." // "The office *opens* at 8 AM."
+Present Continuous | Actions happening *now*, temporary situations, current projects. | ~currently, at the moment, right now, today, this week~ | "I *am reconciling* the bank." // "We *are using* new software this month."
+@LABEL Note on Stative Verbs | Verbs of thinking/owning (know, owe, own, cost, understand) are almost always Simple, even if happening now.
+@LINE Correct: "We owe the supplier EUR 500."
+@LINE Incorrect: "We are owing the supplier EUR 500."
+
+@TASK 2C. Guided Practice
+@LINE Choose the correct tense for these sentences:
+@NUM
+The Financial Controller in Dublin (approves / is approving) expenses every Monday.
+Look! The auditors (arrive / are arriving) at the reception.
+Currently, we (update / are updating) our filing system.
+Standard invoices (contain / are containing) the tax registration number.
+I (do not understand / am not understanding) this journal entry.
+She (talks / is talking) to the bank in Toronto on the phone right now.
+
+@TASK 2D. Sentence Transformation
+@LINE Change the sentences from Routine (Simple) to Current/Temporary (Continuous), or vice versa.
+@BULLETLABEL
+Routine: I check the post box every morning.
+Current: I am checking the post box right now.
+Current: He is typing a report.
+Routine: He types a report every month.
+Routine: We pay suppliers on Fridays.
+Current: ____________________________________________________
+Current: I am learning how to use the new consolidation module.
+Routine: ____________________________________________________
+
+@TASK 2E. Speaking: The "Busy Office" Game
+@LINE In pairs, ask and answer:
+@BULLETLABEL
+General Duty: "What do you do?" (Use Present Simple).
+@SUBLABEL
+Response: "I am a bookkeeper. I record transactions."
+@BULLETLABEL
+Current Activity: "What are you doing at the moment?" (Use Present Continuous).
+@SUBLABEL
+Response: "I am searching for a missing receipt under my desk."
+@PB
+
+@PART 3 | 1 | LISTENING – Office Communications
+@TASK 3A. Passage 1: Instructions from the Senior (Functional)
+@LABEL Context | A Senior Accountant (Marta) is giving instructions to a new trainee (Ryan) about filing.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Marta: Ryan, listen carefully. This is how we organize the archives.
+Ryan: I'm listening.
+Marta: We keep the invoices in these blue folders. We arrange them alphabetically by supplier name, not by date.
+Ryan: Okay. Alphabetically. And what about the bank statements?
+Marta: Those go in the red binders, one binder per company. Currently, we are digitizing everything, so please scan them first.
+Ryan: I understand. I am scanning them now. Do I staple the receipts to the invoice?
+Marta: No, never staple them. Use a paperclip. Staples damage the scanner.
+Ryan: Got it. Paperclips only.
+@BLABEL Comprehension Questions
+@NUM
+How are invoices arranged in the blue folders?
+What color are the binders for bank statements, and how many are there?
+What is the team doing with the documents "currently"?
+What is Ryan doing now?
+Why should Ryan not use staples?
+
+@TASK 3B. Passage 2: The Vendor Call (Phone Routine)
+@LABEL Context | A Junior Accountant answers a call from a supplier regarding a payment.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Accountant: Hello, Accounts Department, Northwind Group. This is Tomás speaking.
+Supplier: Hi Tomás. This is Andina Office Supplies in Santiago. We are checking on Invoice #402. It is overdue.
+Accountant: Let me check the system. One moment... I am looking at your account now.
+Supplier: Does it show as paid?
+Accountant: No, it shows as "Pending." Usually, we pay invoices within 30 days. But this month, we are moving the payment run to Kraków, so there is a small delay.
+Supplier: I see. When can we expect payment?
+Accountant: The payment run happens tomorrow. I am adding your invoice to the list right now.
+Supplier: Thank you, Tomás.
+@BOLD True or False:
+@TFBOX
+The invoice is overdue.
+Tomás sees the invoice as "Paid" in the system.
+Usually, the company pays within 60 days.
+The payment run is moving to Kraków this month.
+Tomás is adding the invoice to the payment list now.
+
+@TASK 3C. Passage 3: The Morning Meeting (Team Update)
+@LABEL Context | The Group Finance Manager (Mr Farouk) asks his team for updates on a video call.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Mr Farouk: Good morning everyone. Quick updates, please. Priya, what are you working on?
+Priya: I am finishing the monthly GST return for Singapore. I usually submit it on the 20th, but I am trying to finish it today.
+Mr Farouk: Good. And Ryan?
+Ryan: I am dealing with the petty cash in Toronto. There is a CAD 20 discrepancy. I am recounting the money now.
+Mr Farouk: Okay. Remember, we always investigate errors over ten, in any currency. Keep me updated.
+@BOLD Fill in the Meeting Notes:
+@BULLETLABEL
+Priya: Working on the __________ for __________. Usually submits on the __________.
+@BULLETLABEL
+Ryan: Dealing with __________ in __________. There is a discrepancy of __________.
+@BULLETLABEL
+Current Action: Ryan is __________ the money now.
+@BULLETLABEL
+Rule: Always investigate errors over __________.
+@PB
+
+@PART 4 | 1 | SPEAKING – Describing Tasks
+@TASK 4A. Functional Language: Introductions and Roles
+@LINE Practice these phrases with a partner. Focus on the verbs.
+@TABLE Formal (To a Manager/Auditor) | Neutral (To a Colleague)
+"My name is... I handle the accounts payable for Dublin and Toronto." | "Hi, I'm [Name]. I do the payments."
+"I report to the Financial Controller." | "My boss is the Controller."
+"Currently, I am assisting with the group audit." | "Right now, I'm helping with the audit."
+"I am responsible for the general ledger." | "I look after the ledger."
+
+@TASK 4B. Role-Play 1: The Daily Routine (Routine Focus)
+@LABEL Scenario | A new employee asks you what you do every day.
+@LINE Student A (New Employee): Ask questions using Present Simple.
+@BULLET
+"What time do you start?"
+"Do you handle cash?"
+"How often do you file receipts?"
+@LINE Student B (Junior Accountant): Answer based on your real (or imagined) routine.
+@BULLET
+"I start at 8:30."
+"I enter data every afternoon."
+
+@TASK 4C. Role-Play 2: The Interruption (Continuous Focus)
+@LABEL Scenario | You are very busy. A colleague tries to talk to you.
+@LINE Student A (Colleague): Try to chat about lunch or the weekend.
+@LINE Student B (Busy Accountant): Politely refuse because you are doing something right now. Use Present Continuous.
+@BULLETLABEL
+Sample: "I'm sorry, I can't talk. I am calculating the tax and I need to focus."
+@BULLETLABEL
+Sample: "Not now, I am searching for an error before Singapore goes home."
+
+@TASK 4D. Presentation: "My Work Morning"
+@LABEL Task | You have 60 seconds to describe your typical morning to the class.
+@LABEL Structure
+@NUM
+Arrival time, and which offices are already working.
+First task (e.g., ~I check emails~).
+Main task (e.g., ~I process invoices~).
+What you are doing "these days" (e.g., ~These days, I am also learning the new ERP~).
+@PB
+
+@PART 5 | 1 | READING – Office Documents
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+Why is it important to read the "Subject Line" of an email first?
+Do you prefer reading physical manuals or digital help guides?
+What is a "Job Description"?
+
+@TASK 5B. Reading Passage 1: Job Description (Routine Duties)
+@LINE Read the posting for a Junior Accountant.
+@LINE JOB VACANCY: JUNIOR ACCOUNTANT
+@LINE Location: Kraków Shared Service Centre
+@LINE Reports to: Senior Finance Manager
+@LINE Responsibilities:
+@BULLET
+Maintains financial records by analyzing balance sheets and general ledger accounts.
+Reconciles general and payroll bank accounts daily, in three currencies.
+Provides accounting support for the group's six operating companies.
+Files tax forms with the relevant national and local authorities.
+Protects organization's value by keeping information confidential.
+@LINE Requirements:
+@BULLET
+Bachelor's degree in Accounting.
+Strong understanding of accounting principles.
+Ability to work across time zones and under pressure.
+@BLABEL Comprehension Questions
+@NUM
+Who does this position report to?
+How often does the accountant reconcile bank accounts, and in how many currencies?
+What kind of support does the accountant provide?
+Why must the accountant keep information confidential?
+What degree is required?
+@LABEL Grammar Check
+@LINE Find three verbs in the Present Simple form (ending in -s).
+
+@TASK 5C. Reading Passage 2: Internal Email (Current Projects)
+@LINE Read the email from the IT Manager.
+@LINE Subject: URGENT: Server Maintenance Today
+@LINE From: IT Support
+@LINE To: Finance Team, All Offices
+@LINE Hi Team,
+@LINE Please note that we are performing maintenance on the accounting server today between 12:00 PM and 2:00 PM Central European Time.
+@LINE During this time, the ledger module is running very slowly. We are installing a security patch to protect our data.
+@LINE Please save your work locally. If you are working on the shared drive, you might lose data.
+@LINE Currently, our technicians are testing the backup system. We expect everything to return to normal by 2:30 PM. Colleagues in Singapore, please note that this is the end of your working day.
+@LINE Thanks for your patience.
+@BLABEL Comprehension Questions
+@NUM
+What is happening today between 12:00 and 2:00 PM?
+How is the ledger module behaving during this time?
+Why are they doing this maintenance?
+What should you do if you are working on the shared drive?
+What are the technicians doing right now?
+@LABEL Vocabulary Match
+@LINE Match the words from the text to their synonyms.
+@BULLET
+*Maintenance -> ____________________*
+*Patch -> ____________________*
+*Locally -> ____________________*
+*Technicians -> ____________________*
+@SUB
+Repairs/Upkeep
+Specialist workers
+A small piece of software to fix a bug
+On your own computer, not the network
+
+@TASK 5D. Reading Passage 3: Procedure Manual (Instructions)
+@LINE Read the steps for "Petty Cash Reimbursement".
+@LINE Standard Operating Procedure: Petty Cash
+@NUM
+The employee completes a voucher form.
+The employee attaches the original receipt to the back of the voucher.
+The manager signs the voucher to authorize the expense.
+The accountant checks the addition, the date, and the currency.
+The accountant gives cash to the employee from the box.
+Finally, the accountant records the expense in the group system.
+@BLABEL Comprehension Questions
+@NUM
+What must the employee attach to the voucher?
+Who authorizes the expense?
+What three things does the accountant check?
+Where does the cash come from?
+Where does the accountant record the expense?
+@PB
+
+@PART 6 | 1 | WRITING – Office Correspondence
+@TASK 6A. Guided Writing: Completing the Email
+@LABEL Task | You are a Junior Accountant. You are sending an invoice to a customer.
+@LINE Fill in the blanks using the phrases in the box.
+@LINE [ is attached / Please find / due date / contact me / reference number ]
+@LINE Subject: Invoice #1045 - Services Rendered
+@LINE Dear Ms Byrne,
+@LINE (1) __________ attached Invoice #1045 for the services provided in January.
+@LINE The total amount is EUR 450.00. The (2) __________ for payment is February 28th.
+@LINE A detailed breakdown of the costs (3) __________ to this email.
+@LINE Please quote the (4) __________ (#1045) when you make the bank transfer.
+@LINE If you have any questions, please (5) __________ directly.
+@LINE Sincerely,
+@LINE Daniel Okoye
+@LINE Junior Accountant
+
+@TASK 6B. Writing Task 1: My Daily Routine (Functional)
+@LABEL Scenario | You are writing a short bio for the company newsletter.
+@LABEL Task | Write a paragraph (50–60 words) describing your job.
+@LINE Include:
+@BULLET
+Your job title and your office.
+Three things you do ~every day~ (Present Simple).
+One thing you are learning ~currently~ (Present Continuous).
+@BULLETLABEL
+Example: "I am a Bookkeeper in the Nairobi office. I enter data, check receipts, and answer the phone. Currently, I am learning the new group reporting system..."
+
+@TASK 6C. Writing Task 2: The "Out of Office" Reply (Current Status)
+@LABEL Scenario | You are going on leave (or attending a training) for two days.
+@LABEL Task | Write an automatic email reply (40 words).
+@LABEL Focus | Use Present Continuous to explain what you are doing (e.g., I am attending a seminar).
+@BULLET
+State you are away.
+Say when you return.
+Give a contact person in another office for emergencies.
+
+@TASK 6D. Writing Task 3: The Weekly Update Email
+@LABEL Scenario | It is Friday afternoon. Your manager asks for a quick update.
+@LABEL Task | Write a short email (80 words).
+@LINE Include:
+@BULLETLABEL
+Completed: "I finish the filing every Friday." (General routine).
+@BULLETLABEL
+In Progress: "I am currently reconciling the Toronto bank account."
+@BULLETLABEL
+Problem: "I am waiting for the invoice from the freight company."
+
+@TASK 6E. Peer Review Checklist
+@LINE Exchange your Weekly Update (Task 3) with a partner. Check for:
+@LBOX
+Correct use of Present Simple for routines.
+Correct use of Present Continuous for current actions.
+Professional tone (Dear..., Regards...).
+Correct spelling of accounting terms (~reconciling, invoice~).
+@PB
+
+@PART 7 | 1 | PRONUNCIATION – Accuracy in Numbers
+@TASK 7A. Syllable Stress: Accounting Terms
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Ac-count-ant
+Cal-cu-late
+Ledg-er
+Li-a-bil-i-ty
+Trans-ac-tion
+Rec-on-cile
+
+@TASK 7B. Numbers: Teens vs. Tens
+@LABEL Explanation | This is a common error. 15 (fif-TEEN) sounds different from 50 (FIF-ty).
+@LABEL Practice | Read these aloud. Stress the ending for "teens" and the beginning for "tens".
+@BULLET
+13 / 30
+14 / 40
+15 / 50
+16 / 60
+17 / 70
+18 / 80
+19 / 90
+
+@TASK 7C. Intonation: Lists
+@LABEL Context | When reading a list of tasks, go UP on each item, and DOWN on the last one.
+@LABEL Practice
+@LINE "I need to check the invoice (↗), call the bank (↗), and file the receipts (↘)."
+@LINE "We manage assets (↗), liabilities (↗), and equity (↘)."
+
+@TASK 7D. Fluency Drill: The Rapid Check
+@LABEL Task | Read the following sequence as clearly as possible.
+@LINE "Invoice number one-five-six. Date: January 30th. Total amount: fifty euros and fifteen cents. Status: Paid."
+@PB
+
+@PART 8 | 1 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the accounting term to the correct context.
+@TABLE Context | Term
+1. You receive this after you buy lunch for the office. | a. Liability
+2. You send this to a customer to ask for money. | b. Receipt
+3. This is money the company owes to others. | c. Ledger
+4. This is the main book where transactions are recorded. | d. Asset
+5. This is something valuable the company owns. | e. Invoice
+
+@TASK 8B. Grammar Quiz
+@LINE Correct the mistakes in these sentences. (Only the first one is done for you.)
+@NUM
+Currently, I work on the tax return. -> ~Currently, I am working on the tax return.~
+She check the emails every morning. -> ____________________
+We are usually paying suppliers on Friday. -> ____________________
+I am not understanding this invoice. -> ____________________
+Look! The printer smokes! -> ____________________
+
+@TASK 8C. Real-Life Simulation: The Desk Handover
+@LABEL Scenario | You are going on holiday for a week. You must explain your desk to a colleague in another office who will cover for you.
+@LINE Roles:
+@BULLETLABEL
+You (Student A): Explain your files.
+@SUB
+"This box contains pending invoices."
+"I am working on this file right now, so leave it here."
+@BULLETLABEL
+Colleague (Student B): Ask questions.
+@SUB
+"Where do you keep the supplier statements?"
+"Who is calling on the phone now?"
+
+@TASK 8D. Extension Writing: The "To-Do" List
+@LABEL Task | Write a To-Do list for Monday morning.
+@LINE List 5 items:
+@BULLETLABEL
+Example: ~Reconcile the cash box.~
+@BULLETLABEL
+Example: ~Call Dublin regarding the error.~
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can name the common objects in an accounting office.
+I can distinguish between routines (Simple) and current actions (Continuous).
+I can introduce myself and my job title professionally.
+I understand the difference between an invoice and a receipt.
+I can pronounce 15 and 50 clearly.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "Accuracy is the most important skill for an accountant." Do you agree? Why is a small mistake (like typing 50 instead of 15) dangerous, especially when the figure crosses a border?

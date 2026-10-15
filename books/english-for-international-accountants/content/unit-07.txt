@@ -1,0 +1,369 @@
+@PB
+@UNITHEAD 7 | Monthly Performance
+@LINE Theme: Variance analysis, comparing actuals vs. budget, sales figures, and trend reporting.
+@LINE Grammar Focus: Adjectives (Comparatives and Superlatives) to express magnitude and difference.
+@LINE Communicative Focus: Explaining that costs are higher than last month, identifying the most expensive expense category, comparing sales periods, and reporting performance trends.
+@PB
+
+@WARMUP 7 | What Does "Good Performance" Look Like?
+@TASK Task 1: Interpreting Financial Results
+@LABEL Context | Discuss the meaning of these terms in financial reporting.
+@BULLETLABEL
+Favourable Variance (F): When the actual result is better than the budget (e.g., actual revenue is higher).
+Adverse Variance (A): When the actual result is worse than the budget (e.g., actual cost is higher).
+Budgeting: The process of setting financial plans for future periods.
+@TASK Task 2: Comparing Key Metrics
+@LINE Look at the following comparison points. Use adjectives to describe them.
+@NUM
+Sales Revenue: Q4 2024 vs. Q3 2024
+@NUM
+Rent Expense: This month vs. Budget
+@NUM
+Net Profit: Dublin entity vs. Toronto entity
+@NUM
+Marketing Cost: The highest cost category this year.
+@TASK Task 3: Setting Benchmarks
+@LINE Why is it essential to compare current performance against:
+@BULLET
+The budget (Planned figures)?
+The previous month/quarter (Historical figures)?
+Competitors (Industry standards)?
+@PB
+
+@PART 1 | 7 | VOCABULARY – Variance and Comparison
+@TASK 1A. Terms for Performance Comparison
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Actuals | a. The numerical difference between the actual and budgeted amount.
+2. Forecast | b. Exceeded the budget (usually positive for revenue, negative for costs).
+3. Variance | c. The money the company expected to spend or earn.
+4. Budget | d. The results that actually happened in the period.
+5. Underperformed | e. To predict future sales or expenditure.
+6. Overspent | f. Achieved less than the budgeted target.
+
+@TASK 1B. Adjectives for Reporting Results
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | Marginal, significant, consistent, alarming, sluggish, stellar
+@NUM
+The sales growth was _________ this quarter, only increasing by 1%.
+There was a _________ variance in the cost of goods sold, requiring an internal audit.
+Our competitor reported _________ results, making them the industry leader this year.
+The cost of utilities showed a _________ increase every month for the past year.
+The revenue shortfall was _________, leading to a downward revision of our annual forecast.
+The difference between the two periods was only _________, less than EUR 100.
+
+@TASK 1C. Vocabulary in Context: Monthly Report Summary
+@LINE Fill in the blanks with the correct word from the box:
+@LINE favourable, exceeding, trend, underperformed, target, analysis
+@LINE The monthly (1) ________ showed that sales revenue was (2) ________ the (3) ________ by 15%. This resulted in a (4) ________ variance. However, the expense report indicated that R&D costs (5) ________ their budget by 20%. We need to examine this (6) ________ to determine if it is a one-off issue.
+
+@TASK 1D. Collocations for Financial Reporting
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Generate | a. the variance
+2. Exceed | b. the budget
+3. Compare | c. the performance
+4. Drill down into | d. revenue
+5. Analyze | e. actuals vs. budget
+6. Hit | f. the target
+@LABEL Practice | Use two of these phrases in a sentence about the Performance Review.
+@LABEL Example | "Our primary goal is to generate revenue and exceed the budget."
+
+@TASK 1E. Word Building: Adjective and Verb
+@LINE Complete the table.
+@TABLEB Adjective | Verb | Noun | Sentence Example
+Significant | Signify | Significance | "The significance of this variance is huge."
+Comparative | _________ | Comparison | "We are making a comparison with Q1."
+Superior | _________ | Superiority | "Our profit demonstrates market superiority."
+High | Heighten | _________ | "We need to address the height of the costs."
+Favorable | Favor | _________ | "The auditor expressed his favor for our controls."
+@PB
+
+@PART 2 | 7 | GRAMMAR – Comparatives and Superlatives
+@TASK 2A. Grammar Context: Explaining Performance
+@LINE The Financial Controller is reporting to the Group CFO.
+@SCRIPT
+Aoife: "Q4 was better than Q3, but our Q1 sales were the highest of the year. Marketing spend is more alarming than we thought, making it the most significant adverse variance on the income statement. Our overall gross margin is larger than the industry average, which is very encouraging."
+@BLABEL Analysis
+@BULLET
+Find three examples of *Comparative* adjectives. What *linking word* *is used* *after* them?
+Find three examples of *Superlative* adjectives. What *article* *is used* *before* them?
+Which form *is used* *to compare* two things? Which *is used* *to compare* three or more things?
+
+@TASK 2B. Grammar Focus Box: Comparatives and Superlatives
+@TABLE Type | Form | Use | Example (Accounts Context)
+Comparative (Short Adj.) | Adj + -er + than | Comparing two items (A > B). | The rent is higher than the salary cost.
+Comparative (Long Adj.) | More / Less + Adj + than | Comparing two items (A > B or A < B). | This is less significant than last month's variance.
+Superlative (Short Adj.) | The + Adj + -est | Comparing three or more items (A is the highest). | The marketing cost is the largest expense.
+Superlative (Long Adj.) | The + most / least + Adj | Comparing three or more items (A is the most X). | This is the most important trend we have seen.
+
+@TASK 2C. Guided Practice
+@LINE Complete the sentence with the correct comparative or superlative form of the adjective in parentheses. (Only the first one is done for you).
+@NUM
+This quarter's revenue is higher than (high) last quarter's.
+The R&D cost is the ____________________ (small) variance in the report.
+The actual expenses were ____________________ (bad) than the budget figures.
+Our net profit was the ____________________ (favorable) result of the entire year.
+This is a ____________________ (significant) adverse variance than the one we saw in Q1.
+The new tax rate is ____________________ (complicated) than the old one was.
+
+@TASK 2D. Sentence Transformation
+@LINE Rewrite the sentences using the Comparative or Superlative form in parentheses.
+@BULLETLABEL
+Original: The salary expense is EUR 10,000, and the rent is EUR 5,000. (COMPARATIVE: expensive)
+Conditional: The salary expense is more expensive than the rent.
+Original: The Q2 revenue was better than all other quarters. (SUPERLATIVE: good)
+Conditional: Q2 had the ____________________ revenue of the year.
+Original: The cost of goods sold variance was EUR 200, but the utility variance was EUR 50. (COMPARATIVE: marginal)
+Conditional: The utility variance was ____________________ the cost of goods sold variance.
+
+@TASK 2E. Speaking: Comparing Financial Segments
+@LINE In pairs, practice using Comparatives and Superlatives to analyze the following mock data.
+@TABLEB Category | Budget (EUR) | Actuals (EUR)
+Sales Revenue | 100,000 | 105,000
+Admin Expense | 15,000 | 18,000
+Marketing Expense | 20,000 | 25,000
+@BULLET
+Compare Sales Revenue (Actuals vs. Budget). (Use: higher)
+Compare Admin Expense and Marketing Expense (Actuals vs. Actuals). (Use: expensive)
+Identify the most favorable variance. (Use: most favorable)
+Identify the largest adverse variance. (Use: largest)
+@BULLETLABEL
+Example A: "Actual Sales Revenue was higher than the budget."
+Example B: "The Marketing Expense was the most expensive category."
+@PB
+
+@PART 3 | 7 | LISTENING – Reporting Trends
+@TASK 3A. Passage 1: The Variance Report (Functional)
+@LABEL Context | A supervisor is reviewing the variance report with a junior staff member.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Supervisor: "So, what is the most alarming variance this month?"
+Junior: "That would be the raw materials cost, which is 30% higher than the budget. The Admin expense is EUR 500 more than last month, but that is not the most significant issue. The most important thing is that our gross profit is better than the forecast due to the higher sales."
+Supervisor: "Excellent. Let's drill down into the raw materials variance."
+@BLABEL Comprehension Questions
+@NUM
+What is the most alarming variance?
+How is the raw materials cost compared to the budget?
+What is the junior accountant's reason for the favorable gross profit?
+How is the Admin expense compared to last month?
+What is the supervisor going to do next?
+
+@TASK 3B. Passage 2: Comparing Sales Periods (Operating Context)
+@LABEL Context | A sales director is discussing regional performance.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Director: "Region A is our best performer, with sales 10% above target. Region B was worse than Region C this month, achieving only 85% of its target. The strongest growth was seen in Region A, which was also the least complicated market to enter. We need to transfer the best practices from Region A to the others."
+@BOLD True or False:
+@TFBOX
+Region A had the worst performance.
+Region B's sales were worse than Region C's.
+Region A was the easiest market to enter.
+The director wants to transfer the worst practices.
+Region A's sales were 10% lower than target.
+
+@TASK 3C. Passage 3: Explaining Adverse Variance (Financial Context)
+@LABEL Context | An explanation of a payroll variance in a board report.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Speaker: "The payroll variance is EUR 12,000 adverse. This is more significant than we initially projected. We had three more employees than budgeted, making this the most costly department in terms of personnel. We believe that next month, the variance will be smaller than this one, as we have implemented a hiring freeze. This is a short-term issue, and it is not the most critical risk to the company."
+@BOLD Fill in the Comparisons (Use Comparatives/Superlatives):
+@BULLET
+The payroll variance is EUR 12,000 adverse, which is ____________________ (significant) than projected.
+They had three ____________________ (many) employees than budgeted.
+This is the ____________________ (costly) department in terms of personnel.
+Next month, the variance will be ____________________ (small) than this one.
+It is not the ____________________ (critical) risk to the company.
+
+@PART 4 | 7 | SPEAKING – Reporting and Justifying
+@TASK 4A. Functional Language: Comparative Reporting
+@LINE Practice using these structures with a partner.
+@TABLE Comparing Two (Comparative) | Comparing Many (Superlative)
+"The actual cost was 5% higher than the budget." | "Marketing is the most expensive category."
+"Our Q4 performance was better than our Q3." | "This is the least profitable product we sell."
+
+@TASK 4B. Role-Play 1: Justifying the Overspend
+@LABEL Scenario | A department manager (A) is explaining an adverse variance to the Financial Controller (B).
+@LINE Student A (Manager): Explain why the actuals are higher than the budget (Use Comparative).
+@LINE Student B (Controller): Ask what the most expensive item was (Use Superlative). Suggest a less expensive alternative (Use Comparative).
+@BULLETLABEL
+A: "The consulting fees were more expensive than the budget, because we needed extra support."
+@BULLETLABEL
+B: "I see. But what was the single most expensive item? I think next month, we should use internal staff, which is cheaper than hiring external consultants."
+
+@TASK 4C. Role-Play 2: Analyzing the Trend
+@LABEL Scenario | Two analysts are comparing this year's sales figures to last year's.
+@LINE Student A: State a positive trend (Use Superlative). Ask about the weakest area.
+@LINE Student B: State the weakest area (Use Superlative). Explain why it is worse than expected (Use Comparative).
+@BULLETLABEL
+A: "Our Q3 sales were the best in company history! But what was the weakest department?"
+@BULLETLABEL
+B: "The new product launch had the least favorable results. It was more sluggish than our initial forecast."
+
+@TASK 4D. Presentation: "Year-to-Date Highlights"
+@LABEL Task | Prepare a short report (60 seconds) summarizing the year's performance. Use at least two Comparatives and two Superlatives.
+@LABEL Structure
+@NUM
+Opening: State the highest achievement (Superlative).
+Comparison: Compare a cost category to the previous year (Comparative).
+Risk: Identify the most significant adverse variance (Superlative).
+Conclusion: State the outlook (e.g., We are better off than last year).
+@PB
+
+@PART 5 | 7 | READING – Performance Reports
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What are the different sections of a monthly performance report?
+How do accountants present favorable and adverse variances in a report?
+What does it mean to drill down into a variance?
+
+@TASK 5B. Reading Passage 1: The Sales Performance Analysis
+@LINE Read the summary of the Q4 sales performance.
+@LINE Sales revenue in Q4 was EUR 520,000, which is higher than the budget of EUR 500,000. This favorable variance is primarily due to the success of our new product line. Product A was the most popular item, generating more revenue than all other products combined. The Northern Region was better than the Southern Region in terms of growth, recording the strongest increase of 12%. The Marketing expense was less than the allocated budget, making the overall results the most positive of the year.
+@BLABEL Comprehension Questions (Use Comparatives/Superlatives in your answer)
+@NUM
+How was the Q4 revenue compared to the budget?
+Which product was the most popular?
+How was the Northern Region compared to the Southern Region in terms of growth?
+How was the Marketing expense compared to the budget?
+Why were the overall results the most positive of the year?
+@LABEL Grammar Check
+@LINE Find four examples of Superlative adjectives in the passage.
+
+@TASK 5C. Reading Passage 2: Adverse Variance Explanation
+@LINE Read the memo explaining an adverse variance.
+@LINE MEMORANDUM: Adverse Variance - Utilities
+@LINE The utilities expense is EUR 2,500 more than the budgeted amount. This is the second largest adverse variance on the P&L this month. The cost of electricity was higher than anticipated due to an extremely cold winter in Kraków, which was colder than the weather last year. We believe that this variance is not as significant as the payroll variance, which is the largest adverse item. However, we must find ways to be more efficient and less wasteful with our energy usage.
+@BLABEL Comprehension Questions
+@NUM
+How much more than the budget is the utilities expense?
+How is this variance ranked on the P&L?
+Why was the cost of electricity higher?
+Which variance is the largest adverse item?
+What are they encouraged to be in the future?
+
+@TASK 5D. Reading Passage 3: Competitor Analysis
+@LINE Read the analysis comparing two competitors.
+@LINE Company X is the most profitable in the sector, reporting an 18% net margin. Their operational costs are lower than Company Y's. Company Y has a stronger brand than Company X, but their product quality is worse than their main rival. Company Z is the newest competitor and has the least market share among the three. Overall, while Company X is more financially sound than the others, Company Y has the most potential for future growth if they can reduce their operating expenses.
+@BLABEL Comprehension Questions (Use Comparatives/Superlatives in your answer)
+@NUM
+Which company is the most profitable?
+How are Company X's operational costs compared to Company Y's?
+What is Company Z's position in terms of market share?
+How is Company Y's product quality compared to its main rival?
+Which company has the most potential for future growth?
+@PB
+
+@PART 6 | 7 | WRITING – Reporting and Justification
+@TASK 6A. Guided Writing: Paraphrasing (Comparatives)
+@LABEL Task | Paraphrase the following statements using the Comparative form in parentheses. (Only the first one is done for you).
+@NUM
+Budgeted sales were EUR 100k, actual sales were EUR 110k. (high) -> Actual sales were higher than budgeted sales.
+Last month's variance was EUR 20k, this month's is EUR 5k. (small) -> This month's variance is ____________________ last month's.
+The marketing department spent EUR 12k, and the HR department spent EUR 15k. (expensive) -> The HR department was ____________________ the marketing department.
+
+@TASK 6B. Writing Task 1: The Performance Email
+@LABEL Scenario | Write a short email (50–60 words) to a department head explaining that their costs are higher than budget.
+@LINE Include:
+@BULLET
+Use a Comparative to state the increase.
+Use a Superlative to identify the largest cost driver.
+Ask for an explanation.
+@BULLETLABEL
+Example: "Dear Daniel, I am reviewing your monthly performance. I note that your total operating cost is 15% higher than your budgeted amount. The most significant driver of this variance was the travel expense. Could you please provide an explanation for this overspend?"
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Comparatives/Superlatives) in the following sentences. (Only the first one is corrected).
+@NUM
+The Q1 performance was most good than Q2. -> The Q1 performance was better than Q2.
+Rent is the more expensive fixed cost we have.
+The variance is less significant that we first thought.
+Our sales figures are badder than the industry average.
+This is the least favorable adverse variance.
+
+@TASK 6D. Writing Task 3: Trend Analysis (Internal Memo)
+@LABEL Scenario | Write an internal memo (80 words) analyzing two sales quarters.
+@LABEL Focus | Use Comparatives and Superlatives to describe the trends.
+@BULLETLABEL
+Example: "MEMORANDUM: Q2 vs. Q3 Sales Analysis
+@LINE Q3 sales were 20% higher than Q2, making it the strongest quarter of the year so far. The key difference is that marketing investment was more aggressive in Q3 than Q2, leading to a better return. Product B is the most popular item, while Product C is the least profitable. We should increase investment in Product B."
+@PB
+
+@PART 7 | 7 | PRONUNCIATION – Stress in Comparison
+@TASK 7A. Syllable Stress: Comparison Terminology
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Per-form-ance
+Var-i-ance
+Com-par-a-tive
+Su-per-la-tive
+Sig-ni-fi-cant
+
+@TASK 7B. Word Stress: Emphasizing the Difference
+@LABEL Explanation | In comparative sentences, the stress often falls on the adjective or the difference being highlighted. Practice stressing the words in bold.
+@LABEL Practice | Read the sentences, focusing on stressing the comparison word.
+@BULLET
+The actuals are higher than the budget.
+This is less significant than the payroll variance.
+The new forecast is better than the old one.
+
+@TASK 7C. Intonation: Superlative Statements
+@LABEL Context | Use a strong, falling intonation at the end of a superlative statement to emphasize certainty and finality (since it is the absolute best or worst).
+@LABEL Practice | Read these sentences:
+@BULLET
+"This is the most expensive cost we have." (↘)
+"Q4 was the strongest quarter." (↘)
+"The lowest margin was in the Singapore region." (↘)
+
+@TASK 7D. Fluency Drill: Reporting to the Board
+@LABEL Task | Read the following report summary, maintaining a professional pace and emphasizing the comparative words.
+@LINE "Overall, the third quarter was stronger than the second, but Q1 still remains the best quarter to date. The most significant adverse variance is the admin expense, which is 18% higher than the budget. Our gross profit is better than the industry average, and this is the most encouraging figure we can share with you today."
+
+@PART 8 | 7 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the comparison word to the appropriate category.
+@TABLE Comparison Word | Category
+1. Favorable | a. Worse than expected
+2. Forecast | b. Actual results
+3. Actuals | c. Budgeted figure
+4. Adverse | d. Better than expected
+5. Budget | e. Prediction of future results
+6. Underperformed | f. Money spent
+
+@TASK 8B. Grammar Quiz
+@LINE Complete the sentence with the correct form of the adjective in parentheses. (Only the first one is done for you).
+@NUM
+The cost of goods sold is the most challenging (challenging) area to control.
+Our profit margin is much ____________________ (good) than our closest competitor.
+The EUR 10,000 shortfall is the ____________________ (large) problem this month.
+The salary variance is not ____________________ (alarming) as the utilities variance.
+Region B is performing ____________________ (poor) than Region A.
+
+@TASK 8C. Real-Life Simulation: The Monthly Review Meeting
+@LABEL Scenario | A meeting to discuss the monthly P&L (Profit & Loss) statement.
+@LINE Roles:
+@BULLETLABEL
+Group CFO (Student A): Ask for the worst and best performing items (Use Superlative). (~"What was the largest adverse variance, and what was the most favorable result?"~)
+@BULLETLABEL
+Financial Analyst (Student B): Answer by comparing two figures (Use Comparative). (~"The Marketing cost was 20% higher than the budget, but sales revenue was 5% better than last month."~)
+@BULLETLABEL
+Department Head (Student C): Justify the overspend by stating that it was necessary (Use Comparative). (~"The extra spend was more beneficial than the initial budget saving would have been."~)
+
+@TASK 8D. Extension Writing: The "Efficiency Improvement" Plan
+@LABEL Task | Write a short plan (80 words) on how to make two expense categories more efficient.
+@LABEL Style | Use Comparatives and Superlatives to justify the changes.
+@BULLETLABEL
+Example: "To improve efficiency, we must focus on utilities and travel. Travel cost is the most expensive variable cost. We will only authorize flights that are cheaper than rail tickets. For utilities, we will install smart meters, which will make our energy usage less wasteful than it is now. Our overall goal is to have the lowest operating cost in the industry."
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can identify favorable and adverse variances.
+I can use Comparative adjectives (better/worse/more/less) to compare two financial figures.
+I can use Superlative adjectives (best/worst/most/least) to identify the highest or lowest item.
+I can explain why actual costs are higher than budget figures.
+I can write a clear summary report using comparison language.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "When is an adverse variance more dangerous than a favorable variance? If your actual sales were the highest in history, but your expenses were also the highest, would that be a good month? Why is the budget always better than the actuals in a perfect world?"

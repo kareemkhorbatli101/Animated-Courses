@@ -1,0 +1,124 @@
+@BOOK English for Accountants (B1) — International Edition
+@PB
+@LINE Practical English for the Modern Accounting Office, Across Borders
+@LABEL Target Audience
+Junior accountants, bookkeepers, accounts clerks, and finance assistants working in a shared service centre, a group finance team, or a local office of an international company.
+@LABEL Context
+Designed for early-career professionals focusing on daily operational tasks in a team that works across several countries. The course covers the essential language needed for recording transactions, communicating with colleagues, vendors and overseas offices, preparing basic financial statements, and assisting with management reporting.
+@LINE Level: B1 (Intermediate)
+@LABEL Duration
+100 hours (10 Units × 10 hours per unit)
+@LABEL Methodology
+Skills-integrated, task-based approach. The course emphasizes accuracy in numbers, clear communication of daily financial events across time zones and currencies, and practical writing for office scenarios (emails, simple reports).
+@LABEL The Setting
+Every unit is set in Northwind Group, an invented mid-size manufacturer and distributor with a shared service centre in Kraków and operating companies in Dublin, Toronto, Singapore, Nairobi and Santiago. Northwind Group, its staff, its customers, its suppliers and all its figures are invented for practice; the accounting is true and general.
+@PB
+
+@H2 Structure per Unit
+@LINE Each unit is strictly modeled to provide immersion in a specific accounting function.
+@LINE 📍 Warm-Up & Introduction (Discussion on a specific daily accounting task)
+@LINE 8 Parts per Unit:
+@BULLET
+🧱 Part 1: Vocabulary (Core terminology for the unit's function)
+🧱 Part 2: Grammar (Grammar structures applied to accounting contexts)
+🎧 Part 3: Listening (3 Distinct Passages: e.g., Instructions from a Senior Accountant, Phone call with a vendor, Office meeting)
+🗣 Part 4: Speaking (Role-plays, describing processes, and checking figures verbally)
+📖 Part 5: Reading (3 Distinct Passages: e.g., Invoices/Receipts, Procedure manuals, Internal emails)
+✍️ Part 6: Writing (3 Distinct Tasks: e.g., Writing an email query, describing a variance, correcting an error)
+🔊 Part 7: Pronunciation (Accuracy in reading figures, dates, and currencies)
+🧾 Part 8: Review / Self-Assessment / Extension
+@PB
+
+@H2 Contents
+@CONTENT Unit 1: The Accounting Office
+@BULLETLABEL
+Theme: Daily routines, bookkeeping tasks, the role of a junior accountant in a shared service centre.
+Grammar Focus: Present Simple vs. Present Continuous (Regular duties vs. Tasks happening today).
+Communicative Focus: Introducing yourself, describing daily responsibilities (ledger entry, filing), explaining what you are working on right now.
+@CONTENT Unit 2: Recording Past Transactions
+@BULLETLABEL
+Theme: Processing invoices, expense claims, and receipts from the previous period, across two ledgers.
+Grammar Focus: Past Simple vs. Past Continuous (Completed entries vs. Activities interrupted by the phone/colleagues).
+Communicative Focus: Explaining what happened yesterday, discussing a missing invoice, describing errors found in past records.
+@CONTENT Unit 3: Petty Cash and Office Expenses
+@BULLETLABEL
+Theme: Handling small payments in several currencies, requesting approvals, dealing with suppliers.
+Grammar Focus: Modals of Request and Offer (~Could, Would, May, Can~).
+Communicative Focus: Asking for authorization, offering reimbursement, requesting receipts from staff.
+@CONTENT Unit 4: Inventory and Supplies
+@BULLETLABEL
+Theme: Stocktaking, counting assets, ordering office stationery, stock held in two countries.
+Grammar Focus: Countable/Uncountable Nouns & Quantifiers.
+Communicative Focus: Reporting stock levels, discussing what is "in stock" vs. "out of stock," explaining usage of consumables.
+@CONTENT Unit 5: Accounts Payable and Receivable
+@BULLETLABEL
+Theme: Scheduling payments, chasing debts, cash flow planning across currencies.
+Grammar Focus: Future Forms (~will, going to, present continuous for arrangements~).
+Communicative Focus: Discussing when payments will be made, scheduling calls with debtors, planning the weekly payment run.
+@CONTENT Unit 6: Errors and Corrections
+@BULLETLABEL
+Theme: Bank reconciliation, intercompany mismatches, spotting mistakes, internal controls.
+Grammar Focus: First and Second Conditionals (Real consequences of errors and hypothetical situations).
+Communicative Focus: Explaining consequences (~If we don't pay, they will stop supply~), giving advice on avoiding mistakes.
+@CONTENT Unit 7: Monthly Performance
+@BULLETLABEL
+Theme: Variance analysis, comparing actuals vs. budget, comparing entities in different currencies.
+Grammar Focus: Adjectives (Comparatives and Superlatives).
+Communicative Focus: Explaining that costs are ~higher~ than last month, identifying the ~most expensive~ expense category, comparing sales periods.
+@CONTENT Unit 8: The Accounting Cycle
+@BULLETLABEL
+Theme: Closing the books locally and for the group, trial balance, preparing financial statements.
+Grammar Focus: The Passive Voice (Focus on the process: ~The books are closed~, ~The report is prepared~).
+Communicative Focus: Describing the steps of the accounting cycle, explaining how figures are derived without blaming individuals.
+@CONTENT Unit 9: Professional Development
+@BULLETLABEL
+Theme: Career history, software skills, international qualifications, recent achievements.
+Grammar Focus: Present Perfect Simple (Experience and recent actions).
+Communicative Focus: Discussing software you have used, tasks you have just finished, and your career path so far.
+@CONTENT Unit 10: Reporting to Management
+@BULLETLABEL
+Theme: Passing on information, management accounts, summarizing meetings held in another time zone.
+Grammar Focus: Reported Speech (Relaying messages from the CFO or external auditors).
+Communicative Focus: Reporting what the manager said (~He said the budget was approved~), summarizing key points from a team meeting.
+@PB
+
+@H2 Detailed Unit Structure Guide
+@LINE Each unit will follow this structure:
+@PARTGUIDE 📍 | Warm-Up / Getting Started
+@BULLET
+Brief discussion activating knowledge about the specific accounting function (e.g., "How do you organize receipts?").
+@PARTGUIDE 🧱 | PART 1: Vocabulary
+@BULLET
+Target lexis for the specific unit function (e.g., ~ledger, invoice, receipt, variance, asset~).
+Matching definitions (Table format) and filling in gaps in sentences.
+@PARTGUIDE 🧱 | PART 2: Grammar Focus
+@BULLET
+Grammar presented in a workplace context (e.g., Using ~Past Simple~ to describe a Journal Entry).
+Exercises focusing on accuracy in business communication.
+@PARTGUIDE 🎧 | PART 3: Listening
+@BULLETLABEL
+Passage 1: Instructions (e.g., A manager explaining how to code an intercompany invoice).
+Passage 2: Telephone (e.g., Chasing a late payment from a customer in another country).
+Passage 3: Meeting (e.g., discussing why the stationery budget is overspent).
+@PARTGUIDE 🗣 | PART 4: Speaking
+@BULLETLABEL
+Functional scenarios: Role-plays (Explaining a discrepancy to a non-finance colleague).
+Fluency tasks: describing a graph or a process verbally.
+@PARTGUIDE 📖 | PART 5: Reading
+@BULLETLABEL
+Passage 1: Documents (e.g., Reading a Bank Statement or Invoice).
+Passage 2: Procedures (e.g., "How to claim expenses").
+Passage 3: Correspondence (e.g., Email from a vendor regarding a price change).
+@PARTGUIDE ✍️ | PART 6: Writing
+@BULLETLABEL
+Task 1: Functional fill-in (e.g., Completing a petty cash voucher).
+Task 2: Correspondence (e.g., Emailing a client to attach an invoice).
+Task 3: Short Report (e.g., A paragraph explaining why travel expenses are high this month).
+@PARTGUIDE 🔊 | PART 7: Pronunciation
+@BULLET
+Correct pronunciation of numbers (13 vs 30), currencies, and dates.
+Stress in multi-syllable accounting words (~li-a-bil-i-ty~).
+@PARTGUIDE 🧾 | PART 8: Review / Self-Assessment / Extension
+@BULLET
+Vocabulary and Grammar recap quiz.
+A practical "Mini-Task" (e.g., Reconcile these 5 transactions).

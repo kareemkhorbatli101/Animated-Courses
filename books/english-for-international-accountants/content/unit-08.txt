@@ -1,0 +1,359 @@
+@PB
+@UNITHEAD 8 | The Accounting Cycle
+@LINE Theme: Closing the books, trial balance, preparing financial statements, and year-end procedures.
+@LINE Grammar Focus: The Passive Voice (Focus on the process: The books are closed, The report is prepared.) to describe procedures impersonally.
+@LINE Communicative Focus: Describing the steps of the accounting cycle, explaining how figures are derived and processed without assigning individual blame or credit.
+@PB
+
+@WARMUP 8 | The Month-End Routine
+@TASK Task 1: The Timeline of a Month-End
+@LABEL Context | Discuss the chronological order of these activities in the accounting department.
+@BULLET
+A. Preparing the Financial Statements (P&L, Balance Sheet).
+B. Posting journal entries (recording transactions).
+C. Generating the Trial Balance.
+D. Performing bank reconciliation.
+E. Closing temporary accounts (e.g., revenue and expenses).
+@TASK Task 2: Describing a Process
+@LABEL Activity | How would you describe the bank reconciliation process to a non-accountant? Which parts of the process are performed by the software, and which are performed by the accountant?
+@TASK Task 3: Importance of Accuracy
+@LINE Why is the Passive Voice particularly useful when describing the accounting cycle? (Hint: The focus is on the action and the documents, not the person doing the work.)
+@PB
+
+@PART 1 | 8 | VOCABULARY – Procedures and Documents
+@TASK 1A. Terms for the Closing Process
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Ledger | a. An internal list of all debit and credit balances.
+2. Trial Balance | b. To formally record a transaction in the books.
+3. Adjusting Entries | c. A summary of all the transactions for a specific account.
+4. Post | d. The final reports that summarize a company's performance.
+5. Closing the Books | e. Entries made at the end of the period to ensure revenue and expenses are recorded in the correct period.
+6. Financial Statements | f. The process of finalizing all temporary accounts and preparing for the next period.
+
+@TASK 1B. Verbs for Accounting Actions
+@LABEL Activity | Complete the sentences using the correct verb from the box.
+@LABEL Verbs | Derived, reconciled, audited, posted, compiled, reviewed
+@NUM
+All transactions must be _________ to the General Ledger before the trial balance.
+The final accounts will be _________ by an external firm next month.
+The bank statements are reconciled to the cash account every week.
+The final financial statements are _________ from the adjusted trial balance.
+All the month-end reports were _________ by the senior accountant in Kraków.
+The quarterly results are _________ by the Group CFO before release.
+
+@TASK 1C. Vocabulary in Context: The Accounting Cycle Steps
+@LINE Fill in the blanks with the correct word from the box:
+@LINE Balance, cycle, nominal, retained, journals, worksheet
+@LINE The accounting (1) ________ begins with recording transactions in the (2) ________. At the end of the period, the accounts are closed. This involves transferring the (3) ________ account balances (revenue and expenses) to the (4) ________ earnings account. A (5) ________ is often used to help prepare the adjusted trial (6) ________.
+
+@TASK 1D. Collocations for Documentation
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Prepare | a. entries
+2. Approve | b. the books
+3. Close | c. the statements
+4. Draft | d. the audit
+5. Journalize | e. the balance
+6. Finalize | f. the report
+@LABEL Practice | Use two of these phrases in a sentence about the closing procedure.
+@LABEL Example | "First, the transactions are journalized, and then we prepare the statements."
+
+@TASK 1E. Word Building: Noun and Adjective
+@LINE Complete the table.
+@TABLEB Noun | Verb | Adjective | Sentence Example
+Adjustment | Adjust | Adjustable | "The adjustable rate is tied to the market."
+Preparation | _________ | Preparatory | "The preparatory work must be done first."
+Finalization | _________ | Final | "The final figures are now ready."
+Derivation | Derive | _________ | "The derived value is calculated daily."
+Reconciliation | Reconcile | _________ | "The reconcilable difference was found."
+@PB
+
+@PART 2 | 8 | GRAMMAR – The Passive Voice
+@TASK 2A. Grammar Context: Describing the Process
+@LINE The Group CFO is describing the month-end to a new employee.
+@SCRIPT
+Ms Vogel: "First, all raw data is collected from various departments in six countries. Then, the journal entries are posted to the general ledger. After that, the unadjusted trial balance is generated. Crucially, the adjusting entries are made at this stage. Finally, the financial statements are prepared and reviewed by management."
+@BLABEL Analysis
+@BULLET
+Identify the structure of the *Passive Voice* used in the text: (Form of the verb *TO BE* + _________).
+Why *is* the *agent* (*who* *does* the *action*) *often* *omitted* *in* *these* sentences?
+Which tense of the *Passive Voice* is used most often here (Present Simple Passive)?
+
+@TASK 2B. Grammar Focus Box: The Passive Voice (Present and Past)
+@TABLEB Tense | Form | Use | Example (Accounts Context)
+Present Simple Passive | is / are + P.P. (Past Participle) | Describing a *routine* *process* or *fact*. | The sales *are* *posted* *daily*.
+Past Simple Passive | was / were + P.P. | Describing an *action* *completed* *in* the *past*. | The *report* *was* *prepared* *last* Friday.
+Passive with Modal Verbs | Modal + be + P.P. | Describing *necessity* or *possibility* *in* a *process*. | The *accounts* *must* *be* *closed* *by* *noon*.
+
+@TASK 2C. Guided Practice
+@LINE Complete the sentence with the correct Passive Voice form of the verb in parentheses. (Only the first one is done for you).
+@NUM
+The closing entries ____________________ (make) at the end of the month.
+The trial balance ____________________ (generate) by the system.
+The final statements ____________________ (must / approve) by the board.
+The unreconciled difference ____________________ (find) yesterday.
+All transactions should ____________________ (record) in chronological order.
+The figures are sensitive and ____________________ (not / distribute) externally.
+
+@TASK 2D. Sentence Transformation (Active to Passive)
+@LINE Rewrite the sentences in the Passive Voice, moving the focus from the actor to the action or document.
+@BULLETLABEL
+Original: The accountant reviewed the statements.
+Passive: The statements were reviewed by the accountant.
+Original: The auditors will check the inventory count.
+Passive: The inventory count ____________________ by the auditors.
+Original: We present the financial results every quarter.
+Passive: The financial results ____________________ every quarter.
+
+@TASK 2E. Speaking: Explaining the Process
+@LINE In pairs, describe the following steps using the Passive Voice (Present Simple).
+@NUM
+Journalizing the transactions.
+Preparing the income statement.
+Making the adjusting entries.
+Closing the revenue and expense accounts.
+Reconciling the bank account.
+Filing the final report.
+@BULLETLABEL
+Example A: "The transactions are journalized daily."
+@BULLETLABEL
+Example B: "The revenue and expense accounts are closed at period end."
+@PB
+
+@PART 3 | 8 | LISTENING – Accounting Procedures
+@TASK 3A. Passage 1: The Standard Procedure (Functional)
+@LABEL Context | An instruction manual is being read aloud.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"First, all original source documents are scanned and uploaded. Then, the transactions are analyzed to determine their effect on the accounting equation. Following this, the journal entries are recorded. Finally, the data is posted to the General Ledger. All of these steps must be completed before the trial balance can be generated."
+@BLABEL Comprehension Questions
+@NUM
+What is done with the source documents?
+What is determined by analyzing the transactions?
+Where is the data posted?
+What must be completed before the trial balance is generated?
+What modal verb is used to express necessity?
+
+@TASK 3B. Passage 2: Explaining a Delay (Operating Context)
+@LABEL Context | A manager explains why the financial statements are late.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"The statements were delayed because of an issue with the bank reconciliation. A significant difference was found between the bank statement and our cash account. The error was identified and corrected by the junior accountant this morning. The adjusted trial balance is now being prepared, and the final report will be approved by the Group CFO this afternoon."
+@BOLD True or False (All sentences must be in the Passive Voice):
+@TFBOX
+The statements were released on time.
+A problem was found in the trial balance.
+The error was identified by the junior accountant.
+The final report will be approved tomorrow.
+The adjusted trial balance is being prepared now.
+
+@TASK 3C. Passage 3: Year-End Procedures (Financial Context)
+@LABEL Context | A briefing on the annual closing process.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Every year, before the audit, all temporary accounts are closed to retained earnings. Then, a post-closing trial balance is prepared to ensure that only permanent accounts remain open. After this, the final audit package is compiled. This package must be delivered to the auditors before January 15th. Any issues that are discovered will be reported to the audit committee."
+@BOLD Fill in the Passive Voice forms (Present/Past Simple):
+@BULLET
+Before the audit, all temporary accounts ____________________ (close) to retained earnings.
+Then, a post-closing trial balance ____________________ (prepare).
+The final audit package ____________________ (must / deliver) before January 15th.
+Any issues that ____________________ (discover) will be reported.
+The report ____________________ (give) to the audit committee.
+@PB
+
+@PART 4 | 8 | SPEAKING – Describing Procedures
+@TASK 4A. Functional Language: Sequential Procedures (Passive)
+@LINE Practice using these structures with a partner to describe a process.
+@TABLE Step-by-Step (Present Passive) | Emphasizing Necessity (Modal Passive)
+"The data is collected, then it is posted." | "The figures must be checked twice."
+"The entries are made on the 15th of the month." | "The variance should be investigated immediately."
+
+@TASK 4B. Role-Play 1: The Onboarding Training
+@LABEL Scenario | A senior accountant (A) is explaining the month-end closing steps to a new hire (B).
+@LINE Student A (Senior): Describe the first three steps of closing the books using the Passive Voice (The books are closed...).
+@LINE Student B (New Hire): Ask about the last step and who is involved (The report is prepared by...?).
+@BULLETLABEL
+A: "First, the unadjusted trial balance is printed. Then, all adjusting entries are made. Finally, the final balance is generated."
+@BULLETLABEL
+B: "I see. After that, is the report prepared, and is it reviewed by the Controller?"
+
+@TASK 4C. Role-Play 2: Explaining a Derivation
+@LABEL Scenario | A financial analyst (A) is explaining how the Net Profit figure is derived to an investor (B).
+@LINE Student A (Analyst): Explain that the figure is calculated from revenue and expense (Passive Voice).
+@LINE Student B (Investor): Ask if the tax is deducted before or after this calculation (Passive Voice).
+@BULLETLABEL
+A: "The Net Profit figure is derived from Gross Profit, after all operating expenses are subtracted."
+@BULLETLABEL
+B: "And is the tax expense calculated before or after the other deductions?"
+
+@TASK 4D. Presentation: "The Audit Trail"
+@LABEL Task | Prepare a short presentation (60 seconds) explaining the audit trail—the path a transaction takes from source document to financial statement. Use at least four Passive Voice sentences.
+@LABEL Structure
+@NUM
+Start: Source documents are received...
+Process: Entries are made...
+Result: The trial balance is produced...
+Verification: The data is checked...
+@PB
+
+@PART 5 | 8 | READING – Accounting Procedures Manual
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the difference between an unadjusted and an adjusted trial balance?
+Why are adjusting entries so important for accrual accounting?
+How does a post-closing trial balance differ from the final trial balance?
+
+@TASK 5B. Reading Passage 1: Monthly Closing Checklist
+@LINE Read the excerpt from the procedures manual.
+@LINE Section 4: Monthly Closing Procedures
+@LINE The General Ledger must be reconciled by the 10th day of the following month. First, the bank and subsidiary ledgers are reconciled. Then, all accrual and deferral adjustments are entered into the system. Before the statements are generated, the account balances are verified by the senior analyst. Only after these steps are completed can the books be officially closed.
+@BLABEL Comprehension Questions (Use the Passive Voice in your answer)
+@NUM
+When must the General Ledger be reconciled?
+What are entered into the system after reconciliation?
+Who verifies the account balances?
+When can the books be officially closed?
+What must be reconciled first?
+@LABEL Grammar Check
+@LINE Find three examples of Modal Passive Voice sentences in the passage.
+
+@TASK 5C. Reading Passage 2: The Trial Balance Mismatch
+@LINE Read the internal email regarding an issue.
+@LINE Subject: Trial Balance Error Found
+@LINE Team, a mismatch was discovered when the trial balance was generated this morning. The debits and credits were not equal. This problem must be resolved immediately so that the closing can continue. The journal entries are being investigated now to find the source of the discrepancy. Once the error is located, it will be corrected, and a new trial balance will be run. We will let you know once the issue has been resolved.
+@BLABEL Comprehension Questions
+@NUM
+What was discovered when the trial balance was generated?
+What is being investigated now?
+Why must the problem be resolved immediately?
+What will happen once the error is located?
+Who will let the team know once the issue is resolved?
+
+@TASK 5D. Reading Passage 3: Defining Adjusting Entries
+@LINE Read the definition of adjusting entries.
+@LINE Adjusting entries are necessary at the end of an accounting period to ensure that the revenue recognition principle and the expense recognition principle are followed. These entries are usually made for items like depreciation, accrued expenses, and unearned revenue. The entries are not supported by separate source documents; they are derived from internal calculations. Without them, the financial statements would be materially misstated.
+@BLABEL Comprehension Questions
+@NUM
+Why are adjusting entries necessary?
+What are three examples of items for which adjusting entries are made?
+Are adjusting entries supported by source documents?
+How are adjusting entries derived?
+What would happen if adjusting entries were not made?
+@PB
+
+@PART 6 | 8 | WRITING – Process Descriptions
+@TASK 6A. Guided Writing: Paraphrasing (Passive Voice)
+@LABEL Task | Paraphrase the following sentences using the Passive Voice form in parentheses. (Only the first one is done for you).
+@NUM
+The accountant closed the temporary accounts last night. (Past Passive) -> The temporary accounts were closed last night.
+The software generates the trial balance automatically. (Present Passive) -> The trial balance ____________________ automatically.
+The board must approve the financial reports. (Modal Passive) -> The financial reports ____________________ by the board.
+
+@TASK 6B. Writing Task 1: The Step-by-Step Procedure
+@LABEL Scenario | Write a short section (50–60 words) for a procedure manual describing how the General Ledger is updated.
+@LINE Include:
+@BULLET
+Use at least three Passive Voice sentences in sequence (First, then, finally).
+Focus on the documents and data, not the staff.
+@BULLETLABEL
+Example: "First, the original invoices are digitized. Then, all journal entries are posted from the journals to the General Ledger. Finally, the account balances are checked to ensure accuracy before the next step."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Passive Voice) in the following sentences. (Only the first one is corrected).
+@NUM
+The new policy must check by legal. -> The new policy must be checked by legal.
+The revenue was calculate incorrectly. -> ___________________________
+The statements is prepared every quarter. -> ___________________________
+The issue will investigate by the audit team. -> ___________________________
+All adjusting entries are make at month-end. -> ___________________________
+
+@TASK 6D. Writing Task 3: Explaining a Delay (Internal Memo)
+@LABEL Scenario | Write an internal memo (80 words) to a colleague explaining why the closing was delayed and what is being done now.
+@LABEL Focus | Use the Past Passive to explain the delay and the Present Continuous Passive (is being + P.P.) to describe the current action.
+@BULLETLABEL
+Example: "MEMORANDUM: Closing Delay
+@LINE The closing was delayed because an error was found in the receivables account. That issue has been resolved, and the adjusted trial balance is now being prepared. The final statements will be delivered to the Group CFO by 5 PM. Thank you for your patience."
+@PB
+
+@PART 7 | 8 | PRONUNCIATION – Stress in the Passive Voice
+@TASK 7A. Syllable Stress: Procedural Nouns
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Ac-coun-ting
+Ad-just-ment
+Re-con-cil-i-a-tion
+Ge-ne-ra-ted
+Pre-pa-ra-tion
+
+@TASK 7B. Word Stress: Highlighting the Action
+@LABEL Explanation | In the Passive Voice, the stress often falls on the verb (the action) to emphasize what happened to the subject. Practice stressing the bolded word.
+@LABEL Practice | Read the sentences, focusing on stressing the verb.
+@BULLET
+The trial balance was GE-ne-RATED.
+The entries must be POST-ed.
+The financial statements are RE-viewed.
+
+@TASK 7C. Intonation: Sequential Steps
+@LABEL Context | Use a rising intonation for each step in a sequence to show that the process is incomplete, and a falling intonation on the final step.
+@LABEL Practice | Read these steps:
+@BULLET
+"First, the data is collected (↗), and then it is posted (↗), and finally, the statements are prepared (↘)."
+
+@TASK 7D. Fluency Drill: The Year-End Report
+@LABEL Task | Read the following summary, maintaining a professional pace and using a clear voice. Emphasize the verbs in the Passive Voice.
+@LINE "The year-end closing is now in progress. All temporary accounts have been closed. The post-closing trial balance is being checked for accuracy. Once the final figures are approved, the full audit package will be delivered to the external firm. We expect that the audit will be completed by March 1st."
+@PB
+
+@PART 8 | 8 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the item to the relevant action in the accounting cycle.
+@TABLE Item | Action
+1. Trial Balance | a. To close revenue and expense accounts
+2. Source Documents | b. To compare the bank statement to the cash account
+3. Adjusting Entries | c. To summarize debits and credits
+4. Bank Reconciliation | d. To record depreciation or accruals
+5. Closing Entries | e. To record transactions in the journal
+6. Journal Entries | f. To collect the initial transaction details
+
+@TASK 8B. Grammar Quiz (Passive Voice)
+@LINE Complete the sentence with the correct Passive Voice form of the verb in parentheses. (Only the first one is done for you).
+@NUM
+The accounts must be audited (audit) before they are made public.
+The financial statements ____________________ (prepare) by the end of the week.
+The figures was not correctly ____________________ (derive) from the ledger.
+The invoices should ____________________ (file) in the archives.
+All transactions are ____________________ (post) to the General Ledger daily.
+
+@TASK 8C. Real-Life Simulation: The Audit Inquiry
+@LABEL Scenario | An external auditor (A) is inquiring about a specific process to verify controls with a financial analyst (B).
+@LINE Roles:
+@BULLETLABEL
+Auditor (Student A): Ask how the fixed assets register is maintained (Use: is maintained?).
+@BULLETLABEL
+Analyst (Student B): Explain the steps using the Passive Voice (The assets are recorded...).
+@BULLETLABEL
+Auditor (Student A): Ask if the final report is checked by a supervisor (Is it checked...?).
+@BULLETLABEL
+Example:
+@SUB
+A: "How is the fixed assets register maintained?"
+B: "First, the asset is tagged and recorded. Then, depreciation is calculated monthly. Finally, the register is updated."
+
+@TASK 8D. Extension Writing: Explaining Net Income Derivation
+@LABEL Task | Write a short paragraph (80 words) explaining how Net Income is calculated.
+@LABEL Style | Use the Passive Voice to describe the calculation.
+@BULLETLABEL
+Example: "Net Income is derived from Total Revenue. First, the Cost of Goods Sold is subtracted to get Gross Profit. Then, operating expenses are deducted. Finally, the tax expense is calculated and subtracted, leaving the Net Income for the period. This figure is then transferred to Retained Earnings."
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can use vocabulary related to the accounting cycle (ledger, trial balance).
+I can identify and use the Passive Voice (is/are made, was/were prepared).
+I can describe a sequence of accounting steps using the Passive Voice.
+I can explain how a financial figure is derived (calculated) impersonally.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "The books are closed." Why is this phrase used in accounting? What does it symbolize about the finality of the numbers for that period? How does the reliance on the Passive Voice reflect the professionalism and objectivity required in accounting?

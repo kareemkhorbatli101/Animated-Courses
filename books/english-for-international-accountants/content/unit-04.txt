@@ -1,0 +1,377 @@
+@PB
+@UNITHEAD 4 | Inventory and Supplies
+@LINE Theme: Stocktaking, counting assets, ordering office stationery, and managing consumables across the group's offices.
+@LINE Grammar Focus: Countable/Uncountable Nouns & Quantifiers (e.g., much, many, a lot of, a few, some, any).
+@LINE Communicative Focus: Reporting stock levels, discussing what is "in stock" vs. "out of stock," explaining usage of consumables.
+@PB
+
+@WARMUP 4 | The Stockroom Audit
+@TASK Task 1: The Importance of Inventory
+@LABEL Context | Inventory management ensures the business has enough supplies without holding excessive stock.
+@LINE Discuss in small groups:
+@BULLET
+Name three types of inventory an accounting firm might manage (e.g., stationery, computer paper).
+Why is it important for the Finance Department to track the consumption of supplies?
+What does it mean when an item is considered "obsolete" inventory?
+If you find a major discrepancy between the physical count and the ledger record, what action should you take?
+@TASK Task 2: Counting and Measuring
+@LINE The following items are common in inventory and supplies. Classify them as Countable (C) or Uncountable (U).
+@TABLE Item | Classification | Item | Classification
+1. Paper |  | 7. Boxes | 
+2. Pencils |  | 8. Furniture | 
+3. Stationery |  | 9. Toners | 
+4. Software |  | 10. Information | 
+5. Money |  | 11. Advice | 
+6. Invoice |  | 12. Equipment | 
+
+@TASK Task 3: Ordering Stock
+@LINE Think-Pair-Share:
+@BULLETLABEL
+Think: The Kraków office has ~very little~ printing paper and ~too many~ binder clips. How would you report these levels to the Procurement Manager?
+@BULLETLABEL
+Pair: Discuss with a partner: You need to order some new computer equipment, but you have many unused monitors. How do you justify ordering new items?
+@BULLETLABEL
+Share: Share your sentences with the class, focusing on using quantifiers (e.g., "We have too many binder clips, but we need a lot of new paper.").
+@PB
+
+@PART 1 | 4 | VOCABULARY – Stock Levels and Storage
+@TASK 1A. Terms for Stock Status and Quantity
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Consumables | a. A detailed check or counting of all goods and materials in stock.
+2. Stocktaking | b. Goods or items that are held for sale or future use.
+3. Inventory | c. The minimum quantity of an item that should be held in stock to meet demand.
+4. Reorder Point | d. Items that are used up and need frequent replacement (e.g., printer toner).
+5. Out of Stock | e. The total quantity or amount of something available.
+6. Level | f. The item is not available and needs to be ordered.
+
+@TASK 1B. Reporting Verbs
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | Count, replenish, deplete, verify, estimate, dispose
+@NUM
+We ________ every item on the shelf during the annual stocktaking.
+The usage of printing paper will ________ the supply quickly this quarter.
+The Purchasing Manager needs to ________ the office supplies weekly.
+I can ________ the total value of the inventory, but I cannot verify it until the count is finished.
+We must ________ the quantity of all high-value equipment.
+The team must ________ of the broken furniture and old computers.
+
+@TASK 1C. Vocabulary in Context: Stock Check Memo
+@LINE Fill in the blanks with the correct word from the box:
+@LINE obsolete, ledger, quantity, reorder point, variance, supplies
+@LINE Memo: Quarterly Stock Check
+@LINE The physical (1) ________ of office supplies showed a significant (2) ________ when compared to the (3) ________ record. We have found that the (4) ________ of printer toner is below the (5) ________, meaning we need to order more immediately. Furthermore, the old fax machines are considered (6) ________ and should be removed from the assets list.
+
+@TASK 1D. Collocations for Inventory Management
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Take | a. stock levels
+2. Place | b. a physical count
+3. Record | c. stocktaking
+4. Maintain | d. an order
+5. Perform | e. inventory value
+6. Review | f. control procedures
+@LABEL Practice | Use two of these phrases in a sentence about inventory management.
+@LABEL Example | "We must perform a physical count before we record inventory value in the ledger."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLEB Verb | Noun | Related Term | Sentence Example
+Count | Count | Countable | "We need an exact count of the folders."
+Estimate | _________ | Estimated | "The estimate was slightly too low."
+Consume | _________ | Consumables | "The consumption rate is too high."
+Supply | Supplier | _________ | "We need a new supply of paper clips."
+Manage | Manager | _________ | "Inventory management requires daily checks."
+@PB
+
+@PART 2 | 4 | GRAMMAR – Countable/Uncountable Nouns & Quantifiers
+@TASK 2A. Grammar Context: Reporting Inventory
+@LINE Quantifiers are vital for accurately reporting stock levels. We must use the correct quantifier depending on whether the noun is countable (C) or uncountable (U).
+@SCRIPT
+Custodian: "We have too many pencils (C), but we have very little toner (U). There is not much furniture (U) left in the storage room. We need to order a lot of paper (U). Do we have any new software (U) licenses?"
+@BLABEL Analysis
+@BULLET
+Underline the *quantifiers* (e.g., ~too many, very little, not much, a lot of, any~).
+Which quantifiers are used with Countable Nouns (like ~pencils~)?
+Which quantifiers are used with Uncountable Nouns (like ~toner~ and ~paper~)?
+
+@TASK 2B. Grammar Focus Box: Quantifiers
+@TABLEB Quantifier | Use with C/U | Meaning | Example (Accounting Context)
+Many, Too many | C | Large amount (Too many = excessive) | We have *too many* *laptops*.
+Much, Too much | U | Large amount (Too much = excessive) | There *is* *too much* *money* in the petty cash box.
+A few, Few | C | Small amount (*A few* = positive, *Few* = negative) | We *only* have *a few* *invoices* left.
+A little, Little | U | Small amount (*A little* = positive, *Little* = negative) | We have *very little* *paper* left.
+A lot of / Lots of | C & U | Large quantity (General) | The company *spends* *a lot of* *money* on *equipment*.
+Some / Any | C & U | Non-specific quantity (*Any* in questions/negatives) | *Do* we have *any* *ink*? Yes, we have *some*.
+
+@TASK 2C. Guided Practice
+@LINE Choose the correct quantifier (much or many) for the sentence. (Only the first one is done for you).
+@NUM
+We have too many printer cartridges on the shelf. (Countable)
+There is not ____________________ information on the asset register. (Uncountable)
+How ____________________ invoices did you process today? (Countable)
+We spend too ____________________ time on stocktaking. (Uncountable)
+There are so ____________________ empty boxes in the storage area. (Countable)
+How ____________________ consumables do you need to order? (Countable)
+
+@TASK 2D. Sentence Transformation
+@LINE Rewrite the sentences using the quantifier in parentheses.
+@BULLETLABEL
+Original: We have almost no staples left. (LITTLE)
+Quantifier: We have very little staple supply left.
+Original: There is a small number of folders in the supply room. (A FEW)
+Quantifier: There are ____________________ in the supply room.
+Original: The manager said we spend a large amount of money on supplies. (A LOT OF)
+Quantifier: The manager said we spend ____________________ money on supplies.
+
+@TASK 2E. Speaking: Discussing Inventory Problems
+@LINE In pairs, practice reporting these inventory issues. Use the correct quantifiers.
+@BULLETLABEL
+Problem 1: Too much dust in the storage area (U).
+@SUBLABEL
+~Example:~ "There is too much dust in the storage area. We need to clean it."
+@BULLETLABEL
+Problem 2: Not enough new calculators (C).
+@BULLETLABEL
+Problem 3: Very little liquid soap for the bathrooms (U).
+@BULLETLABEL
+Problem 4: A few broken chairs that need disposal (C).
+@PB
+
+@PART 3 | 4 | LISTENING – Stock Levels and Ordering
+@TASK 3A. Passage 1: Reporting Low Stock (Functional)
+@LABEL Context | The inventory clerk calls the Purchasing Manager to report low levels.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Clerk: "Good morning. I'm calling about our stock levels. We have a few reams of paper left, but very little ink. Also, we are out of stock of the large black binder clips. We need to place an order immediately. Do we have any budget left this month for equipment?"
+Manager: "Yes, we have a lot of budget. How much ink do you need? And how many boxes of clips should I order?"
+@BLABEL Comprehension Questions (Use Quantifiers in your answer)
+@NUM
+How many reams of paper does the clerk have left?
+How much ink does the clerk have?
+What is the status of the large black binder clips?
+What did the manager confirm they have a lot of?
+What two questions did the manager ask about the order?
+
+@TASK 3B. Passage 2: Annual Stocktaking Instructions (Operating Context)
+@LABEL Context | Instructions are given for the annual physical count.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Team, the annual stocktaking begins at 9 AM tomorrow, local time in each office. You must count all items, including consumables and equipment. We will check the physical count against the ledger. We cannot afford many variances. We have little time to reconcile the figures. Focus on the high-value assets first. Do not forget to record the serial numbers. A few items are obsolete, so do not include them in the final count."
+@BOLD True or False:
+@TFBOX
+The team is only counting high-value equipment.
+The physical count will be compared against the ledger.
+The company can afford many large variances.
+The team has little time to reconcile the figures.
+Obsolete items must be included in the final count.
+
+@TASK 3C. Passage 3: Explaining Consumable Usage (Financial Context)
+@LABEL Context | A report on why the consumption rate is high.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Accountant: "Our consumption of toner and printing supplies is surprisingly high. We use too much ink compared to last year. We have too many unnecessary copies being printed. However, we have very little loss from theft, which is good news. I think we should implement a few new printing controls to save some money. The cost of paper alone is a lot of money."
+@BOLD Fill in the Consumption Report (Use Quantifiers):
+@BULLETLABEL
+Ink Usage: We use ____________________ ink compared to last year.
+@BULLETLABEL
+Printing Problem: We have ____________________ unnecessary copies being printed.
+@BULLETLABEL
+Loss: We have ____________________ loss from theft.
+@BULLETLABEL
+Solution: We should implement ____________________ new printing controls.
+@PB
+
+@PART 4 | 4 | SPEAKING – Reporting Stock and Orders
+@TASK 4A. Functional Language: Reporting Levels
+@LINE Practice using these structures with a partner.
+@TABLE Low Quantity (Negative) | Sufficient Quantity (Positive) | Excessive Quantity (Negative)
+"There is very little toner." | "We have a few reams left." | "We have too many files."
+"We have not much tape." | "We still have some money in the budget." | "There is too much old equipment."
+
+@TASK 4B. Role-Play 1: The Ordering Request
+@LABEL Scenario | Ask the Inventory Manager to place an order for low-stock consumables.
+@LINE Student A (Clerk): Report the stock status (use little and few). Request the order be placed (Could).
+@LINE Student B (Manager): Ask about the quantities needed (How much/How many). Confirm the order (Can).
+@BULLETLABEL
+A: "We have very little ink and only a few pens left. Could we place an order today?"
+@BULLETLABEL
+B: "How much ink do you need? I can place the order for a lot of paper now."
+
+@TASK 4C. Role-Play 2: Stocktaking Discrepancy
+@LABEL Scenario | You have found a variance between the physical count and the ledger record.
+@LINE Student A (Accountant): Report the variance politely (Could). State the difference (use a lot of or too much/many).
+@LINE Student B (Clerk): Explain the likely cause (e.g., forgotten paperwork). Offer to perform a re-count (Can offer).
+@BULLETLABEL
+A: "Could you explain this variance? The physical count shows too many monitors compared to the ledger.
+@BULLETLABEL
+B: "I can offer to re-count the monitors. Maybe a few were not recorded when they were received."
+
+@TASK 4D. Presentation: "My Inventory Checklist"
+@LABEL Task | You have 60 seconds to explain how you check stock levels for both countable and uncountable items. Use appropriate quantifiers.
+@LABEL Structure
+@NUM
+Countable Items: I count how many files and laptops we have. If there are only a few left, I place an order.
+Uncountable Items: I check how much paper and toner we have. If there is very little ink, I report it immediately.
+The Rule: We should not have too much of any item to avoid obsolete stock.
+@PB
+
+@PART 5 | 4 | READING – Inventory Control Policies
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the purpose of setting a reorder point?
+Why is office supplies often considered an expense rather than an asset?
+What are the risks of holding too much stock?
+
+@TASK 5B. Reading Passage 1: The Definition of Consumables
+@LINE Read the internal memo on consumables.
+@LINE Consumables are defined as supplies that are used up quickly in the course of business operations. These are treated as an expense when purchased, not an asset. This category includes a lot of items: printer toner, a few boxes of paper clips, cleaning supplies, and general stationery. We must note that equipment is not a consumable. Since we use too much paper, we have set a low reorder point for it. Employees may request new supplies using the online form. We cannot have too little paper or ink, or productivity will fall.
+@BLABEL Comprehension Questions (Use Quantifiers in your answer)
+@NUM
+What is the definition of consumables?
+What is considered an expense, the purchase of consumables or equipment?
+What are a few examples of consumables?
+What is the reason for setting a low reorder point for paper?
+What cannot the company have too little of?
+@LABEL Grammar Check
+@LINE Find three examples of Uncountable Nouns in the passage.
+
+@TASK 5C. Reading Passage 2: Variance Reporting
+@LINE Read the procedure for handling inventory variance.
+@LINE Inventory variance is the difference between the recorded amount in the ledger and the physical count. There should not be much variance if stocktaking is performed correctly. If the variance is higher than 5% of the total value, the custodian must perform a re-count. If the variance persists, an investigation will be launched. We are looking for any evidence of misplacement or theft. We have too many unexplained variances in the last two quarters, in three different offices. We need a lot of improvements in our inventory control procedures.
+@BLABEL Comprehension Questions
+@NUM
+What is inventory variance?
+How much variance should not be there?
+What must the custodian do if the variance is higher than 5%?
+What is the company looking for evidence of?
+What is needed in the control procedures?
+
+@TASK 5D. Reading Passage 3: Obsolete Assets
+@LINE Read the policy on obsolete equipment.
+@LINE Assets become obsolete when they are no longer useful to the business, often due to technological changes. A few old computers and a large printer are currently considered obsolete assets. These must be disposed of according to strict environmental guidelines, which differ from country to country. We do not have much storage space, so they must be removed quickly. We do not want too many old items taking up space. How much money can we get from recycling them? That is the final question we must answer.
+@BLABEL Comprehension Questions (Use Quantifiers in your answer)
+@NUM
+When do assets become obsolete?
+What are a few examples of obsolete assets mentioned?
+How much storage space does the company have?
+How many old items does the company want to keep?
+What must the company do with these assets?
+@PB
+
+@PART 6 | 4 | WRITING – Inventory Reports
+@TASK 6A. Guided Writing: Paraphrasing (Quantifiers)
+@LABEL Task | Paraphrase the following statements using the quantifier in parentheses. (Only the first one is done for you).
+@NUM
+We have very little money left for equipment. (NOT MUCH) -> We do not have much money left for equipment.
+We only have three boxes of folders remaining. (A FEW) -> We only have ____________________ of folders remaining.
+The consumption rate is too high. We use a lot of ink. (TOO MUCH) -> The consumption rate is high. We use ____________________ ink.
+
+@TASK 6B. Writing Task 1: The Low-Stock Report
+@LABEL Scenario | Write a short email (50–60 words) to the Purchasing Manager reporting low stock levels.
+@LINE Include:
+@BULLET
+State that the reorder point has been reached for two items.
+Use very little for uncountable supplies (e.g., cleaning supplies).
+Use only a few for countable items (e.g., keyboards).
+@BULLETLABEL
+Example: "Hi Priya, The stocktaking shows we have reached the reorder point for several consumables. We have very little cleaning supplies left, and only a few spare keyboards. Could you please place an urgent order? We cannot afford to be out of stock of any item."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Countable/Uncountable Nouns and Quantifiers) in the following report draft. (Only the first one is corrected).
+@LINE Subject: Inventory Variance Report
+@LINE Dear Ms Vogel,
+@NUM
+We found too much files in the storage area. -> We found too many files in the storage area.
+There is a few office supplies left.
+How many money did we spend on toner?
+We need less advice and more actions.
+There are very little paper left on the shelves.
+
+@TASK 6D. Writing Task 3: Justification for New Equipment
+@LABEL Scenario | Write a formal justification (80 words) to the Group CFO explaining why the company needs to purchase new equipment despite having some old equipment in stock.
+@LABEL Focus | Use too many/much, a few/little, and a lot of.
+@BULLETLABEL
+Example: "Dear Ms Vogel, I am requesting authorization to purchase new scanner equipment. Although we have a few old scanners, they are obsolete and take too much time to run. They also cause a lot of maintenance issues. The old equipment is not efficient. Would you mind reviewing this request?"
+@PB
+
+@PART 7 | 4 | PRONUNCIATION – Linking and Stress in Quantifiers
+@TASK 7A. Syllable Stress: Inventory Management
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+In-ven-to-ry
+Con-su-mable
+Quan-ti-ty
+Re-or-der Point
+Ob-so-lete
+
+@TASK 7B. Linking Sounds: Quantifiers
+@LABEL Explanation | When a quantifier ends in a consonant sound and the next word starts with a vowel, the words often link together (e.g., a lot of sounds like a loto-v).
+@LABEL Practice | Read the phrases, focusing on smooth linking.
+@BULLET
+a lot of /əˈlɒt əv/ inventory
+a few old assets
+not much ink
+some equipment
+
+@TASK 7C. Intonation: Confirming Quantity
+@LABEL Context | Use rising intonation when asking a specific question about quantity (How much/many).
+@LABEL Practice | Read these questions:
+@BULLET
+"How much money is left in the budget? (↗)"
+"How many boxes do you need to order? (↗)"
+"Are there any new software licenses? (↗)"
+
+@TASK 7D. Fluency Drill: Stocktaking Report
+@LABEL Task | Read the following passage, maintaining a clear and analytical tone, ensuring correct use of linking and stress.
+@LINE "The stocktaking is finished. We found a few large variances. We have too many pens, but very little paper for the printers. This shows we have not much control over our consumables. We must do a lot of work to improve our records. How much toner did we use this quarter? I need to check that figure."
+@PB
+
+@PART 8 | 4 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the term to the correct concept.
+@TABLE Term | Concept
+1. The items are all used up. | a. Reorder Point
+2. Comparing physical count to ledger. | b. Consumables
+3. Items like paper and ink. | c. Obsolete
+4. The minimum level before ordering. | d. Variance
+5. Too old or no longer useful. | e. Reconciliation
+6. Difference between expected and actual stock. | f. Out of Stock
+
+@TASK 8B. Grammar Quiz
+@LINE Choose the correct quantifier to complete the sentence. (Only the first one is done for you).
+@NUM
+We have very little information about the consumption rate. (very little / very few)
+The company spends too much money on unnecessary supplies. (too much / too many)
+I found only a few original receipts. (a few / a little)
+Do we have any new computers in the storage area? (any / some)
+There is a lot of dust on the shelf. (a lot of / many)
+
+@TASK 8C. Real-Life Simulation: The Procurement Meeting
+@LABEL Scenario | Discussing the high cost of office supplies and solutions.
+@LINE Roles:
+@BULLETLABEL
+Finance Analyst (Student A): Report the high consumption rate (use ~too much~). Suggest a control measure (Could).
+@BULLETLABEL
+Procurement Manager (Student B): Agree with the consumption rate. Ask about the quantity of obsolete equipment (How much/many).
+@BULLETLABEL
+Inventory Clerk (Student C): Report the obsolete items (use ~a few~). Offer to dispose of them (Can offer).
+
+@TASK 8D. Extension Writing: A New Ordering System
+@LABEL Task | Write a short proposal (80 words) for a new ordering system that limits the use of consumables.
+@LABEL Style | Use formal requests and quantifiers.
+@BULLETLABEL
+Example: "To reduce the excessive consumption of toner and paper, we propose a digital voucher system. Could employees limit printing to essential documents? We should not have too many copies being made. This will save a lot of money and reduce our environmental impact. Would you mind approving this trial?"
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can define inventory and consumables.
+I can explain the process of stocktaking and variance reporting.
+I can distinguish between Countable and Uncountable Nouns (e.g., ~invoice~ vs. ~information~).
+I can correctly use quantifiers like much, many, a few, a little to report stock levels.
+I can politely request an order be placed using quantifiers.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "In a paperless office, which consumables would we still need? How much time could be saved if we did not have to count paper inventory? What are the key differences in tracking countable equipment versus uncountable paper in terms of accounting treatment?"

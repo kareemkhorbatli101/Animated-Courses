@@ -1,0 +1,367 @@
+@PB
+@UNITHEAD 6 | Errors and Corrections
+@LINE Theme: Bank reconciliation, spotting mistakes, internal controls, and fraud prevention.
+@LINE Grammar Focus: First and Second Conditionals (Real consequences of errors and hypothetical situations).
+@LINE Communicative Focus: Explaining consequences (If we don't pay, they will stop supply), giving advice on avoiding mistakes, and discussing what-if scenarios.
+@PB
+
+@WARMUP 6 | The Importance of Accuracy
+@TASK Task 1: The Consequences of Errors
+@LABEL Context | In finance, a small mistake can have large consequences. Discuss the potential impact of these common accounting errors.
+@BULLET
+Misclassifying a large capital expense as a revenue expense.
+Failing to reconcile the bank statement for two months.
+Making a duplicate payment to a major supplier.
+Understating tax liabilities in one of the group's six jurisdictions.
+@TASK Task 2: Internal Controls
+@LINE Internal controls are rules and procedures designed to protect assets and ensure the reliability of financial data.
+@LINE Read the controls below and discuss why each is important.
+@NUM
+Segregation of Duties: Two different people must handle the receipt of cash and the recording of the transaction.
+Physical Controls: Keeping valuable assets (like inventory or cash) in a secure, locked location.
+Reconciliation: Comparing two independent records (like the bank balance and the ledger balance) to check for discrepancies.
+
+@TASK Task 3: Dealing with Discovery
+@LINE Imagine you discover a significant error. How will you handle the situation?
+@BULLET
+What is the first person you will inform? (Use First Conditional: ~If I find a mistake, I will inform the Senior Accountant.~)
+What is the worst possible outcome? (Use Second Conditional: ~If the mistake were public, we would lose client trust.~)
+What is the best advice you can give to prevent it from happening again?
+@PB
+
+@PART 1 | 6 | VOCABULARY – Errors and Controls
+@TASK 1A. Terms for Mistakes and Discrepancies
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Discrepancy | a. Mistake made by recording a transaction more than once.
+2. Reversal | b. A financial asset that cannot be collected (a bad debt).
+3. Fraud | c. A lack of agreement or difference between two sets of data.
+4. Duplicate Payment | d. An intentional deception to secure unfair or unlawful gain.
+5. Uncollectible Debt | e. An accounting entry that cancels or undoes a previous entry.
+6. Omission | f. An item that should have been included but was left out.
+
+@TASK 1B. Actions to Resolve Errors
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words |  flag, investigate, adjust, mitigate, cross-check, rectify
+@NUM
+We must ________ the journal entry before the trial balance is prepared.
+The Audit team will ________ the source of the suspicious transaction.
+Always ________ the invoice amount against the purchase order.
+We need to ________ the prepaid expense account at the end of the month.
+Please ________ any transaction over EUR 10,000 for senior review.
+We must ________ the risk of overpayment through better controls.
+
+@TASK 1C. Vocabulary in Context: Internal Audit Report
+@LINE Fill in the blanks with the correct word from the box:
+@LINE controls, omission, suspense, discrepancy, reconciliation, audit
+@LINE The internal (1) ________ found a significant (2) ________ between the general ledger and the bank statement. This was partially due to an (3) ________ of a large vendor payment. The (4) ________ procedure failed to catch it last month. We must implement stronger internal (5) ________ to prevent this from happening again. The amount has been placed in the (6) ________ account while the cause is being investigated.
+
+@TASK 1D. Collocations for Financial Reporting
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Identify | a. a fraud
+2. Correct | b. a balance
+3. Detect | c. the ledgers
+4. Zero out | d. a human error
+5. Balance | e. the source of the error
+6. Reverse | f. a journal entry
+@LABEL Practice | Use two of these phrases in a sentence about the Audit process.
+@LABEL Example | "If we detect a fraud, we must immediately reverse a journal entry."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLEB Verb | Noun | Related Term | Sentence Example
+Investigate | Investigation | Investigative | "The investigation is ongoing."
+Reconcile | _________ | Reconcilable | "The reconciliation is due by Friday."
+Adjust | _________ | Adjustable | "We need to make an adjustment to the figures."
+Authorize | Authorization | _________ | "Do you have the necessary authorization?"
+Correct | Correction | _________ | "The correction was made this morning."
+@PB
+
+@PART 2 | 6 | GRAMMAR – First and Second Conditionals
+@TASK 2A. Grammar Context: Predicting Consequences
+@LINE The Senior Accountant is training a new team member.
+@SCRIPT
+Marta: "If you don't cross-check the invoice against the PO, you will make a duplicate payment (First Conditional). If we made duplicate payments regularly, we would lose thousands of euros (Second Conditional). Also, if the bank statement does not match the ledger, we will not close the books this month. If I were responsible for that kind of error, I would implement a new internal control immediately."
+@BLABEL Analysis
+@BULLET
+Underline the main *consequence* in each conditional sentence.
+Which conditional *is used* for *real* or *probable* future consequences?
+Which conditional *is used* for *hypothetical* or *unlikely* present/future situations?
+
+@TASK 2B. Grammar Focus Box: Conditionals
+@TABLEB Conditional Type | Form | Use | Example (Accounts Context)
+First Conditional | If + Present Simple, Will + Verb | Real or probable future outcomes. | If we *miss* the *deadline*, we *will* *incur* a *penalty*.
+Second Conditional | If + Past Simple (or ~were~), Would + Verb | Hypothetical or unreal situations now or in the future; giving advice. | If I *were* you, I *would* *reverse* the *entry*.
+
+@TASK 2C. Guided Practice
+@LINE Choose the correct verb form (in bold) to complete the sentence. (Only the first one is done for you).
+@NUM
+If you flag the discrepancy now, we _________ it before the audit. (will fix / would fix)
+If the auditor found a fraud, the company _________  in serious trouble. (will be / would be)
+If we don't reconcile the bank account weekly, the cash balance _________  inaccurate. (will be / would be)
+If I were the CFO, I _________ the new risk mitigation system. (will authorize / would authorize)
+If he entered the amount incorrectly, the trial balance _________. (will not balance / would not balance)
+If you adjust the figures today, we _________  ready for the board meeting tomorrow. (will be / would be)
+
+@TASK 2D. Sentence Transformation
+@LINE Rewrite the sentences using the conditional in parentheses.
+@BULLETLABEL
+Original: The penalty is certain if we don't pay by Friday. (FIRST CONDITIONAL)
+Conditional: If we don't pay by Friday, we will incur a penalty.
+Original: It's unlikely that the auditor would accept the error. (SECOND CONDITIONAL)
+Conditional: If the auditor ____________________ the error, he ____________________ accept it.
+Original: Your manager advises you to reverse the journal entry. (SECOND CONDITIONAL - Giving Advice)
+Conditional: If I ____________________ you, I ____________________ the journal entry.
+
+@TASK 2E. Speaking: Discussing Risk and Advice
+@LINE In pairs, practice using the Conditionals for these scenarios.
+@BULLETLABEL
+Scenario 1 (Real Consequence): Not checking the supplier details -> Duplicate payment.
+@SUBLABEL
+~Example:~ "If you don't check the supplier details, you will make a duplicate payment."
+@BULLETLABEL
+Scenario 2 (Hypothetical Advice): You find an omission -> What would you do?
+@BULLETLABEL
+Scenario 3 (Real Consequence): Failing to reverse the error -> Misstated profits.
+@BULLETLABEL
+Scenario 4 (Hypothetical Situation): If you were in charge of all internal controls -> What would you change?
+@PB
+
+@PART 3 | 6 | LISTENING – Identifying and Solving Problems
+@TASK 3A. Passage 1: The Discrepancy (Functional)
+@LABEL Context | Two colleagues are discussing a discrepancy found during reconciliation.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Colleague 1: "The bank balance is EUR 500 higher than our ledger balance. I can't find the source of the discrepancy."
+Colleague 2: "If the bank balance is higher, it will be a deposit we haven't recorded yet. Have you cross-checked the unidentified receipts? If it were an omission, we would see a missing journal entry."
+Colleague 1: "Ah, yes. I will check the suspense account now. If I find the missing deposit, I will rectify the entry before lunch."
+@BLABEL Comprehension Questions
+@NUM
+What is the problem?
+What does Colleague 2 suggest the discrepancy is (First Conditional)?
+What does Colleague 2 think they would see if it were an omission (Second Conditional)?
+Where is Colleague 1 going to check now?
+What will Colleague 1 do if he finds the deposit?
+
+@TASK 3B. Passage 2: Internal Control Failure (Operating Context)
+@LABEL Context | A manager is explaining a control failure to prevent a duplicate payment.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Manager: "We made a EUR 10,000 duplicate payment last week. The control failed because the authorisation was not cross-checked. If we had segregation of duties, the problem would not have occurred. I am going to implement a new two-person sign-off rule across all six offices. If the new rule is in place, we will stop any further overpayments."
+@BOLD True or False:
+@TFBOX
+The company received a duplicate payment.
+The problem was due to a lack of cross-checking the authorisation.
+The manager is going to implement a one-person sign-off rule.
+The manager used the Second Conditional to describe the control failure.
+The manager believes the new rule will prevent future overpayments (First Conditional).
+
+@TASK 3C. Passage 3: Hypothetical Fraud Discussion (Financial Context)
+@LABEL Context | The risk committee is discussing a worst-case scenario.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Committee Member 1: "If an employee were to commit fraud by creating fake vendor invoices, how would we detect it?"
+Committee Member 2: "If we had automated exception reporting, we would flag the unusual payment size. But we don't. If we were to investigate every small discrepancy, it would take too much time."
+Committee Member 1: "I agree. If we don't invest in better controls soon, we will face significant exposure next year."
+@BOLD Fill in the Consequences (Use Conditionals):
+@BULLETLABEL
+Hypothetical Fraud: If an employee were to commit fraud, how ____________________ we detect it? (Second Conditional)
+@BULLETLABEL
+Exception Reporting: If we had automated reporting, we ____________________ the unusual payment. (Second Conditional)
+@BULLETLABEL
+Investigation Cost: If we ____________________ every small discrepancy, it would take too much time. (Second Conditional)
+@BULLETLABEL
+Future Risk: If we don't invest in controls, we ____________________ significant exposure. (First Conditional)
+@PB
+
+@PART 4 | 6 | SPEAKING – Explaining Risk and Giving Advice
+@TASK 4A. Functional Language: Conditional Structures
+@LINE Practice using these structures with a partner.
+@TABLE Real Consequence (First Conditional) | Hypothetical Outcome/Advice (Second Conditional)
+"If you don't correct this, we will misstate our profit." | "If I were you, I would reverse the entry."
+"If the bank charges a fee, we will incur a loss." | "If we had the budget, we would implement a new ERP system."
+
+@TASK 4B. Role-Play 1: The Missing Receipt
+@LABEL Scenario | A colleague (A) has lost a cash receipt.
+@LINE Student A (Colleague): Explain the situation. Ask what will happen (First Conditional).
+@LINE Student B (Accountant): Explain the real consequence (First Conditional - e.g., We won't be able to claim the expense). Give advice on how to rectify it (Second Conditional).
+@BULLETLABEL
+A: "I can't find the receipt. What will happen if I can't provide it?"
+@BULLETLABEL
+B: "If you can't provide it, we will have an unsubstantiated expense. If I were you, I would ask for a copy from the vendor."
+
+@TASK 4C. Role-Play 2: The Audit Scenario
+@LABEL Scenario | Two colleagues are discussing how an auditor would react to a scenario.
+@LINE Student A: Set the hypothetical situation (Second Conditional). Ask what the auditor would do.
+@LINE Student B: Explain the hypothetical outcome (Second Conditional). Give advice (Second Conditional).
+@BULLETLABEL
+A: "If we didn't reconcile the bank for three months, what would the auditor say?"
+@BULLETLABEL
+B: "If they discovered that, they would issue a serious warning. If I were the company, I would hire another person just for reconciliation."
+
+@TASK 4D. Presentation: "My Advice to the New Hire"
+@LABEL Task | You have 60 seconds to give advice to a new finance employee on how to avoid common mistakes. Use both First and Second Conditionals.
+@LABEL Structure
+@NUM
+First Conditional: Explain a real consequence of a common mistake (e.g., If you miss the deadline, you will face a penalty).
+Second Conditional: Offer hypothetical advice (e.g., If I were you, I would always cross-check the totals).
+First Conditional: State the positive outcome if they follow procedures (e.g., If you follow the internal controls, you will never be in trouble).
+@PB
+
+@PART 5 | 6 | READING – Procedures and Policies
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the difference between a control deficiency and a material weakness?
+Why do companies keep a suspense account?
+What are some examples of transactions that require a reversal?
+
+@TASK 5B. Reading Passage 1: The Bank Reconciliation Procedure
+@LINE Read the procedure for Bank Reconciliation.
+@LINE The bank reconciliation must be completed weekly to ensure the accuracy of cash. The core goal is to identify any discrepancy between the bank statement and the general ledger. If the totals do not match, the accountant will investigate the unidentified transactions first. We will check for any omission or duplicate entry. If the difference were over EUR 1,000, it would require the manager's authorization to rectify. If we find an error in our records, we will adjust the journal entry immediately.
+@BLABEL Comprehension Questions (Use Conditionals in your answer)
+@NUM
+What is the goal of bank reconciliation?
+What will the accountant do if the totals do not match?
+What would happen if the difference were over EUR 1,000?
+What will they do if they find an error in their records?
+What two types of mistakes will they check for?
+@LABEL Grammar Check
+@LINE Find three examples of the First Conditional in the passage.
+
+@TASK 5C. Reading Passage 2: Policy on Uncollectible Debt
+@LINE Read the policy on bad debt.
+@LINE A debt is classified as uncollectible if a client fails to make payment after 120 days of intensive collections. Once classified, the AR Manager will authorize a write-off. If the amount were very large, we would send the debt to a third-party collections agency in the client's own country. If we don't process this write-off correctly, our profit will be overstated. The policy states that we must reverse the original sales entry and zero out the debtor's account to reflect the loss accurately.
+@BLABEL Comprehension Questions
+@NUM
+When is a debt classified as uncollectible?
+What will the AR Manager do once it is classified?
+What would they do if the amount were very large (Second Conditional)?
+What will happen if they don't process the write-off correctly?
+What two accounting actions are required?
+
+@TASK 5D. Reading Passage 3: Fraud Prevention Controls
+@LINE Read the policy on fraud prevention.
+@LINE Our highest internal control is the segregation of duties. If one person were responsible for both cash receipt and bank reconciliation, they could easily commit fraud. That is why we will always separate the recording and custody of assets. If an employee violates this rule, they will face immediate termination. If we had an automated system to cross-check all large payments, we would detect most fraudulent invoices before payment. But we don't, so we must rely on manual cross-checking.
+@BLABEL Comprehension Questions (Use Conditionals in your answer)
+@NUM
+What is the highest internal control?
+What could happen if one person were responsible for both receipt and reconciliation? (Second Conditional)
+What will happen if an employee violates this rule? (First Conditional)
+What would they detect if they had an automated system? (Second Conditional)
+What must they rely on instead?
+@PB
+
+@PART 6 | 6 | WRITING – Conditional Advice
+@TASK 6A. Guided Writing: Paraphrasing (Conditionals)
+@LABEL Task | Paraphrase the following statements using the Conditional in parentheses. (Only the first one is done for you).
+@NUM
+It is possible that the suspense account will clear the discrepancy. (FIRST CONDITIONAL) -> If we check the suspense account, it will clear the discrepancy.
+I recommend that you reverse the journal entry. (SECOND CONDITIONAL - Advice) -> If I ____________________ you, I ____________________ the journal entry.
+We can't detect the error because we don't have automated controls. (SECOND CONDITIONAL) -> If we ____________________ automated controls, we ____________________ the error.
+
+@TASK 6B. Writing Task 1: The Warning Email
+@LABEL Scenario | Write a short, professional email (50–60 words) to a colleague warning them about a common mistake.
+@LINE Include:
+@BULLET
+Use the First Conditional to explain the real consequence of the mistake.
+Use the Second Conditional to give advice.
+@BULLETLABEL
+Example: "Dear Ryan, If you don't cross-check the supplier bank details, we will make a duplicate payment. This will cause a serious cash flow problem. If I were you, I would implement a daily checklist to avoid this risk. Please be careful."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Conditionals) in the following sentences. (Only the first one is corrected).
+@NUM
+If the team will find the error, they would rectify it immediately. -> If the team finds the error, they will rectify it immediately.
+If the mistake was public, we will lose client trust.
+We will reverse the entry if it is an omission.
+If I am the accountant, I would never skip reconciliation.
+They would have more confidence if the audit is clear.
+
+@TASK 6D. Writing Task 3: Policy Proposal (Internal Memo)
+@LABEL Scenario | Write an internal memo (80 words) proposing a new internal control to prevent fraud.
+@LABEL Focus | Use First and Second Conditionals to justify the proposal.
+@BULLETLABEL
+Example: "MEMORANDUM: Proposed Control Change
+@LINE We propose adding mandatory manager sign-off for any payment over EUR 5,000. If we implement this control, we will prevent 90% of potential fraudulent invoices. Furthermore, if we had this control in place sooner, we would not have made the duplicate payment last month. This new control will significantly mitigate our financial risk."
+@PB
+
+@PART 7 | 6 | PRONUNCIATION – Linking and Intonation in Conditionals
+@TASK 7A. Syllable Stress: Control Terminology
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Dis-crep-an-cy
+Re-con-cil-i-a-tion
+Se-gre-ga-tion
+Au-thor-i-za-tion
+Rec-ti-fy
+
+@TASK 7B. Linking: The "If" Clause
+@LABEL Explanation | When the "if" clause comes first, there is often a slight pause or break (indicated by a comma) before the main clause. Practice the smooth linking, with the pause.
+@LABEL Practice | Read the sentences, focusing on the linking and pause.
+@BULLET
+If we miss the deadline /,/ we will incur a penalty.
+If I were you /,/ I would reverse the entry.
+If the totals do not match /,/ we will investigate the source.
+
+@TASK 7C. Intonation: Hypothetical Scenarios
+@LABEL Context | Use a rising intonation in the "if" clause and a falling intonation in the main clause to emphasize the hypothetical nature of the Second Conditional.
+@LABEL Practice | Read these sentences:
+@BULLET
+"If we had the budget, (↗) we would buy new software. (↘)"
+"If I were the director, (↗) I would zero out that debt. (↘)"
+"If they authorized the payment, (↗) the entry would be correct. (↘)"
+
+@TASK 7D. Fluency Drill: Advising a Colleague
+@LABEL Task | Read the following passage, focusing on clear pronunciation and using a slightly slower, more deliberate tone for advice.
+@LINE "Listen carefully. If you don't cross-check the figures, you will create a discrepancy. That will lead to an official audit. If I were you, I would implement a daily review checklist. Also, if the discrepancy were over EUR 500, you would need to flag it immediately to the manager. Follow these controls, and you will never have to worry about an omission."
+@PB
+
+@PART 8 | 6 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the action to the correct noun.
+@TABLE Action | Noun
+1. To find the cause of the error. | a. Adjust
+2. To compare two sets of figures. | b. Rectify
+3. To make a change to an amount. | c. Investigate
+4. To correct a mistake. | d. Cross-check
+5. A payment made twice. | e. Discrepancy
+6. A difference between two balances. | f. Duplicate Payment
+
+@TASK 8B. Grammar Quiz
+@LINE Complete the sentence with the correct form of the verb in parentheses. (Only the first one is done for you).
+@NUM
+If the trial balance is not (not be) accurate, we __________ (not close) the books.
+If I __________ (be) the auditor, I would recommend (recommend) stricter controls.
+If they reverse (reverse) the entry, the _________ (balance).
+If we _________ (not have) the budget, we would not buy (not buy) new software.
+If you don't use (not use) the new checklist, you _________  (make) an omission.
+
+@TASK 8C. Real-Life Simulation: The Audit Findings
+@LABEL Scenario | A first-draft audit report has identified two issues.
+@LINE Roles:
+@BULLETLABEL
+Junior Accountant (Student A): Announce the first finding (First Conditional). (~"The report says if we don't fix the asset register, we will fail the audit."~)
+@BULLETLABEL
+Senior Accountant (Student B): Address the finding by giving advice (Second Conditional). (~"If I were you, I would hire a temp just to clean the register."~)
+@BULLETLABEL
+Group Finance Manager (Student C): Ask about the second finding (First Conditional) and make a prediction about the consequence (Will). (~"What will happen if they find the duplicate payment? I think we will face a huge penalty."~)
+
+@TASK 8D. Extension Writing: The "What If" Scenario
+@LABEL Task | Write a short, hypothetical scenario (80 words) describing a worst-case error and how it would be rectified.
+@LABEL Style | Use the Second Conditional throughout for the hypothetical situation.
+@BULLETLABEL
+Example: "If a fraudulent invoice were paid for EUR 50,000, we would launch an immediate investigation. If the omission were intentional, the employee would be dismissed. We would have to zero out the loss and the bank would help us to recover the funds. If we had better controls, this would not be a risk."
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can identify and explain common accounting errors and controls.
+I can use the First Conditional to discuss real future consequences.
+I can use the Second Conditional to discuss hypothetical situations and give advice.
+I can explain the importance of bank reconciliation.
+I can write a clear warning email using conditional structures.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "If accounting were fully automated, would human errors disappear? What is the most important internal control in your organization, and why? If you could implement one new software system to eliminate errors, what would it be and why?"

@@ -1,0 +1,363 @@
+@PB
+@UNITHEAD 10 | Reporting to Management
+@LINE Theme: Passing on information, management accounts, summarizing meetings, and conveying decisions.
+@LINE Grammar Focus: Reported Speech (Relaying messages from the CFO, CEO, or external auditors).
+@LINE Communicative Focus: Reporting what the manager said (He said the budget was approved), summarizing key points from a team meeting, and updating colleagues on financial results.
+@PB
+
+@WARMUP 10 | The Information Chain
+@TASK Task 1: Relaying Messages
+@LABEL Context | Think about the last important meeting you attended with a senior executive.
+@BULLET
+A. What was the most important message you had to report back to your team? (e.g., "The CFO said that we needed to cut costs by 10%").
+B. What is the difference between Direct Speech ("We will hire more staff") and Reported Speech (She said they would hire more staff)?
+C. Who in your organization is responsible for reporting financial performance to the Board?
+@TASK Task 2: Summarizing Data
+@LINE What is a key metric from the last management accounts you prepared? How would you explain that metric’s performance in a single sentence to a non-financial manager?
+@TASK Task 3: Importance of Accuracy
+@LINE Why is accuracy and clarity in reporting messages absolutely critical in accounting, especially when the message crosses languages and time zones?
+@PB
+
+@PART 1 | 10 | VOCABULARY – Reporting and Summarizing
+@TASK 1A. Reporting Verbs
+@LINE Match the reporting verb to its function.
+@TABLE Reporting Verb | Function
+1. Asserted | a. To state something as a requirement or rule.
+2. Confirmed | b. To explain something in detail or at length.
+3. Emphasized | c. To state something clearly and forcefully.
+4. Elaborated | d. To state that something is true after being asked.
+5. Mandated | e. To stress the importance of something.
+6. Clarified | f. To make a statement easier to understand.
+7. Stated | g. To communicate a piece of information formally.
+
+@TASK 1B. Management Accounts Terminology
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | Variance, forecast, profitability, ratio, commentary, key takeaways
+@NUM
+The Group CFO asked for a brief summary of the meeting’s _________ before leaving.
+We need to analyze the sales _________ to understand why revenue was lower than budgeted.
+The first section of the report provides detailed _________ on the quarterly results.
+The bank is reviewing our debt-to-equity _________ to assess our financial health.
+Our primary goal is to improve gross _________ by cutting material costs.
+The latest cash flow _________ suggests a shortfall in Q3.
+
+@TASK 1C. Vocabulary in Context: Meeting Summary
+@LINE Fill in the blanks with the correct word from the box:
+@LINE Synopsis, deliverables, objectives, briefing, outline, action points
+@LINE "The (1) ________ from the Group CFO was short but clear. She provided a quick (2) ________ of the Board’s new (3) ________: reducing debt. The meeting concluded with five (4) ________ for the Finance Team, including the main (5) ________, which were due by Friday."
+
+@TASK 1D. Collocations for Reporting
+@LINE Match the verb on the left with the noun on the right to create common reporting phrases.
+@TABLE Verb | Noun
+1. Convey | a. an analysis
+2. Present | b. a directive
+3. Submit | c. a recommendation
+4. Issue | d. the key message
+5. Conduct | e. the quarterly figures
+6. Offer | f. the report
+@LABEL Practice | Use two of these phrases to describe your daily tasks.
+@LABEL Example | "I have to present the quarterly figures to the department head, and then I conduct an analysis of the variance."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLE Verb | Noun | Sentence Example
+Report | Report | "The annual report was published on time."
+Summarize | _________ | "A brief summary of the findings is attached."
+Present | _________ | "The presentation of the budget was well-received."
+Advise | _________ | "The advice from the external auditor was helpful."
+Convey | _________ | "The conveyance of this information was critical."
+@PB
+
+@PART 2 | 10 | GRAMMAR – Reported Speech
+@TASK 2A. Grammar Context: Relaying a Decision
+@LABEL Context | An accountant is telling a colleague about a meeting with the Group CFO.
+@SCRIPT
+Accountant: "The Group CFO said that they were not going to approve the full budget increase. She added that we had to find savings in the marketing department. She also asked us if we could submit a revised plan by the end of the week."
+@BLABEL Analysis
+@BULLET
+What *is* *the* *main* *reporting* *verb* *used* *to* *introduce* *the* *reported* *speech*?
+How did the verb tenses change from Direct Speech (e.g., ~"We are not going..."~) to Reported Speech (e.g., ~"...they were not going..."~)?
+What words (e.g., if, that) are used to connect the reporting verb to the reported clause?
+
+@TASK 2B. Grammar Focus Box: Reported Speech Tense Shifts
+@TABLE Direct Speech | Reported Speech (Reporting Verb in Past) | Example
+Present Simple (~is~) | Past Simple (~was~) | "The *deadline* *is* *Friday*." -> *He* *said* *the* *deadline* *was* *Friday*.
+Present Continuous (~am/is/are doing~) | Past Continuous (~was/were doing~) | "We *are* *reviewing* *the* *figures*." -> *They* *said* *they* *were* *reviewing* *the* *figures*.
+Future (~will~) | Conditional (~would~) | "We *will* *hire* *next* *month*." -> *She* *said* *they* *would* *hire* *the* *following* *month*.
+Past Simple (~did~) | Past Perfect (~had done~) | "We *cut* *costs* *in* Q1." -> *He* *reported* *that* *they* *had* *cut* *costs* *in* Q1.
+
+@TASK 2C. Guided Practice
+@LINE Report the following statements and questions. (Only the first one is done for you).
+@NUM
+Direct: "I need the management accounts by tomorrow."
+@LINE Reported: The Manager stated that he needed the management accounts by the next day.
+@NUM
+Direct: "We are moving to a new system."
+@LINE Reported: The Group CFO announced that they ____________________ to a new system.
+@NUM
+Direct: "Did we approve the tax submission?"
+@LINE Reported: She asked if they ____________________ the tax submission.
+@NUM
+Direct: "I will send the figures next week."
+@LINE Reported: He confirmed that he ____________________ the figures the following week.
+@NUM
+Direct: "The variance was huge last quarter."
+@LINE Reported: The Auditor asserted that the variance ____________________ huge the previous quarter.
+@NUM
+Direct: "You must document all transactions."
+@LINE Reported: The Supervisor mandated that we ____________________ all transactions.
+
+@TASK 2D. Sentence Transformation (Reported Speech)
+@LINE Report the sentences, changing the time words where necessary.
+@BULLETLABEL
+Original: The Group CFO said: "The sale is happening today."
+Reported: The Group CFO said that the sale was happening that day.
+Original: The Auditor stated: "I can finish the review tomorrow."
+Reported: The Auditor stated that she ____________________ the review the next day.
+Original: The Manager said: "I was in a meeting yesterday."
+Reported: The Manager said that he ____________________ in a meeting the day before.
+
+@TASK 2E. Speaking: Relaying Instructions
+@LINE In pairs, take turns giving and reporting instructions.
+@BULLETLABEL
+Student A (Manager): Give a direct instruction using Simple Present or Future.
+@SUBLABEL
+Example: "I need the P&L statement now."
+@BULLETLABEL
+Student B (Accountant): Report the instruction to a third colleague using Reported Speech.
+@SUBLABEL
+Example: "The Manager said that he needed the P&L statement immediately."
+@PB
+
+@PART 3 | 10 | LISTENING – The Management Briefing
+@TASK 3A. Passage 1: Quarterly Results (Functional)
+@LABEL Context | A Financial Controller is giving a briefing on Q3 performance.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Q3 results are mixed. I can confirm that our revenue targets were met, but we have a significant cost variance in the operations department. I expect a detailed explanation of the EUR 50,000 overspend by the end of the week."
+@BLABEL Comprehension Questions (Report the Controller’s messages)
+@NUM
+What did the Controller confirm?
+What did she say they had in operations?
+What did she expect by the end of the week?
+What was the amount of the overspend she mentioned?
+What did she say about the Q3 results?
+
+@TASK 3B. Passage 2: Auditor’s Findings (Operating Context)
+@LABEL Context | A Partner from an external audit firm is giving feedback.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Our preliminary review shows that the internal controls are generally strong. However, we must mandate that you change the inventory valuation method to comply with IFRS. We will not issue a clean opinion unless this change is made immediately."
+@BOLD True or False (Report what the Partner said in the Past):
+@TFBOX
+The Partner said that internal controls were weak.
+The Partner mandated that they change the inventory valuation method.
+She asserted that they would issue a clean opinion today.
+She stated that the preliminary review showed strong controls.
+She warned that they would not issue a clean opinion unless the change was made immediately.
+
+@TASK 3C. Passage 3: The Board Decision (Financial Context)
+@LABEL Context | A senior manager is summarizing the Board’s annual decisions.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"The Board has made a clear decision: they will authorize the acquisition of the competitor. They emphasized that this was a strategic move to gain market share in two new regions. They said they had been planning this merger for two years."
+@BOLD Fill in the Reported Speech forms:
+@BULLET
+The manager said the Board ____________________ (authorize) the acquisition.
+The Board emphasized that this ____________________ (be) a strategic move.
+The manager conveyed that they ____________________ (plan) this merger for two years.
+He stated that the decision ____________________ (be) clear.
+@PB
+
+@PART 4 | 10 | SPEAKING – Summarizing and Directives
+@TASK 4A. Functional Language: Introducing Reported Speech
+@LINE Practice using these structures to introduce a report to a team.
+@TABLE Introducing Statements | Introducing Questions/Requests
+"The Group CFO stated that..." | "The Auditor asked if we could..."
+"He emphasized that..." | "The Manager wanted to know when..."
+"She confirmed that..." | "They inquired whether..."
+
+@TASK 4B. Role-Play 1: The Urgent Report
+@LABEL Scenario | The Audit Partner (A) gives an urgent instruction to the Team Lead (B).
+@LINE Partner (Student A): Give three urgent instructions in Direct Speech (e.g., "I need the general ledger immediately," "The deadline is tomorrow," "You must use the new template.").
+@LINE Team Lead (Student B): Immediately turn around and report these three instructions to a colleague using Reported Speech and different reporting verbs (said, mandated, insisted).
+@BULLETLABEL
+B: "The Partner mandated that we get the general ledger immediately. He also insisted that the deadline was the next day."
+
+@TASK 4C. Role-Play 2: Summarizing Management Accounts
+@LABEL Scenario | A Junior Accountant (A) presents the management accounts to a Department Manager (B).
+@LINE Junior Accountant (Student A): Summarize two key figures and explain the variance (e.g., Sales are up 5%, but expenses increased by 15% because of X).
+@LINE Department Manager (Student B): Report the summary to a colleague who just entered the room using Reported Speech and financial vocabulary (e.g., She reported that sales were up, but she clarified that the expense variance had increased).
+@BULLETLABEL
+B: "She just reported that sales were up, but she emphasized that the expense ratio had increased significantly due to shipping costs."
+
+@TASK 4D. Presentation: The Monthly Financial Update
+@LABEL Task | Prepare a short presentation (60 seconds) summarizing the key takeaways from last month’s performance and management decisions.
+@LABEL Structure
+@NUM
+Opening: "I am here to provide a briefing on the July financials."
+Performance: State what the figures show (e.g., ~I can confirm that the gross margin was 35%~).
+Key Decision: Report a decision from management (e.g., ~The Group CFO mandated that we review all supplier contracts~).
+Next Step: Convey the next action point (e.g., ~I was asked to conduct a new profitability analysis~).
+@PB
+
+@PART 5 | 10 | READING – Formal Financial Correspondence
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+When do you use formal email or memos in accounting?
+What is the purpose of the Executive Summary in a long report?
+What are the risks of misreporting a financial figure or a management decision?
+
+@TASK 5B. Reading Passage 1: Executive Summary
+@LINE Read the executive summary of the Q4 Financial Report.
+@LINE Q4 Financial Report: Executive Summary
+@LINE Overall performance for Q4 met expectations. The Financial Controller asserted that cost control measures had been highly effective and had improved the net profit ratio to 12%. She clarified that while operating expenses were slightly higher than the forecasted figure, the increase was due to one-time IT investments. The Board concluded that the current strategy was sound and mandated no immediate changes to the capital expenditure plan.
+@BLABEL Comprehension Questions (Report the information in your own words)
+@NUM
+What did the Financial Controller assert about cost control?
+What did she clarify about the increase in operating expenses?
+What did the Board conclude about the current strategy?
+What was the net profit ratio reported to be?
+What did the Board mandate no immediate changes to?
+
+@TASK 5C. Reading Passage 2: Minutes of a Budget Meeting
+@LINE Read the key section from the minutes of a strategic budget review meeting.
+@LINE Date: October 25, 2024
+@LINE Topic: 2025 Capital Expenditure Review
+@LINE Group Finance Manager: Mr Farouk stated that the new machinery budget of EUR 2.5 million was approved. He emphasized that future expenditure would be closely monitored. The Head of Operations asked if the Finance Department would review all current leasing agreements. Mr Farouk said that Finance had already begun that review the previous week.
+@BLABEL Comprehension Questions
+@NUM
+What did Mr Farouk state was approved?
+What did he emphasize about future expenditure?
+What did the Head of Operations ask the Finance Department?
+What did Mr Farouk reply about the leasing agreements?
+What was the topic of the meeting?
+
+@TASK 5D. Reading Passage 3: Email from Tax Consultant
+@LINE Read the email from the company’s tax consultant.
+@LINE Subject: Urgent Update: New VAT Legislation
+@LINE Hi Team,
+@LINE Please note that the government has published new VAT legislation. The consultant advised that we must implement the changes by the end of the current month. He warned that failure to comply would result in heavy penalties. He added that he would send a detailed implementation guide next week. The team lead inquired whether the new rules applied to services as well as goods.
+@BLABEL Comprehension Questions
+@NUM
+What did the consultant advise they must do by the end of the current month?
+What did he warn would happen if they failed to comply?
+What did he say he would send the following week?
+What did the team lead inquire about?
+What has the government published according to the email?
+@PB
+
+@PART 6 | 10 | WRITING – Memo and Minutes
+@TASK 6A. Guided Writing: Paraphrasing (Reported Speech)
+@LABEL Task | Report the following Direct Speech sentences. (Only the first one is done for you).
+@NUM
+"I am approving the expense report." -> He said that he was approving the expense report.
+"The profitability will increase in Q3." -> She forecasted that the profitability ____________________ in Q3.
+"We submitted the tax return last week." -> They reported that they ____________________ the tax return the previous week.
+
+@TASK 6B. Writing Task 1: Memo to Staff
+@LABEL Scenario | Write a short internal memo (70–80 words) to your team reporting a decision from the Group CFO regarding cost-cutting.
+@LINE Include:
+@BULLET
+Use at least three reporting verbs (e.g., stated, mandated, emphasized).
+Change the tenses correctly for Reported Speech.
+Example:
+@LINE MEMORANDUM
+@LINE To: Finance Team
+@LINE From: [Your Name]
+@LINE Subject: The Group CFO’s Cost Directive
+@LINE "I am conveying the Group CFO’s decision. She stated that we had to reduce all non-essential travel immediately. She mandated that all department heads review their budgets by the end of the week. She emphasized that this action would ensure the group’s Q4 profitability."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the Reported Speech mistakes in the following sentences. (Only the first one is corrected).
+@NUM
+He said the accounts are finished yesterday. -> He said the accounts had been finished the day before.
+She told that we will get a raise next month.
+The manager asked when the report was submitted?
+They explained that they can finish it by tomorrow.
+He said me to check the ratio.
+
+@TASK 6D. Writing Task 3: Summarizing Meeting Action Points
+@LABEL Scenario | Write a short summary (80 words) of the key action points from a meeting on system migration.
+@LABEL Focus | List who is doing what using reporting verbs (e.g., The IT Lead confirmed that he would...).
+@BULLETLABEL
+Example: "The meeting covered the SAP migration schedule. The IT Director confirmed that the system was ready for testing. He advised that Finance would begin data transfer next week. He also stated that all users had to complete their training modules by Friday. We agreed that the next meeting would be held on Tuesday."
+@PB
+
+@PART 7 | 10 | PRONUNCIATION – Stress and Reduction
+@TASK 7A. Syllable Stress: Verbs for Reporting
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+E-lab-o-rate
+Con-firm
+Man-date
+As-sert
+Syn-op-sis
+
+@TASK 7B. Pronunciation of 'That' (Reduction)
+@LABEL Explanation | In Reported Speech, the word "that" is often reduced to /ðət/ or sometimes omitted entirely in fluent speech.
+@LABEL Practice | Read the sentences, focusing on the reduced or omitted 'that':
+@BULLET
+She said (that) the audit was complete.
+He confirmed (that) they would buy the software.
+We reported (that) the variance was critical.
+
+@TASK 7C. Intonation: Conveying Urgency
+@LABEL Context | Use a firm, falling intonation to convey the seriousness of a reported mandate or warning.
+@LABEL Practice | Read these sentences with strong, authoritative intonation:
+@BULLET
+"The Group CFO mandated that we cut costs immediately (↘)."
+"He warned that the deadline was non-negotiable (↘)."
+"The Board insisted that the figures had to be verified twice (↘)."
+
+@TASK 7D. Fluency Drill: Summarizing a Meeting
+@LABEL Task | Read the following summary, maintaining a professional pace and linking words naturally.
+@LINE "The meeting started with a report on Q2 performance. The Controller stated that profitability was strong. He then emphasized that all staff had to submit their expense reports by Friday. Finally, he asked if we had prepared the cash flow forecast for Q4."
+@PB
+
+@PART 8 | 10 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the item to the correct meaning.
+@TABLE Item | Meaning
+1. Mandate | a. The key points or most important conclusions from a discussion
+2. Commentary | b. To state something clearly and formally
+3. Key Takeaway | c. An official order or instruction
+4. Convey | d. Detailed notes explaining financial results
+5. State | e. A difference between budgeted and actual figures
+6. Variance | f. To communicate or transfer an idea or message
+
+@TASK 8B. Grammar Quiz (Reported Speech)
+@LINE Report the following Direct Speech sentences, filling in the blanks. (Only the first one is done for you).
+@NUM
+"The bank will call tomorrow." -> She said the bank would call the next day.
+"I can’t attend the review today." -> He explained that he ____________________ attend the review that day.
+"Why did you change the ledger?" -> The Auditor asked why I ____________________ the ledger.
+"We have just approved the loan." -> The Manager confirmed that they ____________________ the loan.
+"Submit the report by the end of the hour." -> He instructed me ____________________ the report by the end of the hour.
+
+@TASK 8C. Real-Life Simulation: The Financial Crisis Briefing
+@LABEL Scenario | A briefing on a major unexpected cost overrun.
+@LINE Roles:
+@BULLETLABEL
+Group CFO (Student A): Give three urgent statements in Direct Speech (e.g., ~"The shipping costs are double what we forecasted," "I need a revised forecast by 5 PM today," "We must freeze all non-essential hiring."~).
+@BULLETLABEL
+Team Lead (Student B): Report the Group CFO’s statements to a colleague using Reported Speech and accurate tense shifts and reporting verbs (said, explained, mandated).
+B: "The Group CFO explained that the shipping costs were double what they had forecasted, and she mandated that we freeze all non-essential hiring."
+
+@TASK 8D. Extension Writing: The Meeting Minutes
+@LABEL Task | Write the "Decisions and Actions" section of a meeting minutes (80 words), reporting the results of a discussion on budget approval.
+@LABEL Style | Use formal reporting verbs and Reported Speech.
+@BULLETLABEL
+Example: "Decisions and Actions: The Controller stated that the marketing budget was approved at 90% of the requested amount. She emphasized that the remaining 10% had to be justified in detail. The Finance team agreed that they would submit a revised analysis by the end of the week. The Head of HR asked if the hiring freeze was still in place, and the Controller confirmed that it was."
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can use reporting verbs (assert, mandate, elaborate) correctly.
+I can change the tense of Present Simple to Past Simple in Reported Speech.
+I can accurately report questions using ~if/whether~.
+I can convey urgent messages and directives to a team.
+
+@TASK 8F. Final Thought
+@LINE Discuss: Is it ever acceptable to use Direct Speech when reporting to senior management (e.g., quoting an auditor’s exact words)? If so, when and why? How can you use Reported Speech to make a negative message sound more professional and less confrontational?

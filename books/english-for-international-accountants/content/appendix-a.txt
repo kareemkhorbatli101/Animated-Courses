@@ -1,0 +1,327 @@
+@PB
+@H2 Appendix A:  extended reading passages for Units 1 through 10, designed to blend the specific grammar, vocabulary, and themes of each unit.
+@PB
+
+@H2 Unit 1: The Accounting Office
+@H2 Passage Title: A Morning in the Life of a Junior Accountant
+@LINE In the bustling shared service centre of Northwind Group in Kraków, the day usually begins long before the first client call is answered. For Elena, a Junior Accountant who recently joined the firm, the morning routine is a critical part of maintaining order in a chaotic environment. She arrives at the office at 8:30 AM sharp every day, one hour ahead of Dublin and six hours behind Singapore. Her first task is always the same: she turns on her computer, logs into the secure network, and checks her email inbox for any urgent requests from vendors or the senior management team. This is a habit she never breaks because she knows that organization is the foundation of good bookkeeping.
+@LINE While she drinks her coffee, Elena opens the general ledger software. She usually spends the first hour of the day recording the previous day's transactions. She enters invoice numbers, dates, and amounts with precision, ensuring that every debit has a corresponding credit. She understands that a single error in data entry can cause hours of reconciliation work later in the month, in two ledgers rather than one. She handles the accounts payable ledger for the Dublin and Toronto companies, meaning she is responsible for tracking what the group owes to its suppliers. She files digital receipts into specific folders on the server, organizing them by vendor name to make them easy to locate during an audit.
+@LINE However, today is not a typical day. Currently, the office is undergoing a major software migration. Instead of entering data into the old legacy system, Elena is learning how to use the new cloud-based ERP platform. Right now, she is sitting with the IT specialist, who is explaining how to code an invoice in the new interface. She is taking notes furiously because the interface is quite different, and because it handles six currencies rather than one. Usually, she works alone in her cubicle, but at the moment, she is collaborating with the entire finance team in the conference room to test the new system.
+@LINE Her manager, Mr Farouk, is walking around the room observing the training. He often asks the team about their daily workflows to ensure the new software captures all necessary steps. "Elena, do you print physical copies of the invoices?" he asks. Elena responds, "I usually print them for the physical archive, but right now I am scanning everything directly to the cloud." Mr Farouk nods approval. He knows that the team is working hard to adapt. While the rest of the office is handling their routine tasks, the finance team is currently bridging the gap between old habits and modern efficiency. Even though Elena is stressed by the learning curve, she knows that understanding this system is vital for her role. She is not just recording numbers; she is managing the financial pulse of six companies.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What does Elena usually do during the first hour of her workday?
+Why is Elena working in the conference room today instead of her cubicle?
+How is Elena's current method of handling invoices different from her usual routine?
+What specific accounting ledger is Elena responsible for managing, and for which companies?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Migration
+Ledger
+Reconcile
+Vendor
+@LINE a. A supplier who sells goods or services.
+@LINE b. The process of moving from one system to another.
+@LINE c. To make two sets of records agree or match.
+@LINE d. The principal book or computer file for recording and totaling economic transactions.
+@H2 III. Grammar Application
+@LINE Identify whether the following actions from the text are Routine (Present Simple) or Temporary/Happening Now (Present Continuous):
+@NUM
+Elena arrives at 8:30 AM.
+She is learning the new cloud-based ERP.
+She files digital receipts.
+She is taking notes furiously.
+@PB
+
+@H2 Unit 2: Recording Past Transactions
+@H2 Passage Title: The Mystery of the Unbalanced Books
+@LINE Last week was one of the most challenging periods in the history of the accounting department at GreenLeaf Retail Europe. The team was tasked with closing the books for the previous fiscal year, a process that usually takes three days. However, this time, the process took over a week due to a series of unexpected events and errors that occurred months ago. The trouble began on Monday morning when the Senior Accountant, David, was reviewing the historical data from the second quarter. He noticed a significant discrepancy in the bank reconciliation that no one had spotted before.
+@LINE David was examining the journal entries from March when he found a strange pattern. It appeared that an intern, who was working with the company at the time, was posting invoices while the system was undergoing maintenance. David realized that while the intern was entering the data, the server was failing to save the corresponding credit entries. This resulted in a one-sided entry for over fifty transactions. The intern posted the debits to the expense accounts, but the accounts payable ledger was never updated. This explained why the trial balance did not match.
+@LINE To make matters worse, while David was investigating this digital error, a physical problem emerged. He was looking for the source documents to verify the amounts when he discovered that a box of receipts was missing. He asked his colleague, Sarah, what she was doing on the day the files were archived. Sarah remembered that she was organizing the archive room when the fire alarm rang. She admitted that she left a stack of documents on a desk near the window and forgot to file them before evacuating. When they returned, the cleaners had moved the papers to a different location.
+@LINE David and Sarah spent the next two days tracing the missing transactions. They were checking the bank statements against the ledger line by line when they finally found the missing box in the storage closet. It was a tedious process, made slower because the invoices were in three currencies. They corrected the journal entries, reversed the incorrect postings, and re-entered the data properly. They finished the work late on Friday evening. Just as they were submitting the final report, the Group CFO walked in and asked why they were still there. David explained that they were fixing past mistakes to ensure the financial statements were accurate. It was a hard lesson in the importance of immediate verification; if they had checked the work while the intern was doing it, they would not have spent an entire week fixing it months later.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What specific technical issue caused the one-sided entries during the second quarter?
+What was Sarah doing when the fire alarm rang, causing her to misplace the documents?
+How did David and Sarah eventually resolve the discrepancy?
+Why did the closing process take longer than the usual three days?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Posting
+Discrepancy
+Source Documents
+Reversal
+@LINE a. Original records like receipts or invoices that prove a transaction occurred.
+@LINE b. The act of transferring an entry to the ledger.
+@LINE c. A lack of compatibility or similarity between two or more facts (a difference).
+@LINE d. An accounting entry that cancels out a previous entry.
+@H2 III. Grammar Application
+@LINE Complete the sentences based on the text using Past Simple or Past Continuous:
+@NUM
+David (investigate) __________ the error when he (find) __________ the missing receipts.
+The intern (enter) __________ data while the server (fail) __________.
+Sarah (organize) __________ the room when the alarm (ring) __________.
+@PB
+
+@H2 Unit 3: Petty Cash and Office Expenses
+@H2 Passage Title: Managing the Office Float
+@LINE In every small business, the management of small, daily expenses is a task that requires trust, accuracy, and a great deal of polite communication. At Meridian Design Studio in Toronto, the role of the Petty Cash Custodian belongs to James. He is responsible for a float of CAD 500, which is kept in a locked box in his drawer. This money is strictly for low-value purchases like office stationery, taxi fares for client meetings, and emergency cleaning supplies. Although the amounts are small, the rules are strict, and James often finds himself having to diplomatically enforce company policy.
+@LINE One Tuesday morning, a graphic designer named Lisa approached James's desk. She was in a rush and needed to buy special markers for a presentation. "Can I take CAD 40 from the box?" she asked informally. James, adhering to the rules, replied, "Would you mind filling out a petty cash voucher first? I cannot issue cash without a signature." Lisa sighed but agreed. "Could you lend me a pen?" she asked. James handed her a pen and watched as she filled in the date and the purpose of the expense. "May I remind you to bring back the original receipt?" James added. "If we don't have the receipt, I cannot process the reimbursement, and it will come out of your salary."
+@LINE Later that afternoon, the Office Manager, Mrs Okonkwo, came to see James. The float was running low because of a staff party the previous day. "James, the cash level looks very low. Could you request a replenishment from the Financial Controller in Dublin?" she asked. James checked his spreadsheet. "I can offer to go to the bank this afternoon," he said, "but first I must reconcile the remaining cash with the vouchers I have collected." Mrs Okonkwo nodded. "That is fine. Would you be able to get the cash before 4 PM? We need to pay the window cleaner."
+@LINE James spent the next hour organizing the small scraps of paper. He matched every voucher to a receipt. He found a discrepancy of CAD 5. He realized he had forgotten to record a taxi fare he had authorized for himself earlier in the week. He quickly wrote up the voucher and attached his receipt. Once the reconciliation was complete, he emailed the Controller's office. "May I have your authorization for a replenishment transfer?" he asked politely. The Controller signed the form, ensuring that the office would continue to run smoothly for another week. The imprest system worked perfectly, as long as everyone followed the rules of request and authorization.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+Why did James refuse to give Lisa the cash immediately when she first asked?
+What specific condition did James mention regarding the receipt for the markers?
+Why did Mrs Okonkwo ask James to get the cash before 4 PM?
+What caused the CAD 5 discrepancy that James found during his reconciliation?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Custodian
+Float
+Replenishment
+Voucher
+@LINE a. The process of restoring the stock or supply (money) to its former level.
+@LINE b. A form used to document a disbursement of cash.
+@LINE c. A person who has responsibility for or looks after something.
+@LINE d. A specific sum of money available for minor expenses.
+@H2 III. Grammar Application
+@LINE Rewrite the following informal sentences from the text into the formal requests used in the passage (or similar structures):
+@NUM
+"I want CAD 40 from the box." -> (Use Would/Could)
+"Give me more money for the box." -> (Use May/Could)
+"I will go to the bank." -> (Use I can offer to...)
+@PB
+
+@H2 Unit 4: Inventory and Supplies
+@H2 Passage Title: The Annual Stocktake Challenge
+@LINE For the logistics team at Prime Warehousing International, the first week of January is synonymous with "The Great Count." This is the time for the annual stocktaking, where the physical reality of the warehouse is compared against the digital records in the ledger. The goal is to verify the inventory levels of both assets, like forklifts and computers, and consumables, like packing tape and cardboard boxes. The warehouse manager, Mr Tao, is obsessed with accuracy. He knows that having too much stock ties up cash, while having too little stock leads to operational delays in three countries at once.
+@LINE This year, the team faced a specific challenge with their stationery and packing supplies. During the briefing, Mr Tao noted, "We have a lot of packing tape recorded in the system, but I see very little on the shelves. Conversely, we seem to have too many medium-sized boxes. We need to count exactly how many rolls of tape and how many boxes we actually have." The team split up into groups. One group was assigned to count the countable items: boxes, pens, scanners, and pallets. Another group had to estimate the uncountable items: bubble wrap footage, loose fill packing peanuts, and fuel for the vehicles.
+@LINE As the day progressed, reports started coming in. "We have a few problems in Aisle 4," reported Sarah, a junior clerk. "There are not many labels left for the shipping printers. We are below the reorder point." Mr Tao frowned. "How much ink do we have?" he asked. "We have plenty of ink," Sarah replied, "but without the labels, the ink is useless." This was a failure of inventory management; the consumption rate of labels had increased during the December peak, but the automatic reorder system hadn't triggered.
+@LINE Meanwhile, in the equipment section, another issue arose. The team found a corner filled with old computer monitors and broken scanners. "These are obsolete," Mr Tao declared. "They are taking up too much space. We need to dispose of them, and the disposal rules are different in every country we operate in." The final reconciliation showed a significant variance. The warehouse had consumed a lot of packing material that wasn't billed to clients. Mr Tao realized they needed stricter controls. "We cannot afford this much waste," he told the team. "From now on, we need to track every roll of tape. A little variance is expected, but this is too much."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What is the main risk of having "too much" stock according to Mr Tao?
+Why was the surplus of ink useless to the team?
+What did the team decide to do with the old monitors and broken scanners?
+What was the result of the final reconciliation regarding packing materials?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Consumables
+Obsolete
+Reorder Point
+Stocktaking
+@LINE a. The counting of on-hand inventory.
+@LINE b. No longer produced or used; out of date.
+@LINE c. Goods used in the operation of a business (e.g., tape, fuel).
+@LINE d. The inventory level at which a new order should be placed.
+@H2 III. Grammar Application
+@LINE Categorize the following items from the text as Countable or Uncountable:
+@NUM
+Packing Tape
+Boxes
+Ink
+Scanners
+Waste
+@PB
+
+@H2 Unit 5: Accounts Payable and Receivable
+@H2 Passage Title: Surviving the Cash Flow Crunch
+@LINE The finance department at SolarTech Innovations is facing a critical week. The company has grown rapidly, but this expansion has put a strain on their cash flow. The Accounts Receivable (AR) team and the Accounts Payable (AP) team are meeting on Monday morning to plan their strategy. The Finance Director, Ms Lin, opens the meeting with a serious tone. "We are going to have a tight month," she says. "We have several large invoices coming due in three currencies, and our bank balance is lower than usual. We need to synchronize our inflows and outflows perfectly."
+@LINE First, Ms Lin turns to the AR manager. "What is the status of the Omega Corp account?" she asks. "They are our biggest debtor." The AR manager replies, "I am calling them this afternoon at 2 PM their time. That is a fixed arrangement. I think they will pay the full settlement by Wednesday. However, their invoice is already 45 days past due." Ms Lin nods. "If they don't pay by Wednesday, we are going to suspend their credit terms. We cannot afford to extend more credit to them right now."
+@LINE Next, the discussion shifts to Accounts Payable. The AP clerk looks nervous. "We are scheduling the payment run for Friday," he says. "But we have three major suppliers demanding payment now. If we pay them all, we will overdraw the account." Ms Lin looks at the cash forecast. "Okay, here is the plan. We are going to delay the payment to the stationery supplier until next week. I will call them personally to explain. However, we must pay the electricity and the server hosting fees today. Those are non-negotiable."
+@LINE The team agrees on the plan. They know that cash flow management is about timing, and that a payment released on a Friday afternoon in one country may not clear until Tuesday in another. "I am going to prepare a new credit exposure report for the board," Ms Lin adds. "In the future, we will not offer Net 60 terms to new clients. It is too risky." The meeting concludes with a sense of urgency. Everyone knows what they are doing for the rest of the week. The AR team is chasing money, and the AP team is carefully managing the outflow. If the Omega Corp money arrives, the pressure will lift. If not, Ms Lin will have to make some difficult phone calls.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+Why is SolarTech Innovations facing a cash flow crunch despite growing rapidly?
+What specific action is the AR manager taking at 2 PM?
+What consequence will Omega Corp face if they do not pay by Wednesday?
+Which payments did Ms Lin decide must be paid today?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Debtor
+Settlement
+Past Due
+Payment Run
+@LINE a. A batch process where multiple payments are sent to suppliers.
+@LINE b. Payment of a debt or account.
+@LINE c. A customer who owes money to the company.
+@LINE d. Not paid by the required deadline.
+@H2 III. Grammar Application
+@LINE Identify the Future Form used in these sentences (Will, Going to, or Present Continuous):
+@NUM
+"I am calling them this afternoon at 2 PM."
+"We are going to suspend their credit terms."
+"I think they will pay the full settlement."
+@PB
+
+@H2 Unit 6: Errors and Corrections
+@H2 Passage Title: The Audit Trail
+@LINE In the world of accounting, internal controls are the shield that protects a company from chaos. At SilverStream Logistics, these controls were tested when a routine internal audit uncovered a significant discrepancy. While reviewing the bank reconciliation for October, the auditor, Mark, noticed that the suspense account had a balance of EUR 12,000. A suspense account is a temporary holding place for transactions that have an error or missing information. Mark knew that if he didn't investigate this immediately, the financial statements would be inaccurate.
+@LINE Mark began to cross-check the ledger against the bank statement. He discovered that a payment to a vendor, "FastFleet Repairs," had been recorded twice — once by the local office and once by the service centre. It was a duplicate payment. If the accounts payable clerk had checked the invoice number, this error would not have happened. Mark sighed. This was a classic case of human error exacerbated by poor system controls. He realized that if the company had an automated system to flag duplicate invoice numbers, the software would reject the second entry automatically.
+@LINE Mark called the clerk responsible. "If we don't contact the vendor today," Mark explained, "we will lose leverage to get the money back." He advised the clerk on the next steps. "If I were you, I would call their finance department immediately and ask for a refund. Then, we must reverse the journal entry in our books to zero out the duplicate expense." The clerk was worried about the consequences. "Will I be dismissed?" he asked. Mark shook his head. "No, but if you hide the error, the consequences would be severe. Transparency is key."
+@LINE Mark then sat down to write a recommendation for the Group CFO. He wrote, "If we separate the duties of invoice approval and payment processing, we will reduce the risk of this happening again." He used the Second Conditional to describe a better future: "If we invested in optical character recognition (OCR) software, we would eliminate manual data entry errors almost entirely." He added one line about the group's own structure: "If every office posted its own invoices to a single queue, we would see duplicates before they were paid." The error was eventually rectified, the money was refunded, and the company learned a valuable lesson. An error is a mistake, but failing to correct it is a failure of integrity.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What triggered the investigation by Mark, the auditor?
+How did the duplicate payment occur according to Mark's investigation?
+What specific advice did Mark give to the clerk regarding the vendor?
+What internal control improvement did Mark recommend to the Group CFO?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Duplicate Payment
+Suspense Account
+Rectify
+Segregation of Duties
+@LINE a. To correct a mistake or put something right.
+@LINE b. Paying the same invoice twice.
+@LINE c. A temporary account for unclassified transactions.
+@LINE d. The concept of having more than one person complete a task to prevent error/fraud.
+@H2 III. Grammar Application
+@LINE Identify whether the following sentences refer to a Real/Probable (First Conditional) situation or a Hypothetical/Advice (Second Conditional) situation:
+@NUM
+"If we don't contact the vendor today, we will lose leverage."
+"If I were you, I would call their finance department immediately."
+"If we invested in OCR software, we would eliminate manual errors."
+@PB
+
+@H2 Unit 7: Monthly Performance
+@H2 Passage Title: The Quarterly Review Meeting
+@LINE The conference room was tense as the Board of Directors gathered to review the Q3 performance of Horizon Electronics. The Financial Controller, Sarah, stood at the front of the room, ready to present the variance analysis. She knew the numbers were a mixed bag. Revenue was strong, but expenses had spiralled out of control. She needed to use precise language to explain the trends without causing panic. She displayed the first slide, comparing Actuals vs. Budget, with every figure translated into the group's reporting currency.
+@LINE "As you can see," Sarah began, "our Sales Revenue for Q3 was significantly higher than the budget. In fact, this was the strongest sales quarter in the company's history. The launch of the Model-X phone generated more revenue than we predicted." The board members nodded, looking pleased. "However," Sarah continued, moving to the next slide, "this growth came at a cost. Our Marketing Expense was much higher than anticipated. It was the most expensive campaign we have ever run."
+@LINE She pointed to the red numbers on the screen. "The variance in shipping costs is also adverse. Because we sold more units, we spent more on logistics. However, the shipping cost per unit was actually lower than last year, which indicates we are becoming more efficient." A board member asked, "What is the most alarming variance on this report?" Sarah didn't hesitate. "The R&D spend is the most critical issue. It is significantly lower than the budget. While this looks like a favorable variance because we saved money, it actually means we are falling behind on innovation. Falling behind is worse than overspending in this industry."
+@LINE Sarah concluded with a comparison of the regional offices. "The Americas division performed better than the European division. Europe had the sluggish sales growth, making it the least profitable region this quarter. We need to analyze why their operational costs are more expensive than in the Americas, and how much of the gap is simply the exchange rate." By using comparatives and superlatives, Sarah was able to give context to the raw numbers. It wasn't just about profit; it was about understanding which areas were stronger, which were weaker, and which were the most critical for future success.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+Why was the Q3 Sales Revenue considered the "strongest" in history?
+How did Sarah explain the high Marketing Expense?
+Why did Sarah consider the "favorable" variance in R&D to be the most alarming issue?
+How did the shipping cost per unit compare to the previous year?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Adverse Variance
+Favorable Variance
+Actuals
+Sluggish
+@LINE a. Real financial results (what happened).
+@LINE b. Slow-moving or inactive (used to describe poor growth).
+@LINE c. When the actual result is worse for profit than the budget.
+@LINE d. When the actual result is better for profit than the budget.
+@H2 III. Grammar Application
+@LINE Complete the sentences with the correct Comparative or Superlative form of the adjective:
+@NUM
+This was the (strong) __________ sales quarter in history.
+Falling behind is (bad) __________ than overspending.
+Europe was the (profitable - least) __________ region.
+Marketing was (high) __________ than anticipated.
+@PB
+
+@H2 Unit 8: The Accounting Cycle
+@H2 Passage Title: Closing the Books
+@LINE The accounting cycle is the heartbeat of the finance department. It is a systematic process that repeats every month, ensuring that the financial health of the business is accurately captured. At NovaCorp, the cycle is strictly adhered to in every country where the group operates. The process begins with the identification of transactions. Throughout the month, source documents like invoices and receipts are collected and analyzed. These transactions are then journalized. The data is entered into the system, creating a chronological record of every financial event.
+@LINE Once the transactions are recorded, they are posted to the General Ledger. This is where the accounts are classified. At the end of the month, the unadjusted trial balance is generated. This document lists all the account balances to ensure that total debits equal total credits. However, the work is not finished yet. The accounts must be adjusted to reflect accrual accounting principles. Adjusting entries are made for items like depreciation, prepaid expenses, and accrued revenue. These entries are prepared by the senior accountant to ensure that expenses are matched to the revenue they helped generate.
+@LINE After the adjustments are posted, the adjusted trial balance is produced. From this document, the financial statements are derived. The Income Statement is prepared first, followed by the Statement of Retained Earnings and the Balance Sheet. These reports are reviewed by the Controller for accuracy, and the local figures are translated into the reporting currency before they are consolidated. Finally, the closing entries are made. The temporary accounts—revenue, expenses, and dividends—are closed to Retained Earnings. This resets their balances to zero, ready for the next accounting period to begin.
+@LINE The post-closing trial balance is then generated to verify that the ledger is ready for the new month. The entire process is conducted with strict adherence to deadlines. The books are usually closed by the fifth business day of the following month, in every ledger. If a material error is found after closing, the books must be reopened, or a prior period adjustment must be made. At NovaCorp, accuracy is prioritized over speed, but the cycle must always be completed efficiently.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What is the first step of the accounting cycle mentioned in the text?
+Why are adjusting entries made before the final statements are prepared?
+What happens to temporary accounts during the closing process?
+What document is generated after the closing entries to verify the ledger?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+General Ledger
+Trial Balance
+Adjusting Entries
+Closing Entries
+@LINE a. Entries made to zero out temporary accounts.
+@LINE b. A list of all accounts and their balances to check mathematical accuracy.
+@LINE c. Updates made to accounts at the end of the period (e.g., depreciation).
+@LINE d. The main database of all account movements.
+@H2 III. Grammar Application
+@LINE Rewrite the following Active sentences into Passive Voice (as used in the text):
+@NUM
+The accountant posts the transactions. -> The transactions...
+The system generates the report. -> The report...
+The Controller reviews the statements. -> The statements...
+@PB
+
+@H2 Unit 9: Professional Development
+@H2 Passage Title: The Evolving Accountant
+@LINE Robert sits in his office looking at his framed certificates on the wall. He has been an accountant for over fifteen years, and the industry has changed dramatically since he started. When he first began his career in 2008, he spent most of his time manually entering data into spreadsheets. He has worked for his current firm, OmniFinancial, for ten years, and in that time he has reported into managers on three continents. He has witnessed the shift from paper-based ledgers to sophisticated cloud computing.
+@LINE "I have seen a lot of changes," Robert tells his intern, Maya. "When I started, we didn't have automation. Now, I have utilized AI tools to handle all the data entry. This has given me time to focus on analysis." Maya asks him about his qualifications. "I have held my CPA license since 2012," Robert explains. "But the learning never stops. I have just completed a certification in Data Analytics, and I have also taken the IFRS update course twice. In this profession, if you don't up-skill, you become obsolete."
+@LINE Robert looks at his resume. He has achieved a lot. He has led three major system migrations. He has audited some of the largest companies in the region. Most recently, he has developed a training program for junior staff to help them master the new tax software. "Have you ever thought about leaving accounting?" Maya asks. Robert smiles. "No. The tools have changed, but the core logic is the same. I have always enjoyed the puzzle of balancing the books. Plus, I haven't reached the position of CFO yet. That is my next goal."
+@LINE Continuous Professional Education (CPE) is a requirement for Robert. He has attended four seminars this year alone. He has learned about the new lease accounting standards and cybersecurity risks. "I haven't finished my required hours for this year yet," he admits, "but I have booked a course for next week." For Robert, professional development isn't just a box to tick; it is the only way to survive in a fast-paced financial world where the rules differ from one border to the next. He advises Maya, "You have just graduated, which is great. But remember, your education has only just begun."
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+How has Robert's daily work changed since he started in 2008?
+What specific new qualification has Robert just completed?
+What is Robert's career goal that he hasn't reached yet?
+Why does Robert continue to attend seminars and courses?
+@H2 II. Vocabulary Context
+@LINE Match the words from the text to their meanings:
+@NUM
+Up-skill
+Migration
+CPA
+Obsolete
+@LINE a. A professional certification (Certified Public Accountant).
+@LINE b. To teach yourself new skills.
+@LINE c. Moving systems or data from one platform to another.
+@LINE d. No longer useful or needed (outdated).
+@H2 III. Grammar Application
+@LINE Complete the sentences using Present Perfect Simple (have/has + past participle):
+@NUM
+Robert (work) __________ for OmniFinancial for ten years.
+He (just / complete) __________ a certification in Data Analytics.
+He (not / finish) __________ his required CPE hours yet.
+@PB
+
+@H2 Unit 10: Reporting to Management
+@H2 Passage Title: The Board Meeting Briefing
+@LINE The atmosphere in the boardroom was serious. The company, Apex Tech, was navigating a difficult financial quarter, and the executive team was waiting for the report from the Chief Financial Officer (CFO), Mr Sterling. After the meeting concluded, Maria, the Finance Manager, had the task of relaying the key decisions to her team, which is spread across four offices and three time zones. She called a staff meeting to summarize the directives. Communication in these moments is critical; misinterpreting a mandate from the board could lead to disastrous errors.
+@LINE "I have the minutes from the meeting," Maria announced to her team. "I need everyone to listen carefully. Mr Sterling stated that the revenue targets for Q4 were missed by 5%. He emphasized that cost control was now our top priority." The team looked worried. Maria continued, "He mandated that all departmental budgets be reviewed immediately. He said that we had to find a 10% reduction in operating expenses by the end of the month."
+@LINE One of the analysts asked, "Did he say anything about the hiring freeze?" Maria checked her notes. "Yes. The CEO confirmed that the hiring freeze would remain in place until the new year, in every market. She explained that they could not justify bringing on new staff while revenue was down. However, she clarified that this would not affect current interns." Maria also reported on the new project. "Regarding the software upgrade, the IT Director reported that the migration had been successful. He requested that we submit our feedback by Friday."
+@LINE Maria finished with the most important point. "Finally, the Board asserted that they still had confidence in the long-term strategy. They conveyed that this was just a temporary hurdle. They asked if we could prepare a revised cash flow forecast, by country, for the next meeting." The team nodded. They understood their orders. The use of clear reporting verbs—stated, mandated, confirmed, requested—left no room for ambiguity. They knew exactly what had been said and what they needed to do next.
+@H2 Questions:
+@H2 I. Comprehension Questions
+@NUM
+What was the main reason for the serious atmosphere in the boardroom?
+What specific mandate did Mr Sterling give regarding operating expenses?
+What did the CEO report regarding the hiring freeze?
+What request did the IT Director make regarding the software upgrade?
+@H2 II. Vocabulary Context
+@LINE Match the reporting verbs from the text to their definitions:
+@NUM
+Mandated
+Clarified
+Asserted
+Conveyed
+@LINE a. To state a fact or belief confidently and forcefully.
+@LINE b. To give an official order or instruction.
+@LINE c. To communicate or pass on a message.
+@LINE d. To make a statement less confused and more clearly comprehensible.
+@H2 III. Grammar Application
+@LINE Convert the following Direct Speech summaries into Reported Speech (as Maria did in the text):
+@NUM
+Direct: "Revenue targets were missed." -> Reported: He stated that...
+Direct: "The hiring freeze will remain in place." -> Reported: She confirmed that...
+Direct: "We need a revised cash flow forecast." -> Reported: They asked if...
+@PB

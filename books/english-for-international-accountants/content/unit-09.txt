@@ -1,0 +1,356 @@
+@PB
+@UNITHEAD 9 | Professional Development
+@LINE Theme: Career history, software skills (Excel, QuickBooks, Xero), recent achievements, and continuous professional education (CPE).
+@LINE Grammar Focus: Present Perfect Simple (Experience and recent actions, often using since or for).
+@LINE Communicative Focus: Discussing software you have used, tasks you have just finished, and your career path so far.
+@PB
+
+@WARMUP 9 | Your Career Timeline
+@TASK Task 1: Milestones and Achievements
+@LABEL Context | Discuss the last five years of your professional life.
+@BULLET
+A. What is the most important software package you have learned to use in your career?
+B. Which major project have you completed recently (e.g., a system migration, a budget approval)?
+C. How long have you worked in accounting?
+@TASK Task 2: Professional Ambitions
+@LINE What is one new certification (e.g., CPA, ACCA, CIMA) that you have considered studying for? Why have you not started it yet?
+@TASK Task 3: Continuous Learning
+@LINE Why is the Present Perfect Simple the most appropriate tense for discussing career experience and recent accomplishments? (Hint: The action started in the past and is relevant now).
+@PB
+
+@PART 1 | 9 | VOCABULARY – Career and Skills
+@TASK 1A. Career Path Terms
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. CPA | a. The formal recognition of professional skills through examination.
+2. Professional Development | b. To change from one accounting system to another.
+3. Certificate | c. Activities to maintain and improve professional competence (CPE).
+4. Software Migration | d. A short-term training course or qualification.
+5. Core Competency | e. Certified Public Accountant, a highly regarded qualification.
+6. Up-skill | f. A fundamental skill or area of expertise (e.g., financial reporting).
+7. Certification | g. To teach yourself or train in new skills for better performance.
+
+@TASK 1B. Verbs for Professional Activity
+@LABEL Activity | Complete the sentences using the correct verb from the box.
+@LABEL Verbs | Obtained, utilized, implemented, mastered, streamlined, audited
+@NUM
+We have just __________ a new cloud-based ERP system in all six offices.
+@NUM
+She has __________ the use of Pivot Tables in Excel.
+@NUM
+The new accountant has already _________ their CPA license.
+@NUM
+The whole team has _________ the closing process, cutting the time in half.
+@NUM
+Our data has been _________ by the external firm for two weeks.
+@NUM
+For three years, I have _________ QuickBooks for small business clients.
+
+@TASK 1C. Vocabulary in Context: Software and Experience
+@LINE Fill in the blanks with the correct word from the box:
+@BOLD proficiency, ledger, advanced, modules, integration, portfolio
+@LINE "I have worked in this field since 2018. My (1) ________ includes financial reporting and tax planning. I have high (2) ________ in Excel, especially with (3) ________ functions. We recently completed the (4) ________ of our sales software with the General (5) ________. I have also completed several training (6) ________ on new IFRS standards."
+
+@TASK 1D. Collocations for Professional Skills
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Gain | a. a team
+2. Lead | b. a process
+3. Complete | c. experience
+4. Master | d. a certification
+5. Streamline | e. the deadlines
+6. Meet | f. a software package
+@LABEL Practice | Use two of these phrases to describe your professional goals.
+@LABEL Example | "I have gained experience in public accounting, and now I want to lead a team."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLE Verb | Noun | Sentence Example
+Achieve | Achievement | "The achievement of the budget was recognized."
+Migrate | _________ | "The data migration was completed over the weekend."
+Certify | _________ | "The certification is valid for three years."
+Develop | _________ | "Professional development is mandatory for all staff."
+Qualify | _________ | "My qualification is in forensic accounting."
+@PB
+
+@PART 2 | 9 | GRAMMAR – Present Perfect Simple
+@TASK 2A. Grammar Context: The Job Interview
+@LINE An applicant is describing their experience.
+@SCRIPT
+Interviewer: "What have you achieved since joining your current firm?"
+Applicant: "Well, I have managed the entire payroll process for two years now. Also, I have recently finished a specialist course on international tax law. I have not utilized that knowledge in a live project yet, but I am ready to do so."
+@BLABEL Analysis
+@BULLET
+Which verbs are used to form the Present Perfect Simple in the text? (HAVE/HAS + _________).
+Which words (since, for, recently, yet) signal the use of the Present Perfect Simple?
+Why is it used instead of Past Simple (e.g., ~I managed the payroll~)?
+
+@TASK 2B. Grammar Focus Box: Present Perfect Simple
+@TABLE Form | Positive Example | Negative Example | Question Example
+*HAVE* / *HAS* + *P.P.* (Past Participle) | I *have* *worked* *in* *audit* *since* 2019. | He *hasn't* *finished* *the* *report* *yet*. | *Have* *you* *ever* *used* *Xero*?
+
+@TASK 2C. Guided Practice
+@LINE Complete the sentence with the correct Present Perfect Simple form of the verb in parentheses. (Only the first one is done for you).
+@NUM
+I have worked (work) in this department for five years.
+She ____________________ (not / take) her CPA exam yet.
+We ____________________ (upgrade) our accounting software recently.
+How long ____________________ (you / utilize) Excel for budgeting?
+They ____________________ (attend) all the CPE seminars this quarter.
+The tax laws ____________________ (change) significantly since last year.
+
+@TASK 2D. Sentence Transformation (Past Simple to Present Perfect)
+@LINE Rewrite the sentences using the Present Perfect Simple, focusing on the current relevance of the action.
+@BULLETLABEL
+Original: I took the tax course last year.
+Present Perfect: I have taken a tax course.
+Original: She used SAP when she was at her previous job.
+Present Perfect: She has ____________________ SAP before.
+Original: We moved all our data to the cloud three months ago.
+Present Perfect: We have ____________________ all our data to the cloud.
+
+@TASK 2E. Speaking: Discussing Recent Accomplishments
+@LINE In pairs, describe the following using the Present Perfect Simple with JUST or RECENTLY.
+@NUM
+Finish a report.
+Solve a complex reconciliation problem.
+Learn a new Excel formula (e.g., XLOOKUP).
+Have a meeting with the Group CFO.
+Get a new project assigned.
+@BULLETLABEL
+Example A: "I have just finished the quarterly variance report."
+@BULLETLABEL
+Example B: "We have recently solved a complex VAT issue."
+@PB
+
+@PART 3 | 9 | LISTENING – The Performance Review
+@TASK 3A. Passage 1: Software Proficiency (Functional)
+@LABEL Context | A manager is discussing an employee's software skills.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Ryan, your review is excellent. I see that you have used QuickBooks for over four years. That's great. However, you haven't had any experience with our new SAP ERP system yet. We have scheduled you for a training session next month. You have shown great aptitude in other areas, so we expect you will master it quickly."
+@BLABEL Comprehension Questions
+@NUM
+How long has Ryan used QuickBooks?
+What software has Ryan not used yet?
+What has been scheduled for Ryan next month?
+What does the manager expect Ryan to do quickly?
+What has Ryan shown in other areas?
+
+@TASK 3B. Passage 2: Career Path (Operating Context)
+@LABEL Context | A recruiter is interviewing a candidate.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"Tell me about your professional journey. Where have you worked since graduating? I see you have worked at three different companies in five years, in two countries. Have you focused on any specific industry? Also, have you completed your CPA certification or is that something you are still planning to do?"
+@BOLD True or False (All sentences must be in the Present Perfect):
+@TFBOX
+The candidate has worked at three companies in the last five years.
+The recruiter has asked the candidate to talk about their current role.
+The candidate has completed the CPA certification already.
+The candidate has focused on the hospitality industry.
+The candidate has been asked about their professional journey.
+
+@TASK 3C. Passage 3: Recent Achievements (Financial Context)
+@LABEL Context | A team leader is giving a project update.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+"We have just finalized the quarterly VAT submission. It was a complex project, but we have met the deadline. Specifically, Priya has streamlined the data extraction process, which has saved us about ten hours of work this month. We haven't fully documented the new process yet, but that will be done next week."
+@BOLD Fill in the Present Perfect forms:
+@BULLET
+The team ____________________ (just / finalize) the quarterly VAT submission.
+They ____________________ (meet) the deadline.
+Priya ____________________ (streamline) the data extraction process.
+The new process ____________________ (not / fully / document) yet.
+@PB
+
+@PART 4 | 9 | SPEAKING – Interviews and Achievements
+@TASK 4A. Functional Language: Expressing Duration and Newness
+@LINE Practice using these structures with a partner to describe your experience.
+@TABLE Experience (Present Perfect + for/since) | Recent Action (Present Perfect + just/recently/yet)
+"I have been in the role since 2021." | "I have just finished a CPE course."
+"She has managed this budget for six months." | "We haven't installed the new update yet."
+
+@TASK 4B. Role-Play 1: The Formal Interview
+@LABEL Scenario | A hiring manager (A) is interviewing an accountant (B) for a Financial Analyst position.
+@LINE Manager (Student A): Ask about their relevant experience and current tasks (How long have you...?).
+@LINE Accountant (Student B): Answer using Present Perfect Simple (I have been/I have worked...).
+@BULLETLABEL
+A: "How long have you been responsible for forecasting revenue?"
+@BULLETLABEL
+B: "I have developed and managed the forecasting models since the beginning of last quarter."
+
+@TASK 4C. Role-Play 2: Discussing Software Skills
+@LABEL Scenario | Two colleagues are discussing a new project that requires specific software knowledge.
+@LINE Colleague 1 (Student A): Ask if your partner has used Xero or QuickBooks before (Have you ever...?).
+@LINE Colleague 2 (Student B): Confirm or deny, and describe their current software proficiency (I haven't used... yet, but I have mastered...).
+@BULLETLABEL
+A: "Have you ever used Xero for client reporting?"
+@BULLETLABEL
+B: "No, I haven't used Xero yet, but I have worked with QuickBooks for my last three clients."
+
+@TASK 4D. Presentation: "My Career Highlight Reel"
+@LABEL Task | Prepare a short presentation (60 seconds) summarizing your top three professional achievements so far.
+@LABEL Structure
+@NUM
+Opening: "I have worked in accounting for X years."
+Highlight 1: "I have successfully streamlined..."
+Highlight 2: "I have also obtained the CPA..."
+Highlight 3: "Most recently, I have completed the implementation of..."
+@PB
+
+@PART 5 | 9 | READING – Continuous Professional Education (CPE)
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the main purpose of CPE in accounting?
+How often do accountants need to report their CPE hours?
+What are the benefits of up-skilling in software technology?
+
+@TASK 5B. Reading Passage 1: Mandatory CPE Requirements
+@LINE Read the excerpt from a professional body's guidelines.
+@LINE Requirements for License Renewal
+@LINE The annual license renewal is dependent on the completion of Continuous Professional Education (CPE). All certified members must have completed a minimum of 40 hours of CPE per calendar year. The hours must be documented and reported by December 31st. Since the new regulations were introduced, many accountants have chosen online courses to fulfill their requirements. We have not approved any extensions for members who have not met the deadline yet this year.
+@BLABEL Comprehension Questions (Use the Present Perfect in your answer)
+@NUM
+How many CPE hours must certified members have completed?
+What have many accountants chosen to do since the new regulations were introduced?
+What has not been approved for members who missed the deadline?
+When must the CPE hours be reported?
+What is the annual license renewal dependent on?
+
+@TASK 5C. Reading Passage 2: The Skill Gap in Accounting Technology
+@LINE Read the article excerpt on professional development.
+@LINE The accounting profession has changed dramatically in the last decade. Many firms have invested heavily in AI tools and automation software. This shift has created a need for professionals with advanced data analytics skills. Job descriptions now reflect this: experience with data visualization tools has become a core competency for senior analysts. Employees who haven't developed these skills yet may find themselves left behind by these technological advancements.
+@BLABEL Comprehension Questions
+@NUM
+How has the accounting profession changed dramatically in the last decade?
+What type of tools have many firms invested in?
+What has become a core competency for senior analysts?
+Who may find themselves left behind?
+What has the shift created a need for?
+
+@TASK 5D. Reading Passage 3: From Bookkeeper to Consultant
+@LINE Read the biography of a successful accountant.
+@LINE Ines Duarte started her career as a junior bookkeeper ten years ago. She has always been dedicated to learning. Since 2018, she has specialized in forensic accounting, and she has worked on several high-profile cases in three jurisdictions. She has just opened her own consultancy firm after leaving her previous employer. She is now training three new employees, all of whom have recently graduated from university.
+@BLABEL Comprehension Questions
+@NUM
+How long has Ines been dedicated to learning?
+What has Ines specialized in since 2018?
+What has she just done?
+How many new employees is she training?
+What have all of her new employees recently done?
+@PB
+
+@PART 6 | 9 | WRITING – Professional Summaries
+@TASK 6A. Guided Writing: Paraphrasing (Present Perfect)
+@LABEL Task | Paraphrase the following sentences using the Present Perfect Simple form. (Only the first one is done for you).
+@NUM
+I started working here in 2020. -> I have worked here since 2020.
+She finished the audit yesterday. -> She has ____________________ the audit.
+They did not use SAP before. -> They have ____________________ SAP before.
+
+@TASK 6B. Writing Task 1: Software Skills Section (CV)
+@LABEL Scenario | Write a short section (50–60 words) for a CV/resume describing your software proficiency.
+@LINE Include:
+@BULLET
+Use the Present Perfect Simple to describe the duration of use (for/since).
+Mention at least three software packages (e.g., Excel, QuickBooks, Oracle).
+@BULLETLABEL
+Example: "I have utilized Oracle ERP for all financial reporting since 2021. I have also mastered advanced Excel functions for complex data modeling. Recently, I have started using Power BI for data visualization."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Present Perfect) in the following sentences. (Only the first one is corrected).
+@NUM
+I am working here since two years. -> I have worked here for two years.
+She has go to the CPE seminar yesterday.
+We already finish the tax return.
+Have you ever use Xero before?
+He didn't sign the documents yet.
+
+@TASK 6D. Writing Task 3: Professional Development Plan
+@LABEL Scenario | Write a short professional development plan (80 words) listing what you have done this year and what you plan to do next.
+@LABEL Focus | Use the Present Perfect to summarize achievements and Simple Future (will) for plans.
+@BULLETLABEL
+Example: "This year, I have completed the Advanced Financial Modeling course, and I have successfully led the year-end audit preparation. I haven't started studying for the CPA yet. Next quarter, I will begin my CPA studies, and I will propose a new project to streamline our expense reporting system."
+
+@PART 7 | 9 | PRONUNCIATION – Contractions and Linking
+@TASK 7A. Syllable Stress: Qualification Nouns
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Pro-fi-cient
+Cert-i-fi-ca-tion
+Achieve-ment
+Con-sul-tant
+De-vel-op-ment
+
+@TASK 7B. Pronunciation of 'Have' (Contractions)
+@LABEL Explanation | In speech, the Present Perfect is almost always contracted ('ve or 's). Practice the contractions to sound natural.
+@LABEL Practice | Read the sentences, focusing on the contraction sound:
+@BULLET
+I've worked here for ten years. /aɪv/
+She's just finished the report. /ʃiːz/
+We've already met the deadline. /wiːv/
+
+@TASK 7C. Intonation: Listing Experience
+@LABEL Context | Use a rising intonation on each item in a list of experience and a falling intonation on the last item.
+@LABEL Practice | Read this list:
+@BULLET
+"I have used QuickBooks (↗), Excel (↗), and Oracle Financials (↘)."
+"I have gained experience in audit (↗), tax (↗), and financial planning (↘)."
+
+@TASK 7D. Fluency Drill: Describing a Career
+@LABEL Task | Read the following summary, maintaining a professional pace and using clear contractions.
+@LINE "I've been a financial analyst since 2017. I've managed the budget process for the entire Asia-Pacific region. Recently, I've obtained my CMA qualification. I haven't worked on a system migration yet, but I'm eager to learn those skills."
+@PB
+
+@PART 8 | 9 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the item to the correct context.
+@TABLE Item | Context
+1. CPA | a. The time spent in a specific job or field
+2. Core Competency | b. To sign up for additional training or studies
+3. Tenure | c. The most highly regarded accounting qualification
+4. Software Migration | d. A critical skill or area of expertise
+5. Up-skill | e. The move from one system to another
+6. Enroll | f. To improve your skills through learning
+
+@TASK 8B. Grammar Quiz (Present Perfect vs. Past Simple)
+@LINE Choose the correct tense (Past Simple or Present Perfect Simple) for the verb in parentheses. (Only the first one is done for you).
+@NUM
+I have worked (work) in this city since 2015.
+She ____________________ (join) the firm three years ago.
+Have you ever ____________________ (travel) for business?
+We ____________________ (not / receive) the final figures yet.
+He ____________________ (leave) his last job in December.
+
+@TASK 8C. Real-Life Simulation: The Annual Review
+@LABEL Scenario | A Director (A) is conducting an annual review with an Accountant (B).
+@LINE Roles:
+@BULLETLABEL
+Director (Student A): Ask about their achievements this year and training completed (What have you accomplished...?).
+@BULLETLABEL
+Accountant (Student B): Respond using the Present Perfect Simple (I have successfully completed...).
+@BULLETLABEL
+Director (Student A): Ask about their future plans (What are you planning...?).
+@BULLETLABEL
+Example:
+@SUB
+A: "What have you accomplished since January?"
+B: "I have successfully completed the Advanced Financial Reporting course and streamlined the A/R process."
+
+@TASK 8D. Extension Writing: A Recent Achievement
+@LABEL Task | Write a short paragraph (80 words) describing your most recent professional achievement.
+@LABEL Style | Use the Present Perfect to describe the achievement and the results.
+@BULLETLABEL
+Example: "I have just completed the implementation of a new expense tracking system for the sales team. This has reduced reporting errors by over 20% and has saved us time at month-end. I have not fully trained all staff yet, but the system is already improving efficiency for the early adopters."
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can use vocabulary related to career development (CPA, up-skill, migration).
+I can identify and use the Present Perfect Simple (have/has + P.P.).
+I can discuss my work experience using ~since~ and ~for~.
+I can describe recent achievements in an interview context.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "The only constant in accounting is change." How does this idea relate to CPE and the need for continuous up-skilling? What is the biggest change you have seen in the industry since you started, and how have you adapted to it?

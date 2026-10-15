@@ -1,0 +1,367 @@
+@PB
+@UNITHEAD 2 | Recording Past Transactions
+@LINE Theme: Processing invoices, expense claims, and receipts from the previous period (historical data entry across the group's six offices).
+@LINE Grammar Focus: Past Simple vs. Past Continuous (Completed entries vs. Activities interrupted by the phone/colleagues).
+@LINE Communicative Focus: Explaining what happened yesterday, discussing a missing invoice, describing errors found in past records.
+@PB
+
+@WARMUP 2 | The Day-End Routine
+@TASK Task 1: Yesterday's Work
+@LABEL Context | Accountants often spend the first part of the day recording and reconciling transactions from the previous day, week, or month. In a group with six offices, "yesterday" is not the same hour everywhere.
+@LINE Discuss in small groups:
+@BULLET
+Name three types of source documents that must be recorded from the previous period.
+Why is it important to use the correct date when entering historical transactions, especially when the invoice arrives from another time zone?
+What is the difference between an invoice and a receipt?
+What common errors might you find when reviewing expense reports from last month?
+@TASK Task 2: Transaction Terminology
+@LINE The following terms relate to the processing and recording of past transactions. Match the term on the left to its definition on the right.
+@TABLE Term | Definition
+1. Invoice | a. A detailed report claiming reimbursement for money spent on business-related items.
+2. Expense Claim | b. The official documentation that proves a payment has been made.
+3. Posting | c. A bill requesting payment for goods or services supplied.
+4. Receipt | d. An entry in the General Ledger that transfers data from a journal.
+5. Reconciliation | e. The process of matching two independent records to ensure they agree.
+6. Source Document | f. The original record that provides evidence of a transaction.
+
+@TASK Task 3: Dealing with Interruptions
+@LINE Think-Pair-Share:
+@BULLETLABEL
+Think: Imagine you were entering 50 invoices yesterday afternoon. What might have interrupted you? (Name two scenarios: e.g., a phone call from Dublin, a colleague's question.)
+@BULLETLABEL
+Pair: Discuss with a partner: How do interruptions affect the quality and speed of data entry?
+@BULLETLABEL
+Share: Share your ideas with the class, focusing on how you explain the interruption (e.g., "I was posting the journal entry when the phone rang.").
+@PB
+
+@PART 1 | 2 | VOCABULARY – Source Documents and Data Entry
+@TASK 1A. Terms for Recording
+@LINE Match the recording term to its definition.
+@TABLE Term | Definition
+1. Ledger | a. The action of making an official entry in an accounting book.
+2. Journal | b. The systematic arrangement and classification of accounts.
+3. Entry | c. The book of final entry where transactions are permanently recorded.
+4. Chart of Accounts | d. A mistake found during the review or reconciliation process.
+5. Bookkeeping | e. The initial book of entry where transactions are recorded chronologically.
+6. Discrepancy | f. The activity of recording the daily financial transactions of a business.
+
+@TASK 1B. Action Verbs and Nouns
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | submitted, entered, reviewed, filed, recorded, processed
+@NUM
+We ________ all the pending invoices before the Kraków cut-off.
+All expense claims must be ________ by Friday morning, local time.
+The receipt was ________ under the incorrect vendor name.
+The accounts payable clerk in Singapore ________ 100 transactions yesterday.
+She ________ the amount into the wrong column.
+The cash transaction was properly ________ in the journal.
+
+@TASK 1C. Vocabulary in Context: A Review Email
+@LINE Fill in the blanks with the correct word from the box:
+@LINE outstanding, reconcile, missing, approval, batches, date
+@LINE Email: Yesterday's Entries
+@LINE Hi Daniel,
+@LINE Please ensure you (1) __________ the petty cash by the end of the day, Nairobi time. We have three (2) __________ receipts from the travel department, which is causing an (3) __________ discrepancy in the records. I need you to check the (4) __________ on all invoices (5) __________ yesterday. Remember that all claims over EUR 500 require management (6) __________ before (7) __________ processing.
+
+@TASK 1D. Collocations for Accounting Errors
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Locate | a. a journal entry
+2. Correct | b. the source document
+3. Trace | c. a recording error
+4. Spot | d. the bank statement
+5. Examine | e. the closing balance
+6. Verify | f. a missing receipt
+@LABEL Practice | Use two of these phrases in a sentence about finding a mistake.
+@LABEL Example | "I tried to trace the source document, but I could only spot a recording error in the amount."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLEB Verb | Noun | Related Term | Sentence Example
+Reconcile | Reconciliation | Reconciling | "Bank reconciliation is performed monthly in every office."
+Submit | _________ | Submitter | "The submission deadline passed yesterday."
+Approve | _________ | Approved | "The Financial Controller granted her approval for the payment."
+Process | Processing | Processed | "The volume of data processing in the service centre is very high."
+Verify | _________ | Verifiable | "We must ensure the verification of all balances."
+@PB
+
+@PART 2 | 2 | GRAMMAR – Past Simple vs. Past Continuous
+@TASK 2A. Grammar Context: Describing the Flow of Work
+@LINE Read the accountant's description of her workday yesterday.
+@SCRIPT
+Marta: "Yesterday, I was entering the sales invoices (ongoing activity) when the system crashed (interruption – Past Simple). I had to restart the computer, and then I posted the remaining five transactions (completed actions – Past Simple). Later, I was reviewing the expense claims (ongoing activity) while my colleague in Toronto was talking on the phone (parallel activity – Past Continuous)."
+@BLABEL Analysis
+@BULLET
+Underline the verbs in the *Past Simple*. What do they describe?
+Circle the verbs in the *Past Continuous*. What do they describe?
+What word is typically used to connect an ongoing activity (Past Continuous) to a sudden interruption (Past Simple)?
+What word is used to describe two activities happening at the same time?
+
+@TASK 2B. Grammar Focus Box: Past Simple vs. Past Continuous
+@TABLEB Tense | Form | Function | Time Marker | Example (Accounting Context)
+Past Simple | Verb + -ed / Irregular | Completed action at a specific past time. | Yesterday, last week, in 2022 | "I *found* the error yesterday."
+Past Continuous | Was/Were + Verb + -ing | Ongoing action interrupted by another, or action in progress at a specific time. | While, when, at 2 PM yesterday | "I *was posting* the entries when the manager *called*."
+
+@TASK 2C. Guided Practice
+@LINE Complete the sentences with the correct verb form (Past Simple or Past Continuous). (Only the first one is done for you).
+@NUM
+I was checking the inventory report when the electricity went out. (check / go)
+The intern ____________________ the receipts all morning, but he only ____________________ 20 of them. (process / finish)
+While she ____________________ the bank statement, she ____________________ a major discrepancy. (reconcile / spot)
+The system ____________________ while the Financial Controller ____________________ the final budget. (crash / finalize)
+The accountant ____________________ the last ten invoices and then ____________________ home. (enter / go)
+The audit team ____________________ the payroll data at 3 PM yesterday. (examine)
+
+@TASK 2D. Sentence Transformation
+@LINE Complete the sentences using the correct verb form and a suitable connector (when or while).
+@BULLETLABEL
+Original: The phone rang during the bank reconciliation.
+Transformation: I was doing the bank reconciliation when the phone rang.
+Original: The manager asked a question during the data entry.
+Transformation: I ____________________ (enter) the data ____________________ the manager ____________________ (ask) a question.
+Original: She examined the ledger. He prepared the claims. (Simultaneous actions).
+Transformation: She ____________________ (examine) the ledger ____________________ he ____________________ (prepare) the claims.
+
+@TASK 2E. Speaking: Explaining Interruptions
+@LINE In pairs, use the cues to create a sentence explaining an interrupted or parallel activity.
+@BULLETLABEL
+Cue 1: (Ongoing: Check the accounts receivable) (Interruption: Find a missing invoice)
+@SUBLABEL
+~Example:~ "I was checking the accounts receivable when I found a missing invoice."
+@BULLETLABEL
+Cue 2: (Ongoing: Review the expense claims) (Parallel: The auditor looked over my shoulder)
+@BULLETLABEL
+Cue 3: (Ongoing: Post the depreciation entry) (Interruption: The Group CFO walked in)
+@BULLETLABEL
+Cue 4: (Completed: Correct five errors) (Specific time: Before the Singapore hand-over call)
+@PB
+
+@PART 3 | 2 | LISTENING – Daily Routine and Errors
+@TASK 3A. Passage 1: The Missing Receipt (Functional)
+@LABEL Context | A conversation between an accountant and a colleague about a transaction from yesterday.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Accountant: "I was trying to reconcile the travel expenses when I realized one receipt was missing. I looked through all the files, but I didn't locate it. The colleague said she submitted the full expense claim yesterday. I need to know where she filed it. She told me she was having a meeting at 2 PM, so she left it on the filing cabinet."
+@BLABEL Comprehension Questions (Use Past Simple or Past Continuous in your answer)
+@NUM
+What was the accountant trying to do when she realized a receipt was missing?
+What did the colleague say she submitted yesterday?
+What did the accountant do to try and locate the receipt?
+What was the colleague doing at 2 PM?
+Where did the colleague leave the receipt?
+
+@TASK 3B. Passage 2: The Audit Findings (Operating Context)
+@LABEL Context | A senior accountant reports on the errors found during a review of last month's records.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Senior Accountant: "We spotted several errors in the journal entries. For example, the intern was entering data for the fixed assets while he was listening to music. As a result, he posted three transactions to the wrong account. We found the error because the closing balance didn't match the control account. We corrected all the mistakes this morning, and the balance is now correct in all three currencies."
+@BOLD True or False:
+@TFBOX
+The team was not able to spot any errors in the journal entries.
+The intern was listening to music while he was entering data.
+The intern posted three transactions to the correct account.
+The closing balance didn't match the control account, which made them find the error.
+They corrected the mistakes yesterday afternoon.
+
+@TASK 3C. Passage 3: The System Crash (Financial Context)
+@LABEL Context | An IT specialist explains why data processing stopped suddenly.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+IT Specialist: "The system went down suddenly at 4:30 PM Central European Time. I was running the year-end report when the server overheated. The data entry team in Kraków was still processing the final batches of invoices, so they lost about 30 minutes of work. Fortunately, we had backed up the main ledger at 4:00 PM, so we didn't lose all the data. We restarted the servers 20 minutes later, and everyone went back to work."
+@BOLD Fill in the Incident Report (Use Past Simple or Past Continuous):
+@BULLETLABEL
+Time of Crash: The system ____________________ (go down) at 4:30 PM.
+@BULLETLABEL
+Ongoing Activity: The IT specialist ____________________ (run) the year-end report when the server overheated.
+@BULLETLABEL
+Interruption: The data entry team ____________________ (still process) the final batches of invoices.
+@BULLETLABEL
+Recovery: They ____________________ (not lose) all the data because they ____________________ (back up) the ledger earlier.
+@PB
+
+@PART 4 | 2 | SPEAKING – Discussing What Happened
+@TASK 4A. Functional Language: Explaining Actions (Past Tenses)
+@LINE Practice these phrases with a partner.
+@TABLE Past Simple (Completed) | Past Continuous (Ongoing/Interrupted) | Past Simple (Sequencing)
+"I posted the full amount." | "I was checking the journal when the client called." | "I finished the report, and then I logged off."
+"She submitted her claim late." | "While I was doing the reconciliation, he was filing the receipts." | "First, I reviewed the invoice; second, I entered the data."
+
+@TASK 4B. Role-Play 1: The Missing Invoice
+@LABEL Scenario | You need to find a missing invoice from a colleague.
+@LINE Student A (Colleague): Explain what you were doing when you processed the transaction, and what you did next. (e.g., "I was preparing a large batch of expense claims, so I put the invoice on your desk.")
+@LINE Student B (Accountant): Ask what they did with the document, using the Past Simple. (e.g., "Did you file it under the vendor name or the date?")
+
+@TASK 4C. Role-Play 2: Explaining a Review Error
+@LABEL Scenario | A manager is asking why a major recording error went unnoticed last week.
+@LINE Student A (Manager): Ask about the activity using the Past Continuous. (e.g., "What were you doing when you should have been reviewing the ledger?")
+@LINE Student B (Accountant): Explain the distraction using an interruption scenario (Past Continuous + When + Past Simple).
+@BULLET
+"I was performing the journal entry when Mr Farouk came in and asked for the immediate approval of his claim. I had to stop what I was doing."
+
+@TASK 4D. Presentation: "My Data Entry Process"
+@LABEL Task | You have 60 seconds to describe your process for recording last week's transactions, emphasizing the steps and any interruptions you faced.
+@LABEL Structure
+@NUM
+Opening (Simple Past): I recorded all the invoices from last week.
+Process (Past Continuous + Past Simple): I was entering the receipts when I spotted a discrepancy.
+Parallel Action (Past Continuous + While): I was reviewing the expense claims while the new intern was tracing the source documents.
+Conclusion (Simple Past): I finished the reconciliation at 5 PM and verified the closing balance.
+@PB
+
+@PART 5 | 2 | READING – Accounting Procedures
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+When do accountants typically use the Past Continuous tense in their job?
+What does "tracing a source document" mean, and why is it important in an audit?
+What is the first thing you do when you find a discrepancy during reconciliation?
+
+@TASK 5B. Reading Passage 1: The Expense Claim Procedure
+@LINE Read the procedure for handling employee expense claims.
+@LINE Every employee must submit an expense claim form with attached original receipts. If a receipt is missing, the claim requires a special approval from the department head. Yesterday, the claims department in Kraków processed 50 claims from four countries. An auditor was checking the largest claims while the clerk was scanning the attachments. The auditor spotted that one claim was submitted without the necessary approval form. The clerk stopped the scanning process immediately and sent the claim back.
+@BLABEL Comprehension Questions
+@NUM
+What must every employee submit with an expense claim form?
+What was the auditor checking while the clerk was scanning?
+What did the auditor spot?
+What did the clerk do immediately after the error was found?
+What requires special approval?
+@LABEL Grammar Check
+@LINE Find three examples of the Past Continuous tense in the passage.
+
+@TASK 5C. Reading Passage 2: Data Entry and Posting
+@LINE Read the explanation of the accounting cycle's entry phase.
+@LINE The accounting cycle begins with the analysis of source documents. Transactions are initially recorded in the journal chronologically. This is the book of original entry. Last Tuesday, the team was recording a large batch of invoices when the supervisor announced a mandatory training session. Because of the training, only half of the transactions were posted to the General Ledger that day. The supervisor later reviewed the work to ensure accuracy before the closing balance was verified.
+@BLABEL Comprehension Questions (Use Past Simple or Past Continuous)
+@NUM
+What is the book of original entry?
+What was the team doing when the supervisor announced the training session?
+What did the training session cause?
+What did the supervisor do after the entries were made?
+Why was the General Ledger incomplete that day?
+
+@TASK 5D. Reading Passage 3: Reconciliation and Discrepancy
+@LINE Read the explanation of the bank reconciliation process.
+@LINE Bank reconciliation is vital to ensure the cash balance in the Ledger matches the bank statement. A discrepancy often occurs due to cheques that are outstanding or deposits in transit. Yesterday afternoon, Aoife was trying to reconcile the month-end statement for Dublin when she noticed a EUR 5,000 difference. She immediately traced the amount back through the journal entries and found that a deposit had been recorded twice. She corrected the error and prepared the final report.
+@BLABEL Comprehension Questions
+@NUM
+What is the purpose of bank reconciliation?
+What was Aoife doing when she noticed the difference?
+What was the cause of the EUR 5,000 difference she found?
+What did she do immediately after finding the error?
+What two things often cause a discrepancy?
+@PB
+
+@PART 6 | 2 | WRITING – Office Correspondence
+@TASK 6A. Guided Writing: Paraphrasing (Past Tenses)
+@LABEL Task | Paraphrase the following statements, using the Past Simple and Past Continuous structure. (Only the first one is done for you).
+@NUM
+I found the error while I was reviewing the accounts. -> I was reviewing the accounts when I found the error.
+The meeting started, so I couldn't finish the posting. -> I ____________________ (post) the entries when the meeting ____________________ (start).
+The system crashed during the reconciliation process. -> The system ____________________ (crash) while I ____________________ (reconcile) the bank statement.
+
+@TASK 6B. Writing Task 1: Explaining Yesterday's Work Flow
+@LABEL Scenario | Write a short email (50–60 words) to your supervisor, detailing your work flow yesterday and mentioning one interruption.
+@LINE Include:
+@BULLET
+Two tasks you completed (Past Simple).
+One task you were doing when you were interrupted (Past Continuous + Past Simple).
+What you did after the interruption (Past Simple).
+@BULLETLABEL
+Example: "Hi Marta, Yesterday, I processed all the travel expense claims and submitted the payroll file for Toronto. However, I was performing the final bank reconciliation when the system froze. I had to restart my computer, and then I corrected the five errors I had found."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Past Simple / Past Continuous) in the following email draft. (Only the first one is corrected).
+@LINE Subject: Missing Receipt Follow-up
+@LINE Dear Priya,
+@NUM
+I was locating the receipt you left yesterday. -> I located the receipt you left yesterday.
+While I checked the journal, I found the incorrect entry.
+The posting was incomplete because the power was cutting out.
+She did not know the correct account because she was not filing the documents before.
+The accountant finished the reconciliation at 3 PM and then was starting the variance analysis.
+
+@TASK 6D. Writing Task 3: Formal Memo (Discrepancy Report)
+@LABEL Scenario | Write a formal memo (80 words) reporting a discrepancy found during a review of last month's records. Explain how you found it and what you did to correct it.
+@LABEL Focus | Use both Past Simple (completed actions) and Past Continuous (ongoing review).
+@BULLETLABEL
+Include: While I was reviewing... I found... The team was posting... We corrected...
+@BULLETLABEL
+Example: ~"To: Head of Accounting, From: Review Team. Subject: Reporting a Discrepancy. While I was reviewing the expense batches from last month, I found a EUR 700 discrepancy. We traced the error back to a time when the intern was posting the invoices; he accidentally entered a negative amount. We corrected the journal entry immediately, and the accounts are now fully reconciled."~
+@PB
+
+@PART 7 | 2 | PRONUNCIATION – Stress and Tense
+@TASK 7A. Syllable Stress: Accounting Vocabulary
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+In-voice
+Re-ceipt
+En-try
+Po-sting
+Re-con-ci-li-a-tion
+
+@TASK 7B. Pronunciation of -ed Endings (Past Simple)
+@LABEL Explanation | The -ed ending has three sounds: /t/, /d/, or /ɪd/.
+@LABEL Practice | Read the verbs below, noting the final sound:
+@BULLET
+/t/ sound: process(ed), loc(ated)
+/d/ sound: fil(ed), review(ed)
+/ɪd/ sound: needed, submit(ted) (Note: The final consonant is doubled here.)
+
+@TASK 7C. Intonation: Asking for Clarification
+@LABEL Context | Use rising intonation when asking for clarification about a past event or procedure.
+@LABEL Practice | Read these questions:
+@BULLET
+"So, you were posting the entries when the manager called?" (Rising intonation on ~called~)
+"Did you file the receipt under the date or the vendor name?" (Rising intonation on ~or~)
+"What was the team doing at 3:00 PM yesterday?" (Falling intonation on ~yesterday~ as it's a WH-question)
+
+@TASK 7D. Fluency Drill: Explaining the Process
+@LABEL Task | Read the following passage, focusing on clear articulation of the Past Simple and Past Continuous.
+@LINE "Yesterday, I was reviewing the bank statement while the new clerk was processing the invoices. Suddenly, the system sent an error message. I immediately checked the ledger and found that the entry was incorrect. We corrected the mistake and finished the reconciliation before the end of the day."
+@PB
+
+@PART 8 | 2 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the term to the correct concept.
+@TABLE Term | Concept
+1. The book of original entry. | a. Chart of Accounts
+2. A formal request for payment. | b. Discrepancy
+3. The transfer of journal data to the ledger. | c. Journal
+4. The list of all accounts. | d. Posting
+5. An unexpected difference between two amounts. | e. Invoice
+6. Proof that money was paid. | f. Receipt
+
+@TASK 8B. Grammar Quiz
+@LINE Choose the correct verb tense (Past Simple or Past Continuous) for each context. (Only the first one is done for you).
+@NUM
+I was reconciling the bank statement when I found the mistake. (reconcile / find)
+The team ____________________ (process) 50 invoices and then ____________________ (go) for lunch.
+While the intern ____________________ (enter) data, the auditor ____________________ (observe) the process.
+We ____________________ (not file) the source document correctly last week.
+She ____________________ (try) to locate the missing receipt at 9 AM yesterday.
+
+@TASK 8C. Real-Life Simulation: The Error Discovery
+@LABEL Scenario | A colleague is reporting an error she found.
+@LINE Roles:
+@BULLETLABEL
+Colleague (Student A): Use the Past Simple to state the completed discovery and the Past Continuous to explain how. ("I found the error this morning. I was reviewing the fixed asset register when I noticed the double entry.")
+@BULLETLABEL
+Manager (Student B): Ask for clarification on who made the mistake, using Past Continuous. ("Who was responsible for the posting while you were on leave?")
+
+@TASK 8D. Extension Writing: A Procedure Update
+@LABEL Task | Write a brief note (80 words) for the new intern outlining the steps for recording and filing receipts. Use a mix of sequence words (First, Next, Then) and the Past Simple to describe a completed action.
+@BULLETLABEL
+Example: ~"Welcome! First, always check the date and the approval on the expense claim. Next, record the full amount in the journal, in the original currency. Then, post the entry to the General Ledger. Yesterday, I filed all the receipts from the travel department, but I missed three; please ensure you locate them today. Remember to reconcile the petty cash at the end of the week."~
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can name and define key source documents (invoice, receipt, claim).
+I understand the terms posting, ledger, and reconciliation.
+I can correctly form and use the Past Simple tense.
+I can correctly form and use the Past Continuous tense.
+I can use both tenses together to explain interruptions and workflows.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "Think about the concept of 'real-time' accounting versus processing 'past' transactions. How did the job of an accountant change over the last twenty years? What were accountants doing manually twenty years ago that computers do for us now?" Use the Past Simple to discuss the change and the Past Continuous to describe the old routine.

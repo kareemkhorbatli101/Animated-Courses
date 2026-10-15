@@ -1,0 +1,377 @@
+@PB
+@UNITHEAD 5 | Accounts Payable and Receivable
+@LINE Theme: Scheduling payments, chasing debts, managing collections, and cash flow planning across currencies.
+@LINE Grammar Focus: Future Forms (will, going to, present continuous for arrangements).
+@LINE Communicative Focus: Discussing when payments will be made, scheduling calls with debtors, planning the weekly payment run.
+@PB
+
+@WARMUP 5 | The Flow of Money
+@TASK Task 1: The Difference Between AP and AR
+@LABEL Context | Accounts Payable (AP) and Accounts Receivable (AR) are the lifeblood of a company's cash flow. AP is money the company owes (liabilities), and AR is money owed to the company (assets).
+@LINE Discuss in small groups:
+@BULLET
+Name two internal departments that Accounts Payable typically serves (e.g., Procurement, HR).
+Name two functions of the Accounts Receivable team (e.g., invoicing, collections).
+What is the biggest risk to a company's financial health if its Accounts Receivable are poorly managed?
+What is a common financial goal for both AP and AR (e.g., maximizing working capital)?
+@TASK Task 2: Financial Obligations
+@LINE Read the situations below. Decide if the situation is related to Accounts Payable (AP) or Accounts Receivable (AR).
+@TABLE Situation | Type (AP or AR)
+1. The company is preparing to pay a supplier's invoice. | 
+2. The client has a payment 60 days past due. | 
+3. The Finance Director is forecasting income for the next quarter. | 
+4. The company is making the weekly utility payment. | 
+5. Issuing a credit note to a customer. | 
+6. A vendor is asking when they will receive their money. | 
+
+@TASK Task 3: Planning Ahead (Future Forms)
+@LINE Think-Pair-Share:
+@BULLETLABEL
+Think: Write down one professional arrangement you have for next week (use the Present Continuous: ~I am meeting...~).
+@BULLETLABEL
+Pair: Write down one financial prediction for the coming month (use ~will~: ~Inflation will increase...~).
+@BULLETLABEL
+Share: Discuss with a partner one financial action your team is going to take this week (use ~going to~: ~We are going to reconcile the ledger...~).
+
+@PART 1 | 5 | VOCABULARY – Payment and Collections
+@TASK 1A. Terms for Payment Status
+@LINE Match the term to its definition.
+@TABLE Term | Definition
+1. Payment Run | a. An invoice that has not been paid by the due date.
+2. Debtor | b. A person or company that owes money.
+3. Past Due | c. The official date on which a payment is required.
+4. Due Date | d. A scheduled process, usually weekly, where the company sends out payments to suppliers.
+5. Credit Note | e. A document issued to a customer to cancel or reduce the amount of a sales invoice.
+6. Outstanding | f. An amount of money that is owed (synonym for ~unpaid~).
+
+@TASK 1B. Reporting Verbs
+@LABEL Activity | Complete the sentences using the correct word from the box.
+@LABEL Words | forecast, reconcile, chase, delay, settle, schedule
+@NUM
+We must ________ the customer whose account is 90 days past due.
+The Accounts Payable clerk needs to ________ the supplier statement with our internal records.
+We need to ________ the payment run for Friday morning.
+The client is asking if we can ________ the payment until the end of the month.
+Management needs to ________ the cash inflow for next quarter.
+We will ________ the invoice in full by the due date.
+
+@TASK 1C. Vocabulary in Context: Cash Flow Meeting
+@LINE Fill in the blanks with the correct word from the box:
+@LINE debtor, inflow, terms, payment run, settlement, exposure
+@LINE The Accounts Payable team in Kraków is preparing for the weekly (1) ________. We must prioritize payments to suppliers to reduce our financial (2) ________. On the Accounts Receivable side, we have a major (3) ________ whose settlement is critical to our cash (4) ________. We need to contact them to discuss the final (5) ________. We must also review the standard credit (6) ________ given to new customers.
+
+@TASK 1D. Collocations for Financial Planning
+@LINE Match the verb on the left with the noun on the right to create common phrases.
+@TABLE Verb | Noun
+1. Extend | a. a debt
+2. Clear | b. the cash flow
+3. Manage | c. the account
+4. Monitor | d. credit terms
+5. Suspend | e. the payment schedule
+6. Prepare | f. a collections call
+@LABEL Practice | Use two of these phrases in a sentence about accounts receivable.
+@LABEL Example | "We must monitor the cash flow closely before we prepare the payment schedule."
+
+@TASK 1E. Word Building: Verb and Noun
+@LINE Complete the table.
+@TABLEB Verb | Noun | Related Term | Sentence Example
+Pay | Payment | Payable | "The payment is due next week."
+Receive | _________ | Receivable | "We expect receipt of the funds tomorrow."
+Settle | _________ | Unsettled | "The settlement is scheduled for the 15th."
+Delay | Delay | _________ | "The client requested a delay in payment."
+Arrange | Arrangement | _________ | "We need to arrange a meeting with the debtor."
+@PB
+
+@PART 2 | 5 | GRAMMAR – Future Forms (Will, Going To, Present Continuous)
+@TASK 2A. Grammar Context: Planning the Week
+@LINE The Accounts Manager is planning the week's financial tasks.
+@SCRIPT
+Manager: "I am going to start by reviewing all outstanding invoices this morning. Then, I will schedule the payment run. I am meeting the collections agent on Wednesday to discuss the major debtor list. We will probably have some cash flow issues in May, so we are going to prioritize chasing large debts."
+@BLABEL Analysis
+@BULLET
+Underline the three different Future Forms used in the text.
+Which form is used for predictions or instant decisions?
+Which form is used for pre-planned intentions?
+Which form is used for fixed, personal arrangements?
+
+@TASK 2B. Grammar Focus Box: Future Forms
+@TABLEB Future Form | Use | Keyword Example | Example (Accounts Context)
+WILL | Predictions, sudden decisions, offers/promises. | ~probably, I think, I promise.~ | I *think* we *will* *clear* this *debt* by Friday.
+GOING TO | Prior plan or intention, a future result based on present evidence. | ~intends to, planning to.~ | We *are going to* *issue* a credit note to the client.
+PRESENT CONTINUOUS | Fixed, definite arrangement, often with a time/date. | ~tomorrow, next week, on Monday.~ | The *payment run is happening* on Tuesday.
+
+@TASK 2C. Guided Practice
+@LINE Choose the correct Future Form (in bold) to complete the sentence. (Only the first one is done for you).
+@NUM
+We have a meeting with the supplier on Friday. We are discussing the extension of credit terms. (will discuss / are discussing)
+I think the client will delay their settlement again. (is delaying / will delay)
+The company is going to implement a new automated invoicing system next month. (will implement / is going to implement)
+I am sure our Accounts Receivable figures will improve next quarter. (are improving / will improve)
+My team is going to reconcile the ledgers over the weekend. (will reconcile / is going to reconcile)
+"I can't send the invoice now." -> "Don't worry, I will do it right now." (am doing / will do)
+
+@TASK 2D. Sentence Transformation
+@LINE Rewrite the sentences using the Future Form in parentheses.
+@BULLETLABEL
+Original: The manager has decided to call the debtor on Tuesday. (PRESENT CONTINUOUS)
+Future Form: The manager is calling the debtor on Tuesday.
+Original: I predict that the client will pay late. (GOING TO)
+Future Form: The client ____________________ late.
+Original: The bank has requested a statement for next Friday. (PRESENT CONTINUOUS)
+Future Form: We ____________________ the bank statement next Friday.
+
+@TASK 2E. Speaking: Discussing Future Financial Actions
+@LINE In pairs, practice using the three Future Forms for these scenarios.
+@BULLETLABEL
+Scenario 1 (Fixed Arrangement): A meeting with the Collections Agency on Monday.
+@SUBLABEL
+~Example:~ "I am meeting the Collections Agency on Monday at 10 AM."
+@BULLETLABEL
+Scenario 2 (Prediction): You think the new credit terms will reduce bad debt.
+@BULLETLABEL
+Scenario 3 (Intention/Plan): Your plan to prepare the payment run first thing tomorrow.
+@BULLETLABEL
+Scenario 4 (Instant Decision/Offer): Your colleague says they can't clear the account. You offer to do it.
+@PB
+
+@PART 3 | 5 | LISTENING – Scheduling and Collections
+@TASK 3A. Passage 1: Scheduling the Payment Run (Functional)
+@LABEL Context | Two colleagues are discussing the schedule for the weekly payment run.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Colleague 1: "We need to schedule the payment run early this week. Is 3 PM on Wednesday too late?"
+Colleague 2: "Wednesday at 3 PM is fine. I am going to reconcile the bank statements first. Then, I will prioritize the urgent supplier payments. Are we going to delay the utilities until Friday?"
+Colleague 1: "No, we are paying the utilities on Thursday morning. That is a fixed arrangement."
+@BLABEL Comprehension Questions
+@NUM
+What is the fixed arrangement for the payment run?
+What is Colleague 2 going to do before the payment run?
+What will Colleague 2 do after reconciling the statements?
+When are they paying the utilities? (Use Present Continuous)
+What did Colleague 2 suggest delaying?
+
+@TASK 3B. Passage 2: Chasing a Debtor (Operating Context)
+@LABEL Context | A collections call to a client whose account is past due.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Collector: "Good morning, I am calling about your outstanding invoice 456. It is 60 days past due. When are you going to clear the account?"
+Client: "I am sorry, we had a delay in our cash flow. I will send the full settlement next week, I promise."
+Collector: "Next week is acceptable. I will note that on your account. I am scheduling a follow-up call for Tuesday morning to confirm the receipt of the funds."
+@BOLD True or False:
+@TFBOX
+The invoice is 30 days past due.
+The client explained the delay was due to cash flow problems.
+The client will send a partial settlement.
+The collector is going to send a reminder email on Tuesday.
+The collector is scheduling a follow-up call to confirm the receipt of funds.
+
+@TASK 3C. Passage 3: Cash Flow Forecast (Financial Context)
+@LABEL Context | The Financial Controller is reviewing the monthly forecast.
+@LINE Audio Script (Read or Play):
+@SCRIPT
+Controller: "The forecast shows we will have a net cash inflow of EUR 50,000 in June. Our Accounts Receivable are going to improve significantly. However, I think Accounts Payable will increase in July, due to the purchase of new equipment for Singapore. We are going to prepare a detailed report on our credit exposure to mitigate risk. We are holding a risk meeting next Thursday."
+@BOLD Fill in the Cash Flow Report (Use Future Forms):
+@BULLETLABEL
+Net Cash Flow (June): We will have a net cash inflow of ____________________ in June.
+@BULLETLABEL
+AR Trend: Accounts Receivable ____________________ significantly.
+@BULLETLABEL
+AP Trend (July): Accounts Payable ____________________ due to new equipment.
+@BULLETLABEL
+Risk Management Plan: We ____________________ a detailed report on our credit exposure.
+@PB
+
+@PART 4 | 5 | SPEAKING – Reporting Stock and Orders
+@TASK 4A. Functional Language: Future Plans
+@LINE Practice using these structures with a partner.
+@TABLE Prediction/Offer (WILL) | Firm Intention (GOING TO) | Fixed Arrangement (PRESENT CONT.)
+"I will clear the account now." | "We are going to suspend the client's credit." | "I am meeting the bank manager on Friday."
+"I think they will settle next week." | "The team is going to prepare the schedule." | "The payment run is happening tomorrow."
+
+@TASK 4B. Role-Play 1: Discussing an Overdue Account
+@LABEL Scenario | A colleague (A) is checking on the status of an overdue account.
+@LINE Student A (Colleague): Ask about the settlement (Will). Ask what the AR team is doing (Going to).
+@LINE Student B (AR Clerk): Confirm they will chase the debtor. Explain what you are going to do next (e.g., send a final notice).
+@BULLETLABEL
+A: "Will the client settle the account this week? What are you going to do next?"
+@BULLETLABEL
+B: "I will chase them again today. We are going to send a final notice this afternoon."
+
+@TASK 4C. Role-Play 2: Scheduling the Payment Run
+@LABEL Scenario | Two colleagues are scheduling the AP payment run and a meeting.
+@LINE Student A (AP Manager): Suggest a day and time for the payment run (Present Continuous). Ask if the bank transfer will be fast.
+@LINE Student B (AP Clerk): Confirm the payment run time (Present Continuous). Make a prediction about the speed (Will). Set a fixed arrangement for a follow-up meeting (Present Continuous).
+@BULLETLABEL
+A: "We are running the payment on Thursday at 4 PM. Will the bank transfer be fast enough?"
+@BULLETLABEL
+B: "Thursday at 4 PM is fine. I think the transfer will clear overnight. I am setting up a follow-up meeting for Friday morning."
+
+@TASK 4D. Presentation: "My Collections Plan"
+@LABEL Task | You have 60 seconds to explain your plan for managing accounts receivable for the next month. Use all three Future Forms.
+@LABEL Structure
+@NUM
+Fixed Arrangement (PC): Schedule calls with major debtors (e.g., I am calling the top three debtors...).
+Intention (Going To): Explain what the team is going to do to reduce past due invoices (e.g., We are going to implement a new reminder system...).
+Prediction (Will): State your expected result (e.g., I think the cash inflow will increase...).
+@PB
+
+@PART 5 | 5 | READING – Payment Processing Procedures
+@TASK 5A. Pre-Reading Discussion
+@LINE Discuss:
+@BULLET
+What is the relationship between credit terms and cash flow?
+What is the term for an invoice that is not paid after 120 days?
+Why is it important to monitor the total credit exposure to a single client?
+
+@TASK 5B. Reading Passage 1: AP Standard Operating Procedure
+@LINE Read the procedure for Accounts Payable.
+@LINE The Accounts Payable team is responsible for ensuring timely payment to all suppliers. The standard credit terms are Net 30 days. All invoices must be approved before they are included in the weekly payment run. We are going to run the payment run every Tuesday afternoon, Central European Time. We will prioritize payments to major vendors. If a vendor requests a delay, the AP Manager will review the request. We are not going to delay payments without authorization. This strict schedule will ensure we maintain excellent vendor relationships.
+@BLABEL Comprehension Questions (Use Future Forms in your answer)
+@NUM
+What is the responsibility of the Accounts Payable team?
+What are the standard credit terms?
+When are they running the payment run? (Use Present Continuous)
+What will the AP Manager do if a vendor requests a delay?
+What will the strict schedule ensure?
+@LABEL Grammar Check
+@LINE Find three examples of the Future Form in the passage.
+
+@TASK 5C. Reading Passage 2: Collections Strategy
+@LINE Read the strategy for collections.
+@LINE Our Collections Strategy is designed to reduce the volume of past due invoices. When an invoice is 30 days past due, the AR team is going to send a formal email reminder. At 60 days, we will call the debtor to arrange a settlement. For 90-day outstanding invoices, we are scheduling a final notice that will suspend their credit. We are going to review the top debtors list weekly. This will help us to clear the account before it is transferred to an external agency.
+@BLABEL Comprehension Questions
+@NUM
+What is the strategy designed to reduce?
+What will the AR team do at 30 days? (Use Going To)
+What will happen to the client's credit at 90 days?
+How often are they reviewing the debtors list? (Use Present Continuous)
+What is the goal before the account is transferred to an external agency?
+
+@TASK 5D. Reading Passage 3: Managing Credit Exposure
+@LINE Read the policy on credit exposure.
+@LINE Credit exposure is the maximum potential loss the company could incur if a customer or group of customers fails to pay. We need to manage this exposure closely, in every market where we sell. We are going to limit the credit terms for new clients to Net 15 days. We will not extend credit to any client whose financial status is questionable. The Financial Controller is meeting with the Credit Committee every month to review the exposure report. This is a fixed arrangement. This will protect our cash flow from unexpected losses and ensure long-term stability.
+@BLABEL Comprehension Questions (Use Future Forms in your answer)
+@NUM
+What is credit exposure?
+What are they going to do to limit credit for new clients?
+What will the company not do for clients with questionable financial status?
+When is the Financial Controller meeting with the Credit Committee? (Use Present Continuous)
+What will this monthly review protect?
+@PB
+
+@PART 6 | 5 | WRITING – Payment Communications
+@TASK 6A. Guided Writing: Paraphrasing (Future Forms)
+@LABEL Task | Paraphrase the following statements using the Future Form in parentheses. (Only the first one is done for you).
+@NUM
+We have a definite plan to pay the invoice next week. (GOING TO) -> We are going to pay the invoice next week.
+I think they will agree to extend the credit terms. (WILL) -> I believe they ____________________ the credit terms.
+My calendar shows I am in a meeting with the bank on Wednesday. (PRESENT CONTINUOUS) -> I ____________________ the bank on Wednesday.
+
+@TASK 6B. Writing Task 1: The Collections Email
+@LABEL Scenario | Write a short, formal email (50–60 words) to a client whose account is 60 days past due.
+@LINE Include:
+@BULLET
+State the amount and due date.
+Use Will to request a commitment.
+Use Going To to explain the next step if they do not pay.
+@BULLETLABEL
+Example: "Dear Client, Your invoice 789 (EUR 5,500), due March 1st, is 60 days past due. Will you please settle the full amount today? If we do not receive payment this week, we are going to suspend your credit terms and transfer the debt to collections. Please advise."
+
+@TASK 6C. Writing Task 2: Correct the Mistakes (Grammar Focus)
+@LABEL Task | Correct the grammar mistakes (Future Forms) in the following email draft. (Only the first one is corrected).
+@LINE Subject: Payment Run Schedule
+@LINE Dear Team,
+@NUM
+I think we are going run the payment run late tomorrow. -> I think we will run the payment run late tomorrow.
+We will having a meeting on Friday to review the past due invoices.
+The AP Manager is going discuss the new credit terms.
+The client promises they are sending the settlement next week.
+What you will do with the 90-day outstanding debtor?
+
+@TASK 6D. Writing Task 3: Planning the Cash Flow (Internal Memo)
+@LABEL Scenario | Write an internal memo (80 words) to the Group CFO forecasting the cash flow for the next two months.
+@LABEL Focus | Use Will for predictions and Present Continuous for fixed payments/receipts.
+@BULLETLABEL
+Example: "MEMORANDUM: Cash Flow Forecast (Next 60 Days)
+@LINE The forecast shows cash inflow will increase significantly in June. We are receiving the large client settlement on June 5th. I think Accounts Payable will remain stable. We are clearing the three major supplier payments on July 1st. This will ensure we have adequate working capital for the quarter."
+@PB
+
+@PART 7 | 5 | PRONUNCIATION – Stress and Reduction in Future Forms
+@TASK 7A. Syllable Stress: Accounts Terminology
+@LABEL Task | Underline the stressed syllable in these words. Listen and repeat.
+@BULLET
+Ac-counts Pay-able
+Ac-counts Re-ceiv-able
+Col-lec-tion
+Sched-ule
+Out-stand-ing
+
+@TASK 7B. Reduction: Will and Going To
+@LABEL Explanation | In rapid speech, will often reduces to /l/ ('ll), and going to reduces to gonna.
+@LABEL Practice | Read the sentences, focusing on the reduction.
+@BULLET
+I'll call the debtor this afternoon. (I will call)
+We are gonna start the payment run early. (We are going to start)
+They think it'll be paid by the end of the month. (It will be paid)
+We are not gonna extend the terms. (We are not going to extend)
+
+@TASK 7C. Intonation: Confirming Arrangements
+@LABEL Context | Use rising intonation when asking a question to confirm a fixed arrangement (Present Continuous).
+@LABEL Practice | Read these questions:
+@BULLET
+"Are you running the payment run today? (↗)"
+"Is the manager meeting the client on Monday? (↗)"
+"Are we clearing the account this morning? (↗)"
+
+@TASK 7D. Fluency Drill: Cash Flow Summary
+@LABEL Task | Read the following passage, maintaining a clear and decisive tone, ensuring correct use of reduction and stress.
+@LINE "The Accounts Receivable team is calling all outstanding debtors today. I think this action will significantly improve our cash inflow. We are going to review the new credit exposure policy next week. I promise the delay in payment will not happen again. The Financial Controller is meeting with us to discuss how we can better manage our suppliers."
+@PB
+
+@PART 8 | 5 | REVIEW / SELF-ASSESSMENT / EXTENSION
+@TASK 8A. Vocabulary Quiz
+@LINE Match the term to the correct concept.
+@TABLE Term | Concept
+1. The date the invoice must be paid. | a. Settlement
+2. An invoice is 90 days unpaid. | b. Debtor
+3. The company that owes us money. | c. Past Due
+4. Final payment to clear a debt. | d. Accounts Payable
+5. Money the company owes to suppliers. | e. Due Date
+6. Stopping a customer from buying on credit. | f. Suspend Credit
+
+@TASK 8B. Grammar Quiz
+@LINE Choose the most appropriate Future Form for the context. (Only the first one is done for you).
+@NUM
+The Financial Controller is holding a risk meeting on Tuesday at 10 AM. (is holding / will hold)
+I think the exchange rate will affect our international payments. (will affect / is affecting)
+We have a definite plan: we are going to audit the AP system next month. (will audit / are going to audit)
+"The client is upset." -> "OK, I will call them now to settle the matter." (will call / am calling)
+The team is scheduling a payment run for 5 PM today. (is scheduling / will schedule)
+
+@TASK 8C. Real-Life Simulation: The Cash Flow Crisis Meeting
+@LABEL Scenario | The company has less cash than expected this week.
+@LINE Roles:
+@BULLETLABEL
+Accounts Payable Manager (Student A): Announce that some payments will be delayed (Will). Explain the new schedule (Present Continuous).
+@BULLETLABEL
+Accounts Receivable Manager (Student B): Explain what the AR team is going to do to bring cash in faster (Going to).
+@BULLETLABEL
+Group Finance Manager (Student C): Listen and summarize the two main actions for the board (Use ~going to~ to summarize ~A~ and ~B's~ plans).
+
+@TASK 8D. Extension Writing: A New Credit Policy
+@LABEL Task | Write a formal proposal (80 words) for a new, stricter credit policy to reduce bad debt.
+@LABEL Style | Use formal requests and Future Forms.
+@BULLETLABEL
+Example: "To mitigate credit exposure, we propose the following policy changes. We will not extend credit terms beyond 30 days. For new clients, we are going to require a 50% upfront payment. This is a strict change, but I think it will reduce our past due invoices by 25% in the next quarter. Would you mind approving this document?"
+
+@TASK 8E. Self-Assessment Checklist
+@LINE Rate yourself (1-5):
+@BOX
+I can define and explain Accounts Payable and Accounts Receivable.
+I can discuss when invoices are due and schedule payment runs.
+I can use Will to make predictions and offers.
+I can use Going To for plans and intentions.
+I can use the Present Continuous to discuss fixed professional arrangements.
+
+@TASK 8F. Final Thought
+@LINE Discuss: "The collection process can damage a customer relationship. How will you chase a debt politely and professionally? What is the ethical exposure of extending credit to a client you know is struggling? How will the role of accounts payable change with more automation?"

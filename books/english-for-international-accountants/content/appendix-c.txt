@@ -1,0 +1,291 @@
+@H2 Appendix:  comprehensive extended case studies for Units 1 through 10.
+
+@H2 Unit 1: The Accounting Office
+@H2 Case Study: Opening the Shared Service Centre in Kraków
+@LINE Context:
+@LINE Following the board's decision to consolidate its bookkeeping, Northwind Group has opened a shared service centre in Kraków to handle the accounting for all six operating companies. You are part of the new team of Junior Accountants and Bookkeepers tasked with organizing the office. The office is currently in a transition phase. While the long-term goal is to have a fully digital cloud-based system, the current reality involves sorting through boxes of physical records shipped in from the six local offices and setting up immediate daily routines.
+@LINE It is 8:30 AM in Kraków, which is 7:30 AM in Dublin and 2:30 PM in Singapore. Usually, an accounting office is quiet at this time, but today it is chaotic. The IT technicians are currently installing the new servers, and the Group Finance Manager is interviewing candidates for the Senior Accountant role. Your team is responsible for defining the daily workflow. You must distinguish between what you do every day (routines) and what you are doing right now (temporary setup tasks). For example, you usually reconcile the bank accounts on Fridays, but this week you are reconciling them daily to catch up on the backlog. You are also handling the "In-Tray," which is overflowing with supplier invoices in four currencies. The team needs to establish a clear distinction between the roles of a bookkeeper (recording data) and the controller (strategy) to ensure transparency.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Defining the "New Routine."
+Questions:
+@SUB
+What are the three most critical daily tasks for a Junior Accountant in a multi-country service centre?
+How do we organize the physical receipts (assets) versus the digital files (ledger)?
+Who handles the immediate data entry of supplier invoices versus the final approval?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Daily Duty Checklist" for the new staff.
+Format: A table separating "Permanent Routines" from "Current/Temporary Projects."
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Current Status Email" to the Group CFO.
+Requirements: Use the Present Simple for routines and Present Continuous for current actions.
+Word Count: 100-120 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar: Use Present Simple for habits (~We check invoices daily~) and Present Continuous for temporary actions (~We are installing the new software this week~).
+Vocabulary: Use terms like ~ledger, asset, liability, reconcile, post~.
+Example Sentence: "Usually, we file receipts alphabetically, but currently, we are scanning them to create a digital backup."
+@PB
+
+@H2 Unit 2: Recording Past Transactions
+@H2 Case Study: The Unmatched Invoices of the Nairobi Branch
+@LINE Context:
+@LINE You are part of an internal audit team sent to Northwind's Nairobi branch. The group has discovered discrepancies in the financial records from the three months immediately after the branch was acquired. Your job is to reconstruct the financial history of that period. You are looking at a stack of source documents: invoices, receipts, and expense claims, some in Kenyan shillings and some in US dollars.
+@LINE While you were reviewing the General Ledger yesterday, you noticed a series of strange journal entries. It appears that a former employee was posting transactions manually while the power was cutting out. This caused some entries to be recorded without their corresponding credits. Furthermore, while the team was processing the "Depot Refurbishment" invoices, they realized that several receipts were missing. You interviewed the site manager. He told you, "I was collecting the receipts when the contractors packed up early, so I left the box in the store room." You need to explain what the team was doing when the errors occurred and what they did after they found the documents. The goal is to correct the historical data so the branch can be consolidated into the group accounts.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: The Investigation Timeline.
+Questions:
+@SUB
+What was the employee doing when the power cut out?
+How did the team locate the missing source documents?
+Why is it important to reverse the incorrect entries before posting the new ones?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create an "Incident Timeline."
+Format: A chronological list using specific times and actions.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write an "Audit Investigation Report" summarizing how the errors happened and how they were fixed.
+Requirements: Use Past Simple for completed actions and Past Continuous for interrupted actions.
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~I was reviewing the ledger (continuous) when I found the error (simple).~
+Vocabulary: Use terms like ~posting, source document, discrepancy, reconciliation~.
+Example Sentence: "The accountant was entering the invoice data when the system crashed, causing a duplicate entry."
+@PB
+
+@H2 Unit 3: Petty Cash and Office Expenses
+@H2 Case Study: The Cash Field Office in Santiago
+@LINE Context:
+@LINE You are the newly appointed Petty Cash Custodian for Northwind's field office in Santiago. Because many of the group's local suppliers are small businesses, a number of vendors (bakers, mechanics, cleaners) only accept cash. The service centre in Kraków has established a strict "Imprest System" with a float of USD 1,000, held in Chilean pesos.
+@LINE However, the demands are high. Yesterday, a driver asked for cash to repair a truck urgently. He did not have a receipt yet. Today, a supplier of office stationery is offering a discount if you pay cash immediately, but the amount is slightly over your limit. You need to handle these requests politely but firmly. You must ensure every peso is documented because the group's external auditors review the fund twice a year. You need to write emails requesting authorization from Kraków and polite notes to staff asking for original receipts. Using polite modals is essential to maintain good relationships in a high-pressure environment, especially when your approver is six hours away.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Authorization and Politeness.
+Questions:
+@SUB
+How do you politely refuse a request for cash without a voucher?
+What would you say to the service centre to request an urgent replenishment of the fund?
+How do you handle a vendor offering a discount for undocumented cash?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Petty Cash Policy Sheet" for the wall.
+Format: A list of rules using polite but firm language.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write an email to the Financial Controller requesting a replenishment and explaining a discrepancy.
+Requirements: Use Modals of Request (Could, Would, May).
+Word Count: 100-120 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~Use Could you..., Would you mind..., May I...~
+Vocabulary: Use terms like ~reimbursement, voucher, float, custodian, replenishment~.
+Example Sentence: " Could you please provide the original receipt? I cannot process the reimbursement without it."
+@PB
+
+@H2 Unit 4: Inventory and Supplies
+@H2 Case Study: The Spare-Parts Depot in Singapore
+@LINE Context:
+@LINE Northwind Group has taken over a large spare-parts depot in Singapore from a former distributor. Your task is to perform the first accurate stocktaking in years. The inventory includes countable items (bearings, filters, drive belts) and uncountable items (litres of hydraulic oil, compressed gas, packing foam by the roll).
+@LINE There is a problem: the records show "too much" of certain obsolete parts for machines the group no longer sells, and "very little" of the critical filters that three plants depend on. You need to report these levels to the procurement team in Kraków. You also need to dispose of the obsolete stock safely, under Singapore's own rules rather than the group's. The depot manager is asking, "How many filters do we have?" and "How much hydraulic oil is left?" You must use the correct quantifiers to report the status. If you make a mistake in counting, a production line on the other side of the world might stop.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Counting and Reporting.
+Questions:
+@SUB
+Which items are countable and which are uncountable in a spare-parts depot?
+How do we report "obsolete" inventory that needs disposal?
+How do we justify an urgent order for "a lot of" new filters?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create an "Inventory Status Table."
+Format: Columns for Item, Type (Countable/Uncountable), Quantity Description (Too much/Little/Few), and Action Required.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Stocktaking Report" for the service centre.
+Requirements: Use Quantifiers correctly (many, much, a few, a little, a lot of).
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~We have too many obsolete bearings (countable). We have very little hydraulic oil (uncountable).~
+Vocabulary: Use terms like ~consumables, reorder point, obsolete, stocktaking, out of stock~.
+Example Sentence: "We need to order some hydraulic oil because there is not much left in the drums."
+@PB
+
+@H2 Unit 5: Accounts Payable and Receivable
+@H2 Case Study: The Baltic Warehouse Project
+@LINE Context:
+@LINE You are working for Northwind Logistics, the group's distribution arm. You are managing the cash flow for a major project to build a new warehouse and rail siding outside Gdańsk. You have two main pressures:
+@BULLETLABEL
+Accounts Payable: You owe money to local contractors who need to be paid on time to keep working.
+Accounts Receivable: You are waiting for a drawdown from the development bank financing the project.
+@LINE You are scheduling a payment run for next Tuesday. You are in a meeting to plan the next month. You need to discuss fixed arrangements (e.g., "We are paying the contractor tomorrow"), predictions (e.g., "I think the drawdown will arrive on Friday"), and intentions (e.g., "We are going to chase the debtor"). You must balance the inflow and outflow to avoid a liquidity crisis, remembering that a transfer sent on Friday in one country may not clear until Tuesday in another.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Managing the Cash Flow.
+Questions:
+@SUB
+Who are we paying this week (fixed arrangement)?
+What will happen if the drawdown arrives late (prediction)?
+How are we going to manage the unpaid contractors (intention)?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Weekly Payment Schedule."
+Format: A calendar view with actions labeled by tense (Plan vs. Fixed).
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Cash Flow Forecast Memo."
+Requirements: Use Future Forms (Will, Going To, Present Continuous).
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~We are meeting the bank tomorrow (fixed). I think costs will rise (prediction). We are going to negotiate new terms (plan).~
+Vocabulary: Use terms like ~debtor, payment run, past due, outstanding, settle~.
+Example Sentence: "We are processing the payment run on Thursday, so the contractors will receive their money by Monday."
+
+@H2 Unit 6: Errors and Corrections
+@H2 Case Study: The Payroll Audit at the Toronto Plant
+@LINE Context:
+@LINE Northwind Group is integrating the payroll of its Toronto plant into the group system. You are auditing the payroll records. You have discovered a "ghost employee" scheme—salaries are being paid to workers who do not exist. This is a serious fraud.
+@LINE You need to discuss the consequences. "If we catch the person responsible, they will be dismissed" (First Conditional - Real). You also need to propose hypothetical solutions to improve internal controls. "If we had a single group identity register, this would not happen" (Second Conditional - Hypothetical/Advice). You must explain the discrepancy to the Group CFO without accusing anyone until you have proof. You need to recommend segregation of duties to ensure the person recording the names is not the same person authorizing the payments, and to decide whether the control should sit in Toronto or in Kraków.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Investigating Fraud and Risk.
+Questions:
+@SUB
+What will happen if we ignore this discrepancy?
+If you were the auditor, what control would you implement?
+How do we rectify the ledger without causing panic?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Risk Mitigation Plan."
+Format: A list of "If... then..." statements (Real and Hypothetical).
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write an "Internal Audit Recommendation."
+Requirements: Use First and Second Conditionals.
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~If we check the employee numbers, we will find the error (Real). If we had more staff, we would check every file (Hypothetical).~
+Vocabulary: Use terms like ~fraud, discrepancy, internal controls, segregation of duties, rectify~.
+Example Sentence: "If I were in charge, I would implement a double-signature policy for every payroll run."
+
+@H2 Unit 7: Monthly Performance
+@H2 Case Study: Comparing the Group's Three Regions
+@LINE Context:
+@LINE The Northwind board is reviewing the monthly performance of its three regions: EMEA (Dublin and Kraków), the Americas (Toronto and Santiago), and APAC (Singapore). You are the Financial Analyst. You need to compare their performance reports.
+@LINE EMEA has the highest actual spend but the lowest variance (closest to budget). The Americas is more expensive than budgeted because of freight and an unfavourable exchange rate. APAC has the most significant adverse variance because of a delayed plant upgrade. You need to present these findings to the board. You must use comparatives and superlatives to highlight which region is performing "better" or "worse" and identify the "most critical" issues. The goal is to allocate next month's investment to the most efficient region, and to separate real performance from the effect of currency.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Variance Analysis.
+Questions:
+@SUB
+Which region had the most favorable variance?
+Why is the Americas' performance worse than EMEA's?
+What is the most alarming cost category in the report?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Comparative Performance Matrix."
+Format: A table comparing Budget vs. Actuals with a "Comments" column using adjectives.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Monthly Variance Summary."
+Requirements: Use Comparatives (better, higher) and Superlatives (best, highest).
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~EMEA is more efficient than APAC. The Americas has the largest deficit.~
+Vocabulary: Use terms like ~variance, actuals, forecast, favorable, adverse, significant~.
+Example Sentence: "The labour cost in the Americas was higher than budgeted, making it the most expensive region this month."
+@PB
+
+@H2 Unit 8: The Accounting Cycle
+@H2 Case Study: The First Consolidated Annual Close
+@LINE Context:
+@LINE It is the end of the first full fiscal year for the newly formed holding company, "Northwind Logistics BV." The books must be closed to prepare the group's first consolidated financial statements for its lenders and shareholders. This is a significant moment for the group.
+@LINE You need to describe the process impersonally to emphasize that the system is objective and follows rules, not personal preference. "The transactions are recorded." "The trial balance is generated." "The adjustments are made." You are writing the procedure manual for accountants in all six offices, so the wording must work wherever it is read. You need to explain how the Net Income is derived, how local balances are translated into the reporting currency, and how the final report is reviewed by the external auditors.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: The Closing Process.
+Questions:
+@SUB
+What must be done before the trial balance is generated?
+How are the adjusting entries handled?
+By whom are the final statements reviewed?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Year-End Flowchart."
+Format: A visual sequence of steps described in the Passive Voice.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Procedural Memo" explaining the closing cycle to new hires.
+Requirements: Use the Passive Voice.
+Word Count: 100-120 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~The ledger is reconciled. The reports were approved by the board.~
+Vocabulary: Use terms like ~trial balance, adjusting entries, post, financial statements, closing the books~.
+Example Sentence: "First, the entries are posted, and then the trial balance is prepared."
+@PB
+
+@H2 Unit 9: Professional Development
+@H2 Case Study: Building the Group Reporting Team
+@LINE Context:
+@LINE Northwind Group is hiring a new team of analysts for its group reporting function in Kraków. Many candidates have worked abroad or have been working in different sectors, and several hold qualifications from other countries. You are conducting interviews. You need to ask about their experience ("How long have you worked in group reporting?") and their recent achievements ("Have you completed your ACCA?").
+@LINE One candidate, Layla, has worked in London for five years. Another, Omar, has just finished a course on IFRS consolidation. You need to discuss their skills (Excel, SAP, Power BI) and their career history. You also need to establish which of their certifications the group recognizes. The focus is on what they ~have done~ that is relevant to closing six sets of books into one ~now~.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Skills and Experience.
+Questions:
+@SUB
+How long have you used advanced Excel functions?
+Have you ever managed a system migration?
+What certifications have you obtained recently, and in which country?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create a "Candidate Evaluation Form."
+Format: A checklist of skills and experience (e.g., "Has used SAP," "Has not finished ACCA").
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Recommendation Profile" for a candidate.
+Requirements: Use Present Perfect Simple (since, for, just, yet).
+Word Count: 100-120 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~She has worked here since 2019. He has just finished the training.~
+Vocabulary: Use terms like ~CPA, certification, up-skill, migrate, core competency~.
+Example Sentence: "The candidate has gained significant experience in audit, but she has not used our specific software yet."
+@PB
+
+@H2 Unit 10: Reporting to Management
+@H2 Case Study: The Lenders' Covenant Briefing
+@LINE Context:
+@LINE The Group CFO has just finished a high-level meeting with the syndicate of banks that finances Northwind Group. You are the Senior Analyst. You need to relay the lenders' strict conditions to the finance leads in all six offices.
+@LINE The lead bank's representative stated, "We need to see a 10% reduction in working capital." You must report this: "He stated that they needed to see a reduction." The Group CFO emphasized, "Transparency is non-negotiable." You report: "She emphasized that transparency was non-negotiable." You need to write the minutes of the meeting and a memo to the staff conveying these mandates. The tone must be formal and accurate, as misreporting these instructions could breach a covenant — and your readers are working in four languages and five time zones.
+@H2 Phase 1: Discussion Strategy
+@BULLETLABEL
+Topic: Relaying Mandates.
+Questions:
+@SUB
+What did the lead bank's representative mandate regarding working capital?
+What did the Group CFO emphasize about transparency?
+Did they ask if we had finished the audit?
+@H2 Phase 2: Deliverables
+@BULLETLABEL
+Task: Create "Meeting Minutes (Decisions & Actions)."
+Format: A summary of who said what, using reporting verbs.
+@H2 Phase 3: The Report
+@BULLETLABEL
+Task: Write a "Directive Memo" to all offices.
+Requirements: Use Reported Speech (backshifting tenses).
+Word Count: 120-150 words.
+@H2 Guidance & Examples:
+@BULLETLABEL
+Grammar:~He said that the budget was approved (from "is approved"). She asked if we could start (from "can start").~
+Vocabulary: Use terms like ~mandated, asserted, clarified, convey, key takeaways~.
+Example Sentence: "The Group CFO mandated that all offices review their spending immediately."
