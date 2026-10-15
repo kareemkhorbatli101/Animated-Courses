@@ -1,0 +1,100 @@
+@VOICES Lukas | Planning Memo — Tomasz Lewandowski
+@APPHEAD Appendix A: Audio Scripts | F3E6FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@NOTE
+To enable audio playback when clicking on 🔊 symbols in the document:
+@CARDBULLET 720 | 50
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@NOTE 200
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+@H2 Unit 1: Unit 1: Welcoming the World — First Contact at the Ministry
+@TRACK 🔊 Track 1.8 - Exercise 8: Noticing Grammar
+@SCRIPT
+Ayu: Good morning. Welcome to the Ministry of Foreign Affairs. My name is Ayu. I work at the reception desk.
+Lukas: Good morning, Ayu. I am Lukas Brandt. I am meeting Mr. Pratama from the Economic Affairs Office at ten o'clock.
+Ayu: Of course, Mr. Brandt. Mr. Pratama is currently handling another visitor. He usually finishes his morning meetings by ten past ten. May I offer you a seat?
+Lukas: Thank you. I am exploring investment opportunities in Indonesian port infrastructure this week.
+@TRACK 🔊 Track 1.14 - Exercise 14: First Listening: Understanding the Visitors
+@TRACK 🔊 Track 1.27 - Exercise 27: Word Stress in Names and Job Titles
+@TRACK 🔊 Track 1.28 - Exercise 28: Linking and Rhythm – Sound Natural
+@TRACK 🔊 Track 1.29 - Exercise 29: Controlled Dialogue Practice
+@TRACK 🔊 Track 1.30 - Exercise 30: Practice and Record
+@H2 Unit 2: Unit 2: Facilitating Meetings — Coordinating with Foreign Counterparts
+@TRACK 🔊 Track 2.8 - Exercise 8: Noticing Grammar
+@SCRIPT
+Email from Aïssatou Diallo: Team, please note the following for Tuesday's session. All participants must present their ministry ID at the entrance — security clearance is required for all foreign nationals. The Turkish delegation may use the executive lounge for a pre-meeting briefing. You should send the updated agenda to Dr. Kaya's office by four o'clock today — not later. If there is a translation issue during the session, you can contact the Language Services Unit directly using the internal extension. We need to finalize catering arrangements today. The director shall open the session with a formal welcome — his speaking notes are attached.
+@TRACK 🔊 Track 2.14 - Exercise 14: Listening: Four Coordination Calls
+@TRACK 🔊 Track 2.27 - Exercise 27: Clarity in Names, Dates, and Times on the Phone
+@TRACK 🔊 Track 2.28 - Exercise 28: Intonation in Meeting Room Language
+@TRACK 🔊 Track 2.29 - Exercise 29: Controlled Meeting-Opening Dialogue
+@TRACK 🔊 Track 2.30 - Exercise 30: Practice and Record
+@H2 Unit 3: Unit 3: Telling the National Story — Explaining Policies, Programs, and Progress
+@TRACK 🔊 Track 3.8 - Exercise 8: Noticing Grammar
+@SCRIPT
+Ministry Press Release: The Ministry of Foreign Affairs announced a new bilateral cooperation framework with the Republic of Korea today. The framework was signed by both foreign ministers at a ceremony in Lima. A joint working committee has been established to oversee implementation. The agreement covers transport infrastructure, water systems, and educational exchange. Modernization projects are being coordinated with Korean development partners. Our commitment to this partnership has been reaffirmed at the highest level.
+@TRACK 🔊 Track 3.14 - Exercise 14: Listening: Four Official Excerpts
+@TRACK 🔊 Track 3.27 - Exercise 27: Word Stress in Policy Vocabulary
+@TRACK 🔊 Track 3.28 - Exercise 28: Authority Through Intonation
+@TRACK 🔊 Track 3.29 - Exercise 29: Controlled Dialogue Practice
+@TRACK 🔊 Track 3.30 - Exercise 30: Practice and Record
+@H2 Unit 4: Unit 4: Building Bridges — Correspondence, Cooperation, and Future Vision
+@TRACK 🔊 Track 4.8 - Exercise 8: Noticing Grammar
+@SCRIPT
+Planning Memo — Tomasz Lewandowski: Team, here is an update on our planning calendar. The Poland-France Academic Cooperation Framework will be signed on 18 June — a significant milestone for our department. We are meeting the French delegation on Thursday at 10 a.m. to finalize the implementation schedule — please prepare the briefing materials by Wednesday. A joint technical committee is going to oversee all program phases; the committee structure has already been agreed. On the question of the investment conference: the ministry shall release an official statement on the dates by Friday. Finally, I want to be clear: Poland's international partnerships are going to grow significantly over the next two years — our job is to be ready.
+@TRACK 🔊 Track 4.14 - Exercise 14: Listening: Four Formal Cooperation Contexts
+@TRACK 🔊 Track 4.27 - Exercise 27: Word Stress in Cooperation Vocabulary
+@TRACK 🔊 Track 4.28 - Exercise 28: Formal Intonation — Warm but Dignified
+@TRACK 🔊 Track 4.29 - Exercise 29: Controlled Formal Dialogue
+@TRACK 🔊 Track 4.30 - Exercise 30: Practice and Record

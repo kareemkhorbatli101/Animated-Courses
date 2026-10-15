@@ -1,0 +1,275 @@
+@VOICES Emre | Can | B | Moussa | Lars
+@UNITHEAD Unit 2: Unit 2: Facilitating Meetings — Coordinating with Foreign Counterparts
+@PART Warm Up | Warm Up
+@EX Pair Discussion – Behind a Successful Meeting
+@INSTR Talk with a partner about the following: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you think is the hardest part of coordinating a foreign delegation's visit to the ministry?
+What problems can poor meeting preparation cause for your country's diplomatic relationships?
+Complete this sentence with your partner: "A visiting delegation feels well-coordinated when they arrive and find ___." Then explain ONE thing on your list in 1–2 sentences. Why does this detail matter?
+@EX Group Brainstorm – The Liaison Officer's Work
+@INSTR In small groups, categorize the liaison officer's tasks below, then discuss your answers. Sort each task into Before, During, or After the bilateral meeting. Share your answers with the class. (Aim for 3–4 sentences when you share.) // Tasks to categorize: // • Confirm date, time, and venue with both sides // • Prepare and circulate the agenda to both sides // • Monitor the agenda to keep discussions on track // • Arrange security clearances for all foreign participants // • Prepare a protocol brief for the delegation lead // • Coordinate with interpreters during the session // • Write the post-meeting summary within 24 hours // • Confirm room setup — seating, AV, and translation booths // • Follow up on action items agreed in the meeting // • Take careful notes for the official record
+@BULLET
+What must a liaison officer do before the meeting?
+What must the liaison officer manage during the meeting?
+What does the liaison officer do after the meeting?
+@EX Fluency Practice – Confirming a Meeting by Phone
+@INSTR Stand up and practice the following confirmation call with two or three classmates. Take turns as the liaison officer and the delegation logistics officer. (Aim for 30–40 seconds per turn.)
+@LINE
+1. Practice this complete phone confirmation sequence using the template below:
+"Good morning. This is [your name] calling from the Ministry of Foreign Affairs, Protocol and Liaison Office. I am calling to confirm [Mr./Ms. name]'s meeting with [host official and title] on [day] at [time] in [room or building]. Could you please confirm the number of participants on your side and whether interpretation into [language] will be required?"
+
+@PART 1 | Part 1
+@EX Match and Guess
+@COLHEAD Column A
+@MATCH
+1. | Agenda |
+2. | Communiqué |
+3. | Memorandum of Understanding |
+4. | Working Group |
+5. | Protocol Brief |
+6. | Aide-Mémoire |
+7. | Delegation Lead |
+@COLHEAD Column B
+@MATCH
+a) | A structured list of topics to be discussed at a meeting, distributed in advance to all participants
+b) | A short diplomatic note summarizing a verbal communication or conversation for the record
+c) | A committee of specialists from two or more institutions meeting to address a specific area of cooperation
+d) | An official joint statement issued by two or more parties after a meeting or diplomatic event
+e) | The most senior official leading a visiting delegation to a meeting or event
+f) | A background document prepared for senior officials before a meeting, covering participants, agenda, and key issues
+g) | A formal agreement between two parties outlining the terms of their intended cooperation
+@EX Scenario Cards – Liaison Officer in Action
+@INSTR Each student receives one scenario card below. As the liaison officer, explain clearly what you are arranging. Your partner asks follow-up questions. Swap cards after each scenario. (Each explanation: 3–4 sentences.) // Useful Language: // • "I am arranging ___ for the ___ session on ___." // • "I have confirmed that ___." // • "I have requested ___ for ___ participants." // • "I have also arranged ___ as ___." // • "The session will begin at ___ in ___."
+@LINE
+1. Card 1:
+You are arranging a meeting room and AV equipment for a Senegal–Türkiye bilateral working session (12 participants total; 3 require Turkish interpretation; PowerPoint presentation expected from the Turkish side).
+
+2. Card 2:
+You need to arrange dietary requirements for a six-person Moroccan ministerial delegation arriving for a full-day session. The meeting includes a working lunch.
+
+3. Card 3:
+You are preparing the visit schedule for a one-day visit by a three-person Finnish environmental NGO team coming to discuss the Coastal Restoration Program.
+@EX Group Discussion – What Must a Protocol Brief Include?
+@INSTR In small groups, discuss the following questions about coordination documents and procedures. Share your conclusions with the class. (Aim for 3–4 sentences per answer.)
+@BULLET
+What must a protocol brief include to be genuinely useful for a delegation lead?
+When should the agenda be sent to the visiting delegation, and what problems arise if it is sent too late?
+What problems can arise from last-minute coordination failures, and how should a liaison officer respond professionally?
+@EX Vocabulary Practice: Using the Words in Sentences
+@INSTR Complete each sentence with the correct word or phrase from the list below.
+@WORDBANK
+@BANK
+agenda | memorandum of understanding | protocol
+delegation | communiqué |
+@GAP
+1. The liaison officer circulated the meeting ____________________ to all participants two days before the session.
+2. The two foreign ministers signed a ____________________ on educational cooperation during the official ceremony.
+3. The ____________________ brief included the full names, titles, and nationalities of everyone attending the bilateral working group.
+4. The Turkish ____________________ was led by the Deputy Foreign Minister and included three technical specialists.
+5. A joint ____________________ was issued after the summit, outlining the agreed priorities in infrastructure and humanitarian cooperation.
+
+@PART 2 | Part 2
+@EX Noticing Grammar
+@INSTR Read this internal coordination email from Aïssatou Diallo, Protocol Officer, to her team ahead of the Senegal–Türkiye bilateral meeting. Pay attention to the modal verbs in bold.
+@SUBBAR Dialogue
+@SPEECH
+Email from Aïssatou Diallo: Team, please note the following for Tuesday's session. All participants *must* present their ministry ID at the entrance — security clearance is required for all foreign nationals. The Turkish delegation *may* use the executive lounge for a pre-meeting briefing. You *should* send the updated agenda to Dr. Kaya's office by four o'clock today — not later. If there is a translation issue during the session, you *can* contact the Language Services Unit directly using the internal extension. We *need to* finalize catering arrangements today. The director *shall* open the session with a formal welcome — his speaking notes are attached.
+@EX Grammar Focus Box
+@INSTR Complete the table below using the choices provided. Write the correct ministry example for each modal verb.
+@EX Guided Practice
+@INSTR Complete each sentence with the correct modal verb from the choices given.
+@LINE
+1. All foreign participants ____________________ obtain security clearance before entering the ministry building for the bilateral session.
+2. The liaison officer ____________________ circulate the final agenda to both sides at least 48 hours before the meeting — this is professional best practice.
+3. The visiting delegation ____________________ use the side entrance if the main entrance is being prepared for another ceremony.
+4. If a participant needs interpretation, they ____________________ request it directly from the Language Services Unit during the session.
+5. We ____________________ finalize the seating arrangement today — the visiting delegation has specific protocol requirements regarding seniority.
+6. The joint communiqué ____________________ be signed by both delegation leads at the conclusion of the working group session.
+@EX Error Correction
+@INSTR Find and correct the modal verb error in each sentence:
+@LINE
+1. All participants musts present a valid government ID at the entrance.
+2. The delegation lead should receives the protocol brief by this afternoon.
+3. You can to contact the interpretation unit if you need assistance during the meeting.
+4. The minister shall opens the bilateral session with a formal statement at ten o'clock.
+@EX Speaking Practice
+@INSTR In pairs, use the correct modal verbs to complete these ministry speaking tasks. (Aim for 3–4 sentences per answer.)
+@BULLET
+Explain three security rules for foreign visitors at the ministry using must, must not, and may.
+Give three pieces of professional advice to a colleague who is coordinating their first bilateral meeting, using should and need to.
+What can and cannot a liaison officer decide alone, without authorization from a senior official? Use can and cannot.
+
+@PART 3 | Part 3
+@EX Before You Listen: Predict and Discuss
+@INSTR Look at these four coordination situations that arise before a bilateral meeting. In pairs, predict what language and modal verbs you expect to hear, and how the liaison officer should respond professionally. (Aim for 2–3 sentences per scenario.)
+@BULLET
+Scenario 1: A scheduling conflict — the foreign delegation's flight has been delayed by two hours. The meeting was scheduled for 10 a.m. What does the liaison officer need to do, and what language will they use?
+Scenario 2: A room change — the booked conference room has a technical failure. The IT team cannot fix it before the meeting. The only available room is smaller. What must the liaison officer communicate, and how?
+Scenario 3: A translation request — the delegation lead calls to say that two additional participants speaking only Turkish will join unexpectedly. What should the officer arrange, and what can they promise?
+Scenario 4: A security clearance issue — the delegation's logistics officer informs the ministry that one participant's clearance was not processed in time. The meeting is tomorrow morning. What are the officer's options?
+@EX Listening: Four Coordination Calls
+@AUDIO 🔊 Audio Track 2.14
+@INSTR Listen to four short phone calls between Aïssatou Diallo at the Ministry of Foreign Affairs and coordination contacts at the Turkish Embassy. For each call, answer the questions that follow. // Dialogue 1: // Aïssatou: Good morning, this is Aïssatou Diallo calling from the Ministry of Foreign Affairs. I am calling about tomorrow's bilateral infrastructure meeting. We have a scheduling issue — the conference room originally booked is unavailable due to an urgent ministerial meeting that has been added to the calendar. I need to inform you that the meeting will take place in Conference Room C on the third floor instead. The room is slightly smaller but fully equipped with the same interpretation facilities. // Can: Thank you for letting us know, Ms. Diallo. Will the seating arrangement still accommodate twelve participants? // Aïssatou: Yes, absolutely. We will have twelve seats ready. I will send you an updated logistics note by midday today. // Dialogue 2: // Emre: Ms. Diallo, this is Emre Yıldırım from the Turkish Embassy. I need to let you know that Dr. Kaya's flight from Ankara has been delayed. She will now arrive at two in the afternoon instead of eleven. Can the meeting be moved to three o'clock? // Aïssatou: Thank you for informing us promptly, Mr. Yıldırım. I will check with the Director immediately and confirm the rescheduled time. We should be able to accommodate three o'clock — can you hold for two minutes while I confirm? // Emre: Of course. // Aïssatou: Mr. Yıldırım, I can confirm. The bilateral session will begin at three o'clock. All participants on our side have been informed. We will send a revised logistics note within the hour. // Dialogue 3: // Emre: Ms. Diallo, one more thing — two of our technical specialists speak primarily Turkish. They need Turkish interpretation for the technical discussion in the afternoon session. Can you arrange that? // Aïssatou: Absolutely. We should be able to arrange Turkish interpretation through our Language Services Unit. I need to confirm availability with them immediately — may I call you back within the hour? // Emre: Of course. We would appreciate it. // Aïssatou: One thing to note: interpretation must be requested at least four hours before the session begins. I will ensure this is confirmed and send you written confirmation before noon. // Dialogue 4: // Aïssatou: Mr. Yıldırım, I am sorry to call again. Our Security Coordination Office has just informed me that one participant on your list — Dr. Öztürk — has not yet completed the security clearance process. All foreign nationals must submit clearance forms 48 hours before entry. I need to know: can Dr. Öztürk submit the required form today by two o'clock? // Emre: I will check immediately and get back to you. If he cannot, can he join by video link? // Aïssatou: That is a possible option. I will confirm this with our IT team and let you know within thirty minutes. In that case, we may need to adjust the room setup.
+@PLAYNOTE 🔊 Click to play each dialogue (requires VBA macro – see instructions)
+@DBAR Dialogue 1 — Room Change
+@SPEECH
+Aïssatou: Good morning, this is Aïssatou Diallo calling from the Ministry of Foreign Affairs. I am calling about tomorrow's bilateral infrastructure meeting. We have a scheduling issue — the conference room originally booked is unavailable due to an urgent ministerial meeting. The meeting will now take place in Conference Room C on the third floor instead.
+Can: Thank you for letting us know, Ms. Diallo. Will the seating arrangement still accommodate twelve participants?
+Aïssatou: Yes, absolutely. We will have twelve seats ready. I will send you an updated logistics note by midday today.
+@DBAR Dialogue 2 — Flight Delay
+@SPEECH
+Emre: Ms. Diallo, this is Emre Yıldırım from the Turkish Embassy. Dr. Kaya's flight has been delayed. She will now arrive at two in the afternoon instead of eleven. Can the meeting be moved to three o'clock?
+Aïssatou: Thank you for informing us promptly. I will check with the Director immediately. Can you hold for two minutes?
+Emre: Of course.
+Aïssatou: Mr. Yıldırım, I can confirm. The bilateral session will begin at three o'clock. We will send a revised logistics note within the hour.
+@DBAR Dialogue 3 — Translation Request
+@SPEECH
+Emre: Ms. Diallo, two of our technical specialists speak primarily Turkish. They need Turkish interpretation for the afternoon session. Can you arrange that?
+Aïssatou: Absolutely. We should be able to arrange Turkish interpretation through our Language Services Unit. I need to confirm availability — may I call you back within the hour?
+Emre: Of course. We would appreciate it.
+Aïssatou: Note that interpretation must be requested at least four hours before the session. I will send written confirmation before noon.
+@DBAR Dialogue 4 — Security Clearance
+@SPEECH
+Aïssatou: Mr. Yıldırım, our Security Office has informed us that Dr. Öztürk has not yet completed the clearance process. All foreign nationals must submit the clearance form 48 hours before entry. Can Dr. Öztürk submit the form today by two o'clock?
+Emre: I will check immediately. If he cannot, can he join by video link?
+Aïssatou: That is a possible option. I will confirm this with our IT team and let you know within thirty minutes.
+@SP 200
+@PLAIN
+1. What is the problem in each dialogue and what is agreed or proposed?
+2. How does Aïssatou use modal verbs in each call to communicate what is required, possible, or recommended?
+3. What does Aïssatou's handling of these calls tell us about the professional qualities of an effective liaison officer?
+Thinking Guide: Aïssatou does not wait for problems to get worse — she communicates them ___. She always offers a ___ alongside the problem. She is also careful about what she ___ now versus what she needs to ___. She manages ___ by setting clear deadlines. (Think about: proactively / solution / can confirm / verify / timelines)
+@EX Choose the Correct Response
+@INSTR Listen to each coordination request and choose the correct professional ministry response:
+@LINE
+1. That is too many. You should have told us earlier.
+                  I will check the room capacity immediately and confirm within the hour. If needed, we can consider an alternative room setup.
+2. The agenda is already in English. We cannot change it now.
+                  Of course. I will coordinate with our translation team and send you the Turkish version by tomorrow morning — the meeting is in three days, so this is very manageable.
+3. Yes, all delegation leads must bring their signed authorization letter — this is required for the official record. I will include a reminder in the logistics note I send you today.
+                  No, you do not need to bring anything official. Just come and we will handle it.
+4. Yes it is tomorrow. I believe it is in the morning.
+                  Certainly. The Senegal–Türkiye Infrastructure Working Group is confirmed for tomorrow, Tuesday the fourteenth, at ten o'clock in Conference Room B on the second floor of the main ministry building. I will send you the final logistics note by end of today.
+@EX Useful Phrases Box
+@INSTR Listen to and write down five professional phrases used in meeting coordination calls. Then practice saying them aloud with a partner, focusing on a clear, confident tone.
+
+@PART 4 | Part 4
+@EX Role-Play: Coordination Call
+@INSTR Work in pairs. Student A is the ministry liaison officer (Aïssatou Diallo). Student B is the foreign delegation logistics officer. Use the situation cards below. Agree on: (1) time of meeting, (2) conference room, (3) number of participants, (4) interpretation needs. Use modal verbs in your conversation. (Each turn: 2–3 sentences per speaker.) // Card A (Liaison Officer): // You need to coordinate: Tuesday 10 a.m., Conference Room B (12 seats), interpretation available for French–English only, security clearance required by Monday 4 p.m. for all participants. // Card B (Foreign Delegation Logistics Officer): // Your delegation: 8 participants from the Turkish side. Two members speak only Turkish — they need Turkish interpretation. You want to confirm room capacity and whether you can arrive early at 9:30 for a pre-meeting briefing. // Useful Language: // • "The session is scheduled for ___ o'clock in Conference Room ___." // • "All foreign participants must submit their security clearance forms by ___." // • "I should be able to arrange ___ — I need to confirm availability." // • "May we arrive at ___ for a pre-meeting briefing?" // • "I will include this in the logistics note I send you today."
+@EX Role-Play: Opening the Bilateral Meeting
+@INSTR Practice opening a bilateral meeting formally. Use the three opening variants below. One student plays the host delegation lead; the other plays the visiting delegation lead. After each opening, the visiting delegation lead responds formally. (Each response: 2–3 sentences.) // Meeting Opening Language Bank: // • "On behalf of the Ministry of Foreign Affairs, I welcome ___ to today's ___." // • "It is my privilege to open today's bilateral session." // • "We value deeply our relationship with ___ and look forward to ___." // • "I propose we proceed according to the agreed agenda." // • "I suggest we begin with a brief round of introductions." // Variant 1 — Bilateral Working Group (technical, professional): // "Ladies and gentlemen, on behalf of the Ministry of Foreign Affairs, I welcome the Turkish delegation to today's Senegal–Türkiye Infrastructure Cooperation Working Group. We are pleased to welcome Dr. Kaya and her colleagues. I propose we proceed according to the agreed agenda, beginning with a review of the joint infrastructure assessment." // Variant 2 — High-Level Bilateral Meeting (formal, senior officials): // "Your Excellency, distinguished colleagues — on behalf of the Republic of Senegal, it is my privilege to open today's bilateral session. We value deeply our relationship with [partner country] and look forward to a productive exchange. I propose we begin." // Variant 3 — Working Lunch / Informal Coordination Session: // "Thank you all for joining us today. We have a full agenda but an informal format — this session is an opportunity to speak frankly and move our cooperation forward. I suggest we begin with a brief round of introductions before we turn to the agenda items."
+@EX Group Discussion: Managing a Meeting Professionally
+@INSTR Discuss the following questions in a small group based on the role-plays in exercises 4A and 4B. (Aim for 3–4 sentences per answer.)
+@BULLET
+What makes a meeting feel professionally managed from the perspective of a visiting delegation?
+What are three things a liaison officer must never forget on the day of a bilateral meeting?
+How do you politely and professionally manage a meeting that is running significantly over time?
+
+@PART 5 | Part 5
+@EX Read: The Senegal–Türkiye Infrastructure Working Group Session
+@INSTR Read the account of a bilateral working group session at the Ministry of Foreign Affairs. Pay attention to the preparation steps, the meeting structure, and the outcomes.
+@PANEL
+The Senegal–Türkiye Infrastructure Cooperation Working Group held its inaugural session at the Ministry of Foreign Affairs in Dakar on a Tuesday morning in March 2025. The session had been in preparation for six weeks. Aïssatou Diallo, the ministry's Protocol and Liaison Officer, coordinated all logistical arrangements with Emre Yıldırım, the Turkish Embassy's logistics officer, through a series of phone calls and formal emails. The agenda was circulated to both sides five days before the session.
+The Turkish delegation, led by Dr. Elif Kaya, Deputy Director of the Turkish Cooperation and Coordination Agency, arrived at the ministry's executive entrance at nine-thirty for a pre-meeting briefing in the protocol lounge. The host delegation was led by Moussa Sarr, Economic Affairs Specialist, who had prepared a detailed protocol brief for the minister's office covering the Turkish team's key positions and the three main areas of discussion: road network upgrades in priority regions, water infrastructure grants, and the establishment of a joint technical monitoring committee.
+The session opened formally at ten o'clock with a statement by Moussa Sarr on behalf of the ministry, followed by a response from Dr. Kaya. The morning was dedicated to road network upgrades, with technical presentations from both sides. After a working lunch at twelve-thirty, the afternoon session addressed water infrastructure. At four o'clock, the two delegation leads signed an aide-mémoire recording the agreed framework for the joint technical committee. A brief press statement was issued jointly, and both sides expressed commitment to a second working group session within three months.
+Aïssatou Diallo distributed the post-meeting summary to all participants within 24 hours, as required by ministry protocol. She noted in her internal report that the most critical coordination decisions had been the switch of conference rooms two days before the session and the last-minute arrangement of Turkish interpretation for two technical specialists — both resolved without the visiting delegation experiencing any disruption.
+@LINE
+1. How long was the session in preparation, and who coordinated the logistics?
+2. What were the three main agenda topics discussed?
+3. What formal document was signed at the end of the session and by whom?
+4. What were the two coordination challenges Aïssatou noted in her internal report?
+@EX Reading Comprehension: Discussion Questions
+@INSTR In pairs or small groups, discuss the questions below about the working group session. (Aim for 3–4 sentences per answer.)
+@BULLET
+What made this working group session successful, and which factor do you think was most important?
+What was Aïssatou Diallo's specific contribution to the session's success? What qualities did her role require?
+What would you have done differently in the coordination of this session?
+@PBULLET
+Thinking Guide: One thing I would do differently is confirm ___ requirements in the first coordination call. I would also build a ___ buffer into the schedule to allow for overruns. Another improvement is to prepare a ___ plan for the room from week one — not wait for the problem to arise. (Think about: interpretation / one-hour / contingency)
+@BULLET
+What does this working group session signal about the ministry's capacity to manage serious bilateral partnerships?
+@PBULLET
+Thinking Guide: This session signals that the Foreign Ministry has ___ professionals who can manage high-level sessions. The country is engaging ___ on major infrastructure priorities, not just exchanging ___. The session produced a ___ document with a timeline, which signals institutional ___. (Think about: trained / substantively / declarations / signed / follow-through)
+@BULLET
+
+@PART 6 | Part 6
+@EX Model Writing – Coordination Documents
+@INSTR Read the three model coordination documents below. Notice the formal tone, the use of modal verbs, and the clear structure. Then complete each document using the word list provided after it.
+@DOCHEAD Document 1: Meeting Confirmation Email
+@GAP
+1. Dear Dr. Kaya, //  I am writing to confirm the arrangements for the Senegal–Türkiye Infrastructure Cooperation Working Group ____________________ on Tuesday, 14 March 2025, at 10:00 a.m., in Conference Room B, Ministry of Foreign Affairs, Dakar. All participants ____________________ present a valid form of official identification at the security desk. Interpretation into Turkish will be available for the technical session in the afternoon. I will send a final logistics ____________________ by Monday morning. //  Yours sincerely, //  Aïssatou Diallo, Protocol and Liaison Officer
+@DOCHEAD Document 2: Rescheduling Request
+@GAP
+2. Dear Mr. Yıldırım, //  I am writing to inform you that the working group session originally ____________________ for Tuesday at ten o'clock must be rescheduled due to an urgent ministerial commitment on our side. We ____________________ the session to take place on Wednesday at the same time and in the same location. We apologize for any inconvenience and are grateful for your understanding. Please confirm at your earliest ____________________. //  Best regards, //  Aïssatou Diallo
+@DOCHEAD Document 3: Post-Meeting Summary Excerpt
+@GAP
+3. Post-Meeting Summary — Senegal–Türkiye Infrastructure Working Group //  Date: Tuesday, 14 March 2025 //  Participants: [see attached list] //  The session opened at 10:00 a.m. with formal statements from both ____________________ leads. The morning session addressed road network upgrades in priority regions. The afternoon session covered water infrastructure ____________________. At the conclusion of the session, both delegation leads signed an aide-mémoire establishing the joint technical monitoring committee. Both sides ____________________ to hold a second working group session within three months.
+@EX Write a Meeting Agenda
+@INSTR Using the information below, write a formal two-hour meeting agenda for the Senegal–Brazil Cultural Cooperation Working Group. // Given information: // • Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. // • Venue: Conference Room A, Ministry of Foreign Affairs, Dakar // • Host participants: Moussa Sarr (delegation lead), Khady Ndour, two cultural affairs officers // • Brazilian participants: Ms. Beatriz Almeida (delegation lead, Brazilian Cultural Institute Dakar), two cultural cooperation officers // • Agenda items: (1) Review of the Cultural Exchange Protocol signed in 2024, (2) Progress update on the joint cultural heritage exhibition for South American capitals, (3) Proposal for a new annual Film and Literature Festival, (4) Any other business and next steps // • Format: Each item allocated 25 minutes; 5-minute transition break at 11:00 a.m.
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX Analyze the Parts of a Meeting Agenda
+@COLHEAD Column A
+@MATCH
+1. | Header / Meeting Details |
+2. | Participant List |
+3. | Numbered Agenda Items with Timing |
+4. | Any Other Business |
+5. | Next Steps / Action Points |
+@COLHEAD Column B
+@MATCH
+a) | Shows each topic in order with allocated time, so discussions stay structured and within schedule
+b) | Records what has been agreed, who is responsible for each action, and what the timeline is — ensuring accountability after the meeting
+c) | Identifies the meeting by name, date, time, and location so all participants have the same reference information
+d) | Provides an opportunity to raise topics not included in the main agenda before the session closes
+e) | Lists the names, titles, and institutions of all participants so each person knows who they are meeting
+@EX Your Turn: Write a Meeting Confirmation Email (80–100 words)
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Decide on your context. Choose a meeting you are coordinating — use a name from this unit (e.g., Senegal–Brazil Cultural, Senegal–Finland Environment) or create your own. // Step 2: List the key details — recipient's name, meeting date, time, location, one requirement (use a modal verb), and one next step you will take. // Step 3: Choose your closing — what action do you want the recipient to take? (e.g., confirm receipt, reply with participant list, check clearance) // Now write your confirmation email. Your email must include: // • Subject line // • Formal greeting with the officer's name // • Confirmation of meeting date, time, and location // • A key requirement using a modal verb (must / should / may / can) // • A next step you will take before the meeting // • A professional closing // Peer Feedback Activity: // Exchange your email with a partner and check: // • Is the tone formal and professional throughout? // • Are modal verbs used correctly? // • Are all key details clearly stated (date, time, location)? // • Is there a clear next step or action point? // • Are there any spelling or punctuation errors?
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX Optional Extension: Write a Post-Meeting Summary
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Choose your meeting. Use the Senegal–Türkiye session from the reading, or create a new bilateral session (e.g., Senegal–Brazil, Senegal–Japan). Decide on: meeting name, date, two or three participants from each side. // Step 2: List the content — two or three topics discussed, one formal outcome (a signed document, a decision, or a commitment), and two next steps with a responsible person for each. // Step 3: Choose your tone — formal and neutral. This is an official record. Do not write "I think" or "we felt." Write "Both sides agreed..." or "The session concluded with..." // Now write your post-meeting summary (5–7 sentences). Your summary should include: // • Meeting name, date, and participants (abbreviated) // • The main topics discussed // • At least one formal outcome (agreement, decision, signed document, or commitment) // • Next steps and who is responsible for each // • The date by which the next communication is expected // Use formal, neutral language — a post-meeting summary is an official record, not a personal account.
+@WRITE 📝 Write your response below:
+@LINES 10
+
+@PART 7 | Part 7
+@EX Clarity in Names, Dates, and Times on the Phone
+@AUDIO 🔊 Audio Track 2.27
+@INSTR In coordination calls, three types of information must be perfectly clear: names, dates, and times. A misheard name or wrong date can cause serious coordination failures. // Practice these techniques: // 1. For names: slow down and stress each syllable clearly. "Dr. E-lif KA-ya." "Ms. Aïs-sa-tou DIAL-lo." Never assume the other person has heard a name correctly — repeat it if there is any pause or hesitation. // 2. For dates: always say the day of the week AND the date. "Tuesday, the fourteenth of March" — not "the fourteenth" alone, which can be confused with a different month. // 3. For times: say the full time with a.m. or p.m. "Ten o'clock in the morning" for important meetings — not just "ten." If there is any international element, always clarify the time zone: "Ten o'clock Dakar time." // Practice these examples: // • "The meeting is confirmed for Tuesday, the fourteenth of March, at ten o'clock in the morning, Dakar time." // • "I am calling to speak with Dr. E-lif KA-ya from the Turkish Cooperation Agency." // • "Please confirm receipt of my email by Wednesday the sixteenth — that is Wednesday the sixteenth — at four o'clock p.m."
+@EX Intonation in Meeting Room Language
+@AUDIO 🔊 Audio Track 2.28
+@INSTR In a bilateral meeting, the delegation lead's language must project authority, warmth, and control. The way you say the words matters as much as the words themselves. // Practice these three meeting functions with the correct intonation: // 1. Opening the session — falling intonation on the final word: "Shall we BEGIN?" (falling on BEGIN signals the decision is made, not a question) // 2. Redirecting discussion — level, calm tone: "I suggest we return to the AGENDA." (no rising or falling — this is a neutral, professional redirect, not a criticism) // 3. Closing the session — warm falling tone: "I thank you for a very productive session. We look forward to our next MEETING." (warmth on "thank you," finality on "meeting") // Listen and repeat each phrase, then try with your own opening and closing statements.
+@EX Controlled Meeting-Opening Dialogue
+@AUDIO 🔊 Audio Track 2.29
+@INSTR Partner activity: Read the dialogue below naturally, paying attention to formal intonation and word stress. Then repeat the dialogue using your own name and a meeting topic relevant to your own work.
+@SUBBAR 🎤 Practice Script | 150
+@SPEECH
+A: Ladies and gentlemen, on behalf of the Ministry of Foreign Affairs, I welcome the Turkish delegation to today's working group session.
+B: Thank you, Director. The Turkish delegation is pleased to be here and grateful for the ministry's careful preparation.
+A: I propose we proceed according to the agreed agenda. Shall we begin?
+B: Certainly. The Turkish side is ready to proceed.
+@SP 120
+@EX Practice and Record
+@AUDIO 🔊 Audio Track 2.30
+@INSTR Record a 30-second formal meeting opening statement. Include: // • A formal welcome to the visiting delegation // • Your name and role // • A brief statement of the meeting's purpose // • An invitation to begin // Listen back and check: // • Was your intonation falling at the end of declarative statements? // • Did you stress key content words: names, dates, the meeting title? // • Was your pace steady and calm — not rushed? // • Did you sound both authoritative and welcoming? // Record a second version if needed and compare.
+
+@PART 8 | Part 8
+@EX Understanding Cultural Differences in Meeting Behavior
+@INSTR You are coordinating two very different meetings this week: // 1. A working session with a Finnish environmental NGO team — three members, informal structure, first-name basis // 2. A formal bilateral session with a Moroccan ministerial delegation — six members, strict hierarchy, social conversation before agenda // Both require professional management. But the cultural expectations are very different. // In small groups, discuss the following questions: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you expect about punctuality, speaking order, and note-taking norms in a meeting with a Nordic professional team compared to a North African ministerial delegation?
+How does silence function differently in Nordic and North African meeting culture?
+What should a liaison officer know about managing a meeting with a first-name-basis Nordic team — and how does this differ from managing a formally titled ministerial session?
+@EX Culture Comparison: Meeting Behavior Across Three Contexts
+@INSTR Complete the table comparing meeting behavior norms across three cultural contexts. Use the choices provided.
+@EX Role-Play: Opening a Meeting with a European Environmental NGO
+@INSTR Work in pairs. Student A plays Moussa Sarr, host delegation lead. Student B plays Lars Virtanen, team lead of a Finnish environmental NGO visiting to discuss the Coastal Restoration Program. // Context: The meeting starts on time. Lars introduces his team informally: "Please, call me Lars." The agenda has three items and two hours. The Finnish team uses first names throughout. // Practice: // 1. Open the meeting formally, then accept the informal register gracefully // 2. Work through the first agenda item: reviewing the current Restoration Program scope // 3. A moment of silence after your first proposal — do not rush to fill it; allow Lars to respond // Guidance phrases: // • "Thank you, Lars. On behalf of the ministry, we are very pleased to have you here today." // • "I suggest we follow the agenda we circulated — does that work for your team?" // • "I would welcome your team's perspective on this proposal before we proceed."
+@EX Role-Play: Opening a Meeting with a North African Ministerial Delegation
+@INSTR Work in pairs. Student A plays Aïssatou Diallo, welcoming the visiting Moroccan delegation to the protocol lounge before the formal session. Student B plays His Excellency Youssef Benali, Deputy Foreign Minister of Morocco. // Context: The delegation has just arrived. There is a social welcome in the protocol lounge before the formal session begins. Mint tea and pastries have been arranged. His Excellency is accompanied by two advisers. // Practice: // 1. Welcome the delegation with full protocol: title, warmth, appreciation for the visit // 2. Offer hospitality without rushing to business // 3. His Excellency begins with social conversation — respond warmly and follow his lead // 4. Only transition to the session when His Excellency signals he is ready // Guidance phrases: // • "Your Excellency, on behalf of the Ministry of Foreign Affairs, we are deeply honored by your visit to Dakar." // • "Please make yourself comfortable. We have arranged tea — may I offer you a cup?" // • "We look forward to a very productive session whenever Your Excellency is ready."
+@EX Discussion: Adapting Without Losing Your Professional Identity
+@INSTR Discuss the following questions in a small group based on the role-plays and cultural comparison in this section. (Aim for 3–4 sentences per answer.)
+@BULLET
+How can you adapt your facilitation style to different cultural expectations without feeling like you are performing or being inauthentic?
+What phrase could you use in a meeting to professionally and gently address a cultural misunderstanding — for example, if a Nordic colleague unintentionally interrupts a ministerial delegation lead?
+What is your ministry's unique position as a host of diplomatic meetings, given the range of partners it engages with across regions simultaneously?
