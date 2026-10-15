@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Management Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Business Management Do?
+@INSTR Discuss with a partner what jobs and roles exist in a management team.
+_80
+@BULLET
+What types of jobs do you think people have in a company's management team?
+_300
+@EX Warm-Up: Matching Management Jobs to Descriptions
+@INSTR Match each management job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Production Manager
+2. | Finance Manager
+3. | General Manager
+4. | Purchasing Manager
+5. | Human Resources Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the shifts and the output and controls the cost of each unit
+b) | Prepares the budget, watches the cash and signs the monthly accounts
+c) | Leads the whole company and answers to the owners for the result
+d) | Finds suppliers, agrees prices and makes sure materials arrive on time
+e) | Hires and trains the staff and keeps the records the law requires
+_300
+@EX Warm-Up: Management Job Skills
+@INSTR Classify the following skills by which management job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Production Manager
+2. Finance Manager
+3. Sales Manager
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Planning a week's output across three machines  ____________________________
+2. Reading a profit and loss account quickly  ____________________________
+3. Listening to a customer and closing an order  ____________________________
+4. Calculating the cost of making one unit  ____________________________
+5. Preparing a cash flow forecast for the quarter  ____________________________
+6. Agreeing a price without giving away the margin  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Business Management?
+@INSTR Discuss with a partner: Would you like to work in business management? Why or why not?
+_80
+@BULLET
+Would you like to work in business management in the future? What role would you like to have?
+_300
+@EX Warm-Up: Management Work in Syria
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are managers in Syria very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They rebuild damaged businesses and keep people employed
+   ○ C) They do not work with suppliers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Management Job Titles and Descriptions
+@INSTR Match each management job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Production Manager
+2. | Accountant
+3. | Sales Manager
+4. | Purchasing Manager
+5. | General Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who plans the output and controls the cost of making each unit
+b) | A person who keeps the books, prepares the accounts and files the returns
+c) | A person who sets prices with the owners, visits customers and collects payment
+d) | A person who sources materials, agrees terms and keeps the stores supplied
+e) | A person who leads the whole company and answers to the owners for the result
+_300
+@EX Part 1: Management Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Shift Supervisor
+2. | Cost Accountant
+3. | Logistics Officer
+4. | Internal Auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Runs one shift and reports its output
+b) | Works out what each product costs
+c) | Arranges transport and delivery
+d) | Checks that the rules were followed
+_300
+@EX Part 1: Skills Required for Management Work
+@INSTR Complete the table by filling in the required skills for each management job.
+_80
+@GRID
+Management Job | Skill 1 | Skill 2
+Shift Supervisor |  | 
+Finance Manager |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  organized
+b)  clear instructions
+c)  careful with figures
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Business Management
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Managers often work in an ____________________ (office) or out on the factory floor.
+2. Working in management can be ____________________ (demanding) but very rewarding.
+3. Managers usually work as a ____________________ (team) with production and finance.
+_300
+@EX Part 1: Listening - Management Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of management jobs and answer the questions.
+_80
+@MCQ
+1. What does a production manager do on the factory floor?
+@OPT
+   ○ A) Trains new customers only
+   ○ B) Plans the output, watches the cost and solves problems as they appear
+   ○ C) Signs the annual accounts
+@MCQ
+2. What is a finance manager's main responsibility?
+@OPT
+   ○ A) Prepare the budget, watch the cash and report the result
+   ○ B) Operate the production machine
+   ○ C) Deliver the goods to customers
+_300
+@EX Part 1: Reading - Management Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their management careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become supervisors or assistant managers. Junior managers receive training to improve their planning and their reporting. Some work on the factory floor as production supervisors, running a shift. Others work in finance as assistant accountants or in sales as account officers. The most experienced staff may become general managers who answer to the owners and train other managers. Working in management offers opportunities to learn, to grow, and to build something that lasts.
+@NUM 100
+1. How do most people start their careers in business management?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Management Career Interest
+@INSTR Discuss with a partner: Which management job interests you most?
+_80
+@BULLET
+Which management job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in a management team for five years.
+2. They ____________________ (have prepared) many budgets in this company.
+3. The general manager ____________________ (has trained) all new supervisors.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new sales plan
+They |  | results for 500 orders
+He |  | three annual budgets
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has prepared
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new sales report?
+3. ____________________ the accountant closed the month?
+4. ____________________ they completed the stock count?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this company before.
+3. He ____________________ (hasn't been) to a supplier meeting.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the manager worked in management?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the manager worked in?
+@OPT
+   ○ A) Textiles only
+   ○ B) Textiles, food processing, and furniture
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or organizing experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Manager Interview
+@INSTR Before listening, discuss: What questions would you ask a business manager?
+_80
+@BULLET
+What would you like to know about working in a management team?
+_300
+@EX Part 3: Listening - Interview with a General Manager
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with a general manager and answer the questions.
+_80
+@MCQ
+1. What does the general manager do?
+@OPT
+   ○ A) Trains students at the university
+   ○ B) Agrees the plan with the owners and answers for the result
+   ○ C) Works only on the factory floor
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many customers
+   ○ B) A currency that moves quickly
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about a management training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new managers. These programmes teach graduates what university does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in budgeting, planning, and leading a team. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new managers. These programmes teach graduates what university does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in budgeting, planning, and leading a team. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach budgeting and planning.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Management Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in management teams and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of transportation
+   ○ B) Limited credit and staffing
+   ○ C) Difficult customers
+@MCQ
+2. How many delivery vehicles does the company have?
+@OPT
+   ○ A) One vehicle
+   ○ B) Three vehicles
+   ○ C) Two vehicles
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in business management.
+_80
+@MCQ
+1. What position is the young supervisor offered?
+@OPT
+   ○ A) General manager position
+   ○ B) A chance to train toward production manager
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only machine knowledge
+   ○ B) Leadership, budgeting, and communication
+   ○ C) Only software skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Company Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of company?
+_80
+@BULLET
+How might roles differ between a small family firm and a large manufacturer?
+_300
+@EX Part 4: Reading - Management Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most companies have a hierarchical structure. At the top is the General Manager who agrees the plan with the owners and answers for the result. Below the general manager are department heads who run specific areas such as production, finance, sales and purchasing. Each department head supervises supervisors and officers who carry out the daily work. Internal auditors check whether the rules were followed, and report to the owners directly.
+Companies also employ support staff like storekeepers, drivers, and office administrators. While these roles may seem less visible, they are essential. For example, a driver makes sure an order reaches the customer on the promised day. A storekeeper makes sure the material is there when the shift starts. Every role is important for the company to function effectively.
+Recent years have seen changes in company structures. Smaller firms operate more flexibly, with fewer management layers. This allows decisions to be made faster. However, keeping records complete and cash under control remain challenges even with simpler structures.
+@NUM 100
+1. Who agrees the plan with the owners?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Managers must be decisive — willing to choose between options when neither is perfect. They also need persistence — the commitment to recover a difficult debt even when it takes months. The experience of senior managers is valuable for training new staff. Companies also value transparency — being honest with the owners about what the figures really show.
+@MCQ
+1. What does "decisive" mean?
+@OPT
+   ○ A) Slow and uncertain
+   ○ B) Willing to choose between options when neither is perfect
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a difficult debt
+   ○ B) Commitment to recover it even when it takes months
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Management Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Prepares the budget and reports the monthly result |  | Office
+Plans the output and controls the cost of each unit |  | Factory floor
+@CHOICEHEAD Choices:
+@CHOICE
+a)  finance manager
+b)  production manager
+_100
+_300
+@EX Part 4: True/False - Management Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Companies employ both experienced managers and trainees. Trainees commit their time for a small payment because they want experience. Many managers in developing countries earn modest salaries compared to managers abroad. However, they often report higher job satisfaction. Companies invest in staff training and development. Managers can learn new skills while building something that employs other people. Career advancement is possible for dedicated staff who perform well.
+@NUM 100
+1. Some people in management teams are trainees.
+2. Management salaries at home are higher than salaries abroad.
+3. Companies provide training opportunities.
+_300
+@EX Part 4: Discussion - Management Career Values
+@INSTR Discuss: If management salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose business management even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in a management team. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Management Career Path
+@INSTR Prepare and present a 3-part talk about career paths in business management.
+_80
+@NUM 100
+1. How do people start and advance in management careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in management work?
+_300
+@EX Part 5: Discussion - Overcoming Management Challenges
+@INSTR Discuss with a partner: How do managers cope with limited credit and a moving currency?
+_80
+@BULLET
+How do experienced managers overcome shortages of credit and working capital?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Manager
+@INSTR Role play: A junior supervisor asks an experienced manager for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a company expressing interest in a management traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our company?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of a Manager
+@INSTR Write a paragraph describing a typical day of a business manager. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Management Work
+@INSTR Write a short reflection about what you could learn from working in a management team. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Business Sector in Syria and the Region
+@INSTR Read about business management in Syria and the Middle East region, then answer questions.
+_80
+@PANEL
+The business sector in Syria has changed significantly in response to the need to rebuild companies that were damaged or moved. Large manufacturers, exporters, and small family workshops all employ managers. These managers serve both the domestic market and customers abroad. Working in Syria's companies requires persistence because credit, foreign currency and reliable power are all scarce.
+In neighboring countries like Lebanon and Jordan, companies employ managers who sell for both local sale and export. The work is challenging but essential. These businesses demonstrate how dedicated professionals keep working in hard times. Syrian managers are known in the region for their resourcefulness and persistence.
+Many Syrian professionals who studied abroad chose to return to run companies at home. They sacrifice higher salaries in wealthy countries to employ people in their own towns. This shows deep commitment to the country and to the reputation of what it makes. Their choices inspire others to consider management careers.
+@NUM 100
+1. Why has the business sector in Syria changed?
+2. What characteristic is emphasized about Syrian managers?
+_300
+@EX Part 7: Discussion - Values in Business Work
+@INSTR Discuss what values are important in management work, especially where credit is scarce.
+_80
+@BULLET
+What values should guide managers, especially those working with limited credit and capital?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Management Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Production Manager
+2. | General Manager
+3. | Finance Manager
+4. | Internal Auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans output and controls unit cost
+b) | Agrees the plan and answers to the owners
+c) | Prepares budgets and reports the result
+d) | Checks whether the rules were followed
+_300
+@EX Part 8: Integrated Assessment - Management Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin management careers?
+@OPT
+   ○ A) As general managers
+   ○ B) As trainees
+   ○ C) As auditors
+@MCQ
+2. What is the most valuable quality for managers according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the staff and customers the business affects
+   ○ C) Previous management experience only
+@MCQ
+3. How has the business sector in Syria changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has changed in response to the need to rebuild damaged companies
+   ○ C) It has decreased permanently
+@MCQ
+4. What do managers value according to the culture discussion?
+@OPT
+   ○ A) Making maximum profit at any cost
+   ○ B) Honesty, accountability, and responsibility to staff and customers
+   ○ C) Avoiding difficult situations
+_300

@@ -1,0 +1,642 @@
+@VOICES Manager | Operations Manager | Finance Manager | All Managers
+@UNITHEAD Unit 1: Introduction to Business Management
+@PART Warm Up | Warm Up
+@EX Warm-up: Business Terms and Management Functions Matching
+@INSTR Match business terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business management
+2. | Objective
+3. | Revenue
+4. | Cost
+5. | Profit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The money a business receives from selling its goods or services
+b) | What a business has to pay in order to make and sell what it offers
+c) | The work of deciding what a business will do and making sure it happens
+d) | A clear statement of what the business intends to achieve and by when
+e) | What is left of the revenue once every cost has been paid
+_300
+@EX Warm-up: What Is Business Management? Simple Vocabulary Fill
+@INSTR Complete sentences about business management using the words provided.
+_80
+@GAP
+1. Business management is different from ____________________ because it sets the direction instead of only carrying out instructions.
+2. Every plan is measured against the ____________________, which states what the business may spend.
+3. A business that receives more than it pays out makes a ____________________.
+4. Managers are ____________________ professionals who must be trained before they may approve spending.
+_300
+@EX Warm-up: Types of Management Work Classification
+@INSTR Classify each task as Planning, Organizing, Leading, or Controlling.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Organizing
+3. Leading
+4. Controlling
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing next year's sales targets and the budget to reach them  ____________________________
+2. Deciding who reports to whom and who signs each order  ____________________________
+3. Explaining a difficult decision to the whole team  ____________________________
+4. Comparing this month's spending with the budget  ____________________________
+5. Choosing which two of five new products to develop  ____________________________
+6. Checking that every invoice was approved before it was paid  ____________________________
+_300
+@EX Warm-up: Purposes of Business Management Multiple Choice
+@INSTR Read about business management and choose the correct answer to each question.
+_80
+@PASSAGE
+Business management is the work of deciding what a business will do and making sure it actually happens. Managers think about what the customer wants, what the business can afford, and how the work will be organized. Business management covers many kinds of work including planning, budgeting, hiring, selling, reporting, and reviewing results. People choose to work in management because they want to build something that lasts and to give other people good work.
+@MCQ
+1. What does planning mean in business management?
+@OPT
+   ○ A) Reacting to problems after customers complain
+   ○ B) Deciding in advance what the business will do and what it will cost
+   ○ C) Selling goods at the lowest possible price
+   ○ D) Hiding a loss from the owners
+@MCQ
+2. Which is NOT a common task for a business manager?
+@OPT
+   ○ A) Preparing a budget for the year
+   ○ B) Writing a monthly report for the owners
+   ○ C) Operating the production machine all day
+   ○ D) Checking that spending stayed within the budget
+_300
+@EX Warm-up: Business Documents and Tools Matching
+@INSTR Match well-known business documents and tools with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business plan
+2. | Budget
+3. | Profit and loss account
+4. | Cash flow forecast
+5. | Organization chart
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A statement of what money is expected to come in and go out each month
+b) | A document setting out what the business will do, for whom, and how it will pay for it
+c) | A drawing showing who reports to whom and which department does what
+d) | A plan of what may be earned and spent over a stated period, usually a year
+e) | A statement showing revenue, costs and the profit or loss over a period
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Management and Finance Terminology Matching
+@INSTR Match management vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Budget
+2. | Margin
+3. | Cash flow
+4. | Stakeholder
+5. | Delegation
+6. | Performance indicator
+7. | Audit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | An independent check of whether the records show what actually happened
+b) | Giving a task and the authority to complete it to a member of your team
+c) | Anyone affected by what the business does, including staff, customers and owners
+d) | A figure chosen to show whether the business is meeting one of its objectives
+e) | The movement of money into and out of the business, week by week
+f) | The difference between what something costs and what it is sold for
+g) | A plan of what may be earned and spent over a stated period
+_300
+@EX Part 1: Management Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important management vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about business, correct pronunciation helps others understand you clearly: // *• Management* - primary stress on MAN (MAN-age-ment) // *• Objective* - primary stress on JEC (ob-JEC-tive) // *• Revenue* - primary stress on REV (REV-e-nue) // *• Delegation* - primary stress on GA (del-e-GA-tion) // *• Profitability* - primary stress on BIL (pro-fi-ta-BIL-i-ty) // *• Budget* - primary stress on BUD (BUD-get) // *• Negotiation* - primary stress on A (ne-go-ti-A-tion) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Management Activities and Purposes Table
+@INSTR Complete the table with management activities, their main purposes, and examples.
+_80
+@GRID
+Management Activity | Main Purpose | Example
+Planning |  | 
+Organizing |  | 
+Controlling |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding in advance what the business will do and what it will cost
+b)  Setting next year's sales target and the budget that supports it
+c)  Arranging people, money and equipment so the plan can be carried out
+d)  Drawing up a shift rota and naming who may approve an order
+e)  Comparing what actually happened with what was planned
+f)  Reviewing last month's spending against the budget line by line
+_100
+_300
+@EX Part 1: Management Functions and Stages Matching
+@INSTR Match management functions with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Planning
+2. | Organizing
+3. | Leading
+4. | Controlling
+5. | Reviewing
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Looking back at a completed period to learn what should be done differently
+b) | Explaining the direction, deciding between options, and keeping a team working
+c) | Comparing what happened with what was planned and correcting the difference
+d) | Arranging people, money and equipment so that the plan can be carried out
+e) | Deciding in advance what the business will do, for whom, and at what cost
+_300
+@EX Part 1: Business Management Concepts Multiple Choice
+@INSTR Read about management work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Managers work in many sectors to make businesses stronger and more useful. Some focus on production, planning shifts and controlling waste. Others work in sales, where every customer must be served and every order recorded. Many managers also work with suppliers to confirm that materials arrive as agreed. All managers share the goal of building a business that earns more than it spends.
+@MCQ
+1. A ____________________ states what the business may earn and spend over a stated period.
+@OPT
+   ○ A) report
+   ○ B) budget
+   ○ C) invoice
+   ○ D) receipt
+@MCQ
+2. The money a business receives from selling its goods or services is called ____________________.
+@OPT
+   ○ A) profit
+   ○ B) cost
+   ○ C) revenue
+   ○ D) capital
+@MCQ
+3. The movement of money into and out of a business week by week is called ____________________.
+@OPT
+   ○ A) margin
+   ○ B) cash flow
+   ○ C) delegation
+   ○ D) procedure
+_300
+@EX Part 1: Business-Related Vocabulary Fill-in
+@INSTR Complete sentences using important management vocabulary.
+_80
+@GAP
+1. A manager is a ____________________ professional who must be trained before approving spending.
+2. ____________________ operate the machines and serve the customers that managers then organize.
+3. The ____________________ decides whether the product is worth what it costs.
+4. All planning begins with a clear ____________________ describing what the business intends to achieve.
+5. The money left after every cost has been paid is called the ____________________.
+6. Accounts are ____________________ regularly so the owners can trust the figures.
+_300
+@EX Part 1: Syria's Business Environment and Local Industry
+@INSTR Read about business management in Syria and answer the factual questions.
+_80
+@PANEL
+Syrian Business Institutions and Industry
+Syria has a long tradition of trade and manufacturing. A company is entered in the commercial register before it may trade, and the Ministry of Internal Trade and Consumer Protection sets the rules for pricing, labelling and consumer complaints. The Damascus Chamber of Commerce supports its members, issues certificates of origin, and speaks for merchants to government.
+Many businesses in Syria are family firms. Some work in textiles and garments, long centred on Aleppo and Damascus. Others work in food processing, soap, furniture and pharmaceuticals, where Syrian factories have supplied both the domestic market and the region. Since the conflict, much management work has gone into rebuilding businesses that were damaged or moved and holding on to customers abroad.
+International buyers and partners also work with Syrian companies. They bring orders, technical training, and knowledge of what export markets require. Partnerships between Syrian firms and foreign buyers strengthen the capacity to sell abroad.
+Managers in Syria often face challenges including a currency that moves quickly, interrupted power, and difficulty importing materials. Despite these obstacles, they remain committed to their work of serving customers and rebuilding confidence in Syrian products.
+@NUM 100
+1. What must happen before a company may trade in Syria?
+2. Name three industries in which Syrian businesses work.
+3. What do international buyers and partners contribute to Syrian companies?
+4. What challenges do managers in Syria face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Management Work
+@INSTR Complete sentences about what managers do using the present simple tense.
+_80
+@GAP
+1. A manager ____________________ (approve) every order before it is placed.
+2. Supervisors ____________________ (report) the day's output to the manager.
+3. The accountant ____________________ (check) the invoices once a month.
+4. Managers ____________________ (record) every decision they take.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes business management a distinct profession.
+_80
+@NUM
+1. Managers are ____________________ (accountable) to the owners for the money they spend.
+2. Managers are responsible because they ____________________ (responsible) for the staff they lead.
+3. The purpose of management is to ____________________ (build) a business that lasts.
+_300
+@EX Part 2: Negative Sentences About Managers
+@INSTR Rewrite sentences in the negative form to show what managers do NOT do.
+_80
+@GAP
+1. Managers ____________________ (operate machines) - they plan, organize and review.
+2. A manager ____________________ (approve) an order without a budget line for it.
+3. Managers ____________________ (promise) a customer a date the factory cannot meet.
+4. Accountants ____________________ (record) a payment they have not actually seen.
+_300
+@EX Part 2: Management and Staff Roles Table
+@INSTR Complete the table with roles and what the MANAGER does vs. what the TEAM does.
+_80
+@GRID
+Business Stage | What the MANAGER does | What the TEAM does
+Before the work |  | 
+During the work |  | 
+At the end |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Agrees the objective and the budget for the job
+b)  Prepares the materials and sets up the workplace
+c)  Watches the figures and removes obstacles as they appear
+d)  Carries out the work and keeps the output moving
+e)  Reviews the result and reports it to the owners
+f)  Cleans up, records what was used, and prepares for the next job
+_100
+_300
+@EX Part 2: Correcting Business Sentences
+@INSTR Correct the grammatical errors in sentences about business management.
+_80
+@NUM 60
+1. Managers approves every order before it is placed.
+@RULE
+@NUM 60
+2. A manager do not operate the machine himself.
+@RULE
+@NUM 60
+3. Supervisors reports the output every day.
+@RULE
+@NUM 60
+4. Accountant checks the invoices once a month.
+@RULE
+@NUM 60
+5. The budget are approved by the owners is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Business Sentences
+@INSTR Choose the grammatically correct sentence about business management.
+_80
+@PASSAGE
+When learning about business management, correct grammar helps us communicate clearly about money and responsibility. Selecting the best sentence shows understanding of budgets, reporting, and the roles of the people in a company.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The manager approve every order carefully.
+   ○ B) The manager approves every order carefully.
+   ○ C) The manager are approving every order carefully.
+   ○ D) The manager have approve every order carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Managers do not operates the machines.
+   ○ B) Managers does not operate the machines.
+   ○ C) Managers do not operate the machines.
+   ○ D) Managers do not operating the machines.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Supervisors report the output every day.
+   ○ B) Supervisors reports the output every day.
+   ○ C) Supervisors to report the output every day.
+   ○ D) Supervisors reporting the output every day.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Manager Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to a manager describing their company and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Hello, my name is Rana. I am the operations manager of a textile company in Damascus called Cham Textiles. My department plans the weekly production, buys the yarn, and makes sure every order leaves on the agreed date.
+~Manager: We have supervisors, a planner and a storekeeper who meet every morning. We set the targets, check the output against them, and decide what to do when a machine stops. We also train the people who join us.
+~Manager: My department reports to the general manager and to the owners, who approve the budget each year. Students from the university also work with us as trainees. Our goal is simple - we want the company to be here in twenty years.
+_200
+@QUESTION
+1. What is Rana's company called?
+2. What does her department do?
+3. Who does the department report to?
+_300
+@EX Part 3: Types of Management Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of management work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Operations Manager: There are many kinds of management work in Syria. Some managers run production, others run sales, and many look after purchasing and logistics. The commercial register records every company that trades.
+^Operations Manager: Production managers plan shifts, output and maintenance. Finance managers prepare budgets and watch the cash. Sales managers set prices with the owners, visit customers and chase payment when an invoice falls due.
+^Operations Manager: International buyers also audit Syrian suppliers. Together with local staff, they review thousands of orders every year. All managers share the same goal - to keep the business earning more than it spends.
+_200
+@QUESTION
+1. There are many kinds of management work in Syria.
+2. Production is the only kind of management work in Syrian companies.
+3. The commercial register records every company that trades.
+4. International buyers do not audit Syrian suppliers.
+5. All managers work to keep the business earning more than it spends.
+_300
+@EX Part 3: Business Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to managers explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Operations Manager: Our production department works to deliver every order on the agreed date. We plan the week, watch the output hour by hour, and move people when a machine stops.
+^Finance Manager: My department looks after the money. We prepare the budget, pay the suppliers and collect from the customers. We teach the team that cash in the bank matters more than a large order nobody has paid for.
+~Manager: We are the sales section. We believe a promise kept is worth more than a low price. We agree the price, the quantity and the date, and we tell the customer early when something changes.
+^All Managers: All of us report to the owners. We work to the budget approved each year and to the orders our customers have placed. We have trainees from the university who help us every day. This is why the company keeps going.
+_200
+@QUESTION
+1. What is the aim of the production department?
+2. What does the finance department look after?
+3. What does the sales section agree with a customer?
+4. Who do these departments report to?
+_300
+@EX Part 3: Management Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of management role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Production manager
+2. | Finance manager
+3. | Sales manager
+4. | Purchasing manager
+5. | Human resources manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Hiring, training, pay and the rules that govern how staff are treated
+b) | Finding suppliers, agreeing prices and making sure materials arrive on time
+c) | Prices, customers, orders and collecting what the business is owed
+d) | Shifts, output, maintenance and the cost of making each unit
+e) | Budgets, accounts, cash in the bank and the reports the owners read
+_300
+@EX Part 3: Management Characteristics Classification
+@INSTR Classify each statement as a Feature of Management, A Challenge Managers Face, or A Benefit to the Business.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Management
+2. Challenge Managers Face
+3. Benefit to the Business
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A manager is accountable to the owners for every decision  ____________________________
+2. A currency that changes value between order and delivery  ____________________________
+3. Customers who come back because a promise was kept  ____________________________
+4. Every decision is recorded so it can be reviewed  ____________________________
+5. Interrupted power during a production shift  ____________________________
+6. Lower costs and less waste on every job  ____________________________
+7. Working with production, sales and purchasing together  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Business Management? Reading Comprehension
+@INSTR Read the text about business management and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Business Management?
+Business management is the work of deciding what a business will do and making sure it happens. A manager sets objectives, arranges the people and money to reach them, keeps the work moving, and reports the result. Management works on direction, organization and control at the same time. 
+Business management exists in almost every organization in the world. It ranges from a single owner-manager in a small workshop to a board of directors in a company of ten thousand. Well-known tools include the business plan, the budget, the profit and loss account, and the cash flow forecast.
+Managers are paid by the owners of the business, but they must report honestly even when the news is bad, because the owners cannot see the work themselves. They work closely with production, sales and finance. Students work as trainees because they want to learn how decisions are really made.
+The objective of a business is its statement of what it intends to achieve. For example, a sales objective states how much will be sold and by when. A cost objective states what a unit may cost to make. A service objective states how quickly a customer will be answered. All objectives describe something the business has promised itself.
+Managers are essential because somebody must choose between options that cannot all be funded. They prepare the plans, agree the budgets, and keep the records that show what was decided. Owners, staff and customers all benefit from careful management.
+@MCQ
+1. What is business management?
+@OPT
+   ○ A) Only reacting to problems after they appear
+   ○ B) Deciding what a business will do and making sure it happens
+   ○ C) Selling goods at the lowest possible price
+   ○ D) Operating the production machines
+@MCQ
+2. Why must managers report honestly even when the news is bad?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) Because the owners cannot see the work themselves
+   ○ C) Because production is not important
+   ○ D) To reduce the cost of accounting
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how decisions are really made
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Functions of Management and Examples - True or False
+@INSTR Read about the functions of management and mark statements as True, False, or Not Given.
+_80
+@PANEL
+The Functions of Management and Their Purposes
+Managers do many different kinds of work. Planning decides in advance what the business will do, for whom, and at what cost. It prevents the business from spending money on something nobody wants.
+Organizing arranges the people, money and equipment so the plan can be carried out. It decides who reports to whom, who may approve an order, and where each job is done. Without it, two people do the same task and a third does nothing.
+Leading keeps a team working when the plan meets reality. It explains a decision, settles a disagreement, and gives people the authority to act. Good leading is why a shift keeps going when a machine stops.
+Controlling compares what happened with what was planned. It reviews spending against the budget, output against the target, and complaints against the service promise. Where there is a difference, it finds the cause.
+Reviewing looks back at a completed period rather than at a single job. It asks whether the objectives were the right ones and what should be done differently next year.
+All these functions work together to keep a business alive. They depend on accurate records and on figures that are reported at the time the work is done.
+@NUM 100
+1. Planning only decides who reports to whom.
+2. Organizing decides who may approve an order.
+3. Controlling compares what happened with what was planned.
+4. Leading matters only when everything goes according to plan.
+5. Reviewing looks back at a completed period.
+_300
+@EX Part 4: Business Management in Syria - Fact Questions
+@INSTR Read about business management in Syria and answer the detailed questions.
+_80
+@PANEL
+Business Management in Syria: History and Current Work
+Syria has a long commercial history. Damascus and Aleppo have been trading cities for centuries, and Aleppo soap has been made and sold to a known recipe for hundreds of years. Formal company regulation began with the commercial register, which records every firm that trades, and with the chambers of commerce that speak for merchants.
+Today, many kinds of management work are carried out in Syria. Some managers run small family firms. Others work with international buyers and partners. Together they address critical needs in employment, supply, export earnings and the rebuilding of damaged businesses.
+Exporters help Syrian products reach markets abroad. They agree prices and dates, prepare the documents an importing country demands, and arrange transport and payment. Finance managers watch the cash and protect the company from a currency that moves quickly.
+After the conflict, managers have had to rebuild businesses that were damaged or moved. They re-equip workshops, find new suppliers, retrain staff, and persuade old customers that the company can deliver again.
+Human resources managers work to keep skilled staff despite low wages and emigration. Purchasing managers travel long distances to secure materials.
+The work of managers is challenging. They operate with limited credit and often without reliable power. But they remain committed to employing people and rebuilding confidence in what Syria makes. International partnerships help local firms reach customers abroad.
+@NUM 100
+1. What has been made in Aleppo to a known recipe for hundreds of years?
+2. What are three areas that managers address in Syria?
+3. What do exporters do to help Syrian products reach markets abroad?
+4. What challenges do managers in Syria face?
+_300
+@EX Part 4: Business Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Doing Business, A Feature of the Profession, or A Service Management Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Doing Business
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of raw materials and transport for each order  ____________________________
+2. Being accountable to the owners for every decision taken  ____________________________
+3. Preparing the budget and reporting the result each month  ____________________________
+4. The cost of goods that were made but never sold  ____________________________
+5. Responsibility for the livelihoods of the people employed  ____________________________
+6. Agreeing a price and a date with a customer and keeping it  ____________________________
+7. The annual fee for the commercial register and the licences  ____________________________
+_300
+@EX Part 4: Management Impact and Importance Matching
+@INSTR Match management contributions with their importance and impact on the business.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Clear Objectives
+2. | Accurate Budgeting
+3. | Supplier Management
+4. | Honest Reporting
+5. | Complete Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at the time prove what was decided and let a mistake be traced
+b) | Owners who are told the truth can act while there is still time to act
+c) | Agreeing prices and dates in advance stops a shortage stopping the line
+d) | A plan of what may be spent means the business never commits what it does not have
+e) | Everyone knows what the business is trying to achieve, so effort is not wasted
+_300
+@EX Part 4: Management Importance and Role Completion
+@INSTR Complete sentences about the importance and role of managers.
+_80
+@NUM
+1. Managers are essential for ____________________ (choose) between options that cannot all be funded.
+2. One main role of a manager is to ____________________ (decide) how the money will be spent.
+3. Management succeeds through ____________________ (work) with production, sales and finance.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Management Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about business using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key management vocabulary with correct pronunciation: // *• Management (MAN-age-ment)*: Deciding what a business will do and making it happen // *• Objective (ob-JEC-tive)*: A statement of what the business intends to achieve // *• Revenue (REV-e-nue)*: The money received from selling goods or services // *• Delegation (del-e-GA-tion)*: Giving a task and the authority to complete it // *• Profitability (pro-fi-ta-BIL-i-ty)*: Whether the business earns more than it spends // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Business Management and Its Work
+@INSTR Discuss these questions about business management with a partner:
+_80
+@BULLET
+What is a business manager and how is the work different from a supervisor's?
+What functions of management do you know, and what does each one decide?
+Why do you think managers must report honestly even when the news is bad?
+Can you name a business in Syria or your region and describe how you would manage it?
+_300
+@EX Part 5: Management Interview Role Play
+@INSTR Practice an interview about business management. One student is an owner asking questions. The other student is the manager who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Business Management Facts
+@INSTR Prepare a presentation about business management. Cover what managers are, the functions of management, and why management matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is a business manager?
+2. What functions of management exist and what are good examples?
+3. Why is business management important for our customers and staff?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Business Values and Professional Ethics
+@INSTR Read about business values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Business Values and Professional Principles
+Managers are guided by important values and ethics in their work. Professional principles include honesty, accountability, competence, and care for the people the business affects.
+Honesty means reporting what actually happened, at the time it happened. Managers believe a figure that is improved before the owners see it is worthless, and this is why every report is signed and dated.
+Accountability means answering for the money you spend and the decisions you take. Managers accept that a decision they took badly is theirs, not the market's. This allows them to correct a mistake while it is still small.
+Competence means working only within what you are trained and qualified to do, and asking for help with the rest. A manager does not sign a contract they have not understood.
+Care for people means remembering that staff depend on the business for their living and customers depend on it for what they buy. This care allows managers to refuse an order that would cost more than it earns.
+These principles guide managers every day. They explain why a manager's signature is trusted inside and outside the company. Following these values makes management effective and ethical.
+@MCQ
+1. What does professional honesty mean in management work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Reporting what actually happened, at the time it happened
+   ○ C) Making the figures look better
+   ○ D) Supporting only large customers
+@MCQ
+2. What does accountability mean?
+@OPT
+   ○ A) Working without any budget
+   ○ B) Blaming the market for a poor decision
+   ○ C) Answering for the money you spend and the decisions you take
+   ○ D) Ignoring the owners' instructions
+@MCQ
+3. Why is competence important for managers?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow the owners' instructions exactly
+   ○ C) So they sign only what they are trained and qualified to understand
+   ○ D) So they can ignore the regulations
+_300
+@EX Part 7: Syrian Cultural Values and Business Work
+@INSTR Match Syrian cultural values with how they relate to business management and trade.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a soap maker's recipe is named and remembered
+b) | Dignity means a promise is given carefully, because a name stands behind it
+c) | Hospitality shapes a negotiation: a visitor is received well before business begins
+d) | Respect for elders means the experienced merchant trains those who come after
+e) | A family firm's name travels with its goods, so a bad order is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Business Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Function of Management, or Management Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Function of Management
+3. Management Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Being accountable to the owners for every decision  ____________________________
+2. Planning what the business will do and at what cost  ____________________________
+3. Approving an order and recording the decision  ____________________________
+4. Responsibility for the livelihoods of the staff  ____________________________
+5. Controlling spending against the budget  ____________________________
+6. Agreeing a price and a date with a customer  ____________________________
+7. Working with production, sales and finance together  ____________________________
+8. Organizing who reports to whom and who may approve  ____________________________
+_300
+@EX Part 8: Integrated Management Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what a business manager is?
+@OPT
+   ○ A) A supervisor who runs one machine very well
+   ○ B) A government official who issues trading licences
+   ○ C) A trained professional who sets objectives, arranges resources, keeps work moving and reports the result
+   ○ D) A salesperson who finds customers for the product
+@MCQ
+2. What is a main difference between a manager and a supervisor?
+@OPT
+   ○ A) A manager has an office; a supervisor does not
+   ○ B) A manager decides what will be done and at what cost; a supervisor gets it done
+   ○ C) A manager works only in cities; a supervisor works everywhere
+   ○ D) A manager uses only paperwork; a supervisor uses only machines
+@MCQ
+3. How is management work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the customer directly
+   ○ C) By the owners of the business, to whom the manager reports honestly
+   ○ D) By charging high prices to poor customers
+@MCQ
+4. Which is an example of a business objective?
+@OPT
+   ○ A) Working as hard as possible every day
+   ○ B) Selling 20,000 metres of cloth a month at a stated margin by June
+   ○ C) Following the owners' instructions exactly
+   ○ D) Keeping the accounts secret from the owners
+_300

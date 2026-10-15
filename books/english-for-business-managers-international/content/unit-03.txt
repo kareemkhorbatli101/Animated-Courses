@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Officer
+@UNITHEAD Unit 3: Company Law, Governance and Compliance
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Is Company Law?
+@INSTR Discuss your understanding of the rules that govern companies.
+_80
+@BULLET
+What do you know about company law and the bodies that register and supervise companies?
+_300
+@EX Warm-Up: Matching - Business Risks
+@INSTR Match business risks with appropriate control requirements.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Unlimited personal liability
+2. | Unpaid invoice
+3. | Undeclared income
+4. | Unsafe workplace
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Requires a written contract, agreed terms and a record of every delivery
+b) | Requires a limited liability form so a debt cannot reach the family home
+c) | Requires training, protective equipment and a record of every incident
+d) | Requires complete books, a filed return and an independent audit
+_300
+@EX Warm-Up: Text - Governance Principles
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of good governance?
+@OPT
+   ○ A) Keeping the owners uninformed so decisions are faster
+   ○ B) Separating those who manage from those who own, and reporting to them honestly
+   ○ C) Applying the rules only to large companies
+_300
+@EX Warm-Up: Discussion - Why Company Law Matters
+@INSTR Discuss the importance and challenges of company law.
+_80
+@BULLET
+Why is company law important for the businesses and customers of today?
+_300
+@EX Warm-Up: Vocabulary Classification - Legal Terms
+@INSTR Classify legal and non-legal concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Legal requirement
+2. Business choice
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Entering the company in the commercial registry before trading  ____________________________
+2. The brand name and the colour of the packaging  ____________________________
+3. Issuing every employee a written contract of employment  ____________________________
+4. Filing an annual return and paying the tax assessed  ____________________________
+5. Choosing which district to open the second branch in  ____________________________
+6. Keeping books that show every receipt and payment  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Company
+@INSTR Match company forms with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Sole trader
+2. | Partnership
+3. | Limited liability company
+4. | Joint stock company
+5. | Branch of a foreign company
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Two or more people trading together and sharing the profit and the risk
+b) | One person owning the business and personally liable for all its debts
+c) | A company whose shares may be offered to the public and traded
+d) | A registered presence of a company whose head office is in another country
+e) | A company whose owners risk only what they put in, not their personal property
+_300
+@EX Part 1: Governance Words
+@INSTR Complete the table with vocabulary related to company law and governance.
+_80
+@GRID
+Term | Meaning | Who it concerns
+Shareholder |  | 
+Board of directors |  | 
+Articles of association |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  A person or company owning part of a company's capital
+b)  The owners of the company
+c)  The group appointed to direct the company between general meetings
+d)  The managers and the owners who appoint them
+e)  The document setting out how the company is to be governed
+f)  Everyone dealing with the company, including the registrar
+_100
+_300
+@EX Part 1: Fill Blanks - Legal Vocabulary
+@INSTR Complete sentences using company law vocabulary words.
+_80
+@GAP
+1. Before a company may trade, it must be entered in the commercial ____________________.
+2. A company must hold an annual general ____________________ of its shareholders.
+3. The document setting out how a company is governed is its ____________________ of association.
+4. The ____________________ is the independent professional who reports on whether the accounts are true.
+_300
+@EX Part 1: Vocabulary in Context - Compliance Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+When a company is inspected, a process follows. The first phase involves a document review to confirm every required licence and record exists. Inspectors then conduct an on-site visit by comparing what staff actually do against what the law and the company's own rules require. Breaches are raised and classified as serious or minor. The company submits corrective actions with evidence. Coordination between the inspectorate and the tax authority prevents contradictory findings and ensures the inspection covers the whole business.
+@NUM 100
+1. What does 'on-site visit' mean in the inspection process?
+2. Why is 'coordination' important between the inspectorate and the tax authority?
+_300
+@EX Part 1: Discussion - Legal Terms in Real Situations
+@INSTR Discuss how legal vocabulary applies to real businesses.
+_80
+@BULLET
+Think of a business you know. What legal words apply to that situation?
+_300
+@EX Part 1: Listening - Legal Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to managers discussing a customer dispute and answer questions.
+_80
+@MCQ
+1. What did the managers do immediately after the complaint arrived?
+@OPT
+   ○ A) Waited for the customer to write again
+   ○ B) Pulled the contract and the delivery records and checked the agreed terms
+   ○ C) Replaced the goods without looking at the file
+@MCQ
+2. Which deliveries were identified as most at risk?
+@OPT
+   ○ A) Only the newest deliveries
+   ○ B) Those sent before the contract was signed, with no written terms
+   ○ C) Export deliveries only
+_300
+@EX Part 1: Summary - Key Governance Concepts
+@INSTR Choose the best explanation for governance concepts.
+_80
+@MCQ
+1. What is the main goal of company law?
+@OPT
+   ○ A) Make work for registrars and lawyers
+   ○ B) Protect the people who deal with a company - owners, staff, customers and creditors
+   ○ C) Increase the cost of doing business
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Compliance Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't file the return), the company may be fined.
+2. Many disputes ____________________ (would have been avoided) if the terms had been agreed in writing.
+3. ____________________ (If the authority enforces) the labour rules, employers issue written contracts.
+_300
+@EX Part 2: Passive Voice - Governance Actions
+@INSTR Rewrite sentences using passive voice to describe governance actions.
+_80
+@GRID
+Active Sentence | Passive Sentence
+The board approved the budget. | 
+The auditor signed the accounts. | 
+The registrar recorded the change. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The budget was approved by the board.
+b)  The accounts were signed by the auditor.
+c)  The change was recorded by the registrar.
+_100
+_300
+@EX Part 2: Reported Speech - Auditor Findings
+@INSTR Convert direct speech to reported speech about an audit.
+_80
+@GAP
+1. The auditor ____________________ the stock count had not been witnessed.
+2. The inspector ____________________ the contracts were kept on file.
+3. The registrar ____________________ file the change within thirty days.
+4. The lawyer ____________________ the clause was unenforceable.
+_300
+@EX Part 2: Modal Verbs - Legal Necessity
+@INSTR Complete sentences with appropriate modal verbs about compliance.
+_80
+@NUM
+1. Every company ____________________ (file) an annual return.
+2. The minutes of the board ____________________ (keep) for the period the law requires.
+3. A company that trades without registration ____________________ (face) a penalty.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about compliance and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When a breach is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the licence may be suspended.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the records first. Should we also involve the lawyer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200
+@QUESTION
+1. What must the company do when a breach is raised?
+2. Why should the company involve the lawyer?
+_300
+@EX Part 2: Grammar Summary - Legal Communication
+@INSTR Discuss how to communicate effectively about requirements using appropriate grammar.
+_80
+@BULLET
+How should managers explain a legal requirement to staff and to customers?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Investigation Awareness
+@INSTR Before listening, discuss how managers investigate a complaint or a loss.
+_80
+@BULLET
+What do you think is the first step when money or stock is found to be missing?
+_300
+@EX Part 3: Listening - Investigation Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to managers describing the investigation process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Coordinator: When a loss is found, we immediately start gathering information. We interview the people who handled the stock and record what they say. We examine the delivery notes and the store records. We check whether the approvals were given and by whom. We review the counts to confirm what is actually missing. We identify whether other stores are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the store and informing the owners. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the loss is settled. The findings are shared with finance and purchasing to avoid repetition and ensure the whole cause is addressed.
+_200
+@QUESTION
+1. What information does the investigation team collect after a loss is found?
+2. What are the priorities based on the investigation?
+_300
+@EX Part 3: True/False - Compliance Practice
+@INSTR Listen to a short passage about compliance work and mark statements True, False, or Not Given.
+_80
+@PANEL
+Managers often work in difficult legal conditions. They face delays when two authorities require different things. They work with incomplete records for older years and under extreme time pressure. Despite these challenges, they remain committed to trading only in ways the law allows. Companies coordinate their records to provide complete documentation. Some managers have reported feeling frustrated by repeated inspections. However, they also report deep satisfaction when a difficult licence is finally granted and trade begins. Professional bodies support managers and set standards for practice.
+@NUM 100
+1. Managers sometimes face delays when two authorities require different things.
+2. Companies always have complete records for older years.
+3. Managers report satisfaction when a difficult licence is granted.
+_300
+@EX Part 3: Listening - Compliance Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to managers discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary administrative challenge mentioned?
+@OPT
+   ○ A) The forms are too short
+   ○ B) Missing records from earlier years and licences that expire at different times
+   ○ C) Too many staff members
+@MCQ
+2. Why is a written employment contract urgent in a growing company?
+@OPT
+   ○ A) People prefer paperwork
+   ○ B) Without it neither the employee nor the company can prove what was agreed
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Compliance Work
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to a manager's personal reflection on compliance work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Officer: I came to this work because I wanted the company to be trusted. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a licence granted for the first time and a dispute avoided because a contract was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the officer's initial reaction to compliance work?
+2. What qualities does the officer believe are important for this work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Legal Contexts
+@INSTR Before reading, discuss company law and registration in different countries.
+_80
+@BULLET
+What do you know about how companies are registered and supervised in other countries?
+_300
+@EX Part 4: Reading - Governance Decision-Making
+@INSTR Read the text and answer questions about governance choices.
+_80
+@PANEL
+Boards face difficult decisions when a company cannot meet every obligation at once. In any business, older arrangements rarely match current requirements. Boards must prioritize obligations based on risk to people and on the number of parties affected. Safety and wage obligations receive priority over filing formalities. Matters affecting employees and customers receive the strictest attention. Decisions with the highest legal exposure are examined first. Commercial pressure is considered but never overrides the law. Boards maintain transparency by explaining their reasoning to the shareholders. This transparency builds trust and understanding.
+@NUM 100
+1. How do boards decide which obligations matter most?
+2. Why do boards explain their reasoning to the shareholders?
+_300
+@EX Part 4: Text Comprehension - Professional Ethics
+@INSTR Read about professional ethics and choose the best answer.
+_80
+@PASSAGE
+Management practice is guided by core principles: legality, fairness, competence, and independence of judgement. Legality means trading only in ways the law allows, even where enforcement is weak. Fairness requires treating every employee, customer and supplier by the same rules. Competence means signing only what you are qualified to understand, and taking advice on the rest. Independence of judgement means a manager's recommendation rests on the facts, not on who is asking. These principles guide every professional decision and ensure ethical practice.
+@MCQ
+1. What does 'independence of judgement' mean?
+@OPT
+   ○ A) Ignoring the owners entirely
+   ○ B) Basing a recommendation on the facts, not on who is asking
+   ○ C) Working only for public bodies
+@MCQ
+2. Which principle requires taking advice?
+@OPT
+   ○ A) Legality
+   ○ B) Competence
+   ○ C) Fairness
+_300
+@EX Part 4: Application - Governance Scenarios
+@INSTR Read scenarios and fill in the appropriate professional principles.
+_80
+@GRID
+Scenario | Key Professional Principle
+A manager applies the same credit terms to the owner's cousin | 
+A manager refuses to sign a contract they have not understood | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Fairness and consistency
+b)  Competence and legality
+_100
+_300
+@EX Part 4: True/False/Not Given - Registries and Regulators
+@INSTR Read statements about registries and regulators and mark them True, False, or Not Given.
+_80
+@PANEL
+The commercial registry and the tax authority hold records that every company depends on. They cover registration, ownership, capital, officers and annual returns. These bodies employ officials and depend on companies filing accurately and on time. Some filings have been made electronic in dozens of countries. Registries are funded by filing fees, penalties, and government contributions. Many registries struggle to keep their records up to date despite clear need. Managers often report that reading a requirement carefully saves far more time than it costs.
+@NUM 100
+1. Registries cover only company names.
+2. Registries receive funding from several sources.
+3. All registry records are available free of charge.
+_300
+@EX Part 4: Discussion - Compliance Dilemmas
+@INSTR Discuss difficult choices managers face when obligations conflict.
+_80
+@BULLET
+What are some difficult decisions managers must make when the law and a customer disagree?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Company
+@INSTR Prepare a presentation about different company forms.
+_80
+@NUM 100
+1. Describe three company forms: the sole trader, the limited liability company, and the joint stock company.
+_300
+@EX Part 5: RolePlay - Board Meeting
+@INSTR Roleplay a board meeting discussing a compliance failure that has been found.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Qualified Manager
+@INSTR Discuss qualifications and preparation for professional qualification.
+_80
+@BULLET
+What qualifications and training would you need to become a qualified manager?
+_300
+@EX Part 5: RolePlay - Requesting an Urgent Approval
+@INSTR Roleplay a sales manager requesting an urgent credit approval from the finance manager.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Professional Values
+@INSTR Write about why professional values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a company failure and the governance changes that followed it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Letter Requesting a Ruling
+@INSTR Write a letter to the authority requesting a ruling on a specific requirement.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Professional Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in management practice.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Company Law and Compliance in Mexican Contexts
+@INSTR Read about company law and compliance in Mexico and answer questions.
+_80
+@PANEL
+Mexico has a long commercial tradition and also a demanding compliance situation. A company must be entered in the commercial registry before it may trade, and the Federal Consumer Protection Agency sets the rules on pricing, labelling and complaints. Export markets add their own requirements on top, so an exporter may need a certificate of origin from the chamber of commerce, a customs declaration, and a buyer's own audit at the same time. Compliance is complicated by requirements set at federal, state and municipal level, licences that expire at different times, and the cost of advice. Lawyers and accountants work to keep companies registered alongside the tax authority. Overlapping paperwork affects businesses across the country. Managers demonstrate extraordinary persistence and resourcefulness. Their work includes contract drafting, permit renewal, and the documentation an importing country will demand. International recognition of Mexican exporters acknowledges their skill and dedication. Their resilience and commercial knowledge inspire support from partners abroad.
+@NUM 100
+1. Why is compliance for export particularly challenging?
+2. What is the scale of Mexico's overlapping-permit problem?
+_300
+@EX Part 7: Discussion - Global Responsibility for Fair Trade
+@INSTR Discuss the global community's responsibility for fair trade with companies facing hardship.
+_80
+@BULLET
+What responsibility does the global community have towards businesses in countries facing hardship?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Governance Concepts
+@INSTR Review Unit 3 by matching governance concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Commercial registry
+2. | Board of directors
+3. | Shareholder
+4. | External auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The public record of every company entitled to trade
+b) | The group appointed to direct the company between general meetings
+c) | A person or company owning part of the capital
+d) | The independent professional who reports on the accounts
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step after a loss or a complaint is found?
+@OPT
+   ○ A) Dismiss the person nearest to it
+   ○ B) Gather the records and establish what actually happened before blaming anyone
+   ○ C) Begin reprinting the invoices
+@MCQ
+2. Which principle allows a manager's recommendation to be trusted?
+@OPT
+   ○ A) Profit maximization
+   ○ B) Independence of judgement and competence
+   ○ C) Agreement with whoever asks
+@MCQ
+3. What makes compliance for export from Mexico particularly difficult?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Several overlapping requirements plus permits held at three levels
+   ○ C) Authorities grant unlimited exemptions
+@MCQ
+4. What qualities do successful managers demonstrate in compliance work?
+@OPT
+   ○ A) Only legal knowledge matters
+   ○ B) Both technical knowledge and patience with people
+   ○ C) No special qualifications needed
+_300

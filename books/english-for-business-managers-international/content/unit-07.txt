@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Marketing, Sales and Customer Service
+@PART Warm Up | Warm Up
+@EX Warm-Up: Marketing Challenges Discussion
+@INSTR Discuss why many small producers struggle to find and keep customers.
+_80
+@BULLET
+What barriers prevent small producers from finding and keeping customers?
+_300
+@EX Warm-Up: Marketing Activities Matching
+@INSTR Match marketing activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Market research
+2. | Pricing
+3. | Promotion
+4. | Distribution
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Getting the product to the places where customers actually buy it
+b) | Deciding what to charge so the product sells and still earns a margin
+c) | Telling the right people that the product exists and why it suits them
+d) | Finding out who the customers are, what they want and what they will pay
+_300
+@EX Warm-Up: Customer Service Multiple Choice
+@INSTR Choose the best answer about good customer service.
+_80
+@MCQ
+1. What is most important for good service in a small company?
+@OPT
+   ○ A) Having the newest shop instead of an older one
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest advertising budget
+_300
+@EX Warm-Up: Discussion - Combining Marketing and Service
+@INSTR Discuss why marketing and customer service work better together.
+_80
+@BULLET
+How can a marketing plan and a service standard support each other?
+_300
+@EX Warm-Up: Demand Factors Classification
+@INSTR Classify factors as Direct (product), Intermediate (service and price), or Wider market issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct product factor
+2. Service and price factor
+3. Wider market factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The cloth shrinks after the first wash  ____________________________
+2. The order arrives two weeks after the promised date  ____________________________
+3. A competitor opens a factory in the same district  ____________________________
+4. The packaging tears in transport  ____________________________
+5. The price is twenty per cent above the nearest alternative  ____________________________
+6. Customers have less money to spend this season  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Market Levels Matching
+@INSTR Match market levels with the type of selling they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct sale
+2. | Wholesale
+3. | Retail
+4. | Export
+5. | Agency
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Selling in quantity to a trader who resells to shops
+b) | Selling from the factory straight to the person who will use the product
+c) | Appointing another company to sell on your behalf for a commission
+d) | Selling single items to the public in a shop or market
+e) | Selling to a buyer in another country, with customs and payment to arrange
+_300
+@EX Part 1: Service Standards a Company Can Set Table
+@INSTR Complete the table with service standards a company can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every enquiry answered within one working day | 
+Orders delivered complete on the promised date | 
+Every complaint answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the customer they are heard before they have to ask twice
+b)  Lets the shop plan its shelf and its own orders with confidence
+c)  Turns a disappointed customer into one who trusts the company more
+_100
+_300
+@EX Part 1: Marketing and Sales Terminology Fill-in
+@INSTR Complete sentences using marketing and sales vocabulary correctly.
+_80
+@GAP
+1. Marketing and service work together as ____________________ parts of one customer relationship.
+2. A ____________________ approach to selling considers the customer's whole experience, not one order.
+3. ____________________ customers are the particular group the product is made for.
+4. ____________________ means a customer buys again because the last order went well.
+_300
+@EX Part 1: Marketing Models - Fact Questions
+@INSTR Read about how marketing actually finds and keeps customers and answer detailed questions.
+_80
+@PANEL
+Marketing Systems and Service Support
+Most lost customers are avoidable through better service. Understanding why a customer left allows a company to keep the next one. However, keeping customers is complex. Staff must know what the customer expected, have the means to deliver it, and believe the effort is worth making.
+Market research teaches a company who its customers are. Knowing that most buyers are small shops is valuable knowledge. But knowledge alone does not make a sale. The company must also have a product those shops can afford to stock. Staff must believe an enquiry matters when the factory is busy. They must trust that a complaint will be acted on rather than hidden. Effective marketing addresses knowledge, means, and motivation.
+Service standards are the places where effort decides loyalty. Setting them focuses attention where it matters. A company with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the customer leaves.
+Sales staff bridge the gap between a plan and an order. A representative can visit a shop, hear what is selling, and bring an order back the same week. A distributor reaches towns the company could never visit itself. In Egypt, direct relationships have become vital for keeping goods moving when transport is difficult.
+Small shops and market traders reach much of the public. However, without support, a trader may store the product badly and blame the maker. Training traders extends the company's reputation beyond its own gate. Market research, service standards, sales visits and trained traders working together create far stronger demand than any single effort alone.
+Loyalty requires that customers eventually choose the company for themselves. This means earning a reputation rather than buying attention. It means setting promises the company can actually keep. It means building on the relationships a business already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your customers are not enough to make a sale?
+2. What role do sales representatives play in marketing?
+_300
+@EX Part 1: Discussion - Integrated Marketing Models
+@INSTR Discuss how combining marketing and service benefits a producer more than separate approaches.
+_80
+@BULLET
+How have you seen a marketing effort and good service work together in your own experience?
+_300
+@EX Part 1: Listening - Sales Representative Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a marketing manager and a representative describing their integrated approach.
+_80
+@MCQ
+1. What problems did the manager identify that affected sales?
+@OPT
+   ○ A) No problems affected sales
+   ○ B) Late deliveries, a price list nobody had updated, and no record of complaints
+   ○ C) The plan never affects sales
+@MCQ
+2. Why did the advertising fail before service was improved?
+@OPT
+   ○ A) Advertising never works
+   ○ B) New customers came once and did not return, so the spending was wasted
+   ○ C) Advertising always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in marketing and service work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive shops and advertising
+   ○ B) Promises the company can keep, answered quickly and put right when they fail
+   ○ C) A large modern office
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and loyalty.
+_80
+@NUM
+1. Repeat orders ____________________ (depend) promises that are actually kept.
+2. Marketing works best ____________________ (integrated) the service the customer receives.
+3. Good service and fair pricing both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in Customer Loyalty
+@INSTR Complete the table with cause-and-effect relationships in marketing and service.
+_80
+@GRID
+Cause | Effect
+The order arrived complete and on the promised date | 
+A complaint was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The customer placed a second, larger order
+b)  The customer told two other shops about the company
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of marketing and service work.
+_80
+@GAP
+1. We visit the shops monthly ____________________ learn what is actually selling.
+2. We train the traders ____________________ the product is stored and displayed properly.
+3. This price list was revised ____________________ set a price the market can actually pay.
+4. Sales visits and complaint records are combined ____________________ one picture of the customer.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot advertise widely, a visited customer remembers us.
+2. Training the traders ____________________ (overcomes) the gap between the factory and the shop.
+3. Integrated marketing ____________________ (addresses) both the immediate sale and long-term loyalty.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to managers discussing how to ensure quality in marketing and service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have a product that works, a price the market can pay, and delivery we can rely on. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust a company whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the shop. What we think is good service might not match what the shopkeeper experiences. We hold regular visits with the traders. They tell us that a delivery arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in marketing and service work?
+2. Why is listening to the shopkeeper important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and loyalty.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects loyalty?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Selling
+@INSTR Before listening, discuss barriers preventing producers from reaching customers.
+_80
+@BULLET
+What barriers prevent small producers from reaching the customers who would buy from them?
+_300
+@EX Part 3: Listening - Overcoming Selling Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to managers discussing how they overcome barriers to selling.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Our representatives could not reach the smaller towns often enough to matter. So we brought the selling closer. We appointed one trusted trader in each town and supplied them on agreed terms. For the larger accounts, we kept our own representative visiting monthly. This reduced the distance barrier immediately. Orders improved dramatically once a local name stood behind the product.
+^Manager: Cost was our barrier. Shops wanted our goods but could not afford a full pallet. We discovered that a smaller pack worked better than a lower price. We offered half-pallets and a shorter credit period. We charged the large wholesalers the full rate, which helped carry the small shops. This mixed approach kept the shelves full and kept the margin intact.
+_200
+@QUESTION
+1. How did the managers address the distance barrier?
+2. What selling approach did the managers find most effective?
+_300
+@EX Part 3: True/False - Marketing and Service Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Marketing and service work together to create demand. Advertising alone can keep a customer who received a late delivery. Good managers set promises the company can actually keep. Training traders extends a company's reputation beyond its own gate. Market research tells a company who its customers are but not whether they will buy. A complaint answered quickly often produces a more loyal customer than no complaint at all. Price alone decides every purchase in every market.
+@NUM 100
+1. Advertising alone can keep a customer who received a late delivery.
+2. Training traders extends a company's reputation beyond its gate.
+3. A complaint answered quickly can produce a more loyal customer.
+_300
+@EX Part 3: Listening - Integrating Marketing and Service
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to managers discussing how they combined a marketing plan and a service standard successfully.
+_80
+@MCQ
+1. How did the managers clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what sales owns and what despatch owns, with one shared record
+   ○ C) Clear roles are not necessary in marketing
+@MCQ
+2. What did the managers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in marketing cannot be resolved
+_300
+@EX Part 3: Listening - Customer Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as customers describe how better marketing and service changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My shop used to order from this factory and sometimes the delivery came a week late with no warning. The company began telephoning the day before and telling us what was actually coming. After that, I could plan my shelf and my own orders. Coordinating the plan and the despatch solved a problem nobody had seen before. Now I order from them with confidence.
+^Manager: The shop now receives a note with each delivery. It lists what was sent and what is short. When I asked about a missing line, the salesman showed me the record and sent it the next week. What the office does actually reaches the shop and changes what we can rely on. Before, the plan and the delivery were separate and nothing connected. Now it all connects. My customers are better served.
+_200
+@QUESTION
+1. What problem was damaging the shop's planning before the change?
+2. How did the delivery note affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether a company gives good service.
+_80
+@BULLET
+What signs indicate that a company is giving its customers reliable service?
+_300
+@EX Part 4: Reading - Customer-First Selling Philosophy
+@INSTR Read about customer-first selling and answer detailed questions.
+_80
+@PANEL
+Customer-First Selling: Foundation for Lasting Demand
+Customer-first selling is an approach emphasizing the relationship, the promise kept, and the local reputation. It differs from a model that spends on advertising and hopes the orders follow. Customer-first selling builds steady demand, where a problem is settled the same week through simple standards close to the customer.
+Customer-first selling serves as the foundation of a sales system. Instead of every order being won again from nothing, most routine demand comes from customers who already trust the company. Only new markets need the cost of finding customers. This keeps costs lower and revenue steadier. In Egypt, where advertising reaches few buyers directly, trade relationships became vital.
+Prevention is central to the philosophy. Keeping a customer through a reliable delivery costs much less than winning a new one. A telephone call before a late delivery costs less than a lost account. A clear price list costs less than an argument at the gate. Customer-first selling emphasizes these cost-effective measures.
+Customer-first selling requires the whole company. Sales staff alone cannot create loyalty. Despatch must load the right goods. Production must make what was promised. Finance must invoice correctly and allow sensible credit. Everyone must act on a complaint rather than wait for sales to insist. This approach views the customer as everyone's responsibility, not the sales department's problem.
+Customer-first selling requires coordination among functions. Selling cannot improve without production making what was sold. Sales cannot work if finance refuses every credit line. Good demand requires production, finance, despatch and sales all working to one plan.
+Customer-first selling requires strong management and continuous learning. Representatives must be trained, supervised, and supported. Companies must review whether the promises still hold. Companies must learn from a lost customer and adjust. Weak management produces slogans nobody believes. Strong management produces customers who return.
+Customer-first selling creates durable demand because it builds local reputation. A company whose name is trusted in a town sells there for decades. A company that depends entirely on price loses the customer the moment someone is cheaper.
+@NUM 100
+1. How does customer-first selling prevent problems instead of only reacting to them?
+2. What functions must coordinate for customer-first selling to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. A new shop front alone is insufficient if the delivery is always late. A friendly salesman alone is insufficient if the invoice is always wrong. Quality requires coordination of many factors: a product that works, a price the market can pay, reliable delivery, correct invoicing, a quick answer, and a settled complaint.
+Staff competence is the most important factor in service quality. A skilled representative keeps a customer with modest resources. A poorly trained one loses a customer the company spent years winning. Investment in training and supervision creates stronger impact than investment in advertising. In resource-limited companies, staff competence determines everything.
+Promises must suit what the company can actually do. A standard taken from a competitor and never tested in your own despatch fails quietly. Testing shows the promise works with your transport, your stock, and your staff. Standards respecting local conditions produce service that holds.
+Traceable orders mean every delivery can be followed back to what was agreed. Orders are confirmed in writing, deliveries are signed for, and shortages are recorded. Without traceability, a dispute becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the customer actually said, a problem can be found and fixed. If complaints are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+Customer feedback should confirm that the company's view matches the customer's. An internal report shows activity but not satisfaction. Asking the customer directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Egypt's service challenges stem from transport and currency. Fuel is costly, roads are crowded, prices move between quotation and delivery, and credit is scarce. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest shop front
+   ○ B) Staff competence and training
+   ○ C) Advertising spend alone
+@MCQ
+2. Why is traceability of orders important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a dispute becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether marketing and service are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between sales and despatch | 
+Complaints answered while the customer still has the goods | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the customer rather than to close a file
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated marketing and service systems serve every customer fairly regardless of order size. Service standards kept by trained staff lead to more loyalty than advertising alone. A late delivery is acceptable if the product is good. Staff competence is more important to service than the size of the advertising budget. Separate sales and despatch functions are always more efficient than integrated ones. A small company cannot achieve service comparable to a large one for routine orders. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every customer fairly?
+2. Is a late delivery acceptable if the product is good?
+3. Are separate sales and despatch functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a marketing plan and a service standard integrated from the start.
+_80
+@BULLET
+If you were designing marketing and service together for an Egyptian company, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Marketing and Service
+@INSTR Prepare a presentation on effective marketing and service integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated marketing and service systems.
+_300
+@EX Part 5: RolePlay - Coordinating Sales and Despatch
+@INSTR Roleplay coordinating sales and despatch when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Customer Service
+@INSTR Discuss how better service could transform a local producer.
+_80
+@BULLET
+How would integrated marketing and service transform a producer like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in customer service to the company's owners.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Marketing and Service Plan
+@INSTR Write a brief plan for integrating a marketing effort with a service standard.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating sales and despatch and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Customers
+@INSTR Write about how better marketing and service changed what customers receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for Trusted Products
+@INSTR Write about your vision for producers whose selling and service develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Trade and Service in Egyptian Perspective
+@INSTR Read about Egyptian values supporting integrated marketing and service work.
+_80
+@PANEL
+Egyptian Values Supporting Trade and Service
+Egyptian traditions provide a strong foundation supporting integrated marketing and service. Understanding them helps design culturally appropriate systems gaining workforce and customer support.
+The idea of "amanah" or trust held on behalf of others is central to Egyptian practice. Goods sold to another person are a trust, and the one who sells them answers for them. Buying and selling are understood as duties: those who know a defect are expected to declare it, and those who take money are expected to deliver. Service in Egyptian tradition is a moral obligation, not only a commercial calculation. Systems expressing that duty, with a named person answering for each order, gain stronger support.
+Egyptian teaching emphasizes the market as a shared responsibility. Merchants have long maintained their own standards through the souk, where a bad reputation travels faster than any advertisement, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the price, the goods, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as protecting a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The souk is the group whose members share a street, a reputation and a set of customers. Members are responsible for each other. If one trader cheats, the whole street's reputation suffers. If one salesman promises what cannot be delivered, every promise is weakened. An integrated system combines selling and service as a single shared responsibility.
+Women's role in trade is deep and increasingly recognized. Women hold detailed knowledge of what households buy, how products are used and what quality means in the home, and increasingly lead sales teams. Senior merchants emphasize that training women managers strengthens the whole company. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Egyptian craft ethics require high standards. Master craftspeople and merchants are trusted figures accountable to the souk and to the family name on the goods. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of trading with the same family for generations shows that everything is interconnected — price, quality, delivery, credit and reputation. This way of thinking naturally supports integrated systems. Separating the selling from the service fragments what a merchant experiences as one relationship. Integrated systems honour that unity.
+Aligning marketing and service with Egyptian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Egyptian tradition support service as a moral obligation?
+2. What traditional Egyptian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Systems
+@INSTR Discuss how to design marketing and service systems respecting local values and practices.
+_80
+@BULLET
+How can marketing and service systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Marketing and Service Concepts
+@INSTR Review Unit 7 by matching marketing and service concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Market research
+2. | Service level
+3. | Loyalty
+4. | Wholesale
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Finding out who buys, what they want and what they will pay
+b) | The agreed standard of delivery and response a customer can expect
+c) | A customer buying again because the last order went well
+d) | Selling in quantity to a trader who resells to shops
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are marketing and customer service closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Marketing wins a customer and service is what makes them stay
+   ○ C) Only advertising matters for sales
+@MCQ
+2. What is the primary advantage of integrating marketing and service?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Customers return, so each sale costs less than winning a new customer
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained local trader expand a company's reach?
+@OPT
+   ○ A) It reduces the company's reputation
+   ○ B) A local name stands behind the product in towns a representative cannot reach weekly
+   ○ C) Local traders are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Advertising has no effect on sales
+   ○ B) A skilled representative keeps a customer with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large companies
+_300

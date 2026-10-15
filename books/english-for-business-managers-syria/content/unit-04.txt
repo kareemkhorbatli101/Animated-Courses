@@ -1,0 +1,460 @@
+@UNITHEAD Unit 4: Costing, Pricing and Financial Records
+@PART Warm Up | Warm Up
+@EX Warm-Up: Costing Discussion
+@INSTR Discuss the skills that are important for working out what a product costs.
+_80
+@BULLET
+What skills do you think are important for someone who works out costs and sets prices?
+_300
+@EX Warm-Up: Matching Tasks to Financial Roles
+@INSTR Match financial roles with the key skills they need most.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Cost Clerk
+2. | Bookkeeper
+3. | Cost Accountant
+4. | Finance Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A systematic method so no material or hour is left out of the cost
+b) | Patience and consistency to enter every receipt and payment the same way
+c) | Judgement about which costs belong to a product and which belong to the whole firm
+d) | Judgement and coordination to decide what is measured, priced and reported
+_300
+@EX Warm-Up: Accuracy Multiple Choice
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What quality helps a manager produce figures others can rely on?
+@OPT
+   ○ A) Working as fast as possible
+   ○ B) Care with method and honest recording of what was actually spent
+   ○ C) Leaving out the costs that are hard to estimate
+_300
+@EX Warm-Up: Discussion - Personal Strengths
+@INSTR Discuss personal strengths that help people work with figures accurately.
+_80
+@BULLET
+What are your personal strengths and how could they help costing and record-keeping work?
+_300
+@EX Warm-Up: Financial Skills Classification
+@INSTR Classify skills and tools as Technical Skills or Tools.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Technical Skills
+2. Tools
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Working out the cost of one unit from the materials and hours used  ____________________________
+2. A spreadsheet holding the month's figures  ____________________________
+3. Deciding which overheads belong to which product  ____________________________
+4. The ledger in which every receipt and payment is entered  ____________________________
+5. Reading a profit and loss account and seeing what moved  ____________________________
+6. A pricing sheet showing the margin on each item  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Cost Types Matching
+@INSTR Match cost types with their descriptions and uses in practice.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct cost
+2. | Indirect cost
+3. | Fixed cost
+4. | Variable cost
+5. | Unit cost
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A cost that stays the same whether you make one unit or a thousand
+b) | A cost that can be traced straight to one product, such as its materials
+c) | The total cost of a batch divided by the number of units it produced
+d) | A cost that rises and falls with how much you make, such as packaging
+e) | A cost shared across everything the business does, such as the rent
+_300
+@EX Part 1: Pricing Conventions Table
+@INSTR Complete the table with conventions, their importance, and examples of use.
+_80
+@GRID
+Convention | Why It Matters | Example
+Cost-plus pricing |  | 
+Break-even point |  | 
+Margin |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  It guarantees the price covers what the item cost to make
+b)  Unit cost of 400 plus a stated margin of twenty-five per cent
+c)  It shows how many units must be sold before the fixed costs are covered
+d)  Fixed costs of 2,000,000 divided by the contribution per unit
+e)  It shows how much of each sale is left after the direct costs
+f)  Selling price minus direct cost, expressed as a percentage of the price
+_100
+_300
+@EX Part 1: Costing Terms Fill-in Blanks
+@INSTR Complete sentences using words about costing and records.
+_80
+@GAP
+1. A figure is only meaningful if every ____________________ has been included in it.
+2. A ____________________ cost rises and falls with the quantity produced.
+3. ____________________ is the difference between the selling price and the direct cost.
+4. ____________________ is essential when the same item is costed by different people.
+_300
+@EX Part 1: Costing Practice in Context - Fact Questions
+@INSTR Read about costing and record-keeping in practice and answer fact questions.
+_80
+@PANEL
+Managers need both arithmetic skills and method skills to cost a product well. Arithmetic skills are specific abilities like calculating a margin, a percentage and a break-even point. Method skills are conventions like which costs to include, how to spread an overhead, and when a figure is an estimate rather than a measurement.
+Allocation is particularly important. A unit cost describes a method, not a fact, so the method must be stated. Direct allocation charges a cost to the product that caused it. Rate allocation spreads an overhead by machine hours or labour hours. Judgement decides which of those is fairer for a given business.
+Reading figures helps managers understand what a number means. This skill prevents over-reaction to a single bad month and catches a genuine decline early. Managers with strong reading of figures see a trend rather than a list of totals.
+Checking skills are valuable even for the most experienced staff. Accountants reconcile the ledger with the bank statement. Managers re-cost a product they have already priced. Checking means catching the error in the office rather than in the market.
+All these skills can be learned and improved through practice and training. Companies invest in staff development because accurate costing prevents losses.
+@NUM 100
+1. What is the difference between arithmetic skills and method skills?
+2. Why is allocation important in costing work?
+_300
+@EX Part 1: Discussion - Skills for Accuracy
+@INSTR Discuss how different skills contribute to accurate figures.
+_80
+@BULLET
+Think of a skill you have or want to develop. How would it help in costing and pricing work?
+_300
+@EX Part 1: Listening - Costing Skills in Action
+@AUDIO 🔊 Audio Track 4.11
+@INSTR Listen to managers describing the skills they use and answer questions.
+_80
+@MCQ
+1. What skills does the cost accountant emphasize?
+@OPT
+   ○ A) Only arithmetic
+   ○ B) Method, patience, and honest recording
+   ○ C) Only speaking to customers
+@MCQ
+2. What does the finance manager say is most important?
+@OPT
+   ○ A) Working alone without the production team
+   ○ B) Integrity, so the figures can be relied on
+   ○ C) Producing the longest possible report
+_300
+@EX Part 1: Summary - Core Skills for Reliable Figures
+@INSTR Choose the best explanation for successful costing and record-keeping work.
+_80
+@MCQ
+1. What combination is most important for costing work?
+@OPT
+   ○ A) Only arithmetic matters
+   ○ B) Only neat records without a sound method
+   ○ C) Arithmetic plus a stated method and careful checking
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Modal Verbs About Ability and Necessity
+@INSTR Complete sentences with appropriate modal verbs about costing work.
+_80
+@NUM
+1. Cost clerks ____________________ (record) every hour at the time it is worked.
+2. All costing staff ____________________ (state) which costs the figure includes.
+3. These conventions ____________________ (learn) through training and practice.
+_300
+@EX Part 2: Adjectives Describing Skills and Qualities
+@INSTR Complete the table with adjectives that describe managers and their financial work.
+_80
+@GRID
+Quality/Skill Noun | Descriptive Adjective (How would you describe someone with this?)
+Accuracy | 
+Patience | 
+Method | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Accurate
+b)  Patient
+c)  Methodical
+_100
+_300
+@EX Part 2: Describing Requirements with Gerunds
+@INSTR Complete sentences about costing work using gerunds (-ing form).
+_80
+@GAP
+1. ____________________ the ledger against the bank prevents a whole month of wrong figures.
+2. ____________________ under time pressure requires extra care and a second look.
+3. ____________________ the same method across products keeps the figures comparable.
+4. ____________________ from a loss-making order teaches managers to cost earlier.
+_300
+@EX Part 2: Comparative Adjectives About Costing
+@INSTR Complete sentences comparing financial qualities using comparative forms.
+_80
+@NUM
+1. A stated method is ____________________ (useful) than a precise figure nobody can explain.
+2. Managers with longer experience are usually ____________________ (quick) to spot a wrong cost.
+3. Monthly accounts are ____________________ (reliable) than accounts prepared once a year.
+_300
+@EX Part 2: Listening - Grammar in Context About Costing
+@AUDIO 🔊 Audio Track 4.17
+@INSTR Listen to a trainer talking about developing financial skills and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: When we train new managers, we focus on developing both arithmetic and method skills. A good cost clerk must know how to calculate a margin, but must also record the figure in a way others can follow. A good manager must cost accurately, but must also understand what the number will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from a loss-making order is more valuable than never taking responsibility for a price. We want our staff to be confident enough to sign their figures even when the month is busy.
+_200
+@QUESTION
+1. What two types of skills must managers develop?
+2. How do staff develop accuracy according to the trainer?
+_300
+@EX Part 2: Grammar Review - Skills and Qualities
+@INSTR Discuss how to talk about skills and qualities in English.
+_80
+@BULLET
+Explain the difference between "I can calculate a margin" and "I am accurate" in terms of skills.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office and Floor Roles
+@INSTR Before listening, discuss what different staff do and the skills they need.
+_80
+@BULLET
+What skills would a cost clerk, a bookkeeper, and a finance manager need?
+_300
+@EX Part 3: Listening - Different Perspectives on Financial Skills
+@AUDIO 🔊 Audio Track 4.20
+@INSTR Listen to people from different roles discuss skills needed in their work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: As a cost accountant, I must combine careful arithmetic with judgement. I follow the method exactly, but I also decide when a figure looks wrong and must be recalculated. Many jobs use more material than the standard allows. I re-cost one product every week so I know how far my standards have drifted. This requires arithmetic and honest recording.
+^Manager: As finance manager, I coordinate many figures and reports. I must have organizational skills to manage the month-end and the audit. I must have leadership to refuse a price that loses money when sales are waiting. I need problem-solving abilities when the ledger contradicts the store records. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Costing on the factory floor requires very different skills than office work. I must build trust with the supervisors over weeks so they tell me what was really used. I can never be rushed—a figure taken badly is worse than no figure. I need flexibility because every job runs differently. I must be humble enough to learn the process from the people doing it. This is how we produce costs nobody disputes.
+_200
+@QUESTION
+1. What does the cost accountant combine in her work?
+2. Why does the third speaker emphasize building trust with supervisors?
+_300
+@EX Part 3: True/False - Financial Skills and Development
+@INSTR Read statements about financial skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Managers require well-developed arithmetic to cost products accurately. Costing ability improves with practice and feedback. Some managers are born naturally methodical while others must develop method through experience. Companies invest heavily in training new staff because proper training saves money and prevents losses. Arithmetic skills are essential but insufficient without a stated method and record discipline. Reconciling the ledger is wasteful and inappropriate for accountants who should trust their first entry. Humility and lifelong learning are valued traits in effective managers.
+@NUM 100
+1. Managers need strong arithmetic skills.
+2. Reconciling the ledger is inappropriate for accountants.
+3. Humility is valued in effective managers.
+_300
+@EX Part 3: Listening - Developing Skills Through Experience
+@AUDIO 🔊 Audio Track 4.22
+@INSTR Listen to a trainer describing how staff develop skills on the job.
+_80
+@MCQ
+1. Where does the trainer say managers develop their best skills?
+@OPT
+   ○ A) Only in lecture rooms
+   ○ B) On the job, by costing real orders and seeing the result
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+2. What does the trainer say staff need while they learn?
+@OPT
+   ○ A) To be left alone until they are expert
+   ○ B) Checking and mentoring so an error is caught on paper
+   ○ C) Longer working hours
+_300
+@EX Part 3: Listening - Personal Stories About Developing Skills
+@AUDIO 🔊 Audio Track 4.23
+@INSTR Listen to managers describing how they developed their skills.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: I came to management from mathematics teaching with plenty of theory but no idea about factories. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to cost a job when the material was mixed, when the hours were not recorded, when we had no standard at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good bookkeeper in a trading office, but manufacturing was different. In trading, every cost arrived on an invoice. In a factory, I had to find the cost myself in hours and waste nobody had written down. I learned to be systematic and accept that perfect figures were impossible. I learned that a stated estimate serves the owners better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200
+@QUESTION
+1. What helped the first manager develop skills in a factory?
+2. What was the bigger lesson the bookkeeper learned in manufacturing?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Your Gifts for Figures
+@INSTR Discuss what gifts and strengths you have that could help in financial work.
+_80
+@BULLET
+What do you do well that could help cost a product accurately?
+_300
+@EX Part 4: Reading - Financial Competency Framework
+@INSTR Read about a comprehensive competency framework for financial work and answer questions.
+_80
+@PANEL
+Understanding Costing and Record-Keeping Competencies
+Effective managers require competencies in five areas: Arithmetic, Costing Method, Reading Figures, Business and Process Knowledge, and Record Discipline.
+Arithmetic is the foundation. A cost clerk must handle percentages, averages and ratios. A manager must calculate a margin and a break-even point. A finance manager must understand what a ratio can and cannot show. This knowledge forms the base but is not enough alone.
+Costing method includes which costs to include, how to spread an overhead, and when to state that a figure is an estimate. Managers must produce a cost that represents the product and explain the method behind it. A precise figure built on the wrong method tells you nothing at all.
+Reading figures is valuable at all levels. Even a junior clerk must know the difference between normal variation and a genuine decline. Strong reading of figures prevents both panic and complacency.
+Business and process knowledge means understanding how the product is actually made and sold. Managers in Syria must understand weaving, cutting and finishing, food processing, and the real cost of transport under difficult conditions. Staff with this knowledge know which costs matter and which do not.
+Record discipline means writing the figure at the time, in ink, signed and dated. Staff who complete records later create evidence nobody can rely on. Good discipline includes recording what was estimated as well as what was measured.
+These five competencies work together. Strong records improve the reading of figures. Process knowledge improves costing method. Together, they create highly effective managers.
+@NUM 100
+1. What are the five competency areas for costing and record-keeping work?
+2. Why is record discipline important for managers?
+_300
+@EX Part 4: Text - Qualities That Transform Financial Work
+@INSTR Read about character qualities that make business figures trustworthy.
+_80
+@PASSAGE
+Beyond skills and competencies, certain character qualities transform financial work from routine arithmetic into real professional service. Humility allows staff to learn from the business and admit when a figure is wrong. Humble managers recalculate rather than defend.
+Courage enables staff to report what they found and to refuse a price. Courageous managers in Syria report a loss when the owners were expecting a profit. They face the pressure and record the truth anyway so the problem can be corrected.
+Patience helps staff maintain care through the hundredth entry of a month. Without patience, figures become careless and the accounts cannot be trusted. With patience, staff keep the same standard from the first entry to the last.
+Integrity ensures staff remain honest about what they measured and what they estimated even when deadlines are short. Staff with integrity mark an estimated figure as estimated. They refuse to let a month-end justify a number that misleads.
+Care—genuine concern for the people the business employs and serves—connects all these qualities. Staff who truly care about the company find meaning in the detail and persist through tedium. Care transforms accounting from arithmetic into responsibility.
+These qualities cannot be taught in classrooms; they must be developed within each person through reflection, experience, and commitment.
+@MCQ
+1. Which quality helps staff learn from the business itself?
+@OPT
+   ○ A) Confidence that the first figure is correct
+   ○ B) Humility that leads them to recalculate
+   ○ C) Avoiding difficult costs
+@MCQ
+2. What does the text say about character qualities in financial work?
+@OPT
+   ○ A) They are not important for effective work
+   ○ B) They transform arithmetic into professional responsibility
+   ○ C) Only arithmetic skills matter
+_300
+@EX Part 4: Application - Skills for Different Situations
+@INSTR Read scenarios and fill in which key skills are most important.
+_80
+@GRID
+Financial Situation | Most Important Skill
+Costing 1,000 garments for an export order in two days | 
+Investigating why one product lost money all year | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Method and systematic organization
+b)  Judgement and careful reading of figures
+_100
+_300
+@EX Part 4: True/False - Financial Skills Development
+@INSTR Read statements about financial skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Managers require well-developed reading of figures to price products correctly. Pricing ability improves with practice and feedback. Some staff are born naturally methodical while others must develop method through experience. Companies invest heavily in training new staff because proper training saves money and prevents losses. Arithmetic is essential but insufficient without a stated method and record discipline. Reconciling the ledger is wasteful and inappropriate for staff who should trust their first entry. Humility and lifelong learning are valued traits in effective managers.
+@NUM 100
+1. Managers need strong reading of figures.
+2. Reconciling the ledger is inappropriate for staff.
+3. Humility is valued in effective managers.
+_300
+@EX Part 4: Discussion - Building Your Skills
+@INSTR Discuss how you would develop skills for future financial work.
+_80
+@BULLET
+Which financial skills do you most need to develop, and how would you develop them?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Essential Skills for Financial Work
+@INSTR Prepare a presentation about the most important skills for reliable figures.
+_80
+@NUM 100
+1. Present the arithmetic, method and character skills that financial work requires.
+_300
+@EX Part 5: RolePlay - Job Interview for a Cost Accountant Position
+@INSTR Roleplay a job interview for a cost accountant position discussing your skills and qualities.
+_80
+_300
+@EX Part 5: Discussion - Developing Skills for Accuracy
+@INSTR Discuss how to develop skills and qualities for accurate figures.
+_80
+@BULLET
+How can a manager develop arithmetic, method and the reading of figures over a career?
+_300
+@EX Part 5: RolePlay - Mentoring Conversation About Figures
+@INSTR Roleplay a mentor discussing skill development with a new cost clerk.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Skills Assessment
+@INSTR Write about your personal skills and how they could contribute to costing and pricing work.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - How a Skill Changed Your Work
+@INSTR Write about how developing a specific skill improved your accuracy or understanding.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Training Program for Financial Skills
+@INSTR Write a proposal for a training program to develop costing and record-keeping skills.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Building Your Professional Identity
+@INSTR Write a reflection on how you would develop yourself into a future finance manager.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Costing and Pricing Excellence in Syria
+@INSTR Read about exemplary financial management in Syria and answer detailed questions.
+_80
+@PANEL
+Syrian finance teams demonstrate exceptional judgement, skill, and commitment despite extreme difficulties. They work with a currency that can move between the order and the delivery, re-pricing in stages and recording every assumption. They cost products on lines that stop for power, holding the method steady despite interruption. They prepare accounts for thousands of transactions with help from trainees.
+Syrian managers understand local costs deeply. They know yarn prices, transport under difficult conditions, generator fuel and the real cost of holding stock as these behave in local circumstances. This knowledge helps them judge which costs matter for a price and which do not. They read the market, know the supply chain, and understand shortage because many have financed a shipment themselves.
+The commitment of Syrian finance teams is remarkable. Many work long hours for modest salaries or no overtime. Many face real pressure when an honest figure would lose an order. Many have rebuilt their own records yet continue reporting honestly. Their dedication demonstrates that careful accounting emerges from deep internal conviction—a personal relationship with the business and a commitment to protecting it.
+International partners often say that Syrian colleagues teach them what real resourcefulness looks like. The persistence, improvisation and commercial understanding of local managers inspires and humbles those with easier conditions. This partnership between international support and local knowledge produces the most reliable figures available.
+@NUM 100
+1. What challenges do Syrian finance teams face?
+2. Why is local cost knowledge valuable in pricing work?
+_300
+@EX Part 7: Discussion - Mutual Learning Between Managers
+@INSTR Discuss what international and local managers can learn from each other.
+_80
+@BULLET
+What can international and Syrian managers teach each other about costing under hardship?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 4 Summary - Skills and Qualities
+@INSTR Review Unit 4 by matching skills and qualities with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Arithmetic
+2. | Costing Method
+3. | Record Discipline
+4. | Integrity
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Handling percentages, averages and ratios correctly
+b) | Deciding which costs to include and how to spread an overhead
+c) | Writing the figure at the time, signed and dated
+d) | Marking an estimate as an estimate even when a deadline presses
+_300
+@EX Part 8: Integrated Assessment - Unit 4 Mastery
+@INSTR Demonstrate understanding of Unit 4. Choose the best answer.
+_80
+@MCQ
+1. What two types of skills must managers develop for costing work?
+@OPT
+   ○ A) Only arithmetic
+   ○ B) Arithmetic and method skills like allocation and recording
+   ○ C) Only salary negotiation skills
+@MCQ
+2. Why are character qualities like patience and integrity important in financial work?
+@OPT
+   ○ A) They increase salaries and benefits
+   ○ B) They turn arithmetic into professional responsibility others can rely on
+   ○ C) They are not really important
+@MCQ
+3. How do managers best develop practical costing skills?
+@OPT
+   ○ A) Only through classroom training
+   ○ B) Through costing real orders and seeing the consequences, with mentoring support
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+4. What is the value of Syrian managers in international partnerships?
+@OPT
+   ○ A) They require supervision and have limited expertise
+   ○ B) They bring local cost knowledge, resourcefulness, and real understanding of the market
+   ○ C) International partners do all the real work
+_300

@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: Business Advocacy and Professional Communication
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Business Advocacy Discussion
+@INSTR Discuss what business advocacy means and why managers take it on.
+_80
+@BULLET
+What is business advocacy and why do managers do it rather than just running their own company?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Employee Level
+2. | Company Level
+3. | Sector Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Trade agreements and the standards an export market will accept
+b) | Strengthening the trade association and the voice of a whole industry
+c) | Changing one employee's understanding and prospects at the bench
+d) | Changing national regulation, tax rules and customs procedure
+e) | Changing company-wide policies, budgets and the way decisions are taken
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for business work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve a manager's effectiveness?
+_300
+@EX Warm-Up: Working in Associations Discussion
+@INSTR Discuss why businesses work together in associations.
+_80
+@BULLET
+Why do companies form trade associations and chambers with others in their sector?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A survey showing 60% of workshops lost export orders to customs delay  ____________________________
+2. A short film of three owners describing the day the shipment was held  ____________________________
+3. Data showing districts with reliable power keep twice as many jobs  ____________________________
+4. Accounts from employees about the months their wages were late  ____________________________
+5. A cost study showing what each day of customs delay costs a shipment  ____________________________
+6. A newsletter with quotes from workers about pride in the product  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business Case
+2. | Trade Association
+3. | Evidence-Based Advocacy
+4. | Employee Voice
+5. | Mentoring
+6. | Chambers
+7. | Decision Authority
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Groups of companies in the same sector working toward common aims
+b) | Using factual data to convince decision-makers
+c) | Staff raising their own concerns directly to management
+d) | Organised effort to change the rules and conditions businesses work under
+e) | Helping a junior manager improve without taking over their decisions
+f) | Power to approve budgets and sign contracts, held by people and rules
+g) | Bodies connecting merchants in a city for representation and certification
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Business Policy
+3. | Policy Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using data to design and review the rules businesses work under
+b) | A senior official who understands the problem and will back the change
+c) | Solving problems by understanding how the parts are connected
+d) | Spreading one sector's proven rule across the whole economy
+e) | A rule that deliberately protects small firms when competition presses
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most business advocacy?
+@OPT
+   ○ A) To improve office efficiency and reduce paperwork
+   ○ B) To change rules and conditions so businesses can trade and employ people
+   ○ C) To replace government with the chamber of commerce
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for planning a business case.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning a business case?
+_300
+@EX Part 1: Rules-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about rules-based advocacy.
+_80
+@MCQ
+1. What is a "rules-based approach" to business advocacy?
+@OPT
+   ○ A) Arguing for a rule that applies to everyone rather than a favour for one firm
+   ○ B) Working only with officials without involving other companies
+   ○ C) Trading without asking what the rules require
+_300
+@EX Part 1: Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct Briefing
+2. | Media Engagement
+3. | Legal Appeal
+4. | Collective Action
+5. | Shop-Floor Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Employees sending suggestions and concerns to the management committee
+b) | Press coverage raising public awareness and expectation
+c) | Direct meetings with officials to present the evidence
+d) | Challenging a decision through the courts or an appeal board
+e) | Companies in a sector together asking for the same change
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A press briefing after a week of customs delays at the border  ____________________________
+2. Building a network of exporters across the whole sector  ____________________________
+3. A delegation to the ministry after a sudden rule change  ____________________________
+4. Developing policy champions inside the customs administration  ____________________________
+5. Releasing a study showing what delay costs the economy  ____________________________
+6. Creating a standing committee so firms have an ongoing voice  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Business Messages
+@INSTR Write persuasive business messages using strong language.
+_80
+@NUM 100
+1. Write messages to officials about reducing the time a shipment waits at customs.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyse the effect of a rule.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if the customs rule changed.
+_300
+@EX Part 2: Argument Structure for Business Briefs
+@INSTR Complete argumentative sentences for business briefs.
+_80
+@OPTLINE
+1. The evidence __________ that faster customs clearance increases export earnings. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Employee Concerns
+@INSTR Write statements reporting employees' concerns clearly.
+_80
+@NUM 100
+1. Write statements reporting the concerns raised by employees about the new shift pattern.
+_300
+@EX Part 2: Academic Language for Study Reports
+@INSTR Complete academic sentences for business study reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that reliable power increases employment. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Joint Documents
+@INSTR Write inclusive statements for joint business documents.
+_80
+@NUM 100
+1. Write statements that unite manufacturers, traders and exporters toward shared aims.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to an Employee's Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to a supervisor speaking about raising a concern with management.
+_80
+@QUESTION
+1. What change did the supervisor say resulted from the concern they raised?
+_300
+@EX Part 3: Listening to an Official's Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to an official discussing how a rule was changed.
+_80
+@MCQ
+1. According to the official, what most influenced the decision to change the rule?
+@OPT
+   ○ A) Pressure from one large company alone
+   ○ B) A combination of sector pressure, evidence that the change works, and what was administratively possible
+   ○ C) A request from one chamber with no evidence attached
+_300
+@EX Part 3: Listening to Association Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to business leaders describing how their association was formed.
+_80
+@QUESTION
+1. What were two main challenges the association faced when bringing companies together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to managers planning an advocacy campaign.
+_80
+@MCQ
+1. What did the managers identify as the most important first step in planning the campaign?
+@OPT
+   ○ A) Putting a notice in the newspaper at once
+   ○ B) Carrying out a stakeholder analysis to understand every view and influence
+   ○ C) Going straight to the minister with a list of demands
+_300
+@EX Part 3: Listening to Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to business leaders reflecting on a campaign's outcomes.
+_80
+@QUESTION
+1. How did the business leaders describe what made their campaign succeed and where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Campaigns that combine the involvement of many companies with evidence-based arguments are more effective than single-firm approaches. The companies affected must lead the effort for the change to hold. Officials respond to a combination of pressure and practicality—a business case must address what is administratively possible, not only what is ideal."
+            Is the following true, false, or not given? "Business advocacy works best when one large firm acts without involving others."
+_300
+@EX Part 4: Reading About Change Theories
+@INSTR Complete based on reading about how rules change.
+_80
+@NUM
+1. According to reading about how rules change, official decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when several actions at different levels reinforce one another. One new rule alone may change little, but when it is combined with training, better administration and a shift in attitude, the change holds by itself. Effective systems change requires coordinated action across companies and sectors. This explains why associations become essential for advocacy aimed at changing the system rather than solving one firm's problem."
+            Is the following statement true, false, or not given? "Systems change can be achieved by one company alone with no need for associations."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on reading material, what are two reasons why combining data with accounts from businesses is more effective than using either alone?
+_300
+@EX Part 4: Reading About Influence in a Sector
+@INSTR Read about where influence lies in a business sector.
+_80
+@NUM 100
+1. Read: "Understanding where influence lies is essential for effective advocacy. An influence analysis examines who holds the authority to decide, who shapes those decisions, who would gain from the change, who gains from the present arrangement, and how influence is spread among the parties. Different parties hold different sources of influence—formal authority (the ministry), money (the large firms), knowledge (the accountants and the lawyers), numbers (the small workshops), collective voice (the chamber). Effective advocacy identifies where influence lies, builds support among those who can be persuaded, brings the small firms together (influence through numbers), and creates new influence (evidence, press attention, a shared committee) where little existed before."
+            According to the text, can small workshops create influence through organising even if they hold no formal authority or money?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about measuring an advocacy campaign.
+_80
+@NUM
+1. What indicators show that a campaign is creating change at different levels (firm, sector, national policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Making the Case to Officials
+@INSTR Role-play a meeting advocating for a change in a regulation.
+_80
+_300
+@EX Part 5: Presentation - Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching a business campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "Clear the Border: Three Days, Not Three Weeks." Include: problem statement, evidence, who is affected, what change you are asking for, how companies can take part, timeline for the campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to business advocacy and ways to overcome them.
+_80
+@BULLET
+What are common barriers that business campaigns face and how can managers overcome them?
+_300
+@EX Part 5: Role Play - Asking Other Firms to Take Part
+@INSTR Role-play asking other companies to join a sector campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Campaign Strategy
+@INSTR Write a strategic plan for a business advocacy campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Policy Brief for Decision Makers
+@INSTR Write a brief advocating for a specific official decision.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Association Charter
+@INSTR Write a charter describing how association members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Messages for a Public Campaign
+@INSTR Write compelling messages for public awareness of a business issue.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Kenyan Values - Consultation
+@INSTR Connect Kenyan consultation principles to joint business work.
+_80
+@NUM 100
+1. In Kenyan practice, a baraza means matters are settled by consultation among those affected. How does this relate to trade associations and change led by the firms themselves?
+_300
+@EX Part 7: Kenyan Values - Justice
+@INSTR Discuss principles of justice in changing the rules businesses work under.
+_80
+@NUM 100
+1. In Kenyan civic tradition, haki means removing unfair treatment and securing each person's right. How does this principle relate to advocacy aimed at changing the rules?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business Advocacy
+2. | Trade Association
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | Employee Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Staff raising their own concerns directly to management
+b) | Groups of companies in a sector working toward common aims
+c) | Using evidence and data to convince decision-makers
+d) | Understanding how the parts of a problem are connected
+e) | Working to change the rules and conditions businesses work under
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes a business campaign most effective?
+@OPT
+   ○ A) The expertise of one large firm, with no involvement of others, is sufficient
+   ○ B) Leadership from the companies affected combined with evidence, a shared association, and steady engagement with officials
+   ○ C) An immediate change of rule with no need for sustained effort
+_300
+_-p

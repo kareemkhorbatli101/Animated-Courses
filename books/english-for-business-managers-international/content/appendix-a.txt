@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Business Management | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Management Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: Manager Interview Understanding
+@SPEECH
+~Manager: Hello, my name is Rana. I am the operations manager of a textile company in Hanoi called Sông Hồng Textiles. My department plans the weekly production, buys the yarn, and makes sure every order leaves on the agreed date.
+~Manager: We have supervisors, a planner and a storekeeper who meet every morning. We set the targets, check the output against them, and decide what to do when a machine stops. We also train the people who join us.
+~Manager: My department reports to the general manager and to the owners, who approve the budget each year. Students from the university also work with us as trainees. Our goal is simple - we want the company to be here in twenty years.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Management Work - True or False
+@SPEECH
+^Operations Manager: There are many kinds of management work in Vietnam. Some managers run production, others run sales, and many look after purchasing and logistics. The national business register records every company that trades.
+^Operations Manager: Production managers plan shifts, output and maintenance. Finance managers prepare budgets and watch the cash. Sales managers set prices with the owners, visit customers and chase payment when an invoice falls due.
+^Operations Manager: International buyers also audit Vietnamese suppliers. Together with local staff, they review thousands of orders every year. All managers share the same goal - to keep the business earning more than it spends.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Business Aims and Goals Understanding
+@SPEECH
+~Operations Manager: Our production department works to deliver every order on the agreed date. We plan the week, watch the output hour by hour, and move people when a machine stops.
+^Finance Manager: My department looks after the money. We prepare the budget, pay the suppliers and collect from the customers. We teach the team that cash in the bank matters more than a large order nobody has paid for.
+~Manager: We are the sales section. We believe a promise kept is worth more than a low price. We agree the price, the quantity and the date, and we tell the customer early when something changes.
+^All Managers: All of us report to the owners. We work to the budget approved each year and to the orders our customers have placed. We have trainees from the university who help us every day. This is why the company keeps going.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Management Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: Management Careers and Roles | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Management Job Descriptions
+@SPEECH
+~Narrator: A production manager works on the factory floor. The manager plans the week's output, watches the cost of each unit, and solves problems as they appear.
+~Narrator: A finance manager in a company prepares the budget and the accounts. The manager watches the cash, pays the suppliers, and reports the result to the owners.
+~Narrator: A general manager leads the whole company. The general manager agrees the plan with the owners, sets the departments their targets, and answers for the result.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in management?
+^Manager: I have worked in management for eight years. I started as a shift supervisor and became a production manager after three years.
+~Interviewer: What sectors have you worked in?
+^Manager: I have worked in textiles, food processing, and furniture. I have planned output for factories of very different sizes.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with a General Manager
+@SPEECH
+~Interviewer: Tell us about your work here.
+~Coordinator: I am the general manager. I agree the plan with the owners, set the departments their targets, and answer for the result. I have worked here for four years. Every day is different. Some days I am with customers and other days on the floor.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the currency. A price quoted in March may not cover the cost in June, and some inputs cannot be obtained at all. We must be resourceful and quote only what we can hold. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many companies run training programmes for new managers. These programmes teach graduates what university does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in budgeting, planning, and leading a team. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Management Challenges
+@SPEECH
+^Speaker1: Working in a management team is very challenging. We have limited credit, which means we cannot employ enough staff. Sometimes one supervisor covers two shifts alone.
+~Speaker2: I agree. We also struggle with transport. Many customers are far away, and we have only two vehicles for the whole company, so deliveries have to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as a supervisor. Have you thought about training toward a production manager position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, budgeting, and communication ability. We can provide training through our own mentoring and department rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility.
+_200d
+@H2 Unit 3: Company Law, Governance and Compliance | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Legal Vocabulary in Action
+@SPEECH
+^Worker1: When the complaint arrived, we immediately pulled the file. We started with the contract and the delivery notes, checking what had actually been agreed order by order.
+~Worker2: The older deliveries were extremely difficult. Many had been sent before the contract was signed and carried no written terms at all. Our priority was to agree terms in writing for everything still open.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a breach is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the licence may be suspended.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the records first. Should we also involve the lawyer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Investigation Process
+@SPEECH
+^Coordinator: When a loss is found, we immediately start gathering information. We interview the people who handled the stock and record what they say. We examine the delivery notes and the store records. We check whether the approvals were given and by whom. We review the counts to confirm what is actually missing. We identify whether other stores are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the store and informing the owners. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the loss is settled. The findings are shared with finance and purchasing to avoid repetition and ensure the whole cause is addressed.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Compliance Challenges
+@SPEECH
+~Reviewer: Compliance for an older company presents extreme challenges. We lack records for most of the earlier years. We discover a gap only when an authority asks. Licences expire at different times through the year. Despite these obstacles, we do our best with the papers available. We prioritize the obligations that protect people. This is why an internal check before an inspection is essential.
+^LegalOfficer: The employment contract situation is critical. Staff were taken on for years with nothing in writing. This creates a high risk for the employee and for the company. We work quickly to issue a written contract to everyone. We train supervisors to keep the records the law requires. Without a contract, neither side can prove what was agreed.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Compliance Work
+@SPEECH
+~Field Officer: I came to this work because I wanted the company to be trusted. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a licence granted for the first time and a dispute avoided because a contract was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Costing, Pricing and Financial Records | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Costing Skills in Action
+@SPEECH
+~Worker1: I work as a cost clerk. I use method to record every material, hour and delivery in order. I must be patient because a long job takes weeks, and careful because one wrong hour changes the price of a whole order.
+^Worker2: As a finance manager, I need organization skills to manage the month-end and the audit at once. I also need judgement when the ledger contradicts the store records, and flexibility because every job here runs a little differently.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Costing
+@SPEECH
+^Manager: When we train new managers, we focus on developing both arithmetic and method skills. A good cost clerk must know how to calculate a margin, but must also record the figure in a way others can follow. A good manager must cost accurately, but must also understand what the number will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from a loss-making order is more valuable than never taking responsibility for a price. We want our staff to be confident enough to sign their figures even when the month is busy.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Financial Skills
+@SPEECH
+~Coordinator: As a cost accountant, I must combine careful arithmetic with judgement. I follow the method exactly, but I also decide when a figure looks wrong and must be recalculated. Many jobs use more material than the standard allows. I re-cost one product every week so I know how far my standards have drifted. This requires arithmetic and honest recording.
+^Manager: As finance manager, I coordinate many figures and reports. I must have organizational skills to manage the month-end and the audit. I must have leadership to refuse a price that loses money when sales are waiting. I need problem-solving abilities when the ledger contradicts the store records. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Costing on the factory floor requires very different skills than office work. I must build trust with the supervisors over weeks so they tell me what was really used. I can never be rushed—a figure taken badly is worse than no figure. I need flexibility because every job runs differently. I must be humble enough to learn the process from the people doing it. This is how we produce costs nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many managers develop their best skills not in lectures but on the job. A cost clerk learns judgement by seeing an order lose money, by watching one forgotten hour change a price, and by correcting a sheet nobody could follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New clerks work alongside experienced ones so an error is caught on paper rather than in the market.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Coordinator: I came to management from mathematics teaching with plenty of theory but no idea about factories. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to cost a job when the material was mixed, when the hours were not recorded, when we had no standard at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good bookkeeper in a trading office, but manufacturing was different. In trading, every cost arrived on an invoice. In a factory, I had to find the cost myself in hours and waste nobody had written down. I learned to be systematic and accept that perfect figures were impossible. I learned that a stated estimate serves the owners better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: The Planning and Budgeting Cycle | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Managers Explain Planning
+@SPEECH
+~Manager1: In my garment factory, we began by visiting the floor and asking the supervisors what the line could really produce in a week. We learned that the cutting room set the limit, not the machines everyone had been talking about.
+^Manager2: My food business required careful budgeting because credit was limited. I had to choose between a new oven and repairing three old ones. I chose the repair the staff could maintain themselves, using parts their own workshop could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Planning Discussion
+@SPEECH
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The owners must approve the objective before we build the budget" using modals. We explain "If we forecast carefully, the cash will not run out" using conditionals. We describe "The budget is reviewed by the owners" using passive voice to show the action.
+~Coordinator: We say "We visit the floor to understand the capacity" showing purpose. We explain order with words like "First we agree, then we budget, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to banks, to owners, and to our own staff team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Managers Explain Challenges
+@SPEECH
+^Manager: In my garment factory, I faced a challenge when trained cutters left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra cutters and cross-trained machinists so leaving staff would not stop production. The lesson was that a budget must include retention, not just wages.
+~Coordinator: My food business faced a currency problem. We had quoted a customer a price in March but the yarn arrived in June at a very different rate. The customer became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began holding a small stock of key inputs. Now I always build a currency assumption into every budget.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Planning
+@SPEECH
+~Operator: When the managers planned this year, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They walked every shift with us and changed the targets after we spoke.
+^Quality Supervisor: From my side, I have learned that agreeing the objective and holding the meetings takes much longer than owners expect. They want the budget in a week. But the time spent before the figures is what makes the plan achievable.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Planning Lessons Learned
+@SPEECH
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When owners, departments and suppliers all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into cancelled orders. Now I spend significant time ensuring all parties understand exactly what will be delivered, when, and at what price. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the supervisors and the customers before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200d
+@H2 Unit 6: Working with Customers and Suppliers | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Customers
+@SPEECH
+~Supplier: When the company came to us, they asked what we could realistically deliver for the cotton contract. They did not tell us what we would be signing. We chose which quantities we could hold and which dates we could meet, and we are proud of the result.
+^Supplier: A joint arrangement failed here before this one. The buyer decided everything without asking. They set a delivery date our transport could never meet and nobody checked whether it was possible. This time we were asked, and the contract holds.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When suppliers work with us, not only for us, the language changes. They use phrases like "together we agreed the date" instead of "we informed them." They use passive voice "our own schedule was taken into account" showing respect for our planning. They express appreciation "we value your long business" making us feel like partners.
+^Leader: Language reveals whether a supplier truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late delivery. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~Manager: From our side, we want to give customers the dates they ask for but we have a factory with limited capacity. We have other customers already in the schedule and inputs we cannot always obtain. So we must navigate between the customer's wishes, the factory's capacity, and what the cash allows. Good partnerships require honest conversations about these constraints. We have learned that customers accept a longer date when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the buying side, we want clarity and consistency. We understand suppliers have constraints of their own. We accept a longer date when it is stated in writing and then kept. What frustrates us is a date that moves after the order is confirmed. We want to be told early when something changes, not discover it from an empty truck. We want our own planning to count for something.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending certainty. When a customer asks a technical question about the cloth, I tell them I will check with production and come back with an answer.
+~Manager: I also learned to say "we cannot do that" clearly. Customers sometimes ask for a date the factory cannot meet. Saying so honestly, and offering the earliest date we can hold, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Manager: Building commercial partnerships is like building friendships. You cannot rush it. You must spend time understanding their business. You must visit when you do not need anything, not only when you want an order. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own schedule was wrong. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one order where delivery is easy to get right, such as a single small line. This builds confidence for larger business. Also, confirm the result in writing. Let the customer show our letter to their own management. This builds their internal case for buying from us again and motivates the next order.
+_200d
+@H2 Unit 7: Marketing, Sales and Customer Service | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Sales Representative Stories
+@SPEECH
+~Manager: When I started in sales, I realized the selling and the delivering are inseparable. Orders won from shops with late deliveries were lost again within a season. The advertising meant nothing because nobody came back a second time.
+^Analyst: I began a complaint record in my office. I wrote down what every shop actually said. But the company could not act on any of it because nobody owned the despatch. Once we gave despatch a named manager, the record finally changed what we did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Service Language
+@SPEECH
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have a product that works, a price the market can pay, and delivery we can rely on. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust a company whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the shop. What we think is good service might not match what the shopkeeper experiences. We hold regular visits with the traders. They tell us that a delivery arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Selling Barriers
+@SPEECH
+~Manager: We recognized that distance was our biggest barrier. Our representatives could not reach the smaller towns often enough to matter. So we brought the selling closer. We appointed one trusted trader in each town and supplied them on agreed terms. For the larger accounts, we kept our own representative visiting monthly. This reduced the distance barrier immediately. Orders improved dramatically once a local name stood behind the product.
+^Manager: Cost was our barrier. Shops wanted our goods but could not afford a full pallet. We discovered that a smaller pack worked better than a lower price. We offered half-pallets and a shorter credit period. We charged the large wholesalers the full rate, which helped carry the small shops. This mixed approach kept the shelves full and kept the margin intact.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Marketing and Service
+@SPEECH
+~Manager: Integration requires clear roles. We defined what sales owns and what despatch owns. Sales agrees the date with the customer, and despatch confirms it can be met before the order is accepted.
+~Manager: Integration also requires honest communication about problems. Sometimes an order was accepted when the factory was full. Sometimes despatch wanted a loading day the customer could not take. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and let the plan be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Customer Impact from Better Service
+@SPEECH
+~Manager: My shop used to order from this factory and sometimes the delivery came a week late with no warning. The company began telephoning the day before and telling us what was actually coming. After that, I could plan my shelf and my own orders. Coordinating the plan and the despatch solved a problem nobody had seen before. Now I order from them with confidence.
+^Manager: The shop now receives a note with each delivery. It lists what was sent and what is short. When I asked about a missing line, the salesman showed me the record and sent it the next week. What the office does actually reaches the shop and changes what we can rely on. Before, the plan and the delivery were separate and nothing connected. Now it all connects. My customers are better served.
+_200d
+@H2 Unit 8: Performance Measurement and Reporting | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Reporting Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Improvement Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Indicator Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Result Interpretation
+_200d
+@H2 Unit 9: Growth, Change and Scaling the Business | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Growth Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Supplier Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Management Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Cost of Growth Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: Business Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to an Employee's Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to an Official's Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Association Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Results Reflection
+_200d
