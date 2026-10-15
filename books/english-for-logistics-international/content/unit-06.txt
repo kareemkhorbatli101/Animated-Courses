@@ -1,0 +1,463 @@
+@UNITHEAD Unit 6: Working with Carriers and Suppliers
+@PART Warm Up | Warm Up
+@EX Warm-Up: Carrier Relationship Discussion
+@INSTR Discuss what makes working with carriers and suppliers successful.
+_80
+@BULLET
+What does it mean to work "with" a carrier rather than only "hire" a carrier?
+_300
+@EX Warm-Up: Stakeholder Roles Matching
+@INSTR Match stakeholder groups with their roles and interests in the supply chain.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Customer
+2. | Carrier
+3. | Driver
+4. | Shipper
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Wants goods that arrive complete, at a rate and on a day that were promised
+b) | Wants a clear booking, agreed rates, and payment when the invoice falls due
+c) | Wants the consignment delivered and the chain to keep earning its keep
+d) | Wants steady work, fair pay, and to be told the truth about the load
+_300
+@EX Warm-Up: Partnership Principles Multiple Choice
+@INSTR Read and choose the best answer about working with carriers.
+_80
+@MCQ
+1. What is most important for building trust with a carrier?
+@OPT
+   ○ A) Promising any rate the carrier asks for
+   ○ B) Consistent loading, honesty about problems, and following through on promises
+   ○ C) Using complicated commercial language
+_300
+@EX Warm-Up: Discussion - Conflict and Collaboration
+@INSTR Discuss how to handle conflicts between different parties in the supply chain.
+_80
+@BULLET
+What should you do when the customer, the depot, and the carrier want different things?
+_300
+@EX Warm-Up: Stakeholder Interests Classification
+@INSTR Classify interests as Primary (directly affected), Secondary (supporting), or Wider (indirect).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Primary interest
+2. Secondary interest
+3. Wider interest
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A customer who has paid in advance for a consignment  ____________________________
+2. The bank that issued the letter of credit  ____________________________
+3. The haulier that moves the finished goods  ____________________________
+4. A driver whose family depends on the monthly wage  ____________________________
+5. The district whose shops are supplied when the depot is busy  ____________________________
+6. The carrier whose own drivers depend on the booking  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Carrier and Supplier Terms Matching
+@INSTR Match key logistics terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Booking confirmation
+2. | Transit time
+3. | Payment terms
+4. | Service level
+5. | Account management
+_300
+@COLHEAD Column B
+@MATCHB
+a) | How long the shipper must wait between collection and delivery
+b) | A written instruction to carry stated goods at a stated rate and date
+c) | Looking after a carrier over years rather than load by load
+d) | The agreed standard of delivery and response the customer can expect
+e) | How long the shipper may take to pay, and what happens if they are late
+_300
+@EX Part 1: Building Trust with Carriers Table
+@INSTR Complete the table with ways logistics staff build trust with carriers.
+_80
+@GRID
+Trust-Building Action | Why It Works
+Confirming every booking in writing | 
+Telling a carrier early that a load will be late | 
+Loading one vehicle on time before asking for ten | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Both sides can see what was agreed, so a dispute has a fact to settle it
+b)  The carrier can re-plan the vehicle instead of waiting at a closed gate
+c)  A promise kept twice is worth more than a rate offered once
+_100
+_300
+@EX Part 1: Logistics Terms Fill-in
+@INSTR Complete sentences using logistics and partnership vocabulary.
+_80
+@GAP
+1. A true partnership is ____________________ with both parties having clear obligations.
+2. ____________________ communication means telling a carrier early when a load will be late.
+3. ____________________ means taking responsibility for what you have promised to deliver.
+4. ____________________ is helping a carrier improve rather than only replacing them.
+_300
+@EX Part 1: Carrier Work in Context - Fact Questions
+@INSTR Read about working with carriers and suppliers and answer detailed questions.
+_80
+@PANEL
+Building Strong Relationships with Carriers and Suppliers
+Effective logistics requires genuine partnership with the companies that carry and supply. Partnership means treating the other party as having obligations and interests of their own, not as a problem to be managed. It means they understand the terms, can meet them, and tell you when something changes.
+Partnership begins with a clear agreement. A carrier cannot meet a schedule nobody has written down. Staff must issue a booking that states the goods, the rate, the quantity and the date rather than a vague instruction. Many disputes come from terms that were never recorded.
+Trust is built through consistency. Carriers watch whether the same standard is applied to every load. Is a long wait explained when the carrier is large and ignored when they are small? Consistent treatment builds trust. One inconsistent decision teaches a carrier that the promise is negotiable.
+Transparency is essential. Carriers need to know early when a load will not be ready. Which booking? How late? What will be done? Transparent staff share the information. This lets the carrier re-plan rather than guess, and it prevents the suspicion that they were deliberately kept in the dark.
+Carrier development is better than replacement. Replacement finds a new carrier who makes new mistakes. Development raises the existing carrier's own standard so the problem stops happening. This might mean sharing a loading plan, training their drivers, or agreeing a joint trial.
+Feedback must flow both ways. A carrier who only ever hears about failures stops volunteering information. A carrier who hears when a delivery was good knows what to protect.
+Partnership requires time and patience. A quick switch to a cheaper carrier typically produces a new set of problems. Relationships built over years create a supply chain that holds when a road closes.
+@NUM 100
+1. What is the difference between replacing a carrier and developing a carrier?
+2. How long does trust typically take to build in logistics relationships?
+_300
+@EX Part 1: Discussion - Your Experience with Collaboration
+@INSTR Discuss times you worked collaboratively and what made it successful or difficult.
+_80
+@BULLET
+Describe a time when you collaborated successfully with others. What made it work?
+_300
+@EX Part 1: Listening - Partnership Stories from Customers
+@AUDIO 🔊 Audio Track 6.11
+@INSTR Listen to customers describing their experiences working with forwarders.
+_80
+@MCQ
+1. Why did the first customer stay with the forwarder?
+@OPT
+   ○ A) The forwarder was always the cheapest
+   ○ B) The forwarder told them early when a date would slip
+   ○ C) The forwarder never had any problems
+@MCQ
+2. Why did the earlier arrangement fail?
+@OPT
+   ○ A) The goods were poor
+   ○ B) Terms were never written down and nobody could prove what was agreed
+   ○ C) The customer moved away
+_300
+@EX Part 1: Partnership Summary - Multiple Choice
+@INSTR Choose the best explanation of partnership principles.
+_80
+@MCQ
+1. What is the relationship between carrier development and long-term reliability?
+@OPT
+   ○ A) They are unrelated
+   ○ B) Carriers whose own standards improve deliver acceptable service for longer
+   ○ C) Carriers should not be helped to improve
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Partnership with "Together" and "With"
+@INSTR Complete sentences using language that emphasizes cooperation and partnership.
+_80
+@NUM
+1. Shippers and carriers work ____________________ (together) to agree the terms.
+2. The loading plan was written ____________________ (collaboration) the carrier's own drivers.
+3. Partnership requires ____________________ (shared) obligations and mutual responsibility.
+_300
+@EX Part 2: Expressing Agreement and Disagreement
+@INSTR Complete the table with ways to express agreement and handle disagreement respectfully.
+_80
+@GRID
+Communication Goal | Respectful Language Example
+Express agreement supportively | 
+Express disagreement respectfully | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  That is a reasonable transit time and our schedule can support it
+b)  I understand your position but our fuel costs make that rate impossible
+_100
+_300
+@EX Part 2: Passive Voice for Shared Decisions
+@INSTR Complete sentences using passive voice to show shared responsibility.
+_80
+@GAP
+1. The delivery day ____________________ by the customer and the depot together.
+2. The carrier's own driver hours ____________________ when the schedule was revised.
+3. Responsibility for the joint trial ____________________ between both companies.
+4. The carrier's concerns ____________________ and addressed in the revised terms.
+_300
+@EX Part 2: Expressing Appreciation and Recognition
+@INSTR Complete sentences expressing gratitude and recognition for partnership contributions.
+_80
+@NUM
+1. We ____________________ (appreciate) the carrier's support during the fuel shortage.
+2. We ____________________ (recognize) of their effort to hold the rate for us.
+3. We are ____________________ (grateful) our partners' commitment to consistent service.
+_300
+@EX Part 2: Listening - Partnership Vocabulary in Use
+@AUDIO 🔊 Audio Track 6.17
+@INSTR Listen to a customer discussing partnership using specific language structures.
+_80
+@PLAYNOTE
+@SCRIPT
+^Leader: When forwarders work with us, not only for us, the language changes. They use phrases like "together we agreed the day" instead of "we informed them." They use passive voice "our own receiving hours were taken into account" showing respect for our planning. They express appreciation "we value your long business" making us feel like partners.
+^Leader: Language reveals whether a forwarder truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late arrival. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200
+@QUESTION
+1. How does language reflect whether logistics partnerships are genuine?
+2. What language do real partners use when they disagree?
+_300
+@EX Part 2: Grammar Review - Partnership Communication
+@INSTR Discuss how different grammatical choices reflect partnership values.
+_80
+@BULLET
+Compare "we will inform you of the day" versus "we will agree the day together." How do these change the relationship?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Challenges in Partnership
+@INSTR Before listening, discuss challenges that arise in logistics partnerships.
+_80
+@BULLET
+What barriers prevent forwarders and their carriers from developing genuine partnerships?
+_300
+@EX Part 3: Listening - Stakeholder Perspectives
+@AUDIO 🔊 Audio Track 6.20
+@INSTR Listen to different parties describing their perspectives on logistics partnerships.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: From our side, we want to give customers the days they ask for but we have a fleet with limited capacity. We have other customers already in the schedule and fuel we cannot always obtain. So we must navigate between the customer's wishes, the fleet's capacity, and what the rates allow. Good partnerships require honest conversations about these constraints. We have learned that customers accept a later day when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the receiving side, we want clarity and consistency. We understand carriers have constraints of their own. We accept a later day when it is stated in writing and then kept. What frustrates us is a day that moves after the booking is confirmed. We want to be told early when something changes, not discover it from an empty bay. We want our own planning to count for something.
+_200
+@QUESTION
+1. What does the manager say about managing conflicting demands?
+2. What does the customer value most in partnership?
+_300
+@EX Part 3: True/False - Partnership Principles
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Genuine partnership requires written terms and consistent treatment of every carrier. A carrier who hears only about failures stops volunteering information. Switching to a cheaper carrier always solves a service problem permanently. Trust is built through many small promises kept rather than one large gesture. Transparency about a delay allows the customer to plan around it. Staff should hide a problem until it is unavoidable so the customer is not worried. Developing a carrier raises their own standard so the fault stops recurring.
+@NUM 100
+1. Trust is built through many small promises kept.
+2. Switching to a cheaper carrier always solves a service problem.
+3. Staff should hide a problem until it is unavoidable.
+_300
+@EX Part 3: Listening - Honest Communication in Partnership
+@AUDIO 🔊 Audio Track 6.22
+@INSTR Listen to partners discussing how honesty and transparency work in practice.
+_80
+@MCQ
+1. How does admitting a delay early build trust?
+@OPT
+   ○ A) It shows weakness and incompetence
+   ○ B) It shows honesty and lets the customer plan rather than discover the delay late
+   ○ C) Customers lose confidence in honest forwarders
+@MCQ
+2. What does the manager recommend when a customer asks for an impossible rate?
+@OPT
+   ○ A) Ignore the request
+   ○ B) Agree to everything to keep the booking
+   ○ C) Say clearly why the rate cannot move but offer another way to help
+_300
+@EX Part 3: Listening - Building Partnerships Over Time
+@AUDIO 🔊 Audio Track 6.23
+@INSTR Listen to experienced logistics staff describing how relationships develop.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: Building logistics partnerships is like building friendships. You cannot rush it. You must spend time understanding their operation. You must visit when you do not need anything, not only when you want a vehicle. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own loading was late. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one booking where delivery is easy to get right, such as a single short run. This builds confidence for larger business. Also, confirm the result in writing. Let the carrier show our letter to their own management. This builds their internal case for working with us again and motivates the next booking.
+_200
+@QUESTION
+1. What does the first speaker compare partnership building to?
+2. What strategy does the second speaker recommend for building strong partnerships?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - What Makes Partnerships Work
+@INSTR Before reading, discuss what you think makes partnerships succeed.
+_80
+@BULLET
+Based on your experience, what do successful partnerships need to work well?
+_300
+@EX Part 4: Reading - Models of Carrier Engagement
+@INSTR Read about different approaches to engaging carriers and answer questions.
+_80
+@PANEL
+Models of Carrier Engagement in Logistics
+Companies use different models for working with carriers. The model chosen shapes whether the relationship actually lasts.
+The Spot Model: The company books whatever vehicle is cheapest today and moves on. The approach assumes the next vehicle will come from somewhere. Carriers are anonymous. This model is quick and keeps control with the shipper. However, the company never learns what the carrier actually needs, and the same failures keep arriving. When fuel is short, no carrier answers the telephone. The Spot Model is common but expensive.
+The Information Model: Carriers are told the terms and sent a confirmation of each booking. Carriers receive information but the company keeps all the decisions. This is better than pure spot buying but not genuine partnership. Carriers appreciate the information but may not be able to act on it. Some information is better than none but is incomplete.
+The Partnership Model: Company and carrier are both parties with obligations. Both bring different knowledge—the carrier knows the roads and the company knows its own volumes. Days and loading plans are agreed together. This model respects the carrier's planning and builds loyalty. It is slower because agreement takes longer. But the vehicles actually arrive and disputes become rare.
+The Co-Development Model: Carrier and company develop the service together. The carrier proposes changes, the company tests them, and both share the gain. The company provides volume and the carrier provides route knowledge. This model requires the company to share information it might prefer to keep. It creates the strongest relationship and the most reliable capacity. However, it requires trusting a carrier even when a competitor offers a lower rate.
+Experience shows that higher-level models (Partnership and Co-Development) produce more reliable capacity and fewer failed collections. However, they require patience and are harder to show in a quarterly report. Lower-level models (Spot and Information) show quick visible savings but leave the underlying problem untouched.
+@NUM 100
+1. What is the main difference between the Information Model and the Partnership Model?
+2. What does experience show about different engagement models and reliable capacity?
+_300
+@EX Part 4: Reading - Collaboration Across Departments
+@INSTR Read about how different departments work together effectively.
+_80
+@PASSAGE
+Cross-Functional Coordination
+Beyond working with carriers, effective logistics requires coordination inside the company. On most sites, sales, the depot, purchasing, finance and transport all affect whether a consignment arrives as promised. Coordination among them prevents the problem that nobody owns.
+Coordination challenges arise from conflicting measures. When sales is measured on orders taken and the depot on pallets shipped, each department protects its own figure instead of serving the customer. This can lead to a day being promised that transport never agreed. It can lead to gaps where nobody takes responsibility for a part-loaded order. Good coordination requires a shared measure that both departments can win on, usually orders delivered complete and on time.
+Effective cross-functional work requires clear roles. Sales owns the customer relationship, the depot owns the loading, purchasing owns the carrier contract, and finance owns the credit decision. Clear role definition prevents duplication and lets each function use its expertise fully. Regular meetings allow all functions to share information and solve problems together.
+Trust among departments is important. Just as customer trust comes from consistency, internal trust comes from reporting a problem early rather than hiding it until it is discovered. A dispatcher who conceals a missed collection will not be trusted with the next difficult route.
+Successful cross-functional teams in Brazil share scarce resources. Departments might share a delivery vehicle, combine a customs clearance, or coordinate a purchase of scarce fuel. This sharing stretches limited resources further and gets more done with each journey.
+Hierarchical structures where one strong function dominates can be efficient but risk silencing the driver who saw the real problem. More equal models where every function has a voice engage more knowledge and build stronger commitment. These models take more time but produce fewer surprises at the customer.
+@MCQ
+1. Why do departments sometimes protect their own figures instead of cooperating?
+@OPT
+   ○ A) Competition is always good for the customer
+   ○ B) Conflicting measures reward each department for defending its own number
+   ○ C) Cooperation is impossible between functions
+@MCQ
+2. What does a "shared measure" mean regarding cross-functional work?
+@OPT
+   ○ A) Having lots of meetings
+   ○ B) A measure both functions can win on, such as orders delivered complete and on time
+   ○ C) Only large companies can coordinate
+_300
+@EX Part 4: Application - Building Inclusive Partnerships
+@INSTR Read scenarios and fill in how to include often-excluded parties in logistics decisions.
+_80
+@GRID
+Excluded Group | How to Include in Logistics Decisions
+Drivers whose observations are rarely recorded | 
+Small carriers with no written terms of their own | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Add a comment field to the delivery note and act visibly on what they write
+b)  Offer a simple written booking, agree a day they can meet, and pay on time
+_100
+_300
+@EX Part 4: True/False - Cross-Functional Partnerships
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Competition between departments is beneficial for customers in all circumstances. Clear role definition between functions prevents duplication. Trust between departments comes from reporting problems early. Sharing resources between departments always reduces individual department effectiveness. Drivers should not take part in logistics decisions. Hierarchical structures are always more efficient than equal coordination. Building strong partnerships requires patience and investment in communication.
+@NUM 100
+1. Should functions have clearly defined roles to prevent duplication?
+2. Is internal trust built through reporting problems early?
+3. Should drivers be excluded from logistics decisions?
+_300
+@EX Part 4: Discussion - Creating Win-Win Partnerships
+@INSTR Discuss how partnerships can benefit all parties involved.
+_80
+@BULLET
+How can a logistics partnership be arranged so that every party genuinely gains from it?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building and Maintaining Partnerships
+@INSTR Prepare a presentation on how to develop and maintain successful carrier partnerships.
+_80
+@NUM 100
+1. Present the key principles and practices for building lasting partnerships in logistics.
+_300
+@EX Part 5: RolePlay - Managing a Late Delivery
+@INSTR Roleplay a difficult conversation where your consignment will be late and the customer is waiting.
+_80
+_300
+@EX Part 5: Discussion - Your Role in Creating Partnerships
+@INSTR Discuss how you would approach building partnerships in an operation you know.
+_80
+@BULLET
+How would you build strong partnerships if you ran the transport department of a local company?
+_300
+@EX Part 5: RolePlay - Explaining Your Approach to a Shipper
+@INSTR Roleplay presenting your carrier management approach to an export shipper.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Carriage Agreement Outline
+@INSTR Write an outline for a carriage agreement between a company and a carrier.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Partnership Learning
+@INSTR Write about what you learned from trying to develop a carrier relationship.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Handling a Partnership Problem
+@INSTR Write about a conflict with a carrier or another department and how you would address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Collaborative Logistics
+@INSTR Write about how you envision collaborative logistics transforming a supply chain.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Brazilian Values of Cooperation and Carriage
+@INSTR Read about how Brazilian cultural values support logistics partnerships and answer questions.
+_80
+@PANEL
+Brazilian Cultural Values Supporting Collaboration
+Brazilian commercial culture has deep traditions of trust, reputation and long relationships that align strongly with partnership approaches in logistics. Understanding and building on these foundations creates more effective and culturally appropriate carriage.
+The idea of "respeito" or respect is central to Brazilian culture. Respeito means being treated as a person and keeping personal standing. Partnership approaches honour respeito by explaining a delay with a reason rather than simply failing to arrive. A broken promise without explanation damages respeito, and a carrier who feels slighted will not answer you again. Genuine partnership respects respeito and fits commercial values.
+Brazilian carriage values the long relationship over the single load. A driver's reputation travels on the road and lasts for generations. Families have carried for the same merchants for decades. This means a Brazilian carrier responds strongly to being treated as a long-term partner and poorly to being treated as interchangeable. Approaches that chase the cheapest rate work badly. Approaches that invest in a relationship work well.
+Church and community teaching about honest dealing strengthens the partnership orientation. The tradition holds that a carrier must not conceal damage and must describe the load truthfully. If a shortage is known, it must be declared. Commercial terms that ask a carrier to disclose a problem resonate with this teaching. Carriers see honest declaration as living out their values, not as an admission of weakness.
+The tradition of the word given in the market supports written agreement backed by personal commitment. A contract signed by a named person carries weight beyond its clauses. Agreements structured with named signatories build on this cultural pattern.
+Brazilian hospitality shapes how a negotiation is conducted. A visiting shipper is welcomed and shown the yard. However, a guest is expected to respect the host's craft. A shipper who dismisses long road experience violates this expectation. Partnership requires respecting these cultural expectations.
+The importance of reputation provides powerful motivation. A carrier cares about standing among other carriers. A letter of thanks that names an improvement succeeds. A complaint that humiliates a driver in front of others creates barriers to any future cooperation.
+Building partnerships on these cultural foundations creates authentic collaboration aligned with how carriage is actually done rather than imported models.
+@NUM 100
+1. What does respeito mean and how does partnership honour this value?
+2. How does community teaching support working with carriers and suppliers?
+_300
+@EX Part 7: Discussion - Respecting Culture in Partnerships
+@INSTR Discuss how to respectfully work with partners while honouring carriage traditions.
+_80
+@BULLET
+How can logistics staff build partnerships that strengthen rather than challenge carriage traditions?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 6 Summary - Partnership Concepts
+@INSTR Review Unit 6 by matching key concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Booking confirmation
+2. | Transit time
+3. | Payment terms
+4. | Service level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A written instruction to carry stated goods at a stated rate
+b) | How long the shipper waits between collection and delivery
+c) | How long the shipper may take to pay the invoice
+d) | The agreed standard of delivery and response
+_300
+@EX Part 8: Integrated Assessment - Unit 6 Mastery
+@INSTR Demonstrate understanding of Unit 6. Choose the best answer.
+_80
+@MCQ
+1. What is the main difference between partnership and spot buying?
+@OPT
+   ○ A) They are the same thing
+   ○ B) Partnership builds a relationship that repeats; spot buying hires once and moves on
+   ○ C) Both build loyalty equally
+@MCQ
+2. Why does partnership take longer than spot buying?
+@OPT
+   ○ A) Partnership is not more time-consuming
+   ○ B) Agreeing terms, understanding the carrier and building trust take longer than booking
+   ○ C) Time does not matter in logistics
+@MCQ
+3. What creates lasting improvement in what a carrier delivers?
+@OPT
+   ○ A) Inspection of every load for ever
+   ○ B) The carrier's own standard improving so the fault stops happening
+   ○ C) Replacing the carrier each season
+@MCQ
+4. How do you build trust with customers?
+@OPT
+   ○ A) Through one generous rate reduction
+   ○ B) Through consistent delivery and explaining every decision honestly
+   ○ C) Trust is not important in logistics
+_300

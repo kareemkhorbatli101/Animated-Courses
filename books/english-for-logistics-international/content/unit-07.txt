@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Freight Forwarding and Customer Service
+@PART Warm Up | Warm Up
+@EX Warm-Up: Forwarding Challenges Discussion
+@INSTR Discuss why many small forwarders struggle to find and keep customers.
+_80
+@BULLET
+What barriers prevent small forwarders from finding and keeping customers?
+_300
+@EX Warm-Up: Forwarding Activities Matching
+@INSTR Match forwarding activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Rate research
+2. | Quoting
+3. | Service promotion
+4. | Delivery network
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Getting the goods to the places where customers actually receive them
+b) | Deciding what to charge so the load is won and still earns a margin
+c) | Telling the right shippers that the service exists and why it suits them
+d) | Finding out who the shippers are, what they move and what they will pay
+_300
+@EX Warm-Up: Customer Service Multiple Choice
+@INSTR Choose the best answer about good customer service.
+_80
+@MCQ
+1. What is most important for good service in a small forwarder?
+@OPT
+   ○ A) Having the newest office instead of an older one
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest advertising budget
+_300
+@EX Warm-Up: Discussion - Combining Forwarding and Service
+@INSTR Discuss why selling capacity and customer service work better together.
+_80
+@BULLET
+How can a rate offer and a service standard support each other?
+_300
+@EX Warm-Up: Demand Factors Classification
+@INSTR Classify factors as Direct (the load), Intermediate (service and rate), or Wider market issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct load factor
+2. Service and rate factor
+3. Wider market factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The cartons are crushed when the pallet is double-stacked  ____________________________
+2. The consignment arrives two weeks after the promised date  ____________________________
+3. A competitor opens a depot in the same district  ____________________________
+4. The shrink wrap tears in transit  ____________________________
+5. The rate is twenty per cent above the nearest alternative  ____________________________
+6. Shippers have less cargo to move this season  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Service Levels Matching
+@INSTR Match service levels with the type of carriage they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Own fleet
+2. | Subcontracted haulage
+3. | Groupage
+4. | Export forwarding
+5. | Agency network
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Buying capacity in quantity from a haulier who carries for several shippers
+b) | Moving a customer's goods with your own vehicles straight to the receiver
+c) | Appointing another company to handle shipments on your behalf for a commission
+d) | Combining single pallets from many customers into one vehicle
+e) | Moving goods to a buyer in another country, with customs and payment to arrange
+_300
+@EX Part 1: Service Standards a Forwarder Can Set Table
+@INSTR Complete the table with service standards a forwarder can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every enquiry quoted within one working day | 
+Consignments delivered complete on the promised date | 
+Every claim answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the shipper they are heard before they have to ask twice
+b)  Lets the receiver plan its bay and its own orders with confidence
+c)  Turns a disappointed customer into one who trusts the forwarder more
+_100
+_300
+@EX Part 1: Forwarding and Service Terminology Fill-in
+@INSTR Complete sentences using forwarding and service vocabulary correctly.
+_80
+@GAP
+1. Forwarding and service work together as ____________________ parts of one customer relationship.
+2. A ____________________ approach to selling considers the customer's whole experience, not one load.
+3. ____________________ shippers are the particular group the service is designed for.
+4. ____________________ means a shipper books again because the last consignment went well.
+_300
+@EX Part 1: Forwarding Models - Fact Questions
+@INSTR Read about how forwarders actually find and keep customers and answer detailed questions.
+_80
+@PANEL
+Forwarding Systems and Service Support
+Most lost customers are avoidable through better service. Understanding why a shipper left allows a forwarder to keep the next one. However, keeping customers is complex. Staff must know what the shipper expected, have the capacity to deliver it, and believe the effort is worth making.
+Rate research teaches a forwarder who its customers are. Knowing that most shippers send single pallets is valuable knowledge. But knowledge alone does not win a booking. The forwarder must also have a service those shippers can afford to use. Staff must believe an enquiry matters when the bay is busy. They must trust that a claim will be acted on rather than hidden. Effective forwarding addresses knowledge, capacity, and motivation.
+Service standards are the places where effort decides loyalty. Setting them focuses attention where it matters. A forwarder with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the customer leaves.
+Sales staff bridge the gap between a plan and a booking. A representative can visit a shipper, hear what is moving, and bring a booking back the same week. An agent reaches towns the forwarder could never serve itself. In Egypt, direct relationships have become vital for keeping goods moving when transport is difficult.
+Local agents and small hauliers reach much of the country. However, without support, an agent may handle the goods badly and blame the forwarder. Training agents extends the forwarder's reputation beyond its own yard. Rate research, service standards, sales visits and trained agents working together create far stronger demand than any single effort alone.
+Loyalty requires that shippers eventually choose the forwarder for themselves. This means earning a reputation rather than buying attention. It means setting promises the forwarder can actually keep. It means building on the relationships a business already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your shippers are not enough to win a booking?
+2. What role do sales representatives play in forwarding?
+_300
+@EX Part 1: Discussion - Integrated Forwarding Models
+@INSTR Discuss how combining selling and service benefits a forwarder more than separate approaches.
+_80
+@BULLET
+How have you seen a sales effort and good service work together in your own experience?
+_300
+@EX Part 1: Listening - Sales Representative Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a logistics manager and a representative describing their integrated approach.
+_80
+@MCQ
+1. What problems did the manager identify that affected bookings?
+@OPT
+   ○ A) No problems affected bookings
+   ○ B) Late deliveries, a rate sheet nobody had updated, and no record of claims
+   ○ C) The plan never affects bookings
+@MCQ
+2. Why did the advertising fail before service was improved?
+@OPT
+   ○ A) Advertising never works
+   ○ B) New shippers booked once and did not return, so the spending was wasted
+   ○ C) Advertising always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in forwarding and service work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive offices and advertising
+   ○ B) Promises the forwarder can keep, answered quickly and put right when they fail
+   ○ C) A large modern warehouse
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and loyalty.
+_80
+@NUM
+1. Repeat bookings ____________________ (depend) promises that are actually kept.
+2. Selling works best ____________________ (integrated) the service the customer receives.
+3. Good service and fair rates both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in Customer Loyalty
+@INSTR Complete the table with cause-and-effect relationships in forwarding and service.
+_80
+@GRID
+Cause | Effect
+The consignment arrived complete and on the promised date | 
+A claim was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The shipper placed a second, larger booking
+b)  The shipper told two other companies about the forwarder
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of forwarding and service work.
+_80
+@GAP
+1. We visit the shippers monthly ____________________ learn what is actually moving.
+2. We train the agents ____________________ the goods are handled and stored properly.
+3. This rate sheet was revised ____________________ set a rate the market can actually pay.
+4. Sales visits and claim records are combined ____________________ one picture of the customer.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot advertise widely, a visited shipper remembers us.
+2. Training the agents ____________________ (overcomes) the gap between the depot and the receiver.
+3. Integrated forwarding ____________________ (addresses) both the immediate booking and long-term loyalty.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to managers discussing how to ensure quality in forwarding and service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have capacity that holds, a rate the market can pay, and transit times we can rely on. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust a forwarder whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the receiver. What we think is good service might not match what the storekeeper experiences. We hold regular visits with the receivers. They tell us that a delivery arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in forwarding and service work?
+2. Why is listening to the receiver important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and loyalty.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects loyalty?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Winning Freight
+@INSTR Before listening, discuss barriers preventing forwarders from reaching customers.
+_80
+@BULLET
+What barriers prevent small forwarders from reaching the shippers who would book with them?
+_300
+@EX Part 3: Listening - Overcoming Forwarding Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to managers discussing how they overcome barriers to winning freight.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Our representatives could not reach the smaller towns often enough to matter. So we brought the service closer. We appointed one trusted agent in each town and supplied them on agreed terms. For the larger accounts, we kept our own representative visiting monthly. This reduced the distance barrier immediately. Bookings improved dramatically once a local name stood behind the service.
+^Manager: Rate was our barrier. Shippers wanted our service but could not afford a full vehicle. We discovered that groupage worked better than a lower rate. We offered part-loads and a shorter credit period. We charged the large shippers the full rate, which helped carry the small ones. This mixed approach kept the vehicles full and kept the margin intact.
+_200
+@QUESTION
+1. How did the managers address the distance barrier?
+2. What selling approach did the managers find most effective?
+_300
+@EX Part 3: True/False - Forwarding and Service Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Forwarding and service work together to create demand. Advertising alone can keep a shipper who received a late delivery. Good managers set promises the forwarder can actually keep. Training agents extends a forwarder's reputation beyond its own yard. Rate research tells a forwarder who its shippers are but not whether they will book. A claim answered quickly often produces a more loyal customer than no claim at all. Rate alone decides every booking in every market.
+@NUM 100
+1. Advertising alone can keep a shipper who received a late delivery.
+2. Training agents extends a forwarder's reputation beyond its yard.
+3. A claim answered quickly can produce a more loyal customer.
+_300
+@EX Part 3: Listening - Integrating Forwarding and Service
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to managers discussing how they combined a sales plan and a service standard successfully.
+_80
+@MCQ
+1. How did the managers clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what sales owns and what the depot owns, with one shared record
+   ○ C) Clear roles are not necessary in forwarding
+@MCQ
+2. What did the managers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in forwarding cannot be resolved
+_300
+@EX Part 3: Listening - Customer Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as customers describe how better forwarding and service changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My shop used to order through this forwarder and sometimes the delivery came a week late with no warning. The company began telephoning the day before and telling us what was actually coming. After that, I could plan my bay and my own orders. Coordinating the plan and the despatch solved a problem nobody had seen before. Now I book with them with confidence.
+^Manager: The shop now receives a note with each delivery. It lists what was sent and what is short. When I asked about a missing carton, the salesman showed me the record and sent it the next week. What the office does actually reaches the shop and changes what we can rely on. Before, the booking and the delivery were separate and nothing connected. Now it all connects. My customers are better served.
+_200
+@QUESTION
+1. What problem was damaging the shop's planning before the change?
+2. How did the delivery note affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether a forwarder gives good service.
+_80
+@BULLET
+What signs indicate that a forwarder is giving its customers reliable service?
+_300
+@EX Part 4: Reading - Customer-First Forwarding Philosophy
+@INSTR Read about customer-first forwarding and answer detailed questions.
+_80
+@PANEL
+Customer-First Forwarding: Foundation for Lasting Demand
+Customer-first forwarding is an approach emphasizing the relationship, the promise kept, and the local reputation. It differs from a model that spends on advertising and hopes the bookings follow. Customer-first forwarding builds steady demand, where a problem is settled the same week through simple standards close to the customer.
+Customer-first forwarding serves as the foundation of a sales system. Instead of every booking being won again from nothing, most routine demand comes from shippers who already trust the forwarder. Only new corridors need the cost of finding customers. This keeps costs lower and revenue steadier. In Egypt, where advertising reaches few shippers, trade relationships became vital.
+Prevention is central to the philosophy. Keeping a shipper through a reliable delivery costs much less than winning a new one. A telephone call before a late arrival costs less than a lost account. A clear rate sheet costs less than an argument at the gate. Customer-first forwarding emphasizes these cost-effective measures.
+Customer-first forwarding requires the whole company. Sales staff alone cannot create loyalty. The depot must load the right goods. Transport must run what was promised. Finance must invoice correctly and allow sensible credit. Everyone must act on a claim rather than wait for sales to insist. This approach views the customer as everyone's responsibility, not the sales department's problem.
+Customer-first forwarding requires coordination among functions. Selling cannot improve without transport running what was sold. Sales cannot work if finance refuses every credit line. Good demand requires transport, finance, the depot and sales all working to one plan.
+Customer-first forwarding requires strong management and continuous learning. Representatives must be trained, supervised, and supported. Forwarders must review whether the promises still hold. Forwarders must learn from a lost customer and adjust. Weak management produces slogans nobody believes. Strong management produces shippers who return.
+Customer-first forwarding creates durable demand because it builds local reputation. A forwarder whose name is trusted in a town carries for it for decades. A forwarder that depends entirely on rate loses the customer the moment someone is cheaper.
+@NUM 100
+1. How does customer-first forwarding prevent problems instead of only reacting to them?
+2. What functions must coordinate for customer-first forwarding to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. A new office alone is insufficient if the delivery is always late. A friendly salesman alone is insufficient if the invoice is always wrong. Quality requires coordination of many factors: capacity that holds, a rate the market can pay, reliable transit times, correct invoicing, a quick answer, and a settled claim.
+Staff competence is the most important factor in service quality. A skilled representative keeps a shipper with modest resources. A poorly trained one loses a customer the forwarder spent years winning. Investment in training and supervision creates stronger impact than investment in advertising. In resource-limited forwarders, staff competence determines everything.
+Promises must suit what the forwarder can actually do. A standard taken from a competitor and never tested in your own depot fails quietly. Testing shows the promise works with your vehicles, your bays, and your staff. Standards respecting local conditions produce service that holds.
+Traceable consignments mean every delivery can be followed back to what was agreed. Bookings are confirmed in writing, deliveries are signed for, and shortages are recorded. Without traceability, a claim becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the customer actually said, a problem can be found and fixed. If claims are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+Customer feedback should confirm that the forwarder's view matches the customer's. An internal report shows activity but not satisfaction. Asking the customer directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Egypt's service challenges stem from transport and currency. Fuel is costly, roads are crowded, rates move between quotation and loading, and credit is scarce. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest office
+   ○ B) Staff competence and training
+   ○ C) Advertising spend alone
+@MCQ
+2. Why is traceability of consignments important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a claim becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether forwarding and service are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between sales and the depot | 
+Claims answered while the customer still has the goods | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the customer rather than to close a file
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated forwarding and service systems serve every customer fairly regardless of consignment size. Service standards kept by trained staff lead to more loyalty than advertising alone. A late delivery is acceptable if the goods are undamaged. Staff competence is more important to service than the size of the advertising budget. Separate sales and depot functions are always more efficient than integrated ones. A small forwarder cannot achieve service comparable to a large one for routine consignments. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every customer fairly?
+2. Is a late delivery acceptable if the goods are undamaged?
+3. Are separate sales and depot functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a sales plan and a service standard integrated from the start.
+_80
+@BULLET
+If you were designing forwarding and service together for an Egyptian company, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Forwarding and Service
+@INSTR Prepare a presentation on effective forwarding and service integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated forwarding and service systems.
+_300
+@EX Part 5: RolePlay - Coordinating Sales and the Depot
+@INSTR Roleplay coordinating sales and the depot when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Customer Service
+@INSTR Discuss how better service could transform a local forwarder.
+_80
+@BULLET
+How would integrated forwarding and service transform a forwarder like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in customer service to the company's owners.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Forwarding and Service Plan
+@INSTR Write a brief plan for integrating a sales effort with a service standard.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating sales and the depot and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Customers
+@INSTR Write about how better forwarding and service changed what customers receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for Trusted Carriage
+@INSTR Write about your vision for forwarders whose selling and service develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Carriage and Service in Egyptian Perspective
+@INSTR Read about Egyptian values supporting integrated forwarding and service work.
+_80
+@PANEL
+Egyptian Values Supporting Carriage and Service
+Egyptian traditions provide a strong foundation supporting integrated forwarding and service. Understanding them helps design culturally appropriate systems gaining workforce and customer support.
+The idea of "amanah" or trust held on behalf of others is central to Egyptian practice. Goods handed to a carrier are a trust, and the one who accepts them answers for them. Carrying and delivering are understood as duties: those who know of damage are expected to declare it, and those who take the freight money are expected to deliver. Service in Egyptian tradition is a moral obligation, not only a commercial calculation. Systems expressing that duty, with a named person answering for each consignment, gain stronger support.
+Egyptian teaching emphasizes the road as a shared responsibility. Carriers have long maintained their own standards through the khan, where a bad reputation travels faster than any advertisement, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the rate, the goods, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as protecting a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The khan is the group whose members share a yard, a reputation and a set of customers. Members are responsible for each other. If one carrier steals, the whole yard's reputation suffers. If one salesman promises what cannot be delivered, every promise is weakened. An integrated system combines selling and service as a single shared responsibility.
+Women's role in trade is deep and increasingly recognized. Women hold detailed knowledge of what households buy, how goods are received and what condition means at the door, and increasingly lead service teams. Senior merchants emphasize that training women managers strengthens the whole company. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Egyptian craft ethics require high standards. Master carters and merchants are trusted figures accountable to the khan and to the family name on the lorry. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of carrying for the same family for generations shows that everything is interconnected — rate, condition, delivery, credit and reputation. This way of thinking naturally supports integrated systems. Separating the selling from the service fragments what a shipper experiences as one relationship. Integrated systems honour that unity.
+Aligning forwarding and service with Egyptian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Egyptian tradition support service as a moral obligation?
+2. What traditional Egyptian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Systems
+@INSTR Discuss how to design forwarding and service systems respecting local values and practices.
+_80
+@BULLET
+How can forwarding and service systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Forwarding and Service Concepts
+@INSTR Review Unit 7 by matching forwarding and service concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Rate research
+2. | Service level
+3. | Loyalty
+4. | Groupage
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Finding out who ships, what they move and what they will pay
+b) | The agreed standard of delivery and response a customer can expect
+c) | A shipper booking again because the last consignment went well
+d) | Combining single pallets from many customers into one vehicle
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are selling capacity and customer service closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Selling wins a shipper and service is what makes them stay
+   ○ C) Only advertising matters for bookings
+@MCQ
+2. What is the primary advantage of integrating forwarding and service?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Shippers return, so each booking costs less than winning a new customer
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained local agent expand a forwarder's reach?
+@OPT
+   ○ A) It reduces the forwarder's reputation
+   ○ B) A local name stands behind the service in towns a representative cannot reach weekly
+   ○ C) Local agents are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Advertising has no effect on bookings
+   ○ B) A skilled representative keeps a shipper with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large forwarders
+_300

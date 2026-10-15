@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Logistics Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Logistics Management Do?
+@INSTR Discuss with a partner what jobs and roles exist in a logistics team.
+_80
+@BULLET
+What types of jobs do you think people have in a company's logistics team?
+_300
+@EX Warm-Up: Matching Logistics Jobs to Descriptions
+@INSTR Match each logistics job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transport Manager
+2. | Warehouse Manager
+3. | Logistics Manager
+4. | Customs Clerk
+5. | Fleet Maintenance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the routes and the vehicles and controls the cost of each kilometre
+b) | Runs the store, the picking and the stock counts and signs the monthly report
+c) | Leads the whole supply chain and answers to the customers for the result
+d) | Prepares declarations, agrees tariff codes and clears goods at the border
+e) | Services the vehicles and keeps the records the transport authority requires
+_300
+@EX Warm-Up: Logistics Job Skills
+@INSTR Classify the following skills by which logistics job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. | Transport Manager
+2. | Warehouse Manager
+3. | Customs Clerk
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Planning a week's deliveries across three vehicles  ____________________________
+2. Finding one pallet among four thousand quickly  ____________________________
+3. Reading a tariff schedule and choosing the right code  ____________________________
+4. Calculating the cost of one kilometre  ____________________________
+5. Preparing a stock count for the quarter  ____________________________
+6. Answering an inspector without delaying the load  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Logistics Management?
+@INSTR Discuss with a partner: Would you like to work in logistics management? Why or why not?
+_80
+@BULLET
+Would you like to work in logistics management in the future? What role would you like to have?
+_300
+@EX Warm-Up: Logistics Work in Türkiye
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are logistics staff in Türkiye very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They link two continents and keep goods and medicines moving
+   ○ C) They do not work with carriers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Logistics Job Titles and Descriptions
+@INSTR Match each logistics job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transport Manager
+2. | Storekeeper
+3. | Customer Service Manager
+4. | Customs Clerk
+5. | Logistics Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who plans the routes and controls the cost of each kilometre run
+b) | A person who keeps the stock records, receives goods and issues them again
+c) | A person who confirms delivery dates, answers complaints and handles claims
+d) | A person who prepares declarations, agrees codes and clears goods at the border
+e) | A person who leads the whole supply chain and answers to the customers for it
+_300
+@EX Part 1: Logistics Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Dispatcher
+2. | Stock Controller
+3. | Freight Forwarder
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Assigns the loads and tracks the vehicles
+b) | Works out what each store should hold
+c) | Arranges carriage and documents
+d) | Checks that the rules were followed
+_300
+@EX Part 1: Skills Required for Logistics Work
+@INSTR Complete the table by filling in the required skills for each logistics job.
+_80
+@GRID
+Logistics Job | Skill 1 | Skill 2
+Dispatcher |  | 
+Stock Controller |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  organized
+b)  clear instructions
+c)  careful with figures
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Logistics Management
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Logistics staff often work in an ____________________ (office) or out on the loading bay.
+2. Working in logistics can be ____________________ (demanding) but very rewarding.
+3. Logistics staff usually work as a ____________________ (team) with transport and customs.
+_300
+@EX Part 1: Listening - Logistics Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of logistics jobs and answer the questions.
+_80
+@MCQ
+1. What does a transport manager do on the loading bay?
+@OPT
+   ○ A) Trains new customers only
+   ○ B) Plans the loads, watches the cost and solves problems as they appear
+   ○ C) Signs the annual accounts
+@MCQ
+2. What is a warehouse manager's main responsibility?
+@OPT
+   ○ A) Run the store, control the stock and report the condition of the goods
+   ○ B) Operate the production machine
+   ○ C) Set the selling price of the goods
+_300
+@EX Part 1: Reading - Logistics Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their logistics careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become dispatchers or assistant managers. Junior staff receive training to improve their routing and their documentation. Some work on the loading bay as shift dispatchers, running a bay. Others work in the office as customs clerks or in service as account officers. The most experienced staff may become logistics managers who answer to the customers and train other staff. Working in logistics offers opportunities to learn, to grow, and to keep a promise people depend on.
+@NUM 100
+1. How do most people start their careers in logistics management?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Logistics Career Interest
+@INSTR Discuss with a partner: Which logistics job interests you most?
+_80
+@BULLET
+Which logistics job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in a logistics team for five years.
+2. They ____________________ (have cleared) many consignments in this company.
+3. The logistics manager ____________________ (has trained) all new dispatchers.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new route plan
+They |  | arrivals for 500 orders
+He |  | three annual stock counts
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has completed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new delivery report?
+3. ____________________ the clerk cleared the consignment?
+4. ____________________ they completed the stock count?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this company before.
+3. He ____________________ (hasn't been) to a carrier meeting.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the manager worked in logistics?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the manager worked in?
+@OPT
+   ○ A) Textiles only
+   ○ B) Textiles, food distribution, and pharmaceuticals
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or organizing experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Logistics Manager Interview
+@INSTR Before listening, discuss: What questions would you ask a logistics manager?
+_80
+@BULLET
+What would you like to know about working in a logistics team?
+_300
+@EX Part 3: Listening - Interview with a Logistics Manager
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with a logistics manager and answer the questions.
+_80
+@MCQ
+1. What does the logistics manager do?
+@OPT
+   ○ A) Trains students at the institute
+   ○ B) Agrees the service plan with the customers and answers for the result
+   ○ C) Works only on the loading bay
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many customers
+   ○ B) Fuel that is costly and sometimes unavailable
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about a logistics training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new logistics staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in routing, documentation, and running a store. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new logistics staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in routing, documentation, and running a store. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach routing and documentation.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Logistics Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in logistics teams and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of customers
+   ○ B) Scarce fuel and damaged roads
+   ○ C) Difficult customers
+@MCQ
+2. How many delivery vehicles does the company have?
+@OPT
+   ○ A) One vehicle
+   ○ B) Three vehicles
+   ○ C) Two vehicles
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in logistics management.
+_80
+@MCQ
+1. What position is the young dispatcher offered?
+@OPT
+   ○ A) Logistics manager position
+   ○ B) A chance to train toward transport manager
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only vehicle knowledge
+   ○ B) Leadership, routing, and communication
+   ○ C) Only software skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Company Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of logistics company?
+_80
+@BULLET
+How might roles differ between a small family fleet and a large freight forwarder?
+_300
+@EX Part 4: Reading - Logistics Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most logistics companies have a hierarchical structure. At the top is the Logistics Manager who agrees the service plan with the customers and answers for the result. Below the manager are department heads who run specific areas such as transport, warehousing, customs and customer service. Each department head supervises dispatchers and clerks who carry out the daily work. Compliance officers check whether the rules were followed, and report to the owners directly.
+Companies also employ support staff like storekeepers, drivers, and office administrators. While these roles may seem less visible, they are essential. For example, a driver makes sure a consignment reaches the customer on the promised day. A storekeeper makes sure the pallet is ready when the vehicle arrives. Every role is important for the company to function effectively.
+Recent years have seen changes in logistics structures. Smaller firms operate more flexibly, with fewer management layers. This allows a load to be re-routed faster. However, keeping records complete and goods accounted for remain challenges even with simpler structures.
+@NUM 100
+1. Who agrees the service plan with the customers?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Logistics staff must be decisive — willing to choose a route when neither option is perfect. They also need persistence — the commitment to trace a missing pallet even when it takes weeks. The experience of senior staff is valuable for training new people. Companies also value transparency — being honest with the customer about where the goods really are.
+@MCQ
+1. What does "decisive" mean?
+@OPT
+   ○ A) Slow and uncertain
+   ○ B) Willing to choose a route when neither option is perfect
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a missing pallet
+   ○ B) Commitment to trace it even when it takes weeks
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Logistics Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Plans the routes and reports the monthly arrivals |  | Office
+Runs the store and controls the condition of the stock |  | Loading bay
+@CHOICEHEAD Choices:
+@CHOICE
+a)  transport manager
+b)  warehouse manager
+_100
+_300
+@EX Part 4: True/False - Logistics Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Companies employ both experienced staff and trainees. Trainees commit their time for a small payment because they want experience. Many logistics staff in developing countries earn modest salaries compared to staff abroad. However, they often report higher job satisfaction. Companies invest in staff training and development. Logistics staff can learn new skills while keeping goods moving for other people. Career advancement is possible for dedicated staff who perform well.
+@NUM 100
+1. Some people in logistics teams are trainees.
+2. Logistics salaries at home are higher than salaries abroad.
+3. Companies provide training opportunities.
+_300
+@EX Part 4: Discussion - Logistics Career Values
+@INSTR Discuss: If logistics salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose logistics management even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in a logistics team. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Logistics Career Path
+@INSTR Prepare and present a 3-part talk about career paths in logistics management.
+_80
+@NUM 100
+1. How do people start and advance in logistics careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in logistics work?
+_300
+@EX Part 5: Discussion - Overcoming Logistics Challenges
+@INSTR Discuss with a partner: How do logistics staff cope with scarce fuel and damaged roads?
+_80
+@BULLET
+How do experienced logistics staff overcome shortages of fuel and vehicles?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Manager
+@INSTR Role play: A junior dispatcher asks an experienced manager for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a logistics company expressing interest in a traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our company?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of a Logistics Manager
+@INSTR Write a paragraph describing a typical day of a logistics manager. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Logistics Work
+@INSTR Write a short reflection about what you could learn from working in a logistics team. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Logistics Sector in Türkiye and the Region
+@INSTR Read about logistics work in Türkiye and the Middle East region, then answer questions.
+_80
+@PANEL
+The logistics sector in Türkiye has changed significantly in response to the need to serve Europe and Central Asia at once. Large forwarders, port agents, and small family fleets all employ logistics staff. These staff serve both the domestic market and customers abroad. Working in Türkiye's logistics companies requires persistence because competition, exchange rates and queue times are all relentless.
+In neighbouring countries like Bulgaria and Georgia, companies employ staff who move goods for both local sale and export. The work is challenging but essential. These businesses demonstrate how dedicated professionals keep working in hard markets. Turkish logistics staff are known in the region for their resourcefulness and persistence.
+Many Turkish professionals who studied abroad chose to return to run logistics companies at home. They sacrifice higher salaries in wealthy countries to keep goods moving in their own towns. This shows deep commitment to the country and to the reliability of its supply. Their choices inspire others to consider logistics careers.
+@NUM 100
+1. Why has the logistics sector in Türkiye changed?
+2. What characteristic is emphasized about Turkish logistics staff?
+_300
+@EX Part 7: Discussion - Values in Logistics Work
+@INSTR Discuss what values are important in logistics work, especially where fuel is scarce.
+_80
+@BULLET
+What values should guide logistics staff, especially those working with scarce fuel and vehicles?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Logistics Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transport Manager
+2. | Logistics Manager
+3. | Warehouse Manager
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans routes and controls cost per kilometre
+b) | Agrees the service plan and answers to customers
+c) | Runs the store and reports the stock
+d) | Checks whether the rules were followed
+_300
+@EX Part 8: Integrated Assessment - Logistics Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin logistics careers?
+@OPT
+   ○ A) As logistics managers
+   ○ B) As trainees
+   ○ C) As compliance officers
+@MCQ
+2. What is the most valuable quality for logistics staff according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the goods and the customers who depend on them
+   ○ C) Previous logistics experience only
+@MCQ
+3. How has the logistics sector in Türkiye changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has changed in response to the need to reopen damaged routes
+   ○ C) It has decreased permanently
+@MCQ
+4. What do logistics staff value according to the culture discussion?
+@OPT
+   ○ A) Moving the maximum tonnage at any cost
+   ○ B) Honesty, accountability, and responsibility to goods and customers
+   ○ C) Avoiding difficult situations
+_300

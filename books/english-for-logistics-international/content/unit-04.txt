@@ -1,0 +1,460 @@
+@UNITHEAD Unit 4: Warehousing, Inventory and Measurement
+@PART Warm Up | Warm Up
+@EX Warm-Up: Stock Control Discussion
+@INSTR Discuss the skills that are important for knowing what a store actually holds.
+_80
+@BULLET
+What skills do you think are important for someone who counts stock and controls a store?
+_300
+@EX Warm-Up: Matching Tasks to Warehouse Roles
+@INSTR Match warehouse roles with the key skills they need most.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Picker
+2. | Storekeeper
+3. | Stock Controller
+4. | Warehouse Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A systematic method so no location or carton is left out of the count
+b) | Patience and consistency to enter every receipt and issue the same way
+c) | Judgement about which lines must be counted weekly and which may wait
+d) | Judgement and coordination to decide what is counted, stored and reported
+_300
+@EX Warm-Up: Accuracy Multiple Choice
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What quality helps a storekeeper produce records others can rely on?
+@OPT
+   ○ A) Working as fast as possible
+   ○ B) Care with method and honest recording of what was actually counted
+   ○ C) Leaving out the locations that are hard to reach
+_300
+@EX Warm-Up: Discussion - Personal Strengths
+@INSTR Discuss personal strengths that help people count and record accurately.
+_80
+@BULLET
+What are your personal strengths and how could they help stock control and record-keeping?
+_300
+@EX Warm-Up: Warehouse Skills Classification
+@INSTR Classify skills and tools as Technical Skills or Tools.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Technical Skills
+2. Tools
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Working out how many pallets a trailer will take from the dimensions  ____________________________
+2. A hand scanner that reads the location label  ____________________________
+3. Deciding which lines must be counted weekly and which may wait  ____________________________
+4. The stock card on which every receipt and issue is entered  ____________________________
+5. Reading a stock report and seeing which line is moving  ____________________________
+6. A pallet label showing the product, the batch and the date  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Inventory Terms Matching
+@INSTR Match inventory terms with their descriptions and uses in practice.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Cycle count
+2. | Stock discrepancy
+3. | Safety stock
+4. | Reorder level
+5. | Stock turn
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The quantity held in reserve so a late delivery does not stop the work
+b) | A count of part of the store carried out regularly without stopping work
+c) | How many times in a year the whole stock is issued and replaced again
+d) | The quantity at which a new order must be placed to avoid running out
+e) | The difference between what the record says and what the shelf actually holds
+_300
+@EX Part 1: Measurement Conventions Table
+@INSTR Complete the table with conventions, their importance, and examples of use.
+_80
+@GRID
+Convention | Why It Matters | Example
+ABC classification |  | 
+Reorder level |  | 
+Fill rate |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  It concentrates counting effort on the lines that carry most of the value
+b)  Twenty per cent of the lines holding eighty per cent of the stock value
+c)  It shows when a new order must be placed so the store does not run out
+d)  Weekly usage of 400 cartons multiplied by a lead time of three weeks
+e)  It shows how much of each order was supplied from stock at the first attempt
+f)  Lines shipped complete divided by lines ordered, expressed as a percentage
+_100
+_300
+@EX Part 1: Inventory Terms Fill-in Blanks
+@INSTR Complete sentences using words about stock and records.
+_80
+@GAP
+1. A count is only meaningful if every ____________________ has been included in it.
+2. A ____________________ stock is held in reserve so a late delivery does not stop the work.
+3. ____________________ is the difference between the record and what the shelf holds.
+4. ____________________ is essential when the same line is counted by different people.
+_300
+@EX Part 1: Stock Practice in Context - Fact Questions
+@INSTR Read about stock control and record-keeping in practice and answer fact questions.
+_80
+@PANEL
+Logistics staff need both measurement skills and method skills to control a store well. Measurement skills are specific abilities like counting a pallet, calculating a volume and reading a weighbridge ticket. Method skills are conventions like which lines to count first, how to treat a part carton, and when a figure is an estimate rather than a measurement.
+Classification is particularly important. A stock figure describes a method, not a fact, so the method must be stated. Full counting stops the store and counts everything once a year. Cycle counting counts the valuable lines weekly and the rest in turn. Judgement decides which of those is fairer for a given store.
+Reading figures helps staff understand what a number means. This skill prevents over-reaction to a single bad count and catches a genuine loss early. Staff with strong reading of figures see a trend rather than a list of totals.
+Checking skills are valuable even for the most experienced staff. Storekeepers reconcile the stock card with the shelf. Managers recount a line they have already signed. Checking means catching the error in the store rather than at the customer.
+All these skills can be learned and improved through practice and training. Companies invest in staff development because accurate records prevent losses.
+@NUM 100
+1. What is the difference between measurement skills and method skills?
+2. Why is classification important in stock control work?
+_300
+@EX Part 1: Discussion - Skills for Accuracy
+@INSTR Discuss how different skills contribute to accurate records.
+_80
+@BULLET
+Think of a skill you have or want to develop. How would it help in stock control work?
+_300
+@EX Part 1: Listening - Stock Control Skills in Action
+@AUDIO 🔊 Audio Track 4.11
+@INSTR Listen to logistics staff describing the skills they use and answer questions.
+_80
+@MCQ
+1. What skills does the stock controller emphasize?
+@OPT
+   ○ A) Only counting
+   ○ B) Method, patience, and honest recording
+   ○ C) Only speaking to customers
+@MCQ
+2. What does the warehouse manager say is most important?
+@OPT
+   ○ A) Working alone without the picking team
+   ○ B) Integrity, so the records can be relied on
+   ○ C) Producing the longest possible report
+_300
+@EX Part 1: Summary - Core Skills for Reliable Records
+@INSTR Choose the best explanation for successful stock control and record-keeping work.
+_80
+@MCQ
+1. What combination is most important for stock control work?
+@OPT
+   ○ A) Only counting matters
+   ○ B) Only neat records without a sound method
+   ○ C) Counting plus a stated method and careful checking
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Modal Verbs About Ability and Necessity
+@INSTR Complete sentences with appropriate modal verbs about warehouse work.
+_80
+@NUM
+1. Storekeepers ____________________ (record) every issue at the time it is made.
+2. All stock staff ____________________ (state) which locations the figure includes.
+3. These conventions ____________________ (learn) through training and practice.
+_300
+@EX Part 2: Adjectives Describing Skills and Qualities
+@INSTR Complete the table with adjectives that describe logistics staff and their warehouse work.
+_80
+@GRID
+Quality/Skill Noun | Descriptive Adjective (How would you describe someone with this?)
+Accuracy | 
+Patience | 
+Method | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Accurate
+b)  Patient
+c)  Methodical
+_100
+_300
+@EX Part 2: Describing Requirements with Gerunds
+@INSTR Complete sentences about warehouse work using gerunds (-ing form).
+_80
+@GAP
+1. ____________________ the stock card against the shelf prevents a whole month of wrong figures.
+2. ____________________ under time pressure requires extra care and a second look.
+3. ____________________ the same method across every aisle keeps the figures comparable.
+4. ____________________ from a lost pallet teaches staff to count earlier.
+_300
+@EX Part 2: Comparative Adjectives About Stock Control
+@INSTR Complete sentences comparing warehouse qualities using comparative forms.
+_80
+@NUM
+1. A stated method is ____________________ (useful) than a precise figure nobody can explain.
+2. Staff with longer experience are usually ____________________ (quick) to spot a wrong count.
+3. Weekly cycle counts are ____________________ (reliable) than one count made each year.
+_300
+@EX Part 2: Listening - Grammar in Context About Stock Control
+@AUDIO 🔊 Audio Track 4.17
+@INSTR Listen to a trainer talking about developing warehouse skills and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: When we train new staff, we focus on developing both measurement and method skills. A good storekeeper must know how to count a part pallet, but must also record the figure in a way others can follow. A good manager must count accurately, but must also understand what the number will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from a lost pallet is more valuable than never taking responsibility for a count. We want our staff to be confident enough to sign their figures even when the bay is busy.
+_200
+@QUESTION
+1. What two types of skills must logistics staff develop?
+2. How do staff develop accuracy according to the trainer?
+_300
+@EX Part 2: Grammar Review - Skills and Qualities
+@INSTR Discuss how to talk about skills and qualities in English.
+_80
+@BULLET
+Explain the difference between "I can count a pallet" and "I am accurate" in terms of skills.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office and Bay Roles
+@INSTR Before listening, discuss what different staff do and the skills they need.
+_80
+@BULLET
+What skills would a picker, a storekeeper, and a warehouse manager need?
+_300
+@EX Part 3: Listening - Different Perspectives on Warehouse Skills
+@AUDIO 🔊 Audio Track 4.20
+@INSTR Listen to people from different roles discuss skills needed in their work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: As a stock controller, I must combine careful counting with judgement. I follow the method exactly, but I also decide when a figure looks wrong and must be recounted. Many lines move faster than the record allows. I recount one valuable line every week so I know how far my records have drifted. This requires measurement and honest recording.
+^Manager: As warehouse manager, I coordinate many counts and reports. I must have organizational skills to manage the stocktake and the audit. I must have leadership to refuse a release that has no paperwork when drivers are waiting. I need problem-solving abilities when the stock card contradicts the shelf. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Counting on the loading bay requires very different skills than office work. I must build trust with the pickers over weeks so they tell me what was really taken. I can never be rushed—a count taken badly is worse than no count. I need flexibility because every delivery arrives differently. I must be humble enough to learn the layout from the people working it. This is how we produce records nobody disputes.
+_200
+@QUESTION
+1. What does the stock controller combine in her work?
+2. Why does the third speaker emphasize building trust with pickers?
+_300
+@EX Part 3: True/False - Warehouse Skills and Development
+@INSTR Read statements about warehouse skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Logistics staff require well-developed measurement to control stock accurately. Counting ability improves with practice and feedback. Some staff are born naturally methodical while others must develop method through experience. Companies invest heavily in training new staff because proper training saves money and prevents losses. Measurement skills are essential but insufficient without a stated method and record discipline. Reconciling the stock card is wasteful and inappropriate for storekeepers who should trust their first entry. Humility and lifelong learning are valued traits in effective logistics staff.
+@NUM 100
+1. Logistics staff need strong measurement skills.
+2. Reconciling the stock card is inappropriate for storekeepers.
+3. Humility is valued in effective logistics staff.
+_300
+@EX Part 3: Listening - Developing Skills Through Experience
+@AUDIO 🔊 Audio Track 4.22
+@INSTR Listen to a trainer describing how staff develop skills on the job.
+_80
+@MCQ
+1. Where does the trainer say logistics staff develop their best skills?
+@OPT
+   ○ A) Only in lecture rooms
+   ○ B) On the job, by counting real stock and seeing the result
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+2. What does the trainer say staff need while they learn?
+@OPT
+   ○ A) To be left alone until they are expert
+   ○ B) Checking and mentoring so an error is caught on paper
+   ○ C) Longer working hours
+_300
+@EX Part 3: Listening - Personal Stories About Developing Skills
+@AUDIO 🔊 Audio Track 4.23
+@INSTR Listen to logistics staff describing how they developed their skills.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: I came to logistics from mathematics teaching with plenty of theory but no idea about warehouses. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to count when the pallets were mixed, when the labels were missing, when we had no layout plan at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good storekeeper in a small shop, but a distribution centre was different. In a shop, every item was in front of me. In a centre, I had to find the stock myself in locations nobody had written down. I learned to be systematic and accept that perfect records were impossible. I learned that a stated estimate serves the customer better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200
+@QUESTION
+1. What helped the first coordinator develop skills in a warehouse?
+2. What was the bigger lesson the storekeeper learned in a distribution centre?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Your Gifts for Figures
+@INSTR Discuss what gifts and strengths you have that could help in warehouse work.
+_80
+@BULLET
+What do you do well that could help count and control a store accurately?
+_300
+@EX Part 4: Reading - Warehouse Competency Framework
+@INSTR Read about a comprehensive competency framework for warehouse work and answer questions.
+_80
+@PANEL
+Understanding Stock Control and Record-Keeping Competencies
+Effective logistics staff require competencies in five areas: Measurement, Stock Method, Reading Figures, Process Knowledge, and Record Discipline.
+Measurement is the foundation. A picker must handle counts, weights and dimensions. A storekeeper must calculate how many cartons fill a pallet. A warehouse manager must understand what a stock figure can and cannot show. This knowledge forms the base but is not enough alone.
+Stock method includes which lines to count first, how to treat a part carton, and when to state that a figure is an estimate. Staff must produce a stock figure that represents the store and explain the method behind it. A precise figure built on the wrong method tells you nothing at all.
+Reading figures is valuable at all levels. Even a junior picker must know the difference between normal variation and a genuine loss. Strong reading of figures prevents both panic and complacency.
+Process knowledge means understanding how the goods are actually handled and moved. Logistics staff in Morocco must understand palletising, cold storage, loading sequence, and the real cost of transport over long distances. Staff with this knowledge know which lines matter and which do not.
+Record discipline means writing the figure at the time, in ink, signed and dated. Staff who complete records later create evidence nobody can rely on. Good discipline includes recording what was estimated as well as what was counted.
+These five competencies work together. Strong records improve the reading of figures. Process knowledge improves stock method. Together, they create highly effective logistics staff.
+@NUM 100
+1. What are the five competency areas for stock control and record-keeping work?
+2. Why is record discipline important for logistics staff?
+_300
+@EX Part 4: Text - Qualities That Transform Warehouse Work
+@INSTR Read about character qualities that make stock records trustworthy.
+_80
+@PASSAGE
+Beyond skills and competencies, certain character qualities transform warehouse work from routine counting into real professional service. Humility allows staff to learn from the store and admit when a figure is wrong. Humble staff recount rather than defend.
+Courage enables staff to report what they found and to refuse a release. Courageous staff in Morocco report a shortage when the customer was expecting a full load. They face the pressure and record the truth anyway so the problem can be corrected.
+Patience helps staff maintain care through the hundredth location of a count. Without patience, records become careless and the stock figures cannot be trusted. With patience, staff keep the same standard from the first aisle to the last.
+Integrity ensures staff remain honest about what they counted and what they estimated even when deadlines are short. Staff with integrity mark an estimated figure as estimated. They refuse to let a loading time justify a number that misleads.
+Care—genuine concern for the goods and the people who are waiting for them—connects all these qualities. Staff who truly care about the customer find meaning in the detail and persist through tedium. Care transforms counting from arithmetic into responsibility.
+These qualities cannot be taught in classrooms; they must be developed within each person through reflection, experience, and commitment.
+@MCQ
+1. Which quality helps staff learn from the store itself?
+@OPT
+   ○ A) Confidence that the first figure is correct
+   ○ B) Humility that leads them to recount
+   ○ C) Avoiding the difficult locations
+@MCQ
+2. What does the text say about character qualities in warehouse work?
+@OPT
+   ○ A) They are not important for effective work
+   ○ B) They transform counting into professional responsibility
+   ○ C) Only counting skills matter
+_300
+@EX Part 4: Application - Skills for Different Situations
+@INSTR Read scenarios and fill in which key skills are most important.
+_80
+@GRID
+Warehouse Situation | Most Important Skill
+Counting 1,000 cartons for an export order in two days | 
+Investigating why one line was short all year | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Method and systematic organization
+b)  Judgement and careful reading of figures
+_100
+_300
+@EX Part 4: True/False - Warehouse Skills Development
+@INSTR Read statements about warehouse skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Logistics staff require well-developed reading of figures to control stock correctly. Counting ability improves with practice and feedback. Some staff are born naturally methodical while others must develop method through experience. Companies invest heavily in training new staff because proper training saves money and prevents losses. Measurement is essential but insufficient without a stated method and record discipline. Reconciling the stock card is wasteful and inappropriate for staff who should trust their first entry. Humility and lifelong learning are valued traits in effective logistics staff.
+@NUM 100
+1. Logistics staff need strong reading of figures.
+2. Reconciling the stock card is inappropriate for staff.
+3. Humility is valued in effective logistics staff.
+_300
+@EX Part 4: Discussion - Building Your Skills
+@INSTR Discuss how you would develop skills for future warehouse work.
+_80
+@BULLET
+Which warehouse skills do you most need to develop, and how would you develop them?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Essential Skills for Warehouse Work
+@INSTR Prepare a presentation about the most important skills for reliable records.
+_80
+@NUM 100
+1. Present the measurement, method and character skills that warehouse work requires.
+_300
+@EX Part 5: RolePlay - Job Interview for a Stock Controller Position
+@INSTR Roleplay a job interview for a stock controller position discussing your skills and qualities.
+_80
+_300
+@EX Part 5: Discussion - Developing Skills for Accuracy
+@INSTR Discuss how to develop skills and qualities for accurate records.
+_80
+@BULLET
+How can a storekeeper develop measurement, method and the reading of figures over a career?
+_300
+@EX Part 5: RolePlay - Mentoring Conversation About Counts
+@INSTR Roleplay a mentor discussing skill development with a new storekeeper.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Skills Assessment
+@INSTR Write about your personal skills and how they could contribute to stock control work.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - How a Skill Changed Your Work
+@INSTR Write about how developing a specific skill improved your accuracy or understanding.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Training Program for Warehouse Skills
+@INSTR Write a proposal for a training program to develop stock control and record-keeping skills.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Building Your Professional Identity
+@INSTR Write a reflection on how you would develop yourself into a future warehouse manager.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Warehousing and Stock Control Excellence in Morocco
+@INSTR Read about exemplary warehouse management in Morocco and answer detailed questions.
+_80
+@PANEL
+Moroccan warehouse teams demonstrate exceptional judgement, skill, and commitment despite real difficulties. They work with heat that can spoil a pallet between one count and the next, recording by hand and reconciling later. They hold cold stock through long road journeys, moving product between rooms to protect it. They keep records for thousands of movements with help from trainees.
+Moroccan logistics staff understand local handling deeply. They know how far a pallet travels on a mountain road, what a cold store costs through a hot summer, and the real risk of holding stock as these behave in local circumstances. This knowledge helps them judge which lines matter for a count and which do not. They read the market, know the supply chain, and understand shortage because many have financed a shipment themselves.
+The commitment of Moroccan warehouse teams is remarkable. Many work long hours for modest salaries or no overtime. Many face real pressure when an honest count would hold a load. Many have rebuilt a whole stock system yet continue reporting honestly. Their dedication demonstrates that careful record-keeping emerges from deep internal conviction—a personal relationship with the goods and a commitment to protecting them.
+International partners often say that Moroccan colleagues teach them what real resourcefulness looks like. The persistence, improvisation and route knowledge of local staff inspires and humbles those with easier conditions. This partnership between international support and local knowledge produces the most reliable records available.
+@NUM 100
+1. What challenges do Moroccan warehouse teams face?
+2. Why is local handling knowledge valuable in stock control work?
+_300
+@EX Part 7: Discussion - Mutual Learning Between Logistics Staff
+@INSTR Discuss what international and local logistics staff can learn from each other.
+_80
+@BULLET
+What can international and Moroccan logistics staff teach each other about storing under pressure?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 4 Summary - Skills and Qualities
+@INSTR Review Unit 4 by matching skills and qualities with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Measurement
+2. | Stock Method
+3. | Record Discipline
+4. | Integrity
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Handling counts, weights and dimensions correctly
+b) | Deciding which lines to count first and how to treat a part carton
+c) | Writing the figure at the time, signed and dated
+d) | Marking an estimate as an estimate even when a deadline presses
+_300
+@EX Part 8: Integrated Assessment - Unit 4 Mastery
+@INSTR Demonstrate understanding of Unit 4. Choose the best answer.
+_80
+@MCQ
+1. What two types of skills must logistics staff develop for warehouse work?
+@OPT
+   ○ A) Only counting
+   ○ B) Measurement and method skills like classification and recording
+   ○ C) Only salary negotiation skills
+@MCQ
+2. Why are character qualities like patience and integrity important in warehouse work?
+@OPT
+   ○ A) They increase salaries and benefits
+   ○ B) They turn counting into professional responsibility others can rely on
+   ○ C) They are not really important
+@MCQ
+3. How do logistics staff best develop practical stock control skills?
+@OPT
+   ○ A) Only through classroom training
+   ○ B) Through counting real stock and seeing the consequences, with mentoring support
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+4. What is the value of Moroccan logistics staff in international partnerships?
+@OPT
+   ○ A) They require supervision and have limited expertise
+   ○ B) They bring local handling knowledge, resourcefulness, and real understanding of the routes
+   ○ C) International partners do all the real work
+_300

@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Logistics Management | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Logistics Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: Logistics Manager Interview Understanding
+@SPEECH
+~Manager: Hello, my name is Rana. I am the logistics manager of a food company in Hanoi called Sông Hồng Distribution. My department plans the weekly routes, books the carriers, and makes sure every consignment leaves on the agreed day.
+~Manager: We have a storekeeper, a route planner and two dispatchers who meet every morning. We set the delivery targets, check arrivals against them, and decide what to do when a lorry is held. We also train the people who join us.
+~Manager: My department reports to the general manager and to the customers, who confirm the service terms each year. Students from the institute also work with us as trainees. Our goal is simple - we want every customer to trust the date we give.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Logistics Work - True or False
+@SPEECH
+^Operations Manager: There are many kinds of logistics work in Vietnam. Some staff run warehouses, others run transport, and many look after customs and documentation. The national business register records every forwarder that trades.
+^Operations Manager: Warehouse managers plan space, picking and stock counts. Transport managers plan routes, vehicles and maintenance. Customs clerks prepare declarations, present documents and answer the inspector when a consignment is examined.
+^Operations Manager: International shipping lines also audit Vietnamese forwarders. Together with local staff, they move thousands of consignments every year. All logistics staff share the same goal - to deliver complete goods on the promised day.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Logistics Aims and Goals Understanding
+@SPEECH
+~Operations Manager: Our transport department works to deliver every consignment on the agreed day. We plan the week, track the vehicles hour by hour, and re-route a load when a crossing closes.
+^Finance Manager: My department looks after the freight money. We prepare the freight budget, pay the carriers and check every invoice against the rate agreed. We teach the team that a cheap rate with a long wait costs more than it saves.
+~Manager: We are the customer service section. We believe a date kept is worth more than a low rate. We agree the quantity, the route and the delivery day, and we tell the customer early when something changes.
+^All Managers: All of us report to the general manager. We work to the freight budget approved each year and to the orders our customers have placed. We have trainees from the institute who help us every day. This is why the company keeps its customers.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Logistics Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: Logistics Careers and Roles | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Logistics Job Descriptions
+@SPEECH
+~Narrator: A transport manager works on the loading bay. The manager plans the week's routes, watches the cost of each kilometre, and solves problems as they appear.
+~Narrator: A warehouse manager in a depot controls the stock and the picking. The manager watches the condition of the goods, signs the releases, and reports the counts.
+~Narrator: A logistics manager leads the whole supply chain. The logistics manager agrees the service plan with the customers, sets the depots their targets, and answers for the result.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in logistics?
+^Manager: I have worked in logistics for eight years. I started as a shift dispatcher and became a transport manager after three years.
+~Interviewer: What sectors have you worked in?
+^Manager: I have worked in textiles, food distribution, and pharmaceuticals. I have planned routes for fleets of very different sizes.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with a Logistics Manager
+@SPEECH
+~Interviewer: Tell us about your work here.
+~Coordinator: I am the logistics manager. I agree the service plan with the customers, set the depots their targets, and answer for the result. I have worked here for four years. Every day is different. Some days I am with customers and other days on the bay.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the fuel. A rate quoted in March may not cover the cost in June, and some spare parts cannot be obtained at all. We must be resourceful and quote only what we can hold. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many companies run training programmes for new logistics staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in routing, documentation, and running a store. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Logistics Challenges
+@SPEECH
+^Speaker1: Working in a logistics team is very challenging. We have scarce fuel, which means we cannot run every route weekly. Sometimes one driver covers two rounds alone.
+~Speaker2: I agree. We also struggle with the roads. Many customers are far away, and we have only two vehicles for the whole depot, so deliveries have to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as a dispatcher. Have you thought about training toward a transport manager position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, routing, and communication ability. We can provide training through our own mentoring and depot rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility.
+_200d
+@H2 Unit 3: Customs, Documentation and Compliance | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Compliance Vocabulary in Action
+@SPEECH
+^Worker1: When the complaint arrived, we immediately pulled the file. We started with the contract and the delivery notes, checking what had actually been agreed order by order.
+~Worker2: The older consignments were extremely difficult. Many had been sent before the booking was confirmed and carried no written terms at all. Our priority was to agree terms in writing for everything still in transit.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a discrepancy is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the consignment may be forfeited.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the documents first. Should we also involve the broker?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Investigation Process
+@SPEECH
+^Coordinator: When a shortage is found, we immediately start gathering information. We interview the people who handled the consignment and record what they say. We examine the delivery notes and the gate records. We check whether the seal was intact and who broke it. We review the counts to confirm what is actually missing. We identify whether other consignments are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the remaining cargo and informing the customer. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the claim is settled. The findings are shared with transport and warehousing to avoid repetition and ensure the whole cause is addressed.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Compliance Challenges
+@SPEECH
+~Reviewer: Compliance for an older forwarder presents extreme challenges. We lack records for most of the earlier shipments. We discover a gap only when an officer asks. Permits expire at different times through the year. Despite these obstacles, we do our best with the papers available. We prioritize the obligations that protect people. This is why an internal check before an inspection is essential.
+^LegalOfficer: The carriage contract situation is critical. Loads were carried for years with nothing in writing. This creates a high risk for the shipper and for the carrier. We work quickly to issue a written contract for everyone. We train dispatchers to keep the records the law requires. Without a contract, neither side can prove what was agreed.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Compliance Work
+@SPEECH
+~Field Officer: I came to this work because I wanted our shipments to clear without argument. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a container released for the first time and a claim avoided because a packing list was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Warehousing, Inventory and Measurement | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Stock Control Skills in Action
+@SPEECH
+~Worker1: I work as a cost clerk. I use method to record every material, hour and delivery in order. I must be patient because a long job takes weeks, and careful because one wrong hour changes the price of a whole order.
+^Worker2: As a warehouse manager, I need organization skills to manage the stocktake and the audit at once. I also need judgement when the stock card contradicts the shelf, and flexibility because every delivery here arrives a little differently.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Stock Control
+@SPEECH
+^Manager: When we train new staff, we focus on developing both measurement and method skills. A good storekeeper must know how to count a part pallet, but must also record the figure in a way others can follow. A good manager must count accurately, but must also understand what the number will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from a lost pallet is more valuable than never taking responsibility for a count. We want our staff to be confident enough to sign their figures even when the bay is busy.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Warehouse Skills
+@SPEECH
+~Coordinator: As a stock controller, I must combine careful counting with judgement. I follow the method exactly, but I also decide when a figure looks wrong and must be recounted. Many lines move faster than the record allows. I recount one valuable line every week so I know how far my records have drifted. This requires measurement and honest recording.
+^Manager: As warehouse manager, I coordinate many counts and reports. I must have organizational skills to manage the stocktake and the audit. I must have leadership to refuse a release that has no paperwork when drivers are waiting. I need problem-solving abilities when the stock card contradicts the shelf. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Counting on the loading bay requires very different skills than office work. I must build trust with the pickers over weeks so they tell me what was really taken. I can never be rushed—a count taken badly is worse than no count. I need flexibility because every delivery arrives differently. I must be humble enough to learn the layout from the people working it. This is how we produce records nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many logistics staff develop their best skills not in lectures but on the job. A storekeeper learns judgement by seeing a pallet go missing, by watching one unrecorded issue change a count, and by correcting a card nobody could follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New storekeepers work alongside experienced ones so an error is caught on paper rather than at the customer.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Coordinator: I came to logistics from mathematics teaching with plenty of theory but no idea about warehouses. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to count when the pallets were mixed, when the labels were missing, when we had no layout plan at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good storekeeper in a small shop, but a distribution centre was different. In a shop, every item was in front of me. In a centre, I had to find the stock myself in locations nobody had written down. I learned to be systematic and accept that perfect records were impossible. I learned that a stated estimate serves the customer better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: The Transport Planning Cycle | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Logistics Staff Explain Planning
+@SPEECH
+~Manager1: In my transport fleet, we began by driving the route and asking the drivers what the road could really take in a day. We learned that the crossing set the limit, not the vehicles everyone had been talking about.
+^Manager2: My distribution depot required careful budgeting because fuel was scarce. I had to choose between a new lorry and repairing three old ones. I chose the repair the drivers could maintain themselves, using parts their own workshop could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Planning Discussion
+@SPEECH
+~Coordinator: When we plan a season, several grammatical structures help explain our work clearly. We say "The customers must approve the service objective before we build the plan" using modals. We explain "If we forecast carefully, the vehicles will not run out" using conditionals. We describe "The plan is reviewed by the customers" using passive voice to show the action.
+~Coordinator: We say "We drive the route to understand the road" showing purpose. We explain order with words like "First we agree, then we plan, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to carriers, to customers, and to our own driver team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Logistics Staff Explain Challenges
+@SPEECH
+^Manager: In my transport fleet, I faced a challenge when trained drivers left for work abroad. We had invested in their licences and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra drivers and cross-trained loaders so leaving staff would not stop the routes. The lesson was that a budget must include retention, not just wages.
+~Coordinator: My distribution business faced a fuel problem. We had quoted a customer a rate in March but the diesel in June cost a very different amount. The customer became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the rate held. We also began holding a small reserve of fuel. Now I always build a fuel assumption into every plan.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Planning
+@SPEECH
+~Operator: When the managers planned this year, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They walked every shift with us and changed the targets after we spoke.
+^Quality Supervisor: From my side, I have learned that agreeing the service objective and holding the meetings takes much longer than customers expect. They want the plan in a week. But the time spent before the figures is what makes the plan achievable.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Planning Lessons Learned
+@SPEECH
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When customers, depots and carriers all understand the same service objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into refused deliveries. Now I spend significant time ensuring all parties understand exactly what will arrive, when, and at what rate. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the drivers and the customers before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200d
+@H2 Unit 6: Working with Carriers and Suppliers | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Customers
+@SPEECH
+~Supplier: When the forwarder came to us, they asked what we could realistically carry for the cotton contract. They did not tell us what we would be signing. We chose which loads we could take and which days we could meet, and we are proud of the result.
+^Supplier: A joint arrangement failed here before this one. The buyer decided everything without asking. They set a delivery date our transport could never meet and nobody checked whether it was possible. This time we were asked, and the contract holds.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When forwarders work with us, not only for us, the language changes. They use phrases like "together we agreed the day" instead of "we informed them." They use passive voice "our own receiving hours were taken into account" showing respect for our planning. They express appreciation "we value your long business" making us feel like partners.
+^Leader: Language reveals whether a forwarder truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late arrival. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~Manager: From our side, we want to give customers the days they ask for but we have a fleet with limited capacity. We have other customers already in the schedule and fuel we cannot always obtain. So we must navigate between the customer's wishes, the fleet's capacity, and what the rates allow. Good partnerships require honest conversations about these constraints. We have learned that customers accept a later day when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the receiving side, we want clarity and consistency. We understand carriers have constraints of their own. We accept a later day when it is stated in writing and then kept. What frustrates us is a day that moves after the booking is confirmed. We want to be told early when something changes, not discover it from an empty bay. We want our own planning to count for something.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending certainty. When a customer asks a technical question about the transit time, I tell them I will check with the depot and come back with an answer.
+~Manager: I also learned to say "we cannot do that" clearly. Customers sometimes ask for a day the fleet cannot meet. Saying so honestly, and offering the earliest day we can hold, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Manager: Building logistics partnerships is like building friendships. You cannot rush it. You must spend time understanding their operation. You must visit when you do not need anything, not only when you want a vehicle. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own loading was late. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one booking where delivery is easy to get right, such as a single short run. This builds confidence for larger business. Also, confirm the result in writing. Let the carrier show our letter to their own management. This builds their internal case for working with us again and motivates the next booking.
+_200d
+@H2 Unit 7: Freight Forwarding and Customer Service | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Sales Representative Stories
+@SPEECH
+~Manager: When I started in sales, I realized the selling and the delivering are inseparable. Shippers won from towns with late deliveries were lost again within a season. The advertising meant nothing because nobody booked a second time.
+^Analyst: I began a claim record in my office. I wrote down what every receiver actually said. But the company could not act on any of it because nobody owned the despatch. Once we gave despatch a named manager, the record finally changed what we did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Service Language
+@SPEECH
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have capacity that holds, a rate the market can pay, and transit times we can rely on. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust a forwarder whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the receiver. What we think is good service might not match what the storekeeper experiences. We hold regular visits with the receivers. They tell us that a delivery arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Forwarding Barriers
+@SPEECH
+~Manager: We recognized that distance was our biggest barrier. Our representatives could not reach the smaller towns often enough to matter. So we brought the service closer. We appointed one trusted agent in each town and supplied them on agreed terms. For the larger accounts, we kept our own representative visiting monthly. This reduced the distance barrier immediately. Bookings improved dramatically once a local name stood behind the service.
+^Manager: Rate was our barrier. Shippers wanted our service but could not afford a full vehicle. We discovered that groupage worked better than a lower rate. We offered part-loads and a shorter credit period. We charged the large shippers the full rate, which helped carry the small ones. This mixed approach kept the vehicles full and kept the margin intact.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Forwarding and Service
+@SPEECH
+~Manager: Integration requires clear roles. We defined what sales owns and what despatch owns. Sales agrees the day with the customer, and despatch confirms it can be met before the booking is accepted.
+~Manager: Integration also requires honest communication about problems. Sometimes a booking was accepted when the bay was full. Sometimes despatch wanted a loading day the customer could not take. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and let the plan be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Customer Impact from Better Service
+@SPEECH
+~Manager: My shop used to order through this forwarder and sometimes the delivery came a week late with no warning. The company began telephoning the day before and telling us what was actually coming. After that, I could plan my bay and my own orders. Coordinating the plan and the despatch solved a problem nobody had seen before. Now I book with them with confidence.
+^Manager: The shop now receives a note with each delivery. It lists what was sent and what is short. When I asked about a missing carton, the salesman showed me the record and sent it the next week. What the office does actually reaches the shop and changes what we can rely on. Before, the booking and the delivery were separate and nothing connected. Now it all connects. My customers are better served.
+_200d
+@H2 Unit 8: Performance Measurement and Reporting | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Reporting Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Improvement Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Indicator Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Result Interpretation
+_200d
+@H2 Unit 9: Growth, Change and Scaling the Network | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Growth Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Carrier Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Management Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Cost of Growth Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: Logistics Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to a Driver's Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to an Official's Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Association Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Results Reflection
+_200d

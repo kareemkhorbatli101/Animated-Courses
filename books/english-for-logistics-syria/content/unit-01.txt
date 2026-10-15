@@ -1,0 +1,642 @@
+@VOICES Manager | Operations Manager | Finance Manager | All Managers
+@UNITHEAD Unit 1: Introduction to Logistics Management
+@PART Warm Up | Warm Up
+@EX Warm-up: Logistics Terms and Functions Matching
+@INSTR Match logistics terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Logistics management
+2. | Lead time
+3. | Freight
+4. | Transit time
+5. | Inventory
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The goods carried from one place to another, and the charge made for carrying them
+b) | The hours or days a consignment spends actually travelling between two points
+c) | The work of planning how goods will move and making sure that they arrive
+d) | The whole time between placing an order and having the goods on the shelf
+e) | What the company is holding in its stores and vehicles at this moment
+_300
+@EX Warm-up: What Is Logistics Management? Simple Vocabulary Fill
+@INSTR Complete sentences about logistics management using the words provided.
+_80
+@GAP
+1. Logistics management is different from ____________________ because it plans the whole movement instead of driving one vehicle.
+2. Every route is measured against the ____________________, which states what the movement may cost.
+3. A consignment that reaches the customer on the promised day is recorded as ____________________.
+4. Forwarders are ____________________ professionals who must be trained before they may sign a declaration.
+_300
+@EX Warm-up: Types of Logistics Work Classification
+@INSTR Classify each task as Planning, Storing, Moving, or Controlling.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Storing
+3. Moving
+4. Controlling
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing next quarter's shipping plan and the freight budget to deliver it  ____________________________
+2. Deciding which bay each pallet goes to and who may release it  ____________________________
+3. Booking the lorry and sealing the container for the port  ____________________________
+4. Comparing this month's freight spending with the budget  ____________________________
+5. Choosing which two of five routes to use this season  ____________________________
+6. Checking that every delivery note was signed before the invoice was paid  ____________________________
+_300
+@EX Warm-up: Purposes of Logistics Management Multiple Choice
+@INSTR Read about logistics management and choose the correct answer to each question.
+_80
+@PASSAGE
+Logistics management is the work of planning how goods will move and making sure they actually arrive. Logistics managers think about what the customer was promised, what the company can afford, and how the goods will travel. Logistics management covers many kinds of work including routing, warehousing, customs clearance, booking carriers, reporting, and reviewing results. People choose to work in logistics because they want goods to reach the people who need them and promises to be kept.
+@MCQ
+1. What does planning mean in logistics management?
+@OPT
+   ○ A) Reacting to a delay after the customer complains
+   ○ B) Deciding in advance how the goods will travel and what it will cost
+   ○ C) Sending every consignment by the cheapest carrier available
+   ○ D) Hiding a late delivery from the customer
+@MCQ
+2. Which is NOT a common task for a logistics manager?
+@OPT
+   ○ A) Preparing a freight budget for the year
+   ○ B) Writing a monthly report on delivery performance
+   ○ C) Driving the delivery lorry all day
+   ○ D) Checking that freight spending stayed within the budget
+_300
+@EX Warm-up: Logistics Documents and Tools Matching
+@INSTR Match well-known logistics documents and tools with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Bill of lading
+2. | Packing list
+3. | Customs declaration
+4. | Delivery note
+5. | Route plan
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A document the receiver signs to confirm what actually arrived and when
+b) | A contract of carriage naming the goods, the carrier, and where they must be delivered
+c) | A schedule showing which vehicle calls where, in what order, and at what hour
+d) | A list of what is inside each carton or pallet, with the weights and the counts
+e) | A statement to the authorities of what is being imported or exported, and its value
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Logistics and Transport Terminology Matching
+@INSTR Match logistics vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Lead time
+2. | Freight rate
+3. | Transit time
+4. | Consignee
+5. | Forwarder
+6. | On-time delivery rate
+7. | Stock count
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A physical check of whether the shelves hold what the records say they hold
+b) | An agent who arranges the carriage and the documents on behalf of the shipper
+c) | The person or company named to receive the goods at the destination
+d) | A figure chosen to show whether deliveries arrive when they were promised
+e) | The hours or days a consignment spends actually travelling between two points
+f) | The price a carrier charges for moving one unit of weight, volume or distance
+g) | The whole time between placing an order and having the goods in the store
+_300
+@EX Part 1: Logistics Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important logistics vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about logistics, correct pronunciation helps others understand you clearly: // *• Logistics* - primary stress on GIS (lo-GIS-tics) // *• Consignment* - primary stress on SIGN (con-SIGN-ment) // *• Inventory* - primary stress on IN (IN-ven-to-ry) // *• Distribution* - primary stress on BU (dis-tri-BU-tion) // *• Documentation* - primary stress on TA (doc-u-men-TA-tion) // *• Pallet* - primary stress on PAL (PAL-let) // *• Negotiation* - primary stress on A (ne-go-ti-A-tion) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Logistics Activities and Purposes Table
+@INSTR Complete the table with logistics activities, their main purposes, and examples.
+_80
+@GRID
+Logistics Activity | Main Purpose | Example
+Planning |  | 
+Storing |  | 
+Controlling |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding in advance how the goods will travel and what the movement will cost
+b)  Setting next quarter's delivery target and the freight budget that supports it
+c)  Arranging space, equipment and people so that goods can be held and found again
+d)  Numbering the bays and naming who may release a pallet from the store
+e)  Comparing what actually arrived with what was planned and promised
+f)  Reviewing last month's freight invoices against the rates agreed
+_100
+_300
+@EX Part 1: Logistics Functions and Stages Matching
+@INSTR Match logistics functions with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Planning
+2. | Storing
+3. | Moving
+4. | Controlling
+5. | Reviewing
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Looking back at a completed season to learn what should be routed differently
+b) | Booking the carrier, loading the vehicle and keeping the consignment travelling
+c) | Comparing what arrived with what was promised and correcting the difference
+d) | Arranging space, equipment and labelling so that goods can be held and found
+e) | Deciding in advance how goods will travel, by which route, and at what cost
+_300
+@EX Part 1: Logistics Management Concepts Multiple Choice
+@INSTR Read about logistics work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Logistics staff work in many sectors to make supply chains faster and more reliable. Some focus on warehousing, planning space and controlling damage. Others work in transport, where every vehicle must be loaded and every delivery recorded. Many logistics staff also work with customs brokers to confirm that documents match the goods. All of them share the goal of goods that arrive complete, undamaged and on the agreed day.
+@MCQ
+1. A ____________________ states what the company may spend on moving goods over a stated period.
+@OPT
+   ○ A) report
+   ○ B) freight budget
+   ○ C) invoice
+   ○ D) receipt
+@MCQ
+2. The charge a carrier makes for moving one unit of weight or volume is called the ____________________.
+@OPT
+   ○ A) margin
+   ○ B) duty
+   ○ C) freight rate
+   ○ D) deposit
+@MCQ
+3. The whole time between placing an order and having the goods on the shelf is the ____________________.
+@OPT
+   ○ A) transit time
+   ○ B) lead time
+   ○ C) loading time
+   ○ D) waiting time
+_300
+@EX Part 1: Logistics-Related Vocabulary Fill-in
+@INSTR Complete sentences using important logistics vocabulary.
+_80
+@GAP
+1. A forwarder is a ____________________ professional who must be trained before signing a declaration.
+2. ____________________ load the vehicles and pick the orders that logistics staff then plan.
+3. The ____________________ decides whether the delivery arrived when it was promised.
+4. All routing begins with a clear ____________________ describing what must arrive and by when.
+5. The goods still held in the store after every order is picked are called the ____________________.
+6. Stock records are ____________________ regularly so the company can trust the figures.
+_300
+@EX Part 1: Syria's Logistics Environment and Trade Routes
+@INSTR Read about logistics work in Syria and answer the factual questions.
+_80
+@PANEL
+Syrian Logistics Institutions and Trade Routes
+Syria sits on old trade roads between the Mediterranean, Türkiye, Iraq and the Gulf. A forwarder is entered in the commercial register before it may trade, the General Customs Directorate clears every import and export, and the General Company for Land Transport and the port authorities at Latakia and Tartous handle the freight itself.
+Many logistics firms in Syria are family businesses. Some run lorries to Beirut, Amman and the Turkish border crossings. Others operate warehouses and cold stores for food, pharmaceuticals and textiles, where Syrian goods are consolidated before export. Since the conflict, much logistics work has gone into repairing routes, finding new crossings and holding on to customers abroad.
+International buyers and shipping lines also work with Syrian forwarders. They bring bookings, training in documentation, and knowledge of what an importing country will accept. Partnerships between Syrian firms and foreign carriers strengthen the capacity to move goods abroad.
+Logistics staff in Syria often face challenges including fuel that is costly and scarce, roads and bridges that were damaged, and long waits at a crossing. Despite these obstacles, they remain committed to delivering complete consignments and rebuilding confidence in Syrian supply.
+@NUM 100
+1. What must happen before a forwarder may trade in Syria?
+2. Name three kinds of goods Syrian warehouses and cold stores hold.
+3. What do international buyers and shipping lines contribute to Syrian forwarders?
+4. What challenges do logistics staff in Syria face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Logistics Work
+@INSTR Complete sentences about what logistics staff do using the present simple tense.
+_80
+@GAP
+1. A logistics manager ____________________ (approve) every booking before the vehicle is loaded.
+2. Storekeepers ____________________ (report) the day's dispatches to the manager.
+3. The clerk ____________________ (check) the freight invoices once a month.
+4. Logistics staff ____________________ (record) every consignment they hand over.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes logistics management a distinct profession.
+_80
+@NUM
+1. Forwarders are ____________________ (accountable) to the shipper for the goods they accept.
+2. Logistics staff are responsible because they ____________________ (responsible) for goods that belong to others.
+3. The purpose of logistics is to ____________________ (deliver) what was promised, complete and on time.
+_300
+@EX Part 2: Negative Sentences About Logistics Staff
+@INSTR Rewrite sentences in the negative form to show what logistics staff do NOT do.
+_80
+@GAP
+1. Logistics managers ____________________ (drive the vehicles) - they plan, book and check.
+2. A manager ____________________ (release) a consignment without a signed delivery note.
+3. Logistics staff ____________________ (promise) a customer a date the carrier cannot meet.
+4. Storekeepers ____________________ (record) a pallet they have not actually counted.
+_300
+@EX Part 2: Manager and Team Roles Table
+@INSTR Complete the table with roles and what the MANAGER does vs. what the TEAM does.
+_80
+@GRID
+Movement Stage | What the MANAGER does | What the TEAM does
+Before loading |  | 
+In transit |  | 
+On arrival |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Agrees the route, the carrier and the freight rate for the consignment
+b)  Picks the order, packs it and labels every carton and pallet
+c)  Tracks the vehicle and removes obstacles at the crossing as they appear
+d)  Drives, guards the load and keeps the paperwork with the goods
+e)  Reviews what arrived and reports the delivery to the customer
+f)  Unloads, counts the cartons, records damage and prepares the next load
+_100
+_300
+@EX Part 2: Correcting Logistics Sentences
+@INSTR Correct the grammatical errors in sentences about logistics management.
+_80
+@NUM 60
+1. Logistics managers approves every booking before the vehicle is loaded.
+@RULE
+@NUM 60
+2. A manager do not drive the lorry himself.
+@RULE
+@NUM 60
+3. Storekeepers reports the dispatches every day.
+@RULE
+@NUM 60
+4. Clerk checks the freight invoices once a month.
+@RULE
+@NUM 60
+5. The route are approved by the manager is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Logistics Sentences
+@INSTR Choose the grammatically correct sentence about logistics management.
+_80
+@PASSAGE
+When learning about logistics management, correct grammar helps us communicate clearly about goods, dates and responsibility. Selecting the best sentence shows understanding of routes, documents, and the roles of the people who move a consignment.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The manager approve every booking carefully.
+   ○ B) The manager approves every booking carefully.
+   ○ C) The manager are approving every booking carefully.
+   ○ D) The manager have approve every booking carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Logistics managers do not drives the vehicles.
+   ○ B) Logistics managers does not drive the vehicles.
+   ○ C) Logistics managers do not drive the vehicles.
+   ○ D) Logistics managers do not driving the vehicles.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Storekeepers report the dispatches every day.
+   ○ B) Storekeepers reports the dispatches every day.
+   ○ C) Storekeepers to report the dispatches every day.
+   ○ D) Storekeepers reporting the dispatches every day.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Logistics Manager Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to a logistics manager describing their company and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Hello, my name is Rana. I am the logistics manager of a food company in Damascus called Barada Distribution. My department plans the weekly routes, books the carriers, and makes sure every consignment leaves on the agreed day.
+~Manager: We have a storekeeper, a route planner and two dispatchers who meet every morning. We set the delivery targets, check arrivals against them, and decide what to do when a lorry is held. We also train the people who join us.
+~Manager: My department reports to the general manager and to the customers, who confirm the service terms each year. Students from the institute also work with us as trainees. Our goal is simple - we want every customer to trust the date we give.
+_200
+@QUESTION
+1. What is Rana's company called?
+2. What does her department do?
+3. Who does the department report to?
+_300
+@EX Part 3: Types of Logistics Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of logistics work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Operations Manager: There are many kinds of logistics work in Syria. Some staff run warehouses, others run transport, and many look after customs and documentation. The commercial register records every forwarder that trades.
+^Operations Manager: Warehouse managers plan space, picking and stock counts. Transport managers plan routes, vehicles and maintenance. Customs clerks prepare declarations, present documents and answer the inspector when a consignment is examined.
+^Operations Manager: International shipping lines also audit Syrian forwarders. Together with local staff, they move thousands of consignments every year. All logistics staff share the same goal - to deliver complete goods on the promised day.
+_200
+@QUESTION
+1. There are many kinds of logistics work in Syria.
+2. Warehousing is the only kind of logistics work in Syrian companies.
+3. The commercial register records every forwarder that trades.
+4. International shipping lines do not audit Syrian forwarders.
+5. All logistics staff work to deliver complete goods on the promised day.
+_300
+@EX Part 3: Logistics Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to managers explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Operations Manager: Our transport department works to deliver every consignment on the agreed day. We plan the week, track the vehicles hour by hour, and re-route a load when a crossing closes.
+^Finance Manager: My department looks after the freight money. We prepare the freight budget, pay the carriers and check every invoice against the rate agreed. We teach the team that a cheap rate with a long wait costs more than it saves.
+~Manager: We are the customer service section. We believe a date kept is worth more than a low rate. We agree the quantity, the route and the delivery day, and we tell the customer early when something changes.
+^All Managers: All of us report to the general manager. We work to the freight budget approved each year and to the orders our customers have placed. We have trainees from the institute who help us every day. This is why the company keeps its customers.
+_200
+@QUESTION
+1. What is the aim of the transport department?
+2. What does the finance department look after?
+3. What does the customer service section agree with a customer?
+4. Who do these departments report to?
+_300
+@EX Part 3: Logistics Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of logistics role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Warehouse manager
+2. | Transport manager
+3. | Customs clerk
+4. | Purchasing manager
+5. | Customer service manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Delivery promises, complaints, claims for damage and keeping the customer informed
+b) | Finding suppliers, agreeing prices and making sure materials arrive on time
+c) | Declarations, tariff codes, duty and the documents an inspector asks to see
+d) | Routes, vehicles, drivers, maintenance and the cost of each kilometre
+e) | Space, picking, stock counts and the condition of the goods in store
+_300
+@EX Part 3: Logistics Characteristics Classification
+@INSTR Classify each statement as a Feature of Logistics Work, A Challenge Logistics Staff Face, or A Benefit to the Business.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Logistics Work
+2. Challenge Logistics Staff Face
+3. Benefit to the Business
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A forwarder is accountable to the shipper for goods it accepts  ____________________________
+2. Fuel that is costly and sometimes unavailable  ____________________________
+3. Customers who come back because the date was kept  ____________________________
+4. Every consignment is recorded so it can be traced  ____________________________
+5. A crossing that closes without warning for three days  ____________________________
+6. Lower freight cost and less damage on every load  ____________________________
+7. Working with transport, warehousing and customs together  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Logistics Management? Reading Comprehension
+@INSTR Read the text about logistics management and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Logistics Management?
+Logistics management is the work of planning how goods move and making sure they arrive. A logistics manager sets delivery objectives, arranges the vehicles, space and documents to reach them, keeps the goods moving, and reports what arrived. Logistics works on routing, handling and control at the same time. 
+Logistics management exists in almost every organization in the world. It ranges from one owner with a van and a notebook to a network of depots moving ten thousand consignments a day. Well-known tools include the route plan, the freight budget, the delivery performance report, and the stock record.
+Logistics managers are paid by the company, but they must report a delay honestly even when the news is bad, because the customer cannot see the vehicle. They work closely with transport, warehousing and customs. Students work as trainees because they want to learn how goods really move.
+A delivery objective is a statement of what must arrive and by when. For example, a service objective states what share of orders will arrive on the promised day. A cost objective states what a kilometre or a pallet may cost to move. A condition objective states how little damage is acceptable. All objectives describe something the company has promised.
+Logistics managers are essential because somebody must choose between routes that cannot all be afforded. They prepare the plans, agree the rates, and keep the records that show what was shipped. Customers, carriers and staff all benefit from careful logistics.
+@MCQ
+1. What is logistics management?
+@OPT
+   ○ A) Only reacting to delays after they appear
+   ○ B) Planning how goods move and making sure they arrive
+   ○ C) Sending every load by the cheapest carrier
+   ○ D) Driving the delivery vehicles
+@MCQ
+2. Why must logistics managers report a delay honestly even when the news is bad?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) Because the customer cannot see the vehicle
+   ○ C) Because transport is not important
+   ○ D) To reduce the cost of documentation
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how goods really move
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Functions of Logistics and Examples - True or False
+@INSTR Read about the functions of logistics and mark statements as True, False, or Not Given.
+_80
+@PANEL
+The Functions of Logistics and Their Purposes
+Logistics staff do many different kinds of work. Planning decides in advance how goods will travel, by which route, and at what cost. It prevents the company from promising a date no vehicle can meet.
+Storing arranges the space, equipment and labelling so the plan can be carried out. It decides which bay holds which product, who may release a pallet, and where each count is recorded. Without it, one order is picked twice and another is never found.
+Moving books the carrier, loads the vehicle and keeps the consignment travelling. It settles what happens at a crossing, re-routes a load, and gives the driver the authority to act. Good moving is why goods still arrive when a road closes.
+Controlling compares what arrived with what was promised. It reviews freight spending against the budget, arrivals against the delivery target, and damage against the condition standard. Where there is a difference, it finds the cause.
+Reviewing looks back at a completed season rather than at a single load. It asks whether the routes were the right ones and what should be done differently next year.
+All these functions work together to keep goods moving. They depend on accurate records and on figures that are reported at the time the work is done.
+@NUM 100
+1. Planning only decides which bay holds which product.
+2. Storing decides who may release a pallet.
+3. Controlling compares what arrived with what was promised.
+4. Moving matters only when every road is open.
+5. Reviewing looks back at a completed season.
+_300
+@EX Part 4: Logistics in Syria - Fact Questions
+@INSTR Read about logistics work in Syria and answer the detailed questions.
+_80
+@PANEL
+Logistics in Syria: History and Current Work
+Syria has a long history of carriage. Damascus and Aleppo stood on the caravan roads for centuries, and the Hejaz railway carried goods and pilgrims for a hundred years. Formal regulation began with the commercial register, which records every forwarder that trades, and with the customs houses that clear what crosses the border.
+Today, many kinds of logistics work are carried out in Syria. Some staff run small family fleets. Others work with international shipping lines and buyers. Together they address critical needs in supply, employment, export earnings and the repair of broken routes.
+Forwarders help Syrian goods reach markets abroad. They agree rates and dates, prepare the documents an importing country demands, and arrange carriage and insurance. Transport managers watch the fuel and protect the load from a route that closes without warning.
+After the conflict, logistics staff have had to rebuild routes that were damaged or cut. They repair vehicles, find new crossings, retrain drivers, and persuade old customers that the goods can arrive again.
+Warehouse managers work to keep stock safe despite interrupted power and old buildings. Transport managers travel long distances to clear one consignment.
+The work of logistics staff is challenging. They operate with scarce fuel and often with damaged roads. But they remain committed to delivering goods and rebuilding confidence in Syrian supply. International partnerships help local firms reach customers abroad.
+@NUM 100
+1. What carried goods and pilgrims in Syria for a hundred years?
+2. What are three areas that logistics staff address in Syria?
+3. What do forwarders do to help Syrian goods reach markets abroad?
+4. What challenges do logistics staff in Syria face?
+_300
+@EX Part 4: Logistics Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Moving Goods, A Feature of the Profession, or A Service Logistics Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Moving Goods
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of fuel and the carrier's rate for each consignment  ____________________________
+2. Being accountable to the shipper for goods you accept  ____________________________
+3. Preparing the route plan and reporting arrivals each month  ____________________________
+4. The value of goods damaged in handling and never sold  ____________________________
+5. Responsibility for property that belongs to somebody else  ____________________________
+6. Agreeing a rate and a delivery day with a customer and keeping it  ____________________________
+7. The annual fee for the commercial register and the transport licences  ____________________________
+_300
+@EX Part 4: Logistics Impact and Importance Matching
+@INSTR Match logistics contributions with their importance and impact on the business.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Clear Delivery Objectives
+2. | Accurate Freight Budgeting
+3. | Carrier Management
+4. | Honest Reporting of Delays
+5. | Complete Consignment Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at handover prove what was sent and let a shortage be traced
+b) | A customer who is told early can change a plan while there is still time
+c) | Agreeing rates and capacity in advance stops a shortage of vehicles stopping a load
+d) | A plan of what may be spent means the company never books what it cannot pay
+e) | Everyone knows what must arrive and when, so no journey is wasted
+_300
+@EX Part 4: Logistics Importance and Role Completion
+@INSTR Complete sentences about the importance and role of logistics managers.
+_80
+@NUM
+1. Logistics managers are essential for ____________________ (choose) between routes that cannot all be afforded.
+2. One main role of a logistics manager is to ____________________ (decide) how the goods will travel.
+3. Logistics succeeds through ____________________ (work) with transport, warehousing and customs.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Logistics Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about logistics using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key logistics vocabulary with correct pronunciation: // *• Logistics (lo-GIS-tics)*: Planning how goods move and making sure they arrive // *• Consignment (con-SIGN-ment)*: The goods sent to one receiver under one document // *• Inventory (IN-ven-to-ry)*: The goods a company is holding in its stores // *• Distribution (dis-tri-BU-tion)*: Getting the goods from the depot to the customer // *• Documentation (doc-u-men-TA-tion)*: The papers that must travel with the goods // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Logistics Management and Its Work
+@INSTR Discuss these questions about logistics management with a partner:
+_80
+@BULLET
+What is a logistics manager and how is the work different from a driver's?
+What functions of logistics do you know, and what does each one decide?
+Why do you think logistics staff must report a delay honestly even when the news is bad?
+Can you name a route in Syria or your region and describe how you would plan it?
+_300
+@EX Part 5: Logistics Interview Role Play
+@INSTR Practice an interview about logistics management. One student is a customer asking questions. The other student is the logistics manager who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Logistics Management Facts
+@INSTR Prepare a presentation about logistics management. Cover what logistics managers are, the functions of logistics, and why logistics matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is a logistics manager?
+2. What functions of logistics exist and what are good examples?
+3. Why is logistics management important for our customers and staff?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Logistics Values and Professional Ethics
+@INSTR Read about logistics values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Logistics Values and Professional Principles
+Logistics staff are guided by important values and ethics in their work. Professional principles include honesty, accountability, competence, and care for the goods and people the work affects.
+Honesty means reporting what actually arrived, at the time it arrived. Logistics staff believe a delivery note signed before the count is worthless, and this is why every handover is signed and dated.
+Accountability means answering for goods you accepted and the bookings you made. Logistics staff accept that a load sent on the wrong route is theirs, not the weather's. This allows them to correct a mistake while the vehicle can still be turned.
+Competence means working only within what you are trained and licensed to do, and asking for help with the rest. A clerk does not sign a declaration they have not understood.
+Care for goods and people means remembering that the cargo belongs to somebody else and that a driver's safety matters more than an hour saved. This care allows staff to refuse a load that is unsafe or wrongly packed.
+These principles guide logistics staff every day. They explain why a forwarder's signature is trusted inside and outside the company. Following these values makes logistics effective and ethical.
+@MCQ
+1. What does professional honesty mean in logistics work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Reporting what actually arrived, at the time it arrived
+   ○ C) Making the arrival figures look better
+   ○ D) Serving only large customers
+@MCQ
+2. What does accountability mean?
+@OPT
+   ○ A) Working without any freight budget
+   ○ B) Blaming the weather for a poor routing decision
+   ○ C) Answering for goods you accepted and the bookings you made
+   ○ D) Ignoring the customer's instructions
+@MCQ
+3. Why is competence important for logistics staff?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow the customer's instructions exactly
+   ○ C) So they sign only what they are trained and licensed to understand
+   ○ D) So they can ignore the customs regulations
+_300
+@EX Part 7: Syrian Cultural Values and Logistics Work
+@INSTR Match Syrian cultural values with how they relate to logistics management and carriage.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a carter's knowledge of the road is remembered
+b) | Dignity means a date is given carefully, because a name stands behind it
+c) | Hospitality shapes a negotiation: a driver is fed and rested before terms are agreed
+d) | Respect for elders means the experienced forwarder trains those who come after
+e) | A family firm's name travels with its lorries, so a lost load is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Logistics Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Function of Logistics, or Logistics Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Function of Logistics
+3. Logistics Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Being accountable to the shipper for every consignment accepted  ____________________________
+2. Planning how goods will travel and at what cost  ____________________________
+3. Booking a carrier and recording the consignment number  ____________________________
+4. Responsibility for property that belongs to somebody else  ____________________________
+5. Controlling freight spending against the budget  ____________________________
+6. Agreeing a rate and a delivery day with a customer  ____________________________
+7. Working with transport, warehousing and customs together  ____________________________
+8. Storing goods so that every pallet can be found and released  ____________________________
+_300
+@EX Part 8: Integrated Logistics Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what a logistics manager is?
+@OPT
+   ○ A) A driver who knows one route very well
+   ○ B) A government official who issues transport licences
+   ○ C) A trained professional who sets delivery objectives, arranges carriage and space, keeps goods moving and reports arrivals
+   ○ D) A salesperson who finds customers for the carrier
+@MCQ
+2. What is a main difference between a logistics manager and a driver?
+@OPT
+   ○ A) A manager has an office; a driver does not
+   ○ B) A manager decides how goods will travel and at what cost; a driver moves them
+   ○ C) A manager works only in cities; a driver works everywhere
+   ○ D) A manager uses only paperwork; a driver uses only vehicles
+@MCQ
+3. How is logistics work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the carrier directly
+   ○ C) By the company and its customers, to whom the manager reports honestly
+   ○ D) By charging high rates to small shippers
+@MCQ
+4. Which is an example of a delivery objective?
+@OPT
+   ○ A) Moving as many pallets as possible every day
+   ○ B) Delivering 95 per cent of orders on the promised day by June
+   ○ C) Following the customer's instructions exactly
+   ○ D) Keeping the arrival records away from the customer
+_300

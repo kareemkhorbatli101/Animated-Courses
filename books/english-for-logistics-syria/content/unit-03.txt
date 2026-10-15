@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Officer
+@UNITHEAD Unit 3: Customs, Documentation and Compliance
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Is Customs Compliance?
+@INSTR Discuss your understanding of the rules that govern goods crossing a border.
+_80
+@BULLET
+What do you know about customs rules and the bodies that clear and inspect goods?
+_300
+@EX Warm-Up: Matching - Shipping Risks
+@INSTR Match shipping risks with appropriate control requirements.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Goods seized at the border
+2. | Consignment lost in transit
+3. | Undervalued declaration
+4. | Damaged cargo
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Requires a bill of lading, agreed terms and a record of every handover
+b) | Requires a correct tariff code and the licence the goods actually need
+c) | Requires packing to standard, marking, and a record of every inspection
+d) | Requires a true invoice, a filed declaration and an independent audit trail
+_300
+@EX Warm-Up: Text - Compliance Principles
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of good customs compliance?
+@OPT
+   ○ A) Keeping the authorities uninformed so clearance is faster
+   ○ B) Declaring the goods truthfully and keeping the records that prove it
+   ○ C) Applying the rules only to large shipments
+_300
+@EX Warm-Up: Discussion - Why Customs Rules Matter
+@INSTR Discuss the importance and challenges of customs compliance.
+_80
+@BULLET
+Why are customs rules important for the traders and customers of today?
+_300
+@EX Warm-Up: Vocabulary Classification - Compliance Terms
+@INSTR Classify legal and non-legal concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Legal requirement
+2. Commercial choice
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Filing a customs declaration before the goods are released  ____________________________
+2. The carrier's livery and the colour of the trailer  ____________________________
+3. Issuing a bill of lading for every consignment accepted  ____________________________
+4. Paying the duty assessed on an imported shipment  ____________________________
+5. Choosing which crossing to send this month's loads through  ____________________________
+6. Keeping records that show every receipt and release of goods  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Shipping Document
+@INSTR Match shipping documents with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Bill of lading
+2. | Air waybill
+3. | Certificate of origin
+4. | Customs declaration
+5. | Letter of credit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A document naming the goods and the carrier for a shipment flown by air
+b) | A contract of carriage for goods moved by sea, which also proves title
+c) | A statement to the authorities of what is crossing the border and its value
+d) | A bank's promise to pay the seller once the stated documents are presented
+e) | A paper from a chamber of commerce stating where the goods were produced
+_300
+@EX Part 1: Compliance Words
+@INSTR Complete the table with vocabulary related to customs and documentation.
+_80
+@GRID
+Term | Meaning | Who it concerns
+Consignor |  | 
+Tariff code |  | 
+Incoterms |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The person or company sending the goods and named on the document
+b)  The seller and the carrier who accepts the load
+c)  The number that decides what duty a product pays on import
+d)  The declarant and the customs officer who checks it
+e)  The agreed rules saying who pays for carriage and who carries the risk
+f)  Everyone in the contract, including the insurer and the bank
+_100
+_300
+@EX Part 1: Fill Blanks - Compliance Vocabulary
+@INSTR Complete sentences using customs and documentation vocabulary.
+_80
+@GAP
+1. Before imported goods may be released, a customs ____________________ must be filed.
+2. A shipment by sea travels under a bill of ____________________.
+3. The number that decides what duty a product pays is its ____________________ code.
+4. The ____________________ is the independent professional who reports on whether the records are true.
+_300
+@EX Part 1: Vocabulary in Context - Inspection Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+When a consignment is inspected, a process follows. The first phase involves a document review to confirm every required licence and certificate exists. Officers then conduct a physical examination by comparing what the cartons actually hold against what the declaration says. Discrepancies are raised and classified as serious or minor. The declarant submits corrections with evidence. Coordination between customs and the health authority prevents contradictory findings and ensures the inspection covers the whole consignment.
+@NUM 100
+1. What does 'physical examination' mean in the inspection process?
+2. Why is 'coordination' important between customs and the health authority?
+_300
+@EX Part 1: Discussion - Compliance Terms in Real Situations
+@INSTR Discuss how compliance vocabulary applies to real shipments.
+_80
+@BULLET
+Think of a shipment you know. What compliance words apply to that situation?
+_300
+@EX Part 1: Listening - Compliance Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to logistics staff discussing a customs query and answer questions.
+_80
+@MCQ
+1. What did the staff do immediately after the query arrived?
+@OPT
+   ○ A) Waited for the officer to write again
+   ○ B) Pulled the declaration and the packing lists and checked the stated weights
+   ○ C) Re-exported the goods without looking at the file
+@MCQ
+2. Which consignments were identified as most at risk?
+@OPT
+   ○ A) Only the newest consignments
+   ○ B) Those sent before the new code was confirmed, with no written ruling
+   ○ C) Air consignments only
+_300
+@EX Part 1: Summary - Key Compliance Concepts
+@INSTR Choose the best explanation for compliance concepts.
+_80
+@MCQ
+1. What is the main goal of customs regulation?
+@OPT
+   ○ A) Make work for brokers and officers
+   ○ B) Protect revenue, safety and fair trade for everyone who imports or exports
+   ○ C) Increase the cost of shipping
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Compliance Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't file the declaration), the container may be held.
+2. Many disputes ____________________ (would have been avoided) if the terms had been agreed in writing.
+3. ____________________ (If customs enforces) the marking rules, shippers label every carton.
+_300
+@EX Part 2: Passive Voice - Compliance Actions
+@INSTR Rewrite sentences using passive voice to describe compliance actions.
+_80
+@GRID
+Active Sentence | Passive Sentence
+The broker filed the declaration. | 
+The officer sealed the container. | 
+The chamber issued the certificate. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The declaration was filed by the broker.
+b)  The container was sealed by the officer.
+c)  The certificate was issued by the chamber.
+_100
+_300
+@EX Part 2: Reported Speech - Inspector Findings
+@INSTR Convert direct speech to reported speech about an inspection.
+_80
+@GAP
+1. The inspector ____________________ the carton count had not been witnessed.
+2. The officer ____________________ the certificates were kept on file.
+3. The registrar ____________________ file the correction within thirty days.
+4. The broker ____________________ the tariff code was wrong.
+_300
+@EX Part 2: Modal Verbs - Compliance Necessity
+@INSTR Complete sentences with appropriate modal verbs about compliance.
+_80
+@NUM
+1. Every importer ____________________ (file) a customs declaration.
+2. The records of a shipment ____________________ (keep) for the period the law requires.
+3. A trader who imports without a licence ____________________ (face) a penalty.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about compliance and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When a discrepancy is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the consignment may be forfeited.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the documents first. Should we also involve the broker?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200
+@QUESTION
+1. What must the company do when a discrepancy is raised?
+2. Why should the company involve the broker?
+_300
+@EX Part 2: Grammar Summary - Compliance Communication
+@INSTR Discuss how to communicate effectively about requirements using appropriate grammar.
+_80
+@BULLET
+How should logistics staff explain a customs requirement to drivers and to customers?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Investigation Awareness
+@INSTR Before listening, discuss how logistics staff investigate a shortage or a loss.
+_80
+@BULLET
+What do you think is the first step when cargo is found to be missing?
+_300
+@EX Part 3: Listening - Investigation Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to logistics staff describing the investigation process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Coordinator: When a shortage is found, we immediately start gathering information. We interview the people who handled the consignment and record what they say. We examine the delivery notes and the gate records. We check whether the seal was intact and who broke it. We review the counts to confirm what is actually missing. We identify whether other consignments are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the remaining cargo and informing the customer. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the claim is settled. The findings are shared with transport and warehousing to avoid repetition and ensure the whole cause is addressed.
+_200
+@QUESTION
+1. What information does the investigation team collect after a shortage is found?
+2. What are the priorities based on the investigation?
+_300
+@EX Part 3: True/False - Compliance Practice
+@INSTR Listen to a short passage about compliance work and mark statements True, False, or Not Given.
+_80
+@PANEL
+Logistics staff often work in difficult regulatory conditions. They face delays when two authorities require different things. They work with incomplete records for older shipments and under extreme time pressure. Despite these challenges, they remain committed to moving goods only in ways the law allows. Companies coordinate their records to provide complete documentation. Some staff have reported feeling frustrated by repeated inspections. However, they also report deep satisfaction when a difficult consignment is finally released and the goods move. Professional bodies support logistics staff and set standards for practice.
+@NUM 100
+1. Logistics staff sometimes face delays when two authorities require different things.
+2. Companies always have complete records for older shipments.
+3. Logistics staff report satisfaction when a difficult consignment is released.
+_300
+@EX Part 3: Listening - Compliance Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to logistics staff discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary administrative challenge mentioned?
+@OPT
+   ○ A) The forms are too short
+   ○ B) Missing records from earlier shipments and licences that expire at different times
+   ○ C) Too many staff members
+@MCQ
+2. Why is a written carriage contract urgent in a growing fleet?
+@OPT
+   ○ A) People prefer paperwork
+   ○ B) Without it neither the shipper nor the carrier can prove what was agreed
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Compliance Work
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to a logistics officer's personal reflection on compliance work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Officer: I came to this work because I wanted our shipments to clear without argument. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a container released for the first time and a claim avoided because a packing list was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the officer's initial reaction to compliance work?
+2. What qualities does the officer believe are important for this work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Regulatory Contexts
+@INSTR Before reading, discuss customs procedure and clearance in different countries.
+_80
+@BULLET
+What do you know about how goods are declared and cleared in other countries?
+_300
+@EX Part 4: Reading - Compliance Decision-Making
+@INSTR Read the text and answer questions about compliance choices.
+_80
+@PANEL
+Logistics managers face difficult decisions when a consignment cannot meet every requirement at once. In any supply chain, older arrangements rarely match current requirements. Managers must prioritize obligations based on risk to people and on the number of parties affected. Safety and food obligations receive priority over filing formalities. Matters affecting consumers and drivers receive the strictest attention. Decisions with the highest legal exposure are examined first. Commercial pressure is considered but never overrides the law. Managers maintain transparency by explaining their reasoning to the customer. This transparency builds trust and understanding.
+@NUM 100
+1. How do logistics managers decide which obligations matter most?
+2. Why do managers explain their reasoning to the customer?
+_300
+@EX Part 4: Text Comprehension - Professional Ethics
+@INSTR Read about professional ethics and choose the best answer.
+_80
+@PASSAGE
+Logistics practice is guided by core principles: legality, fairness, competence, and independence of judgement. Legality means moving goods only in ways the law allows, even where enforcement is weak. Fairness requires treating every shipper, carrier and customer by the same rules. Competence means signing only what you are qualified to understand, and taking advice on the rest. Independence of judgement means a declaration rests on the facts, not on who is asking. These principles guide every professional decision and ensure ethical practice.
+@MCQ
+1. What does 'independence of judgement' mean?
+@OPT
+   ○ A) Ignoring the customer entirely
+   ○ B) Basing a declaration on the facts, not on who is asking
+   ○ C) Working only for public bodies
+@MCQ
+2. Which principle requires taking advice?
+@OPT
+   ○ A) Legality
+   ○ B) Competence
+   ○ C) Fairness
+_300
+@EX Part 4: Application - Compliance Scenarios
+@INSTR Read scenarios and fill in the appropriate professional principles.
+_80
+@GRID
+Scenario | Key Professional Principle
+A clerk applies the same documentation rules to the owner's cousin | 
+A clerk refuses to sign a declaration they have not understood | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Fairness and consistency
+b)  Competence and legality
+_100
+_300
+@EX Part 4: True/False/Not Given - Customs Authorities
+@INSTR Read statements about customs authorities and mark them True, False, or Not Given.
+_80
+@PANEL
+Customs authorities and transport registries hold records that every trader depends on. They cover declarations, tariff classification, licences, vehicle permits and duty paid. These bodies employ officers and depend on traders declaring accurately and on time. Some declarations have been made electronic in dozens of countries. Authorities are funded by duty, penalties, and government contributions. Many offices struggle to keep their records up to date despite clear need. Logistics staff often report that reading a requirement carefully saves far more time than it costs.
+@NUM 100
+1. Customs records cover only company names.
+2. Customs authorities receive funding from several sources.
+3. All customs records are available free of charge.
+_300
+@EX Part 4: Discussion - Compliance Dilemmas
+@INSTR Discuss difficult choices logistics staff face when obligations conflict.
+_80
+@BULLET
+What are some difficult decisions logistics staff must make when the law and a customer disagree?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Shipping Document
+@INSTR Prepare a presentation about different shipping documents.
+_80
+@NUM 100
+1. Describe three documents: the bill of lading, the customs declaration, and the certificate of origin.
+_300
+@EX Part 5: RolePlay - Clearance Meeting
+@INSTR Roleplay a meeting with a broker discussing a clearance failure that has been found.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Qualified Broker
+@INSTR Discuss qualifications and preparation for professional qualification.
+_80
+@BULLET
+What qualifications and training would you need to become a licensed customs broker?
+_300
+@EX Part 5: RolePlay - Requesting an Urgent Release
+@INSTR Roleplay a transport manager requesting an urgent release from the customs broker.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Professional Values
+@INSTR Write about why professional values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a seizure at a border and the documentation changes that followed it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Letter Requesting a Ruling
+@INSTR Write a letter to the customs authority requesting a ruling on a tariff code.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Professional Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in logistics practice.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Customs and Compliance in Syrian Contexts
+@INSTR Read about customs and compliance in Syria and answer questions.
+_80
+@PANEL
+Syria has a long trading tradition and also a demanding compliance situation. A consignment must be declared to the General Customs Directorate before it may be released, and the Ministry of Internal Trade and Consumer Protection sets the rules on labelling, pricing and consumer complaints. Export markets add their own requirements on top, so an exporter may need a certificate of origin from the chamber of commerce, a customs declaration, and a buyer's own inspection at the same time. Compliance is complicated by records lost during the conflict, permits that expire at different times, and the cost of professional advice. Brokers and forwarders work to keep consignments moving alongside the customs officers. Missing paperwork delays goods across the country. Logistics staff demonstrate extraordinary persistence and resourcefulness. Their work includes document preparation, record reconstruction, and the certification an importing country will demand. International recognition of Syrian forwarders acknowledges their skill and dedication. Their resilience and route knowledge inspire support from partners abroad.
+@NUM 100
+1. Why is compliance for export particularly challenging?
+2. What is the scale of Syria's missing-paperwork problem?
+_300
+@EX Part 7: Discussion - Global Responsibility for Fair Trade
+@INSTR Discuss the global community's responsibility for fair trade with traders facing hardship.
+_80
+@BULLET
+What responsibility does the global community have towards traders in countries facing hardship?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Compliance Concepts
+@INSTR Review Unit 3 by matching compliance concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Customs declaration
+2. | Bill of lading
+3. | Consignee
+4. | External auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The statement of what is crossing the border and what it is worth
+b) | The contract of carriage for goods moved by sea, which also proves title
+c) | The person or company named to receive the goods
+d) | The independent professional who reports on the records
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step after a shortage or a query is found?
+@OPT
+   ○ A) Dismiss the person nearest to it
+   ○ B) Gather the records and establish what actually happened before blaming anyone
+   ○ C) Begin reprinting the packing lists
+@MCQ
+2. Which principle allows a declaration to be trusted?
+@OPT
+   ○ A) Moving the maximum tonnage
+   ○ B) Independence of judgement and competence
+   ○ C) Agreement with whoever asks
+@MCQ
+3. What makes compliance for export from Syria particularly difficult?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Several overlapping requirements plus records lost during the conflict
+   ○ C) Authorities grant unlimited exemptions
+@MCQ
+4. What qualities do successful logistics staff demonstrate in compliance work?
+@OPT
+   ○ A) Only legal knowledge matters
+   ○ B) Both technical knowledge and patience with people
+   ○ C) No special qualifications needed
+_300
