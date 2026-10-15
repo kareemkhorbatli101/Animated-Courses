@@ -1,0 +1,469 @@
+@UNIT 9 | Crisis and Response Communications
+@SUB Present perfect continuous and the past as background  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Crisis Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Crisis  →  a sudden, serious and difficult situation. (example)
+@MATCH f) a person who takes photographs
+Rumour :: a short, factual message sent out during a crisis
+Update :: a story that spreads although nobody has checked it
+Holding statement :: a short message that says what you know so far
+Verify :: the person who answers the media during a crisis
+Spokesperson :: to confirm that something is true
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK rumour | update | verify | spokesperson
+@EX 0. In a crisis, we say what we know and what we do not. (example)
+@GAP
+Always @@ a fact before you publish it.
+A @@ travels faster than the truth.
+We send a short @@ every two hours.
+Only the @@ speaks to journalists.
+
+@TASK Warm-up: Reading — A Steady Voice
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+When something goes wrong, people do not want a perfect statement; they want a steady one. Meridian Relief has been using the same approach for several years. Within an hour, the team publishes a short holding statement: what has happened, what the organisation is doing, and when the next update will come. It does not guess. If a fact has not been verified, the statement says so. The team then updates at the time it promised, even if nothing has changed, because silence is where rumours grow. One person speaks for the organisation, and everybody else sends questions to that person.
+@EX 0. People want a steady statement, not a perfect one. (example)
+@MCQ 1 | What does the first statement contain? | Everything that happened | What has happened, what is being done, and when the next update comes | Only an apology | A full investigation
+@MCQ 2 | Why does the team update even if nothing has changed? | To fill time | Because silence is where rumours grow | Because donors ask | Because it is the law
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Crisis-Communication Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Crisis  →  a sudden, serious and difficult situation.
+@MATCH h) a plan of when things will happen
+Holding statement :: a short first message that says what you know so far
+Verify :: to confirm that something is true
+Rumour :: a story that spreads although nobody has checked it
+Misinformation :: wrong information shared without meaning harm
+Escalate :: to pass something to a more senior person at once
+Crisis desk :: the small team that handles the response
+Single voice :: one named person who speaks for the organisation
+@GLOSS holding statement = the short first message you publish while you are still finding out    ·    misinformation = wrong information shared by somebody who believes it is true
+
+@TASK Part 1: Pronunciation
+@AUDIO 9.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+crisis — CRI-sis
+rumour — RU-mour
+verify — VE-ri-fy
+statement — STATE-ment
+response — res-PONSE
+misinformation — mis-in-for-MA-tion
+
+@TASK Part 1: Talking About Recent Activity — Match the Form
+@RUBRIC Match each sentence with its use. One use is not needed. Write the letter.
+@EX 0. We have been working on this since six.  →  an activity continuing up to now. (example)
+@MATCH f) a rule or an obligation
+We have published three updates. :: an action in progress at a past moment
+We were checking the figure when she called. :: how many times, a finished result
+The team has been answering calls all morning. :: a single finished action in the past
+The rumour started on Tuesday. :: a long activity continuing up to now
+We have verified two of the three claims. :: a completed number so far
+
+@GLOSS duration = how long an activity has gone on    ·    interrupt = to stop something that is already happening
+@TASK Part 1: Crisis Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. To verify is to confirm that something is true. (example)
+@MCQ 1 | What is a holding statement? | A final report | A short first message saying what you know so far | A press conference | An apology
+@MCQ 2 | What is misinformation? | Wrong information shared without meaning harm | A verified fact | A rumour that is true | A correction
+@MCQ 3 | What does ‘single voice’ mean? | Everybody speaks | One named person speaks for the organisation | Nobody speaks | Only the donor speaks
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK crisis desk | escalate | holding statement | misinformation
+@EX 0. We verify every claim before we publish it. (example)
+@GAP
+Please @@ anything you cannot verify within the hour.
+The @@ went out forty minutes after the first call.
+The @@ has been running since six this morning.
+Most of what is circulating is @@ rather than a deliberate lie.
+
+@TASK Part 1: Write Two Sentences (short)
+@RUBRIC Write two sentences about what your team has been doing recently. Use the present perfect continuous.
+@PLAN We have been…  I have been…  since / for…
+
+@BAR Part 2  ·  Grammar — Present Perfect Continuous and Past Continuous | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read Ingrid’s note from the morning of the crisis. ‘The crisis desk has been running since six. We have been answering calls all morning, and we have published three updates so far. The rumour started on Tuesday evening, and it was spreading quickly before anybody told us. I was checking the figure when the first journalist called, which is why the answer took so long.’ Notice the difference: ‘has been running’ and ‘have been answering’ are activities that are still going on; ‘started’ is finished; and ‘was checking’ and ‘was spreading’ are the background to something else.
+@LINE Look at the sentences again. Which activities are still going on? Which are the background to another event?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+Present perfect continuous | have / has been + -ing | an activity continuing up to now
+Present perfect simple | have / has + past participle | how many, or a finished result
+Past continuous | was / were + -ing | the background to a past event
+Past simple | the -ed or irregular form | the event itself
+@REMEMBER Use the present perfect continuous for how long an activity has gone on, and the present perfect simple for how many things are finished. Use the past continuous for what was already happening when something else occurred.
+@WATCH Watch out: state verbs do not usually take the continuous. Say ‘We have known since six’, not ‘We have been knowing since six’.
+@GLOSS background = what was already happening when something else occurred    ·    occur = to happen
+
+@TASK Part 2: Controlled Practice — Continuous or Simple?
+@RUBRIC Complete with the present perfect continuous or the present perfect simple.
+@EX 0. We have been answering (answer) calls all morning. (example)
+@GAP
+The crisis desk @@ (run) since six o’clock.
+We @@ (publish) three updates so far.
+Joseph @@ (verify) two of the three claims.
+The team @@ (work) on this for nine hours.
+
+@TASK Part 2: The Past as Background
+@RUBRIC Complete with the past continuous or the past simple.
+@GAP
+I @@ (check) the figure when the first journalist called.
+The rumour @@ (start) on Tuesday evening.
+We @@ (prepare) the update when the second call came.
+Nobody @@ (tell) us until Wednesday morning.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+We have been knowing about this since six.
+The crisis desk is running since this morning.
+I checked the figure when the journalist was calling.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say what you have been doing this week, and what you were doing when something interrupted you.
+@BULLET
+I have been ______ since ______ .
+I was ______ when ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | The crisis desk ______ since six o’clock. | has run | has been running | is running | was running
+@MCQ 2 | I ______ the figure when the journalist called. | checked | have checked | was checking | have been checking
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Ingrid Explains Crisis Work
+@AUDIO 9.2
+@PRE listen
+what would you say publicly in the first hour of a crisis?
+@TEXT
+Ingrid: In a crisis, people remember not what you said but whether you were steady. So we have four habits. First, publish something within the hour: what has happened, what we are doing, and when the next update will come. It will be short, and that is fine. Second, never guess. If a fact has not been verified, say that it has not been verified. ‘We do not yet know’ is a complete and honest answer, and it is far better than a number you have to withdraw tomorrow. Third, update at the time you promised, even if nothing has changed, because silence is where rumours grow; if you have nothing new, say that you have nothing new. Fourth, one voice. One named person speaks for us, and everybody else sends questions to that person — not because colleagues are untrustworthy, but because five slightly different answers become the story. And afterwards we write down what we have learned, while we still remember it.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. The team publishes something within the hour. — T
+@NUM
+A short first statement is acceptable.   ____
+If a fact is unverified, the team should estimate it.   ____
+The team updates only when there is news.   ____
+Several people may speak for the organisation.   ____
+@PHRASES
+We do not yet know.
+Silence is where rumours grow.
+One named person speaks for us.
+
+@TASK Part 3: Handling a Rumour
+@AUDIO 9.3
+@PRE listen
+how would you answer a rumour that is not true?
+@TEXT
+Nadia: Ingrid, there is a message going round that we have stopped the food distribution in the north.
+Ingrid: Where did it start?
+Nadia: A community group shared it on Tuesday evening. It has been spreading all morning.
+Ingrid: Have we verified what is actually happening there?
+Nadia: Joseph has been calling the district since eight. Two of the three sites are open. The third closed for one day because the road was flooded.
+Ingrid: Then we say exactly that. Do not repeat the rumour in the headline — people remember the first thing they read. Lead with what is true: two sites open, one closed for a day, reopening tomorrow.
+Nadia: And if they ask why nobody told them?
+Ingrid: Then we say that we should have told them on Tuesday, and that we are sorry. That is also true.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. What is the rumour? — That the food distribution has stopped in the north.
+@NUM
+What has Joseph been doing since eight?
+Why shouldn’t the rumour be repeated in the headline?
+What does Ingrid say they should admit?
+@PHRASES
+Where did it start?
+Lead with what is true.
+We should have told them, and we are sorry.
+
+@TASK Part 3: Organising the Crisis Desk
+@AUDIO 9.4
+@PRE listen
+how should a small team organise itself during a crisis?
+@TEXT
+Ingrid: Right. The desk is open and we are here until this is finished. Tomás, you are the single voice — every journalist goes to you, nobody else answers.
+Tomás: Understood. I will log every call.
+Ingrid: Nadia, you are watching the channels. I want to know what is circulating, not what people think of us.
+Nadia: I have been watching since seven. I will send a summary every hour.
+Ingrid: Joseph, verification. Call the districts, and write down who told you and when.
+Joseph: I have been calling since eight. Two confirmed, one still open.
+Ingrid: Aisha, you are writing the updates, and nothing goes out that Joseph has not verified.
+Aisha: Understood. The next one is at eleven, whether or not we have news.
+@WHILE
+match each person with their role. One role is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → runs the crisis desk.
+@MATCH e) book the flights for the team
+Tomás :: watch the channels and report what is circulating
+Nadia :: verify the facts and record who said what
+Joseph :: write the updates from verified facts only
+Aisha :: speak to every journalist as the single voice
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Crisis Communication
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What should an organisation say in the first hour?
+Why is ‘we do not yet know’ a good answer?
+What have you been doing recently that was urgent?
+@USE
+Within the hour, we…
+We do not yet know.
+I have been ___ since ___ .
+
+@TASK Part 4: Correcting a Rumour — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to answer a rumour.
+@MODEL
+A: There is a message going round that we have stopped the distribution. — B: Where did it start? — A: A community group, on Tuesday evening. — B: Have we verified what is happening? — A: Two sites open, one closed for a day. — B: Then lead with that, and do not repeat the rumour in the headline.
+@USE
+Where did it start?
+Have we verified…?
+Lead with what is true.
+@CARD Card A — Officer
+report the rumour · say where it started · give the verified facts.
+@CARD Card B — Manager
+ask two questions · say what the update should lead with · decide what to admit.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain what your team does in the first two hours of a crisis. Use the present perfect continuous and the past continuous.
+@PLAN In the first hour, we…  We have been…  When ___ happened, we were…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: Communicating in a Crisis
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Crisis communication is often called a skill in writing; it is mostly a skill in deciding. The writing itself is simple: short sentences, no decoration, nothing you cannot prove. The difficulty is that every decision has to be made while the facts are still arriving and while somebody more senior is asking why there has not been a statement yet. Four habits make this bearable. The first is to publish quickly and shortly. A statement within the hour that says what has happened, what the organisation is doing and when the next update will come is worth more than a careful one three hours later, because in those three hours other people have been explaining your situation for you. The second is never to guess. ‘We do not yet know’ is a complete answer, and it is the only one that is still true tomorrow. A number that has to be withdrawn costs more trust than a silence ever did. The third is to update at the promised time whether or not there is news, because silence is read as concealment, and a team that has been steady for six hours is believed at the seventh. The fourth is the single voice: one named person answers, since five slightly different answers become the story instead of the event. Afterwards, write down what you have learned while you still remember it, because nobody remembers a crisis accurately a month later.
+@EX 0. Crisis communication is mostly a skill in deciding. (example)
+@MCQ 1 | Why publish quickly and shortly? | To look efficient | Because others will explain your situation for you | Because it is cheaper | Because donors require it
+@MCQ 2 | What does the text say about ‘we do not yet know’? | It is weak | It is a complete answer | It should be avoided | It is only for journalists
+@MCQ 3 | Why is silence a problem? | It is read as concealment | It is impolite | It is expensive | It is slow
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. withdraw  →  to take something back. (example)
+@MATCH f) a person who reports the news
+bearable :: possible to manage or endure
+concealment :: hiding something
+decoration :: words added only to sound good
+steady :: calm and not changing
+accurately :: exactly and correctly
+
+@GLOSS concealment = hiding something from the people who should know    ·    steady = calm, and not changing from hour to hour
+@TASK Part 5: A Steady Voice Across Time Zones
+@RUBRIC Read about crisis work in an international team. Then mark each sentence True (T) or False (F).
+@TEXT
+A crisis in an organisation that works across six time zones has a particular problem: it begins while most of the team is asleep. The office nearest the event is the one that knows most and usually the one with the fewest communications staff, and by the time Geneva wakes up, six hours of conversation have already happened without it. Teams that handle this well decide three things in advance. They agree who may publish a holding statement without waiting for anybody else, and they make that authority local rather than central, because a statement four hours late is worse than a statement that a manager would have worded differently. They agree a handover: the desk moves with the working day, and the team that is going to sleep writes down what it knows, what it has verified and who it has promised to call. And they agree one voice per language rather than one voice in total, because a journalist in Dhaka will not wait for Geneva and should not have to. None of this removes the difficulty. It stops the team from spending the first three hours deciding who is allowed to speak.
+@EX 0. A crisis often begins while most of the team is asleep. → T (example)
+@NUM
+The office nearest the event usually has the most communications staff.   ____
+The authority to publish a holding statement should be local.   ____
+The team going to sleep should write down what it has verified.   ____
+There should be one voice in total for the whole organisation.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: How to Communicate in a Crisis (80–120 words)
+@RUBRIC Write advice for a colleague on communicating in a crisis. Use the present perfect continuous at least once.
+@MODEL
+Publish something within the hour: what has happened, what we are doing, and when the next update will come. Keep it short. Never guess — if a fact has not been verified, say so, because ‘we do not yet know’ is still true tomorrow and a withdrawn number is not. Update at the time you promised, even if nothing has changed; silence is where rumours grow. Use one voice, so that five slightly different answers do not become the story. And when it is over, write down what you have learned while you still remember it.
+@PLAN Within the hour…  Never…  Update…  Use one voice…  Afterwards…
+@CHECK
+four clear pieces of advice?
+one present perfect continuous?
+80–120 words?
+
+@TASK Part 6: A Calm Crisis Update (60–90 words)
+@RUBRIC Write a short public update during a crisis. Say what you know, what you do not, and when the next update will come.
+@MODEL
+Update, 11:00. Two of our three distribution sites in the north are open as normal. The third closed yesterday because the road was flooded, and we expect it to reopen tomorrow morning. We have been in contact with the district team since eight o’clock. We do not yet know whether the road will be passable for lorries, and we will not guess. Our next update will be at 13:00, whether or not there is news.
+@PLAN Update, ___ .  ___ is ___ .  We have been ___ .  We do not yet know ___ .  Our next update will be at ___ .
+@CHECK
+what is known and what is not?
+the time of the next update?
+60–90 words?
+
+@TASK Part 6: Why We Correct Rumours (80–120 words)
+@RUBRIC Write about why an organisation should answer rumours. Give reasons and an example.
+@MODEL
+A rumour that is not answered becomes the record. People do not usually read a correction a week later; they remember the first version they saw, and after a few days it is simply what they know. Answering quickly is therefore not about pride but about accuracy. It also matters for the people we serve: a rumour that a distribution has stopped will keep families at home, and some of them will not come back. For example, when a message said our sites had closed, we published the real position within two hours, and attendance the next day was normal.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: Reflection — A Steady Voice (60–90 words)
+@RUBRIC Write about staying calm in a crisis. Use your own ideas.
+@MODEL
+What I have learned is that people are not really asking for information in the first hour; they are asking whether anybody is in control. A short, honest statement answers that question even when it contains almost no facts. I used to want to wait until I had the full picture, and waiting made everything worse. Now I say what I know, say what I do not, and promise a time. The promise matters more than the content.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each crisis-desk phrase with what it is for. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. ‘The desk is open.’  →  telling the team the response has begun. (example)
+@MATCH f) return the equipment charged
+‘You are the single voice.’ :: say so, rather than estimating
+‘Log every call.’ :: naming who answers journalists
+‘We do not yet know.’ :: keeping a record of who asked what
+‘Next update at eleven.’ :: promising a time and keeping it
+‘Write it down now.’ :: recording the lesson while it is fresh
+
+@TASK 7B: The Crisis-Desk Briefing
+@AUDIO 9.5
+@PRE listen
+how should a manager open a crisis desk?
+@TEXT
+Ingrid: The desk is open, and I want to be clear about four things before anybody writes anything. First, Tomás is the single voice. Every journalist goes to him, and if somebody calls you directly, you take their name and pass it on. That is not a lack of trust; it is because five slightly different answers become the story. Second, nothing goes out that Joseph has not verified, and Joseph writes down who told him and when. If we have to explain ourselves in a month, that record is the only thing that will save us. Third, we update at the promised time whether or not there is news. If we have nothing, we say that we have nothing. Fourth, we work in shifts. We have been going since six, and a tired team makes the mistakes that a crisis is really made of. Nadia and Joseph, you are off at two and back at eight. That is not a suggestion.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Who is the single voice? — Tomás.
+@NUM
+What must Joseph write down?
+What happens at the promised update time if there is no news?
+Why does Ingrid insist on shifts?
+
+@TASK 7C: Controlled Practice — The Crisis-Response Steps
+@RUBRIC You are the manager. Put the crisis-response steps in order. Number them 1–5. (0. is done.)
+@EX 0. Open the desk and name the single voice. — 1
+@LINE
+___ Publish a holding statement within the hour.
+___ Verify each claim and record who said what.
+___ Update at the promised time, with or without news.
+___ Write down afterwards what the team has learned.
+
+@TASK 7D: Role-Play — Leading the Crisis Desk
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: What is circulating? — Nadia: A message saying the distribution has stopped. It has been spreading since Tuesday. — Ingrid: Verified? — Nadia: Joseph has confirmed two sites open, one closed for a day. — Ingrid: Then we lead with that, and we do not repeat the rumour in the headline. Next update at eleven.
+@CARD Card A — Manager (Ingrid)
+ask what is circulating · ask what has been verified · decide what the update leads with · set the next time.
+@CARD Card B — Officer
+report the rumour and when it started · report what is verified · propose a headline.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team opening the crisis desk.
+@MODEL
+Dear team, the desk is open. Tomás is the single voice: every journalist goes to him, and if somebody calls you directly, take their name and pass it on. Nothing goes out that Joseph has not verified, and Joseph records who told him and when. We update at the promised time whether or not there is news; if we have nothing, we say so. We have been going since six, so we are working in shifts — Nadia and Joseph are off at two and back at eight, and that is not a suggestion. Thank you all. Ingrid.
+@CHECK
+the four instructions clear?
+one present perfect continuous?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Rumour and the Update
+@PRE read
+how fast does a rumour travel where you work?
+@TEXT
+It began on a Tuesday evening with a message in a community group: the food distribution in the north had stopped. It was not true, and it was not malicious. Somebody had walked to the third site, found it closed because the road had flooded that morning, and told their neighbours what they had seen. By Wednesday at eight, Joseph had been calling the districts for an hour and had confirmed that two of the three sites were open as normal. By nine, the message had reached four thousand phones. Nadia, who had been watching the channels since seven, said something that changed how the team now works: the problem was not the rumour, which was a reasonable conclusion from what one person had seen. The problem was that the team had known about the flooded road on Tuesday morning and had not thought it worth announcing. The update went out at ten, and it led with what was true rather than with the rumour. It also said, in one sentence, that the organisation should have announced the closure on Tuesday and was sorry. Attendance on Thursday was normal. The team now publishes every site closure on the day it happens, however small, and the habit has prevented three similar rumours since.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. When did it begin? — On a Tuesday evening.
+@NUM
+Why had the person said the distribution had stopped?
+What did Nadia say the real problem was?
+What does the team now do on the day a site closes?
+@GLOSS malicious = intended to cause harm    ·    attendance = the number of people who come
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. spread  →  to reach more and more people. (example)
+@MATCH f) a short text under a photograph
+malicious :: intended to cause harm
+reasonable :: sensible, given what somebody knew
+conclusion :: what you decide from what you have seen
+attendance :: the number of people who come
+prevent :: to stop something from happening
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+‘In my opinion, the real problem was…’
+‘I agree, because…’
+‘That is a good point, but…’
+@BULLET
+Was the rumour the team’s fault? Why, or why not?
+How quickly should an organisation announce a small closure?
+What habit would stop a rumour in your own work?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: Fast or Confirmed?
+@PRE read
+would you publish something useful that you have not yet confirmed?
+@TEXT
+At seven in the morning in Amman, Layla has a problem that will not wait. An earthquake overnight has damaged a road, and families in two villages are asking on social media whether tomorrow’s mobile clinic will come. Layla has been on the phone since five. The district team believes the clinic can reach the first village by a longer route but is not certain, and will not be certain until the driver attempts it at eleven. If Layla publishes now that the clinic will come, and it cannot, people will walk for two hours for nothing, some of them with children and some of them unwell. If she publishes that it will not come, and it could have, those same people will stay at home unnecessarily. If she says nothing until eleven, four hours of silence will fill with guesses, and some of those guesses will be worse than either answer. The organisation’s rule is clear that she must not publish an unverified fact. The rule says nothing about what to publish instead.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What has damaged the road? — An earthquake overnight.
+@NUM
+When will the district team be certain?
+What happens if Layla publishes that the clinic will come and it cannot?
+What does the rule not say?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Layla (a) publish that the clinic will come, (b) publish that it will not, or (c) publish what she knows and promise an update at eleven? Choose one and give reasons.
+@FRAME Answer frame
+‘I think Layla should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
+@MODELDEC
+I think Layla should publish what she knows and promise an update at eleven, because she can be completely honest without guessing: the road is damaged, a longer route is being attempted, and we will know by eleven. Also, that message lets a family decide for itself whether to set out, which is their decision and not ours. This is better than announcing either answer, because both would be a guess dressed as a fact, and better than silence, because four hours of silence will fill with worse guesses than the truth.
+@PHRASEBANK
+I think… should…
+because…
+honest without guessing
+This is better than…
+a guess dressed as a fact.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK has been running | was checking | mustn’t | verify
+@EX 0. We have published three updates so far. (example)
+@GAP
+The crisis desk @@ since six o’clock.
+I @@ the figure when the journalist called.
+Always @@ a claim before you publish it.
+You @@ publish a name that has not been consented to. (Unit 8)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main crisis-communication terms
+I can use the present perfect continuous for an activity up to now
+I can use the past continuous for the background to an event
+I can write a short, honest holding statement
+I can explain why silence is more dangerous than bad news
+
+@TASK Part 10: Unit 9 glossary
+@TEXT
+crisis = a sudden, serious and difficult situation    ·    holding statement = the short first message you publish while you are still finding out    ·    update = a short, factual message sent out during a crisis    ·    verify = to confirm that something is true    ·    rumour = a story that spreads although nobody has checked it    ·    misinformation = wrong information shared by somebody who believes it is true    ·    escalate = to pass something to a more senior person at once    ·    crisis desk = the small team that handles the response    ·    single voice = one named person who speaks for the organisation    ·    spokesperson = the person who answers the media    ·    concealment = hiding something    ·    steady = calm and not changing    ·    attendance = the number of people who come    ·    background = what was already happening when something else occurred    ·    shift = a period of work before another team takes over

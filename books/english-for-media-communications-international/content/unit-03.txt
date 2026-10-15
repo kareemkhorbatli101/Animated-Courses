@@ -27,7 +27,7 @@ Our @@ policy applies in all six offices.
 @TASK Warm-up: Reading — The Rules Before a Story
 @RUBRIC Read the text and choose the correct answer.
 @TEXT
-Before Meridian Relief publishes any story, it follows the same four rules in every country. First, explain clearly what the story is for and where it will appear. Second, ask for consent in a language the person reads easily, and never in a hurry. Third, check that nothing in the words or the photograph could put the person at risk. Fourth, tell the person that they may say no, now or later, and that nothing will change for them if they do. If a rule and a deadline disagree, the rule wins. The team calls this 'do no harm', and it is the first thing that every new officer learns.
+Before Meridian Relief publishes any story, it follows the same four rules in every country. First, explain clearly what the story is for and where it will appear. Second, ask for consent in a language the person reads easily, and never in a hurry. Third, check that nothing in the words or the photograph could put the person at risk. Fourth, tell the person that they may say no, now or later, and that nothing will change for them if they do. If a rule and a deadline disagree, the rule wins. The team calls this ‘do no harm’, and it is the first thing that every new officer learns.
 @EX 0. The rules are the same in every country. (example)
 @MCQ 1 | How many rules does the team follow? | Two | Three | Four | Five
 @MCQ 2 | What happens if a rule and a deadline disagree? | The deadline wins | The rule wins | The manager decides | The story is cancelled
@@ -69,10 +69,11 @@ If the address is visible, :: we will ask the guardian first
 If someone withdraws consent, :: we will hide it before we publish
 If the sound is poor, :: we will record the interview again
 
+@GLOSS first conditional = if + present, will / may, for a real possibility    ·    result clause = the half of the sentence that says what will happen
 @TASK Part 1: Safeguarding Terms — Multiple Choice
 @RUBRIC Read and choose the correct answer.
 @EX 0. Informed consent is consent given after a full explanation. (example)
-@MCQ 1 | What does 'anonymise' mean? | To publish quickly | To remove details that identify a person | To take a photograph | To translate a text
+@MCQ 1 | What does ‘anonymise’ mean? | To publish quickly | To remove details that identify a person | To take a photograph | To translate a text
 @MCQ 2 | Who can give consent for a child? | The photographer | A journalist | The parent or guardian | The donor
 @MCQ 3 | What is a risk assessment? | A kind of camera | A check of what could go wrong and for whom | A list of names | An interview question
 
@@ -105,8 +106,8 @@ Imperative | the verb with no subject | instructions and rules
 Negative imperative | do not + verb | things you must never do
 Sequencers | first, then, next, after that, finally | putting steps in order
 First conditional | if + present, will / may | a real possibility and its result
-@REMEMBER Use the imperative for a rule or an instruction: 'Ask for consent.' Use the first conditional for a real possibility: 'If the person says no, we will stop.' Never use 'will' after 'if'.
-@WATCH Watch out: say 'If the person says no, we will stop', not 'If the person will say no'. The 'will' goes in the second half only.
+@REMEMBER Use the imperative for a rule or an instruction: ‘Ask for consent.’ Use the first conditional for a real possibility: ‘If the person says no, we will stop.’ Never use ‘will’ after ‘if’.
+@WATCH Watch out: say ‘If the person says no, we will stop’, not ‘If the person will say no’. The ‘will’ goes in the second half only.
 @GLOSS sequencer = a word that shows the order of steps    ·    imperative = the form of a verb used for instructions
 
 @TASK Part 2: Controlled Practice — First Conditional
@@ -152,7 +153,7 @@ If ______ , we will ______ .
 @PRE listen
 what should a person understand before they agree to be in a story?
 @TEXT
-Layla: Consent is not a signature. It is an understanding, and the signature only records it. So take your time. First, explain what the story is for, where it will appear, and who will see it. Many people imagine a local newsletter and do not realise that a photograph may be seen in another country. Then explain how long we will keep the photograph, and tell them that they can change their mind later. Next, read the form aloud, in the language they read most easily, because not everybody is comfortable reading in front of a stranger. After that, answer every question honestly, even if the honest answer is 'I do not know'. Finally, give them a copy. If somebody hesitates, that is not a small thing; stop and ask what is worrying them. If you ever feel that a person is agreeing only to be polite, do not take the photograph.
+Layla: Consent is not a signature. It is an understanding, and the signature only records it. So take your time. First, explain what the story is for, where it will appear, and who will see it. Many people imagine a local newsletter and do not realise that a photograph may be seen in another country. Then explain how long we will keep the photograph, and tell them that they can change their mind later. Next, read the form aloud, in the language they read most easily, because not everybody is comfortable reading in front of a stranger. After that, answer every question honestly, even if the honest answer is ‘I do not know’. Finally, give them a copy. If somebody hesitates, that is not a small thing; stop and ask what is worrying them. If you ever feel that a person is agreeing only to be polite, do not take the photograph.
 @WHILE
 write True (T) or False (F). (0. is done.)
 @EX 0. Consent is more than a signature. — T
@@ -175,7 +176,7 @@ Joseph: Good morning. My name is Joseph, and I work for Meridian Relief. May I e
 Mrs Achieng: Please do.
 Joseph: We are writing about the water project, and we would like to include the voices of the people who use it. If you agree, I would record what you say, and we might use a photograph as well.
 Mrs Achieng: Where would it appear?
-Joseph: On our website, and possibly in a report that donors in other countries read. If you would rather we did not use your name, we can write 'a resident of this village'.
+Joseph: On our website, and possibly in a report that donors in other countries read. If you would rather we did not use your name, we can write ‘a resident of this village’.
 Mrs Achieng: And if I change my mind next week?
 Joseph: Then you call me, and we remove it. Here is my number, and here is a copy of the form.
 Mrs Achieng: Then yes, you may record me. But not my grandson.
@@ -197,7 +198,7 @@ Then you call me, and we remove it.
 @PRE listen
 who should check a story before it goes out?
 @TEXT
-Ingrid: Before this goes out, let's do the final check together. Tomás, do we have consent for every person in the article?
+Ingrid: Before this goes out, let’s do the final check together. Tomás, do we have consent for every person in the article?
 Tomás: For all four. Joseph translated the forms, and two people asked for no names.
 Ingrid: Good. Aisha, is there anything in the photographs that could identify a home?
 Aisha: One street sign. I have blurred it.
@@ -244,7 +245,7 @@ ask where it will appear · ask about changing your mind · agree to one thing a
 run the dialogue, then change roles.
 
 @TASK Part 4: Mini-Presentation
-@RUBRIC Prepare a short talk (about one minute). Explain your team's consent steps in order. Use imperatives, sequencers and one first conditional.
+@RUBRIC Prepare a short talk (about one minute). Explain your team’s consent steps in order. Use imperatives, sequencers and one first conditional.
 @PLAN First, we…  Then we…  After that, we…  Finally, we…  If ___ , we will ___ .
 
 @BAR Part 5  ·  Extended Reading | blue
@@ -253,8 +254,8 @@ run the dialogue, then change roles.
 @TASK Part 5: Protecting the People in Our Stories
 @RUBRIC Read the text and choose the correct answer.
 @TEXT
-Every communications team has a rule that comes before all the others: do no harm. It sounds obvious, and it is not. Harm is rarely dramatic. It is a street sign in the corner of a photograph, a school uniform that shows which school a child attends, or a sentence that says more about a family's situation than the family realised it was agreeing to. None of these is a lie, and none of them is unkind. Each of them can still put somebody at risk. For this reason the team works through the same steps every time. First, it asks whether the story needs this person at all, or whether the point can be made without them. Then it explains, in the person's own language, what the story is for and where it will appear. Next, it asks for consent, and it treats hesitation as a no until it is clearly a yes. After that, it checks the words and the images for anything that could identify a home, a school or a route that somebody takes every day. Finally, it tells the person how to withdraw, and it keeps that promise. The team also knows that consent is not the same everywhere. In one country, a signature is a familiar and welcome thing; in another, it is a document that has caused people trouble before. The rule does not change, but the way the team explains it does.
-@EX 0. 'Do no harm' comes before all the other rules. (example)
+Every communications team has a rule that comes before all the others: do no harm. It sounds obvious, and it is not. Harm is rarely dramatic. It is a street sign in the corner of a photograph, a school uniform that shows which school a child attends, or a sentence that says more about a family’s situation than the family realised it was agreeing to. None of these is a lie, and none of them is unkind. Each of them can still put somebody at risk. For this reason the team works through the same steps every time. First, it asks whether the story needs this person at all, or whether the point can be made without them. Then it explains, in the person’s own language, what the story is for and where it will appear. Next, it asks for consent, and it treats hesitation as a no until it is clearly a yes. After that, it checks the words and the images for anything that could identify a home, a school or a route that somebody takes every day. Finally, it tells the person how to withdraw, and it keeps that promise. The team also knows that consent is not the same everywhere. In one country, a signature is a familiar and welcome thing; in another, it is a document that has caused people trouble before. The rule does not change, but the way the team explains it does.
+@EX 0. ‘Do no harm’ comes before all the other rules. (example)
 @MCQ 1 | How does the text describe harm? | Always dramatic | Rarely dramatic, often small | Impossible to prevent | A kind of equipment
 @MCQ 2 | How should a team treat hesitation? | As a yes | As a no until it is clearly a yes | As a question | As a delay
 @MCQ 3 | What does the text say changes between countries? | The rule itself | The way the rule is explained | The deadline | The equipment
@@ -269,10 +270,11 @@ identify :: to show who or where somebody is
 withdraw :: to take back something you gave
 familiar :: well known to you
 
+@GLOSS harm = damage or injury to a person    ·    hesitation = a pause that should be treated as a no until it is clearly a yes
 @TASK Part 5: Consent and Community Across Cultures
 @RUBRIC Read about consent in different places. Then mark each sentence True (T) or False (F).
 @TEXT
-Consent is a single principle, but it is not a single conversation. In some communities, a visitor should speak to an elder or a community leader before approaching a family, and to do otherwise would be rude rather than efficient. In others, going through a leader would feel like pressure, and the family would rather decide for themselves. In some places people sign documents every week; in others, a form brought by a stranger is a reason to be careful, and for good reason. A good communications team learns this before it arrives, usually by asking the field staff who live there. What never changes is the substance: the person must understand what will happen, must be free to say no, and must be able to change their mind afterwards. What changes is the route to that understanding — who you speak to first, whether you read the form aloud, how long you leave before you ask again. Teams that confuse the route with the rule make one of two mistakes. They either apply one country's habits everywhere, or they decide that consent means something different here. Both are wrong, and the second is more dangerous.
+Consent is a single principle, but it is not a single conversation. In some communities, a visitor should speak to an elder or a community leader before approaching a family, and to do otherwise would be rude rather than efficient. In others, going through a leader would feel like pressure, and the family would rather decide for themselves. In some places people sign documents every week; in others, a form brought by a stranger is a reason to be careful, and for good reason. A good communications team learns this before it arrives, usually by asking the field staff who live there. What never changes is the substance: the person must understand what will happen, must be free to say no, and must be able to change their mind afterwards. What changes is the route to that understanding — who you speak to first, whether you read the form aloud, how long you leave before you ask again. Teams that confuse the route with the rule make one of two mistakes. They either apply one country’s habits everywhere, or they decide that consent means something different here. Both are wrong, and the second is more dangerous.
 @EX 0. Consent is a single principle. → T (example)
 @NUM
 In every community, you should speak to a leader first.   ____
@@ -296,7 +298,7 @@ sequencers in the right order?
 @TASK Part 6: Why We Protect People (80–120 words)
 @RUBRIC Write about why protecting people matters more than a strong story. Give reasons and an example.
 @MODEL
-A story that harms somebody is not a strong story; it is a failure. We work with people who have already lost a great deal, and a photograph can take one more thing from them: their safety, or their privacy, or their dignity. For example, a school uniform in the corner of a picture tells a stranger exactly where a child can be found every morning. The family did not agree to that, because nobody thought to mention it. This is why we check every image twice, and why we would rather lose a photograph than a person's trust.
+A story that harms somebody is not a strong story; it is a failure. We work with people who have already lost a great deal, and a photograph can take one more thing from them: their safety, or their privacy, or their dignity. For example, a school uniform in the corner of a picture tells a stranger exactly where a child can be found every morning. The family did not agree to that, because nobody thought to mention it. This is why we check every image twice, and why we would rather lose a photograph than a person’s trust.
 @CHECK
 a clear opinion?
 two or three reasons?
@@ -340,7 +342,7 @@ Honour a withdrawal. :: remove the story when somebody asks
 @PRE listen
 what should a manager say to a team before a visit to a school?
 @TEXT
-Layla: Tomorrow we are visiting a school, so I want to be very clear about four things. First, no child consents alone. The guardian consents, and the child agrees as well — if the child looks uncomfortable, we stop, whatever the form says. Second, no uniforms, no school signs, no gates in any photograph. A uniform tells a stranger where a child is at eight o'clock every morning. Third, no full names for anyone under eighteen, and no classroom details that would narrow it down. Fourth, if you are not sure, the answer is no, and you call me. I would far rather lose twenty photographs than publish one that we cannot take back. And please remember that the children will be excited and will want to be in every picture. That enthusiasm is not consent. It is our job to be the careful ones.
+Layla: Tomorrow we are visiting a school, so I want to be very clear about four things. First, no child consents alone. The guardian consents, and the child agrees as well — if the child looks uncomfortable, we stop, whatever the form says. Second, no uniforms, no school signs, no gates in any photograph. A uniform tells a stranger where a child is at eight o’clock every morning. Third, no full names for anyone under eighteen, and no classroom details that would narrow it down. Fourth, if you are not sure, the answer is no, and you call me. I would far rather lose twenty photographs than publish one that we cannot take back. And please remember that the children will be excited and will want to be in every picture. That enthusiasm is not consent. It is our job to be the careful ones.
 @RUBRIC Answer the questions. (0. is done.)
 @EX 0. Where is the team visiting tomorrow? — A school.
 @NUM
@@ -383,7 +385,7 @@ a warm, professional tone?
 @PRE read
 have you ever decided not to use something that would have made your work stronger?
 @TEXT
-Tomás was in a health centre in Lima, writing about a new clinic. In the waiting room, a young woman was sitting with her baby, and the light through the window fell on them in a way that photographers wait years for. He asked the nurse whether he could speak to her, and the nurse said that she had come in that morning after a difficult night and was very tired. Tomás went over anyway, introduced himself, and explained what the article was for. The woman said yes immediately. She said yes before he had finished the sentence, and she did not ask a single question. That was what stopped him. He explained again, more slowly: the article would appear on a website that anybody could read, and in a report that went to other countries. She said yes again, and smiled, and looked at the floor. Tomás thanked her, said that he had changed his mind, and left without taking the photograph. Later he wrote in the file: 'Consent given but not, I think, understood. Tired, unwell, and polite. Do not approach again during treatment.' The article appeared without a photograph of a patient, and it was a weaker article. He has never regretted it.
+Tomás was in a health centre in Lima, writing about a new clinic. In the waiting room, a young woman was sitting with her baby, and the light through the window fell on them in a way that photographers wait years for. He asked the nurse whether he could speak to her, and the nurse said that she had come in that morning after a difficult night and was very tired. Tomás went over anyway, introduced himself, and explained what the article was for. The woman said yes immediately. She said yes before he had finished the sentence, and she did not ask a single question. That was what stopped him. He explained again, more slowly: the article would appear on a website that anybody could read, and in a report that went to other countries. She said yes again, and smiled, and looked at the floor. Tomás thanked her, said that he had changed his mind, and left without taking the photograph. Later he wrote in the file: ‘Consent given but not, I think, understood. Tired, unwell, and polite. Do not approach again during treatment.’ The article appeared without a photograph of a patient, and it was a weaker article. He has never regretted it.
 @RUBRIC Answer the questions. (0. is done.)
 @EX 0. Where was Tomás? — In a health centre in Lima.
 @NUM
@@ -405,9 +407,9 @@ understood :: known and fully grasped
 @TASK Part 8: Discussion
 @RUBRIC Talk with a partner. Use the frames and give reasons.
 @FRAME Discussion frames
-'In my opinion, Tomás was right because…'
-'I agree, because…'
-'That is a good point, but…'
+‘In my opinion, Tomás was right because…’
+‘I agree, because…’
+‘That is a good point, but…’
 @BULLET
 Was Tomás right to walk away? Why?
 How can you tell the difference between a yes and a polite yes?
@@ -420,20 +422,20 @@ Should a team write down a decision like this? Why?
 @PRE read
 what extra care does a story about a child need?
 @TEXT
-The Amman office is publishing a story about a learning centre, and the strongest photograph shows a nine-year-old boy reading aloud to his class. His mother has given written consent, and the boy himself was pleased to be photographed and asked to see the picture afterwards. The learning centre has agreed as well. However, Layla has noticed two things. The boy is wearing the centre's shirt, which carries its name and the name of the district, and the caption that Tomás has drafted mentions that the boy arrived in the country two years ago. Separately, neither detail is unusual. Together, they tell a reader where this particular child can be found on a weekday morning and something about his family's situation that his mother may not have meant to publish. The deadline is tomorrow, the photograph is excellent, and nobody has done anything wrong. Layla has to decide what to do, and she also has to explain it to Tomás, who has worked hard on the story and is proud of it.
+The Amman office is publishing a story about a learning centre, and the strongest photograph shows a nine-year-old boy reading aloud to his class. His mother has given written consent, and the boy himself was pleased to be photographed and asked to see the picture afterwards. The learning centre has agreed as well. However, Layla has noticed two things. The boy is wearing the centre’s shirt, which carries its name and the name of the district, and the caption that Tomás has drafted mentions that the boy arrived in the country two years ago. Separately, neither detail is unusual. Together, they tell a reader where this particular child can be found on a weekday morning and something about his family’s situation that his mother may not have meant to publish. The deadline is tomorrow, the photograph is excellent, and nobody has done anything wrong. Layla has to decide what to do, and she also has to explain it to Tomás, who has worked hard on the story and is proud of it.
 @RUBRIC Answer the questions. (0. is done.)
-@EX 0. Who has given written consent? — The boy's mother.
+@EX 0. Who has given written consent? — The boy’s mother.
 @NUM
-What is written on the boy's shirt?
+What is written on the boy’s shirt?
 What does the draft caption mention?
 Why are the two details a problem together?
 
 @TASK Part 9: Make the Decision
 @RUBRIC Should Layla (a) publish as it is, since consent was given, (b) keep the photograph but change the caption and blur the shirt, or (c) choose a photograph without a child? Choose one and give reasons.
 @FRAME Answer frame
-'I think Layla should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+‘I think Layla should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
 @MODELDEC
-I think Layla should keep the photograph but blur the shirt and change the caption, because the problem is not the child's face but the two details that locate him. His mother consented to a photograph, not to a map. Also, the story loses nothing if the caption simply says that the boy enjoys reading aloud. This is better than publishing as it is, because consent was given for something the family did not fully picture, and it is better than dropping the child entirely, because his pleasure in reading is the story.
+I think Layla should keep the photograph but blur the shirt and change the caption, because the problem is not the child’s face but the two details that locate him. His mother consented to a photograph, not to a map. Also, the story loses nothing if the caption simply says that the boy enjoys reading aloud. This is better than publishing as it is, because consent was given for something the family did not fully picture, and it is better than dropping the child entirely, because his pleasure in reading is the story.
 @PHRASEBANK
 I think… should…
 because…
@@ -461,7 +463,7 @@ I can explain what informed consent means
 I can give instructions with imperatives and sequencers
 I can use the first conditional for a real possibility
 I can ask a community member for consent respectfully
-I can explain why 'do no harm' comes before a deadline
+I can explain why ‘do no harm’ comes before a deadline
 
 @TASK Part 10: Unit 3 glossary
 @TEXT

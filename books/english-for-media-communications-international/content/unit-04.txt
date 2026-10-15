@@ -1,5 +1,5 @@
 @UNIT 4 | Channels and Audiences
-@SUB Comparatives, superlatives and 'as … as'  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+@SUB Comparatives, superlatives and ‘as … as’  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
 
 @BAR Warm Up | orange
 @TRACK [OP] Officer track  ·  in-class starter
@@ -27,10 +27,10 @@ In some districts, @@ is still the fastest way to reach people.
 @TASK Warm-up: Reading — The Right Channel
 @RUBRIC Read the text and choose the correct answer.
 @TEXT
-Meridian Relief uses more channels than most small organisations, because its audiences are so different. Donors in Geneva read a monthly newsletter. Journalists want a press release and a photograph they can publish. Communities near the projects are reached fastest by radio and by SMS, because a phone that costs little can receive a text but cannot easily load a video. Social media reaches the largest number of people, but not always the right ones. The team's rule is simple: the best channel is not the biggest one; it is the one your audience actually uses.
+Meridian Relief uses more channels than most small organisations, because its audiences are so different. Donors in Geneva read a monthly newsletter. Journalists want a press release and a photograph they can publish. Communities near the projects are reached fastest by radio and by SMS, because a phone that costs little can receive a text but cannot easily load a video. Social media reaches the largest number of people, but not always the right ones. The team’s rule is simple: the best channel is not the biggest one; it is the one your audience actually uses.
 @EX 0. The organisation uses several channels. (example)
 @MCQ 1 | Which channel reaches communities near the projects fastest? | A newsletter | Radio and SMS | A press release | A long film
-@MCQ 2 | What is the team's rule? | Always use the biggest channel | Use the channel your audience actually uses | Use only social media | Never use radio
+@MCQ 2 | What is the team’s rule? | Always use the biggest channel | Use the channel your audience actually uses | Use only social media | Never use radio
 
 @BAR Part 1  ·  Vocabulary and Terminology | blue
 @TRACK [OP] Officer track  ·  pre-class input
@@ -63,12 +63,13 @@ broadcast — BROAD-cast
 @RUBRIC Match each sentence with the form it uses. One form is not needed. Write the letter.
 @EX 0. Radio is cheaper than television.  →  comparative with -er. (example)
 @MATCH f) an imperative
-SMS is the fastest channel we have. :: comparative with 'more'
-A newsletter is more detailed than a post. :: superlative with 'the most'
-This is the most accessible format. :: 'as … as' for things that are equal
-Radio is as important as social media. :: superlative with '-est'
+SMS is the fastest channel we have. :: comparative with ‘more’
+A newsletter is more detailed than a post. :: superlative with ‘the most’
+This is the most accessible format. :: ‘as … as’ for things that are equal
+Radio is as important as social media. :: superlative with ‘-est’
 Our reach is better than last year. :: an irregular comparative
 
+@GLOSS comparative = the form that compares two things    ·    superlative = the form that compares three or more
 @TASK Part 1: Channel Terms — Multiple Choice
 @RUBRIC Read and choose the correct answer.
 @EX 0. Reach is the number of people who see a message. (example)
@@ -90,12 +91,12 @@ In the north, @@ reaches more people than any website.
 @RUBRIC Write two or three sentences comparing two channels your team uses.
 @PLAN ___ is more ___ than ___ .  ___ is the most ___ .  ___ is as ___ as ___ .
 
-@BAR Part 2  ·  Grammar — Comparatives, Superlatives and 'as … as' | blue
+@BAR Part 2  ·  Grammar — Comparatives, Superlatives and ‘as … as’ | blue
 @TRACK [OP] Officer track  ·  grammar focus
 
 @TASK Part 2: Notice
 @TEXT
-Radio is cheaper than a film and faster than a newsletter. SMS is the fastest channel the team has, and it is also the most accessible, because it works on the oldest phone. A newsletter is more detailed than a post, but it reaches far fewer people. Social media is not as reliable as people think: it is the largest channel, but engagement is lower than reach. Notice three forms here: short words add -er and -est, longer words take more and the most, and 'as … as' says that two things are equal.
+Radio is cheaper than a film and faster than a newsletter. SMS is the fastest channel the team has, and it is also the most accessible, because it works on the oldest phone. A newsletter is more detailed than a post, but it reaches far fewer people. Social media is not as reliable as people think: it is the largest channel, but engagement is lower than reach. Notice three forms here: short words add -er and -est, longer words take more and the most, and ‘as … as’ says that two things are equal.
 @LINE Look at the sentences again. Which words are comparatives? Which are superlatives?
 
 @TASK Part 2: Grammar Focus Box
@@ -105,8 +106,8 @@ Comparative | -er / more … than | comparing two things
 Superlative | the -est / the most … | comparing three or more
 as … as | as + adjective + as | two things that are equal
 Irregulars | good → better → the best; bad → worse → the worst | common exceptions
-@REMEMBER Short adjectives add -er and -est (fast → faster → the fastest). Longer adjectives take more and the most (accessible → more accessible → the most accessible). Use 'as … as' when two things are the same.
-@WATCH Watch out: do not say 'more faster' or 'the most fastest'. Use one form only: 'faster', 'the fastest'.
+@REMEMBER Short adjectives add -er and -est (fast → faster → the fastest). Longer adjectives take more and the most (accessible → more accessible → the most accessible). Use ‘as … as’ when two things are the same.
+@WATCH Watch out: do not say ‘more faster’ or ‘the most fastest’. Use one form only: ‘faster’, ‘the fastest’.
 @GLOSS reliable = something you can trust to work    ·    detailed = containing a lot of information
 
 @TASK Part 2: Controlled Practice — Comparatives and Superlatives
@@ -119,7 +120,7 @@ This format is @@ (accessible) of all.
 Our reach this year is @@ (good) than last year.
 
 @TASK Part 2: Adverbs and Irregular Forms
-@RUBRIC Complete with the correct comparative, superlative or 'as … as'.
+@RUBRIC Complete with the correct comparative, superlative or ‘as … as’.
 @GAP
 Radio is @@ important as social media in the north.
 The sound on this film is @@ (bad) than the last one.
@@ -152,7 +153,7 @@ For our audience, ______ is the ______ .
 @PRE listen
 which channel do you use most often, and why?
 @TEXT
-Nadia: Let me explain how we choose a channel, because it is the question I am asked most often. We have five main channels, and none of them is the best one for everything. Social media has the largest reach, but engagement is much lower than reach, and the people it reaches are mostly in cities and mostly younger. The newsletter is far more detailed, and donors read it carefully, but it goes to eleven hundred people, not eleven thousand. Community radio is as important as both of them in the districts where we work, because a radio costs little and needs no data. Bulk SMS is the fastest of all, and it is the most accessible, because it works on the oldest phone. And a press release is the only channel that reaches journalists. So the first question is never 'which channel is best?'. It is 'who are we trying to reach, and what do they actually use?'
+Nadia: Let me explain how we choose a channel, because it is the question I am asked most often. We have five main channels, and none of them is the best one for everything. Social media has the largest reach, but engagement is much lower than reach, and the people it reaches are mostly in cities and mostly younger. The newsletter is far more detailed, and donors read it carefully, but it goes to eleven hundred people, not eleven thousand. Community radio is as important as both of them in the districts where we work, because a radio costs little and needs no data. Bulk SMS is the fastest of all, and it is the most accessible, because it works on the oldest phone. And a press release is the only channel that reaches journalists. So the first question is never ‘which channel is best?’. It is ‘who are we trying to reach, and what do they actually use?’
 @WHILE
 write True (T) or False (F). (0. is done.)
 @EX 0. There are five main channels. — T
@@ -191,12 +192,12 @@ Who exactly are we reaching?
 It is more trusted locally.
 Save it for the donors.
 
-@TASK Part 3: Planning the Week's Channels
+@TASK Part 3: Planning the Week’s Channels
 @AUDIO 4.4
 @PRE listen
-how does a team divide the week's messages between channels?
+how does a team divide the week’s messages between channels?
 @TEXT
-Ingrid: Let's plan the week. We have three messages. Nadia, the clinic move?
+Ingrid: Let’s plan the week. We have three messages. Nadia, the clinic move?
 Nadia: Radio on Tuesday, SMS on Tuesday evening.
 Ingrid: Good. Tomás, the donor report?
 Tomás: The newsletter on Thursday. It is the most detailed channel we have, and donors read it properly.
@@ -269,6 +270,7 @@ exclude :: to leave somebody out
 subtitles :: the words written on a video
 old-fashioned :: not modern
 
+@GLOSS exclude = to leave somebody out, usually without meaning to    ·    subtitles = the words written on a video for people who cannot hear it
 @TASK Part 5: Reaching People Where They Are
 @RUBRIC Read about reaching audiences in different places. Then mark each sentence True (T) or False (F).
 @TEXT
@@ -284,13 +286,13 @@ The best teams choose the channel locally.   ____
 @TRACK [OP] Officer track  ·  writing
 
 @TASK Part 6: Compare Two Channels (80–120 words)
-@RUBRIC Compare two channels your team uses. Use comparatives, one superlative and one 'as … as'.
+@RUBRIC Compare two channels your team uses. Use comparatives, one superlative and one ‘as … as’.
 @MODEL
 We use two main channels for community messages: radio and SMS. Radio is more trusted locally than anything else we have, and it reaches people who have no phone at all. SMS is faster than radio, and it is the most accessible channel we use, because it works on the oldest handset. However, SMS is not as reliable as radio where the signal is poor. For an announcement that must arrive today, we use both: radio in the morning and SMS in the evening as a reminder. Together they reach more people than either one alone.
 @PLAN We use…  ___ is more ___ than ___ .  ___ is the most ___ .  ___ is not as ___ as ___ .
 @CHECK
 two comparatives?
-one superlative and one 'as … as'?
+one superlative and one ‘as … as’?
 80–120 words?
 
 @TASK Part 6: How to Reach a Rural District (80–120 words)
@@ -340,7 +342,7 @@ Do not copy one plan everywhere. :: count what people do, not only who sees it
 @PRE listen
 how should a manager explain a channel plan to a team?
 @TEXT
-Ingrid: Before we agree this quarter's plan, I want to say something about how we choose. We have been getting better at this, but we still make one mistake more often than any other: we design in Geneva and we send everywhere. That is cheaper than doing it properly, and it is cheaper only until nobody acts on the message. So this quarter we are changing the order. The message is written centrally, because it must be the same message. The channel is chosen locally, by the colleague who lives there, and that decision is not mine to overrule. Second, every message goes out on two channels, not one, and they must serve different audiences. Third, accessibility is not an extra. Subtitles, a second language and a format that works on an old phone are part of the job, not a favour. And finally, measure engagement, not only reach. Reach tells you who saw it. Engagement tells you whether it meant anything.
+Ingrid: Before we agree this quarter’s plan, I want to say something about how we choose. We have been getting better at this, but we still make one mistake more often than any other: we design in Geneva and we send everywhere. That is cheaper than doing it properly, and it is cheaper only until nobody acts on the message. So this quarter we are changing the order. The message is written centrally, because it must be the same message. The channel is chosen locally, by the colleague who lives there, and that decision is not mine to overrule. Second, every message goes out on two channels, not one, and they must serve different audiences. Third, accessibility is not an extra. Subtitles, a second language and a format that works on an old phone are part of the job, not a favour. And finally, measure engagement, not only reach. Reach tells you who saw it. Engagement tells you whether it meant anything.
 @RUBRIC Answer the questions. (0. is done.)
 @EX 0. What mistake does the team still make most often? — Designing in Geneva and sending everywhere.
 @NUM
@@ -405,9 +407,9 @@ donor :: a person who gives money
 @TASK Part 8: Discussion
 @RUBRIC Talk with a partner. Use the frames and give reasons.
 @FRAME Discussion frames
-'In my opinion, the most useful measure is…'
-'I agree, because…'
-'That is a good point, but…'
+‘In my opinion, the most useful measure is…’
+‘I agree, because…’
+‘That is a good point, but…’
 @BULLET
 Is reach a useful number on its own? Why, or why not?
 Which channel would you trust for a message that must be acted on?
@@ -431,7 +433,7 @@ Who do the printed notices fail to reach?
 @TASK Part 9: Make the Decision
 @RUBRIC Should Aisha choose (a) bulk SMS, (b) community radio, or (c) printed notices? Choose one and give reasons.
 @FRAME Answer frame
-'I think Aisha should choose ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+‘I think Aisha should choose ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
 @MODELDEC
 I think Aisha should choose community radio, because it reaches almost everybody, including the third of families with no registered phone. Thursday evening is late, but it is still the day before the old clinic day, so people would hear it in time. Also, the message would reach the third district, where SMS would not. This is better than bulk SMS, because the families most likely to travel on the wrong day are exactly the ones SMS would miss, and a message that misses them has failed, however fast it is.
 @PHRASEBANK
@@ -460,7 +462,7 @@ If somebody withdraws consent, we @@ the story. (Unit 3)
 I can name the main channels and say who each one reaches
 I can compare two channels with comparatives
 I can say which channel is the best with a superlative
-I can use 'as … as' for two things that are equal
+I can use ‘as … as’ for two things that are equal
 I can explain why the largest channel is not always the right one
 
 @TASK Part 10: Unit 4 glossary

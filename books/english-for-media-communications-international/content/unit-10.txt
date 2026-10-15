@@ -1,0 +1,477 @@
+@UNIT 10 | Telling It to the World
+@SUB Reported speech, attribution and the values of the work  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Reporting Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Quote  →  a person’s exact words. (example)
+@MATCH f) the time by which work must be finished
+Attribution :: to say something again in different words
+Paraphrase :: saying clearly who said something
+Source :: in exactly the same words
+Verbatim :: the person or place information comes from
+Credit :: naming the person who did the work
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK quote | attribution | source | credit
+@EX 0. We never invent a sentence and call it a quote. (example)
+@GAP
+Every @@ must be read back to the person who said it.
+Without @@ , a reader cannot judge the claim.
+Always name your @@ , unless they have asked you not to.
+Give the photographer a @@ under every picture.
+
+@TASK Warm-up: Reading — A Quote Is a Promise
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+A quote is a promise. When Meridian Relief puts a sentence inside quotation marks, it is promising the reader that the person said exactly those words, and promising the speaker that their words will not be improved, shortened into something sharper, or moved into a context they never agreed to. If a sentence needs tidying, the team paraphrases it and drops the quotation marks. If a speaker asks for a word to be changed after a read-back, the word is changed. And every claim carries attribution, so that a reader can see who said it and decide what to think.
+@EX 0. A quote is a promise to the reader and to the speaker. (example)
+@MCQ 1 | What does the team do if a sentence needs tidying? | Improve it inside the quotation marks | Paraphrase it and drop the marks | Delete it | Publish it anyway
+@MCQ 2 | Why does every claim carry attribution? | To fill space | So a reader can see who said it | Because donors ask | To make it longer
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Reporting and Attribution Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Quote  →  a person’s exact words, inside quotation marks.
+@MATCH h) a plan of when things will happen
+Attribution :: saying clearly who said or wrote something
+Paraphrase :: saying the same thing in different words
+Verbatim :: in exactly the same words
+Source :: the person or place information comes from
+Reporting verb :: a verb like say, tell, ask or explain
+Anonymous :: without the person’s name
+Endorsement :: a public statement of support
+@GLOSS verbatim = word for word, exactly as it was said    ·    endorsement = a public statement that somebody supports your work
+
+@TASK Part 1: Pronunciation
+@AUDIO 10.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+attribution — a-ttri-BU-tion
+paraphrase — PA-ra-phrase
+verbatim — ver-BA-tim
+anonymous — a-NO-ny-mous
+endorsement — en-DORSE-ment
+acknowledge — ac-KNOW-ledge
+
+@TASK Part 1: Reporting What People Say — Match the Form
+@RUBRIC Match each direct sentence with its correct report. One report is not needed. Write the letter.
+@EX 0. ‘I work here.’  →  She said that she worked there. (example)
+@MATCH f) She will be working there tomorrow.
+‘We have finished.’ :: She asked whether we had finished
+‘Can you come tomorrow?’ :: He said that they had finished
+‘Do not publish my name.’ :: She asked me to come the next day
+‘I will call you.’ :: He asked us not to publish his name
+‘Have you finished?’ :: She said that she would call me
+
+@GLOSS backshift = the way a verb steps back one tense when it is reported    ·    reported question = a question told in a statement, with no inversion
+@TASK Part 1: Reporting Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. Verbatim means in exactly the same words. (example)
+@MCQ 1 | What is a paraphrase? | A direct quote | The same thing said in different words | A headline | A correction
+@MCQ 2 | What is attribution? | Saying who said something | A photograph caption | A kind of interview | A deadline
+@MCQ 3 | What is a reporting verb? | A verb like say, tell or explain | A kind of noun | A quotation mark | A press release
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK paraphrase | verbatim | anonymous | endorsement
+@EX 0. Every quote is read back to the speaker. (example)
+@GAP
+The transcript records what she said @@ .
+If the sentence is unclear, @@ it and remove the quotation marks.
+She asked to remain @@ , so we wrote ‘a resident of the district’.
+A donor’s @@ is useful, but it is not evidence.
+
+@TASK Part 1: Report Two Sentences (short)
+@RUBRIC Write two sentences that somebody said to you today, in reported speech.
+@PLAN She said that…  He asked whether…  They told me to…
+
+@BAR Part 2  ·  Grammar — Reported Speech | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read Tomás’s note after the meeting. ‘Mrs Dela Cruz said that the market opened at five and that she had been going there for eleven years. She told me that she did not want her children mentioned. She asked whether the article would appear in English only, and she asked me to send her a copy. I said that I would call her when it was published.’ Notice what happens: the verbs step back one tense, ‘tomorrow’ becomes ‘the next day’, and a question becomes a statement with ‘whether’ or ‘if’.
+@LINE Look at the sentences again. What did each person actually say?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Direct | Reported | Note
+Statement | ‘I work here.’ | She said that she worked there.
+Present perfect | ‘We have finished.’ | He said that they had finished.
+Question | ‘Have you finished?’ | She asked whether we had finished.
+Command | ‘Do not publish my name.’ | He asked us not to publish his name.
+@REMEMBER The verb usually steps back one tense: present → past, present perfect → past perfect, will → would, can → could. ‘Say’ takes no person; ‘tell’ takes one: she told me.
+@WATCH Watch out: in a reported question there is no inversion and no question mark. Say ‘She asked whether we had finished’, not ‘She asked had we finished?’.
+@GLOSS inversion = putting the verb before the subject, as in a question    ·    reporting verb = a verb like say, tell, ask or explain
+
+@TASK Part 2: Controlled Practice — Reported Statements
+@RUBRIC Report what each person said.
+@EX 0. ‘The market opens at five.’ → She said that the market opened at five. (example)
+@NUM
+‘I have been going there for eleven years.’ (she)
+‘We will publish on Friday.’ (he)
+‘I do not want my children mentioned.’ (she, to me)
+‘The road closed yesterday.’ (they)
+
+@TASK Part 2: Reported Questions and Commands
+@RUBRIC Report each question or command.
+@NUM
+‘Will the article appear in English only?’ (she asked)
+‘Have you read it back to her?’ (he asked)
+‘Please send me a copy.’ (she asked me)
+‘Do not use my surname.’ (he asked us)
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+She said me that the market opened at five.
+He asked had we finished.
+She told that she would call me.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Report two things a colleague told you this week, and one question somebody asked you.
+@BULLET
+______ told me that ______ .
+______ asked whether ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | She ______ that she had been going there for eleven years. | told | said | asked | spoke
+@MCQ 2 | He asked ______ we had finished. | that | did | whether | had
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Ingrid Explains Reporting Speech
+@AUDIO 10.2
+@PRE listen
+when is it better to quote somebody, and when is it better to paraphrase?
+@TEXT
+Ingrid: There are two honest ways to use what somebody says. You quote them word for word, inside quotation marks. Or you report them in your own words, with attribution and no marks. What you may never do is the thing in between: tidy a sentence and then put marks around it. That is not a quote; it is your sentence wearing somebody else’s name. So when should you quote? When the words carry something — a way of putting it you could not improve, or a judgement that must clearly be theirs. When should you report? When the information matters more than the phrasing, or when the speaker was tired, or speaking through an interpreter, or simply not making a speech. And always attribute. A reader who sees ‘Mrs Dela Cruz said’ can decide what to think. A reader who sees a claim with no name has to trust us, and we should not ask for that when we do not need to.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. There are two honest ways to use what somebody says. — T
+@NUM
+A quote must be word for word.   ____
+It is acceptable to tidy a sentence inside quotation marks.   ____
+You should report rather than quote when the information matters more than the phrasing.   ____
+A claim with no attribution is better for the reader.   ____
+@PHRASES
+word for word, inside quotation marks
+your sentence wearing somebody else’s name
+always attribute
+
+@TASK Part 3: Tomás Checks a Quote
+@AUDIO 10.3
+@PRE listen
+what would you do if a speaker wanted to change a quote?
+@TEXT
+Tomás: Mrs Dela Cruz, may I read back the two sentences I would like to use?
+Mrs Dela Cruz: Please.
+Tomás: ‘The good fish goes first, so you must be early or you buy nothing.’ And: ‘It is not a sad place. People laugh there.’
+Mrs Dela Cruz: The second one is right. The first — I said ‘you buy nothing’, but it sounds hard. Could you put ‘you go home with less’?
+Tomás: Of course. Is that what you meant?
+Mrs Dela Cruz: It is what I meant. The other way makes me sound angry.
+Tomás: Then that is what we will print. I will send you the article when it is published, and if anything is still wrong, you call me.
+Mrs Dela Cruz: You said you would call me when it is out?
+Tomás: I did, and I will.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. How many sentences does Tomás read back? — Two.
+@NUM
+Which sentence does Mrs Dela Cruz want to change?
+What does she ask him to write instead?
+What has Tomás promised to do when the article is published?
+@PHRASES
+May I read back…?
+Is that what you meant?
+Then that is what we will print.
+
+@TASK Part 3: Finishing the Story
+@AUDIO 10.4
+@PRE listen
+what are the last steps before a story is published?
+@TEXT
+Ingrid: Last checks. Tomás, the quotes?
+Tomás: Both read back. She changed four words in one, and I have recorded that she asked for it.
+Ingrid: Good. Nadia, attribution?
+Nadia: Every claim is attributed except one, where she asked to remain anonymous. I have written ‘a trader at the market’.
+Ingrid: That is right. Joseph, the translation?
+Joseph: The article says ‘speaking through an interpreter’, and I have read the final version back in her language.
+Ingrid: Thank you — that is the part teams usually skip. Aisha, the photograph credit?
+Aisha: Credited, and the caption names only the people who consented.
+Ingrid: Then we are finished. Well done, all of you.
+@WHILE
+match each person with their check. One check is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → runs the final check.
+@MATCH e) book the flights for the team
+Tomás :: write the attribution and handle the anonymous source
+Nadia :: read the final version back in the speaker’s language
+Joseph :: credit the photograph and check the caption
+Aisha :: read both quotes back and record the change
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Quotes and Attribution
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+When would you quote somebody, and when would you paraphrase?
+Why must every claim carry attribution?
+What would you do if a speaker asked to change a quote?
+@USE
+I would quote when…
+I would paraphrase when…
+A reader who sees a name can…
+
+@TASK Part 4: Checking a Quote — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to read a quote back.
+@MODEL
+A: May I read back the two sentences I would like to use? — B: Please. — A: ‘The good fish goes first, so you buy nothing.’ — B: Could you put ‘you go home with less’? The other way makes me sound angry. — A: Is that what you meant? — B: It is. — A: Then that is what we will print.
+@USE
+May I read back…?
+Is that what you meant?
+Then that is what we will print.
+@CARD Card A — Officer
+read two quotes back · ask whether they are right · accept a change · promise one next step.
+@CARD Card B — Speaker
+accept one quote · ask for one change · explain why.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Report what two people told you about their work. Use reported speech and attribution.
+@PLAN ___ told me that…  She said that…  He asked whether…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: Telling the Story Truthfully
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+There are two honest ways to use what somebody has told you, and one dishonest one that is extremely common. The honest ways are to quote them word for word inside quotation marks, or to report them in your own words with attribution. The dishonest way is the thing in between: taking a sentence that was slightly rambling, tidying it, sharpening it, and then putting quotation marks around the improved version. Almost everybody who does it believes they are helping, and almost everybody it is done to notices. A quote is not a service to the reader; it is a promise that these were the words. Attribution is the second half of the same promise. A reader who sees ‘Mrs Dela Cruz said’ can weigh the claim against the person who made it; a reader who sees the same claim floating free has to trust the organisation instead, and an organisation that asks for that trust unnecessarily will eventually spend it on something that matters. There is a further problem in international work. A quote that has passed through an interpreter is not verbatim in the language it is printed in. Honest teams say ‘speaking through an interpreter’, read the final version back in the original language, and accept the changes the speaker asks for. The result is less polished than an invented sentence would be. It is also the only version the speaker would recognise as theirs.
+@EX 0. There are two honest ways to use what somebody has told you. (example)
+@MCQ 1 | What is the dishonest way described? | Quoting word for word | Tidying a sentence and keeping the quotation marks | Paraphrasing with attribution | Not quoting at all
+@MCQ 2 | What can a reader do when they see attribution? | Nothing | Weigh the claim against the person | Translate it | Share it faster
+@MCQ 3 | What do honest teams do with an interpreted quote? | Print it as verbatim | Say ‘speaking through an interpreter’ and read it back | Remove it | Shorten it
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. tidy  →  to make something neat and clear. (example)
+@MATCH f) a person who takes photographs
+rambling :: going on too long without a clear direction
+weigh :: to judge the value of something
+floating free :: with nothing to connect it to a source
+polished :: smooth and finished
+recognise :: to know something as your own
+
+@GLOSS verbatim = word for word, exactly as it was said    ·    attribution = naming the person a claim comes from
+@TASK Part 5: Whose Words Are They?
+@RUBRIC Read about quotes across languages. Then mark each sentence True (T) or False (F).
+@TEXT
+Almost every organisation that works internationally publishes quotes that were not spoken in the language they appear in, and most of them say nothing about it. The sentence looks the same on the page as one spoken in English, and the reader assumes the speaker chose those words. They did not. Somebody chose words with the same meaning, as carefully as they could, under time pressure and usually without a chance to check. This is not dishonest in itself, and the alternative — publishing nothing that was said in another language — would silence most of the people whose stories matter. What is dishonest is hiding it. Three habits fix almost all of it. Write ‘speaking through an interpreter’ where it is true, so that the reader knows what they are reading. Read the final version back in the original language before publication, not the interpreter’s notes but the sentence that will actually be printed. And when the speaker says that a word is not quite right, change it, even when the change makes the sentence flatter. A flatter sentence that the speaker would recognise is worth more than a beautiful one that they would not.
+@EX 0. Many published quotes were not spoken in the language they appear in. → T (example)
+@NUM
+Publishing an interpreted quote is dishonest in itself.   ____
+‘Speaking through an interpreter’ should be written where it is true.   ____
+The interpreter’s notes should be read back, not the final sentence.   ____
+A flatter sentence the speaker recognises is worth more than a beautiful one.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Report What People Said (80–120 words)
+@RUBRIC Report what two or three people told you about their work. Use reported speech and attribution.
+@MODEL
+Mrs Dela Cruz told me that she had been going to the market since the first flood, eleven years ago. She said that the good fish went first, so a buyer had to be early. When I asked whether she wanted her children mentioned, she said that she did not, and she asked me to send her the article when it was published. The market manager told me that attendance had risen since the new roof was built, although he added that he had not counted. He asked whether we would name the market, and I said that we would.
+@PLAN ___ told me that…  She said that…  When I asked whether ___ , she said…  He asked whether…
+@CHECK
+reported speech with the tense stepped back?
+‘said’ and ‘told’ used correctly?
+80–120 words?
+
+@TASK Part 6: A Thank-You to a Donor (60–90 words)
+@RUBRIC Write a short message thanking a donor. Report one thing a person in the project said.
+@MODEL
+Dear Ms Olsen, thank you for supporting the market project this year. I wanted to pass on something that a trader told me last week. She said that she had been coming to the market for eleven years, and that the new roof meant she no longer lost a day’s stock to the rain. She asked me to thank whoever had paid for it. I am glad to be able to do so. With thanks, Tomás Rivera.
+@PLAN Dear ___ , thank you for ___ .  ___ told me that ___ .  She asked me to ___ .  With thanks, ___ .
+@CHECK
+a greeting and a close?
+one reported sentence?
+60–90 words?
+
+@TASK Part 6: Why We Never Invent a Quote (80–120 words)
+@RUBRIC Write about why a quote must never be invented or improved. Give reasons and an example.
+@MODEL
+An invented quote is the one mistake from which an organisation does not recover. Everything else we publish — a figure, a date, a caption — can be corrected, and a reader will accept a correction. A quote cannot be corrected, because the person either said it or did not, and if they did not, every other quote we have ever printed becomes a question. Improving a quote is the same offence in a smaller coat. For example, a sentence that was rambling can be paraphrased honestly with attribution; what it cannot be is tidied and then put inside quotation marks.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: Reflection — A Privilege and a Duty (60–90 words)
+@RUBRIC Write about what you have learned in this course. Use your own ideas.
+@MODEL
+What I take from this course is that being allowed to tell somebody’s story is a privilege, not a right. People give us their words when they have very little else to give, and they usually cannot check what we do with them afterwards. That is why consent, accuracy, dignity and do no harm are not rules imposed on the work; they are the work. If I remember nothing else, I want to remember to read it back.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank — The Course Values
+@RUBRIC Match each value with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. Listen first.  →  let the person choose where to begin. (example)
+@MATCH f) return the equipment charged
+Consent :: check every fact and never invent anything
+Accuracy :: never use a person’s words or face without permission
+Dignity :: if something could hurt somebody, do not publish it
+Do no harm :: treat every person with respect
+Attribution :: let the reader see who said it
+
+@TASK 7B: The End-of-Course Briefing
+@AUDIO 10.5
+@PRE listen
+what would you want a new colleague to remember after a year?
+@TEXT
+Ingrid: We have been working together for ten units now, and I want to say what I hope you take away, because it is not the grammar. Four things. Consent: never use a person’s words, face or story without permission, and remember that permission is specific to a use. Accuracy: check every fact and every quote, and never invent anything, not even a small helpful detail. Dignity: treat every person in your work with respect, and protect those who could be at risk — a photograph that takes somebody’s dignity is a photograph we do not need. And do no harm: if something could hurt somebody, do not publish it, whatever it would do for the campaign. Everything else in this book is technique, and technique can be learned in a month. These four take longer, and they are the reason that people trust us with the things they tell us. Thank you for your work. I have enjoyed it more than I expected to.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How many values does Ingrid name? — Four.
+@NUM
+What does Ingrid say about permission?
+What does she say about a photograph that takes somebody’s dignity?
+What does she say can be learned in a month?
+
+@TASK 7C: Controlled Practice — Checking a Quote
+@RUBRIC You are the manager. Put the quote-checking steps in order. Number them 1–5. (0. is done.)
+@EX 0. Write the quote down exactly as it was said. — 1
+@LINE
+___ Read it back to the speaker in their own language.
+___ Change any word the speaker asks you to change.
+___ Record that the read-back was done and what changed.
+___ Add the attribution and, if needed, ‘speaking through an interpreter’.
+
+@TASK 7D: Role-Play — The Final Review
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: Quotes? — Tomás: Both read back; she changed four words in one, and I have recorded it. — Ingrid: Attribution? — Tomás: Every claim attributed except one; she asked to stay anonymous, so it says ‘a trader at the market’. — Ingrid: And the translation? — Tomás: It says ‘speaking through an interpreter’, and Joseph read the final version back.
+@CARD Card A — Manager (Ingrid)
+ask about the quotes · ask about attribution · ask about the translation · close warmly.
+@CARD Card B — Officer
+answer each question · name one change the speaker asked for · raise one thing you are proud of.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team at the end of the course.
+@MODEL
+Dear team, we have been working together for ten units, and I want to say what I hope you keep. Consent: never use a person’s words, face or story without permission, and remember that permission is specific. Accuracy: check every fact and every quote, and invent nothing, not even a small helpful detail. Dignity: protect the people who could be at risk. Do no harm: if it could hurt somebody, we do not publish it. Everything else is technique. These four are the reason people trust us with what they tell us. Thank you. Ingrid.
+@CHECK
+the four values named?
+at least one reported sentence?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Quote That Was Almost Wrong
+@PRE read
+has a small change of wording ever changed a meaning for you?
+@TEXT
+The article was about a women’s cooperative in Lima, and the quote was the best sentence in it. A member of the cooperative had said, through an interpreter, something that came out in the notes as: ‘Before, we asked our husbands for money. Now we do not have to ask anybody.’ It was clear, it was quotable, and Nadia had already chosen it for the social media card. Tomás, following the rule rather than any suspicion, asked Joseph to read the final English sentence back in Spanish before publication. The woman listened and said that it was nearly right but not quite. She had not said ‘we do not have to ask anybody’. She had said that she no longer had to ask for money to buy materials for her work, which was a smaller and more precise claim about her business rather than a general statement about her marriage. The interpreter had not made an error exactly; the Spanish had been compressed, and the English had filled the gap in the direction that made the better sentence. The published quote was the smaller one. The social media card was less striking. Tomás wrote afterwards that the read-back had taken eleven minutes and had saved them from putting a sentence about somebody’s marriage into her mouth in a language she does not read.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where was the cooperative? — In Lima.
+@NUM
+What did the notes say she had said?
+What had she actually said?
+How long did the read-back take?
+@GLOSS cooperative = a business owned and run by its members together    ·    compress = to make something shorter
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. quotable  →  good enough to be used as a quote. (example)
+@MATCH f) a short text under a photograph
+suspicion :: a feeling that something is wrong
+precise :: exact and clearly limited
+compress :: to make something shorter
+striking :: immediately noticeable
+materials :: the things you need to make something
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+‘In my opinion, the read-back was worth it because…’
+‘I agree, because…’
+‘That is a good point, but…’
+@BULLET
+Was the first version a lie? Why, or why not?
+Should every interpreted quote be read back, even under deadline?
+What would you have done with the social media card?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: The Donor’s Own Words
+@PRE read
+should a donor’s words be checked as carefully as anybody else’s?
+@TEXT
+A donor who has funded the Lima programme for six years has sent a message that Nadia would like to use in the annual report. It reads: ‘I have visited the cooperative twice, and I have never seen money better spent.’ It is warm, it is specific, and it is exactly the kind of endorsement that persuades other donors. There are two problems. The donor wrote it in an email that was not intended for publication, and she has not been asked. And Tomás, checking the record as he checks everything, has found that she visited once, not twice; the second visit was cancelled when the road flooded. The sentence is therefore not accurate, although the inaccuracy is the donor’s own and is obviously innocent. Nadia could simply ask the donor, who would almost certainly agree and would correct the detail herself. That would take three days, and the report goes to the printer on Thursday. She could also use the quote without the word ‘twice’, which would be accurate and would no longer be verbatim.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How long has the donor funded the programme? — Six years.
+@NUM
+What are the two problems with the quote?
+How many times did the donor actually visit?
+What would happen if Nadia simply asked her?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Nadia (a) use the quote as written, (b) use it without the word ‘twice’, or (c) ask the donor and delay? Choose one and give reasons.
+@FRAME Answer frame
+‘I think Nadia should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
+@MODELDEC
+I think Nadia should ask the donor and accept the delay, because the quote was written in a private email and we have not been given permission to publish it at all, which is the larger problem. Also, the donor will almost certainly agree and will want to correct the detail herself, since it is her own mistake and her own reputation. This is better than quietly removing a word, because an edited quote inside quotation marks is no longer verbatim, and we would be doing to a donor exactly what we would never do to anybody else.
+@PHRASEBANK
+I think… should…
+because…
+it was written in a private email
+This is better than…
+the same rule for everybody.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK told | whether | has been running | mustn’t
+@EX 0. She said that the market opened at five. (example)
+@GAP
+She @@ me that she did not want her children mentioned.
+He asked @@ we had finished.
+The crisis desk @@ since six o’clock. (Unit 9)
+You @@ publish a name that has not been consented to. (Unit 8)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main reporting and attribution terms
+I can report a statement, a question and a command
+I can use ‘say’ and ‘tell’ correctly
+I can read a quote back and accept a change
+I can explain why a quote must never be invented or improved
+
+@TASK Part 10: End of Course — The Four Values
+@RUBRIC You have reached the end of the course. Everything in this book rests on four simple values. Keep them with you.
+@TEXT
+Consent — never use a person’s words, face or story without permission, and remember that permission is specific to a use.  ·  Accuracy — check every fact and every quote, and never invent anything.  ·  Dignity — treat every person with respect, and protect those who could be at risk.  ·  Do no harm — if something could hurt someone, do not publish it.
+@LINE Well done for completing the course. You have learned how to write, interview, plan, report and protect, in a team that works across several countries and several languages. Carry these skills, and these values, into everything you communicate. Congratulations.
+
+@TASK Part 10: Unit 10 glossary
+@TEXT
+quote = a person’s exact words    ·    attribution = saying clearly who said something    ·    report = to tell what someone said, in your own words    ·    donor = a person who gives money to help    ·    credit = naming the person who did the work    ·    paraphrase = to say something again in different words    ·    source = the person or place information comes from    ·    acknowledge = to thank or give credit to someone    ·    verbatim = in exactly the same words    ·    anonymous = without the person’s name    ·    endorsement = a public statement of support    ·    reported speech = telling what someone said in your own words    ·    reporting verb = a verb like say, tell, ask or explain    ·    privilege = a special honour or opportunity    ·    cooperative = a business owned and run by its members together    ·    communicator = a person whose job is to share information and stories

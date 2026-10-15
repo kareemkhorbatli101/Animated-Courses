@@ -1,0 +1,471 @@
+@UNIT 7 | Planning a Campaign
+@SUB Future forms and the first conditional in plans  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Planning Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Plan  →  what you decide to do and when. (example)
+@MATCH f) a person who takes photographs
+Campaign :: the date when something must be finished
+Objective :: a series of actions to reach one goal
+Deadline :: what you want the campaign to achieve
+Timeline :: the person who is responsible for a task
+Owner :: the order and dates of all the steps
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK objective | timeline | deadline | owner
+@EX 0. We plan every campaign together. (example)
+@GAP
+Every task on the plan needs an @@.
+The @@ for the first post is Tuesday.
+Our @@ is to reach four thousand families.
+The @@ shows every step and its date.
+
+@TASK Warm-up: Reading — A Clear Plan
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+A campaign plan at Meridian Relief fits on one page. At the top is the objective, written as a sentence that anybody can understand. Below it are the audiences, and beside each audience is the channel that reaches it. Then comes the timeline: each step, its date, and the name of the person who owns it. At the bottom there is always a short section called Plan B, which says what the team will do if something goes wrong. The team is going to launch the winter campaign in three weeks, and the plan has been on the wall since Monday.
+@EX 0. The plan fits on one page. (example)
+@MCQ 1 | What is at the top of the plan? | The timeline | The objective | Plan B | The budget
+@MCQ 2 | What does Plan B say? | What the team will do if something goes wrong | Who the donors are | How much it costs | Where the office is
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Planning Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Campaign  →  a series of actions to reach one goal.
+@MATCH h) the person who speaks for an organisation
+Objective :: what you want the campaign to achieve
+Timeline :: the order and dates of all the steps
+Milestone :: an important date on the way to the goal
+Owner :: the person responsible for one task
+Launch :: the day a campaign begins
+Budget :: the money available for the work
+Plan B :: what you will do if the first plan fails
+@GLOSS milestone = an important date on the way to a goal    ·    Plan B = the alternative you prepare before you need it
+
+@TASK Part 1: Pronunciation
+@AUDIO 7.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+campaign — cam-PAIGN
+objective — ob-JEC-tive
+timeline — TIME-line
+milestone — MILE-stone
+schedule — SCHE-dule
+budget — BU-dget
+
+@TASK Part 1: Talking About the Future — Match the Form
+@RUBRIC Match each sentence with the form it uses. One form is not needed. Write the letter.
+@EX 0. We are going to launch in May.  →  ‘going to’ for a decision already taken. (example)
+@MATCH f) the past simple
+We are meeting the donors on Tuesday. :: ‘will’ for a decision made now
+I will send it this afternoon. :: present continuous for a fixed arrangement
+The campaign starts on 1 March. :: ‘will’ for a prediction
+It will probably rain on the launch day. :: present simple for a timetable
+If the funding arrives, we will begin. :: first conditional in a plan
+
+@GLOSS arrangement = something you have already agreed with another person    ·    intention = what you have decided to do
+@TASK Part 1: Planning Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. An objective is what you want to achieve. (example)
+@MCQ 1 | What is a milestone? | The money available | An important date on the way to the goal | The name of a channel | The final report
+@MCQ 2 | What is an owner, in a plan? | The person who paid | The person responsible for one task | The donor | The editor
+@MCQ 3 | What is Plan B? | The second page | What you will do if the first plan fails | The budget | A kind of channel
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK launch | milestone | budget | Plan B
+@EX 0. Every task has an owner. (example)
+@GAP
+The @@ is on the first of March.
+Reaching two thousand families is our first @@.
+The @@ for this campaign is small, so we will use radio.
+If the launch is delayed, our @@ is to move it to the following week.
+
+@TASK Part 1: Write Two Plans (short)
+@RUBRIC Write two sentences about something your team is going to do. Use ‘going to’ and the present continuous.
+@PLAN We are going to…  We are meeting…  If ___ , we will ___ .
+
+@BAR Part 2  ·  Grammar — Future Forms and the First Conditional in Plans | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read what Ingrid says at the planning meeting. ‘We are going to launch the winter campaign on the first of March; that decision is made. We are meeting the donors on Tuesday — it is in the diary. The radio slot starts at six in the evening, because that is when the programme always begins. I will send you the one-page plan this afternoon; I have just decided that. And if the funding does not arrive by the twentieth, we will move the launch by a week.’ Notice four ways of talking about the future, and one conditional.
+@LINE Look at the sentences again. Which decisions were made before today? Which was made at that moment?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+going to | a decision already taken | We are going to launch in March.
+present continuous | a fixed arrangement, usually with a time | We are meeting the donors on Tuesday.
+will | a decision made now, or a prediction | I will send it this afternoon.
+present simple | a timetable | The programme starts at six.
+@REMEMBER Use ‘going to’ for a plan you already have, the present continuous for an arrangement in the diary, and ‘will’ for a decision you make as you speak. After ‘if’, use the present.
+@WATCH Watch out: say ‘If the funding arrives, we will begin’, not ‘If the funding will arrive’. The ‘will’ belongs in the second half.
+@GLOSS arrangement = something you have agreed with another person    ·    prediction = what you think will happen
+
+@TASK Part 2: Controlled Practice — Future Forms
+@RUBRIC Complete with the correct future form.
+@EX 0. We are going to launch (launch) the campaign in March. (example)
+@GAP
+We @@ (meet) the donors on Tuesday at ten.
+The radio programme @@ (start) at six every evening.
+I @@ (send) you the plan this afternoon — I have just decided.
+The team @@ (run) three events in May; it is all agreed.
+
+@TASK Part 2: The First Conditional in Plans
+@RUBRIC Complete with the correct form.
+@GAP
+If the funding @@ (not arrive) by the twentieth, we will move the launch.
+If it rains on the launch day, we @@ (use) the hall instead.
+If the interpreter is ill, Joseph @@ (translate).
+If we @@ (reach) two thousand families, we will have met our first milestone.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+If the funding will arrive, we will begin.
+We will meet the donors on Tuesday; it is in the diary.
+The programme is going to start at six every evening.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say two things your team is going to do, and one thing you will do if something goes wrong.
+@BULLET
+We are going to ______ , and we are ______ on ______ .
+If ______ , we will ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | We ______ the donors on Tuesday; it is in the diary. | will meet | are meeting | meet | would meet
+@MCQ 2 | If the funding ______ by the twentieth, we will move the launch. | will not arrive | does not arrive | is not arriving | would not arrive
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Ingrid Explains Planning
+@AUDIO 7.2
+@PRE listen
+what should be written on a campaign plan?
+@TEXT
+Ingrid: A campaign plan should fit on one page, and if it does not, the campaign is probably too complicated. At the top, write the objective as a single sentence that anybody in the organisation could read and understand. Not ‘raise awareness’ — that means nothing. Something you could count: four thousand families will know that the clinic has moved. Underneath, list the audiences, and beside each one, the channel that actually reaches it. Then the timeline: every step, its date and the name of the person who owns it. A task with no owner does not happen; a task with three owners happens twice or not at all. At the bottom, Plan B. What will we do if the funding is late, if the interpreter is ill, if it rains on the launch day? Write it down before you need it, because nobody thinks clearly in the week of a launch. And then put the page on the wall, where everybody can see it.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. A campaign plan should fit on one page. — T
+@NUM
+The objective should be something you can count.   ____
+A task with three owners is better than a task with one.   ____
+Plan B should be written before you need it.   ____
+The plan should be kept in a drawer.   ____
+@PHRASES
+It should fit on one page.
+A task with no owner does not happen.
+Write it down before you need it.
+
+@TASK Part 3: Tomás and Nadia Plan the Week
+@AUDIO 7.3
+@PRE listen
+how do two colleagues divide a week’s work?
+@TEXT
+Nadia: So, the launch is on the first. What are you doing this week?
+Tomás: I am writing the main article on Monday and Tuesday, and I am interviewing two families on Wednesday.
+Nadia: Good. I am going to prepare the posts from your article, so I will need it by Thursday morning.
+Tomás: That is fine. And the radio announcement?
+Nadia: Joseph is recording it on Thursday afternoon. If his interpreter cannot come, he will do it in one language and we will add the second on Friday.
+Tomás: What about the photographs?
+Nadia: Aisha is sending them on Wednesday evening. If they arrive late, I will use last year’s for the first day only.
+Tomás: Then we are ready. I will send you the article on Wednesday night, not Thursday, just in case.
+Nadia: Thank you. That is exactly the kind of margin that saves a launch.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. When is the launch? — On the first.
+@NUM
+What is Tomás doing on Wednesday?
+What will Joseph do if his interpreter cannot come?
+Why will Tomás send the article on Wednesday night?
+@PHRASES
+What are you doing this week?
+I am going to…
+If ___ , I will…
+
+@TASK Part 3: Getting the Appeal Ready
+@AUDIO 7.4
+@PRE listen
+what is the last thing a team should check before a launch?
+@TEXT
+Ingrid: Four days to go. Let’s walk through it. Tomás, the article?
+Tomás: Written and signed off. It goes live at eight on the first.
+Ingrid: Nadia, the posts?
+Nadia: Scheduled for eight, nine and midday. If the article is delayed, nothing goes out until it is live.
+Ingrid: Good. Joseph, the radio?
+Joseph: Recorded in both languages. It is broadcast on the first and the third.
+Ingrid: Aisha, photographs and captions?
+Aisha: All captioned and checked. Two families asked for no names, and I have noted that on the file.
+Ingrid: Thank you. And Plan B — if the funding confirmation is late, we launch without the figure and add it afterwards. Everybody clear?
+@WHILE
+match each person with their job. One job is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → walks the team through the final check.
+@MATCH e) book the flights for the team
+Tomás :: schedule the posts for the launch day
+Nadia :: record the radio announcement in both languages
+Joseph :: caption and check the photographs
+Aisha :: write and sign off the main article
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Plans
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What is your team going to do next month?
+What are you doing this week that is already arranged?
+What will you do if something is late?
+@USE
+We are going to…
+I am ___ on ___ .
+If ___ , we will…
+
+@TASK Part 4: Planning a Campaign — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to plan a week together.
+@MODEL
+A: The launch is on the first. What are you doing this week? — B: I am writing the article on Monday and interviewing on Wednesday. — A: I am going to prepare the posts, so I will need it by Thursday. — B: I will send it Wednesday night, just in case. — A: And if the photographs are late? — B: Then we use last year’s for the first day only.
+@USE
+What are you doing this week?
+I am going to…
+If ___ , we will…
+@CARD Card A — Officer
+say what is already arranged · say what you are going to do · ask for one deadline.
+@CARD Card B — Officer
+agree a deadline · offer a margin · propose one Plan B.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe a campaign your team is planning. Use ‘going to’, the present continuous and one first conditional.
+@PLAN We are going to…  We are ___ on ___ .  Our objective is…  If ___ , we will…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: How to Plan a Campaign
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Most campaign plans fail in the same two places, and neither of them is the idea. The first is the objective. A great many plans begin with something like ‘raise awareness’, which cannot be measured, cannot be disproved and therefore cannot be managed. A usable objective says who will know or do what, and by when: four thousand families in three districts will know that the clinic has moved, before the first of March. That sentence can be checked afterwards, which is uncomfortable and is exactly the point. The second place plans fail is ownership. Every step on a timeline needs one name beside it. A task owned by ‘the team’ is owned by nobody; a task owned by three people is usually done twice or not at all, and the person who notices the gap is always the one with the least time to fix it. Beyond those two, the discipline is honesty. Put in the dates you will actually meet, not the ones that look impressive. Build a margin into the steps that depend on somebody outside the team, because those are the ones that slip. And write Plan B before you need it, when you are calm, rather than in the week of the launch, when nobody thinks clearly and the loudest voice usually wins. A plan is not a promise that nothing will change. It is an agreement about what everybody will do when it does.
+@EX 0. Most campaign plans fail in two places. (example)
+@MCQ 1 | What is wrong with ‘raise awareness’ as an objective? | It is too long | It cannot be measured | It is too expensive | It is not ambitious
+@MCQ 2 | What happens to a task owned by three people? | It is done well | It is done twice or not at all | It is cancelled | It is done early
+@MCQ 3 | When should Plan B be written? | In the week of the launch | Before you need it | After the campaign | Never
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. measure  →  to find out the size or amount of something. (example)
+@MATCH f) a person who reports the news
+objective :: what you want to achieve
+ownership :: being responsible for something
+margin :: extra time in case of delay
+slip :: to happen later than planned
+discipline :: doing something carefully every time
+
+@GLOSS margin = extra time built into a plan in case of delay    ·    slip = to happen later than planned
+@TASK Part 5: Planning for Real Life in the Field
+@RUBRIC Read about planning in difficult conditions. Then mark each sentence True (T) or False (F).
+@TEXT
+A plan made in a head office and a plan made in a field office are different documents, even when they share a page. In a capital city, a delay of two days is an inconvenience. In a district where the road is passable for part of the year, where the electricity comes on in the evening, and where the interpreter is also the only nurse, two days can move a launch by a month. Teams that plan well across both places do three things. They ask the field office for the dates rather than proposing them, because only the field office knows which week the market is held and which week nobody will be at home. They build margin into every step that depends on somebody outside the team, and they put that margin in the plan where everybody can see it, rather than hiding it in their own heads. And they agree in advance what will happen if a step slips: not ‘we will discuss it’, which means an argument in the worst week, but a decision taken calmly in advance. None of this makes a plan more likely to survive unchanged. It makes the team more likely to survive the change.
+@EX 0. A delay of two days can matter more in a district. → T (example)
+@NUM
+Good teams propose the dates to the field office.   ____
+Margin should be hidden so that people work faster.   ____
+Teams should agree in advance what happens if a step slips.   ____
+A good plan always survives unchanged.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Describe a Campaign Plan (80–120 words)
+@RUBRIC Describe a campaign your team is planning. Use ‘going to’, the present continuous and one first conditional.
+@MODEL
+We are going to launch our winter campaign on the first of March. Our objective is that four thousand families in three districts will know that the clinic has moved. We are meeting the community leaders on Tuesday, and Joseph is recording the radio announcement on Thursday in both languages. Tomás is writing the main article this week, and Aisha is sending the photographs on Wednesday evening. If the funding confirmation is late, we will launch without the figure and add it afterwards. The whole plan is on one page on the wall.
+@PLAN We are going to…  Our objective is…  We are ___ on ___ .  If ___ , we will…
+@CHECK
+‘going to’ and the present continuous used correctly?
+one first conditional?
+80–120 words?
+
+@TASK Part 6: Why We Make a Plan B (80–120 words)
+@RUBRIC Write about why a team should prepare a Plan B. Give reasons and an example.
+@MODEL
+A Plan B is not pessimism; it is the only way to stay calm in the week of a launch. Something always slips, and the week when it slips is the week when nobody thinks clearly and the loudest voice in the room usually wins. If the decision has already been taken, calmly, in advance, then nobody has to argue about it at nine o’clock at night. For example, last year our funding confirmation arrived four days late. Because we had agreed in advance, we launched without the figure and added it afterwards, and nothing was lost.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Message About the Schedule (60–90 words)
+@RUBRIC Write a short message to a colleague about a change to the schedule.
+@MODEL
+Hi Joseph, a small change to the plan. The article is going live at eight on the first, not at midday, because the radio slot is in the morning and we want them to arrive together. Could you record the announcement by Thursday afternoon instead of Friday? If your interpreter cannot come, record it in one language and we will add the second on Friday. Thank you, Nadia.
+@PLAN Hi ___ , a small change: ___ .  Could you ___ ?  If ___ , we will ___ .  Thank you, ___ .
+@CHECK
+a greeting and a close?
+the change and the reason?
+60–90 words?
+
+@TASK Part 6: Reflection — A Guide, Not a Prison (60–90 words)
+@RUBRIC Write about what a plan is for. Use your own ideas.
+@MODEL
+I used to think that a good plan was one that did not change. I now think almost the opposite. Every campaign I have worked on has changed, usually in the last week, and the plans that helped were the ones that said in advance what we would do when it did. A plan is not a promise that the world will behave. It is an agreement about who decides what, so that when something slips we are not also arguing about whose job it was.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each planning rule with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. One page only.  →  if it does not fit, the campaign is too complicated. (example)
+@MATCH f) return the equipment charged
+Make it countable. :: let the field office set the dates
+One name per task. :: write the alternative while you are calm
+Ask, do not propose. :: an objective you cannot check is not an objective
+Build in margin. :: a task owned by everybody is owned by nobody
+Write Plan B early. :: the steps that depend on others will slip
+
+@TASK 7B: The Planning-Meeting Briefing
+@AUDIO 7.5
+@PRE listen
+how should a manager run a planning meeting?
+@TEXT
+Ingrid: Three things before we start planning, because we have made the same mistakes twice now. First, we are not leaving this room with an objective that cannot be counted. ‘Raise awareness’ is not an objective; it is a wish. I want a sentence with a number, a place and a date in it, and I want it written at the top of the page. Second, every single step gets one name. Not a team, not two names, one. If you are the owner and you are going to be away, say so now and we will change it, because the week of the launch is not the time to discover it. Third, I am going to ask the field offices for the dates rather than telling them, and whatever they say, we will build in margin for anything that depends on somebody outside this organisation. And we will write Plan B today, while everybody is calm, not on the twenty-eighth of February at ten o’clock at night.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What does Ingrid say ‘raise awareness’ is? — A wish, not an objective.
+@NUM
+What three things must an objective contain?
+How many names should each step have?
+When will the team write Plan B?
+
+@TASK 7C: Controlled Practice — The Planning Steps
+@RUBRIC You are the manager. Put the planning steps in order. Number them 1–5. (0. is done.)
+@EX 0. Write the objective as one countable sentence. — 1
+@LINE
+___ List the audiences and the channel that reaches each one.
+___ Ask the field offices for the dates.
+___ Put one owner’s name beside every step.
+___ Agree Plan B and write it at the bottom of the page.
+
+@TASK 7D: Role-Play — Leading the Planning Meeting
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: Read me the objective. — Nadia: ‘Raise awareness of the clinic move.’ — Ingrid: Give me a number, a place and a date. — Nadia: Four thousand families in three districts, before the first of March. — Ingrid: Much better. Who owns the radio step? — Nadia: Joseph. — Ingrid: And if he is away? — Nadia: Then I will do it, and I will say so in the plan.
+@CARD Card A — Manager (Ingrid)
+ask for a countable objective · ask who owns each step · ask what happens if the owner is away.
+@CARD Card B — Officer
+improve the objective · name one owner · propose one Plan B.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team setting out how the plan will be made.
+@MODEL
+Dear team, before Thursday’s meeting, three things. Our objective must be countable: a number, a place and a date, written at the top of the page. Every step will have one owner, not a team and not two names, and if you are going to be away in your week, please say so now rather than in February. I am going to ask each field office for its own dates rather than proposing them from Geneva, and we will build in margin wherever a step depends on somebody outside this organisation. We will write Plan B on Thursday, while we are all calm. Ingrid.
+@CHECK
+the three rules stated clearly?
+‘going to’ and one first conditional?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Plan That Changed
+@PRE read
+what is the latest a plan has ever changed on you?
+@TEXT
+The plan had been on the wall for five weeks, and it was a good one. The winter appeal would launch on the first of March at eight in the morning: the article live, the first post at eight, the radio announcement the same evening in both languages, and a second post at midday with Aisha’s photographs. Every step had one name beside it. On the twenty-seventh of February, the road to the eastern district closed. It was not dramatic — heavy rain, a bridge that the district had been worrying about for two years — but it meant that Joseph could not reach the radio station, and that the photographs of the distribution point, which were the heart of the appeal, did not exist yet. Five weeks of planning had not prevented this and could not have done. What the plan did was narrower and more useful. Because Plan B had been written in January, when everybody was calm, nobody spent the twenty-eighth arguing. The radio announcement was recorded in Nairobi instead and sent to the station as a file. The appeal launched with photographs from the clinic rather than the distribution point, and Aisha’s pictures were added on the fourth. The objective was met eleven days later than planned. Nobody shouted at anybody.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How long had the plan been on the wall? — Five weeks.
+@NUM
+What happened on the twenty-seventh of February?
+Why did nobody spend the twenty-eighth arguing?
+When was the objective met?
+@GLOSS prevent = to stop something from happening    ·    distribution point = the place where aid is given out
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. launch  →  the day a campaign begins. (example)
+@MATCH f) a short text under a photograph
+prevent :: to stop something from happening
+narrow :: limited, not wide
+calm :: not worried or excited
+instead :: in the place of something else
+heart :: the most important part
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+‘In my opinion, the most useful part of a plan is…’
+‘I agree, because…’
+‘That is a good point, but…’
+@BULLET
+What is the point of a plan if it always changes?
+Who should decide when a plan has to change?
+How would you write a Plan B for your own work?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: When to Launch
+@PRE read
+is it better to launch late, or to launch with less?
+@TEXT
+The Dhaka office is four days from the launch of a campaign about a new water point, and two things have gone wrong at once. The photographs have not arrived, because Aisha could not reach the site, and the funding confirmation that the appeal was going to quote has been delayed by the donor until the middle of the month. Nadia has three options. She can launch on time with the photographs from last year’s campaign, which are good but are not of this water point, and without the figure. She can delay the whole campaign by two weeks, which is clean but means launching after the rains begin, when the families who most need the message will be hardest to reach. Or she can launch on time with the article and the radio announcement only, and add the photographs and the figure as a second wave on the fourteenth. Each option costs something. The team has agreed in advance that the objective — four thousand families knowing about the water point — matters more than the appearance of the launch, and Nadia is the owner of this decision.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How many days until the launch? — Four.
+@NUM
+Why have the photographs not arrived?
+What is the problem with delaying by two weeks?
+What has the team agreed matters most?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Nadia (a) launch on time with last year’s photographs, (b) delay by two weeks, or (c) launch in two waves? Choose one and give reasons.
+@FRAME Answer frame
+‘I think Nadia should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
+@MODELDEC
+I think Nadia should launch in two waves, because the objective is that four thousand families hear about the water point, and the article and the radio announcement will do that on their own. Also, adding the photographs and the figure on the fourteenth will give the campaign a second moment rather than a weaker single one. This is better than using last year’s photographs, because a picture of a different water point is not true, and better than delaying, because after the rains begin we would not reach the families who need it most.
+@PHRASEBANK
+I think… should…
+because…
+the objective matters more than the appearance
+This is better than…
+a picture of a different place is not true.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK are meeting | arrives | might | is checked
+@EX 0. We are going to launch in March. (example)
+@GAP
+We @@ the donors on Tuesday; it is in the diary.
+If the funding @@ by the twentieth, we will launch on time.
+I am not sure where Joseph is; he @@ be in the field. (Unit 6)
+Every figure @@ against the project report. (Unit 5)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the parts of a campaign plan
+I can use ‘going to’ and the present continuous for plans
+I can use ‘will’ for a decision made now
+I can use the first conditional to describe a Plan B
+I can explain why every step needs one owner
+
+@TASK Part 10: Unit 7 glossary
+@TEXT
+campaign = a series of actions to reach one goal    ·    objective = what you want the campaign to achieve    ·    timeline = the order and dates of all the steps    ·    milestone = an important date on the way to a goal    ·    owner = the person responsible for one task    ·    deadline = the date when something must be finished    ·    launch = the day a campaign begins    ·    budget = the money available for the work    ·    Plan B = what you will do if the first plan fails    ·    margin = extra time in case of delay    ·    slip = to happen later than planned    ·    arrangement = something you have agreed with another person    ·    prediction = what you think will happen    ·    prevent = to stop something from happening    ·    distribution point = the place where aid is given out

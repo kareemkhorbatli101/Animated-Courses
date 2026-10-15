@@ -1,0 +1,471 @@
+@UNIT 8 | Standards, Style and Data Protection
+@SUB Obligation, permission and reported rules  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Standards Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Standard  →  the level of quality that is expected. (example)
+@MATCH f) the time by which work must be finished
+Policy :: a written correction of a published mistake
+Correction :: the official rules an organisation follows
+Privacy :: the right to keep your information to yourself
+Data :: the facts and details stored about a person
+Retention :: how long information is kept before it is deleted
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK policy | correction | privacy | data
+@EX 0. We protect the people in our stories. (example)
+@GAP
+Our @@ says that consent forms are kept for three years.
+If we publish a mistake, we publish a @@.
+Everybody has a right to @@.
+We keep only the @@ that we actually need.
+
+@TASK Warm-up: Reading — The Rules Before We Publish
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Meridian Relief has one set of standards for all six offices, and each office must also follow the law of the country it works in. Where the two differ, staff must follow the stricter rule. Officers must check every figure, and they must not publish a name that has not been consented to. They do not have to send every post to the editor, but anything that names a person, a place or a figure must be signed off. If a mistake is published, the organisation corrects it openly and says what was wrong. Personal data may be kept only for as long as it is needed, and then it must be deleted.
+@EX 0. There is one set of standards for all six offices. (example)
+@MCQ 1 | What must staff do where the standards and the law differ? | Follow the standards | Follow the law | Follow the stricter rule | Ask a donor
+@MCQ 2 | What happens if a mistake is published? | Nothing | It is corrected openly | The post is deleted quietly | The officer is dismissed
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Standards and Data-Protection Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Policy  →  the official rules an organisation follows.
+@MATCH h) a plan of when things will happen
+Personal data :: information that identifies a living person
+Data minimisation :: keeping only the information you actually need
+Retention period :: how long information may be kept
+Correction notice :: a public statement of what was wrong
+Right of reply :: the chance to answer a criticism before publication
+Embargo :: a date before which information must not be published
+Sign-off :: the final approval before publication
+@GLOSS data minimisation = collecting and keeping only what you really need    ·    right of reply = the chance to answer before something critical is published
+
+@TASK Part 1: Pronunciation
+@AUDIO 8.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+policy — PO-li-cy
+privacy — PRI-va-cy
+retention — re-TEN-tion
+correction — co-RREC-tion
+embargo — em-BAR-go
+obligation — o-bli-GA-tion
+
+@TASK Part 1: Rules — Necessary, Forbidden, or a Choice?
+@RUBRIC Match each sentence with what it means. One meaning is not needed. Write the letter.
+@EX 0. You must check every figure.  →  it is necessary. (example)
+@MATCH f) it happened in the past
+You mustn’t share a consent form. :: it is not necessary, but you may
+You don’t have to send every post to the editor. :: it is forbidden
+You may keep the data for three years. :: it is necessary
+Staff have to follow the stricter rule. :: you are allowed to
+You can’t publish before the embargo. :: it is not permitted
+
+@GLOSS obligation = something you are required to do    ·    prohibition = something you are not allowed to do
+@TASK Part 1: Standards Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. Personal data is information that identifies a living person. (example)
+@MCQ 1 | What is a retention period? | How long information may be kept | The date of publication | The name of a policy | A kind of correction
+@MCQ 2 | What is an embargo? | A deleted file | A date before which information must not be published | A correction | A donor report
+@MCQ 3 | What is the right of reply? | The right to be paid | The chance to answer a criticism before publication | The right to a photograph | The right to delete data
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK embargo | correction notice | personal data | retention period
+@EX 0. We keep only the data we need. (example)
+@GAP
+The report is under @@ until Friday at ten.
+A consent form contains @@ , so it is kept securely.
+We published a @@ the same day we found the error.
+The @@ for interview recordings is three years.
+
+@TASK Part 1: Write Two Rules (short)
+@RUBRIC Write two rules for your own team. Use must, mustn’t or don’t have to.
+@PLAN Staff must…  Staff mustn’t…  You don’t have to…
+
+@BAR Part 2  ·  Grammar — Obligation, Permission and Reported Rules | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read the standards that Layla reads out to every new officer. ‘You must check every figure against the written report. You mustn’t publish a name that has not been consented to. You don’t have to send every post to the editor, but anything naming a person or a figure has to be signed off. You may keep a consent form for three years; after that it must be deleted.’ Afterwards, Joseph explained the rules to a colleague: ‘She said that we had to check every figure, and that we mustn’t publish an unconsented name.’ Notice how the modals change when a rule is reported.
+@LINE Look at the sentences again. Which rules are necessary? Which are forbidden? Which are a free choice?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+must / have to | it is necessary | You must check every figure.
+mustn’t | it is forbidden | You mustn’t publish an unconsented name.
+don’t have to | it is not necessary | You don’t have to send every post.
+may / can | it is permitted | You may keep the form for three years.
+@REMEMBER ‘Mustn’t’ and ‘don’t have to’ are opposites, not the same. When you report a rule, ‘must’ usually becomes ‘had to’: She said that we had to check every figure.
+@WATCH Watch out: say ‘You mustn’t share the form’ when it is forbidden, and ‘You don’t have to share the form’ when it is simply not necessary. The two sentences mean opposite things.
+@GLOSS obligation = something you are required to do    ·    permission = being allowed to do something
+
+@TASK Part 2: Controlled Practice — Rules
+@RUBRIC Complete with must, mustn’t, don’t have to or may.
+@EX 0. You must check every figure. (example)
+@GAP
+You @@ publish a name that has not been consented to.
+You @@ send every post to the editor; only the ones that name a person.
+You @@ keep a consent form for three years.
+Anything that names a figure @@ be signed off.
+
+@TASK Part 2: Reported Rules
+@RUBRIC Report what Layla said. Use ‘She said that…’.
+@NUM
+‘You must check every figure.’
+‘You mustn’t publish an unconsented name.’
+‘You don’t have to send every post to the editor.’
+‘You may keep the form for three years.’
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+You don’t have to share a consent form with anybody outside the team.
+Staff must to follow the stricter rule.
+She said that we must to check every figure.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Give one rule your team must follow, one thing you mustn’t do, and one thing you don’t have to do.
+@BULLET
+We must ______ , and we mustn’t ______ .
+We don’t have to ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | You ______ publish a name that has not been consented to. | don’t have to | mustn’t | may not have to | shouldn’t have
+@MCQ 2 | She said that we ______ check every figure. | must to | had to | have to had | must have
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Layla Explains the Rules
+@AUDIO 8.2
+@PRE listen
+which rule in your work is the hardest to follow?
+@TEXT
+Layla: Our standards are the same in all six offices, and each office must also follow the law of its own country. Where the two differ, you follow the stricter one. That answers most questions. Now the specific ones. You must check every figure against the written report. You mustn’t publish a name, face or location not consented to for that use. You don’t have to send every post to the editor — that would be unworkable — but anything that names a person, a place or a figure has to be signed off. On data: we keep only what we need — data minimisation — and only for as long as the policy says. A consent form may be kept for three years; after that it must be deleted, and deleted means deleted, not moved to somebody’s desktop. And if we publish something wrong, we correct it openly and say what was wrong. We do not quietly edit a post and hope nobody noticed.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. The standards are the same in all six offices. — T
+@NUM
+Where the standards and the law differ, staff follow the stricter rule.   ____
+Every post must be sent to the editor.   ____
+A consent form may be kept for three years.   ____
+A mistake may be quietly edited.   ____
+@PHRASES
+You follow the stricter one.
+We keep only what we actually need.
+We correct it openly, on the same channel.
+
+@TASK Part 3: Tomás Asks About the Rules
+@AUDIO 8.3
+@PRE listen
+what would you do if two rules seemed to disagree?
+@TEXT
+Tomás: Layla, a question. The donor wants the beneficiary list for the report. Can I send it?
+Layla: What is on the list?
+Tomás: Names, villages and household sizes.
+Layla: Then no. That is personal data, and the donor doesn’t need it to see that the project works. Send them the numbers, not the names.
+Tomás: They have asked specifically.
+Layla: They may have asked, but we mustn’t share identifying data outside the organisation without consent for that purpose, and nobody consented to a donor report. Offer them an anonymised summary — household sizes by village, no names.
+Tomás: And if they insist?
+Layla: Then they have to take it up with me, not with you. You don’t have to argue with a donor; that is my job.
+Tomás: That is a relief. Thank you.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. What does the donor want? — The beneficiary list.
+@NUM
+Why can’t Tomás send the list?
+What should he offer instead?
+What should he do if the donor insists?
+@PHRASES
+That is personal data.
+We mustn’t share identifying data outside the organisation.
+That is my job, not yours.
+
+@TASK Part 3: The Final Checks
+@AUDIO 8.4
+@PRE listen
+what are the last checks before something is published?
+@TEXT
+Ingrid: Final checks before this goes out. Tomás, figures?
+Tomás: All three checked against the March report.
+Ingrid: Nadia, names and faces?
+Nadia: Consented, and two people asked for first names only. I have noted it.
+Ingrid: Good. Joseph, is anything under embargo?
+Joseph: The funding figure is, until Friday at ten. I have removed it from the draft.
+Ingrid: Thank you. Aisha, the photographs — anything identifying?
+Aisha: One school sign, which I have cropped out.
+Ingrid: Then I will sign it off this morning rather than this evening, so that there is time to fix anything I find. And remember: if we get something wrong after publication, we correct it the same day, on the same channel, and we say plainly what was wrong.
+@WHILE
+match each person with their check. One check is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → signs the piece off.
+@MATCH e) book the flights for the team
+Tomás :: confirm consent for names and faces
+Nadia :: remove anything under embargo
+Joseph :: crop out anything identifying in the photographs
+Aisha :: check every figure against the written report
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Rules
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What must your team always check before publishing?
+What must you never do with personal data?
+What do you not have to do, although people often think you must?
+@USE
+We must…  ·  We mustn’t…
+We don’t have to…
+Where the two differ, we follow…
+
+@TASK Part 4: Checking the Rules — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to resolve a question about the rules.
+@MODEL
+A: The donor wants the beneficiary list. Can I send it? — B: What is on it? — A: Names, villages and household sizes. — B: Then no. We mustn’t share identifying data without consent for that purpose. Offer an anonymised summary. — A: And if they insist? — B: Then they take it up with me. You don’t have to argue with a donor.
+@USE
+Can I…?
+We mustn’t… without…
+You don’t have to…
+@CARD Card A — Officer
+describe the request · say who is asking · ask what you should do.
+@CARD Card B — Manager
+ask one question · state the rule · offer an alternative · say who handles the pushback.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain three rules your team follows and one that people often misunderstand. Use must, mustn’t and don’t have to.
+@PLAN We must…  We mustn’t…  People often think we must ___ , but we don’t have to…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: Rules That Protect People
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Communications standards are often described as a burden, and in a busy week they feel like one. It is worth remembering what each of them is actually for. The rule that every figure must be checked against a written report exists because memory rounds numbers in the organisation’s favour, never against it, and because a figure that is wrong by a little is quoted back for years. The rule that a name, a face or a location must not be published without consent for that particular use exists because consent is specific: a person who agreed to a photograph in a local newsletter did not agree to a donor report read in six countries. The rule that personal data is kept only as long as it is needed exists because data nobody uses is data somebody can lose. And the rule that a published mistake is corrected openly, on the same channel, in the same week, exists because the alternative — quietly editing a post and hoping — destroys more trust in one evening than a correction ever has. An organisation working in six countries must also accept that its own standards are not the whole picture. Each office follows the law where it works, and where the two differ, the stricter rule applies. That is inconvenient, and it is not negotiable, because the person protected by the stricter rule does not care which document it came from.
+@EX 0. Standards are often described as a burden. (example)
+@MCQ 1 | Why must figures be checked against a written report? | Because reports are faster | Because memory rounds numbers in our favour | Because donors ask | Because it is the law
+@MCQ 2 | What does the text say about consent? | It covers everything | It is specific to a particular use | It lasts forever | It is not needed for photographs
+@MCQ 3 | What happens where the standards and the law differ? | The standards apply | The law applies | The stricter rule applies | The office decides
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. burden  →  something heavy that you must carry. (example)
+@MATCH f) a person who reports the news
+specific :: exact, about one particular thing
+destroy :: to damage something completely
+negotiable :: open to discussion and change
+apply :: to be relevant in a particular case
+inconvenient :: causing difficulty or extra work
+
+@GLOSS specific = exact, about one particular thing    ·    negotiable = open to discussion and change
+@TASK Part 5: Privacy and Trust Across Borders
+@RUBRIC Read about data across countries. Then mark each sentence True (T) or False (F).
+@TEXT
+An organisation that works in several countries holds personal data that crosses borders every day, usually without anybody thinking about it. A consent form signed in one country is scanned and stored on a server in another. A list of beneficiaries is attached to an email and read in a third. None of this is unusual, and none of it is automatically wrong, but it means that the question ‘who can see this, and under which country’s law?’ has to be asked before the file is created rather than after it has been shared. The practical answer most teams reach is data minimisation: collect less, keep it for less time, and share only what the other person actually needs. A donor who wants to know whether a project works does not need names; they need numbers. A colleague in another office who is editing an article does not need the consent forms; they need to know that consent exists. Teams that apply this habit find that most difficult questions never arise, because the data that would have caused the problem was never collected in the first place.
+@EX 0. Personal data crosses borders every day. → T (example)
+@NUM
+Data crossing a border is automatically wrong.   ____
+The question of who can see a file should be asked before it is created.   ____
+A donor needs names to see whether a project works.   ____
+Data minimisation prevents many difficult questions.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Explain the Rules (80–120 words)
+@RUBRIC Explain three of your team’s rules to a new colleague. Use must, mustn’t and don’t have to.
+@MODEL
+Welcome to the team. Three rules matter more than the others. You must check every figure against the written report, never against your memory, because a wrong figure is quoted back for years. You mustn’t publish a name, a face or a location without consent for that particular use; consent to a local newsletter is not consent to a donor report. You don’t have to send every post to the editor, which surprises people, but anything that names a person, a place or a figure has to be signed off. Where our standards and the local law differ, follow the stricter one.
+@PLAN Welcome…  You must…  You mustn’t…  You don’t have to…  Where ___ differ, ___ .
+@CHECK
+must, mustn’t and don’t have to all used?
+a reason for at least one rule?
+80–120 words?
+
+@TASK Part 6: Why Data Protection Matters (80–120 words)
+@RUBRIC Write about why data protection matters in your work. Give reasons and an example.
+@MODEL
+Data protection is not paperwork; it is the same promise we make when we ask for consent. A consent form holds a name, a village and often a household size, and in the wrong hands that is enough to find somebody. We therefore collect less than we could, keep it for less time than we are allowed, and share only what the other person actually needs. For example, when a donor asked for our beneficiary list last year, we sent household sizes by village with no names. They could see that the project worked, and nobody was identified.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Correction Notice (60–90 words)
+@RUBRIC Write a short correction notice for something published wrongly.
+@MODEL
+Correction. In our article of 4 March about the water point, we wrote that two hundred families now have clean water. The correct figure is one hundred and eighty, and it is taken from the March project report. We have corrected the article and we are publishing this notice on the same channel. We are sorry for the error, and we are grateful to the reader who pointed it out.
+@PLAN Correction.  In our ___ of ___ we wrote ___ .  The correct ___ is ___ .  We have ___ .  We are sorry ___ .
+@CHECK
+what was wrong, stated plainly?
+the correct information?
+60–90 words?
+
+@TASK Part 6: Reflection — Rules and Freedom (60–90 words)
+@RUBRIC Write about standards in your work. Use your own ideas.
+@MODEL
+I used to find our standards slow, and I was wrong about why they exist. They are not there to protect the organisation from embarrassment; they are there to protect the people who trusted us with their names. Knowing that the rule is fixed also makes my work easier, because I never have to decide alone in a difficult moment, and I never have to argue with somebody more senior than me. A clear rule is a kind of freedom.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each standards phrase with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. ‘Follow the stricter rule.’  →  where two rules differ, take the one that protects more. (example)
+@MATCH f) return the equipment charged
+‘Send numbers, not names.’ :: correct it on the same channel, the same week
+‘Collect less in the first place.’ :: give an anonymised summary instead
+‘Correct it openly.’ :: data you never hold cannot be lost
+‘That is my job, not yours.’ :: the manager handles the pushback
+‘Deleted means deleted.’ :: not moved to somebody’s desktop
+
+@TASK 7B: The Standards Briefing
+@AUDIO 8.5
+@PRE listen
+what should a manager say when a rule is inconvenient?
+@TEXT
+Layla: I want to talk about the moment when a rule is inconvenient, because that is the only moment a rule matters. Everybody follows the standards on a quiet Tuesday. The test is Thursday evening, when a donor is waiting and the figure has not been confirmed. So, three things. First, when the rule and the deadline disagree, the rule wins, and I would rather publish a day late than publish a name that nobody consented to. Second, if somebody outside this organisation is pushing you — a donor, a journalist, a government office — that is my job, not yours. Say that you have to check and send them to me. You are not required to argue with anybody senior. Third, if we get it wrong, we correct it openly, on the same channel, in the same week, and we say what was wrong. Nobody has ever been in trouble here for a correction. People have been in trouble for a quiet edit.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. When does a rule matter most? — When it is inconvenient.
+@NUM
+What happens when the rule and the deadline disagree?
+What should an officer do if somebody outside is pushing them?
+What has somebody been in trouble for?
+
+@TASK 7C: Controlled Practice — The Sign-Off Steps
+@RUBRIC You are the manager. Put the sign-off steps in order. Number them 1–5. (0. is done.)
+@EX 0. Check every figure against the written report. — 1
+@LINE
+___ Confirm consent for every name, face and location.
+___ Remove anything that is under embargo.
+___ Check the photographs for identifying details.
+___ Sign the piece off and record who signed it.
+
+@TASK 7D: Role-Play — The Sign-Off
+@RUBRIC In pairs. One is the manager (Layla); one is an officer. Use the model and cards.
+@MODEL
+Layla: Before I sign this off — figures? — Tomás: Checked against the March report. — Layla: Names and faces? — Tomás: Consented; two people asked for first names only. — Layla: Anything under embargo? — Tomás: The funding figure, until Friday. I have removed it. — Layla: Good. I will sign it off.
+@CARD Card A — Manager (Layla)
+ask about figures · ask about consent · ask about embargo · ask about identifying details.
+@CARD Card B — Officer
+answer each question · name one thing you removed · raise one thing you are unsure about.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Layla. Write a short message to the team about the standards.
+@MODEL
+Dear team, a short note about our standards, and about the moment they matter. Everybody follows them on a quiet day; the test is the evening when a donor is waiting and a figure is unconfirmed. Where the rule and the deadline disagree, the rule wins, and I would rather publish late than publish an unconsented name. If somebody outside the organisation is pushing you, send them to me — you don’t have to argue with anybody senior. And if we get something wrong, we correct it openly, on the same channel, the same week. Thank you. Layla.
+@CHECK
+must, mustn’t or don’t have to used?
+the reason for one rule given?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Detail in the Corner
+@PRE read
+have you ever found a problem in something that had already been published?
+@TEXT
+The article had been live for six days before anybody noticed. It was a good piece about a school feeding programme in Amman, carefully checked: every figure against the report, every name consented, every quote read back. The photograph showed a classroom from the back, which is how the team almost always photographs children — no faces, no uniforms, no signs. What nobody had noticed was a sheet of paper pinned to the wall in the corner of the frame, slightly out of focus but readable if you enlarged it. It was a class list, with eleven first names and surnames. A colleague in another organisation spotted it and emailed, privately and kindly, on a Sunday. Layla took the article down within the hour, which was the easy part. The harder question was what to say. Some of the team wanted to replace the photograph quietly and say nothing, on the grounds that mentioning it would draw attention to a list that almost nobody had seen. Layla disagreed. The article was republished the next morning with a different photograph and a correction notice explaining that an earlier image had been removed because it contained personal information. Two readers wrote to thank her. Nobody wrote to complain. The team now enlarges every photograph before publication, and the habit has caught three more things in a year.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How long had the article been live? — Six days.
+@NUM
+What was in the corner of the photograph?
+What did some of the team want to do?
+What does the team now do before publication?
+@GLOSS enlarge = to make something bigger so that you can see it better    ·    out of focus = not sharp or clear in a photograph
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. spot  →  to notice something. (example)
+@MATCH f) a short text under a photograph
+enlarge :: to make something bigger
+readable :: clear enough to be read
+quietly :: without telling anybody
+republish :: to publish again after a change
+habit :: something you do regularly
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+‘In my opinion, Layla was right because…’
+‘I agree, because…’
+‘That is a good point, but…’
+@BULLET
+Was Layla right to publish a correction notice? Why?
+When does explaining a mistake make it worse?
+What habit would you add to your team’s checks?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: The Deadline and the Data
+@PRE read
+what would you do if a donor asked for something you are not allowed to give?
+@TEXT
+A donor who funds the Geneva office’s largest programme has asked for the full beneficiary list before Friday: names, villages and household sizes, for four hundred families. The request has come from a new officer at the donor, who says that their audit department requires it and that the next payment cannot be approved without it. The payment is due on Monday, and three country offices are expecting it. Ingrid knows the rule: identifying personal data is not shared outside the organisation without consent for that purpose, and nobody consented to a donor audit. She also knows that the people in the list cannot be asked in two days, and that an anonymised summary — household sizes by village, no names — would answer every reasonable audit question. But the donor’s officer has said, politely, that a summary is not what their process asks for. Ingrid has until Thursday evening. She can also ask the donor’s own data-protection officer, whom she has never met, but that will take longer than two days.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What has the donor asked for? — The full beneficiary list.
+@NUM
+Why does the donor’s officer say they need it?
+What is the rule about identifying personal data?
+What would an anonymised summary contain?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Ingrid (a) send the list, because the payment matters, (b) send an anonymised summary and explain why, or (c) delay and write to the donor’s data-protection officer? Choose one and give reasons.
+@FRAME Answer frame
+‘I think Ingrid should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
+@MODELDEC
+I think Ingrid should send an anonymised summary and explain clearly why, because the families never consented to a donor audit and we cannot ask four hundred of them in two days. Also, a summary answers every reasonable audit question, and most donors accept it once somebody explains the rule rather than simply refusing. This is better than sending the list, because a payment we obtained by breaking our own promise is not worth having, and it is faster than writing to a data-protection officer we have never met.
+@PHRASEBANK
+I think… should…
+because…
+nobody consented to this purpose
+This is better than…
+explain the rule, do not simply refuse.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK mustn’t | had to | are meeting | must
+@EX 0. You must check every figure. (example)
+@GAP
+You @@ publish a name that has not been consented to.
+She said that we @@ check every figure against the report.
+Anything that names a person @@ be signed off.
+We @@ the donors on Tuesday; it is in the diary. (Unit 7)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main standards and data-protection terms
+I can state an obligation with must and have to
+I can say what is forbidden with mustn’t
+I can say what is not necessary with don’t have to
+I can report a rule that somebody else gave
+
+@TASK Part 10: Unit 8 glossary
+@TEXT
+policy = the official rules an organisation follows    ·    standard = the level of quality that is expected    ·    personal data = information that identifies a living person    ·    data minimisation = collecting and keeping only what you really need    ·    retention period = how long information may be kept    ·    correction notice = a public statement of what was wrong    ·    right of reply = the chance to answer a criticism before publication    ·    embargo = a date before which information must not be published    ·    sign-off = the final approval before publication    ·    privacy = the right to keep your information to yourself    ·    obligation = something you are required to do    ·    permission = being allowed to do something    ·    anonymised = with the names and identifying details removed    ·    audit = an official check of records    ·    negotiable = open to discussion and change

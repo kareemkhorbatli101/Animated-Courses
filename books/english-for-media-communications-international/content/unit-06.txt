@@ -1,0 +1,472 @@
+@UNIT 6 | Interviews and Asking Questions
+@SUB Modals: requests, advice and deduction  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Interview Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Interview  →  a meeting where you ask somebody questions. (example)
+@MATCH f) the time by which work must be finished
+Open question :: a question that needs a long answer
+Closed question :: a person who helps two speakers understand each other
+Follow-up :: a question answered with yes or no
+Interpreter :: a second question about the first answer
+Transcript :: the written record of what was said
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK open | follow-up | interpreter | transcript
+@EX 0. A good interview begins with listening. (example)
+@GAP
+Ask an @@ question if you want a real answer.
+A good @@ shows that you were listening.
+We work with an @@ in three of our offices.
+The @@ is kept in the file with the consent form.
+
+@TASK Warm-up: Reading — More Than Questions
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+A good interview is not a list of questions. It is a conversation in which one person listens more than they speak. Tomás, who has done more than a hundred interviews for Meridian Relief, says that his first question is always the same: ‘Could you tell me about your day?’ It is open, it is easy to answer, and it lets the person choose where to begin. The questions that matter usually come later, and they are almost always follow-ups. He also says that an interview must be able to stop at any moment. If somebody looks tired or upset, the right thing to do is to put the recorder down.
+@EX 0. A good interview is a conversation. (example)
+@MCQ 1 | What is Tomás’s first question always? | How old are you? | Could you tell me about your day? | Do you need help? | What is your name?
+@MCQ 2 | What should you do if somebody looks upset? | Ask faster | Put the recorder down | Change the subject | Finish the list of questions
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Interview Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Interview  →  a meeting where you ask somebody questions.
+@MATCH h) a plan of when things will happen
+Open question :: a question that invites a long answer
+Closed question :: a question answered with yes or no
+Follow-up :: a second question about what was just said
+Leading question :: a question that suggests the answer you want
+Off the record :: said on the condition that it is not published
+Interpreter :: a person who helps two speakers understand each other
+Transcript :: the written record of what was said
+@GLOSS leading question = a question that puts your own answer into the person’s mouth    ·    off the record = said on the understanding that it will not be published
+
+@TASK Part 1: Pronunciation
+@AUDIO 6.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+interview — IN-ter-view
+interpreter — in-TER-pre-ter
+transcript — TRANS-cript
+permission — per-MI-ssion
+response — res-PONSE
+suggestion — su-GGES-tion
+
+@TASK Part 1: Modals of Deduction — How Sure Are You?
+@RUBRIC Match each sentence with how sure the speaker is. One meaning is not needed. Write the letter.
+@EX 0. She is at the clinic.  →  completely sure, a fact. (example)
+@MATCH f) an instruction
+She must be at the clinic. :: possible, but I am not sure
+She might be at the clinic. :: I am almost sure she is
+She can’t be at the clinic. :: a polite request
+She may be at the clinic. :: I am almost sure she is not
+Could you repeat that? :: perhaps, I do not know
+
+@GLOSS deduction = a conclusion you reach from the evidence you have    ·    certainty = how sure you are that something is true
+@TASK Part 1: Interview Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. An open question invites a long answer. (example)
+@MCQ 1 | What is a leading question? | A first question | A question that suggests the answer you want | A question in writing | A closed question
+@MCQ 2 | What does ‘off the record’ mean? | Recorded on tape | Said on the understanding it will not be published | Said in public | Written down
+@MCQ 3 | What is a follow-up? | A second question about what was just said | The transcript | The first question | The headline
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK leading | off the record | transcript | closed
+@EX 0. We always ask open questions first. (example)
+@GAP
+‘Were you frightened?’ is a @@ question, so try ‘How did you feel?’
+A @@ question is useful when you need one clear fact.
+She asked to speak @@ , so we did not publish it.
+The @@ is filed with the consent form.
+
+@TASK Part 1: Write Two Deductions (short)
+@RUBRIC Write two sentences about something you are not sure of. Use must, might or can’t.
+@PLAN She must be…  He might be…  It can’t be…
+
+@BAR Part 2  ·  Grammar — Modals: Requests, Advice and Deduction | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read what Tomás says to a new colleague. ‘Could you come with me this morning? You should listen more than you speak, and you shouldn’t write while somebody is talking. If the answer is short, you might ask a follow-up, but you must not suggest the answer yourself. She has not replied to my message, so she must be busy, or she might be travelling. She can’t have forgotten; she wrote to me yesterday.’ Notice three uses of modals here: could for a request, should for advice, and must, might and can’t for how sure we are.
+@LINE Look at the sentences again. Which modals make a request? Which give advice? Which show how sure the speaker is?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+Requests | could / would you… | asking politely
+Advice | should / shouldn’t | saying what is a good idea
+Deduction: sure | must / can’t | almost certain, from evidence
+Deduction: possible | might / may / could | possible, but not certain
+@REMEMBER Use ‘must’ when you are almost sure something is true, and ‘can’t’ when you are almost sure it is not. Use ‘might’, ‘may’ or ‘could’ when it is only possible.
+@WATCH Watch out: for deduction, the opposite of ‘must be’ is ‘can’t be’, not ‘mustn’t be’. ‘Mustn’t’ means that something is forbidden.
+@GLOSS deduction = a conclusion you reach from the evidence you have    ·    evidence = the facts that help you decide what is true
+
+@TASK Part 2: Controlled Practice — Deduction
+@RUBRIC Complete with must, might or can’t.
+@EX 0. She has not replied all day. She must be busy. (example)
+@GAP
+He left an hour ago, so he @@ be at the clinic by now.
+The recorder is still here, so she @@ have taken it.
+I am not sure where Joseph is. He @@ be in the field.
+The office is dark, so everybody @@ have gone home.
+
+@TASK Part 2: Requests, Offers and Advice
+@RUBRIC Complete with could, should or shouldn’t.
+@GAP
+@@ you repeat that, please?
+You @@ listen more than you speak.
+You @@ write while somebody is talking.
+@@ I ask you one more question?
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+She mustn’t be at the clinic; I saw her here five minutes ago.
+You should to ask an open question first.
+Could you repeating that, please?
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Give one piece of advice to a new interviewer, and make one deduction about a colleague.
+@BULLET
+You should ______ , and you shouldn’t ______ .
+______ must be ______ , because ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | The recorder is still here, so she ______ taken it. | mustn’t have | can’t have | shouldn’t have | might not
+@MCQ 2 | ______ you repeat that, please? | Should | Must | Could | May not
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Tomás Explains Interviewing
+@AUDIO 6.2
+@PRE listen
+what makes a good interviewer, in your opinion?
+@TEXT
+Tomás: People think interviewing is about asking good questions. It is mostly about listening, and about being comfortable with silence. My first question is always open and easy: could you tell me about your day? It lets the person choose where to begin, and where somebody begins tells you a great deal. After that, almost everything should be a follow-up. If an answer is short, do not move to the next question on your list; ask about the answer you just received. You should never ask a leading question — ‘That must have been frightening, wasn’t it?’ — because the person will agree with you out of politeness and you will publish your own words in their mouth. With an interpreter, look at the person, not the interpreter, and allow twice as much time. And remember that the interview can stop at any moment. If somebody looks tired or upset, put the recorder down. The story is never worth more than the person telling it.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. Interviewing is mostly about listening. — T
+@NUM
+Tomás’s first question is always open.   ____
+If an answer is short, you should move to the next question.   ____
+A leading question can put your words in the person’s mouth.   ____
+With an interpreter, you should look at the interpreter.   ____
+@PHRASES
+Could you tell me about your day?
+Ask about the answer you just received.
+Put the recorder down.
+
+@TASK Part 3: Tomás Interviews Mrs Dela Cruz
+@AUDIO 6.3
+@PRE listen
+how would you begin an interview with somebody you have never met?
+@TEXT
+Tomás: Thank you for your time. Could you tell me about your day?
+Mrs Dela Cruz: It starts early. I am at the market by five, and I am home by two.
+Tomás: By five. What is the market like at that hour?
+Mrs Dela Cruz: Quiet. The good fish goes first, so you must be early or you buy nothing.
+Tomás: And you have been doing this for how long?
+Mrs Dela Cruz: Eleven years. Since the first flood.
+Tomás: You said ‘the first’. Would you tell me about that?
+Mrs Dela Cruz: Maybe another day. Not this morning.
+Tomás: Of course. Thank you for saying so. Could I ask instead what you would like people to know about the market?
+Mrs Dela Cruz: That it is not a sad place. People laugh there.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. What time is Mrs Dela Cruz at the market? — By five.
+@NUM
+How long has she been doing this?
+What does she not want to talk about this morning?
+What does she want people to know about the market?
+@PHRASES
+Could you tell me about…?
+Would you tell me about that?
+Thank you for saying so.
+
+@TASK Part 3: Preparing the Interviews
+@AUDIO 6.4
+@PRE listen
+what should a team prepare before a day of interviews?
+@TEXT
+Ingrid: Four interviews tomorrow. Let’s divide them. Tomás, you take the two at the market.
+Tomás: I will. I should arrive early and just sit there first.
+Ingrid: Good. Joseph, the interpreter — is she confirmed?
+Joseph: She is, and I have asked her to translate the questions in full, not to summarise.
+Ingrid: Thank you, that matters. Aisha, photographs only after each interview, not during?
+Aisha: Yes. Nobody speaks naturally with a camera in front of them.
+Ingrid: Exactly. Nadia, could you prepare the consent forms in both languages?
+Nadia: Already printed. Fifteen of each.
+Ingrid: Then we are ready. And remember — if anybody seems tired, we stop. There is always another day.
+@WHILE
+match each person with their job. One job is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → divides the interviews and leads the day.
+@MATCH e) book the flights for the team
+Tomás :: confirm the interpreter and ask for full translation
+Joseph :: take the photographs after each interview
+Aisha :: print the consent forms in both languages
+Nadia :: arrive early at the market and sit there first
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Interviews
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What is the best first question in an interview, and why?
+What should an interviewer never do?
+How would you work well with an interpreter?
+@USE
+You should…  ·  You shouldn’t…
+Could you tell me about…?
+The story is never worth more than…
+
+@TASK Part 4: A Short Interview — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to run a short interview.
+@MODEL
+A: Thank you for your time. Could you tell me about your day? — B: It starts early. I am at the market by five. — A: By five. What is the market like at that hour? — B: Quiet. The good fish goes first. — A: And how long have you been doing this?
+@USE
+Could you tell me about…?
+What is ___ like?
+Would you tell me more about that?
+@CARD Card A — Interviewer
+open with an open question · ask two follow-ups · accept one refusal politely.
+@CARD Card B — Community member
+answer briefly · refuse one topic · say one thing you want people to know.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain how you prepare for an interview and what you never do. Use modals of advice and deduction.
+@PLAN Before an interview, I should…  I never…  If somebody seems ___ , I…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: The Art of the Interview
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Most new communications officers prepare for an interview by writing a list of questions, and most of them discover, somewhere around the third interview, that the list is the problem. A list makes you listen for the moment when you can ask the next thing on it, rather than listening to what is actually being said. The officers who are good at this prepare differently. They write down two or three things they genuinely want to understand, and then they put the paper away. The first question should be open and easy, because its job is not to collect information but to let the person choose where to begin. Where somebody begins is itself information. After that, almost every question should be a follow-up: ‘you said the first flood — would you tell me about that?’ Follow-ups show that you were listening, which is the only thing that makes a stranger willing to continue. There are two rules that should never be broken. Never ask a leading question, because a polite person will agree with you and you will end up publishing your own opinion in somebody else’s words. And never continue when somebody is tired, upset or simply finished. An interview that is stopped early can be continued another day. An interview that is pushed too far usually cannot be repaired, and the person is left feeling that they were a source rather than a human being.
+@EX 0. Many new officers prepare by writing a list of questions. (example)
+@MCQ 1 | Why is a list of questions a problem? | It is too short | It makes you listen for your next question | It is hard to carry | It is written down
+@MCQ 2 | What is the job of the first question? | To collect facts | To let the person choose where to begin | To fill time | To test the recorder
+@MCQ 3 | Why should you never ask a leading question? | It takes too long | A polite person will agree with you | It is hard to translate | It is a closed question
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. prepare  →  to get ready for something. (example)
+@MATCH f) a person who reports the news
+genuinely :: really, and not only in appearance
+willing :: ready and happy to do something
+repair :: to put something right again
+source :: a person or place that gives information
+pushed :: forced to continue
+
+@GLOSS source = a person or place that gives information    ·    willing = ready and happy to do something
+@TASK Part 5: Listening Across Languages
+@RUBRIC Read about interviewing through an interpreter. Then mark each sentence True (T) or False (F).
+@TEXT
+A great many interviews in international work are done through an interpreter, and they are not simply slower versions of ordinary interviews. They are a different skill. The first thing to accept is the time: everything takes at least twice as long, and an interview planned for thirty minutes should be given an hour. The second is where you look. It is natural to look at the person who is speaking your language, but if you look at the interpreter, the person being interviewed will quickly feel that they are talking to a machine. Look at them, even while you cannot understand a word. The third is the brief you give the interpreter beforehand: ask for a full translation rather than a summary, and ask them to translate hesitations and unfinished sentences too, because those carry meaning. The fourth is the quote. A quote that has travelled through two languages is not the person’s exact words, and it should not be presented as though it were. Honest teams write ‘speaking through an interpreter’ and read the final version back in the original language before they publish it.
+@EX 0. Interviews through an interpreter take longer. → T (example)
+@NUM
+An interview planned for thirty minutes should be given an hour.   ____
+You should look at the interpreter while they speak.   ____
+The interpreter should summarise rather than translate fully.   ____
+A quote through an interpreter should be read back before publication.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: How to Interview with Respect (80–120 words)
+@RUBRIC Write advice for a new interviewer. Use should, shouldn’t and one deduction modal.
+@MODEL
+You should begin with an open, easy question, because it lets the person choose where to begin. You shouldn’t work from a list, since a list makes you listen for your next question instead of for the answer. Almost every question after the first should be a follow-up. You should never ask a leading question: a polite person will agree with you, and you will publish your own words in their mouth. If somebody looks tired, they probably are, and you should stop. An interview that is stopped early can be continued another day.
+@PLAN You should…  You shouldn’t…  Almost every question should be…  If ___ , you should…
+@CHECK
+should and shouldn’t used for advice?
+one deduction modal?
+80–120 words?
+
+@TASK Part 6: Open Questions or Closed Questions? (80–120 words)
+@RUBRIC Write about when to use open and closed questions. Give reasons and an example.
+@MODEL
+Open questions and closed questions do different jobs, and a good interview uses both. Open questions invite a person to speak in their own way, and they belong at the beginning and whenever you want to understand rather than confirm. Closed questions belong at the end, when you need one clear fact: a date, a number, a spelling. The mistake is to use a closed question when you want a story. For example, ‘Were you frightened?’ can only be answered yes or no, and it also suggests the answer. ‘How did you feel?’ gives the person the whole room.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Message Requesting an Interview (60–90 words)
+@RUBRIC Write a short message asking somebody for an interview. Be clear and polite.
+@MODEL
+Dear Mrs Dela Cruz, my name is Tomás Rivera and I work for Meridian Relief. We are writing about the market and the people who work there, and I would very much like to hear about your morning. Could we meet for half an hour next week, at a time that suits you? You may stop at any point, and nothing would be published without your agreement. Thank you for considering it. Tomás.
+@PLAN Dear ___ , my name is ___ .  We are writing about ___ .  Could we ___ ?  You may ___ .  Thank you, ___ .
+@CHECK
+a greeting and a close?
+a polite request with ‘could’?
+60–90 words?
+
+@TASK Part 6: Reflection — Listening (60–90 words)
+@RUBRIC Write about listening in your work. Use your own ideas.
+@MODEL
+The hardest thing I have had to learn is to stay quiet. My instinct in a silence is to fill it with another question, and almost every time I have resisted that instinct, the person has said the thing I most needed to hear. Silence is not an empty space in an interview; it is where somebody decides whether to trust you. I now count to five before I speak again. It feels very long, and it is the most useful habit I have.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each coaching phrase with what it is for. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. ‘Tell me how it went.’  →  inviting the officer to speak first. (example)
+@MATCH f) returning the equipment charged
+‘What would you do differently?’ :: naming one thing that worked
+‘Your first question was excellent.’ :: inviting self-assessment
+‘Try counting to five.’ :: offering one small, concrete habit
+‘You shouldn’t fill the silence.’ :: giving direct advice
+‘Shall we practise it together?’ :: offering to work on it with them
+
+@TASK 7B: The Interview-Coaching Briefing
+@AUDIO 6.5
+@PRE listen
+how should a manager give feedback after a difficult interview?
+@TEXT
+Ingrid: Before we go out tomorrow, I want to say something about how we coach each other on interviews, because it is the part of the work people find hardest to hear feedback on. Start by asking the officer how they thought it went. Almost always they will name the problem themselves, and feedback that somebody has named themselves is feedback they can use. Then name one thing that genuinely worked, and be specific: ‘your first question was open and easy’ is useful, ‘that was good’ is not. After that, offer one thing to change — one, not four — and make it concrete enough to practise. ‘Listen better’ is useless advice. ‘Count to five before you speak again’ is advice somebody can follow tomorrow. And finally, offer to go together next time. Interviewing is a craft, and nobody has ever improved at it by being told that they should have done better.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What should a manager start by asking? — How the officer thought it went.
+@NUM
+Why is feedback that somebody names themselves more useful?
+How many things to change should a manager offer?
+Why is ‘listen better’ described as useless advice?
+
+@TASK 7C: Controlled Practice — The Interview Steps
+@RUBRIC You are the manager. Put the interview steps in order. Number them 1–5. (0. is done.)
+@EX 0. Explain who you are and why you are there. — 1
+@LINE
+___ Ask for consent and explain how to withdraw it.
+___ Begin with one open, easy question.
+___ Ask follow-ups about what you have just heard.
+___ Read the quotes back and thank the person.
+
+@TASK 7D: Role-Play — Coaching an Interviewer
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: Tell me how you thought it went. — Joseph: Not well. I asked too many questions. — Ingrid: Your first question was open and easy, which is the hardest part to get right. One thing to try: count to five before you speak again. — Joseph: That sounds uncomfortable. — Ingrid: It is. Shall we practise it together on Thursday?
+@CARD Card A — Manager (Ingrid)
+ask how it went · name one specific thing that worked · offer one concrete change · offer to practise.
+@CARD Card B — Officer
+name your own problem · say why the advice feels difficult · agree one next step.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short feedback note to an officer after an interview.
+@MODEL
+Dear Joseph, thank you for yesterday. Your first question was open and easy, and the way you accepted it when Mrs Dela Cruz did not want to discuss the flood was exactly right — she carried on talking afterwards, which she might not have done. One thing to try next time: when an answer is short, count to five before you speak again. It feels uncomfortable, and it is where people decide whether to say the rest. Shall we go out together on Thursday and practise it? You are doing this well. Ingrid.
+@CHECK
+one specific thing that worked?
+one concrete thing to change?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Answer Tomás Almost Missed
+@PRE read
+has anybody ever told you something important just as you were leaving?
+@TEXT
+The interview had been short and, Tomás thought, disappointing. He had met a man in Nairobi who ran a repair workshop that Meridian Relief had helped to restart after a fire, and the answers had been polite and brief. Yes, the workshop was busy. Yes, the support had helped. No, there was nothing else he wanted to say. Tomás thanked him, switched off the recorder, and began packing his bag. The man watched him for a moment and then said, quietly, that the hardest part had not been the fire. The hardest part had been the four months afterwards, when he had had nothing to do, and his children had watched him sit in the house. Tomás stopped. He asked whether he could switch the recorder on again, and explained that this was the part of the story that people would understand. The man thought about it and said yes, but only if the children were not mentioned. The interview that followed lasted forty minutes and was the best Tomás recorded that year. Afterwards he wrote one line in his notes, which he has kept since: ‘The recorder goes off last, not first. People often decide to tell you something at the moment they think the interview has ended.’
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where was the workshop? — In Nairobi.
+@NUM
+Why did Tomás think the interview had been disappointing?
+What did the man say had been the hardest part?
+What condition did the man make before continuing?
+@GLOSS disappointing = not as good as you hoped    ·    workshop = a place where things are made or repaired
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. restart  →  to begin again after stopping. (example)
+@MATCH f) a short text under a photograph
+disappointing :: not as good as you hoped
+brief :: short, using few words
+condition :: something that must be agreed first
+quietly :: without much sound
+afterwards :: later, after something else
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+‘In my opinion, the most important moment is…’
+‘I agree, because…’
+‘That is a good point, but…’
+@BULLET
+Why do people often speak after the recorder is switched off?
+Was Tomás right to ask to record again? Why?
+What would you write in your own notes after that day?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: Off the Record
+@PRE read
+what does it mean when somebody says ‘this is off the record’?
+@TEXT
+During an interview in Nairobi about a water project, a community leader told Joseph something important and then added, after he had said it, that it was off the record. He had described a delay: the pipes had arrived three months late, and the reason, he said, was a dispute between two local offices that had nothing to do with the community. The delay is public knowledge and is mentioned in the project report. The reason is not. Joseph is now writing the article, and the delay needs explaining, because readers in other countries will ask why a simple project took a year. Without the reason, the article implies that the community was slow, which is untrue and unfair to them. With the reason, Joseph would be publishing something a person asked him not to publish, even though he asked afterwards rather than before. Joseph could go back and ask the leader whether the reason can be used, with or without his name. That would take two days, and the article is due on Friday.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What was late? — The pipes, by three months.
+@NUM
+What is public knowledge, and what is not?
+What does the article imply if the reason is left out?
+What could Joseph do, and how long would it take?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Joseph (a) publish the reason, since the delay is public, (b) leave the reason out, or (c) delay the article and ask the leader? Choose one and give reasons.
+@FRAME Answer frame
+‘I think Joseph should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .’
+@MODELDEC
+I think Joseph should delay the article and ask the leader, because ‘off the record’ was said late but it was still said, and breaking it would cost us a relationship that took years to build. Also, the leader may well agree to the reason being used without his name, which would solve the problem completely. This is better than leaving the reason out, because an article that implies the community was slow is unfair to the very people we are writing about, and two days is a small price for getting it right.
+@PHRASEBANK
+I think… should…
+because…
+it would cost us a relationship
+This is better than…
+ask, rather than guess what somebody meant.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK must | shouldn’t | has been read | the most
+@EX 0. Could you repeat that, please? (example)
+@GAP
+She has not replied all day, so she @@ be very busy.
+You @@ ask a leading question.
+The quote @@ back to the speaker. (Unit 5)
+Bulk SMS is @@ accessible channel we have. (Unit 4)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main kinds of interview question
+I can make a polite request with could and would
+I can give advice with should and shouldn’t
+I can say how sure I am with must, might and can’t
+I can explain how to work well with an interpreter
+
+@TASK Part 10: Unit 6 glossary
+@TEXT
+interview = a meeting where you ask somebody questions    ·    open question = a question that invites a long answer    ·    closed question = a question answered with yes or no    ·    follow-up = a second question about what was just said    ·    leading question = a question that suggests the answer you want    ·    off the record = said on the understanding that it will not be published    ·    interpreter = a person who helps two speakers understand each other    ·    transcript = the written record of what was said    ·    deduction = a conclusion you reach from the evidence you have    ·    evidence = the facts that help you decide what is true    ·    source = a person or place that gives information    ·    hesitation = a pause because you are not sure    ·    brief = short, using few words    ·    willing = ready and happy to do something    ·    condition = something that must be agreed first
