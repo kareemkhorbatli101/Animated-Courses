@@ -22,9 +22,12 @@ NS = ('xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
 PART_FILL = {"Warm Up": "FF9900", "1": "0066CC", "2": "009688", "3": "9C27B0",
              "4": "E91E63", "5": "4CAF50", "6": "0066CC", "7": "0066CC", "8": "0066CC"}
 
-# every part also tints its own instruction box
+# Every part also tints its own instruction box — but the source's generator
+# rotates the last three: Part 6 gets Part 8's tint, Part 7 gets Part 6's and
+# Part 8 gets Part 7's, in every unit.  Reproduced rather than straightened.
 PART_BOX = {"Warm Up": "FFF9E6", "1": "E6F3FF", "2": "E6F9E6", "3": "F3E6FF",
-            "4": "FFE6E6", "5": "FFE6CC", "6": "FFF0E6", "7": "E6F9F9", "8": "FFE6F3"}
+            "4": "FFE6E6", "5": "FFE6CC", "6": "FFE6F3", "7": "FFF0E6",
+            "8": "E6F9F9"}
 
 SPEAKER = ("990099", "0066CC")   # purple for a female voice, blue for a male
 
@@ -441,6 +444,28 @@ class Doc:
         who, rest = split_speaker(text)
         self.add(para((run(who, bold=True, color=SPEAKER[int(male)]) if who else "")
                       + run(rest), fill="F8FCFF", after=50, left=300))
+
+    # One exercise in Unit 2 prints its dialogue twice, in two different
+    # formats, because the source's generator emitted both its old and its new
+    # dialogue styling.  All four of these elements occur exactly once.
+    def dialogue_bar(self, text="Dialogue"):
+        self.add(para(run(text, bold=True, color="1A56A0"), fill="EEF4FF",
+                      before=160, after=80, left=300))
+
+    def dialogue_line(self, text):
+        who, rest = split_speaker(text)
+        self.add(para(run(who, bold=True, color="1A56A0", sz=22)
+                      + run(rest, color="1F2937", sz=22),
+                      fill="F8FAFF", after=60, left=420))
+
+    def dialogue_head(self, text="Dialogue"):
+        self.add(para(run(text, bold=True, color="333333", sz=22),
+                      before=100, after=100, left=300))
+
+    def narrator(self, text):
+        who, rest = split_speaker(text)
+        self.add(para(run(who, bold=True, color="0066CC") + run(rest),
+                      after=50, left=300))
 
     # -- the answer key --------------------------------------------------
     def answer_head(self, text):

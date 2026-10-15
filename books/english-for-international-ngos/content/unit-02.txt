@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: NGO Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do NGO Workers Do?
+@INSTR Discuss with a partner what jobs and roles exist in NGOs.
+_80
+@BULLET
+What types of jobs do you think people have in NGOs?
+_300
+@EX Warm-Up: Matching NGO Jobs to Descriptions
+@INSTR Match each NGO job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Doctor
+2. | Teacher
+3. | Project Manager
+4. | Accountant
+5. | Social Worker
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Provides medical care and treatment
+b) | Teaches children and adults
+c) | Manages teams and plans projects
+d) | Counts money and creates budgets
+e) | Helps families and individuals with problems
+_300
+@EX Warm-Up: NGO Job Skills
+@INSTR Classify the following skills by which NGO job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Doctor
+2. Teacher
+3. Manager
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Medical knowledge and problem-solving  ____________________________
+2. Communication and patience  ____________________________
+3. Leadership and planning  ____________________________
+4. Helping people in pain  ____________________________
+5. Creating lesson plans  ____________________________
+6. Making decisions  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in an NGO?
+@INSTR Discuss with a partner: Would you like to work in an NGO? Why or why not?
+_80
+@BULLET
+Would you like to work in an NGO in the future? What job would you like to do?
+_300
+@EX Warm-Up: NGO Work in Guatemala
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are NGO workers in Guatemala very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They help rural and indigenous communities and provide services
+   ○ C) They do not work with hospitals
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: NGO Job Titles and Descriptions
+@INSTR Match each NGO job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Doctor
+2. | Nurse
+3. | Teacher
+4. | Social Worker
+5. | Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who treats sick and injured people in clinics or hospitals
+b) | A person who helps doctors and cares for patients' health and comfort
+c) | A person who teaches children and adults in schools or training programs
+d) | A person who helps vulnerable families and individuals with problems
+e) | A person who leads teams and plans projects for the organization
+_300
+@EX Part 1: NGO Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Field Coordinator
+2. | Finance Officer
+3. | Medical Doctor
+4. | Psychologist
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans and organizes team work
+b) | Manages money and budgets
+c) | Treats patients
+d) | Provides counseling support
+_300
+@EX Part 1: Skills Required for NGO Work
+@INSTR Complete the table by filling in the required skills for each NGO job.
+_80
+@GRID
+NGO Job | Skill 1 | Skill 2
+Health Worker |  | 
+Teacher |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  caring
+b)  medical knowledge
+c)  communication
+d)  patience
+_100
+_300
+@EX Part 1: Work Environment in NGOs
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. NGO workers often work in an ____________________ (office) or in the community.
+2. Working in an NGO can be ____________________ (challenging) but very rewarding.
+3. NGO workers usually work as a ____________________ (team) with other staff.
+_300
+@EX Part 1: Listening - NGO Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of NGO jobs and answer the questions.
+_80
+@MCQ
+1. What does a doctor do in an NGO health clinic?
+@OPT
+   ○ A) Teaches children
+   ○ B) Examines patients and provides medical treatment
+   ○ C) Manages money
+@MCQ
+2. What is a teacher's main responsibility?
+@OPT
+   ○ A) Prepare lessons and help students improve
+   ○ B) Manage the organization's budget
+   ○ C) Treat sick people
+_300
+@EX Part 1: Reading - NGO Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their NGO careers as volunteers. Volunteers work without payment, but they gain important experience. After volunteering for one or two years, experienced volunteers may become paid staff members. NGO staff members receive training to improve their skills. Some staff work as field workers, visiting communities to deliver services. Others work in offices as coordinators or managers. The most experienced staff may become supervisors who train and manage other workers. Working in an NGO offers opportunities to learn, grow, and help communities at the same time.
+@NUM 100
+1. How do most people start their careers in NGOs?
+2. What happens to volunteers after they gain experience?
+_300
+@EX Part 1: Discussion - NGO Career Interest
+@INSTR Discuss with a partner: Which NGO job interests you most?
+_80
+@BULLET
+Which NGO job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in an NGO for five years.
+2. They ____________________ (have helped) many families in this community.
+3. The coordinator ____________________ (has trained) all new staff members.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new clinic in the village
+They |  | education to 500 children
+He |  | three successful projects
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has opened
+b)  have provided
+c)  has managed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a volunteer?
+2. ____________________ you seen the new health clinic?
+3. ____________________ the doctor treated all the patients?
+4. ____________________ they completed the training program?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this region before.
+3. He ____________________ (hasn't been) to a crisis zone.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the worker been in NGOs?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which countries has the worker visited?
+@OPT
+   ○ A) Guatemala only
+   ○ B) Guatemala, Honduras, and El Salvador
+   ○ C) Three European countries
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or volunteer experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - NGO Staff Interview
+@INSTR Before listening, discuss: What questions would you ask an NGO worker?
+_80
+@BULLET
+What would you like to know about working in an NGO?
+_300
+@EX Part 3: Listening - Interview with Health Coordinator
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with an NGO health coordinator and answer the questions.
+_80
+@MCQ
+1. What does the coordinator do?
+@OPT
+   ○ A) Teaches children in school
+   ○ B) Plans health programs and manages clinic
+   ○ C) Works only in offices
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many patients
+   ○ B) Lack of resources
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Education Programs
+@INSTR Listen to information about an education NGO program and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many NGOs operate education programs in rural areas. These programs teach children and adults who cannot access regular schools. Teachers in these programs are trained by the NGO. They provide lessons in reading, mathematics, and life skills. Each class has between 20 and 40 students. The programs are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many NGOs operate education programs in rural areas. These programs teach children and adults who cannot access regular schools. Teachers in these programs are trained by the NGO. They provide lessons in reading, mathematics, and life skills. Each class has between 20 and 40 students. The programs are free for all participants.
+_100
+@NUM 100
+1. NGO education programs teach in rural areas.
+2. Teachers must have university degrees before joining.
+3. Students must pay money to join the programs.
+_300
+@EX Part 3: Listening for Details - NGO Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing NGO challenges and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of transportation
+   ○ B) Limited funding and staffing
+   ○ C) Difficult patients
+@MCQ
+2. How many vehicles does the organization have?
+@OPT
+   ○ A) One vehicle
+   ○ B) Three vehicles
+   ○ C) Two vehicles
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in NGOs.
+_80
+@MCQ
+1. What position is the youth offered?
+@OPT
+   ○ A) Coordinator position
+   ○ B) A promotion opportunity to train for coordinator
+   ○ C) Field assistant forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only medical knowledge
+   ○ B) Leadership, project management, and communication
+   ○ C) Only computer skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - NGO Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different types of NGOs?
+_80
+@BULLET
+How might roles differ between a health NGO and an education NGO?
+_300
+@EX Part 4: Reading - NGO Staff Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most NGOs have a hierarchical structure. At the top is the Executive Director who makes major decisions. Below the director are department heads who manage specific areas like health, education, and administration. Each department head supervises field staff who work directly with communities. Field workers deliver services like medical treatment, teaching, or social support.
+NGOs also employ support staff like receptionists, drivers, and cleaners. While these roles may seem less visible, they are essential. For example, drivers ensure that medical supplies reach clinics. Receptionists manage patient appointments and records. Every role is important for the NGO to function effectively.
+Recent years have seen changes in NGO structures. Smaller organizations operate more flexibly, with fewer management layers. This allows decisions to be made faster. However, managing finances and ensuring quality remain challenges even with simpler structures.
+@NUM 100
+1. Who makes major decisions in an NGO?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+NGO workers must be resilient — able to continue working effectively despite challenges. They also need dedication — the commitment to help people even when it is difficult. The expertise of experienced staff is valuable for training new workers. NGOs also value transparency — being honest about what they do and how they use donations.
+@MCQ
+1. What does "resilient" mean?
+@OPT
+   ○ A) Weak and tired
+   ○ B) Able to continue despite challenges
+   ○ C) Very sick
+@MCQ
+2. What is "dedication"?
+@OPT
+   ○ A) Not caring about work
+   ○ B) Commitment to help even when difficult
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing NGO Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Provides treatment for sick people and diagnoses diseases |  | Clinic or hospital
+Teaches literacy and numeracy skills to children |  | Community learning center
+@CHOICEHEAD Choices:
+@CHOICE
+a)  doctor
+b)  teacher
+_100
+_300
+@EX Part 4: True/False - NGO Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+NGOs employ both paid staff and volunteers. Volunteers commit their time without payment because they believe in the mission. Many NGO workers in developing countries earn modest salaries compared to government workers. However, they often report higher job satisfaction. NGOs invest in staff training and development. Workers can learn new skills while helping communities. Career advancement is possible for dedicated workers who perform well.
+@NUM 100
+1. Some NGO workers are volunteers.
+2. NGO salaries are higher than government salaries.
+3. NGOs provide training opportunities.
+_300
+@EX Part 4: Discussion - NGO Career Values
+@INSTR Discuss: If NGO salaries are modest, why do people choose to work there?
+_80
+@BULLET
+Why would someone choose an NGO job even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for an NGO position. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - NGO Career Path
+@INSTR Prepare and present a 3-part talk about career paths in NGOs.
+_80
+@NUM 100
+1. How do people start and advance in NGO careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in NGO work?
+_300
+@EX Part 5: Discussion - Overcoming NGO Challenges
+@INSTR Discuss with a partner: How do NGO workers manage with limited resources?
+_80
+@BULLET
+How do experienced NGO workers overcome resource limitations?
+_300
+@EX Part 5: Dialogue - Advice from Experienced Worker
+@INSTR Role play: A new NGO worker asks an experienced worker for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About Volunteering
+@INSTR Write an email to an NGO expressing interest in volunteering. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work for our organization?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of an NGO Worker
+@INSTR Write a paragraph describing a typical day of an NGO worker. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from NGO Work
+@INSTR Write a short reflection about what you could learn from working in an NGO. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: NGO Sector in Guatemala and the Region
+@INSTR Read about NGOs in Guatemala and the Central American region, then answer questions.
+_80
+@PANEL
+The NGO sector in Guatemala has grown significantly in response to rural poverty and the needs of indigenous communities. Organizations like the Guatemalan Red Cross, Doctors Without Borders, and local Guatemalan NGOs employ thousands of workers. These workers serve both urban families and communities in the highlands. Working in Guatemala's NGOs requires patience because staff travel long distances to reach remote villages.
+In neighboring countries like Honduras and El Salvador, NGOs employ workers who assist migrants and vulnerable local populations. The work is challenging but essential. These organizations demonstrate how dedicated professionals continue helping during difficult times. Guatemalan NGO workers are internationally recognized for their commitment and resilience.
+Many Guatemalan professionals who studied abroad chose to return to work in NGOs at home. They sacrifice higher salaries in wealthy countries to serve their communities. This shows deep commitment to nation-building and helping people improve their lives. Their choices inspire others to consider NGO careers.
+@NUM 100
+1. Why has the NGO sector grown in Guatemala?
+2. What characteristic is emphasized about Guatemalan NGO workers?
+_300
+@EX Part 7: Discussion - Values in NGO Work
+@INSTR Discuss what values are important in NGO work, especially in rural contexts like Guatemala.
+_80
+@BULLET
+What values should guide NGO workers, especially those working in remote communities?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - NGO Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Health Worker
+2. | Manager
+3. | Educator
+4. | Finance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Works with communities to address health issues
+b) | Plans and manages organization's projects
+c) | Provides education and training
+d) | Maintains financial records and budgets
+_300
+@EX Part 8: Integrated Assessment - NGO Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin NGO careers?
+@OPT
+   ○ A) As paid executives
+   ○ B) As volunteers
+   ○ C) As managers
+@MCQ
+2. What is the most valuable quality for NGO workers according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Genuine care and commitment to help people
+   ○ C) Previous management experience only
+@MCQ
+3. How has the NGO sector in Guatemala changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has grown in response to rural and indigenous needs
+   ○ C) It has decreased permanently
+@MCQ
+4. What do NGO workers value according to the culture discussion?
+@OPT
+   ○ A) Making maximum profit
+   ○ B) Compassion, neutrality, and accountability
+   ○ C) Avoiding difficult situations
+_300

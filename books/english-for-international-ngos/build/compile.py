@@ -22,7 +22,7 @@ TITLE = "English for NGOs and International Organizations - Student Book (A2)"
 BLOCK = {"BULLET", "PBULLET", "LINE", "NUM", "QUESTION", "MCQ", "OPT", "CAT", "CATQ",
          "CATITEM", "CLASSIFY", "GAP", "GREYGAP", "SPEECH", "SCRIPT", "ANS",
          "CODE", "CHOICE", "PANEL", "PASSAGE", "MATCHA", "MATCHB", "GRID",
-         "STRIP", "TOC"}
+         "STRIP", "TOC", "DLINE", "NARR"}
 
 # Blank spacers are written out, not inferred: a bare `_300` line is the source's
 # own 300-after blank, `_200d` its dotted separator and `_-p` the one that only
@@ -180,6 +180,16 @@ def emit(doc, items, where):
             for l in body:
                 t, m = voiced(l)
                 doc.speech(t, male=m)
+        elif tag == "DBAR":
+            doc.dialogue_bar(text if text else "Dialogue")
+        elif tag == "DLINE":
+            for l in body:
+                doc.dialogue_line(l)
+        elif tag == "DHEAD":
+            doc.dialogue_head(text if text else "Dialogue")
+        elif tag == "NARR":
+            for l in body:
+                doc.narrator(l)
         elif tag == "SCRIPT":
             for l in body:
                 t, m = voiced(l)

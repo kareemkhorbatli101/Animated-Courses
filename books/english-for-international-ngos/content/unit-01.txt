@@ -533,7 +533,6 @@ _80
 3. Why are NGOs important for our communities?
 _300
 @PART 7 | Part 7: Culture
-@PARTKEY 6
 @EX Part 7: NGO Values and Humanitarian Ethics
 @INSTR Read about NGO values and choose the correct answer about humanitarian principles.
 _80
@@ -587,7 +586,6 @@ d) | Respect for elders and authority figures provides stability and guidance
 e) | Helping family and community is a moral responsibility and source of honor
 _300
 @PART 8 | Part 8: Review
-@PARTKEY 7
 @EX Part 8: NGO Concepts Review and Classification
 @INSTR Review Unit 1 concepts. Classify each statement by type: NGO Feature, NGO Type, or NGO Function.
 _80

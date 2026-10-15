@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Worker
+@UNITHEAD Unit 3: International Organizations
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Humanitarian Assistance?
+@INSTR Discuss your understanding of humanitarian work.
+_80
+@BULLET
+What do you know about humanitarian organizations and the work they do?
+_300
+@EX Warm-Up: Matching - Humanitarian Situations
+@INSTR Match humanitarian crises with appropriate NGO responses.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Earthquake disaster
+2. | Armed conflict
+3. | Flood or hurricane
+4. | Refugee crisis
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Provides emergency food, water, and shelter to survivors
+b) | Delivers medical supplies and treats wounded people
+c) | Prevents disease spread and ensures clean water access
+d) | Helps children find families and provides psychological support
+_300
+@EX Warm-Up: Text - Humanitarian Values
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of humanitarian work?
+@OPT
+   ○ A) Making profit from crisis situations
+   ○ B) Helping people based on need, not nationality or politics
+   ○ C) Only working with wealthy countries
+_300
+@EX Warm-Up: Discussion - Why Humanitarian Work Matters
+@INSTR Discuss the importance and challenges of humanitarian assistance.
+_80
+@BULLET
+Why is humanitarian work important in our world today?
+_300
+@EX Warm-Up: Vocabulary Classification - Humanitarian Terms
+@INSTR Classify humanitarian and non-humanitarian concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Humanitarian concept
+2. Non-humanitarian concept
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Emergency relief provided to people in crises  ____________________________
+2. Crisis response and rapid mobilization  ____________________________
+3. Fashion design and clothing trends  ____________________________
+4. Disaster assistance and recovery support  ____________________________
+5. Sports marketing and entertainment business  ____________________________
+6. Protecting vulnerable people from harm  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Humanitarian Crises
+@INSTR Match crisis types with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Earthquake
+2. | Flood
+3. | Armed conflict
+4. | Famine
+5. | Epidemic
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Sudden violent shaking of earth that destroys buildings and causes injuries and death
+b) | Extreme heavy rainfall causing overflowing rivers and flooding homes and farms
+c) | Armed groups fighting and attacking civilians, causing displacement and death
+d) | Severe lack of food leading to malnutrition and starvation among populations
+e) | Highly contagious disease spreading rapidly among people and causing illness or death
+_300
+@EX Part 1: Emergency Response Words
+@INSTR Complete the table with vocabulary related to emergency response.
+_80
+@GRID
+Word | Meaning | Example in Context
+Evacuate |  | 
+Vulnerable |  | 
+Relief |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  To move people urgently from a dangerous place to safety
+b)  We had to evacuate residents before the flood reached the village
+c)  Easily harmed or injured; needing protection
+d)  Children and elderly people are vulnerable during emergencies
+e)  Help and supplies given during emergencies
+f)  Emergency relief food arrived at the shelter
+_100
+_300
+@EX Part 1: Fill Blanks - Humanitarian Vocabulary
+@INSTR Complete sentences using humanitarian vocabulary words.
+_80
+@GAP
+1. When people flee their homes due to conflict, they become ____________________ persons.
+2. A person injured or killed in a disaster is called a ____________________.
+3. Organizations providing emergency assistance are called ____________________ organizations.
+4. The ____________________ rate increased after the disease outbreak.
+_300
+@EX Part 1: Vocabulary in Context - Humanitarian Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+After a major earthquake, humanitarian organizations mobilize to respond. The first phase involves rapid assessment to determine the scale of the crisis. Teams conduct needs assessment by interviewing survivors and evaluating damage. Appropriate interventions are then planned. Logistics teams ensure supplies reach affected communities. Coordination between agencies prevents duplication of efforts and ensures comprehensive coverage.
+@NUM 100
+1. What does 'mobilize' mean in crisis response?
+2. Why is 'coordination' important among humanitarian agencies?
+_300
+@EX Part 1: Discussion - Humanitarian Terms in Real Situations
+@INSTR Discuss how humanitarian vocabulary applies to real crises.
+_80
+@BULLET
+Think of a humanitarian crisis you know about. What vocabulary words apply to that situation?
+_300
+@EX Part 1: Listening - Humanitarian Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to humanitarian workers discussing their work and answer questions.
+_80
+@MCQ
+1. What did the workers do immediately after the earthquake?
+@OPT
+   ○ A) Waited for government instructions
+   ○ B) Mobilized emergency teams and started assessment
+   ○ C) Evacuated to safety
+@MCQ
+2. Who were identified as especially vulnerable?
+@OPT
+   ○ A) Only wealthy people
+   ○ B) Children and displaced families
+   ○ C) Government officials
+_300
+@EX Part 1: Summary - Key Humanitarian Concepts
+@INSTR Choose the best explanation for humanitarian concepts.
+_80
+@MCQ
+1. What is the main goal of humanitarian assistance?
+@OPT
+   ○ A) Make profits for organizations
+   ○ B) Save lives and reduce suffering of affected people
+   ○ C) Increase government control
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Humanitarian Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't provide emergency aid), many vulnerable people will suffer.
+2. Many people ____________________ (would have died) if the humanitarian organizations had not arrived in time.
+3. ____________________ (If the international community supports) humanitarian efforts, more crises can be prevented.
+_300
+@EX Part 2: Passive Voice - Humanitarian Actions
+@INSTR Rewrite sentences using passive voice to describe humanitarian actions.
+_80
+@GRID
+Active Voice | Passive Voice (Complete the blank)
+Humanitarian organizations provide medical care. | 
+NGOs delivered emergency food supplies. | 
+Workers protect vulnerable children. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Medical care is provided by humanitarian organizations.
+b)  Emergency food supplies were delivered by NGOs.
+c)  Vulnerable children are protected by workers.
+_100
+_300
+@EX Part 2: Reported Speech - Humanitarian Worker Interviews
+@INSTR Convert direct speech to reported speech about humanitarian work.
+_80
+@GAP
+1. The worker ____________________ the emergency was serious.
+2. The supervisor ____________________ we could help more families.
+3. The coordinator ____________________ prepare additional supplies.
+4. The team leader ____________________ resources were very limited.
+_300
+@EX Part 2: Modal Verbs - Humanitarian Necessity
+@INSTR Complete sentences with appropriate modal verbs about humanitarian work.
+_80
+@NUM
+1. Humanitarian organizations ____________________ (must respond) quickly to emergencies.
+2. Humanitarian workers ____________________ (should be trained) in first aid and crisis management.
+3. Humanitarian workers ____________________ (may face) dangerous situations in conflict zones.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about humanitarian work and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When crises occur, we must mobilize immediately. Our teams should be prepared to leave at any time. If we don't respond quickly, lives may be lost.
+^Worker: I understand. We have been trained to handle emergency situations. We are told to prioritize helping the most vulnerable people first. Should we also coordinate with government authorities?
+~Manager: Yes, coordination is essential. We should work together rather than independently. If we coordinate properly, we can serve more people efficiently.
+_200
+@QUESTION
+1. What must humanitarian teams do when crises occur?
+2. Why should humanitarian organizations coordinate with each other?
+_300
+@EX Part 2: Grammar Summary - Humanitarian Communication
+@INSTR Discuss how to communicate effectively about humanitarian situations using appropriate grammar.
+_80
+@BULLET
+How should humanitarian organizations communicate about crises to donors and media?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Crisis Response Awareness
+@INSTR Before listening, discuss how humanitarian organizations respond to crises.
+_80
+@BULLET
+What do you think is the first step when a humanitarian crisis occurs?
+_300
+@EX Part 3: Listening - Humanitarian Assessment Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to humanitarian workers describing the assessment process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^AssessmentTeam: When we arrive at a disaster site, we immediately start gathering information. We interview survivors about what happened and their current needs. We observe the extent of physical damage to buildings and infrastructure. We count the injured and assess medical resources available. We evaluate water and sanitation to prevent disease outbreak. We identify missing persons and separated families. This assessment typically takes 24 to 48 hours but guides all our subsequent interventions.
+~Coordinator: Based on the assessment, we prioritize interventions. Immediate priorities include saving lives through medical care and rescue operations. Second priority is providing shelter and emergency supplies. Then we focus on preventing disease through water, sanitation, and health education. Long-term recovery planning comes after the acute emergency phase. The assessment information is shared with all organizations to avoid duplication and ensure comprehensive coverage.
+_200
+@QUESTION
+1. What information do assessment teams collect at disaster sites?
+2. What are the priorities for humanitarian assistance based on assessment?
+_300
+@EX Part 3: True/False - Humanitarian Response
+@INSTR Listen to a short passage about humanitarian work and mark statements True, False, or Not Given.
+_80
+@PANEL
+Humanitarian workers often work in dangerous and unpredictable environments. They face security risks in conflict zones. They work with limited resources and under extreme time pressure. Despite these challenges, they remain committed to helping vulnerable populations. Humanitarian organizations coordinate their efforts to provide comprehensive assistance. Some workers have reported feeling emotionally exhausted from witnessing suffering. However, they also report deep satisfaction from helping people survive and rebuild their lives. International humanitarian law protects humanitarian workers and sets standards for assistance.
+@NUM 100
+1. Humanitarian workers sometimes work in dangerous environments.
+2. Humanitarian organizations always have abundant resources.
+3. Workers report emotional fulfillment from their work.
+_300
+@EX Part 3: Listening - Humanitarian Worker Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to humanitarian workers discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary medical challenge mentioned?
+@OPT
+   ○ A) Patients are too healthy
+   ○ B) Lack of equipment and late patient arrivals
+   ○ C) Too many staff members
+@MCQ
+2. Why is clean water access urgent in humanitarian crises?
+@OPT
+   ○ A) People prefer bottled water
+   ○ B) To prevent diseases like cholera and typhoid
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Humanitarian Impact
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to a humanitarian worker's personal reflection on their work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Worker: I came to do humanitarian work because I wanted to make a difference. The first year was overwhelming—I witnessed suffering I had never imagined. I learned that humanitarian work requires both technical skills and emotional resilience. I saw children reunited with parents and families rebuild homes. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the worker's initial reaction to humanitarian work?
+2. What qualities does the worker believe are important for humanitarian work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Humanitarian Contexts
+@INSTR Before reading, discuss humanitarian situations in different regions.
+_80
+@BULLET
+What humanitarian crises do you know about? Where do they occur?
+_300
+@EX Part 4: Reading - Humanitarian Decision-Making
+@INSTR Read the text and answer questions about humanitarian choices.
+_80
+@PANEL
+Humanitarian organizations face difficult decisions when resources are limited. In any crisis, needs exceed available resources. Organizations must prioritize assistance based on medical urgency and vulnerability. Life-threatening situations receive priority over chronic conditions. Vulnerable groups like children, elderly, and disabled persons receive priority. Geographic areas with highest need are served first. Cost-effectiveness is considered but never overrides ethical principles. Humanitarian organizations maintain transparency by explaining their prioritization decisions to affected communities and donors. This transparency builds trust and understanding.
+@NUM 100
+1. How do humanitarian organizations decide who receives assistance first?
+2. Why do organizations explain their prioritization decisions to communities?
+_300
+@EX Part 4: Text Comprehension - Humanitarian Ethics
+@INSTR Read about humanitarian ethics and choose the best answer.
+_80
+@PASSAGE
+Humanitarian action is guided by core principles: humanity, impartiality, neutrality, and independence. Humanity means respecting human dignity and reducing suffering. Impartiality requires treating all people equally regardless of nationality, ethnicity, or religion. Neutrality means not taking sides in conflicts while providing assistance to all affected people. Independence means that humanitarian organizations make decisions based on needs, not political pressure. These principles guide all humanitarian decisions and ensure ethical practice.
+@MCQ
+1. What does humanitarian 'neutrality' mean?
+@OPT
+   ○ A) Ignoring all conflicts
+   ○ B) Not taking sides while assisting all affected people
+   ○ C) Helping only government authorities
+@MCQ
+2. Which principle ensures organizations help based on need?
+@OPT
+   ○ A) Humanity
+   ○ B) Independence
+   ○ C) Neutrality
+_300
+@EX Part 4: Application - Humanitarian Scenarios
+@INSTR Read scenarios and fill in the appropriate humanitarian response principles.
+_80
+@GRID
+Scenario | Key Humanitarian Principle
+An NGO helps both government and opposition group members affected by conflict | 
+An organization chooses to help injured earthquake victims based on medical need, not wealth | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Impartiality and neutrality
+b)  Humanity and impartiality
+_100
+_300
+@EX Part 4: True/False/Not Given - Humanitarian Organizations
+@INSTR Read statements about humanitarian organizations and mark them True, False, or Not Given.
+_80
+@PANEL
+The Red Cross and Red Crescent are major international humanitarian organizations working worldwide. They respond to armed conflicts, natural disasters, and disease outbreaks. These organizations employ thousands of staff and volunteers. Some humanitarian workers have won Nobel Peace Prizes for their work. Humanitarian organizations are funded by governments, private donors, and UN agencies. Many organizations face funding shortages despite significant needs. Humanitarian workers often report personal fulfillment despite difficult conditions.
+@NUM 100
+1. Red Cross and Red Crescent work only in wealthy countries.
+2. Humanitarian organizations receive funding from multiple sources.
+3. All humanitarian workers receive high salaries.
+_300
+@EX Part 4: Discussion - Humanitarian Dilemmas
+@INSTR Discuss difficult choices humanitarian organizations face.
+_80
+@BULLET
+What are some difficult decisions humanitarian organizations must make in crises?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Humanitarian Work
+@INSTR Prepare a presentation about different types of humanitarian work.
+_80
+@NUM 100
+1. Describe three types of humanitarian work: emergency response, medical care, and community recovery.
+_300
+@EX Part 5: RolePlay - Humanitarian Worker Interview
+@INSTR Roleplay an interview with a humanitarian worker about their experience.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Humanitarian Worker
+@INSTR Discuss qualifications and preparation for humanitarian work.
+_80
+@BULLET
+What qualifications and training would you need to become a humanitarian worker?
+_300
+@EX Part 5: RolePlay - Requesting Emergency Assistance
+@INSTR Roleplay a community leader requesting emergency assistance from an NGO.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Humanitarian Values
+@INSTR Write about why humanitarian values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a humanitarian crisis and humanitarian responses to it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Proposal for Humanitarian Assistance
+@INSTR Write a proposal for humanitarian assistance to address a specific need.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Humanitarian Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in humanitarian work.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Humanitarian Work in Kenyan Contexts
+@INSTR Read about humanitarian work in Kenya and answer questions.
+_80
+@PANEL
+Kenya hosts one of the world's largest refugee populations. More than half a million refugees live in camps at Dadaab and Kakuma, many of them for decades. Nairobi is also the regional headquarters for United Nations agencies serving the whole of East Africa. Humanitarian access across the region is complicated by distance, drought, and insecurity. The Kenya Red Cross Society operates across the country alongside international organizations. Drought and flooding affect millions of people in the arid north. Humanitarian workers demonstrate extraordinary patience and commitment. Their work includes emergency response, medical care, and community support. International recognition of Kenyan humanitarian workers acknowledges their skill and dedication. Their resilience and compassion inspire support from the global community.
+@NUM 100
+1. Why is humanitarian access in the region particularly challenging?
+2. What is the scale of Kenya's refugee situation?
+_300
+@EX Part 7: Discussion - Global Responsibility for Humanitarian Crises
+@INSTR Discuss the global community's responsibility for humanitarian crises like those in East Africa.
+_80
+@BULLET
+What responsibility does the global community have for humanitarian crises in different countries?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Humanitarian Concepts
+@INSTR Review Unit 3 by matching humanitarian concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Mobilization
+2. | Needs assessment
+3. | Impartiality
+4. | Displaced persons
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Quickly organizing resources and people to respond to crises
+b) | Assessment of needs to guide humanitarian interventions
+c) | Helping all people equally regardless of background or side in conflict
+d) | People who lost homes due to disaster or conflict and need shelter
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step in humanitarian response to a crisis?
+@OPT
+   ○ A) Request government authorization
+   ○ B) Conduct rapid assessment of needs
+   ○ C) Begin fundraising
+@MCQ
+2. Which principle allows humanitarian organizations to maintain credibility in conflicts?
+@OPT
+   ○ A) Profit maximization
+   ○ B) Neutrality and impartiality
+   ○ C) Government alignment
+@MCQ
+3. What makes the refugee situation in East Africa particularly severe?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Over half a million refugees plus recurring drought and insecurity
+   ○ C) International communities provide unlimited assistance
+@MCQ
+4. What qualities do successful humanitarian workers demonstrate?
+@OPT
+   ○ A) Only technical skills matter
+   ○ B) Both technical skills and emotional resilience
+   ○ C) No special qualifications needed
+_300
