@@ -1,0 +1,376 @@
+@UNITHEAD Unit 9: Sustainable Design and Practice Growth
+@PART Warm Up | Warm Up
+@EX Warm-Up: Rolling Out a Design Discussion
+@INSTR Discuss challenges when repeating a successful building design elsewhere.
+_80
+@BULLET
+When a school design works well on one site, what challenges might an office face when repeating it in other districts?
+_300
+@EX Warm-Up: Sustainability Definition Matching
+@INSTR Match sustainability and roll-out concepts with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Durability
+2. | Roll-out
+3. | Repetition
+4. | Adaptation
+5. | Capacity Building
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Repeating a successful design so it serves more districts or people
+b) | Training local builders and owners to maintain the building independently
+c) | A building keeps performing without depending on outside servicing
+d) | Using a proven type design on a new site with similar conditions
+e) | Changing parts of a design to suit a different site, climate or community
+_300
+@EX Warm-Up: Speed vs Quality Discussion
+@INSTR Discuss the balance between repeating quickly and maintaining quality.
+_80
+@BULLET
+Discuss the difference between an office that repeats a design quickly across many sites and one that adapts slowly to keep quality.
+_300
+@EX Warm-Up: Transition to Local Builders Discussion
+@INSTR Discuss how offices hand maintenance over to local builders and owners.
+_80
+@BULLET
+As an office hands maintenance from its own staff to local builders, what skills do those builders need?
+_300
+@EX Warm-Up: Local Ownership Classification
+@INSTR Classify project characteristics as supporting OR preventing local ownership.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Supports Local Ownership
+2. Prevents Local Ownership
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Residents take part in planning the work and make key decisions  ____________________________
+2. The office makes all decisions; residents only accept them  ____________________________
+3. The project trains local masons to repair the fabric themselves  ____________________________
+4. The building depends entirely on imported components and foreign technicians  ____________________________
+5. Residents contribute labour or materials and decide spending priorities  ____________________________
+6. Residents receive a finished building but have no say in how it is managed  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Roll-out and Sustainability Terminology Matching
+@INSTR Match key terms in roll-out and sustainability with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Geographic Roll-out
+2. | Numerical Roll-out
+3. | Deepening
+4. | Standardization
+5. | Integration
+6. | Exit Plan
+7. | Financial Durability
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Increasing the number of units or people a single design serves
+b) | A plan showing how the office withdraws while the building keeps working
+c) | Extending a proven design to new districts and regions
+d) | Running costs that the owner can meet from local income
+e) | A design becoming part of the authority's own standard details
+f) | Transferring responsibility for the building to the municipality or owners
+g) | Increasing the quality and completeness of what each building provides
+_300
+@EX Part 1: Sustainability Approaches Matching
+@INSTR Match sustainability strategies with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Municipal Partnership
+2. | Owner-Led Maintenance
+3. | Financial Durability
+4. | Standardization
+5. | Advisory Transition Model
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The building earns income through rent or a ground-floor shop that pays for repairs
+b) | The municipality co-funds and supports continued operation of the building
+c) | Owners contribute money and labour and manage repairs themselves
+d) | The office stays involved but moves to an advisory and inspection role
+e) | The type design becomes part of the authority's standard drawing library
+_300
+@EX Part 1: Roll-out Success Factors Multiple Choice
+@INSTR Choose the best answer about roll-out factors.
+_80
+@MCQ
+1. What is the primary requirement before repeating a design across many sites?
+@OPT
+   ○ A) The design must already have been built a very large number of times
+   ○ B) The design must have sound details, trained builders, and proven performance so quality holds
+   ○ C) The design must have political support from the national government
+_300
+@EX Part 1: Capacity Building Concept Discussion
+@INSTR Discuss what capacity building means in the context of durable buildings.
+_80
+@BULLET
+What does capacity building mean and why is it essential for a building to last?
+_300
+@EX Part 1: Repetition vs Adaptation Multiple Choice
+@INSTR Choose the correct distinction between these concepts.
+_80
+@MCQ
+1. What is the key difference between repetition and adaptation?
+@OPT
+   ○ A) Repetition builds the same type design again; adaptation changes it to suit the new site
+   ○ B) Repetition is done by the municipality; adaptation is done by private offices
+   ○ C) Repetition is faster; adaptation is slower
+_300
+@EX Part 1: Exit Plan Elements Matching
+@INSTR Match exit plan components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transition Timeline
+2. | Skills Development
+3. | Maintenance Budgeting
+4. | Responsibility Transfer
+5. | Partnership Development
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ensuring the municipality or another partner commits to continued upkeep
+b) | A clear timeline for the office to withdraw and owners to take over
+c) | Planning how repairs will be paid for after the project funding ends
+d) | A gradual shift of decision-making authority to the owners' committee
+e) | Training and support for the masons and owners taking on the building
+_300
+@EX Part 1: Roll-out Barriers Classification
+@INSTR Classify potential roll-out barriers by category.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Resource Barrier
+2. Capacity Barrier
+3. Contextual Barrier
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Insufficient budget to extend the programme to new districts  ____________________________
+2. Not enough trained masons to keep quality on new sites  ____________________________
+3. Different climate in the new region requiring a changed roof detail  ____________________________
+4. Limited vehicles for reaching remote villages with materials  ____________________________
+5. Weak office systems that cannot supervise work on scattered sites  ____________________________
+6. Different municipal rules in each governorate restricting the type design  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Future Plans for Roll-out
+@INSTR Create sentences using future tense about roll-out plans.
+_80
+@NUM 100
+1. Write sentences describing your office's roll-out plan for the next three years using future tense.
+_300
+@EX Part 2: Conditional Language for Durability
+@INSTR Use conditional structures to discuss durability planning.
+_80
+@NUM 100
+1. Use conditional structures (if-then, unless, provided that) to describe the conditions a building needs to last.
+_300
+@EX Part 2: Presenting a Roll-out Strategy
+@INSTR Complete sentences describing the roll-out approach.
+_80
+@OPTLINE
+1. We __________ to extend the type design from rural districts to city centres over five years without losing quality. | plan | planned | will plan | have planned
+_300
+@EX Part 2: Describing Capacity Building Outcomes
+@INSTR Write sentences showing how local capacity has developed.
+_80
+@NUM 100
+1. Describe changes that have occurred in a district's building capacity as the programme has grown.
+_300
+@EX Part 2: Questions About Durability Plans
+@INSTR Complete questions that would assess durability planning.
+_80
+@OPTLINE
+1. __________ the owners' committee take over full responsibility for maintenance within five years? | Can | Will | May | Would
+_300
+@EX Part 2: Comparative Language for Roll-out Approaches
+@INSTR Create comparative statements about different roll-out approaches.
+_80
+@NUM 100
+1. Compare fast roll-out to careful roll-out using comparative and superlative forms.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Roll-out Experience
+@AUDIO 🔊 Audio Track 9.19
+@INSTR Listen to a practice director discussing roll-out challenges.
+_80
+@QUESTION
+1. What was the main lesson the director learned from repeating a design too quickly?
+_300
+@EX Part 3: Listening to Municipal Partnership Success
+@AUDIO 🔊 Audio Track 9.20
+@INSTR Listen to a municipal engineer describing a partnership with an architecture office.
+_80
+@MCQ
+1. According to the engineer, what was the key to a successful municipal partnership?
+@OPT
+   ○ A) The office paid for everything while the municipality contributed nothing
+   ○ B) Clear agreement on roles, shared aims, transparent communication, and mutual respect
+   ○ C) The municipality took over immediately and the office stopped all involvement
+_300
+@EX Part 3: Listening to Readiness Assessment
+@AUDIO 🔊 Audio Track 9.21
+@INSTR Listen to a durability officer assessing whether owners are ready to take over a building.
+_80
+@QUESTION
+1. What specific indicators did the officer use to decide whether owners were ready to take over maintenance?
+_300
+@EX Part 3: Listening to Local Funding Strategies
+@AUDIO 🔊 Audio Track 9.22
+@INSTR Listen to a manager describing how repairs became financially self-supporting.
+_80
+@MCQ
+1. What combination of income made the maintenance financially durable?
+@OPT
+   ○ A) Only international reconstruction funding
+   ○ B) Owner contributions, municipal co-funding, shop rents, and local donations together
+   ○ C) Completely free repairs requiring no local contribution
+_300
+@EX Part 3: Listening to a Roll-out Success Story
+@AUDIO 🔊 Audio Track 9.23
+@INSTR Listen to an architect reflecting on a successful roll-out.
+_80
+@QUESTION
+1. Describe two ways the office successfully adapted its type design when building in a new region.
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Roll-out Theory
+@INSTR Read about roll-out theory and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Roll-out involves repeating a design so it serves more people. Successful roll-out requires three elements: strong internal capacity to keep quality, systematic planning for growth, and partnerships with local builders and the municipality. Offices cannot sustain a roll-out without solving problems at each stage. Roll-out is not simple repetition—it requires strategic thinking and careful supervision."
+            Is the following statement true, false, or not given? "The fastest possible roll-out is always the best approach for an office."
+_300
+@EX Part 4: Reading About Durability Requirements
+@INSTR Complete based on reading about durability factors.
+_80
+@NUM
+1. According to the reading, a durable building requires all of the following EXCEPT __________.
+_300
+@EX Part 4: Reading About Resident Participation
+@INSTR Read about resident participation in long-term durability.
+_80
+@NUM 100
+1. Read: "Residents who take part in planning, managing and paying for a building develop stronger ownership. Ownership is the most important predictor of whether a building lasts. When residents feel they shaped and now manage the building, they work to keep it. Buildings where an outside office made every decision often decay when outside support ends, because residents never developed any investment in them."
+            Is the following statement true, false, or not given? "Resident participation in management directly causes a building to last."
+_300
+@EX Part 4: Reading About Exit Plans
+@INSTR Answer based on reading about exit plan design.
+_80
+@NUM
+1. Based on the reading, what is the primary purpose of a well-designed exit plan for an architecture office?
+_300
+@EX Part 4: Reading About Adaptation and Repetition
+@INSTR Read about roll-out strategies.
+_80
+@NUM 100
+1. Read: "Offices can take two approaches when building on new sites. Repetition means constructing the same type design again. Adaptation means changing parts of the design for the new context. Most successful roll-outs mix both approaches—keeping the proven core arrangement while adapting the roof, orientation and materials to local circumstances."
+            Is the following statement true, false, or not given? "Every type design should be repeated exactly without any change on new sites."
+_300
+@EX Part 4: Reading About Municipal Partnerships
+@INSTR Complete based on reading about municipal partnerships for durability.
+_80
+@NUM
+1. What are the main benefits for an architecture office of partnering with the municipality in durability planning?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Planning a Roll-out
+@INSTR Role-play a planning conversation about extending a design to new districts.
+_80
+_300
+@EX Part 5: Presentation - Roll-out Strategy
+@INSTR Prepare a 2-3 minute presentation about your roll-out plan.
+_80
+@NUM 100
+1. Present to funders: "Our Five-Year Roll-out and Durability Plan." Include: current status, new districts, how you will keep quality, builder training plan, how durability will be achieved, timeline, and budget overview.
+_300
+@EX Part 5: Discussion - Overcoming Roll-out Barriers
+@INSTR Discuss solutions to common roll-out challenges.
+_80
+@BULLET
+What are realistic solutions to the barrier of too few trained masons when an office wants to build on many sites?
+_300
+@EX Part 5: Role Play - Municipal Partnership Negotiation
+@INSTR Role-play negotiating a municipal partnership for long-term maintenance.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Durability Plan
+@INSTR Write about how your building will keep working over the long term.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Roll-out Strategy
+@INSTR Write a plan for extending your type design to new districts.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Exit Plan Letter
+@INSTR Write a letter to owners about the office's transition plans.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Municipal Partnership Proposal
+@INSTR Write a proposal for a partnership with the municipality.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Growth with Intention
+@INSTR Connect Jordanian community concepts with careful growth of building work.
+_80
+@NUM 100
+1. In Jordanian tradition, "ta'awun" means cooperating so that all who share a task benefit. How does this concept relate to rolling out a building design?
+_300
+@EX Part 7: Community Principles - Stewardship
+@INSTR Discuss Jordanian stewardship concepts in long-term building care.
+_80
+@NUM 100
+1. "Amanah" in Jordanian usage means a responsibility entrusted to you on behalf of others. How does this principle relate to an office's responsibility for buildings that must last?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 9 Concepts Review Matching
+@INSTR Match Unit 9 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Durability
+2. | Roll-out
+3. | Capacity Building
+4. | Exit Plan
+5. | Adaptation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Changing a design for a different site, climate or community
+b) | Repeating a design so it serves more people in new districts
+c) | Training owners and masons to maintain the building themselves
+d) | A plan for how the office gradually withdraws while the building keeps working
+e) | A building keeps performing without depending only on outside support
+_300
+@EX Part 8: Roll-out Success Factors Review
+@INSTR Choose the best summary of Unit 9 material.
+_80
+@MCQ
+1. According to Unit 9, what is the relationship between durability and roll-out?
+@OPT
+   ○ A) Offices must choose—they cannot both build to last and build widely
+   ○ B) A successful roll-out requires designing for durability from the beginning
+   ○ C) Roll-out and durability are unrelated concerns
+_300

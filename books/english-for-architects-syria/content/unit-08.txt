@@ -1,0 +1,370 @@
+@UNITHEAD Unit 8: Evaluating Building Performance
+@PART Warm Up | Warm Up
+@EX Warm-Up: Monitoring and Performance Discussion
+@INSTR Discuss why offices need to track how their buildings perform once occupied.
+_80
+@BULLET
+Why is it important for architects to monitor progress and measure how a finished building performs?
+_300
+@EX Warm-Up: Review Types Matching
+@INSTR Match review types with their purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Post-Occupancy Evaluation
+2. | Site Inspection
+3. | Performance Measurement
+4. | Office Learning
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Learning from completed projects to improve future detailing
+b) | Tracking construction progress through routine visits and reports
+c) | Understanding why a building performs well or badly in use
+d) | Measuring whether the building met its stated design targets
+_300
+@EX Warm-Up: Types of Evidence Discussion
+@INSTR Discuss the value of using both measurements and users' accounts in review.
+_80
+@BULLET
+What is the advantage of using both measurements and users' accounts in a building review?
+_300
+@EX Warm-Up: Using Findings for Improvement Discussion
+@INSTR Discuss how offices use review findings to make practical improvements.
+_80
+@BULLET
+How should offices use review findings to make practical improvements?
+_300
+@EX Warm-Up: Review Activity Classification
+@INSTR Classify review activities by project stage.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Design Stage
+2. Construction Monitoring
+3. Post-Occupancy Stage
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Baseline survey recording the existing building before work starts  ____________________________
+2. Weekly tracking of concrete pours and reinforcement inspections  ____________________________
+3. End-of-year survey comparing room temperatures with the design target  ____________________________
+4. Condition appraisal identifying the causes of damp  ____________________________
+5. Monthly meeting with the contractor about problems encountered  ____________________________
+6. A study three years after handover showing how rooms are actually used  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Performance Terms Matching
+@INSTR Match performance review concepts with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Design Aim
+2. | Target
+3. | Indicator
+4. | Baseline
+5. | Outcome
+6. | Output
+7. | Monitoring
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A starting measurement taken before any work begins
+b) | What the client actually received at handover
+c) | The amount of change from baseline to a later measurement
+d) | What the design intends to achieve over the building's life
+e) | Specific measurable results the design is expected to deliver
+f) | A measurable sign showing progress toward the design aim
+g) | The process of systematic measurement and analysis
+_300
+@EX Part 1: Evidence Types Matching
+@INSTR Match evidence collection methods with their characteristics.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Quantitative Evidence
+2. | Qualitative Evidence
+3. | Primary Evidence
+4. | Secondary Evidence
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Information already recorded by others
+b) | Numbers, readings and statistics showing measurement
+c) | Words, accounts and descriptions explaining meaning
+d) | Information gathered directly from users through survey
+_300
+@EX Part 1: Performance Vocabulary Multiple Choice
+@INSTR Choose the correct answer.
+_80
+@MCQ
+1. Which statement best describes what an "indicator" is in building performance review?
+@OPT
+   ○ A) The amount of money the project received
+   ○ B) A measurable sign showing progress toward a design aim
+   ○ C) The number of staff working on the drawings
+_300
+@EX Part 1: Review System Discussion
+@INSTR Discuss the elements of a strong performance review system.
+_80
+@BULLET
+What makes a performance review system effective for improving future buildings?
+_300
+@EX Part 1: Review Purpose Multiple Choice
+@INSTR Choose the correct answer about review purposes.
+_80
+@MCQ
+1. What is NOT a primary purpose of a post-occupancy review?
+@OPT
+   ○ A) Determining whether the building achieved its design aims
+   ○ B) Determining staff salaries and job assignments in the office
+   ○ C) Understanding why the building performs as it does
+_300
+@EX Part 1: Performance Chain Elements Matching
+@INSTR Match performance chain components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Inputs
+2. | Outputs
+3. | Outcomes
+4. | Impact
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Budget, materials, staff and site available to the project
+b) | Drawings produced and construction actually completed
+c) | Short-term results such as rooms that are warm and dry
+d) | Long-term change in how a district lives and works
+_300
+@EX Part 1: Review Type Classification
+@INSTR Classify review types by their primary purpose.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Accountability Review
+2. Learning Review
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A report showing the funder whether the building met its stated targets  ____________________________
+2. Interviews exploring which details worked on site and why  ____________________________
+3. A financial audit verifying the project spent money appropriately  ____________________________
+4. Workshops identifying construction difficulties and better solutions  ____________________________
+5. A report to the municipality showing the building complies  ____________________________
+6. An analysis of site records to improve future specifications  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Results and Change
+@INSTR Answer using past tense structures to describe results.
+_80
+@NUM 100
+1. Describe what the repair programme achieved using these words: improved, increased, reduced, reached.
+_300
+@EX Part 2: Causality Language for Results
+@INSTR Explain how design decisions led to results.
+_80
+@NUM 100
+1. Explain the connection between adding insulation and reduced heating cost using cause-effect language.
+_300
+@EX Part 2: Comparison Language for Review
+@INSTR Complete sentences comparing baseline and post-occupancy results.
+_80
+@OPTLINE
+1. At baseline, only 30 percent of classrooms had daylight above the standard. After the work, 70 percent did. The project __________ daylight levels. | increased | decreased | eliminated | prevented
+_300
+@EX Part 2: Conditional Language for Future Review
+@INSTR Use conditional language to discuss future reviews.
+_80
+@NUM 100
+1. Write sentences about what would happen if a maintenance programme continued for five more years using conditional language.
+_300
+@EX Part 2: Question Formation for Surveys
+@INSTR Complete user survey questions using correct question formation.
+_80
+@OPTLINE
+1. __________ the repair improve your family's comfort in winter? | Did | Does | Will | Has
+_300
+@EX Part 2: Passive Voice in Reporting Results
+@INSTR Convert active voice to passive voice describing review findings.
+_80
+@NUM 100
+1. Rewrite this sentence using passive voice: "The project repaired 500 apartments."
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Review Challenges
+@AUDIO 🔊 Audio Track 8.19
+@INSTR Listen to a performance officer describing review challenges.
+_80
+@QUESTION
+1. What was the main challenge the officer faced when trying to collect performance measurements?
+_300
+@EX Part 3: Listening to User Stories
+@AUDIO 🔊 Audio Track 8.20
+@INSTR Listen to a resident describing how the completed work changed their home.
+_80
+@MCQ
+1. What specific improvement did the resident experience?
+@OPT
+   ○ A) Fewer headaches and better sleep
+   ○ B) Damp identified early and the wall repaired before winter
+   ○ C) Improved ability to work and earn income
+_300
+@EX Part 3: Listening to Continuous Improvement Discussion
+@AUDIO 🔊 Audio Track 8.21
+@INSTR Listen to staff discussing how they use review findings.
+_80
+@QUESTION
+1. Describe two ways the office changed its details based on review findings.
+_300
+@EX Part 3: Listening to Performance Chain Discussion
+@AUDIO 🔊 Audio Track 8.22
+@INSTR Listen to a project architect explaining a performance chain.
+_80
+@MCQ
+1. According to the architect, what is one main "output" of their repair programme?
+@OPT
+   ○ A) Improved living conditions across the district
+   ○ B) Repaired roofs and completed drawings handed to owners
+   ○ C) Municipal policies supporting reconstruction
+_300
+@EX Part 3: Listening to Review Interpretation
+@AUDIO 🔊 Audio Track 8.23
+@INSTR Listen to a reviewer discussing how to interpret mixed results.
+_80
+@QUESTION
+1. When some results were positive and others negative, what did the reviewer recommend?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Monitoring Systems
+@INSTR Read the text about monitoring systems and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Effective monitoring systems collect readings regularly and systematically. Collection methods must be simple enough for site staff to use without special training. However, simple methods can still provide accurate information when designed well. Residents should understand why readings are being taken so they support the process. Readings must be analysed quickly and results shared with staff and residents regularly. If the readings show problems, offices should adjust details quickly."
+            Is the following statement true, false, or not given? "Monitoring systems require expensive equipment and technical expertise."
+_300
+@EX Part 4: Reading About Indicators
+@INSTR Complete the sentence based on reading about indicators.
+_80
+@NUM
+1. According to the reading, good indicators should be measurable, achievable, and __________.
+_300
+@EX Part 4: Reading About Data Quality
+@INSTR Read about ensuring quality in performance records.
+_80
+@NUM 100
+1. Read: "Record quality depends on clear survey forms, well-trained staff, and regular checking of what has been collected. Forms should ask specific questions to avoid confusion. Staff should understand why they are recording each piece of information. Records should be checked for errors and missing values before analysis. Residents can take part in checking quality by reviewing results and identifying errors."
+            Is the following true, false, or not given? "Residents should never take part in performance review because they lack technical skills."
+_300
+@EX Part 4: Reading About Learning from Review
+@INSTR Answer in your own words based on reading.
+_80
+@NUM
+1. Based on the reading about office learning, explain why review findings should be widely shared rather than kept only in a report.
+_300
+@EX Part 4: Reading About Design Reasoning
+@INSTR Read about the chain of reasoning behind a design.
+_80
+@NUM 100
+1. Read: "A design rationale explains the relationship between design decisions and expected outcomes. It shows how a decision is supposed to lead to a result. For example, if we insulate the roof, the rooms below will lose less heat. If they lose less heat, families will burn less fuel. If they burn less fuel, the air inside will be cleaner. If the air is cleaner, children will be ill less often. A design rationale helps staff understand the path from a detail to a long-term aim."
+            According to the text, does having a clear design rationale eliminate the risk of poor performance?
+_300
+@EX Part 4: Reading About Fairness in Review
+@INSTR Complete using information from the reading about fairness-focused review.
+_80
+@NUM
+1. What specific question should a fairness-focused review answer about the project's results?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Discussing Review Results
+@INSTR Role-play a conversation about building performance results.
+_80
+_300
+@EX Part 5: Presentation - Creating Learning Offices
+@INSTR Prepare a short presentation (2-3 minutes) about building a learning culture in an office.
+_80
+@NUM 100
+1. Present on: "How Offices Can Use Performance Review to Build Learning Instead of Just Accountability." Include: what a learning office is; how review supports learning; specific examples; staff involvement; sharing failures and successes; building shared knowledge; how this improves buildings.
+_300
+@EX Part 5: Discussion - Using Findings for Decision Making
+@INSTR Discuss challenges and solutions for using review findings in decisions.
+_80
+@BULLET
+What are common barriers to using review findings in design decisions and how can offices overcome them?
+_300
+@EX Part 5: Role Play - Receiving Critical Feedback
+@INSTR Role-play receiving and responding to critical review feedback on your detail.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Review Summary
+@INSTR Write about building performance findings and their implications.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Findings Use Plan
+@INSTR Write about how your office will use performance findings.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Performance Chain
+@INSTR Write out the elements of a performance chain for a repair project.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Review Proposal
+@INSTR Write a proposal for a performance review system for your office.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Stewardship and Trust
+@INSTR Discuss Syrian principles of stewardship in professional accountability.
+_80
+@NUM 100
+1. In Syrian tradition, "amanah" means a trust held on behalf of others, and the holder answers for it. How does this connect to professional accountability and building review?
+_300
+@EX Part 7: Community Principles - Fairness in Using Findings
+@INSTR Connect principles of fairness to equitable building review.
+_80
+@NUM 100
+1. The quarter judges a decision by whether every household was treated fairly. How should this guide how offices interpret and use review findings?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 8 Concepts Review Matching
+@INSTR Match Unit 8 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Design Aim
+2. | Indicator
+3. | Baseline
+4. | Monitoring
+5. | Post-Occupancy Evaluation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A starting measurement taken before any work begins
+b) | What the design intends to achieve over the building's life
+c) | The process of systematic measurement and analysis
+d) | Judging whether the finished building met its design aims
+e) | A measurable sign showing progress toward a design aim
+_300
+@EX Part 8: Review System Purposes
+@INSTR Choose the best answer about review purposes in Unit 8 material.
+_80
+@MCQ
+1. Which is the most important reason for offices to have strong review systems?
+@OPT
+   ○ A) To gather statistics for funders only
+   ○ B) To blame staff when a detail fails
+   ○ C) To track progress, learn what works, and continuously improve buildings
+_300

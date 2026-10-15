@@ -1,0 +1,460 @@
+@UNITHEAD Unit 4: Site Survey and Technical Drawing
+@PART Warm Up | Warm Up
+@EX Warm-Up: Measurement Discussion
+@INSTR Discuss the skills that are important for measuring and recording a building.
+_80
+@BULLET
+What skills do you think are important for someone who surveys a site?
+_300
+@EX Warm-Up: Matching Tasks to Survey Roles
+@INSTR Match survey roles with the key skills they need most.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Land Surveyor
+2. | Measured Survey Technician
+3. | Draughtsman
+4. | Project Architect
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Careful instrument work and arithmetic to fix levels and boundaries exactly
+b) | Patience and a systematic method to record every room, opening and thickness
+c) | Precision and consistency so every line, symbol and dimension reads correctly
+d) | Judgement and coordination to decide what must be drawn and at what scale
+_300
+@EX Warm-Up: Accuracy Multiple Choice
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What quality helps a surveyor produce drawings others can rely on?
+@OPT
+   ○ A) Working as fast as possible
+   ○ B) Care with measurement and honest recording of what is there
+   ○ C) Avoiding difficult corners of the building
+_300
+@EX Warm-Up: Discussion - Personal Strengths
+@INSTR Discuss personal strengths that help people record buildings accurately.
+_80
+@BULLET
+What are your personal strengths and how could they help survey and drawing work?
+_300
+@EX Warm-Up: Survey Skills Classification
+@INSTR Classify skills and tools as Technical Skills or Instruments.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Technical Skill
+2. Instrument
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Reading a scale rule and converting dimensions  ____________________________
+2. A laser distance meter  ____________________________
+3. Drawing a wall section with correct hatching  ____________________________
+4. A total station on a tripod  ____________________________
+5. Calculating areas and volumes from a plan  ____________________________
+6. A spirit level and a plumb bob  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Drawing Types Matching
+@INSTR Match drawing types with their descriptions and uses in practice.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Site Plan
+2. | Floor Plan
+3. | Section
+4. | Elevation
+5. | Detail
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A large-scale drawing showing exactly how materials meet at one junction
+b) | A drawing of one outside face of the building seen straight on, without perspective
+c) | A drawing of the plot with the building, boundaries, access and levels shown
+d) | A horizontal cut through one storey showing rooms, walls, doors and windows
+e) | A vertical cut through the building showing heights, floors and roof construction
+_300
+@EX Part 1: Drawing Conventions Table
+@INSTR Complete the table with conventions, their importance, and examples of use.
+_80
+@GRID
+Convention | Why Important | Example in Drawing Work
+Scale |  | 
+Dimension line |  | 
+North point |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Lets any reader convert a drawn length to the real length
+b)  A plan at 1:100 shows one metre as ten millimetres on the sheet
+c)  States a measurement so the builder does not have to measure the paper
+d)  An overall dimension string runs across the whole face of the plan
+e)  Shows the orientation so sun, wind and views can be understood
+f)  The arrow on the site plan tells the reader which rooms face south
+_100
+_300
+@EX Part 1: Survey Terms Fill-in Blanks
+@INSTR Complete sentences using words about surveying and technical drawing.
+_80
+@GAP
+1. A drawing is prepared to a ____________________ so real sizes can be read from it.
+2. A ____________________ survey records an existing building exactly as it stands today.
+3. ____________________ means the height of a point above an agreed reference level.
+4. ____________________ is essential when recording a building whose walls are not square.
+_300
+@EX Part 1: Survey Practice in Context - Fact Questions
+@INSTR Read about surveying and drawing in practice and answer fact questions.
+_80
+@PANEL
+Architects need both instrument skills and drawing skills to record buildings well. Instrument skills are specific abilities like levelling, taping, and using a laser meter. Drawing skills are conventions like scale, line weight, hatching, and dimensioning.
+Dimensioning is particularly important. Architects give the builder dimensions in ways that cannot be misread. Running dimensions fix each opening from one end of the wall. Overall dimensions check the total. Setting-out dimensions locate the building on its plot.
+Spatial reasoning helps architects understand a building from flat drawings. This skill reduces errors and catches clashes before construction. Architects with strong spatial reasoning read a section and a plan together and see one building.
+Checking skills are valuable even for the most experienced staff. Junior architects check their own dimension strings before issue. Technicians check that every plan, section and elevation agrees. Checking means catching the error on paper rather than on site.
+All these skills can be learned and improved through practice and training. Offices invest in staff development because accurate drawings save money on site.
+@NUM 100
+1. What is the difference between instrument skills and drawing skills?
+2. Why is dimensioning important in technical drawing?
+_300
+@EX Part 1: Discussion - Skills for Accuracy
+@INSTR Discuss how different skills contribute to accurate drawings.
+_80
+@BULLET
+Think of a skill you have or want to develop. How would it help in survey and drawing work?
+_300
+@EX Part 1: Listening - Survey Skills in Action
+@AUDIO 🔊 Audio Track 4.11
+@INSTR Listen to architects describing the skills they use and answer questions.
+_80
+@MCQ
+1. What skills does the survey technician emphasize?
+@OPT
+   ○ A) Only instrument knowledge
+   ○ B) Method, patience, and careful recording
+   ○ C) Software and rendering skills
+@MCQ
+2. Why does the project architect need flexibility?
+@OPT
+   ○ A) To take more holidays
+   ○ B) To handle buildings that are not square or not as recorded
+   ○ C) It is not needed
+_300
+@EX Part 1: Summary - Core Skills for Accurate Drawings
+@INSTR Choose the best explanation for successful survey and drawing work.
+_80
+@MCQ
+1. What combination is most important for drawing work?
+@OPT
+   ○ A) Only instrument skills matter
+   ○ B) Only neat lines without accurate measurement
+   ○ C) Instrument skills plus drawing conventions and careful checking
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Modal Verbs About Ability and Necessity
+@INSTR Complete sentences with appropriate modal verbs about survey and drawing work.
+_80
+@NUM
+1. Architects ____________________ (dimension) dimension every opening clearly.
+2. All survey teams ____________________ (record) a check measurement.
+3. These conventions ____________________ (learn) through training and practice.
+_300
+@EX Part 2: Adjectives Describing Skills and Qualities
+@INSTR Complete the table with adjectives that describe architects and their drawing work.
+_80
+@GRID
+Quality/Skill Noun | Descriptive Adjective (How would you describe someone with this?)
+Precision | 
+Patience | 
+Method | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Precise
+b)  Patient
+c)  Methodical
+_100
+_300
+@EX Part 2: Describing Requirements with Gerunds
+@INSTR Complete sentences about survey work using gerunds (-ing form).
+_80
+@GAP
+1. ____________________ every room before leaving the site prevents a second visit.
+2. ____________________ in poor light requires extra care and a second reading.
+3. ____________________ across plans, sections and elevations keeps the set consistent.
+4. ____________________ from an error on site teaches architects to check earlier.
+_300
+@EX Part 2: Comparative Adjectives About Drawings
+@INSTR Complete sentences comparing drawing qualities using comparative forms.
+_80
+@NUM
+1. A clear dimension string ____________________ (useful) than a beautiful rendering for the builder.
+2. Architects with longer experience are usually ____________________ (quick) to spot a clash.
+3. Measured survey drawings are ____________________ (reliable) than drawings copied from old records.
+_300
+@EX Part 2: Listening - Grammar in Context About Drawing
+@AUDIO 🔊 Audio Track 4.17
+@INSTR Listen to a trainer talking about developing drawing skills and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Trainer: When we train new architects, we focus on developing both instrument and drawing skills. A good surveyor must know how to use a level, but must also record readings in a way others can follow. A good draughtsman must draw accurately, but must also understand what the builder will do with the sheet.
+^Trainer: We teach that precision is not something you are born with—it is something you develop through practice. Architects learn precision by checking their own work before anyone else sees it. Learning from an error on site is more valuable than never taking responsibility for a drawing. We want our staff to be confident enough to sign their work even when the building is complicated.
+_200
+@QUESTION
+1. What two types of skills must architects develop?
+2. How do architects develop precision according to the trainer?
+_300
+@EX Part 2: Grammar Review - Skills and Qualities
+@INSTR Discuss how to talk about skills and qualities in English.
+_80
+@BULLET
+Explain the difference between "I can measure accurately" and "I am precise" in terms of skills.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office and Site Roles
+@INSTR Before listening, discuss what different staff do and the skills they need.
+_80
+@BULLET
+What skills would a surveyor, a draughtsman, and a site architect need?
+_300
+@EX Part 3: Listening - Different Perspectives on Drawing Skills
+@AUDIO 🔊 Audio Track 4.20
+@INSTR Listen to people from different roles discuss skills needed in their work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Surveyor: As a surveyor on an old building, I must combine instrument accuracy with judgement. I take readings carefully, but I also decide which of a crooked wall's many thicknesses to record. Many walls are out of plumb by fifty millimetres. I use a check dimension on every room so my drawing closes. This requires instrument skill and honest recording.
+^Manager: As project architect, I coordinate many drawings and consultants. I must have organizational skills to manage revisions and issue sheets. I must have leadership to keep a team drawing to the same standard. I need problem-solving abilities when the survey contradicts the record drawings. Perhaps most important, I must have integrity so my team trusts what I sign.
+~Community Worker: Drawing for an occupied building requires very different skills than drawing a new one. I must build trust with residents over weeks so they let me measure their rooms. I can never be rushed—access takes time. I need flexibility because each flat has been altered differently. I must be humble enough to learn the building from the people who live in it. This is how we produce a survey nobody disputes.
+_200
+@QUESTION
+1. What does the surveyor combine in her work?
+2. Why does the third speaker emphasize building trust with residents?
+_300
+@EX Part 3: True/False - Drawing Skills and Development
+@INSTR Read statements about drawing skills and mark them True, False, or Not Given.
+_80
+@PANEL
+All architects need a combination of instrument and drawing skills. Instrument skills can be taught through training and education. Judgement skills like deciding what to record are harder to develop but can improve through practice. Offices invest in staff development because good training reduces errors on site. Some architects are naturally methodical while others must work harder to develop this quality. The most important factor in drawing work is having every skill before starting, not willingness to check and improve on the job.
+@NUM 100
+1. Architects need both instrument and drawing skills.
+2. Instrument skills are more important than judgement.
+3. Offices provide training to improve staff performance.
+_300
+@EX Part 3: Listening - Developing Skills Through Experience
+@AUDIO 🔊 Audio Track 4.22
+@INSTR Listen to an architect describing how staff develop skills on site.
+_80
+@MCQ
+1. How do architects best develop practical drawing skills?
+@OPT
+   ○ A) Only through classroom training before starting
+   ○ B) Through drawing real buildings and seeing them built, with support
+   ○ C) They do not need to develop skills during work
+@MCQ
+2. Why does the speaker emphasize checking and mentoring?
+@OPT
+   ○ A) To make work harder for new staff
+   ○ B) To catch errors on paper while staff learn from real projects
+   ○ C) They are not really necessary
+_300
+@EX Part 3: Listening - Personal Stories About Developing Skills
+@AUDIO 🔊 Audio Track 4.23
+@INSTR Listen to architects describing how they developed their skills.
+_80
+@PLAYNOTE
+@SCRIPT
+~Worker1: I came to architecture from engineering drawing with plenty of technical experience but no idea about old buildings. My first year was overwhelming. I made mistakes and felt discouraged. But my supervisor was patient. She showed me how to survey when walls were cracked, when rooms were out of square, when we had no record drawings. Over time, I developed new skills and became much stronger. Now I mentor younger technicians.
+^Worker2: I was a good draughtsman in a factory, but building work was different. In the factory, every component was identical. On a building, I had to record something that had been altered for a century. I learned to be systematic and accept that perfect regularity was impossible. I learned that a careful survey with honest notes serves the builder better than a tidy drawing that hides the problem. This change in mindset was more important than any skill I had before.
+_200
+@QUESTION
+1. What helped the first architect develop skills on old buildings?
+2. What was the bigger lesson the factory draughtsman learned in building work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Your Gifts for Recording
+@INSTR Discuss what gifts and strengths you have that could help in survey work.
+_80
+@BULLET
+What do you do well that could help record a building accurately?
+_300
+@EX Part 4: Reading - Drawing Competency Framework
+@INSTR Read about a comprehensive competency framework for survey and drawing work and answer questions.
+_80
+@PANEL
+Understanding Survey and Drawing Competencies
+Effective architects require competencies in five areas: Instrument Knowledge, Drawing Conventions, Spatial Reasoning, Local Construction Knowledge, and Checking Discipline.
+Instrument knowledge is equipment-specific expertise. A surveyor must understand levels and total stations. A technician must understand laser meters. A project architect must understand what accuracy each instrument can actually deliver. This knowledge forms the foundation but is not enough alone.
+Drawing conventions include scale, line weight, hatching, and dimensioning. Architects must present information clearly to diverse readers. They must keep a set consistent despite revisions. They must annotate so a builder needs no further explanation.
+Spatial reasoning is valuable at all levels. Even a junior technician must see a three-dimensional building in a flat plan and section. Strong spatial reasoning catches clashes between structure and services before anything is built.
+Local construction knowledge means understanding how buildings in the region are actually built. Architects in Vietnam must understand timber frames, concrete frames, brick infill, and traditional tiled roofs. Architects with this knowledge record what matters and ignore what does not.
+Checking discipline means verifying your own work before issuing it. Architects who issue drawings without checking create errors that cost money and trust on site. Good checking includes closing every dimension string, comparing plans with sections, and having a second person read the sheet.
+These five competencies work together. Strong checking improves drawing conventions. Local knowledge enhances spatial reasoning. Together, they create highly effective architects.
+@NUM 100
+1. What are the five competency areas for survey and drawing work?
+2. Why is checking discipline important for architects?
+_300
+@EX Part 4: Text - Qualities That Transform Drawing Work
+@INSTR Read about character qualities that make architectural drawing trustworthy.
+_80
+@PASSAGE
+Beyond skills and competencies, certain character qualities transform drawing work from routine production into real professional service. Humility allows architects to learn from the building and admit when a dimension is wrong. Humble architects measure again rather than assume.
+Courage enables architects to record what they find and report it honestly. Courageous architects in Vietnam survey buildings during the flood season when nobody is certain they are sound. They face their fears and record the damage anyway so repair can be designed.
+Patience helps architects maintain care through the hundredth room of a survey. Without patience, readings become careless and the drawing cannot be trusted. With patience, architects keep the same standard from the first sheet to the last.
+Integrity ensures architects remain honest about what they measured and what they assumed even when programmes are short. Architects with integrity mark an assumed dimension as assumed. They refuse to let a deadline justify a drawing that misleads a builder.
+Care—genuine concern for the people who will use the building—connects all these qualities. Architects who truly care about the users find meaning in the detail and persist through tedium. Care transforms drawing from production into responsibility.
+These qualities cannot be taught in classrooms; they must be developed within each person through reflection, experience, and commitment.
+@MCQ
+1. Which quality helps architects learn from the building itself?
+@OPT
+   ○ A) Confidence that the record drawings are correct
+   ○ B) Humility that leads them to measure again
+   ○ C) Avoiding difficult rooms
+@MCQ
+2. What does the text say about character qualities in drawing work?
+@OPT
+   ○ A) They are not important for effective work
+   ○ B) They transform production into professional responsibility
+   ○ C) Only instrument skills matter
+_300
+@EX Part 4: Application - Skills for Different Situations
+@INSTR Read scenarios and fill in which key skills are most important.
+_80
+@GRID
+Survey Situation | Most Important Skill
+Recording 1000 flats for a reconstruction programme in six weeks | 
+Surveying a cracked historic vault that may be unstable | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Method and systematic organization
+b)  Judgement and careful observation
+_100
+_300
+@EX Part 4: True/False - Survey Skills Development
+@INSTR Read statements about survey skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Architects require well-developed observation skills to record buildings accurately. Measuring ability improves with practice and feedback. Some architects are born naturally methodical while others must develop method through experience. Offices invest heavily in training new staff because proper training saves money and reduces errors on site. Instrument skills are essential but insufficient without drawing conventions and checking discipline. Checking your own work is wasteful and inappropriate for architects who should trust their first reading. Humility and lifelong learning are valued traits in effective architects.
+@NUM 100
+1. Architects need strong observation skills.
+2. Checking your own work is inappropriate for architects.
+3. Humility is valued in effective architects.
+_300
+@EX Part 4: Discussion - Building Your Skills
+@INSTR Discuss how you would develop skills for future survey and drawing work.
+_80
+@BULLET
+What skills do you most need to develop for survey work and how would you develop them?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Essential Skills for Drawing Work
+@INSTR Prepare a presentation about the most important skills for accurate drawings.
+_80
+@NUM 100
+1. Describe instrument skills, drawing conventions, and character qualities needed in survey work.
+_300
+@EX Part 5: RolePlay - Job Interview for a Drawing Position
+@INSTR Roleplay a job interview for a technician position discussing your skills and qualities.
+_80
+_300
+@EX Part 5: Discussion - Developing Skills for Accuracy
+@INSTR Discuss how to develop skills and qualities for accurate survey work.
+_80
+@BULLET
+How can someone develop stronger observation and spatial reasoning for drawing work?
+_300
+@EX Part 5: RolePlay - Mentoring Conversation About Drawings
+@INSTR Roleplay a mentor discussing skill development with a new technician.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Skills Assessment
+@INSTR Write about your personal skills and how they could contribute to survey and drawing work.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - How a Skill Changed Your Work
+@INSTR Write about how developing a specific skill improved your accuracy or understanding.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Training Program for Drawing Skills
+@INSTR Write a proposal for a training program to develop survey and drawing skills.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Building Your Professional Identity
+@INSTR Write a reflection on how you would develop yourself into a future project architect.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Survey and Drawing Excellence in Vietnam
+@INSTR Read about exemplary survey work in Vietnam and answer detailed questions.
+_80
+@PANEL
+Vietnamese survey teams demonstrate exceptional courage, skill, and commitment despite extreme difficulty. They work in buildings damaged by flooding, recording settlement and rot with minimal equipment. They run measured surveys of historic quarters despite narrow lanes and restricted access. They coordinate drawings for thousands of flats with help from students.
+Vietnamese architects understand local construction deeply. They know timber framing, tiled roofs, and the tube-house plan that shapes the old quarters. This construction knowledge helps them record what matters for repair and ignore what does not. They read the building, know the craft, and understand damage because many have surveyed their own neighbourhoods.
+The commitment of Vietnamese survey teams is remarkable. Many work long hours for modest fees or none. Many face real risks entering buildings weakened by years of damp. Many have lost homes themselves yet continue recording. Their dedication shows that careful survey work comes from deep conviction—a personal relationship with the city and a commitment to repairing it.
+International consultants often say that Vietnamese colleagues teach them what real construction knowledge looks like. The resilience, resourcefulness, and craft understanding of local architects inspires and humbles those with better equipment. This partnership between international support and local knowledge produces the most accurate record of what remains.
+@NUM 100
+1. What challenges do Vietnamese survey teams face?
+2. Why is local construction knowledge valuable in survey work?
+_300
+@EX Part 7: Discussion - Mutual Learning Between Architects
+@INSTR Discuss what international and local architects can learn from each other.
+_80
+@BULLET
+What can international and Vietnamese architects teach each other about recording damaged buildings?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 4 Summary - Skills and Qualities
+@INSTR Review Unit 4 by matching skills and qualities with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Observation
+2. | Method
+3. | Construction Knowledge
+4. | Checking Discipline
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Verifying your own dimensions and drawings before anyone else relies on them
+b) | Working through a building in a consistent order so nothing is missed
+c) | Understanding how buildings in the region are actually built and repaired
+d) | Noticing what is actually there rather than what you expected to find
+_300
+@EX Part 8: Integrated Assessment - Unit 4 Mastery
+@INSTR Demonstrate understanding of Unit 4. Choose the best answer.
+_80
+@MCQ
+1. What two types of skills must architects develop for survey work?
+@OPT
+   ○ A) Only instrument knowledge
+   ○ B) Instrument skills and drawing skills like dimensioning and annotation
+   ○ C) Only fee negotiation skills
+@MCQ
+2. Why are character qualities like patience and integrity important in drawing work?
+@OPT
+   ○ A) They increase fees and benefits
+   ○ B) They turn drawing production into professional responsibility others can rely on
+   ○ C) They are not really important
+@MCQ
+3. How do architects best develop practical drawing skills?
+@OPT
+   ○ A) Only through classroom training
+   ○ B) Through drawing real buildings and seeing them built, with mentoring support
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+4. What is the value of Vietnamese architects in reconstruction partnerships?
+@OPT
+   ○ A) They require supervision and have limited expertise
+   ○ B) They bring construction knowledge, resilience, and real understanding of the fabric
+   ○ C) International consultants do all the real work
+_300

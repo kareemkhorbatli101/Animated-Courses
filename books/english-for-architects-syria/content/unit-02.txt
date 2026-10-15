@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Architecture Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Architecture Do?
+@INSTR Discuss with a partner what jobs and roles exist in an architecture office.
+_80
+@BULLET
+What types of jobs do you think people have in architecture offices?
+_300
+@EX Warm-Up: Matching Architecture Jobs to Descriptions
+@INSTR Match each architecture job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Architect
+2. | Structural Engineer
+3. | Project Manager
+4. | Quantity Surveyor
+5. | Site Supervisor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Designs the building and prepares the drawings
+b) | Calculates the beams, columns and foundations
+c) | Manages teams and plans the stages of the project
+d) | Measures quantities and prepares the cost estimate
+e) | Checks that the work on site follows the drawings
+_300
+@EX Warm-Up: Architecture Job Skills
+@INSTR Classify the following skills by which architecture job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Architect
+2. Engineer
+3. Manager
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Spatial imagination and drawing  ____________________________
+2. Calculation and structural knowledge  ____________________________
+3. Leadership and planning  ____________________________
+4. Designing for the people who will use the rooms  ____________________________
+5. Checking that a beam will carry its load  ____________________________
+6. Making decisions about programme and cost  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Architecture?
+@INSTR Discuss with a partner: Would you like to work in architecture? Why or why not?
+_80
+@BULLET
+Would you like to work in architecture in the future? What role would you like to have?
+_300
+@EX Warm-Up: Architecture Work in Syria
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are architects in Syria very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They assess damaged buildings and design the repair and rebuilding of cities
+   ○ C) They do not work with engineers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Architecture Job Titles and Descriptions
+@INSTR Match each architecture job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Architect
+2. | Draughtsman
+3. | Structural Engineer
+4. | Quantity Surveyor
+5. | Project Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who designs buildings and prepares drawings and specifications
+b) | A person who produces accurate technical drawings from the architect's design
+c) | A person who calculates the structure so the building will carry its loads safely
+d) | A person who measures quantities and prepares the cost estimate for the work
+e) | A person who leads teams and plans the stages and programme of the project
+_300
+@EX Part 1: Architecture Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Site Architect
+2. | Cost Officer
+3. | Structural Engineer
+4. | Conservation Specialist
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans and organizes the work on site
+b) | Manages budgets and valuations
+c) | Designs the structural frame
+d) | Advises on historic fabric and repair
+_300
+@EX Part 1: Skills Required for Architectural Work
+@INSTR Complete the table by filling in the required skills for each architecture job.
+_80
+@GRID
+Architecture Job | Skill 1 | Skill 2
+Design Architect |  | 
+Site Supervisor |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  observant
+b)  spatial imagination
+c)  clear communication
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Architecture
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Architects often work in an ____________________ (office) or out on the site.
+2. Working in architecture can be ____________________ (demanding) but very rewarding.
+3. Architects usually work as a ____________________ (team) with engineers and surveyors.
+_300
+@EX Part 1: Listening - Architecture Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of architecture jobs and answer the questions.
+_80
+@MCQ
+1. What does an architect do in a design office?
+@OPT
+   ○ A) Teaches students
+   ○ B) Designs the building and prepares the drawings
+   ○ C) Manages money
+@MCQ
+2. What is a draughtsman's main responsibility?
+@OPT
+   ○ A) Produce accurate drawings from the design
+   ○ B) Manage the office budget
+   ○ C) Build the walls
+_300
+@EX Part 1: Reading - Architecture Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their architecture careers as interns. Interns work during their studies for a small payment, but they gain important experience. After interning for one or two years, graduates may become junior architects in an office. Junior architects receive training to improve their drawing and detailing skills. Some work as site architects, visiting construction to check the work. Others work in the office as designers or coordinators. The most experienced architects may become project directors who train and manage other staff. Working in architecture offers opportunities to learn, grow, and shape places at the same time.
+@NUM 100
+1. How do most people start their careers in architecture?
+2. What happens to interns after they gain experience?
+_300
+@EX Part 1: Discussion - Architecture Career Interest
+@INSTR Discuss with a partner: Which architecture job interests you most?
+_80
+@BULLET
+Which architecture job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in an architecture office for five years.
+2. They ____________________ (have designed) many houses in this district.
+3. The project manager ____________________ (has trained) all new junior architects.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new school in the village
+They |  | drawings for 500 houses
+He |  | three successful projects
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has designed
+b)  have prepared
+c)  has managed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as an intern?
+2. ____________________ you seen the new school building?
+3. ____________________ the engineer checked all the beams?
+4. ____________________ they completed the permit drawings?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her registration yet.
+2. They ____________________ (haven't worked) in this district before.
+3. He ____________________ (hasn't been) to a damaged site.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the architect worked in offices?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which cities has the architect worked in?
+@OPT
+   ○ A) Damascus only
+   ○ B) Damascus, Homs, and Aleppo
+   ○ C) Three European cities
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What design or site experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Architecture Staff Interview
+@INSTR Before listening, discuss: What questions would you ask an architect?
+_80
+@BULLET
+What would you like to know about working in an architecture office?
+_300
+@EX Part 3: Listening - Interview with Project Architect
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with a project architect and answer the questions.
+_80
+@MCQ
+1. What does the project architect do?
+@OPT
+   ○ A) Teaches students at the university
+   ○ B) Plans the design stages and supervises the site
+   ○ C) Works only in offices
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many clients
+   ○ B) Lack of materials
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about an architectural training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many offices run training programmes for young architects. These programmes teach graduates who cannot learn detailing at university. Tutors in these programmes are experienced architects from the office. They provide lessons in drawing, detailing, and site practice. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many offices run training programmes for young architects. These programmes teach graduates who cannot learn detailing at university. Tutors in these programmes are experienced architects from the office. They provide lessons in drawing, detailing, and site practice. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Office training programmes teach drawing and detailing.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Office Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in architecture offices and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of transportation
+   ○ B) Limited fees and staffing
+   ○ C) Difficult clients
+@MCQ
+2. How many site vehicles does the office have?
+@OPT
+   ○ A) One vehicle
+   ○ B) Three vehicles
+   ○ C) Two vehicles
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in architecture.
+_80
+@MCQ
+1. What position is the young architect offered?
+@OPT
+   ○ A) Project architect position
+   ○ B) A chance to train for project architect
+   ○ C) Draughtsman forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only drawing skill
+   ○ B) Leadership, project management, and communication
+   ○ C) Only software skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Practice Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different types of practice?
+_80
+@BULLET
+How might roles differ between a housing office and a conservation office?
+_300
+@EX Part 4: Reading - Architecture Office Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most architecture offices have a hierarchical structure. At the top is the Principal who makes major decisions and signs the drawings. Below the principal are project architects who manage specific jobs like housing, schools, and repair work. Each project architect supervises junior architects and draughtsmen who prepare the drawings. Site architects deliver the work on site, checking setting out, materials and quality.
+Offices also employ support staff like administrators, drivers, and model makers. While these roles may seem less visible, they are essential. For example, drivers make sure survey equipment reaches the site. Administrators manage permit applications and records. Every role is important for the office to function effectively.
+Recent years have seen changes in office structures. Smaller practices operate more flexibly, with fewer management layers. This allows decisions to be made faster. However, managing fees and ensuring drawing quality remain challenges even with simpler structures.
+@NUM 100
+1. Who makes major decisions in an architecture office?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Architects must be meticulous — careful about every dimension and detail. They also need persistence — the commitment to solve a design problem even when it is difficult. The expertise of experienced staff is valuable for training new architects. Offices also value transparency — being honest with clients about cost, programme and risk.
+@MCQ
+1. What does "meticulous" mean?
+@OPT
+   ○ A) Fast and careless
+   ○ B) Careful about every dimension and detail
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a hard problem
+   ○ B) Commitment to solve it even when difficult
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Architecture Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Designs the building and prepares drawings and specifications |  | Design office
+Checks setting out, materials and quality during construction |  | Construction site
+@CHOICEHEAD Choices:
+@CHOICE
+a)  architect
+b)  site supervisor
+_100
+_300
+@EX Part 4: True/False - Architecture Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Architecture offices employ both registered architects and students. Students commit their time for a small payment because they want experience. Many architects in developing countries earn modest fees compared to engineers in industry. However, they often report higher job satisfaction. Offices invest in staff training and development. Architects can learn new skills while shaping the places people use. Career advancement is possible for dedicated staff who perform well.
+@NUM 100
+1. Some people in architecture offices are students.
+2. Architects' fees are higher than industry salaries.
+3. Offices provide training opportunities.
+_300
+@EX Part 4: Discussion - Architecture Career Values
+@INSTR Discuss: If architectural fees are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose architecture even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in an architecture office. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Architecture Career Path
+@INSTR Prepare and present a 3-part talk about career paths in architecture.
+_80
+@NUM 100
+1. How do people start and advance in architecture careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in architectural work?
+_300
+@EX Part 5: Discussion - Overcoming Office Challenges
+@INSTR Discuss with a partner: How do architects manage with limited materials and short programmes?
+_80
+@BULLET
+How do experienced architects overcome material and time limitations?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Architect
+@INSTR Role play: A junior architect asks an experienced architect for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About an Internship
+@INSTR Write an email to an architecture office expressing interest in an internship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work for our office?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of an Architect
+@INSTR Write a paragraph describing a typical day of an architect. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Architectural Work
+@INSTR Write a short reflection about what you could learn from working in an architecture office. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Architecture Sector in Syria and the Region
+@INSTR Read about architecture in Syria and the Middle East region, then answer questions.
+_80
+@PANEL
+The architecture sector in Syria has grown significantly in response to war damage and the need to rebuild whole districts. Offices like the large Damascus practices, international conservation teams, and small local studios employ thousands of staff. These staff serve both urban families and returning communities. Working in Syria's offices requires courage because staff visit sites that are still unsafe.
+In neighboring countries like Lebanon and Jordan, offices employ architects who design housing for refugees and host communities. The work is challenging but essential. These organizations demonstrate how dedicated professionals keep working in hard times. Syrian architects are internationally recognized for their skill and resilience.
+Many Syrian professionals who studied abroad chose to return to work in offices at home. They sacrifice higher fees in wealthy countries to rebuild their own cities. This shows deep commitment to nation-building and helping people return to their districts. Their choices inspire others to consider architecture careers.
+@NUM 100
+1. Why has the architecture sector grown in Syria?
+2. What characteristic is emphasized about Syrian architects?
+_300
+@EX Part 7: Discussion - Values in Architectural Work
+@INSTR Discuss what values are important in architectural work, especially in reconstruction contexts like Syria.
+_80
+@BULLET
+What values should guide architects, especially those working on damaged buildings?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Architecture Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Design Architect
+2. | Project Manager
+3. | Site Supervisor
+4. | Quantity Surveyor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Works with clients to design the building
+b) | Plans and manages the office's projects
+c) | Checks quality and progress on site
+d) | Maintains cost records and valuations
+_300
+@EX Part 8: Integrated Assessment - Architecture Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin architecture careers?
+@OPT
+   ○ A) As principals
+   ○ B) As interns
+   ○ C) As project managers
+@MCQ
+2. What is the most valuable quality for architects according to Unit 2?
+@OPT
+   ○ A) High fee expectations
+   ○ B) Care for the people who will use the building
+   ○ C) Previous management experience only
+@MCQ
+3. How has the architecture sector in Syria changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has grown in response to war damage and rebuilding needs
+   ○ C) It has decreased permanently
+@MCQ
+4. What do architects value according to the culture discussion?
+@OPT
+   ○ A) Making maximum profit
+   ○ B) Safety, honesty, and responsibility to users
+   ○ C) Avoiding difficult situations
+_300

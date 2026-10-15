@@ -1,0 +1,462 @@
+@UNITHEAD Unit 5: Design Project Basics
+@PART Warm Up | Warm Up
+@EX Warm-Up: Design Planning Discussion
+@INSTR Discuss what it takes to plan a successful building project.
+_80
+@BULLET
+What are the first steps when planning a building for a community?
+_300
+@EX Warm-Up: Project Stages Matching
+@INSTR Match project stages with their main activities and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Brief and Site Appraisal
+2. | Concept and Detailed Design
+3. | Construction
+4. | Inspection and Handover
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Checking whether the finished building works for the people who use it
+b) | Creating clear drawings and detailed specifications for the builder to follow
+c) | Asking the client what is needed and studying the land before any design
+d) | Building the work, employing trades, and delivering materials to the site
+_300
+@EX Warm-Up: Project Management Multiple Choice
+@INSTR Read and choose the best answer about managing a design project.
+_80
+@MCQ
+1. Why is client participation important in design?
+@OPT
+   ○ A) It wastes time and delays the drawings
+   ○ B) Clients know how they will use the building and support what they help shape
+   ○ C) Architects know what clients need without asking
+_300
+@EX Warm-Up: Discussion - Challenges in Project Management
+@INSTR Discuss common challenges that building projects face during construction.
+_80
+@BULLET
+What challenges do building projects face and how can architects overcome them?
+_300
+@EX Warm-Up: Project Phases Classification
+@INSTR Classify activities as belonging to the Design, Construction, or Handover phase.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Design Phase
+2. Construction Phase
+3. Handover Phase
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Meeting the client to discuss requirements and budget  ____________________________
+2. Pouring the foundation and erecting the frame  ____________________________
+3. Visiting the finished building to see how rooms are used  ____________________________
+4. Creating a programme and cost plan for a school  ____________________________
+5. Delivering blockwork and starting the internal walls  ____________________________
+6. Preparing the list of defects to be corrected  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Project Management Terms Matching
+@INSTR Match project management terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Programme
+2. | Budget
+3. | Objectives
+4. | Inspection
+5. | Handover
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Giving the completed building to the client with drawings and certificates
+b) | Specific, measurable things the project is intended to accomplish
+c) | Money and resources available to spend on the building
+d) | Visiting the site to check that the work matches the drawings and specification
+e) | Period of time when the stages will happen from start to completion
+_300
+@EX Part 1: Project Cycle Components Table
+@INSTR Complete the table with project cycle components and their descriptions.
+_80
+@GRID
+Project Phase | Key Activities | Expected Output
+Brief |  | 
+Design |  | 
+Inspection |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Meeting the client, listening to needs, surveying the site
+b)  Clear understanding of requirements, budget and constraints
+c)  Setting objectives, developing plans, preparing cost and programme
+d)  A drawing set with clear plans and a realistic programme
+e)  Regular visits, checking progress, solving problems as they appear
+f)  Site reports showing the work is correct and the stage may be certified
+_100
+_300
+@EX Part 1: Management Terms Fill-in Blanks
+@INSTR Complete sentences using project management vocabulary.
+_80
+@GAP
+1. The people who will actually occupy a finished building are called the ____________________.
+2. ____________________ are everyone with an interest in the project including neighbours, the client, and the authority.
+3. ____________________ means a building continues to serve well long after the architect has left.
+4. A ____________________ survey records site conditions before any work starts.
+_300
+@EX Part 1: Design Planning in Context - Fact Questions
+@INSTR Read about design planning and answer detailed fact questions.
+_80
+@PANEL
+Design Planning and the Project Cycle
+All effective building projects follow a similar cycle. First is the brief, where the architect meets the client to identify real requirements and what the building must do. This phase usually takes weeks or months. Architects learn about the site, the budget, and the constraints that affect project success.
+Second is design, where the architect uses the brief to create the scheme. Design includes setting objectives, developing the plan, estimating cost, and preparing the programme. The design documents become the submission that the authority reviews before granting a permit.
+Third is construction, where the contractor actually carries out the planned work. During construction, the contractor employs and trains trades, purchases materials, and builds the structure. Clients visit the work and sometimes make decisions about finishes.
+Fourth is inspection, where the architect regularly checks that the work is proceeding as drawn. Inspection happens throughout construction. Architects check dimensions, approve samples, and solve problems immediately when they arise.
+Fifth is handover, which happens at the end. The architect confirms whether the building achieved its objectives. They compare what was drawn with what was built, and record defects to be corrected. This information helps offices improve future projects.
+This project cycle repeats continuously, creating ongoing improvement and learning.
+@NUM 100
+1. What is the purpose of the brief phase?
+2. What does inspection check during construction?
+_300
+@EX Part 1: Discussion - Your Experience Planning
+@INSTR Discuss how project planning principles apply to your own experience.
+_80
+@BULLET
+Think of a time you planned something. What steps did you take and what happened?
+_300
+@EX Part 1: Listening - Project Architects Explain Planning
+@AUDIO 🔊 Audio Track 5.11
+@INSTR Listen to project architects describing their planning process and answer questions.
+_80
+@MCQ
+1. Why did the housing architect visit the district?
+@OPT
+   ○ A) To immediately start pouring foundations
+   ○ B) To listen to residents and understand what the district needs
+   ○ C) To impose a predetermined plan type
+@MCQ
+2. What principle guided the school project budget decision?
+@OPT
+   ○ A) Spending the most money possible
+   ○ B) Choosing construction the community could maintain itself
+   ○ C) Doing only what the funder prefers
+_300
+@EX Part 1: Project Cycle Summary - Multiple Choice
+@INSTR Choose the best explanation of design planning concepts.
+_80
+@MCQ
+1. What is the relationship between the brief and the design?
+@OPT
+   ○ A) The brief is unnecessary if you have a good design
+   ○ B) Brief information shapes a design that actually addresses real requirements
+   ○ C) Design always comes before the brief
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Sequencing Words for Project Steps
+@INSTR Complete sentences using words that show the order of project steps.
+_80
+@NUM
+1. ____________________ (first) the architect meets the client.
+2. ____________________ (then) they develop the drawings and the cost plan.
+3. ____________________ (finally) they inspect the work and hand the building over.
+_300
+@EX Part 2: Conditional Sentences About Projects
+@INSTR Complete the table with conditional sentences about design planning.
+_80
+@GRID
+If Statement (Condition) | Then Result
+If clients do not take part in the design | 
+If architects inspect the work regularly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The building will not suit the way they actually live or work
+b)  They can correct errors quickly before they are built into the structure
+_100
+_300
+@EX Part 2: Passive Voice for Project Activities
+@INSTR Complete sentences using passive voice to describe project activities.
+_80
+@GAP
+1. A site survey ____________________ on every plot before design begins.
+2. Drawings ____________________ to the authority before a permit is granted.
+3. Finished work ____________________ through inspection and testing.
+4. Every stage ____________________ so the client can track progress.
+_300
+@EX Part 2: Expressing Purpose with "to" and "in order to"
+@INSTR Complete sentences explaining the purpose of project activities.
+_80
+@NUM
+1. Architects visit the site ____________________ (understand) its real conditions.
+2. Careful detailing is necessary ____________________ (ensure) the building keeps water out.
+3. Handover reviews help offices ____________________ (improve) future projects based on learning.
+_300
+@EX Part 2: Listening - Grammar of Project Discussion
+@AUDIO 🔊 Audio Track 5.17
+@INSTR Listen to a project architect explaining planning steps using various grammatical structures.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: When we plan a project, several grammatical structures help explain our work clearly. We say "The client must approve the scheme before we detail it" using modals. We explain "If we survey carefully, the drawings will be right" using conditionals. We describe "The site is visited by our team" using passive voice to show the action.
+~Coordinator: We say "We visit the site to understand its levels" showing purpose. We explain order with words like "First we brief, then we design, finally we inspect." Using varied grammatical structures helps us communicate project concepts clearly to international consultants, local clients, and our own staff team.
+_200
+@QUESTION
+1. What purpose do modals serve in project discussion?
+2. Why does the architect use multiple grammatical structures?
+_300
+@EX Part 2: Grammar Review - Project Planning Expressions
+@INSTR Discuss how different grammar patterns help explain design planning.
+_80
+@BULLET
+Explain how to use conditionals, passive voice, and sequencing to describe project phases.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Project Types Discussion
+@INSTR Before listening, discuss different types of projects architects carry out in Syria.
+_80
+@BULLET
+What types of projects do architects in Syria carry out and what does each require?
+_300
+@EX Part 3: Listening - Project Architects Explain Challenges
+@AUDIO 🔊 Audio Track 5.20
+@INSTR Listen to project architects discussing challenges they faced and how they addressed them.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager1: In my school project, I faced a challenge when trained site staff left because of security concerns. We had invested in their training and then suddenly they were gone. The solution was to improve compensation and safety for all staff. We also hired extra technicians and cross-trained them so leaving staff would not stop the work. The lesson was that project planning must account for retention and safety.
+~Manager2: My housing project faced material delays. We had promised the residents the block would be finished in three months but the cement arrived two months late. Residents became frustrated even though the delay was not our fault. The solution was transparent communication explaining the real reasons for delay. We also adjusted the programme and involved resident representatives in planning changes. Now I always build extra time into project programmes for unexpected delays.
+_200
+@QUESTION
+1. How did the school architect solve the staff retention problem?
+2. What did the housing architect learn about planning and programmes?
+_300
+@EX Part 3: True/False - Project Management Practices
+@INSTR Read statements about project practices and mark True, False, or Not Given.
+_80
+@PANEL
+Effective project management requires clear planning from the beginning. Taking a brief and surveying the site is a waste of time compared to starting the drawings immediately. Good architects build flexibility into programmes to accommodate unexpected problems. Client participation in design increases project success rates significantly. Inspection is optional if the contractor is competent and motivated. Budget constraints require architects to make difficult choices about what is most important. Durability means a building keeps serving its users long after the architect has left. Regular communication with clients and contractors prevents misunderstandings and builds trust.
+@NUM 100
+1. Taking a brief and surveying the site is important in design planning.
+2. Inspection is necessary only at the end of construction.
+3. Flexible programmes help accommodate unexpected challenges.
+_300
+@EX Part 3: Listening - Different Perspectives on Design Planning
+@AUDIO 🔊 Audio Track 5.22
+@INSTR Listen to different people describing design planning from their perspectives.
+_80
+@MCQ
+1. Why did the resident feel respected in the design process?
+@OPT
+   ○ A) The architects made all decisions quickly
+   ○ B) Architects listened to residents' needs and involved them in shaping the plan
+   ○ C) The office installed a standard block without asking
+@MCQ
+2. What does the project architect say takes longer than clients expect?
+@OPT
+   ○ A) Spending the construction budget
+   ○ B) Taking the brief and holding meetings before drawing anything
+   ○ C) Inspection during construction
+_300
+@EX Part 3: Listening - Project Lessons Learned
+@AUDIO 🔊 Audio Track 5.23
+@INSTR Listen to experienced project architects sharing lessons they learned.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager1: One critical lesson I learned is that clear communication prevents 90 percent of project problems. When clients, contractors, and staff all understand the same drawings and programme, everyone works together. When communication is unclear, misunderstandings grow into claims and disputes. Now I spend significant time ensuring all parties understand exactly what will be built, when, and at what cost. This prevents assumptions and surprises.
+^Manager2: Another lesson is build relationships before problems appear. If you have not spent time getting to know the contractor and the client before something goes wrong, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis on site.
+_200
+@QUESTION
+1. What percentage of problems does the first architect say clear communication prevents?
+2. When should relationships with the contractor and client be built according to the second architect?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Project Success Discussion
+@INSTR Discuss what makes some building projects succeed while others struggle.
+_80
+@BULLET
+What factors help building projects succeed or cause them to struggle?
+_300
+@EX Part 4: Reading - The Project Cycle in Detail
+@INSTR Read detailed information about managing building projects in Syria and answer questions.
+_80
+@PANEL
+Design Planning in Syria: Adapting to Complex Contexts
+Syrian building projects face unique challenges in design and management. Damaged infrastructure, interrupted power, and restricted access to some districts create real obstacles. Despite these difficulties, Syrian and international staff successfully deliver housing, school, clinic, and heritage projects.
+Successful projects in Syria begin with a careful appraisal of current conditions. Appraisal teams meet with owners, affected residents, and local authorities. They identify what buildings most need and what local materials exist. They learn about the construction traditions that will affect project success. Good appraisal in Syria includes understanding tenure disputes and ensuring the impartiality that allows serving every household.
+Planning in Syria requires flexibility. Project designers cannot assume that programmes will remain constant when materials cross checkpoints. They cannot assume that staff will remain stable when families relocate. Successful Syrian projects build flexibility into budgets and programmes from the start. They specify alternative materials expecting some to be unavailable. They plan construction in stages that allow quick adjustment if conditions change.
+Construction in Syria requires careful logistics. Projects protect staff and residents by carefully sequencing the work. They consider timing—not demolishing while families still occupy the floor above. They consider location—choosing accessible plots whenever possible. They ensure residents understand access and safety arrangements.
+Inspection and handover in Syria is critical. Architects need rapid information about whether the work is proceeding, whether conditions are changing, and whether residents are affected positively. This information helps adjust projects before small problems become structural failures. Regular resident feedback ensures projects remain responsive to changing needs.
+Durable projects in Syria build local capacity. International funding will eventually end. Successful projects train Syrian technicians, use materials that can be sourced locally, and detail buildings that owners can maintain. This ensures that benefits persist after international involvement ends.
+@NUM 100
+1. What are the unique challenges for design planning in Syria?
+2. Why do successful Syrian projects build flexibility into programmes and budgets?
+_300
+@EX Part 4: Reading - User-Centred Design
+@INSTR Read about ensuring buildings truly meet their users' needs.
+_80
+@PASSAGE
+User-Centred Design
+The most effective building projects place the users at the centre of every decision. This means understanding not just what rooms are needed but how people want to live in them, what they value culturally, and what arrangements they believe will work.
+User-centred design begins with genuine listening. This means not just asking questions but listening without judgment to answers that may surprise the designer. A family might need more space but prefer a courtyard instead of an extra room because of light and air. A clinic might need cultural adaptation where separate waiting areas serve women and men, respecting local values.
+This approach requires humility from architects. Designers must accept that users are experts in their own lives. Their understanding of what will and will not work is often more accurate than a designer's prediction. Successful architects listen more than they talk, ask more than they advise.
+User-centred design also means including people in decisions about construction. How will the stair be arranged? Which flats will be finished first? How will residents be consulted during the work? When people have a voice in these decisions, they feel ownership and commit to the building's success.
+This approach takes more time and requires more patience than top-down design. However, the results justify the investment. Users look after buildings they helped shape. They maintain the fabric long after the architect has gone. They learn about their own building and develop confidence that extends beyond the project.
+@MCQ
+1. What does user-centred design require from architects?
+@OPT
+   ○ A) Making decisions quickly without listening
+   ○ B) Humility to accept users' expertise and genuine listening without judgment
+   ○ C) Imposing international standard plans without modification
+@MCQ
+2. Why might a family prefer a courtyard over an extra room?
+@OPT
+   ○ A) Families do not value space
+   ○ B) Light, air or cultural preferences a designer might not predict
+   ○ C) Only for temporary situations
+_300
+@EX Part 4: Application - Planning for Different Contexts
+@INSTR Read scenarios and fill in planning considerations for each context.
+_80
+@GRID
+Project Type | Key Planning Consideration
+A school in a remote rural district | 
+Emergency housing on a damaged urban site | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Safety of pupils and staff, construction simple enough to maintain locally
+b)  Rapid structural appraisal, addressing rubble clearance and sanitation
+_100
+_300
+@EX Part 4: True/False - Project Principles
+@INSTR Read statements about project principles and mark True, False, or Not Given.
+_80
+@PANEL
+User-centred design requires more time and resources than top-down planning. Users should have a voice in construction decisions. Architects know better than users what users need. Building trust before problems appear is valuable. Successful projects in difficult areas require flexibility and adaptability. Taking a brief and listening are less important than quick drawings. User participation increases ownership and long-term care of the building. Inspection should happen only at the end of construction.
+@NUM 100
+1. Users should take part in construction decisions.
+2. Users always know their needs better than architects.
+3. Taking a brief and listening are important in design.
+_300
+@EX Part 4: Discussion - Creating Durable Buildings
+@INSTR Discuss how to make buildings that go on serving their users.
+_80
+@BULLET
+What makes a building truly durable so it keeps serving people after the project ends?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - The Design Planning Process
+@INSTR Prepare a presentation explaining the complete design planning process.
+_80
+@NUM 100
+1. Present the five main phases of a building project and what happens in each.
+_300
+@EX Part 5: RolePlay - Project Team Meeting
+@INSTR Roleplay a project team meeting discussing planning challenges and solutions.
+_80
+_300
+@EX Part 5: Discussion - Your Own Project Ideas
+@INSTR Discuss a local problem and how you would plan a building to address it.
+_80
+@BULLET
+Describe a local need you know about and outline how you would plan a building to meet it.
+_300
+@EX Part 5: RolePlay - Explaining a Scheme to Residents
+@INSTR Roleplay explaining a design proposal to residents and responding to their questions.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Project Brief Outline
+@INSTR Write a basic project brief outline for a building you want to design.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Client Feedback
+@INSTR Write about how client feedback changed your design ideas.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Solving a Construction Challenge
+@INSTR Write about a challenge you would face during construction and how to overcome it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for the Built Environment
+@INSTR Write about the lasting change you hope a building project would create.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Cultural Respect in Syrian Projects
+@INSTR Read about cultural considerations in Syrian building projects and answer questions.
+_80
+@PANEL
+Cultural Adaptation in Syrian Building Projects
+Successful building projects in Syria adapt to local cultural values and practices. Syrian culture values family unity, respect for elders, religious faith, honour, and community solidarity. Ignoring these values makes buildings unusable and disrespectful.
+Housing projects must respect privacy by arranging entrances and windows so that family rooms are not overlooked. School projects must allow flexibility for religious holidays and prayer times. Water and sanitation must consider how practices around washing affect the layout. Workshop projects must work with family and cooperative structures rather than individual units.
+Projects must employ local staff who understand the construction culture and speak the local dialect. International staff cannot understand the subtleties that local builders know instinctively. Local staff build neighbourhood trust more easily because they are part of the community.
+Projects must involve respected community figures including religious leaders. Even if designers disagree with some practices, involving leaders prevents accusations of cultural disrespect or of attempting to change how people live. Respectful engagement with leaders usually finds ways to meet requirements within cultural parameters.
+Successful projects explain why changes matter in language the community understands. Seismic strengthening succeeds when explained through the shared value of protecting the family. Shaded courtyards succeed when connected to traditional ways of keeping cool. School designs succeed when connected to values of learning and knowledge.
+This cultural adaptation is not compromising professional values. Principles of safety and impartiality can be accomplished within any culture. Good projects find ways to respect culture while meeting requirements.
+@NUM 100
+1. Why do successful Syrian projects employ local staff?
+2. How can projects explain seismic strengthening to communities?
+_300
+@EX Part 7: Discussion - Learning from Syrian Builders
+@INSTR Discuss what international architects can learn from Syrian approaches to building.
+_80
+@BULLET
+What can international architects learn from how Syrian builders have traditionally worked with climate and stone?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 5 Summary - Project Terms and Concepts
+@INSTR Review Unit 5 by matching terms with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Brief
+2. | Inspection
+3. | Handover
+4. | Users
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The people who will occupy and depend on the finished building every day
+b) | Confirming the building met its objectives and recording defects to correct
+c) | Understanding the client's requirements and the site before beginning design
+d) | Regular checking that the work is correct and solving problems immediately
+_300
+@EX Part 8: Integrated Assessment - Unit 5 Mastery
+@INSTR Demonstrate understanding of Unit 5. Choose the best answer.
+_80
+@MCQ
+1. Why is the brief the first step in a building project?
+@OPT
+   ○ A) To waste time before drawing
+   ○ B) To understand real requirements and prevent wasting money on the wrong building
+   ○ C) Clients do not need a brief
+@MCQ
+2. What does flexibility in a project programme accomplish?
+@OPT
+   ○ A) It allows delay without planning
+   ○ B) It allows adapting when unexpected problems like material shortages occur
+   ○ C) Flexible programmes are not needed
+@MCQ
+3. Why is inspection important during construction?
+@OPT
+   ○ A) It is optional if the contractor is competent
+   ○ B) It catches errors quickly, before they are built permanently into the structure
+   ○ C) Inspection happens only at the end
+@MCQ
+4. What makes a building truly durable?
+@OPT
+   ○ A) An international consultant stays involved indefinitely
+   ○ B) Owners can maintain it with materials and skills available locally
+   ○ C) Only imported components matter
+_300

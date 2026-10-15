@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Worker
+@UNITHEAD Unit 3: Standards, Codes and Professional Bodies
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Are Building Codes?
+@INSTR Discuss your understanding of building regulations.
+_80
+@BULLET
+What do you know about building codes and the organizations that write them?
+_300
+@EX Warm-Up: Matching - Building Hazards
+@INSTR Match building hazards with appropriate code requirements.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Earthquake
+2. | Fire
+3. | Flood or heavy rain
+4. | Structural overload
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Requires drainage, waterproofing and raised floor levels above the water line
+b) | Requires protected stairs, alarms and a maximum travel distance to an exit
+c) | Requires ties, shear walls and reinforcement details at every joint
+d) | Requires load calculations and a factor of safety on every beam and column
+_300
+@EX Warm-Up: Text - Code Principles
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of building codes?
+@OPT
+   ○ A) Making buildings as cheap as possible
+   ○ B) Protecting life safety regardless of who owns the building
+   ○ C) Only applying to expensive districts
+_300
+@EX Warm-Up: Discussion - Why Standards Matter
+@INSTR Discuss the importance and challenges of building standards.
+_80
+@BULLET
+Why are building standards important in our cities today?
+_300
+@EX Warm-Up: Vocabulary Classification - Regulatory Terms
+@INSTR Classify regulatory and non-regulatory concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Regulatory concept
+2. Non-regulatory concept
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Minimum ceiling height required in a habitable room  ____________________________
+2. Fire resistance period of a structural wall  ____________________________
+3. Fashion design and clothing trends  ____________________________
+4. Permitted building height and setback from the street  ____________________________
+5. Sports marketing and entertainment business  ____________________________
+6. Accessible routes for people who use wheelchairs  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Building Hazards
+@INSTR Match hazard types with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Earthquake
+2. | Flooding
+3. | Fire
+4. | Settlement
+5. | Corrosion
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Sudden violent shaking of the ground that cracks walls and can collapse floors
+b) | Extreme heavy rainfall causing overflowing drains and water entering basements
+c) | Rapid spread of flame and smoke through a building, blocking escape routes
+d) | Gradual sinking of a foundation into soft soil, tilting walls and cracking finishes
+e) | Rusting of steel reinforcement inside concrete, which swells and breaks the cover
+_300
+@EX Part 1: Regulatory Words
+@INSTR Complete the table with vocabulary related to building regulation.
+_80
+@GRID
+Word | Meaning | Example in Context
+Permit |  | 
+Setback |  | 
+Compliance |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Official permission to build, issued before work may start
+b)  We could not pour the foundation before the permit was issued
+c)  The required distance between a building and the plot boundary
+d)  The code demanded a three-metre setback from the street
+e)  Meeting all the requirements of the code and the approved drawings
+f)  The inspector confirmed compliance before certifying the floor
+_100
+_300
+@EX Part 1: Fill Blanks - Regulatory Vocabulary
+@INSTR Complete sentences using regulatory vocabulary words.
+_80
+@GAP
+1. Before any work starts, the owner must obtain a building ____________________ from the municipality.
+2. The maximum area of a plot that may be built on is called the ____________________ ratio.
+3. Organizations that write and publish technical requirements are called ____________________ bodies.
+4. The ____________________ load is the weight of the people and furniture a floor must carry.
+_300
+@EX Part 1: Vocabulary in Context - Approval Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+After a design is finished, the office submits it for approval. The first phase involves a completeness check to confirm every required drawing is present. Reviewers conduct a code review by comparing the drawings against the regulations and measuring setbacks and heights. Required amendments are then issued. Structural reviewers verify that the calculations support the proposed frame. Coordination between departments prevents contradictory conditions and ensures the permit covers the whole scheme.
+@NUM 100
+1. What does 'code review' mean in the approval process?
+2. Why is 'coordination' important among approval departments?
+_300
+@EX Part 1: Discussion - Regulatory Terms in Real Situations
+@INSTR Discuss how regulatory vocabulary applies to real buildings.
+_80
+@BULLET
+Think of a building you know. What regulatory words apply to that situation?
+_300
+@EX Part 1: Listening - Regulatory Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to architects discussing an approval and answer questions.
+_80
+@MCQ
+1. What did the architects do immediately after the earthquake?
+@OPT
+   ○ A) Waited for instructions from the owner
+   ○ B) Mobilized assessment teams and started surveying the buildings
+   ○ C) Evacuated to another city
+@MCQ
+2. Which buildings were identified as especially at risk?
+@OPT
+   ○ A) Only new buildings
+   ○ B) Older blocks without seismic reinforcement
+   ○ C) Government offices only
+_300
+@EX Part 1: Summary - Key Regulatory Concepts
+@INSTR Choose the best explanation for regulatory concepts.
+_80
+@MCQ
+1. What is the main goal of a building code?
+@OPT
+   ○ A) Make profits for standards bodies
+   ○ B) Protect the life, health and safety of the people who use buildings
+   ○ C) Increase the cost of construction
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Code Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't provide a second staircase), the building will not be approved.
+2. Many buildings ____________________ (would have collapsed) if the seismic code had not been applied.
+3. ____________________ (If the municipality enforces) the setback rules, streets stay open to light and air.
+_300
+@EX Part 2: Passive Voice - Regulatory Actions
+@INSTR Rewrite sentences using passive voice to describe regulatory actions.
+_80
+@GRID
+Active Voice | Passive Voice (Complete the blank)
+The municipality issues building permits. | 
+Reviewers checked the structural calculations. | 
+Inspectors certify completed floors. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Building permits are issued by the municipality.
+b)  The structural calculations were checked by reviewers.
+c)  Completed floors are certified by inspectors.
+_100
+_300
+@EX Part 2: Reported Speech - Reviewer Comments
+@INSTR Convert direct speech to reported speech about code review.
+_80
+@GAP
+1. The reviewer ____________________ the stair width was insufficient.
+2. The supervisor ____________________ we could increase the window area.
+3. The coordinator ____________________ resubmit the revised drawings.
+4. The team leader ____________________ the setback was measured incorrectly.
+_300
+@EX Part 2: Modal Verbs - Regulatory Necessity
+@INSTR Complete sentences with appropriate modal verbs about code compliance.
+_80
+@NUM
+1. Architecture offices ____________________ (must submit) complete drawings for approval.
+2. Structural calculations ____________________ (should be checked) by a registered engineer.
+3. Architects ____________________ (may face) penalties if work starts without a permit.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about code compliance and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When a submission is rejected, we must respond immediately. Our team should be prepared to revise at any time. If we don't resubmit quickly, the project may be delayed for months.
+^Worker: I understand. We have been trained to read the code carefully. We are told to check the fire requirements first. Should we also coordinate with the structural engineer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can clear every comment in one revision.
+_200
+@QUESTION
+1. What must the office do when a submission is rejected?
+2. Why should architects coordinate with the structural engineer?
+_300
+@EX Part 2: Grammar Summary - Regulatory Communication
+@INSTR Discuss how to communicate effectively about code requirements using appropriate grammar.
+_80
+@BULLET
+How should architects explain code requirements to clients and contractors?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Damage Assessment Awareness
+@INSTR Before listening, discuss how architects assess a damaged building.
+_80
+@BULLET
+What do you think is the first step when a building has been damaged?
+_300
+@EX Part 3: Listening - Building Assessment Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to architects describing the assessment process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^AssessmentTeam: When we arrive at a damaged building, we immediately start gathering information. We interview residents about what they saw and heard during the damage. We observe the extent of cracking in walls, columns and floors. We photograph and measure every opening and deflection. We evaluate the roof and the drainage to prevent further water damage. We identify which parts are unsafe to enter. This assessment typically takes one or two days but guides every repair decision that follows.
+~Coordinator: Based on the assessment, we prioritize the work. Immediate priorities include propping unstable elements and making the building weathertight. Second priority is repairing the structure itself. Then we focus on services, finishes, and making rooms usable again. Long-term upgrading comes after the building is safe. The assessment is shared with the municipality and the owner to avoid disagreement and ensure the whole building is covered.
+_200
+@QUESTION
+1. What information do assessment teams collect at a damaged building?
+2. What are the priorities for repair based on the assessment?
+_300
+@EX Part 3: True/False - Regulatory Practice
+@INSTR Listen to a short passage about regulatory work and mark statements True, False, or Not Given.
+_80
+@PANEL
+Architects often work in difficult and unpredictable regulatory conditions. They face delays when departments disagree. They work with limited information about existing structures and under extreme time pressure. Despite these challenges, they remain committed to getting buildings approved and built safely. Offices coordinate their submissions to provide complete documentation. Some architects have reported feeling frustrated by repeated revisions. However, they also report deep satisfaction when a difficult permit is finally granted and construction begins. Professional bodies protect architects and set standards for practice.
+@NUM 100
+1. Architects sometimes face delays when departments disagree.
+2. Offices always have complete information about existing structures.
+3. Architects report satisfaction when a difficult permit is granted.
+_300
+@EX Part 3: Listening - Approval Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to architects discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary technical challenge mentioned?
+@OPT
+   ○ A) The drawings are too detailed
+   ○ B) Lack of records and late discovery of existing conditions
+   ○ C) Too many staff members
+@MCQ
+2. Why is fire separation urgent in a mixed-use building?
+@OPT
+   ○ A) People prefer thick walls
+   ○ B) To stop flame and smoke spreading between shops and flats
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Regulatory Work
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to an architect's personal reflection on regulatory work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Worker: I came to this work because I wanted buildings to be safe. The first year was overwhelming—I read codes I had never imagined existed. I learned that regulatory work requires both technical knowledge and patience with people. I saw families move into blocks I had helped approve and schools reopen after repair. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the architect's initial reaction to regulatory work?
+2. What qualities does the architect believe are important for this work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Regulatory Contexts
+@INSTR Before reading, discuss building regulation in different countries.
+_80
+@BULLET
+What building codes or standards do you know about? Where do they apply?
+_300
+@EX Part 4: Reading - Regulatory Decision-Making
+@INSTR Read the text and answer questions about code choices.
+_80
+@PANEL
+Approval authorities face difficult decisions when a building does not fully comply. In any city, existing buildings rarely match current codes. Authorities must prioritize requirements based on risk to life and the number of people affected. Structural and fire requirements receive priority over comfort standards. Buildings used by many people, such as schools and clinics, receive the strictest review. Districts with the highest hazard are examined first. Cost is considered but never overrides life safety. Authorities maintain transparency by explaining their decisions to owners and architects. This transparency builds trust and understanding.
+@NUM 100
+1. How do authorities decide which requirements matter most?
+2. Why do authorities explain their decisions to owners and architects?
+_300
+@EX Part 4: Text Comprehension - Professional Ethics
+@INSTR Read about professional ethics and choose the best answer.
+_80
+@PASSAGE
+Architectural practice is guided by core principles: safety, impartiality, competence, and independence. Safety means protecting the health and lives of the people who will use a building. Impartiality requires treating every user equally regardless of wealth, tenure, or ability. Competence means working only within what you actually know and calling in specialists for the rest. Independence means that architects give technical advice based on evidence, not on commercial pressure. These principles guide every professional decision and ensure ethical practice.
+@MCQ
+1. What does professional 'independence' mean?
+@OPT
+   ○ A) Ignoring all clients
+   ○ B) Giving advice based on evidence, not commercial pressure
+   ○ C) Working only for public authorities
+@MCQ
+2. Which principle requires calling in a specialist?
+@OPT
+   ○ A) Safety
+   ○ B) Competence
+   ○ C) Impartiality
+_300
+@EX Part 4: Application - Regulatory Scenarios
+@INSTR Read scenarios and fill in the appropriate professional principles.
+_80
+@GRID
+Scenario | Key Professional Principle
+An office designs accessible entrances for tenants as well as owners | 
+An architect refuses to certify a floor the engineer has not checked | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Impartiality and fairness
+b)  Safety and competence
+_100
+_300
+@EX Part 4: True/False/Not Given - Standards Bodies
+@INSTR Read statements about standards bodies and mark them True, False, or Not Given.
+_80
+@PANEL
+The International Organization for Standardization and the European standards committees publish technical requirements used worldwide. They cover structures, fire safety, materials and energy performance. These bodies employ thousands of technical staff and volunteer committee members. Some standards have been adopted into national law in dozens of countries. Standards bodies are funded by member subscriptions, document sales, and government contributions. Many national bodies struggle to keep their codes up to date despite clear need. Architects often report that reading standards carefully saves far more time than it costs.
+@NUM 100
+1. International standards bodies cover only structural design.
+2. Standards bodies receive funding from multiple sources.
+3. All standards are available free of charge.
+_300
+@EX Part 4: Discussion - Regulatory Dilemmas
+@INSTR Discuss difficult choices architects face when codes conflict.
+_80
+@BULLET
+What are some difficult decisions architects must make when the code and the client disagree?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Standards
+@INSTR Prepare a presentation about different types of building standards.
+_80
+@NUM 100
+1. Describe three types of standards: structural codes, fire regulations, and accessibility requirements.
+_300
+@EX Part 5: RolePlay - Reviewer Meeting
+@INSTR Roleplay a meeting with a code reviewer about comments on a submission.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Registered Architect
+@INSTR Discuss qualifications and preparation for professional registration.
+_80
+@BULLET
+What qualifications and training would you need to become a registered architect?
+_300
+@EX Part 5: RolePlay - Requesting an Inspection
+@INSTR Roleplay a contractor requesting a stage inspection from the architect.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Professional Values
+@INSTR Write about why professional values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a building failure and the code changes that followed it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Letter Requesting a Code Interpretation
+@INSTR Write a letter to the municipality requesting an interpretation of a specific requirement.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Professional Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in architectural practice.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Codes and Approvals in Peruvian Contexts
+@INSTR Read about building regulation in Peru and answer questions.
+_80
+@PANEL
+Peru has one of the oldest continuous building traditions in the Americas, and also one of the most demanding regulatory situations. Lima and Cusco contain protected historic centres where every intervention needs heritage approval as well as a building permit. The Peruvian Arab Standards and Metrology Organization publishes national technical standards, and the Order of Peruvian Engineers and Architects registers the professionals who may stamp drawings. Approval is complicated by lost records, informal land title, and buildings extended without permission. Municipal engineering departments review submissions alongside heritage authorities. Earthquakes and self-built construction affect buildings across the country. Architects demonstrate extraordinary patience and persistence. Their work includes seismic assessment, structural strengthening, and heritage conservation. International recognition of Peruvian conservation architects acknowledges their skill and dedication. Their resilience and craft knowledge inspire support from the global profession.
+@NUM 100
+1. Why is approval in the historic quarters particularly challenging?
+2. What is the scale of Peru's building damage problem?
+_300
+@EX Part 7: Discussion - Global Responsibility for Heritage
+@INSTR Discuss the global community's responsibility for damaged heritage like Peru's.
+_80
+@BULLET
+What responsibility does the global community have for damaged heritage in different countries?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Regulatory Concepts
+@INSTR Review Unit 3 by matching regulatory concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Permit
+2. | Code review
+3. | Compliance
+4. | Setback
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Official permission that must be obtained before building work may start
+b) | Checking the drawings against the regulations before approval is granted
+c) | Meeting every requirement of the code and the approved drawings
+d) | The required distance between a building and the boundary of its plot
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step in assessing a damaged building?
+@OPT
+   ○ A) Request demolition approval
+   ○ B) Conduct a survey of the damage and what remains
+   ○ C) Begin ordering materials
+@MCQ
+2. Which principle allows architects to be trusted when they certify work?
+@OPT
+   ○ A) Profit maximization
+   ○ B) Independence and competence
+   ○ C) Alignment with the contractor
+@MCQ
+3. What makes approval in Peru's historic quarters particularly difficult?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Heritage approval plus informal title and unpermitted extensions
+   ○ C) Authorities grant unlimited exemptions
+@MCQ
+4. What qualities do successful architects demonstrate in regulatory work?
+@OPT
+   ○ A) Only drawing skills matter
+   ○ B) Both technical knowledge and patience with people
+   ○ C) No special qualifications needed
+_300

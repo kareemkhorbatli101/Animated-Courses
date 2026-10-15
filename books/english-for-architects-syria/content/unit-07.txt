@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Designing for Health and Education
+@PART Warm Up | Warm Up
+@EX Warm-Up: Clinic Design Challenges Discussion
+@INSTR Discuss why many districts lack usable health buildings.
+_80
+@BULLET
+What barriers prevent families in poor districts from reaching a usable clinic?
+_300
+@EX Warm-Up: Healthcare Spaces Matching
+@INSTR Match healthcare space types with their appropriate uses and design focus.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Waiting Area
+2. | Examination Room
+3. | Treatment Room
+4. | Maternity Room
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Where a mother is attended during labour and delivery, needing privacy and warmth
+b) | Where procedures are carried out, needing a washable surface and good light
+c) | Where a patient is seen privately, needing a screen, a basin and a desk
+d) | Where families sit before being seen, needing shade, seating and ventilation
+_300
+@EX Warm-Up: School Design Multiple Choice
+@INSTR Choose the best answer about good school design.
+_80
+@MCQ
+1. What is most important for a good classroom in a low-resource district?
+@OPT
+   ○ A) Having a stone building instead of a simple structure
+   ○ B) Daylight, cross ventilation and a quiet room a teacher can work in
+   ○ C) Having expensive imported furniture
+_300
+@EX Warm-Up: Discussion - Combining Health and Learning Buildings
+@INSTR Discuss why placing health and education facilities together is more effective.
+_80
+@BULLET
+How can a school building also provide space for basic health services?
+_300
+@EX Warm-Up: Design Factors Classification
+@INSTR Classify factors as Direct Building Causes, Intermediate (use/access), or Wider Planning issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct Building Cause
+2. Intermediate Factor
+3. Wider Planning Issue
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Damp rising through a solid ground floor  ____________________________
+2. Opening windows at both sides to cross ventilate a ward  ____________________________
+3. No bus route serving the district where the clinic stands  ____________________________
+4. Mould on the inside face of an uninsulated wall  ____________________________
+5. A family shading their own courtyard with a vine  ____________________________
+6. Land ownership rules limiting where a clinic may be built  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Health Building Levels Matching
+@INSTR Match health building levels with the type of space they provide.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Health Post
+2. | District Clinic
+3. | Referral Hospital
+4. | Mobile Unit
+5. | Maternity Unit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A room arranged so a mother can be attended privately during delivery
+b) | A large building with specialist departments and complex servicing
+c) | A vehicle or temporary structure bringing basic consultation to remote villages
+d) | One or two rooms in a village providing basic consultation and health advice
+e) | Several consulting rooms, a treatment room and a pharmacy for a whole district
+_300
+@EX Part 1: Health Facilities in Schools Table
+@INSTR Complete the table with types of health spaces that can be provided in a school building.
+_80
+@GRID
+Health Space in School | Purpose and Design Impact
+A kitchen and a sheltered eating area | 
+Drinking fountains and handwashing troughs | 
+A small health room with a basin and a couch | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Allows meals to be prepared and eaten in shade, improving nutrition and attendance
+b)  Prevents waterborne illness and makes hygiene part of the daily routine
+c)  Allows early checks and quiet treatment, keeping children in school rather than sent home
+_100
+_300
+@EX Part 1: Health and Education Building Terminology Fill-in
+@INSTR Complete sentences using health and education building vocabulary correctly.
+_80
+@GAP
+1. Health and education buildings work together as ____________________ facilities for stronger impact.
+2. A ____________________ approach to a school campus includes classrooms, water and a health room.
+3. ____________________ ventilation moves air through a room from one side to the other.
+4. ____________________ access means every child can enter and use the building regardless of ability.
+_300
+@EX Part 1: Health Building Models - Fact Questions
+@INSTR Read about how buildings help keep people healthy and answer detailed questions.
+_80
+@PANEL
+Building Design and Health Outcomes
+Many illnesses are preventable through building design. Understanding how disease spreads allows architects to design against it. However, design alone is complex. A building must be arranged correctly, be maintained, and be used as the designer intended.
+Design guidance teaches builders how illness spreads and how arrangement prevents it. Knowing that cross ventilation reduces airborne infection is valuable knowledge. But knowledge alone does not produce healthy buildings. A clinic must also have openable windows on two sides. The staff must believe opening them is worth the dust and noise. They must trust the design. Effective guidance addresses arrangement, specification, and how people actually use the room.
+Schools are ideal places to design for health because children form habits early. Placing handwashing troughs where children pass them establishes patterns lasting into adulthood. Providing a private washroom for girls addresses the single most common reason girls leave school. Providing shaded outdoor space breaks the habit of crowding indoors. School design reaches many children efficiently. One good classroom serves hundreds of pupils over its life.
+Health posts bridge the gap between hospitals and villages. A post is a small building that local masons can build and local people can maintain. It can be designed with a consulting room, a store and a waiting shade. It can be extended as needs grow. Posts cost far less than a hospital wing but meet most everyday needs. In Syria, small health posts have become vital for reaching districts far from any functioning hospital.
+Private pharmacies and shops occupy many ground floors. However, without guidance, owners sometimes alter structure or block an escape route. Advice to private owners extends good practice beyond publicly funded buildings. Health posts, advised shopfronts, well-planned schools, and district clinics working together create a stronger network than any single building type.
+Durability requires that communities eventually maintain their own buildings. This means specifying materials local builders can obtain and repair. It means detailing so an owner can replace a tile or clear a gutter. It means building on existing local construction practice rather than replacing it entirely.
+@NUM 100
+1. Why is knowledge about ventilation not enough to produce a healthy building?
+2. What role do small health posts play in providing health space?
+_300
+@EX Part 1: Discussion - Integrated Facility Models
+@INSTR Discuss how combining health and education buildings benefits districts more than separate sites.
+_80
+@BULLET
+How have you seen health and education buildings share a site in your own experience?
+_300
+@EX Part 1: Listening - Designer Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to architects describing their integrated approach to a school and clinic.
+_80
+@MCQ
+1. What building problems did the architect identify that affect school attendance?
+@OPT
+   ○ A) No building problems affect school
+   ○ B) Damp rooms, no drinking water, and no private washroom for girls prevent attendance
+   ○ C) Buildings never affect learning
+@MCQ
+2. Why did the hygiene teaching fail before the building was altered?
+@OPT
+   ○ A) Teaching hygiene is impossible
+   ○ B) Pupils could not practise it without water and a trough inside the school
+   ○ C) Hygiene teaching always works alone
+_300
+@EX Part 1: Building Quality Multiple Choice
+@INSTR Choose answers about what defines quality in health and education buildings.
+_80
+@MCQ
+1. What determines quality in health buildings in resource-limited areas?
+@OPT
+   ○ A) Expensive imported equipment
+   ○ B) Clear planning, daylight, water, ventilation and fabric local builders can maintain
+   ○ C) Large modern facades
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Building and Use
+@INSTR Complete sentences using structures showing connections between design and use.
+_80
+@NUM
+1. Health outcomes ____________________ (depend) buildings that ventilate and drain properly.
+2. School health rooms work best ____________________ (integrated) the main circulation.
+3. Well-lit classrooms ____________________ (contribute) better attendance and learning.
+_300
+@EX Part 2: Cause and Effect in Building Design
+@INSTR Complete the table with cause-and-effect relationships in health and education buildings.
+_80
+@GRID
+Design Cause | Health or Education Effect
+Putting handwashing troughs on the route to the classrooms | 
+Providing a sheltered eating area and a kitchen | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Results in hygiene becoming a daily habit rather than an occasional lesson
+b)  Results in better nutrition, improved concentration, and increased attendance
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of health and education buildings.
+_80
+@GAP
+1. We provide a health room in schools ____________________ identify problems early.
+2. We design a separate washroom for girls ____________________ they stay in school through adolescence.
+3. This courtyard was arranged ____________________ bring daylight into every classroom.
+4. Health and education buildings are placed together ____________________ one shared water supply and access road.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how designs address them.
+_80
+@NUM
+1. ____________________ (Although) girls face barriers to staying in school, a private washroom and a safe route can support their attendance.
+2. A small health post ____________________ (overcomes) the distance between formal hospitals and villages.
+3. Shared campuses ____________________ (addresses) both immediate service needs and long-term running costs.
+_300
+@EX Part 2: Listening - Building Quality Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to architects discussing how to ensure quality in health and education buildings.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Quality in health and education buildings depends on well-trained site staff. We invest heavily in training because the trades are our main resource. Better workmanship leads to better buildings. But workmanship is not enough. We must also have sound detailing, clean water supply, and strong supervision. Quality means consistently good building not just good building sometimes. Users notice quality immediately. They prefer buildings where rooms are light, warm in winter, and easy to clean. Quality creates trust that leads to higher use.
+^Manager: I learned that quality is also about listening to users. What we think is quality might not match what users experience as quality. We conduct regular feedback visits after handover. Users tell us that a door that closes properly matters as much as a striking elevation. A clinic that is hard to clean creates a poor experience even if it is technically sound. Quality requires both competence and care.
+_200
+@QUESTION
+1. What components create quality in health and education buildings?
+2. Why is listening to user feedback important for quality?
+_300
+@EX Part 2: Grammar Review - Design and Outcome
+@INSTR Discuss how different grammatical structures help explain design and outcome relationships.
+_80
+@BULLET
+How do different sentence structures help explain why a building affects health and learning?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Access Barriers to Buildings
+@INSTR Before listening, discuss barriers preventing people from reaching and using buildings.
+_80
+@BULLET
+What barriers prevent families from using health and education buildings?
+_300
+@EX Part 3: Listening - Overcoming Access Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to architects discussing how they overcome barriers to building access.
+_80
+@PLAYNOTE
+@SCRIPT
+~Worker1: We recognized that distance was our biggest barrier. Families could not reach the district clinic easily. So we moved the building closer. We designed small health posts that village masons could build locally. For complex cases, the post refers families on to the clinic. This reduced the distance barrier immediately. Attendance increased dramatically when the building came to people instead of expecting people to travel to it.
+^Worker2: Cost was our barrier. Owners wanted repairs but could not afford full reconstruction. We discovered that staged repair worked better than a single large scheme. Owners were more likely to maintain work they had paid toward. We designed repairs in stages so families could pay over time. We provided free structural propping for the poorest households. We charged full rates on commercial floors, which helped subsidize the flats above. This mixed approach ensured the work continued and that owners valued it.
+_200
+@QUESTION
+1. How did the architects address the distance barrier?
+2. What payment approach did the architects find most effective?
+_300
+@EX Part 3: True/False - Health and Education Buildings
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Quality health buildings require expensive imported equipment above all else. Small health posts can provide basic consultation space with appropriate design. School-based health rooms are more cost-effective than separate village clinics alone. Children in damp, dark classrooms learn well. Separate health and education sites are more efficient than a shared campus. Listening to users about barriers helps design buildings addressing real obstacles. Preventive design is less important than treatment space.
+@NUM 100
+1. Can small health posts provide basic consultation space with good design?
+2. Do children in damp, dark classrooms learn well?
+3. Is preventive design less important than treatment space?
+_300
+@EX Part 3: Listening - Integrating Buildings Successfully
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to project architects discussing how they combined a clinic and a school successfully.
+_80
+@MCQ
+1. How did the architects clarify roles on the shared campus?
+@OPT
+   ○ A) They gave every room the same use
+   ○ B) They defined specific zones for health and school staff while planning shared water and access
+   ○ C) Clear zoning is not necessary in a shared campus
+@MCQ
+2. What did the architects do when conflicts arose about shared spaces?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the layout when needed
+   ○ C) Conflicts on shared campuses cannot be resolved
+_300
+@EX Part 3: Listening - Family Impact from Better Buildings
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as families describe how improved health and school buildings changed their children.
+_80
+@PLAYNOTE
+@SCRIPT
+~Mother: My daughter started school but the classroom was cold and damp and she was often ill, missing class frequently. The architect added a dry floor and a stove flue. After the repair, she had energy and attended school consistently. Coordinating the health room and the classroom caught problems that were blocking her learning. Now she is learning quickly.
+^Father: The school now has a trough and clean water, and our son teaches us what he learned about washing. He checks his younger brothers before meals. What the building makes possible actually reaches our home and changes family practice. Before, the lessons were there but the water was not. Now it all connects. Our family is healthier and the children learn better.
+_200
+@QUESTION
+1. What building problem was blocking the girl's learning?
+2. How did the school's water supply affect the father's family?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Quality Building Indicators
+@INSTR Before reading, discuss how you would judge whether a health or school building is good.
+_80
+@BULLET
+What signs indicate that a health or school building is a good one?
+_300
+@EX Part 4: Reading - Primary Care Building Philosophy
+@INSTR Read about primary care building design and answer detailed questions.
+_80
+@PANEL
+Primary Care Buildings: Foundation for Healthy Districts
+Primary care design is an approach to health buildings emphasizing prevention, local construction, and accessibility. It differs from hospital design that concentrates complex servicing in one large building. Primary care design builds healthy districts where illness is prevented through daylight, clean water, ventilation, drainage, and simple durable fabric.
+Primary care buildings serve as the foundation of a health network. Instead of everyone travelling to a hospital, most needs are met locally in a small post or clinic designed by an architect and built by local masons. Only complex cases go to the hospital. This keeps costs lower and buildings closer. In Syria, where many districts are hours from a functioning hospital, small clinics became vital.
+Prevention is central to the philosophy. Preventing illness through ventilation, water supply, sanitation, and dry construction costs much less than treating illness. A properly drained floor costs less than the illness damp causes. A window that opens costs less than a ward that spreads infection. Primary care design emphasizes these cost-effective measures.
+Primary care buildings require community participation. Architects alone cannot create health. Residents must understand how the building works and use it as intended. Residents must help identify where the building should stand. Residents must take part in maintaining it. This approach views residents as partners not passive recipients.
+Primary care design requires coordination among disciplines. Health cannot improve without a water engineer providing supply and drainage. A clinic cannot work if the access road floods. Good design requires structural engineers, services engineers, surveyors, and the health staff who will run the building, all working together around one plan.
+Primary care design requires strong management and continuous learning. Builders must be trained, supported, and supervised. Offices must revisit buildings to see whether they work. Offices must learn from experience and adjust details. Weak management leads to wasted materials and buildings that fail early. Strong management creates effective, efficient buildings.
+Primary care design creates durable health buildings because it builds local capacity. Communities maintain their own buildings with outside support decreasing over time. A hospital wing depends on expensive outside servicing. A district that can repair its own clinic becomes independent over time.
+@NUM 100
+1. How does primary care design prevent illness instead of only treating it?
+2. What disciplines must coordinate for a clinic to work?
+_300
+@EX Part 4: Reading - School Design Quality Standards
+@INSTR Read about school design quality factors and choose the best answers.
+_80
+@PASSAGE
+Quality School Design Standards and Indicators
+A good school requires multiple components working together. A strong plan alone is insufficient if the classrooms are dark. A modern facade alone is insufficient if the acoustics are poor. Quality requires coordination of many factors: well-proportioned classrooms, daylight and ventilation, durable finishes, accessible routes, safe outdoor space, community involvement, and a layout the staff can supervise.
+Classroom quality is the most important factor in school design. An excellent classroom can teach pupils in a simple building with few resources. A poor classroom cannot teach well even behind an impressive entrance. Investment in classroom proportion, daylight and acoustics creates stronger impact than investment in display facades. In resource-limited contexts, the classroom determines everything.
+The layout must be relevant to how the school actually runs. An abstract plan disconnected from the timetable fails the staff. A layout connecting classrooms to outdoor teaching, to water, and to a staff room helps teachers see the building as an ally. A plan respecting local climate and construction creates stronger buildings.
+Inclusive design means all children can enter and use the building regardless of gender, ability, or background. Schools with a single stepped entrance teach disabled children they are less welcome. Schools with no girls' washroom teach girls to leave. Quality design actively includes all children, providing the ramps, rails and privacy that make this real. Inclusive buildings create more equitable schools.
+Community involvement determines whether a building is looked after. If residents value the school and helped shape it, more repairs get done. If residents see the building as a government object, small faults become ruins. Engaging residents to take pride in the school creates the conditions for a long life.
+Review after occupation should measure whether the building actually works. Drawings are one record but not the only measurement. Practical review of whether rooms are used as intended is equally important. Review should guide the next project, not just close the file. Architects must use what they find to improve the next school.
+Syria's school building challenges stem from war damage and crowding. Classrooms damaged, roofs lost, services cut, double shifts in surviving buildings. Building quality schools requires not just classrooms but attention to repair priorities, safe routes, and community support alongside new construction.
+@MCQ
+1. What factor has the most impact on school design quality?
+@OPT
+   ○ A) Modern facades and display entrances
+   ○ B) Classroom proportion, daylight and acoustics
+   ○ C) Furniture availability alone
+@MCQ
+2. Why is inclusive design important for quality?
+@OPT
+   ○ A) Exclusion improves quality
+   ○ B) Inclusive design ensures all children can use the building and creates fairer schools
+   ○ C) Inclusion and quality are unrelated
+_300
+@EX Part 4: Application - Shared Campus Assessment
+@INSTR Read scenarios and fill in how to assess whether a health and school campus is well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Quality Integration
+Regular joint meetings between health and school staff about the shared site | 
+Children receive a health check before a problem blocks their learning | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two uses coordinate access, share services, and adjust together
+b)  Shows that the campus identifies and removes barriers preventing attendance
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated campuses and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated health-school campuses serve all residents equally regardless of income. A health room in a school staffed by trained people leads to better outcomes than advice alone. Damp classrooms do not affect pupil learning and attendance. Classroom quality is more important to learning than facade quality. Separate health and school sites are always more efficient than a shared campus. Small health posts cannot achieve outcomes similar to clinics with good design. Quality buildings require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated campuses serve all residents equitably?
+2. Do damp classrooms affect pupil learning and attendance?
+3. Are separate sites always more efficient than a shared campus?
+_300
+@EX Part 4: Discussion - Designing Integrated Campuses
+@INSTR Discuss how to design health and school buildings well integrated from the start.
+_80
+@BULLET
+If you were designing an integrated health-school campus for a Syrian rural district, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Health-School Campuses
+@INSTR Prepare a presentation on effective health-school integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated health and school campuses.
+_300
+@EX Part 5: RolePlay - Coordinating Health and School Clients
+@INSTR Roleplay coordinating a health client and a school client when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Integrated Buildings
+@INSTR Discuss how integrated campuses could transform your own district.
+_80
+@BULLET
+How would integrated health-school campuses transform a district like yours?
+_300
+@EX Part 5: RolePlay - Advocating for Integrated Funding
+@INSTR Roleplay advocating for a single combined budget to a funding organization.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Campus Integration Plan
+@INSTR Write a brief plan for combining health and school buildings on one site.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in combining health and school buildings and how to address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Buildings on Pupils
+@INSTR Write about how improved health and school buildings changed pupil outcomes.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for Healthy Educated Districts
+@INSTR Write about your vision for districts where health and school buildings work together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Health and Education Buildings in Syrian Perspective
+@INSTR Read about Syrian values supporting integrated health and school buildings.
+_80
+@PANEL
+Syrian Values Supporting Health and Education Buildings
+Syrian traditions provide a strong foundation supporting integrated health and school buildings. Understanding them helps design culturally appropriate projects gaining community support.
+The idea of "aql" or intellect is central to Syrian learning. Education develops intellect, allowing people to understand the world and take responsibility within it. Learning and teaching are understood as duties: those who know are expected to share, and those who learn to pass knowledge on. Education in Syrian tradition is a community obligation, not only a personal advantage. Buildings expressing that duty, with a dignified entrance and a room for gathering, gain stronger community support.
+Syrian teaching emphasizes health as a shared responsibility. Quarters have long maintained their own water channels, shaded lanes and roof terraces, and knowledge of how to keep a house cool. Health is understood as a balance between people, air, water and neighbourhood, and keeping that balance is everybody's work. Clinics aligned with these values frame design as caring for the whole quarter, not an outside agenda.
+Community responsibility supports integration. The "hara" is the quarter whose households share lanes, water and shade. Members are responsible for each other. If neighbours are sick, healthy neighbours should help. If children lack schooling, those with learning should teach. A shared campus combines health and education as a single quarter responsibility.
+Women's education and health are increasingly recognized as essential in Syrian communities. Women hold deep knowledge of food, water storage and child health, and increasingly lead local committees. Community leaders emphasize that educating girls strengthens the whole quarter. A private washroom and a safe route to school align with these values even where older practice restricted it.
+Syrian building ethics require high standards. Masons and teachers are trusted figures accountable to the quarter. Tradition emphasizes mastery and trustworthiness in those who serve. Projects emphasizing craft integrity and competence align with these values.
+The traditional courtyard shows that everything is interconnected — room, air, water, shade and family. This way of building naturally supports integrated health-school campuses. Separating the clinic from the school fragments what a quarter experiences as one place. Shared campuses honour that unity.
+Aligning health and school buildings with Syrian values creates stronger community acceptance and care. Residents see the buildings as consistent with their traditions, not threatening them.
+@NUM 100
+1. How does Syrian tradition support education as an important activity?
+2. What traditional Syrian building form supports integrated campuses?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Building Design
+@INSTR Discuss how to design health and school buildings respecting cultural values and traditions.
+_80
+@BULLET
+How can health and school buildings honour cultural traditions while improving on them?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Health and School Building Concepts
+@INSTR Review Unit 7 by matching health and school building concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Primary Care Building
+2. | Shared Campus
+3. | Health Post
+4. | School Health Room
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A room in a school where basic checks and quiet treatment can take place
+b) | A small village building providing basic consultation, built and maintained locally
+c) | One site combining health and school buildings for shared services and access
+d) | An approach emphasizing prevention, local construction, and accessible basic space
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are health and education buildings closely connected in a district?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Poor buildings prevent learning, and schools can host health space, creating interdependence
+   ○ C) Only clinics matter for a district
+@MCQ
+2. What is the primary advantage of an integrated health-school campus?
+@OPT
+   ○ A) It costs the same but creates less impact
+   ○ B) It shares water, drainage and access, serving both uses at lower cost than two sites
+   ○ C) Integration provides no advantages
+@MCQ
+3. How do small health posts expand access to health space?
+@OPT
+   ○ A) They reduce the quality of health buildings
+   ○ B) They provide basic consultation locally, are built by local masons, and refer complex cases on
+   ○ C) Health posts are not important
+@MCQ
+4. What makes a school health room effective for the whole district?
+@OPT
+   ○ A) Schools have no effect on health
+   ○ B) Schools reach many children, whose new habits travel home, creating wide impact
+   ○ C) School health rooms only help pupils, not families
+_300

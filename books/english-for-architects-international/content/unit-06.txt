@@ -1,0 +1,463 @@
+@UNITHEAD Unit 6: Working with Clients and Communities
+@PART Warm Up | Warm Up
+@EX Warm-Up: Client Partnership Discussion
+@INSTR Discuss what makes working with clients and residents successful.
+_80
+@BULLET
+What does it mean to design "with" a community rather than "for" a community?
+_300
+@EX Warm-Up: Stakeholder Roles Matching
+@INSTR Match stakeholder groups with their roles and interests in a building project.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Residents and Users
+2. | Community Leaders
+3. | Clients and Funding Bodies
+4. | Consultants and Contractors
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Engineers, surveyors and builders working toward the same completed building
+b) | People who will occupy the building and are most affected by its success or failure
+c) | Organizations providing the money and requiring accountability and results
+d) | Religious leaders, elders, municipal officials who influence local decisions
+_300
+@EX Warm-Up: Partnership Principles Multiple Choice
+@INSTR Read and choose the best answer about working with residents.
+_80
+@MCQ
+1. What is most important for building trust with residents?
+@OPT
+   ○ A) Showing an impressive rendering immediately
+   ○ B) Consistent presence, honesty, and following through on promises
+   ○ C) Using complicated technical language
+_300
+@EX Warm-Up: Discussion - Conflict and Collaboration
+@INSTR Discuss how to handle conflicts between different stakeholders in a project.
+_80
+@BULLET
+What should you do when residents, the client, and the municipality want different things from the building?
+_300
+@EX Warm-Up: Stakeholder Interests Classification
+@INSTR Classify interests as Primary (directly affected), Secondary (supporting), or Tertiary (oversight).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Primary Stakeholder
+2. Secondary Stakeholder
+3. Tertiary Stakeholder
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Children attending the school being built  ____________________________
+2. Teachers who will work in the new classrooms  ____________________________
+3. The municipal engineering department reviewing the permit  ____________________________
+4. Families moving into the repaired apartment block  ____________________________
+5. Builders employed and trained on the project  ____________________________
+6. An international fund paying for the reconstruction  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Stakeholder and Consultation Terms Matching
+@INSTR Match key consultation terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Stakeholders
+2. | Co-design
+3. | Local Capacity
+4. | Consultation
+5. | Ownership
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Giving residents a voice in decisions about the building that affects them
+b) | Working together as equals with a shared brief and shared responsibility
+c) | Feeling of belonging and responsibility toward a building or place
+d) | The ability of local builders to construct and maintain using local resources
+e) | All people and groups affected by or interested in a building project
+_300
+@EX Part 1: Building Trust in Consultation Table
+@INSTR Complete the table with ways offices build trust with residents.
+_80
+@GRID
+Trust-Building Action | Why It Matters
+Follow through on promises | 
+Include residents in design decisions | 
+Communicate regularly and honestly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Residents learn that you are reliable and honest
+b)  People feel respected and take ownership of the building
+c)  People understand what is happening and why decisions are made
+_100
+_300
+@EX Part 1: Consultation and Community Terms Fill-in
+@INSTR Complete sentences using consultation and community vocabulary.
+_80
+@GAP
+1. A true partnership is ____________________ with both parties having equal voice and respect.
+2. ____________________ communication means explaining design decisions clearly so people understand.
+3. ____________________ means taking responsibility for your drawings and their results.
+4. ____________________ is helping local builders develop the skill to construct and repair for themselves.
+_300
+@EX Part 1: Community Work in Context - Fact Questions
+@INSTR Read about working with residents and answer detailed questions.
+_80
+@PANEL
+Building Strong Partnerships with Residents
+Effective architectural work requires genuine partnership with the people who will use the building. Partnership means respecting residents as full partners, not objects of charity. It means residents describe problems, shape solutions, and take leadership.
+Partnership begins with respect. Architects must recognize that residents have valuable knowledge, experience, and assets. Residents understand their climate, their routines, and what will work locally. Outside expertise is helpful but incomplete without local knowledge. Real partnership combines inside knowledge with outside resources.
+Trust is built through consistency. Residents watch whether architects follow promises. Does the window promised in a meeting actually appear on the drawing? Does the drawing actually get built? Consistent follow-through builds trust. One broken promise damages trust that took months to build.
+Transparency is essential. Residents need to understand how decisions are made. Why did we choose this layout and not that one? How is the budget being spent? Where did the decision come from? Transparent offices share information freely. This increases accountability and prevents misunderstandings.
+Participation must be genuine, not token. Token participation means residents are invited to a presentation but their views do not really change anything. Genuine participation means residents can shape the design. It means their feedback actually alters the drawings. It means respect for their priorities even if they differ from the architect's ideas.
+Power sharing is difficult but necessary. Architects typically have technical expertise and the client's ear, giving them more power. Genuine partnership requires architects to share power. This might mean residents vote on layout options. It might mean community representatives are paid for their time rather than expected to volunteer.
+Partnership requires time and patience. Quick projects do not allow building the relationships that genuine partnership needs. Quick projects typically produce buildings people do not look after. Projects built on partnership take longer but create lasting places.
+@NUM 100
+1. What is the difference between token and genuine resident participation?
+2. How long does trust typically take to build in partnerships?
+_300
+@EX Part 1: Discussion - Your Experience with Collaboration
+@INSTR Discuss times you worked collaboratively and what made it successful or difficult.
+_80
+@BULLET
+Describe a time when you collaborated successfully with others. What made it work?
+_300
+@EX Part 1: Listening - Partnership Stories from Residents
+@AUDIO 🔊 Audio Track 6.11
+@INSTR Listen to residents describing their experiences working with architects.
+_80
+@MCQ
+1. Why did the school community feel proud of their building?
+@OPT
+   ○ A) The ministry built it
+   ○ B) They took part in decisions and took ownership of their school
+   ○ C) Outside consultants controlled everything
+@MCQ
+2. Why did the first courtyard scheme fail while the new one succeeded?
+@OPT
+   ○ A) Different amounts of money available
+   ○ B) First failed because residents had no input; the new one succeeded through participation
+   ○ C) Courtyard schemes always fail
+_300
+@EX Part 1: Consultation Summary - Multiple Choice
+@INSTR Choose the best explanation of consultation principles.
+_80
+@MCQ
+1. What is the relationship between resident participation and how long a building lasts?
+@OPT
+   ○ A) They are unrelated
+   ○ B) Residents who take part in decisions feel ownership and maintain the building longer
+   ○ C) Residents should not take part in decisions
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Partnership with "Together" and "With"
+@INSTR Complete sentences using language that emphasizes cooperation and partnership.
+_80
+@NUM
+1. Residents and architects work ____________________ (together) to shape the plan.
+2. The scheme was designed ____________________ (collaboration) community leaders and families.
+3. Partnership requires ____________________ (shared) objectives and mutual responsibility.
+_300
+@EX Part 2: Expressing Agreement and Disagreement
+@INSTR Complete the table with ways to express agreement and handle disagreement respectfully.
+_80
+@GRID
+Communication Goal | Respectful Language Example
+Express agreement supportively | 
+Express disagreement respectfully | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  That is a good idea and fits what the residents asked for
+b)  I understand your preference but we have concerns about the structure
+_100
+_300
+@EX Part 2: Passive Voice for Shared Decisions
+@INSTR Complete sentences using passive voice to show shared responsibility.
+_80
+@GAP
+1. The programme ____________________ by the residents and the architect together.
+2. Residents' ideas ____________________ when revising the layout.
+3. Responsibility for the courtyard ____________________ between the office and the residents.
+4. Residents' concerns ____________________ and addressed in the revised drawings.
+_300
+@EX Part 2: Expressing Appreciation and Recognition
+@INSTR Complete sentences expressing gratitude and recognition for partnership contributions.
+_80
+@NUM
+1. We ____________________ (appreciate) the residents' support and participation in this project.
+2. We ____________________ (recognize) of local knowledge and traditional building wisdom.
+3. We are ____________________ (grateful) our partners' commitment and dedication to their district.
+_300
+@EX Part 2: Listening - Consultation Vocabulary in Use
+@AUDIO 🔊 Audio Track 6.17
+@INSTR Listen to a community leader discussing consultation using specific language structures.
+_80
+@PLAYNOTE
+@SCRIPT
+^Leader: When architects work with us, not for us, the language changes. They use phrases like "together we decided" instead of "we informed them." They use passive voice "the residents' ideas were incorporated" showing respect for our input. They express gratitude "we deeply appreciate your participation" making us feel valued. This language reflects genuine partnership.
+^Leader: Language reveals whether architects truly value partnership or just use the word. Real partners say "we understand your preference" when discussing disagreements. They say "this was a shared decision" even when they had more power. Language shapes how people interact. Respectful language creates better relationships than commanding language.
+_200
+@QUESTION
+1. How does language reflect whether partnerships are genuine?
+2. What language do real partners use when they disagree?
+_300
+@EX Part 2: Grammar Review - Consultation Communication
+@INSTR Discuss how different grammatical choices reflect partnership values.
+_80
+@BULLET
+Compare "we will design it for you" versus "we will design it together." How do these phrasings change the relationship?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Challenges in Consultation
+@INSTR Before listening, discuss challenges that arise in consultation.
+_80
+@BULLET
+What barriers prevent architects and residents from developing genuine partnerships?
+_300
+@EX Part 3: Listening - Stakeholder Perspectives
+@AUDIO 🔊 Audio Track 6.20
+@INSTR Listen to different stakeholders describing their perspectives on working together.
+_80
+@PLAYNOTE
+@SCRIPT
+~Project Architect: From our side, we want to give residents what they ask for but have limited budgets. We cannot build everything people want. We have funder requirements meaning we cannot do exactly what residents prefer. So we must navigate between residents' wishes, funder requirements, and realistic costs. Good partnerships require honest conversations about these constraints. We have learned that residents accept limits when we explain openly. They feel disrespected when we pretend to have money we do not have.
+^Community Member: From the district, we want respect and honesty. We understand architects have constraints. We accept limits when decisions are made fairly including our voice. What frustrates us is when architects make decisions claiming they are ours when we never agreed. We want credit for our contribution not to feel like passive recipients. We want to know that our participation actually changes the drawings not just listening with no real influence.
+_200
+@QUESTION
+1. What does the first speaker say about managing conflicting demands?
+2. What does the community member value most in partnership?
+_300
+@EX Part 3: True/False - Consultation Principles
+@INSTR Read statements about consultation and mark True, False, or Not Given.
+_80
+@PANEL
+Genuine partnership requires residents to have a voice in decisions affecting them. Residents have valuable local knowledge that complements outside expertise. Trust is built through one-time good actions. Transparency about constraints and budgets strengthens partnerships. Residents feel respected when they are invited to presentations even if their advice is not used. Top-down decision making is more efficient than consultation. Being honest about what you can and cannot build is important in partnerships. Power sharing requires willingness from those with more technical authority.
+@NUM 100
+1. Residents should have a voice in decisions affecting them.
+2. Trust is built through one-time good actions.
+3. Residents feel respected if their advice is not actually used.
+_300
+@EX Part 3: Listening - Honest Communication in Consultation
+@AUDIO 🔊 Audio Track 6.22
+@INSTR Listen to partners discussing how honesty and transparency work in practice.
+_80
+@MCQ
+1. How does admitting the limits of your knowledge build trust?
+@OPT
+   ○ A) It shows weakness and incompetence
+   ○ B) It shows honesty and a commitment to finding the right answer rather than pretending expertise
+   ○ C) Residents lose confidence in honest architects
+@MCQ
+2. What does the architect recommend when residents ask for things outside the project scope?
+@OPT
+   ○ A) Ignore the requests
+   ○ B) Promise everything to make people happy
+   ○ C) Say clearly this is outside scope but help connect them with other resources
+_300
+@EX Part 3: Listening - Building Partnerships Over Time
+@AUDIO 🔊 Audio Track 6.23
+@INSTR Listen to experienced architects describing how relationships develop.
+_80
+@PLAYNOTE
+@SCRIPT
+^Worker1: Building partnerships is like building friendships. You cannot rush it. You must spend time getting to know people. You must show up consistently not just when you need a signature. You must remember what people told you and follow up. You must keep small promises so people trust you with bigger ones. You must admit mistakes and apologize. This takes time but creates relationships that survive difficulties on site.
+~Worker2: I noticed that partnerships develop through small successes. Start with a small visible improvement where success is quick, such as repairing a stair or a shared entrance. This builds confidence and trust for larger work. Also, celebrate completions together. Let residents take pride in the building. Name it as their achievement. This builds ownership and motivation for the next phase.
+_200
+@QUESTION
+1. What does the first architect compare partnership building to?
+2. What strategy does the second architect recommend for building strong partnerships?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - What Makes Partnerships Work
+@INSTR Before reading, discuss what you think makes partnerships succeed.
+_80
+@BULLET
+Based on your experience, what do successful partnerships need to work well?
+_300
+@EX Part 4: Reading - Models of Community Engagement
+@INSTR Read about different approaches to engaging residents and answer questions.
+_80
+@PANEL
+Models of Community Engagement in Building Work
+Architecture offices use different models for working with residents. The model chosen shapes whether genuine partnership develops.
+The Imposed Model: The office decides what the district needs and designs it. The approach assumes outside experts know best. Residents are passive recipients. This model is quick and allows the office to keep control. However, residents do not develop understanding or ownership. When the office leaves, maintenance typically stops. The Imposed Model is common but creates dependency.
+The Consultation Model: Residents are invited to comment on a scheme the office has already designed. Residents give views but the office keeps control of key decisions. This is more respectful than imposition but not genuine partnership. Residents appreciate being asked but may feel their input is token. Some consultation is better than none but is incomplete.
+The Co-Design Model: Residents and architects are equals in decision-making. Both parties bring different expertise—residents know how they live and architects know construction and regulation. Decisions are made together. This model respects local capacity and builds ownership. It is slower and messier because decisions take longer. But it creates buildings people look after and stronger relationships.
+The Community-Led Model: Residents take the lead and the office provides technical support. Residents describe needs, choose priorities, and manage the work. Architects facilitate and provide expertise on request. This model requires architects to have humility and restraint. It creates the strongest local capacity and the most durable results. However, it requires trusting residents even when you might do things differently.
+Experience shows that higher-level models (Co-Design and Community-Led) create more lasting benefits and stronger districts. However, they require patience and are harder to show in a quick report. Lower-level models (Imposed and Consultation) show quick visible results but create less lasting change.
+@NUM 100
+1. What is the main difference between the Consultation Model and the Co-Design Model?
+2. What does experience show about different engagement models and lasting results?
+_300
+@EX Part 4: Reading - Collaboration Among Consultants
+@INSTR Read about how different consultants work together effectively.
+_80
+@PASSAGE
+Consultant Partnerships and Coordination
+Beyond working with residents, effective building work requires partnership among consultants. On most projects, architects, structural engineers, services engineers, surveyors and contractors work toward the same completed building. Coordination among them prevents clashes and creates a stronger result.
+Coordination challenges arise from competition for fees. When budgets are tight, consultants sometimes protect their own scope instead of cooperating. This can lead to duplication where two disciplines draw the same thing differently. It can lead to gaps where nobody takes responsibility for a junction. Good coordination requires a shared view that cooperation produces a better building than defending individual territory.
+Effective multi-consultant partnerships require clear roles. One discipline draws the frame while another draws the drainage and another the electrical layout. Clear role definition prevents duplication and allows each discipline to use its expertise fully. Regular coordination meetings allow consultants to share information, compare drawings, and solve clashes together.
+Trust among consultants is important. Just as resident trust comes from consistency and honesty, professional trust comes from issuing what you promised and flagging a problem early. Consultants who protect their own interests at the expense of the building will lose professional credibility.
+Successful multi-consultant teams in Indonesia pool resources when possible. Offices might share a survey, combine site visits, or coordinate transport to a district that is hard to reach. This sharing stretches limited resources further and gets more done on each journey.
+Hierarchical structures where one strong office leads and others follow can be efficient but risk silencing smaller consultants who see a real problem. More equal partnership models where every discipline has a voice in major decisions engage more expertise and build stronger commitment. These models take more time but create better coordination and fewer surprises on site.
+@MCQ
+1. Why do consultants sometimes protect their scope instead of cooperating?
+@OPT
+   ○ A) Competition is always good for the building
+   ○ B) Tight budgets lead consultants to defend their own fees instead of cooperating
+   ○ C) Cooperation is impossible among consultants
+@MCQ
+2. What does a "shared view" mean regarding consultant partnerships?
+@OPT
+   ○ A) Having lots of money
+   ○ B) Believing cooperation produces a better building than defending individual territory
+   ○ C) Only large offices can collaborate
+_300
+@EX Part 4: Application - Building Inclusive Partnerships
+@INSTR Read scenarios and fill in how to include often-excluded groups in consultation.
+_80
+@GRID
+Excluded Group | How to Include in Consultation
+Women whose voices are often dominated by men | 
+Youth who feel excluded by elders | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Hold separate meetings with women, and pay women who take representative roles
+b)  Create youth sessions, train young representatives, include them on the decision committee
+_100
+_300
+@EX Part 4: True/False - Consultant Partnerships
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Competition among consultants is beneficial for buildings in all circumstances. Clear role definition among consultants prevents duplication. Trust among consultants comes from consistent behaviour and transparency. Sharing resources among offices always reduces individual office effectiveness. Smaller consultants should not take part in coordination decisions. Hierarchical team structures are always more efficient than equal partnerships. Building strong partnerships requires patience and investment in communication.
+@NUM 100
+1. Should consultants have clearly defined roles to prevent duplication?
+2. Is professional trust built through transparency and consistent behaviour?
+3. Should smaller consultants be excluded from coordination decisions?
+_300
+@EX Part 4: Discussion - Creating Win-Win Partnerships
+@INSTR Discuss how partnerships can benefit all parties involved.
+_80
+@BULLET
+How can project teams be structured so that offices, residents, and funders all benefit?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building and Maintaining Partnerships
+@INSTR Prepare a presentation on how to develop and maintain successful partnerships.
+_80
+@NUM 100
+1. Present the key principles and practices for building lasting partnerships in building work.
+_300
+@EX Part 5: RolePlay - Managing Partnership Conflict
+@INSTR Roleplay a difficult conversation where the client's and the residents' priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Role in Creating Partnerships
+@INSTR Discuss how you would approach building partnerships in a district you know.
+_80
+@BULLET
+How would you build strong partnerships if you started a building project in your own district?
+_300
+@EX Part 5: RolePlay - Explaining Your Approach to a Funder
+@INSTR Roleplay presenting your consultation approach to a funding organization.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Consultation Plan Outline
+@INSTR Write an outline for a consultation plan between an office and a residents' committee.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Consultation Learning
+@INSTR Write about what you learned from trying to consult residents on a design.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Handling a Partnership Problem
+@INSTR Write about a conflict on a project team and how you would address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Collaborative Building
+@INSTR Write about how you envision collaborative design transforming districts.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Indonesian Values of Cooperation and Community
+@INSTR Read about how Indonesian cultural values support working with residents and answer questions.
+_80
+@PANEL
+Indonesian Cultural Values Supporting Collaboration
+Indonesian culture has deep traditions of cooperation and neighbourly support that align strongly with partnership approaches in building work. Understanding and building on these cultural foundations creates more effective and culturally appropriate projects.
+The idea of "harga diri" or self-respect is central to Indonesian culture. It means being treated with respect and keeping your standing in the community. Partnership approaches honour harga diri by respecting residents' knowledge and treating them as equals deserving respect. Imposed charity damages harga diri because residents feel disrespected. Genuine partnership respects harga diri and fits cultural values.
+Indonesian culture values the extended family and the harmony of the kampung. Families, kinship groups, and the kampung function as units. Individual decisions are made considering family interests. This emphasis on the group means Indonesians respond well to collective participation and shared decision-making about buildings. Approaches that treat each flat in isolation and ignore family networks work poorly. Projects that engage whole families and the whole kampung work well.
+Gotong royong strengthens the partnership orientation. Indonesian practice holds that the community is responsible for the welfare of its members. If some neighbours are in need, the whole kampung shares responsibility to help. Projects that mobilize residents to repair shared lanes, roofs and water tanks resonate with gotong royong. Residents see the work as gotong royong, not as foreign charity.
+The tradition of musyawarah, deciding by discussion until the group agrees, supports committee structures. Residents trust the kampung head to make agreements for the building. This allows delegation and shared authority. Projects structured with residents' committees build on this cultural pattern.
+Indonesian hospitality and respect for guests creates openness to outsiders working for the benefit of the kampung. However, guests are also expected to respect the customs of the kampung. Architects who ignore local customs violate this obligation. Partnership requires respecting these cultural expectations.
+The importance of the kampung's reputation provides powerful motivation. Residents care about standing among neighbouring kampung. Projects giving a kampung pride and a good name succeed. Projects that make residents feel exploited or disrespected create barriers to any future work.
+Building partnerships on these cultural foundations creates authentic collaboration aligned with residents' values rather than imported models.
+@NUM 100
+1. What does harga diri mean and how does partnership honour this value?
+2. How does gotong royong support working with residents?
+_300
+@EX Part 7: Discussion - Respecting Culture in Partnerships
+@INSTR Discuss how to respectfully work with residents while honouring their cultural traditions.
+_80
+@BULLET
+How can architects build partnerships that strengthen rather than challenge community traditions?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 6 Summary - Partnership Concepts
+@INSTR Review Unit 6 by matching key concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Co-design
+2. | Ownership
+3. | Power Sharing
+4. | Consultation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Residents having a meaningful voice in decisions affecting them
+b) | Sharing decisions so all parties' interests are weighed equally
+c) | Feeling that a building belongs to you and you are responsible for it
+d) | Working together as equals with a shared brief and shared responsibility
+_300
+@EX Part 8: Integrated Assessment - Unit 6 Mastery
+@INSTR Demonstrate understanding of Unit 6. Choose the best answer.
+_80
+@MCQ
+1. What is the main difference between co-design and imposed design?
+@OPT
+   ○ A) They are the same thing
+   ○ B) Co-design gives residents shared decision-making power; imposed design is one-way
+   ○ C) Both create equal ownership
+@MCQ
+2. Why does co-design take longer than a top-down approach?
+@OPT
+   ○ A) Co-design is not more time-consuming
+   ○ B) Building trust, listening, and shared decisions require more time than expert decisions
+   ○ C) Time does not matter in design
+@MCQ
+3. What creates lasting resident ownership of a building?
+@OPT
+   ○ A) Funding that continues indefinitely
+   ○ B) Resident participation in shaping and leading the work from the beginning
+   ○ C) External expertise alone
+@MCQ
+4. How do you build trust with residents?
+@OPT
+   ○ A) Through one impressive presentation
+   ○ B) Through consistent follow-through on small and large promises over months
+   ○ C) Trust is not important in building work
+_300

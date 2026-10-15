@@ -1,0 +1,642 @@
+@VOICES Architect | Senior Architect | Landscape Architect | All Architects
+@UNITHEAD Unit 1: Introduction to Architecture
+@PART Warm Up | Warm Up
+@EX Warm-up: Architecture Terms and Building Types Matching
+@INSTR Match architecture-related terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Architect
+2. | Plan
+3. | Site
+4. | Client
+5. | Design
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The piece of land where a building will be built, with its slope, soil and views
+b) | The shape, layout and appearance an architect gives a building before it is built
+c) | A professional who designs buildings and supervises how they are constructed
+d) | A drawing of a building seen from above, showing rooms, walls and doors
+e) | The person or organization who asks for a building and pays for the work
+_300
+@EX Warm-up: What Do Architects Do? Simple Vocabulary Fill
+@INSTR Complete sentences about architects using the words provided.
+_80
+@GAP
+1. An architect is different from ____________________ because the architect designs the building.
+2. Many architects work with ____________________ who build what the drawings show.
+3. Architects are ____________________ professionals who must be licensed to sign drawings.
+4. Architects receive a ____________________ from the client explaining what is needed.
+_300
+@EX Warm-up: Building Types Classification
+@INSTR Classify each building as Residential, Educational, Commercial, or Public architecture.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Residential building
+2. Educational building
+3. Commercial building
+4. Public building
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A family house with three bedrooms and a courtyard  ____________________________
+2. A primary school with eight classrooms and a playground  ____________________________
+3. A shop selling furniture on a main street  ____________________________
+4. A museum displaying objects from ancient cities  ____________________________
+5. An apartment block with twenty flats and shared stairs  ____________________________
+6. An office building for a small engineering company  ____________________________
+_300
+@EX Warm-up: Purposes of Architecture Multiple Choice
+@INSTR Read about architecture and choose the correct answer to each question.
+_80
+@PASSAGE
+Architecture is the art and science of designing buildings and the spaces between them. Architects think about how people will use a building, how it will stand up safely, and how it will look. Architecture covers many kinds of work including houses, schools, hospitals, offices, and public spaces. People choose to study architecture because they want to shape the places where other people live.
+@MCQ
+1. What does design mean in architecture?
+@OPT
+   ○ A) Building the walls yourself
+   ○ B) Deciding the shape, layout and appearance before building
+   ○ C) Selling land to developers
+   ○ D) Painting a finished house
+@MCQ
+2. Which is NOT a common task for an architect?
+@OPT
+   ○ A) Preparing drawings
+   ○ B) Meeting the client
+   ○ C) Mixing concrete on site all day
+   ○ D) Checking building regulations
+_300
+@EX Warm-up: Famous Architecture and Purposes Matching
+@INSTR Match famous buildings with what they are and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | The Umayyad Mosque, Damascus
+2. | The Citadel of Aleppo
+3. | Palmyra
+4. | The Azem Palace
+5. | The old souks of Damascus
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A large covered market where narrow streets and roofs control heat and light
+b) | An eighth-century mosque whose courtyard and arcades shaped later religious buildings
+c) | An eighteenth-century house built around courtyards with fountains and shaded rooms
+d) | A fortified hill with walls and a gateway built to defend the city below
+e) | A desert city of colonnaded streets, temples and tombs from the Roman period
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Architecture and Drawing Terminology Matching
+@INSTR Match architecture vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Plan
+2. | Elevation
+3. | Section
+4. | Scale
+5. | Brief
+6. | Facade
+7. | Structure
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The parts of a building that carry load, such as columns, beams and walls
+b) | The relationship between a size on a drawing and the real size of the building
+c) | A drawing of a building cut through vertically to show heights inside
+d) | The outside face of a building, especially the main one facing the street
+e) | A drawing of one outside face of a building seen straight on
+f) | The written statement of what the client needs from the building
+g) | A drawing of a building seen from above at one level
+_300
+@EX Part 1: Architecture Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important architecture vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about buildings, correct pronunciation helps others understand you clearly: // *• Architecture* - primary stress on AR (AR-chi-tec-ture) // *• Elevation* - primary stress on VA (el-e-VA-tion) // *• Facade* - primary stress on CADE (fa-CADE) // *• Material* - primary stress on TE (ma-TE-ri-al) // *• Residential* - primary stress on DEN (res-i-DEN-tial) // *• Structure* - primary stress on STRUC (STRUC-ture) // *• Courtyard* - primary stress on COURT (COURT-yard) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Building Types and Uses Table
+@INSTR Complete the table with building types, their main uses, and examples.
+_80
+@GRID
+Building Type | Main Use | Example
+Residential |  | 
+Educational |  | 
+Public |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Providing homes for families and individuals
+b)  A courtyard house in old Damascus or an apartment block in Mezzeh
+c)  Teaching children and students in classrooms and laboratories
+d)  A primary school in Homs or the University of Damascus
+e)  Serving the whole city with shared civic and cultural space
+f)  The National Museum or a municipal library
+_100
+_300
+@EX Part 1: Design Activities and Tasks Matching
+@INSTR Match architectural activities with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Site analysis
+2. | Concept design
+3. | Technical drawing
+4. | Cost estimating
+5. | Site supervision
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Visiting the building during construction to check the work follows the drawings
+b) | Calculating how much the materials and the labour for a building will cost
+c) | Preparing accurate plans, sections and details for the builders to follow
+d) | Developing the first idea for the shape and arrangement of the building
+e) | Studying the land, the sun, the wind and the neighbours before designing
+_300
+@EX Part 1: Architecture Work Concepts Multiple Choice
+@INSTR Read about architectural work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Architects work in many sectors to improve the places people use. Some focus on housing by designing homes and apartment blocks. Others design schools, hospitals and public buildings. Many architects also work on repairing old buildings damaged by time or conflict. All architects share the goal of making places that are safe, useful and good to be in.
+@MCQ
+1. A ____________________ is a drawing of a building seen from above.
+@OPT
+   ○ A) section
+   ○ B) plan
+   ○ C) model
+   ○ D) sketch
+@MCQ
+2. A person who builds what the drawings show is called a ____________________.
+@OPT
+   ○ A) client
+   ○ B) planner
+   ○ C) contractor
+   ○ D) surveyor
+@MCQ
+3. Repairing an old building so it can be used again is called ____________________.
+@OPT
+   ○ A) demolition
+   ○ B) estimating
+   ○ C) restoration
+   ○ D) zoning
+_300
+@EX Part 1: Architecture-Related Vocabulary Fill-in
+@INSTR Complete sentences using important architecture vocabulary.
+_80
+@GAP
+1. An architect is a ____________________ professional who must be registered to practise.
+2. ____________________ build the project using the architect's drawings.
+3. The ____________________ pays for the building and explains what is needed.
+4. All projects begin with a clear ____________________ describing the client's needs.
+5. The land where a building will stand is called the ____________________.
+6. Drawings are prepared to a ____________________ so real sizes can be measured.
+_300
+@EX Part 1: Syria's Architecture Profession and Local Practice
+@INSTR Read about architecture in Syria and answer the factual questions.
+_80
+@PANEL
+Syrian Architects and Building Institutions
+Syria has a long tradition of building and of training builders. The Order of Syrian Engineers and Architects is the professional body that registers architects and engineers. It sets the rules for practice, keeps the register, and issues the stamp that drawings must carry before a permit is given.
+Many smaller offices in Syria focus on specific kinds of work. Some design housing, preparing plans for apartment blocks and family houses. Others work on schools, clinics and offices. Since the conflict, many offices have worked on assessing damaged buildings and designing repairs, which has become one of the largest areas of practice in the country.
+International consultants also work in Syria alongside local offices. They bring funding, technical expertise, and specialist knowledge of conservation and structural repair. Partnerships between Syrian architects and international organizations strengthen the capacity to rebuild.
+Architects in Syria often face challenges including shortages of materials, interrupted power, and difficult access to sites. Despite these obstacles, they remain committed to their work of repairing cities and building a better future for all Syrians.
+@NUM 100
+1. What is the Order of Syrian Engineers and Architects and what does it do?
+2. Name three types of work that architecture offices do in Syria.
+3. What do international consultants contribute to Syrian practice?
+4. What challenges do Syrian architects face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Architectural Work
+@INSTR Complete sentences about what architects do using the present simple tense.
+_80
+@GAP
+1. An architect ____________________ (design) buildings for people.
+2. Offices ____________________ (prepare) plans, sections and elevations.
+3. The engineer ____________________ (check) the structure before construction.
+4. Architects ____________________ (visit) the site during the work.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes architecture a distinct profession.
+_80
+@NUM
+1. Architects are ____________________ (licence) when they are registered to sign drawings.
+2. Architects are responsible because they ____________________ (responsible) for safety.
+3. The purpose of architecture is to ____________________ (serve) the people who use the building.
+_300
+@EX Part 2: Negative Sentences About Architects
+@INSTR Rewrite sentences in the negative form to show what architects do NOT do.
+_80
+@GAP
+1. Architects ____________________ (build walls) - they design and supervise.
+2. An architect ____________________ (ignore) the building regulations.
+3. Architects ____________________ (copy) a design without studying the site.
+4. Offices ____________________ (begin) construction before a permit is issued.
+_300
+@EX Part 2: Architect and Contractor Roles Table
+@INSTR Complete the table with roles and what architects do vs. what contractors do.
+_80
+@GRID
+Project Role | What the ARCHITECT does | What the CONTRACTOR does
+Design stage |  | 
+Cost |  | 
+On site |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Prepares the drawings and the specification
+b)  Prices the drawings and buys the materials
+c)  Estimates the cost and advises the client
+d)  Carries out the work and employs the trades
+e)  Inspects the work and certifies each stage
+f)  Builds the walls, floors and roof
+_100
+_300
+@EX Part 2: Correcting Architecture Sentences
+@INSTR Correct the grammatical errors in sentences about architects.
+_80
+@NUM 60
+1. Architects designs buildings for their clients.
+@RULE
+@NUM 60
+2. An architect do not build the walls himself.
+@RULE
+@NUM 60
+3. Offices prepares plans, sections and elevations.
+@RULE
+@NUM 60
+4. Surveyor measures the site before the design begins.
+@RULE
+@NUM 60
+5. The drawings are checked by the engineer is important.
+@RULE
+_300
+@EX Part 2: Grammar Review - Architecture Sentences
+@INSTR Choose the grammatically correct sentence about architecture.
+_80
+@PASSAGE
+When learning about architecture, correct grammar helps us communicate clearly about this careful work. Selecting the best sentence shows understanding of the design process, the drawings, and the roles on a project.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The architect design houses for families.
+   ○ B) The architect designs houses for families.
+   ○ C) The architect are designing houses for families.
+   ○ D) The architect have design houses for families.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Architects do not builds the walls.
+   ○ B) Architects does not build the walls.
+   ○ C) Architects do not build the walls.
+   ○ D) Architects do not building the walls.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Offices prepare plans and specifications.
+   ○ B) Offices prepares plans and specifications.
+   ○ C) Offices to prepare plans and specifications.
+   ○ D) Offices preparing plans and specifications.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Architect Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to an architect describing their office and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Architect: Hello, my name is Rana. I work for an architecture office in Damascus called Courtyard Studio. Our office designs houses and small schools for families and communities that need new buildings.
+~Architect: We have architects, engineers and a surveyor who visit sites every week. We measure the land, study the sun and wind, and prepare drawings. We also check the work while it is being built.
+~Architect: Our office receives work from private clients and from municipalities who trust our drawings. Students from the university also help us as interns. Our goal is simple - we want every family to have a safe, comfortable home.
+_200
+@QUESTION
+1. What is Rana's office called?
+2. What services does the office provide?
+3. Who gives the office work?
+_300
+@EX Part 3: Types of Architectural Practice - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of architectural practice. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Senior Architect: There are many kinds of architectural practice in Syria. Some offices focus on housing, others on public buildings, and many work on repairing damaged structures. The Order of Syrian Engineers and Architects registers all of them.
+^Senior Architect: Housing architects design apartment blocks and family houses. Conservation architects repair old buildings in the historic quarters. Landscape architects design gardens, courtyards and public squares.
+^Senior Architect: International consultants also work in Syria alongside local offices. Together, they prepare designs for thousands of buildings every year. All architects share the same goal - to make places that serve the people who use them.
+_200
+@QUESTION
+1. There are many kinds of architectural practice in Syria.
+2. Housing is the only focus of Syrian architects.
+3. The Order of Syrian Engineers and Architects registers architects.
+4. International consultants do not work in Syria.
+5. All architects work to serve the users of their buildings.
+_300
+@EX Part 3: Design Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to architects explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Architect: Our housing office works to make sure every family can have a safe home. We design apartment blocks in districts where housing was destroyed. We also train young architects so the drawings are accurate.
+^Senior Architect: My office works on conservation. We repair old stone buildings and vaulted roofs. We teach owners why original materials and old craft techniques matter for the future of the city.
+~Landscape Architect: We are a landscape practice. We believe streets and squares deserve shade and water. We design courtyards, gardens and planting for public spaces.
+^All Architects: All of us are registered with the Order. We work for private clients, municipalities and institutions. We have interns from the university who help us every day. This is why we can continue serving communities.
+_200
+@QUESTION
+1. What is the aim of the housing office?
+2. What does the conservation office repair?
+3. What does the landscape practice design?
+4. Who do these architects work for?
+_300
+@EX Part 3: Practice Types and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of practice with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Housing practice
+2. | Conservation practice
+3. | Public buildings practice
+4. | Landscape practice
+5. | Interior practice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Arranging rooms, finishes, light and furniture inside a completed building
+b) | Designing schools, clinics and civic buildings for whole communities to use
+c) | Designing gardens, courtyards and squares with shade, planting and water
+d) | Designing apartment blocks and family houses for people to live in
+e) | Repairing historic buildings using original materials and traditional craft
+_300
+@EX Part 3: Architecture Characteristics Classification
+@INSTR Classify each statement as a Feature of Architecture, A Challenge Architects Face, or A Benefit to Communities.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Architecture
+2. Challenge Architects Face
+3. Benefit to Communities
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Architects must be registered before signing drawings  ____________________________
+2. Shortages of cement, steel and timber  ____________________________
+3. Safe homes, schools and clinics for people to use  ____________________________
+4. Drawings are made to an accurate scale  ____________________________
+5. Working on sites that are difficult or dangerous to reach  ____________________________
+6. Public spaces with shade, water and places to sit  ____________________________
+7. Working with engineers, surveyors and contractors  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Architecture? Reading Comprehension
+@INSTR Read the text about architecture and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Architecture?
+Architecture is the design of buildings and of the spaces between them. An architect decides how a building is arranged, how it stands up, and how it looks. Architects work on social, technical, and environmental goals at the same time. 
+Architecture exists in almost every country in the world. It ranges from a single family house to a whole new district. Some famous examples include the Umayyad Mosque in Damascus, the Citadel of Aleppo, and the colonnaded streets of Palmyra.
+Architects are paid a fee by the client, which may be a family, a company, or a public institution. They employ staff and work closely with engineers and surveyors. Students work as interns because they want to learn how real projects are made.
+The brief of a project is its statement of purpose. For example, a school brief says how many classrooms are needed. A hospital brief sets out the departments. A housing brief gives the number and size of flats. All briefs describe what the people who use the building will need.
+Architects are essential because buildings must be safe, usable and lasting. They prepare drawings, obtain permits, and supervise construction. Communities benefit greatly from careful architectural work.
+@MCQ
+1. What is architecture?
+@OPT
+   ○ A) Only the decoration of a finished building
+   ○ B) The design of buildings and the spaces between them
+   ○ C) The sale of land for development
+   ○ D) The manufacture of cement and steel
+@MCQ
+2. How are architects paid?
+@OPT
+   ○ A) Only by the government
+   ○ B) By a fee from the client
+   ○ C) By selling the building
+   ○ D) By charging the contractor
+@MCQ
+3. Why do students work as interns?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how real projects are made
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Building Types and Examples - True or False
+@INSTR Read about building types and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Types of Buildings and Their Design
+Architects design many different kinds of building. Residential buildings provide homes. They include family houses and apartment blocks. Their design must give privacy, daylight and ventilation to every room.
+Educational buildings include schools and universities. They need classrooms of the right size, quiet circulation, and safe outdoor space. Some educational buildings also include workshops and laboratories.
+Healthcare buildings must be planned carefully. Clinics and hospitals need clear routes for patients and staff, and rooms arranged so that clean and dirty traffic do not cross. Equipment and services take a lot of space.
+Public buildings serve the whole city. They include museums, libraries and municipal offices. They work to be welcoming, accessible and easy to find.
+Commercial buildings house shops and offices. They need flexible floors and good access for deliveries and for customers.
+All these buildings work together to make a city. They employ thousands of builders and depend on the skill of many trades.
+@NUM 100
+1. Residential buildings only include family houses.
+2. Educational buildings need classrooms of the right size.
+3. Healthcare buildings only serve adults.
+4. Public buildings include museums and libraries.
+5. Commercial buildings help only architects.
+_300
+@EX Part 4: Architecture in Syria - Fact Questions
+@INSTR Read about architecture in Syria and answer the detailed questions.
+_80
+@PANEL
+Architecture in Syria: History and Current Work
+Syria has a rich history of building. Damascus has been continuously inhabited for thousands of years, and the Umayyad Mosque, completed in 715, is one of the oldest great buildings in the Islamic world. Syrian builders have worked in stone, brick, timber and mud brick for many centuries.
+Today, many kinds of architectural work are carried out in Syria. Some offices are small practices founded and run by Syrians. Others work with international consultants. Together they address critical needs in housing, schools, healthcare, and the repair of damaged buildings.
+Housing architects help Syrian families return to their districts. They design apartment blocks, assess damaged structures, and prepare repair drawings. Conservation architects work in the old cities of Damascus and Aleppo. They repair vaults, domes and stone walls.
+After the conflict, architects have prepared damage assessments for whole neighbourhoods. They record what remains, decide what can be repaired, set priorities, and design temporary shelter where rebuilding will take years.
+Landscape architects help restore public squares and gardens. Planning offices work to protect Syria's historic quarters and archaeological sites.
+The work of architects is challenging. They operate with limited materials and often in difficult conditions. But they remain committed to helping Syrians rebuild their lives. International partnerships help local offices expand their capacity to serve communities.
+@NUM 100
+1. When was the Umayyad Mosque completed?
+2. What are three areas that architects work in Syria?
+3. What do housing architects provide to Syrian families?
+4. What challenges do architects in Syria face?
+_300
+@EX Part 4: Project Funding and Roles Classification
+@INSTR Classify each statement as a Source of Project Funding, A Feature of the Profession, or A Service Architects Provide.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Source of Funding
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A fee paid by a private client who wants a house  ____________________________
+2. Registration with the Order before signing drawings  ____________________________
+3. Preparing plans, sections and elevations for a building  ____________________________
+4. A budget from a municipality or a public institution  ____________________________
+5. Responsibility for the safety of the people who use the building  ____________________________
+6. Supervising construction and certifying each stage  ____________________________
+7. Grants from international reconstruction programmes  ____________________________
+_300
+@EX Part 4: Architecture Impact and Importance Matching
+@INSTR Match architectural contributions with their importance and impact on communities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Designing Safe Housing
+2. | Designing Schools
+3. | Repairing Damaged Buildings
+4. | Designing Public Space
+5. | Protecting Heritage
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Keeping the historic character of a city so its identity survives for the future
+b) | Squares, gardens and shaded streets give every resident somewhere to meet
+c) | Assessment and repair let families return to their own districts far sooner
+d) | Well-planned classrooms and daylight let children learn even in poor areas
+e) | Homes that resist earthquakes and give privacy, daylight and ventilation to all
+_300
+@EX Part 4: Architecture Importance and Role Completion
+@INSTR Complete sentences about the importance and role of architects.
+_80
+@NUM
+1. Architects are essential for ____________________ (solve) problems that builders cannot.
+2. One main role of the architect is to ____________________ (respond) to the client's brief.
+3. Architects succeed through ____________________ (work) with engineers and contractors.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Architecture Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about architecture using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key architecture vocabulary with correct pronunciation: // *• Architecture (AR-chi-tec-ture)*: The design of buildings and spaces // *• Elevation (el-e-VA-tion)*: A drawing of one outside face // *• Facade (fa-CADE)*: The main outside face of a building // *• Courtyard (COURT-yard)*: An open space enclosed by a building // *• Residential (res-i-DEN-tial)*: For people to live in // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Architecture and Its Work
+@INSTR Discuss these questions about architecture with a partner:
+_80
+@BULLET
+What is an architect and how is the work different from a contractor's?
+What types of buildings do you know, and what kind of design work do they need?
+Why do you think people choose to study architecture instead of a quicker profession?
+Can you name a building in Syria or your region and describe what makes it good?
+_300
+@EX Part 5: Architect Interview Role Play
+@INSTR Practice an interview about architecture. One student is a client asking questions. The other student is the architect who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Architecture Facts
+@INSTR Prepare a presentation about architecture. Cover what architects are, building types, and why design matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is an architect?
+2. What types of buildings exist and what are good examples?
+3. Why is good architecture important for our communities?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Architectural Values and Professional Ethics
+@INSTR Read about architectural values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Architectural Values and Professional Principles
+Architects are guided by important values and ethics in their work. Professional principles include safety, honesty, fairness, and independence.
+Safety means that the health and lives of the people who will use a building come before appearance or cost. Architects believe every user deserves a structure that will stand, and this is why drawings are checked and permits are required.
+Fairness means serving the people who will use the building, not only the person who pays. Architects think about the tenant as well as the owner. They do not design spaces that exclude.
+Independence means architects give honest technical advice even when a client would prefer a cheaper answer. They stay professionally independent so their certificates can be trusted. This allows them to refuse work that would be unsafe.
+Honesty means architects state what they know and do not claim expertise they lack. This honesty allows architects to speak up about risk and to protect people who have no voice in the project.
+These principles guide architects every day. They explain why architects are trusted and respected in communities. Following these values makes architectural work effective and ethical.
+@MCQ
+1. What does professional safety mean?
+@OPT
+   ○ A) Being very fast
+   ○ B) Putting the lives of the users before appearance or cost
+   ○ C) Making money quickly
+   ○ D) Supporting only large clients
+@MCQ
+2. What does fairness mean?
+@OPT
+   ○ A) Serving only wealthy clients
+   ○ B) Taking the contractor's side
+   ○ C) Serving the people who will use the building, not only the person who pays
+   ○ D) Ignoring the tenants
+@MCQ
+3. Why is independence important for architects?
+@OPT
+   ○ A) So they can make profit
+   ○ B) So they follow the client's orders exactly
+   ○ C) So their advice and certificates can be trusted and unsafe work refused
+   ○ D) So they can ignore the building regulations
+_300
+@EX Part 7: Syrian Cultural Values and Architecture
+@INSTR Match Syrian cultural values with how they relate to architecture and building work.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Privacy
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a craft is honoured, and a stonecutter's skill is named and remembered
+b) | Dignity and personal honour shape how a house presents itself to the street
+c) | Hospitality shapes the plan: a guest room near the entrance welcomes visitors
+d) | Respect for elders means ground-floor rooms for those who cannot climb stairs
+e) | Family life is protected by courtyards and screens that keep rooms private
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Architecture Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Building Type, or Architectural Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Building Type
+3. Architectural Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Registration with the Order before signing drawings  ____________________________
+2. Residential buildings providing homes for families  ____________________________
+3. Preparing a damage assessment after an earthquake  ____________________________
+4. Responsibility for the safety of the users  ____________________________
+5. Educational buildings housing classrooms and laboratories  ____________________________
+6. Studying the sun and wind before designing  ____________________________
+7. Working with engineers, surveyors and contractors  ____________________________
+8. Public buildings serving the whole city  ____________________________
+_300
+@EX Part 8: Integrated Architecture Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what an architect is?
+@OPT
+   ○ A) A builder who lays bricks very well
+   ○ B) A government official who issues permits
+   ○ C) A registered professional who designs buildings, prepares drawings and supervises construction
+   ○ D) A person who sells land for development
+@MCQ
+2. What is a main difference between an architect and a contractor?
+@OPT
+   ○ A) Architects have offices; contractors do not
+   ○ B) The architect designs and supervises; the contractor builds the work
+   ○ C) Architects only work in cities; contractors work everywhere
+   ○ D) Architects use only drawings; contractors use only tools
+@MCQ
+3. How is most architectural work paid for?
+@OPT
+   ○ A) Only by government money
+   ○ B) Only by selling buildings
+   ○ C) By a fee from the client, whether private, public or institutional
+   ○ D) By charging high prices to poor families
+@MCQ
+4. Which is an example of a project brief?
+@OPT
+   ○ A) Making profit for shareholders
+   ○ B) A school needing eight classrooms, a library and safe outdoor space
+   ○ C) Following the contractor's instructions exactly
+   ○ D) Keeping the drawings secret from the client
+_300

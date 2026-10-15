@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Architecture | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Architecture Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: Architect Interview Understanding
+@SPEECH
+~Architect: Hello, my name is Rana. I work for an architecture office in Kathmandu called Courtyard Studio. Our office designs houses and small schools for families and communities that need new buildings.
+~Architect: We have architects, engineers and a surveyor who visit sites every week. We measure the land, study the sun and wind, and prepare drawings. We also check the work while it is being built.
+~Architect: Our office receives work from private clients and from municipalities who trust our drawings. Students from the university also help us as interns. Our goal is simple - we want every family to have a safe, comfortable home.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Architectural Practice - True or False
+@SPEECH
+^Senior Architect: There are many kinds of architectural practice in Nepal. Some offices focus on housing, others on public buildings, and many work on repairing damaged structures. The Order of Nepali Engineers and Architects registers all of them.
+^Senior Architect: Housing architects design apartment blocks and family houses. Conservation architects repair old buildings in the historic quarters. Landscape architects design gardens, courtyards and public squares.
+^Senior Architect: International consultants also work in Nepal alongside local offices. Together, they prepare designs for thousands of buildings every year. All architects share the same goal - to make places that serve the people who use them.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Design Aims and Goals Understanding
+@SPEECH
+~Architect: Our housing office works to make sure every family can have a safe home. We design apartment blocks in districts where housing was destroyed. We also train young architects so the drawings are accurate.
+^Senior Architect: My office works on conservation. We repair old stone buildings and vaulted roofs. We teach owners why original materials and old craft techniques matter for the future of the city.
+~Landscape Architect: We are a landscape practice. We believe streets and squares deserve shade and water. We design courtyards, gardens and planting for public spaces.
+^All Architects: All of us are registered with the Order. We work for private clients, municipalities and institutions. We have interns from the university who help us every day. This is why we can continue serving communities.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Architecture Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: Architecture Careers and Roles | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Architecture Job Descriptions
+@SPEECH
+~Narrator: An architect works in a design office. The architect studies the site, decides the arrangement of the rooms, and prepares the drawings the builders will follow.
+~Narrator: A draughtsman in an architecture office produces the accurate technical sheets. The draughtsman sets out the dimensions, adds the annotation, and keeps every sheet of the set consistent.
+~Narrator: A project manager organizes the work of all staff. The project manager plans the stages, assigns tasks, and makes sure the drawings are issued when the site needs them.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in architecture offices?
+^Architect: I have worked in offices for eight years. I started as an intern and became a junior architect after two years.
+~Interviewer: What cities have you worked in?
+^Architect: I have worked in Casablanca, Rabat, and Fès. I have prepared drawings for thousands of flats in different repair programmes.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with Project Architect
+@SPEECH
+~Interviewer: Tell us about your work in the office.
+~Coordinator: I am a project architect. I plan the design stages, manage the drawing set, and supervise the site. I have worked here for four years. Every day is different. Some days I am drawing and other days I am on scaffolding.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the lack of materials. We have very limited cement and steel and some items cannot be obtained at all. We must be resourceful and specify what is actually available. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many offices run training programmes for young architects. These programmes teach graduates who cannot learn detailing at university. Tutors in these programmes are experienced architects from the office. They provide lessons in drawing, detailing, and site practice. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Office Challenges
+@SPEECH
+^Speaker1: Working in an architecture office is very challenging. We have limited fees, which means we cannot employ enough staff. Sometimes one technician draws a whole block alone.
+~Speaker2: I agree. We also struggle with transport. Many sites are far away, and we have only two vehicles for the whole office, so survey visits have to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as a draughtsman. Have you thought about training toward a project architect position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, project management, and communication ability. We can provide training through our own mentoring and site rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility in the office.
+_200d
+@H2 Unit 3: Standards, Codes and Professional Bodies | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Regulatory Vocabulary in Action
+@SPEECH
+^Worker1: When the earthquake struck, we immediately mobilized our assessment teams. We started with a rapid survey of the worst-affected blocks, recording cracks and deflections street by street.
+~Worker2: The older blocks were extremely vulnerable. Many had been built before the seismic code and had no ties at the column joints. Our priority was to prop the unstable floors and keep people out of them.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a submission is rejected, we must respond immediately. Our team should be prepared to revise at any time. If we don't resubmit quickly, the project may be delayed for months.
+^Worker: I understand. We have been trained to read the code carefully. We are told to check the fire requirements first. Should we also coordinate with the structural engineer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can clear every comment in one revision.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Building Assessment Process
+@SPEECH
+^AssessmentTeam: When we arrive at a damaged building, we immediately start gathering information. We interview residents about what they saw and heard during the damage. We observe the extent of cracking in walls, columns and floors. We photograph and measure every opening and deflection. We evaluate the roof and the drainage to prevent further water damage. We identify which parts are unsafe to enter. This assessment typically takes one or two days but guides every repair decision that follows.
+~Coordinator: Based on the assessment, we prioritize the work. Immediate priorities include propping unstable elements and making the building weathertight. Second priority is repairing the structure itself. Then we focus on services, finishes, and making rooms usable again. Long-term upgrading comes after the building is safe. The assessment is shared with the municipality and the owner to avoid disagreement and ensure the whole building is covered.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Approval Challenges
+@SPEECH
+~Reviewer: Reviewing repairs to existing buildings presents extreme challenges. We lack records and drawings for most older blocks. We discover conditions only once the plaster is removed. Proposals often arrive too late for the season. Despite these obstacles, we do our best with the evidence available. We prioritize the requirements that protect life. This is why a survey before submission is essential.
+^FireOfficer: The fire separation situation is critical. Shops on the ground floor open directly into the stair that serves the flats above. This creates a high risk of smoke reaching every landing. We work quickly to install fire doors and protect the stair enclosure. We train owners to keep the escape route clear. Without separation, deaths from smoke can exceed those from the fire itself.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Regulatory Work
+@SPEECH
+~Field Worker: I came to this work because I wanted buildings to be safe. The first year was overwhelming—I read codes I had never imagined existed. I learned that regulatory work requires both technical knowledge and patience with people. I saw families move into blocks I had helped approve and schools reopen after repair. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Site Survey and Technical Drawing | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Survey Skills in Action
+@SPEECH
+~Worker1: I work as a survey technician. I use method to record every room, opening and wall thickness in order. I must be patient because an occupied flat takes time, and careful because one wrong reading moves a whole wall on the drawing.
+^Worker2: As a project architect, I need organization skills to manage many drawings at once. I also need judgement when the survey contradicts the record drawings, and flexibility because buildings here are rarely square or as they were originally built.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Drawing
+@SPEECH
+^Trainer: When we train new architects, we focus on developing both instrument and drawing skills. A good surveyor must know how to use a level, but must also record readings in a way others can follow. A good draughtsman must draw accurately, but must also understand what the builder will do with the sheet.
+^Trainer: We teach that precision is not something you are born with—it is something you develop through practice. Architects learn precision by checking their own work before anyone else sees it. Learning from an error on site is more valuable than never taking responsibility for a drawing. We want our staff to be confident enough to sign their work even when the building is complicated.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Drawing Skills
+@SPEECH
+~Surveyor: As a surveyor on an old building, I must combine instrument accuracy with judgement. I take readings carefully, but I also decide which of a crooked wall's many thicknesses to record. Many walls are out of plumb by fifty millimetres. I use a check dimension on every room so my drawing closes. This requires instrument skill and honest recording.
+^Manager: As project architect, I coordinate many drawings and consultants. I must have organizational skills to manage revisions and issue sheets. I must have leadership to keep a team drawing to the same standard. I need problem-solving abilities when the survey contradicts the record drawings. Perhaps most important, I must have integrity so my team trusts what I sign.
+~Community Worker: Drawing for an occupied building requires very different skills than drawing a new one. I must build trust with residents over weeks so they let me measure their rooms. I can never be rushed—access takes time. I need flexibility because each flat has been altered differently. I must be humble enough to learn the building from the people who live in it. This is how we produce a survey nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many architects develop their best skills not in lectures but on site. A technician learns detailing by seeing a junction built, by watching water find the one gap, and by correcting a sheet that a foreman could not follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New technicians work alongside experienced ones so an error is caught on paper rather than in concrete.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Worker1: I came to architecture from engineering drawing with plenty of technical experience but no idea about old buildings. My first year was overwhelming. I made mistakes and felt discouraged. But my supervisor was patient. She showed me how to survey when walls were cracked, when rooms were out of square, when we had no record drawings. Over time, I developed new skills and became much stronger. Now I mentor younger technicians.
+^Worker2: I was a good draughtsman in a factory, but building work was different. In the factory, every component was identical. On a building, I had to record something that had been altered for a century. I learned to be systematic and accept that perfect regularity was impossible. I learned that a careful survey with honest notes serves the builder better than a tidy drawing that hides the problem. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: Design Project Basics | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Project Architects Explain Planning
+@SPEECH
+~Manager1: In my housing project, we began by visiting ten staircases and asking residents what makes the building hardest to live in. We learned that water coming through the roof caused most of the damage, not the cracks everyone had been talking about.
+^Manager2: My school project required careful budgeting because funds were limited. I had to choose between a new building and repairing three damaged ones. I chose construction the community could maintain itself, using materials their own masons could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Project Discussion
+@SPEECH
+~Coordinator: When we plan a project, several grammatical structures help explain our work clearly. We say "The client must approve the scheme before we detail it" using modals. We explain "If we survey carefully, the drawings will be right" using conditionals. We describe "The site is visited by our team" using passive voice to show the action.
+~Coordinator: We say "We visit the site to understand its levels" showing purpose. We explain order with words like "First we brief, then we design, finally we inspect." Using varied grammatical structures helps us communicate project concepts clearly to international consultants, local clients, and our own staff team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Project Architects Explain Challenges
+@SPEECH
+^Manager1: In my school project, I faced a challenge when trained site staff left because of long distances from their families. We had invested in their training and then suddenly they were gone. The solution was to improve compensation and housing for all staff. We also hired extra technicians and cross-trained them so leaving staff would not stop the work. The lesson was that project planning must account for retention and welfare.
+~Manager2: My housing project faced material delays. We had promised the residents the block would be finished in three months but the cement arrived two months late. Residents became frustrated even though the delay was not our fault. The solution was transparent communication explaining the real reasons for delay. We also adjusted the programme and involved resident representatives in planning changes. Now I always build extra time into project programmes for unexpected delays.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Design Planning
+@SPEECH
+~Community Member: When the architects came to our block, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They walked every staircase with us and changed the drawings after we spoke.
+^Project Architect: From my side, I have learned that taking the brief and holding meetings takes much longer than clients expect. They want drawings in weeks. But the time spent before drawing is what makes the building suit the people who will live in it.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Project Lessons Learned
+@SPEECH
+~Manager1: One critical lesson I learned is that clear communication prevents 90 percent of project problems. When clients, contractors, and staff all understand the same drawings and programme, everyone works together. When communication is unclear, misunderstandings grow into claims and disputes. Now I spend significant time ensuring all parties understand exactly what will be built, when, and at what cost. This prevents assumptions and surprises.
+^Manager2: Another lesson is build relationships before problems appear. If you have not spent time getting to know the contractor and the client before something goes wrong, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis on site.
+_200d
+@H2 Unit 6: Working with Clients and Communities | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Residents
+@SPEECH
+~Community Member: When the architects came, they asked what we wanted for our school building. They did not tell us what we would be getting. We chose where the entrance should be and which classrooms to repair first, and we are proud of the result.
+^Community Member: A courtyard scheme failed here before this one. The office decided everything without asking. They closed the only shaded space we had and nobody maintained what they built. This time we were asked, and the block looks after its own roof.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Consultation Vocabulary in Use
+@SPEECH
+^Leader: When architects work with us, not for us, the language changes. They use phrases like "together we decided" instead of "we informed them." They use passive voice "the residents' ideas were incorporated" showing respect for our input. They express gratitude "we deeply appreciate your participation" making us feel valued. This language reflects genuine partnership.
+^Leader: Language reveals whether architects truly value partnership or just use the word. Real partners say "we understand your preference" when discussing disagreements. They say "this was a shared decision" even when they had more power. Language shapes how people interact. Respectful language creates better relationships than commanding language.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~Project Architect: From our side, we want to give residents what they ask for but have limited budgets. We cannot build everything people want. We have funder requirements meaning we cannot do exactly what residents prefer. So we must navigate between residents' wishes, funder requirements, and realistic costs. Good partnerships require honest conversations about these constraints. We have learned that residents accept limits when we explain openly. They feel disrespected when we pretend to have money we do not have.
+^Community Member: From the district, we want respect and honesty. We understand architects have constraints. We accept limits when decisions are made fairly including our voice. What frustrates us is when architects make decisions claiming they are ours when we never agreed. We want credit for our contribution not to feel like passive recipients. We want to know that our participation actually changes the drawings not just listening with no real influence.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Consultation
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending expertise. When residents ask a technical question about their structure, I tell them I will check with the engineer and come back with an answer.
+~Manager: I also learned to say "we cannot do that" clearly. Residents sometimes ask for work beyond the scope we are funded for. Saying so honestly, and helping them find another route, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Worker1: Building partnerships is like building friendships. You cannot rush it. You must spend time getting to know people. You must show up consistently not just when you need a signature. You must remember what people told you and follow up. You must keep small promises so people trust you with bigger ones. You must admit mistakes and apologize. This takes time but creates relationships that survive difficulties on site.
+~Worker2: I noticed that partnerships develop through small successes. Start with a small visible improvement where success is quick, such as repairing a stair or a shared entrance. This builds confidence and trust for larger work. Also, celebrate completions together. Let residents take pride in the building. Name it as their achievement. This builds ownership and motivation for the next phase.
+_200d
+@H2 Unit 7: Designing for Health and Education | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Designer Stories
+@SPEECH
+~Architect: When I started working on schools, I realized the building and the learning are inseparable. Children in damp, dark classrooms were ill and absent. The hygiene lessons meant nothing because there was no water anywhere in the building.
+^Teacher: I began a hygiene unit in my class. I taught about washing and clean water. But pupils could not practise any of it because there was no trough and no supply. Once the architect added water, the lesson finally changed what children actually did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Building Quality Language
+@SPEECH
+~Manager: Quality in health and education buildings depends on well-trained site staff. We invest heavily in training because the trades are our main resource. Better workmanship leads to better buildings. But workmanship is not enough. We must also have sound detailing, clean water supply, and strong supervision. Quality means consistently good building not just good building sometimes. Users notice quality immediately. They prefer buildings where rooms are light, warm in winter, and easy to clean. Quality creates trust that leads to higher use.
+^Manager: I learned that quality is also about listening to users. What we think is quality might not match what users experience as quality. We conduct regular feedback visits after handover. Users tell us that a door that closes properly matters as much as a striking elevation. A clinic that is hard to clean creates a poor experience even if it is technically sound. Quality requires both competence and care.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Access Barriers
+@SPEECH
+~Worker1: We recognized that distance was our biggest barrier. Families could not reach the district clinic easily. So we moved the building closer. We designed small health posts that village masons could build locally. For complex cases, the post refers families on to the clinic. This reduced the distance barrier immediately. Attendance increased dramatically when the building came to people instead of expecting people to travel to it.
+^Worker2: Cost was our barrier. Owners wanted repairs but could not afford full reconstruction. We discovered that staged repair worked better than a single large scheme. Owners were more likely to maintain work they had paid toward. We designed repairs in stages so families could pay over time. We provided free structural propping for the poorest households. We charged full rates on commercial floors, which helped subsidize the flats above. This mixed approach ensured the work continued and that owners valued it.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Buildings Successfully
+@SPEECH
+~Manager: Integration requires clear zoning. We defined which part of the site is clinical and which is school. The clinic keeps its own vehicle route from the side street, and the school keeps its yard free of traffic.
+~Manager: Integration also requires honest communication about problems. Sometimes construction arrived when the school was examining. Sometimes the clinic wanted water pressure the shared tank could not give. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and allowed the layout to be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Family Impact from Better Buildings
+@SPEECH
+~Mother: My daughter started school but the classroom was cold and damp and she was often ill, missing class frequently. The architect added a dry floor and a stove flue. After the repair, she had energy and attended school consistently. Coordinating the health room and the classroom caught problems that were blocking her learning. Now she is learning quickly.
+^Father: The school now has a trough and clean water, and our son teaches us what he learned about washing. He checks his younger brothers before meals. What the building makes possible actually reaches our home and changes family practice. Before, the lessons were there but the water was not. Now it all connects. Our family is healthier and the children learn better.
+_200d
+@H2 Unit 8: Evaluating Building Performance | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Review Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to User Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Performance Chain Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Review Interpretation
+_200d
+@H2 Unit 9: Sustainable Design and Practice Growth | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Roll-out Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Municipal Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Local Funding Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to a Roll-out Success Story
+_200d
+@H2 Unit 10: Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to Resident Advocacy Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to Policy Maker Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Coalition Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Advocacy Results Reflection
+_200d

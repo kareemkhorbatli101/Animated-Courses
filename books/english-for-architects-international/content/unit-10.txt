@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: Advocacy and Professional Communication
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Advocacy Discussion
+@INSTR Discuss what advocacy means and why architects engage in it.
+_80
+@BULLET
+What is advocacy and why do architects do it rather than just producing drawings?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Individual Level
+2. | Neighbourhood Level
+3. | Municipal Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | International charters and support for protecting damaged heritage
+b) | Strengthening residents' committees and their collective voice
+c) | Changing how one owner or family builds and maintains their home
+d) | Changing national building codes and laws affecting the whole country
+e) | Changing district plans, setbacks and permit procedures
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for architectural work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve an architect's effectiveness?
+_300
+@EX Warm-Up: Coalition Building Discussion
+@INSTR Discuss why professionals work together in coalitions.
+_80
+@BULLET
+Why do architects form coalitions and networks with engineers, planners and conservation bodies?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A survey report showing 60% of blocks in a district have unsafe stairs  ____________________________
+2. A film following three families living in a building awaiting repair  ____________________________
+3. Analysis showing blocks with seismic ties suffered far less damage  ____________________________
+4. Residents' accounts of what winter is like in an unrepaired flat  ____________________________
+5. A cost study showing repair is cheaper than demolition and rebuilding  ____________________________
+6. A media campaign quoting owners about what their quarter meant to them  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Advocacy Campaign
+2. | Coalition
+3. | Evidence-Based Advocacy
+4. | Resident Voice
+5. | Accompaniment
+6. | Alliances
+7. | Power Dynamics
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Networks of professional bodies working toward common aims
+b) | Using survey data and measurements to convince decision-makers
+c) | Residents representing their own interests directly to the authority
+d) | An organized effort to change policies and rules affecting the built environment
+e) | Professionals assisting without taking over residents' decisions
+f) | The ability to influence decisions and budgets, held by individuals and institutions
+g) | Networks connecting like-minded offices for learning and coordination
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Equity Policy
+3. | Policy Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using research and measurement to design and review building policy
+b) | A municipal official sympathetic to reform and willing to support change
+c) | Solving problems by understanding how land, services and codes interconnect
+d) | Spreading a successful local rule or detail so it applies nationally
+e) | A rule that intentionally helps disadvantaged households overcome barriers
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most architectural advocacy?
+@OPT
+   ○ A) To improve municipal efficiency and reduce paperwork
+   ○ B) To change rules and systems so residents can get safe, usable buildings
+   ○ C) To replace municipal departments with private offices
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for advocacy planning.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning an advocacy campaign?
+_300
+@EX Part 1: Rights-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about rights-based advocacy.
+_80
+@MCQ
+1. What is a "rights-based approach" to architectural work?
+@OPT
+   ○ A) Framing adequate housing as a right rather than charity or assistance
+   ○ B) Working only with the authority without involving residents
+   ○ C) Producing drawings without requiring resident participation
+_300
+@EX Part 1: Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Representation
+2. | Media Advocacy
+3. | Legal Advocacy
+4. | Public Exhibition
+5. | Neighbourhood Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Residents sending letters and petitions to the municipal council
+b) | Press coverage of a damaged quarter raising public awareness and pressure
+c) | Direct meetings with planning officials to present survey evidence
+d) | A legal challenge to a demolition order issued without proper survey
+e) | Displaying drawings and models publicly so residents can comment
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A press campaign highlighting unsafe stairs in a district  ____________________________
+2. Building a coalition of professional bodies for sustained advocacy  ____________________________
+3. A public exhibition of survey findings at the municipal hall  ____________________________
+4. Developing policy champions inside the planning department  ____________________________
+5. Releasing a report showing repair costs less than demolition  ____________________________
+6. Creating residents' networks for ongoing voice in planning decisions  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Advocacy Messages
+@INSTR Write persuasive advocacy messages using strong language.
+_80
+@NUM 100
+1. Write advocacy messages targeting municipal officials about funding structural repair rather than demolition.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyze policy impact.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if the seismic code were enforced on existing buildings.
+_300
+@EX Part 2: Argument Structure for Policy Briefs
+@INSTR Complete argumentative sentences for policy briefs.
+_80
+@OPTLINE
+1. The evidence __________ that repairing sound structures costs less than rebuilding them. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Residents' Demands
+@INSTR Write statements reporting residents' demands clearly.
+_80
+@NUM 100
+1. Write advocacy statements reporting residents' demands about water supply and drainage in their quarter.
+_300
+@EX Part 2: Academic Language for Research Reports
+@INSTR Complete academic sentences for advocacy research reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that courtyard housing reduces summer cooling demand. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Coalition Documents
+@INSTR Write inclusive statements for multi-body advocacy.
+_80
+@NUM 100
+1. Write statements that unite architects, engineers and planners toward shared aims.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Resident Advocacy Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to a residents' representative speaking about an advocacy experience.
+_80
+@QUESTION
+1. What change did the representative say resulted from their advocacy efforts?
+_300
+@EX Part 3: Listening to Policy Maker Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to a municipal official discussing how a rule was changed.
+_80
+@MCQ
+1. According to the official, what most influenced the decision to change the repair policy?
+@OPT
+   ○ A) International funder pressure alone
+   ○ B) A combination of resident pressure, evidence that repair works, and political feasibility
+   ○ C) Requests from offices without resident involvement
+_300
+@EX Part 3: Listening to Coalition Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to professional leaders describing how a coalition formed.
+_80
+@QUESTION
+1. What were two main challenges the coalition faced when bringing bodies together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to advocacy strategists planning their approach.
+_80
+@MCQ
+1. What did the strategists identify as the most important first step in campaign planning?
+@OPT
+   ○ A) Launching a press campaign immediately
+   ○ B) Conducting stakeholder analysis to understand all perspectives and influences
+   ○ C) Going directly to the municipality with demands
+_300
+@EX Part 3: Listening to Advocacy Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to advocacy leaders reflecting on campaign outcomes.
+_80
+@QUESTION
+1. How did the advocacy leaders describe what made their campaign successful and where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Advocacy campaigns that combine resident mobilization with evidence-based arguments are more effective than single-strategy approaches. Residents must lead advocacy efforts for lasting accountability and ownership. Authorities respond to a combination of pressure and political feasibility—advocacy must address what is possible, not just what is ideal."
+            Is the following true, false, or not given? "Advocacy works best when offices lead without much resident involvement."
+_300
+@EX Part 4: Reading About Policy Change Theories
+@INSTR Complete based on reading about policy change.
+_80
+@NUM
+1. According to the reading about policy change, municipal decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when several measures at different levels reinforce one another. One rule change alone may have limited effect, but combined with builder training, grants, and shifted expectations, change becomes self-sustaining. Effective systems change requires coordinated action across several bodies and disciplines. This explains why coalitions become essential for advocacy aimed at changing the system rather than completing one building."
+            Is the following statement true, false, or not given? "Systems change can be achieved by a single office without any coalition."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on the reading, what are two reasons why combining survey evidence with residents' accounts is more effective than using either alone?
+_300
+@EX Part 4: Reading About Power Analysis in Advocacy
+@INSTR Read about power analysis in the advocacy context.
+_80
+@NUM 100
+1. Read: "Understanding power is essential for effective advocacy. Power analysis examines who holds decision-making authority, who influences decisions, who would gain from change, who gains from the present arrangement, and how power is distributed among stakeholders. Different stakeholders have different sources of power—formal authority (the municipality), money (developers), knowledge (engineers and surveyors), numbers (residents), collective voice (professional bodies). Effective advocacy identifies where power lies, builds coalitions with power holders who can be influenced, mobilizes residents (power through numbers), and creates new power (coalition, evidence, public attention) where little existed before."
+            According to the text, can residents create power through organizing even if they lack formal authority or money?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about advocacy review.
+_80
+@NUM
+1. What indicators show that an advocacy campaign is creating change at different levels (household, quarter, policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Advocacy Meeting with the Municipality
+@INSTR Role-play a meeting advocating for a change in repair policy.
+_80
+_300
+@EX Part 5: Presentation - Advocacy Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching an advocacy campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "Repair Before Demolition: Safe Homes for Every Quarter." Include: problem statement, evidence, who is affected, what change you are demanding, how residents can take part, timeline for the campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to advocacy and strategies to overcome them.
+_80
+@BULLET
+What are common barriers that advocacy campaigns face and how can professional bodies overcome them?
+_300
+@EX Part 5: Role Play - Raising Local Funds for a Campaign
+@INSTR Role-play asking residents to contribute to an advocacy campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing an Advocacy Campaign Strategy
+@INSTR Write a strategic plan for an advocacy campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Policy Brief for Decision Makers
+@INSTR Write a policy brief advocating for a specific municipal action.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Coalition Charter
+@INSTR Write a charter describing how coalition members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Advocacy Message for a Media Campaign
+@INSTR Write compelling advocacy messages for public awareness.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Consultation
+@INSTR Connect Turkish consultation principles to coalition advocacy.
+_80
+@NUM 100
+1. In Turkish practice, "istişare" means that community matters are settled by consultation among those affected. How does this relate to professional coalition work and resident-led advocacy?
+_300
+@EX Part 7: Community Principles - Social Justice
+@INSTR Discuss principles of justice in systemic advocacy.
+_80
+@NUM 100
+1. In Turkish civic tradition, the pursuit of justice means working to remove oppression and unfair treatment and to ensure rights for all. How does this principle relate to architectural advocacy focused on systems change?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Advocacy
+2. | Coalition
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | Resident Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Residents representing their own interests directly
+b) | Networks of professional bodies working toward common aims
+c) | Using survey evidence and measurement to convince decision-makers
+d) | Understanding how land, services, codes and costs interconnect
+e) | Working to change the rules and systems that shape buildings
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes advocacy campaigns most effective?
+@OPT
+   ○ A) Professional expertise without resident involvement is sufficient
+   ○ B) Resident leadership combined with evidence, coalition power, and strategic engagement with the authority
+   ○ C) Immediate policy change with no need for sustained effort
+_300
+_-p
