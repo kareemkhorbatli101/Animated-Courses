@@ -274,9 +274,13 @@ class Doc:
                       after=after, pbb=pbb))
 
     def new_list(self):
-        for abstract in (NUM_BULLET, NUM_DECIMAL):
-            self.lists.append(abstract)
-            self.cur[abstract] = len(self.lists) + 2
+        """The source's generator never restarts its list: every bullet in the
+        book, front matter to appendix, carries numId 1.  So this allocates
+        once and later calls are no-ops."""
+        if not self.lists:
+            self.lists.append(NUM_BULLET)
+        self.cur[NUM_BULLET] = 1
+        self.cur[NUM_DECIMAL] = 1
 
     # -- front matter ----------------------------------------------------
     def title_page(self, title, level, author, year):
@@ -303,9 +307,13 @@ class Doc:
                       keep=True, keeplines=True, pbb=(key != "Warm Up"),
                       fill=PART_FILL[key], after=300, left=200, right=200))
 
-    def exercise(self, text):
+    def exercise(self, text, before=250):
         self.add(para(run(text), style="Heading3", keep=True, keeplines=True,
-                      before=250, after=150))
+                      before=before, after=150))
+
+    def plain(self, text, left=None, before=None, after=None):
+        """The one-off paragraphs the appendix preamble uses."""
+        self.add(para(run(text), before=before, after=after, left=left))
 
     def instruction(self, text, part):
         """The instruction box carries the tint of the part it sits in."""
@@ -549,12 +557,18 @@ class Doc:
     def strip(self, items, cols=5):
         """The answer-key strip: "1. " bold, then the answer, five to a row.
 
-        The source sizes the columns from the number of answers it actually has
-        rather than from the five slots it lays out, and leaves the grid widths
-        of whatever table it cloned.  Reproduced rather than tidied.
+        The source sizes the cells and the grid from how many answers the strip
+        actually carries, and leaves the unused columns as 26-twip slivers.  The
+        one strip that runs to two rows keeps the widths Word recalculated for
+        it.  Both are reproduced rather than tidied.
         """
         n = min(len(items), cols)
-        width = 5000 // n
+        WIDTH = {1: 5000, 2: 2500, 3: 1650, 4: 1250, 5: 1000}
+        GRID = {1: (9816, 26, 26, 26, 26), 2: (4921, 4921, 26, 26, 26),
+                3: (3267, 3267, 3267, 93, 26), 4: (2473, 2473, 2474, 2474, 26),
+                5: (1984, 1984, 1984, 1984, 1984)}
+        width = WIDTH[n]
+        grid = GRID[n] if len(items) <= cols else (6069, 950, 1020, 761, 1120)
         out = []
         for i in range(0, max(len(items), 1), cols):
             chunk = list(items[i:i + cols])
@@ -564,7 +578,7 @@ class Doc:
                 cs.append(f'<w:tc><w:tcPr><w:tcW w:w="{width}" w:type="pct"/>'
                           + NOBORDER + "</w:tcPr><w:p/></w:tc>")
             out.append(cs)
-        self.add(table(out, (2473, 2473, 2474, 2474, 26), TBL_STRIP, TR_STRIP))
+        self.add(table(out, grid, TBL_STRIP, TR_STRIP))
 
     def write_lines(self, n=10):
         rows = [[cell([para("")], width="auto", bdr=RULED, mar=(50, 200, 50, 200),
@@ -627,7 +641,17 @@ class Doc:
 
         styles = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                   f"<w:styles {NS}>"
-                  '<w:docDefaults><w:rPrDefault/><w:pPrDefault/></w:docDefaults>'
+                  # The source names Times New Roman as the document default and leaves
+                  # the paragraph defaults empty.  Both halves matter: the font
+                  # decides where every heading wraps, and an empty pPrDefault
+                  # keeps the page count — filling it in costs about 8% more pages.
+                  '<w:docDefaults><w:rPrDefault><w:rPr>'
+                  '<w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman"'
+                  ' w:hAnsi="Times New Roman" w:cs="Times New Roman"/>'
+                  '<w:lang w:val="en-US" w:eastAsia="en-US" w:bidi="ar-SA"/>'
+                  '</w:rPr></w:rPrDefault><w:pPrDefault/></w:docDefaults>'
+                  '<w:style w:type="paragraph" w:default="1" w:styleId="Normal">'
+                  '<w:name w:val="Normal"/><w:qFormat/></w:style>'
                   + st("Title", "Title", '<w:rPr><w:sz w:val="56"/>'
                                          '<w:szCs w:val="56"/></w:rPr>')
                   + st("Heading1", "Heading 1", '<w:rPr><w:color w:val="2E74B5"/>'
@@ -686,37 +710,20 @@ class Doc:
                     'w:uri="http://schemas.microsoft.com/office/word" '
                     'w:name="compatibilityMode"/></w:compat></w:settings>')
 
-        def levels(fmt_, texts, font=None):
-            out = []
-            for i in range(9):
-                t = texts[i % len(texts)]
-                out.append(
-                    f'<w:lvl w:ilvl="{i}"><w:start w:val="1"/>'
-                    f'<w:numFmt w:val="{fmt_}"/><w:lvlText w:val="{t}"/>'
-                    f'<w:lvlJc w:val="left"/><w:pPr><w:ind w:left="{360 * (i + 1)}" '
-                    f'w:hanging="360"/></w:pPr>'
-                    + (f'<w:rPr><w:rFonts w:ascii="{font}" w:hAnsi="{font}" '
-                       f'w:hint="default"/></w:rPr>' if font else "")
-                    + "</w:lvl>")
-            return "".join(out)
-
+        # The source defines exactly one list: nine bullet levels whose glyphs
+        # cycle ● ○ ■ as literal characters rather than Symbol-font code points,
+        # indented in 720-twip steps.  Word's own hybridMultilevel default would
+        # put F0B7 in a Symbol run instead, which renders as nothing at all in
+        # anything but Word.
         numbering = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
                      f"<w:numbering {NS}>"
-                     '<w:abstractNum w:abstractNumId="1">'
+                     '<w:abstractNum w:abstractNumId="0">'
                      '<w:multiLevelType w:val="hybridMultilevel"/>'
-                     + levels("bullet", ["", "o", ""], "Symbol")
+                     '<w:lvl w:ilvl="0"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="●"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="720" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="1"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="○"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="1440" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="2"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="■"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="2160" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="3"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="●"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="2880" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="4"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="○"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="3600" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="5"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="■"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="4320" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="6"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="●"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="5040" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="7"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="●"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="5760" w:hanging="360"/></w:pPr></w:lvl><w:lvl w:ilvl="8"><w:start w:val="1"/><w:numFmt w:val="bullet"/><w:lvlText w:val="●"/><w:lvlJc w:val="left"/><w:pPr><w:ind w:left="6480" w:hanging="360"/></w:pPr></w:lvl>'
                      + "</w:abstractNum>"
-                       '<w:abstractNum w:abstractNumId="2">'
-                       '<w:multiLevelType w:val="hybridMultilevel"/>'
-                     + levels("decimal", ["%1.", "%2.", "%3.", "%4.", "%5.",
-                                          "%6.", "%7.", "%8.", "%9."])
-                     + "</w:abstractNum>"
-                     + "".join(f'<w:num w:numId="{i + 3}">'
-                               f'<w:abstractNumId w:val="{a}"/>'
-                               + "".join(f'<w:lvlOverride w:ilvl="{l}">'
-                                         f'<w:startOverride w:val="1"/></w:lvlOverride>'
-                                         for l in range(9))
-                               + "</w:num>" for i, a in enumerate(self.lists))
+                       '<w:num w:numId="1"><w:abstractNumId w:val="0"/>'
+                       '<w:lvlOverride w:ilvl="0"><w:startOverride w:val="1"/>'
+                       '</w:lvlOverride></w:num>'
                      + "</w:numbering>")
 
         ct = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'

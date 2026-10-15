@@ -215,3 +215,67 @@ python3 qa/answers.py  <src.docx>             # per-answer parity in Appendix B
 python3 qa/partial.py  <src.docx>             # progressive parity while writing
 python3 qa/outline.py  <doc>                  # dump any document in reading order
 ```
+
+---
+
+## 6 · Verification
+
+The twin was measured against the source at every level the file format exposes.
+
+| pass | result |
+| --- | --- |
+| `qa/check.py` — 30 structural metrics | all 30 identical, 0 differ |
+| `qa/spacing.py` — full layout, element by element | 5,455 of 5,455 elements, **0 differ** |
+| run formatting, text lengths ignored | 5,455 of 5,455 elements, **0 differ** |
+| `qa/answers.py` — Appendix B answer density | 620 of 620 answers, 0 more than 20 words short; 25,768 words against 25,758 (100.0 %) |
+| paragraph-by-paragraph length | 7,346 pairs; the largest gap is 17 characters; +90 words over the whole book (+0.14 %) |
+| package integrity | 10 parts, every XML part well-formed |
+| LibreOffice render | **257 pages against 257** |
+| section openings in the render | all 43 — the contents page, ten unit openings, both appendix openings, and the twenty unit heads inside the Answer Key and the Audio Scripts — fall on the identical page |
+| per-page line counts in the render | 254 of 258 pages identical; on the other four the twin is one line **more compact**, so no page ever overflows its source |
+
+The element counts that matter are exact: 7,346 paragraphs, 2,300 blank
+spacers, 264 tables with 953 rows and 2,155 cells, 89 part bars, 137
+instruction boxes, 171 reading panels, 407 Heading3 exercise titles, 620 answer
+blocks, 92 track heads, 70 audio chips, 132 play notes, 79 bulleted list
+paragraphs, 224 fill-in blanks, 120 🔊 and 36 📝.
+
+### Two things the source file settles that a twin can get wrong
+
+- **The default font.** The source names Times New Roman in
+  `docDefaults/rPrDefault` and leaves `pPrDefault` empty. Both halves matter:
+  the font decides where a long heading such as Unit 10's wraps, and an empty
+  `pPrDefault` is what holds the page count — filling it in with the spacing
+  Word would normally put there costs about 8 % more pages.
+- **The bullet glyph.** The source defines one list for the whole book, nine
+  levels cycling ● ○ ■ as literal characters. Word's own `hybridMultilevel`
+  default would write `F0B7` in a Symbol-font run instead, which renders as
+  nothing at all outside Word. All 79 bullets render in both files.
+
+## 7 · Source quirks reproduced rather than straightened
+
+1. The instruction-box tint rotates out of order in the last three parts: Part 6
+   takes Part 8's tint, Part 7 takes Part 6's and Part 8 takes Part 7's, in
+   every unit.
+2. Unit 1 has no Part 6, and so 37 exercises where every other unit has 41.
+3. Unit 7 is "Working with Communities", but its Part 7 reading and Part 8
+   summary are about health and education — Unit 8's subject.
+4. Unit 2 carries four one-off dialogue elements that appear nowhere else.
+5. The answer-key strip sizes its cells from how many answers it carries and
+   leaves the unused columns as 26-twip slivers; the one strip that runs to two
+   rows keeps the widths Word recalculated for it.
+6. Every exercise heading carries a second, undefined `[object Object]`
+   paragraph style, which is what makes the headings render as body text.
+7. Short multiple choices lay their options out inside the stem paragraph,
+   behind fifteen spaces and a line break, instead of as option paragraphs.
+8. Speaker voice colours are assigned per track, not per role: the same job
+   title is blue in one unit and purple in another. All 41 are reproduced
+   track by track (65 female-voice and 506 male-voice paragraphs).
+
+## 8 · Where the twin necessarily differs
+
+- **One extra em dash** (127 against 126), in a country name that needs one.
+- **+90 words** (65,734 against 65,644, +0.14 %), the residue of ten country
+  names and the local institutions, languages and hazards that replace Syria's.
+- **Four pages** out of 258 set one line more compactly, because replacement
+  prose breaks across lines at different words.

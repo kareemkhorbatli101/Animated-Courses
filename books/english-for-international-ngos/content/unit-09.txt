@@ -336,7 +336,7 @@ _300
 @INSTR Connect Indonesian community concepts with sustainable program growth.
 _80
 @NUM 100
-1. In Indonesian tradition, "gotong royong" means working together so that a task benefits everyone who shares it. How does this concept relate to how NGOs should approach program scaling?
+1. In Indonesian tradition, "gotong royong" means working together so all who share a task benefit. How does this concept relate to NGO program scaling?
 _300
 @EX Part 7: Community Principles - Stewardship
 @INSTR Discuss Indonesian stewardship concepts in program sustainability.

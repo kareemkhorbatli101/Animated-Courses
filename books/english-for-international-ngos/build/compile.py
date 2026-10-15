@@ -22,7 +22,7 @@ TITLE = "English for NGOs and International Organizations - Student Book (A2)"
 BLOCK = {"BULLET", "PBULLET", "LINE", "NUM", "QUESTION", "MCQ", "OPT", "CAT", "CATQ",
          "CATITEM", "CLASSIFY", "GAP", "GREYGAP", "SPEECH", "SCRIPT", "ANS",
          "CODE", "CHOICE", "PANEL", "PASSAGE", "MATCHA", "MATCHB", "GRID",
-         "STRIP", "TOC", "DLINE", "NARR", "OPTLINE"}
+         "STRIP", "TOC", "DLINE", "NARR", "OPTLINE", "P"}
 
 # Blank spacers are written out, not inferred: a bare `_300` line is the source's
 # own 300-after blank, `_200d` its dotted separator and `_-p` the one that only
@@ -47,7 +47,8 @@ def parse(path):
             head, _, rest = raw[1:].partition(" ")
             args = [a.strip() for a in rest.split(" | ")] if rest else []
             cur = (head, args, rest.strip(), [])
-        elif cur is not None and raw.strip():
+        elif cur is not None and (raw.strip() or cur[0] == "CODE"):
+            # the VBA listing has blank lines of its own, set on the same grey
             cur[3].append(raw)
     if cur:
         out.append(cur)
@@ -101,7 +102,13 @@ def emit(doc, items, where):
             part = a[0]
             doc.part_bar(a[0], a[1])
         elif tag == "EX":
-            doc.exercise(text)
+            doc.exercise(a[0], *([int(a[1])] if len(a) > 1 else []))
+        elif tag == "P":
+            left = int(a[0]) if a[0] != "-" else None
+            before = int(a[1]) if a[1] != "-" else None
+            after = int(a[2]) if a[2] != "-" else None
+            for l in body:
+                doc.plain(l, left=left, before=before, after=after)
         elif tag == "INSTR":
             doc.instruction(text, part)
         elif tag == "AUDIO":

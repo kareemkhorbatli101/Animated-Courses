@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to NGOs | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: NGO Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: NGO Worker Interview Understanding
+@SPEECH
+~NGO Worker: Hello, my name is Sunita. I work for a health NGO in Nepal called Community Health First. Our organization provides medical services and health education to villages that do not have hospitals.
+~NGO Worker: We have doctors, nurses, and health workers who visit communities every week. We teach people about preventing diseases like typhoid and cholera. We also provide vaccinations for children and mothers.
+~NGO Worker: Our NGO receives support from international donors and from local people who believe in our mission. Volunteers from the community also help us. Our goal is simple - we want every person to be healthy and have access to medical care.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of NGOs - True or False
+@SPEECH
+^NGO Officer: There are many types of NGOs working in Nepal. Some focus on health, others on education, and many work in humanitarian aid during emergencies. The Nepal Red Cross Society is the largest humanitarian organization in the country.
+^NGO Officer: Education NGOs teach children in schools and help adults learn to read and write. Environmental NGOs protect forests and water resources. Women's rights organizations advocate for equality and protection of women and girls.
+^NGO Officer: International NGOs like Red Cross and World Vision also work in Nepal alongside local organizations. Together, they help millions of people every year. All NGOs share the same goal - to make life better for communities.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: NGO Missions and Goals Understanding
+@SPEECH
+~NGO Leader 1: Our education NGO works to make sure every child can go to school. We build schools in rural areas where there are no schools. We also train teachers so children get quality education.
+^NGO Leader 2: My organization is an environmental NGO. We protect trees and forests. We teach communities why water and forests are important for everyone's future.
+~NGO Leader 3: We are a women's rights organization. We believe women and girls deserve respect and safety. We provide legal help and safe places for women in danger.
+^All Leaders: All of us are independent from government. We use donations and grants to fund our work. We have volunteers who help us every day. This is why we can continue helping communities.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: NGO Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: NGO Careers and Roles | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - NGO Job Descriptions
+@SPEECH
+~Narrator: A doctor works in an NGO health clinic. The doctor examines patients, listens to their health problems, and provides medical treatment.
+~Narrator: A teacher in an education NGO teaches children who cannot afford school. The teacher prepares lessons, explains new concepts, and helps students improve their skills.
+~Narrator: A coordinator manages the work of all staff. The coordinator plans projects, assigns tasks, and makes sure everything is organized well.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in NGOs?
+^Worker: I have worked in NGOs for eight years. I started as a volunteer and became a paid staff member after two years.
+~Interviewer: What countries have you visited?
+^Worker: I have worked in Guatemala, Honduras, and El Salvador. I have helped thousands of people through different health programs.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with Health Coordinator
+@SPEECH
+~Interviewer: Tell us about your work in the NGO.
+~Coordinator: I am a health coordinator. I plan health programs, manage the clinic, and train health workers. I have worked here for four years. Every day is different. Sometimes I visit communities to see patients. Sometimes I manage staff and resources.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the lack of resources. We have very limited medicine and equipment. We must be creative and use what we have effectively. But the most rewarding part is seeing patients recover and return to their families healthy.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Education Programs
+@SPEECH
+^Narrator: Many NGOs operate education programs in rural areas. These programs teach children and adults who cannot access regular schools. Teachers in these programs are trained by the NGO. They provide lessons in reading, mathematics, and life skills. Each class has between 20 and 40 students. The programs are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - NGO Challenges
+@SPEECH
+^Speaker1: Working in an NGO is very challenging. We have limited funding, which means we cannot hire enough staff. Sometimes one person does the work of three people. This creates stress and burnout.
+~Speaker2: I agree. We also struggle with transportation. Many communities are far away, and we have only two vehicles for the whole organization. We cannot reach everyone who needs help.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as a field assistant. Have you thought about advancing to a coordinator position?
+^Youth: Yes, I'm interested but I worry I don't have enough training. What skills do I need?
+~Mentor: You need leadership skills, project management, and communication ability. We can provide training through our development program. Many of our current coordinators started as field workers like you.
+^Youth: Thank you. This gives me hope. I want to grow and contribute more to the organization.
+_200d
+@H2 Unit 3: International Organizations | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Humanitarian Vocabulary in Action
+@SPEECH
+^Worker1: When the earthquake struck, we immediately mobilized our emergency teams. We started with rapid assessment of the affected area to understand the scale of destruction. Then we coordinated with other organizations to avoid duplication of efforts. Each organization took responsibility for different sectors like health, food, and water.
+~Worker2: The displaced families were extremely vulnerable. Many had lost everything and lived in temporary shelters. Our priority was to provide emergency relief supplies and medical care. We especially focused on children because they needed protection and psychological support after witnessing the disaster.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When crises occur, we must mobilize immediately. Our teams should be prepared to leave at any time. If we don't respond quickly, lives may be lost.
+^Worker: I understand. We have been trained to handle emergency situations. We are told to prioritize helping the most vulnerable people first. Should we also coordinate with government authorities?
+~Manager: Yes, coordination is essential. We should work together rather than independently. If we coordinate properly, we can serve more people efficiently.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Humanitarian Assessment Process
+@SPEECH
+^AssessmentTeam: When we arrive at a disaster site, we immediately start gathering information. We interview survivors about what happened and their current needs. We observe the extent of physical damage to buildings and infrastructure. We count the injured and assess medical resources available. We evaluate water and sanitation to prevent disease outbreak. We identify missing persons and separated families. This assessment typically takes 24 to 48 hours but guides all our subsequent interventions.
+~Coordinator: Based on the assessment, we prioritize interventions. Immediate priorities include saving lives through medical care and rescue operations. Second priority is providing shelter and emergency supplies. Then we focus on preventing disease through water, sanitation, and health education. Long-term recovery planning comes after the acute emergency phase. The assessment information is shared with all organizations to avoid duplication and ensure comprehensive coverage.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Humanitarian Worker Challenges
+@SPEECH
+~Doctor: Working in conflict zones presents extreme challenges. We lack adequate medical equipment and medicines. We see traumatized patients with severe injuries. Patients often arrive too late for treatment. Despite these obstacles, we do our best with available resources. We prioritize saving lives based on medical urgency. This is why triage systems are essential in crisis situations.
+^WaterEngineer: The water and sanitation situation is critical. Damaged infrastructure means people lack clean water. This creates high risk of diseases like cholera and typhoid. We work quickly to repair water systems and establish hygiene programs. We train community members to maintain basic sanitation. Without clean water access, deaths from preventable diseases can exceed those from direct conflict.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Humanitarian Impact
+@SPEECH
+~Field Worker: I came to do humanitarian work because I wanted to make a difference. The first year was overwhelming—I witnessed suffering I had never imagined. I learned that humanitarian work requires both technical skills and emotional resilience. I saw children reunited with parents and families rebuild homes. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Humanitarian Work and Helping Others | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Skills in Action
+@SPEECH
+~Worker1: I work as a health educator. I use communication skills to teach mothers about child nutrition. I must speak clearly and answer all their questions. I also use patience because some mothers need extra time to understand new ideas. This combination of skills helps families stay healthy.
+^Worker2: As a program coordinator, I need organization skills to manage many projects at once. I also need problem-solving skills because we always face unexpected challenges. When resources arrive late or we must change plans, I use flexibility. My team depends on my leadership to keep everyone motivated and focused on our goals.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Skills
+@SPEECH
+^Trainer: When we train new NGO workers, we focus on developing both technical and soft skills. A good nurse must know medical procedures, but must also communicate with patients respectfully. A good coordinator must organize supplies, but must also lead teams with confidence.
+^Trainer: We teach that resilience is not something you are born with—it is something you develop through practice. Workers learn resilience by handling challenges with support from their teams. Learning from failures is more valuable than avoiding risks completely. We want our workers to be brave enough to try new approaches even when success is not guaranteed.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on NGO Skills
+@SPEECH
+~Doctor: As a doctor in our clinic, I must combine medical science with compassion. I treat patients with urgency, but I also take time to explain their illness and treatment. Many patients are exhausted by long journeys. I use listening skills to understand their emotional needs alongside physical health. This requires medical knowledge and human connection.
+^Manager: As program manager, I coordinate many teams and activities. I must have organizational skills to manage budgets and timelines. I must have leadership to motivate teams who work in difficult conditions. I need problem-solving abilities when we face resource shortages. Perhaps most important, I must have integrity so my team trusts my decisions.
+~Community Worker: Community work requires very different skills than office work. I must develop trusting relationships with families over months and years. I can never be rushed—building trust takes time. I need flexibility because each family's situation is unique. I must be humble to learn from communities instead of imposing outside solutions. This is how we create lasting change.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many NGO workers develop their best skills not in classrooms but in the field. A nurse learns decision-making by treating real patients in difficult conditions. A teacher develops creative teaching when she has no textbooks or supplies. A leader learns to handle crises by actually managing emergencies. This real-world learning is sometimes called 'learning by doing.' It is very powerful.
+^Trainer: However, we must support workers during this learning. Supervision and mentoring are essential. New nurses work alongside experienced nurses. Young teachers observe experienced teachers before teaching independently. Managers receive guidance from senior staff. This combination of challenge and support produces highly skilled workers who can handle complex humanitarian situations. That is why we invest so heavily in ongoing staff development.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Worker1: I came to NGO work as a teacher with classroom experience but no idea about emergency contexts. My first year was overwhelming. I made mistakes and felt discouraged. But my supervisor was patient. She showed me how to teach when schools were damaged, when children were exhausted, when we had no supplies. Over time, I developed new skills and became much stronger. Now I mentor younger teachers.
+^Worker2: I was a good organizer in business, but NGO work was different. In business, we had plenty of resources. In NGOs, I had to accomplish goals with almost nothing. I learned to be creative and accept that perfect solutions were impossible. I learned that good enough, done with care, reaches more people than perfect solutions that never happen. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: Essential NGO Skills and Qualities | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Project Managers Explain Planning
+@SPEECH
+~Manager1: In my health project, we began by visiting ten villages and asking people what health problems they face. We learned that mothers want education about child nutrition and safe water is a major problem. This information shaped our project design completely. Without assessment, we would have made wrong assumptions about what people needed.
+^Manager2: My education project required careful budgeting because funds were limited. I had to choose between building schools or training teachers. I decided that training local teachers was more sustainable because communities could support it long-term. Good planning means making tough choices based on what will create lasting change, not just immediate help.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Project Discussion
+@SPEECH
+~Coordinator: When we plan a project, several grammatical structures help explain our work clearly. We say "The community must participate in planning" using modals. We explain "If we listen to people, they will support the project" using conditionals. We describe "Communities are visited by our team" using passive voice to show the action.
+~Coordinator: We say "We visit communities to understand their needs" showing purpose. We explain order with words like "First we assess, then we plan, finally we evaluate." Using varied grammatical structures helps us communicate project concepts clearly to international donors, local communities, and our staff team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Project Managers Explain Challenges
+@SPEECH
+^Manager1: In my education project, I faced a challenge when trained teachers left because of long distances from their families. We had invested in their training and then suddenly they were gone. The solution was to improve compensation and housing for all staff. We also hired extra teachers and cross-trained them so leaving staff would not stop the program. The lesson was that project planning must account for retention and welfare.
+~Manager2: My water project faced funding delays. We had promised the community wells would be completed in three months but funding arrived two months late. Communities became frustrated even though the delay was not our fault. The solution was transparent communication explaining the real reasons for delay. We also adjusted timelines and involved community leaders in planning changes. Now I always build extra time into project timelines for unexpected delays.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Project Planning
+@SPEECH
+~Community Member: When NGO staff came to my village, they listened to what we need and asked many questions. They did not tell us what would be good for us. After weeks of meetings, they designed a water project with our input. We felt respected. Now we feel ownership of the project because we helped plan it. Our involvement means we will maintain it after the NGO leaves.
+^NGO Manager: From my side, I have learned that good planning takes much longer than donors expect. They want projects to start immediately but we need months of assessment and community meetings. However, this time investment prevents wasting resources on programs communities do not want. It also builds community capacity and partnership that creates sustainable change instead of temporary help.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Project Lessons Learned
+@SPEECH
+~Manager1: One critical lesson I learned is that clear communication prevents 90 percent of project problems. When donors, communities, and staff all understand the same goals and timelines, everyone works together. When communication is unclear, misunderstandings grow into big conflicts. Now I spend significant time ensuring all parties understand exactly what the project will do, when, and with what resources. This prevents assumptions and surprises.
+^Manager2: Another lesson is build relationships before emergencies. If you have not spent time getting to know community leaders before a problem occurs, they will not trust you when crisis hits. But if communities know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need coordinated response. Trust is built over months of consistent, respectful presence, not during emergencies.
+_200d
+@H2 Unit 6: Project Basics | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Communities
+@SPEECH
+~Community Member: When the education NGO came, they asked what we wanted for our children's schools. They did not tell us what to do. We discussed different options and chose together. They hired teachers from our community who understand our children. We participated in school management decisions. This is very different from government schools where officials make decisions without asking us. We feel proud ownership of this school.
+^Community Member: A water project failed here before this current one. The NGO decided what was needed without asking. They built one well far from most families. People did not maintain it because they had no say in design. This new NGO involved us from the beginning planning. Now we have three wells in useful locations because we advised them. We maintain them because we chose them.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When NGOs work with us, not for us, the language changes. They use phrases like "together we decided" instead of "we informed them." They use passive voice "the community's ideas were incorporated" showing respect for our input. They express gratitude "we deeply appreciate your participation" making us feel valued. This language reflects genuine partnership.
+^Leader: Language reveals whether NGOs truly value partnership or just use the word. Real partners say "we understand your perspective" when discussing disagreements. They say "this was a shared decision" even when they had more power. Language shapes how people interact. Respectful language creates better relationships than commanding language.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~NGO Worker: From our side, we want to help communities but have limited resources. We cannot fund everything people ask for. We have donor requirements meaning we cannot do exactly what communities want. So we must navigate between community wishes, donor requirements, and realistic budgets. Good partnerships require honest conversations about these constraints. We have learned that communities accept limits when we explain openly. They feel disrespected when we pretend to have resources we do not have.
+^Community Member: From the community, we want respect and honesty. We understand NGOs have constraints. We accept limits when decisions are made fairly including our voice. What frustrates us is when NGOs make decisions claiming they are ours when we never agreed. We want credit for our contribution not to feel like passive recipients. We want to know that our participation actually changes what happens not just listening to no real influence.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending expertise. When communities ask technical questions beyond my knowledge, I admit limits and promise to find answers. When donors ask if timelines are realistic, I say when they seem tight instead of promising what seems impossible. This honesty prevents broken promises that destroy trust.
+~Manager: I also learned to say "we cannot do that" clearly. Communities sometimes ask for things beyond project scope. Saying "that is important but outside our project" is better than ignoring requests or promising things we will not deliver. When I cannot meet requests, I help connect them with organizations that can.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Worker1: Building partnerships is like building friendships. You cannot rush it. You must spend time getting to know people. You must show up consistently not just when you need something. You must remember what people told you and follow up. You must keep small promises so people trust you with bigger ones. You must admit mistakes and apologize. This takes time but creates relationships that weather difficulties.
+~Worker2: I noticed that partnerships develop through small successes. Start with small manageable projects where success is visible and quick. This builds confidence and trust for larger work. Also, celebrate successes together. Let communities take pride in accomplishments. Name them as community achievements. This builds ownership and motivation for next phases.
+_200d
+@H2 Unit 7: Working with Communities | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Health Worker Stories
+@SPEECH
+~Health Worker: When I started working in schools, I realized education and health are inseparable. Children with malnutrition cannot concentrate in class. Children with parasites miss school frequently. Girls without girls' health information avoid school during menstruation. Fixing only education or only health is incomplete. When we screened for health problems and provided treatment alongside education, school attendance improved dramatically. The two sectors needed each other.
+^Teacher: I began a nutrition education unit in my class. I taught about balanced diet and hygiene. But students could not practice because school had no water and limited food. When we partnered with a health NGO providing basic meals and water, students could actually practice what they learned. Education suddenly made sense when combined with tangible health improvements.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Service Quality Language
+@SPEECH
+~Manager: Quality in health and education services depends on well-trained staff. We invest heavily in training because staff are our main resource. Better training leads to better care. But training is not enough. We must also have essential medicines, clean facilities, and strong supervision. Quality means consistently good service not just good service sometimes. Parents notice quality immediately. They choose services where staff are respectful, competent, and helpful. Quality services create trust that leads to higher usage.
+^Manager: I learned that quality is also about listening to communities. What we think is quality might not match what communities experience as quality. We conduct regular community feedback surveys. Communities tell us staff attitude matters as much as technical skill. A nurse who hurries or dismisses questions creates poor quality experience even if technically skilled. Quality requires both competence and compassion.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Access Barriers
+@SPEECH
+~Worker1: We recognized that distance was our biggest barrier. Families could not reach our clinic easily. So we moved health services closer. We trained community health workers from villages to provide basic services locally. For complex cases, we help families transport to the clinic. This reduced distance barrier immediately. Attendance increased dramatically when services came to people instead of expecting people to find us.
+^Worker2: Cost was our barrier. Families wanted services but could not afford fees. We discovered that flexible payment worked better than free services. Families were more likely to use paid services they valued. We created payment plans so families could pay over time. We provided fee waivers for poorest families. We charged government and NGO staff full price helping subsidize poor families. This mixed model ensured sustainability and ensured respect for services.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Services Successfully
+@SPEECH
+~Manager: Integration requires clear roles. We defined who does what. Health staff focus on clinical services and referrals. Education staff focus on curriculum and learning. Together we planned how health fits into school. We created a joint calendar showing when health activities happen. We trained school staff in basic first aid and health promotion. We trained health staff in educational approaches. This overlap prevented duplication while maintaining clarity.
+~Manager: Integration also requires honest communication about challenges. Sometimes health staff arrived when school was testing. Sometimes teachers wanted health services that exceeded our capacity. We established regular meetings to discuss schedule, priorities, and problems. Honest communication prevented conflicts and allowed adjustments.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Student Impact from Integrated Services
+@SPEECH
+~Mother: My daughter started school but was always tired and sick missing class frequently. The health worker discovered parasites. After deworming, she had energy and attended school consistently. The education and health coordination caught health problems that were blocking her learning. Now she is learning quickly.
+^Father: School now teaches our son about nutrition and health. He comes home and teaches us what he learned. He monitors younger siblings' handwashing. What the school teaches health-wise actually reaches our home and changes family practices. Before the programs were separate and information was disconnected. Now it all connects. Our family is healthier and children learn better.
+_200d
+@H2 Unit 8: Health and Education in NGOs | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Evaluation Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Impact Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Logic Model Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Evaluation Interpretation
+_200d
+@H2 Unit 9: Sustainable Development and Global Cooperation | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Scaling Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Government Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Community Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Local Fundraising Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: NGO Communication and Professional Interaction | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to Community Advocacy Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to Policy Maker Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Coalition Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Advocacy Results Reflection
+_200d

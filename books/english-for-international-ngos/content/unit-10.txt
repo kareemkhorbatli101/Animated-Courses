@@ -335,13 +335,13 @@ _300
 @INSTR Connect Jordanian consultation principles to coalition advocacy.
 _80
 @NUM 100
-1. In Jordanian practice, important community matters are settled by consultation among those affected before a decision is announced. How does this principle relate to NGO coalition work and community-led advocacy?
+1. In Jordanian practice, community matters are settled by consultation among those affected. How does this relate to NGO coalition work and community-led advocacy?
 _300
 @EX Part 7: Community Principles - Social Justice
 @INSTR Discuss principles of justice in systemic advocacy.
 _80
 @NUM 100
-1. The pursuit of justice means working to remove unfair treatment and ensure rights for all. How does this principle relate to NGO advocacy focused on systems change?
+1. In Jordanian civic tradition, the pursuit of justice means working to remove oppression and unfair treatment and to ensure rights for all. How does this principle relate to NGO advocacy focused on systems change?
 _300
 @PART 8 | Part 8: Review
 @EX Part 8: Unit 10 Concepts Review Matching

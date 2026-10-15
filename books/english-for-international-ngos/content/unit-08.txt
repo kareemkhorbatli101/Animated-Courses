@@ -330,13 +330,13 @@ _300
 @INSTR Discuss community principles of stewardship in organizational M&E.
 _80
 @NUM 100
-1. In Mozambican community tradition, resources held for the community are held in trust, and those who hold them answer to the whole community. How does this principle connect to organizational accountability and M&E?
+1. In Mozambican tradition, community resources are held in trust and those who hold them answer to all. How does this connect to organizational accountability and M&E?
 _300
 @EX Part 7: Community Principles - Fairness in Data Use
 @INSTR Connect community principles of fairness to equitable program evaluation.
 _80
 @NUM 100
-1. Community assemblies judge decisions by whether they treated everyone fairly. How should this principle guide how organizations interpret and use M&E findings?
+1. Community assemblies judge decisions by whether all were treated fairly. How should this guide how organizations interpret and use M&E findings?
 _300
 @PART 8 | Part 8: Review
 @EX Part 8: Unit 8 Concepts Review Matching

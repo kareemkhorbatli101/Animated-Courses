@@ -224,7 +224,7 @@ _300
 _80
 @PLAYNOTE
 @SCRIPT
-~Doctor: As a doctor in our clinic, I must combine medical science with compassion. I treat patients with urgency, but I also take time to explain their illness and treatment. Many patients are exhausted by long journeys to reach us. I use listening skills to understand their emotional needs alongside physical health. This requires both medical knowledge and human connection.
+~Doctor: As a doctor in our clinic, I must combine medical science with compassion. I treat patients with urgency, but I also take time to explain their illness and treatment. Many patients are exhausted by long journeys. I use listening skills to understand their emotional needs alongside physical health. This requires medical knowledge and human connection.
 ^Manager: As program manager, I coordinate many teams and activities. I must have organizational skills to manage budgets and timelines. I must have leadership to motivate teams who work in difficult conditions. I need problem-solving abilities when we face resource shortages. Perhaps most important, I must have integrity so my team trusts my decisions.
 ~Community Worker: Community work requires very different skills than office work. I must develop trusting relationships with families over months and years. I can never be rushed—building trust takes time. I need flexibility because each family's situation is unique. I must be humble to learn from communities instead of imposing outside solutions. This is how we create lasting change.
 _200
@@ -324,7 +324,7 @@ _80
 @GRID
 NGO Situation | Most Important Skill
 Managing limited supplies for 1000 families in emergency | 
-Working with families displaced by flooding | 
+Working with traumatized families displaced by flooding | 
 @CHOICEHEAD Choices:
 @CHOICE
 a)  Organization and problem-solving ability
@@ -410,7 +410,7 @@ _300
 @INSTR Discuss what international and local NGO workers can learn from each other.
 _80
 @BULLET
-What can international and Bangladeshi NGO workers teach each other about effective humanitarian work?
+What can international and Bangladeshi NGO workers teach each other about humanitarian work?
 _300
 @PART 8 | Part 8: Review
 @EX Part 8: Unit 4 Summary - Skills and Qualities

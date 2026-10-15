@@ -409,8 +409,8 @@ _300
 @INSTR Read about NGOs in Guatemala and the Central American region, then answer questions.
 _80
 @PANEL
-The NGO sector in Guatemala has grown significantly in response to rural poverty and the needs of indigenous communities. Organizations like the Guatemalan Red Cross, Doctors Without Borders, and local Guatemalan NGOs employ thousands of workers. These workers serve both urban families and communities in the highlands. Working in Guatemala's NGOs requires patience because staff travel long distances to reach remote villages.
-In neighboring countries like Honduras and El Salvador, NGOs employ workers who assist migrants and vulnerable local populations. The work is challenging but essential. These organizations demonstrate how dedicated professionals continue helping during difficult times. Guatemalan NGO workers are internationally recognized for their commitment and resilience.
+The NGO sector in Guatemala has grown significantly in response to rural poverty and the needs of indigenous communities. Organizations like the Guatemalan Red Cross, Doctors Without Borders, and local NGOs employ thousands of workers. These workers serve both urban families and highland communities. Working in Guatemala's NGOs requires patience because staff travel far to remote villages.
+In neighboring countries like Honduras and El Salvador, NGOs employ workers who assist migrants and vulnerable local people. The work is challenging but essential. These organizations demonstrate how dedicated professionals keep helping in hard times. Guatemalan NGO workers are internationally recognized for their commitment and resilience.
 Many Guatemalan professionals who studied abroad chose to return to work in NGOs at home. They sacrifice higher salaries in wealthy countries to serve their communities. This shows deep commitment to nation-building and helping people improve their lives. Their choices inspire others to consider NGO careers.
 @NUM 100
 1. Why has the NGO sector grown in Guatemala?
