@@ -1,0 +1,468 @@
+@UNIT 3 | Consent, Safeguarding and Do No Harm
+@SUB Imperatives, sequencers and the first conditional  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Safeguarding Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Privacy  →  the right to keep your life your own. (example)
+@MATCH f) the time by which work must be finished
+Consent :: to keep someone safe from harm
+Safeguarding :: permission given freely and with understanding
+Dignity :: the work of protecting people, especially children
+Protect :: the respect that every person deserves
+Anonymous :: with the name kept secret
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK consent | dignity | anonymous | safeguarding
+@EX 0. We protect the people in our stories. (example)
+@GAP
+Ask for @@ before you take a photograph.
+If a person is at risk, keep the story @@.
+Every photograph must show people with @@.
+Our @@ policy applies in all six offices.
+
+@TASK Warm-up: Reading — The Rules Before a Story
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Before Meridian Relief publishes any story, it follows the same four rules in every country. First, explain clearly what the story is for and where it will appear. Second, ask for consent in a language the person reads easily, and never in a hurry. Third, check that nothing in the words or the photograph could put the person at risk. Fourth, tell the person that they may say no, now or later, and that nothing will change for them if they do. If a rule and a deadline disagree, the rule wins. The team calls this 'do no harm', and it is the first thing that every new officer learns.
+@EX 0. The rules are the same in every country. (example)
+@MCQ 1 | How many rules does the team follow? | Two | Three | Four | Five
+@MCQ 2 | What happens if a rule and a deadline disagree? | The deadline wins | The rule wins | The manager decides | The story is cancelled
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Consent and Safeguarding Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Consent  →  permission given freely and with understanding.
+@MATCH h) a plan of when things will happen
+Informed consent :: consent given after a full, clear explanation
+Safeguarding :: the work of protecting people, especially children
+Do no harm :: the rule that a story must never put a person at risk
+Guardian :: the adult responsible for a child
+Withdraw :: to take back a permission you gave before
+Anonymise :: to remove the details that identify a person
+Risk assessment :: a check of what could go wrong and for whom
+@GLOSS informed consent = consent given after the person understands exactly what will happen    ·    anonymise = to remove names and details so that nobody can be identified
+
+@TASK Part 1: Pronunciation
+@AUDIO 3.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+consent — con-SENT
+safeguarding — SAFE-guar-ding
+dignity — DIG-ni-ty
+guardian — GUAR-di-an
+anonymous — a-NO-ny-mous
+permission — per-MI-ssion
+
+@TASK Part 1: First Conditional — Match the Two Halves
+@RUBRIC Match each first half with the correct second half. One second half is not needed. Write the letter.
+@EX 0. If you are not sure,  →  ask your manager. (example)
+@MATCH f) we will buy a new camera
+If a person says no, :: we will remove the photograph at once
+If a child is in the picture, :: we will not publish the story
+If the address is visible, :: we will ask the guardian first
+If someone withdraws consent, :: we will hide it before we publish
+If the sound is poor, :: we will record the interview again
+
+@TASK Part 1: Safeguarding Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. Informed consent is consent given after a full explanation. (example)
+@MCQ 1 | What does 'anonymise' mean? | To publish quickly | To remove details that identify a person | To take a photograph | To translate a text
+@MCQ 2 | Who can give consent for a child? | The photographer | A journalist | The parent or guardian | The donor
+@MCQ 3 | What is a risk assessment? | A kind of camera | A check of what could go wrong and for whom | A list of names | An interview question
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK guardian | withdraw | anonymise | risk assessment
+@EX 0. We never publish a photograph without consent. (example)
+@GAP
+A person may @@ their consent at any time.
+Before a visit to a school, we do a @@.
+If the child is under eighteen, ask the @@.
+If there is any danger, @@ the story.
+
+@TASK Part 1: Write a Rule (short)
+@RUBRIC Write two or three rules for your own team. Use the imperative and the first conditional.
+@PLAN Always…  Never…  If ___ , we will ___ .
+
+@BAR Part 2  ·  Grammar — Imperatives, Sequencers and the First Conditional | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read the consent steps that Layla gives to every new officer in Amman. First, explain what the story is for. Then ask whether the person is happy to take part. Next, read the form aloud, because not everybody reads easily. After that, answer every question honestly. Finally, keep a copy for the person as well as for the file. If the person says no, thank them and leave. If a child is in the photograph, ask the guardian first. Notice two things: the instructions use the imperative, with no subject, and the sequencers — first, then, next, after that, finally — put the steps in order.
+@LINE Look at the steps again. Which words are imperatives? Which words put the steps in order?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+Imperative | the verb with no subject | instructions and rules
+Negative imperative | do not + verb | things you must never do
+Sequencers | first, then, next, after that, finally | putting steps in order
+First conditional | if + present, will / may | a real possibility and its result
+@REMEMBER Use the imperative for a rule or an instruction: 'Ask for consent.' Use the first conditional for a real possibility: 'If the person says no, we will stop.' Never use 'will' after 'if'.
+@WATCH Watch out: say 'If the person says no, we will stop', not 'If the person will say no'. The 'will' goes in the second half only.
+@GLOSS sequencer = a word that shows the order of steps    ·    imperative = the form of a verb used for instructions
+
+@TASK Part 2: Controlled Practice — First Conditional
+@RUBRIC Complete with the correct form of the verb.
+@EX 0. If the family agrees, we will publish the photograph. (example)
+@GAP
+If the address is visible, we @@ (hide) it.
+If a child @@ (be) in the picture, we will ask the guardian.
+If somebody withdraws consent, we @@ (remove) the story.
+If you @@ (not be) sure, ask your manager.
+
+@TASK Part 2: Imperatives and Sequencers
+@RUBRIC Complete the consent steps with the correct sequencer or imperative.
+@GAP
+@@, explain what the story is for.
+Then @@ (ask) whether the person is happy to take part.
+@@ that, answer every question honestly.
+@@, keep a copy for the person as well as for the file.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+If the family will say no, we stop.
+To ask for consent before you publish.
+Finally, we will asking the guardian.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Give two rules for your team and one thing that will happen if a rule is broken.
+@BULLET
+Always ______ , and never ______ .
+If ______ , we will ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | If a person ______ their consent, we will remove the photograph. | will withdraw | withdraws | withdrawing | withdrew
+@MCQ 2 | ______ , explain what the story is for. | Finally | After that | First | Then
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Layla Explains Consent
+@AUDIO 3.2
+@PRE listen
+what should a person understand before they agree to be in a story?
+@TEXT
+Layla: Consent is not a signature. It is an understanding, and the signature only records it. So take your time. First, explain what the story is for, where it will appear, and who will see it. Many people imagine a local newsletter and do not realise that a photograph may be seen in another country. Then explain how long we will keep the photograph, and tell them that they can change their mind later. Next, read the form aloud, in the language they read most easily, because not everybody is comfortable reading in front of a stranger. After that, answer every question honestly, even if the honest answer is 'I do not know'. Finally, give them a copy. If somebody hesitates, that is not a small thing; stop and ask what is worrying them. If you ever feel that a person is agreeing only to be polite, do not take the photograph.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. Consent is more than a signature. — T
+@NUM
+Officers should explain where the story will appear.   ____
+People may change their mind later.   ____
+Officers should read the form aloud only if asked.   ____
+If someone hesitates, you should carry on quickly.   ____
+@PHRASES
+Take your time.
+Tell them that they can change their mind.
+If somebody hesitates, stop and ask.
+
+@TASK Part 3: Asking a Community Member
+@AUDIO 3.3
+@PRE listen
+how would you ask a stranger for permission to tell their story?
+@TEXT
+Joseph: Good morning. My name is Joseph, and I work for Meridian Relief. May I explain why I am here?
+Mrs Achieng: Please do.
+Joseph: We are writing about the water project, and we would like to include the voices of the people who use it. If you agree, I would record what you say, and we might use a photograph as well.
+Mrs Achieng: Where would it appear?
+Joseph: On our website, and possibly in a report that donors in other countries read. If you would rather we did not use your name, we can write 'a resident of this village'.
+Mrs Achieng: And if I change my mind next week?
+Joseph: Then you call me, and we remove it. Here is my number, and here is a copy of the form.
+Mrs Achieng: Then yes, you may record me. But not my grandson.
+Joseph: Understood. Only you. Thank you.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. Who does Joseph work for? — Meridian Relief.
+@NUM
+Where might the story appear?
+What can Mrs Achieng do if she changes her mind?
+Who does she not want in the story?
+@PHRASES
+May I explain why I am here?
+If you would rather we did not…
+Then you call me, and we remove it.
+
+@TASK Part 3: Protecting Everyone Before We Publish
+@AUDIO 3.4
+@PRE listen
+who should check a story before it goes out?
+@TEXT
+Ingrid: Before this goes out, let's do the final check together. Tomás, do we have consent for every person in the article?
+Tomás: For all four. Joseph translated the forms, and two people asked for no names.
+Ingrid: Good. Aisha, is there anything in the photographs that could identify a home?
+Aisha: One street sign. I have blurred it.
+Ingrid: Thank you. Nadia, if a reader asks where the village is, what do you say?
+Nadia: I say that we do not share locations, and I offer the regional name instead.
+Ingrid: Exactly right. Layla, is there anything in the local context that worries you?
+Layla: Nothing now. If that changes, I will call you before Friday.
+@WHILE
+match each person with their check. One check is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → leads the final check before publication.
+@MATCH e) book the flights for the field visit
+Tomás :: blur anything that could identify a home
+Aisha :: answer readers who ask where the village is
+Nadia :: watch the local context and call if it changes
+Layla :: confirm consent for every person named
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Consent
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+How do you explain to someone where their story will appear?
+What would you do if a person hesitated?
+Why is a signature not the same as consent?
+@USE
+First, I explain…
+If the person hesitates, I…
+Consent is not a signature; it is…
+
+@TASK Part 4: Getting Consent — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to ask for consent.
+@MODEL
+A: May I explain why I am here? We are writing about the water project. — B: Where would it appear? — A: On our website, and in a report that donors read. If you would rather we did not use your name, we can leave it out. — B: And if I change my mind? — A: Then you call me, and we remove it.
+@USE
+May I explain why I am here?
+If you agree, I would…
+If you change your mind, we will…
+@CARD Card A — Officer
+explain the purpose · say where it will appear · offer anonymity · explain how to withdraw.
+@CARD Card B — Community member
+ask where it will appear · ask about changing your mind · agree to one thing and refuse another.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Explain your team's consent steps in order. Use imperatives, sequencers and one first conditional.
+@PLAN First, we…  Then we…  After that, we…  Finally, we…  If ___ , we will ___ .
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: Protecting the People in Our Stories
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Every communications team has a rule that comes before all the others: do no harm. It sounds obvious, and it is not. Harm is rarely dramatic. It is a street sign in the corner of a photograph, a school uniform that shows which school a child attends, or a sentence that says more about a family's situation than the family realised it was agreeing to. None of these is a lie, and none of them is unkind. Each of them can still put somebody at risk. For this reason the team works through the same steps every time. First, it asks whether the story needs this person at all, or whether the point can be made without them. Then it explains, in the person's own language, what the story is for and where it will appear. Next, it asks for consent, and it treats hesitation as a no until it is clearly a yes. After that, it checks the words and the images for anything that could identify a home, a school or a route that somebody takes every day. Finally, it tells the person how to withdraw, and it keeps that promise. The team also knows that consent is not the same everywhere. In one country, a signature is a familiar and welcome thing; in another, it is a document that has caused people trouble before. The rule does not change, but the way the team explains it does.
+@EX 0. 'Do no harm' comes before all the other rules. (example)
+@MCQ 1 | How does the text describe harm? | Always dramatic | Rarely dramatic, often small | Impossible to prevent | A kind of equipment
+@MCQ 2 | How should a team treat hesitation? | As a yes | As a no until it is clearly a yes | As a question | As a delay
+@MCQ 3 | What does the text say changes between countries? | The rule itself | The way the rule is explained | The deadline | The equipment
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. obvious  →  easy to see or understand. (example)
+@MATCH f) a person who reports the news
+harm :: damage or injury to a person
+hesitation :: a pause because you are not sure
+identify :: to show who or where somebody is
+withdraw :: to take back something you gave
+familiar :: well known to you
+
+@TASK Part 5: Consent and Community Across Cultures
+@RUBRIC Read about consent in different places. Then mark each sentence True (T) or False (F).
+@TEXT
+Consent is a single principle, but it is not a single conversation. In some communities, a visitor should speak to an elder or a community leader before approaching a family, and to do otherwise would be rude rather than efficient. In others, going through a leader would feel like pressure, and the family would rather decide for themselves. In some places people sign documents every week; in others, a form brought by a stranger is a reason to be careful, and for good reason. A good communications team learns this before it arrives, usually by asking the field staff who live there. What never changes is the substance: the person must understand what will happen, must be free to say no, and must be able to change their mind afterwards. What changes is the route to that understanding — who you speak to first, whether you read the form aloud, how long you leave before you ask again. Teams that confuse the route with the rule make one of two mistakes. They either apply one country's habits everywhere, or they decide that consent means something different here. Both are wrong, and the second is more dangerous.
+@EX 0. Consent is a single principle. → T (example)
+@NUM
+In every community, you should speak to a leader first.   ____
+A form brought by a stranger can be a reason to be careful.   ____
+The substance of consent changes from place to place.   ____
+Deciding that consent means something different here is dangerous.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Write the Consent Steps (80–120 words)
+@RUBRIC Write the consent steps for a new colleague. Use imperatives and sequencers.
+@MODEL
+First, ask whether the story needs this person at all. Then explain, in the language they read most easily, what the story is for and where it will appear. Next, ask for consent, and do not hurry. If somebody hesitates, stop and ask what is worrying them. After that, read the form aloud, answer every question honestly, and give the person a copy with your telephone number. Finally, tell them clearly that they may change their mind at any time, and that nothing will change for them if they do. If they say no, thank them and leave.
+@PLAN First, …  Then …  Next, …  After that, …  Finally, …  If ___ , …
+@CHECK
+imperatives used for the instructions?
+sequencers in the right order?
+80–120 words?
+
+@TASK Part 6: Why We Protect People (80–120 words)
+@RUBRIC Write about why protecting people matters more than a strong story. Give reasons and an example.
+@MODEL
+A story that harms somebody is not a strong story; it is a failure. We work with people who have already lost a great deal, and a photograph can take one more thing from them: their safety, or their privacy, or their dignity. For example, a school uniform in the corner of a picture tells a stranger exactly where a child can be found every morning. The family did not agree to that, because nobody thought to mention it. This is why we check every image twice, and why we would rather lose a photograph than a person's trust.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Message About a Photograph (60–90 words)
+@RUBRIC Write a short message to a colleague about a photograph you are worried about. Ask for advice.
+@MODEL
+Hi Layla, I am checking the photographs for the water story, and one of them is worrying me. The family gave consent, but in the background you can read the name of the school. I do not think they realised it was visible. I would rather not publish it, but it is the strongest picture we have. Could we look at it together before Friday? Thank you, Aisha.
+@PLAN Hi ___ ,  I am ___  and ___ is worrying me.  I do not think ___ .  Could we ___ ?  Thank you, ___ .
+@CHECK
+a greeting and a close?
+a clear request for advice?
+60–90 words?
+
+@TASK Part 6: Reflection — Respect and Communication (60–90 words)
+@RUBRIC Write about respect in communication work. Use your own ideas.
+@MODEL
+For me, respect is the whole of this work. The people in our stories are not material; they are people who agreed to help us because they trusted us. Respect means explaining honestly, listening to a hesitation, and accepting a no without trying to change it. It also means remembering that a story lasts a long time on the internet, while a conversation lasts five minutes. If I am ever in doubt, I think about the person reading it in two years, and the answer is usually clear.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each safeguarding rule with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. Do no harm.  →  never publish anything that puts a person at risk. (example)
+@MATCH f) return the equipment charged
+Ask the guardian. :: treat it as a no until it is clearly a yes
+Treat hesitation carefully. :: a child cannot consent alone
+Keep a copy for the person. :: remove names and identifying details
+Anonymise when needed. :: consent is theirs as well as ours
+Honour a withdrawal. :: remove the story when somebody asks
+
+@TASK 7B: The Safeguarding Briefing
+@AUDIO 3.5
+@PRE listen
+what should a manager say to a team before a visit to a school?
+@TEXT
+Layla: Tomorrow we are visiting a school, so I want to be very clear about four things. First, no child consents alone. The guardian consents, and the child agrees as well — if the child looks uncomfortable, we stop, whatever the form says. Second, no uniforms, no school signs, no gates in any photograph. A uniform tells a stranger where a child is at eight o'clock every morning. Third, no full names for anyone under eighteen, and no classroom details that would narrow it down. Fourth, if you are not sure, the answer is no, and you call me. I would far rather lose twenty photographs than publish one that we cannot take back. And please remember that the children will be excited and will want to be in every picture. That enthusiasm is not consent. It is our job to be the careful ones.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where is the team visiting tomorrow? — A school.
+@NUM
+Who consents for a child, and who must also agree?
+What three things must not appear in a photograph?
+What should an officer do if they are not sure?
+
+@TASK 7C: Controlled Practice — The Consent Steps
+@RUBRIC You are the manager. Put the consent steps in order. Number them 1–5. (0. is done.)
+@EX 0. Ask whether the story needs this person at all. — 1
+@LINE
+___ Explain what the story is for and where it will appear.
+___ Ask for consent, and do not hurry the person.
+___ Check the words and images for anything that identifies a home or a school.
+___ Give the person a copy and explain how to withdraw.
+
+@TASK 7D: Role-Play — A Safeguarding Check
+@RUBRIC In pairs. One is the manager (Layla); one is an officer. Use the model and cards.
+@MODEL
+Layla: Before this goes out, do we have consent for every person? — Tomás: For all four, and two asked for no names. — Layla: Is there anything that could identify a home or a school? — Tomás: One street sign. Aisha has blurred it. — Layla: Good. If anyone withdraws, what happens? — Tomás: We remove it the same day.
+@CARD Card A — Manager (Layla)
+ask about consent · ask about identifying details · ask what happens if somebody withdraws.
+@CARD Card B — Officer
+answer each question · name one thing you changed · say what you are still unsure about.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Layla. Write a short message to the team before a visit to a school.
+@MODEL
+Dear team, tomorrow we are visiting the school, so please remember four things. No child consents alone: the guardian consents and the child must agree as well, and if a child looks uncomfortable we stop. No uniforms, no signs and no gates in any photograph. No full names for anyone under eighteen. And if you are not sure about anything at all, the answer is no and you call me. The children will want to be in every picture, but enthusiasm is not consent. It is our job to be the careful ones. Thank you. Layla.
+@CHECK
+the rules stated as clear instructions?
+one first conditional?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Photograph Tomás Did Not Take
+@PRE read
+have you ever decided not to use something that would have made your work stronger?
+@TEXT
+Tomás was in a health centre in Lima, writing about a new clinic. In the waiting room, a young woman was sitting with her baby, and the light through the window fell on them in a way that photographers wait years for. He asked the nurse whether he could speak to her, and the nurse said that she had come in that morning after a difficult night and was very tired. Tomás went over anyway, introduced himself, and explained what the article was for. The woman said yes immediately. She said yes before he had finished the sentence, and she did not ask a single question. That was what stopped him. He explained again, more slowly: the article would appear on a website that anybody could read, and in a report that went to other countries. She said yes again, and smiled, and looked at the floor. Tomás thanked her, said that he had changed his mind, and left without taking the photograph. Later he wrote in the file: 'Consent given but not, I think, understood. Tired, unwell, and polite. Do not approach again during treatment.' The article appeared without a photograph of a patient, and it was a weaker article. He has never regretted it.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where was Tomás? — In a health centre in Lima.
+@NUM
+Why had the young woman come to the clinic?
+What made Tomás stop?
+What did he write in the file?
+@GLOSS regret = to feel sorry about something you did    ·    approach = to go towards somebody in order to speak to them
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. explain  →  to make something clear to somebody. (example)
+@MATCH f) a short text under a photograph
+regret :: to go towards somebody in order to speak to them
+approach :: to feel sorry about something you did
+hesitate :: unwilling to say no to a stranger
+polite :: to pause because you are not sure
+understood :: known and fully grasped
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+'In my opinion, Tomás was right because…'
+'I agree, because…'
+'That is a good point, but…'
+@BULLET
+Was Tomás right to walk away? Why?
+How can you tell the difference between a yes and a polite yes?
+Should a team write down a decision like this? Why?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: The Child in the Photograph
+@PRE read
+what extra care does a story about a child need?
+@TEXT
+The Amman office is publishing a story about a learning centre, and the strongest photograph shows a nine-year-old boy reading aloud to his class. His mother has given written consent, and the boy himself was pleased to be photographed and asked to see the picture afterwards. The learning centre has agreed as well. However, Layla has noticed two things. The boy is wearing the centre's shirt, which carries its name and the name of the district, and the caption that Tomás has drafted mentions that the boy arrived in the country two years ago. Separately, neither detail is unusual. Together, they tell a reader where this particular child can be found on a weekday morning and something about his family's situation that his mother may not have meant to publish. The deadline is tomorrow, the photograph is excellent, and nobody has done anything wrong. Layla has to decide what to do, and she also has to explain it to Tomás, who has worked hard on the story and is proud of it.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Who has given written consent? — The boy's mother.
+@NUM
+What is written on the boy's shirt?
+What does the draft caption mention?
+Why are the two details a problem together?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Layla (a) publish as it is, since consent was given, (b) keep the photograph but change the caption and blur the shirt, or (c) choose a photograph without a child? Choose one and give reasons.
+@FRAME Answer frame
+'I think Layla should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+@MODELDEC
+I think Layla should keep the photograph but blur the shirt and change the caption, because the problem is not the child's face but the two details that locate him. His mother consented to a photograph, not to a map. Also, the story loses nothing if the caption simply says that the boy enjoys reading aloud. This is better than publishing as it is, because consent was given for something the family did not fully picture, and it is better than dropping the child entirely, because his pleasure in reading is the story.
+@PHRASEBANK
+I think… should…
+because…
+consent was given for something the family did not picture
+This is better than…
+protect the child first.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK will remove | anonymise | First | there have been
+@EX 0. Always ask for consent before you publish. (example)
+@GAP
+If somebody withdraws consent, we @@ the story.
+If there is any danger, @@ the names and the details.
+@@, explain what the story is for.
+@@ several requests for photographs this month. (Unit 2)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can explain what informed consent means
+I can give instructions with imperatives and sequencers
+I can use the first conditional for a real possibility
+I can ask a community member for consent respectfully
+I can explain why 'do no harm' comes before a deadline
+
+@TASK Part 10: Unit 3 glossary
+@TEXT
+consent = permission given freely and with understanding    ·    informed consent = consent given after a full, clear explanation    ·    safeguarding = the work of protecting people, especially children    ·    do no harm = the rule that a story must never put a person at risk    ·    dignity = the respect that every person deserves    ·    anonymous = with the name kept secret    ·    anonymise = to remove the details that identify a person    ·    guardian = the adult responsible for a child    ·    withdraw = to take back a permission you gave before    ·    risk assessment = a check of what could go wrong and for whom    ·    harm = damage or injury to a person    ·    hesitation = a pause because you are not sure    ·    identify = to show who or where somebody is    ·    sequencer = a word that shows the order of steps    ·    imperative = the form of a verb used for instructions

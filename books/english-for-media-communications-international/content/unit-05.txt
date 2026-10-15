@@ -1,0 +1,471 @@
+@UNIT 5 | Writing the Story
+@SUB The passive across tenses  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Words About Writing
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Draft  →  an early version of a piece of writing. (example)
+@MATCH f) a person who takes photographs
+Edit :: a short, clear sentence at the top
+Headline :: to improve a text by changing and cutting
+Quote :: the first paragraph of an article
+Lead :: a person's exact words
+Proofread :: to check a text for small mistakes
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK draft | edited | quote | proofread
+@EX 0. Every story is checked before it is published. (example)
+@GAP
+The first @@ was written on Monday.
+Her words were used as a @@ in the article.
+The text was @@ twice before it went out.
+Please @@ the headline before you send it.
+
+@TASK Warm-up: Reading — Written with Care
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+At Meridian Relief, no story is published by one person alone. A draft is written by the officer who did the interview, and it is then read by a colleague in another office. Names and figures are checked, quotes are read back to the person who said them, and the photographs are matched to the captions. If a detail cannot be confirmed, it is removed, not softened. Only then is the story approved and published. The process takes a day longer than writing alone, and it has saved the team from more than one serious mistake.
+@EX 0. No story is published by one person alone. (example)
+@MCQ 1 | Who reads the draft after the writer? | Nobody | A colleague in another office | A donor | A journalist
+@MCQ 2 | What happens to a detail that cannot be confirmed? | It is softened | It is removed | It is published anyway | It is translated
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Writing and Editing Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Draft  →  an early version of a piece of writing.
+@MATCH h) a plan of when things will happen
+Lead :: the first paragraph, which says what happened
+Headline :: the short, clear line at the top
+Quote :: a person's exact words, inside quotation marks
+Attribution :: saying who said something
+Fact-check :: to confirm that every detail is true
+Sign-off :: the final approval before publication
+House style :: the rules an organisation uses for its writing
+@GLOSS attribution = saying clearly who said or wrote something    ·    house style = the writing rules one organisation agrees to use everywhere
+
+@TASK Part 1: Pronunciation
+@AUDIO 5.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+editor — E-di-tor
+headline — HEAD-line
+attribution — a-ttri-BU-tion
+approve — a-PPROVE
+publication — pu-bli-CA-tion
+revision — re-VI-sion
+
+@TASK Part 1: The Passive in Different Tenses
+@RUBRIC Match each passive sentence with its tense. One tense is not needed. Write the letter.
+@EX 0. The story is checked every week.  →  present simple passive. (example)
+@MATCH f) the imperative
+The draft was written on Monday. :: present continuous passive
+The photographs are being edited now. :: past simple passive
+Every quote has been read back. :: future passive
+The story will be published on Friday. :: present perfect passive
+The names must be confirmed first. :: modal passive
+
+@TASK Part 1: Writing Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. A lead is the first paragraph of an article. (example)
+@MCQ 1 | What is attribution? | A kind of headline | Saying who said something | A photograph caption | A press release
+@MCQ 2 | What is a sign-off? | The first draft | The final approval before publication | A quotation | A deadline
+@MCQ 3 | What is house style? | The writing rules an organisation uses | The office building | A kind of camera | A list of donors
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK fact-checked | sign-off | lead | house style
+@EX 0. Every quote is read back to the speaker. (example)
+@GAP
+The figures were @@ against the project report.
+We do not publish anything without a @@ from the editor.
+The @@ should say what happened in one sentence.
+Our @@ asks us to write numbers under ten as words.
+
+@TASK Part 1: Write Two Passive Sentences (short)
+@RUBRIC Write two sentences in the passive about how a story is made in your organisation.
+@PLAN A draft is…  Every quote is…  Nothing is published until…
+
+@BAR Part 2  ·  Grammar — The Passive Across Tenses | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Read how a story is made. A draft is written by the officer who did the interview. It is then read by a colleague, and the figures are checked against the project report. While that is happening, the photographs are being edited and matched to their captions. By Thursday, every quote has been read back to the person who said it. The story will be published on Friday, but only after it has been approved by the editor. Notice that the doer is often missing: we say what is done, because who does it is either obvious or not the point.
+@LINE Look at the sentences again. Which are present, which are past, and which are future?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+Present simple passive | am / is / are + past participle | a routine or a rule
+Past simple passive | was / were + past participle | a finished action
+Present perfect passive | has / have been + past participle | finished, and it matters now
+Future and modal passive | will be / must be + past participle | a plan or an obligation
+@REMEMBER Use the passive when the doer is obvious, unknown or not important. Add 'by + the doer' only when it matters: 'The draft was written by Tomás.'
+@WATCH Watch out: do not forget the past participle. Say 'The story was checked', not 'The story was check'.
+@GLOSS past participle = the third form of a verb (write → written, check → checked)    ·    doer = the person or thing that does the action
+
+@TASK Part 2: Controlled Practice — The Passive
+@RUBRIC Complete with the correct passive form.
+@EX 0. Every story is checked (check) before publication. (example)
+@GAP
+The draft @@ (write) on Monday.
+The photographs @@ (edit) at the moment.
+Every quote @@ (read) back this week.
+The story @@ (publish) on Friday.
+
+@TASK Part 2: Active into Passive
+@RUBRIC Rewrite each sentence in the passive. Leave out the doer where it is obvious.
+@NUM
+Tomás wrote the first draft.
+We check every figure.
+A colleague has read the article.
+The editor will approve it tomorrow.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+The story was check on Monday.
+The photographs are being edit now.
+Every quote has been read back by we.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Describe how something is made or checked in your organisation. Use three passive sentences.
+@BULLET
+First, a ______ is ______ .
+Then it is ______ , and nothing is ______ until ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | The photographs ______ at the moment. | are edited | are being edited | have edited | will edit
+@MCQ 2 | Every quote ______ back before we publish. | is read | is reading | has read | was read
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: How a Story Is Written
+@AUDIO 5.2
+@PRE listen
+how many people do you think should read a story before it is published?
+@TEXT
+Tomás: Let me explain how a story is made here, because it is not done the way it is done in a newsroom. First, a draft is written by whoever did the interview, usually within a day, while the conversation is still fresh. Then the draft is sent to a colleague in another office, and that is deliberate: a reader who was not there asks the questions that a reader at home will ask. The figures are checked against the project report, not against memory. Every quote is read back to the person who said it, in their own language, and if they want to change a word, the word is changed. Photographs are matched to captions by the photographer, never by the writer, because only the photographer knows who is in the picture. Finally, the story is approved by an editor, and nothing is published without that sign-off. It sounds slow. It takes about a day longer than writing alone, and it has saved us more than once.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. The draft is written by the person who did the interview. — T
+@NUM
+The draft is read by a colleague in the same office.   ____
+Figures are checked against the project report.   ____
+Quotes are read back to the speaker.   ____
+Captions are matched by the writer.   ____
+@PHRASES
+A draft is written by…
+Every quote is read back to…
+Nothing is published without that sign-off.
+
+@TASK Part 3: Checking a Draft
+@AUDIO 5.3
+@PRE listen
+what would you look for first in a colleague's draft?
+@TEXT
+Nadia: I have read your draft. It is good, but there are three things.
+Tomás: Go on.
+Nadia: The lead says that two hundred families have been helped. Where is that number from?
+Tomás: The project report.
+Nadia: Which month? The figure in the March report is a hundred and eighty.
+Tomás: Then I have used the wrong one. I will check it today.
+Nadia: Second, the quote from Mrs Achieng. Has it been read back to her?
+Tomás: Not yet. Joseph is calling her this afternoon.
+Nadia: Good. Do not publish until it has. And third, the caption says 'a village in the east'. Is that specific enough to identify it?
+Tomás: I will ask Joseph about that as well.
+Nadia: Then it is nearly ready. Send it again when those three are done.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. How many problems does Nadia find? — Three.
+@NUM
+What is wrong with the figure in the lead?
+What must happen before the quote is published?
+What is Nadia worried about in the caption?
+@PHRASES
+Where is that number from?
+Has it been read back to her?
+Send it again when those are done.
+
+@TASK Part 3: Sharing Out the Work
+@AUDIO 5.4
+@PRE listen
+how should a team divide the work of checking a story?
+@TEXT
+Ingrid: The water story closes on Thursday, so let's divide the checks. Tomás, the draft?
+Tomás: Written, and it has been sent to Nadia.
+Ingrid: Good. Nadia, you are reading it as the outside reader.
+Nadia: Yes. I will send comments tonight.
+Ingrid: Joseph, the quotes need to be read back, in both languages.
+Joseph: I will do it tomorrow morning, and I will record that it was done.
+Ingrid: Thank you. Aisha, the captions?
+Aisha: I am matching them now. Nothing will go out with a caption that I have not checked myself.
+Ingrid: Perfect. And I will do the sign-off on Thursday morning, not Thursday evening, so that there is time to fix anything.
+@WHILE
+match each person with their job. One job is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → does the final sign-off.
+@MATCH e) design the posters
+Tomás :: read the draft as the outside reader
+Nadia :: read the quotes back in both languages
+Joseph :: match the captions to the photographs
+Aisha :: write the first draft and send it on
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Writing
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+How is a story checked in your organisation?
+Who reads your work before it is published?
+Why should a quote be read back to the person who said it?
+@USE
+First, a draft is…
+It is then…
+Nothing is published until…
+
+@TASK Part 4: Checking a Story — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to check a colleague's draft.
+@MODEL
+A: I have read your draft. The lead says two hundred families. Where is that number from? — B: The project report. — A: Which month? The March figure is a hundred and eighty. — B: Then I have used the wrong one. I will check it today. — A: Good. And has the quote been read back?
+@USE
+Where is that number from?
+Has it been read back?
+Send it again when those are done.
+@CARD Card A — Editor
+raise one question about a figure · ask about a quote · ask about a caption.
+@CARD Card B — Writer
+answer honestly · admit one mistake · say what you will do and when.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe how a story is made and checked in your organisation. Use at least three passive sentences.
+@PLAN A draft is…  It is then…  The figures are…  Nothing is published until…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: How a Story Is Written
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+A humanitarian story is not written in the way a news report is written, and the difference is not style but consequence. A news reporter is accountable to readers; a communications officer is accountable to readers and to the people in the story, who will still be living in that village long after the article has been forgotten. For this reason the writing process is built around checking rather than speed. The draft is written by whoever did the interview, and it is written quickly, while the conversation is fresh. It is then given to a colleague who was not present, because a reader who was not there asks the questions a distant reader will ask: who is this person, what happened first, why does this number matter? Figures are checked against the project report, never against memory, because memory rounds numbers upwards. Quotes are read back to the speaker in the language they used, and if the speaker wants a word changed, the word is changed; a quote is a record of what somebody chose to say, not a trophy. Captions are written by the photographer, who alone knows who is in the frame. Finally, an editor signs the piece off, and nothing goes out without that signature. Teams that skip a step usually skip the read-back, because it is the slowest and the least visible. It is also the one that protects the person who trusted you.
+@EX 0. The writing process is built around checking. (example)
+@MCQ 1 | Who is a communications officer accountable to? | Readers only | Readers and the people in the story | Donors only | Editors only
+@MCQ 2 | Why is the draft given to a colleague who was not present? | Because they write faster | Because they ask the questions a distant reader will ask | Because they know the village | Because they take the photographs
+@MCQ 3 | Which step do teams usually skip? | The sign-off | The caption | The read-back | The draft
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. draft  →  an early version of a text. (example)
+@MATCH f) a person who reports the news
+accountable :: responsible to somebody for what you do
+consequence :: what happens as a result
+read-back :: reading a quote to the speaker to confirm it
+round :: to change a number to a simpler one
+sign off :: to give the final approval
+
+@TASK Part 5: Telling the Truth, Protecting the Person
+@RUBRIC Read about truth and protection in writing. Then mark each sentence True (T) or False (F).
+@TEXT
+Two duties sit beside each other in every humanitarian story, and sometimes they pull in different directions. The first is to tell the truth: not to exaggerate, not to invent, not to let a strong sentence carry a weak fact. The second is to protect the people in the story, who are rarely in a position to protect themselves once a text has been published. Most of the time these duties agree. A true story, carefully told, is also a safe one. But occasionally they do not. A detail may be true and important and still dangerous: the name of a street, a scar, a job, the fact that a family was the only one in the village to receive something. When that happens, the rule is not to choose between truth and protection. It is to find the version that is both. Usually it exists. The street can become 'a district in the north'. The scar can simply not be mentioned. What is never acceptable is to publish a false detail in order to protect somebody, because a reader who later discovers it will stop believing the parts that were true.
+@EX 0. Two duties sit beside each other in every story. → T (example)
+@NUM
+The two duties always agree.   ____
+A detail can be true and still dangerous.   ____
+It is acceptable to publish a false detail to protect somebody.   ____
+There is usually a version that is both true and safe.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Describe How a Story Is Written (80–120 words)
+@RUBRIC Describe how a story is written and checked in your organisation. Use at least four passive sentences.
+@MODEL
+In our team, a story is never published by one person alone. A draft is written by the officer who did the interview, usually on the same day. It is then sent to a colleague in another office, who reads it as a stranger would. The figures are checked against the project report, and every quote is read back to the person who said it, in their own language. The captions are written by the photographer, because only she knows who is in the picture. Finally, the piece is approved by an editor. Nothing is published without that sign-off.
+@PLAN A draft is…  It is then…  The figures are…  Every quote is…  Finally, the piece is…
+@CHECK
+four passive sentences?
+the steps in order?
+80–120 words?
+
+@TASK Part 6: Why Every Story Is Checked (80–120 words)
+@RUBRIC Write about why every story must be checked. Give reasons and an example.
+@MODEL
+Checking is not a sign that we do not trust each other; it is a sign that we take the work seriously. A figure that is wrong by twenty families is still wrong when it is quoted back to us a year later. A quote that was never read back may not be what the speaker meant, and they cannot correct it once it is published. For example, last year a figure was taken from the wrong monthly report, and it was found only because a colleague asked where the number came from. One question saved the whole article.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Message About a Draft (60–90 words)
+@RUBRIC Write a short message to a colleague about their draft. Raise two points politely.
+@MODEL
+Hi Tomás, thank you for the draft — it reads well. Two things before it goes further. The lead says two hundred families, but the March report says a hundred and eighty; could you check which month the figure is from? And has Mrs Achieng's quote been read back to her yet? Once those two are done, I think it is ready for sign-off. Thanks, Nadia.
+@PLAN Hi ___ , thank you for ___ .  Two things: ___ .  Could you ___ ?  Once those are done, ___ .  Thanks, ___ .
+@CHECK
+a greeting and a close?
+two clear points, politely made?
+60–90 words?
+
+@TASK Part 6: Reflection — Truth and Protection (60–90 words)
+@RUBRIC Write about telling the truth and protecting people. Use your own ideas.
+@MODEL
+I used to think that truth and protection were opposites, and that my job was to balance them. I no longer think that. In almost every case there is a version of the story that is completely true and completely safe, and finding it is the work. What is never right is to invent a detail in order to protect somebody, because the reader who notices will doubt everything else I wrote. Honesty is not only a duty to the reader; it is what makes protection believable.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each writing-standard with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. Check the figure.  →  find it in the report, not in your memory. (example)
+@MATCH f) return the equipment charged
+Read the quote back. :: the photographer knows who is in the frame
+Use an outside reader. :: the speaker may change a word
+Let the photographer caption. :: somebody who was not there asks better questions
+Sign off in the morning. :: leave time to fix what is found
+Never soften a fact. :: remove what cannot be confirmed
+
+@TASK 7B: The Writing-Standards Briefing
+@AUDIO 5.5
+@PRE listen
+what standards would you set for a team's writing?
+@TEXT
+Ingrid: I want to go through our writing standards, because two of them were missed last month and I would rather explain than correct. First, every figure is checked against the written report, not against what somebody remembers. Memory rounds numbers upwards, always in our favour, and that is how an organisation loses its reputation. Second, every quote is read back to the speaker in the language they used. If they want a word changed, the word is changed, and we record that it was done. A quote belongs to the person who said it. Third, captions are written by the photographer. Only she knows who is in the frame, and a wrong name under a face is one of the few mistakes we cannot really repair. Fourth, the sign-off happens in the morning, not at six in the evening, so that there is time to fix whatever it finds. And finally, if a detail cannot be confirmed, it is removed. It is not softened, and it is not qualified. Removed.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How many standards does Ingrid go through? — Five.
+@NUM
+Why must figures be checked against the written report?
+Who writes the captions, and why?
+What happens to a detail that cannot be confirmed?
+
+@TASK 7C: Controlled Practice — The Writing Process
+@RUBRIC You are the manager. Put the writing steps in order. Number them 1–5. (0. is done.)
+@EX 0. The interview is done and the draft is written. — 1
+@LINE
+___ The draft is sent to a colleague in another office.
+___ The figures are checked against the project report.
+___ Every quote is read back to the speaker.
+___ The piece is signed off by the editor.
+
+@TASK 7D: Role-Play — The Story Check
+@RUBRIC In pairs. One is the manager (Ingrid); one is a writer. Use the model and cards.
+@MODEL
+Ingrid: Before I sign this off, where did the figure come from? — Tomás: The March report. — Ingrid: And the quote — has it been read back? — Tomás: Yesterday, in Spanish. She changed one word. — Ingrid: Good. Who wrote the caption? — Tomás: Aisha, this morning. — Ingrid: Then it is ready.
+@CARD Card A — Manager (Ingrid)
+ask where the figure came from · ask about the read-back · ask who wrote the caption.
+@CARD Card B — Writer
+answer each question · name one thing that was changed · say what is still outstanding.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team setting out the writing standards.
+@MODEL
+Dear team, a short reminder of our writing standards, because two were missed last month. Every figure is checked against the written report, not against memory. Every quote is read back to the speaker in their own language, and if they change a word, we record it. Captions are written by the photographer, who alone knows who is in the frame. The sign-off is done in the morning, so that there is time to fix what it finds. And if a detail cannot be confirmed, it is removed — not softened. Thank you. Ingrid.
+@CHECK
+the standards stated clearly?
+at least three passive sentences?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Story That Was Rewritten
+@PRE read
+have you ever had to rewrite something you were proud of?
+@TEXT
+The piece had been written in a morning, and Tomás was pleased with it. A mother in a village outside Lima had described, in her own words, the night the river rose and what she had carried out of the house. The detail was extraordinary: the two things she chose, the neighbour who helped, the shoes she lost on the path. It was the strongest thing he had written that year. Nadia read it as the outside reader and sent back one line: 'Has this been read back to her?' It had not. Joseph called the following morning and read the article aloud, sentence by sentence, in the language of the interview. The mother listened to the whole thing without speaking. Then she said that it was all true, and asked for two changes. She did not want the shoes mentioned, because her children would read it and would feel ashamed. And she did not want the neighbour named, because the neighbour had not been asked. Both details were true, and both were removed. The article that was published was quieter than the one that had been written, and Tomás thought at first that it was weaker. Reading it again a month later, he decided it was not weaker. It was hers.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where was the mother from? — A village outside Lima.
+@NUM
+What did Nadia send back to Tomás?
+What two changes did the mother ask for?
+How did Tomás feel about the published version a month later?
+@GLOSS ashamed = feeling bad about something that has happened to you    ·    read-back = reading a quote or an article to the speaker to confirm it
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. rewrite  →  to write something again, differently. (example)
+@MATCH f) a short text under a photograph
+extraordinary :: very unusual and striking
+ashamed :: feeling bad about something
+quieter :: with less noise or drama
+remove :: to take something out
+aloud :: so that other people can hear
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+'In my opinion, the read-back is important because…'
+'I agree, because…'
+'That is a good point, but…'
+@BULLET
+Should a speaker be allowed to remove a true detail? Why?
+What would you have done in Tomás's place?
+Who does a story belong to, in your opinion?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: A Detail That Could Identify
+@PRE read
+can one small detail make a whole story unsafe?
+@TEXT
+The Lima office has a strong piece about a woman who has started a small business after a flood. She has given full consent, the quotes have been read back, and she is happy for her first name and her photograph to be used. The problem is one sentence near the end. It says that she is the only woman in her district running a workshop of this kind. Tomás included it because it is true and because it explains why her story matters. Nadia, reading as the outside reader, has pointed out that the sentence identifies her completely: anyone who knows the district knows exactly who this is, whatever name is used. The woman herself is not worried, and says so. But she has not been asked about the one sentence specifically, only about the article in general, and there has been trouble in that district before about who receives support and who does not. The piece is due to be published on Friday, and the sentence is the best line in it.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Has the woman given consent? — Yes, full consent.
+@NUM
+What does the sentence near the end say?
+Why does Nadia think it is a problem?
+What has the woman not been asked about specifically?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should the team (a) publish as it is, since she consented, (b) remove the sentence, or (c) call her and ask about that sentence specifically? Choose one and give reasons.
+@FRAME Answer frame
+'I think the team should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+@MODELDEC
+I think the team should call her and ask about that sentence specifically, because she consented to the article in general and not to being identified by a detail that nobody pointed out to her. Also, she knows the district far better than we do, and whether the sentence is safe is her judgement and not ours. This is better than removing it quietly, because the sentence is true and important, and better than publishing as it is, because consent that was never explained is not really consent.
+@PHRASEBANK
+I think… should…
+because…
+consent that was never explained is not consent
+This is better than…
+ask the person, not about the person.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK is checked | has been read | the most | attribution
+@EX 0. The draft was written on Monday. (example)
+@GAP
+Every figure @@ against the project report.
+The quote @@ back to the speaker.
+Saying who said something is called @@ .
+Bulk SMS is @@ accessible channel we have. (Unit 4)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main stages of writing and checking a story
+I can use the passive in the present, the past and the future
+I can explain why a quote must be read back
+I can raise a problem in a colleague's draft politely
+I can explain why a detail that cannot be confirmed is removed
+
+@TASK Part 10: Unit 5 glossary
+@TEXT
+draft = an early version of a piece of writing    ·    edit = to improve a text by changing and cutting    ·    headline = the short, clear line at the top    ·    lead = the first paragraph, which says what happened    ·    quote = a person's exact words, inside quotation marks    ·    attribution = saying clearly who said or wrote something    ·    fact-check = to confirm that every detail is true    ·    read-back = reading a quote to the speaker to confirm it    ·    sign-off = the final approval before publication    ·    house style = the writing rules one organisation uses everywhere    ·    proofread = to check a text for small mistakes    ·    past participle = the third form of a verb (write → written)    ·    accountable = responsible to somebody for what you do    ·    consequence = what happens as a result    ·    remove = to take something out completely
