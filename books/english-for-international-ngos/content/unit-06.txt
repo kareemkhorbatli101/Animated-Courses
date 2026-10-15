@@ -1,0 +1,463 @@
+@UNITHEAD Unit 6: Project Basics
+@PART Warm Up | Warm Up
+@EX Warm-Up: Community Partnership Discussion
+@INSTR Discuss what makes partnerships with communities successful.
+_80
+@BULLET
+What does it mean to work "with" a community rather than "for" a community?
+_300
+@EX Warm-Up: Stakeholder Roles Matching
+@INSTR Match stakeholder groups with their roles and interests in community development.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Community Members and Beneficiaries
+2. | Community Leaders
+3. | Donors and Funding Organizations
+4. | Partners and Collaborators
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Other NGOs and government agencies working toward similar goals in the area
+b) | People directly receiving benefits and most affected by project success or failure
+c) | Organizations providing funding and resources, requiring accountability and results
+d) | Religious leaders, elders, government officials who influence community decisions
+_300
+@EX Warm-Up: Partnership Principles Multiple Choice
+@INSTR Read and choose the best answer about partnership principles.
+_80
+@MCQ
+1. What is most important for building trust with communities?
+@OPT
+   ○ A) Providing money immediately
+   ○ B) Consistent presence, honesty, and following through on promises
+   ○ C) Using complicated technical language
+_300
+@EX Warm-Up: Discussion - Conflict and Collaboration
+@INSTR Discuss how to handle conflicts between different stakeholders in community work.
+_80
+@BULLET
+What should you do when community members, donors, and local government want different things from the project?
+_300
+@EX Warm-Up: Stakeholder Interests Classification
+@INSTR Classify interests as Primary (directly affected), Secondary (supporting), or Tertiary (oversight).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Primary Stakeholder
+2. Secondary Stakeholder
+3. Tertiary Stakeholder
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Children attending school built by project  ____________________________
+2. Teachers trained to teach in the school  ____________________________
+3. Government education ministry monitoring progress  ____________________________
+4. Families receiving healthcare services  ____________________________
+5. Health workers trained and employed by project  ____________________________
+6. International donor funding the health project  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Stakeholder and Partnership Terms Matching
+@INSTR Match key partnership terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Stakeholders
+2. | Partnership
+3. | Community Capacity
+4. | Community Participation
+5. | Ownership
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Giving communities voice in decisions that affect them
+b) | Working together as equals with shared goals and shared responsibility
+c) | Feeling of belonging and responsibility toward a group or project
+d) | Ability of communities to solve their own problems using local resources
+e) | All people and groups affected by or interested in a project or issue
+_300
+@EX Part 1: Building Trust in Partnerships Table
+@INSTR Complete the table with ways organizations build trust with communities.
+_80
+@GRID
+Trust-Building Action | Why It Matters
+Follow through on promises | 
+Include communities in decision-making | 
+Communicate regularly and honestly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Communities learn that you are reliable and honest
+b)  People feel respected and take ownership of projects
+c)  People understand what is happening and why decisions are made
+_100
+_300
+@EX Part 1: Partnership and Community Terms Fill-in
+@INSTR Complete sentences using partnership and community vocabulary.
+_80
+@GAP
+1. A true partnership is ____________________ with both parties having equal voice and respect.
+2. ____________________ communication means explaining decisions clearly so people understand.
+3. ____________________ means taking responsibility for your work quality and results.
+4. ____________________ is helping people develop ability to solve their own problems.
+_300
+@EX Part 1: Community Work in Context - Fact Questions
+@INSTR Read about community partnerships and answer detailed questions.
+_80
+@PANEL
+Building Strong Community Partnerships
+Effective NGO work requires genuine partnerships with communities. Partnership means respecting communities as full partners not objects of charity. It means communities define problems, design solutions, and take leadership.
+Partnership begins with respect. NGO staff must recognize that communities have valuable knowledge, experience, and assets. Communities understand their culture, relationships, and what will work locally. Outside expertise is helpful but incomplete without local knowledge. Real partnership combines inside knowledge with outside resources.
+Trust is built through consistency. Communities watch whether NGO staff follow promises. Do promises made in meetings actually happen? Do promises made in planning actually get implemented? Consistent follow-through builds trust. One broken promise damages trust that took months to build.
+Transparency is essential. Communities need to understand decision-making processes. Why did we choose this activity not that one? How is money being spent? Where did decisions come from? Transparent organizations share information freely. This increases accountability and prevents misunderstandings.
+Community participation must be genuine not token. Token participation means communities are invited to meetings but their voices are not really part of decisions. Genuine participation means communities can shape project direction. It means their feedback actually changes how programs work. It means respect for their priorities even if they differ from NGO staff ideas.
+Power sharing is difficult but necessary. NGOs typically have resources and technical expertise giving them more power. Genuine partnership requires NGOs to share power. This might mean communities have voting rights on project decisions. It might mean community members are paid for their leadership roles not just volunteers.
+Partnership requires time and patience. Quick projects do not allow building relationships needed for genuine partnership. Quick projects typically produce temporary results. Projects built on partnership take longer but create lasting change.
+@NUM 100
+1. What is the difference between token and genuine community participation?
+2. How long does trust typically take to build in partnerships?
+_300
+@EX Part 1: Discussion - Your Experience with Collaboration
+@INSTR Discuss times you worked collaboratively and what made it successful or difficult.
+_80
+@BULLET
+Describe a time when you collaborated successfully with others. What made it work?
+_300
+@EX Part 1: Listening - Partnership Stories from Communities
+@AUDIO 🔊 Audio Track 6.11
+@INSTR Listen to community members describing their experiences working with NGOs.
+_80
+@MCQ
+1. Why did the education community feel proud of their school?
+@OPT
+   ○ A) The government built it
+   ○ B) They participated in decisions and took ownership of their school
+   ○ C) Outside experts controlled everything
+@MCQ
+2. Why did the first water project fail while the new one succeeded?
+@OPT
+   ○ A) Different amounts of water available
+   ○ B) First failed because community had no input; new one succeeded through community participation
+   ○ C) Water projects always fail
+_300
+@EX Part 1: Partnership Summary - Multiple Choice
+@INSTR Choose the best explanation of partnership principles.
+_80
+@MCQ
+1. What is the relationship between community participation and project sustainability?
+@OPT
+   ○ A) They are unrelated
+   ○ B) Communities who participate in decisions feel ownership and maintain projects longer
+   ○ C) Communities should not participate in decisions
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Partnership with "Together" and "With"
+@INSTR Complete sentences using language that emphasizes cooperation and partnership.
+_80
+@NUM
+1. Communities and NGOs work ____________________ (together) to plan projects.
+2. The project was designed ____________________ (collaboration) community leaders and families.
+3. Partnership requires ____________________ (shared) goals and mutual responsibility.
+_300
+@EX Part 2: Expressing Agreement and Disagreement
+@INSTR Complete the table with ways to express agreement and handle disagreement respectfully.
+_80
+@GRID
+Communication Goal | Respectful Language Example
+Express agreement supportively | 
+Express disagreement respectfully | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  That is a good idea and aligns with our community priorities
+b)  I understand your perspective but we have concerns about implementation
+_100
+_300
+@EX Part 2: Passive Voice for Shared Decisions
+@INSTR Complete sentences using passive voice to show shared responsibility.
+_80
+@GAP
+1. The project timeline ____________________ by the community and NGO together.
+2. Community ideas ____________________ when making project improvements.
+3. Leadership responsibility ____________________ between NGO staff and community members.
+4. Community concerns ____________________ and addressed in project redesign.
+_300
+@EX Part 2: Expressing Appreciation and Recognition
+@INSTR Complete sentences expressing gratitude and recognition for partnership contributions.
+_80
+@NUM
+1. We ____________________ (appreciate) the community's support and participation in this project.
+2. We ____________________ (recognize) of community wisdom and local knowledge.
+3. We are ____________________ (grateful) our partners' commitment and dedication to their communities.
+_300
+@EX Part 2: Listening - Partnership Vocabulary in Use
+@AUDIO 🔊 Audio Track 6.17
+@INSTR Listen to a community leader discussing partnerships using specific language structures.
+_80
+@PLAYNOTE
+@SCRIPT
+^Leader: When NGOs work with us, not for us, the language changes. They use phrases like "together we decided" instead of "we informed them." They use passive voice "the community's ideas were incorporated" showing respect for our input. They express gratitude "we deeply appreciate your participation" making us feel valued. This language reflects genuine partnership.
+^Leader: Language reveals whether NGOs truly value partnership or just use the word. Real partners say "we understand your perspective" when discussing disagreements. They say "this was a shared decision" even when they had more power. Language shapes how people interact. Respectful language creates better relationships than commanding language.
+_200
+@QUESTION
+1. How does language reflect whether partnerships are genuine?
+2. What language do real partners use when they disagree?
+_300
+@EX Part 2: Grammar Review - Partnership Communication
+@INSTR Discuss how different grammatical choices reflect partnership values.
+_80
+@BULLET
+Compare "we will help you" versus "we will work together." How do these different phrasings change partnerships?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Challenges in Partnership
+@INSTR Before listening, discuss challenges that arise in partnerships.
+_80
+@BULLET
+What barriers prevent NGOs and communities from developing genuine partnerships?
+_300
+@EX Part 3: Listening - Stakeholder Perspectives
+@AUDIO 🔊 Audio Track 6.20
+@INSTR Listen to different stakeholders describing their perspectives on community partnerships.
+_80
+@PLAYNOTE
+@SCRIPT
+~NGO Worker: From our side, we want to help communities but have limited resources. We cannot fund everything people ask for. We have donor requirements meaning we cannot do exactly what communities want. So we must navigate between community wishes, donor requirements, and realistic budgets. Good partnerships require honest conversations about these constraints. We have learned that communities accept limits when we explain openly. They feel disrespected when we pretend to have resources we do not have.
+^Community Member: From the community, we want respect and honesty. We understand NGOs have constraints. We accept limits when decisions are made fairly including our voice. What frustrates us is when NGOs make decisions claiming they are ours when we never agreed. We want credit for our contribution not to feel like passive recipients. We want to know that our participation actually changes what happens not just listening to no real influence.
+_200
+@QUESTION
+1. What does the NGO worker say about managing conflicting demands?
+2. What does the community member value most in partnership?
+_300
+@EX Part 3: True/False - Partnership Principles
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Genuine partnership requires communities to have voice in decisions affecting them. Communities have valuable local knowledge that complements outside expertise. Trust is built through one-time good actions. Transparency about constraints and resources strengthens partnerships. Communities feel respected when they are invited to meetings even if their advice is not used. Top-down decision making is more efficient than partnership approaches. Being honest about what you can and cannot do is important in partnerships. Power sharing requires willingness from organizations with more resources.
+@NUM 100
+1. Communities should have voice in decisions affecting them.
+2. Trust is built through one-time good actions.
+3. Communities feel respected if their advice is not actually used.
+_300
+@EX Part 3: Listening - Honest Communication in Partnership
+@AUDIO 🔊 Audio Track 6.22
+@INSTR Listen to partners discussing how honesty and transparency work in practice.
+_80
+@MCQ
+1. How does admitting knowledge limits build trust?
+@OPT
+   ○ A) It shows weakness and incompetence
+   ○ B) It shows honesty and commitment to finding right answers rather than pretending false expertise
+   ○ C) Communities lose confidence in honest workers
+@MCQ
+2. What does the manager recommend when communities ask for things outside project scope?
+@OPT
+   ○ A) Ignore the requests
+   ○ B) Promise everything to make people happy
+   ○ C) Say clearly this is outside scope but help connect them with other resources
+_300
+@EX Part 3: Listening - Building Partnerships Over Time
+@AUDIO 🔊 Audio Track 6.23
+@INSTR Listen to experienced partnership workers describing how relationships develop.
+_80
+@PLAYNOTE
+@SCRIPT
+^Worker1: Building partnerships is like building friendships. You cannot rush it. You must spend time getting to know people. You must show up consistently not just when you need something. You must remember what people told you and follow up. You must keep small promises so people trust you with bigger ones. You must admit mistakes and apologize. This takes time but creates relationships that weather difficulties.
+~Worker2: I noticed that partnerships develop through small successes. Start with small manageable projects where success is visible and quick. This builds confidence and trust for larger work. Also, celebrate successes together. Let communities take pride in accomplishments. Name them as community achievements. This builds ownership and motivation for next phases.
+_200
+@QUESTION
+1. What does the first worker compare partnership building to?
+2. What strategy does the second worker recommend for building strong partnerships?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - What Makes Partnerships Work
+@INSTR Before reading, discuss what you think makes partnerships succeed.
+_80
+@BULLET
+Based on your experience, what do successful partnerships need to work well?
+_300
+@EX Part 4: Reading - Models of Community Engagement
+@INSTR Read about different approaches to community engagement and answer questions.
+_80
+@PANEL
+Models of Community Engagement in Development Work
+Development organizations use different models for working with communities. The model chosen shapes whether genuine partnership develops.
+The Charity Model: The NGO decides what communities need and provides it. The approach assumes outside experts know best. Communities are passive recipients. This model is quick and allows the NGO to maintain control. However, communities do not develop capacity or ownership. When the NGO leaves, programs typically stop. The Charity Model is common but creates dependency.
+The Participation Model: Communities are invited to participate in NGO-designed programs. Communities provide input but the NGO keeps control of key decisions. This is more respectful than pure charity but not genuine partnership. Communities appreciate being asked but may feel like their input is token. Some participation is better than none but is incomplete.
+The Partnership Model: Communities and NGOs are equals in decision-making. Both parties bring different expertise—communities have local knowledge and NGOs have resources and technical expertise. Decisions are made together. This model respects community capacity and builds ownership. It is slower and messier because decisions take longer. But it creates sustainable change and stronger relationships.
+The Community Leadership Model: Communities take the lead and NGOs provide support and resources. Communities define problems, design solutions, and manage implementation. NGOs facilitate and provide expertise on request. This model requires NGOs to have humility and restraint. It creates strongest community capacity and most sustainable results. However, it requires trusting communities even when you might do things differently.
+Research shows that higher-level models (Partnership and Community Leadership) create more lasting benefits and stronger communities. However, they require patience and are harder to measure for quick proof of impact. Lower-level models (Charity and Participation) show quick visible results but create less lasting change.
+@NUM 100
+1. What is the main difference between the Participation Model and the Partnership Model?
+2. What does research show about different engagement models and lasting results?
+_300
+@EX Part 4: Reading - Collaboration Among Organizations
+@INSTR Read about how different organizations work together effectively.
+_80
+@PASSAGE
+Organizational Partnerships and Coordination
+Beyond working with communities, effective development requires partnerships among organizations. In most areas, multiple NGOs, government agencies, and international organizations work toward similar goals. Coordination among these organizations prevents duplication and creates stronger response.
+Coordination challenges arise from competition for funding. When resources are limited, organizations sometimes compete instead of cooperate. Competition can lead to duplication of effort where multiple organizations provide similar services. It can lead to gaps where no one addresses certain needs. Good coordination requires abundance mentality—believing that cooperation multiplies impact more than competition multiplies individual organization strength.
+Effective multi-organization partnerships require clear roles. One organization might coordinate health services while another focuses on education and another on livelihoods. Clear role definition prevents duplication and allows each organization to use its expertise fully. Regular communication meetings allow organizations to share information, coordinate activities, and solve problems together.
+Trust among organizations is important. Just as community trust comes from consistency and honesty, organizational trust comes from keeping agreements and communicating transparently. Organizations that pursue their organizational interests at the expense of community benefit will lose partnership credibility.
+Successful multi-organizational partnerships in Cambodia pool resources when possible. Organizations might share clinic space, combine training programs, or coordinate transport. This sharing stretches limited resources further and increases access for beneficiaries.
+Hierarchical structures where one strong organization leads and others follow can be efficient but risk silencing smaller organizations. More equal partnership models where all organizations have voice in major decisions engage more expertise and build stronger commitment. These models take more time but create better integration and stronger networks.
+@MCQ
+1. Why do organizations sometimes compete instead of cooperate?
+@OPT
+   ○ A) Competition is always good for communities
+   ○ B) Limited resources lead organizations to compete for funding instead of cooperating
+   ○ C) Cooperation is impossible among NGOs
+@MCQ
+2. What does "abundance mentality" mean regarding organizational partnerships?
+@OPT
+   ○ A) Having lots of money
+   ○ B) Believing cooperation multiplies impact more than competition for individual organization strength
+   ○ C) Only wealthy organizations can partner
+_300
+@EX Part 4: Application - Building Inclusive Partnerships
+@INSTR Read scenarios and fill in how to include often-excluded groups in partnerships.
+_80
+@GRID
+Excluded Group | How to Include in Partnership
+Women whose voices are often dominated by men | 
+Youth who feel excluded by elders | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Conduct separate meetings with women, ensure women are paid for participation leadership roles
+b)  Create youth forums, train youth leaders, include young people in decision committees
+_100
+_300
+@EX Part 4: True/False - Organizational Partnerships
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Competition among organizations is beneficial for communities in all circumstances. Clear role definition among organizations prevents duplication. Trust among organizations comes from consistent behavior and transparency. Sharing resources among organizations always reduces individual organization effectiveness. Smaller organizations should not participate in partnership decisions. Hierarchical partnership structures are always more efficient than equal partnerships. Building strong partnerships requires patience and communication investment.
+@NUM 100
+1. Should organizations have clear defined roles to prevent duplication?
+2. Is organizational trust built through transparency and consistent behavior?
+3. Should smaller organizations be excluded from partnership decisions?
+_300
+@EX Part 4: Discussion - Creating Win-Win Partnerships
+@INSTR Discuss how partnerships can benefit all parties involved.
+_80
+@BULLET
+How can partnerships be structured so that organizations, communities, and donors all benefit?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building and Maintaining Partnerships
+@INSTR Prepare a presentation on how to develop and maintain successful partnerships.
+_80
+@NUM 100
+1. Present the key principles and practices for building lasting partnerships in development work.
+_300
+@EX Part 5: RolePlay - Managing Partnership Conflict
+@INSTR Roleplay a difficult partnership conversation where priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Role in Creating Partnerships
+@INSTR Discuss how you would approach building partnerships in a context you know.
+_80
+@BULLET
+How would you build strong partnerships if you started an NGO project in your own community?
+_300
+@EX Part 5: RolePlay - Explaining Partnership Approach to Donors
+@INSTR Roleplay presenting your partnership approach to a donor organization.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Partnership Agreement Outline
+@INSTR Write an outline for a partnership agreement between an NGO and community organization.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Partnership Learning
+@INSTR Write about what you learned from trying to build a partnership.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Handling a Partnership Problem
+@INSTR Write about a conflict in a partnership and how you would address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Collaborative Development
+@INSTR Write about how you envision collaborative approaches transforming communities.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Cambodian Values of Cooperation and Community
+@INSTR Read about how Cambodian cultural values support community partnerships and answer questions.
+_80
+@PANEL
+Cambodian Cultural Values Supporting Collaboration
+Cambodian culture has deep traditions of cooperation and community mutual support that align strongly with partnership approaches in development work. Understanding and building on these cultural foundations creates more effective and culturally appropriate partnerships.
+The idea of personal dignity and "face" is central to Cambodian culture. It means being treated with respect and keeping one's standing in the community. Partnership approaches honor dignity by respecting community knowledge and treating partners as equals deserving respect. Top-down charity damages dignity because communities feel disrespected. Genuine partnership respects dignity and aligns with cultural values.
+Cambodian culture values collective identity and harmony within the group. Families, extended kinship groups, and villages function as units. Individual decisions are made considering family interests. This emphasis on community function means Cambodians respond well to group participation and collective decision-making in development projects. Approaches that isolate individuals and ignore family networks work poorly. Partnerships that engage whole families and community networks work well.
+Buddhist teachings about compassion and merit strengthen partnership orientation. Buddhism teaches that helping others is a source of merit and that community wellbeing is a shared responsibility. If some community members are in need, the whole community shares responsibility to help. NGO partnerships that mobilize communities to care for vulnerable members resonate with Buddhist teaching. Communities see partnership as living out their values, not accepting foreign charity.
+The tradition of trusting a village representative to act on the community's behalf supports committee structures. Communities trust elected leaders to make agreements and decisions for the village. This allows delegation and shared authority. Partnerships structured with community committees leverage this cultural pattern.
+Cambodian hospitality and respect for guests creates openness to outsiders working toward community benefit. However, guests are also expected to respect host traditions. NGO workers who disrespect community customs violate this obligation. Partnership requires respecting these cultural expectations.
+The importance of community reputation provides powerful motivation. Communities care about standing among neighbouring villages. Projects giving communities pride and positive reputation succeed. Projects that make communities feel exploited or disrespected create barriers to future partnership.
+Building partnerships on these cultural foundations creates authentic collaboration aligned with community values rather than imported models.
+@NUM 100
+1. What does personal dignity mean and how does partnership honor this value?
+2. How do Buddhist teachings support community partnership approaches?
+_300
+@EX Part 7: Discussion - Respecting Culture in Partnerships
+@INSTR Discuss how to respectfully partner with communities while honoring their cultural traditions.
+_80
+@BULLET
+How can NGO workers build partnerships that strengthen rather than challenge community traditions?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 6 Summary - Partnership Concepts
+@INSTR Review Unit 6 by matching key concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Partnership
+2. | Ownership
+3. | Power Sharing
+4. | Participation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Communities having meaningful voice in decisions affecting them
+b) | Sharing power in decisions so all parties' interests are considered equally
+c) | Feeling that a project belongs to you and you are responsible for its success
+d) | Working together as equals with shared goals and shared responsibility
+_300
+@EX Part 8: Integrated Assessment - Unit 6 Mastery
+@INSTR Demonstrate understanding of Unit 6. Choose the best answer.
+_80
+@MCQ
+1. What is the main difference between community partnership and charity approaches?
+@OPT
+   ○ A) They are the same thing
+   ○ B) Partnership gives communities shared decision-making power; charity is one-way help
+   ○ C) Both create equal ownership
+@MCQ
+2. Why do partnerships take longer than top-down NGO approaches?
+@OPT
+   ○ A) Partnerships are not more time-consuming
+   ○ B) Building trust, listening, and shared decision-making require more time than expert decision-making
+   ○ C) Time does not matter in partnerships
+@MCQ
+3. What creates lasting community project ownership?
+@OPT
+   ○ A) NGO funding that continues indefinitely
+   ○ B) Community participation in designing and leading projects from the beginning
+   ○ C) External expertise alone
+@MCQ
+4. How do you build trust with community partners?
+@OPT
+   ○ A) Through one big generous gift
+   ○ B) Through consistent follow-through on small and large promises over months
+   ○ C) Trust is not important in partnerships
+_300

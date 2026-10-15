@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Working with Communities
+@PART Warm Up | Warm Up
+@EX Warm-Up: Health Service Challenges Discussion
+@INSTR Discuss why many communities lack quality health services.
+_80
+@BULLET
+What barriers prevent families in poor communities from accessing health services?
+_300
+@EX Warm-Up: Healthcare Services Matching
+@INSTR Match health service types with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Health Promotion
+2. | Disease Screening
+3. | Clinical Treatment
+4. | Maternal Care
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Helping pregnant women stay healthy during pregnancy and delivery
+b) | Treating sick people in health facilities or at home
+c) | Finding diseases early when treatment is most effective
+d) | Teaching people healthy behaviors to prevent disease
+_300
+@EX Warm-Up: Education Quality Multiple Choice
+@INSTR Choose the best answer about quality education.
+_80
+@MCQ
+1. What is most important for quality education in low-resource contexts?
+@OPT
+   ○ A) Having stone buildings instead of temporary structures
+   ○ B) Training and supporting teachers who create engaging learning
+   ○ C) Having expensive textbooks from wealthy countries
+_300
+@EX Warm-Up: Discussion - Health Education Integration
+@INSTR Discuss why combining health and education programs is more effective.
+_80
+@BULLET
+How can schools teach health behaviors along with academic subjects?
+_300
+@EX Warm-Up: Social Determinants Classification
+@INSTR Classify factors as Direct Causes (disease), Intermediate (behavior/access), or Social (economic/structural).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct Health Cause
+2. Intermediate Factor
+3. Social Determinant
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Intestinal parasite infection  ____________________________
+2. Boiling drinking water to prevent illness  ____________________________
+3. Family poverty preventing fuel purchase  ____________________________
+4. Malnutrition symptoms in children  ____________________________
+5. Family planting vegetable gardens  ____________________________
+6. Land ownership policies limiting poor families' access  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Health Service Levels Matching
+@INSTR Match health service levels with the type of care they provide.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Primary Health Care
+2. | Secondary Care
+3. | Tertiary Care
+4. | Community Health Workers
+5. | Midwives
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Training women to care for themselves during pregnancy and delivery
+b) | Specialized treatment for complex medical conditions
+c) | Community-based workers providing basic services and health education
+d) | Help people stay healthy through prevention and health behaviors
+e) | Treat common illnesses and can refer complex cases elsewhere
+_300
+@EX Part 1: School Health Programs Integration Table
+@INSTR Complete the table with types of health services that can be provided in schools.
+_80
+@GRID
+Health Service in School | Purpose and Impact
+Nutritious meals and snacks | 
+Clean drinking water and handwashing facilities | 
+Basic health assessments and referrals | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Improves nutrition, increases attendance, helps children concentrate in class
+b)  Prevents diarrheal disease and infections, teaches hygiene habits children take home
+c)  Identifies health problems early, connects families with treatment, improves school attendance
+_100
+_300
+@EX Part 1: Health and Education Terminology Fill-in
+@INSTR Complete sentences using health and education vocabulary correctly.
+_80
+@GAP
+1. Health and education programs work together as ____________________ approaches for stronger impact.
+2. A ____________________ approach to child development includes both education and health needs.
+3. ____________________ health care teaches people to avoid disease before it happens.
+4. ____________________ access means all children can reach quality health and education regardless of income.
+_300
+@EX Part 1: Health Education Models - Fact Questions
+@INSTR Read about how healthier people stay healthy and answer detailed questions.
+_80
+@PANEL
+Health Behaviors and Education for Better Health
+Many diseases are preventable through health behaviors. Understanding what causes disease allows people to take action preventing it. However, behavior change is complex. People must know how to prevent disease, have access to prevention tools, and feel motivated to change.
+Health education teaches people how diseases spread and how to prevent them. Knowing that washing hands prevents diarrhea is valuable knowledge. But knowledge alone does not change behavior. A family must also have water for handwashing. They must believe handwashing is worth the time when they are poor and water is scarce. They must trust the information source. Effective health education addresses knowledge, access to tools, and motivation.
+Schools are ideal places for health education because children form habits early. Teaching children proper nutrition establishes patterns lasting into adulthood. Teaching girls about girls' health addresses taboos preventing healthcare. Teaching boys about girls' health breaks gender stereotypes. School-based education reaches many children efficiently. One teacher can impact hundreds of students annually.
+Community health workers bridge gaps between health systems and communities. CHWs live in communities and understand local culture. They can provide basic health care with training. They can conduct health education in mothers' groups, community gatherings, and markets. They can refer complex cases to health facilities. CHWs cost less than nurses or doctors but address many community health needs. In Bolivia, trained CHWs have become vital for reaching highland and remote valley communities far from hospitals.
+Private sector pharmacies and shops reach many people. However, without training, shop owners sometimes sell harmful medicines or provide incorrect advice. NGO training of private providers extends health services beyond NGO-run facilities. Community health workers, trained shop owners, female health educators, and nurses working together create stronger health systems than any single provider type.
+Sustainability requires that communities eventually manage their own health. This means training local people to provide services and teach health behaviors. It means helping communities value health enough to budget for it locally. It means building on existing community health practices rather than replacing them entirely.
+@NUM 100
+1. Why is knowledge about disease prevention not enough for behavior change?
+2. What role do community health workers play in health service delivery?
+_300
+@EX Part 1: Discussion - Integrated Service Models
+@INSTR Discuss how combining health and education services benefits communities more than separated approaches.
+_80
+@BULLET
+How have you seen health and education work together in your own experience?
+_300
+@EX Part 1: Listening - Health Worker Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to health and education workers describing their integrated approach.
+_80
+@MCQ
+1. What health problems did the health worker identify that affect school attendance?
+@OPT
+   ○ A) No health problems affect school
+   ○ B) Malnutrition, parasites, lack of girls' health information prevent attendance
+   ○ C) Health never impacts education
+@MCQ
+2. Why did nutrition education fail before the partnership?
+@OPT
+   ○ A) Teaching about nutrition is impossible
+   ○ B) Students could not practice without actual food and water access in school
+   ○ C) Nutrition education always works alone
+_300
+@EX Part 1: Health Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality health and education services.
+_80
+@MCQ
+1. What determines quality health services in resource-limited areas?
+@OPT
+   ○ A) Expensive technology and equipment
+   ○ B) Well-trained staff, essential medicines, community trust, and accessibility
+   ○ C) Large modern buildings
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Health and Education
+@INSTR Complete sentences using structures showing connections between health and education.
+_80
+@NUM
+1. Health outcomes ____________________ (depend) quality education that teaches disease prevention.
+2. School health programs work best ____________________ (integrated) academic curriculum.
+3. Healthy children ____________________ (contribute) better school attendance and learning.
+_300
+@EX Part 2: Cause and Effect in Health Services
+@INSTR Complete the table with cause-and-effect relationships in health and education.
+_80
+@GRID
+Intervention Cause | Health or Education Effect
+Training community health workers | 
+Providing nutritious school meals | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Results in basic health services reaching more community members including remote areas
+b)  Results in better child nutrition, improved concentration, and increased school attendance
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of health and education work.
+_80
+@GAP
+1. We provide health screening in schools ____________________ identify problems early.
+2. We train female health educators ____________________ girls feel comfortable discussing girls' health.
+3. This nutritional program was designed ____________________ improve child development in early years.
+4. Health and education services are integrated ____________________ comprehensive child development support.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how programs address them.
+_80
+@NUM
+1. ____________________ (Although) girls face cultural barriers accessing education, school health programs with female educators can support their participation.
+2. Community health worker training ____________________ (overcomes) barriers between formal health systems and communities.
+3. Integrated programs ____________________ (addresses) both immediate health needs and long-term development through education.
+_300
+@EX Part 2: Listening - Service Quality Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to health managers discussing how to ensure quality health and education services.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Quality in health and education services depends on well-trained staff. We invest heavily in training because staff are our main resource. Better training leads to better care. But training is not enough. We must also have essential medicines, clean facilities, and strong supervision. Quality means consistently good service not just good service sometimes. Parents notice quality immediately. They choose services where staff are respectful, competent, and helpful. Quality services create trust that leads to higher usage.
+^Manager: I learned that quality is also about listening to communities. What we think is quality might not match what communities experience as quality. We conduct regular community feedback surveys. Communities tell us staff attitude matters as much as technical skill. A nurse who hurries or dismisses questions creates poor quality experience even if technically skilled. Quality requires both competence and compassion.
+_200
+@QUESTION
+1. What components create quality health and education services?
+2. Why is listening to community feedback important for quality?
+_300
+@EX Part 2: Grammar Review - Health Education Outcomes
+@INSTR Discuss how different grammatical structures help explain health and education relationships.
+_80
+@BULLET
+How do different sentence structures help explain why health and education should be connected?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Access Barriers to Health and Education
+@INSTR Before listening, discuss barriers preventing people from accessing health and education.
+_80
+@BULLET
+What barriers prevent families from accessing quality health and education services?
+_300
+@EX Part 3: Listening - Overcoming Access Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to health workers discussing how they overcome barriers to service access.
+_80
+@PLAYNOTE
+@SCRIPT
+~Worker1: We recognized that distance was our biggest barrier. Families could not reach our clinic easily. So we moved health services closer. We trained community health workers from villages to provide basic services locally. For complex cases, we help families transport to the clinic. This reduced distance barrier immediately. Attendance increased dramatically when services came to people instead of expecting people to find us.
+^Worker2: Cost was our barrier. Families wanted services but could not afford fees. We discovered that flexible payment worked better than free services. Families were more likely to use paid services they valued. We created payment plans so families could pay over time. We provided fee waivers for poorest families. We charged government and NGO staff full price helping subsidize poor families. This mixed model ensured sustainability and ensured respect for services.
+_200
+@QUESTION
+1. How did health workers address the distance barrier?
+2. What payment approach did workers find most effective?
+_300
+@EX Part 3: True/False - Health Services and Education
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Quality health services require expensive technology above all else. Community health workers can provide basic health care with appropriate training. School-based health education is more cost-effective than community health education alone. Children with untreated health problems learn well in school. Separated health and education services are more efficient than integrated services. Listening to communities about barriers helps design services addressing real obstacles. Prevention education is less important than treatment services.
+@NUM 100
+1. Are community health workers able to provide basic health care with training?
+2. Do children with untreated health problems learn well in school?
+3. Is prevention education less important than treatment?
+_300
+@EX Part 3: Listening - Integrating Services Successfully
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to program managers discussing how they integrated health and education successfully.
+_80
+@MCQ
+1. How did managers clarify roles in integrated programs?
+@OPT
+   ○ A) They gave the same role to everyone
+   ○ B) They defined specific roles for health and education staff while planning overlap and joint activities
+   ○ C) Clear roles are not necessary in integration
+@MCQ
+2. What did managers do when conflicts arose about activities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They had regular meetings for honest communication and made adjustments when needed
+   ○ C) Conflicts in integration cannot be resolved
+_300
+@EX Part 3: Listening - Student Impact from Integrated Services
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as families describe how integrated health and education services changed their children.
+_80
+@PLAYNOTE
+@SCRIPT
+~Mother: My daughter started school but was always tired and sick missing class frequently. The health worker discovered parasites. After deworming, she had energy and attended school consistently. The education and health coordination caught health problems that were blocking her learning. Now she is learning quickly.
+^Father: School now teaches our son about nutrition and health. He comes home and teaches us what he learned. He monitors younger siblings' handwashing. What the school teaches health-wise actually reaches our home and changes family practices. Before the programs were separate and information was disconnected. Now it all connects. Our family is healthier and children learn better.
+_200
+@QUESTION
+1. What health problem did the girl's health barrier cause to her education?
+2. How did school health education affect the father's family?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Quality Service Indicators
+@INSTR Before reading, discuss how you would judge whether a health or education service is quality.
+_80
+@BULLET
+What signs indicate that a health or education service is providing quality?
+_300
+@EX Part 4: Reading - Primary Health Care Philosophy
+@INSTR Read about primary health care and answer detailed questions.
+_80
+@PANEL
+Primary Health Care: Foundation for Healthy Communities
+Primary Health Care (PHC) is an approach to health emphasizing prevention, community involvement, and accessibility. PHC differs from hospital-based medicine that focuses on treating serious illness. PHC builds healthy communities where diseases are prevented through education, clean water, nutrition, and immunization.
+PHC serves as the foundation of health systems. Instead of everyone going to hospitals, most health needs are handled at community level by trained health workers and nurses. Only complex cases go to hospitals. This keeps costs lower and services accessible. In Bolivia where many communities are days from the nearest hospital, PHC approaches through community health workers became vital.
+Prevention is central to PHC philosophy. Preventing disease through vaccination, health education, clean water, and nutrition costs much less than treating disease. A vaccination preventing disease costs less than hospitalization treating disease. Education preventing poor nutrition costs less than treating malnutrition. PHC emphasizes these cost-effective approaches.
+PHC requires community participation. Health workers alone cannot create health. Communities must understand disease prevention and take action. Communities must help identify health priorities. Communities must participate in monitoring health progress. PHC views communities as partners not passive recipients.
+PHC requires coordination among sectors. Health cannot improve without education teaching health behaviors. Education cannot succeed if children are malnourished or sick. PHC requires agriculture providing nutrition, engineering providing water and sanitation, education teaching health, and health services treating illness. These sectors must work together coordinated around community health goals.
+PHC requires strong management and continuous learning. Health workers must be trained, supported, and supervised. Programs must monitor whether they are working. Programs must learn from experience and adjust approaches. Weak management leads to wasted resources and unmotivated staff. Strong management creates effective, efficient services.
+PHC creates sustainable health because it builds local capacity. Communities manage their own health with external support decreasing over time. Hospitals depend on expensive outside resources. Communities supporting PHC create health independence over time.
+@NUM 100
+1. How does primary health care prevent health problems instead of just treating them?
+2. What sectors must coordinate for health to improve?
+_300
+@EX Part 4: Reading - Education Quality Standards
+@INSTR Read about education quality factors and choose the best answers.
+_80
+@PASSAGE
+Quality Education Standards and Indicators
+Quality education requires multiple components working together. Strong curriculum alone is insufficient if teachers lack training. Modern buildings alone are insufficient if teaching methods are poor. Quality requires coordination of many factors: trained qualified teachers, relevant curriculum, adequate resources, appropriate teaching methods, inclusive environment, community support, and assessment of learning.
+Teacher quality is most important factor in education quality. Excellent teachers can educate students in basic schools with few resources. Poor teachers cannot educate well even with modern buildings and materials. Investment in teacher training and support creates stronger impact than investment in buildings. In resource-limited contexts, teacher quality determines everything.
+Curriculum must be relevant to students' lives and future. Abstract textbook content disconnected from reality fails to engage students. Curriculum connecting education to health, agriculture, and livelihoods helps students see education relevance. Curriculum respecting local culture and knowledge creates stronger learning.
+Inclusive education means all children can participate regardless of gender, ability, or background. Schools excluding girls from education teach them they are less valuable. Schools excluding disabled children teach segregation. Quality education actively includes all children providing necessary accommodations and support. Inclusive education creates more equitable societies.
+Community support and engagement determines whether students attend school. If communities value education and support children's attendance, more children learn. If communities face cultural barriers to girls' education or see education as unimportant, attendance suffers. Engaging communities to prioritize education creates conditions for quality.
+Assessment should measure whether students actually learned what matters. Standardized tests are one tool but not the only measurement. Practical assessment of whether students can apply knowledge is equally important. Assessment should guide teaching not just grade students. Teachers must use assessment results to improve instruction.
+Bolivia's education quality challenges stem from distance and language. Schools are scattered across mountains and valleys, teachers are hard to retain in remote posts, resources are scarce, and many children begin school speaking Quechua or Aymara rather than Spanish. Building quality education requires not just classrooms but attention to teacher motivation, bilingual curriculum, and community support alongside infrastructure.
+@MCQ
+1. What factor has the most impact on education quality?
+@OPT
+   ○ A) Modern buildings and equipment
+   ○ B) Teacher quality and training
+   ○ C) Textbook availability alone
+@MCQ
+2. Why is inclusive education important for quality?
+@OPT
+   ○ A) Exclusion improves quality
+   ○ B) Inclusive education ensures all children learn and creates more equitable societies
+   ○ C) Inclusion and quality are unrelated
+_300
+@EX Part 4: Application - Integrated Services Assessment
+@INSTR Read scenarios and fill in how to assess whether health and education services are well-integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Quality Integration
+Regular joint planning meetings between health and education staff | 
+Students receive health attention before significant barriers block learning | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that sectors coordinate activities, communicate about priorities, and adjust together
+b)  Shows that programs identify and address health barriers preventing education
+_100
+_300
+@EX Part 4: True/False - Program Integration Principles
+@INSTR Read statements about integrated programs and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated health-education programs serve all community members equally regardless of income. Health education in schools taught by trained teachers leads to better health behavior than information alone. Malnutrition does not affect student learning and school attendance. Teacher quality is more important to education outcomes than building quality. Separated health and education services are always more efficient than integrated services. Community health workers cannot achieve outcomes similar to nurses with training. Quality services require continuous learning and adjustment based on results.
+@NUM 100
+1. Should integrated health-education programs serve all community members equitably?
+2. Does malnutrition affect student learning and attendance?
+3. Are separated services always more efficient than integrated services?
+_300
+@EX Part 4: Discussion - Designing Integrated Programs
+@INSTR Discuss how to design health and education programs well-integrated from the start.
+_80
+@BULLET
+If you were designing an integrated health-education program for a Bolivian highland community, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Health-Education Programs
+@INSTR Prepare a presentation on effective health-education integration strategies.
+_80
+@NUM 100
+1. Present strategies for building sustainable integrated health and education programs.
+_300
+@EX Part 5: RolePlay - Coordinating Health and Education Teams
+@INSTR Roleplay coordinating a health and education team when they have conflicting priorities.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Integrated Services
+@INSTR Discuss how integrated approaches could transform your own community.
+_80
+@BULLET
+How would integrated health-education programs transform a community like yours?
+_300
+@EX Part 5: RolePlay - Advocating for Integrated Funding
+@INSTR Roleplay advocating for integrated budget allocation to a donor organization.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Program Integration Plan
+@INSTR Write a brief plan for integrating health and education services in a community program.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Service Integration Challenges
+@INSTR Write about a challenge in integrating health and education services and how to address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Integrated Services on Students
+@INSTR Write about how integrated health-education services changed student outcomes.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for Healthy Educated Communities
+@INSTR Write about your vision for communities where health and education develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Health and Education in Andean Perspective
+@INSTR Read about Andean community values supporting health and education integration.
+_80
+@PANEL
+Andean Values Supporting Health and Education
+Andean cultural traditions provide a strong foundation supporting integrated health and education approaches. Understanding these foundations helps design culturally appropriate programs gaining community support.
+The idea of "ayni" or reciprocal exchange is central to Andean life. What one family gives to another is returned in time. Learning and teaching are understood as reciprocal duties: those who know are expected to share, and those who learn are expected to pass knowledge on. Education in Andean tradition is a community obligation, not only a personal advantage. Programs building on this view of education as shared duty gain stronger community support.
+Andean teaching emphasizes health as collective responsibility. Communities have long maintained their own health practices through herbal medicine, midwifery, and seasonal knowledge. Health is understood as balance between people, land, and community. Health programs aligned with these values frame health preservation as caring for the whole community, not an outside agenda.
+Community responsibility supports integration. The "ayllu" is the extended community that holds land and makes decisions together. Members are responsible for one another's wellbeing. If community members are sick, healthy members should help. If community members are without schooling, those with learning should teach. Integration combines health and education as a single community responsibility.
+Women's education and health are increasingly recognized as essential in Andean communities. Women hold deep knowledge of nutrition, seeds, and child health, and increasingly take leadership in community organizations. Modern community leaders emphasize that educating girls strengthens the whole ayllu. Girls' health education in schools aligns with these values even where older practices restricted girls' schooling.
+Andean ethics require high standards of service. Health workers and teachers are trusted figures accountable to the community assembly. Community tradition emphasizes trustworthiness and competence in those who serve. Programs emphasizing professional integrity and competence align with these values.
+The Andean idea of "pachamama" or the living whole means everything is interconnected — people, land, water, and health. This worldview naturally supports integrated health-education approaches. Separating health from education fragments what communities experience as one thing. Integrated approaches honor that unity.
+Aligning health-education programs with Andean values creates stronger community acceptance and participation. Communities see programs as consistent with their own traditions rather than threatening to them.
+@NUM 100
+1. How does Andean tradition support education as an important activity?
+2. What Andean concept supports health-education integration?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Delivery
+@INSTR Discuss how to deliver health and education respecting cultural values and traditions.
+_80
+@BULLET
+How can health and education programs honor cultural traditions while promoting improvements?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Health Education Concepts
+@INSTR Review Unit 7 by matching health and education concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Primary Health Care
+2. | Integrated Services
+3. | Community Health Workers
+4. | School Health Programs
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Schools providing health services and education alongside academic curriculum
+b) | Trained community members providing basic health services and health education
+c) | Programs combining health and education for multiplied impact on communities
+d) | Approach emphasizing prevention, community involvement, and accessible basic services
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are health and education inseparably connected in human development?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Health problems prevent learning and education teaches health behaviors creating interdependence
+   ○ C) Only health matters for development
+@MCQ
+2. What is the primary advantage of integrated health-education programs?
+@OPT
+   ○ A) They cost the same but create less impact
+   ○ B) They create multiplied impact across both sectors at lower cost than separated programs
+   ○ C) Integration provides no advantages
+@MCQ
+3. How do community health workers expand health service access?
+@OPT
+   ○ A) They reduce health service quality
+   ○ B) They provide basic services locally, teach health education, and refer complex cases creating accessible care
+   ○ C) Community health workers are not important
+@MCQ
+4. What makes school-based health programs effective for community health improvement?
+@OPT
+   ○ A) Schools have no impact on health
+   ○ B) Schools reach many children teaching health behaviors they share with families creating wide impact
+   ○ C) School health programs only help students not families
+_300
