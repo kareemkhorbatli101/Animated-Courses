@@ -1,0 +1,376 @@
+@UNITHEAD Unit 9: Sustainable Development and Global Cooperation
+@PART Warm Up | Warm Up
+@EX Warm-Up: Program Expansion Challenges Discussion
+@INSTR Discuss challenges when expanding successful programs.
+_80
+@BULLET
+When an NGO program works well in one area, what challenges might they face when trying to expand it to other communities?
+_300
+@EX Warm-Up: Sustainability Definition Matching
+@INSTR Match sustainability and scaling concepts with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Sustainability
+2. | Scaling
+3. | Replication
+4. | Adaptation
+5. | Capacity Building
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Expanding a successful program to serve more areas or people
+b) | Training local staff and communities to manage programs independently
+c) | Program continues providing services without depending on external funding
+d) | Copying a proven program model in a new location with similar conditions
+e) | Changing program elements to fit different community contexts and needs
+_300
+@EX Warm-Up: Expansion vs Sustainability Discussion
+@INSTR Discuss the balance between scaling and maintaining quality.
+_80
+@BULLET
+Discuss the difference between a program that expands quickly to many areas and one that slowly expands to maintain quality.
+_300
+@EX Warm-Up: Transition to Local Leadership Discussion
+@INSTR Discuss how NGOs transition leadership to communities.
+_80
+@BULLET
+As an NGO transitions from external funding to local fundraising, what skills do leaders need?
+_300
+@EX Warm-Up: Community Ownership Classification
+@INSTR Classify program characteristics as supporting OR preventing community ownership.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Supports Community Ownership
+2. Prevents Community Ownership
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Communities participate in planning program activities and make key decisions  ____________________________
+2. NGO leaders make all decisions; communities only implement them  ____________________________
+3. Programs train community members to manage services independently  ____________________________
+4. Programs depend entirely on NGO staff; communities are passive recipients  ____________________________
+5. Communities contribute resources and make financial decisions  ____________________________
+6. Communities receive services but have no voice in program management  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Scaling and Sustainability Terminology Matching
+@INSTR Match key terms in scaling and sustainability with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Geographic Scaling
+2. | Numerical Scaling
+3. | Deepening
+4. | Institutionalization
+5. | Integration
+6. | Exit Strategy
+7. | Financial Sustainability
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Increasing number of people served by existing program
+b) | Plan showing how NGO reduces involvement while program continues
+c) | Expanding program to new geographic areas
+d) | Financial self-sufficiency through local sources
+e) | Process of becoming embedded in community systems and structures
+f) | Transferring program responsibility to government or communities
+g) | Increasing quality and comprehensiveness of services
+_300
+@EX Part 1: Sustainability Approaches Matching
+@INSTR Match sustainability strategies with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Government Partnership
+2. | Community-Led Sustainability
+3. | Financial Sustainability
+4. | Institutionalization
+5. | NGO Transition Model
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Program generates income through fee-for-service or business activities
+b) | Government agencies co-fund and support continued program operations
+c) | Communities contribute resources and manage program operations
+d) | NGO remains involved but shifts to advisory and support roles
+e) | Services become regular part of government ministry responsibilities
+_300
+@EX Part 1: Scaling Success Factors Multiple Choice
+@INSTR Choose the best answer about scaling factors.
+_80
+@MCQ
+1. What is the primary requirement before scaling an NGO program?
+@OPT
+   ○ A) Program must have reached a very large number of people already
+   ○ B) Program must have strong systems, trained staff, and proven results that quality can be maintained
+   ○ C) Program must have political support from the national government
+_300
+@EX Part 1: Capacity Building Concept Discussion
+@INSTR Discuss what capacity building means in sustainability context.
+_80
+@BULLET
+What does capacity building mean and why is it essential for program sustainability?
+_300
+@EX Part 1: Replication vs Adaptation Multiple Choice
+@INSTR Choose the correct distinction between these concepts.
+_80
+@MCQ
+1. What is the key difference between replication and adaptation?
+@OPT
+   ○ A) Replication copies exact program model to new place; adaptation changes program to fit new context
+   ○ B) Replication is done by government; adaptation is done by NGOs
+   ○ C) Replication is faster; adaptation is slower
+_300
+@EX Part 1: Exit Strategy Elements Matching
+@INSTR Match exit strategy components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transition Timeline
+2. | Capacity Development
+3. | Financial Planning
+4. | Leadership Transfer
+5. | Partnership Development
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ensuring government or other partners commit to program continuation
+b) | Clear timeline for NGO withdrawal and local leadership takeover
+c) | Planning for how program will be funded after NGO support ends
+d) | Gradual shift of management authority to local leaders
+e) | Training and support for communities assuming program responsibilities
+_300
+@EX Part 1: Scaling Barriers Classification
+@INSTR Classify potential scaling barriers by category.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Resource Barrier
+2. Capacity Barrier
+3. Contextual Barrier
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Insufficient funding to support expansion to new areas  ____________________________
+2. Not enough trained staff to maintain quality in new locations  ____________________________
+3. Different cultural beliefs in new areas requiring program adaptation  ____________________________
+4. Limited vehicles for reaching remote communities  ____________________________
+5. Weak management systems that cannot oversee dispersed operations  ____________________________
+6. Government policies in different regions restricting program activities  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Future Plans for Scaling
+@INSTR Create sentences using future tense about program expansion plans.
+_80
+@NUM 100
+1. Write sentences describing your program's scaling plan for the next three years using future tense.
+_300
+@EX Part 2: Conditional Language for Sustainability
+@INSTR Use conditional structures to discuss sustainability planning.
+_80
+@NUM 100
+1. Use conditional structures (if-then, unless, provided that) to describe sustainability conditions for a program.
+_300
+@EX Part 2: Presenting Scaling Strategy
+@INSTR Complete sentences describing scaling approach.
+_80
+@OPTLINE
+1. We __________ to expand from rural areas to urban centers over five years without sacrificing quality. | plan | planned | will plan | have planned
+_300
+@EX Part 2: Describing Capacity Building Outcomes
+@INSTR Write sentences showing how capacity has developed.
+_80
+@NUM 100
+1. Describe changes that have occurred in a community's capacity as the program has grown.
+_300
+@EX Part 2: Questions About Sustainability Plans
+@INSTR Complete questions that would assess sustainability planning.
+_80
+@OPTLINE
+1. __________ your organization take over full management of program operations within five years? | Can | Will | May | Would
+_300
+@EX Part 2: Comparative Language for Scaling Approaches
+@INSTR Create comparative statements about different scaling approaches.
+_80
+@NUM 100
+1. Compare fast scaling to slow scaling using comparative and superlative forms.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Scaling Experience
+@AUDIO 🔊 Audio Track 9.19
+@INSTR Listen to a program director discussing scaling challenges.
+_80
+@QUESTION
+1. What was the main lesson the director learned from attempting to scale too quickly?
+_300
+@EX Part 3: Listening to Government Partnership Success
+@AUDIO 🔊 Audio Track 9.20
+@INSTR Listen to a health official describing government-NGO partnership.
+_80
+@MCQ
+1. According to the official, what was the key to successful government-NGO partnership?
+@OPT
+   ○ A) NGO provided all funding while government provided nothing
+   ○ B) Clear agreement on roles, shared goals, transparent communication, and mutual respect
+   ○ C) Government took over immediately; NGO stopped involvement
+_300
+@EX Part 3: Listening to Community Readiness Assessment
+@AUDIO 🔊 Audio Track 9.21
+@INSTR Listen to a sustainability officer assessing whether a community is ready for NGO transition.
+_80
+@QUESTION
+1. What specific indicators did the officer use to determine if communities were ready for the NGO to transition management?
+_300
+@EX Part 3: Listening to Local Fundraising Strategies
+@AUDIO 🔊 Audio Track 9.22
+@INSTR Listen to a fundraiser describing how programs became financially sustainable.
+_80
+@MCQ
+1. What combination of income sources made the program financially sustainable?
+@OPT
+   ○ A) Only international donor funding
+   ○ B) Community contributions, government co-funding, fee-for-service, and local donor support together
+   ○ C) Completely free services requiring no local contribution
+_300
+@EX Part 3: Listening to Implementation Success Story
+@AUDIO 🔊 Audio Track 9.23
+@INSTR Listen to an NGO staff member reflecting on successful program scaling.
+_80
+@QUESTION
+1. Describe two ways the NGO successfully adapted its program when scaling to a new region.
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Scaling Theory
+@INSTR Read about scaling theory and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Scaling involves expanding programs to reach more people. Successful scaling requires three elements: strong internal capacity to maintain quality, systematic planning for growth, and partnerships with local organizations and government. Programs cannot sustain scaling without solving challenges at each stage. Scaling is not simple expansion—it requires strategic thinking and careful implementation."
+            Is the following statement true, false, or not given? "The fastest possible scaling is always the best approach for NGOs."
+_300
+@EX Part 4: Reading About Sustainability Requirements
+@INSTR Complete based on reading about sustainability factors.
+_80
+@NUM
+1. According to reading material, a sustainable program requires all of the following EXCEPT __________.
+_300
+@EX Part 4: Reading About Community Participation
+@INSTR Read about community participation in sustainabilty.
+_80
+@NUM 100
+1. Read: "Communities that participate in program planning, management, and resource contribution develop stronger ownership. Ownership is the most important predictor of program sustainability. When communities feel they designed and manage the program, they work to sustain it. Programs where external organizations make all decisions often collapse when external support ends because communities have not developed investment."
+            Is the following statement true, false, or not given? "Community participation in program management directly causes sustainability."
+_300
+@EX Part 4: Reading About Exit Strategies
+@INSTR Answer based on reading about exit strategy planning.
+_80
+@NUM
+1. Based on reading material, what is the primary purpose of a well-designed exit strategy for an NGO program?
+_300
+@EX Part 4: Reading About Adaptation vs Replication
+@INSTR Read about scaling strategies.
+_80
+@NUM 100
+1. Read: "Programs can take two approaches when expanding to new locations. Replication means copying the exact program model to new places. Adaptation means changing program elements for new contexts. Most successful scaling mixes both approaches—keeping proven core elements while adapting implementation to local circumstances."
+            Is the following statement true, false, or not given? "All programs should replicate exactly without any changes in new locations."
+_300
+@EX Part 4: Reading About Government Partnerships
+@INSTR Complete based on reading about government partnerships for sustainability.
+_80
+@NUM
+1. What are the main benefits for an NGO program of partnering with government in sustainability planning?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Planning Program Expansion
+@INSTR Role-play a planning conversation about program expansion.
+_80
+_300
+@EX Part 5: Presentation - Scaling Strategy
+@INSTR Prepare a 2-3 minute presentation about your program scaling plan.
+_80
+@NUM 100
+1. Present to donors: "Our Five-Year Scaling and Sustainability Plan." Include: current status, expansion areas, how you will maintain quality, staff development plan, how sustainability will be achieved, timeline, and budget overview.
+_300
+@EX Part 5: Discussion - Overcoming Scaling Barriers
+@INSTR Discuss solutions to common scaling challenges.
+_80
+@BULLET
+What are realistic solutions to the barrier of insufficient trained staff when organizations want to scale?
+_300
+@EX Part 5: Role Play - Government Partnership Negotiation
+@INSTR Role-play negotiating government partnership for sustainability.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Sustainability Plan
+@INSTR Write about how your program will sustain itself long-term.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Scaling Strategy
+@INSTR Write a plan for expanding your program to new areas.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Exit Strategy Letter
+@INSTR Write a letter to communities about NGO transition plans.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Government Partnership Proposal
+@INSTR Write a proposal for government partnership.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Growth with Intention
+@INSTR Connect Indonesian community concepts with sustainable program growth.
+_80
+@NUM 100
+1. In Indonesian tradition, "gotong royong" means working together so that a task benefits everyone who shares it. How does this concept relate to how NGOs should approach program scaling?
+_300
+@EX Part 7: Community Principles - Stewardship
+@INSTR Discuss Indonesian stewardship concepts in program sustainability.
+_80
+@NUM 100
+1. "Amanah" in Indonesian usage means a responsibility entrusted to you on behalf of others. How does this principle relate to NGO responsibility for sustainable programs?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 9 Concepts Review Matching
+@INSTR Match Unit 9 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Sustainability
+2. | Scaling
+3. | Capacity Building
+4. | Exit Strategy
+5. | Adaptation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Changing program for different community contexts
+b) | Expanding program to reach more people in new areas
+c) | Training communities to manage programs independently
+d) | Plan for how NGO gradually reduces involvement while program continues
+e) | Program continues operating without depending only on external donors
+_300
+@EX Part 8: Scaling Success Factors Review
+@INSTR Choose the best summary of Unit 9 material.
+_80
+@MCQ
+1. According to Unit 9, what is the relationship between sustainability and scaling?
+@OPT
+   ○ A) Organizations must choose—they cannot both sustain and scale
+   ○ B) Successful scaling requires building sustainability from the beginning
+   ○ C) Scaling and sustainability are unrelated concerns
+_300

@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: NGO Communication and Professional Interaction
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Advocacy Discussion
+@INSTR Discuss what advocacy means and why NGOs engage in it.
+_80
+@BULLET
+What is advocacy and why do NGOs do it rather than just providing services?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Individual Level
+2. | Community Level
+3. | Local Government Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | International standards and support for global issues
+b) | Strengthening community organizations and collective voice
+c) | Changing individual or family behavior and awareness
+d) | Changing national policies and laws affecting entire country
+e) | Changing district or provincial policies and systems
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for NGO work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve NGO effectiveness?
+_300
+@EX Warm-Up: Coalition Building Discussion
+@INSTR Discuss why organizations work together in coalitions.
+_80
+@BULLET
+Why do NGOs form coalitions and networks with other organizations?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Research report showing 60% of girls drop out before completing secondary school  ____________________________
+2. Documentary featuring three girls' personal stories about why they left school  ____________________________
+3. Data analysis showing that schools with female teachers have higher girl attendance  ____________________________
+4. Community testimonials from mothers about barriers their daughters face  ____________________________
+5. Cost-benefit analysis showing education investment returns to economy  ____________________________
+6. Media campaign with personal quotes from girls discussing education dreams  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Advocacy Campaign
+2. | Coalition
+3. | Evidence-Based Advocacy
+4. | Community Voice
+5. | Accompaniment
+6. | Alliances
+7. | Power Dynamics
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Networks of organizations working toward common goals
+b) | Using factual data to convince decision-makers
+c) | Communities representing their own interests directly
+d) | Organized effort to change policies and systems affecting communities
+e) | Organizations helping without controlling community decisions
+f) | Power to influence decisions and resources, held by individuals and systems
+g) | Networks connecting like-minded organizations for learning and coordination
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Equity Policy
+3. | Policy Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using research to design and evaluate policies and programs
+b) | Government official sympathetic to reform and willing to support change
+c) | Focus on solving problems by understanding how parts are interconnected
+d) | Spreading successful local innovation to scale impact nationally
+e) | Policy that intentionally helps disadvantaged groups overcome barriers
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most NGO advocacy?
+@OPT
+   ○ A) To improve government efficiency and reduce waste
+   ○ B) To change policies and systems so communities can access rights and services
+   ○ C) To replace government services with NGO services
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for advocacy planning.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning advocacy campaigns?
+_300
+@EX Part 1: Rights-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about rights-based advocacy.
+_80
+@MCQ
+1. What is a "rights-based approach" to NGO work?
+@OPT
+   ○ A) Framing issues as community rights rather than charity or assistance
+   ○ B) Working only with government without community involvement
+   ○ C) Providing services without requiring community participation
+_300
+@EX Part 1: Policy Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Lobbying
+2. | Media Advocacy
+3. | Legal Advocacy
+4. | Mass Mobilization
+5. | Grassroots Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Community members sending letters and messages to parliament member
+b) | Media coverage raising public awareness and pressure
+c) | Direct meetings with decision-makers to present evidence
+d) | Legal action challenging unjust laws or practices
+e) | Community gatherings where people demand change collectively
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Media campaign highlighting education barriers for girls  ____________________________
+2. Building coalition of women's organizations for sustained advocacy  ____________________________
+3. Public demonstration at government ministry  ____________________________
+4. Developing policy champions within government education ministry  ____________________________
+5. Release research report showing girls' education benefits  ____________________________
+6. Creating community networks for ongoing community voice in education  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Advocacy Messages
+@INSTR Write persuasive advocacy messages using strong language.
+_80
+@NUM 100
+1. Write advocacy messages targeting government officials about increasing teacher salaries for quality education.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyze policy impact.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if education policy changed.
+_300
+@EX Part 2: Argument Structure for Policy Briefs
+@INSTR Complete argumentative sentences for policy briefs.
+_80
+@OPTLINE
+1. The evidence __________ that investing in girls' education strengthens entire nations. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Community Demands
+@INSTR Write statements reporting community demands clearly.
+_80
+@NUM 100
+1. Write advocacy statements reporting community demands about health services.
+_300
+@EX Part 2: Academic Language for Research Reports
+@INSTR Complete academic sentences for advocacy research reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that early childhood education improves later school performance. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Coalition Documents
+@INSTR Write inclusive statements for multi-stakeholder advocacy.
+_80
+@NUM 100
+1. Write statements that unite different advocacy partners toward shared goals.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Community Advocacy Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to a community leader speaking about advocacy experience.
+_80
+@QUESTION
+1. What change did the community leader say resulted from their advocacy efforts?
+_300
+@EX Part 3: Listening to Policy Maker Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to a government official discussing policy change process.
+_80
+@MCQ
+1. According to the official, what most influenced government decision to change education policy?
+@OPT
+   ○ A) International donor pressure alone
+   ○ B) Combination of community pressure, evidence showing policy works, and political feasibility
+   ○ C) NGO requests without community involvement
+_300
+@EX Part 3: Listening to Coalition Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to NGO leaders describing coalition formation.
+_80
+@QUESTION
+1. What were two main challenges the coalition faced when bringing organizations together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to advocacy campaign strategists planning their approach.
+_80
+@MCQ
+1. What did the strategists identify as the most important first step in campaign planning?
+@OPT
+   ○ A) Launching media campaign immediately
+   ○ B) Conducting stakeholder analysis to understand all perspectives and influences
+   ○ C) Going directly to government with demands
+_300
+@EX Part 3: Listening to Advocacy Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to advocacy leaders reflecting on campaign outcomes.
+_80
+@QUESTION
+1. How did the advocacy leaders describe what made their campaign successful versus where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Advocacy campaigns that combine community mobilization with evidence-based arguments are more effective than single-strategy approaches. Communities must lead advocacy efforts for lasting accountability and ownership. Governments respond to combination of pressure and political feasibility—advocacy must address what is possible, not just what is ideal."
+            Is the following true, false, or not given? "Advocacy works best when NGOs lead without much community involvement."
+_300
+@EX Part 4: Reading About Policy Change Theories
+@INSTR Complete based on reading about policy change.
+_80
+@NUM
+1. According to reading about policy change, government decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when multiple interventions at different levels create reinforcing effects. One policy change alone may have limited impact, but when combined with capacity building, incentives, and shifted mindsets, change becomes self-sustaining. Effective systems change requires coordinated action across multiple organizations and sectors. This explains why coalitions become essential for advocacy work focused on systems change rather than just program implementation."
+            Is the following statement true, false, or not given? "Systems change can be achieved through single-organization programs without need for coalitions."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on reading material, what are two reasons why combining evidence with community stories is more effective for advocacy than using either alone?
+_300
+@EX Part 4: Reading About Power Analysis in Advocacy
+@INSTR Read about power analysis in advocacy context.
+_80
+@NUM 100
+1. Read: "Understanding power dynamics is essential for effective advocacy. Power analysis examines who holds decision-making authority, who influences decisions, who would benefit from change, who benefits from current system, and how power is distributed among stakeholders. Different stakeholders have different power sources—formal authority (government), financial resources (wealthy individuals), knowledge (experts), numbers (communities), collective voice (unions). Effective advocacy identifies where power lies, builds coalitions with power holders who can be influenced, mobilizes communities (power through numbers), and creates new power (coalition, evidence, public pressure) where little existed before."
+            According to the text, can communities create power through organizing even if they lack formal authority or money?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about advocacy evaluation.
+_80
+@NUM
+1. What indicators show that advocacy campaigns are creating change at different levels (individual, community, policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Advocacy Negotiation with Government
+@INSTR Role-play a negotiation meeting advocating for policy change.
+_80
+_300
+@EX Part 5: Presentation - Advocacy Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching an advocacy campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "Join Us: Advocating for Free Education for All Girls." Include: problem statement, evidence, who is affected, what change you are demanding, how community can participate, timeline for campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to advocacy and strategies to overcome them.
+_80
+@BULLET
+What are common barriers that advocacy campaigns face and how can organizations overcome them?
+_300
+@EX Part 5: Role Play - Community Fund Raising for Advocacy
+@INSTR Role-play asking community members to contribute to advocacy campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing an Advocacy Campaign Strategy
+@INSTR Write a strategic plan for an advocacy campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Policy Brief for Decision Makers
+@INSTR Write a policy brief advocating for specific government action.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Coalition Charter/Agreement
+@INSTR Write a charter describing how coalition members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Advocacy Message for Media Campaign
+@INSTR Write compelling advocacy messages for public awareness.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Consultation
+@INSTR Connect Jordanian consultation principles to coalition advocacy.
+_80
+@NUM 100
+1. In Jordanian practice, important community matters are settled by consultation among those affected before a decision is announced. How does this principle relate to NGO coalition work and community-led advocacy?
+_300
+@EX Part 7: Community Principles - Social Justice
+@INSTR Discuss principles of justice in systemic advocacy.
+_80
+@NUM 100
+1. The pursuit of justice means working to remove unfair treatment and ensure rights for all. How does this principle relate to NGO advocacy focused on systems change?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Advocacy
+2. | Coalition
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | Community Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Communities representing their own interests directly
+b) | Networks of organizations working toward common goals
+c) | Using evidence and data to convince decision-makers
+d) | Understanding how issues are interconnected
+e) | Working to change policies and systems affecting communities
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes advocacy campaigns most effective?
+@OPT
+   ○ A) NGO expertise without community involvement is sufficient
+   ○ B) Community leadership combined with evidence, coalition power, and strategic engagement with government
+   ○ C) Immediate policy change with no need for sustained effort
+_300
+_-p

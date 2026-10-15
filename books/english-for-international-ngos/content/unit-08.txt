@@ -1,0 +1,370 @@
+@UNITHEAD Unit 8: Health and Education in NGOs
+@PART Warm Up | Warm Up
+@EX Warm-Up: Monitoring and Impact Discussion
+@INSTR Discuss why NGOs need to track program progress and measure results.
+_80
+@BULLET
+Why is it important for NGOs to monitor progress and measure impact of programs?
+_300
+@EX Warm-Up: Monitoring Types Matching
+@INSTR Match monitoring types with their purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Outcome Evaluation
+2. | Process Monitoring
+3. | Impact Assessment
+4. | Organizational Learning
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Learning from experience to improve future programs
+b) | Tracking progress toward goals through routine data collection
+c) | Understanding why results occurred or did not occur
+d) | Measuring whether results matched program goals
+_300
+@EX Warm-Up: Types of Data Discussion
+@INSTR Discuss the value of using both numbers and stories in evaluation.
+_80
+@BULLET
+What is the advantage of using both numbers and stories in evaluation?
+_300
+@EX Warm-Up: Data Use for Improvement Discussion
+@INSTR Discuss how programs use monitoring data to make practical improvements.
+_80
+@BULLET
+How should programs use monitoring data to make practical improvements?
+_300
+@EX Warm-Up: Data Use Classification
+@INSTR Classify monitoring activities by program stage.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning Stage
+2. Implementation Monitoring
+3. Evaluation Stage
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Baseline survey showing health conditions before program starts  ____________________________
+2. Weekly tracking of health clinic attendance and patient visits  ____________________________
+3. End-of-year survey comparing health outcomes to baseline  ____________________________
+4. Community assessment identifying health barriers  ____________________________
+5. Monthly check-in with staff about challenges faced  ____________________________
+6. Impact study three years after program showing sustained changes  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: M&E Terms Matching
+@INSTR Match M&E concepts with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Goal
+2. | Objective
+3. | Indicator
+4. | Baseline
+5. | Outcome
+6. | Output
+7. | Monitoring
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Starting measurement before program begins
+b) | What communities actually received from program
+c) | Amount of change from baseline to later time
+d) | What the program intends to achieve long-term
+e) | Specific short-term results the program expects
+f) | Measurable sign showing progress toward goal
+g) | Process of systematic data collection and analysis
+_300
+@EX Part 1: Data Types Matching
+@INSTR Match data collection methods with their characteristics.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Quantitative Data
+2. | Qualitative Data
+3. | Primary Data
+4. | Secondary Data
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Information already collected by others
+b) | Numbers, percentages, statistics showing measurement
+c) | Words, stories, descriptions explaining meaning
+d) | Information from many people through survey
+_300
+@EX Part 1: M&E Vocabulary Multiple Choice
+@INSTR Choose the correct answer.
+_80
+@MCQ
+1. Which statement best describes what an "indicator" is in M&E?
+@OPT
+   ○ A) The amount of money a program receives
+   ○ B) A measurable sign showing program progress toward a goal
+   ○ C) The number of staff members working on the program
+_300
+@EX Part 1: M&E Goal Discussion
+@INSTR Discuss the elements of a strong M&E system.
+_80
+@BULLET
+What makes an M&E system effective for program improvement?
+_300
+@EX Part 1: Evaluation Purpose Multiple Choice
+@INSTR Choose the correct answer about evaluation purposes.
+_80
+@MCQ
+1. What is NOT a primary purpose of evaluation?
+@OPT
+   ○ A) Determining whether program achieved objectives
+   ○ B) Determining staff members' salaries and job assignments
+   ○ C) Understanding why results did or did not occur
+_300
+@EX Part 1: Logic Model Elements Matching
+@INSTR Match logic model components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Inputs
+2. | Outputs
+3. | Outcomes
+4. | Impact
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Resources, funding, staff, facilities available
+b) | Activities staff perform and services delivered
+c) | Short-term results from activities
+d) | Long-term community-level changes
+_300
+@EX Part 1: Evaluation Type Classification
+@INSTR Classify evaluation types by their primary purpose.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Accountability Evaluation
+2. Learning Evaluation
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Survey showing donors whether program achieved stated objectives  ____________________________
+2. Interviews exploring what worked and why in program implementation  ____________________________
+3. Financial audit verifying program spent money appropriately  ____________________________
+4. Focus groups identifying barriers to implementation and solutions  ____________________________
+5. Report to government showing health outcomes improved  ____________________________
+6. Analysis of implementation processes to improve future programs  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Results and Change
+@INSTR Answer using past tense structures to describe results.
+_80
+@NUM 100
+1. Describe what results the health program achieved using these words: improved, increased, reduced, reached.
+_300
+@EX Part 2: Causality Language for Results
+@INSTR Explain how program activities led to results.
+_80
+@NUM 100
+1. Explain the connection between training activities and improved health services using cause-effect language.
+_300
+@EX Part 2: Comparison Language for Evaluation
+@INSTR Complete sentences comparing baseline and endline results.
+_80
+@OPTLINE
+1. At baseline, only 30 percent of children attended school. At endline, 70 percent attended. The program __________ school attendance. | increased | decreased | eliminated | prevented
+_300
+@EX Part 2: Conditional Language for Future Evaluation
+@INSTR Use conditional language to discuss future evaluations.
+_80
+@NUM 100
+1. Write sentences about what would happen if a program continued for five more years using conditional language.
+_300
+@EX Part 2: Question Formation for Data Collection
+@INSTR Complete M&E survey questions using correct question formation.
+_80
+@OPTLINE
+1. __________ the program impact your family's health? | Did | Does | Will | Has
+_300
+@EX Part 2: Passive Voice in Reporting Results
+@INSTR Convert active voice to passive voice describing evaluation findings.
+_80
+@NUM 100
+1. Rewrite this sentence using passive voice: "The program trained 500 health workers."
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Evaluation Challenges
+@AUDIO 🔊 Audio Track 8.19
+@INSTR Listen to an M&E officer describing evaluation challenges.
+_80
+@QUESTION
+1. What was the main challenge the M&E officer faced when trying to collect monitoring data?
+_300
+@EX Part 3: Listening to Impact Stories
+@AUDIO 🔊 Audio Track 8.20
+@INSTR Listen to a beneficiary describing program impact on their life.
+_80
+@MCQ
+1. What specific health improvement did the beneficiary experience?
+@OPT
+   ○ A) Reduced headaches and better sleep
+   ○ B) Pregnancy complications identified early and received treatment
+   ○ C) Improved ability to work and earn income
+_300
+@EX Part 3: Listening to Continuous Improvement Discussion
+@AUDIO 🔊 Audio Track 8.21
+@INSTR Listen to staff discussing how they use monitoring data.
+_80
+@QUESTION
+1. Describe two ways the program staff changed their work based on monitoring data.
+_300
+@EX Part 3: Listening to Logic Model Discussion
+@AUDIO 🔊 Audio Track 8.22
+@INSTR Listen to a program manager explaining a logic model.
+_80
+@MCQ
+1. According to the manager, what is one main "output" of their health training program?
+@OPT
+   ○ A) Improved health outcomes in the community
+   ○ B) Trained health workers who implement new approaches
+   ○ C) Government policies supporting health programs
+_300
+@EX Part 3: Listening to Evaluation Interpretation
+@AUDIO 🔊 Audio Track 8.23
+@INSTR Listen to an evaluator discussing how to interpret mixed results.
+_80
+@QUESTION
+1. When some program results were positive and others negative, what did the evaluator recommend?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Monitoring Systems
+@INSTR Read the text about monitoring systems and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Effective monitoring systems collect data regularly and systematically. Data collection methods must be simple enough for staff to implement without special training. However, simple methods can still provide accurate information when designed well. Communities should understand why data is being collected so they support the process. Data must be analyzed quickly and results shared with staff and communities regularly. If data shows problems, programs should adjust strategies quickly."
+            Is the following statement true, false, or not given? "Monitoring systems require expensive equipment and technical expertise."
+_300
+@EX Part 4: Reading About Indicators
+@INSTR Complete the sentence based on reading about indicators.
+_80
+@NUM
+1. According to reading material, good indicators should be measurable, achievable, and __________.
+_300
+@EX Part 4: Reading About Data Quality
+@INSTR Read about ensuring data quality in M&E.
+_80
+@NUM 100
+1. Read: "Data quality depends on clear data collection forms, well-trained staff, and regular checking of collected data. Forms should ask specific questions to avoid confusion. Staff should understand why they are collecting each piece of information. Data should be checked for errors and missing values before analysis. Communities can participate in checking data quality by reviewing results and identifying errors."
+            Is the following true, false, or not given? "Communities should never participate in M&E processes because they lack technical skills."
+_300
+@EX Part 4: Reading About Learning from Evaluation
+@INSTR Answer in your own words based on reading.
+_80
+@NUM
+1. Based on reading about organizational learning, explain why evaluation findings should be widely shared rather than kept only in reports.
+_300
+@EX Part 4: Reading About Theories of Change
+@INSTR Read about theories of change.
+_80
+@NUM 100
+1. Read: "A theory of change explains the relationship between program activities and expected outcomes. It shows how activities are supposed to lead to results. For example, if we train health workers, they will provide better care. If they provide better care, communities will trust health services more. If communities trust services, they will use them more. If they use services more, health outcomes improve. A theory of change helps staff understand the path from activities to long-term goal."
+            According to the text, does having a clear theory of change eliminate evaluation risks?
+_300
+@EX Part 4: Reading About Equity in Evaluation
+@INSTR Complete using information from reading about equity-focused evaluation.
+_80
+@NUM
+1. What specific question should equity-focused evaluations answer about program results?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Discussing Program Results
+@INSTR Role-play a conversation about program evaluation results.
+_80
+_300
+@EX Part 5: Presentation - Creating Learning Cultures
+@INSTR Prepare a short presentation (2-3 minutes) about building a learning culture.
+_80
+@NUM 100
+1. Present on: "How Organizations Can Use M&E to Build a Learning Culture Instead of Just Accountability." Include: definition of learning culture; how M&E supports learning; specific examples; staff involvement; sharing failure and success stories; building collective knowledge; how this improves programs.
+_300
+@EX Part 5: Discussion - Using Data for Decision Making
+@INSTR Discuss challenges and solutions for using data in decision-making.
+_80
+@BULLET
+What are common barriers to using M&E data in program decisions and how can programs overcome them?
+_300
+@EX Part 5: Role Play - Receiving Critical Feedback
+@INSTR Role-play receiving and responding to critical evaluation feedback.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing an Evaluation Summary
+@INSTR Write about program evaluation findings and implications.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Data Use Plan
+@INSTR Write about how your program will use M&E data.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Logic Model
+@INSTR Write out the elements of a logic model for a program.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an M&E Proposal
+@INSTR Write a proposal for an M&E system for your organization.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Community Principles - Stewardship and Trust
+@INSTR Discuss community principles of stewardship in organizational M&E.
+_80
+@NUM 100
+1. In Mozambican community tradition, resources held for the community are held in trust, and those who hold them answer to the whole community. How does this principle connect to organizational accountability and M&E?
+_300
+@EX Part 7: Community Principles - Fairness in Data Use
+@INSTR Connect community principles of fairness to equitable program evaluation.
+_80
+@NUM 100
+1. Community assemblies judge decisions by whether they treated everyone fairly. How should this principle guide how organizations interpret and use M&E findings?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 8 Concepts Review Matching
+@INSTR Match Unit 8 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Goal
+2. | Indicator
+3. | Baseline
+4. | Monitoring
+5. | Evaluation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Starting measurement before program begins
+b) | What program intends to achieve long-term
+c) | Process of systematic data collection and analysis
+d) | Judging whether results matched program objectives
+e) | Measurable sign showing progress toward goal
+_300
+@EX Part 8: M&E System Purposes Review
+@INSTR Choose the best answer about M&E purposes in Unit 8 material.
+_80
+@MCQ
+1. Which is the most important reason for organizations to have strong M&E systems?
+@OPT
+   ○ A) To gather statistics for donors only
+   ○ B) To blame staff when results are poor
+   ○ C) To track progress, learn what works, and continuously improve programs
+_300

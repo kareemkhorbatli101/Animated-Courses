@@ -398,6 +398,19 @@ class Doc:
                       + _blanks(rest, True, sz=22),
                       after=80, left=360))
 
+    def inline_options(self, text):
+        """A numbered stem whose answer options follow it inside the same
+        paragraph, each on its own line behind fifteen spaces — the source's own
+        way of laying out a short multiple choice without option paragraphs."""
+        stem, *opts = [x.strip() for x in text.split(" | ")]
+        n, _, rest = stem.partition(" ")
+        runs = run(n + " ", bold=True, sz=22) + run(rest, sz=22)
+        for o in opts:
+            # each option starts on its own line, behind fifteen spaces
+            runs += (f"<w:r>{rpr(sz=22)}<w:br/>"
+                     f'<w:t xml:space="preserve">{esc(" " * 15 + o)}</w:t></w:r>')
+        self.add(para(runs, after=80, left=360))
+
     def grey_gap(self, text):
         self.add(para(run(text, bold=True, sz=22), fill="F5F5F5", after=60, left=360))
 

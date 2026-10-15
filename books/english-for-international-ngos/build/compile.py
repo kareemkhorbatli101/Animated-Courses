@@ -22,7 +22,7 @@ TITLE = "English for NGOs and International Organizations - Student Book (A2)"
 BLOCK = {"BULLET", "PBULLET", "LINE", "NUM", "QUESTION", "MCQ", "OPT", "CAT", "CATQ",
          "CATITEM", "CLASSIFY", "GAP", "GREYGAP", "SPEECH", "SCRIPT", "ANS",
          "CODE", "CHOICE", "PANEL", "PASSAGE", "MATCHA", "MATCHB", "GRID",
-         "STRIP", "TOC", "DLINE", "NARR"}
+         "STRIP", "TOC", "DLINE", "NARR", "OPTLINE"}
 
 # Blank spacers are written out, not inferred: a bare `_300` line is the source's
 # own 300-after blank, `_200d` its dotted separator and `_-p` the one that only
@@ -160,6 +160,9 @@ def emit(doc, items, where):
         elif tag == "GAP":
             for l in body:
                 doc.gap_line(l)
+        elif tag == "OPTLINE":
+            for l in body:
+                doc.inline_options(l)
         elif tag == "GREYGAP":
             for l in body:
                 doc.grey_gap(l)
