@@ -1,0 +1,500 @@
+@UNIT 9 | Saving and Investing Basics
+@FIG u9-banner
+@INTRO In this unit you learn the language of saving and investing, how to talk about what a customer has done and what they did, how to help someone plan, and how to write a short saving plan. Grammar focus: present perfect and past simple.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Why we save (discussion)
+@INSTR In small groups, talk about why people save money.
+@MODEL
+Some people save for something they want, like a car. Others save because they are worried about losing their job. Both are good reasons, but they need different accounts.
+@BULLET
+What do people in your country save for most often?
+What stops people from saving?
+
+@TASK W-B | A saving goal (think–pair)
+@INSTR Think of one goal, then tell your partner three things about it.
+@BULLET
+How much is the goal, and when do you want to reach it?
+How much would you need to put aside each month?
+@GREEN Useful words: | Use the words goal, amount, monthly and interest in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each saving word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. Budget → h)
+@MATCH i) a charge for sending money abroad (extra)
+Interest :: what the bank pays you for keeping your money
+Compound interest :: interest paid on your interest as well as on your savings
+Emergency fund :: money kept for something unexpected
+Goal :: the amount you are saving towards
+Risk :: the chance that the value can fall
+Return :: what your money earns
+Investment :: money put into something that may grow or fall
+Inflation :: the way prices rise over time
+@PRON Pronunciation — word stress. Say these words: IN·te·rest, in·VEST·ment, in·FLA·tion, e·MER·gen·cy.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+About saving: ____
+About investing: ____
+About the money losing value: ____
+@MODEL
+About saving: interest, compound interest, emergency fund, goal. About investing: risk, return, investment. About the money losing value: inflation.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK interest | goal | risk | return | inflation | emergency | monthly | regular | compound
+@EX Example: 0. Small regular amounts are easier than one large one.
+@NUM
+Her ______________________ is six thousand by next December.
+We suggest keeping three months’ expenses as an ______________________ fund.
+A savings account has almost no ______________________, but the ______________________ is small.
+______________________ interest means you earn interest on your interest.
+If prices rise faster than your interest, ______________________ is taking the difference.
+A ______________________ transfer on payday is the easiest way to save.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common saving phrase (one noun is extra).
+@MATCH f) a queue (extra)
+set :: interest
+reach :: a risk
+earn :: a goal
+take :: your savings
+build up :: the target
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one saving goal, yours or a customer’s. Use at least five words from Part 1.
+@MODEL
+My customer has set a goal of six thousand for a deposit. She has already saved two thousand, and she puts aside two hundred on payday. The account earns a small amount of interest, and she keeps one month’s expenses as an emergency fund.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u9-1
+
+@PART Part 2 · Grammar — Present Perfect and Past Simple | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the present perfect and the past simple. Which one gives a finished time?
+@SCRIPT
+Johanna: How long have you been saving?
+Customer: I opened the account in March, so about eight months.
+Johanna: And how much have you saved so far?
+Customer: Two thousand. I added three hundred last month, which was a good month.
+Johanna: You have done better than you think.
+@NUM
+“I opened the account in March” — why the past simple? ____
+“How much have you saved so far?” — is the saving finished? ____
+“I added three hundred last month” — finished or continuing? ____
+@GF
+@GRAMMAR
+Form | Use | Example
+Past simple | a finished time is given or understood | I opened the account in March.
+Present perfect | from the past up to now; no finished time | I have saved two thousand so far.
+Present perfect with for / since | how long something has continued | I have saved since March. / for eight months.
+@REMEMBER a finished time word — yesterday, last month, in March, in 2023 — takes the past simple. so far, already, yet, ever and since take the present perfect.
+@WATCH
+✗ I have opened the account in March. → ✓ I opened the account in March.
+✗ I save since March. → ✓ I have saved since March.
+
+@TASK 2B | Controlled practice (which tense?)
+@INSTR Write the correct form of the verb in brackets.
+@EX Example: 0. I ____ (save) two thousand so far. → have saved.
+@NUM
+She ______________________ (open) the account last March.
+We ______________________ (not reach) the goal yet.
+How much ______________________ you ______________________ (put) aside this year?
+He ______________________ (add) three hundred last month.
+I ______________________ (save) for this since January.
+They ______________________ (never invest) in anything before.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. I have opened it in March. → I opened it in March.
+@NUM
+She has reached her goal last week.
+I save since January.
+We didn’t reached the target yet.
+How long do you save for this?
+He has added three hundred yesterday.
+@WRITE
+
+@TASK 2D | Talk about saving
+@INSTR Write three sentences about a customer’s saving: two in the present perfect and one in the past simple.
+@MODEL
+She has saved two thousand so far. She has been putting money aside since March. She opened the account last year, after she changed jobs.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, ask and answer about saving. Use both tenses.
+@MODEL
+“How long have you been saving? … And when did you start putting money aside each month?”
+@TIP You will see both tenses again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u9-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three conversations about saving. What does a customer want to know first?
+@MODEL
+“I think the customer will ask how much she needs to save each month to reach her goal.”
+
+@TASK 3B | Setting a savings goal
+@AUDIO 9.1
+@SCRIPT
+Customer: I would like to save for a deposit on a flat.
+Johanna: That is a good goal. How much have you saved so far?
+Customer: About two thousand. I started in March.
+Johanna: Then you have saved two thousand in eight months — two hundred and fifty a month. If you keep that up, you will reach six thousand by next December.
+Customer: I hadn’t worked it out like that.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer is saving for a flat. → True.
+@NUM
+The customer started saving in March.
+She has saved about six thousand so far.
+She will definitely buy the flat next year.
+@USEFUL
+How much have you saved so far?
+If you keep that up, you will reach…
+I hadn’t worked it out like that.
+
+@TASK 3C | Saving experience
+@AUDIO 9.2
+@SCRIPT
+Johanna: Have you ever saved regularly before?
+Customer: I tried two years ago, but I stopped after four months.
+Johanna: What happened?
+Customer: My car broke down, and I used all of it. Then I felt I had failed, so I didn’t start again.
+Johanna: That is very common. It is why we suggest two accounts: one for the goal, and a small emergency fund so the goal is not touched.
+@INSTR Read and decide: True or False.
+@NUM
+The customer has saved regularly before.
+She stopped because of an unexpected cost.
+She started again straight away.
+The adviser suggests keeping two accounts.
+
+@TASK 3D | Saving or investing? (longer)
+@AUDIO 9.3
+@SCRIPT
+Customer: My brother says I should invest, not save. He has made a lot this year.
+Johanna: May I ask when he will need that money?
+Customer: He doesn’t need it. He already has a house.
+Johanna: That is the difference. Investing can give a better return over many years, but the value can fall. Saving gives a smaller return, but the amount does not go down.
+Customer: So which should I do?
+Johanna: It depends on your goal. For money you need in two years, I would save. For twenty years, my answer would differ.
+Customer: And my brother?
+Johanna: He is answering a different question. He already has his house.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The brother has made money this year. → True.
+@NUM
+Investing always gives a better return than saving.
+The customer needs the money in about two years.
+The adviser tells the customer her brother is wrong.
+
+@TASK 3E | Match the idea
+@INSTR Match each phrase from the listenings to what it means (one is extra).
+@MATCH f) “Your card has been blocked.” (extra)
+“How much have you saved so far?” :: asking about progress up to now
+“I stopped after four months.” :: a finished event in the past
+“The value can fall.” :: describing risk
+“A small emergency fund” :: money kept so the goal is not touched
+@FIG u9-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — talking about saving
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Ask about progress :: “How much have you saved so far?”
+Ask about the goal :: “When will you need the money?”
+Explain risk :: “The value can fall as well as rise.”
+Encourage :: “You have done better than you think.”
+
+@TASK 4B | Help a customer plan (pairwork)
+@INSTR Help a customer turn a wish into a plan. Then swap roles.
+@MODEL
+A: How much have you saved so far? — B: About two thousand. — A: And when do you want the money? — B: In two years. — A: Then two hundred a month will get you there. Shall we set up a standing transfer on payday?
+@CARD Card A (adviser):
+ask about progress · ask about the goal and the date · do the arithmetic aloud · suggest one action.
+@CARD Card B (customer):
+you want 8,000 in three years; you have 1,500; you are paid on the 28th.
+
+@TASK 4C | Saving or investing?
+@INSTR A customer asks whether to invest. Explain the difference honestly without giving financial advice.
+@MODEL
+“Both can be right, but they answer different questions. Saving gives a smaller return and the amount does not go down. Investing can give more over many years, but the value can fall. The question is when you will need the money.”
+@STRETCH the customer asks “What would you do?” — answer professionally and stay within your role.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A is an adviser; Student B is a customer. Ask and answer to build a plan.
+@CARD Card A (adviser):
+Everyday Saver, withdraw any day · Step Saver, two withdrawals a year · standing transfer free on any payday.
+@CARD Card B (customer):
+you have 1,500 saved; your goal is 8,000 in three years; you have no emergency fund; you were paid yesterday.
+@USEFUL
+How much have you saved so far?
+When did you start?
+How much could you put aside each month?
+
+@TASK 4E | Close the meeting
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Shall I set up the transfer for payday?” :: moving to action
+“You have done better than you think.” :: encouraging the customer
+“Come back in six months and we’ll review it.” :: planning the next step
+“Nothing here is fixed; you can change it.” :: leaving the customer in control
+@INSTR In pairs, close a savings meeting warmly. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Simple ways to save
+@INSTR Read the customer leaflet. Notice the present perfect and the past simple.
+@READ Harbour Bank — Five Habits That Build Savings | About 200 words
+Most people who have built real savings did not earn more than their neighbours. First, they paid themselves first. They set up a transfer on payday, so the money left the current account before it could be spent. Second, they started small. A customer who began with twenty a month five years ago has saved far more than one who waited for the perfect moment and never started. Third, they kept an emergency fund. A saver without a buffer has to take money from the goal, and often gives up. Fourth, they gave the goal a name and a date. “Six thousand by December” works; “some savings one day” does not. Fifth, they reviewed it twice a year, and they were honest when it was not working. One of our customers has saved for three goals since 2021 and has missed her target twice. She moved the date and carried on, and she has now reached the third. That is the real habit: not perfect saving, but saving that survives a bad month.
+@INSTR Answer the questions.
+@EX Example: 0. How many habits does the leaflet give? → Five.
+@NUM
+What does “paying yourself first” mean in practice?
+Why is an emergency fund important for a saver?
+What is the difference between a good goal and a bad one?
+What did the customer do when she missed her target?
+What does the leaflet say the real habit is?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the leaflet. Find two present perfect verbs and two past simple verbs.
+@NUM
+Present perfect: ____ , ____
+Past simple: ____ , ____
+@INSTR Now complete these sentences about the customer.
+@NUM
+She ______________________ (save) for three goals since 2021.
+She ______________________ (miss) her target twice.
+
+@TASK 5C | Saving and investing — the simple idea
+@INSTR Read the short note. What is the one question that decides?
+@READ One Question Decides | About 120 words
+Customers often ask whether they should save or invest, and they expect a complicated answer. It is simpler than they think. Saving means the amount does not go down, and it grows slowly. Investing means the amount can go up or down, and over many years it has usually grown more. The one question that decides is: when will you need this money? If the answer is within about three years, save it, because a fall in value just before you need it cannot be waited out. If the answer is ten years or more, investing deserves a conversation. And if a customer cannot sleep at night, the answer is saving, whatever the arithmetic says.
+@NUM
+What is the difference between saving and investing, in one line each?
+What is the one question that decides?
+What should the answer be if a customer cannot sleep?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare saving habits where you live.
+@GREEN Useful frame: | “In my country people usually save for ___, and they ___.”
+@BULLET
+Which of the five habits is hardest where you live?
+What would you add to the list?
+@FIG u9-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the saving plan
+@INSTR Complete the plan with the words: goal, aside, payday, reached, review.
+@BANK goal | aside | payday | reached | review
+@NUM
+Your ______________________ is six thousand by next December.
+You have ______________________ two thousand so far.
+You will put two hundred and fifty ______________________ each month.
+The transfer will leave your account on ______________________.
+We will ______________________ the plan in six months.
+
+@TASK 6B | A short saving plan (50–70 words)
+@INSTR Write a short saving plan for a customer. Use one present perfect and one past simple.
+@MODEL
+Subject: Your saving plan
+Dear Ms Cruz, Thank you for coming in. You opened the account in March and you have saved two thousand so far — about two hundred and fifty a month. To reach six thousand by December, we will keep that amount and move the transfer to payday. We will review the plan in six months. Kind regards, Johanna Berg
+@GREEN Plan: | Subject: ___ · Dear ___, · You opened ___ and you have saved ___. · To reach ___, we will ___. · We will review ___. · Kind regards, ___
+@PHRASES
+you have saved ___ so far
+you opened the account in…
+to reach ___ by ___
+we will review the plan in…
+@CHECK
+A clear subject line?
+One present perfect and one past simple?
+A date for the review?
+50–70 words?
+@WRITE
+
+@TASK 6C | Reply to a customer about investing (50–70 words)
+@INSTR A customer asks whether she should invest her deposit money. Write an honest, careful reply.
+@MODEL
+Subject: Your question about investing
+Dear Ms Cruz, Thank you for your question. You have told me that you will need this money in about two years. For money needed that soon, saving is usually the better choice, because the value of an investment can fall just when you need it. If your plans change, we can look at it again. Kind regards, Johanna Berg
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · You have told me ___. · For money needed ___, ___. · If ___, we can ___. · Kind regards, ___
+@CHECK
+An honest, careful tone?
+One present perfect?
+No promise about returns?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your plan or reply with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · both tenses? · a date given? · 50–70 words?
+@MODEL
+“The arithmetic is clear and the tone is honest. Next time, try to name the review date rather than saying ‘in a few months’.”
+
+@PART Part 7 · Management File — Coaching a Savings Goal | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Coaching phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“How much have you saved so far?” :: starting from where the customer is
+“What got in the way last time?” :: finding the real obstacle
+“Shall we move the date rather than stop?” :: keeping the goal alive
+“You have done better than you think.” :: giving honest encouragement
+
+@TASK 7B | Listening — coaching a customer
+@AUDIO 9.4
+@SCRIPT
+Johanna: You have saved two thousand since March. That is better than you think.
+Customer: It doesn’t feel like it. I wanted three by now.
+Johanna: May I ask what got in the way?
+Customer: My car. It cost eight hundred in July and I never caught up.
+Johanna: Then the plan was missing a buffer, not the discipline. Shall we move the date to February and start a small emergency fund alongside?
+Customer: That feels possible.
+@INSTR Answer the questions.
+@EX Example: 0. How much has the customer saved? → Two thousand.
+@NUM
+What got in the way in July?
+What does Johanna say was missing from the plan?
+What two changes does Johanna suggest?
+
+@TASK 7C | Controlled practice — the coaching summary
+@INSTR Complete the coaching summary. Use the present perfect or the past simple.
+@EX Example: 0. She ____ (save) two thousand since March. → has saved.
+@NUM
+She ______________________ (open) the account in March.
+She ______________________ (save) two thousand so far.
+Her car ______________________ (cost) eight hundred in July.
+She ______________________ (not reach) the original target.
+We ______________________ (agree) a new date today.
+@WRITE
+
+@TASK 7D | Role play — coach a customer
+@INSTR A customer has missed her savings target and wants to give up. Coach her without judging.
+@MODEL
+“You have saved two thousand since March, which is more than most people manage. May I ask what got in the way? … Then the plan was missing a buffer, not the discipline. Shall we move the date rather than stop?”
+@CARD Card A (adviser):
+start from what has been done · find the obstacle · name it kindly · offer two changes.
+@CARD Card B (customer):
+you have saved 2,000 since March; your car cost 800 in July; you feel you have failed.
+@STRETCH the customer says she wants to stop altogether — keep the door open without pressure.
+
+@TASK 7E | Writing — a coaching summary note (50–70 words)
+@INSTR Write a short note summarising the meeting for the customer’s file.
+@MODEL
+Subject: Savings review — Ms Cruz
+Ms Cruz opened the account in March and has saved two thousand since then. She did not reach the original target because of an unexpected car repair in July. We have agreed a new date of February and a small emergency fund alongside the goal. Review again in three months. Johanna Berg
+@GREEN Plan: | Subject: ___ · ___ opened ___ and has saved ___. · She did not ___ because ___. · We have agreed ___. · Review again ___.
+@PHRASES
+has saved ___ since…
+did not reach the target because…
+we have agreed…
+review again in…
+@CHECK
+A clear subject line?
+One present perfect and one past simple?
+The agreed next step?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — The Savings Habit | Practitioner track · read then discuss
+@INSTR Before you read: what would make you save without thinking about it?
+@READ The Default That Changed Everything | About 200 words · a made-up example based on real practice
+A bank in several countries wanted more of its customers to save. For years it had explained why saving matters: leaflets, posters, a line in every statement. Almost nothing changed. Then it tried something much smaller. When a customer opened a current account, the form had a box already ticked: “Move 5% of each salary to a savings account.” The customer could untick it in one second, and many did. But most did not, and most of those who left it ticked were still saving two years later. The bank called this the default. It had not persuaded anybody. It had simply changed which choice required effort. The result was uncomfortable as well as useful. Some customers said later that they had not noticed the box, and the bank agreed that a default must be obvious, easy to undo, and never hidden. It moved the box to its own line, in larger type, and take-up fell a little. The bank accepted that. A habit that depends on the customer not reading the form is not a habit the bank should want.
+@GLOSS
+default — the choice that happens if you do nothing
+to opt out — to say no to something you were given automatically
+habit — something you do regularly without deciding each time
+take-up — how many people accept something offered
+
+@TASK 8A | Comprehension
+@EX Example: 0. What did the bank try for years? → Explaining why saving matters.
+@NUM
+What was the small change the bank made?
+What happened to most customers who left the box ticked?
+Why did the bank move the box to its own line?
+What principle did the bank accept at the end?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+default :: to say no to something you were given automatically
+to opt out :: the choice that happens if you do nothing
+habit :: how many people accept something offered
+take-up :: something you do regularly without deciding each time
+
+@TASK 8C | Discussion
+@GREEN Frames: | “A default like this would work in my country because ___.” “It would be unfair if ___.”
+@BULLET
+Is a pre-ticked box fair? Why, or why not?
+What default would help your customers most?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Should a bank set a saving default for new customers? Give one reason.
+@WRITE
+
+@PART Part 9 · Branch Case Study — Nairobi in Focus: Saving When Prices Rise | Practitioner track · read then decide
+@INSTR Before you read: what is the point of saving when prices are rising quickly?
+@READ The Interest That Is Not Enough | About 185 words
+Mrs Wanjiru has saved with the Nairobi branch for four years. She has built up just over three thousand, which she keeps for her children’s school fees. This morning she has come in angry, holding a statement. Her account has paid interest every year, exactly as promised, but the school fees have risen faster. In real terms, she says, she has less than she had two years ago, and she is right. She wants to move all of it into something that pays more, and she has been told by a neighbour about an investment scheme promising a high monthly return. Grace Otieno, at the counter, knows two things at once. The first is that Mrs Wanjiru’s complaint about inflation is correct and should not be brushed aside. The second is that a scheme promising a high fixed monthly return is almost always a fraud, and the fees are due in six weeks. Grace cannot give investment advice, and she must not simply tell a customer what to do with her own money.
+
+@TASK 9A | Comprehension
+@EX Example: 0. How long has Mrs Wanjiru saved here? → Four years.
+@NUM
+Why does Mrs Wanjiru feel she has less than before?
+What has her neighbour told her about?
+What two things does Grace know at the same time?
+
+@TASK 9B | Decision task
+@INSTR What should Grace do? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Grace should agree with Mrs Wanjiru about inflation first, because her complaint is correct and she needs to be heard. Then she should explain that a high fixed monthly return is a warning sign. Also, she can offer a fixed deposit for the money not needed in six weeks.
+@GREEN Frame: | I think Grace should ___, because ___. Also, ___.
+@PHRASES
+agree with the part that is true
+explain why a fixed high return is a warning sign
+keep the fee money where it cannot fall
+offer an appointment with an adviser
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use the present perfect, the past simple, or the correct word. Items 5–6 review Units 7 and 8.
+@EX Example: 0. I ____ (save) two thousand so far. → have saved.
+@NUM
+She ______________________ (open) the account in March.
+We ______________________ (not reach) the target yet.
+Money kept for something unexpected is an ______________________ fund. (word)
+The way prices rise over time is called ______________________. (word)
+If you share a one-time code, anyone ______________________ use your account. (Unit 7 conditional)
+Staff ______________________ share a customer’s details. (Unit 8 obligation)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the basic words of saving and investing.
+I can use the present perfect and the past simple correctly.
+I can help a customer turn a wish into a plan.
+I can understand a short conversation about saving.
+I can write a short saving plan or review note.
+
+@TASK 10C | Unit glossary
+@GLOSS
+interest — what the bank pays you for keeping your money
+compound interest — interest paid on your interest as well as on your savings
+emergency fund — money kept for something unexpected
+goal — the amount you are saving towards
+risk — the chance that the value can fall
+return — what your money earns
+investment — money put into something that may grow or fall
+inflation — the way prices rise over time
+default — the choice that happens if you do nothing
+take-up — how many people accept something offered

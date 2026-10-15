@@ -18,7 +18,7 @@ What does each of them ask for first?
 Someone who is paid every month and pays bills: ____
 Someone who wants to keep money for three years: ____
 Someone who needs 5,000 to buy a van for work: ____
-@TIP Use the words account, card, loan and deposit in your answers.
+@GREEN Useful words: | Use the words account, card, loan and deposit in your answers.
 
 @PART Part 1 · Vocabulary | Pre-class input
 
@@ -181,13 +181,13 @@ The customer prefers a long term.
 @TASK 3D | A family chooses a product (longer)
 @AUDIO 4.3
 @SCRIPT
-Priya: Good morning. How can I help you both today?
-Customer A: We are saving for a deposit on a flat. We have about six thousand, and we can add two hundred a month.
-Priya: That is a good start. How long do you think you will save?
-Customer B: Three years, maybe four.
-Priya: Then let me compare three accounts for you. The Everyday Saver is the most flexible, but it pays the lowest rate. The Step Saver pays more, and you may withdraw twice a year. The Fixed 12 pays the highest rate of the three, but the money is locked for a year at a time.
+Priya: How can I help you both today?
+Customer A: We are saving for a deposit on a flat. We have six thousand and can add two hundred a month.
+Priya: For how long?
+Customer B: Three years.
+Priya: Then let me compare three. The Everyday Saver is the most flexible but pays the lowest rate. The Step Saver pays more, with two withdrawals a year. The Fixed 12 pays the highest, but the money is locked for a year.
 Customer A: Could we use more than one?
-Priya: Yes, and that is often the best answer. Keep some money where you can reach it, and put the rest where it earns more.
+Priya: Yes, and that is often the best answer. Keep some where you can reach it, and the rest where it earns more.
 @INSTR Read and decide: True, False, or Not Given.
 @EX Example: 0. The customers are saving for a flat. → True.
 @NUM
@@ -202,7 +202,6 @@ A customer who may need the money in a year :: a business loan over five years
 A shop owner buying a van :: the Fixed 12, locked for a year
 A family saving for three years :: a mix of two accounts
 Someone who will not touch the money :: the Step Saver
-Someone who needs money every day :: a current account
 @FIG u4-3
 
 @PART Part 4 · Speaking | In-class output
@@ -248,7 +247,6 @@ Would you prefer a higher rate or more flexibility?
 “You can change this later if your plans change.” :: reassuring the customer
 “I’ll send you the details in writing.” :: confirming afterwards
 “Take your time and come back if you wish.” :: giving the customer space
-“Is there anything else I can explain?” :: checking understanding
 @INSTR In pairs, close a product conversation politely. Use two phrases above.
 
 @PART Part 5 · Reading | Pre-class input
@@ -256,7 +254,7 @@ Would you prefer a higher rate or more flexibility?
 @TASK 5A | Our products, compared
 @INSTR Read the product page. Notice the comparatives and superlatives.
 @READ Harbour Bank — Savings Products Compared | About 200 words
-Harbour Bank offers three savings accounts, and the right one depends on when you need your money. The Everyday Saver is the most flexible of the three. You can withdraw any day, and there is no fee. However, it pays the lowest rate, because flexibility costs the bank money. The Step Saver pays more than the Everyday Saver, but you may make only two withdrawals a year. It suits customers who are saving for something a year or two away. The Fixed 12 pays the highest rate we offer. The money is locked for twelve months, and you cannot take it out early without losing the interest. It is the best choice for money you are sure you will not need. All three accounts are available in every country where we operate, and the rate is set locally, because interest rates are not the same everywhere. Many customers use more than one account: some money where they can reach it quickly, and the rest where it earns more. If you are not sure, start with the Everyday Saver. It is easier to move money later than to take it out early.
+Harbour Bank offers three savings accounts, and the right one depends on when you need your money. The Everyday Saver is the most flexible of the three. You can withdraw any day, and there is no fee. However, it pays the lowest rate. The Step Saver pays more than the Everyday Saver, but you may make only two withdrawals a year. The Fixed 12 pays the highest rate we offer. The money is locked for twelve months, and you cannot take it out early without losing the interest. It is the best choice for money you are sure you will not need. All three accounts are available in every country where we operate, and the rate is set locally. Many customers use more than one account: some money where they can reach it quickly, and the rest where it earns more. If you are not sure, start with the Everyday Saver. It is easier to move money later than to take it out early.
 @INSTR Answer the questions.
 @EX Example: 0. How many savings accounts does the bank offer? → Three.
 @NUM

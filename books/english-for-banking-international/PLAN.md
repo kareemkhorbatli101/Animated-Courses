@@ -12,18 +12,18 @@ is a structural twin, built to the source's own measurements.
 
 | Measure | Source value |
 |---|---|
-| Total running words | 46,541 (46,360 in the ten units, 181 in the front matter) |
+| Total running words | 45,570 (45,393 in the ten units, 177 in the front matter) |
 | Units | 10 |
-| Words per unit | 4,445 – 4,834 |
+| Words per unit | 4,350 – 4,739 |
 | Shape | Unit head + Warm-Up + Parts 1–10 |
 | Named tasks per unit | **44** (47 in Unit 1, 45 in Units 2 and 10) |
 | Task codes | W-A · W-B · 1A–1E · 2A–2E · 3A–3E · 4A–4E · 5A–5D · 6A–6D · 7A–7E · 8A–8D · 9A–9B · 10A–10C |
-| Tables per unit | 46 – 52 (478 in all) |
-| Matching tables per unit | 6 – 8 |
-| Illustrations | **52** — five per unit at fixed slots, plus a cover and one extra in Unit 10 |
-| Illustration size | 6.5 in wide; 3200 px artwork; 1.71–9.19 in tall (mean 2.38) |
+| Tables per unit | 46 – 52 (478 in all, because the source packs adjacent boxes into one table) |
+| Matching tables per unit | 6 – 8 (70 in all) |
+| Illustrations | **52** — a cover, ten unit banners, forty captioned panels (four per unit), a back cover |
+| Illustration size | 6.5 in wide; the banners and panels 3200 px wide and 840–1200 px tall; the two covers A4 at 2480 × 3508 |
 | Audio tracks per unit | 4 (n.1–n.4) |
-| Writing models per unit | 6 |
+| Writing models per unit | 14 (140 in all) |
 | Pages (LibreOffice render) | **135** |
 | CEFR band | B1 — Operator track (lower B1) and Practitioner track (upper B1) |
 
@@ -97,7 +97,9 @@ Part 10 · Review & Can-Do .............. Homework / self-study
 ```
 
 Unit 1 adds **W-C** and **6E–6F**; Unit 2 adds **1F**; Unit 10 adds **10D**. These local
-variations are reproduced, not normalised.
+variations are reproduced, not normalised — and so are the smaller ones: Unit 1 puts a
+matching task at 6A where every other unit puts guided writing, and moves the info-gap to
+4C; Unit 2 puts its writing task at 1F and keeps six script boxes instead of four.
 
 ---
 
@@ -138,18 +140,46 @@ working in a bank in one country to a person working in a bank that reaches acro
 
 ### The syllabus (unchanged)
 
+The ten unit titles and the ten grammar points are the source's own, verbatim.
+
 | Unit | Title | Grammar |
 |---|---|---|
-| 1 | Getting Started in International Banking | present simple vs present continuous |
-| 2 | Customer Service and Communication | modals for politeness and offers |
-| 3 | Everyday Banking Transactions | quantifiers and countable/uncountable |
-| 4 | Banking Products and Services | comparatives, and forms for advising |
-| 5 | Digital and Online Banking | the passive |
+| 1 | Getting Started in Finance | present simple and present continuous |
+| 2 | Customer Service and Communication | modals for requests and offers (can / could / may) |
+| 3 | Everyday Banking Transactions | quantifiers (much, many, a few, a little) |
+| 4 | Banking Products and Services | comparatives and superlatives |
+| 5 | Digital and Online Banking | active and passive voice |
 | 6 | Currency Exchange and Money Transfer | indirect questions |
-| 7 | Security and Fraud | past tenses for reporting an incident |
-| 8 | Rules and Compliance | obligation and prohibition |
-| 9 | Saving and Investing Basics | conditionals for advice |
-| 10 | Corporate Banking | future forms and formal correspondence |
+| 7 | Security and Fraud | zero and first conditionals |
+| 8 | Rules and Compliance | obligation: must, have to, mustn’t, don’t have to |
+| 9 | Saving and Investing Basics | present perfect and past simple |
+| 10 | Corporate Banking | reported speech |
+
+### The branch cases
+
+Part 9 is the one part the source names after a place. It rotates through the bank's six
+locations, so that the same kind of problem — a queue, a rate, a rule, a missing payment —
+is met in six different places by six different teams, and the learner is asked each time
+to compare it with their own.
+
+| Unit | Branch | Case |
+|---|---|---|
+| 1 | Nairobi | A New Branch Opens |
+| 2 | Manila | The Crowded Branch |
+| 3 | Istanbul | When the Rate Moves |
+| 4 | São Paulo | A Loan for a Small Shop |
+| 5 | Warsaw | Banking on a Weak Signal |
+| 6 | Manila | Money from Abroad |
+| 7 | Istanbul | The Phone Call |
+| 8 | Rotterdam | A Large Deposit |
+| 9 | Nairobi | Saving When Prices Rise |
+| 10 | São Paulo | A Workshop Needs Help |
+
+Each branch has its own small cast — Amina Yusuf and Grace Otieno in Nairobi, Carlos Reyes
+with Nina Santos and Liza Cruz in Manila, Kerem Aydın and Zeynep Kaya in Istanbul, Beatriz
+Costa and Rafael Lima in São Paulo, Marta Nowak and Tomasz Wójcik in Warsaw, Mr Ibrahim
+Diallo and Sanne de Vries in Rotterdam — so a case reads as a place with people in it,
+rather than a country being described.
 
 ### The cast
 
@@ -205,16 +235,21 @@ Items marked **[auto]** are checked by `qa/check_parity.py`; the rest by read-th
 17. No unit uses its grammar in a text before the unit that teaches it, except as recognition.
 
 **Texts**
-18. 5A company profile 127–169 words, declared "About 200 words" as the source declares it. **[auto]**
-19. 5C team-member profile 67–109 words. **[auto]**
-20. Part 8 global case 187–214 words; Part 9 branch case 136–177. **[auto]**
-21. Listening scripts: 3B 48–80 · 3C 48–79 · 3D 80–107 · 7B 67–91 words. **[auto]**
-22. Writing models 7–49 words, six per unit. **[auto]**
-23. Glossary box 70–97 words per unit. **[auto]**
+18. 5A company profile inside the source's 127–190 band, declared "About 200 words" as the
+    source declares it — including the source's habit of declaring a round number it does
+    not quite reach. **[auto]**
+19. 5C short profile inside 67–120 words. **[auto]**
+20. Part 8 global case 152–190 words; Part 9 branch case 136–190. **[auto]**
+21. Listening scripts: 3B and 3C inside 30–95 · 3D 80–115 · 7B 60–100 words. **[auto]**
+22. Writing models 7–75 words, fourteen per unit. **[auto]**
+23. Glossary box 25–100 words, two per unit. **[auto]**
 
 **Visuals**
-24. 52 illustrations: five per unit, a cover, and one extra in Unit 10. **[auto]**
-25. 6.5 in wide, from 3200 px artwork, in the source's flat banner style. **[auto]**
+24. 52 illustrations: a cover, ten unit banners, forty captioned panels, a back cover. **[auto]**
+25. 6.5 in wide; the banners and panels drawn at 3200 px and 840–1200 px tall, in the
+    source's flat style — a white ground, a navy title over a gold rule the width of the
+    title, pale cards with a coloured cap bar, flat avatars, and an italic
+    "Figure n.m · …" caption. **[auto]**
 26. Every illustration carries the unit's own subject.
 
 **Integrity**
@@ -228,7 +263,8 @@ Items marked **[auto]** are checked by `qa/check_parity.py`; the rest by read-th
 **Production**
 31. The source's design system, decoded from its OOXML: Calibri, the navy part bars, the
     five boxed-table types, the matching and word-bank geometry, A4 with its margins. **[auto]**
-32. Total length within ±8 % of the source, and the page count within ±8 %. **[auto]**
+32. Each unit within ±10 % of its source unit, the book within ±8 %, and the page count
+    within ±8 %. **[auto]**
 
 ### The decoded design system
 
@@ -261,3 +297,20 @@ Items marked **[auto]** are checked by `qa/check_parity.py`; the rest by read-th
 A new toolchain, because this is a fourth design system: `build/render.py` (the decoded
 design system), `build/compile.py` (DSL → .docx), `build/render_md.py` (DSL → .md),
 `build/figures.py` (the drawing toolkit) and `build/make_figures.py` (the 52 illustrations).
+
+```
+python3 build/make_figures.py    # 52 illustrations into build/figures/
+python3 build/compile.py         # dist/EnglishForBanking_International_StudentBook.docx
+python3 build/render_md.py       # dist/EnglishForBanking_International_StudentBook.md
+python3 qa/check_parity.py       # the 44-task template, bars, figures, audio, matching shapes
+python3 qa/check_texts.py        # every text block the source sets a range for
+python3 qa/check_content.py      # typography, spelling, scaffolding, transposition
+```
+
+## 5 · What it came out as
+
+134 pages against the source's 135. 47,364 words against 45,393 (+4 %). 445 named tasks in
+the source's exact code sequence, 110 part bars, 52 illustrations, 40 audio tracks, 70
+matching tables with the source's own shapes, 140 model boxes, 40 reading boxes, 20
+glossary boxes, 10 Grammar Focus tables, 10 ⚠ Watch out! boxes. `qa/REPORT.md` has the
+element-by-element comparison and the measurements behind every figure here.

@@ -17,7 +17,7 @@ Which one takes the longest? Why?
 @BULLET
 What does a teller check before paying out cash?
 Why does the bank ask for ID for a large amount?
-@TIP Use the words amount, limit, ID, receipt and signature in your answer.
+@GREEN Useful words: | Use the words amount, limit, ID, receipt and signature in your answer.
 
 @PART Part 1 · Vocabulary | Pre-class input
 
@@ -203,7 +203,6 @@ The customer is in a hurry.
 “I’d like to deposit this cash.” :: a cash withdrawal
 “I want to pay my electricity bill.” :: a bill payment
 “I need a statement for three months.” :: a request for information
-“Could you complete this deposit slip?” :: a form the customer signs
 @FIG u3-3
 
 @PART Part 4 · Speaking | In-class output
@@ -249,7 +248,6 @@ Do you have the bill with you?
 “Would you like a statement as well?” :: offering one more service
 “Please check the amount before you leave.” :: asking the customer to check
 “Is there anything else today?” :: checking there is nothing more
-“Thank you. Have a good day.” :: closing warmly
 @INSTR In pairs, close a counter transaction politely. Use two phrases above.
 
 @PART Part 5 · Reading | Pre-class input
@@ -257,7 +255,7 @@ Do you have the bill with you?
 @TASK 5A | Teller guidelines
 @INSTR Read the counter guidelines. Notice the quantifiers (much, many, a few, a little).
 @READ Harbour Bank — Guidelines for the Counter | About 200 words
-These guidelines are the same in every Harbour Bank branch, because every customer should get the same careful service. Before you pay out cash, always check two things: the customer’s ID and the balance on the account. If the amount is large, ask a colleague to check with you. It takes a little time, but it prevents mistakes. Count notes twice. Count them once in the drawer and once in front of the customer. Many customers like to see the money counted, and a few will count it again themselves. That is normal, and you should never hurry them. Ask how many large notes the customer would like. Some people want large notes because they are easier to carry; others want small notes because they are easier to spend. Give a receipt for every transaction, even a small one. Finally, remember that not much goes wrong at a quiet counter; most mistakes happen when there is a queue and too little time. If you feel rushed, slow down and say, “One moment, please.” A short pause is better than a wrong amount.
+These guidelines are the same in every Harbour Bank branch. Before you pay out cash, always check two things: the customer’s ID and the balance on the account. If the amount is large, ask a colleague to check with you. It takes a little time, but it prevents mistakes. Count notes twice. Count them once in the drawer and once in front of the customer. Many customers like to see the money counted, and a few will count it again themselves. That is normal, and you should never hurry them. Ask how many large notes the customer would like. Some want large notes because they are easier to carry; others want small notes. Give a receipt for every transaction, even a small one. Finally, remember that not much goes wrong at a quiet counter; most mistakes happen when there is a queue and too little time. If you feel rushed, slow down and say, “One moment, please.” A short pause is better than a wrong amount.
 @INSTR Answer the questions.
 @EX Example: 0. What two things do you check before paying out cash? → ID and balance.
 @NUM
@@ -282,7 +280,7 @@ There isn’t ______________________ time when the queue is long.
 @TASK 5C | A customer’s bank statement
 @INSTR Read the short statement note. What does each line show?
 @READ Reading a Statement | About 130 words
-A statement is a list of everything that has happened on an account. Each line shows the date, a short description, the amount, and the balance after the transaction. Money coming in is usually on the left, and money going out is on the right. A customer called the branch last week because she could not understand one line. It said “DD — CITY POWER — 85.00”. DD means direct debit: the customer gave the electricity company permission to collect the payment every month. Another line said “ATM — 14 MAR — 200.00”. That was a cash withdrawal from a machine. The last line showed the balance: the money left in the account. When you explain a statement, start with the date and read across the line slowly.
+A statement is a list of everything that has happened on an account. Each line shows the date, a short description, the amount, and the balance after the transaction. A customer called the branch last week because she could not understand one line. It said “DD — CITY POWER — 85.00”. DD means direct debit: the customer gave the electricity company permission to collect the payment every month. Another line said “ATM — 14 MAR — 200.00”: a cash withdrawal from a machine. When you explain a statement, start with the date and read across the line slowly.
 @NUM
 What four things does each line of a statement show?
 What does DD mean?

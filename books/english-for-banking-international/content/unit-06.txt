@@ -17,7 +17,7 @@ What do people worry about most: the rate, the fee, or the time?
 @BULLET
 Which sounds better to a customer: “What is the rate?” or “Could you tell me what the rate is?”
 Why does a bank use longer, politer questions?
-@TIP Use the words rate, fee, transfer and exchange in your answers.
+@GREEN Useful words: | Use the words rate, fee, transfer and exchange in your answers.
 
 @PART Part 1 · Vocabulary | Pre-class input
 
@@ -180,14 +180,14 @@ The fee is twelve for amounts up to a thousand.
 @TASK 3D | Collecting a transfer from abroad (longer)
 @AUDIO 6.3
 @SCRIPT
-Customer: Good afternoon. My brother sent me money from abroad last Friday, but nothing has arrived.
-Luca: I’m sorry to hear that. Could you tell me the exact date he sent it, and the amount?
+Customer: My brother sent me money from abroad last Friday, but nothing has arrived.
+Luca: Could you tell me the date and the amount?
 Customer: Friday the fourteenth. Five hundred.
-Luca: Thank you. May I ask whether he gave the bank your IBAN, or only your account number?
-Customer: I’m not sure. He said he gave the number from my card.
-Luca: That may be the problem. For money coming from another country, the IBAN is needed, and the BIC of this bank. Without them the payment can sit at a correspondent bank for several days.
-Customer: Do you know what I should do now?
-Luca: I will write down your IBAN and our BIC for you. Could you send them to your brother today? If the money has not moved by Thursday, come back and we will trace it.
+Luca: May I ask whether he gave the bank your IBAN, or only your account number?
+Customer: I’m not sure. He gave the number from my card.
+Luca: That may be the problem. Money from abroad needs the IBAN and our BIC. Without them it can sit at a correspondent bank for days.
+Customer: What should I do now?
+Luca: I will write down your IBAN and our BIC. Send them to your brother today, and if nothing moves by Thursday, come back.
 @INSTR Read and decide: True, False, or Not Given.
 @EX Example: 0. The money has not arrived. → True.
 @NUM
@@ -202,7 +202,6 @@ The brother lives in Spain.
 “May I ask whether you have her IBAN?” :: the account number abroad
 “Do you know how long it will take?” :: the time the transfer needs
 “Could you tell me the full name on the account?” :: the beneficiary’s exact name
-“Do you know what I should do now?” :: the next step
 @FIG u6-3
 
 @PART Part 4 · Speaking | In-class output
@@ -248,7 +247,6 @@ Do you know when it needs to arrive?
 “Please keep this in case you need to trace it.” :: explaining why the record matters
 “If it has not arrived by Thursday, come back.” :: giving a clear next step
 “Would you like today’s rate written down?” :: offering something extra
-“Is there anything else I can check?” :: checking there is nothing more
 @INSTR In pairs, close a transfer conversation politely. Use two phrases above.
 
 @PART Part 5 · Reading | Pre-class input
@@ -256,7 +254,7 @@ Do you know when it needs to arrive?
 @TASK 5A | Common questions about transfers (FAQ)
 @INSTR Read the FAQ page. Notice the indirect questions.
 @READ Harbour Bank — Sending Money Abroad | About 195 words
-Customers often ask us how an international transfer works, so here are the questions we hear most. Could you tell me what I need before I start? You need three things: the beneficiary’s full name exactly as their bank holds it, their IBAN, and the BIC of their bank. A missing BIC is the most common reason a payment is delayed. Do you know how long it takes? Most transfers arrive within one working day, but a payment sent on Friday afternoon may not move until Monday. May I ask why there are two rates on the board? One is the price at which we buy a currency and one is the price at which we sell it. The difference is called the spread, and it is how the service is paid for. Could you tell me what the fee is? It is a flat twelve up to one thousand, and twenty above that. Do you know where my money is now? Every transfer has a reference number on your receipt. Bring it to any branch and we can see which bank is holding the payment and why.
+Customers often ask us how an international transfer works, so here are the questions we hear most. Could you tell me what I need before I start? You need three things: the beneficiary’s full name exactly as their bank holds it, their IBAN, and the BIC of their bank. A missing BIC is the most common reason a payment is delayed. Do you know how long it takes? Most arrive within one working day, but a payment sent on Friday afternoon may not move until Monday. May I ask why there are two rates on the board? One is the price at which we buy a currency, and one is the price at which we sell it. The difference is called the spread. Could you tell me what the fee is? It is a flat twelve up to one thousand, and twenty above that. Do you know where my money is now? Every transfer has a reference number on your receipt. Bring it to any branch and we can see which bank is holding the payment.
 @INSTR Answer the questions.
 @EX Example: 0. What are the three things you need? → The full name, the IBAN and the BIC.
 @NUM
@@ -280,7 +278,7 @@ Where is my money? → ____
 @TASK 5C | How a transfer moves
 @INSTR Read the short note. Which banks touch the money?
 @READ Three Banks, One Payment | About 120 words
-When money is sent from one country to another, it usually passes through three banks, not two. The sender’s bank takes the money and converts it. A correspondent bank in the middle moves it between the two countries, because the first and last banks may have no direct link. The beneficiary’s bank then credits the account. Each bank checks the payment against its own country’s rules, and each check takes a little time. This is why an international transfer takes a day, while a payment inside one country can be instant. It is also why a missing BIC is serious: without it, the middle bank does not know where to send the money next.
+When money is sent from one country to another, it usually passes through three banks, not two. The sender’s bank takes the money and converts it. A correspondent bank in the middle moves it between the two countries, because the first and last banks may have no direct link. The beneficiary’s bank then credits the account. Each bank checks the payment against its own country’s rules. This is why an international transfer takes a day, while a payment inside one country can be instant. It is also why a missing BIC is serious: without it, the middle bank does not know where to send the money next.
 @NUM
 How many banks usually touch an international payment?
 What does the correspondent bank do?
@@ -409,7 +407,7 @@ No excuses?
 @PART Part 8 · Global Case Study — How Money Crosses Borders | Practitioner track · read then discuss
 @INSTR Before you read: why does money sent abroad cost more and take longer than money sent at home?
 @READ The Cost of Sending Home | About 205 words · a made-up example based on real practice
-Every year, people working away from home send money back to their families. For many countries these payments, called remittances, are larger than all foreign aid together. The people who send them are usually not rich, and the amounts are small — often two or three hundred at a time. That is the problem. A fee of twelve is small on a transfer of five thousand. On a transfer of two hundred, it is six per cent of the money, and the spread on the exchange rate may cost as much again. An international body set a target: the average cost of sending money home should fall below three per cent. One bank tried to reach it. It could not cut the fee, because each payment is checked by three banks and each check costs money. Instead it changed the product. Customers who send money to the same person every month pay one fee for twelve payments, set up once. The checks are done at the start, not twelve times. The cost for those customers fell from six per cent to just under two. The bank did not make the transfer cheaper. It made it fewer transfers.
+Every year, people working away from home send money back to their families. For many countries these payments, called remittances, are larger than all foreign aid together. The amounts are usually small — often two or three hundred at a time. That is the problem. A fee of twelve is small on a transfer of five thousand. On a transfer of two hundred, it is six per cent of the money, and the spread on the exchange rate may cost as much again. An international body set a target: the average cost of sending money home should fall below three per cent. One bank tried to reach it. It could not cut the fee, because each payment is checked by three banks. Instead it changed the product. Customers who send money to the same person every month pay one fee for twelve payments, set up once. The checks are done at the start, not twelve times. The cost for those customers fell from six per cent to just under two. The bank did not make the transfer cheaper. It made it fewer transfers.
 @GLOSS
 remittance — money sent home by someone working abroad
 spread — the difference between the buy rate and the sell rate

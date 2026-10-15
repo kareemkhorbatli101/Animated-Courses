@@ -1,0 +1,499 @@
+@UNIT 8 | Rules and Compliance
+@FIG u8-banner
+@INTRO In this unit you learn the language of banking rules, how to explain an obligation politely, how to follow a conversation about a check, and how to write a short procedure note. Grammar focus: obligation — must, have to, mustn’t, don’t have to.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Rules at the bank (discussion)
+@INSTR In small groups, list the rules a bank asks its customers to follow.
+@MODEL
+You must show ID to open an account. You must not let anyone else use your card. You do not have to come to the branch for a small transfer.
+@BULLET
+Which rule do customers find hardest to accept?
+Which rule protects the customer rather than the bank?
+
+@TASK W-B | Must or mustn’t? (quick sort)
+@INSTR In pairs, decide whether each line is must or mustn’t. One minute only.
+@BULLET
+Check the ID before a large deposit: ____
+Tell a customer that they have been reported: ____
+Keep the records for the full period: ____
+@GREEN Useful words: | Use must, mustn’t and don’t have to in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each compliance word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. Audit → h)
+@MATCH i) the money left in an account (extra)
+Compliance :: following the rules that apply to the bank
+KYC :: knowing who your customer really is
+Anti-money-laundering :: stopping criminal money entering the system
+Sanctions screening :: checking a name against official lists
+Due diligence :: the careful checking the bank must do
+To escalate :: to pass something to a more senior person
+Record keeping :: storing documents for the required period
+Regulator :: the body that supervises banks in a country
+@PRON Pronunciation — word stress. Say these words: com·PLI·ance, LAUN·der·ing, SANC·tions, re·gu·LA·tion.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+Before you open an account: ____
+Every day at the counter: ____
+After the transaction: ____
+@MODEL
+Before you open an account: KYC, due diligence, sanctions screening. Every day at the counter: compliance, escalate. After the transaction: record keeping, regulator.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK compliance | escalate | records | identity | screening | regulator | source | threshold | unusual
+@EX Example: 0. We must check the customer’s identity before we open an account.
+@NUM
+Every name is checked by sanctions ______________________ before a transfer leaves.
+Please ______________________ anything ______________________ to the compliance officer.
+We must keep the ______________________ for at least five years.
+Above the reporting ______________________, a form must be completed.
+The ______________________ can ask to see any file at any time.
+For a large cash deposit, we must ask about the ______________________ of the funds.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common compliance phrase (one noun is extra).
+@MATCH f) a queue (extra)
+verify :: a report
+keep :: the identity
+file :: a case
+screen :: records
+escalate :: a name
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one compliance check you do at work. Use at least five words from Part 1.
+@MODEL
+Before we open an account, we verify the customer’s identity with an official document. The name is screened against the sanctions lists. If anything looks unusual, we escalate it to the compliance officer, and we keep the records for five years.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u8-1
+
+@PART Part 2 · Grammar — Obligation: must, have to, mustn’t, don’t have to | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline must, mustn’t, have to and don’t have to. Which two mean the same?
+@SCRIPT
+Customer: Do I have to bring my passport? I have my driving licence.
+Elif: For a new account you must bring an official photo document, so a licence is fine.
+Customer: And must I come to this branch?
+Elif: No, you don’t have to. Any branch can do it. But you mustn’t send the documents by email — we are not allowed to accept them that way.
+@NUM
+must / have to — do they mean the same here? ____
+mustn’t — is it a rule or a free choice? ____
+don’t have to — is it a rule or a free choice? ____
+@GF
+@GRAMMAR
+Form | Use | Example
+must / have to | it is necessary | You must show an official document.
+mustn’t | it is forbidden | You mustn’t send documents by email.
+don’t have to | it is not necessary; you may choose | You don’t have to come to this branch.
+@REMEMBER mustn’t and don’t have to are opposites, not the same. Mustn’t forbids; don’t have to frees.
+@WATCH
+✗ You don’t have to share your PIN. → ✓ You mustn’t share your PIN.
+✗ You must to bring your ID. → ✓ You must bring your ID.
+
+@TASK 2B | Controlled practice (choose the modal)
+@INSTR Choose must, mustn’t or don’t have to.
+@EX Example: 0. You ____ show ID for a new account. → must.
+@NUM
+Staff ______________________ share a customer’s details with anyone outside the bank.
+You ______________________ make an appointment; you can come at any time.
+We ______________________ keep the records for five years.
+A customer ______________________ sign the form in front of us.
+You ______________________ write your PIN down anywhere.
+Customers ______________________ bring two documents; one is enough.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. You must to bring your ID. → You must bring your ID.
+@NUM
+Staff don’t have to share customer data with anyone.
+You must bringing an official document.
+We have to keeping the records for five years.
+You mustn’t to send documents by email.
+He doesn’t must come to this branch.
+@WRITE
+
+@TASK 2D | State the rule
+@INSTR Write three rules for a new colleague: one with must, one with mustn’t and one with don’t have to.
+@MODEL
+You must verify the customer’s identity before you open an account. You mustn’t tell a customer that a report has been made. You don’t have to ask for a second document if the first one is valid.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, explain three branch rules to a new colleague. Use all three forms.
+@MODEL
+“You must screen every name. You mustn’t guess if you are unsure — ask. And you don’t have to decide alone; that is what escalation is for.”
+@TIP You will see these forms again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u8-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three conversations about rules. How does a customer feel when asked for ID again?
+@MODEL
+“I think the customer will say that he has banked here for years and should not have to prove who he is.”
+
+@TASK 3B | Asking for ID politely
+@AUDIO 8.1
+@SCRIPT
+Customer: I’ve had this account for fifteen years. Why do you need my passport again?
+Ana: I understand. We have to check the document is still valid, and yours expired in March.
+Customer: Nothing has changed. I’m the same person.
+Ana: Of course. The rule is not about you — every customer must have a current document on file. If you bring it tomorrow, I can update it in two minutes.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer has had the account a long time. → True.
+@NUM
+The rule applies only to new customers.
+The customer’s document has expired.
+The customer brings the passport the next day.
+@USEFUL
+We have to check the document is still valid.
+The rule is not about you.
+Every customer must have a current document on file.
+
+@TASK 3C | Explaining a rule
+@AUDIO 8.2
+@SCRIPT
+Customer: I want to deposit fifteen thousand in cash.
+Tomasz: Certainly. For an amount like this we must ask about the source of the funds, and complete a short form.
+Customer: Are you saying I have done something wrong?
+Tomasz: Not at all. We have to ask everyone the same question above a certain amount. It takes about three minutes, and you don’t have to bring anything extra today.
+@INSTR Read and decide: True or False.
+@NUM
+The bank asks about the source of funds only for suspicious customers.
+The form takes about three minutes.
+The customer must bring extra documents today.
+A rule applies above a certain amount.
+
+@TASK 3D | Escalating something unusual (longer)
+@AUDIO 8.3
+@SCRIPT
+Ana: A customer has deposited nine thousand in cash on three days this week.
+Elif: Each one below the reporting threshold.
+Ana: Exactly. Each on its own is normal. Together they are not.
+Elif: You were right to bring it to me. We call that structuring — breaking a large amount into smaller ones so each stays below the line. It must be escalated either way.
+Ana: Do I say anything to him?
+Elif: No. You mustn’t tell a customer that a report has been made. That is a rule in every country we work in.
+Ana: What happens now?
+Elif: I file the report today. Write down exactly what you saw.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer deposited cash on three days. → True.
+@NUM
+Each single deposit was above the reporting threshold.
+Ana must tell the customer that a report has been made.
+The customer knew about the threshold.
+
+@TASK 3E | Match the rule to the reason
+@INSTR Match each rule to the reason behind it (one is extra).
+@MATCH f) to make the queue shorter (extra)
+Every customer must have a current document on file :: so the bank knows who it is dealing with
+Large cash deposits must be explained :: so criminal money cannot enter the system
+Names must be screened before a transfer :: so the bank does not pay a sanctioned person
+Records must be kept for five years :: so the regulator can check later
+@FIG u8-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — explaining rules politely
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Soften the rule :: “We have to ask everyone the same question.”
+Say it is not personal :: “I understand — it does feel like a lot.”
+Say what is needed :: “We must see an official photo document.”
+Say what is not needed :: “You don’t have to bring anything else today.”
+
+@TASK 4B | Explain a rule (pairwork)
+@INSTR Explain one branch rule to a customer who does not like it. Then swap roles.
+@MODEL
+A: For this amount we must ask about the source of the funds. — B: Do you think I’m a criminal? — A: Not at all. We have to ask everyone the same question above a certain amount. It takes three minutes.
+@CARD Card A (staff):
+state the rule · say it applies to everyone · say how long it takes · say what is not needed.
+@CARD Card B (customer):
+you are depositing a large amount from the sale of a car; you feel insulted by the question.
+
+@TASK 4C | A customer refuses
+@INSTR A customer refuses to answer a compliance question. Stay polite and do not break the rule.
+@MODEL
+“I am sorry — I cannot complete the deposit without the form. It is not my decision, and it is the same in every branch. If you would rather do it another day, the money is safe where it is.”
+@STRETCH the customer asks to speak to the manager — hand over professionally.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A works in compliance; Student B is a colleague with a question. Ask and answer.
+@CARD Card A (compliance):
+source of funds above 10,000 · documents must be current · escalate three similar deposits in a week · never tell the customer.
+@CARD Card B (colleague):
+a customer has paid in 9,000 twice this week; his ID expired last month; he is asking why.
+@USEFUL
+Do I have to escalate this?
+Must the document be current?
+What am I not allowed to say?
+
+@TASK 4E | Close politely
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Thank you for your patience with the form.” :: thanking the customer
+“Everything is in order now.” :: confirming the check is finished
+“Please bring the new document when you can.” :: giving a clear next step
+“The rule is the same in every branch.” :: showing it is not personal
+@INSTR In pairs, close a compliance conversation politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | A staff compliance guide
+@INSTR Read the staff guide. Notice must, mustn’t and don’t have to.
+@READ Harbour Bank — What Every Member of Staff Must Know | About 200 words
+Harbour Bank works in six countries, and each has its own rule book. Some rules are international; others are local. You must follow both, and where they differ, the stricter one. Before an account is opened, you must verify the customer’s identity with a current official document and screen the name against the sanctions lists. You don’t have to ask for two documents if the first is current. Above the local reporting threshold, you must ask about the source of the funds and complete the form. You mustn’t guess: if you are unsure, escalate it to the compliance officer. You don’t have to decide alone. If a report is made, you mustn’t tell the customer. It is a rule in every country where we operate, and it protects you as well as the case. Records must be kept for at least five years, longer in some countries. Nobody has ever been disciplined here for escalating something that turned out to be nothing.
+@INSTR Answer the questions.
+@EX Example: 0. How many countries does the bank work in? → Six.
+@NUM
+What must you do if an international rule and a local rule differ?
+What two things must be done before an account is opened?
+When don’t you have to ask for a second document?
+What must you do if you are unsure whether something is unusual?
+Why mustn’t staff tell a customer that a report has been made?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the guide. Find one example of each form.
+@NUM
+must: ____
+mustn’t: ____
+don’t have to: ____
+@INSTR Now complete these sentences about the rules.
+@NUM
+You ______________________ keep the records for at least five years.
+You ______________________ decide alone; you can escalate.
+
+@TASK 5C | Why the rules protect you
+@INSTR Read the short note. Who do the rules protect?
+@READ The Rule Is Your Friend | About 120 words
+New staff often think the compliance rules are there to protect the bank. They are, but not only. If you follow the rule and complete the form, nobody can later ask why you did not. If you escalate something and it turns out to be nothing, no harm is done. If you do not escalate, and it turns out to be something, the question will be asked. They also protect you from pressure. A customer who is angry is arguing with the rule, not with you, and you can say so politely. In an international bank the rule is the same in every branch, so nobody has to invent an answer alone.
+@NUM
+Who do new staff think the rules protect?
+What happens if you escalate something that turns out to be nothing?
+How do the rules protect staff from pressure?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare the rules with your own workplace.
+@GREEN Useful frame: | “In my country we must ___, but we don’t have to ___.”
+@BULLET
+Which rule is hardest to explain to a customer?
+What would you add to the guide for new staff?
+@FIG u8-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the staff notice
+@INSTR Complete the notice with the words: verify, escalate, threshold, records, disclose.
+@BANK verify | escalate | threshold | records | disclose
+@NUM
+Before any account is opened, you must ______________________ the customer’s identity.
+Above the local reporting ______________________, the source-of-funds form is required.
+You must ______________________ anything unusual to the compliance officer.
+You mustn’t ______________________ to a customer that a report has been made.
+______________________ must be kept for at least five years.
+
+@TASK 6B | Internal escalation note (50–70 words)
+@INSTR Write a short note escalating something unusual to the compliance officer.
+@MODEL
+Subject: Three cash deposits — account 4471
+Dear Ms Demir, A customer has deposited nine thousand in cash on three days this week. Each amount is below the reporting threshold, but together they are not. The ID on file is current. I have said nothing to the customer. Could you tell me whether anything further is needed from me? Kind regards, Ana Silva
+@GREEN Plan: | Subject: ___ · Dear ___, · A customer has ___. · Each ___, but ___. · I have said nothing to ___. · Could you tell me ___? · Kind regards, ___
+@PHRASES
+each amount is below the threshold
+together they are not
+I have said nothing to the customer
+could you tell me whether…
+@CHECK
+A clear subject line with the account?
+The facts, with no opinion?
+A statement that the customer was not told?
+50–70 words?
+@WRITE
+
+@TASK 6C | Explain a rule to a customer (50–70 words)
+@INSTR A customer has emailed to complain about being asked for ID again. Write a short, polite reply.
+@MODEL
+Subject: Your question about identification
+Dear Mr Okonkwo, Thank you for your email, and I am sorry for the inconvenience. We must hold a current official document for every customer, and the one on your file expired in March. You don’t have to bring anything else — one valid document is enough, and any branch can update it in two minutes. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · We must ___. · You don’t have to ___. · Kind regards, ___
+@CHECK
+A polite, non-defensive tone?
+One must and one don’t have to?
+A clear next step?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your note or email with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · must and don’t have to? · facts only? · 50–70 words?
+@MODEL
+“Clear facts and no opinion, which is right for an escalation. Next time, try to give the exact dates as well as the amounts.”
+
+@PART Part 7 · Management File — Handling an Escalation | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Escalation phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“You were right to bring this to me.” :: supporting the person who reported
+“Write down exactly what you saw.” :: preserving the evidence
+“Say nothing to the customer.” :: protecting the investigation
+“I will file the report today.” :: taking responsibility for the next step
+
+@TASK 7B | Listening — handling the escalation
+@AUDIO 8.4
+@SCRIPT
+Ana: I’m sorry to bring you something so small.
+Elif: It isn’t small, and you were right to bring it to me. Tell me what you saw, in order.
+Ana: Three deposits, nine thousand each, Monday, Wednesday and Thursday. Same customer, same counter.
+Elif: Write that down exactly as you said it, with the times. Say nothing to the customer, and serve him normally if he comes back.
+Ana: Won’t he notice?
+Elif: Not if nothing changes. That is why the rule exists. I will file the report today.
+@INSTR Answer the questions.
+@EX Example: 0. Who is escalating? → Ana.
+@NUM
+What does Elif ask Ana to write down?
+How should Ana behave if the customer returns?
+Who will file the report?
+
+@TASK 7C | Controlled practice — write the procedure
+@INSTR Write each step of the escalation procedure as a rule. Use must, mustn’t or don’t have to.
+@EX Example: 0. report to compliance → You must report it to the compliance officer.
+@NUM
+write down what you saw, with times
+tell the customer
+change how you serve the customer
+decide alone whether it is serious
+file the report yourself
+@WRITE
+
+@TASK 7D | Role play — support a junior colleague
+@INSTR A new colleague is worried that they have escalated something trivial. Support them and set the next steps.
+@MODEL
+“You were right to bring this to me. Nobody here has ever been in trouble for escalating something that turned out to be nothing. Write down what you saw, say nothing to the customer, and leave the rest with me.”
+@CARD Card A (senior):
+support · ask for the facts in order · give three clear instructions · take the next step yourself.
+@CARD Card B (junior):
+you are embarrassed; you are afraid the customer will notice; you want to be told you did the right thing.
+@STRETCH the junior asks what will happen to the customer — answer honestly within the rules.
+
+@TASK 7E | Writing — a short procedure note (50–70 words)
+@INSTR Write a short procedure note for the team on what to do when something looks unusual.
+@MODEL
+Subject: What to do when something looks unusual
+If a transaction looks unusual, you must escalate it to the compliance officer the same day. You must write down exactly what you saw, with times. You mustn’t tell the customer, and you mustn’t change how you serve them. You don’t have to decide whether it is serious — that is my job, not yours. Elif Demir
+@GREEN Plan: | Subject: ___ · If ___, you must ___. · You must also ___. · You mustn’t ___. · You don’t have to ___.
+@PHRASES
+you must escalate the same day
+write down exactly what you saw
+you mustn’t tell the customer
+that decision is not yours
+@CHECK
+A clear subject line?
+All three forms used?
+A clear instruction for the team?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — Know Your Customer | Practitioner track · read then discuss
+@INSTR Before you read: should the same identity rules apply in every country?
+@READ One Customer, Six Rule Books | About 200 words · a made-up example based on real practice
+A bank operating in six countries found that customers were asked for the same documents again and again. A man who banked with it in two countries proved who he was twice, with different documents, because each regulator required something different. Many customers of international banks live in one country, work in another and send money to a third. The bank tried to build one identity check, accepted everywhere. It could not. Each regulator is answerable to its own law, and no bank can agree on its behalf. So the bank built something smaller instead. It kept one file, recorded which documents satisfied which country, and asked only for what was missing. The man in two countries now provides one extra document instead of a second full check. The lesson is modest but useful: you cannot make six rule books into one, but you can stop asking the same customer the same question six times.
+@GLOSS
+regulator — the body that supervises banks in a country
+rule book — the set of rules that applies in one place
+identity file — the bank’s record of who a customer is
+duplicate check — asking for the same proof twice
+
+@TASK 8A | Comprehension
+@EX Example: 0. In how many countries does the bank operate? → Six.
+@NUM
+Why did one customer have to prove who he was twice?
+Why could the bank not build a single identity check?
+What did the bank build instead?
+What is the lesson of the case?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+regulator :: the set of rules that applies in one place
+rule book :: the body that supervises banks in a country
+identity file :: asking for the same proof twice
+duplicate check :: the bank’s record of who a customer is
+
+@TASK 8C | Discussion
+@GREEN Frames: | “In my country the regulator requires ___.” “This would be easier if ___.”
+@BULLET
+Do your customers ever bank in more than one country?
+What document is accepted everywhere, in your experience?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Should identity rules be international or local? Give one reason.
+@WRITE
+
+@PART Part 9 · Branch Case Study — Rotterdam in Focus: A Large Deposit | Practitioner track · read then decide
+@INSTR Before you read: what would you do if a good customer could not explain where money came from?
+@READ The Builder’s Envelope | About 185 words
+Mr de Groot has banked at the Rotterdam branch for twenty years. He is a builder, well known in the area, and his account has never given trouble. This morning he has come in with thirty-two thousand in cash and wants to deposit it. He says it is payment for a job finished last month, and that the client preferred to pay in cash. He has no invoice with him, and he cannot remember the client’s full name — only a first name and the street. Sanne de Vries, at the counter, must ask about the source of the funds, and the answer she is given does not satisfy the form. Mr de Groot is not angry; he is baffled. “You have known me for twenty years,” he says. The compliance officer is in a meeting until noon. There is a queue, the money is on the counter, and Sanne has to decide what to do next.
+
+@TASK 9A | Comprehension
+@EX Example: 0. How long has Mr de Groot banked here? → Twenty years.
+@NUM
+Where does Mr de Groot say the money came from?
+What cannot he provide?
+Why can Sanne not ask the compliance officer now?
+
+@TASK 9B | Decision task
+@INSTR What should Sanne do? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Sanne should take the deposit into a private room and record exactly what Mr de Groot said, because the money must not sit on an open counter. She should explain that the form is required for everyone. Also, she can escalate it to the compliance officer at noon, without telling the customer.
+@GREEN Frame: | I think Sanne should ___, because ___. Also, ___.
+@PHRASES
+move the money and the conversation somewhere private
+record exactly what the customer said
+explain that the form applies to everyone
+escalate without telling the customer
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use must, mustn’t, don’t have to, or the correct word. Items 5–6 review Units 6 and 7.
+@EX Example: 0. You ____ show ID for a new account. → must.
+@NUM
+Staff ______________________ share a customer’s details with anyone outside the bank.
+You ______________________ make an appointment; any branch will do.
+Checking a name against official lists is called sanctions ______________________. (word)
+To pass something to a more senior person is to ______________________ it. (word)
+Could you tell me what the rate ______________________? (Unit 6 indirect question)
+If you share a one-time code, anyone ______________________ use your account. (Unit 7 conditional)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the main compliance checks a bank makes.
+I can state an obligation with must, mustn’t and don’t have to.
+I can explain a rule politely to a customer who dislikes it.
+I can understand a short conversation about an escalation.
+I can write a short escalation or procedure note.
+
+@TASK 10C | Unit glossary
+@GLOSS
+compliance — following the rules that apply to the bank
+KYC — knowing who your customer really is
+anti-money-laundering — stopping criminal money entering the system
+sanctions screening — checking a name against official lists
+due diligence — the careful checking the bank must do
+to escalate — to pass something to a more senior person
+record keeping — storing documents for the required period
+regulator — the body that supervises banks in a country
+threshold — the amount above which a rule applies
+structuring — breaking one large amount into smaller ones

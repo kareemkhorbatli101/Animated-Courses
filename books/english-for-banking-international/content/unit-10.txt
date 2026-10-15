@@ -1,0 +1,510 @@
+@UNIT 10 | Corporate Banking
+@FIG u10-banner
+@INTRO In this unit you learn the language of banking for businesses, how to report what a customer said, how to follow a meeting, and how to write a meeting note and a business reply. Grammar focus: reported speech.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Business customers (discussion)
+@INSTR In small groups, talk about the businesses that bank with you.
+@MODEL
+We have a bakery, two builders and a small import company. The import company is the most complicated, because it pays suppliers abroad.
+@BULLET
+What kinds of business bank at your branch?
+What do they need that a personal customer does not?
+
+@TASK W-B | Passing on a message (think–pair)
+@INSTR Think for one minute, then compare with a partner.
+@BULLET
+Your colleague says, “I need the figures by Friday.” How do you tell the manager?
+Why is it important to report exactly, and not nearly?
+@GREEN Useful words: | Use said, told and asked in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each business-banking word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. Receipt → h)
+@MATCH i) a card used only inside one country (extra)
+Business account :: a bank account for a company
+Invoice :: a bill asking a customer to pay
+Payroll :: the money a company pays its staff
+Cash flow :: money coming in and going out of a business
+Facility :: an arrangement to borrow up to a limit
+Supplier :: a company that sells goods to a business
+Letter of credit :: a bank promise to pay a seller when documents are shown
+Relationship manager :: one bank contact who knows the business
+@PRON Pronunciation — word stress. Say these words: IN·voice, PAY·roll, fa·CI·li·ty, sup·PLI·er.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+Money coming in: ____
+Money going out: ____
+The bank’s part: ____
+@MODEL
+Money coming in: invoice, cash flow. Money going out: payroll, supplier. The bank’s part: business account, facility, letter of credit, relationship manager.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK invoice | payroll | facility | cash flow | supplier | limit | overdue | trade | credit
+@EX Example: 0. A business account is for a company, not a person.
+@NUM
+We run the ______________________ on the 25th of every month.
+The customer has asked for a ______________________ of fifty thousand.
+Three of her ______________________ are now ______________________ by more than sixty days.
+A letter of ______________________ is used when the buyer and the seller are in different countries.
+Her ______________________ is good in summer but weak in January.
+We pay our main ______________________ in another currency.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common business-banking phrase (one noun is extra).
+@MATCH f) a queue (extra)
+raise :: payroll
+run :: the facility
+chase :: an invoice
+agree :: a supplier
+pay :: an overdue payment
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one business customer, real or invented. Use at least five words from Part 1.
+@MODEL
+Our customer runs a small printing business. She raises about thirty invoices a month and runs the payroll on the 25th. Her cash flow is weak in January, so we have agreed a small facility. She pays one supplier abroad, in another currency.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u10-1
+
+@PART Part 2 · Grammar — Reported Speech | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the reported sentences. What happens to the tense?
+@SCRIPT
+Priya: What did the customer say?
+Diego: She said she needed a facility of fifty thousand.
+Priya: Did she say why?
+Diego: She told me that three invoices were overdue, and she asked whether we could decide by Friday.
+Priya: Then I will call her tomorrow.
+@NUM
+“I need a facility” → “She said she ______________________ a facility.”
+said / told — which one is followed by a person? ____
+asked whether — what kind of sentence is being reported? ____
+“by Friday” — does a time word ever change in reported speech? ____
+@GF
+@GRAMMAR
+Direct | Reported
+“I need a facility.” | She said she needed a facility.
+“We have paid.” | He said they had paid.
+“Can you decide by Friday?” | She asked whether we could decide by Friday.
+@REMEMBER the verb usually steps back one tense: present → past, present perfect → past perfect, can → could, will → would. Say takes no person; tell takes one (she told me).
+@WATCH
+✗ She said me that she needed it. → ✓ She told me that she needed it.
+✗ He said he has paid. → ✓ He said he had paid.
+
+@TASK 2B | Controlled practice (report what they said)
+@INSTR Report each sentence. Use said, told or asked.
+@EX Example: 0. “The account is ready.” (she) → She said the account was ready.
+@NUM
+“I need a facility.” (he)
+“We have paid the invoice.” (she)
+“Can you decide by Friday?” (she, to me)
+“We are opening a second shop.” (they)
+“I will send the figures tomorrow.” (he, to us)
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. She said me she needed it. → She told me she needed it.
+@NUM
+He said he has paid the invoice.
+She told that the figures were ready.
+They asked me can we decide by Friday.
+He said me the payroll runs on the 25th.
+She said she will send it tomorrow.
+@WRITE
+
+@TASK 2D | Report a customer
+@INSTR Write three reported sentences from a meeting you have had, or invent one.
+@MODEL
+She said that three invoices were overdue. She told me that her cash flow was weak in January. She asked whether we could decide by Friday.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, one of you is a customer and one takes notes. Then report the meeting to a third person.
+@MODEL
+“She said she needed a facility of fifty thousand, and she told me that three invoices were overdue.”
+@TIP You will see reported speech again in the reading in Part 5 (5A and 5B). Look for it there.
+@FIG u10-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three business conversations. What does a company ask a bank for first?
+@MODEL
+“I think the customer will ask to open a business account, and then about borrowing.”
+
+@TASK 3B | Opening a business account
+@AUDIO 10.1
+@SCRIPT
+Customer: I have just registered my company and I need a business account.
+Luca: Congratulations. May I ask what the company does?
+Customer: We import coffee and sell it to cafés.
+Luca: Then you will be paying suppliers abroad. We should set the account up for international payments from the start. Could you bring the registration documents and the ID of every owner?
+Customer: There are two of us.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer has registered a company. → True.
+@NUM
+The company sells only inside the country.
+The bank needs the ID of each owner.
+The account will be opened today.
+@USEFUL
+May I ask what the company does?
+We should set the account up for…
+Could you bring the registration documents?
+
+@TASK 3C | Reporting a meeting
+@AUDIO 10.2
+@SCRIPT
+Priya: How did the meeting go?
+Diego: Well. She said she needed a facility of fifty thousand.
+Priya: Did she say why?
+Diego: She told me that three invoices were overdue by more than sixty days, and that the payroll runs on the 25th.
+Priya: And the decision?
+Diego: She asked whether we could decide by Friday. I said I would call her tomorrow.
+@INSTR Read and decide: True or False.
+@NUM
+The customer asked for fifty thousand.
+Two invoices are overdue.
+The payroll runs on the 25th.
+Diego promised a decision on Friday.
+
+@TASK 3D | A business loan inquiry (longer)
+@AUDIO 10.3
+@SCRIPT
+Customer: We have an order from a buyer abroad, the largest we have ever had.
+Priya: When do you have to pay your supplier?
+Customer: That is the problem. He wants paying before shipping, and the buyer will not pay until the goods arrive. Eleven weeks in between.
+Priya: Common in trade. One answer is a facility: you borrow for eleven weeks and repay when the buyer pays. The other is a letter of credit, where our bank pays the seller against the shipping documents.
+Customer: Which is better?
+Priya: A facility helps your cash flow. A letter of credit reassures a supplier who does not know you.
+Customer: They have already asked for one.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The order is the largest the company has had. → True.
+@NUM
+The buyer pays before the goods are shipped.
+A letter of credit reassures a supplier who does not know the buyer.
+The supplier has already asked for a letter of credit.
+
+@TASK 3E | Match the report
+@INSTR Match each direct sentence to its correct report (one is extra).
+@MATCH f) She said she will call us. (extra)
+“I need a facility.” :: She said she needed a facility.
+“We have paid.” :: He said they had paid.
+“Can you decide by Friday?” :: She asked whether we could decide by Friday.
+“The payroll runs on the 25th.” :: She told me the payroll ran on the 25th.
+@FIG u10-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — business talk and reporting
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Open a business meeting :: “May I ask what the company does?”
+Check a figure :: “Could you confirm the amount for me?”
+Report what was said :: “She told me that three invoices were overdue.”
+Agree a next step :: “I will call you tomorrow with an answer.”
+
+@TASK 4B | Meet a business customer (pairwork)
+@INSTR Hold a short meeting with a business customer, then swap roles.
+@MODEL
+A: May I ask what the company does? — B: We import coffee. — A: And what do you need from us? — B: A facility of fifty thousand. — A: Could you confirm when the payroll runs? I will call you tomorrow.
+@CARD Card A (relationship manager):
+ask what the business does · ask what is needed · check two figures · agree a next step.
+@CARD Card B (business customer):
+you import coffee; three invoices are overdue; payroll runs on the 25th; you need an answer by Friday.
+
+@TASK 4C | Report the meeting
+@INSTR Report the meeting from 4B to a colleague. Use at least three reported sentences.
+@MODEL
+“She said she needed a facility of fifty thousand. She told me that three invoices were overdue by sixty days. She asked whether we could decide by Friday.”
+@STRETCH your colleague asks a question you did not ask in the meeting — say so honestly.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A is a relationship manager; Student B is a colleague in credit. Ask and answer to complete the file.
+@CARD Card A (relationship manager):
+you met the customer; facility 50,000; three invoices overdue 60+ days; payroll on the 25th; answer wanted by Friday.
+@CARD Card B (credit):
+you need the amount, the reason, the date of the payroll and the deadline, and you must know whether the customer has borrowed before.
+@USEFUL
+What did she say she needed?
+Did she tell you why?
+Did she ask for a date?
+
+@TASK 4E | Close the meeting
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Let me read my notes back to you.” :: checking you have understood
+“I will call you tomorrow with an answer.” :: agreeing the next step
+“I cannot promise it, but I will put the case.” :: being honest about the decision
+“Could you send the last three statements?” :: asking for what is missing
+@INSTR In pairs, close a business meeting professionally. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Banking for business
+@INSTR Read the business page. Notice the reported speech.
+@READ Harbour Bank — Banking for Businesses That Trade | About 200 words
+Every business that banks with us is given one contact, a relationship manager, who knows what the company does. That matters most when a business trades across borders. Last year one of our customers, a coffee importer, told us that her supplier had refused to ship before payment, while her buyer would not pay until the goods arrived. She said there were eleven weeks between the two, and she asked whether we could help. We offered two things. The first was a facility: an arrangement to borrow up to an agreed limit and repay when the buyer pays. The second was a letter of credit: a promise by this bank to pay the seller when the shipping documents are presented. Each solves a different problem. A facility helps the customer’s cash flow. A letter of credit reassures a supplier who does not know the buyer. We also run payroll and pay suppliers in nine currencies. Our customers tell us that the useful part is having one person who already knows the business when the difficult week arrives.
+@INSTR Answer the questions.
+@EX Example: 0. What is a relationship manager? → One bank contact who knows the business.
+@NUM
+What problem did the coffee importer describe?
+What is a facility, and what problem does it solve?
+What is a letter of credit, and who does it reassure?
+What three other services are mentioned?
+What do customers say the useful part is?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the business page. Find three reported sentences.
+@NUM
+Reported sentence 1: ____
+Reported sentence 2: ____
+Reported sentence 3: ____
+@INSTR Now report these sentences as the page would.
+@NUM
+“My supplier will not ship before payment.” → She said ____
+“We can help.” → We told her ____
+
+@TASK 5C | The relationship manager
+@INSTR Read the short profile. What does a relationship manager actually do?
+@READ A Day With Priya | About 120 words
+Priya Raman has eleven business customers, and she has worked with some of them for six years. She says most of her day is not banking at all: she reads, she listens, and she writes things down. In the morning she met a builder who told her that two of his customers had stopped paying. In the afternoon she wrote a short note for the credit team saying exactly what he had said, with the figures and the dates, and nothing else. “My job,” she says, “is to arrive at the credit meeting with the business owner’s own words, not my opinion of them. If I report it well, the decision is fair.”
+@NUM
+How many business customers does Priya have?
+What did the builder tell her?
+What does Priya say her job is?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare business banking where you work.
+@GREEN Useful frame: | “At my bank a business customer gets ___, and the hardest part is ___.”
+@BULLET
+Do your business customers have one contact, or many?
+What do they ask for that your bank cannot offer?
+@FIG u10-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the meeting note
+@INSTR Complete the note with the words: said, told, asked, overdue, facility.
+@BANK said | told | asked | overdue | facility
+@NUM
+Ms Okafor ______________________ she needed a ______________________ of fifty thousand.
+She ______________________ me that three invoices were ______________________ by sixty days.
+She ______________________ whether we could decide by Friday.
+I ______________________ her that I would call tomorrow.
+
+@TASK 6B | Report a customer meeting (50–70 words)
+@INSTR Write a short meeting note for the credit team. Use three reported sentences.
+@MODEL
+Subject: Meeting note — Okafor Coffee Ltd
+Ms Okafor said she needed a facility of fifty thousand. She told me that three invoices were overdue by more than sixty days, and that the payroll runs on the 25th. She asked whether we could decide by Friday. I said I would call her tomorrow. Statements for the last three months are attached. Diego Moreno
+@GREEN Plan: | Subject: ___ · ___ said ___. · She told me that ___. · She asked whether ___. · I said I would ___.
+@PHRASES
+she said she needed…
+she told me that…
+she asked whether…
+I said I would…
+@CHECK
+A clear subject line with the company?
+Three reported sentences?
+The customer’s words, not your opinion?
+50–70 words?
+@WRITE
+
+@TASK 6C | Reply to a business customer (50–70 words)
+@INSTR Write a short reply to the business customer after the meeting.
+@MODEL
+Subject: Your facility request
+Dear Ms Okafor, Thank you for your time this morning. I have put your request to the credit team and explained that three invoices are overdue and that the payroll runs on the 25th. They have asked for the last three statements. Could you send them today so that we can answer by Friday? Kind regards, Diego Moreno
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · I have put ___ and explained ___. · They have asked for ___. · Could you ___? · Kind regards, ___
+@CHECK
+A clear subject line?
+What you have done, and what is still needed?
+A clear deadline?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your note or email with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · three reported sentences? · facts only? · 50–70 words?
+@MODEL
+“The reported speech is accurate and there is no opinion in it, which is right for a credit note. Next time, try to put the deadline in its own sentence.”
+
+@PART Part 7 · Management File — Relationship Management | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Relationship-management phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“Let me read my notes back to you.” :: checking you have understood
+“I cannot promise it, but I will put the case.” :: being honest about a decision
+“What would worry you most about next year?” :: asking a question that opens up
+“I will take that to the credit meeting myself.” :: taking responsibility
+
+@TASK 7B | Listening — reporting a client meeting
+@AUDIO 10.4
+@SCRIPT
+Marta: How did it go with Okafor Coffee?
+Priya: She said she needed fifty thousand, and she told me three invoices were overdue by sixty days.
+Marta: Did she say what had changed?
+Priya: She said her largest buyer had moved to ninety-day terms without asking her.
+Marta: That is the real story, then. Put that in the note, in her words.
+Priya: I will. She also asked whether we could decide by Friday, and I said I would put the case but could not promise it.
+@INSTR Answer the questions.
+@EX Example: 0. How much did the customer ask for? → Fifty thousand.
+@NUM
+What had the largest buyer done?
+What does Marta say should go in the note?
+What did Priya promise, and what did she not promise?
+
+@TASK 7C | Controlled practice — the relationship report
+@INSTR Report each sentence for the credit file. Use said, told or asked.
+@EX Example: 0. “I need fifty thousand.” → She said she needed fifty thousand.
+@NUM
+“Three invoices are overdue.”
+“My largest buyer has moved to ninety-day terms.”
+“We have never missed a payment.” (she, to me)
+“Can you decide by Friday?”
+“I will send the statements today.” (she)
+@WRITE
+
+@TASK 7D | Role play — a relationship review
+@INSTR Hold an annual review with a business customer. Listen more than you speak, and report back accurately.
+@MODEL
+“Before we talk about the facility, what would worry you most about next year? … Let me read my notes back to you, so I take your words to the credit meeting and not mine.”
+@CARD Card A (relationship manager):
+open with a question · take notes · read them back · be honest about the decision.
+@CARD Card B (business customer):
+your largest buyer has moved to ninety-day terms; you have never missed a payment; you need an answer by Friday.
+@STRETCH the customer asks you to predict the decision — stay honest and still be useful.
+
+@TASK 7E | Writing — a relationship-review note (50–70 words)
+@INSTR Write a short review note for the customer’s file.
+@MODEL
+Subject: Annual review — Okafor Coffee Ltd
+Ms Okafor said her largest buyer had moved to ninety-day terms without notice. She told me that three invoices were overdue but that the company had never missed a payment. She asked whether a decision could be made by Friday. I said I would put the case at Thursday’s meeting. Statements requested. Priya Raman
+@GREEN Plan: | Subject: ___ · ___ said ___. · She told me that ___. · She asked whether ___. · I said I would ___.
+@PHRASES
+she said ___ had…
+she told me that…
+she asked whether…
+I said I would put the case
+@CHECK
+A clear subject line?
+Three reported sentences?
+The customer’s words, not your opinion?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — A Long Relationship | Practitioner track · read then discuss
+@INSTR Before you read: is it worth a bank keeping a customer who is in difficulty?
+@READ The Account Nobody Wanted | About 200 words · a made-up example based on real practice
+A small furniture company had banked with the same international bank for twenty-two years. In its worst year, a large customer failed without paying, and the company could not meet its payroll. On paper the bank should have closed the facility. Two things stopped it. The first was a note in the file: nine years earlier, a relationship manager had written down why the owner turned down a cheaper offer from another bank — the bank had answered the phone on a Saturday. The second was the relationship manager at the time, who told the credit committee that the company had never missed a payment in twenty-two years and that the failure was its customer’s, not its own. The committee extended the facility for six months instead of closing it. The company survived, repaid in full, and is still a customer. The bank found afterwards that it had done well out of patience, but it was careful about the lesson. It did not conclude that long customers should always be supported. It concluded that a decision is only as good as the file it is made from.
+@GLOSS
+facility — an arrangement to borrow up to a limit
+credit committee — the group that decides on lending
+to extend — to allow more time
+file note — a written record of what was said
+
+@TASK 8A | Comprehension
+@EX Example: 0. How long had the company banked with the bank? → Twenty-two years.
+@NUM
+What happened in the company’s worst year?
+What had the relationship manager written down nine years earlier?
+What did the committee decide?
+What lesson did the bank draw, and what lesson did it refuse to draw?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+facility :: the group that decides on lending
+credit committee :: an arrangement to borrow up to a limit
+to extend :: a written record of what was said
+file note :: to allow more time
+
+@TASK 8C | Discussion
+@GREEN Frames: | “In my bank this decision would be made by ___.” “A long relationship matters because ___.”
+@BULLET
+Should a long relationship count in a lending decision?
+What is in your files that a future colleague would thank you for?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Should the length of a relationship affect a credit decision? Give one reason.
+@WRITE
+
+@PART Part 9 · Branch Case Study — São Paulo in Focus: A Workshop Needs Help | Practitioner track · read then decide
+@INSTR Before you read: what does a bank owe a small business in a bad month?
+@READ Eleven Weeks | About 190 words
+Rafael Lima’s printing workshop in São Paulo has its largest order ever: eight thousand books for a buyer in another country. The buyer will pay thirty days after delivery. The paper supplier, who has never traded with Rafael before, wants to be paid before shipping. There are eleven weeks between the two payments, and Rafael cannot bridge them. He has come to the branch and told Beatriz Costa that this is the order that changes the business. Beatriz has checked the file. The shop has never missed a payment, but January was weak, and the existing loan for the second printer still has two years to run. She can offer a short facility, which would help his cash flow but add to what he already owes. She can arrange a letter of credit, which would satisfy the supplier but costs a fee and does not put money in Rafael’s account. She has to recommend something to the credit committee by Thursday.
+
+@TASK 9A | Comprehension
+@EX Example: 0. How large is the order? → Eight thousand books.
+@NUM
+Why is there a gap of eleven weeks?
+What does the paper supplier want, and why?
+What are the three options Beatriz is weighing?
+
+@TASK 9B | Decision task
+@INSTR What should Beatriz recommend? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Beatriz should recommend a letter of credit, because it satisfies the supplier without adding to what Rafael already owes. She should also report his record in his own words, including the weak January. Also, she can ask the committee for a small facility only if the buyer’s terms are confirmed in writing.
+@GREEN Frame: | I think Beatriz should ___, because ___. Also, ___.
+@PHRASES
+recommend a letter of credit
+avoid adding to existing borrowing
+report the record in the customer’s own words
+ask for written confirmation of the buyer’s terms
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study · end of course
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use reported speech or the correct form. Items 3–6 review Units 6 to 9.
+@EX Example: 0. “The account is ready.” (she) → She said the account was ready.
+@NUM
+“I need a facility.” (he) → He said he ______________________ a facility.
+“We have paid.” (she) → She said they ______________________ paid.
+I ______________________ (save) money since last year. (Unit 9: up to now)
+Staff ______________________ share a customer’s details. (Unit 8: not allowed)
+Could you tell me what the rate ______________________? (Unit 6 indirect question)
+If you share a one-time code, anyone ______________________ use your account. (Unit 7 conditional)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name business-banking terms.
+I can report what a customer said (reported speech).
+I can help a business customer and explain a benefit.
+I can understand a short business conversation.
+I can write a short meeting report or business reply.
+
+@TASK 10C | Course Can-Do — look how far you have come
+@INSTR Across this course, you can now:
+@CANDO
+Introduce yourself and describe your work (Unit 1).
+Serve customers politely and handle problems (Units 2, 7).
+Talk about transactions, products and digital banking (Units 3–5).
+Explain rates, rules, saving and business banking (Units 6, 8–10).
+Use ten grammar areas, from present tenses to reported speech.
+@LINE Well done. You have completed English for Banking and Finance (B1), International Edition. Keep using these skills every day at work — that is how they grow.
+
+@TASK 10D | Unit glossary
+@GLOSS
+business account — a bank account for a company
+invoice — a bill asking a customer to pay
+payroll — the money a company pays its staff
+cash flow — money coming in and going out of a business
+facility — an arrangement to borrow up to a limit
+supplier — a company that sells goods to a business
+letter of credit — a bank promise to pay a seller when documents are shown
+corporate customer — a business that banks with us
+relationship manager — one bank contact who knows a business
+reported speech — telling what someone said

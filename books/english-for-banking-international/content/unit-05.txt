@@ -17,7 +17,7 @@ What do your customers find hardest about the app?
 @BULLET
 Do you use the app every day, every week, or rarely?
 What is the one thing you wish the app could do?
-@TIP Use the words log in, password, code, app and transfer in your answers.
+@GREEN Useful words: | Use the words log in, password, code, app and transfer in your answers.
 
 @PART Part 1 · Vocabulary | Pre-class input
 
@@ -184,14 +184,14 @@ The customer must call again to find out.
 @TASK 3D | Learning the app (longer)
 @AUDIO 5.3
 @SCRIPT
-Mei: Good morning. I understand you would like some help with the app.
+Mei: I understand you would like some help with the app.
 Customer: Yes. My son set it up, but I don’t know what anything does.
-Mei: Of course. Let’s start at the first screen. Your balance is shown at the top. Below it, the last ten payments are listed, with the newest first.
+Mei: Let’s start at the first screen. Your balance is shown at the top, and the last ten payments are listed below it.
 Customer: And this button?
 Mei: That is for transfers. When you tap it, you choose the person, you type the amount, and then a code is sent to your phone. The payment is not made until the code is entered.
 Customer: So nothing can be sent by accident?
-Mei: Exactly. And if you are ever worried, your card can be frozen from this screen, and unfrozen later. Nothing is lost.
-Customer: That is a relief. Thank you.
+Mei: Exactly. And your card can be frozen from this screen, and unfrozen later.
+Customer: That is a relief.
 @INSTR Read and decide: True, False, or Not Given.
 @EX Example: 0. The customer’s son set up the app. → True.
 @NUM
@@ -206,7 +206,6 @@ The customer has used the app before today.
 “It is being checked now.” :: the work is happening at this moment
 “You will be notified.” :: we will tell you
 “Your card can be frozen.” :: you can stop it yourself
-“The old password is no longer accepted.” :: it does not work any more
 @FIG u5-3
 
 @PART Part 4 · Speaking | In-class output
@@ -252,7 +251,6 @@ Would you like a reset link sent to your email?
 “You can always freeze the card yourself.” :: leaving the customer in control
 “If it happens again, call this number.” :: giving a clear next step
 “Would you like to try it once with me?” :: practising together
-“Is there anything else on the app?” :: checking there is nothing more
 @INSTR In pairs, close a digital-support conversation politely. Use two phrases above.
 
 @PART Part 5 · Reading | Pre-class input
@@ -260,7 +258,7 @@ Would you like a reset link sent to your email?
 @TASK 5A | The new Harbour app (a leaflet)
 @INSTR Read the leaflet. Notice the passive verbs.
 @READ Harbour Bank — Your Money, Everywhere | About 200 words
-The Harbour app has been rebuilt, and the new version is available in every country where we operate. Your balance is shown as soon as you log in, and your last ten payments are listed below it. Payments are made in three steps: the person is chosen, the amount is typed, and a code is sent to your phone. Nothing is paid until that code is entered, so money cannot be sent by accident. Your details are protected by two-factor authentication. This means two different checks are made before you are let in: something you know, which is your password, and something you have, which is your phone. Transfers to another country are now handled in the app as well. The rate is shown before you confirm, and the fee is shown next to it, so nothing is hidden. Payments are usually received within one working day, and you are notified when the money arrives. If your card is lost, it can be frozen from the main screen in one tap, and unfrozen later if you find it. No data is stored on your phone. If the phone is lost, your money is not at risk.
+The Harbour app has been rebuilt, and the new version is available in every country where we operate. Your balance is shown as soon as you log in, and your last ten payments below it. Payments are made in three steps: the person is chosen, the amount is typed, and a code is sent to your phone. Nothing is paid until that code is entered. Your details are protected by two-factor authentication. Two different checks are made before you are let in: something you know, and something you have. Transfers abroad are now handled in the app as well. The rate and the fee are shown before you confirm, so nothing is hidden. Payments are usually received within one working day. A lost card can be frozen from the main screen in one tap, and unfrozen later. No data is stored on your phone, so if the phone is lost, your money is not at risk.
 @INSTR Answer the questions.
 @EX Example: 0. Where is the new version available? → In every country where the bank operates.
 @NUM
@@ -285,7 +283,7 @@ We do not store any data on your phone. → ____
 @TASK 5C | Should you trust the advert?
 @INSTR Read the short note. What is the difference between a bank message and a scam message?
 @READ Two Messages, One Difference | About 120 words
-A customer received two messages on the same morning. The first said: “Your payment of 240 has been received. No action is needed.” The second said: “Your account has been blocked. Click here within one hour or it will be closed.” Both looked official. The first was from the bank. The second was not. A real message tells you what has happened. A false message tells you to act now, and gives you a link. The bank never asks for a password or a one-time code, and it never gives a deadline of one hour. If a message makes you feel in a hurry, that feeling is the warning.
+A customer received two messages one morning. The first: “Your payment of 240 has been received. No action is needed.” The second: “Your account has been blocked. Click here within one hour.” Both looked official. The first was from the bank. The second was not. A real message tells you what has happened. A false message tells you to act now, and gives you a link. The bank never asks for a password or a one-time code, and it never gives a deadline of one hour. If a message makes you feel in a hurry, that feeling is the warning.
 @NUM
 What did the first message say had happened?
 What two things made the second message false?
@@ -416,7 +414,7 @@ A date for the training?
 @PART Part 8 · Global Case Study — The App-Only Bank | Practitioner track · read then discuss
 @INSTR Before you read: could a bank work with no branches at all? Who would it not suit?
 @READ A Bank With No Door | About 205 words · a made-up example based on real practice
-An app-only bank was launched in four countries at once. It had no branches, no counters and no queues. Accounts were opened in eight minutes from a phone, and identity was confirmed by a short video instead of a visit. Costs were low, so the rates offered were better than those of older banks, and in the first year two million accounts were opened. Then the complaints began. They were not about the technology, which worked well. They were about the moments when something went wrong. A customer whose card was used by a thief wanted to speak to a person, and there was nobody to speak to. An older customer could not pass the video check, because the light in her flat was poor. A small business owner needed to pay in cash, and cash cannot be sent through an app. The bank made two changes. It opened a telephone line answered by people, not machines, twenty-four hours a day. And it agreed with a chain of shops that its customers could pay in cash there. It still has no branches. But it learned that a bank without a door still needs a way in.
+An app-only bank was launched in four countries at once, with no branches and no counters. Accounts were opened in eight minutes from a phone, and identity was confirmed by a short video. Costs were low, so the rates offered were better than those of older banks. Then the complaints began — not about the technology, which worked well, but about the moments when something went wrong. A customer whose card was used by a thief wanted to speak to a person, and there was nobody to speak to. An older customer could not pass the video check, because her flat was dark. A small business owner needed to pay in cash. The bank made two changes. It opened a telephone line answered by people, not machines. And it agreed with a chain of shops that its customers could pay in cash there. It still has no branches, but it learned that a bank without a door still needs a way in.
 @GLOSS
 app-only bank — a bank with no branches
 identity check — proving who you are

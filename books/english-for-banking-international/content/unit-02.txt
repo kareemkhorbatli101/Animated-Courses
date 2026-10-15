@@ -298,8 +298,6 @@ Ana: Of course. And if a customer is angry?
 Marta: Stay calm. Apologise, and never argue. You can say, “I’m sorry for the wait. How can I help you now?”
 Ana: What if I don’t know the answer?
 Marta: That’s fine. Say, “Let me check that for you,” and ask a colleague. It is better to be correct than fast.
-Ana: And if the customer’s English is limited?
-Marta: Speak slowly, use short sentences, and check that they have understood.
 Ana: Thank you. That’s very helpful.
 Marta: You’re welcome. Good service is simple: be polite, be clear, and be honest.
 @NUM
@@ -433,8 +431,8 @@ A warm tone?
 @PART Part 8 · Global Case Study — A Service Culture | Practitioner track · read then discuss
 @INSTR Before you read: what makes you go back to the same shop or bank again and again?
 @READ Service That Customers Remember | About 210 words · a made-up example based on real practice
-A large international bank wanted to keep more of its customers. So it changed how its staff worked, in every country where it has branches. The bank made three simple rules for every employee. The first rule was to greet each customer by name. When staff use a name, customers feel known and valued. The second rule was ‘first-contact resolution’. This means staff try to solve the customer’s problem in one visit, without sending them to another desk. The third rule was to say sorry quickly. If a customer waited too long or had a problem, staff apologised at once and offered a clear solution. They did not argue or blame the customer.
-The bank trained every employee, from tellers to managers, and it trained them in the same way in each country. It also asked customers for feedback each month. After one year, complaints fell by almost half, and more customers stayed with the bank. This is called ‘loyalty’. The bank learned an important lesson: good service is not expensive, but it is very valuable.
+A large international bank wanted to keep more of its customers. So it changed how its staff worked, in every country where it has branches. The bank made three simple rules for every employee. The first rule was to greet each customer by name. When staff use a name, customers feel known and valued. The second rule was ‘first-contact resolution’. This means staff try to solve the customer’s problem in one visit, without sending them to another desk. The third rule was to say sorry quickly. If a customer waited too long or had a problem, staff apologised at once and offered a clear solution.
+The bank trained every employee in the same way in each country. It also asked customers for feedback each month. After one year, complaints fell by almost half, and more customers stayed with the bank. This is called ‘loyalty’. The bank learned an important lesson: good service is not expensive, but it is very valuable.
 @GLOSS
 first-contact resolution — solving a problem in one visit
 complaint — when a customer says something is wrong

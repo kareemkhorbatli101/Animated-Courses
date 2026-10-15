@@ -1,0 +1,500 @@
+@UNIT 7 | Security and Fraud
+@FIG u7-banner
+@INTRO In this unit you learn the language of bank security and fraud, how to warn and advise a customer, how to follow a conversation about a scam, and how to write safety advice. Grammar focus: zero and first conditionals.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Staying safe (discussion)
+@INSTR In small groups, talk about how people lose money to fraud.
+@MODEL
+My neighbour got a message saying her account was blocked. She clicked the link and typed her password. The money was gone in ten minutes.
+@BULLET
+What scams have you heard about where you live?
+Why do people believe a message that is clearly false?
+
+@TASK W-B | Safe or risky? (quick sort)
+@INSTR In pairs, decide whether each habit is safe or risky. One minute only.
+@BULLET
+Writing the PIN on a piece of paper in a wallet: ____
+Calling the number printed on the back of the card: ____
+Reading a one-time code aloud on the phone: ____
+@GREEN Useful words: | Use the words PIN, code, link and caller in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each security word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. PIN → h)
+@MATCH i) the money left in an account (extra)
+Fraud :: taking money by lying or tricking someone
+Phishing :: a false email that asks for your details
+Smishing :: a false text message that asks you to act
+Skimming :: copying a card’s details at a machine
+Suspicious :: looking as though something may be wrong
+To block :: to stop a card or account being used
+Unauthorised :: done without the owner’s permission
+Scam :: a plan to take money dishonestly
+@PRON Pronunciation — word stress. Say these words: FRAUD, PHISH·ing, sus·PI·cious, un·AU·thor·ised.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+The crime: ____
+The method: ____
+What the bank does: ____
+@MODEL
+The crime: fraud, scam, unauthorised. The method: phishing, smishing, skimming. What the bank does: block, check anything suspicious.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK blocked | suspicious | link | code | unauthorised | report | fraud | caller | PIN
+@EX Example: 0. Never share your PIN with anyone.
+@NUM
+If a message asks you to click a ______________________, do not click it.
+Your card has been ______________________ as a precaution.
+We found three ______________________ payments on the account.
+Please ______________________ anything ______________________ to us at once.
+The ______________________ said he worked for the bank, but he did not.
+The bank will never ask you for a one-time ______________________.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common security phrase (one noun is extra).
+@MATCH f) a queue (extra)
+block :: a scam
+report :: the PIN
+cover :: a card
+spot :: fraud
+change :: your password
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one fraud case you know, or invent one. Use at least five words from Part 1.
+@MODEL
+A customer received a text saying her account was blocked. The message had a link, and she typed her password. The next morning there were three unauthorised payments. She reported it, and we blocked the card and opened a fraud case the same day.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u7-1
+
+@PART Part 2 · Grammar — Zero and First Conditionals | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the two conditionals. Which one is a general rule?
+@SCRIPT
+Customer: I think someone has used my card.
+Elif: If you tell us straight away, we can usually stop the payment.
+Customer: And if I had waited?
+Elif: If a customer waits a week, the money is much harder to recover. That is always true.
+Customer: Then please block it now.
+Elif: I will block it, and if anything else appears, we will call you.
+@NUM
+“If a customer waits a week, the money is harder to recover” — rule or one occasion? ____
+“If anything else appears, we will call you” — rule or one occasion? ____
+Which tense comes after if in both sentences? ____
+@GF
+@GRAMMAR
+Conditional | Form | Use | Example
+Zero | if + present, present | a rule that is always true | If you share a code, your account is at risk.
+First | if + present, will / can | one real possibility, now or soon | If you call us now, we will block the card.
+@REMEMBER after if, use the present — never will. The will goes in the other half of the sentence.
+@WATCH
+✗ If you will share your code, the account is at risk. → ✓ If you share your code, the account is at risk.
+✗ If you call us, we block the card. → ✓ If you call us, we will block the card.
+
+@TASK 2B | Controlled practice (zero or first)
+@INSTR Write the correct form of the verb in brackets.
+@EX Example: 0. If you lose your card, you ____ (must) call us. → must.
+@NUM
+If you share a one-time code, anyone ______________________ (can) use your account.
+If you call us before midnight, we ______________________ (block) the card tonight.
+If a message asks for your password, it ______________________ (be) not from the bank.
+If the customer ______________________ (come) in tomorrow, we will issue a new card.
+If you cover the keypad, nobody ______________________ (see) your PIN.
+If you ______________________ (report) it today, we can still trace the payment.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. If you will call us, we block it. → If you call us, we will block it.
+@NUM
+If you will share your code, your money is at risk.
+If a customer calls, we blocking the card.
+If you clicked the link, tell us now and we blocked it.
+If water gets into the machine, it will always stop working.
+If you will come tomorrow, we will give you a new card.
+@WRITE
+
+@TASK 2D | Give safety advice
+@INSTR Write three pieces of advice for a customer. Use one zero conditional and two first conditionals.
+@MODEL
+If you share a one-time code, anyone can use your account. If you receive a message in a hurry, call us before you click. If you lose your card, we will block it immediately.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, advise a customer who has clicked a link in a false message. Use at least three conditionals.
+@MODEL
+“If you typed your password, we should change it now. If anything has been taken, we will open a case today.”
+@TIP You will see these conditionals again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u7-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three conversations about security. What does a worried customer say first?
+@MODEL
+“I think the customer will say that something strange has happened, and that she is frightened.”
+
+@TASK 3B | A suspicious message
+@AUDIO 7.1
+@SCRIPT
+Customer: I got a text saying my account will be closed in one hour.
+Elif: Thank you for calling us instead of clicking. That message is not from us.
+Customer: How can you be sure?
+Elif: If a message gives you a deadline of one hour, it is a scam. The bank never does that, in any country.
+Customer: Should I do anything?
+Elif: Delete it. If you clicked the link, tell me now and we will change your password.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer received a text message. → True.
+@NUM
+The message came from the bank.
+A one-hour deadline is a sign of a scam.
+The customer clicked the link.
+@USEFUL
+Thank you for calling us instead of clicking.
+That message is not from us.
+If you clicked the link, tell me now.
+
+@TASK 3C | Blocking a lost card
+@AUDIO 7.2
+@SCRIPT
+Customer: I can’t find my card. I think I left it in a shop.
+Grace: I can block it now. May I ask when you last used it?
+Customer: About an hour ago.
+Grace: Good. If a payment appears after that time, we will refund it. A new card will be posted today and should arrive in three days.
+Customer: And if I find the old one?
+Grace: Once a card is blocked, it cannot be used again. Please cut it up.
+@INSTR Read and decide: True or False.
+@NUM
+The card can be unblocked if the customer finds it.
+Payments after the lost time will be refunded.
+The new card arrives the same day.
+Nothing can be spent on a blocked card.
+
+@TASK 3D | Staying safe — advice (longer)
+@AUDIO 7.3
+@SCRIPT
+Elif: Three rules, and they are the same in every branch of this bank.
+Elif: First, codes. If someone asks you for a one-time code, that person is not from the bank. We never ask.
+Elif: Second, hurry. If a call makes you feel you must act within minutes, stop. Fraud works on hurry, and if you slow down most scams fail.
+Elif: Third, the number. Call the number printed on your card, not the one in the message. A caller can say any name.
+Elif: And if you make a mistake, tell us at once. If you report it in the first hour, we can usually stop the money.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The rules are the same in every branch. → True.
+@NUM
+The bank sometimes asks for a one-time code.
+Calling the number in a message is safer than the number on the card.
+Most customers in the room have been victims of fraud.
+
+@TASK 3E | Match the safe response
+@INSTR Match each situation to the safe response (one is extra).
+@MATCH f) send the code to the caller (extra)
+A text gives you a one-hour deadline :: delete it and call the bank
+A caller asks for your one-time code :: end the call; the bank never asks
+You cannot find your card :: call and have it blocked
+You clicked a link and typed your password :: tell the bank at once and change it
+@FIG u7-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — warning and advising
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Warn :: “If you share that code, anyone can use your account.”
+Advise :: “I would call the number on your card.”
+Reassure :: “Nobody here will blame you.”
+Act :: “I will block the card now.”
+
+@TASK 4B | Advise a worried customer (pairwork)
+@INSTR Advise a customer who thinks they have been tricked. Then swap roles.
+@MODEL
+A: Thank you for telling us. If you typed your password, we will change it now. — B: Will I lose the money? — A: If a payment appears, we will refund it. Let me block the card first.
+@CARD Card A (staff):
+thank them · act first · explain with a conditional · say what happens next.
+@CARD Card B (customer):
+you clicked a link last night and typed your password; you are embarrassed and frightened.
+
+@TASK 4C | Help someone stay calm
+@INSTR A customer is panicking on the phone. Slow the conversation down and take the first step.
+@MODEL
+“Let’s take one thing at a time. First, I am blocking the card — that is done. Now, if you tell me when you last used it, we can check everything after that.”
+@STRETCH the customer blames themselves — reassure them without making a promise you cannot keep.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A works in the fraud team; Student B is a customer. Ask and answer to open a case.
+@CARD Card A (fraud team):
+you can block cards instantly; payments after the reported time are refunded; a new card takes three days.
+@CARD Card B (customer):
+you last used the card at 11:00; two payments appeared at 14:30; you still have the card in your bag.
+@USEFUL
+When did you last use it?
+Do you still have the card?
+Did you share a code with anyone?
+
+@TASK 4E | Close the call safely
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Your card is blocked, and nothing can be spent.” :: confirming the action
+“A new card will arrive in three days.” :: saying what happens next
+“If anything else appears, call this number.” :: giving a clear next step
+“You did the right thing by calling.” :: reassuring the customer
+@INSTR In pairs, close a fraud call safely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Stay safe: security tips
+@INSTR Read the customer leaflet. Notice the conditionals.
+@READ Harbour Bank — Six Rules That Keep Your Money Safe | About 200 words
+If you follow six simple rules, most fraud will never reach you. One: never share a one-time code. If somebody asks you for a code, that person is not from this bank. Two: slow down. If a message or a call makes you feel you must act within minutes, it is almost certainly a scam. Fraud works on hurry. Three: use the number on your card. If you want to check whether a call was real, hang up and call the number printed on it. A caller can claim any name. Four: cover the keypad. If you cover your hand when you type your PIN, a camera above the machine sees nothing. Five: check your statement. If you look at your payments once a week, you will see a wrong one early, while it can still be stopped. Six: tell us at once. If you report something in the first hour, we can usually stop the money; if you wait a week, it is much harder. We would always rather have a false alarm than a late one.
+@INSTR Answer the questions.
+@EX Example: 0. How many rules are there? → Six.
+@NUM
+What does the leaflet say about anyone who asks for a code?
+Why does fraud work on hurry?
+Which number should a customer call to check a call?
+Why should a customer look at the statement each week?
+What is the difference between reporting in the first hour and waiting a week?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the leaflet. Find two zero conditionals and one first conditional.
+@NUM
+Zero conditional 1: ____
+Zero conditional 2: ____
+First conditional: ____
+@INSTR Now complete these sentences about safety.
+@NUM
+If you ______________________ (cover) the keypad, nobody can see your PIN.
+If you report it today, we ______________________ (can) stop the payment.
+
+@TASK 5C | A close call
+@INSTR Read the short story. What stopped the fraud?
+@READ One Question Saved It | About 120 words
+A customer in her seventies received a call. The caller knew her name, her bank and the last four digits of her card. He said there had been an unauthorised payment and that her money had to be moved. She almost agreed. Then she asked one question: “Can I call you back on the number on my card?” The caller said no, there was no time. That was the moment she knew. She put the phone down and called the branch. The money was never moved. She says now that the caller knew everything except one thing: a real bank is always happy to be called back.
+@NUM
+What did the caller already know about her?
+What one question did she ask?
+What was the caller’s answer, and why did it matter?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare the advice with what customers actually do.
+@GREEN Useful frame: | “Our customers find rule ___ easy, but rule ___ is hard because ___.”
+@BULLET
+Which rule do your customers forget most often?
+What is the best way to teach a rule to someone who does not use a phone?
+@FIG u7-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the safety notice
+@INSTR Complete the notice with the words: share, delete, report, printed, blocked.
+@BANK share | delete | report | printed | blocked
+@NUM
+Never ______________________ a one-time code with anyone, including bank staff.
+If you receive a message with a deadline, please ______________________ it.
+If you want to check a call, use the number ______________________ on your card.
+Your card can be ______________________ in one tap in the app.
+Please ______________________ anything unusual to us at once.
+
+@TASK 6B | Safety advice email to customers (50–70 words)
+@INSTR Write a short email to customers with safety advice. Use two conditionals.
+@MODEL
+Subject: Keeping your account safe
+Dear Customer, We are seeing more false messages at the moment. If a message asks you for a one-time code, it is not from us. If you want to check whether a call is real, please hang up and dial the number printed on your card. You can freeze your card in the app at any time. Kind regards, Harbour Bank
+@GREEN Plan: | Subject: ___ · Dear ___, · We are seeing ___. · If a message ___, it ___. · If you want to ___, please ___. · Kind regards, ___
+@PHRASES
+if a message asks you for…
+it is not from us
+please hang up and dial…
+you can freeze your card at any time
+@CHECK
+A clear subject line?
+Two conditionals?
+One clear action for the customer?
+50–70 words?
+@WRITE
+
+@TASK 6C | Reply to a worried customer (50–70 words)
+@INSTR A customer writes that she clicked a link. Write a calm, practical reply.
+@MODEL
+Subject: The link you clicked
+Dear Ms Fernandes, Thank you for telling us so quickly. Your card has been blocked, and nothing can be spent on it. If a payment appears after the time you reported, we will refund it. Could you change your password today? A new card will arrive within three days. You did the right thing by calling. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · Your card has been ___. · If ___, we will ___. · Could you ___? · Kind regards, ___
+@CHECK
+A calm, non-blaming tone?
+One conditional?
+A clear next step for the customer?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your email from 6B or 6C with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · two conditionals? · one clear action? · 50–70 words?
+@MODEL
+“Very calm, and the conditional makes the advice clear. Next time, try to put the action the customer must take in its own sentence.”
+
+@PART Part 7 · Management File — Keeping Customers Safe | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Fraud-awareness phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“We have seen four cases this week.” :: giving the team the current picture
+“If a customer hesitates, slow down.” :: giving staff a rule to follow
+“Nobody will be blamed for a false alarm.” :: making it safe to report
+“Escalate anything over five thousand.” :: setting the line for referral
+
+@TASK 7B | Listening — a staff briefing
+@AUDIO 7.4
+@SCRIPT
+Elif: Four cases this week, all the same. A caller says he is from the fraud team and asks the customer to move money to a “safe account”.
+Tomasz: What should we do if a customer comes in to make that transfer?
+Elif: If a customer asks to move everything to a new account, slow down and ask who told them. If the answer is a phone call, stop the transfer and call me.
+Tomasz: And if we are wrong?
+Elif: Nobody will be blamed for a false alarm. Escalate anything over five thousand to me directly.
+@INSTR Answer the questions.
+@EX Example: 0. How many cases have there been this week? → Four.
+@NUM
+What does the caller ask the customer to do?
+What should staff do if a customer wants to move everything to a new account?
+What is the rule for amounts over five thousand?
+
+@TASK 7C | Controlled practice — advice with conditionals
+@INSTR Rewrite each note as advice for a colleague. Use a zero or first conditional.
+@EX Example: 0. Customer in a hurry → If a customer is in a hurry, slow the conversation down.
+@NUM
+Caller claims to be from the fraud team.
+Customer wants to move everything to a new account.
+Transfer is over five thousand.
+Customer has already shared a one-time code.
+Staff member is not sure whether it is fraud.
+@WRITE
+
+@TASK 7D | Role play — advise a scared customer
+@INSTR A customer has been told by a caller to move her savings. Stop the transfer without frightening her further.
+@MODEL
+“I am not going to make that transfer today, and I will explain why. If someone has told you to move money to a safe account, that call was not from this bank. Let’s check it together, and nothing will be lost.”
+@CARD Card A (staff):
+refuse calmly · explain with a conditional · offer to check together · escalate.
+@CARD Card B (customer):
+you were called this morning; the caller knew your name and your card’s last four digits; you are certain he was genuine.
+@STRETCH the customer insists it is her money and her decision — respond respectfully and still protect her.
+
+@TASK 7E | Writing — a staff safety reminder (50–70 words)
+@INSTR Write a short reminder to your team about a current scam.
+@MODEL
+Subject: Safe-account scam — four cases this week
+We have seen four cases this week. A caller claims to be from the fraud team and asks the customer to move money to a “safe account”. If a customer asks to move everything to a new account, slow down and ask who told them. If the answer is a phone call, stop the transfer and call me. Elif Demir
+@GREEN Plan: | Subject: ___ · We have seen ___. · A caller claims ___. · If a customer ___, ___. · If ___, ___.
+@PHRASES
+we have seen ___ cases this week
+a caller claims to be…
+if a customer asks to…, slow down
+escalate anything over…
+@CHECK
+A clear subject line?
+Two conditionals?
+A clear instruction for the team?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — A Scam-Awareness Campaign | Practitioner track · read then discuss
+@INSTR Before you read: does telling people about a scam actually stop it?
+@READ The Campaign That Worked | About 200 words · a made-up example based on real practice
+A bank with branches in several countries ran a campaign about one scam: the “safe account” call. For three months, every branch had a poster, every statement had a line at the bottom, and every member of staff was trained to ask one question. The posters did almost nothing. The line on the statement did almost nothing. The one question worked. Staff were taught that if a customer asks to move a large amount to an account they have only just heard about, the staff member should ask, simply and without alarm, “Who told you about this account?” If the answer was a phone call, the transfer was stopped and checked. In three months, that single question stopped payments worth more than two million. The bank learned two things. The first was that general advice reaches people who are not in danger, while a question reaches the person who is. The second was harder: some customers were angry at being stopped. The bank decided that this was a price worth paying, and it published the figure so that customers could see why.
+@GLOSS
+campaign — an organised effort to tell people something
+safe-account scam — a call telling you to move money to a new account
+to escalate — to pass something to a more senior person
+false alarm — a warning about something that turns out to be fine
+
+@TASK 8A | Comprehension
+@EX Example: 0. How long did the campaign run? → Three months.
+@NUM
+Which two parts of the campaign did almost nothing?
+What was the one question staff were taught to ask?
+What happened if the answer was a phone call?
+What two things did the bank learn?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+campaign :: a call telling you to move money to a new account
+safe-account scam :: an organised effort to tell people something
+to escalate :: a warning about something that turns out to be fine
+false alarm :: to pass something to a more senior person
+
+@TASK 8C | Discussion
+@GREEN Frames: | “In my branch this question would work because ___.” “It would be difficult because ___.”
+@BULLET
+How would customers in your country react to being stopped?
+Is a poster ever worth the wall space? Why, or why not?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Is stopping a customer’s own transfer the right thing to do? Give one reason.
+@WRITE
+
+@PART Part 9 · Branch Case Study — Istanbul in Focus: The Phone Call | Practitioner track · read then decide
+@INSTR Before you read: what would you do if a customer insisted on a transfer you believed was fraud?
+@READ Mr Aydın’s Difficult Morning | About 185 words
+A customer, Mr Şahin, has come into the Istanbul branch to transfer forty thousand to an account he was given this morning. He says a man from the bank’s fraud team called him at seven and told him his savings were at risk. The man knew his name, his branch and the last four digits of his card. Mr Şahin is a careful man, and he is embarrassed to be asked about it. He says he is seventy-one years old and perfectly able to manage his own money. Zeynep Kaya, at the desk, is certain this is the safe-account scam. The branch rule is clear: stop the transfer and escalate anything over five thousand. But Mr Şahin is becoming angry, other customers can hear, and he has threatened to close his accounts and go elsewhere. The manager, Kerem Aydın, has been called to the desk. He has perhaps two minutes before the conversation becomes a scene, and the money, if it goes, will not come back.
+
+@TASK 9A | Comprehension
+@EX Example: 0. How much does Mr Şahin want to transfer? → Forty thousand.
+@NUM
+What did the caller tell Mr Şahin, and what did he already know?
+What is the branch rule for amounts over five thousand?
+Why is the situation becoming difficult for the branch?
+
+@TASK 9B | Decision task
+@INSTR What should Kerem do in the next two minutes? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Kerem should take Mr Şahin into a private room, because the conversation should not happen at the counter. He should explain that the transfer is paused, not refused, and offer to call the fraud team together. Also, he can show Mr Şahin that the bank never calls about a safe account.
+@GREEN Frame: | I think Kerem should ___, because ___. Also, ___.
+@PHRASES
+move the conversation somewhere private
+say the transfer is paused, not refused
+offer to call the fraud team together
+show the rule in writing
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use a conditional or the correct word. Items 5–6 review Units 5 and 6.
+@EX Example: 0. If you share a code, anyone ____ use your account. → can.
+@NUM
+If you ______________________ (click) a link in a false message, tell us at once.
+If you call us tonight, we ______________________ (block) the card immediately.
+A false email that asks for your details is called ______________________. (word)
+Done without the owner’s permission is ______________________. (word)
+A code ______________________ (send) to your phone every time. (Unit 5 grammar)
+Could you tell me what the rate ______________________? (Unit 6 indirect question)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the common types of fraud.
+I can give safety advice with zero and first conditionals.
+I can calm and advise a worried customer.
+I can understand a short conversation about a scam.
+I can write safety advice for customers or staff.
+
+@TASK 10C | Unit glossary
+@GLOSS
+fraud — taking money by lying or tricking someone
+phishing — a false email that asks for your details
+smishing — a false text message that asks you to act
+skimming — copying a card’s details at a machine
+suspicious — looking as though something may be wrong
+to block — to stop a card or account being used
+unauthorised — done without the owner’s permission
+safe-account scam — a call telling you to move money to a new account
+to escalate — to pass something to a more senior person
+false alarm — a warning about something that turns out to be fine
