@@ -300,18 +300,17 @@ class Doc:
         self.spacer()
 
     def grammar(self, rows):
-        head = [cell([para(run("", bold=True, colour=WHITE, sz=19), after=0)], GRID_GRAM[0], fill=NAVY),
-                cell([para(run("Form", bold=True, colour=WHITE, sz=19), after=0)], GRID_GRAM[1], fill=NAVY),
-                cell([para(run("Use", bold=True, colour=WHITE, sz=19), after=0)], GRID_GRAM[2], fill=NAVY),
-                cell([para(run("Example", bold=True, colour=WHITE, sz=19), after=0)], GRID_GRAM[3], fill=NAVY)]
-        out = [head]
-        for r in rows:
-            r = (list(r) + ["", "", "", ""])[:4]
-            out.append([cell([para(run(r[0], bold=True, sz=19), after=0)], GRID_GRAM[0]),
-                        cell([para(run(r[1], sz=19), after=0)], GRID_GRAM[1]),
-                        cell([para(run(r[2], sz=19), after=0)], GRID_GRAM[2]),
-                        cell([para(run(r[3], sz=19), after=0)], GRID_GRAM[3])])
-        self.add(table(out, grid=GRID_GRAM, border=B_READ))
+        """The Grammar Focus table: the first row is the header, as the source's is."""
+        head, body = rows[0], rows[1:]
+        n = len(head)
+        grid = tuple([TBL_W // n] * (n - 1) + [TBL_W - (TBL_W // n) * (n - 1)])
+        out = [[cell([para(run(h, bold=True, colour=WHITE, sz=19), after=0)], grid[i],
+                     fill=NAVY) for i, h in enumerate(head)]]
+        for r in body:
+            r = (list(r) + [""] * n)[:n]
+            out.append([cell([para(run(c, bold=(i == 0), sz=19), after=0)], grid[i])
+                        for i, c in enumerate(r)])
+        self.add(table(out, grid=grid, border=B_READ))
         self.spacer()
 
     def wordbank(self, words):

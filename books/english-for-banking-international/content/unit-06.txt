@@ -1,0 +1,501 @@
+@UNIT 6 | Currency Exchange and Money Transfer
+@FIG u6-banner
+@INTRO In this unit you learn the language of exchanging money and sending it abroad, how to ask and answer politely, how to follow a transfer conversation, and how to write a short inquiry and reply. Grammar focus: indirect questions.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Changing and sending money (discussion)
+@INSTR In small groups, talk about moving money between countries.
+@MODEL
+My cousin works abroad and sends money home every month. He uses the bank because it is safer, even though it is a little slower.
+@BULLET
+Who in your country receives money from abroad, and why?
+What do people worry about most: the rate, the fee, or the time?
+
+@TASK W-B | Polite questions (think–pair)
+@INSTR Think for one minute, then compare with a partner.
+@BULLET
+Which sounds better to a customer: “What is the rate?” or “Could you tell me what the rate is?”
+Why does a bank use longer, politer questions?
+@TIP Use the words rate, fee, transfer and exchange in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. Receipt → h)
+@MATCH i) a card used only inside one country (extra)
+Exchange rate :: what one currency is worth in another
+Spread :: the difference between the buy rate and the sell rate
+IBAN :: the international number of a bank account
+BIC / SWIFT :: the code that says which bank
+Correspondent bank :: a bank that passes money between two other banks
+Remittance :: money sent home by someone working abroad
+Beneficiary :: the person who receives the money
+Commission :: what the bank charges for the service
+@PRON Pronunciation — word stress. Say these words: ex·CHANGE, re·MIT·tance, be·ne·FI·ci·a·ry, com·MIS·sion.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+About the price: ____
+About the route: ____
+About the people: ____
+@MODEL
+About the price: exchange rate, spread, commission. About the route: IBAN, BIC, correspondent bank. About the people: beneficiary, remittance.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK rate | fee | IBAN | beneficiary | currency | transfer | spread | abroad | working day
+@EX Example: 0. Today’s exchange rate is shown on the board.
+@NUM
+Could you tell me the full name of the ______________________, please?
+We will need the ______________________ of the account you are sending to.
+There is a flat ______________________ of twelve for an international transfer.
+The money should arrive within one ______________________.
+In which ______________________ would you like the money to arrive?
+The difference between our buy and sell price is called the ______________________.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common banking phrase (one noun is extra).
+@MATCH f) a queue (extra)
+send :: the rate
+check :: a fee
+charge :: a transfer
+convert :: an amount
+confirm :: the beneficiary’s details
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one international transfer, from start to finish. Use at least five words from Part 1.
+@MODEL
+A customer wanted to send 400 to her son abroad. We checked the rate, confirmed the beneficiary’s IBAN, and charged a flat fee of twelve. The money was converted and sent the same afternoon, and it arrived the next working day.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u6-1
+
+@PART Part 2 · Grammar — Indirect Questions | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the indirect questions. What happens to the word order?
+@SCRIPT
+Customer: Could you tell me what today’s rate is?
+Ana: Of course. It is 4.35 to the euro.
+Customer: And do you know how long the transfer takes?
+Ana: One working day. May I ask whether you have the IBAN with you?
+Customer: I do, yes.
+@NUM
+“what today’s rate is” — where is the verb? ____
+“how long the transfer takes” — is there do/does? ____
+whether — what kind of question does it introduce? ____
+@GF
+@GRAMMAR
+Form | Example
+Could you tell me + question word + subject + verb | Could you tell me what the rate is? |
+Do you know + question word + subject + verb | Do you know how long it takes? |
+May I ask + whether / if + subject + verb | May I ask whether you have the IBAN? |
+@REMEMBER in an indirect question the subject comes before the verb, and do / does / did disappears. Use whether or if when there is no question word.
+@WATCH
+✗ Could you tell me what is the rate? → ✓ Could you tell me what the rate is?
+✗ Do you know how long does it take? → ✓ Do you know how long it takes?
+
+@TASK 2B | Controlled practice (make it indirect)
+@INSTR Rewrite each direct question as an indirect question.
+@EX Example: 0. What is the fee? → Could you tell me what the fee is?
+@NUM
+How much does it cost?
+Where is the beneficiary’s bank?
+When will the money arrive?
+Does the rate change today?
+What is your account number?
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. Could you tell me what is the rate? → Could you tell me what the rate is?
+@NUM
+Do you know when does the branch close?
+Could you tell me how much is the fee?
+May I ask do you have the IBAN?
+I would like to know where is the beneficiary’s bank.
+Can you tell me what time does it arrive?
+@WRITE
+
+@TASK 2D | Ask politely
+@INSTR Write three indirect questions you would ask a customer who is sending money abroad.
+@MODEL
+Could you tell me the full name of the beneficiary? May I ask which currency you would like the money to arrive in? Do you know whether the account is held at that branch?
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, act a short exchange-desk conversation. Each speaker asks at least two indirect questions.
+@MODEL
+“Could you tell me how much you would like to change? … And may I ask whether you have your ID with you?”
+@TIP You will see indirect questions again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u6-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three conversations about moving money. What does a customer ask first?
+@MODEL
+“I think the customer will ask about the rate, and then about the fee.”
+
+@TASK 3B | Asking about the rate
+@AUDIO 6.1
+@SCRIPT
+Customer: Good morning. Could you tell me what the rate is today?
+Zeynep: Good morning. We are buying at 4.28 and selling at 4.42.
+Customer: Why are there two numbers?
+Zeynep: The difference is called the spread. It is how the bank is paid for the service. There is no separate commission for cash.
+Customer: I see. That is clearer than I expected.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer asks about the rate. → True.
+@NUM
+There is a separate commission for changing cash.
+The bank buys at a lower number than it sells at.
+The customer changes money today.
+@USEFUL
+Could you tell me what the rate is today?
+We are buying at… and selling at…
+The difference is called the spread.
+
+@TASK 3C | Sending a transfer
+@AUDIO 6.2
+@SCRIPT
+Customer: I would like to send three hundred to my daughter.
+Luca: Certainly. May I ask whether you have her IBAN?
+Customer: Yes, here it is. Do you know how long it will take?
+Luca: Usually one working day. Could you tell me the full name on the account, exactly as the bank has it?
+Customer: Maria Oliveira. Is the fee the same for any amount?
+Luca: Up to a thousand, yes — a flat twelve.
+@INSTR Read and decide: True or False.
+@NUM
+The customer has the beneficiary’s IBAN.
+The transfer usually takes one working day.
+The name on the account does not have to match exactly.
+The fee is twelve for amounts up to a thousand.
+
+@TASK 3D | Collecting a transfer from abroad (longer)
+@AUDIO 6.3
+@SCRIPT
+Customer: Good afternoon. My brother sent me money from abroad last Friday, but nothing has arrived.
+Luca: I’m sorry to hear that. Could you tell me the exact date he sent it, and the amount?
+Customer: Friday the fourteenth. Five hundred.
+Luca: Thank you. May I ask whether he gave the bank your IBAN, or only your account number?
+Customer: I’m not sure. He said he gave the number from my card.
+Luca: That may be the problem. For money coming from another country, the IBAN is needed, and the BIC of this bank. Without them the payment can sit at a correspondent bank for several days.
+Customer: Do you know what I should do now?
+Luca: I will write down your IBAN and our BIC for you. Could you send them to your brother today? If the money has not moved by Thursday, come back and we will trace it.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The money has not arrived. → True.
+@NUM
+The customer is certain her brother used her IBAN.
+A payment can wait at a correspondent bank for several days.
+The brother lives in Spain.
+
+@TASK 3E | Match the polite question
+@INSTR Match each indirect question from the listenings to what it asks for (one is extra).
+@MATCH f) “Could you tell me your address?” (extra)
+“Could you tell me what the rate is today?” :: the price of one currency in another
+“May I ask whether you have her IBAN?” :: the account number abroad
+“Do you know how long it will take?” :: the time the transfer needs
+“Could you tell me the full name on the account?” :: the beneficiary’s exact name
+“Do you know what I should do now?” :: the next step
+@FIG u6-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — polite questions and answers
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Ask politely for information :: “Could you tell me the beneficiary’s full name?”
+Give a price :: “We are selling at 4.42 today.”
+Explain a charge :: “The difference is called the spread.”
+Give a time :: “It usually arrives within one working day.”
+
+@TASK 4B | At the exchange desk (pairwork)
+@INSTR Act a short exchange-desk conversation, then swap roles.
+@MODEL
+A: Could you tell me how much you would like to change? — B: Two hundred. What is the rate? — A: We are selling at 4.42. May I ask whether you have your ID with you?
+@CARD Card A (staff):
+ask the amount politely · give the rate · explain the spread · ask for ID.
+@CARD Card B (customer):
+you want to change 200; you ask why there are two rates; you have your passport.
+
+@TASK 4C | Explain a transfer
+@INSTR A customer does not understand why a transfer takes a day. Explain the route simply.
+@MODEL
+“Your money leaves us today, it is passed through a partner bank overnight, and it is credited to your daughter’s account tomorrow morning. Three banks are involved, and each one checks the payment.”
+@STRETCH the customer asks why a payment within the country is instant but this is not — answer clearly.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A works at the transfer desk; Student B is a customer. Ask and answer to complete the transfer.
+@CARD Card A (staff):
+fee is a flat 12 up to 1,000, then 20 · one working day · you need the IBAN, the BIC and the exact name.
+@CARD Card B (customer):
+you are sending 1,400 to Manila; you have the IBAN but not the BIC; you want it to arrive by Friday.
+@USEFUL
+Could you tell me how much you would like to send?
+May I ask whether you have the BIC?
+Do you know when it needs to arrive?
+
+@TASK 4E | Close the conversation
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Here is your receipt with the reference number.” :: giving the customer the record
+“Please keep this in case you need to trace it.” :: explaining why the record matters
+“If it has not arrived by Thursday, come back.” :: giving a clear next step
+“Would you like today’s rate written down?” :: offering something extra
+“Is there anything else I can check?” :: checking there is nothing more
+@INSTR In pairs, close a transfer conversation politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Common questions about transfers (FAQ)
+@INSTR Read the FAQ page. Notice the indirect questions.
+@READ Harbour Bank — Sending Money Abroad | About 195 words
+Customers often ask us how an international transfer works, so here are the questions we hear most. Could you tell me what I need before I start? You need three things: the beneficiary’s full name exactly as their bank holds it, their IBAN, and the BIC of their bank. A missing BIC is the most common reason a payment is delayed. Do you know how long it takes? Most transfers arrive within one working day, but a payment sent on Friday afternoon may not move until Monday. May I ask why there are two rates on the board? One is the price at which we buy a currency and one is the price at which we sell it. The difference is called the spread, and it is how the service is paid for. Could you tell me what the fee is? It is a flat twelve up to one thousand, and twenty above that. Do you know where my money is now? Every transfer has a reference number on your receipt. Bring it to any branch and we can see which bank is holding the payment and why.
+@INSTR Answer the questions.
+@EX Example: 0. What are the three things you need? → The full name, the IBAN and the BIC.
+@NUM
+What is the most common reason a payment is delayed?
+Why might a Friday payment not move until Monday?
+What is the spread, and what is it for?
+What is the fee for a transfer of 1,500?
+What should a customer bring if they want to trace a payment?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the FAQ. Find three indirect questions.
+@NUM
+Indirect question 1: ____
+Indirect question 2: ____
+Indirect question 3: ____
+@INSTR Now rewrite these direct questions as the FAQ would write them.
+@NUM
+How much is the fee? → ____
+Where is my money? → ____
+
+@TASK 5C | How a transfer moves
+@INSTR Read the short note. Which banks touch the money?
+@READ Three Banks, One Payment | About 120 words
+When money is sent from one country to another, it usually passes through three banks, not two. The sender’s bank takes the money and converts it. A correspondent bank in the middle moves it between the two countries, because the first and last banks may have no direct link. The beneficiary’s bank then credits the account. Each bank checks the payment against its own country’s rules, and each check takes a little time. This is why an international transfer takes a day, while a payment inside one country can be instant. It is also why a missing BIC is serious: without it, the middle bank does not know where to send the money next.
+@NUM
+How many banks usually touch an international payment?
+What does the correspondent bank do?
+Why is a missing BIC serious?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare transfers at your own bank.
+@GREEN Useful frame: | “At my bank, a transfer to ___ takes ___, and the fee is ___.”
+@BULLET
+Which country do your customers send money to most?
+What do customers find hardest to understand about the fee?
+@FIG u6-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the inquiry email
+@INSTR Complete the email with the words: confirm, whether, arrive, charged, reference.
+@BANK confirm | whether | arrive | charged | reference
+@NUM
+Dear Transfers Team, could you please ______________________ the status of the payment below?
+The ______________________ number is HB-4471-22.
+I would like to know ______________________ the BIC was included.
+The customer expected the money to ______________________ on Tuesday.
+Please also tell me what fee was ______________________.
+
+@TASK 6B | Transfer inquiry email (50–70 words)
+@INSTR Write a short internal email asking about a delayed transfer. Use two indirect questions.
+@MODEL
+Subject: Delayed transfer — reference HB-4471-22
+Dear Transfers Team, Could you tell me where payment HB-4471-22 is at the moment? It was sent on Friday the fourteenth and has not arrived. May I also ask whether the BIC was included when it left us? The customer is returning on Thursday. Kind regards, Luca Rossi
+@GREEN Plan: | Subject: ___ · Dear ___, · Could you tell me ___? · It was sent on ___. · May I also ask whether ___? · Kind regards, ___
+@PHRASES
+Could you tell me where…
+May I ask whether…
+It was sent on…
+the customer is returning on…
+@CHECK
+A clear subject line with the reference?
+Two indirect questions?
+The date the payment was sent?
+50–70 words?
+@WRITE
+
+@TASK 6C | Reply to a customer (50–70 words)
+@INSTR A customer asks why her transfer has not arrived. Write a short, honest reply.
+@MODEL
+Subject: Your transfer of 500
+Dear Mrs Oyelaran, Thank you for your patience. The payment left us on Friday and is currently held by the partner bank, because the BIC was missing. We have now supplied it, and the money should arrive within one working day. Could you let us know if it has not arrived by Thursday? Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · The payment ___. · We have now ___. · Could you let us know ___? · Kind regards, ___
+@CHECK
+A clear subject line?
+An honest explanation of the delay?
+One indirect question?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your email from 6B or 6C with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · two indirect questions? · the date given? · 50–70 words?
+@MODEL
+“Good polite questions and a clear reference. Next time, try to say what you will do next, not only what went wrong.”
+
+@PART Part 7 · Management File — Handling a Rate Query | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Explaining rates and fees — phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“The rate on the board is the rate you get.” :: removing a doubt
+“The difference is called the spread.” :: naming the charge
+“I can write both numbers down for you.” :: making it checkable
+“The rate moves during the day.” :: explaining why it changed
+
+@TASK 7B | Listening — coaching on a rate query
+@AUDIO 6.4
+@SCRIPT
+Kerem: You handled that well, but the customer left still unsure. May I ask what you told him?
+Zeynep: I said the rate had changed since the morning.
+Kerem: That is true, but it sounds like an excuse. Tell him what the rate is now, write both numbers down, and say that the board is updated when the market moves.
+Zeynep: So give him something he can check.
+Kerem: Exactly. A customer who can check a number does not need to trust you.
+@INSTR Answer the questions.
+@EX Example: 0. Who is giving the coaching? → Kerem.
+@NUM
+What did Zeynep tell the customer?
+Why does Kerem say that answer is not enough?
+What should Zeynep give the customer instead?
+
+@TASK 7C | Controlled practice — make the question polite
+@INSTR Rewrite each blunt question as an indirect question a colleague could use with a customer.
+@EX Example: 0. What do you want to send? → Could you tell me how much you would like to send?
+@NUM
+What is the beneficiary’s name?
+Where does the money go?
+Do you have the BIC?
+When do you need it there?
+Why are you sending this amount?
+@WRITE
+
+@TASK 7D | Role play — handle a rate complaint
+@INSTR A customer says the rate was better this morning. Handle the complaint professionally.
+@MODEL
+“You are right that it has moved. The rate on the board is the rate you get, and it is updated when the market moves. Let me write both numbers down so you can see today’s exactly.”
+@CARD Card A (staff):
+accept the fact · explain without excuses · give something checkable · offer a next step.
+@CARD Card B (customer):
+you were quoted a better rate at 9 a.m.; you feel the bank changed it on purpose.
+@STRETCH the customer asks you to give the morning rate — answer honestly and politely.
+
+@TASK 7E | Writing — a short reply about fees (50–70 words)
+@INSTR Write a short reply to a customer who says the fee was too high.
+@MODEL
+Dear Mr Tanaka, Thank you for writing. The fee on your transfer was twenty, because the amount was above one thousand; below that it is a flat twelve. The rate you received was the sell rate shown on the board at 14:20. I have attached both figures. Could you tell me whether you would like a copy by post? Kind regards, Zeynep Kaya
+@GREEN Plan: | Dear ___, Thank you for ___. · The fee was ___, because ___. · The rate you received was ___. · Could you tell me whether ___? · Kind regards, ___
+@PHRASES
+the fee was ___ because…
+the rate shown at…
+I have attached both figures
+could you tell me whether…
+@CHECK
+Does it give the exact figures?
+One indirect question?
+No excuses?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — How Money Crosses Borders | Practitioner track · read then discuss
+@INSTR Before you read: why does money sent abroad cost more and take longer than money sent at home?
+@READ The Cost of Sending Home | About 205 words · a made-up example based on real practice
+Every year, people working away from home send money back to their families. For many countries these payments, called remittances, are larger than all foreign aid together. The people who send them are usually not rich, and the amounts are small — often two or three hundred at a time. That is the problem. A fee of twelve is small on a transfer of five thousand. On a transfer of two hundred, it is six per cent of the money, and the spread on the exchange rate may cost as much again. An international body set a target: the average cost of sending money home should fall below three per cent. One bank tried to reach it. It could not cut the fee, because each payment is checked by three banks and each check costs money. Instead it changed the product. Customers who send money to the same person every month pay one fee for twelve payments, set up once. The checks are done at the start, not twelve times. The cost for those customers fell from six per cent to just under two. The bank did not make the transfer cheaper. It made it fewer transfers.
+@GLOSS
+remittance — money sent home by someone working abroad
+spread — the difference between the buy rate and the sell rate
+foreign aid — money given by one country to another
+standing transfer — the same payment, set up once and repeated
+
+@TASK 8A | Comprehension
+@EX Example: 0. What are remittances? → Money sent home by people working abroad.
+@NUM
+Why is a flat fee a bigger problem on a small transfer?
+What target did the international body set?
+Why could the bank not simply cut the fee?
+What did the bank change instead, and what was the result?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a lost card (extra)
+remittance :: the difference between the buy rate and the sell rate
+spread :: money sent home by someone working abroad
+foreign aid :: the same payment, set up once and repeated
+standing transfer :: money given by one country to another
+
+@TASK 8C | Discussion
+@GREEN Frames: | “In my country the cost of sending money is ___.” “This idea would help because ___.”
+@BULLET
+Do your customers send the same amount to the same person each month?
+What would make a standing transfer hard to sell?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Would a standing transfer help your customers? Why, or why not?
+@WRITE
+
+@PART Part 9 · Branch Case Study — Manila in Focus: Money from Abroad | Practitioner track · read then decide
+@INSTR Before you read: what should a branch do when a payment from abroad goes missing?
+@READ The Payment That Stopped | About 185 words
+It is the first week of the month at the Harbour Bank branch in Manila, and the counter is busy with people collecting money sent from abroad. Mrs Reyes has been waiting since the branch opened. Her son works overseas and sends two hundred on the same day every month. This month it has not arrived, and she needs it today to pay her rent. Priya Raman checks the system. The payment left her son’s bank eight days ago, but it is sitting at a correspondent bank, because the name on the transfer is “M. Reyes” and the account is held as “Maria Reyes Santos”. The correspondent bank will not release it until the names match. Fixing it will take two more days, and the request must come from the sending bank, not from Manila. Mrs Reyes is calm but close to tears. The branch has a small hardship fund for exactly this kind of case, but it needs the manager’s approval, and the manager is away until tomorrow.
+
+@TASK 9A | Comprehension
+@EX Example: 0. Where is the payment now? → At a correspondent bank.
+@NUM
+Why has the correspondent bank not released the money?
+Who has to ask for the payment to be fixed?
+Why can Priya not use the hardship fund straight away?
+
+@TASK 9B | Decision task
+@INSTR What should Priya do today? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Priya should call the sending bank herself, because only they can correct the name. She should also phone the manager for approval of the hardship fund by telephone. Also, she can give Mrs Reyes a written note of the reference number and the exact name to send her son.
+@GREEN Frame: | I think Priya should ___, because ___. Also, ___.
+@PHRASES
+contact the sending bank directly
+ask for approval by telephone
+give a written note of the reference
+explain exactly what the name must say
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use an indirect question or the correct word. Items 5–6 review Units 4 and 5.
+@EX Example: 0. What is the fee? → Could you tell me what the fee is?
+@NUM
+Where is the money now? → Could you tell me ______________________?
+Does he have the IBAN? → May I ask ______________________?
+The difference between the buy and sell rate is the ______________________. (word)
+A bank that passes money between two other banks is a ______________________. (word)
+The Fixed 12 pays the ______________________ (high) rate of the three. (Unit 4 grammar)
+A code ______________________ (send) to your phone every time. (Unit 5 grammar)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the parts of an international transfer.
+I can ask politely with indirect questions.
+I can explain a rate, a spread and a fee to a customer.
+I can understand a short transfer conversation.
+I can write a short inquiry about a delayed payment.
+
+@TASK 10C | Unit glossary
+@GLOSS
+exchange rate — what one currency is worth in another
+spread — the difference between the buy rate and the sell rate
+IBAN — the international number of a bank account
+BIC — the code that says which bank
+correspondent bank — a bank that passes money between two other banks
+remittance — money sent home by someone working abroad
+beneficiary — the person who receives the money
+commission — what the bank charges for the service
+working day — a day the banks are open
+indirect question — a polite question with the subject before the verb

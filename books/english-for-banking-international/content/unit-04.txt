@@ -1,0 +1,502 @@
+@UNIT 4 | Banking Products and Services
+@FIG u4-banner
+@INTRO In this unit you learn the names of the bank’s main products, how to compare them, how to recommend the right one to a customer, and how to write a short recommendation email. Grammar focus: comparatives and superlatives.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | What do customers need? (discussion)
+@INSTR In small groups, think of three different customers and what each one needs from a bank.
+@MODEL
+A student needs a simple account with no fees. A shop owner needs a business account and a small loan. A family saving for a house needs a savings account with a good rate.
+@BULLET
+Who are the three most common customers at your branch?
+What does each of them ask for first?
+
+@TASK W-B | Products and uses (quick match)
+@INSTR In pairs, say which product each person needs. One minute only.
+@BULLET
+Someone who is paid every month and pays bills: ____
+Someone who wants to keep money for three years: ____
+Someone who needs 5,000 to buy a van for work: ____
+@TIP Use the words account, card, loan and deposit in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the product to the definition
+@INSTR Match each product (1–8) to the correct definition (a–i). One definition is extra.
+@EX Example: 0. Overdraft → h)
+@MATCH i) a charge for sending money abroad (extra)
+Current account :: money you keep and do not spend every day
+Savings account :: an account for everyday payments and bills
+Fixed deposit :: money locked away for a fixed time at a fixed rate
+Debit card :: a card that spends your own money
+Credit card :: a card that spends the bank’s money, repaid later
+Personal loan :: money you borrow and repay in monthly amounts
+Mortgage :: a long loan to buy a property
+Overdraft :: permission to go below zero on a current account
+@PRON Pronunciation — word stress. Say these words: MORT·gage, O·ver·draft, de·PO·sit, in·TE·rest, in·STAL·ment.
+
+@TASK 1B | Sort the products
+@INSTR Put each product from 1A into the correct group.
+@BULLET
+For keeping money: ____
+For spending money: ____
+For borrowing money: ____
+@MODEL
+For keeping money: savings account, fixed deposit. For spending money: current account, debit card. For borrowing money: credit card, personal loan, mortgage, overdraft.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK interest | rate | fee | instalment | term | limit | apply | repay | balance
+@EX Example: 0. The bank pays interest on your savings.
+@NUM
+Our savings account pays a higher ______________________ than our current account.
+There is no monthly ______________________ on a student account.
+You repay a personal loan in equal monthly ______________________.
+A fixed deposit has a ______________________ of one, two or three years.
+Your credit card has a ______________________ of 2,000.
+You can ______________________ for a loan online or at the branch.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common banking phrase (one noun is extra).
+@MATCH f) a queue (extra)
+open :: a loan
+apply for :: an account
+pay :: interest
+earn :: a fee
+repay :: the instalments
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one banking product you use. Use at least five words from Part 1.
+@MODEL
+I have a current account for my salary and a savings account for my holiday. The savings account pays a better rate, but I cannot use the money every day. I do not pay a monthly fee, and my debit card is free.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u4-1
+
+@PART Part 2 · Grammar — Comparatives and Superlatives | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the comparatives and superlatives. Which compares two things, and which compares all of them?
+@SCRIPT
+Diego: The Step Saver pays a higher rate than the Everyday Saver.
+Customer: And which is the best for me?
+Diego: If you can wait a year, the Fixed 12 is the highest of the three. It is also the least flexible.
+Customer: So it is better for money I don’t need?
+Diego: Exactly. It is the safest choice for long-term saving.
+@NUM
+higher — comparative or superlative? ____
+the best — how many things is it comparing? ____
+less flexible / the least flexible — which compares two? ____
+@GF
+@GRAMMAR
+Form | Use | Example
+-er / more … than | comparing two things | This card is cheaper than that one.
+the -est / the most … | comparing three or more | This is the cheapest card we offer.
+less / the least | the opposite direction | the least flexible account
+@REMEMBER short words add -er / -est (high → higher → the highest). Long words take more / the most (flexible → more flexible → the most flexible).
+@WATCH
+✗ This account is more better. → ✓ This account is better.
+✗ It is the most cheap card. → ✓ It is the cheapest card.
+
+@TASK 2B | Controlled practice (comparative or superlative)
+@INSTR Write the correct form of the word in brackets.
+@EX Example: 0. The Fixed 12 pays a ____ (high) rate than the Step Saver. → higher.
+@NUM
+A credit card is ______________________ (expensive) than a debit card.
+This is the ______________________ (good) account for a student.
+A mortgage is ______________________ (long) than a personal loan.
+Our online application is the ______________________ (fast) way to apply.
+A fixed deposit is ______________________ (safe) than an investment.
+The Everyday Saver is the ______________________ (flexible) of the three.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. It is more cheaper. → It is cheaper.
+@NUM
+This card is more better than the old one.
+The Fixed 12 is the most high rate we offer.
+A loan is expensiver than an overdraft.
+This is the more flexible account of the three.
+A debit card is cheap than a credit card.
+@WRITE
+
+@TASK 2D | Compare two products
+@INSTR Write three sentences comparing two accounts your bank offers. Use one superlative.
+@MODEL
+The Step Saver pays a higher rate than the Everyday Saver. However, the Everyday Saver is more flexible, because you can withdraw any day. For long-term money, the Fixed 12 is the best of the three.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, compare three products and recommend one. Use at least two comparatives and one superlative.
+@MODEL
+“The Fixed 12 pays the highest rate, but the Everyday Saver is more flexible. For your situation, I think the Step Saver is better.”
+@TIP You will see these forms again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u4-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear customers choosing products. What questions do customers ask before they choose?
+@MODEL
+“I think they will ask about the rate, the fees, and how soon they can take the money out.”
+
+@TASK 3B | Choosing an account
+@AUDIO 4.1
+@SCRIPT
+Customer: I’d like to open a savings account, but I don’t know which one.
+Diego: Of course. How soon might you need the money?
+Customer: Maybe in a year. Maybe not.
+Diego: Then the Step Saver is probably better than the Fixed 12. It pays a little less, but you can take money out twice a year.
+Customer: That sounds safer for me.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer wants a savings account. → True.
+@NUM
+The Fixed 12 pays less than the Step Saver.
+The customer may need the money within a year.
+The customer already has an account at this bank.
+@USEFUL
+How soon might you need the money?
+It pays a little less, but…
+That sounds safer for me.
+
+@TASK 3C | A product recommendation
+@AUDIO 4.2
+@SCRIPT
+Customer: My shop is growing. I need to buy a van, about eight thousand.
+Priya: Then a business loan is better than an overdraft for that amount. An overdraft is more expensive over a long period.
+Customer: How long would I repay it?
+Priya: Up to five years. The longer the term, the smaller the monthly instalment — but the more interest you pay in total.
+Customer: I see. I’d like the shortest term I can manage.
+@INSTR Read and decide: True or False.
+@NUM
+An overdraft is cheaper than a loan over a long period.
+The customer wants to buy a vehicle for the business.
+A longer term means a smaller monthly payment.
+The customer prefers a long term.
+
+@TASK 3D | A family chooses a product (longer)
+@AUDIO 4.3
+@SCRIPT
+Priya: Good morning. How can I help you both today?
+Customer A: We are saving for a deposit on a flat. We have about six thousand, and we can add two hundred a month.
+Priya: That is a good start. How long do you think you will save?
+Customer B: Three years, maybe four.
+Priya: Then let me compare three accounts for you. The Everyday Saver is the most flexible, but it pays the lowest rate. The Step Saver pays more, and you may withdraw twice a year. The Fixed 12 pays the highest rate of the three, but the money is locked for a year at a time.
+Customer A: Could we use more than one?
+Priya: Yes, and that is often the best answer. Keep some money where you can reach it, and put the rest where it earns more.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customers are saving for a flat. → True.
+@NUM
+The Everyday Saver pays the highest rate.
+The customers can save two hundred a month.
+They decide today which account to open.
+
+@TASK 3E | Match the recommendation
+@INSTR Match each customer to the right product (one is extra).
+@MATCH f) a credit card with a high limit (extra)
+A customer who may need the money in a year :: a business loan over five years
+A shop owner buying a van :: the Fixed 12, locked for a year
+A family saving for three years :: a mix of two accounts
+Someone who will not touch the money :: the Step Saver
+Someone who needs money every day :: a current account
+@FIG u4-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — comparing and recommending
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Compare two products :: “Based on what you’ve told me, I’d suggest…”
+Recommend one :: “The Step Saver pays more than the Everyday Saver.”
+Ask about the customer’s need :: “How soon might you need the money?”
+Check the customer agrees :: “Does that sound right for you?”
+
+@TASK 4B | Recommend a product (pairwork)
+@INSTR Listen to the customer, compare two products, and recommend one. Then swap roles.
+@MODEL
+A: How soon might you need the money? — B: In about a year. — A: Then the Step Saver is better than the Fixed 12, because you can withdraw twice a year. It pays a little less, but it is more flexible.
+@CARD Card A (adviser):
+ask one question · compare two products · recommend one · check the customer agrees.
+@CARD Card B (customer):
+you have 3,000 to save; you may need it next summer; you do not like risk.
+
+@TASK 4C | Compare and decide
+@INSTR Your customer cannot choose between two cards. Compare them and help them decide.
+@MODEL
+“The debit card is cheaper, because there is no annual fee. The credit card costs more, but it is safer for buying online and in another country. For travelling, I think the credit card is better.”
+@STRETCH the customer says “Which would you choose?” — answer professionally.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A is an adviser; Student B is a customer. Ask and answer to find the best product.
+@CARD Card A (adviser):
+Everyday Saver 1%, withdraw any day · Step Saver 3%, two withdrawals a year · Fixed 12 5%, locked one year.
+@CARD Card B (customer):
+you have 10,000; you need 2,000 of it within three months; the rest can wait two years.
+@USEFUL
+How much would you like to save?
+How soon might you need it?
+Would you prefer a higher rate or more flexibility?
+
+@TASK 4E | Close the recommendation
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Shall I open that for you now?” :: moving to action
+“You can change this later if your plans change.” :: reassuring the customer
+“I’ll send you the details in writing.” :: confirming afterwards
+“Take your time and come back if you wish.” :: giving the customer space
+“Is there anything else I can explain?” :: checking understanding
+@INSTR In pairs, close a product conversation politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Our products, compared
+@INSTR Read the product page. Notice the comparatives and superlatives.
+@READ Harbour Bank — Savings Products Compared | About 200 words
+Harbour Bank offers three savings accounts, and the right one depends on when you need your money. The Everyday Saver is the most flexible of the three. You can withdraw any day, and there is no fee. However, it pays the lowest rate, because flexibility costs the bank money. The Step Saver pays more than the Everyday Saver, but you may make only two withdrawals a year. It suits customers who are saving for something a year or two away. The Fixed 12 pays the highest rate we offer. The money is locked for twelve months, and you cannot take it out early without losing the interest. It is the best choice for money you are sure you will not need. All three accounts are available in every country where we operate, and the rate is set locally, because interest rates are not the same everywhere. Many customers use more than one account: some money where they can reach it quickly, and the rest where it earns more. If you are not sure, start with the Everyday Saver. It is easier to move money later than to take it out early.
+@INSTR Answer the questions.
+@EX Example: 0. How many savings accounts does the bank offer? → Three.
+@NUM
+Which account is the most flexible, and why does it pay less?
+How many withdrawals a year does the Step Saver allow?
+What happens if you take money out of the Fixed 12 early?
+Why is the rate not the same in every country?
+What does the page suggest if a customer is not sure?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the product page. Find two comparatives and two superlatives.
+@NUM
+Comparatives: ____ , ____
+Superlatives: ____ , ____
+@INSTR Now complete these sentences about the accounts.
+@NUM
+The Fixed 12 pays a ______________________ (high) rate than the Step Saver.
+The Everyday Saver is the ______________________ (flexible) of the three.
+The Step Saver is ______________________ (good) than the Everyday Saver for two-year savings.
+
+@TASK 5C | Meet a customer
+@INSTR Read the short customer profile. Which account would you recommend?
+@READ Meet a Customer — Rafael Lima | About 120 words
+Rafael Lima runs a small printing shop in São Paulo. He has about nine thousand saved, and he adds three hundred most months. Next year he wants to buy a second printer, but he is not sure exactly when. He also keeps two thousand for emergencies, because a machine can break at any time. Rafael does not like risk. He says, “I would rather earn a little less and sleep well.” His bank has suggested one account for everything, but Rafael thinks that two accounts might suit him better: one he can reach quickly, and one that pays more.
+@NUM
+What does Rafael do, and where?
+Why does he keep two thousand separate?
+What does Rafael think would suit him better than one account?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare the products at your own bank.
+@GREEN Useful frame: | “At my bank, the ___ pays more than the ___, but it is less ___.”
+@BULLET
+Which product do customers ask about most?
+Which is the hardest to explain, and why?
+@FIG u4-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the recommendation
+@INSTR Complete the email with the words: suggest, flexible, rate, compared, suit.
+@BANK suggest | flexible | rate | compared | suit
+@NUM
+Dear Mr Okonkwo, thank you for your visit. I have ______________________ our three savings accounts for you.
+Based on what you told me, I would ______________________ the Step Saver.
+It pays a better ______________________ than the Everyday Saver.
+It is less ______________________, but you may still withdraw twice a year.
+I believe it would ______________________ your plans for next year.
+
+@TASK 6B | Product recommendation email (50–70 words)
+@INSTR Write a short email recommending one product to a customer. Use one comparative and one superlative.
+@MODEL
+Subject: Your savings — my recommendation
+Dear Mr Lima, Thank you for coming in. Based on your plans, I would suggest the Step Saver. It pays a higher rate than the Everyday Saver, and it still allows two withdrawals a year. The Fixed 12 pays the highest rate, but your money would be locked for twelve months. Kind regards, Diego Moreno
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · Based on ___, I would suggest ___. · It pays a ___ rate than ___. · Kind regards, ___
+@PHRASES
+Based on what you told me…
+I would suggest…
+It pays a higher rate than…
+the highest rate we offer
+@CHECK
+A clear subject line?
+One comparative and one superlative?
+A reason for the recommendation?
+50–70 words?
+@WRITE
+
+@TASK 6C | Compare-two-cards email (50–70 words)
+@INSTR A customer asks which card to take abroad. Write a short, clear reply.
+@MODEL
+Subject: Debit card or credit card abroad
+Dear Ms Fernandes, Thank you for your question. A debit card is cheaper, because there is no annual fee. However, a credit card is safer abroad, as it is easier to stop a payment if something goes wrong. For a two-week trip, I would suggest taking both and using the credit card for hotels. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · A ___ is ___ because ___. · However, a ___ is ___. · I would suggest ___. · Kind regards, ___
+@CHECK
+A clear subject line?
+Two products compared?
+A clear recommendation?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your email from 6B or 6C with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · one comparative? · a reason given? · 50–70 words?
+@MODEL
+“Clear comparison and a good reason. Next time, try to add one superlative so the customer can see the whole range.”
+
+@PART Part 7 · Management File — Briefing the Team on a New Product | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Briefing and target phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing a complaint (extra)
+“From Monday we are offering…” :: announcing something new
+“The main difference is…” :: naming what has changed
+“Our target is twenty a week.” :: setting a goal for the team
+“If a customer asks about fees, say…” :: giving staff the exact words
+
+@TASK 7B | Listening — briefing the team
+@AUDIO 4.4
+@SCRIPT
+Marta: Good morning, everyone. From Monday we are offering a new account, the Step Saver Plus.
+Ana: How is it different from the Step Saver?
+Marta: The main difference is the rate: it is half a point higher, but you may withdraw only once a year.
+Ana: And our target?
+Marta: Twenty new accounts a week across the branch. If a customer asks about fees, say there are none, but the withdrawal limit is strict.
+@INSTR Answer the questions.
+@EX Example: 0. When does the new account start? → On Monday.
+@NUM
+What is the main difference from the Step Saver?
+What is the team’s target?
+What should staff say if a customer asks about fees?
+
+@TASK 7C | Controlled practice — the product comparison
+@INSTR Complete the briefing note. Use the correct comparative or superlative.
+@BANK higher | strictest | better | the most | less
+@NUM
+The Step Saver Plus pays a ______________________ rate than the Step Saver.
+It is ______________________ flexible, because there is only one withdrawal a year.
+For long-term money it is ______________________ than the Everyday Saver.
+It has the ______________________ withdrawal rule of all our accounts.
+The Fixed 12 is still ______________________ generous account we offer.
+@WRITE
+
+@TASK 7D | Role play — brief your team
+@INSTR You are a branch manager. Brief your team on a new product in two minutes.
+@MODEL
+“From Monday we are offering the Step Saver Plus. The main difference is the rate — half a point higher — but only one withdrawal a year. Our target is twenty a week. If a customer asks about fees, say there are none.”
+@CARD Card A (manager):
+announce · name the main difference · give the target · give the exact words for one likely question.
+@CARD Card B (team member):
+ask two questions, one of them difficult.
+@STRETCH a team member says the target is too high — respond professionally.
+
+@TASK 7E | Writing — an internal product note (50–70 words)
+@INSTR Write a short internal note introducing a new product to the branch.
+@MODEL
+Subject: New account from Monday — Step Saver Plus
+From Monday we are offering the Step Saver Plus. It pays half a point more than the Step Saver, but customers may withdraw only once a year. It is the best choice for money that will not be touched. There are no fees. Our target is twenty new accounts a week. Marta Nowak
+@GREEN Plan: | Subject: ___ · From ___ we are offering ___. · It pays ___ than ___. · It is the best choice for ___. · Our target is ___.
+@PHRASES
+From Monday we are offering…
+the main difference is…
+it pays more than…
+our target is…
+@CHECK
+A clear subject line?
+One comparative and one superlative?
+The target named?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — Launching a Product Worldwide | Practitioner track · read then discuss
+@INSTR Before you read: why might the same product work in one country and fail in another?
+@READ One Account, Six Countries | About 200 words · a made-up example based on real practice
+An international bank designed a single savings account and launched it in six countries on the same day. The marketing was the same everywhere: a higher rate than the bank’s other accounts, in exchange for fewer withdrawals. In three countries it sold very well. In the other three it sold almost nothing, and the bank wanted to know why. The answer was not the product. It was the context. In the three successful countries, most customers were paid monthly into a bank account, and they were used to leaving money untouched. In the other three, many customers were paid in cash, or were paid weekly, and they needed to reach their money often. The rate was more attractive, but the rule was impossible. The bank made one change. It kept the same account, but it let each country set its own withdrawal rule: once a year in some markets, four times a year in others. Sales rose in all six countries. The lesson was simple: a product can travel, but the rules around it may have to change at the border.
+@GLOSS
+launch — to start selling a new product
+market — the customers in one country or area
+withdrawal rule — how often a customer may take money out
+context — the situation around the product
+
+@TASK 8A | Comprehension
+@EX Example: 0. In how many countries did the bank launch the account? → Six.
+@NUM
+What did the bank offer in exchange for fewer withdrawals?
+Why did the account fail in three countries?
+What one change did the bank make?
+What is the lesson of the case?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+launch :: the customers in one country or area
+market :: to start selling a new product
+withdrawal rule :: the situation around the product
+context :: how often a customer may take money out
+
+@TASK 8C | Discussion
+@GREEN Frames: | “In my country this would work because ___.” “It would be harder because ___.”
+@BULLET
+Are most customers in your country paid into an account, or in cash?
+Which rule would you change for your market?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Which rule should be set locally, and which should be the same everywhere? Why?
+@WRITE
+
+@PART Part 9 · Branch Case Study — São Paulo in Focus: A Loan for a Small Shop | Practitioner track · read then decide
+@INSTR Before you read: what does a bank need to know before it lends to a small shop?
+@READ The Second Printer | About 185 words
+Rafael Lima has banked with the Harbour Bank branch in São Paulo for six years. His printing shop is small but steady, and he has never missed a payment. Now he wants to borrow nine thousand to buy a second printer. He says the new machine will double what the shop can produce, and he already has two customers waiting. The loan officer, Beatriz Costa, looks at his account. The shop’s income is good in most months, but it falls sharply every January, when his business customers are closed. A five-year loan would give him the smallest monthly instalment, but he would pay the most interest in total. A three-year loan costs less overall, but the instalment is larger than his January income can carry. Rafael says he can manage, but Beatriz has seen careful business owners get into difficulty in a quiet month. She must decide what to offer, and how to explain it so that Rafael can make a good decision himself.
+
+@TASK 9A | Comprehension
+@EX Example: 0. How long has Rafael banked here? → Six years.
+@NUM
+What does Rafael want to buy, and why?
+What does Beatriz notice about the shop’s income?
+What is the problem with the three-year loan?
+
+@TASK 9B | Decision task
+@INSTR What should Beatriz offer Rafael? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Beatriz should offer a four-year loan with a smaller instalment in January, because the shop’s income falls in that month. She should explain that a longer term costs more interest in total. Also, she can suggest keeping two thousand in the Everyday Saver for quiet months.
+@GREEN Frame: | I think Beatriz should ___, because ___. Also, ___.
+@PHRASES
+offer a ___-year term
+a smaller instalment in ___
+explain that a longer term costs more in total
+keep a reserve for quiet months
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use a comparative, a superlative or the correct word. Items 5–6 review Units 2 and 3.
+@EX Example: 0. This card is ____ (cheap) than that one. → cheaper.
+@NUM
+The Fixed 12 pays the ______________________ (high) rate of the three.
+A mortgage is ______________________ (long) than a personal loan.
+Money you borrow and repay monthly is a ______________________. (word)
+The money in your account right now is your ______________________. (word)
+______________________ I see your ID, please? (Unit 2 modal)
+How ______________________ notes would you like? (Unit 3 quantifier)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the bank’s main products and say what each is for.
+I can compare two products with comparatives.
+I can recommend the best product with a superlative.
+I can understand a short product conversation.
+I can write a short recommendation email.
+
+@TASK 10C | Unit glossary
+@GLOSS
+current account — an account for everyday payments and bills
+savings account — an account for money you keep
+fixed deposit — money locked away for a fixed time at a fixed rate
+overdraft — permission to go below zero on a current account
+mortgage — a long loan to buy a property
+instalment — one of the equal monthly payments on a loan
+term — how long a loan or deposit lasts
+interest rate — what the bank pays you, or charges you, each year
+launch — to start selling a new product
+market — the customers in one country or area

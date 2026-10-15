@@ -101,10 +101,10 @@ could — more or less polite than can? ____
 may — formal or informal? ____
 @GF
 @GRAMMAR
-Modal | Use | Example |
-can | informal offer or request | Can I help you? |
-could | polite request | Could you sign here, please? |
-may | formal offer / permission | May I see your ID? |
+Modal | Use | Example
+can | informal offer or request | Can I help you?
+could | polite request | Could you sign here, please?
+may | formal offer / permission | May I see your ID?
 @REMEMBER could and may are more polite than can. Use them with customers.
 @WATCH
 ✗ Can I to help you? → ✓ Can I help you? (no ‘to’ after a modal)

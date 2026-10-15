@@ -106,6 +106,7 @@ do / help — routine or now? ____
 am learning — routine or now? ____
 @GF
 @GRAMMAR
+ | Form | Use | Example
 Present simple | I/you work; he works | routines, facts | I work at the bank every day.
 Present continuous | am/is/are + ‑ing | now, this week (temporary) | I am training this week.
 @REMEMBER usually, every day, always → present simple. now, this week, at the moment → present continuous.

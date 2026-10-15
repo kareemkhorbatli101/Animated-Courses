@@ -1,0 +1,509 @@
+@UNIT 5 | Digital and Online Banking
+@FIG u5-banner
+@INTRO In this unit you learn the language of online and mobile banking, how to explain the app to a customer, how to describe what the system does, and how to write a clear notice. Grammar focus: active and passive voice.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Digital banking (discussion)
+@INSTR In small groups, talk about how you use banking on a phone or computer.
+@MODEL
+I check my balance on the app every morning. I pay my bills online, but I still go to the branch for cash.
+@BULLET
+What do you do on the app, and what do you still do at the branch?
+What do your customers find hardest about the app?
+
+@TASK W-B | Quick survey
+@INSTR Ask three classmates and note their answers. Two minutes only.
+@BULLET
+Do you use the app every day, every week, or rarely?
+What is the one thing you wish the app could do?
+@TIP Use the words log in, password, code, app and transfer in your answers.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each digital banking word (1–8) to the correct meaning (a–i). One meaning is extra.
+@EX Example: 0. Username → h)
+@MATCH i) a paper record of a transaction (extra)
+Log in :: a short number sent to your phone for one use only
+Password :: the secret word you type to enter your account
+One-time code :: to enter your account with your details
+Two-factor authentication :: two different checks before you are let in
+App :: a program on a phone
+Online banking :: using your bank through a browser
+Notification :: a short message from the bank on your screen
+Freeze :: to stop a card being used, for a short time
+@PRON Pronunciation — word stress. Say these words: PASS·word, no·ti·fi·CA·tion, au·then·ti·CA·tion, SE·cu·ri·ty.
+
+@TASK 1B | Sort the words
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+Getting in: ____
+Staying safe: ____
+Using the service: ____
+@MODEL
+Getting in: log in, password, username. Staying safe: one-time code, two-factor authentication, freeze. Using the service: app, online banking, notification.
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK code | password | app | frozen | notification | transfer | screen | updated | login
+@EX Example: 0. Please download the app from the official store.
+@NUM
+A one-time ______________________ is sent to your phone each time you log in.
+Your card has been ______________________, so no payments can be made.
+The ______________________ was reset yesterday, so please use the new one.
+You will receive a ______________________ when the money arrives.
+The ______________________ has been ______________________, so some buttons have moved.
+Please confirm the ______________________ on the next screen.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common digital-banking phrase (one noun is extra).
+@MATCH f) a queue (extra)
+download :: your password
+reset :: the app
+enter :: a card
+freeze :: the code
+receive :: a notification
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about how a customer uses the app in one week. Use at least five words from Part 1.
+@MODEL
+On Monday she logs in with her password and a one-time code. On Wednesday she makes a transfer and receives a notification. On Friday she loses her card, so she freezes it in the app. She does not visit the branch at all.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u5-1
+
+@PART Part 2 · Grammar — Active and Passive Voice | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the passive verbs. Who or what does the action?
+@SCRIPT
+Customer: I didn’t get my code.
+Petra: Let me check. The code is sent to the number on your file.
+Customer: That number is old.
+Petra: Then it must be changed first. Your details are checked by the system, so the new number will be confirmed by a text tomorrow.
+@NUM
+is sent — active or passive? ____
+must be changed — who changes it? ____
+are checked by the system — why does the speaker say ‘by the system’? ____
+@GF
+@GRAMMAR
+Form | Use | Example
+am / is / are + past participle | the present passive, for systems and rules | A code is sent to your phone.
+was / were + past participle | the past passive, for what happened | The card was blocked last night.
+modal + be + past participle | the passive with can, must, will | The number must be changed first.
+@REMEMBER use the passive when the doer is obvious, unknown or not important. Add by + the doer only when it matters.
+@WATCH
+✗ The code is send to your phone. → ✓ The code is sent to your phone.
+✗ Your card was block. → ✓ Your card was blocked.
+
+@TASK 2B | Controlled practice (make it passive)
+@INSTR Rewrite each sentence in the passive. Leave out the doer where it is obvious.
+@EX Example: 0. We send a code to your phone. → A code is sent to your phone.
+@NUM
+We check every login.
+The system blocked the card.
+We will send a notification.
+Someone reset the password this morning.
+The bank must verify your identity.
+We update the app every month.
+We do not store your password.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. The code is send now. → The code is sent now.
+@NUM
+Your account was froze last night.
+The payment is process in two minutes.
+The app has update.
+Your details are check by the system.
+The card must be block immediately.
+@WRITE
+
+@TASK 2D | Active to passive
+@INSTR Rewrite these three notices in the passive, so they sound official.
+@EX Example: 0. We will close the app on Sunday. → The app will be closed on Sunday.
+@NUM
+We check all transfers over 1,000.
+We sent your new card yesterday.
+We do not accept payments after 23:00.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, explain to a customer what happens when they tap “Send”. Use at least three passive verbs.
+@MODEL
+“Your details are checked, a code is sent to your phone, and the payment is processed in a few seconds. You will be notified when it arrives.”
+@TIP You will see the passive again in the reading in Part 5 (5A and 5B). Look for it there.
+@FIG u5-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three app conversations. What goes wrong most often with online banking?
+@MODEL
+“I think customers forget their password, or the code does not arrive.”
+
+@TASK 3B | A login problem
+@AUDIO 5.1
+@SCRIPT
+Customer: I can’t log in. It says my password is wrong.
+Petra: I’m sorry about that. Has the password been changed recently?
+Customer: My daughter changed it for me last month.
+Petra: That explains it. Your account is not blocked — the old password is simply no longer accepted. A reset link can be sent to your email now.
+Customer: Please do that.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer cannot log in. → True.
+@NUM
+The customer’s account has been blocked.
+The password was changed last month.
+The customer’s email address is out of date.
+@USEFUL
+Has the password been changed recently?
+Your account is not blocked.
+A reset link can be sent to your email.
+
+@TASK 3C | A delayed transfer
+@AUDIO 5.2
+@SCRIPT
+Customer: I sent money to my brother yesterday and it hasn’t arrived.
+Mei: Let me look. The payment was sent at 18:40.
+Customer: So where is it?
+Mei: It was received by his bank this morning, and it is being checked now. Transfers over a certain amount are always checked.
+Customer: How long does that take?
+Mei: Usually a few hours. You will be notified as soon as it is released.
+@INSTR Read and decide: True or False.
+@NUM
+The payment left this customer’s account.
+The money has not reached the other bank.
+Large transfers are always checked.
+The customer must call again to find out.
+
+@TASK 3D | Learning the app (longer)
+@AUDIO 5.3
+@SCRIPT
+Mei: Good morning. I understand you would like some help with the app.
+Customer: Yes. My son set it up, but I don’t know what anything does.
+Mei: Of course. Let’s start at the first screen. Your balance is shown at the top. Below it, the last ten payments are listed, with the newest first.
+Customer: And this button?
+Mei: That is for transfers. When you tap it, you choose the person, you type the amount, and then a code is sent to your phone. The payment is not made until the code is entered.
+Customer: So nothing can be sent by accident?
+Mei: Exactly. And if you are ever worried, your card can be frozen from this screen, and unfrozen later. Nothing is lost.
+Customer: That is a relief. Thank you.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer’s son set up the app. → True.
+@NUM
+The balance is shown at the bottom of the screen.
+A payment is made before the code is entered.
+The customer has used the app before today.
+
+@TASK 3E | Match the passive phrase
+@INSTR Match each phrase from the listenings to what it means (one is extra).
+@MATCH f) “Your account has been closed.” (extra)
+“Your account is not blocked.” :: you can still use it
+“It is being checked now.” :: the work is happening at this moment
+“You will be notified.” :: we will tell you
+“Your card can be frozen.” :: you can stop it yourself
+“The old password is no longer accepted.” :: it does not work any more
+@FIG u5-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — explaining the app
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been declined.” (extra)
+Start an explanation :: “Let’s start at the first screen.”
+Describe what the system does :: “A code is sent to your phone.”
+Reassure :: “Nothing can be sent by accident.”
+Check understanding :: “Shall I show you that again?”
+
+@TASK 4B | Explain the app (pairwork)
+@INSTR Explain one app screen to a customer, step by step. Then swap roles.
+@MODEL
+A: Let’s start at the first screen. Your balance is shown at the top. — B: And this button? — A: That is for transfers. A code is sent to your phone before anything is paid.
+@CARD Card A (staff):
+start at the first screen · name two things · explain one action · check understanding.
+@CARD Card B (customer):
+you are nervous about the app; ask two questions; ask whether you can undo a mistake.
+
+@TASK 4C | Help a nervous customer
+@INSTR A customer is afraid of making a mistake online. Reassure them and explain the safety steps.
+@MODEL
+“Nothing is sent until the code is entered, so a payment cannot be made by accident. And if you are ever worried, your card can be frozen from this screen, and unfrozen later.”
+@STRETCH the customer says “I would rather come to the branch” — respond respectfully.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A works in digital support; Student B is a customer. Ask and answer to solve the problem.
+@CARD Card A (support):
+a reset link can be sent to email; codes go to the number on file; transfers over 1,000 are checked.
+@CARD Card B (customer):
+you cannot log in; your phone number changed last year; you sent 1,500 yesterday and it has not arrived.
+@USEFUL
+When was it changed?
+Has a code been sent to you?
+Would you like a reset link sent to your email?
+
+@TASK 4E | Close the explanation
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Shall I write the steps down for you?” :: giving the customer something to keep
+“You can always freeze the card yourself.” :: leaving the customer in control
+“If it happens again, call this number.” :: giving a clear next step
+“Would you like to try it once with me?” :: practising together
+“Is there anything else on the app?” :: checking there is nothing more
+@INSTR In pairs, close a digital-support conversation politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | The new Harbour app (a leaflet)
+@INSTR Read the leaflet. Notice the passive verbs.
+@READ Harbour Bank — Your Money, Everywhere | About 200 words
+The Harbour app has been rebuilt, and the new version is available in every country where we operate. Your balance is shown as soon as you log in, and your last ten payments are listed below it. Payments are made in three steps: the person is chosen, the amount is typed, and a code is sent to your phone. Nothing is paid until that code is entered, so money cannot be sent by accident. Your details are protected by two-factor authentication. This means two different checks are made before you are let in: something you know, which is your password, and something you have, which is your phone. Transfers to another country are now handled in the app as well. The rate is shown before you confirm, and the fee is shown next to it, so nothing is hidden. Payments are usually received within one working day, and you are notified when the money arrives. If your card is lost, it can be frozen from the main screen in one tap, and unfrozen later if you find it. No data is stored on your phone. If the phone is lost, your money is not at risk.
+@INSTR Answer the questions.
+@EX Example: 0. Where is the new version available? → In every country where the bank operates.
+@NUM
+What three steps are a payment made in?
+What are the two checks in two-factor authentication?
+What is shown before you confirm an international transfer?
+What can be done if a card is lost?
+Why is your money safe if the phone is lost?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the leaflet. Find three passive verbs.
+@NUM
+Passive verb 1: ____
+Passive verb 2: ____
+Passive verb 3: ____
+@INSTR Now rewrite these active sentences as the leaflet would write them.
+@NUM
+We show your balance at once. → ____
+We send a code to your phone. → ____
+We do not store any data on your phone. → ____
+
+@TASK 5C | Should you trust the advert?
+@INSTR Read the short note. What is the difference between a bank message and a scam message?
+@READ Two Messages, One Difference | About 120 words
+A customer received two messages on the same morning. The first said: “Your payment of 240 has been received. No action is needed.” The second said: “Your account has been blocked. Click here within one hour or it will be closed.” Both looked official. The first was from the bank. The second was not. A real message tells you what has happened. A false message tells you to act now, and gives you a link. The bank never asks for a password or a one-time code, and it never gives a deadline of one hour. If a message makes you feel in a hurry, that feeling is the warning.
+@NUM
+What did the first message say had happened?
+What two things made the second message false?
+What does a bank never ask for?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare the app at your own bank.
+@GREEN Useful frame: | “On our app, the ___ is shown before you ___, but the ___ is not.”
+@BULLET
+What do customers ask about most often?
+What would you change on the first screen?
+@FIG u5-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the notice
+@INSTR Complete the staff notice with the words: updated, shown, sent, entered, notified.
+@BANK updated | shown | sent | entered | notified
+@NUM
+The app will be ______________________ on Sunday night.
+From Monday, the balance is ______________________ at the top of the first screen.
+A one-time code is ______________________ to the customer’s phone for every payment.
+No payment is made until the code is ______________________.
+Customers will be ______________________ by a message in the app.
+
+@TASK 6B | Staff notice about a new online service (50–70 words)
+@INSTR Write a short internal notice about a change to the app. Use at least two passive verbs.
+@MODEL
+Subject: App update — Sunday night
+The Harbour app will be updated on Sunday night between 23:00 and 02:00. During this time, payments cannot be made and balances are not shown. From Monday, international transfers are handled in the app, and the rate and fee are shown before the customer confirms. Please tell customers who ask at the counter. Petra Horak
+@GREEN Plan: | Subject: ___ · The ___ will be ___ on ___. · During this time, ___. · From ___, ___ is ___. · Please ___.
+@PHRASES
+will be updated on…
+during this time…
+payments cannot be made
+please tell customers who ask
+@CHECK
+A clear subject line?
+Two passive verbs?
+The time of the change?
+50–70 words?
+@WRITE
+
+@TASK 6C | Security alert to a customer (50–70 words)
+@INSTR A customer has received a suspicious message. Write a short, calm reply.
+@MODEL
+Subject: The message you received
+Dear Mrs Oyelaran, Thank you for sending this to us. The message was not sent by the bank. Your account has not been blocked, and no action is needed. The bank never asks for a password or a one-time code, and never gives a deadline. Please delete the message and do not click the link. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · The message was not ___. · Your account has not been ___. · Please ___. · Kind regards, ___
+@CHECK
+A calm, clear tone?
+Two passive verbs?
+A clear instruction to the customer?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your notice or email with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · two passives? · clear instruction? · 50–70 words?
+@MODEL
+“Very calm and clear, and the passive sounds official. Next time, try to say what the customer should do first.”
+
+@PART Part 7 · Management File — Leading a Digital Change | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Change-management phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“I know this is a big change.” :: recognising how the team feels
+“Nothing will be lost.” :: reassuring about the risk
+“Training will be provided on Thursday.” :: saying what support is coming
+“Please tell me what is not working.” :: inviting feedback
+
+@TASK 7B | Listening — reassuring the team
+@AUDIO 5.4
+@SCRIPT
+Marta: I know this is a big change, and some of you are worried about the new screens.
+Tomasz: The old system was slow, but at least we knew it.
+Marta: That is fair. Nothing will be lost — every record has been copied, and the old screens can still be opened for a month.
+Tomasz: And if a customer asks something we can’t answer?
+Marta: Training will be provided on Thursday. Until then, write the question down and send it to me.
+@INSTR Answer the questions.
+@EX Example: 0. What is the team worried about? → The new screens.
+@NUM
+What has been done with every record?
+How long can the old screens still be opened?
+What should staff do with questions before Thursday?
+
+@TASK 7C | Controlled practice — rewrite the customer notice
+@INSTR Rewrite each blunt line so it sounds calm and official. Use the passive.
+@EX Example: 0. We are turning the app off on Sunday. → The app will be unavailable on Sunday.
+@NUM
+We changed your login screen.
+We blocked your card.
+We will send you a new card.
+We are checking your payment.
+We don’t keep your password.
+We will tell you when it arrives.
+@WRITE
+
+@TASK 7D | Role play — lead the change
+@INSTR You are a manager. Your team is anxious about a new system. Lead a short team meeting.
+@MODEL
+“I know this is a big change. Nothing will be lost — every record has been copied. Training will be provided on Thursday, and until then, please tell me what is not working.”
+@CARD Card A (manager):
+recognise the feeling · reassure about the risk · say what support is coming · invite feedback.
+@CARD Card B (team member):
+you are experienced and you preferred the old system; ask two hard questions.
+@STRETCH a team member says customers will leave — answer with evidence, not opinion.
+
+@TASK 7E | Writing — a staff notice about the app (50–70 words)
+@INSTR Write a short notice to your team about the new app, in a calm, official tone.
+@MODEL
+Subject: The new app — what changes on Monday
+From Monday the new app will be used in all branches. Every record has been copied, and nothing will be lost. The old screens can still be opened until the end of the month. Training will be provided on Thursday at 09:00. Until then, please send any customer question to me. Marta Nowak
+@GREEN Plan: | Subject: ___ · From ___ the ___ will be ___. · Every ___ has been ___. · Training will be ___. · Until then, please ___.
+@PHRASES
+will be used from…
+nothing will be lost
+training will be provided
+please send any question to…
+@CHECK
+A clear subject line?
+Two passive verbs?
+A date for the training?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — The App-Only Bank | Practitioner track · read then discuss
+@INSTR Before you read: could a bank work with no branches at all? Who would it not suit?
+@READ A Bank With No Door | About 205 words · a made-up example based on real practice
+An app-only bank was launched in four countries at once. It had no branches, no counters and no queues. Accounts were opened in eight minutes from a phone, and identity was confirmed by a short video instead of a visit. Costs were low, so the rates offered were better than those of older banks, and in the first year two million accounts were opened. Then the complaints began. They were not about the technology, which worked well. They were about the moments when something went wrong. A customer whose card was used by a thief wanted to speak to a person, and there was nobody to speak to. An older customer could not pass the video check, because the light in her flat was poor. A small business owner needed to pay in cash, and cash cannot be sent through an app. The bank made two changes. It opened a telephone line answered by people, not machines, twenty-four hours a day. And it agreed with a chain of shops that its customers could pay in cash there. It still has no branches. But it learned that a bank without a door still needs a way in.
+@GLOSS
+app-only bank — a bank with no branches
+identity check — proving who you are
+complaint — when a customer says something is wrong
+cash deposit point — a place where customers can pay in cash
+
+@TASK 8A | Comprehension
+@EX Example: 0. How many countries was the bank launched in? → Four.
+@NUM
+How was a customer’s identity confirmed?
+Why were the bank’s rates better than those of older banks?
+What were the complaints about, and what were they not about?
+What two changes did the bank make?
+What did the bank learn?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a monthly charge (extra)
+app-only bank :: proving who you are
+identity check :: a bank with no branches
+complaint :: a place where customers can pay in cash
+cash deposit point :: when a customer says something is wrong
+
+@TASK 8C | Discussion
+@GREEN Frames: | “This would suit customers in my country because ___.” “It would not suit ___ because ___.”
+@BULLET
+Which of your customers could not use an app-only bank?
+What is the one thing a branch does that an app cannot?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Which customers still need a branch, and why?
+@WRITE
+
+@PART Part 9 · Branch Case Study — Warsaw in Focus: Banking on a Weak Signal | Practitioner track · read then decide
+@INSTR Before you read: what happens to a digital service when the connection is poor?
+@READ When the Signal Drops | About 185 words
+The Harbour Bank branch in Warsaw serves a wide area, and many of its customers live in villages where the mobile signal is weak. The bank has asked every branch to move routine payments to the app, and in the city this is working well. In the villages it is not. A customer told Marta Nowak last week that her payment had been started but never finished, because the one-time code arrived forty minutes late. Another said that the app had worked at her daughter’s house in town but not at home. Three customers have now gone back to paying at the counter, and two have said they will move to another bank. Marta understands the policy: payments made in the app cost the bank far less than payments made at the counter. But she also knows that a service that fails on a weak signal is not a service. She has one morning with the regional team on Thursday, and she wants to go with a clear proposal.
+
+@TASK 9A | Comprehension
+@EX Example: 0. Where is the branch? → In Warsaw.
+@NUM
+Why is the policy not working in the villages?
+What happened to the first customer’s payment?
+Why does the bank want payments made in the app?
+
+@TASK 9B | Decision task
+@INSTR What should Marta propose on Thursday? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Marta should propose that codes can be sent by email as well as by text, because email arrives even on a weak signal. She should also ask that counter payments stay free for village customers. Also, she can show the regional team how many customers are affected.
+@GREEN Frame: | I think Marta should propose ___, because ___. Also, ___.
+@PHRASES
+send codes by email as well
+keep counter payments free for ___
+show how many customers are affected
+ask for the policy to be local, not national
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use the passive or the correct word. Items 5–6 review Units 3 and 4.
+@EX Example: 0. A code ____ (send) to your phone. → is sent.
+@NUM
+Your details ______________________ (check) by the system every time.
+The card ______________________ (block) last night after three wrong codes.
+Two different checks before you are let in is called ______________________. (word)
+A short number sent to your phone for one use is a ______________________. (word)
+How ______________________ notes would you like? (Unit 3 quantifier)
+The Fixed 12 pays the ______________________ (high) rate of the three. (Unit 4 grammar)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the main parts of online and mobile banking.
+I can describe what the system does, using the passive.
+I can explain an app screen to a nervous customer.
+I can understand a short digital-support conversation.
+I can write a clear notice about a change.
+
+@TASK 10C | Unit glossary
+@GLOSS
+log in — to enter your account with your details
+one-time code — a short number sent to your phone for one use only
+two-factor authentication — two different checks before you are let in
+notification — a short message from the bank on your screen
+freeze — to stop a card being used, for a short time
+reset — to set a password again from the beginning
+app-only bank — a bank with no branches
+identity check — proving who you are
+cash deposit point — a place where customers can pay in cash
+passive voice — saying what happens, without naming the doer

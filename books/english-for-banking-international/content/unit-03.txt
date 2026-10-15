@@ -90,10 +90,10 @@ many — countable or uncountable? ____
 a few / a little — which one goes with notes? ____
 @GF
 @GRAMMAR
-Quantifier | Use | Example |
-much | uncountable nouns, mostly in questions and negatives | How much cash do you need? |
-many | countable nouns | How many notes would you like? |
-a few / a little | a small amount: a few (countable), a little (uncountable) | a few coins; a little change |
+Quantifier | Use | Example
+much | uncountable nouns, mostly in questions and negatives | How much cash do you need?
+many | countable nouns | How many notes would you like?
+a few / a little | a small amount: a few (countable), a little (uncountable) | a few coins; a little change
 @REMEMBER cash, money, time and change are uncountable → much, a little. notes, coins, accounts and forms are countable → many, a few.
 @WATCH
 ✗ How many money do you need? → ✓ How much money do you need?
