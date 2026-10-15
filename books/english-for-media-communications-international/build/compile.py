@@ -69,7 +69,7 @@ def emit(doc, blocks, unit):
             doc.heading_label("Model — read this first:")
             doc.text_block(["Model decision: " + " ".join(body)])
         elif tag == "USE":
-            doc.bold_label("Useful language:", "  ·  ".join(body))
+            doc.shaded_label("Useful language:", "  ·  ".join(body))
         elif tag == "PHRASES":
             doc.bold_label("Useful phrases:", "  ·  ".join(body))
         elif tag == "PHRASEBANK":
@@ -105,9 +105,9 @@ def emit(doc, blocks, unit):
             doc.line("Before you listen: " + text if a and a[0] == "listen"
                      else "Before you read: " + text, after=40)
         elif tag == "WHILE":
-            doc.line("While you listen: " + text, after=40)
+            doc.rubric("While you listen: " + text)
         elif tag == "CARD":
-            doc.bold_label(a[0] + ":", text, after=20)
+            doc.shaded_label(a[0] + ":", text)
         elif tag == "CANDO":
             doc.heading_label("Can-Do checklist")
             for l in body:

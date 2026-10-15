@@ -97,7 +97,7 @@ Joseph used a small @@ for the interview.
 @TASK Part 2: Notice
 @TEXT
 There are two cameras in the Geneva office and only one in Nairobi. There are a few recorders, but there is not much storage space, so the team deletes old files every month. There has been a lot of interest in the winter campaign, and there have been many requests for photographs. Notice the difference: we use ‘there is’ and ‘there are’ for the present, and ‘there has been’ and ‘there have been’ when something started in the past and matters now. Notice too that ‘much’ goes with uncountable nouns and ‘many’ goes with countable ones.
-@LINE Look at the sentences again. Which nouns are countable? Which are uncountable?
+@RUBRIC Look at the sentences again. Which nouns are countable? Which are uncountable?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

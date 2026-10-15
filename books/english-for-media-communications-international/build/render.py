@@ -84,9 +84,10 @@ def para(runs, after=120, before=None, ind=None, right=None, jc=None, fill=None)
     return f"<w:p>{pp}{runs}</w:p>"
 
 
-def cell(paras, w):
+def cell(paras, w, fill=None):
     tc = (f'<w:tcPr><w:tcW w:w="{w}" w:type="dxa"/>'
-          '<w:tcMar><w:top w:w="40" w:type="dxa"/><w:left w:w="120" w:type="dxa"/>'
+          + (f'<w:shd w:fill="{fill}" w:val="clear"/>' if fill else "")
+          + '<w:tcMar><w:top w:w="40" w:type="dxa"/><w:left w:w="120" w:type="dxa"/>'
           '<w:bottom w:w="40" w:type="dxa"/><w:right w:w="120" w:type="dxa"/>'
           "</w:tcMar></w:tcPr>")
     return f"<w:tc>{tc}{''.join(paras)}</w:tc>"
@@ -175,8 +176,14 @@ class Doc:
     def bold_label(self, label, text, after=40):
         self.add(para(run(label + " ", bold=True) + run(text), after=after))
 
+    def shaded_label(self, label, text):
+        """Useful language and the role cards: a near-white strip, like a text block."""
+        self.add(para(run(label + " ", bold=True) + run(text),
+                      before=60, after=160, ind=140, right=140, fill=F_TEXT))
+
     def bullet(self, text):
-        self.add(para(run("•   ") + run(text), after=20, ind=260))
+        """The source's list bullet: a filled circle, indented one tab."""
+        self.add(para(run("\u25cf   ") + run(text), after=20, ind=720))
 
     def gap(self, n, before, after_text):
         """A numbered gap: '1. Always ask for ____' then the rest on a second line."""
@@ -225,12 +232,13 @@ class Doc:
 
     def grammar(self, rows):
         head, body = rows[0], rows[1:]
-        out = [[cell([para(run(h, bold=True, colour=INK), after=0)], GRID_G[i])
-                for i, h in enumerate(head)]]
+        out = [[cell([para(run(h, bold=True, colour=WHITE), after=0)], GRID_G[i],
+                     fill=BAR_TEAL) for i, h in enumerate(head)]]
         for r in body:
-            r = (list(r) + [""] * 4)[:4]
+            # the source's data rows carry three cells against a four-column header;
+            # the quirk is reproduced, not corrected
             out.append([cell([para(run(c, bold=(i == 0), colour=INK), after=0)], GRID_G[i])
-                        for i, c in enumerate(r)])
+                        for i, c in enumerate(r[:4])])
         self.add(table(out, GRID_G))
 
     # -- finish ----------------------------------------------------

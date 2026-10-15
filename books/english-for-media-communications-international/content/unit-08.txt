@@ -97,7 +97,7 @@ The @@ for interview recordings is three years.
 @TASK Part 2: Notice
 @TEXT
 Read the standards that Layla reads out to every new officer. ‘You must check every figure against the written report. You mustn’t publish a name that has not been consented to. You don’t have to send every post to the editor, but anything naming a person or a figure has to be signed off. You may keep a consent form for three years; after that it must be deleted.’ Afterwards, Joseph explained the rules to a colleague: ‘She said that we had to check every figure, and that we mustn’t publish an unconsented name.’ Notice how the modals change when a rule is reported.
-@LINE Look at the sentences again. Which rules are necessary? Which are forbidden? Which are a free choice?
+@RUBRIC Look at the sentences again. Which rules are necessary? Which are forbidden? Which are a free choice?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

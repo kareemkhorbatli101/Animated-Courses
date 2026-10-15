@@ -97,7 +97,7 @@ A donor’s @@ is useful, but it is not evidence.
 @TASK Part 2: Notice
 @TEXT
 Read Tomás’s note after the meeting. ‘Mrs Dela Cruz said that the market opened at five and that she had been going there for eleven years. She told me that she did not want her children mentioned. She asked whether the article would appear in English only, and she asked me to send her a copy. I said that I would call her when it was published.’ Notice what happens: the verbs step back one tense, ‘tomorrow’ becomes ‘the next day’, and a question becomes a statement with ‘whether’ or ‘if’.
-@LINE Look at the sentences again. What did each person actually say?
+@RUBRIC Look at the sentences again. What did each person actually say?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

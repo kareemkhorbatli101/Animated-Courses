@@ -97,7 +97,7 @@ In the north, @@ reaches more people than any website.
 @TASK Part 2: Notice
 @TEXT
 Radio is cheaper than a film and faster than a newsletter. SMS is the fastest channel the team has, and it is also the most accessible, because it works on the oldest phone. A newsletter is more detailed than a post, but it reaches far fewer people. Social media is not as reliable as people think: it is the largest channel, but engagement is lower than reach. Notice three forms here: short words add -er and -est, longer words take more and the most, and ‘as … as’ says that two things are equal.
-@LINE Look at the sentences again. Which words are comparatives? Which are superlatives?
+@RUBRIC Look at the sentences again. Which words are comparatives? Which are superlatives?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

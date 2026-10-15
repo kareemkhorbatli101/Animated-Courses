@@ -97,7 +97,7 @@ Joseph has an @@ with a community leader today.
 @TASK Part 2: Notice
 @TEXT
 Ingrid usually starts the day by reading the news from five countries. Tomás writes articles and often interviews people. Aisha takes photographs, and she always asks for consent first. These are the things that the team does every day. But today is different. Right now, the whole team is preparing the winter campaign. Nadia is writing posts, Aisha is choosing photographs, and Joseph is talking to families in Nairobi. Notice the difference: we use the present simple for routines and facts, and the present continuous for actions that are happening now.
-@LINE Look at the verbs in your teacher’s copy. Which verbs describe a routine? Which describe an action happening now?
+@RUBRIC Look at the verbs in your teacher’s copy. Which verbs describe a routine? Which describe an action happening now?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

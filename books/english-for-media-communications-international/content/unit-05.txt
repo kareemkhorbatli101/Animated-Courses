@@ -97,7 +97,7 @@ Our @@ asks us to write numbers under ten as words.
 @TASK Part 2: Notice
 @TEXT
 Read how a story is made. A draft is written by the officer who did the interview. It is then read by a colleague, and the figures are checked against the project report. While that is happening, the photographs are being edited and matched to their captions. By Thursday, every quote has been read back to the person who said it. The story will be published on Friday, but only after it has been approved by the editor. Notice that the doer is often missing: we say what is done, because who does it is either obvious or not the point.
-@LINE Look at the sentences again. Which are present, which are past, and which are future?
+@RUBRIC Look at the sentences again. Which are present, which are past, and which are future?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

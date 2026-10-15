@@ -97,7 +97,7 @@ The @@ is filed with the consent form.
 @TASK Part 2: Notice
 @TEXT
 Read what Tomás says to a new colleague. ‘Could you come with me this morning? You should listen more than you speak, and you shouldn’t write while somebody is talking. If the answer is short, you might ask a follow-up, but you must not suggest the answer yourself. She has not replied to my message, so she must be busy, or she might be travelling. She can’t have forgotten; she wrote to me yesterday.’ Notice three uses of modals here: could for a request, should for advice, and must, might and can’t for how sure we are.
-@LINE Look at the sentences again. Which modals make a request? Which give advice? Which show how sure the speaker is?
+@RUBRIC Look at the sentences again. Which modals make a request? Which give advice? Which show how sure the speaker is?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

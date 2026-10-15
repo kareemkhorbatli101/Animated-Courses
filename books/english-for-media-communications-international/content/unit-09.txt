@@ -97,7 +97,7 @@ Most of what is circulating is @@ rather than a deliberate lie.
 @TASK Part 2: Notice
 @TEXT
 Read Ingrid’s note from the morning of the crisis. ‘The crisis desk has been running since six. We have been answering calls all morning, and we have published three updates so far. The rumour started on Tuesday evening, and it was spreading quickly before anybody told us. I was checking the figure when the first journalist called, which is why the answer took so long.’ Notice the difference: ‘has been running’ and ‘have been answering’ are activities that are still going on; ‘started’ is finished; and ‘was checking’ and ‘was spreading’ are the background to something else.
-@LINE Look at the sentences again. Which activities are still going on? Which are the background to another event?
+@RUBRIC Look at the sentences again. Which activities are still going on? Which are the background to another event?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

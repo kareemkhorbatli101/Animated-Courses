@@ -97,7 +97,7 @@ If there is any danger, @@ the story.
 @TASK Part 2: Notice
 @TEXT
 Read the consent steps that Layla gives to every new officer in Amman. First, explain what the story is for. Then ask whether the person is happy to take part. Next, read the form aloud, because not everybody reads easily. After that, answer every question honestly. Finally, keep a copy for the person as well as for the file. If the person says no, thank them and leave. If a child is in the photograph, ask the guardian first. Notice two things: the instructions use the imperative, with no subject, and the sequencers — first, then, next, after that, finally — put the steps in order.
-@LINE Look at the steps again. Which words are imperatives? Which words put the steps in order?
+@RUBRIC Look at the steps again. Which words are imperatives? Which words put the steps in order?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

@@ -97,7 +97,7 @@ If the launch is delayed, our @@ is to move it to the following week.
 @TASK Part 2: Notice
 @TEXT
 Read what Ingrid says at the planning meeting. ‘We are going to launch the winter campaign on the first of March; that decision is made. We are meeting the donors on Tuesday — it is in the diary. The radio slot starts at six in the evening, because that is when the programme always begins. I will send you the one-page plan this afternoon; I have just decided that. And if the funding does not arrive by the twentieth, we will move the launch by a week.’ Notice four ways of talking about the future, and one conditional.
-@LINE Look at the sentences again. Which decisions were made before today? Which was made at that moment?
+@RUBRIC Look at the sentences again. Which decisions were made before today? Which was made at that moment?
 
 @TASK Part 2: Grammar Focus Box
 @GRAMMAR

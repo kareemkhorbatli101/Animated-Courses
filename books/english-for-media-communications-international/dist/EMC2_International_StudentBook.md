@@ -189,7 +189,7 @@ f) to send a message to someone
 ### Part 2: Notice
 > Ingrid usually starts the day by reading the news from five countries. Tomás writes articles and often interviews people. Aisha takes photographs, and she always asks for consent first. These are the things that the team does every day. But today is different. Right now, the whole team is preparing the winter campaign. Nadia is writing posts, Aisha is choosing photographs, and Joseph is talking to families in Nairobi. Notice the difference: we use the present simple for routines and facts, and the present continuous for actions that are happening now.
 
-Look at the verbs in your teacher’s copy. Which verbs describe a routine? Which describe an action happening now?
+**Look at the verbs in your teacher’s copy. Which verbs describe a routine? Which describe an action happening now?**
 
 
 ### Part 2: Grammar Focus Box
@@ -878,7 +878,7 @@ f) a question about the time
 ### Part 2: Notice
 > There are two cameras in the Geneva office and only one in Nairobi. There are a few recorders, but there is not much storage space, so the team deletes old files every month. There has been a lot of interest in the winter campaign, and there have been many requests for photographs. Notice the difference: we use ‘there is’ and ‘there are’ for the present, and ‘there has been’ and ‘there have been’ when something started in the past and matters now. Notice too that ‘much’ goes with uncountable nouns and ‘many’ goes with countable ones.
 
-Look at the sentences again. Which nouns are countable? Which are uncountable?
+**Look at the sentences again. Which nouns are countable? Which are uncountable?**
 
 
 ### Part 2: Grammar Focus Box
@@ -1569,7 +1569,7 @@ f) we will buy a new camera
 ### Part 2: Notice
 > Read the consent steps that Layla gives to every new officer in Amman. First, explain what the story is for. Then ask whether the person is happy to take part. Next, read the form aloud, because not everybody reads easily. After that, answer every question honestly. Finally, keep a copy for the person as well as for the file. If the person says no, thank them and leave. If a child is in the photograph, ask the guardian first. Notice two things: the instructions use the imperative, with no subject, and the sequencers — first, then, next, after that, finally — put the steps in order.
 
-Look at the steps again. Which words are imperatives? Which words put the steps in order?
+**Look at the steps again. Which words are imperatives? Which words put the steps in order?**
 
 
 ### Part 2: Grammar Focus Box
@@ -2260,7 +2260,7 @@ f) an imperative
 ### Part 2: Notice
 > Radio is cheaper than a film and faster than a newsletter. SMS is the fastest channel the team has, and it is also the most accessible, because it works on the oldest phone. A newsletter is more detailed than a post, but it reaches far fewer people. Social media is not as reliable as people think: it is the largest channel, but engagement is lower than reach. Notice three forms here: short words add -er and -est, longer words take more and the most, and ‘as … as’ says that two things are equal.
 
-Look at the sentences again. Which words are comparatives? Which are superlatives?
+**Look at the sentences again. Which words are comparatives? Which are superlatives?**
 
 
 ### Part 2: Grammar Focus Box
@@ -2951,7 +2951,7 @@ f) the imperative
 ### Part 2: Notice
 > Read how a story is made. A draft is written by the officer who did the interview. It is then read by a colleague, and the figures are checked against the project report. While that is happening, the photographs are being edited and matched to their captions. By Thursday, every quote has been read back to the person who said it. The story will be published on Friday, but only after it has been approved by the editor. Notice that the doer is often missing: we say what is done, because who does it is either obvious or not the point.
 
-Look at the sentences again. Which are present, which are past, and which are future?
+**Look at the sentences again. Which are present, which are past, and which are future?**
 
 
 ### Part 2: Grammar Focus Box
@@ -3645,7 +3645,7 @@ f) an instruction
 ### Part 2: Notice
 > Read what Tomás says to a new colleague. ‘Could you come with me this morning? You should listen more than you speak, and you shouldn’t write while somebody is talking. If the answer is short, you might ask a follow-up, but you must not suggest the answer yourself. She has not replied to my message, so she must be busy, or she might be travelling. She can’t have forgotten; she wrote to me yesterday.’ Notice three uses of modals here: could for a request, should for advice, and must, might and can’t for how sure we are.
 
-Look at the sentences again. Which modals make a request? Which give advice? Which show how sure the speaker is?
+**Look at the sentences again. Which modals make a request? Which give advice? Which show how sure the speaker is?**
 
 
 ### Part 2: Grammar Focus Box
@@ -4338,7 +4338,7 @@ f) the past simple
 ### Part 2: Notice
 > Read what Ingrid says at the planning meeting. ‘We are going to launch the winter campaign on the first of March; that decision is made. We are meeting the donors on Tuesday — it is in the diary. The radio slot starts at six in the evening, because that is when the programme always begins. I will send you the one-page plan this afternoon; I have just decided that. And if the funding does not arrive by the twentieth, we will move the launch by a week.’ Notice four ways of talking about the future, and one conditional.
 
-Look at the sentences again. Which decisions were made before today? Which was made at that moment?
+**Look at the sentences again. Which decisions were made before today? Which was made at that moment?**
 
 
 ### Part 2: Grammar Focus Box
@@ -5030,7 +5030,7 @@ f) it happened in the past
 ### Part 2: Notice
 > Read the standards that Layla reads out to every new officer. ‘You must check every figure against the written report. You mustn’t publish a name that has not been consented to. You don’t have to send every post to the editor, but anything naming a person or a figure has to be signed off. You may keep a consent form for three years; after that it must be deleted.’ Afterwards, Joseph explained the rules to a colleague: ‘She said that we had to check every figure, and that we mustn’t publish an unconsented name.’ Notice how the modals change when a rule is reported.
 
-Look at the sentences again. Which rules are necessary? Which are forbidden? Which are a free choice?
+**Look at the sentences again. Which rules are necessary? Which are forbidden? Which are a free choice?**
 
 
 ### Part 2: Grammar Focus Box
@@ -5722,7 +5722,7 @@ f) a rule or an obligation
 ### Part 2: Notice
 > Read Ingrid’s note from the morning of the crisis. ‘The crisis desk has been running since six. We have been answering calls all morning, and we have published three updates so far. The rumour started on Tuesday evening, and it was spreading quickly before anybody told us. I was checking the figure when the first journalist called, which is why the answer took so long.’ Notice the difference: ‘has been running’ and ‘have been answering’ are activities that are still going on; ‘started’ is finished; and ‘was checking’ and ‘was spreading’ are the background to something else.
 
-Look at the sentences again. Which activities are still going on? Which are the background to another event?
+**Look at the sentences again. Which activities are still going on? Which are the background to another event?**
 
 
 ### Part 2: Grammar Focus Box
@@ -6412,7 +6412,7 @@ f) She will be working there tomorrow.
 ### Part 2: Notice
 > Read Tomás’s note after the meeting. ‘Mrs Dela Cruz said that the market opened at five and that she had been going there for eleven years. She told me that she did not want her children mentioned. She asked whether the article would appear in English only, and she asked me to send her a copy. I said that I would call her when it was published.’ Notice what happens: the verbs step back one tense, ‘tomorrow’ becomes ‘the next day’, and a question becomes a statement with ‘whether’ or ‘if’.
 
-Look at the sentences again. What did each person actually say?
+**Look at the sentences again. What did each person actually say?**
 
 
 ### Part 2: Grammar Focus Box
