@@ -1,0 +1,344 @@
+@VOICES Klaus | Thomas | B | Lars
+@UNITHEAD Unit 2: Unit 2: Facilitating Meetings — Coordinating with Foreign Counterparts
+@PART Warm Up | Warm Up
+@EX W-A:  Pair Discussion – Behind a Successful Meeting
+@INSTR Talk with a partner about the following: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you think is the hardest part of coordinating a foreign delegation's visit to the ministry?
+What problems can poor meeting preparation cause for your country's diplomatic relationships?
+Complete this sentence with your partner: "A visiting delegation feels well-coordinated when they arrive and find ___." Then explain ONE thing on your list in 1–2 sentences. Why does this detail matter?
+@EX W-B:  Group Brainstorm – The Liaison Officer's Work
+@INSTR In small groups, categorize the liaison officer's tasks below, then discuss your answers. Sort each task into Before, During, or After the bilateral meeting. Share your answers with the class. (Aim for 3–4 sentences when you share.) // Tasks to categorize: // • Confirm date, time, and venue with both sides // • Prepare and circulate the agenda to both sides // • Monitor the agenda to keep discussions on track // • Arrange security clearances for all foreign participants // • Prepare a protocol brief for the delegation lead // • Coordinate with interpreters during the session // • Write the post-meeting summary within 24 hours // • Confirm room setup — seating, AV, and translation booths // • Follow up on action items agreed in the meeting // • Take careful notes for the official record
+@BULLET
+What must a liaison officer do before the meeting?
+What must the liaison officer manage during the meeting?
+What does the liaison officer do after the meeting?
+@EX W-C:  Grammar Review – Present Simple and Present Continuous
+@INSTR Quick grammar review from Unit 1. Complete each sentence with the correct verb form — Present Simple or Present Continuous.
+@LINE 120
+1. Youssef ____________________ (work) in the Economic Affairs Office at the Ministry of Foreign Affairs.
+2. Salma ____________________ (coordinate) the German delegation's visit this week.
+3. The ministry ____________________ (receive) foreign delegations every working day.
+4. The protocol team ____________________ (prepare) the conference room for tomorrow's bilateral session right now.
+5. Ministry staff ____________________ (represent) Morocco in all official interactions with foreign visitors.
+
+@PART 1 | Part 1
+@EX 1A:  Match and Guess
+@INSTR Match each term (1–7) with its correct definition (A–G).
+@COLHEAD Column A
+@MATCH
+1. | Agenda |
+2. | Communiqué |
+3. | Memorandum of Understanding |
+4. | Working Group |
+5. | Protocol Brief |
+6. | Aide-Mémoire |
+7. | Delegation Lead |
+@COLHEAD Column B
+@MATCH
+a) | A structured list of topics to be discussed at a meeting, distributed in advance to all participants
+b) | A short diplomatic note summarizing a verbal communication or conversation for the record
+c) | A committee of specialists from two or more institutions meeting to address a specific area of cooperation
+d) | An official joint statement issued by two or more parties after a meeting or diplomatic event
+e) | The most senior official leading a visiting delegation to a meeting or event
+f) | A background document prepared for senior officials before a meeting, covering participants, agenda, and key issues
+g) | A formal agreement between two parties outlining the terms of their intended cooperation
+@EX 1B:  Scenario Cards – Liaison Officer in Action
+@INSTR Each student receives one scenario card below. As the liaison officer, explain clearly what you are arranging. Your partner asks follow-up questions. Swap cards after each scenario. (Each explanation: 3–4 sentences.) // Useful Language: // • "I am arranging ___ for the ___ session on ___." // • "I have confirmed that ___." // • "I have requested ___ for ___ participants." // • "I have also arranged ___ as ___." // • "The session will begin at ___ in ___."
+@LINE
+1. Card 1:
+You are arranging a meeting room and AV equipment for a Morocco–Japan bilateral working session (12 participants total; 3 require Japanese interpretation; PowerPoint presentation expected from the Japanese side).
+2. Card 2:
+You need to arrange dietary requirements for a six-person Gulf Arab ministerial delegation arriving for a full-day session. The meeting includes a working lunch.
+3. Card 3:
+You are preparing the visit schedule for a one-day visit by a three-person Swedish environmental NGO team coming to discuss the National Coastal Restoration Program.
+@EX 1C:  Group Discussion – What Must a Protocol Brief Include?
+@INSTR In small groups, discuss the following questions about coordination documents and procedures. Share your conclusions with the class. (Aim for 3–4 sentences per answer.)
+@BULLET
+What must a protocol brief include to be genuinely useful for a delegation lead?
+When should the agenda be sent to the visiting delegation, and what problems arise if it is sent too late?
+What problems can arise from last-minute coordination failures, and how should a liaison officer respond professionally?
+@EX 1D:  Vocabulary Practice: Using the Words in Sentences
+@INSTR Complete each sentence with the correct word or phrase from the list below.
+@WORDBANK
+@BANK
+agenda | memorandum of understanding | protocol
+delegation | communiqué |
+@GAP
+1. The liaison officer circulated the meeting ____________________ to all participants two days before the session.
+2. The two foreign ministers signed a ____________________ on educational cooperation during the official ceremony.
+3. The ____________________ brief included the full names, titles, and nationalities of everyone attending the bilateral working group.
+4. The German ____________________ was led by the Deputy Foreign Minister and included three technical specialists.
+5. A joint ____________________ was issued after the summit, outlining the agreed priorities in infrastructure and energy cooperation.
+
+@PART 2 | Part 2
+@EX 2A:  Noticing Grammar
+@INSTR Read this internal coordination email from Salma Benali, Protocol Officer, to her team ahead of the Morocco–Germany bilateral meeting. Pay attention to the modal verbs in bold.
+@SUBBAR Dialogue
+@SPEECH
+Email from Salma Benali: Team, please note the following for Tuesday's session. All participants *must* present their ministry ID at the entrance — security clearance is required for all foreign nationals. The German delegation *may* use the executive lounge for a pre-meeting briefing. You *should* send the updated agenda to Ms. Braun's office by four o'clock today — not later. If there is a translation issue during the session, you *can* contact the Language Services Unit directly using the internal extension. We *need to* finalize catering arrangements today. The director *shall* open the session with a formal welcome — his speaking notes are attached.
+@EX 2B:  Grammar Focus Box
+@INSTR Complete the table below using the choices provided. Write the correct ministry example for each modal verb.
+@GRID
+Modal Verb | Main Meaning | Ministry Example
+must | Strong obligation / requirement |
+should | Advice / recommendation |
+may | Formal permission | Delegations may use the executive lounge before the session begins.
+can | Ability / possibility |
+need to | Necessity | We need to confirm the room booking at least 48 hours in advance.
+shall | Formal institutional commitment / fixed arrangement |
+@CHOICES
+a)  The liaison officer should send the protocol brief 24 hours before the meeting.
+b)  You can contact the Language Services Unit for interpretation support during the meeting.
+c)  All visitors must show their identification at the security desk.
+d)  The Director General shall chair the opening session of the bilateral forum.
+@EX 2C:  Guided Practice
+@INSTR Complete each sentence with the correct modal verb from the choices given.
+@LINE 120
+1. All foreign participants ____________________ (must) obtain security clearance before entering the ministry building for the bilateral session.
+2. The liaison officer ____________________ (should) circulate the final agenda to both sides at least 48 hours before the meeting — this is professional best practice.
+3. The visiting delegation ____________________ (may) use the side entrance if the main entrance is being prepared for another ceremony.
+4. If a participant needs interpretation, they ____________________ (can) request it directly from the Language Services Unit during the session.
+5. We ____________________ (need to) finalize the seating arrangement today — the visiting delegation has specific protocol requirements regarding seniority.
+6. The joint communiqué ____________________ (shall) be signed by both delegation leads at the conclusion of the working group session.
+@EX 2D:  Error Correction
+@INSTR Find and correct the modal verb error in each sentence:
+@LINE 60
+1. All participants musts present a valid government ID at the entrance.
+@RULE
+@LINE 60
+2. The delegation lead should receives the protocol brief by this afternoon.
+@RULE
+@LINE 60
+3. You can to contact the interpretation unit if you need assistance during the meeting.
+@RULE
+@LINE 60
+4. The minister shall opens the bilateral session with a formal statement at ten o'clock.
+@RULE
+@EX 2E:  Speaking Practice
+@INSTR In pairs, use the correct modal verbs to complete these ministry speaking tasks. (Aim for 3–4 sentences per answer.)
+@BULLET
+Explain three security rules for foreign visitors at the ministry using must, must not, and may.
+Give three pieces of professional advice to a colleague who is coordinating their first bilateral meeting, using should and need to.
+What can and cannot a liaison officer decide alone, without authorization from a senior official? Use can and cannot.
+
+@PART 3 | Part 3
+@EX 3A:  Before You Listen: Predict and Discuss
+@INSTR Look at these four coordination situations that arise before a bilateral meeting. In pairs, predict what language and modal verbs you expect to hear, and how the liaison officer should respond professionally. (Aim for 2–3 sentences per scenario.)
+@BULLET
+Scenario 1: A scheduling conflict — the foreign delegation's flight has been delayed by two hours. The meeting was scheduled for 10 a.m. What does the liaison officer need to do, and what language will they use?
+Scenario 2: A room change — the booked conference room has a technical failure. The IT team cannot fix it before the meeting. The only available room is smaller. What must the liaison officer communicate, and how?
+Scenario 3: A translation request — the delegation lead calls to say that two additional participants speaking only German will join unexpectedly. What should the officer arrange, and what can they promise?
+Scenario 4: A security clearance issue — the delegation's logistics officer informs the ministry that one participant's clearance was not processed in time. The meeting is tomorrow morning. What are the officer's options?
+@EX 3B:  Listening: Four Coordination Calls
+@AUDIO 🔊 Audio Track 2.14
+@INSTR Listen to four short phone calls between Salma Benali at the Moroccan Ministry of Foreign Affairs and coordination contacts at the German Embassy. For each call, answer the questions that follow.
+@PLAYNOTE 🔊 Click to play each dialogue (requires VBA macro – see instructions)
+@DBAR Dialogue 1 — Room Change
+@SPEECH
+Salma: Good morning, this is Salma Benali calling from the Moroccan Ministry of Foreign Affairs. I am calling about tomorrow's bilateral infrastructure meeting. We have a scheduling issue — the conference room originally booked is unavailable due to an urgent ministerial meeting. The meeting will now take place in Conference Room C on the third floor instead.
+Klaus: Thank you for letting us know, Ms. Benali. Will the seating arrangement still accommodate twelve participants?
+Salma: Yes, absolutely. We will have twelve seats ready. I will send you an updated logistics note by midday today.
+@DBAR Dialogue 2 — Flight Delay
+@SPEECH
+Thomas: Ms. Benali, this is Thomas Richter from the German Embassy. Dr. Braun's flight has been delayed. She will now arrive at two in the afternoon instead of eleven. Can the meeting be moved to three o'clock?
+Salma: Thank you for informing us promptly. I will check with the Director immediately. Can you hold for two minutes?
+Thomas: Of course.
+Salma: Mr. Richter, I can confirm. The bilateral session will begin at three o'clock. We will send a revised logistics note within the hour.
+@DBAR Dialogue 3 — Translation Request
+@SPEECH
+Thomas: Ms. Benali, two of our technical specialists speak primarily German. They need German interpretation for the afternoon session. Can you arrange that?
+Salma: Absolutely. We should be able to arrange German interpretation through our Language Services Unit. I need to confirm availability — may I call you back within the hour?
+Thomas: Of course. We would appreciate it.
+Salma: Note that interpretation must be requested at least four hours before the session. I will send written confirmation before noon.
+@DBAR Dialogue 4 — Security Clearance
+@SPEECH
+Salma: Mr. Richter, our Security Office has informed us that Dr. Hoffman has not yet completed the clearance process. All foreign nationals must submit the clearance form 48 hours before entry. Can Dr. Hoffman submit the form today by two o'clock?
+Thomas: I will check immediately. If he cannot, can he join by video link?
+Salma: That is a possible option. I will confirm this with our IT team and let you know within thirty minutes.
+@SP 200
+@PLAIN
+1. What is the problem in each dialogue and what is agreed or proposed?
+2. How does Salma use modal verbs in each call to communicate what is required, possible, or recommended?
+3. What does Salma's handling of these calls tell us about the professional qualities of an effective liaison officer?
+Thinking Guide: Salma does not wait for problems to get worse — she communicates them ___. She always offers a ___ alongside the problem. She is also careful about what she ___ now versus what she needs to ___. She manages ___ by setting clear deadlines. (Think about: proactively / solution / can confirm / verify / timelines)
+@EX 3C:  Choose the Correct Response
+@INSTR Listen to each coordination request and choose the correct professional ministry response:
+@MCQ
+🔊 1.  We have two additional participants joining the delegation. Can the room accommodate fourteen instead of twelve?
+a)  That is too many. You should have told us earlier.
+b)  I will check the room capacity immediately and confirm within the hour. If needed, we can consider an alternative room setup.
+🔊 2.  Our delegation lead needs the agenda in German, not just English. Is that possible?
+a)  The agenda is already in English. We cannot change it now.
+b)  Of course. I will coordinate with our translation team and send you the German version by tomorrow morning — the meeting is in three days, so this is very manageable.
+🔊 3.  We need to confirm: does our delegation lead need to bring the signed authorization letter to the meeting tomorrow?
+a)  Yes, all delegation leads must bring their signed authorization letter — this is required for the official record. I will include a reminder in the logistics note I send you today.
+b)  No, you do not need to bring anything official. Just come and we will handle it.
+🔊 4.  I am calling to confirm the time and location of tomorrow's working group. Can you please verify?
+a)  Yes it is tomorrow. I believe it is in the morning.
+b)  Certainly. The Morocco–Germany Infrastructure Working Group is confirmed for tomorrow, Tuesday the fourteenth, at ten o'clock in Conference Room B on the second floor of the main ministry building. I will send you the final logistics note by end of today.
+@EX 3D:  Useful Phrases Box
+@INSTR Listen to and write down five professional phrases used in meeting coordination calls. Then practice saying them aloud with a partner, focusing on a clear, confident tone.
+@NRULE 5
+
+@PART 4 | Part 4
+@EX 4A:  Role-Play: Coordination Call
+@INSTR Work in pairs. Student A is the ministry liaison officer (Salma Benali). Student B is the foreign delegation logistics officer. Use the situation cards below. Agree on: (1) time of meeting, (2) conference room, (3) number of participants, (4) interpretation needs. Use modal verbs in your conversation. (Each turn: 2–3 sentences per speaker.) // Card A (Liaison Officer): // You need to coordinate: Tuesday 10 a.m., Conference Room B (12 seats), interpretation available for French–English only, security clearance required by Monday 4 p.m. for all participants. // Card B (Foreign Delegation Logistics Officer): // Your delegation: 8 participants from the German side. Two members speak only German — they need German interpretation. You want to confirm room capacity and whether you can arrive early at 9:30 for a pre-meeting briefing. // Useful Language: // • "The session is scheduled for ___ o'clock in Conference Room ___." // • "All foreign participants must submit their security clearance forms by ___." // • "I should be able to arrange ___ — I need to confirm availability." // • "May we arrive at ___ for a pre-meeting briefing?" // • "I will include this in the logistics note I send you today."
+@EX 4B:  Role-Play: Opening the Bilateral Meeting
+@INSTR Practice opening a bilateral meeting formally. Use the three opening variants below. One student plays the host delegation lead; the other plays the visiting delegation lead. After each opening, the visiting delegation lead responds formally. (Each response: 2–3 sentences.) // Meeting Opening Language Bank: // • "On behalf of the Ministry of Foreign Affairs, I welcome ___ to today's ___." // • "It is my privilege to open today's bilateral session." // • "We value deeply our relationship with ___ and look forward to ___." // • "I propose we proceed according to the agreed agenda." // • "I suggest we begin with a brief round of introductions." // Variant 1 — Bilateral Working Group (technical, professional): // "Ladies and gentlemen, on behalf of the Moroccan Ministry of Foreign Affairs, I welcome the German delegation to today's Morocco–Germany Infrastructure Cooperation Working Group. We are pleased to welcome Dr. Braun and her colleagues. I propose we proceed according to the agreed agenda, beginning with a review of the joint infrastructure assessment." // Variant 2 — High-Level Bilateral Meeting (formal, senior officials): // "Your Excellency, distinguished colleagues — on behalf of the Kingdom of Morocco, it is my privilege to open today's bilateral session. We value deeply our relationship with [partner country] and look forward to a productive exchange. I propose we begin." // Variant 3 — Working Lunch / Informal Coordination Session: // "Thank you all for joining us today. We have a full agenda but an informal format — this session is an opportunity to speak frankly and move our cooperation forward. I suggest we begin with a brief round of introductions before we turn to the agenda items."
+@EX 4C:  Group Discussion: Managing a Meeting Professionally
+@INSTR Discuss the following questions in a small group based on the role-plays in exercises 4A and 4B. (Aim for 3–4 sentences per answer.)
+@BULLET
+What makes a meeting feel professionally managed from the perspective of a visiting delegation?
+What are three things a liaison officer must never forget on the day of a bilateral meeting?
+How do you politely and professionally manage a meeting that is running significantly over time?
+
+@PART 5 | Part 5
+@EX 5A:  Read: The Morocco–Germany Infrastructure Working Group Session
+@INSTR Read the account of a bilateral working group session at the Moroccan Ministry of Foreign Affairs. Pay attention to the preparation steps, the meeting structure, and the outcomes.
+@PANEL
+The Morocco–Germany Infrastructure Modernization Working Group held its inaugural session at the Moroccan Ministry of Foreign Affairs in Rabat on a Tuesday morning in March 2025. The session had been in preparation for six weeks. Salma Benali, the ministry's Protocol and Liaison Officer, coordinated all logistical arrangements with Thomas Richter, the German Embassy's logistics officer, through a series of phone calls and formal emails. The agenda was circulated to both sides five days before the session.
+The German delegation, led by Dr. Anna Braun, Deputy Director of the German Development Agency, arrived at the ministry's executive entrance at nine-thirty for a pre-meeting briefing in the protocol lounge. The host delegation was led by Youssef El Amrani, Economic Affairs Specialist, who had prepared a detailed protocol brief for the minister's office covering the German team's key positions and the three main areas of discussion: rail network modernization in priority regions, water infrastructure grants, and the establishment of a joint technical monitoring committee.
+The session opened formally at ten o'clock with a statement by Youssef El Amrani on behalf of the ministry, followed by a response from Dr. Braun. The morning was dedicated to rail network modernization, with technical presentations from both sides. After a working lunch at twelve-thirty, the afternoon session addressed water infrastructure. At four o'clock, the two delegation leads signed an aide-mémoire recording the agreed framework for the joint technical committee. A brief press statement was issued jointly, and both sides expressed commitment to a second working group session within three months.
+Salma Benali distributed the post-meeting summary to all participants within 24 hours, as required by ministry protocol. She noted in her internal report that the most critical coordination decisions had been the switch of conference rooms two days before the session and the last-minute arrangement of German interpretation for two technical specialists — both resolved without the visiting delegation experiencing any disruption.
+@LINE
+1. How long was the session in preparation, and who coordinated the logistics?
+2. What were the three main agenda topics discussed?
+3. What formal document was signed at the end of the session and by whom?
+4. What were the two coordination challenges Salma noted in her internal report?
+@EX 5B:  Reading Comprehension: Discussion Questions
+@INSTR In pairs or small groups, discuss the questions below about the working group session. (Aim for 3–4 sentences per answer.)
+@BULLET
+What made this working group session successful, and which factor do you think was most important?
+What was Salma Benali's specific contribution to the session's success? What qualities did her role require?
+What would you have done differently in the coordination of this session?
+@PBULLET
+Thinking Guide: One thing I would do differently is confirm ___ requirements in the first coordination call. I would also build a ___ buffer into the schedule to allow for overruns. Another improvement is to prepare a ___ plan for the room from week one — not wait for the problem to arise. (Think about: interpretation / one-hour / contingency)
+@BULLET
+What does this working group session signal about the ministry's capacity to manage serious bilateral partnerships?
+@PBULLET
+Thinking Guide: This session signals that the Foreign Ministry has ___ professionals who can manage high-level sessions. The country is engaging ___ on major infrastructure priorities, not just exchanging ___. The session produced a ___ document with a timeline, which signals institutional ___. (Think about: trained / substantively / declarations / signed / follow-through)
+@EX 5C:  Language in Context: Modal Verbs in Coordination Procedures
+@INSTR The sentences below describe coordination procedures from the bilateral working group session you read about in exercises 5A and 5B. Complete each sentence with the correct modal verb. Think about whether each situation requires a firm obligation (must), an institutional commitment (shall), a recommendation (should), or a permission (may). You will use these same modal verbs in your coordination emails in Part 6.
+@ITEMNO 1
+@GAP
+1. The agenda ____________________ be circulated to both delegations at least five days before the session — this is standard ministry protocol.
+@WORDLIST Word list:  a)  shall          b)  may          c)  could          d)  might
+@ITEMNO 2
+@GAP
+2. If the conference room changes, the liaison officer ____________________ notify the visiting delegation immediately — this cannot wait.
+@WORDLIST Word list:  a)  must          b)  should          c)  may          d)  shall
+@ITEMNO 3
+@GAP
+3. Interpretation arrangements ____________________ be confirmed at least one week in advance to avoid last-minute complications.
+@WORDLIST Word list:  a)  should          b)  shall          c)  may          d)  might
+@ITEMNO 4
+@GAP
+4. Both sides ____________________ agree to any changes to the confirmed agenda before the session begins — no unilateral additions are permitted.
+@WORDLIST Word list:  a)  must          b)  should          c)  may          d)  shall
+@ITEMNO 5
+@GAP
+5. Delegation leads ____________________ raise additional agenda items, subject to prior agreement by both sides.
+@WORDLIST Word list:  a)  may          b)  must          c)  shall          d)  need
+@ITEMNO 6
+@GAP
+6. The post-meeting summary ____________________ be distributed to all participants within 24 hours of the session, as required by ministry protocol.
+@WORDLIST Word list:  a)  shall          b)  may          c)  should          d)  could
+
+@PART 6 | Part 6
+@EX 6A:  Model Writing – Coordination Documents
+@INSTR Read the three model coordination documents below. Notice the formal tone, the use of modal verbs, and the clear structure. Then complete each document using the word list provided after it.
+@DOCHEAD Document 1: Meeting Confirmation Email
+@GAP
+1. Dear Ms. Braun, //  I am writing to confirm the arrangements for the Morocco–Germany Infrastructure Cooperation Working Group ____________________ on Tuesday, 14 March 2025, at 10:00 a.m., in Conference Room B, Ministry of Foreign Affairs, Rabat. All participants ____________________ present a valid form of official identification at the security desk. Interpretation into German will be available for the technical session in the afternoon. I will send a final logistics ____________________ by Monday morning. //  Yours sincerely, //  Salma Benali, Protocol and Liaison Officer
+@WORDLIST Word list:  a)  note          b)  session          c)  must
+@DOCHEAD Document 2: Rescheduling Request
+@GAP
+2. Dear Mr. Richter, //  I am writing to inform you that the working group session originally ____________________ for Tuesday at ten o'clock must be rescheduled due to an urgent ministerial commitment on our side. We ____________________ the session to take place on Wednesday at the same time and in the same location. We apologize for any inconvenience and are grateful for your understanding. Please confirm at your earliest ____________________. //  Best regards, //  Salma Benali
+@WORDLIST Word list:  a)  propose          b)  convenience          c)  scheduled
+@DOCHEAD Document 3: Post-Meeting Summary Excerpt
+@GAP
+3. Post-Meeting Summary — Morocco–Germany Infrastructure Working Group //  Date: Tuesday, 14 March 2025 //  Participants: [see attached list] //  The session opened at 10:00 a.m. with formal statements from both ____________________ leads. The morning session addressed rail network modernization in priority regions. The afternoon session covered water infrastructure ____________________. At the conclusion of the session, both delegation leads signed an aide-mémoire establishing the joint technical monitoring committee. Both sides ____________________ to hold a second working group session within three months.
+@WORDLIST Word list:  a)  delegation          b)  committed          c)  grants
+@EX 6B:  Write a Meeting Agenda
+@INSTR Using the information below, write a formal two-hour meeting agenda for the Morocco–France Cultural Cooperation Working Group. // Given information: // • Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. // • Venue: Conference Room A, Ministry of Foreign Affairs, Rabat // • Host participants: Youssef El Amrani (delegation lead), Nadia Tazi, two cultural affairs officers // • French participants: Ms. Claire Dupont (delegation lead, French Institute Rabat), two cultural cooperation officers // • Agenda items: (1) Review of the Morocco–France Cultural Exchange Protocol signed in 2024, (2) Progress update on the joint cultural heritage exhibition for European capitals, (3) Proposal for a new annual Morocco–France Film and Literature Festival, (4) Any other business and next steps // • Format: Each item allocated 25 minutes; 5-minute transition break at 11:00 a.m.
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6C:  Analyze the Parts of a Meeting Agenda
+@INSTR Match each section (1–5) with its correct function (A–E).
+@COLHEAD Column A
+@MATCH
+1. | Header / Meeting Details |
+2. | Participant List |
+3. | Numbered Agenda Items with Timing |
+4. | Any Other Business |
+5. | Next Steps / Action Points |
+@COLHEAD Column B
+@MATCH
+a) | Shows each topic in order with allocated time, so discussions stay structured and within schedule
+b) | Records what has been agreed, who is responsible for each action, and what the timeline is — ensuring accountability after the meeting
+c) | Identifies the meeting by name, date, time, and location so all participants have the same reference information
+d) | Provides an opportunity to raise topics not included in the main agenda before the session closes
+e) | Lists the names, titles, and institutions of all participants so each person knows who they are meeting
+@EX 6D:  Your Turn: Write a Meeting Confirmation Email (80–100 words)
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Decide on your context. Choose a meeting you are coordinating — use a name from this unit (e.g., Morocco–France Cultural, Morocco–Sweden Environment) or create your own. // Step 2: List the key details — recipient's name, meeting date, time, location, one requirement (use a modal verb), and one next step you will take. // Step 3: Choose your closing — what action do you want the recipient to take? (e.g., confirm receipt, reply with participant list, check clearance) // Now write your confirmation email. Your email must include: // • Subject line // • Formal greeting with the officer's name // • Confirmation of meeting date, time, and location // • A key requirement using a modal verb (must / should / may / can) // • A next step you will take before the meeting // • A professional closing // Peer Feedback Activity: // Exchange your email with a partner and check: // • Is the tone formal and professional throughout? // • Are modal verbs used correctly? // • Are all key details clearly stated (date, time, location)? // • Is there a clear next step or action point? // • Are there any spelling or punctuation errors?
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6E:  Optional Extension: Write a Post-Meeting Summary
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Choose your meeting. Use the Morocco–Germany session from the reading, or create a new bilateral session (e.g., Morocco–France, Morocco–Italy). Decide on: meeting name, date, two or three participants from each side. // Step 2: List the content — two or three topics discussed, one formal outcome (a signed document, a decision, or a commitment), and two next steps with a responsible person for each. // Step 3: Choose your tone — formal and neutral. This is an official record. Do not write "I think" or "we felt." Write "Both sides agreed..." or "The session concluded with..." // Now write your post-meeting summary (5–7 sentences). Your summary should include: // • Meeting name, date, and participants (abbreviated) // • The main topics discussed // • At least one formal outcome (agreement, decision, signed document, or commitment) // • Next steps and who is responsible for each // • The date by which the next communication is expected // Use formal, neutral language — a post-meeting summary is an official record, not a personal account.
+@WRITE 📝 Write your response below:
+@LINES 10
+
+@PART 7 | Part 7
+@EX 7A:  Word Stress in Meeting and Coordination Vocabulary
+@AUDIO 🔊 Audio Track 2.28
+@INSTR These are key diplomatic and coordination words from this unit. Listen and repeat each word, paying attention to which syllable carries the stress (marked in CAPITALS). Then use each word in the sentence provided. // 1. bi-LAT-er-al — "The bi-LAT-er-al session begins at ten o'clock." // 2. A-gen-da — "Please circulate the A-gen-da by four o'clock today." // 3. me-MO-ran-dum — "The me-MO-ran-dum of understanding was signed yesterday." // 4. BRIEF-ing — "The delegation lead needs a BRIEF-ing before the meeting." // 5. com-mu-ni-QUÉ — "A joint com-mu-ni-QUÉ will be issued at the end of the session." // 6. DOS-si-er — "Prepare a full DOS-si-er on the visiting delegation by tomorrow." // 7. rat-i-fi-CA-tion — "The treaty is awaiting rat-i-fi-CA-tion by both parliaments." // 8. CON-su-late — "Karim has been assigned to our CON-su-late in Vienna."
+@EX 7B:  Intonation in Meeting Room Language
+@AUDIO 🔊 Audio Track 2.29
+@INSTR In a bilateral meeting, the delegation lead's language must project authority, warmth, and control. The way you say the words matters as much as the words themselves. // Practice these three meeting functions with the correct intonation: // 1. Opening the session — falling intonation on the final word: "Shall we BEGIN?" (falling on BEGIN signals the decision is made, not a question) // 2. Redirecting discussion — level, calm tone: "I suggest we return to the AGENDA." (no rising or falling — this is a neutral, professional redirect, not a criticism) // 3. Closing the session — warm falling tone: "I thank you for a very productive session. We look forward to our next MEETING." (warmth on "thank you," finality on "meeting") // Listen and repeat each phrase, then try with your own opening and closing statements.
+@EX 7C:  Controlled Meeting-Opening Dialogue
+@AUDIO 🔊 Audio Track 2.30
+@INSTR Partner activity: Read the dialogue below naturally, paying attention to formal intonation and word stress. Then repeat the dialogue using your own name and a meeting topic relevant to your own work.
+@SUBBAR 🎤 Practice Script | 150
+@SPEECH
+A: Ladies and gentlemen, on behalf of the Moroccan Ministry of Foreign Affairs, I welcome the German delegation to today's working group session.
+B: Thank you, Director. The German delegation is pleased to be here and grateful for the ministry's careful preparation.
+A: I propose we proceed according to the agreed agenda. Shall we begin?
+B: Certainly. The German side is ready to proceed.
+@SP 120
+@EX 7D:  Practice and Record
+@AUDIO 🔊 Audio Track 2.31
+@INSTR Record a 30-second formal meeting opening statement. Include: // • A formal welcome to the visiting delegation // • Your name and role // • A brief statement of the meeting's purpose // • An invitation to begin // Listen back and check: // • Was your intonation falling at the end of declarative statements? // • Did you stress key content words: names, dates, the meeting title? // • Was your pace steady and calm — not rushed? // • Did you sound both authoritative and welcoming? // Record a second version if needed and compare.
+
+@PART 8 | Part 8
+@EX 8A:  Understanding Cultural Differences in Meeting Behavior
+@INSTR You are coordinating two very different meetings this week: // 1. A working session with a Swedish environmental NGO team — three members, informal structure, first-name basis // 2. A formal bilateral session with a Gulf Arab ministerial delegation — six members, strict hierarchy, social conversation before agenda // Both require professional management. But the cultural expectations are very different. // In small groups, discuss the following questions: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you expect about punctuality, speaking order, and note-taking norms in a meeting with a Scandinavian professional team compared to a Gulf Arab ministerial delegation?
+How does silence function differently in Scandinavian and Gulf Arab meeting culture?
+What should a liaison officer know about managing a meeting with a first-name-basis Scandinavian team — and how does this differ from managing a formally titled Gulf Arab session?
+@EX 8B:  Culture Comparison: Meeting Behavior Across Three Contexts
+@INSTR Complete the table comparing meeting behavior norms across three cultural contexts. Use the choices provided.
+@GRID
+Aspect | Scandinavian / Northern European | Gulf Arab | East Asian (e.g., Japanese / Korean)
+Punctuality | Expected to start exactly on time — lateness is disrespectful |  | Strong punctuality — arriving a few minutes early is respectful
+Speaking order |  | Strictly hierarchical — delegation lead speaks first; juniors follow | Hierarchical — junior members defer to senior; group consensus is valued over individual opinion
+Before-agenda conversation | Brief — a short exchange of pleasantries, then move to agenda |  | Moderate — polite brief exchange, then professional agenda
+Silence in discussion |  | May signal discomfort — open a gentle space for the other side to express a concern | Comfortable with extended silence — do not rush to fill it
+Name / title use | First names may be offered quickly — accept if invited | Formal titles always — "Your Excellency," "Doctor" — until invited otherwise |
+@CHOICES
+a)  Extended — social warmth and hospitality before the agenda is a genuine cultural expectation, not a delay
+b)  Flexible — relationship conversation may delay the start; this is normal and not disrespectful
+c)  Family name with title — 'Mr. Tanaka,' 'Dr. Kim' — first names only if explicitly invited
+d)  Relatively flat — any team member may speak regardless of seniority
+e)  Comfortable with silence — it indicates careful thought, not disagreement
+@EX 8C:  Role-Play: Opening a Meeting with a European Environmental NGO
+@INSTR Work in pairs. Student A plays Youssef El Amrani, host delegation lead. Student B plays Lars Eriksson, team lead of a Swedish environmental NGO visiting to discuss the National Coastal Restoration Program. // Context: The meeting starts on time. Lars introduces his team informally: "Please, call me Lars." The agenda has three items and two hours. The Swedish team uses first names throughout. // Practice: // 1. Open the meeting formally, then accept the informal register gracefully // 2. Work through the first agenda item: reviewing the current Restoration Program scope // 3. A moment of silence after your first proposal — do not rush to fill it; allow Lars to respond // Guidance phrases: // • "Thank you, Lars. On behalf of the ministry, we are very pleased to have you here today." // • "I suggest we follow the agenda we circulated — does that work for your team?" // • "I would welcome your team's perspective on this proposal before we proceed."
+@EX 8D:  Role-Play: Opening a Meeting with a Gulf Arab Ministerial Delegation
+@INSTR Work in pairs. Student A plays Salma Benali, welcoming the visiting Gulf Arab delegation to the protocol lounge before the formal session. Student B plays His Excellency Abdulrahman Al-Mansouri, Deputy Foreign Minister of a Gulf partner state. // Context: The delegation has just arrived. There is a social welcome in the protocol lounge before the formal session begins. Arabic coffee and dates have been arranged. His Excellency is accompanied by two advisers. // Practice: // 1. Welcome the delegation with full protocol: title, warmth, appreciation for the visit // 2. Offer hospitality without rushing to business // 3. His Excellency begins with social conversation — respond warmly and follow his lead // 4. Only transition to the session when His Excellency signals he is ready // Guidance phrases: // • "Your Excellency, on behalf of the Ministry of Foreign Affairs, we are deeply honored by your visit to Rabat." // • "Please make yourself comfortable. We have arranged coffee — may I offer you a cup?" // • "We look forward to a very productive session whenever Your Excellency is ready."
+@EX 8E:  Discussion: Adapting Without Losing Your Professional Identity
+@INSTR Discuss the following questions in a small group based on the role-plays and cultural comparison in this section. (Aim for 3–4 sentences per answer.)
+@BULLET
+How can you adapt your facilitation style to different cultural expectations without feeling like you are performing or being inauthentic?
+What phrase could you use in a meeting to professionally and gently address a cultural misunderstanding — for example, if a Scandinavian colleague unintentionally interrupts a Gulf Arab delegation lead?
+What is your country's unique position as a host of diplomatic meetings, given that it sits culturally between the Arab world, Africa, and Europe and engages all three simultaneously?

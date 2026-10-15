@@ -1,0 +1,345 @@
+@VOICES Planning Memo — Daniyar Suleimenov | Official | Host | Daniyar
+@UNITHEAD Unit 4: Unit 4: Building Bridges — Correspondence, Cooperation, and Future Vision
+@PART Warm Up | Warm Up
+@EX W-A:  Pair Discussion – Your Country's Future in English
+@INSTR Talk with a partner about the following: (Aim for 3–4 sentences per answer.)
+@BULLET
+If you could send one message about your country's future to the world in English, what would it be?
+What is the difference between a note verbale and a business email? Why does this distinction matter for ministry staff?
+What should your country communicate most clearly to foreign partners in 2025 and beyond?
+@EX W-B:  Group Brainstorm – Types of Written Communication at the Ministry
+@INSTR In small groups, sort the nine types of ministry written communication below into three categories. Then add who writes it and its main purpose for each type. Share your answers with the class. // Types to categorize: // • Note verbale // • Memorandum of Understanding (MoU) // • Aide-mémoire // • Bilateral communiqué // • Formal invitation // • Congratulatory note // • Circular // • Press statement // • Annual report // Categories: // A — Formal inter-governmental documents (sent between foreign ministries or governments) // B — Public and media documents (sent to international press or the public) // C — Internal or coordination documents (sent inside the ministry or to partner institutions)
+@BULLET
+What types of English written communication does your ministry produce or receive, and what are the key details for each?
+@EX W-C:  Grammar Review – Passive Voice
+@INSTR Quick grammar review from Unit 3. Choose the correct passive form to complete each sentence.
+@LINE 120
+1. A new bilateral investment framework ____________________ (develop) in coordination with the German side this month.
+2. The Kazakhstan–France Cultural Cooperation Agreement ____________________ (sign) in Paris last year.
+3. All visiting delegations ____________________ (require) to submit their participant list 48 hours in advance.
+4. A joint technical committee ____________________ (establish) to oversee the implementation of the modernization framework.
+5. The agenda ____________________ (distribute) to all participants before the end of the working day.
+
+@PART 1 | Part 1
+@EX 1A:  Match and Guess
+@INSTR Match each term (1–7) with its correct definition (A–G).
+@COLHEAD Column A
+@MATCH
+1. | Note Verbale |
+2. | Communiqué |
+3. | Aide-Mémoire |
+4. | Protocol of Cooperation |
+5. | Joint Statement |
+6. | Letters of Credence |
+7. | Memorandum of Understanding |
+@COLHEAD Column B
+@MATCH
+a) | A formal diplomatic instrument written in the third person between foreign ministries, used for official inter-governmental communications
+b) | A concise official statement, signed by both parties, recording what was agreed during a meeting or session
+c) | A short diplomatic note, written from one party to another, summarizing a verbal communication for the official record
+d) | The formal credentials presented by a newly appointed ambassador to the head of state of the receiving country, authorizing the ambassador to represent their government
+e) | A formal agreement outlining the terms and objectives of a future cooperation between two parties, without the full legal binding force of a treaty
+f) | A formal agreement between two institutions or countries defining the principles and scope of their intended cooperation
+g) | An official joint statement issued by two or more governments after a meeting, summarizing agreed positions and commitments
+@EX 1B:  Correspondence Scenario Cards
+@INSTR Each student receives one card below. Use the Note Verbale Formula to complete the opening sentence. Fill in the information shown on your card. Your partner checks that your sentence uses the correct third-person register. // Note Verbale Formula: // "The Ministry of Foreign Affairs of [SENDING COUNTRY] presents its compliments to [RECIPIENT INSTITUTION] and has the honor to [VERB: invite / acknowledge / congratulate] [SPECIFIC DETAILS: who / what / where / when]. // [CLOSING:] The Ministry avails itself of this opportunity to renew to the [Embassy / Mission] the assurances of its highest consideration."
+@LINE
+1. Card 1 — Complete the formula with these details:
+@CARDBULLET
+Sending country: Republic of Kazakhstan
+Recipient institution: Embassy of the Kingdom of Norway
+Verb: acknowledge
+Specific details: Norway's communication of 12 May 2025 regarding their new Climate and Energy Partnership Program, and Kazakhstan's appreciation for Norway's continued engagement
+@LINE
+2. Card 2 — Complete the formula with these details:
+@CARDBULLET
+Sending country: Republic of Kazakhstan
+Recipient: His Excellency the Ambassador of the Federal Republic of Germany
+Verb: invite
+Specific details: signing ceremony of the Kazakhstan–Germany Cultural Exchange Protocol, Ministry of Foreign Affairs Astana, Wednesday 18 June 2025, eleven o'clock in the morning
+@LINE
+3. Optional Extension — Card 3:
+Without a formula template, draft a formal congratulatory sentence from the Kazakh Foreign Minister to the newly appointed French Foreign Minister. Use the third-person note verbale register throughout.
+@EX 1C:  Group Discussion – Formal Correspondence Norms
+@INSTR In small groups, discuss the following questions about formal diplomatic correspondence. Share your conclusions with the class. (Aim for 3–4 sentences per answer.)
+@BULLET
+What distinguishes formal diplomatic correspondence from semi-formal correspondence? Can you give an example of each?
+What phrases are used only in very formal diplomatic correspondence and should never appear in a coordination email?
+What mistakes should never be made in a note verbale, and what do they signal if they occur?
+@EX 1D:  Vocabulary Practice: Using the Words in Sentences
+@INSTR Complete each sentence with the correct word or phrase from the list below.
+@WORDBANK
+@BANK
+cooperation | framework | communiqué
+credence | bilateral |
+@GAP
+1. The two foreign ministers signed a Protocol of ____________________ covering educational exchange, cultural programs, and trade facilitation.
+2. A bilateral investment ____________________ has been established to facilitate German business entry into the national infrastructure market.
+3. A joint ____________________ was issued at the conclusion of the summit, outlining the agreed priorities in energy security and economic cooperation.
+4. The newly appointed Belgian Ambassador presented her ____________________ letters to the Kazakh foreign minister at a formal ceremony at the ministry.
+5. Kazakhstan and France have agreed to establish a new ____________________ committee to oversee the implementation of the Cultural Cooperation Framework signed last year.
+
+@PART 2 | Part 2
+@EX 2A:  Noticing Grammar
+@INSTR Read this excerpt from an internal ministry planning memo from Daniyar Suleimenov to the Economic Affairs team. Notice the future expressions in bold.
+@SUBBAR Dialogue
+@SPEECH
+Planning Memo — Daniyar Suleimenov: Team, here is an update on our planning calendar. The Kazakhstan–France Academic Cooperation Framework *will be signed* on 18 June — a significant milestone for our department. *We are meeting* the French delegation on Thursday at 10 a.m. to finalize the implementation schedule — please prepare the briefing materials by Wednesday. A joint technical committee *is going to oversee* all program phases; the committee structure has already been agreed. On the question of the investment conference: the ministry *shall release* an official statement on the dates by Friday. Finally, I want to be clear: Kazakhstan's international partnerships *are going to grow* significantly over the next two years — our job is to be ready.
+@EX 2B:  Grammar Focus Box
+@INSTR Complete the table below. Write the correct ministry example for each future form.
+@GRID
+Future Form | Main Use | Ministry Example
+will | Prediction / spontaneous decision / offer / announcement |
+going to | Existing plan or intention decided before speaking |
+Present Continuous | Fixed arrangement in the near future (in the diary) | We are meeting the German delegation on Thursday at ten o'clock to finalize the implementation schedule.
+shall | Formal institutional statement / offer / fixed commitment |
+@CHOICES
+a)  The joint committee is going to hold its first session within sixty days of the MoU signing.
+b)  The bilateral cooperation framework will bring significant new investment to the national infrastructure sector.
+c)  The Ministry of Foreign Affairs shall issue a formal statement on the conference dates by Friday afternoon.
+@EX 2C:  Guided Practice
+@INSTR Complete each sentence with the most appropriate future form from the choices given.
+@LINE 120
+1. The signing of this cooperation framework ____________________ (represent) a milestone in Kazakhstan's bilateral relationship with Japan and open new pathways for economic partnership.
+2. The Kazakh and Italian delegations ____________________ (meet) next Tuesday at the ministry to review the first phase of the Cultural Cooperation Protocol implementation — it is already in the diary.
+3. The diaspora services program ____________________ (expand) significantly over the next six months — the additional processing capacity has already been approved.
+4. If the investment conference is well-organized, it ____________________ (help) attract a wider range of international partners than we have seen so far.
+5. The Ministry of Foreign Affairs ____________________ (issue) a joint communiqué at the conclusion of the bilateral summit — this has been confirmed at the highest level.
+6. I ____________________ (attend) the France–Kazakhstan Academic Committee inaugural session on Friday — it is in my confirmed schedule.
+@EX 2D:  Error Correction
+@INSTR Find and correct the future form error in each sentence:
+@LINE 60
+1. The ministry will announces the conference dates next week.
+@RULE
+@LINE 60
+2. We will host the German delegation at the ministry on Wednesday — it is confirmed.
+@RULE
+@LINE 60
+3. Kazakhstan is going to signs a new cooperation protocol with Japan at the upcoming forum.
+@RULE
+@LINE 60
+4. The Foreign Minister shall opens the bilateral summit with a formal statement on Kazakhstan's diplomatic priorities.
+@RULE
+@EX 2E:  Speaking Practice
+@INSTR In pairs, use the correct future forms to complete these ministry speaking tasks. (Aim for 3–4 sentences per answer.)
+@BULLET
+Describe your country's diplomatic priorities for the next two years using will and going to.
+Describe a three-point partnership plan for a specific country, using a mix of all four future forms.
+Use present continuous for two confirmed future arrangements and will for two predictions about your country's diplomatic future.
+
+@PART 3 | Part 3
+@EX 3A:  Before You Listen: Predict and Discuss
+@INSTR Look at these four diplomatic contexts you are about to hear. In pairs, predict what future language will be used and what the tone of each will be. (Aim for 2–3 sentences per context.)
+@BULLET
+Context 1: The signing ceremony of the Kazakhstan–Germany Bilateral Cooperation MoU. What future language do you expect in the speeches? What tone?
+Context 2: An infrastructure investment conference in Brussels. What commitments and future plans will speakers make? Will they use will or going to?
+Context 3: A formal dinner toast at a bilateral event in Astana. What future language is appropriate? How formal will the language be?
+Context 4: A bilateral planning session between Kazakh and French officials. What is the difference in future language between this private professional context and the public speeches?
+@EX 3B:  Listening: Four Formal Cooperation Contexts
+@AUDIO 🔊 Audio Track 4.14
+@INSTR Listen to four excerpts from different formal diplomatic contexts. For each excerpt, answer the questions.
+@PLAYNOTE 🔊 Click to play each dialogue (requires VBA macro – see instructions)
+@DBAR Excerpt 1 — MoU Signing Ceremony
+@SPEECH
+Official: On behalf of the Republic of Kazakhstan, I am proud to participate in this signing ceremony. The Memorandum of Understanding we sign today will create a structured framework for bilateral cooperation in infrastructure, education, and trade. A joint technical committee is going to meet for the first time within sixty days. This partnership will grow and deepen over the years ahead. Kazakhstan and Germany are going to build something lasting together.
+@DBAR Excerpt 2 — Investment Conference
+@SPEECH
+Delegate: Kazakhstan is ready to receive international investment and partnership. The modernization programs that are going to be implemented over the next three years have been designed with international standards of transparency and accountability. The ministry shall release a comprehensive investment opportunity catalog within the next thirty days. We are meeting with more than forty delegations over this conference to discuss specific programs. Kazakhstan will remember the partners who commit to this phase of its development.
+@DBAR Excerpt 3 — Formal Dinner Toast
+@SPEECH
+Host: Your Excellency, distinguished guests — it is my honor to propose a toast this evening. Kazakhstan and France have signed today a framework that will define the next chapter of our relationship. The programs we are going to implement together — in culture, in education, in economic partnership — will benefit the people of both our countries. To friendship, to cooperation, and to a future that will be built together.
+@DBAR Excerpt 4 — Bilateral Planning Session
+@SPEECH
+Aigerim: We are holding the first technical committee meeting on September 15th — that is confirmed.
+Daniyar: Good. And the joint investment catalog?
+Aigerim: We are publishing that on August 30th — it is going to include all twelve priority projects.
+Daniyar: The minister's office will want a preview before it goes out.
+Aigerim: Already scheduled — we are briefing them on August 20th. And the Paris reception in October — I am attending that with the minister. We shall issue formal invitations by the end of this month.
+@SP 200
+@PLAIN
+1. What future plans or commitments are mentioned in each excerpt?
+2. What is the difference in future language between the formal public speeches (Excerpts 1–3) and the internal planning session (Excerpt 4)?
+3. What does Aigerim's planning session language tell us about professional coordination in a diplomatic context?
+Thinking Guide: Aigerim uses ___ throughout for everything that is confirmed — "we are holding," "we are publishing." She reserves ___ for the catalog contents (already decided but not yet released) and ___ for the formal institutional commitment of the invitations. This precision signals that her team is ___ and ___. (Think about: Present Continuous / going to / shall / reliable / professionally coordinated)
+@EX 3C:  Choose the Correct Formal Response
+@INSTR Listen to each formal cooperation statement and choose the correct professional ministry response:
+@MCQ
+🔊 1.  We are very glad to sign this cooperation framework today. We look forward to seeing concrete results within the year.
+a)  Thank you. We will try our best to make something happen.
+b)  Thank you, Your Excellency. The joint technical committee is going to meet within sixty days to begin implementation planning — concrete results will follow that process. Kazakhstan is committed to demonstrating through action that this partnership is more than a signature.
+🔊 2.  Kazakhstan has signed many agreements. What guarantees do partners have that these will actually be implemented?
+a)  We guarantee everything. Do not worry about implementation.
+b)  That is the right question to ask, and it is one we take seriously. Each framework includes a joint monitoring committee with quarterly reporting obligations. The first progress reports will be published within ninety days of each committee's inaugural session. We are also meeting with all partner delegations at this conference specifically to review implementation timelines — accountability is built into the architecture.
+🔊 3.  We are proposing a joint research program in renewable energy. Are you interested in exploring this?
+a)  Kazakhstan is very interested in renewable energy cooperation — it is going to be one of our central modernization priorities. I would like to schedule a follow-up session with our Energy Affairs team. We are meeting on Thursday — are you available to join us then?
+b)  I am not sure. Send me an email and I will think about it.
+🔊 4.  We would like to invite Kazakhstan to participate in the International Investment Forum in Berlin next March. Will Kazakhstan be represented?
+a)  Yes, someone will probably go. We will let you know closer to the date.
+b)  Kazakhstan is committed to participating in the Berlin Forum. Our Economic Affairs team is going to lead the delegation, and the ministry shall communicate our participation officially through formal channels. I will ensure you receive a formal confirmation letter within the next ten working days.
+@EX 3D:  Useful Phrases Box
+@INSTR Listen to and write down five formal cooperation phrases used in bilateral events and planning sessions. Then practice saying them aloud with a partner, focusing on a warm but authoritative tone.
+@NRULE 5
+
+@PART 4 | Part 4
+@EX 4A:  Role-Play: A Formal Dinner Toast
+@INSTR Practice delivering a formal dinner toast. One student delivers the toast; the other responds as the honored guest. Then swap roles. // Toast Structure: // • Address: "Your Excellency, distinguished guests — ..." // • Acknowledge: what has been achieved today (the signing, the cooperation) // • Look forward: use one future form (will / going to / shall) to describe what is coming // • Propose: "To friendship, to cooperation, and to [future vision] — please raise your glasses." // (Aim for 4–6 sentences for the full toast.) // Toast 1 — Bilateral Dinner (Kazakhstan–France): // Context: A dinner following the signing of the Kazakhstan–France Cultural Cooperation Framework. The guest of honor is the French Ambassador. The host is the Kazakh Vice-Foreign Minister. // Optional Extension — Toast 2 — Investment Conference Reception: // Context: A reception at the Kazakh Embassy following the Brussels Infrastructure Investment Conference. The host is the Kazakh Ambassador to Belgium. International delegates from fifteen countries are present. // Optional Extension — Toast 3 — Cultural Heritage Event: // Context: The opening evening reception of Kazakh Cultural Heritage Week in Berlin. The host is Zarina Abenova, Press Attaché at the Kazakh Embassy. German government officials and cultural figures are present.
+@EX 4B:  Role-Play: Bilateral Cooperation Presentation
+@INSTR Work in groups of four. Student A is Daniyar Suleimenov, Economic Affairs Specialist. Students B, C, and D are a French trade delegation. Daniyar presents the Kazakhstan–France Digital Infrastructure Cooperation framework and handles three follow-up questions. (Aim for 3–4 sentences per speaking turn.) // French delegation role cards: // Student B: Ask about the timeline for the first operational digital projects. // Student C: Ask about the technical requirements for French companies wishing to participate in the program. // Student D: Ask what Kazakhstan expects from France in return — what does Kazakhstan bring to the partnership? // Guidance: Daniyar uses a mix of future forms — will for predictions and announcements, going to for existing plans, Present Continuous for confirmed arrangements, shall for formal institutional commitments.
+@EX 4C:  Discussion: Bridge-Builders and Future Vision
+@INSTR Discuss the following questions in a small group to close this unit and the course.
+@BULLET
+Rank these five qualities of an effective bridge-builder from most to least important for diplomatic work. Explain your top choice in 2–3 sentences.
+@PBULLET
+Reliability — doing what you say you will do, when you said you would do it
+Patience — sustaining engagement and commitment through slow periods
+Genuine curiosity — real interest in other cultures and people, not just transactions
+Emotional intelligence — knowing when to speak and when to listen
+Precision — getting names, titles, and details exactly right
+@BULLET
+What is your country's unique diplomatic position in the mid-2020s, and how does it create both challenge and opportunity?
+What is one concrete commitment you are going to make to improving your English for this work? Use future forms in your answer.
+
+@PART 5 | Part 5
+@EX 5A:  Read: The Kazakhstan–France Bilateral Cooperation Framework
+@INSTR Quick Vocabulary Check — Check the meanings of these words before you read: // • bi-LAT-er-al — between two specific countries only // • FRAME-work — a system of rules and institutions to organize cooperation // • COM-mis-sion — an official committee with a regular, ongoing task // • re-NEW-able EN-er-gy — energy from natural sources like sun and wind that do not run out // • road-MAP — a plan showing key steps and a timeline to reach a goal // Read the following description of a fictional but realistic Kazakhstan–France bilateral cooperation framework. Pay attention to the scope, the institutional structure, and the expected outcomes.
+@PANEL
+The Kazakhstan–France Bilateral Cooperation Framework, signed in Astana in June 2025, represents one of the most comprehensive bilateral agreements concluded by Kazakhstan with a European partner. The Framework was signed by both foreign ministers at a ceremony attended by senior officials from both countries. It covers three primary areas of cooperation: cultural and heritage exchange, academic and scientific partnership, and infrastructure and digital development.
+In the cultural area, the Framework establishes a Joint Cultural Commission that will meet annually to design and oversee cultural exchange programs. Kazakh cultural heritage exhibitions are going to be hosted in Paris, Lyon, and Marseille over a three-year cycle, while French cultural programs will be presented in Astana and Almaty. A Kazakhstan–France Film and Literature Festival shall be established as an annual event, alternating between the two capitals.
+In the academic area, the Framework provides for a student exchange program that will enable fifty Kazakh students per year to undertake postgraduate studies in France, and ten French academic specialists to conduct research in Kazakhstan. A joint research program in renewable energy is going to be launched in September 2025, with funding from both governments. Kazakh university partnerships with four French institutions are being formalized this year.
+In the infrastructure and digital area, a joint working group is going to develop a Kazakhstan–France digital connectivity roadmap by December 2025. French technical expertise will support Kazakhstan's e-government platform development. An annual bilateral committee, comprising six members from each side, shall oversee the overall Framework implementation and report to both foreign ministries. The Framework is designed for an initial five-year period with a review mechanism at three years.
+@LINE
+1. What are the three areas covered by the Kazakhstan–France Bilateral Cooperation Framework?
+2. What is the Joint Cultural Commission and what will it do?
+3. How many Kazakh students will benefit from the academic exchange program per year, and what is the joint research program?
+4. How long is the Framework designed to last, and what oversight mechanism has been established?
+@EX 5B:  Reading Comprehension: Discussion Questions
+@INSTR In pairs or small groups, discuss the questions below about the Kazakhstan–France Bilateral Cooperation Framework. (Aim for 3–4 sentences per answer.)
+@BULLET
+Is this kind of framework realistic for Kazakhstan in 2025? What makes it credible or not?
+What does Kazakhstan bring to this partnership as an equal partner — not just as a recipient of French expertise?
+How does the formal language of this framework and the use of future forms (will / going to / shall) contribute to the sense of institutional credibility?
+@PBULLET
+Thinking Guide: The word ___ signals that an obligation is binding — not a hope, but a requirement. ___ signals that the planning has already happened and the commitment goes beyond the signing ceremony. ___ is used for outcomes and realistic projections. Together, the three forms create a graduated sense of ___: shall (mandatory) → going to (planned) → will (projected). (Think about: shall / Going to / Will / certainty)
+@BULLET
+What other areas of bilateral cooperation would you prioritize for your country's future, and why?
+@PBULLET
+Thinking Guide: Think about what your country urgently needs that the partner country has the capacity to help with. Consider: which sectors of your economy and society most need external expertise? What does the partner specialize in internationally? What cooperation would benefit ___ of both countries, not only one? (Think about: the people / healthcare / environmental rehabilitation / legal modernization / heritage protection)
+@EX 5C:  Language in Context: Future Forms in a Cooperation Framework
+@INSTR The sentences below are taken from the Kazakhstan–France Bilateral Cooperation Framework you read in exercises 5A and 5B. Complete each sentence with the correct future form. Think about what each form signals: will (projected outcome), going to (already planned and decided), shall (binding institutional commitment). You will use these same future forms in your diplomatic correspondence in Part 6.
+@ITEMNO 1
+@GAP
+1. A Joint Cultural Commission ____________________ meet annually to design and oversee cultural exchange programs between Kazakhstan and France.
+@WORDLIST Word list:  a)  will          b)  shall          c)  is going to          d)  may
+@ITEMNO 2
+@GAP
+2. Kazakh cultural heritage exhibitions are ____________________ to be hosted in Paris, Lyon, and Marseille over a three-year cycle.
+@WORDLIST Word list:  a)  going          b)  planning          c)  expected          d)  due
+@ITEMNO 3
+@GAP
+3. A Kazakhstan–France Film and Literature Festival ____________________ be established as an annual event, alternating between the two capitals.
+@WORDLIST Word list:  a)  shall          b)  will          c)  is going to          d)  should
+@ITEMNO 4
+@GAP
+4. A joint research program in renewable energy is going to be ____________________ in September 2025, with funding from both governments.
+@WORDLIST Word list:  a)  launched          b)  started          c)  opened          d)  introduced
+@ITEMNO 5
+@GAP
+5. French technical expertise ____________________ support Kazakhstan's e-government platform development as part of the digital infrastructure cooperation.
+@WORDLIST Word list:  a)  will          b)  shall          c)  is going to          d)  can
+@ITEMNO 6
+@GAP
+6. An annual bilateral committee ____________________ oversee the overall Framework implementation and report to both foreign ministries every year.
+@WORDLIST Word list:  a)  shall          b)  will          c)  is going to          d)  must
+
+@PART 6 | Part 6
+@EX 6A:  Model Writing – Formal Diplomatic Documents
+@INSTR Read the three model diplomatic documents below. Notice the use of future forms, passive voice, and formal register. Complete each document using the word list provided after it.
+@DOCHEAD Document 1: Note Verbale — Formal Invitation
+@GAP
+1. The Ministry of Foreign Affairs of the Republic of Kazakhstan ____________________ its compliments to the Embassy of the Italian Republic and has the honor to ____________________ His Excellency the Ambassador of Italy to the signing ceremony of the Kazakhstan–Italy Cultural Heritage Cooperation Protocol, to be held at the Ministry of Foreign Affairs, Astana, on Thursday, 19 June 2025, at ten o'clock in the morning. The Ministry avails itself of this opportunity to renew to the Embassy the ____________________ of its highest consideration.
+@WORDLIST Word list:  a)  invite          b)  presents          c)  assurances
+@DOCHEAD Document 2: Formal Invitation Letter
+@GAP
+2. Your Excellency, //  On behalf of the Kazakh Ministry of Foreign Affairs, I have the honor to ____________________ Your Excellency to the signing ceremony of the Kazakhstan–Germany Bilateral Cooperation Framework, scheduled for Tuesday, 18 June 2025, at eleven o'clock in the morning at the Ministry of Foreign Affairs in Astana. The ceremony will be attended by both Foreign ____________________. A formal reception will ____________________ at the Ministry following the ceremony. We look forward to your distinguished presence. //  Yours sincerely, //  Aigerim Dosanova, Protocol Department
+@WORDLIST Word list:  a)  follow          b)  Ministers          c)  invite
+@DOCHEAD Document 3: Congratulatory Note
+@GAP
+3. His Excellency the Minister of Foreign Affairs of the Republic of Kazakhstan presents his warmest ____________________ to His Excellency the newly appointed Minister of Foreign Affairs of Japan upon his ____________________ to this distinguished office, and expresses his sincere confidence that the ties of friendship and cooperation between Kazakhstan and Japan will continue to ____________________ under his distinguished leadership.
+@WORDLIST Word list:  a)  appointment          b)  congratulations          c)  strengthen
+@EX 6B:  Write a Formal Invitation
+@INSTR Write a formal English invitation (80–100 words) from the Kazakh Ministry of Foreign Affairs to the German Ambassador, inviting him to a Cultural Heritage Cooperation signing ceremony. // Given information: // • Host: Kazakh Ministry of Foreign Affairs // • Guest: His Excellency the Ambassador of the Federal Republic of Germany, Astana // • Event: Signing ceremony of the Kazakhstan–Germany Cultural Heritage Cooperation Protocol // • Date: Wednesday, 25 June 2025 // • Time: 11:00 a.m. // • Venue: Reception Hall, Ministry of Foreign Affairs, Astana // • Additional: Formal reception to follow; interpretation available // Format: You may write this as a note verbale (third person) or as a formal letter (first person) — state your choice at the top.
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6C:  Analyze the Elements of a Note Verbale
+@INSTR Match each element (1–5) with its correct function (A–E).
+@COLHEAD Column A
+@MATCH
+1. | Opening Compliments Formula |
+2. | Substantive Paragraph |
+3. | Supporting Details |
+4. | Closing Compliments Formula |
+5. | Place and Date |
+@COLHEAD Column B
+@MATCH
+a) | States the main purpose of the note in the third person — what the ministry is informing, requesting, inviting, or acknowledging
+b) | Records the place and date of issue, confirming when and where the note was officially sent
+c) | Closes the note with a formal expression of continued institutional goodwill and respect between the two parties
+d) | Provides specific details — dates, times, locations, names — that the receiving party needs to act on or respond to the note
+e) | Identifies the sending institution and the receiving institution, and establishes the institutional relationship between them
+@EX 6D:  Your Turn: Write a Congratulatory Note (60–80 words)
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Decide on your format. Choose note verbale (third person throughout) or formal letter (first person). Write your choice at the top of your document. // Step 2: List your key elements — (1) congratulations on the appointment, (2) one expression of confidence in the Kazakhstan–Japan relationship, (3) one forward-looking sentence with a future form. // Step 3: Check your language before you write — no contractions (use 'does not' not 'doesn't'), no casual phrases, correct title ('His Excellency' for a note verbale, 'Your Excellency' to open a letter). // Write a formal congratulatory note from the Kazakh Foreign Minister to the newly appointed Foreign Minister of Japan. Your note should: // • Use formal diplomatic language (you may write in the third person as a note verbale, or in the first person as a formal letter) // • Express congratulations on the appointment // • Express confidence in the relationship between Kazakhstan and Japan // • Include a forward-looking sentence using a future form (will / going to / shall) // • Use formal closing language // Length: 60–80 words.
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6E:  Optional Extension: Write a Cooperation Summary for the Ministry Website
+@INSTR Before You Write — Plan in three steps: // Step 1: Choose your cooperation areas. Pick two or three from: economic, educational, cultural, environmental, healthcare, or digital. // Step 2: Plan your structure: opening (what was signed and when), middle paragraph (what the framework covers — one sentence per area), closing (what this means for the people of both countries). // Step 3: Plan your language mix: use passive voice for formal statements ('was signed,' 'has been established,' 'will be implemented'), use future forms for outcomes ('will benefit,' 'is going to develop'), and use active voice for direct, accessible statements. // Write a 150-word English summary of a fictional Kazakhstan–Japan Bilateral Cooperation Agreement for publication on the Ministry of Foreign Affairs official website. The summary should: // • Describe the agreement and its scope (choose your own areas of cooperation) // • Use passive voice for formal institutional statements // • Use future forms to describe planned outcomes // • Be written for a general international audience — not only diplomats // • Maintain a formal but accessible tone // • Include a sentence about what the agreement means for the people of both countries // This summary will be read by journalists, investors, citizens living abroad, and foreign officials — make it clear, informative, and forward-looking.
+@WRITE 📝 Write your response below:
+@LINES 10
+
+@PART 7 | Part 7
+@EX 7A:  Word Stress in Correspondence and Ceremony Vocabulary
+@AUDIO 🔊 Audio Track 4.28
+@INSTR These are key diplomatic words from this unit. Listen and repeat each word, paying attention to the stressed syllable (marked in CAPITALS). Then use each word in the sentence provided. // 1. i-TIN-er-ar-y — "The official i-TIN-er-ar-y was sent to the delegation this morning." // 2. co-op-er-A-tion — "The Kazakhstan–France co-op-er-A-tion framework covers five sectors." // 3. cor-re-SPOND-ence — "All official cor-re-SPOND-ence must go through the Protocol Office." // 4. CER-e-mo-ny — "The signing CER-e-mo-ny will take place at the Ministry tomorrow." // 5. SIG-na-tor-y — "Kazakhstan is a SIG-na-tor-y to the Vienna Convention on Diplomatic Relations." // 6. con-VEN-tion — "The con-VEN-tion on consular relations governs our consul's role in Vienna." // 7. FRAME-work — "The bilateral FRAME-work was signed by both foreign ministers." // 8. EN-voy — "The Special EN-voy arrived in Astana for talks this morning."
+@EX 7B:  Formal Intonation — Warm but Dignified
+@AUDIO 🔊 Audio Track 4.29
+@INSTR Diplomatic speeches and toasts require a tone that is both warm (showing genuine feeling) and dignified (maintaining authority). The intonation pattern is: slightly elevated and expressive on warm phrases; falling and settled on formal declarations. // Practice the contrast with these three toast openings: // 1. Too flat (robotic): "This evening. We celebrate. A partnership." — monotone; sounds like a list, not a toast // 2. Too animated (informal): "This evening we CELEBRATE this AMAZING partnership!" — rising intonation; sounds like a business conference, not a diplomatic dinner // 3. Correct (warm and dignified): "This EVENING — [slight pause] — we celebrate a partnership..." — slight elevation on "evening," fall and pause, steady warm pace on "partnership" // Practice all three versions, then record your own using version three as the model. // Additional toast openings to practice: // • "It is my HONOR to propose a toast this evening..." // • "To friendship, to cooperation, and to a FUTURE that will be built together."
+@EX 7C:  Controlled Formal Dialogue
+@AUDIO 🔊 Audio Track 4.30
+@INSTR Partner activity: Read the formal welcome exchange below with correct intonation. Then repeat using your own name, a real or fictional cooperation event, and a country of your choice. // Host: Your Excellency, on behalf of the Kazakh Ministry of Foreign Affairs, it is my privilege to welcome you to this ceremony. // Guest: Thank you. It is a great pleasure to be here. This is a significant moment for both our countries. // Host: Indeed. The agreement we sign today will define our cooperation for the years ahead. Kazakhstan is committed to this partnership and to the friendship between our peoples. // Guest: As are we. We look forward to seeing the programs take shape. // Focus on: // • Pause and warmth on "Your Excellency" — never rush this address // • Falling intonation on declarations ("will define," "are committed") // • A steady, confident pace — never faster than the moment requires
+@EX 7D:  Practice and Record
+@AUDIO 🔊 Audio Track 4.31
+@INSTR Record a 30-second formal welcome statement for a fictional bilateral cooperation event. Include: // • A formal address to the guest of honor ("Your Excellency" or "Distinguished guests") // • A statement of what the event represents using a future form // • A forward-looking closing sentence // Listen back and check: // • Was your intonation warm on the address and falling on the declarations? // • Did you stress the key words: the partner country's name, the cooperation area, the future verb? // • Was your pace steady and dignified — unhurried? // • Did you sound both sincere and authoritative? // Record a second version if needed. A formal diplomat who sounds rushed loses the room. A diplomat who sounds settled and warm commands it.
+
+@PART 8 | Part 8
+@EX 8A:  One Dinner, Three Cultures
+@INSTR You are hosting a formal ministry dinner in Astana. Three delegations are at the table simultaneously: // 1. A European (French/German) delegation — egalitarian, wine-serving culture, first-name basis after first meeting // 2. A Gulf Arab delegation — formal titles, no alcohol, social warmth before business, strict seniority protocol // 3. An East Asian (Japanese/Korean) delegation — strict hierarchical seating, ceremonial gift exchange, reserved social style, no direct refusal // You must manage the seating, the toasts, the conversation, the gifts, and the closing — in a way that respects all three cultures simultaneously. // Discussion Starters: // • "I think the most important preparation is..." // • "One thing that might cause a problem is..." // • "In this situation, I would..." // In small groups, discuss the following questions: (Aim for 3–4 sentences per answer.)
+@BULLET
+Who sits where? How do you arrange the seating to respect seniority across three different hierarchical cultures simultaneously?
+How do you manage the toasts in a way that does not offend the Gulf Arab delegation who do not drink alcohol?
+A Japanese delegation member receives a gift from the host at the end of the dinner. He does not open it at the table. Why, and what should the host know about this?
+@EX 8B:  Three-Culture Formal Dinner Comparison Table
+@INSTR Complete the table comparing formal dinner norms across three cultural contexts. Use the choices provided.
+@GRID
+Aspect | European (French / German) | Gulf Arab | East Asian (Japanese / Korean)
+Formal greeting | Firm handshake; direct eye contact; first names often offered after introduction |  | Slight bow; two-handed business card exchange (receive with both hands, study briefly before putting away); formal title plus family name
+Toasts |  | No alcohol; non-alcoholic alternative must be provided with dignity; participation in toast is valued even without alcohol | Sake or juice; follow the senior person's lead; do not pour your own drink — pour for your neighbor and they will pour for you
+Seating hierarchy | Official rank guides seating; host to the right of guest of honor at formal dinners; less rigid than Asian or Gulf models | Strictly hierarchical; most senior sits closest to host; clear deference to the delegation lead throughout the evening |
+Dinner conversation |  | Warm, personal, relational — family, hospitality, the country's history; business is discussed indirectly or reserved for the next formal session | Reserved; avoid direct personal questions; appreciate shared cultural topics (art, history, food); do not fill every silence — pauses are acceptable
+Gift protocol | Gifts are optional at formal dinners; if given, usually opened immediately with appreciation; wine or a cultural item is appropriate |  | Gifts are received with both hands and a slight bow; typically not opened at the table; cultural or artisanal gifts are appropriate
+Leaving | Guests leave after the guest of honor; clear signal when the event ends is appreciated; extended farewell conversation is normal | Guest of honor departs first; others follow in seniority order; farewell is warm and includes expressions of hospitality and future meeting intentions |
+@CHOICES
+a)  Direct, substantive conversation is welcomed; topics: culture, food, travel, bilateral relationship; business references are acceptable at the table in German culture, less so in French
+b)  Wine or champagne toasts expected; host proposes, guests follow; eye contact during the toast is important in French and German culture
+c)  Gifts are warmly appreciated; quality craftsmanship and cultural significance matter more than expense; avoid gifts with alcohol
+d)  Warm handshake (may linger); hand over heart gesture for senior officials; titles always ('Your Excellency'); social warmth immediately
+e)  Very strict hierarchy; most senior sits farthest from the door (place of honor); age and institutional rank determine all seating positions
+f)  Most senior guest departs first; others follow in order; farewell is formal and reserved — extended warmth is expressed through the bow, not through prolonged physical departure
+@EX 8C:  Role-Play: Formal Toast at a Bilateral Dinner
+@INSTR Work in pairs. Student A is the host (Daniyar Suleimenov, hosting a dinner for the French and German delegations). Student B plays the most senior European guest, responding to the toast. // Practice: // 1. Daniyar delivers a formal dinner toast — warm, dignified, forward-looking, using at least one future form // 2. The European guest responds — brief, gracious, reciprocal // 3. Swap roles // Guidance for the toast: // • Address the guest(s) first: "Your Excellency, distinguished colleagues..." // • Acknowledge what has been achieved today (signing, cooperation) // • Use one future form to express what is coming // • Propose the toast with a clear invitation
+@EX 8D:  Role-Play: Welcoming a Gulf Arab Official to a Formal Reception
+@INSTR Work in pairs. Student A is Aigerim Dosanova, welcoming His Excellency Sheikh Mohammed Al-Rashidi, Deputy Foreign Minister of a Gulf state, to a formal ministry reception before a dinner. Student B plays His Excellency. // Context: His Excellency is accompanied by two senior advisers. The reception is in the ministry's formal reception room. Non-alcoholic refreshments are available. The dinner will follow in thirty minutes. // Practice: // 1. Welcome His Excellency with full formal language, warmth, and patience // 2. Offer hospitality before any business reference // 3. Follow His Excellency's lead on when to move toward the formal room // 4. One of His Excellency's advisers offers Aigerim a small wrapped gift — how does she receive it? // Guidance: Show genuine warmth, not performed protocol. His Excellency will test whether his hosts are comfortable in this register — not whether they have memorized a script.
+@EX 8E:  Closing Discussion: Your Country's Dual Register and Your Commitment
+@INSTR This is the final discussion of the course. In a small group, discuss the questions below. Use future forms to express your personal commitments. (Aim for 3–4 sentences per answer.)
+@BULLET
+Kazakhstan sits between Europe, Russia, China, and the Turkic world. What unique cultural strengths does your country bring to diplomacy that other countries cannot easily replicate?
+What is one thing you will do differently in your work as a result of this course? Use a future form to express your commitment.
+What message do you want to carry from this course into your professional work as a representative of your country?

@@ -1,0 +1,10 @@
+@TITLEPAGE English for Foreign Ministry Staff Members (B1.1) | B1.1 | By Mohamad Khorbatli | 2026
+@BREAK
+@TOCHEAD Table of Contents
+@TOC
+Unit 1: Unit 1: Welcoming the World — First Contact at the Ministry
+Unit 2: Unit 2: Facilitating Meetings — Coordinating with Foreign Counterparts
+Unit 3: Unit 3: Telling the National Story — Explaining Policies, Programs, and Progress
+Unit 4: Unit 4: Building Bridges — Correspondence, Cooperation, and Future Vision
+Unit 5: Unit 5: Opening Doors — Economic Diplomacy and Investment Facilitation
+@BREAK

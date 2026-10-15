@@ -1,0 +1,365 @@
+@VOICES Klaus | B | Minister | Dawit
+@UNITHEAD Unit 5: Unit 5: Opening Doors — Economic Diplomacy and Investment Facilitation
+@PART Warm Up | Warm Up
+@EX W-A:  Pair Discussion – Opening Doors
+@INSTR Talk with a partner about the following: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you already know about your country's main economic sectors that might attract foreign investment? Name at least three and briefly explain one.
+What do you think is the biggest challenge for a foreign investor considering your country right now? What can the Ministry of Foreign Affairs do to address it?
+Complete with your partner: "My country has the potential to attract significant investment in ___, ___, and ___ because ___." Then share your reasoning with the class.
+@EX W-B:  Group Brainstorm – Your Country's Investment Partners
+@INSTR In small groups, discuss and list the following. Share your findings with the class. (Aim for 3–4 sentences when you share.)
+@BULLET
+Name five types of foreign investor or partner who might come to your country now and what each one is primarily looking for.
+@EX W-C:  Grammar Review – Future Forms
+@INSTR Quick grammar review from Unit 4. Choose the correct future form for each sentence.
+@LINE 120
+1. The ministry ____________________ (provide) a full legal framework document to any investor who requests one.
+2. The infrastructure feasibility study ____________________ (begin) in January — the site assessments are already booked.
+3. Dawit and the Richter delegation ____________________ (meet) on Thursday at ten o'clock — the room is confirmed.
+4. If investment conditions remain stable, the number of bilateral agreements ____________________ (grow) significantly next year.
+5. The Investment Promotion Agency ____________________ (launch) the single-window process in September — the decision was made last month.
+
+@PART 1 | Part 1
+@EX 1A:  Match and Understand
+@INSTR Match each term (1–7) with its correct definition (A–G).
+@COLHEAD Column A
+@MATCH
+1. | Free zone |
+2. | Tax incentive |
+3. | Feasibility study |
+4. | Letter of intent |
+5. | Investment climate |
+6. | Due diligence |
+7. | Joint venture |
+@COLHEAD Column B
+@MATCH
+a) | Has special customs and tax benefits designed to attract foreign companies
+b) | A formal written document signed by an investor indicating serious intention to proceed with a business partnership or investment
+c) | A comprehensive investigation carried out by an investor before committing to a deal, covering financial, legal, and operational risks
+d) | A financial benefit granted by the government to encourage companies to invest in a specific sector or location
+e) | The combination of legal, political, economic, and regulatory conditions that shape how attractive a country is for foreign investment
+f) | A detailed analysis that assesses whether a proposed investment project is technically, financially, and legally viable
+g) | A formal business partnership where two or more companies create a shared enterprise, dividing ownership, responsibilities, and profits
+@EX 1B:  Who Am I? – Investor Role Cards
+@INSTR Each student receives an investor role card. First, introduce yourself as the investor in fluent English. Then swap — your partner plays the ministry reception officer and you play the investor. Take turns with each card. (Aim for 30–40 seconds per card.) // Useful Language: // • "My name is ___ and I am the ___ at ___." // • "We are interested in investing in ___ in your country." // • "I am here to discuss ___." // • "We have been exploring opportunities in ___ for ___." // • "If the conditions are right, we would be prepared to ___."
+@LINE
+1. Card 1:
+Name: Klaus Richter
+Title: Managing Director, Richter Infrastructure GmbH (Germany)
+Background: Visited the Ministry last year as an exploratory trip. Now returning with a full delegation, seriously considering a joint venture in road construction and energy distribution. His company has 20 years of experience in East African and Middle Eastern infrastructure projects.
+2. Card 2:
+Name: Ms. Fatima Al-Sayed
+Title: Investment Director, Gulf Development Fund, Kuwait
+Background: First visit. She represents a Gulf sovereign investment fund interested in agriculture and food security projects. Looking for a large-scale land-and-production joint venture with a guaranteed water rights framework.
+3. Card 3:
+Name: Mr. David Chen
+Title: Country Representative, United Nations Development Programme (UNDP)
+Background: Not a commercial investor — UNDP is seeking to co-design a public-private investment facilitation framework with the Ministry that would channel donor funding and private capital into the country's priority development sectors.
+@EX 1C:  Group Discussion – Matching Investors to Ministry Resources
+@INSTR For each of the three investors in exercise 1B, discuss in small groups: Which office or department should handle them? What information or documentation does each investor need before they can proceed? What concerns might each investor have, and how can the Ministry address them? (Aim for 3–4 sentences per answer.)
+@BULLET
+Which office handles Klaus Richter and what does he specifically need?
+What does Ms. Al-Sayed specifically need and what concerns is she likely to bring?
+How is Mr. Chen's visit different from the commercial investors' visits, and what does it require from the Ministry?
+@EX 1D:  Vocabulary Practice: Using the Words in Sentences
+@INSTR Complete each sentence with the correct word or phrase from the list below.
+@WORDBANK
+@BANK
+due diligence | free zone | letter of intent
+investment climate | joint venture |
+@GAP
+1. Before signing any agreement, Richter Infrastructure GmbH carried out a comprehensive ____________________ of the country's legal and regulatory environment.
+2. The Ministry of Foreign Affairs encouraged the German delegation to visit the Dire Dawa ____________________, where foreign companies benefit from reduced taxes and simplified customs procedures.
+3. After three months of negotiations, both parties signed a ____________________, confirming their commitment to proceed with the infrastructure joint venture project.
+4. The country's improving ____________________ is attracting a growing number of European and Gulf investors who had previously taken a wait-and-see approach.
+5. The Gulf Development Fund proposed a ____________________ with a national agricultural company, dividing ownership equally and sharing both the investment and the returns.
+
+@PART 2 | Part 2
+@EX 2A:  Noticing Grammar
+@INSTR Listen carefully to this conversation between Dawit Bekele and Klaus Richter during an investment briefing at the Ministry:
+@SUBBAR Dialogue
+@SPEECH
+Dawit: Thank you for coming back, Klaus. The fact that you are here with a full team tells us a great deal.
+Klaus: We are serious, Dawit. If the legal framework provides the protection we need, we will sign a letter of intent by the end of the quarter.
+Dawit: I understand. And if we restructured the incentive package for infrastructure companies, we would attract significantly more interest from your sector across Europe.
+Klaus: That would help. Tell me — if we commit to a feasibility study, how long will the approval process take?
+Dawit: If you submit your application through the Investment Promotion Agency, we will fast-track the review. We are targeting a 30-day turnaround.
+Klaus: Good. And hypothetically — if you set up a fully dedicated investment processing office, your average lead time would drop by half.
+Dawit: We know. That is something we are actively working on.
+@EX 2B:  Grammar Focus Box
+@INSTR Complete the table below using the rules provided.
+@GRID
+First Conditional | Second Conditional
+ |
+Structure: If + present simple, will + infinitive. Example: "If the country improves its legal framework, investors will commit." / "If you submit the application, we will fast-track it." | Structure: If + past simple, would + infinitive. Example: "If we restructured the package, we would attract more interest." / "If you opened a dedicated office, processing time would drop."
+@CHOICES
+a)  Used for hypothetical, imagined, or unlikely situations. The speaker is describing something that is not happening now or is not expected to happen.
+b)  Used for real, probable, or likely situations and their results. The speaker believes the condition could actually happen.
+@EX 2C:  Guided Practice
+@INSTR Complete each sentence with the correct conditional form of the verb given.
+@LINE 120
+1. If the Ministry ____________________ (publish) the updated investment guide this month, Klaus's board will make a decision by the end of the quarter.
+2. If the government ____________________ (reduce) the corporate tax rate in free zones, even more European companies would consider relocating their regional headquarters.
+3. If Ms. Al-Sayed ____________________ (visit) the Awash Valley agricultural zone, she will see the full scale of the opportunity.
+4. We ____________________ (attract) triple the investment if we had a fully functional one-stop-shop processing centre.
+5. If the due diligence report confirms the legal framework is solid, the German delegation ____________________ (proceed) to the next stage.
+6. If the Ministry ____________________ (partner) with UNDP on the facilitation framework, the process would become significantly more efficient.
+@EX 2D:  Error Correction
+@INSTR Find and correct the grammar mistake in each sentence:
+@LINE 60
+1. If the investment climate will improve, more companies will come.
+@RULE
+@LINE 60
+2. If we would restructure the incentive package, we attract more European investors.
+@RULE
+@LINE 60
+3. If Klaus submits the application, we would fast-track the review.
+@RULE
+@LINE 60
+4. The country would receive more investment if it sets up a dedicated investor services office.
+@RULE
+@EX 2E:  Speaking Practice
+@INSTR In pairs, ask and answer these questions using full sentences. Use the First Conditional for real possibilities and the Second Conditional for hypothetical ideas. (Aim for 1–2 sentences per answer.)
+@BULLET
+What will happen if your country successfully completes its first major infrastructure joint venture with a European company?
+If you could change one thing about your country's current investment process, what would it be and why?
+What would happen if more Gulf sovereign funds committed to agricultural projects in your country?
+What will you personally do differently in investor meetings after studying this unit?
+
+@PART 3 | Part 3
+@EX 3A:  Before You Listen: Predict and Discuss
+@INSTR Look at these four investment diplomacy scenarios. In pairs, discuss the questions below before you listen.
+@BULLET
+Klaus Richter's delegation has just arrived at the Ministry. Dawit is welcoming them in the conference room. What will Dawit say in his opening? What will Klaus's first question be?
+At an investor Q&A session, an investor named Nadia asks Meron, a ministry officer: "What guarantees can you offer that our investment will be protected if the political situation changes?" How should Meron respond using conditional language?
+Dawit calls Klaus on the phone to discuss the due diligence timeline. Klaus says his board needs the legal framework summary in writing before they will approve the next step. What does Dawit say?
+At a signing ceremony for a letter of intent with a European company, the Minister and the investor's CEO are giving a joint press statement. What kind of language do you expect? What tone?
+@EX 3B:  First Listening: Understanding the Investment Conversations
+@AUDIO 🔊 Audio Track 5.14
+@INSTR Listen carefully to the four investment diplomacy scenarios. For each dialogue, answer the questions that follow.
+@PLAYNOTE 🔊 Click to play each dialogue (requires VBA macro – see instructions)
+@DBAR Dialogue 1
+@SPEECH
+Dawit: Welcome, Klaus, and welcome to the whole delegation. We are genuinely glad to have you back. Please take a seat — I will walk you through where we are and what we can offer.
+Klaus: Thank you, Dawit. My board sent this team because they want to move from exploration to commitment. What we need to know is simple: if the legal conditions are solid, what happens next?
+Dawit: If your feasibility study confirms the technical and financial viability, we will assign a dedicated case officer from the Investment Promotion Agency to your project. The approval process will be fast-tracked. We are targeting thirty days.
+Klaus: Thirty days. That is workable. What about profit repatriation?
+Dawit: National investment law guarantees full profit repatriation rights for foreign companies operating under a registered joint venture agreement. If any issue arises, you have full legal recourse under the same framework.
+Klaus: Good. Let us proceed.
+@DBAR Dialogue 2
+@SPEECH
+Nadia: I need to be direct. My principals want to know: if the political situation changes again, what protection do we have?
+Meron: That is exactly the right question to ask, and I respect your directness. If you sign a registered investment agreement with us, you are protected under national investment law, which includes an international arbitration clause. If something unexpected were to happen that affected the business environment, that clause gives you full legal recourse through international courts.
+Nadia: And has that framework been tested?
+Meron: It has not been challenged yet, because we are in the early stages of this engagement. But I want to be clear — if we did not have full confidence in this framework ourselves, we would not be inviting serious investors to commit to it.
+@DBAR Dialogue 3
+@SPEECH
+Dawit: Klaus, I wanted to follow up on our meeting. You mentioned your board needs the legal summary in writing.
+Klaus: Yes. If I have it in writing before Thursday, I can present it to the board on Friday and we will have a decision by Monday.
+Dawit: I will send it to you tomorrow morning. It will cover: investment law, free zone regulations, profit repatriation, and the arbitration clause. If you have any questions after reading it, call me directly.
+Klaus: Perfect. And if the board approves, can we meet with the Investment Promotion Agency the same week?
+Dawit: Absolutely. If you confirm approval on Monday, I will arrange the Agency meeting for Tuesday or Wednesday. We are ready to move quickly.
+@DBAR Dialogue 4
+@SPEECH
+Minister: Today marks an important step in our economic opening. We are committed to providing full legal protection for every legitimate foreign investment in this country. If you invest here, you will find a partner that respects its commitments.
+Klaus: And for our part — Richter Infrastructure GmbH is committed to bringing our full technical expertise to this country's development. If the feasibility study confirms what we believe, we will be proud to build something lasting here together.
+Minister: We are ready. We are open. And if you are looking for your next major opportunity, you will find it here.
+@SP 200
+@PLAIN
+1. In Dialogue 1, what does Dawit promise Klaus will happen if the feasibility study confirms viability?
+2. In Dialogue 2, how does the ministry officer respond to the investor's concern about political risk?
+Thinking Guide: The officer does not dismiss the concern. Instead, she addresses it ___ with conditional language. She uses the ___ Conditional for the guarantee ("If you sign with us...") and the ___ Conditional for the hypothetical ("If we did not have confidence in this framework..."). (Think about: directly / First / Second)
+3. In Dialogue 3, what specific commitment does Dawit make to Klaus on the phone?
+4. In Dialogue 4, what two things does the Minister say the country is committed to in the joint press statement?
+@EX 3C:  Choose the Correct Response
+@INSTR Listen to each investor's question and choose the correct ministry officer response:
+@MCQ
+🔊 1.  If we decide to invest, how long will it take to get all the necessary approvals?
+a)  It depends. Maybe two or three months.
+b)  If you submit through the Investment Promotion Agency, we will fast-track the process and target a 30-day review.
+🔊 2.  What happens if the legal situation changes after we have committed?
+a)  We cannot predict the future.
+b)  If you sign a registered agreement, you are protected by an international arbitration clause that guarantees full legal recourse regardless of any domestic changes.
+🔊 3.  We would commit more capital if the incentive package were stronger. Is there flexibility?
+a)  The incentive package is fixed. We cannot change it.
+b)  If you are investing above a certain threshold, additional incentives may apply. I would like to arrange a meeting with our Investment Promotion Agency to discuss your specific situation.
+🔊 4.  If we sign a letter of intent now, what exactly does that commit us to?
+a)  It means you are serious about investing.
+b)  A letter of intent is a statement of serious intention — it does not commit you to a financial obligation, but it confirms your intent to proceed to feasibility study and signals that both sides will work in good faith toward a final agreement.
+@EX 3D:  Useful Phrases Box
+@INSTR Listen to and write down five phrases commonly used in investment diplomacy meetings at the Ministry. Then practise saying them aloud with a partner, focusing on a confident, professional tone.
+@NRULE 5
+
+@PART 4 | Part 4
+@EX 4A:  Dialogue Practice: Your Investment Briefing Script
+@INSTR In a professional investment meeting, you represent your country's economic opportunity. Use the guide below and the role cards to practise a complete briefing interaction. (Each turn: 2–3 sentences per speaker.) // Guide: // • Open by welcoming the investor and stating the purpose // • Give a brief overview of the relevant sector // • Address a specific investor concern using conditional language // • Offer a concrete next step (meeting with IPA, written summary, site visit) // Work in pairs. One student is the Ministry economic affairs officer. The other is the investor (choose one card below). Swap roles after each practice. // Card A: Klaus Richter — infrastructure and energy, returning, data-driven, wants legal certainty // Card B: Ms. Fatima Al-Sayed — agriculture and food security, first visit, interested in scale and stability // Card C: A South Korean tech company representative — telecommunications infrastructure, first visit, needs to understand the digital economy framework // Useful Language: // • "Thank you for visiting the Ministry today. I would like to begin with a brief overview of ___." // • "If you proceed to the feasibility study stage, we will ___." // • "If you were to invest above ___, you would qualify for ___." // • "I would like to arrange a meeting with the Investment Promotion Agency for ___." // • "If you have any concerns about the legal framework, I can provide ___."
+@EX 4B:  Role-Play: National Investment Forum – Panel Discussion
+@INSTR You are participating in a panel discussion at the National Development and Investment Forum in Addis Ababa. Ministry officials and investors are presenting and responding to questions about the country's priority investment sectors. Choose one role card and prepare a 3–4 sentence contribution. Use conditional language in at least one sentence. // Self-Introduction Template: // "Good morning. My name is ___. I am a ___ at / from ___. Our main interest today is ___. If ___, we ___." // Card 1: Dawit Bekele — Moderator and Economic Affairs Specialist, Ministry of Foreign Affairs — opens the panel and invites contributions // Card 2: Klaus Richter — Managing Director, Richter Infrastructure GmbH — presents his company's investment interest // Card 3: Ms. Fatima Al-Sayed — Investment Director, Gulf Development Fund — presents Gulf interest in agriculture // Card 4: Selamawit Tesfaye — Investment Facilitation Officer, Ministry of Foreign Affairs — manages the logistics and keeps the panel on schedule
+@EX 4C:  Group Discussion: What Makes an Investment Pitch Work?
+@INSTR Discuss the following questions in a small group based on the role-plays and presentations in exercises 4A and 4B. (Aim for 3–4 sentences per answer.)
+@BULLET
+Which briefings felt most persuasive? What specifically made them work?
+How does using conditional language make a ministry officer sound more professional when answering investor concerns?
+What is the biggest mistake a ministry officer can make when pitching to a hesitant investor?
+
+@PART 5 | Part 5
+@EX 5A:  Read the National Development and Investment Forum Profile
+@INSTR Read the profile of the National Development and Investment Forum. Pay attention to the purpose, the sectors covered, the participating delegations, and the outcomes.
+@PANEL
+The National Development and Investment Forum
+The National Development and Investment Forum is an annual international event organised by the Ministry of Foreign Affairs in partnership with the Investment Promotion Agency and the Ministry of Finance. The Forum brings together foreign investors, development banks, international organisations, and government officials to explore investment opportunities across the country's priority development sectors.
+The 2025 Forum, held in Addis Ababa over two days, attracted delegations from 24 countries, including Germany, France, Kuwait, Saudi Arabia, South Korea, Italy, and India. A total of 87 companies and financial institutions participated, alongside representatives from the World Bank, the African Development Bank, the Islamic Development Bank, and seven UN agencies.
+The Forum focused on five priority investment sectors: infrastructure and transportation, energy (conventional and renewable), agriculture and food security, housing and urban development, and telecommunications and digital infrastructure.
+During the Forum, three letters of intent were signed: one between Richter Infrastructure GmbH and the Investment Promotion Agency for a road construction feasibility study in the eastern corridor; one between the Gulf Development Fund and the Ministry of Agriculture for an agricultural joint venture study in the Awash Valley; and one between a South Korean telecommunications consortium and the Ministry of Communications for a digital infrastructure framework agreement.
+The Forum also featured a panel discussion on investment law reform, a series of bilateral meetings between ministry officials and company representatives, and a cultural evening hosted by the Protocol Department showcasing the country's heritage. The Ministry of Foreign Affairs has confirmed that the 2026 Forum will expand to three days and will include an investors' site visit programme to priority development zones.
+@LINE
+1. Who organises the National Development and Investment Forum and with which partners?
+2. How many countries and participating organisations attended the 2025 Forum?
+3. What are the five priority investment sectors covered by the Forum?
+4. Which three letters of intent were signed at the 2025 Forum and between which parties?
+5. What has the Ministry confirmed about the 2026 Forum?
+@EX 5B:  Reading Comprehension: Discussion Questions
+@INSTR In pairs or small groups, discuss the questions below about the Forum profile. (Aim for 3–4 sentences per answer.)
+@BULLET
+What does the participation of 24 countries and 87 companies tell us about the country's investment position in 2025?
+@PBULLET
+Thinking Guide: Twenty-four countries sending delegations suggests that the country's diplomatic ___ is working. Eighty-seven companies means the interest is not just ___ — it is commercial. The presence of development banks like the ___ signals that multilateral institutions also see the country as a serious partner now. (Think about: re-engagement / political / World Bank)
+@BULLET
+Why are the three letters of intent signed at the 2025 Forum significant, even though they are not yet full investment agreements?
+What role does the Ministry of Foreign Affairs play in the Forum that goes beyond its typical diplomatic function?
+@PBULLET
+Thinking Guide: The Ministry is not just organising ___ — it is actively ___ investment. It brings together the investors, the government ___, and the development banks in one room. This makes the Ministry a kind of ___ for the country's development. (Think about: events / facilitating / ministries / bridge)
+@BULLET
+If you were advising the Ministry on the 2026 Forum, what one change would you recommend and why?
+@EX 5C:  Language in Context: Conditional Structures in Investment Writing
+@INSTR The sentences below use conditional structures from the investment pitch and Forum context you have studied in this unit. Complete each sentence with the correct word or phrase. Think about whether the situation is real and likely (First Conditional: if + Present Simple + will) or hypothetical (Second Conditional: if + Past Simple + would). These structures are essential for the investment correspondence you will write in Part 6.
+@ITEMNO 1
+@GAP
+1. If you confirm your attendance by 1 June, our Economic Affairs team ____________________ arrange a dedicated bilateral meeting to discuss your specific investment interests.
+@WORDLIST Word list:  a)  will          b)  would          c)  should          d)  can
+@ITEMNO 2
+@GAP
+2. If the legal framework is clear, the company ____________________ commit to a feasibility study immediately — this is what investors have confirmed directly.
+@WORDLIST Word list:  a)  will          b)  would          c)  should          d)  may
+@ITEMNO 3
+@GAP
+3. If your delegation ____________________ the Forum this year, you will find the investment landscape more advanced than you may currently expect.
+@WORDLIST Word list:  a)  attends          b)  attended          c)  will attend          d)  would attend
+@ITEMNO 4
+@GAP
+4. If you submit your application through the Investment Promotion Agency, we ____________________ fast-track the review — our target processing time is 30 days.
+@WORDLIST Word list:  a)  will          b)  would          c)  should          d)  shall
+@ITEMNO 5
+@GAP
+5. If the government ____________________ targeted tax incentives for foreign agricultural investment, interest from European partners would increase significantly.
+@WORDLIST Word list:  a)  introduced          b)  introduces          c)  will introduce          d)  has introduced
+@ITEMNO 6
+@GAP
+6. If investment conditions remain stable, the number of signed bilateral agreements ____________________ significantly over the next three years.
+@WORDLIST Word list:  a)  will grow          b)  would grow          c)  grows          d)  should grow
+
+@PART 6 | Part 6
+@EX 6A:  Model Writing – Sample Investment Correspondence
+@INSTR Read the three model texts below. Notice the formal tone, the clear structure, and the use of conditional language. Then complete each text using the word list provided after it.
+@DOCHEAD Formal Invitation Letter to a Business Delegation
+@GAP
+1. Dear Mr. Richter, //  On behalf of the Ministry of Foreign Affairs, I have the ____________________ of inviting you and your delegation to participate in the National Development and Investment Forum, to be held in Addis Ababa on 14–15 October 2025. The Forum will bring together international investors, development partners, and government officials to ____________________ investment opportunities across the country's priority development sectors. We believe that if your delegation ____________________ the Forum, you will find the conversations highly productive and the investment landscape more advanced than you may expect. //  We look forward to welcoming you to Addis Ababa. //  Yours sincerely, //  Dawit Bekele
+@WORDLIST Word list:  a)  honour          b)  explore          c)  attends
+@DOCHEAD Follow-Up Email After an Investment Meeting
+@GAP
+2. Dear Ms. Al-Sayed, //  Thank you for your visit to the Ministry yesterday and for the constructive ____________________ we had regarding agricultural investment opportunities in our country. As agreed, I am attaching the full legal framework ____________________ for the Awash Valley joint venture zone. If you have any questions after reviewing it, please do not ____________________ to contact me directly. //  I look forward to arranging your meeting with the Investment Promotion Agency at a time that is convenient for you. //  Best regards, //  Dawit Bekele
+@WORDLIST Word list:  a)  discussion          b)  document          c)  hesitate
+@DOCHEAD Briefing Note Introduction – Priority Investment Sectors
+@GAP
+3. This briefing note ____________________ an overview of the country's three highest-priority investment sectors for the 2025–2026 period: infrastructure, energy, and agriculture. Each sector ____________________ significant opportunities for both commercial investors and development finance institutions. If you require more ____________________ information on any specific sector, the Investment Promotion Agency can provide a detailed sector profile on request.
+@WORDLIST Word list:  a)  presents          b)  contains          c)  detailed
+@EX 6B:  Writing Investment Correspondence from Data
+@INSTR Using the given information, write the following three items in formal English. Follow the structure and tone of the models in exercise 6A. // Writing Task 1 — Formal Letter of Invitation: // • From: Selamawit Tesfaye, Investment Facilitation Officer, Ministry of Foreign Affairs // • To: Ms. Elena Popescu, Cultural Affairs Director, Romanian Embassy // • Purpose: Invite her delegation to a bilateral cultural and investment coordination meeting, 22 November 2025 // • Key message: The country's cultural heritage creates unique soft-power opportunities for investment promotion; joint programming is possible // • Closing: Express confidence that if the meeting goes well, it will open the door to deeper cooperation // Writing Task 2 — Follow-Up Email Summary: // • From: Dawit Bekele // • To: Klaus Richter // • Context: Summary of the meeting on 14 October; three agreed next steps (1. Ministry sends legal framework document; 2. Klaus presents to board by Friday; 3. IPA meeting to be arranged for following week if board approves) // • Tone: Professional, collegial; has worked together before // Writing Task 3 — Briefing Note Paragraph (3–4 sentences): // • Sector: Telecommunications and digital infrastructure // • Key facts: The country has 22 million potential mobile subscribers; 4G coverage is currently at 60% of populated areas; a South Korean consortium has signed a letter of intent; if a full investment agreement is reached, 4G coverage will reach 90% within three years // • Audience: Senior ministry official who will brief the foreign minister
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6C:  Analyse the Parts of a Formal Investment Letter
+@INSTR Match each part (1–5) with its correct function (A–E).
+@COLHEAD Column A
+@MATCH
+1. | Subject Line |
+2. | Formal Salutation |
+3. | Purpose Statement (Paragraph 1) |
+4. | Content Paragraph (Paragraph 2) |
+5. | Conditional Next Step (Paragraph 3) |
+6. | Formal Close |
+@COLHEAD Column B
+@MATCH
+a) | Provides the relevant details: dates, topics, attached documents, agreed actions
+b) | Makes the topic immediately clear and professional
+c) | Expresses continued engagement and provides contact details
+d) | Clearly states why you are writing in the first sentence
+e) | States what will happen if the reader acts — gives a clear, conditional pathway forward
+f) | Opens respectfully; always use the recipient's full title and family name
+@EX 6D:  Your Turn: Write a Formal Investment Invitation Letter (100–120 words)
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Decide on your context. Who is the letter from? Who is it to? What event or meeting are you inviting them to? // Step 2: List your key information — the date, the purpose, the main investment sector you are highlighting, and one conditional sentence showing what will happen if they attend or respond. // Step 3: Choose your tone — formal and warm. This is an invitation, not a legal document. The reader should want to come. // Your letter must include: // • A formal subject line // • A formal greeting (use the recipient's full title and name) // • A clear purpose statement in the first sentence // • At least one First Conditional sentence offering a clear benefit or next step // • A polite closing with your name and position // Peer Feedback Activity // Exchange your letter with a partner and use this checklist: // • Is the tone formal and welcoming throughout? // • Is at least one First Conditional used correctly? // • Are all required parts present? // • Is the language concise — no unnecessary repetition? // • Are there any spelling or punctuation errors?
+@WRITE 📝 Write your response below:
+@LINES 10
+@EX 6E:  Optional Extension: Write a Briefing Note on a Priority Investment Sector
+@INSTR Before You Write — Plan in three steps before you start: // Step 1: Choose your sector (infrastructure, energy, agriculture, housing, or telecommunications). Decide who will read the note (a senior official briefing the foreign minister). // Step 2: List your key facts — the current state of the sector, the investment opportunity, any letters of intent or confirmed interest, and one conditional outlook sentence. // Step 3: Structure your note with: a heading, a one-sentence summary, a paragraph on the opportunity, and a closing recommendation. // Now write your briefing note (80–100 words). Your note should: // • Use a clear heading (e.g., "Briefing Note: Agriculture Sector Investment Opportunities — 2025") // • State the key investment opportunity in plain, precise English // • Include at least one Second Conditional sentence exploring what could happen with greater investment // • End with a short recommendation to the senior official // • Use formal, impersonal language appropriate for an internal ministry document // Example opening: "This note provides a brief overview of investment developments in the country's [sector] sector as of [date]."
+@WRITE 📝 Write your response below:
+@LINES 10
+
+@PART 7 | Part 7
+@EX 7A:  Word Stress in Investment and Legal Vocabulary
+@AUDIO 🔊 Audio Track 5.28
+@INSTR These are key investment and legal words from this unit. Listen and repeat each word, paying attention to the stressed syllable (marked in CAPITALS). Then use each word in the sentence provided. // 1. in-VEST-ment — "Our in-VEST-ment law includes full legal protection for foreign capital." // 2. ex-pro-pri-A-tion — "The law prohibits ex-pro-pri-A-tion without fair compensation." // 3. re-pat-ri-A-tion — "The re-pat-ri-A-tion of profits is guaranteed under the bilateral agreement." // 4. IN-cen-tive — "The free zone offers a ten-year tax IN-cen-tive for registered investors." // 5. reg-u-LA-tor-y — "Our reg-u-LA-tor-y framework has been aligned with international standards." // 6. ar-bi-TRA-tion — "All disputes are resolved through international ar-bi-TRA-tion under ICSID rules." // 7. con-CES-sion — "The port con-CES-sion agreement runs for thirty years." // 8. fea-si-BIL-i-ty — "The fea-si-BIL-i-ty study will be completed by the end of the year."
+@EX 7B:  Rhythm in Conditional Sentences — Sound Natural and Confident
+@AUDIO 🔊 Audio Track 5.29
+@INSTR Conditional sentences have a natural two-part rhythm: the IF-clause sets up a slight rise; the RESULT-clause lands with a firm, confident fall. This rhythm signals to your listener that you are certain of what you are saying. // Practice tips: // • Slight upward intonation on the IF-clause: "If the conditions are right..." // • Confident downward fall on the result: "...we WILL sign." // • Pause naturally between the two clauses — do not rush through // • Avoid a flat, monotone delivery — the rhythm IS the persuasion // Practice these pairs — slightly rise on the if-clause, land firmly on the result: // 1. "If you submit the application → we will fast-track the review." // 2. "If the board approves on Monday → I will arrange the Agency meeting on Tuesday." // 3. "If the government restructured the incentive package → we would attract significantly more European interest." // 4. "If we set up a dedicated investment office → processing time would drop by half."
+@EX 7C:  Controlled Dialogue Practice
+@AUDIO 🔊 Audio Track 5.30
+@INSTR Partner activity: Read the dialogue below naturally, paying attention to word stress and the rise-fall rhythm of conditional sentences. Then repeat the dialogue using your own name, sector, and a real investment question from your work context.
+@SUBBAR 🎤 Practice Script | 150
+@SPEECH
+A: Good morning, Mr. Richter. Welcome back to the Ministry.
+B: Thank you. We are here because we are serious. If the legal framework is solid, we are ready to move.
+A: I understand. If you submit your application through the Investment Promotion Agency, we will fast-track the review. We are targeting thirty days.
+B: Thirty days. That is workable. If we commit to the feasibility study, what happens next?
+A: If the feasibility study confirms viability, we will assign a dedicated case officer and move to agreement stage. We are ready to move quickly.
+@SP 120
+@EX 7D:  Practice and Record
+@AUDIO 🔊 Audio Track 5.31
+@INSTR Record your investment briefing opening (30–40 seconds). Include: // • Welcome the investor delegation // • Introduce yourself and your role // • State the key investment opportunity in one sentence // • Use at least one First Conditional to offer a clear next step // Listen back and check: // • Did you stress key content words clearly — especially in conditional clauses? // • Was your rise-fall rhythm on conditionals natural and confident? // • Did you pause between the if-clause and the result clause? // • Did you sound confident and professional — not rushed or flat? // Record a second version if needed. Compare the two and identify the specific improvement.
+
+@PART 8 | Part 8
+@EX 8A:  Understanding Business Culture Differences in Investment Meetings
+@INSTR You are hosting two important investment meetings today: // 1. Klaus Richter — German investor, Richter Infrastructure GmbH — data-driven, direct, experienced in East African and Middle Eastern markets // 2. Ms. Fatima Al-Sayed — Investment Director, Gulf Development Fund, Kuwait — first visit, relationship-oriented, representing a sovereign fund with a long investment horizon // Both meetings are important. Both require excellent preparation. But the cultural expectations are very different. Note: the tendencies below are useful generalisations — individual people vary within any culture, and the most effective officers adapt to the specific person in front of them, not just to a cultural profile. In small groups, discuss the following: (Aim for 3–4 sentences per answer.)
+@BULLET
+What do you already know about German and Gulf business culture in terms of meeting style, decision-making pace, and the role of personal relationships?
+How might the language and the meeting flow differ between these two contexts?
+What does "yes" mean in each business culture, and what does silence mean?
+@EX 8B:  Business Culture Comparison Table
+@INSTR Fill in the empty cells in the table below using the answer choices that follow:
+@GRID
+Aspect | German / European Investor | Gulf Arab Investor
+Meeting Opening |  |
+Decision-Making Style |  | Relationship-driven; trust must be established before commitment; decisions involve senior consultation
+What "Yes" Means | A firm, binding commitment; expected to be honoured precisely |
+Communication Style |  | Indirect on sensitive points; relationship is valued over blunt efficiency
+Follow-Up Expectations | Prompt written follow-up expected; all agreed actions documented |
+Role of Hospitality | Polite but functional — not a significant factor in decision-making | Very significant; how you receive and host a Gulf visitor directly affects their confidence in you as a partner
+@CHOICES
+a)  Warm and ceremonial; express honour and gratitude; offer refreshments before business
+b)  Direct and professional; move to agenda quickly
+c)  Often signals interest or acknowledgement, not yet a binding commitment; follow up to confirm
+d)  Data-driven; decisions made after reviewing specific documentation and legal analysis
+e)  Follow-up should begin with a warm personal message before moving to documentation
+f)  Direct and precise; specific questions expect specific answers
+@EX 8C:  Role Play: Hosting Klaus Richter — the German Investment Meeting
+@INSTR Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). The other is Klaus Richter (Managing Director, Richter Infrastructure GmbH). Klaus is data-driven, direct, and wants specific answers. (Each turn: 2–3 sentences per speaker.) // Context: This is the second meeting. Klaus has received the legal framework document. He has three direct questions. // Key language tips: Be precise and direct. Answer his questions with specific conditional language. Offer a clear next step. Do not be vague. // Useful phrases: // • "If you submit the application, we will ___." // • "The legal framework provides ___ — here is the specific clause." // • "If the board approves on Monday, I will arrange ___ for Tuesday." // • "I understand the concern. Here is exactly what happens if ___." // • "We are ready to move quickly. The next step is ___."
+@EX 8D:  Role Play: Hosting Ms. Al-Sayed — the Gulf Investment Meeting
+@INSTR Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). The other is Ms. Fatima Al-Sayed (Investment Director, Gulf Development Fund). Ms. Al-Sayed is on her first visit. She is warm but formal, and she needs to feel respected and confident before she will move to specific details. // Context: This is the first meeting. The meeting should begin with warmth and gradually move toward specifics. // Key language tips: Begin with a ceremonial welcome. Do not rush to figures or legal documents immediately. Build comfort. When she signals readiness to discuss specifics, use conditional language to give her a clear pathway. // Ceremonial Language Bank: // • "It is a great honour to welcome you to the Ministry." // • "We deeply appreciate your visit and your interest in our country." // • "Our country and the Gulf share a long history of partnership." // • "If there is anything we can do to make your visit more productive, please tell us." // • "We believe that if we work together, we can build something of lasting value."
+@EX 8E:  Reflection Discussion
+@INSTR Talk with a partner about what you have learned in this unit about cultural differences in investment meetings. (Aim for 3–4 sentences per answer.)
+@BULLET
+What is the most important adaptation you need to make when hosting a German investor compared to a Gulf investor?
+How can a ministry officer know when it is the right moment to move from relationship-building to specific investment discussion in a Gulf meeting?
+Write down two or three phrases from this unit that you will use in your next investor meeting. Share them with the class.
+@SP 300
+@SP - | p
