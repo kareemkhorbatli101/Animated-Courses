@@ -1,0 +1,370 @@
+@UNITHEAD Unit 8: Auditing and Performance Measurement
+@PART Warm Up | Warm Up
+@EX Warm-Up: Auditing and Performance Discussion
+@INSTR Discuss why quality systems need audits and measured performance.
+_80
+@BULLET
+Why is it important for a quality system to be audited and its performance measured?
+_300
+@EX Warm-Up: Audit Types Matching
+@INSTR Match audit types with their purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Internal Audit
+2. | Process Audit
+3. | Certification Audit
+4. | Supplier Audit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Checking a supplier's system before and during a contract
+b) | Checking one production process against its written procedure
+c) | Verifying by an outside body that a standard is met
+d) | Checking our own system with our own trained auditors
+_300
+@EX Warm-Up: Types of Evidence Discussion
+@INSTR Discuss the value of using both records and observation in an audit.
+_80
+@BULLET
+What is the advantage of using both records and direct observation in an audit?
+_300
+@EX Warm-Up: Audit Findings Use Discussion
+@INSTR Discuss how factories use audit findings to make practical improvements.
+_80
+@BULLET
+How should a factory use audit findings to make practical improvements?
+_300
+@EX Warm-Up: Audit Activity Classification
+@INSTR Classify audit activities by audit stage.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning Stage
+2. On-Site Auditing
+3. Reporting Stage
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing the audit plan and choosing which processes to visit  ____________________________
+2. Interviewing an operator about how the line is cleaned  ____________________________
+3. Writing the nonconformity report and sending it to the manager  ____________________________
+4. Reading last year's findings to decide where the risks are  ____________________________
+5. Taking photographs of the labelling station and its records  ____________________________
+6. Closing-meeting presentation of findings to the quality committee  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Audit Terms Matching
+@INSTR Match auditing concepts with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Audit Scope
+2. | Audit Criteria
+3. | Objective Evidence
+4. | Nonconformity
+5. | Observation
+6. | Corrective Action
+7. | Audit Trail
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The standard or procedure the audit measures against
+b) | A weakness that does not yet break a requirement
+c) | Records that let you follow one batch from start to end
+d) | Which processes, lines and sites the audit will cover
+e) | A requirement of the standard that has not been met
+f) | Records or facts an auditor can verify, not opinion
+g) | Action taken to remove the cause of a nonconformity
+_300
+@EX Part 1: Indicator Types Matching
+@INSTR Match performance measures with their characteristics.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Lagging Indicator
+2. | Leading Indicator
+3. | Internal Measure
+4. | External Measure
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A measure that comes from outside the factory
+b) | A result after the fact, such as last month's reject rate
+c) | An early signal, such as the number of checks missed
+d) | A measure taken by our own staff on our own lines
+_300
+@EX Part 1: Audit Vocabulary Multiple Choice
+@INSTR Choose the correct answer.
+_80
+@MCQ
+1. Which statement best describes what "objective evidence" is in an audit?
+@OPT
+   ○ A) The auditor's professional opinion about the line
+   ○ B) Records or facts that another auditor could verify
+   ○ C) The number of auditors working on the audit team
+_300
+@EX Part 1: Audit Purpose Discussion
+@INSTR Discuss the elements of a strong internal audit programme.
+_80
+@BULLET
+What makes an internal audit programme effective for improving quality?
+_300
+@EX Part 1: Audit Purpose Multiple Choice
+@INSTR Choose the correct answer about audit purposes.
+_80
+@MCQ
+1. What is NOT a primary purpose of an internal audit?
+@OPT
+   ○ A) Checking whether the system meets the standard
+   ○ B) Deciding which operators should be dismissed
+   ○ C) Finding weaknesses before a customer or certifier does
+_300
+@EX Part 1: Indicator Levels Matching
+@INSTR Match quality indicator levels with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Input Measure
+2. | Process Measure
+3. | Output Measure
+4. | Customer Measure
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Incoming material quality, staff hours, calibrated gauges
+b) | First-pass yield, scrap rate, line stoppages
+c) | Finished batches released, batches held, rework
+d) | Complaints, returns, audit scores from buyers
+_300
+@EX Part 1: Finding Severity Classification
+@INSTR Classify audit findings by their severity.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Major Nonconformity
+2. Minor Nonconformity
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. No records at all for the metal detector checks this month  ____________________________
+2. Two of thirty cleaning records signed a day late  ____________________________
+3. The thermometer on the pasteuriser has never been calibrated  ____________________________
+4. One label on the sample shelf shows an old revision number  ____________________________
+5. Finished product released with no laboratory result on file  ____________________________
+6. The procedure file is not in the newest cover but is correct  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Results and Change
+@INSTR Answer using past tense structures to describe audit results.
+_80
+@NUM 100
+1. Describe what results the quality programme achieved using these words: improved, increased, reduced, reached.
+_300
+@EX Part 2: Causality Language for Findings
+@INSTR Explain how audit findings led to improvements.
+_80
+@NUM 100
+1. Explain the connection between operator training and fewer labelling errors using cause-effect language.
+_300
+@EX Part 2: Comparison Language for Indicators
+@INSTR Complete sentences comparing last year's and this year's results.
+_80
+@OPTLINE
+1. Last year, 12 percent of batches were rejected. This year, only 4 percent were rejected. The programme __________ the reject rate. | reduced | raised | eliminated | prevented
+_300
+@EX Part 2: Conditional Language for Future Audits
+@INSTR Use conditional language to discuss future audits.
+_80
+@NUM 100
+1. Write sentences about what would happen if internal audits were held every month using conditional language.
+_300
+@EX Part 2: Question Formation for Audit Interviews
+@INSTR Complete audit interview questions using correct question formation.
+_80
+@OPTLINE
+1. __________ the operator record the temperature at every check? | Did | Does | Will | Has
+_300
+@EX Part 2: Passive Voice in Reporting Findings
+@INSTR Convert active voice to passive voice describing audit findings.
+_80
+@NUM 100
+1. Rewrite this sentence using passive voice: "The audit team checked 120 batch records."
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Audit Challenges
+@AUDIO 🔊 Audio Track 8.19
+@INSTR Listen to a lead auditor describing audit challenges.
+_80
+@QUESTION
+1. What was the main challenge the lead auditor faced when trying to gather audit evidence?
+_300
+@EX Part 3: Listening to Improvement Stories
+@AUDIO 🔊 Audio Track 8.20
+@INSTR Listen to an operator describing the effect of an audit finding.
+_80
+@MCQ
+1. What specific improvement did the operator experience?
+@OPT
+   ○ A) Shorter shifts and a quieter production hall
+   ○ B) A clearer check sheet, so errors were caught at the line
+   ○ C) A higher wage and a new job title
+_300
+@EX Part 3: Listening to Continuous Improvement Discussion
+@AUDIO 🔊 Audio Track 8.21
+@INSTR Listen to staff discussing how they use audit data.
+_80
+@QUESTION
+1. Describe two ways the quality staff changed their work based on audit data.
+_300
+@EX Part 3: Listening to Indicator Discussion
+@AUDIO 🔊 Audio Track 8.22
+@INSTR Listen to a quality manager explaining a set of indicators.
+_80
+@MCQ
+1. According to the manager, what is one main "process measure" in their factory?
+@OPT
+   ○ A) Customer complaints received each quarter
+   ○ B) First-pass yield recorded for every shift
+   ○ C) Government policies supporting food manufacturers
+_300
+@EX Part 3: Listening to Finding Interpretation
+@AUDIO 🔊 Audio Track 8.23
+@INSTR Listen to an auditor discussing how to interpret mixed results.
+_80
+@QUESTION
+1. When some audit results were positive and others negative, what did the auditor recommend?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Audit Programmes
+@INSTR Read the text about audit programmes and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Effective audit programmes check every process on a planned cycle. Checklists must be simple enough for trained staff to use without a consultant. However, simple checklists can still find real weaknesses when written well. Operators should understand why the audit is happening so they support the process. Findings must be reported quickly and shared with managers and line staff. If a finding shows a risk to the product, the line should be stopped at once."
+            Is the following statement true, false, or not given? "Audit programmes require expensive software and outside consultants."
+_300
+@EX Part 4: Reading About Indicators
+@INSTR Complete the sentence based on reading about indicators.
+_80
+@NUM
+1. According to reading material, good quality indicators should be measurable, achievable, and __________.
+_300
+@EX Part 4: Reading About Data Quality
+@INSTR Read about ensuring record quality in auditing.
+_80
+@NUM 100
+1. Read: "Record quality depends on clear check sheets, well-trained operators, and regular review of completed records. Check sheets should ask for one specific value to avoid confusion. Operators should understand why each reading matters. Records should be checked for gaps and impossible values before they are filed. Line staff can help protect record quality by reviewing their own sheets and reporting errors."
+            Is the following true, false, or not given? "Line operators should never review records because they lack technical skills."
+_300
+@EX Part 4: Reading About Learning from Audits
+@INSTR Answer in your own words based on reading.
+_80
+@NUM
+1. Based on reading about organisational learning, explain why audit findings should be widely shared rather than kept only in the audit file.
+_300
+@EX Part 4: Reading About Root Cause Logic
+@INSTR Read about root cause logic.
+_80
+@NUM 100
+1. Read: "Root cause logic explains the relationship between a corrective action and the result expected from it. It shows how an action is supposed to remove a cause. For example, if we rewrite the check sheet, operators will record the right value. If they record the right value, a drifting temperature is seen early. If it is seen early, the batch is corrected before release. If batches are corrected before release, customer complaints fall. Root cause logic helps staff understand the path from one action to the long-term result."
+            According to the text, does having clear root cause logic eliminate quality risks?
+_300
+@EX Part 4: Reading About Fairness in Auditing
+@INSTR Complete using information from reading about fair auditing.
+_80
+@NUM
+1. What specific question should a fair audit answer about where findings fall?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Discussing Audit Findings
+@INSTR Role-play a conversation about internal audit findings.
+_80
+_300
+@EX Part 5: Presentation - Creating Learning Cultures
+@INSTR Prepare a short presentation (2-3 minutes) about building a learning culture.
+_80
+@NUM 100
+1. Present on: "How Factories Can Use Audits to Build a Learning Culture Instead of Just Blame." Include: definition of learning culture; how auditing supports learning; specific examples; operator involvement; sharing failures and successes; building collective knowledge; how this improves quality.
+_300
+@EX Part 5: Discussion - Using Data for Decision Making
+@INSTR Discuss challenges and solutions for using quality data in decision-making.
+_80
+@BULLET
+What are common barriers to using quality data in factory decisions and how can a plant overcome them?
+_300
+@EX Part 5: Role Play - Receiving Critical Feedback
+@INSTR Role-play receiving and responding to a critical audit finding.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing an Audit Summary
+@INSTR Write about internal audit findings and what they mean.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Data Use Plan
+@INSTR Write about how your plant will use its quality data.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Indicator Set
+@INSTR Write out the quality indicators you would track for one line.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Audit Programme Proposal
+@INSTR Write a proposal for an internal audit programme for your plant.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Thai Values - Honest Measure and Oversight
+@INSTR Discuss Thai traditions of market inspection in factory auditing.
+_80
+@NUM 100
+1. In Thai markets, royal inspectors checked every weight and scale and answered to all. How does this connect to internal auditing and honest measurement?
+_300
+@EX Part 7: Thai Values - Fairness in Using Findings
+@INSTR Connect Thai principles of fairness to the fair use of audit findings.
+_80
+@NUM 100
+1. Khwam pen tham means giving each person their due. How should this guide the way a plant reports and acts on audit findings?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 8 Concepts Review Matching
+@INSTR Match Unit 8 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Audit Criteria
+2. | Indicator
+3. | Nonconformity
+4. | Internal Audit
+5. | Corrective Action
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A requirement of the standard that has not been met
+b) | The standard or procedure the audit measures against
+c) | Checking our own system with our own trained auditors
+d) | Action taken to remove the cause of a problem
+e) | Measurable sign showing progress toward a quality goal
+_300
+@EX Part 8: Audit System Purposes Review
+@INSTR Choose the best answer about audit purposes in Unit 8 material.
+_80
+@MCQ
+1. Which is the most important reason for a plant to have a strong internal audit programme?
+@OPT
+   ○ A) To gather paperwork for certifiers only
+   ○ B) To blame operators when results are poor
+   ○ C) To find weaknesses early, learn what works, and keep improving
+_300

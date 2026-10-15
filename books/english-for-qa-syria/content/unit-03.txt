@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Worker
+@UNITHEAD Unit 3: Standards, Codes and Certification Bodies
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Are Standards?
+@INSTR Discuss your understanding of technical standards.
+_80
+@BULLET
+What do you know about technical standards and the organizations that write them?
+_300
+@EX Warm-Up: Matching - Product Hazards
+@INSTR Match product hazards with appropriate control requirements.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Microbiological contamination
+2. | Foreign body
+3. | Wrong label or allergen
+4. | Out-of-tolerance dimension
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Requires a metal detector, sieves and a documented glass-and-plastic policy
+b) | Requires a label check at changeover and a reconciliation of printed material
+c) | Requires a critical control point, a temperature record and a release test
+d) | Requires a calibrated gauge, a sampling plan and a defined acceptance limit
+_300
+@EX Warm-Up: Text - Standard Principles
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of a technical standard?
+@OPT
+   ○ A) Making products as cheap as possible
+   ○ B) Protecting the customer regardless of who makes the product
+   ○ C) Only applying to expensive brands
+_300
+@EX Warm-Up: Discussion - Why Standards Matter
+@INSTR Discuss the importance and challenges of technical standards.
+_80
+@BULLET
+Why are technical standards important for the products we buy today?
+_300
+@EX Warm-Up: Vocabulary Classification - Regulatory Terms
+@INSTR Classify regulatory and non-regulatory concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Regulatory concept
+2. Non-regulatory concept
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The maximum permitted level of a residue in a food product  ____________________________
+2. The declared net weight tolerance on a filled pack  ____________________________
+3. Fashion design and clothing trends  ____________________________
+4. The allergen statement required on a label  ____________________________
+5. Sports marketing and entertainment business  ____________________________
+6. The shelf life that must be supported by stability data  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Product Hazard
+@INSTR Match hazard types with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Microbiological hazard
+2. | Chemical hazard
+3. | Physical hazard
+4. | Allergen hazard
+5. | Measurement error
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Bacteria, yeasts or moulds that multiply and make a product unsafe to consume
+b) | A residue, cleaning agent or heavy metal present above the permitted level
+c) | A piece of metal, glass or plastic that has entered the product during processing
+d) | An ingredient that is harmless to most people but dangerous to some, so must be declared
+e) | A reading that is wrong because the instrument was not calibrated against a reference
+_300
+@EX Part 1: Regulatory Words
+@INSTR Complete the table with vocabulary related to standards and certification.
+_80
+@GRID
+Word | Meaning | Example in Context
+Accreditation |  | 
+Conformity |  | 
+Certification |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Formal recognition that a laboratory is competent to perform a stated test
+b)  The laboratory lost its accreditation for the residue method last year
+c)  Meeting every requirement of the standard and the specification
+d)  The batch was held because conformity could not be demonstrated
+e)  A third party confirming in writing that a system meets a standard
+f)  The plant received ISO 9001 certification after a two-day audit
+_100
+_300
+@EX Part 1: Fill Blanks - Regulatory Vocabulary
+@INSTR Complete sentences using regulatory vocabulary words.
+_80
+@GAP
+1. Before a product may be sold, it must comply with the applicable ____________________.
+2. A laboratory must hold ____________________ for each test method it reports.
+3. Organizations that write and publish technical requirements are called ____________________ bodies.
+4. The ____________________ limit is the highest level of a residue that a product may legally contain.
+_300
+@EX Part 1: Vocabulary in Context - Certification Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+When a company applies for certification, an assessment follows. The first phase involves a documentation review to confirm every required procedure exists. Auditors then conduct an on-site audit by comparing what staff actually do against what the procedures say. Nonconformities are raised and classified as major or minor. The company submits corrective actions with evidence. Coordination between the certification body and the laboratory prevents contradictory findings and ensures the certificate covers the whole scope applied for.
+@NUM 100
+1. What does 'on-site audit' mean in the certification process?
+2. Why is 'coordination' important between the certification body and the laboratory?
+_300
+@EX Part 1: Discussion - Regulatory Terms in Real Situations
+@INSTR Discuss how regulatory vocabulary applies to real products.
+_80
+@BULLET
+Think of a product you buy. What regulatory words apply to that situation?
+_300
+@EX Part 1: Listening - Regulatory Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to QA staff discussing a recall and answer questions.
+_80
+@MCQ
+1. What did the staff do immediately after the complaint arrived?
+@OPT
+   ○ A) Waited for instructions from the customer
+   ○ B) Blocked the remaining stock and started tracing the batch
+   ○ C) Replaced the product without investigating
+@MCQ
+2. Which batches were identified as most at risk?
+@OPT
+   ○ A) Only the newest batches
+   ○ B) Those made on the same line before the filter was changed
+   ○ C) Export batches only
+_300
+@EX Part 1: Summary - Key Regulatory Concepts
+@INSTR Choose the best explanation for regulatory concepts.
+_80
+@MCQ
+1. What is the main goal of a technical standard?
+@OPT
+   ○ A) Make profits for standards bodies
+   ○ B) Protect the health and safety of the people who use the product
+   ○ C) Increase the cost of production
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Compliance Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't record the temperature), the batch cannot be released.
+2. Many complaints ____________________ (would have been avoided) if the metal detector had been checked hourly.
+3. ____________________ (If the authority enforces) the residue limits, growers change their practice.
+_300
+@EX Part 2: Passive Voice - Regulatory Actions
+@INSTR Rewrite sentences using passive voice to describe regulatory actions.
+_80
+@GRID
+Active Voice | Passive Voice (Complete the blank)
+The authority publishes the national standards. | 
+Auditors checked the batch records. | 
+Analysts report the test results. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The national standards are published by the authority.
+b)  The batch records were checked by auditors.
+c)  The test results are reported by analysts.
+_100
+_300
+@EX Part 2: Reported Speech - Auditor Findings
+@INSTR Convert direct speech to reported speech about an audit.
+_80
+@GAP
+1. The auditor ____________________ the record was incomplete.
+2. The lead auditor ____________________ we could see the calibration certificates.
+3. The coordinator ____________________ submit the corrective action within thirty days.
+4. The analyst ____________________ the balance had not been checked that morning.
+_300
+@EX Part 2: Modal Verbs - Regulatory Necessity
+@INSTR Complete sentences with appropriate modal verbs about compliance.
+_80
+@NUM
+1. Quality departments ____________________ (must keep) complete records of every batch.
+2. Test methods ____________________ (should be validated) before results are reported.
+3. Companies ____________________ (may lose) certification if a major nonconformity is not closed.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about compliance and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When a nonconformity is raised, we must respond immediately. Our team should be ready to investigate at any time. If we don't close it within thirty days, the certificate may be suspended.
+^Worker: I understand. We have been trained to look for the root cause rather than the symptom. We are told to check the records first. Should we also involve the laboratory?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every finding in one response.
+_200
+@QUESTION
+1. What must the department do when a nonconformity is raised?
+2. Why should the department involve the laboratory?
+_300
+@EX Part 2: Grammar Summary - Regulatory Communication
+@INSTR Discuss how to communicate effectively about requirements using appropriate grammar.
+_80
+@BULLET
+How should QA staff explain a standard's requirements to production and to customers?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Investigation Awareness
+@INSTR Before listening, discuss how QA staff investigate a failed result.
+_80
+@BULLET
+What do you think is the first step when a test result fails the specification?
+_300
+@EX Part 3: Listening - Investigation Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to QA staff describing the investigation process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^AssessmentTeam: When a result fails, we immediately start gathering information. We interview the analyst about what they did and what they observed. We examine the instrument records and the calibration status. We check whether the reagent was within date and the standard correctly prepared. We review the sampling to confirm the sample represented the batch. We identify whether other batches are affected. This laboratory investigation typically takes one or two days but guides every decision that follows.
+~Coordinator: Based on the investigation, we prioritize the actions. Immediate priorities include blocking the affected stock and informing the customer if product has shipped. Second priority is finding the root cause in the process. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the batch is resolved. The findings are shared with production and purchasing to avoid repetition and ensure the whole cause is addressed.
+_200
+@QUESTION
+1. What information does the investigation team collect after a failed result?
+2. What are the priorities based on the investigation?
+_300
+@EX Part 3: True/False - Regulatory Practice
+@INSTR Listen to a short passage about compliance work and mark statements True, False, or Not Given.
+_80
+@PANEL
+QA staff often work in difficult regulatory conditions. They face delays when a customer and an authority require different things. They work with incomplete information about older batches and under extreme time pressure. Despite these challenges, they remain committed to releasing only product that meets requirements. Departments coordinate their records to provide complete documentation. Some QA staff have reported feeling frustrated by repeated audits. However, they also report deep satisfaction when a difficult certification is finally granted and export begins. Professional bodies protect QA staff and set standards for practice.
+@NUM 100
+1. QA staff sometimes face delays when customers and authorities require different things.
+2. Departments always have complete information about older batches.
+3. QA staff report satisfaction when a difficult certification is granted.
+_300
+@EX Part 3: Listening - Certification Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to QA staff discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary technical challenge mentioned?
+@OPT
+   ○ A) The records are too detailed
+   ○ B) Lack of reference materials and late discovery of method problems
+   ○ C) Too many staff members
+@MCQ
+2. Why is allergen separation urgent in a shared factory?
+@OPT
+   ○ A) People prefer separate rooms
+   ○ B) To stop traces reaching a product whose label does not declare them
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Regulatory Work
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to a QA officer's personal reflection on compliance work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Worker: I came to this work because I wanted products to be safe. The first year was overwhelming—I read standards I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a product reach an export market for the first time and a recall avoided because a record was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the officer's initial reaction to compliance work?
+2. What qualities does the officer believe are important for this work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Regulatory Contexts
+@INSTR Before reading, discuss standards and certification in different countries.
+_80
+@BULLET
+What standards or certification schemes do you know about? Where do they apply?
+_300
+@EX Part 4: Reading - Regulatory Decision-Making
+@INSTR Read the text and answer questions about compliance choices.
+_80
+@PANEL
+Certification bodies face difficult decisions when a company does not fully comply. In any factory, older equipment rarely matches current requirements. Bodies must prioritize findings based on risk to the consumer and the number of people affected. Safety and allergen requirements receive priority over documentation style. Products consumed by children or patients receive the strictest review. Processes with the highest hazard are examined first. Commercial pressure is considered but never overrides consumer safety. Bodies maintain transparency by explaining their classification of each finding to the company. This transparency builds trust and understanding.
+@NUM 100
+1. How do certification bodies decide which findings matter most?
+2. Why do bodies explain their classification of findings to the company?
+_300
+@EX Part 4: Text Comprehension - Professional Ethics
+@INSTR Read about professional ethics and choose the best answer.
+_80
+@PASSAGE
+Quality practice is guided by core principles: safety, impartiality, competence, and independence. Safety means protecting the health of the people who will use the product. Impartiality requires applying the same standard to every batch regardless of who is waiting for it. Competence means reporting only tests you are trained and qualified to run, and calling in a specialist for the rest. Independence means that QA gives its conclusion based on evidence, not on commercial pressure. These principles guide every professional decision and ensure ethical practice.
+@MCQ
+1. What does professional 'independence' mean?
+@OPT
+   ○ A) Ignoring all customers
+   ○ B) Giving a conclusion based on evidence, not commercial pressure
+   ○ C) Working only for public authorities
+@MCQ
+2. Which principle requires calling in a specialist?
+@OPT
+   ○ A) Safety
+   ○ B) Competence
+   ○ C) Impartiality
+_300
+@EX Part 4: Application - Regulatory Scenarios
+@INSTR Read scenarios and fill in the appropriate professional principles.
+_80
+@GRID
+Scenario | Key Professional Principle
+A department applies the same release limit to an urgent export order | 
+An analyst refuses to report a test the laboratory is not accredited for | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Impartiality and consistency
+b)  Safety and competence
+_100
+_300
+@EX Part 4: True/False/Not Given - Standards Bodies
+@INSTR Read statements about standards bodies and mark them True, False, or Not Given.
+_80
+@PANEL
+The International Organization for Standardization and the Codex Alimentarius Commission publish requirements used worldwide. They cover management systems, food safety, laboratory competence and test methods. These bodies employ technical staff and depend on volunteer committee members from industry. Some standards have been adopted into national law in dozens of countries. Standards bodies are funded by member subscriptions, document sales, and government contributions. Many national bodies struggle to keep their standards up to date despite clear need. QA staff often report that reading a standard carefully saves far more time than it costs.
+@NUM 100
+1. International standards bodies cover only food safety.
+2. Standards bodies receive funding from multiple sources.
+3. All standards are available free of charge.
+_300
+@EX Part 4: Discussion - Regulatory Dilemmas
+@INSTR Discuss difficult choices QA staff face when requirements conflict.
+_80
+@BULLET
+What are some difficult decisions QA staff must make when the standard and the customer disagree?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Standard
+@INSTR Prepare a presentation about different types of standard.
+_80
+@NUM 100
+1. Describe three types of standard: management system standards, product standards, and test method standards.
+_300
+@EX Part 5: RolePlay - Audit Closing Meeting
+@INSTR Roleplay a closing meeting with an auditor about the findings raised.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Qualified Analyst
+@INSTR Discuss qualifications and preparation for professional qualification.
+_80
+@BULLET
+What qualifications and training would you need to become a qualified analyst?
+_300
+@EX Part 5: RolePlay - Requesting a Release
+@INSTR Roleplay a production manager requesting an urgent release from the quality department.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Professional Values
+@INSTR Write about why professional values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a product recall and the standard changes that followed it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Letter Requesting a Standard Interpretation
+@INSTR Write a letter to the standards body requesting an interpretation of a specific requirement.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Professional Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in quality practice.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Standards and Certification in Syrian Contexts
+@INSTR Read about standards and certification in Syria and answer questions.
+_80
+@PANEL
+Syria has a long manufacturing tradition and also a demanding certification situation. The Syrian Arab Standards and Metrology Organization publishes the national standards, holds the national measurement references, and operates the conformity mark that many products must carry. Export markets add their own requirements on top, so a food exporter may need a national certificate, a customer audit, and a third-party food safety certification at the same time. Certification is complicated by interrupted power during long tests, difficulty importing reference materials, and the cost of maintaining accreditation. Laboratories work to keep their scopes alive alongside the national metrology service. Shortages affect factories across the country. QA staff demonstrate extraordinary persistence and resourcefulness. Their work includes method validation, supplier auditing, and the documentation an importing country will demand. International recognition of Syrian analysts acknowledges their skill and dedication. Their resilience and technical knowledge inspire support from the global profession.
+@NUM 100
+1. Why is certification for export particularly challenging?
+2. What is the scale of Syria's shortage problem?
+_300
+@EX Part 7: Discussion - Global Responsibility for Product Safety
+@INSTR Discuss the global community's responsibility for product safety in countries facing shortages.
+_80
+@BULLET
+What responsibility does the global community have for product safety in countries facing shortages?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Regulatory Concepts
+@INSTR Review Unit 3 by matching regulatory concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Standard
+2. | Audit
+3. | Conformity
+4. | Accreditation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A published document stating the requirements a product or system must meet
+b) | A planned check of whether the written system is actually being followed
+c) | Meeting every requirement of the standard and the specification
+d) | Formal recognition that a laboratory is competent for a stated test
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step after a test result fails the specification?
+@OPT
+   ○ A) Release the batch anyway
+   ○ B) Investigate the laboratory work and the sampling before blaming the process
+   ○ C) Begin reprinting the labels
+@MCQ
+2. Which principle allows QA conclusions to be trusted?
+@OPT
+   ○ A) Profit maximization
+   ○ B) Independence and competence
+   ○ C) Alignment with production
+@MCQ
+3. What makes certification for export from Syria particularly difficult?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Several overlapping schemes plus shortages of references and reliable power
+   ○ C) Authorities grant unlimited exemptions
+@MCQ
+4. What qualities do successful QA staff demonstrate in compliance work?
+@OPT
+   ○ A) Only laboratory skills matter
+   ○ B) Both technical knowledge and patience with people
+   ○ C) No special qualifications needed
+_300

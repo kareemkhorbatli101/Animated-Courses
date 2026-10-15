@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Quality Assurance | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Quality Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: QA Officer Interview Understanding
+@SPEECH
+~QA Officer: Hello, my name is Rana. I work in the quality department of a food company in Damascus called Barada Foods. Our department checks raw materials, samples the line during production, and releases the finished product.
+~QA Officer: We have inspectors, laboratory analysts and a documentation officer who review records every day. We measure weight, moisture and acidity. We also check hygiene on the line and train the operators who work there.
+~QA Officer: Our department reports to the quality manager and not to production, so nobody can pressure us to release a batch. Students from the university also work with us as trainees. Our goal is simple - we want every pack that leaves the factory to be safe.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Quality Work - True or False
+@SPEECH
+^QA Manager 1: There are many kinds of quality work in Syria. Some departments focus on food, others on medicines, and many work on packaging and labelling. The Syrian Arab Standards and Metrology Organization publishes the standards they all work to.
+^QA Manager 1: Food inspectors check hygiene, weight and shelf life. Pharmaceutical analysts test purity and dissolution in the laboratory. Packaging inspectors check print quality, barcodes and expiry dates before release.
+^QA Manager 1: International customers also audit Syrian factories. Together with local staff, they review thousands of records every year. All quality staff share the same goal - to make sure the product does what the label says.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Quality Aims and Goals Understanding
+@SPEECH
+~QA Manager 1: Our food department works to make sure every pack is safe to eat. We sample each batch and test for bacteria. We also train the operators so hygiene is kept on the line itself.
+^QA Manager 2: My department works in pharmaceuticals. We test purity and strength in the laboratory. We teach staff why every step must be recorded at the time it happens.
+~QA Officer: We are the packaging section. We believe a correct label is part of the product. We check print, barcodes and expiry dates before anything is released.
+^All Managers: All of us report outside production. We work to the national standards and to our customers' specifications. We have trainees from the university who help us every day. This is why we can keep protecting customers.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Quality Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: QA Careers and Roles | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Quality Job Descriptions
+@SPEECH
+~Narrator: A quality inspector works on the production floor. The inspector takes samples at set times, measures them against the specification, and records every reading.
+~Narrator: A laboratory analyst in a food plant produces the accurate test results. The analyst prepares the sample, runs the method, and keeps every calibration record in order.
+~Narrator: A quality manager organizes the work of all staff. The quality manager plans the checks, assigns tasks, and makes sure results reach the line before release.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in quality departments?
+^Quality Officer: I have worked in quality for eight years. I started as a sampler and became an inspector after two years.
+~Interviewer: What plants have you worked in?
+^Quality Officer: I have worked in Damascus, Homs, and Aleppo. I have released thousands of batches in different food and drink plants.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with a Quality Manager
+@SPEECH
+~Interviewer: Tell us about your work in the plant.
+~Coordinator: I am a quality supervisor. I plan the daily checks, manage the records, and supervise the line inspectors. I have worked here for four years. Every day is different. Some days I am in the laboratory and other days on the line.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the lack of supplies. We have very limited reagents and reference samples and some items cannot be obtained at all. We must be resourceful and use methods we can actually run. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many companies run training programmes for young quality staff. These programmes teach graduates who cannot learn sampling at university. Tutors in these programmes are experienced inspectors from the department. They provide lessons in sampling, testing, and record keeping. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Department Challenges
+@SPEECH
+^Speaker1: Working in a quality department is very challenging. We have limited budgets, which means we cannot employ enough staff. Sometimes one inspector covers three lines alone.
+~Speaker2: I agree. We also struggle with transport. Many samples go to a laboratory far away, and we have only two vehicles for the whole plant, so deliveries have to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as an inspector. Have you thought about training toward a quality supervisor position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, audit planning, and communication ability. We can provide training through our own mentoring and line rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility here.
+_200d
+@H2 Unit 3: Standards, Codes and Certification Bodies | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Regulatory Vocabulary in Action
+@SPEECH
+^Worker1: When the recall order came, we immediately mobilized our tracing teams. We started with a rapid check of the worst-affected batches, recording codes and dates pallet by pallet.
+~Worker2: The older batches were extremely difficult. Many had been produced before the coding system changed and carried no lot number. Our priority was to quarantine the stock and keep it off the market.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a nonconformity is raised, we must respond immediately. Our team should be ready to investigate at any time. If we don't close it within thirty days, the certificate may be suspended.
+^Worker: I understand. We have been trained to look for the root cause rather than the symptom. We are told to check the records first. Should we also involve the laboratory?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every finding in one response.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Investigation Process
+@SPEECH
+^AssessmentTeam: When a result fails, we immediately start gathering information. We interview the analyst about what they did and what they observed. We examine the instrument records and the calibration status. We check whether the reagent was within date and the standard correctly prepared. We review the sampling to confirm the sample represented the batch. We identify whether other batches are affected. This laboratory investigation typically takes one or two days but guides every decision that follows.
+~Coordinator: Based on the investigation, we prioritize the actions. Immediate priorities include blocking the affected stock and informing the customer if product has shipped. Second priority is finding the root cause in the process. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the batch is resolved. The findings are shared with production and purchasing to avoid repetition and ensure the whole cause is addressed.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Certification Challenges
+@SPEECH
+~Reviewer: Reviewing certification for older plants presents extreme challenges. We lack records and drawings for most of the equipment. We discover conditions only once a machine is opened. Applications often arrive too late for the season. Despite these obstacles, we do our best with the evidence available. We prioritize the requirements that protect health. This is why an internal check before application is essential.
+^HygieneOfficer: The separation situation is critical. Raw material moves through the same door that finished product leaves by. This creates a high risk of contamination reaching every pallet. We work quickly to install a barrier and protect the packing area. We train staff to keep the clean route clear. Without separation, losses from contamination can exceed those from spoilage itself.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Regulatory Work
+@SPEECH
+~Field Worker: I came to this work because I wanted products to be safe. The first year was overwhelming—I read standards I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a product reach an export market for the first time and a recall avoided because a record was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Inspection, Sampling and Measurement | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Inspection Skills in Action
+@SPEECH
+~Worker1: I work as a sampling technician. I use method to record every batch, code and weight in order. I must be patient because a running line takes time, and careful because one wrong reading releases a whole pallet.
+^Worker2: As a quality supervisor, I need organization skills to manage many records at once. I also need judgement when the sample contradicts the line reading, and flexibility because raw materials here are rarely uniform or as the specification describes.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Measurement
+@SPEECH
+^Trainer: When we train new QA staff, we focus on developing both instrument and method skills. A good analyst must know how to use a balance, but must also record the reading in a way others can follow. A good inspector must measure accurately, but must also understand what the number will be used for.
+^Trainer: We teach that precision is not something you are born with—it is something you develop through practice. Staff learn precision by running a control sample and seeing their own variation. Learning from a failed result is more valuable than never taking responsibility for a reading. We want our staff to be confident enough to sign their results even when the batch is urgent.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Measurement Skills
+@SPEECH
+~Analyst: As an analyst in our laboratory, I must combine careful technique with judgement. I follow the method exactly, but I also decide when a reading looks wrong and must be repeated. Many samples arrive warmer than they should. I run a control alongside every batch so I know my own variation. This requires technique and honest recording.
+^Manager: As quality manager, I coordinate many samples and reports. I must have organizational skills to manage the schedule and the instrument calibrations. I must have leadership to hold a release when production is waiting. I need problem-solving abilities when a result contradicts the line records. Perhaps most important, I must have integrity so my signature means something.
+~Community Worker: Sampling on an occupied line requires very different skills than laboratory work. I must build trust with the operators over weeks so they tell me when something changed. I can never be rushed—a sample taken badly is worse than no sample. I need flexibility because every product behaves differently. I must be humble enough to learn the process from the people running it. This is how we produce results nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many inspectors develop their best skills not in lectures but on the line. A sampler learns judgement by seeing a batch fail, by watching moisture find the one weak sack, and by correcting a sheet that an operator could not follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New inspectors work alongside experienced ones so an error is caught on paper rather than in the market.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Worker1: I came to quality work from chemistry teaching with plenty of theory but no idea about production. My first year was overwhelming. I made mistakes and felt discouraged. But my supervisor was patient. She showed me how to sample when the line would not stop, when the product was still hot, when we had no reference material. Over time, I developed new skills and became much stronger. Now I mentor younger analysts.
+^Worker2: I was a good technician in a research laboratory, but factory work was different. In research, every sample arrived prepared. On a line, I had to take the sample myself from a moving process. I learned to be systematic and accept that perfect conditions were impossible. I learned that a representative sample with honest notes serves the customer better than a perfect analysis of the wrong material. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: The Quality Management Cycle | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Quality Managers Explain Planning
+@SPEECH
+~Manager1: In my juice project, we began by visiting ten lines and asking operators what makes the product hardest to keep right. We learned that the filler temperature caused most of the rejects, not the capping everyone had been talking about.
+^Manager2: My dairy project required careful budgeting because funds were limited. I had to choose between a new testing instrument and repairing three old ones. I chose equipment the staff could maintain themselves, using spare parts their own workshop could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Quality Discussion
+@SPEECH
+~Coordinator: When we plan quality, several grammatical structures help explain our work clearly. We say "The customer must approve the specification before we write the plan" using modals. We explain "If we sample carefully, the result will represent the batch" using conditionals. We describe "The line is sampled by our inspectors" using passive voice to show the action.
+~Coordinator: We say "We visit the line to understand the process" showing purpose. We explain order with words like "First we specify, then we plan, finally we review." Using varied grammatical structures helps us communicate quality concepts clearly to international auditors, local customers, and our own staff team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Quality Managers Explain Challenges
+@SPEECH
+^Manager1: In my food department, I faced a challenge when trained analysts left because of long distances from their families. We had invested in their training and then suddenly they were gone. The solution was to improve compensation and transport for all staff. We also trained extra analysts and cross-trained inspectors so leaving staff would not stop the testing. The lesson was that quality planning must account for retention and welfare.
+~Manager2: My bottling department faced reagent delays. We had promised the customer certificates within three days but the reagents arrived two months late. The customer became frustrated even though the delay was not our fault. The solution was transparent communication explaining the real reasons for delay. We also adjusted the schedule and involved the customer in choosing which tests to prioritize. Now I always hold a buffer stock of critical reagents.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Quality Planning
+@SPEECH
+~Operator: When the quality team came to our line, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They watched every shift with us and changed the check sheet after we spoke.
+^Quality Supervisor: From my side, I have learned that taking the brief and holding meetings takes much longer than managers expect. They want the plan in weeks. But the time spent before writing it is what makes the checks suit the people who run them.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Quality Lessons Learned
+@SPEECH
+~Manager1: One critical lesson I learned is that clear communication prevents 90 percent of quality problems. When customers, production, and the laboratory all understand the same specification and the same limits, everyone works together. When communication is unclear, misunderstandings grow into rejected deliveries. Now I spend significant time ensuring all parties understand exactly what will be checked, when, and against what limit. This prevents assumptions and surprises.
+^Manager2: Another lesson is build relationships before problems appear. If you have not spent time getting to know the operators and the customer before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a recall.
+_200d
+@H2 Unit 6: Working with Suppliers and Customers | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Suppliers
+@SPEECH
+~Supplier: When the quality team came, they asked what we could realistically deliver for the olive oil contract. They did not tell us what we would be signing. We chose which tests we would run ourselves and which the plant would repeat, and we are proud of the result.
+^Supplier: A joint scheme failed here before this one. The buyer decided everything without asking. They set a moisture limit our dryers could never reach and nobody checked whether it was possible. This time we were asked, and the contract holds without argument.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When departments work with us, not only on us, the language changes. They use phrases like "together we agreed the limit" instead of "we informed them." They use passive voice "our own data were taken into account" showing respect for our laboratory. They express appreciation "we value your technical knowledge" making us feel like partners.
+^Leader: Language reveals whether a department truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a disputed result. They say "this was a shared decision" even when they held the commercial power. Language shapes how people behave. Respectful language produces a supplier who calls you before a problem reaches you.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~QA Officer: From our side, we want to accept what suppliers send but we have specifications we cannot change. We have customers who audit us and legal limits we must meet. So we must navigate between the supplier's capability, the customer's requirement, and what our own laboratory can measure. Good partnerships require honest conversations about these constraints. We have learned that suppliers accept a firm limit when we explain the reason. They feel mistreated when we reject without evidence.
+^Supplier: From the supply side, we want clarity and consistency. We understand departments have customers of their own. We accept a strict limit when it is written down and applied the same way every time. What frustrates us is a limit that moves depending on who is on duty. We want to be told early when a requirement changes, not discover it from a rejection. We want our own test results to count for something.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending expertise. When a supplier asks a technical question about their method, I tell them I will check with the laboratory and come back with an answer.
+~Manager: I also learned to say "we cannot accept that" clearly. Suppliers sometimes ask for a limit beyond what our customer allows. Saying so honestly, and helping them find another route, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Worker1: Building supplier partnerships is like building friendships. You cannot rush it. You must spend time understanding their process. You must visit when you do not need anything, not only after a failure. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own method was wrong. This takes time but creates relationships that survive a crisis.
+~Worker2: I noticed that partnerships develop through small successes. Start with one parameter where improvement is quick and visible, such as the moisture of a single raw material. This builds confidence for larger work. Also, acknowledge the improvement in writing. Let the supplier show our letter to their own management. This builds their internal case for investing in quality and motivates the next phase.
+_200d
+@H2 Unit 7: Food Safety and Laboratory Quality | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Analyst Stories
+@SPEECH
+~QA Officer: When I started working on food plants, I realized the plant and the laboratory are inseparable. Product from dirty, badly drained rooms failed the tests again and again. The hygiene rules meant nothing because there was no hot water in the building.
+^Analyst: I began a swab programme in my laboratory. I tested surfaces and hands after cleaning. But the line could not act on any of it because there was no sink and no supply. Once the plant added hot water, the results finally changed what staff actually did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Quality Language
+@SPEECH
+~Manager: Quality in food and laboratory work depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better results. But training is not enough. We must also have validated methods, calibrated instruments, and reliable reagents. Quality means consistently correct results, not correct results sometimes. Customers notice quality immediately. They trust certificates from a laboratory whose numbers hold up when they repeat the test themselves.
+^Manager: I learned that quality is also about listening to the line. What the laboratory thinks is quality might not match what production experiences. We hold regular meetings with the operators. They tell us that a result arriving after the batch has shipped is worthless however accurate it is. Quality requires both correctness and timeliness.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Testing Barriers
+@SPEECH
+~Worker1: We recognized that distance was our biggest barrier. Samples could not reach the accredited laboratory before they degraded. So we moved the testing closer. We validated simple in-house methods that a factory laboratory could run the same day. For the accredited tests, we batch the samples and send them weekly in a cooled box. This reduced the distance barrier immediately. Control improved dramatically once results arrived while the batch was still in the warehouse.
+^Worker2: Cost was our barrier. Producers wanted testing but could not afford the full panel on every batch. We discovered that a risk-based plan worked better than testing everything. We test the high-risk parameters on every batch and the low-risk ones on a rotation. We charge large customers the full rate, which helps subsidize the small producers. This mixed approach kept the laboratory running and kept the high-risk tests on every lot.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Systems Successfully
+@SPEECH
+~Manager: Integration requires clear zoning. We defined which part of the plant is raw and which is ready to eat. The raw area keeps its own entrance from the yard, and the packing hall keeps its floor free of traffic.
+~Manager: Integration also requires honest communication about problems. Sometimes cleaning arrived when the line was running. Sometimes the laboratory wanted sample volumes the production plan could not give. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and allowed the plan to be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Customer Impact from Integrated Control
+@SPEECH
+~Mother: My family used to buy this brand and sometimes the jars spoiled before the date on the label. The producer began testing the acidity and recording the cook temperature on every batch. After that, the jars kept properly to the end of the shelf life. Coordinating the plan and the laboratory caught a problem that nobody had seen before. Now I buy it with confidence.
+^Father: The shop now receives a certificate with each delivery. It lists what was tested and the result. When I asked about an allergen, the manager showed me the record from the batch. What the laboratory does actually reaches the customer and changes what we can trust. Before, the plan and the testing were separate and nothing connected. Now it all connects. Our family buys with more confidence.
+_200d
+@H2 Unit 8: Auditing and Performance Measurement | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Audit Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Improvement Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Indicator Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Finding Interpretation
+_200d
+@H2 Unit 9: Continuous Improvement and Scaling Quality | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Rollout Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Supplier Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Line Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Cost of Quality Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: Quality Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to an Operator's Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to a Manager's Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Network Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Results Reflection
+_200d

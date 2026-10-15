@@ -1,0 +1,376 @@
+@UNITHEAD Unit 9: Continuous Improvement and Scaling Quality
+@PART Warm Up | Warm Up
+@EX Warm-Up: Scaling Quality Challenges Discussion
+@INSTR Discuss challenges when extending a quality system to new lines.
+_80
+@BULLET
+When a quality system works well on one production line, what challenges might a plant face when extending it to other lines and sites?
+_300
+@EX Warm-Up: Improvement Definition Matching
+@INSTR Match improvement and scaling concepts with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Sustained Quality
+2. | Scaling
+3. | Standardisation
+4. | Adaptation
+5. | Capability Building
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Extending a proven quality system to more lines, shifts or sites
+b) | Training operators and supervisors to run the system themselves
+c) | Quality holds without a consultant or a temporary task force
+d) | Writing one proven method so every line follows the same steps
+e) | Changing parts of the method to fit a different line or product
+_300
+@EX Warm-Up: Speed vs Quality Discussion
+@INSTR Discuss the balance between fast rollout and holding quality.
+_80
+@BULLET
+Discuss the difference between a system rolled out quickly to many lines and one rolled out slowly to hold quality.
+_300
+@EX Warm-Up: Transition to Line Ownership Discussion
+@INSTR Discuss how plants move quality ownership to the lines.
+_80
+@BULLET
+As a plant moves from a central quality team to quality owned on the line, what skills do supervisors need?
+_300
+@EX Warm-Up: Line Ownership Classification
+@INSTR Classify practices as supporting OR preventing line ownership of quality.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Supports Line Ownership
+2. Prevents Line Ownership
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Operators help write the check sheet and decide where the checks go  ____________________________
+2. The quality manager makes every decision; operators only sign sheets  ____________________________
+3. Supervisors are trained to run their own line audits each week  ____________________________
+4. All checks are done by inspectors; operators are passive onlookers  ____________________________
+5. Line teams hold their own daily quality meeting and set their targets  ____________________________
+6. Line teams see the results but have no voice in how checks are set  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Improvement and Scaling Terminology Matching
+@INSTR Match key terms in improvement and scaling with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Horizontal Deployment
+2. | Volume Scaling
+3. | Deepening
+4. | Institutionalisation
+5. | Integration
+6. | Handover Plan
+7. | Self-Sustaining Quality
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Holding quality as output per shift rises on the same line
+b) | Plan showing how the quality team steps back while checks continue
+c) | Taking one line's proven method across to the other lines
+d) | Quality held by the line itself without central support
+e) | Process of becoming part of the plant's routines and job descriptions
+f) | Transferring quality responsibility to supervisors and operators
+g) | Increasing how thorough and how early the checks are
+_300
+@EX Part 1: Improvement Approaches Matching
+@INSTR Match improvement strategies with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Kaizen Teams
+2. | Line-Led Improvement
+3. | Cost of Quality
+4. | Institutionalisation
+5. | Quality Team Transition
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Improvement justified by the money that scrap and rework waste
+b) | Small groups meet regularly to solve one problem at a time
+c) | Operators raise, test and record their own improvements
+d) | Quality staff stay involved but shift to coaching and audit roles
+e) | Checks become a regular part of each job description and shift plan
+_300
+@EX Part 1: Scaling Success Factors Multiple Choice
+@INSTR Choose the best answer about scaling factors.
+_80
+@MCQ
+1. What is the primary requirement before scaling a quality system to new lines?
+@OPT
+   ○ A) The system must already cover a very large number of products
+   ○ B) The system must have written procedures, trained staff, and proven results showing quality can be held
+   ○ C) The system must have the written support of the plant's owners
+_300
+@EX Part 1: Capability Building Concept Discussion
+@INSTR Discuss what capability building means in a quality context.
+_80
+@BULLET
+What does capability building mean and why is it essential for quality that lasts?
+_300
+@EX Part 1: Standardisation vs Adaptation Multiple Choice
+@INSTR Choose the correct distinction between these concepts.
+_80
+@MCQ
+1. What is the key difference between standardisation and adaptation?
+@OPT
+   ○ A) Standardisation copies one proven method to every line; adaptation changes the method to fit a different line
+   ○ B) Standardisation is done by auditors; adaptation is done by operators
+   ○ C) Standardisation is faster; adaptation is slower
+_300
+@EX Part 1: Handover Plan Elements Matching
+@INSTR Match handover plan components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transition Timeline
+2. | Capability Development
+3. | Resource Planning
+4. | Ownership Transfer
+5. | Partnership Development
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ensuring laboratories and suppliers commit to continued support
+b) | Clear timeline for the quality team to step back and the line to take over
+c) | Planning how gauges, reagents and training will be paid for afterwards
+d) | Gradual shift of decision authority to supervisors on each shift
+e) | Training and coaching for line teams taking on the checks
+_300
+@EX Part 1: Scaling Barriers Classification
+@INSTR Classify potential scaling barriers by category.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Resource Barrier
+2. Capability Barrier
+3. Contextual Barrier
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Not enough calibrated gauges to equip the new lines  ____________________________
+2. Not enough trained inspectors to hold quality on a second shift  ____________________________
+3. A different product on the new line needing a different method  ____________________________
+4. Limited laboratory hours for the extra samples each week  ____________________________
+5. Weak record systems that cannot cover three sites at once  ____________________________
+6. Customer rules in an export market restricting the method used  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Future Plans for Scaling
+@INSTR Create sentences using future tense about quality rollout plans.
+_80
+@NUM 100
+1. Write sentences describing your plant's quality rollout plan for the next three years using future tense.
+_300
+@EX Part 2: Conditional Language for Lasting Quality
+@INSTR Use conditional structures to discuss quality planning.
+_80
+@NUM 100
+1. Use conditional structures (if-then, unless, provided that) to describe the conditions under which quality holds.
+_300
+@EX Part 2: Presenting a Rollout Strategy
+@INSTR Complete sentences describing the rollout approach.
+_80
+@OPTLINE
+1. We __________ to extend the system from one line to all six lines over three years without losing quality. | plan | planned | will plan | have planned
+_300
+@EX Part 2: Describing Capability Outcomes
+@INSTR Write sentences showing how capability has developed.
+_80
+@NUM 100
+1. Describe changes that have occurred in a line team's capability as the system has grown.
+_300
+@EX Part 2: Questions About Handover Plans
+@INSTR Complete questions that would assess handover planning.
+_80
+@OPTLINE
+1. __________ your line team take over full responsibility for the daily checks within two years? | Can | Will | May | Would
+_300
+@EX Part 2: Comparative Language for Rollout Approaches
+@INSTR Create comparative statements about different rollout approaches.
+_80
+@NUM 100
+1. Compare a fast rollout to a slow rollout using comparative and superlative forms.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Rollout Experience
+@AUDIO 🔊 Audio Track 9.19
+@INSTR Listen to a plant manager discussing rollout challenges.
+_80
+@QUESTION
+1. What was the main lesson the manager learned from rolling the system out too quickly?
+_300
+@EX Part 3: Listening to Supplier Partnership Success
+@AUDIO 🔊 Audio Track 9.20
+@INSTR Listen to a purchasing officer describing a supplier partnership.
+_80
+@MCQ
+1. According to the officer, what was the key to a successful supplier partnership?
+@OPT
+   ○ A) The plant paid for everything while the supplier contributed nothing
+   ○ B) Clear agreement on specifications, shared targets, open reporting, and mutual respect
+   ○ C) The supplier took over all testing; the plant stopped checking
+_300
+@EX Part 3: Listening to Line Readiness Assessment
+@AUDIO 🔊 Audio Track 9.21
+@INSTR Listen to a quality officer assessing whether a line is ready to own its checks.
+_80
+@QUESTION
+1. What specific indicators did the officer use to decide whether the lines were ready to own their own checks?
+_300
+@EX Part 3: Listening to Cost of Quality Strategies
+@AUDIO 🔊 Audio Track 9.22
+@INSTR Listen to a cost accountant describing how quality work paid for itself.
+_80
+@MCQ
+1. What combination of savings made the quality programme pay for itself?
+@OPT
+   ○ A) Only the money saved on laboratory reagents
+   ○ B) Less scrap, less rework, fewer returns, and fewer held batches together
+   ○ C) Cutting all checks so that no inspection cost remained
+_300
+@EX Part 3: Listening to Implementation Success Story
+@AUDIO 🔊 Audio Track 9.23
+@INSTR Listen to a quality officer reflecting on a successful rollout.
+_80
+@QUESTION
+1. Describe two ways the plant successfully adapted its method when extending the system to a new line.
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Improvement Theory
+@INSTR Read about improvement theory and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Scaling a quality system means extending it to more lines and sites. Successful scaling requires three elements: enough internal capability to hold quality, systematic planning for each step, and agreements with laboratories, suppliers and customers. A plant cannot sustain a rollout without solving the problems at each stage. Scaling is not simple copying—it requires careful thinking and disciplined work."
+            Is the following statement true, false, or not given? "The fastest possible rollout is always the best approach for a plant."
+_300
+@EX Part 4: Reading About Quality Requirements
+@INSTR Complete based on reading about what makes quality last.
+_80
+@NUM
+1. According to reading material, quality that lasts requires all of the following EXCEPT __________.
+_300
+@EX Part 4: Reading About Operator Participation
+@INSTR Read about operator participation in lasting quality.
+_80
+@NUM 100
+1. Read: "Line teams that take part in writing methods, running checks and setting targets develop stronger ownership. Ownership is the best single predictor of whether quality lasts. When a team feels it designed and runs the checks, it works to keep them. Systems where an outside team makes every decision often collapse when that team leaves, because the line has never had a stake in them."
+            Is the following statement true, false, or not given? "Operator participation in running the checks directly causes lasting quality."
+_300
+@EX Part 4: Reading About Handover Plans
+@INSTR Answer based on reading about handover planning.
+_80
+@NUM
+1. Based on reading material, what is the primary purpose of a well-designed handover plan for a quality system?
+_300
+@EX Part 4: Reading About Adaptation vs Standardisation
+@INSTR Read about rollout strategies.
+_80
+@NUM 100
+1. Read: "A plant can take two approaches when extending a method to a new line. Standardisation means copying the proven method exactly. Adaptation means changing parts of the method for the new product or equipment. Most successful rollouts mix both—keeping the proven critical checks while adapting the practical steps to the line."
+            Is the following statement true, false, or not given? "Every line should copy the method exactly without any changes."
+_300
+@EX Part 4: Reading About Supplier Partnerships
+@INSTR Complete based on reading about supplier partnerships for lasting quality.
+_80
+@NUM
+1. What are the main benefits for a plant of working in partnership with its suppliers on quality planning?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Planning a Quality Rollout
+@INSTR Role-play a planning conversation about extending the quality system.
+_80
+_300
+@EX Part 5: Presentation - Rollout Strategy
+@INSTR Prepare a 2-3 minute presentation about your quality rollout plan.
+_80
+@NUM 100
+1. Present to management: "Our Three-Year Quality Rollout and Improvement Plan." Include: current status, the lines to be covered, how you will hold quality, staff training plan, how the gains will be held, timeline, and cost overview.
+_300
+@EX Part 5: Discussion - Overcoming Scaling Barriers
+@INSTR Discuss solutions to common rollout challenges.
+_80
+@BULLET
+What are realistic solutions to the barrier of too few trained inspectors when a plant wants to extend its system?
+_300
+@EX Part 5: Role Play - Supplier Quality Negotiation
+@INSTR Role-play negotiating a quality agreement with a supplier.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Quality Improvement Plan
+@INSTR Write about how your plant will keep improving quality long-term.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Rollout Strategy
+@INSTR Write a plan for extending your quality system to new lines.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Handover Memo
+@INSTR Write a memo to line supervisors about the handover of daily checks.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Supplier Quality Proposal
+@INSTR Write a proposal for a supplier quality agreement.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Growth with Intention
+@INSTR Connect Syrian community concepts with the growth of a quality system.
+_80
+@NUM 100
+1. In Syrian tradition, "ta'awun" means working together so all who share a task benefit. How does this concept relate to scaling a quality system?
+_300
+@EX Part 7: Syrian Values - Stewardship
+@INSTR Discuss Syrian stewardship concepts in lasting quality.
+_80
+@NUM 100
+1. "Waqf" in Syrian usage means something set aside so its benefit continues for generations. How does this principle relate to a plant's duty to keep quality standards alive?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 9 Concepts Review Matching
+@INSTR Match Unit 9 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Sustained Quality
+2. | Scaling
+3. | Capability Building
+4. | Handover Plan
+5. | Adaptation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Changing a method for a different line or product
+b) | Extending the system to cover more lines and shifts
+c) | Training line teams to run the checks themselves
+d) | Plan for how the quality team gradually steps back while checks continue
+e) | Quality holds without depending only on a central team
+_300
+@EX Part 8: Scaling Success Factors Review
+@INSTR Choose the best summary of Unit 9 material.
+_80
+@MCQ
+1. According to Unit 9, what is the relationship between lasting quality and scaling?
+@OPT
+   ○ A) A plant must choose—it cannot both hold quality and scale
+   ○ B) Successful scaling requires building lasting quality from the beginning
+   ○ C) Scaling and lasting quality are unrelated concerns
+_300

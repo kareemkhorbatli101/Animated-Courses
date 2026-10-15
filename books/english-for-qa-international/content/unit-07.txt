@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Food Safety and Laboratory Quality
+@PART Warm Up | Warm Up
+@EX Warm-Up: Food Safety Challenges Discussion
+@INSTR Discuss why many small producers struggle to prove their food is safe.
+_80
+@BULLET
+What barriers prevent small producers from proving that their food is safe?
+_300
+@EX Warm-Up: Food Testing Matching
+@INSTR Match food test types with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Microbiological testing
+2. | Chemical residue testing
+3. | Physical contamination check
+4. | Shelf-life study
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Storing samples under defined conditions and testing at intervals to set a date
+b) | Looking for pesticide, veterinary or cleaning-agent traces above permitted limits
+c) | Metal detection, sieving and visual inspection for foreign bodies
+d) | Counting bacteria, yeasts and moulds to judge whether a product is safe to eat
+_300
+@EX Warm-Up: Laboratory Quality Multiple Choice
+@INSTR Choose the best answer about good laboratory practice.
+_80
+@MCQ
+1. What is most important for a reliable result in a small laboratory?
+@OPT
+   ○ A) Having the newest instrument instead of an older one
+   ○ B) A validated method, a calibrated instrument and a control run alongside
+   ○ C) Having expensive imported glassware
+_300
+@EX Warm-Up: Discussion - Combining Food Safety and Laboratory Work
+@INSTR Discuss why food safety systems and laboratory quality systems work better together.
+_80
+@BULLET
+How can a food safety plan and a laboratory quality system support each other?
+_300
+@EX Warm-Up: Hazard Factors Classification
+@INSTR Classify factors as Direct Hazards, Intermediate (process/handling), or Wider System issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct Hazard
+2. Intermediate Factor
+3. Wider System Issue
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Salmonella present in a batch of dried herbs  ____________________________
+2. Hand-washing before handling ready-to-eat product  ____________________________
+3. No accredited laboratory within two hundred kilometres  ____________________________
+4. Cleaning agent residue left on a filling nozzle  ____________________________
+5. An operator covering a cut before starting the shift  ____________________________
+6. Import restrictions on the reference material needed for the method  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Testing Levels Matching
+@INSTR Match testing levels with the type of work they cover.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Line check
+2. | Factory laboratory
+3. | Accredited reference laboratory
+4. | Mobile test kit
+5. | Microbiology suite
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A controlled room with incubators and sterile handling for bacterial counts
+b) | A large independent laboratory whose results an importing country will accept
+c) | A portable device bringing a simple test to a farm or a collection point
+d) | A quick measurement made by the operator at the machine, recorded on a chart
+e) | An in-house room running routine weight, moisture and acidity tests daily
+_300
+@EX Part 1: In-House Tests a Food Plant Can Run Table
+@INSTR Complete the table with tests a food plant can run itself.
+_80
+@GRID
+In-House Test | Purpose and Impact
+Net weight check on the filling line | 
+Moisture measurement on dried product | 
+Temperature record through the cook step | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Confirms the declared quantity and catches a drift in the filler early
+b)  Predicts shelf life and prevents mould growth during storage
+c)  Proves the critical control point was met for every batch
+_100
+_300
+@EX Part 1: Food and Laboratory Terminology Fill-in
+@INSTR Complete sentences using food safety and laboratory vocabulary correctly.
+_80
+@GAP
+1. Food safety and laboratory systems work together as ____________________ systems for stronger control.
+2. A ____________________ approach to food safety covers the hazard from raw material to the customer.
+3. ____________________ control points are the steps where a hazard must be controlled or the product is unsafe.
+4. ____________________ means a method has been shown to give correct results in your own laboratory.
+_300
+@EX Part 1: Food Safety Models - Fact Questions
+@INSTR Read about how food safety systems actually prevent illness and answer detailed questions.
+_80
+@PANEL
+Food Safety Systems and Laboratory Support
+Many foodborne illnesses are preventable through process control. Understanding where a hazard enters allows a producer to control it. However, control is complex. Staff must know where the hazard is, have the means to control it, and believe the control is worth the effort.
+Hazard analysis teaches a producer where control is needed. Knowing that a cook step destroys the bacteria is valuable knowledge. But knowledge alone does not make food safe. The plant must also have a thermometer that reads correctly. Staff must believe the record matters when the line is busy. They must trust that a failed reading will be acted on rather than hidden. Effective systems address knowledge, means, and motivation.
+Critical control points are the places where control decides safety. Identifying them focuses effort where it matters. A plant with three well-controlled critical points is safer than one with thirty poorly controlled checks. Monitoring at a critical point must be continuous or frequent enough to catch a failure before product moves on.
+Laboratories bridge the gap between a plan and proof. A factory laboratory can run weight, moisture and acidity daily and give the line an answer within the hour. A reference laboratory runs the accredited microbiological and residue tests that an importing country will accept. In Egypt, factory laboratories have become vital for keeping production moving when samples cannot easily travel.
+Small producers and collection points reach much of the supply. However, without training, a collector may mix a contaminated delivery into a good lot. Training suppliers and collectors extends control beyond the factory gate. Line checks, factory laboratories, reference laboratories and trained suppliers working together create far stronger control than any single level alone.
+Consistency requires that staff eventually run the system themselves. This means training local analysts to run and validate the methods. It means choosing methods whose reagents can actually be obtained. It means building on the practices a plant already follows rather than replacing them entirely.
+@NUM 100
+1. Why is knowledge about a hazard not enough to make food safe?
+2. What role do factory laboratories play in food safety?
+_300
+@EX Part 1: Discussion - Integrated System Models
+@INSTR Discuss how combining food safety and laboratory systems benefits a producer more than separate approaches.
+_80
+@BULLET
+How have you seen a food safety plan and a laboratory work together in your own experience?
+_300
+@EX Part 1: Listening - Analyst Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a food technologist and an analyst describing their integrated approach.
+_80
+@MCQ
+1. What problems did the technologist identify that affected the product?
+@OPT
+   ○ A) No problems affected the product
+   ○ B) An uncalibrated thermometer, no moisture check, and no record of the cook step
+   ○ C) The plan never affects safety
+@MCQ
+2. Why did the hygiene training fail before the laboratory was involved?
+@OPT
+   ○ A) Teaching hygiene is impossible
+   ○ B) Staff could not see any result, so nobody knew whether it worked
+   ○ C) Hygiene training always works alone
+_300
+@EX Part 1: Testing Quality Multiple Choice
+@INSTR Choose answers about what defines quality in food and laboratory work.
+_80
+@MCQ
+1. What determines quality in a laboratory in resource-limited conditions?
+@OPT
+   ○ A) Expensive imported instruments
+   ○ B) Validated methods, calibrated instruments, controls run alongside, and honest records
+   ○ C) A large modern building
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Process and Result
+@INSTR Complete sentences using structures showing connections between control and outcome.
+_80
+@NUM
+1. Safe product ____________________ (depend) processes that are monitored and recorded.
+2. Laboratory results work best ____________________ (integrated) the line records.
+3. Calibrated instruments ____________________ (contribute) results that can be trusted.
+_300
+@EX Part 2: Cause and Effect in Food Control
+@INSTR Complete the table with cause-and-effect relationships in food and laboratory work.
+_80
+@GRID
+Control Cause | Safety or Quality Effect
+Recording the cook temperature for every batch | 
+Running a control sample alongside each test | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Results in proof that the critical control point was met for every batch
+b)  Results in a result whose accuracy can be demonstrated rather than assumed
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of food and laboratory work.
+_80
+@GAP
+1. We test the water supply monthly ____________________ identify contamination early.
+2. We train the collectors ____________________ a bad delivery is rejected before it is mixed.
+3. This shelf-life study was designed ____________________ set a date the product can actually hold.
+4. Line checks and laboratory tests are combined ____________________ one complete picture of the batch.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) the laboratory cannot run every test, a validated in-house method can cover the daily checks.
+2. Training the collectors ____________________ (overcomes) the gap between the farm and the factory gate.
+3. Integrated systems ____________________ (addresses) both the immediate hazard and the long-term capability.
+_300
+@EX Part 2: Listening - Quality Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to managers discussing how to ensure quality in food and laboratory work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Quality in food and laboratory work depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better results. But training is not enough. We must also have validated methods, calibrated instruments, and reliable reagents. Quality means consistently correct results, not correct results sometimes. Customers notice quality immediately. They trust certificates from a laboratory whose numbers hold up when they repeat the test themselves.
+^Manager: I learned that quality is also about listening to the line. What the laboratory thinks is quality might not match what production experiences. We hold regular meetings with the operators. They tell us that a result arriving after the batch has shipped is worthless however accurate it is. Quality requires both correctness and timeliness.
+_200
+@QUESTION
+1. What components create quality in food and laboratory work?
+2. Why is listening to the production line important for quality?
+_300
+@EX Part 2: Grammar Review - Control and Outcome
+@INSTR Discuss how different grammatical structures help explain control and outcome relationships.
+_80
+@BULLET
+How do different sentence structures help explain why a control step affects safety?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Testing
+@INSTR Before listening, discuss barriers preventing producers from testing their products.
+_80
+@BULLET
+What barriers prevent small producers from testing their products properly?
+_300
+@EX Part 3: Listening - Overcoming Testing Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to analysts discussing how they overcome barriers to testing.
+_80
+@PLAYNOTE
+@SCRIPT
+~Worker1: We recognized that distance was our biggest barrier. Samples could not reach the accredited laboratory before they degraded. So we moved the testing closer. We validated simple in-house methods that a factory laboratory could run the same day. For the accredited tests, we batch the samples and send them weekly in a cooled box. This reduced the distance barrier immediately. Control improved dramatically once results arrived while the batch was still in the warehouse.
+^Worker2: Cost was our barrier. Producers wanted testing but could not afford the full panel on every batch. We discovered that a risk-based plan worked better than testing everything. We test the high-risk parameters on every batch and the low-risk ones on a rotation. We charge large customers the full rate, which helps subsidize the small producers. This mixed approach kept the laboratory running and kept the high-risk tests on every lot.
+_200
+@QUESTION
+1. How did the analysts address the distance barrier?
+2. What testing approach did the analysts find most effective?
+_300
+@EX Part 3: True/False - Food Safety and Laboratory Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Quality laboratory work requires expensive imported instruments above all else. A factory laboratory can run validated routine tests with appropriate method development. In-house daily testing is more useful for process control than monthly external testing alone. Product made on an uncontrolled process is still safe if the final test passes. Separate food safety and laboratory systems are more efficient than integrated ones. Listening to the line about delays helps design testing that is actually useful. Preventive control is less important than final testing.
+@NUM 100
+1. Can a factory laboratory run validated routine tests with appropriate method development?
+2. Is product made on an uncontrolled process safe if the final test passes?
+3. Is preventive control less important than final testing?
+_300
+@EX Part 3: Listening - Integrating Systems Successfully
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to managers discussing how they combined a food safety plan and a laboratory system successfully.
+_80
+@MCQ
+1. How did the managers clarify roles in the integrated system?
+@OPT
+   ○ A) They gave every test to everyone
+   ○ B) They defined which checks the line owns and which the laboratory owns, with shared records
+   ○ C) Clear roles are not necessary in integration
+@MCQ
+2. What did the managers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in integration cannot be resolved
+_300
+@EX Part 3: Listening - Customer Impact from Integrated Control
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as customers describe how integrated food safety and laboratory control changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Mother: My family used to buy this brand and sometimes the jars spoiled before the date on the label. The producer began testing the acidity and recording the cook temperature on every batch. After that, the jars kept properly to the end of the shelf life. Coordinating the plan and the laboratory caught a problem that nobody had seen before. Now I buy it with confidence.
+^Father: The shop now receives a certificate with each delivery. It lists what was tested and the result. When I asked about an allergen, the manager showed me the record from the batch. What the laboratory does actually reaches the customer and changes what we can trust. Before, the plan and the testing were separate and nothing connected. Now it all connects. Our family buys with more confidence.
+_200
+@QUESTION
+1. What problem was spoiling the product before the change?
+2. How did the certificate affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Quality Indicators
+@INSTR Before reading, discuss how you would judge whether a laboratory is a good one.
+_80
+@BULLET
+What signs indicate that a laboratory is producing reliable results?
+_300
+@EX Part 4: Reading - In-House Testing Philosophy
+@INSTR Read about in-house testing and answer detailed questions.
+_80
+@PANEL
+In-House Testing: Foundation for Controlled Production
+In-house testing is an approach emphasizing prevention, speed, and local capability. It differs from a model that sends every sample to a distant reference laboratory and waits. In-house testing builds controlled production, where a drift is caught the same day through simple validated methods close to the line.
+In-house testing serves as the foundation of a control system. Instead of every sample travelling, most routine needs are met in a factory laboratory by a trained analyst. Only accredited and complex tests go to the reference laboratory. This keeps costs lower and answers faster. In Egypt, where samples often cannot travel reliably, in-house testing became vital.
+Prevention is central to the philosophy. Catching a drift through a daily in-house check costs much less than recalling a shipped batch. A thermometer checked each morning costs less than a destroyed consignment. A moisture reading taken before packing costs less than mould at the customer. In-house testing emphasizes these cost-effective measures.
+In-house testing requires line participation. Analysts alone cannot create control. Operators must take samples correctly and record readings at the time. Operators must help identify which checks matter. Operators must act on a result rather than wait for the laboratory to insist. This approach views the line as a partner, not as a source of samples.
+In-house testing requires coordination among functions. Testing cannot improve without maintenance keeping the instruments calibrated. The laboratory cannot work if purchasing cannot obtain reagents. Good control requires maintenance, purchasing, production and the laboratory all working to one plan.
+In-house testing requires strong management and continuous learning. Analysts must be trained, supervised, and checked with control samples. Departments must review whether the methods still perform. Departments must learn from a failure and adjust. Weak management produces numbers nobody trusts. Strong management produces results the customer accepts.
+In-house testing creates durable control because it builds local capability. A factory that can run and validate its own methods becomes independent over time. A factory that depends entirely on a distant laboratory stops whenever transport stops.
+@NUM 100
+1. How does in-house testing prevent problems instead of only detecting them?
+2. What functions must coordinate for in-house testing to work?
+_300
+@EX Part 4: Reading - Laboratory Quality Standards
+@INSTR Read about laboratory quality factors and choose the best answers.
+_80
+@PASSAGE
+Laboratory Quality Standards and Indicators
+A reliable laboratory requires multiple components working together. A new instrument alone is insufficient if the method was never validated. A clean room alone is insufficient if the analyst was never trained. Quality requires coordination of many factors: validated methods, calibrated instruments, trained analysts, controlled reagents, a suitable environment, honest records, and participation in proficiency testing.
+Analyst competence is the most important factor in laboratory quality. A skilled analyst produces reliable results with modest equipment. A poorly trained analyst produces unreliable results on the newest instrument. Investment in training and supervision creates stronger impact than investment in equipment. In resource-limited laboratories, analyst competence determines everything.
+Method validation must suit the work actually done. A method taken from a textbook and never checked in your own laboratory fails quietly. Validation shows the method works on your matrix, with your reagents, in your hands. Validation respecting local materials and conditions produces results that hold.
+Traceable measurement means every result can be followed back to a reference. Balances are checked against reference weights, thermometers against a reference thermometer, and standards prepared from certified materials. Without traceability, a passing result means only that one instrument agreed with itself.
+Honest recording determines whether the system is worth anything. If staff record what they actually observed, a problem can be found and fixed. If records are completed later or improved, nobody can investigate anything. Building a culture where an unwelcome result is reported safely creates the conditions for real quality.
+Proficiency testing should confirm that the laboratory agrees with others. An internal control shows consistency but not correctness. Comparing your result with other laboratories on the same sample shows whether you are right. Results should guide method improvement, not simply be filed.
+Egypt's laboratory challenges stem from shortage and interruption. Reagents are hard to import, reference materials expire, power stops mid-test, and accreditation is expensive to maintain. Building laboratory quality requires not just instruments but attention to analyst training, method validation and honest records alongside equipment.
+@MCQ
+1. What factor has the most impact on laboratory quality?
+@OPT
+   ○ A) The newest instruments
+   ○ B) Analyst competence and training
+   ○ C) Reagent brand alone
+@MCQ
+2. Why is traceable measurement important for quality?
+@OPT
+   ○ A) Traceability has no effect on results
+   ○ B) Without it, a passing result means only that one instrument agreed with itself
+   ○ C) Traceability and quality are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether a food safety plan and a laboratory are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Quality Integration
+Regular joint meetings between the line and the laboratory | 
+Results arrive while the batch is still in the warehouse | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the testing is designed to support decisions rather than to create records
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated food safety and laboratory systems serve every customer equally regardless of order size. In-house testing run by trained analysts leads to better control than external testing alone. An uncontrolled process is safe if the final test passes. Analyst competence is more important to results than instrument age. Separate plans and laboratories are always more efficient than integrated systems. A factory laboratory cannot achieve results comparable to a reference laboratory for routine parameters. Quality systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every customer equitably?
+2. Is an uncontrolled process safe if the final test passes?
+3. Are separate plans and laboratories always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a food safety plan and a laboratory system integrated from the start.
+_80
+@BULLET
+If you were designing an integrated food safety and laboratory system for a Egyptian food plant, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Food and Laboratory Systems
+@INSTR Prepare a presentation on effective food safety and laboratory integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated food safety and laboratory systems.
+_300
+@EX Part 5: RolePlay - Coordinating the Line and the Laboratory
+@INSTR Roleplay coordinating production and the laboratory when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Integrated Control
+@INSTR Discuss how integrated control could transform a local producer.
+_80
+@BULLET
+How would integrated food safety and laboratory systems transform a producer like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Laboratory Investment
+@INSTR Roleplay advocating for investment in the laboratory to the company's management.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Integration Plan
+@INSTR Write a brief plan for integrating a food safety plan with laboratory testing.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating the plan and the laboratory and how to address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Integrated Control on Customers
+@INSTR Write about how integrated food safety and laboratory control changed customer outcomes.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for Safe Trusted Products
+@INSTR Write about your vision for producers whose safety and testing develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Food Safety in Egyptian Perspective
+@INSTR Read about Egyptian values supporting integrated food safety and laboratory work.
+_80
+@PANEL
+Egyptian Values Supporting Food Safety and Laboratory Work
+Egyptian traditions provide a strong foundation supporting integrated food safety and laboratory work. Understanding them helps design culturally appropriate systems gaining workforce support.
+The idea of "amanah" or trust held on behalf of others is central to Egyptian practice. Food prepared for another person is a trust, and the one who prepares it answers for it. Preparing and selling are understood as duties: those who know a defect are expected to declare it, and those who handle food are expected to protect it. Food safety in Egyptian tradition is a moral obligation, not only a legal requirement. Systems expressing that duty, with a named signature on each release, gain stronger workforce support.
+Egyptian teaching emphasizes cleanliness as a shared responsibility. Households have long maintained their own preservation practices through salting, drying, sun-curing and careful storage, and knowledge of how to keep food through a hot summer. Safety is understood as a balance between the food, the water, the air and the people handling it, and keeping that balance is everybody's work. Hygiene rules aligned with these values frame control as caring for a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The workshop is the group whose members share equipment, water and reputation. Members are responsible for each other. If one operator breaks hygiene, the whole workshop's product is affected. If one analyst reports loosely, every certificate is weakened. An integrated system combines process control and testing as a single workshop responsibility.
+Women's role in food knowledge is deep and increasingly recognized. Women hold detailed knowledge of preservation, water storage and spoilage, and increasingly lead laboratory teams. Senior staff emphasize that training women analysts strengthens the whole department. Hygiene training that respects this knowledge aligns with these values even where older practice overlooked it.
+Egyptian craft ethics require high standards. Master craftspeople and analysts are trusted figures accountable to the workshop and to the family name on the product. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing technical integrity and competence align with these values.
+The traditional practice of preserving food for the whole year shows that everything is interconnected — raw material, water, cleanliness, timing and storage. This way of thinking naturally supports integrated systems. Separating the plan from the testing fragments what a workshop experiences as one job. Integrated systems honour that unity.
+Aligning food safety and laboratory work with Egyptian values creates stronger workforce acceptance and care. Operators see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Egyptian tradition support food safety as a moral obligation?
+2. What traditional Egyptian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Quality Systems
+@INSTR Discuss how to design food safety and laboratory systems respecting local values and practices.
+_80
+@BULLET
+How can food safety and laboratory systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Food and Laboratory Concepts
+@INSTR Review Unit 7 by matching food safety and laboratory concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | In-house testing
+2. | Integrated system
+3. | Critical control point
+4. | Method validation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Showing that a method gives correct results on your matrix, in your hands
+b) | The step where a hazard must be controlled or the product becomes unsafe
+c) | A plan and a laboratory working to one set of records and one set of priorities
+d) | Running validated routine tests close to the line so a drift is caught the same day
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are food safety plans and laboratory systems closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) A plan needs results to prove control, and results need a plan to be meaningful
+   ○ C) Only testing matters for safety
+@MCQ
+2. What is the primary advantage of integrating the plan and the laboratory?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Results arrive in time to act on, and the plan directs testing where it matters
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does in-house testing expand control?
+@OPT
+   ○ A) It reduces the reliability of results
+   ○ B) It gives same-day answers on routine parameters while complex tests go to a reference laboratory
+   ○ C) In-house testing is not important
+@MCQ
+4. What makes analyst competence so important in a laboratory?
+@OPT
+   ○ A) Equipment has no effect on results
+   ○ B) A skilled analyst gives reliable results on modest equipment, and a poor one does not on the best
+   ○ C) Competence only matters in large laboratories
+_300

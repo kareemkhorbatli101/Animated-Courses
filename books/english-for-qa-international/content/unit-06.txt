@@ -1,0 +1,463 @@
+@UNITHEAD Unit 6: Working with Suppliers and Customers
+@PART Warm Up | Warm Up
+@EX Warm-Up: Supplier Partnership Discussion
+@INSTR Discuss what makes working with suppliers successful.
+_80
+@BULLET
+What does it mean to work "with" a supplier rather than only "inspect" a supplier?
+_300
+@EX Warm-Up: Stakeholder Roles Matching
+@INSTR Match stakeholder groups with their roles and interests in the supply chain.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Suppliers
+2. | Senior Operators
+3. | Customers and Buyers
+4. | Laboratories and Certifiers
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Independent bodies whose results and certificates let a claim be believed
+b) | The companies whose material enters the process and sets its upper limit of quality
+c) | The organizations that pay for the product and decide whether it is accepted
+d) | The experienced staff who know how the process actually behaves day to day
+_300
+@EX Warm-Up: Partnership Principles Multiple Choice
+@INSTR Read and choose the best answer about working with suppliers.
+_80
+@MCQ
+1. What is most important for building trust with a supplier?
+@OPT
+   ○ A) Rejecting a delivery immediately without explanation
+   ○ B) Consistent requirements, honesty, and following through on promises
+   ○ C) Using complicated technical language
+_300
+@EX Warm-Up: Discussion - Conflict and Collaboration
+@INSTR Discuss how to handle conflicts between different parties in the supply chain.
+_80
+@BULLET
+What should you do when the supplier, production, and the customer want different things?
+_300
+@EX Warm-Up: Stakeholder Interests Classification
+@INSTR Classify interests as Primary (directly affected), Secondary (supporting), or Tertiary (oversight).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Primary Stakeholder
+2. Secondary Stakeholder
+3. Tertiary Stakeholder
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The family that eats the finished product  ____________________________
+2. The operators who run the filling line  ____________________________
+3. The national authority reviewing the conformity mark  ____________________________
+4. The patients who take the medicine  ____________________________
+5. The supplier delivering the packaging film  ____________________________
+6. An export customer's third-party auditor  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Supplier and Partnership Terms Matching
+@INSTR Match key supply-chain terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Stakeholders
+2. | Supplier development
+3. | Supplier capability
+4. | Approved supplier list
+5. | Ownership
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The register of suppliers whose material may be accepted into the process
+b) | Working with a supplier to raise its standard rather than only rejecting its output
+c) | A feeling of responsibility for the quality of what you hand on
+d) | What a supplier is actually able to deliver consistently with its own equipment
+e) | All parties affected by or interested in the quality of the product
+_300
+@EX Part 1: Building Trust with Suppliers Table
+@INSTR Complete the table with ways departments build trust with suppliers.
+_80
+@GRID
+Trust-Building Action | Why It Matters
+Apply the same limits to every delivery | 
+Explain a rejection with evidence | 
+Give feedback when a delivery is good | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Suppliers learn that the requirement is real and not negotiable
+b)  The supplier can find and fix the cause instead of guessing
+c)  The supplier learns what to protect and keeps doing it
+_100
+_300
+@EX Part 1: Supply Chain Terms Fill-in
+@INSTR Complete sentences using supply-chain and partnership vocabulary.
+_80
+@GAP
+1. A true partnership is ____________________ with both parties having clear obligations.
+2. ____________________ communication means explaining a rejection with evidence.
+3. ____________________ means taking responsibility for the quality of what you hand on.
+4. ____________________ is helping a supplier raise its own standard rather than only rejecting its output.
+_300
+@EX Part 1: Supplier Work in Context - Fact Questions
+@INSTR Read about working with suppliers and answer detailed questions.
+_80
+@PANEL
+Building Strong Partnerships with Suppliers
+Effective quality work requires genuine partnership with the companies that supply materials. Partnership means treating a supplier as a party with obligations, not as a problem to be policed. It means the supplier understands the requirement, can measure it, and tells you when something changes.
+Partnership begins with a clear requirement. A supplier cannot meet a limit nobody has stated in writing. QA must issue a specification the supplier can actually test against, with a method and a limit rather than a vague description. Many disputes come from a requirement that was never written down.
+Trust is built through consistency. Suppliers watch whether the same limit is applied to every delivery. Is a borderline result accepted when the line is busy and rejected when it is not? Consistent application builds trust. One inconsistent decision teaches a supplier that the requirement is negotiable.
+Transparency is essential. Suppliers need to see the evidence behind a rejection. Which sample? Which method? What was the result? Transparent departments share the data. This lets the supplier find the cause rather than guess, and it prevents the suspicion that a rejection was commercial.
+Supplier development is better than policing. Policing finds a bad delivery after it has been made. Development raises the supplier's own control so the bad delivery never happens. This might mean sharing a method, training their staff, or agreeing a joint trial.
+Feedback must flow both ways. A supplier who only ever hears about failures stops volunteering information. A supplier who hears when a delivery was good knows what to protect.
+Partnership requires time and patience. A quick switch to a cheaper supplier typically produces a new set of problems. Partnerships built over years create a supply chain that holds when something goes wrong.
+@NUM 100
+1. What is the difference between policing a supplier and developing a supplier?
+2. How long does trust typically take to build in supplier partnerships?
+_300
+@EX Part 1: Discussion - Your Experience with Collaboration
+@INSTR Discuss times you worked collaboratively and what made it successful or difficult.
+_80
+@BULLET
+Describe a time when you collaborated successfully with others. What made it work?
+_300
+@EX Part 1: Listening - Partnership Stories from Suppliers
+@AUDIO 🔊 Audio Track 6.11
+@INSTR Listen to suppliers describing their experiences working with quality departments.
+_80
+@MCQ
+1. Why was the packaging supplier proud of the joint trial?
+@OPT
+   ○ A) The customer paid more
+   ○ B) They took part in setting the limit and could actually meet it
+   ○ C) Outside consultants controlled everything
+@MCQ
+2. Why did the first supply arrangement fail while the new one succeeded?
+@OPT
+   ○ A) Different prices
+   ○ B) The first failed because the requirement was never written; the new one succeeded through a shared specification
+   ○ C) Supply arrangements always fail
+_300
+@EX Part 1: Partnership Summary - Multiple Choice
+@INSTR Choose the best explanation of partnership principles.
+_80
+@MCQ
+1. What is the relationship between supplier development and long-term quality?
+@OPT
+   ○ A) They are unrelated
+   ○ B) Suppliers whose own control improves deliver acceptable material for longer
+   ○ C) Suppliers should not be helped to improve
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Partnership with "Together" and "With"
+@INSTR Complete sentences using language that emphasizes cooperation and partnership.
+_80
+@NUM
+1. Suppliers and quality departments work ____________________ (together) to agree the limits.
+2. The specification was written ____________________ (collaboration) the supplier's own laboratory.
+3. Partnership requires ____________________ (shared) obligations and mutual responsibility.
+_300
+@EX Part 2: Expressing Agreement and Disagreement
+@INSTR Complete the table with ways to express agreement and handle disagreement respectfully.
+_80
+@GRID
+Communication Goal | Respectful Language Example
+Express agreement supportively | 
+Express disagreement respectfully | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  That is a reasonable limit and our own results support it
+b)  I understand your position but our method gives a different result
+_100
+_300
+@EX Part 2: Passive Voice for Shared Decisions
+@INSTR Complete sentences using passive voice to show shared responsibility.
+_80
+@GAP
+1. The acceptance limit ____________________ by the supplier and the department together.
+2. The supplier's own data ____________________ when the specification was revised.
+3. Responsibility for the joint trial ____________________ between both laboratories.
+4. The supplier's concerns ____________________ and addressed in the revised method.
+_300
+@EX Part 2: Expressing Appreciation and Recognition
+@INSTR Complete sentences expressing gratitude and recognition for partnership contributions.
+_80
+@NUM
+1. We ____________________ (appreciate) the supplier's support during the joint trial.
+2. We ____________________ (recognize) of their technical knowledge and local experience.
+3. We are ____________________ (grateful) our partners' commitment to consistent quality.
+_300
+@EX Part 2: Listening - Partnership Vocabulary in Use
+@AUDIO 🔊 Audio Track 6.17
+@INSTR Listen to a supplier discussing partnership using specific language structures.
+_80
+@PLAYNOTE
+@SCRIPT
+^Leader: When departments work with us, not only on us, the language changes. They use phrases like "together we agreed the limit" instead of "we informed them." They use passive voice "our own data were taken into account" showing respect for our laboratory. They express appreciation "we value your technical knowledge" making us feel like partners.
+^Leader: Language reveals whether a department truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a disputed result. They say "this was a shared decision" even when they held the commercial power. Language shapes how people behave. Respectful language produces a supplier who calls you before a problem reaches you.
+_200
+@QUESTION
+1. How does language reflect whether supplier partnerships are genuine?
+2. What language do real partners use when they disagree?
+_300
+@EX Part 2: Grammar Review - Partnership Communication
+@INSTR Discuss how different grammatical choices reflect partnership values.
+_80
+@BULLET
+Compare "we will inspect your deliveries" versus "we will agree the limits together." How do these change the relationship?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Challenges in Partnership
+@INSTR Before listening, discuss challenges that arise in supplier partnerships.
+_80
+@BULLET
+What barriers prevent quality departments and suppliers from developing genuine partnerships?
+_300
+@EX Part 3: Listening - Stakeholder Perspectives
+@AUDIO 🔊 Audio Track 6.20
+@INSTR Listen to different parties describing their perspectives on supplier partnerships.
+_80
+@PLAYNOTE
+@SCRIPT
+~QA Officer: From our side, we want to accept what suppliers send but we have specifications we cannot change. We have customers who audit us and legal limits we must meet. So we must navigate between the supplier's capability, the customer's requirement, and what our own laboratory can measure. Good partnerships require honest conversations about these constraints. We have learned that suppliers accept a firm limit when we explain the reason. They feel mistreated when we reject without evidence.
+^Supplier: From the supply side, we want clarity and consistency. We understand departments have customers of their own. We accept a strict limit when it is written down and applied the same way every time. What frustrates us is a limit that moves depending on who is on duty. We want to be told early when a requirement changes, not discover it from a rejection. We want our own test results to count for something.
+_200
+@QUESTION
+1. What does the QA officer say about managing conflicting demands?
+2. What does the supplier value most in partnership?
+_300
+@EX Part 3: True/False - Partnership Principles
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Genuine partnership requires suppliers to know the requirement in writing. Suppliers have valuable knowledge of their own process that complements the department's testing. Trust is built through one-time good actions. Transparency about the evidence behind a rejection strengthens partnerships. Suppliers feel respected when they are told a limit even if it moves from week to week. Policing is more efficient than supplier development. Being honest about what you can and cannot accept is important in partnerships. Supplier development requires willingness from the party with more commercial power.
+@NUM 100
+1. Suppliers should know the requirement in writing.
+2. Trust is built through one-time good actions.
+3. Suppliers feel respected if a limit moves from week to week.
+_300
+@EX Part 3: Listening - Honest Communication in Partnership
+@AUDIO 🔊 Audio Track 6.22
+@INSTR Listen to partners discussing how honesty and transparency work in practice.
+_80
+@MCQ
+1. How does admitting the limits of your own method build trust?
+@OPT
+   ○ A) It shows weakness and incompetence
+   ○ B) It shows honesty and leads to a joint check rather than a disputed rejection
+   ○ C) Suppliers lose confidence in honest departments
+@MCQ
+2. What does the manager recommend when a supplier asks for a limit to be relaxed?
+@OPT
+   ○ A) Ignore the request
+   ○ B) Agree to everything to keep the supply
+   ○ C) Say clearly why the limit cannot move but help them reach it
+_300
+@EX Part 3: Listening - Building Partnerships Over Time
+@AUDIO 🔊 Audio Track 6.23
+@INSTR Listen to experienced quality staff describing how relationships develop.
+_80
+@PLAYNOTE
+@SCRIPT
+^Worker1: Building supplier partnerships is like building friendships. You cannot rush it. You must spend time understanding their process. You must visit when you do not need anything, not only after a failure. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own method was wrong. This takes time but creates relationships that survive a crisis.
+~Worker2: I noticed that partnerships develop through small successes. Start with one parameter where improvement is quick and visible, such as the moisture of a single raw material. This builds confidence for larger work. Also, acknowledge the improvement in writing. Let the supplier show our letter to their own management. This builds their internal case for investing in quality and motivates the next phase.
+_200
+@QUESTION
+1. What does the first speaker compare partnership building to?
+2. What strategy does the second speaker recommend for building strong partnerships?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - What Makes Partnerships Work
+@INSTR Before reading, discuss what you think makes partnerships succeed.
+_80
+@BULLET
+Based on your experience, what do successful partnerships need to work well?
+_300
+@EX Part 4: Reading - Models of Supplier Engagement
+@INSTR Read about different approaches to engaging suppliers and answer questions.
+_80
+@PANEL
+Models of Supplier Engagement in Quality Work
+Quality departments use different models for working with suppliers. The model chosen shapes whether the supply chain actually improves.
+The Policing Model: The department inspects every delivery and rejects what fails. The approach assumes the supplier cannot be trusted. Suppliers are passive and defensive. This model is quick and keeps control with the department. However, the supplier's own capability never improves, and the same faults keep arriving. When the department relaxes its inspection, quality collapses. The Policing Model is common but expensive.
+The Information Model: Suppliers are told the specification and sent the results of each rejection. Suppliers receive data but the department keeps all the decisions. This is better than pure policing but not genuine partnership. Suppliers appreciate the information but may not know what to do with it. Some information is better than none but is incomplete.
+The Partnership Model: Department and supplier are both parties with obligations. Both bring different expertise—the supplier knows its own process and the department knows the customer's requirement. Limits are set together and both laboratories compare methods. This model respects the supplier's capability and builds ownership. It is slower because agreement takes longer. But the deliveries actually improve and disputes become rare.
+The Co-Development Model: Supplier and department develop the material together. The supplier proposes changes, the department tests them, and both share the gain. The department provides technical support and the supplier provides process knowledge. This model requires the department to share information it might prefer to keep. It creates the strongest supply chain and the most reliable material. However, it requires trusting a supplier even when a competitor offers a lower price.
+Experience shows that higher-level models (Partnership and Co-Development) produce more reliable material and fewer recalls. However, they require patience and are harder to show in a quarterly report. Lower-level models (Policing and Information) show quick visible rejection figures but leave the underlying problem untouched.
+@NUM 100
+1. What is the main difference between the Information Model and the Partnership Model?
+2. What does experience show about different engagement models and reliability?
+_300
+@EX Part 4: Reading - Collaboration Across Departments
+@INSTR Read about how different departments work together effectively.
+_80
+@PASSAGE
+Cross-Functional Coordination
+Beyond working with suppliers, effective quality work requires coordination inside the company. On most sites, quality, production, purchasing, maintenance and the laboratory all affect whether a batch meets its requirements. Coordination among them prevents the problem that nobody owns.
+Coordination challenges arise from conflicting measures. When production is measured on output and quality on rejections, each department protects its own figure instead of solving the problem. This can lead to a fault being argued about rather than investigated. It can lead to gaps where nobody takes responsibility for a borderline result. Good coordination requires a shared measure that both departments can win on, usually product that reaches the customer without a complaint.
+Effective cross-functional work requires clear roles. Purchasing owns the supplier relationship, quality owns the specification, maintenance owns the instrument condition, and production owns the process. Clear role definition prevents duplication and lets each function use its expertise fully. Regular meetings allow all functions to share information and solve problems together.
+Trust among departments is important. Just as supplier trust comes from consistency, internal trust comes from reporting a problem early rather than hiding it until it is discovered. A production manager who conceals a deviation will not be trusted with the next borderline decision.
+Successful cross-functional teams in Brazil share scarce resources. Departments might share a reference material, combine a calibration visit, or coordinate transport for samples to a distant accredited laboratory. This sharing stretches limited resources further and gets more done on each journey.
+Hierarchical structures where one strong function dominates can be efficient but risk silencing the technician who saw the real problem. More equal models where every function has a voice engage more knowledge and build stronger commitment. These models take more time but produce fewer surprises at the customer.
+@MCQ
+1. Why do departments sometimes protect their own figures instead of cooperating?
+@OPT
+   ○ A) Competition is always good for the product
+   ○ B) Conflicting measures reward each department for defending its own number
+   ○ C) Cooperation is impossible between functions
+@MCQ
+2. What does a "shared measure" mean regarding cross-functional work?
+@OPT
+   ○ A) Having lots of instruments
+   ○ B) A measure both functions can win on, such as product reaching the customer without complaint
+   ○ C) Only large companies can coordinate
+_300
+@EX Part 4: Application - Building Inclusive Partnerships
+@INSTR Read scenarios and fill in how to include often-excluded parties in quality decisions.
+_80
+@GRID
+Excluded Group | How to Include in Quality Decisions
+Line operators whose observations are rarely recorded | 
+Small suppliers with no laboratory of their own | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Add an observation field to the line record and act visibly on what they write
+b)  Share a simple method, run a joint trial, and accept their result once correlated
+_100
+_300
+@EX Part 4: True/False - Cross-Functional Partnerships
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Competition between departments is beneficial for product quality in all circumstances. Clear role definition between functions prevents duplication. Trust between departments comes from reporting problems early. Sharing resources between departments always reduces individual department effectiveness. Line operators should not take part in quality decisions. Hierarchical structures are always more efficient than equal coordination. Building strong partnerships requires patience and investment in communication.
+@NUM 100
+1. Should functions have clearly defined roles to prevent duplication?
+2. Is internal trust built through reporting problems early?
+3. Should line operators be excluded from quality decisions?
+_300
+@EX Part 4: Discussion - Creating Win-Win Partnerships
+@INSTR Discuss how partnerships can benefit all parties involved.
+_80
+@BULLET
+How can supply arrangements be structured so that suppliers, the company, and customers all benefit?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building and Maintaining Partnerships
+@INSTR Prepare a presentation on how to develop and maintain successful supplier partnerships.
+_80
+@NUM 100
+1. Present the key principles and practices for building lasting partnerships in quality work.
+_300
+@EX Part 5: RolePlay - Managing a Disputed Result
+@INSTR Roleplay a difficult conversation where your result and the supplier's result disagree.
+_80
+_300
+@EX Part 5: Discussion - Your Role in Creating Partnerships
+@INSTR Discuss how you would approach building partnerships in a supply chain you know.
+_80
+@BULLET
+How would you build strong partnerships if you ran the quality department of a local factory?
+_300
+@EX Part 5: RolePlay - Explaining Your Approach to a Customer
+@INSTR Roleplay presenting your supplier management approach to an export customer.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Supplier Agreement Outline
+@INSTR Write an outline for a quality agreement between a department and a supplier.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Partnership Learning
+@INSTR Write about what you learned from trying to develop a supplier.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Handling a Partnership Problem
+@INSTR Write about a conflict with a supplier or another department and how you would address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Collaborative Quality
+@INSTR Write about how you envision collaborative quality transforming a supply chain.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Brazilian Values of Cooperation and Trade
+@INSTR Read about how Brazilian cultural values support supplier partnerships and answer questions.
+_80
+@PANEL
+Brazilian Cultural Values Supporting Collaboration
+Brazilian commercial culture has deep traditions of trust, reputation and long relationships that align strongly with partnership approaches in quality work. Understanding and building on these foundations creates more effective and culturally appropriate supply chains.
+The concept of "dignidade" or dignity is central to Brazilian culture. Dignidade means being treated with respect and keeping personal standing. Partnership approaches honour it by explaining a rejection with evidence rather than simply refusing a delivery. A rejection without explanation damages it, and a supplier who feels slighted will not volunteer information next time. Genuine partnership respects it and fits commercial values.
+Brazilian trade values the long relationship over the single transaction. A merchant's reputation travels in the market and lasts for generations. Families have traded with the same partners for decades. This means a Brazilian supplier responds strongly to being treated as a long-term partner and poorly to being treated as interchangeable. Approaches that switch supplier on price alone work badly. Approaches that invest in a supplier work well.
+Brazil's consumer code strengthens the partnership orientation. The code holds that a seller must not conceal a defect and must describe goods truthfully. If a fault is known, it must be declared. Quality requirements that ask a supplier to disclose a deviation rest on the same duty. Suppliers see honest declaration as meeting a duty they already hold, not as a weakness.
+The tradition of the word given in person supports written agreement backed by personal commitment. A specification signed by a named person carries weight beyond its clauses. Agreements structured with named signatories build on this cultural pattern.
+Brazilian hospitality shapes how an audit is received. A visiting auditor is welcomed and shown the workshop. However, a guest is expected to respect the host's craft. An auditor who dismisses long experience violates this expectation. Partnership requires respecting these cultural expectations.
+The importance of reputation provides powerful motivation. A supplier cares about standing among other suppliers. Feedback that names an improvement in writing succeeds. Rejections that humiliate a supplier in front of others create barriers to any future cooperation.
+Building partnerships on these cultural foundations creates authentic collaboration aligned with how business is actually done rather than imported models.
+@NUM 100
+1. What does dignidade mean and how does partnership honour this value?
+2. How does the consumer code support working with suppliers?
+_300
+@EX Part 7: Discussion - Respecting Culture in Partnerships
+@INSTR Discuss how to respectfully work with suppliers while honouring commercial traditions.
+_80
+@BULLET
+How can quality departments build partnerships that strengthen rather than challenge commercial traditions?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 6 Summary - Partnership Concepts
+@INSTR Review Unit 6 by matching key concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Supplier development
+2. | Ownership
+3. | Shared measure
+4. | Transparency
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A measure both quality and production can win on at the same time
+b) | Sharing the evidence behind a decision so the other party can act on it
+c) | Feeling responsible for the quality of what you hand on to the next stage
+d) | Raising a supplier's own control rather than only rejecting its output
+_300
+@EX Part 8: Integrated Assessment - Unit 6 Mastery
+@INSTR Demonstrate understanding of Unit 6. Choose the best answer.
+_80
+@MCQ
+1. What is the main difference between supplier partnership and policing?
+@OPT
+   ○ A) They are the same thing
+   ○ B) Partnership raises the supplier's own control; policing only rejects output
+   ○ C) Both improve supplier capability equally
+@MCQ
+2. Why does partnership take longer than policing?
+@OPT
+   ○ A) Partnership is not more time-consuming
+   ○ B) Agreeing limits, comparing methods and building trust take longer than rejecting
+   ○ C) Time does not matter in quality work
+@MCQ
+3. What creates lasting improvement in delivered material?
+@OPT
+   ○ A) Inspection that continues indefinitely
+   ○ B) The supplier's own control improving so the fault never arrives
+   ○ C) External testing alone
+@MCQ
+4. How do you build trust with suppliers?
+@OPT
+   ○ A) Through one generous acceptance of a failed delivery
+   ○ B) Through applying the same limits consistently and explaining every decision
+   ○ C) Trust is not important in supply
+_300

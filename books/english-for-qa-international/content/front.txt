@@ -1,0 +1,15 @@
+@TITLE English for Quality Assurance Professionals - Student Book (A2) | A2 | By Mohamad Khorbatli | 2026
+_-p
+@TOCHEAD Table of Contents
+@TOC
+Unit 1: Introduction to Quality Assurance
+Unit 2: QA Careers and Roles
+Unit 3: Standards, Codes and Certification Bodies
+Unit 4: Inspection, Sampling and Measurement
+Unit 5: The Quality Management Cycle
+Unit 6: Working with Suppliers and Customers
+Unit 7: Food Safety and Laboratory Quality
+Unit 8: Auditing and Performance Measurement
+Unit 9: Continuous Improvement and Scaling Quality
+Unit 10: Quality Advocacy and Professional Communication
+_-p

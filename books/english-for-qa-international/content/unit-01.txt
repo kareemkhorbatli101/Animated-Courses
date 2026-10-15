@@ -1,0 +1,642 @@
+@VOICES QA Officer | QA Manager 1 | QA Manager 2 | All Managers
+@UNITHEAD Unit 1: Introduction to Quality Assurance
+@PART Warm Up | Warm Up
+@EX Warm-up: Quality Terms and Check Types Matching
+@INSTR Match quality-related terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Quality assurance
+2. | Specification
+3. | Defect
+4. | Inspection
+5. | Customer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The person or company who buys the product and decides whether it is acceptable
+b) | A fault in a product that makes it fail to do what it is supposed to do
+c) | The work of making sure a product meets its requirements before it reaches the customer
+d) | The written document that states exactly what a product must be and must do
+e) | Looking at, measuring or testing a product to decide whether it meets the specification
+_300
+@EX Warm-up: What Is Quality Assurance? Simple Vocabulary Fill
+@INSTR Complete sentences about quality assurance using the words provided.
+_80
+@GAP
+1. Quality assurance is different from ____________________ because it prevents faults instead of only finding them.
+2. Every product is checked against its ____________________, which states what it must be.
+3. A product that does not meet its requirements contains a ____________________.
+4. QA staff are ____________________ professionals who must be trained before they may sign a release.
+_300
+@EX Warm-up: Types of Quality Check Classification
+@INSTR Classify each check as Incoming, In-process, Final, or Laboratory inspection.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Incoming inspection
+2. In-process inspection
+3. Final inspection
+4. Laboratory testing
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Checking a delivery of raw material before it enters the store  ____________________________
+2. Measuring a part halfway through the production line  ____________________________
+3. Checking the finished boxes before they are loaded for delivery  ____________________________
+4. Testing a sample of bottled water for bacteria  ____________________________
+5. Weighing the filled bags as they come off the machine  ____________________________
+6. Checking the label and the expiry date on a packed carton  ____________________________
+_300
+@EX Warm-up: Purposes of Quality Assurance Multiple Choice
+@INSTR Read about quality assurance and choose the correct answer to each question.
+_80
+@PASSAGE
+Quality assurance is the work of making sure a product does what it is supposed to do before it reaches the customer. QA staff think about how a product is made, how it is checked, and how faults are prevented rather than only found. Quality assurance covers many kinds of work including inspection, testing, auditing, documentation, and training. People choose to work in QA because they want products to be safe and to be trusted.
+@MCQ
+1. What does prevention mean in quality assurance?
+@OPT
+   ○ A) Repairing a product after the customer complains
+   ○ B) Stopping faults from happening instead of only finding them
+   ○ C) Selling a product at a lower price
+   ○ D) Hiding a fault from the customer
+@MCQ
+2. Which is NOT a common task for a QA officer?
+@OPT
+   ○ A) Inspecting a batch against its specification
+   ○ B) Writing an inspection report
+   ○ C) Operating the production machine all day
+   ○ D) Checking that records are complete
+_300
+@EX Warm-up: Standards and Systems Matching
+@INSTR Match well-known standards and systems with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | ISO 9001
+2. | HACCP
+3. | ISO/IEC 17025
+4. | Good Manufacturing Practice
+5. | ISO 22000
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The requirements a testing laboratory must meet for its results to be accepted
+b) | A management system standard for the way an organization controls its quality
+c) | The rules for how a food or medicine factory must be built, cleaned and operated
+d) | A method of finding the points in a food process where a hazard must be controlled
+e) | A management system standard for food safety across the whole supply chain
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Quality and Inspection Terminology Matching
+@INSTR Match quality vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Specification
+2. | Tolerance
+3. | Nonconformity
+4. | Calibration
+5. | Batch
+6. | Traceability
+7. | Audit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A planned check of whether a system is being followed as it is written
+b) | The ability to follow a product back through every stage to its raw material
+c) | A failure to meet a stated requirement, recorded so it can be corrected
+d) | A quantity of product made together under the same conditions
+e) | Checking a measuring instrument against a known reference so its readings can be trusted
+f) | The permitted amount by which a measurement may differ from the stated value
+g) | The written document that states exactly what a product must be and must do
+_300
+@EX Part 1: Quality Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important quality vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about quality, correct pronunciation helps others understand you clearly: // *• Assurance* - primary stress on SUR (as-SUR-ance) // *• Specification* - primary stress on CA (spe-ci-fi-CA-tion) // *• Tolerance* - primary stress on TOL (TOL-er-ance) // *• Calibration* - primary stress on BRA (cal-i-BRA-tion) // *• Nonconformity* - primary stress on FOR (non-con-FOR-mi-ty) // *• Inspection* - primary stress on SPEC (in-SPEC-tion) // *• Traceability* - primary stress on BIL (trace-a-BIL-i-ty) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Quality Activities and Purposes Table
+@INSTR Complete the table with quality activities, their main purposes, and examples.
+_80
+@GRID
+Quality Activity | Main Purpose | Example
+Inspection |  | 
+Testing |  | 
+Auditing |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding whether a product meets its written specification
+b)  Measuring the weight of every tenth bag on the filling line
+c)  Finding out how a material actually behaves under defined conditions
+d)  Testing a sample of fish sauce for salt content in the laboratory
+e)  Checking whether the system is being followed as it is written
+f)  Reviewing a month of batch records against the cleaning procedure
+_100
+_300
+@EX Part 1: Quality Checks and Stages Matching
+@INSTR Match quality checks with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Incoming inspection
+2. | In-process inspection
+3. | Final inspection
+4. | Laboratory testing
+5. | Internal audit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Reviewing whether staff actually follow the written procedures
+b) | Measuring a property that cannot be judged by eye, such as strength or purity
+c) | Checking the finished product and its labels before it is released
+d) | Measuring a part during production so a fault is caught before the batch is finished
+e) | Checking raw material and packaging before they are accepted into the store
+_300
+@EX Part 1: Quality Work Concepts Multiple Choice
+@INSTR Read about quality work and choose the correct word for each sentence.
+_80
+@PASSAGE
+QA staff work in many sectors to make products safer and more reliable. Some focus on food, testing samples and checking hygiene. Others work in pharmaceuticals, where every step must be documented. Many QA staff also audit suppliers to confirm that materials arrive as agreed. All QA staff share the goal of making products that do what they promise.
+@MCQ
+1. A ____________________ states exactly what a product must be and must do.
+@OPT
+   ○ A) report
+   ○ B) specification
+   ○ C) invoice
+   ○ D) label
+@MCQ
+2. A quantity of product made together under the same conditions is called a ____________________.
+@OPT
+   ○ A) sample
+   ○ B) order
+   ○ C) batch
+   ○ D) shift
+@MCQ
+3. A recorded failure to meet a stated requirement is called a ____________________.
+@OPT
+   ○ A) tolerance
+   ○ B) calibration
+   ○ C) nonconformity
+   ○ D) procedure
+_300
+@EX Part 1: Quality-Related Vocabulary Fill-in
+@INSTR Complete sentences using important quality vocabulary.
+_80
+@GAP
+1. A QA officer is a ____________________ professional who must be trained before signing a release.
+2. ____________________ operate the machines that QA staff then inspect.
+3. The ____________________ decides whether the delivered product is acceptable.
+4. All checks begin with a clear ____________________ describing what the product must be.
+5. A quantity made together under the same conditions is called a ____________________.
+6. Instruments are ____________________ regularly so their readings can be trusted.
+_300
+@EX Part 1: Vietnam's Quality Profession and Local Industry
+@INSTR Read about quality assurance in Vietnam and answer the factual questions.
+_80
+@PANEL
+Vietnamese Quality Institutions and Industry
+Vietnam has a long tradition of manufacturing and of inspecting what it makes. The Directorate for Standards, Metrology and Quality is the national body that publishes standards, holds the national measurement references, and operates the certification mark that many products must carry. It sets the rules for testing, keeps the register of accredited laboratories, and issues the certificates that exporters need.
+Many smaller companies in Vietnam run their own quality departments. Some work in food, checking coffee, cashew nuts, canned fruit and bottled water. Others work in pharmaceuticals, where Vietnamese factories have long supplied both the domestic market and the region. As exports have grown, much QA work has gone into qualifying new lines and proving to customers abroad that output meets their requirements.
+International customers and auditors also work with Vietnamese companies. They bring certification schemes, technical training, and specialist knowledge of export requirements. Partnerships between Vietnamese factories and international bodies strengthen the capacity to sell abroad.
+QA staff in Vietnam often face challenges including shortages of reagents, interrupted power during tests, and difficulty obtaining calibration services. Despite these obstacles, they remain committed to their work of protecting customers and building confidence in Vietnamese products.
+@NUM 100
+1. What is the Directorate for Standards, Metrology and Quality and what does it do?
+2. Name three types of quality work done in Vietnamese industry.
+3. What do international customers and auditors contribute to Vietnamese companies?
+4. What challenges do QA staff in Vietnam face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Quality Work
+@INSTR Complete sentences about what QA staff do using the present simple tense.
+_80
+@GAP
+1. A QA officer ____________________ (inspect) every batch before release.
+2. Laboratories ____________________ (test) samples against the specification.
+3. The auditor ____________________ (check) the records once a month.
+4. QA staff ____________________ (record) every nonconformity they find.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes quality assurance a distinct profession.
+_80
+@NUM
+1. QA staff are ____________________ (independent) when they report to the manager and not to production.
+2. QA staff are responsible because they ____________________ (responsible) for customer safety.
+3. The purpose of quality assurance is to ____________________ (protect) the people who use the product.
+_300
+@EX Part 2: Negative Sentences About QA Staff
+@INSTR Rewrite sentences in the negative form to show what QA staff do NOT do.
+_80
+@GAP
+1. QA staff ____________________ (operate machines) - they inspect and report.
+2. A QA officer ____________________ (ignore) a nonconformity to save time.
+3. QA staff ____________________ (approve) a batch without a test result.
+4. Laboratories ____________________ (report) a result they have not actually measured.
+_300
+@EX Part 2: QA and Production Roles Table
+@INSTR Complete the table with roles and what QA does vs. what production does.
+_80
+@GRID
+Factory Role | What QA does | What PRODUCTION does
+Before the run |  | 
+During the run |  | 
+At the end |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Approves the specification and the sampling plan
+b)  Sets up the line and prepares the materials
+c)  Takes samples and records the measurements
+d)  Runs the machines and keeps the output moving
+e)  Reviews the records and releases or rejects the batch
+f)  Cleans the line and prepares for the next product
+_100
+_300
+@EX Part 2: Correcting Quality Sentences
+@INSTR Correct the grammatical errors in sentences about quality assurance.
+_80
+@NUM 60
+1. QA staff inspects every batch before release.
+@RULE
+@NUM 60
+2. A QA officer do not operate the machine himself.
+@RULE
+@NUM 60
+3. Laboratories tests samples against the specification.
+@RULE
+@NUM 60
+4. Auditor checks the records once a month.
+@RULE
+@NUM 60
+5. The batch are released by the quality manager is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Quality Sentences
+@INSTR Choose the grammatically correct sentence about quality assurance.
+_80
+@PASSAGE
+When learning about quality assurance, correct grammar helps us communicate clearly about careful work. Selecting the best sentence shows understanding of specifications, inspection, and the roles on a production line.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The officer inspect every batch carefully.
+   ○ B) The officer inspects every batch carefully.
+   ○ C) The officer are inspecting every batch carefully.
+   ○ D) The officer have inspect every batch carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) QA staff do not operates the machines.
+   ○ B) QA staff does not operate the machines.
+   ○ C) QA staff do not operate the machines.
+   ○ D) QA staff do not operating the machines.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Laboratories test samples against the specification.
+   ○ B) Laboratories tests samples against the specification.
+   ○ C) Laboratories to test samples against the specification.
+   ○ D) Laboratories testing samples against the specification.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: QA Officer Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to a QA officer describing their department and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~QA Officer: Hello, my name is Rana. I work in the quality department of a food company in Hanoi called Mekong Foods. Our department checks raw materials, samples the line during production, and releases the finished product.
+~QA Officer: We have inspectors, laboratory analysts and a documentation officer who review records every day. We measure weight, moisture and acidity. We also check hygiene on the line and train the operators who work there.
+~QA Officer: Our department reports to the quality manager and not to production, so nobody can pressure us to release a batch. Students from the university also work with us as trainees. Our goal is simple - we want every pack that leaves the factory to be safe.
+_200
+@QUESTION
+1. What is Rana's company called?
+2. What does the quality department do?
+3. Who does the department report to?
+_300
+@EX Part 3: Types of Quality Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of quality work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^QA Manager 1: There are many kinds of quality work in Vietnam. Some departments focus on food, others on medicines, and many work on packaging and labelling. The Directorate for Standards, Metrology and Quality publishes the standards they all work to.
+^QA Manager 1: Food inspectors check hygiene, weight and shelf life. Pharmaceutical analysts test purity and dissolution in the laboratory. Packaging inspectors check print quality, barcodes and expiry dates before release.
+^QA Manager 1: International customers also audit Vietnamese factories. Together with local staff, they review thousands of records every year. All quality staff share the same goal - to make sure the product does what the label says.
+_200
+@QUESTION
+1. There are many kinds of quality work in Vietnam.
+2. Food is the only focus of Vietnamese quality departments.
+3. The Directorate for Standards, Metrology and Quality publishes standards.
+4. International customers do not audit Vietnamese factories.
+5. All quality staff work to make the product match its label.
+_300
+@EX Part 3: Quality Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to quality managers explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~QA Manager 1: Our food department works to make sure every pack is safe to eat. We sample each batch and test for bacteria. We also train the operators so hygiene is kept on the line itself.
+^QA Manager 2: My department works in pharmaceuticals. We test purity and strength in the laboratory. We teach staff why every step must be recorded at the time it happens.
+~QA Officer: We are the packaging section. We believe a correct label is part of the product. We check print, barcodes and expiry dates before anything is released.
+^All Managers: All of us report outside production. We work to the national standards and to our customers' specifications. We have trainees from the university who help us every day. This is why we can keep protecting customers.
+_200
+@QUESTION
+1. What is the aim of the food department?
+2. What does the pharmaceutical department test?
+3. What does the packaging section check?
+4. Who do these departments report to?
+_300
+@EX Part 3: Quality Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of quality role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Food inspector
+2. | Laboratory analyst
+3. | Packaging inspector
+4. | Internal auditor
+5. | Calibration technician
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Checking that measuring instruments read correctly against a known reference
+b) | Reviewing whether written procedures are actually followed across a department
+c) | Checking print quality, barcodes, weights and expiry dates before release
+d) | Checking hygiene, temperature and shelf life in a food process
+e) | Measuring purity, strength or moisture on samples in a controlled room
+_300
+@EX Part 3: Quality Characteristics Classification
+@INSTR Classify each statement as a Feature of QA, A Challenge QA Faces, or A Benefit to Customers.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of QA
+2. Challenge QA Faces
+3. Benefit to Customers
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. QA reports outside production so it can refuse a release  ____________________________
+2. Shortages of reagents and reference materials  ____________________________
+3. Products that are safe and do what the label says  ____________________________
+4. Every check is recorded at the time it is made  ____________________________
+5. Interrupted power during a long laboratory test  ____________________________
+6. Fewer complaints and fewer returned deliveries  ____________________________
+7. Working with production, purchasing and the laboratory  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Quality Assurance? Reading Comprehension
+@INSTR Read the text about quality assurance and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Quality Assurance?
+Quality assurance is the work of making sure a product meets its requirements before it reaches the customer. A QA department decides how a product will be checked, takes the samples, records the results, and releases or rejects the batch. QA works on safety, reliability and documentation at the same time. 
+Quality assurance exists in almost every industry in the world. It ranges from a single inspector in a small bakery to a department of a hundred in a pharmaceutical plant. Well-known systems include ISO 9001 for management, HACCP for food hazards, and ISO/IEC 17025 for testing laboratories.
+QA staff are paid by the company that makes the product, but they must report outside production so that nobody can pressure them to release a batch. They work closely with purchasing, production and the laboratory. Students work as trainees because they want to learn how real inspection is done.
+The specification of a product is its statement of requirements. For example, a food specification states the weight, the moisture and the shelf life. A medicine specification states the strength and the purity. A packaging specification states the print and the barcode. All specifications describe what the customer has been promised.
+QA staff are essential because a customer cannot test a product before buying it. They prepare the plans, take the samples, and keep the records that prove what was done. Customers benefit greatly from careful quality work.
+@MCQ
+1. What is quality assurance?
+@OPT
+   ○ A) Only repairing products after a complaint
+   ○ B) Making sure a product meets its requirements before it reaches the customer
+   ○ C) Selling products at the lowest price
+   ○ D) Operating the production machines
+@MCQ
+2. Why must QA report outside production?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) So nobody can pressure QA to release a batch
+   ○ C) Because production is not important
+   ○ D) To reduce the cost of testing
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how real inspection is done
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Types of Check and Examples - True or False
+@INSTR Read about types of quality check and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Types of Quality Check and Their Purposes
+QA departments use many different kinds of check. Incoming inspection examines raw materials and packaging before they are accepted. It prevents a known fault from entering the process at all.
+In-process inspection measures the product during production. It catches a drift in weight or temperature early, while only part of the batch is affected. Operators often make these checks themselves and record them on a chart.
+Laboratory testing measures what cannot be judged by eye. Purity, moisture, strength and the presence of bacteria all need instruments, a controlled room and a trained analyst. Results take time, so samples are usually taken early.
+Final inspection checks the finished product and its labelling before release. It confirms the count, the print, the barcode and the expiry date.
+Internal audit checks the system rather than the product. It asks whether the written procedures are actually being followed, and reports to management.
+All these checks work together to protect the customer. They depend on accurate instruments and on records made at the time the work is done.
+@NUM 100
+1. Incoming inspection only checks packaging.
+2. In-process inspection catches a drift early in the batch.
+3. Laboratory testing can always be done in a few minutes.
+4. Final inspection checks labelling before release.
+5. Internal audit checks the product rather than the system.
+_300
+@EX Part 4: Quality Assurance in Vietnam - Fact Questions
+@INSTR Read about quality assurance in Vietnam and answer the detailed questions.
+_80
+@PANEL
+Quality Assurance in Vietnam: History and Current Work
+Vietnam has a long industrial history. Silk, ceramics, lacquerware and food processing have been made and traded here for centuries, and Phú Quốc fish sauce has been fermented to a known method for generations. Formal standards work began with the founding of the national standards body, which now publishes technical standards and holds the national measurement references.
+Today, many kinds of quality work are carried out in Vietnam. Some departments belong to small family companies. Others work with international customers and auditors. Together they address critical needs in food safety, medicine quality, packaging and export certification.
+Food companies help Vietnamese products reach markets abroad. They sample each batch, test for bacteria and residues, and keep the records that an importing country will demand. Pharmaceutical analysts test purity and strength, and document every step at the time it happens.
+As factories have expanded, QA departments have had to qualify new production lines and new suppliers. They test the water, validate the cleaning, calibrate the instruments, and prove to customers that output is within specification.
+Laboratory staff work to keep accreditation despite shortages. Calibration technicians travel long distances to maintain reference instruments.
+The work of QA staff is challenging. They operate with limited reagents and often without reliable power. But they remain committed to protecting customers and building confidence in what Vietnam makes. International partnerships help local laboratories keep their accreditation.
+@NUM 100
+1. What has been produced on Phú Quốc to a known method for generations?
+2. What are three areas that quality staff work in Vietnam?
+3. What do food companies do to help Vietnamese products reach markets abroad?
+4. What challenges do QA staff in Vietnam face?
+_300
+@EX Part 4: Quality Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Quality, A Feature of the Profession, or A Service QA Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Quality
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of reagents and reference materials for the laboratory  ____________________________
+2. Reporting outside production so a release can be refused  ____________________________
+3. Taking samples and recording the measurements for each batch  ____________________________
+4. The cost of a batch rejected before it reaches the customer  ____________________________
+5. Responsibility for the safety of the people who use the product  ____________________________
+6. Auditing a supplier and reporting the findings  ____________________________
+7. The annual fee for accreditation and certification  ____________________________
+_300
+@EX Part 4: Quality Impact and Importance Matching
+@INSTR Match quality contributions with their importance and impact on customers.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Preventing Unsafe Product
+2. | Accurate Labelling
+3. | Supplier Auditing
+4. | Reliable Measurement
+5. | Complete Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at the time prove what was done and let a fault be traced back
+b) | Calibrated instruments mean a passing result can actually be trusted
+c) | Checking a supplier stops a known fault entering the process at all
+d) | A correct weight, ingredient list and expiry date let a customer choose safely
+e) | Catching a hazard before release protects people who cannot test the product themselves
+_300
+@EX Part 4: Quality Importance and Role Completion
+@INSTR Complete sentences about the importance and role of QA staff.
+_80
+@NUM
+1. QA staff are essential for ____________________ (prevent) faults that production cannot see.
+2. One main role of QA is to ____________________ (decide) whether a batch may be released.
+3. QA succeeds through ____________________ (work) with production, purchasing and the laboratory.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Quality Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about quality using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key quality vocabulary with correct pronunciation: // *• Assurance (as-SUR-ance)*: Making sure a product meets its requirements // *• Specification (spe-ci-fi-CA-tion)*: The statement of what a product must be // *• Calibration (cal-i-BRA-tion)*: Checking an instrument against a reference // *• Nonconformity (non-con-FOR-mi-ty)*: A recorded failure to meet a requirement // *• Traceability (trace-a-BIL-i-ty)*: Following a product back to its raw material // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Quality Assurance and Its Work
+@INSTR Discuss these questions about quality assurance with a partner:
+_80
+@BULLET
+What is a QA officer and how is the work different from a production operator's?
+What types of quality check do you know, and what does each one find?
+Why do you think QA must report outside production instead of to the line manager?
+Can you name a product made in Vietnam or your region and describe how you would check it?
+_300
+@EX Part 5: QA Interview Role Play
+@INSTR Practice an interview about quality assurance. One student is a customer asking questions. The other student is the QA officer who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Quality Assurance Facts
+@INSTR Prepare a presentation about quality assurance. Cover what QA staff are, types of check, and why quality matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is a QA officer?
+2. What types of quality check exist and what are good examples?
+3. Why is quality assurance important for our customers?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Quality Values and Professional Ethics
+@INSTR Read about quality values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Quality Values and Professional Principles
+QA staff are guided by important values and ethics in their work. Professional principles include honesty, independence, competence, and care for the customer.
+Honesty means recording what was actually measured, at the time it was measured. QA staff believe a record that is written later or improved afterwards is worthless, and this is why every result is signed and dated.
+Independence means QA reports outside production so a release can be refused. Staff stay independent so their signatures can be trusted. This allows them to hold a batch even when the line is waiting.
+Competence means working only within what you are trained and qualified to do, and asking for help with the rest. An analyst does not report a test they have not been trained to run.
+Care for the customer means remembering that somebody who cannot test the product will rely on it. This care allows QA staff to argue for a rejection that costs the company money.
+These principles guide QA staff every day. They explain why quality signatures are trusted inside and outside the company. Following these values makes quality work effective and ethical.
+@MCQ
+1. What does professional honesty mean in quality work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Recording what was actually measured, at the time it was measured
+   ○ C) Making the result look better
+   ○ D) Supporting only large customers
+@MCQ
+2. What does independence mean?
+@OPT
+   ○ A) Working without any procedures
+   ○ B) Reporting to the production manager
+   ○ C) Reporting outside production so a release can be refused
+   ○ D) Ignoring the customer's specification
+@MCQ
+3. Why is competence important for QA staff?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow production's instructions exactly
+   ○ C) So they report only tests they are trained and qualified to run
+   ○ D) So they can ignore the standards
+_300
+@EX Part 7: Vietnamese Cultural Values and Quality Work
+@INSTR Match Vietnamese cultural values with how they relate to quality assurance and inspection.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a sauce maker's method is named and remembered
+b) | Dignity means a signature is given carefully, because a name stands behind it
+c) | Hospitality shapes an audit: a visitor is received well and shown what is actually done
+d) | Respect for elders means the experienced analyst trains those who come after
+e) | A family firm's name travels with its product, so a defect is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Quality Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Type of Check, or Quality Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Type of Check
+3. Quality Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Reporting outside production so a release can be refused  ____________________________
+2. Incoming inspection of raw materials and packaging  ____________________________
+3. Taking a sample and recording the result at the time  ____________________________
+4. Responsibility for the safety of the customer  ____________________________
+5. Laboratory testing of purity and moisture  ____________________________
+6. Calibrating a balance against a reference weight  ____________________________
+7. Working with production, purchasing and the laboratory  ____________________________
+8. Internal audit of the written procedures  ____________________________
+_300
+@EX Part 8: Integrated Quality Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what a QA officer is?
+@OPT
+   ○ A) An operator who runs the machines very well
+   ○ B) A government official who issues certificates
+   ○ C) A trained professional who plans checks, takes samples, keeps records and releases or rejects batches
+   ○ D) A salesperson who finds customers for the product
+@MCQ
+2. What is a main difference between QA and production?
+@OPT
+   ○ A) QA has offices; production does not
+   ○ B) QA decides whether output meets the specification; production makes the output
+   ○ C) QA only works in cities; production works everywhere
+   ○ D) QA uses only paperwork; production uses only machines
+@MCQ
+3. How is quality work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the customer directly
+   ○ C) By the company that makes the product, with QA reporting outside production
+   ○ D) By charging high prices to poor customers
+@MCQ
+4. Which is an example of a product specification?
+@OPT
+   ○ A) Making profit for shareholders
+   ○ B) A bottled water with a stated mineral content, pH range and shelf life
+   ○ C) Following the operator's instructions exactly
+   ○ D) Keeping the test results secret from the customer
+_300

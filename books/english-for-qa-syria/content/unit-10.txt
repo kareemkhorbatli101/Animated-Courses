@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: Quality Advocacy and Professional Communication
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Quality Advocacy Discussion
+@INSTR Discuss what quality advocacy means and why QA staff take it on.
+_80
+@BULLET
+What is quality advocacy and why do QA professionals do it rather than just running checks?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Operator Level
+2. | Plant Level
+3. | Company Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | International standards and buyer requirements for a whole sector
+b) | Strengthening the quality committee and the voice of the lines
+c) | Changing one operator's habits and understanding at the bench
+d) | Changing national regulations and codes affecting every producer
+e) | Changing company-wide policies, budgets and purchasing rules
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for quality work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve a quality professional's effectiveness?
+_300
+@EX Warm-Up: Working in Networks Discussion
+@INSTR Discuss why quality professionals work together in networks.
+_80
+@BULLET
+Why do quality professionals form networks and associations with others in their field?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Analysis showing 60% of rejects come from one filling station  ____________________________
+2. A short film of three operators describing why the old sheet failed  ____________________________
+3. Data showing lines with trained inspectors have fewer customer returns  ____________________________
+4. Accounts from supervisors about the pressure to release held batches  ____________________________
+5. Cost study showing what each percent of scrap costs the company  ____________________________
+6. A staff newsletter with quotes from operators about pride in the work  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Quality Case
+2. | Professional Network
+3. | Evidence-Based Advocacy
+4. | Operator Voice
+5. | Coaching
+6. | Associations
+7. | Decision Authority
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Networks of quality professionals working toward common aims
+b) | Using factual data to convince decision-makers
+c) | Line staff raising their own quality concerns directly
+d) | Organised effort to change the rules and systems that set quality
+e) | Helping a line improve without taking over its decisions
+f) | Power to approve budgets and release product, held by people and rules
+g) | Bodies connecting professionals in a field for learning and standards
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Quality Policy
+3. | Quality Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using data to design and review the rules a plant works by
+b) | A senior manager who understands quality and will back the change
+c) | Solving problems by understanding how the parts are connected
+d) | Spreading one plant's proven rule across the whole company
+e) | A policy that deliberately protects quality when targets press against it
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most quality advocacy inside a company?
+@OPT
+   ○ A) To improve office efficiency and reduce paperwork
+   ○ B) To change rules and systems so quality is protected and customers are safe
+   ○ C) To replace production management with the quality department
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for planning a quality case.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning a quality improvement case?
+_300
+@EX Part 1: Standards-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about standards-based advocacy.
+_80
+@MCQ
+1. What is a "standards-based approach" to quality work?
+@OPT
+   ○ A) Framing quality as a requirement to be met rather than a favour to production
+   ○ B) Working only with managers without any involvement of the lines
+   ○ C) Running checks without requiring operators to take part
+_300
+@EX Part 1: Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct Briefing
+2. | Internal Communication
+3. | Regulatory Appeal
+4. | Collective Action
+5. | Shop-Floor Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Operators sending notes and suggestions to the quality committee
+b) | Posters and newsletters raising awareness and expectation
+c) | Direct meetings with managers to present the evidence
+d) | Raising a matter with the standards body or the regulator
+e) | Shift teams together asking management for the change
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A notice board campaign showing this month's reject costs  ____________________________
+2. Building a network of quality staff across the company's plants  ____________________________
+3. A briefing to the board after a serious customer complaint  ____________________________
+4. Developing quality champions among the production managers  ____________________________
+5. Releasing a study showing what good labelling control saves  ____________________________
+6. Creating line committees so operators have an ongoing quality voice  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Quality Messages
+@INSTR Write persuasive quality messages using strong language.
+_80
+@NUM 100
+1. Write messages to senior managers about increasing the budget for calibration and training.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyse the effect of a rule.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if the release rule changed.
+_300
+@EX Part 2: Argument Structure for Quality Briefs
+@INSTR Complete argumentative sentences for quality briefs.
+_80
+@OPTLINE
+1. The evidence __________ that investing in operator training lowers the cost of poor quality. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Line Concerns
+@INSTR Write statements reporting the lines' concerns clearly.
+_80
+@NUM 100
+1. Write statements reporting the concerns raised by operators about the new filling line.
+_300
+@EX Part 2: Academic Language for Study Reports
+@INSTR Complete academic sentences for quality study reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that earlier checks reduce finished-goods rejection. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Joint Documents
+@INSTR Write inclusive statements for joint quality documents.
+_80
+@NUM 100
+1. Write statements that unite production, maintenance and quality partners toward shared aims.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to an Operator's Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to a line supervisor speaking about raising a quality concern.
+_80
+@QUESTION
+1. What change did the supervisor say resulted from the concern they raised?
+_300
+@EX Part 3: Listening to a Manager's Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to a plant manager discussing how a rule was changed.
+_80
+@MCQ
+1. According to the manager, what most influenced the decision to change the release rule?
+@OPT
+   ○ A) Pressure from one large customer alone
+   ○ B) A combination of line pressure, evidence that the change works, and what the budget allowed
+   ○ C) A request from the quality department with no involvement of the lines
+_300
+@EX Part 3: Listening to Network Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to quality leads describing how their network was formed.
+_80
+@QUESTION
+1. What were two main challenges the network faced when bringing plants together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to quality staff planning an internal improvement campaign.
+_80
+@MCQ
+1. What did the staff identify as the most important first step in planning the campaign?
+@OPT
+   ○ A) Putting posters up across the plant at once
+   ○ B) Carrying out a stakeholder analysis to understand every view and influence
+   ○ C) Going straight to the board with a list of demands
+_300
+@EX Part 3: Listening to Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to quality leads reflecting on a campaign's outcomes.
+_80
+@QUESTION
+1. How did the quality leads describe what made their campaign succeed and where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Quality campaigns that combine the involvement of the lines with evidence-based arguments are more effective than single-strategy approaches. Line teams must lead the effort for the change to hold. Managers respond to a combination of pressure and practicality—a quality case must address what is possible, not only what is ideal."
+            Is the following true, false, or not given? "Quality advocacy works best when the department acts without much involvement of the lines."
+_300
+@EX Part 4: Reading About Change Theories
+@INSTR Complete based on reading about how rules change.
+_80
+@NUM
+1. According to reading about how rules change, management decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when several actions at different levels reinforce one another. One new rule alone may change little, but when it is combined with training, incentives and a shift in attitude, the change holds by itself. Effective systems change requires coordinated action across departments and shifts. This explains why joint committees become essential for quality work aimed at changing the system rather than fixing one line."
+            Is the following statement true, false, or not given? "Systems change can be achieved by one department alone with no need for joint committees."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on reading material, what are two reasons why combining data with accounts from the line is more effective than using either alone?
+_300
+@EX Part 4: Reading About Influence in a Plant
+@INSTR Read about where influence lies inside a plant.
+_80
+@NUM 100
+1. Read: "Understanding where influence lies is essential for effective quality advocacy. An influence analysis examines who holds the authority to decide, who shapes those decisions, who would gain from the change, who gains from the present arrangement, and how influence is spread among the parties. Different parties hold different sources of influence—formal authority (the plant director), money (the owners), knowledge (the laboratory and the auditors), numbers (the shift teams), collective voice (the quality committee). Effective advocacy identifies where influence lies, builds support among those who can be persuaded, brings the shift teams together (influence through numbers), and creates new influence (evidence, customer expectation, a shared committee) where little existed before."
+            According to the text, can line teams create influence through organising even if they hold no formal authority or budget?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about measuring a quality campaign.
+_80
+@NUM
+1. What indicators show that a quality campaign is creating change at different levels (operator, line, plant policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Making the Case to Management
+@INSTR Role-play a meeting advocating for a change in a plant rule.
+_80
+_300
+@EX Part 5: Presentation - Quality Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching a quality campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "Right First Time: Zero Avoidable Rejects on Line 3." Include: problem statement, evidence, who is affected, what change you are asking for, how the line can take part, timeline for the campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to quality advocacy and ways to overcome them.
+_80
+@BULLET
+What are common barriers that quality campaigns face inside a plant and how can staff overcome them?
+_300
+@EX Part 5: Role Play - Asking the Lines to Take Part
+@INSTR Role-play asking shift teams to take part in a quality campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Quality Campaign Strategy
+@INSTR Write a strategic plan for an internal quality campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Quality Brief for Decision Makers
+@INSTR Write a brief advocating for a specific management decision.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Quality Committee Charter
+@INSTR Write a charter describing how committee members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Quality Messages for a Plant Campaign
+@INSTR Write compelling quality messages for plant-wide awareness.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Consultation
+@INSTR Connect Syrian consultation principles to joint quality work.
+_80
+@NUM 100
+1. In Syrian practice, shura means matters are settled by consultation among those affected. How does this relate to quality committees and improvement led by the line?
+_300
+@EX Part 7: Syrian Values - Justice
+@INSTR Discuss principles of justice in changing a plant's systems.
+_80
+@NUM 100
+1. In Syrian civic tradition, adl means removing unfair treatment and securing each person's due. How does this principle relate to quality advocacy aimed at changing a plant's systems?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Quality Advocacy
+2. | Professional Network
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | Operator Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Line staff raising their own quality concerns directly
+b) | Networks of quality professionals working toward common aims
+c) | Using evidence and data to convince decision-makers
+d) | Understanding how the parts of a problem are connected
+e) | Working to change the rules and systems that set quality
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes a quality campaign most effective?
+@OPT
+   ○ A) Technical expertise alone, with no involvement of the lines, is sufficient
+   ○ B) Leadership from the line combined with evidence, a shared committee, and steady engagement with management
+   ○ C) An immediate change of rule with no need for sustained effort
+_300
+_-p

@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: QA Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Quality Assurance Do?
+@INSTR Discuss with a partner what jobs and roles exist in a quality department.
+_80
+@BULLET
+What types of jobs do you think people have in quality departments?
+_300
+@EX Warm-Up: Matching Quality Jobs to Descriptions
+@INSTR Match each quality job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | QA Inspector
+2. | Laboratory Analyst
+3. | QA Manager
+4. | Calibration Technician
+5. | Internal Auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Checks the product against its specification and records the result
+b) | Runs the tests that need instruments and a controlled room
+c) | Manages the department and signs the release of each batch
+d) | Keeps the measuring instruments reading correctly against references
+e) | Checks whether the written procedures are actually being followed
+_300
+@EX Warm-Up: Quality Job Skills
+@INSTR Classify the following skills by which quality job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Inspector
+2. Analyst
+3. Manager
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Careful observation and accurate recording  ____________________________
+2. Laboratory technique and calculation  ____________________________
+3. Leadership and decision-making  ____________________________
+4. Measuring a part against a drawing  ____________________________
+5. Preparing a reagent to a known concentration  ____________________________
+6. Deciding whether to release or reject a batch  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Quality Assurance?
+@INSTR Discuss with a partner: Would you like to work in quality assurance? Why or why not?
+_80
+@BULLET
+Would you like to work in quality assurance in the future? What role would you like to have?
+_300
+@EX Warm-Up: Quality Work in Türkiye
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are QA staff in Türkiye very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They qualify new production lines and prove that output meets requirements
+   ○ C) They do not work with laboratories
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Quality Job Titles and Descriptions
+@INSTR Match each quality job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | QA Inspector
+2. | Documentation Officer
+3. | Laboratory Analyst
+4. | Calibration Technician
+5. | QA Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who checks products against the specification and records what they find
+b) | A person who keeps procedures, records and certificates complete and up to date
+c) | A person who measures purity, strength or moisture using laboratory instruments
+d) | A person who keeps the measuring instruments reading correctly against known references
+e) | A person who leads the department, approves the plans and signs each batch release
+_300
+@EX Part 1: Quality Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Line Inspector
+2. | Cost of Quality Officer
+3. | Microbiologist
+4. | Supplier Auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Samples and records during production
+b) | Tracks the cost of rejects and rework
+c) | Tests for bacteria and spoilage
+d) | Visits and assesses suppliers
+_300
+@EX Part 1: Skills Required for Quality Work
+@INSTR Complete the table by filling in the required skills for each quality job.
+_80
+@GRID
+Quality Job | Skill 1 | Skill 2
+Line Inspector |  | 
+Laboratory Analyst |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  observant
+b)  accurate recording
+c)  careful technique
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Quality Assurance
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. QA staff often work in a ____________________ (laboratory) or out on the production line.
+2. Working in quality assurance can be ____________________ (demanding) but very rewarding.
+3. QA staff usually work as a ____________________ (team) with production and purchasing.
+_300
+@EX Part 1: Listening - Quality Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of quality jobs and answer the questions.
+_80
+@MCQ
+1. What does an inspector do on the production line?
+@OPT
+   ○ A) Trains new operators only
+   ○ B) Checks the product against the specification and records the result
+   ○ C) Manages the budget
+@MCQ
+2. What is a laboratory analyst's main responsibility?
+@OPT
+   ○ A) Run the tests that need instruments and report the results
+   ○ B) Manage the department budget
+   ○ C) Operate the filling machine
+_300
+@EX Part 1: Reading - Quality Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their quality careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become junior inspectors or analysts. Junior staff receive training to improve their technique and their record-keeping. Some work on the line as inspectors, sampling during production. Others work in the laboratory as analysts or in documentation. The most experienced staff may become quality managers who sign releases and train other staff. Working in quality assurance offers opportunities to learn, grow, and protect customers at the same time.
+@NUM 100
+1. How do most people start their careers in quality assurance?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Quality Career Interest
+@INSTR Discuss with a partner: Which quality job interests you most?
+_80
+@BULLET
+Which quality job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in a quality department for five years.
+2. They ____________________ (have tested) many batches in this laboratory.
+3. The quality manager ____________________ (has trained) all new inspectors.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new sampling plan
+They |  | results for 500 batches
+He |  | three internal audits
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has led
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new test method?
+3. ____________________ the analyst calibrated the balance?
+4. ____________________ they completed the audit report?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this laboratory before.
+3. He ____________________ (hasn't been) to a supplier audit.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the officer worked in quality departments?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the officer worked in?
+@OPT
+   ○ A) Food only
+   ○ B) Food, pharmaceuticals, and packaging
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What laboratory or inspection experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Quality Staff Interview
+@INSTR Before listening, discuss: What questions would you ask a QA officer?
+_80
+@BULLET
+What would you like to know about working in a quality department?
+_300
+@EX Part 3: Listening - Interview with a Quality Manager
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with a quality manager and answer the questions.
+_80
+@MCQ
+1. What does the quality manager do?
+@OPT
+   ○ A) Trains operators at the university
+   ○ B) Approves the plans and signs the release of each batch
+   ○ C) Works only in offices
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many customers
+   ○ B) Lack of reagents
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about a quality training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new quality staff. These programmes teach graduates what university does not cover. Tutors in these programmes are experienced analysts and inspectors from the department. They provide lessons in sampling, technique, and record-keeping. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new quality staff. These programmes teach graduates what university does not cover. Tutors in these programmes are experienced analysts and inspectors from the department. They provide lessons in sampling, technique, and record-keeping. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach sampling and record-keeping.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Department Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in quality departments and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of transportation
+   ○ B) Limited reagents and staffing
+   ○ C) Difficult customers
+@MCQ
+2. How many reference balances does the department have?
+@OPT
+   ○ A) One balance
+   ○ B) Three balances
+   ○ C) Two balances
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in quality assurance.
+_80
+@MCQ
+1. What position is the young analyst offered?
+@OPT
+   ○ A) Quality manager position
+   ○ B) A chance to train toward senior analyst
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only laboratory technique
+   ○ B) Leadership, method validation, and communication
+   ○ C) Only software skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Department Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of quality department?
+_80
+@BULLET
+How might roles differ between a food department and a pharmaceutical department?
+_300
+@EX Part 4: Reading - Quality Department Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most quality departments have a hierarchical structure. At the top is the Quality Manager who approves the plans and signs each release. Below the manager are section heads who run specific areas such as the laboratory, the line inspection team, and documentation. Each section head supervises inspectors and analysts who take the samples and run the tests. Auditors check the system rather than the product, and report to the manager directly.
+Departments also employ support staff like store keepers, sample couriers, and glassware technicians. While these roles may seem less visible, they are essential. For example, a courier makes sure a sample reaches the laboratory before it degrades. A glassware technician makes sure the equipment is clean enough for the result to mean anything. Every role is important for the department to function effectively.
+Recent years have seen changes in department structures. Smaller companies operate more flexibly, with fewer management layers. This allows decisions to be made faster. However, keeping instruments calibrated and records complete remain challenges even with simpler structures.
+@NUM 100
+1. Who signs each batch release in a quality department?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+QA staff must be meticulous — careful about every reading and every record. They also need persistence — the commitment to find the cause of a fault even when it is difficult. The expertise of experienced analysts is valuable for training new staff. Departments also value transparency — being honest with customers about what was tested and what was not.
+@MCQ
+1. What does "meticulous" mean?
+@OPT
+   ○ A) Fast and careless
+   ○ B) Careful about every reading and every record
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a hard problem
+   ○ B) Commitment to find the cause even when difficult
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Quality Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Measures purity and moisture using instruments in a controlled room |  | Laboratory
+Samples the product during production and records the measurements |  | Production line
+@CHOICEHEAD Choices:
+@CHOICE
+a)  analyst
+b)  line inspector
+_100
+_300
+@EX Part 4: True/False - Quality Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Quality departments employ both qualified staff and trainees. Trainees commit their time for a small payment because they want experience. Many QA staff in developing countries earn modest salaries compared to production engineers. However, they often report higher job satisfaction. Departments invest in staff training and development. Analysts can learn new methods while protecting the people who use the product. Career advancement is possible for dedicated staff who perform well.
+@NUM 100
+1. Some people in quality departments are trainees.
+2. QA salaries are higher than production engineering salaries.
+3. Departments provide training opportunities.
+_300
+@EX Part 4: Discussion - Quality Career Values
+@INSTR Discuss: If QA salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose quality assurance even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in a quality department. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Quality Career Path
+@INSTR Prepare and present a 3-part talk about career paths in quality assurance.
+_80
+@NUM 100
+1. How do people start and advance in quality careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in quality work?
+_300
+@EX Part 5: Discussion - Overcoming Department Challenges
+@INSTR Discuss with a partner: How do QA staff manage with limited references and slow testing?
+_80
+@BULLET
+How do experienced QA staff overcome shortages of references and capacity?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Analyst
+@INSTR Role play: A junior analyst asks an experienced analyst for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a quality department expressing interest in a traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our quality department?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of a QA Officer
+@INSTR Write a paragraph describing a typical day of a QA officer. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Quality Work
+@INSTR Write a short reflection about what you could learn from working in a quality department. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Quality Sector in Türkiye and the Region
+@INSTR Read about quality assurance in Türkiye and its neighbours, then answer questions.
+_80
+@PANEL
+The quality sector in Türkiye has grown significantly in response to the need to prove that output meets fast-growing export markets' needs. Large pharmaceutical plants, food exporters, and small family workshops all employ quality staff. These staff serve both the domestic market and customers abroad. Working in Türkiye's departments requires persistence because references, accredited time and analysts are all scarce.
+In neighbouring countries like Bulgaria and Georgia, departments employ analysts who test for both local sale and export. The work is challenging but essential. These organizations demonstrate how dedicated professionals keep working in hard times. Turkish QA staff are internationally recognized for their resourcefulness and persistence.
+Many Turkish professionals who studied abroad chose to return to work in quality departments at home. They sacrifice higher salaries in wealthy countries to protect customers in their own market. This shows deep commitment to the country and to the reputation of what it makes. Their choices inspire others to consider quality careers.
+@NUM 100
+1. Why has the quality sector grown in Türkiye?
+2. What characteristic is emphasized about Turkish QA staff?
+_300
+@EX Part 7: Discussion - Values in Quality Work
+@INSTR Discuss what values are important in quality work, especially where materials are scarce.
+_80
+@BULLET
+What values should guide QA staff, especially those working with limited reagents and references?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Quality Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Line Inspector
+2. | Quality Manager
+3. | Laboratory Analyst
+4. | Internal Auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Samples and records during production
+b) | Approves plans and signs each release
+c) | Runs the instrument tests and reports results
+d) | Checks whether procedures are followed
+_300
+@EX Part 8: Integrated Assessment - Quality Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin quality careers?
+@OPT
+   ○ A) As quality managers
+   ○ B) As trainees
+   ○ C) As auditors
+@MCQ
+2. What is the most valuable quality for QA staff according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the people who will use the product
+   ○ C) Previous management experience only
+@MCQ
+3. How has the quality sector in Türkiye changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has grown in response to the need to meet export market requirements
+   ○ C) It has decreased permanently
+@MCQ
+4. What do QA staff value according to the culture discussion?
+@OPT
+   ○ A) Making maximum profit
+   ○ B) Honesty, independence, and responsibility to customers
+   ○ C) Avoiding difficult situations
+_300
