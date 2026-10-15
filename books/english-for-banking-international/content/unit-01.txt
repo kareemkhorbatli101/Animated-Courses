@@ -1,0 +1,548 @@
+@UNIT 1 | Getting Started in Finance
+@FIG u1-banner
+@INTRO In this unit you learn to introduce yourself and your job, talk about your daily tasks and your current work, understand short workplace conversations, and write a short introduction. Grammar focus: present simple and present continuous.
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Roles and Services (brainstorm)
+@INSTR With a partner, list job titles and services you find in a bank.
+@MODEL
+Job titles: teller, loan officer, branch manager. Services: savings accounts, money transfers, loans.
+@BULLET
+Job titles you know: ____
+Services you know: ____
+
+@TASK W-B | Banking where you live (discussion)
+@INSTR Talk about banking where you live. Useful frame: “In my city there are ___ banks, such as ___.”
+@BULLET
+What kinds of banks are there in your country?
+Do you or your family use any banking services? Which ones?
+
+@TASK W-C | My Banking Experience (pairs)
+@INSTR Share a recent visit to a bank (in person or online).
+@MODEL
+Last week I visited my bank to pay a bill. A teller helped me, and it was a good experience.
+@BULLET
+Was it a good or bad experience? Why?
+What was the job title of the person who helped you?
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the roles to the definitions
+@INSTR Match each banking role (1–7) to the correct definition (a–h). One definition is extra.
+@EX Example: 0. Vault → g)
+@MATCH h) A written report of all your transactions (extra).
+Teller :: A senior person who manages the branch.
+Branch manager :: A staff member who handles deposits and withdrawals.
+Loan officer :: A person who helps customers open or manage services.
+Customer service rep :: A machine used for cash withdrawals.
+Security officer :: A person who checks loan applications.
+ATM :: A person in charge of safety and security.
+Account :: A place where money is kept for a customer.
+@PRON Pronunciation — word stress. Say these words. Mark the strong part: TEL·ler, man·A·ger, of·FI·cer, cus·TO·mer.
+
+@TASK 1B | Vocabulary in context (gap-fill)
+@INSTR Complete the sentences with the correct word.
+@BANK account | interest | teller | branch | ATM | loan | customer | deposit | withdraw
+@EX Example: 0. I went to the bank to open a savings account.
+@NUM
+I opened a new ______________________ at the bank last week.
+The ______________________ helped me deposit my salary.
+Our local ______________________ is closed on Sundays.
+You can ______________________ cash at any time using the ATM.
+The bank offers 3% ______________________ on savings.
+I applied for a small business ______________________ to start my shop.
+A ______________________ service rep helped me reset my online password.
+Please ______________________ your salary at the counter or the machine.
+I use the ______________________ near my home to take out cash.
+
+@TASK 1C | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common banking phrase (one noun is extra).
+@MATCH f) a branch (extra)
+open / close :: a loan
+apply for :: an account
+withdraw :: a password
+make :: cash
+reset :: a deposit
+@INSTR Now complete the sentences with a phrase from above.
+@NUM
+I want to ______________________ at this bank. I have my ID.
+You can ______________________ at the ATM at any time.
+She went online to ______________________ because she forgot it.
+
+@TASK 1D | Front office or back office?
+@INSTR Put each role in the correct group. Front office = works with customers. Back office = works behind the scenes.
+@LINE Roles: teller, IT support, loan officer, risk analyst, customer service rep, compliance officer.
+@BULLET
+Front office (with customers): ____
+Back office (behind the scenes): ____
+@MODEL
+Front office: teller, loan officer, customer service rep. Back office: IT support, risk analyst, compliance officer.
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write a short paragraph about a bank you know. Use at least five words from Part 1.
+@MODEL
+My local branch is small but friendly. The tellers are polite, and the customer service rep always helps me. I have a savings account there, and I use the ATM near my home. Last year I took a small loan.
+@CHECK
+Did you use five Part-1 words?
+Is it 40–60 words?
+Are your sentences short and clear?
+@WRITE
+@FIG u1-1
+
+@PART Part 2 · Grammar — Present Simple vs Present Continuous | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline the verbs. Which show a routine, and which show something happening now?
+@SCRIPT
+Luca: Hi, I’m Luca. I work in customer service.
+Mei: Nice to meet you. I’m training in the loan office this week.
+Luca: What do you usually do there?
+Mei: I usually help with forms, but now I’m learning to approve small loans.
+@NUM
+work — routine or now? ____
+am training — routine or now? ____
+do / help — routine or now? ____
+am learning — routine or now? ____
+@GF
+@GRAMMAR
+Present simple | I/you work; he works | routines, facts | I work at the bank every day.
+Present continuous | am/is/are + ‑ing | now, this week (temporary) | I am training this week.
+@REMEMBER usually, every day, always → present simple. now, this week, at the moment → present continuous.
+@WATCH
+✗ He work here. → ✓ He works here. (add ‑s for he/she/it)
+✗ I working now. → ✓ I am working now. (don’t drop am/is/are)
+
+@TASK 2B | Controlled practice (choose the tense)
+@INSTR Write the correct form of the verb in brackets.
+@BANK am meeting | are discussing | is checking | offers | arrives | opens
+@EX Example: 0. She ____ (work) here every day. → works.
+@NUM
+The branch manager ______________________ (check) the daily reports at the moment.
+He usually ______________________ (arrive) at 8:30.
+I ______________________ (meet) a new client now.
+Our bank ______________________ (offer) digital banking services.
+They ______________________ (discuss) loan terms at the moment.
+The branch ______________________ (open) at nine o’clock every day.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence (present simple or continuous).
+@EX Example: 0. He work here. → He works here.
+@NUM
+She work in the loan office.
+Right now I check the daily reports.
+They is opening a new branch this month.
+He usually is arriving at 8:30.
+We are have a team meeting every Monday.
+@WRITE
+
+@TASK 2D | Write about your day
+@INSTR Write three sentences about your job: two routines (present simple) and one thing you are doing now (present continuous).
+@MODEL
+I usually open the branch at nine. I serve customers all morning. This week, I am training a new colleague.
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, ask and answer. Use both tenses.
+@MODEL
+“I usually serve customers at the counter, but right now I am helping with the audit.”
+@BULLET
+What do you do at your job?
+What are you working on now?
+Do you usually deal with customers?
+@TIP You will use these two tenses again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u1-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear new staff talking on their first days. What might a new teller say to a manager?
+@MODEL
+“I think the new teller will talk about the counter system and her first day.”
+
+@TASK 3B | Dialogue 1 — Meeting the manager
+@AUDIO 1.1
+@SCRIPT
+Mr Diallo: Good morning. You must be Ana, our new teller.
+Ana: Yes, sir. It’s great to join the Warsaw branch.
+Mr Diallo: Welcome. Are you familiar with our teller system?
+Ana: I’ve used a similar one in training.
+Mr Diallo: Good. Accuracy and service are the most important things here.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. Ana is a new teller. → True.
+@NUM
+Ana used the exact same system before.
+Mr Diallo thinks speed matters most.
+Ana worked at another branch before.
+@USEFUL
+You must be…
+Are you familiar with…?
+I’ve used a similar one.
+
+@TASK 3C | Dialogue 2 — The IT support visit
+@AUDIO 1.2
+@SCRIPT
+Mei: Hi. Are you the new IT support person?
+Petra: Yes, I’m Petra. I’m installing the new firewall. It helps with security.
+Mei: Great. Our systems were slow last week.
+Petra: I’ll look into that. I’m also setting up the online terminals today. They will be faster.
+@INSTR Read and decide: True, False, or Not Given.
+@NUM
+Petra is installing a firewall to improve security.
+The terminals are broken and cannot be used.
+The new setup should make the system faster.
+
+@TASK 3D | A day in the life (longer listening)
+@AUDIO 1.3
+@SCRIPT
+Marta: Hello, my name is Marta, and I’m the branch manager here in Warsaw. My days are always busy. I usually arrive at 8 a.m. and check the team’s schedule. Then I open my email and read the messages from head office in Rotterdam. I spend most of my day supporting my staff and making sure everything runs well. I also meet important clients to discuss their needs. But this week is different. I’m not meeting many clients, because I’m training three new tellers. We are reviewing our procedures together, and I am watching them at the counter. It is a very focused week, but I enjoy it.
+@INSTR Read and decide: True, False, or Not Given.
+@NUM
+Marta usually arrives at 9 a.m.
+She spends most of a normal day supporting her staff.
+She is meeting more clients than usual this week.
+She is training three new tellers this week.
+She has been the manager for five years.
+
+@TASK 3E | Who is doing what now?
+@INSTR Look back at the three listenings. Match each person to what they are doing at the moment (present continuous). One option is extra.
+@MATCH d) is closing the branch for the day (extra)
+Ana :: is installing a firewall and setting up terminals
+Petra :: is training three new tellers
+Marta :: is starting her first day and learning the system
+@FIG u1-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Professional self-introduction
+@INSTR Introduce yourself: name, role, routine duties, and your current task.
+@MODEL
+“Hello. My name is Diego. I’m a loan officer at Harbour Bank. I usually check loan applications. Right now, I’m reviewing a housing loan.”
+@USEFUL
+My name is…
+I’m a… at…
+I usually…
+Right now, I’m…
+@INSTR Role cards — choose a profile and introduce yourself:
+@CARD Card A:
+Luca — Customer Service — usually answers questions — now learning the new app.
+@CARD Card B:
+Johanna — Risk Analyst — usually checks reports — now training a colleague.
+@CARD Card C:
+Grace — Teller — usually serves customers — now helping with the audit.
+
+@TASK 4B | Role play — professional exchange (pairs)
+@MODEL
+A: Hello, I’m Ana. I work as a teller. What do you do?
+B: Nice to meet you, Ana. I’m Diego, a loan officer.
+A: What are you working on these days?
+B: Right now, I’m training on the new software.
+@CARD Card A:
+you are a teller; you are helping with the audit this week.
+@CARD Card B:
+you are a loan officer; you are training on new software.
+
+@TASK 4C | Find the information (pairwork info-gap)
+@INSTR Student A and Student B have different cards. Ask questions to complete a table about each person.
+@CARD Card A — you know:
+Priya: relationship manager; usually checks applications; now training on new software. Ask B about Kofi.
+@CARD Card B — you know:
+Kofi: teller; usually serves customers; now helping with the audit. Ask A about Priya.
+@USEFUL
+What does he/she do?
+What does he/she usually do?
+What is he/she doing now?
+
+@TASK 4D | The networking event (mingle)
+@INSTR Stand up and introduce yourself to three classmates. Remember one thing each person is doing now.
+@STRETCH after each talk, report back — “Diego is a loan officer. He is training this week.”
+
+@TASK 4E | Small talk at work (functional phrases)
+@INSTR Match the small-talk phrase to the right moment (one is extra).
+@MATCH e) apologising for a mistake (extra)
+“How’s your first week going?” :: meeting a colleague for the first time
+“Can I help you with anything?” :: asking a new colleague how they feel
+“Nice to meet you.” :: offering help
+“Have a good weekend.” :: ending the week politely
+@INSTR In pairs, practise a 30-second small-talk chat with a new colleague. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Welcome to Harbour Bank
+@INSTR Read the company profile. Notice the present simple (facts) and present continuous (current plans).
+@READ Harbour Bank — Company Profile | About 200 words
+Harbour Bank is an international bank for people and small businesses. Its head office is in Rotterdam, and it has branches in Nairobi, Istanbul, São Paulo, Manila and Warsaw. In other countries it works with partner banks. The bank helps individuals and small businesses manage their money safely, at home and across borders. Its services include savings accounts, current accounts, personal and business loans, currency exchange, international transfers, and digital banking. The customer service team gives fast, polite help in several languages. When a client wants to open an account or apply for a loan, the staff are ready to assist. Harbour Bank also supports local economies. Its microfinance programme gives small loans to low-income business owners in every country where the bank works. These loans help them grow their businesses. Right now, the bank is investing in new mobile and online tools. It is building easier and safer ways to send money between countries. The goal is simple: modern, reliable banking for every customer, wherever they are.
+@INSTR Answer the questions.
+@EX Example: 0. Where is Harbour Bank’s head office? → In Rotterdam.
+@NUM
+What financial products does the bank offer?
+Who are the bank’s main customers?
+What is the purpose of the microfinance programme?
+What is the bank doing now to improve its services?
+In how many cities does the bank have branches?
+Name one thing the customer service team does.
+@INSTR Vocabulary in context — match the word to its meaning (one is extra).
+@MATCH f) money paid on savings (extra)
+SME :: small and medium enterprises
+digital banking :: online and mobile banking services
+microfinance :: small loans for low-income business owners
+branch :: a local office of the bank
+entrepreneur :: a person who starts a business
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the Harbour Bank text. Find and write two present-simple verbs and two present-continuous verbs.
+@NUM
+Present-simple verbs: ____ , ____
+Present-continuous verbs: ____ , ____
+@INSTR Now complete these sentences about the bank.
+@NUM
+Harbour Bank ______________________ (have) branches in five cities.
+Right now, the bank ______________________ (invest) in new online tools.
+
+@TASK 5C | Meet a team member
+@INSTR Read the short profile. What does Priya do every day, and what is she doing this week?
+@READ Priya Raman — Relationship Manager | About 130 words
+Meet Priya Raman, a relationship manager at the Manila branch of Harbour Bank. Priya works in a busy department where things change every day. Her main job is to understand the needs of business clients and to suggest the right services. Many of her clients buy or sell abroad, so she also works with the transfers team in Rotterdam. She works with the loan and risk teams too, so clients get fast, correct answers. This week, Priya is training two new colleagues and is updating the bank’s client-service guide. She enjoys her work because she meets many different people.
+@NUM
+Where does Priya work, and what is her job?
+What is Priya’s main job with business clients?
+What two things is Priya doing this week?
+
+@TASK 5D | Discussion — compare banks
+@INSTR In pairs, compare Harbour Bank with a bank you know.
+@GREEN Useful frame: | “My bank offers ___, which is similar to / different from Harbour Bank.”
+@BULLET
+Does your bank offer similar services?
+What is the benefit of a bank that helps both people and businesses?
+@FIG u1-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | The parts of a professional email
+@INSTR Match the part of an email to the example (one is extra).
+@MATCH f) Please find my report attached (extra).
+Subject line :: Introduction — New Loan Officer
+Salutation :: Dear Mr Diallo,
+Opening :: I am writing to introduce myself.
+Body :: I usually manage SME accounts, and now I am learning retail.
+Sign-off :: Best regards, Diego
+@TASK 6B | Guided writing — complete the email
+@INSTR Complete the email with the words: currently, joined, usually, meeting, name.
+@BANK currently | joined | usually | meeting | name
+@NUM
+Subject: Introduction — New Analyst. Dear Team, my ______________________ is Johanna Berg.
+I ______________________ the Risk department last Monday.
+In my role, I ______________________ check credit limits and prepare reports.
+______________________, I am helping the senior manager with the annual audit.
+I look forward to ______________________ all of you soon.
+
+@TASK 6C | Write your own introduction email (50–70 words)
+@INSTR Write a short email to your new manager. Use one present-simple and one present-continuous sentence.
+@MODEL
+Subject: Introduction — New Teller
+Dear Ms Nowak, My name is Ana Silva. I am a new teller at the Warsaw branch. I usually help customers with deposits and withdrawals. This week, I am learning the new counter system. I look forward to working with the team. Best regards, Ana
+@GREEN Plan (fill in, then write): | Subject: Introduction — ___ · Dear ___, · My name is ___. I am a ___ at ___. · I usually ___. · This week, I am ___. · I look forward to ___. · Best regards, ___
+@PHRASES
+My name is…
+I am a… at…
+I usually…
+This week, I am…
+I look forward to…
+Best regards
+@CHECK
+A subject line?
+One present-simple and one present-continuous sentence?
+A polite close?
+50–70 words?
+@WRITE
+
+@TASK 6D | Write a short profile of a colleague (40–60 words)
+@INSTR Use the notes to write a short professional profile.
+@CARD Notes — Elif Demir:
+Compliance Officer at Meridian Bank; usually checks that the bank follows the rules in every country it works in; now reviewing customer data; works with the Legal team.
+@MODEL
+Elif Demir is a compliance officer at Meridian Bank. She usually checks that the bank follows the rules in every country it works in. At the moment, she is reviewing customer data to improve security. She works closely with the Legal team.
+@GREEN Frame: | ___ is a ___ at ___. He/She usually ___. At the moment, he/she is ___. He/She works with ___.
+@CHECK
+Present simple for routine tasks?
+Present continuous for the current task?
+40–60 words?
+@WRITE
+
+@TASK 6E | Peer check
+@INSTR Swap your email from 6C with a partner. Use the checklist to give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · two tenses? · polite close? · 50–70 words?
+@MODEL
+“Good subject line and a polite close. Next time, try to add one sentence about what you are doing this week.”
+
+@TASK 6F | Improve the email (editing)
+@INSTR This short email has three small mistakes (grammar and politeness). Find them, then rewrite the email correctly.
+@LINE
+Subject: hello
+hi, I am Petra. I working in IT. I fix computers. bye.
+@CHECK
+a clear subject line
+correct present continuous (‘I am working’)
+a polite greeting and close
+@WRITE
+
+@PART Part 7 · Management File — Welcoming a New Colleague | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Manager’s phrase bank
+@INSTR Match the onboarding phrase to its purpose (one is extra).
+@MATCH e) ending a meeting politely (extra)
+“Welcome aboard.” :: offering a tour of the branch
+“Let me show you around.” :: greeting a new employee
+“If you’re unsure, just ask.” :: giving a buddy for support
+“I’ll pair you with Grace.” :: inviting questions
+
+@TASK 7B | Listening — Day one for a new colleague
+@AUDIO 1.4
+@SCRIPT
+Marta: Welcome aboard, Ana. Let me show you around the branch.
+Ana: Thank you. Where do I start?
+Marta: First, you shadow a teller today. Watch how she serves customers.
+Ana: And after that?
+Marta: Tomorrow you try the counter system with support. If you’re unsure, just ask. I’ll pair you with Grace for your first week.
+Ana: That sounds good. Thank you, Ms Nowak.
+@INSTR Answer the questions.
+@EX Example: 0. Who is the new colleague? → Ana.
+@NUM
+What does Ana do on her first day?
+When does she try the counter system?
+Who supports Ana in her first week?
+
+@TASK 7C | Controlled practice — the induction checklist
+@INSTR Complete the checklist for a new teller. Use the present simple.
+@BANK shadows | meets | reads | signs | learns
+@NUM
+On day one, the new teller ______________________ an experienced colleague.
+He or she ______________________ the branch safety rules.
+The new teller ______________________ the team and the manager.
+He or she ______________________ the staff handbook.
+By the end of week one, the new teller ______________________ the counter system.
+
+@TASK 7D | Role play — welcome a new hire
+@INSTR You are a supervisor. Welcome a new team member. Explain three routine duties and one current project.
+@MODEL
+“Welcome aboard. In this team, we usually open accounts and answer customer questions. This month, we are moving to a new system, so we are all learning together.”
+@CARD Card A (supervisor):
+greet · explain three routine duties · mention one current project · offer help.
+@CARD Card B (new hire):
+ask two questions about the job.
+@STRETCH the new hire is nervous — reassure them politely.
+
+@TASK 7E | Writing — a team-member bio for the noticeboard (60–80 words)
+@INSTR Write a short, friendly bio to introduce a new colleague to the branch.
+@MODEL
+Please welcome Ana Silva, our new teller at the Warsaw branch. Ana joined us this week from our training programme in São Paulo. She usually helps customers with deposits and withdrawals. At the moment, she is learning our counter system and shadowing the team. Ana is friendly and hard-working. Please say hello and make her feel welcome.
+@GREEN Plan: | Please welcome ___, our new ___. He/She joined us ___. He/She usually ___. At the moment, he/she is ___. Please ___.
+@PHRASES
+Please welcome…
+joined us this week
+usually…
+at the moment…
+make him/her feel welcome
+@CHECK
+Name and role?
+One present-simple and one present-continuous sentence?
+A friendly, welcoming tone?
+60–80 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — Onboarding at a Global Bank | Practitioner track · read then discuss
+@INSTR Before you read: how long should a good “first week” be at a bank? What should a new person learn first?
+@READ A Two-Week Start | About 210 words · a made-up example based on real practice
+A large international bank believes that a good start helps new staff stay and do well. So the bank gives every new employee a two-week induction, and it uses the same programme in every country where it works. In the first week, new staff do not work at the counter alone. Instead, they shadow an experienced colleague and watch how the work is done. Each new person also gets a “buddy”. A buddy is a friendly colleague who answers small questions and helps the new person feel welcome. New staff say the buddy system makes the first days much easier.
+In the second week, new staff take short online lessons about safety, service, and the bank’s rules. Because the bank works in several countries, they also learn which rules are the same everywhere and which ones are local. They practise the computer system with support. Nobody works alone until they are ready. New employees are on “probation” for three months. During this time, the manager gives regular feedback. If a new person needs more help, the manager gives it early. The bank says this careful start is worth the time: staff who feel supported learn faster and give better service.
+@GLOSS
+shadow — watch and follow an experienced colleague to learn
+buddy — a friendly colleague who helps a new person
+induction — the training period at the start of a job
+probation — the first months, when your work is checked
+
+@TASK 8A | Comprehension
+@EX Example: 0. How long is the induction? → Two weeks.
+@NUM
+What do new staff do in the first week?
+How does a buddy help?
+What happens during probation?
+Why does the bank think a careful start is worth the time?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a written warning (extra)
+shadow :: the training period at the start of a job
+buddy :: watch and learn from a colleague
+induction :: a helpful colleague for a new person
+probation :: the first months, when work is checked
+
+@TASK 8C | Discussion
+@GREEN Frames: | “This is similar to a bank in my country because ___.” “This is different because ___.”
+@BULLET
+Would a two-week start work in your bank? Why / why not?
+What is one idea here you would use?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Which idea from the global case would help new staff most in your bank, and why?
+@WRITE
+
+@PART Part 9 · Branch Case Study — Nairobi in Focus: A New Branch Opens | Practitioner track · read then decide
+@INSTR Before you read: when a new branch opens, what problems can the manager have on day one?
+@READ Opening Day in Nairobi | About 170 words
+Harbour Bank is opening a new branch in Nairobi. The branch manager, Amina Yusuf, arrives early. The branch is clean and ready, but the team is very new. Two of the three tellers started only last week, and they are still learning the counter system. By nine o’clock, there is already a small queue outside. Many customers want to open their first account, and several want to receive money from family abroad. One older customer looks worried and asks a lot of questions. The new tellers work slowly and carefully, but the queue is growing. Amina wants two things at once: fast service and correct work. She knows that new tellers make mistakes when they hurry. She also knows that customers do not like waiting. She has one experienced teller, Grace Otieno, and two learners on the counter. She must decide how to organise the morning.
+
+@TASK 9A | Comprehension
+@EX Example: 0. Where is the new branch? → In Nairobi.
+@NUM
+Why do the new tellers work slowly?
+What two things does Amina want at the same time?
+Who is the one experienced teller?
+
+@TASK 9B | Decision task
+@INSTR What should Amina do first? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Amina should put Grace on the busiest window, because she is fast and correct. The two new tellers can serve simple customers with support. Also, Amina can help the worried customer herself. This keeps service polite and reduces mistakes.
+@GREEN Frame: | I think Amina should ___, because ___. Also, ___.
+@PHRASES
+put ___ on the busiest window
+serve simple customers first
+give support to the new tellers
+help the worried customer
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use the correct tense (present simple or continuous) or the correct word.
+@EX Example: 0. She ____ (work) here every day. → works.
+@NUM
+A ______________________ handles deposits and withdrawals. (role)
+The manager usually ______________________ (arrive) early.
+Right now, I ______________________ (learn) the counter system.
+A loan officer ______________________ (check) loan applications. (routine)
+This week, we ______________________ (train) two new colleagues.
+A ______________________ is a machine for cash withdrawals. (word)
+You can ______________________ for a loan at the counter. (verb + preposition)
+At the moment, the bank ______________________ (invest) in new online tools.
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can introduce myself and my job.
+I can describe my routine duties (present simple).
+I can say what I am doing now (present continuous).
+I can understand a short first-day conversation.
+I can write a short introduction email.
+
+@TASK 10C | Unit glossary
+@GLOSS
+teller — staff member who handles deposits and withdrawals
+branch manager — senior person who manages a branch
+loan officer — person who checks loan applications
+customer service rep — person who helps customers with services
+account — where a customer’s money is kept
+ATM — machine for cash withdrawals
+SME — small and medium enterprise
+microfinance — small loans for low-income business owners
+induction — the training period at the start of a job
+shadow — watch and learn from a colleague

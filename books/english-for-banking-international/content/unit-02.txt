@@ -1,0 +1,530 @@
+@UNIT 2 | Customer Service and Communication
+@FIG u2-banner
+@INTRO In this unit you learn polite customer-service language, how to make requests and offers, how to handle common situations, and how to write short service emails. Grammar focus: modals for requests and offers (can, could, may).
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Good and bad service (discussion)
+@INSTR In small groups, talk about customer service you have received.
+@MODEL
+“The teller smiled, used my name, and explained each step. It was very good service.”
+@BULLET
+Think of good service you received at a bank or shop. What did the person do well?
+Think of poor service. What went wrong?
+What are three things a good bank employee should always do?
+
+@TASK W-B | Good vs bad service (mini role-play)
+@INSTR In pairs, act out two short scenes (30 seconds each): the same question, first with bad service, then with good service.
+@LINE Question: “Where do I deposit this cheque?”
+@TIP In the good scene, use a greeting, a polite modal (Could / May), and an offer of help.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the phrase to the situation
+@INSTR Match each polite phrase (1–6) to the situation where a banker uses it (a–g). One is extra.
+@EX Example: 0. “Have a nice day!” → f) (ending the conversation politely)
+@MATCH g) asking the customer to wait (extra)
+“How can I help you today?” :: greeting a new customer
+“May I see your ID, please?” :: verifying the customer’s identity
+“You’ll need to fill out this form.” :: explaining the next step
+“Would you like a receipt?” :: offering the customer a choice
+“Could you confirm your address?” :: checking that information is correct
+“I’m sorry, that service is not available.” :: ending the conversation politely
+@PRON Pronunciation — word stress. Say these words: as·SIST, con·FIRM, VE·ri·fy, in·QUI·ry.
+
+@TASK 1B | Sort the phrases by function
+@INSTR Put each phrase from 1A into the correct group.
+@BULLET
+Offering help: ____
+Requesting information: ____
+Explaining a step: ____
+@MODEL
+Offering help: “How can I help you today?”, “Would you like a receipt?”
+Requesting information: “May I see your ID?”, “Could you confirm your address?”
+Explaining a step: “You’ll need to fill out this form.”
+
+@TASK 1C | Complete the bank dialogue
+@INSTR Complete the dialogue with the correct word.
+@BANK account | ID | form | assist | procedure | confirm | transaction | verify
+@EX Example: 0. Welcome to our bank. How can I assist you today?
+@NUM
+Customer: I’d like to open a new ______________________, please.
+Banker: Certainly. First, may I see your ______________________? I need it to verify your identity.
+Banker: Thank you. I just need to ______________________ your details.
+Banker: The ______________________ is simple. Please complete this application ______________________.
+Banker: Would you like to make your first ______________________, such as a deposit, today?
+
+@TASK 1D | Make it polite (rewrite)
+@INSTR These sentences are too direct. Rewrite each one to be polite and professional.
+@EX Example: 0. “Give me your ID.” → “Could I see your ID, please?”
+@NUM
+“Sign it now.”
+“Wait.”
+“What do you want?”
+“I need your phone number.”
+“You’re wrong. That’s not the rule.”
+@WRITE
+
+@TASK 1E | Key customer-service terms
+@INSTR Match the term to its meaning (one is extra).
+@MATCH g) a written complaint (extra)
+client / customer :: a person who uses the bank’s services
+transaction :: an action like a deposit, withdrawal or transfer
+inquiry :: a question asking for information
+procedure :: the official series of steps to do something
+to verify :: to check that something is true
+to authorise :: to give official permission
+
+@TASK 1F | Write with the words (40–60 words)
+@INSTR Describe a good customer-service moment at a bank. Use at least five words from Part 1.
+@MODEL
+Yesterday a customer had an inquiry about a transaction. The teller was polite and asked to verify her ID. She explained the procedure clearly and helped her open a new account. The customer left happy.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u2-1
+
+@PART Part 2 · Grammar — Modals for Requests and Offers (can / could / may) | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline can, could and may. Who is more polite?
+@SCRIPT
+Banker: Good morning. How can I help you?
+Customer: Could you check my balance, please?
+Banker: Of course. May I see your card?
+Customer: Here you are.
+@NUM
+can — which speaker? ____
+could — more or less polite than can? ____
+may — formal or informal? ____
+@GF
+@GRAMMAR
+Modal | Use | Example |
+can | informal offer or request | Can I help you? |
+could | polite request | Could you sign here, please? |
+may | formal offer / permission | May I see your ID? |
+@REMEMBER could and may are more polite than can. Use them with customers.
+@WATCH
+✗ Can I to help you? → ✓ Can I help you? (no ‘to’ after a modal)
+✗ May you sign here? → ✓ Could you sign here? (for a request to the customer, use could)
+
+@TASK 2B | Controlled practice (choose the modal)
+@INSTR Choose the best modal: can, could, or may. Sometimes more than one is possible.
+@BANK can | could | may
+@EX Example: 0. (formal greeting) Good morning. How may I help you?
+@NUM
+(very formal, senior client) Good morning, sir. How ______________________ I help you?
+(standard polite request) ______________________ I see some identification, please?
+(friendly offer) ______________________ I get you a copy of that receipt?
+(asking permission for a sensitive question) ______________________ I ask the reason for the transfer?
+(a polite instruction) ______________________ you please fill out this deposit slip?
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. Can I to help you? → Can I help you?
+@NUM
+You must to fill this form.
+May you please sign here?
+Could I seeing your ID?
+Can you helps me, please?
+I could to check that for you.
+@WRITE
+
+@TASK 2D | Make the command polite
+@INSTR Change each direct command into a polite request with can, could, or may.
+@EX Example: 0. “Sign here.” → “Could you sign here, please?”
+@NUM
+“Show me your card.”
+“Type your PIN.”
+“Come back tomorrow.”
+@WRITE
+
+@TASK 2E | Freer practice (speaking)
+@INSTR In pairs, write and act a short dialogue (4–6 lines) between a banker and a customer. Use at least three polite modals.
+@MODEL
+Banker: How may I help you? — Customer: Could I open an account? — Banker: Certainly. May I see your ID?
+@TIP You will see these modals again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u2-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR What problems do customers often bring to a bank? What polite phrases might a banker use?
+@MODEL
+“A customer might lose a card, forget a PIN, or want to open an account.”
+
+@TASK 3B | Two short conversations — match the purpose
+@AUDIO 2.1
+@SCRIPT
+Conversation 1
+Customer: Hi. I think I lost my debit card. I’m worried someone might use it.
+Banker: I’m sorry to hear that. I can freeze the card right now. May I have your account number?
+@SCRIPT
+Conversation 2
+Customer: Good morning. I’d like to open a savings account.
+Banker: Certainly. I can help you with that. Could I see your ID and proof of address, please?
+@INSTR Match each conversation to its purpose (one is extra).
+@NUM
+Conversation 1: ____
+Conversation 2: ____
+@LINE a) opening an account   b) reporting a lost card   c) resetting a PIN (extra)
+@USEFUL
+I’m sorry to hear that.
+I can… right now.
+Could I see…?
+
+@TASK 3C | Two more conversations — True or False
+@AUDIO 2.2
+@SCRIPT
+Conversation 3
+Customer: Hello, I need to apply for a small personal loan.
+Banker: No problem. You’ll need to speak with a loan officer. Could you take a seat? Someone will be with you shortly.
+@SCRIPT
+Conversation 4
+Customer: Excuse me, I can’t remember the PIN for my card. Can you reset it?
+Banker: For security, you’ll need to show your ID. Then we can issue a new PIN. Could you go to window 3, please?
+@INSTR Decide: True or False.
+@NUM
+In Conversation 3, the banker helps with the loan immediately.
+In Conversation 3, the customer must wait for a loan officer.
+In Conversation 4, the customer needs to show ID.
+In Conversation 4, the customer stays at the same window.
+
+@TASK 3D | A customer inquiry about online banking (longer)
+@AUDIO 2.3
+@SCRIPT
+Banker: Good afternoon, madam. How may I help you?
+Mrs Oyelaran: Good afternoon. I have a current account here, but I don’t have online banking. Can I register for it?
+Banker: Of course. It’s a great service, and you can use it from any country.
+Banker: Could you show me your ID and your bank card, please?
+Mrs Oyelaran: Here you are.
+Banker: Thank you. I’ll set up your account now. We will send a security code to your phone. Please enter it to finish.
+Mrs Oyelaran: That sounds easy. Thank you very much.
+@INSTR Answer the questions.
+@EX Example: 0. What does Mrs Oyelaran want to do? → Register for online banking.
+@NUM
+What two documents does the banker ask for?
+What does the bank send to Mrs Oyelaran’s phone?
+How does Mrs Oyelaran feel about the service?
+
+@TASK 3E | Useful phrases from the conversations
+@INSTR Match each phrase from the listenings to its purpose (one is extra).
+@MATCH e) ending the call (extra)
+“I’m sorry to hear that.” :: showing sympathy
+“I can freeze the card right now.” :: offering quick action
+“Could you take a seat?” :: asking the customer to wait
+“Could you go to window 3?” :: directing the customer politely
+@FIG u2-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — offers and requests
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Have a good weekend.” (extra)
+Offer help :: “Could you tell me your account number?”
+Ask for information :: “How can I help you?”
+Ask the customer to wait :: “Could you wait one moment, please?”
+Apologise :: “I’m sorry for the wait.”
+
+@TASK 4B | Bank simulation (pairwork)
+@INSTR Run a short service dialogue, then swap roles.
+@MODEL
+A: Good morning. How may I help you? — B: I’d like to open a savings account. — A: Certainly. Could I see your ID, please? — B: Here you are. — A: Thank you. May I confirm your address?
+@CARD Card A (banker):
+greet · ask for ID · confirm address · offer a first deposit.
+@CARD Card B (customer):
+you want to open an account; you have your ID; your address is in Warsaw.
+
+@TASK 4C | Handle a difficult situation
+@INSTR A customer is upset because they waited a long time. Stay calm and polite. Use the steps.
+@MODEL
+“I’m very sorry for the wait. Thank you for your patience. How can I help you now? Let me sort this out for you quickly.”
+@GREEN Steps: | 1) apologise · 2) thank them · 3) offer help · 4) act.
+@STRETCH the customer is still angry — stay calm and offer one clear next step.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A is a banker; Student B is a customer with a problem. Ask polite questions to solve it.
+@CARD Card A (banker):
+you can freeze cards, reset PINs, and open accounts. Ask what the customer needs.
+@CARD Card B (customer):
+you lost your card this morning; you want it frozen; your account number is 4471.
+@USEFUL
+How can I help?
+Could you give me…?
+May I have your account number?
+
+@TASK 4E | Closing the conversation politely
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH e) asking for ID (extra)
+“Is there anything else I can help with?” :: checking the customer has no more needs
+“Thank you for your patience.” :: thanking a customer who waited
+“Have a nice day!” :: a warm goodbye
+“Please contact us any time.” :: inviting future contact
+@INSTR In pairs, end a short service dialogue politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Customer service guidelines
+@INSTR Read the branch guidelines. Notice the polite modals (can, could, may).
+@READ Harbour Bank — Customer Service Guidelines | About 200 words
+Good service keeps our customers happy and loyal, in every branch and in every language we work in. Every member of staff should follow these simple guidelines. First, greet every customer politely. You can say, “Good morning. How may I help you?” A friendly greeting makes the customer feel welcome. Second, always use polite requests. Instead of “Give me your ID”, say “Could I see your ID, please?” Small words like ‘please’ and ‘thank you’ make a big difference. Third, explain each step clearly. Many customers do not know the procedure, and many are working in their second or third language, so tell them what will happen next. For example, “You’ll need to fill out this form, and then I can open your account.” Fourth, if there is a problem, stay calm. Apologise, thank the customer for waiting, and offer a clear solution. Never argue with a customer. Finally, end the conversation warmly. A simple “Have a nice day” leaves a good final impression.
+@INSTR Decide: True or False.
+@EX Example: 0. Staff should greet every customer. → True.
+@NUM
+Staff should say “Give me your ID.”
+‘Please’ and ‘thank you’ are important.
+Staff should explain the next step to customers.
+It is fine to argue with an upset customer.
+Staff should stay calm if there is a problem.
+A warm goodbye leaves a good impression.
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Find in the guidelines two polite requests using could or may. Write them below.
+@NUM
+Request 1 (could): ____
+Request 2 (may): ____
+@INSTR Now make these commands polite, like the guidelines.
+@NUM
+“Give me your card.” → ____
+“Wait here.” → ____
+
+@TASK 5C | A training dialogue
+@INSTR Read the short training dialogue between a manager and a new teller.
+@READ Training at the Counter | About 130 words
+Marta: Ana, remember to greet every customer first. A smile helps a lot.
+Ana: Of course. And if a customer is angry?
+Marta: Stay calm. Apologise, and never argue. You can say, “I’m sorry for the wait. How can I help you now?”
+Ana: What if I don’t know the answer?
+Marta: That’s fine. Say, “Let me check that for you,” and ask a colleague. It is better to be correct than fast.
+Ana: And if the customer’s English is limited?
+Marta: Speak slowly, use short sentences, and check that they have understood.
+Ana: Thank you. That’s very helpful.
+Marta: You’re welcome. Good service is simple: be polite, be clear, and be honest.
+@NUM
+What should Ana do first with every customer?
+What should she do if a customer is angry?
+What can she say if she does not know the answer?
+What is more important, being correct or being fast?
+
+@TASK 5D | Discussion
+@INSTR In pairs, discuss.
+@BULLET
+Which guideline is the most important? Why?
+What is one thing that makes you feel like a valued customer?
+@FIG u2-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the service email
+@INSTR Complete the reply email with the words: apologise, confirm, assist, contact, regards.
+@BANK apologise | confirm | assist | contact | regards
+@NUM
+Dear Mr Okonkwo, thank you for your email. I am happy to ______________________ you.
+First, I would like to ______________________ for the delay.
+I can ______________________ that your new card is ready to collect.
+If you have any questions, please ______________________ us on the number below.
+Kind ______________________, Customer Service Team.
+
+@TASK 6B | Account inquiry email (50–70 words)
+@INSTR A customer asks how to open a savings account. Write a short, polite reply.
+@MODEL
+Subject: Your question about a savings account
+Dear Ms Fernandes, Thank you for your email. I am happy to help. To open a savings account, could you please visit our branch with your ID and proof of address? The procedure is quick, and a member of staff can assist you. Please contact us if you have any questions. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · To ___, could you please ___? · A member of staff can ___. · Kind regards, ___
+@PHRASES
+Thank you for your email
+I am happy to help
+could you please…
+a member of staff can assist you
+Kind regards
+@CHECK
+A clear subject line?
+A polite request with could/please?
+A warm greeting and close?
+50–70 words?
+@WRITE
+
+@TASK 6C | Lost-card response email (50–70 words)
+@INSTR A customer emails to say they lost their card. Write a calm, helpful reply.
+@MODEL
+Subject: Your lost card
+Dear Mr Tanaka, Thank you for letting us know. I am sorry to hear about your lost card. For your security, we have frozen it. Could you please visit the branch with your ID so we can issue a new card? If you see any transaction you did not make, please contact us at once. Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · I am sorry to hear ___. · For your security, we have ___. · Could you please ___? · Kind regards, ___
+@CHECK
+A calm, polite tone?
+One polite modal request?
+A clear next step for the customer?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your email from 6B or 6C with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · polite modal? · clear next step? · warm close?
+@MODEL
+“Great calm tone and a clear next step. Next time, try to add ‘please’ to your request.”
+
+@PART Part 7 · Management File — Coaching Your Team on Service | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Feedback phrases — praise or improvement?
+@INSTR Put each phrase into the correct group: Praise or Suggestion for improvement.
+@BULLET
+Praise: ____
+Suggestion: ____
+@LINE Phrases: “You handled that very well.” · “One thing to try next time is…” · “Your greeting was friendly.” · “Let’s work on staying calm with upset customers.”
+@MODEL
+Praise: “You handled that very well.”, “Your greeting was friendly.”
+Suggestion: “One thing to try next time is…”, “Let’s work on staying calm…”
+
+@TASK 7B | Listening — giving feedback after a hard customer
+@AUDIO 2.4
+@SCRIPT
+Marta: Ana, you did well with that difficult customer. You stayed calm.
+Ana: Thank you. I was a little nervous.
+Marta: That’s normal. Your greeting was friendly, and you apologised nicely.
+Ana: Is there anything I should improve?
+Marta: One thing to try next time is to explain the next step earlier. That helps the customer feel calm.
+Ana: That’s good advice. Thank you, Ms Nowak.
+@INSTR Answer the questions.
+@EX Example: 0. Who gives the feedback? → Marta.
+@NUM
+What did Ana do well?
+How did Ana feel during the conversation?
+What should Ana try next time?
+
+@TASK 7C | Turn blunt feedback into supportive feedback
+@INSTR Rewrite each blunt comment so it is supportive and kind.
+@EX Example: 0. “You were rude.” → “Let’s work on staying calm and polite with upset customers.”
+@NUM
+“You were too slow.”
+“You forgot to greet the customer.”
+“Your explanation was confusing.”
+“You didn’t listen to the customer.”
+@WRITE
+
+@TASK 7D | Role play — coach a colleague
+@INSTR You are a supervisor. A new teller’s greeting is too fast and abrupt. Give kind, useful feedback.
+@MODEL
+“You’re working hard, and that’s great. One thing to try is a slower, warmer greeting — ‘Good morning, how may I help you?’ Shall we practise it together?”
+@CARD Card A (supervisor):
+give one praise + one suggestion + offer to practise.
+@CARD Card B (teller):
+listen and respond.
+@STRETCH the teller feels upset by the feedback — reassure them.
+
+@TASK 7E | Writing — a short feedback note (50–70 words)
+@INSTR Write a friendly feedback note to a team member after a busy day.
+@MODEL
+Dear Ana, thank you for your hard work today. You stayed calm with a difficult customer, and your greetings were warm and friendly. One thing to try next time is to explain the next step a little earlier — it helps customers relax. Overall, you did very well. Keep it up! Best, Marta
+@GREEN Plan: | Dear ___, thank you for ___. You did well at ___. One thing to try next time is ___. Overall, ___. Best, ___
+@PHRASES
+thank you for your hard work
+you did well at…
+one thing to try next time is…
+keep it up
+@CHECK
+One clear praise?
+One kind suggestion?
+A warm tone?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — A Service Culture | Practitioner track · read then discuss
+@INSTR Before you read: what makes you go back to the same shop or bank again and again?
+@READ Service That Customers Remember | About 210 words · a made-up example based on real practice
+A large international bank wanted to keep more of its customers. So it changed how its staff worked, in every country where it has branches. The bank made three simple rules for every employee. The first rule was to greet each customer by name. When staff use a name, customers feel known and valued. The second rule was ‘first-contact resolution’. This means staff try to solve the customer’s problem in one visit, without sending them to another desk. The third rule was to say sorry quickly. If a customer waited too long or had a problem, staff apologised at once and offered a clear solution. They did not argue or blame the customer.
+The bank trained every employee, from tellers to managers, and it trained them in the same way in each country. It also asked customers for feedback each month. After one year, complaints fell by almost half, and more customers stayed with the bank. This is called ‘loyalty’. The bank learned an important lesson: good service is not expensive, but it is very valuable.
+@GLOSS
+first-contact resolution — solving a problem in one visit
+complaint — when a customer says something is wrong
+loyalty — when customers stay with the same bank
+feedback — customers’ opinions about the service
+
+@TASK 8A | Comprehension
+@EX Example: 0. How many rules did the bank make? → Three.
+@NUM
+Why does using a customer’s name help?
+What does ‘first-contact resolution’ mean?
+What happened to complaints after one year?
+How did the bank find out customers’ opinions?
+What lesson did the bank learn?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a fee for a service (extra)
+loyalty :: when a customer says something is wrong
+complaint :: solving a problem in one visit
+feedback :: customers’ opinions about the service
+first-contact resolution :: when customers stay with the same bank
+
+@TASK 8C | Discussion
+@GREEN Frames: | “This is similar to a bank in my country because ___.” “This is different because ___.”
+@BULLET
+Would greeting customers by name work in your bank? Why / why not?
+Which of the three rules is easiest to start today?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Which of the three service rules would help most in your bank, and why?
+@WRITE
+
+@PART Part 9 · Branch Case Study — Manila in Focus: The Crowded Branch | Practitioner track · read then decide
+@INSTR Before you read: what happens to service when a branch is very busy?
+@READ A Busy Day at the Branch | About 170 words
+It is the end of the month, and the Harbour Bank branch in Manila is very busy. Many people come to withdraw their salaries, and several are collecting transfers sent by family working abroad. The queue is long, and the wait is over thirty minutes. Liza Cruz is at the counter. She is polite and careful, but she is also a little slow because she is still new. One customer, an older man, is tired of waiting. When he reaches the counter, he speaks in an angry voice. Liza stays calm. She remembers her training: greet, apologise, and offer help. But the queue behind him is growing, and other customers look unhappy too. Nina Santos, the experienced teller, is fast, but she cannot serve everyone alone. The manager, Carlos Reyes, watches from his office and must decide how to keep service polite and fast. He does not want to lose calm, loyal customers on a difficult day.
+
+@TASK 9A | Comprehension
+@EX Example: 0. Why is the branch busy? → It is the end of the month and people withdraw salaries.
+@NUM
+How long is the wait?
+Why is Liza a little slow?
+What does Liza remember from her training?
+Who is the experienced teller?
+
+@TASK 9B | Decision task
+@INSTR What should Carlos do to keep service polite and fast? Write 40–60 words. Use the frame and phrase bank.
+@MODEL
+I think Carlos should open a second counter and help at the busy times. He can move Nina to serve customers quickly, while Liza takes simple transactions. Also, Carlos can apologise to the angry customer and thank everyone for waiting. This keeps service calm and faster.
+@GREEN Frame: | I think Carlos should ___, because ___. Also, ___.
+@PHRASES
+open a second counter
+move ___ to the busy window
+apologise for the wait
+thank customers for waiting
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use a polite modal (can/could/may) or the correct word. Items 7–8 review Unit 1.
+@EX Example: 0. ____ I help you? → May / Can.
+@NUM
+______________________ you confirm your address, please? (polite request)
+______________________ I see your ID? (formal permission)
+A customer’s question for information is an ______________________. (word)
+To check that something is true is to ______________________ it. (word)
+Please ______________________ for the delay and offer a solution. (verb, service)
+______________________ I get you a copy of the receipt? (friendly offer)
+A ______________________ handles deposits and withdrawals. (Unit 1 role)
+Right now, the new teller ______________________ (learn) the system. (Unit 1 grammar)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can greet a customer politely.
+I can make requests and offers with can, could and may.
+I can handle a simple problem calmly.
+I can understand short service conversations.
+I can write a short, polite service email.
+
+@TASK 10C | Unit glossary
+@GLOSS
+assist — to help a customer
+verify — to check that something is true
+authorise — to give official permission
+inquiry — a question asking for information
+procedure — the official steps to do something
+transaction — a deposit, withdrawal or transfer
+complaint — when a customer says something is wrong
+loyalty — when customers stay with the same bank
+feedback — customers’ opinions about the service
+first-contact resolution — solving a problem in one visit

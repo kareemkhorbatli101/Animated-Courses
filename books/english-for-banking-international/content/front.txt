@@ -1,0 +1,12 @@
+@FIG cover
+@PB
+@BIG English for Banking & Finance
+@SUB Professional Student’s Book
+@SUB Level B1 · Operator & Practitioner tracks | 24
+@SUB International Edition · Student edition | 22 | i
+@PB
+@H2 How to use this book
+@PARA Every unit has a Warm-Up and ten Parts. Parts 1–6 are the Operator track (lower B1) for staff in their first months. Parts 7–10 are the Practitioner track for staff with a few years’ experience. Both tracks use B1 English — the Practitioner parts add harder decisions and leadership tasks, not harder language. A beginner class can use Parts 1–6 only; a mixed or experienced class adds Parts 7–10.
+@PARA For a flipped classroom: learners do the ‘Pre-class input’ parts at home (Vocabulary, Grammar, Listening, Reading), then do the ‘in-class output’ parts together (Speaking, Writing, and the Practitioner parts). Every listening script is printed in the unit, so learners can prepare at home even without audio.
+@PARA Scaffolding: every writing task gives you a model, a plan, useful words, and a check. Every speaking task gives you a model and role cards. Every grammar point has a clear box and a ‘Watch out!’ for common mistakes.
+@PARA This edition is set in an international bank. Harbour Bank has its head office in Rotterdam and branches in Nairobi, Istanbul, São Paulo, Manila and Warsaw, and it works with partner banks elsewhere. Harbour Bank, its staff, its customers and all its figures are invented for practice; the banking itself — IBAN and BIC, correspondent banking, know-your-customer checks, exchange rates and spreads, letters of credit — is true and general. Part 9 of every unit is a Branch Case Study, and you are asked throughout to compare what you read with banking where you live.

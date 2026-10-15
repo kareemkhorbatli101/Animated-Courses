@@ -1,0 +1,508 @@
+@UNIT 3 | Everyday Banking Transactions
+@FIG u3-banner
+@INTRO In this unit you learn the language of everyday transactions at the counter, how to talk about amounts, how to follow a conversation with a customer, and how to write a short internal note. Grammar focus: quantifiers (much, many, a few, a little).
+
+@PART Part · · Warm-Up | In-class starter · speak before you read
+
+@TASK W-A | Daily transactions (brainstorm)
+@INSTR With a partner, list everything a customer can do at a bank counter in one day.
+@MODEL
+Deposit cash. Withdraw cash. Pay a bill. Transfer money to another account. Change one currency for another.
+@BULLET
+Which of these do you do most often?
+Which one takes the longest? Why?
+
+@TASK W-B | Teller security checks (think–pair–share)
+@INSTR Think for one minute, then compare with a partner.
+@BULLET
+What does a teller check before paying out cash?
+Why does the bank ask for ID for a large amount?
+@TIP Use the words amount, limit, ID, receipt and signature in your answer.
+
+@PART Part 1 · Vocabulary | Pre-class input
+
+@TASK 1A | Match the term to the meaning
+@INSTR Match each transaction word (1–7) to the correct meaning (a–h). One meaning is extra.
+@EX Example: 0. Receipt → g)
+@MATCH h) a fee the bank charges for a service (extra)
+Deposit :: money taken out of an account
+Withdrawal :: money paid into an account
+Transfer :: money moved from one account to another
+Balance :: the money in an account at this moment
+Statement :: a list of all the transactions on an account
+Standing order :: the same payment, sent again and again
+Direct debit :: permission for a company to collect a payment
+@PRON Pronunciation — word stress. Say these words: de·PO·sit, with·DRAW·al, TRANS·fer (noun), trans·FER (verb), BA·lance.
+
+@TASK 1B | Sort the transactions
+@INSTR Put each word from 1A into the correct group.
+@BULLET
+Money in: ____
+Money out: ____
+Information only: ____
+@MODEL
+Money in: deposit. Money out: withdrawal, standing order, direct debit. Information only: balance, statement. (A transfer can be either, depending on the direction.)
+
+@TASK 1C | Complete the sentences
+@INSTR Complete the sentences with the correct word.
+@BANK deposit | withdraw | balance | transfer | statement | receipt | limit | currency | fee
+@EX Example: 0. Please sign here and keep your receipt.
+@NUM
+I would like to ______________________ 200 in cash, please.
+Could you check the ______________________ on my current account?
+The daily ______________________ at the machine is 500.
+I want to ______________________ this money into my savings account.
+Please send me a ______________________ for the last three months.
+There is a small ______________________ for an international transfer.
+
+@TASK 1D | Word partners (collocations)
+@INSTR Match the verb to the noun to make a common banking phrase (one noun is extra).
+@MATCH f) a queue (extra)
+make :: cash
+withdraw :: a deposit
+check :: a transfer
+send :: the balance
+sign :: the slip
+
+@TASK 1E | Write with the words (40–60 words)
+@INSTR Write about one transaction you made recently. Use at least five words from Part 1.
+@MODEL
+Last Friday I went to my branch to deposit my salary. The teller checked my ID and gave me a receipt. Then I asked for my balance and sent a small transfer to my sister. The whole visit took ten minutes.
+@CHECK
+Five Part-1 words?
+40–60 words?
+Short, clear sentences?
+@WRITE
+@FIG u3-1
+
+@PART Part 2 · Grammar — Quantifiers (much, many, a few, a little) | Pre-class input
+
+@TASK 2A | Notice the grammar
+@INSTR Read the short dialogue. Underline much, many, a few and a little. Which words go with countable nouns?
+@SCRIPT
+Grace: Good morning. How much cash would you like today?
+Customer: Three hundred, please. And how many notes can I have?
+Grace: As many as you like. There are a few large notes left, and a little change.
+Customer: Large notes, please. I don’t have much time.
+@NUM
+much — countable or uncountable? ____
+many — countable or uncountable? ____
+a few / a little — which one goes with notes? ____
+@GF
+@GRAMMAR
+Quantifier | Use | Example |
+much | uncountable nouns, mostly in questions and negatives | How much cash do you need? |
+many | countable nouns | How many notes would you like? |
+a few / a little | a small amount: a few (countable), a little (uncountable) | a few coins; a little change |
+@REMEMBER cash, money, time and change are uncountable → much, a little. notes, coins, accounts and forms are countable → many, a few.
+@WATCH
+✗ How many money do you need? → ✓ How much money do you need?
+✗ I have a little coins. → ✓ I have a few coins.
+
+@TASK 2B | Controlled practice (choose the quantifier)
+@INSTR Choose much, many, a few or a little.
+@BANK much | many | a few | a little | how much | how many
+@EX Example: 0. ____ cash do you need? → How much.
+@NUM
+______________________ notes would you like, sir?
+I only have ______________________ change in the drawer.
+We do not have ______________________ time before the branch closes.
+______________________ customers are waiting outside?
+There are still ______________________ forms on the counter.
+She put ______________________ money into her savings account.
+
+@TASK 2C | Error correction
+@INSTR Find and correct the mistake in each sentence.
+@EX Example: 0. How many cash? → How much cash?
+@NUM
+How many money would you like to deposit?
+I have a little notes in my wallet.
+There aren’t much customers today.
+He needs a few cash for the weekend.
+How much forms do I have to sign?
+@WRITE
+
+@TASK 2D | Ask about amounts
+@INSTR Write three questions a teller asks a customer about amounts. Use much, many and a few.
+@MODEL
+How much would you like to withdraw? How many notes would you like? Would you like a few coins as well?
+@WRITE
+
+@TASK 2E | Freer practice (speaking at the counter)
+@INSTR In pairs, act a short counter conversation. The teller asks at least three questions about amounts.
+@MODEL
+“Good morning. How much would you like to deposit? … And how many of these are large notes?”
+@TIP You will see these quantifiers again in the reading in Part 5 (5A and 5B). Look for them there.
+@FIG u3-2
+
+@PART Part 3 · Listening | Pre-class input · scripts printed below
+
+@TASK 3A | Before you listen (predict)
+@INSTR You will hear three counter conversations. What does a teller usually say first?
+@MODEL
+“I think the teller will greet the customer and ask how she can help.”
+
+@TASK 3B | A simple withdrawal
+@AUDIO 3.1
+@SCRIPT
+Grace: Good morning. How can I help you?
+Customer: I’d like to withdraw three hundred, please.
+Grace: Certainly. May I see your card and your ID?
+Customer: Here you are.
+Grace: Thank you. How many large notes would you like?
+Customer: All large, please. And a receipt.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer wants to take out money. → True.
+@NUM
+The teller asks for one document only.
+The customer wants small notes.
+The customer has used this branch before.
+@USEFUL
+How can I help you?
+May I see your card and your ID?
+How many large notes would you like?
+
+@TASK 3C | A cash deposit
+@AUDIO 3.2
+@SCRIPT
+Customer: Hello. I’d like to deposit this cash into my current account.
+Tomasz: Of course. How much is it?
+Customer: Four hundred and fifty. I counted it twice.
+Tomasz: Thank you. Could you complete this deposit slip, please? I will count it again in front of you.
+Customer: Will the money be in the account today?
+Tomasz: Yes. Cash deposits are available at once.
+@INSTR Read and decide: True or False.
+@NUM
+The customer is paying money into an account.
+The teller does not count the money again.
+The customer must complete a slip.
+Cash deposits take three days.
+The customer counted the money before coming.
+
+@TASK 3D | A customer with several transactions (longer)
+@AUDIO 3.3
+@SCRIPT
+Customer: Good afternoon. I have a few things to do today, I’m afraid.
+Grace: That’s no problem. Let’s take them one at a time.
+Customer: First, I’d like to withdraw two hundred. Then I want to pay my electricity bill. And I need a statement for the last three months, because my landlord has asked for one.
+Grace: Certainly. How much is the bill?
+Customer: Eighty-five. I have the paper here.
+Grace: Thank you. I’ll do the withdrawal first, then the bill, and I’ll print the statement last. It takes a little time, but not much.
+Customer: That’s fine. I’m not in a hurry today.
+@INSTR Read and decide: True, False, or Not Given.
+@EX Example: 0. The customer has more than one transaction. → True.
+@NUM
+The customer wants a statement for six months.
+The teller does the three transactions in order.
+The customer is in a hurry.
+
+@TASK 3E | Identify the transaction type
+@INSTR Match each sentence from the listenings to the type of transaction (one is extra).
+@MATCH f) a currency exchange (extra)
+“I’d like to withdraw three hundred.” :: a cash deposit
+“I’d like to deposit this cash.” :: a cash withdrawal
+“I want to pay my electricity bill.” :: a bill payment
+“I need a statement for three months.” :: a request for information
+“Could you complete this deposit slip?” :: a form the customer signs
+@FIG u3-3
+
+@PART Part 4 · Speaking | In-class output
+
+@TASK 4A | Functional language — at the counter
+@INSTR Match the function to a phrase (one is extra).
+@MATCH e) “Your card has been blocked.” (extra)
+Greet the customer :: “How much would you like to withdraw?”
+Ask about an amount :: “Good morning. How can I help you?”
+Ask for a document :: “Could I see your ID, please?”
+Confirm and close :: “Here is your receipt. Anything else?”
+
+@TASK 4B | Teller role-play (pairwork)
+@INSTR Act a counter transaction, then swap roles.
+@MODEL
+A: Good morning. How can I help you? — B: I’d like to deposit four hundred. — A: Certainly. Could you complete this slip? How many notes are there? — B: Eight. — A: Thank you. Here is your receipt.
+@CARD Card A (teller):
+greet · ask the amount · ask for ID · give a receipt.
+@CARD Card B (customer):
+you want to deposit cash; you have your ID; you also want your balance.
+
+@TASK 4C | Three-step banking task
+@INSTR Your customer has three things to do. Serve them in a clear order and say what you are doing.
+@MODEL
+“Let’s take them one at a time. First the withdrawal, then the bill, and I’ll print the statement last.”
+@STRETCH the customer adds a fourth request at the end — handle it politely.
+
+@TASK 4D | Find the information (pairwork info-gap)
+@INSTR Student A is a teller; Student B is a customer. Ask and answer to complete the transaction.
+@CARD Card A (teller):
+you can pay out up to 500 in cash; a statement takes two minutes; a bill payment needs the paper bill.
+@CARD Card B (customer):
+you want 600 in cash, a statement for three months, and to pay a bill of 85.
+@USEFUL
+How much would you like?
+How many notes?
+Do you have the bill with you?
+
+@TASK 4E | Closing the transaction
+@INSTR Match the closing phrase to the situation (one is extra).
+@MATCH f) “Please take a seat.” (extra)
+“Here is your receipt.” :: giving the customer the record
+“Would you like a statement as well?” :: offering one more service
+“Please check the amount before you leave.” :: asking the customer to check
+“Is there anything else today?” :: checking there is nothing more
+“Thank you. Have a good day.” :: closing warmly
+@INSTR In pairs, close a counter transaction politely. Use two phrases above.
+
+@PART Part 5 · Reading | Pre-class input
+
+@TASK 5A | Teller guidelines
+@INSTR Read the counter guidelines. Notice the quantifiers (much, many, a few, a little).
+@READ Harbour Bank — Guidelines for the Counter | About 200 words
+These guidelines are the same in every Harbour Bank branch, because every customer should get the same careful service. Before you pay out cash, always check two things: the customer’s ID and the balance on the account. If the amount is large, ask a colleague to check with you. It takes a little time, but it prevents mistakes. Count notes twice. Count them once in the drawer and once in front of the customer. Many customers like to see the money counted, and a few will count it again themselves. That is normal, and you should never hurry them. Ask how many large notes the customer would like. Some people want large notes because they are easier to carry; others want small notes because they are easier to spend. Give a receipt for every transaction, even a small one. Finally, remember that not much goes wrong at a quiet counter; most mistakes happen when there is a queue and too little time. If you feel rushed, slow down and say, “One moment, please.” A short pause is better than a wrong amount.
+@INSTR Answer the questions.
+@EX Example: 0. What two things do you check before paying out cash? → ID and balance.
+@NUM
+What should you do if the amount is large?
+How many times should you count notes?
+Why do some customers want large notes?
+When do most mistakes happen?
+What should you say if you feel rushed?
+Who do these guidelines apply to?
+
+@TASK 5B | Grammar in context (from 5A)
+@INSTR Look back at the guidelines. Find one example of each quantifier.
+@NUM
+much: ____
+many: ____
+a few: ____
+a little: ____
+@INSTR Now complete these sentences about the counter.
+@NUM
+There isn’t ______________________ time when the queue is long.
+
+@TASK 5C | A customer’s bank statement
+@INSTR Read the short statement note. What does each line show?
+@READ Reading a Statement | About 130 words
+A statement is a list of everything that has happened on an account. Each line shows the date, a short description, the amount, and the balance after the transaction. Money coming in is usually on the left, and money going out is on the right. A customer called the branch last week because she could not understand one line. It said “DD — CITY POWER — 85.00”. DD means direct debit: the customer gave the electricity company permission to collect the payment every month. Another line said “ATM — 14 MAR — 200.00”. That was a cash withdrawal from a machine. The last line showed the balance: the money left in the account. When you explain a statement, start with the date and read across the line slowly.
+@NUM
+What four things does each line of a statement show?
+What does DD mean?
+Why did the customer call the branch?
+How should you explain a line to a customer?
+
+@TASK 5D | Discussion
+@INSTR In pairs, compare the guidelines with your own workplace.
+@GREEN Useful frame: | “At my bank we also ___, but we do not ___.”
+@BULLET
+Which guideline is the most important? Why?
+What does your bank do when there is a long queue?
+@FIG u3-4
+
+@PART Part 6 · Writing | In-class / homework output
+
+@TASK 6A | Guided writing — complete the transaction note
+@INSTR Complete the internal note with the words: deposited, balance, receipt, verified, slip.
+@BANK deposited | balance | receipt | verified | slip
+@NUM
+At 10:15 a customer ______________________ 450 in cash into a current account.
+I ______________________ the customer’s ID before the transaction.
+The customer completed a deposit ______________________ and signed it.
+The new ______________________ was shown to the customer on screen.
+A printed ______________________ was given to the customer.
+
+@TASK 6B | Internal email — process report (50–70 words)
+@INSTR Write a short internal email to your supervisor about a busy hour at the counter.
+@MODEL
+Subject: Counter report — Tuesday morning
+Dear Ms Nowak, Between nine and eleven we served forty-two customers. Most of them were cash deposits and withdrawals. There were a few bill payments and a little trouble with the note counter, which I have reported to IT. No cash differences at the end of the hour. Best regards, Grace
+@GREEN Plan: | Subject: ___ · Dear ___, · Between ___ and ___ we ___. · Most of them were ___. · There were a few ___. · Best regards, ___
+@PHRASES
+Between ___ and ___ we served…
+Most of them were…
+There were a few…
+No cash differences
+@CHECK
+A clear subject line?
+One quantifier used correctly?
+A short, factual tone?
+50–70 words?
+@WRITE
+
+@TASK 6C | Customer inquiry email (50–70 words)
+@INSTR A customer emails to ask why a payment left her account. Write a short, clear reply.
+@MODEL
+Subject: Your question about a payment
+Dear Ms Fernandes, Thank you for your email. The payment of 85.00 on 14 March was a direct debit to City Power. A direct debit is a payment you have given a company permission to collect. If you would like to stop it, could you please visit the branch with your ID? Kind regards, Customer Service
+@GREEN Plan: | Subject: ___ · Dear ___, · Thank you for ___. · The payment of ___ was ___. · A ___ is ___. · Could you please ___? · Kind regards, ___
+@CHECK
+A clear subject line?
+A simple explanation of the banking word?
+A clear next step?
+50–70 words?
+@WRITE
+
+@TASK 6D | Peer check
+@INSTR Swap your email from 6B or 6C with a partner. Give one piece of positive feedback and one suggestion.
+@GREEN Checklist: | subject line? · correct quantifier? · clear next step? · 50–70 words?
+@MODEL
+“Clear subject line and a good explanation of ‘direct debit’. Next time, try to give the date as well.”
+
+@PART Part 7 · Management File — Running the Counter | Practitioner track (optional for beginners) · experienced staff
+
+@TASK 7A | Shift and cash-control phrases
+@INSTR Match the phrase to its purpose (one is extra).
+@MATCH e) closing an account (extra)
+“The drawer balances.” :: the cash counted matches the record
+“We are two hundred short.” :: the cash counted is less than the record
+“I’m handing over to Tomasz.” :: passing the counter to a colleague
+“Please countersign the float.” :: asking a colleague to check and sign
+
+@TASK 7B | Listening — the shift handover
+@AUDIO 3.4
+@SCRIPT
+Grace: Right, I’m handing over to you now. The drawer balances — I’ve counted it twice.
+Tomasz: Thanks. How much is in the float?
+Grace: Two thousand, and a little change. There are only a few large notes left, so order more if the queue builds.
+Tomasz: Anything else I should know?
+Grace: One customer is coming back at three for a statement. Her name is on the pad.
+@INSTR Answer the questions.
+@EX Example: 0. Who is taking over the counter? → Tomasz.
+@NUM
+How much is in the float?
+Why should Tomasz order more large notes?
+What is happening at three o’clock?
+
+@TASK 7C | Controlled practice — the handover note
+@INSTR Complete the handover note. Use the correct quantifier or word.
+@BANK balances | float | a few | a little | short | countersigned
+@NUM
+The drawer ______________________ at the end of my shift.
+There are only ______________________ large notes left in the drawer.
+We have ______________________ change, so please order more coins.
+The ______________________ was counted and ______________________ by a colleague.
+We are not ______________________ any cash today.
+@WRITE
+
+@TASK 7D | Role play — hand over the counter
+@INSTR You are finishing your shift. Hand over the counter to a colleague clearly and completely.
+@MODEL
+“The drawer balances. There is a little change and only a few large notes. One customer is returning at three. Please countersign the float before I go.”
+@CARD Card A (leaving):
+say the drawer balances · say what is low · say what is outstanding · ask for a countersignature.
+@CARD Card B (arriving):
+ask two questions and repeat back what you heard.
+@STRETCH the drawer does not balance — explain calmly what you will do next.
+
+@TASK 7E | Writing — an end-of-shift summary (50–70 words)
+@INSTR Write a short end-of-shift summary for the supervisor.
+@MODEL
+Subject: End of shift — counter 2
+The drawer balances. I served sixty-one customers today, mostly deposits and withdrawals. There were a few bill payments and one statement request. We are low on large notes, so I have ordered more for tomorrow. Nothing outstanding. Countersigned by Tomasz Wójcik at 16:05. Grace Otieno
+@GREEN Plan: | Subject: ___ · The drawer ___. · I served ___. · There were a few ___. · We are low on ___. · Countersigned by ___.
+@PHRASES
+the drawer balances
+mostly deposits and withdrawals
+we are low on…
+nothing outstanding
+countersigned by…
+@CHECK
+Does it say whether the drawer balances?
+One quantifier used correctly?
+Anything outstanding named?
+50–70 words?
+@WRITE
+
+@PART Part 8 · Global Case Study — Cutting the Queue | Practitioner track · read then discuss
+@INSTR Before you read: what makes a bank queue move faster — more staff, or something else?
+@READ Twenty Minutes Saved | About 200 words · a made-up example based on real practice
+A bank with branches in several countries had the same problem everywhere: at the end of the month, customers waited twenty minutes or more. The bank did not want to pay for many extra staff, so it looked at the queue itself. It found that a little over half of the people in the queue did not need a teller at all. They were checking a balance, printing a statement, or paying a routine bill — all things a machine or the app can do. So the bank made three changes. First, it put a member of staff at the door to ask each customer what they needed. This person is called a greeter. If the customer only needed a balance, the greeter showed them the machine. Second, it moved bill payments to a separate, faster desk. Third, it taught customers to use the app, one customer at a time, while they waited. After three months, the average wait fell from twenty minutes to eight. The bank had not added a single teller.
+@GLOSS
+greeter — a member of staff who meets customers at the door
+queue — a line of people waiting
+average wait — the usual waiting time
+routine payment — a payment that happens again and again
+
+@TASK 8A | Comprehension
+@EX Example: 0. How long did customers wait at the end of the month? → Twenty minutes or more.
+@NUM
+What did the bank find about the people in the queue?
+What does a greeter do?
+Why did the bank move bill payments to a separate desk?
+How long was the average wait after three months?
+How many extra tellers did the bank add?
+
+@TASK 8B | Vocabulary in context
+@INSTR Match the word to its meaning (one is extra).
+@MATCH e) a charge for a service (extra)
+greeter :: a line of people waiting
+queue :: a member of staff who meets customers at the door
+average wait :: a payment that happens again and again
+routine payment :: the usual waiting time
+
+@TASK 8C | Discussion
+@GREEN Frames: | “This would work in my branch because ___.” “This would be difficult because ___.”
+@BULLET
+Would a greeter work in your branch? Why / why not?
+Which of the three changes is easiest to start tomorrow?
+
+@TASK 8D | Your view (short write, 30–40 words)
+@INSTR Which change would cut the queue most in your bank, and why?
+@WRITE
+
+@PART Part 9 · Branch Case Study — Istanbul in Focus: When the Rate Moves | Practitioner track · read then decide
+@INSTR Before you read: what happens at the counter when an exchange rate changes quickly?
+@READ A Morning of Questions | About 175 words
+The Harbour Bank branch in Istanbul opens at nine. This morning the exchange rate has moved a long way overnight, and many customers want to change money before it moves again. By half past nine there is a queue of about twenty people. Most of them have only one question: “How much will I get today?” Zeynep Kaya is on the exchange desk. She is careful and polite, but each customer wants to talk about the rate, and a few are angry about the spread between the buy rate and the sell rate. Meanwhile, the ordinary counter has its own queue of deposits and withdrawals. The branch manager, Kerem Aydın, has four staff this morning and two desks. He knows the rate will probably move again at eleven, when the market opens. He must decide how to use his people in the next two hours, and what to tell the customers who are waiting.
+
+@TASK 9A | Comprehension
+@EX Example: 0. Where is the branch? → In Istanbul.
+@NUM
+Why do many customers want to change money this morning?
+What one question do most of them have?
+What are a few customers angry about?
+How many staff and desks does Kerem have?
+
+@TASK 9B | Decision task
+@INSTR What should Kerem do in the next two hours? Write 40–60 words. Use the frame and the phrase bank.
+@MODEL
+I think Kerem should open the second desk for exchange only, because most customers have the same question. He can put a board at the door with today’s rate, so people do not have to ask. Also, he can ask Zeynep to explain the spread once, clearly, to everyone waiting.
+@GREEN Frame: | I think Kerem should ___, because ___. Also, ___.
+@PHRASES
+open a second desk for ___ only
+put today’s rate on a board
+explain the spread once, clearly
+ask customers with one question to ___
+@WRITE
+
+@PART Part 10 · Review & Can-Do | Homework / self-study
+
+@TASK 10A | Spiral review
+@INSTR Complete the sentences. Use a quantifier or the correct word. Items 5–6 review Units 1 and 2.
+@EX Example: 0. How ____ cash do you need? → much.
+@NUM
+How ______________________ notes would you like, sir? (quantifier)
+There isn’t ______________________ time before we close. (quantifier)
+Money paid into an account is a ______________________. (word)
+A list of all your transactions is a ______________________. (word)
+______________________ you confirm your address, please? (Unit 2 modal)
+At the moment, the teller ______________________ (count) the drawer. (Unit 1 grammar)
+
+@TASK 10B | Can-Do checklist
+@CANDO
+I can name the everyday transactions at a counter.
+I can ask about amounts with much, many, a few and a little.
+I can serve a customer with several transactions in order.
+I can understand a short counter conversation.
+I can write a short internal note about a shift.
+
+@TASK 10C | Unit glossary
+@GLOSS
+deposit — money paid into an account
+withdrawal — money taken out of an account
+transfer — money moved from one account to another
+balance — the money in an account at this moment
+statement — a list of all the transactions on an account
+standing order — the same payment, sent again and again
+direct debit — permission for a company to collect a payment
+float — the cash a teller starts the shift with
+greeter — a member of staff who meets customers at the door
+average wait — the usual waiting time
