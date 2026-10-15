@@ -1,0 +1,460 @@
+@UNITHEAD Unit 4: Humanitarian Work and Helping Others
+@PART Warm Up | Warm Up
+@EX Warm-Up: Skills Discussion
+@INSTR Discuss the skills that are important for helping people.
+_80
+@BULLET
+What skills do you think are important for someone who works in an NGO?
+_300
+@EX Warm-Up: Matching Skills to NGO Roles
+@INSTR Match worker roles with the key skills they need most.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Health Educator
+2. | Supply Coordinator
+3. | Psychosocial Counselor
+4. | Program Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Strong communication and patient teaching abilities to educate communities
+b) | Logistics and organizational skills to manage supplies and distribution
+c) | Empathy and active listening to counsel traumatized people
+d) | Leadership and team management skills to guide and motivate staff
+_300
+@EX Warm-Up: Qualities Multiple Choice
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What quality helps NGO workers continue helping despite difficult situations?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Commitment and inner strength
+   ○ C) Avoiding all challenges
+_300
+@EX Warm-Up: Discussion - Personal Strengths
+@INSTR Discuss personal strengths that help people work effectively in communities.
+_80
+@BULLET
+What are your personal strengths and how could they help NGO work?
+_300
+@EX Warm-Up: Skills Classification
+@INSTR Classify skills and qualities as Technical Skills or Personal Qualities.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Technical Skill
+2. Personal Quality
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Medical training and nursing skills  ____________________________
+2. Compassion and empathy for others  ____________________________
+3. Computer and data management skills  ____________________________
+4. Resilience in difficult situations  ____________________________
+5. Language fluency and translation ability  ____________________________
+6. Commitment to helping communities  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: NGO Skills Matching
+@INSTR Match skills with their descriptions and importance in NGO work.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Active Listening
+2. | Creativity
+3. | Communication
+4. | Organization
+5. | Resilience
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ability to continue working effectively even when situations are very difficult
+b) | Ability to speak and write clearly so people understand your message
+c) | Ability to listen carefully and understand what others are saying and feeling
+d) | Ability to manage work time and organize tasks for best results
+e) | Ability to create new ideas and solve problems in creative ways
+_300
+@EX Part 1: Skills in Context Table
+@INSTR Complete the table with skills, their importance, and examples of use.
+_80
+@GRID
+Skill | Why Important | Example in NGO Work
+Teamwork |  | 
+Leadership |  | 
+Flexibility |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Allows groups to accomplish goals together
+b)  Health workers collaborate with coordinators and nurses
+c)  Enables managing teams and making important decisions
+d)  Program manager guides staff and plans emergency response
+e)  Helps adapt to changing situations and unexpected challenges
+f)  Staff adjust plans when resources arrive late or emergencies change
+_100
+_300
+@EX Part 1: Qualities Fill-in Blanks
+@INSTR Complete sentences using words about personal qualities needed in NGO work.
+_80
+@GAP
+1. NGO workers demonstrate ____________________ by caring deeply about people's suffering.
+2. A person with ____________________ continues helping even when the work is difficult.
+3. ____________________ means being honest and following your values even when no one is watching.
+4. ____________________ is essential when working with traumatized people who need time to heal.
+_300
+@EX Part 1: NGO Skills in Context - Fact Questions
+@INSTR Read about skills needed in NGO work and answer fact questions.
+_80
+@PANEL
+NGO workers need both technical and soft skills to be successful. Technical skills are specific knowledge like nursing, teaching, or logistics management. Soft skills are personal abilities like communication, teamwork, and problem-solving.
+Communication skills are particularly important. NGO workers explain programs to communities in ways people understand. Health workers communicate with patients about treatment. Teachers explain lessons to students. Managers communicate with staff and donors.
+Emotional intelligence helps NGO workers understand their own feelings and others' emotions. This skill reduces conflicts and builds stronger teams. Workers with emotional intelligence manage stress better and support colleagues through difficulties.
+Leadership skills are valuable even for workers without formal manager titles. Community health workers lead by example and influence neighbors. Volunteers show leadership by staying committed despite challenges. Leadership means inspiring others to work toward shared goals.
+All these skills can be learned and improved through practice and training. NGOs invest in staff development because skilled workers help more people.
+@NUM 100
+1. What is the difference between technical skills and soft skills?
+2. Why is communication important in NGO work?
+_300
+@EX Part 1: Discussion - Skills for Success
+@INSTR Discuss how different skills contribute to NGO success.
+_80
+@BULLET
+Think of a skill you have or want to develop. How would it help in NGO work?
+_300
+@EX Part 1: Listening - Skills in Action
+@AUDIO 🔊 Audio Track 4.11
+@INSTR Listen to NGO workers describing the skills they use and answer questions.
+_80
+@MCQ
+1. What skills does the health educator emphasize?
+@OPT
+   ○ A) Only medical knowledge
+   ○ B) Communication, patience, and teaching ability
+   ○ C) Technology and computer skills
+@MCQ
+2. Why does the coordinator need flexibility?
+@OPT
+   ○ A) To have more vacation
+   ○ B) To handle unexpected changes and challenges
+   ○ C) It is not needed
+_300
+@EX Part 1: Summary - Core Skills for NGO Success
+@INSTR Choose the best explanation for successful NGO work.
+_80
+@MCQ
+1. What combination is most important for NGO workers?
+@OPT
+   ○ A) Only technical skills matter
+   ○ B) Only compassion without skills
+   ○ C) Technical skills plus personal qualities like compassion and resilience
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Modal Verbs About Ability and Necessity
+@INSTR Complete sentences with appropriate modal verbs about NGO worker skills.
+_80
+@NUM
+1. NGO workers ____________________ (communicate) communicate clearly with communities.
+2. All humanitarian workers ____________________ (develop) emotional resilience.
+3. These skills ____________________ (learn) through training and practice.
+_300
+@EX Part 2: Adjectives Describing Skills and Qualities
+@INSTR Complete the table with adjectives that describe NGO workers and their skills.
+_80
+@GRID
+Quality/Skill Noun | Descriptive Adjective (How would you describe someone with this?)
+Compassion | 
+Resilience | 
+Organization | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Compassionate
+b)  Resilient
+c)  Organized
+_100
+_300
+@EX Part 2: Describing Requirements with Gerunds
+@INSTR Complete sentences about NGO work using gerunds (-ing form).
+_80
+@GAP
+1. ____________________ to community members is essential for understanding their real needs.
+2. ____________________ under stress requires strong mental and emotional skills.
+3. ____________________ across languages and cultures is valuable in international NGOs.
+4. ____________________ from failures helps NGO workers improve and serve better.
+_300
+@EX Part 2: Comparative Adjectives About Skills
+@INSTR Complete sentences comparing skill levels using comparative forms.
+_80
+@NUM
+1. Communication skill ____________________ (important) than advanced technology for NGO field workers.
+2. NGO workers with longer experience are usually ____________________ (trained) to handle crises.
+3. Successful humanitarian workers are ____________________ (flexible) than workers in rigid office environments.
+_300
+@EX Part 2: Listening - Grammar in Context About Skills
+@AUDIO 🔊 Audio Track 4.17
+@INSTR Listen to a trainer talking about developing NGO skills and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Trainer: When we train new NGO workers, we focus on developing both technical and soft skills. A good nurse must know medical procedures, but must also communicate with patients respectfully. A good coordinator must organize supplies, but must also lead teams with confidence.
+^Trainer: We teach that resilience is not something you are born with—it is something you develop through practice. Workers learn resilience by handling challenges with support from their teams. Learning from failures is more valuable than avoiding risks completely. We want our workers to be brave enough to try new approaches even when success is not guaranteed.
+_200
+@QUESTION
+1. What two types of skills must NGO workers develop?
+2. How do workers develop resilience according to the trainer?
+_300
+@EX Part 2: Grammar Review - Skills and Qualities
+@INSTR Discuss how to talk about skills and qualities in English.
+_80
+@BULLET
+Explain the difference between "I can communicate well" and "I am communicative" in terms of skills.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - NGO Staff Roles
+@INSTR Before listening, discuss what different NGO workers do and the skills they need.
+_80
+@BULLET
+What skills would a doctor, teacher, and logistics manager need in an NGO?
+_300
+@EX Part 3: Listening - Different Perspectives on NGO Skills
+@AUDIO 🔊 Audio Track 4.20
+@INSTR Listen to people from different roles discuss skills needed in their NGO work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Doctor: As a doctor in our clinic, I must combine medical science with compassion. I treat patients with urgency, but I also take time to explain their illness and treatment. Many patients are exhausted by long journeys to reach us. I use listening skills to understand their emotional needs alongside physical health. This requires both medical knowledge and human connection.
+^Manager: As program manager, I coordinate many teams and activities. I must have organizational skills to manage budgets and timelines. I must have leadership to motivate teams who work in difficult conditions. I need problem-solving abilities when we face resource shortages. Perhaps most important, I must have integrity so my team trusts my decisions.
+~Community Worker: Community work requires very different skills than office work. I must develop trusting relationships with families over months and years. I can never be rushed—building trust takes time. I need flexibility because each family's situation is unique. I must be humble to learn from communities instead of imposing outside solutions. This is how we create lasting change.
+_200
+@QUESTION
+1. What does the doctor combine in her work?
+2. Why does the community worker emphasize relationship-building?
+_300
+@EX Part 3: True/False - NGO Skills and Development
+@INSTR Read statements about NGO skills and mark them True, False, or Not Given.
+_80
+@PANEL
+All NGO workers need combination of technical and soft skills. Technical skills can be taught through training and education. Soft skills like compassion and resilience are harder to develop but can improve through practice. Organizations invest in staff development because good training improves effectiveness. Some workers are naturally resilient while others must work harder to develop this quality. The most important factor in NGO work is having the right skills before starting, not willingness to learn and improve on the job.
+@NUM 100
+1. NGO workers need both technical and soft skills.
+2. Technical skills are more important than soft skills.
+3. Organizations provide training to improve staff performance.
+_300
+@EX Part 3: Listening - Developing Skills Through Experience
+@AUDIO 🔊 Audio Track 4.22
+@INSTR Listen to an NGO trainer describing how workers develop skills in the field.
+_80
+@MCQ
+1. How do NGO workers best develop practical skills?
+@OPT
+   ○ A) Only through classroom training before starting
+   ○ B) Through learning by doing in real situations with support
+   ○ C) They do not need to develop skills during work
+@MCQ
+2. Why does the trainer emphasize supervision and mentoring?
+@OPT
+   ○ A) To make work harder for new workers
+   ○ B) To provide support while workers learn through real challenges
+   ○ C) They are not really necessary
+_300
+@EX Part 3: Listening - Personal Stories About Developing Skills
+@AUDIO 🔊 Audio Track 4.23
+@INSTR Listen to NGO workers describing how they developed their skills.
+_80
+@PLAYNOTE
+@SCRIPT
+~Worker1: I came to NGO work as a teacher with classroom experience but no idea about emergency contexts. My first year was overwhelming. I made mistakes and felt discouraged. But my supervisor was patient. She showed me how to teach when schools were damaged, when children were exhausted, when we had no supplies. Over time, I developed new skills and became much stronger. Now I mentor younger teachers.
+^Worker2: I was a good organizer in business, but NGO work was different. In business, we had plenty of resources. In NGOs, I had to accomplish goals with almost nothing. I learned to be creative and accept that perfect solutions were impossible. I learned that good enough, done with care, reaches more people than perfect solutions that never happen. This change in mindset was more important than any skill I had before.
+_200
+@QUESTION
+1. What helped the teacher develop skills in emergency contexts?
+2. What was the bigger lesson the business manager learned in NGO work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Your Gifts for Helping
+@INSTR Discuss what gifts and strengths you have that could help in NGO work.
+_80
+@BULLET
+What do you do well that could help people in emergencies or communities?
+_300
+@EX Part 4: Reading - NGO Skills Framework
+@INSTR Read about a comprehensive skills framework for NGO workers and answer questions.
+_80
+@PANEL
+Understanding NGO Worker Competencies
+Effective NGO workers require competencies in five areas: Technical Knowledge, Interpersonal Skills, Leadership Ability, Cultural Competence, and Self-Care Capacity.
+Technical knowledge is job-specific expertise. A health worker must understand diseases and treatments. A teacher must understand pedagogy. A coordinator must understand project management. This knowledge forms the foundation but is not enough alone.
+Interpersonal skills include communication, teamwork, and conflict resolution. Workers must explain programs clearly to diverse audiences. They must cooperate with colleagues despite stress. They must resolve conflicts constructively.
+Leadership ability is valuable at all levels. Even community health workers lead by example and influence neighbors' health behaviors. Leaders inspire others to work toward shared goals despite difficulties.
+Cultural competence means understanding and respecting diverse beliefs, values, and ways of living. NGO workers in Bangladesh must understand local values about family, community, and religious faith. Culturally competent workers build trust and avoid offending communities.
+Self-care capacity means managing stress and maintaining personal wellbeing. Workers in difficult conditions who ignore their own needs become exhausted and ineffective. Good self-care includes healthy sleep, exercise, emotional support from friends and family, and psychological counseling when needed.
+These five competencies work together. Strong self-care improves interpersonal skills. Cultural competence enhances leadership ability. Together, they create highly effective NGO workers.
+@NUM 100
+1. What are the five competency areas for NGO workers?
+2. Why is self-care capacity important for NGO workers?
+_300
+@EX Part 4: Text - Qualities That Transform Work
+@INSTR Read about character qualities that make NGO work transformative.
+_80
+@PASSAGE
+Beyond skills and competencies, certain character qualities transform NGO work from a job into a calling. Humility allows workers to learn from communities and admit when they are wrong. Humble NGO workers listen more than they talk, learn more than they teach.
+Courage enables workers to face dangers and take risks for others' benefit. Courageous NGO workers in Bangladesh continue helping during cyclones and floods. They face their fears and act anyway for humanitarian benefit.
+Hope helps workers maintain belief that change is possible despite overwhelming challenges. Without hope, workers give up or become cynical. With hope, workers persist through difficulties and celebrate small victories.
+Integrity ensures workers remain honest, ethical, and true to humanitarian principles even when pressures mount. NGO workers with integrity keep communities' trust even in crises. They refuse to let suffering justify abandoning their values.
+Love—genuine care for human dignity and wellbeing—connects all these qualities. Workers who truly love people they serve find meaning in hardship and persist through exhaustion. Love transforms NGO work from employment into sacred purpose.
+These qualities cannot be taught in classrooms; they must be developed within each person through reflection, experience, and commitment.
+@MCQ
+1. Which quality helps NGO workers learn from communities?
+@OPT
+   ○ A) Confidence in knowing all answers
+   ○ B) Humility that allows learning from others
+   ○ C) Avoiding community interaction
+@MCQ
+2. What does the text say about character qualities in NGO work?
+@OPT
+   ○ A) They are not important for effective work
+   ○ B) They transform work from a job into a calling
+   ○ C) Only technical skills matter
+_300
+@EX Part 4: Application - Skills for Different Situations
+@INSTR Read scenarios and fill in which key skills are most important.
+_80
+@GRID
+NGO Situation | Most Important Skill
+Managing limited supplies for 1000 families in emergency | 
+Working with families displaced by flooding | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Organization and problem-solving ability
+b)  Compassion and emotional intelligence
+_100
+_300
+@EX Part 4: True/False - NGO Skills Development
+@INSTR Read statements about skills and mark them True, False, or Not Given.
+_80
+@PANEL
+NGO workers require well-developed interpersonal skills to work effectively in communities. Communication ability improves with practice and feedback. Some workers are born naturally compassionate while others must develop compassion through experience. NGOs invest heavily in training new staff because proper training saves money and improves outcomes. Technical skills are essential but insufficient without strong soft skills and character qualities. Self-care is selfish and inappropriate for humanitarian workers who must suffer along with communities. Humility and lifelong learning are valued traits in effective NGO workers.
+@NUM 100
+1. NGO workers need strong interpersonal skills.
+2. Self-care is inappropriate for humanitarian workers.
+3. Humility is valued in effective NGO workers.
+_300
+@EX Part 4: Discussion - Building Your Skills
+@INSTR Discuss how you would develop skills for future NGO work.
+_80
+@BULLET
+What skills do you most need to develop for humanitarian work and how would you develop them?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Essential Skills for NGO Work
+@INSTR Prepare a presentation about the most important skills for NGO success.
+_80
+@NUM 100
+1. Describe technical skills, soft skills, and character qualities needed in NGO work.
+_300
+@EX Part 5: RolePlay - Job Interview for NGO Position
+@INSTR Roleplay a job interview for an NGO position discussing your skills and qualities.
+_80
+_300
+@EX Part 5: Discussion - Developing Skills for Service
+@INSTR Discuss how to develop skills and qualities for NGO service work.
+_80
+@BULLET
+How can someone develop stronger communication and emotional intelligence for NGO work?
+_300
+@EX Part 5: RolePlay - Mentoring Conversation About Skills
+@INSTR Roleplay a mentor discussing skill development with a new NGO worker.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Skills Assessment
+@INSTR Write about your personal skills and how they could contribute to NGO work.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - How a Skill Changed Your Life
+@INSTR Write about how developing a specific skill improved your effectiveness or understanding.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Training Program for NGO Skills
+@INSTR Write a proposal for a training program to develop NGO worker skills.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Building Your Humanitarian Identity
+@INSTR Write a reflection on how you would develop yourself into a future humanitarian worker.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: NGO Worker Excellence in Bangladesh
+@INSTR Read about exemplary NGO work in Bangladesh and answer detailed questions.
+_80
+@PANEL
+Bangladeshi humanitarian workers demonstrate exceptional courage, skill, and commitment despite extreme difficulties. They work in clinics damaged by flooding, delivering emergency medical care with minimal supplies. They run learning centres for displaced children, maintaining education despite displacement. They coordinate food distribution to thousands of families with help from volunteers.
+Bangladeshi NGO workers understand local context deeply. They know family relationships, community structures, and religious values that shape village life. This cultural knowledge helps them implement programs that communities trust and support. They speak the language, share the culture, and understand hardship because many have experienced it themselves.
+The commitment of Bangladeshi humanitarian workers is remarkable. Many work long hours for minimal compensation or no payment. Many face real risks by continuing to work during cyclones and floods. Many have lost homes themselves yet continue service. Their dedication demonstrates that humanitarian work emerges from deep internal conviction—a personal relationship with suffering and commitment to reducing it.
+International NGO workers often say that Bangladeshi colleagues teach them what real humanitarian commitment looks like. The resilience, creativity, and compassion of local workers inspires and humbles those with more resources. This partnership between international support and local knowledge produces the most effective humanitarian response.
+@NUM 100
+1. What challenges do Bangladeshi humanitarian workers face?
+2. Why is local knowledge valuable in NGO work?
+_300
+@EX Part 7: Discussion - Mutual Learning Between Workers
+@INSTR Discuss what international and local NGO workers can learn from each other.
+_80
+@BULLET
+What can international and Bangladeshi NGO workers teach each other about effective humanitarian work?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 4 Summary - Skills and Qualities
+@INSTR Review Unit 4 by matching skills and qualities with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Empathy
+2. | Resilience
+3. | Cultural Competence
+4. | Dedication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Commitment to helping others succeed even when rewards are small
+b) | Ability to continue working effectively despite challenges and difficulties
+c) | Knowledge and respect for values, beliefs, and ways of life different from your own
+d) | Ability to understand and share someone else's feelings and perspective
+_300
+@EX Part 8: Integrated Assessment - Unit 4 Mastery
+@INSTR Demonstrate understanding of Unit 4. Choose the best answer.
+_80
+@MCQ
+1. What two types of skills must NGO workers develop?
+@OPT
+   ○ A) Only technical knowledge
+   ○ B) Technical skills and soft skills like communication and teamwork
+   ○ C) Only salary negotiation skills
+@MCQ
+2. Why are character qualities like compassion and integrity important in NGO work?
+@OPT
+   ○ A) They increase salary and benefits
+   ○ B) They transform service from a job into meaningful calling that sustains workers
+   ○ C) They are not really important
+@MCQ
+3. How do NGO workers best develop practical skills?
+@OPT
+   ○ A) Only through classroom training
+   ○ B) Through learning by doing in real situations with mentoring support
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+4. What is the value of Bangladeshi workers in NGO partnerships?
+@OPT
+   ○ A) They require supervision and have limited expertise
+   ○ B) They bring cultural knowledge, resilience, and authentic community relationships
+   ○ C) International workers do all the real work
+_300

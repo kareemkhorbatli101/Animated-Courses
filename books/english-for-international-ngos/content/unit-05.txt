@@ -1,0 +1,462 @@
+@UNITHEAD Unit 5: Essential NGO Skills and Qualities
+@PART Warm Up | Warm Up
+@EX Warm-Up: Project Planning Discussion
+@INSTR Discuss what it takes to plan a successful community project.
+_80
+@BULLET
+What are the first steps when planning a project to help a community?
+_300
+@EX Warm-Up: Project Stages Matching
+@INSTR Match project stages with their main activities and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Assessment and Needs Analysis
+2. | Planning and Design
+3. | Implementation
+4. | Monitoring and Evaluation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Checking if the project achieved its goals and community benefits
+b) | Creating clear goals and detailed steps for the project to achieve them
+c) | Asking community about problems and identifying what needs improvement
+d) | Completing activities, training staff, distributing resources to beneficiaries
+_300
+@EX Warm-Up: Project Management Multiple Choice
+@INSTR Read and choose the best answer about project management.
+_80
+@MCQ
+1. Why is community participation important in project planning?
+@OPT
+   ○ A) It wastes time and delays projects
+   ○ B) Communities know their needs and support programs they help create
+   ○ C) NGO experts know what communities need without asking
+_300
+@EX Warm-Up: Discussion - Challenges in Project Management
+@INSTR Discuss common challenges that NGO projects face during implementation.
+_80
+@BULLET
+What challenges do NGO projects face and how can managers overcome them?
+_300
+@EX Warm-Up: Project Phases Classification
+@INSTR Classify activities as belonging to Planning, Implementation, or Evaluation phase.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning Phase
+2. Implementation Phase
+3. Evaluation Phase
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Meeting community leaders to discuss problems and needs  ____________________________
+2. Training health workers to provide medical services  ____________________________
+3. Surveying families to measure if health improved  ____________________________
+4. Creating a timeline and budget for school construction  ____________________________
+5. Distributing school supplies and starting classes  ____________________________
+6. Counting how many children are attending school  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Project Management Terms Matching
+@INSTR Match project management terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Timeline
+2. | Budget
+3. | Objectives
+4. | Monitoring
+5. | Evaluation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Judging whether project achieved its goals and helped beneficiaries
+b) | Specific, measurable things the project wants to accomplish
+c) | Money and resources available to spend on the project
+d) | Keeping track of project progress and checking if activities are happening correctly
+e) | Period of time when project activities will happen from start to finish
+_300
+@EX Part 1: Project Cycle Components Table
+@INSTR Complete the table with project cycle components and their descriptions.
+_80
+@GRID
+Project Phase | Key Activities | Expected Output
+Assessment |  | 
+Planning |  | 
+Monitoring |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Meeting community, listening to problems, surveying needs
+b)  Clear understanding of community problems and priorities
+c)  Setting goals, designing activities, creating budget and timeline
+d)  Project proposal with clear plans and realistic timelines
+e)  Regular checking of progress, tracking spending, solving problems
+f)  Reports showing project is on track and resources used properly
+_100
+_300
+@EX Part 1: Management Terms Fill-in Blanks
+@INSTR Complete sentences using project management vocabulary.
+_80
+@GAP
+1. The people who receive help from an NGO project are called ____________________.
+2. ____________________ are people interested in the project including community members, donors, and staff.
+3. ____________________ means a project continues to help communities even after NGO funding ends.
+4. A ____________________ assessment measures community conditions before the project starts.
+_300
+@EX Part 1: Project Planning in Context - Fact Questions
+@INSTR Read about project planning and answer detailed fact questions.
+_80
+@PANEL
+Project Planning and the NGO Cycle
+All effective NGO projects follow a similar cycle. First is assessment where NGO staff meet with communities to identify real problems and what people need. This phase usually takes weeks or months. Staff learn about community resources, challenges, and values that affect project success.
+Second is planning where staff use assessment information to create project design. Planning includes setting goals, defining specific activities, estimating budgets, and creating timelines. Planning documents become the project proposal that donors review before funding.
+Third is implementation where NGO staff actually conduct planned activities. During implementation, staff hire and train workers, purchase supplies, and deliver services. Communities participate in activities and sometimes help manage them.
+Fourth is monitoring where managers regularly check that activities are happening as planned. Monitoring happens throughout implementation. Managers track spending, count beneficiaries, and solve problems immediately when they arise.
+Fifth is evaluation which happens at the end. Evaluators measure whether the project achieved its goals. They compare what the community was like before (baseline) with conditions after (end-line). This information helps NGOs improve future projects.
+This project cycle repeats continuously, creating ongoing improvement and learning.
+@NUM 100
+1. What is the purpose of the assessment phase?
+2. What does monitoring measure in a project?
+_300
+@EX Part 1: Discussion - Your Experience Planning
+@INSTR Discuss how project planning principles apply to your own experience.
+_80
+@BULLET
+Think of a time you planned something. What steps did you take and what happened?
+_300
+@EX Part 1: Listening - Project Managers Explain Planning
+@AUDIO 🔊 Audio Track 5.11
+@INSTR Listen to project managers describing their planning process and answer questions.
+_80
+@MCQ
+1. Why did the health project manager visit villages?
+@OPT
+   ○ A) To immediately distribute medicine
+   ○ B) To listen to problems and understand what communities need
+   ○ C) To impose predetermined solutions
+@MCQ
+2. What principle guided the education project budget decision?
+@OPT
+   ○ A) Spending the most money possible
+   ○ B) Creating changes that would last beyond NGO funding
+   ○ C) Doing only what donors prefer
+_300
+@EX Part 1: Project Cycle Summary - Multiple Choice
+@INSTR Choose the best explanation of project planning concepts.
+_80
+@MCQ
+1. What is the relationship between assessment and planning?
+@OPT
+   ○ A) Assessment is unnecessary if you have good planning
+   ○ B) Assessment information shapes planning that actually addresses community needs
+   ○ C) Planning always comes before assessment
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Sequencing Words for Project Steps
+@INSTR Complete sentences using words that show the order of project steps.
+_80
+@NUM
+1. ____________________ (first) the NGO team meets with communities.
+2. ____________________ (then) they analyze the information collected.
+3. ____________________ (finally) they evaluate whether goals were achieved.
+_300
+@EX Part 2: Conditional Sentences About Projects
+@INSTR Complete the table with conditional sentences about project planning.
+_80
+@GRID
+If Statement (Condition) | Then Result
+If communities do not participate in planning | 
+If managers monitor the project regularly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The project will not address their real needs
+b)  They can solve problems quickly before they damage the program
+_100
+_300
+@EX Part 2: Passive Voice for Project Activities
+@INSTR Complete sentences using passive voice to describe project activities.
+_80
+@GAP
+1. A needs assessment ____________________ in every village before planning.
+2. Project staff ____________________ to deliver services effectively.
+3. Project outcomes ____________________ through surveys and data collection.
+4. Every activity ____________________ so managers can track progress.
+_300
+@EX Part 2: Expressing Purpose with "to" and "in order to"
+@INSTR Complete sentences explaining the purpose of project activities.
+_80
+@NUM
+1. Managers visit communities ____________________ (understand) their real needs.
+2. Careful planning is necessary ____________________ (ensure) project success.
+3. Evaluation helps NGOs ____________________ (improve) future projects based on learning.
+_300
+@EX Part 2: Listening - Grammar of Project Discussion
+@AUDIO 🔊 Audio Track 5.17
+@INSTR Listen to a project coordinator explaining planning steps using various grammatical structures.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: When we plan a project, several grammatical structures help explain our work clearly. We say "The community must participate in planning" using modals. We explain "If we listen to people, they will support the project" using conditionals. We describe "Communities are visited by our team" using passive voice to show the action.
+~Coordinator: We say "We visit communities to understand their needs" showing purpose. We explain order with words like "First we assess, then we plan, finally we evaluate." Using varied grammatical structures helps us communicate project concepts clearly to international donors, local communities, and our staff team.
+_200
+@QUESTION
+1. What purpose do modals serve in project discussion?
+2. Why does the coordinator use multiple grammatical structures?
+_300
+@EX Part 2: Grammar Review - Project Planning Expressions
+@INSTR Discuss how different grammar patterns help explain project planning.
+_80
+@BULLET
+Explain how to use conditionals, passive voice, and sequencing to describe project phases.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Project Types Discussion
+@INSTR Before listening, discuss different types of projects NGOs implement in Mali.
+_80
+@BULLET
+What types of projects do NGOs in Mali implement and what does each require?
+_300
+@EX Part 3: Listening - Project Managers Explain Challenges
+@AUDIO 🔊 Audio Track 5.20
+@INSTR Listen to project managers discussing challenges they faced and how they addressed them.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager1: In my education project, I faced a challenge when trained teachers left the area because of long distances from their families. We had invested in their training and then suddenly they were gone. The solution was to improve compensation and housing for all staff. We also hired extra teachers and cross-trained them so leaving staff would not stop the program. The lesson was that project planning must account for staff retention and welfare.
+~Manager2: My water project faced funding delays. We had promised the community wells would be completed in three months but funding arrived two months late. Communities became frustrated even though the delay was not our fault. The solution was transparent communication explaining the real reasons for delay. We also adjusted timelines and involved community leaders in planning changes. Now I always build extra time into project timelines for unexpected delays.
+_200
+@QUESTION
+1. How did the education manager solve the staff retention problem?
+2. What did the water manager learn about planning and timelines?
+_300
+@EX Part 3: True/False - Project Management Practices
+@INSTR Read statements about project practices and mark True, False, or Not Given.
+_80
+@PANEL
+Effective project management requires clear planning from the beginning. Assessment and listening to communities is a waste of time compared to immediate action. Good planners build flexibility into timelines to accommodate unexpected problems. Community participation in planning increases project success rates significantly. Monitoring is optional if staff are competent and motivated. Budget constraints require managers to make difficult choices about what activities are most important. Sustainability means a project creates lasting benefits after NGO funding ends. Regular communication with communities and donors prevents misunderstandings and builds trust.
+@NUM 100
+1. Assessment and community listening is important in project planning.
+2. Monitoring is necessary only at the end of projects.
+3. Flexible timelines help accommodate unexpected challenges.
+_300
+@EX Part 3: Listening - Different Perspectives on Project Planning
+@AUDIO 🔊 Audio Track 5.22
+@INSTR Listen to different people describing project planning from their perspectives.
+_80
+@MCQ
+1. Why did the community member feel respected in the project planning process?
+@OPT
+   ○ A) The NGO staff made all decisions quickly
+   ○ B) Staff listened to community needs and involved them in designing the project
+   ○ C) The NGO installed technology without asking
+@MCQ
+2. What does the NGO manager say takes longer than donors expect?
+@OPT
+   ○ A) Spending project money
+   ○ B) Assessment and community meetings before starting activity
+   ○ C) Monitoring during implementation
+_300
+@EX Part 3: Listening - Project Lessons Learned
+@AUDIO 🔊 Audio Track 5.23
+@INSTR Listen to experienced project managers sharing lessons they learned.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager1: One critical lesson I learned is that clear communication prevents 90 percent of project problems. When donors, communities, and staff all understand the same goals and timelines, everyone works together. When communication is unclear, misunderstandings grow into big conflicts. Now I spend significant time ensuring all parties understand exactly what the project will do, when, and with what resources. This prevents assumptions and surprises.
+^Manager2: Another lesson is build relationships before emergencies. If you have not spent time getting to know community leaders before a problem occurs, they will not trust you when crisis hits. But if communities know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need coordinated response. Trust is built over months of consistent, respectful presence, not during emergencies.
+_200
+@QUESTION
+1. What percentage of problems does the first manager say clear communication prevents?
+2. When should relationships with community leaders be built according to the second manager?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Project Success Discussion
+@INSTR Discuss what makes some projects succeed while others struggle.
+_80
+@BULLET
+What factors help projects succeed or cause them to struggle?
+_300
+@EX Part 4: Reading - Project Cycle in Detail
+@INSTR Read detailed information about project management in Mali and answer questions.
+_80
+@PANEL
+Project Planning in Mali: Adapting to Complex Contexts
+Malian NGO projects face unique challenges in designing and managing programs. Long distances, seasonal rains, and insecurity in some regions create real obstacles. Despite these difficulties, Malian and international staff successfully implement education, health, water, and livelihood projects.
+Successful projects in Mali begin with careful assessment of current conditions. Assessment teams meet with community leaders, affected families, and local authorities. They identify what services communities most need and what local resources exist. They learn about cultural values that will affect program success. Good assessment in Mali includes understanding local dynamics and ensuring neutrality that allows helping all affected people.
+Planning in Mali requires flexibility. Project designers cannot assume that timelines will remain constant when the rainy season cuts off roads. They cannot assume that staff will remain stable when people must move for family reasons. Successful Malian projects build flexibility into budgets and timelines from the beginning. They hire and train extra staff expecting some to leave. They plan activities in ways that allow quick adjustment if conditions change.
+Implementation in Mali requires careful logistics. Projects protect staff and beneficiaries by carefully planning activities. They consider timing—not travelling during the heaviest rains. They consider location—choosing accessible areas whenever possible. They ensure communities understand travel and safety protocols.
+Monitoring and evaluation in Mali is critical. Managers need rapid information about whether activities are happening, whether conditions are changing, and whether communities are affected positively. This information helps adjust projects before small problems become disasters. Regular community feedback ensures projects remain responsive to changing needs.
+Sustainable projects in Mali build local capacity. International funding will eventually end. Successful projects train Malian staff, build community leadership, and create systems that communities can continue. This ensures that benefits persist after international NGO involvement ends.
+@NUM 100
+1. What are the unique challenges for project planning in Mali?
+2. Why do successful Malian projects build flexibility into timelines and budgets?
+_300
+@EX Part 4: Reading - Beneficiary-Centered Project Design
+@INSTR Read about ensuring projects truly meet community needs.
+_80
+@PASSAGE
+Beneficiary-Centered Project Design
+The most effective NGO projects place beneficiaries at the center of every decision. This means understanding not just what communities need materially but how they want to be treated, what they value culturally, and what solutions they believe will work.
+Beneficiary-centered design begins with genuine listening. This means not just asking questions but listening without judgment to answers that may surprise planners. A community might need education but prefer village-based learning instead of a central school because of distance. A health project might need cultural adaptation where female health workers serve women and male workers serve men, respecting local values.
+This approach requires humility from NGO staff. Planners must accept that community members are experts in their own situations. Their understanding of what will and will not work is often more accurate than experts' predictions. Successful project designers listen more than they talk, ask more than they advise.
+Beneficiary-centered design also means including people in decisions about project implementation. How will the school be built? Whose families will receive water first? How will community members participate? When people have voice in these decisions, they feel ownership and commit to project success.
+This approach takes more time and requires more patience than top-down project planning. However, the results justify the investment. Communities support projects they helped create. They maintain services after NGO funding ends. They learn skills and develop confidence that benefits extend beyond projects.
+@MCQ
+1. What does beneficiary-centered design require from NGO planners?
+@OPT
+   ○ A) Making decisions quickly without listening
+   ○ B) Humility to accept community expertise and genuine listening without judgment
+   ○ C) Imposing international best practices without modification
+@MCQ
+2. Why might a community prefer village-based learning over a central school?
+@OPT
+   ○ A) Communities do not value education
+   ○ B) Distance or cultural preferences that experts might not predict
+   ○ C) Only for temporary situations
+_300
+@EX Part 4: Application - Planning for Different Contexts
+@INSTR Read scenarios and fill in planning considerations for each context.
+_80
+@GRID
+Project Type | Key Planning Consideration
+Education in a remote rural area | 
+Water project in a displacement site | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Safety of students and staff, flexible schedule during the rainy season
+b)  Rapid assessment of needs, addressing displacement and sanitation
+_100
+_300
+@EX Part 4: True/False - Project Principles
+@INSTR Read statements about project principles and mark True, False, or Not Given.
+_80
+@PANEL
+Beneficiary-centered project design requires more time and resources than top-down planning. Communities should have voice in implementation decisions. NGO experts know better than communities what communities need. Building trust before emergencies is valuable. Successful projects in difficult areas require flexibility and adaptability. Assessment and listening are less important than quick action. Community participation increases project ownership and sustainability. Evaluation should happen only at the end of projects.
+@NUM 100
+1. Communities should participate in implementation decisions.
+2. Communities always know their needs better than NGO experts.
+3. Assessment and listening are important in project design.
+_300
+@EX Part 4: Discussion - Creating Sustainable Projects
+@INSTR Discuss how to make projects that create lasting change.
+_80
+@BULLET
+What makes a project truly sustainable so it continues helping after NGO involvement ends?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Project Planning Process
+@INSTR Prepare a presentation explaining the complete project planning process.
+_80
+@NUM 100
+1. Present the five main phases of project planning and what happens in each.
+_300
+@EX Part 5: RolePlay - Project Team Meeting
+@INSTR Roleplay a project team meeting discussing planning challenges and solutions.
+_80
+_300
+@EX Part 5: Discussion - Your Own Project Ideas
+@INSTR Discuss a community problem and how you would plan a project to address it.
+_80
+@BULLET
+Describe a community problem you know about and outline how you would plan a project to help.
+_300
+@EX Part 5: RolePlay - Explaining Project to Community
+@INSTR Roleplay explaining a project proposal to community members and responding to their questions.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Project Proposal Outline
+@INSTR Write a basic project proposal outline for a community problem you want to address.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Community Feedback
+@INSTR Write about how community feedback changed your project ideas.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Solving a Project Challenge
+@INSTR Write about a challenge you would face in project implementation and how to overcome it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Community Change
+@INSTR Write about the lasting impact you hope a development project would create.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Cultural Respect in Malian Projects
+@INSTR Read about cultural considerations in Malian project implementation and answer questions.
+_80
+@PANEL
+Cultural Adaptation in Malian NGO Projects
+Successful NGO projects in Mali adapt to local cultural values and practices. Malian culture values family unity, respect for elders, religious faith, honor, and community solidarity. Ignoring these values makes projects ineffective and disrespectful.
+Health projects must respect gender norms by having female health workers serve women when cultural preference exists. Education projects must allow flexibility for religious holidays and prayer times. Water projects must consider how cultural practices around water usage affect design. Livelihood projects must work with family and cooperative structures rather than individual models.
+Projects must hire local staff who understand culture and speak local languages. International staff cannot understand cultural subtleties that local people know instinctively. Local staff build community trust more easily because they are part of the community.
+Projects must involve respected community leaders including religious leaders. Even if NGO staff disagree with some practices, involving leaders prevents accusations of cultural disrespect or attempting to change culture. Respectful engagement with leaders usually finds ways to accomplish goals within cultural parameters.
+Successful projects explain why changes matter in language communities understand. Vaccination campaigns succeed when explained through shared values of health stewardship. Water projects succeed when connected to teaching about clean water. Education projects succeed when connected to values of learning and knowledge.
+This cultural adaptation is not compromising NGO values. Humanitarian principles of humanity and impartiality can be accomplished within any culture. Good projects find ways to respect culture while achieving goals.
+@NUM 100
+1. Why do successful Malian projects hire local staff?
+2. How can projects explain health programs to communities?
+_300
+@EX Part 7: Discussion - Learning from Malian Communities
+@INSTR Discuss what international NGO workers can learn from Malian approaches to community care.
+_80
+@BULLET
+What can international NGO workers learn from how Malian communities care for each other traditionally?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 5 Summary - Project Terms and Concepts
+@INSTR Review Unit 5 by matching terms with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Assessment
+2. | Monitoring
+3. | Evaluation
+4. | Beneficiaries
+_300
+@COLHEAD Column B
+@MATCHB
+a) | People who receive benefits and support from the project's activities and services
+b) | Measuring whether project achieved its goals and benefited communities
+c) | Understanding community situation and needs before beginning a project
+d) | Regular checking that activities happen correctly and solving problems immediately
+_300
+@EX Part 8: Integrated Assessment - Unit 5 Mastery
+@INSTR Demonstrate understanding of Unit 5. Choose the best answer.
+_80
+@MCQ
+1. Why is community assessment the first step in project planning?
+@OPT
+   ○ A) To waste time before action
+   ○ B) To understand real needs and prevent wasting resources on ineffective programs
+   ○ C) Communities do not need assessment
+@MCQ
+2. What does flexibility in project timelines accomplish?
+@OPT
+   ○ A) It allows procrastination without planning
+   ○ B) It allows adapting when unexpected challenges like seasonal rains or funding delays occur
+   ○ C) Flexible timelines are not needed
+@MCQ
+3. Why is monitoring important during project implementation?
+@OPT
+   ○ A) It is optional if staff are competent
+   ○ B) It provides information to solve problems quickly before small issues become big failures
+   ○ C) Monitoring happens only at the end
+@MCQ
+4. What makes a project truly sustainable?
+@OPT
+   ○ A) International NGO continues funding indefinitely
+   ○ B) Communities develop capacity to continue benefits after NGO funding ends
+   ○ C) Only external resources matter
+_300
