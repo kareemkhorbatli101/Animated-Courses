@@ -1,0 +1,644 @@
+@VOICES NGO Officer | NGO Leader 1 | NGO Leader 2 | All Leaders
+@UNITHEAD Unit 1: Introduction to NGOs
+@PART Warm Up | Warm Up
+@EX Warm-up: NGO Definition and Organization Types Matching
+@INSTR Match NGO-related terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | NGO (Non-Governmental Organization)
+2. | Donation
+3. | Volunteer
+4. | Mission
+5. | Community
+_300
+@COLHEAD Column B
+@MATCHB
+a) | People living in a specific area who share common interests and needs
+b) | The main aim or purpose that an organization works to achieve
+c) | An organization that works to help people but is not controlled by government
+d) | Money or resources given to help people or organizations without expecting payment back
+e) | A person who works without receiving payment to help others
+_300
+@EX Warm-up: What Are NGOs? Simple Vocabulary Fill
+@INSTR Complete sentences about NGOs using the words provided.
+_80
+@GAP
+1. An NGO is different from ____________________ because it is independent.
+2. Many NGOs use ____________________ who work without payment.
+3. NGOs are ____________________ organizations that help people and communities.
+4. NGOs receive ____________________ from people who want to help.
+_300
+@EX Warm-up: Types of NGOs Classification
+@INSTR Classify each organization type as Health, Education, Humanitarian, or Environment NGO.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Health NGO
+2. Education NGO
+3. Humanitarian NGO
+4. Environment NGO
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. An organization providing medical services to poor communities  ____________________________
+2. An organization teaching children in rural areas to read and write  ____________________________
+3. An organization providing food and shelter during emergencies  ____________________________
+4. An organization protecting forests and natural resources  ____________________________
+5. An organization preventing disease through health education  ____________________________
+6. An organization providing vocational training for young people  ____________________________
+_300
+@EX Warm-up: NGO Purposes and Goals Multiple Choice
+@INSTR Read about NGOs and choose the correct answer to each question.
+_80
+@PASSAGE
+Non-governmental organizations (NGOs) are independent groups that work to help people. They are not part of government and do not make profit. NGOs help with many things including health care, education, emergency relief, and environmental protection. People choose to work in NGOs because they want to make the world better.
+@MCQ
+1. What does independent mean about NGOs?
+@OPT
+   ○ A) They work for government
+   ○ B) They are not controlled by government
+   ○ C) They make money for owners
+   ○ D) They do not help anyone
+@MCQ
+2. Which is NOT a common NGO activity?
+@OPT
+   ○ A) Providing health care
+   ○ B) Protecting environment
+   ○ C) Making weapons
+   ○ D) Education work
+_300
+@EX Warm-up: NGO Examples and Purposes Matching
+@INSTR Match famous NGOs with what they do and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Doctors Without Borders
+2. | Save the Children
+3. | Greenpeace
+4. | Red Cross
+5. | Oxfam
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Works to end poverty and helps communities in developing countries
+b) | Provides emergency humanitarian aid during disasters and conflicts
+c) | Protects the environment and fights climate change globally
+d) | Helps poor children get education and protection from exploitation
+e) | Provides medical care in emergency situations and conflict areas worldwide
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: NGO and Organization Terminology Matching
+@INSTR Match NGO-related vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Organization
+2. | Community/Beneficiaries
+3. | Mission
+4. | Donation/Fund
+5. | Volunteer
+6. | Grant
+7. | Nonprofit/Non-profit
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Not making or seeking profit from activities
+b) | Money given specifically to a project or program by a large organization
+c) | The people and area served by an NGO or program
+d) | A person who works without payment to help others
+e) | Money given to help an organization or person in need
+f) | The main goal or reason an organization exists
+g) | Independent group working to help people without government control
+_300
+@EX Part 1: NGO Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important NGO vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about organizations, correct pronunciation helps others understand you clearly: // *• Organization* - primary stress on the I (or-gan-I-ZA-tion) // *• Mission* - primary stress on MIS (MIS-sion) // *• Community* - primary stress on COM (COM-mu-nity) // *• Donation* - primary stress on NA (do-NA-tion) // *• Volunteer* - primary stress on TEER (vol-un-TEER) // *• Nonprofit* - primary stress on NON (NON-prof-it) // *• Independent* - primary stress on IN (IN-de-pen-dent) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: NGO Types and Sectors Table
+@INSTR Complete the table with NGO types, their main focus areas, and examples.
+_80
+@GRID
+NGO Type | Main Focus Area | Example
+Health NGO |  | 
+Education NGO |  | 
+Humanitarian NGO |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Providing medical services and health education
+b)  Doctors Without Borders or Nepal Red Cross Society
+c)  Teaching children and adults literacy and skills
+d)  Save the Children or UNICEF
+e)  Providing emergency aid and disaster relief
+f)  International Red Cross or World Food Programme
+_100
+_300
+@EX Part 1: NGO Activities and Functions Matching
+@INSTR Match NGO activities with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Education and Training
+2. | Healthcare Services
+3. | Emergency Relief
+4. | Fundraising
+5. | Environmental Protection
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Protecting nature, forests, water, and the environment from damage
+b) | Asking for money and resources to support NGO programs
+c) | Helping people affected by disasters, wars, or emergencies
+d) | Providing healthcare, medicines, and health information to communities
+e) | Teaching people new skills and knowledge to improve their lives
+_300
+@EX Part 1: NGO Work Concepts Multiple Choice
+@INSTR Read about NGO work and choose the correct word for each sentence.
+_80
+@PASSAGE
+NGOs work in many sectors to improve people's lives. Some focus on healthcare by building clinics and training workers. Others teach education through schools and training programs. Many NGOs also help in emergencies by providing food, shelter, and medical care. All NGOs share the goal of making communities stronger and healthier.
+@MCQ
+1. A ____________________ is a place where doctors and nurses help sick people.
+@OPT
+   ○ A) school
+   ○ B) clinic
+   ○ C) office
+   ○ D) factory
+@MCQ
+2. A person who teaches is called a ____________________.
+@OPT
+   ○ A) student
+   ○ B) doctor
+   ○ C) teacher
+   ○ D) worker
+@MCQ
+3. Food and shelter provided during disasters is called ____________________.
+@OPT
+   ○ A) education
+   ○ B) healthcare
+   ○ C) relief
+   ○ D) training
+_300
+@EX Part 1: NGO-Related Vocabulary Fill-in
+@INSTR Complete sentences using important NGO vocabulary.
+_80
+@GAP
+1. An NGO is a ____________________ organization that does not make profit.
+2. ____________________ work for NGOs without receiving payment.
+3. The ____________________ benefits when an NGO provides services.
+4. All NGOs have a clear ____________________ or goal they work toward.
+5. The people who receive help from an NGO are called ____________________.
+6. NGOs are ____________________ from government control.
+_300
+@EX Part 1: Nepal's NGO Sector and Local Organizations
+@INSTR Read about NGOs in Nepal and answer the factual questions.
+_80
+@PANEL
+Nepali NGOs and Humanitarian Organizations
+Nepal has a long tradition of community organizations and charitable work. The Nepal Red Cross Society is one of the oldest and largest NGOs in Nepal. It provides healthcare, emergency relief, and community support services across the country.
+Many smaller NGOs in Nepal focus on specific needs. Some work in education, providing schools and training programs for children and adults. Others focus on women's rights, environmental protection, and community development. During earthquakes and landslides, these organizations have been critical in providing food, shelter, and medical care to affected populations.
+International NGOs also work in Nepal alongside local organizations. They bring funding, technical expertise, and resources to support community programs. Partnerships between Nepali NGOs and international organizations strengthen the capacity to help people.
+NGO workers in Nepal often face challenges including limited funding, difficult mountain access, and hard working conditions. Despite these obstacles, they remain committed to their missions of helping communities and building a better future for all Nepalis.
+@NUM 100
+1. What is the Nepal Red Cross Society and what does it do?
+2. Name three types of NGOs that work in Nepal.
+3. What do international NGOs contribute to Nepali communities?
+4. What challenges do Nepali NGO workers face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing NGO Work
+@INSTR Complete sentences about what NGOs do using the present simple tense.
+_80
+@GAP
+1. An NGO ____________________ (help) people in need.
+2. Organizations ____________________ (provide) education and healthcare.
+3. The Red Cross ____________________ (work) in emergencies.
+4. NGOs ____________________ (receive) donations from generous people.
+_300
+@EX Part 2: Simple Sentences About NGO Characteristics
+@INSTR Complete sentences about what makes NGOs special and different.
+_80
+@NUM
+1. NGOs are ____________________ (independent) when they make their own decisions.
+2. NGOs are nonprofit because they ____________________ (profit) profit.
+3. The mission of NGOs is to ____________________ (help) communities.
+_300
+@EX Part 2: Negative Sentences About NGOs
+@INSTR Rewrite sentences in the negative form to show what NGOs do NOT do.
+_80
+@GAP
+1. NGOs ____________________ (make profit) - they help people.
+2. An NGO ____________________ (control) by government.
+3. NGOs ____________________ (ignore) people in need.
+4. Organizations ____________________ (care) about money.
+_300
+@EX Part 2: NGO Characteristics and Functions Table
+@INSTR Complete the table with characteristics and what NGOs do vs. what they don't do.
+_80
+@GRID
+NGO Characteristic | What NGOs DO | What NGOs DO NOT
+Organization Type |  | 
+Financial Goal |  | 
+Primary Mission |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Operate independently from government
+b)  Follow government orders exactly
+c)  Use money to help people
+d)  Make profit for owners
+e)  Help vulnerable people
+f)  Ignore community problems
+_100
+_300
+@EX Part 2: Correcting NGO Sentences
+@INSTR Correct the grammatical errors in sentences about NGOs.
+_80
+@NUM 60
+1. NGOs helps people who are in need.
+@RULE
+@NUM 60
+2. An NGO do not make profit for owners.
+@RULE
+@NUM 60
+3. Organizations provides education and healthcare services.
+@RULE
+@NUM 60
+4. Volunteer works without receiving payment.
+@RULE
+@NUM 60
+5. The Red Cross are independent from government control.
+@RULE
+_300
+@EX Part 2: Grammar Review - NGO Sentences
+@INSTR Choose the grammatically correct sentence about NGOs.
+_80
+@PASSAGE
+When learning about NGOs, correct grammar helps us communicate clearly about their important work. Selecting the best sentence shows understanding of organization, purpose, and impact.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The NGO help people in communities.
+   ○ B) The NGO helps people in communities.
+   ○ C) The NGO are helping people in communities.
+   ○ D) The NGO have help people in communities.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) NGOs do not makes profit.
+   ○ B) NGOs does not make profit.
+   ○ C) NGOs do not make profit.
+   ○ D) NGOs do not making profit.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Organizations provide education and healthcare.
+   ○ B) Organizations provides education and healthcare.
+   ○ C) Organizations to provide education and healthcare.
+   ○ D) Organizations providing education and healthcare.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: NGO Worker Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to an NGO worker describing their organization and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~NGO Worker: Hello, my name is Sunita. I work for a health NGO in Nepal called Community Health First. Our organization provides medical services and health education to villages that do not have hospitals.
+~NGO Worker: We have doctors, nurses, and health workers who visit communities every week. We teach people about preventing diseases like typhoid and cholera. We also provide vaccinations for children and mothers.
+~NGO Worker: Our NGO receives support from international donors and from local people who believe in our mission. Volunteers from the community also help us. Our goal is simple - we want every person to be healthy and have access to medical care.
+_200
+@QUESTION
+1. What is Sunita's organization called?
+2. What services does the NGO provide?
+3. Who supports the NGO?
+_300
+@EX Part 3: Types of NGOs - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different NGOs. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^NGO Officer: There are many types of NGOs working in Nepal. Some focus on health, others on education, and many work in humanitarian aid during emergencies. The Nepal Red Cross Society is the largest humanitarian organization in the country.
+^NGO Officer: Education NGOs teach children in schools and help adults learn to read and write. Environmental NGOs protect forests and water resources. Women's rights organizations advocate for equality and protection of women and girls.
+^NGO Officer: International NGOs like Red Cross and World Vision also work in Nepal alongside local organizations. Together, they help millions of people every year. All NGOs share the same goal - to make life better for communities.
+_200
+@QUESTION
+1. There are many types of NGOs working in Nepal.
+2. Health is the only focus of Nepali NGOs.
+3. The Nepal Red Cross Society is humanitarian organization.
+4. International NGOs do not work in Nepal.
+5. All NGOs work to improve communities.
+_300
+@EX Part 3: NGO Missions and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to NGO leaders explaining their organizations' missions. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~NGO Leader 1: Our education NGO works to make sure every child can go to school. We build schools in rural areas where there are no schools. We also train teachers so children get quality education.
+^NGO Leader 2: My organization is an environmental NGO. We protect trees and forests. We teach communities why water and forests are important for everyone's future.
+~NGO Leader 3: We are a women's rights organization. We believe women and girls deserve respect and safety. We provide legal help and safe places for women in danger.
+^All Leaders: All of us are independent from government. We use donations and grants to fund our work. We have volunteers who help us every day. This is why we can continue helping communities.
+_200
+@QUESTION
+1. What is the mission of the education NGO?
+2. What does the environmental NGO protect?
+3. Who does the women's rights organization help?
+4. How do NGOs fund their work?
+_300
+@EX Part 3: NGO Types and Focus Areas Matching
+@INSTR Listen to descriptions. Match each NGO type with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Health NGO
+2. | Education NGO
+3. | Humanitarian NGO
+4. | Environmental NGO
+5. | Women's Rights NGO
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Advocating for equality and protecting the rights of women and girls
+b) | Quickly providing food, shelter, and medicine during disasters and wars
+c) | Protecting forests and water teaching communities about sustainability
+d) | Building schools and teaching children and adults reading and skills
+e) | Working in clinics and hospitals to treat sick people and prevent disease
+_300
+@EX Part 3: NGO Differences and Characteristics Classification
+@INSTR Classify each statement as a Feature of NGOs, A Challenge NGOs Face, or A Benefit to Communities.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of NGOs
+2. Challenge NGOs Face
+3. Benefit to Communities
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. NGOs are independent from government control  ____________________________
+2. Limited funding and financial resources  ____________________________
+3. Access to healthcare and education services  ____________________________
+4. NGOs do not make profit for owners  ____________________________
+5. Working in dangerous or remote areas  ____________________________
+6. Voice for vulnerable and marginalized people  ____________________________
+7. Using volunteers and donations  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is an NGO? Reading Comprehension
+@INSTR Read the text about NGOs and answer the multiple choice questions.
+_80
+@PASSAGE
+What is a Non-Governmental Organization (NGO)?
+An NGO is an independent organization that is not controlled by the government. NGOs work to solve problems and help people without making profit. They focus on social, environmental, or humanitarian goals. 
+NGOs exist in almost every country in the world. They range from small local organizations to large international groups. Some famous international NGOs include Red Cross, Doctors Without Borders, and Save the Children.
+NGOs are funded by donations from individuals, foundations, and sometimes international organizations. They employ staff and rely heavily on volunteers. Volunteers work without payment because they believe in the NGO's mission.
+The mission of an NGO is its main goal or purpose. For example, a health NGO's mission is to improve healthcare. An education NGO's mission is to improve education. Environmental NGOs protect nature. All NGOs work to make the world a better place for communities they serve.
+NGOs are essential for meeting needs that governments cannot address alone. They provide direct services, advocate for change, and respond quickly to emergencies. Communities benefit greatly from NGO work.
+@MCQ
+1. What is an NGO?
+@OPT
+   ○ A) An organization controlled by government
+   ○ B) An independent organization not controlled by government
+   ○ C) A business that makes profit
+   ○ D) A bank that gives money
+@MCQ
+2. How are NGOs funded?
+@OPT
+   ○ A) Only by government
+   ○ B) By donations and volunteers
+   ○ C) By selling products
+   ○ D) By charging fees to all people
+@MCQ
+3. Why do volunteers work for NGOs?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they believe in the mission
+   ○ D) To get free food
+_300
+@EX Part 4: NGO Types and Examples - True or False
+@INSTR Read about NGO types and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Types of NGOs and Their Work
+NGOs focus on many different areas. Health NGOs provide medical services. They work in clinics and hospitals treating patients. They also teach people about disease prevention and healthy living.
+Education NGOs build schools and teach students. They work especially in poor communities where children cannot access schools. Some education NGOs also teach adults who never learned to read.
+Humanitarian NGOs respond to emergencies. When there are earthquakes, floods, or wars, they provide emergency relief. They distribute food, water, shelter, and medical care. The Red Cross is a major humanitarian NGO.
+Environmental NGOs protect our planet. They work to save forests, protect water, and fight pollution. They teach communities why nature is important.
+Women's rights NGOs advocate for women. They fight discrimination and violence against women. They provide legal help and support services.
+All these NGOs work together with communities to build a better future. They employ thousands of people and rely on millions of volunteers worldwide.
+@NUM 100
+1. Health NGOs only provide medicine.
+2. Education NGOs build schools in poor communities.
+3. Humanitarian NGOs only work with adults.
+4. Environmental NGOs protect forests and water.
+5. Women's rights NGOs help only men.
+_300
+@EX Part 4: NGOs in Nepal - Fact Questions
+@INSTR Read about NGOs in Nepal and answer the detailed questions.
+_80
+@PANEL
+NGOs in Nepal: History and Current Work
+Nepal has a rich history of community organizations and humanitarian work. The Nepal Red Cross Society, founded in 1963, is one of the oldest NGOs in South Asia. It has helped Nepalis during both natural disasters and times of hardship.
+Today, many NGOs work in Nepal. Some are local organizations founded and run by Nepalis. Others are branches of international NGOs. Together they address critical needs in education, healthcare, food security, and emergency relief.
+Education NGOs help Nepali children continue learning despite challenges. They provide schools, scholarships, and training programs. Health NGOs run clinics in villages without hospitals. They treat diseases and teach prevention.
+During emergencies, humanitarian NGOs provide immediate help. They distribute food to hungry families, set up shelters, provide medical care, and reunite separated families.
+Women's groups help women and girls get education and protection. Environmental organizations work to protect Nepal's water and land.
+The work of NGOs is challenging. They operate with limited funding and often in difficult conditions. But they remain committed to helping Nepalis improve their lives. International partnerships help local NGOs expand their capacity to serve communities.
+@NUM 100
+1. When was the Nepal Red Cross Society founded?
+2. What are three areas that NGOs work in Nepal?
+3. What do education NGOs provide to Nepali children?
+4. What challenges do NGOs in Nepal face?
+_300
+@EX Part 4: NGO Funding and Operations Classification
+@INSTR Classify each statement as an NGO Funding Source, An NGO Characteristic, or A Service NGOs Provide.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Funding Source
+2. NGO Characteristic
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Individual donations from people who want to help  ____________________________
+2. Independent from government control  ____________________________
+3. Providing medical care in clinics and hospitals  ____________________________
+4. Grants from international foundations and organizations  ____________________________
+5. Do not make profit for owners  ____________________________
+6. Teaching children in schools  ____________________________
+7. Support from volunteer work without payment  ____________________________
+_300
+@EX Part 4: NGO Impact and Importance Matching
+@INSTR Match NGO contributions with their importance and impact on communities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Providing Healthcare Services
+2. | Providing Education
+3. | Emergency Response
+4. | Environmental Protection
+5. | Social Justice and Advocacy
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Working for equality and safety protecting rights of all vulnerable groups
+b) | Protecting forests, water, and land for sustainable future for all people
+c) | Immediate response with food, shelter, medicine during earthquakes and wars
+d) | Schools and programs ensure children get education even in remote areas
+e) | Hospitals and clinics provide treatment to people who cannot afford private healthcare
+_300
+@EX Part 4: NGO Importance and Role Completion
+@INSTR Complete sentences about the importance and role of NGOs.
+_80
+@NUM
+1. NGOs are essential for ____________________ (solve) that governments cannot.
+2. One main role of NGOs is to ____________________ (help) to emergencies.
+3. NGOs succeed through ____________________ (support) from volunteers and donors.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: NGO Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about NGOs using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key NGO vocabulary with correct pronunciation: // *• Organization (or-gan-I-ZA-tion)*: A group with a purpose // *• Mission (MIS-sion)*: The main goal or purpose // *• Volunteer (vol-un-TEER)*: A person who works without payment // *• Community (COM-mu-nity)*: People living in an area or group // *• Humanitarian (hu-MAN-i-TAIR-ee-an)*: Helping people in need from compassion // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing NGOs and Their Work
+@INSTR Discuss these questions about NGOs with a partner:
+_80
+@BULLET
+What is an NGO and how is it different from a government organization?
+What types of NGOs do you know, and what kind of work do they do?
+Why do you think people choose to be volunteers for NGOs instead of working for money?
+Can you name an NGO from Nepal or your region and describe what it does?
+_300
+@EX Part 5: NGO Interview Role Play
+@INSTR Practice an interview about NGOs. One student is an interviewer asking questions. The other student responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on NGO Facts
+@INSTR Prepare a presentation about NGOs. Cover what they are, types, and why they matter. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is an NGO?
+2. What types of NGOs exist and what are good examples?
+3. Why are NGOs important for our communities?
+_300
+@PART 7 | Part 7: Culture
+@PARTKEY 6
+@EX Part 7: NGO Values and Humanitarian Ethics
+@INSTR Read about NGO values and choose the correct answer about humanitarian principles.
+_80
+@PASSAGE
+NGO Values and Humanitarian Principles
+NGOs are guided by important values and ethics in their work. Humanitarian principles include humanity, neutrality, impartiality, and independence.
+Humanity means treating all people with respect and dignity. NGO workers believe every person has worth and deserves help. This is why NGOs work with all people regardless of their religion, ethnicity, or politics.
+Impartiality means helping people based on need, not on who they are or what they believe. NGOs help the most vulnerable people first. They do not discriminate.
+Neutrality means NGOs do not take sides in conflicts. They stay independent politically so they can help all people. This allows them to work safely in conflict areas to help everyone.
+Independence means NGOs make decisions based on their mission and values, not government pressure. This independence allows NGOs to speak up for vulnerable people and challenge injustice.
+These principles guide NGO workers every day. They explain why NGOs are trusted and respected in communities. Following these values makes NGO work effective and ethical.
+@MCQ
+1. What does humanitarian humanity mean?
+@OPT
+   ○ A) Being very smart
+   ○ B) Treating all people with respect and dignity
+   ○ C) Making money quickly
+   ○ D) Supporting only government
+@MCQ
+2. What does impartiality mean?
+@OPT
+   ○ A) Helping only rich people
+   ○ B) Taking sides in conflicts
+   ○ C) Helping people based on need, not on who they are
+   ○ D) Ignoring vulnerable people
+@MCQ
+3. Why is independence important for NGOs?
+@OPT
+   ○ A) So they can make profit
+   ○ B) So they follow government orders
+   ○ C) So they can speak up for vulnerable people and serve all communities
+   ○ D) So they can ignore community needs
+_300
+@EX Part 7: Nepali Community Values and NGO Work
+@INSTR Match Nepali cultural values with how they relate to NGO and humanitarian work.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Community Care
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Justice and Fairness
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Justice and fairness in treatment of all people regardless of status
+b) | Dignity and personal honor are fundamental to identity and self-respect
+c) | Hospitality and welcomeness to guests and strangers is a core virtue
+d) | Respect for elders and authority figures provides stability and guidance
+e) | Helping family and community is a moral responsibility and source of honor
+_300
+@PART 8 | Part 8: Review
+@PARTKEY 7
+@EX Part 8: NGO Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: NGO Feature, NGO Type, or NGO Function.
+_80
+@CAT
+Categories:
+@CATITEM
+1. NGO Feature
+2. NGO Type
+3. NGO Function
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Independent from government control  ____________________________
+2. Health organizations providing medical services  ____________________________
+3. Responding quickly to emergencies with food and shelter  ____________________________
+4. Do not make profit for owners  ____________________________
+5. Education organizations teaching children and adults  ____________________________
+6. Teaching prevention and promoting healthy communities  ____________________________
+7. Use volunteers and donations to fund their work  ____________________________
+8. Humanitarian organizations protecting vulnerable people  ____________________________
+_300
+@EX Part 8: Integrated NGO Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what an NGO is?
+@OPT
+   ○ A) A business that makes money
+   ○ B) A government organization with lots of power
+   ○ C) An independent organization that helps people without making profit and is not controlled by government
+   ○ D) A place where you always get free things
+@MCQ
+2. What is a main difference between an NGO and a business?
+@OPT
+   ○ A) NGOs have buildings; businesses do not
+   ○ B) NGOs help people and do not make profit; businesses make profit
+   ○ C) NGOs only work in cities; businesses work everywhere
+   ○ D) NGOs use only volunteers; businesses use only paid staff
+@MCQ
+3. How are most NGOs funded?
+@OPT
+   ○ A) Only by government money
+   ○ B) Only by selling products
+   ○ C) By donations, grants, and volunteer work
+   ○ D) By charging high fees to poor people
+@MCQ
+4. Which is an example of an NGO's mission?
+@OPT
+   ○ A) Making profit for shareholders
+   ○ B) Improving healthcare in communities and treating sick people
+   ○ C) Following government orders exactly
+   ○ D) Keeping information secret from the public
+_300
