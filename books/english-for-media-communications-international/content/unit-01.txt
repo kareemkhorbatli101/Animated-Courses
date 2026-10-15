@@ -1,0 +1,468 @@
+@UNIT 1 | Working in Media and Communications
+@SUB Present simple, present continuous and state verbs  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Media and Communication Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Post  →  content that you share on a page or platform. (example)
+@MATCH f) a person who takes photographs
+Communication :: a series of actions to reach a goal
+Campaign :: permission to use someone's words or photo
+Consent :: sharing information and ideas with people
+Audience :: the people who read or watch your work
+Deadline :: the time by which work must be finished
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK communication | campaign | consent | audience
+@EX 0. The team shares Meridian Relief's news with the public. (example)
+@GAP
+Always ask for @@ before you use a photo.
+The winter @@ will help families in five countries.
+Good @@ is about respect, not only words.
+Know your @@ before you write a post.
+
+@TASK Warm-up: Reading — The Communications Team
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+Meridian Relief is a humanitarian organisation with its communications hub in Geneva and country offices in Amman, Dhaka, Nairobi, Lima and Freetown. Its communications team tells the story of the organisation's work to the public and to donors. Every day, the team writes posts, takes photographs and answers questions from journalists in several countries. The work is busy, but it follows one simple rule: the team always tells the truth, and it never shares a photo without consent. At the moment, the team is preparing a winter campaign for families in two of those countries. Good communication, they believe, is not only about clever words; it is about honesty and respect.
+@EX 0. Meridian Relief's communications hub is in Geneva. (example)
+@MCQ 1 | What does the communications team do every day? | It builds new houses | It writes posts and answers questions | It sells photographs to journalists | It teaches English classes
+@MCQ 2 | What is the team preparing at the moment? | A winter campaign | A new office | A football match | A summer holiday
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: Media and Communications Terms
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Audience  →  the people who read or watch your work.
+@MATCH h) a plan of when things will happen
+Journalist :: the short text under a photograph
+Caption :: an official statement sent to the news
+Press release :: a person who reports the news
+Interview :: a meeting where you ask someone questions
+Feature :: a longer article about one topic
+Platform :: a place online where you share content
+Spokesperson :: the person who speaks for an organisation
+@GLOSS press release = an official statement an organisation sends to the news    ·    feature = a longer article that explores one topic in depth
+
+@TASK Part 1: Pronunciation
+@AUDIO 1.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+communication — com-mu-ni-CA-tion
+journalist — JOUR-na-list
+interview — IN-ter-view
+campaign — cam-PAIGN
+consent — con-SENT
+spokesperson — SPOKES-per-son
+
+@TASK Part 1: State Verbs and Their Meanings
+@RUBRIC These verbs describe states, not actions, so we do not usually use them in the continuous. Match each verb with its meaning. One meaning is not needed. Write the letter.
+@EX 0. want  →  to wish to have something. (example)
+@MATCH f) to send a message to someone
+know :: to think that something is true
+believe :: to have information in your mind
+need :: to like one thing more than another
+prefer :: to require something
+understand :: to know what something means
+
+@TASK Part 1: Media Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. The short text under a photograph is a caption. (example)
+@MCQ 1 | An official statement that an organisation sends to the news is a | caption | press release | deadline | platform
+@MCQ 2 | The person who speaks for an organisation is a | journalist | photographer | spokesperson | donor
+@MCQ 3 | A longer article that explores one topic in depth is a | post | feature | caption | headline
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK journalist | caption | interview | platform
+@EX 0. A spokesperson speaks for the organisation. (example)
+@GAP
+A @@ from a newspaper in Lima called us this morning.
+Tomás is writing the @@ for the photograph.
+Nadia chose the right @@ for the campaign.
+Joseph has an @@ with a community leader today.
+
+@TASK Part 1: Write About Your Work (short)
+@RUBRIC Write two or three sentences about what a communications officer does. Use the words from Part 1.
+@PLAN A ___ works in…  Every day, they…  At the moment, they…
+
+@BAR Part 2  ·  Grammar — Present Simple, Present Continuous and State Verbs | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+Ingrid usually starts the day by reading the news from five countries. Tomás writes articles and often interviews people. Aisha takes photographs, and she always asks for consent first. These are the things that the team does every day. But today is different. Right now, the whole team is preparing the winter campaign. Nadia is writing posts, Aisha is choosing photographs, and Joseph is talking to families in Nairobi. Notice the difference: we use the present simple for routines and facts, and the present continuous for actions that are happening now.
+@LINE Look at the verbs in your teacher's copy. Which verbs describe a routine? Which describe an action happening now?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+Present simple | Aisha always asks for consent. | routines, facts, and frequency
+Present continuous | Right now, she is choosing photographs. | actions happening now or these days
+State verbs | I know the answer. (not 'I am knowing') | feelings and states, not usually continuous
+Adverbs of frequency | always, usually, often, sometimes, rarely, never | before the main verb; after the verb 'be'
+@REMEMBER Use the present simple for routines and facts, and the present continuous for actions happening now. State verbs (know, believe, need, want, prefer) are not usually used in the continuous.
+@WATCH Watch out: put the adverb of frequency before the main verb ('she often writes') but after the verb 'be' ('she is often busy').
+@GLOSS fact = something that is always true    ·    temporary = lasting for a short time, not permanent
+
+@TASK Part 2: Controlled Practice
+@RUBRIC Complete with the present simple or the present continuous.
+@EX 0. Every day, the team tells true stories. (example)
+@GAP
+Every morning, Ingrid @@ (read) the news.
+Right now, Nadia @@ (write) a post.
+Aisha always @@ (ask) for consent.
+Listen! Tomás @@ (interview) a journalist.
+
+@TASK Part 2: State Verbs or Action Verbs?
+@RUBRIC Complete with the correct form. Remember that state verbs are not usually continuous.
+@GAP
+I @@ (know) the answer to your question.
+She @@ (write) an article at the moment.
+We @@ (need) more photographs for the campaign.
+They @@ (plan) the winter appeal this week.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+I am knowing the answer.
+Right now she writes a post.
+He often is busy in the morning.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say two things you usually do at work, and one thing you are doing this week.
+@BULLET
+I usually ______ , and I often ______ .
+This week, I am ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | Right now, Nadia ______ a post for the campaign. | writes | write | wrote | is writing
+@MCQ 2 | Aisha ______ asks for consent before she takes a photo. | always | is always | does always | always is
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Ingrid Introduces the Team
+@AUDIO 1.2
+@PRE listen
+what different jobs do you think a communications team has?
+@TEXT
+Ingrid: Welcome to the communications team at Meridian Relief. Let me tell you what we do here. We are a small team in six places, but we work on many things at the same time. I usually start the day by checking the news and planning our posts. Tomás writes articles and interviews people from our office in Lima, and he is very good at asking the right questions. Aisha is our photographer in Freetown; she always asks for consent before she takes a picture. Nadia manages our social media from Dhaka, and at the moment she is preparing a big winter campaign. We do not just share information — we tell people's stories with respect. That is the most important part of our job. Every day is different, and every day is busy, but I love this work, because it helps real families.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. Meridian Relief has a communications team. — T
+@NUM
+The communications team is large.   ____
+Aisha always asks for consent before taking a photograph.   ____
+Nadia is preparing a winter campaign at the moment.   ____
+Ingrid does not enjoy her work.   ____
+@PHRASES
+I usually…
+At the moment, she is…
+We tell people's stories with respect.
+
+@TASK Part 3: Tomás Asks for Advice
+@AUDIO 1.3
+@PRE listen
+when you are not sure about something at work, who do you ask?
+@TEXT
+Tomás: Ingrid, I am writing the post about the winter campaign. Can I ask you something?
+Ingrid: Of course, Tomás. What is it?
+Tomás: I have a lovely photo of a family, but I am not sure about the caption. What should I write?
+Ingrid: Good question. First, always check that we have consent for the photo. Do we have it?
+Tomás: Yes, the family signed the form yesterday, and Joseph translated it for them.
+Ingrid: Perfect. Then keep the caption simple and true. Say who the family is — with their permission — and explain what we are doing to help.
+Tomás: Should I include their address?
+Ingrid: No, never. We always protect people's privacy. The name of the town is enough.
+Tomás: That makes sense. Thank you, Ingrid.
+Ingrid: You are welcome. Remember, a good caption tells the truth and respects the person.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. What is Tomás writing? — A post about the winter campaign.
+@NUM
+What must the team always check before they use a photo?
+Did the family sign the consent form?
+Should Tomás include the family's address in the caption?
+@PHRASES
+Can I ask you something?
+Always check that…
+We protect people's privacy.
+
+@TASK Part 3: Planning the Day
+@AUDIO 1.4
+@PRE listen
+how does a team decide who does each task?
+@TEXT
+Ingrid: Right, everyone, let's plan today. We have a lot to do for the winter campaign. Tomás, you are writing the main article, so please focus on that this morning. Aisha, we need new photographs of the distribution centre — can you go there today?
+Aisha: Yes, of course. I will take the camera.
+Ingrid: Great. Nadia, you are managing the social media, so please prepare the posts for this week. And Joseph, I need you on the ground: talk to the families, with their consent, and collect their stories.
+Joseph: Understood. I will be careful and respectful.
+Ingrid: Thank you, everyone. Remember, we are one team in six places, and we always support each other. Let's make this a good campaign.
+@WHILE
+match each person with their task. One task is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → plans the day and leads the team.
+@MATCH e) design the posters
+Tomás :: take photographs of the distribution centre
+Aisha :: prepare the social media posts
+Nadia :: write the main article
+Joseph :: collect families' stories with their consent
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Your Work
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What do you usually do on a normal working day?
+What are you working on at the moment?
+Why is it important to ask for consent before you publish a photo?
+@USE
+I usually…
+I often…
+At the moment, I am…
+This is important because…
+
+@TASK Part 4: Introduce Your Team — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to introduce a colleague.
+@MODEL
+A: This is my colleague, Aisha. She is our photographer in Freetown. — B: What does she usually do? — A: She takes photographs of our projects, and she always asks for consent first. — B: And what is she doing at the moment? — A: Right now, she is photographing the winter campaign.
+@USE
+This is my colleague…
+She/He usually…
+At the moment, she/he is…
+@CARD Card A — Officer
+introduce a colleague · say what they usually do · say what they are doing now.
+@CARD Card B — Officer
+ask two questions about the colleague · then swap roles.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe your job or a job you would like. Use the present simple, adverbs of frequency, and the present continuous.
+@PLAN I work as a…  Every day, I usually…  At the moment, I am…  I enjoy this work because…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: What a Communications Team Does
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+The communications team at Meridian Relief has an important job: it helps the public understand the work of the organisation. The team does many different things. Writers prepare posts and short articles, photographers take pictures of the projects, and social media officers share the news online. Although the tasks are different, and although the team sits in six different cities, they all have the same goal — to tell true stories with respect. Every morning, the team meets online to plan the day. They decide which stories to tell and which photographs to use. Usually, they work on several projects at the same time. This week, for example, they are preparing a campaign about winter aid, because thousands of families need warm clothes and heating. Good communication is not easy. The team must think carefully about every word and every image, and about how each one will be read in a different country. They always ask for consent before they publish a photograph, and they never share private information. When people trust an organisation, they are more likely to support it. For this reason, honesty is the most valuable tool the team has. The work is demanding, but it is also rewarding. At the end of a long day, the team knows that its words have helped real people, and that is why they do this job.
+@EX 0. The communications team helps the public understand the organisation. (example)
+@MCQ 1 | What is the main goal of the team? | To sell photographs | To make money | To tell true stories with respect | To build new houses
+@MCQ 2 | What are they preparing this week? | A summer holiday | A football match | A new office | A campaign about winter aid
+@MCQ 3 | Why is honesty important, according to the text? | Because it is fast | Because people support an organisation they trust | Because it is cheap | Because it is easy
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. publish  →  to make something public. (example)
+@MATCH f) a person who reports the news
+prepare :: the thing that you want to achieve
+goal :: permission to use words or a photo
+consent :: to get something ready
+demanding :: needing a lot of effort or care
+valuable :: very useful or important
+@GLOSS demanding = needing a lot of effort, time or care    ·    rewarding = giving you a good feeling because the work is worth doing
+
+@TASK Part 5: Telling the Story from Where You Are
+@RUBRIC Read about communication across countries. Then mark each sentence True (T) or False (F).
+@TEXT
+For many years, people in one part of the world have heard about another part mainly through difficult news. However, there is always much more to a country than its hardest years. Every country has a rich culture, a long history, and — most importantly — people who are working hard to rebuild their communities. Communicators in international organisations have a special responsibility. They want to show the real lives of the people they work with: their courage, their kindness, and their hope for the future. At the same time, they must always protect the people in their stories. They ask for consent, they respect privacy, and they never show anyone in a way that takes away their dignity. This is not always easy. Sometimes a powerful photograph could attract more attention, but if it harms a person, a good communicator will not use it. Wherever trust matters, honest and respectful communication is the only way to work. When the world hears true and dignified stories, it understands a place better, and it is more ready to help.
+@EX 0. People often hear about a country through difficult news. → T (example)
+@NUM
+There is always much more to a country than its hardest years.   ____
+A good communicator uses any powerful photograph, even if it harms someone.   ____
+Communicators always try to protect the people in their stories.   ____
+Honest and dignified stories help the world understand a place better.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Describe Your Working Day (80–120 words)
+@RUBRIC Describe a normal day in a communications job. Use the present simple, adverbs of frequency, and at least one present continuous sentence about this week.
+@MODEL
+I work as a media officer at an international humanitarian organisation. My days are busy, but I enjoy them. Every morning, I usually check the news and read the messages that arrived while my colleagues in other time zones were working. Then I meet my team online, and together we plan the stories that we want to tell. During the day, I often write posts and articles, and I always ask for consent before I use a photograph. This week, we are preparing a winter campaign, so at the moment I am writing about the families that we are helping. I love this work, because it helps real people.
+@PLAN I work as…  Every morning, I usually…  I often…  I always…  This week, I am…  I enjoy this work because…
+@CHECK
+present simple + adverbs of frequency?
+one present continuous sentence?
+80–120 words?
+
+@TASK Part 6: Why Consent Matters (80–120 words)
+@RUBRIC Write about why communicators must always ask for consent. Give reasons and an example.
+@MODEL
+Consent is one of the most important rules in communication. When we ask for consent, we show respect for the people in our stories. We also protect them, because a photograph or a name can put someone at risk. For example, if we share a family's address without asking, we could put that family in danger. Some people think that a strong photo is more important than a rule, but they are wrong. A story that harms a person is never a good story. For this reason, a responsible communicator always asks first, and never publishes without permission.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Short Message to a Colleague (60–90 words)
+@RUBRIC Write a short message to a colleague about a post you are working on. Ask for their advice.
+@MODEL
+Hi Nadia, I am writing the post about the winter campaign, and I would like your advice. I have a lovely photo of a family, and they have given consent for it. However, I am not sure about the caption. Should I include the name of the town, or is that too much? I always want to protect people's privacy, so I would rather ask you first. Could we talk about it this afternoon? Thank you, Tomás.
+@PLAN Hi ___ ,  I am ___  and I would like ___ .  I am not sure about ___ .  Could we ___ ?  Thank you, ___ .
+@CHECK
+a greeting and a close?
+a clear request for advice?
+60–90 words?
+
+@TASK Part 6: Reflection — Why This Work Matters (60–90 words)
+@RUBRIC Write about why communication work matters, especially between countries. Use your own ideas.
+@MODEL
+I believe that communication work matters, especially between countries that know little about each other. For many years, people abroad have heard only difficult news about places like mine. Good communicators can change this. They show the courage and the kindness of ordinary people, and they tell true stories with respect. When the world hears these stories, it understands us better, and it is more ready to help. This is why I think that honest, respectful communication is not a small job — it is an important one.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each team value with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. Be on time.  →  respect other people's time. (example)
+@MATCH f) end the meeting on time
+Tell the truth. :: get permission before you publish
+Ask for consent. :: keep private information safe
+Protect privacy. :: never exaggerate or invent
+Check your facts. :: make sure everything is correct
+Support each other. :: help your teammates
+
+@TASK 7B: The Manager's Briefing
+@AUDIO 1.5
+@PRE listen
+what values do you think are important in a communications team?
+@TEXT
+Ingrid: Good morning, everyone, in all five offices. Before we start, I want to talk about how we work as a team. Communication is not only about writing well; it is about working together and following our values. First, we always tell the truth. We never exaggerate, and we never share information that we have not checked. Second, we always respect the people in our stories. We ask for consent, we protect privacy, and we treat everyone with dignity. Third, we help each other. If you are not sure about something, please ask. It is always better to ask than to make a mistake. This week, we are working on the winter campaign, and it is important that our message is clear, true and kind in every language we publish in. I know that you are all busy, but I also know that you are a wonderful team. Let's do this work well, and let's do it together.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What is Ingrid talking about? — How the team works and its values.
+@NUM
+What is the first value that Ingrid mentions?
+What three things does the team do to respect people?
+What does Ingrid say you should do if you are not sure?
+
+@TASK 7C: Controlled Practice — The Morning Routine
+@RUBRIC You are the manager. Put the team's morning steps in order. Number them 1–5. (0. is done.)
+@EX 0. Check the messages from the night before. — 1
+@LINE
+___ Read the news from the five countries where we work.
+___ Meet the team online and plan the day.
+___ Write and check the posts.
+___ Ask for consent before publishing any photographs.
+
+@TASK 7D: Role-Play — Leading a Short Meeting
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: This week we are working on the winter campaign, so let's plan carefully. — Tomás: What should I focus on first? — Ingrid: Please write the main article, and remember to check consent for every photo. — Tomás: Understood. I will start this morning.
+@CARD Card A — Manager (Ingrid)
+explain this week's goal · give each person a task · remind the team of one value.
+@CARD Card B — Officer
+ask what to focus on first · ask one question about the rules · say what you will do.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team about this week's work and one important value.
+@MODEL
+Dear team, thank you for all your hard work this week, in all five offices. As you know, we are preparing the winter campaign, and it is important that our message is clear, true and kind. Please remember our most important value: we always ask for consent before we publish a photograph, and we never share private information. If you are not sure about anything, please come and ask me — it is always better to ask than to make a mistake. You are a wonderful team, and I am proud of the work that we do together. Ingrid.
+@CHECK
+this week's goal mentioned?
+one clear value explained?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — A Day in the Life of Nadia
+@PRE read
+what do you think a social media officer does every day?
+@TEXT
+Nadia is a social media officer at Meridian Relief in Dhaka, and she loves her job. Her main task is to share the organisation's news with the public. Every morning, she checks the messages that arrived overnight from colleagues in other time zones and answers people's questions. She usually spends the first hour reading the news, because she needs to understand what is happening in the countries where Meridian Relief works. Nadia does not work alone. She is part of a team in six cities, and they often plan campaigns together. At the moment, she is helping to prepare the winter appeal. This week, she is writing short posts, choosing photographs, and preparing a video about a family that the organisation is supporting. Nadia believes that social media is a powerful tool, but she also knows that it must be used with care. She never shares a photograph without consent, and she always checks her facts before she posts anything. 'A single mistake can hurt someone,' she says, 'and it can damage the trust that we work so hard to build.' At the end of the day, Nadia feels tired but happy. She knows that her posts have reached thousands of people, and that some of them will help a family in need.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What is Nadia's job? — She is a social media officer.
+@NUM
+What does Nadia usually do in the first hour of her day?
+What is she helping to prepare at the moment?
+Why does she always check her facts before she posts?
+@GLOSS appeal = a public request for help, money or support    ·    tool = something that you use to do a job or reach a goal
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. share  →  to give something to other people. (example)
+@MATCH f) a short text under a photograph
+campaign :: a public request for help or money
+appeal :: permission to use words or a photo
+consent :: a series of actions to reach a goal
+tool :: something you use to do a job
+trust :: the belief that someone is honest
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+'In my opinion, the most important part of the job is…'
+'I agree, because…'
+'That is a good point, but…'
+@BULLET
+What do you think is the most difficult part of a communications job?
+Why is trust so important for a humanitarian organisation?
+How can a small mistake damage an organisation?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: Joseph's Photograph
+@PRE read
+can a photo be a problem, even when you have consent for it?
+@TEXT
+Joseph is writing a post about a family that Meridian Relief is helping this winter in Nairobi. The family has agreed to share their story, and they have signed a consent form in their own language. Joseph has a beautiful photograph of the family outside their home, and it would make the post much stronger. The deadline is this evening in Geneva. However, there is a problem. In the background of the photograph, you can clearly see the name of the street and the number of the house. The family gave consent for a photo, but they did not agree to share their exact address. Joseph knows that this information is private, and that sharing it could put the family at risk. Joseph wants the post to be powerful, and he does not want to miss the deadline. But he also knows the most important rule of the organisation: protect people first, and never share private information without permission. He looks at the photograph again and thinks carefully about what to do.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What is Joseph writing about? — A family that the organisation is helping this winter.
+@NUM
+Did the family give consent for the photograph?
+What private information can you see in the photograph?
+Why is this a problem?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Joseph (a) publish the photograph as it is, (b) hide the address in the photograph and then publish it, or (c) choose a different photograph without the address? Choose one and give reasons.
+@FRAME Answer frame
+'I think Joseph should ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+@MODELDEC
+I think Joseph should hide the address in the photograph and then publish it, because the family gave consent for the photo but not for their address. Their privacy is more important than a stronger post. Sharing an exact address could put the family in danger, and the organisation's first rule is always to protect people. If Joseph cannot hide the address well, then he should choose a different photograph. In my opinion, it is far better to miss a deadline than to harm a family.
+@PHRASEBANK
+I think… should…
+because…
+privacy is more important than…
+This is better than…
+protect people first.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK consent | campaign | always | is writing
+@EX 0. Good communication is about honesty and respect. (example)
+@GAP
+The team @@ asks for consent before publishing.
+Right now, Nadia @@ a post for the appeal.
+Ask for @@ before you use someone's photograph.
+The winter @@ helps families in five countries.
+
+@TASK Part 10: Can-Do
+@CANDO
+I can talk about routines with the present simple and adverbs of frequency
+I can describe what is happening now with the present continuous
+I can use state verbs (know, believe, need) correctly
+I can name common media and communications words
+I can explain why consent and honesty matter in communication
+
+@TASK Part 10: Unit 1 glossary
+@TEXT
+communication = sharing information and ideas with people    ·    campaign = a series of actions to reach a goal    ·    consent = permission to use someone's words or photo    ·    audience = the people who read or watch your work    ·    journalist = a person who reports the news    ·    caption = the short text under a photograph    ·    press release = an official statement sent to the news    ·    feature = a longer article about one topic    ·    platform = a place online where you share content    ·    spokesperson = the person who speaks for an organisation    ·    appeal = a public request for help or money    ·    state verb = a verb about a state or feeling, not an action    ·    routine = something you do regularly    ·    dignity = the respect that every person deserves    ·    communicator = a person whose job is to share information and stories    ·    dignified = shown with respect and self-respect    ·    exaggerate = to make something seem bigger or better than it really is

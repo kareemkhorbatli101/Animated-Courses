@@ -1,0 +1,468 @@
+@UNIT 2 | The Newsroom and Its Tools
+@SUB Quantifiers and 'there has been'  ·  B1.1–B1.2  ·  Meridian Relief, Geneva
+
+@BAR Warm Up | orange
+@TRACK [OP] Officer track  ·  in-class starter
+
+@TASK Warm-up: Newsroom Words
+@RUBRIC Match the words with their meanings. One meaning is not needed. Write the letter.
+@EX 0. Camera  →  the tool you use to take photographs. (example)
+@MATCH f) a person who speaks for an organisation
+Equipment :: a small machine that records sound
+Recorder :: the tools you need to do a job
+Tripod :: a copy kept in case the first one is lost
+Backup :: three legs that hold a camera still
+Storage :: the space where files are kept
+
+@TASK Warm-up: Complete the Sentences
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK equipment | backup | storage | tripod
+@EX 0. The team checks the equipment before every shoot. (example)
+@GAP
+Always make a @@ copy of your photographs.
+There is not much @@ left on this card.
+Use a @@ if you want a steady picture.
+We share the @@ between the five country offices.
+
+@TASK Warm-up: Reading — A Small Newsroom
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+The newsroom at Meridian Relief is small, and it is spread across six cities. There are two cameras in Geneva, one in Nairobi, and a few recorders that travel between the offices. There has been a lot of change in the last year: the team has bought new memory cards, and there have been several repairs. The officers share everything, so they keep a simple list of who has what. There is not much money for new equipment, but there is enough for the work, and the team looks after it carefully. A camera that is cleaned and charged is worth more than a camera that is new.
+@EX 0. The newsroom is small. (example)
+@MCQ 1 | Where is the equipment kept? | In one office in Geneva | Across six cities | In a warehouse | At the airport
+@MCQ 2 | What does the team keep? | A list of who has what | A second newsroom | A photography shop | A spare office
+
+@BAR Part 1  ·  Vocabulary and Terminology | blue
+@TRACK [OP] Officer track  ·  pre-class input
+
+@TASK Part 1: The Tools of the Newsroom
+@RUBRIC Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@EX 0. Camera  →  the tool you use to take photographs.
+@MATCH h) the person who speaks for an organisation
+Memory card :: the small card that stores your photographs
+Microphone :: the tool that records a voice
+Lens :: the glass part of a camera that you change
+Charger :: the cable that fills a battery
+Editing software :: the program you use to cut a video
+Archive :: the place where old files are kept safely
+Caption sheet :: the list of names and details for each photograph
+@GLOSS archive = a safe, organised store of old files    ·    editing software = a program for cutting and improving video or sound
+
+@TASK Part 1: Pronunciation
+@AUDIO 2.1
+@RUBRIC Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PRON
+equipment — e-QUIP-ment
+microphone — MI-cro-phone
+battery — BA-tte-ry
+archive — AR-chive
+software — SOFT-ware
+recorder — re-COR-der
+
+@TASK Part 1: Quantifiers and Their Uses
+@RUBRIC These words tell us how much or how many. Match each quantifier with its use. One use is not needed. Write the letter.
+@EX 0. a few  →  a small number of countable things. (example)
+@MATCH f) a question about the time
+much :: a large number of countable things
+many :: a large amount of an uncountable thing
+a little :: a small amount of an uncountable thing
+some :: an amount we do not need to count
+enough :: as much as we need
+
+@TASK Part 1: Newsroom Terms — Multiple Choice
+@RUBRIC Read and choose the correct answer.
+@EX 0. A memory card stores your photographs. (example)
+@MCQ 1 | What is a tripod? | A kind of camera | Three legs that hold a camera still | A memory card | A microphone
+@MCQ 2 | What is an archive? | A safe store of old files | A new camera | A press release | A kind of lens
+@MCQ 3 | What does a charger do? | It records sound | It fills a battery | It cuts a video | It takes photographs
+
+@TASK Part 1: Vocabulary Fill-in
+@RUBRIC Complete the sentences using the words in the word bank.
+@BANK microphone | archive | battery | lens
+@EX 0. Please clean the camera before you return it. (example)
+@GAP
+The @@ is empty, so the camera will not start.
+Aisha changed the @@ to take a wider photograph.
+Put the finished photographs in the @@ at the end of the week.
+Joseph used a small @@ for the interview.
+
+@TASK Part 1: Write About Your Kit (short)
+@RUBRIC Write two or three sentences about the equipment you use at work. Use quantifiers from Part 1.
+@PLAN In our office there is…  There are a few…  We do not have much…
+
+@BAR Part 2  ·  Grammar — Quantifiers and 'there has been' | blue
+@TRACK [OP] Officer track  ·  grammar focus
+
+@TASK Part 2: Notice
+@TEXT
+There are two cameras in the Geneva office and only one in Nairobi. There are a few recorders, but there is not much storage space, so the team deletes old files every month. There has been a lot of interest in the winter campaign, and there have been many requests for photographs. Notice the difference: we use 'there is' and 'there are' for the present, and 'there has been' and 'there have been' when something started in the past and matters now. Notice too that 'much' goes with uncountable nouns and 'many' goes with countable ones.
+@LINE Look at the sentences again. Which nouns are countable? Which are uncountable?
+
+@TASK Part 2: Grammar Focus Box
+@GRAMMAR
+ | Form | Use | Example
+much / little | with uncountable nouns | amount, not number
+many / few | with countable nouns | number, not amount
+there is / there are | present | There are two cameras here.
+there has / have been | from the past until now | There has been a lot of interest.
+@REMEMBER Use 'much' and 'little' with uncountable nouns (money, storage, time) and 'many' and 'few' with countable nouns (cameras, cards, files). 'There has been' connects the past to now.
+@WATCH Watch out: 'much' is unusual in positive sentences. Say 'a lot of storage', not 'much storage', unless the sentence is negative or a question.
+@GLOSS countable = something you can count one by one    ·    uncountable = something you measure rather than count
+
+@TASK Part 2: Controlled Practice
+@RUBRIC Complete with much, many, a few or a little.
+@EX 0. There are many photographs in the archive. (example)
+@GAP
+There is not @@ storage left on the card.
+We have @@ recorders, but only two cameras.
+Could I borrow @@ memory, just for one file?
+There are too @@ files in this folder.
+
+@TASK Part 2: There is / There are / There has been
+@RUBRIC Complete with there is, there are, there has been or there have been.
+@GAP
+@@ a new camera in the Dhaka office.
+@@ three recorders on the shelf.
+@@ a lot of interest in the campaign this month.
+@@ several repairs since January.
+
+@TASK Part 2: Correct the Sentence
+@RUBRIC Each sentence has one mistake. Write it correctly.
+@NUM
+There is many cameras in the office.
+We do not have much cards left.
+There have been a lot of interest this week.
+
+@TASK Part 2: Freer Practice
+@RUBRIC Talk with a partner. Say what there is in your office, and what there is not enough of.
+@BULLET
+In my office there is ______ , and there are ______ .
+There is not enough ______ .
+
+@TASK Part 2: Grammar Review
+@RUBRIC Choose the correct form.
+@MCQ 1 | There ______ a lot of interest in the campaign this month. | have been | has been | are | is being
+@MCQ 2 | We do not have ______ storage left on this card. | many | a few | much | number of
+
+@BAR Part 3  ·  Listening and Dialogue | blue
+@TRACK [OP] Officer track  ·  listening
+
+@TASK Part 3: Aisha Shows the Equipment
+@AUDIO 2.2
+@PRE listen
+what equipment do you think a small communications team needs?
+@TEXT
+Aisha: Welcome to the store cupboard. It is not large, but everything we need is here. There are two cameras: this one travels between Freetown and Nairobi, and this one stays in Geneva. There are a few recorders for interviews, and there is one tripod, which everybody wants on the same day. We do not have much storage, so please copy your files to the archive and then clear your card. There has been a lot of pressure on the equipment this year, because there have been more field visits than usual. The rule is simple: if you take something, write your name on the list; if you break something, tell me the same day. Nobody is ever in trouble for an honest accident, but a broken camera that nobody reports can stop a whole shoot.
+@WHILE
+write True (T) or False (F). (0. is done.)
+@EX 0. The store cupboard is small. — T
+@NUM
+There are three cameras in the cupboard.   ____
+There is only one tripod.   ____
+Staff must write their name on the list.   ____
+Aisha wants people to hide accidents.   ____
+@PHRASES
+There are a few…
+We do not have much…
+If you take something, write your name on the list.
+
+@TASK Part 3: Borrowing Equipment
+@AUDIO 2.3
+@PRE listen
+how do you ask a colleague to lend you something at work?
+@TEXT
+Tomás: Aisha, could I borrow a recorder for Thursday?
+Aisha: Of course. There are two free, I think. How long do you need it?
+Tomás: Two days. I have three interviews in Lima.
+Aisha: That is fine. Take the small one — there is a little more battery in it. Do you need a memory card as well?
+Tomás: Yes, please. Is there much space on it?
+Aisha: Not much, so copy your files every evening. There have been a few problems with full cards this month.
+Tomás: Understood. I will copy everything to the archive each night.
+Aisha: Perfect. Write your name on the list, and bring it back charged.
+Tomás: I will. Thank you, Aisha.
+@WHILE
+answer the questions. (0. is done.)
+@EX 0. What does Tomás want to borrow? — A recorder.
+@NUM
+How long does Tomás need it?
+What must he do every evening?
+What must he do before he returns the recorder?
+@PHRASES
+Could I borrow…?
+Is there much space on it?
+Bring it back charged.
+
+@TASK Part 3: Getting Ready for the Shoot
+@AUDIO 2.4
+@PRE listen
+what can go wrong on a film shoot, and how can a team prepare?
+@TEXT
+Ingrid: Right, let's check the kit for tomorrow. Aisha, you have the camera and the spare battery?
+Aisha: Yes, both charged. There is one spare lens too.
+Ingrid: Good. Nadia, are the consent forms printed in the right language?
+Nadia: They are. There are fifteen, which is more than enough.
+Ingrid: Excellent. Joseph, you have the recorder and the microphone?
+Joseph: I have the recorder. There has been a problem with the microphone cable, so I am taking a second one.
+Ingrid: Well spotted. Tomás, you are writing the captions afterwards, so please collect the names and the spellings on the day.
+Tomás: Understood.
+@WHILE
+match each person with their job. One job is not needed. (0. is done.) Write the letter.
+@EX 0. Ingrid → checks the kit and leads the shoot.
+@MATCH e) book the flights for the team
+Aisha :: print the consent forms
+Nadia :: carry the camera and the spare battery
+Joseph :: take the recorder and a second cable
+Tomás :: collect the names and spellings for the captions
+
+@BAR Part 4  ·  Speaking | blue
+@TRACK [OP] Officer track  ·  speaking
+
+@TASK Part 4: Talking About Equipment
+@RUBRIC Work with a partner. Ask and answer these questions. Give reasons and examples.
+@BULLET
+What equipment is there in your office?
+What is there not enough of?
+What do you do before you return something you have borrowed?
+@USE
+There is…  ·  There are…
+There is not much…
+There have been a few…
+
+@TASK Part 4: Asking for Equipment — Role Play
+@RUBRIC Work in pairs. Read the model, then use the cards to borrow a piece of equipment.
+@MODEL
+A: Could I borrow the camera for Friday? — B: There is one free, I think. How long do you need it? — A: One day only. — B: Fine. There is not much space on the card, so copy your files in the evening. — A: I will. Thank you.
+@USE
+Could I borrow…?
+How long do you need it?
+There is not much…
+@CARD Card A — Officer
+ask for one item · say how long you need it · agree to one condition.
+@CARD Card B — Officer
+say what is free · ask how long · give one clear condition.
+@BOLD Your turn
+run the dialogue, then change roles.
+
+@TASK Part 4: Mini-Presentation
+@RUBRIC Prepare a short talk (about one minute). Describe the equipment your team uses and how you look after it. Use quantifiers and 'there has been'.
+@PLAN In our team there is…  There are a few…  There has been…  We look after it by…
+
+@BAR Part 5  ·  Extended Reading | blue
+@TRACK [OP] Officer track  ·  extended reading
+
+@TASK Part 5: The Tools of Visual Storytelling
+@RUBRIC Read the text and choose the correct answer.
+@TEXT
+A communications team does not need much equipment, but it needs the right equipment, and it needs to look after it. A camera, a recorder, a tripod and a laptop are enough for most of the work that a small team does. What matters more than the number of tools is the care that the team takes with them. There has been a change in the last ten years. Cameras have become cheaper and lighter, and a good phone can now take a photograph that is strong enough for a report. This is useful for teams that work far from a capital city, where there is not much money and even less time. But a lighter camera has not made the work easier in every way. There are more images than ever, so there is more to check, more to caption and more to store. Storage is the quiet problem of every newsroom: there are only a few people who enjoy sorting files, and there are many who put it off. A good team therefore agrees three simple habits. Copy every file the same day. Write the caption while you still remember the name. Delete nothing until it is in the archive. These habits are not exciting, but they save a story that would otherwise be lost.
+@EX 0. A team does not need much equipment. (example)
+@MCQ 1 | What matters more than the number of tools? | The price of the tools | The care the team takes with them | The colour of the camera | The size of the office
+@MCQ 2 | Why is a lighter camera useful far from a capital city? | Because it is beautiful | Because there is not much money or time | Because it is heavy | Because it is slow
+@MCQ 3 | What is 'the quiet problem of every newsroom'? | Storage and sorting files | Too many cameras | Expensive tripods | Long interviews
+
+@TASK Part 5: Vocabulary in Context
+@RUBRIC Match each word from the text with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. store  →  to keep something safely for later. (example)
+@MATCH f) a person who reports the news
+habit :: a thing you do regularly without deciding
+sort :: to put things into order
+caption :: the short text that explains a photograph
+archive :: the safe store of old files
+delete :: to remove a file completely
+
+@TASK Part 5: Telling Stories with Few Resources
+@RUBRIC Read about working with little equipment. Then mark each sentence True (T) or False (F).
+@TEXT
+Many communications teams work with very little. There is rarely much money for new equipment, and there are rarely enough people. Yet some of the strongest stories come from the smallest teams. The reason is simple: when there is not much equipment, a team thinks harder about what it is trying to say. A single good photograph, taken with care and with consent, can say more than twenty taken quickly. A short recording of one person speaking clearly can be stronger than a long film with poor sound. There have been many examples of this. A field officer with one phone and a notebook has often brought back a better story than a large crew with three cameras, because the field officer had time to listen. Equipment helps, and nobody should pretend otherwise. But the tools that matter most in this work are patience, respect and a clear idea of the story you want to tell.
+@EX 0. Many teams work with very little. → T (example)
+@NUM
+There is usually a lot of money for new equipment.   ____
+A single careful photograph can say more than twenty quick ones.   ____
+A large crew always brings back a better story.   ____
+Patience and respect matter more than equipment.   ____
+
+@BAR Part 6  ·  Writing | blue
+@TRACK [OP] Officer track  ·  writing
+
+@TASK Part 6: Describe Your Team's Equipment (80–120 words)
+@RUBRIC Describe the equipment your team has and how you share it. Use quantifiers and at least one 'there has been' sentence.
+@MODEL
+In our office there are two cameras, a few recorders and one tripod. There is also a laptop with editing software, which we share between us. There is not much storage, so we copy every file to the archive on the same day. There has been a lot of pressure on the equipment this year, because there have been more field visits than usual. We keep a simple list of who has what, and we always return things charged. It is not much equipment, but it is enough, and we look after it carefully.
+@PLAN In our office there is…  There are a few…  There is not much…  There has been…  We look after it by…
+@CHECK
+quantifiers used correctly?
+one 'there has been' sentence?
+80–120 words?
+
+@TASK Part 6: Why We Look After Our Equipment (80–120 words)
+@RUBRIC Write about why a team must look after its equipment. Give reasons and an example.
+@MODEL
+Looking after equipment is not only about money, although new cameras are expensive. It is about the story. If a battery is empty on the morning of a shoot, the story is lost, and the family who agreed to tell it has given their time for nothing. For example, last month a microphone cable failed during an interview, and we had to ask a grandmother to repeat everything she had said. That is not respectful. A team that charges its batteries, copies its files and reports a fault the same day is not being careful about equipment. It is being careful about people.
+@CHECK
+a clear opinion?
+two or three reasons?
+one example?
+80–120 words?
+
+@TASK Part 6: A Short Message About a Shoot (60–90 words)
+@RUBRIC Write a short message to a colleague about tomorrow's shoot. Say what you have and what you need.
+@MODEL
+Hi Joseph, I am getting ready for tomorrow's shoot in Nairobi. I have the camera, two charged batteries and a spare lens. There is not much space on my memory card, so could I borrow one of yours? I also need the consent forms in Kiswahili — are there enough printed? I will copy everything to the archive tomorrow evening. Thank you, Aisha.
+@PLAN Hi ___ ,  I am ___ .  I have ___ .  There is not much ___ , so could I ___ ?  Thank you, ___ .
+@CHECK
+a greeting and a close?
+one clear request?
+60–90 words?
+
+@TASK Part 6: Reflection — Doing More with Less (60–90 words)
+@RUBRIC Write about working with little equipment. Use your own ideas.
+@MODEL
+I believe that a small team can tell a great story with very little. When there is not much equipment, you think more carefully about what you want to say, and you listen more carefully to the person in front of you. The best interview I have recorded was made with one old recorder in a noisy room. What made it good was not the machine; it was the time I spent listening. Equipment helps, but attention is the real tool.
+@CHECK
+a clear main idea?
+reasons or examples?
+60–90 words?
+
+@BAR Part 7  ·  Supervisory Track | teal
+@TRACK [PR] Manager track  ·  leading the team
+
+@TASK 7A: Phrase Bank
+@RUBRIC Match each kit-room rule with what it means in practice. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. Sign the list.  →  write your name when you take something. (example)
+@MATCH f) book a flight for the field visit
+Charge it first. :: tell somebody the same day
+Copy your files. :: never return an empty battery
+Report a fault. :: put every file in the archive
+Label the card. :: say whose photographs are on it
+Return it on time. :: somebody else is waiting for it
+
+@TASK 7B: The Kit-Check Briefing
+@AUDIO 2.5
+@PRE listen
+what does a manager need to check before a team goes into the field?
+@TEXT
+Ingrid: Before every field visit, we do a kit-check together, and I want to explain why. There have been three shoots this year where something small went wrong, and each time the cost was not the equipment but the people's time. First, check the batteries, and check the spares. An empty battery is the most common fault in every office. Second, check the storage. There is never much space on a card, so copy and clear before you travel, not after. Third, check the consent forms, and check that they are in a language the people can actually read. Fourth, check that two people know how to use each piece of equipment, because one person is always ill on the wrong day. And finally, report anything broken the same day. Nobody is in trouble for an honest fault. The only mistake that costs us is the one that nobody mentions until the morning of the shoot.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. What does the team do before every field visit? — A kit-check.
+@NUM
+What does Ingrid say is the most common fault?
+Why must two people know how to use each item?
+What is the only mistake that costs the team?
+
+@TASK 7C: Controlled Practice — The Kit-Check
+@RUBRIC You are the manager. Put the kit-check steps in order. Number them 1–5. (0. is done.)
+@EX 0. Open the equipment list. — 1
+@LINE
+___ Check the batteries and the spares.
+___ Copy the old files and clear the cards.
+___ Check that the consent forms are in the right language.
+___ Sign the list and note anything that is broken.
+
+@TASK 7D: Role-Play — Leading the Kit-Check
+@RUBRIC In pairs. One is the manager (Ingrid); one is an officer. Use the model and cards.
+@MODEL
+Ingrid: Let's check the kit for Thursday. Are the batteries charged? — Joseph: Both of them, and there is one spare. — Ingrid: Good. Is there enough space on the cards? — Joseph: Not much, so I will copy and clear tonight. — Ingrid: Perfect. Anything broken? — Joseph: One microphone cable. I am taking a second one.
+@CARD Card A — Manager (Ingrid)
+ask about batteries · ask about storage · ask about faults · thank the officer.
+@CARD Card B — Officer
+answer each question honestly · report one fault · say what you will do about it.
+
+@TASK 7E: Supervisory Writing (80–120 words)
+@RUBRIC You are Ingrid. Write a short message to the team about the kit-check before a field visit.
+@MODEL
+Dear team, before Thursday's visit, please do the kit-check together. There have been three shoots this year where something small went wrong, and each time it cost somebody their time, not ours. Check the batteries and the spares, copy your files and clear the cards, and make sure the consent forms are printed in a language that people can read. If anything is broken, tell me the same day — nobody is ever in trouble for an honest fault. Thank you for looking after our equipment so carefully. Ingrid.
+@CHECK
+the reason for the kit-check explained?
+two or three clear instructions?
+a warm, professional tone?
+80–120 words?
+
+@BAR Part 8  ·  Consolidation | blue
+@TRACK [OP] Officer track  ·  consolidation
+
+@TASK Part 8: Reading — The Battery That Almost Stopped the Shoot
+@PRE read
+what is the smallest thing that could stop a day's work?
+@TEXT
+Joseph had planned the day carefully. A family in a village outside Nairobi had agreed to tell their story, and they had chosen the morning because the children would be at school. Joseph had the camera, the recorder and the consent forms. He arrived early, greeted the grandmother, explained once more what the photographs would be used for, and sat down to listen. Twenty minutes into the interview, the recorder stopped. The battery was empty. Joseph had charged it the night before, or he thought he had: in fact he had plugged the charger into a socket that did not work. There was no spare in his bag, because the spare was in the office in a different district. He had two choices. He could ask the grandmother to repeat everything, which would waste an hour of her morning and would make her tell the story a second time, less naturally. Or he could write the rest by hand and come back another day for the recording. He chose to write. Then he apologised, explained exactly what had happened, and asked whether he could return on Friday. She laughed and said that she had plenty of time, which was kind but not the point. Since that morning, Joseph has carried two spare batteries. There has not been a repeat.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. Where was the family? — In a village outside Nairobi.
+@NUM
+Why had the family chosen the morning?
+Why was the battery empty?
+What did Joseph decide to do?
+@GLOSS spare = an extra one, kept in case the first fails    ·    socket = the place in the wall where you plug something in
+
+@TASK Part 8: Vocabulary in Context
+@RUBRIC Match each word with its meaning. One meaning is not needed. (0. is done.) Write the letter.
+@EX 0. plan  →  to decide what you will do and when. (example)
+@MATCH f) the short text under a photograph
+spare :: an extra one, kept in case the first fails
+socket :: a thing that you did not expect
+fault :: the place in the wall where you plug something in
+repeat :: something that is broken or does not work
+waste :: to do or say the same thing again
+
+@TASK Part 8: Discussion
+@RUBRIC Talk with a partner. Use the frames and give reasons.
+@FRAME Discussion frames
+'In my opinion, the most important check is…'
+'I agree, because…'
+'That is a good point, but…'
+@BULLET
+What is the smallest thing that has ever gone wrong in your work?
+Whose time matters most on a field visit, and why?
+How should a team write down what it has learned from a mistake?
+
+@BAR Part 9  ·  Decision Task | blue
+@TRACK [OP] Officer track  ·  judgement
+
+@TASK Part 9: One New Piece of Equipment
+@PRE read
+if you had money for one new thing, what would you buy?
+@TEXT
+The Dhaka office has been given enough money for one new piece of equipment, and Nadia has to choose. There are three good arguments. The first is a second camera. There is only one in the office, and when two field visits happen on the same day, somebody goes without. The second is a set of radio microphones. The sound on the team's films is often poor, because the single microphone has to sit too far from the speaker, and poor sound loses an audience faster than a poor picture. The third is more storage: a large drive for the archive, because there has been a lot of pressure on space and the team has twice deleted files it later needed. Nadia has asked each of her colleagues, and each of them has named a different one. The money cannot be split, and it must be spent this month. She knows that whatever she chooses, two people will be disappointed, and she wants to be able to explain her reasons clearly to all three.
+@RUBRIC Answer the questions. (0. is done.)
+@EX 0. How many things can Nadia buy? — One.
+@NUM
+Why does the team need a second camera?
+What is the problem with the sound?
+What has happened twice because of a lack of storage?
+
+@TASK Part 9: Make the Decision
+@RUBRIC Should Nadia buy (a) a second camera, (b) radio microphones, or (c) more storage? Choose one and give reasons.
+@FRAME Answer frame
+'I think Nadia should buy ___ , because ___ . Also, ___ . This is better than ___ , because ___ .'
+@MODELDEC
+I think Nadia should buy more storage, because the team has already lost files that it needed, and a lost file cannot be bought back later. Good sound and a second camera would both improve the work, but neither of them protects what the team has already made. Also, storage is the cheapest of the three, so there may be a little money left for a spare microphone cable. This is better than a second camera, because two field visits on the same day are rare, and the team can borrow from Nairobi.
+@PHRASEBANK
+I think… should…
+because…
+a lost file cannot be bought back
+This is better than…
+protect what we already have.
+@LINE My decision: ______  because ______ .
+
+@BAR Part 10  ·  Review and Can-Do | orange
+@TRACK [OP] Officer track  ·  review
+
+@TASK Part 10: Spiral Review
+@RUBRIC Complete with the correct word.
+@BANK much | there have been | archive | consent
+@EX 0. There are two cameras in the office. (example)
+@GAP
+There is not @@ storage left on the card.
+@@ several repairs since January.
+Put the finished files in the @@ at the end of the week.
+Always ask for @@ before you publish a photograph. (Unit 1)
+
+@TASK Part 10: Can-Do
+@CANDO
+I can name the main tools of a newsroom
+I can use much, many, a little and a few correctly
+I can use 'there is', 'there are' and 'there has been'
+I can borrow equipment politely and agree a condition
+I can explain why a team must look after its equipment
+
+@TASK Part 10: Unit 2 glossary
+@TEXT
+equipment = the tools you need to do a job    ·    recorder = a small machine that records sound    ·    tripod = three legs that hold a camera still    ·    backup = a copy kept in case the first one is lost    ·    storage = the space where files are kept    ·    memory card = the small card that stores your photographs    ·    microphone = the tool that records a voice    ·    lens = the glass part of a camera that you change    ·    charger = the cable that fills a battery    ·    archive = a safe, organised store of old files    ·    caption sheet = the list of names and details for each photograph    ·    spare = an extra one, kept in case the first fails    ·    fault = something that is broken or does not work    ·    countable = something you can count one by one    ·    uncountable = something you measure rather than count    ·    kit-check = the check a team does before a field visit
