@@ -1,0 +1,441 @@
+@VOICES Manager | Coordinator | Field Officer
+@UNITHEAD Unit 3: Records, Correspondence and Compliance
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Is Records Compliance?
+@INSTR Discuss your understanding of the rules that govern an organisation's records.
+_80
+@BULLET
+What do you know about record-keeping rules and the bodies that inspect an organisation's files?
+_300
+@EX Warm-Up: Matching - Administrative Risks
+@INSTR Match administrative risks with appropriate control requirements.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | A contract nobody can find
+2. | An unanswered complaint
+3. | An unrecorded payment
+4. | A breach of confidence
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Requires a register, acknowledged receipt and a record of every reply
+b) | Requires a filing plan, a retention period and one named custodian
+c) | Requires access rules, locked cabinets and a record of every file removed
+d) | Requires complete books, an approved voucher and an independent audit
+_300
+@EX Warm-Up: Text - Record-Keeping Principles
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What is a core principle of good record-keeping?
+@OPT
+   ○ A) Keeping the directors uninformed so decisions are faster
+   ○ B) Registering every document on arrival and keeping what proves what was agreed
+   ○ C) Applying the rules only to large departments
+_300
+@EX Warm-Up: Discussion - Why Records Matter
+@INSTR Discuss the importance and challenges of record-keeping.
+_80
+@BULLET
+Why are good records important for the organisations and customers of today?
+_300
+@EX Warm-Up: Vocabulary Classification - Compliance Terms
+@INSTR Classify legal and non-legal concepts.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Legal requirement
+2. Office choice
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Issuing every employee a written contract of employment  ____________________________
+2. The colour of the folders and the layout of the desks  ____________________________
+3. Keeping a register of every document received  ____________________________
+4. Filing the annual social insurance return on time  ____________________________
+5. Choosing which stationery supplier to use this year  ____________________________
+6. Keeping books that show every receipt and payment  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Types of Office Record
+@INSTR Match types of office record with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Correspondence file
+2. | Personnel file
+3. | Contract register
+4. | Petty cash book
+5. | Minute book
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A record of every agreement the organisation has signed and when it expires
+b) | A file holding the letters sent and received on one subject or with one party
+c) | A record of small payments made in cash, with a voucher for each one
+d) | The bound record of what each meeting decided and who must act on it
+e) | A confidential file holding one employee's contract, leave and appraisals
+_300
+@EX Part 1: Compliance Words
+@INSTR Complete the table with vocabulary related to records and compliance.
+_80
+@GRID
+Term | Meaning | Who it concerns
+Custodian |  | 
+Retention period |  | 
+Access rule |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The named person responsible for keeping a record safe and complete
+b)  The records manager and the department that owns the file
+c)  The length of time a document must be kept before it may be destroyed
+d)  The auditor and the authority that may ask to see it
+e)  The statement of who may read, copy or remove a particular record
+f)  Everyone named in the file, including the employee and the customer
+_100
+_300
+@EX Part 1: Fill Blanks - Compliance Vocabulary
+@INSTR Complete sentences using records and compliance vocabulary.
+_80
+@GAP
+1. Before a document may be destroyed, its ____________________ period must have passed.
+2. Every file has one named ____________________ who is responsible for it.
+3. The statement of who may read or remove a record is its ____________________ rule.
+4. The ____________________ is the independent professional who reports on whether the records are true.
+_300
+@EX Part 1: Vocabulary in Context - Inspection Scenarios
+@INSTR Read the scenarios and answer questions about vocabulary.
+_80
+@PANEL
+When an office is inspected, a process follows. The first phase involves a document review to confirm every required licence and contract exists. Inspectors then conduct an on-site check by comparing what the files actually hold against what the register says. Discrepancies are raised and classified as serious or minor. The office submits corrections with evidence. Coordination between the labour authority and the insurance establishment prevents contradictory findings and ensures the inspection covers the whole organisation.
+@NUM 100
+1. What does 'on-site check' mean in the inspection process?
+2. Why is 'coordination' important between the labour authority and the insurance establishment?
+_300
+@EX Part 1: Discussion - Compliance Terms in Real Situations
+@INSTR Discuss how compliance vocabulary applies to real offices.
+_80
+@BULLET
+Think of an office you know. What compliance words apply to that situation?
+_300
+@EX Part 1: Listening - Compliance Vocabulary in Action
+@AUDIO 🔊 Audio Track 3.11
+@INSTR Listen to office staff discussing an inspection query and answer questions.
+_80
+@MCQ
+1. What did the staff do immediately after the query arrived?
+@OPT
+   ○ A) Waited for the inspector to write again
+   ○ B) Pulled the register and the contract files and checked the dates recorded
+   ○ C) Rewrote the records without looking at the file
+@MCQ
+2. Which records were identified as most at risk?
+@OPT
+   ○ A) Only the newest records
+   ○ B) Those created before the register was started, with no written receipt
+   ○ C) Personnel records only
+_300
+@EX Part 1: Summary - Key Compliance Concepts
+@INSTR Choose the best explanation for compliance concepts.
+_80
+@MCQ
+1. What is the main goal of record-keeping regulation?
+@OPT
+   ○ A) Make work for clerks and inspectors
+   ○ B) Protect everyone who deals with the organisation - staff, customers and authorities
+   ○ C) Increase the cost of administration
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Conditionals - Compliance Scenarios
+@INSTR Complete sentences with appropriate conditional forms.
+_80
+@NUM
+1. ____________________ (If we don't file the return), the office may be fined.
+2. Many disputes ____________________ (would have been avoided) if the terms had been agreed in writing.
+3. ____________________ (If the authority enforces) the contract rules, employers issue written contracts.
+_300
+@EX Part 2: Passive Voice - Compliance Actions
+@INSTR Rewrite sentences using passive voice to describe compliance actions.
+_80
+@GRID
+Active Sentence | Passive Sentence
+The clerk registered the letter. | 
+The manager approved the requisition. | 
+The chamber certified the document. | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The letter was registered by the clerk.
+b)  The requisition was approved by the manager.
+c)  The document was certified by the chamber.
+_100
+_300
+@EX Part 2: Reported Speech - Inspector Findings
+@INSTR Convert direct speech to reported speech about an inspection.
+_80
+@GAP
+1. The inspector ____________________ the stock check had not been witnessed.
+2. The officer ____________________ the contracts were kept on file.
+3. The registrar ____________________ file the correction within thirty days.
+4. The auditor ____________________ the voucher was missing.
+_300
+@EX Part 2: Modal Verbs - Compliance Necessity
+@INSTR Complete sentences with appropriate modal verbs about compliance.
+_80
+@NUM
+1. Every employer ____________________ (file) an annual insurance return.
+2. The minutes of a meeting ____________________ (keep) for the period the law requires.
+3. An office that keeps no register ____________________ (face) a penalty.
+_300
+@EX Part 2: Listening - Grammar in Context
+@AUDIO 🔊 Audio Track 3.17
+@INSTR Listen to a conversation about compliance and answer the questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: When a finding is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the licence may be suspended.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the register first. Should we also involve the lawyer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200
+@QUESTION
+1. What must the office do when a finding is raised?
+2. Why should the office involve the lawyer?
+_300
+@EX Part 2: Grammar Summary - Compliance Communication
+@INSTR Discuss how to communicate effectively about requirements using appropriate grammar.
+_80
+@BULLET
+How should office staff explain a records requirement to clerks and to departments?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Investigation Awareness
+@INSTR Before listening, discuss how office staff investigate a missing file or a loss.
+_80
+@BULLET
+What do you think is the first step when a file or petty cash is found to be missing?
+_300
+@EX Part 3: Listening - Investigation Process
+@AUDIO 🔊 Audio Track 3.20
+@INSTR Listen to office staff describing the investigation process and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Coordinator: When a file is found missing, we immediately start gathering information. We interview the people who handled it and record what they say. We examine the register and the file movement cards. We check whether the cabinet was locked and who held the key. We review the entries to confirm what is actually missing. We identify whether other files are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the remaining records and informing the directors. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the matter is settled. The findings are shared with personnel and finance to avoid repetition and ensure the whole cause is addressed.
+_200
+@QUESTION
+1. What information does the investigation team collect after a file is found missing?
+2. What are the priorities based on the investigation?
+_300
+@EX Part 3: True/False - Compliance Practice
+@INSTR Listen to a short passage about compliance work and mark statements True, False, or Not Given.
+_80
+@PANEL
+Office staff often work in difficult regulatory conditions. They face delays when two authorities require different things. They work with incomplete records for older years and under extreme time pressure. Despite these challenges, they remain committed to keeping only records the law allows. Offices coordinate their files to provide complete documentation. Some staff have reported feeling frustrated by repeated inspections. However, they also report deep satisfaction when a difficult licence is finally granted and the work continues. Professional bodies support office staff and set standards for practice.
+@NUM 100
+1. Office staff sometimes face delays when two authorities require different things.
+2. Offices always have complete records for older years.
+3. Office staff report satisfaction when a difficult licence is granted.
+_300
+@EX Part 3: Listening - Compliance Challenges
+@AUDIO 🔊 Audio Track 3.22
+@INSTR Listen to office staff discussing challenges and select correct details.
+_80
+@MCQ
+1. What is the primary administrative challenge mentioned?
+@OPT
+   ○ A) The forms are too short
+   ○ B) Missing records from earlier years and licences that expire at different times
+   ○ C) Too many staff members
+@MCQ
+2. Why is a written employment contract urgent in a growing office?
+@OPT
+   ○ A) People prefer paperwork
+   ○ B) Without it neither the employee nor the employer can prove what was agreed
+   ○ C) It is not really important
+_300
+@EX Part 3: Listening - Personal Stories of Compliance Work
+@AUDIO 🔊 Audio Track 3.23
+@INSTR Listen to an office officer's personal reflection on compliance work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Field Officer: I came to this work because I wanted our records to stand up to any question. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a licence granted for the first time and a dispute avoided because a contract was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200
+@QUESTION
+1. What was the officer's initial reaction to compliance work?
+2. What qualities does the officer believe are important for this work?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Regulatory Contexts
+@INSTR Before reading, discuss record-keeping requirements in different countries.
+_80
+@BULLET
+What do you know about how records are kept and inspected in other countries?
+_300
+@EX Part 4: Reading - Compliance Decision-Making
+@INSTR Read the text and answer questions about compliance choices.
+_80
+@PANEL
+Office managers face difficult decisions when an organisation cannot meet every obligation at once. In any office, older arrangements rarely match current requirements. Managers must prioritize obligations based on risk to people and on the number of parties affected. Safety and wage obligations receive priority over filing formalities. Matters affecting employees and customers receive the strictest attention. Decisions with the highest legal exposure are examined first. Commercial pressure is considered but never overrides the law. Managers maintain transparency by explaining their reasoning to the directors. This transparency builds trust and understanding.
+@NUM 100
+1. How do office managers decide which obligations matter most?
+2. Why do managers explain their reasoning to the directors?
+_300
+@EX Part 4: Text Comprehension - Professional Ethics
+@INSTR Read about professional ethics and choose the best answer.
+_80
+@PASSAGE
+Office practice is guided by core principles: legality, fairness, competence, and independence of judgement. Legality means keeping records only in ways the law allows, even where enforcement is weak. Fairness requires treating every employee, department and supplier by the same rules. Competence means signing only what you are qualified to understand, and taking advice on the rest. Independence of judgement means a report rests on the facts, not on who is asking. These principles guide every professional decision and ensure ethical practice.
+@MCQ
+1. What does 'independence of judgement' mean?
+@OPT
+   ○ A) Ignoring the directors entirely
+   ○ B) Basing a report on the facts, not on who is asking
+   ○ C) Working only for public bodies
+@MCQ
+2. Which principle requires taking advice?
+@OPT
+   ○ A) Legality
+   ○ B) Competence
+   ○ C) Fairness
+_300
+@EX Part 4: Application - Compliance Scenarios
+@INSTR Read scenarios and fill in the appropriate professional principles.
+_80
+@GRID
+Scenario | Key Professional Principle
+A clerk applies the same leave rules to the director's cousin | 
+A clerk refuses to sign a return they have not understood | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Fairness and consistency
+b)  Competence and legality
+_100
+_300
+@EX Part 4: True/False/Not Given - Authorities and Registries
+@INSTR Read statements about authorities and registries and mark them True, False, or Not Given.
+_80
+@PANEL
+Labour authorities and insurance establishments hold records that every organisation depends on. They cover registration, employment, contributions, leave and annual returns. These bodies employ officials and depend on offices filing accurately and on time. Some filings have been made electronic in dozens of countries. Authorities are funded by filing fees, penalties, and government contributions. Many offices struggle to keep their records up to date despite clear need. Office staff often report that reading a requirement carefully saves far more time than it costs.
+@NUM 100
+1. Authorities' records cover only company names.
+2. Authorities receive funding from several sources.
+3. All authority records are available free of charge.
+_300
+@EX Part 4: Discussion - Compliance Dilemmas
+@INSTR Discuss difficult choices office staff face when obligations conflict.
+_80
+@BULLET
+What are some difficult decisions office staff must make when the law and a department disagree?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Types of Office Record
+@INSTR Prepare a presentation about different types of office record.
+_80
+@NUM 100
+1. Describe three records: the correspondence file, the personnel file, and the minute book.
+_300
+@EX Part 5: RolePlay - Compliance Meeting
+@INSTR Roleplay a meeting with an inspector discussing a records failure that has been found.
+_80
+_300
+@EX Part 5: Discussion - Becoming a Qualified Administrator
+@INSTR Discuss qualifications and preparation for professional qualification.
+_80
+@BULLET
+What qualifications and training would you need to become a qualified office administrator?
+_300
+@EX Part 5: RolePlay - Requesting an Urgent Approval
+@INSTR Roleplay a department head requesting an urgent purchase approval from the office manager.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Statement About Professional Values
+@INSTR Write about why professional values matter and how they guide difficult decisions.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Case Study Analysis
+@INSTR Analyze a records failure in an office and the changes that followed it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Letter Requesting a Ruling
+@INSTR Write a letter to the authority requesting a ruling on a retention requirement.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Professional Ethics
+@INSTR Write a reflection on a difficult ethical dilemma in office practice.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Records and Compliance in Mexican Contexts
+@INSTR Read about records and compliance in Mexico and answer questions.
+_80
+@PANEL
+Mexico has a long administrative tradition and also a demanding compliance situation. A company must be entered in the commercial registry before it may trade, and the labour boards and the Mexican Social Security Institute set the rules on contracts, leave and contributions. Export customers add their own requirements on top, so an office may need a certificate from the chamber of commerce, a certified translation, and a buyer's own forms at the same time. Compliance is complicated by records held in several registries at once, licences that expire at different times, and the cost of professional advice. Lawyers and accountants work to keep companies registered alongside the tax authority. Missing paperwork affects organisations across the country. Office staff demonstrate extraordinary persistence and resourcefulness. Their work includes contract drafting, record reconstruction, and the documentation a foreign customer will demand. International recognition of Mexican administrators acknowledges their skill and dedication. Their resilience and procedural knowledge inspire support from partners abroad.
+@NUM 100
+1. Why is compliance for an exporting office particularly challenging?
+2. What is the scale of Mexico's missing-paperwork problem?
+_300
+@EX Part 7: Discussion - Global Responsibility for Fair Practice
+@INSTR Discuss the global community's responsibility for fair practice with organisations facing hardship.
+_80
+@BULLET
+What responsibility does the global community have towards organisations in countries facing hardship?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 3 Summary - Compliance Concepts
+@INSTR Review Unit 3 by matching compliance concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Register of documents
+2. | Retention period
+3. | Custodian
+4. | External auditor
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The record of every document received and the date it arrived
+b) | The length of time a document must be kept before it may be destroyed
+c) | The named person responsible for keeping a record safe
+d) | The independent professional who reports on the records
+_300
+@EX Part 8: Integrated Assessment - Unit 3 Mastery
+@INSTR Demonstrate understanding of Unit 3 concepts. Choose the best answer.
+_80
+@MCQ
+1. What is the first step after a missing file or a query is found?
+@OPT
+   ○ A) Dismiss the person nearest to it
+   ○ B) Gather the records and establish what actually happened before blaming anyone
+   ○ C) Begin rewriting the register
+@MCQ
+2. Which principle allows a report to be trusted?
+@OPT
+   ○ A) Processing the maximum paperwork
+   ○ B) Independence of judgement and competence
+   ○ C) Agreement with whoever asks
+@MCQ
+3. What makes compliance for an exporting office in Mexico particularly difficult?
+@OPT
+   ○ A) It is a temporary issue
+   ○ B) Several overlapping requirements plus records lost during the conflict
+   ○ C) Authorities grant unlimited exemptions
+@MCQ
+4. What qualities do successful office staff demonstrate in compliance work?
+@OPT
+   ○ A) Only legal knowledge matters
+   ○ B) Both technical knowledge and patience with people
+   ○ C) No special qualifications needed
+_300

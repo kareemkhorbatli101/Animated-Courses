@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Office Roles and Careers
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Office Management Do?
+@INSTR Discuss with a partner what jobs and roles exist in an office team.
+_80
+@BULLET
+What types of jobs do you think people have in a company's office team?
+_300
+@EX Warm-Up: Matching Office Jobs to Descriptions
+@INSTR Match each office job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Manager
+2. | Reception Manager
+3. | Office Manager
+4. | Personnel Clerk
+5. | Office Services Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the filing and the retention and controls who may see each record
+b) | Runs the front desk, the callers and the visitors and signs the daily log
+c) | Leads the whole administration and answers to the directors for the result
+d) | Prepares contracts, keeps leave records and files the insurance returns
+e) | Maintains the equipment and keeps the records the labour authority requires
+_300
+@EX Warm-Up: Office Job Skills
+@INSTR Classify the following skills by which office job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. | Records Manager
+2. | Reception Manager
+3. | Personnel Clerk
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Planning a week's work across three clerks  ____________________________
+2. Finding one file among four thousand quickly  ____________________________
+3. Reading a labour regulation and applying it correctly  ____________________________
+4. Calculating the cost of one department's supplies  ____________________________
+5. Preparing a retention schedule for the quarter  ____________________________
+6. Answering a visitor without delaying the meeting  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Office Management?
+@INSTR Discuss with a partner: Would you like to work in office management? Why or why not?
+_80
+@BULLET
+Would you like to work in office management in the future? What role would you like to have?
+_300
+@EX Warm-Up: Office Work in Türkiye
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are office staff in Türkiye very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They rebuild lost records and keep companies able to trade
+   ○ C) They do not work with suppliers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Office Job Titles and Descriptions
+@INSTR Match each office job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Manager
+2. | Storekeeper
+3. | Reception Manager
+4. | Personnel Clerk
+5. | Office Manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who plans the filing and controls who may see each record
+b) | A person who keeps the supply records, receives goods and issues them again
+c) | A person who answers callers, receives visitors and routes every enquiry
+d) | A person who prepares contracts, keeps leave records and files the returns
+e) | A person who leads the whole administration and answers to the directors for it
+_300
+@EX Part 1: Office Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Registry Clerk
+2. | Supplies Controller
+3. | Executive Secretary
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Registers the post and tracks each file
+b) | Works out what each cupboard should hold
+c) | Arranges meetings and correspondence
+d) | Checks that the rules were followed
+_300
+@EX Part 1: Skills Required for Office Work
+@INSTR Complete the table by filling in the required skills for each office job.
+_80
+@GRID
+Office Job | Skill 1 | Skill 2
+Registry Clerk |  | 
+Supplies Controller |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  organized
+b)  clear instructions
+c)  careful with figures
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Office Management
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Office staff often work in an ____________________ (office) or out at the front desk.
+2. Working in administration can be ____________________ (demanding) but very rewarding.
+3. Office staff usually work as a ____________________ (team) with personnel and finance.
+_300
+@EX Part 1: Listening - Office Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of office jobs and answer the questions.
+_80
+@MCQ
+1. What does a records manager do in the registry?
+@OPT
+   ○ A) Trains new customers only
+   ○ B) Plans the filing, watches the retention and solves problems as they appear
+   ○ C) Signs the annual accounts
+@MCQ
+2. What is a reception manager's main responsibility?
+@OPT
+   ○ A) Run the front desk, route every enquiry and keep the visitors' log
+   ○ B) Operate the production machine
+   ○ C) Set the selling price of the goods
+_300
+@EX Part 1: Reading - Office Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their office careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become registry clerks or assistant managers. Junior staff receive training to improve their filing and their correspondence. Some work at the front desk as reception supervisors, running a shift. Others work in the registry as records clerks or in personnel as staff officers. The most experienced staff may become office managers who answer to the directors and train other staff. Working in administration offers opportunities to learn, to grow, and to keep work that others depend on moving.
+@NUM 100
+1. How do most people start their careers in office management?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Office Career Interest
+@INSTR Discuss with a partner: Which office job interests you most?
+_80
+@BULLET
+Which office job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in an office team for five years.
+2. They ____________________ (have registered) many documents in this company.
+3. The office manager ____________________ (has trained) all new clerks.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new filing plan
+They |  | responses for 500 letters
+He |  | three annual stock checks
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has completed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new response report?
+3. ____________________ the clerk registered the contract?
+4. ____________________ they completed the stock check?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this company before.
+3. He ____________________ (hasn't been) to a supplier meeting.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the manager worked in administration?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the manager worked in?
+@OPT
+   ○ A) Textiles only
+   ○ B) Textiles, a clinic, and a contracting firm
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or organizing experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office Manager Interview
+@INSTR Before listening, discuss: What questions would you ask an office manager?
+_80
+@BULLET
+What would you like to know about working in an office team?
+_300
+@EX Part 3: Listening - Interview with an Office Manager
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with an office manager and answer the questions.
+_80
+@MCQ
+1. What does the office manager do?
+@OPT
+   ○ A) Trains students at the institute
+   ○ B) Agrees the office plan with the directors and answers for the result
+   ○ C) Works only at the front desk
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many visitors
+   ○ B) Power that fails in the middle of the working day
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about an office training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new office staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in filing, correspondence, and running a registry. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new office staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in filing, correspondence, and running a registry. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach filing and correspondence.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Office Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in office teams and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of customers
+   ○ B) Interrupted power and equipment that cannot be repaired
+   ○ C) Difficult customers
+@MCQ
+2. How many photocopiers does the office have?
+@OPT
+   ○ A) One machine
+   ○ B) Three machines
+   ○ C) Two machines
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in office management.
+_80
+@MCQ
+1. What position is the young clerk offered?
+@OPT
+   ○ A) Office manager position
+   ○ B) A chance to train toward records manager
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only typing knowledge
+   ○ B) Leadership, filing, and communication
+   ○ C) Only software skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Company Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of office?
+_80
+@BULLET
+How might roles differ between a small family firm and a large ministry department?
+_300
+@EX Part 4: Reading - Office Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most organisations have a hierarchical structure. At the top is the Office Manager who agrees the office plan with the directors and answers for the result. Below the manager are section heads who run specific areas such as the registry, reception, personnel and supplies. Each section head supervises clerks and assistants who carry out the daily work. Compliance officers check whether the rules were followed, and report to the directors directly.
+Offices also employ support staff like storekeepers, drivers, and cleaners. While these roles may seem less visible, they are essential. For example, a driver makes sure a document reaches the authority on the promised day. A cleaner makes sure the registry is safe to work in. Every role is important for the organisation to function effectively.
+Recent years have seen changes in office structures. Smaller firms operate more flexibly, with fewer management layers. This allows a decision to be taken faster. However, keeping records complete and supplies accounted for remain challenges even with simpler structures.
+@NUM 100
+1. Who agrees the office plan with the directors?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Office staff must be decisive — willing to choose a course when neither option is perfect. They also need persistence — the commitment to trace a missing file even when it takes weeks. The experience of senior staff is valuable for training new people. Offices also value transparency — being honest with the directors about what the records really show.
+@MCQ
+1. What does "decisive" mean?
+@OPT
+   ○ A) Slow and uncertain
+   ○ B) Willing to choose a course when neither option is perfect
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a missing file
+   ○ B) Commitment to trace it even when it takes weeks
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Office Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Plans the filing and reports the monthly responses |  | Registry
+Runs the front desk and keeps the visitors' log |  | Reception
+@CHOICEHEAD Choices:
+@CHOICE
+a)  records manager
+b)  reception manager
+_100
+_300
+@EX Part 4: True/False - Office Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Offices employ both experienced staff and trainees. Trainees commit their time for a small payment because they want experience. Many office staff in developing countries earn modest salaries compared to staff abroad. However, they often report higher job satisfaction. Offices invest in staff training and development. Office staff can learn new skills while keeping work moving for other people. Career advancement is possible for dedicated staff who perform well.
+@NUM 100
+1. Some people in office teams are trainees.
+2. Office salaries at home are higher than salaries abroad.
+3. Offices provide training opportunities.
+_300
+@EX Part 4: Discussion - Office Career Values
+@INSTR Discuss: If office salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose office management even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in an office team. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Office Career Path
+@INSTR Prepare and present a 3-part talk about career paths in office management.
+_80
+@NUM 100
+1. How do people start and advance in office careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in office work?
+_300
+@EX Part 5: Discussion - Overcoming Office Challenges
+@INSTR Discuss with a partner: How do office staff cope with interrupted power and old equipment?
+_80
+@BULLET
+How do experienced office staff overcome shortages of equipment and supplies?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Manager
+@INSTR Role play: A junior clerk asks an experienced manager for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a company expressing interest in an office traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our company?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of an Office Manager
+@INSTR Write a paragraph describing a typical day of an office manager. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Office Work
+@INSTR Write a short reflection about what you could learn from working in an office team. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Office Sector in Türkiye and the Region
+@INSTR Read about office work in Türkiye and the Middle East region, then answer questions.
+_80
+@PANEL
+The office sector in Türkiye has changed significantly in response to the need to keep records for customers in many countries at once. Large manufacturers, ministries, clinics and small family firms all employ office staff. These staff serve both their own departments and customers abroad. Working in Türkiye's offices requires persistence because deadlines, inspections and currency terms are all uncertain.
+In neighboring countries like Bulgaria and Georgia, companies employ staff who keep records for both local use and export documentation. The work is challenging but essential. These organisations demonstrate how dedicated professionals keep working in hard times. Turkish office staff are known in the region for their resourcefulness and persistence.
+Many Turkish professionals who studied abroad chose to return to run administrations at home. They sacrifice higher salaries in wealthy countries to keep records in order in their own towns. This shows deep commitment to the country and to the reliability of its institutions. Their choices inspire others to consider office careers.
+@NUM 100
+1. Why has the office sector in Türkiye changed?
+2. What characteristic is emphasized about Turkish office staff?
+_300
+@EX Part 7: Discussion - Values in Office Work
+@INSTR Discuss what values are important in office work, especially where equipment is scarce.
+_80
+@BULLET
+What values should guide office staff, especially those working with scarce equipment and supplies?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Office Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Manager
+2. | Office Manager
+3. | Reception Manager
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the filing and controls access to records
+b) | Agrees the office plan and answers to directors
+c) | Runs the front desk and keeps the log
+d) | Checks whether the rules were followed
+_300
+@EX Part 8: Integrated Assessment - Office Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin office careers?
+@OPT
+   ○ A) As office managers
+   ○ B) As trainees
+   ○ C) As compliance officers
+@MCQ
+2. What is the most valuable quality for office staff according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the records and the people who depend on them
+   ○ C) Previous office experience only
+@MCQ
+3. How has the office sector in Türkiye changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has changed in response to the need to reconstruct lost records
+   ○ C) It has decreased permanently
+@MCQ
+4. What do office staff value according to the culture discussion?
+@OPT
+   ○ A) Processing the maximum paperwork at any cost
+   ○ B) Honesty, accountability, and responsibility to records and colleagues
+   ○ C) Avoiding difficult situations
+_300

@@ -1,0 +1,642 @@
+@VOICES Manager | Operations Manager | Finance Manager | All Managers
+@UNITHEAD Unit 1: Introduction to Office Management
+@PART Warm Up | Warm Up
+@EX Warm-up: Office Terms and Functions Matching
+@INSTR Match office terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Office management
+2. | Turnaround time
+3. | Correspondence
+4. | Response time
+5. | Office supplies
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The letters, emails and memos a company sends and receives every working day
+b) | The hours or days between a letter arriving and an answer being sent back
+c) | The work of organising an office so the people in it can do their jobs
+d) | The whole time between a request reaching the office and the task being done
+e) | What the office is holding in its store cupboard and stationery cabinet now
+_300
+@EX Warm-up: What Is Office Management? Simple Vocabulary Fill
+@INSTR Complete sentences about office management using the words provided.
+_80
+@GAP
+1. Office management is different from ____________________ because it organises the whole office instead of typing one letter.
+2. Every purchase is measured against the ____________________, which states what the office may spend.
+3. A request that is answered on the day it arrives is recorded as ____________________.
+4. Office managers are ____________________ professionals who must be trained before they may approve spending.
+_300
+@EX Warm-up: Types of Office Work Classification
+@INSTR Classify each task as Planning, Organising, Communicating, or Controlling.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Organising
+3. Communicating
+4. Controlling
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing next quarter's office plan and the budget to deliver it  ____________________________
+2. Deciding which cabinet each file goes in and who may remove it  ____________________________
+3. Answering an enquiry and sending the minutes to the committee  ____________________________
+4. Comparing this month's stationery spending with the budget  ____________________________
+5. Choosing which two of five suppliers to use this year  ____________________________
+6. Checking that every requisition was approved before the invoice was paid  ____________________________
+_300
+@EX Warm-up: Purposes of Office Management Multiple Choice
+@INSTR Read about office management and choose the correct answer to each question.
+_80
+@PASSAGE
+Office management is the work of organising an office so the people in it can do their jobs. Office managers think about what each department needs, what the company can afford, and how the work will be arranged. Office management covers many kinds of work including scheduling, filing, correspondence, buying supplies, reporting, and reviewing results. People choose to work in office management because they want the work of others to run smoothly and promises to be kept.
+@MCQ
+1. What does planning mean in office management?
+@OPT
+   ○ A) Reacting to a problem after a department complains
+   ○ B) Deciding in advance what the office will do and what it will cost
+   ○ C) Buying every item from the cheapest supplier available
+   ○ D) Hiding a missed deadline from the director
+@MCQ
+2. Which is NOT a common task for an office manager?
+@OPT
+   ○ A) Preparing an office budget for the year
+   ○ B) Writing a monthly report on how the office performed
+   ○ C) Typing every letter in the building all day
+   ○ D) Checking that office spending stayed within the budget
+_300
+@EX Warm-up: Office Documents and Tools Matching
+@INSTR Match well-known office documents and tools with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Memorandum
+2. | Minutes of a meeting
+3. | Purchase requisition
+4. | Goods received note
+5. | Filing plan
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A document the storekeeper signs to confirm what actually arrived and when
+b) | A short internal note telling named staff what has been decided and what to do
+c) | A chart showing which cabinet holds which records, in what order and for how long
+d) | A written record of who attended, what was decided, and who must act on it
+e) | A request to buy stated items, with the quantity, the reason and the approval
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Office and Administration Terminology Matching
+@INSTR Match office vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Turnaround time
+2. | Unit price
+3. | Response time
+4. | Addressee
+5. | Supplier
+6. | On-time response rate
+7. | Stock check
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A physical check of whether the cupboard holds what the records say it holds
+b) | An outside company that provides the goods or the services an office buys
+c) | The person or department named to receive the letter, the memo or the file
+d) | A figure chosen to show whether enquiries are answered when they were promised
+e) | The hours or days between a letter arriving and an answer being sent back
+f) | The price charged for one item of stationery, equipment or outside service
+g) | The whole time between a request reaching the office and the task being done
+_300
+@EX Part 1: Office Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important office vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about office work, correct pronunciation helps others understand you clearly: // *• Administration* - primary stress on TRA (ad-min-is-TRA-tion) // *• Correspondence* - primary stress on PON (cor-res-PON-dence) // *• Inventory* - primary stress on IN (IN-ven-to-ry) // *• Documentation* - primary stress on TA (doc-u-men-TA-tion) // *• Procedure* - primary stress on CE (pro-CE-dure) // *• Schedule* - primary stress on SCHED (SCHED-ule) // *• Negotiation* - primary stress on A (ne-go-ti-A-tion) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Office Activities and Purposes Table
+@INSTR Complete the table with office activities, their main purposes, and examples.
+_80
+@GRID
+Office Activity | Main Purpose | Example
+Planning |  | 
+Organising |  | 
+Controlling |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding in advance what the office will do and what the work will cost
+b)  Setting next quarter's response target and the office budget that supports it
+c)  Arranging space, equipment and people so that the work can be carried out
+d)  Numbering the cabinets and naming who may remove a file from the registry
+e)  Comparing what was actually done with what was planned and promised
+f)  Reviewing last month's supplier invoices against the prices agreed
+_100
+_300
+@EX Part 1: Office Functions and Stages Matching
+@INSTR Match office functions with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Planning
+2. | Organising
+3. | Communicating
+4. | Controlling
+5. | Reviewing
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Looking back at a completed quarter to learn what should be arranged differently
+b) | Answering the enquiry, circulating the memo and keeping everyone informed
+c) | Comparing what was done with what was promised and correcting the difference
+d) | Arranging space, equipment and filing so that records can be kept and found
+e) | Deciding in advance what the office will do, for whom, and at what cost
+_300
+@EX Part 1: Office Management Concepts Multiple Choice
+@INSTR Read about office work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Office staff work in many sectors to make organisations faster and more reliable. Some focus on records, planning the filing and controlling access. Others work in reception, where every caller must be answered and every visitor recorded. Many office staff also work with suppliers to confirm that invoices match what was ordered. All of them share the goal of work that is finished correctly, on the agreed day and within the budget.
+@MCQ
+1. A ____________________ states what the office may spend over a stated period.
+@OPT
+   ○ A) report
+   ○ B) office budget
+   ○ C) invoice
+   ○ D) receipt
+@MCQ
+2. The time between a letter arriving and an answer being sent is called the ____________________.
+@OPT
+   ○ A) margin
+   ○ B) notice
+   ○ C) response time
+   ○ D) deposit
+@MCQ
+3. The whole time between a request arriving and the task being finished is the ____________________.
+@OPT
+   ○ A) response time
+   ○ B) turnaround time
+   ○ C) opening time
+   ○ D) waiting time
+_300
+@EX Part 1: Office-Related Vocabulary Fill-in
+@INSTR Complete sentences using important office vocabulary.
+_80
+@GAP
+1. An office manager is a ____________________ professional who must be trained before approving spending.
+2. ____________________ type the letters and keep the files that office managers then organise.
+3. The ____________________ decides whether the answer arrived when it was promised.
+4. All scheduling begins with a clear ____________________ describing what must be done and by when.
+5. The items still held in the cupboard after every requisition is filled are called the ____________________.
+6. Office records are ____________________ regularly so the directors can trust the figures.
+_300
+@EX Part 1: Vietnam's Office Environment and Administration
+@INSTR Read about office work in Vietnam and answer the factual questions.
+_80
+@PANEL
+Vietnamese Office Institutions and Administration
+Vietnam has a long tradition of written administration and registered trade. A company is entered in the national business register before it may trade, Vietnam Social Security records every employee, and the labour departments and the Hanoi Chamber of Commerce certify the documents an office must produce.
+Many offices in Vietnam belong to family firms. Some serve garment and seafood companies, where the office keeps the orders, the staff records and the correspondence. Others serve clinics, schools, contractors and trading houses, where every letter needs an official stamp. As exports have risen, much office work has gone into organising records that were never indexed and keeping contact with customers abroad.
+International buyers and partners also work with Vietnamese offices. They bring orders, training in filing and correspondence, and knowledge of what a foreign customer expects to receive. Partnerships between Vietnamese firms and foreign partners strengthen the capacity to work in two languages.
+Office staff in Vietnam often face challenges including crowded premises, humidity that damages paper, and records held in three places at once. Despite these obstacles, they remain committed to answering every letter and building confidence in Vietnamese administration.
+@NUM 100
+1. What must happen before a company may trade in Vietnam?
+2. Name three kinds of organisation Vietnamese offices serve.
+3. What do international buyers and partners contribute to Vietnamese offices?
+4. What challenges do office staff in Vietnam face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Office Work
+@INSTR Complete sentences about what office staff do using the present simple tense.
+_80
+@GAP
+1. An office manager ____________________ (approve) every requisition before it is ordered.
+2. Clerks ____________________ (report) the day's correspondence to the manager.
+3. The storekeeper ____________________ (check) the stationery cupboard once a month.
+4. Office staff ____________________ (record) every document they receive.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes office management a distinct profession.
+_80
+@NUM
+1. Office managers are ____________________ (accountable) to the directors for the money they spend.
+2. Office staff are responsible because they ____________________ (responsible) for records others depend on.
+3. The purpose of office management is to ____________________ (organise) the work so others can do theirs.
+_300
+@EX Part 2: Negative Sentences About Office Staff
+@INSTR Rewrite sentences in the negative form to show what office staff do NOT do.
+_80
+@GAP
+1. Office managers ____________________ (type every letter) - they plan, organise and check.
+2. A manager ____________________ (approve) a requisition without a budget line for it.
+3. Office staff ____________________ (promise) a department a date the office cannot meet.
+4. Clerks ____________________ (file) a document they have not actually registered.
+_300
+@EX Part 2: Manager and Team Roles Table
+@INSTR Complete the table with roles and what the MANAGER does vs. what the TEAM does.
+_80
+@GRID
+Work Stage | What the MANAGER does | What the TEAM does
+Before the task |  | 
+During the task |  | 
+At the end |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Agrees the deadline, the format and the budget for the piece of work
+b)  Prepares the files, the stationery and the room where the work is done
+c)  Tracks the progress and removes obstacles as they appear
+d)  Types, registers and keeps the documents moving through the office
+e)  Reviews what was produced and reports the result to the directors
+f)  Files the papers, records what was used, and prepares for the next task
+_100
+_300
+@EX Part 2: Correcting Office Sentences
+@INSTR Correct the grammatical errors in sentences about office management.
+_80
+@NUM 60
+1. Office managers approves every requisition before it is ordered.
+@RULE
+@NUM 60
+2. A manager do not type the letters himself.
+@RULE
+@NUM 60
+3. Clerks reports the correspondence every day.
+@RULE
+@NUM 60
+4. Storekeeper checks the cupboard once a month.
+@RULE
+@NUM 60
+5. The budget are approved by the directors is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Office Sentences
+@INSTR Choose the grammatically correct sentence about office management.
+_80
+@PASSAGE
+When learning about office management, correct grammar helps us communicate clearly about work, dates and responsibility. Selecting the best sentence shows understanding of schedules, records, and the roles of the people in an office.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The manager approve every requisition carefully.
+   ○ B) The manager approves every requisition carefully.
+   ○ C) The manager are approving every requisition carefully.
+   ○ D) The manager have approve every requisition carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Office managers do not types the letters.
+   ○ B) Office managers does not type the letters.
+   ○ C) Office managers do not type the letters.
+   ○ D) Office managers do not typing the letters.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Clerks report the correspondence every day.
+   ○ B) Clerks reports the correspondence every day.
+   ○ C) Clerks to report the correspondence every day.
+   ○ D) Clerks reporting the correspondence every day.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Office Manager Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to an office manager describing their company and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Hello, my name is Rana. I am the office manager of a trading company in Hanoi called Sông Hồng Trading. My department keeps the correspondence, orders the supplies, and makes sure every document is registered on the day it arrives.
+~Manager: We have two clerks, a receptionist and a storekeeper who meet every morning. We set the response targets, check the register against them, and decide what to do when a deadline is at risk. We also train the people who join us.
+~Manager: My department reports to the general manager and to the directors, who approve the office budget each year. Students from the institute also work with us as trainees. Our goal is simple - we want every letter answered on the day it arrives.
+_200
+@QUESTION
+1. What is Rana's company called?
+2. What does her department do?
+3. Who does the department report to?
+_300
+@EX Part 3: Types of Office Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of office work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Operations Manager: There are many kinds of office work in Vietnam. Some staff run the registry, others run reception, and many look after supplies and staff records. The national business register records every company that trades.
+^Operations Manager: Records managers plan the filing, the retention and the access. Reception staff answer callers, receive visitors and route every enquiry. Personnel clerks keep the contracts, the leave records and the insurance returns the law requires.
+^Operations Manager: International partners also audit Vietnamese offices. Together with local staff, they handle thousands of documents every year. All office staff share the same goal - to finish the work correctly and on the promised day.
+_200
+@QUESTION
+1. There are many kinds of office work in Vietnam.
+2. Reception is the only kind of office work in Vietnamese companies.
+3. The national business register records every company that trades.
+4. International partners do not audit Vietnamese offices.
+5. All office staff work to finish the work correctly and on the promised day.
+_300
+@EX Part 3: Office Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to managers explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Operations Manager: Our registry department works to register every document on the day it arrives. We plan the week, check the register hour by hour, and move staff when a deadline is at risk.
+^Finance Manager: My department looks after the office money. We prepare the office budget, pay the suppliers and check every invoice against the price agreed. We teach the team that a cheap chair that breaks costs more than it saves.
+~Manager: We are the reception section. We believe an answer given is worth more than a promise repeated. We agree who will reply, what they will say and by when, and we tell the caller early when something changes.
+^All Managers: All of us report to the general manager. We work to the office budget approved each year and to the deadlines our departments have agreed. We have trainees from the institute who help us every day. This is why the office keeps its reputation.
+_200
+@QUESTION
+1. What is the aim of the registry department?
+2. What does the finance department look after?
+3. What does the reception section agree?
+4. Who do these departments report to?
+_300
+@EX Part 3: Office Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of office role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records manager
+2. | Reception manager
+3. | Personnel clerk
+4. | Purchasing officer
+5. | Office services manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Cleaning, maintenance, equipment, utilities and keeping the building usable
+b) | Finding suppliers, agreeing prices and making sure supplies arrive on time
+c) | Contracts, leave records, insurance returns and the papers the law requires
+d) | Callers, visitors, enquiries, messages and the first impression of the firm
+e) | Filing, retention, access and the condition of the records in the registry
+_300
+@EX Part 3: Office Characteristics Classification
+@INSTR Classify each statement as a Feature of Office Work, A Challenge Office Staff Face, or A Benefit to the Business.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Office Work
+2. Challenge Office Staff Face
+3. Benefit to the Business
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. An office manager is accountable to the directors for every approval given  ____________________________
+2. Power that fails in the middle of the working day  ____________________________
+3. Departments that get an answer on the day they asked  ____________________________
+4. Every document is registered so it can be found again  ____________________________
+5. A photocopier that cannot be repaired for three weeks  ____________________________
+6. Lower supply costs and less waste in every department  ____________________________
+7. Working with reception, the registry and personnel together  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Office Management? Reading Comprehension
+@INSTR Read the text about office management and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Office Management?
+Office management is the work of organising an office so the people in it can do their jobs. An office manager sets objectives, arranges the staff, space and supplies to reach them, keeps the work moving, and reports the result. Office management works on planning, organisation and control at the same time. 
+Office management exists in almost every organization in the world. It ranges from one person with a desk and a register in a small workshop to an administration department of two hundred in a ministry. Well-known tools include the filing plan, the office budget, the staff rota, and the correspondence register.
+Office managers are paid by the organisation, but they must report a missed deadline honestly even when the news is bad, because the directors cannot see every desk. They work closely with reception, the registry and personnel. Students work as trainees because they want to learn how an office really runs.
+An office objective is a statement of what must be done and by when. For example, a response objective states how quickly an enquiry will be answered. A cost objective states what the office may spend each quarter. A records objective states how long a document must be kept. All objectives describe something the office has promised.
+Office managers are essential because somebody must arrange work that several departments all need at once. They prepare the rotas, agree the budgets, and keep the records that show what was decided. Directors, staff and customers all benefit from careful administration.
+@MCQ
+1. What is office management?
+@OPT
+   ○ A) Only reacting to problems after they appear
+   ○ B) Organising an office so the people in it can do their jobs
+   ○ C) Buying supplies at the lowest possible price
+   ○ D) Typing every letter in the building
+@MCQ
+2. Why must office managers report a missed deadline honestly even when the news is bad?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) Because the directors cannot see every desk
+   ○ C) Because reception is not important
+   ○ D) To reduce the cost of stationery
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how an office really runs
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Functions of Office Management and Examples - True or False
+@INSTR Read about the functions of office management and mark statements as True, False, or Not Given.
+_80
+@PANEL
+The Functions of Office Management and Their Purposes
+Office staff do many different kinds of work. Planning decides in advance what the office will do, for whom, and at what cost. It prevents the office from buying equipment nobody asked for.
+Organising arranges the staff, space and supplies so the plan can be carried out. It decides who answers the telephone, who may approve a requisition, and where each record is kept. Without it, two people answer the same letter and a third answers nothing.
+Communicating keeps everyone informed when the plan meets reality. It circulates a decision, answers an enquiry, and gives people the authority to act. Good communicating is why work continues when a manager is away.
+Controlling compares what was done with what was planned. It reviews spending against the budget, responses against the target, and complaints against the service promise. Where there is a difference, it finds the cause.
+Reviewing looks back at a completed quarter rather than at a single task. It asks whether the objectives were the right ones and what should be done differently next year.
+All these functions work together to keep an office useful. They depend on accurate records and on figures that are reported at the time the work is done.
+@NUM 100
+1. Planning only decides who answers the telephone.
+2. Organising decides who may approve a requisition.
+3. Controlling compares what was done with what was planned.
+4. Communicating matters only when everything goes according to plan.
+5. Reviewing looks back at a completed quarter.
+_300
+@EX Part 4: Office Management in Vietnam - Fact Questions
+@INSTR Read about office work in Vietnam and answer the detailed questions.
+_80
+@PANEL
+Office Management in Vietnam: History and Current Work
+Vietnam has a long administrative history. Hanoi and Hội An kept registers of trade for centuries, and the imperial record offices at Huế recorded land and contracts for four hundred years. Formal regulation began with the business register, which records every firm that trades, and with the chambers of commerce that certify documents for merchants.
+Today, many kinds of office work are carried out in Vietnam. Some staff run the administration of small family firms. Others work with international partners and buyers. Together they address critical needs in employment, record-keeping, correspondence and the indexing of files that were never ordered.
+Office managers help Vietnamese firms deal with authorities and customers. They prepare the documents an authority demands, keep the staff and insurance records, and arrange the stamps and translations a foreign buyer asks for. Finance clerks watch the petty cash and protect the office from spending nobody approved.
+As the economy has grown, office staff have had to rebuild records that were scattered or incomplete. They reconstruct files, obtain duplicate certificates, retrain clerks, and persuade old customers that the firm still answers its letters.
+Records managers work to keep files safe despite humidity and crowded buildings. Purchasing officers travel long distances to obtain one spare part.
+The work of office staff is challenging. They operate with thin margins and often in crowded premises. But they remain committed to answering every letter and building confidence in Vietnamese administration. International partnerships help local firms work to foreign standards.
+@NUM 100
+1. What recorded land and contracts in Vietnam for four hundred years?
+2. What are three areas that office staff address in Vietnam?
+3. What do office managers do to help Vietnamese firms deal with authorities?
+4. What challenges do office staff in Vietnam face?
+_300
+@EX Part 4: Office Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Running an Office, A Feature of the Profession, or A Service the Office Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Running an Office
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of stationery and the supplier's charge for each delivery  ____________________________
+2. Being accountable to the directors for every approval you give  ____________________________
+3. Preparing the staff rota and reporting the responses each month  ____________________________
+4. The value of equipment bought and never properly used  ____________________________
+5. Responsibility for records that belong to other departments  ____________________________
+6. Agreeing a deadline with a department and keeping it  ____________________________
+7. The annual fee for the national business register and the trade licences  ____________________________
+_300
+@EX Part 4: Office Impact and Importance Matching
+@INSTR Match office contributions with their importance and impact on the business.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Clear Response Objectives
+2. | Accurate Office Budgeting
+3. | Supplier Management
+4. | Honest Reporting of Delays
+5. | Complete Document Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at registration prove what arrived and let a missing file be traced
+b) | A department told early can change a plan while there is still time to change it
+c) | Agreeing prices and delivery in advance stops a shortage of paper stopping the work
+d) | A plan of what may be spent means the office never orders what it cannot pay for
+e) | Everyone knows what must be done and when, so no effort is wasted
+_300
+@EX Part 4: Office Importance and Role Completion
+@INSTR Complete sentences about the importance and role of office managers.
+_80
+@NUM
+1. Office managers are essential for ____________________ (arrange) work that several departments need at once.
+2. One main role of an office manager is to ____________________ (decide) how the work will be organised.
+3. Office management succeeds through ____________________ (work) with reception, the registry and personnel.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Office Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about office work using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key office vocabulary with correct pronunciation: // *• Administration (ad-min-is-TRA-tion)*: Organising an office so the people in it can work // *• Correspondence (cor-res-PON-dence)*: The letters and memos a firm sends and receives // *• Inventory (IN-ven-to-ry)*: The supplies an office is holding in its cupboard // *• Documentation (doc-u-men-TA-tion)*: The papers that record what was agreed // *• Procedure (pro-CE-dure)*: The agreed steps for doing a piece of work // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Office Management and Its Work
+@INSTR Discuss these questions about office management with a partner:
+_80
+@BULLET
+What is an office manager and how is the work different from a clerk's?
+What functions of office management do you know, and what does each one decide?
+Why do you think office staff must report a missed deadline honestly even when the news is bad?
+Can you name an office in Vietnam or your region and describe how you would organise it?
+_300
+@EX Part 5: Office Interview Role Play
+@INSTR Practice an interview about office management. One student is a director asking questions. The other student is the office manager who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Office Management Facts
+@INSTR Prepare a presentation about office management. Cover what office managers are, the functions of office management, and why administration matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is an office manager?
+2. What functions of office management exist and what are good examples?
+3. Why is office management important for our departments and customers?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Office Values and Professional Ethics
+@INSTR Read about office values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Office Values and Professional Principles
+Office staff are guided by important values and ethics in their work. Professional principles include honesty, accountability, competence, and care for the people and records the work affects.
+Honesty means recording what actually happened, at the time it happened. Office staff believe a register completed at the end of the week is worthless, and this is why every document is stamped and dated on arrival.
+Accountability means answering for the money you approve and the records you keep. Office staff accept that a file they misplaced is theirs, not the system's. This allows them to correct a mistake while it is still small.
+Competence means working only within what you are trained and authorised to do, and asking for help with the rest. A clerk does not sign a contract they have not understood.
+Care for people and records means remembering that other departments depend on the office and that a personal file holds somebody's livelihood. This care allows staff to refuse a request that would breach confidence.
+These principles guide office staff every day. They explain why an office manager's signature is trusted inside and outside the organisation. Following these values makes administration effective and ethical.
+@MCQ
+1. What does professional honesty mean in office work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Recording what actually happened, at the time it happened
+   ○ C) Making the response figures look better
+   ○ D) Serving only senior departments
+@MCQ
+2. What does accountability mean?
+@OPT
+   ○ A) Working without any office budget
+   ○ B) Blaming the system for a misplaced file
+   ○ C) Answering for the money you approve and the records you keep
+   ○ D) Ignoring the directors' instructions
+@MCQ
+3. Why is competence important for office staff?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow the directors' instructions exactly
+   ○ C) So they sign only what they are trained and authorised to understand
+   ○ D) So they can ignore the labour regulations
+_300
+@EX Part 7: Vietnamese Cultural Values and Office Work
+@INSTR Match Vietnamese cultural values with how they relate to office management and administration.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a scribe's clear hand and careful register are remembered
+b) | Dignity means a date is given carefully, because a name stands behind it
+c) | Hospitality shapes a meeting: a visitor is received well before business begins
+d) | Respect for elders means the experienced clerk trains those who come after
+e) | A family firm's name travels with its letters, so a careless reply is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Office Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Function of Office Management, or Office Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Function of Office Management
+3. Office Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Being accountable to the directors for every approval given  ____________________________
+2. Planning what the office will do and at what cost  ____________________________
+3. Approving a requisition and recording the decision  ____________________________
+4. Responsibility for records that belong to other departments  ____________________________
+5. Controlling spending against the office budget  ____________________________
+6. Agreeing a deadline with a department  ____________________________
+7. Working with reception, the registry and personnel together  ____________________________
+8. Organising who answers what and who may approve  ____________________________
+_300
+@EX Part 8: Integrated Office Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what an office manager is?
+@OPT
+   ○ A) A clerk who types very quickly
+   ○ B) A government official who issues trading licences
+   ○ C) A trained professional who sets objectives, arranges staff and supplies, keeps work moving and reports the result
+   ○ D) A receptionist who answers the telephone for the firm
+@MCQ
+2. What is a main difference between an office manager and a clerk?
+@OPT
+   ○ A) A manager has a desk; a clerk does not
+   ○ B) A manager decides what will be done and at what cost; a clerk gets it done
+   ○ C) A manager works only in cities; a clerk works everywhere
+   ○ D) A manager uses only paperwork; a clerk uses only machines
+@MCQ
+3. How is office management work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the supplier directly
+   ○ C) By the organisation, to whose directors the manager reports honestly
+   ○ D) By charging departments for every letter they send
+@MCQ
+4. Which is an example of an office objective?
+@OPT
+   ○ A) Working as hard as possible every day
+   ○ B) Answering 95 per cent of enquiries on the day they arrive by June
+   ○ C) Following the directors' instructions exactly
+   ○ D) Keeping the register away from the departments
+_300

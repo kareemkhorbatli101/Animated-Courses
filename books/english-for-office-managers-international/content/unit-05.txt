@@ -1,0 +1,462 @@
+@UNITHEAD Unit 5: The Office Planning and Scheduling Cycle
+@PART Warm Up | Warm Up
+@EX Warm-Up: Office Planning Discussion
+@INSTR Discuss what it takes to plan a year of office work.
+_80
+@BULLET
+What steps do you think an office should take when it plans the coming year?
+_300
+@EX Warm-Up: Cycle Stages Matching
+@INSTR Match cycle stages with their main activities and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Service objective
+2. | Budget and rota planning
+3. | Execution
+4. | Review
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Agreeing with the departments what the office will deliver, and by when
+b) | Looking back at the completed year to decide what to change next time
+c) | Turning the objectives into staff hours, supplies and figures month by month
+d) | Running the office, watching the register and correcting as you go
+_300
+@EX Warm-Up: Office Planning Multiple Choice
+@INSTR Read and choose the best answer about planning an office.
+_80
+@MCQ
+1. What is the purpose of an office budget?
+@OPT
+   ○ A) To record what has already been spent on supplies
+   ○ B) To state in advance what may be spent, so the spending can be controlled
+   ○ C) To impress the auditor
+_300
+@EX Warm-Up: Discussion - Challenges in Office Planning
+@INSTR Discuss common challenges that office plans face during the year.
+_80
+@BULLET
+What usually goes wrong with an office plan during the year, and how can staff respond?
+_300
+@EX Warm-Up: Cycle Phases Classification
+@INSTR Classify activities as belonging to the Planning, Execution, or Review phase.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Execution
+3. Review
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Agreeing next year's response target with the departments  ____________________________
+2. Watching this month's supply spending against the budget line  ____________________________
+3. Comparing the finished year with the plan and explaining the difference  ____________________________
+4. Deciding what a new filing system may cost to install  ____________________________
+5. Approving a requisition against the budget already set  ____________________________
+6. Writing the lessons from last year into next year's assumptions  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Planning and Scheduling Terms Matching
+@INSTR Match planning and scheduling terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Office budget
+3. | Forecast
+4. | Variance
+5. | Staff rota
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The schedule showing who works which hours and who covers the front desk
+b) | A statement of what the office intends to achieve and by when
+c) | The difference between what was planned and what actually happened
+d) | A plan of what may be spent over a stated period, usually a year
+e) | A best estimate of what will happen, revised as the year goes on
+_300
+@EX Part 1: Planning Cycle Components Table
+@INSTR Complete the table with cycle components and their descriptions.
+_80
+@GRID
+Component | What It Decides | Who Approves It
+Service plan |  | 
+Office budget |  | 
+Staff rota |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  What the office will deliver, to which departments, and how quickly
+b)  The office manager and the general manager together
+c)  What each section may spend and on what
+d)  The general manager, within the limit the directors set
+e)  Who works which hours and who covers reception each day
+f)  The office manager, reviewed by the departments monthly
+_100
+_300
+@EX Part 1: Planning Terms Fill-in Blanks
+@INSTR Complete sentences using planning and scheduling vocabulary.
+_80
+@GAP
+1. The people who approve the money the office spends are the ____________________.
+2. ____________________ are everyone with an interest in the plan, including staff and suppliers.
+3. ____________________ means the difference between the plan and what actually happened.
+4. A ____________________ shows who works which hours and who covers reception.
+_300
+@EX Part 1: Office Planning in Context - Fact Questions
+@INSTR Read about office planning and answer detailed fact questions.
+_80
+@PANEL
+Office Planning and the Administration Cycle
+All well-run offices follow a similar cycle. First is the objective, where the manager meets the departments to agree what the office will deliver and what risks it accepts. This phase usually takes weeks. Managers learn what service each department expects, what they will pay for, and what they will not.
+Second is budgeting, where the manager turns the objectives into figures. Budgeting includes setting response targets, agreeing what each section may spend, forecasting the supplies, and deciding who may approve what. The budget becomes the document against which every later decision is measured.
+Third is execution, where the plan is actually carried out. During execution, clerks register the post, reception answers the callers, and the storekeeper issues the supplies. Sections participate actively because most of the work happens in their hands.
+Fourth is monitoring, where the manager watches the figures as they arrive. Monitoring happens throughout the year. Managers compare actual with budget, spot a variance, and correct the course while the year can still be saved.
+Fifth is review and reporting, which happens at the end. Managers confirm whether the objectives were met. They compare the result with the plan and with previous years. This information helps the office set better objectives next time.
+This cycle repeats continuously, creating ongoing improvement and learning.
+@NUM 100
+1. What is the purpose of the objective phase?
+2. What does monitoring watch during the year?
+_300
+@EX Part 1: Discussion - Your Experience Planning
+@INSTR Discuss how planning principles apply to your own experience.
+_80
+@BULLET
+Think of a time you planned something. What steps did you take and what happened?
+_300
+@EX Part 1: Listening - Managers Explain Planning
+@AUDIO 🔊 Audio Track 5.11
+@INSTR Listen to office managers describing their planning process and answer questions.
+_80
+@MCQ
+1. Why did the manager visit each department first?
+@OPT
+   ○ A) To immediately start cutting the budget
+   ○ B) To see what each department actually needed before promising a service
+   ○ C) To impose a standard plan
+@MCQ
+2. What principle guided the manager's budget decision?
+@OPT
+   ○ A) Budgeting for the most optimistic case
+   ○ B) Budgeting for what the office can afford if prices rise
+   ○ C) Doing only what the largest department prefers
+_300
+@EX Part 1: Planning Cycle Summary - Multiple Choice
+@INSTR Choose the best explanation of office planning concepts.
+_80
+@MCQ
+1. What is the relationship between the objective and the budget?
+@OPT
+   ○ A) The objective is unnecessary if you have a good budget
+   ○ B) The objective shapes a budget that funds what actually matters
+   ○ C) The budget always comes before the objective
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Sequencing Words for Cycle Steps
+@INSTR Complete sentences using words that show the order of cycle steps.
+_80
+@NUM
+1. ____________________ (first) the manager agrees the objective with the departments.
+2. ____________________ (then) they build the budget and forecast the supplies.
+3. ____________________ (finally) they review the year and report the result.
+_300
+@EX Part 2: Conditional Sentences About Planning
+@INSTR Complete the table with conditional sentences about office planning.
+_80
+@GRID
+If Statement (Condition) | Then Result
+If sections do not take part in the budget | 
+If managers watch the variances monthly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  They will not defend a limit they never agreed to
+b)  They can correct the course while the year can still be saved
+_100
+_300
+@EX Part 2: Passive Voice for Office Activities
+@INSTR Complete sentences using passive voice to describe office activities.
+_80
+@GAP
+1. A risk assessment ____________________ on every new system before the budget is set.
+2. Requisitions ____________________ against the budget before they are placed.
+3. The annual accounts ____________________ by an independent auditor.
+4. Every decision ____________________ so it can be reviewed afterwards.
+_300
+@EX Part 2: Expressing Purpose with "to" and "in order to"
+@INSTR Complete sentences explaining the purpose of planning activities.
+_80
+@NUM
+1. Managers visit each department ____________________ (understand) what it actually needs.
+2. Careful forecasting is necessary ____________________ (ensure) the office never runs out of supplies.
+3. Annual reviews help offices ____________________ (improve) their plans based on experience.
+_300
+@EX Part 2: Listening - Grammar of Planning Discussion
+@AUDIO 🔊 Audio Track 5.17
+@INSTR Listen to a manager explaining planning steps using various grammatical structures.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The directors must approve the objective before we build the budget" using modals. We explain "If we forecast carefully, the supplies will not run out" using conditionals. We describe "The budget is reviewed by the directors" using passive voice to show the action.
+~Coordinator: We say "We visit each department to understand the need" showing purpose. We explain order with words like "First we agree, then we budget, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to auditors, to directors, and to our own clerical team.
+_200
+@QUESTION
+1. What purpose do modals serve in planning discussion?
+2. Why does the manager use multiple grammatical structures?
+_300
+@EX Part 2: Grammar Review - Planning Expressions
+@INSTR Discuss how different grammar patterns help explain office planning.
+_80
+@BULLET
+Explain how to use conditionals, passive voice, and sequencing to describe the planning cycle.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office Types Discussion
+@INSTR Before listening, discuss different types of office that staff plan for in Indonesia.
+_80
+@BULLET
+What types of office operate in Indonesia and what does each one require?
+_300
+@EX Part 3: Listening - Office Staff Explain Challenges
+@AUDIO 🔊 Audio Track 5.20
+@INSTR Listen to office staff discussing challenges they faced and how they addressed them.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: In my registry, I faced a challenge when trained clerks left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra clerks and cross-trained the receptionist so leaving staff would not stop the work. The lesson was that a budget must include retention, not just salaries.
+~Coordinator: My office faced an equipment problem. We had budgeted for a photocopier in March but the price in June was very different. The departments became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began keeping a small reserve of consumables. Now I always build a price assumption into every budget.
+_200
+@QUESTION
+1. How did the registry manager solve the staff retention problem?
+2. What did the office manager learn about quotations and budgets?
+_300
+@EX Part 3: True/False - Office Planning Practices
+@INSTR Read statements about planning practices and mark True, False, or Not Given.
+_80
+@PANEL
+Effective office management requires clear planning from the beginning. Agreeing the objective and assessing risk is a waste of time compared to starting work immediately. Good managers build a reserve of supplies and spare capacity to accommodate unexpected problems. Section participation in the budget increases success rates significantly. Monitoring is optional if the staff are competent and motivated. Limited equipment requires managers to make difficult choices about what matters most. Consistency means the office keeps meeting its commitments month after month. Regular communication with directors and staff prevents misunderstandings and builds trust.
+@NUM 100
+1. Agreeing the objective and assessing risk is important in office planning.
+2. Monitoring is necessary only at the end of the year.
+3. A reserve of supplies helps accommodate unexpected problems.
+_300
+@EX Part 3: Listening - Different Perspectives on Planning
+@AUDIO 🔊 Audio Track 5.22
+@INSTR Listen to different people describing office planning from their perspectives.
+_80
+@MCQ
+1. Why did the clerk feel respected in the planning process?
+@OPT
+   ○ A) Managers made all decisions quickly
+   ○ B) Managers listened to the clerks and involved them in setting the targets
+   ○ C) Managers installed a standard plan without asking
+@MCQ
+2. What does the office manager say takes longer than directors expect?
+@OPT
+   ○ A) Printing the budget
+   ○ B) Agreeing the objective and holding the department meetings
+   ○ C) Monitoring during the year
+_300
+@EX Part 3: Listening - Planning Lessons Learned
+@AUDIO 🔊 Audio Track 5.23
+@INSTR Listen to experienced office staff sharing lessons they learned.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When directors, sections and suppliers all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into missed deadlines. Now I spend significant time ensuring all parties understand exactly what will be delivered, when, and at what cost. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the clerks and the department heads before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200
+@QUESTION
+1. What percentage of problems does the first manager say clear communication prevents?
+2. When should relationships with clerks and department heads be built according to the second manager?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Office Success Discussion
+@INSTR Discuss what makes some offices succeed while others struggle.
+_80
+@BULLET
+Why do you think some offices work smoothly while others with the same staff struggle?
+_300
+@EX Part 4: Reading - The Planning Cycle in Detail
+@INSTR Read detailed information about office planning in Indonesia and answer questions.
+_80
+@PANEL
+Office Planning in Indonesia: Adapting to Complex Contexts
+Indonesian offices face unique challenges in planning and management. Distance between islands, difficulty importing spare parts, and equipment that cannot easily be repaired create real obstacles. Despite these difficulties, Indonesian and international staff successfully run the administrations of factories, clinics, schools and trading houses.
+Successful plans in Indonesia begin with a careful assessment of current conditions. Planning teams meet the departments, the clerks and the suppliers. They identify what can actually be produced with the equipment available and which supplies can actually be obtained. They learn what the organisation can afford this year. Good assessment in Indonesia includes understanding shipping times between islands and the fairness that lets every section be judged by the same rules.
+Budgeting in Indonesia requires flexibility. Managers cannot assume that an item will cost in June what it cost in March. They cannot assume that a long task will run without interruption. Successful Indonesian plans build flexibility into the figures from the start. They accept quotations that state how long they hold. They plan in stages that allow quick adjustment if conditions change.
+Execution in Indonesia requires careful scheduling. Offices protect their deadlines by planning when each task is done. They consider timing—not starting a long printing job before a known holiday week. They consider location—holding a little stock of the item hardest to replace. They ensure clerks understand the plan and the cost of changing it.
+Review and reporting in Indonesia is critical. Directors need rapid information about whether the plan held, whether conditions changed, and whether the records are safe. This information helps adjust the plan before small problems become losses. Regular department feedback ensures the plan stays responsive to changing requirements.
+Durable offices in Indonesia build local capacity. Outside support will eventually end. Successful organisations train Indonesian staff, use methods that can be run with locally available tools, and document so that staff turnover does not lose the knowledge. This ensures that the administration continues after outside involvement ends.
+@NUM 100
+1. What are the unique challenges for office planning in Indonesia?
+2. Why do successful Indonesian plans build flexibility into the figures?
+_300
+@EX Part 4: Reading - Department-Centred Planning
+@INSTR Read about making sure office plans truly meet the departments' needs.
+_80
+@PASSAGE
+Department-Centred Planning
+The most effective office plans place the department at the centre of every decision. This means understanding not just what a department asks for but how it works, when its own deadlines fall, and what it most fears going wrong.
+Department-centred planning begins with genuine listening. This means not just reading the request but listening without judgment to answers that may surprise the manager. A department might accept a slower service but refuse any change to a filing arrangement. A head might care more about one reliable clerk than about new equipment.
+This approach requires humility from managers. Planners must accept that departments are experts in their own work. Their understanding of what will and will not matter is often more accurate than a manager's prediction. Successful planners listen more than they talk, ask more than they advise.
+Department-centred planning also means including people in decisions. Which services will be offered? How often will the post be collected? What happens when a deadline slips? When departments have a voice in these decisions, they trust the office and support it.
+This approach takes more time and requires more patience than writing a plan from last year's figures. However, the results justify the investment. Departments support an office that helped define the service. They complain less. They tell you early when their own needs change.
+@MCQ
+1. What does department-centred planning require from managers?
+@OPT
+   ○ A) Making decisions quickly without listening
+   ○ B) Humility to accept departments' expertise and genuine listening without judgment
+   ○ C) Repeating last year's plan without modification
+@MCQ
+2. Why might a department accept a slower service but refuse a change of filing?
+@OPT
+   ○ A) Departments do not understand filing
+   ○ B) Their own records may make the arrangement matter far more than the speed
+   ○ C) Only for temporary situations
+_300
+@EX Part 4: Application - Planning for Different Contexts
+@INSTR Read scenarios and fill in planning considerations for each context.
+_80
+@GRID
+Office Type | Key Planning Consideration
+A small office serving one workshop | 
+An administration serving five export departments | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Cash flow, because supplies must be bought before the fees are collected
+b)  Rapid assessment of each customer country's documentation requirements
+_100
+_300
+@EX Part 4: True/False - Office Principles
+@INSTR Read statements about office principles and mark True, False, or Not Given.
+_80
+@PANEL
+Department-centred planning requires more time and resources than repeating last year's figures. Departments should have a voice in service decisions. Managers know better than departments what departments need. Building trust before problems appear is valuable. Successful offices in difficult conditions require flexibility and adaptability. Agreeing the objective and listening are less important than starting work quickly. Department participation increases support and reduces complaints. Review should happen only at the end of the year.
+@NUM 100
+1. Departments should take part in service decisions.
+2. Departments always know their needs better than managers.
+3. Agreeing the objective and listening are important in office planning.
+_300
+@EX Part 4: Discussion - Creating an Office That Lasts
+@INSTR Discuss how to build offices that go on working.
+_80
+@BULLET
+What makes an office last beyond its founder, and how would you build that?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - The Office Planning Process
+@INSTR Prepare a presentation explaining the complete office planning process.
+_80
+@NUM 100
+1. Present the five main phases of the planning cycle and what happens in each.
+_300
+@EX Part 5: RolePlay - Office Team Meeting
+@INSTR Roleplay an office team meeting discussing planning challenges and solutions.
+_80
+_300
+@EX Part 5: Discussion - Your Own Office Ideas
+@INSTR Discuss an administrative problem and how you would plan to solve it.
+_80
+@BULLET
+Describe an administrative problem you know about and outline how you would plan to solve it.
+_300
+@EX Part 5: RolePlay - Explaining a Plan to Staff
+@INSTR Roleplay explaining next year's plan to clerks and responding to their questions.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Office Plan Outline
+@INSTR Write a basic office plan outline for an administration you would like to run.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Department Feedback
+@INSTR Write about how department feedback changed your office plan.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Solving an Administrative Challenge
+@INSTR Write about a challenge you would face during the year and how to overcome it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for the Office
+@INSTR Write about the lasting change you hope a well-run office would create.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Cultural Respect in Indonesian Office Work
+@INSTR Read about cultural considerations in Indonesian office work and answer questions.
+_80
+@PANEL
+Cultural Adaptation in Indonesian Office Management
+Successful administration in Indonesia adapts to local values and working practices. Indonesian culture values the family, respect for elders, religious faith, social harmony, and craft mastery. Ignoring these values makes an office system resented and quietly bypassed.
+Office practice must respect religious requirements, so interest-free arrangements and charitable giving are provided for alongside ordinary accounting. The staff rota must allow for prayer times and for religious holidays. New rules must be explained, not simply posted, so clerks understand the reason behind each one.
+Offices must employ local staff who understand the administration and speak the dialect. International partners cannot read the signals that local staff know instinctively. Local staff obtain an authority's cooperation more easily because they are part of the same community.
+Offices must involve respected figures including the senior clerks and the long-serving secretaries. Even if a manager disagrees with a long-standing practice, involving the senior clerk prevents the change being seen as an insult to their knowledge. Respectful engagement usually finds a way to meet the requirement within the existing practice.
+Successful managers explain why a change matters in language the staff understand. A punctuality rule succeeds when explained through the customer waiting for an answer, not through a clause in the handbook. A requisition form succeeds when connected to the pride of accounts that never have to be apologized for. A register succeeds when connected to protecting the family name on the letterhead.
+This cultural adaptation is not compromising professional values. Principles of honesty and fairness can be accomplished within any culture. Good managers find ways to respect the workplace while meeting their obligations.
+@NUM 100
+1. Why do successful Indonesian offices employ local staff?
+2. How can managers explain a new rule to clerks?
+_300
+@EX Part 7: Discussion - Learning from Indonesian Administration
+@INSTR Discuss what international partners can learn from Indonesian approaches to administration.
+_80
+@BULLET
+What can international partners learn from how Indonesian offices have traditionally kept records?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 5 Summary - Planning Terms and Concepts
+@INSTR Review Unit 5 by matching terms with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Office budget
+3. | Variance
+4. | Staff rota
+_300
+@COLHEAD Column B
+@MATCHB
+a) | What the office intends to achieve and by when
+b) | A plan of what may be spent in a period
+c) | The difference between the plan and what happened
+d) | Who works which hours and who covers reception
+_300
+@EX Part 8: Integrated Assessment - Unit 5 Mastery
+@INSTR Demonstrate understanding of Unit 5. Choose the best answer.
+_80
+@MCQ
+1. Why is the objective the first step in the planning cycle?
+@OPT
+   ○ A) To waste time before working
+   ○ B) To agree what the office will deliver and avoid budgeting for the wrong thing
+   ○ C) Departments do not need an objective
+@MCQ
+2. What does flexibility in a budget accomplish?
+@OPT
+   ○ A) It allows overspending without planning
+   ○ B) It allows adapting when prices rise or equipment fails
+   ○ C) Flexible budgets are not needed
+@MCQ
+3. Why is monitoring important during the year?
+@OPT
+   ○ A) It is optional if the staff are competent
+   ○ B) It catches a variance while the year can still be saved
+   ○ C) Review happens only at the end
+@MCQ
+4. What makes an office truly durable?
+@OPT
+   ○ A) An outside consultant stays involved indefinitely
+   ○ B) Local staff can run it with the tools and knowledge available locally
+   ○ C) The manager makes every decision personally
+_300

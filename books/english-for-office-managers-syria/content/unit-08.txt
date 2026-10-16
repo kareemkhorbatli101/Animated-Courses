@@ -1,0 +1,370 @@
+@UNITHEAD Unit 8: Performance Measurement and Reporting
+@PART Warm Up | Warm Up
+@EX Warm-Up: Performance and Reporting Discussion
+@INSTR Discuss why an office needs its performance measured and reported.
+_80
+@BULLET
+Why is it important for an office to measure its performance and report it to the directors?
+_300
+@EX Warm-Up: Report Types Matching
+@INSTR Match report types with their purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Monthly Office Report
+2. | Annual Administration Report
+3. | Correspondence Report
+4. | Supplies Report
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Shows what is held in the cupboard and what has been issued this period
+b) | Shows what was received, who answered it, and how much was answered late
+c) | A full statement of the year's staffing, spending and records, audited and filed
+d) | A short internal statement of the month against the office plan
+_300
+@EX Warm-Up: Types of Evidence Discussion
+@INSTR Discuss the value of using both figures and explanations in a report.
+_80
+@BULLET
+What is the advantage of using both figures and written explanation in a report?
+_300
+@EX Warm-Up: Report Use Discussion
+@INSTR Discuss how offices use reports to make practical improvements.
+_80
+@BULLET
+How should an office use its monthly reports to make practical improvements?
+_300
+@EX Warm-Up: Reporting Activity Classification
+@INSTR Classify reporting activities by stage.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Collecting Stage
+2. Preparing Stage
+3. Reviewing Stage
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Entering every letter and invoice into the register  ____________________________
+2. Comparing the month's responses with the office plan line by line  ____________________________
+3. Writing the commentary that explains the late replies  ____________________________
+4. Counting the stationery at the end of the month  ____________________________
+5. Presenting the result to the directors and agreeing the actions  ____________________________
+6. Checking that the supplier's invoice agrees with the orders  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Reporting Terms Matching
+@INSTR Match reporting concepts with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Variance
+2. | Target
+3. | Key performance indicator
+4. | Baseline
+5. | Trend
+6. | Commentary
+7. | Reconciliation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The figure an office is trying to reach within a stated period
+b) | The written explanation that tells the reader why the figures moved
+c) | Checking two records against each other until they agree
+d) | The difference between what was planned and what happened
+e) | The direction the figures have moved over several periods
+f) | The starting figure against which later improvement is measured
+g) | A chosen figure that shows whether a service objective is being met
+_300
+@EX Part 1: Indicator Types Matching
+@INSTR Match performance measures with their characteristics.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Lagging Indicator
+2. | Leading Indicator
+3. | Cost Measure
+4. | Operational Measure
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A measure taken in money, such as cost per employee or per department
+b) | A result after the fact, such as last month's on-time response rate
+c) | An early signal, such as the number of enquiries received
+d) | A measure taken in items, hours or days rather than money
+_300
+@EX Part 1: Reporting Vocabulary Multiple Choice
+@INSTR Choose the correct answer.
+_80
+@MCQ
+1. Which statement best describes what a "variance" is in a report?
+@OPT
+   ○ A) The director's opinion about the month
+   ○ B) The difference between what was planned and what happened
+   ○ C) The number of people working on the task
+_300
+@EX Part 1: Reporting Purpose Discussion
+@INSTR Discuss the elements of a strong reporting system.
+_80
+@BULLET
+What makes a reporting system effective for improving an office?
+_300
+@EX Part 1: Reporting Purpose Multiple Choice
+@INSTR Choose the correct answer about reporting purposes.
+_80
+@MCQ
+1. What is NOT a primary purpose of office reporting?
+@OPT
+   ○ A) Showing whether the office met its service objectives
+   ○ B) Deciding which clerks should be dismissed
+   ○ C) Finding a problem early enough to correct it
+_300
+@EX Part 1: Indicator Levels Matching
+@INSTR Match indicator levels with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Input Measure
+2. | Process Measure
+3. | Output Measure
+4. | Customer Measure
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Supplies bought, staff hours worked, equipment hired in
+b) | Files retrieved within the hour, calls answered in four rings, forms rejected
+c) | Letters answered, documents registered, requisitions processed
+d) | Complaints, repeat enquiries, days to answer, satisfaction scores
+_300
+@EX Part 1: Variance Severity Classification
+@INSTR Classify variances by their severity.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Serious Variance
+2. Minor Variance
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. No stock check has been done for three months  ____________________________
+2. Stationery spending is two per cent over budget  ____________________________
+3. The supplier's invoice does not agree with the orders at all  ____________________________
+4. One small letter was registered a day late  ____________________________
+5. Equipment was issued with no requisition signed for it  ____________________________
+6. The report was circulated a day after the agreed date  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Results and Change
+@INSTR Answer using past tense structures to describe results.
+_80
+@NUM 100
+1. Describe what results the office achieved last year using these words: improved, increased, reduced, reached.
+_300
+@EX Part 2: Causality Language for Results
+@INSTR Explain how management actions led to results.
+_80
+@NUM 100
+1. Explain the connection between training the clerks and fewer late replies using cause-effect language.
+_300
+@EX Part 2: Comparison Language for Indicators
+@INSTR Complete sentences comparing last year's and this year's results.
+_80
+@OPTLINE
+1. Last year, 12 per cent of letters were answered late. This year, only 4 per cent were late. The office __________ late replies. | reduced | raised | eliminated | prevented
+_300
+@EX Part 2: Conditional Language for Future Reporting
+@INSTR Use conditional language to discuss future reporting.
+_80
+@NUM 100
+1. Write sentences about what would happen if the monthly office report were issued within five days using conditional language.
+_300
+@EX Part 2: Question Formation for Review Meetings
+@INSTR Complete review meeting questions using correct question formation.
+_80
+@OPTLINE
+1. __________ the registry record the post at the end of every day? | Did | Does | Will | Has
+_300
+@EX Part 2: Passive Voice in Reporting Results
+@INSTR Convert active voice to passive voice describing reported results.
+_80
+@NUM 100
+1. Rewrite this sentence using passive voice: "The office team prepared 120 monthly reports."
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Reporting Challenges
+@AUDIO 🔊 Audio Track 8.19
+@INSTR Listen to an office manager describing reporting challenges.
+_80
+@QUESTION
+1. What was the main challenge the office manager faced when trying to prepare the monthly report?
+_300
+@EX Part 3: Listening to Improvement Stories
+@AUDIO 🔊 Audio Track 8.20
+@INSTR Listen to a clerk describing the effect of an office report.
+_80
+@MCQ
+1. What specific improvement did the clerk experience?
+@OPT
+   ○ A) Shorter hours and a quieter workplace
+   ○ B) A clearer daily figure, so a problem was caught the same week
+   ○ C) A higher wage and a new job title
+_300
+@EX Part 3: Listening to Continuous Improvement Discussion
+@AUDIO 🔊 Audio Track 8.21
+@INSTR Listen to office staff discussing how they use their reports.
+_80
+@QUESTION
+1. Describe two ways the staff changed their work based on what the reports showed.
+_300
+@EX Part 3: Listening to Indicator Discussion
+@AUDIO 🔊 Audio Track 8.22
+@INSTR Listen to an office manager explaining a set of indicators.
+_80
+@MCQ
+1. According to the manager, what is one main "process measure" in their office?
+@OPT
+   ○ A) Customer complaints received each quarter
+   ○ B) Files retrieved within the hour, recorded every day
+   ○ C) Government policies supporting employers
+_300
+@EX Part 3: Listening to Result Interpretation
+@AUDIO 🔊 Audio Track 8.23
+@INSTR Listen to an analyst discussing how to interpret mixed results.
+_80
+@QUESTION
+1. When some results were positive and others negative, what did the analyst recommend?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Reporting Systems
+@INSTR Read the text about reporting systems and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Effective reporting systems collect figures regularly and on a fixed cycle. Collection methods must be simple enough for clerks and receptionists to use without an analyst beside them. However, simple methods can still produce accurate figures when designed well. Staff should understand why each figure is collected so they support the process. Figures must be prepared quickly and shared with managers and staff. If a report shows a problem, the office should correct the course at once."
+            Is the following statement true, false, or not given? "Reporting systems require expensive software and outside consultants."
+_300
+@EX Part 4: Reading About Indicators
+@INSTR Complete the sentence based on reading about indicators.
+_80
+@NUM
+1. According to reading material, good indicators should be measurable, achievable, and __________.
+_300
+@EX Part 4: Reading About Data Quality
+@INSTR Read about ensuring the quality of office records.
+_80
+@NUM 100
+1. Read: "Record quality depends on clear forms, well-trained staff, and regular checking of what has been entered. Forms should ask for one figure at a time to avoid confusion. Staff should understand why each figure matters. Records should be checked for gaps and impossible values before the report is prepared. Clerks and receptionists can help protect record quality by reviewing their own figures and reporting errors."
+            Is the following true, false, or not given? "Clerks should never review records because they lack training."
+_300
+@EX Part 4: Reading About Learning from Reports
+@INSTR Answer in your own words based on reading.
+_80
+@NUM
+1. Based on reading about organisational learning, explain why report findings should be widely shared rather than kept only with the directors.
+_300
+@EX Part 4: Reading About Root Cause Logic
+@INSTR Read about root cause logic.
+_80
+@NUM 100
+1. Read: "Root cause logic explains the relationship between an action and the result expected from it. It shows how an action is supposed to remove a cause. For example, if we register the post on the day it arrives, the file is complete. If the file is complete, the answer can be written at once. If answers are written at once, departments stop chasing. If departments stop chasing, the office has time for the work itself. Root cause logic helps staff understand the path from one action to the long-term result."
+            According to the text, does having clear root cause logic eliminate administrative risk?
+_300
+@EX Part 4: Reading About Fairness in Reporting
+@INSTR Complete using information from reading about fair reporting.
+_80
+@NUM
+1. What specific question should a fair report answer about who benefited from the year?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Discussing Monthly Results
+@INSTR Role-play a conversation about the monthly office report.
+_80
+_300
+@EX Part 5: Presentation - Creating Learning Cultures
+@INSTR Prepare a short presentation (2-3 minutes) about building a learning culture.
+_80
+@NUM 100
+1. Present on: "How Offices Can Use Reporting to Build a Learning Culture Instead of Just Blame." Include: definition of learning culture; how reporting supports learning; specific examples; staff involvement; sharing failures and successes; building collective knowledge; how this improves the service.
+_300
+@EX Part 5: Discussion - Using Data for Decision Making
+@INSTR Discuss challenges and solutions for using office data in decision-making.
+_80
+@BULLET
+What are common barriers to using report data in office decisions and how can an office overcome them?
+_300
+@EX Part 5: Role Play - Receiving Critical Feedback
+@INSTR Role-play receiving and responding to a critical finding in a report.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Monthly Report Summary
+@INSTR Write about this month's results and what they mean.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Data Use Plan
+@INSTR Write about how your office will use its reporting data.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Indicator Set
+@INSTR Write out the indicators you would track for one section.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Reporting Proposal
+@INSTR Write a proposal for a monthly reporting system for your office.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Hisba and Honest Measure
+@INSTR Discuss Syrian traditions of market oversight in office reporting.
+_80
+@NUM 100
+1. In Syrian markets, the muhtasib checked weights and scales and answered to all. How does this connect to honest counting and reporting?
+_300
+@EX Part 7: Syrian Values - Insaf in Using Findings
+@INSTR Connect Syrian principles of fairness to the fair use of report findings.
+_80
+@NUM 100
+1. Insaf means giving each person their due. How should this guide the way an office reports and acts on its results?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 8 Concepts Review Matching
+@INSTR Match Unit 8 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Target
+2. | Indicator
+3. | Variance
+4. | Reconciliation
+5. | Commentary
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The difference between what was planned and what happened
+b) | The figure the office is trying to reach in a stated period
+c) | Checking two records against each other until they agree
+d) | The written explanation of why the figures moved
+e) | A chosen figure showing whether a service objective is being met
+_300
+@EX Part 8: Reporting System Purposes Review
+@INSTR Choose the best answer about reporting purposes in Unit 8 material.
+_80
+@MCQ
+1. Which is the most important reason for an office to have a strong reporting system?
+@OPT
+   ○ A) To gather paperwork for the auditor only
+   ○ B) To blame clerks when results are poor
+   ○ C) To see problems early, learn what works, and keep improving
+_300

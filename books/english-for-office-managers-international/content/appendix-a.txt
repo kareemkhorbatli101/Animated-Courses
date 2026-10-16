@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Office Management | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Office Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: Office Manager Interview Understanding
+@SPEECH
+~Manager: Hello, my name is Rana. I am the office manager of a trading company in Hanoi called Sông Hồng Trading. My department keeps the correspondence, orders the supplies, and makes sure every document is registered on the day it arrives.
+~Manager: We have two clerks, a receptionist and a storekeeper who meet every morning. We set the response targets, check the register against them, and decide what to do when a deadline is at risk. We also train the people who join us.
+~Manager: My department reports to the general manager and to the directors, who approve the office budget each year. Students from the institute also work with us as trainees. Our goal is simple - we want every letter answered on the day it arrives.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Office Work - True or False
+@SPEECH
+^Operations Manager: There are many kinds of office work in Vietnam. Some staff run the registry, others run reception, and many look after supplies and staff records. The national business register records every company that trades.
+^Operations Manager: Records managers plan the filing, the retention and the access. Reception staff answer callers, receive visitors and route every enquiry. Personnel clerks keep the contracts, the leave records and the insurance returns the law requires.
+^Operations Manager: International partners also audit Vietnamese offices. Together with local staff, they handle thousands of documents every year. All office staff share the same goal - to finish the work correctly and on the promised day.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Office Aims and Goals Understanding
+@SPEECH
+~Operations Manager: Our registry department works to register every document on the day it arrives. We plan the week, check the register hour by hour, and move staff when a deadline is at risk.
+^Finance Manager: My department looks after the office money. We prepare the office budget, pay the suppliers and check every invoice against the price agreed. We teach the team that a cheap chair that breaks costs more than it saves.
+~Manager: We are the reception section. We believe an answer given is worth more than a promise repeated. We agree who will reply, what they will say and by when, and we tell the caller early when something changes.
+^All Managers: All of us report to the general manager. We work to the office budget approved each year and to the deadlines our departments have agreed. We have trainees from the institute who help us every day. This is why the office keeps its reputation.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Office Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: Office Roles and Careers | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Office Job Descriptions
+@SPEECH
+~Narrator: A records manager works in the registry. The manager plans the filing, watches the retention of each series, and solves problems as they appear.
+~Narrator: A reception manager at the front desk controls the callers and the visitors. The manager watches the waiting time, routes each enquiry, and keeps the log.
+~Narrator: An office manager leads the whole administration. The office manager agrees the office plan with the directors, sets the sections their targets, and answers for the result.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in administration?
+^Manager: I have worked in administration for eight years. I started as a registry clerk and became a records manager after three years.
+~Interviewer: What sectors have you worked in?
+^Manager: I have worked in textiles, a clinic, and a contracting firm. I have organised the files of offices of very different sizes.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with an Office Manager
+@SPEECH
+~Interviewer: Tell us about your work here.
+~Coordinator: I am the office manager. I agree the office plan with the directors, set the sections their targets, and answer for the result. I have worked here for four years. Every day is different. Some days I am with departments and other days at the front desk.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the fuel. A rate quoted in March may not cover the cost in June, and some spare parts cannot be obtained at all. We must be resourceful and quote only what we can hold. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many companies run training programmes for new office staff. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced managers from the company. They provide lessons in filing, correspondence, and running a registry. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Office Challenges
+@SPEECH
+^Speaker1: Working in an office team is very challenging. We have interrupted power, which means we cannot print every report on time. Sometimes one clerk covers two sections alone.
+~Speaker2: I agree. We also struggle with equipment. Many parts are far away, and we have only two photocopiers for the whole building, so printing has to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as a clerk. Have you thought about training toward a records manager position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, filing, and communication ability. We can provide training through our own mentoring and section rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility.
+_200d
+@H2 Unit 3: Records, Correspondence and Compliance | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Compliance Vocabulary in Action
+@SPEECH
+^Worker1: When the complaint arrived, we immediately pulled the file. We started with the contract and the delivery notes, checking what had actually been agreed order by order.
+~Worker2: The older records were extremely difficult. Many had been created before the register was started and carried no written receipt at all. Our priority was to register everything still in use.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a finding is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the licence may be suspended.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the register first. Should we also involve the lawyer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Investigation Process
+@SPEECH
+^Coordinator: When a file is found missing, we immediately start gathering information. We interview the people who handled it and record what they say. We examine the register and the file movement cards. We check whether the cabinet was locked and who held the key. We review the entries to confirm what is actually missing. We identify whether other files are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the remaining records and informing the directors. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the matter is settled. The findings are shared with personnel and finance to avoid repetition and ensure the whole cause is addressed.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Compliance Challenges
+@SPEECH
+~Reviewer: Compliance for an older office presents extreme challenges. We lack records for most of the earlier years. We discover a gap only when an inspector asks. Licences expire at different times through the year. Despite these obstacles, we do our best with the papers available. We prioritize the obligations that protect people. This is why an internal check before an inspection is essential.
+^LegalOfficer: The employment contract situation is critical. Staff were taken on for years with nothing in writing. This creates a high risk for the employee and for the employer. We work quickly to issue a written contract to everyone. We train clerks to keep the records the law requires. Without a contract, neither side can prove what was agreed.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Compliance Work
+@SPEECH
+~Field Officer: I came to this work because I wanted our records to stand up to any question. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a licence granted for the first time and a dispute avoided because a contract was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Budgets, Petty Cash and Procurement | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Budget Skills in Action
+@SPEECH
+~Worker1: I work as a cost clerk. I use method to record every material, hour and delivery in order. I must be patient because a long job takes weeks, and careful because one wrong hour changes the price of a whole order.
+^Worker2: As an office manager, I need organization skills to manage the month-end and the audit at once. I also need judgement when the ledger contradicts the cash box, and flexibility because every request arrives a little differently.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Budgeting
+@SPEECH
+^Manager: When we train new staff, we focus on developing both arithmetic and method skills. A good cash keeper must know how to check a total, but must also record the payment in a way others can follow. A good manager must compare quotations accurately, but must also understand what the figure will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from an overspend is more valuable than never taking responsibility for a budget. We want our staff to be confident enough to sign their accounts even when the month is busy.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Finance Skills
+@SPEECH
+~Coordinator: As a supplies controller, I must combine careful arithmetic with judgement. I follow the method exactly, but I also decide when a quotation looks wrong and must be checked again. Many departments order more than the standard allows. I re-check one order every week so I know how far our prices have drifted. This requires arithmetic and honest recording.
+^Manager: As office manager, I coordinate many figures and reports. I must have organizational skills to manage the month-end and the audit. I must have leadership to refuse a purchase that is not in the budget when a department is waiting. I need problem-solving abilities when the ledger contradicts the store records. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Controlling cash at the counter requires very different skills than office work. I must build trust with the departments over weeks so they tell me what the money was really for. I can never be rushed—a voucher written badly is worse than no voucher. I need flexibility because every request arrives differently. I must be humble enough to learn the work from the people doing it. This is how we produce accounts nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many office staff develop their best skills not in lectures but on the job. A clerk learns judgement by seeing a file go missing, by watching one unregistered letter change a decision, and by correcting a register nobody could follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New storekeepers work alongside experienced ones so an error is caught on paper rather than at the customer.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Coordinator: I came to office work from mathematics teaching with plenty of theory but no idea about offices. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to account for a payment when the receipt was missing, when the price had changed, when we had no quotation at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good bookkeeper in a shop, but a company office was different. In a shop, every cost arrived on one invoice. In an office, I had to find the cost myself in shared bills nobody had split. I learned to be systematic and accept that perfect figures were impossible. I learned that a stated estimate serves the directors better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: The Office Planning and Scheduling Cycle | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Managers Explain Planning
+@SPEECH
+~Manager1: In my registry, we began by visiting each department and asking the heads what they really needed each week. We learned that the certificate requests set the limit, not the filing everyone had been talking about.
+^Manager2: My office required careful budgeting because equipment was scarce. I had to choose between a new photocopier and repairing three old ones. I chose the repair the staff could maintain themselves, using parts their own supplier could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Planning Discussion
+@SPEECH
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The directors must approve the objective before we build the budget" using modals. We explain "If we forecast carefully, the supplies will not run out" using conditionals. We describe "The budget is reviewed by the directors" using passive voice to show the action.
+~Coordinator: We say "We visit each department to understand the need" showing purpose. We explain order with words like "First we agree, then we budget, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to auditors, to directors, and to our own clerical team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Office Staff Explain Challenges
+@SPEECH
+^Manager: In my registry, I faced a challenge when trained clerks left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra clerks and cross-trained the receptionist so leaving staff would not stop the work. The lesson was that a budget must include retention, not just salaries.
+~Coordinator: My office faced an equipment problem. We had budgeted for a photocopier in March but the price in June was very different. The departments became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began keeping a small reserve of consumables. Now I always build a price assumption into every budget.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Planning
+@SPEECH
+~Operator: When the managers planned this year, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They walked every shift with us and changed the targets after we spoke.
+^Quality Supervisor: From my side, I have learned that agreeing the objective and holding the department meetings takes much longer than directors expect. They want the plan in a week. But the time spent before the figures is what makes the plan achievable.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Planning Lessons Learned
+@SPEECH
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When directors, sections and suppliers all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into missed deadlines. Now I spend significant time ensuring all parties understand exactly what will be delivered, when, and at what cost. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the clerks and the department heads before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200d
+@H2 Unit 6: Working with Staff and Suppliers | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Departments
+@SPEECH
+~Supplier: When the office came to us, they asked what we could realistically deliver for the stationery contract. They did not tell us what we would be signing. We chose which quantities we could hold and which dates we could meet, and we are proud of the result.
+^Supplier: A joint arrangement failed here before this one. The buyer decided everything without asking. They set a delivery date our transport could never meet and nobody checked whether it was possible. This time we were asked, and the contract holds.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When the office works with us, not only for us, the language changes. They use phrases like "together we agreed the date" instead of "we informed them." They use passive voice "our own deadlines were taken into account" showing respect for our planning. They express appreciation "we value your cooperation" making us feel like partners.
+^Leader: Language reveals whether an office truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late delivery. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~Manager: From our side, we want to give departments the dates they ask for but we have one office with limited staff. We have other departments already in the schedule and supplies we cannot always obtain. So we must navigate between the department's wishes, the office's capacity, and what the budget allows. Good partnerships require honest conversations about these constraints. We have learned that departments accept a longer date when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the department side, we want clarity and consistency. We understand the office has constraints of its own. We accept a longer date when it is stated in writing and then kept. What frustrates us is a date that moves after the work is accepted. We want to be told early when something changes, not discover it from an empty in-tray. We want our own planning to count for something.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending certainty. When a caller asks a technical question about a regulation, I tell them I will check with the department and come back with an answer.
+~Manager: I also learned to say "we cannot do that" clearly. Departments sometimes ask for a date the office cannot meet. Saying so honestly, and offering the earliest date we can hold, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Manager: Building office partnerships is like building friendships. You cannot rush it. You must spend time understanding their work. You must visit when you do not need anything, not only when you want a favour. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own schedule was wrong. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one order where delivery is easy to get right, such as a single small item. This builds confidence for larger business. Also, confirm the result in writing. Let the supplier show our letter to their own management. This builds their internal case for serving us again and motivates the next order.
+_200d
+@H2 Unit 7: Reception, Communication and Customer Service | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Reception Staff Stories
+@SPEECH
+~Manager: When I started at reception, I realized the receiving and the replying are inseparable. Callers won by a friendly welcome were lost again within a season when no answer followed. The courtesy meant nothing because nobody wrote back.
+^Analyst: I began a complaint record at my desk. I wrote down what every caller actually said. But the office could not act on any of it because nobody owned the registry. Once we gave the registry a named manager, the record finally changed what we did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Service Language
+@SPEECH
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, a price the caller can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust an office whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the caller. What we think is good service might not match what the customer experiences. We hold regular reviews of the enquiry log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Service Barriers
+@SPEECH
+~Manager: We recognized that distance was our biggest barrier. Callers in the smaller towns could not reach us often enough to matter. So we brought the service closer. We appointed one trusted agent in each town and trained them on agreed answers. For the larger accounts, we kept our own officer calling monthly. This reduced the distance barrier immediately. Enquiries improved dramatically once a local name answered the telephone.
+^Manager: Cost was our barrier. Departments wanted our service but could not afford a dedicated clerk. We discovered that a shared service desk worked better than a lower standard. We offered two fixed hours a day for each department and a shorter reply time for urgent items. This kept every department served.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Reception and Correspondence
+@SPEECH
+~Manager: Integration requires clear roles. We defined what reception owns and what the registry owns. Reception agrees the date with the caller, and the registry confirms it can be met before the work is accepted.
+~Manager: Integration also requires honest communication about problems. Sometimes a request was accepted when the registry was full. Sometimes the registry wanted a day the department could not take. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and let the plan be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Customer Impact from Better Service
+@SPEECH
+~Manager: My firm used to write to this office and sometimes the reply came a week late with no warning. The office began telephoning the day the letter arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating reception and the registry solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each letter. It says what was received and who is dealing with it. When I asked about a missing attachment, the clerk showed me the register and sent it the next day. What the office does actually reaches us and changes what we can rely on. Before, reception and the registry were separate and nothing connected. Now it all connects. Our own customers are better served.
+_200d
+@H2 Unit 8: Performance Measurement and Reporting | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Reporting Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Improvement Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Indicator Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Result Interpretation
+_200d
+@H2 Unit 9: Growth, Change and Scaling the Office | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Growth Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Supplier Partnership Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Management Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Cost of Growth Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: Workplace Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to an Employee's Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to an Official's Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Association Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Results Reflection
+_200d

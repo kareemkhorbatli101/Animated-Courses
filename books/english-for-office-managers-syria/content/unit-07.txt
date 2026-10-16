@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Reception, Communication and Customer Service
+@PART Warm Up | Warm Up
+@EX Warm-Up: Reception Challenges Discussion
+@INSTR Discuss why many small organisations struggle to answer callers and visitors well.
+_80
+@BULLET
+What barriers prevent small organisations from answering callers and visitors well?
+_300
+@EX Warm-Up: Reception Activities Matching
+@INSTR Match reception activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Enquiry handling
+2. | Appointment booking
+3. | Message taking
+4. | Visitor reception
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Receiving people at the door, recording them and showing them where to wait
+b) | Deciding when a meeting can be held so both sides are actually free
+c) | Writing down who called, what they wanted and who must answer them
+d) | Finding out what the caller needs and sending them to the right person
+_300
+@EX Warm-Up: Customer Service Multiple Choice
+@INSTR Choose the best answer about good customer service.
+_80
+@MCQ
+1. What is most important for good service at a small reception desk?
+@OPT
+   ○ A) Having the newest furniture instead of older furniture
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest advertising budget
+_300
+@EX Warm-Up: Discussion - Combining Reception and Service
+@INSTR Discuss why reception and customer service work better together.
+_80
+@BULLET
+How can a reception procedure and a service standard support each other?
+_300
+@EX Warm-Up: Service Factors Classification
+@INSTR Classify factors as Direct (the answer), Intermediate (manner and speed), or Wider organisational issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct answer factor
+2. Manner and speed factor
+3. Wider organisational factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The caller is given the wrong information about a price  ____________________________
+2. The reply arrives two weeks after the promised date  ____________________________
+3. A competitor opens an office in the same district  ____________________________
+4. The letter reaches the wrong department  ____________________________
+5. The telephone rings eleven times before anyone answers  ____________________________
+6. Customers have less money to spend this season  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Contact Channels Matching
+@INSTR Match contact channels with the type of handling they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Telephone enquiry
+2. | Written correspondence
+3. | Counter visit
+4. | Email
+5. | Agency contact
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A message that must be registered, routed and answered in writing
+b) | A caller who must be answered at once or offered a definite call back
+c) | Appointing another office to answer on your behalf in a distant town
+d) | A visitor who must be received, recorded and dealt with in person
+e) | A message that arrives at any hour and must be answered the same way
+_300
+@EX Part 1: Service Standards an Office Can Set Table
+@INSTR Complete the table with service standards an office can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every call answered within four rings | 
+Every letter answered on the day it arrives | 
+Every complaint answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the caller they are heard before they have to ring twice
+b)  Lets the department plan its own work with confidence
+c)  Turns a disappointed customer into one who trusts the office more
+_100
+_300
+@EX Part 1: Reception and Service Terminology Fill-in
+@INSTR Complete sentences using reception and service vocabulary correctly.
+_80
+@GAP
+1. Reception and correspondence work together as ____________________ parts of one relationship.
+2. A ____________________ approach to service considers the whole experience, not one call.
+3. ____________________ callers are the particular group the service is designed for.
+4. ____________________ means a customer comes back because the last contact went well.
+_300
+@EX Part 1: Service Models - Fact Questions
+@INSTR Read about how reception actually keeps customers and answer detailed questions.
+_80
+@PANEL
+Reception Systems and Service Support
+Most lost customers are avoidable through better service. Understanding why a customer stopped calling allows an office to keep the next one. However, keeping customers is complex. Staff must know what the caller expected, have the information to deliver it, and believe the effort is worth making.
+Enquiry records teach an office who its callers are. Knowing that most callers want one of three things is valuable knowledge. But knowledge alone does not answer a call. The office must also have the information those callers need. Staff must believe an enquiry matters when the desk is busy. They must trust that a complaint will be acted on rather than hidden. Effective service addresses knowledge, information, and motivation.
+Service standards are the places where effort decides loyalty. Setting them focuses attention where it matters. An office with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the customer leaves.
+Reception staff bridge the gap between a procedure and a person. A receptionist can hear what a caller actually needs and route it the same hour. A local agent reaches towns the office could never visit itself. In Syria, direct relationships have become vital for keeping contact when telephone lines are unreliable.
+Local agents and branch desks reach much of the public. However, without support, an agent may give wrong information and blame the office. Training agents extends the office's reputation beyond its own door. Enquiry records, service standards, reception training and trained agents working together create far stronger service than any single effort alone.
+Loyalty requires that customers eventually choose the organisation for themselves. This means earning a reputation rather than buying attention. It means setting promises the office can actually keep. It means building on the relationships an organisation already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your callers are not enough to answer a call?
+2. What role do reception staff play in service?
+_300
+@EX Part 1: Discussion - Integrated Service Models
+@INSTR Discuss how combining reception and correspondence benefits an organisation more than separate approaches.
+_80
+@BULLET
+How have you seen a reception desk and good correspondence work together in your own experience?
+_300
+@EX Part 1: Listening - Reception Staff Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to an office manager and a receptionist describing their integrated approach.
+_80
+@MCQ
+1. What problems did the manager identify that affected service?
+@OPT
+   ○ A) No problems affected service
+   ○ B) Late replies, a price list nobody had updated, and no record of complaints
+   ○ C) The procedure never affects service
+@MCQ
+2. Why did the advertising fail before service was improved?
+@OPT
+   ○ A) Advertising never works
+   ○ B) New customers called once and did not return, so the spending was wasted
+   ○ C) Advertising always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in reception and service work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive furniture and advertising
+   ○ B) Promises the office can keep, answered quickly and put right when they fail
+   ○ C) A large modern building
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and loyalty.
+_80
+@NUM
+1. Repeat business ____________________ (depend) promises that are actually kept.
+2. Reception works best ____________________ (integrated) the correspondence the customer receives.
+3. Good service and fair prices both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in Customer Loyalty
+@INSTR Complete the table with cause-and-effect relationships in reception and service.
+_80
+@GRID
+Cause | Effect
+The reply arrived complete and on the promised date | 
+A complaint was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The customer placed a second, larger order
+b)  The customer told two other firms about the office
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of reception and service work.
+_80
+@GAP
+1. We review the enquiry log monthly ____________________ learn what callers actually want.
+2. We train the agents ____________________ the information they give is correct.
+3. This price list was revised ____________________ give a figure the caller can rely on.
+4. Call records and complaint records are combined ____________________ one picture of the customer.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot advertise widely, a well-answered caller remembers us.
+2. Training the agents ____________________ (overcomes) the gap between the office and the town.
+3. Integrated service ____________________ (addresses) both the immediate call and long-term loyalty.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to managers discussing how to ensure quality in reception and service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, a price the caller can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Customers notice service immediately. They trust an office whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the caller. What we think is good service might not match what the customer experiences. We hold regular reviews of the enquiry log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in reception and service work?
+2. Why is listening to the caller important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and loyalty.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects loyalty?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Good Service
+@INSTR Before listening, discuss barriers preventing offices from serving callers well.
+_80
+@BULLET
+What barriers prevent small offices from serving the callers who contact them?
+_300
+@EX Part 3: Listening - Overcoming Service Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to managers discussing how they overcome barriers to good service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Callers in the smaller towns could not reach us often enough to matter. So we brought the service closer. We appointed one trusted agent in each town and trained them on agreed answers. For the larger accounts, we kept our own officer calling monthly. This reduced the distance barrier immediately. Enquiries improved dramatically once a local name answered the telephone.
+^Manager: Cost was our barrier. Departments wanted our service but could not afford a dedicated clerk. We discovered that a shared service desk worked better than a lower standard. We offered two fixed hours a day for each department and a shorter reply time for urgent items. This kept every department served.
+_200
+@QUESTION
+1. How did the managers address the distance barrier?
+2. What service approach did the managers find most effective?
+_300
+@EX Part 3: True/False - Reception and Service Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Reception and correspondence work together to create good service. Advertising alone can keep a customer who received a late reply. Good managers set promises the office can actually keep. Training agents extends an office's reputation beyond its own door. Enquiry records tell an office who its callers are but not whether they will return. A complaint answered quickly often produces a more loyal customer than no complaint at all. Price alone decides every decision in every market.
+@NUM 100
+1. Advertising alone can keep a customer who received a late reply.
+2. Training agents extends an office's reputation beyond its door.
+3. A complaint answered quickly can produce a more loyal customer.
+_300
+@EX Part 3: Listening - Integrating Reception and Correspondence
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to managers discussing how they combined a reception procedure and a service standard successfully.
+_80
+@MCQ
+1. How did the managers clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what reception owns and what the registry owns, with one shared log
+   ○ C) Clear roles are not necessary in service
+@MCQ
+2. What did the managers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in service cannot be resolved
+_300
+@EX Part 3: Listening - Customer Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as customers describe how better reception and correspondence changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My firm used to write to this office and sometimes the reply came a week late with no warning. The office began telephoning the day the letter arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating reception and the registry solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each letter. It says what was received and who is dealing with it. When I asked about a missing attachment, the clerk showed me the register and sent it the next day. What the office does actually reaches us and changes what we can rely on. Before, reception and the registry were separate and nothing connected. Now it all connects. Our own customers are better served.
+_200
+@QUESTION
+1. What problem was damaging the firm's planning before the change?
+2. How did the acknowledgement affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether an office gives good service.
+_80
+@BULLET
+What signs indicate that an office is giving its callers reliable service?
+_300
+@EX Part 4: Reading - Caller-First Service Philosophy
+@INSTR Read about caller-first service and answer detailed questions.
+_80
+@PANEL
+Caller-First Service: Foundation for a Lasting Reputation
+Caller-first service is an approach emphasizing the relationship, the promise kept, and the local reputation. It differs from a model that spends on advertising and hopes the enquiries follow. Caller-first service builds steady confidence, where a problem is settled the same week through simple standards close to the caller.
+Caller-first service serves as the foundation of an office system. Instead of every contact being won again from nothing, most routine business comes from people who already trust the organisation. Only new markets need the cost of finding customers. This keeps costs lower and work steadier. In Syria, where advertising reaches few people, direct relationships became vital.
+Prevention is central to the philosophy. Keeping a customer through a reliable reply costs much less than winning a new one. A telephone call before a late answer costs less than a lost account. A clear price list costs less than an argument at the counter. Caller-first service emphasizes these cost-effective measures.
+Caller-first service requires the whole organisation. Reception staff alone cannot create loyalty. The registry must find the file. Departments must answer the question. Finance must invoice correctly and allow sensible credit. Everyone must act on a complaint rather than wait for reception to insist. This approach views the caller as everyone's responsibility, not the receptionist's problem.
+Caller-first service requires coordination among functions. Reception cannot improve without departments answering what they were asked. Reception cannot work if finance refuses every reasonable request. Good service requires departments, finance, the registry and reception all working to one standard.
+Caller-first service requires strong management and continuous learning. Receptionists must be trained, supervised, and supported. Offices must review whether the promises still hold. Offices must learn from a lost customer and adjust. Weak management produces slogans nobody believes. Strong management produces customers who return.
+Caller-first service creates a durable reputation because it builds local trust. An office whose name is trusted in a town serves it for decades. An office that depends entirely on price loses the customer the moment someone is cheaper.
+@NUM 100
+1. How does caller-first service prevent problems instead of only reacting to them?
+2. What functions must coordinate for caller-first service to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. A new reception desk alone is insufficient if the reply is always late. A friendly receptionist alone is insufficient if the information is always wrong. Quality requires coordination of many factors: correct information, a price the caller can rely on, reliable replies, accurate invoicing, a quick answer, and a settled complaint.
+Staff competence is the most important factor in service quality. A skilled receptionist keeps a customer with modest resources. A poorly trained one loses a customer the organisation spent years winning. Investment in training and supervision creates stronger impact than investment in advertising. In resource-limited offices, staff competence determines everything.
+Promises must suit what the office can actually do. A standard taken from a competitor and never tested in your own registry fails quietly. Testing shows the promise works with your staff, your files, and your telephone lines. Standards respecting local conditions produce service that holds.
+Traceable contacts mean every enquiry can be followed back to what was agreed. Calls are logged, letters are registered, and complaints are recorded. Without traceability, a dispute becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the caller actually said, a problem can be found and fixed. If complaints are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+Customer feedback should confirm that the office's view matches the customer's. An internal report shows activity but not satisfaction. Asking the customer directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Syria's service challenges stem from infrastructure and cost. Power is interrupted, telephone lines fail, prices move between quotation and purchase, and equipment is hard to repair. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest reception desk
+   ○ B) Staff competence and training
+   ○ C) Advertising spend alone
+@MCQ
+2. Why is traceability of contacts important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a dispute becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether reception and correspondence are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between reception and the registry | 
+Complaints answered while the customer still needs the answer | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the customer rather than to close a file
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated reception and correspondence systems serve every caller fairly regardless of the size of their business. Service standards kept by trained staff lead to more loyalty than advertising alone. A late reply is acceptable if the information is correct. Staff competence is more important to service than the size of the advertising budget. Separate reception and registry functions are always more efficient than integrated ones. A small office cannot achieve service comparable to a large one for routine enquiries. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every caller fairly?
+2. Is a late reply acceptable if the information is correct?
+3. Are separate reception and registry functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a reception procedure and a service standard integrated from the start.
+_80
+@BULLET
+If you were designing reception and correspondence together for a Syrian office, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Reception and Service
+@INSTR Prepare a presentation on effective reception and service integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated reception and service systems.
+_300
+@EX Part 5: RolePlay - Coordinating Reception and the Registry
+@INSTR Roleplay coordinating reception and the registry when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Customer Service
+@INSTR Discuss how better service could transform a local organisation.
+_80
+@BULLET
+How would integrated reception and correspondence transform an office like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in customer service to the company's directors.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Reception and Service Plan
+@INSTR Write a brief plan for integrating a reception procedure with a service standard.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating reception and the registry and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Customers
+@INSTR Write about how better reception and correspondence changed what customers receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for a Trusted Office
+@INSTR Write about your vision for offices whose reception and correspondence develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Service and Hospitality in Syrian Perspective
+@INSTR Read about Syrian values supporting integrated reception and service work.
+_80
+@PANEL
+Syrian Values Supporting Service and Hospitality
+Syrian traditions provide a strong foundation supporting integrated reception and correspondence. Understanding them helps design culturally appropriate systems gaining workforce and customer support.
+The idea of "amanah" or trust held on behalf of others is central to Syrian practice. A message left with you is a trust, and the one who takes it answers for it. Receiving and replying are understood as duties: those who know an answer are expected to give it, and those who accept a letter are expected to reply. Service in Syrian tradition is a moral obligation, not only a commercial calculation. Systems expressing that duty, with a named person answering for each enquiry, gain stronger support.
+Syrian teaching emphasizes hospitality as a shared responsibility. Households and firms have long received guests through the diwan, where a visitor is welcomed before business begins, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the request, the answer, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as receiving a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The diwan is the space whose users share a reputation and a set of visitors. Members are responsible for each other. If one clerk gives wrong information, the whole office's reputation suffers. If one receptionist promises what cannot be delivered, every promise is weakened. An integrated system combines receiving and replying as a single shared responsibility.
+Women's role in administration is deep and increasingly recognized. Women hold detailed knowledge of how records are kept, how visitors are received and what courtesy means in practice, and increasingly lead office teams. Senior managers emphasize that training women managers strengthens the whole organisation. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Syrian craft ethics require high standards. Master scribes and senior clerks are trusted figures accountable to their colleagues and to the family name on the letterhead. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of dealing with the same family for generations shows that everything is interconnected — courtesy, accuracy, speed, cost and reputation. This way of thinking naturally supports integrated systems. Separating the receiving from the replying fragments what a caller experiences as one relationship. Integrated systems honour that unity.
+Aligning reception and correspondence with Syrian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Syrian tradition support service as a moral obligation?
+2. What traditional Syrian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Systems
+@INSTR Discuss how to design reception and service systems respecting local values and practices.
+_80
+@BULLET
+How can reception and service systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Reception and Service Concepts
+@INSTR Review Unit 7 by matching reception and service concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Enquiry log
+2. | Service level
+3. | Loyalty
+4. | Acknowledgement
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The record of who called, what they wanted and who answered
+b) | The agreed standard of delivery and response a caller can expect
+c) | A customer returning because the last contact went well
+d) | A note confirming what was received and who is dealing with it
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are reception and correspondence closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Reception receives the question and correspondence is what answers it
+   ○ C) Only advertising matters for reputation
+@MCQ
+2. What is the primary advantage of integrating reception and correspondence?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Customers return, so each contact costs less than winning a new customer
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained local agent expand an office's reach?
+@OPT
+   ○ A) It reduces the office's reputation
+   ○ B) A local name answers in towns an officer cannot reach weekly
+   ○ C) Local agents are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Advertising has no effect on reputation
+   ○ B) A skilled receptionist keeps a customer with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large organisations
+_300
