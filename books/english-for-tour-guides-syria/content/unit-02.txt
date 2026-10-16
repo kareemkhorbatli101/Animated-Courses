@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Tour Guide Roles and Careers
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Tour Guiding Do?
+@INSTR Discuss with a partner what jobs and roles exist in a tour guide team.
+_80
+@BULLET
+What types of jobs do you think people have in a tour guide team?
+_300
+@EX Warm-Up: Matching Guiding Jobs to Descriptions
+@INSTR Match each guiding job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Guest Desk Clerk
+3. | Lead Guide
+4. | Permit Clerk
+5. | Office Services Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the storage and the retention and controls who may open each file
+b) | Runs the guest desk, the enquiries and the replies and signs the daily log
+c) | Leads the whole office and answers to the company for the result
+d) | Prepares statements, keeps site passes and files the licence records
+e) | Maintains the equipment and keeps the records the labour authority requires
+_300
+@EX Warm-Up: Guiding Job Skills
+@INSTR Classify the following skills by which guiding job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. | Records Clerk
+2. | Guest Desk Clerk
+3. | Permit Clerk
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Planning a week's work across three assistant guides  ____________________________
+2. Finding one file among four thousand quickly  ____________________________
+3. Reading an agency regulation and applying it correctly  ____________________________
+4. Calculating the cost of one agency's night cover  ____________________________
+5. Preparing a retention schedule for the quarter  ____________________________
+6. Answering an enquiry without delaying the tour  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Tour Guiding?
+@INSTR Discuss with a partner: Would you like to work in tour guiding? Why or why not?
+_80
+@BULLET
+Would you like to work in tour guiding in the future? What role would you like to have?
+_300
+@EX Warm-Up: Guiding Work in Syria
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are tour guides in Syria very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They protect damaged agencies and keep guests able to travel
+   ○ C) They do not work with suppliers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Guiding Job Titles and Descriptions
+@INSTR Match each guiding job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Storekeeper
+3. | Guest Desk Clerk
+4. | Permit Clerk
+5. | Lead Guide
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who plans the storage and controls who may open each file
+b) | A person who keeps the equipment records, receives kit and issues it again
+c) | A person who answers enquiries, receives lost property and routes every report
+d) | A person who prepares statements, keeps site passes and files the records
+e) | A person who leads the whole office and answers to the company for it
+_300
+@EX Part 1: Guiding Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Register Clerk
+2. | Equipment Controller
+3. | Shift Coordinator
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Logs the reports and tracks each file
+b) | Works out what each guide bag should hold
+c) | Arranges shifts and correspondence
+d) | Checks that the rules were followed
+_300
+@EX Part 1: Skills Required for Guiding Work
+@INSTR Complete the table by filling in the required skills for each guiding job.
+_80
+@GRID
+Guiding Job | Skill 1 | Skill 2
+Register Clerk |  | 
+Equipment Controller |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  organized
+b)  clear instructions
+c)  careful with figures
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Tour Guiding
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Guides often work in a ____________________ (office) or out on an agency tour.
+2. Working in guiding can be ____________________ (demanding) but very rewarding.
+3. Guides usually work as a ____________________ (team) with permits and finance.
+_300
+@EX Part 1: Listening - Guiding Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of guiding jobs and answer the questions.
+_80
+@MCQ
+1. What does a records clerk do in the office?
+@OPT
+   ○ A) Trains new customers only
+   ○ B) Plans the storage, watches the retention and solves problems as they appear
+   ○ C) Signs the annual accounts
+@MCQ
+2. What is a guest desk clerk's main responsibility?
+@OPT
+   ○ A) Run the guest desk, route every report and keep the enquiry log
+   ○ B) Drive the vehicle on every tour
+   ○ C) Set the selling price of the goods
+_300
+@EX Part 1: Reading - Guiding Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their guiding careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become register clerks or deputy lead guides. Junior guides receive training to improve their reporting and their languages. Some work on the guest desk as desk supervisors, running a shift. Others work in the records room as register clerks or in permits as licence officers. The most experienced guides may become lead guides who answer to the company and train other guides. Working in guiding offers opportunities to learn, to grow, and to keep work that others depend on moving.
+@NUM 100
+1. How do most people start their careers in tour guiding?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Guiding Career Interest
+@INSTR Discuss with a partner: Which guiding job interests you most?
+_80
+@BULLET
+Which guiding job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in a tour guide team for five years.
+2. They ____________________ (have answered) many enquiries in this office.
+3. The lead guide ____________________ (has trained) all new assistant guides.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new duty roster
+They |  | replies for 500 enquiries
+He |  | three annual equipment checks
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has completed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new response report?
+3. ____________________ the clerk registered the permit?
+4. ____________________ they completed the equipment check?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this company before.
+3. He ____________________ (hasn't been) to an agency meeting.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the lead guide worked in guiding?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the manager worked in?
+@OPT
+   ○ A) Heritage sites only
+   ○ B) Heritage sites, a museum, and a border office
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or organizing experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Lead guide Interview
+@INSTR Before listening, discuss: What questions would you ask an lead guide?
+_80
+@BULLET
+What would you like to know about working in a tour guide team?
+_300
+@EX Part 3: Listening - Interview with a Lead guide
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with an lead guide and answer the questions.
+_80
+@MCQ
+1. What does the lead guide do?
+@OPT
+   ○ A) Trains students at the academy
+   ○ B) Agrees the tour plan with the company and answers for the result
+   ○ C) Works only on the guest desk
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many enquiries
+   ○ B) Power that fails in the middle of a long night shift
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about a guiding training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new guides. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced lead guides from the company. They provide lessons in reporting, languages, and running a records room. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new guides. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced lead guides from the company. They provide lessons in reporting, languages, and running a records room. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach reporting and languages.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Guiding Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in tour guide teams and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of guests
+   ○ B) Interrupted power and equipment that cannot be repaired
+   ○ C) Difficult guests
+@MCQ
+2. How many tour vehicles does the office have?
+@OPT
+   ○ A) One vehicle
+   ○ B) Three vehicles
+   ○ C) Two vehicles
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in tour guiding.
+_80
+@MCQ
+1. What position is the young assistant guide offered?
+@OPT
+   ○ A) Office lead guide position
+   ○ B) A chance to train toward records clerk
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only reporting knowledge
+   ○ B) Leadership, languages, and communication
+   ○ C) Only computer skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Office Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of office?
+_80
+@BULLET
+How might roles differ between a small agency office and a large city command?
+_300
+@EX Part 4: Reading - Tour Guide Team Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most companies have a hierarchical structure. At the top is the Lead Guide who agrees the tour plan with the company and answers for the result. Below the lead guide are section heads who run specific areas such as records, the guest desk, permits and equipment. Each section head supervises guides and assistants who carry out the daily work. Compliance officers check whether the rules were followed, and report to the company directly.
+Offices also employ support staff like storekeepers, drivers, and cleaners. While these roles may seem less visible, they are essential. For example, a driver makes sure a tour reaches the agency on the promised day. A cleaner makes sure the office is safe to work in. Every role is important for the organisation to function effectively.
+Recent years have seen changes in guiding structures. Smaller offices operate more flexibly, with fewer management layers. This allows a decision to be taken faster. However, keeping records complete and equipment accounted for remain challenges even with simpler structures.
+@NUM 100
+1. Who agrees the tour plan with the company?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Guides must be decisive — willing to choose a course when neither option is perfect. They also need persistence — the commitment to trace a missing file even when it takes weeks. The experience of senior guides is valuable for training new people. Offices also value transparency — being honest with the company about what the figures really show.
+@MCQ
+1. What does "decisive" mean?
+@OPT
+   ○ A) Slow and uncertain
+   ○ B) Willing to choose a course when neither option is perfect
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a missing file
+   ○ B) Commitment to trace it even when it takes weeks
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Guiding Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Plans the storage and reports the monthly files |  | Records
+Runs the guest desk and keeps the enquiry log |  | Desk
+@CHOICEHEAD Choices:
+@CHOICE
+a)  records clerk
+b)  desk clerk
+_100
+_300
+@EX Part 4: True/False - Guiding Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Offices employ both experienced guides and trainees. Trainees commit their time for a small payment because they want experience. Many guides in developing countries earn modest salaries compared to guides abroad. However, they often report higher job satisfaction. Companies invest in staff training and development. Guides can learn new skills while keeping work moving for other people. Career advancement is possible for dedicated guides who perform well.
+@NUM 100
+1. Some people in tour guide teams are trainees.
+2. Guiding salaries at home are higher than salaries abroad.
+3. Companies provide training opportunities.
+_300
+@EX Part 4: Discussion - Guiding Career Values
+@INSTR Discuss: If guiding salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose tour guiding even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in a tour guide team. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Guiding Career Path
+@INSTR Prepare and present a 3-part talk about career paths in tour guiding.
+_80
+@NUM 100
+1. How do people start and advance in guiding careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in guiding work?
+_300
+@EX Part 5: Discussion - Overcoming Guiding Challenges
+@INSTR Discuss with a partner: How do guides cope with interrupted power and old equipment?
+_80
+@BULLET
+How do experienced guides overcome shortages of equipment and vehicles?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Manager
+@INSTR Role play: A junior assistant guide asks an experienced lead guide for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a company expressing interest in a guiding traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our company?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of a Lead guide
+@INSTR Write a paragraph describing a typical day of an lead guide. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Guiding Work
+@INSTR Write a short reflection about what you could learn from working in a tour guide team. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Guiding Sector in Syria and the Region
+@INSTR Read about guiding work in Syria and the Middle East region, then answer questions.
+_80
+@PANEL
+The guiding sector in Syria has changed significantly in response to the need to bring travellers back to sites that were looted or damaged. Large companies, ministries, museums and small agency offices all employ guides. These guides serve both their own agencies and guests from abroad. Working in Syria's offices requires persistence because power, equipment and spare parts are all uncertain.
+In neighboring countries like Lebanon and Jordan, companies employ guides who serve both local guests and foreign groups. The work is challenging but essential. These organisations demonstrate how dedicated professionals keep working in hard times. Syrian guides are known in the region for their resourcefulness and persistence.
+Many Syrian professionals who studied abroad chose to return to serve at offices at home. They sacrifice higher salaries in wealthy countries to interpret the sites of their own towns. This shows deep commitment to the country and to the reliability of its institutions. Their choices inspire others to consider guiding careers.
+@NUM 100
+1. Why has the guiding sector in Syria changed?
+2. What characteristic is emphasized about Syrian guides?
+_300
+@EX Part 7: Discussion - Values in Guiding Work
+@INSTR Discuss what values are important in guiding work, especially where equipment is scarce.
+_80
+@BULLET
+What values should guides, especially those working with scarce equipment and vehicles?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Guiding Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Lead Guide
+3. | Guest Desk Clerk
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the storage and controls access to files
+b) | Agrees the tour plan and answers to the company
+c) | Runs the guest desk and keeps the log
+d) | Checks whether the rules were followed
+_300
+@EX Part 8: Integrated Assessment - Guiding Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin guiding careers?
+@OPT
+   ○ A) As lead guides
+   ○ B) As trainees
+   ○ C) As compliance officers
+@MCQ
+2. What is the most valuable quality for guides according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the work and the people who depend on it
+   ○ C) Previous office experience only
+@MCQ
+3. How has the guiding sector in Syria changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has changed in response to the need to protect looted agencies
+   ○ C) It has decreased permanently
+@MCQ
+4. What do guides value according to the culture discussion?
+@OPT
+   ○ A) Closing the maximum number of files at any cost
+   ○ B) Honesty, accountability, and responsibility to guests and colleagues
+   ○ C) Avoiding difficult situations
+_300

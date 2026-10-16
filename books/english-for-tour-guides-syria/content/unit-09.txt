@@ -1,0 +1,376 @@
+@UNITHEAD Unit 9: Growth, Change and Scaling the Guiding Office
+@PART Warm Up | Warm Up
+@EX Warm-Up: Office Growth Challenges Discussion
+@INSTR Discuss challenges when a company grows beyond its first office.
+_80
+@BULLET
+When an office works well from one office, what challenges might it face when it tries to grow?
+_300
+@EX Warm-Up: Growth Definition Matching
+@INSTR Match growth and change concepts with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Organic growth
+2. | Scaling
+3. | Replication
+4. | Adaptation
+5. | Capability Building
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Opening more offices, shifts or languages to serve more guests
+b) | Training lead guides and staff to run the office without the founding lead guide
+c) | Growing from the company's own allocation rather than outside money
+d) | Opening a second office on the same model in a place with similar needs
+e) | Changing parts of the model to suit a different district or language
+_300
+@EX Warm-Up: Speed vs Standards Discussion
+@INSTR Discuss the balance between fast growth and holding service standards.
+_80
+@BULLET
+Discuss the difference between an office that opens many offices quickly and one that grows slowly to hold its standards.
+_300
+@EX Warm-Up: Transition to Delegated Management Discussion
+@INSTR Discuss how a company moves from one lead guide approving everything to delegated command.
+_80
+@BULLET
+As a company moves from one lead guide approving everything to delegated command, what skills do lead guides need?
+_300
+@EX Warm-Up: Delegation Classification
+@INSTR Classify practices as supporting OR preventing real delegation.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Supports Delegation
+2. Prevents Delegation
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Office lead guides are given a budget and the authority to approve within it  ____________________________
+2. The founding lead guide signs every equipment request personally, however small  ____________________________
+3. Office lead guides are trained to prepare their own plans  ____________________________
+4. All decisions wait for one person who travels constantly  ____________________________
+5. Lead guides hold their own monthly meeting and set their own targets  ____________________________
+6. Lead guides see the results but have no say in what is decided  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Growth and Change Terminology Matching
+@INSTR Match key terms in growth and change with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Geographic Expansion
+2. | Volume Growth
+3. | Service Deepening
+4. | Institutionalisation
+5. | Integration
+6. | Succession Plan
+7. | Self-Financing Growth
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Covering more hours for the agencies the office already serves
+b) | A plan showing who will lead the office when the founding lead guide steps back
+c) | Opening offices in new districts, governorates or regions
+d) | Growth funded from the company's own allocation rather than borrowing
+e) | Turning one lead guide's habits into written procedures anyone can follow
+f) | Bringing a service such as translation or first aid inside the company
+g) | Adding night tours or escort duty for the same agencies rather than finding more
+_300
+@EX Part 1: Growth Approaches Matching
+@INSTR Match growth strategies with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Shared Operations Rooms
+2. | Delegated Command
+3. | Cost of Growth
+4. | Institutionalisation
+5. | Command Transition
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Growth justified by the staffing and overhead it will absorb
+b) | Letting one operations room serve several offices to an agreed standard
+c) | Office lead guides run their areas within an agreed budget
+d) | The founding lead guide stays involved but moves to chairing rather than approving
+e) | Written procedures and job descriptions replace personal instruction
+_300
+@EX Part 1: Growth Success Factors Multiple Choice
+@INSTR Choose the best answer about growth factors.
+_80
+@MCQ
+1. What is the primary requirement before opening a second office?
+@OPT
+   ○ A) The company must already be very large
+   ○ B) The company must have written procedures, trained lead guides, and proof the model works
+   ○ C) The company must have the support of a government office
+_300
+@EX Part 1: Capability Building Concept Discussion
+@INSTR Discuss what capability building means in a growing office.
+_80
+@BULLET
+What does capability building mean and why is it essential for growth that lasts?
+_300
+@EX Part 1: Replication vs Adaptation Multiple Choice
+@INSTR Choose the correct distinction between these concepts.
+_80
+@MCQ
+1. What is the key difference between replication and adaptation?
+@OPT
+   ○ A) Replication copies the same model to a new place; adaptation changes it to fit a different district
+   ○ B) Replication is done by ministries; adaptation is done by lead guides
+   ○ C) Replication is faster; adaptation is slower
+_300
+@EX Part 1: Succession Plan Elements Matching
+@INSTR Match succession plan components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transition Timeline
+2. | Capability Development
+3. | Financial Planning
+4. | Authority Transfer
+5. | Partnership Development
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ensuring the ministry and key agencies accept the new leadership
+b) | A clear timeline for the founding lead guide to step back and others to take over
+c) | Planning how the handover is paid for without starving the office of cash
+d) | Gradual shift of approval authority to named lead guides
+e) | Training and coaching for the lead guides taking on the responsibility
+_300
+@EX Part 1: Growth Barriers Classification
+@INSTR Classify potential growth barriers by category.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Resource Barrier
+2. Capability Barrier
+3. Market Barrier
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Not enough working capital to equip a second office  ____________________________
+2. Not enough trained guides to run a second shift  ____________________________
+3. A different district whose guests need different languages  ____________________________
+4. Too few staff to cover the new office every week  ____________________________
+5. Weak records systems that cannot cover three offices at once  ____________________________
+6. Permit rules in the new governorate restricting transferred staff  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Future Plans for Growth
+@INSTR Create sentences using future tense about growth plans.
+_80
+@NUM 100
+1. Write sentences describing your office's growth plan for the next three years using future tense.
+_300
+@EX Part 2: Conditional Language for Lasting Growth
+@INSTR Use conditional structures to discuss growth planning.
+_80
+@NUM 100
+1. Use conditional structures (if-then, unless, provided that) to describe the conditions under which growth holds.
+_300
+@EX Part 2: Presenting a Growth Strategy
+@INSTR Complete sentences describing the growth approach.
+_80
+@OPTLINE
+1. We __________ to expand from one office to five offices over three years without losing our standards. | plan | planned | will plan | have planned
+_300
+@EX Part 2: Describing Capability Outcomes
+@INSTR Write sentences showing how capability has developed.
+_80
+@NUM 100
+1. Describe changes that have occurred in a command team's capability as the office has grown.
+_300
+@EX Part 2: Questions About Succession Plans
+@INSTR Complete questions that would assess succession planning.
+_80
+@OPTLINE
+1. __________ your command team take over full responsibility for the office within two years? | Can | Will | May | Would
+_300
+@EX Part 2: Comparative Language for Growth Approaches
+@INSTR Create comparative statements about different growth approaches.
+_80
+@NUM 100
+1. Compare fast growth to slow growth using comparative and superlative forms.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Growth Experience
+@AUDIO 🔊 Audio Track 9.19
+@INSTR Listen to a founding lead guide discussing growth challenges.
+_80
+@QUESTION
+1. What was the main lesson the lead guide learned from growing too quickly?
+_300
+@EX Part 3: Listening to Partner Supplier Success
+@AUDIO 🔊 Audio Track 9.20
+@INSTR Listen to a purchasing officer describing a partner supplier arrangement.
+_80
+@MCQ
+1. According to the guide, what was the key to a successful partner arrangement?
+@OPT
+   ○ A) The company paid for everything while the partner contributed nothing
+   ○ B) Clear agreement on terms, shared forecasts, open reporting, and mutual respect
+   ○ C) The partner took over all buying; the office stopped checking
+_300
+@EX Part 3: Listening to Management Readiness Assessment
+@AUDIO 🔊 Audio Track 9.21
+@INSTR Listen to an inspector assessing whether a command team is ready to run the office.
+_80
+@QUESTION
+1. What specific indicators did the inspector use to decide whether the lead guides were ready?
+_300
+@EX Part 3: Listening to Cost of Growth Strategies
+@AUDIO 🔊 Audio Track 9.22
+@INSTR Listen to a finance officer describing how the second office paid for itself.
+_80
+@MCQ
+1. What combination of gains made the expansion pay for itself?
+@OPT
+   ○ A) Only the saving on rent
+   ○ B) More work handled, better supplier prices, less waste, and overheads spread wider
+   ○ C) Cutting every cost until nothing was left to cut
+_300
+@EX Part 3: Listening to Implementation Success Story
+@AUDIO 🔊 Audio Track 9.23
+@INSTR Listen to a manager reflecting on a successful expansion.
+_80
+@QUESTION
+1. Describe two ways the company successfully adapted its model when opening a new office.
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Growth Theory
+@INSTR Read about growth theory and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Growing an office means serving more guests from more offices. Successful growth requires three elements: enough internal capability to hold standards, systematic planning for each step, and agreements with the ministry, partner suppliers and agencies. A company cannot sustain growth without solving the problems at each stage. Growth is not simple copying—it requires careful thinking and disciplined work."
+            Is the following statement true, false, or not given? "The fastest possible growth is always the best approach for an office."
+_300
+@EX Part 4: Reading About Growth Requirements
+@INSTR Complete based on reading about what makes growth last.
+_80
+@NUM
+1. According to reading material, growth that lasts requires all of the following EXCEPT __________.
+_300
+@EX Part 4: Reading About Staff Participation
+@INSTR Read about staff participation in lasting growth.
+_80
+@NUM 100
+1. Read: "Command teams that take part in writing the plan, setting the targets and reviewing the result develop stronger ownership. Ownership is the best single predictor of whether growth lasts. When a team feels it designed the office it runs, it works to keep it. Companies where one lead guide approves every equipment request often stall when that lead guide is absent, because nobody else has ever had a stake in them."
+            Is the following statement true, false, or not given? "Command participation in planning directly causes lasting growth."
+_300
+@EX Part 4: Reading About Succession Plans
+@INSTR Answer based on reading about succession planning.
+_80
+@NUM
+1. Based on reading material, what is the primary purpose of a well-designed succession plan?
+_300
+@EX Part 4: Reading About Adaptation vs Replication
+@INSTR Read about growth strategies.
+_80
+@NUM 100
+1. Read: "A company can take two approaches when opening a new office. Replication means copying the existing model exactly. Adaptation means changing parts of it for the new district or language. Most successful expansions mix both—keeping the proven core while adapting the languages, the tour hours and the staffing to the place."
+            Is the following statement true, false, or not given? "Every office should copy the model exactly without any changes."
+_300
+@EX Part 4: Reading About Partner Supplier Arrangements
+@INSTR Complete based on reading about partner arrangements for lasting growth.
+_80
+@NUM
+1. What are the main benefits for a company of working in partnership with its partner suppliers on growth planning?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Planning an Expansion
+@INSTR Role-play a planning conversation about opening a second office.
+_80
+_300
+@EX Part 5: Presentation - Growth Strategy
+@INSTR Prepare a 2-3 minute presentation about your growth plan.
+_80
+@NUM 100
+1. Present to the company: "Our Three-Year Growth and Succession Plan." Include: current position, the offices to be opened, how you will hold standards, the command training plan, how it will be financed, timeline, and cost overview.
+_300
+@EX Part 5: Discussion - Overcoming Growth Barriers
+@INSTR Discuss solutions to common growth challenges.
+_80
+@BULLET
+What are realistic solutions to the barrier of too few trained lead guides when a company wants to grow?
+_300
+@EX Part 5: Role Play - Budget Funding Negotiation
+@INSTR Role-play negotiating funding for new office equipment with the company.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Growth Plan
+@INSTR Write about how your office will grow over the long term.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Expansion Strategy
+@INSTR Write a plan for opening offices in new places.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Succession Memo
+@INSTR Write a memo to section heads about the transfer of authority.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Partner Supplier Proposal
+@INSTR Write a proposal for a partner supplier arrangement to support growth.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Growth with Intention
+@INSTR Connect Syrian community concepts with the growth of an office.
+_80
+@NUM 100
+1. In Syrian tradition, "ta'awun" means working together so all who share a task benefit. How does this concept relate to growing an office?
+_300
+@EX Part 7: Syrian Values - Stewardship
+@INSTR Discuss Syrian stewardship concepts in lasting public service.
+_80
+@NUM 100
+1. "Waqf" in Syrian usage means something set aside so its benefit continues for generations. How does this principle relate to building an office that outlives its founding lead guide?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 9 Concepts Review Matching
+@INSTR Match Unit 9 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Organic growth
+2. | Scaling
+3. | Capability Building
+4. | Succession Plan
+5. | Adaptation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Changing the model for a different district or language
+b) | Opening more offices, shifts or languages to serve more guests
+c) | Training lead guides to run the office without the founding lead guide
+d) | A plan for who will lead when the founding lead guide steps back
+e) | Growing from the company's own allocation rather than borrowing
+_300
+@EX Part 8: Growth Success Factors Review
+@INSTR Choose the best summary of Unit 9 material.
+_80
+@MCQ
+1. According to Unit 9, what is the relationship between service standards and growth?
+@OPT
+   ○ A) A company must choose—it cannot both hold standards and grow
+   ○ B) Successful growth requires building the standards and the lead guides first
+   ○ C) Growth and standards are unrelated concerns
+_300

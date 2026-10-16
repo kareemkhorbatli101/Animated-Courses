@@ -1,0 +1,460 @@
+@UNITHEAD Unit 4: Equipment, Budgets and Tour Costs
+@PART Warm Up | Warm Up
+@EX Warm-Up: Office Spending Discussion
+@INSTR Discuss the skills that are important for controlling what an office spends.
+_80
+@BULLET
+What skills do you think are important for someone who controls petty cash and buys equipment?
+_300
+@EX Warm-Up: Matching Tasks to Finance Roles
+@INSTR Match office finance roles with the key skills they need most.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Petty Cash Keeper
+2. | Purchasing Officer
+3. | Equipment Controller
+4. | Lead Guide
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A systematic method so no voucher or receipt is left out of the account
+b) | Patience and consistency to enter every payment and receipt the same way
+c) | Judgement about which quotations are comparable and which are not
+d) | Judgement and coordination to decide what is bought, approved and reported
+_300
+@EX Warm-Up: Accuracy Multiple Choice
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. What quality helps a cash keeper produce accounts others can rely on?
+@OPT
+   ○ A) Working as fast as possible
+   ○ B) Care with method and honest recording of what was actually paid
+   ○ C) Leaving out the payments that are hard to explain
+_300
+@EX Warm-Up: Discussion - Personal Strengths
+@INSTR Discuss personal strengths that help people account for money accurately.
+_80
+@BULLET
+What are your personal strengths and how could they help budgeting and record-keeping?
+_300
+@EX Warm-Up: Finance Skills Classification
+@INSTR Classify skills and tools as Technical Skills or Tools.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Technical Skills
+2. Tools
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Working out which of three quotations is really the cheapest  ____________________________
+2. A petty cash box with a numbered voucher book  ____________________________
+3. Deciding which items must be bought centrally and which on tour  ____________________________
+4. The ledger in which every payment and receipt is entered  ____________________________
+5. Reading a budget report and seeing which line is moving  ____________________________
+6. An equipment request showing the quantity, the reason and the approval  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Budget Terms Matching
+@INSTR Match budget terms with their descriptions and uses in practice.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Imprest float
+2. | Variance
+3. | Fixed cost
+4. | Variable cost
+5. | Unit price
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A cost that stays the same whether the office is busy or quiet
+b) | The fixed sum held in the cash box and restored each time it is spent
+c) | The price charged for one item of equipment, software or service
+d) | A cost that rises and falls with how much work the office does
+e) | The difference between what was budgeted and what was actually spent
+_300
+@EX Part 1: Procurement Conventions Table
+@INSTR Complete the table with conventions, their importance, and examples of use.
+_80
+@GRID
+Convention | Why It Matters | Example
+Three quotations |  | 
+Approval limit |  | 
+Imprest system |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  It shows that the price paid was compared before the order was placed
+b)  Three written offers for the same specification, kept with the order
+c)  It states what each manager may approve without going higher
+d)  A manager may approve up to 200,000 and no more without the director
+e)  It keeps the cash box at one known figure that can be checked at any time
+f)  A float of 500,000 restored by the exact value of the vouchers spent
+_100
+_300
+@EX Part 1: Budget Terms Fill-in Blanks
+@INSTR Complete sentences using words about budgets and records.
+_80
+@GAP
+1. An account is only meaningful if every ____________________ has been included in it.
+2. A ____________________ cost rises and falls with how much work the office does.
+3. ____________________ is the difference between the budget and what was actually spent.
+4. ____________________ is essential when the same item is bought by different tours.
+_300
+@EX Part 1: Budget Practice in Context - Fact Questions
+@INSTR Read about budgeting and record-keeping in practice and answer fact questions.
+_80
+@PANEL
+Guides need both arithmetic skills and method skills to control spending well. Arithmetic skills are specific abilities like comparing quotations, calculating a percentage and checking a total. Method skills are conventions like which costs belong to which tour, how to treat a shared cost and when to mark a figure as an estimate.
+Allocation is particularly important. An office cost describes a method, not a fact, so the method must be stated. Direct allocation charges a cost to the tour that asked for it. Rate allocation spreads a shared cost such as electricity by group size or by office hours. Judgement decides which method tells the truth.
+Reading figures helps staff understand what a number means. This skill prevents over-reaction to a single bad month and catches a genuine overspend early. Staff with strong reading of figures see a trend rather than a list of totals.
+Checking skills are valuable even for the most experienced staff. Cash keepers reconcile the box with the voucher book. Managers re-check a quotation they have already approved. Checking means catching the error in the office rather than at the audit.
+All these skills can be learned and improved through practice and training. Offices invest in staff development because accurate accounting prevents losses.
+@NUM 100
+1. What is the difference between arithmetic skills and method skills?
+2. Why is allocation important in office budgeting?
+_300
+@EX Part 1: Discussion - Skills for Accuracy
+@INSTR Discuss how different skills contribute to accurate accounts.
+_80
+@BULLET
+Think of a skill you have or want to develop. How would it help in budgeting work?
+_300
+@EX Part 1: Listening - Budget Skills in Action
+@AUDIO 🔊 Audio Track 4.11
+@INSTR Listen to guides describing the skills they use and answer questions.
+_80
+@MCQ
+1. What skills does the equipment controller emphasize?
+@OPT
+   ○ A) Only arithmetic
+   ○ B) Method, patience, and honest recording
+   ○ C) Only speaking to suppliers
+@MCQ
+2. What does the lead guide say is most important?
+@OPT
+   ○ A) Working alone without the tours
+   ○ B) Integrity, so the accounts can be relied on
+   ○ C) Producing the longest possible report
+_300
+@EX Part 1: Summary - Core Skills for Reliable Accounts
+@INSTR Choose the best explanation for successful budgeting and record-keeping work.
+_80
+@MCQ
+1. What combination is most important for budgeting work?
+@OPT
+   ○ A) Only arithmetic matters
+   ○ B) Only neat records without a sound method
+   ○ C) Arithmetic plus a stated method and careful checking
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Modal Verbs About Ability and Necessity
+@INSTR Complete sentences with appropriate modal verbs about office finance work.
+_80
+@NUM
+1. Cash keepers ____________________ (record) every payment at the time it is made.
+2. All finance staff ____________________ (state) which costs the figure includes.
+3. These conventions ____________________ (learn) through training and practice.
+_300
+@EX Part 2: Adjectives Describing Skills and Qualities
+@INSTR Complete the table with adjectives that describe guides and their finance work.
+_80
+@GRID
+Quality/Skill Noun | Descriptive Adjective (How would you describe someone with this?)
+Accuracy | 
+Patience | 
+Method | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Accurate
+b)  Patient
+c)  Methodical
+_100
+_300
+@EX Part 2: Describing Requirements with Gerunds
+@INSTR Complete sentences about office finance work using gerunds (-ing form).
+_80
+@GAP
+1. ____________________ the cash box against the voucher book prevents a whole month of wrong figures.
+2. ____________________ under time pressure requires extra care and a second look.
+3. ____________________ the same method across tours keeps the figures comparable.
+4. ____________________ from an overspend teaches staff to check earlier.
+_300
+@EX Part 2: Comparative Adjectives About Budgeting
+@INSTR Complete sentences comparing office finance qualities using comparative forms.
+_80
+@NUM
+1. A stated method is ____________________ (useful) than a precise figure nobody can explain.
+2. Staff with longer experience are usually ____________________ (quick) to spot a wrong total.
+3. Monthly accounts are ____________________ (reliable) than accounts prepared once a year.
+_300
+@EX Part 2: Listening - Grammar in Context About Budgeting
+@AUDIO 🔊 Audio Track 4.17
+@INSTR Listen to a trainer talking about developing finance skills and answer questions.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: When we train new staff, we focus on developing both arithmetic and method skills. A good cash keeper must know how to check a total, but must also record the payment in a way others can follow. A good manager must compare quotations accurately, but must also understand what the figure will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from an overspend is more valuable than never taking responsibility for a budget. We want our staff to be confident enough to sign their accounts even when the month is busy.
+_200
+@QUESTION
+1. What two types of skills must guides develop?
+2. How do staff develop accuracy according to the trainer?
+_300
+@EX Part 2: Grammar Review - Skills and Qualities
+@INSTR Discuss how to talk about skills and qualities in English.
+_80
+@BULLET
+Explain the difference between "I can check a total" and "I am accurate" in terms of skills.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Office and Store Roles
+@INSTR Before listening, discuss what different staff do and the skills they need.
+_80
+@BULLET
+What skills would a cash keeper, a purchasing officer, and a lead guide need?
+_300
+@EX Part 3: Listening - Different Perspectives on Finance Skills
+@AUDIO 🔊 Audio Track 4.20
+@INSTR Listen to people from different roles discuss skills needed in their work.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: As an equipment controller, I must combine careful arithmetic with judgement. I follow the method exactly, but I also decide when a quotation looks wrong and must be checked again. Many tours order more than the standard allows. I re-check one order every week so I know how far our prices have drifted. This requires arithmetic and honest recording.
+^Manager: As lead guide, I coordinate many figures and reports. I must have organizational skills to manage the month-end and the audit. I must have leadership to refuse a purchase that is not in the budget when a tour is waiting. I need problem-solving abilities when the ledger contradicts the store records. Perhaps most important, I must have integrity so my signature means something.
+~Field Guide: Controlling cash on tour requires very different skills than office work. I must build trust with the tours over weeks so they tell me what the money was really for. I can never be rushed—a voucher written badly is worse than no voucher. I need flexibility because every request arrives differently. I must be humble enough to learn the work from the people doing it. This is how we produce accounts nobody disputes.
+_200
+@QUESTION
+1. What does the equipment controller combine in her work?
+2. Why does the third speaker emphasize building trust with tours?
+_300
+@EX Part 3: True/False - Finance Skills and Development
+@INSTR Read statements about office finance skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Guides require well-developed arithmetic to control spending accurately. Budgeting ability improves with practice and feedback. Some staff are born naturally methodical while others must develop method through experience. Offices invest heavily in training new staff because proper training saves money and prevents losses. Arithmetic skills are essential but insufficient without a stated method and record discipline. Reconciling the cash box is wasteful and inappropriate for keepers who should trust their first entry. Humility and lifelong learning are valued traits in effective guides.
+@NUM 100
+1. Guides need strong arithmetic skills.
+2. Reconciling the cash box is inappropriate for keepers.
+3. Humility is valued in effective guides.
+_300
+@EX Part 3: Listening - Developing Skills Through Experience
+@AUDIO 🔊 Audio Track 4.22
+@INSTR Listen to a trainer describing how staff develop skills on the job.
+_80
+@MCQ
+1. Where does the trainer say guides develop their best skills?
+@OPT
+   ○ A) Only in lecture rooms
+   ○ B) On the job, by controlling a real budget and seeing the result
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+2. What does the trainer say staff need while they learn?
+@OPT
+   ○ A) To be left alone until they are expert
+   ○ B) Checking and mentoring so an error is caught on paper
+   ○ C) Longer working hours
+_300
+@EX Part 3: Listening - Personal Stories About Developing Skills
+@AUDIO 🔊 Audio Track 4.23
+@INSTR Listen to guides describing how they developed their skills.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: I came to office work from mathematics teaching with plenty of theory but no idea about offices. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to account for a payment when the receipt was missing, when the price had changed, when we had no quotation at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good bookkeeper in a shop, but a guide company was different. In a shop, every cost arrived on one invoice. In an office, I had to find the cost myself in shared bills nobody had split. I learned to be systematic and accept that perfect figures were impossible. I learned that a stated estimate serves the lead guides better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200
+@QUESTION
+1. What helped the first coordinator develop skills in an office?
+2. What was the bigger lesson the bookkeeper learned in a guide company?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Your Gifts for Figures
+@INSTR Discuss what gifts and strengths you have that could help in office finance work.
+_80
+@BULLET
+What do you do well that could help control a tour budget accurately?
+_300
+@EX Part 4: Reading - Office Finance Competency Framework
+@INSTR Read about a comprehensive competency framework for office finance work and answer questions.
+_80
+@PANEL
+Understanding Budgeting and Record-Keeping Competencies
+Effective guides require competencies in five areas: Arithmetic, Allocation Method, Reading Figures, Process Knowledge, and Record Discipline.
+Arithmetic is the foundation. A cash keeper must handle totals, percentages and balances. A purchasing officer must compare quotations on the same basis. A lead guide must understand what a budget figure can and cannot show. This knowledge forms the base but is not enough alone.
+Allocation method includes which costs belong to which tour, how to split a shared bill, and when to state that a figure is an estimate. Staff must produce a figure that represents the office and explain the method behind it. A precise figure built on the wrong method tells you nothing at all.
+Reading figures is valuable at all levels. Even a junior clerk must know the difference between normal variation and a genuine overspend. Strong reading of figures prevents both panic and complacency.
+Process knowledge means understanding how the work is actually done and paid for. Guides in Morocco must understand coach hire, equipment repair, certified translation, and the real cost of fuel between cities. Staff with this knowledge know which costs matter and which do not.
+Record discipline means writing the figure at the time, in ink, signed and dated. Staff who complete records later create evidence nobody can rely on. Good discipline includes recording what was estimated as well as what was paid.
+These five competencies work together. Strong records improve the reading of figures. Process knowledge improves allocation method. Together, they create highly effective guides.
+@NUM 100
+1. What are the five competency areas for budgeting and record-keeping work?
+2. Why is record discipline important for guides?
+_300
+@EX Part 4: Text - Qualities That Transform Office Finance Work
+@INSTR Read about character qualities that make office accounts trustworthy.
+_80
+@PASSAGE
+Beyond skills and competencies, certain character qualities transform office finance work from routine arithmetic into real professional service. Humility allows staff to learn from the office and admit when a figure is wrong. Humble staff recalculate rather than defend.
+Courage enables staff to report what they found and to refuse a payment. Courageous staff in Morocco report an overspend when the lead guides were expecting a saving. They face the pressure and record the truth anyway so the problem can be corrected.
+Patience helps staff maintain care through the hundredth voucher of a month. Without patience, accounts become careless and the figures cannot be trusted. With patience, staff keep the same standard from the first entry to the last.
+Integrity ensures staff remain honest about what they paid and what they estimated even when deadlines are short. Staff with integrity mark an estimated figure as estimated. They refuse to let a month-end justify a number that misleads.
+Care—genuine concern for the agencies the office serves—connects all these qualities. Staff who truly care about the organisation find meaning in the detail and persist through tedium. Care transforms accounting from arithmetic into responsibility.
+These qualities cannot be taught in classrooms; they must be developed within each person through reflection, experience, and commitment.
+@MCQ
+1. Which quality helps staff learn from the office itself?
+@OPT
+   ○ A) Confidence that the first figure is correct
+   ○ B) Humility that leads them to recalculate
+   ○ C) Avoiding the difficult payments
+@MCQ
+2. What does the text say about character qualities in office finance work?
+@OPT
+   ○ A) They are not important for effective work
+   ○ B) They transform arithmetic into professional responsibility
+   ○ C) Only arithmetic skills matter
+_300
+@EX Part 4: Application - Skills for Different Situations
+@INSTR Read scenarios and fill in which key skills are most important.
+_80
+@GRID
+Office Situation | Most Important Skill
+Closing a quarter's accounts for five tours in two days | 
+Investigating why one budget line overspent all year | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Method and systematic organization
+b)  Judgement and careful reading of figures
+_100
+_300
+@EX Part 4: True/False - Finance Skills Development
+@INSTR Read statements about office finance skills and mark them True, False, or Not Given.
+_80
+@PANEL
+Guides require well-developed reading of figures to control budgets correctly. Budgeting ability improves with practice and feedback. Some staff are born naturally methodical while others must develop method through experience. Offices invest heavily in training new staff because proper training saves money and prevents losses. Arithmetic is essential but insufficient without a stated method and record discipline. Reconciling the cash box is wasteful and inappropriate for staff who should trust their first entry. Humility and lifelong learning are valued traits in effective guides.
+@NUM 100
+1. Guides need strong reading of figures.
+2. Reconciling the cash box is inappropriate for staff.
+3. Humility is valued in effective guides.
+_300
+@EX Part 4: Discussion - Building Your Skills
+@INSTR Discuss how you would develop skills for future office finance work.
+_80
+@BULLET
+Which office finance skills do you most need to develop, and how would you develop them?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Essential Skills for Office Finance Work
+@INSTR Prepare a presentation about the most important skills for reliable accounts.
+_80
+@NUM 100
+1. Present the arithmetic, method and character skills that office finance work requires.
+_300
+@EX Part 5: RolePlay - Job Interview for an Equipment Controller Position
+@INSTR Roleplay a job interview for an equipment controller position discussing your skills and qualities.
+_80
+_300
+@EX Part 5: Discussion - Developing Skills for Accuracy
+@INSTR Discuss how to develop skills and qualities for accurate accounts.
+_80
+@BULLET
+How can a cash keeper develop arithmetic, method and the reading of figures over a career?
+_300
+@EX Part 5: RolePlay - Mentoring Conversation About Accounts
+@INSTR Roleplay a mentor discussing skill development with a new cash keeper.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Personal Skills Assessment
+@INSTR Write about your personal skills and how they could contribute to office finance work.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - How a Skill Changed Your Work
+@INSTR Write about how developing a specific skill improved your accuracy or understanding.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Training Program for Office Finance Skills
+@INSTR Write a proposal for a training program to develop budgeting and record-keeping skills.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflection on Building Your Professional Identity
+@INSTR Write a reflection on how you would develop yourself into a future lead guide.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Budgeting and Procurement Excellence in Morocco
+@INSTR Read about exemplary office administration in Morocco and answer detailed questions.
+_80
+@PANEL
+Moroccan office finance teams demonstrate exceptional judgement, skill, and commitment despite real difficulties. They work with prices that can change between the quotation and the delivery, re-pricing in stages and recording every assumption. They keep accounts through long seasonal peaks, writing by hand and entering the figures later. They prepare returns for thousands of transactions with help from trainees.
+Moroccan guides understand local costs deeply. They know headset battery prices, coach hire, repair costs and the real cost of certified translation as these behave in local circumstances. This knowledge helps them judge which costs matter for a budget and which do not. They read the market, know the suppliers, and understand shortage because many have queued for a part themselves.
+The commitment of Moroccan office finance teams is remarkable. Many work long hours for modest salaries or no overtime. Many face real pressure when an honest figure would stop a purchase. Many have rebuilt their own records yet continue reporting honestly. Their dedication demonstrates that careful accounting emerges from deep internal conviction—a personal relationship with the organisation and a commitment to protecting it.
+International partners often say that Moroccan colleagues teach them what real resourcefulness looks like. The persistence, improvisation and procedural knowledge of local staff inspires and humbles those with easier conditions. This partnership between international support and local knowledge produces the most reliable accounts available.
+@NUM 100
+1. What challenges do Moroccan office finance teams face?
+2. Why is local cost knowledge valuable in budgeting work?
+_300
+@EX Part 7: Discussion - Mutual Learning Between Finance Staff
+@INSTR Discuss what international and local guides can learn from each other.
+_80
+@BULLET
+What can international and Moroccan guides teach each other about budgeting under hardship?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 4 Summary - Skills and Qualities
+@INSTR Review Unit 4 by matching skills and qualities with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Arithmetic
+2. | Allocation Method
+3. | Record Discipline
+4. | Integrity
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Handling totals, percentages and balances correctly
+b) | Deciding which costs belong where and how to split a shared bill
+c) | Writing the figure at the time, signed and dated
+d) | Marking an estimate as an estimate even when a deadline presses
+_300
+@EX Part 8: Integrated Assessment - Unit 4 Mastery
+@INSTR Demonstrate understanding of Unit 4. Choose the best answer.
+_80
+@MCQ
+1. What two types of skills must guides develop for budgeting work?
+@OPT
+   ○ A) Only arithmetic
+   ○ B) Arithmetic and method skills like allocation and recording
+   ○ C) Only salary negotiation skills
+@MCQ
+2. Why are character qualities like patience and integrity important in office finance work?
+@OPT
+   ○ A) They increase salaries and benefits
+   ○ B) They turn arithmetic into professional responsibility others can rely on
+   ○ C) They are not really important
+@MCQ
+3. How do guides best develop practical budgeting skills?
+@OPT
+   ○ A) Only through classroom training
+   ○ B) Through controlling a real budget and seeing the consequences, with mentoring support
+   ○ C) Skills cannot be developed after hiring
+@MCQ
+4. What is the value of Moroccan guides in international partnerships?
+@OPT
+   ○ A) They require supervision and have limited expertise
+   ○ B) They bring local cost knowledge, resourcefulness, and real understanding of the market
+   ○ C) International partners do all the real work
+_300

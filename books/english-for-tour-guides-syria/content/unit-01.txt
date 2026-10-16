@@ -1,0 +1,642 @@
+@VOICES Guide | Operations Officer | Finance Officer | All Guides
+@UNITHEAD Unit 1: Introduction to Tour Guiding
+@PART Warm Up | Warm Up
+@EX Warm-up: Guiding Terms and Functions Matching
+@INSTR Match guiding terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Tour guiding
+2. | Turnaround time
+3. | Tour register
+4. | Pick-up time
+5. | Tour equipment
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The tours, reports and lost-property entries an office has recorded and holds
+b) | The minutes or hours between a group arriving and a guide meeting them
+c) | The work of planning an office so the guides in it can serve guests well
+d) | The whole time between a report reaching the office and the file being closed
+e) | What the office is holding in its headset cupboard and equipment store now
+_300
+@EX Warm-up: What Is Tour Guiding? Simple Vocabulary Fill
+@INSTR Complete sentences about tour guiding using the words provided.
+_80
+@GAP
+1. Tour guiding is different from ____________________ because it plans a whole office instead of walking one route.
+2. Every purchase is measured against the ____________________, which states what the office may spend.
+3. A group that is met within the stated minutes is recorded as ____________________.
+4. Tour guides are ____________________ professionals who must be trained before they may approve spending.
+_300
+@EX Warm-up: Types of Guiding Work Classification
+@INSTR Classify each task as Planning, Organising, Communicating, or Controlling.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Organising
+3. Communicating
+4. Controlling
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing next quarter's tour plan and the budget to deliver it  ____________________________
+2. Deciding which cabinet each tour file goes in and who may open it  ____________________________
+3. Answering an enquiry and sending the tour notes to the agency office  ____________________________
+4. Comparing this month's equipment spending with the budget  ____________________________
+5. Choosing which two of five suppliers to use this year  ____________________________
+6. Checking that every purchase was approved before the invoice was paid  ____________________________
+_300
+@EX Warm-up: Purposes of Tour Guiding Multiple Choice
+@INSTR Read about tour guiding and choose the correct answer to each question.
+_80
+@PASSAGE
+Tour guiding is the work of planning an office so the guides in it can do their jobs. Lead guides think about what each agency needs, what the office can afford, and how the work will be arranged. Tour guiding covers many kinds of work including rostering, touring, reporting, buying equipment, recording, and reviewing results. People choose to work in tour guiding because they want guests to be safe and promises to be kept.
+@MCQ
+1. What does planning mean in tour guiding?
+@OPT
+   ○ A) Reacting to a problem after a guest complains
+   ○ B) Deciding in advance what the office will cover and what it will cost
+   ○ C) Buying every item from the cheapest supplier available
+   ○ D) Hiding a missed pick-up time from the lead guide
+@MCQ
+2. Which is NOT a common task for a tour guide?
+@OPT
+   ○ A) Preparing a tour budget for the year
+   ○ B) Writing a monthly report on how the office performed
+   ○ C) Standing at one meeting point in the building all day
+   ○ D) Checking that tour spending stayed within the budget
+_300
+@EX Warm-up: Guiding Documents and Tools Matching
+@INSTR Match well-known guiding documents and tools with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Incident report
+2. | Tour route sheet
+3. | Equipment request
+4. | Receipt note
+5. | Duty roster
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A document the owner signs to confirm what was actually returned and when
+b) | A short written note telling named guides what has been decided and what to do
+c) | A chart showing which guide works which hours, in what order and at which agency
+d) | A written record of every point to be visited, who attends, and when it happens
+e) | A request to buy stated items, with the quantity, the reason and the approval
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Guiding and Tour Terminology Matching
+@INSTR Match guiding vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Turnaround time
+2. | Unit cost
+3. | Pick-up time
+4. | Guest
+5. | Supplier
+6. | On-time departure rate
+7. | Equipment check
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A physical check of whether the store holds what the records say it holds
+b) | An outside company that provides the goods or the services an office buys
+c) | The people a tour is arranged for, counted before any shift begins
+d) | A figure chosen to show whether groups are met when they were promised
+e) | The minutes or hours between a group arriving and a guide meeting them
+f) | The price charged for one item of equipment, uniform or outside service
+g) | The whole time between a report reaching the office and the file being closed
+_300
+@EX Part 1: Guiding Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important guiding vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about guiding work, correct pronunciation helps others understand you clearly: // *• Protection* - primary stress on TEC (pro-TEC-tion) // *• Guest* - primary stress on VI (VI-si-tor) // *• Statistics* - primary stress on TIS (sta-TIS-tics) // *• Cooperation* - primary stress on RA (co-op-e-RA-tion) // *• Assistance* - primary stress on SIS (as-SIS-tance) // *• Schedule* - primary stress on SCHED (SCHED-ule) // *• Negotiation* - primary stress on A (ne-go-ti-A-tion) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Guiding Activities and Purposes Table
+@INSTR Complete the table with guiding activities, their main purposes, and examples.
+_80
+@GRID
+Guiding Activity | Main Purpose | Example
+Planning |  | 
+Organising |  | 
+Controlling |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding in advance what the office will cover and what the work will cost
+b)  Setting next quarter's departure target and the tour budget that supports it
+c)  Arranging space, equipment and people so that the work can be carried out
+d)  Numbering the cabinets and naming who may open a tour file in the records room
+e)  Comparing what was actually covered with what was planned and promised
+f)  Reviewing last month's supplier invoices against the prices agreed
+_100
+_300
+@EX Part 1: Guiding Functions and Stages Matching
+@INSTR Match guiding functions with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Planning
+2. | Organising
+3. | Communicating
+4. | Controlling
+5. | Reviewing
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Looking back at a completed quarter to learn what should be arranged differently
+b) | Answering the enquiry, circulating the order and keeping everyone informed
+c) | Comparing what was covered with what was promised and correcting the difference
+d) | Arranging space, equipment and storage so that tour files can be kept and found
+e) | Deciding in advance what the office will cover, for whom, and at what cost
+_300
+@EX Part 1: Tour Guiding Concepts Multiple Choice
+@INSTR Read about guiding work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Guides work at many kinds of site to make visits safer and better organised. Some focus on records, planning the storage and controlling access. Others work in guest assistance, where every enquiry must be answered and every lost item recorded. Many guides also work with suppliers to confirm that invoices match what was ordered. All of them share the goal of work that is completed correctly, on the agreed day and within the budget.
+@MCQ
+1. A ____________________ states what the office may spend over a stated period.
+@OPT
+   ○ A) report
+   ○ B) tour budget
+   ○ C) invoice
+   ○ D) receipt
+@MCQ
+2. The time between a group arriving and a guide meeting them is the ____________________.
+@OPT
+   ○ A) margin
+   ○ B) notice
+   ○ C) pick-up time
+   ○ D) deposit
+@MCQ
+3. The whole time between a report arriving and the file being closed is the ____________________.
+@OPT
+   ○ A) pick-up time
+   ○ B) turnaround time
+   ○ C) tour time
+   ○ D) waiting time
+_300
+@EX Part 1: Guiding-Related Vocabulary Fill-in
+@INSTR Complete sentences using important guiding vocabulary.
+_80
+@GAP
+1. A tour guide is a ____________________ professional who must be trained before approving spending.
+2. ____________________ walk the routes and record the enquiries that lead guides then organise.
+3. The ____________________ decides whether the group was met when it was promised.
+4. All rostering begins with a clear ____________________ describing what must be covered and by when.
+5. The items still held in the store after every equipment request is filled are called the ____________________.
+6. Tour records are ____________________ regularly so the lead guides can trust the figures.
+_300
+@EX Part 1: Syria's Tourism Environment and Heritage Sites
+@INSTR Read about guiding work in Syria and answer the factual questions.
+_80
+@PANEL
+Syrian Tourism Institutions and Guiding Work
+Syria has a long tradition of hospitality to travellers. A tour guide is licensed by the Ministry of Tourism before working with a group, the Tourist Guides Syndicate sets the professional rules, and the Directorate-General of Antiquities and Museums issues the site permits.
+Many offices in Syria serve the heritage sites. Some serve the Old City of Damascus, where the guides walk the lanes, explain the monuments and records every enquiry. Others serve Palmyra, Bosra, the Aleppo citadel and Krak des Chevaliers, where every group needs an official permit. Since the conflict, much guiding work has gone into interpreting sites that were damaged and bringing guests back safely.
+International missions and tour operators also work with Syrian offices. They bring groups, training in guest care and first aid, and knowledge of what a foreign traveller expects to find. Partnerships between Syrian offices and foreign partners strengthen the capacity to work in two languages.
+Guides in Syria often face challenges including interrupted power, vehicles that are hard to repair, and headsets too few to cover a large group. Despite these obstacles, they remain committed to meeting every group and rebuilding confidence in Syrian hospitality.
+@NUM 100
+1. What must happen before a tour guide may work with a group in Syria?
+2. Name three heritage sites Syrian offices serve.
+3. What do international missions and tour operators contribute to Syrian offices?
+4. What challenges do guides in Syria face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Guiding Work
+@INSTR Complete sentences about what guides do using the present simple tense.
+_80
+@GAP
+1. A lead guide ____________________ (approve) every equipment request before it is ordered.
+2. Guides ____________________ (report) the day's enquiries to the lead guide.
+3. The storekeeper ____________________ (check) the equipment store once a month.
+4. Guides ____________________ (record) every item they receive.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes tour guiding a distinct profession.
+_80
+@NUM
+1. Lead guides are ____________________ (accountable) to the company for the money they spend.
+2. Guides are responsible because they ____________________ (responsible) for work others depend on.
+3. The purpose of tour guiding is to ____________________ (organise) the work so others can do theirs.
+_300
+@EX Part 2: Negative Sentences About Guides
+@INSTR Rewrite sentences in the negative form to show what guides do NOT do.
+_80
+@GAP
+1. Lead guides ____________________ (walk every route) - they plan, organise and check.
+2. A lead guide ____________________ (approve) an equipment request without a budget line for it.
+3. Guides ____________________ (promise) an agency a date the office cannot meet.
+4. Guides ____________________ (file) a report they have not actually checked.
+_300
+@EX Part 2: Lead guide and Team Roles Table
+@INSTR Complete the table with roles and what the COMMANDER does vs. what the TEAM does.
+_80
+@GRID
+Work Stage | What the MANAGER does | What the TEAM does
+Before the task |  | 
+During the task |  | 
+At the end |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Agrees the deadline, the format and the budget for the piece of work
+b)  Prepares the files, the equipment and the room where the work is done
+c)  Tracks the progress and removes obstacles as they appear
+d)  Tours, records and keeps the reports moving through the office
+e)  Reviews what was covered and reports the result to the company
+f)  Files the reports, records what was used, and prepares for the next shift
+_100
+_300
+@EX Part 2: Correcting Guiding Sentences
+@INSTR Correct the grammatical errors in sentences about tour guiding.
+_80
+@NUM 60
+1. Lead guides approves every equipment request before it is ordered.
+@RULE
+@NUM 60
+2. A lead guide do not walk the routes himself.
+@RULE
+@NUM 60
+3. Guides reports the enquiries every day.
+@RULE
+@NUM 60
+4. Storekeeper checks the store once a month.
+@RULE
+@NUM 60
+5. The budget are approved by the company is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Guiding Sentences
+@INSTR Choose the grammatically correct sentence about tour guiding.
+_80
+@PASSAGE
+When learning about tour guiding, correct grammar helps us communicate clearly about work, dates and responsibility. Selecting the best sentence shows understanding of rosters, records, and the roles of the people in an office.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The lead guide approve every equipment request carefully.
+   ○ B) The lead guide approves every equipment request carefully.
+   ○ C) The lead guide are approving every equipment request carefully.
+   ○ D) The lead guide have approve every equipment request carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Lead guides do not walks the routes.
+   ○ B) Lead guides does not walk the routes.
+   ○ C) Lead guides do not walk the routes.
+   ○ D) Lead guides do not walking the routes.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Guides report the enquiries every day.
+   ○ B) Guides reports the enquiries every day.
+   ○ C) Guides to report the enquiries every day.
+   ○ D) Guides reporting the enquiries every day.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Lead guide Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to a lead guide describing their office and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Guide: Hello, my name is Rana. I am the lead guide of a guiding office in Damascus called the Barada office. My team directs the guests, orders the equipment, and makes sure every group is met within the minutes we promised.
+~Guide: We have two assistant guides, a records clerk and a storekeeper who meet every morning. We set the departure targets, check the register against them, and decide what to do when a shift is short. We also train the people who join us.
+~Guide: My office reports to the head office and to the directors, who approve the tour budget each year. Students from the academy also work with us as trainees. Our goal is simple - we want every group met within the minutes we promised.
+_200
+@QUESTION
+1. What is Rana's office called?
+2. What does their team do?
+3. Who does the office report to?
+_300
+@EX Part 3: Types of Guiding Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of guiding work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Operations Officer: There are many kinds of guiding work in Syria. Some guides run the records room, others run the guest desk, and many look after equipment and permit records. The Ministry of Tourism licenses every guide who works.
+^Operations Officer: Records clerks plan the storage, the retention and the access. Desk clerks answer enquiries, receive lost property and route every report. Permit clerks keep the licences, the site passes and the group lists the law requires.
+^Operations Officer: International partners also inspect Syrian offices. Together with local guides, they assist thousands of guests every year. All guides share the same goal - to finish the work correctly and on the promised day.
+_200
+@QUESTION
+1. There are many kinds of guiding work in Syria.
+2. Desk work is the only kind of guiding work in Syrian offices.
+3. The Ministry of Tourism licenses every guide who works.
+4. International partners do not inspect Syrian offices.
+5. All guides work to finish the work correctly and on the promised day.
+_300
+@EX Part 3: Guiding Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to lead guides explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Operations Officer: Our records room works to log every report on the day it arrives. We plan the week, check the register hour by hour, and move guides when a shift is at risk.
+^Finance Officer: My section looks after the office money. We prepare the tour budget, pay the suppliers and check every invoice against the price agreed. We teach the team that a cheap headset that fails costs more than it saves.
+~Guide: We are the guest desk. We believe an answer given is worth more than a promise repeated. We agree who will reply, what they will say and by when, and we tell the guest early when something changes.
+^All Guides: All of us report to the head office. We work to the tour budget approved each year and to the deadlines our agencies have agreed. We have trainees from the academy who help us every day. This is why the office keeps its reputation.
+_200
+@QUESTION
+1. What is the aim of the records room?
+2. What does the finance section look after?
+3. What does the guest desk agree?
+4. Who do these sections report to?
+_300
+@EX Part 3: Guiding Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of guiding role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records clerk
+2. | Desk clerk
+3. | Permit clerk
+4. | Purchasing officer
+5. | Office services officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Cleaning, maintenance, equipment, utilities and keeping the office usable
+b) | Finding suppliers, agreeing prices and making sure equipment arrives on time
+c) | Licences, site passes, group lists and the papers the law requires
+d) | Enquiries, lost property, reports, replies and the first impression of the office
+e) | Storage, retention, access and the condition of the files in the records room
+_300
+@EX Part 3: Guiding Characteristics Classification
+@INSTR Classify each statement as a Feature of Guiding Work, A Challenge Guides Face, or A Benefit to the Sector.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Guiding Work
+2. Challenge Guides Face
+3. Benefit to the Sector
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A lead guide is accountable to the company for every approval given  ____________________________
+2. Power that fails in the middle of a long night shift  ____________________________
+3. Agencies that get a guide on the day they asked  ____________________________
+4. Every tour file is logged so it can be found again  ____________________________
+5. A vehicle that cannot be repaired for three weeks  ____________________________
+6. Lower tour costs and less waste on every shift  ____________________________
+7. Working with the records room, the guest desk and permits together  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Tour Guiding? Reading Comprehension
+@INSTR Read the text about tour guiding and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Tour Guiding?
+Tour guiding is the work of planning an office so the guides in it can do their jobs. A lead guide sets objectives, arranges the staff, space and equipment to reach them, keeps the work moving, and reports the result. Tour guiding works on planning, organisation and control at the same time.
+Tour guiding exists in almost every country in the world. It ranges from one guide with a headset and a notebook at a small ruin to a team of two hundred in a capital city. Well-known tools include the duty roster, the tour budget, the route plan, and the tour register.
+Lead guides are paid by the company, but they must report a missed pick-up time honestly even when the news is bad, because the company cannot see every meeting point. They work closely with the guest desk, the records room and permits. Students work as trainees because they want to learn how an office really runs.
+A guiding objective is a statement of what must be covered and by when. For example, a departure objective states how quickly a group will be met. A cost objective states what the office may spend each quarter. A records objective states how long a file must be kept. All objectives describe something the office has promised.
+Lead guides are essential because somebody must arrange work that several agencies all need at once. They prepare the rosters, agree the budgets, and keep the records that show what was decided. Companies, guides and guests all benefit from careful guiding.
+@MCQ
+1. What is tour guiding?
+@OPT
+   ○ A) Only reacting to problems after they appear
+   ○ B) Planning an office so the guides in it can do their jobs
+   ○ C) Buying equipment at the lowest possible price
+   ○ D) Standing at every meeting point in the city
+@MCQ
+2. Why must lead guides report a missed pick-up time honestly even when the news is bad?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) Because the company cannot see every meeting point
+   ○ C) Because the guest desk is not important
+   ○ D) To reduce the cost of uniforms
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how an office really runs
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Functions of Tour Guiding and Examples - True or False
+@INSTR Read about the functions of tour guiding and mark statements as True, False, or Not Given.
+_80
+@PANEL
+The Functions of Tour Guiding and Their Purposes
+Guides do many different kinds of work. Planning decides in advance what the office will cover, for whom, and at what cost. It prevents the office from buying equipment nobody asked for.
+Organising arranges the staff, space and equipment so the plan can be carried out. It decides who answers the enquiries, who may approve an equipment request, and where each file is kept. Without it, two guides walk the same route and a third walks none.
+Communicating keeps everyone informed when the plan meets reality. It circulates a decision, answers an enquiry, and gives people the authority to act. Good communicating is why work continues when a lead guide is away.
+Controlling compares what was done with what was planned. It reviews spending against the budget, departures against the target, and complaints against the service promise. Where there is a difference, it finds the cause.
+Reviewing looks back at a completed quarter rather than at a single shift. It asks whether the objectives were the right ones and what should be done differently next year.
+All these functions work together to keep an office useful. They depend on accurate records and on figures that are reported at the time the work is done.
+@NUM 100
+1. Planning only decides who answers the enquiries.
+2. Organising decides who may approve an equipment request.
+3. Controlling compares what was done with what was planned.
+4. Communicating matters only when everything goes according to plan.
+5. Reviewing looks back at a completed quarter.
+_300
+@EX Part 4: Tour Guiding in Syria - Fact Questions
+@INSTR Read about guiding work in Syria and answer the detailed questions.
+_80
+@PANEL
+Tour Guiding in Syria: History and Current Work
+Syria has a long history of hosting travellers. Damascus and Aleppo received pilgrims and merchants on the caravan roads for centuries, and the caravan guides led them from khan to khan for four hundred years. Formal regulation began with the Ministry of Tourism, which licenses every guide who works, and with the Directorate-General of Antiquities and Museums that issues the site permits.
+Today, many kinds of guiding work are carried out in Syria. Some guides run the offices at small ruins. Others work with international missions and tour operators. Together they address critical needs in safety, site interpretation, guest assistance and the return of travellers to the country.
+Lead guides help Syrian agencies deal with authorities and guests. They prepare the permits an authority demands, keep the lost-property and incident records, and arrange the escorts and translations a foreign group asks for. Finance clerks watch the petty cash and protect the office from spending nobody approved.
+After the conflict, guides have had to interpret sites that were damaged or looted. They record what is missing, obtain duplicate permits, retrain assistant guides, and persuade old operators that the country is safe to visit again.
+Records clerks work to keep files safe despite interrupted power and old buildings. Purchasing officers travel long distances to obtain one spare headset.
+The work of guides is challenging. They operate with scarce equipment and often without reliable power. But they remain committed to meeting every group and rebuilding confidence in Syrian hospitality. International partnerships help local offices work to foreign standards.
+@NUM 100
+1. Who led pilgrims and merchants from khan to khan in Syria for four hundred years?
+2. What are three areas that guides address in Syria?
+3. What do lead guides do to help Syrian agencies deal with authorities?
+4. What challenges do guides in Syria face?
+_300
+@EX Part 4: Guiding Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Running a Office, A Feature of the Profession, or A Service the Office Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Running a Office
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of headset batteries and the supplier's charge for each delivery  ____________________________
+2. Being accountable to the company for every approval you give  ____________________________
+3. Preparing the duty roster and reporting the pick-up times each month  ____________________________
+4. The value of equipment bought and never properly used  ____________________________
+5. Responsibility for records that belong to other departments  ____________________________
+6. Agreeing a deadline with an agency and keeping it  ____________________________
+7. The annual fee for the vehicle licences and the headset permits  ____________________________
+_300
+@EX Part 4: Guiding Impact and Importance Matching
+@INSTR Match guiding contributions with their importance and impact on the sector.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Clear Response Objectives
+2. | Accurate Tour Budgeting
+3. | Supplier Management
+4. | Honest Reporting of Delays
+5. | Complete Permit Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at handover prove what was returned and let a missing item be traced
+b) | An agency told early can change a plan while there is still time to change it
+c) | Agreeing prices and delivery in advance stops a shortage of batteries stopping the work
+d) | A plan of what may be spent means the office never orders what it cannot pay for
+e) | Everyone knows what must be done and when, so no effort is wasted
+_300
+@EX Part 4: Guiding Importance and Role Completion
+@INSTR Complete sentences about the importance and role of lead guides.
+_80
+@NUM
+1. Lead guides are essential for ____________________ (arrange) work that several agencies need at once.
+2. One main role of a lead guide is to ____________________ (decide) how the work will be organised.
+3. Tour guiding succeeds through ____________________ (work) with the desk, the records room and permits.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Guiding Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about guiding work using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key guiding vocabulary with correct pronunciation: // *• Protection (pro-TEC-tion)*: Keeping a site and its guests safe from harm // *• Assistance (as-SIS-tance)*: The help and directions an office gives to guests // *• Inventory (IN-ven-to-ry)*: The equipment an office is holding in its store // *• Cooperation (co-op-e-RA-tion)*: The work several agencies do on one agency // *• Procedure (pro-CE-dure)*: The agreed steps for doing a piece of work // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Tour Guiding and Its Work
+@INSTR Discuss these questions about tour guiding with a partner:
+_80
+@BULLET
+What is a lead guide and how is the work different from an assistant guide's?
+What functions of tour guiding do you know, and what does each one decide?
+Why do you think guides must report a missed response honestly even when the news is bad?
+Can you name a heritage site in Syria or your region and describe how you would guide it?
+_300
+@EX Part 5: Guiding Interview Role Play
+@INSTR Practice an interview about tour guiding. One student is a director asking questions. The other student is the lead guide who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Tour Guiding Facts
+@INSTR Prepare a presentation about tour guiding. Cover what lead guides are, the functions of tour guiding, and why site protection matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is a lead guide?
+2. What functions of tour guiding exist and what are good examples?
+3. Why is tour guiding important for our agencies and guests?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Guiding Values and Professional Ethics
+@INSTR Read about guiding values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Guiding Values and Professional Principles
+Guides are guided by important values and ethics in their work. Professional principles include honesty, accountability, competence, and care for the people and records the work affects.
+Honesty means recording what actually happened, at the time it happened. Guides believe a register completed at the end of the week is worthless, and this is why every report is numbered and dated on arrival.
+Accountability means answering for the money you approve and the records you keep. Guides accept that a file they misplaced is theirs, not the system's. This allows them to correct a mistake while it is still small.
+Competence means working only within what you are trained and authorised to do, and asking for help with the rest. A assistant guide does not sign a statement they have not understood.
+Care for people and records means remembering that other agencies depend on the office and that a lost-property entry holds somebody's belongings. This care allows guides to refuse a request that would breach a rule.
+These principles guides every day. They explain why a lead guide's signature is trusted inside and outside the company. Following these values makes guiding effective and ethical.
+@MCQ
+1. What does professional honesty mean in guiding work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Recording what actually happened, at the time it happened
+   ○ C) Making the response figures look better
+   ○ D) Serving only directors
+@MCQ
+2. What does accountability mean?
+@OPT
+   ○ A) Working without any tour budget
+   ○ B) Blaming the system for a misplaced file
+   ○ C) Answering for the money you approve and the records you keep
+   ○ D) Ignoring the company's instructions
+@MCQ
+3. Why is competence important for guides?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow the company's instructions exactly
+   ○ C) So they sign only what they are trained and authorised to understand
+   ○ D) So they can ignore the antiquities regulations
+_300
+@EX Part 7: Syrian Cultural Values and Guiding Work
+@INSTR Match Syrian cultural values with how they relate to tour guiding and site protection.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a caravan guide's sure route and clear account are remembered
+b) | Dignity means a date is given carefully, because a name stands behind it
+c) | Hospitality shapes a meeting: a guest is received well before business begins
+d) | Respect for elders means the experienced guide trains those who come after
+e) | A family's name travels with its guests, so a careless answer is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Guiding Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Function of Tour Guiding, or Guiding Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Function of Tour Guiding
+3. Guiding Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Being accountable to the company for every approval given  ____________________________
+2. Planning what the office will cover and at what cost  ____________________________
+3. Approving an equipment request and recording the decision  ____________________________
+4. Responsibility for records that belong to other agencies  ____________________________
+5. Controlling spending against the tour budget  ____________________________
+6. Agreeing a deadline with an agency  ____________________________
+7. Working with the desk, the records room and permits together  ____________________________
+8. Organising who answers what and who may approve  ____________________________
+_300
+@EX Part 8: Integrated Guiding Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what a lead guide is?
+@OPT
+   ○ A) A assistant guide who walks a route very quickly
+   ○ B) A government official who issues site permits
+   ○ C) A trained professional who sets objectives, arranges staff and equipment, keeps work moving and reports the result
+   ○ D) A desk clerk who answers the enquiries for the office
+@MCQ
+2. What is a main difference between a lead guide and an assistant guide?
+@OPT
+   ○ A) A lead guide has a desk; an assistant guide does not
+   ○ B) A lead guide decides what will be covered and at what cost; an assistant guide gets it covered
+   ○ C) A lead guide works only in cities; an assistant guide works everywhere
+   ○ D) A lead guide uses only paperwork; an assistant guide uses only headsets
+@MCQ
+3. How is tour guiding work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the agency directly
+   ○ C) By the company, to whose lead guides the guide reports honestly
+   ○ D) By charging guests for every enquiry they make
+@MCQ
+4. Which is an example of a guiding objective?
+@OPT
+   ○ A) Working as hard as possible every day
+   ○ B) Meeting 95 per cent of groups within the promised minutes by June
+   ○ C) Following the directors' instructions exactly
+   ○ D) Keeping the register away from the agencies
+_300
