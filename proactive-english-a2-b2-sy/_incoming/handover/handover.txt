@@ -1,0 +1,431 @@
+## Proactive English — Production Handover
+A transfer manual for a second Claude instance taking a parallel track
+Series: Proactive English (General English, A1 → C2) · Author: Mo (Mohamad Khorbatli) · Prepared 16 October 2026, at the end of A2 Book 1, Syria Edition.
+
+Read this first
+This document is written for another AI instance, not for a human reader, although Mo can read it as a specification. It tells you what has been built, the rules that produced it, the exact toolchain, the mistakes already made and fixed, and how to work in parallel without colliding with the track that continues elsewhere.
+Everything described here is already working code, not a proposal. The pipeline ships with this handover as PE-A2-SY_pipeline_latest.zip. Do not redesign it before you have built one unit with it.
+The single most important rule in this project: the author's parameters are fixed and are not to be improved. Several of them look unusual for a coursebook. They are deliberate. Your job is to execute them faithfully and to be inventive inside them.
+## 1 · What exists today
+A2 Book 1, Syria Edition is complete and signed off. Book 2 and the other levels are not yet started.
+Artefact
+Extent
+File
+Student's Book, bound
+368 pp
+PE-A2-B1-SY_StudentsBook_BOUND.docx
+Answer Key, bound
+197 pp
+PE-A2-B1-SY_AnswerKey_COMBINED.docx
+Units 1–12 + keys, separately
+25–31 pp each SB, 14–17 pp each key
+PE-A2-B1-SY_UnitNN_StudentsBook.docx / _AnswerKey.docx
+Mid-Book Test (Units 1–6) + key
+8 pp + 6 pp, 60 marks
+PE-A2-B1-SY_MidBookTest.docx / _AnswerKey.docx
+End-of-Book Test (Units 1–12) + key
+9 pp + 8 pp, 100 marks
+PE-A2-B1-SY_EndOfBookTest.docx / _AnswerKey.docx
+Series Bible
+—
+PE-A2-SY_SeriesBible.docx
+A2 Master Curriculum Blueprint v2
+22 pp, landscape
+A2_Master_Blueprint_v2.docx
+Running handover / continuity file
+~29 KB markdown
+HANDOVER_Proactive-English_A2-SY.md
+The build pipeline itself
+Node scripts
+PE-A2-SY_pipeline_latest.zip
+
+Book 1 in numbers: 12 units × 7 cycles = 84 cycles, each a complete 90-minute lesson. 12 "I can…" self-assessment boxes, 2 tests, ~170 audio tracks (scripts printed in the book itself), and an answer or a full written sample for every single task in the book — including brainstorms, free speaking, peer-review slips and homework.
+The two files you cannot work without
+HANDOVER_Proactive-English_A2-SY.md — the continuity file. It carries the locked decisions, every fixed fact about every character (phone numbers, employers, addresses, illnesses, who went to which wedding), the unit content maps and the known formatting traps. It is updated at the end of every build turn. If you take a track, you start your own equivalent file on turn one and you update it on every turn. Without it, a context loss costs the whole book.
+PE-A2-SY_SeriesBible.docx — the world: cast, setting rules, style sheet, peer-review progression, core lexis per unit.
+
+## 2 · The author's fixed parameters
+These came from Mo directly. Treat them as the specification. Do not re-open them, do not "balance" them, do not quietly add a stage because a standard coursebook would have one.
+Non-negotiable
+1 · The cycle is the unit of teaching, not the lesson. Each unit is made of 5–10 cycles; we settled on 7. Each cycle teaches one language function (introducing yourself, booking a room, refusing an invitation…). A cycle is 90 minutes.
+2 · The seven-stage sequence inside each cycle is the author's own and its order is fixed: (1) brainstorming and eliciting that scaffolds both the speaking and the writing to come · (2) a sample conversation showing the function · (3) the same conversation practised from a skeleton · (4) open personalised pair speaking · (5) a sample piece of writing built on the same scaffold · (6) writing from a skeleton · (7) free writing.
+3 · Two additions the author made later, also fixed: after every pair-speaking task the pairs report to the class or act in front of it; after every writing task there is pair peer review and then reporting to the class.
+4 · Audio scripts are printed in the Student's Book itself, at the point of use — never in an appendix.
+5 · No teacher notes in the Student's Book. Teaching guidance lives in the Answer Key only.
+6 · The Answer Key is a separate book, and everything gets an answer, including every "free" speaking and writing task, which gets a full sample answer.
+7 · A2 is 20–24 units across two books (we use 12 + 12). Order of production: A2 Syria → A2 International → B1 → upwards, and A1 downwards.
+8 · Deliverables are .docx. Always.
+What was added on top, and why — these were my recommendations, accepted by the author. Keep them; they are what makes the fixed sequence survive contact with a real syllabus.
+Problem with the bare 7 stages
+What was added
+Where it lives
+No place for graded grammar
+A Language box after the model conversation: the grammar of the function, a short controlled practice, useful phrases, and one pronunciation point with its own track
+Inside stage 2, never as a separate stage
+Input was too thin for a whole level
+The model conversation and the model text double as graded listening and reading, each with pre-listening (books closed), gist and detail questions
+Stages 2 and 5
+Nothing recycled
+Cycle x.7 of every unit is "Review & Mediate": it recycles the unit and the units before it, and teaches mediation — explaining a document (a timetable, a menu, a leaflet, a label, a programme) to somebody who cannot read it
+The seventh cycle
+No assessment
+A Mid-Book Test after Unit 6 and an End-of-Book Test after Unit 12, both in Cambridge A2 Key format; plus a short "Unit check" and an "I can…" self-assessment box at the end of every unit
+Unit 6 ends with a pointer; Unit 12 ends with a pointer
+
+## 3 · The cycle as it is actually built
+The author's seven stages, plus his two additions, expand to thirteen printed stages in two lessons. This is the template. Every one of the 84 cycles in Book 1 follows it exactly, and the minute budget always totals 90.
+Stage
+Name
+Min
+What goes on the page
+LESSON A — SPEAKING
+
+
+
+1
+Get ready
+6
+Two elicitation tasks (a + b). Task a produces a class board list in two columns: "We SAY… / We WRITE…" — this is the scaffold that both the speaking and the writing of this cycle will reuse. Task b is a quick vocabulary or form check.
+2
+Listen and read
+12
+a: books closed, one gist question (A/B/C). b: books closed, two detail questions. c: books open, the dialogue. Then the Language box: grammar table, a 4–6 item controlled practice, useful phrases, and a pronunciation point with its own track number.
+3
+Practise
+7
+The same conversation with a skeleton (every second line gapped) plus two role cards (A and B) carrying different content, so the pair can swap and do it twice.
+3R
+Perform
+5
+Two pairs perform without the book. The rest of the class always has a listener task — something to write down. Never "listen carefully".
+4
+Your turn
+9
+Open personalised speaking, usually in two parts (a and b), with a required number of exchanges and a partner swap so the task is repeated once at speed.
+4R
+Report
+6
+Reporting to the class, with a model report written out on the page. Then a listener task and the board clinic: the teacher writes three errors from the reports on the board and the class corrects them. Delayed correction, never interruption.
+LESSON B — WRITING
+
+
+
+5
+Read
+7
+The model text — the written counterpart of the same function, built on the same scaffold from stage 1 — with three comprehension questions, then the Writer's box: the genre move-structure, two or three craft rules, and one honest warning.
+6
+Write with help
+9
+The skeleton text, gapped with long underscores.
+6P
+Check together
+5
+Peer review against a closed checklist (four ticks, no open opinions). The checklist gets harder as the book goes on — see the Series Bible.
+6R
+Share
+3
+Two or three students read one sentence before and after the fix.
+7
+Write freely
+12
+The free writing task, with a word count, and ruled lines on the page.
+7P
+Respond
+5
+Peer response in role (as the reader of that genre), using three fixed symbols: ★ what worked · ✓ one thing to add · ? one question.
+7R
+Share
+4
+Class sharing with a selection criterion ("which one would you book?"), so listening has a purpose.
+Homework
+—
+—
+Always the other side of what was written: the reply, the refusal, the same text for a different reader. Never "finish the exercise".
+
+Three rules about the cycle that are easy to break
+The scaffold must be the same for speaking and writing. Stage 1 produces it; stages 2–4 use it orally; stages 5–7 use it in writing. If the writing side introduces new content, the cycle has failed even if every exercise is good.
+Every report stage needs a listener task and the board clinic. Without them, 18 students switch off while two perform, and errors get fossilised by repetition.
+Peer review is closed, not open. "Give your partner feedback" produces silence or hurt feelings at A2. A four-line tick checklist produces real corrections.
+
+## 4 · The toolchain
+Everything is generated by Node scripts using docx-js (npm package docx). Nothing is hand-formatted in Word, and there is no HTML master. One script per unit, one per key, one shared library.
+## 4.1 Files in the pipeline
+File
+Role
+lib.js
+The shared builder. Every other script depends on it. Exports: p, h1, h2, h3, pb, sp, stage, lesson, box, dlg, table, lines, item, build, bullet, C, W
+unitNN.js
+One Student's Book unit (NN zero-padded: unit01 … unit12)
+akNN.js
+That unit's Answer Key
+midtest.js / midkey.js
+Mid-Book Test and its key
+endtest.js / endkey.js
+End-of-Book Test and its key
+bible.js
+The Series Bible
+bound.js
+Concatenates everything into the two bound volumes, inserting the tests in teaching order
+build.sh
+One-command build + PDF render + page preview. See 4.4 — this is also how approval prompts are avoided
+## 4.2 Page geometry and palette
+lib.js — the constants everything depends on
+const FONT = 'Calibri';
+const W = 9906;   // content width in DXA: A4 portrait (11906) minus 1000 left + 1000 right
+
+const C = {
+  navy:  '1F3864',   // headings, lesson banners, test part chips
+  teal:  '0F6E6E',   // stage chips, language boxes
+  orange:'C55A11',   // audio-track headers, 'new in this unit', warnings
+  grey:  'F2F2F2', lteal: 'E2F0EF', lorange: 'FBE5D6', lblue: 'DEEAF6', lyellow: 'FFF2CC'
+};
+
+// page: 11906 x 16838 DXA, margins 1000 on all four sides
+// header: document title, right, 8pt grey. footer: "Proactive English · <page>", centred
+## 4.3 The library API
+Call
+Produces
+p(text, opts)
+A paragraph. opts: after, align, indent, size, color, bold, italics, raw (no markup parsing, monospace — use for code)
+h1 h2 h3
+Headings (navy 20pt / orange 15pt / navy 12pt)
+pb() sp(n)
+Page break · vertical space
+stage(code, title, min)
+The teal stage chip with its minute budget and the rule under it
+lesson(text)
+The full-width navy LESSON A / LESSON B banner
+box(title, items, fill, titleColor)
+A shaded, bordered box. items may be strings or Paragraph/Table objects, so boxes can nest tables. Rows carry cantSplit, so a box never breaks across a page
+dlg(track, lines, note)
+A dialogue or audio script. lines = [[speaker, text], …]. If track is given, an orange 🔊 header row is drawn
+table(head, rows, weights, {headFill})
+A grid. weights are relative; the helper converts them to DXA and fixes the rounding on the last column. Pass head = null for a headerless grid
+lines(n)
+n ruled writing lines
+item(n, text)
+A numbered comprehension question
+build(children, path, title)
+Writes the .docx
+## 4.4 Inline markup
+The p() text parser is nesting-aware: bold, italic and strikethrough may be nested inside each other.
+markup, and how to show markup
+two asterisks around text   -> bold
+one underscore around text  -> italic       (NOT applied to ______ blanks: a lookbehind protects them)
+two tildes around text      -> strikethrough (used for wrong forms in grammar boxes)
+nesting works:  _It is **going to** rain._
+
+p('text', { raw: true })  -> no parsing at all, monospace. Use it for code and for
+                            printing the markup characters themselves, as in this box.
+## 4.5 The build command
+one command per build — never a chain
+bash /home/claude/proactive/pipeline/build.sh unit13 PE-A2-B2-SY_Unit13_StudentsBook.docx "1 9 17 25"
+bash /home/claude/proactive/pipeline/build.sh bound
+bash /home/claude/proactive/pipeline/build.sh zip PE-A2-SY_Bundle_TurnNN.zip
+
+# what it does: node <script>.js -> .docx
+#               soffice --headless --convert-to pdf   (LibreOffice, via the docx skill script)
+#               pdfinfo | grep Pages                  (so you always know the extent)
+#               pdftoppm -jpeg -r 45 -f P -l P        (renders the pages you named, to look at)
+Two environment details that will bite you on day one
+build.sh hardcodes three absolute paths: the pipeline directory, the output directory and a session-specific scratchpad path for the preview JPEGs. That scratchpad path will not exist in your session. Edit the three variables at the top of build.sh before your first build.
+export NODE_PATH=$(npm root -g) is already inside build.sh; if you call node directly you must set it yourself, or require('docx') fails.
+Why a shell script at all
+Because chained shell commands trigger an approval prompt, and the author explicitly asked never to be interrupted by them mid-build. Everything was moved into one short script and that script was allow-listed in .claude/settings.local.json:
+"Bash(bash /home/claude/proactive/pipeline/build.sh:*)"
+Do the same in your environment on turn one. Unattended building is the point of this setup.
+
+## 5 · The unit template, as code
+Copy this skeleton, fill it, build it. The helpers at the top of each unit file (board, model, writers, hw, check, clinic) are repeated in every unit on purpose — a unit file is self-contained apart from lib.js, so one broken unit can never break another.
+unitNN.js — the shape of every unit
+const L = require('./lib');
+const { p, h1, h2, pb, sp, stage, lesson, box, dlg, table, lines, item, C } = L;
+const out = [];
+
+// --- per-unit helpers (copy these verbatim into every unit) ---
+const board = (a, b) => table(['We SAY…', 'We WRITE…'], [[a, b], ['', ''], ['', '']], [1, 1]);
+const model  = (paras) => box(null, paras, 'FFFFFF', C.navy);
+const writers= (paras) => box('Writer\'s box', paras, C.lyellow, C.orange);
+const hw     = (t) => box('Homework', [t], C.lblue, C.navy);
+const check  = (rows) => table(['Checklist', '✓ / ✗'], rows.map(r => [r, '']), [5, 1]);
+const clinic = '**Board clinic:** your teacher writes three mistakes from the reports on the board. Correct them together.';
+
+// --- unit opener ---
+out.push(h1('Unit 13  <Topic>'));
+out.push(box('In this unit you will…', [ /* one line per cycle */ ], C.lblue, C.navy));
+out.push(box('New in this unit', [ /* new people, places, fixed facts */ ], C.lyellow, C.orange));
+
+// --- one cycle (repeat 6 times, then the Review & Mediate cycle) ---
+out.push(pb());
+out.push(h2('13.1  <a line of natural speech that shows the function>'));
+out.push(p('**Function:** … · **Grammar:** … · **Pronunciation:** …'));
+out.push(lesson('LESSON A – SPEAKING'));
+out.push(stage('1', 'Get ready', 6));   /* a + b, then board() */
+out.push(stage('2', 'Listen and read', 12));
+out.push(dlg('Track 13.1  <title>', [['Maya', '…'], ['Lina', '…']]));
+out.push(box('Language box', [ /* grammar table, practise, phrases, pronunciation track */ ], C.lteal));
+out.push(stage('3', 'Practise', 7));    /* dlg(null, skeleton) + two role cards */
+out.push(stage('3R', 'Perform', 5));    /* + listener task */
+out.push(stage('4', 'Your turn', 9));   /* a + b, partner swap */
+out.push(stage('4R', 'Report', 6));     /* model report + listener task + clinic */
+out.push(lesson('LESSON B – WRITING'));
+out.push(stage('5', 'Read', 7));        /* model() + 3 item() questions + writers() */
+out.push(stage('6', 'Write with help', 9));
+out.push(stage('6P', 'Check together', 5));  /* check([...4 rows]) */
+out.push(stage('6R', 'Share', 3));
+out.push(stage('7', 'Write freely', 12));    /* + lines(7) */
+out.push(stage('7P', 'Respond', 5));         /* ★ ✓ ? in role */
+out.push(stage('7R', 'Share', 4));
+out.push(hw('<the other side of the task>'));
+
+// --- the unit ends with ---
+// x.7 Review & Mediate cycle: quiz, a real document, mediation speaking, exam practice,
+//     'Unit check' (grammar MC + a listening with its script printed AFTER the questions + writing),
+//     and the 'I can…' box with 😀 🙂 😐 ticks.
+
+module.exports = out;
+if (require.main === module) L.build(out, process.argv[2], '<header title>');
+The last two lines matter
+Every unit and key file exports its array and only builds when run directly. That is what lets bound.js require all of them and concatenate the whole book. If you forget module.exports = out, the bound volume silently loses that unit.
+
+## 6 · Formatting traps already paid for
+Each of these cost a build cycle to find. They are properties of docx-js and of Word, not of this project, so they will hit you too.
+Trap
+What you see
+The fix
+A newline inside a table cell
+The text runs together with no break
+A cell takes one paragraph. For several lines, use several rows — not \n
+A box breaking across a page
+An orphaned heading, a nearly empty page
+cantSplit: true on the table row. Already set inside box()
+Column widths ignored
+Word redistributes the columns
+Set columnWidths on the table *and* width on every cell, both in WidthType.DXA
+ShadingType.SOLID
+Black or inverted fills
+Always ShadingType.CLEAR with a fill
+Underscore blanks turning italic
+__ eats the rest of the line
+The italic regex has a lookbehind/lookahead so _ next to _ or a word character is not a delimiter. Do not "simplify" that regex
+Bold inside italics
+Literal ** printed in the text
+Fixed 16 Oct: the parser is now recursive. If you port lib.js anywhere, port that version
+Weights like [3, 0.01]
+A column of zero width, text vertical
+Keep weights in the same order of magnitude
+Emoji in a PDF preview
+Could not parse ligature component warnings from pdftoppm
+Harmless. The .docx is correct; it is a poppler font warning only
+## 7 · The quality rules
+These are the checks that catch real errors in content, as opposed to layout. Run them before you deliver anything.
+Content QA — do all of these every unit
+Matching tasks: count both sides. A listening matching task in Unit 8 shipped with a day that had no matching option. I had to add an option and rewrite the script. Always: count the items, count the options, and confirm each answer exists exactly once, with the intended extras being genuinely wrong.
+Multiple choice: every distractor must be wrong for a reason, and the correct answer must be findable in the text or script — not inferable only by a native speaker.
+Three-person reading tasks (A2 Key Part 2): each question must fit exactly one person. The first draft of the Unit 11 task had an item that fitted two of the three travellers; it was rewritten. Test every question against all three people before you build.
+Numbers must reconcile. If a hotel is 320,000 a night for seven nights, any total elsewhere in the unit must match. Prices, times, dates and durations recur across cycles and keys.
+Continuity: check the handover before you invent anything. Every character fact is recorded there — employer, manager, phone number, who is ill, who went where. Contradicting it is the one error a reader always notices.
+Word counts on free writing must be achievable at the level, and the sample in the key must actually hit the count. Count them.
+Every track number is unique and sequential within the unit (Track 13.1 … 13.14), and every track referenced in the book has a script printed somewhere.
+Register and content policy
+British English. Syrian pounds. The Syria edition is set in Damascus, with Latakia, Homs, Aleppo, Bludan, Maaloula, Bosra and Tartus used as named places.
+No alcohol, no dating themes. Pair work is always possible same-gender; no task forces mixed-gender role play.
+Health content (Unit 10 set the policy): teach the language, never the medicine. Characters always consult a pharmacist or a doctor; every medicine text ends with "ask your doctor or pharmacist"; free-writing tasks about instructions use a non-medicine object. The key carries a teacher note about personal disclosures in class.
+Culture content (Unit 12 set the policy): celebrations are the students' own, religious and non-religious side by side, no single "correct" custom; other countries' customs are framed as different, not wrong; every customs task ends by taking the pressure off ("nobody is going to be angry if you make a mistake").
+Arabic-L1 difficulty profile drives the error work: omitted copula, missing auxiliary *do*, articles, present perfect, /p/–/b/, /v/–/f/, final consonant clusters. The board-clinic lines and the "typical mistakes" lists in the keys are built from this list, not invented freely.
+Answer-key rules
+An answer or a full sample for every task — including Get ready brainstorms, which get "typical answers" plus permission to accept the class's own.
+Free writing gets a complete model at or above the word count, with the count stated.
+Reports and mediation tasks get a full spoken sample, because that is what teachers cannot improvise.
+Every cycle's key ends with a board clinic block: four typical wrong forms with the corrections, drawn from the Arabic-L1 profile.
+Exam-practice writing gets two samples: a strong one and one that just passes, with the lost marks explained. Teachers mark against the weaker one.
+Mediation tasks get a "what to assess here" note naming the four things to look for.
+
+## 8 · How a build turn runs
+This rhythm exists because long document builds hit tool limits and sessions can be lost. It has survived a context compaction without losing a line of work.
+
+Part 1 of the turn
+Part 2 of the turn
+Write
+unitNN.js
+akNN.js
+Build
+build.sh unitNN … with 3–4 preview pages
+build.sh akNN … with 2–3 preview pages
+Verify
+Look at the rendered JPEGs. Every build, no exceptions
+Same
+Then
+Deliver the unit .docx on its own
+build.sh bound → update the handover → build.sh zip → deliver one bundle
+
+The delivery rule the author set
+At the end of every turn, bundle everything needed to resume from zero into one zip and give that as the single link: the full bound book so far, the combined key, every individual unit and key file, the Series Bible, the up-to-date handover, and the current pipeline zip. Then ask for the next step.
+The reason is explicit: if the chat locks out, the next session must be able to continue from that one file alone.
+Split each turn into two parts (above) so a single turn never runs into the tool limit.
+Verification is not optional
+Every build renders to PDF and I look at sample pages as images. Roughly one build in four has shown a real layout fault that no amount of reading the source would have caught: a split box, a run-together table cell, an invisible column, literal asterisks in the text.
+Choose preview pages that land on the densest structures: a Language box, a role-card table, a leaflet, the last page of the unit.
+## 9 · Working in parallel without colliding
+The track that produced Book 1 continues: A2 Book 2, then A1, then B1 upward to C2, all Syria edition first. For a second instance the work has to be genuinely disjoint, because both tracks write into the same series bible and the same conventions.
+Option
+What it is
+Verdict
+A2 International Edition (recommended)
+The same 24-unit A2 syllabus, same cycle structure, new setting and cast: international, no Syria-specific content, prices and places neutral or varied
+Best fit. It depends only on finished Book 1 artefacts, it cannot block the other track, and it is the author's own stated next edition. The syllabus is already decided, so the second instance spends its effort on content, not on design decisions
+The ESP / specialised strand
+The "specialised" half of the author's original brief, built on the same cycle
+Possible, but the author already has a large ESP catalogue with its own conventions; coordinating two sets of conventions costs more than it saves
+A far-away level (C1/C2)
+Start from the top
+Not yet. The cycle has not been tested above A2; the stage timings and the peer-review model will need redesign at B2+, and that redesign should happen once, on the main track
+Splitting one book unit by unit
+Instance A does odd units, instance B even units
+Avoid. Continuity (cast, recycled lexis, running stories) is the main quality risk in this series and it is exactly what a unit-level split breaks
+
+If you take the International Edition, these are the rules of the split
+File prefix: PE-A2-B1-INT_… (the Syria track uses -SY). Never write into the other track's output directory.
+Your own pipeline copy, your own handover file: HANDOVER_Proactive-English_A2-INT.md. Do not edit the Syria handover.
+Shared and frozen: the cycle structure, the thirteen stages and their minute budgets, lib.js (including the palette and the geometry), the file-naming pattern, the answer-key rules, the two test formats, and the "I can…" box design. If you need a change to lib.js, write it in your handover as a proposed change so the two libraries can be reconciled later.
+Not shared: cast, place names, prices, cultural content, and the running stories. The International edition invents its own people and keeps the same functions and the same grammar sequence unit by unit.
+Keep the unit-by-unit function map identical to the Syria edition. That is what makes the two editions interchangeable for a school, and it is the reason this split is safe.
+Where the Syria edition has a culture-specific cycle, the International edition keeps the same function and changes the content — e.g. Unit 12 cycle 6 "explain a custom to a visitor" works in any setting; what changes is which customs.
+
+## 10 · Your first five moves
+#
+Do this
+Why
+1
+Unpack PE-A2-SY_pipeline_latest.zip. Edit the three paths at the top of build.sh. Add the allow-list entry for it. Build one existing unit unchanged and look at the preview pages.
+Proves the toolchain works in your environment before any content exists. Takes minutes; saves a wasted turn.
+2
+Read HANDOVER_Proactive-English_A2-SY.md end to end, then the Series Bible, then one complete unit and its key — Unit 11 or 12 is the most developed.
+The template is learned from a finished unit far faster than from a description, including this one.
+3
+Start your own handover file with: the locked decisions, your file-naming prefix, your cast, an empty unit content map, and the formatting traps from section 6 of this document.
+Turn one, before any content. It is the thing that survives a lost session.
+4
+Write the unit-by-unit function and grammar map for your whole book before building Unit 1, and have the author approve it.
+The 7-cycle structure means 84 functions per book. Discovering a clash or a gap at Unit 9 is expensive.
+5
+Build Unit 1 only, in the two-part rhythm, and ask for approval of it as the template before going on.
+That is exactly how Book 1 went: the author approved Unit 1 and the remaining eleven units were then built to it with no re-litigation.
+## 11 · Known gaps and open items
+Honest list. None of these blocks production.
+Item
+Status
+Audio is scripted but not recorded
+Every track has a printed script and a number. No audio files exist. The tests tell the teacher to read the script aloud twice if there is no audio
+No artwork
+The picture-story task in the End-of-Book Test describes its three pictures in words so it works without illustration. If artwork is commissioned later, those descriptions are the brief
+CEFR wording to verify before print
+The mediation descriptors should be checked against the CEFR Companion Volume (2020) p. 109, "facilitating collaborative interaction", A2 band
+Cycle structure above B1 untested
+The thirteen stages and the 90-minute budget are validated at A2 only. Expect to redesign stage 3 (skeleton practice) at B2+, where a gapped dialogue stops being useful
+The two bound volumes are generated, not typeset
+They are correct and consistent, but a designer would still set them for print: running heads per unit, a table of contents, and a proper title page
+
+One last thing
+The quality of this series comes from two habits more than from any clever design: look at every page you generate, and write down every fact you invent. The first catches layout faults that reading the source never will. The second is what lets a reader believe in Maya, Lina, Omar, Nour and Rami across 368 pages — and what lets a different instance, or a later session, continue the book without a seam.

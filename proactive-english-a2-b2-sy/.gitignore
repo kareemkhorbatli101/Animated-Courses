@@ -1,0 +1,3 @@
+# throwaway build artefacts; deliverables in out/ are committed deliberately
+*.pdf
+prev-*.jpg
