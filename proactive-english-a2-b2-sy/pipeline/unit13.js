@@ -320,7 +320,7 @@ out.push(stage('5', 'Read', 7));
 out.push(p('Read the three short notes from the club\'s "Places we know" page. Answer the questions.'));
 out.push(model([
   '**PLACES WE KNOW** – three members, three cities',
-  '**Omar · Aleppo.** I have been to the Citadel more times than I can count, because I grew up ten minutes from it. I have taken about two thousand photographs of it and I have never taken a good one. Last year I walked down a street I had never seen before, and it was four minutes from my mother\'s house. That is what a city is.',
+  '**Omar · Aleppo.** I have been to the Citadel more times than I can count, because I grew up ten minutes from it. I have taken about two thousand photographs of it and I have never taken a good one. Last year I walked down a street I did not know at all, and it was four minutes from my mother\'s house. That is what a city is.',
   '**Lina · Homs.** I have been three times, all three for a wedding, which means I have seen one hall, one hotel and the road between them. I know the food very well and the city not at all.',
   '**Hiba · Beirut.** Three times, always by bus, always to the same aunt in the same street. The bus takes four hours and my aunt talks for six. I have never seen the sea there, although it is twenty minutes away. This year I am going to be a bad niece and go to the sea first.',
 ]));

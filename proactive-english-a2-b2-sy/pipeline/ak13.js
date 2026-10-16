@@ -173,7 +173,7 @@ out.push(SAMPLE(['Hiba has been to Beirut three times, always by bus, always to 
 out.push(S('Board clinic – typical mistakes'));
 out.push(A('✗ I have gone to Aleppo twice. → ✓ I have **been** to Aleppo twice.   ✗ Where is Maya? She has been to the pharmacy. → ✓ She has **gone** to the pharmacy.   ✗ I have been there three time. → ✓ three **times**.   ✗ How many times you have been? → ✓ How many times **have you been**?'));
 out.push(S('Stage 5 · Read'));
-out.push(A('**1** He doesn\'t say it directly. What the note says is that the Citadel is too close and too familiar to be caught in one photograph — after a whole childhood ten minutes away he still found a street he had never seen. Accept any answer that uses his last line: _That is what a city is._'));
+out.push(A('**1** He doesn\'t say it directly. What the note says is that the Citadel is too close and too familiar to be caught in one photograph — after a whole childhood ten minutes away he still found a street he did not know. Accept any answer that uses his last line: _That is what a city is._'));
 out.push(A('**2** One hall, one hotel, and the road between them. (She knows the food very well and the city not at all.)'));
 out.push(A('**3** She is going to go to the sea first, before she goes to her aunt — which is not what a good niece does.'));
 out.push(S('Stage 6 · Write with help (sample)'));
