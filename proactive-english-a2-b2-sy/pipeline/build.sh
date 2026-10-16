@@ -7,6 +7,7 @@ P=/home/user/Animated-Courses/proactive-english-a2-b2-sy/pipeline
 O=/home/user/Animated-Courses/proactive-english-a2-b2-sy/out
 S=/tmp/claude-0/-home-user-Animated-Courses/821c71e3-8991-5a52-9fad-130d52fdf15f/scratchpad/pe
 export NODE_PATH=$(npm root -g)
+export PE_BOOK=2   # this tree is A2 Book 2; bound.js binds units 13-24 only
 
 if [ "$1" = "zip" ]; then
   cd "$P/.." && rm -f "$O"/PE-A2-B2-SY_pipeline_*.zip && zip -qr "$O/PE-A2-B2-SY_pipeline_latest.zip" pipeline
