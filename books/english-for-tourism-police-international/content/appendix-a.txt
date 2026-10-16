@@ -1,0 +1,286 @@
+@APPHEAD Appendix A: Audio Scripts | F3E6FF | 8B00FF
+@CENTRE This section contains transcripts of all audio recordings used in listening and pronunciation exercises throughout the book. | 200
+@EX How to Enable Audio Playback with VBA | 300
+@P 360 | - | 100
+To enable audio playback when clicking on 🔊 symbols in the document:
+@PBULLET
+1. Save this document as a macro-enabled file (.docm)
+2. Press Alt+F11 to open the VBA editor
+3. Insert > Module
+4. Copy and paste the VBA code below into the module
+5. Close the VBA editor and save the document
+6. Enable macros when opening the document
+@P 360 | 200 | 100
+VBA Code for Audio Playback:
+@CODE
+Sub PlayDialogue()
+    ' Plays dialogue lines with gender-appropriate voices
+    ' Male voices: blue text (color: 255)
+    ' Female voices: purple text (color: 10040115)
+    
+    Dim oPara As Paragraph
+    Dim oRun As Range
+    Dim voice As Object
+    Set voice = CreateObject("SAPI.SpVoice")
+    
+    ' Get voices
+    Dim voices As Object
+    Set voices = voice.GetVoices
+    
+    ' Find male and female voices
+    Dim maleVoice As Object
+    Dim femaleVoice As Object
+    
+    For i = 0 To voices.Count - 1
+        If InStr(voices.Item(i).GetDescription, "Female") > 0 Or _
+           InStr(voices.Item(i).GetDescription, "Zira") > 0 Then
+            Set femaleVoice = voices.Item(i)
+        ElseIf InStr(voices.Item(i).GetDescription, "Male") > 0 Or _
+               InStr(voices.Item(i).GetDescription, "David") > 0 Then
+            Set maleVoice = voices.Item(i)
+        End If
+    Next i
+    
+    ' Set default to first voice if not found
+    If maleVoice Is Nothing Then Set maleVoice = voices.Item(0)
+    If femaleVoice Is Nothing Then Set femaleVoice = voices.Item(0)
+    
+    ' Play each dialogue line based on text color
+    For Each oPara In Selection.Paragraphs
+        For Each oRun In oPara.Range.Sentences
+            If oRun.Font.Color = 10040115 Then ' Purple = Female
+                voice.Voice = femaleVoice
+            Else
+                voice.Voice = maleVoice ' Blue or default = Male
+            End If
+            
+            voice.Speak oRun.Text, 0
+        Next oRun
+    Next oPara
+End Sub
+_400
+@H2 Unit 1: Introduction to Tourism Policing | 8B00FF
+@TRACK 🔊 Track 1.7 - Exercise 7: Part 1: Policing Terminology Pronunciation Practice
+_200d
+@TRACK 🔊 Track 1.19 - Exercise 19: Part 3: Commander Interview Understanding
+@SPEECH
+~Officer: Hello, my name is Nour. I am the commander of a tourism police post in Hội An called the Riverside post. My team directs the visitors, orders the equipment, and makes sure every call is answered within the minutes we promised.
+~Officer: We have two constables, a records clerk and a storekeeper who meet every morning. We set the response targets, check the register against them, and decide what to do when a shift is short. We also train the people who join us.
+~Officer: My post reports to the governorate directorate and to the commanders, who approve the patrol budget each year. Students from the academy also work with us as trainees. Our goal is simple - we want every call answered within the minutes we promised.
+_200d
+@TRACK 🔊 Track 1.20 - Exercise 20: Part 3: Types of Policing Work - True or False
+@SPEECH
+^Operations Officer: There are many kinds of policing work in Vietnam. Some officers run the records room, others run the visitor desk, and many look after equipment and permit records. The Ministry of Public Security appoints every officer who serves.
+^Operations Officer: Records clerks plan the storage, the retention and the access. Desk officers answer enquiries, receive lost property and route every report. Permit clerks keep the licences, the site passes and the excavation records the law requires.
+^Operations Officer: International partners also inspect Vietnamese posts. Together with local officers, they assist thousands of visitors every year. All officers share the same goal - to finish the work correctly and on the promised day.
+_200d
+@TRACK 🔊 Track 1.21 - Exercise 21: Part 3: Policing Aims and Goals Understanding
+@SPEECH
+~Operations Officer: Our records room works to log every report on the day it arrives. We plan the week, check the register hour by hour, and move officers when a shift is at risk.
+^Finance Officer: My section looks after the post money. We prepare the patrol budget, pay the suppliers and check every invoice against the price agreed. We teach the team that a cheap radio that fails costs more than it saves.
+~Officer: We are the visitor desk. We believe an answer given is worth more than a promise repeated. We agree who will reply, what they will say and by when, and we tell the visitor early when something changes.
+^All Officers: All of us report to the governorate directorate. We work to the patrol budget approved each year and to the deadlines our sites have agreed. We have trainees from the academy who help us every day. This is why the post keeps its reputation.
+_200d
+@TRACK 🔊 Track 1.30 - Exercise 30: Part 5: Policing Terminology Pronunciation Practice
+_200d
+@H2 Unit 2: Tourism Police Roles and Careers | 8B00FF
+@TRACK 🔊 Track 2.10 - Exercise 10: Part 1: Listening - Policing Job Descriptions
+@SPEECH
+~Narrator: A records officer works in the post. The officer plans the registers, watches the retention of each file, and solves problems as they appear.
+~Narrator: A visitor desk officer at the gate receives the visitors and the enquiries. The officer watches the reply time, routes each enquiry, and keeps the log.
+~Narrator: A post commander leads the whole patrol team. The post commander agrees the patrol plan with the directorate, sets the sections their targets, and answers for the result.
+_200d
+@TRACK 🔊 Track 2.17 - Exercise 17: Part 2: Present Perfect - Listening
+@SPEECH
+~Interviewer: How long have you worked in tourism policing?
+^Manager: I have worked in tourism policing for eight years. I started as a register clerk and became a records officer after three years.
+~Interviewer: What sectors have you worked in?
+^Manager: I have worked at a museum, a market, and a border crossing. I have organised the registers of posts of very different sizes.
+_200d
+@TRACK 🔊 Track 2.20 - Exercise 20: Part 3: Listening - Interview with a Commander
+@SPEECH
+~Interviewer: Tell us about your work here.
+~Coordinator: I am the post commander. I agree the patrol plan with the directorate, set the sections their targets, and answer for the result. I have worked here for four years. Every day is different. Some days I am with site managers and other days at the visitor desk.
+~Interviewer: What is the most challenging part of your job?
+~Coordinator: The most challenging part is the power. A rate quoted in March may not cover the cost in June, and some spare parts cannot be obtained at all. We must be resourceful and quote only what we can hold. But the work is deeply satisfying.
+_200d
+@TRACK 🔊 Track 2.21 - Exercise 21: Part 3: Detailed Comprehension - Training Programmes
+@SPEECH
+^Narrator: Many directorates run training programmes for new officers. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced commanders from the directorate. They provide lessons in patrolling, reporting, and keeping a register. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_200d
+@TRACK 🔊 Track 2.22 - Exercise 22: Part 3: Listening for Details - Policing Challenges
+@SPEECH
+^Speaker1: Working in a patrol team is very challenging. We have interrupted power, which means we cannot charge every radio on time. Sometimes one officer covers two sections alone.
+~Speaker2: I agree. We also struggle with equipment. Many parts are far away, and we have only two workstations for the whole building, so editing has to be combined.
+_200d
+@TRACK 🔊 Track 2.23 - Exercise 23: Part 3: Extended Dialogue - Career Growth
+@SPEECH
+~Mentor: You have done excellent work as an officer. Have you thought about training toward a records officer position?
+^Youth: Yes, I'm interested but I worry I don't have enough experience. What skills do I need?
+~Mentor: You need leadership skills, storytelling, and communication ability. We can provide training through our own mentoring and section rotation.
+^Youth: Thank you. This gives me hope. I want to grow and take more responsibility.
+_200d
+@H2 Unit 3: Law, Procedure and Compliance | 8B00FF
+@TRACK 🔊 Track 3.11 - Exercise 11: Part 1: Listening - Compliance Vocabulary in Action
+@SPEECH
+^Worker1: When the complaint arrived, we immediately pulled the file. We started with the permit and the duty sheets, checking what had actually been agreed hour by hour.
+~Worker2: The older records were extremely difficult. Many had been created before the register was started and carried no written release at all. Our priority was to register everything still in use.
+_200d
+@TRACK 🔊 Track 3.17 - Exercise 17: Part 2: Listening - Grammar in Context
+@SPEECH
+~Manager: When a finding is raised, we must respond immediately. Our team should be ready to gather the file at any time. If we don't reply within thirty days, the permit may be suspended.
+^Field Officer: I understand. We have been trained to find the cause rather than the symptom. We are told to check the register first. Should we also involve the lawyer?
+~Manager: Yes, coordination is essential. We should work together rather than separately. If we coordinate properly, we can close every point in one response.
+_200d
+@TRACK 🔊 Track 3.20 - Exercise 20: Part 3: Listening - Investigation Process
+@SPEECH
+^Coordinator: When a file is found missing, we immediately start gathering information. We interview the people who handled it and record what they say. We examine the register and the file movement cards. We check whether the cabinet was locked and who held the key. We review the entries to confirm what is actually missing. We identify whether other files are affected. This internal investigation typically takes a day or two but guides every decision that follows.
+~Manager: Based on the investigation, we prioritize the actions. Immediate priorities include securing the remaining files and informing the directorate. Second priority is finding the cause in the process rather than the person. Then we focus on the corrective action and on checking whether it worked. Long-term improvement comes after the matter is settled. The findings are shared with permits and finance to avoid repetition and ensure the whole cause is addressed.
+_200d
+@TRACK 🔊 Track 3.22 - Exercise 22: Part 3: Listening - Compliance Challenges
+@SPEECH
+~Reviewer: Compliance for an older post presents extreme challenges. We lack permits for most of the earlier years. We discover a gap only when an inspector asks. Permits expire at different times through the year. Despite these obstacles, we do our best with the papers available. We prioritize the obligations that protect people. This is why an internal check before an inspection is essential.
+^LegalOfficer: The written authority situation is critical. Officers served for years with nothing in writing. This creates a high risk for the officer and for the post. We work quickly to issue a written authority to everyone. We train officers to keep the records the law requires. Without an authority, neither side can prove what was agreed.
+_200d
+@TRACK 🔊 Track 3.23 - Exercise 23: Part 3: Listening - Personal Stories of Compliance Work
+@SPEECH
+~Field Officer: I came to this work because I wanted our records to stand up to any question. The first year was overwhelming—I read regulations I had never imagined existed. I learned that compliance work requires both technical knowledge and patience with people. I saw a permit granted for the first time and a dispute avoided because a statement was complete. These moments reminded me why the work matters. The challenges are real, but the rewards are immeasurable. I believe I am part of something larger than myself.
+_200d
+@H2 Unit 4: Equipment, Budgets and Patrol Costs | 8B00FF
+@TRACK 🔊 Track 4.11 - Exercise 11: Part 1: Listening - Budget Skills in Action
+@SPEECH
+~Worker1: I work as a cost clerk. I use method to record every battery, hour and delivery in order. I must be patient because a long deployment takes weeks, and careful because one wrong hour changes the cost of a whole patrol.
+^Worker2: As a post commander, I need organization skills to manage the month-end and the audit at once. I also need judgement when the ledger contradicts the cash box, and flexibility because every request arrives a little differently.
+_200d
+@TRACK 🔊 Track 4.17 - Exercise 17: Part 2: Listening - Grammar in Context About Budgeting
+@SPEECH
+^Manager: When we train new staff, we focus on developing both arithmetic and method skills. A good cash keeper must know how to check a total, but must also record the payment in a way others can follow. A good manager must compare quotations accurately, but must also understand what the figure will be used for.
+^Manager: We teach that accuracy is not something you are born with—it is something you develop through practice. Staff learn accuracy by reconciling their own work and seeing their own errors. Learning from an overspend is more valuable than never taking responsibility for a budget. We want our staff to be confident enough to sign their accounts even when the month is busy.
+_200d
+@TRACK 🔊 Track 4.20 - Exercise 20: Part 3: Listening - Different Perspectives on Finance Skills
+@SPEECH
+~Coordinator: As an equipment controller, I must combine careful arithmetic with judgement. I follow the method exactly, but I also decide when a quotation looks wrong and must be checked again. Many patrols order more than the standard allows. I re-check one order every week so I know how far our prices have drifted. This requires arithmetic and honest recording.
+^Manager: As commander, I coordinate many figures and reports. I must have organizational skills to manage the month-end and the audit. I must have leadership to refuse a purchase that is not in the budget when a patrol is waiting. I need problem-solving abilities when the ledger contradicts the store records. Perhaps most important, I must have integrity so my signature means something.
+~Field Officer: Controlling cash on patrol requires very different skills than post work. I must build trust with the patrols over weeks so they tell me what the money was really for. I can never be rushed—a voucher written badly is worse than no voucher. I need flexibility because every request arrives differently. I must be humble enough to learn the work from the people doing it. This is how we produce accounts nobody disputes.
+_200d
+@TRACK 🔊 Track 4.22 - Exercise 22: Part 3: Listening - Developing Skills Through Experience
+@SPEECH
+^Trainer: Many officers develop their best skills not in lectures but on the job. An officer learns judgement by seeing a register go missing, by watching one unlogged enquiry change a decision, and by correcting a file nobody could follow.
+^Trainer: However, we must support staff during this learning. Checking and mentoring are essential. New storekeepers work alongside experienced ones so an error is caught on paper rather than at the gate.
+_200d
+@TRACK 🔊 Track 4.23 - Exercise 23: Part 3: Listening - Personal Stories About Developing Skills
+@SPEECH
+~Coordinator: I came to post work from mathematics teaching with plenty of theory but no idea about posts. My first year was overwhelming. I made mistakes and felt discouraged. But my manager was patient. She showed me how to account for a payment when the receipt was missing, when the price had changed, when we had no quotation at all. Over time, I developed new skills and became much stronger. Now I mentor younger staff.
+^Manager: I was a good bookkeeper in a shop, but a police directorate was different. In a shop, every cost arrived on one invoice. In a post, I had to find the cost myself in shared bills nobody had split. I learned to be systematic and accept that perfect figures were impossible. I learned that a stated estimate serves the commanders better than a precise number built on a guess. This change in mindset was more important than any skill I had before.
+_200d
+@H2 Unit 5: The Patrol Planning and Deployment Cycle | 8B00FF
+@TRACK 🔊 Track 5.11 - Exercise 11: Part 1: Listening - Commanders Explain Planning
+@SPEECH
+~Manager1: In my post, we began by visiting each site and asking the heads what they really needed each week. We learned that the permit requests set the limit, not the patrolling everyone had been talking about.
+^Manager2: My post required careful budgeting because equipment was scarce. I had to choose between a new radio and repairing three old ones. I chose the repair the staff could maintain themselves, using parts their own supplier could obtain.
+_200d
+@TRACK 🔊 Track 5.17 - Exercise 17: Part 2: Listening - Grammar of Planning Discussion
+@SPEECH
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The senior officers must approve the objective before we build the budget" using modals. We explain "If we forecast carefully, the equipment will not run out" using conditionals. We describe "The budget is reviewed by the senior officers" using passive voice to show the action.
+~Coordinator: We say "We visit each site to understand the need" showing purpose. We explain order with words like "First we agree, then we budget, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to auditors, to senior officers, and to our own patrol team.
+_200d
+@TRACK 🔊 Track 5.20 - Exercise 20: Part 3: Listening - Officers Explain Challenges
+@SPEECH
+^Manager: In my post, I faced a challenge when trained officers left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra officers and cross-trained the radio operator so leaving staff would not stop the work. The lesson was that a budget must include retention, not just salaries.
+~Coordinator: My post faced an equipment problem. We had budgeted for a radio set in March but the price in June was very different. The sites became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began keeping a small reserve of consumables. Now I always build a price assumption into every budget.
+_200d
+@TRACK 🔊 Track 5.22 - Exercise 22: Part 3: Listening - Different Perspectives on Planning
+@SPEECH
+~Operator: When the managers planned this year, they listened to what we needed and asked many questions. They did not arrive with a finished plan. They walked every shift with us and changed the targets after we spoke.
+^Quality Supervisor: From my side, I have learned that agreeing the objective and holding the site meetings takes much longer than senior officers expect. They want the plan in a week. But the time spent before the figures is what makes the plan achievable.
+_200d
+@TRACK 🔊 Track 5.23 - Exercise 23: Part 3: Listening - Planning Lessons Learned
+@SPEECH
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When senior officers, sections and sites all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into missed deadlines. Now I spend significant time ensuring all parties understand exactly what will be delivered, when, and at what cost. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the officers and the site contacts before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200d
+@H2 Unit 6: Working with Site Staff and Partner Agencies | 8B00FF
+@TRACK 🔊 Track 6.11 - Exercise 11: Part 1: Listening - Partnership Stories from Sites
+@SPEECH
+~Supplier: When the post came to us, they asked what we could realistically deliver for the radio contract. They did not tell us what we would be signing. We chose which items we could hold and which dates we could meet, and we are proud of the result.
+^Supplier: A joint arrangement failed here before this one. The buyer decided everything without asking. They set a delivery date our workshop could never meet and nobody checked whether it was possible. This time we were asked, and the contract holds.
+_200d
+@TRACK 🔊 Track 6.17 - Exercise 17: Part 2: Listening - Partnership Vocabulary in Use
+@SPEECH
+^Leader: When the post works with us, not only for us, the language changes. They use phrases like "together we agreed the date" instead of "we informed them." They use passive voice "our own deadlines were taken into account" showing respect for our planning. They express appreciation "we value your cooperation" making us feel like partners.
+^Leader: Language reveals whether a post truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late patrol. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200d
+@TRACK 🔊 Track 6.20 - Exercise 20: Part 3: Listening - Stakeholder Perspectives
+@SPEECH
+~Manager: From our side, we want to give sites the dates they ask for but we have one post with limited staff. We have other sites already in the roster and equipment we cannot always obtain. So we must navigate between the site's wishes, the post's capacity, and what the budget allows. Good partnerships require honest conversations about these constraints. We have learned that sites accept a later date when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the site side, we want clarity and consistency. We understand the post has constraints of its own. We accept a later date when it is stated in writing and then kept. What frustrates us is a date that moves after the work is accepted. We want to be told early when something changes, not discover it from an empty gate. We want our own planning to count for something.
+_200d
+@TRACK 🔊 Track 6.22 - Exercise 22: Part 3: Listening - Honest Communication in Partnership
+@SPEECH
+~Manager: I learned that saying "I do not know" builds more trust than pretending certainty. When a visitor asks a technical question about a permit, I tell them I will check with the section and come back with an answer.
+~Manager: I also learned to say "we cannot do that" clearly. Sites sometimes ask for a date the post cannot meet. Saying so honestly, and offering the earliest date we can hold, keeps trust far better than a vague promise.
+_200d
+@TRACK 🔊 Track 6.23 - Exercise 23: Part 3: Listening - Building Partnerships Over Time
+@SPEECH
+^Manager: Building post partnerships is like building friendships. You cannot rush it. You must spend time understanding their work. You must visit when you do not need anything, not only when you want a favour. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own roster was wrong. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one request where the support is easy to get right, such as a single gate check. This builds confidence for larger work. Also, confirm the result in writing. Let the partner show our letter to their own management. This builds their internal case for working with us again and motivates the next deployment.
+_200d
+@H2 Unit 7: Visitor Assistance, Communication and Service | 8B00FF
+@TRACK 🔊 Track 7.11 - Exercise 11: Part 1: Listening - Visitor Desk Staff Stories
+@SPEECH
+~Manager: When I started at the visitor desk, I realized the greeting and the replying are inseparable. Visitors won by a friendly welcome were lost again within a season when no answer followed. The courtesy meant nothing because nobody wrote back.
+^Analyst: I began a complaint record at my desk. I wrote down what every visitor actually said. But the post could not act on any of it because nobody owned the records office. Once we gave the records office a named officer, the record finally changed what we did.
+_200d
+@TRACK 🔊 Track 7.17 - Exercise 17: Part 2: Listening - Service Language
+@SPEECH
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, an answer the visitor can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Visitors notice service immediately. They trust a post whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the visitor. What we think is good service might not match what the visitor experiences. We hold regular reviews of the enquiry log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200d
+@TRACK 🔊 Track 7.20 - Exercise 20: Part 3: Listening - Overcoming Service Barriers
+@SPEECH
+~Manager: We recognized that distance was our biggest barrier. Visitors in the smaller towns could not reach us often enough to matter. So we brought the service closer. We appointed one trusted partner in each town and trained them on agreed answers. For the larger sites, we kept our own officer calling monthly. This reduced the distance barrier immediately. Enquiries improved dramatically once a local name answered the message.
+^Manager: Cost was our barrier. Sites wanted our service but could not be given a dedicated desk officer. We discovered that a shared visitor desk worked better than a lower standard. We offered two fixed hours a day for each site and a shorter reply time for urgent items. This kept every site served.
+_200d
+@TRACK 🔊 Track 7.22 - Exercise 22: Part 3: Listening - Integrating Assistance and Replies
+@SPEECH
+~Manager: Integration requires clear roles. We defined what the desk owns and what the records office owns. The desk agrees the date with the visitor, and the records office confirms it can be met before the work is accepted.
+~Manager: Integration also requires honest communication about problems. Sometimes a request was accepted when the records office was full. Sometimes the records office wanted a day the site could not take. We held regular meetings to discuss sequence, priorities and faults. Honest communication prevented conflicts and let the plan be adjusted.
+_200d
+@TRACK 🔊 Track 7.23 - Exercise 23: Part 3: Listening - Visitor Impact from Better Service
+@SPEECH
+~Manager: My agency used to write to this post and sometimes the reply came a week late with no warning. The post began replying the day the request arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating the desk and the records office solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each request. It says what was received and who is dealing with it. When I asked about a missing file, the clerk showed me the log and sent it the next day. What the post does actually reaches us and changes what we can rely on. Before, the desk and the records office were separate and nothing connected. Now it all connects. Our own visitors are better served.
+_200d
+@H2 Unit 8: Performance Measurement and Reporting | 8B00FF
+@TRACK 🔊 Track 8.19 - Exercise 19: Part 3: Listening to Reporting Challenges
+_200d
+@TRACK 🔊 Track 8.20 - Exercise 20: Part 3: Listening to Improvement Stories
+_200d
+@TRACK 🔊 Track 8.21 - Exercise 21: Part 3: Listening to Continuous Improvement Discussion
+_200d
+@TRACK 🔊 Track 8.22 - Exercise 22: Part 3: Listening to Indicator Discussion
+_200d
+@TRACK 🔊 Track 8.23 - Exercise 23: Part 3: Listening to Result Interpretation
+_200d
+@H2 Unit 9: Growth, Change and Scaling the Unit | 8B00FF
+@TRACK 🔊 Track 9.19 - Exercise 19: Part 3: Listening to Growth Experience
+_200d
+@TRACK 🔊 Track 9.20 - Exercise 20: Part 3: Listening to Partner Agency Success
+_200d
+@TRACK 🔊 Track 9.21 - Exercise 21: Part 3: Listening to Management Readiness Assessment
+_200d
+@TRACK 🔊 Track 9.22 - Exercise 22: Part 3: Listening to Cost of Growth Strategies
+_200d
+@TRACK 🔊 Track 9.23 - Exercise 23: Part 3: Listening to Implementation Success Story
+_200d
+@H2 Unit 10: Community Advocacy and Professional Communication | 8B00FF
+@TRACK 🔊 Track 10.19 - Exercise 19: Part 3: Listening to an Officer's Voice
+_200d
+@TRACK 🔊 Track 10.20 - Exercise 20: Part 3: Listening to an Official's Perspective
+_200d
+@TRACK 🔊 Track 10.21 - Exercise 21: Part 3: Listening to Association Building Experience
+_200d
+@TRACK 🔊 Track 10.22 - Exercise 22: Part 3: Listening to Campaign Strategy Discussion
+_200d
+@TRACK 🔊 Track 10.23 - Exercise 23: Part 3: Listening to Results Reflection
+_200d

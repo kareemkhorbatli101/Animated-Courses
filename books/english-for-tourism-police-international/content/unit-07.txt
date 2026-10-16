@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Visitor Assistance, Communication and Service
+@PART Warm Up | Warm Up
+@EX Warm-Up: Visitor Desk Challenges Discussion
+@INSTR Discuss why many small posts struggle to answer enquiries and complaints well.
+_80
+@BULLET
+What barriers prevent small posts from answering enquiries and complaints well?
+_300
+@EX Warm-Up: Visitor Desk Activities Matching
+@INSTR Match visitor desk activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Enquiry handling
+2. | Escort booking
+3. | Report taking
+4. | New arrival welcome
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Greeting people who have just arrived, recording them and showing them where to start
+b) | Deciding when an escort can be provided so both sides are actually free
+c) | Writing down who came, what they wanted and who must answer them
+d) | Finding out what the visitor needs and sending them to the right person
+_300
+@EX Warm-Up: Visitor Service Multiple Choice
+@INSTR Choose the best answer about good visitor service.
+_80
+@MCQ
+1. What is most important for good service at a small post?
+@OPT
+   ○ A) Having the newest radio instead of an older radio
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest publicity budget
+_300
+@EX Warm-Up: Discussion - Combining Assistance and Service
+@INSTR Discuss why visitor assistance and visitor service work better together.
+_80
+@BULLET
+How can a visitor desk procedure and a service standard support each other?
+_300
+@EX Warm-Up: Service Factors Classification
+@INSTR Classify factors as Direct (the answer), Intermediate (manner and speed), or Wider organisational issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct answer factor
+2. Manner and speed factor
+3. Wider organisational factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The visitor is given the wrong information about a permit  ____________________________
+2. The reply arrives two weeks after the promised date  ____________________________
+3. A new tour company opens an office in the same lane  ____________________________
+4. The complaint reaches the wrong section  ____________________________
+5. The enquiry waits eleven days before anyone answers  ____________________________
+6. Visitors have less money to spend this season  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Contact Routes Matching
+@INSTR Match contact routes with the type of handling they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Walk-up enquiry
+2. | Written complaint
+3. | Telephone call
+4. | Email
+5. | Partner agency
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A complaint that must be logged, routed and answered in writing
+b) | A caller who must be answered at once or offered a definite reply later
+c) | Appointing another agency to answer on your behalf in a distant district
+d) | A visitor who must be greeted, recorded and dealt with in person
+e) | A message that arrives at any hour and must be answered the same way
+_300
+@EX Part 1: Service Standards a Post Can Set Table
+@INSTR Complete the table with service standards a post can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every enquiry answered within four hours | 
+Every complaint logged on the day it arrives | 
+Every complaint answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the visitor they are heard before they have to ask twice
+b)  Lets the operator plan its own work with confidence
+c)  Turns a disappointed visitor into one who trusts the post more
+_100
+_300
+@EX Part 1: Assistance and Service Terminology Fill-in
+@INSTR Complete sentences using assistance and service vocabulary correctly.
+_80
+@GAP
+1. Visitor assistance and replies work together as ____________________ parts of one relationship.
+2. A ____________________ approach to service considers the whole experience, not one call.
+3. ____________________ visitors are the particular group the service is designed for.
+4. ____________________ means a visitor comes back because the last contact went well.
+_300
+@EX Part 1: Service Models - Fact Questions
+@INSTR Read about how visitor assistance actually keeps visitors and answer detailed questions.
+_80
+@PANEL
+Visitor Desk Systems and Service Support
+Most lost visitors are avoidable through better service. Understanding why a visitor stopped coming allows a post to keep the next one. However, keeping visitors is complex. Staff must know what the visitor expected, have the information to deliver it, and believe the effort is worth making.
+Enquiry records teach a post who its visitors are. Knowing that most visitors want one of three things is valuable knowledge. But knowledge alone does not answer an enquiry. The post must also have the information those visitors need. Staff must believe an enquiry matters when the patrol is busy. They must trust that a complaint will be acted on rather than hidden. Effective service addresses knowledge, information, and motivation.
+Service standards are the places where effort decides confidence. Setting them focuses attention where it matters. A post with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the visitor leaves.
+Visitor desk staff bridge the gap between a procedure and a person. A desk officer can hear what a visitor actually needs and route it the same hour. A local partner reaches visitors the post could never reach itself. In Egypt, direct relationships have become vital for keeping contact when a group changes its plan.
+Local partners and neighbourhood committees reach much of the public. However, without support, a partner may give wrong information and blame the post. Training partners extends the post's reputation beyond its own gate. Enquiry records, service standards, desk training and trained partners working together create far stronger service than any single effort alone.
+Confidence requires that visitors eventually choose the post for themselves. This means earning a reputation rather than buying attention. It means setting promises the post can actually keep. It means building on the relationships a directorate already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your visitors are not enough to answer an enquiry?
+2. What role do visitor desk staff play in service?
+_300
+@EX Part 1: Discussion - Integrated Service Models
+@INSTR Discuss how combining visitor assistance and replies benefits a post more than separate approaches.
+_80
+@BULLET
+How have you seen a visitor desk and good replies work together in your own experience?
+_300
+@EX Part 1: Listening - Visitor Desk Staff Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a commander and a desk officer describing their integrated approach.
+_80
+@MCQ
+1. What problems did the manager identify that affected service?
+@OPT
+   ○ A) No problems affected service
+   ○ B) Late replies, an information sheet nobody had updated, and no record of complaints
+   ○ C) The procedure never affects service
+@MCQ
+2. Why did the publicity fail before service was improved?
+@OPT
+   ○ A) Publicity never works
+   ○ B) New visitors came once and did not return, so the spending was wasted
+   ○ C) Publicity always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in assistance and service work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive equipment and publicity
+   ○ B) Promises the post can keep, answered quickly and put right when they fail
+   ○ C) A large modern building
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and confidence.
+_80
+@NUM
+1. Repeat visits ____________________ (depend) promises that are actually kept.
+2. Visitor assistance works best ____________________ (integrated) the replies the visitor receives.
+3. Good service and fair treatment both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in Visitor Confidence
+@INSTR Complete the table with cause-and-effect relationships in assistance and service.
+_80
+@GRID
+Cause | Effect
+The reply arrived complete and on the promised date | 
+A complaint was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The operator asked for a second, larger escort
+b)  The visitor told two other people about the post
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of assistance and service work.
+_80
+@GAP
+1. We review the enquiry log monthly ____________________ learn what visitors actually want.
+2. We train the partners ____________________ the information they give is correct.
+3. This information sheet was revised ____________________ give an answer the visitor can rely on.
+4. Enquiry records and complaint records are combined ____________________ one picture of the visitor.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot publicise widely, a well-answered visitor remembers us.
+2. Training the partners ____________________ (overcomes) the gap between the post and the town.
+3. Integrated service ____________________ (addresses) both the immediate call and long-term confidence.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to commanders discussing how to ensure quality in assistance and service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, an answer the visitor can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Visitors notice service immediately. They trust a post whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the visitor. What we think is good service might not match what the visitor experiences. We hold regular reviews of the enquiry log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in assistance and service work?
+2. Why is listening to the visitor important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and confidence.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects confidence?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Good Service
+@INSTR Before listening, discuss barriers preventing posts from serving visitors well.
+_80
+@BULLET
+What barriers prevent small posts from serving the visitors who contact them?
+_300
+@EX Part 3: Listening - Overcoming Service Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to commanders discussing how they overcome barriers to good service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Visitors in the smaller towns could not reach us often enough to matter. So we brought the service closer. We appointed one trusted partner in each town and trained them on agreed answers. For the larger sites, we kept our own officer calling monthly. This reduced the distance barrier immediately. Enquiries improved dramatically once a local name answered the message.
+^Manager: Cost was our barrier. Sites wanted our service but could not be given a dedicated desk officer. We discovered that a shared visitor desk worked better than a lower standard. We offered two fixed hours a day for each site and a shorter reply time for urgent items. This kept every site served.
+_200
+@QUESTION
+1. How did the commanders address the distance barrier?
+2. What service approach did the commanders find most effective?
+_300
+@EX Part 3: True/False - Assistance and Service Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Visitor assistance and replies work together to create good service. Publicity alone can keep a visitor who received a late reply. Good commanders set promises the post can actually keep. Training partners extends a post's reputation beyond its own gate. Enquiry records tell a post who its visitors are but not whether they will return. A complaint answered quickly often produces a more confident visitor than no complaint at all. Speed alone decides every decision in every case.
+@NUM 100
+1. Publicity alone can keep a visitor who received a late reply.
+2. Training partners extends a post's reputation beyond its gate.
+3. A complaint answered quickly can produce a more confident visitor.
+_300
+@EX Part 3: Listening - Integrating Assistance and Replies
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to commanders discussing how they combined a desk procedure and a service standard successfully.
+_80
+@MCQ
+1. How did the commanders clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what the desk owns and what the records office owns, with one shared log
+   ○ C) Clear roles are not necessary in service
+@MCQ
+2. What did the commanders do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in service cannot be resolved
+_300
+@EX Part 3: Listening - Visitor Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as operators describe how better visitor assistance and replies changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My agency used to write to this post and sometimes the reply came a week late with no warning. The post began replying the day the request arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating the desk and the records office solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each request. It says what was received and who is dealing with it. When I asked about a missing file, the clerk showed me the log and sent it the next day. What the post does actually reaches us and changes what we can rely on. Before, the desk and the records office were separate and nothing connected. Now it all connects. Our own visitors are better served.
+_200
+@QUESTION
+1. What problem was damaging the agency's planning before the change?
+2. How did the acknowledgement affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether a post gives good service.
+_80
+@BULLET
+What signs indicate that a post is giving its visitors reliable service?
+_300
+@EX Part 4: Reading - Visitor-First Service Philosophy
+@INSTR Read about visitor-first service and answer detailed questions.
+_80
+@PANEL
+Visitor-First Service: Foundation for a Lasting Reputation
+Visitor-first service is an approach emphasizing the relationship, the promise kept, and the local reputation. It differs from a model that spends on publicity and hopes the visitors arrive. Visitor-first service builds steady confidence, where a problem is settled the same week through simple standards close to the visitor.
+Visitor-first service serves as the foundation of a service system. Instead of every visitor being won again from nothing, most routine work comes from people who already trust the post. Only new districts need the cost of finding visitors. This keeps costs lower and work steadier. In Egypt, where publicity reaches few people, direct relationships became vital.
+Prevention is central to the philosophy. Keeping a visitor through a reliable reply costs much less than winning a new one. A message before a late answer costs less than a lost operator. A clear information sheet costs less than an argument at the gate. Visitor-first service emphasizes these cost-effective measures.
+Visitor-first service requires the whole post. Visitor desk staff alone cannot create confidence. The records office must find the register. Officers must answer the question. Finance must record correctly and allow sensible discretion. Everyone must act on a complaint rather than wait for the desk to insist. This approach views the visitor as everyone's responsibility, not the desk officer's problem.
+Visitor-first service requires coordination among functions. The desk cannot improve without officers answering what they were asked. The desk cannot work if finance refuses every reasonable request. Good service requires officers, finance, the records office and the desk all working to one standard.
+Visitor-first service requires strong command and continuous learning. Desk officers must be trained, supervised, and supported. Posts must review whether the promises still hold. Posts must learn from a lost visitor and adjust. Weak command produces slogans nobody believes. Strong command produces visitors who return.
+Visitor-first service creates a durable reputation because it builds local trust. A post whose name is trusted in a town serves it for decades. A post that depends entirely on speed loses the operator the moment someone is quicker.
+@NUM 100
+1. How does visitor-first service prevent problems instead of only reacting to them?
+2. What functions must coordinate for visitor-first service to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. A new radio alone is insufficient if the reply is always late. A friendly desk officer alone is insufficient if the information is always wrong. Quality requires coordination of many factors: correct information, an answer the visitor can rely on, reliable replies, accurate records, a quick answer, and a settled complaint.
+Staff competence is the most important factor in service quality. A skilled desk officer keeps a visitor with modest resources. A poorly trained one loses a visitor the post spent years winning. Investment in training and supervision creates stronger impact than investment in publicity. In resource-limited posts, staff competence determines everything.
+Promises must suit what the post can actually do. A standard taken from another directorate and never tested at your own gate fails quietly. Testing shows the promise works with your staff, your records office, and your telephone line. Standards respecting local conditions produce service that holds.
+Traceable contacts mean every enquiry can be followed back to what was agreed. Enquiries are logged, callers are registered, and complaints are recorded. Without traceability, a dispute becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the visitor actually said, a problem can be found and fixed. If complaints are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+Visitor feedback should confirm that the post's view matches the visitor's. An internal report shows activity but not satisfaction. Asking the visitor directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Egypt's service challenges stem from scale and cost. Sites are crowded, telephone lines are slow, prices move between quotation and purchase, and vehicles are hard to repair. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest radio
+   ○ B) Staff competence and training
+   ○ C) Publicity spend alone
+@MCQ
+2. Why is traceability of enquiries important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a dispute becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether visitor assistance and replies are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between the desk and the records office | 
+Complaints answered while the visitor still needs the answer | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the visitor rather than to close a file
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated desk and reply systems serve every visitor fairly regardless of the size of their group. Service standards kept by trained staff lead to more confidence than publicity alone. A late reply is acceptable if the information is correct. Staff competence is more important to service than the size of the publicity budget. Separate desk and records functions are always more efficient than integrated ones. A small post cannot achieve service comparable to a large one for routine enquiries. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every visitor fairly?
+2. Is a late reply acceptable if the information is correct?
+3. Are separate desk and records functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a desk procedure and a service standard integrated from the start.
+_80
+@BULLET
+If you were designing visitor assistance and replies together for a Egyptian post, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Assistance and Service
+@INSTR Prepare a presentation on effective assistance and service integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated assistance and service systems.
+_300
+@EX Part 5: RolePlay - Coordinating the Desk and the Records Office
+@INSTR Roleplay coordinating the desk and the records office when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Visitor Service
+@INSTR Discuss how better service could transform a local post.
+_80
+@BULLET
+How would integrated visitor assistance and replies transform a post like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in visitor service to the directorate's officers.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Assistance and Service Plan
+@INSTR Write a brief plan for integrating a desk procedure with a service standard.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating the desk and the records office and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Visitors
+@INSTR Write about how better visitor assistance and replies changed what visitors receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for a Trusted Post
+@INSTR Write about your vision for posts whose visitor assistance and replies develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Service and Hospitality in Egyptian Perspective
+@INSTR Read about Egyptian values supporting integrated assistance and service work.
+_80
+@PANEL
+Egyptian Values Supporting Service and Hospitality
+Egyptian traditions provide a strong foundation supporting integrated visitor assistance and replies. Understanding them helps design culturally appropriate systems gaining workforce and visitor support.
+The idea of "amanah" or trust held on behalf of others is central to Egyptian practice. A guest received by you is a trust, and the one who receives them answers for them. Guarding and replying are understood as duties: those who know an answer are expected to give it, and those who accept a report are expected to reply. Service in Egyptian tradition is a moral obligation, not only an administrative calculation. Systems expressing that duty, with a named person answering for each enquiry, gain stronger support.
+Egyptian teaching emphasizes hospitality as a shared responsibility. Households and wakalas have long received guests through the diwan, where a visitor is welcomed before business begins, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the question, the answer, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as receiving a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The diwan is the space whose users share a reputation and a set of visitors. Members are responsible for each other. If one desk officer gives wrong information, the whole post's reputation suffers. If one officer promises what cannot be delivered, every promise is weakened. An integrated system combines guarding and replying as a single shared responsibility.
+Women's role in hospitality is deep and increasingly recognized. Women hold detailed knowledge of how visitors are guided, how guests are received and what courtesy means in practice, and increasingly lead visitor desks. Senior commanders emphasize that training women officers strengthens the whole post. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Egyptian craft ethics require high standards. Master guides and senior wakala keepers are trusted figures accountable to their colleagues and to the family name in the register. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of receiving the same families for generations shows that everything is interconnected — courtesy, accuracy, speed, cost and reputation. This way of thinking naturally supports integrated systems. Separating the guarding from the replying fragments what a visitor experiences as one relationship. Integrated systems honour that unity.
+Aligning visitor assistance and replies with Egyptian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Egyptian tradition support service as a moral obligation?
+2. What traditional Egyptian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Systems
+@INSTR Discuss how to design assistance and service systems respecting local values and practices.
+_80
+@BULLET
+How can assistance and service systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Assistance and Service Concepts
+@INSTR Review Unit 7 by matching assistance and service concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Enquiry log
+2. | Service level
+3. | Confidence
+4. | Acknowledgement
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The record of who came, what they wanted and who answered
+b) | The agreed standard of support and response a visitor can expect
+c) | A visitor returning because the last contact went well
+d) | A note confirming what was received and who is dealing with it
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are visitor assistance and replies closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) The desk receives the question and the reply is what answers it
+   ○ C) Only publicity matters for reputation
+@MCQ
+2. What is the primary advantage of integrating visitor assistance and replies?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Visitors return, so each contact costs less than winning a new visitor
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained local partner expand a post's reach?
+@OPT
+   ○ A) It reduces the post's reputation
+   ○ B) A local name answers in towns a desk officer cannot reach weekly
+   ○ C) Local agents are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Publicity has no effect on reputation
+   ○ B) A skilled desk officer keeps a visitor with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large directorates
+_300

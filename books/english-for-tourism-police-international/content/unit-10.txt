@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: Community Advocacy and Professional Communication
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Community Advocacy Discussion
+@INSTR Discuss what community advocacy means and why commanders take it on.
+_80
+@BULLET
+What is community advocacy and why do commanders do it rather than just running their own post?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Officer Level
+2. | Organisation Level
+3. | Sector Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Conventions on heritage protection and the standards an international body expects
+b) | Strengthening the professional association and the voice of officers
+c) | Changing one officer's understanding and prospects at the post
+d) | Changing national regulation, permit rules and access procedure
+e) | Changing directorate-wide policies, budgets and the way decisions are taken
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for police work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve a commander's effectiveness?
+_300
+@EX Warm-Up: Working in Associations Discussion
+@INSTR Discuss why posts work together in professional associations.
+_80
+@BULLET
+Why do officers form professional associations with others in their field?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A survey showing 60% of posts wait a month for one site access permit  ____________________________
+2. A short film of three officers describing the week they queued for a stamp  ____________________________
+3. Data showing districts with online applications clear twice as many permits  ____________________________
+4. Accounts from officers about the months their transfers were unsigned  ____________________________
+5. A cost study showing what each day of waiting costs a directorate  ____________________________
+6. A newsletter with quotes from officers about pride in their posts  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business Case
+2. | Professional Association
+3. | Evidence-Based Advocacy
+4. | Officer Voice
+5. | Mentoring
+6. | Committees
+7. | Decision Authority
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Groups of officers in the same field working toward common aims
+b) | Using factual data to convince decision-makers
+c) | Staff raising their own concerns directly to command
+d) | Organised effort to change the rules and conditions posts work under
+e) | Helping a junior officer improve without taking over their decisions
+f) | Power to approve budgets and sign contracts, held by people and rules
+g) | Bodies connecting directorates in a city for coordination and certification
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Permit Policy
+3. | Policy Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using data to design and review the rules posts work under
+b) | A senior official who understands the problem and will back the change
+c) | Solving problems by understanding how the parts are connected
+d) | Spreading one authority's proven procedure across every district office
+e) | A rule that deliberately protects small posts when costs press
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most community advocacy?
+@OPT
+   ○ A) To improve post decoration and reduce noise
+   ○ B) To change rules and conditions so posts can protect visitors and work
+   ○ C) To replace government with the coordination committee
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for planning a business case.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning a business case?
+_300
+@EX Part 1: Rules-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about rules-based advocacy.
+_80
+@MCQ
+1. What is a "rules-based approach" to community advocacy?
+@OPT
+   ○ A) Arguing for a rule that applies to everyone rather than a favour for one post
+   ○ B) Working only with officials without involving other directorates
+   ○ C) Working without asking what the regulations require
+_300
+@EX Part 1: Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct Briefing
+2. | Media Engagement
+3. | Legal Appeal
+4. | Collective Action
+5. | Staff Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Officers sending suggestions and concerns to the command committee
+b) | Press coverage raising public awareness and expectation
+c) | Direct meetings with officials to present the evidence
+d) | Challenging a decision through the courts or an appeal board
+e) | Posts in a sector together asking for the same change
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A press briefing after a week of delays at the permit office  ____________________________
+2. Building a network of officers across the whole sector  ____________________________
+3. A delegation to the ministry after a sudden rule change  ____________________________
+4. Developing policy champions inside the Ministry of Interior and National Administration  ____________________________
+5. Releasing a study showing what waiting costs directorates  ____________________________
+6. Creating a standing committee so posts have an ongoing voice  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Officer Messages
+@INSTR Write persuasive officer messages using strong language.
+_80
+@NUM 100
+1. Write messages to officials about reducing the time a site access permit takes to issue.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyse the effect of a rule.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if the permit rule changed.
+_300
+@EX Part 2: Argument Structure for Officer Briefs
+@INSTR Complete argumentative sentences for officer briefs.
+_80
+@OPTLINE
+1. The evidence __________ that faster permits increase registered visitors. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Officer Concerns
+@INSTR Write statements reporting officers' concerns clearly.
+_80
+@NUM 100
+1. Write statements reporting the concerns raised by officers about the new overtime rule.
+_300
+@EX Part 2: Academic Language for Study Reports
+@INSTR Complete academic sentences for officer study reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that online applications increase registered visits. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Joint Documents
+@INSTR Write inclusive statements for joint officer documents.
+_80
+@NUM 100
+1. Write statements that unite directorates, commanders and officers toward shared aims.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to an Officer's Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to an officer speaking about raising a concern with command.
+_80
+@QUESTION
+1. What change did the officer say resulted from the concern they raised?
+_300
+@EX Part 3: Listening to an Official's Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to an official discussing how a permit rule was changed.
+_80
+@MCQ
+1. According to the official, what most influenced the decision to change the rule?
+@OPT
+   ○ A) Pressure from one large directorate alone
+   ○ B) A combination of sector pressure, evidence that the change works, and what was administratively possible
+   ○ C) A request from one committee with no evidence attached
+_300
+@EX Part 3: Listening to Association Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to officers describing how their association was formed.
+_80
+@QUESTION
+1. What were two main challenges the association faced when bringing posts together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to commanders planning an advocacy campaign.
+_80
+@MCQ
+1. What did the commanders identify as the most important first step in planning the campaign?
+@OPT
+   ○ A) Putting a notice in the newspaper at once
+   ○ B) Carrying out a stakeholder analysis to understand every view and influence
+   ○ C) Going straight to the minister with a list of demands
+_300
+@EX Part 3: Listening to Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to officers reflecting on a campaign's outcomes.
+_80
+@QUESTION
+1. How did the officers describe what made their campaign succeed and where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Campaigns that combine the involvement of many directorates with evidence-based arguments are more effective than single-post approaches. The posts affected must lead the effort for the change to hold. Officials respond to a combination of pressure and practicality—a business case must address what is administratively possible, not only what is ideal."
+            Is the following true, false, or not given? "Community advocacy works best when one large directorate acts without involving others."
+_300
+@EX Part 4: Reading About Change Theories
+@INSTR Complete based on reading about how rules change.
+_80
+@NUM
+1. According to reading about how rules change, official decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when several actions at different levels reinforce one another. One new rule alone may change little, but when it is combined with training, better administration and a shift in attitude, the change holds by itself. Effective systems change requires coordinated action across directorates and sectors. This explains why associations become essential for advocacy aimed at changing the system rather than solving one post's problem."
+            Is the following statement true, false, or not given? "Systems change can be achieved by one post alone with no need for associations."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on reading material, what are two reasons why combining data with accounts from posts is more effective than using either alone?
+_300
+@EX Part 4: Reading About Influence in a Sector
+@INSTR Read about where influence lies in a professional sector.
+_80
+@NUM 100
+1. Read: "Understanding where influence lies is essential for effective advocacy. An influence analysis examines who holds the authority to decide, who shapes those decisions, who would gain from the change, who gains from the present arrangement, and how influence is spread among the parties. Different parties hold different sources of influence—formal authority (the ministry), money (the large directorates), knowledge (the lawyers and the inspectors), numbers (the small posts), collective voice (the association). Effective advocacy identifies where influence lies, builds support among those who can be persuaded, brings the small posts together (influence through numbers), and creates new influence (evidence, press attention, a shared committee) where little existed before."
+            According to the text, can small posts create influence through organising even if they hold no formal authority or money?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about measuring an advocacy campaign.
+_80
+@NUM
+1. What indicators show that a campaign is creating change at different levels (post, sector, national policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Making the Case to Officials
+@INSTR Role-play a meeting advocating for a change in a permit procedure.
+_80
+_300
+@EX Part 5: Presentation - Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching a community campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "One Visit, Not Ten: Simplify the Permit." Include: problem statement, evidence, who is affected, what change you are asking for, how posts can take part, timeline for the campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to community advocacy and ways to overcome them.
+_80
+@BULLET
+What are common barriers that community campaigns face and how can commanders overcome them?
+_300
+@EX Part 5: Role Play - Asking Other Posts to Take Part
+@INSTR Role-play asking other officers to join a sector campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Campaign Strategy
+@INSTR Write a strategic plan for a community advocacy campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Policy Brief for Decision Makers
+@INSTR Write a brief advocating for a specific official decision.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Association Charter
+@INSTR Write a charter describing how association members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Messages for a Public Campaign
+@INSTR Write compelling messages for public awareness of a permit issue.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Kenyan Values - Consultation
+@INSTR Connect Kenyan consultation principles to joint police work.
+_80
+@NUM 100
+1. In Kenyan practice, a baraza means matters are settled by consultation among those affected. How does this relate to associations and change led by the posts themselves?
+_300
+@EX Part 7: Kenyan Values - Justice
+@INSTR Discuss principles of justice in changing the rules posts work under.
+_80
+@NUM 100
+1. In Kenyan civic tradition, haki means removing unfair treatment and securing each person's right. How does this principle relate to advocacy aimed at changing the rules?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Community Advocacy
+2. | Professional Association
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | Officer Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Staff raising their own concerns directly to command
+b) | Groups of officers in a field working toward common aims
+c) | Using evidence and data to convince decision-makers
+d) | Understanding how the parts of a problem are connected
+e) | Working to change the rules and conditions posts work under
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes a community campaign most effective?
+@OPT
+   ○ A) The expertise of one large directorate, with no involvement of others, is sufficient
+   ○ B) Leadership from the posts affected combined with evidence, a shared association, and steady engagement with officials
+   ○ C) An immediate change of rule with no need for sustained effort
+_300
+_-p
