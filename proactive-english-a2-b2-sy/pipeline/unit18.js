@@ -853,7 +853,7 @@ out.push(box('I can… (Unit 18)  —  tick: 😀 well  🙂 OK  😐 not yet', 
 ], C.lblue, C.navy));
 out.push(sp());
 out.push(box('NEXT: THE MID-BOOK TEST — UNITS 13 TO 18', [
-  'The Mid-Book Test comes next in this book. It is **60 marks**: Reading Parts 1–3, Writing Part 6, Listening Parts 1–2.',
+  'The Mid-Book Test comes next in this book. It is **60 marks** in four papers: Reading 20 · Writing 15 · Listening 15 · Speaking 10.',
   'It covers **Units 13 to 18** — the present perfect, _will_ and _going to_, conditionals, _used to_, verb patterns, and instructions.',
   'Before it: look again at the **"I can…"** box at the end of each of the six units. The lines you have not ticked are the lines the test will find.',
   'After it, Unit 19 begins the second half of the book.',

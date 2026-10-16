@@ -19,6 +19,9 @@ plus the bundle zip is enough to resume from zero.
 | --- | --- |
 | 1 | Toolchain proven (Unit 12 of Book 1 rebuilt unchanged, 31 pp, pages inspected). Continuity harvested from `bible.js` + the bound SB/AK. This handover started. Book 2 blueprint (84 functions) written. |
 | 2 | **Unit 13 delivered in full.** SB 31 pp (Unit 12 = 31), AK 18 pp (Unit 12 AK = 17). Per-cycle stage/minute profile identical to Unit 12 ([6,12,7,5,9,6,7,9,5,3,12,5,4] x6, then [6,12,7,5,9,6,7,9,5,10,15]). Pages 1, 3, 9, 17, 25, 26, 28, 29, 30, 31 inspected rendered; AK pages 1, 4, 9, 16 inspected. Two faults found and fixed (see below). `bound.js` parameterised; Book 1 binding verified unchanged. |
+| 3 | **Units 14–18 delivered.** SB 31/31/31/32/33 pp, AK 19/22/22/22/22 pp. Past-perfect sweep tightened to **zero** after finding Book 1's Answer Key uses it not once in twelve units; Unit 18 alone needed 22 rewrites. Unit 14's five-to-seven matching task relabelled (A2 Key Listening **Part 5**, not Part 2) and that label standardised for every unit check. |
+| 4 | **Mid-Book Test rebuilt and Units 19–21 delivered.** The first mid-test draft followed my blueprint (Reading 1–3 / Writing 6 / Listening 1–2, 6 pp); Book 1's real artefact is **four papers, 60 marks, 8 pp**, so `midtest2.js` / `midkey2.js` were rewritten from it — now 8 pp and 6 pp, matching Book 1 exactly. Units 19–21: SB 31/32/31 pp, AK 22/22/20 pp. Unit 20 came in at 35 pp and was diagnosed with a sparse-page count (5 pages under 22 lines) — the cause was whitespace from `cantSplit` Language boxes, not content; trimmed to 32. |
+| 5 | **Units 22, 23, 24 and the End-of-Book Test delivered. Book 2 is complete.** SB 31/31/31 pp, AK 22/22/22 pp. End-of-Book Test **9 pp + key 8 pp — identical to Book 1's**, built from `endtest.js` / `endkey.js` rather than from a blueprint (same four papers, same mark split 30/30/20/20, same `ET-1`–`ET-4` track names, same band table). Bound volumes: SB **394 pp**, AK **270 pp**, with the Mid-Book Test after Unit 18 and the End-of-Book Test after Unit 24, verified in the rendered PDF. Unit 18's pointer box corrected to describe the real four-paper mid-test. |
 
 ---
 
@@ -191,7 +194,7 @@ Full 84-function blueprint: see `PE-A2-B2-SY_Blueprint_Units13-24.docx`. Summary
 | 23 | News and Our City | present perfect for news vs past simple for details |
 | 24 | Looking Forward | question formation review · the three futures together — **End-of-Book Test after this unit** |
 
-**Status:** 13 built · 14–24 planned.
+**Status:** **13–24 all built**, plus the Mid-Book Test (after 18) and the End-of-Book Test (after 24). Book 2 is complete.
 
 ---
 
@@ -238,6 +241,167 @@ Full 84-function blueprint: see `PE-A2-B2-SY_Blueprint_Units13-24.docx`. Summary
 - Tracks used: **13.1 – 13.14** (same count and the same 13.x.14-is-the-unit-check
   shape as Unit 12).
 
+### Unit 14 — Plans and Predictions
+- **The predictions envelope.** Ms Huda collects the three predictions everybody
+  wrote at the end of Unit 13 and seals them. **Opened in 24.1** — this is now a
+  two-book-long device and must not be re-used for anything else.
+- Rami's site **may move to Latakia** (eight months if it does; the company has
+  not decided). Lina's company is **waiting on a supplier in Türkiye**.
+- Omar predicts the football every week and is wrong almost every week — the
+  class's running way of talking about certainty.
+- Tracks **14.1–14.14**.
+
+### Unit 15 — Problems and Solutions
+- **The lift has broken** — stopped on a Tuesday with nobody in it. The Thursday
+  class moves to **Room 3, ground floor**, until it is fixed. (The lift is
+  **mended** again by Unit 23, where nobody knows who ordered the repair.)
+- **Mr Bassam** manages the repair and the notices. The engineer is
+  **Abu Nizar**, who has fixed this lift four times.
+- Maya plans **three days in Latakia** around the weather, the bus and her
+  sister's exams.
+- Tracks **15.1–15.14**.
+
+### Unit 16 — Then and Now
+- **The then-and-now wall** in Room 12: one photograph each, at least ten years
+  old, with a caption.
+- **Omar's Aleppo folder** — about **two thousand** photographs, going back to
+  when he was fourteen. (This is why the newspaper buys one in Unit 23.)
+- **Abu Rami**, Rami's father, visits the club and talks about the Homs he grew
+  up in. **Mrs Mona** remembers **nine** bookshops in her street; there are two.
+- Tracks **16.1–16.14**.
+
+### Unit 17 — Learning and Training
+- **Nour's training course** at TechCare: started **3 February**, six weeks, two
+  evenings a week, assessment at the end. Trainer **Mr Jamil**.
+- The centre's **conversation club**: Saturdays at eleven, free for students,
+  **20,000 SYP** a term for everybody else.
+- **Hiba's teacher-training forms went in on 1 March**; both referees said yes.
+  (She is interviewed on **9 March** and hears on a **Sunday in June** — Units
+  23 and 24, and the End-of-Book Test Reading Part 3.)
+- **Lama** works three afternoons at Dar Al-Kalima and is learning the till.
+- Tracks **17.1–17.14**.
+
+### Unit 18 — Technology and Online Life
+- **The timetable has gone online**; the paper one is off the door and about half
+  the class cannot find anything.
+- **The Saturday clinic** — Omar and Nour, Room 3, 10:00–11:00, an hour before
+  the conversation club. (Mr Fouad asks Omar to keep it going in 22.2.)
+- **Mr Bassam** has an account for the website and has locked himself out twice.
+- **Mid-Book Test follows this unit.** The pointer box describes four papers and
+  60 marks — keep it in step with `midtest2.js` if that file is ever changed.
+- Tracks **18.1–18.14**.
+
+### Unit 19 — People and Places
+- **Two new students joined 4B after the mid-test:** **Tareq Ayoub**, who drives
+  a minibus on the Mezzeh line, and **Samira Deeb**, who works in a clothes shop
+  in Al-Hamra.
+- **Abu Walid**, the new caretaker of Lina's building, replacing a man everybody
+  knew for nineteen years.
+- The class writes **a page about the people of the centre** for the entrance
+  hall.
+- Tracks **19.1–19.14**.
+
+### Unit 20 — Services and Repairs
+- **A bad fortnight:** Rami's laptop, Lina's washing machine and the centre's
+  projector all broke within two weeks.
+- **Three repair shops in Mezzeh:** **Khalid Electronics** (fast, expensive,
+  explains nothing), **Abu Nidal's** (slow, cheap, tells you what he did), and
+  **the one by the bridge** whose name nobody remembers.
+- **Nour's rule:** a repair you cannot see is a repair you cannot judge.
+- Tracks **20.1–20.14**.
+
+### Unit 21 — Quality and Complaints
+- **The T-shirts.** Twenty ordered for the end of the course from **Al-Rayyan
+  Printing**, **420,000 SYP**, paid; order **1184**, placed 3 April, delivered
+  14 April, all twenty in the wrong size (42 cm across the chest where a large
+  is 54). (Omar brings **twenty T-shirts, right size**, to the evening in Unit 24
+  and the End-of-Book Test Listening Part 2.)
+- Maya takes back a **kettle** — three weeks old, receipt kept, box not kept.
+- **Mr Peter Lang is coming in April** (the German visitor from Book 1). He came
+  for an hour and stayed four at last year's end-of-course evening.
+- Tracks **21.1–21.14**.
+
+### Unit 22 — Messages and Requests
+- **Mr Fouad is away from the 6th to the 20th** — his daughter's wedding in
+  Aleppo. He answers the telephone twice a day, at about ten and about seven.
+- **Nour takes 61 messages in a fortnight** and expected about twenty.
+- **The TechCare message book**, started by Omar in week one after four messages
+  went missing in the first three days, two of them his.
+- **Mrs Jamila Khoury**, Mezzeh, **0991 448 207** — needs her machine before
+  Thursday because her daughter is arriving from Dubai for four days; asks them
+  not to ring after six, because of her mother.
+- **Al-Sharq Parts**, account **4412**, order **2214**: terms change from 1 May —
+  orders over 100,000 SYP need confirmation in writing, payment goes from 30 days
+  to 21, late accounts go on pro forma, "appointments/changes not negotiable
+  individually". Nour's one question: does the 21 days run from invoice or
+  delivery?
+- **Lina writes to M. Yilmaz at Anadolu Tekstil alone** for the first time —
+  Mr Khaled tells her to send it without showing him ("I am not a checker; I am
+  a bottleneck"); Rana is on leave until the **11th**. Lina is
+  **Accounts, Medica Trading, 0991 205 734**. Yilmaz answers in four hours and
+  answers one question of two.
+- **Mr Samih Aswad · 0955 613 118** (practice card). **Abu Hani** — the customer
+  everybody says yes to, refused a repair without a ticket on the 11th.
+- Tracks **22.1–22.14**.
+
+### Unit 23 — News and Our City
+- **The Mezzeh public library has reopened** — opened 1962, closed 2013, reopened
+  **4 May** after eleven years; **14,000 volumes** in **41 boxes** in a basement,
+  some of them wet; **Maysoun Sabbagh** at the desk has worked there **since
+  1998** and put the books back **on her own in nine weeks**. The main room is
+  painted, the back-room windows replaced, the desk moved to the door. The
+  **children's room has not opened** (full of chairs). No lending cards — names
+  written in a book, as until 1998. Open 9–2 and 4–7, every day but Friday;
+  identification on a first visit. Nobody will say who paid for the paint;
+  "appointments are under consideration".
+- **Omar has sold a photograph to a newspaper** — the library stairs, taken on
+  4 May in eleven minutes at four o'clock; the paper rang on Tuesday the 14th, he
+  sent four, they printed one on **page four on Thursday 9 May** and paid
+  **25,000 SYP**. His father has put it on the workshop wall where the licence is.
+- **Hiba has a place on the teacher-training course** — **40 places, 300
+  applications**, heard on a Sunday in June, starts **14 September**, four days a
+  week. Her mother has worked in the family shop **since she was seventeen**
+  (41 years).
+- **Rana has been given the Aleppo office**; **Lina takes over her job from
+  June**, and the company pays half her B1 fee.
+- **The Mezzeh road:** the bridge is finished, the road is not; about **200
+  metres** with no surface at the Mezzeh end, and the machine that lays it has
+  been in Tartous for five weeks. The paper says "expected to open in June".
+- The weakening-word list (keep it): _expected · likely · planned · under review
+  · under consideration · in the programme · substantially · in due course_.
+- Tracks **23.1–23.14**.
+
+### Unit 24 — Looking Forward
+- **The Unit 13 envelopes are opened** in 24.1. Hiba's said she would apply and
+  not tell her mother; Omar's said "I am going to buy a camera **with my own
+  money**".
+- **The end-of-course evening is on the 27th**, doors **6.30**, certificates
+  **7.00**, one dish per family; Omar brings **twenty T-shirts**, right size this
+  time; tell Ms Huda by the **20th**; nobody had booked the chairs.
+- **Nine of the sixteen who started Book 2 have finished.** Three of the four
+  named students go on to B1: **Omar** (paid, meeting the newspaper man on the
+  **9th**), **Lina** (company pays half), **Hiba** (course instead). **Nour
+  stops for one year** — the second workshop opens in **October** — and gives a
+  date: the **first week of September next year**, and Omar may ask her in
+  **August**.
+- **Ms Huda** has taught **nine years**, keeps dated evidence for every student,
+  has asked for the **second room** for three years, and takes the next B1 group.
+  In November eleven were enrolled and **four came**.
+- **The letter from the previous Book 2 class** (printed in 24.7): nine finished
+  of sixteen; the Thursday after the first test is the day people stop coming.
+- Tracks **24.1–24.14**.
+
+### Mid-Book Test (after Unit 18) and End-of-Book Test (after Unit 24)
+- Mid-Book Test tracks **MT-1 · MT-2 · MT-3**; End-of-Book Test tracks
+  **ET-1 · ET-2 · ET-3 · ET-4** (the same names Book 1's end test uses — the two
+  books are never bound into one volume, so they do not collide).
+- End-of-Book Test Reading Part 2 invents **Souda/Souad's 2019 application** and
+  **the Haddad sisters** (one employer pays half, one was refused). Reading Part 3
+  is Hiba's story and adds the interview date, **9 March**, forty minutes, three
+  people.
+- Band advice sends 40–54 back to the **x.7 cycles of Units 13, 19 and 23**.
+
+
 ---
 
 ## 8 · Proposed changes to shared files (never edited directly)
@@ -263,6 +427,8 @@ Full 84-function blueprint: see `PE-A2-B2-SY_Blueprint_Units13-24.docx`. Summary
 | emoji in a pdftoppm preview | harmless poppler font warning; the .docx is correct |
 | **two tables pushed back-to-back merge into one** (OOXML rule: adjacent `<w:tbl>` with no `<w:p>` between them). The author's own layout relies on it — the Unit check grid and the Track x.14 `dlg` are meant to sit flush. The fault only shows when the **merged** table breaks across a page: the grid's header row (`tableHeader: true`) then repeats on top of the audio script. | do **not** separate them with a spacer — that loses the author's flush look and the `dlg`'s geometry. Put a `pb()` before the `✓ Unit NN check` stage so the whole check block starts a fresh page, exactly as it falls in Unit 12. Costs one page and matches Unit 12's 31 pp. |
 | the pipeline folder holds **Book 1's** `unitNN.js`/`akNN.js` too | Unit 12 is kept as the live template under the names `ref-unit12.js` / `ref-ak12.js` — the `ref-` prefix keeps `bound.js`'s `^unit\d\d\.js$` from binding it while `require('./lib')` still resolves. Units 01–11 are left as they are and excluded by the `PE_BOOK=2` range. |
+| **page count is set by whitespace, not by words** | Two separate levers, both discovered the hard way. **SB:** each cycle must fit **4 pages** (x.7 may take 5–6), so 1 + 6×4 + 6 = **31**. Measure it with `pdftotext -f n -l n | grep -c '[A-Za-z]'` per page: a page under ~20 lines means a `cantSplit` box jumped. Trim the cycle that spills, not the book. **AK:** length is governed by the **number of `NOTE()` boxes**. Book 1's keys and Units 19–21 run **7–10** per unit; Unit 22's first draft had **22** and was two pages over. Keep one `NOTE` per cycle (after the Language box practise) plus three or four in x.7. |
+| **matching tasks in a unit check are A2 Key Listening *Part 5*** | Part 2 is note-completion. Label every `Track NN.14` five-to-seven matching task "A2 Key Listening Part 5 style – matching". |
 
 ## 10 · Content QA — run every unit
 
@@ -274,8 +440,12 @@ Full 84-function blueprint: see `PE-A2-B2-SY_Blueprint_Units13-24.docx`. Summary
 4. Numbers reconcile across cycles and into the key (prices, times, durations).
 5. Continuity: check §3 and §7 before inventing anything.
 6. Word counts achievable, and the sample in the key actually hits the count.
-7. **Register sweep (new, Unit 13).** Book 1 uses the past perfect essentially
-   never — one `had said` in 12 units. Unit 13's first draft had eight, mostly
+7. **Register sweep — zero tolerance (revised).** Book 1's Student's Book uses
+   the past perfect **once in twelve units** and Book 1's **Answer Key uses it
+   not once**. Every unit of Book 2 therefore ships at **zero**, keys included —
+   including the places where it is natural English (`I wish somebody had told
+   me`, `two of them had read the form`): rewrite them. Unit 18 needed 22
+   rewrites, Unit 23's key ten, Unit 24's key three, the End-of-Book Test four. Unit 13's first draft had eight, mostly
    from reported speech (`she asked me how long I had lived…`) and from
    narrative `I had never heard…`. Grep every unit and its key for
    `\bhad (never |already |just |ever )?[a-z]+(ed|en|ne|me|nt|d|t)\b` and keep
