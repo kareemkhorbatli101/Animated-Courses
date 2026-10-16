@@ -1,0 +1,642 @@
+@VOICES Creator | Production Manager | Finance Manager | All Managers
+@UNITHEAD Unit 1: Introduction to Content Creation
+@PART Warm Up | Warm Up
+@EX Warm-up: Content Terms and Functions Matching
+@INSTR Match content terms with their simple definitions and explanations.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Content creation
+2. | Turnaround time
+3. | Content library
+4. | Response time
+5. | Production supplies
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The posts, videos and newsletters a channel has published and still holds
+b) | The hours or days between a comment arriving and a reply being posted back
+c) | The work of planning a channel so the people on it can publish good work
+d) | The whole time between a brief reaching the studio and the piece going live
+e) | What the studio is holding in its camera bag and equipment cupboard now
+_300
+@EX Warm-up: What Is Content Creation? Simple Vocabulary Fill
+@INSTR Complete sentences about content creation using the words provided.
+_80
+@GAP
+1. Content creation is different from ____________________ because it plans a whole channel instead of editing one clip.
+2. Every purchase is measured against the ____________________, which states what the channel may spend.
+3. A comment that is answered on the day it arrives is recorded as ____________________.
+4. Content managers are ____________________ professionals who must be trained before they may approve spending.
+_300
+@EX Warm-up: Types of Content Work Classification
+@INSTR Classify each task as Planning, Organising, Communicating, or Controlling.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Organising
+3. Communicating
+4. Controlling
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Writing next quarter's content plan and the budget to deliver it  ____________________________
+2. Deciding which folder each master file goes in and who may edit it  ____________________________
+3. Answering a comment and sending the shoot notes to the client  ____________________________
+4. Comparing this month's equipment spending with the budget  ____________________________
+5. Choosing which two of five freelance editors to use this year  ____________________________
+6. Checking that every purchase was approved before the invoice was paid  ____________________________
+_300
+@EX Warm-up: Purposes of Content Creation Multiple Choice
+@INSTR Read about content creation and choose the correct answer to each question.
+_80
+@PASSAGE
+Content creation is the work of planning a channel so the people on it can do their jobs. Content managers think about what each audience needs, what the channel can afford, and how the work will be arranged. Content creation covers many kinds of work including scheduling, filming, writing, buying equipment, reporting, and reviewing results. People choose to work in content creation because they want the work of others to reach an audience and promises to be kept.
+@MCQ
+1. What does planning mean in content creation?
+@OPT
+   ○ A) Reacting to a problem after an audience complains
+   ○ B) Deciding in advance what the channel will publish and what it will cost
+   ○ C) Buying every item from the cheapest supplier available
+   ○ D) Hiding a missed publishing date from the client
+@MCQ
+2. Which is NOT a common task for a content manager?
+@OPT
+   ○ A) Preparing a content budget for the year
+   ○ B) Writing a monthly report on how the channel performed
+   ○ C) Editing every clip in the building all day
+   ○ D) Checking that production spending stayed within the budget
+_300
+@EX Warm-up: Content Documents and Tools Matching
+@INSTR Match well-known content documents and tools with what they cover and their main purpose.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Content brief
+2. | Shot list
+3. | Equipment request
+4. | Delivery note
+5. | Publishing calendar
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A document the client signs to confirm what was actually delivered and when
+b) | A short written note telling named staff what has been decided and what to do
+c) | A chart showing which piece goes out on which day, in what order and on which channel
+d) | A written record of every shot to be filmed, who is in it, and where it happens
+e) | A request to buy stated items, with the quantity, the reason and the approval
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Content and Production Terminology Matching
+@INSTR Match content vocabulary words with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Turnaround time
+2. | Unit cost
+3. | Response time
+4. | Audience
+5. | Supplier
+6. | On-time publishing rate
+7. | Equipment check
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A physical check of whether the cupboard holds what the records say it holds
+b) | An outside company that provides the goods or the services a channel buys
+c) | The people a piece of content is made for, named before any filming begins
+d) | A figure chosen to show whether pieces are published when they were promised
+e) | The hours or days between a comment arriving and a reply being posted back
+f) | The price charged for one item of equipment, software or outside service
+g) | The whole time between a brief reaching the studio and the piece going live
+_300
+@EX Part 1: Content Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.7
+@INSTR Practice pronouncing important content vocabulary words. Pay attention to word stress (the syllable said loudly). // When speaking about content work, correct pronunciation helps others understand you clearly: // *• Production* - primary stress on DUC (pro-DUC-tion) // *• Audience* - primary stress on AU (AU-di-ence) // *• Analytics* - primary stress on LY (an-a-LY-tics) // *• Collaboration* - primary stress on RA (col-lab-o-RA-tion) // *• Engagement* - primary stress on GAGE (en-GAGE-ment) // *• Schedule* - primary stress on SCHED (SCHED-ule) // *• Negotiation* - primary stress on A (ne-go-ti-A-tion) // Practice these words aloud several times.
+_80
+_300
+@EX Part 1: Content Activities and Purposes Table
+@INSTR Complete the table with content activities, their main purposes, and examples.
+_80
+@GRID
+Content Activity | Main Purpose | Example
+Planning |  | 
+Organising |  | 
+Controlling |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Deciding in advance what the channel will publish and what the work will cost
+b)  Setting next quarter's publishing target and the content budget that supports it
+c)  Arranging space, equipment and people so that the work can be carried out
+d)  Numbering the folders and naming who may edit a master file in the archive
+e)  Comparing what was actually published with what was planned and promised
+f)  Reviewing last month's supplier invoices against the prices agreed
+_100
+_300
+@EX Part 1: Content Functions and Stages Matching
+@INSTR Match content functions with their descriptions and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Planning
+2. | Organising
+3. | Communicating
+4. | Controlling
+5. | Reviewing
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Looking back at a completed quarter to learn what should be arranged differently
+b) | Answering the comment, circulating the brief and keeping everyone informed
+c) | Comparing what was published with what was promised and correcting the difference
+d) | Arranging space, equipment and storage so that master files can be kept and found
+e) | Deciding in advance what the channel will publish, for whom, and at what cost
+_300
+@EX Part 1: Content Creation Concepts Multiple Choice
+@INSTR Read about content work and choose the correct word for each sentence.
+_80
+@PASSAGE
+Content staff work in many sectors to make organisations faster and better known. Some focus on archives, planning the storage and controlling access. Others work in community management, where every comment must be answered and every message recorded. Many content staff also work with suppliers to confirm that invoices match what was ordered. All of them share the goal of work that is published correctly, on the agreed day and within the budget.
+@MCQ
+1. A ____________________ states what the channel may spend over a stated period.
+@OPT
+   ○ A) report
+   ○ B) content budget
+   ○ C) invoice
+   ○ D) receipt
+@MCQ
+2. The time between a comment arriving and a reply being posted is called the ____________________.
+@OPT
+   ○ A) margin
+   ○ B) notice
+   ○ C) response time
+   ○ D) deposit
+@MCQ
+3. The whole time between a brief arriving and the piece being published is the ____________________.
+@OPT
+   ○ A) response time
+   ○ B) turnaround time
+   ○ C) filming time
+   ○ D) waiting time
+_300
+@EX Part 1: Content-Related Vocabulary Fill-in
+@INSTR Complete sentences using important content vocabulary.
+_80
+@GAP
+1. A content manager is a ____________________ professional who must be trained before approving spending.
+2. ____________________ film the clips and cut the footage that content managers then organise.
+3. The ____________________ decides whether the piece was published when it was promised.
+4. All scheduling begins with a clear ____________________ describing what must be made and by when.
+5. The items still held in the cupboard after every equipment request is filled are called the ____________________.
+6. Content records are ____________________ regularly so the directors can trust the figures.
+_300
+@EX Part 1: Vietnam's Content Environment and Media Industry
+@INSTR Read about content work in Vietnam and answer the factual questions.
+_80
+@PANEL
+Vietnamese Media Institutions and Content Work
+Vietnam has a long tradition of printing, broadcasting and storytelling. A production company is entered in the national business register before it may trade, the Ministry of Information and Communications and Communications licenses media work and approves filming permits, and the Cinema Department and the artists' association set the professional rules.
+Many studios in Vietnam belong to family firms. Some serve drama producers, where the studio writes the scripts, keeps the footage and manages the schedule. Others serve shops, clinics, schools and trading houses, where every advertisement needs an official approval. As the market has grown, much content work has gone into organising archives that were never indexed and reaching audiences abroad.
+International broadcasters and brands also work with Vietnamese studios. They bring commissions, training in editing and distribution, and knowledge of what a foreign platform expects to receive. Partnerships between Vietnamese studios and foreign partners strengthen the capacity to work in two languages.
+Content staff in Vietnam often face challenges including crowded premises, humidity that damages equipment, and an internet connection too slow to upload a finished film. Despite these obstacles, they remain committed to publishing every piece and building confidence in Vietnamese production.
+@NUM 100
+1. What must happen before a production company may trade in Vietnam?
+2. Name three kinds of client Vietnamese studios serve.
+3. What do international broadcasters and brands contribute to Vietnamese studios?
+4. What challenges do content staff in Vietnam face?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Simple for Describing Content Work
+@INSTR Complete sentences about what content staff do using the present simple tense.
+_80
+@GAP
+1. A content manager ____________________ (approve) every equipment request before it is ordered.
+2. Editors ____________________ (report) the day's uploads to the manager.
+3. The storekeeper ____________________ (check) the equipment cupboard once a month.
+4. Content staff ____________________ (record) every file they receive.
+_300
+@EX Part 2: Simple Sentences About the Profession
+@INSTR Complete sentences about what makes content creation a distinct profession.
+_80
+@NUM
+1. Content managers are ____________________ (accountable) to the directors for the money they spend.
+2. Content staff are responsible because they ____________________ (responsible) for work others depend on.
+3. The purpose of content creation is to ____________________ (organise) the work so others can do theirs.
+_300
+@EX Part 2: Negative Sentences About Content Staff
+@INSTR Rewrite sentences in the negative form to show what content staff do NOT do.
+_80
+@GAP
+1. Content managers ____________________ (edit every clip) - they plan, organise and check.
+2. A manager ____________________ (approve) an equipment request without a budget line for it.
+3. Content staff ____________________ (promise) a client a date the studio cannot meet.
+4. Editors ____________________ (upload) a file they have not actually checked.
+_300
+@EX Part 2: Manager and Team Roles Table
+@INSTR Complete the table with roles and what the MANAGER does vs. what the TEAM does.
+_80
+@GRID
+Work Stage | What the MANAGER does | What the TEAM does
+Before the task |  | 
+During the task |  | 
+At the end |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Agrees the deadline, the format and the budget for the piece of work
+b)  Prepares the files, the equipment and the room where the work is done
+c)  Tracks the progress and removes obstacles as they appear
+d)  Films, edits and keeps the footage moving through the studio
+e)  Reviews what was published and reports the result to the directors
+f)  Archives the masters, records what was used, and prepares for the next shoot
+_100
+_300
+@EX Part 2: Correcting Content Sentences
+@INSTR Correct the grammatical errors in sentences about content creation.
+_80
+@NUM 60
+1. Content managers approves every equipment request before it is ordered.
+@RULE
+@NUM 60
+2. A manager do not edit the clips himself.
+@RULE
+@NUM 60
+3. Editors reports the uploads every day.
+@RULE
+@NUM 60
+4. Storekeeper checks the cupboard once a month.
+@RULE
+@NUM 60
+5. The budget are approved by the directors is correct.
+@RULE
+_300
+@EX Part 2: Grammar Review - Content Sentences
+@INSTR Choose the grammatically correct sentence about content creation.
+_80
+@PASSAGE
+When learning about content creation, correct grammar helps us communicate clearly about work, dates and responsibility. Selecting the best sentence shows understanding of schedules, archives, and the roles of the people in a studio.
+@MCQ
+1. Which sentence is correct?
+@OPT
+   ○ A) The manager approve every equipment request carefully.
+   ○ B) The manager approves every equipment request carefully.
+   ○ C) The manager are approving every equipment request carefully.
+   ○ D) The manager have approve every equipment request carefully.
+@MCQ
+2. Which sentence is correct?
+@OPT
+   ○ A) Content managers do not edits the clips.
+   ○ B) Content managers does not edit the clips.
+   ○ C) Content managers do not edit the clips.
+   ○ D) Content managers do not editing the clips.
+@MCQ
+3. Which sentence is correct?
+@OPT
+   ○ A) Editors report the uploads every day.
+   ○ B) Editors reports the uploads every day.
+   ○ C) Editors to report the uploads every day.
+   ○ D) Editors reporting the uploads every day.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Content Manager Interview Understanding
+@AUDIO 🔊 Audio Track 1.19
+@INSTR Listen to a content manager describing their company and role. Answer the comprehension questions.
+_80
+@PLAYNOTE
+@SCRIPT
+~Creator: Hello, my name is Lina. I am the content manager of a media company in Hanoi called Sông Hồng Studio. My department writes the scripts, orders the equipment, and makes sure every piece is published on the day it was promised.
+~Creator: We have two editors, a community manager and a storekeeper who meet every morning. We set the publishing targets, check the calendar against them, and decide what to do when a deadline is at risk. We also train the people who join us.
+~Creator: My department reports to the general manager and to the directors, who approve the content budget each year. Students from the institute also work with us as trainees. Our goal is simple - we want every piece published on the day it was promised.
+_200
+@QUESTION
+1. What is Lina's company called?
+2. What does her department do?
+3. Who does the department report to?
+_300
+@EX Part 3: Types of Content Work - True or False
+@AUDIO 🔊 Audio Track 1.20
+@INSTR Listen to descriptions of different kinds of content work. Mark statements as True, False, or Not Given.
+_80
+@PLAYNOTE
+@SCRIPT
+^Production Manager: There are many kinds of content work in Vietnam. Some staff run the archive, others run the community pages, and many look after equipment and rights records. The national business register records every company that trades.
+^Production Manager: Archive managers plan the storage, the retention and the access. Community staff answer comments, receive messages and route every enquiry. Rights clerks keep the contracts, the release forms and the licence records the law requires.
+^Production Manager: International partners also audit Vietnamese studios. Together with local staff, they publish thousands of pieces every year. All content staff share the same goal - to finish the work correctly and on the promised day.
+_200
+@QUESTION
+1. There are many kinds of content work in Vietnam.
+2. Community work is the only kind of content work in Vietnamese companies.
+3. The national business register records every company that trades.
+4. International partners do not audit Vietnamese studios.
+5. All content staff work to finish the work correctly and on the promised day.
+_300
+@EX Part 3: Content Aims and Goals Understanding
+@AUDIO 🔊 Audio Track 1.21
+@INSTR Listen to managers explaining what their work aims to achieve. Answer the questions about their goals.
+_80
+@PLAYNOTE
+@SCRIPT
+~Production Manager: Our archive department works to log every file on the day it arrives. We plan the week, check the catalogue hour by hour, and move staff when a deadline is at risk.
+^Finance Manager: My department looks after the studio money. We prepare the content budget, pay the suppliers and check every invoice against the price agreed. We teach the team that a cheap microphone that fails costs more than it saves.
+~Creator: We are the community section. We believe an answer given is worth more than a promise repeated. We agree who will reply, what they will say and by when, and we tell the audience early when something changes.
+^All Managers: All of us report to the general manager. We work to the content budget approved each year and to the deadlines our clients have agreed. We have trainees from the institute who help us every day. This is why the studio keeps its reputation.
+_200
+@QUESTION
+1. What is the aim of the archive department?
+2. What does the finance department look after?
+3. What does the community section agree?
+4. Who do these departments report to?
+_300
+@EX Part 3: Content Roles and Focus Areas Matching
+@INSTR Listen to descriptions. Match each kind of content role with its main focus area.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Archive manager
+2. | Community manager
+3. | Rights clerk
+4. | Purchasing officer
+5. | Studio services manager
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Cleaning, maintenance, equipment, utilities and keeping the studio usable
+b) | Finding suppliers, agreeing prices and making sure equipment arrives on time
+c) | Contracts, release forms, licence records and the papers the law requires
+d) | Comments, messages, enquiries, replies and the first impression of the channel
+e) | Storage, retention, access and the condition of the masters in the archive
+_300
+@EX Part 3: Content Characteristics Classification
+@INSTR Classify each statement as a Feature of Content Work, A Challenge Content Staff Face, or A Benefit to the Business.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Feature of Content Work
+2. Challenge Content Staff Face
+3. Benefit to the Business
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A content manager is accountable to the directors for every approval given  ____________________________
+2. Power that fails in the middle of a long render  ____________________________
+3. Clients who get a first draft on the day they asked  ____________________________
+4. Every master file is logged so it can be found again  ____________________________
+5. A camera that cannot be repaired for three weeks  ____________________________
+6. Lower production costs and less waste on every shoot  ____________________________
+7. Working with the archive, the community pages and rights together  ____________________________
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: What is Content Creation? Reading Comprehension
+@INSTR Read the text about content creation and answer the multiple choice questions.
+_80
+@PASSAGE
+What is Content Creation?
+Content creation is the work of planning a channel so the people on it can do their jobs. A content manager sets objectives, arranges the staff, space and equipment to reach them, keeps the work moving, and reports the result. Content creation works on planning, organisation and control at the same time.
+Content creation exists in almost every organization in the world. It ranges from one person with a phone and a notebook in a small workshop to a production department of two hundred in a broadcaster. Well-known tools include the publishing calendar, the content budget, the shoot schedule, and the asset catalogue.
+Content managers are paid by the organisation, but they must report a missed publishing date honestly even when the news is bad, because the directors cannot see every edit. They work closely with the community pages, the archive and rights. Students work as trainees because they want to learn how a studio really runs.
+A content objective is a statement of what must be made and by when. For example, a publishing objective states how quickly a piece will go live. A cost objective states what the channel may spend each quarter. An archive objective states how long a master must be kept. All objectives describe something the studio has promised.
+Content managers are essential because somebody must arrange work that several departments all need at once. They prepare the schedules, agree the budgets, and keep the records that show what was decided. Directors, staff and audiences all benefit from careful production.
+@MCQ
+1. What is content creation?
+@OPT
+   ○ A) Only reacting to problems after they appear
+   ○ B) Planning a channel so the people on it can do their jobs
+   ○ C) Buying equipment at the lowest possible price
+   ○ D) Editing every clip in the building
+@MCQ
+2. Why must content managers report a missed publishing date honestly even when the news is bad?
+@OPT
+   ○ A) To avoid paperwork
+   ○ B) Because the directors cannot see every edit
+   ○ C) Because the community pages are not important
+   ○ D) To reduce the cost of software
+@MCQ
+3. Why do students work as trainees?
+@OPT
+   ○ A) To earn high salaries
+   ○ B) Because they must by law
+   ○ C) Because they want to learn how a studio really runs
+   ○ D) To avoid examinations
+_300
+@EX Part 4: Functions of Content Creation and Examples - True or False
+@INSTR Read about the functions of content creation and mark statements as True, False, or Not Given.
+_80
+@PANEL
+The Functions of Content Creation and Their Purposes
+Content staff do many different kinds of work. Planning decides in advance what the channel will publish, for whom, and at what cost. It prevents the studio from buying equipment nobody asked for.
+Organising arranges the staff, space and equipment so the plan can be carried out. It decides who answers the comments, who may approve an equipment request, and where each master is kept. Without it, two people edit the same clip and a third edits nothing.
+Communicating keeps everyone informed when the plan meets reality. It circulates a decision, answers an enquiry, and gives people the authority to act. Good communicating is why work continues when a manager is away.
+Controlling compares what was done with what was planned. It reviews spending against the budget, publishing against the target, and complaints against the service promise. Where there is a difference, it finds the cause.
+Reviewing looks back at a completed quarter rather than at a single piece. It asks whether the objectives were the right ones and what should be done differently next year.
+All these functions work together to keep a channel useful. They depend on accurate records and on figures that are reported at the time the work is done.
+@NUM 100
+1. Planning only decides who answers the comments.
+2. Organising decides who may approve an equipment request.
+3. Controlling compares what was done with what was planned.
+4. Communicating matters only when everything goes according to plan.
+5. Reviewing looks back at a completed quarter.
+_300
+@EX Part 4: Content Creation in Vietnam - Fact Questions
+@INSTR Read about content work in Vietnam and answer the detailed questions.
+_80
+@PANEL
+Content Creation in Vietnam: History and Current Work
+Vietnam has a long media history. Hanoi and Hội An had printing houses and newspapers from the nineteenth century, and the water-puppet masters told stories in the villages for four hundred years. Formal regulation began with the Ministry of Information and Communications and Communications, which licenses every firm that publishes, and with the Cinema Department that trained a generation of film-makers.
+Today, many kinds of content work are carried out in Vietnam. Some staff run the production of small family studios. Others work with international broadcasters and brands. Together they address critical needs in employment, archiving, storytelling and the indexing of footage that was never ordered.
+Content managers help Vietnamese studios deal with authorities and clients. They prepare the permits an authority demands, keep the rights and release records, and arrange the subtitles and translations a foreign platform asks for. Finance clerks watch the petty cash and protect the studio from spending nobody approved.
+As the market has grown, content staff have had to rebuild archives that were scattered or incomplete. They recover footage, obtain duplicate licences, retrain editors, and persuade old clients that the studio still delivers on time.
+Archive managers work to keep masters safe despite humidity and crowded buildings. Purchasing officers travel long distances to obtain one spare lens.
+The work of content staff is challenging. They operate with thin margins and often in crowded premises. But they remain committed to publishing every piece and building confidence in Vietnamese production. International partnerships help local studios work to foreign standards.
+@NUM 100
+1. What told stories in Vietnamese villages for four hundred years?
+2. What are three areas that content staff address in Vietnam?
+3. What do content managers do to help Vietnamese studios deal with authorities?
+4. What challenges do content staff in Vietnam face?
+_300
+@EX Part 4: Content Costs and Roles Classification
+@INSTR Classify each statement as a Cost of Running a Studio, A Feature of the Profession, or A Service the Studio Provides.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Cost of Running a Studio
+2. Feature of the Profession
+3. Service Provided
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The price of memory cards and the supplier's charge for each delivery  ____________________________
+2. Being accountable to the directors for every approval you give  ____________________________
+3. Preparing the shoot schedule and reporting the views each month  ____________________________
+4. The value of equipment bought and never properly used  ____________________________
+5. Responsibility for records that belong to other departments  ____________________________
+6. Agreeing a deadline with a client and keeping it  ____________________________
+7. The annual fee for the national business register and the media licences  ____________________________
+_300
+@EX Part 4: Content Impact and Importance Matching
+@INSTR Match content contributions with their importance and impact on the business.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Clear Publishing Objectives
+2. | Accurate Content Budgeting
+3. | Supplier Management
+4. | Honest Reporting of Delays
+5. | Complete Rights Records
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Records made at delivery prove what was sent and let a missing master be traced
+b) | A client told early can change a plan while there is still time to change it
+c) | Agreeing prices and delivery in advance stops a shortage of cards stopping the work
+d) | A plan of what may be spent means the studio never orders what it cannot pay for
+e) | Everyone knows what must be done and when, so no effort is wasted
+_300
+@EX Part 4: Content Importance and Role Completion
+@INSTR Complete sentences about the importance and role of content managers.
+_80
+@NUM
+1. Content managers are essential for ____________________ (arrange) work that several departments need at once.
+2. One main role of a content manager is to ____________________ (decide) how the work will be organised.
+3. Content creation succeeds through ____________________ (work) with community, the archive and rights.
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Content Terminology Pronunciation Practice
+@AUDIO 🔊 Audio Track 1.30
+@INSTR Practice speaking about content work using correct pronunciation and stress patterns. Word stress is important for clear communication in English. // Key content vocabulary with correct pronunciation: // *• Production (pro-DUC-tion)*: Planning a channel so the people on it can work // *• Engagement (en-GAGE-ment)*: The comments and replies a channel sends and receives // *• Inventory (IN-ven-to-ry)*: The equipment a studio is holding in its cupboard // *• Collaboration (col-lab-o-RA-tion)*: The work several people do on one piece // *• Procedure (pro-CE-dure)*: The agreed steps for doing a piece of work // Practice saying each word slowly then faster. Record yourself and listen.
+_80
+_300
+@EX Part 5: Discussing Content Creation and Its Work
+@INSTR Discuss these questions about content creation with a partner:
+_80
+@BULLET
+What is a content manager and how is the work different from an editor's?
+What functions of content creation do you know, and what does each one decide?
+Why do you think content staff must report a missed date honestly even when the news is bad?
+Can you name a studio in Vietnam or your region and describe how you would organise it?
+_300
+@EX Part 5: Content Interview Role Play
+@INSTR Practice an interview about content creation. One student is a director asking questions. The other student is the content manager who responds. Focus on speaking clearly and using complete sentences.
+_80
+_300
+@EX Part 5: Presentation on Content Creation Facts
+@INSTR Prepare a presentation about content creation. Cover what content managers are, the functions of content creation, and why production matters. Present to the class.
+_80
+@NUM 100
+1. What should you include in your introduction and what is a content manager?
+2. What functions of content creation exist and what are good examples?
+3. Why is content creation important for our clients and audiences?
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Content Values and Professional Ethics
+@INSTR Read about content values and choose the correct answer about professional principles.
+_80
+@PASSAGE
+Content Values and Professional Principles
+Content staff are guided by important values and ethics in their work. Professional principles include honesty, accountability, competence, and care for the people and records the work affects.
+Honesty means recording what actually happened, at the time it happened. Content staff believe a catalogue completed at the end of the week is worthless, and this is why every file is named and dated on arrival.
+Accountability means answering for the money you approve and the records you keep. Content staff accept that a master they misplaced is theirs, not the system's. This allows them to correct a mistake while it is still small.
+Competence means working only within what you are trained and authorised to do, and asking for help with the rest. An editor does not sign a licence they have not understood.
+Care for people and records means remembering that other departments depend on the studio and that a release form holds somebody's permission. This care allows staff to refuse a request that would breach consent.
+These principles guide content staff every day. They explain why a content manager's signature is trusted inside and outside the organisation. Following these values makes production effective and ethical.
+@MCQ
+1. What does professional honesty mean in content work?
+@OPT
+   ○ A) Being very fast
+   ○ B) Recording what actually happened, at the time it happened
+   ○ C) Making the publishing figures look better
+   ○ D) Serving only senior departments
+@MCQ
+2. What does accountability mean?
+@OPT
+   ○ A) Working without any content budget
+   ○ B) Blaming the system for a misplaced file
+   ○ C) Answering for the money you approve and the records you keep
+   ○ D) Ignoring the directors' instructions
+@MCQ
+3. Why is competence important for content staff?
+@OPT
+   ○ A) So they can work faster
+   ○ B) So they can follow the directors' instructions exactly
+   ○ C) So they sign only what they are trained and authorised to understand
+   ○ D) So they can ignore the licensing regulations
+_300
+@EX Part 7: Vietnamese Cultural Values and Content Work
+@INSTR Match Vietnamese cultural values with how they relate to content creation and production.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Family and Reputation
+2. | Respect for Elders
+3. | Hospitality
+4. | Personal Dignity
+5. | Craft and Mastery
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Mastery of a trade is honoured, and a storyteller's clear voice and well-kept tale are remembered
+b) | Dignity means a date is given carefully, because a name stands behind it
+c) | Hospitality shapes a meeting: a visitor is received well before business begins
+d) | Respect for elders means the experienced editor trains those who come after
+e) | A family studio's name travels with its films, so a careless upload is a personal matter
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Content Concepts Review and Classification
+@INSTR Review Unit 1 concepts. Classify each statement by type: Professional Feature, Function of Content Creation, or Content Task.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Professional Feature
+2. Function of Content Creation
+3. Content Task
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Being accountable to the directors for every approval given  ____________________________
+2. Planning what the channel will publish and at what cost  ____________________________
+3. Approving an equipment request and recording the decision  ____________________________
+4. Responsibility for records that belong to other departments  ____________________________
+5. Controlling spending against the content budget  ____________________________
+6. Agreeing a deadline with a client  ____________________________
+7. Working with community, the archive and rights together  ____________________________
+8. Organising who answers what and who may approve  ____________________________
+_300
+@EX Part 8: Integrated Content Competency Assessment
+@INSTR Demonstrate mastery of Unit 1. Read each question and select the best answer.
+_80
+@MCQ
+1. What is the best explanation of what a content manager is?
+@OPT
+   ○ A) An editor who cuts video very quickly
+   ○ B) A government official who issues media licences
+   ○ C) A trained professional who sets objectives, arranges staff and equipment, keeps work moving and reports the result
+   ○ D) A community manager who answers the comments for the channel
+@MCQ
+2. What is a main difference between a content manager and an editor?
+@OPT
+   ○ A) A manager has a desk; an editor does not
+   ○ B) A manager decides what will be made and at what cost; an editor gets it made
+   ○ C) A manager works only in cities; an editor works everywhere
+   ○ D) A manager uses only paperwork; an editor uses only machines
+@MCQ
+3. How is content creation work paid for?
+@OPT
+   ○ A) Only by the government
+   ○ B) Only by the platform directly
+   ○ C) By the organisation, to whose directors the manager reports honestly
+   ○ D) By charging clients for every comment they answer
+@MCQ
+4. Which is an example of a content objective?
+@OPT
+   ○ A) Working as hard as possible every day
+   ○ B) Publishing 95 per cent of pieces on the day they were promised by June
+   ○ C) Following the directors' instructions exactly
+   ○ D) Keeping the catalogue away from the clients
+_300

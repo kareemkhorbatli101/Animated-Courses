@@ -1,0 +1,462 @@
+@UNITHEAD Unit 5: The Content Planning and Production Cycle
+@PART Warm Up | Warm Up
+@EX Warm-Up: Content Planning Discussion
+@INSTR Discuss what it takes to plan a year of content work.
+_80
+@BULLET
+What steps do you think a studio should take when it plans the coming year?
+_300
+@EX Warm-Up: Cycle Stages Matching
+@INSTR Match cycle stages with their main activities and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Content objective
+2. | Budget and schedule planning
+3. | Execution
+4. | Review
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Agreeing with the clients what the studio will deliver, and by when
+b) | Looking back at the completed year to decide what to change next time
+c) | Turning the objectives into crew hours, equipment and figures month by month
+d) | Running the studio, watching the calendar and correcting as you go
+_300
+@EX Warm-Up: Content Planning Multiple Choice
+@INSTR Read and choose the best answer about planning a channel.
+_80
+@MCQ
+1. What is the purpose of a content budget?
+@OPT
+   ○ A) To record what has already been spent on equipment
+   ○ B) To state in advance what may be spent, so the spending can be controlled
+   ○ C) To impress the auditor
+_300
+@EX Warm-Up: Discussion - Challenges in Content Planning
+@INSTR Discuss common challenges that content plans face during the year.
+_80
+@BULLET
+What usually goes wrong with a content plan during the year, and how can staff respond?
+_300
+@EX Warm-Up: Cycle Phases Classification
+@INSTR Classify activities as belonging to the Planning, Execution, or Review phase.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Execution
+3. Review
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Agreeing next year's publishing target with the clients  ____________________________
+2. Watching this month's equipment spending against the budget line  ____________________________
+3. Comparing the finished year with the plan and explaining the difference  ____________________________
+4. Deciding what a new edit suite may cost to install  ____________________________
+5. Approving an equipment request against the budget already set  ____________________________
+6. Writing the lessons from last year into next year's assumptions  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Planning and Scheduling Terms Matching
+@INSTR Match planning and scheduling terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Content budget
+3. | Forecast
+4. | Variance
+5. | Shoot schedule
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The schedule showing who works which hours and who covers the comment pages
+b) | A statement of what the studio intends to achieve and by when
+c) | The difference between what was planned and what actually happened
+d) | A plan of what may be spent over a stated period, usually a year
+e) | A best estimate of what will happen, revised as the year goes on
+_300
+@EX Part 1: Planning Cycle Components Table
+@INSTR Complete the table with cycle components and their descriptions.
+_80
+@GRID
+Component | What It Decides | Who Approves It
+Content plan |  | 
+Content budget |  | 
+Shoot schedule |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  What the studio will publish, for which clients, and how quickly
+b)  The content manager and the general manager together
+c)  What each section may spend and on what
+d)  The general manager, within the limit the directors set
+e)  Who works which hours and who covers the comment pages each day
+f)  The content manager, reviewed by the clients monthly
+_100
+_300
+@EX Part 1: Planning Terms Fill-in Blanks
+@INSTR Complete sentences using planning and scheduling vocabulary.
+_80
+@GAP
+1. The people who approve the money the studio spends are the ____________________.
+2. ____________________ are everyone with an interest in the plan, including staff and suppliers.
+3. ____________________ means the difference between the plan and what actually happened.
+4. A ____________________ shows who works which hours and who covers community.
+_300
+@EX Part 1: Content Planning in Context - Fact Questions
+@INSTR Read about content planning and answer detailed fact questions.
+_80
+@PANEL
+Content Planning and the Production Cycle
+All well-run studios follow a similar cycle. First is the objective, where the manager meets the clients to agree what the studio will deliver and what risks it accepts. This phase usually takes weeks. Managers learn what work each client expects, what they will pay for, and what they will not.
+Second is budgeting, where the manager turns the objectives into figures. Budgeting includes setting publishing targets, agreeing what each section may spend, forecasting the equipment, and deciding who may approve what. The budget becomes the document against which every later decision is measured.
+Third is execution, where the plan is actually carried out. During execution, editors cut the footage, community staff answer the comments, and the storekeeper issues the equipment. Sections participate actively because most of the work happens in their hands.
+Fourth is monitoring, where the manager watches the figures as they arrive. Monitoring happens throughout the year. Managers compare actual with budget, spot a variance, and correct the course while the year can still be saved.
+Fifth is review and reporting, which happens at the end. Managers confirm whether the objectives were met. They compare the result with the plan and with previous years. This information helps the studio set better objectives next time.
+This cycle repeats continuously, creating ongoing improvement and learning.
+@NUM 100
+1. What is the purpose of the objective phase?
+2. What does monitoring watch during the year?
+_300
+@EX Part 1: Discussion - Your Experience Planning
+@INSTR Discuss how planning principles apply to your own experience.
+_80
+@BULLET
+Think of a time you planned something. What steps did you take and what happened?
+_300
+@EX Part 1: Listening - Managers Explain Planning
+@AUDIO 🔊 Audio Track 5.11
+@INSTR Listen to content managers describing their planning process and answer questions.
+_80
+@MCQ
+1. Why did the manager visit each client first?
+@OPT
+   ○ A) To immediately start cutting the budget
+   ○ B) To see what each client actually needed before promising a service
+   ○ C) To impose a standard plan
+@MCQ
+2. What principle guided the manager's budget decision?
+@OPT
+   ○ A) Budgeting for the most optimistic case
+   ○ B) Budgeting for what the studio can afford if prices rise
+   ○ C) Doing only what the largest client prefers
+_300
+@EX Part 1: Planning Cycle Summary - Multiple Choice
+@INSTR Choose the best explanation of content planning concepts.
+_80
+@MCQ
+1. What is the relationship between the objective and the budget?
+@OPT
+   ○ A) The objective is unnecessary if you have a good budget
+   ○ B) The objective shapes a budget that funds what actually matters
+   ○ C) The budget always comes before the objective
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Sequencing Words for Cycle Steps
+@INSTR Complete sentences using words that show the order of cycle steps.
+_80
+@NUM
+1. ____________________ (first) the manager agrees the objective with the clients.
+2. ____________________ (then) they build the budget and forecast the equipment.
+3. ____________________ (finally) they review the year and report the result.
+_300
+@EX Part 2: Conditional Sentences About Planning
+@INSTR Complete the table with conditional sentences about content planning.
+_80
+@GRID
+If Statement (Condition) | Then Result
+If sections do not take part in the budget | 
+If managers watch the variances monthly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  They will not defend a limit they never agreed to
+b)  They can correct the course while the year can still be saved
+_100
+_300
+@EX Part 2: Passive Voice for Studio Activities
+@INSTR Complete sentences using passive voice to describe studio activities.
+_80
+@GAP
+1. A risk assessment ____________________ on every new system before the budget is set.
+2. Equipment requests ____________________ against the budget before they are placed.
+3. The annual accounts ____________________ by an independent auditor.
+4. Every decision ____________________ so it can be reviewed afterwards.
+_300
+@EX Part 2: Expressing Purpose with "to" and "in order to"
+@INSTR Complete sentences explaining the purpose of planning activities.
+_80
+@NUM
+1. Managers visit each client ____________________ (understand) what it actually needs.
+2. Careful forecasting is necessary ____________________ (ensure) the studio never runs out of equipment.
+3. Annual reviews help studios ____________________ (improve) their plans based on experience.
+_300
+@EX Part 2: Listening - Grammar of Planning Discussion
+@AUDIO 🔊 Audio Track 5.17
+@INSTR Listen to a manager explaining planning steps using various grammatical structures.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The directors must approve the objective before we build the budget" using modals. We explain "If we forecast carefully, the equipment will not run out" using conditionals. We describe "The budget is reviewed by the directors" using passive voice to show the action.
+~Coordinator: We say "We visit each client to understand the need" showing purpose. We explain order with words like "First we agree, then we budget, finally we review." Using varied grammatical structures helps us communicate planning concepts clearly to auditors, to directors, and to our own production team.
+_200
+@QUESTION
+1. What purpose do modals serve in planning discussion?
+2. Why does the manager use multiple grammatical structures?
+_300
+@EX Part 2: Grammar Review - Planning Expressions
+@INSTR Discuss how different grammar patterns help explain content planning.
+_80
+@BULLET
+Explain how to use conditionals, passive voice, and sequencing to describe the planning cycle.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Studio Types Discussion
+@INSTR Before listening, discuss different types of studio that staff plan for in Syria.
+_80
+@BULLET
+What types of studio operate in Syria and what does each one require?
+_300
+@EX Part 3: Listening - Content Staff Explain Challenges
+@AUDIO 🔊 Audio Track 5.20
+@INSTR Listen to content staff discussing challenges they faced and how they addressed them.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: In my studio, I faced a challenge when trained editors left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra editors and cross-trained the camera operator so leaving staff would not stop the work. The lesson was that a budget must include retention, not just salaries.
+~Coordinator: My studio faced an equipment problem. We had budgeted for a camera in March but the price in June was very different. The clients became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began keeping a small reserve of consumables. Now I always build a price assumption into every budget.
+_200
+@QUESTION
+1. How did the studio manager solve the staff retention problem?
+2. What did the content manager learn about quotations and budgets?
+_300
+@EX Part 3: True/False - Content Planning Practices
+@INSTR Read statements about planning practices and mark True, False, or Not Given.
+_80
+@PANEL
+Effective content management requires clear planning from the beginning. Agreeing the objective and assessing risk is a waste of time compared to starting work immediately. Good managers build a reserve of equipment and spare capacity to accommodate unexpected problems. Section participation in the budget increases success rates significantly. Monitoring is optional if the staff are competent and motivated. Limited equipment requires managers to make difficult choices about what matters most. Consistency means the studio keeps meeting its commitments month after month. Regular communication with directors and staff prevents misunderstandings and builds trust.
+@NUM 100
+1. Agreeing the objective and assessing risk is important in content planning.
+2. Monitoring is necessary only at the end of the year.
+3. A reserve of equipment helps accommodate unexpected problems.
+_300
+@EX Part 3: Listening - Different Perspectives on Planning
+@AUDIO 🔊 Audio Track 5.22
+@INSTR Listen to different people describing content planning from their perspectives.
+_80
+@MCQ
+1. Why did the editor feel respected in the planning process?
+@OPT
+   ○ A) Managers made all decisions quickly
+   ○ B) Managers listened to the editors and involved them in setting the targets
+   ○ C) Managers installed a standard plan without asking
+@MCQ
+2. What does the content manager say takes longer than directors expect?
+@OPT
+   ○ A) Printing the budget
+   ○ B) Agreeing the objective and holding the client meetings
+   ○ C) Monitoring during the year
+_300
+@EX Part 3: Listening - Planning Lessons Learned
+@AUDIO 🔊 Audio Track 5.23
+@INSTR Listen to experienced content staff sharing lessons they learned.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of planning problems. When directors, sections and clients all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into missed deadlines. Now I spend significant time ensuring all parties understand exactly what will be delivered, when, and at what cost. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before problems appear. If you have not spent time getting to know the editors and the client contacts before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200
+@QUESTION
+1. What percentage of problems does the first manager say clear communication prevents?
+2. When should relationships with editors and client contacts be built according to the second manager?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Studio Success Discussion
+@INSTR Discuss what makes some studios succeed while others struggle.
+_80
+@BULLET
+Why do you think some studios work smoothly while others with the same staff struggle?
+_300
+@EX Part 4: Reading - The Planning Cycle in Detail
+@INSTR Read detailed information about content planning in Syria and answer questions.
+_80
+@PANEL
+Content Planning in Syria: Adapting to Complex Contexts
+Syrian studios face unique challenges in planning and management. Interrupted power, difficulty importing spare parts, and equipment that cannot easily be repaired create real obstacles. Despite these difficulties, Syrian and international staff successfully run the production of drama, documentary, advertising and online work.
+Successful plans in Syria begin with a careful assessment of current conditions. Planning teams meet the clients, the editors and the suppliers. They identify what can actually be produced with the equipment available and which materials can actually be obtained. They learn what the organisation can afford this year. Good assessment in Syria includes understanding power interruptions and the fairness that lets every section be judged by the same rules.
+Budgeting in Syria requires flexibility. Managers cannot assume that an item will cost in June what it cost in March. They cannot assume that a long task will run without interruption. Successful Syrian plans build flexibility into the figures from the start. They accept quotations that state how long they hold. They plan in stages that allow quick adjustment if conditions change.
+Execution in Syria requires careful scheduling. Studios protect their deadlines by planning when each task is done. They consider timing—not starting a long render before a known power cut. They consider location—holding a little stock of the item hardest to replace. They ensure editors understand the plan and the cost of changing it.
+Review and reporting in Syria is critical. Directors need rapid information about whether the plan held, whether conditions changed, and whether the masters are safe. This information helps adjust the plan before small problems become losses. Regular client feedback ensures the plan stays responsive to changing requirements.
+Durable studios in Syria build local capacity. Outside support will eventually end. Successful organisations train Syrian staff, use methods that can be run with locally available tools, and document so that staff turnover does not lose the knowledge. This ensures that the production continues after outside involvement ends.
+@NUM 100
+1. What are the unique challenges for content planning in Syria?
+2. Why do successful Syrian plans build flexibility into the figures?
+_300
+@EX Part 4: Reading - Client-Centred Planning
+@INSTR Read about making sure content plans truly meet the clients' needs.
+_80
+@PASSAGE
+Client-Centred Planning
+The most effective content plans place the client at the centre of every decision. This means understanding not just what a client asks for but how it works, when its own deadlines fall, and what it most fears going wrong.
+Client-centred planning begins with genuine listening. This means not just reading the brief but listening without judgment to answers that may surprise the manager. A client might accept a slower delivery but refuse any change to a title sequence. A head might care more about one reliable editor than about new equipment.
+This approach requires humility from managers. Planners must accept that clients are experts in their own work. Their understanding of what will and will not matter is often more accurate than a manager's prediction. Successful planners listen more than they talk, ask more than they advise.
+Client-centred planning also means including people in decisions. Which services will be offered? How often will a piece be published? What happens when a deadline slips? When clients have a voice in these decisions, they trust the studio and support it.
+This approach takes more time and requires more patience than writing a plan from last year's figures. However, the results justify the investment. Clients support a studio that helped define the service. They complain less. They tell you early when their own needs change.
+@MCQ
+1. What does client-centred planning require from managers?
+@OPT
+   ○ A) Making decisions quickly without listening
+   ○ B) Humility to accept clients' expertise and genuine listening without judgment
+   ○ C) Repeating last year's plan without modification
+@MCQ
+2. Why might a client accept a slower delivery but refuse a change of title sequence?
+@OPT
+   ○ A) Clients do not understand editing
+   ○ B) Their own brand may make the sequence matter far more than the speed
+   ○ C) Only for temporary situations
+_300
+@EX Part 4: Application - Planning for Different Contexts
+@INSTR Read scenarios and fill in planning considerations for each context.
+_80
+@GRID
+Studio Type | Key Planning Consideration
+A small studio serving one workshop | 
+A production team serving five export clients | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Cash flow, because equipment must be bought before the fees are collected
+b)  Rapid assessment of each client country's clearance requirements
+_100
+_300
+@EX Part 4: True/False - Content Principles
+@INSTR Read statements about content principles and mark True, False, or Not Given.
+_80
+@PANEL
+Client-centred planning requires more time and resources than repeating last year's figures. Clients should have a voice in service decisions. Managers know better than clients what clients need. Building trust before problems appear is valuable. Successful studios in difficult conditions require flexibility and adaptability. Agreeing the objective and listening are less important than starting work quickly. Client participation increases support and reduces complaints. Review should happen only at the end of the year.
+@NUM 100
+1. Clients should take part in service decisions.
+2. Clients always know their needs better than managers.
+3. Agreeing the objective and listening are important in content planning.
+_300
+@EX Part 4: Discussion - Creating a Studio That Lasts
+@INSTR Discuss how to build studios that go on working.
+_80
+@BULLET
+What makes a studio last beyond its founder, and how would you build that?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - The Content Planning Process
+@INSTR Prepare a presentation explaining the complete content planning process.
+_80
+@NUM 100
+1. Present the five main phases of the planning cycle and what happens in each.
+_300
+@EX Part 5: RolePlay - Studio Team Meeting
+@INSTR Roleplay a studio team meeting discussing planning challenges and solutions.
+_80
+_300
+@EX Part 5: Discussion - Your Own Content Ideas
+@INSTR Discuss a production problem and how you would plan to solve it.
+_80
+@BULLET
+Describe a production problem you know about and outline how you would plan to solve it.
+_300
+@EX Part 5: RolePlay - Explaining a Plan to Staff
+@INSTR Roleplay explaining next year's plan to editors and responding to their questions.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Content Plan Outline
+@INSTR Write a basic content plan outline for a studio you would like to run.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Client Feedback
+@INSTR Write about how client feedback changed your content plan.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Solving a Production Challenge
+@INSTR Write about a challenge you would face during the year and how to overcome it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for the Studio
+@INSTR Write about the lasting change you hope a well-run studio would create.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Cultural Respect in Syrian Content Work
+@INSTR Read about cultural considerations in Syrian content work and answer questions.
+_80
+@PANEL
+Cultural Adaptation in Syrian Content Management
+Successful production in Syria adapts to local values and working practices. Syrian culture values the family, respect for elders, religious faith, personal honour, and craft mastery. Ignoring these values makes a content system resented and quietly bypassed.
+Content practice must respect religious requirements, so interest-free arrangements and charitable giving are provided for alongside ordinary accounting. The shoot schedule must allow for prayer times and for religious holidays. New rules must be explained, not simply posted, so editors understand the reason behind each one.
+Studios must employ local staff who understand the audience and speak the dialect. International partners cannot read the signals that local staff know instinctively. Local staff obtain an authority's cooperation more easily because they are part of the same community.
+Studios must involve respected figures including the senior editors and the long-serving writers. Even if a manager disagrees with a long-standing practice, involving the senior editor prevents the change being seen as an insult to their knowledge. Respectful engagement usually finds a way to meet the requirement within the existing practice.
+Successful managers explain why a change matters in language the staff understand. A punctuality rule succeeds when explained through the audience waiting for an answer, not through a clause in the handbook. An equipment request succeeds when connected to the pride of accounts that never have to be apologized for. A catalogue succeeds when connected to protecting the family name on the credits.
+This cultural adaptation is not compromising professional values. Principles of honesty and fairness can be accomplished within any culture. Good managers find ways to respect the workplace while meeting their obligations.
+@NUM 100
+1. Why do successful Syrian studios employ local staff?
+2. How can managers explain a new rule to editors?
+_300
+@EX Part 7: Discussion - Learning from Syrian Storytelling
+@INSTR Discuss what international partners can learn from Syrian approaches to storytelling.
+_80
+@BULLET
+What can international partners learn from how Syrian studios have traditionally told stories?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 5 Summary - Planning Terms and Concepts
+@INSTR Review Unit 5 by matching terms with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Content budget
+3. | Variance
+4. | Shoot schedule
+_300
+@COLHEAD Column B
+@MATCHB
+a) | What the studio intends to achieve and by when
+b) | A plan of what may be spent in a period
+c) | The difference between the plan and what happened
+d) | Who works which hours and who covers community
+_300
+@EX Part 8: Integrated Assessment - Unit 5 Mastery
+@INSTR Demonstrate understanding of Unit 5. Choose the best answer.
+_80
+@MCQ
+1. Why is the objective the first step in the planning cycle?
+@OPT
+   ○ A) To waste time before working
+   ○ B) To agree what the studio will deliver and avoid budgeting for the wrong thing
+   ○ C) Clients do not need an objective
+@MCQ
+2. What does flexibility in a budget accomplish?
+@OPT
+   ○ A) It allows overspending without planning
+   ○ B) It allows adapting when prices rise or equipment fails
+   ○ C) Flexible budgets are not needed
+@MCQ
+3. Why is monitoring important during the year?
+@OPT
+   ○ A) It is optional if the staff are competent
+   ○ B) It catches a variance while the year can still be saved
+   ○ C) Review happens only at the end
+@MCQ
+4. What makes a studio truly durable?
+@OPT
+   ○ A) An outside consultant stays involved indefinitely
+   ○ B) Local staff can run it with the tools and knowledge available locally
+   ○ C) The manager makes every decision personally
+_300

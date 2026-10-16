@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: Audience, Community and Engagement
+@PART Warm Up | Warm Up
+@EX Warm-Up: Community Challenges Discussion
+@INSTR Discuss why many small channels struggle to answer comments and messages well.
+_80
+@BULLET
+What barriers prevent small channels from answering comments and messages well?
+_300
+@EX Warm-Up: Community Activities Matching
+@INSTR Match community activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Comment handling
+2. | Live session booking
+3. | Message taking
+4. | New follower welcome
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Greeting people who have just subscribed, recording them and showing them where to start
+b) | Deciding when a broadcast can be held so both sides are actually free
+c) | Writing down who wrote, what they wanted and who must answer them
+d) | Finding out what the viewer needs and sending them to the right person
+_300
+@EX Warm-Up: Customer Service Multiple Choice
+@INSTR Choose the best answer about good audience service.
+_80
+@MCQ
+1. What is most important for good service on a small channel?
+@OPT
+   ○ A) Having the newest camera instead of an older camera
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest advertising budget
+_300
+@EX Warm-Up: Discussion - Combining Community and Service
+@INSTR Discuss why community work and audience service work better together.
+_80
+@BULLET
+How can a community procedure and a service standard support each other?
+_300
+@EX Warm-Up: Service Factors Classification
+@INSTR Classify factors as Direct (the answer), Intermediate (manner and speed), or Wider organisational issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct answer factor
+2. Manner and speed factor
+3. Wider organisational factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The viewer is given the wrong information about a price  ____________________________
+2. The reply arrives two weeks after the promised date  ____________________________
+3. A competitor launches a channel in the same language  ____________________________
+4. The message reaches the wrong department  ____________________________
+5. The comment waits eleven days before anyone answers  ____________________________
+6. Audiences have less money to spend this season  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Contact Channels Matching
+@INSTR Match contact channels with the type of handling they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Public comment
+2. | Written message
+3. | Live chat
+4. | Email
+5. | Partner channel
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A message that must be logged, routed and answered in writing
+b) | A viewer who must be answered at once or offered a definite reply later
+c) | Appointing another channel to answer on your behalf in a distant language
+d) | A follower who must be greeted, recorded and dealt with in person
+e) | A message that arrives at any hour and must be answered the same way
+_300
+@EX Part 1: Service Standards a Channel Can Set Table
+@INSTR Complete the table with service standards a channel can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every comment answered within four hours | 
+Every message answered on the day it arrives | 
+Every complaint answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the viewer they are heard before they have to write twice
+b)  Lets the client plan its own work with confidence
+c)  Turns a disappointed follower into one who trusts the channel more
+_100
+_300
+@EX Part 1: Community and Service Terminology Fill-in
+@INSTR Complete sentences using community and service vocabulary correctly.
+_80
+@GAP
+1. Community work and replies work together as ____________________ parts of one relationship.
+2. A ____________________ approach to service considers the whole experience, not one call.
+3. ____________________ viewers are the particular group the content is designed for.
+4. ____________________ means a follower comes back because the last contact went well.
+_300
+@EX Part 1: Service Models - Fact Questions
+@INSTR Read about how community work actually keeps audiences and answer detailed questions.
+_80
+@PANEL
+Community Systems and Service Support
+Most lost followers are avoidable through better service. Understanding why a follower stopped watching allows a channel to keep the next one. However, keeping followers is complex. Staff must know what the viewer expected, have the information to deliver it, and believe the effort is worth making.
+Comment records teach a channel who its viewers are. Knowing that most viewers want one of three things is valuable knowledge. But knowledge alone does not answer a comment. The channel must also have the information those viewers need. Staff must believe a comment matters when the edit is busy. They must trust that a complaint will be acted on rather than hidden. Effective service addresses knowledge, information, and motivation.
+Service standards are the places where effort decides loyalty. Setting them focuses attention where it matters. A channel with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the follower leaves.
+Community staff bridge the gap between a procedure and a person. A moderator can hear what a viewer actually needs and route it the same hour. A local partner reaches audiences the channel could never visit itself. In Egypt, direct relationships have become vital for keeping contact when a platform changes its rules.
+Local partners and fan pages reach much of the public. However, without support, a partner may give wrong information and blame the channel. Training partners extends the channel's reputation beyond its own page. Comment records, service standards, community training and trained partners working together create far stronger service than any single effort alone.
+Loyalty requires that followers eventually choose the organisation for themselves. This means earning a reputation rather than buying attention. It means setting promises the channel can actually keep. It means building on the relationships an organisation already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your viewers are not enough to answer a comment?
+2. What role do community staff play in service?
+_300
+@EX Part 1: Discussion - Integrated Service Models
+@INSTR Discuss how combining community work and replies benefits an organisation more than separate approaches.
+_80
+@BULLET
+How have you seen a comment page and good replies work together in your own experience?
+_300
+@EX Part 1: Listening - Community Staff Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a content manager and a moderator describing their integrated approach.
+_80
+@MCQ
+1. What problems did the manager identify that affected service?
+@OPT
+   ○ A) No problems affected service
+   ○ B) Late replies, a price list nobody had updated, and no record of complaints
+   ○ C) The procedure never affects service
+@MCQ
+2. Why did the promotion fail before service was improved?
+@OPT
+   ○ A) Promotion never works
+   ○ B) New followers watched once and did not return, so the spending was wasted
+   ○ C) Promotion always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in community and service work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive equipment and promotion
+   ○ B) Promises the channel can keep, answered quickly and put right when they fail
+   ○ C) A large modern building
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and loyalty.
+_80
+@NUM
+1. Repeat business ____________________ (depend) promises that are actually kept.
+2. Community work works best ____________________ (integrated) the replies the follower receives.
+3. Good service and fair prices both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in Audience Loyalty
+@INSTR Complete the table with cause-and-effect relationships in community and service.
+_80
+@GRID
+Cause | Effect
+The reply arrived complete and on the promised date | 
+A complaint was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The client placed a second, larger commission
+b)  The follower told two other people about the channel
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of community and service work.
+_80
+@GAP
+1. We review the comment log monthly ____________________ learn what viewers actually want.
+2. We train the partners ____________________ the information they give is correct.
+3. This price list was revised ____________________ give a figure the viewer can rely on.
+4. Comment records and complaint records are combined ____________________ one picture of the follower.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot promote widely, a well-answered viewer remembers us.
+2. Training the partners ____________________ (overcomes) the gap between the channel and the town.
+3. Integrated service ____________________ (addresses) both the immediate call and long-term loyalty.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to managers discussing how to ensure quality in community and service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, a price the viewer can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Followers notice service immediately. They trust a channel whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the viewer. What we think is good service might not match what the follower experiences. We hold regular reviews of the comment log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in community and service work?
+2. Why is listening to the viewer important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and loyalty.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects loyalty?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Good Service
+@INSTR Before listening, discuss barriers preventing channels from serving viewers well.
+_80
+@BULLET
+What barriers prevent small channels from serving the viewers who contact them?
+_300
+@EX Part 3: Listening - Overcoming Service Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to managers discussing how they overcome barriers to good service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Viewers in the smaller towns could not reach us often enough to matter. So we brought the service closer. We appointed one trusted partner in each town and trained them on agreed answers. For the larger accounts, we kept our own officer calling monthly. This reduced the distance barrier immediately. Enquiries improved dramatically once a local name answered the message.
+^Manager: Cost was our barrier. Clients wanted our service but could not afford a dedicated moderator. We discovered that a shared community desk worked better than a lower standard. We offered two fixed hours a day for each client and a shorter reply time for urgent items. This kept every client served.
+_200
+@QUESTION
+1. How did the managers address the distance barrier?
+2. What service approach did the managers find most effective?
+_300
+@EX Part 3: True/False - Community and Service Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+Community work and replies work together to create good service. Promotion alone can keep a follower who received a late reply. Good managers set promises the channel can actually keep. Training partners extends a channel's reputation beyond its own page. Comment records tell a channel who its viewers are but not whether they will return. A complaint answered quickly often produces a more loyal follower than no complaint at all. Price alone decides every decision in every market.
+@NUM 100
+1. Promotion alone can keep a follower who received a late reply.
+2. Training partners extends a channel's reputation beyond its page.
+3. A complaint answered quickly can produce a more loyal follower.
+_300
+@EX Part 3: Listening - Integrating Community and Replies
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to managers discussing how they combined a community procedure and a service standard successfully.
+_80
+@MCQ
+1. How did the managers clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what community owns and what the archive owns, with one shared log
+   ○ C) Clear roles are not necessary in service
+@MCQ
+2. What did the managers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in service cannot be resolved
+_300
+@EX Part 3: Listening - Audience Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as clients describe how better community work and replies changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My firm used to write to this studio and sometimes the reply came a week late with no warning. The studio began messaging the day the brief arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating community and the archive solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each brief. It says what was received and who is dealing with it. When I asked about a missing file, the assistant showed me the log and sent it the next day. What the studio does actually reaches us and changes what we can rely on. Before, community and the archive were separate and nothing connected. Now it all connects. Our own audiences are better served.
+_200
+@QUESTION
+1. What problem was damaging the firm's planning before the change?
+2. How did the acknowledgement affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether a channel gives good service.
+_80
+@BULLET
+What signs indicate that a channel is giving its viewers reliable service?
+_300
+@EX Part 4: Reading - Viewer-First Service Philosophy
+@INSTR Read about viewer-first service and answer detailed questions.
+_80
+@PANEL
+Viewer-First Service: Foundation for a Lasting Reputation
+Viewer-first service is an approach emphasizing the relationship, the promise kept, and the local reputation. It differs from a model that spends on promotion and hopes the followers arrive. Viewer-first service builds steady confidence, where a problem is settled the same week through simple standards close to the viewer.
+Viewer-first service serves as the foundation of a content system. Instead of every follower being won again from nothing, most routine business comes from people who already trust the organisation. Only new markets need the cost of finding audiences. This keeps costs lower and work steadier. In Egypt, where promotion reaches few people, direct relationships became vital.
+Prevention is central to the philosophy. Keeping a follower through a reliable reply costs much less than winning a new one. A message before a late answer costs less than a lost client. A clear price list costs less than an argument in the comments. Viewer-first service emphasizes these cost-effective measures.
+Viewer-first service requires the whole organisation. Community staff alone cannot create loyalty. The archive must find the master. Editors must answer the question. Finance must invoice correctly and allow sensible credit. Everyone must act on a complaint rather than wait for community to insist. This approach views the follower as everyone's responsibility, not the moderator's problem.
+Viewer-first service requires coordination among functions. Community cannot improve without editors answering what they were asked. Community cannot work if finance refuses every reasonable request. Good service requires editors, finance, the archive and community all working to one standard.
+Viewer-first service requires strong management and continuous learning. Moderators must be trained, supervised, and supported. Studios must review whether the promises still hold. Studios must learn from a lost follower and adjust. Weak management produces slogans nobody believes. Strong management produces followers who return.
+Viewer-first service creates a durable reputation because it builds local trust. A channel whose name is trusted in a town serves it for decades. A channel that depends entirely on price loses the client the moment someone is cheaper.
+@NUM 100
+1. How does viewer-first service prevent problems instead of only reacting to them?
+2. What functions must coordinate for viewer-first service to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. A new camera alone is insufficient if the reply is always late. A friendly moderator alone is insufficient if the information is always wrong. Quality requires coordination of many factors: correct information, a price the viewer can rely on, reliable replies, accurate invoicing, a quick answer, and a settled complaint.
+Staff competence is the most important factor in service quality. A skilled moderator keeps a follower with modest resources. A poorly trained one loses a follower the organisation spent years winning. Investment in training and supervision creates stronger impact than investment in promotion. In resource-limited studios, staff competence determines everything.
+Promises must suit what the channel can actually do. A standard taken from a competitor and never tested on your own page fails quietly. Testing shows the promise works with your staff, your archive, and your connection. Standards respecting local conditions produce service that holds.
+Traceable contacts mean every comment can be followed back to what was agreed. Comments are logged, messages are registered, and complaints are recorded. Without traceability, a dispute becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the viewer actually said, a problem can be found and fixed. If complaints are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+Audience feedback should confirm that the studio's view matches the follower's. An internal report shows activity but not satisfaction. Asking the follower directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Egypt's service challenges stem from scale and cost. Pages are crowded, connections are slow, prices move between quotation and purchase, and equipment is hard to repair. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest camera
+   ○ B) Staff competence and training
+   ○ C) Promotion spend alone
+@MCQ
+2. Why is traceability of comments important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a dispute becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether community work and replies are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between community and the archive | 
+Complaints answered while the follower still needs the answer | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the follower rather than to close a file
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated community and reply systems serve every viewer fairly regardless of the size of their following. Service standards kept by trained staff lead to more loyalty than promotion alone. A late reply is acceptable if the information is correct. Staff competence is more important to service than the size of the promotion budget. Separate community and archive functions are always more efficient than integrated ones. A small channel cannot achieve service comparable to a large one for routine comments. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every viewer fairly?
+2. Is a late reply acceptable if the information is correct?
+3. Are separate community and archive functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a community procedure and a service standard integrated from the start.
+_80
+@BULLET
+If you were designing community work and replies together for a Egyptian studio, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Community and Service
+@INSTR Prepare a presentation on effective community and service integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated community and service systems.
+_300
+@EX Part 5: RolePlay - Coordinating Community and the Archive
+@INSTR Roleplay coordinating community and the archive when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for Audience Service
+@INSTR Discuss how better service could transform a local organisation.
+_80
+@BULLET
+How would integrated community work and replies transform a channel like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in audience service to the company's directors.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Community and Service Plan
+@INSTR Write a brief plan for integrating a community procedure with a service standard.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating community and the archive and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Audiences
+@INSTR Write about how better community work and replies changed what audiences receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for a Trusted Channel
+@INSTR Write about your vision for channels whose community work and replies develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Service and Hospitality in Egyptian Perspective
+@INSTR Read about Egyptian values supporting integrated community and service work.
+_80
+@PANEL
+Egyptian Values Supporting Service and Hospitality
+Egyptian traditions provide a strong foundation supporting integrated community work and replies. Understanding them helps design culturally appropriate systems gaining workforce and audience support.
+The idea of "amanah" or trust held on behalf of others is central to Egyptian practice. A story told to you is a trust, and the one who repeats it answers for it. Telling and replying are understood as duties: those who know an answer are expected to give it, and those who accept a message are expected to reply. Service in Egyptian tradition is a moral obligation, not only a commercial calculation. Systems expressing that duty, with a named person answering for each comment, gain stronger support.
+Egyptian teaching emphasizes hospitality as a shared responsibility. Households and firms have long received guests through the diwan, where a visitor is welcomed before business begins, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the question, the answer, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as receiving a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The diwan is the space whose users share a reputation and a set of visitors. Members are responsible for each other. If one moderator gives wrong information, the whole channel's reputation suffers. If one editor promises what cannot be delivered, every promise is weakened. An integrated system combines telling and replying as a single shared responsibility.
+Women's role in storytelling is deep and increasingly recognized. Women hold detailed knowledge of how stories are told, how guests are received and what courtesy means in practice, and increasingly lead content teams. Senior producers emphasize that training women managers strengthens the whole organisation. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Egyptian craft ethics require high standards. Master storytellers and senior writers are trusted figures accountable to their colleagues and to the family name in the credits. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of telling stories to the same families for generations shows that everything is interconnected — courtesy, accuracy, speed, cost and reputation. This way of thinking naturally supports integrated systems. Separating the telling from the replying fragments what a viewer experiences as one relationship. Integrated systems honour that unity.
+Aligning community work and replies with Egyptian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Egyptian tradition support service as a moral obligation?
+2. What traditional Egyptian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Service Systems
+@INSTR Discuss how to design community and service systems respecting local values and practices.
+_80
+@BULLET
+How can community and service systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Community and Service Concepts
+@INSTR Review Unit 7 by matching community and service concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Comment log
+2. | Service level
+3. | Loyalty
+4. | Acknowledgement
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The record of who wrote, what they wanted and who answered
+b) | The agreed standard of delivery and response a viewer can expect
+c) | A follower returning because the last contact went well
+d) | A note confirming what was received and who is dealing with it
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are community work and replies closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) Community receives the question and the reply is what answers it
+   ○ C) Only promotion matters for reputation
+@MCQ
+2. What is the primary advantage of integrating community work and replies?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Followers return, so each contact costs less than winning a new follower
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained local partner expand a channel's reach?
+@OPT
+   ○ A) It reduces the channel's reputation
+   ○ B) A local name answers in towns a moderator cannot reach weekly
+   ○ C) Local agents are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Promotion has no effect on reputation
+   ○ B) A skilled moderator keeps a follower with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large organisations
+_300

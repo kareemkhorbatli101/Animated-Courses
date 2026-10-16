@@ -1,0 +1,376 @@
+@UNITHEAD Unit 9: Growth, Change and Scaling the Channel
+@PART Warm Up | Warm Up
+@EX Warm-Up: Channel Growth Challenges Discussion
+@INSTR Discuss challenges when an organisation grows beyond its first channel.
+_80
+@BULLET
+When a studio works well from one channel, what challenges might it face when it tries to grow?
+_300
+@EX Warm-Up: Growth Definition Matching
+@INSTR Match growth and change concepts with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Organic growth
+2. | Scaling
+3. | Replication
+4. | Adaptation
+5. | Capability Building
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Opening more channels, formats or languages to serve more audiences
+b) | Training managers and staff to run the studio without the founder
+c) | Growing from the organisation's own earnings rather than outside money
+d) | Opening a second channel on the same model in a place with similar needs
+e) | Changing parts of the model to suit a different format or language
+_300
+@EX Warm-Up: Speed vs Standards Discussion
+@INSTR Discuss the balance between fast growth and holding content standards.
+_80
+@BULLET
+Discuss the difference between a studio that opens many channels quickly and one that grows slowly to hold its standards.
+_300
+@EX Warm-Up: Transition to Delegated Management Discussion
+@INSTR Discuss how an organisation moves from the founder approving everything to delegated management.
+_80
+@BULLET
+As an organisation moves from the founder approving everything to delegated management, what skills do managers need?
+_300
+@EX Warm-Up: Delegation Classification
+@INSTR Classify practices as supporting OR preventing real delegation.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Supports Delegation
+2. Prevents Delegation
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Channel managers are given a budget and the authority to approve within it  ____________________________
+2. The founder signs every equipment request personally, however small  ____________________________
+3. Channel managers are trained to prepare their own plans  ____________________________
+4. All decisions wait for one person who travels constantly  ____________________________
+5. Managers hold their own monthly meeting and set their own targets  ____________________________
+6. Managers see the results but have no say in what is decided  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Growth and Change Terminology Matching
+@INSTR Match key terms in growth and change with definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Geographic Expansion
+2. | Volume Growth
+3. | Service Deepening
+4. | Institutionalisation
+5. | Integration
+6. | Succession Plan
+7. | Self-Financing Growth
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Publishing more work for the audiences the channel already serves
+b) | A plan showing who will lead the studio when the founder steps back
+c) | Opening channels in new languages, regions or countries
+d) | Growth funded from the organisation's own earnings rather than borrowing
+e) | Turning the founder's habits into written procedures anyone can follow
+f) | Bringing a service such as subtitling or music scoring inside the organisation
+g) | Adding podcasts or newsletters for the same audiences rather than finding more
+_300
+@EX Part 1: Growth Approaches Matching
+@INSTR Match growth strategies with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Shared Production Hubs
+2. | Delegated Management
+3. | Cost of Growth
+4. | Institutionalisation
+5. | Founder Transition
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Growth justified by the staffing and overhead it will absorb
+b) | Letting one studio serve several channels to an agreed standard
+c) | Channel managers run their areas within an agreed budget
+d) | The founder stays involved but moves to chairing rather than approving
+e) | Written procedures and job descriptions replace personal instruction
+_300
+@EX Part 1: Growth Success Factors Multiple Choice
+@INSTR Choose the best answer about growth factors.
+_80
+@MCQ
+1. What is the primary requirement before opening a second channel?
+@OPT
+   ○ A) The organisation must already be very large
+   ○ B) The organisation must have written procedures, trained managers, and proof the model works
+   ○ C) The organisation must have the support of a government office
+_300
+@EX Part 1: Capability Building Concept Discussion
+@INSTR Discuss what capability building means in a growing studio.
+_80
+@BULLET
+What does capability building mean and why is it essential for growth that lasts?
+_300
+@EX Part 1: Replication vs Adaptation Multiple Choice
+@INSTR Choose the correct distinction between these concepts.
+_80
+@MCQ
+1. What is the key difference between replication and adaptation?
+@OPT
+   ○ A) Replication copies the same model to a new place; adaptation changes it to fit a different format
+   ○ B) Replication is done by banks; adaptation is done by founders
+   ○ C) Replication is faster; adaptation is slower
+_300
+@EX Part 1: Succession Plan Elements Matching
+@INSTR Match succession plan components with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Transition Timeline
+2. | Capability Development
+3. | Financial Planning
+4. | Authority Transfer
+5. | Partnership Development
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Ensuring banks and key clients accept the new leadership
+b) | A clear timeline for the founder to step back and managers to take over
+c) | Planning how the founder is paid out without starving the studio of cash
+d) | Gradual shift of approval authority to named managers
+e) | Training and coaching for the managers taking on the responsibility
+_300
+@EX Part 1: Growth Barriers Classification
+@INSTR Classify potential growth barriers by category.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Resource Barrier
+2. Capability Barrier
+3. Market Barrier
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Not enough working capital to equip a second studio  ____________________________
+2. Not enough trained editors to run a second shift  ____________________________
+3. A different format whose audiences need different writing  ____________________________
+4. Too few staff to cover the new channel every week  ____________________________
+5. Weak archive systems that cannot cover three channels at once  ____________________________
+6. Licensing rules in the new country restricting foreign staff  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Future Plans for Growth
+@INSTR Create sentences using future tense about growth plans.
+_80
+@NUM 100
+1. Write sentences describing your studio's growth plan for the next three years using future tense.
+_300
+@EX Part 2: Conditional Language for Lasting Growth
+@INSTR Use conditional structures to discuss growth planning.
+_80
+@NUM 100
+1. Use conditional structures (if-then, unless, provided that) to describe the conditions under which growth holds.
+_300
+@EX Part 2: Presenting a Growth Strategy
+@INSTR Complete sentences describing the growth approach.
+_80
+@OPTLINE
+1. We __________ to expand from one channel to five channels over three years without losing our standards. | plan | planned | will plan | have planned
+_300
+@EX Part 2: Describing Capability Outcomes
+@INSTR Write sentences showing how capability has developed.
+_80
+@NUM 100
+1. Describe changes that have occurred in a content team's capability as the studio has grown.
+_300
+@EX Part 2: Questions About Succession Plans
+@INSTR Complete questions that would assess succession planning.
+_80
+@OPTLINE
+1. __________ your content team take over full responsibility for the studio within two years? | Can | Will | May | Would
+_300
+@EX Part 2: Comparative Language for Growth Approaches
+@INSTR Create comparative statements about different growth approaches.
+_80
+@NUM 100
+1. Compare fast growth to slow growth using comparative and superlative forms.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to Growth Experience
+@AUDIO 🔊 Audio Track 9.19
+@INSTR Listen to a founder discussing growth challenges.
+_80
+@QUESTION
+1. What was the main lesson the founder learned from growing too quickly?
+_300
+@EX Part 3: Listening to Collaborator Partnership Success
+@AUDIO 🔊 Audio Track 9.20
+@INSTR Listen to a purchasing officer describing a collaborator partnership.
+_80
+@MCQ
+1. According to the officer, what was the key to a successful collaborator partnership?
+@OPT
+   ○ A) The organisation paid for everything while the collaborator contributed nothing
+   ○ B) Clear agreement on terms, shared forecasts, open reporting, and mutual respect
+   ○ C) The collaborator took over all buying; the studio stopped checking
+_300
+@EX Part 3: Listening to Management Readiness Assessment
+@AUDIO 🔊 Audio Track 9.21
+@INSTR Listen to a consultant assessing whether a content team is ready to run the studio.
+_80
+@QUESTION
+1. What specific indicators did the consultant use to decide whether the managers were ready?
+_300
+@EX Part 3: Listening to Cost of Growth Strategies
+@AUDIO 🔊 Audio Track 9.22
+@INSTR Listen to a finance manager describing how the second channel paid for itself.
+_80
+@MCQ
+1. What combination of gains made the expansion pay for itself?
+@OPT
+   ○ A) Only the saving on rent
+   ○ B) More work handled, better supplier prices, less waste, and overheads spread wider
+   ○ C) Cutting every cost until nothing was left to cut
+_300
+@EX Part 3: Listening to Implementation Success Story
+@AUDIO 🔊 Audio Track 9.23
+@INSTR Listen to a manager reflecting on a successful expansion.
+_80
+@QUESTION
+1. Describe two ways the organisation successfully adapted its model when opening a new channel.
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Growth Theory
+@INSTR Read about growth theory and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Growing a studio means serving more audiences from more channels. Successful growth requires three elements: enough internal capability to hold standards, systematic planning for each step, and agreements with banks, collaborators and clients. An organisation cannot sustain growth without solving the problems at each stage. Growth is not simple copying—it requires careful thinking and disciplined work."
+            Is the following statement true, false, or not given? "The fastest possible growth is always the best approach for a studio."
+_300
+@EX Part 4: Reading About Growth Requirements
+@INSTR Complete based on reading about what makes growth last.
+_80
+@NUM
+1. According to reading material, growth that lasts requires all of the following EXCEPT __________.
+_300
+@EX Part 4: Reading About Staff Participation
+@INSTR Read about staff participation in lasting growth.
+_80
+@NUM 100
+1. Read: "Content teams that take part in writing the plan, setting the targets and reviewing the result develop stronger ownership. Ownership is the best single predictor of whether growth lasts. When a team feels it designed the studio it runs, it works to keep it. Organisations where the founder approves every equipment request often stall when the founder is absent, because nobody else has ever had a stake in them."
+            Is the following statement true, false, or not given? "Management participation in planning directly causes lasting growth."
+_300
+@EX Part 4: Reading About Succession Plans
+@INSTR Answer based on reading about succession planning.
+_80
+@NUM
+1. Based on reading material, what is the primary purpose of a well-designed succession plan?
+_300
+@EX Part 4: Reading About Adaptation vs Replication
+@INSTR Read about growth strategies.
+_80
+@NUM 100
+1. Read: "An organisation can take two approaches when opening a new channel. Replication means copying the existing model exactly. Adaptation means changing parts of it for the new format or language. Most successful expansions mix both—keeping the proven core while adapting the writing, the publishing hours and the staffing to the place."
+            Is the following statement true, false, or not given? "Every channel should copy the model exactly without any changes."
+_300
+@EX Part 4: Reading About Collaborator Partnerships
+@INSTR Complete based on reading about collaborator partnerships for lasting growth.
+_80
+@NUM
+1. What are the main benefits for an organisation of working in partnership with its collaborators on growth planning?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Planning an Expansion
+@INSTR Role-play a planning conversation about opening a second channel.
+_80
+_300
+@EX Part 5: Presentation - Growth Strategy
+@INSTR Prepare a 2-3 minute presentation about your growth plan.
+_80
+@NUM 100
+1. Present to the directors: "Our Three-Year Growth and Succession Plan." Include: current position, the channels to be opened, how you will hold standards, the management training plan, how it will be financed, timeline, and cost overview.
+_300
+@EX Part 5: Discussion - Overcoming Growth Barriers
+@INSTR Discuss solutions to common growth challenges.
+_80
+@BULLET
+What are realistic solutions to the barrier of too few trained managers when an organisation wants to grow?
+_300
+@EX Part 5: Role Play - Bank Funding Negotiation
+@INSTR Role-play negotiating funding for new studio equipment with a bank.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Growth Plan
+@INSTR Write about how your studio will grow over the long term.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Expansion Strategy
+@INSTR Write a plan for opening channels in new places.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Succession Memo
+@INSTR Write a memo to section heads about the transfer of authority.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Collaborator Partnership Proposal
+@INSTR Write a proposal for a collaborator partnership to support growth.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Growth with Intention
+@INSTR Connect Syrian community concepts with the growth of a studio.
+_80
+@NUM 100
+1. In Syrian tradition, "ta'awun" means working together so all who share a task benefit. How does this concept relate to growing a studio?
+_300
+@EX Part 7: Syrian Values - Stewardship
+@INSTR Discuss Syrian stewardship concepts in lasting production.
+_80
+@NUM 100
+1. "Waqf" in Syrian usage means something set aside so its benefit continues for generations. How does this principle relate to building a studio that outlives its founder?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 9 Concepts Review Matching
+@INSTR Match Unit 9 key concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Organic growth
+2. | Scaling
+3. | Capability Building
+4. | Succession Plan
+5. | Adaptation
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Changing the model for a different format or language
+b) | Opening more channels, formats or languages to serve more audiences
+c) | Training managers to run the studio without the founder
+d) | A plan for who will lead when the founder steps back
+e) | Growing from the organisation's own earnings rather than borrowing
+_300
+@EX Part 8: Growth Success Factors Review
+@INSTR Choose the best summary of Unit 9 material.
+_80
+@MCQ
+1. According to Unit 9, what is the relationship between content standards and growth?
+@OPT
+   ○ A) An organisation must choose—it cannot both hold standards and grow
+   ○ B) Successful growth requires building the standards and the managers first
+   ○ C) Growth and standards are unrelated concerns
+_300
