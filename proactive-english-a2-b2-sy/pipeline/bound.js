@@ -18,8 +18,10 @@ const LAST_UNIT = HI;                    // the end-of-book test only goes in on
 const units = all.filter((f, i) => allNums[i] >= LO && allNums[i] <= HI);
 const nums = units.map(f => parseInt(f.match(/\d\d/)[0]));
 // insert the tests in teaching order: after the mid-book unit and at the end (end-of-book)
-const midFile = mode === 'ak' ? 'midkey.js' : 'midtest.js';
-const endFile = mode === 'ak' ? 'endkey.js' : 'endtest.js';
+// Book 2 keeps its own test files alongside Book 1's, so one pipeline can build either.
+const sfx = BOOK === 2 ? '2' : '';
+const midFile = (mode === 'ak' ? 'midkey' : 'midtest') + sfx + '.js';
+const endFile = (mode === 'ak' ? 'endkey' : 'endtest') + sfx + '.js';
 const has = f => fs.existsSync(path.join(__dirname, f));
 const files = [];
 units.forEach(f => {
