@@ -867,7 +867,7 @@ out.push(box('I can… (Unit 5)  —  tick: 😀 well  🙂 OK  😐 not yet', [
 out.push(sp());
 out.push(box('NEXT: UNIT 6 – DECIDING, AND SAYING SO', [
   'Unit 5 was about one sentence. **Unit 6** is about a decision: narrowing five options to two out loud, disagreeing without stopping the task, and recording the result so that somebody who was not there can act on it.',
-  '**6.3 teaches B2 Speaking Part 3** — the two-part discussion: three minutes with your partner on a set of options, and then **one minute on a separate question**, decided together. It is the longest piece of interaction in the examination and the one where a polite candidate loses most.',
+  '**6.3 teaches B2 Speaking Part 3** — the two-part discussion: **two minutes** with your partner on a set of options, and then **one minute to decide** — three minutes in all. It is the longest piece of interaction in the examination and the one where a polite candidate loses most.',
   '⚠ **And after Unit 6 comes the Mid-Book Test** — Reading 20, Writing 15, Listening 15, Speaking 10, in sixty minutes of paper and about twelve minutes of speaking. **All four Speaking parts are in it**, which is why Part 2 was taught in Unit 4 and Part 3 is taught in Unit 6.',
   '**Bring one decision you were not at** and have had to carry out, and **one you were at** that was never written down. 6.4 and 6.6 are built on the pair.',
 ], C.lorange, C.orange));
