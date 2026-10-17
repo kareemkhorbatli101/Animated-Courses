@@ -7,9 +7,10 @@ Updated at the end of every turn. This file plus the bundle zip is enough to res
 - **Author:** Mo (Mohamad Khorbatli). His parameters are fixed and are not to be improved.
 - **Plan of record:** `PE-B1-SY_PLAN_and_Blueprint.docx` (18 pp). Everything below implements it.
 
-**STATUS: THE WHOLE OF B1 IS COMPLETE.** Twenty-four units, a hundred and sixty-eight cycles,
-four tests, four bound volumes. Nothing in the plan of record is outstanding except the one
-consolidation named in §8 (replacing the A2 copy of `bound.js`), which is the author's call.
+**STATUS: THE WHOLE OF B1 IS COMPLETE AND NOTHING IS OUTSTANDING.** Twenty-four units, a hundred
+and sixty-eight cycles, four tests, four bound volumes. The last open item — replacing the A2 copy
+of `bound.js` — was signed off by the author and **executed**; see §8. B2 Syria has its plan and
+its forked tree.
 
 ---
 
@@ -103,7 +104,7 @@ case. Five are now **settled by the delivered books**; reversing them would mean
 | 3 | exam anchor | **Cambridge B1 Preliminary** | every x.7 Lesson B and all four tests |
 | 4 | the sealed letter | reused, at two-year scale — **delivered in 24.6** | the whole of 24.6 |
 | 5 | order of play | **B1 Syria first** | none |
-| 6 | `bound.js` | **written, extended with `PE_LEVEL` / `PE_BOOK`** | none — **still open, see §8** |
+| 6 | `bound.js` | **written, extended, signed off and the A2 copy replaced** | none — **closed, see §8** |
 
 ---
 
@@ -241,10 +242,12 @@ use since August (23.1). **Abu Khaldoun** · **Abu Rashid** · **Mr Rifai** · *
   Exports `PE_LEVEL=B1` and `PE_BOOK` (default 1). `PE_BOOK=2 bash pipeline/build.sh bound` binds
   units 13–24 with `midtest2`/`endtest2`. ⚠ `build.sh bound` writes **docx only** — convert the
   two bound files to PDF by hand if you want to check them.
-- **`bound.js` is written** (decision 6): the A2 script with the CEFR level read from `PE_LEVEL`
-  and the book from `PE_BOOK`. With both unset it prints `A2` and behaves exactly as the A2 copy
-  does, so the same file can replace the A2 one whenever the author wants a single script —
-  **that replacement has NOT been made; the A2 copy is untouched, and this is the one open item.**
+- **`bound.js` is written, signed off and consolidated** (decision 6, now closed): the A2 script with
+  the CEFR level read from `PE_LEVEL` and the book from `PE_BOOK`. **The A2 tree's copy has been
+  replaced with it** — one file, `79c1d8b1…`, across the A2, B1 and B2 trees. It was verified before
+  the replacement, not after: run against the A2 Book 2 tree with `PE_LEVEL` unset it produced 394
+  pages of bound Student's Book and 270 of combined Answer Key, with a byte-identical title page and
+  unit list — exactly the shipped figures. The A2 deliverables are unchanged and were not rebuilt.
 - QA scripts live in the scratchpad: `qa.sh <unit> <pdf>` (15 tracks · the stage/minute profile
   per cycle · past perfect against the Unit-3 rule · Americanisms · policy · currency) and
   `akqa.sh <unit> <pdf>` (register sweep + Note-box count). Both use `\b` word boundaries on the
@@ -297,14 +300,19 @@ use since August (23.1). **Abu Khaldoun** · **Abu Rashid** · **Mr Rifai** · *
 
 ## 10 · Next
 
-**B1 is finished.** What is left is for the author, and it is three things:
+**B1 is finished and so is its decision list.** Decision 6 is closed (§8). What remains is one
+correction to carry into the Series Bible, and the level that follows:
 
-1. **Decision 6.** Replace the A2 copy of `bound.js` with this one, or leave the two in parallel.
-   Nothing else in the tree depends on the answer.
-2. **The plan's own figures** need two corrections against the as-built books: the end tests are
+1. **The plan's own figures** need two corrections against the as-built books: the end tests are
    **12 pp** and their keys **8** and **9**, not 10–11; and the page bands are Book 1 SB 35–38 /
-   AK 22–30, Book 2 SB 38–40 / AK 29–31.
-3. **B2, if it is wanted**, starts from three things the books have already handed it: the
+   AK 22–30, Book 2 SB 38–40 / AK 29–31. Both are carried into the B2 plan already; they belong in
+   the Bible rather than in a handover.
+2. **B2 Syria is planned and the tree is forked** — `proactive-english-b2-sy/`, with
+   `PE-B2-SY_PLAN_and_Blueprint.docx` (24 pp, all 168 functions, all seven decisions taken). Four of
+   the twelve students here do not go on: **Rasha** gets the night practice lead post, **Fares**'s
+   two days a month fall on the course evenings, **Umm Kinan** moves outside the room, and **Lina**
+   stops because she has what she came for. **Hiba Nasser** comes back.
+3. **What B2 inherits**, and all of it is already in print: the
    prediction sheet of **24.5**, dated 1 June and still on the wall of Room 14; the sealed letters
    of **24.6**, to be opened at the end of the B2 course; and line 7 of the certificate in
    **24.7** — _B2 assumes that the student can follow a conversation between two other speakers_ —
