@@ -854,7 +854,7 @@ out.push(sp());
 out.push(box('NEXT: THE MID-BOOK TEST, AND THEN UNIT 7', [
   '**The Mid-Book Test comes next** — **60 marks**: Reading 20, Writing 15, Listening 15, Speaking 10. Sixty minutes of paper and about twelve minutes of speaking, and **all four Speaking parts are in it**, which is why Part 2 was taught in Unit 4 and Part 3 in Unit 6.',
   '⚠ **What to revise, and it is four things and not six.** The nine steps of certainty and _what am I going on?_ (Unit 4). The essay shape and the conceded point (Unit 3). The four shapes of Unit 5 and the question _which one will the reader quote?_ The five lines of Unit 6.',
-  '**Unit 7 is _One Cause, Two Symptoms_**: telling a cause from a consequence in your own evidence, and explaining to two parties that their separate problems are one problem. **7.7 is the first mediation of the course in which both parties are right.**',
+  '**Unit 7 is _Cause at a Distance_**: tracing a consequence three steps from its cause, saying how much of an effect you are attributing to it, and naming the thing that would show you were wrong. **7.7 explains to two parties why their two problems are one cause and two symptoms** — the first mediation of the course in which both parties are right.',
   '⚠ **And from Unit 7 the peer-review slip changes.** You will name the criterion, quote the line, say **one thing to keep and why**, and then **rank the slip you have been given** against the three criteria. The marking becomes the work.',
   '**Bring the 1.7 essay to the Mid-Book Test and then put it away again.** It is wanted in **Unit 12**, and this is the last reminder in the book.',
 ], C.lorange, C.orange));

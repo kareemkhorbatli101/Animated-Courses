@@ -67,6 +67,7 @@ out.push(table(['Test', 'Where', 'Marks', 'Split', 'Pages (projected)'], [
   '**The Reading paper grows, because B2 First\'s Reading and Use of English has seven parts** where Preliminary has six and Key has five. The marks stay at 20 and 30; the page count rises.',
   '**The Writing paper\'s time changes.** B1 allowed 45 minutes for two tasks of about 100 words. B2 First allows 80 minutes for two tasks of 140–190. So the B2 papers allow **60 minutes** in the Mid-Book Test and **80 minutes** in the End-of-Book Test. This is the only timing change the level makes and it is arithmetic, not a judgement.',
 ].forEach(t => out.push(bullet(t)));
+out.push(N('**One production note, measured at Unit 7 and applying to Units 7–12.** The Stage 7 ruled block in cycles x.1–x.6 is **seven lines and not eight** from Unit 7 onwards. The reason is arithmetic: the band-2 peer-review slip is longer than band 1\'s, and with eight ruled lines the Homework box falls off the foot of the page in every cycle, which costs the unit three pages of almost-empty paper and puts it outside the 46–48 band. Seven lines keeps every unit inside the band with no blank pages and no orphaned boxes, and B1 already used a seven-line block in its own x.7. **The unit check keeps its five-line block throughout.**'));
 out.push(N('**The page figures above are projections and the B1 plan\'s equivalents were wrong.** B1\'s plan said its end tests would be 10–11 pages; both came out at **12**, with keys of 8 and 9 against a predicted 9–10. The lesson is recorded in the B1 handover and applied here: the first B2 test built settles the band, and this table is amended to the measured figure rather than the other way round.'));
 
 // ===================================================================
@@ -111,7 +112,7 @@ out.push(table(['', 'A2 B1', 'A2 B2', 'B1 B1', 'B1 B2', 'B2 Book 1', 'B2 Book 2'
   ['Main dialogue, turns', '10–12', '10–14', '12–16', '14–18', '**16–20**', '**16–22**'],
   ['Tracks per unit', '15', '14', '15', '15', '**15**', '**15**'],
   ['SB pages per unit', '31', '31–33', '35–38', '38–40', '**46–48 (measured)**', '**47–50**'],
-  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–32 (measured)**', '**30–33**'],
+  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–32 (U1–6) · 33–36 (U7–12)**', '**30–33**'],
 ], [2.0, 0.9, 0.9, 0.9, 0.9, 1.2, 1.2], { headFill: C.navy }));
 out.push(p('The free-writing band is set by the exam and not invented: B2 First asks for **140–190 words** in each of its two parts, so Book 1 trains to 180–220 and Book 2 to 200–260, which leaves a margin above the exam rather than sitting exactly on it. The same discipline set B1\'s band against Preliminary\'s 100.'));
 out.push(N('**The page count follows the word count, not more stages.** The cycle is locked at 13 stages and 90 minutes, so a B2 unit is longer than a B1 unit only because its texts are longer and because x.7 carries a seven-part reading rotation instead of a six-part one. The two page-count levers are now three, and the third was learned on B1: an SB cycle must fit its budget — measure per page with `pdftotext -f N -l N | grep -c "[A-Za-z]"` — and then read the spread. A page under about twenty counted lines usually means an unsplittable box has **jumped**; a page with only two to five counted lines is **either** a genuinely blank page, where a cycle ended exactly at a page boundary and the next page break pushed past it, **or** a correct ruled writing block, which the line counter cannot see. Always read the preceding page before trimming. Trimming early in a cycle does not collapse its tail: take 12–15 counted lines out of the cycle whose tail page is smallest, and expect a second, deeper pass where a page is genuinely blank.'));
@@ -544,7 +545,7 @@ out.push(table(['#', 'Check'], [
   ['**15**', '**The word-formation set declared** for the unit, eight to ten, built from the unit\'s own lexis and not repeated'],
   ['**16**', '**The phrasal-verb set declared**, ten to twelve, not repeated from an earlier unit or an earlier level'],
   ['**17**', 'Every B2 First part met: Reading 1, 3 and 4 four times each, Reading 2, 5, 6 and 7 three times, each Writing genre three times, each Listening part six times'],
-  ['**18**', 'Page budget: SB 46–48 (Book 1) / 47–50 (Book 2), AK 29–32 / 30–33 — the figures Phase 0 measured, replacing this plan\'s projection of 41–43 and 32–34; measured per page, with the blank-page-versus-ruled-block distinction applied'],
+  ['**18**', 'Page budget: SB 46–48 (Book 1) / 47–50 (Book 2); AK 29–32 for Units 1–6 and **33–36 for Units 7–12**, where the band-2 peer-review slip adds two elements to six slip samples a key. The figures Phase 0 and Unit 7 measured, replacing this plan\'s projection of 41–43 and 32–34; measured per page, with the blank-page-versus-ruled-block distinction applied'],
   ['~~—~~', '_Retired: the past-perfect sweep (ordinary from B1 U3) · the backshift check (ordinary from B1 U10) · the relative-clause comma check (ordinary from B1 U11) · the conditional-consistency check (ordinary from B1 U8)_'],
 ], [0.7, 7], { headFill: C.navy }));
 
