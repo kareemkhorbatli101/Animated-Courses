@@ -64,7 +64,7 @@ out.push(A('**3** That a rule which has lost its reason cannot be argued with, a
 out.push(A('The move in this model that students can copy immediately is the **four-line letter**. Once a request is a request to restore, it needs no justification paragraph: the year, the arrangement, the name of the person who remembers, and the ask. Everything Tareq wrote in September was an attempt to justify a thing that had a precedent he did not know about.'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**TO THE STORES MANAGER · urgent part requests** · F. Haddad · November',
+  '**TO THE STORES MANAGER · urgent part requests** · F. Kayyali · November',
   'I am asking for something that used to happen, and I did not know that until last week.',
   '**What used to happen.** Until 2021, a request for a part on an urgent job went on a half-sheet straight to the workshop, and the workshop saw it the same hour.',
   '**What happens now.** It goes into the stores system, and the workshop sees it when somebody in stores releases it, which is usually the next working day.',
@@ -134,7 +134,7 @@ out.push(A('**3** _You should have told me what the sweeping was for. I would ha
 out.push(A('The pattern in the model that students should be made to notice: the month a habit is dropped is almost always the month somebody took over, and the reason is never about the habit. It is worth asking the room for their own dropped habits with the month attached, and counting how many months are months of promotion, inheritance or a move.'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**THREE THINGS ABU RASHID DID** · F. Haddad · November',
+  '**THREE THINGS ABU RASHID DID** · F. Kayyali · November',
   '**He would arrive twenty minutes early and read the fault book from the back.** Every morning, for the eleven years I worked under him. I thought for years that this was about being early.',
   '**He would check the water before the power.** I have no explanation for this one and I am writing it down because it is true.',
   '**He would never ask you a question in front of the others, and would not say a word about a fault until he had you on your own.** I asked once, when I was twenty-six, and was told that a man answers differently with three people listening.',
@@ -521,7 +521,7 @@ out.push(A('Extracts **2** and **6** are the pair to replay. In **2** the answer
 out.push(NOTE('Listening Part 1 is seven short extracts with three options each, and the options are words or short phrases rather than pictures. The habit that gains the most marks: in the pause before each extract, read the **question** and not the options, because the question tells you what to listen for and the options tell you what to be confused by. And expect at least two extracts in which all three options are said out loud.'));
 out.push(S('Unit 17 check  ·  C  Writing (sample, 172 words)'));
 out.push(SAMPLE([
-  '**HOW URGENT PART REQUESTS USED TO BE MADE** · F. Haddad · November',
+  '**HOW URGENT PART REQUESTS USED TO BE MADE** · F. Kayyali · November',
   '**The practice.** Until 2021, a request for a part on an urgent job used to go on a half-sheet, by hand, straight to the workshop.',
   '**The detail.** Whoever had the job would write the machine, the part and the word "urgent", and would walk it across the yard himself, and would not leave until somebody had taken it off him.',
   '**What it was for — and there are two.** The first is speed: the workshop saw it the same hour. The second, which I did not know until I asked, is that walking it across meant a man was standing in front of you when you read it, and a request you have to refuse to somebody\'s face is a request you think about.',

@@ -62,7 +62,7 @@ out.push(A('**3** That the sheet has been in use for four years and she is proba
 out.push(A('The structural move to teach is the **separation of the right part from the wrong part**: _I worked it out from "seat": take it out and put it back. That was right._ A note that admits everything reads as carelessness; a note that locates the single wrong turn reads as evidence, and only the second kind changes a sheet.'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**NOTE ON STEP 3 · expenses claim guidance** · F. Haddad · December',
+  '**NOTE ON STEP 3 · expenses claim guidance** · F. Kayyali · December',
   '**What the step says.** "Complete the upper section and forward it."',
   '**What I did, on 4 September.** I completed the upper section and gave it back to the person who had given me the form.',
   '**What happened.** It came back to me a fortnight later with a note saying it had not been received by finance. I did that four times between September and October.',
@@ -529,7 +529,7 @@ out.push(A('Questions **1** and **3** are the pair to replay. In **1** the speak
 out.push(NOTE('Listening Part 4 is one long interview with six three-option questions in the order of the recording. Two habits: underline the **question word** in all six during the pause, because several ask _what does he say about…_ rather than _what happened_; and expect at least one answer to be carried by a **negative** — _not from the registry_, _I am not telling them_ — which is the commonest way an interviewee gives information and the commonest way a candidate loses a mark.'));
 out.push(S('Unit 20 check  ·  C  Writing (sample, 181 words)'));
 out.push(SAMPLE([
-  '**STORES COUNTER · WHAT TO DO WHILE I AM AWAY · 2–16 January** · F. Haddad',
+  '**STORES COUNTER · WHAT TO DO WHILE I AM AWAY · 2–16 January** · F. Kayyali',
   '**Issuing a part.** **1** Write the machine number and the part number on the pad. **2** Look at the shelf label before you take anything down — _so that a part from the 2019 batch is not issued against a 2024 machine number._ **3** If the shelf label and the box disagree, issue nothing and write both numbers on the pad. **4** Give the lower half of the pad slip to whoever collects it.',
   '**What I know without looking it up.** The three parts that are always on the second shelf and never in the system. The two machine numbers that share a part. The fact that the 2019 batch boxes are green and the 2024 are grey.',
   '**What I refuse, and why.** Anything for machine 4 without a written line from the foreman — _because machine 4 is on the ministry order and a wrong part there stops three men for a day._',

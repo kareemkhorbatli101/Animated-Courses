@@ -62,7 +62,7 @@ out.push(A('**3** How many of the six projectors bought in January are being use
 out.push(A('The move to copy from this model is the **pre-emptive exclusion**: three things ruled out, each with how. It takes four lines and it saves the fortnight that otherwise goes on being asked whether she has tried a different file, a different remote and a different finger. Every fault report any student in the room will write for the rest of their working life is improved by those four lines.'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**FAULT REPORT · URGENT PART REQUESTS, STORES SYSTEM** · F. Haddad · December',
+  '**FAULT REPORT · URGENT PART REQUESTS, STORES SYSTEM** · F. Kayyali · December',
   '**What it does.** When an urgent request is entered, it is not shown to the workshop until it is released by stores.',
   '**How often.** Eleven times out of eleven since 1 September. On nine of the eleven the release came the following working day.',
   '**What it is not.** It is not the urgency flag, because I have set it on all eleven. It is not my entry, because two were entered by the foreman and behaved the same way. It is not the workshop failing to look, because they cannot see what has not been released.',
@@ -506,7 +506,7 @@ out.push(A('Accept _in writing_ for 1, _the public_ for 2, _20_ for 3, _appendix
 out.push(NOTE('Listening Part 3 is note completion, and almost every mark lost is lost to a number heard in the wrong place. Three habits: read all six gaps in the pause and decide what **kind** of answer each needs (a word, a number, a name); write what you hear even if it looks wrong, and correct it on the second listening; and expect the recording to contain **more numbers than gaps** — this one contains seven numbers for three numerical gaps.'));
 out.push(S('Unit 19 check  ·  C  Writing (sample, 178 words)'));
 out.push(SAMPLE([
-  '**TO THE STORES MANAGER · urgent part requests** · F. Haddad · December',
+  '**TO THE STORES MANAGER · urgent part requests** · F. Kayyali · December',
   '**What it does.** When an urgent request is entered in the stores system, it is not visible to the workshop until it is released by stores. Eleven times out of eleven since 1 September, and on nine of the eleven the release came the following working day.',
   '**What I have had done about it.** I have had the urgency flag checked twice, by your own office, on 14 September and 3 November, and on both occasions I was told it was set correctly. I have had two requests entered by the foreman rather than by me, and they behaved the same way.',
   '**The question I am not asking.** I am not asking why the release is not automatic. I do not know how the system is configured and I should lose that conversation to whoever supports it.',

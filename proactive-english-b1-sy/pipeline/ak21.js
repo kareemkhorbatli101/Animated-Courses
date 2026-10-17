@@ -66,7 +66,7 @@ out.push(A('**3** She will not tell the manager what she thinks she needs. If sh
 out.push(A('The paragraph to teach from this model is **how I could be wrong**. Nobody writes it, and it prevents the commonest disaster in negotiation, which is arriving with a theory about somebody and then defending the theory instead of pursuing the agreement. Note also that Rasha\'s alternative explanation is **more** flattering to the other side, not less; a writer who can only imagine unflattering alternatives has not got out of their own chair.'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**BEFORE THE MEETING · the half-sheet** · F. Haddad · December',
+  '**BEFORE THE MEETING · the half-sheet** · F. Kayyali · December',
   '**What I want.** The half-sheet reinstated for urgent jobs only, in parallel with the system entry.',
   '**What they want, in their words.** "Everything through the system, so the audit trail is complete" — the storeman\'s phrase, 3 October.',
   '**What I think they need, and I may be wrong.** To be able to show, to whoever asks, that nothing left the stores without a record. The system and the half-sheet are two shapes of a record, and I have been arguing about paper.',

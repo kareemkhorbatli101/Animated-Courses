@@ -532,7 +532,7 @@ out.push(A('Speakers **1** and **3** are the pair to replay. Speaker 1 never use
 out.push(NOTE('Listening Part 2 here is five speakers matched to eight options, with three not needed, and it is lost by matching on a **word** rather than on a **fault**. Two habits: in the pause, read the eight options and underline the **fault** in each one, not the topic, because several speakers will mention the same topic; and when two options seem to fit, choose the one the speaker says is the **real** fault — in these scripts it is nearly always in the final sentence, which is where somebody who has thought about it puts the point. Tell candidates to cross out an option once it is used: the three spare letters are there to make a wrong first choice spread.'));
 out.push(S('Unit 18 check  ·  C  Writing (sample, 176 words)'));
 out.push(SAMPLE([
-  '**STORE ROOM NOTICE · line 1** · F. Haddad · November',
+  '**STORE ROOM NOTICE · line 1** · F. Kayyali · November',
   'I am writing about one line of the store-room notice, which has been on that wall since 2019. The rest of it is not the subject of this note.',
   '**The line as it stands.** "Staff are reminded to not remove boxes from the lower racks without telling the storeman."',
   '**What somebody following it exactly would do.** Tell "the storeman" — and there are two, they work different days, and the notice does not say which. A new man would tell whichever one he found, or neither, and would be able to say truthfully that he had followed the notice.',
