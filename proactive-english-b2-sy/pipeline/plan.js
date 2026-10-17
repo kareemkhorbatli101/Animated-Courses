@@ -112,7 +112,7 @@ out.push(table(['', 'A2 B1', 'A2 B2', 'B1 B1', 'B1 B2', 'B2 Book 1', 'B2 Book 2'
   ['Main dialogue, turns', '10–12', '10–14', '12–16', '14–18', '**16–20**', '**16–22**'],
   ['Tracks per unit', '15', '14', '15', '15', '**15**', '**15**'],
   ['SB pages per unit', '31', '31–33', '35–38', '38–40', '**46–48 (measured)**', '**47–50**'],
-  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–32 (U1–6) · 33–36 (U7–12)**', '**30–33**'],
+  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–34 (measured)**', '**30–35**'],
 ], [2.0, 0.9, 0.9, 0.9, 0.9, 1.2, 1.2], { headFill: C.navy }));
 out.push(p('The free-writing band is set by the exam and not invented: B2 First asks for **140–190 words** in each of its two parts, so Book 1 trains to 180–220 and Book 2 to 200–260, which leaves a margin above the exam rather than sitting exactly on it. The same discipline set B1\'s band against Preliminary\'s 100.'));
 out.push(N('**The page count follows the word count, not more stages.** The cycle is locked at 13 stages and 90 minutes, so a B2 unit is longer than a B1 unit only because its texts are longer and because x.7 carries a seven-part reading rotation instead of a six-part one. The two page-count levers are now three, and the third was learned on B1: an SB cycle must fit its budget — measure per page with `pdftotext -f N -l N | grep -c "[A-Za-z]"` — and then read the spread. A page under about twenty counted lines usually means an unsplittable box has **jumped**; a page with only two to five counted lines is **either** a genuinely blank page, where a cycle ended exactly at a page boundary and the next page break pushed past it, **or** a correct ruled writing block, which the line counter cannot see. Always read the preceding page before trimming. Trimming early in a cycle does not collapse its tail: take 12–15 counted lines out of the cycle whose tail page is smallest, and expect a second, deeper pass where a page is genuinely blank.'));
@@ -545,7 +545,7 @@ out.push(table(['#', 'Check'], [
   ['**15**', '**The word-formation set declared** for the unit, eight to ten, built from the unit\'s own lexis and not repeated'],
   ['**16**', '**The phrasal-verb set declared**, ten to twelve, not repeated from an earlier unit or an earlier level'],
   ['**17**', 'Every B2 First part met: Reading 1, 3 and 4 four times each, Reading 2, 5, 6 and 7 three times, each Writing genre three times, each Listening part six times'],
-  ['**18**', 'Page budget: SB 46–48 (Book 1) / 47–50 (Book 2); AK 29–32 for Units 1–6 and **33–36 for Units 7–12**, where the band-2 peer-review slip adds two elements to six slip samples a key. The figures Phase 0 and Unit 7 measured, replacing this plan\'s projection of 41–43 and 32–34; measured per page, with the blank-page-versus-ruled-block distinction applied'],
+  ['**18**', 'Page budget: SB 46–48 (Book 1) / 47–50 (Book 2); AK **29–34**, which is wider than the first six units suggested because the band-2 peer-review slip from Unit 7 adds two elements to six slip samples a key. The figures Phase 0 and Units 7–8 measured, replacing this plan\'s projection of 41–43 and 32–34; measured per page, with the blank-page-versus-ruled-block distinction applied'],
   ['~~—~~', '_Retired: the past-perfect sweep (ordinary from B1 U3) · the backshift check (ordinary from B1 U10) · the relative-clause comma check (ordinary from B1 U11) · the conditional-consistency check (ordinary from B1 U8)_'],
 ], [0.7, 7], { headFill: C.navy }));
 
