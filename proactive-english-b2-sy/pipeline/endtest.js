@@ -22,67 +22,65 @@ out.push(box('Information for students', [
 // ================= PAPER 1 =================
 out.push(pb());
 out.push(paper('PAPER 1 · READING AND USE OF ENGLISH (75 minutes · 40 marks)'));
-out.push(box('Part 1 · Multiple-choice cloze (8 marks)', [
-  'For questions **1–8**, read the text and decide which answer (**A**, **B**, **C** or **D**) best fits each gap.',
+out.push(box('Part 1 · Multiple-choice cloze (6 marks)', [
+  'For questions **1–6**, read the text and decide which answer (**A**, **B**, **C** or **D**) best fits each gap.',
 ], C.lteal, C.teal));
 out.push(model([
   '**THE COUNT THAT TOOK FORTY MINUTES**',
-  'A section of a Damascus directorate that answers about ninety letters a quarter has changed one line of a form, and the change **(1)** ______ from a count one of its three clerks made in February.',
-  'For nine years the section had counted how many letters it answered. Nobody had taken the **(2)** ______ to count what the letters asked. When the clerk finally did, it **(3)** ______ him about forty minutes, and it ended an argument he had been having with his own head of section for eleven months.',
-  'Of ninety-one letters, sixty-two asked what a paragraph of the schedule meant. Four asked which office had applied it. The clerk had spent the year asking for the office to be printed — that is, on four letters **(4)** ______ of ninety-one.',
-  'His request was **(5)** ______ down three times in the same four words. He now believes the refusals were about an item in a list he had never written: what the change would **not** touch. All three of his requests answered the cost, and **(6)** ______ of them said what the change left alone.',
-  'The new line was agreed in eleven days. It **(7)** ______ about twenty seconds a refusal and says, in the words of the schedule, what the paragraph requires. Eleven letters have been answered since, and two of those asked what a paragraph meant.',
-  'He has not asked for the bracket again and says that he will not **(8)** ______. Four letters a quarter is not nothing; it is simply not what the year was about.',
+  'A section of a Damascus directorate that answers about ninety letters a quarter has changed one line of a form, and the change came from a count one of its three clerks made in February.',
+  'For nine years the section had counted how many letters it answered. Nobody had taken the **(1)** ______ to count what the letters asked. When the clerk finally did, it **(2)** ______ him about forty minutes, and it ended an argument he had been having with his own head of section for eleven months.',
+  'Of ninety-one letters, sixty-two asked what a paragraph of the schedule meant. Four asked which office had applied it. The clerk had spent the year asking for the office to be printed — that is, on four letters **(3)** ______ of ninety-one.',
+  'His request was **(4)** ______ down three times in the same four words. He now believes the refusals were about an item in a list he had never written: what the change would **not** touch. All three of his requests answered the cost, and **(5)** ______ of them said what the change left alone.',
+  'The new line was agreed in eleven days. It costs about twenty seconds a refusal and says, in the words of the schedule, what the paragraph requires. Eleven letters have been answered since, and two of those asked what a paragraph meant.',
+  'He has not asked for the bracket again and says that he will not **(6)** ______. Four letters a quarter is not nothing; it is simply not what the year was about.',
 ]));
 [
-  '**1**   **A** came   **B** arrived   **C** turned   **D** fell',
-  '**2**   **A** care   **B** trouble   **C** pains   **D** effort',
-  '**3**   **A** used   **B** spent   **C** took   **D** lasted',
-  '**4**   **A** over   **B** off   **C** up   **D** out',
-  '**5**   **A** cut   **B** put   **C** turned   **D** set',
-  '**6**   **A** none   **B** nothing   **C** no   **D** neither',
-  '**7**   **A** charges   **B** costs   **C** pays   **D** spends',
-  '**8**   **A** too   **B** so   **C** neither   **D** either',
+  '**1**   **A** trouble   **B** care   **C** pains   **D** effort',
+  '**2**   **A** used   **B** took   **C** lasted   **D** spent',
+  '**3**   **A** over   **B** off   **C** out   **D** up',
+  '**4**   **A** cut   **B** put   **C** set   **D** turned',
+  '**5**   **A** none   **B** nothing   **C** no   **D** neither',
+  '**6**   **A** too   **B** either   **C** neither   **D** so',
 ].forEach(t => out.push(q(t)));
 out.push(pb());
-out.push(box('Part 2 · Open cloze (8 marks)', [
-  'For questions **9–16**, think of the word which best fits each gap. **Use only one word in each gap.**',
+out.push(box('Part 2 · Open cloze (6 marks)', [
+  'For questions **7–12**, think of the word which best fits each gap. **Use only one word in each gap.**',
 ], C.lteal, C.teal));
 out.push(model([
   '**THREE READERS AND A BRACKET**',
-  'Almost everything written at work is read by three kinds of person, and the commonest fault in working prose is **(9)** ______________ fault of style at all. It is a page written for the reader whose permission was needed and sent **(10)** ______________ the reader who has to act.',
-  'The reason is not laziness. The approver was the difficult reader, **(11)** ______________ the writer wrote for the difficult reader — which is natural, and is wrong. A man holding a stamp cannot tell **(12)** ______________ a page whether to do anything on Monday.',
-  'The third reader is the one nobody takes seriously, and **(13)** ______________ a structural reason: the first two complain if you fail them and the third cannot. A page can fail that reader **(14)** ______________ anybody ever noticing.',
-  'There is one further fault, **(15)** ______________ nobody has a name for. A page can be written for its own writer: the history in the first paragraph, and no imperative and no date anywhere in it. Four such notices were counted on one counter in a single month, and **(16)** ______________ of them told the man at that counter to do anything.',
+  'Almost everything written at work is read by three kinds of person, and the commonest fault in working prose is **(7)** ______________ fault of style at all. It is a page written for the reader whose permission was needed and sent **(8)** ______________ the reader who has to act.',
+  'The reason is not laziness. The approver was the difficult reader, so the writer wrote for the difficult reader — which is natural, and is wrong. A man holding a stamp cannot tell **(9)** ______________ a page whether to do anything on Monday.',
+  'The third reader is the one nobody takes seriously, and **(10)** ______________ a structural reason: the first two complain if you fail them and the third cannot. A page can fail that reader **(11)** ______________ anybody ever noticing.',
+  'There is one further fault that nobody has a name for. A page can be written for its own writer: the history in the first paragraph, and no imperative and no date anywhere in it. Four such notices were counted on one counter in a single month, and **(12)** ______________ of them told the man at that counter to do anything.',
 ]));
 out.push(pb());
 out.push(box('Part 3 · Word formation (8 marks)', [
-  'For questions **17–24**, use the word given in capitals at the end of each line to form a word that fits in the gap in the same line.',
+  'For questions **13–20**, use the word given in capitals at the end of each line to form a word that fits in the gap in the same line.',
 ], C.lteal, C.teal));
 out.push(model([
   '**THE FIGURE THAT LOST ITS BASE**',
-  'Most of the wrong figures inside an organisation were counted properly once. What goes missing is the base, and a figure without one cannot be set beside anything: the **(17)** ______________ a reader wants to make is the one thing the sentence will not support.   **COMPARE**',
-  'The trouble is rarely **(18)** ______________. A figure can be exact to the last unit and still prove nothing, because the claim beside it rests on an **(19)** ______________ that nobody has examined — usually that the base, the definition and the measuring all stood still.   **ACCURATE** · **ASSUME**',
-  'Of those three, the **(20)** ______________ of the thing is what moves most often and is noticed least, since nobody thinks of it as part of the figure at all. A new book, a new form, a new question: each changes what is counted without changing the count.   **MEASURE**',
-  'There is one further **(21)** ______________ worth printing beside any figure of your own, and it is the hardest to see: a remedy can create a few of the problems it counts. Where that is possible, say so.   **LIMIT**',
-  'None of this is a complaint about arithmetic. The **(22)** ______________ in a working document is almost never in its sums; it is in the words either side of them, where a cost may or may not be **(23)** ______________ to the thing it is said to be a cost of.   **AMBIGUOUS** · **PROPORTION**',
-  'And the practical point is small. Print the base, the period and the counter in the same sentence as the figure, and most **(24)** ______________ between two honest people about one number disappears before it is written down.   **AGREE**',
+  'Most of the wrong figures inside an organisation were counted properly once. What goes missing is the base, and a figure without one cannot be set beside anything: the **(13)** ______________ a reader wants to make is the one thing the sentence will not support.   **COMPARE**',
+  'The trouble is rarely **(14)** ______________. A figure can be exact to the last unit and still prove nothing, because the claim beside it rests on an **(15)** ______________ that nobody has examined — usually that the base, the definition and the measuring all stood still.   **ACCURATE** · **ASSUME**',
+  'Of those three, the **(16)** ______________ of the thing is what moves most often and is noticed least, since nobody thinks of it as part of the figure at all. A new book, a new form, a new question: each changes what is counted without changing the count.   **MEASURE**',
+  'There is one further **(17)** ______________ worth printing beside any figure of your own, and it is the hardest to see: a remedy can create a few of the problems it counts. Where that is possible, say so.   **LIMIT**',
+  'None of this is a complaint about arithmetic. The **(18)** ______________ in a working document is almost never in its sums; it is in the words either side of them, where a cost may or may not be **(19)** ______________ to the thing it is said to be a cost of.   **AMBIGUOUS** · **PROPORTION**',
+  'And the practical point is small. Print the base, the period and the counter in the same sentence as the figure, and most **(20)** ______________ between two honest people about one number disappears before it is written down.   **AGREE**',
 ]));
 out.push(pb());
 out.push(box('Part 4 · Key-word transformations (6 marks)', [
-  'For questions **25–30**, complete the second sentence so that it means the same as the first. **Use the word given in capitals and do not change it.** Use **between two and five words**, including the word given.',
+  'For questions **21–26**, complete the second sentence so that it means the same as the first. **Use the word given in capitals and do not change it.** Use **between two and five words**, including the word given.',
 ], C.lteal, C.teal));
 [
-  '**25**  Nobody had ever counted what the letters asked.   **BEEN**   What the letters asked ______________________ counted before.',
-  '**26**  I accept the figure, but it says nothing whatever about February.   **TOUCH**   I accept the figure, but it ______________________ February.',
-  '**27**  The gate men say the real cost is the walking.   **ACCORDING**   ______________________ the gate men, the real cost is the walking.',
-  '**28**  It is not necessary for you to answer this letter.   **NEED**   You ______________________ this letter.',
-  '**29**  Her prediction was wrong by six.   **OUT**   She ______________________ six in her prediction.',
-  '**30**  Although the second pad is expensive, it pays for itself in a quarter.   **ALL**   ______________________ cost, the second pad pays for itself in a quarter.',
+  '**21**  Nobody had ever counted what the letters asked.   **BEEN**   What the letters asked ______________________ counted before.',
+  '**22**  I accept the figure, but it says nothing whatever about February.   **TOUCH**   I accept the figure, but it ______________________ February.',
+  '**23**  The gate men say the real cost is the walking.   **ACCORDING**   ______________________ the gate men, the real cost is the walking.',
+  '**24**  It is not necessary for you to answer this letter.   **NEED**   You ______________________ this letter.',
+  '**25**  Her prediction was wrong by six.   **OUT**   She ______________________ six in her prediction.',
+  '**26**  Although the second pad is expensive, it pays for itself in a quarter.   **ALL**   ______________________ cost, the second pad pays for itself in a quarter.',
 ].forEach(t => out.push(q(t)));
 out.push(pb());
 out.push(box('Part 5 · Multiple choice (6 marks)', [
-  'Read the text and answer questions **31–36**, choosing the answer (**A**, **B**, **C** or **D**) which fits best.',
+  'Read the text and answer questions **27–32**, choosing the answer (**A**, **B**, **C** or **D**) which fits best.',
 ], C.lteal, C.teal));
 out.push(model([
   '**THE LETTER THAT ASKED FOR NOTHING**',
@@ -94,29 +92,47 @@ out.push(model([
   'At the end of the year she wrote once more, and that letter is the one she is pleased with. It carried three figures — forty slips, one consignment in fourteen, and nine of forty — and it asked for nothing at all. Not a change of policy, not an explanation, and not an answer. The reply came in four days and proposed something she had not thought of: that the distributor\'s own clerk should initial the code box, so that a wrong code could be traced to a person. She had been unable to get anything of the kind in eleven months of asking for things.',
 ]));
 [
-  '**31**  What does the writer say was the only difference in February?   **A** she wrote to a more senior person   **B** she put a concession in the same sentence as the request   **C** she asked for less than before   **D** she set a date for a reply',
-  '**32**  Why is she careful about what she claims?   **A** the figures were not hers   **B** the code was not on every slip   **C** she had asked twice before   **D** their form had been reprinted a month earlier',
-  '**33**  What does she say about her two earlier letters?   **A** it was reasonable of the distributor not to read them to the end   **B** they were too short   **C** they were sent to the wrong office   **D** they asked for too much',
-  '**34**  What had happened in September?   **A** the batch was found to be faulty   **B** the sealing was changed   **C** each office had conceded what the other needed   **D** the correspondence stopped',
-  '**35**  How does she explain the two unread concessions?   **A** neither letter was properly filed   **B** the two offices were not speaking   **C** both sentences were badly written   **D** a concession needs no answer, so the eye goes past it',
-  '**36**  What does the last paragraph suggest about asks?   **A** an ask should always be put last   **B** a letter that asks for nothing may get more than one that asks   **C** three figures are better than one   **D** a reply in four days is unusual',
+  '**27**  What does the writer say was the only difference in February?   **A** she wrote to a more senior person   **B** she put a concession in the same sentence as the request   **C** she asked for less than before   **D** she set a date for a reply',
+  '**28**  Why is she careful about what she claims?   **A** the figures were not hers   **B** the code was not on every slip   **C** she had asked twice before   **D** their form had been reprinted a month earlier',
+  '**29**  What does she say about her two earlier letters?   **A** it was reasonable of the distributor not to read them to the end   **B** they were too short   **C** they were sent to the wrong office   **D** they asked for too much',
+  '**30**  What had happened in September?   **A** the batch was found to be faulty   **B** the sealing was changed   **C** each office had conceded what the other needed   **D** the correspondence stopped',
+  '**31**  How does she explain the two unread concessions?   **A** neither letter was properly filed   **B** the two offices were not speaking   **C** both sentences were badly written   **D** a concession needs no answer, so the eye goes past it',
+  '**32**  What does the last paragraph suggest about asks?   **A** an ask should always be put last   **B** a letter that asks for nothing may get more than one that asks   **C** three figures are better than one   **D** a reply in four days is unusual',
 ].forEach(t => out.push(q(t)));
 out.push(pb());
 out.push(box('Part 6 · Gapped text (4 marks)', [
-  'Four sentences have been removed from the text below. Choose from the sentences **A–E** the one which fits each gap (**37–40**). **There is one extra sentence which you do not need to use.**',
+  'Four sentences have been removed from the text below. Choose from the sentences **A–E** the one which fits each gap (**33–36**). **There is one extra sentence which you do not need to use.**',
 ], C.lteal, C.teal));
 out.push(model([
   '**THE SHEET AT THE TOP OF THE PAGE**',
   'Nine months before this was written, a class in Damascus put eleven predictions on one sheet of paper, dated it and put it away. Last week they marked it. Two were right, four were wrong, and five could not be marked at all.',
-  '**(37)** ______ Each was missing either a date or a figure, and three were missing both. _Record-keeping will get better_ was the first of them, and nothing that happened in nine months could have contradicted it.',
-  'The arguments, when the sheet was marked, were not where the teacher expected. **(38)** ______ Being told that a prediction was never worth anything turns out to be harder to hear than being told that it failed.',
-  'The most useful single result was a near miss. One member of the class had predicted fewer than twenty disputed results in a quarter; there were twenty-six. **(39)** ______ Four of the twenty-six turned out to be disputes about the remedy itself, a kind that had not existed before — so she had made four of her own twenty-six.',
-  'The practice costs about twenty seconds a time: two lines at the top of the page you are arguing on, dated. **(40)** ______ What it does is make them markable, and marking them is what taught that class the difference between a figure and a hope.',
+  '**(33)** ______ Each was missing either a date or a figure, and three were missing both. _Record-keeping will get better_ was the first of them, and nothing that happened in nine months could have contradicted it.',
+  'The arguments, when the sheet was marked, were not where the teacher expected. **(34)** ______ Being told that a prediction was never worth anything turns out to be harder to hear than being told that it failed.',
+  'The most useful single result was a near miss. One member of the class had predicted fewer than twenty disputed results in a quarter; there were twenty-six. **(35)** ______ Four of the twenty-six turned out to be disputes about the remedy itself, a kind that had not existed before — so she had made four of her own twenty-six.',
+  'The practice costs about twenty seconds a time: two lines at the top of the page you are arguing on, dated. **(36)** ______ What it does is make them markable, and marking them is what taught that class the difference between a figure and a hope.',
   '**A** Nobody disputed a _wrong_; every argument in the room was about an _unmarkable_.',
   '**B** Nobody would claim that it makes anybody\'s predictions better.',
   '**C** The five were not vague in the ordinary sense.',
   '**D** The class had written the sheet in about an hour, which is longer than it should have taken.',
   '**E** She wrote two sentences — _wrong; out by six_ — and the figure produced the question _why six?_',
+]));
+
+out.push(pb());
+out.push(box('Part 7 · Multiple matching (4 marks)', [
+  'You are going to read four accounts of a year of writing things down. For questions **37–40**, choose from the people **A–D**. The people may be chosen more than once.',
+], C.lteal, C.teal));
+out.push(model([
+  '**FOUR PEOPLE ON A YEAR OF WRITING THINGS DOWN**',
+  '**A**  I began in January because I had lost an argument I was right about, and I could not prove it a week later. Twelve months of two lines at the top of every page, dated, and I can tell you the figure: of thirty-one predictions, nine were right, eleven were wrong and eleven could not be marked, which is a worse proportion of unmarkable ones than I expected and the only number I am proud of. The rest of it I have to be honest about. I cannot show you one decision that went differently because the lines were there. What I can show you is that three arguments ended in four minutes instead of an afternoon, and that is not nothing, but it is not what I set out to prove either.',
+  '**B**  My year divides into two halves and the line between them is a page that came in at eleven at night. Until then I had written what I remembered and dated it the next morning, which I now see is not a record of anything. The page that came in was one sentence and a figure — _fourteen trays, two short_ — and because it had a figure on it the question it produced was answerable. Everything I had written in the first half produced the question _are you sure?_, and the answer to that is always no. I have kept the first half. I read it when I am tempted to write _about_ or _roughly_.',
+  '**C**  What I did not expect was how much of the year went on explaining the same fact to three different people in three different ways. The fact never changed; the sheet I sent to the distributor, the slip I put on the board and the two lines I sent upstairs were not versions of one note, they were three notes, and for about five months I pretended otherwise and sent the longest of the three to all of them. Two things came out of stopping that. The first is that the short one is the hardest to write, which nobody had told me. The second is that when the three disagreed in November, it was the sheet to the distributor that was wrong, and it was wrong because I had written it first and never read it again.',
+  '**D**  I spent the year keeping two counts, mine and a colleague\'s, and the useful part was the month we found both of them exact. Hers said twenty-six and mine said nineteen, and for three weeks each of us assumed the other had been careless. They were counts of two different things, and nobody had written down what either of us was counting — so there was nothing to check, only two people being certain. We now put the object of the count on the page before the figure. It costs five words. I would say it has saved us more time than anything else I did all year, and it is the only change I made that I did not think of myself.',
+  '',
+  '**Which person…**',
+  '**37**  says that an argument was resolved only after what each side was measuring was written down?   _______',
+  '**38**  says that they cannot point to any decision that the practice changed?   _______',
+  '**39**  mentions discovering that the shortest of three accounts was the most difficult to produce?   _______',
+  '**40**  describes a record that could not be questioned usefully until it carried a figure?   _______',
 ]));
 
 // ================= PAPER 2 =================

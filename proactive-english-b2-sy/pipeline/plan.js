@@ -583,4 +583,50 @@ out.push(box('What happens next', [
   '**And one thing is already written and waiting.** Twelve sealed letters, dated January, with their writers\' names on the outside and the number of pages inside — to be opened in 24.1 at the end of this course, by people who will not believe what they wrote. Four of those twelve writers will not be in the room. The plan is that their letters are kept, and that 24.1 says so.',
 ], C.lorange, C.orange));
 
+out.push(pb());
+out.push(h2('16 · Book 1 as delivered — the measured record'));
+out.push(p('This section was written after Book 1 was finished. Every figure in it is **measured from the built file**, not projected; where it contradicts a projection earlier in this plan, the measured figure is the true one and the projection has been left in place so that the difference can be seen.'));
+out.push(table(['Unit', 'Title', 'SB pp', 'AK pp'], [
+  ['1', 'Saying What a Room Assumes', '47', '30'],
+  ['2', 'Four Paragraphs Nobody Can Read', '46', '30'],
+  ['3', 'Marking Your Own Essay', '46', '30'],
+  ['4', 'A Photograph for Somebody Who Cannot See It', '46', '29'],
+  ['5', 'Not Only, But', '47', '30'],
+  ['6', 'Deciding, and Saying So', '48', '32'],
+  ['7', 'Cause at a Distance', '46', '34'],
+  ['8', 'Reviews', '46', '31'],
+  ['9', 'Concession That Costs Something', '47', '31'],
+  ['10', 'Numbers in Prose', '47', '33'],
+  ['11', 'Three Readers, One Fact', '46', '33'],
+  ['12', 'What the Year Showed', '47', '33'],
+], [0.5, 3.4, 0.8, 0.8], { headFill: C.navy }));
+out.push(p('**Student\'s Book 46–48 pages a unit, every unit inside the band settled by Unit 1. Answer Key 29–34**, which is the band this plan was amended to at Unit 7 and which held for the last five units without further amendment.'));
+out.push(table(['Other deliverable', 'Pages', 'Marks'], [
+  ['Mid-Book Test (after Unit 6)', '10', '60'],
+  ['Mid-Book Test · Answer Key', '8', '—'],
+  ['End-of-Book Test (after Unit 12)', '13', '100'],
+  ['End-of-Book Test · Answer Key', '9', '—'],
+  ['Student\'s Book, bound (Units 1–12 + both tests)', '583', '—'],
+  ['Answer Key, combined', '394', '—'],
+], [3.4, 0.9, 0.9], { headFill: C.navy }));
+out.push(N('**Two projections in this plan came out wrong and are recorded here rather than quietly corrected.** The End-of-Book Test was projected at 14–15 pages with a key of 11–12; it came out at **13 and 9**. The reason is the same one the B1 handover gives for its own test: a test page carries more boxed material and less prose than a unit page, so it holds more per page than a projection based on unit density expects. **The projection method is the thing at fault, not the arithmetic**, and the figure to use for B2 Book 2 is the measured one.'));
+out.push(h2('17 · Every examination task, and where each is taught and tested'));
+out.push(p('Every B2 First task in the four papers appears at least twice in Book 1: once inside a unit\'s x.7 cycle, and once in a test. **Nothing in either test is a task the course has not taught, and no task the course teaches goes untested.** Paper 1 of the End-of-Book Test carries all **seven** Reading and Use of English parts — 6 · 6 · 8 · 6 · 6 · 4 · 4 = 40 marks; the Mid-Book Test, written after Unit 6, carries the four parts taught by then.'));
+out.push(table(['Paper and part', 'Taught in', 'Tested in'], [
+  ['Reading and Use of English Part 1 · multiple-choice cloze', '3.7 · 10.7', 'Mid-Book · End-of-Book'],
+  ['Part 2 · open cloze', '4.7 · 11.7', 'Mid-Book · End-of-Book'],
+  ['Part 3 · word formation', '1.7 · 8.7', 'End-of-Book'],
+  ['Part 4 · key-word transformations', '2.7 · 9.7', 'Mid-Book · End-of-Book'],
+  ['Part 5 · multiple choice', '5.7 · 12.7', 'End-of-Book'],
+  ['Part 6 · gapped text', '6.7', 'Mid-Book · End-of-Book'],
+  ['Part 7 · multiple matching', '7.7', 'End-of-Book'],
+  ['Writing Part 1 · essay', '1.7, 3.7, 5.7, 7.7, 9.7, 11.7', 'Mid-Book · End-of-Book'],
+  ['Writing Part 2 · article, letter/email, report, review', '2.7, 4.7, 6.7, 8.7, 10.7, 12.7', 'Mid-Book · End-of-Book'],
+  ['Listening Part 1 · short extracts', '1.7, 5.7, 9.7', 'Mid-Book · End-of-Book'],
+  ['Part 2 · sentence completion', '2.7, 6.7, 10.7', 'Mid-Book · End-of-Book'],
+  ['Part 3 · multiple matching', '3.7, 7.7, 11.7', 'End-of-Book'],
+  ['Part 4 · multiple choice', '4.7, 8.7, 12.7', 'Mid-Book · End-of-Book'],
+  ['Speaking Parts 1–4', 'Part 1 in every x.1; Part 2 from Unit 4; Part 3 from Unit 6; Part 4 in every x.7', 'Mid-Book · End-of-Book'],
+], [3.4, 2.1, 1.6], { headFill: C.navy }));
+
 L.build(out, process.argv[2], 'Proactive English · B2 · Syria Edition · Production plan and curriculum blueprint');
