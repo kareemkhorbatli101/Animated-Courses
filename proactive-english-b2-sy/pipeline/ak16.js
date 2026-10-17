@@ -221,10 +221,10 @@ out.push(A('**2** ⚠ **Two references were supplied, both from the same directo
 out.push(A('**3** ⚠ **He had expected the price to be the weak point, because it was last time; it is the references.** **He says he would not have looked at them properly if the three columns had not made him, and that he filled the middle column for the references before he had formed any view at all** — **which is the only reason the assessment says what it says.** ⚠ **And the harder note:** **on two of his eleven three-column assessments the verdict came out differently from the one he expected, and both were tenders he had already decided about in the first ten minutes.** **He had decided about this one too.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**POST 7/2 · ASSESSMENT AGAINST PUBLISHED CRITERIA** · N. Sabbagh · 21 March',
+  '**POST 7/2 · ASSESSMENT AGAINST PUBLISHED CRITERIA** · H. Nasser · 21 March',
   '**Published weighting, in the notice of 11 February: the handover record counts for half; the task types and the plans for a quarter each. The registered qualification is a threshold.**',
   '**Threshold — registration.** **Looked at:** the register entry, current to 2027. ⚠ **Pass.** **Read before anything else, as published.**',
-  '**Handover record _(half)_.** **Looked at:** the fourteen handovers signed between May and January, **from the ward book and not from the candidate\'s own list.** **Twelve complete; two missing the second signature.** ⚠ **Pass.** **Against this: both incomplete ones fall in the fortnight the book was being rewritten**, which I have weighed and which does not change it.',
+  '**Handover record _(half)_.** **Looked at:** the fourteen handovers signed between May and January, **from the register and not from the candidate\'s own list.** **Twelve complete; two missing the second signature.** ⚠ **Pass.** **Against this: both incomplete ones fall in the fortnight the book was being rewritten**, which I have weighed and which does not change it.',
   '**Task types _(a quarter)_.** **Looked at:** the four observed lessons and the plans for them. **Three different types across four lessons, aims stated in three.** ⚠ **Pass.**',
   '**Plans _(a quarter)_.** **Looked at:** the plans submitted for the same four lessons. **Three submitted, one after the lesson.** ⚠ **Fail.**',
   '**Verdict.** ⚠ **Three of four passed, including the threshold, with a quarter failed.** **On the published weighting this is seventy-five per cent and above the line.** **Recommended.**',
@@ -287,7 +287,7 @@ out.push(S('Stage 3R · Perform – listener task'));
 out.push(A('The three parts of each route. ⚠ **The four ⚠ rows cannot be appealed into a different outcome** — **two are thresholds genuinely not met and two are decisions about something that no longer exists** — **and the listener task is to catch the pairs that invent a route anyway.** **The honest answer is not silence either:** **say that nothing would change it, say why, and name what the person can do instead.** ⚠ **The strongest performances separate the outcome from the record**, as in the sample above: **the post has gone and the assessment can still be reviewed.**'));
 out.push(S('Stage 4 · Your turn (sample)'));
 out.push(SAMPLE([
-  '**a** _**If the ward book reaches me by 11 April, criterion three is recounted with you present and the recount is recorded on the file; nothing else is reopened.**_ ⚠ _**The honest test: would I reverse myself?** **Yes — and I expect to.** **I counted three short months out of six from the book, and if the book is wrong about one of them the verdict changes.**_',
+  '**a** _**If the register reaches me by 11 April, criterion three is recounted with you present and the recount is recorded on the file; nothing else is reopened.**_ ⚠ _**The honest test: would I reverse myself?** **Yes — and I expect to.** **I counted three short months out of six from the book, and if the book is wrong about one of them the verdict changes.**_',
   '**b** ⚠ _**Full weight, then hurried:** my partner said she would act on the first and would not have noticed the second._ _**Her words: _the second sounded like something you were required to say_.**_',
 ]));
 out.push(S('Stage 4R · Report (sample)'));
@@ -301,9 +301,9 @@ out.push(A('**2** ⚠ **Two different routes, kept apart.** **The condition:** *
 out.push(A('**3** ⚠ **He will not reweight the criteria for this tender.** **The weighting was published on 2 February and three other tenderers worked to it** — **and a weighting changed after the tenders are in is a different competition held in private.** **Saying so saves the reader a month of asking for the one thing that cannot be given, and the reason protects the other three tenderers as much as it protects him.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**POST 7/2 · DECISION** · N. Sabbagh · 25 March · _to the candidate_',
+  '**POST 7/2 · DECISION** · H. Nasser · 25 March · _to the candidate_',
   '**You are recommended, subject to one condition set out below.** **Assessed against the four criteria published in the notice of 11 February.**',
-  '**Where it passed.** **The registration threshold** _(current to 2027)_. **The handover record** _(twelve of fourteen complete, from the ward book)_. **Task types** _(three across four lessons)_.',
+  '**Where it passed.** **The registration threshold** _(current to 2027)_. **The handover record** _(twelve of fourteen complete, from the register)_. **Task types** _(three across four lessons)_.',
   '**Where it failed.** ⚠ **Plans.** **Three of four submitted, one of those after the lesson.** **The plans themselves are full and clear and I have read them; the criterion is about when they arrive.**',
   '**The condition, and what would change it.** ⚠ **If the fourth plan reaches me by 8 April, criterion four is reassessed and the recommendation becomes unconditional.** **Nothing else is reopened.**',
   '**If you think I have misread something.** ⚠ **Say which criterion and send the document that shows it.** **It goes to Mrs Shaaban, who did not assess you, and you will have her answer within ten days.** **She may reverse any of the four, including the ones you passed.**',
