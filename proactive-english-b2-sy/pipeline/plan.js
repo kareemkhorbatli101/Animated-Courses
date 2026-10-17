@@ -58,13 +58,13 @@ out.push(p('Four hours a week over about thirty-one teaching weeks. One book of 
 out.push(h2('3 · The four tests'));
 out.push(p('The mark architecture is the author\'s own and is carried over from A2 and B1 without change. Two things move, and both are forced by the exam rather than chosen.'));
 out.push(table(['Test', 'Where', 'Marks', 'Split', 'Pages (projected)'], [
-  ['Mid-Book Test', 'after Unit 6', '60', 'Reading 20 · Writing 15 · Listening 15 · Speaking 10', '10–11 + key 8–9'],
-  ['End-of-Book Test', 'after Unit 12', '100', 'Reading 30 · Writing 30 · Listening 20 · Speaking 20', '14–15 + key 11–12'],
+  ['Mid-Book Test', 'after Unit 6', '60', 'Reading 20 · Writing 15 · Listening 15 · Speaking 10', '10–11 + key 8–9 · **measured 10 + 8**'],
+  ['End-of-Book Test', 'after Unit 12', '100', '**as built: Reading and Use of English 40 · Writing 25 · Listening 25 · Speaking 10**', '14–15 + key 11–12 · **measured 14 + 10**'],
   ['Mid-Book Test', 'after Unit 18', '60', 'as above', '10–11 + key 8–9'],
-  ['End-of-Book Test', 'after Unit 24', '100', 'as above', '14–15 + key 11–12'],
+  ['End-of-Book Test', 'after Unit 24', '100', 'as Book 1', 'use the measured Book 1 figures'],
 ], [1.6, 1.3, 0.7, 3.4, 1.6], { headFill: C.navy }));
 [
-  '**The Reading paper grows, because B2 First\'s Reading and Use of English has seven parts** where Preliminary has six and Key has five. The marks stay at 20 and 30; the page count rises.',
+  '**The Reading paper grows, because B2 First\'s Reading and Use of English has seven parts** where Preliminary has six and Key has five, and the End-of-Book Test carries **all seven**. ⚠ **The projected 30/30/20/20 split was not the one built.** The paper weights follow Cambridge\'s own: **40 · 25 · 25 · 10**, which puts the marks where the course\'s own hours are and makes a candidate\'s percentage comparable with a real B2 First result. The total is unchanged at 100. The Mid-Book split is as projected.',
   '**The Writing paper\'s time changes.** B1 allowed 45 minutes for two tasks of about 100 words. B2 First allows 80 minutes for two tasks of 140–190. So the B2 papers allow **60 minutes** in the Mid-Book Test and **80 minutes** in the End-of-Book Test. This is the only timing change the level makes and it is arithmetic, not a judgement.',
 ].forEach(t => out.push(bullet(t)));
 out.push(N('**One production note, measured at Unit 7 and applying to Units 7–12.** The Stage 7 ruled block in cycles x.1–x.6 is **seven lines and not eight** from Unit 7 onwards. The reason is arithmetic: the band-2 peer-review slip is longer than band 1\'s, and with eight ruled lines the Homework box falls off the foot of the page in every cycle, which costs the unit three pages of almost-empty paper and puts it outside the 46–48 band. Seven lines keeps every unit inside the band with no blank pages and no orphaned boxes, and B1 already used a seven-line block in its own x.7. **The unit check keeps its five-line block throughout.**'));
@@ -604,12 +604,12 @@ out.push(p('**Student\'s Book 46–48 pages a unit, every unit inside the band s
 out.push(table(['Other deliverable', 'Pages', 'Marks'], [
   ['Mid-Book Test (after Unit 6)', '10', '60'],
   ['Mid-Book Test · Answer Key', '8', '—'],
-  ['End-of-Book Test (after Unit 12)', '13', '100'],
-  ['End-of-Book Test · Answer Key', '9', '—'],
-  ['Student\'s Book, bound (Units 1–12 + both tests)', '583', '—'],
-  ['Answer Key, combined', '394', '—'],
+  ['End-of-Book Test (after Unit 12)', '14', '100'],
+  ['End-of-Book Test · Answer Key', '10', '—'],
+  ['Student\'s Book, bound (Units 1–12 + both tests)', '584', '—'],
+  ['Answer Key, combined', '395', '—'],
 ], [3.4, 0.9, 0.9], { headFill: C.navy }));
-out.push(N('**Two projections in this plan came out wrong and are recorded here rather than quietly corrected.** The End-of-Book Test was projected at 14–15 pages with a key of 11–12; it came out at **13 and 9**. The reason is the same one the B1 handover gives for its own test: a test page carries more boxed material and less prose than a unit page, so it holds more per page than a projection based on unit density expects. **The projection method is the thing at fault, not the arithmetic**, and the figure to use for B2 Book 2 is the measured one.'));
+out.push(N('**Two projections in this plan came out wrong and are recorded here rather than quietly corrected.** The End-of-Book Test was projected at 14–15 pages with a key of 11–12; it was first built at 13 and 9, and came out at **14 and 10** once Reading and Use of English Part 7 was added to it. The reason is the same one the B1 handover gives for its own test: a test page carries more boxed material and less prose than a unit page, so it holds more per page than a projection based on unit density expects. **The projection method is the thing at fault, not the arithmetic**, and the figure to use for B2 Book 2 is the measured one.'));
 out.push(h2('17 · Every examination task, and where each is taught and tested'));
 out.push(p('Every B2 First task in the four papers appears at least twice in Book 1: once inside a unit\'s x.7 cycle, and once in a test. **Nothing in either test is a task the course has not taught, and no task the course teaches goes untested.** Paper 1 of the End-of-Book Test carries all **seven** Reading and Use of English parts — 6 · 6 · 8 · 6 · 6 · 4 · 4 = 40 marks; the Mid-Book Test, written after Unit 6, carries the four parts taught by then.'));
 out.push(table(['Paper and part', 'Taught in', 'Tested in'], [
