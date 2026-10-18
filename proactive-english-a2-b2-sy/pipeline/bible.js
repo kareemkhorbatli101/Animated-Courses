@@ -3,7 +3,7 @@ const L = require('./lib');
 const { p, h1, h2, h3, sp, box, table, bullet, C } = L;
 const out = [];
 out.push(h1('Proactive English — Series Bible'));
-out.push(p('_Syria Edition · Version 1.1 · 17 October 2026 · Author: Mo (Mohamad Khorbatli)_', { color: '7F7F7F' }));
+out.push(p('_Syria Edition · Version 1.2 · 18 October 2026 · Author: Mo (Mohamad Khorbatli)_', { color: '7F7F7F' }));
 out.push(p('_Sections 1–6 are the A2 Syria Edition as first written. **Section 7 is the measured record across every level delivered so far** and supersedes any page or test estimate elsewhere in this document or in a level plan._', { color: '7F7F7F' }));
 
 out.push(h2('1. Series roadmap'));
@@ -82,21 +82,25 @@ out.push(table(['Level and book', 'Student\'s Book, per unit', 'Answer Key, per 
   ['B1 Book 1 (Units 1–12)', '**35–38**', '**22–30**', '461', '317'],
   ['B1 Book 2 (Units 13–24)', '**38–40**', '**29–31**', '489', '381'],
   ['B2 Book 1 (Units 1–12)', '**46–48**', '**29–34**', '584', '395'],
+  ['B2 Book 2 (Units 13–24)', '**45–47**', '**29–34**', '577', '394'],
 ], [1.9, 2.4, 1.5, 0.9, 0.9], { headFill: C.navy }));
 out.push(p('⚠ **Hold the band, do not aim at its midpoint.** A unit built to the middle of its band has been padded or trimmed against its own content, and both show.'));
 out.push(table(['Level and book', 'Mid-Book Test + key', 'End-of-Book Test + key', 'Marks', 'Paper split'], [
   ['A2 Books 1 and 2', '8 + 6', '9 + 8', '60 / 100', '30 · 30 · 20 · 20'],
   ['B1 Books 1 and 2', '9 + 7 · 9 + 8', '**12 + 8** · **12 + 9**', '60 / 100', '30 · 30 · 20 · 20'],
   ['B2 Book 1', '10 + 8', '**14 + 10**', '60 / 100', '**40 · 25 · 25 · 10**'],
+  ['B2 Book 2', '10 + 8', '**15 + 11**', '60 / 100', '**40 · 25 · 25 · 10**'],
 ], [1.9, 1.7, 1.9, 1.1, 1.5], { headFill: C.navy }));
 [
   '⚠ **Two corrections carried in from B1, which are the reason this section exists.** The B1 plan estimated both end tests at **10–11 pages**; the delivered tests are **12**, with keys of 8 and 9. And the B1 plan carried no measured page bands at all; the delivered ones are in the table above.',
   '⚠ **One correction carried in from B2.** The B2 plan projected the End-of-Book Test at 14–15 pages with a key of 11–12, and projected the paper split as 30·30·20·20. The delivered test is **14 with a key of 10**, and the split follows **Cambridge B2 First\'s own weighting, 40·25·25·10**, so that a candidate\'s percentage is comparable with a real result.',
   '**A test page is denser than a unit page**, because it carries more boxed material and less prose. This is why every projection built from unit density has over-estimated test length at every level, and it is the single reason to prefer a measurement to an estimate in this series.',
+  '⚠ **The lesson of B2 Book 2, and it is the most useful thing in this section.** **Four of the six word-count bands projected for it were a step up from Book 1 and all four came back identical** — free writing, model length, dialogue turns and answer-key pages. **The reason is the examination: B2 First asks for 140–190 words in both writing parts and does not ask for more in the second year of a course.** **So step up only the figures the examination does not fix, and establish which those are before projecting any of them.** **The two that did move are the ones the examination says nothing about: the Student\'s Book band, because Book 2 carries no front matter, and the test length.**',
   '**The paper split is not a house constant.** It follows the examination the level is anchored to — A2 Key and B1 Preliminary at 30·30·20·20, B2 First at 40·25·25·10 — and C1 Advanced will have its own. **Read the examination\'s own weighting before writing a test.**',
 ].forEach(t => out.push(bullet(t)));
-out.push(p('**Word counts and house figures, by level.** A2: guided ≥25 / ≥35 · free 35–60 / 60–100 · models 45–100 / 100–180. B1: guided ≥50 / ≥60 · free 100–140 / 140–180 · models 180–260 / 250–350 · dialogues 11–14 / 14–18 turns. **B2 Book 1: free 180–220 · models 350–480 · dialogues 16–20 turns · 4R reports 335–460 · writer\'s boxes 180–250 · 3R listener tasks 35–78 · 7R shares 55–88.**'));
-out.push(p('**Answer-key length tracks the `NOTE()` count** at every level. House range **7–10**; B1 Book 2 and the whole of B2 Book 1 were built at exactly **10**. Count in the **source**, never in the PDF, because a PDF sweep also matches the _Notes:_ lines inside answer commentary.'));
+out.push(p('**Word counts and house figures, by level.** A2: guided ≥25 / ≥35 · free 35–60 / 60–100 · models 45–100 / 100–180. B1: guided ≥50 / ≥60 · free 100–140 / 140–180 · models 180–260 / 250–350 · dialogues 11–14 / 14–18 turns. **B2, both books: free 180–220 · models 350–480 · dialogues 16–20 turns · 4R reports 335–460 · writer\'s boxes 180–250 · 3R listener tasks 35–78 · 7R shares 55–88.** ⚠ **Book 2 held every one of these unchanged**, against a plan that projected a step up in four of them; see the note below.'));
+out.push(p('**Answer-key length tracks the `NOTE()` count** at every level. House range **7–10**; B1 Book 2 and the whole of B2, both books, were built at exactly **10**. Count in the **source**, never in the PDF, because a PDF sweep also matches the _Notes:_ lines inside answer commentary.'));
+out.push(p('**The declared lexis sets are a level-wide constraint and not a book-wide one.** **B2 declares 12 phrasal verbs and 9 word-formation pairs in every unit of Book 2 and 10–12 and 8–10 in Book 1, and no item is repeated in any of the 24 units.** ⚠ **The pre-check that enforces it must not truncate the list.** **A `sed` that strips at the first underscore drops the last item of every declared set, and two collisions reached a built unit that way** — `come down to` **and** `conform`, **both caught by `qa.sh` and not by the pre-check.** **Extract with `tr \'·\' \'\\n\'` and finish with `sort | uniq -d`.'));
 out.push(p('⚠ **`lines(N)` prints one rule, not N.** Consecutive identically-bordered empty paragraphs merge in the renderer, so a ruled writing block renders as white space with a **single** rule at its foot. `lib.js` is frozen and byte-identical across the A2, B1 and B2 trees, so this is the as-built behaviour of the whole series and must not be changed at one level. **A ruled writing block therefore reads as a blank page to any text-based page sweep** — read the page before it prints before trimming anything.'));
 
 L.build(out, process.argv[2], 'Proactive English · Series Bible · Syria Edition');

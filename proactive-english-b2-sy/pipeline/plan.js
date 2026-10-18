@@ -60,8 +60,8 @@ out.push(p('The mark architecture is the author\'s own and is carried over from 
 out.push(table(['Test', 'Where', 'Marks', 'Split', 'Pages (projected)'], [
   ['Mid-Book Test', 'after Unit 6', '60', 'Reading 20 · Writing 15 · Listening 15 · Speaking 10', '10–11 + key 8–9 · **measured 10 + 8**'],
   ['End-of-Book Test', 'after Unit 12', '100', '**as built: Reading and Use of English 40 · Writing 25 · Listening 25 · Speaking 10**', '14–15 + key 11–12 · **measured 14 + 10**'],
-  ['Mid-Book Test', 'after Unit 18', '60', 'as above', '10–11 + key 8–9'],
-  ['End-of-Book Test', 'after Unit 24', '100', 'as Book 1', 'use the measured Book 1 figures'],
+  ['Mid-Book Test', 'after Unit 18', '60', 'as above', '10–11 + key 8–9 · **measured 10 + 8**'],
+  ['End-of-Book Test', 'after Unit 24', '100', 'as Book 1', '14–15 + key 11–12 · **measured 15 + 11**'],
 ], [1.6, 1.3, 0.7, 3.4, 1.6], { headFill: C.navy }));
 [
   '**The Reading paper grows, because B2 First\'s Reading and Use of English has seven parts** where Preliminary has six and Key has five, and the End-of-Book Test carries **all seven**. ⚠ **The projected 30/30/20/20 split was not the one built.** The paper weights follow Cambridge\'s own: **40 · 25 · 25 · 10**, which puts the marks where the course\'s own hours are and makes a candidate\'s percentage comparable with a real B2 First result. The total is unchanged at 100. The Mid-Book split is as projected.',
@@ -107,13 +107,14 @@ out.push(h2('5 · Word counts, text lengths and the page budget'));
 out.push(p('Series Bible §4 fixes word counts per book and steps them up between books. The first four columns are **measured from the built books**; the last two are the proposal.'));
 out.push(table(['', 'A2 B1', 'A2 B2', 'B1 B1', 'B1 B2', 'B2 Book 1', 'B2 Book 2'], [
   ['Guided writing (Stage 6)', '≥25', '≥35', '≥50', '≥60', '**≥80**', '**≥100**'],
-  ['Free writing (Stage 7)', '35–60', '60–100', '100–140', '140–180', '**180–220**', '**200–260**'],
-  ['Model text (Stage 5)', '45–100', '100–180', '180–260', '250–350', '**350–480**', '**420–560**'],
-  ['Main dialogue, turns', '10–12', '10–14', '12–16', '14–18', '**16–20**', '**16–22**'],
+  ['Free writing (Stage 7)', '35–60', '60–100', '100–140', '140–180', '**180–220**', '**180–220 (measured)**'],
+  ['Model text (Stage 5)', '45–100', '100–180', '180–260', '250–350', '**350–480**', '**350–480 (measured)**'],
+  ['Main dialogue, turns', '10–12', '10–14', '12–16', '14–18', '**16–20**', '**16–20 (measured)**'],
   ['Tracks per unit', '15', '14', '15', '15', '**15**', '**15**'],
-  ['SB pages per unit', '31', '31–33', '35–38', '38–40', '**46–48 (measured)**', '**47–50**'],
-  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–34 (measured)**', '**30–35**'],
+  ['SB pages per unit', '31', '31–33', '35–38', '38–40', '**46–48 (measured)**', '**45–47 (measured)**'],
+  ['AK pages per unit', '17–18', '18–22', '22–30', '29–31', '**29–34 (measured)**', '**29–34 (measured)**'],
 ], [2.0, 0.9, 0.9, 0.9, 0.9, 1.2, 1.2], { headFill: C.navy }));
+out.push(N('**Measured against the delivered Book 2, and this is the one place where the plan was wrong and the book was right.** **Four of the six Book 2 figures above were projected as a step up from Book 1 and all four came back identical to Book 1.** **Free writing stayed at 180–220, the model text at 350–480, the dialogue at 16–20 turns, and the answer key at 29–34 pages.** ⚠ **The reason is the examination and it should have been obvious in the planning.** **B2 First asks for 140–190 words in both writing parts and does not ask for more in the second year of a course** — **so a Book 2 that wrote to 200–260 would have been training above the paper for no reason, and the Part 2 tasks across the whole series are 180–220 for exactly that reason.** **The two figures that did move are the ones not fixed by the exam: the Student\'s Book came in at 45–47 pages against a projected 47–50, because Book 2 carries no front matter, and the seven-part reading rotation is the same length in both books.** **The rule to carry to C1: step up only the figures the exam does not fix, and check which those are before projecting any of them.**'));
 out.push(p('The free-writing band is set by the exam and not invented: B2 First asks for **140–190 words** in each of its two parts, so Book 1 trains to 180–220 and Book 2 to 200–260, which leaves a margin above the exam rather than sitting exactly on it. The same discipline set B1\'s band against Preliminary\'s 100.'));
 out.push(N('**The page count follows the word count, not more stages.** The cycle is locked at 13 stages and 90 minutes, so a B2 unit is longer than a B1 unit only because its texts are longer and because x.7 carries a seven-part reading rotation instead of a six-part one. The two page-count levers are now three, and the third was learned on B1: an SB cycle must fit its budget — measure per page with `pdftotext -f N -l N | grep -c "[A-Za-z]"` — and then read the spread. A page under about twenty counted lines usually means an unsplittable box has **jumped**; a page with only two to five counted lines is **either** a genuinely blank page, where a cycle ended exactly at a page boundary and the next page break pushed past it, **or** a correct ruled writing block, which the line counter cannot see. Always read the preceding page before trimming. Trimming early in a cycle does not collapse its tail: take 12–15 counted lines out of the cycle whose tail page is smallest, and expect a second, deeper pass where a page is genuinely blank.'));
 
