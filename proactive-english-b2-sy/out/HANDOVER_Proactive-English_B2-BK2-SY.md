@@ -33,7 +33,7 @@ question in §10.
 | artefact | pp | file |
 | --- | --- | --- |
 | Plan and blueprint (both books) | 26 | `PE-B2-SY_PLAN_and_Blueprint.docx` |
-| Units 13–24 Student's Book | 46 · 45 · 46 · 46 · 47 · 45 · 46 · 46 · 45 · 46 · 46 · 47 | `PE-B2-BK2-SY_UnitNN.docx` |
+| Units 13–24 Student's Book | 46 · 45 · 46 · 46 · 47 · 45 · 46 · 46 · 45 · 46 · 46 · 47 | `PE-B2-BK2-SY_UnitNN_StudentsBook.docx` |
 | Units 13–24 Answer Key | 30 · 31 · 29 · 34 · 34 · 31 · 32 · 32 · 31 · 30 · 31 · 29 | `PE-B2-BK2-SY_UnitNN_AnswerKey.docx` |
 | Mid-Book Test + key | 10 + 8 | `PE-B2-BK2-SY_MidBookTest[_Key].docx` |
 | End-of-Book Test + key | 15 + 11 | `PE-B2-BK2-SY_EndOfBookTest[_Key].docx` |
