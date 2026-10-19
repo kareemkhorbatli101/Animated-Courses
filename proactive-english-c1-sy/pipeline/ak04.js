@@ -46,7 +46,7 @@ out.push(S('Stage 4 · Your turn (sample)'));
 out.push(SAMPLE([
   '**a** _**My open decision: whether to move the stock count to a Sunday. Fourteen months.**_',
   '_**A** move it to Sunday. Cost: four people at overtime. Condition: the goods-in door can be opened on a Sunday — **false today**, the key is held by a department that does not work weekends._',
-  '_**B** close an hour early on a Thursday. Cost: about an hour of trade. Condition: nothing._   _**C** count in two halves. Cost: nothing in money, two weeks of disruption. Condition: the system can hold a half-count — **false today**._',
+  '_**B** close an hour early on a Thursday. Cost: about an hour of dispensing. Condition: nothing._   _**C** count in two halves. Cost: nothing in money, two weeks of disruption. Condition: the system can hold a half-count — **false today**._',
   '_**D** bring in an outside firm. Cost: about two million a year. Condition: a signed-off procedure, which does not exist._   _**E** carry on as we are. Cost: about eleven hours of unpaid overtime a month and two counts in three years that were wrong._',
   '⚠ _**Three of the five conditions are false today.** And the decision has been open fourteen months because every meeting has argued about A against D, which are the two whose conditions are false._',
   '**b** _(my partner\'s four questions)_ _What would opening the door on a Sunday actually need? · What does the eleven hours cost in a year? · Which of the two things D gives us matters here? · What does B rule out?_ ⚠ _**None of them was about me and none of them rose at the end.** The two I asked that did rise were both_ **do you think** _questions._',
@@ -60,17 +60,17 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **The task was to put a cost and a condition against each of five options and to decide nothing**; **the note is the material for the governorate\'s decision on 2 December.**   **2** **B\'s condition is false on four days of five** _(the funded provision is running)_ **and D\'s is false for the same reason as A\'s** _(nobody to answer a telephone on a Saturday)_; **D is _A with a telephone attached_ because it needs the same Saturday person that A needs.**   **3** **Nothing, until 2 December** — ⚠ **because a preference stated today will be the only thing anybody remembers of the note.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**NOTE OF THE MEETING OF 11 DECEMBER** · _five options, no decision_ · _to the four who were there_ · **R. Haddad**',
+  '**NOTE OF THE MEETING OF 11 DECEMBER** · _five options, no decision_ · _to the four who were there_ · **N. Ajouz**',
   '**Nothing was decided and that was the instruction.** **The meeting had five options and sixty minutes, and its task was to put a cost and a condition against each.** **The decision is for the area manager on 6 January.**',
   '**A — move the stock count to a Sunday.** **Cost: four people at overtime, about three hundred thousand pounds a count.** ⚠ **Condition: that the goods-in door can be opened on a Sunday, and the key is held by a department that does not work weekends.**',
-  '**B — close an hour early on a Thursday.** **Cost: about an hour of trade, which the tills put at ninety thousand.** **Condition: none, which is true of no other option here.**',
+  '**B — close an hour early on a Thursday.** **Cost: about an hour of dispensing, which the tills put at ninety thousand.** **Condition: none, which is true of no other option here.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 284 words)'));
 out.push(SAMPLE([
-  '**NOTE OF THE MEETING OF 11 DECEMBER** · _five options, no decision_ · _to the four who were there and to the area manager_ · **R. Haddad**',
+  '**NOTE OF THE MEETING OF 11 DECEMBER** · _five options, no decision_ · _to the four who were there and to the area manager_ · **N. Ajouz**',
   '**Nothing was decided and that was the instruction.** **Five options, sixty minutes, and a cost and a condition against each.** **The decision is for the area manager on 6 January and this note is the material for it.**',
   '**A — the count on a Sunday.** **Cost: four people at overtime, about three hundred thousand a count.** **Condition: a goods-in door that opens on a Sunday, and the key is held by a department that does not work weekends.**',
-  '**B — closing an hour early on a Thursday.** **Cost: about ninety thousand in trade, from the tills.** **Condition: none.**',
+  '**B — closing an hour early on a Thursday.** **Cost: about ninety thousand in dispensing, from the tills.** **Condition: none.**',
   '**C — counting in two halves.** **Cost: nothing in money and a fortnight of disruption.** **Condition: that the system will hold a half-count, and it will not without a change we have not costed.**',
   '**D — an outside firm.** **Cost: about two million a year.** **Condition: a signed-off counting procedure, which does not exist and would take a month to write.**',
   '**E — carrying on.** **Cost: about eleven hours of unpaid overtime a month, and two counts in three years that had to be done again.** ⚠ **This is the only option that is already running and the first time it has been written down with a figure.**',
@@ -130,14 +130,14 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **The number of pupils seen individually in form period fell from about nineteen a week to about eleven and has stayed at eleven for nine weeks**; **no figure from the first lesson changed at all, and they looked.**   **2** **The staggered arrival window** — **the better answer** — **and it needs a second member of staff at the gate from ten to eight until twenty past, five mornings a week, about two hundred and ten hours a year.**   **3** **He is not claiming that the eleven will go back to nineteen**; ⚠ **he undertakes to count again at half term and publish the figure whichever way it goes.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**MAZZEH BRANCH** · _to the four supervisors; copied to the area manager_ · **6 January**',
-  '**The count moves to a Thursday evening from the second week of January.** **The shop closes at seven instead of eight on that Thursday only.** **Nothing else in the week changes.**',
+  '**MEZZEH BRANCH PHARMACY** · _to the four supervisors; copied to the area manager_ · **6 January**',
+  '**The count moves to a Thursday evening from the second week of January.** **The branch closes at seven instead of eight on that Thursday only.** **Nothing else in the week changes.**',
   '**Why the Thursday and not the Sunday.** **The Sunday count is the better answer and the goods-in door cannot be opened on a Sunday.** ⚠ **And the figure that decided it: the Thursday hour costs about ninety thousand in trade, against three hundred thousand of overtime for a Sunday, and the Sunday figure does not include the key.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 279 words)'));
 out.push(SAMPLE([
-  '**MAZZEH BRANCH** · _to the four supervisors; copied to the area manager_ · **6 January**',
-  '**The stock count moves to Thursday evening from the second week of January.** **The shop closes at seven on that Thursday and at eight on every other day.** **Nothing else changes, and the January count is the first one.**',
+  '**MEZZEH BRANCH PHARMACY** · _to the four supervisors; copied to the area manager_ · **6 January**',
+  '**The stock count moves to Thursday evening from the second week of January.** **The branch closes at seven on that Thursday and at eight on every other day.** **Nothing else changes, and the January count is the first one.**',
   '**Why Thursday and not Sunday.** **The Sunday count is the better answer and I am not proposing it.** **The hour on a Thursday costs about ninety thousand pounds in trade, from the tills for the last eleven Thursdays.** ⚠ **A Sunday count costs about three hundred thousand in overtime and needs a goods-in door that opens on a Sunday, and the key is held by a department that does not work weekends.**',
   '**What we are discarding, and with most regret.** ⚠ **The Sunday count, and what would have to change is one thing and not two: a key.** **If the key is released, the Sunday count is better than the Thursday on every figure I have and I shall propose it that week.**',
   '**The options nobody asked about.** **An outside firm** was discarded because it needs a signed-off counting procedure that does not exist. **Counting in two halves** was discarded because the system will not hold a half-count.',
@@ -150,7 +150,7 @@ out.push(SAMPLE([
   '⚠ **The reader I am being: a Thursday evening supervisor, who loses an hour of her own and gains nothing.**',
   '**Criterion: the discard with exactly what would have to change.** ✓ _"a key"_ — **one thing, and I know who holds it.**',
   '**Criterion: the cost of doing nothing, with a figure.** ✗ ⚠ **There is no figure anywhere for carrying on as we are.** _The eleven hours a month of unpaid overtime are mine and they are not in this letter._',
-  '**What I would do about it as that reader:** _I should read it as a letter about trade and not about us, and I should mention that in the room on Thursday._',
+  '**What I would do about it as that reader:** _I should read it as a letter about takings and not about us, and I should mention that in the room on Thursday._',
 ]));
 out.push(S('Stage 7R · Share'));
 out.push(A('One student reads a decision and then stops for twenty seconds. ⚠ **Time it in front of the room with a watch on the board if you have one.** **Twenty seconds in public is much longer than twenty seconds in a pair and one or two students will not manage it, which is the demonstration.** **Then Mr Tayara\'s sentence: _a discard you have not written down is a discard nobody can tell from an oversight._** **That is the sentence the cycle ends on and it is the one to put in their notebooks.**'));
@@ -200,13 +200,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **_Bolts should be inspected before installation_** — **and the clause as drafted produces a required record of an inspection that is not required**, which is the combination he has seen three times: **the record existed and the bolts were wrong.**   **2** **About ninety minutes a frame, sixteen hours on a job of eleven frames**; ⚠ **and he does not believe cost is the reason for _should_** — **he thinks nobody has ever costed it, which he calls a different and smaller problem.**   **3** **He is not proposing that the inspection be witnessed**, that being a real cost on every frame; ⚠ **and if the office wants it, the threshold must be a job size and not a frame.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _on paragraph 4.2 of the dispensing procedure_ · **12 December**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _on paragraph 4.2 of the dispensing procedure_ · **12 December**',
   '**Paragraph 4.2 contains four modal verbs and two of them work.** **_The pharmacist shall record the batch number_ is an obligation.** **_Returns may be held in the quarantine cupboard_ is a permission.** ⚠ **_Sheets should be checked against the prescriber\'s date_ is neither, and it is the sentence the whole paragraph is understood to be about.**',
   '**What the paragraph produces in practice.** **I have worked to it for six years.** **In that time I have seen eleven dispensings made against superseded sheets, seven of them involving a dose change** — **and the batch numbers were recorded in all eleven.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 286 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _on paragraph 4.2 of the dispensing procedure_ · **12 December**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _on paragraph 4.2 of the dispensing procedure_ · **12 December**',
   '**Paragraph 4.2 contains four modal verbs and two of them work.** **_The pharmacist shall record the batch number_ is an obligation.** **_The record is to be signed at the end of each shift_ is an obligation.** **_Returns may be held in the quarantine cupboard_ is a permission.** ⚠ **_Sheets should be checked against the prescriber\'s date_ is neither, and it is the sentence everybody believes the paragraph is about.**',
   '**What the paragraph does in practice.** **Six years on this rota.** **Eleven dispensings against superseded sheets in that time, seven of them involving a dose change, and the batch number was recorded in all eleven.** ⚠ **The paragraph as drafted requires the recording and not the checking**, and the record is a complete account of eleven dispensings that should not have happened.',
   '**What it would cost to write _shall_.** **The check is a glance at a date and it is already made by everybody on the rota.** **I have timed it: about four seconds.** ⚠ **It would cost nothing, and I do not think cost is the reason the word is _should_.** **I think the sentence was written to describe good practice and has been read for six years as a requirement, which is a different problem.**',
@@ -268,17 +268,17 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **The time, and whether the first sample had already gone to the laboratory** — **and both go in a space that already exists on the admissions sheet, four lines down.**   **2** **If the answer in most cases is _the first sample had gone and I could not get a pre-antibiotic second one_, his advice is wrong**; ⚠ **he undertakes to write and withdraw it.**   **3** **His original note said _a second sample should be taken_, which named no decider**; **it was followed in thirty-one cases and ignored in ten with no reason recorded for any of them** — ⚠ **so the three years of records cannot now answer the question they were kept for.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD** · _to the branch pharmacists_ · _monthly reconciliation_ · **14 December**',
+  '**N. AJOUZ** · _to the branch pharmacists_ · _monthly reconciliation_ · **14 December**',
   '**I would reconcile the stock on the last working day of the month.** **The decision is the branch pharmacist\'s and nothing in this note changes that.** ⚠ **What I should want to know, in the months where it is not done, is whether the quarantine cupboard had been cleared and whether a locum was on.**',
   '**There is a line for both on the back of the count sheet** and it is the reason I am writing rather than changing the procedure.',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 281 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the four branch pharmacists; copied to the directorate_ · _monthly reconciliation_ · **14 December**',
+  '**N. AJOUZ · PHARMACIST** · _to the four branch pharmacists; copied to the directorate_ · _monthly reconciliation_ · **14 December**',
   '**I would reconcile the stock on the last working day of each month.** **The decision is the branch pharmacist\'s and this note does not change that.** ⚠ **What I should want to know, in the months where it is not done, is two things: whether the quarantine cupboard had been cleared that week, and whether a locum was on.** **There is a line for each on the back of the count sheet.**',
   '**Why I am asking, with the figure.** **The reconciliation was not done in four months of last year.** **In two of those four we were short at the next count by amounts that were never explained, and in the other two we were not.** ⚠ **I cannot tell you whether the reconciliation prevents the shortfall**, and four months is not a figure anybody should act on.',
   '**What I am not saying.** **I am not saying the four months were anybody\'s failure.** **Two of them were August and the branch had one pharmacist for six weeks**, in which case a reconciliation was not available to anybody. **That is two of the four accounted for and two not.**',
-  '**What it costs.** **About two hours, and it has to be two hours with the cupboard open and the shop shut.** ⚠ **On the last working day of a month that is not nothing, and I should rather be told that than find out from a count.**',
+  '**What it costs.** **About two hours, and it has to be two hours with the cupboard open and the dispensary closed.** ⚠ **On the last working day of a month that is not nothing, and I should rather be told that than find out from a count.**',
   '**And one thing that is mine.** **My own sentence six years ago was _stock should be reconciled monthly_, which named nobody.** ⚠ **It was ignored in four months and I have no reason for any of the four, because the sentence gave nobody anything to tell me.**',
 ]));
 out.push(A('**281 words, the decider named in the first three lines, two facts asked for with the place they are recorded, a figure, a refused claim, the cost acknowledged from the reader\'s side, and the writer\'s own fault at the end.** ⚠ **The sentence that earns the band is _the sentence gave nobody anything to tell me._** **Nine words, and it is the cycle\'s whole thesis said by the person who paid for it.**'));
@@ -287,7 +287,7 @@ out.push(SAMPLE([
   '⚠ **The reader I am being: a branch pharmacist in August, alone, reading this at the end of a shift.**',
   '**Criterion: the decider named, in the same sentence.** ✓ _"The decision is the branch pharmacist\'s."_ — **and I can now say no and say why.**',
   '**Criterion: two facts asked for, and where they go.** ✓ _The cupboard and the locum, on the back of the count sheet._',
-  '**Criterion: the cost acknowledged.** ✓ ⚠ _"two hours with the cupboard open and the shop shut"_ — **as that reader this is the sentence that makes me answer at all**, because it is my afternoon and somebody has counted it.',
+  '**Criterion: the cost acknowledged.** ✓ ⚠ _"two hours with the cupboard open and the dispensary closed"_ — **as that reader this is the sentence that makes me answer at all**, because it is my afternoon and somebody has counted it.',
 ]));
 out.push(S('Stage 7R · Share'));
 out.push(A('One student reads advice twice, once flat and once in the voice of a superior. ⚠ **The room says which one they would answer.** **The flat one, every time** — **and the class should be asked why, because the answer is not politeness: advice delivered downwards does not invite a reply, so the ten who did not take it have nothing to say and nobody finds out anything.** **Then Dr Qabbani\'s sentence to end on: _I wrote a sentence that could only be obeyed or disregarded._**'));
@@ -336,13 +336,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **In the first words of the first sentence** — _on the forty-one bolt positions I was able to reach on 7 August 2026_ — **and it contains a count (forty-one), a date (7 August) and the boundary of his own act (_I was able to reach_).**   **2** **It follows that the frame does not meet the specification it was built to**; ⚠ **it does not follow that the frame will fail**, and he says so and says that the sentence is general knowledge and not a finding of his, because he has not done the calculation.   **3** **The nine unmeasured positions if any reads 15 or over; the file copy of the requisition if it reads M12; and a calculation on the installed sizes** — ⚠ **and the third would not change the specification finding, only what anybody decides to do about it.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _report for the directorate\'s inspection file_ · **16 December**',
+  '**N. AJOUZ · PHARMACIST** · _report for the directorate\'s inspection file_ · **16 December**',
   '**Of the one hundred and four dispensings recorded in October 2026, the only month I examined, eleven were made against superseded sheets and seven of those involved a dose change.** **The September and November sheets were not retrieved and were not examined by me at any time.** **I have signed no reconciliation for this period.**',
   '**What I examined, and how.** **The October count sheets and the prescriber\'s dated list, side by side, on 11 and 12 December.** **Each dispensing checked once and the discrepancies checked twice.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 288 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _report for the directorate\'s inspection file_ · **16 December**',
+  '**N. AJOUZ · PHARMACIST** · _report for the directorate\'s inspection file_ · **16 December**',
   '**Of the one hundred and four dispensings recorded in October 2026, the only month I examined, eleven were made against superseded sheets and seven of those involved a dose change.** **The September and November records exist and were not examined by me.** **I have signed no reconciliation for any month in this period.**',
   '**What I examined, and how.** **The October count sheets against the prescriber\'s dated list, on 11 and 12 December, each dispensing checked once and each discrepancy checked twice.** **Two of the eleven were checked a third time with the prescriber on the telephone.**',
   '**What I did not examine, and this list is complete as at today.** **The September and November sheets.** **The quarantine cupboard log.** **The locum rota, which would say who was on for four of the eleven.** ⚠ **And the electronic record, which I have no access to and did not ask for.**',
@@ -404,13 +404,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **A count, a period, a proportion and two consequences — and no ask of any kind.** **The ask is in the second paragraph, once, and stated to be the whole of it.**   **2** **Out of the health office\'s own 2025 schedule** — **an accident attendance at about nine thousand pounds and an outpatient attendance at about three thousand, twelve thousand for two of nineteen** — ⚠ **and she refuses to claim that the other seventeen behaved like the two.**   **3** **Amending the rota back to half past twelve**, which is the reader\'s own and costs nothing; ⚠ **and she undertakes to withdraw the proposal if it is done.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**TO THE DIRECTORATE** · _October dispensing sheets_ · **L. Haddad** · **18 December**',
+  '**TO THE DIRECTORATE** · _October dispensing sheets_ · **N. Ajouz** · **18 December**',
   '**Eleven of the one hundred and four dispensings recorded in October were made against a superseded sheet, and seven of the eleven involved a dose change.** **Nine of the eleven were dispensed from a printed sheet and two from the screen.** **Eleven is about one in nine.**',
   '**What I am asking for.** **One printer on the dispensing bench that prints the sheet at the moment of dispensing, at about two hundred thousand pounds.** ⚠ **That is the whole of the ask and it is not repeated anywhere below.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 291 words)'));
 out.push(SAMPLE([
-  '**TO THE DIRECTORATE** · _October dispensing sheets_ · **L. Haddad** · **18 December**',
+  '**TO THE DIRECTORATE** · _October dispensing sheets_ · **N. Ajouz** · **18 December**',
   '**Eleven of the one hundred and four dispensings recorded in October were made against a superseded sheet, and seven of the eleven involved a dose change.** **Nine of the eleven came from a printed sheet and two from the screen.** **That is about one in nine of a month\'s dispensing.**',
   '**What I am asking for.** **A printer on the dispensing bench that prints the sheet at the moment of dispensing, at about two hundred thousand pounds and one afternoon of installation.** ⚠ **That is the whole of the ask and it is not repeated below.**',
   '**What the directorate is paying now, which is the figure nobody has written down.** **Two of the eleven produced a query that reached the directorate\'s own incident line.** **An incident line query is costed at about forty thousand pounds in your 2025 establishment return, by the half-day it takes.** **That is eighty thousand for two of eleven.** ⚠ **I do not know that the other nine produced anything at all and I am not going to claim that they did.**',

@@ -59,14 +59,14 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **Eight or nine, depending how the dates are counted: fifty-six positions, two visits with dates, fifty-five readings in a range, one at 15.9, its position, the specification, and the absence of a certificate.** **What has been removed from round them is every frame and every justification of the method.**   **2** **It dissolves an apparent contradiction** — **the delivery note and the supplier\'s letter can both be true if the order was amended after a part delivery** — ⚠ **and it is not a finding because one bolt cannot establish it and the file copy would.**   **3** **The request to leave the bolt sizes out, and his refusal**, ⚠ **recorded because an insurer reading it in eighteen months will want to know whether anything was withheld.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _October dispensing review, for the inspection file_ · **4 February**',
+  '**N. AJOUZ · PHARMACIST** · _October dispensing review, for the inspection file_ · **4 February**',
   '**On the one hundred and four dispensings recorded in October 2026 — the only month I examined — eleven were made against a superseded sheet.** **Seven of the eleven involved a dose change.** **I have signed no reconciliation for this period.**',
   '**Method.** **October count sheets against the prescriber\'s dated list, 11 and 12 December, each dispensing checked once and each discrepancy twice.**',
   '**Not examined, and this list is complete.** **September and November. The quarantine cupboard log. The locum rota. The electronic record, to which I have no access.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 279 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _October dispensing review, for the inspection file_ · **4 February**',
+  '**N. AJOUZ · PHARMACIST** · _October dispensing review, for the inspection file_ · **4 February**',
   '**On the one hundred and four dispensings recorded in October 2026, the only month I examined, eleven were made against a superseded sheet and seven of those involved a dose change.** **Nine of the eleven came from a printed sheet and two from the screen.** **I have signed no reconciliation for any month in this period.**',
   '**Method.** **The October count sheets against the prescriber\'s dated list, on 11 and 12 December.** **Each dispensing checked once, each discrepancy twice, and two of the eleven checked a third time with the prescriber by telephone.**',
   '**Not examined, and this list is complete.** **September and November.** **The quarantine cupboard log.** **The locum rota, which would name the person on duty for four of the eleven.** **The electronic record, to which I have no access and which I did not ask for.**',
@@ -132,13 +132,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **It names the thing in every sentence that decides anything** — _the Saturday rota is to be amended_, _the vehicle timetable is not to be amended_ — **where the 6 January minute had one sentence covering both with _the latter_ in it.**   **2** **No minute will carry _the latter_, _the former_, _such_ or _the same_ in an operative paragraph**; ⚠ **the words are not forbidden in a narrative paragraph, and an operative paragraph is one that requires, permits or forbids something.**   **3** **That neither district wrote to ask**, ⚠ **and it is there so that nobody reads paragraph 4 as the whole of the remedy.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**MINUTE OF THE PHARMACY MEETING OF 3 FEBRUARY** · _to the four branches_ · **L. Haddad**',
+  '**MINUTE OF THE PHARMACY MEETING OF 3 FEBRUARY** · _to the four branches_ · **N. Ajouz**',
   '**1. The printed sheet and the screen flag.** **Both were discussed.** **The printed sheet is to carry the time of printing in its header from 1 March.** **The screen flag is not to be changed and no branch is to request a change to it.**',
   '**2. What the change covers.** **The header, and only the header.** **It applies to every sheet printed at a dispensing bench and is to be reviewed on 1 June.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 282 words)'));
 out.push(SAMPLE([
-  '**MINUTE OF THE PHARMACY MEETING OF 3 FEBRUARY** · _to the four branches; copied to the directorate_ · **L. Haddad**',
+  '**MINUTE OF THE PHARMACY MEETING OF 3 FEBRUARY** · _to the four branches; copied to the directorate_ · **N. Ajouz**',
   '**1. The printed sheet and the screen flag.** **Both were discussed.** **The printed sheet is to carry the time of printing in its header from 1 March.** **The screen flag is not to be changed, and no branch is to ask for a change to the screen flag.**',
   '**2. What the change covers.** **The header, and only the header.** **It applies to every sheet printed at a dispensing bench, and is to be reviewed on 1 June.** **Branches that print from the office machine are not covered and are to go on as they are.**',
   '**3. The note of 14 January.** **It read: _the printed sheet and the screen flag were both considered; the latter is to be amended._** **Two branches acted on it and they acted in opposite directions.** **Both readings were available from the sentence, and the sentence was written in this office.**',
@@ -276,14 +276,14 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **The cost of the present arrangement, the refusal that went with it, and the table of the eleven Saturdays** — **and of the second she says it has gone with the figure it qualified, which is the right order to lose them in and the only reason she is content to lose either.**   **2** **The table**, ⚠ **because it changes what anybody would propose, where the figure and the refusal change only how much they believe it** — **and the figure can live on the sheet behind.**   **3** **She cut from the end because the end was over the page**, ⚠ **and she has done that for eleven years and has never before written down what it cost.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD** · _to the directorate_ · _October review, two-page version_ · **8 February**',
+  '**N. AJOUZ** · _to the directorate_ · _October review, two-page version_ · **8 February**',
   '**The two-page version is attached and two things are out of it.**',
   '**One. The September and November comparison.** **It was two sentences and four figures.** **The October figure is now in paragraph 1 and stands alone.** **The working is on the sheet behind this note.**',
   '**Two. The list of what I did not examine.** **It was four items.** ⚠ **It is not anywhere in the two-page version and I should rather it were: a report with no edges on it is a claim about everything.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 280 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _October dispensing review, two-page version_ · **8 February**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _October dispensing review, two-page version_ · **8 February**',
   '**The two-page version is attached and three things are out of it.** **The long version was five pages and nine hundred words; the attached is four hundred and twenty.**',
   '**One. The September and November comparison.** **Two sentences and four figures.** **The October figure is now in paragraph 1 and stands alone.** **A reader who has only October will ask whether eleven is a month or a pattern, and the two-page version does not answer it.**',
   '**Two. The list of what I did not examine.** **Four items: the two other months, the cupboard log, the locum rota and the electronic record.** ⚠ **It is not in the attached version at all and I should rather it were.** **A report with no edges on it is read as a claim about everything.**',
@@ -347,13 +347,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **The count — thirty-one and ten — and the _does not exclude_ about the ten.** **The first because nobody can strengthen it, and the second because a committee with only the count will act on it.**   **2** **Counts will survive any summary anybody writes and _suggests_ and _is consistent with_ will not**; ⚠ **and he names the sentence the minute will contain: that the second sample reached a diagnosis in seven of eleven cases, which is stronger than anything in paragraph 3.**   **3** **He wrote _shows_ in 2024 for a count of eleven**, ⚠ **and has not withdrawn it because withdrawing it would draw attention to a conclusion that happens to be right.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _October dispensing: summary and paper_ · **10 February**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _October dispensing: summary and paper_ · **10 February**',
   '**Summary.** **Of the one hundred and four dispensings recorded in October, eleven were made against a superseded sheet and seven of those involved a dose change.** **Nothing in the records excludes one of the eleven having reached a patient.** **Paragraphs 2 and 3 carry two further claims at lower strengths and neither is in this summary.**',
   '**What the summary keeps and why.** **The first sentence is two counts and nobody can strengthen it.** **The second is the weakest thing in the paper and it is here because a directorate that has only the counts will treat this as a filing matter.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 287 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _October dispensing: summary and paper_ · **10 February**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _October dispensing: summary and paper_ · **10 February**',
   '**Summary.** **Of the one hundred and four dispensings recorded in October 2026, eleven were made against a superseded sheet and seven of those involved a dose change.** **Nothing in the records excludes one of the eleven having reached a patient.** **Paragraphs 2 and 3 carry two further claims at lower strengths and neither is in this summary.**',
   '**What the summary keeps and why.** **The first sentence is two counts and cannot be strengthened by anybody who repeats it.** **The second is the weakest claim in the paper and is in the summary because a directorate holding only the counts will treat this as a filing matter.**',
   '**Paragraph 2, at full strength.** **Nine of the eleven came from a printed sheet and two from the screen.** **This suggests that the printed route is where the failure sits and it does not establish it**, nine being a small number and the screen route carrying about a fifth of the volume.',
@@ -415,13 +415,13 @@ out.push(S('Stage 5 · Read'));
 out.push(A('**1** ⚠ **Nine hundred and forty words, forty-one facts, list on page 2** — **and the other two claims are that the supplier correspondence and the 2024 comparison are not in it, and that three figures appear twice and are marked.**   **2** **_Is consistent with_ and _does not establish_**, ⚠ **and she says it does not exclude a January effect, the four districts being the only control anybody has.**   **3** **Six paragraphs with no fact in them**, ⚠ **four of which explained why the comparison is sound — which it either is or is not, and the committee can see the figures.**'));
 out.push(S('Stage 6 · Write with help (sample)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _October dispensing: report_ · **12 February**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _October dispensing: report_ · **12 February**',
   '**This report is four hundred and twenty words and carries twenty-two facts, listed overleaf.** **The September and November comparison and the printer-log figures are not in it.** **Two figures appear twice and both appearances of each are marked.**',
   '**The finding.** **Eleven of the one hundred and four October dispensings were made against a superseded sheet and seven involved a dose change.*** **Nine of the eleven came from a printed sheet.**',
 ]));
 out.push(S('Stage 7 · Write freely (sample, 283 words)'));
 out.push(SAMPLE([
-  '**L. HADDAD · PHARMACIST** · _to the directorate_ · _October dispensing: report_ · **12 February**',
+  '**N. AJOUZ · PHARMACIST** · _to the directorate_ · _October dispensing: report_ · **12 February**',
   '**This report is four hundred and twenty words and carries twenty-two facts, listed overleaf.** **The September and November comparison and the printer-log figures are not in it.** **Two figures appear twice and both appearances of each are marked with an asterisk.**',
   '**The finding.** **Eleven of the one hundred and four dispensings recorded in October 2026 were made against a superseded sheet, and seven of the eleven involved a dose change.*** **Nine of the eleven came from a printed sheet and two from the screen.**',
   '**What the comparison does and does not do.** **The system flags a superseding sheet on screen and not on paper.** **This is consistent with the printed route explaining the eleven and it does not establish it** — **nine is a small number, and the screen route carries about a fifth of the volume.**',
