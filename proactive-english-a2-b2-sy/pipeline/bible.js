@@ -3,16 +3,17 @@ const L = require('./lib');
 const { p, h1, h2, h3, sp, box, table, bullet, C } = L;
 const out = [];
 out.push(h1('Proactive English — Series Bible'));
-out.push(p('_Syria Edition · Version 1.2 · 18 October 2026 · Author: Mo (Mohamad Khorbatli)_', { color: '7F7F7F' }));
+out.push(p('_Syria Edition · Version 1.3 · 19 October 2026 · Author: Mo (Mohamad Khorbatli)_', { color: '7F7F7F' }));
 out.push(p('_Sections 1–6 are the A2 Syria Edition as first written. **Section 7 is the measured record across every level delivered so far** and supersedes any page or test estimate elsewhere in this document or in a level plan._', { color: '7F7F7F' }));
 
 out.push(h2('1. Series roadmap'));
 out.push(table(['Round', 'Level', 'Edition', 'Status'], [
   ['1', 'A2 (Books 1–2, 24 units)', 'Syria Edition', '**DELIVERED**'],
   ['2', 'B1 (Books 1–2, 24 units)', 'Syria Edition', '**DELIVERED**'],
-  ['3', 'B2 Book 1 (Units 1–12)', 'Syria Edition', '**DELIVERED** · Book 2 planned, not written'],
-  ['4', 'A2 (Books 1–2)', 'International Edition (same spine, new cast and setting)', 'Planned'],
-  ['5', 'C1 → C2', 'Syria, then International, per level', 'Planned'],
+  ['3', 'B2 (Books 1–2, 24 units)', 'Syria Edition', '**DELIVERED**'],
+  ['4', 'C1 Book 1 (Units 1–12)', 'Syria Edition', '**DELIVERED** · Book 2 planned, not written'],
+  ['5', 'A2 (Books 1–2)', 'International Edition (same spine, new cast and setting)', 'Planned'],
+  ['6', 'C1 Book 2, then C2', 'Syria, then International, per level', 'Planned'],
   ['—', 'ESP strands', 'Same function/grammar spine, swapped scenarios and ESP lexis', 'Planned'],
 ], [1, 3, 4, 3]));
 
@@ -83,6 +84,7 @@ out.push(table(['Level and book', 'Student\'s Book, per unit', 'Answer Key, per 
   ['B1 Book 2 (Units 13–24)', '**38–40**', '**29–31**', '489', '381'],
   ['B2 Book 1 (Units 1–12)', '**46–48**', '**29–34**', '584', '395'],
   ['B2 Book 2 (Units 13–24)', '**45–47**', '**29–34**', '577', '394'],
+  ['C1 Book 1 (Units 1–12)', '**45–50**', '**33–37**', '**593**', '**429**'],
 ], [1.9, 2.4, 1.5, 0.9, 0.9], { headFill: C.navy }));
 out.push(p('⚠ **Hold the band, do not aim at its midpoint.** A unit built to the middle of its band has been padded or trimmed against its own content, and both show.'));
 out.push(table(['Level and book', 'Mid-Book Test + key', 'End-of-Book Test + key', 'Marks', 'Paper split'], [
@@ -90,13 +92,19 @@ out.push(table(['Level and book', 'Mid-Book Test + key', 'End-of-Book Test + key
   ['B1 Books 1 and 2', '9 + 7 · 9 + 8', '**12 + 8** · **12 + 9**', '60 / 100', '30 · 30 · 20 · 20'],
   ['B2 Book 1', '10 + 8', '**14 + 10**', '60 / 100', '**40 · 25 · 25 · 10**'],
   ['B2 Book 2', '10 + 8', '**15 + 11**', '60 / 100', '**40 · 25 · 25 · 10**'],
+  ['C1 Book 1', '11 + 10', '**15 + 12**', '60 / 100', '**40 · 20 · 20 · 20**'],
 ], [1.9, 1.7, 1.9, 1.1, 1.5], { headFill: C.navy }));
 [
   '⚠ **Two corrections carried in from B1, which are the reason this section exists.** The B1 plan estimated both end tests at **10–11 pages**; the delivered tests are **12**, with keys of 8 and 9. And the B1 plan carried no measured page bands at all; the delivered ones are in the table above.',
   '⚠ **One correction carried in from B2.** The B2 plan projected the End-of-Book Test at 14–15 pages with a key of 11–12, and projected the paper split as 30·30·20·20. The delivered test is **14 with a key of 10**, and the split follows **Cambridge B2 First\'s own weighting, 40·25·25·10**, so that a candidate\'s percentage is comparable with a real result.',
   '**A test page is denser than a unit page**, because it carries more boxed material and less prose. This is why every projection built from unit density has over-estimated test length at every level, and it is the single reason to prefer a measurement to an estimate in this series.',
   '⚠ **The lesson of B2 Book 2, and it is the most useful thing in this section.** **Four of the six word-count bands projected for it were a step up from Book 1 and all four came back identical** — free writing, model length, dialogue turns and answer-key pages. **The reason is the examination: B2 First asks for 140–190 words in both writing parts and does not ask for more in the second year of a course.** **So step up only the figures the examination does not fix, and establish which those are before projecting any of them.** **The two that did move are the ones the examination says nothing about: the Student\'s Book band, because Book 2 carries no front matter, and the test length.**',
-  '**The paper split is not a house constant.** It follows the examination the level is anchored to — A2 Key and B1 Preliminary at 30·30·20·20, B2 First at 40·25·25·10 — and C1 Advanced will have its own. **Read the examination\'s own weighting before writing a test.**',
+  '⚠ **The C1 correction, and it is a different kind from B1\'s and B2\'s.** **The C1 plan projected the Student\'s Book at 45–49 and the band was widened twice, at Unit 4 and again at Unit 9, to 45–50.** **The Answer Key\'s projected 33–37 held for all twelve units without one amendment.** **The asymmetry is the finding: at C1 a page is priced in unsplittable blocks and not in words.** **About 250 words came out of Unit 9\'s audio script and the unit did not lose a page**, because `box()` is `cantSplit` and the closing vocabulary box takes a page of its own on any unit that has reached 49. ⚠ **Unit 9 was trimmed three times before the band moved.** **The Answer Key has no such closing block and its content is paragraphs, which is why its band never moved.** **At and above C1, project the Student\'s Book band a page wider than the arithmetic suggests, and do not gut a cycle to hit a projection.**',
+  '⚠ **Speaking doubles at C1 and it is forced, not chosen.** **Cambridge marks C1 Advanced by averaging five equally weighted components — Reading, Writing, Listening, Speaking and Use of English — and takes Reading and Use of English as one paper.** **That is 40 · 20 · 20 · 20.** **A Speaking paper worth a fifth of the whole cannot be four prompts and a rubric**: it needs four parts with their own materials — an interview frame with the follow-ups printed, three described photographs per candidate of which two are taken, a five-option prompt sheet, and five discussion questions each with the examiner\'s follow-up. **The C1 projection allowed for that cost and still over-estimated the paper by a page**, because Reading and Use of English at 40 marks fits eight parts in fewer pages than six parts at 24 did: **the per-part rubric is the fixed cost and the texts are shared.**',
+  '**Three structural counts became house figures at C1 and should be carried upwards.** ⚠ **Exactly eight `dlg()` per unit** — seven cycle dialogues and one audio script — **which is what holds a unit at seven cycles without an eighth creeping in.** ⚠ **Exactly six `pb()` per unit**, before x.1 to x.5 and before the unit check, and none before x.6 or x.7. ⚠ **Exactly ten `NOTE()` boxes per Answer Key**, which eleven of the twelve C1 keys needed a correction to reach; the repair is always to turn the examination-mechanics note into a paragraph inside the answer block, which is where a teacher looks for it anyway. **And every unit and key script must end with both `module.exports = out;` and the `require.main` build line** — without the second, the build writes no file and exits silently.',
+  '⚠ **C1 adds a third declared lexis line and the rule behind it is worth having at every level above B2.** **Two obvious answers to the cross-level repeat question are both wrong**: forbidding every A2 and B1 item pushes a level towards the rare and the ornamental, and permitting repeats freely lets a unit recycle last year\'s list. **The C1 rule is three-part** — no repeat inside the level\'s own 24 units; no repeat against the level immediately beneath; **and A2 or B1 items permitted only on a third declared line of two or three items called _Back at C1_, each taught for a sense or register it did not then have.** _go through a door_ → _go through the correspondence file_. **The check runs in both directions and rejected items in four of the twelve units.** ⚠ **Run it before a cycle is written, not after.**',
+  '⚠ **The mediation-ordinal fault has now shipped at two levels in a row and is the series\' most reliable continuity defect.** **B2 shipped four Student\'s Books and three keys with wrong ordinals; C1 shipped one Student\'s Book and eight keys, with three keys all claiming to be the seventh and two claiming to be the last.** **The cause is the same both times: each x.7 names its own place in a series, and a unit written out of order inherits its neighbour\'s number.** **Grep the ordinals across the whole book whenever a unit is added to a series, and again before the book is closed.**',
+  '**The paper split is not a house constant.** It follows the examination the level is anchored to — A2 Key and B1 Preliminary at 30·30·20·20, B2 First at 40·25·25·10, C1 Advanced at 40·20·20·20. **Read the examination\'s own weighting before writing a test.**',
 ].forEach(t => out.push(bullet(t)));
 out.push(p('**Word counts and house figures, by level.** A2: guided ≥25 / ≥35 · free 35–60 / 60–100 · models 45–100 / 100–180. B1: guided ≥50 / ≥60 · free 100–140 / 140–180 · models 180–260 / 250–350 · dialogues 11–14 / 14–18 turns. **B2, both books: free 180–220 · models 350–480 · dialogues 16–20 turns · 4R reports 335–460 · writer\'s boxes 180–250 · 3R listener tasks 35–78 · 7R shares 55–88.** ⚠ **Book 2 held every one of these unchanged**, against a plan that projected a step up in four of them; see the note below.'));
 out.push(p('**Answer-key length tracks the `NOTE()` count** at every level. House range **7–10**; B1 Book 2 and the whole of B2, both books, were built at exactly **10**. Count in the **source**, never in the PDF, because a PDF sweep also matches the _Notes:_ lines inside answer commentary.'));
