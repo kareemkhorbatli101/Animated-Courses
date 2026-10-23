@@ -182,6 +182,14 @@ Latakia, a bank in Mezzeh, a customer's shop in Souq al-Hamidiyeh.
 | **Hala Mourad** | 27 | Latakia | customer service — **joins in Unit 13** | handles complaints and repairs; calm on the telephone |
 | **Mr Fouad Tarabishi** | — | Damascus | customer, owns a shop in Souq al-Hamidiyeh | orders monthly; pays cash; a long relationship |
 | **Ms Dima Shamsi** | — | Aleppo | supplier contact | the company buys its boxes and packaging from her |
+| **Fadi Saeed** | 31 | Jaramana | driver — **declared in Unit 10** | the small van and the lorry; writes his delivery notes in the yard at the end of the day |
+
+⚠ **Fadi was not in the plan.** He appears from Unit 1 in the Answer Key's sample answers
+as an invented learner ("Fadi Saeed, driver"), is named as the company's driver in Unit 6's
+delivery note, and by Unit 10 is speaking in a dialogue — at which point `qa.js` refused the
+unit, because the cast list is asserted and he was not on it. He is a good character and the
+usage was consistent across five units, so he is **added to the cast rather than removed from
+the book**, and recorded here. The harness caught him; the plan did not.
 
 **No clash with the existing casts**: the general A2 (Lina Haddad, Rami Khoury, Maya
 Nasser, Omar Darwish, Huda Saleh, Karim) and the ESP cybersecurity books (Maher, Nabil,

@@ -8,9 +8,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala',
+// The named cast, the generic speakers a skeleton uses, and the voices that are a
+// place rather than a person. Fadi joined in Unit 6 as the company's driver and was
+// speaking by Unit 10 without ever being written down — which is what this list is for.
+const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi',
               'Mr Tarabishi', 'Ms Shamsi', 'A', 'B', 'Man', 'Woman', 'Caller',
-              'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C'];
+              'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C',
+              'Clinic', 'Receptionist', 'Pharmacist', 'Teacher'];
 
 // per-unit house figures — asserted as COUNTS before anything measures contents
 const HOUSE = {
