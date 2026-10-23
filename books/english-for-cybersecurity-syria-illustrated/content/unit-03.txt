@@ -1,0 +1,461 @@
+# Unit 3 · Safe Working at the Desk — Passwords and Protection
+# Grammar: imperatives and sequencers.  Level: Upper A2.
+
+@U Unit 3: Safe Working at the Desk — Passwords and Protection
+@SUB English for Cybersecurity Personnel  ·  Level: Upper A2 (the course moves to Low B1 from Unit 6)  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Protections and Their Uses
+@IW Match the protections with their uses. One use is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Password
+2 | Screen lock
+3 | Antivirus
+4 | Backup
+5 | Update
+@END
+@LB2 Column B
+@COLB
+a | it hides your work when you leave your desk
+b | you use it to check the oil level
+c | it keeps a copy of your files in a safe place
+d | a secret word that opens your account
+e | it fixes faults in a program
+f | it watches for bad files on your machine
+@END
+
+@EX Warm-up: At Your Desk
+@IW Complete the sentences using the words in the word bank.
+@WB password    |  screen    |     backup    |    tidy
+@IG 1. Choose a long  ____________________  that nobody can guess.
+@IG 2. Lock your  ____________________  before you leave the desk.
+@IG 3. Check that the  ____________________  ran last night.
+@IG 4. Keep your desk  ____________________  , with no notes under the keyboard.
+
+@EX Warm-up: Reading About Safe Working
+@IW Read the text and choose the correct answer.
+@BX Safe working is the most important rule at a desk. First, choose a long password, and never write it on paper. Then lock your screen every time you stand up, even for a minute. Next, keep your desk tidy: no notes, no open files, no visitors behind you. Finally, if something looks strange on your machine, stop and tell the help desk. Never try to repair it yourself.
+@BI 1. What must you do first?
+@OP ○  A)  Nothing
+@OP ○  B)  Open your messages
+@OP ○  C)  Choose a long password
+@OP ○  D)  Call the manager
+@BI 2. When something looks strange on your machine, what must you do?
+@OP ○  A)  Repair it yourself
+@OP ○  B)  Turn the machine off and say nothing
+@OP ○  C)  Stop and tell the help desk
+@OP ○  D)  Ask a visitor
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Protection and Safe-Working Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Screen lock → the step that hides your work when you leave your desk.
+@LB Column A
+@COLA
+1 | Antivirus
+2 | Update
+3 | Passphrase
+4 | Clear desk
+5 | Visitor
+6 | Shoulder surfing
+7 | Report
+@END
+@LB2 Column B
+@COLB
+a | a long password made of several words
+b | a new version that fixes faults in a program
+c | a rule that leaves no papers or notes on the desk at night
+d | a spanner for the server
+e | somebody from outside who must be met and signed in
+f | it watches for bad files on your machine
+g | to tell the help desk what you have seen
+h | when somebody reads your screen over your shoulder
+@END
+@GL passphrase = a long password made of several words    ·    shoulder surfing = when somebody reads your screen over your shoulder
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 3.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR antivirus — AN-ti-vi-rus
+@PR passphrase — PASS-phrase
+@PR visitor — VI-si-tor
+@PR protect — pro-TECT
+@PR safety — SAFE-ty
+@PR report — re-PORT
+
+@EX Part 1: The Protections Table
+@IMG fig-03-1.png
+@CAP Figure 3.1  ·  The four protections every desk needs.
+@IN Complete the table. Write what each protection does and when to use it. (0. is done.)
+@TBL 2800,2900,3326
+Protection | Protects | When to use it
+* Screen lock | your open work | (example) every time you stand up
+Strong password |  | 
+Antivirus |  | 
+Backup |  | 
+@END
+@IT 0. Screen lock — your open work — every time you stand up.
+
+@EX Part 1: Everyday Protections
+@IN Match each protection with what it does. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Strong password
+2 | Screen lock
+3 | Antivirus
+4 | Clear desk
+5 | Backup
+@END
+@LB2 Column B
+@COLB
+a | it watches for bad files on your machine
+b | it stops somebody opening your account
+c | it puts out a fire
+d | it keeps a copy of your files in a safe place
+e | it hides your work when you leave
+f | it leaves nothing on the desk for a visitor to read
+@END
+
+@EX Part 1: Protection and Safe Working — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What does a passphrase do?
+@OP ○  A)  It cleans the disk
+@OP ○  B)  It makes a password long and hard to guess
+@OP ○  C)  It prints the records
+@OP ○  D)  It cools the machine
+@BI 2. What is a clear desk for?
+@OP ○  A)  Leaving nothing for a visitor to read
+@OP ○  B)  Turning screws
+@OP ○  C)  Checking the backup
+@OP ○  D)  Storing cables
+@BI 3. What does shoulder surfing mean?
+@OP ○  A)  Somebody takes your chair
+@OP ○  B)  Somebody cleans your screen
+@OP ○  C)  Somebody carries your machine
+@OP ○  D)  Somebody reads your screen from behind you
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB antivirus    |  update    |     visitor    |    report
+@IG 1. Run the  ____________________  so the program has no known faults.
+@IG 2. The  ____________________  found a bad file and stopped it.
+@IG 3. Always meet a  ____________________  at the door and sign them in.
+@IG 4. If you see something strange,  ____________________  it to the help desk.
+
+@EX Part 1: Write About Protections (short)
+@IN Write two or three sentences about the protections you use at your desk. Use three words from this unit.
+@LM Model — read this first:
+@BX At my desk I use a long passphrase of four words, and I never write it down. I lock my screen every time I stand up, even to take a cup of tea. The antivirus runs by itself, and the backup runs at night. If I see something strange, I report it to the help desk at once.
+
+@PART Part 2  ·  Grammar — Imperatives and Sequencers
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-03-2.png
+@CAP Figure 3.2  ·  Leaving your desk safely, step by step.
+@IN Read these rules from the office. Underline the verbs. Which words show the order of the steps?
+@BX First, save your work. Then lock your screen. Next, put your papers in the drawer. Finally, check that nobody is waiting behind you. Never leave your account open. Don’t write your password on paper. If you are not sure, ask the help desk.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+Imperative | base verb (no subject) | an order, a rule, an instruction | Lock your screen.
+Negative imperative | Don’t / Never + verb | a rule about what not to do | Never share your password.
+@END
+@BR Remember: Negative imperative = Don’t / Never + verb.  Use sequencers to show the order: First, Then, Next, Finally.
+@WO ✗ You lock your screen. (as a rule) → ✓ Lock your screen.   ✗ Not share your password. → ✓ Don’t share your password.
+@EX Part 2: Controlled Practice
+@IN Write the instruction as an imperative. (0. is done.)
+@IT 0. (lock) your screen. → Lock your screen.
+@IT 1. (not / write) your password on paper.
+@IT 2. (save) your work first.
+@IT 3. (not / open) a file from a message you did not expect.
+@IT 4. (report) a strange message to the help desk.
+@EX Part 2: Put the Steps in Order
+@IMG fig-03-3.png
+@CAP Figure 3.3  ·  Opening an account for a new worker.
+@IN Number these steps to open an account for a new worker. Use the safe order.
+@IT 0. Ask the manager to confirm the new worker’s name and job. — 1
+@IF ____  Give the account only the folders this job needs.
+@IF ____  Set a first password and ask the worker to change it.
+@IF ____  Write the new account on the account list.
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. You lock your screen when you leave.
+@IT 2. Not open a file from a strange message.
+@IT 3. First open the account, then ask the manager.
+@IT 4. Please to report the problem.
+@EX Part 2: Freer Practice
+@IN Write three desk rules for your office. Use imperatives (and one negative imperative).
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which is a correct instruction?
+@OP ○  A)  Lock your screen.
+@OP ○  B)  You locking your screen.
+@OP ○  C)  To lock your screen.
+@OP ○  D)  Your screen lock.
+@BI 2. Which order is safe and correct?
+@OP ○  A)  First open the account, then ask the manager.
+@OP ○  B)  First ask the manager, then open the account.
+@OP ○  C)  Open the account and tell nobody.
+@OP ○  D)  Never ask the manager.
+@IT → Harvest: you will see imperatives and sequencers again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: A Security Briefing
+@IT 🔊  Audio Track 3.2
+@IT Before you listen: what does a security officer say before new staff start work?
+@BX Nabil: Listen, everyone, before we start. First, always lock your screen when you stand up — every time, even for one minute. Second, never share your password, not with me and not with your manager. Third, don’t open a file from a message you did not expect; send it to the help desk and we will look at it. Fourth, keep your desk clear at night: no papers, no notes. And if you are ever not sure, stop and ask. Nobody here is angry about a question.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Nabil is giving a security briefing. — True
+@IF 1. You can share your password with your manager. ____
+@IF 2. You must lock your screen every time you stand up. ____
+@IF 3. The briefing happens every Monday. ____
+@IT Useful phrases: First, always…  ·  Never…  ·  If you are not sure…
+@EX Part 3: Where Is the Rule?
+@IT 🔊  Audio Track 3.3
+@IT Before you listen: where does an office keep its written rules?
+@BX Tarek: Ustaz, where is the password rule written?  Nabil: It’s on the board by the help desk, and in the folder called Rules on the server.  Tarek: And what do I do first with a new machine?  Nabil: First, change the first password. Then lock the screen and check it works.  Tarek: And before I give the machine to the user?  Nabil: Before that, run the update and check the antivirus is on. Never give out a machine without those two.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What is Tarek looking for? — The written rules.
+@IT 1. Where are the rules kept?
+@IT 2. What must Tarek do first with a new machine?
+@IT 3. What must he do before giving the machine to the user?
+@IT Useful phrases: Where is…?  ·  It’s on the board / in the folder…  ·  First… Then… Before that…
+@EX Part 3: The Office Rules
+@IT 🔊  Audio Track 3.4
+@IT Before you listen: how many desk rules do you think an office needs?
+@BX Maher: Welcome to Cham Systems. We have five simple rules, and everybody follows them, including me. Rule one: use a long passphrase and never share it. Rule two: lock your screen every time you stand up. Rule three: don’t open a file you did not expect — send it to the help desk. Rule four: keep your desk clear at night. Rule five: if you are not sure, stop and ask. That is all. Five rules, and we have had no trouble in three years.
+@IN While you listen: match each rule with what it says. One is not needed. (0. is done.)
+@IT 0. Rule 1 → use a long passphrase and never share it.
+@LB Column A
+@COLA
+1 | Rule 2
+2 | Rule 3
+3 | Rule 4
+4 | Rule 5
+@END
+@LB2 Column B
+@COLB
+a | if you are not sure, stop and ask
+b | lock your screen every time you stand up
+c | buy a new machine every year
+d | keep your desk clear at night
+e | don’t open a file you did not expect
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Safe Working
+@IN Work with a partner. Ask and answer these questions.
+@IF What protections do you use at your desk?
+@IF Why is a clear desk a safer desk?
+@IF What are three important desk rules?
+@BX Useful language: I use…  ·  Always…  ·  Never…  ·  First… Then… Finally…
+@EX Part 4: Find the Difference
+@IN Work in pairs. Student A looks at Desk A; Student B looks at Desk B. Ask and answer to find four differences. Do not show your card.
+@BX Card A — Desk A: the screen is locked  ·  the desk is clear  ·  there is no password on paper  ·  the drawer is closed.
+@BX Card B — Desk B: the screen is open  ·  there are papers on the desk  ·  there is a note under the keyboard  ·  the drawer is open.
+@IT Useful questions: Is the screen locked?  ·  Is there a note…?  ·  At my desk, the…
+@EX Part 4: Safety Instructions Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Nabil: First, lock your screen when you stand up. — Tarek: Every time? — Nabil: Every time. Then keep your desk clear at night. And never write your password on paper.
+@BX Card A — Security officer: give the desk rules in order (use First, Then, Next, Finally). Card B — New worker: ask one question about each rule, and ask what to do if you are not sure.
+@TRK Stretch [PR]: the new worker is in a hurry and wants to skip the screen lock — insist, and say why in one short sentence.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Explain the desk rules of your office, in order, to somebody on their first day.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: Safe Working at the Desk
+@IMG fig-03-4.png
+@CAP Figure 3.4  ·  A careless desk and a safe desk.
+@IT Before you read: what is the most important desk rule in an office?
+@GL lock = to close your screen so nobody else can use it    ·    passphrase = a long password made of several words    ·    report = to tell the help desk what you have seen
+@BX An office can be a careless place, but good rules keep the work safe. The most important rule is the simplest: lock your screen every time you stand up. A machine left open for two minutes is enough. Next, choose a passphrase of four words instead of a short password, and never write it on paper or share it with anybody — not with a colleague, and not with the manager. Keep your desk clear at night, so that a cleaner or a visitor finds nothing to read. Before you open a file, look at who sent it: if you did not expect it, send it to the help desk first. And when something looks wrong, report it at once. The worst thing a worker can do is stay quiet, because a problem reported in the first hour is small, and the same problem reported in a week is not.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What is the most important rule? — lock your screen every time you stand up.
+@BI 1. Why must you keep your desk clear at night?
+@OP ○  A)  To look nice
+@OP ○  B)  To save money
+@OP ○  C)  So that a cleaner or a visitor finds nothing to read
+@OP ○  D)  Because it is the law
+@BI 2. What must you do before you open a file?
+@OP ○  A)  Call the manager
+@OP ○  B)  Look at who sent it
+@OP ○  C)  Print it
+@OP ○  D)  Copy it to a disk
+@BI 3. Why must a problem be reported at once?
+@OP ○  A)  Because a problem reported in the first hour is small
+@OP ○  B)  Because it is polite
+@OP ○  C)  Because the manager likes messages
+@OP ○  D)  Because the machine is new
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | passphrase
+2 | lock
+3 | clear desk
+4 | report
+@END
+@LB2 Column B
+@COLB
+a | to close your screen so nobody else can use it
+b | the rule that leaves nothing on the desk at night
+c | a tool for opening a machine
+d | to tell the help desk what you have seen
+e | a long password made of several words
+@END
+@EX Part 5: A Family Business in Syria
+@IT Before you read: how can a small office make its work safer without spending money?
+@GL rule board = a board on the wall where the rules are written    ·    habit = something you do the same way every time
+@BX In a small street in Damascus, the Khalil family has run a trading office for thirty years. For most of that time there were four machines and one password that everybody knew. Then the eldest son, Samir, came back from two years at a bank in Beirut, where he had learned how a careful office works. He did not change everything at once. In the first month he gave every person their own account and put the rules on a board by the door: five lines, in Arabic and English. In the second month he taught everybody the screen lock, and he locked his own screen in front of them every time he stood up, until it became a habit. In the third month he started the backup. None of it cost money. Samir says the hardest part was not the machines; it was asking his own uncle to stop using his son’s account.
+@IN Write True or False. (0. is done.)
+@IT 0. The Khalil family office is new. — False
+@IF 1. Samir learned how a careful office works at a bank in Beirut. ____
+@IF 2. He changed everything in one day. ____
+@IF 3. The changes cost the office a lot of money. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Desk Rules for the Office (50–70 words)
+@IN Write five desk rules for an office. Use imperatives and sequencers.
+@LM Model — read this first:
+@BX First, choose a passphrase of four words and never write it down. Then lock your screen every time you stand up, even for a minute. Next, don’t open a file from a message you did not expect; send it to the help desk. After that, keep your desk clear at night. Finally, if you are not sure about anything, stop and ask.
+@BI Plan (fill in, then write): First, always… Then… Next… After that… Finally…
+@WB First, Then, Next, Finally    |  Always… / Never…    |  Don’t…    |  lock    |  report    |  share
+@BC Check before you finish: ☐ imperatives used?  ☐ sequencers used?  ☐ 50–70 words?
+@EX Part 6: Why Safe Working Matters (50–70 words)
+@IN Write why safe working is important in an office. Give reasons.
+@LM Model — read this first:
+@BX Safe working is important because one open screen can cost the company everything it keeps. A shared password means nobody can say who did what, so an honest worker cannot be cleared. A reported problem is small in the first hour and large in a week. The rules take ten seconds each, and they protect the work of the whole office.
+@WB … is important because…    |  one open screen…    |  nobody can say who…    |  it takes ten seconds    |  it protects…
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Desk Notice (40–60 words)
+@IN Write a short notice to put on the office wall. Use clear imperatives.
+@LM Model — read this first:
+@BX BEFORE YOU LEAVE YOUR DESK. Save your work. Lock your screen — every time. Put your papers in the drawer. Take nothing home on a USB stick without asking. If you see something strange on your machine, tell the help desk today, not tomorrow. Thank you. The IT and Security Department.
+@BC Check before you finish: ☐ clear imperatives?  ☐ easy to read on a wall?  ☐ 40–60 words?
+@EX Part 6: Reflection — A Time Care Mattered (40–60 words)
+@IN Write about a time when care with a password or a file was important, at work or at home.
+@LM Model — read this first:
+@BX Last winter my cousin opened a file in a message that looked like a delivery note. The machine became slow and strange, and he turned it off. He told the office the same morning, and they cleaned it in one afternoon. If he had said nothing for a week, the whole office would have lost its files.
+@BC Check before you finish: ☐ a clear story?  ☐ imperatives or past tense used well?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — The Desk Induction
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “Always lock your screen.”
+2 | “Let me show you where the rules are.”
+3 | “Never share your password with anybody.”
+4 | “Ask me if you are not sure.”
+@END
+@LB2 Column B
+@COLB
+a | showing someone around
+b | giving a strong warning
+c | giving a simple rule
+d | asking about the price
+e | offering help and support
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 3.5
+@IT Before you read: what does a manager show a new worker on their first day at a desk?
+@BX Nabil: Tarek, today is your desk induction. First, this is your account, with your own name on it.  Tarek: And the password?  Nabil: You set it now, in front of me, and I do not want to know it. Make it four words long. Then lock the screen and check it opens again.  Tarek: What do I do after I use a machine at somebody else’s desk?  Nabil: Sign out. Always. And never leave a file open on their screen.  Tarek: And if I see something strange?  Nabil: Stop and tell me. Never try to repair it yourself.
+@IN Answer the questions. (0. is done.)
+@IT 0. What is Tarek’s induction about? — Safe working at his desk.
+@IT 1. Who sets the password, and who may know it?
+@IT 2. What must he do after using a machine at another desk?
+@IT 3. What must he never do?
+@EX 7C: Controlled Practice — Induction Steps
+@IN Put a manager’s induction steps in order. Number them 1–5. (0. is done.)
+@IT 0. Give the new worker their own account. — 1
+@IF ____  Show the rule board by the door.
+@IF ____  Explain how to lock the screen.
+@IF ____  Show where to report a strange message.
+@IF ____  Say “ask me if you are not sure.”
+@EX 7D: Role-Play — Inducting a New Worker
+@IN In pairs. One is the security officer (Nabil); one is the new worker (Tarek). Use the model and the cards.
+@BX Model exchange: Nabil: First, set your own password — I must not know it. — Tarek: How long? — Nabil: Four words. Then lock your screen, and check it opens again.
+@BX Card A — Security officer (Nabil): give the induction in order (account, password, screen lock, reporting). Card B — New worker (Tarek): ask one question at each step, and ask what to do if you are not sure.
+@TRK Stretch [PR]: the new worker says the last office shared one password and nothing ever happened — answer without criticising the last office.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write the office’s desk rules as a short numbered notice for the wall.
+@LM Model — read this first:
+@BX CHAM SYSTEMS — DESK RULES. 1. Use a passphrase of four words. Never write it down. 2. Lock your screen every time you stand up. 3. Do not open a file you did not expect; send it to the help desk. 4. Keep your desk clear at night. 5. If you are not sure, stop and ask. These five rules apply to everybody, including the manager. Maher Khoury.
+@BC Check before you finish: ☐ clear numbered rules?  ☐ imperatives used?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Office with No Shared Passwords
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: how can an office stop a problem before it starts?
+@GL incident = something that goes wrong and must be recorded    ·    rule = an instruction that everybody follows    ·    audit = a careful check of how things are really done
+@BX A large company once had too many small incidents. A file was deleted and nobody knew who had deleted it. A payment was changed and three people had used the same account that morning. The new manager did not buy anything. She did two things. First, she put the rules on the wall in every room, in five short lines that a tired person could read. Second, she walked through one department every morning before the staff arrived and wrote down what she saw: an open screen, a password on a card, a drawer left unlocked. She did not name anybody; she wrote numbers, and she put the numbers on the same wall each week. In the first month there were nineteen open screens. By the sixth month there were none. She says good security is not a machine you buy; it is a habit you build, and the only way to build it is to count it.
+@IN Answer the questions. (0. is done.)
+@IT 0. What problem did the company have? — Too many small incidents.
+@IT 1. What did the manager put on the wall?
+@IT 2. What did she do every morning?
+@IT 3. What did she say good security is?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | rule
+2 | incident
+3 | habit
+4 | audit
+@END
+@LB2 Column B
+@COLB
+a | something that goes wrong and must be recorded
+b | an instruction that everybody follows
+c | a careful check of how things are really done
+d | a new machine
+e | something you do the same way every time
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “This is similar to my office because…”  ·  “This is different because…”  ·  “The rule I would put on the wall first is…”  ·  “Counting works because…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Raising a Small Office to Bank Standard
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: what does a small office need before a bank will work with it?
+@BX Maher once visited a small company in Damascus that wanted to do work for a bank. The bank had sent a list of what it required, and the owner thought he needed to buy expensive equipment. Maher read the list and told him that most of it cost nothing. The bank wanted three things first: one account for each person, with no sharing; a written rule that staff follow, kept where anybody can see it; and a record of who may open which files, reviewed twice a year. The owner did all three in six weeks, with no new machines. The bank then asked for two more things that did cost money: a second backup kept in another building, and a proper lock on the server room door. After six months the bank signed the contract. The owner told Maher that the part he had expected to be hardest — the equipment — had been the easy part.
+@IN Answer the questions. (0. is done.)
+@IT 0. What did the small office want to do? — Work for a bank.
+@IT 1. What did the owner think he needed first?
+@IT 2. What three things did the bank want that cost nothing?
+@IT 3. What happened after six months?
+@EX Part 9: Decision Task
+@IN An office owner has a little money to improve his security. Should he first (a) buy a lock for the server room, (b) give every person their own account, or (c) write the rules on a board? Choose one and give reasons.
+@BX Answer frame: “I think the owner should first ___ because ___. Safety is ___. After that, he can ___.”
+@LM Model — read this first:
+@BX I think the owner should first give every person their own account, because without that nobody can say who did what, and no rule can be checked. Safety is knowing who opened a file. After that, he can write the rules on a board, which costs nothing, and buy the lock when the money is there.
+@BX Phrase bank: I think… should first…  ·  because…  ·  Safety is…  ·  After that…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. You use a passphrase to open your account safely.
+@WB screen lock    |  antivirus    |     Lock    |    finally    |    backup
+@IG 1. The step that hides your work when you leave your desk is the  ____________________ .
+@IG 2. The program that watches for bad files on your machine is the  ____________________ .
+@IG 3. “ ____________________  your screen.” (an instruction)
+@IG 4. To show the last step, we use the word  ____________________ .
+@IG 5. A copy of the files, kept in a safe place, is a  ____________________ .
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main protections and safe-working terms for a desk.
+@IT ☐ I can give instructions and rules using imperatives and sequencers.
+@IT ☐ I can understand a security briefing and a desk induction.
+@IT ☐ I can write clear desk rules for an office.
+@IT ☐ I can induct and brief a new worker (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 3 glossary (10 words)
+@BG passphrase  ·  screen lock  ·  antivirus  ·  update  ·  clear desk  ·  visitor  ·  shoulder surfing  ·  report  ·  incident  ·  habit
+@PB

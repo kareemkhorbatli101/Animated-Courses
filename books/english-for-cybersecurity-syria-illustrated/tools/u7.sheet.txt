@@ -1,0 +1,344 @@
+@U      7: At the Service Desk — Bookings, Estimates and Handover
+@SUB    for Auto Maintenance Personnel · Level: Low B1 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Par
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Service Desk Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Talking About the Future
+@IW     the sentences using the words in the word bank.
+@WB     bank: will | going | is | book
+@IG     The car ____________________ be ready at four o’clock.
+@IG     We are ____________________ to order the part today.
+@IG     The van ____________________ arriving at ten tomorrow.
+@IG     Can I ____________________ you in for Tuesday?
+@EX     Reading About the Service Desk
+@IW     the text and choose the correct answer.
+@BX     the service desk, the advisor plans the customer’s visit. First, she makes an appointment. T
+@BI     What does the advisor give so the customer knows the price?
+@OP     ○ A) A courtesy car
+@OP     ○ B) A deposit
+@OP     ○ C) A key
+@OP     ○ D) An estimate
+@BI     When does the customer pay the invoice?
+@OP     ○ A) Before the appointment
+@OP     ○ B) At handover
+@OP     ○ C) Next year
+@OP     ○ D) Never
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Service Desk Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Invoice → the bill that shows the final price.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     estimate = a paper that shows the price before the work · deposit = money paid first, before
+@EX     1: Pronunciation
+@LB     Audio Track 7.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — ap-POINT-ment
+@PR     — ES-ti-mate
+@PR     — de-POS-it
+@PR     — IN-voice
+@PR     — SCHE-dule
+@PR     — COUR-te-sy
+@EX     1: Desk Tasks Table
+@IMG    (540x150)
+@CAP    7.2 · From booking to handover.
+@IN     the table. Write when each task happens. (0. is done.)
+@COLB   rows=5
+@IT     Make an appointment — before the car comes in.
+@EX     1: The Steps of an Order
+@IN     each step with what happens. One is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: The Service Desk — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What is an estimate?
+@OP     ○ A) A paper that shows how much the work will cost
+@OP     ○ B) A tool
+@OP     ○ C) A car part
+@OP     ○ D) A fluid
+@BI     What is a deposit?
+@OP     ○ A) The final bill
+@OP     ○ B) A courtesy car
+@OP     ○ C) Money paid first, before the work
+@OP     ○ D) An appointment
+@BI     What is a courtesy car?
+@OP     ○ A) A fast car
+@OP     ○ B) A new car
+@OP     ○ C) An old car
+@OP     ○ D) A car the garage lends the customer
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: appointment | estimate | deposit | invoice
+@IG     Please make an ____________________ for Tuesday.
+@IG     Here is the ____________________ for the work.
+@IG     You pay a small ____________________ before we start.
+@IG     At handover, you pay the ____________________ .
+@EX     1: Write About a Booking (short)
+@IN     two or three sentences about booking a service. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Future Forms (will / going to / present continuous)
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x143)
+@CAP    7.4 · A week planner for the service bay.
+@IN     these lines. Which is a promise? Which is a plan? Which is a fixed arrangement?
+@BX     (a decision now, a promise): I’ll call you when it’s ready. Going to (a plan): We’re going t
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     will = decide now / promise. going to = already planned. present continuous = a fixed arrang
+@WO     out! ✗ I will to call you. → ✓ I’ll call you. ✗ We going to order. → ✓ We’re going to order.
+@EX     2: Controlled Practice
+@IN     the correct future form.
+@IG     We ____________________ order the part tomorrow. (are going to / will) — a plan
+@IG     The van ____________________ at ten tomorrow. (arrives / is arriving) — an arrangement
+@IG     OK, I ____________________ book you in for Friday. (will / am going to) — deciding now
+@IG     The technician ____________________ your car now. (starts / is starting) — happening now
+@EX     2: Will or Going To?
+@IN     the correct form.
+@IG     I ____________________ call you when it’s ready. (will / am calling)
+@IG     We ____________________ order the part tomorrow. (will / are going to)
+@IG     The van ____________________ at ten tomorrow. (will come / is coming)
+@IG     OK, I ____________________ book you in for Friday. (will / am booking)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     I will to call you when it’s ready.
+@IT     We going to order the part.
+@IT     The van arrive at ten tomorrow.
+@IT     Your car will ready at four.
+@EX     2: Freer Practice
+@IN     three sentences to a customer: one promise (will), one plan (going to), and one arrangement 
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which is a promise or a decision made now?
+@OP     ○ A) We are ordering the part.
+@OP     ○ B) I’ll call you when it’s ready.
+@OP     ○ C) The van is arriving at ten.
+@OP     ○ D) We are going to order.
+@BI     Which is a fixed arrangement?
+@OP     ○ A) The van is arriving at ten tomorrow.
+@OP     ○ B) The van will arrive maybe.
+@OP     ○ C) The van arrive at ten.
+@OP     ○ D) The van going to ten.
+@IT     Harvest: you will see future forms again in the Part 5 reading. Watch for them.
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Booking a Service
+@IT     Audio Track 7.2
+@IT     you listen: what does an advisor say when a customer books a service?
+@BX     Cham Motors, good morning. Mr Aboud: Hello, I’d like to book a service. Rana: Of course. I’l
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Mr Aboud is booking a service. — True
+@IF     Rana books him for Tuesday. ____
+@IF     The car will be ready at nine. ____
+@IF     Rana will call him when it’s ready. ____
+@IT     phrases: I’ll book you in… · We’re going to be busy… · Your car will be ready at…
+@EX     3: The Estimate
+@IT     Audio Track 7.3
+@IT     you listen: what does a customer want to know before the work starts?
+@BX     Mr Aboud, here is the estimate for the work. Mr Aboud: How much is it? Rana: The service and
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What does Rana give Mr Aboud? — The estimate.
+@IT     How much is the work?
+@IT     When are the pads going to arrive?
+@IT     What does Mr Aboud pay now?
+@IT     phrases: If you approve, we’ll… · they’re going to arrive… · you’ll pay the rest at handover
+@EX     3: Planning the Week
+@IT     Audio Track 7.4
+@IT     you listen: how does a manager plan a whole week of work?
+@BX     Let’s plan the week. On Monday, we’re going to service four cars. On Tuesday, Mr Aboud’s car
+@IN     you listen: match each item with the detail. One is not needed. (0. is done.)
+@IT     Monday → service four cars.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing the Service Desk
+@IMG    (540x150)
+@CAP    7.3 · An estimate: the price before the work.
+@IN     with a partner. Ask and answer these questions.
+@IF     happens step by step when a customer books a service?
+@IF     is an estimate important before the work starts?
+@IF     can a garage offer if a job takes more than a day?
+@BX     language: I’ll book you in… · We’re going to… · Your car will be ready at… · We can offer a 
+@EX     4: Find the Difference
+@IN     in pairs. Student A looks at Booking A; Student B looks at Booking B. Ask and answer to find
+@BX     A — Booking A: Tuesday at nine · full service · ready at twelve · courtesy car offered.
+@BX     B — Booking B: Wednesday at ten · brake repair · ready on Thursday · no courtesy car.
+@IT     questions: Which day is the booking? · What is the job? · When will it be ready? · Is there 
+@EX     4: Booking Role Play
+@IMG    (540x150)
+@CAP    7.1 · At the service desk.
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Advisor: I’ll book you in for Tuesday at nine. — Customer: How long will it take? 
+@BX     A — Service advisor: take the booking, give a day and time, an estimate, and a ready time (u
+@TRK    [PR]: the customer wants the car back today, but a part will not arrive until tomorrow — giv
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Explain what happens at the service desk, from booking to h
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: From Order to Delivery
+@IT     you read: why is the service desk important for the customer?
+@GL     approve = to agree to the work and the price · ready time = when the car will be finished · 
+@BX     service desk is the first place a customer sees, and the last. A good service advisor plans 
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What is the first place a customer sees? — the service desk.
+@BI     What does the advisor give before any work starts?
+@OP     ○ A) A courtesy car
+@OP     ○ B) A deposit
+@OP     ○ C) An estimate
+@OP     ○ D) A key
+@BI     Why should a customer never be surprised by the final bill?
+@OP     ○ A) Because they know the price from the estimate
+@OP     ○ B) Because it is free
+@OP     ○ C) Because it is small
+@OP     ○ D) Because it is a gift
+@BI     What does a good service desk depend on?
+@OP     ○ A) Fast cars
+@OP     ○ B) Clear communication
+@OP     ○ C) Cheap parts
+@OP     ○ D) Big offices
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Parts Delays and Power Cuts in Syria
+@IT     you read: what problems can a service desk in Syria have?
+@GL     import = to bring from another country · generator = a machine that makes electricity
+@BX     a service desk in Syria is not always easy. Sometimes a part is not in the country, and it h
+@IN     True or False. (0. is done.)
+@IT     In Syria, a part is always in the country. — False
+@IF     The advisor should be honest about the ready time. ____
+@IF     Power cuts can stop the computer and some machines. ____
+@IF     Customers do not care about honesty. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: A Booking Email (50–70 words)
+@IN     an email to a customer to confirm a booking. Use future forms.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): I’ve booked you in for ___. It will take ___. Your car will be ready 
+@WB     bank: I’ll… | We’re going to… | … will be ready at… | we can offer a courtesy car
+@BC     before you finish: ☐ will used? ☐ going to used? ☐ a clear ready time? ☐ 50–70 words?
+@EX     6: Why Clear Communication Matters (50–70 words)
+@IN     why clear communication is important at a service desk. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | knows the price / the ready time | never surprised | people 
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Ready-Time Message (40–60 words)
+@IN     a short message to a customer to tell them the car is ready.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Good news — your car is ready. The ___ is done. You can collect it __
+@BC     before you finish: ☐ clear and polite? ☐ a collection time? ☐ 40–60 words?
+@EX     6: Reflection — Waiting for Something (40–60 words)
+@IN     about a time you waited for something (a repair, a part, or a delivery). How did you feel? W
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear story? ☐ how you felt? ☐ 40–60 words?
+@PART   7 · Management File — Handling a Big Job and Scheduling the Week
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 7.5
+@IT     you read: how does a manager plan a big job across the week?
+@BX     Rana, we have a big job this week — a van with a gearbox problem. Rana: When is it coming in
+@IN     the questions. (0. is done.)
+@IT     What is the big job? — A van with a gearbox problem.
+@IT     When is the van coming in?
+@IT     When will the parts arrive?
+@IT     What will Rana offer the customer?
+@EX     Controlled Practice — The Week Plan
+@IN     with will, going, is, or are.
+@WB     bank: will | going | is | are
+@IG     On Monday, we are ____________________ to service four cars.
+@IG     The van ____________________ arriving on Wednesday.
+@IG     I ____________________ call the customer with the ready time.
+@IG     The parts ____________________ going to arrive on Thursday.
+@EX     Role-Play — Scheduling the Week
+@IN     pairs. One is the manager (Maher); one is the advisor (Rana). Use the model and cards.
+@BX     exchange: Maher: The van is coming in on Wednesday, and Lina is going to diagnose it. — Rana
+@BX     A — Manager (Maher): explain the big job, the plan for parts, and the ready day. Card B — Ad
+@TRK    [PR]: a normal customer’s booking clashes with the big job — decide how to fit both into the
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short update message to the customer of the big job. Give an honest plan 
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear plan + honest ready time? ☐ future forms used? ☐ a courtesy car
+@PART   8 · Global Case Study — The Garage You Can See Online
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: why do customers call a garage many times to ask about their car?
+@GL     online = using the internet or a phone app · approve = to agree to the work · tap = to touch
+@BX     modern service centre had a problem: customers called all day to ask, “Is my car ready?” The
+@IN     the questions. (0. is done.)
+@IT     What did the centre build? — A simple online system.
+@IT     What was the problem before?
+@IT     What could the customer see on their phone?
+@IT     What did the manager say people mind?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “An online system helps because…” · “In Syria, this could work / be hard because…” ·
+@PART   9 · Local Case Study — Syria in Focus: When the Part Is Late and the Power Is Off
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: what should an advisor do if a part will take a long time to arrive?
+@BX     week was hard at Cham Motors. A customer’s car needed a part that was not in Syria. Maher wa
+@IN     the questions. (0. is done.)
+@IT     Was the part in Syria? — No, it had to be imported.
+@IT     Why did the part take a week?
+@IT     What did the team do when the power went off?
+@IT     What is worth more than a fast promise?
+@EX     9: Decision Task
+@IN     part will take a week to import, but the customer needs the car. Should the advisor (a) prom
+@BX     frame: “I think the advisor should ___ because ___. An honest ready time ___. This is better
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · an honest ready time… · This is better than… · a promise
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     A paper that shows how much the work will cost is an estimate.
+@WB     bank: deposit | courtesy | will | is | advice
+@IG     Money the customer pays first, before the work, is a ____________________ .
+@IG     A car the garage lends the customer is a ____________________ car.
+@IG     “I ____________________ call you when it’s ready.” (a promise, decided now)
+@IG     “The van ____________________ arriving at ten tomorrow.” (a fixed arrangement)
+@IG     “You should change the pads” gives ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the steps and words of a booking and a handover.
+@IT     I can use will, going to, and the present continuous to talk about the future.
+@IT     I can understand a booking, an estimate, and a week plan.
+@IT     I can write a booking email or a ready-time message.
+@IT     I can handle a big job and schedule the week (Practitioner).
+@EX     10: Glossary
+@LG     7 glossary (10 words)
+@BG     · booking · estimate · deposit · parts order · courtesy car · ready time · handover · invoic
+@PB     
+-- 343 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

@@ -1,0 +1,462 @@
+# Unit 2 · Inside the System — Machines, Accounts and Data
+# Grammar: there is / there are + some / any / much / many.  Level: Upper A2.
+
+@U Unit 2: Inside the System — Machines, Accounts and Data
+@SUB English for Cybersecurity Personnel  ·  Level: Upper A2 (the course moves to Low B1 from Unit 6)  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Machines, Accounts and Data
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Machine
+2 | Account
+3 | File
+4 | Disk
+5 | Licence
+@END
+@LB2 Column B
+@COLB
+a | the paper that gives you the right to use a program
+b | a computer that one person works on
+c | the part that keeps your files when the power is off
+d | the cable that joins the machine to the wall
+e | the name the computer knows you by
+f | a document you save and open again
+@END
+
+@EX Warm-up: Checking the System
+@IW Complete the sentences using the words in the word bank.
+@WB account    |  licence    |     disk    |    backup
+@IG 1. Every worker has one  ____________________  with their own name.
+@IG 2. The office keeps a  ____________________  of the files every night.
+@IG 3. There is a new  ____________________  for the accounts program.
+@IG 4. The old  ____________________  is full, so we cannot save anything.
+
+@EX Warm-up: Reading About the System
+@IMG fig-02-1.png
+@CAP Figure 2.1  ·  Inside the system: machines, accounts and data.
+@IW Read the text and choose the correct answer.
+@BX An office system has three parts. There are the machines: the computers, the server and the printers. There are the accounts: one name for every person who works here. And there is the data: the files, the messages and the records. The IT department looks after all three. If there isn’t a backup of the data, a broken disk means the work is gone.
+@BI 1. What does the IT department look after?
+@OP ○  A)  Only the machines
+@OP ○  B)  Only the accounts
+@OP ○  C)  The machines, the accounts and the data
+@OP ○  D)  Only the printers
+@BI 2. What can happen if there isn’t a backup?
+@OP ○  A)  The work is gone when a disk breaks
+@OP ○  B)  The computer goes faster
+@OP ○  C)  Nothing happens
+@OP ○  D)  The printer stops
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: System and Data Terms
+@IN Match the parts with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Server → the big computer that keeps files for many people.
+@LB Column A
+@COLA
+1 | Disk
+2 | Memory
+3 | Network
+4 | Folder
+5 | Record
+6 | Licence
+7 | Printer
+@END
+@LB2 Column B
+@COLB
+a | the cables and equipment that join the machines together
+b | a place on a disk where you keep files together
+c | the machine that puts your work on paper
+d | the part that keeps your files when the power is off
+e | one line of information kept about one thing or one person
+f | the paper that gives you the right to use a program
+g | a chair for the help desk
+h | the part the machine uses to work while it is on
+@END
+@GL memory = the part the machine uses to work while it is on    ·    record = one line of information kept about one thing or one person
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 2.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR machine — ma-CHINE
+@PR memory — MEM-o-ry
+@PR network — NET-work
+@PR folder — FOL-der
+@PR licence — LI-cence
+@PR printer — PRIN-ter
+
+@EX Part 1: Data Table
+@IMG fig-02-2.png
+@CAP Figure 2.2  ·  The kinds of data an office keeps.
+@IN Complete the table. Write what each kind of data is and where it is kept. (0. is done.)
+@TBL 2600,3600,2826
+Data | What it is | Where it is kept
+* Files | the documents people write | in folders on the server
+Messages |  | 
+Records |  | 
+Backups |  | 
+@END
+@IT 0. Files — the documents people write — in folders on the server.
+
+@EX Part 1: Types of Data
+@IN Match each kind of data with what it is. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | File
+2 | Message
+3 | Record
+4 | Backup
+5 | Licence
+@END
+@LB2 Column B
+@COLB
+a | one line of information about one thing or one person
+b | a document a person writes and saves
+c | a copy of the data, kept in a safe place
+d | a cable for the printer
+e | something one person sends to another
+f | the paper that gives the right to use a program
+@END
+
+@EX Part 1: Machines and Data — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What does the memory do?
+@OP ○  A)  It keeps files when the power is off
+@OP ○  B)  It helps the machine work while it is on
+@OP ○  C)  It prints the work
+@OP ○  D)  It cleans the screen
+@BI 2. What do you use a folder for?
+@OP ○  A)  To start the machine
+@OP ○  B)  To open an account
+@OP ○  C)  To clean the disk
+@OP ○  D)  To keep files together
+@BI 3. What does a backup do?
+@OP ○  A)  It makes the machine faster
+@OP ○  B)  It keeps a copy of the data in a safe place
+@OP ○  C)  It joins the machines together
+@OP ○  D)  It prints a record
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB disk    |  network    |     folder    |    licence
+@IG 1. Save the report in the  ____________________  for this month.
+@IG 2. The  ____________________  joins all the machines in the office.
+@IG 3. The  ____________________  is full, so we must clean it.
+@IG 4. We cannot use the program without a  ____________________ .
+
+@EX Part 1: Write About the System (short)
+@IN Write two or three sentences about the machines or the data in your office. Use three words from this unit.
+@LM Model — read this first:
+@BX In our office there are fourteen machines and one server. Every person has an account with their own name, and the files are kept in folders on the server. There isn’t much space left on the old disk, so we are asking for a new one. The backup runs every night at nine o’clock.
+
+@PART Part 2  ·  Grammar — There is / There are + some / any / much / many
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IN Read these lines from the office. Underline there is / there are. When do we use some, any, much and many?
+@BX There is a server in the small room. There are two printers on this floor. There isn’t much space left on the disk. There aren’t many licences for the new program. Is there any coffee? And are there any spare keyboards in the store?
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+There is / There isn’t | + singular or uncountable | one thing, or a quantity | There is a server in the room.
+There are / There aren’t | + plural | more than one thing | There are two printers here.
+@END
+@BR Remember: some → + sentences.  any → questions and – sentences.  much → uncountable.  many → countable.
+@WO ✗ There are much data. → ✓ There is much data (data is uncountable here).   ✗ There is three disks. → ✓ There are three disks.
+@EX Part 2: Controlled Practice
+@IN Complete with is or are. (0. is done.)
+@IT 0. There is a server in the small room.
+@IG 1. There  ____________________  two printers on this floor.
+@IG 2. There  ____________________  some space left on the new disk.
+@IG 3. There  ____________________  four machines in the store.
+@IG 4. There  ____________________  a problem with the network.
+@EX Part 2: Some, Any, Much or Many?
+@IN Choose the correct word.
+@IG 1. Is there  ____________________  space on the disk? (any / some)
+@IG 2. There aren’t  ____________________  spare keyboards. (much / many)
+@IG 3. There isn’t  ____________________  time before the power cut. (much / many)
+@IG 4. We have  ____________________  new licences. (some / any)
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. There is two servers in the room.
+@IT 2. How much machines are there?
+@IT 3. There are much data on this disk.
+@IT 4. Is there some space left?
+@EX Part 2: Freer Practice
+@IN Write two sentences about your office or your desk: one with there is and one with there are.
+@EX Part 2: Grammar Review
+@IN Choose the correct sentence.
+@BI 1. Which sentence is correct?
+@OP ○  A)  There are three printers.
+@OP ○  B)  There is three printers.
+@OP ○  C)  There be three printers.
+@OP ○  D)  There am three printers.
+@BI 2. Which sentence is correct?
+@OP ○  A)  There is many accounts.
+@OP ○  B)  There are many accounts.
+@OP ○  C)  There are much accounts.
+@OP ○  D)  There is much accounts.
+@IT → Harvest: you will see there is / there are and some / any / much / many again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: Checking the Machines
+@IT 🔊  Audio Track 2.2
+@IT Before you listen: which thing does a security officer check first on a machine?
+@BX Nabil: Right, let’s check this machine. First, I look at the disk. There is some space left, but there isn’t much — only four gigabytes. Then I check the memory: there are eight gigabytes, and that is enough for this work. Next, the licences. There is a licence for the office program, but there isn’t one for the new reader, so I will write that down. Last, I look for the backup. There are two backups from this week, and that is good.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Nabil is checking a machine. — True
+@IF 1. There is a lot of space on the disk. ____
+@IF 2. There is a licence for the new reader. ____
+@IF 3. The machine is five years old. ____
+@IT Useful phrases: First, I look at…  ·  There is / isn’t much…  ·  There are two…
+@EX Part 3: At the Store
+@IT 🔊  Audio Track 2.3
+@IT Before you listen: what does an IT department keep in its store?
+@BX Nabil: Tarek, are there any spare keyboards in the store?  Tarek: Let me check. Yes, there are three.  Nabil: Good. And how many disks are there?  Tarek: There aren’t any new ones. There is one old disk, but it is full.  Nabil: Then we must order some. How much space do we need?  Tarek: For the backup, about two terabytes.  Nabil: Write it down, please, and I will give the list to Maher.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What is Tarek checking? — The store.
+@IT 1. How many spare keyboards are there?
+@IT 2. Are there any new disks?
+@IT 3. What must Tarek write down?
+@IT Useful phrases: Are there any…?  ·  How much…?  ·  There aren’t any…
+@EX Part 3: The Morning Check
+@IT 🔊  Audio Track 2.4
+@IT Before you listen: why does a manager check the system before the day starts?
+@BX Maher: Good morning. Before we start, let’s check the system. There are twenty-two accounts, and two of them belong to people who have left, so Nabil will close them. There is a backup from last night — Lina, please open it and see that the files are really there. Tarek, there aren’t any spare keyboards on your list; please count them again in the store. And everyone, there isn’t much space on the old server, so save your work in your own folder.
+@IN While you listen: match each person with what they do. One action is not needed. (0. is done.)
+@IT 0. Maher → leads the morning check.
+@LB Column A
+@COLA
+1 | Nabil
+2 | Tarek
+3 | Lina
+4 | Everyone
+@END
+@LB2 Column B
+@COLB
+a | opens the backup and checks the files
+b | counts the spare keyboards again
+c | buys a new printer
+d | closes the accounts of people who have left
+e | saves their work in their own folder
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Machines and Data
+@IN Work with a partner. Ask and answer these questions.
+@IF What machines are there in your office? Name three.
+@IF What can happen if there isn’t a backup of the data?
+@IF How often should an office count what is in its store?
+@BX Useful language: An office needs…  ·  There is / are…  ·  If there isn’t enough…  ·  We should…
+@EX Part 4: Find the Difference
+@IMG fig-02-3.png
+@CAP Figure 2.3  ·  Two offices, two sets of machines.
+@IN Work in pairs. Student A looks at Office A; Student B looks at Office B. Ask and answer to find four differences. Do not show your card.
+@BX Card A — Office A: there are two printers  ·  there is one server  ·  there aren’t any spare machines  ·  there is a lot of space on the disk.
+@BX Card B — Office B: there is one printer  ·  there are two servers  ·  there are three spare machines  ·  there isn’t much space on the disk.
+@IT Useful questions: Is there any…?  ·  How much…?  ·  How many…?  ·  In my office there is…
+@EX Part 4: Reporting Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Nabil: There isn’t much space on the server, and there aren’t any spare disks. — Maher: How many do we need? — Nabil: Two, I think. There are twenty-two accounts now, and the backup is growing every week.
+@BX Card A — Security officer: report on the machines and the data (use some / any / much / many). Card B — Manager: ask how much and how many, then decide what to order first.
+@TRK Stretch [PR]: a licence you need cannot be paid for from Damascus — explain the problem to your manager and ask for a decision, politely.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Say what machines and data there are in your office, and what there isn’t enough of.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: The System and Its Data
+@IMG fig-02-4.png
+@CAP Figure 2.4  ·  What the store holds this month.
+@IT Before you read: which part of the system do you think is the most important to protect?
+@GL level = how much of something there is    ·    top up = to add more of something    ·    spare = an extra one, kept ready
+@BX A system has many parts, and it needs several things to work well. There are the machines, and there is the data that lives on them. The disk keeps the files when the power is off, and the memory helps the machine work while it is on. There is a network that joins everything together, and there are licences that give the office the right to use its programs. The most important part, though, is the one you cannot see on a shelf: the backup. A machine can be replaced in a week, but ten years of records cannot. So a careful officer checks the levels every month — how much space there is on the disk, how many spare machines there are in the store, and how many licences are still good. If there isn’t much space left, the backup will stop, and nobody will notice until the day they need it.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What keeps the files when the power is off? — the disk.
+@BI 1. What does the memory do?
+@OP ○  A)  It keeps the files when the power is off
+@OP ○  B)  It joins the machines together
+@OP ○  C)  It helps the machine work while it is on
+@OP ○  D)  It prints the records
+@BI 2. Why is the backup the most important part?
+@OP ○  A)  Because it is expensive
+@OP ○  B)  Because a machine can be replaced but old records cannot
+@OP ○  C)  Because it is new
+@OP ○  D)  Because it is fast
+@BI 3. Why is checking the levels important?
+@OP ○  A)  It is slow and hard
+@OP ○  B)  It makes the machine faster
+@OP ○  C)  It is dangerous
+@OP ○  D)  A full disk stops the backup, and nobody notices
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | disk
+2 | memory
+3 | network
+4 | spare
+@END
+@LB2 Column B
+@COLB
+a | an extra one, kept ready
+b | it keeps the files when the power is off
+c | a tool for opening a machine
+d | the cables and equipment that join the machines
+e | it helps the machine work while it is on
+@END
+@EX Part 5: Machines and Licences in Syria
+@IT Before you read: are new machines and licences always easy to buy where you work?
+@GL import = to bring from another country    ·    genuine licence = a licence bought from the company that made the program
+@BX In Syria, machines and licences are not always easy to buy. New computers are expensive and hard to import, so many offices work with machines that are eight or ten years old. A genuine licence often cannot be paid for from Damascus at all, so an office buys it through a reseller in another country, and waits. Because of this, there are offices with twenty machines and only four licences, and the staff share what there is. A careful manager writes down how many licences there are and when each one ends, so that the office is never surprised. It costs nothing to keep that list, and it saves an argument later.
+@IN Write True or False. (0. is done.)
+@IT 0. New machines are easy to import in Syria. — False
+@IF 1. A genuine licence can be hard to pay for from Damascus. ____
+@IF 2. Some offices have more machines than licences. ____
+@IF 3. Keeping a list of licences is expensive. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: What Is in Your System? (50–70 words)
+@IN Describe the machines and the data in an office you know. Use there is and there are, with some, any, much and many.
+@LM Model — read this first:
+@BX In our office there is one server and there are fourteen machines. There are twenty-two accounts, one for every person. There is a backup every night, and there are two copies of it. There isn’t much space left on the old disk, and there aren’t any spare machines in the store. We need some new disks this month.
+@BI Plan (fill in, then write): In our office, there is ___. There are ___. There isn’t much ___. There aren’t many ___.
+@WB there is / there are…    |  some / any / much / many…    |  machine    |  account    |  disk    |  backup    |  licence
+@BC Check before you finish: ☐ there is + there are used?  ☐ some / any / much / many used?  ☐ 50–70 words?
+@EX Part 6: Why Backups Matter (50–70 words)
+@IN Write why a backup of the data is important. Give reasons.
+@LM Model — read this first:
+@BX A backup is important because a disk can stop working on any day, with no warning. If there isn’t a copy, the work of many years is gone in a minute. A backup also helps when somebody deletes a file by mistake, which happens in every office. It costs little, and it saves the company from a loss it cannot repair.
+@WB … is important because…    |  if there isn’t a copy…    |  the work is gone    |  it costs little    |  it saves…
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Stock Note (50–70 words)
+@IN Write a short note from Nabil (security officer) to Maher (manager) about what the department needs.
+@LM Model — read this first:
+@BX Dear Maher, I checked the store this morning. There are three spare keyboards, but there aren’t any new disks, and there is only one old disk, which is full. There isn’t much space left on the server either. Please can we order two disks of two terabytes this month? The backup will stop without them. Thank you. Nabil.
+@BI Plan (fill in, then write): Dear ___, I checked ___. There is / isn’t ___. There are / aren’t ___. Please can we order ___? Thank you. ___
+@BC Check before you finish: ☐ there is/are + some/any/much/many?  ☐ a clear request?  ☐ 50–70 words?
+@EX Part 6: Reflection — A Data Problem (40–60 words)
+@IN Write about a time a computer lost some work, or a disk became full.
+@LM Model — read this first:
+@BX Last year the disk in my brother’s computer stopped working. There wasn’t a backup, and three years of his study notes were gone. He went to two shops, but there wasn’t any way to read the disk. Now he keeps a copy on another disk every week, and he says it is the cheapest thing he has ever bought.
+@BC Check before you finish: ☐ the problem described?  ☐ there is/are used?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Checking the Stock of Machines and Licences
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “How much space do we have?”
+2 | “How many licences are left?”
+3 | “Please order some new disks.”
+4 | “Without a backup we lose everything.”
+@END
+@LB2 Column B
+@COLB
+a | asking about quantity (countable)
+b | explaining why it matters
+c | asking about quantity (uncountable)
+d | talking about the weather
+e | giving an instruction to buy
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 2.5
+@IT Before you read: what does a manager ask about when checking the stock?
+@BX Maher: Nabil, let’s check the stock before the new staff arrive.  Nabil: Right. How much space do we have on the server?  Maher: That is my question for you.  Nabil: About two hundred gigabytes. There isn’t much, and the backup grows every week.  Maher: And how many licences are left for the office program?  Nabil: Four. There are twenty-two people, so we are sharing.  Maher: Then order two disks and ask the reseller about six more licences. Write it down, and I will sign it today.
+@IN Answer the questions. (0. is done.)
+@IT 0. When do they check the stock? — Before the new staff arrive.
+@IT 1. How much space is there on the server?
+@IT 2. How many licences are left?
+@IT 3. What must Nabil order?
+@EX 7C: Controlled Practice — Completing the Order
+@IN Complete with much, many, some, or any.
+@WB much    |  many    |     some    |    any
+@IG 1. There isn’t  ____________________  space on the server.
+@IG 2. There aren’t  ____________________  licences left.
+@IG 3. Please order  ____________________  new disks.
+@IG 4. Is there  ____________________  room in the store?
+@EX 7D: Role-Play — The Stock Check
+@IN In pairs. One is the manager (Maher); one is the security officer (Nabil). Use the model and the cards.
+@BX Model exchange: Maher: How much space do we have? — Nabil: There is about two hundred gigabytes, but there isn’t much free. — Maher: And how many licences? — Nabil: Four, for twenty-two people.
+@BX Card A — Manager (Maher): ask how much / how many of three things  ·  decide what to order first. Card B — Security officer (Nabil): answer with some / any / much / many  ·  say what will stop working without it.
+@TRK Stretch [PR]: money is tight this month — decide whether to buy disks or licences first, and say why to the staff who will keep sharing.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short order for the supplier. Say what you need and how much or how many.
+@LM Model — read this first:
+@BX Dear Sir, Please send us the following for Cham Systems, Damascus: two disks of two terabytes, six licences for the office program, and three spare keyboards. We have only four licences for twenty-two staff, so the licences are the most urgent part of this order. Please tell us the price and when you can deliver. Thank you. Maher Khoury, IT and Security Manager.
+@BC Check before you finish: ☐ clear quantities (how much / how many)?  ☐ what is most urgent?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Office That Never Lost a Record
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: what is the problem if an office keeps its only copy of the records in one place?
+@GL stock = the things a business keeps ready to use    ·    order = to ask a supplier to send more    ·    restore = to bring the files back from a backup
+@BX A medium-sized company kept all of its records on one server in the basement. There was a backup, but nobody had ever opened it. One winter a pipe broke, and the water reached the machines. The company lost the server in one night. When the manager opened the backup, he found that it had stopped working eleven months before: the disk had been full, and the message had gone to an address nobody read. The company rebuilt what it could from paper and from the staff’s own copies, and it took five months. After that, the manager made two rules. First, there must be two backups, and one of them must be in another building. Second, somebody must restore one file from the backup every month and sign a sheet to say it worked. Ten years later the company has never lost a record again, and the sheet is still signed every month.
+@IN Answer the questions. (0. is done.)
+@IT 0. Where were all the records kept? — On one server in the basement.
+@IT 1. What did the manager find when he opened the backup?
+@IT 2. How long did the company take to rebuild its records?
+@IT 3. What two rules did the manager make?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | backup
+2 | restore
+3 | record
+4 | rule
+@END
+@LB2 Column B
+@COLB
+a | to bring the files back from a copy
+b | a copy of the data, kept in a safe place
+c | something everybody in the office must do
+d | a new computer
+e | one line of information kept about one thing
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “This is similar to Syria because…”  ·  “This is different from Syria because…”  ·  “The first rule I would make is…”  ·  “A backup nobody tests is…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Genuine Licence or Cheaper Copy?
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: when an office needs a program, what two choices does it often have?
+@BX A trading company in Aleppo needed an accounts program for six machines. Rana, who looked after the computers, asked for prices. A genuine licence cost a great deal and had to be bought through a reseller in Beirut, with a wait of three weeks. A copy from the market cost almost nothing and could be installed the same afternoon. The owner wanted the cheap copy. Rana explained what he was really buying: the cheap copy came with no updates, so any fault in it would stay for ever; it could not be registered with the Ministry if the company was ever asked; and the shop that sold it would not answer the telephone in six months. In the end they bought two genuine licences for the two machines that held the accounts, and used the free reader on the other four. It was not the cheapest answer, and it was not the most expensive one.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many machines needed the program? — Six.
+@IT 1. What were the two choices?
+@IT 2. What three problems did Rana explain?
+@IT 3. What did the company decide in the end?
+@EX Part 9: Decision Task
+@IN A manager wants the cheapest copy for every machine in the office, including the one that holds the staff records. Should the officer (a) agree, (b) refuse for every machine, or (c) ask for genuine licences only where the important data is? Choose one and give reasons.
+@BX Answer frame: “I think the officer should ___ because ___. For the important machines, ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the officer should ask for genuine licences only where the important data is, because the office cannot pay for everything at once. For the machines that hold the staff records, a licence with updates is worth the money. This is better than refusing for every machine, because the manager would say no to the whole plan, and then nothing would be protected.
+@BX Phrase bank: I think… should…  ·  because…  ·  for important data…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. The big computer that keeps files for many people is the server.
+@WB disk    |  backup    |     are    |    is    |    many
+@IG 1. The part that keeps your files when the power is off is the  ____________________ .
+@IG 2. A copy of the data, kept in a safe place, is a  ____________________ .
+@IG 3. “There  ____________________  two printers on this floor.”
+@IG 4. “There  ____________________  some space left on the disk.”
+@IG 5. much is for uncountable nouns;  ____________________  is for countable nouns.
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main machines, accounts and kinds of data in an office system.
+@IT ☐ I can use there is / there are with some, any, much and many.
+@IT ☐ I can understand a stock check between a manager and a security officer.
+@IT ☐ I can write a short order or stock note (Practitioner).
+@IT ☐ I can say what an office has and how much or how many.
+@EX Part 10: Glossary
+@LG Unit 2 glossary (10 words)
+@BG disk  ·  memory  ·  network  ·  folder  ·  record  ·  licence  ·  printer  ·  backup  ·  restore  ·  spare
+@PB

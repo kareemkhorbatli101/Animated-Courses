@@ -1,0 +1,345 @@
+@U      5: The Service Process — From Check-in to Handover
+@SUB    for Auto Maintenance Personnel · Level: A2 → B1 (bridge) · Tracks: [OP] Warm-Up + Parts 1–6 
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Service Steps
+@IW     the steps with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     The Order of the Work
+@IW     the sentences using the words in the word bank.
+@WB     bank: inspected | serviced | road-tested | handed
+@IG     First, the car is ____________________ to find any problems.
+@IG     Then it is ____________________ : the oil and filters are changed.
+@IG     Next, it is ____________________ to check it drives well.
+@IG     Finally, the car is ____________________ over to the customer.
+@EX     Reading About the Process
+@IW     the text and choose the correct answer.
+@BX     a service centre, every car follows the same process. First, the car is booked in at recepti
+@BI     Where is the car booked in?
+@OP     ○ A) At reception
+@OP     ○ B) In the workshop
+@OP     ○ C) On the road
+@OP     ○ D) At home
+@BI     What happens finally?
+@OP     ○ A) It is inspected
+@OP     ○ B) It is serviced
+@OP     ○ C) It is handed over to the customer
+@OP     ○ D) It is booked in
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: The Service Process Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Reception → the place where a customer brings the car and it is booked in.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     book in = to write a car into the system when it arrives · road-test = to drive a car to che
+@EX     1: Pronunciation
+@LB     Audio Track 5.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — in-SPECT
+@PR     — DI-ag-nose
+@PR     — SER-vice
+@PR     — QUAL-i-ty
+@PR     — IN-voice
+@PR     — HAND-o-ver
+@EX     1: Departments Table
+@IMG    (540x150)
+@CAP    5.2 · The departments of a service centre.
+@IN     the table. Write what happens in each department. (0. is done.)
+@COLB   rows=5
+@IT     Reception — the car is booked in and handed over.
+@EX     1: Departments and Their Jobs
+@IN     each department with its job. One job is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: The Service Process — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What does ‘diagnose’ mean?
+@OP     ○ A) To clean the car
+@OP     ○ B) To find out what is wrong
+@OP     ○ C) To sell the car
+@OP     ○ D) To drive fast
+@BI     Where is the car cleaned?
+@OP     ○ A) Reception
+@OP     ○ B) Workshop
+@OP     ○ C) Parts store
+@OP     ○ D) The valet
+@BI     What is a quality check?
+@OP     ○ A) A final check before the car goes back
+@OP     ○ B) A type of tool
+@OP     ○ C) The first step
+@OP     ○ D) A fluid
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: booked | inspected | serviced | handed
+@IG     The car is ____________________ in at reception.
+@IG     Then it is ____________________ to find problems.
+@IG     In the workshop, it is ____________________ .
+@IG     Finally, it is ____________________ over to the customer.
+@EX     1: Write About the Process (short)
+@IN     two or three sentences about the service process. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Active and Passive
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x150)
+@CAP    5.4 · A job card follows the car through every step.
+@IN     these pairs. In which sentence is the doer important? In which is the action important?
+@BX     The mechanic services the car. Passive: The car is serviced. We often use the passive for a 
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Passive = is / are + past participle (checked, serviced, done, handed over). Use by + doer o
+@WO     out! ✗ The car serviced. → ✓ The car is serviced. ✗ The tyres is checked. → ✓ The tyres are 
+@EX     2: Controlled Practice
+@IN     each sentence passive. (0. is done.)
+@IT     The mechanic inspects the car. → The car is inspected.
+@IT     The team services the car.
+@IT     The technician checks the tyres.
+@IT     The mechanic changes the oil.
+@IT     Reception hands over the car.
+@EX     2: Active or Passive?
+@IN     the correct form.
+@IG     The car ____________________ in at reception. (books / is booked)
+@IG     The mechanic ____________________ the car. (services / is serviced)
+@IG     The tyres ____________________ in the workshop. (check / are checked)
+@IG     The team ____________________ the engine. (repairs / is repaired)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     The car serviced by the mechanic.
+@IT     The tyres is checked in the workshop.
+@IT     The oil changed every service.
+@IT     The car is hand over to the customer.
+@EX     2: Freer Practice
+@IN     three steps of the service process. Use the passive (is / are + past participle).
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which sentence is passive?
+@OP     ○ A) The mechanic services the car.
+@OP     ○ B) The car is serviced by the mechanic.
+@OP     ○ C) The mechanic is servicing.
+@OP     ○ D) The car services the mechanic.
+@BI     Which sentence is correct?
+@OP     ○ A) The tyres are checked.
+@OP     ○ B) The tyres is checked.
+@OP     ○ C) The tyres checked.
+@OP     ○ D) The tyres be checked.
+@IT     Harvest: you will see the passive again in the Part 5 reading, which describes the whole pro
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Explaining the Process
+@IT     Audio Track 5.2
+@IT     you listen: what is the first step when a car arrives?
+@BX     Let me explain what happens to your car. First, it is booked in here at reception, and a job
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Rana is explaining the service process. — True
+@IF     The car is booked in at reception. ____
+@IF     The car is serviced at reception. ____
+@IF     The car is cleaned before handover. ____
+@IT     phrases: First, it is… · Then it is… · Finally, it is handed over.
+@EX     3: Where Is the Car Now?
+@IT     Audio Track 5.3
+@IT     you listen: what does a customer ask when the car is not ready?
+@BX     Aboud: Hello, is my car ready? Rana: Not yet, but let me check. It was booked in this mornin
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What does Mr Aboud want to know? — If his car is ready.
+@IT     Where is the car now?
+@IT     What is checked now?
+@IT     When will the car be ready?
+@IT     phrases: It was booked in… · now it is… · It will be ready at…
+@EX     3: Planning the Day
+@IT     Audio Track 5.4
+@IT     you listen: how does a manager share out the day’s cars?
+@BX     Good morning. Let’s plan the day. We have six cars. Mr Aboud’s car is booked in first; it is
+@IN     you listen: match each item with what happens. One is not needed. (0. is done.)
+@IT     Mr Aboud’s car → serviced by Nabil.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing the Process
+@IN     with a partner. Ask and answer these questions.
+@IF     are the main steps of the service process?
+@IF     is the order of the steps important?
+@IF     is no car handed over until it is checked?
+@BX     language: First, it is… · Then it is… · Finally… · No car is handed over until…
+@EX     4: Find the Difference
+@IMG    (540x165)
+@CAP    5.3 · Number the steps of the service process.
+@IN     in pairs. Student A looks at Job card A; Student B looks at Job card B. Ask and answer to fi
+@BX     A — Job card A: booked in at 9:00 · inspected · being serviced now · not yet road-tested.
+@BX     B — Job card B: booked in at 10:00 · serviced · road-tested · waiting for the quality check.
+@IT     questions: When was it booked in? · Is it serviced yet? · Is it road-tested? · What is the n
+@EX     4: Explaining the Process Role Play
+@IMG    (540x158)
+@CAP    5.1 · The service process, step by step.
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Rana: First, your car is booked in and a job card is made. — Customer: Then what? 
+@BX     A — Service advisor: explain the process to the customer, step by step (use the passive). Ca
+@TRK    [PR]: the customer wants the car back before the quality check is done — explain, politely, 
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Describe the service process from check-in to handover. Use
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: From Design to Delivery
+@IT     you read: why does a car not just go straight to a mechanic?
+@GL     job card = the paper that follows the car through every step · replace = to put a new part i
+@BX     a car comes to a service centre, it does not just go straight to a mechanic. It follows a cl
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What does a car follow at a service centre? — a clear process.
+@BI     What is made at reception?
+@OP     ○ A) A new tyre
+@OP     ○ B) A key
+@OP     ○ C) A job card
+@OP     ○ D) A cup of coffee
+@BI     What is done one more time before handover?
+@OP     ○ A) The radio is played
+@OP     ○ B) The quality is checked by the quality team
+@OP     ○ C) The paint is done
+@OP     ○ D) The seats are changed
+@BI     Why is a clear process good?
+@OP     ○ A) It is slow
+@OP     ○ B) It looks nice
+@OP     ○ C) It is cheap
+@OP     ○ D) Nothing is forgotten and every car leaves safe
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: A Big Fleet Order in Syria
+@IT     you read: how can a service centre do a very big order quickly?
+@GL     fleet = a group of cars owned by one company · season = a busy time of the year
+@BX     week, a taxi company brought twenty cars to Cham Motors. All of them needed a service before
+@IN     True or False. (0. is done.)
+@IT     A taxi company brought twenty cars. — True
+@IF     The order had to be done in one day. ____
+@IF     Each car was given a quality check before it was returned. ____
+@IF     The taxi company became a regular customer. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Describe the Service Process (60–80 words)
+@IN     the service process from check-in to handover. Use the passive and sequencers.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): First, the car is ___. Then it is ___. Next, the oil is ___. After th
+@WB     bank: is / are + past participle | booked in, inspected, serviced | road-tested, checked, ha
+@BC     before you finish: ☐ passive used throughout? ☐ sequencers used? ☐ the steps in order? ☐ 60–
+@EX     6: Why a Clear Process Matters (50–70 words)
+@IN     why a clear service process is important. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | nothing is forgotten | every car is checked | saves time / k
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: Explaining the Process to a Customer (50–70 words)
+@IN     a short note from Rana to a customer, explaining what will happen to their car.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Dear ___, First, your car is ___. Then it is ___. After that, it is _
+@BC     before you finish: ☐ passive used? ☐ steps in order? ☐ polite and clear? ☐ 50–70 words?
+@EX     6: Reflection — A Process I Know (40–60 words)
+@IN     about a process you know well (at work, at home, or in a shop). Describe the steps in order.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ steps in order? ☐ some passive used? ☐ 40–60 words?
+@PART   7 · Management File — Planning the Day’s Schedule
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 5.5
+@IT     you read: what does a manager plan at the start of the day?
+@BX     Nabil, let’s plan today. We have six cars. Which is booked in first? Nabil: Mr Aboud’s. It’s
+@IN     the questions. (0. is done.)
+@IT     What are they planning? — The day’s work.
+@IT     Which car is booked in first?
+@IT     Who diagnoses the car with the brake problem?
+@IT     What is done to every car before handover?
+@EX     Controlled Practice — The Order of the Process
+@IN     the steps of the service process in order. (0. is done.)
+@IT     The car is booked in. — 1
+@IF     The car is road-tested.
+@IF     The car is serviced in the workshop.
+@IF     The car is handed over to the customer.
+@IF     The car is checked by the quality team.
+@EX     Role-Play — Planning the Schedule
+@IN     pairs. One is the manager (Maher); one is the foreman (Nabil). Use the model and cards.
+@BX     exchange: Maher: Which car is first? — Nabil: Mr Aboud’s, a normal service. — Maher: Good. T
+@BX     A — Manager (Maher): share out the cars, say who does each job, and state the rule for hando
+@TRK    [PR]: one car needs a part that has not arrived — decide where to put it in the day’s order,
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write the plan for the day for the team. Say the order of the cars and the rule f
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ the order clear? ☐ passive used? ☐ the handover rule stated? ☐ 50–80 wo
+@PART   8 · Global Case Study — The Workshop That Cut Waiting Times
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: why do customers sometimes wait too long at a garage?
+@GL     process = a set of steps done in order · step = one part of a process · order = the correct 
+@BX     service centre once had a problem: customers waited too long. Cars sat in the car park, and 
+@IN     the questions. (0. is done.)
+@IT     What was the problem? — Customers waited too long.
+@IT     Why were the cars not moving well before?
+@IT     What did the board on the wall show?
+@IT     What did the manager say a good process is about?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “A clear process helps because…” · “In my workshop, the process is…” · “The most imp
+@PART   9 · Local Case Study — Syria in Focus: The Three-Day Fleet Job
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: how can a garage service many cars in a few days without stopping its normal work?
+@BX     government office in Damascus needed its fleet of fifteen cars serviced quickly, before an i
+@IN     the questions. (0. is done.)
+@IT     Whose fleet was it? — A government office in Damascus.
+@IT     How many cars, and how many days?
+@IT     How were the fleet cars booked in?
+@IT     What did the parts store check early?
+@EX     9: Decision Task
+@IN     big fleet job comes in, but the normal customers still need service. Should Maher (a) stop a
+@BX     frame: “I think Maher should ___ because ___. A clear plan lets the team ___. This is better
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · in small groups… · This is better than… · a clear plan i
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     A final check before the car goes back is a quality check.
+@WB     bank: booked | serviced | is | are | tolerance
+@IG     When a car arrives, it is ____________________ in at reception.
+@IG     In the workshop, the car is inspected and ____________________ .
+@IG     “The car ____________________ serviced by the mechanic.” (passive)
+@IG     “The tyres ____________________ checked in the workshop.” (passive, plural)
+@IG     The correct level, or allowed range, for a reading is the ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the steps and the departments of the service process.
+@IT     I can use the passive (is / are + past participle) to describe a process.
+@IT     I can understand a customer explanation and a day plan.
+@IT     I can explain the service process to a customer in writing.
+@IT     I can plan a day’s service schedule (Practitioner).
+@EX     10: Glossary
+@LG     5 glossary (10 words)
+@BG     in · inspect · diagnose · service · road-test · quality check · hand over · reception · work
+@PB     
+-- 344 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

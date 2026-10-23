@@ -1,0 +1,347 @@
+@U      10: The Customer, the Manufacturer and Selling Service
+@SUB    for Auto Maintenance Personnel · Level: Low B1 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Par
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Customer and Manufacturer Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Reporting What People Say
+@IW     the sentences using the words in the word bank.
+@WB     bank: said | told | asked | that
+@IG     The customer ____________________ he was happy.
+@IG     Maher ____________________ the team to follow the new plan.
+@IG     Rana ____________________ if the car was ready.
+@IG     Lina said ____________________ she had finished the training.
+@EX     Reading About the Dealership
+@IW     the text and choose the correct answer.
+@BX     good service department looks after the customer, the car, and the manufacturer. It listens 
+@BI     What does a good department listen to?
+@OP     ○ A) The radio
+@OP     ○ B) Customer feedback
+@OP     ○ C) The traffic
+@OP     ○ D) Nothing
+@BI     What does the manager do at a team meeting?
+@OP     ○ A) Reports the news
+@OP     ○ B) Sells cars
+@OP     ○ C) Cleans
+@OP     ○ D) Sleeps
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Customer and Manufacturer Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Training → learning new skills for the job.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     manufacturer bulletin = a note from the carmaker with news or advice · campaign = a special 
+@EX     1: Pronunciation
+@LB     Audio Track 10.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — man-u-FAC-tur-er
+@PR     — sat-is-FAC-tion
+@PR     — cam-PAIGN
+@PR     — FEED-back
+@PR     — re-com-MEND
+@PR     — TECH-ni-cal
+@EX     1: Who Tells Us What Table
+@IMG    (540x143)
+@CAP    10.2 · Information flows in every direction.
+@IN     the table. Write what each person or group tells the department. (0. is done.)
+@COLB   rows=5
+@IT     The customer — tells us their feedback.
+@EX     1: Reporting Verbs
+@IN     each verb with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Customer and Manufacturer — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What is a service reminder?
+@OP     ○ A) A tool
+@OP     ○ B) A fault
+@OP     ○ C) A message that a service is due
+@OP     ○ D) A car part
+@BI     What is customer satisfaction?
+@OP     ○ A) The price
+@OP     ○ B) The good feeling when a customer is happy
+@OP     ○ C) A bill
+@OP     ○ D) A tool
+@BI     What is a manufacturer bulletin?
+@OP     ○ A) A customer’s car
+@OP     ○ B) A type of oil
+@OP     ○ C) A road
+@OP     ○ D) A note from the carmaker with news or advice
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: feedback | campaign | recommend | training
+@IG     We listen to customer ____________________ .
+@IG     The carmaker started a safety ____________________ .
+@IG     A happy customer will ____________________ us to friends.
+@IG     The team goes on ____________________ to learn new skills.
+@EX     1: Write About Customer Relations (short)
+@IN     two or three sentences about looking after customers. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Reported Speech
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x143)
+@CAP    10.4 · An authorised dealer, between manufacturer and customers.
+@IN     these pairs. How does the sentence change when we report it?
+@BX     “The car is ready.” → Reported: She said (that) the car was ready. Direct: “Change the oil.”
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Backshift: is→was, will→would, can→could, present→past. Reported questions use if / whether 
+@WO     out! ✗ She said me. → ✓ She told me / She said (to me). ✗ He asked is the car ready. → ✓ He 
+@EX     2: Controlled Practice
+@IN     each statement. (0. is done.)
+@IT     “The car is ready.” → She said (that) the car was ready.
+@IT     “I have finished the training.” (Lina)
+@IT     “The parts will arrive tomorrow.” (Rana)
+@IT     “Change the oil.” (Maher → Tarek)
+@IT     “We use genuine parts.” (Nabil)
+@EX     2: Report the Question
+@IN     each question. (0. is done.)
+@IT     “Is the car ready?” (customer) → The customer asked if the car was ready.
+@IT     “When will it be finished?” (Mr Aboud)
+@IT     “Have you diagnosed it?” (Maher)
+@IT     “Do you use genuine parts?” (customer)
+@IT     “Is the training finished?” (Nabil)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     She said me the car was ready.
+@IT     He asked is the car ready.
+@IT     Maher told to change the oil.
+@IT     Rana said the parts will arrive.
+@EX     2: Freer Practice
+@IN     two things: one statement someone said, and one question someone asked, this week.
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which is correct reported speech?
+@OP     ○ A) She said the car was ready.
+@OP     ○ B) She said me the car was ready.
+@OP     ○ C) She told the car was ready.
+@OP     ○ D) She say the car is ready.
+@BI     Which is a correct reported question?
+@OP     ○ A) He asked is the car ready.
+@OP     ○ B) He asked the car was ready.
+@OP     ○ C) He asked if the car was ready.
+@OP     ○ D) He asked if is the car ready.
+@IT     Harvest: you will see reported speech again in the Part 5 reading and the team meeting. Watc
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Customer Feedback
+@IT     Audio Track 10.2
+@IT     you listen: why does a garage ask customers for feedback?
+@BX     Maher, I called Mr Aboud for his feedback. Maher: What did he say? Rana: He said he was very
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Rana called Mr Aboud for feedback. — True
+@IF     Mr Aboud said he was unhappy. ____
+@IF     He said the team was honest and fast. ____
+@IF     He asked about a service for his brother’s car. ____
+@IT     phrases: He said (that)… · He told me… · He asked if…
+@EX     3: A Manufacturer Update
+@IT     Audio Track 10.3
+@IT     you listen: what kind of news does a carmaker send to a dealer?
+@BX     Maher, there’s a new bulletin from the manufacturer. Maher: What does it say? Lina: It says 
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What is the bulletin about? — A software update for the new model.
+@IT     What did the bulletin tell them to do?
+@IT     Is the update urgent?
+@IT     Has Lina done the training?
+@IT     phrases: The bulletin told us to… · It said it wasn’t urgent · It asked us to…
+@EX     3: The Team Meeting
+@IT     Audio Track 10.4
+@IT     you listen: what news does a manager share at a team meeting?
+@BX     Good morning, everyone. Here’s the news. First, the customers. The feedback is very good. Mr
+@IN     you listen: match each topic with the news. One is not needed. (0. is done.)
+@IT     The customers → the feedback is very good.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Customers and the Manufacturer
+@IN     with a partner. Ask and answer these questions.
+@IF     is customer feedback important?
+@IF     kind of news does a manufacturer send a dealer?
+@IF     does a team need training every year?
+@BX     language: The customer said… · The manufacturer told us to… · He asked if… · We report…
+@EX     4: Find the Difference
+@IN     in pairs. Student A looks at Meeting notes A; Student B looks at Meeting notes B. Ask and an
+@BX     A — Notes A: feedback good · bulletin about a software update · training finished · campaign
+@BX     B — Notes B: feedback good · bulletin about a new tool · training next week · campaign: free
+@IT     questions: What did the feedback say? · What was the bulletin about? · Is the training finis
+@EX     4: Reporting Role Play
+@IMG    (540x150)
+@CAP    10.3 · The service-team meeting.
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Manager: What did the customer say? — Advisor: He said he was happy and recommende
+@BX     A — Manager: ask what the customer said, what the manufacturer sent, and if the training is 
+@TRK    [PR]: a customer gave difficult feedback — report it honestly to the team and suggest what y
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Report the news from a team meeting: what the customers, th
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: The Customer, the Manufacturer and the Team
+@IMG    (540x165)
+@CAP    10.1 · Three groups: customer, manufacturer, team.
+@IT     you read: which three groups does a dealership service department talk to?
+@GL     satisfied = happy and pleased · authorised dealer = a garage chosen by the carmaker · flows 
+@BX     dealership service department stands between three groups: the customer, the manufacturer, a
+@IN     the multiple-choice questions. (0. is done.)
+@IT     Between which three groups does a dealership stand? — the customer, the manufacturer, and it
+@BI     What do satisfied customers do?
+@OP     ○ A) Complain
+@OP     ○ B) Recommend the garage to family and friends
+@OP     ○ C) Drive away
+@OP     ○ D) Pay less
+@BI     What might a manufacturer bulletin announce?
+@OP     ○ A) A holiday
+@OP     ○ B) A new colour
+@OP     ○ C) A party
+@OP     ○ D) A campaign such as a free safety check
+@BI     Why do mechanics need training?
+@OP     ○ A) Because cars change every year
+@OP     ○ B) Because it is fun
+@OP     ○ C) Because it is easy
+@OP     ○ D) For no reason
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: A Syrian Dealership and an International Brand
+@IT     you read: what does it mean for a Syrian company to become an authorised dealer?
+@GL     responsibility = a duty; something you must do well · standard = an agreed correct level
+@BX     an international carmaker chose a Syrian company to be its authorised dealer, it was a proud
+@IN     True or False. (0. is done.)
+@IT     An international carmaker chose a Syrian company as its authorised dealer. — True
+@IF     Being an authorised dealer had no responsibility. ____
+@IF     The team followed every bulletin and used genuine parts. ____
+@IF     Maher is proud that Syrian hands can meet any standard. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Report a Conversation (50–70 words)
+@IN     a conversation between a customer and an advisor. Use reported speech (said, told, asked).
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): He said (that)… He told Rana (that)… He asked if… Rana said…
+@WB     bank: He said (that)… | He told … (that)… | He asked if… | She said…
+@BC     before you finish: ☐ said / told / asked used? ☐ backshift (is→was, will→would)? ☐ 50–70 wor
+@EX     6: Why Good Communication Matters (50–70 words)
+@IN     why good communication is important in a service department. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | the customer feels valued | keeps the standard high | inform
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: Team-Meeting Notes (50–70 words)
+@IN     short notes from a team meeting. Report what the customers, the manufacturer, and the team s
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): The customers: … said… The manufacturer: … told us to… Training: … sa
+@BC     before you finish: ☐ reported speech throughout? ☐ three groups covered? ☐ 50–70 words?
+@EX     6: Reflection — What I Have Learned (50–70 words)
+@IN     is the last unit. Write about what you have learned in this course, and how it will help you
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ present perfect used? ☐ clear and personal? ☐ 50–70 words?
+@PART   7 · Management File — The Service-Team Meeting
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 10.5
+@IT     you read: how does a manager prepare the news for a team meeting?
+@BX     Rana, let’s prepare for the team meeting. What did the customers say this week? Rana: Mr Abo
+@IN     the questions. (0. is done.)
+@IT     What are they preparing for? — The team meeting.
+@IT     What did Mr Aboud say?
+@IT     What did the bulletin tell them to do?
+@IT     What is the campaign?
+@EX     Controlled Practice — Reporting the News
+@IN     with said, told, asked, or that.
+@WB     bank: said | told | asked | that
+@IG     Mr Aboud ____________________ he was happy.
+@IG     The bulletin ____________________ us to update the software.
+@IG     Maher ____________________ if the training was finished.
+@IG     Rana said ____________________ the car was ready.
+@EX     Role-Play — Running the Team Meeting
+@IN     small groups. One is the manager (Maher); the others are the team. Use the model and cards.
+@BX     exchange: Maher: The customers said the service was fast, and Mr Aboud recommended us. The m
+@BX     A — Manager (Maher): report the customer feedback, the manufacturer’s instruction, the train
+@TRK    [PR]: two pieces of news disagree (a customer wants one thing, the manufacturer asks another
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write the minutes (notes) of the service-team meeting. Report the news in reporte
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ reported speech used? ☐ the three groups + campaign? ☐ clear actions? ☐
+@PART   8 · Global Case Study — Launching Service for a New Model
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: why must a service department be ready before a new model is sold?
+@GL     launch = when a new model is first sold · technical update = a note about how a new model wo
+@BX     a carmaker launches a new model, the service departments have to be ready before the first c
+@IN     the questions. (0. is done.)
+@IT     What must be ready before the first car arrives? — The service departments.
+@IT     What did the manufacturer send before the launch?
+@IT     What did it ask each dealer to do?
+@IT     What did the manufacturer say a launch is really about?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “Training before a launch is important because…” · “In Syria, this could be hard bec
+@PART   9 · Local Case Study — Syria in Focus: Carrying a Famous Name and Our Own
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: what does a Syrian dealership offer that a foreign one may not?
+@BX     Motors became the authorised dealer for an international brand in Damascus. Maher gathered h
+@IN     the questions. (0. is done.)
+@IT     Which brand did Cham Motors represent? — An international brand.
+@IT     What two names did Maher say the team now carried?
+@IT     What did the foreign trainer report?
+@IT     What did Maher tell the trainer?
+@EX     9: Decision Task
+@IN     dealership must meet an international standard but also keep its own local strengths (like r
+@BX     frame: “I think the dealership should ___ because ___. The international standard brings ___
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · the standard brings… · the local skills bring… · This is
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     What a customer says about the service is feedback.
+@WB     bank: bulletin | campaign | said | told | perfect
+@IG     A note from the carmaker with news or advice is a manufacturer ____________________ .
+@IG     A special plan by the carmaker, like a free safety check, is a ____________________ .
+@IG     “She ____________________ the car was ready.” (reported statement)
+@IG     “He ____________________ me to change the oil.” (reported instruction)
+@IG     “The car has come back” uses the present ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main customer, manufacturer, and team words.
+@IT     I can use reported speech (said, told, asked) to report statements and questions.
+@IT     I can understand customer feedback, a manufacturer bulletin, and a team meeting.
+@IT     I can write team-meeting notes and report a conversation.
+@IT     I can run a service-team meeting (Practitioner).
+@EX     10: Glossary
+@LG     10 glossary (10 words)
+@BG     relations · satisfaction · recommend · service reminder · manufacturer bulletin · campaign ·
+@EX     of the Course
+@BX     — you have finished English for Auto Maintenance Personnel. You started with the parts of a 
+-- 346 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

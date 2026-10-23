@@ -101,8 +101,10 @@ def ordering(items, caption, h=440):
     """items = [label].  A numbered-circle list with a blank line to write in."""
     c = Canvas(h, cap=bool(caption))
     n = len(items)
-    top = h - 90
-    step = min(66, (top - 70) / max(n, 1))
+    step = 72
+    floor = c.y0 + 40
+    block = step * (n - 1)
+    top = (h + floor + block) / 2        # the list sits centred in the canvas
     for i, label in enumerate(items):
         y = top - i * step
         c.circ(96, y, 20, fill=PALE)

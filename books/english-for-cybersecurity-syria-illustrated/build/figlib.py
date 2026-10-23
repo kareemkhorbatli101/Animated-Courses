@@ -178,6 +178,14 @@ class Canvas:
             self.line(x - w / 2 + 12, y + h - 22 - i * 18, x + w / 2 - 12,
                       y + h - 22 - i * 18, color=MGREY, lw=1.8)
 
+    def ledger(self, x, y, w=86, h=110, fill=WHITE):
+        self.rect(x - w / 2, y, w, h, fill=fill)
+        self.line(x - w / 2 + 26, y + 8, x - w / 2 + 26, y + h - 8,
+                  color=MGREY, lw=1.6)
+        for i in range(4):
+            self.line(x - w / 2 + 10, y + h - 24 - i * 20, x + w / 2 - 12,
+                      y + h - 24 - i * 20, color=MGREY, lw=1.8)
+
     def icon(self, kind, x, y, s=1.0):
         fns = {"person": lambda: self.person(x, y, s),
                "monitor": lambda: self.monitor(x, y + 24 * s, 130 * s, 92 * s),
@@ -190,7 +198,8 @@ class Canvas:
                "phone": lambda: self.phone(x, y + 10 * s, 54 * s, 94 * s),
                "usb": lambda: self.usb(x, y + 36 * s, 84 * s, 36 * s),
                "disk": lambda: self.disk(x, y + 44 * s, 36 * s),
-               "doc": lambda: self.doc(x, y, 88 * s, 112 * s)}
+               "doc": lambda: self.doc(x, y, 88 * s, 112 * s),
+               "ledger": lambda: self.ledger(x, y, 88 * s, 112 * s)}
         fns[kind]()
 
     # --------------------------------------------------------------- output

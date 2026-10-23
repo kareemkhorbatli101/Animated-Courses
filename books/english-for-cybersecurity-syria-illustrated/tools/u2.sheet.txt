@@ -1,0 +1,345 @@
+@U      2: Under the Bonnet — Systems and Fluids
+@SUB    for Auto Maintenance Personnel · Level: Upper A2 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] P
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Fluids and Parts
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Checking the Car
+@IW     the sentences using the words in the word bank.
+@WB     bank: oil | coolant | battery | leak
+@IG     Check the ____________________ level with the dipstick.
+@IG     The engine is hot; check the ____________________ level.
+@IG     The car won’t start; maybe the ____________________ is flat.
+@IG     There is oil on the floor; the engine has a ____________________ .
+@EX     Reading About the Engine
+@IMG    (540x180)
+@CAP    2.1 · Under the bonnet: the main parts.
+@IW     the text and choose the correct answer.
+@BX     the bonnet, there are many important parts. There is a battery, a radiator, and an engine. T
+@BI     What does the mechanic check every service?
+@OP     ○ A) The tyres
+@OP     ○ B) The doors
+@OP     ○ C) The fluid levels
+@OP     ○ D) The seats
+@BI     What can happen if there isn’t enough oil?
+@OP     ○ A) The car goes faster
+@OP     ○ B) The engine can be damaged
+@OP     ○ C) Nothing happens
+@OP     ○ D) The radio stops
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Systems and Fluid Terms
+@IN     the parts with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Engine → the machine that makes the car move.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     alternator = it makes electricity while the engine runs · dipstick = a tool to check the oil
+@EX     1: Pronunciation
+@LB     Audio Track 2.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — RA-di-a-tor
+@PR     — COOL-ant
+@PR     — AL-ter-na-tor
+@PR     — BAT-ter-y
+@PR     — FIL-ter
+@PR     — EN-gine
+@EX     1: Fluids Table
+@IMG    (540x158)
+@CAP    2.2 · The main fluids a car needs.
+@IN     the table. Write what each fluid does and where it goes. (0. is done.)
+@TBL 2600,3600,2826   rows=5
+@IT     Engine oil — keeps parts moving smoothly — in the engine.
+@EX     1: Types of Fluid
+@IN     each fluid with what it does. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Systems and Fluids — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What does the alternator do?
+@OP     ○ A) Makes electricity while the engine runs
+@OP     ○ B) Cools the engine
+@OP     ○ C) Cleans the oil
+@OP     ○ D) Holds bags
+@BI     What do you use a dipstick for?
+@OP     ○ A) To start the car
+@OP     ○ B) To open the bonnet
+@OP     ○ C) To clean the glass
+@OP     ○ D) To check the oil level
+@BI     What does coolant do?
+@OP     ○ A) It makes power
+@OP     ○ B) It stops the engine getting too hot
+@OP     ○ C) It cleans the air
+@OP     ○ D) It stores electricity
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: oil | coolant | filter | battery
+@IG     Check the engine ____________________ with the dipstick.
+@IG     The ____________________ keeps the engine cool.
+@IG     The air ____________________ cleans the air going into the engine.
+@IG     The ____________________ stores electricity to start the car.
+@EX     1: Write About the Engine (short)
+@IN     two or three sentences about what is under the bonnet. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — There is / There are + some / any / much / many
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IN     these lines from the workshop. Underline there is / there are. When do we use some, any, muc
+@BX     is a battery under the bonnet. There are two filters in the box. There is some oil, but ther
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     some → + sentences. any → questions and – sentences. much + uncountable (oil, coolant). many
+@WO     out! ✗ There are much oil. → ✓ There is much oil (oil is uncountable). ✗ How much filters? →
+@EX     2: Controlled Practice
+@IN     with is or are. (0. is done.)
+@IT     There is a battery under the bonnet.
+@IG     There ____________________ two hoses on the radiator.
+@IG     There ____________________ some oil on the floor.
+@IG     There ____________________ four filters in the box.
+@IG     There ____________________ a leak in the pipe.
+@EX     2: Some, Any, Much or Many?
+@IN     the correct word.
+@IG     Is there ____________________ brake fluid? (any / some)
+@IG     There aren’t ____________________ clean filters. (much / many)
+@IG     There isn’t ____________________ coolant left. (much / many)
+@IG     We have ____________________ new spark plugs. (some / any)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     There is two batteries in the store.
+@IT     How much filters are there?
+@IT     There are much oil in the engine.
+@IT     Is there some brake fluid?
+@EX     2: Freer Practice
+@IN     two sentences about your workshop or toolbox: one with there is and one with there are.
+@EX     2: Grammar Review
+@IN     the correct sentence.
+@BI     Which sentence is correct?
+@OP     ○ A) There are three filters.
+@OP     ○ B) There is three filters.
+@OP     ○ C) There be three filters.
+@OP     ○ D) There am three filters.
+@BI     Which sentence is correct?
+@OP     ○ A) There is many hoses.
+@OP     ○ B) There are many hoses.
+@OP     ○ C) There are much hoses.
+@OP     ○ D) There is much hoses.
+@IT     Harvest: you will see there is / there are and some / any / much / many again in the Part 5 
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Checking the Fluids
+@IT     Audio Track 2.2
+@IT     you listen: which fluid does a mechanic check first?
+@BX     Right, let’s check the fluids. First, I check the engine oil with the dipstick. There is eno
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Nabil is checking the fluids. — True
+@IF     There is enough engine oil. ____
+@IF     There is a lot of coolant. ____
+@IF     The washer fluid is full. ____
+@IT     phrases: First, I check… · There is / isn’t much… · I’ll top it up.
+@EX     3: At the Parts Store
+@IT     Audio Track 2.3
+@IT     you listen: what parts does a service department keep in the store?
+@BX     Tarek, are there any oil filters in the store? Tarek: Let me check. There are three oil filt
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What is Tarek checking? — The parts store.
+@IT     How many oil filters are there?
+@IT     Are there any air filters?
+@IT     What must Tarek order?
+@IT     phrases: Are there any…? · How much…? · There aren’t any…
+@EX     3: The Morning Stock Check
+@IT     Audio Track 2.4
+@IT     you listen: why does a manager check the stock before the day starts?
+@BX     Good morning. Before we start, let’s check the stock. We have a busy day: five services and 
+@IN     you listen: match each person with what they do. One action is not needed. (0. is done.)
+@IT     Maher → leads the stock check.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Systems and Fluids
+@IN     with a partner. Ask and answer these questions.
+@IF     fluids does a car need? Name three.
+@IF     can happen if there isn’t enough oil or coolant?
+@IF     often should a driver check the fluids?
+@BX     language: A car needs… · There is / are… · If there isn’t enough… · The driver should…
+@EX     4: Find the Difference
+@IMG    (540x173)
+@CAP    2.3 · Label the parts under the bonnet.
+@IN     in pairs. Student A looks at Car A; Student B looks at Car B. Ask and answer to find three d
+@BX     A — Car A: the oil is full · the coolant is low · there are two new filters · no leaks.
+@BX     B — Car B: the oil is low · the coolant is full · there are no new filters · there is a smal
+@IT     questions: Is there any…? · How much…? · How many…? · Is the … full or low?
+@EX     4: Reporting Role Play
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Nabil: There isn’t much coolant, and there aren’t any air filters. — Maher: How ma
+@BX     A — Mechanic: report on the fluids and parts (use some / any / much / many). Card B — Manage
+@TRK    [PR]: a needed part is not in the shop and hard to import — explain the delay to the custome
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Say what is under the bonnet of a car and which fluids it n
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: The Engine and Its Fluids
+@IMG    (540x158)
+@CAP    2.4 · Oil and coolant in the engine.
+@IT     you read: which fluid do you think is the most important for the engine?
+@GL     level = how much of a fluid there is · top up = to add more of a fluid · damaged = broken or
+@BX     engine has many parts, and it needs several fluids to work well. The most important fluid is
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What keeps the engine parts moving? — engine oil.
+@BI     What does coolant do?
+@OP     ○ A) Makes the brakes work
+@OP     ○ B) Cleans the windscreen
+@OP     ○ C) Stops the engine getting too hot
+@OP     ○ D) Stores electricity
+@BI     How does the mechanic check the oil?
+@OP     ○ A) With a dipstick
+@OP     ○ B) With a computer
+@OP     ○ C) With a spanner
+@OP     ○ D) With water
+@BI     Why is checking the fluids important?
+@OP     ○ A) It is slow and hard
+@OP     ○ B) It makes the car faster
+@OP     ○ C) It is dangerous
+@OP     ○ D) It saves a lot of money
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Parts and Fluids in Syria
+@IT     you read: are good parts and fluids always easy to find where you live?
+@GL     import = to bring from another country · genuine part = a part made by the carmaker · stock 
+@BX     Syria, good parts and fluids are not always easy to find. New cars are hard to import, and s
+@IN     True or False. (0. is done.)
+@IT     Good parts are always easy to find in Syria. — False
+@IF     Prices for some parts can be high. ____
+@IF     A careful manager checks the stock every week. ____
+@IF     Genuine parts and cheaper parts are exactly the same. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: What Is Under the Bonnet? (50–70 words)
+@IN     what is under the bonnet of a car. Use there is and there are, and some / any / much / many.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Under the bonnet, there is ___. There are ___. There is some ___. The
+@WB     bank: there is / there are… | some / any / much / many… | engine, battery, radiator… | oil, 
+@BC     before you finish: ☐ there is + there are used? ☐ some / any / much / many used? ☐ 50–70 wor
+@EX     6: Why Checking Fluids Matters (50–70 words)
+@IN     why checking the fluids is important. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | if there isn’t enough… | the engine can be damaged | expensi
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Stock Note (50–70 words)
+@IN     a short note from Nabil (mechanic) to Maher (manager) about what to order.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Dear ___, I checked ___. There is / isn’t ___. There are / aren’t ___
+@BC     before you finish: ☐ there is/are + some/any/much/many? ☐ a clear order? ☐ 50–70 words?
+@EX     6: Reflection — A Car Problem (40–60 words)
+@IN     about a time a car had a problem with a fluid or a part (for example, low oil or a leak).
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ the problem described? ☐ there is/are used? ☐ 40–60 words?
+@PART   7 · Management File — Checking the Stock
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 2.5
+@IT     you read: what does a manager ask about when checking the stock?
+@BX     Nabil, let’s check the stock before the customers arrive. How much oil do we have? Nabil: Th
+@IN     the questions. (0. is done.)
+@IT     When do they check the stock? — Before the customers arrive.
+@IT     How much oil is there?
+@IT     How many oil filters are left?
+@IT     What must Nabil order?
+@EX     Controlled Practice — Completing the Order
+@IN     with much, many, some, or any.
+@WB     bank: much | many | some | any
+@IG     There isn’t ____________________ coolant.
+@IG     There aren’t ____________________ oil filters.
+@IG     Please order ____________________ air filters.
+@IG     Is there ____________________ brake fluid left?
+@EX     Role-Play — The Stock Check
+@IN     pairs. One is the manager (Maher); one is the mechanic (Nabil). Use the model and cards.
+@BX     exchange: Maher: How much oil do we have? — Nabil: There is plenty. — Maher: How many filter
+@BX     A — Manager (Maher): ask how much / how many of three items · decide what to order. Card B —
+@TRK    [PR]: money is tight this month — decide which parts to order now and which can wait, and ex
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short parts order for the supplier. Say what you need and how much / how 
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ clear quantities (how much / how many)? ☐ a polite request? ☐ 50–80 wor
+@PART   8 · Global Case Study — A Store That Never Runs Out
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: what is the problem if a garage has too few parts? What about too many?
+@GL     stock = the parts a business keeps to use · order = to ask a supplier to send more · shelf =
+@BX     busy service centre once had a problem. Sometimes it had too many parts on the shelf, and so
+@IN     the questions. (0. is done.)
+@IT     What was on the shelf sometimes? — Too many parts; sometimes none.
+@IT     What two numbers did the manager write for each part?
+@IT     How often did they count the parts they used most?
+@IT     What did the manager say a good store is?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “This is similar to Syria because…” · “This is different from Syria because…” · “The
+@PART   9 · Local Case Study — Syria in Focus: Genuine or Cheaper Parts?
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: when a car needs a part, what two choices does a customer often have in Syria?
+@BX     customer, Mr Aboud, came to Cham Motors for a service. His car needed a new air filter and a
+@IN     the questions. (0. is done.)
+@IT     Why did Mr Aboud come to Cham Motors? — For a service.
+@IT     What did his car need?
+@IT     What two choices did Rana explain?
+@IT     What did Rana advise for the belt?
+@EX     9: Decision Task
+@IN     customer wants the cheapest parts for everything, even the brakes. Should the advisor (a) se
+@BX     frame: “I think the advisor should ___ because ___. For important parts like ___, ___. This 
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · for important parts like… · This is better than… · the s
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     The machine that makes the car move is the engine.
+@WB     bank: oil | radiator | are | is | many
+@IG     A liquid that keeps the engine parts moving smoothly is ____________________ .
+@IG     The part that holds the coolant and lets heat escape is the ____________________ .
+@IG     “There ____________________ two filters in the box.”
+@IG     “There ____________________ some oil on the floor.”
+@IG     much is for uncountable nouns; ____________________ is for countable nouns.
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main systems and fluids under the bonnet.
+@IT     I can use there is / there are with some, any, much, and many.
+@IT     I can understand a stock check between a manager and a mechanic.
+@IT     I can write a short parts order or stock note (Practitioner).
+@IT     I can describe what a car needs and how much / how many.
+@EX     10: Glossary
+@LG     2 glossary (10 words)
+@BG     · radiator · alternator · belt · hose · engine oil · coolant · brake fluid · air filter · di
+@PB     
+-- 344 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

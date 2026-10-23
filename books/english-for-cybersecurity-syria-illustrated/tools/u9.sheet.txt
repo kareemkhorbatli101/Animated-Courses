@@ -1,0 +1,345 @@
+@U      9: Diagnosis, Repairs and Comebacks
+@SUB    for Auto Maintenance Personnel · Level: Low B1 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Par
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Diagnosis Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Talking About Repairs
+@IW     the sentences using the words in the word bank.
+@WB     bank: replaced | Have | has | checked
+@IG     Yesterday, I ____________________ the brake pads.
+@IG     ____________________ you checked the battery yet?
+@IG     The car ____________________ come back with the same noise.
+@IG     I’ve already ____________________ the tyres.
+@EX     Reading About Fault-Finding
+@IW     the text and choose the correct answer.
+@BX     a car has a fault, the mechanic must find it. First, he looks at the symptoms: a noise, a wa
+@BI     What does the mechanic look at first?
+@OP     ○ A) The symptoms
+@OP     ○ B) The price
+@OP     ○ C) The colour
+@OP     ○ D) The tyres
+@BI     What is a comeback?
+@OP     ○ A) A new car
+@OP     ○ B) A road test
+@OP     ○ C) When a car returns with the same fault
+@OP     ○ D) A warranty
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Diagnosis and Repair Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Fault → something wrong with the car.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     symptom = a sign that something is wrong · comeback = when a car returns with the same fault
+@EX     1: Pronunciation
+@LB     Audio Track 9.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — SYMP-tom
+@PR     — DI-ag-nose
+@PR     — re-PAIR
+@PR     — re-PLACE
+@PR     — re-con-DI-tioned
+@PR     — WARN-ing
+@EX     1: Fault-Finding Table
+@IMG    (540x143)
+@CAP    9.2 · The fault-finding steps.
+@IN     the table. Write what happens at each step. (0. is done.)
+@COLB   rows=5
+@IT     Look at the symptoms — the mechanic notices a noise or a light.
+@EX     1: Fault-Finding Actions
+@IN     each action with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Diagnosis and Repair — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What is a symptom?
+@OP     ○ A) A repair
+@OP     ○ B) A sign that something is wrong
+@OP     ○ C) A new part
+@OP     ○ D) A tool
+@BI     What is a reconditioned part?
+@OP     ○ A) A broken part
+@OP     ○ B) A new part
+@OP     ○ C) A cheap plastic part
+@OP     ○ D) An old part repaired to work like new
+@BI     What does ‘diagnose’ mean?
+@OP     ○ A) To find out what is wrong
+@OP     ○ B) To sell the car
+@OP     ○ C) To clean it
+@OP     ○ D) To drive fast
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: symptom | diagnose | replace | comeback
+@IG     A noise or a light is a ____________________ .
+@IG     First, we ____________________ the problem with a computer.
+@IG     If the part is broken, we ____________________ it.
+@IG     A car that returns with the same fault is a ____________________ .
+@EX     1: Write About Fault-Finding (short)
+@IN     two or three sentences about how a mechanic finds and fixes a fault. Use three words from th
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Present Perfect vs Past Simple
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x143)
+@CAP    9.4 · A reconditioned part: repaired to work like new.
+@IN     these lines. Which have a finished time? Which talk about experience or a result now?
+@BX     simple (finished time): I replaced the pads yesterday. He diagnosed it last week. Present pe
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Past simple with a finished time word (yesterday, last week). Present perfect for experience
+@WO     out! ✗ I have replaced it yesterday. → ✓ I replaced it yesterday (finished time). ✗ Have you
+@EX     2: Controlled Practice
+@IN     with the past simple or present perfect. (0. is done.)
+@IT     I replaced the pads yesterday. (replace)
+@IT     ___ you ever ___ (repair) a gearbox?
+@IT     He ___ (diagnose) the fault last week.
+@IT     The car ___ (come) back with the same noise.
+@IT     I ___ (check) the brakes an hour ago.
+@EX     2: Choose the Form
+@IN     the correct form.
+@IG     I ____________________ the part yesterday. (replaced / have replaced)
+@IG     ____________________ it yet? (Did you check / Have you checked)
+@IG     She ____________________ it last Monday. (diagnosed / has diagnosed)
+@IG     We ____________________ three cars today. (already fixed / have already fixed)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     I have replaced the pads yesterday.
+@IT     Have you diagnose the fault?
+@IT     He has fix it last week.
+@IT     Did you ever repaired a gearbox?
+@EX     2: Freer Practice
+@IN     two sentences: one about a repair you did (past simple, with a time), and one about your exp
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which sentence is correct with ‘yesterday’?
+@OP     ○ A) I have replaced it yesterday.
+@OP     ○ B) I have replace it yesterday.
+@OP     ○ C) I replaced it yesterday.
+@OP     ○ D) I replacing it yesterday.
+@BI     Which sentence is correct for experience?
+@OP     ○ A) Did you ever repair a gearbox?
+@OP     ○ B) Have you ever repaired a gearbox?
+@OP     ○ C) Have you ever repair a gearbox?
+@OP     ○ D) You ever repaired a gearbox?
+@IT     Harvest: you will see the present perfect and past simple again in the Part 5 reading. Watch
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Finding the Fault
+@IT     Audio Track 9.2
+@IT     you listen: what are the first signs of a fault?
+@BX     Lina, what’s the symptom? Lina: There’s a warning light and a strange noise from the engine.
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Lina is finding a fault. — True
+@IF     There is a warning light and a noise. ____
+@IF     Lina has not diagnosed the problem yet. ____
+@IF     The problem is a failed sensor. ____
+@IT     phrases: Have you diagnosed it yet? · I connected… an hour ago · the sensor has failed.
+@EX     3: A Comeback
+@IT     Audio Track 9.3
+@IT     you listen: what does a customer say when a fault returns?
+@BX     Aboud: Hello, I brought my car in last week, but the noise has come back. Rana: I’m sorry to
+@IN     you listen: answer the questions. (0. is done.)
+@IT     Why is Mr Aboud back? — The noise has come back (a comeback).
+@IT     What did the garage do last week?
+@IT     Does Mr Aboud have to pay?
+@IT     What will the garage do today?
+@IT     phrases: the noise has come back · What did we do last week? · it’s under our guarantee.
+@EX     3: The Week’s Repairs
+@IT     Audio Track 9.4
+@IT     you listen: is a comeback always a mistake?
+@BX     Let’s look at this week’s repairs. On Monday, Lina diagnosed three cars, and we fixed them a
+@IN     you listen: match each time with what happened. One is not needed. (0. is done.)
+@IT     Monday → Lina diagnosed three cars.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Repairs
+@IMG    (540x150)
+@CAP    9.1 · From symptom to repair.
+@IN     with a partner. Ask and answer these questions.
+@IF     does a mechanic find a fault, step by step?
+@IF     you ever fixed something difficult? What was it?
+@IF     must a garage take every comeback seriously?
+@BX     language: First, I look at… · Have you ever…? · I’ve already… · It has come back…
+@EX     4: Find the Difference
+@IMG    (540x150)
+@CAP    9.3 · Name each warning light.
+@IN     in pairs. Student A looks at Car A; Student B looks at Car B. Ask and answer to find three d
+@BX     A — Car A: warning light on · a noise from the engine · the sensor has failed · the part has
+@BX     B — Car B: no warning light · a leak under the car · a hose has failed · the part has arrive
+@IT     questions: Is the warning light on? · What is the symptom? · What has failed? · Has the part
+@EX     4: The Comeback Role Play
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Customer: I brought my car last week, but the noise has come back. — Advisor: I’m 
+@BX     A — Customer: explain that a fault has come back, say what was done last week, and ask if yo
+@TRK    [PR]: the comeback is a different fault, not the old one — explain honestly what has happene
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Explain how you find and fix a fault. Use the past simple a
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: Diagnosis, Repairs and Comebacks
+@IT     you read: is finding a fault more like following a list, or solving a puzzle?
+@GL     cause = the reason a problem happens · experience = the knowledge you get from doing a job f
+@BX     a fault is like solving a puzzle. First, the mechanic looks at the symptoms: a noise, a warn
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What is finding a fault like? — solving a puzzle.
+@BI     What does the mechanic look at first?
+@OP     ○ A) The symptoms
+@OP     ○ B) The price
+@OP     ○ C) The colour
+@OP     ○ D) The driver
+@BI     What is a reconditioned part?
+@OP     ○ A) A new part
+@OP     ○ B) A broken part
+@OP     ○ C) A painted part
+@OP     ○ D) An old part repaired to work like new
+@BI     What must the mechanic do after the work?
+@OP     ○ A) Do nothing
+@OP     ○ B) Road-test the car again
+@OP     ○ C) Paint it
+@OP     ○ D) Drive fast
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Keeping Old Cars on the Road in Syria
+@IT     you read: why is the skill to repair so important in Syria?
+@GL     skilled = very good at a job · throw away = to put in the rubbish
+@BX     Syria, new cars are expensive and hard to import, so most people drive older cars and keep t
+@IN     True or False. (0. is done.)
+@IT     In Syria, most people drive older cars. — True
+@IF     New parts are always cheap and easy to get in Syria. ____
+@IF     A reconditioned part is an old part repaired to work like new. ____
+@IF     Syrian mechanics are skilled at repairing, not just replacing. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Finding and Fixing a Fault (50–70 words)
+@IN     how you found and fixed a fault. Use the past simple and the present perfect.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Yesterday, a car came in with ___. First, I ___. I have ___ many time
+@WB     bank: Yesterday, I …ed | I have …ed (experience) | First, Then… | the fault has gone / stopp
+@BC     before you finish: ☐ past simple with a time? ☐ present perfect for experience or result? ☐ 
+@EX     6: Why Every Comeback Matters (50–70 words)
+@IN     why a garage must take every comeback seriously. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … must take … seriously because… | trust is at risk | find the real cause | a chance t
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Repair Note (50–70 words)
+@IN     a short note from the technician to the manager about a repair and a comeback.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Last week, we ___. The noise has come back, but I have diagnosed ___.
+@BC     before you finish: ☐ past simple + present perfect? ☐ what has come back and why? ☐ 50–70 wo
+@EX     6: Reflection — A Problem I Solved (40–60 words)
+@IN     about a problem you found and fixed (a car, a machine, or anything). How did you find the ca
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear story? ☐ past simple + present perfect? ☐ 40–60 words?
+@PART   7 · Management File — Handling a Comeback and a Warranty Repair
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 9.5
+@IT     you read: how does a manager handle a car that has come back?
+@BX     Lina, Mr Aboud’s car has come back with the same noise. Have you diagnosed it? Lina: Yes, I 
+@IN     the questions. (0. is done.)
+@IT     Whose car has come back? — Mr Aboud’s.
+@IT     What did they do last week?
+@IT     Why has the noise come back?
+@IT     What will Lina do now?
+@EX     Controlled Practice — The Comeback
+@IN     with the past simple or present perfect.
+@WB     bank: replaced | has | Have | diagnosed
+@IG     Last week, we ____________________ the pads.
+@IG     The noise ____________________ come back.
+@IG     ____________________ you found the cause yet?
+@IG     Lina ____________________ the fault this morning.
+@EX     Role-Play — Handling the Comeback
+@IN     pairs. One is the manager (Maher); one is the technician (Lina). Use the model and cards.
+@BX     exchange: Maher: Have you diagnosed the comeback? — Lina: Yes. We replaced the pads last wee
+@BX     A — Manager (Maher): ask about the diagnosis, what was done last week, and the real cause; d
+@TRK    [PR]: the customer is angry that the car came back — stay calm, explain what has happened, a
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short comeback report for the car’s file: what was done, what has come ba
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ past simple + present perfect? ☐ the real cause? ☐ the action and ‘free
+@PART   8 · Global Case Study — The Repair-and-Reuse Business
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: is it always better to fit a new part than to repair an old one?
+@GL     reconditioned = an old part repaired to work like new · reuse = to use something again · reb
+@BX     clever mechanic once started an unusual business. Instead of always fitting new parts, he re
+@IN     the questions. (0. is done.)
+@IT     What did the mechanic repair? — Old parts.
+@IT     What did most garages do with a failed part?
+@IT     What did the mechanic do instead?
+@IT     What did he say a repaired part is?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “Reconditioned parts are good because…” · “In Syria, this is common because…” · “Rep
+@PART   9 · Local Case Study — Syria in Focus: Repair or Import?
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: what can a driver do if a new part is not in the country?
+@BX     old taxi came to Cham Motors with a failed alternator. The taxi driver, Abu Firas, needed hi
+@IN     the questions. (0. is done.)
+@IT     What was Abu Firas’s job? — A taxi driver.
+@IT     What did Abu Firas’s taxi need?
+@IT     Why couldn’t he import a new alternator?
+@IT     What did Maher offer?
+@EX     9: Decision Task
+@IN     customer’s part has failed. A new one must be imported (three weeks, expensive), but the old
+@BX     frame: “I think the garage should ___ because ___. A good reconditioned part ___. This is be
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · a good reconditioned part… · This is better than… · the 
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     A sign that something is wrong is a symptom.
+@WB     bank: reconditioned | comeback | replaced | has | obligation
+@IG     An old part repaired to work like new is a ____________________ part.
+@IG     When a car returns with the same fault, it is a ____________________ .
+@IG     “I ____________________ the pads yesterday.” (past simple, finished time)
+@IG     “The car ____________________ come back with the same noise.” (present perfect)
+@IG     “Every car must pass the quality check” states an ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main fault-finding and repair words.
+@IT     I can use the past simple and the present perfect correctly.
+@IT     I can understand a diagnosis and a comeback conversation.
+@IT     I can write a repair note or a comeback report.
+@IT     I can handle a comeback and a warranty repair (Practitioner).
+@EX     10: Glossary
+@LG     9 glossary (10 words)
+@BG     · diagnose · warning light · repair · replace · comeback · reconditioned part · fault-find ·
+@PB     
+-- 344 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

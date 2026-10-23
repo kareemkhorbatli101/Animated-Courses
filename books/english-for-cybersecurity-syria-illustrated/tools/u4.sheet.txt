@@ -1,0 +1,346 @@
+@U      4: Measuring, Readings and Diagnosis
+@SUB    for Auto Maintenance Personnel · Level: Upper A2 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] P
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Measuring Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Checking the Numbers
+@IW     the sentences using the words in the word bank.
+@WB     bank: pressure | tread | gauge | voltage
+@IG     Check the tyre ____________________ with a gauge.
+@IG     If the ____________________ is low, the tyre is worn.
+@IG     Use a ____________________ to measure the pressure.
+@IG     Check the battery ____________________ with a meter.
+@EX     Reading About Measuring
+@IW     the text and choose the correct answer.
+@BX     good mechanic measures carefully. He checks the tyre pressure with a gauge, and he measures 
+@BI     What does the mechanic use to check the tyre pressure?
+@OP     ○ A) A spanner
+@OP     ○ B) A gauge
+@OP     ○ C) A jack
+@OP     ○ D) A hammer
+@BI     What does ‘tolerance’ mean?
+@OP     ○ A) The colour
+@OP     ○ B) The price
+@OP     ○ C) The weight
+@OP     ○ D) The correct level for a reading
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Measuring and Diagnosis Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Meter → a tool that measures electricity.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     tolerance = the correct level, or allowed range · tread depth = how deep a tyre’s grooves ar
+@EX     1: Pronunciation
+@LB     Audio Track 4.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — GAYJ
+@PR     — PRES-sure
+@PR     — VOL-tage
+@PR     — TOL-er-ance
+@PR     — MEA-sure
+@PR     — di-ag-NO-sis
+@EX     1: Measurements Table
+@IMG    (540x150)
+@CAP    4.1 · Measuring tools: gauge, tread gauge, meter.
+@IN     the table. Write the unit and the tool for each measurement. (0. is done.)
+@TBL 3026,2900,3100   rows=5
+@IT     Tyre pressure — bar or psi — a pressure gauge.
+@EX     1: Readings and What They Tell You
+@IN     each reading with what it tells you. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Measuring — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What unit is tyre pressure measured in?
+@OP     ○ A) Millimetres
+@OP     ○ B) Volts
+@OP     ○ C) Bar or psi
+@OP     ○ D) Degrees
+@BI     What does a gauge do?
+@OP     ○ A) It shows a measurement
+@OP     ○ B) It lifts the car
+@OP     ○ C) It turns bolts
+@OP     ○ D) It cools the engine
+@BI     What is ‘tolerance’?
+@OP     ○ A) A type of tool
+@OP     ○ B) The correct level or allowed range
+@OP     ○ C) A car part
+@OP     ○ D) A fluid
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: pressure | tread | voltage | gauge
+@IG     Check the tyre ____________________ before a long trip.
+@IG     If the ____________________ is worn, change the tyre.
+@IG     A weak battery has a low ____________________ .
+@IG     Measure the pressure with a ____________________ .
+@EX     1: Write About Measuring (short)
+@IN     two or three sentences about what you measure on a car and the tools you use. Use three word
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Comparatives and Superlatives
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x150)
+@CAP    4.2 · Comparing tread depth on four tyres.
+@IN     these lines from a tyre check. Underline the comparative and superlative forms.
+@BX     tyre is more worn than that one. The front tyres are newer than the rear tyres. The rear lef
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Short adjective + -er / -est (low → lower → the lowest). Long adjective: more / the most (wo
+@WO     out! ✗ gooder / more good → ✓ better / the best. ✗ badder → ✓ worse / the worst. Don’t forge
+@EX     2: Controlled Practice
+@IN     the comparative form. (0. is done.)
+@IT     This tyre is more worn than that one. (worn)
+@IT     The rear tyre is ___ (worn) than the front tyre.
+@IT     Today’s reading is ___ (low) than yesterday’s.
+@IT     A new tyre is ___ (good) than an old one.
+@IT     This tyre is ___ (bad) than that one.
+@EX     2: Superlatives
+@IN     the superlative form. (0. is done.)
+@IT     Of the four tyres, the rear left is the most worn. (worn)
+@IT     This is the ___ (low) reading of all.
+@IT     This is the ___ (good) battery in the store.
+@IT     That is the ___ (bad) tyre on the car.
+@IT     The rear left is the ___ (worn) of the four tyres.
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     This tyre is more worse than that one.
+@IT     The battery is lower as yesterday.
+@IT     This is the most low reading.
+@IT     A new tyre is gooder than an old one.
+@EX     2: Freer Practice
+@IN     two tyres or two batteries you know. Write one comparative and one superlative sentence.
+@EX     2: Grammar Review
+@IN     the correct sentence.
+@BI     Which sentence is correct?
+@OP     ○ A) This tyre is more worn that that one.
+@OP     ○ B) This tyre is more worn than that one.
+@OP     ○ C) This tyre is worner than that one.
+@OP     ○ D) This tyre is most worn than that one.
+@BI     Which sentence is correct?
+@OP     ○ A) This is the lowest reading.
+@OP     ○ B) This is the most low reading.
+@OP     ○ C) This is the more low reading.
+@OP     ○ D) This is the lower reading of all.
+@IT     Harvest: you will see comparatives and superlatives again in the Part 5 reading. Watch for t
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Checking the Tyres
+@IT     Audio Track 4.2
+@IT     you listen: how does a mechanic know a tyre is too worn?
+@BX     Let me check these tyres. The front left has good tread, about six millimetres. The front ri
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Lina is checking the tyres. — True
+@IF     The front tyres have good tread. ____
+@IF     The rear left tyre has the deepest tread. ____
+@IF     The rear left tyre should be changed. ____
+@IT     phrases: … is more worn than… · the most worn · a little better
+@EX     3: The Diagnostic Report
+@IT     Audio Track 4.3
+@IT     you listen: what numbers does a diagnostic report show?
+@BX     Lina, what does the report say? Lina: The battery voltage is a little low — lower than last 
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What is Lina reading? — The diagnostic report.
+@IT     Is the battery voltage high or low?
+@IT     What is the correct tolerance?
+@IT     Which tyre is the most worn?
+@IT     phrases: lower than last time · below / within the tolerance · the numbers tell the story
+@EX     3: Comparing Three Cars
+@IT     Audio Track 4.4
+@IT     you listen: how does a manager decide which car needs the most work?
+@BX     We have three cars to check this morning. Let’s compare them. The first car, Mr Aboud’s, is 
+@IN     you listen: match each car with its condition. One is not needed. (0. is done.)
+@IT     Mr Aboud’s car → in good condition.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Measurements
+@IN     with a partner. Ask and answer these questions.
+@IF     things does a mechanic measure on a car?
+@IF     is it important to compare all four tyres?
+@IF     must a reading be within the tolerance?
+@BX     language: We measure… · … is more … than… · the most… · within / below the tolerance.
+@EX     4: Find the Difference
+@IMG    (540x150)
+@CAP    4.3 · Read each gauge and write the value.
+@IN     in pairs. Student A looks at Car A; Student B looks at Car B. Ask and answer to find three d
+@BX     A — Car A: front tyres 6 mm · rear tyres 4 mm · battery 12.6 volts · pressure fine.
+@BX     B — Car B: front tyres 5 mm · rear tyres 2 mm · battery 12.1 volts · pressure low.
+@IT     questions: How deep is the tread? · Which is more worn? · What is the voltage? · Is it withi
+@EX     4: Reporting Readings Role Play
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Lina: The rear left is more worn than the others. — Nabil: How low? — Lina: Only t
+@BX     A — Technician: report the tyre and battery readings; compare them (use comparatives and sup
+@TRK    [PR]: two cars need work but there is only time for one — decide which is more urgent, and e
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Compare two cars or two tyres, and say which is in better c
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: Why Numbers Matter in Diagnosis
+@IMG    (540x143)
+@CAP    4.4 · Readings tell the story: in range, too low, warning.
+@IT     you read: is measuring better than guessing? Why?
+@GL     diagnosis = finding out what is wrong · tolerance = the correct level for a reading · within
+@BX     car maintenance is about numbers. A good mechanic does not just look at a car; he measures i
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What is modern car maintenance about? — numbers.
+@BI     What does the mechanic measure tread depth in?
+@OP     ○ A) Volts
+@OP     ○ B) Bar
+@OP     ○ C) Degrees
+@OP     ○ D) Millimetres
+@BI     A healthy battery reads between which numbers?
+@OP     ○ A) 1 and 2
+@OP     ○ B) 6 and 7
+@OP     ○ C) 12.4 and 12.7 volts
+@OP     ○ D) 100 and 200
+@BI     Why does the mechanic compare the four tyres?
+@OP     ○ A) To find the most worn one
+@OP     ○ B) To clean them
+@OP     ○ C) To sell them
+@OP     ○ D) To paint them
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Servicing Cars in Syria
+@IT     you read: why might a car in Syria need servicing more often?
+@GL     rough = not smooth; bumpy · service interval = the time or distance between services
+@BX     in Syria often work in hard conditions. The roads can be rough and full of holes, and there 
+@IN     True or False. (0. is done.)
+@IT     Roads in Syria are always smooth. — False
+@IF     Dust blocks the air filter faster. ____
+@IF     The mechanic follows the book exactly, with no changes. ____
+@IF     A shorter service interval keeps the car safer. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Compare Two Cars (50–70 words)
+@IN     two cars, or two sets of tyres. Use comparatives and superlatives.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): The first car is ___ than the second. Its ___ is newer/stronger. The 
+@WB     bank: … is more / -er than… | the most / the -est… | newer, stronger, worn, low | needs more
+@BC     before you finish: ☐ comparatives used? ☐ at least one superlative? ☐ than after comparative
+@EX     6: Why Measuring Matters (50–70 words)
+@IN     why careful measuring is important in car maintenance. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | find the real problem | within / below the tolerance | bette
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Readings Note (50–70 words)
+@IN     a short note from Lina (technician) to Maher (manager) with a car’s readings.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Dear ___, Here are the readings for ___. The battery is ___. The ___ 
+@BC     before you finish: ☐ clear readings + comparisons? ☐ a recommendation? ☐ 50–70 words?
+@EX     6: Reflection — Comparing Two Things (40–60 words)
+@IN     about two things you know well and compare them (for example, two cars, two roads, or two to
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ comparatives + one superlative? ☐ clear comparison? ☐ 40–60 words?
+@PART   7 · Management File — Checking the Diagnostic Report
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 4.5
+@IT     you read: what does a manager check on a diagnostic report?
+@BX     Lina, let’s look at this diagnostic report together. How is the battery? Lina: It’s low — 12
+@IN     the questions. (0. is done.)
+@IT     What are they looking at? — The diagnostic report.
+@IT     What is the battery voltage, and is it within the tolerance?
+@IT     Which tyre is the most worn?
+@IT     What does Maher tell Lina to do?
+@EX     Controlled Practice — Reading the Table
+@IN     tread readings are: front left 6 mm, front right 5 mm, rear left 2 mm, rear right 3 mm. Comp
+@WB     bank: more | most | deepest | worse
+@IG     The front left has ____________________ tread than the rear left.
+@IG     The rear left is the ____________________ worn tyre.
+@IG     The front left has the ____________________ tread of all four.
+@IG     The rear left is ____________________ than the rear right.
+@EX     Role-Play — Reviewing the Report
+@IN     pairs. One is the manager (Maher); one is the technician (Lina). Use the model and cards.
+@BX     exchange: Maher: How is the battery? — Lina: Below the tolerance, 12.1 volts. — Maher: And t
+@BX     A — Manager (Maher): ask about the battery and the tyres; decide what to do. Card B — Techni
+@TRK    [PR]: a reading is only a little outside the tolerance — decide whether to act now or watch 
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short summary of a car’s readings for the customer’s file. Say what is wi
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ clear readings + comparisons? ☐ within / below the tolerance used? ☐ th
+@PART   8 · Global Case Study — Why Standard Numbers Matter
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: why should mechanics in every country use the same numbers?
+@GL     standard = an agreed correct level for everyone · tolerance = the small range that is allowe
+@BX     carmaker once had a problem. In different countries, mechanics serviced the same car in diff
+@IN     the questions. (0. is done.)
+@IT     What did the carmaker make? — A clear book of numbers.
+@IT     What was the problem before?
+@IT     What did the book give for every car?
+@IT     What did the chief engineer say?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “Standards are useful because…” · “In Syria, this is… because…” · “The most importan
+@PART   9 · Local Case Study — Syria in Focus: Adjusting the Service Interval
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: should a mechanic in Syria follow the carmaker’s book exactly? Why, or why not?
+@BX     looked after a customer’s car that drove every day on rough roads outside Damascus. The carm
+@IN     the questions. (0. is done.)
+@IT     Where did the customer’s car drive every day? — On rough roads outside Damascus.
+@IT     How often did the book say to change the filter?
+@IT     Why was the filter blocked at only 9,000 km?
+@IT     What decision did Maher make?
+@EX     9: Decision Task
+@IN     customer drives every day on rough, dusty roads. Should the service centre (a) follow the bo
+@BX     frame: “I think the centre should ___ because ___. Dusty, rough roads are harder on ___. Thi
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · harder on… · This is better than… · it saves the engine 
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     A tool that shows a measurement is a gauge.
+@WB     bank: pressure | tolerance | more | most | PPE
+@IG     How hard the air pushes inside a tyre is the tyre ____________________ .
+@IG     The correct level, or allowed range, for a reading is the ____________________ .
+@IG     “This tyre is ____________________ worn than that one.” (comparative)
+@IG     “This is the ____________________ worn tyre of all four.” (superlative)
+@IG     Safety gear like gloves and glasses is called ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main measurements on a car and the tools that read them.
+@IT     I can use comparatives and superlatives to compare readings.
+@IT     I can understand a diagnostic report and which reading is outside the tolerance.
+@IT     I can write a clear readings summary (Practitioner).
+@IT     I can compare cars and decide which needs the most work.
+@EX     10: Glossary
+@LG     4 glossary (10 words)
+@BG     · tyre pressure · tread depth · voltage · temperature · tolerance · reading · worn · meter ·
+@PB     
+-- 345 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

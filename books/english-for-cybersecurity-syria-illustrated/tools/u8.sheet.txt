@@ -1,0 +1,345 @@
+@U      8: Quality, Standards and Warranty
+@SUB    for Auto Maintenance Personnel · Level: Low B1 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Par
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Quality and Warranty Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     The Rules of Quality
+@IW     the sentences using the words in the word bank.
+@WB     bank: must | mustn’t | have | don’t
+@IG     Every car ____________________ pass the quality check.
+@IG     You ____________________ hand over a car with a fault.
+@IG     Under warranty, we ____________________ to use genuine parts.
+@IG     If the car is fine, you ____________________ have to change anything.
+@EX     Reading About Quality
+@IW     the text and choose the correct answer.
+@BX     is a promise. At a good service centre, every car must pass a road test and a quality check 
+@BI     What must every car pass before handover?
+@OP     ○ A) A race
+@OP     ○ B) A road test and a quality check
+@OP     ○ C) A wash
+@OP     ○ D) Nothing
+@BI     What must a garage use under warranty?
+@OP     ○ A) Any cheap part
+@OP     ○ B) Old parts
+@OP     ○ C) No parts
+@OP     ○ D) Genuine parts
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Quality and Warranty Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Inspection sheet → a paper that lists what to check on a car.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     warranty = a promise that certain repairs are free for a time · recall = when the carmaker a
+@EX     1: Pronunciation
+@LB     Audio Track 8.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — QUAL-i-ty
+@PR     — WAR-ran-ty
+@PR     — DE-fect
+@PR     — GEN-u-ine
+@PR     — STAN-dard
+@PR     — in-SPEC-tion
+@EX     1: The Quality Check Table
+@IMG    (540x150)
+@CAP    8.2 · The rules of a quality check.
+@IN     the table. Write why we do each quality step. (0. is done.)
+@COLB   rows=5
+@IT     Road test — to make sure the car is safe to drive.
+@EX     1: Quality Rules and Reasons
+@IN     each rule with its reason. One reason is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Quality and Warranty — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What is a defect?
+@OP     ○ A) A good part
+@OP     ○ B) A new car
+@OP     ○ C) A fault
+@OP     ○ D) A tool
+@BI     What is a warranty?
+@OP     ○ A) A promise to repair or replace for free for a time
+@OP     ○ B) A bill
+@OP     ○ C) A deposit
+@OP     ○ D) A key
+@BI     What is a recall?
+@OP     ○ A) A phone call
+@OP     ○ B) When the carmaker asks owners to bring cars back to fix a fault
+@OP     ○ C) A road test
+@OP     ○ D) A service
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: warranty | defect | genuine | sign-off
+@IG     A ____________________ is a promise to repair for free for a time.
+@IG     A fault in the car is a ____________________ .
+@IG     Under warranty, we use ____________________ parts.
+@IG     After the check, the mechanic does a ____________________ .
+@EX     1: Write About Quality (short)
+@IN     two or three sentences about quality and warranty. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Must / Have To / Mustn’t
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x143)
+@CAP    8.4 · A warranty: free repairs for a period.
+@IN     these lines. Which say ‘it is necessary’? Which say ‘it is not allowed’? Which say ‘it is no
+@BX     / have to (necessary): Every car must pass the check. We have to use genuine parts. Mustn’t 
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     must and have to are similar (both = necessary). mustn’t = it is forbidden. don’t have to = 
+@WO     out! ✗ mustn’t = don’t have to. NO! mustn’t = don’t do it (dangerous); don’t have to = you c
+@EX     2: Controlled Practice
+@IN     with must or mustn’t. (0. is done.)
+@IT     Every car must pass the road test.
+@IT     You ___ hand over a car with a fault.
+@IT     Every job ___ be signed off.
+@IT     You ___ hide a defect from the customer.
+@IT     The car ___ be safe before handover.
+@EX     2: Have To or Don’t Have To?
+@IN     with have to, has to, don’t have to, or doesn’t have to.
+@IG     Under warranty, we ____________________ use genuine parts.
+@IG     If the car is fine, you ____________________ change the part.
+@IG     Every mechanic ____________________ follow the safety rules.
+@IG     The customer ____________________ pay if the repair is under warranty.
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     You must to pass the quality check.
+@IT     You don’t must hand over a faulty car.
+@IT     We has to use genuine parts.
+@IT     Every car must passes the road test.
+@EX     2: Freer Practice
+@IN     three quality rules for a garage: one with must, one with have to, and one with mustn’t.
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which sentence means ‘it is forbidden’?
+@OP     ○ A) You mustn’t hide a defect.
+@OP     ○ B) You don’t have to hide a defect.
+@OP     ○ C) You have to hide a defect.
+@OP     ○ D) You should hide a defect.
+@BI     Which sentence means ‘it is not necessary’?
+@OP     ○ A) You must change it.
+@OP     ○ B) You mustn’t change it.
+@OP     ○ C) You don’t have to change it.
+@OP     ○ D) You have to change it.
+@IT     Harvest: you will see must, have to, and mustn’t again in the Part 5 reading. Watch for them
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: The Quality Check
+@IT     Audio Track 8.2
+@IT     you listen: what must a car pass before it is handed over?
+@BX     Tarek, before we hand over this car, we have to do the quality check. First, the road test —
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Nabil and Tarek are doing a quality check. — True
+@IF     The car must be safe to drive. ____
+@IF     They can hand over the car with the mark. ____
+@IF     Every job on the sheet must be ticked. ____
+@IT     phrases: we have to… · the car must be… · we mustn’t hand it over yet.
+@EX     3: A Warranty Question
+@IT     Audio Track 8.3
+@IT     you listen: if a car is under warranty, who pays for a real defect?
+@BX     Aboud: My car is making a noise, and it’s still under warranty. Rana: Then you don’t have to
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What is Mr Aboud’s car doing? — Making a noise.
+@IT     Does Mr Aboud have to pay, if it is a warranty defect?
+@IT     What must the garage use under warranty?
+@IT     What mustn’t Mr Aboud do?
+@IT     phrases: you don’t have to pay · we have to use… · you mustn’t drive it if…
+@EX     3: The Service Standard
+@IT     Audio Track 8.4
+@IT     you listen: why does an authorised dealer follow the carmaker’s rules?
+@BX     Let’s talk about our standard. As an authorised dealer, we have to follow the carmaker’s rul
+@IN     you listen: match each rule with the detail. One is not needed. (0. is done.)
+@IT     As an authorised dealer → we follow the carmaker’s rules.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Quality and Warranty
+@IMG    (540x150)
+@CAP    8.1 · The quality gate before handover.
+@IN     with a partner. Ask and answer these questions.
+@IF     must every car pass before it is handed over?
+@IF     mustn’t a garage hide a defect?
+@IF     does a warranty mean for the customer?
+@BX     language: Every car must… · You mustn’t… · We have to… · The customer doesn’t have to…
+@EX     4: Find the Difference
+@IMG    (540x165)
+@CAP    8.3 · Tick each item on the inspection sheet.
+@IN     in pairs. Student A looks at Car A; Student B looks at Car B. Ask and answer to find three d
+@BX     A — Car A: passed the road test · no defects · all jobs signed off · ready to hand over.
+@BX     B — Car B: passed the road test · a small mark on the door · one job not signed off · not re
+@IT     questions: Did it pass the road test? · Are there any defects? · Is every job signed off? · 
+@EX     4: Warranty Role Play
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Customer: My car has a fault, and it’s under warranty. — Advisor: Then you don’t h
+@BX     A — Service advisor: explain the warranty (what the customer doesn’t have to pay, what the g
+@TRK    [PR]: a customer wants you to hide a small defect to save time — explain, firmly and politel
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Explain the quality rules at a good garage. Use must, have 
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: Why Quality Matters
+@IT     you read: what does ‘quality’ mean at a service centre?
+@GL     standard = an agreed correct level · valid = still working; can be used · record = to write 
+@BX     is a promise that a car will leave the garage safe and correct. To keep this promise, a good
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What is quality? — a promise that a car will leave safe and correct.
+@BI     What must every car pass before handover?
+@OP     ○ A) A wash
+@OP     ○ B) A road test and a quality check
+@OP     ○ C) A race
+@OP     ○ D) A phone call
+@BI     Under warranty with a real defect, what does the customer NOT have to do?
+@OP     ○ A) Drive the car
+@OP     ○ B) Wait a year
+@OP     ○ C) Use cheap parts
+@OP     ○ D) Pay
+@BI     What must a garage never do?
+@OP     ○ A) Hide a defect
+@OP     ○ B) Use genuine parts
+@OP     ○ C) Do a road test
+@OP     ○ D) Follow the rules
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: An Honest Guarantee in Syria
+@IT     you read: why does a written guarantee mean a lot in Syria?
+@GL     guarantee = a promise to put something right if it fails · argue = to disagree strongly
+@BX     Syria, a written guarantee from a garage means a lot. Many people have had a bad experience:
+@IN     True or False. (0. is done.)
+@IT     In Syria, a written guarantee from a garage means a lot. — True
+@IF     At Cham Motors, if the same fault comes back in the guarantee time, the customer pays again.
+@IF     Maher fixed the failed repair for free. ____
+@IF     An honest guarantee builds trust. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: The Quality Rules (50–70 words)
+@IN     the quality rules for a garage. Use must, have to, and mustn’t.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Every car must ___. You have to ___. You mustn’t ___. Under warranty,
+@WB     bank: Every car must… | You have to… | You mustn’t… | we have to use genuine parts
+@BC     before you finish: ☐ must / have to used? ☐ mustn’t used? ☐ clear rules? ☐ 50–70 words?
+@EX     6: Why Standards and Warranty Matter (50–70 words)
+@IN     why quality standards and honest warranty work are important. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | the customer is safe | the customer trusts it | builds a goo
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: Explaining a Warranty (50–70 words)
+@IN     a short note to a customer, explaining their warranty and what it covers.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): The fault is a defect, and your warranty is valid, so you don’t have 
+@BC     before you finish: ☐ warranty explained clearly? ☐ must / mustn’t / don’t have to used? ☐ 50
+@EX     6: Reflection — A Promise Kept (40–60 words)
+@IN     about a time a shop or a person kept a promise (a guarantee), or did not. What happened?
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear story? ☐ some obligation language? ☐ 40–60 words?
+@PART   7 · Management File — A Quality Review Before Handover
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 8.5
+@IT     you read: what does a manager check before a car is handed over?
+@BX     Maher, this car is ready for handover, but I want you to check it. Maher: Good. Did it pass 
+@IN     the questions. (0. is done.)
+@IT     What does Nabil want Maher to do? — Check the car before handover.
+@IT     Did the car pass the road test?
+@IT     What is the problem?
+@IT     What must Nabil do before handover?
+@EX     Controlled Practice — The Quality Rules
+@IN     with must, mustn’t, have to, or don’t have to.
+@WB     bank: must | mustn’t | have to | don’t have to
+@IG     Every car ____________________ pass the quality check.
+@IG     You ____________________ hand over a car with a fault.
+@IG     Under warranty, we ____________________ use genuine parts.
+@IG     If the car is fine, you ____________________ change anything.
+@EX     Role-Play — The Quality Review
+@IN     pairs. One is the manager (Maher); one is the mechanic (Nabil). Use the model and cards.
+@BX     exchange: Maher: Did it pass the road test? — Nabil: Yes, but there’s a small mark. — Maher:
+@BX     A — Manager (Maher): ask about the road test, defects, and sign-off; decide if the car can b
+@TRK    [PR]: the customer is waiting and in a hurry, but the car has a small defect — explain, kind
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short quality-check note for the car’s file: what passed, what must be fi
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ what passed + what must be fixed? ☐ obligation language? ☐ the rule sta
+@PART   8 · Global Case Study — The Honest Recall
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: what should a carmaker do if it finds a fault in thousands of cars?
+@GL     fault = something wrong that needs fixing · safety = being safe, free from danger · open = h
+@BX     carmaker once found a small but serious fault in one of its parts. The fault was in thousand
+@IN     the questions. (0. is done.)
+@IT     What did the company order? — A recall.
+@IT     What did the carmaker find?
+@IT     What two choices did it have?
+@IT     Why did people trust the brand more?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “An honest recall is good because…” · “Hiding a fault is wrong because…” · “Safety m
+@PART   9 · Local Case Study — Syria in Focus: The Guarantee That Kept Its Promise
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: why might a customer expect to argue about a guarantee?
+@BX     customer, Mr Khalil, had his car’s water pump replaced at Cham Motors. He paid, and he got a
+@IN     the questions. (0. is done.)
+@IT     What was replaced on Mr Khalil’s car? — The water pump.
+@IT     What guarantee did Mr Khalil get?
+@IT     What happened after twelve days?
+@IT     What did Maher say a guarantee is worth?
+@EX     9: Decision Task
+@IN     customer’s repair fails inside the guarantee time. Should the garage (a) argue and refuse to
+@BX     frame: “I think the garage should ___ because ___. A guarantee is ___. This is better than _
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · a guarantee is a promise… · This is better than… · a pro
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     A promise to repair or replace for free for a time is a warranty.
+@WB     bank: defect | genuine | must | mustn’t | will
+@IG     A fault, something wrong with the car, is a ____________________ .
+@IG     A part made by the carmaker is a ____________________ part.
+@IG     “Every car ____________________ pass the quality check.” (obligation)
+@IG     “You ____________________ hand over a car with a fault.” (prohibition)
+@IG     “I ____________________ call you when it’s ready” is a promise.
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main quality and warranty words.
+@IT     I can use must, have to, and mustn’t for rules and prohibitions.
+@IT     I can understand a quality check and a warranty conversation.
+@IT     I can write the quality rules and explain a warranty.
+@IT     I can run a quality review before handover (Practitioner).
+@EX     10: Glossary
+@LG     8 glossary (10 words)
+@BG     check · road test · defect · sign-off · warranty · recall · genuine part · service standard 
+@PB     
+-- 344 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

@@ -56,6 +56,59 @@ def u1():
     ]
 
 
+# ------------------------------------------------------------------ Unit 2
+@unit(2)
+def u2():
+    return [
+        ("fig-02-1", A.three_groups(
+            [("Machines", ["computers", "the server", "printers"]),
+             ("Accounts", ["one name", "one password", "per person"]),
+             ("Data", ["files", "messages", "records"])],
+            "The IT department looks after all three.")),
+        ("fig-02-2", A.icon_row(
+            [("doc", "files"), ("envelope", "messages"),
+             ("ledger", "records"), ("disk", "backups")],
+            None)),
+        ("fig-02-3", A.two_panel(
+            ("Office A", [("monitor", "2 printers"), ("server", "1 server"),
+                          ("disk", "space free")]),
+            ("Office B", [("monitor", "1 printer"), ("server", "2 servers"),
+                          ("disk", "disk full")]),
+            "Do not show your card to your partner.")),
+        ("fig-02-4", A.comparison_bars(
+            [("spare keyboards", 0.30, "3"), ("new disks", 0.02, "0"),
+             ("licences left", 0.40, "4"), ("free disk space", 0.18, "low")],
+            "How much, and how many: the store this month.")),
+    ]
+
+
+# ------------------------------------------------------------------ Unit 3
+@unit(3)
+def u3():
+    return [
+        ("fig-03-1", A.icon_row(
+            [("lock", "strong password"), ("monitor", "screen lock"),
+             ("shield", "antivirus"), ("disk", "backup")],
+            None)),
+        ("fig-03-2", A.process_chain(
+            ["save your work", "lock the screen", "papers in the drawer",
+             "check behind you"],
+            "First, Then, Next, Finally.")),
+        ("fig-03-3", A.ordering(
+            ["Give the account only the folders this job needs.",
+             "Set a first password and ask the worker to change it.",
+             "Write the new account on the account list.",
+             "Ask the manager to confirm the name and the job."],
+            "Number the steps in the correct order.")),
+        ("fig-03-4", A.two_panel(
+            ("A careless desk", [("monitor", "screen open"), ("doc", "papers out"),
+                                 ("ledger", "password on a note")]),
+            ("A safe desk", [("lock", "screen locked"), ("doc", "drawer closed"),
+                             ("shield", "nothing to read")]),
+            None)),
+    ]
+
+
 def main():
     want = [int(a) for a in sys.argv[1:]] or sorted(UNITS)
     for n in want:

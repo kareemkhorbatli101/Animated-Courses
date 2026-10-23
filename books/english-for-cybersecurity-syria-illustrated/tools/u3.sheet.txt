@@ -1,0 +1,344 @@
+@U      3: Tools and Safe Working in the Bay
+@SUB    for Auto Maintenance Personnel · Level: Upper A2 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] P
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Tools and Their Uses
+@IW     the tools with their uses. One use is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     In the Workshop
+@IW     the sentences using the words in the word bank.
+@WB     bank: gloves | goggles | jack | tidy
+@IG     Wear ____________________ to protect your hands.
+@IG     Wear ____________________ to protect your eyes.
+@IG     Use a ____________________ to lift the car.
+@IG     Keep your area ____________________ and safe.
+@EX     Reading About Safety
+@IW     the text and choose the correct answer.
+@BX     is the most important rule in the workshop. First, put on your safety glasses and gloves. Th
+@BI     What must you put on first?
+@OP     ○ A) Nothing
+@OP     ○ B) Your phone
+@OP     ○ C) Your coat
+@OP     ○ D) Safety glasses and gloves
+@BI     When a car is up on a jack, what must you always use?
+@OP     ○ A) A radio
+@OP     ○ B) A cup
+@OP     ○ C) Axle stands
+@OP     ○ D) A broom
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Tools and Safety Terms
+@IN     the tools with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Screwdriver → a tool for turning screws.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     axle stand = a strong stand that holds the car up safely · wheel chock = a block that stops 
+@EX     1: Pronunciation
+@LB     Audio Track 3.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — SPA-nner
+@PR     — SOC-ket
+@PR     — RA-tchet
+@PR     — GOG-gles
+@PR     — SAFE-ty
+@PR     — WORK-shop
+@EX     1: Safety Gear (PPE) Table
+@IMG    (540x150)
+@CAP    3.2 · Personal protective equipment (PPE).
+@IN     the table. Write what each item protects and when to wear it. (0. is done.)
+@TBL 2800,2900,3326   rows=5
+@IT     Safety glasses — the eyes — always in the workshop.
+@EX     1: Personal Protective Equipment
+@IN     each item with what it does. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Tools and Safety — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What does a torque wrench do?
+@OP     ○ A) Lifts the car
+@OP     ○ B) Tightens a bolt to the exact level
+@OP     ○ C) Cleans the floor
+@OP     ○ D) Cools the engine
+@BI     What is an axle stand for?
+@OP     ○ A) Holding the car up safely
+@OP     ○ B) Turning screws
+@OP     ○ C) Checking oil
+@OP     ○ D) Storing tools
+@BI     What do ear defenders protect?
+@OP     ○ A) Your hands
+@OP     ○ B) Your eyes
+@OP     ○ C) Your feet
+@OP     ○ D) Your ears
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: spanner | jack | goggles | chock
+@IG     Use a ____________________ to turn the nuts and bolts.
+@IG     Use a ____________________ to lift the car.
+@IG     Wear ____________________ to protect your eyes.
+@IG     Put a ____________________ behind the wheel to stop it rolling.
+@EX     1: Write About Tools (short)
+@IN     two or three sentences about the tools and safety gear you use. Use three words from this un
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Imperatives and Sequencers
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x150)
+@CAP    3.1 · Common workshop tools.
+@IN     these safety rules. Underline the verbs. Which words show the order of the steps?
+@BX     put on your gloves. Then check the tools. Next, chock the wheels. Always use axle stands. Ne
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Negative imperative = Don’t / Never + verb. Use sequencers to show the order of the steps.
+@WO     out! ✗ You put on gloves. (as a rule) → ✓ Put on your gloves. ✗ First raise the car, then ch
+@EX     2: Controlled Practice
+@IN     the instruction as an imperative. (0. is done.)
+@IT     (wear) your safety glasses. → Wear your safety glasses.
+@IT     (not / touch) the hot engine.
+@IT     (chock) the wheels first.
+@IT     (not / work) under a car on a jack alone.
+@IT     (clean) your area at the end.
+@EX     2: Put the Steps in Order
+@IMG    (540x173)
+@CAP    3.3 · Put the safe-lifting steps in order.
+@IN     these steps to raise a car safely. Use the safe order. (0. is done.)
+@IT     Chock the wheels. — 1
+@IF     Raise the car slowly with the jack.
+@IF     Put the axle stands under the car.
+@IF     Check the car is steady before you work.
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     You wear your gloves in the workshop.
+@IT     Not touch the hot engine.
+@IT     First raise the car, then chock the wheels.
+@IT     Please to clean your area.
+@EX     2: Freer Practice
+@IN     three safety rules for a workshop. Use imperatives (and one Don’t or Never).
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which is a correct instruction?
+@OP     ○ A) Wear your safety glasses.
+@OP     ○ B) You wearing safety glasses.
+@OP     ○ C) To wear safety glasses.
+@OP     ○ D) Safety glasses wear.
+@BI     Which order is safe and correct?
+@OP     ○ A) First raise the car, then chock the wheels.
+@OP     ○ B) First chock the wheels, then raise the car.
+@OP     ○ C) Raise the car and work under it on the jack.
+@OP     ○ D) Never chock the wheels.
+@IT     Harvest: you will see imperatives and sequencers again in the Part 5 reading. Watch for them
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: A Safety Briefing
+@IT     Audio Track 3.2
+@IT     you listen: what does a foreman say before the work starts?
+@BX     Listen, everyone, before we start. First, always wear your safety glasses and gloves. Then k
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Nabil is giving a safety briefing. — True
+@IF     You can leave oil on the floor. ____
+@IF     You must always use axle stands. ____
+@IF     It is OK to work under a car on a jack alone. ____
+@IT     phrases: First, always… · Never… · If you smell fuel, stop and tell me.
+@EX     3: Where Are the Tools?
+@IT     Audio Track 3.3
+@IT     you listen: where does a workshop keep its tools?
+@BX     Ustaz, where is the torque wrench? Nabil: It’s on the wall, next to the socket set. Tarek: A
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What is Tarek looking for? — Tools.
+@IT     Where is the torque wrench?
+@IT     What must Tarek do first?
+@IT     What must he do before raising the car?
+@IT     phrases: Where is…? · It’s next to / in the corner / under… · First…, then…
+@EX     3: The Workshop Rules
+@IT     Audio Track 3.4
+@IT     you listen: how many safety rules do you think a workshop needs?
+@BX     Welcome to the workshop. We have five simple rules, and everyone follows them. First, always
+@IN     you listen: match each rule with what it says. One is not needed. (0. is done.)
+@IT     Rule 1 → wear your PPE.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Safety
+@IN     with a partner. Ask and answer these questions.
+@IF     safety gear do you wear in a workshop?
+@IF     is a tidy workshop a safe workshop?
+@IF     are three important safety rules?
+@BX     language: I wear… · Always… · Never… · First…, then… · because it is safe.
+@EX     4: Find the Difference
+@IN     in pairs. Student A looks at Workshop A; Student B looks at Workshop B. Ask and answer to fi
+@BX     A — Workshop A: the floor is clean · the mechanic wears gloves and glasses · the car is on a
+@BX     B — Workshop B: there is oil on the floor · the mechanic has no gloves · the car is on a jac
+@IT     questions: Is the floor clean? · Is he wearing…? · Where are the tools? · Is the car on axle
+@EX     4: Safety Instructions Role Play
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Nabil: First, put on your gloves and glasses. — Tarek: OK. — Nabil: Then chock the
+@BX     A — Foreman: give the safety steps in order (use First, Then, Always, Never). Card B — New m
+@TRK    [PR]: the new mechanic is in a hurry and wants to skip a safety step — stop them, and explai
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Explain the safety rules in a workshop, and the safety gear
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: Safe Working in the Bay
+@IMG    (540x165)
+@CAP    3.4 · A safe bay: chocks, jack and axle stands.
+@IT     you read: what is the most important safety rule in a workshop?
+@GL     chock = to put a block behind a wheel so it can’t roll · disconnect = to take a part or wire
+@BX     car workshop can be a dangerous place, but good rules keep everyone safe. The most important
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What is the most important rule? — always wear your safety gear.
+@BI     Why must you keep the floor clean?
+@OP     ○ A) To look nice
+@OP     ○ B) To save money
+@OP     ○ C) Because oil or a tool can cause a fall
+@OP     ○ D) Because it is the law
+@BI     What must you do before you raise the car?
+@OP     ○ A) Call the manager
+@OP     ○ B) Chock the wheels
+@OP     ○ C) Start the engine
+@OP     ○ D) Open the bonnet
+@BI     What must you do before working on the electrics?
+@OP     ○ A) Disconnect the battery
+@OP     ○ B) Add oil
+@OP     ○ C) Wash the car
+@OP     ○ D) Open the boot
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: A Family Garage in Syria
+@IT     you read: how can a small garage make its work safer?
+@GL     tool board = a board where every tool has its place · step by step = a little at a time
+@BX     a small street in Damascus, the Khalil family has run a garage for thirty years. For many ye
+@IN     True or False. (0. is done.)
+@IT     The Khalil family garage is new. — False
+@IF     Samir learned safety rules at a big dealership. ____
+@IF     He changed the garage all at once, in one day. ____
+@IF     Samir says an accident is expensive. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Workshop Safety Rules (50–70 words)
+@IN     five safety rules for a workshop. Use imperatives and sequencers.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): First, always… Then… When you…, … Never… If…, …
+@WB     bank: First, Then, Next, Finally | Always… / Never… | wear… / keep… / chock… / use… | If you
+@BC     before you finish: ☐ imperatives used? ☐ sequencers used? ☐ at least one Never/Don’t? ☐ 50–7
+@EX     6: Why Safety Matters (50–70 words)
+@IN     why safety is important in a workshop. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | heavy / dangerous | protect the mechanics | an accident cost
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Safety Notice (40–60 words)
+@IN     a short safety notice to put on the workshop wall. Use imperatives.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ clear imperatives? ☐ easy to read? ☐ 40–60 words?
+@EX     6: Reflection — Safety Matters (40–60 words)
+@IN     about a time when safety was important, at work or at home.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear story? ☐ imperatives or a safety rule? ☐ 40–60 words?
+@PART   7 · Management File — The Bay Induction
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a foreman says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 3.5
+@IT     you read: what does a foreman show a new worker on their first day in the bay?
+@BX     Tarek, today is your bay induction. First, this is your PPE: safety glasses, gloves, and ove
+@IN     the questions. (0. is done.)
+@IT     What is Tarek’s induction about? — Safety in the bay.
+@IT     What PPE must Tarek always wear?
+@IT     What must he do after using a tool?
+@IT     What must he never do?
+@EX     Controlled Practice — Induction Steps
+@IN     a foreman’s induction steps in order. Number them 1–5. (0. is done.)
+@IT     Give the new worker their PPE. — 1
+@IF     Show the tool board.
+@IF     Explain how to lift a car safely.
+@IF     Show where the fire extinguisher is.
+@IF     Say “ask me if you are not sure.”
+@EX     Role-Play — Inducting a New Mechanic
+@IN     pairs. One is the foreman (Nabil); one is the new mechanic (Tarek). Use the model and cards.
+@BX     exchange: Nabil: First, always wear your PPE. — Tarek: Yes, Ustaz. — Nabil: After you use a 
+@BX     A — Foreman (Nabil): give the induction in order (PPE → tools → lifting a car → fire extingu
+@TRK    [PR]: the new mechanic says the last workshop did not use axle stands — explain, kindly but 
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write the workshop’s safety rules as a short notice for the wall. Use imperatives
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ clear numbered rules? ☐ imperatives + sequencers? ☐ the axle-stand rule
+@PART   8 · Global Case Study — The Workshop with No Accidents
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: how can a workshop stop accidents before they happen?
+@GL     accident = when someone is hurt by mistake · rule = an instruction that everyone must follow
+@BX     large service centre once had too many small accidents. A mechanic cut his hand; another sli
+@IN     the questions. (0. is done.)
+@IT     What problem did the centre have? — Too many small accidents.
+@IT     What did the manager put on the wall?
+@IT     What did she do every morning?
+@IT     What did she say good safety is?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “This is similar to my workshop because…” · “This is different because…” · “The most
+@PART   9 · Local Case Study — Syria in Focus: Raising a Garage to Dealership Standard
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: what does a garage need to become an authorised service centre?
+@BX     once visited a small garage in Damascus that wanted to become an authorised service centre. 
+@IN     the questions. (0. is done.)
+@IT     What did the garage want to become? — An authorised service centre.
+@IT     What did Maher say the owner needed first?
+@IT     What three things did the owner do?
+@IT     What happened after six months?
+@EX     9: Decision Task
+@IN     garage owner has some money to improve his workshop. Should he first (a) buy a new diagnosti
+@BX     frame: “I think the owner should first ___ because ___. Safety is important because ___. Thi
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should first… · because… · Safety is important because… · This is better than
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     You use a spanner to turn nuts and bolts.
+@WB     bank: axle stand | PPE | Wear | finally | coolant
+@IG     A strong stand that holds the car up safely is an ____________________ .
+@IG     Safety gear like gloves and glasses is called ____________________ .
+@IG     “ ____________________ your safety glasses.” (an instruction)
+@IG     To show the last step, we use the word ____________________ .
+@IG     The fluid that keeps the engine cool is ____________________ .
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main tools and safety gear in a workshop.
+@IT     I can give instructions and safety rules using imperatives and sequencers.
+@IT     I can understand a safety briefing and a bay induction.
+@IT     I can write clear workshop safety rules.
+@IT     I can induct and brief a new mechanic (Practitioner).
+@EX     10: Glossary
+@LG     3 glossary (10 words)
+@BG     · socket set · torque wrench · trolley jack · axle stand · wheel chock · safety glasses · gl
+@PB     
+-- 343 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

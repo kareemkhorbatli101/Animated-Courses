@@ -1,0 +1,345 @@
+@U      6: Servicing and Routine Maintenance
+@SUB    for Auto Maintenance Personnel · Level: Low B1 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Par
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Servicing Words
+@IW     the words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     Talking to the Customer
+@IW     the sentences using the words in the word bank.
+@WB     bank: should | Could | Shall | Would
+@IG     Your brake pads are worn. You ____________________ change them soon.
+@IG     ____________________ you check the tyres, please?
+@IG     ____________________ I top up the coolant for you?
+@IG     ____________________ you like a full service?
+@EX     Reading About Maintenance
+@IW     the text and choose the correct answer.
+@BX     maintenance keeps a car safe and saves money. At every service, the oil is changed, and the 
+@BI     What is changed at every service?
+@OP     ○ A) The seats
+@OP     ○ B) The doors
+@OP     ○ C) The oil
+@OP     ○ D) The colour
+@BI     What does good, honest advice build?
+@OP     ○ A) Trust
+@OP     ○ B) Noise
+@OP     ○ C) Dust
+@OP     ○ D) Speed
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Servicing and Maintenance Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Service → the regular check and care a car needs.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GL     tyre rotation = moving the tyres so they wear evenly · interval = the time or distance betwe
+@EX     1: Pronunciation
+@LB     Audio Track 6.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — SCHE-dule
+@PR     — IN-ter-val
+@PR     — ro-TA-tion
+@PR     — MAIN-te-nance
+@PR     — ad-VISE
+@PR     — MILE-age
+@EX     1: Service Jobs Table
+@IMG    (540x150)
+@CAP    6.1 · The main jobs at a full service.
+@IN     the table. Write why we do each job. (0. is done.)
+@COLB   rows=5
+@IT     Change the oil — to keep the engine parts moving smoothly.
+@EX     1: Service Jobs and Why We Do Them
+@IN     each job with its reason. One reason is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Servicing — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What is tyre rotation?
+@OP     ○ A) Changing the oil
+@OP     ○ B) Cleaning the car
+@OP     ○ C) Checking the battery
+@OP     ○ D) Moving the tyres so they wear evenly
+@BI     What is a service interval?
+@OP     ○ A) A type of oil
+@OP     ○ B) The time or distance between services
+@OP     ○ C) A tool
+@OP     ○ D) A fault
+@BI     What do brake pads do?
+@OP     ○ A) Cool the engine
+@OP     ○ B) Clean the air
+@OP     ○ C) Press to stop the car
+@OP     ○ D) Light the fuel
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: oil | filter | pads | schedule
+@IG     At every service, the ____________________ is changed.
+@IG     The air ____________________ is replaced to keep the air clean.
+@IG     Worn brake ____________________ must be changed.
+@IG     The service ____________________ says when to do each job.
+@EX     1: Write About a Service (short)
+@IN     two or three sentences about a routine service. Use three words from this unit.
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Requests, Offers and Advice (Modals)
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x143)
+@CAP    6.4 · Each service job, and why we do it.
+@IN     these lines. Which are requests? Which are offers? Which give advice?
+@BX     Can you check the brakes? Could you bring the car back? Offers: Shall I top up the coolant? 
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     Could and Would are more polite than Can. Shall I…? offers help. should = advice; shouldn’t 
+@WO     out! ✗ You should to change the oil. → ✓ You should change the oil (no to). ✗ Can you to che
+@EX     2: Controlled Practice
+@IN     a request, offer, or advice, as shown. (0. is done.)
+@IT     (request) check the brakes → Could you check the brakes, please?
+@IT     (advice) change the worn pads
+@IT     (offer) top up the coolant
+@IT     (request) bring the car back next week
+@IT     (advice) not drive on worn tyres
+@EX     2: Choose the Modal
+@IN     the correct word.
+@IG     ____________________ I book you in for Tuesday? (Shall / Should)
+@IG     You ____________________ check the oil before a long trip. (should / could)
+@IG     ____________________ you sign the job card, please? (Could / Shall)
+@IG     You ____________________ drive on very worn tyres. (should / shouldn’t)
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     You should to change the oil.
+@IT     Can you to check the brakes?
+@IT     Shall I to top up the coolant?
+@IT     You should not drives on worn tyres.
+@EX     2: Freer Practice
+@IN     one request, one offer, and one piece of advice you could say to a customer.
+@EX     2: Grammar Review
+@IN     the correct answer.
+@BI     Which is a polite request?
+@OP     ○ A) Could you check the tyres, please?
+@OP     ○ B) You check the tyres.
+@OP     ○ C) Check tyres you.
+@OP     ○ D) Tyres check please.
+@BI     Which is correct advice?
+@OP     ○ A) You should to change the oil.
+@OP     ○ B) You should change the oil.
+@OP     ○ C) You should changing the oil.
+@OP     ○ D) You should changes the oil.
+@IT     Harvest: you will see requests, offers, and advice again in the Part 5 reading. Watch for th
+@PART   3 · Listening
+@TRK    Operator track · pre-class input · scripts printed inline
+@EX     3: Advising the Customer
+@IT     Audio Track 6.2
+@IT     you listen: what does a service advisor say about a worn part?
+@BX     Mr Aboud, we’ve finished the service. Nabil checked everything. Mr Aboud: Good. Is the car O
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Rana is advising Mr Aboud. — True
+@IF     The brake pads are new. ____
+@IF     Rana offers to replace the air filter today. ____
+@IF     Mr Aboud should bring the car back in a month. ____
+@IT     phrases: You should… · Shall I…? · Could you…?
+@EX     3: Booking a Service
+@IT     Audio Track 6.3
+@IT     you listen: what does a customer say when booking a service?
+@BX     Aboud: Hello, I’d like to book a service. Rana: Of course. Could you tell me the mileage? Mr
+@IN     you listen: answer the questions. (0. is done.)
+@IT     What does Mr Aboud want? — To book a service.
+@IT     What is the mileage?
+@IT     What day does Rana book?
+@IT     What does Mr Aboud ask Rana to check?
+@IT     phrases: I’d like to book… · Could you tell me…? · Shall I book you in…?
+@EX     3: The Service Schedule
+@IT     Audio Track 6.4
+@IT     you listen: what is the difference between a small service and a full service?
+@BX     Today I want to talk about the service schedule. Every car has one. It tells us what to do a
+@IN     you listen: match each item with the detail. One is not needed. (0. is done.)
+@IT     A small service → change the oil and oil filter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@TRK    Operator track · in-class output
+@EX     4: Discussing Servicing
+@IN     with a partner. Ask and answer these questions.
+@IF     jobs are done at a full service?
+@IF     should a mechanic give honest advice?
+@IF     do you politely tell a customer a part is worn?
+@BX     language: You should… · Shall I…? · Could you…? · I advise you to… · You don’t need…
+@EX     4: Find the Difference
+@IN     in pairs. Student A looks at Service A; Student B looks at Service B. Ask and answer to find
+@BX     A — Small service: oil changed · oil filter changed · brakes checked · tyres checked.
+@BX     B — Full service: oil changed · air filter and spark plugs replaced · tyres rotated · coolan
+@IT     questions: Is the air filter changed? · Are the tyres rotated? · Are the spark plugs replace
+@EX     4: Advising a Customer Role Play
+@IMG    (540x143)
+@CAP    6.2 · A service advisor advises a customer.
+@IN     in pairs. Read the model, then use the cards.
+@BX     exchange: Advisor: Your brake pads are worn. You should change them soon. — Customer: How mu
+@BX     A — Service advisor: give advice about a worn part, offer to show the quote, and ask the cus
+@TRK    [PR]: the customer wants to do only the cheapest job, but a safety part is worn — advise hon
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Explain what is done at a full service, and give one piece 
+@PART   5 · Reading
+@TRK    Operator track · pre-class input
+@EX     5: Routine Maintenance and Honest Advice
+@IMG    (540x135)
+@CAP    6.3 · A service schedule based on mileage.
+@IT     you read: is it more important for a mechanic to be fast or to be honest?
+@GL     routine = regular, done again and again · advise = to tell someone what you think they shoul
+@BX     maintenance is the regular care that keeps a car safe and working well. It follows a service
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What keeps a car safe and working well? — routine maintenance.
+@BI     What is the service schedule based on?
+@OP     ○ A) The colour
+@OP     ○ B) The price
+@OP     ○ C) The driver’s age
+@OP     ○ D) The car’s mileage or age
+@BI     What does a good mechanic never do?
+@OP     ○ A) Sell work the car does not need
+@OP     ○ B) Change the oil
+@OP     ○ C) Check the brakes
+@OP     ○ D) Give advice
+@BI     What does honest advice build?
+@OP     ○ A) Noise
+@OP     ○ B) Trust
+@OP     ○ C) Dust
+@OP     ○ D) Speed
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Honest Servicing in Damascus
+@IT     you read: why is a trusted mechanic so important in Syria?
+@GL     tight = not much (money) · word of mouth = when people tell their friends
+@BX     Damascus, many drivers keep the same car for a long time, and money can be tight. So they ne
+@IN     True or False. (0. is done.)
+@IT     In Damascus, many drivers keep the same car for a long time. — True
+@IF     Maher’s rule is to do as much work as possible. ____
+@IF     The customer needed a small, cheap part, not a big repair. ____
+@IF     Honest work brought Maher more customers. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Advise a Customer (50–70 words)
+@IN     to a customer after a service. Give advice about a worn part, and offer to help. Use modals.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Thank you… The service is done… However, your ___ is worn, so you sho
+@WB     bank: You should… | Shall I…? | Could you…? | not urgent — you could…
+@BC     before you finish: ☐ advice (should) used? ☐ an offer (Shall I) used? ☐ polite and honest? ☐
+@EX     6: Why Honest Servicing Matters (50–70 words)
+@IN     why honest servicing is important. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | only do the work the car needs | builds trust | a happy cust
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Service Note (50–70 words)
+@IN     a short note from the mechanic to the service advisor about a car’s condition and your advic
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): I have finished ___. The ___ is worn, so we should advise ___. The __
+@BC     before you finish: ☐ clear advice + a request? ☐ which job is urgent? ☐ 50–70 words?
+@EX     6: Reflection — Honest Advice (40–60 words)
+@IN     about a time someone gave you honest advice, or you gave honest advice to someone.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a clear story? ☐ some advice language? ☐ 40–60 words?
+@PART   7 · Management File — Approving a Service Quote
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what an advisor or manager says with its purpose. One purpose is not needed. Write the lette
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 6.5
+@IT     you read: how does a manager approve additional work with a customer?
+@BX     Mr Aboud, the service is done, but we found two things. Your brake pads are worn, so you sho
+@IN     the questions. (0. is done.)
+@IT     What did they find? — Worn brake pads and a dirty air filter.
+@IT     Which job is important for safety?
+@IT     Which job can wait?
+@IT     What does Mr Aboud decide?
+@EX     Controlled Practice — Talking to the Customer
+@IN     with should, Shall, Could, or shouldn’t.
+@WB     bank: should | Shall | Could | shouldn’t
+@IG     Your pads are worn. You ____________________ change them.
+@IG     ____________________ I book you in for Tuesday?
+@IG     ____________________ you sign the job card, please?
+@IG     You ____________________ drive on worn brakes.
+@EX     Role-Play — Approving the Quote
+@IN     pairs. One is the advisor/manager; one is the customer. Use the model and cards.
+@BX     exchange: Advisor: The pads are worn; you should change them for safety. — Customer: And the
+@BX     A — Advisor/Manager: advise which job is urgent, offer to show the quote, ask for approval. 
+@TRK    [PR]: the customer cannot pay for both jobs today — help them choose the safe one, and offer
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short service recommendation for the customer’s file: what is worn, what 
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ what is worn + your advice? ☐ which is urgent? ☐ modals used? ☐ 50–80 w
+@PART   8 · Global Case Study — The Service Plan That Kept Customers
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: why do some customers come once and never return?
+@GL     service plan = paying a fixed price for regular servicing · routine = regular, done again an
+@BX     service centre once lost many customers. People came for one service and never returned. So 
+@IN     the questions. (0. is done.)
+@IT     What did the manager try? — A service plan.
+@IT     What was the problem before?
+@IT     What did the service plan include?
+@IT     What did the manager say they started selling?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “A service plan is good because…” · “In Syria, this could work / not work because…” 
+@PART   9 · Local Case Study — Syria in Focus: Only the Work the Car Needs
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: why might a customer be worried about a big, expensive repair?
+@BX     young driver, Samer, brought his old car to Cham Motors. He was worried. Another garage had 
+@IN     the questions. (0. is done.)
+@IT     Whose car was it? — A young driver, Samer.
+@IT     What did the other garage tell Samer?
+@IT     What did Lina find?
+@IT     Why is honesty good business in Syria?
+@EX     9: Decision Task
+@IN     customer’s car has a small, cheap problem, but a bigger, more expensive repair would earn th
+@BX     frame: “I think the mechanic should ___ because ___. An honest customer ___. This is better 
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · only the work the car needs… · This is better than… · ho
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     Removing old oil and adding new oil is an oil change.
+@WB     bank: pads | rotation | Could | should | passive
+@IG     The parts that press to stop the car are the brake ____________________ .
+@IG     Moving the tyres so they wear evenly is tyre ____________________ .
+@IG     “ ____________________ you check the brakes, please?” (a polite request)
+@IG     “You ____________________ change the worn pads soon.” (advice)
+@IG     “The car is serviced by the mechanic” uses the ____________________ voice.
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main routine-maintenance jobs and why we do them.
+@IT     I can make polite requests and offers, and give advice, using modals.
+@IT     I can understand a customer conversation and a service schedule.
+@IT     I can advise a customer honestly in writing.
+@IT     I can approve a service quote with a customer (Practitioner).
+@EX     10: Glossary
+@LG     6 glossary (10 words)
+@BG     change · air filter · brake pads · tyre rotation · spark plugs · service schedule · interval
+@PB     
+-- 344 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]
