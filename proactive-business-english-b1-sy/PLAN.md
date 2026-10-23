@@ -101,8 +101,39 @@ taken, in this file, with the old figure struck through rather than deleted.
 
 | | projected SB | projected AK | basis |
 | --- | ---: | ---: | --- |
-| **B1 Business Book 1** (Units 1–12) | **39–43** | **24–29** | Business A2 Book 2's measured 35–36, plus the step the general course took from A2 to B1 (31 → 35–38) |
+| ~~**B1 Business Book 1**~~ | ~~39–43~~ | ~~24–29~~ | ~~Business A2 Book 2's measured 35–36, plus the step the general course took from A2 to B1~~ |
 | **B1 Business Book 2** (Units 13–24) | **41–45** | **26–31** | Book 1's band plus the +2 that every Book 2 in this series has taken, less the front matter Book 2 does not carry |
+
+### ✓ As built — Unit 1, measured, and the band that replaces the projection
+
+| | measured | projected | |
+| --- | ---: | ---: | --- |
+| **Unit 1 Student's Book** | **38** | 39–43 | and it carries the book's opener, so later units should be lighter |
+| **Unit 1 Answer Key** | **23** | 24–29 | |
+
+**The band for Book 1 is therefore SB 36–40 and AK 21–25**, with Unit 12 expected over it as the
+end-of-book unit. Both projections were a little high — the fourth time in this series that a
+page projection has been — and the reason is the one the measured record already gives: a
+projection built by adding a level's word counts to another level's structure over-counts,
+because the structure is what prices the page.
+
+⚠ **Two page-break conventions were measured here and neither was inherited.**
+
+- **A B1 Book 1 unit takes 8 `pb()`**, not A2 Book 1's 7: one before each of the seven cycles
+  **and one before the unit check**. At A2 that eighth break only became necessary in Book 2;
+  at B1 the cycles are long enough from Unit 1.
+- **A B1 key takes `cycles − 1 + 1` = 7**, in both books, for the same reason: at 23 pages the
+  unit check will not share a page with cycle 7.
+
+Both are now derived in `qa.js` rather than written down, so a unit cannot be built with the
+wrong figure. The A2 line `UNIT_BREAKS = n => (BOOK_OF(n) === 2 ? 8 : 7)` is kept in the file
+as a comment, because the difference between the two levels is itself the finding.
+
+⚠ **One harness refusal worth recording, because it worked.** Unit 1 needed a freight agent on
+the other end of a telephone. `Agent` was not in the cast, the harness refused it on first use,
+and it was **declared** with its unit number and a comment rather than renamed. That is the
+A2 pattern (Fadi at Unit 10, Technician at 20, Visitor at 23) and the plan predicted exactly
+this voice. `Officer`, `Buyer` and the rest are still deliberately absent.
 
 **Stated exceptions, projected now so that they are not treated as failures later.** Unit 12
 carries the end-of-book block and Unit 24 carries the end-of-level block; both ran over band in
