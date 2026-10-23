@@ -32,7 +32,7 @@ Police and Tour Guides, from the same `content/*.txt` skeleton.
 | Paragraphs | 7,346, of which 2,300 are blank spacers |
 | Elements in reading order | 5,455 |
 | Tables | 264, with 953 rows and 2,155 cells |
-| Pages | 257 in the template; the eight ESP twins land on 252 |
+| Pages | 257 in the template; the ESP twins land on 252, and this one renders at **251** on the same renderer that renders Tour Guides at 251 |
 
 Every structural number is matched exactly. §7 is the verification table the
 build has to fill in.
@@ -180,10 +180,11 @@ the Higher Institute for Applied Sciences and Technology.
 | 9 | Growth, Change and Scaling the Security Function |
 | 10 | Security Advocacy and Professional Communication |
 
-**Back matter:** Appendix A — Audio Scripts (every transcript, printed a second
-time, identical to its printing inside the unit, plus the VBA playback listing) ·
-Appendix B — Answer Key (329 heads, 620 answers, titled from each unit's own
-exercise list).
+**Back matter**, in the order the book prints them: **Appendix B — Answer Key**
+(329 heads, 620 answers, titled from each unit's own exercise list), then
+**Appendix A — Audio Scripts** (every transcript printed a second time,
+identical to its printing inside the unit, plus the VBA playback listing).
+⚠ The template prints the key before the scripts and so does this book.
 
 Below is every exercise in the book, in reading order: **406 exercises**, 37 in
 Unit 1 and 41 in each of Units 2–10. ⚠ **Voices** names the speakers whose lines
@@ -385,36 +386,63 @@ python3 qa/unitdiff.py <src> <cand> <section>  # section-by-section element list
 python3 qa/scripts.py  content                 # Appendix A against each unit's transcripts
 python3 qa/outline.py  <doc>                   # dump any document in reading order
 python3 qa/anyline.py  …                       # refuses a replacement that changes a line's tag
+python3 qa/skeleton.py <src.txt> <cand.txt>    # element-skeleton parity, prose ignored
+python3 qa/defensive.py                        # fidelity criterion 16, over the built document
 ```
+
+⚠ **Two tools were added for this book and both earned their place.**
+`qa/skeleton.py` compares two content files on tag, on every argument the
+renderer reads as a number or a colour, and on how many body lines each block
+carries, ignoring the prose entirely — which is what let every unit be **written
+from scratch rather than edited in place**, and what caught a miscounted block
+before anything was built. Every unit and both appendices matched on the first
+attempt. `qa/defensive.py` sweeps the built document for 39 banned terms and 3
+how-to framings, so §6.16 is a measurement rather than an intention.
 
 `LOG_SRC` is the Tour Guides Syria book, the most recently delivered twin.
 `build/` and `qa/` are copied from it unchanged; nothing in the toolchain is
 rewritten for this book.
 
-| pass | target |
-| --- | --- |
-| 30 structural metrics vs the template | all identical |
-| full layout, element by element | 5,455/5,455, 0 differ |
-| run formatting | 0 differ |
-| per-section element lists (10 units + 2 appendices) | 0 diff lines |
-| answers more than 8 words short | 0 of 620 |
-| answer-key density | within a few per cent of 25,758 words |
-| transcripts printed in two places | 18 of 18 identical |
-| LibreOffice render | 252 pages |
-| package integrity | 10 parts, every XML part well-formed |
-| defensive-line sweep (§6.16) | 0 hits |
+| pass | target | measured |
+| --- | --- | --- |
+| 30 structural metrics vs the template | all identical | ✔ **0 differ** |
+| full layout, element by element | 5,455/5,455, 0 differ | ✔ **5,455/5,455, 0 differ** |
+| run formatting | 0 differ | ✔ **0 differ** |
+| per-section element lists (10 units + 2 appendices) | 0 diff lines | ✔ **0 diff lines, all 12 sections** |
+| answers more than 8 words short | 0 of 620 | ✔ **0 of 620** |
+| answer-key density | within a few per cent of 25,758 words | ✔ **27,710 against 27,524 — 100.7 %** |
+| transcripts printed in two places | 18 of 18 identical | ✔ **18 of 18, copied by `qa/scripts.py`** |
+| every section opening on the same page | identical | ✔ **all 12 identical** |
+| LibreOffice render | 252 pages | ✔ **251, the same as the template renders here** |
+| package integrity | 10 parts, every XML part well-formed | ✔ **10 parts, 0 malformed** |
+| defensive-line sweep (§6.16) | 0 hits | ✔ **0 hits over 71,521 words** |
+
+**Words:** 71,415 against the template's 71,245 — **+0.24 %**. Every other
+measured figure is identical, em dashes (106) and blank spacers (2,300) included.
+
+⚠ **One page had to be won back.** The book first rendered at 252 with Units 7–10
+and both appendices one page late: Unit 6's Part 7 panel ran a single line longer
+than the template's, which pushed the `cantSplit` Part 8 block onto the next page
+and left the page before it almost empty. **Thirteen short cuts in Unit 6's prose
+— no exercise touched, no element changed — brought the panel back inside its
+page**, and every section opening then matched. It is the same finding the C1
+books recorded in a different form: at this density a page is decided by a line,
+not by a word count.
 
 ---
 
 ## 8 · How it gets written
 
+⚠ **All five phases are complete and the book is built.** The record below is
+what was done, not what was intended.
+
 | phase | work |
 | ---: | --- |
-| 0 | Tree scaffolded from Tour Guides Syria: `build/`, `qa/`, and the `content/*.txt` tag skeleton with every `@TAG` and spacer held fixed. Front matter written. |
-| 1 | **Units 1–5.** Each unit element-exact before the next is started; `qa/partial.py` run after every unit. |
-| 2 | **Units 6–10.** |
-| 3 | **Appendix A** (every transcript copied from the units by `qa/scripts.py`, never retyped) and **Appendix B** (620 answers under 329 heads). |
-| 4 | Full QA, the render, the page count, the defensive-line sweep, `PLAN.md` updated with the measured results, commit and push. |
+| 0 | ✔ Tree scaffolded from Tour Guides Syria: `build/`, `qa/`, and the `content/*.txt` tag skeleton with every `@TAG` and spacer held fixed. Front matter written. |
+| 1 | ✔ **Units 1–5.** Each unit element-exact before the next is started; `qa/partial.py` run after every unit. |
+| 2 | ✔ **Units 6–10.** |
+| 3 | ✔ **Appendix A** (every transcript copied from the units by `qa/scripts.py`, never retyped) and **Appendix B** (620 answers under 329 heads). |
+| 4 | ✔ Full QA, the render, the page count, the defensive-line sweep, `PLAN.md` updated with the measured results, commit and push. |
 
 Each phase lands on the development branch as its own commit, as the eight
 earlier ESP books did.
