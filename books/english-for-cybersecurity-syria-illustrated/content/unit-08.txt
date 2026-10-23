@@ -1,0 +1,462 @@
+# Unit 8 · Rules, Standards and the Written Policy
+# Grammar: must / have to / mustn't.  Level: Low B1.
+
+@U Unit 8: Rules, Standards and the Written Policy
+@SUB English for Cybersecurity Personnel  ·  Level: Low B1  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Rules and Policy Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Policy
+2 | Standard
+3 | Sign-off
+4 | Exception
+5 | Audit
+@END
+@LB2 Column B
+@COLB
+a | an agreed correct level that everybody works to
+b | a tool for opening a machine
+c | the written rules of a company, that everybody follows
+d | one case where the rule is not followed, written down and approved
+e | a careful check of whether the rules are really being followed
+f | the name of the person who says the work is finished and correct
+@END
+
+@EX Warm-up: The Rules of the Policy
+@IW Complete the sentences using the words in the word bank.
+@WB must    |  mustn’t    |     have    |    don’t
+@IG 1. Every machine  ____________________  pass the handover check.
+@IG 2. You  ____________________  give a machine back with the antivirus switched off.
+@IG 3. Under our policy, we  ____________________  to write every exception down.
+@IG 4. If the machine is clean, you  ____________________  have to run the scan again.
+
+@EX Warm-up: Reading About Rules
+@IW Read the text and choose the correct answer.
+@BX A policy is a promise written down. At a careful department, every machine must pass the same handover check before it goes back to the user: the updates are on, the antivirus is running, the screen lock is set, and the backup is working. The officer must sign the sheet with their own name. Nobody may hide a problem to save time, and nobody may make an exception without writing it down and asking the manager first.
+@BI 1. What must every machine pass before handover?
+@OP ○  A)  A race
+@OP ○  B)  The same handover check
+@OP ○  C)  A wash
+@OP ○  D)  Nothing
+@BI 2. What must an officer never do?
+@OP ○  A)  Sign the sheet
+@OP ○  B)  Run the scan
+@OP ○  C)  Hide a problem to save time
+@OP ○  D)  Ask the manager
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Rules and Policy Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Checklist → a sheet of items that must each be checked and ticked.
+@LB Column A
+@COLA
+1 | Policy
+2 | Standard
+3 | Sign-off
+4 | Exception
+5 | Audit
+6 | Guarantee
+7 | Evidence
+@END
+@LB2 Column B
+@COLB
+a | a careful check of whether the rules are really being followed
+b | an agreed correct level that everybody works to
+c | the promise to put our own work right, free, if it fails
+d | a cable for the printer
+e | the written rules of a company
+f | the record that proves a step was really done
+g | one case where the rule is not followed, written down and approved
+h | the name of the person who says the work is finished and correct
+@END
+@GL exception = one case where the rule is not followed, written down and approved    ·    evidence = the record that proves a step was really done
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 8.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR policy — PO-li-cy
+@PR standard — STAN-dard
+@PR exception — ex-CEP-tion
+@PR evidence — EV-i-dence
+@PR guarantee — gua-ran-TEE
+@PR approve — ap-PROVE
+
+@EX Part 1: The Handover Check Table
+@IMG fig-08-1.png
+@CAP Figure 8.1  ·  The four things checked before handover.
+@IN Complete the table. Write why we do each step. (0. is done.)
+@TBL 3400,5626
+Handover step | Why we do it
+* Check the updates are on | (example) so that known faults are not left open
+Check the antivirus is running | 
+Check the screen lock is set | 
+Check the backup is working | 
+@END
+@IT 0. Check the updates are on — so that known faults are not left open.
+
+@EX Part 1: Rules and Reasons
+@IN Match each rule with its reason. One reason is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Every machine must pass the handover check
+2 | You mustn’t hide a problem
+3 | Every exception must be written down
+4 | The officer must sign with their own name
+5 | The sheet must be kept for a year
+@END
+@LB2 Column B
+@COLB
+a | so that somebody can see later who checked it
+b | so that nothing goes back worse than it came
+c | to make the machine faster
+d | because a problem found in a week costs ten times more
+e | so that the manager can see where the rules do not fit
+f | so that an audit can see what was really done
+@END
+
+@EX Part 1: Rules and Policy — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What is an exception?
+@OP ○  A)  A good rule
+@OP ○  B)  A new machine
+@OP ○  C)  A case where the rule is not followed, written down and approved
+@OP ○  D)  A tool
+@BI 2. What is a guarantee?
+@OP ○  A)  The promise to put our own work right, free, if it fails
+@OP ○  B)  A bill
+@OP ○  C)  An approval
+@OP ○  D)  A key
+@BI 3. What is an audit?
+@OP ○  A)  A telephone call
+@OP ○  B)  A careful check of whether the rules are really being followed
+@OP ○  C)  A handover
+@OP ○  D)  A maintenance visit
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB policy    |  exception    |     evidence    |    sign-off
+@IG 1. The  ____________________  says what everybody in this company must do.
+@IG 2. If you cannot follow the rule, write an  ____________________  and ask the manager.
+@IG 3. The ticked sheet is the  ____________________  that the check was really done.
+@IG 4. No machine goes back without a  ____________________  from the officer.
+
+@EX Part 1: Write About Rules (short)
+@IN Write two or three sentences about the rules where you work. Use three words from this unit.
+@LM Model — read this first:
+@BX Our policy says that every machine must pass the same four checks before it goes back. The officer has to sign the sheet with their own name, and the sheet is kept for a year. We mustn’t make an exception without writing it down first and asking Maher.
+
+@PART Part 2  ·  Grammar — Must / Have To / Mustn’t
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-08-2.png
+@CAP Figure 8.2  ·  Necessary, forbidden, and not necessary.
+@IN Read these lines. Which say ‘it is necessary’? Which say ‘it is forbidden’? Which say ‘it is not necessary’?
+@BX Must / have to (necessary): Every machine must pass the handover check. We have to write down every exception.  ·  Mustn’t (forbidden): You mustn’t give a machine back with the antivirus off. You mustn’t share an account, not even with your manager.  ·  Don’t have to (not necessary): If the scan ran this morning, you don’t have to run it again.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+must / have to | must + verb | it is necessary | Every machine must pass the check.
+mustn’t / don’t have to | mustn’t = forbidden | don’t have to = not necessary | You mustn’t hide a problem.
+@END
+@BR Remember: must and have to are similar.  But mustn’t (forbidden) and don’t have to (not necessary) are completely different.
+@WO ✗ mustn’t = don’t have to → ✓ You mustn’t hide a problem (forbidden).  You don’t have to run it twice (not necessary).
+@EX Part 2: Controlled Practice
+@IN Complete with must or mustn’t. (0. is done.)
+@IT 0. Every machine must pass the handover check.
+@IT 1. You ___ give a machine back with the antivirus switched off.
+@IT 2. Every exception ___ be written down.
+@IT 3. You ___ hide a problem from the user.
+@IT 4. The sheet ___ be signed with your own name.
+@EX Part 2: Have To or Don’t Have To?
+@IN Complete with have to, has to, don’t have to or doesn’t have to.
+@IG 1. Under our policy, we  ____________________  write every exception down.
+@IG 2. If the scan ran this morning, you  ____________________  run it again.
+@IG 3. Every officer  ____________________  sign the sheet personally.
+@IG 4. The user  ____________________  understand the technical part; that is our job.
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. You must to pass the handover check.
+@IT 2. You don’t must hide a problem.
+@IT 3. We has to use the same checklist.
+@IT 4. Every machine must passes the check.
+@EX Part 2: Freer Practice
+@IN Write three rules for an office. Use must, mustn’t, and don’t have to.
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which sentence means ‘it is forbidden’?
+@OP ○  A)  You mustn’t hide a problem.
+@OP ○  B)  You don’t have to hide a problem.
+@OP ○  C)  You have to hide a problem.
+@OP ○  D)  You should hide a problem.
+@BI 2. Which sentence means ‘it is not necessary’?
+@OP ○  A)  You must run it again.
+@OP ○  B)  You mustn’t run it again.
+@OP ○  C)  You don’t have to run it again.
+@OP ○  D)  You have to run it again.
+@IT → Harvest: you will see must, have to and mustn’t again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: The Handover Check
+@IT 🔊  Audio Track 8.2
+@IT Before you listen: what must a machine pass before it goes back to the user?
+@BX Nabil: Tarek, before we give this machine back, we have to go through the sheet. Updates?  Tarek: On, all of them.  Nabil: Antivirus?  Tarek: Running.  Nabil: Screen lock?  Tarek: It is set to five minutes.  Nabil: Backup?  Tarek: The first one hasn’t run yet. It runs tonight.  Nabil: Then we mustn’t tick that line. Write it on the sheet as it is, and we will check it tomorrow before we close the ticket. Every line has to be true, or the sheet is worth nothing.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Nabil and Tarek are doing a handover check. — True
+@IF 1. All the updates are on. ____
+@IF 2. They can tick the backup line today. ____
+@IF 3. Every line on the sheet has to be true. ____
+@IT Useful phrases: we have to…  ·  we mustn’t…  ·  every line has to be true
+@EX Part 3: A Guarantee Question
+@IT 🔊  Audio Track 8.3
+@IT Before you listen: if a repair fails after two weeks, who has to pay?
+@BX Mr Aboud: The machine you repaired is doing the same thing again, and it is only twelve days.  Rana: Then you don’t have to pay anything. Our guarantee is thirty days on the same fault.  Mr Aboud: And if it is a different fault?  Rana: Then it is a new job, and I will tell you so honestly before we start. But on the same fault, inside thirty days, we have to put it right free, and we have to use the same quality of part. You mustn’t take it to somebody else first, though, or the guarantee stops.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What is Mr Aboud’s machine doing? — The same thing again.
+@IT 1. Does Mr Aboud have to pay, if it is the same fault?
+@IT 2. What must the department do under the guarantee?
+@IT 3. What mustn’t Mr Aboud do?
+@IT Useful phrases: you don’t have to pay…  ·  we have to put it right…  ·  you mustn’t…
+@EX Part 3: The Standard
+@IT 🔊  Audio Track 8.4
+@IT Before you listen: why does a company that works for a bank need a written standard?
+@BX Maher: Let’s talk about our standard. Because we work for two banks, we follow the same rules they do, and that is not a burden; it is why they chose us. Before handover, every machine must pass the four checks, and the sheet must be signed by name. Under guarantee, we have to put our own work right free, inside thirty days, with no argument. If a rule cannot be followed — and sometimes it cannot — we must write an exception and I must approve it before the work, not after. And nobody, at any level, may tick a line that is not true.
+@IN While you listen: match each rule with what it says. One is not needed. (0. is done.)
+@IT 0. Because we work for two banks → we follow the same rules they do.
+@LB Column A
+@COLA
+1 | Before handover
+2 | Under guarantee
+3 | If a rule cannot be followed
+4 | Nobody, at any level
+@END
+@LB2 Column B
+@COLB
+a | we have to put our own work right free, inside thirty days
+b | every machine must pass the four checks and be signed by name
+c | we buy new machines every year
+d | may tick a line that is not true
+e | we must write an exception and the manager must approve it first
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Rules and Standards
+@IMG fig-08-3.png
+@CAP Figure 8.3  ·  The check before handover is a gate, not a formality.
+@IN Work with a partner. Ask and answer these questions.
+@IF What must every machine pass before it goes back to the user?
+@IF Why mustn’t a department hide a problem?
+@IF What does a guarantee mean for the user, and for the department?
+@BX Useful language: Every machine must…  ·  You mustn’t…  ·  We have to…  ·  You don’t have to…
+@EX Part 4: Find the Difference
+@IMG fig-08-4.png
+@CAP Figure 8.4  ·  Tick each item on the sheet.
+@IN Work in pairs. Student A looks at Machine A; Student B looks at Machine B. Ask and answer to find which machine may be handed over. Do not show your card.
+@BX Card A — Machine A: updates on  ·  antivirus running  ·  screen lock set  ·  backup ran last night  ·  sheet signed.
+@BX Card B — Machine B: updates on  ·  antivirus switched off  ·  screen lock not set  ·  backup never run  ·  sheet signed anyway.
+@IT Useful questions: Is the antivirus running?  ·  Must it be?  ·  Which machine mustn’t go back?
+@EX Part 4: Guarantee Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: User: It is doing the same thing again, and it is only twelve days. — Officer: Then you don’t have to pay. On the same fault, inside thirty days, we have to put it right free.
+@BX Card A — Officer: explain what the guarantee covers, what it does not cover, and what the user mustn’t do. Card B — User: say what has happened, ask whether you have to pay, and ask what happens if it is a different fault.
+@TRK Stretch [PR]: a user asks you to tick a line you have not checked, because they are in a hurry — refuse, and keep the user on your side.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Explain the rules of your office to a new worker: what is necessary, what is forbidden, and what is not necessary.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: Why Standards Matter
+@IT Before you read: what does ‘quality’ mean in IT work, where nobody can see the result?
+@GL standard = an agreed correct level that everybody works to    ·    policy = the written rules of a company    ·    disclosure = telling somebody about a problem they would not otherwise see
+@BX Quality in IT work is a promise about something the user cannot see. A user can tell whether a machine starts, but not whether its antivirus is running, whether its updates are three days or three years old, or whether the backup that was set up last year is still working. Everything a user believes about those things, they believe because somebody told them. That is why a written standard matters more here than in work you can look at. Every machine must pass the same checks before it goes back, and the officer must sign the sheet by name, so that in a year anybody can see who said it was true. Nobody may tick a line they have not checked, because a sheet with one invented line is worse than no sheet at all: it tells everybody afterwards that the sheets mean nothing. A department must also say what it has not done. If the backup could not be tested because the disk had not arrived, that goes on the sheet in writing, and the user is told. This is harder than it sounds. It is always easier to tick the line, and nobody would ever know. That is exactly why the rule has to be absolute: not "tick only what you checked, unless you are busy", but "tick only what you checked".
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What is quality in IT work? — a promise about something the user cannot see.
+@BI 1. Why must the officer sign the sheet by name?
+@OP ○  A)  So that anybody can see later who said it was true
+@OP ○  B)  To make the machine faster
+@OP ○  C)  Because the user asks
+@OP ○  D)  To save paper
+@BI 2. What is worse than no sheet at all?
+@OP ○  A)  A long sheet
+@OP ○  B)  A sheet with one invented line
+@OP ○  C)  A sheet in English
+@OP ○  D)  A sheet kept for a year
+@BI 3. What must a department never do?
+@OP ○  A)  Tick a line it has not checked
+@OP ○  B)  Write an exception
+@OP ○  C)  Tell the user
+@OP ○  D)  Follow the standard
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | standard
+2 | policy
+3 | sign-off
+4 | disclosure
+@END
+@LB2 Column B
+@COLB
+a | the written rules of a company
+b | telling somebody about a problem they would not otherwise see
+c | a tool for opening a machine
+d | an agreed correct level that everybody works to
+e | the name of the person who says the work is finished and correct
+@END
+@EX Part 5: An Honest Guarantee in Syria
+@IT Before you read: why does a written guarantee from a small company matter so much in Syria?
+@GL guarantee = a promise to put work right, free, if it fails    ·    word of mouth = people telling each other about good work
+@BX In Syria, a written guarantee from a small company is worth more than it looks, because so few are given and even fewer are honoured. At Cham Systems the rule is one line long: if the same fault comes back within thirty days, the work is put right free, with no argument and no discussion about whose fault it was. Last year a repair failed on the twelfth day. The disk Lina had fitted was faulty from the factory — nothing anybody could have seen — and the customer had lost two days of work. He expected an argument, because he had had one everywhere else. Maher did not argue. He replaced the disk the same afternoon, restored the two days from the backup, charged nothing, and wrote a short note explaining what had failed and why. The whole thing cost Cham Systems a disk and half a day. What it bought cannot be bought any other way: that customer has told the story to every business owner he knows, and he tells it better than any advertisement could.
+@IN Write True or False. (0. is done.)
+@IT 0. In Syria, a written guarantee from a small company is common. — False
+@IF 1. At Cham Systems, the same fault within thirty days is put right free. ____
+@IF 2. Maher argued about whose fault the failed disk was. ____
+@IF 3. An honest guarantee brought the company more customers. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: The Office Rules (50–70 words)
+@IN Write the rules for an office. Use must, mustn’t and have to.
+@LM Model — read this first:
+@BX Every machine must pass the four checks before it goes back to the user. The officer has to sign the sheet with their own name, and the sheet must be kept for a year. You mustn’t tick a line you have not checked, and you mustn’t hand a machine back with the antivirus switched off. If a rule cannot be followed, you have to write an exception and ask the manager first.
+@BI Plan (fill in, then write): Every ___ must ___. You mustn’t ___. We have to ___. If ___, you have to ___.
+@WB Every machine must…    |  You mustn’t…    |  We have to…    |  You don’t have to…    |  sign    |  exception
+@BC Check before you finish: ☐ must / have to used?  ☐ mustn’t used correctly?  ☐ 50–70 words?
+@EX Part 6: Why Standards and Guarantees Matter (50–70 words)
+@IN Write why written standards and an honest guarantee are important. Give reasons.
+@LM Model — read this first:
+@BX Standards matter because a user cannot see most of our work, so they must be able to trust what we tell them. A written rule means every officer does the same thing, even on a bad day. And a guarantee turns a promise into something real: it costs us a little when we are wrong, which is exactly why people believe us when we say we are right.
+@WB … is important because…    |  the user cannot see…    |  every officer does the same…    |  it costs us when we are wrong    |  trust
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: Explaining a Guarantee (50–70 words)
+@IN Write a short note to a user, explaining what your guarantee covers and what it does not.
+@LM Model — read this first:
+@BX Dear Mr Aboud, Our guarantee covers the same fault for thirty days from handover. If the machine does the same thing again inside that time, we put it right free, with no argument. A different fault is a new job, and we will tell you so honestly before we start. Please bring it to us first; if another company opens it, the guarantee stops. Rana.
+@BI Plan (fill in, then write): Our guarantee covers ___ for ___. If ___, we ___. A different fault is ___. Please ___.
+@BC Check before you finish: ☐ what is covered + what is not?  ☐ must / mustn’t used?  ☐ 50–70 words?
+@EX Part 6: Reflection — A Promise Kept (40–60 words)
+@IN Write about a time a shop or a person kept a promise when it would have been easier not to.
+@LM Model — read this first:
+@BX My uncle bought a water pump with a six-month guarantee, and it failed in the fifth month. He expected to be told it was his own fault. Instead the shop replaced it the same day and said nothing more about it. He has bought everything there since, and so have both his brothers.
+@BC Check before you finish: ☐ a clear story?  ☐ must / have to used?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — A Policy Check Before Handover
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “You mustn’t tick a line you haven’t checked.”
+2 | “Did it pass all four checks?”
+3 | “Write the exception and I will approve it.”
+4 | “Under our guarantee, we have to put it right free.”
+@END
+@LB2 Column B
+@COLB
+a | giving a strong prohibition
+b | checking that the standard was met
+c | asking about the price
+d | stating an obligation
+e | giving the way round a rule that cannot be followed
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 8.5
+@IT Before you read: what does a manager check before a machine goes back?
+@BX Nabil: Maher, this machine is ready for handover.  Maher: Did it pass all four checks?  Nabil: Three of them. The backup hasn’t run yet; it runs tonight.  Maher: Then it doesn’t pass. Did you tick the line?  Nabil: No. I wrote it on the sheet as it is.  Maher: Good. That is exactly right. We mustn’t hand it over as complete, but we don’t have to keep the machine either. Give it back today, tell the user plainly that the backup starts tonight, and close the ticket tomorrow when you have seen it run. Write that on the sheet too, so the audit sees why.
+@IN Answer the questions. (0. is done.)
+@IT 0. What does Nabil want Maher to do? — Approve a handover.
+@IT 1. How many checks did the machine pass?
+@IT 2. What did Nabil do with the line he could not tick?
+@IT 3. What must Nabil do before the ticket is closed?
+@EX 7C: Controlled Practice — The Policy
+@IN Complete with must, mustn’t, have to or don’t have to.
+@WB must    |  mustn’t    |     have to    |    don’t have to
+@IG 1. Every machine  ____________________  pass the four checks.
+@IG 2. You  ____________________  tick a line you have not checked.
+@IG 3. Under our guarantee, we  ____________________  put the same fault right free.
+@IG 4. If the scan ran this morning, you  ____________________  run it again.
+@EX 7D: Role-Play — The Policy Review
+@IN In pairs. One is the manager (Maher); one is the officer (Nabil). Use the model and the cards.
+@BX Model exchange: Maher: Did it pass all four checks? — Nabil: Three. The backup runs tonight. — Maher: Then it doesn’t pass. Did you tick the line? — Nabil: No, I wrote it as it is.
+@BX Card A — Manager (Maher): ask about each check, ask what was written, and decide what may be handed over today. Card B — Officer (Nabil): report honestly, say what could not be done and why, and ask what to tell the user.
+@TRK Stretch [PR]: the user is waiting in the corridor and the last check will take an hour — decide, and say what you will tell them.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short policy note for the team about handover.
+@LM Model — read this first:
+@BX Team, one reminder about handover. Every machine must pass all four checks, and the sheet must be signed with your own name. You mustn’t tick a line you have not checked, for any reason, including a user waiting in the corridor. If a check cannot be done, write on the sheet what is missing and when it will be done, and tell the user plainly. That is not a failure; the invented tick is. Maher.
+@BC Check before you finish: ☐ what passes and what does not?  ☐ must / mustn’t used?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Honest Disclosure
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: what should a company do when it finds a fault in work it has already delivered?
+@GL fault = something wrong that needs fixing    ·    disclose = to tell people about a problem they could not see    ·    reputation = what people say about your work
+@BX A software company once found a serious fault in a program that four hundred of its customers were already using. The fault was in how the program stored passwords, and it had been there for two years. Nobody outside the company knew, and almost certainly nobody would ever have known. The company had two choices. It could fix the fault quietly in the next ordinary update and say nothing, which is what its lawyers advised. Or it could tell all four hundred customers exactly what had been wrong, for how long, and what each of them should do. The directors argued for a week. In the end they wrote to every customer, published the whole story, and gave each one a tool to check their own records. Eleven customers left. The newspapers were unkind for about four days. But the company is still trading twenty years later, and the thing its customers say about it, over and over, is that it told them the time it did not have to.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many customers were using the program? — Four hundred.
+@IT 1. What did the company find?
+@IT 2. What two choices did it have?
+@IT 3. Why do people trust the company more now?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | disclose
+2 | fault
+3 | reputation
+4 | update
+@END
+@LB2 Column B
+@COLB
+a | something wrong that needs fixing
+b | to tell people about a problem they could not see
+c | a new version that fixes faults
+d | a new machine
+e | what people say about your work
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “An honest disclosure is right because…”  ·  “The cost of saying nothing is…”  ·  “In Syria this would be harder because…”  ·  “I would have told the customers when…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: The Guarantee That Kept Its Promise
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: why might a user expect an argument when a repair fails?
+@BX A customer, Mr Khalil, had the disk in his shop computer replaced at Cham Systems, with the usual thirty-day guarantee written on the completion note. Twelve days later the machine stopped in exactly the same way. He came back expecting a difficult conversation, because that is what had happened at the last two places he had used: first they tell you it is a different fault, then they tell you it is something you did. Lina opened the machine while he waited. The new disk had failed — a factory fault, nothing anybody could have predicted, and nothing Mr Khalil had done. She replaced it that afternoon from the store, restored his two lost days from the backup, and charged him nothing. Maher wrote four lines on the note explaining what had failed. Mr Khalil has sent six people to Cham Systems since, and every one of them has mentioned that story when they arrived.
+@IN Answer the questions. (0. is done.)
+@IT 0. What was replaced on Mr Khalil’s machine? — The disk.
+@IT 1. What guarantee did Mr Khalil have?
+@IT 2. What happened after twelve days?
+@IT 3. What did Maher write on the note?
+@EX Part 9: Decision Task
+@IN A repair fails inside the guarantee, but the officer believes the user caused it. Should the department (a) charge the user, (b) honour the guarantee and say nothing, or (c) honour the guarantee and explain what it believes happened? Choose one and give reasons.
+@BX Answer frame: “I think the department should ___ because ___. The user needs ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the department should honour the guarantee and explain what it believes happened, because the guarantee was given without conditions and the officer cannot prove what the user did. The user needs to know how to avoid it next time. This is better than saying nothing, because the same thing will happen again in a month and then nobody will be happy.
+@BX Phrase bank: I think… should…  ·  because…  ·  The user needs…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. The promise to put our own work right, free, if it fails is a guarantee.
+@WB exception    |  evidence    |     must    |    mustn’t    |    will
+@IG 1. A case where the rule is not followed, written down and approved, is an  ____________________ .
+@IG 2. The record that proves a step was really done is the  ____________________ .
+@IG 3. “Every machine  ____________________  pass the four checks.”
+@IG 4. “You  ____________________  tick a line you have not checked.”
+@IG 5. “I  ____________________  call you as soon as it is ready.”
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main words of a written policy and a guarantee.
+@IT ☐ I can use must, have to, and mustn’t correctly.
+@IT ☐ I can understand a handover check and a guarantee conversation.
+@IT ☐ I can write the rules of an office and explain a guarantee.
+@IT ☐ I can run a policy check before handover (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 8 glossary (10 words)
+@BG policy  ·  standard  ·  sign-off  ·  checklist  ·  exception  ·  audit  ·  evidence  ·  guarantee  ·  disclose  ·  handover
+@PB

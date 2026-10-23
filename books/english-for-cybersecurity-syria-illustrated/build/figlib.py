@@ -46,6 +46,7 @@ class Canvas:
         self.ax.axis("off")
         self.fig.patch.set_facecolor(WHITE)
         self.texts = []
+        self.low = h          # the lowest point any drawn shape reaches
 
     # ----------------------------------------------------------- primitives
     def T(self, x, y, s, size=21, color=NAVY, weight="normal", ha="center",
@@ -63,18 +64,25 @@ class Canvas:
         self.texts.append(t)
         return t
 
+    def _sink(self, y):
+        self.low = min(self.low, y)
+
     def panel(self, x, y, w, h, fill=PALE, edge=NAVY, lw=2.2, r=18):
+        self._sink(y)
         self.ax.add_patch(FancyBboxPatch((x + r, y + r), w - 2 * r, h - 2 * r,
                                          boxstyle=f"round,pad={r}",
                                          facecolor=fill, edgecolor=edge, lw=lw))
 
     def rect(self, x, y, w, h, fill=WHITE, edge=NAVY, lw=2.0):
+        self._sink(y)
         self.ax.add_patch(Rectangle((x, y), w, h, facecolor=fill, edgecolor=edge, lw=lw))
 
     def circ(self, x, y, r, fill=PALE, edge=NAVY, lw=2.0):
+        self._sink(y - r)
         self.ax.add_patch(Circle((x, y), r, facecolor=fill, edgecolor=edge, lw=lw))
 
     def line(self, x1, y1, x2, y2, color=NAVY, lw=1.8, ls="-"):
+        self._sink(min(y1, y2))
         self.ax.plot([x1, x2], [y1, y2], color=color, lw=lw, ls=ls,
                      solid_capstyle="round")
 

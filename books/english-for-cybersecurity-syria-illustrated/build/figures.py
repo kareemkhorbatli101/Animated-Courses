@@ -190,6 +190,60 @@ def u6():
     ]
 
 
+# ------------------------------------------------------------------ Unit 7
+@unit(7)
+def u7():
+    return [
+        ("fig-07-1", A.process_chain(
+            ["booking", "estimate", "approval", "work", "test", "handover"],
+            None)),
+        ("fig-07-2", A.week_planner(
+            [("Mon", ["accounts", "machines"]), ("Tue", ["disks", "arrive"]),
+             ("Wed", ["branch", "job"]), ("Thu", ["server"]),
+             ("Fri", ["kept", "empty"])],
+            "A week with no empty day is a week that breaks.")),
+        ("fig-07-3", A.doc_mockup(
+            "ESTIMATE", [("Machine", "accounts 3"),
+                         ("Work", "replace failing disk"),
+                         ("Time", "about 3 hours"),
+                         ("Parts", "1 disk, in the store"),
+                         ("Cost", ""),
+                         ("Approved by", "")],
+            "Nothing starts until the user approves it.")),
+        ("fig-07-4", A.two_person_scene(
+            ("Rana, help desk", ["I’ll book you in", "for Wednesday at nine."]),
+            ("Mr Aboud, user", ["How long is it", "going to take?"]),
+            None)),
+    ]
+
+
+# ------------------------------------------------------------------ Unit 8
+@unit(8)
+def u8():
+    return [
+        ("fig-08-1", A.icon_row(
+            [("shield", "updates on"), ("lock", "antivirus running"),
+             ("monitor", "screen lock set"), ("disk", "backup working")],
+            None)),
+        ("fig-08-2", A.grammar_contrast(
+            ("must / have to — necessary",
+             ["Every machine must pass.", "We have to write it down.",
+              "The sheet must be signed."]),
+            ("mustn’t — forbidden",
+             ["You mustn’t tick a line", "you have not checked.",
+              "(don’t have to = not necessary)"]),
+            "Necessary, forbidden, and not necessary.")),
+        ("fig-08-3", A.process_chain(
+            ["work done", "four checks", "sign-off", "handover"],
+            "No machine passes the gate on three checks out of four.")),
+        ("fig-08-4", A.checklist(
+            [("Updates are on", True), ("Antivirus is running", True),
+             ("Screen lock is set", True), ("Backup has run", False),
+             ("Sheet signed by name", False)],
+            "Tick only what you have checked.")),
+    ]
+
+
 def main():
     want = [int(a) for a in sys.argv[1:]] or sorted(UNITS)
     for n in want:

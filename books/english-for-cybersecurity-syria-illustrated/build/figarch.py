@@ -114,6 +114,25 @@ def ordering(items, caption, h=440):
     return c
 
 
+def checklist(items, caption, h=440):
+    """items = [(label, ticked)].  A sheet of boxes to tick."""
+    c = Canvas(h, cap=bool(caption))
+    n = len(items)
+    step = 64
+    block = step * (n - 1)
+    top = (h + c.y0 + 40 + block) / 2
+    for i, it in enumerate(items):
+        label, ticked = (it if isinstance(it, tuple) else (it, False))
+        y = top - i * step
+        c.rect(120, y - 17, 34, 34, fill=WHITE, lw=2.0)
+        if ticked:
+            c.line(127, y, 136, y - 9, color=NAVY, lw=3.0)
+            c.line(136, y - 9, 148, y + 11, color=NAVY, lw=3.0)
+        c.T(182, y, label, size=21, weight="bold", ha="left", maxw=W - 260)
+    c.caption(caption)
+    return c
+
+
 def process_chain(steps, caption, h=400):
     """steps = [label].  Numbered circles joined by arrows."""
     c = Canvas(h, cap=bool(caption))
@@ -193,6 +212,30 @@ def doc_mockup(title, fields, caption, h=480, note=None):
             c.T(dx + 396, y, value, size=20, color=NAVY2, ha="left", maxw=dw - 450)
     if note:
         c.T(dx + dw / 2, 92, note, size=19, color=NAVY2, style="italic", maxw=dw - 60)
+    c.caption(caption)
+    return c
+
+
+def week_planner(days, caption, h=None):
+    """days = [(day, [entry, ...])].  A week grid, one column per day."""
+    rows = max(len(e) for _, e in days)
+    boxh = 46 + 30 + 46 * rows
+    h = h or int(60 + boxh + (70 if caption else 24))
+    c = Canvas(h, cap=bool(caption))
+    n = len(days)
+    pad, gap = 40, 12
+    cw = (W - 2 * pad - gap * (n - 1)) / n
+    top = h - 60
+    bot = top - boxh          # the grid never reaches into the caption band
+    for i, (day, entries) in enumerate(days):
+        x = pad + i * (cw + gap)
+        c.rect(x, bot, cw, top - bot, fill=WHITE, lw=1.8)
+        c.rect(x, top - 46, cw, 46, fill=PALE, lw=1.8)
+        c.T(x + cw / 2, top - 23, day, size=21, weight="bold", maxw=cw - 16)
+        for k, e in enumerate(entries):
+            y = top - 86 - k * 46
+            c.line(x + 12, y - 16, x + cw - 12, y - 16, color=MGREY, lw=1.4)
+            c.T(x + cw / 2, y, e, size=18, color=NAVY2, maxw=cw - 24)
     c.caption(caption)
     return c
 

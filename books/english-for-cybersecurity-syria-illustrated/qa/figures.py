@@ -73,6 +73,9 @@ def main():
             h = c.h
             if h < 240 or h > 480:
                 print(f"  {name}: canvas height {h} outside 240-480"); faults += 1
+            if c.y0 == 0 and c.low < 50:
+                print(f"  {name}: drawing reaches y={c.low:.0f}, into the caption band")
+                faults += 1
             boxes = []
             for s, bb in c.extents():
                 if bb.x0 < -MARGIN or bb.x1 > 1440 + MARGIN \

@@ -1,0 +1,461 @@
+# Unit 7 · At the Help Desk — Requests, Estimates and Handover
+# Grammar: future forms (will / going to / present continuous).  Level: Low B1.
+
+@U Unit 7: At the Help Desk — Requests, Estimates and Handover
+@SUB English for Cybersecurity Personnel  ·  Level: Low B1  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Help Desk Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Appointment
+2 | Estimate
+3 | Approval
+4 | Handover
+5 | Loan machine
+@END
+@LB2 Column B
+@COLB
+a | a paper that shows how long the work will take and what it will cost
+b | a tool for opening a machine
+c | giving the machine back and showing the user that it works
+d | a time saved for one user’s work
+e | a machine the department lends while yours is repaired
+f | the user agreeing to the work before it starts
+@END
+
+@EX Warm-up: Talking About the Future
+@IW Complete the sentences using the words in the word bank.
+@WB will    |  going    |     is    |    book
+@IG 1. Your machine  ____________________  be ready at four o’clock.
+@IG 2. We are  ____________________  to order the disk this afternoon.
+@IG 3. The engineer  ____________________  coming on Wednesday at ten.
+@IG 4. Can I  ____________________  you in for Thursday morning?
+
+@EX Warm-up: Reading About the Help Desk
+@IW Read the text and choose the correct answer.
+@BX At the help desk, the officer plans the week and talks to the users. First the user calls and a time is saved for the work. Then the officer writes an estimate, so that the user knows how long it will take before anything starts. Nothing begins until the user approves it. While a machine is at the bench, the department can lend a loan machine, so that the user is not stopped. At handover, the officer shows the user that the problem is really gone, and gives them the completion note.
+@BI 1. What does the officer write so the user knows the time?
+@OP ○  A)  A loan machine
+@OP ○  B)  An approval
+@OP ○  C)  A key
+@OP ○  D)  An estimate
+@BI 2. When does the officer show that the problem is gone?
+@OP ○  A)  Before the appointment
+@OP ○  B)  At handover
+@OP ○  C)  Next year
+@OP ○  D)  Never
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Help Desk Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Completion note → the paper that shows what was done and when.
+@LB Column A
+@COLA
+1 | Appointment
+2 | Booking
+3 | Estimate
+4 | Approval
+5 | Loan machine
+6 | Handover
+7 | Slot
+@END
+@LB2 Column B
+@COLB
+a | when a time is saved for a user’s work
+b | a time saved for one user’s work
+c | a cable for the printer
+d | a space in the week when the work can be done
+e | a paper showing how long the work will take and what it will cost
+f | the user agreeing to the work before it starts
+g | a machine the department lends while yours is repaired
+h | giving the machine back and showing the user that it works
+@END
+@GL estimate = a paper showing how long the work will take and what it will cost    ·    slot = a space in the week when the work can be done
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 7.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR appointment — ap-POINT-ment
+@PR estimate — ES-ti-mate
+@PR approval — ap-PRO-val
+@PR handover — HAND-o-ver
+@PR schedule — SCHE-dule
+@PR available — a-VAIL-a-ble
+
+@EX Part 1: Desk Tasks Table
+@IMG fig-07-1.png
+@CAP Figure 7.1  ·  From booking to handover.
+@IN Complete the table. Write when each task happens. (0. is done.)
+@TBL 3400,5626
+Desk task | When it happens
+* Make an appointment | (example) before the machine comes to the bench
+Write the estimate | 
+Get the user’s approval | 
+Hand the machine over | 
+@END
+@IT 0. Make an appointment — before the machine comes to the bench.
+
+@EX Part 1: The Steps of a Job
+@IN Match each step with what happens. One is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Booking
+2 | Estimate
+3 | Approval
+4 | Handover
+5 | Completion note
+@END
+@LB2 Column B
+@COLB
+a | the user is told how long it will take
+b | the user says yes, and the work starts
+c | a time is saved in the week
+d | the machine is sold to another office
+e | the machine is given back and shown to work
+f | the paper that says what was done and when
+@END
+
+@EX Part 1: The Help Desk — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What is an estimate?
+@OP ○  A)  A paper showing how long the work will take and what it will cost
+@OP ○  B)  A tool
+@OP ○  C)  A machine part
+@OP ○  D)  A program
+@BI 2. What is an approval?
+@OP ○  A)  The final bill
+@OP ○  B)  A loan machine
+@OP ○  C)  The user agreeing before the work starts
+@OP ○  D)  An appointment
+@BI 3. What is a loan machine?
+@OP ○  A)  A fast machine
+@OP ○  B)  A new machine
+@OP ○  C)  An old machine
+@OP ○  D)  A machine the department lends while yours is repaired
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB appointment    |  estimate    |     approval    |    handover
+@IG 1. Please make an  ____________________  for Thursday morning.
+@IG 2. Here is the  ____________________  for the work on your machine.
+@IG 3. Nothing starts without your  ____________________ .
+@IG 4. At  ____________________  , we will show you that it works.
+
+@EX Part 1: Write About a Booking (short)
+@IN Write two or three sentences about booking work at a help desk. Use three words from this unit.
+@LM Model — read this first:
+@BX I am going to book the accounts machines for Wednesday morning. I will write an estimate first, so that Mr Aboud knows it is about three hours. Nothing starts without his approval. We are lending him a loan machine for the morning, so his work is not stopped.
+
+@PART Part 2  ·  Grammar — Future Forms (will / going to / present continuous)
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-07-2.png
+@CAP Figure 7.2  ·  A week planner for the help desk.
+@IN Read these lines. Which is a promise? Which is a plan? Which is a fixed arrangement?
+@BX Will (a decision now, a promise): I’ll call you as soon as it is ready. I’ll look at it myself this afternoon.  ·  Going to (a plan already made): We’re going to order the disk this week. We’re going to move the accounts at the end of the month.  ·  Present continuous (a fixed arrangement): The engineer is coming on Wednesday at ten. We’re meeting the branch on Thursday.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+will | ’ll + verb | a decision now, a promise | I’ll call you when it is ready.
+going to / -ing | be going to + verb | a plan, or a fixed arrangement | We’re going to order the disk.
+@END
+@BR Remember: will = decide now / promise.  going to = already planned.  present continuous = fixed, with a time and a date.
+@WO ✗ I will to call you. → ✓ I will call you.   ✗ We going to order it. → ✓ We are going to order it.
+@EX Part 2: Controlled Practice
+@IN Choose the correct future form.
+@IG 1. We  ____________________  order the disk this week. (are going to / will)
+@IG 2. The engineer  ____________________  at ten tomorrow. (is arriving / will arrive)
+@IG 3. OK, I  ____________________  book you in for Thursday. (’ll / am going to)
+@IG 4. The officer  ____________________  you as soon as it is ready. (will call / is calling)
+@EX Part 2: Will or Going To?
+@IN Choose the correct form.
+@IG 1. I  ____________________  call you when it is ready. (will / am going to)
+@IG 2. We  ____________________  replace that disk next month; it is in the plan. (will / are going to)
+@IG 3. The van  ____________________  at ten tomorrow. (arrives / is arriving)
+@IG 4. OK, I  ____________________  do it now, while you wait. (’ll / am going to)
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. I will to call you when it is ready.
+@IT 2. We going to order the disk.
+@IT 3. The engineer arrive at ten tomorrow.
+@IT 4. Your machine will ready at four.
+@EX Part 2: Freer Practice
+@IN Write three sentences to a user: one promise, one plan, and one fixed arrangement.
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which is a promise or a decision made now?
+@OP ○  A)  We are ordering the disk.
+@OP ○  B)  I’ll call you as soon as it is ready.
+@OP ○  C)  The engineer is coming at ten.
+@OP ○  D)  We are going to order it.
+@BI 2. Which is a fixed arrangement?
+@OP ○  A)  The engineer is coming at ten tomorrow.
+@OP ○  B)  The engineer will come maybe.
+@OP ○  C)  The engineer come at ten.
+@OP ○  D)  The engineer going to ten.
+@IT → Harvest: you will see future forms again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: Booking the Work
+@IT 🔊  Audio Track 7.2
+@IT Before you listen: what does an officer ask when a user telephones?
+@BX Rana: Cham Systems help desk, good morning.  Mr Aboud: Good morning. My machine is very slow, and I can’t work.  Rana: I’m sorry. Let me look at the week. I’m afraid Tuesday is full. Could you manage Wednesday morning?  Mr Aboud: Wednesday is fine.  Rana: Good, I’ll book you in for nine o’clock. It is going to take about three hours, so it will be ready by midday. We’re lending you a loan machine for the morning, so you won’t lose the day. And I’ll call you as soon as it is finished.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Mr Aboud is booking some work. — True
+@IF 1. Rana books him for Tuesday. ____
+@IF 2. The machine will be ready by midday. ____
+@IF 3. Rana will call him when it is finished. ____
+@IT Useful phrases: I’ll book you in…  ·  It is going to take…  ·  I’ll call you as soon as…
+@EX Part 3: The Estimate
+@IT 🔊  Audio Track 7.3
+@IT Before you listen: what does a user want to know before the work starts?
+@BX Rana: Mr Aboud, here is the estimate for your machine. The disk is failing, so we are going to replace it. The work is about three hours, and the disk costs what is written at the bottom.  Mr Aboud: And how long until you have the disk?  Rana: We have one in the store, so we’re starting tomorrow. If it had to be imported it would be three weeks, and I would tell you that now, not later.  Mr Aboud: Good. And my files?  Rana: They are copied first, before anything is touched. Nothing starts until you sign this.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What does Rana give Mr Aboud? — The estimate.
+@IT 1. How long is the work?
+@IT 2. When are they going to start?
+@IT 3. What happens to his files first?
+@IT Useful phrases: We’re going to…  ·  If it had to be imported…  ·  Nothing starts until…
+@EX Part 3: Planning the Week
+@IT 🔊  Audio Track 7.4
+@IT Before you listen: how does a manager plan a week with one big job in it?
+@BX Maher: Let’s plan the week. On Monday we’re doing the four accounts machines. On Tuesday the disks are arriving from the reseller — they are already paid for, so they will come. On Wednesday Nabil is at the Homs branch all day; nobody is to book anything else for him. On Thursday we’ll start the server, and I’ll be here myself for that one. Friday I am leaving empty on purpose, because something always comes in, and a week with no empty day is a week that breaks.
+@IN While you listen: match each day with what happens. One is not needed. (0. is done.)
+@IT 0. Monday → the four accounts machines.
+@LB Column A
+@COLA
+1 | Tuesday
+2 | Wednesday
+3 | Thursday
+4 | Friday
+@END
+@LB2 Column B
+@COLB
+a | the disks are arriving from the reseller
+b | the server, with Maher there himself
+c | the office is closed
+d | Nabil is at the Homs branch all day
+e | left empty on purpose
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing the Help Desk
+@IMG fig-07-3.png
+@CAP Figure 7.3  ·  An estimate: the time and the cost before the work.
+@IN Work with a partner. Ask and answer these questions.
+@IF What happens step by step when a user calls the help desk?
+@IF Why is an estimate important before the work starts?
+@IF What can a department offer if a job is going to take a long time?
+@BX Useful language: I’ll book you in…  ·  It is going to take…  ·  We’re lending you…  ·  I’ll call you as soon as…
+@EX Part 4: Find the Difference
+@IN Work in pairs. Student A looks at Booking A; Student B looks at Booking B. Ask and answer to find four differences. Do not show your card.
+@BX Card A — Booking A: Wednesday at nine  ·  about three hours  ·  disk in the store  ·  loan machine offered  ·  user will be called.
+@BX Card B — Booking B: Thursday at two  ·  about one day  ·  disk must be imported  ·  no loan machine  ·  user will not be called.
+@IT Useful questions: Which day is the booking?  ·  How long is it going to take?  ·  Is a loan machine offered?
+@EX Part 4: Booking Role Play
+@IMG fig-07-4.png
+@CAP Figure 7.4  ·  At the help desk.
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Officer: I’ll book you in for Wednesday at nine. — User: How long is it going to take? — Officer: About three hours, so it will be ready by midday. We’re lending you a machine for the morning, and I’ll call you as soon as it is finished.
+@BX Card A — Help-desk officer: take the booking, give the time, offer a loan machine, and promise to call. Card B — User: say what is wrong, ask how long it will take, ask about your files, and ask what you should do in the meantime.
+@TRK Stretch [PR]: the user wants the machine back the same afternoon, but the disk will not arrive until Thursday — offer what you can actually promise.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Explain to a new colleague how a job travels from the first call to handover.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: From Request to Handover
+@IT Before you read: why is the help desk the most important desk in an IT department?
+@GL approve = to agree to the work before it starts    ·    handover = giving the machine back and showing that it works    ·    window = the hours when a job will be done
+@BX The help desk is the first place a user meets, and very often the only one. The work at the bench may be excellent, but a user judges the department by what happens at the desk. The process is simple and it is always the same. A request arrives and is given a slot in the week. Before anything begins, the user is told two things: how long it is going to take, and what it is going to cost. That is the estimate, and it exists so that nobody is ever surprised. Then the user approves it, and only then does the work start. While the machine is away, a loan machine is offered if the department has one. At handover the officer does not simply return the machine; she opens it in front of the user, shows the thing that was broken working again, and gives the completion note. If the work is going to be late, the user is told on the day it becomes late, not on the day it was promised. A good help desk depends on clear communication far more than on fast repairs, because a user who knows what is happening will wait patiently, and a user who is told nothing will not wait at all.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What is the first place a user meets? — the help desk.
+@BI 1. What does the officer give before any work starts?
+@OP ○  A)  A loan machine
+@OP ○  B)  A completion note
+@OP ○  C)  An estimate
+@OP ○  D)  A key
+@BI 2. Why should a user never be surprised?
+@OP ○  A)  Because they know the time and the cost from the start
+@OP ○  B)  Because it is free
+@OP ○  C)  Because it is small
+@OP ○  D)  Because it is a gift
+@BI 3. What does a good help desk depend on?
+@OP ○  A)  Fast machines
+@OP ○  B)  Clear communication
+@OP ○  C)  Cheap disks
+@OP ○  D)  Big offices
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | booking
+2 | estimate
+3 | loan machine
+4 | handover
+@END
+@LB2 Column B
+@COLB
+a | a paper showing the time and the cost before the work
+b | a saved time for a job
+c | a tool for opening a machine
+d | a machine the department lends while yours is away
+e | giving the machine back and showing that it works
+@END
+@EX Part 5: Late Parts and Power Cuts in Syria
+@IT Before you read: what problems can a help desk in Syria have that one in another country does not?
+@GL import = to bring from another country    ·    reseller = a company that buys from the maker and sells it on    ·    generator = a machine that makes electricity when the power is off
+@BX Running a help desk in Syria is not the same as running one anywhere else. A disk that is in a warehouse in another country is not a disk you have; it is a disk you are hoping for. It may come in ten days, or it may come in two months, and the reseller in Beirut honestly does not know which. A licence often cannot be paid for from Damascus at all. And the power goes off on a schedule that everybody knows and nobody can change, so a job that needs four unbroken hours has to be planned around the generator, not around the working day. None of this is the user’s fault, and none of it is the officer’s fault either. What a user cannot forgive is being told that a machine will be ready on Thursday by somebody who already knew on Monday that the part had not left Beirut. The advisor who says “it may be two weeks, and I will tell you the day I know more” is giving a worse answer and a better service, and the users come back to that advisor.
+@IN Write True or False. (0. is done.)
+@IT 0. In Syria, a part is always in the country when it is ordered. — False
+@IF 1. The officer should be honest about how long a part may take. ____
+@IF 2. Power cuts can make a long job hard to plan. ____
+@IF 3. Users do not mind being promised a day that was never possible. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: A Booking Message (50–70 words)
+@IN Write a message to a user to confirm a booking. Use will, going to and the present continuous.
+@LM Model — read this first:
+@BX Dear Mr Aboud, I’ve booked your machine in for Wednesday at nine. The work is going to take about three hours, so it will be ready by midday. We’re lending you a loan machine for the morning, and your files will be copied before anything is touched. I’ll call you as soon as it is finished. Rana, Cham Systems help desk.
+@BI Plan (fill in, then write): I’ve booked ___ for ___. It is going to take ___. We’re ___. I’ll ___.
+@WB I’ll…    |  We’re going to…    |  It is going to take…    |  is arriving    |  as soon as…
+@BC Check before you finish: ☐ will used?  ☐ going to or present continuous used?  ☐ 50–70 words?
+@EX Part 6: Why Clear Communication Matters (50–70 words)
+@IN Write why clear communication is important at a help desk. Give reasons.
+@LM Model — read this first:
+@BX Clear communication is important because a user who knows what is happening will wait, and a user who is told nothing will not. A date that was never possible costs more than a late part, because it costs trust. If we say on Monday that the disk may take two weeks, the user can plan. If we say Thursday and the disk arrives in March, the user plans nothing, and blames us.
+@WB … is important because…    |  a user who knows…    |  a date that was never possible…    |  it costs trust    |  the user can plan
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Ready-Time Message (40–60 words)
+@IN Write a short message to a user to say the work is finished.
+@LM Model — read this first:
+@BX Good news — your machine is ready. The old disk has been replaced and all your files are back; I opened three of them myself to be sure. You can collect it from the help desk any time before five, and please bring the loan machine with you. I’ll show you that everything works before you go. Rana.
+@BI Plan (fill in, then write): Good news — ___ is ready. We have ___. You can ___. Please ___. I’ll ___.
+@BC Check before you finish: ☐ clear and short?  ☐ what the user must do?  ☐ 40–60 words?
+@EX Part 6: Reflection — Waiting for Something (40–60 words)
+@IN Write about a time you waited for something to be repaired or delivered.
+@LM Model — read this first:
+@BX Last year I waited five weeks for a part for our washing machine. The shop never called me; I called them every week and was told it was coming. If they had told me at the start that it was five weeks, I would have waited without being angry. In the end I was not angry about the part. I was angry about the silence.
+@BC Check before you finish: ☐ a clear story?  ☐ future or past forms used well?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Handling a Big Job and the Week’s Schedule
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “We’re going to order the disks today.”
+2 | “The engineer is coming on Wednesday at ten.”
+3 | “I’ll call the user myself.”
+4 | “Leave Friday empty.”
+@END
+@LB2 Column B
+@COLB
+a | making a promise
+b | a fixed arrangement
+c | asking about the price
+d | a plan already made
+e | giving an instruction about the schedule
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 7.5
+@IT Before you read: how does a manager plan a week when one big job is coming in?
+@BX Maher: Rana, we have a big job this week. The ministry branch is moving twelve machines.  Rana: When is it coming in?  Maher: Wednesday and Thursday, both days, with Nabil and Lina on it. Nothing else is booked for them.  Rana: And the disks?  Maher: They are arriving on Tuesday — paid for, so they will come. If they don’t, we stop and tell the branch on Tuesday afternoon, not on Wednesday morning.  Rana: And the normal tickets?  Maher: I am on the desk myself those two days. And the users with bookings that week are going to be called today, so that nobody finds out on the day.
+@IN Answer the questions. (0. is done.)
+@IT 0. What is the big job? — Moving twelve machines at the ministry branch.
+@IT 1. When is the job coming in, and who is on it?
+@IT 2. When are the disks arriving?
+@IT 3. What is Rana going to do today?
+@EX 7C: Controlled Practice — The Week Plan
+@IN Complete with will, going, is, or are.
+@WB will    |  going    |     is    |    are
+@IG 1. On Monday, we are  ____________________  to finish the accounts machines.
+@IG 2. The disks  ____________________  arriving on Tuesday.
+@IG 3. I  ____________________  call the users myself today.
+@IG 4. Nabil and Lina  ____________________  going to be at the branch all Wednesday.
+@EX 7D: Role-Play — Scheduling the Week
+@IN In pairs. One is the manager (Maher); one is the help-desk officer (Rana). Use the model and the cards.
+@BX Model exchange: Maher: The branch job is coming in on Wednesday and Thursday. — Rana: And the normal bookings? — Maher: I am on the desk myself. Call those users today; nobody should find out on the day.
+@BX Card A — Manager (Maher): explain the big job, say who is on it and when, and say what happens if the parts are late. Card B — Officer (Rana): ask about the normal bookings, ask who covers the desk, and ask what to tell the users.
+@TRK Stretch [PR]: a normal user’s booking has to be moved for the big job — decide what to offer them, and when to tell them.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short update message to the branch about the week ahead.
+@LM Model — read this first:
+@BX Dear Mr Haddad, Here is the plan for next week. The disks are arriving on Tuesday; they are paid for. Nabil and Lina will be with you on Wednesday and Thursday, both full days, and nothing else is booked for them. We’re going to move four machines on the first day and the rest on the second, so your office is never fully stopped. If the disks are late, I will tell you on Tuesday afternoon. Maher Khoury.
+@BC Check before you finish: ☐ a clear plan with days?  ☐ what happens if something is late?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Office You Can See Online
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: why do users call the help desk again and again about the same ticket?
+@GL online = using the internet or a network    ·    status = where a piece of work has got to    ·    chase = to call again and again to ask about something
+@BX A modern IT department had a problem it did not expect: its own telephone. The engineers were good and the work was quick, but the desk rang all day with the same question — where is my ticket? Each call took four or five minutes, and there were ninety of them a week. So the department built something very simple: one page that any user could open, showing their own tickets and where each one had got to. Logged. Investigating. Waiting for a part. Ready. That was all; no clever design, no messages, four words. The chasing calls fell by three quarters in a month. What surprised the manager was something else. Users stopped complaining about slow work even when the work was no faster. A ticket that said "waiting for a part since Tuesday" was accepted without a word, where the same wait in silence had produced three angry calls. He said afterwards that people do not really mind waiting. They mind not knowing.
+@IN Answer the questions. (0. is done.)
+@IT 0. What did the department build? — A simple page showing each user’s tickets.
+@IT 1. What was the problem before?
+@IT 2. What could a user see on the page?
+@IT 3. What did the manager say people really mind?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | online
+2 | status
+3 | estimate
+4 | chase
+@END
+@LB2 Column B
+@COLB
+a | where a piece of work has got to
+b | using the internet or a network
+c | a paper showing the time and the cost
+d | a saved time for a job
+e | to call again and again to ask about something
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “An online status page is useful because…”  ·  “In our office users ask most about…”  ·  “The four words I would use are…”  ·  “People do not mind waiting when…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: When the Licence Is Late and the Power Is Off
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: what should an officer say when they honestly do not know how long something will take?
+@BX One week was hard at Cham Systems. A company in Damascus needed a licence for its accounts program, and the licence could not be paid for from Syria. It had to go through a reseller in Beirut, who said ten days and meant it, but who had said ten days twice before and been wrong both times. At the same time the power schedule changed, and the four hours the team had counted on in the afternoon became two. Rana did not promise a date. She called the company on the Monday and told them exactly what she knew: the licence was ordered, the reseller had said ten days, she did not believe ten days, and she would call every Monday until it came, whether there was news or not. It came on the nineteenth day. She called four times with nothing to report. The company's director told Maher afterwards that those four empty calls were the reason he had renewed the contract — not the licence, which every company could eventually have supplied.
+@IN Answer the questions. (0. is done.)
+@IT 0. Was the licence available in Syria? — No, it had to go through Beirut.
+@IT 1. Why did Rana not believe the ten days?
+@IT 2. What did the change in the power schedule do?
+@IT 3. What did the director say was the reason he renewed?
+@EX Part 9: Decision Task
+@IN A licence may take ten days or two months, and the user is asking for a date today. Should the officer (a) give the reseller’s date, (b) give a longer date to be safe, or (c) give no date but promise a call every week? Choose one and give reasons.
+@BX Answer frame: “I think the officer should ___ because ___. The user really needs ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the officer should give no date but promise a call every week, because any date she gives today would be a guess, and a guess that fails costs more than no date at all. The user really needs to be able to plan, and a weekly call lets them do that. This is better than giving a longer date to be safe, because they would make their own plans around a date we invented.
+@BX Phrase bank: I think… should…  ·  because…  ·  The user really needs…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. A paper showing how long the work will take and what it will cost is an estimate.
+@WB approval    |  loan machine    |     will    |    is    |    should
+@IG 1. The user agreeing before the work starts is the  ____________________ .
+@IG 2. A machine the department lends while yours is away is a  ____________________ .
+@IG 3. “I  ____________________  call you as soon as it is ready.”
+@IG 4. “The engineer  ____________________  coming on Wednesday at ten.”
+@IG 5. “You  ____________________  change that password today” gives advice.
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the steps and words of a help-desk job from request to handover.
+@IT ☐ I can use will, going to, and the present continuous for the future.
+@IT ☐ I can understand a booking, an estimate and a week plan.
+@IT ☐ I can write a booking message or a ready-time message.
+@IT ☐ I can handle a big job and schedule a week (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 7 glossary (10 words)
+@BG appointment  ·  booking  ·  slot  ·  estimate  ·  approval  ·  loan machine  ·  handover  ·  completion note  ·  status  ·  window
+@PB
