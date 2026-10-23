@@ -584,6 +584,48 @@ figures and are a projection here.** The bible is emphatic that *every* projecti
 from unit density has over-estimated test length at every level — so the first test built
 is measured and the figure replaces this table.
 
+### ⚠ As built — Book 1's two tests, measured
+
+| | pages | key | marks | numbered questions |
+| --- | ---: | ---: | ---: | ---: |
+| **Book 1 Mid-Book Test** | **8** | **6** | 60 | 30 |
+| **Book 1 End-of-Book Test** | **9** | **8** | 100 | 50 |
+
+Both hit the projection exactly, which is the first time in this series that a test-length
+projection has held. It did not hold by itself. The End-of-Book Test rendered **10** pages
+first, and the tenth page carried nothing but the `Your result` box — the same
+`cantSplit` block pricing recorded at Units 11 and 12. Compressing the Speaking marking
+table did not move it; neither did shortening the rubric by a line. What moved it was
+merging two paragraphs of the Part 2 task into one, which is to say the page was bought
+back **one line** at a time, and the box fitted with nothing to spare.
+
+The key rendered **7** pages against the projected 8, and this time the cause was the same
+convention that cost the unit keys three pages at Phase 0: the series' own End-of-Book key
+puts a `pb()` before **each of the four papers** and one before the closing band table —
+five in all — where its Mid-Book key uses three. Mine had three. Adding the two missing
+breaks gives 8, and it is a better page as well as a matching one: a teacher marking the
+Reading paper now has the Reading paper alone in front of them.
+
+⚠ **The End-of-Book Test's split is the plan's, and so is the general A2's.** The
+measured departure recorded at §4 above applies to the *Mid*-Book Test only. The general
+A2's own end-of-book test is 100 marks at Reading 30 · Writing 30 · Listening 20 ·
+Speaking 20, exactly as specified, so at this test the two books agree.
+
+### ⚠ As built — the bound volumes
+
+| volume | pages | arithmetic |
+| --- | ---: | --- |
+| `PBE-A2-B1-SY_StudentsBook_BOUND.docx` | **383** | 365 units + 8 mid + 9 end + 1 title = 383 ✓ exact |
+| `PBE-A2-B1-SY_AnswerKey_COMBINED.docx` | **213** | 197 keys + 6 mid + 8 end + 1 title = 212, **+1** |
+
+The extra page in the Answer Key is **page 33, and it is blank**. Unit 2's key ends flush
+with the bottom of its last page, and `bound.js` emits a `pb()` before every component, so
+the break lands on an empty page. It is an artefact of the bound build, not of the key:
+the standalone `Unit02_AnswerKey.docx` is 15 pages with no blank. The Student's Book has
+no such page, which is why its arithmetic is exact. `bound.js` is the series' own file and
+has not been changed to suppress this — a conditional page break would have to be added at
+four levels at once, and the author should decide that rather than this book.
+
 ---
 
 # PART SIX — HOUSE FIGURES AND FIDELITY CRITERIA

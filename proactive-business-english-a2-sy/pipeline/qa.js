@@ -184,6 +184,23 @@ function checkOrdinals(files) {
   });
 }
 
+// ---- cast surnames ---------------------------------------------------------
+// A first name with the wrong surname reads perfectly and is invisible to every other
+// check. It has shipped before — nine 'F. Haddad' bylines at B1 — so the pairs are
+// asserted. A first name followed by any other capitalised word is reported, and across
+// this whole book that regex produced one hit: the fault it was written to find.
+const SURNAME = { Nour: 'Mansour', Nadia: 'Sayegh', Bassel: 'Nassif', Hala: 'Mourad',
+                  Fadi: 'Saeed', Khaled: 'Ayoub', Fouad: 'Tarabishi', Dima: 'Shamsi',
+                  Yasser: 'Khalil' };
+function checkNames(file, s) {
+  const re = new RegExp(`\\b(${Object.keys(SURNAME).join('|')}) ([A-Z][a-z]+)`, 'g');
+  [...s.matchAll(re)].forEach(m => {
+    if (m[2] !== SURNAME[m[1]]) {
+      fail(`${file}: "${m[1]} ${m[2]}" — ${m[1]}'s surname is ${SURNAME[m[1]]}`);
+    }
+  });
+}
+
 // ---- lexis collisions across the book --------------------------------------
 function checkLexis(sets) {
   const all = [];
@@ -203,7 +220,7 @@ function checkLexis(sets) {
 // A test is the one artefact where arithmetic can be wrong without looking wrong:
 // the marks in the part headings have to add up to the paper, the papers to the
 // total, and every numbered question needs exactly one answer in the key.
-function checkTest(paperFile, keyFile) {
+function checkTest(paperFile, keyFile, spec) {
   const t = fs.readFileSync(path.join(dir, paperFile), 'utf8');
   const k = fs.readFileSync(path.join(dir, keyFile), 'utf8');
   checkChars(paperFile, t);
@@ -214,10 +231,12 @@ function checkTest(paperFile, keyFile) {
                    .map(m => ({ name: m[1], marks: +m[2] }));
   if (papers.length !== 4) fail(`${paperFile}: ${papers.length} papers, expected 4`);
   const total = papers.reduce((a, p) => a + p.marks, 0);
-  if (total !== 60) fail(`${paperFile}: the four papers total ${total} marks, not 60`);
+  if (total !== spec.total) {
+    fail(`${paperFile}: the four papers total ${total} marks, not ${spec.total}`);
+  }
 
-  // the A2 Key weighting this book's plan commits to
-  const want = { READING: 18, WRITING: 18, LISTENING: 12, SPEAKING: 12 };
+  // the A2 Key weighting this book's plan commits to, scaled to this paper's total
+  const want = spec.want;
   papers.forEach(p => {
     if (want[p.name] !== undefined && want[p.name] !== p.marks) {
       fail(`${paperFile}: ${p.name} is ${p.marks} marks; the 30·30·20·20 split gives it ${want[p.name]}`);
@@ -250,13 +269,32 @@ function checkTest(paperFile, keyFile) {
   // questions are numbered **7** in a stem, **23** in a notes table, and (16) in a cloze
   const nums = [...t.matchAll(/\*\*(\d+)\*\*|\((\d+)\)\s*_{3,}/g)]
                  .map(m => +(m[1] || m[2]))
-                 .filter(n => n <= 60).sort((a, b) => a - b);
+                 .filter(n => n <= spec.maxQ).sort((a, b) => a - b);
   const seen = [...new Set(nums)];
   for (let i = 0; i < seen.length; i++) {
     if (seen[i] !== i + 1) {
       fail(`${paperFile}: question numbering jumps from ${seen[i - 1]} to ${seen[i]}`);
       break;
     }
+  }
+  // a dropped last question leaves the numbering contiguous and still wrong
+  if (seen.length !== spec.maxQ) {
+    fail(`${paperFile}: ${seen.length} numbered question(s), expected ${spec.maxQ}`);
+  }
+
+  // and every numbered question must be answered somewhere in the key.
+  // the key states answers two ways: a Q/Answer row for multiple choice, and a
+  // table whose headings are the gap numbers for anything written into a gap.
+  const answered = new Set();
+  [...k.matchAll(/table\(\['Q',\s*((?:'\d+'\s*,?\s*)+)\]/g)].forEach(m => {
+    (m[1].match(/\d+/g) || []).forEach(n => answered.add(+n));
+  });
+  [...k.matchAll(/table\(\[((?:'\d+'\s*,\s*)*'\d+')\]/g)].forEach(m => {
+    (m[1].match(/\d+/g) || []).forEach(n => answered.add(+n));
+  });
+  const missing = seen.filter(n => !answered.has(n));
+  if (missing.length) {
+    fail(`${keyFile}: no answer for question(s) ${missing.join(', ')}`);
   }
 }
 
@@ -276,7 +314,12 @@ function checkLoads(file) {
   try {
     mod = require(path.join(dir, file));
   } catch (e) {
-    fail(`${file}: does not load — ${e.message.split('\n')[0]}`);
+    let msg = e.message.split('\n')[0];
+    // docx's own message for this one is unreadable, and it is always the same cause
+    if (/reading 'slice'/.test(msg)) {
+      msg = 'a table\'s widths array is shorter than its headings — count both';
+    }
+    fail(`${file}: does not load — ${msg}`);
     return;
   }
   if (!Array.isArray(mod)) return fail(`${file}: exports ${typeof mod}, not an array of elements`);
@@ -287,7 +330,12 @@ function checkLoads(file) {
     }
   });
 }
-[...units, ...keys].forEach(checkLoads);
+// the test papers are loaded too: a table whose widths array is one short of its
+// headings renders nothing and throws inside docx, and a text-only read cannot see it
+const papers = ['midtest.js', 'midkey.js', 'endtest.js', 'endkey.js']
+  .filter(f => fs.existsSync(path.join(dir, f)));
+[...units, ...keys, ...papers].forEach(checkLoads);
+[...units, ...keys, ...papers].forEach(f => checkNames(f, fs.readFileSync(path.join(dir, f), 'utf8')));
 const lexis = {};
 units.forEach(f => {
   const s = fs.readFileSync(path.join(dir, f), 'utf8');
@@ -301,8 +349,12 @@ keys.forEach(f => {
            fs.existsSync(up) ? fs.readFileSync(up, 'utf8') : null);
 });
 if (units.length) checkOrdinals(units.map(f => path.join(dir, f)));
-[['midtest.js', 'midkey.js'], ['endtest.js', 'endkey.js']].forEach(([t, k]) => {
-  if (fs.existsSync(path.join(dir, t)) && fs.existsSync(path.join(dir, k))) checkTest(t, k);
+[['midtest.js', 'midkey.js', { total: 60, maxQ: 30,
+   want: { READING: 18, WRITING: 18, LISTENING: 12, SPEAKING: 12 } }],
+ ['endtest.js', 'endkey.js', { total: 100, maxQ: 50,
+   want: { READING: 30, WRITING: 30, LISTENING: 20, SPEAKING: 20 } }],
+].forEach(([t, k, spec]) => {
+  if (fs.existsSync(path.join(dir, t)) && fs.existsSync(path.join(dir, k))) checkTest(t, k, spec);
 });
 const nLex = checkLexis(lexis);
 console.log(`-- ${nLex} lexis item(s) declared; ${faults} fault(s)`);

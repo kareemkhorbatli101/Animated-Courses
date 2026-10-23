@@ -12,6 +12,8 @@ export PE_BOOK=1
 mkdir -p "$S"
 
 if [ "$1" = "zip" ]; then
+  # the plan lives in the tree root; the bundle carries a copy, refreshed every time
+  cp "$P/../PLAN.md" "$O/PBE-A2-B1-SY_PLAN.md"
   cd "$P/.." && rm -f "$O"/PBE-A2-B1-SY_pipeline_*.zip && zip -qr "$O/PBE-A2-B1-SY_pipeline_latest.zip" pipeline
   cd "$O" && rm -f "$2" && zip -q "$2" *.docx *.md PBE-A2-B1-SY_pipeline_latest.zip && unzip -l "$2"
   exit 0
