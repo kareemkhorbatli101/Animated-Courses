@@ -517,6 +517,30 @@ possible. **This is Decision 1.**
 ⚠ Both page figures are projections and Phase 2 replaces them with measurements. The basis is
 Business A2's measured 8+7 and 10+7 plus the step the general course took from A2 to B1.
 
+### ✓ As built — Book 1 complete, every figure measured
+
+| | Measured | Projected | |
+| --- | ---: | ---: | --- |
+| Units 1–12, Student's Book | **465** pp (38·36·40·36·38·38·38·40·41·41·41·38) | 432–480 | band widened at Unit 9 |
+| Units 1–12, Answer Key | **282** pp (23·22·23·23·24·23·24·24·24·24·24·24) | 252–300 | |
+| Mid-Book Test + key | **8 + 7** | ~~10 + 8~~ | |
+| End-of-Book Test + key | **12 + 8** | ~~13 + 9~~ | |
+| **Student's Book, bound** | **487** | 486 by arithmetic | ⚠ see below |
+| **Answer Key, combined** | **298** | 298 by arithmetic | exact |
+| Lexis | **360** items, 0 collisions | 360 | 30 × 12, no repeat inside B1 or against A2's 624 |
+
+**⚠ The one-page discrepancy in the bound Student's Book, located.** The arithmetic predicts
+486 (465 + 8 + 12 + 1 for the title page) and the volume measures **487**. Bisected to the
+**Unit 7 → Unit 8 boundary**: Unit 7's closing `box()` — the "I can…" list — moves whole to its
+own page there, because `box()` is `cantSplit`. Unit 7 standing alone is 38 pages and is correct
+at 38; inside the bound volume it occupies 39. The Answer Key, which has fewer boxes falling at
+boundaries, is exact.
+
+**This is the eighth block-pricing measurement in the series and the first taken at a boundary
+between two files rather than inside one.** ⚠ It was not trimmed: Unit 7 is right at 38 standing
+alone, and trimming it to improve the bound pagination would make the unit worse in the only form
+a learner holds. **The bound volume is 487 and the record says why.**
+
 **✓ As built — the Book 1 Mid-Book Test, measured.** ~~10 + 8~~ → **8 + 7**. The projection was
 wrong in the same direction as A2's and for the same reason: a B1 paper carries fewer, longer
 items rather than more items, so the Reading and Listening papers each lost a part relative to
