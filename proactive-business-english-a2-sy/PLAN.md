@@ -718,7 +718,7 @@ The book is correct when all **fourteen** hold.
 
 # PART EIGHT — DECISIONS I NEED FROM YOU
 
-1. ⚠ **"Pervasive" = "Proactive"?** Everything here assumes yes.
+1. ✓ **"Pervasive" = "Proactive" — CONFIRMED** by the author on 23 October 2026: *"yes proactive is what I meant"*. Everything here assumed yes and was right to.
 2. ⚠ **Exam anchor: A2 Key** (my recommendation — there is no Cambridge business exam at A2), **or** reframe as pre-**B1 Business Preliminary**? This changes the test specification.
 3. **Cast and setting**: Sham Trading Co. and the eight people above — approve, or replace?
 4. **Grammar ladder**: I have kept the general A2's ladder exactly, so the two books interleave. Confirm you want that rather than a business-first resequencing.

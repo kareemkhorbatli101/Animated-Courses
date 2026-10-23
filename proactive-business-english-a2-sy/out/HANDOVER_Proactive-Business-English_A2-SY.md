@@ -143,13 +143,13 @@ them against a Book 1 unit written months earlier. The check earns its keep at t
 
 ---
 
-## 3 · Open — the one question still outstanding
+## 3 · Open — nothing
 
-⚠ **"Pervasive English" was read as "Proactive English."** The whole book is built on that
-reading. The author has not confirmed it in writing. Everything else in Part Eight of the plan
-was settled by the recommendation the author accepted — A2 Key as the exam anchor, the Sham
-Trading cast, the general A2's grammar ladder kept unchanged so the two books interleave, and
-Book 1 built first.
+✓ **"Proactive" is confirmed.** The author confirmed it in writing on 23 October 2026, when
+approving the B1 plan: *"yes proactive is what I meant"*. The reading the whole level was built
+on is correct and this section is closed. Everything else in Part Eight of the plan was settled
+by the recommendation the author accepted — A2 Key as the exam anchor, the Sham Trading cast,
+the general A2's grammar ladder kept unchanged so the two books interleave, and Book 1 first.
 
 ---
 
