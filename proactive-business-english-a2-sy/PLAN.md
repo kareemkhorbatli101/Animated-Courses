@@ -103,6 +103,27 @@ bite by breaking the key on purpose before restoring it:
 **The band to hold for Units 2–12 is therefore SB 29 ± 2, AK 15 ± 2, measured in this
 container.** Hold the band; do not aim at its midpoint.
 
+### ⚠ The Student's Book band widened once, at Unit 11 — and the cause is not verbal
+
+Units 1–8 rendered 29, 29, 29, 29, 30, 31, 31, 30. Unit 9 rendered 32 and was trimmed to
+31 by cutting about 70 words of repetition, which worked. Unit 10 rendered 31. **Unit 11
+rendered 32, and about 400 words were cut from it across six cycles without the page
+count moving at all.**
+
+Rendering the last two pages showed why. Page 32 holds two things: the three ruled lines
+of the unit check's writing task, and the closing **"I can…" box**. `box()` is `cantSplit`,
+so an eight-item checklist that does not fit in the space left on page 31 does not break —
+it moves whole to a page of its own, and page 31 ends with a hand's width of white below
+the audio script. **The overflow is one unsplittable block at the very end of the unit, and
+no amount of trimming inside cycles 11.1–11.6 can reach it.**
+
+The checklist has eight items in every unit of this strand — seven cycles and one line for
+the writing genres — so shortening it to win a page would break the series pattern to fix
+a rendering artefact. **The band is widened instead: SB 29–32, AK 15–17.** This is the same
+finding the bible records at C1 ("at and above C1, a page is priced in unsplittable blocks
+and not in words"); it is recorded here because it turns out to apply at **A2** as well,
+once a unit's prose reaches about 12,800 words. Do not gut a cycle to hit a page.
+
 ## 4 · Tests and word counts, as built at A2
 
 **Tests:** Mid-Book **8 pages + key 6**; End-of-Book **9 + key 8**; **60 marks / 100**;
@@ -569,7 +590,7 @@ The book is correct when all **fourteen** hold.
 7. Peer-review bands follow the four-band progression, unchanged.
 8. **The grammar ladder matches the general A2 unit for unit**, so the two books are interchangeable within a level.
 9. **No lexical item repeats across the 24 units.** Checked in the source with `tr '·' '\n' … sort | uniq -d` — ⚠ never with a `sed` that strips at the first underscore, which drops the last item of every set and has let two collisions through before.
-10. Page bands: ⚠ the bible's SB **31**, AK **17–22** does not reproduce in this container and is **superseded** — the measured Phase 0 band is **SB 29 ± 2, AK 15 ± 2** (§3).
+10. Page bands: ⚠ the bible's SB **31**, AK **17–22** does not reproduce in this container and is **superseded** — the measured band is **SB 29–32, AK 15–17** (§3; widened once at Unit 11, with the cause recorded).
 11. **Ordinal continuity**: every cycle 7 that names its place in a series is grepped across the whole book whenever a unit is added, and again before the book closes. ⚠ This fault has shipped at three levels in a row and is the series' most reliable defect; the drift begins at **the cycle that omits the claim**, so check the sequence for gaps, not just the numbers present.
 12. **Dialogue integrity**: no speaker asks a question and answers it himself; no speaker outside the cast; consecutive same-speaker turns reported for a human decision. ⚠ Found at C1 Book 2 in eleven exchanges across four units, and no word-count check can see it.
 13. Every unit and key script ends with **both** `module.exports = out;` **and** the `require.main` build line — without the second the build writes no file and exits silently.

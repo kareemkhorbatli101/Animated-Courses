@@ -14,7 +14,7 @@ const path = require('path');
 const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi',
               'Mr Tarabishi', 'Ms Shamsi', 'A', 'B', 'Man', 'Woman', 'Caller',
               'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C',
-              'Clinic', 'Receptionist', 'Pharmacist', 'Teacher'];
+              'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station'];
 
 // per-unit house figures — asserted as COUNTS before anything measures contents
 const HOUSE = {
