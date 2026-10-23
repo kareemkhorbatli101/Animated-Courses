@@ -195,6 +195,67 @@ function checkLexis(sets) {
   return all.length;
 }
 
+// ---- test papers ----------------------------------------------------------
+// A test is the one artefact where arithmetic can be wrong without looking wrong:
+// the marks in the part headings have to add up to the paper, the papers to the
+// total, and every numbered question needs exactly one answer in the key.
+function checkTest(paperFile, keyFile) {
+  const t = fs.readFileSync(path.join(dir, paperFile), 'utf8');
+  const k = fs.readFileSync(path.join(dir, keyFile), 'utf8');
+  checkChars(paperFile, t);
+  checkChars(keyFile, k);
+
+  // PAPER n · NAME  (minutes · N marks)
+  const papers = [...t.matchAll(/h2\('PAPER \d+\s+·\s+([A-Z]+)[^']*?·\s*(\d+) marks\)/g)]
+                   .map(m => ({ name: m[1], marks: +m[2] }));
+  if (papers.length !== 4) fail(`${paperFile}: ${papers.length} papers, expected 4`);
+  const total = papers.reduce((a, p) => a + p.marks, 0);
+  if (total !== 60) fail(`${paperFile}: the four papers total ${total} marks, not 60`);
+
+  // the A2 Key weighting this book's plan commits to
+  const want = { READING: 18, WRITING: 18, LISTENING: 12, SPEAKING: 12 };
+  papers.forEach(p => {
+    if (want[p.name] !== undefined && want[p.name] !== p.marks) {
+      fail(`${paperFile}: ${p.name} is ${p.marks} marks; the 30·30·20·20 split gives it ${want[p.name]}`);
+    }
+  });
+
+  // part headings carry their own marks; they must add up to their paper
+  const chunks = t.split(/h2\('PAPER /).slice(1);
+  chunks.forEach((chunk, i) => {
+    const partMarks = [...chunk.matchAll(/part\('Part \d+[^']*?\((\d+) marks\)'/g)].map(m => +m[1]);
+    if (!partMarks.length) return;            // Speaking states its marks in boxes
+    const sum = partMarks.reduce((a, b) => a + b, 0);
+    if (sum !== papers[i].marks) {
+      fail(`${paperFile}: ${papers[i].name} parts add to ${sum}, but the paper is ${papers[i].marks}`);
+    }
+  });
+
+  // every answer row in the key must have one letter per question heading
+  const rows = [...k.matchAll(/table\(\['Q',\s*((?:'\d+'\s*,?\s*)+)\]\s*,\s*\[\['Answer',\s*((?:'[ABC]'\s*,?\s*)+)\]\]/g)];
+  if (!rows.length) fail(`${keyFile}: no answer rows found — the key states its answers in Q/Answer tables`);
+  rows.forEach(m => {
+    const qs = m[1].match(/\d+/g) || [];
+    const as = m[2].match(/[ABC]/g) || [];
+    if (qs.length !== as.length) {
+      fail(`${keyFile}: answer row for Q${qs[0]}–${qs[qs.length - 1]} has ${as.length} answer(s) for ${qs.length} question(s)`);
+    }
+  });
+
+  // and the numbering must run 1..N with no gap and no repeat
+  // questions are numbered **7** in a stem, **23** in a notes table, and (16) in a cloze
+  const nums = [...t.matchAll(/\*\*(\d+)\*\*|\((\d+)\)\s*_{3,}/g)]
+                 .map(m => +(m[1] || m[2]))
+                 .filter(n => n <= 60).sort((a, b) => a - b);
+  const seen = [...new Set(nums)];
+  for (let i = 0; i < seen.length; i++) {
+    if (seen[i] !== i + 1) {
+      fail(`${paperFile}: question numbering jumps from ${seen[i - 1]} to ${seen[i]}`);
+      break;
+    }
+  }
+}
+
 const dir = __dirname;
 const want = process.argv.slice(2);
 const units = fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f))
@@ -236,6 +297,9 @@ keys.forEach(f => {
            fs.existsSync(up) ? fs.readFileSync(up, 'utf8') : null);
 });
 if (units.length) checkOrdinals(units.map(f => path.join(dir, f)));
+[['midtest.js', 'midkey.js'], ['endtest.js', 'endkey.js']].forEach(([t, k]) => {
+  if (fs.existsSync(path.join(dir, t)) && fs.existsSync(path.join(dir, k))) checkTest(t, k);
+});
 const nLex = checkLexis(lexis);
 console.log(`-- ${nLex} lexis item(s) declared; ${faults} fault(s)`);
 process.exit(faults ? 1 : 0);

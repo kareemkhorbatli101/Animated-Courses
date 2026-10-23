@@ -112,6 +112,22 @@ explicit that the split follows the examination, not house habit.
 **Word counts:** guided writing ≥25 (Book 1) / ≥35 (Book 2) · free writing 35–60 / 60–100
 · model texts 45–100 / 100–180.
 
+### ⚠ As built — a deliberate departure from the general A2's own Mid-Book Test
+
+The bible is explicit that the split follows the examination, and at A2 that is A2 Key's
+30 · 30 · 20 · 20. The general A2's **End**-of-Book Test follows it exactly (30 · 30 ·
+20 · 20 of 100). Its **Mid**-Book Test does not: it is Reading 20 · Writing 15 ·
+Listening 15 · Speaking 10, which is 33 · 25 · 25 · 17.
+
+This book's Mid-Book Test follows the rule rather than the precedent: **Reading 18 ·
+Writing 18 · Listening 12 · Speaking 12 of 60**, which is 30 · 30 · 20 · 20 exactly.
+A candidate's mid-book percentage is therefore comparable with their end-of-book
+percentage and with a real A2 Key result; in the source book the two tests measure
+differently-shaped things and the halves of the course cannot be compared.
+
+`qa.js` now asserts the split, the part-mark arithmetic, the four-paper total and the
+question numbering of any test paper, so the next test in this strand cannot drift.
+
 **Peer-review progression** (fixed, four bands): Units 1–6 capitals & full stops · *be* in
 every sentence · he/she + -s · all parts present → Units 7–12 + past tense · greeting &
 ending · a/an/the → Units 13–18 + linkers · all three content points · paragraphs →
