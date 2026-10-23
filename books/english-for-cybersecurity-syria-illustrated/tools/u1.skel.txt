@@ -1,0 +1,354 @@
+    0 UNITHEAD                   Unit 1: Introduction to the Vehicle and the Service Department
+    1 SUBTITLE                   English for Auto Maintenance Personnel · Level: Upper A2 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] Parts 7–1
+    2 WARMBAR                    Warm Up
+    3 TRACK                      [OP] Operator track · in-class starter
+    4 EXHEAD                     Warm-up: Car Words and Meanings
+    5 INSTRW                     Match the car words with their meanings. One meaning is not needed. Write the letter.
+    6 LABEL                      Column A
+    7 T_COLA      3|700,3300,1200 1.Engine____2.Tyre____3.Battery____4.Bonnet / Hood____5.Boot / Trunk____
+    8 LABEL                      Column B
+    9 T_COLB      2|700,8326     a)the cover over the engine at the frontb)the wheel you hold to steer the carc)it stores electricity to star
+   10 EXHEAD                     Warm-up: In the Service Department
+   11 FIG         540x180        
+   12 CAPTION                    Figure 1.1 · The service department at Cham Motors.
+   13 INSTRW                     Complete the sentences using the words in the word bank.
+   14 BANK                       Word bank: service | engine | mechanic | customer
+   15 ITEM                       1. A ____________________ repairs and checks cars.
+   16 ITEM                       2. The car comes in for a ____________________ every year.
+   17 ITEM                       3. The ____________________ makes the car move.
+   18 ITEM                       4. The ____________________ brings the car to the garage.
+   19 EXHEAD                     Warm-up: Reading About the Service Department
+   20 INSTRW                     Read the text and choose the correct answer.
+   21 BOX                        A service department has many people. The customer brings the car to reception. The service advisor writes a
+   22 BITEM                      1. Who writes the job card?
+   23 IND         260            ○ A) The customer
+   24 IND         260            ○ B) The service advisor
+   25 IND         260            ○ C) The mechanic
+   26 IND         260            ○ D) The driver
+   27 BITEM                      2. Why is a tidy workshop good?
+   28 IND         260            ○ A) It is safe
+   29 IND         260            ○ B) It is expensive
+   30 IND         260            ○ C) It is dark
+   31 IND         260            ○ D) It is small
+   32 PARTBAR                    Part 1 · Vocabulary and Terminology
+   33 TRACK                      [OP] Operator track · pre-class input
+   34 EXHEAD                     Part 1: Car and Service Terms
+   35 INSTR                      Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+   36 ITEM                       0. Mechanic → the person who repairs and services cars.
+   37 LABEL                      Column A
+   38 T_COLA      3|700,3300,1200 1.Engine____2.Battery____3.Radiator____4.Bonnet / Hood____5.Boot / Trunk____6.Service bay____7.Job card____
+   39 LABEL                      Column B
+   40 T_COLB      2|700,8326     a)it stores electricity to start the carb)the place in the workshop where a car is worked onc)the pedal you 
+   41 GLOSS_EMPTY                
+   42 GLOSS_EMPTY                
+   43 EXHEAD                     Part 1: Pronunciation
+   44 LABEL                      🔊 Audio Track 1.1
+   45 INSTR                      Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+   46 BITEM                      vehicle — VE-hi-cle
+   47 BITEM                      engine — EN-gine
+   48 BITEM                      mechanic — me-CHAN-ic
+   49 BITEM                      battery — BAT-ter-y
+   50 BITEM                      service — SER-vice
+   51 BITEM                      customer — CUS-to-mer
+   52 EXHEAD                     Part 1: People and Places in the Department
+   53 FIG         540x150        
+   54 CAPTION                    Figure 1.2 · The people in a service department.
+   55 INSTR                      Complete the table. Write where each person works and what they do. (0. is done.)
+   56 T_COLA      3|3026,2600,3400 PersonWhereWhat they doMechanicworkshopChecks and repairs carsService advisorManagerDiagnostic technician
+   57 EXHEAD                     
+   58 EXHEAD                     Part 1: Parts of a Car
+   59 FIG         540x173        
+   60 CAPTION                    Figure 1.3 · Label the parts of the car (bonnet, boot, wheel, door, windscreen).
+   61 INSTR                      Match the parts of a car with their descriptions. One description is not needed. Write the letter.
+   62 LABEL                      Column A
+   63 T_COLA      3|700,3300,1200 1.Bonnet / Hood____2.Boot / Trunk____3.Wheel____4.Door____5.Windscreen____
+   64 LABEL                      Column B
+   65 T_COLB      2|700,8326     a)the big glass window at the frontb)the cover over the enginec)the mirror you use to see behindd)the space 
+   66 EXHEAD                     Part 1: Cars and Service — Multiple Choice
+   67 INSTR                      Read and choose the correct answer.
+   68 BITEM                      1. What does the battery do?
+   69 IND         260            ○ A) Makes the car move
+   70 IND         260            ○ B) Cools the engine
+   71 IND         260            ○ C) Holds bags
+   72 IND         260            ○ D) Stores electricity to start the car
+   73 BITEM                      2. Where does a mechanic work?
+   74 IND         260            ○ A) Reception
+   75 IND         260            ○ B) The office
+   76 IND         260            ○ C) The workshop
+   77 IND         260            ○ D) At home
+   78 BITEM                      3. What is a job card?
+   79 IND         260            ○ A) A paper that lists the work to do
+   80 IND         260            ○ B) A type of tool
+   81 IND         260            ○ C) A car part
+   82 IND         260            ○ D) A door key
+   83 EXHEAD                     Part 1: Vocabulary Fill-in
+   84 INSTR                      Complete the sentences with the correct word.
+   85 BANK                       Word bank: workshop | battery | engine | job card
+   86 ITEM                       1. The ____________________ makes the car move.
+   87 ITEM                       2. The ____________________ stores electricity to start the car.
+   88 ITEM                       3. The mechanic works in the ____________________ .
+   89 ITEM                       4. The service advisor writes a ____________________ for each car.
+   90 EXHEAD                     Part 1: Write About Cars (short)
+   91 INSTR                      Write two or three sentences about a car or the service department. Use three words from this unit.
+   92 LABEL                      Model — read this first:
+   93 BOX_EMPTY                  
+   94 PARTBAR                    Part 2 · Grammar — Present Simple vs Present Continuous
+   95 TRACK                      [OP] Operator track · pre-class input
+   96 EXHEAD                     Part 2: Notice
+   97 FIG         540x135        
+   98 CAPTION                    Figure 1.4 · Present simple (every day) and present continuous (now).
+   99 INSTR                      Read these lines from the workshop. Underline the verbs. Which are routines, and which are happening now?
+  100 BOX                        Nabil services cars. He usually starts at eight. Right now, he is changing the oil. The workshop opens every
+  101 EXHEAD                     Part 2: Grammar Focus Box
+  102 T_GRAM      4|1700,2450,2200,2676 FormUseExamplePresent simpleI/you service; he servicesroutines, factsThe workshop opens every day.Present co
+  103 BITEM                      Remember: every day, usually → present simple. now, this week, at the moment → present continuous.
+  104 WATCH                      Watch out! ✗ He change the oil. → ✓ He changes the oil. (add -s for he/she/it). ✗ I checking now. → ✓ I am c
+  105 EXHEAD                     Part 2: Controlled Practice
+  106 INSTR                      Complete with the present simple or present continuous. (0. is done.)
+  107 ITEM                       0. Nabil usually works in the morning. (work)
+  108 ITEM                       1. Tarek ____________________ (check) the tyres every day.
+  109 ITEM                       2. Look! He ____________________ (change) the oil right now.
+  110 ITEM                       3. The garage ____________________ (open) at eight o’clock.
+  111 ITEM                       4. Today, Lina ____________________ (find) a fault in the engine.
+  112 EXHEAD                     Part 2: Simple or Continuous?
+  113 INSTR                      Choose the correct form.
+  114 ITEM                       1. Right now, Tarek ____________________ (watches / is watching) Nabil.
+  115 ITEM                       2. Lina usually ____________________ (starts / is starting) at eight.
+  116 ITEM                       3. Listen! The engine ____________________ (makes / is making) a strange noise.
+  117 ITEM                       4. The garage ____________________ (services / is servicing) many cars every week.
+  118 EXHEAD                     Part 2: Correct the Sentence
+  119 INSTR                      Each sentence has one grammar mistake. Write the correct sentence.
+  120 ITEM                       1. The garage service many cars every day. __________________________________
+  121 ITEM                       2. Look! Nabil change the oil now. __________________________________
+  122 ITEM                       3. She check the brakes every service. __________________________________
+  123 ITEM                       4. We are repair the engine now. __________________________________
+  124 EXHEAD                     Part 2: Freer Practice
+  125 INSTR                      Write two sentences about your work or study: one routine (present simple) and one about now (present contin
+  126 EXHEAD                     Part 2: Grammar Review
+  127 INSTR                      Choose the correct sentence.
+  128 BITEM                      1. Which sentence is correct (now)?
+  129 IND         260            ○ A) Nabil change the oil.
+  130 IND         260            ○ B) Nabil is changing the oil.
+  131 IND         260            ○ C) Nabil changing the oil.
+  132 IND         260            ○ D) Nabil are changing the oil.
+  133 BITEM                      2. Which sentence is correct (routine)?
+  134 IND         260            ○ A) The garage services cars.
+  135 IND         260            ○ B) The garage servicing cars.
+  136 IND         260            ○ C) The garage service cars.
+  137 IND         260            ○ D) The garage to service cars.
+  138 ITEM                       → You will see the present simple and present continuous again in the Part 5 reading. Watch for them.
+  139 PARTBAR                    Part 3 · Listening
+  140 EXHEAD                     
+  141 EXHEAD                     Part 3: A Mechanic Talks About His Work
+  142 ITEM                       🔊 Audio Track 1.2
+  143 ITEM                       Before you listen: what does a mechanic do first — read the job card, or start the engine?
+  144 BOX                        Nabil: Hello, my name is Nabil. I am a mechanic at Cham Motors. I service and repair cars. First, I read the
+  145 INSTR                      While you listen: write True, False, or Not Given. (0. is done.)
+  146 ITEM                       0. Nabil is a mechanic. — True
+  147 ITEM                       1. Nabil works in a bakery. ____
+  148 ITEM                       2. Nabil is changing the oil right now. ____
+  149 ITEM                       3. Nabil works alone. ____
+  150 ITEM                       Useful phrases: I service… · First, I… · Right now, I am…
+  151 EXHEAD                     Part 3: At Reception
+  152 ITEM                       🔊 Audio Track 1.3
+  153 ITEM                       Before you listen: what does a service advisor ask a customer first?
+  154 BOX                        Rana: Good morning, welcome to Cham Motors. How can I help you?
+  155 BOX                        Mr Aboud: My car needs a service.
+  156 BOX                        Rana: Of course. What is the problem?
+  157 BOX                        Mr Aboud: It’s making a noise, and the service is due.
+  158 BOX                        Rana: I’ll write a job card. Can you leave the car with us today?
+  159 BOX                        Mr Aboud: Yes. When will it be ready?
+  160 BOX                        Rana: This afternoon. We’ll call you.
+  161 INSTR                      While you listen: answer the questions. (0. is done.)
+  162 ITEM                       0. Where is Mr Aboud? — At Cham Motors (reception).
+  163 ITEM                       1. What does his car need?
+  164 ITEM                       2. What is the problem?
+  165 ITEM                       3. When will the car be ready?
+  166 ITEM                       Useful phrases: How can I help you? · What is the problem? · We’ll call you.
+  167 EXHEAD                     Part 3: A Day at Cham Motors
+  168 ITEM                       🔊 Audio Track 1.4
+  169 ITEM                       Before you listen: who works in a car service department? Write two jobs.
+  170 BOX                        Maher: Good morning, everyone. Today we are busy. Nabil is servicing Mr Aboud’s car. Tarek, you are new here
+  171 INSTR                      While you listen: match each person with what they are doing now. One action is not needed. (0. is done.)
+  172 ITEM                       0. Maher → checking the job cards.
+  173 LABEL                      Column A
+  174 T_COLA      3|700,3300,1200 1.Nabil____2.Tarek____3.Lina____4.Rana____
+  175 LABEL                      Column B
+  176 T_COLB      2|700,8326     a)talking to customers at receptionb)watching and learningc)cleaning the toolsd)servicing a care)finding a f
+  177 PARTBAR                    Part 4 · Speaking
+  178 EXHEAD                     Part 4: Discussing Cars and Work
+  179 INSTR                      Work with a partner. Ask and answer these questions.
+  180 ITEM                       What car does your family have?
+  181 ITEM                       Do you like working on cars? Why?
+  182 ITEM                       What jobs are there in a service department?
+  183 BOX                        Useful language: We have a… · I like… because… · A mechanic… · A service advisor…
+  184 EXHEAD                     Part 4: Reception Role Play
+  185 INSTR                      Work in pairs. Read the model, then use the cards.
+  186 LABEL                      Model exchange:
+  187 BOX                        A: Good morning. How can I help you?
+  188 BOX                        B: My car needs a service.
+  189 BOX                        A: Of course. What is the problem?
+  190 BOX                        B: It’s making a noise.
+  191 BOX                        A: I’ll write a job card. Can you leave the car today?
+  192 BOX                        Useful language: How can I help you? · What is the problem? · I’ll write a job card. · When will it be ready
+  193 BOX                        Card A — Service advisor (Rana): greet the customer · ask what they need and the problem · write a job card 
+  194 BOX                        Card B — Customer (Mr Aboud): greet · say your car needs a service · say the problem · ask when it will be r
+  195 ITEM                       Your turn: run the dialogue, then swap roles.
+  196 TRACK                      Stretch [PR]: the customer needs the car back very quickly, but the workshop is busy — offer a fair time pol
+  197 EXHEAD                     Part 4: Mini-Presentation
+  198 INSTR                      Prepare a short talk (about one minute). Describe your job, or a car you know: what it is, its main parts, a
+  199 PARTBAR                    Part 5 · Reading
+  200 EXHEAD                     
+  201 EXHEAD                     Part 5: What Is a Service Department?
+  202 ITEM                       Before you read: what three areas do you think a service department has?
+  203 GLOSS                      Gloss: service = the regular check and care a car needs · job card = the paper that lists the work to do · d
+  204 BOX                        A service department looks after cars. It has three main areas: reception, the workshop, and the parts store
+  205 INSTR                      Answer the multiple-choice questions. (0. is done.)
+  206 ITEM                       0. What does a service department do? — it looks after cars.
+  207 BITEM                      1. What does the service advisor write?
+  208 IND         260            ○ A) A letter
+  209 IND         260            ○ B) A job card
+  210 IND         260            ○ C) A book
+  211 IND         260            ○ D) A bill
+  212 BITEM                      2. Who uses a diagnostic machine to find faults?
+  213 IND         260            ○ A) The customer
+  214 IND         260            ○ B) The manager
+  215 IND         260            ○ C) A technician
+  216 IND         260            ○ D) The driver
+  217 BITEM                      3. What is a good service department?
+  218 IND         260            ○ A) Clean, safe, and honest
+  219 IND         260            ○ B) Dark and dirty
+  220 IND         260            ○ C) Slow
+  221 IND         260            ○ D) Closed
+  222 EXHEAD                     Part 5: Vocabulary in Context
+  223 INSTR                      Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+  224 LABEL                      Column A
+  225 T_COLA      3|700,3300,1200 1.service____2.job card____3.workshop____4.diagnostic machine____
+  226 LABEL                      Column B
+  227 T_COLB      2|700,8326     a)the room where mechanics work on carsb)the paper that lists the work to doc)a mirror for seeing behindd)a 
+  228 EXHEAD                     Part 5: Cars in Syria
+  229 ITEM                       Before you read: why do people in Syria keep cars for many years?
+  230 GLOSS                      Gloss: import = to bring from another country · filter = a part that cleans the air, oil, or fuel
+  231 BOX                        In Syria, people keep cars for many years. New cars are expensive and hard to import, so drivers look after 
+  232 INSTR                      Write True or False. (0. is done.)
+  233 ITEM                       0. People in Syria keep cars for many years. — True
+  234 ITEM                       1. New cars are cheap and easy to import in Syria. ____
+  235 ITEM                       2. Dusty roads mean cars need regular servicing. ____
+  236 ITEM                       3. Old cars can still run well with good care. ____
+  237 PARTBAR                    Part 6 · Writing
+  238 TRACK                      [OP] Operator track · in-class / homework
+  239 EXHEAD                     Part 6: Describe Your Job or a Car (50–70 words)
+  240 INSTR                      Write about your job, or a car you know. Use one present-simple and one present-continuous sentence.
+  241 LABEL                      Model — read this first:
+  242 BOX_EMPTY                  
+  243 BITEM                      Plan (fill in, then write): I am a ___. Every day, I ___. First, I ___. Then I ___. Right now, I am ___.
+  244 BANK                       Word bank: I service / repair / check… | every day… | First… Then… | Right now, I am …-ing | I like my job b
+  245 BITEM                      Check before you finish: ☐ one present-simple + one present-continuous sentence? ☐ car or job words used? ☐ 
+  246 EXHEAD                     Part 6: Why Good Servicing Matters (50–70 words)
+  247 INSTR                      Write why good servicing is important. Give reasons.
+  248 LABEL                      Model — read this first:
+  249 BOX_EMPTY                  
+  250 BANK                       Word bank: … is important because… | safe | lasts longer | saves money | keeps customers happy
+  251 BITEM                      Check before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+  252 EXHEAD                     Part 6: A Note to the Mechanic (50–70 words)
+  253 INSTR                      Write a short note from Rana (reception) to Nabil (mechanic) about a car.
+  254 LABEL                      Model — read this first:
+  255 BOX_EMPTY                  
+  256 BITEM                      Plan (fill in, then write): Dear ___, Here is ___. It needs ___. The customer says ___, so please ___. Thank
+  257 BITEM                      Check before you finish: ☐ greeting and close? ☐ a clear request? ☐ 50–70 words?
+  258 EXHEAD                     Part 6: Reflection — A Car in My Family (40–60 words)
+  259 INSTR                      Write about a car in your family or one you know well.
+  260 LABEL                      Model — read this first:
+  261 BOX_EMPTY                  
+  262 BITEM                      Check before you finish: ☐ the car described? ☐ present simple + continuous? ☐ 40–60 words?
+  263 PARTBAR                    Part 7 · Management File — Welcoming a New Apprentice
+  264 TRACK                      [PR] Practitioner track (optional for beginners) · service-department manager
+  265 EXHEAD                     7A: Phrase Bank
+  266 INSTR                      Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+  267 LABEL                      Column A
+  268 T_COLA      3|700,3300,1200 1.“Welcome to the team.”____2.“Let me show you the workshop.”____3.“Always wear your safety glasses.”____4.“
+  269 LABEL                      Column B
+  270 T_COLB      2|700,8326     a)giving a safety ruleb)offering help and supportc)greeting a new workerd)talking about the pricee)showing s
+  271 EXHEAD                     7B: Manager Dialogue
+  272 ITEM                       🔊 Audio Track 1.5
+  273 ITEM                       Before you read: what does a manager say to a new apprentice on the first day?
+  274 BOX                        Maher: Good morning, Tarek. Welcome to Cham Motors. Nabil: Nice to meet you. Have you worked in a garage bef
+  275 INSTR                      Answer the questions. (0. is done.)
+  276 ITEM                       0. Where does Tarek start work? — At Cham Motors.
+  277 ITEM                       1. What is Tarek doing this week?
+  278 ITEM                       2. What safety rule does Nabil give?
+  279 ITEM                       3. What should Tarek do if he is not sure?
+  280 EXHEAD                     7C: Controlled Practice — First-Day Checklist
+  281 INSTR                      Put a manager’s first-day steps in order. Number them 1–5. (0. is done.)
+  282 ITEM                       0. Say welcome to the new worker. — 1
+  283 ITEM                       ____ Show the new worker the workshop.
+  284 ITEM                       ____ Give the safety rules.
+  285 ITEM                       ____ Introduce the team.
+  286 ITEM                       ____ Give the first small task.
+  287 EXHEAD                     7D: Role-Play — Briefing the Apprentice
+  288 INSTR                      In pairs. One is the foreman (Nabil); one is the apprentice (Tarek). Use the model and cards.
+  289 BOX                        Model exchange: Nabil: Welcome, Tarek. First, always wear your safety glasses. — Tarek: OK, Ustaz. — Nabil: 
+  290 BOX                        Card A — Foreman (Nabil): welcome · give three safety rules · say what to do today. Card B — Apprentice (Tar
+  291 TRACK                      Stretch [PR]: the apprentice wants to work under a car alone on day one — say no, and explain why, politely.
+  292 EXHEAD                     7E: Supervisory Writing (50–80 words)
+  293 INSTR                      You are Maher. Write a short welcome note to Tarek with his plan for the first week.
+  294 LABEL                      Model — read this first:
+  295 BOX_EMPTY                  
+  296 BITEM                      Check before you finish: ☐ a warm welcome? ☐ a clear first-week plan? ☐ one safety rule? ☐ 50–80 words?
+  297 PARTBAR                    Part 8 · Global Case Study — A Small Garage Grows
+  298 TRACK                      [PR] Practitioner track · pre-read / in-class discuss
+  299 ITEM                       Before you read: how can a small garage become a big service business?
+  300 GLOSS                      Gloss: repair = to fix something that is broken · honest = telling the truth and doing fair work · reputatio
+  301 BOX                        In a small town, a mechanic named Sami started a garage with only two workers. At first, they did simple rep
+  302 INSTR                      Answer the questions. (0. is done.)
+  303 ITEM                       0. Who started the garage? — A mechanic named Sami.
+  304 ITEM                       1. What did the customers want?
+  305 ITEM                       2. What did Sami teach the young mechanics?
+  306 ITEM                       3. What does Sami still say is important?
+  307 EXHEAD                     Part 8: Vocabulary in Context
+  308 INSTR                      Match each word with its meaning. One meaning is not needed. Write the letter.
+  309 LABEL                      Column A
+  310 T_COLA      3|700,3300,1200 1.garage____2.repair____3.honest____4.safe____
+  311 LABEL                      Column B
+  312 T_COLB      2|700,8326     a)telling the truth and doing fair workb)to fix something that is brokenc)a place where cars are serviced an
+  313 EXHEAD                     Part 8: Discussion
+  314 INSTR                      Talk with a partner. Use the frames.
+  315 BOX                        Discussion frames: “This is similar to Syria because…” · “This is different from Syria because…” · “I think 
+  316 PARTBAR                    Part 9 · Local Case Study — Syria in Focus: A Young Mechanic Opens a Workshop
+  317 TRACK                      [PR] Practitioner track · pre-read / in-class decide
+  318 ITEM                       Before you read: what problems can a young mechanic have when opening a workshop in Damascus?
+  319 BOX                        Lina studied to be a mechanic, and she wanted to open her own workshop in Damascus. She had good skills but 
+  320 INSTR                      Answer the questions. (0. is done.)
+  321 ITEM                       0. What did Lina want to open? — Her own workshop.
+  322 ITEM                       1. What two problems did Lina have?
+  323 ITEM                       2. How did she start?
+  324 ITEM                       3. Why did customers come back?
+  325 EXHEAD                     Part 9: Decision Task
+  326 INSTR                      Lina now has a little more money. Should she (a) buy a new diagnostic machine, (b) rent a bigger workshop, o
+  327 BOX                        Answer frame: “I think Lina should ___ because ___. Also, ___. This is better than ___ because ___.”
+  328 LABEL                      Model — read this first:
+  329 BOX_EMPTY                  
+  330 BOX                        Phrase bank: I think… should… · because… · Also,… · This is better than… · In my opinion…
+  331 PARTBAR                    Part 10 · Review and Can-Do
+  332 TRACK                      [OP + PR] · homework / self-study
+  333 EXHEAD                     Part 10: Spiral Review
+  334 INSTR                      Complete the review. (0. is done.)
+  335 ITEM                       0. The person who repairs and services cars is a mechanic.
+  336 BANK                       Word bank: job card | battery | workshop | present continuous | present simple
+  337 ITEM                       1. The paper that lists the work to do on a car is a ____________________ .
+  338 ITEM                       2. The part that stores electricity to start the car is the ____________________ .
+  339 ITEM                       3. The place where a mechanic works is the ____________________ .
+  340 ITEM                       4. “Nabil is changing the oil now” uses the ____________________ tense.
+  341 ITEM                       5. “The garage services cars every day” uses the ____________________ tense.
+  342 EXHEAD                     Part 10: Can-Do
+  343 LABEL                      Can-Do checklist
+  344 ITEM                       ☐ I can name the main parts of a car and the people in a service department.
+  345 ITEM                       ☐ I can use the present simple for routines and the present continuous for now.
+  346 ITEM                       ☐ I can understand a short talk between a mechanic, an advisor, and a customer.
+  347 ITEM                       ☐ I can describe a car or a job in 50–70 words.
+  348 ITEM                       ☐ I can welcome and brief a new worker (Practitioner).
+  349 EXHEAD                     Part 10: Glossary
+  350 LABEL                      Unit 1 glossary (10 words)
+  351 BOX                        engine · battery · radiator · bonnet · boot · service bay · job card · mechanic · service · workshop
+  352 SPACER                     
+-- 353 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]

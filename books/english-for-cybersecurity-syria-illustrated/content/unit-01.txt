@@ -1,0 +1,472 @@
+# Unit 1 · Introduction to the Computer and the IT Department
+# Grammar: present simple vs present continuous.  Level: Upper A2.
+
+@U Unit 1: Introduction to the Computer and the IT Department
+@SUB English for Cybersecurity Personnel  ·  Level: Upper A2 (the course moves to Low B1 from Unit 6)  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Computer Words and Meanings
+@IW Match the computer words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Computer
+2 | Password
+3 | Screen
+4 | Help desk
+5 | File
+@END
+@LB2 Column B
+@COLB
+a | a secret word that opens your account
+b | the keyboard you type on
+c | the machine you use to do your work
+d | the part you look at when you work
+e | the team you call when your computer has a problem
+f | a document you save and open again
+@END
+
+@EX Warm-up: In the IT Department
+@IMG fig-01-1.png
+@CAP Figure 1.1  ·  The help desk and the workshop bench at Cham Systems.
+@IW Complete the sentences using the words in the word bank.
+@WB password    |  help desk    |     file    |    screen
+@IG 1. You type your  ____________________  to open your account.
+@IG 2. Rana works at the  ____________________ .
+@IG 3. Nabil saves the report as a  ____________________ .
+@IG 4. The  ____________________  shows your work.
+
+@EX Warm-up: Reading About the IT Department
+@IW Read the text and choose the correct answer.
+@BX An IT and security department looks after the computers in a company. The user calls the help desk when there is a problem. The help-desk officer writes a ticket. Then a technician checks the machine at the bench. Safe, careful work is very important. A tidy desk and a locked screen keep information safe.
+@BI 1. Who writes the ticket?
+@OP ○  A)  The user
+@OP ○  B)  The help-desk officer
+@OP ○  C)  The technician
+@OP ○  D)  The manager
+@BI 2. Why is a locked screen good?
+@OP ○  A)  It keeps information safe
+@OP ○  B)  It is expensive
+@OP ○  C)  It is slow
+@OP ○  D)  It is new
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Computer and Security Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Help desk → the team you call when your computer has a problem.
+@LB Column A
+@COLA
+1 | Server
+2 | Account
+3 | Password
+4 | Backup
+5 | Update
+6 | Ticket
+7 | Screen lock
+@END
+@LB2 Column B
+@COLB
+a | a copy of your files, kept in a safe place
+b | a new version that fixes problems in a program
+c | a record of a problem and the work done on it
+d | the name the computer knows you by
+e | a big computer that keeps files for many people
+f | a secret word that opens your account
+g | a cable that joins two machines
+h | the step that hides your screen when you leave your desk
+@END
+@GL server = a big computer that keeps files for many people    ·    account = the name the computer knows you by
+@GL backup = a copy of your files, kept in a safe place    ·    ticket = a record of a problem and the work done on it
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 1.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR computer — com-PU-ter
+@PR password — PASS-word
+@PR security — se-CU-ri-ty
+@PR account — ac-COUNT
+@PR backup — BACK-up
+@PR update — UP-date
+
+@EX Part 1: People and Places in the Department
+@IMG fig-01-2.png
+@CAP Figure 1.2  ·  The people in an IT and security department.
+@IN Complete the table. Write where each person works and what they do. (0. is done.)
+@TBL 3026,2600,3400
+Person | Where | What they do
+* Help-desk officer | help desk | Answers calls and writes tickets
+Security officer |  | 
+Manager |  | 
+Trainee |  | 
+@END
+
+@EX 
+@EX Part 1: Parts of a Computer
+@IMG fig-01-3.png
+@CAP Figure 1.3  ·  The parts of a computer: screen, keyboard, mouse, tower and cable.
+@IN Match the parts of a computer with their descriptions. One description is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Screen
+2 | Keyboard
+3 | Mouse
+4 | Tower
+5 | Cable
+@END
+@LB2 Column B
+@COLB
+a | the box that holds the main parts of the computer
+b | the part you look at when you work
+c | you move it with your hand to point and click
+d | the printer that puts your work on paper
+e | you type on it
+f | it joins the screen to the tower
+@END
+
+@EX Part 1: Computers and Security — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What does a backup do?
+@OP ○  A)  It makes the computer faster
+@OP ○  B)  It keeps a copy of your files
+@OP ○  C)  It opens your account
+@OP ○  D)  It cleans the screen
+@BI 2. Where does a help-desk officer work?
+@OP ○  A)  The workshop bench
+@OP ○  B)  The store
+@OP ○  C)  The help desk
+@OP ○  D)  At home
+@BI 3. What is a ticket?
+@OP ○  A)  A record of a problem and the work done on it
+@OP ○  B)  A type of cable
+@OP ○  C)  A password
+@OP ○  D)  A printer
+
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB server    |  update    |     account    |    ticket
+@IG 1. Each person has one  ____________________  with their own name.
+@IG 2. The files for the whole office are kept on the  ____________________ .
+@IG 3. Rana writes a  ____________________  for every call.
+@IG 4. An  ____________________  fixes problems in a program.
+
+@EX Part 1: Write About Computers (short)
+@IN Write two or three sentences about your computer or the IT department. Use three words from this unit.
+@LM Model — read this first:
+@BX I work at Cham Systems. I use a computer every day. First, I open my account with my password, and then I read the new tickets. Right now, I am writing a short report for my manager. When I leave my desk, I lock the screen.
+
+@PART Part 2  ·  Grammar — Present Simple vs Present Continuous
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-01-4.png
+@CAP Figure 1.4  ·  Present simple (every day) and present continuous (now).
+@IN Read these lines from the help desk. Underline the verbs. Which are routines, and which are happening now?
+@BX Nabil checks the backup. He usually starts at eight. Right now, he is resetting a password for a user. The help desk opens every morning. Today it is answering many calls, because the office is busy.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+Present simple | I/you check; he checks | routines, facts | The help desk opens every day.
+Present continuous | am/is/are + -ing | now, this week | Nabil is resetting a password now.
+@END
+@BR Remember: every day, usually → present simple.  now, this week, at the moment → present continuous.
+@WO ✗ He check the backup. → ✓ He checks the backup. (add -s for he/she/it).   ✗ I resetting now. → ✓ I am resetting now.
+@EX Part 2: Controlled Practice
+@IN Complete with the present simple or present continuous. (0. is done.)
+@IT 0. Nabil usually works in the morning. (work)
+@IG 1. Rana  ____________________  (answer) the telephone every day.
+@IG 2. Look! He  ____________________  (change) the password right now.
+@IG 3. The office  ____________________  (open) at eight o’clock.
+@IG 4. Today, Lina  ____________________  (check) the list of accounts.
+@EX Part 2: Simple or Continuous?
+@IN Choose the correct form.
+@IG 1. Right now, Tarek  ____________________  (watches / is watching) Nabil.
+@IG 2. Rana usually  ____________________  (starts / is starting) at eight.
+@IG 3. Listen! The server  ____________________  (makes / is making) a strange noise.
+@IG 4. The department  ____________________  (checks / is checking) the backups every week.
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. The office keep the files on one server. __________________________________
+@IT 2. Look! Nabil reset the password now. __________________________________
+@IT 3. She check the backup every morning. __________________________________
+@IT 4. We are update the program now. __________________________________
+@EX Part 2: Freer Practice
+@IN Write two sentences about your work or study: one routine (present simple) and one about now (present continuous).
+@EX Part 2: Grammar Review
+@IN Choose the correct sentence.
+@BI 1. Which sentence is correct (now)?
+@OP ○  A)  Nabil reset the password.
+@OP ○  B)  Nabil is resetting the password.
+@OP ○  C)  Nabil resetting the password.
+@OP ○  D)  Nabil are resetting the password.
+@BI 2. Which sentence is correct (routine)?
+@OP ○  A)  The department checks the backups.
+@OP ○  B)  The department checking the backups.
+@OP ○  C)  The department check the backups.
+@OP ○  D)  The department to check the backups.
+@IT → You will see the present simple and present continuous again in the Part 5 reading. Watch for them.
+
+@PART Part 3  ·  Listening
+@EX 
+@EX Part 3: A Security Officer Talks About His Work
+@IT 🔊  Audio Track 1.2
+@IT Before you listen: what does a security officer do first — read the ticket, or open the machine?
+@BX Nabil: Hello, my name is Nabil. I am a security officer at Cham Systems. I look after the computers and the accounts. First, I read the new tickets. Then I go to the user’s desk. Right now, I am helping Mr Aboud. He cannot open his account. I work with Rana at the help desk and with Tarek, our new trainee. I like my work, because every day is different.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Nabil is a security officer. — True
+@IF 1. Nabil works in a bank. ____
+@IF 2. Nabil is helping Mr Aboud right now. ____
+@IF 3. Nabil works alone. ____
+@IT Useful phrases: I look after…  ·  First, I…  ·  Right now, I am…
+@EX Part 3: At the Help Desk
+@IT 🔊  Audio Track 1.3
+@IT Before you listen: what does a help-desk officer ask a user first?
+@BX Rana: Good morning, Cham Systems help desk. How can I help you?
+@BX Mr Aboud: My computer does not open my account.
+@BX Rana: Of course. What message do you see?
+@BX Mr Aboud: It says the password is wrong, and I am sure it is right.
+@BX Rana: I’ll write a ticket. Can you stay at your desk for ten minutes?
+@BX Mr Aboud: Yes. When will it be ready?
+@BX Rana: This morning. We’ll call you.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. Where does Mr Aboud call? — The Cham Systems help desk.
+@IT 1. What is the problem with his computer?
+@IT 2. What message does he see?
+@IT 3. When will it be ready?
+@IT Useful phrases: How can I help you?  ·  What message do you see?  ·  We’ll call you.
+@EX Part 3: A Day at Cham Systems
+@IT 🔊  Audio Track 1.4
+@IT Before you listen: who works in an IT and security department? Write two jobs.
+@BX Maher: Good morning, everyone. Today we are busy. Nabil is helping Mr Aboud with his account. Tarek, you are new here, so you are watching and learning today. Lina is checking the backup from last night. Rana is answering the calls at the help desk. I am reading the new tickets. Please ask me if you are not sure about anything.
+@IN While you listen: match each person with what they are doing now. One action is not needed. (0. is done.)
+@IT 0. Maher → reading the new tickets.
+@LB Column A
+@COLA
+1 | Nabil
+2 | Tarek
+3 | Lina
+4 | Rana
+@END
+@LB2 Column B
+@COLB
+a | answering the calls at the help desk
+b | watching and learning
+c | cleaning the keyboards
+d | helping a user with his account
+e | checking the backup from last night
+@END
+
+@PART Part 4  ·  Speaking
+@EX Part 4: Discussing Computers and Work
+@IN Work with a partner. Ask and answer these questions.
+@IF What computer does your family or your office have?
+@IF Do you like working with computers? Why?
+@IF What jobs are there in an IT and security department?
+@BX Useful language: We have a…  ·  I like… because…  ·  A security officer…  ·  A help-desk officer…
+@EX Part 4: Help Desk Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@LM Model exchange:
+@BX A: Good morning, help desk. How can I help you?
+@BX B: My computer does not open my account.
+@BX A: Of course. What message do you see?
+@BX B: It says the password is wrong.
+@BX A: I’ll write a ticket. Can you stay at your desk for ten minutes?
+@BX Useful language: How can I help you?  ·  What message do you see?  ·  I’ll write a ticket.  ·  When will it be ready?
+@BX Card A — Help-desk officer (Rana): greet the user  ·  ask what they need and what message they see  ·  write a ticket  ·  say when it will be ready.
+@BX Card B — User (Mr Aboud): greet  ·  say your account does not open  ·  say the message  ·  ask when it will be ready.
+@IT Your turn: run the dialogue, then swap roles.
+@TRK Stretch [PR]: the user needs the account back very quickly, but three people are waiting before him — offer a fair time politely.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Describe your job, or a computer you know: what it is, its main parts, and what you do with it every day.
+
+@PART Part 5  ·  Reading
+@EX 
+@EX Part 5: What Is an IT and Security Department?
+@IT Before you read: what three areas do you think an IT and security department has?
+@GL help desk = the place users call when something does not work    ·    ticket = a record of a problem and the work done on it    ·    backup = a copy of your files, kept in a safe place
+@BX An IT and security department looks after the computers of a company. It has three main areas: the help desk, the workshop bench, and the store. A user calls the help desk, and the help-desk officer writes a ticket. A technician then checks the machine at the bench. The store keeps spare machines, disks and licences. The department also keeps the accounts: it opens an account for every new worker and closes it when a worker leaves. Every night it makes a backup of the files. A good department is tidy, careful and honest. It explains the problem in simple words, and it tells the user the truth about the time the work will take.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What does an IT and security department do? — it looks after the computers of a company.
+@BI 1. What does the help-desk officer write?
+@OP ○  A)  A letter
+@OP ○  B)  A ticket
+@OP ○  C)  A book
+@OP ○  D)  A bill
+@BI 2. Where does a technician check a machine?
+@OP ○  A)  At the store
+@OP ○  B)  At the user’s home
+@OP ○  C)  At the workshop bench
+@OP ○  D)  At the bank
+@BI 3. What is a good IT and security department?
+@OP ○  A)  Tidy, careful and honest
+@OP ○  B)  Dark and untidy
+@OP ○  C)  Slow
+@OP ○  D)  Closed
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | help desk
+2 | ticket
+3 | store
+4 | backup
+@END
+@LB2 Column B
+@COLB
+a | the place that keeps spare machines, disks and licences
+b | a record of a problem and the work done on it
+c | a cable for a printer
+d | the place users call when something does not work
+e | a copy of your files, kept in a safe place
+@END
+@EX Part 5: Computers in Syria
+@IT Before you read: why do offices in Syria keep computers for many years?
+@GL licence = the paper that gives you the right to use a program    ·    power cut = a time when the electricity stops
+@BX In Syria, offices keep computers for many years. New machines are expensive and hard to import, so people look after the ones they have. Dust, heat and power cuts are hard on a computer, so the IT department cleans the machines and plans its work around the hours when the electricity is on. Many programs are old, because a new licence is difficult to buy from Damascus. An old machine can still do good work if somebody cares for it: a clean fan, a safe password and a backup every night are worth more than a new computer with none of them.
+@IN Write True or False. (0. is done.)
+@IT 0. Offices in Syria keep computers for many years. — True
+@IF 1. New machines are cheap and easy to import in Syria. ____
+@IF 2. Dust, heat and power cuts are hard on a computer. ____
+@IF 3. An old machine can still do good work with good care. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Describe Your Job or Your Computer (50–70 words)
+@IN Write about your job, or a computer you know. Use one present-simple and one present-continuous sentence.
+@LM Model — read this first:
+@BX I am a help-desk officer at Cham Systems. Every day, I answer the telephone and write tickets for the users. First, I ask what the problem is. Then I write the ticket and send it to a technician. Right now, I am helping a user who cannot open his account. I like my job, because I help people every day.
+@BI Plan (fill in, then write): I am a ___. Every day, I ___. First, I ___. Then I ___. Right now, I am ___.
+@WB I answer / check / write…    |  every day…    |  First… Then…    |  Right now, I am …-ing    |  I like my job because…
+@BC Check before you finish: ☐ one present-simple + one present-continuous sentence?  ☐ computer or security words used?  ☐ 50–70 words?
+@EX Part 6: Why Good Computer Care Matters (50–70 words)
+@IN Write why good care of the computers is important. Give reasons.
+@LM Model — read this first:
+@BX Good care of the computers is important because the whole office stops when they do not work. A clean machine lasts longer, so the company spends less money. A backup every night means we never lose the files. A safe password keeps our information private. Careful work also keeps the users happy, because they trust us with their work.
+@WB … is important because…    |  safe    |  lasts longer    |  saves money    |  keeps the users happy
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Note to the Security Officer (50–70 words)
+@IN Write a short note from Rana (help desk) to Nabil (security officer) about a user’s problem.
+@LM Model — read this first:
+@BX Dear Nabil, Here is ticket 104 from Mr Aboud in the accounts office. His account does not open, and the screen says the password is wrong. He is sure the password is right, so please check the account first. He is at his desk this morning and he needs the computer before twelve. Thank you. Rana.
+@BI Plan (fill in, then write): Dear ___, Here is ___. It needs ___. The user says ___, so please ___. Thank you. ___
+@BC Check before you finish: ☐ greeting and close?  ☐ a clear request?  ☐ 50–70 words?
+@EX Part 6: Reflection — A Computer I Know (40–60 words)
+@IN Write about a computer in your family or one you use at work.
+@LM Model — read this first:
+@BX We have one computer at home. It is old, and my brother uses it for his studies. It has a screen, a keyboard and a small tower under the desk. Every evening, he writes his work on it. Right now, he is reading a long report for his teacher. We keep it clean and we never share the password.
+@BC Check before you finish: ☐ the computer described?  ☐ present simple + continuous?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Welcoming a New Trainee
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “Welcome to the team.”
+2 | “Let me show you the help desk.”
+3 | “Never share your password, not even with me.”
+4 | “Ask me if you are not sure.”
+@END
+@LB2 Column B
+@COLB
+a | giving a security rule
+b | offering help and support
+c | greeting a new worker
+d | talking about the price
+e | showing someone the department
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 1.5
+@IT Before you read: what does a manager say to a new trainee on the first day?
+@BX Maher: Good morning, Tarek. Welcome to Cham Systems.  Nabil: Nice to meet you. Have you worked in an IT department before?  Tarek: No, this is my first week. I studied computers at the institute.  Maher: Good. This week you are watching and learning. Nabil will show you the help desk and the bench.  Nabil: One rule first: never share your password, and never leave your screen open when you go.  Tarek: I understand.  Maher: And if you are not sure about something, ask. Nobody here is angry about a question.
+@IN Answer the questions. (0. is done.)
+@IT 0. Where does Tarek start work? — At Cham Systems.
+@IT 1. What is Tarek doing this week?
+@IT 2. What security rule does Nabil give?
+@IT 3. What should Tarek do if he is not sure?
+@EX 7C: Controlled Practice — First-Day Checklist
+@IN Put a manager’s first-day steps in order. Number them 1–5. (0. is done.)
+@IT 0. Say welcome to the new worker. — 1
+@IF ____  Show the new worker the help desk and the bench.
+@IF ____  Give the security rules.
+@IF ____  Introduce the team.
+@IF ____  Give the first small task.
+@EX 7D: Role-Play — Briefing the Trainee
+@IN In pairs. One is the security officer (Nabil); one is the trainee (Tarek). Use the model and cards.
+@BX Model exchange: Nabil: Welcome, Tarek. First, never share your password. — Tarek: OK, Ustaz. — Nabil: Second, lock your screen when you leave the desk. — Tarek: And if I am not sure? — Nabil: Then you ask. Today you are watching me.
+@BX Card A — Security officer (Nabil): welcome  ·  give three security rules  ·  say what to do today. Card B — Trainee (Tarek): greet  ·  ask one question about the rules  ·  ask what to do first.
+@TRK Stretch [PR]: the trainee wants to work on a manager’s computer alone in his first week — say no, and explain why, politely.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short welcome note to Tarek with his plan for the first week.
+@LM Model — read this first:
+@BX Dear Tarek, Welcome to Cham Systems. This week you are with Nabil at the help desk, so you can see how we answer a user and write a ticket. On Thursday you will watch a backup. One rule from your first day: never share your password, and lock your screen when you leave your desk. Ask any question you have — that is how we all learned. Maher.
+@BC Check before you finish: ☐ a warm welcome?  ☐ a clear first-week plan?  ☐ one security rule?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — A Small Office Gets a Help Desk
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: how can a small office with no IT staff start to look after its computers?
+@GL record = to write something down and keep it    ·    honest = telling the truth and doing fair work    ·    reputation = what people say about your work
+@BX In a small town, a company called Sadek Trading had eleven computers and nobody to look after them. When a machine stopped, the staff called a friend, and often nobody could say what had been done to it. Then the owner asked one worker, Sami, to spend two days a week on the computers. Sami did one simple thing first: he wrote down every call in a notebook — the date, the machine, the problem, and the work he did. After three months, the notebook showed him that the same two machines caused half the calls. He repaired them properly, and the calls went down. The staff started to trust him, because he always told them honestly how long a job would take. Today the company has a real help desk with three people, and it still keeps a record of every call.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many computers did the company have? — Eleven.
+@IT 1. What was the problem before Sami started?
+@IT 2. What simple thing did Sami do first?
+@IT 3. Why did the staff start to trust him?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | help desk
+2 | record
+3 | honest
+4 | repair
+@END
+@LB2 Column B
+@COLB
+a | telling the truth and doing fair work
+b | to write something down and keep it
+c | the place that answers users and keeps their calls
+d | a new computer
+e | to fix something that is broken
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “This is similar to Syria because…”  ·  “This is different from Syria because…”  ·  “I think the first step should be…”  ·  “In a small office, the most useful record is…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: The First Account List
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: why is it a problem when several people in an office use the same computer account?
+@BX Lina is a young officer in a company in Homs with twenty-two staff. When she started, there were four accounts for twenty-two people. Everybody knew all four passwords, and the passwords were written on a card under the keyboard. Nobody was doing anything wrong: the office had grown slowly, and sharing had always been the quick way to work. But when a file was deleted one Thursday, nobody could say who had deleted it, and the argument lasted a week. Lina asked her manager for two quiet afternoons. She wrote a list of every person and what each one needed to open, and then she made one account for each name. It took longer than she expected, because two people had left the company a year before and still had working accounts. Now every file shows who opened it, and the card under the keyboard is gone.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many staff are there? — Twenty-two.
+@IT 1. How many accounts were there when Lina started?
+@IT 2. What happened on the Thursday?
+@IT 3. What did Lina find when she wrote her list?
+@EX Part 9: Decision Task
+@IN Lina has two more quiet afternoons this month. Should she (a) write a short rule for new staff, (b) set a date when every password must be changed, or (c) teach the staff how to lock a screen? Choose one and give reasons.
+@BX Answer frame: “I think Lina should ___ because ___. Also, ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think Lina should write a short rule for new staff, because the office is growing and every new person will start in the right way. Also, a rule on paper does not need her to be in the room. This is better than teaching the screen lock first, because she would have to teach it again for every new worker.
+@BX Phrase bank: I think… should…  ·  because…  ·  Also,…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. The team you call when your computer has a problem is the help desk.
+@WB ticket    |  backup    |     account    |    present continuous    |    present simple
+@IG 1. The record of a problem and the work done on it is a  ____________________ .
+@IG 2. A copy of your files, kept in a safe place, is a  ____________________ .
+@IG 3. The name the computer knows you by is your  ____________________ .
+@IG 4. “Nabil is resetting a password now” uses the  ____________________  tense.
+@IG 5. “The help desk opens every day” uses the  ____________________  tense.
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main parts of a computer and the people in an IT and security department.
+@IT ☐ I can use the present simple for routines and the present continuous for now.
+@IT ☐ I can understand a short talk between a user, a help-desk officer and a technician.
+@IT ☐ I can describe my job or a computer in 50–70 words.
+@IT ☐ I can welcome and brief a new worker (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 1 glossary (10 words)
+@BG server  ·  account  ·  password  ·  backup  ·  update  ·  ticket  ·  screen lock  ·  help desk  ·  licence  ·  user
+@PB

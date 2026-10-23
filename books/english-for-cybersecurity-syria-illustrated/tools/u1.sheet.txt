@@ -1,0 +1,354 @@
+@U      1: Introduction to the Vehicle and the Service Department
+@SUB    for Auto Maintenance Personnel · Level: Upper A2 · Tracks: [OP] Warm-Up + Parts 1–6 · [PR] P
+@WARM   Up
+@TRK    Operator track · in-class starter
+@EX     Car Words and Meanings
+@IW     the car words with their meanings. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     In the Service Department
+@IMG    (540x180)
+@CAP    1.1 · The service department at Cham Motors.
+@IW     the sentences using the words in the word bank.
+@WB     bank: service | engine | mechanic | customer
+@IG     A ____________________ repairs and checks cars.
+@IG     The car comes in for a ____________________ every year.
+@IG     The ____________________ makes the car move.
+@IG     The ____________________ brings the car to the garage.
+@EX     Reading About the Service Department
+@IW     the text and choose the correct answer.
+@BX     service department has many people. The customer brings the car to reception. The service ad
+@BI     Who writes the job card?
+@OP     ○ A) The customer
+@OP     ○ B) The service advisor
+@OP     ○ C) The mechanic
+@OP     ○ D) The driver
+@BI     Why is a tidy workshop good?
+@OP     ○ A) It is safe
+@OP     ○ B) It is expensive
+@OP     ○ C) It is dark
+@OP     ○ D) It is small
+@PART   1 · Vocabulary and Terminology
+@TRK    Operator track · pre-class input
+@EX     1: Car and Service Terms
+@IN     the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT     Mechanic → the person who repairs and services cars.
+@LB     A
+@COLA   rows=7
+@LB2    B
+@COLB   rows=8
+@GLE    
+@GLE    
+@EX     1: Pronunciation
+@LB     Audio Track 1.1
+@IN     and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR     — VE-hi-cle
+@PR     — EN-gine
+@PR     — me-CHAN-ic
+@PR     — BAT-ter-y
+@PR     — SER-vice
+@PR     — CUS-to-mer
+@EX     1: People and Places in the Department
+@IMG    (540x150)
+@CAP    1.2 · The people in a service department.
+@IN     the table. Write where each person works and what they do. (0. is done.)
+@TBL 3026,2600,3400   rows=5
+@EX     
+@EX     1: Parts of a Car
+@IMG    (540x173)
+@CAP    1.3 · Label the parts of the car (bonnet, boot, wheel, door, windscreen).
+@IN     the parts of a car with their descriptions. One description is not needed. Write the letter.
+@LB     A
+@COLA   rows=5
+@LB2    B
+@COLB   rows=6
+@EX     1: Cars and Service — Multiple Choice
+@IN     and choose the correct answer.
+@BI     What does the battery do?
+@OP     ○ A) Makes the car move
+@OP     ○ B) Cools the engine
+@OP     ○ C) Holds bags
+@OP     ○ D) Stores electricity to start the car
+@BI     Where does a mechanic work?
+@OP     ○ A) Reception
+@OP     ○ B) The office
+@OP     ○ C) The workshop
+@OP     ○ D) At home
+@BI     What is a job card?
+@OP     ○ A) A paper that lists the work to do
+@OP     ○ B) A type of tool
+@OP     ○ C) A car part
+@OP     ○ D) A door key
+@EX     1: Vocabulary Fill-in
+@IN     the sentences with the correct word.
+@WB     bank: workshop | battery | engine | job card
+@IG     The ____________________ makes the car move.
+@IG     The ____________________ stores electricity to start the car.
+@IG     The mechanic works in the ____________________ .
+@IG     The service advisor writes a ____________________ for each car.
+@EX     1: Write About Cars (short)
+@IN     two or three sentences about a car or the service department. Use three words from this unit
+@LM     — read this first:
+@BXE    
+@PART   2 · Grammar — Present Simple vs Present Continuous
+@TRK    Operator track · pre-class input
+@EX     2: Notice
+@IMG    (540x135)
+@CAP    1.4 · Present simple (every day) and present continuous (now).
+@IN     these lines from the workshop. Underline the verbs. Which are routines, and which are happen
+@BX     services cars. He usually starts at eight. Right now, he is changing the oil. The workshop o
+@EX     2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676   rows=3
+@BR     every day, usually → present simple. now, this week, at the moment → present continuous.
+@WO     out! ✗ He change the oil. → ✓ He changes the oil. (add -s for he/she/it). ✗ I checking now. 
+@EX     2: Controlled Practice
+@IN     with the present simple or present continuous. (0. is done.)
+@IT     Nabil usually works in the morning. (work)
+@IG     Tarek ____________________ (check) the tyres every day.
+@IG     Look! He ____________________ (change) the oil right now.
+@IG     The garage ____________________ (open) at eight o’clock.
+@IG     Today, Lina ____________________ (find) a fault in the engine.
+@EX     2: Simple or Continuous?
+@IN     the correct form.
+@IG     Right now, Tarek ____________________ (watches / is watching) Nabil.
+@IG     Lina usually ____________________ (starts / is starting) at eight.
+@IG     Listen! The engine ____________________ (makes / is making) a strange noise.
+@IG     The garage ____________________ (services / is servicing) many cars every week.
+@EX     2: Correct the Sentence
+@IN     sentence has one grammar mistake. Write the correct sentence.
+@IT     The garage service many cars every day. __________________________________
+@IT     Look! Nabil change the oil now. __________________________________
+@IT     She check the brakes every service. __________________________________
+@IT     We are repair the engine now. __________________________________
+@EX     2: Freer Practice
+@IN     two sentences about your work or study: one routine (present simple) and one about now (pres
+@EX     2: Grammar Review
+@IN     the correct sentence.
+@BI     Which sentence is correct (now)?
+@OP     ○ A) Nabil change the oil.
+@OP     ○ B) Nabil is changing the oil.
+@OP     ○ C) Nabil changing the oil.
+@OP     ○ D) Nabil are changing the oil.
+@BI     Which sentence is correct (routine)?
+@OP     ○ A) The garage services cars.
+@OP     ○ B) The garage servicing cars.
+@OP     ○ C) The garage service cars.
+@OP     ○ D) The garage to service cars.
+@IT     You will see the present simple and present continuous again in the Part 5 reading. Watch fo
+@PART   3 · Listening
+@EX     
+@EX     3: A Mechanic Talks About His Work
+@IT     Audio Track 1.2
+@IT     you listen: what does a mechanic do first — read the job card, or start the engine?
+@BX     Hello, my name is Nabil. I am a mechanic at Cham Motors. I service and repair cars. First, I
+@IN     you listen: write True, False, or Not Given. (0. is done.)
+@IT     Nabil is a mechanic. — True
+@IF     Nabil works in a bakery. ____
+@IF     Nabil is changing the oil right now. ____
+@IF     Nabil works alone. ____
+@IT     phrases: I service… · First, I… · Right now, I am…
+@EX     3: At Reception
+@IT     Audio Track 1.3
+@IT     you listen: what does a service advisor ask a customer first?
+@BX     Good morning, welcome to Cham Motors. How can I help you?
+@BX     Aboud: My car needs a service.
+@BX     Of course. What is the problem?
+@BX     Aboud: It’s making a noise, and the service is due.
+@BX     I’ll write a job card. Can you leave the car with us today?
+@BX     Aboud: Yes. When will it be ready?
+@BX     This afternoon. We’ll call you.
+@IN     you listen: answer the questions. (0. is done.)
+@IT     Where is Mr Aboud? — At Cham Motors (reception).
+@IT     What does his car need?
+@IT     What is the problem?
+@IT     When will the car be ready?
+@IT     phrases: How can I help you? · What is the problem? · We’ll call you.
+@EX     3: A Day at Cham Motors
+@IT     Audio Track 1.4
+@IT     you listen: who works in a car service department? Write two jobs.
+@BX     Good morning, everyone. Today we are busy. Nabil is servicing Mr Aboud’s car. Tarek, you are
+@IN     you listen: match each person with what they are doing now. One action is not needed. (0. is
+@IT     Maher → checking the job cards.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@PART   4 · Speaking
+@EX     4: Discussing Cars and Work
+@IN     with a partner. Ask and answer these questions.
+@IF     car does your family have?
+@IF     you like working on cars? Why?
+@IF     jobs are there in a service department?
+@BX     language: We have a… · I like… because… · A mechanic… · A service advisor…
+@EX     4: Reception Role Play
+@IN     in pairs. Read the model, then use the cards.
+@LM     exchange:
+@BX     Good morning. How can I help you?
+@BX     My car needs a service.
+@BX     Of course. What is the problem?
+@BX     It’s making a noise.
+@BX     I’ll write a job card. Can you leave the car today?
+@BX     language: How can I help you? · What is the problem? · I’ll write a job card. · When will it
+@BX     A — Service advisor (Rana): greet the customer · ask what they need and the problem · write 
+@BX     B — Customer (Mr Aboud): greet · say your car needs a service · say the problem · ask when i
+@IT     turn: run the dialogue, then swap roles.
+@TRK    [PR]: the customer needs the car back very quickly, but the workshop is busy — offer a fair 
+@EX     4: Mini-Presentation
+@IN     a short talk (about one minute). Describe your job, or a car you know: what it is, its main 
+@PART   5 · Reading
+@EX     
+@EX     5: What Is a Service Department?
+@IT     you read: what three areas do you think a service department has?
+@GL     service = the regular check and care a car needs · job card = the paper that lists the work 
+@BX     service department looks after cars. It has three main areas: reception, the workshop, and t
+@IN     the multiple-choice questions. (0. is done.)
+@IT     What does a service department do? — it looks after cars.
+@BI     What does the service advisor write?
+@OP     ○ A) A letter
+@OP     ○ B) A job card
+@OP     ○ C) A book
+@OP     ○ D) A bill
+@BI     Who uses a diagnostic machine to find faults?
+@OP     ○ A) The customer
+@OP     ○ B) The manager
+@OP     ○ C) A technician
+@OP     ○ D) The driver
+@BI     What is a good service department?
+@OP     ○ A) Clean, safe, and honest
+@OP     ○ B) Dark and dirty
+@OP     ○ C) Slow
+@OP     ○ D) Closed
+@EX     5: Vocabulary in Context
+@IN     each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     5: Cars in Syria
+@IT     you read: why do people in Syria keep cars for many years?
+@GL     import = to bring from another country · filter = a part that cleans the air, oil, or fuel
+@BX     Syria, people keep cars for many years. New cars are expensive and hard to import, so driver
+@IN     True or False. (0. is done.)
+@IT     People in Syria keep cars for many years. — True
+@IF     New cars are cheap and easy to import in Syria. ____
+@IF     Dusty roads mean cars need regular servicing. ____
+@IF     Old cars can still run well with good care. ____
+@PART   6 · Writing
+@TRK    Operator track · in-class / homework
+@EX     6: Describe Your Job or a Car (50–70 words)
+@IN     about your job, or a car you know. Use one present-simple and one present-continuous sentenc
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): I am a ___. Every day, I ___. First, I ___. Then I ___. Right now, I 
+@WB     bank: I service / repair / check… | every day… | First… Then… | Right now, I am …-ing | I li
+@BC     before you finish: ☐ one present-simple + one present-continuous sentence? ☐ car or job word
+@EX     6: Why Good Servicing Matters (50–70 words)
+@IN     why good servicing is important. Give reasons.
+@LM     — read this first:
+@BXE    
+@WB     bank: … is important because… | safe | lasts longer | saves money | keeps customers happy
+@BC     before you finish: ☐ a clear opinion? ☐ two or three reasons? ☐ 50–70 words?
+@EX     6: A Note to the Mechanic (50–70 words)
+@IN     a short note from Rana (reception) to Nabil (mechanic) about a car.
+@LM     — read this first:
+@BXE    
+@BI     (fill in, then write): Dear ___, Here is ___. It needs ___. The customer says ___, so please
+@BC     before you finish: ☐ greeting and close? ☐ a clear request? ☐ 50–70 words?
+@EX     6: Reflection — A Car in My Family (40–60 words)
+@IN     about a car in your family or one you know well.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ the car described? ☐ present simple + continuous? ☐ 40–60 words?
+@PART   7 · Management File — Welcoming a New Apprentice
+@TRK    Practitioner track (optional for beginners) · service-department manager
+@EX     Phrase Bank
+@IN     what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     Manager Dialogue
+@IT     Audio Track 1.5
+@IT     you read: what does a manager say to a new apprentice on the first day?
+@BX     Good morning, Tarek. Welcome to Cham Motors. Nabil: Nice to meet you. Have you worked in a g
+@IN     the questions. (0. is done.)
+@IT     Where does Tarek start work? — At Cham Motors.
+@IT     What is Tarek doing this week?
+@IT     What safety rule does Nabil give?
+@IT     What should Tarek do if he is not sure?
+@EX     Controlled Practice — First-Day Checklist
+@IN     a manager’s first-day steps in order. Number them 1–5. (0. is done.)
+@IT     Say welcome to the new worker. — 1
+@IF     Show the new worker the workshop.
+@IF     Give the safety rules.
+@IF     Introduce the team.
+@IF     Give the first small task.
+@EX     Role-Play — Briefing the Apprentice
+@IN     pairs. One is the foreman (Nabil); one is the apprentice (Tarek). Use the model and cards.
+@BX     exchange: Nabil: Welcome, Tarek. First, always wear your safety glasses. — Tarek: OK, Ustaz.
+@BX     A — Foreman (Nabil): welcome · give three safety rules · say what to do today. Card B — Appr
+@TRK    [PR]: the apprentice wants to work under a car alone on day one — say no, and explain why, p
+@EX     Supervisory Writing (50–80 words)
+@IN     are Maher. Write a short welcome note to Tarek with his plan for the first week.
+@LM     — read this first:
+@BXE    
+@BC     before you finish: ☐ a warm welcome? ☐ a clear first-week plan? ☐ one safety rule? ☐ 50–80 w
+@PART   8 · Global Case Study — A Small Garage Grows
+@TRK    Practitioner track · pre-read / in-class discuss
+@IT     you read: how can a small garage become a big service business?
+@GL     repair = to fix something that is broken · honest = telling the truth and doing fair work · 
+@BX     a small town, a mechanic named Sami started a garage with only two workers. At first, they d
+@IN     the questions. (0. is done.)
+@IT     Who started the garage? — A mechanic named Sami.
+@IT     What did the customers want?
+@IT     What did Sami teach the young mechanics?
+@IT     What does Sami still say is important?
+@EX     8: Vocabulary in Context
+@IN     each word with its meaning. One meaning is not needed. Write the letter.
+@LB     A
+@COLA   rows=4
+@LB2    B
+@COLB   rows=5
+@EX     8: Discussion
+@IN     with a partner. Use the frames.
+@BX     frames: “This is similar to Syria because…” · “This is different from Syria because…” · “I t
+@PART   9 · Local Case Study — Syria in Focus: A Young Mechanic Opens a Workshop
+@TRK    Practitioner track · pre-read / in-class decide
+@IT     you read: what problems can a young mechanic have when opening a workshop in Damascus?
+@BX     studied to be a mechanic, and she wanted to open her own workshop in Damascus. She had good 
+@IN     the questions. (0. is done.)
+@IT     What did Lina want to open? — Her own workshop.
+@IT     What two problems did Lina have?
+@IT     How did she start?
+@IT     Why did customers come back?
+@EX     9: Decision Task
+@IN     now has a little more money. Should she (a) buy a new diagnostic machine, (b) rent a bigger 
+@BX     frame: “I think Lina should ___ because ___. Also, ___. This is better than ___ because ___.
+@LM     — read this first:
+@BXE    
+@BX     bank: I think… should… · because… · Also,… · This is better than… · In my opinion…
+@PART   10 · Review and Can-Do
+@TRK    + PR] · homework / self-study
+@EX     10: Spiral Review
+@IN     the review. (0. is done.)
+@IT     The person who repairs and services cars is a mechanic.
+@WB     bank: job card | battery | workshop | present continuous | present simple
+@IG     The paper that lists the work to do on a car is a ____________________ .
+@IG     The part that stores electricity to start the car is the ____________________ .
+@IG     The place where a mechanic works is the ____________________ .
+@IG     “Nabil is changing the oil now” uses the ____________________ tense.
+@IG     “The garage services cars every day” uses the ____________________ tense.
+@EX     10: Can-Do
+@LC     checklist
+@IT     I can name the main parts of a car and the people in a service department.
+@IT     I can use the present simple for routines and the present continuous for now.
+@IT     I can understand a short talk between a mechanic, an advisor, and a customer.
+@IT     I can describe a car or a job in 50–70 words.
+@IT     I can welcome and brief a new worker (Practitioner).
+@EX     10: Glossary
+@LG     1 glossary (10 words)
+@BG     · battery · radiator · bonnet · boot · service bay · job card · mechanic · service · worksho
+@PB     
+-- 353 elements of 3450; unit heads at [0, 353, 697, 1040, 1385, 1729, 2073, 2416, 2760, 3104]
