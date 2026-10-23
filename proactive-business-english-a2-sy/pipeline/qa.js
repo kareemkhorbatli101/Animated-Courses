@@ -15,7 +15,8 @@ const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi
               'Mr Tarabishi', 'Ms Shamsi', 'A', 'B', 'Man', 'Woman', 'Caller',
               'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C',
               'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station',
-              'Technician'];   // declared at Unit 20, the repairs unit — an institutional voice
+              'Technician',   // declared at Unit 20, the repairs unit — an institutional voice
+              'Visitor'];    // declared at Unit 23, the city unit — an institutional voice
 
 // per-unit house figures — asserted as COUNTS before anything measures contents.
 // ⚠ pb() is the one figure that differs between the books: a Book 2 unit opens its
