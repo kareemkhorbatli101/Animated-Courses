@@ -16,12 +16,17 @@ const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi
               'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C',
               'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station'];
 
-// per-unit house figures — asserted as COUNTS before anything measures contents
+// per-unit house figures — asserted as COUNTS before anything measures contents.
+// ⚠ pb() is the one figure that differs between the books: a Book 2 unit opens its
+// unit check on a fresh page as well, so 8 against Book 1's 7, and a Book 2 key does
+// the same, so 7 against Book 1's 6. Both measured in the series' own unit13/ak13.
 const HOUSE = {
-  "stage(": 89, "lesson(": 14, "dlg(": 14, "pb()": 7,
+  "stage(": 89, "lesson(": 14, "dlg(": 14,
   "box('Language box": 7, "box('Writer\\'s box": 7, "box('Homework": 7,
   "'Write with help": 7, "'Write freely": 7,
 };
+const BOOK_OF = n => (n >= 13 ? 2 : 1);
+const UNIT_BREAKS = n => (BOOK_OF(n) === 2 ? 8 : 7);
 
 // Characters a British-English A2 book may contain. Anything else in a content file
 // is a stray from an editor, a paste or a keyboard layout, and it reaches the printed
@@ -69,6 +74,11 @@ function checkUnit(file, s, n) {
     const got = countOccurrences(s, needle.replace('\\\\', '\\'));
     if (got !== want) fail(`${file}: ${needle} = ${got}, house figure is ${want}`);
   }
+  const wantBreaks = UNIT_BREAKS(n);
+  const gotBreaks = countOccurrences(s, 'pb()');
+  if (gotBreaks !== wantBreaks) {
+    fail(`${file}: pb() = ${gotBreaks}, house figure for a Book ${BOOK_OF(n)} unit is ${wantBreaks}`);
+  }
   if (!/module\.exports = out;/.test(s)) fail(`${file}: no module.exports`);
   if (!/require\.main === module/.test(s)) fail(`${file}: no require.main build line — the build would write no file and exit silently`);
 
@@ -105,7 +115,12 @@ function cycles(s) {
 // letter have to agree, and nothing else in the book cross-references like that.
 function checkUnitCheck(file, keySrc, unitSrc) {
   const qs = [...unitSrc.matchAll(/'(\d)  (.*?)   a\) (.*?)   b\) (.*?)   c\) (.*?)',/g)];
-  const row = keySrc.match(/\[\['Answer', (.*?)\]\]/);
+  // ⚠ take the row from AFTER the unit-check heading. A key can carry an earlier
+  // ['Answer', …] row — the exam practice in cycle 7 — and the first match in the
+  // file is then the wrong table, which reads as "0 answers" or, worse, as 6 right ones.
+  const atCheck = keySrc.search(/stage\('✓'/);
+  const tail = atCheck === -1 ? keySrc : keySrc.slice(atCheck);
+  const row = tail.match(/\[\['Answer', (.*?)\]\]/);
   const ans = row ? [...row[1].matchAll(/'([abc])'/g)].map(m => m[1]) : [];
 
   if (qs.length !== 8) fail(`${file}: the unit check has ${qs.length} language questions, not 8`);
@@ -146,9 +161,11 @@ function checkKey(file, s, unitSrc) {
   const cyc = cycles(s);
   const nCyc = Object.keys(cyc).length;
   if (nCyc !== 7) fail(`${file}: ${nCyc} cycle banner(s), the unit has 7`);
+  const n = parseInt(file.match(/\d\d/)[0], 10);
+  const wantBreaks = nCyc - 1 + (BOOK_OF(n) === 2 ? 1 : 0);
   const breaks = countOccurrences(s, 'pb()');
-  if (breaks !== nCyc - 1) {
-    fail(`${file}: pb() = ${breaks}; the key starts each cycle after the first on a new page, so ${nCyc - 1}`);
+  if (breaks !== wantBreaks) {
+    fail(`${file}: pb() = ${breaks}; a Book ${BOOK_OF(n)} key starts each cycle after the first on a new page${BOOK_OF(n) === 2 ? ', and the unit check too' : ''}, so ${wantBreaks}`);
   }
 
   // coverage: a key that omits a stage is the fault a stage count alone never catches
@@ -175,11 +192,13 @@ function checkOrdinals(files) {
     const m = plain.match(new RegExp('(' + ORD.join('|') + ')\\s+(?:unit|of (?:this|the) book)', 'i'));
     seen.push([n, m ? m[1].toLowerCase() : null]);
   });
+  // a unit counts its place in ITS OWN book: unit 13 is the first unit of Book 2
   seen.forEach(([n, o]) => {
+    const want = ORD[(n - 1) % 12];
     if (o === null) {
       fail(`unit ${String(n).padStart(2,'0')}: cycle 7 declares no ordinal — the drift begins at the cycle that OMITS the claim, not at the one that gets it wrong`);
-    } else if (ORD[n - 1] !== o) {
-      fail(`unit ${String(n).padStart(2,'0')}: cycle 7 says "${o}" but is unit ${n} (${ORD[n-1]})`);
+    } else if (want !== o) {
+      fail(`unit ${String(n).padStart(2,'0')}: cycle 7 says "${o}" but is the ${want} unit of Book ${BOOK_OF(n)}`);
     }
   });
 }
@@ -332,7 +351,8 @@ function checkLoads(file) {
 }
 // the test papers are loaded too: a table whose widths array is one short of its
 // headings renders nothing and throws inside docx, and a text-only read cannot see it
-const papers = ['midtest.js', 'midkey.js', 'endtest.js', 'endkey.js']
+const papers = ['midtest.js', 'midkey.js', 'endtest.js', 'endkey.js',
+                'midtest2.js', 'midkey2.js', 'endtest2.js', 'endkey2.js']
   .filter(f => fs.existsSync(path.join(dir, f)));
 [...units, ...keys, ...papers].forEach(checkLoads);
 [...units, ...keys, ...papers].forEach(f => checkNames(f, fs.readFileSync(path.join(dir, f), 'utf8')));
@@ -352,6 +372,10 @@ if (units.length) checkOrdinals(units.map(f => path.join(dir, f)));
 [['midtest.js', 'midkey.js', { total: 60, maxQ: 30,
    want: { READING: 18, WRITING: 18, LISTENING: 12, SPEAKING: 12 } }],
  ['endtest.js', 'endkey.js', { total: 100, maxQ: 50,
+   want: { READING: 30, WRITING: 30, LISTENING: 20, SPEAKING: 20 } }],
+ ['midtest2.js', 'midkey2.js', { total: 60, maxQ: 30,
+   want: { READING: 18, WRITING: 18, LISTENING: 12, SPEAKING: 12 } }],
+ ['endtest2.js', 'endkey2.js', { total: 100, maxQ: 50,
    want: { READING: 30, WRITING: 30, LISTENING: 20, SPEAKING: 20 } }],
 ].forEach(([t, k, spec]) => {
   if (fs.existsSync(path.join(dir, t)) && fs.existsSync(path.join(dir, k))) checkTest(t, k, spec);

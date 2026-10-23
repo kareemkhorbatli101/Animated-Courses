@@ -8,20 +8,21 @@ O=/home/user/Animated-Courses/proactive-business-english-a2-sy/out
 S=/tmp/claude-0/-home-user-Animated-Courses/821c71e3-8991-5a52-9fad-130d52fdf15f/scratchpad/pbe
 export NODE_PATH=$(npm root -g)
 export PE_LEVEL=A2
-export PE_BOOK=1
+export PE_BOOK=${PE_BOOK:-1}        # PE_BOOK=2 ./build.sh … builds the Book 2 artefacts
+PFX=PBE-A2-B${PE_BOOK}-SY
 mkdir -p "$S"
 
 if [ "$1" = "zip" ]; then
   # the plan lives in the tree root; the bundle carries a copy, refreshed every time
-  cp "$P/../PLAN.md" "$O/PBE-A2-B1-SY_PLAN.md"
-  cd "$P/.." && rm -f "$O"/PBE-A2-B1-SY_pipeline_*.zip && zip -qr "$O/PBE-A2-B1-SY_pipeline_latest.zip" pipeline
-  cd "$O" && rm -f "$2" && zip -q "$2" *.docx *.md PBE-A2-B1-SY_pipeline_latest.zip && unzip -l "$2"
+  cp "$P/../PLAN.md" "$O/${PFX}_PLAN.md"
+  cd "$P/.." && rm -f "$O"/${PFX}_pipeline_*.zip && zip -qr "$O/${PFX}_pipeline_latest.zip" pipeline
+  cd "$O" && rm -f "$2" && zip -q "$2" *.docx *.md ${PFX}_pipeline_latest.zip && unzip -l "$2"
   exit 0
 fi
 
 if [ "$1" = "bound" ]; then
-  node "$P/bound.js" sb "$O/PBE-A2-B1-SY_StudentsBook_BOUND.docx" || exit 1
-  node "$P/bound.js" ak "$O/PBE-A2-B1-SY_AnswerKey_COMBINED.docx" || exit 1
+  node "$P/bound.js" sb "$O/${PFX}_StudentsBook_BOUND.docx" || exit 1
+  node "$P/bound.js" ak "$O/${PFX}_AnswerKey_COMBINED.docx" || exit 1
   exit 0
 fi
 
