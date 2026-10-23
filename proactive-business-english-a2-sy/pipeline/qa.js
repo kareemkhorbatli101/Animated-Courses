@@ -14,7 +14,8 @@ const path = require('path');
 const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi',
               'Mr Tarabishi', 'Ms Shamsi', 'A', 'B', 'Man', 'Woman', 'Caller',
               'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C',
-              'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station'];
+              'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station',
+              'Technician'];   // declared at Unit 20, the repairs unit — an institutional voice
 
 // per-unit house figures — asserted as COUNTS before anything measures contents.
 // ⚠ pb() is the one figure that differs between the books: a Book 2 unit opens its
@@ -188,7 +189,11 @@ function checkOrdinals(files) {
   files.forEach(f => {
     const s = fs.readFileSync(f, 'utf8');
     const n = parseInt(path.basename(f).match(/\d\d/)[0], 10);
-    const plain = s.replace(/[*_]/g, '');   // markdown must not hide the ordinal
+    // ⚠ search cycle 7 only. An ordinal + "unit" can occur innocently earlier in a
+    // unit — "that rule has done real work in three different units" — and the first
+    // match in the file is then the wrong one.
+    const seven = s.indexOf(`CYCLE ${n}.7`) !== -1 ? s.slice(s.indexOf(`CYCLE ${n}.7`)) : s;
+    const plain = seven.replace(/[*_]/g, '');   // markdown must not hide the ordinal
     const m = plain.match(new RegExp('(' + ORD.join('|') + ')\\s+(?:unit|of (?:this|the) book)', 'i'));
     seen.push([n, m ? m[1].toLowerCase() : null]);
   });
