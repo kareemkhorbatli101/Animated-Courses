@@ -31,7 +31,7 @@ const ALLOWED = new Set([
   0x26A0, 0x2248, 0x00B0, 0x00A3,   // ⚠ ≈ ° £
   0x20AC, 0x2016,                   // € ‖
   0x1F50A, 0x1F600, 0x1F642, 0x1F610, // 🔊 😀 🙂 😐
-  0x2260,                           // ≠ (used in the Language boxes)
+  0x2260, 0x00D7,                   // ≠ × (Language boxes; 30×20 cm, 2 ctn × 12)
   0x00E9,                           // é — café, and only that
   // IPA letters this book transcribes with that sit OUTSIDE the IPA block
   0x00E6, 0x00F0, 0x014B, 0x03B8,   // æ ð ŋ θ
@@ -166,6 +166,26 @@ const keys = fs.readdirSync(dir).filter(f => /^ak\d\d\.js$/.test(f))
   .filter(f => !want.length || want.includes(f.match(/\d\d/)[0])).sort();
 
 console.log(`checking ${units.length} unit(s) and ${keys.length} key(s)`);
+
+// A text-only harness reads a file that node cannot even parse and reports it clean.
+// Load every script and look at what it exports before any other check runs.
+function checkLoads(file) {
+  let mod;
+  try {
+    mod = require(path.join(dir, file));
+  } catch (e) {
+    fail(`${file}: does not load — ${e.message.split('\n')[0]}`);
+    return;
+  }
+  if (!Array.isArray(mod)) return fail(`${file}: exports ${typeof mod}, not an array of elements`);
+  if (!mod.length) return fail(`${file}: exports an empty array — the built file would have no content`);
+  mod.forEach((el, i) => {
+    if (el === undefined || el === null) {
+      fail(`${file}: element ${i + 1} is ${el} — a spread of lines() or a missing return`);
+    }
+  });
+}
+[...units, ...keys].forEach(checkLoads);
 const lexis = {};
 units.forEach(f => {
   const s = fs.readFileSync(path.join(dir, f), 'utf8');
