@@ -1,0 +1,462 @@
+# Unit 9 · Incidents, Recovery and Repeat Problems
+# Grammar: present perfect vs past simple.  Level: Low B1.
+
+@U Unit 9: Incidents, Recovery and Repeat Problems
+@SUB English for Cybersecurity Personnel  ·  Level: Low B1  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Diagnosis Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Symptom
+2 | Alert
+3 | Root cause
+4 | Workaround
+5 | Recovery
+@END
+@LB2 Column B
+@COLB
+a | a message the system sends when something is wrong
+b | a strong stand that holds a machine
+c | the real reason a problem happened
+d | a sign that something is wrong
+e | bringing the work and the files back after a failure
+f | a temporary way of working while the real fix is waited for
+@END
+
+@EX Warm-up: Talking About Repairs
+@IW Complete the sentences using the words in the word bank.
+@WB replaced    |  Have    |     has    |    checked
+@IG 1. Yesterday, I  ____________________  the failing disk in the server.
+@IG 2.  ____________________  you checked the log for last night?
+@IG 3. The same problem  ____________________  come back twice this month.
+@IG 4. I’ve already  ____________________  the backup this morning.
+
+@EX Warm-up: Reading About Finding the Cause
+@IW Read the text and choose the correct answer.
+@BX When a system has a problem, the officer does not guess. First she looks at the symptoms: what the user saw, and when. Then she reads the log, the only part of the story that cannot forget. Then she tests one thing at a time, until she finds the root cause. Only then does she repair it. A problem that comes back a second time is called a repeat problem, and it usually means the first repair left the cause alone.
+@BI 1. What does the officer look at first?
+@OP ○  A)  The symptoms
+@OP ○  B)  The price
+@OP ○  C)  The colour
+@OP ○  D)  The keyboard
+@BI 2. What is a repeat problem?
+@OP ○  A)  A new machine
+@OP ○  B)  A weekly check
+@OP ○  C)  When the same problem comes back a second time
+@OP ○  D)  A guarantee
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Incident and Recovery Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Incident → something that goes wrong and has to be recorded and handled.
+@LB Column A
+@COLA
+1 | Symptom
+2 | Root cause
+3 | Workaround
+4 | Recovery
+5 | Repeat problem
+6 | Rebuild
+7 | Post-incident note
+@END
+@LB2 Column B
+@COLB
+a | the real reason a problem happened
+b | an old machine set up again from the beginning, clean
+c | a short written record of what happened and what was learned
+d | a cable for the printer
+e | a sign that something is wrong
+f | bringing the work and the files back after a failure
+g | a temporary way of working while the real fix is waited for
+h | when the same problem comes back a second time
+@END
+@GL root cause = the real reason a problem happened    ·    workaround = a temporary way of working while the real fix is waited for
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 9.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR symptom — SYMP-tom
+@PR diagnose — DI-ag-nose
+@PR recovery — re-CO-ver-y
+@PR rebuild — re-BUILD
+@PR evidence — EV-i-dence
+@PR warning — WARN-ing
+
+@EX Part 1: Fault-Finding Table
+@IMG fig-09-1.png
+@CAP Figure 9.1  ·  The fault-finding steps, in order.
+@IN Complete the table. Write what happens at each step. (0. is done.)
+@TBL 3400,5626
+Fault-finding step | What happens
+* Look at the symptoms | (example) the officer asks what the user saw, and when
+Read the log | 
+Test one thing at a time | 
+Fix the root cause | 
+@END
+@IT 0. Look at the symptoms — the officer asks what the user saw, and when.
+
+@EX Part 1: Fault-Finding Actions
+@IN Match each action with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Investigate
+2 | Diagnose
+3 | Repair
+4 | Recover
+5 | Rebuild
+@END
+@LB2 Column B
+@COLB
+a | to say what the problem really is
+b | to book an appointment
+c | to look into a problem and find out what happened
+d | to put the fault right
+e | to set a machine up again from the beginning, clean
+f | to bring the work and the files back after a failure
+@END
+
+@EX Part 1: Incidents and Recovery — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What is a symptom?
+@OP ○  A)  A repair
+@OP ○  B)  A sign that something is wrong
+@OP ○  C)  A new machine
+@OP ○  D)  A tool
+@BI 2. What is a workaround?
+@OP ○  A)  A broken machine
+@OP ○  B)  A new program
+@OP ○  C)  A cheap disk
+@OP ○  D)  A temporary way of working while the real fix is waited for
+@BI 3. What does ‘root cause’ mean?
+@OP ○  A)  The real reason a problem happened
+@OP ○  B)  The price of the repair
+@OP ○  C)  The name of the user
+@OP ○  D)  The age of the machine
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB symptom    |  root cause    |     recovery    |    repeat problem
+@IG 1. A strange message or a slow machine is a  ____________________ .
+@IG 2. We do not stop until we have found the  ____________________ .
+@IG 3. Bringing the files back after a failure is the  ____________________ .
+@IG 4. The same fault twice in a month is a  ____________________ .
+
+@EX Part 1: Write About Fault-Finding (short)
+@IN Write two or three sentences about how you find a fault. Use three words from this unit.
+@LM Model — read this first:
+@BX When something goes wrong, I start with the symptoms: what the user saw, and at what time. Then I read the log, because the machine remembers better than any of us. I test one thing at a time until I find the root cause. I have learned not to repair anything before I can say why it broke.
+
+@PART Part 2  ·  Grammar — Present Perfect vs Past Simple
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-09-2.png
+@CAP Figure 9.2  ·  Finished time, and time that is still open.
+@IN Read these lines. Which have a finished time? Which are about now, or about experience?
+@BX Past simple (finished time): I replaced the disk yesterday. She diagnosed the fault last Monday. We rebuilt that machine in March.  ·  Present perfect (no finished time; still true now): The same problem has come back twice. I have already checked the backup. Have you ever rebuilt a server?
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+Past simple | verb + -ed / irregular | a finished time (yesterday, last week) | I replaced the disk yesterday.
+Present perfect | have / has + past participle | no finished time; experience; still true | The problem has come back twice.
+@END
+@BR Remember: Past simple with a finished time.  Present perfect with ever, never, already, yet, and with things that are still true now.
+@WO ✗ I have replaced it yesterday. → ✓ I replaced it yesterday.   ✗ Have you diagnose it? → ✓ Have you diagnosed it?
+@EX Part 2: Controlled Practice
+@IN Complete with the past simple or present perfect. (0. is done.)
+@IT 0. I replaced the disk yesterday. (replace)
+@IT 1. ___ you ever ___ (rebuild) a server?
+@IT 2. She ___ (diagnose) the fault last Monday.
+@IT 3. The same problem ___ (come) back twice this month.
+@IT 4. I ___ (check) the log an hour ago.
+@EX Part 2: Choose the Form
+@IN Choose the correct form.
+@IG 1. I  ____________________  the disk yesterday. (replaced / have replaced)
+@IG 2.  ____________________  it yet? (Did you test / Have you tested)
+@IG 3. She  ____________________  it last Monday. (fixed / has fixed)
+@IG 4. We  ____________________  three machines this week. (rebuilt / have rebuilt)
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. I have replaced the disk yesterday.
+@IT 2. Have you diagnose the fault?
+@IT 3. He has fix it last week.
+@IT 4. Did you ever rebuilt a server?
+@EX Part 2: Freer Practice
+@IN Write two sentences: one about a repair you made at a finished time, and one about something you have done this week.
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which sentence is correct with ‘yesterday’?
+@OP ○  A)  I have replaced it yesterday.
+@OP ○  B)  I have replace it yesterday.
+@OP ○  C)  I replaced it yesterday.
+@OP ○  D)  I replacing it yesterday.
+@BI 2. Which sentence is correct for experience?
+@OP ○  A)  Did you ever rebuild a server?
+@OP ○  B)  Have you ever rebuilt a server?
+@OP ○  C)  Have you ever rebuild a server?
+@OP ○  D)  You ever rebuilt a server?
+@IT → Harvest: you will see the present perfect and the past simple again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: Finding the Cause
+@IT 🔊  Audio Track 9.2
+@IT Before you listen: what are the first two things an officer looks at?
+@BX Nabil: Lina, what’s the symptom?  Lina: The accounts machine stops every afternoon, always between two and three.  Nabil: Have you read the log?  Lina: Yes. There’s a disk error every time, a few seconds before it stops.  Nabil: And have you checked the disk itself?  Lina: I ran the check this morning. The disk is failing — it isn’t the program at all. I replaced it an hour ago and the machine has been running since.  Nabil: Good. Then write the cause on the ticket, not just “replaced disk”. The next person needs to know why.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Lina is finding the cause of a fault. — True
+@IF 1. The machine stops every morning. ____
+@IF 2. Lina has already replaced the disk. ____
+@IF 3. The problem was in the program. ____
+@IT Useful phrases: Have you read…?  ·  I ran the check this morning  ·  it has been running since
+@EX Part 3: A Repeat Problem
+@IT 🔊  Audio Track 9.3
+@IT Before you listen: what does a user say when the same problem comes back?
+@BX Mr Aboud: Hello. I brought this machine in last week, and the same thing has started again.  Rana: I’m sorry. Let me look at the ticket. Yes — we replaced the disk on the fourteenth.  Mr Aboud: And now it is doing exactly the same.  Rana: Then you don’t pay anything; it is inside our thirty days. But I am not going to send it straight back to the bench. If the same fault has come back after a new disk, the disk was probably never the cause. Can you leave it with us until tomorrow? I would rather find the real reason than change another disk.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. Why is Mr Aboud back? — The same problem has started again.
+@IT 1. What did the department do last week?
+@IT 2. Does Mr Aboud have to pay?
+@IT 3. Why does Rana not want to change another disk?
+@IT Useful phrases: the same thing has started again  ·  we replaced it on…  ·  it has come back
+@EX Part 3: The Week’s Incidents
+@IT 🔊  Audio Track 9.4
+@IT Before you listen: is a repeat problem always somebody’s mistake?
+@BX Maher: Let’s look at this week’s incidents. On Monday Lina diagnosed three machines and found the same disk model failing in all of them, which is useful to know. On Tuesday we rebuilt the reception machine; it has been clean since. Yesterday one came back with the same fault we thought we had fixed, and that is the one I want to talk about — not to blame anybody, but because a repeat problem always teaches us something a first-time fault cannot. This morning Nabil has already written the post-incident note for it, which is exactly right.
+@IN While you listen: match each time with what happened. One is not needed. (0. is done.)
+@IT 0. Monday → Lina diagnosed three machines.
+@LB Column A
+@COLA
+1 | Tuesday
+2 | Yesterday
+3 | This morning
+4 | Next week
+@END
+@LB2 Column B
+@COLB
+a | a machine came back with the same fault
+b | the office is closed
+c | we rebuilt the reception machine
+d | Nabil has already written the post-incident note
+e | the new disks are arriving
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Incidents
+@IMG fig-09-3.png
+@CAP Figure 9.3  ·  From symptom to cause to fix.
+@IN Work with a partner. Ask and answer these questions.
+@IF How does an officer find a cause, step by step?
+@IF Have you ever fixed something difficult? What was it?
+@IF Why must a department take every repeat problem seriously?
+@BX Useful language: First, I look at…  ·  Have you ever…?  ·  I replaced it on…  ·  It has come back…
+@EX Part 4: Find the Difference
+@IMG fig-09-4.png
+@CAP Figure 9.4  ·  Name each kind of alert.
+@IN Work in pairs. Student A looks at Machine A; Student B looks at Machine B. Ask and answer to find which machine has the more serious problem. Do not show your card.
+@BX Card A — Machine A: disk alert on Tuesday  ·  repaired Wednesday  ·  no alert since  ·  log is clean.
+@BX Card B — Machine B: disk alert on Tuesday  ·  repaired Wednesday  ·  the same alert has returned twice  ·  the log shows the same error each time.
+@IT Useful questions: Has the alert come back?  ·  When did you repair it?  ·  Which machine is the worse one?
+@EX Part 4: The Repeat Problem Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: User: I brought it in last week and the same thing has started again. — Officer: I’m sorry. We replaced the disk on the fourteenth. If it has come back after a new disk, the disk was probably never the cause. May I keep it until tomorrow?
+@BX Card A — User: explain that the same problem has come back, say when you brought it in, and say what it is stopping you doing. Card B — Officer: apologise, say what was done and when, explain why you want to look again, and say what you will do today.
+@TRK Stretch [PR]: the repeat problem is a different fault that looks the same — explain that honestly without sounding as though you are avoiding the guarantee.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Describe a problem you have solved: the symptoms, what you tried, and what the cause turned out to be.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: Diagnosis, Recovery and Repeat Problems
+@IT Before you read: is finding the cause harder than repairing it?
+@GL cause = the reason a problem happened    ·    rebuild = to set a machine up again from the beginning, clean    ·    evidence = what the log and the records actually show
+@BX Finding a cause is like solving a puzzle, and the hardest part is not the repair. The repair is simple once you know what is wrong; the knowing takes the time. A careful officer starts with the symptoms — what the user saw, and exactly when — then reads the log, which remembers what everybody else has forgotten. Then she tests one thing at a time. Changing three things at once and finding that the problem has gone teaches nothing, because next month it will come back and nobody will know which of the three mattered. When the cause is found, there is a second decision: repair or rebuild. A machine that has had five different problems in a year is usually telling you something, and a clean rebuild often costs less than the next three repairs. Finally, every repeat problem must be taken seriously, and taken differently. If the same fault returns after a repair, the first repair almost certainly fixed a symptom and left the cause alone. The right answer then is not another new part. It is to go back to the beginning and ask what the evidence actually showed, including the possibility that the first diagnosis was wrong.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What is finding a cause like? — solving a puzzle.
+@BI 1. What does the officer look at first?
+@OP ○  A)  The symptoms
+@OP ○  B)  The price
+@OP ○  C)  The colour
+@OP ○  D)  The user’s name
+@BI 2. Why test one thing at a time?
+@OP ○  A)  It is faster
+@OP ○  B)  Changing three things teaches you nothing
+@OP ○  C)  It is cheaper
+@OP ○  D)  The manager asks for it
+@BI 3. What should a department do after a repeat problem?
+@OP ○  A)  Fit another new part
+@OP ○  B)  Go back to the evidence and ask what it really showed
+@OP ○  C)  Do nothing
+@OP ○  D)  Close the ticket
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | symptom
+2 | cause
+3 | rebuild
+4 | evidence
+@END
+@LB2 Column B
+@COLB
+a | the reason a problem happened
+b | a sign that something is wrong
+c | a tool for opening a machine
+d | what the log and the records actually show
+e | to set a machine up again from the beginning, clean
+@END
+@EX Part 5: Keeping Old Machines Working in Syria
+@IT Before you read: why is the skill to repair worth more in Syria than the money to replace?
+@GL skilled = very good at a job learned over years    ·    spare part = a piece kept ready to replace a broken one
+@BX In Syria, new machines are expensive and hard to import, so most offices are working with equipment that would have been replaced years ago somewhere else. This has produced a generation of technicians who are extremely good at something their colleagues abroad rarely learn: making an old machine work for another year. They repair power supplies that in other countries are simply thrown away. They keep a drawer of parts taken from machines that have finally died, carefully labelled, because the shop may not have that part for six months. They know which disk models fail, because they have seen forty of them. Lina was taught by a man in Aleppo who had kept the same four machines running for eleven years, and she says the most valuable thing he gave her was not a technique at all. It was the habit of asking why a thing had failed, every single time, even when the repair was obvious — because a part that fails twice in one machine is not a bad part, it is a message about something else.
+@IN Write True or False. (0. is done.)
+@IT 0. In Syria, most offices are working with old equipment. — True
+@IF 1. New machines are always cheap and easy to import in Syria. ____
+@IF 2. Technicians keep labelled parts from machines that have died. ____
+@IF 3. Syrian technicians are skilled at keeping old machines working. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Finding and Fixing a Fault (60–80 words)
+@IN Describe how you found and fixed a fault. Use the past simple and the present perfect.
+@LM Model — read this first:
+@BX Last Tuesday the accounts machine stopped every afternoon at the same time. I asked the user what she saw, and then I read the log, which showed a disk error a few seconds before each stop. I ran the disk check and found that it was failing. I replaced it on Wednesday morning, and the machine has run without stopping since. I have written the cause on the ticket, not only the repair.
+@BI Plan (fill in, then write): Last ___, the ___ stopped. I asked ___. Then I read ___. I replaced ___ on ___. It has ___ since.
+@WB Last week, I …ed    |  I have already…    |  It has come back…    |  the log showed…    |  the root cause was…
+@BC Check before you finish: ☐ past simple with a finished time?  ☐ present perfect for now?  ☐ 60–80 words?
+@EX Part 6: Why Every Repeat Problem Matters (50–70 words)
+@IN Write why a department must take every repeat problem seriously. Give reasons.
+@LM Model — read this first:
+@BX A repeat problem must be taken seriously because it is telling us that the first repair was wrong. If the same fault returns after a new part, the part was probably never the cause, and fitting a second one will waste more money and more of the user’s time. A repeat problem is also the cheapest lesson a department ever gets, because the evidence is still there.
+@WB … must take … seriously    |  the first repair was wrong    |  the cause is still there    |  it wastes…    |  the cheapest lesson
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Repair Note (50–70 words)
+@IN Write a short note from the officer to the help desk about a repair and its cause.
+@LM Model — read this first:
+@BX Last Wednesday I replaced the disk in the accounts machine. The log had shown a disk error before every stop, and the disk check confirmed it was failing. The machine has run normally since. One thing for the record: this is the third disk of the same model we have replaced this year, so I have asked Maher whether we should stop buying them. Lina.
+@BI Plan (fill in, then write): Last ___ I ___. The log showed ___. It has ___ since. One thing for the record: ___.
+@BC Check before you finish: ☐ past simple + present perfect?  ☐ the cause, not just the repair?  ☐ 50–70 words?
+@EX Part 6: Reflection — A Problem I Solved (40–60 words)
+@IN Write about a problem you found and solved, at work or at home.
+@LM Model — read this first:
+@BX Our lamp at home kept going out, and my father changed the bulb three times. I watched it instead and saw that it only went out when somebody walked past. The cable was loose where it met the switch. I have fixed it with ten minutes of work, and it has not gone out since.
+@BC Check before you finish: ☐ a clear story?  ☐ past simple + present perfect?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Handling a Repeat Problem and a Guarantee Repair
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “Have you found the cause yet?”
+2 | “We replaced the disk on the fourteenth.”
+3 | “It has come back twice now.”
+4 | “Write the post-incident note today.”
+@END
+@LB2 Column B
+@COLB
+a | saying what was done (past, finished time)
+b | checking the state of the work now
+c | asking about the price
+d | giving an instruction
+e | reporting something that is still happening
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 9.5
+@IT Before you read: how does a manager handle a repeat problem without blaming anybody?
+@BX Maher: Lina, Mr Aboud’s machine has come back.  Lina: I know. We replaced the disk on the fourteenth.  Maher: Have you found out why it has come back?  Lina: Not yet. But if a new disk failed the same way in ten days, the disk was never the real cause.  Maher: I agree. What is your next step?  Lina: Read the log from before the first repair. I only read the last two days last time, and the answer may be earlier.  Maher: Do that. And nobody is in trouble — if the first diagnosis was wrong, I would rather say so now than fit a third disk.
+@IN Answer the questions. (0. is done.)
+@IT 0. Whose machine has come back? — Mr Aboud’s.
+@IT 1. What did they do on the fourteenth?
+@IT 2. Why does Lina doubt the disk was the cause?
+@IT 3. What will Lina do next?
+@EX 7C: Controlled Practice — The Repeat Problem
+@IN Complete with the past simple or present perfect.
+@WB replaced    |  has    |     Have    |    found
+@IG 1. Last week, we  ____________________  the disk in that machine.
+@IG 2. The same fault  ____________________  come back twice.
+@IG 3.  ____________________  you read the log from before the first repair?
+@IG 4. Lina has not  ____________________  the real cause yet.
+@EX 7D: Role-Play — Handling the Repeat Problem
+@IN In pairs. One is the manager (Maher); one is the officer (Lina). Use the model and the cards.
+@BX Model exchange: Maher: Have you found out why it has come back? — Lina: Not yet. But a new disk failing the same way in ten days says the disk was never the cause. — Maher: Then what is your next step?
+@BX Card A — Manager (Maher): ask what was done and when, ask what has happened since, and ask for the next step. Card B — Officer (Lina): report honestly, say what you now doubt about the first diagnosis, and say what you will look at.
+@TRK Stretch [PR]: the user is angry and wants a new machine rather than a third repair — answer without promising a machine you cannot give.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short note to the user about the repeat problem and what you are doing.
+@LM Model — read this first:
+@BX Dear Mr Aboud, Your machine has come back with the same fault, and I am sorry. We replaced the disk on the fourteenth, and it is now clear that the disk was not the real cause, so fitting another one would waste your time. Lina is reading the full log today and will call you before five. There is nothing to pay, and we will keep it until it is genuinely fixed. Maher Khoury.
+@BC Check before you finish: ☐ past simple + present perfect?  ☐ what you will do, and by when?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Office That Recovered in a Day
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: is it always better to replace a system than to recover it?
+@GL recover = to bring the work and the files back after a failure    ·    drill = a practice run of something you hope never to need    ·    offsite = kept in another building
+@BX Two companies in the same city lost their main server in the same month, to the same kind of failure. The first had a backup and had never tested it. When the day came, the copy was of the wrong folder, and ten months of work was gone; the company took five months to rebuild what it could, and never fully recovered its records. The second company had the same equipment and the same budget, and one habit the first did not: twice a year, on an ordinary working morning, it pretended the server had died and recovered it onto a spare machine while everybody watched. The first drill took eleven hours and found four things that did not work. The second took five hours. By the fourth drill it took under three. When the real failure came, on a Tuesday, the office was working again by that afternoon. The manager said the drills had never once felt like a good use of a morning, and that he would not trade them for anything.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many companies lost their server? — Two.
+@IT 1. What was wrong with the first company’s backup?
+@IT 2. What did the second company do twice a year?
+@IT 3. How long did the first drill take, and the fourth?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | recover
+2 | drill
+3 | offsite
+4 | restore
+@END
+@LB2 Column B
+@COLB
+a | to bring the files back from a copy
+b | a practice run of something you hope never to need
+c | kept in another building
+d | a new machine
+e | to bring the work and the files back after a failure
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “A drill is worth the morning because…”  ·  “In our office the first drill would find…”  ·  “An untested backup is…”  ·  “The hardest part would be…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Rebuild or Replace?
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: what can an office do when a machine fails and no replacement can be imported?
+@BX An old server at a printing works in Homs failed mid-season, and its owner, Abu Firas, could not buy another. The model had not been sold in Syria for six years, and a new one would have come through Beirut at a price he could not meet. Lina looked at it for a day. The machine was sound; the power supply had burned out and taken a disk with it. No new power supply could be had, but a working one came from a dead machine of the same family in the store, and the disk was common. She rebuilt the server from the beginning, not in place: a clean install, the files restored, and the accounts set up properly rather than as they had grown over nine years. It took two days. Abu Firas asked what he should do about next year. She told him: this machine has perhaps two more years, and the time to plan is now, while it still works.
+@IN Answer the questions. (0. is done.)
+@IT 0. What is Abu Firas’s business? — A printing works in Homs.
+@IT 1. Why could he not simply buy another server?
+@IT 2. What had actually failed?
+@IT 3. What did Lina tell him about next year?
+@EX Part 9: Decision Task
+@IN A machine has failed and a replacement cannot be imported this month. Should the department (a) rebuild it from parts and the backup, (b) move the work to another machine as a workaround, or (c) wait for the import? Choose one and give reasons.
+@BX Answer frame: “I think the department should ___ because ___. The risk of ___ is ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the department should rebuild it from parts and the backup, because the office cannot stop for the two months an import may take. The risk of waiting is that the season is lost and the money is lost with it. This is better than a workaround on another machine, because a temporary arrangement that works is never replaced, and in a year nobody will remember how it was built.
+@BX Phrase bank: I think… should…  ·  because…  ·  The risk of…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. A sign that something is wrong is a symptom.
+@WB root cause    |  repeat problem    |     replaced    |    has    |    must
+@IG 1. The real reason a problem happened is the  ____________________ .
+@IG 2. When the same fault comes back a second time, it is a  ____________________ .
+@IG 3. “I  ____________________  the disk yesterday.”
+@IG 4. “The fault  ____________________  come back twice this month.”
+@IG 5. “Every machine  ____________________  pass the four checks before handover.”
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main fault-finding and recovery words.
+@IT ☐ I can use the past simple and the present perfect correctly.
+@IT ☐ I can understand a diagnosis and a repeat-problem conversation.
+@IT ☐ I can write a repair note or a post-incident note.
+@IT ☐ I can handle a repeat problem and a guarantee repair (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 9 glossary (10 words)
+@BG symptom  ·  root cause  ·  workaround  ·  recovery  ·  rebuild  ·  repeat problem  ·  drill  ·  offsite  ·  evidence  ·  post-incident note
+@PB

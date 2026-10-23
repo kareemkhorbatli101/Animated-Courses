@@ -343,7 +343,7 @@ e | the least good of them all
 @EX Part 6: Reflection — Comparing Two Things (40–60 words)
 @IN Write about two machines, programs or offices you know well, and compare them.
 @LM Model — read this first:
-@BX At home we have two computers. The newer one is faster and much quieter, and its disk is bigger. The older one is slower, but it is the more useful of the two, because all our photographs are on it and my mother knows how to use it. Of everything in the house, it is the machine I back up most carefully.
+@BX At home we have two computers. The newer one is faster, quieter, and its disk is bigger. The older one is slower, but it is the more useful of the two, because all our photographs are on it and my mother knows how to use it. Of everything in the house, it is the machine I back up most carefully.
 @BC Check before you finish: ☐ comparatives + one superlative?  ☐ clear and true?  ☐ 40–60 words?
 
 @PART Part 7  ·  Management File — Checking the Weekly Report

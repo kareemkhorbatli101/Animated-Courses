@@ -244,6 +244,62 @@ def u8():
     ]
 
 
+# ------------------------------------------------------------------ Unit 9
+@unit(9)
+def u9():
+    return [
+        ("fig-09-1", A.process_chain(
+            ["symptoms", "read the log", "test one thing",
+             "find the cause", "fix", "check"],
+            None)),
+        ("fig-09-2", A.grammar_contrast(
+            ("Past simple — finished time",
+             ["I replaced the disk yesterday.", "She diagnosed it on Monday.",
+              "We rebuilt that machine in March."]),
+            ("Present perfect — still open",
+             ["The fault has come back twice.", "I have already checked it.",
+              "Have you ever rebuilt a server?"]),
+            None)),
+        ("fig-09-3", A.three_groups(
+            [("Symptom", ["stops every", "afternoon", "at the same time"]),
+             ("Cause", ["a disk error", "seconds before", "every stop"]),
+             ("Fix", ["replace the disk", "write the cause", "watch for a week"])],
+            "The repair is the easy part; the knowing is not.")),
+        ("fig-09-4", A.icon_row(
+            [("disk", "disk alert"), ("lock", "sign-in alert"),
+             ("shield", "antivirus alert"), ("envelope", "message alert")],
+            "Name each kind of alert.")),
+    ]
+
+
+# ----------------------------------------------------------------- Unit 10
+@unit(10)
+def u10():
+    return [
+        ("fig-10-1", A.three_groups(
+            [("The user tells us", ["what they saw", "what the service", "was like"]),
+             ("The provider tells us", ["what is faulty", "how serious", "what to do"]),
+             ("The team tells us", ["what it found", "this week", "and learned"])],
+            None)),
+        ("fig-10-2", A.grammar_contrast(
+            ("Direct",
+             ["“The machine is ready.”", "“I have finished.”",
+              "“Is it installed?”"]),
+            ("Reported",
+             ["She said it was ready.", "He said he had finished.",
+              "She asked if it was installed."]),
+            "is → was,  have → had,  will → would.")),
+        ("fig-10-3", A.role_row(
+            [("Maher", "runs the meeting", "doc"), ("Rana", "the users", "phone"),
+             ("Lina", "the provider", "ledger"), ("Nabil", "the updates", "shield")],
+            "The manager’s job here is mostly to listen.")),
+        ("fig-10-4", A.process_chain(
+            ["the user", "the help desk", "the team meeting", "the provider",
+             "the update", "the user"],
+            None)),
+    ]
+
+
 def main():
     want = [int(a) for a in sys.argv[1:]] or sorted(UNITS)
     for n in want:

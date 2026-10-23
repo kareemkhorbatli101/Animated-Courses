@@ -13,10 +13,13 @@ def two_panel(left, right, caption, h=480):
         c.T(px + pw / 2, h - 108, title, size=24, weight="bold", maxw=pw - 60)
         n = len(items)
         step = (pw - 120) / max(n, 1)
+        labels = []
         for i, (icon, label) in enumerate(items):
             x = px + 60 + step * (i + 0.5)
             c.icon(icon, x, 180, 0.95)
-            c.T(x, 138, label, size=19, weight="bold", maxw=step - 14)
+            labels.append(c.T(x, 138, label, size=19, weight="bold",
+                              maxw=step - 14))
+        c.equalise(labels)
     c.caption(caption)
     return c
 
@@ -26,6 +29,7 @@ def role_row(roles, caption, h=400):
     c = Canvas(h, cap=bool(caption))
     n = len(roles)
     step = W / n
+    names, roledefs = [], []
     for i, r in enumerate(roles):
         name, role = r[0], r[1]
         prop = r[2] if len(r) > 2 else None
@@ -33,8 +37,10 @@ def role_row(roles, caption, h=400):
         c.person(x - 34, 150, 1.0, label=None)
         if prop:
             c.icon(prop, x + 86, 166, 0.62)
-        c.T(x, 120, name, size=22, weight="bold", maxw=step - 30)
-        c.T(x, 88, role, size=19, color=NAVY2, maxw=step - 24)
+        names.append(c.T(x, 120, name, size=22, weight="bold", maxw=step - 30))
+        roledefs.append(c.T(x, 88, role, size=19, color=NAVY2, maxw=step - 24))
+    c.equalise(names)
+    c.equalise(roledefs)
     c.caption(caption)
     return c
 
@@ -89,10 +95,12 @@ def icon_row(items, caption, h=400):
     c = Canvas(h, cap=bool(caption))
     n = len(items)
     step = W / n
+    labels = []
     for i, (icon, label) in enumerate(items):
         x = step * (i + 0.5)
         c.icon(icon, x, 160, 1.0)
-        c.T(x, 108, label, size=21, weight="bold", maxw=step - 26)
+        labels.append(c.T(x, 108, label, size=21, weight="bold", maxw=step - 26))
+    c.equalise(labels)
     c.caption(caption)
     return c
 

@@ -1,0 +1,464 @@
+# Unit 10 · The User, the Provider and Explaining Security
+# Grammar: reported speech.  Level: Low B1.
+
+@U Unit 10: The User, the Provider and Explaining Security
+@SUB English for Cybersecurity Personnel  ·  Level: Low B1  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: User and Provider Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Feedback
+2 | Recommend
+3 | Advisory
+4 | Reminder
+5 | Training
+@END
+@LB2 Column B
+@COLB
+a | to tell somebody that something is good and worth using
+b | a tool for opening a machine
+c | a note from the provider about a fault and what to do about it
+d | what a user says about the service they were given
+e | learning new skills, because the work keeps changing
+f | a message that something is due to be done
+@END
+
+@EX Warm-up: Reporting What People Say
+@IW Complete the sentences using the words in the word bank.
+@WB said    |  told    |     asked    |    that
+@IG 1. The user  ____________________  that the machine was slow again.
+@IG 2. Maher  ____________________  the team to read the new advisory.
+@IG 3. Rana  ____________________  if the update had been installed.
+@IG 4. Lina said  ____________________  she had finished the training.
+
+@EX Warm-up: Reading About the Department
+@IW Read the text and choose the correct answer.
+@BX A good IT department looks after three relationships. It listens to its users, because daily users see things no report shows. It reads what the provider sends — the advisories about faults, and the updates that fix them. And it talks to itself: once a week the team sits down, and each person reports what they have seen. The manager’s job at that meeting is mostly to listen, and to make sure Tuesday’s lesson does not stay with one person.
+@BI 1. What does a good department listen to?
+@OP ○  A)  The radio
+@OP ○  B)  Its users
+@OP ○  C)  The traffic
+@OP ○  D)  Nothing
+@BI 2. What is the manager’s job at the team meeting?
+@OP ○  A)  Mostly to listen
+@OP ○  B)  To sell machines
+@OP ○  C)  To clean
+@OP ○  D)  To read the news
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: User and Provider Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Training → learning new skills, because the work keeps changing.
+@LB Column A
+@COLA
+1 | User relations
+2 | Satisfaction
+3 | Advisory
+4 | Campaign
+5 | Reminder
+6 | Provider
+7 | Awareness
+@END
+@LB2 Column B
+@COLB
+a | the good feeling when a user gets what they were promised
+b | a cable for the printer
+c | the company that makes or supplies a program
+d | how we treat the people who use the system, every day
+e | a plan to fix one thing everywhere, for everybody, at once
+f | a note from the provider about a fault and what to do about it
+g | a message that something is due to be done
+h | the staff knowing what to look out for, and what to report
+@END
+@GL advisory = a note from the provider about a fault and what to do about it    ·    awareness = the staff knowing what to look out for, and what to report
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 10.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR provider — pro-VI-der
+@PR satisfaction — sat-is-FAC-tion
+@PR advisory — ad-VI-so-ry
+@PR feedback — FEED-back
+@PR recommend — re-com-MEND
+@PR awareness — a-WARE-ness
+
+@EX Part 1: Who Tells Us What Table
+@IMG fig-10-1.png
+@CAP Figure 10.1  ·  Who tells the department what.
+@IN Complete the table. Write what each one tells us. (0. is done.)
+@TBL 3400,5626
+Who | What they tell us
+* The user | (example) what they saw, and what the service was like
+The provider | 
+The team | 
+The log | 
+@END
+@IT 0. The user — what they saw, and what the service was like.
+
+@EX Part 1: Reporting Verbs
+@IN Match each verb with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Say
+2 | Tell
+3 | Ask
+4 | Recommend
+5 | Warn
+@END
+@LB2 Column B
+@COLB
+a | to give information to a person (tell somebody something)
+b | to speak words, without naming the listener
+c | to repair a machine
+d | to put a question
+e | to say that something is good and worth using
+f | to say that something may be dangerous
+@END
+
+@EX Part 1: Users and Providers — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What is a reminder?
+@OP ○  A)  A tool
+@OP ○  B)  A fault
+@OP ○  C)  A message that something is due to be done
+@OP ○  D)  A machine part
+@BI 2. What is user satisfaction?
+@OP ○  A)  The price
+@OP ○  B)  The good feeling when a user gets what they were promised
+@OP ○  C)  A bill
+@OP ○  D)  A tool
+@BI 3. What is an advisory?
+@OP ○  A)  A user’s machine
+@OP ○  B)  A kind of cable
+@OP ○  C)  A meeting
+@OP ○  D)  A note from the provider about a fault and what to do about it
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB feedback    |  campaign    |     recommend    |    training
+@IG 1. We listen to user  ____________________  after every big job.
+@IG 2. The provider started a  ____________________  to update every office at once.
+@IG 3. A satisfied user will  ____________________  us to other departments.
+@IG 4. The team goes on  ____________________  twice a year, because the work changes.
+
+@EX Part 1: Write About User Relations (short)
+@IN Write two or three sentences about how your department treats its users. Use three words from this unit.
+@LM Model — read this first:
+@BX We call every user a week after a big job and ask what the service was like. Most of them say the same thing: they do not mind waiting, but they mind not knowing. We read every advisory the provider sends, and we tell the users plainly when one of them affects their machines.
+
+@PART Part 2  ·  Grammar — Reported Speech
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-10-2.png
+@CAP Figure 10.2  ·  Direct speech, and the same words reported.
+@IN Read these pairs. How does the sentence change when we report it?
+@BX Direct: “The machine is ready.” → Reported: She said the machine was ready.  ·  Direct: “I have finished the training.” → Reported: He said he had finished the training.  ·  Direct: “Is the update installed?” → Reported: She asked if the update was installed.  ·  Direct: “Read the advisory.” → Reported: He told us to read the advisory.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+say / tell | said (that) … / told somebody (that) … | reporting a statement | She said the machine was ready.
+ask / tell to | asked if … / told somebody to … | reporting a question or an order | He asked if it was ready.
+@END
+@BR Remember: Backshift: is → was, will → would, have → had.  Say something; tell somebody something.
+@WO ✗ She said me. → ✓ She told me. / She said that…   ✗ He asked is it ready. → ✓ He asked if it was ready.
+@EX Part 2: Controlled Practice
+@IN Report each statement. (0. is done.)
+@IT 0. “The machine is ready.” → She said the machine was ready.
+@IT 1. “I have finished the training.” (Lina → Maher)
+@IT 2. “The disks will arrive tomorrow.” (Rana → the team)
+@IT 3. “Read the new advisory.” (Maher → the team)
+@IT 4. “We never share accounts.” (Nabil → the trainee)
+@EX Part 2: Report the Question
+@IN Report each question. (0. is done.)
+@IT 0. “Is the machine ready?” (the user → Rana) → The user asked if the machine was ready.
+@IT 1. “When will it be finished?” (the user → Rana)
+@IT 2. “Have you found the cause?” (Maher → Lina)
+@IT 3. “Do you test every backup?” (the bank → Maher)
+@IT 4. “Is the training finished?” (Maher → Lina)
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. She said me the machine was ready.
+@IT 2. He asked is the update installed.
+@IT 3. Maher told to read the advisory.
+@IT 4. Rana said the disks will arrive tomorrow.
+@EX Part 2: Freer Practice
+@IN Report two things you have really heard this week: one statement and one question.
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which is correct reported speech?
+@OP ○  A)  She said the machine was ready.
+@OP ○  B)  She said me the machine was ready.
+@OP ○  C)  She told the machine was ready.
+@OP ○  D)  She say the machine is ready.
+@BI 2. Which is a correct reported question?
+@OP ○  A)  He asked is the machine ready.
+@OP ○  B)  He asked the machine was ready.
+@OP ○  C)  He asked if the machine was ready.
+@OP ○  D)  He asked if is the machine ready.
+@IT → Harvest: you will see reported speech again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: User Feedback
+@IT 🔊  Audio Track 10.2
+@IT Before you listen: why does a department call a user after the work is finished?
+@BX Rana: Maher, I called Mr Aboud for feedback on last week’s job.  Maher: What did he say?  Rana: He said he was happy with the work, and he told me the machine had not stopped once since. But he also said something I think we should hear: he said he had not understood what we were doing for the first two days, because nobody had explained it in words he knew.  Maher: That is worth more than the compliment. Did he ask for anything?  Rana: He asked whether we could look at the machines in his other office as well.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Rana called Mr Aboud for feedback. — True
+@IF 1. Mr Aboud said he was unhappy with the work. ____
+@IF 2. He said he had not understood what was happening at first. ____
+@IF 3. He asked about his other office. ____
+@IT Useful phrases: He said (that)…  ·  He told me…  ·  He asked whether…
+@EX Part 3: A Provider Advisory
+@IT 🔊  Audio Track 10.3
+@IT Before you listen: what kind of news does a provider send to the offices that use its program?
+@BX Lina: Maher, there’s a new advisory from the provider.  Maher: What does it say?  Lina: It says there is a fault in the version we are running, and it tells every office to install the update within fourteen days. It also warns that the fault is already being used somewhere, so it is not one we can leave.  Maher: Does it say what the fault lets somebody do?  Lina: It says it lets an account be opened without the password. It tells us to install the update first and change the passwords afterwards, in that order.  Maher: Then we start today. Have you done the provider’s training on this version?  Lina: Yes, I finished it last month.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What is the advisory about? — A fault in the version they are running.
+@IT 1. What did the advisory tell every office to do?
+@IT 2. Is the update urgent, and why?
+@IT 3. Has Lina done the training?
+@IT Useful phrases: It says (that)…  ·  It tells every office to…  ·  It warns that…
+@EX Part 3: The Team Meeting
+@IT 🔊  Audio Track 10.4
+@IT Before you listen: what news does a manager bring to a weekly team meeting?
+@BX Maher: Good morning, everyone. Here is the week. The users first: Mr Aboud said he was happy, but he told Rana he had not understood us for two days, so we are going to change how we explain a job. The provider next: the advisory says there is a fault in our version and tells us to update within fourteen days; Nabil starts this afternoon. Training: Lina has finished the new-version course and she will teach the rest of us on Thursday. And one from me: I asked the bank what they would want to see next year, and they said they would want a tested restore every quarter, not every year.
+@IN While you listen: match each topic with what was said. One is not needed. (0. is done.)
+@IT 0. The users → Mr Aboud said he was happy but had not understood us.
+@LB Column A
+@COLA
+1 | The provider
+2 | Training
+3 | The bank
+4 | Next month
+@END
+@LB2 Column B
+@COLB
+a | Lina has finished the course and will teach the others
+b | said they would want a tested restore every quarter
+c | the office is moving to a new building
+d | the advisory tells us to update within fourteen days
+e | two new machines are arriving
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Users and Providers
+@IN Work with a partner. Ask and answer these questions.
+@IF Why is user feedback important, even when it is uncomfortable?
+@IF What kind of news does a provider send, and how urgent is it usually?
+@IF Why does a team need training every year?
+@BX Useful language: The user said…  ·  He told me…  ·  She asked if…  ·  The advisory tells us to…
+@EX Part 4: Find the Difference
+@IN Work in pairs. Student A looks at Notes A; Student B looks at Notes B. Ask and answer to find four differences. Do not show your card.
+@BX Card A — Notes A: feedback good  ·  the advisory says fourteen days  ·  Lina has finished the training  ·  the bank asked for a quarterly restore.
+@BX Card B — Notes B: feedback good but unclear explanations  ·  the advisory says seven days  ·  Lina has not started the training  ·  the bank asked for a yearly restore.
+@IT Useful questions: What did the feedback say?  ·  How many days does the advisory give?  ·  Who has finished the training?
+@EX Part 4: Reporting Role Play
+@IMG fig-10-3.png
+@CAP Figure 10.3  ·  The security-team meeting.
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Manager: What did the user say? — Officer: He said he was happy with the work, but he told me he had not understood what we were doing for two days. — Manager: Did he ask for anything? — Officer: He asked whether we could look at his other office.
+@BX Card A — Manager: ask what the user said, what the advisory says, and who has finished the training. Card B — Officer: report all three, using said, told and asked.
+@TRK Stretch [PR]: a user gave you different feedback from the one they gave your manager — report both, without taking sides.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Report what three different people told you this week, and what you did about it.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: The User, the Provider and the Team
+@IMG fig-10-4.png
+@CAP Figure 10.4  ·  Three groups: the user, the provider and the team.
+@IT Before you read: which three groups does an IT department stand between?
+@GL satisfied = happy, because what was promised was given    ·    advisory = a note from the provider about a fault    ·    awareness = the staff knowing what to look out for
+@BX An IT and security department stands between three groups, and it has to speak to all of them in different words. The users come first. They see things no report shows: the machine slow every afternoon, the message that looked wrong, the colleague using somebody else’s account. Most never reaches the department, because people do not know it matters, or fear looking foolish. So a good department asks, regularly and without blame, and thanks the person who reports nothing — because the one thanked for nothing comes back with something. Second, the provider. The provider sends advisories, and those advisories must be read on the day they arrive, not filed. An advisory says what is wrong, how serious, and what to do; a department that reads them late chooses to be surprised. Third, the team itself. The officer who learns something on Tuesday must tell the others by Friday, or the department has one knowledgeable person, not four. That is what the weekly meeting is for, and it is why the manager's job there is mostly to listen. A department that is good at all three is not the one with the newest machines. It is the one where the news travels.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. Between which three groups does a department stand? — the users, the provider and the team.
+@BI 1. Why should a department thank somebody who reports nothing?
+@OP ○  A)  Because they will come back with something real
+@OP ○  B)  Because it is polite
+@OP ○  C)  Because the manager asks
+@OP ○  D)  Because it saves money
+@BI 2. What must be done with an advisory?
+@OP ○  A)  It must be filed for the year end
+@OP ○  B)  It must be read on the day it arrives
+@OP ○  C)  It must be printed
+@OP ○  D)  It must be sent to the users
+@BI 3. Why does the team meet every week?
+@OP ○  A)  So what one person learned reaches the others
+@OP ○  B)  Because it is fun
+@OP ○  C)  Because it is easy
+@OP ○  D)  For no reason
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | feedback
+2 | recommend
+3 | advisory
+4 | awareness
+@END
+@LB2 Column B
+@COLB
+a | to tell others something is good and worth using
+b | what a user says about the service they were given
+c | a tool for opening a machine
+d | the staff knowing what to look out for
+e | a note from the provider about a fault
+@END
+@EX Part 5: Carrying a Famous Name and Our Own
+@IT Before you read: what does it mean for a Syrian company to work to an international standard?
+@GL responsibility = a duty; something you must do properly    ·    accredited = officially approved to work to a standard
+@BX When an international provider accredited Cham Systems as its partner in Syria, Maher told the team two things on the same morning. The first was that the name on the certificate was not theirs: it belonged to a company in another country that had never met any of them, and it could be taken away in a week. The second was that the name on the door was theirs, and it could not. Being accredited brought real advantages — training, advisories that arrived first, a direct line to the provider's engineers when something was genuinely wrong. It also brought rules: every advisory read within a day, every engineer certified, every restore tested quarterly and recorded. The team followed them, and not only because they had to. A trainer came from abroad in the second year and said afterwards that he had not expected this record-keeping in Damascus. Maher told the team about it that week, and he said it carefully: he was proud, but he wanted them to understand that the trainer's surprise was the trainer's problem and not a compliment. The work was good because they had made it good, not because somebody from outside had been kind enough to notice.
+@IN Write True or False. (0. is done.)
+@IT 0. An international provider accredited Cham Systems. — True
+@IF 1. Being accredited had no rules attached to it. ____
+@IF 2. The team read every advisory within a day. ____
+@IF 3. Maher treated the trainer’s surprise as a compliment. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Report a Conversation (50–70 words)
+@IN Report a conversation between a user and an officer. Use said, told and asked.
+@LM Model — read this first:
+@BX Rana called Mr Aboud on Monday. He said he was happy with the work, and he told her the machine had not stopped once since the repair. He also said he had not understood what we were doing for the first two days. She asked whether anything else was troubling him, and he asked if we could look at the machines in his other office as well.
+@BI Plan (fill in, then write): He said ___. He told me ___. He asked if ___. She asked whether ___.
+@WB He said (that)…    |  He told me…    |  She asked if / whether…    |  backshift: is → was    |  will → would
+@BC Check before you finish: ☐ said / told / asked used correctly?  ☐ backshift used?  ☐ 50–70 words?
+@EX Part 6: Why Good Communication Matters (50–70 words)
+@IN Write why good communication is important in an IT department. Give reasons.
+@LM Model — read this first:
+@BX Good communication matters because almost everything we know arrives as something we were told. A user who is afraid to report a strange message leaves us blind. An advisory read a week late is a week we did not have. And what one officer learns on Tuesday is worth four times as much by Friday, if he has told the others. News that does not travel is not knowledge.
+@WB … is important because…    |  a user who is afraid…    |  read a week late…    |  news that does not travel…    |  it is worth four times as much
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: Team-Meeting Notes (50–70 words)
+@IN Write short notes from a team meeting, reporting what each person said.
+@LM Model — read this first:
+@BX Team meeting, Monday. Rana said Mr Aboud had been happy with the work but had not understood us at first. Maher told us to change how we explain a job. Lina said the provider’s advisory gave us fourteen days, and Nabil said he would start the updates that afternoon. Maher asked whether anybody had seen the same fault elsewhere. Nobody had.
+@BI Plan (fill in, then write): ___ said ___. ___ told us to ___. ___ said ___. ___ asked whether ___.
+@BC Check before you finish: ☐ reported speech throughout?  ☐ who said what, clearly?  ☐ 50–70 words?
+@EX Part 6: Reflection — What I Have Learned (40–60 words)
+@IN This is the last unit. Write about what you have learned on this course and what you will use first.
+@LM Model — read this first:
+@BX I have learned a great deal of vocabulary I did not have before, but the thing I will use first is smaller. I have learned how to explain a technical problem to somebody who is not technical, in short sentences, without making them feel foolish. I have used it twice with my own manager, and it worked both times.
+@BC Check before you finish: ☐ present perfect used?  ☐ one thing you will really use?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — The Security-Team Meeting
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “The user said the machine was slow again.”
+2 | “Maher told us to update within fourteen days.”
+3 | “She asked whether the backup had been tested.”
+4 | “Tell the others what you found.”
+@END
+@LB2 Column B
+@COLB
+a | reporting an instruction
+b | giving an instruction
+c | asking about the price
+d | reporting a statement
+e | reporting a question
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 10.5
+@IT Before you read: how does a manager prepare for a weekly team meeting?
+@BX Maher: Rana, let’s prepare for the meeting. What did the users say this week?  Rana: Mr Aboud said he was happy with the job, but he told me he hadn’t understood us for two days.  Maher: Good — that one goes first. What does the advisory say?  Rana: It says there is a fault in our version, and it tells every office to update within fourteen days. It warns that the fault is already being used.  Maher: And the bank?  Rana: They asked whether we tested a restore every quarter. I said we tested it every year, and they said that would not be enough from January.
+@IN Answer the questions. (0. is done.)
+@IT 0. What are they preparing for? — The weekly team meeting.
+@IT 1. What did Mr Aboud say and tell Rana?
+@IT 2. What does the advisory tell every office to do?
+@IT 3. What did the bank ask, and what did they say?
+@EX 7C: Controlled Practice — Reporting the Week
+@IN Complete with said, told, asked, or that.
+@WB said    |  told    |     asked    |    that
+@IG 1. Mr Aboud  ____________________  me the machine had not stopped since.
+@IG 2. The advisory  ____________________  there was a fault in our version.
+@IG 3. Maher  ____________________  if anybody had seen the same fault elsewhere.
+@IG 4. Rana said  ____________________  the bank wanted a quarterly restore.
+@EX 7D: Role-Play — Running the Team Meeting
+@IN In small groups. One is the manager (Maher); the others report. Use the model and the cards.
+@BX Model exchange: Maher: The users first. What did they say? — Rana: Mr Aboud said he was happy, but he told me he had not understood us for two days. — Maher: Then that is the thing we change this week.
+@BX Card A — Manager (Maher): run the meeting in four parts — users, provider, training, and one thing of your own. Card B — Officers: report what a user said, what the advisory says, and what you have finished, using said, told and asked.
+@TRK Stretch [PR]: two pieces of news conflict — the advisory gives fourteen days, the bank wants it done in three — decide, and say what you will tell each of them.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write the minutes of the team meeting.
+@LM Model — read this first:
+@BX Team meeting, Monday 8th. Rana said Mr Aboud had been happy with the work but had not understood us for two days; we agreed to change how we explain a job. Lina said the provider’s advisory gave fourteen days, and Nabil said he would start the updates that afternoon. The bank asked for a tested restore every quarter from January, and I said we would do the first one in December. Maher.
+@BC Check before you finish: ☐ reported speech throughout?  ☐ decisions as well as reports?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — Launching Security for a New System
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: why must a department be trained before a new system arrives, not after?
+@GL launch = when a new system is first used    ·    pilot = a small first group, used to find problems early    ·    rollout = giving the new system to everybody, group by group
+@BX When a large organisation replaced the system nine thousand people used daily, the technical work was not the hard part. The hard part was that on the first morning nine thousand people would sign in to something they had never seen, and the help desk would take a year’s calls in a week. So the project did three things before the launch. It trained the help desk three months early on a working copy — not a presentation, but the system itself, with real tasks. It ran a pilot with one department of forty people, chosen for being the most difficult, not the most willing, and fixed what they found. And it wrote in advance the twenty answers the help desk would need, in plain words, on one page. The rollout then went department by department over six weeks, not all at once. The project manager said none of this was clever, and that the only unusual decision was training the help desk before the system was finished, when everybody could see reasons to wait.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many people used the system? — Nine thousand.
+@IT 1. What did the project do with the help desk three months early?
+@IT 2. Which department did it choose for the pilot, and why?
+@IT 3. What did the project manager say was the only unusual decision?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | launch
+2 | pilot
+3 | rollout
+4 | training
+@END
+@LB2 Column B
+@COLB
+a | a small first group, used to find problems early
+b | when a new system is first used
+c | learning new skills before you need them
+d | a new machine
+e | giving the new system to everybody, group by group
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “Training before the launch is right because…”  ·  “The hardest department to pilot with would be…”  ·  “In our office the first morning would…”  ·  “Twenty answers on one page would…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Carrying a Famous Name and Our Own
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: what does a Syrian company gain, and what does it owe, when it carries an international name?
+@BX Cham Systems became the accredited partner of an international provider three years ago. Maher has told the story to every new member of staff since, always the same way. The accreditation brought good things that are hard to get in Syria: proper training, advisories that arrive on the first day rather than the fourth, and a real engineer when something is genuinely beyond them. It also brought obligations costing money and time: every advisory read within a day, every engineer re-certified, every restore tested quarterly and recorded. Some rules make little sense in Damascus, where the power schedule decides what is possible, and the team has written exceptions for two, both approved. What Maher says to new staff is this: the certificate on the wall is borrowed and the work is ours. If the provider withdrew the accreditation tomorrow, every habit it taught us would still be worth keeping, and that is the test of whether a rule was ever really about the certificate.
+@IN Answer the questions. (0. is done.)
+@IT 0. What did Cham Systems become? — The accredited partner of an international provider.
+@IT 1. What three good things did the accreditation bring?
+@IT 2. What obligations did it bring?
+@IT 3. What does Maher say to new staff about the certificate?
+@EX Part 9: Decision Task
+@IN A department must meet an international standard, but two of its rules cannot be followed in Syria because of the power supply. Should it (a) follow every rule and fail quietly, (b) write exceptions and have them approved, or (c) give up the accreditation? Choose one and give reasons.
+@BX Answer frame: “I think the department should ___ because ___. An honest exception is ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the department should write exceptions and have them approved, because a rule that cannot be followed will be broken quietly, and then nobody knows what is really being done. An honest exception is a record of the truth. This is better than failing quietly, because the provider can help with a problem it has been told about, and cannot help with one it has not.
+@BX Phrase bank: I think… should…  ·  because…  ·  An honest exception is…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. What a user says about the service they were given is feedback.
+@WB advisory    |  campaign    |     said    |    told    |    has
+@IG 1. A note from the provider about a fault and what to do about it is an  ____________________ .
+@IG 2. A plan to fix one thing everywhere, for everybody, at once is a  ____________________ .
+@IG 3. “She  ____________________  the machine was ready.”
+@IG 4. “He  ____________________  me the update had been installed.”
+@IG 5. “The fault  ____________________  come back twice” uses the present perfect.
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main user, provider and training words.
+@IT ☐ I can use reported speech (said, told, asked) with backshift.
+@IT ☐ I can understand user feedback and a provider advisory.
+@IT ☐ I can write team-meeting notes and report a conversation.
+@IT ☐ I can run a security-team meeting (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 10 glossary (10 words)
+@BG user relations  ·  satisfaction  ·  feedback  ·  recommend  ·  advisory  ·  campaign  ·  reminder  ·  provider  ·  awareness  ·  accredited
+@EX End of the Course
+@BX Congratulations — you have finished English for Cybersecurity Personnel. You started by naming the parts of a computer, and you have ended by reporting a provider advisory to a team and explaining an exception to a manager. Keep the glossaries: ten words a unit is a hundred words, and they are the hundred you will use. Keep the Can-Do lists too, and be honest with them; the ones you cannot tick yet are simply your next month’s work. The English in this book is not the English of a textbook — it is what is actually said at a help desk, at a bench, and in a meeting on a Monday morning. Use it there.

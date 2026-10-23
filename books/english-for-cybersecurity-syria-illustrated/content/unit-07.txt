@@ -36,7 +36,7 @@ f | the user agreeing to the work before it starts
 
 @EX Warm-up: Reading About the Help Desk
 @IW Read the text and choose the correct answer.
-@BX At the help desk, the officer plans the week and talks to the users. First the user calls and a time is saved for the work. Then the officer writes an estimate, so that the user knows how long it will take before anything starts. Nothing begins until the user approves it. While a machine is at the bench, the department can lend a loan machine, so that the user is not stopped. At handover, the officer shows the user that the problem is really gone, and gives them the completion note.
+@BX At the help desk, the officer plans the week and talks to the users. First the user calls and a time is saved for the work. Then the officer writes an estimate, so the user knows the time before anything starts. Nothing begins until the user approves it. While a machine is at the bench, the department can lend a loan machine. At handover, the officer shows the user that the problem is really gone, and gives them the completion note.
 @BI 1. What does the officer write so the user knows the time?
 @OP ○  A)  A loan machine
 @OP ○  B)  An approval
@@ -272,7 +272,7 @@ e | left empty on purpose
 @EX Part 5: From Request to Handover
 @IT Before you read: why is the help desk the most important desk in an IT department?
 @GL approve = to agree to the work before it starts    ·    handover = giving the machine back and showing that it works    ·    window = the hours when a job will be done
-@BX The help desk is the first place a user meets, and very often the only one. The work at the bench may be excellent, but a user judges the department by what happens at the desk. The process is simple and it is always the same. A request arrives and is given a slot in the week. Before anything begins, the user is told two things: how long it is going to take, and what it is going to cost. That is the estimate, and it exists so that nobody is ever surprised. Then the user approves it, and only then does the work start. While the machine is away, a loan machine is offered if the department has one. At handover the officer does not simply return the machine; she opens it in front of the user, shows the thing that was broken working again, and gives the completion note. If the work is going to be late, the user is told on the day it becomes late, not on the day it was promised. A good help desk depends on clear communication far more than on fast repairs, because a user who knows what is happening will wait patiently, and a user who is told nothing will not wait at all.
+@BX The help desk is the first place a user meets, and very often the only one. The bench work may be excellent, but a user judges the department by the desk. The process is simple and it is always the same. A request arrives and is given a slot in the week. Before anything begins, the user is told two things: how long it is going to take, and what it is going to cost. That is the estimate, and it exists so that nobody is ever surprised. Then the user approves it, and only then does the work start. While the machine is away, a loan machine is offered if the department has one. At handover the officer opens the machine in front of the user, shows the broken thing working again, and gives the completion note. If the work is going to be late, the user is told on the day it becomes late, not on the day it was promised. A good help desk depends on clear communication far more than on fast repairs, because a user who knows what is happening will wait patiently, and a user who is told nothing will not wait at all.
 @IN Answer the multiple-choice questions. (0. is done.)
 @IT 0. What is the first place a user meets? — the help desk.
 @BI 1. What does the officer give before any work starts?
@@ -329,7 +329,7 @@ e | giving the machine back and showing that it works
 @EX Part 6: Why Clear Communication Matters (50–70 words)
 @IN Write why clear communication is important at a help desk. Give reasons.
 @LM Model — read this first:
-@BX Clear communication is important because a user who knows what is happening will wait, and a user who is told nothing will not. A date that was never possible costs more than a late part, because it costs trust. If we say on Monday that the disk may take two weeks, the user can plan. If we say Thursday and the disk arrives in March, the user plans nothing, and blames us.
+@BX Clear communication is important because a user who knows what is happening will wait, and one told nothing will not. A date that was never possible costs more than a late part, because it costs trust. If we say on Monday that the disk may take two weeks, the user can plan. If we say Thursday and the disk arrives in March, the user plans nothing, and blames us.
 @WB … is important because…    |  a user who knows…    |  a date that was never possible…    |  it costs trust    |  the user can plan
 @BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
 @EX Part 6: A Ready-Time Message (40–60 words)
@@ -341,7 +341,7 @@ e | giving the machine back and showing that it works
 @EX Part 6: Reflection — Waiting for Something (40–60 words)
 @IN Write about a time you waited for something to be repaired or delivered.
 @LM Model — read this first:
-@BX Last year I waited five weeks for a part for our washing machine. The shop never called me; I called them every week and was told it was coming. If they had told me at the start that it was five weeks, I would have waited without being angry. In the end I was not angry about the part. I was angry about the silence.
+@BX Last year I waited five weeks for a part for our washing machine. The shop never called me; I called them every week and was told it was coming. If they had told me at the start, I would have waited without anger. In the end I was not angry about the part. I was angry about the silence.
 @BC Check before you finish: ☐ a clear story?  ☐ future or past forms used well?  ☐ 40–60 words?
 
 @PART Part 7  ·  Management File — Handling a Big Job and the Week’s Schedule
@@ -366,7 +366,7 @@ e | giving an instruction about the schedule
 @EX 7B: Manager Dialogue
 @IT 🔊  Audio Track 7.5
 @IT Before you read: how does a manager plan a week when one big job is coming in?
-@BX Maher: Rana, we have a big job this week. The ministry branch is moving twelve machines.  Rana: When is it coming in?  Maher: Wednesday and Thursday, both days, with Nabil and Lina on it. Nothing else is booked for them.  Rana: And the disks?  Maher: They are arriving on Tuesday — paid for, so they will come. If they don’t, we stop and tell the branch on Tuesday afternoon, not on Wednesday morning.  Rana: And the normal tickets?  Maher: I am on the desk myself those two days. And the users with bookings that week are going to be called today, so that nobody finds out on the day.
+@BX Maher: Rana, we have a big job this week. The ministry branch is moving twelve machines.  Rana: When is it coming in?  Maher: Wednesday and Thursday, both days, with Nabil and Lina on it. Nothing else is booked for them.  Rana: And the disks?  Maher: They are arriving on Tuesday — paid for, so they will come. If they don’t, we tell the branch on Tuesday afternoon, not Wednesday morning.  Rana: And the normal tickets?  Maher: I am on the desk myself those two days. And the users with bookings that week are going to be called today, so that nobody finds out on the day.
 @IN Answer the questions. (0. is done.)
 @IT 0. What is the big job? — Moving twelve machines at the ministry branch.
 @IT 1. When is the job coming in, and who is on it?
@@ -424,7 +424,7 @@ e | to call again and again to ask about something
 @PART Part 9  ·  Local Case Study — Syria in Focus: When the Licence Is Late and the Power Is Off
 @TRK [PR] Practitioner track  ·  pre-read / in-class decide
 @IT Before you read: what should an officer say when they honestly do not know how long something will take?
-@BX One week was hard at Cham Systems. A company in Damascus needed a licence for its accounts program, and the licence could not be paid for from Syria. It had to go through a reseller in Beirut, who said ten days and meant it, but who had said ten days twice before and been wrong both times. At the same time the power schedule changed, and the four hours the team had counted on in the afternoon became two. Rana did not promise a date. She called the company on the Monday and told them exactly what she knew: the licence was ordered, the reseller had said ten days, she did not believe ten days, and she would call every Monday until it came, whether there was news or not. It came on the nineteenth day. She called four times with nothing to report. The company's director told Maher afterwards that those four empty calls were the reason he had renewed the contract — not the licence, which every company could eventually have supplied.
+@BX One week was hard at Cham Systems. A company in Damascus needed a licence for its accounts program, and the licence could not be paid for from Syria. It had to go through a reseller in Beirut, who said ten days and meant it, but who had been wrong twice before. At the same time the power schedule changed, and the four hours the team had counted on in the afternoon became two. Rana did not promise a date. She called the company on the Monday and told them exactly what she knew: the licence was ordered, the reseller had said ten days, she did not believe ten days, and she would call every Monday until it came, whether there was news or not. It came on the nineteenth day. She called four times with nothing to report. The company's director told Maher afterwards that those four empty calls were the reason he had renewed the contract — not the licence, which every company could eventually have supplied.
 @IN Answer the questions. (0. is done.)
 @IT 0. Was the licence available in Syria? — No, it had to go through Beirut.
 @IT 1. Why did Rana not believe the ten days?

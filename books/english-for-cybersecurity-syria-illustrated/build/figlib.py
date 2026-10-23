@@ -67,6 +67,14 @@ class Canvas:
     def _sink(self, y):
         self.low = min(self.low, y)
 
+    def equalise(self, texts):
+        """Give a row of labels one common size, so none is oddly small."""
+        if not texts:
+            return
+        m = min(t.get_fontsize() for t in texts)
+        for t in texts:
+            t.set_fontsize(m)
+
     def panel(self, x, y, w, h, fill=PALE, edge=NAVY, lw=2.2, r=18):
         self._sink(y)
         self.ax.add_patch(FancyBboxPatch((x + r, y + r), w - 2 * r, h - 2 * r,

@@ -375,3 +375,89 @@ Each phase lands on the development branch as its own commit.
 
 **Approve this and Phase 0 starts: the tree, the renderer, the figure generator, and
 Unit 1 built element-exact against the source as proof before anything else is written.**
+
+---
+
+# PART THREE — AS BUILT
+
+Everything in this part is measured off the delivered file, not estimated.
+Where a criterion was not met, it says so and gives the number.
+
+## 16 · The sixteen criteria, checked
+
+| # | criterion | result |
+| ---: | --- | --- |
+| 1 | 3,450 elements, same reading order, unit *N* = source unit *N* | ✅ **3,450 / 3,450, 0 differ** (`qa/spacing.py`) |
+| 2 | 5,320 paragraphs · 160 tables · 810 rows · 2,030 cells | ✅ all four exact (`qa/check.py`) |
+| 3 | Same direct formatting on every element | ✅ 0 differences over the full signature: alignment, size, weight, italic, colour, shading, borders, indent, spacing, image box |
+| 4 | 11 part bars per unit, two colours | ✅ 10 warm-up + 100 part bars |
+| 5 | 127 track labels, same nine wordings | ✅ 127 |
+| 6 | 423 exercise heads · 409 instruction boxes | ✅ 423 · 379 blue + 30 cream |
+| 7 | 16 tables per unit, same widths, 78 matching rows | ✅ exact in all ten units (`qa/house.py`) |
+| 8 | 40 MCQ · 6 pron · 10 glossary · 5 spiral · 5 can-do · 5 tracks · 1 watch-out, per unit | ✅ exact in all ten units |
+| 9 | 40 figures, 4 per unit, 540 px wide, in-image + numbered caption | ✅ 40 figures, 40 captions, all 540 px |
+| 10 | 9 page breaks · A4 · no front matter · no answer key · closing box | ✅ 9 · A4 1″ · none · none · "End of the Course" |
+| 11 | Words within ±3 % **and** every measured block band respected | ⚠️ **band: met in full. ±3 %: not met — see §18** |
+| 12 | 141 pages ± 2, every unit opening its own page | ✅ **142 pages**; units open on 1, 15, 29, 43, 57, 71, 86, 100, 114, 128 |
+| 13 | Zero empty model boxes — all 70 written | ✅ **70 written, 0 empty**, and `qa/models.py` reports **0 of 70** outside the word limit its own task states |
+| 14 | Every figure passes the drawing checks | ✅ **40 checked, 0 faults** (`qa/figures.py`) |
+| 15 | The defensive sweep reports zero hits | ✅ **0 hits**, 39 banned terms + 3 framings over 51,709 words |
+| 16 | Package well-formed | ✅ opens in Word and LibreOffice; every image referenced |
+
+## 17 · The six declared improvements, delivered
+
+1. **70 models written** — 4,390 words, every one inside the word limit its own exercise states (40–60, 50–70 or 50–80). `qa/models.py` enforces this and reports 0 outside.
+2. **Figure text bugs fixed** — no missing spaces, no text crossing a rule, no overflowing title. Figure 7.3 is the answer to the source's ESTIMATE mock-up: values sit above their rules, and the heading fits.
+3. **Label-the-parts figures labelled** — Figure 1.3 names screen, keyboard, mouse, tower and cable, so the task can be checked.
+4. **Figures numbered in document order** in all ten units; the source scrambles seven of them.
+5. **The two blank gloss strips filled** rather than dropped — 49 words — which fixes the blank without losing an element.
+6. **The level step named in every subtitle**, so a student can see Upper A2 → bridge → Low B1 happening.
+
+A seventh, not in the plan because it was found during the build: an **in-image line is drawn only where it adds an instruction or a legend**, never repeating the Figure caption beneath it. The source prints the same sentence twice on several figures.
+
+## 18 · Criterion 11, honestly
+
+The band half is met: every warm-up reading, Part 5 reading, Part 7 manager dialogue,
+Part 8 case and Part 9 case sits inside the band measured off the source. Eighteen blocks
+and two dialogues were over band on the first build and were cut back.
+
+The ±3 % half is **not met**, and could not have been. The book runs **49,891 words
+against the source's 42,760: +16.7 %**. The arithmetic:
+
+| | words | % of source |
+| --- | ---: | ---: |
+| The 72 boxes the source leaves blank, now filled | **4,439** | **+10.4 %** |
+| Prose sitting higher inside its (respected) bands | 2,692 | +6.3 % |
+| **Total** | **7,131** | **+16.7 %** |
+
+Improvement 1 and criterion 11 were in conflict from the moment both were written into
+the plan: filling 70 model boxes at the 50–80 words those tasks themselves ask for adds
+about 10 % on its own. That was an error in the plan, not a discovery during the build.
+Given the conflict, the band was kept — it is the figure that actually controls how hard
+a text is to read — and the word total was allowed to go where the models took it. The
+page count landed at 142 against 141 even so.
+
+## 19 · Measured record
+
+| | source | this book |
+| --- | ---: | ---: |
+| Pages | 141 | **142** |
+| Elements / paragraphs | 3,450 / 5,320 | **3,450 / 5,320** |
+| Tables / rows / cells | 160 / 810 / 2,030 | **160 / 810 / 2,030** |
+| Figures | 40 | **40**, from 14 parameterised archetypes |
+| Words | 42,760 | **49,891** |
+| Empty model boxes | 70 | **0** |
+| Unit spans (pages) | 13·14·14·14·14·14·14·14·14·16 | 14·14·14·14·14·15·14·14·14·15 |
+
+**Toolchain:** `build/render.py` (direct-formatting renderer, one emitter per element
+type) · `build/compile.py` (DSL) · `build/figlib.py` + `figarch.py` + `figures.py`
+(14 archetypes, 40 figures) · `qa/spacing.py` `check.py` `house.py` `bands.py`
+`models.py` `figures.py` `defensive.py` · `tools/skel.py` `sheet.py` `retag.py`
+`overband.py` (source measurement and build sheets).
+
+**Faults found by the harness and fixed rather than shipped:** a leader line crossing the
+monitor it pointed past; a vertical leader running through its own label; gauge unit
+labels crossing their dial rims; a week-planner grid running down into the caption;
+a build sheet collapsing six two-column completion tables into the wrong shape; a places
+table one row short in each column; eight models over the word limit their own task
+states; twenty prose blocks over band.

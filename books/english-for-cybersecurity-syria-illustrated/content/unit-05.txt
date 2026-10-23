@@ -342,7 +342,7 @@ e | the end of a ticket, after the work is checked
 @EX Part 6: Reflection — A Process I Know (40–60 words)
 @IN Write about a process you know well (at work, at home or at school), using the passive.
 @LM Model — read this first:
-@BX At my college, an application is handed in at the office and a number is written on it. It is then read by two teachers, and a decision is made at the end of the month. The students are told by letter, and no name is given to anybody before that day. The process is slow, but it is the same for everybody.
+@BX At my college, an application is handed in at the office and a number is written on it. It is read by two teachers, and a decision is made at the end of the month. The students are told by letter, and no name is given before that day. The process is slow, but it is the same for everybody.
 @BC Check before you finish: ☐ steps in order?  ☐ passive used?  ☐ 40–60 words?
 
 @PART Part 7  ·  Management File — Planning the Day’s Work
@@ -425,7 +425,7 @@ e | the line of work waiting to be done
 @PART Part 9  ·  Local Case Study — Syria in Focus: The Three-Day Job at the Branch
 @TRK [PR] Practitioner track  ·  pre-read / in-class decide
 @IT Before you read: how can a small department do a very large job without stopping the office?
-@BX A ministry office in Damascus needed all of its machines moved to a new system, and it could not close for even one day. Cham Systems had three officers and six working hours of electricity a day. Maher refused to do the job in one weekend, which is what the office asked for. Instead the work was divided into three days, and each day had one rule: at the end of it, the office had to be able to work on Monday morning whatever happened. On the first day everything was copied and nothing was switched. On the second, one department of five people was moved and watched all afternoon. On the third, the rest were moved, department by department, with the old system still running beside the new one. The parts that were needed — two disks and a switch — were checked and tested a week early, because a part that arrives late in Damascus can arrive two months late. Nothing was lost, and the office never stopped.
+@BX A ministry office in Damascus needed all of its machines moved to a new system, and it could not close for even one day. Cham Systems had three officers and six working hours of electricity a day. Maher refused to do the job in one weekend, which is what the office asked for. Instead the work was divided into three days, and each day had one rule: at the end of it, the office had to be able to work on Monday morning whatever happened. On the first day everything was copied and nothing was switched. On the second, one department of five people was moved and watched all afternoon. On the third, the rest were moved, department by department, with the old system still running beside the new one. The parts needed — two disks and a switch — were checked a week early, because a part that arrives late in Damascus can arrive two months late. Nothing was lost, and the office never stopped.
 @IN Answer the questions. (0. is done.)
 @IT 0. Whose office was it? — A ministry office in Damascus.
 @IT 1. How many days, and how many officers?
