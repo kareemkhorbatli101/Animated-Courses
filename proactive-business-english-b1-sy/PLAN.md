@@ -111,8 +111,11 @@ taken, in this file, with the old figure struck through rather than deleted.
 | **Unit 1 Student's Book** | **38** | 39–43 | and it carries the book's opener, so later units should be lighter |
 | **Unit 1 Answer Key** | **23** | 24–29 | |
 
-**The band for Book 1 is therefore SB 36–40 and AK 21–25**, with Unit 12 expected over it as the
-end-of-book unit. Both projections were a little high — the fourth time in this series that a
+**The band for Book 1 is therefore SB 36–41 and AK 21–25**
+(⚠ **widened at Unit 9.** The SB top was 40 through Unit 8 and Unit 9 measured **41**. A trim
+of three paragraphs in 9.6 was tested and **did not move a page**, so it was reverted per the
+series rule and the band follows the measurement rather than the content following the band.)
+Unit 12 is expected over it as well, being the end-of-book unit. Both projections were a little high — the fourth time in this series that a
 page projection has been — and the reason is the one the measured record already gives: a
 projection built by adding a level's word counts to another level's structure over-counts,
 because the structure is what prices the page.
