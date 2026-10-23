@@ -1,0 +1,149 @@
+// Proactive Business English — structural QA over the unit and key scripts.
+//   node qa.js            check every unitNN.js / akNN.js present
+//   node qa.js 01 02      check only those units
+//
+// The three content checks here are the three faults the Series Bible records as the
+// ones that ship: a house count that passes because the list is empty, a mediation
+// ordinal that drifts, and a dialogue in which one speaker asks and answers himself.
+const fs = require('fs');
+const path = require('path');
+
+const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala',
+              'Mr Tarabishi', 'Ms Shamsi', 'A', 'B', 'Man', 'Woman', 'Caller',
+              'Customer', 'Supplier', 'Driver', 'Engineer', 'Voice', 'C'];
+
+// per-unit house figures — asserted as COUNTS before anything measures contents
+const HOUSE = {
+  "stage(": 89, "lesson(": 14, "dlg(": 14, "pb()": 7,
+  "box('Language box": 7, "box('Writer\\'s box": 7, "box('Homework": 7,
+  "'Write with help": 7, "'Write freely": 7,
+};
+
+let faults = 0;
+const fail = m => { console.log('  ✗ ' + m); faults++; };
+
+function countOccurrences(s, needle) {
+  return s.split(needle).length - 1;
+}
+
+function checkUnit(file, s, n) {
+  for (const [needle, want] of Object.entries(HOUSE)) {
+    const got = countOccurrences(s, needle.replace('\\\\', '\\'));
+    if (got !== want) fail(`${file}: ${needle} = ${got}, house figure is ${want}`);
+  }
+  if (!/module\.exports = out;/.test(s)) fail(`${file}: no module.exports`);
+  if (!/require\.main === module/.test(s)) fail(`${file}: no require.main build line — the build would write no file and exit silently`);
+
+  // dialogue integrity: consecutive identical speakers, and speakers off the cast list
+  const dlgs = s.match(/dlg\((?:[^()]|\([^()]*\))*\)/gs) || [];
+  dlgs.forEach((d, di) => {
+    const speakers = [...d.matchAll(/\[\s*'((?:[^'\\]|\\.)*)'\s*,/g)].map(m => m[1].replace(/\\'/g, "'"));
+    speakers.forEach((sp, i) => {
+      if (i && sp === speakers[i - 1]) {
+        console.log(`  ? ${file}: dlg #${di + 1} has two turns in a row for "${sp}" — read it; an ask-and-self-answer pair is always a fault`);
+      }
+      if (!CAST.includes(sp) && !/^(Ms|Mr) /.test(sp)) {
+        fail(`${file}: dlg #${di + 1} speaker "${sp}" is not in the cast`);
+      }
+    });
+  });
+  const lx = s.match(/const LEXIS = '((?:[^'\\]|\\.)*)'/);
+  if (!lx) fail(`${file}: no LEXIS line — the cross-unit collision check cannot run without it`);
+  return lx ? lx[1] : '';
+}
+
+// per-cycle stage codes, keyed by the "===== 1.3 =====" banner each file carries
+function cycles(s) {
+  const out = {};
+  const parts = s.split(/\/\/ =+ ?(?:CYCLE )?(\d+\.\d+) ?=+/);
+  for (let i = 1; i < parts.length; i += 2) {
+    const codes = [...parts[i + 1].matchAll(/stage\('([^']+)'/g)].map(m => m[1]);
+    out[parts[i]] = codes;
+  }
+  return out;
+}
+
+function checkKey(file, s, unitSrc) {
+  if (!/module\.exports = out;/.test(s)) fail(`${file}: no module.exports`);
+  if (!/require\.main === module/.test(s)) fail(`${file}: no require.main build line`);
+
+  // house convention: every cycle after the first opens on a fresh page in the key
+  const cyc = cycles(s);
+  const nCyc = Object.keys(cyc).length;
+  if (nCyc !== 7) fail(`${file}: ${nCyc} cycle banner(s), the unit has 7`);
+  const breaks = countOccurrences(s, 'pb()');
+  if (breaks !== nCyc - 1) {
+    fail(`${file}: pb() = ${breaks}; the key starts each cycle after the first on a new page, so ${nCyc - 1}`);
+  }
+
+  // coverage: a key that omits a stage is the fault a stage count alone never catches
+  if (unitSrc) {
+    const ucyc = cycles(unitSrc);
+    Object.entries(ucyc).forEach(([n, codes]) => {
+      const have = new Set(cyc[n] || []);
+      const missing = [...new Set(codes)].filter(c => !have.has(c));
+      if (missing.length) fail(`${file}: cycle ${n} has no key entry for stage ${missing.join(', ')}`);
+    });
+  }
+}
+
+// ---- ordinal continuity across cycle 7 -------------------------------------
+function checkOrdinals(files) {
+  const ORD = ['first','second','third','fourth','fifth','sixth','seventh','eighth',
+               'ninth','tenth','eleventh','twelfth'];
+  const seen = [];
+  files.forEach(f => {
+    const s = fs.readFileSync(f, 'utf8');
+    const n = parseInt(path.basename(f).match(/\d\d/)[0], 10);
+    const plain = s.replace(/[*_]/g, '');   // markdown must not hide the ordinal
+    const m = plain.match(new RegExp('(' + ORD.join('|') + ')\\s+(?:unit|of (?:this|the) book)', 'i'));
+    seen.push([n, m ? m[1].toLowerCase() : null]);
+  });
+  seen.forEach(([n, o]) => {
+    if (o === null) {
+      fail(`unit ${String(n).padStart(2,'0')}: cycle 7 declares no ordinal — the drift begins at the cycle that OMITS the claim, not at the one that gets it wrong`);
+    } else if (ORD[n - 1] !== o) {
+      fail(`unit ${String(n).padStart(2,'0')}: cycle 7 says "${o}" but is unit ${n} (${ORD[n-1]})`);
+    }
+  });
+}
+
+// ---- lexis collisions across the book --------------------------------------
+function checkLexis(sets) {
+  const all = [];
+  Object.entries(sets).forEach(([u, line]) => {
+    // split on the middle dot; never on an underscore, which truncates the last item
+    line.split('·').map(x => x.trim().toLowerCase()).filter(Boolean)
+        .forEach(w => all.push([w, u]));
+  });
+  const byWord = {};
+  all.forEach(([w, u]) => (byWord[w] = byWord[w] || []).push(u));
+  Object.entries(byWord).filter(([, us]) => us.length > 1)
+    .forEach(([w, us]) => fail(`lexis "${w}" appears in units ${us.join(', ')}`));
+  return all.length;
+}
+
+const dir = __dirname;
+const want = process.argv.slice(2);
+const units = fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f))
+  .filter(f => !want.length || want.includes(f.match(/\d\d/)[0])).sort();
+const keys = fs.readdirSync(dir).filter(f => /^ak\d\d\.js$/.test(f))
+  .filter(f => !want.length || want.includes(f.match(/\d\d/)[0])).sort();
+
+console.log(`checking ${units.length} unit(s) and ${keys.length} key(s)`);
+const lexis = {};
+units.forEach(f => {
+  const s = fs.readFileSync(path.join(dir, f), 'utf8');
+  const lx = checkUnit(f, s, parseInt(f.match(/\d\d/)[0], 10));
+  if (lx) lexis[f.match(/\d\d/)[0]] = lx;
+});
+keys.forEach(f => {
+  const n = f.match(/\d\d/)[0];
+  const up = path.join(dir, `unit${n}.js`);
+  checkKey(f, fs.readFileSync(path.join(dir, f), 'utf8'),
+           fs.existsSync(up) ? fs.readFileSync(up, 'utf8') : null);
+});
+if (units.length) checkOrdinals(units.map(f => path.join(dir, f)));
+const nLex = checkLexis(lexis);
+console.log(`-- ${nLex} lexis item(s) declared; ${faults} fault(s)`);
+process.exit(faults ? 1 : 0);

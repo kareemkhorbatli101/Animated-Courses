@@ -70,9 +70,38 @@ every unit, and the harness asserts it.**
 | A2 Book 1 (Units 1–12) | **31** | 17–22 | — | — |
 | A2 Book 2 (Units 13–24) | **31–33** | 18–22 | **394** | **270** |
 
-These are the **starting** bands for this book. ⚠ Per the bible, they are a projection
-until Unit 1 of *this* book is rendered and measured, and the measurement replaces them.
-**Hold the band; do not aim at its midpoint.**
+### ⚠ Superseded by measurement — Phase 0, Unit 1
+
+The band above is the bible's **recorded** figure for the general A2. It does not
+reproduce in this container. Rebuilding the general A2's *own* `unit01.js` / `ak01.js`
+here, unchanged, renders **28 SB / 16 AK** against the bible's recorded 31 / 17–22, so
+the recorded band is renderer-dependent and cannot be used as a target. The only usable
+comparison is like-for-like in this container, and that is what Phase 0 measured:
+
+| Unit 1, built here | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| General Proactive English A2 Book 1 (the series source) | 28 | 16 |
+| **Proactive Business English A2 Book 1 (this book)** | **29** | **15** |
+
+The Student's Book sits one page above the series source and carries more in it — 8,904
+words against 7,746, and 38 tables against 30 — so the extra page is content, not
+padding. The Answer Key first rendered **13**, three short of the source's 16. The gap
+was not missing substance: coverage was already complete (96 key stages against the
+source key's 95; every one of the 89 Student's Book stages answered) and the key was the
+wordier of the two (4,500 against 4,272). It was a **missed house convention** — the
+series key opens every cycle after the first on a fresh page (`pb()` × 6), and this key
+ran continuously. With the six breaks restored it renders **15**.
+
+Two rules were added to `qa.js` so neither fault can ship again, and both were proved to
+bite by breaking the key on purpose before restoring it:
+
+* `pb()` in a key must equal *(cycles − 1)* — the fresh-page convention, asserted;
+* every stage code in a Student's Book cycle must have a key entry **in that same
+  cycle** — coverage per cycle, not a count across the file, which is the bible's
+  recorded "a house count that passes an empty list" fault in its key-shaped form.
+
+**The band to hold for Units 2–12 is therefore SB 29 ± 2, AK 15 ± 2, measured in this
+container.** Hold the band; do not aim at its midpoint.
 
 ## 4 · Tests and word counts, as built at A2
 
@@ -516,7 +545,7 @@ The book is correct when all **fourteen** hold.
 7. Peer-review bands follow the four-band progression, unchanged.
 8. **The grammar ladder matches the general A2 unit for unit**, so the two books are interchangeable within a level.
 9. **No lexical item repeats across the 24 units.** Checked in the source with `tr '·' '\n' … sort | uniq -d` — ⚠ never with a `sed` that strips at the first underscore, which drops the last item of every set and has let two collisions through before.
-10. Page bands: SB **31 / 31–33**, AK **17–22 / 18–22** — ⚠ replaced by measurement after Unit 1.
+10. Page bands: ⚠ the bible's SB **31**, AK **17–22** does not reproduce in this container and is **superseded** — the measured Phase 0 band is **SB 29 ± 2, AK 15 ± 2** (§3).
 11. **Ordinal continuity**: every cycle 7 that names its place in a series is grepped across the whole book whenever a unit is added, and again before the book closes. ⚠ This fault has shipped at three levels in a row and is the series' most reliable defect; the drift begins at **the cycle that omits the claim**, so check the sequence for gaps, not just the numbers present.
 12. **Dialogue integrity**: no speaker asks a question and answers it himself; no speaker outside the cast; consecutive same-speaker turns reported for a human decision. ⚠ Found at C1 Book 2 in eleven exchanges across four units, and no word-count check can see it.
 13. Every unit and key script ends with **both** `module.exports = out;` **and** the `require.main` build line — without the second the build writes no file and exits silently.
