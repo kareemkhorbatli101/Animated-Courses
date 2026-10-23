@@ -109,6 +109,87 @@ def u3():
     ]
 
 
+# ------------------------------------------------------------------ Unit 4
+@unit(4)
+def u4():
+    return [
+        ("fig-04-1", A.icon_row(
+            [("ledger", "the log"), ("doc", "the report"),
+             ("monitor", "the dashboard"), ("envelope", "the alert")],
+            None)),
+        ("fig-04-2", A.comparison_bars(
+            [("help desk", 0.60, "60%"), ("reception", 0.30, "30%"),
+             ("accounts", 0.11, "11%"), ("rear office", 0.04, "4%")],
+            "Free space on four machines.")),
+        ("fig-04-3", A.gauges(
+            [("free space", 0.22, "per cent"), ("backup age", 0.70, "hours"),
+             ("failed sign-ins", 0.90, "last night")],
+            "Read each gauge and write the value.")),
+        ("fig-04-4", A.three_groups(
+            [("In range", ["free space 55%", "backup 6 hours", "3 failed sign-ins"]),
+             ("Too low", ["free space 4%", "no backup today", "no alerts at all"]),
+             ("Too high", ["41 failed sign-ins", "7 missing updates",
+                           "backup 9 days old"])],
+            "A reading means little until you know its range.")),
+    ]
+
+
+# ------------------------------------------------------------------ Unit 5
+@unit(5)
+def u5():
+    return [
+        ("fig-05-1", A.icon_row(
+            [("phone", "the help desk"), ("tower", "the bench"),
+             ("disk", "the store"), ("doc", "the manager’s desk")],
+            None)),
+        ("fig-05-2", A.doc_mockup(
+            "TICKET 214", [("Reported by", "Mr Aboud, accounts"),
+                           ("Logged", "14 March, 16:05"),
+                           ("Priority", "urgent"),
+                           ("Investigated by", "Nabil"),
+                           ("Fix tested", ""),
+                           ("Closed", "")],
+            "Every step is written on the ticket as it happens.")),
+        ("fig-05-3", A.ordering(
+            ["The fix is tested.", "The problem is investigated at the bench.",
+             "The ticket is closed.", "The problem is logged and given a priority."],
+            "Number the steps in the correct order.")),
+        ("fig-05-4", A.process_chain(
+            ["reported", "logged", "investigated", "fixed", "tested", "closed"],
+            None)),
+    ]
+
+
+# ------------------------------------------------------------------ Unit 6
+@unit(6)
+def u6():
+    return [
+        ("fig-06-1", A.icon_row(
+            [("shield", "install updates"), ("disk", "test the backup"),
+             ("ledger", "review accounts"), ("monitor", "check free space")],
+            None)),
+        ("fig-06-2", A.grammar_contrast(
+            ("Requests and offers",
+             ["Could you sign out, please?", "Would you bring the laptop?",
+              "Shall I run the update now?"]),
+            ("Advice",
+             ["You should change that password.", "You shouldn’t keep one copy.",
+              "That one can wait a month."]),
+            "Asking, offering and advising.")),
+        ("fig-06-3", A.two_person_scene(
+            ("Nabil, officer", ["The backup has not", "finished for three weeks."]),
+            ("Mr Aboud, head", ["Is that urgent?", "And what can wait?"]),
+            None)),
+        ("fig-06-4", A.three_groups(
+            [("Every week", ["free space", "backup age", "alerts"]),
+             ("Every month", ["install updates", "review accounts",
+                              "restore one file"]),
+             ("Every year", ["full restore test", "check every licence",
+                             "who can open what"])],
+            None)),
+    ]
+
+
 def main():
     want = [int(a) for a in sys.argv[1:]] or sorted(UNITS)
     for n in want:

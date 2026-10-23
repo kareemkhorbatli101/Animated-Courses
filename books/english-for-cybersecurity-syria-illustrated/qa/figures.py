@@ -89,6 +89,8 @@ def main():
                         print(f"  {name}: text overlaps: "
                               f"{boxes[i][0][:26]!r} / {boxes[j][0][:26]!r}")
                         faults += 1
+            import matplotlib.pyplot as plt
+            plt.close(c.fig)
             p = os.path.join(ROOT, "figures", name + ".png")
             if not os.path.exists(p):
                 print(f"  {name}: png not written"); faults += 1

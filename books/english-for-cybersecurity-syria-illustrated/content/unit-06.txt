@@ -1,0 +1,462 @@
+# Unit 6 · Routine Maintenance — Updates, Backups and Checks
+# Grammar: requests, offers and advice (modals).  Level: Low B1.
+
+@U Unit 6: Routine Maintenance — Updates, Backups and Checks
+@SUB English for Cybersecurity Personnel  ·  Level: Low B1 (the course stepped up from Upper A2 at Unit 5)  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Maintenance Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Update
+2 | Restore test
+3 | Account review
+4 | Disk check
+5 | Patch
+@END
+@LB2 Column B
+@COLB
+a | a small fix for one known fault in a program
+b | a tool for opening a machine
+c | looking at who can open what, and closing what is not needed
+d | a new version that fixes faults in a program
+e | reading how much room is left and whether the disk is healthy
+f | bringing one file back from the backup, to prove the backup works
+@END
+
+@EX Warm-up: Talking to the User
+@IW Complete the sentences using the words in the word bank.
+@WB should    |  Could    |     Shall    |    Would
+@IG 1. Your machine has not been updated for a year. You  ____________________  let us do it today.
+@IG 2.  ____________________  you sign out before you go home, please?
+@IG 3.  ____________________  I run the update for you now?
+@IG 4.  ____________________  you like us to look at the printer as well?
+
+@EX Warm-up: Reading About Maintenance
+@IW Read the text and choose the correct answer.
+@BX Routine maintenance keeps a system safe and saves money. At every visit, the updates are installed, the backup is tested, and the free space is read. Once a month the accounts are reviewed, and the ones that belong to people who have left are closed. A good officer explains what the system really needs, and never asks for work that is not needed. Honest advice builds trust, and trust is what brings a user back to the help desk early, while a problem is still small.
+@BI 1. What is done at every maintenance visit?
+@OP ○  A)  The machine is repainted
+@OP ○  B)  The desk is moved
+@OP ○  C)  The updates are installed and the backup is tested
+@OP ○  D)  A new machine is bought
+@BI 2. What does honest advice build?
+@OP ○  A)  Trust
+@OP ○  B)  Noise
+@OP ○  C)  Dust
+@OP ○  D)  Speed
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Maintenance Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Maintenance → the regular care a system needs to stay safe and working.
+@LB Column A
+@COLA
+1 | Update
+2 | Patch
+3 | Restore test
+4 | Account review
+5 | Retention
+6 | Schedule
+7 | Interval
+@END
+@LB2 Column B
+@COLB
+a | how long old copies are kept before they are deleted
+b | a plan of when each job is done
+c | a small fix for one known fault
+d | a cable for the printer
+e | a new version that fixes faults in a program
+f | the time between one check and the next
+g | bringing one file back, to prove the backup works
+h | looking at who can open what, and closing what is not needed
+@END
+@GL restore test = bringing one file back from the backup, to prove the backup works    ·    retention = how long old copies are kept before they are deleted
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 6.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR schedule — SCHE-dule
+@PR interval — IN-ter-val
+@PR retention — re-TEN-tion
+@PR maintenance — MAIN-te-nance
+@PR advise — ad-VISE
+@PR routine — rou-TINE
+
+@EX Part 1: Maintenance Jobs Table
+@IMG fig-06-1.png
+@CAP Figure 6.1  ·  The main jobs at a maintenance visit.
+@IN Complete the table. Write why we do each job. (0. is done.)
+@TBL 3400,5626
+Maintenance job | Why we do it
+* Install the updates | (example) so that known faults are fixed before they are used
+Test the backup | 
+Review the accounts | 
+Check the free space | 
+@END
+@IT 0. Install the updates — so that known faults are fixed before they are used.
+
+@EX Part 1: Jobs and Why We Do Them
+@IN Match each job with its reason. One reason is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Install the updates
+2 | Test the backup
+3 | Review the accounts
+4 | Check the free space
+5 | Clean the fans
+@END
+@LB2 Column B
+@COLB
+a | so that a full disk does not stop the backup
+b | so that a copy that does not work is found before it is needed
+c | to repaint the case
+d | so that people who have left cannot open anything
+e | so that known faults are fixed before they are used
+f | so that the machine does not run hot and fail early
+@END
+
+@EX Part 1: Maintenance — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What is a restore test?
+@OP ○  A)  Installing an update
+@OP ○  B)  Cleaning the machine
+@OP ○  C)  Checking a password
+@OP ○  D)  Bringing a file back, to prove the backup works
+@BI 2. What is a maintenance interval?
+@OP ○  A)  A type of disk
+@OP ○  B)  The time between one check and the next
+@OP ○  C)  A tool
+@OP ○  D)  A fault
+@BI 3. What does an account review do?
+@OP ○  A)  Cools the machine
+@OP ○  B)  Cleans the air
+@OP ○  C)  Closes what is not needed any more
+@OP ○  D)  Prints the records
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB updates    |  backup    |     accounts    |    schedule
+@IG 1. At every visit, the  ____________________  are installed.
+@IG 2. The  ____________________  is tested by bringing one file back.
+@IG 3. The  ____________________  of people who have left are closed.
+@IG 4. The maintenance  ____________________  says when each job is done.
+
+@EX Part 1: Write About Maintenance (short)
+@IN Write two or three sentences about the routine maintenance you do, or that is done where you work.
+@LM Model — read this first:
+@BX Every month I do the same three jobs on our server. First I install the updates, because a known fault that nobody has fixed is the easiest way into a system. Then I bring one file back from the backup, to prove that the backup really works. Last, I read the free space and write it in the sheet.
+
+@PART Part 2  ·  Grammar — Requests, Offers and Advice
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-06-2.png
+@CAP Figure 6.2  ·  Asking, offering and advising.
+@IN Read these lines. Which are requests? Which are offers? Which are advice?
+@BX Requests: Can you sign out before you leave? Could you send me the file, please? Would you bring the laptop to the bench?  ·  Offers: Shall I run the update now? Would you like us to look at the printer as well?  ·  Advice: You should change that password today. You shouldn’t keep the only copy on one disk.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+Requests | Can / Could / Would you… | asking somebody to do something | Could you sign out, please?
+Offers and advice | Shall I… / You should… | offering, or saying what is best | Shall I run the update now?
+@END
+@BR Remember: Could and Would are more polite than Can.  After should, use the base verb with no to.
+@WO ✗ You should to change the password. → ✓ You should change the password.   ✗ Shall I to run it? → ✓ Shall I run it?
+@EX Part 2: Controlled Practice
+@IN Write a request, offer, or advice, as shown. (0. is done.)
+@IT 0. (request) send the file → Could you send me the file, please?
+@IT 1. (advice) change that old password
+@IT 2. (offer) run the update now
+@IT 3. (request) bring the laptop to the bench
+@IT 4. (advice) not keep the only copy on one disk
+@EX Part 2: Choose the Modal
+@IN Choose the correct word.
+@IG 1.  ____________________  I book the update for Tuesday morning? (Shall / Should)
+@IG 2. You  ____________________  test the backup before you trust it. (should / shall)
+@IG 3.  ____________________  you sign the sheet, please? (Could / Shall)
+@IG 4. You  ____________________  open a file you did not expect. (shouldn’t / couldn’t)
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. You should to install the updates.
+@IT 2. Can you to test the backup?
+@IT 3. Shall I to close the old accounts?
+@IT 4. You should not opens a strange file.
+@EX Part 2: Freer Practice
+@IN Write one request, one offer, and one piece of advice that you could really say at work this week.
+@EX Part 2: Grammar Review
+@IN Choose the correct answer.
+@BI 1. Which is a polite request?
+@OP ○  A)  Could you sign out, please?
+@OP ○  B)  You sign out.
+@OP ○  C)  Sign out you.
+@OP ○  D)  Out sign please.
+@BI 2. Which is correct advice?
+@OP ○  A)  You should to test the backup.
+@OP ○  B)  You should test the backup.
+@OP ○  C)  You should testing the backup.
+@OP ○  D)  You should tests the backup.
+@IT → Harvest: you will see requests, offers, and advice again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: Advising the User
+@IT 🔊  Audio Track 6.2
+@IT Before you listen: what does an officer say to a user after a maintenance visit?
+@BX Rana: Mr Aboud, we’ve finished the maintenance on your machine. Everything is working, but there are two things I should tell you. Your password has not been changed for two years, and you should change it today — I can show you how, it takes a minute. The second thing can wait: the machine is slow because the disk is nearly full, and we would like to move your old files to the server. Shall I book that for next week? It takes an hour, and you can work while we do it.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Rana is advising Mr Aboud. — True
+@IF 1. The password was changed last month. ____
+@IF 2. Rana offers to move the old files next week. ____
+@IF 3. Mr Aboud cannot work while the files are moved. ____
+@IT Useful phrases: You should…  ·  Shall I…?  ·  The second thing can wait…
+@EX Part 3: Booking the Maintenance
+@IT 🔊  Audio Track 6.3
+@IT Before you listen: what does a user say when they telephone to book a visit?
+@BX Mr Aboud: Hello, I’d like to book the maintenance for the accounts machines.  Rana: Of course. How many machines, and when were they last done?  Mr Aboud: Six, and I think it was in March.  Rana: Then they are due. Would Tuesday morning suit you?  Mr Aboud: Tuesday is our busiest day. Could you make it Wednesday?  Rana: Wednesday at nine. And could you ask your staff to sign out on Tuesday evening, so we can start at once?  Mr Aboud: Yes. And could you look at the printer while you are there?
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What does Mr Aboud want? — To book the maintenance.
+@IT 1. How many machines, and when were they last done?
+@IT 2. What day is booked?
+@IT 3. What does Mr Aboud ask Rana to look at?
+@IT Useful phrases: I’d like to book…  ·  Could you…?  ·  Would … suit you?
+@EX Part 3: The Maintenance Schedule
+@IT 🔊  Audio Track 6.4
+@IT Before you listen: what is the difference between a weekly job and a yearly job?
+@BX Maher: Today I want to talk about the maintenance schedule. A weekly job is small and quick: read the free space, read the backup age, read the alerts. A monthly job takes longer: install the updates, review the accounts, and bring one file back from the backup to prove it works. A yearly job is a real piece of work: we test the whole restore, we check that every licence is still good, and we look again at who can open what. The schedule is based on how important the system is, not on how old it is. And one rule for all of them: we do not sell work the system does not need.
+@IN While you listen: match each item with the description. One is not needed. (0. is done.)
+@IT 0. A weekly job → read the free space, the backup age and the alerts.
+@LB Column A
+@COLA
+1 | A monthly job
+2 | A yearly job
+3 | The schedule
+4 | Our rule
+@END
+@LB2 Column B
+@COLB
+a | is based on how important the system is
+b | test the whole restore and check every licence
+c | buy a new machine every year
+d | we don’t sell work the system does not need
+e | install the updates and review the accounts
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Maintenance
+@IN Work with a partner. Ask and answer these questions.
+@IF What jobs are done at a monthly maintenance visit?
+@IF Why should an officer give honest advice about what is needed?
+@IF How do you politely tell a user that their machine is too old?
+@BX Useful language: You should…  ·  Shall I…?  ·  Could you…?  ·  It can wait, but…
+@EX Part 4: Find the Difference
+@IN Work in pairs. Student A looks at Visit A; Student B looks at Visit B. Ask and answer to find four differences. Do not show your card.
+@BX Card A — A weekly visit: free space read  ·  backup age read  ·  alerts read  ·  no update installed  ·  no accounts reviewed.
+@BX Card B — A monthly visit: free space read  ·  updates installed  ·  accounts reviewed  ·  one file restored from the backup  ·  licences checked.
+@IT Useful questions: Are the updates installed?  ·  Is the backup tested?  ·  Which visit is longer?
+@EX Part 4: Advising a User Role Play
+@IMG fig-06-3.png
+@CAP Figure 6.3  ·  An officer advises a department head.
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Officer: Your password hasn’t been changed for two years; you should change it today. — User: Is it urgent? — Officer: Yes, that one is. The slow disk can wait until next week. Shall I book an hour for it?
+@BX Card A — Officer: give advice about two jobs, say which is urgent and which can wait, and offer to book the second. Card B — Department head: ask why, ask how long it takes, and ask whether your staff can work during it.
+@TRK Stretch [PR]: the user wants only the cheap job done and refuses the urgent one — answer without frightening them and without agreeing.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Explain the maintenance schedule of a system you know: what is done weekly, monthly and yearly.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: Routine Maintenance and Honest Advice
+@IMG fig-06-4.png
+@CAP Figure 6.4  ·  A maintenance schedule: weekly, monthly and yearly.
+@IT Before you read: is it more important for an officer to be fast, or to be honest?
+@GL routine = regular, done again and again at the same interval    ·    due = ready to be done, because the interval has passed    ·    trust = believing that somebody will tell you the truth
+@BX Routine maintenance is the regular care that keeps a system safe and working. It is not exciting work, and that is exactly why it is skipped. The schedule is based on how important the system is, not on how old it is: the machine that holds the staff records is checked every month even if it is new, and the spare machine in the store is checked twice a year even if it is ancient. At every monthly visit the updates are installed, the accounts are reviewed, and one file is brought back from the backup, because a backup nobody has tested is only a hope. A good officer also knows what not to do. There is always a temptation to recommend a new machine when an hour of work would do, or to ask for a bigger disk when the real problem is ten years of films somebody saved on the server. An officer who says plainly “this does not need replacing yet” is worth a great deal to a company, because the next time that officer says “this does need replacing”, the manager believes it. Honest advice builds trust, and trust is what brings a user to the help desk on the first day of a problem instead of the tenth.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What keeps a system safe and working? — routine maintenance.
+@BI 1. What is the maintenance schedule based on?
+@OP ○  A)  The colour of the machine
+@OP ○  B)  The price
+@OP ○  C)  The user’s age
+@OP ○  D)  How important the system is
+@BI 2. What does a good officer never do?
+@OP ○  A)  Ask for work the system does not need
+@OP ○  B)  Install updates
+@OP ○  C)  Test the backup
+@OP ○  D)  Give advice
+@BI 3. What does honest advice build?
+@OP ○  A)  Noise
+@OP ○  B)  Trust
+@OP ○  C)  Dust
+@OP ○  D)  Speed
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | schedule
+2 | due
+3 | restore
+4 | routine
+@END
+@LB2 Column B
+@COLB
+a | ready to be done, because the interval has passed
+b | a plan of when each job is done
+c | a tool for opening a machine
+d | regular, done again and again
+e | to bring the files back from a copy
+@END
+@EX Part 5: Honest Maintenance in Damascus
+@IT Before you read: why is a trusted officer so valuable to a small company?
+@GL tight = not much (money)    ·    word of mouth = people telling each other about good work
+@BX In Damascus, many companies keep the same machines for eight or ten years, because new ones are expensive and hard to import. Money is tight, and every company has heard a story about somebody who was sold three new computers and a server they did not need. Maher’s rule at Cham Systems is simple: recommend only the work the system really needs, and say plainly when something can wait. Last spring a company came to him after another firm had told them their whole system had to be replaced, at a price that would have taken their profit for a year. Lina spent one afternoon with the machines and found the real problem: a single failing disk in the server, and a backup that had quietly stopped eleven months before. The disk cost very little. She replaced it, restarted the backup, and tested it in front of the owner. Cham Systems earned almost nothing that day. But that company has sent four other businesses to Maher since, and in Damascus, word of mouth is worth more than any advertisement.
+@IN Write True or False. (0. is done.)
+@IT 0. In Damascus, many companies keep the same machines for years. — True
+@IF 1. Maher’s rule is to recommend as much work as possible. ____
+@IF 2. The real problem was one failing disk and a stopped backup. ____
+@IF 3. Honest work brought Maher more customers. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Advise a User (50–70 words)
+@IN Write to a user after a maintenance visit. Give advice, and offer one thing.
+@LM Model — read this first:
+@BX Dear Mr Aboud, Thank you for your time this morning. The maintenance is finished and everything is working. There is one thing you should do today: your password has not been changed for two years, and I can show you how in a minute. The slow disk can wait. Shall I book an hour next Wednesday to move your old files to the server? Rana.
+@BI Plan (fill in, then write): Thank you… The maintenance is… You should… The other thing can… Shall I…?
+@WB You should…    |  Shall I…?    |  Could you…?    |  it can wait    |  it takes an hour
+@BC Check before you finish: ☐ advice (should) used?  ☐ an offer (Shall I) used?  ☐ 50–70 words?
+@EX Part 6: Why Honest Maintenance Matters (50–70 words)
+@IN Write why honest maintenance advice is important. Give reasons.
+@LM Model — read this first:
+@BX Honest advice is important because a company has only so much money, and it should be spent where it does the most good. If an officer asks for a new server every year, nobody believes him on the day the server really is dying. Saying “this can wait” costs nothing today and is worth a great deal later, when something cannot wait.
+@WB … is important because…    |  only the work that is needed    |  nobody believes…    |  it costs nothing today    |  trust
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Maintenance Note (50–70 words)
+@IN Write a short note from the officer to the help desk about what was done and what is still needed.
+@LM Model — read this first:
+@BX I have finished the monthly maintenance on the six accounts machines. The updates are installed and the accounts have been reviewed; two belonged to people who left last year and are now closed. I restored one file from Tuesday’s backup and it opened correctly. One machine still needs a disk; it is at eight per cent free. Could you add it to next week’s list? Nabil.
+@BI Plan (fill in, then write): I have finished ___. The ___ are ___. I tested ___. One machine still needs ___. Could you ___?
+@BC Check before you finish: ☐ clear advice + a request?  ☐ what was really done?  ☐ 50–70 words?
+@EX Part 6: Reflection — Honest Advice (40–60 words)
+@IN Write about a time somebody gave you honest advice, when it would have been easier not to.
+@LM Model — read this first:
+@BX When my laptop stopped last year, the shop could have sold me a new one and I would have bought it. Instead the man opened it, cleaned the fan and told me it had three or four years left. He charged me very little. I have been back to him twice since, and I have sent my brother to him too.
+@BC Check before you finish: ☐ a clear story?  ☐ modals used?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Approving a Maintenance Quote
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what an officer or manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “Your password is two years old; you should change it today.”
+2 | “Shall I book an hour next Wednesday?”
+3 | “Could you sign the sheet, please?”
+4 | “That one can wait until next month.”
+@END
+@LB2 Column B
+@COLB
+a | offering to do something
+b | giving honest advice
+c | asking about the price
+d | making a polite request
+e | saying what is not urgent
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 6.5
+@IT Before you read: how does a manager approve a maintenance quote?
+@BX Rana: Mr Aboud, the maintenance is done, but we found two things.  Maher: Tell him both, and which is which.  Rana: The first is the backup: it has not finished properly for three weeks. That one should be fixed this week.  Mr Aboud: And the second?  Rana: Six machines are two years behind on updates. That is real work — about a day — and it can wait until the end of the month, but not longer.  Mr Aboud: And the price?  Maher: For the backup, almost nothing; it is two hours of Nabil’s time. For the updates, one day. Shall we book the backup for Thursday and put the updates in the month-end plan?  Mr Aboud: Yes. Do the backup first.
+@IN Answer the questions. (0. is done.)
+@IT 0. What did they find? — A backup that has not finished, and machines behind on updates.
+@IT 1. Which job is urgent?
+@IT 2. Which job can wait, and how long?
+@IT 3. What does Mr Aboud decide?
+@EX 7C: Controlled Practice — Talking to the User
+@IN Complete with should, Shall, Could, or shouldn’t.
+@WB should    |  Shall    |     Could    |    shouldn’t
+@IG 1. The backup has not finished for three weeks. You  ____________________  let us fix it this week.
+@IG 2.  ____________________  I book Thursday morning for it?
+@IG 3.  ____________________  you ask your staff to sign out on Wednesday evening?
+@IG 4. You  ____________________  wait another month for the updates.
+@EX 7D: Role-Play — Approving the Quote
+@IN In pairs. One is the officer or manager; one is the department head. Use the model and the cards.
+@BX Model exchange: Officer: The backup hasn’t finished for three weeks; that should be fixed this week. — Head: And the updates? — Officer: Real work, about a day. It can wait until month end, but not longer. Shall I book both?
+@BX Card A — Officer/Manager: advise which job is urgent and which can wait, give the time each takes, and offer to book them. Card B — Department head: ask why, ask the cost, and say your staff cannot stop on Tuesday.
+@TRK Stretch [PR]: the department cannot pay for both this month — advise which one to do, and say what the risk of waiting really is.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short maintenance recommendation for a department head, saying what is urgent and what can wait.
+@LM Model — read this first:
+@BX Dear Mr Aboud, After this month’s visit we recommend two pieces of work. First, and this week: your backup has not finished properly for three weeks, so there is no usable copy of your files. It is two hours of work. Second, by month end: six machines are two years behind on updates, which is one full day. Nothing else needs doing. Shall we book both? Maher Khoury.
+@BC Check before you finish: ☐ what is urgent + what can wait?  ☐ the time each takes?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — The Maintenance Plan That Kept Customers
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: why do some companies only call for help when something has already broken?
+@GL maintenance plan = paying a fixed price for regular care    ·    unplanned = happening suddenly, with no warning    ·    downtime = time when people cannot work
+@BX An IT company once lost many customers, and it could not understand why: its engineers were good, and they always came quickly when they were called. The new manager looked at two years of records and saw the pattern. Every customer they had lost had called them three or four times in a panic, with something badly broken, and had paid a large bill each time. The customers did not blame the engineers; they simply felt that the company only appeared when it was expensive. So the manager offered something new: a maintenance plan at a fixed price each month, which included the updates, a tested backup, an account review, and one visit a quarter whether anything was wrong or not. The first year was harder work for less money. But unplanned downtime among those customers fell by about two thirds, the panic calls nearly stopped, and almost none of them left. The manager said afterwards that they had started selling the thing customers actually wanted, which was not repairs: it was not having to think about it.
+@IN Answer the questions. (0. is done.)
+@IT 0. What did the manager offer? — A maintenance plan at a fixed price.
+@IT 1. What was the problem before?
+@IT 2. What did the maintenance plan include?
+@IT 3. What did the manager say they had started selling?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | maintenance plan
+2 | schedule
+3 | routine
+4 | downtime
+@END
+@LB2 Column B
+@COLB
+a | a plan of when each job is done
+b | paying a fixed price for regular care
+c | time when people cannot work
+d | a new machine
+e | regular, done again and again
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “A maintenance plan is good because…”  ·  “In Syria the difficulty would be…”  ·  “Customers really want…”  ·  “A fixed price each month means…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Only the Work the System Needs
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: why might a company be worried when it is told its whole system must be replaced?
+@BX A young accountant, Samer, runs a small firm in Aleppo with five machines and one old server. Another company told him the server was finished and that he needed a new one, three new machines and a new licence for everything — a price that would have taken a year of his profit. He came to Cham Systems for a second opinion, expecting to be told the same thing. Lina spent an afternoon with the machines. The server was not finished: one disk in it had failed, and the machine had been running on the second disk alone for months, which is why it was slow. The backup had stopped at the same time, and nobody had seen the message. She replaced the disk, restarted the backup, restored a file in front of Samer to show that it worked, and told him the server had three or four more years in it. The bill was small. Samer has since sent four other businesses to Cham Systems, and he has never once asked for a cheaper price.
+@IN Answer the questions. (0. is done.)
+@IT 0. Whose firm was it? — A young accountant, Samer, in Aleppo.
+@IT 1. What did the other company tell Samer?
+@IT 2. What did Lina find?
+@IT 3. Why is honesty good business in Syria?
+@EX Part 9: Decision Task
+@IN A company’s system has a small, cheap problem, but the manager has already decided to buy everything new. Should the officer (a) do the cheap repair and say so, (b) sell the new system the manager has asked for, or (c) do the repair and offer a plan for replacing the machines slowly? Choose one and give reasons.
+@BX Answer frame: “I think the officer should ___ because ___. The manager really needs ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the officer should do the repair and offer a plan for replacing the machines slowly, because the real problem is cheap to fix today, but the machines are old and will need replacing some time. The manager really needs to know what is urgent and what is not. This is better than simply selling the new system, because he would be spending a year of profit for nothing.
+@BX Phrase bank: I think… should…  ·  because…  ·  The manager really needs…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. Bringing one file back to prove the backup works is a restore test.
+@WB patch    |  retention    |     Could    |    should    |    logged
+@IG 1. A small fix for one known fault is a  ____________________ .
+@IG 2. How long old copies are kept before they are deleted is  ____________________ .
+@IG 3. “ ____________________  you sign the sheet, please?”
+@IG 4. “You  ____________________  change that password today.”
+@IG 5. When a problem arrives at the help desk, it is  ____________________  and given a number.
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main routine-maintenance jobs and say why we do them.
+@IT ☐ I can make polite requests and offers, and give advice with should.
+@IT ☐ I can understand a conversation with a user about what is urgent.
+@IT ☐ I can advise a user honestly in writing.
+@IT ☐ I can approve a maintenance quote with a department head (Practitioner).
+@EX Part 10: Glossary
+@LG Unit 6 glossary (10 words)
+@BG update  ·  patch  ·  restore test  ·  account review  ·  retention  ·  schedule  ·  interval  ·  routine  ·  due  ·  downtime
+@PB

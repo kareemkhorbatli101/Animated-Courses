@@ -51,7 +51,7 @@
 @IMG    (540x150)
 @CAP    5.2 · The departments of a service centre.
 @IN     the table. Write what happens in each department. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     Reception — the car is booked in and handed over.
 @EX     1: Departments and Their Jobs
 @IN     each department with its job. One job is not needed. Write the letter.

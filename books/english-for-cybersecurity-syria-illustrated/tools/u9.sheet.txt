@@ -51,7 +51,7 @@
 @IMG    (540x143)
 @CAP    9.2 · The fault-finding steps.
 @IN     the table. Write what happens at each step. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     Look at the symptoms — the mechanic notices a noise or a light.
 @EX     1: Fault-Finding Actions
 @IN     each action with its meaning. One meaning is not needed. Write the letter.

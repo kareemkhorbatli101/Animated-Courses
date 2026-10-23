@@ -51,7 +51,7 @@
 @IMG    (540x150)
 @CAP    7.2 · From booking to handover.
 @IN     the table. Write when each task happens. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     Make an appointment — before the car comes in.
 @EX     1: The Steps of an Order
 @IN     each step with what happens. One is not needed. Write the letter.

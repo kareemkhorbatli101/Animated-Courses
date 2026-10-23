@@ -51,7 +51,7 @@
 @IMG    (540x143)
 @CAP    10.2 · Information flows in every direction.
 @IN     the table. Write what each person or group tells the department. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     The customer — tells us their feedback.
 @EX     1: Reporting Verbs
 @IN     each verb with its meaning. One meaning is not needed. Write the letter.

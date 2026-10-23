@@ -51,7 +51,7 @@
 @IMG    (540x150)
 @CAP    6.1 · The main jobs at a full service.
 @IN     the table. Write why we do each job. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     Change the oil — to keep the engine parts moving smoothly.
 @EX     1: Service Jobs and Why We Do Them
 @IN     each job with its reason. One reason is not needed. Write the letter.

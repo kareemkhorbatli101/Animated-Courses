@@ -51,7 +51,7 @@
 @IMG    (540x150)
 @CAP    8.2 · The rules of a quality check.
 @IN     the table. Write why we do each quality step. (0. is done.)
-@COLB   rows=5
+@TBL 3400,5626   rows=5
 @IT     Road test — to make sure the car is safe to drive.
 @EX     1: Quality Rules and Reasons
 @IN     each rule with its reason. One reason is not needed. Write the letter.

@@ -34,7 +34,7 @@ for ln in out.splitlines():
         cols = re.findall(r'<w:gridCol w:w="(\d+)"', toks[i])
         if kind == "T_COLA" and cols == ["700", "3300", "1200"]:
             print(f"@COLA   rows={rows}")
-        elif kind == "T_COLB":
+        elif kind == "T_COLB" and cols == ["700", "8326"]:
             print(f"@COLB   rows={rows}")
         elif kind == "T_GRAM":
             print(f"@GRAM {','.join(cols)}   rows={rows}")

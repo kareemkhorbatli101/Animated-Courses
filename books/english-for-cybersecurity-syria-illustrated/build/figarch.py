@@ -136,7 +136,7 @@ def gauges(items, caption, h=440):
     c = Canvas(h, cap=bool(caption))
     n = len(items)
     step = W / n
-    cy = 230
+    cy = 252
     for i, (label, frac, reading) in enumerate(items):
         x = step * (i + 0.5)
         c.circ(x, cy, 86, fill=PALE)
@@ -150,9 +150,10 @@ def gauges(items, caption, h=440):
         a = math.radians(210 - frac * 240)
         c.line(x, cy, x + 58 * math.cos(a), cy + 58 * math.sin(a), color=RED, lw=3.0)
         c.circ(x, cy, 7, fill=NAVY, edge=NAVY, lw=1.0)
-        c.T(x, cy - 50, reading, size=19, color=NAVY2, maxw=120)
+        # the unit sits clear below the dial, never across its rim
+        c.T(x, cy - 118, reading, size=19, color=NAVY2, maxw=step - 40)
         c.T(x, cy + 112, label, size=21, weight="bold", maxw=step - 30)
-        c.answer_line(x - 70, 86, 140)
+        c.answer_line(x - 70, c.y0 + 74, 140)
     c.caption(caption)
     return c
 

@@ -1,0 +1,463 @@
+# Unit 4 · Checking, Readings and Diagnosis
+# Grammar: comparatives and superlatives.  Level: Upper A2.
+
+@U Unit 4: Checking, Readings and Diagnosis
+@SUB English for Cybersecurity Personnel  ·  Level: Upper A2 (the course moves to Low B1 from Unit 6)  ·  Tracks: [OP] Warm-Up + Parts 1–6  ·  [PR] Parts 7–10
+
+@WARM Warm Up
+@TRK [OP] Operator track  ·  in-class starter
+@EX Warm-up: Checking Words
+@IW Match the words with their meanings. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Reading
+2 | Log
+3 | Report
+4 | Alert
+5 | Range
+@END
+@LB2 Column B
+@COLB
+a | a message the system sends when something is wrong
+b | a strong stand that holds a machine
+c | the numbers that are allowed, from the lowest to the highest
+d | a number you read from a machine or a program
+e | the list the machine writes of everything that happens
+f | a page of numbers that somebody reads every week
+@END
+
+@EX Warm-up: Checking the Numbers
+@IW Complete the sentences using the words in the word bank.
+@WB log    |  reading    |     alert    |    report
+@IG 1. Write the  ____________________  from the disk check in the sheet.
+@IG 2. The  ____________________  shows who signed in and when.
+@IG 3. The system sent an  ____________________  at two o’clock this morning.
+@IG 4. Maher reads the weekly  ____________________  every Sunday.
+
+@EX Warm-up: Reading About Checking
+@IW Read the text and choose the correct answer.
+@BX A good officer checks carefully. He reads the free space on each disk, the age of the last backup, and the number of failed sign-ins. Then he writes the numbers down. A number on its own means very little. A number next to last week’s number means a great deal, because it shows whether the problem is getting better or worse. Every reading has a tolerance: the range that is allowed.
+@BI 1. What does the officer read on each machine?
+@OP ○  A)  The price
+@OP ○  B)  The colour
+@OP ○  C)  The free space, the backup age and the failed sign-ins
+@OP ○  D)  The name of the user
+@BI 2. What does ‘tolerance’ mean?
+@OP ○  A)  The colour
+@OP ○  B)  The price
+@OP ○  C)  The weight
+@OP ○  D)  The range that is allowed for a reading
+
+@PART Part 1  ·  Vocabulary and Terminology
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 1: Checking and Diagnosis Terms
+@IN Match the words with their meanings. One meaning is not needed. (0. is done for you.)
+@IT 0. Log → the list the machine writes of everything that happens.
+@LB Column A
+@COLA
+1 | Free space
+2 | Backup age
+3 | Failed sign-in
+4 | Tolerance
+5 | Alert
+6 | Baseline
+7 | Diagnosis
+@END
+@LB2 Column B
+@COLB
+a | how long ago the last copy of the files was made
+b | the normal reading, measured when everything is well
+c | finding out what is really wrong
+d | a cable for the printer
+e | how much room is left on a disk
+f | a message the system sends when something is wrong
+g | the range that is allowed for a reading
+h | a try to open an account that did not work
+@END
+@GL tolerance = the range that is allowed for a reading    ·    baseline = the normal reading, measured when everything is well
+
+@EX Part 1: Pronunciation
+@LB 🔊  Audio Track 4.1
+@IN Listen and practise these words. Say each word aloud and stress the loud syllable (CAPITALS).
+@PR reading — REA-ding
+@PR tolerance — TOL-er-ance
+@PR baseline — BASE-line
+@PR diagnosis — di-ag-NO-sis
+@PR measure — MEA-sure
+@PR alert — a-LERT
+
+@EX Part 1: Readings Table
+@IMG fig-04-1.png
+@CAP Figure 4.1  ·  Where the numbers come from.
+@IN Complete the table. Write the unit and where you read it for each check. (0. is done.)
+@TBL 3026,2900,3100
+Check | Unit | Where you read it
+* Free disk space | per cent or gigabytes | (example) on the machine itself
+Backup age |  | 
+Failed sign-ins |  | 
+Missing updates |  | 
+@END
+@IT 0. Free disk space — per cent or gigabytes — on the machine itself.
+
+@EX Part 1: Readings and What They Tell You
+@IN Match each reading with what it tells you. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | Low free space
+2 | Old backup
+3 | Many failed sign-ins
+4 | Many missing updates
+5 | No alert for a week
+@END
+@LB2 Column B
+@COLB
+a | somebody is trying passwords, or a user has forgotten theirs
+b | the backup may have stopped and nobody noticed
+c | the machine has known faults nobody has fixed
+d | the printer is out of paper
+e | the copy of the files is too old to be useful
+f | either all is well, or the alerts are not arriving
+@END
+
+@EX Part 1: Checking — Multiple Choice
+@IN Read and choose the correct answer.
+@BI 1. What unit is free disk space measured in?
+@OP ○  A)  Millimetres
+@OP ○  B)  Volts
+@OP ○  C)  Per cent or gigabytes
+@OP ○  D)  Degrees
+@BI 2. What does a baseline do?
+@OP ○  A)  It shows the normal reading, so you can see a change
+@OP ○  B)  It lifts the machine
+@OP ○  C)  It turns the screen off
+@OP ○  D)  It cools the server
+@BI 3. What is ‘tolerance’?
+@OP ○  A)  A type of cable
+@OP ○  B)  The range that is allowed for a reading
+@OP ○  C)  A machine part
+@OP ○  D)  A program
+@EX Part 1: Vocabulary Fill-in
+@IN Complete the sentences with the correct word.
+@WB free space    |  backup    |     sign-ins    |    baseline
+@IG 1. Check the  ____________________  on the server before the weekend.
+@IG 2. If the  ____________________  is three days old, something has stopped.
+@IG 3. Forty failed  ____________________  in one hour is not normal.
+@IG 4. Measure the  ____________________  when everything is working well.
+
+@EX Part 1: Write About Checking (short)
+@IN Write two or three sentences about what you check on a machine or a system. Use three words from this unit.
+@LM Model — read this first:
+@BX Every Monday I check three numbers on the server. First, the free space: this week it is thirty per cent, which is lower than last week. Then the backup age: six hours, and that is good. Last, the failed sign-ins. Forty in one hour is much higher than our baseline, so I wrote it in the report for Maher.
+
+@PART Part 2  ·  Grammar — Comparatives and Superlatives
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 2: Notice
+@IMG fig-04-2.png
+@CAP Figure 4.2  ·  Comparing free space on four machines.
+@IN Read these lines from a weekly check. Underline the comparatives and superlatives. Which ones compare two things, and which compare them all?
+@BX This machine is slower than that one. The server has more free space than the help-desk machine. The reception machine is the slowest of the four. Today’s reading is lower than yesterday’s. The rear office has the oldest backup in the building, and that is the worst of our problems this week.
+@EX Part 2: Grammar Focus Box
+@GRAM 1700,2450,2200,2676
+ | Form | Use | Example
+Comparative | -er + than / more + than | comparing two things | This disk is fuller than that one.
+Superlative | the -est / the most | comparing three or more | This is the fullest disk of all.
+@END
+@BR Remember: Short adjective + -er / -est (low → lower → the lowest).  Long adjective + more / the most (more careful).
+@WO ✗ gooder / more good → ✓ better / the best.   ✗ lower as yesterday → ✓ lower than yesterday.
+@EX Part 2: Controlled Practice
+@IN Write the comparative form. (0. is done.)
+@IT 0. This disk is fuller than that one. (full)
+@IT 1. The rear office machine is ___ (slow) than the help-desk machine.
+@IT 2. Today’s reading is ___ (low) than yesterday’s.
+@IT 3. A new backup is ___ (good) than an old one.
+@IT 4. This week’s number is ___ (bad) than last week’s.
+@EX Part 2: Superlatives
+@IN Write the superlative form. (0. is done.)
+@IT 0. Of the four machines, the reception one is the slowest. (slow)
+@IT 1. This is the ___ (low) reading of all.
+@IT 2. This is the ___ (good) backup we have.
+@IT 3. That is the ___ (bad) machine in the office.
+@IT 4. The rear office has the ___ (old) backup of the four.
+@EX Part 2: Correct the Sentence
+@IN Each sentence has one grammar mistake. Write the correct sentence.
+@IT 1. This machine is more worse than that one.
+@IT 2. The reading is lower as yesterday.
+@IT 3. This is the most low reading.
+@IT 4. A new backup is gooder than an old one.
+@EX Part 2: Freer Practice
+@IN Compare two machines or two readings you know. Write one comparative sentence and one superlative sentence.
+@EX Part 2: Grammar Review
+@IN Choose the correct sentence.
+@BI 1. Which sentence is correct?
+@OP ○  A)  This disk is fuller that that one.
+@OP ○  B)  This disk is fuller than that one.
+@OP ○  C)  This disk is more full than that one.
+@OP ○  D)  This disk is most full than that one.
+@BI 2. Which sentence is correct?
+@OP ○  A)  This is the lowest reading.
+@OP ○  B)  This is the most low reading.
+@OP ○  C)  This is the more low reading.
+@OP ○  D)  This is the lower reading of all.
+@IT → Harvest: you will see comparatives and superlatives again in the Part 5 reading.
+
+@PART Part 3  ·  Listening
+@TRK [OP] Operator track  ·  pre-class input  ·  scripts printed inline
+@EX Part 3: Checking the Machines
+@IT 🔊  Audio Track 4.2
+@IT Before you listen: how does an officer know that a machine needs attention?
+@BX Lina: Let me check these four machines. The help-desk machine has good free space — about sixty per cent. The reception machine has less, about thirty. The accounts machine is lower still: eleven per cent, and that is below our tolerance. The rear office machine is the worst of the four. It has four per cent free, and its backup is five days old. That is the one I will take first.
+@IN While you listen: write True, False, or Not Given. (0. is done.)
+@IT 0. Lina is checking four machines. — True
+@IF 1. The help-desk machine has the least free space. ____
+@IF 2. The rear office machine has the oldest backup. ____
+@IF 3. The machines are all five years old. ____
+@IT Useful phrases: … has more … than…  ·  the worst of the four  ·  below our tolerance
+@EX Part 3: The Weekly Report
+@IT 🔊  Audio Track 4.3
+@IT Before you listen: what numbers does a weekly report give?
+@BX Nabil: Lina, what does the report say?  Lina: The free space on the server is twenty-two per cent, which is lower than last week.  Nabil: And the tolerance?  Lina: Twenty per cent. So we are inside it, but only just.  Nabil: What about sign-ins?  Lina: Forty-one failed sign-ins on Thursday night, all on one account. That is much higher than our baseline of three or four.  Nabil: Then Thursday is the thing to look at first, not the disk.
+@IN While you listen: answer the questions. (0. is done.)
+@IT 0. What is Lina reading? — The weekly report.
+@IT 1. Is the free space higher or lower than last week?
+@IT 2. What is the tolerance?
+@IT 3. Which reading is the most unusual?
+@IT Useful phrases: lower than last week  ·  inside / outside the tolerance  ·  higher than our baseline
+@EX Part 3: Comparing Three Offices
+@IT 🔊  Audio Track 4.4
+@IT Before you listen: how does a manager decide which office to help first?
+@BX Maher: We have three offices to check this morning. Let’s compare them. The Damascus office is in the best condition: good free space, a backup from last night, no alerts. The Homs office is older, with less free space and two machines that are missing updates. The Aleppo office is the one I am worried about: its backup is nine days old, which is the worst reading on this page. All three need work, but Aleppo needs it today.
+@IN While you listen: match each office with its condition. One is not needed. (0. is done.)
+@IT 0. The Damascus office → in the best condition.
+@LB Column A
+@COLA
+1 | The Homs office
+2 | The Aleppo office
+3 | All three
+4 | None of them
+@END
+@LB2 Column B
+@COLB
+a | the oldest backup, and the worst reading on the page
+b | older, with less free space and missing updates
+c | a new building with new machines
+d | need work, but not all today
+e | are closed this week
+@END
+
+@PART Part 4  ·  Speaking
+@TRK [OP] Operator track  ·  in-class output
+@EX Part 4: Discussing Readings
+@IN Work with a partner. Ask and answer these questions.
+@IF What numbers does an officer check on a system?
+@IF Why is it important to compare all the machines, not just one?
+@IF Why must a reading be inside the tolerance?
+@BX Useful language: We check…  ·  … is more … than…  ·  the most / the worst…  ·  inside / outside the tolerance
+@EX Part 4: Find the Difference
+@IMG fig-04-3.png
+@CAP Figure 4.3  ·  Read each gauge and write the value.
+@IN Work in pairs. Student A looks at Office A; Student B looks at Office B. Ask and answer to find which office is in better condition. Do not show your card.
+@BX Card A — Office A: free space 55%  ·  backup 6 hours old  ·  2 machines missing updates  ·  4 failed sign-ins.
+@BX Card B — Office B: free space 18%  ·  backup 4 days old  ·  7 machines missing updates  ·  41 failed sign-ins.
+@IT Useful questions: How much free space?  ·  Which is older?  ·  Which office is the worst?
+@EX Part 4: Reporting Readings Role Play
+@IN Work in pairs. Read the model, then use the cards.
+@BX Model exchange: Lina: The accounts machine is fuller than the others, and the rear office is the worst of the four. — Nabil: How much free space on the worst one? — Lina: Four per cent. And its backup is five days old.
+@BX Card A — Officer: report the free space and the backup age for four machines, and say which is the worst. Card B — Manager: ask which is better, which is the worst, and what you should do first.
+@TRK Stretch [PR]: two machines need work but there is only time for one before the power goes off — say which, and why, in two sentences.
+@EX Part 4: Mini-Presentation
+@IN Prepare a short talk (about one minute). Compare two machines or two offices you know, and say which one needs attention first.
+
+@PART Part 5  ·  Reading
+@TRK [OP] Operator track  ·  pre-class input
+@EX Part 5: Why Numbers Matter in Diagnosis
+@IMG fig-04-4.png
+@CAP Figure 4.4  ·  Readings tell the story: in range, too low, too high.
+@IT Before you read: is measuring better than guessing? Why?
+@GL diagnosis = finding out what is really wrong    ·    tolerance = the range that is allowed    ·    baseline = the normal reading, measured when all is well
+@BX Modern security work is about numbers. A careful officer does not guess that a machine is slow; she reads the free space and writes it down. She does not guess that the backup is working; she reads its age in hours. Each reading has a tolerance, and a reading inside the tolerance is not news. The important thing is the comparison. One reading on one day tells you very little. The same reading next to last week’s tells you whether the problem is getting better or worse, and the same reading next to the other machines tells you which one is the worst. That is why a good officer keeps a baseline: the normal number, measured when everything was well. Without a baseline, forty-one failed sign-ins looks frightening or ordinary, and nobody can say which. With one, it is plainly much higher than the three or four of a normal night, and it becomes the first thing to look at in the morning.
+@IN Answer the multiple-choice questions. (0. is done.)
+@IT 0. What is modern security work about? — numbers.
+@BI 1. What does the officer read to check the backup?
+@OP ○  A)  Its colour
+@OP ○  B)  Its price
+@OP ○  C)  Its age in hours
+@OP ○  D)  Its name
+@BI 2. Why does the officer keep a baseline?
+@OP ○  A)  Because the manager asks for it
+@OP ○  B)  So that an unusual number can be recognised
+@OP ○  C)  To make the machine faster
+@OP ○  D)  To save disk space
+@BI 3. Why does the officer compare the machines?
+@OP ○  A)  To find which one is the worst
+@OP ○  B)  To clean them
+@OP ○  C)  To sell them
+@OP ○  D)  To move them
+@EX Part 5: Vocabulary in Context
+@IN Match each word from the text with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | reading
+2 | tolerance
+3 | baseline
+4 | worst
+@END
+@LB2 Column B
+@COLB
+a | the range that is allowed
+b | a number you read from a machine or a program
+c | a tool for opening a machine
+d | the normal reading, measured when all is well
+e | the least good of them all
+@END
+@EX Part 5: Checking Systems in Syria
+@IT Before you read: why might a system in Syria need checking more often than the book says?
+@GL rough = hard, with difficult conditions    ·    check interval = how often a check is done
+@BX Systems in Syria often work in hard conditions. The power goes off and comes back several times a day, and every time it does, a machine that was writing a file may not finish. Dust gets into fans, so machines run hotter and their disks fail earlier than the maker expects. Connections are slow and shared, so a backup that should take one hour may take six, and may not finish before the office opens. Because of this, a careful officer in Damascus does not simply follow the interval in the book. She reads the free space weekly instead of monthly, and she checks the backup age every morning rather than every Friday. It is more work, but it is far better than finding out in June that the last good copy of the records is from March.
+@IN Write True or False. (0. is done.)
+@IT 0. Systems in Syria always work in easy conditions. — False
+@IF 1. Dust makes machines run hotter. ____
+@IF 2. The officer follows the book exactly, with no changes. ____
+@IF 3. A shorter check interval finds problems earlier. ____
+
+@PART Part 6  ·  Writing
+@TRK [OP] Operator track  ·  in-class / homework
+@EX Part 6: Compare Two Machines (50–70 words)
+@IN Compare two machines, or two offices. Use comparatives and one superlative.
+@LM Model — read this first:
+@BX The help-desk machine is faster than the accounts machine, and it has more free space: sixty per cent against eleven. Its backup is newer too, six hours against three days. Of the four machines in our office, the rear office one is the worst: it has the least free space and the oldest backup. That is the machine I would repair first.
+@BI Plan (fill in, then write): The first machine is ___ than the second. It has more ___. Of the four, ___ is the worst because ___.
+@WB … is more / -er than…    |  the most / the -est    |  free space    |  backup age    |  better / worse
+@BC Check before you finish: ☐ comparatives used?  ☐ at least one superlative?  ☐ 50–70 words?
+@EX Part 6: Why Measuring Matters (50–70 words)
+@IN Write why careful measuring is important in security work. Give reasons.
+@LM Model — read this first:
+@BX Measuring is important because a guess cannot be checked by anybody else. A number can. When I write that the free space is eleven per cent, my manager sees the same thing I saw, and next week we can tell whether it is better or worse. Measuring also finds the real problem instead of the loudest one, and it saves the time we would spend arguing.
+@WB … is important because…    |  find the real problem    |  better or worse    |  a guess cannot be checked    |  it saves time
+@BC Check before you finish: ☐ a clear opinion?  ☐ two or three reasons?  ☐ 50–70 words?
+@EX Part 6: A Readings Note (50–70 words)
+@IN Write a short note from Lina (officer) to Maher (manager) with this week’s readings.
+@LM Model — read this first:
+@BX Dear Maher, Here are this week’s readings. Free space on the server is twenty-two per cent, lower than last week’s twenty-six, but still inside our tolerance of twenty. The backup is six hours old, which is good. The one number I do not like is Thursday night: forty-one failed sign-ins on one account, much higher than our baseline of three. Lina.
+@BI Plan (fill in, then write): Dear ___, Here are the readings for ___. The ___ is ___, which is ___ than last week. The reading I do not like is ___ because ___.
+@BC Check before you finish: ☐ clear readings + comparison?  ☐ which one matters most?  ☐ 50–70 words?
+@EX Part 6: Reflection — Comparing Two Things (40–60 words)
+@IN Write about two machines, programs or offices you know well, and compare them.
+@LM Model — read this first:
+@BX At home we have two computers. The newer one is faster and much quieter, and its disk is bigger. The older one is slower, but it is the more useful of the two, because all our photographs are on it and my mother knows how to use it. Of everything in the house, it is the machine I back up most carefully.
+@BC Check before you finish: ☐ comparatives + one superlative?  ☐ clear and true?  ☐ 40–60 words?
+
+@PART Part 7  ·  Management File — Checking the Weekly Report
+@TRK [PR] Practitioner track (optional for beginners)  ·  IT and security manager
+@EX 7A: Phrase Bank
+@IN Match what a manager says with its purpose. One purpose is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | “Which machine is the worst?”
+2 | “Is this inside the tolerance?”
+3 | “That is lower than last week.”
+4 | “Check that one first.”
+@END
+@LB2 Column B
+@COLB
+a | comparing two readings
+b | giving an instruction
+c | asking which is the least good of all
+d | asking about the price
+e | asking whether a reading is allowed
+@END
+@EX 7B: Manager Dialogue
+@IT 🔊  Audio Track 4.5
+@IT Before you read: what does a manager check on a weekly report?
+@BX Maher: Lina, let’s look at this week’s report together.  Lina: The free space on the server is twenty-two per cent.  Maher: And the tolerance is twenty, so we are inside it. Is that higher or lower than last week?  Lina: Lower. Twenty-six last week, twenty-two now.  Maher: Then it will be outside the tolerance in two weeks. What is the worst reading on the page?  Lina: Thursday night: forty-one failed sign-ins on Mr Aboud’s account.  Maher: Start there. The disk can wait a week; that cannot.
+@IN Answer the questions. (0. is done.)
+@IT 0. What are they looking at? — This week’s report.
+@IT 1. What is the free space, and is it inside the tolerance?
+@IT 2. What is the worst reading on the page?
+@IT 3. What does Maher tell Lina to do?
+@EX 7C: Controlled Practice — Reading the Table
+@IN The free space readings are: help desk 60%, reception 30%, accounts 11%, rear office 4%. Complete the sentences.
+@WB more    |  most    |     least    |    worse
+@IG 1. The help desk has  ____________________  free space than reception.
+@IG 2. The rear office has the  ____________________  free space of the four.
+@IG 3. The help desk has the  ____________________  free space of all.
+@IG 4. The accounts machine is  ____________________  than reception.
+@EX 7D: Role-Play — Reviewing the Report
+@IN In pairs. One is the manager (Maher); one is the officer (Lina). Use the model and the cards.
+@BX Model exchange: Maher: How is the free space? — Lina: Twenty-two per cent, lower than last week but inside the tolerance. — Maher: And the worst reading? — Lina: Forty-one failed sign-ins on Thursday.
+@BX Card A — Manager (Maher): ask about the free space and the backup, ask which is worst, and give one instruction. Card B — Officer (Lina): give the readings, compare them with last week, and say which worries you most.
+@TRK Stretch [PR]: a reading is only a little outside the tolerance and the staff are busy — decide whether to act now or next week, and justify it.
+@EX 7E: Supervisory Writing (50–80 words)
+@IN You are Maher. Write a short summary of this week’s readings for the company director, who is not a technical person.
+@LM Model — read this first:
+@BX Dear Mr Haddad, The systems were steady this week. Space on the main server has fallen from twenty-six to twenty-two per cent; it is still inside our limit, but we will need a new disk within two months. The backups all ran. One account had forty-one failed sign-ins on Thursday night, far above normal, and we are looking at it today. Nothing was lost. Maher Khoury.
+@BC Check before you finish: ☐ clear readings + comparison?  ☐ plain words for a non-technical reader?  ☐ 50–80 words?
+
+@PART Part 8  ·  Global Case Study — Why Standard Figures Matter
+@TRK [PR] Practitioner track  ·  pre-read / in-class discuss
+@IT Before you read: why should offices in every country measure the same things in the same way?
+@GL standard = an agreed correct way for everybody    ·    figure = a number in a report    ·    compare = to put two numbers side by side
+@BX A company with offices in six countries once had a problem it could not see. Every office sent a monthly report, and every office wrote it differently. One counted failed sign-ins for the whole month; another counted only the ones after midnight. One measured free space in per cent; another in gigabytes, and a third only wrote “fine”. When the head office tried to compare them, it could not. The director asked for one page, the same for everybody: five numbers, the same units, the same days of the month, and the normal range printed next to each one. The first month was uncomfortable, because two offices that had always written “fine” turned out to be the worst in the group. But by the end of the year the reports took ten minutes to read instead of two days, and the head office could see a problem growing in one office before that office asked for help. The chief engineer said it afterwards: you cannot manage what you do not measure the same way twice.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many countries had offices? — Six.
+@IT 1. What was the problem before?
+@IT 2. What did the director ask for?
+@IT 3. What did the chief engineer say?
+@EX Part 8: Vocabulary in Context
+@IN Match each word with its meaning. One meaning is not needed. Write the letter.
+@LB Column A
+@COLA
+1 | standard
+2 | figure
+3 | report
+4 | compare
+@END
+@LB2 Column B
+@COLB
+a | the range that is allowed
+b | an agreed correct way for everybody
+c | a number in a report
+d | to put two numbers side by side
+e | a page of numbers somebody reads regularly
+@END
+@EX Part 8: Discussion
+@IN Talk with a partner. Use the frames.
+@BX Discussion frames: “Standards are useful because…”  ·  “In my office we measure…”  ·  “The hardest number to agree on is…”  ·  “A report nobody can compare is…”
+
+@PART Part 9  ·  Local Case Study — Syria in Focus: Adjusting the Backup Interval
+@TRK [PR] Practitioner track  ·  pre-read / in-class decide
+@IT Before you read: should an officer in Syria follow the interval in the book exactly?
+@BX Maher looked after a small company whose office was on a street with four power cuts a day. The maker of the backup program recommended one backup each night, which is normal everywhere. But in that office the night backup almost never finished: the power went off at some point between eleven and four, and the copy stopped halfway. For months the sheet said the backup had run, because it had started, and nobody checked whether it had ended. Maher changed two things. He moved the backup to the middle of the morning, when the generator was on and the office was working, and he set it to copy only the files that had changed, so that it took twenty minutes instead of six hours. He also changed the sheet: instead of “backup run”, it now asked for the age of the last finished backup in hours. The first week, that number was ninety-one hours. By the fourth week it was four.
+@IN Answer the questions. (0. is done.)
+@IT 0. How many power cuts a day were there? — Four.
+@IT 1. What did the maker of the program recommend?
+@IT 2. Why did the night backup almost never finish?
+@IT 3. What three things did Maher change?
+@EX Part 9: Decision Task
+@IN An office has power for only six hours a day. Should it (a) keep the backup at night as the maker says, (b) move it into the hours with power, or (c) back up only once a week? Choose one and give reasons.
+@BX Answer frame: “I think the office should ___ because ___. The reading to watch is ___. This is better than ___ because ___.”
+@LM Model — read this first:
+@BX I think the office should move the backup into the hours with power, because a copy that stops halfway is not a copy at all. The reading to watch is the age of the last finished backup, not whether the backup started. This is better than backing up once a week, because a week of lost work is too much for a small company to rewrite.
+@BX Phrase bank: I think… should…  ·  because…  ·  The reading to watch is…  ·  This is better than…  ·  In my opinion…
+
+@PART Part 10  ·  Review and Can-Do
+@TRK [OP + PR]  ·  homework / self-study
+@EX Part 10: Spiral Review
+@IN Complete the review. (0. is done.)
+@IT 0. A number you read from a machine is a reading.
+@WB baseline    |  tolerance    |     more    |    most    |    screen lock
+@IG 1. The normal reading, measured when all is well, is the  ____________________ .
+@IG 2. The range that is allowed for a reading is the  ____________________ .
+@IG 3. “This disk is  ____________________  full than that one.”
+@IG 4. “This is the  ____________________  full disk of all.”
+@IG 5. The step that hides your work when you leave your desk is the  ____________________ .
+@EX Part 10: Can-Do
+@LC Can-Do checklist
+@IT ☐ I can name the main readings on a system and where to find them.
+@IT ☐ I can use comparatives and superlatives to compare machines and readings.
+@IT ☐ I can understand a weekly report and say which reading matters most.
+@IT ☐ I can write a clear readings summary (Practitioner).
+@IT ☐ I can compare offices and decide which needs attention first.
+@EX Part 10: Glossary
+@LG Unit 4 glossary (10 words)
+@BG reading  ·  log  ·  report  ·  alert  ·  free space  ·  backup age  ·  failed sign-in  ·  tolerance  ·  baseline  ·  diagnosis
+@PB
