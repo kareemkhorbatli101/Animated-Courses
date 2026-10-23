@@ -26,7 +26,7 @@ const ALLOWED = new Set([
   0x2013, 0x2014,                   // – —
   0x2018, 0x2019, 0x201C, 0x201D,   // ' ' " "
   0x2026, 0x00B7, 0x2022,           // … · •
-  0x2192, 0x2194, 0x2197,           // → ↔ ↗
+  0x2192, 0x2194, 0x2197, 0x2198,   // → ↔ ↗ ↘ (intonation arrows)
   0x2713, 0x2717, 0x2610, 0x2605,   // ✓ ✗ ☐ ★
   0x26A0, 0x2248, 0x00B0, 0x00A3,   // ⚠ ≈ ° £
   0x20AC, 0x2016,                   // € ‖
@@ -97,6 +97,42 @@ function cycles(s) {
   return out;
 }
 
+// The unit check is the one place where a Student's Book question and an Answer Key
+// letter have to agree, and nothing else in the book cross-references like that.
+function checkUnitCheck(file, keySrc, unitSrc) {
+  const qs = [...unitSrc.matchAll(/'(\d)  (.*?)   a\) (.*?)   b\) (.*?)   c\) (.*?)',/g)];
+  const row = keySrc.match(/\[\['Answer', (.*?)\]\]/);
+  const ans = row ? [...row[1].matchAll(/'([abc])'/g)].map(m => m[1]) : [];
+
+  if (qs.length !== 8) fail(`${file}: the unit check has ${qs.length} language questions, not 8`);
+  if (!row) return fail(`${file}: no answer row — every key states its answers in one table`);
+  if (ans.length !== qs.length) {
+    fail(`${file}: ${ans.length} answer(s) for ${qs.length} question(s)`);
+  }
+
+  qs.forEach((q, i) => {
+    const [, n, stem, a, b, c] = q;
+    const opts = { a, b, c };
+    if (i < ans.length && !opts[ans[i]]) fail(`${file}: Q${n} answers "${ans[i]}" but there is no such option`);
+    // A blank immediately followed by a word that is also an option: choosing that
+    // option writes the word twice. The question reads fine in the file and is
+    // unanswerable on the page.
+    const after = (stem.match(/_{2,}\s+(\S+)/) || [])[1];
+    if (after) {
+      const bare = after.replace(/[^A-Za-z']/g, '').toLowerCase();
+      Object.entries(opts).forEach(([letter, text]) => {
+        if (bare && text.trim().toLowerCase() === bare) {
+          fail(`${file}: Q${n} — option ${letter}) "${text.trim()}" repeats the word after the blank ("${after}")`);
+        }
+      });
+    }
+  });
+
+  // a key that answers without saying how to mark is half a key
+  if (!/box\('Marking the/.test(keySrc)) fail(`${file}: no "Marking the…" box in the unit check`);
+  if (!/Teacher\\'s note/.test(keySrc)) fail(`${file}: no teacher's note`);
+}
+
 function checkKey(file, s, unitSrc) {
   checkChars(file, s);
   if (!/module\.exports = out;/.test(s)) fail(`${file}: no module.exports`);
@@ -113,6 +149,7 @@ function checkKey(file, s, unitSrc) {
 
   // coverage: a key that omits a stage is the fault a stage count alone never catches
   if (unitSrc) {
+    checkUnitCheck(file, s, unitSrc);
     const ucyc = cycles(unitSrc);
     Object.entries(ucyc).forEach(([n, codes]) => {
       const have = new Set(cyc[n] || []);

@@ -417,12 +417,24 @@ out.push(sample(null, ['Hello Hala, welcome to Sham Trading. I\'m Nour, the assi
 out.push(note('Mark the three content points first, then the language. A message with perfect English and only two points scores lower than a message with small errors and all three. Say this to the class before they write, not after.'));
 out.push(stage('HW', 'Homework – sample reply (≈25 words)'));
 out.push(sample(null, ['Thank you, Nour. I\'ll bring my identity card on Monday. Is the office on the second floor, and what time should I arrive?']));
-out.push(stage('✓', 'Unit 1 check'));
-out.push(p('**A  Language.**  1 a  ·  2 b  ·  3 c  ·  4 a  ·  5 b  ·  6 a  ·  7 b  ·  8 a'));
-out.push(p('**B  Listening.**  Company: **Hamdan Printing**  ·  Contact: **Rasha Hamdan**  ·  Tel: **0988 450 176**  ·  Wants: **the price list for paper**'));
-out.push(p('**C  Sample message (≈30 words):**'));
-out.push(sample(null, ['Hello, welcome to the company. I\'m Fadi Saeed, the driver. I look after the two vans and the deliveries in Damascus. My extension is 231 — call me any time.']));
-out.push(p('_Scoring guide: A = 8 marks, B = 4 marks, C = 6 marks (content 3, organisation 1, language 2). Total 18. 13+ = ready for Unit 2._', { color: '595959' }));
+out.push(stage('✓', 'Unit 1 check – answers and marking'));
+out.push(p('**A  Language** (8 marks)'));
+out.push(table(['Q', '1', '2', '3', '4', '5', '6', '7', '8'], [['Answer', 'a', 'b', 'c', 'a', 'b', 'a', 'b', 'a']], [1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6]));
+out.push(p('**B  Listening** (4 marks) — Company: **Hamdan Printing** · Contact: **Rasha Hamdan** · Tel: **0988 450 176** · Wants: **the price list for paper**'));
+out.push(p('**C  Writing** (6 marks) — sample:'));
+out.push(sample(null, ['Hello, welcome to the company. I\'m Fadi Saeed, the driver. I look after the two vans and the deliveries in Damascus. My extension is 231 — call me any time.  _(29 words)_']));
+out.push(box('Marking the writing (6 marks)', [
+  '**Task (3):** who you are · what you look after · your extension number — one mark each.',
+  '**Language (2):** _be_ and the present simple used correctly; _a / an_ before the job.',
+  '**Organisation and length (1):** a greeting and a name; 25 words or more.',
+  '⚠ A message with perfect English and no extension number scores **2 of 3** on task. The three things are the task.',
+], C.lyellow, C.orange));
+out.push(p('_Total 18 marks. 13+ = ready for Unit 2._', { color: '595959' }));
+out.push(box('Teacher\'s note — the three faults to watch in Unit 1', [
+  '**1  The missing verb.** _I new assistant._ Arabic needs no present-tense _be_, so this is not carelessness and it does not go away by being corrected once. Drill _I\'m / he\'s / she\'s_ as whole chunks, not as a paradigm, and expect it back in Unit 2.',
+  '**2  The missing article.** _I\'m assistant._ Teach _a_ and _an_ with the **job**, every time a job is said, from the first lesson — jobs are where learners meet the article most and get it wrong longest.',
+  '**3  Saying a number as one string.** _Oh nine double eight four five oh one seven six_ said in one breath cannot be written down. 1.3 is where the habit is made: **group the digits and pause**, then read it back. Do not let a learner finish a number without the read-back.',
+], C.grey, C.navy));
 
 module.exports = out;
 if (require.main === module) L.build(out, process.argv[2], 'Proactive Business English A2 · Book 1 · Syria Edition · Unit 1 · Answer Key');
