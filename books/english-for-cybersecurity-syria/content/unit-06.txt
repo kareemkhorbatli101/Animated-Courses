@@ -1,0 +1,463 @@
+@UNITHEAD Unit 6: Working with Providers and Suppliers
+@PART Warm Up | Warm Up
+@EX Warm-Up: Provider Relationship Discussion
+@INSTR Discuss what makes working with providers and suppliers successful.
+_80
+@BULLET
+What does it mean to work "with" a provider rather than only "instruct" a provider?
+_300
+@EX Warm-Up: Stakeholder Roles Matching
+@INSTR Match stakeholder groups with their roles and interests in the organisation.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Section head
+2. | Provider
+3. | Officer
+4. | Director
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Wants the work done correctly, on the system and by the date that were promised
+b) | Wants a clear request, agreed terms, and an answer when the deadline falls due
+c) | Wants the company to last and to use its money well
+d) | Wants steady duty, fair pay, and to be told the truth about the office
+_300
+@EX Warm-Up: Partnership Principles Multiple Choice
+@INSTR Read and choose the best answer about working with providers.
+_80
+@MCQ
+1. What is most important for building trust with a provider?
+@OPT
+   ○ A) Promising any response time the provider asks for
+   ○ B) Consistent requests, honesty about problems, and answering when you said you would
+   ○ C) Using complicated official language
+_300
+@EX Warm-Up: Discussion - Conflict and Collaboration
+@INSTR Discuss how to handle conflicts between different parties in the organisation.
+_80
+@BULLET
+What should you do when a section, the budget holder, and the provider want different things?
+_300
+@EX Warm-Up: Stakeholder Interests Classification
+@INSTR Classify interests as Primary (directly affected), Secondary (supporting), or Wider (indirect).
+_80
+@CAT
+Categories:
+@CATITEM
+1. Primary interest
+2. Secondary interest
+3. Wider interest
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A section that has asked in advance for a new account for a new clerk  ____________________________
+2. The electricity company that supplies the building  ____________________________
+3. The internet provider that carries the office traffic  ____________________________
+4. An officer whose family depends on the monthly wage  ____________________________
+5. The customers whose records are safer when the office is careful  ____________________________
+6. The provider whose own staff depend on the arrangement  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Provider and Supplier Terms Matching
+@INSTR Match key liaison terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Service request
+2. | Lead time
+3. | Response terms
+4. | Service level
+5. | Provider management
+_300
+@COLHEAD Column B
+@MATCHB
+a) | How long the office must wait between sending a request and receiving the service
+b) | A written instruction to provide stated support on a stated system and date
+c) | Looking after a provider over years rather than case by case
+d) | The agreed standard of support and response a section can expect
+e) | How long the provider may take to answer, and what happens if it is late
+_300
+@EX Part 1: Building Trust with Suppliers Table
+@INSTR Complete the table with ways security officers build trust with suppliers.
+_80
+@GRID
+Trust-Building Action | Why It Works
+Confirming every request in writing | 
+Telling a provider early that a payment will be late | 
+Answering one small request on time before asking for a large change | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Both sides can see what was agreed, so a dispute has a fact to settle it
+b)  The provider can plan around the delay instead of discovering it too late
+c)  A promise kept twice is worth more than a large order offered once
+_100
+_300
+@EX Part 1: Liaison Terms Fill-in
+@INSTR Complete sentences using liaison and partnership vocabulary.
+_80
+@GAP
+1. A true partnership is ____________________ with both parties having clear obligations.
+2. ____________________ communication means telling a provider early when a payment will be late.
+3. ____________________ means taking responsibility for what you have promised to deliver.
+4. ____________________ is helping a provider improve rather than only replacing them.
+_300
+@EX Part 1: Supplier Work in Context - Fact Questions
+@INSTR Read about working with providers and suppliers and answer detailed questions.
+_80
+@PANEL
+Building Strong Relationships with Providers and Suppliers
+Effective security work requires genuine partnership with the companies the office depends on. Partnership means treating the other party as having obligations and interests of their own, not as a problem to be managed. It means they understand the terms, can meet them, and tell you when something changes.
+Partnership begins with a clear agreement. A provider cannot meet a request nobody has written down. Officers must issue a request that states the service, the system, the duration and the date rather than a vague instruction. Many disputes come from terms that were never recorded.
+Trust is built through consistency. Providers watch whether the same standard is applied to every request. Is a late answer explained when the provider is large and ignored when they are new? Consistent treatment builds trust. One inconsistent decision teaches a provider that the promise is negotiable.
+Transparency is essential. Providers need to know early when something will be late. Which request? How late? What will be done? Transparent officers share the information. This lets the provider plan rather than guess, and it prevents the suspicion that they were deliberately kept in the dark.
+Provider development is better than replacement. Replacement finds a new provider who makes new mistakes. Development raises the existing provider's own standard so the problem stops happening. This might mean sharing a procedure, agreeing a response window, or arranging a joint test.
+Feedback must flow both ways. A provider who only ever hears about failures stops volunteering information. A provider who hears when a repair went well knows what to protect.
+Partnership requires time and patience. A quick switch to a different provider typically produces a new set of problems. Relationships built over years create a working arrangement that holds when something goes wrong.
+@NUM 100
+1. What is the difference between replacing a provider and developing a provider?
+2. How long does trust typically take to build in these relationships?
+_300
+@EX Part 1: Discussion - Your Experience with Cooperation
+@INSTR Discuss times you worked collaboratively and what made it successful or difficult.
+_80
+@BULLET
+Describe a time when you collaborated successfully with others. What made it work?
+_300
+@EX Part 1: Listening - Partnership Stories from Providers
+@AUDIO 🔊 Audio Track 6.11
+@INSTR Listen to providers describing their experiences working with the office.
+_80
+@MCQ
+1. Why did the first provider keep accepting the office's urgent requests?
+@OPT
+   ○ A) The office always paid the most
+   ○ B) The office told them early when a payment would be late
+   ○ C) The office never had any problems
+@MCQ
+2. Why did the earlier arrangement fail?
+@OPT
+   ○ A) The reports were poor
+   ○ B) Terms were never written down and nobody could prove what was agreed
+   ○ C) The provider's engineer moved away
+_300
+@EX Part 1: Partnership Summary - Multiple Choice
+@INSTR Choose the best explanation of partnership principles.
+_80
+@MCQ
+1. What is the relationship between provider development and long-term reliability?
+@OPT
+   ○ A) They are unrelated
+   ○ B) Providers whose own standards improve deliver acceptable service for longer
+   ○ C) Providers should not be helped to improve
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Partnership with "Together" and "With"
+@INSTR Complete sentences using language that emphasizes cooperation and partnership.
+_80
+@NUM
+1. The office and its providers work ____________________ (together) to agree the terms.
+2. The request was written ____________________ (collaboration) the provider's own engineers.
+3. Partnership requires ____________________ (shared) obligations and mutual responsibility.
+_300
+@EX Part 2: Expressing Agreement and Disagreement
+@INSTR Complete the table with ways to express agreement and handle disagreement respectfully.
+_80
+@GRID
+Communication Goal | Respectful Language Example
+Express agreement supportively | 
+Express disagreement respectfully | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  That is a reasonable date and our roster can support it
+b)  I understand your position but our budget makes that arrangement impossible
+_100
+_300
+@EX Part 2: Passive Voice for Shared Decisions
+@INSTR Complete sentences using passive voice to show shared responsibility.
+_80
+@GAP
+1. The response date ____________________ by the section and the office together.
+2. The provider's own lead times ____________________ when the request was revised.
+3. Responsibility for the joint test ____________________ between both parties.
+4. The section's concerns ____________________ and addressed in the revised terms.
+_300
+@EX Part 2: Expressing Appreciation and Recognition
+@INSTR Complete sentences expressing gratitude and recognition for partnership contributions.
+_80
+@NUM
+1. We ____________________ (appreciate) the provider's support during the power cuts.
+2. We ____________________ (recognize) of their effort to hold the price for us.
+3. We are ____________________ (grateful) our providers' commitment to consistent quality.
+_300
+@EX Part 2: Listening - Partnership Vocabulary in Use
+@AUDIO 🔊 Audio Track 6.17
+@INSTR Listen to a provider's director discussing partnership using specific language structures.
+_80
+@PLAYNOTE
+@SCRIPT
+^Leader: When the office works with us, not only for us, the language changes. They use phrases like "together we agreed the date" instead of "we informed them." They use passive voice "our own lead times were taken into account" showing respect for our planning. They express appreciation "we value your cooperation" making us feel like partners.
+^Leader: Language reveals whether an office truly values partnership or just uses the word. Real partners say "we understand your position" when discussing a late repair. They say "this was a shared decision" even when they held the stronger hand. Language shapes how people behave. Respectful language produces a partner who calls you before a problem reaches you.
+_200
+@QUESTION
+1. How does language reflect whether office partnerships are genuine?
+2. What language do real partners use when they disagree?
+_300
+@EX Part 2: Grammar Review - Partnership Communication
+@INSTR Discuss how different grammatical choices reflect partnership values.
+_80
+@BULLET
+Compare "we will inform you of the date" versus "we will agree the date together." How do these change the relationship?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Challenges in Partnership
+@INSTR Before listening, discuss challenges that arise in office partnerships.
+_80
+@BULLET
+What barriers prevent an office and its providers from developing genuine partnerships?
+_300
+@EX Part 3: Listening - Stakeholder Perspectives
+@AUDIO 🔊 Audio Track 6.20
+@INSTR Listen to different parties describing their perspectives on office partnerships.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: From our side, we want to give sections the dates they ask for but we have one function with limited staff. We have other sections already in the queue and licences we cannot always obtain. So we must navigate between the section's wishes, the function's capacity, and what the budget allows. Good partnerships require honest conversations about these constraints. We have learned that sections accept a later date when we explain the reason. They feel mistreated when we promise and then fail.
+^Leader: From the provider side, we want clarity and consistency. We understand the office has constraints of its own. We accept a later payment when it is stated in writing and then kept. What frustrates us is a date that moves after the work is accepted. We want to be told early when something changes, not discover it from an unanswered telephone. We want our own planning to count for something.
+_200
+@QUESTION
+1. What does the manager say about managing conflicting demands?
+2. What does the provider value most in partnership?
+_300
+@EX Part 3: True/False - Partnership Principles
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Genuine partnership requires written terms and consistent treatment of every provider. A provider who hears only about failures stops volunteering information. Switching to a different provider always solves a quality problem permanently. Trust is built through many small promises kept rather than one large gesture. Transparency about a delay allows the section to plan around it. Officers should hide a problem until it is unavoidable so the section is not worried. Developing a provider raises their own standard so the fault stops recurring.
+@NUM 100
+1. Trust is built through many small promises kept.
+2. Switching to a different provider always solves a quality problem.
+3. Officers should hide a problem until it is unavoidable.
+_300
+@EX Part 3: Listening - Honest Communication in Partnership
+@AUDIO 🔊 Audio Track 6.22
+@INSTR Listen to partners discussing how honesty and transparency work in practice.
+_80
+@MCQ
+1. How does admitting a delay early build trust?
+@OPT
+   ○ A) It shows weakness and incompetence
+   ○ B) It shows honesty and lets the section plan rather than discover the delay late
+   ○ C) Sections lose confidence in honest offices
+@MCQ
+2. What does the security officer recommend when a section asks for an impossible deadline?
+@OPT
+   ○ A) Ignore the request
+   ○ B) Agree to everything to keep the peace
+   ○ C) Say clearly why the date cannot move but offer another way to help
+_300
+@EX Part 3: Listening - Building Partnerships Over Time
+@AUDIO 🔊 Audio Track 6.23
+@INSTR Listen to experienced officers describing how relationships develop.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: Building office partnerships is like building friendships. You cannot rush it. You must spend time understanding their work. You must visit when you do not need anything, not only when you want a favour. You must remember what they told you and follow up. You must keep small promises so they trust you with bigger ones. You must admit when our own request was wrong. This takes time but creates relationships that survive a bad month.
+~Coordinator: I noticed that partnerships develop through small successes. Start with one request where the service is easy to get right, such as a single line test. This builds confidence for larger work. Also, confirm the result in writing. Let the provider show our letter to their own management. This builds their internal case for working with us again and motivates the next repair.
+_200
+@QUESTION
+1. What does the first speaker compare partnership building to?
+2. What strategy does the second speaker recommend for building strong partnerships?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - What Makes Partnerships Work
+@INSTR Before reading, discuss what you think makes partnerships succeed.
+_80
+@BULLET
+Based on your experience, what do successful partnerships need to work well?
+_300
+@EX Part 4: Reading - Models of Provider Engagement
+@INSTR Read about different approaches to engaging providers and answer questions.
+_80
+@PANEL
+Models of Provider Engagement in Security Work
+Offices use different models for working with the providers they depend on. The model chosen shapes whether the relationship actually works.
+The Transaction Model: The office orders what it wants and moves on. The approach assumes the next provider will arrive from somewhere. Providers are anonymous. This model is quick and keeps control with the office. However, the office never learns what a provider actually needs, and the same faults keep arriving. When a provider can sell its best engineer's time elsewhere, it does. The Transaction Model is common but expensive.
+The Information Model: Providers are told the procedure and sent a confirmation of each order. Providers receive information but the office keeps all the decisions. This is better than pure transaction but not genuine partnership. Providers appreciate the information but may not be able to act on it. Some information is better than none but is incomplete.
+The Partnership Model: Office and provider are both parties with obligations. Both bring different knowledge—the provider knows its own network and the office knows its own systems. Dates and standards are agreed together. This model respects the provider's planning and builds support. It is slower because agreement takes longer. But the work actually gets done and disputes become rare.
+The Co-Development Model: Provider and office design the service together. The provider proposes changes, the office tests them, and both share the gain. The office provides method and the provider provides knowledge of the network. This model requires the office to share information it might prefer to keep. It creates the strongest relationship and the most reliable service. However, it requires trusting a provider even when it criticises the office openly.
+Experience shows that higher-level models (Partnership and Co-Development) produce more reliable service and fewer faults. However, they require patience and are harder to show in a quarterly report. Lower-level models (Transaction and Information) show quick visible activity but leave the underlying problem untouched.
+@NUM 100
+1. What is the main difference between the Information Model and the Partnership Model?
+2. What does experience show about different engagement models and reliable service?
+_300
+@EX Part 4: Reading - Coordination Across Sections
+@INSTR Read about how different sections work together effectively.
+_80
+@PASSAGE
+Cross-Functional Coordination
+Beyond working with providers, effective security work requires coordination inside the office. In most companies, the help desk, the records section, licences, finance and equipment all affect whether a piece of work is finished as promised. Coordination among them prevents the problem that nobody owns.
+Coordination challenges arise from conflicting measures. When the help desk is measured on tickets closed and the records section on records logged, each section protects its own figure instead of serving the user. This can lead to a date being promised that the records section never agreed. It can lead to gaps where nobody takes responsibility for a half-finished change. Good coordination requires a shared measure that both sections can win on, usually requests completed correctly and on time.
+Effective cross-functional work requires clear roles. The help desk owns the first contact, the records section owns the log, licences owns the certificate file, and finance owns the payment. Clear role definition prevents duplication and lets each function use its expertise fully. Regular meetings allow all functions to share information and solve problems together.
+Trust among sections is important. Just as provider trust comes from consistency, internal trust comes from reporting a problem early rather than hiding it until it is discovered. An officer who conceals a missed deadline will not be trusted with the next urgent change.
+Successful cross-functional teams in Syria share scarce resources. Sections might share a spare machine, combine a trip to a supplier, or coordinate a purchase of a scarce part. This sharing stretches limited resources further and gets more done with each journey.
+Hierarchical structures where one strong section dominates can be efficient but risk silencing the junior officer who saw the real problem. More equal models where every function has a voice engage more knowledge and build stronger commitment. These models take more time but produce fewer surprises for the sections.
+@MCQ
+1. Why do sections sometimes protect their own figures instead of cooperating?
+@OPT
+   ○ A) Competition is always good for the users
+   ○ B) Conflicting measures reward each section for defending its own number
+   ○ C) Cooperation is impossible between functions
+@MCQ
+2. What does a "shared measure" mean regarding cross-functional work?
+@OPT
+   ○ A) Having lots of meetings
+   ○ B) A measure both functions can win on, such as requests completed correctly and on time
+   ○ C) Only large organisations can coordinate
+_300
+@EX Part 4: Application - Building Inclusive Partnerships
+@INSTR Read scenarios and fill in how to include often-excluded parties in office decisions.
+_80
+@GRID
+Excluded Group | How to Include in Office Decisions
+Junior officers whose observations are rarely recorded | 
+Small providers with no written terms of their own | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Add a comment field to the daily log and act visibly on what they write
+b)  Offer a simple written request, agree a date they can meet, and pay on time
+_100
+_300
+@EX Part 4: True/False - Cross-Functional Partnerships
+@INSTR Read statements about partnerships and mark True, False, or Not Given.
+_80
+@PANEL
+Competition between sections is beneficial for users in all circumstances. Clear role definition between functions prevents duplication. Trust between sections comes from reporting problems early. Sharing resources between sections always reduces individual section effectiveness. Junior officers should not take part in office decisions. Hierarchical structures are always more efficient than equal coordination. Building strong partnerships requires patience and investment in communication.
+@NUM 100
+1. Should functions have clearly defined roles to prevent duplication?
+2. Is internal trust built through reporting problems early?
+3. Should junior officers be excluded from office decisions?
+_300
+@EX Part 4: Discussion - Creating Win-Win Partnerships
+@INSTR Discuss how partnerships can benefit all parties involved.
+_80
+@BULLET
+How can an office partnership be arranged so that every party genuinely gains from it?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building and Maintaining Partnerships
+@INSTR Prepare a presentation on how to develop and maintain successful provider relationships.
+_80
+@NUM 100
+1. Present the key principles and practices for building lasting partnerships in security work.
+_300
+@EX Part 5: RolePlay - Managing a Late Response
+@INSTR Roleplay a difficult conversation where your repair will be late and the section is waiting.
+_80
+_300
+@EX Part 5: Discussion - Your Role in Creating Partnerships
+@INSTR Discuss how you would approach building partnerships in an office you know.
+_80
+@BULLET
+How would you build strong partnerships if you ran the security function of a local office?
+_300
+@EX Part 5: RolePlay - Explaining Your Approach to a Director
+@INSTR Roleplay presenting your provider management approach to a director.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Service Agreement Outline
+@INSTR Write an outline for a service agreement between an office and a provider.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on Partnership Learning
+@INSTR Write about what you learned from trying to develop a provider relationship.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Handling a Partnership Problem
+@INSTR Write about a conflict with a provider or another section and how you would address it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for Joint Working
+@INSTR Write about how you envision joint working transforming a company.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values of Cooperation and Trust
+@INSTR Read about how Syrian cultural values support office partnerships and answer questions.
+_80
+@PANEL
+Syrian Cultural Values Supporting Collaboration
+Syrian commercial culture has deep traditions of trust, reputation and long relationships that align strongly with partnership approaches in technical service. Understanding and building on these foundations creates more effective and culturally appropriate security work.
+The concept of "karama" or dignity is central to Syrian culture. Karama means being treated with respect and keeping personal honour. Partnership approaches honour karama by explaining a delay with a reason rather than simply failing to answer. A broken promise without explanation damages karama, and a provider who feels slighted will not answer you again. Genuine partnership respects karama and fits local values.
+Syrian trade values the long relationship over the single job. A craftsman's reputation travels in the market and lasts for generations. Families have kept the same workshops for decades. This means a Syrian provider responds strongly to being treated as a long-term partner and poorly to being treated as interchangeable. Approaches that chase the cheapest quotation work badly. Approaches that invest in a relationship work well.
+Islamic teachings about honest dealing strengthen the partnership orientation. Islam teaches that a seller must not conceal a defect and must describe goods truthfully. If a fault is known, it must be declared. Service terms that ask a provider to disclose a problem resonate with this teaching. Providers see honest declaration as living out their values, not as an admission of weakness.
+The tradition of the word given in the market supports written agreement backed by personal commitment. An agreement signed by a named person carries weight beyond its clauses. Agreements structured with named signatories build on this cultural pattern.
+Syrian hospitality shapes how a negotiation is conducted. A visiting engineer is welcomed and offered coffee. However, a guest is expected to respect the host's standards. A provider who dismisses long experience violates this expectation. Partnership requires respecting these cultural expectations.
+The importance of reputation provides powerful motivation. A provider cares about standing among other companies. A letter of thanks that names an improvement succeeds. A complaint that humiliates a provider in front of others creates barriers to any future cooperation.
+Building partnerships on these cultural foundations creates authentic cooperation aligned with how work is actually done rather than imported models.
+@NUM 100
+1. What does karama mean and how does partnership honour this value?
+2. How do Islamic teachings support working with providers and suppliers?
+_300
+@EX Part 7: Discussion - Respecting Culture in Partnerships
+@INSTR Discuss how to respectfully work with partners while honouring local traditions.
+_80
+@BULLET
+How can security officers build partnerships that strengthen rather than challenge local traditions?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 6 Summary - Partnership Concepts
+@INSTR Review Unit 6 by matching key concepts with their descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Service request
+2. | Lead time
+3. | Response terms
+4. | Service level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A written instruction to provide stated support on a stated system
+b) | How long the office waits between request and service
+c) | How long the provider may take to answer the request
+d) | The agreed standard of support and response
+_300
+@EX Part 8: Integrated Assessment - Unit 6 Mastery
+@INSTR Demonstrate understanding of Unit 6. Choose the best answer.
+_80
+@MCQ
+1. What is the main difference between partnership and transaction liaison?
+@OPT
+   ○ A) They are the same thing
+   ○ B) Partnership builds a relationship that repeats; transaction asks once and moves on
+   ○ C) Both build loyalty equally
+@MCQ
+2. Why does partnership take longer than transaction liaison?
+@OPT
+   ○ A) Partnership is not more time-consuming
+   ○ B) Agreeing terms, understanding the partner and building trust take longer than ordering
+   ○ C) Time does not matter in security work
+@MCQ
+3. What creates lasting improvement in what a provider delivers?
+@OPT
+   ○ A) Inspection of every repair for ever
+   ○ B) The provider's own standard improving so the fault stops happening
+   ○ C) Replacing the provider each year
+@MCQ
+4. How do you build trust with sections?
+@OPT
+   ○ A) Through one generous exception
+   ○ B) Through consistent service and explaining every decision honestly
+   ○ C) Trust is not important in security work
+_300

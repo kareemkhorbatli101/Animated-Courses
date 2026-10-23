@@ -1,0 +1,464 @@
+@UNITHEAD Unit 7: User Support, Awareness and Service
+@PART Warm Up | Warm Up
+@EX Warm-Up: Help-Desk Challenges Discussion
+@INSTR Discuss why many small offices struggle to answer reports and complaints well.
+_80
+@BULLET
+What barriers prevent small offices from answering reports and complaints well?
+_300
+@EX Warm-Up: Help-Desk Activities Matching
+@INSTR Match help-desk activities with their appropriate uses and focus areas.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Report handling
+2. | Account request
+3. | Incident logging
+4. | New starter setup
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Greeting people who have just joined, recording them and showing them where to start
+b) | Deciding when access can be given so the work and the policy both allow it
+c) | Writing down who called, what happened and who must answer them
+d) | Finding out what the user needs and sending them to the right person
+_300
+@EX Warm-Up: User Service Multiple Choice
+@INSTR Choose the best answer about good user service.
+_80
+@MCQ
+1. What is most important for good service at a small office?
+@OPT
+   ○ A) Having the newest software instead of an older version
+   ○ B) Answering quickly, keeping the promise, and putting a mistake right
+   ○ C) Having the largest equipment budget
+_300
+@EX Warm-Up: Discussion - Combining Support and Awareness
+@INSTR Discuss why user support and awareness training work better together.
+_80
+@BULLET
+How can a help-desk procedure and an awareness session support each other?
+_300
+@EX Warm-Up: Service Factors Classification
+@INSTR Classify factors as Direct (the answer), Intermediate (manner and speed), or Wider organisational issues.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Direct answer factor
+2. Manner and speed factor
+3. Wider organisational factor
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. The user is given the wrong instruction about a password  ____________________________
+2. The reply arrives two weeks after the promised date  ____________________________
+3. A new branch opens and doubles the number of machines  ____________________________
+4. The report reaches the wrong section  ____________________________
+5. The report waits eleven days before anyone answers  ____________________________
+6. Sections have less money to spend this year  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Contact Routes Matching
+@INSTR Match contact routes with the type of handling they involve.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Walk-up report
+2. | Written complaint
+3. | Telephone call
+4. | Email
+5. | Section champion
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A complaint that must be logged, routed and answered in writing
+b) | A caller who must be answered at once or offered a definite reply later
+c) | Training one trusted person in each section to answer the simple questions
+d) | A user who must be greeted, recorded and dealt with in person
+e) | A message that arrives at any hour and must be answered the same way
+_300
+@EX Part 1: Service Standards a Function Can Set Table
+@INSTR Complete the table with service standards a function can set itself.
+_80
+@GRID
+Service Standard | What It Promises and Why It Matters
+Every report answered within four hours | 
+Every incident logged on the day it arrives | 
+Every complaint answered and settled within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows the user they are heard before they have to ask twice
+b)  Lets the section plan its own work with confidence
+c)  Turns a disappointed user into one who trusts the function more
+_100
+_300
+@EX Part 1: Support and Awareness Terminology Fill-in
+@INSTR Complete sentences using support and awareness vocabulary correctly.
+_80
+@GAP
+1. User support and awareness work together as ____________________ parts of one relationship.
+2. A ____________________ approach to service considers the whole experience, not one call.
+3. ____________________ users are the particular group the training is designed for.
+4. ____________________ means a user reports again because the last contact went well.
+_300
+@EX Part 1: Service Models - Fact Questions
+@INSTR Read about how user support actually keeps users reporting and answer detailed questions.
+_80
+@PANEL
+Help-Desk Systems and Awareness Support
+Most unreported incidents are avoidable through better service. Understanding why a user stopped reporting allows a function to keep the next one. However, keeping users reporting is complex. Staff must know what the user expected, have the information to deliver it, and believe the effort is worth making.
+Report records teach a function who its users are. Knowing that most users ask for one of three things is valuable knowledge. But knowledge alone does not answer a report. The function must also have the information those users need. Staff must believe a report matters when the week is busy. They must trust that a complaint will be acted on rather than hidden. Effective service addresses knowledge, information, and motivation.
+Service standards are the places where effort decides confidence. Setting them focuses attention where it matters. A function with three well-kept promises is stronger than one with thirty slogans. Measuring a standard must be frequent enough to catch a failure before the user stops reporting.
+Help-desk staff bridge the gap between a procedure and a person. A desk officer can hear what a user actually needs and route it the same hour. A trained section champion reaches users the function could never reach itself. In Syria, direct relationships have become vital for keeping contact when the telephone line is unreliable.
+Section champions and floor supervisors reach much of the staff. However, without support, a champion may give wrong instructions and blame the function. Training champions extends the function's reputation beyond its own desk. Report records, service standards, desk training and trained champions working together create far stronger service than any single effort alone.
+Confidence requires that users eventually report because they choose to. This means earning a reputation rather than demanding obedience. It means setting promises the function can actually keep. It means building on the relationships a company already has rather than replacing them.
+@NUM 100
+1. Why is knowing who your users are not enough to answer a report?
+2. What role do help-desk staff play in service?
+_300
+@EX Part 1: Discussion - Integrated Service Models
+@INSTR Discuss how combining user support and awareness benefits a function more than separate approaches.
+_80
+@BULLET
+How have you seen a help desk and good training work together in your own experience?
+_300
+@EX Part 1: Listening - Help-Desk Staff Stories
+@AUDIO 🔊 Audio Track 7.11
+@INSTR Listen to a security officer and a desk officer describing their integrated approach.
+_80
+@MCQ
+1. What problems did the officer identify that affected service?
+@OPT
+   ○ A) No problems affected service
+   ○ B) Late replies, an instruction sheet nobody had updated, and no record of complaints
+   ○ C) The procedure never affects service
+@MCQ
+2. Why did the new software fail before service was improved?
+@OPT
+   ○ A) New software never works
+   ○ B) Users tried it once and went back to their old habit, so the spending was wasted
+   ○ C) New software always works alone
+_300
+@EX Part 1: Service Quality Multiple Choice
+@INSTR Choose answers about what defines quality in support and awareness work.
+_80
+@MCQ
+1. What determines service quality in resource-limited conditions?
+@OPT
+   ○ A) Expensive equipment and new software
+   ○ B) Promises the function can keep, answered quickly and put right when they fail
+   ○ C) A large modern building
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Expressing Relationships Between Service and Result
+@INSTR Complete sentences using structures showing connections between service and confidence.
+_80
+@NUM
+1. Repeat reports ____________________ (depend) promises that are actually kept.
+2. User support works best ____________________ (integrated) the training the user receives.
+3. Good service and fair treatment both ____________________ (contribute) a lasting reputation.
+_300
+@EX Part 2: Cause and Effect in User Confidence
+@INSTR Complete the table with cause-and-effect relationships in support and awareness.
+_80
+@GRID
+Cause | Effect
+The reply arrived complete and on the promised date | 
+A complaint was answered within a week | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  The section asked for a second, larger training session
+b)  The user told two other people to report instead of hiding it
+_100
+_300
+@EX Part 2: Expressing Purpose and Benefit
+@INSTR Complete sentences expressing purpose and benefit of support and awareness work.
+_80
+@GAP
+1. We review the report log monthly ____________________ learn what users actually need.
+2. We train the champions ____________________ the instructions they give are correct.
+3. This instruction sheet was revised ____________________ give an answer the user can rely on.
+4. Report records and complaint records are combined ____________________ one picture of the user.
+_300
+@EX Part 2: Describing Challenges and Solutions
+@INSTR Complete sentences describing problems and how systems address them.
+_80
+@NUM
+1. ____________________ (Although) we cannot train everybody every year, a well-answered user remembers us.
+2. Training the champions ____________________ (overcomes) the gap between the function and the floor.
+3. Integrated service ____________________ (addresses) both the immediate call and long-term confidence.
+_300
+@EX Part 2: Listening - Service Language
+@AUDIO 🔊 Audio Track 7.17
+@INSTR Listen to security officers discussing how to ensure quality in support and awareness.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: Service quality depends on well-trained staff. We invest heavily in training because people are our main resource. Better training leads to better service. But training is not enough. We must also have information that is correct, an answer the user can rely on, and replies we can deliver. Quality means consistently keeping our promises, not keeping them sometimes. Users notice service immediately. They trust a function whose answer arrives before they have to ask twice.
+^Manager: I learned that service is also about listening to the user. What we think is good service might not match what the user experiences. We hold regular reviews of the report log. They tell us that a reply arriving on the wrong day is worse than one arriving late and announced. Service requires both reliability and honesty.
+_200
+@QUESTION
+1. What components create quality in support and awareness work?
+2. Why is listening to the user important for service?
+_300
+@EX Part 2: Grammar Review - Service and Outcome
+@INSTR Discuss how different grammatical structures help explain service and confidence.
+_80
+@BULLET
+How do different sentence structures help explain why a service standard affects confidence?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Barriers to Good Service
+@INSTR Before listening, discuss barriers preventing functions from serving users well.
+_80
+@BULLET
+What barriers prevent small functions from serving the users who contact them?
+_300
+@EX Part 3: Listening - Overcoming Service Barriers
+@AUDIO 🔊 Audio Track 7.20
+@INSTR Listen to security officers discussing how they overcome barriers to good service.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: We recognized that distance was our biggest barrier. Users in the smaller branches could not reach us often enough to matter. So we brought the service closer. We appointed one trusted champion in each branch and trained them on agreed answers. For the larger sections, we kept our own officer calling monthly. This reduced the distance barrier immediately. Reports improved dramatically once a local name answered the message.
+^Manager: Cost was our barrier. Sections wanted our service but could not be given a dedicated desk officer. We discovered that a shared help desk worked better than a lower standard. We offered two fixed hours a day for each section and a shorter reply time for urgent items. This kept every section served.
+_200
+@QUESTION
+1. How did the security officers address the distance barrier?
+2. What service approach did the security officers find most effective?
+_300
+@EX Part 3: True/False - Support and Awareness Work
+@INSTR Read statements and mark True, False, or Not Given.
+_80
+@PANEL
+User support and awareness work together to create good service. New software alone can keep a user who received a late reply. Good officers set promises the function can actually keep. Training champions extends a function's reputation beyond its own desk. Report records tell a function who its users are but not whether they will report again. A complaint answered quickly often produces a more confident user than no complaint at all. Speed alone decides every decision in every case.
+@NUM 100
+1. New software alone can keep a user who received a late reply.
+2. Training champions extends a function's reputation beyond its desk.
+3. A complaint answered quickly can produce a more confident user.
+_300
+@EX Part 3: Listening - Integrating Support and Replies
+@AUDIO 🔊 Audio Track 7.22
+@INSTR Listen to security officers discussing how they combined a desk procedure and an awareness programme successfully.
+_80
+@MCQ
+1. How did the security officers clarify roles in the integrated approach?
+@OPT
+   ○ A) They gave every task to everyone
+   ○ B) They defined what the desk owns and what the records section owns, with one shared log
+   ○ C) Clear roles are not necessary in service
+@MCQ
+2. What did the security officers do when conflicts arose about priorities?
+@OPT
+   ○ A) They ignored problems and hoped they resolved
+   ○ B) They held regular meetings for honest discussion and adjusted the plan when needed
+   ○ C) Conflicts in service cannot be resolved
+_300
+@EX Part 3: Listening - User Impact from Better Service
+@AUDIO 🔊 Audio Track 7.23
+@INSTR Listen as section heads describe how better user support and awareness changed what they receive.
+_80
+@PLAYNOTE
+@SCRIPT
+~Manager: My section used to write to this function and sometimes the reply came a week late with no warning. The function began replying the day the report arrived and telling us when the answer would come. After that, I could plan my own work. Coordinating the desk and the records section solved a problem nobody had seen before. Now I write to them with confidence.
+^Manager: We now receive an acknowledgement with each report. It says what was received and who is dealing with it. When I asked about a missing record, the officer showed me the log and restored it the next day. What the function does actually reaches us and changes what we can rely on. Before, the desk and the records section were separate and nothing connected. Now it all connects. Our own customers are better served.
+_200
+@QUESTION
+1. What problem was damaging the section's planning before the change?
+2. How did the acknowledgement affect the second speaker's confidence?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Service Indicators
+@INSTR Before reading, discuss how you would judge whether a function gives good service.
+_80
+@BULLET
+What signs indicate that a function is giving its users reliable service?
+_300
+@EX Part 4: Reading - User-First Service Philosophy
+@INSTR Read about user-first service and answer detailed questions.
+_80
+@PANEL
+User-First Service: Foundation for a Lasting Reputation
+User-first service is an approach emphasizing the relationship, the promise kept, and the function's reputation inside the office. It differs from a model that spends on software and hopes the users improve. User-first service builds steady confidence, where a problem is settled the same week through simple standards close to the user.
+User-first service serves as the foundation of a security system. Instead of every incident being discovered by accident, most reports come from people who already trust the function. Only new branches need the cost of building that trust from nothing. This keeps costs lower and work steadier. In Syria, where training budgets reach few people, direct relationships became vital.
+Prevention is central to the philosophy. Keeping a user reporting through a reliable reply costs much less than investigating an incident nobody mentioned for a month. A message before a late answer costs less than a section that stops calling. A clear instruction sheet costs less than an argument at the desk. User-first service emphasizes these cost-effective measures.
+User-first service requires the whole office. Help-desk staff alone cannot create confidence. The records section must find the record. Officers must answer the question. Finance must record correctly and allow sensible discretion. Everyone must act on a complaint rather than wait for the desk to insist. This approach views the user as everyone's responsibility, not the desk officer's problem.
+User-first service requires coordination among functions. The desk cannot improve without officers answering what they were asked. The desk cannot work if finance refuses every reasonable request. Good service requires officers, finance, the records section and the desk all working to one standard.
+User-first service requires strong leadership and continuous learning. Desk officers must be trained, supervised, and supported. Functions must review whether the promises still hold. Functions must learn from a user who stopped reporting and adjust. Weak leadership produces slogans nobody believes. Strong leadership produces users who report.
+User-first service creates a durable reputation because it builds trust inside the office. A function whose name is trusted in a company serves it for decades. A function that depends entirely on speed loses the section the moment somebody is quicker.
+@NUM 100
+1. How does user-first service prevent problems instead of only reacting to them?
+2. What functions must coordinate for user-first service to work?
+_300
+@EX Part 4: Reading - Service Quality Standards
+@INSTR Read about service quality factors and choose the best answers.
+_80
+@PASSAGE
+Service Quality Standards and Indicators
+Reliable service requires multiple components working together. New software alone is insufficient if the reply is always late. A friendly desk officer alone is insufficient if the instruction is always wrong. Quality requires coordination of many factors: correct information, an answer the user can rely on, reliable replies, accurate records, a quick answer, and a settled complaint.
+Staff competence is the most important factor in service quality. A skilled desk officer keeps a user reporting with modest resources. A poorly trained one loses the trust the function spent years building. Investment in training and supervision creates stronger impact than investment in software. In resource-limited offices, staff competence determines everything.
+Promises must suit what the function can actually do. A standard taken from another company and never tested at your own desk fails quietly. Testing shows the promise works with your staff, your records section, and your telephone line. Standards respecting local conditions produce service that holds.
+Traceable contacts mean every report can be followed back to what was agreed. Reports are logged, callers are recorded, and complaints are registered. Without traceability, a dispute becomes an argument about memory.
+Honest recording determines whether the system is worth anything. If staff record what the user actually said, a problem can be found and fixed. If complaints are not written down, nobody can investigate anything. Building a culture where bad news is reported safely creates the conditions for real service.
+User feedback should confirm that the function's view matches the user's. An internal report shows activity but not satisfaction. Asking the user directly shows whether the promise was felt. Results should guide improvement, not simply be filed.
+Syria's service challenges stem from infrastructure and cost. Power is interrupted, telephone lines fail, prices move between quotation and purchase, and machines are hard to repair. Building service quality requires not just goodwill but attention to staff training, realistic promises and honest records alongside resources.
+@MCQ
+1. What factor has the most impact on service quality?
+@OPT
+   ○ A) The newest software
+   ○ B) Staff competence and training
+   ○ C) Equipment spend alone
+@MCQ
+2. Why is traceability of reports important for service?
+@OPT
+   ○ A) Traceability has no effect on service
+   ○ B) Without it, a dispute becomes an argument about memory
+   ○ C) Traceability and service are unrelated
+_300
+@EX Part 4: Application - Integrated System Assessment
+@INSTR Read scenarios and fill in how to assess whether user support and awareness are well integrated.
+_80
+@GRID
+Integration Assessment Area | What It Shows About Integration
+Regular joint meetings between the desk and the records section | 
+Complaints answered while the user still needs the answer | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Shows that the two functions coordinate priorities and adjust the plan together
+b)  Shows the service is designed to keep the user reporting rather than to close a ticket
+_100
+_300
+@EX Part 4: True/False - Integration Principles
+@INSTR Read statements about integrated systems and mark True, False, or Not Given.
+_80
+@PANEL
+Integrated desk and awareness systems serve every user fairly regardless of the size of their section. Service standards kept by trained staff lead to more confidence than new software alone. A late reply is acceptable if the information is correct. Staff competence is more important to service than the size of the equipment budget. Separate desk and records functions are always more efficient than integrated ones. A small function cannot achieve service comparable to a large one for routine reports. Service systems require continuous learning and adjustment based on how they perform.
+@NUM 100
+1. Should integrated systems serve every user fairly?
+2. Is a late reply acceptable if the information is correct?
+3. Are separate desk and records functions always more efficient?
+_300
+@EX Part 4: Discussion - Designing Integrated Systems
+@INSTR Discuss how to design a desk procedure and an awareness programme integrated from the start.
+_80
+@BULLET
+If you were designing user support and awareness together for a Syrian office, what would you include?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - Building Integrated Support and Awareness
+@INSTR Prepare a presentation on effective support and awareness integration strategies.
+_80
+@NUM 100
+1. Present strategies for building durable integrated support and awareness systems.
+_300
+@EX Part 5: RolePlay - Coordinating the Desk and the Records Office
+@INSTR Roleplay coordinating the desk and the records section when their priorities conflict.
+_80
+_300
+@EX Part 5: Discussion - Your Vision for User Service
+@INSTR Discuss how better service could transform a local function.
+_80
+@BULLET
+How would integrated user support and awareness transform a function like one near you?
+_300
+@EX Part 5: RolePlay - Advocating for Service Investment
+@INSTR Roleplay advocating for investment in user service to the company's managers.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Support and Awareness Plan
+@INSTR Write a brief plan for integrating a desk procedure with an awareness programme.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Addressing Integration Challenges
+@INSTR Write about a challenge in integrating the desk and the records section and how you would solve it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Impact of Better Service on Users
+@INSTR Write about how better user support and awareness changed what users receive.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Vision for a Trusted Function
+@INSTR Write about your vision for functions whose user support and awareness develop together.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Service and Patience in Syrian Perspective
+@INSTR Read about Syrian values supporting integrated support and awareness work.
+_80
+@PANEL
+Syrian Values Supporting Service and Patience
+Syrian traditions provide a strong foundation supporting integrated user support and awareness. Understanding them helps design culturally appropriate systems gaining workforce and user support.
+The idea of "amanah" or trust held on behalf of others is central to Syrian practice. A record left with you is a trust, and the one who holds it answers for it. Protecting and replying are understood as duties: those who know an answer are expected to give it, and those who accept a report are expected to reply. Service in Syrian tradition is a moral obligation, not only an administrative calculation. Systems expressing that duty, with a named person answering for each report, gain stronger support.
+Syrian teaching emphasizes hospitality as a shared responsibility. Households and workshops have long received visitors through the diwan, where a guest is welcomed before business begins, and knowledge of who can be trusted passes between families. Fair dealing is understood as a balance between the question, the answer, the promise and the people, and keeping that balance is everybody's work. Service standards aligned with these values frame care as receiving a neighbour, not as an outside imposition.
+Shared responsibility supports integration. The office is the space whose users share a reputation and a set of customers. Members are responsible for each other. If one desk officer gives a wrong instruction, the whole function's reputation suffers. If one officer promises what cannot be delivered, every promise is weakened. An integrated system combines protecting and replying as a single shared responsibility.
+Women's role in this work is deep and increasingly recognized. Women hold detailed knowledge of how records are actually kept, how users are received and what courtesy means in practice, and increasingly lead help desks. Senior officers emphasize that training women officers strengthens the whole function. Service training that respects this knowledge aligns with these values even where older practice overlooked it.
+Syrian craft ethics require high standards. Master craftsmen and senior clerks are trusted figures accountable to their colleagues and to the family name in the register. Tradition emphasizes mastery and trustworthiness in those who serve. Systems emphasizing honest dealing and competence align with these values.
+The traditional practice of serving the same families for generations shows that everything is interconnected — courtesy, accuracy, speed, cost and reputation. This way of thinking naturally supports integrated systems. Separating the protecting from the replying fragments what a user experiences as one relationship. Integrated systems honour that unity.
+Aligning user support and awareness with Syrian values creates stronger acceptance and care. Staff see the system as consistent with their own standards, not threatening them.
+@NUM 100
+1. How does Syrian tradition support service as a moral obligation?
+2. What traditional Syrian practice supports integrated systems?
+_300
+@EX Part 7: Discussion - Culturally Appropriate Awareness Training
+@INSTR Discuss how to design support and awareness systems respecting local values and practices.
+_80
+@BULLET
+How can support and awareness systems honour local practice while improving on it?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 7 Summary - Support and Awareness Concepts
+@INSTR Review Unit 7 by matching support and awareness concepts with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Report log
+2. | Service level
+3. | Confidence
+4. | Acknowledgement
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The record of who called, what happened and who answered
+b) | The agreed standard of support and response a user can expect
+c) | A user reporting again because the last contact went well
+d) | A note confirming what was received and who is dealing with it
+_300
+@EX Part 8: Integrated Assessment - Unit 7 Mastery
+@INSTR Demonstrate understanding of Unit 7. Choose the best answer.
+_80
+@MCQ
+1. Why are user support and awareness closely connected?
+@OPT
+   ○ A) They are actually separate and unrelated
+   ○ B) The desk receives the report and the training is what prevents the next one
+   ○ C) Only new software matters for reputation
+@MCQ
+2. What is the primary advantage of integrating user support and awareness?
+@OPT
+   ○ A) It costs the same but achieves less
+   ○ B) Users keep reporting, so each incident costs less than one discovered late
+   ○ C) Integration provides no advantages
+@MCQ
+3. How does a trained section champion expand a function's reach?
+@OPT
+   ○ A) It reduces the function's reputation
+   ○ B) A local name answers in branches a desk officer cannot visit weekly
+   ○ C) Champions are not important
+@MCQ
+4. What makes staff competence so important in service?
+@OPT
+   ○ A) Software has no effect on reputation
+   ○ B) A skilled desk officer keeps a user reporting with modest resources, and a poor one loses them
+   ○ C) Competence only matters in large companies
+_300

@@ -1,0 +1,462 @@
+@UNITHEAD Unit 5: The Incident Response Cycle
+@PART Warm Up | Warm Up
+@EX Warm-Up: Incident Response Discussion
+@INSTR Discuss what it takes to prepare a year of incident response work.
+_80
+@BULLET
+What steps do you think an office should take when it prepares for the coming year?
+_300
+@EX Warm-Up: Cycle Stages Matching
+@INSTR Match cycle stages with their main activities and purposes.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Response objective
+2. | Plan and schedule
+3. | Response
+4. | Review
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Agreeing with the sections what the function will protect, and how quickly
+b) | Looking back at the completed year to decide what to change next time
+c) | Turning the objectives into officer hours, licences and figures month by month
+d) | Containing the incident, watching the clock and correcting as you go
+_300
+@EX Warm-Up: Incident Response Multiple Choice
+@INSTR Read and choose the best answer about preparing a function.
+_80
+@MCQ
+1. What is the purpose of a response plan?
+@OPT
+   ○ A) To record what has already gone wrong this year
+   ○ B) To state in advance what will be done, so the response can be controlled
+   ○ C) To impress the auditor
+_300
+@EX Warm-Up: Discussion - Challenges in Incident Response
+@INSTR Discuss common challenges that response plans face during the year.
+_80
+@BULLET
+What usually goes wrong with a response plan during the year, and how can staff respond?
+_300
+@EX Warm-Up: Cycle Phases Classification
+@INSTR Classify activities as belonging to the Planning, Response, or Review phase.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Planning
+2. Response
+3. Review
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Agreeing next year's recovery times with the sections  ____________________________
+2. Watching this month's licence spending against the budget line  ____________________________
+3. Comparing the finished year with the plan and explaining the difference  ____________________________
+4. Deciding what a new backup disk may cost to install  ____________________________
+5. Approving an urgent purchase against the budget already set  ____________________________
+6. Writing the lessons from last year into next year's assumptions  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Detection and Response Terms Matching
+@INSTR Match response and scheduling terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Response plan
+3. | Forecast
+4. | Variance
+5. | On-call roster
+_300
+@COLHEAD Column B
+@MATCHB
+a) | The roster showing who is on duty at night and who answers the telephone
+b) | A statement of what the function intends to achieve and by when
+c) | The difference between what was planned and what actually happened
+d) | A plan of what will be done and spent over a stated period, usually a year
+e) | A best estimate of what will happen, revised as the year goes on
+_300
+@EX Part 1: Response Cycle Components Table
+@INSTR Complete the table with cycle components and their descriptions.
+_80
+@GRID
+Component | What It Decides | Who Approves It
+Security plan |  | 
+Security budget |  | 
+On-call roster |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  What the function will protect, for which sections, and how quickly
+b)  The security officer and the IT manager together
+c)  What each section may spend and on what
+d)  The IT manager, within the limit the directors set
+e)  Who is on duty at night and who answers the telephone each day
+f)  The security officer, reviewed by the company monthly
+_100
+_300
+@EX Part 1: Response Terms Fill-in Blanks
+@INSTR Complete sentences using response and scheduling vocabulary.
+_80
+@GAP
+1. The people who approve the money the function spends are the ____________________.
+2. ____________________ are everyone with an interest in the plan, including staff and suppliers.
+3. ____________________ means the difference between the plan and what actually happened.
+4. An ____________________ shows who is on duty at night and who answers the telephone.
+_300
+@EX Part 1: Incident Response in Context - Fact Questions
+@INSTR Read about incident response and answer detailed fact questions.
+_80
+@PANEL
+Incident Response and the Recovery Cycle
+All well-run functions follow a similar cycle. First is the objective, where the officer meets the sections to agree what the function will protect and what risks it accepts. This phase usually takes weeks. Officers learn what each section expects, what they can support, and what they cannot.
+Second is planning, where the officer turns the objectives into figures. Planning includes setting recovery times, agreeing what each section may spend, forecasting the licences, and deciding who may approve what. The plan becomes the document against which every later decision is measured.
+Third is response, where the plan is actually carried out. During a response, officers contain the problem, help-desk staff answer the users, and the storekeeper issues a replacement machine. Sections participate actively because most of the work happens on their own desks.
+Fourth is monitoring, where the officer watches the figures as they arrive. Monitoring happens throughout the year. Officers compare actual with plan, spot a variance, and correct the course while the year can still be saved.
+Fifth is review and reporting, which happens at the end. Officers confirm whether the objectives were met. They compare the result with the plan and with previous years. This information helps the function set better objectives next time.
+This cycle repeats continuously, creating ongoing improvement and learning.
+@NUM 100
+1. What is the purpose of the objective phase?
+2. What does monitoring watch during the year?
+_300
+@EX Part 1: Discussion - Your Experience Responding
+@INSTR Discuss how response principles apply to your own experience.
+_80
+@BULLET
+Think of a time something failed and you had to act. What steps did you take and what happened?
+_300
+@EX Part 1: Listening - Security Officers Explain Response
+@AUDIO 🔊 Audio Track 5.11
+@INSTR Listen to security officers describing their response process and answer questions.
+_80
+@MCQ
+1. Why did the officer visit each section first?
+@OPT
+   ○ A) To immediately start cutting the budget
+   ○ B) To see what each section actually needed before promising a recovery time
+   ○ C) To impose a standard plan
+@MCQ
+2. What principle guided the officer's budget decision?
+@OPT
+   ○ A) Budgeting for the most optimistic case
+   ○ B) Budgeting for what the office can afford if prices rise
+   ○ C) Doing only what the largest section prefers
+_300
+@EX Part 1: Response Cycle Summary - Multiple Choice
+@INSTR Choose the best explanation of incident response concepts.
+_80
+@MCQ
+1. What is the relationship between the objective and the plan?
+@OPT
+   ○ A) The objective is unnecessary if you have a good plan
+   ○ B) The objective shapes a plan that protects what actually matters
+   ○ C) The plan always comes before the objective
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Sequencing Words for Cycle Steps
+@INSTR Complete sentences using words that show the order of cycle steps.
+_80
+@NUM
+1. ____________________ (first) the officer agrees the objective with the sections.
+2. ____________________ (then) they build the plan and forecast the licences.
+3. ____________________ (finally) they review the year and report the result.
+_300
+@EX Part 2: Conditional Sentences About Response
+@INSTR Complete the table with conditional sentences about incident response.
+_80
+@GRID
+If Statement (Condition) | Then Result
+If sections do not take part in the plan | 
+If officers watch the variances monthly | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  They will not defend a limit they never agreed to
+b)  They can correct the course while the year can still be saved
+_100
+_300
+@EX Part 2: Passive Voice for Office Activities
+@INSTR Complete sentences using passive voice to describe office activities.
+_80
+@GAP
+1. A risk assessment ____________________ on every new system before the plan is set.
+2. Account requests ____________________ against the policy before they are approved.
+3. The annual accounts ____________________ by an independent auditor.
+4. Every decision ____________________ so it can be reviewed afterwards.
+_300
+@EX Part 2: Expressing Purpose with "to" and "in order to"
+@INSTR Complete sentences explaining the purpose of planning activities.
+_80
+@NUM
+1. Officers visit each section ____________________ (understand) what it actually needs.
+2. Careful forecasting is necessary ____________________ (ensure) the office never runs out of licences.
+3. Annual reviews help functions ____________________ (improve) their plans based on experience.
+_300
+@EX Part 2: Listening - Grammar of Response Discussion
+@AUDIO 🔊 Audio Track 5.17
+@INSTR Listen to an officer explaining response steps using various grammatical structures.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: When we plan a year, several grammatical structures help explain our work clearly. We say "The directors must approve the objective before we build the plan" using modals. We explain "If we forecast carefully, the licences will not expire" using conditionals. We describe "The plan is reviewed by the directors" using passive voice to show the action.
+~Coordinator: We say "We visit each section to understand the need" showing purpose. We explain order with words like "First we agree, then we plan, finally we review." Using varied grammatical structures helps us communicate response concepts clearly to auditors, to directors, and to our own security team.
+_200
+@QUESTION
+1. What purpose do modals serve in response discussion?
+2. Why does the officer use multiple grammatical structures?
+_300
+@EX Part 2: Grammar Review - Response Expressions
+@INSTR Discuss how different grammar patterns help explain incident response.
+_80
+@BULLET
+Explain how to use conditionals, passive voice, and sequencing to describe the response cycle.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Incident Types Discussion
+@INSTR Before listening, discuss different types of incident that staff prepare for in Syria.
+_80
+@BULLET
+What types of incident happen in Syrian offices and what does each one require?
+_300
+@EX Part 3: Listening - Officers Explain Challenges
+@AUDIO 🔊 Audio Track 5.20
+@INSTR Listen to officers discussing challenges they faced and how they addressed them.
+_80
+@PLAYNOTE
+@SCRIPT
+^Manager: In my office, I faced a challenge when trained officers left for work abroad. We had invested in their training and then suddenly they were gone. The solution was to improve pay and conditions for all staff. We also trained extra officers and cross-trained the help-desk clerk so leaving staff would not stop the work. The lesson was that a plan must include retention, not just salaries.
+~Coordinator: My office faced an equipment problem. We had budgeted for a backup disk in March but the price in June was very different. The sections became frustrated even though the loss was not their fault. The solution was transparent communication and a quotation that stated how long the price held. We also began keeping a small reserve of consumables. Now I always build a price assumption into every plan.
+_200
+@QUESTION
+1. How did the IT manager solve the staff retention problem?
+2. What did the security officer learn about quotations and plans?
+_300
+@EX Part 3: True/False - Incident Response Practices
+@INSTR Read statements about response practices and mark True, False, or Not Given.
+_80
+@PANEL
+Effective security management requires clear planning from the beginning. Agreeing the objective and assessing risk is a waste of time compared to starting work immediately. Good officers build a reserve of equipment and spare capacity to accommodate unexpected problems. Section participation in the plan increases success rates significantly. Monitoring is optional if the staff are competent and motivated. Limited equipment requires officers to make difficult choices about what matters most. Consistency means the function keeps meeting its commitments month after month. Regular communication with directors and staff prevents misunderstandings and builds trust.
+@NUM 100
+1. Agreeing the objective and assessing risk is important in incident response.
+2. Monitoring is necessary only at the end of the year.
+3. A reserve of equipment helps accommodate unexpected problems.
+_300
+@EX Part 3: Listening - Different Perspectives on Response
+@AUDIO 🔊 Audio Track 5.22
+@INSTR Listen to different people describing incident response from their perspectives.
+_80
+@MCQ
+1. Why did the help-desk officer feel respected in the planning process?
+@OPT
+   ○ A) Officers made all decisions quickly
+   ○ B) Officers listened to the desk staff and involved them in setting the targets
+   ○ C) Officers installed a standard plan without asking
+@MCQ
+2. What does the security officer say takes longer than directors expect?
+@OPT
+   ○ A) Printing the plan
+   ○ B) Agreeing the objective and holding the section meetings
+   ○ C) Monitoring during the year
+_300
+@EX Part 3: Listening - Response Lessons Learned
+@AUDIO 🔊 Audio Track 5.23
+@INSTR Listen to experienced officers sharing lessons they learned.
+_80
+@PLAYNOTE
+@SCRIPT
+~Coordinator: One critical lesson I learned is that clear communication prevents 90 percent of response problems. When directors, sections and users all understand the same objective and the same limits, everyone works together. When communication is unclear, misunderstandings grow into missed deadlines. Now I spend significant time ensuring all parties understand exactly what will be protected, how quickly, and at what cost. This prevents assumptions and surprises.
+^Manager: Another lesson is build relationships before incidents appear. If you have not spent time getting to know the users and the section heads before something fails, they will not trust you when it does. But if they know you, have seen you work, and trust your integrity, they will believe you and cooperate when you need a quick decision. Trust is built over months of consistent, respectful presence, not during a crisis.
+_200
+@QUESTION
+1. What percentage of problems does the first officer say clear communication prevents?
+2. When should relationships with users and section heads be built according to the second speaker?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Recovery Success Discussion
+@INSTR Discuss what makes some functions succeed while others struggle.
+_80
+@BULLET
+Why do you think some functions recover smoothly while others with the same staff struggle?
+_300
+@EX Part 4: Reading - The Response Cycle in Detail
+@INSTR Read detailed information about incident response in Syria and answer questions.
+_80
+@PANEL
+Incident Response in Syria: Adapting to Complex Contexts
+Syrian offices face unique challenges in response and recovery. Interrupted power, difficulty importing spare parts, and licences that cannot be renewed create real obstacles. Despite these difficulties, Syrian and international staff successfully run the night duty, the help desk, the backup and the access review.
+Successful plans in Syria begin with a careful assessment of current conditions. Planning teams meet the sections, the officers and the suppliers. They identify what can actually be protected with the equipment available and which parts can actually be obtained. They learn what the organisation can afford this year. Good assessment in Syria includes understanding power interruptions and the fairness that lets every section be judged by the same rules.
+Planning in Syria requires flexibility. Officers cannot assume that a disk will cost in June what it cost in March. They cannot assume that a long restore will run without interruption. Successful Syrian plans build flexibility into the figures from the start. They accept quotations that state how long they hold. They plan in stages that allow quick adjustment if conditions change.
+Response in Syria requires careful scheduling. Offices protect their deadlines by planning when each task is done. They consider timing—not starting a long restore before a known power cut. They consider location—holding a little stock of the part hardest to replace. They ensure officers understand the plan and the cost of changing it.
+Review and reporting in Syria is critical. Directors need rapid information about whether the plan held, whether conditions changed, and whether the records are safe. This information helps adjust the plan before small problems become losses. Regular section feedback ensures the plan stays responsive to changing requirements.
+Durable functions in Syria build local capacity. Outside support will eventually end. Successful companies train Syrian staff, use methods that can be run with locally available tools, and document so that staff turnover does not lose the knowledge. This ensures that the protection continues after outside involvement ends.
+@NUM 100
+1. What are the unique challenges for incident response in Syria?
+2. Why do successful Syrian plans build flexibility into the figures?
+_300
+@EX Part 4: Reading - User-Centred Response
+@INSTR Read about making sure response plans truly meet the users' needs.
+_80
+@PASSAGE
+User-Centred Response
+The most effective response plans place the user at the centre of every decision. This means understanding not just what a section asks for but how it works, when its own deadlines fall, and what it most fears going wrong.
+User-centred response begins with genuine listening. This means not just reading the request but listening without judgment to answers that may surprise the security officer. A section might accept a slower recovery but refuse any change to the way its files are named. A head might care more about one reliable machine than about new software.
+This approach requires humility from officers. Planners must accept that sections are experts in their own work. Their understanding of what will and will not matter is often more accurate than an officer's prediction. Successful planners listen more than they talk, ask more than they advise.
+User-centred response also means including people in decisions. Which systems will be copied first? How often will a password be changed? What happens when a machine is lost? When sections have a voice in these decisions, they trust the function and support it.
+This approach takes more time and requires more patience than writing a plan from last year's figures. However, the results justify the investment. Sections support a function that helped define the service. They complain less. They tell you early when their own needs change.
+@MCQ
+1. What does user-centred response require from officers?
+@OPT
+   ○ A) Making decisions quickly without listening
+   ○ B) Humility to accept sections' expertise and genuine listening without judgment
+   ○ C) Repeating last year's plan without modification
+@MCQ
+2. Why might a section accept a slower recovery but refuse a change to the way its files are named?
+@OPT
+   ○ A) Sections do not understand security
+   ○ B) Their own work may make the file names matter far more than the speed
+   ○ C) Only for temporary situations
+_300
+@EX Part 4: Application - Response for Different Contexts
+@INSTR Read scenarios and fill in planning considerations for each context.
+_80
+@GRID
+Function Type | Key Planning Consideration
+A small function serving one section | 
+A security team serving five branches | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  Cash flow, because a disk must be bought before the allocation arrives
+b)  Rapid assessment of each branch's access and licence requirements
+_100
+_300
+@EX Part 4: True/False - Response Principles
+@INSTR Read statements about response principles and mark True, False, or Not Given.
+_80
+@PANEL
+User-centred response requires more time and resources than repeating last year's figures. Sections should have a voice in service decisions. Officers know better than sections what sections need. Building trust before incidents appear is valuable. Successful functions in difficult conditions require flexibility and adaptability. Agreeing the objective and listening are less important than starting work quickly. Section participation increases support and reduces complaints. Review should happen only at the end of the year.
+@NUM 100
+1. Sections should take part in service decisions.
+2. Sections always know their needs better than officers.
+3. Agreeing the objective and listening are important in incident response.
+_300
+@EX Part 4: Discussion - Creating a Function That Lasts
+@INSTR Discuss how to build functions that go on working.
+_80
+@BULLET
+What makes a security function last beyond its founder, and how would you build that?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Presentation - The Incident Response Process
+@INSTR Prepare a presentation explaining the complete incident response process.
+_80
+@NUM 100
+1. Present the five main phases of the response cycle and what happens in each.
+_300
+@EX Part 5: RolePlay - Incident Team Meeting
+@INSTR Roleplay an incident team meeting discussing response challenges and solutions.
+_80
+_300
+@EX Part 5: Discussion - Your Own Response Ideas
+@INSTR Discuss a security problem and how you would plan to solve it.
+_80
+@BULLET
+Describe a security problem you know about and outline how you would plan to solve it.
+_300
+@EX Part 5: RolePlay - Explaining a Response Plan to Staff
+@INSTR Roleplay explaining next year's plan to officers and responding to their questions.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing - Incident Response Plan Outline
+@INSTR Write a basic incident response plan outline for a function you would like to run.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Reflecting on User Feedback
+@INSTR Write about how user feedback changed your response plan.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Solving a Containment Challenge
+@INSTR Write about a challenge you would face during a response and how to overcome it.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing - Your Vision for the Function
+@INSTR Write about the lasting change you hope a well-run function would create.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Keeping Services Running in Syrian Conditions
+@INSTR Read about cultural considerations in Syrian security work and answer questions.
+_80
+@PANEL
+Keeping Services Running in Syrian Conditions
+Successful security work in Syria adapts to local values and working practices. Syrian culture values the family, respect for elders, religious faith, personal honour, and craft mastery. Ignoring these values makes a written policy resented and quietly bypassed.
+Security practice must respect religious requirements, so the on-call roster must allow for prayer times and for religious holidays, and the night duty is shared rather than given always to the youngest. New rules must be explained, not simply posted, so staff understand the reason behind each one.
+Offices must employ local staff who understand the users and speak the dialect. International partners cannot read the signals that local staff know instinctively. Local staff obtain a provider's cooperation more easily because they are part of the same community.
+Offices must involve respected figures including the directors and the long-serving clerks. Even if an officer disagrees with a long-standing practice, involving the senior clerk prevents the change being seen as an insult to their knowledge. Respectful engagement usually finds a way to meet the requirement within the existing practice.
+Successful officers explain why a change matters in language the staff understand. A password rule succeeds when explained through the clerk whose account was used by somebody else, not through a clause in the handbook. A backup succeeds when connected to the pride of records that never have to be apologized for. A log succeeds when connected to protecting the family name on the office's work.
+This cultural adaptation is not compromising professional values. Principles of honesty and fairness can be accomplished within any culture. Good officers find ways to respect the workplace while meeting their obligations.
+@NUM 100
+1. Why do successful Syrian offices employ local staff?
+2. How can officers explain a new rule to staff?
+_300
+@EX Part 7: Discussion - Learning from Syrian Resourcefulness
+@INSTR Discuss what international partners can learn from Syrian approaches to keeping work running.
+_80
+@BULLET
+What can international partners learn from how Syrian officers keep a service running without spare parts?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 5 Summary - Response Terms and Concepts
+@INSTR Review Unit 5 by matching terms with their meanings.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Objective
+2. | Security budget
+3. | Variance
+4. | On-call roster
+_300
+@COLHEAD Column B
+@MATCHB
+a) | What the function intends to achieve and by when
+b) | A plan of what may be spent in a period
+c) | The difference between the plan and what happened
+d) | Who is on duty at night and who answers the telephone
+_300
+@EX Part 8: Integrated Assessment - Unit 5 Mastery
+@INSTR Demonstrate understanding of Unit 5. Choose the best answer.
+_80
+@MCQ
+1. Why is the objective the first step in the response cycle?
+@OPT
+   ○ A) To waste time before working
+   ○ B) To agree what the function will protect and avoid planning for the wrong thing
+   ○ C) Sections do not need an objective
+@MCQ
+2. What does flexibility in a plan accomplish?
+@OPT
+   ○ A) It allows overspending without planning
+   ○ B) It allows adapting when prices rise or machines fail
+   ○ C) Flexible plans are not needed
+@MCQ
+3. Why is monitoring important during the year?
+@OPT
+   ○ A) It is optional if the staff are competent
+   ○ B) It catches a variance while the year can still be saved
+   ○ C) Review happens only at the end
+@MCQ
+4. What makes a function truly durable?
+@OPT
+   ○ A) An outside consultant stays involved indefinitely
+   ○ B) Local staff can run it with the tools and knowledge available locally
+   ○ C) The officer makes every decision personally
+_300
