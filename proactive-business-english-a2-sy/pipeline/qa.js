@@ -19,6 +19,39 @@ const HOUSE = {
   "'Write with help": 7, "'Write freely": 7,
 };
 
+// Characters a British-English A2 book may contain. Anything else in a content file
+// is a stray from an editor, a paste or a keyboard layout, and it reaches the printed
+// page silently — the Cyrillic word that got into one table cell looked like a dash.
+const ALLOWED = new Set([
+  0x2013, 0x2014,                   // – —
+  0x2018, 0x2019, 0x201C, 0x201D,   // ' ' " "
+  0x2026, 0x00B7, 0x2022,           // … · •
+  0x2192, 0x2194, 0x2197,           // → ↔ ↗
+  0x2713, 0x2717, 0x2610, 0x2605,   // ✓ ✗ ☐ ★
+  0x26A0, 0x2248, 0x00B0, 0x00A3,   // ⚠ ≈ ° £
+  0x20AC, 0x2016,                   // € ‖
+  0x1F50A, 0x1F600, 0x1F642, 0x1F610, // 🔊 😀 🙂 😐
+  0x2260,                           // ≠ (used in the Language boxes)
+  0x00E9,                           // é — café, and only that
+  // IPA letters this book transcribes with that sit OUTSIDE the IPA block
+  0x00E6, 0x00F0, 0x014B, 0x03B8,   // æ ð ŋ θ
+]);
+// The IPA Extensions block, plus the length mark and the two stress marks.
+const inIPA = cp => (cp >= 0x250 && cp <= 0x2AF) || cp === 0x2C8 || cp === 0x2CC || cp === 0x2D0;
+
+function checkChars(file, s) {
+  const bad = new Map();
+  for (const ch of s) {
+    const cp = ch.codePointAt(0);
+    if (cp < 128 || ALLOWED.has(cp) || inIPA(cp)) continue;
+    bad.set(ch, (bad.get(ch) || 0) + 1);
+  }
+  bad.forEach((n, ch) => {
+    const hex = ch.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
+    fail(`${file}: ${n} occurrence(s) of U+${hex} "${ch}" — not a character this book uses`);
+  });
+}
+
 let faults = 0;
 const fail = m => { console.log('  ✗ ' + m); faults++; };
 
@@ -27,6 +60,7 @@ function countOccurrences(s, needle) {
 }
 
 function checkUnit(file, s, n) {
+  checkChars(file, s);
   for (const [needle, want] of Object.entries(HOUSE)) {
     const got = countOccurrences(s, needle.replace('\\\\', '\\'));
     if (got !== want) fail(`${file}: ${needle} = ${got}, house figure is ${want}`);
@@ -64,6 +98,7 @@ function cycles(s) {
 }
 
 function checkKey(file, s, unitSrc) {
+  checkChars(file, s);
   if (!/module\.exports = out;/.test(s)) fail(`${file}: no module.exports`);
   if (!/require\.main === module/.test(s)) fail(`${file}: no require.main build line`);
 
