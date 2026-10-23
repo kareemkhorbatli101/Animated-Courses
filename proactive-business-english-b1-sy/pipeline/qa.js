@@ -19,8 +19,12 @@ const CAST = ['Nour', 'Mr Ayoub', 'Nadia', 'Bassel', 'Abu Yasser', 'Hala', 'Fadi
               'Clinic', 'Receptionist', 'Pharmacist', 'Teacher', 'Hotel', 'Station',
               'Technician',   // A2 Unit 20, the repairs unit — an institutional voice
               'Visitor',      // A2 Unit 23, the city unit — an institutional voice
-              'Agent'];       // declared at B1 Unit 1, the freight agent on the other end
+              'Agent',        // declared at B1 Unit 1, the freight agent on the other end
                               // of the first call — refused on first use, as intended
+              'Lina',         // Lina Barakat, trainee administrator — joins at Book 2 Unit 13
+              'Buyer',        // Book 2 Unit 16, the export enquiry — a buyer on the other end
+                              // of a line, before Ms Tannous is named. Refused on first use
+              'Officer'];     // Book 2 Unit 20, the customs officer — named by his office
 // ⚠ Nothing is pre-declared for B1. The institutional voices the plan EXPECTS —
 // Auditor, Officer, Agent, Buyer — are deliberately absent, so that the first use of
 // each is refused and the decision to add it gets written down with its unit number.
