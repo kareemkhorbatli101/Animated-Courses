@@ -1,0 +1,376 @@
+@UNITHEAD Unit 10: Security Advocacy and Professional Communication
+@PART Warm Up | Warm Up
+@EX Warm-Up: What is Security Advocacy Discussion
+@INSTR Discuss what security advocacy means and why officers take it on.
+_80
+@BULLET
+What is security advocacy and why do officers do it rather than just running their own function?
+_300
+@EX Warm-Up: Levels of Advocacy Matching
+@INSTR Match advocacy levels with examples of change they pursue.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | User Level
+2. | Organisation Level
+3. | Sector Level
+4. | National Level
+5. | International Level
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Conventions on personal data and the standards a foreign customer expects
+b) | Strengthening the professional association and the voice of officers
+c) | Changing one user's understanding and habits at the desk
+d) | Changing national regulation, licence rules and reporting procedure
+e) | Changing company-wide policies, budgets and the way decisions are taken
+_300
+@EX Warm-Up: Systems Thinking Discussion
+@INSTR Discuss what systems thinking means for security work.
+_80
+@BULLET
+What does "systems thinking" mean and how does it improve a security officer's effectiveness?
+_300
+@EX Warm-Up: Working in Associations Discussion
+@INSTR Discuss why offices work together in professional associations.
+_80
+@BULLET
+Why do security officers form professional associations with others in their field?
+_300
+@EX Warm-Up: Evidence-Based Advocacy Classification
+@INSTR Classify advocacy activities by whether they are evidence-based or story-based.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Evidence-Based Advocacy
+2. Story-Based Advocacy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A survey showing 60% of offices wait a month for one software approval  ____________________________
+2. A short film of three officers describing the week they rebuilt a server  ____________________________
+3. Data showing offices with written policies lose half as many records  ____________________________
+4. Accounts from officers about the months their requests were unsigned  ____________________________
+5. A cost study showing what each day of downtime costs a company  ____________________________
+6. A newsletter with quotes from officers about pride in their work  ____________________________
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Advocacy Terminology Matching
+@INSTR Match advocacy terms with their definitions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Business Case
+2. | Professional Association
+3. | Evidence-Based Advocacy
+4. | User Voice
+5. | Mentoring
+6. | Committees
+7. | Decision Authority
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Groups of officers in the same field working toward common aims
+b) | Using factual data to convince decision-makers
+c) | Staff raising their own concerns directly to management
+d) | Organised effort to change the rules and conditions offices work under
+e) | Helping a junior officer improve without taking over their decisions
+f) | Power to approve budgets and sign contracts, held by people and rules
+g) | Bodies connecting companies in a city for coordination and certification
+_300
+@EX Part 1: Policy Change Terminology Matching
+@INSTR Match policy and systems change terms with descriptions.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Systems Thinking
+2. | Licence Policy
+3. | Policy Champion
+4. | Evidence-Based Policy
+5. | Policy Scaling
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Using data to design and review the rules offices work under
+b) | A senior official who understands the problem and will back the change
+c) | Solving problems by understanding how the parts are connected
+d) | Spreading one office's proven procedure across every branch
+e) | A rule that deliberately protects small offices when costs press
+_300
+@EX Part 1: Advocacy Approaches Multiple Choice
+@INSTR Choose the best answer about advocacy approaches.
+_80
+@MCQ
+1. What is the primary goal of most security advocacy?
+@OPT
+   ○ A) To improve office decoration and reduce noise
+   ○ B) To change rules and conditions so offices can protect records and work
+   ○ C) To replace management with the coordination committee
+_300
+@EX Part 1: Stakeholder Analysis Concept Discussion
+@INSTR Discuss what stakeholder analysis means for planning a business case.
+_80
+@BULLET
+What is stakeholder analysis and why is it essential for planning a business case?
+_300
+@EX Part 1: Rules-Based Approaches Multiple Choice
+@INSTR Choose the correct answer about rules-based advocacy.
+_80
+@MCQ
+1. What is a "rules-based approach" to security advocacy?
+@OPT
+   ○ A) Arguing for a rule that applies to everyone rather than a favour for one section
+   ○ B) Working only with directors without involving other officers
+   ○ C) Working without asking what the regulations require
+_300
+@EX Part 1: Advocacy Tools Matching
+@INSTR Match advocacy tools with examples of how they are used.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Direct Briefing
+2. | Media Engagement
+3. | Legal Appeal
+4. | Collective Action
+5. | Staff Communication
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Users sending suggestions and concerns to the management committee
+b) | Press coverage raising public awareness and expectation
+c) | Direct meetings with directors to present the evidence
+d) | Challenging a decision through the courts or an appeal board
+e) | Offices in a sector together asking for the same change
+_300
+@EX Part 1: Advocacy Strategy Components Classification
+@INSTR Classify advocacy components as part of LONG-TERM or SHORT-TERM strategy.
+_80
+@CAT
+Categories:
+@CATITEM
+1. Short-Term Advocacy Action
+2. Long-Term Advocacy Strategy
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. A press briefing after a week of stolen accounts across the city  ____________________________
+2. Building a network of officers across the whole sector  ____________________________
+3. A delegation to the ministry after a sudden rule change  ____________________________
+4. Developing policy champions inside the Ministry of Communications and Technology  ____________________________
+5. Releasing a study showing what downtime costs companies  ____________________________
+6. Creating a standing committee so offices have an ongoing voice  ____________________________
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Persuasive Language for Security Messages
+@INSTR Write persuasive security messages using strong language.
+_80
+@NUM 100
+1. Write messages to directors about reducing the time a software approval takes to issue.
+_300
+@EX Part 2: Conditional Language for Policy Analysis
+@INSTR Use conditional structures to analyse the effect of a rule.
+_80
+@NUM 100
+1. Use conditional language (if-then, unless, provided that) to discuss what would happen if the approval rule changed.
+_300
+@EX Part 2: Argument Structure for Security Briefs
+@INSTR Complete argumentative sentences for security briefs.
+_80
+@OPTLINE
+1. The evidence __________ that faster approvals reduce the number of unpatched machines. | demonstrates | questions | ignores | disputes
+_300
+@EX Part 2: Reporting Users' Concerns
+@INSTR Write statements reporting users' concerns clearly.
+_80
+@NUM 100
+1. Write statements reporting the concerns raised by users about the new password rule.
+_300
+@EX Part 2: Academic Language for Study Reports
+@INSTR Complete academic sentences for security study reports.
+_80
+@OPTLINE
+1. This study __________ the hypothesis that written policies reduce lost records. | confirms | contradicts | ignores | delays
+_300
+@EX Part 2: Inclusive Language in Joint Documents
+@INSTR Write inclusive statements for joint security documents.
+_80
+@NUM 100
+1. Write statements that unite companies, officers and users toward shared aims.
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Listening to a User's Voice
+@AUDIO 🔊 Audio Track 10.19
+@INSTR Listen to a user speaking about raising a concern with management.
+_80
+@QUESTION
+1. What change did the user say resulted from the concern they raised?
+_300
+@EX Part 3: Listening to an Official's Perspective
+@AUDIO 🔊 Audio Track 10.20
+@INSTR Listen to an official discussing how an approval rule was changed.
+_80
+@MCQ
+1. According to the official, what most influenced the decision to change the rule?
+@OPT
+   ○ A) Pressure from one large company alone
+   ○ B) A combination of sector pressure, evidence that the change works, and what was administratively possible
+   ○ C) A request from one committee with no evidence attached
+_300
+@EX Part 3: Listening to Association Building Experience
+@AUDIO 🔊 Audio Track 10.21
+@INSTR Listen to officers describing how their association was formed.
+_80
+@QUESTION
+1. What were two main challenges the association faced when bringing offices together and how did they address them?
+_300
+@EX Part 3: Listening to Campaign Strategy Discussion
+@AUDIO 🔊 Audio Track 10.22
+@INSTR Listen to security officers planning an advocacy campaign.
+_80
+@MCQ
+1. What did the officers identify as the most important first step in planning the campaign?
+@OPT
+   ○ A) Putting a notice in the newspaper at once
+   ○ B) Carrying out a stakeholder analysis to understand every view and influence
+   ○ C) Going straight to the minister with a list of demands
+_300
+@EX Part 3: Listening to Results Reflection
+@AUDIO 🔊 Audio Track 10.23
+@INSTR Listen to officers reflecting on a campaign's outcomes.
+_80
+@QUESTION
+1. How did the officers describe what made their campaign succeed and where they fell short?
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Reading About Advocacy Impact
+@INSTR Read about advocacy impact and answer true/false/not given.
+_80
+@NUM 100
+1. Read: "Campaigns that combine the involvement of many companies with evidence-based arguments are more effective than single-office approaches. The offices affected must lead the effort for the change to hold. Directors respond to a combination of pressure and practicality—a business case must address what is administratively possible, not only what is ideal."
+            Is the following true, false, or not given? "Sector advocacy works best when one large company acts without involving others."
+_300
+@EX Part 4: Reading About Change Theories
+@INSTR Complete based on reading about how rules change.
+_80
+@NUM
+1. According to reading about how rules change, official decisions are influenced by __________ of factors.
+_300
+@EX Part 4: Reading About Systems Change Theory
+@INSTR Read about systems change approaches.
+_80
+@NUM 100
+1. Read: "Systems change occurs when several actions at different levels reinforce one another. One new rule alone may change little, but when it is combined with training, better administration and a shift in attitude, the change holds by itself. Effective systems change requires coordinated action across companies and sectors. This explains why associations become essential for advocacy aimed at changing the system rather than solving one office's problem."
+            Is the following statement true, false, or not given? "Systems change can be achieved by one office alone with no need for associations."
+_300
+@EX Part 4: Reading About Evidence Use in Advocacy
+@INSTR Complete based on reading about using evidence effectively.
+_80
+@NUM
+1. Based on reading material, what are two reasons why combining data with accounts from offices is more effective than using either alone?
+_300
+@EX Part 4: Reading About Influence in a Sector
+@INSTR Read about where influence lies in a professional sector.
+_80
+@NUM 100
+1. Read: "Understanding where influence lies is essential for effective advocacy. An influence analysis examines who holds the authority to decide, who shapes those decisions, who would gain from the change, who gains from the present arrangement, and how influence is spread among the parties. Different parties hold different sources of influence—formal authority (the ministry), money (the large companies), knowledge (the lawyers and the auditors), numbers (the small offices), collective voice (the association). Effective advocacy identifies where influence lies, builds support among those who can be persuaded, brings the small offices together (influence through numbers), and creates new influence (evidence, press attention, a shared committee) where little existed before."
+            According to the text, can small offices create influence through organising even if they hold no formal authority or money?
+_300
+@EX Part 4: Reading About Measuring Advocacy Impact
+@INSTR Complete based on reading about measuring an advocacy campaign.
+_80
+@NUM
+1. What indicators show that a campaign is creating change at different levels (office, sector, national policy)?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Making the Case to Officials
+@INSTR Role-play a meeting advocating for a change in an approval procedure.
+_80
+_300
+@EX Part 5: Presentation - Campaign Launch
+@INSTR Prepare a 2-3 minute presentation launching a security campaign.
+_80
+@NUM 100
+1. Present the launch of a campaign: "One Approval, Not Ten: Simplify the Request." Include: problem statement, evidence, who is affected, what change you are asking for, how offices can take part, timeline for the campaign.
+_300
+@EX Part 5: Discussion - Overcoming Advocacy Barriers
+@INSTR Discuss realistic obstacles to security advocacy and ways to overcome them.
+_80
+@BULLET
+What are common barriers that security campaigns face and how can officers overcome them?
+_300
+@EX Part 5: Role Play - Asking Other Offices to Take Part
+@INSTR Role-play asking other officers to join a sector campaign.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Writing a Campaign Strategy
+@INSTR Write a strategic plan for a security advocacy campaign.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing a Policy Brief for Decision Makers
+@INSTR Write a brief advocating for a specific official decision.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing an Association Charter
+@INSTR Write a charter describing how association members will work together.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Writing Messages for a Public Campaign
+@INSTR Write compelling messages for public awareness of a one-time code fraud.
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Syrian Values - Consultation
+@INSTR Connect Syrian consultation principles to joint security work.
+_80
+@NUM 100
+1. In Syrian practice, shura means matters are settled by consultation among those affected. How does this relate to associations and change led by the offices themselves?
+_300
+@EX Part 7: Syrian Values - Justice
+@INSTR Discuss principles of justice in changing the rules offices work under.
+_80
+@NUM 100
+1. In Syrian civic tradition, adl means removing unfair treatment and securing each person's due. How does this principle relate to advocacy aimed at changing the rules?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 10 Concepts Review Matching
+@INSTR Match Unit 10 advocacy concepts with their definitions for review.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Security Advocacy
+2. | Professional Association
+3. | Systems Thinking
+4. | Evidence-Based Advocacy
+5. | User Voice
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Staff raising their own concerns directly to management
+b) | Groups of officers in a field working toward common aims
+c) | Using evidence and data to convince decision-makers
+d) | Understanding how the parts of a problem are connected
+e) | Working to change the rules and conditions offices work under
+_300
+@EX Part 8: Advocacy Effectiveness Review
+@INSTR Choose the best summary about advocacy impact from Unit 10.
+_80
+@MCQ
+1. According to Unit 10, what combination of factors makes a security campaign most effective?
+@OPT
+   ○ A) The expertise of one large company, with no involvement of others, is sufficient
+   ○ B) Leadership from the offices affected combined with evidence, a shared association, and steady engagement with officials
+   ○ C) An immediate change of rule with no need for sustained effort
+_300
+_-p
