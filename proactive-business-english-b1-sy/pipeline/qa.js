@@ -373,7 +373,10 @@ function checkTest(paperFile, keyFile, spec) {
   // part headings carry their own marks; they must add up to their paper
   const chunks = t.split(/h2\('PAPER /).slice(1);
   chunks.forEach((chunk, i) => {
-    const partMarks = [...chunk.matchAll(/part\('Part \d+[^']*?\((\d+) marks\)'/g)].map(m => +m[1]);
+    // ⚠ [^']*? stops dead at an escaped apostrophe, so a part titled
+    // "Right, wrong or doesn\'t say" was invisible and Reading added to 10 of 15.
+    // Allow escapes inside the title: (?:[^'\\]|\\.)*?
+    const partMarks = [...chunk.matchAll(/part\('Part \d+(?:[^'\\]|\\.)*?\((\d+) marks\)'/g)].map(m => +m[1]);
     if (!partMarks.length) return;            // Speaking states its marks in boxes
     const sum = partMarks.reduce((a, b) => a + b, 0);
     if (sum !== papers[i].marks) {

@@ -3,7 +3,7 @@ const L = require('./lib');
 const { p, h1, h2, h3, pb, sp, stage, lesson, box, dlg, table, lines, item, bullet, C } = L;
 const out = [];
 const PHRASE_CARD = (list) => table(null, [list.map(x => '☐ ' + x)], list.map(() => 1));
-const LEXIS = 'standing instruction · process step · work instruction · hold point · control point · segregation of duties · four-eyes check · verification · reconciliation · variance · exception · waiver · compliance · non-compliance · corrective action · preventive action · upstream · downstream · handoff · pinch point · throughput · cycle time · as-is · to-be · walkthrough · sample check · spot check · chain of custody · version number · effective date';
+const LEXIS = 'method statement · process step · work instruction · hold point · control point · segregation of duties · four-eyes check · verification · reconciliation · variance · exception · waiver · compliance · non-compliance · corrective action · preventive action · upstream · downstream · handoff · pinch point · throughput · cycle time · as-is · to-be · walkthrough · sample check · spot check · chain of custody · version number · effective date';
 const BACK_AT_B1 = 'duty · shift · load';
 
 // ---------- UNIT OPENER ----------

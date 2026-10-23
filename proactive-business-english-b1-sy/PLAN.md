@@ -514,6 +514,22 @@ possible. **This is Decision 1.**
 ⚠ Both page figures are projections and Phase 2 replaces them with measurements. The basis is
 Business A2's measured 8+7 and 10+7 plus the step the general course took from A2 to B1.
 
+**✓ As built — the Book 1 Mid-Book Test, measured.** ~~10 + 8~~ → **8 + 7**. The projection was
+wrong in the same direction as A2's and for the same reason: a B1 paper carries fewer, longer
+items rather than more items, so the Reading and Listening papers each lost a part relative to
+A2 (three Reading parts of 5 and two Listening parts of 7 and 8) without losing marks. The
+**marks** were right and the **pages** were not, which is the fourth time in this series that a
+projection has survived its arithmetic and failed its measurement.
+
+**⚠ And one harness fault the Mid-Book Test found.** `checkTest`'s part-marks regex was
+`part\('Part \d+[^']*?\((\d+) marks\)'` — and `[^']*?` stops dead at an **escaped
+apostrophe**, so a part titled `Right, wrong or doesn\'t say` was invisible and the Reading paper
+added to 10 of 15. The paper was right and the check was wrong. Repaired to
+`(?:[^'\\]|\\.)*?` and then negative-tested by making Part 2 four marks, which it caught.
+⚠ This is the second escaping fault in the series after `bible.js`, and both were in strings
+holding an English contraction. **Any harness regex that reads a quoted title must allow
+escapes**, and the Series Bible gains the finding.
+
 **The key's page-break convention, which is series canon and was got wrong twice at A2:** a
 **unit** key puts a `pb()` before each cycle after the first; a **Mid-Book** key uses **three**;
 an **End-of-Book** key uses **five** — one before each of the four papers and one before the

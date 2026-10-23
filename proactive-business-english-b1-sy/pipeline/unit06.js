@@ -3,7 +3,7 @@ const L = require('./lib');
 const { p, h1, h2, h3, pb, sp, stage, lesson, box, dlg, table, lines, item, bullet, C } = L;
 const out = [];
 const PHRASE_CARD = (list) => table(null, [list.map(x => '☐ ' + x)], list.map(() => 1));
-const LEXIS = 'authority matrix · delegated authority · authorisation · mandate · remit · discretion · ceiling · countersign · single signature · joint signature · entitlement · liability · indemnity · undertaking · statutory · regulatory · by-law · standing order · terms of business · clause · sub-clause · proviso · binding · non-binding · exercise discretion · escalation route · authorised signatory · power of attorney · waive · enforce';
+const LEXIS = 'authority matrix · schedule of authorities · authorisation · mandate · dual control · discretion · ceiling · countersign · single signature · joint signature · entitlement · liability · indemnity · undertaking · statutory · regulatory · by-law · standing order · terms of business · clause · sub-clause · proviso · binding · non-binding · exercise discretion · escalation route · authorised signatory · power of attorney · waive · enforce';
 const BACK_AT_B1 = 'sign-off · in charge of · escalate';
 
 // ---------- UNIT OPENER ----------
