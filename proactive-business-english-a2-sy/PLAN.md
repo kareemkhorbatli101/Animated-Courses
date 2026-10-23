@@ -626,6 +626,58 @@ no such page, which is why its arithmetic is exact. `bound.js` is the series' ow
 has not been changed to suppress this — a conditional page break would have to be added at
 four levels at once, and the author should decide that rather than this book.
 
+### ⚠ As built — Book 2's two tests, measured
+
+| | pages | key | marks | numbered questions |
+| --- | ---: | ---: | ---: | ---: |
+| **Book 2 Mid-Book Test** | **8** | **7** | 60 | 30 |
+| **Book 2 End-of-Book Test** | **10** | **7** | 100 | 50 |
+
+Neither hit Book 1's figure, and both departures were measured rather than argued.
+
+The **Mid-Book key** came out at **7** against the series' 6, and page 7 holds only the
+closing band box — block pricing again. One trim round was run: two dialogue turns and a
+marking note came out, and the page did not move. The marking note was then **restored**
+rather than left out for a page that had not been bought. That is the rule this series now
+follows: a trim that does not move a page is reverted, because the shorter text was not an
+improvement, only a failed purchase.
+
+The **End-of-Book Test** rendered **11** pages first, the eleventh carrying nothing but the
+`Your result` box — the identical fault recorded for Book 1's end test, in the identical
+place. This time the trim worked: merging the two Speaking role cards into one paragraph
+and shortening three cells of the marking table brought it to **10**. Book 1's end test is
+9; Book 2's is 10 because its Reading Part 2 and Part 3 texts are longer, which is what
+Book 2's reading band asks for.
+
+The **End-of-Book key** is **7** against Book 1's 8, with the same five `pb()` the series
+convention requires. It is shorter because its four audio scripts are shorter: Book 2's
+listening is five short conversations plus three longer pieces, where Book 1's end test
+carried four separate longer talks.
+
+⚠ **One difference worth recording for B1.** Book 2's Writing Part 2 band table puts **5 of
+its 20 marks on the exit** — how the proposal would be stopped and what stopping would
+cost. Nothing in Units 13–24 marks a learner on that, and the paper does. That was
+deliberate: 24.3 teaches the exit and only a test can make it matter. If B1 keeps one thing
+from this paper, keep that row.
+
+### ⚠ As built — the Book 2 bound volumes
+
+| volume | pages | arithmetic |
+| --- | ---: | --- |
+| `PBE-A2-B2-SY_StudentsBook_BOUND.docx` | **451** | 432 units + 8 mid + 10 end + 1 title = 451 ✓ exact |
+| `PBE-A2-B2-SY_AnswerKey_COMBINED.docx` | **253** | 238 keys + 7 mid + 7 end + 1 title = 253 ✓ exact |
+
+Both are exact. Book 1's Answer Key carried one blank page (page 33, from Unit 2's key
+ending flush with the bottom of a page and `bound.js` emitting a `pb()` before every
+component); no component of Book 2 happens to end flush, so neither volume has a blank
+page. That is luck, not a fix — `bound.js` is still the series' own file and still
+unchanged.
+
+Unit 24 is **37** pages in the Student's Book and **22** in the key, one and two over the
+Book 2 bands of 35–36 and 18–21. It is the closing unit and carries the end-of-book block,
+exactly as Book 1's Unit 12 ran to 33 against a band of 29–32. The exception is expected
+and is not corrected.
+
 ---
 
 # PART SIX — HOUSE FIGURES AND FIDELITY CRITERIA
