@@ -1,0 +1,470 @@
+@UNITHEAD Unit 2: Cybersecurity Careers and Roles
+@PART Warm Up | Warm Up
+@EX Warm-Up: What Do People in Cybersecurity Do?
+@INSTR Discuss with a partner what jobs and roles exist in a security team.
+_80
+@BULLET
+What types of jobs do you think people have in a security team?
+_300
+@EX Warm-Up: Matching Security Jobs to Descriptions
+@INSTR Match each security job title to what that person does.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Help-Desk Officer
+3. | Security Officer
+4. | Licence Clerk
+5. | Office Services Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the storage and the retention and controls who may open each folder
+b) | Runs the help desk, the reports and the replies and signs the daily log
+c) | Leads the whole function and answers to the company for the result
+d) | Prepares statements, keeps the certificates and files the licence records
+e) | Maintains the machines and keeps the records the auditor requires
+_300
+@EX Warm-Up: Security Job Skills
+@INSTR Classify the following skills by which security job needs them most.
+_80
+@CAT
+Categories:
+@CATITEM
+1. | Records Clerk
+2. | Help-Desk Officer
+3. | Licence Clerk
+_200
+@CATQ
+Classify each item:
+@CLASSIFY
+1. Planning a week's work across three help-desk officers  ____________________________
+2. Finding one record among four thousand quickly  ____________________________
+3. Reading a written policy and applying it correctly  ____________________________
+4. Calculating the cost of one section's licences  ____________________________
+5. Preparing a retention schedule for the quarter  ____________________________
+6. Answering a report without stopping the user's work  ____________________________
+_300
+@EX Warm-Up: Do You Want to Work in Cybersecurity?
+@INSTR Discuss with a partner: Would you like to work in cybersecurity? Why or why not?
+_80
+@BULLET
+Would you like to work in cybersecurity in the future? What role would you like to have?
+_300
+@EX Warm-Up: Security Work in Syria
+@INSTR Read and choose the best answer.
+_80
+@MCQ
+1. Why are security officers in Syria very important?
+@OPT
+   ○ A) They work only for the government
+   ○ B) They protect damaged systems and keep offices able to work
+   ○ C) They do not work with suppliers
+_300
+@PART 1 | Part 1: Vocabulary
+@EX Part 1: Security Job Titles and Descriptions
+@INSTR Match each security job title to its correct description.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Storekeeper
+3. | Help-Desk Officer
+4. | Licence Clerk
+5. | Security Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | A person who plans the storage and controls who may open each folder
+b) | A person who keeps the equipment records, receives machines and issues them again
+c) | A person who answers reports, receives user requests and routes every incident
+d) | A person who prepares statements, keeps the certificates and files the records
+e) | A person who leads the whole function and answers to the company for it
+_300
+@EX Part 1: Security Job Responsibilities
+@INSTR Match job titles with their main responsibilities.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Log Clerk
+2. | Asset Controller
+3. | Shift Coordinator
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Logs the incidents and tracks each ticket
+b) | Works out what each machine should hold
+c) | Arranges shifts and correspondence
+d) | Checks that the rules were followed
+_300
+@EX Part 1: Skills Required for Security Work
+@INSTR Complete the table by filling in the required skills for each security job.
+_80
+@GRID
+Security Job | Skill 1 | Skill 2
+Log Clerk |  | 
+Asset Controller |  | 
+@CHOICEHEAD Choices:
+@CHOICE
+a)  organized
+b)  clear instructions
+c)  careful with figures
+d)  attention to detail
+_100
+_300
+@EX Part 1: Work Environment in Cybersecurity
+@INSTR Complete the sentences with the correct word.
+_80
+@NUM
+1. Officers often work in a ____________________ (office) or out in a section's own room.
+2. Working in security can be ____________________ (demanding) but very rewarding.
+3. Officers usually work as a ____________________ (team) with purchasing and finance.
+_300
+@EX Part 1: Listening - Security Job Descriptions
+@AUDIO 🔊 Audio Track 2.10
+@INSTR Listen to descriptions of security jobs and answer the questions.
+_80
+@MCQ
+1. What does a records clerk do in the office?
+@OPT
+   ○ A) Trains new customers only
+   ○ B) Plans the storage, watches the retention and solves problems as they appear
+   ○ C) Signs the annual accounts
+@MCQ
+2. What is a help-desk officer's main responsibility?
+@OPT
+   ○ A) Run the help desk, route every incident and keep the report log
+   ○ B) Repair the generator every morning
+   ○ C) Set the selling price of the goods
+_300
+@EX Part 1: Reading - Security Career Path
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Many people start their security careers as trainees. Trainees work during their studies for a small payment, but they gain important experience. After training for one or two years, graduates may become log clerks or deputy security officers. Junior officers receive training to improve their reporting and their English. Some work at the help desk as desk supervisors, running a shift. Others work in the records section as log clerks or in purchasing as licence officers. The most experienced officers may become security officers who answer to the company and train other officers. Working in security offers opportunities to learn, to grow, and to keep work that others depend on moving.
+@NUM 100
+1. How do most people start their careers in cybersecurity?
+2. What happens to trainees after they gain experience?
+_300
+@EX Part 1: Discussion - Security Career Interest
+@INSTR Discuss with a partner: Which security job interests you most?
+_80
+@BULLET
+Which security job interests you most and why?
+_300
+@PART 2 | Part 2: Grammar
+@EX Part 2: Present Perfect - Work Experience
+@INSTR Choose the correct form of the present perfect (has/have + past participle).
+_80
+@NUM
+1. She ____________________ (has worked) in a security team for five years.
+2. They ____________________ (have answered) many reports in this office.
+3. The security officer ____________________ (has trained) all new help-desk officers.
+_300
+@EX Part 2: Singular/Plural Present Perfect
+@INSTR Fill in the correct present perfect form (has or have + past participle).
+_80
+@GRID
+Subject | Present Perfect Form | Example Situation
+She |  | a new written policy
+They |  | replies for 500 reports
+He |  | three annual access reviews
+@CHOICEHEAD Choices:
+@CHOICE
+a)  has written
+b)  have reported
+c)  has completed
+_100
+_300
+@EX Part 2: Present Perfect Questions
+@INSTR Fill in the correct word to complete the present perfect questions.
+_80
+@GAP
+1. ____________________ she ever worked as a trainee?
+2. ____________________ you seen the new incident report?
+3. ____________________ the clerk registered the licence?
+4. ____________________ they completed the access review?
+_300
+@EX Part 2: Present Perfect Negatives
+@INSTR Complete with the correct negative present perfect form.
+_80
+@NUM
+1. She ____________________ (hasn't finished) her training yet.
+2. They ____________________ (haven't worked) in this company before.
+3. He ____________________ (hasn't been) to a section meeting.
+_300
+@EX Part 2: Present Perfect - Listening
+@AUDIO 🔊 Audio Track 2.17
+@INSTR Listen and answer the questions about work experience.
+_80
+@MCQ
+1. How long has the security officer worked in security?
+@OPT
+   ○ A) Two years
+   ○ B) Five years
+   ○ C) Eight years
+@MCQ
+2. Which sectors has the officer worked in?
+@OPT
+   ○ A) Banks only
+   ○ B) A bank, a hospital, and a university faculty
+   ○ C) Three engineering sectors
+_300
+@EX Part 2: Present Perfect Application
+@INSTR Discuss your experience using present perfect.
+_80
+@BULLET
+What work or organizing experience have you had? What have you learned?
+_300
+@PART 3 | Part 3: Listening
+@EX Part 3: Pre-Listening - Security Officer Interview
+@INSTR Before listening, discuss: What questions would you ask a security officer?
+_80
+@BULLET
+What would you like to know about working in a security team?
+_300
+@EX Part 3: Listening - Interview with a Security Officer
+@AUDIO 🔊 Audio Track 2.20
+@INSTR Listen to an interview with a security officer and answer the questions.
+_80
+@MCQ
+1. What does the security officer do?
+@OPT
+   ○ A) Trains students at the university
+   ○ B) Agrees the security plan with the company and answers for the result
+   ○ C) Works only at the help desk
+@MCQ
+2. What is the most important challenge mentioned?
+@OPT
+   ○ A) Too many reports
+   ○ B) Power that fails in the middle of a long restore
+   ○ C) Difficult colleagues
+_300
+@EX Part 3: Detailed Comprehension - Training Programmes
+@INSTR Listen to information about a security training programme and mark statements as True, False, or Not Given.
+_80
+@DBAR Dialogue
+@DLINE
+Narrator: Many companies run training programmes for new officers. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced security officers from the company. They provide lessons in reporting, English, and running a records section. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_160
+@DHEAD Dialogue
+@NARR
+Narrator: Many companies run training programmes for new officers. These programmes teach graduates what college does not cover. Tutors in these programmes are experienced security officers from the company. They provide lessons in reporting, English, and running a records section. Each group has between 20 and 40 participants. The programmes are free for all participants.
+_100
+@NUM 100
+1. Company training programmes teach reporting and English.
+2. Tutors must have doctorates before teaching.
+3. Participants must pay money to join the programmes.
+_300
+@EX Part 3: Listening for Details - Security Challenges
+@AUDIO 🔊 Audio Track 2.22
+@INSTR Listen to people discussing challenges in security teams and select the correct detail.
+_80
+@MCQ
+1. What is the first major challenge mentioned?
+@OPT
+   ○ A) Lack of users
+   ○ B) Interrupted power and machines that cannot be repaired
+   ○ C) Difficult customers
+@MCQ
+2. How many servers does the office have?
+@OPT
+   ○ A) One server
+   ○ B) Three servers
+   ○ C) Two servers
+_300
+@EX Part 3: Extended Dialogue - Career Growth
+@AUDIO 🔊 Audio Track 2.23
+@INSTR Listen to a longer conversation about career growth in cybersecurity.
+_80
+@MCQ
+1. What position is the young help-desk officer offered?
+@OPT
+   ○ A) Head of the whole function
+   ○ B) A chance to train toward records clerk
+   ○ C) Trainee forever
+@MCQ
+2. What skills are mentioned as needed?
+@OPT
+   ○ A) Only technical knowledge
+   ○ B) Leadership, English, and communication
+   ○ C) Only computer skills
+_300
+@PART 4 | Part 4: Reading
+@EX Part 4: Pre-Reading - Team Types and Roles
+@INSTR Before reading, discuss: What different roles might people have in different kinds of office?
+_80
+@BULLET
+How might roles differ between a small company office and a large bank's security team?
+_300
+@EX Part 4: Reading - Security Team Structure
+@INSTR Read the text and answer the questions.
+_80
+@PANEL
+Most companies have a hierarchical structure. At the top is the Security Officer who agrees the security plan with the company and answers for the result. Below the officer are section heads who run specific areas such as records, the help desk, licences and equipment. Each section head supervises officers and assistants who carry out the daily work. Compliance officers check whether the rules were followed, and report to the company directly.
+Offices also employ support staff like storekeepers, electricians, and cleaners. While these roles may seem less visible, they are essential. For example, an electrician makes sure the generator starts when the mains fails. A cleaner makes sure the server room is free of dust. Every role is important for the organisation to function effectively.
+Recent years have seen changes in security structures. Smaller offices operate more flexibly, with fewer management layers. This allows a decision to be taken faster. However, keeping records complete and machines accounted for remain challenges even with simpler structures.
+@NUM 100
+1. Who agrees the security plan with the company?
+2. Why are support staff important?
+_300
+@EX Part 4: Vocabulary in Context - Job Descriptions
+@INSTR Read the text and choose the best meaning for underlined words.
+_80
+@PASSAGE
+Officers must be decisive — willing to choose a course when neither option is perfect. They also need persistence — the commitment to trace a missing record even when it takes weeks. The experience of senior officers is valuable for training new people. Offices also value transparency — being honest with the company about what the figures really show.
+@MCQ
+1. What does "decisive" mean?
+@OPT
+   ○ A) Slow and uncertain
+   ○ B) Willing to choose a course when neither option is perfect
+   ○ C) Very quiet
+@MCQ
+2. What is "persistence"?
+@OPT
+   ○ A) Giving up on a missing record
+   ○ B) Commitment to trace it even when it takes weeks
+   ○ C) Being lazy
+_300
+@EX Part 4: Text Comprehension - Choosing Security Jobs
+@INSTR Read job descriptions and fill in the job titles.
+_80
+@GRID
+Description | Job Title | Work Location
+Plans the storage and reports the monthly records |  | Records
+Runs the help desk and keeps the report log |  | Desk
+@CHOICEHEAD Choices:
+@CHOICE
+a)  records clerk
+b)  help-desk officer
+_100
+_300
+@EX Part 4: True/False - Security Employment
+@INSTR Read the text and mark statements as True, False, or Not Given.
+_80
+@PANEL
+Offices employ both experienced officers and trainees. Trainees commit their time for a small payment because they want experience. Many officers in developing countries earn modest salaries compared to officers abroad. However, they often report higher job satisfaction. Companies invest in staff training and development. Officers can learn new skills while keeping work moving for other people. Career advancement is possible for dedicated officers who perform well.
+@NUM 100
+1. Some people in security teams are trainees.
+2. Security salaries at home are higher than salaries abroad.
+3. Companies provide training opportunities.
+_300
+@EX Part 4: Discussion - Security Career Values
+@INSTR Discuss: If security salaries are modest, why do people choose this profession?
+_80
+@BULLET
+Why would someone choose cybersecurity even with lower pay?
+_300
+@PART 5 | Part 5: Speaking
+@EX Part 5: Role Play - Job Interview
+@INSTR Practice a job interview for a position in a security team. One student is the interviewer, one is the job applicant.
+_80
+_300
+@EX Part 5: Presentation - Security Career Path
+@INSTR Prepare and present a 3-part talk about career paths in cybersecurity.
+_80
+@NUM 100
+1. How do people start and advance in security careers?
+2. What qualifications and skills are needed?
+3. What rewards and challenges exist in security work?
+_300
+@EX Part 5: Discussion - Overcoming Security Challenges
+@INSTR Discuss with a partner: How do officers cope with interrupted power and old machines?
+_80
+@BULLET
+How do experienced officers overcome shortages of equipment and licences?
+_300
+@EX Part 5: Dialogue - Advice from an Experienced Officer
+@INSTR Role play: A junior help-desk officer asks an experienced security officer for advice about the job.
+_80
+_300
+@PART 6 | Part 6: Writing
+@EX Part 6: Email - Inquiry About a Traineeship
+@INSTR Write an email to a company expressing interest in a security traineeship. Include your background, skills, and motivation.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Written Response - Job Application Question
+@INSTR Answer the interview question: "Why do you want to work in our company?"
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Describe - Day in the Life of a Security Officer
+@INSTR Write a paragraph describing a typical day of a security officer. Choose any role you prefer.
+_80
+@WRITE
+@LINES 10
+_300
+@EX Part 6: Reflection - Learning from Security Work
+@INSTR Write a short reflection about what you could learn from working in a security team. What skills would you develop?
+_80
+@WRITE
+@LINES 10
+_300
+@PART 7 | Part 7: Culture
+@EX Part 7: Security Sector in Syria and the Region
+@INSTR Read about security work in Syria and the Middle East region, then answer questions.
+_80
+@PANEL
+The security sector in Syria has changed significantly in response to the need to rebuild systems and records that were damaged or lost. Large companies, ministries, universities and small company offices all employ security officers. These officers serve both their own sections and customers from abroad. Working in Syria's offices requires persistence because power, machines and licences are all uncertain.
+In neighboring countries like Lebanon and Jordan, companies employ officers who serve both local users and foreign customers. The work is challenging but essential. These organisations demonstrate how dedicated professionals keep working in hard times. Syrian officers are known in the region for their resourcefulness and persistence.
+Many Syrian professionals who studied abroad chose to return to serve at offices at home. They sacrifice higher salaries in wealthy countries to protect the records of their own towns. This shows deep commitment to the country and to the reliability of its institutions. Their choices inspire others to consider security careers.
+@NUM 100
+1. Why has the security sector in Syria changed?
+2. What characteristic is emphasized about Syrian officers?
+_300
+@EX Part 7: Discussion - Values in Security Work
+@INSTR Discuss what values are important in security work, especially where equipment is scarce.
+_80
+@BULLET
+What values should officers hold, especially those working with scarce equipment and licences?
+_300
+@PART 8 | Part 8: Review
+@EX Part 8: Unit 2 Summary - Security Roles
+@INSTR Review Unit 2 by matching skills and roles discussed throughout the unit.
+_80
+@COLHEAD Column A
+@MATCHA
+1. | Records Clerk
+2. | Security Officer
+3. | Help-Desk Officer
+4. | Compliance Officer
+_300
+@COLHEAD Column B
+@MATCHB
+a) | Plans the storage and controls access to folders
+b) | Agrees the security plan and answers to the company
+c) | Runs the help desk and keeps the log
+d) | Checks whether the rules were followed
+_300
+@EX Part 8: Integrated Assessment - Security Career Knowledge
+@INSTR Demonstrate mastery of Unit 2. Choose the best answer.
+_80
+@MCQ
+1. How do most people begin security careers?
+@OPT
+   ○ A) As security officers
+   ○ B) As trainees
+   ○ C) As compliance officers
+@MCQ
+2. What is the most valuable quality for officers according to Unit 2?
+@OPT
+   ○ A) High salary expectations
+   ○ B) Care for the work and the people who depend on it
+   ○ C) Previous office experience only
+@MCQ
+3. How has the security sector in Syria changed?
+@OPT
+   ○ A) It has disappeared
+   ○ B) It has changed in response to the need to rebuild damaged systems
+   ○ C) It has decreased permanently
+@MCQ
+4. What do officers value according to the culture discussion?
+@OPT
+   ○ A) Closing the maximum number of tickets at any cost
+   ○ B) Honesty, accountability, and responsibility to users and colleagues
+   ○ C) Avoiding difficult situations
+_300

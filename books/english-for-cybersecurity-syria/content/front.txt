@@ -1,0 +1,15 @@
+@TITLE English for Cybersecurity - Student Book (A2) | A2 | By Mohamad Khorbatli | 2026
+_-p
+@TOCHEAD Table of Contents
+@TOC
+Unit 1: Introduction to Cybersecurity
+Unit 2: Cybersecurity Careers and Roles
+Unit 3: Law, Policy and Compliance
+Unit 4: Equipment, Licences and Security Budgets
+Unit 5: The Incident Response Cycle
+Unit 6: Working with Providers and Suppliers
+Unit 7: User Support, Awareness and Service
+Unit 8: Performance Measurement and Reporting
+Unit 9: Growth, Change and Scaling the Security Function
+Unit 10: Security Advocacy and Professional Communication
+_-p
