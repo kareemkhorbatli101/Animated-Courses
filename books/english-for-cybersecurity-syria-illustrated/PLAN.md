@@ -402,7 +402,7 @@ Where a criterion was not met, it says so and gives the number.
 | 13 | Zero empty model boxes — all 70 written | ✅ **70 written, 0 empty**, and `qa/models.py` reports **0 of 70** outside the word limit its own task states |
 | 14 | Every figure passes the drawing checks | ✅ **40 checked, 0 faults** (`qa/figures.py`) |
 | 15 | The defensive sweep reports zero hits | ✅ **0 hits**, 39 banned terms + 3 framings over 51,709 words |
-| 16 | Package well-formed | ✅ opens in Word and LibreOffice; every image referenced |
+| 16 | Package well-formed | ✅ **46 parts, 0 faults** (`qa/package.py`) — see §20 |
 
 ## 17 · The six declared improvements, delivered
 
@@ -461,3 +461,31 @@ labels crossing their dial rims; a week-planner grid running down into the capti
 a build sheet collapsing six two-column completion tables into the wrong shape; a places
 table one row short in each column; eight models over the word limit their own task
 states; twenty prose blocks over band.
+
+## 20 · The repair Word reported, and the fix
+
+The first delivered file opened in Word with a "unreadable content" prompt and was
+repaired. LibreOffice had rendered it without complaint, which is why criterion 16 —
+checked by eye rather than by a tool — passed when it should not have.
+
+**The fault.** The document root declared `mc:Ignorable="w14 wp14"` but never declared
+`xmlns:wp14`. Naming an undeclared prefix as ignorable is invalid markup. Word rejects
+it; LibreOffice ignores it. One line, in `build/render.py`'s `DOCROOT`.
+
+**The fix.** `xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"`
+is now declared on the root, with a comment saying why it must be.
+
+**What else was checked, and was already clean:** every XML part parses; every other
+namespace prefix is declared; all 40 relationship ids resolve to parts that exist; every
+part extension has a content type; all 40 images are valid PNGs and all are referenced;
+the 40 `wp:docPr` ids are unique; no two tables are adjacent; the body does not end on a
+table; and the children of every `pPr`, `rPr`, `tcPr` and `tblPr` are in schema order —
+0 out of order across 3,450 elements. There were no control characters, no stray
+ampersands and no unbalanced tags. The package now also parses under python-docx as an
+independent reader: 3,290 paragraphs, 160 tables, 40 inline shapes, 1 section.
+
+**Why it was missed.** Criterion 16 said "the package is well-formed" and was verified by
+opening the file. `qa/package.py` now implements it as a test, and it is the check that
+would have caught this before delivery. The other 27 .docx packages in this repository
+were checked against it as well: all clean, because they are produced by python-docx
+rather than by this book's hand-rolled renderer.

@@ -240,9 +240,12 @@ DOCROOT = (
     'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" '
     'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
     'xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" '
+    'xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" '
     'xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" '
     'xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" '
     'xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" '
+    # every prefix named in mc:Ignorable must also be declared, or Word
+    # reports the document as having unreadable content and repairs it
     'mc:Ignorable="w14 wp14">')
 
 SECTPR = ('<w:sectPr><w:pgSz w:w="11906" w:h="16838"/>'
