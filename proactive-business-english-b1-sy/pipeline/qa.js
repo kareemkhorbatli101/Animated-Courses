@@ -136,8 +136,21 @@ function checkCanon(file, s) {
   });
 }
 
+// ⚠ Strip // comments before counting. A comment that mentions a construct
+// — "the end-of-book block runs on with no extra pb()" — is not an occurrence
+// of it, and Unit 12 failed its page-break count because of one such line.
+// Caught at B1 Book 1 Unit 12; applies to every HOUSE figure, not just pb().
+function stripComments(s) {
+  return s.split('\n').map(line => {
+    // only strip a // that starts the line or follows whitespace, so that
+    // a // inside a string (a URL, say) is left alone
+    const m = line.match(/^(\s*)\/\//);
+    return m ? '' : line;
+  }).join('\n');
+}
+
 function countOccurrences(s, needle) {
-  return s.split(needle).length - 1;
+  return stripComments(s).split(needle).length - 1;
 }
 
 function checkUnit(file, s, n) {
