@@ -25,14 +25,34 @@ fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f)).forEach(f => {
   if (items.length !== 32) {
     console.error(`⚠ ${f}: LEXIS read as ${items.length} item(s), not 32 — this tool has misread the list and the pool is incomplete`);
   }
-  items.forEach(i => b1.set(i, f.match(/\d\d/)[0]));
+  // ⚠ FIRST writer wins. With set() the latest unit overwrote the earliest, so re-checking a
+  // unit AFTER it had been written compared its own list against itself and found nothing.
+  items.forEach(i => { if (!b1.has(i)) b1.set(i, f.match(/\d\d/)[0]); });
 });
+// ⚠ ADDED at Unit 21, after qa.js caught a collocation collision this tool could not see.
+// freecheck built a pool from LEXIS only, so the 8 collocations a unit declares were cleared
+// against nothing until the whole tree was QA'd — which is after the unit has been written.
+// A pre-write tool that covers one of the two declared lists is a pre-write tool for half a unit.
+const colloc = new Map();
+fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f)).forEach(f => {
+  const s2 = fs.readFileSync(path.join(dir, f), 'utf8');
+  const m = s2.match(/const COLLOC = '((?:[^'\\]|\\.)*)'/);
+  if (!m) { console.error(`⚠ ${f}: no COLLOC line found — it is NOT in the collocation pool`); return; }
+  const items = m[1].replace(/\\'/g, "'").split('·').map(i => i.trim()).filter(Boolean);
+  if (items.length !== 8) {
+    console.error(`⚠ ${f}: COLLOC read as ${items.length} item(s), not 8 — this tool has misread the list`);
+  }
+  items.forEach(i => { if (!colloc.has(i)) colloc.set(i, f.match(/\d\d/)[0]); });
+});
+
 const me = process.argv[2];
 const cand = process.argv[3].split('·').map(s => s.trim()).filter(Boolean);
 let bad = 0;
 cand.forEach(c => {
   if (a2.has(c)) { console.log(`  ✗ "${c}" — ${a2.get(c)}`); bad++; }
   else if (b1.has(c) && b1.get(c) !== me) { console.log(`  ✗ "${c}" — B2 unit ${b1.get(c)}`); bad++; }
+  // ⚠ and against this level's declared collocations, which this tool could not see before Unit 21
+  else if (colloc.has(c) && colloc.get(c) !== me) { console.log(`  ✗ "${c}" — B2 unit ${colloc.get(c)}, as a COLLOCATION`); bad++; }
 });
 const dup = cand.filter((c, i) => cand.indexOf(c) !== i);
 if (dup.length) { console.log(`  ✗ repeated inside the list: ${dup.join(', ')}`); bad += dup.length; }
