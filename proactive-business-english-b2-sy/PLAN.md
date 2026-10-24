@@ -211,6 +211,147 @@ measures both, and writes the measured band into this file **before Unit 2 exist
 projection struck through if it is wrong. That step has caught an error every time it has been
 taken, and the one time it did not was because a previous book in the same strand had taken it.
 
+## ✓ PHASE 4 — BOOK 1 DELIVERED, AND TWO EXACT MEASUREMENTS
+
+**Built, QA-clean and measured on 24 October.**
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **End-of-Book Test paper** | 13 | **13** | ✓ **exact** |
+| **End-of-Book Test key** | 9 | **9** | ✓ **exact** |
+| **Student's Book, bound** | ~575 | **555** | 20 under |
+| **Answer Key, combined** | ~380 | **376** | 4 under |
+
+⚠ **This is the first test projection in the series that is exactly right on both figures**, and the
+Phase 2 record above says why it should not be read as the method improving: the mid-book paper ran a
+page long and its key a page short, so the pair was right and neither figure was. **Here both figures
+are right**, and the reason is that the mid-book measurement was taken first and the end-of-book
+paper was projected from it rather than from B1 — ⚠ **a projection taken from this book's own
+measurement, which is the only kind that has ever landed.**
+
+### ⚠ Both bound volumes are exact on the arithmetic, which has never happened before
+
+**Student's Book:** the twelve units sum to **531**, plus the Mid-Book Test at **10**, the
+End-of-Book Test at **13** and the title page at **1** — **555, and the volume measures 555.**
+**Answer Key:** the twelve keys sum to **359**, plus **7**, **9** and the title page — **376, and the
+volume measures 376.**
+
+⚠ **Every earlier bound volume in this series has cost pages at a file boundary.** B1 Book 1's
+Student's Book came in at 487 against an arithmetic of 486, bisected to the Unit 7 → Unit 8 boundary,
+where Unit 7's closing `box()` moved whole to its own page because `box()` is `cantSplit`. **Eight
+such measurements had been taken across the strand and every one found at least one page of
+block-pricing overhead.** **Here there is none, in either volume, across 26 files.**
+
+**The cause is the same structural fact Phase 1 recorded.** The 13-stage cycle at B2 — 7 cycles, 32
+items, 8 collocations, band-4 peer samples quoted in full — fills a unit so completely that **every
+unit ends within a few lines of a page boundary**, and a closing block that has nowhere to go but the
+next page is a block that was already going to start one. ⚠ **This is a prediction about Book 2 and it
+should be tested rather than assumed**: if Book 2's bound volumes are exact too, the overhead was a
+property of the thinner lower levels and not of `cantSplit`.
+
+### What Phase 4 found, and all four were harness faults of the same family
+
+1. ⚠ **The question-numbering regex could not see the Part 2 gap markers.** The end-of-book paper
+   wrote in-text gaps as `**(6)** ______`, which matches neither alternative of
+   `/\*\*(\d+)\*\*|\((\d+)\)\s*_{3,}/` — digits must follow `**` immediately, or `(n)` must be
+   followed by whitespace and then underscores. The harness reported *numbering jumps from 5 to 11*
+   and *45 numbered questions, expected 50*. **The paper was right and the markup was invisible.**
+   Fixed by dropping the parentheses.
+2. ⚠ **A readable key table is not necessarily a machine-readable one.** The note-completion answers
+   for questions 26–34 were in a two-column table headed `'Q'`, `'Answer'` — the clearest layout for
+   a teacher, and one `checkTest` cannot read at all. Rewritten so that **every answer is three words
+   or fewer** and split into `table(['26'…'30'])` and `table(['31'…'34'])`. **The constraint on the
+   answers came from the key's format, which is backwards, and the answers are better for it.**
+3. ⚠ **The bracket has to close straight after the numbers.** `table(['Q','6',…,'10','not needed'])`
+   defeats the same regex. "The sentence not needed is F." is now its own line.
+4. ⚠ **Answer clustering in my own first drafts** — seven consecutive **B** answers in the Listening
+   Part 2 set and six in Part 3. **No check in the harness looks for this and one should.** The orders
+   were rewritten to `A B C B A C B C` and `A C B A C B A B`.
+
+⚠ **All four are the same fault at different depths: a thing I wrote was correct and the thing that
+reads it could not see it.** **Three of them I fixed by changing what I wrote rather than the reader**
+— and in case 2 that made the book better, which is the argument for leaving a strict reader strict.
+
+---
+
+## ✓ PHASE 3 MEASURED — UNITS 7–12, AND THE WHOLE BOOK
+
+| Unit | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| **7** *Cause at a Distance* | **45** | **30** |
+| **8** *Numbers in Prose* | **44** | **30** |
+| **9** *Somebody Else's Draft* | **44** | **30** |
+| **10** *The Meeting You Did Not Call* | **44** | **30** |
+| **11** *The Thing You Have To Say* | **44** | **30** |
+| **12** *The Decision You Take* | **45** | **31** |
+| **Book 1, all twelve** | ⚠ **44–45** | ⚠ **29–31** |
+
+⚠ **Twelve pairs, eighty-four cycles, twenty-four documents, 0 faults, and all ten house figures
+exact on every one.** **384 lexis items and 96 collocations declared, every one cleared against the
+1,344 declared at A2 and B1.**
+
+**The recorded band is 44–50 / 28–34 and the twelve measurements occupy 44–45 / 29–31.** ⚠ **Nothing
+is adjusted**, by the same rule as Phase 1: a band is widened on a measurement outside it and never
+narrowed on measurements inside it. **Unit 12 came in at the top of both, as the plan expected, and
+the end-of-book block cost it exactly one page of Student's Book and one of key.**
+
+⚠ **The Phase 1 prediction was right and it is the only page prediction in this series that has
+been.** It said the spread across a B2 book would be **1 page** where A2's was 5 and B1's 6, and that
+the Mid-Book Test and Unit 12 would be the only things to move it. **The spread is 1 in the Student's
+Book and 2 in the key**, and Unit 12 is both tops. **The reason is structural and not editorial** —
+the cycle at this density leaves the subject matter almost no room to move the count.
+
+### ⚠ Three arithmetic faults, all in my own prose, all found by adding the figures up
+
+**This is the finding of the phase and it is uncomfortable, because Unit 8 is the unit that teaches
+the rule it breaks:** *a plan that states a whole and its parts must add the parts up.*
+
+1. ⚠ **Unit 8's cash bridge did not reconcile.** Lodgements, the gap and the receivables movement
+   were mutually inconsistent with the debtor-day series the same unit prints. Fifteen strings were
+   patched: 2024 lodgements 124.6 → **123.4**, gap 6.4 → **7.6**, receivables 2.9 → **4.1**; 2025
+   lodgements 139.4 → **138.4**, gap 8.8 → **9.8**, receivables 4.3 → **5.3**. ⚠ **And the conclusion
+   the dialogue refuses had to change too**, because *our collection has improved* is arithmetically
+   impossible on these figures — it is now *the gap proves our collection is weakening*, refused on
+   the ground that **lodgements must rise more slowly than sales in a growing book with a lengthening
+   collection period**, which is the unit's real lesson.
+2. ⚠ **Unit 9's twelve amendments were sorted into piles that summed to fifteen.** The opening box and
+   the dialogue said eight accepted, three rejected and four closed, while the twelve-row table gave
+   five accepted. Seven strings patched to **five**, and the counting sentence rewritten to **add the
+   piles up in the dialogue itself**: *five and three and four is twelve, which I have added up — a
+   note that sorts twelve changes into three piles and does not add the piles together is a note
+   nobody can check, including me.* **Four downstream figures followed.**
+3. ⚠ **Unit 11 confused margin with turnover.** *About 460,000 at our margin on her* is impossible
+   when a carton sells at 1,450 and the April order is 320 cartons. Four places now read **464,000 of
+   turnover at 1,450 a carton** and **about half a million of turnover at risk.**
+
+⚠ **No check in the harness can find any of these and no check should be written for them.** They are
+found by doing what the book tells the learner to do: **take the figures you wrote and add them up.**
+**Three in six units is the rate, and the rate is the argument for the rule.**
+
+### Three more faults, each of a kind the phase repeated
+
+4. ⚠ **The guillemet, five times.** `unit09` carried 25 of each, `ak09` 10 of each, then `unit10`,
+   `ak10`, `unit11`, `ak11` and `ak12`. ⚠ **My own default for quoting a document inside prose is
+   « », and the series uses U+201C/U+201D**; `checkChars` refused every one. From Unit 10 the
+   replacement became a routine step of every write. **The finding is not about the character.** It is
+   that **a convention I hold and the book's convention differed by one glyph, the difference was
+   invisible to me on every reread, and the only thing that ever caught it was a list of permitted
+   characters.** ⚠ **A character allow-list is the cheapest check in the harness and it has now
+   caught more faults at this level than any other.**
+5. ⚠ **A duplicate word-list item that no per-unit check could see.** *A term of art* was Unit 5's
+   and Unit 9's. **It survived twelve unit builds, twelve key builds and every whole-tree run**, and
+   surfaced only when the 72 items of the end-of-book word list were assembled in `ak12` and tested
+   for uniqueness. Unit 9's item is now **a closed line**. ⚠ **The end-of-book list is the first
+   artefact in the book that holds every unit's six at once, which makes it the only place the fault
+   is visible — so it is also a check, and it should be run before Unit 12 and not inside it.**
+6. ⚠ **A key with eight page breaks where a Book 1 key has seven**, and **a cast surname wrong in
+   twenty places** (*Fadi Haddad* for **Fadi Saeed**, two institutional voices fused). The first was
+   the end-of-book word-list block carrying a `pb()`; it is now `sp()`, so the block **runs on from
+   the "I can…" box exactly as the Student's Book's does. ⚠ The bound volume's page arithmetic depends
+   on this**, and this is the level where the arithmetic came out exact.
+
+---
+
 ## ✓ PHASE 1 MEASURED — UNITS 2–6
 
 | Unit | Student's Book | Answer Key |
@@ -744,6 +885,26 @@ from a lower level encodes that level's examination, and the places where it doe
 until a higher level needs the extra option** — **so a harness copied up a level must be read for
 what it permits, not only for what it checks.**
 
+### ✓ PHASE 4 MEASURED — THE END-OF-BOOK TEST
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **End-of-Book Test paper** | 13 | **13** | ✓ **exact** |
+| **End-of-Book Test key** | 9 | **9** | ✓ **exact** |
+
+⚠ **The first test projection in this series to be right on both figures, and the reason is not that
+the method got better.** **It is that this projection was taken from the mid-book measurement two
+sections above rather than from B1 Business**, and ⚠ **a projection taken from the same book's own
+measurement is the only kind that has ever landed.** **Phase 6 should project Book 2's mid-book test
+from this book's two tests and not from B1's.**
+
+**The shape, for the record:** **Reading five parts of five** — all five Vantage parts, where the
+mid-book test had three; **Writing Part 1 at 10 marks and Part 2 at 15**, the paper's own lengths
+taken from the examination (**40 to 50** and **120 to 140**) and ⚠ **printed next to the course's own
+80-plus and 200-to-240 with the difference named as the examination's**, so that a candidate meeting
+a shorter task than the units asked for does not read it as a reprieve; **Listening three parts —
+note completion at nine, then two multiple-choice sets of eight**; **Speaking three parts.**
+
 ## 6.3 · Paper shapes, from the examination
 
 **Reading, 25 marks — five parts of five**, one for each Vantage part: matching · sentence insertion ·
@@ -767,14 +928,40 @@ candidate's own paper.** Proposed, and open to change in Phase 2:
 - **Book 1 Mid-Book:** ⚠ **the concession that costs something** (Unit 3), and **one of
   accept / accept-with-qualification / dispute, never two** (Unit 9, taught after the test — so
   this one is pre-declared or dropped; decide in Phase 2).
-- **Book 1 End-of-Book:** ⚠ **the sentence that invites correction from above** (Unit 1.5, used
-  through the book), **a figure with its base and period** (Unit 8), and ⚠ **what you are not
-  asking for** (Unit 3.5).
+- **Book 1 End-of-Book:** ~~the sentence that invites correction from above (Unit 1.5)~~ ·
+  ~~a figure with its base and period (Unit 8)~~ · ⚠ **what you are not asking for** — **see the
+  Phase 4 decision below, where two of these three were replaced.**
 - **Book 2 Mid-Book:** ⚠ **the absence named inside the document** (Units 17.4 and 19.4), and
   **a clause written as an act with an owner** (Unit 13.3).
 - **Book 2 End-of-Book:** ⚠ **the reason and not only the decision** (Unit 18.4), ⚠ **the option you
   recommend against, priced** (Unit 21.5), and **the falsifying condition with a watcher** (Unit
   23.4).
+
+### ✓ Decision taken in Phase 4 — the End-of-Book emphases, two of three replaced
+
+**The paper declares two emphases, not three, and only one of the three proposed above survived.**
+
+1. ✓ **KEPT, and moved: what you are not asking for.** ⚠ **Not Unit 3.5 but Unit 11.4**, and it is
+   marked **across both Writing tasks** rather than in one: **an ask attached to a disclosure loses
+   the point it is attached to.** **Unit 11 is where the move acquires its cost** — the letter to
+   Ms Tannous is the place in the book where asking for something would be unforgivable — **and a
+   test-only emphasis should be declared against the unit that makes it hurt.**
+2. ✓ **ADDED: whether the recommendation carries its own basis inside the sentence** (Unit 12.5),
+   **marked pass or fail in Writing Part 2.** ⚠ **A recommendation that says *in the light of the
+   above* scores nothing for that point.** **This is the last thing the book teaches and the thing
+   the whole spine is for**, and the paper says so on its first page.
+3. ✗ **DROPPED: the sentence that invites correction from above** (Unit 1.5). ⚠ **It is marked
+   everywhere already** — most of the book's Lesson B documents are written for a reader who is
+   senior to the writer, and the Writer's boxes mark it as they go — **so declaring it as a
+   test-only emphasis would have been a declaration that the course does not mark what it spends
+   twelve units marking.**
+4. ✗ **DROPPED: a figure with its base and period** (Unit 8). ⚠ **It is in the mark scheme of
+   Writing Part 2 as a content point, which is where it belongs**, and the series rule is that a
+   test-only emphasis marks **a move the units taught and did not score.** **This one they scored.**
+
+⚠ **Two emphases and not three, and the paper is better for it.** **Three declared emphases on one
+page is a paper that tells the candidate what to write rather than asking what they can do** — and
+the mid-book paper, which has two, is the one that proved it.
 
 ⚠ **And one thing the End-of-Book Test of Book 2 must carry, because B1's did and it is the only
 instruction in the series for something after the course:** one document, one reader, one date in
@@ -1042,14 +1229,14 @@ A unit is finished when **all** of these hold:
 | **0** ✓ | The tree, the harness copied and extended with the four new checks, `b1-lexis.json` harvested, ⚠ **the Vantage handbook verified against Part Two**, and **Unit 1's Student's Book and Answer Key built and measured** | ✓ **DONE — 44 / 29 measured, SB floor moved to 44, recorded above before Unit 2 was written** |
 | **1** ✓ | Units 2–6 (SB + AK) | ✓ **DONE — band holding at 44–45 / 29–30 inside the recorded 44–50 / 28–34** |
 | **2** ✓ | **Book 1 Mid-Book Test + key**, measured | ✓ **DONE — 10 + 7 measured against 9 + 8 projected; emphases decided** |
-| **3** | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | — |
-| **4** | **Book 1 End-of-Book Test + key**, both bound volumes, handover, delivery bundle | **Book 1 delivered** |
+| **3** ✓ | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | ✓ **DONE — band holding at 44–45 / 29–31 across all twelve; three arithmetic faults in my own prose, recorded above** |
+| **4** ✓ | **Book 1 End-of-Book Test + key**, both bound volumes, handover, delivery bundle | ✓ **BOOK 1 DELIVERED — test 13 + 9 exactly as projected; bound volumes 555 / 376, both exact on the arithmetic** |
 | **5** | Units 13–18 (SB + AK) | — |
 | **6** | **Book 2 Mid-Book Test + key**, measured | — |
 | **7** | Units 19–24 (SB + AK), Unit 24 carrying the end-of-level block | — |
 | **8** | **Book 2 End-of-Book Test + key**, both bound volumes, handover, delivery bundle, ⚠ **Series Bible to v1.8** with the measured B2-Business record | **Book 2 delivered, the level closed** |
 
-**Size, projected:** Book 1 about **575 pp** of Student's Book and **380 pp** of Answer Key; Book 2
+**Size:** Book 1 ~~about 575 pp~~ → ⚠ **555 pp MEASURED** of Student's Book and ~~380~~ → **376 pp MEASURED** of Answer Key; Book 2
 about **590 pp** and **390 pp**; with the four tests and their keys, ⚠ **about 1,965 pages**, which
 would take the strand to **4,915 pages across three levels and 72 units.**
 
