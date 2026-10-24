@@ -500,11 +500,16 @@ function checkTest(paperFile, keyFile, spec) {
   });
 
   // every answer row in the key must have one letter per question heading
-  const rows = [...k.matchAll(/table\(\['Q',\s*((?:'\d+'\s*,?\s*)+)\]\s*,\s*\[\['Answer',\s*((?:'[ABC]'\s*,?\s*)+)\]\]/g)];
+  // ⚠ WIDENED at B2 Phase 2. The pattern allowed only 'A'|'B'|'C', which is the
+  // B1 Preliminary option set. B2 Business Vantage Reading Part 3 has FOUR options
+  // and Parts 1 and 2 match against up to six, so a three-letter pattern silently
+  // forced the test paper below the examination it is preparing candidates for.
+  // A harness must constrain the book to the examination, never below it.
+  const rows = [...k.matchAll(/table\(\['Q',\s*((?:'\d+'\s*,?\s*)+)\]\s*,\s*\[\['Answer',\s*((?:'[A-F]'\s*,?\s*)+)\]\]/g)];
   if (!rows.length) fail(`${keyFile}: no answer rows found — the key states its answers in Q/Answer tables`);
   rows.forEach(m => {
     const qs = m[1].match(/\d+/g) || [];
-    const as = m[2].match(/[ABC]/g) || [];
+    const as = m[2].match(/[A-F]/g) || [];
     if (qs.length !== as.length) {
       fail(`${keyFile}: answer row for Q${qs[0]}–${qs[qs.length - 1]} has ${as.length} answer(s) for ${qs.length} question(s)`);
     }

@@ -691,6 +691,59 @@ one page for the longer writing tasks. **Every test projection in this series ex
 wrong, always in the same direction — too long.** Phase 2 and Phase 6 replace these with
 measurements.
 
+### ✓ PHASE 2 MEASURED — THE MID-BOOK TEST, AND A GENERALISATION FALSIFIED
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **Mid-Book Test paper** | 9 | ⚠ **10** | ⚠ **one page LONGER** |
+| **Mid-Book Test key** | 8 | **7** | **one page shorter** |
+| **the pair** | 17 | **17** | ✓ **exact, by coincidence** |
+
+⚠ **The claim in the paragraph above is now false and I am leaving it there rather than editing it
+out.** **It said every test projection in this series has been wrong in the same direction, too
+long.** ⚠ **This one is wrong in both directions at once** — **the paper a page over and the key a
+page under** — **and the pair happens to land exactly on 17, which is the least informative kind of
+correct.**
+
+**Why the paper ran long, and it is not padding.** ⚠ **The three listening scripts are printed in
+the paper** (the series convention: the teacher reads from the candidate's paper, which the candidate
+does not see until afterwards) **and at B2 the scripts are dialogue of real length.** **Three
+scripts cost about a page and a half between them.** ⚠ **The B1 mid-book test had two scripts.**
+
+**Why the key ran short.** ⚠ **Reading and Listening are 20 of the 60 marks and every one of them is
+right-or-wrong**, **so two thirds of the key is answer rows and one-line justifications.** **The
+Writing and Speaking mark schemes are where the words are, and they are tables.**
+
+**The shape, for the record:** **Reading 3 parts of 5** (matching · multiple choice · error
+correction) — **the other two Vantage parts are in the End-of-Book Test**; **Writing Part 1 at 5
+marks and Part 2 at 10**; **Listening 3 parts of 5**; **Speaking 4 + 6 + 5 with the marks stated in
+a box rather than in part headings.**
+
+### ✓ Decision taken in Phase 2 — the declared test-only emphases
+
+**Part Six proposed two for this paper and said to decide here.** ⚠ **One of the two is dropped.**
+
+1. ✓ **KEPT: the concession that costs something** (Unit 3.1). **Marked in Writing Part 2, pass or
+   fail, 3 marks of 10** — **2 for the concession and 1 for nothing after it that argues.**
+2. ✗ **DROPPED: *one of accept / accept-with-qualification / dispute, never two*.** ⚠ **It is Unit 9,
+   which is taught after this test.** **The plan allowed for pre-declaring it; I am not doing that,
+   because a test-only emphasis is defensible when it marks a move the units taught and did not
+   score, and indefensible when it marks a move the candidate has never met.**
+3. ✓ **ADDED in its place: the load-bearing sentence identical across the two Writing tasks** (Unit
+   6.4). ⚠ **Marked as the paper's only deduction** — **one mark off Part 2 where it is similar
+   rather than identical, with the two versions written out side by side on the script.** **It is
+   the one place in sixty marks where a deduction is the right instrument, because it is the only
+   way a candidate sees their own two versions together.**
+
+⚠ **And a harness change this phase forced, which is a fidelity fix and not a convenience.** **The
+key's answer-row pattern accepted only `'A'|'B'|'C'`** — **the B1 Preliminary option set.** ⚠ **B2
+Business Vantage Reading Part 3 has four options and Parts 1 and 2 match against up to six**, **so a
+three-letter pattern was silently forcing this book's test paper below the examination it prepares
+candidates for.** **Widened to `A–F`.** ⚠ **The finding for the Series Bible: a harness inherited
+from a lower level encodes that level's examination, and the places where it does so are invisible
+until a higher level needs the extra option** — **so a harness copied up a level must be read for
+what it permits, not only for what it checks.**
+
 ## 6.3 · Paper shapes, from the examination
 
 **Reading, 25 marks — five parts of five**, one for each Vantage part: matching · sentence insertion ·
@@ -988,7 +1041,7 @@ A unit is finished when **all** of these hold:
 | ---: | --- | --- |
 | **0** ✓ | The tree, the harness copied and extended with the four new checks, `b1-lexis.json` harvested, ⚠ **the Vantage handbook verified against Part Two**, and **Unit 1's Student's Book and Answer Key built and measured** | ✓ **DONE — 44 / 29 measured, SB floor moved to 44, recorded above before Unit 2 was written** |
 | **1** ✓ | Units 2–6 (SB + AK) | ✓ **DONE — band holding at 44–45 / 29–30 inside the recorded 44–50 / 28–34** |
-| **2** | **Book 1 Mid-Book Test + key**, measured | the projection replaced |
+| **2** ✓ | **Book 1 Mid-Book Test + key**, measured | ✓ **DONE — 10 + 7 measured against 9 + 8 projected; emphases decided** |
 | **3** | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | — |
 | **4** | **Book 1 End-of-Book Test + key**, both bound volumes, handover, delivery bundle | **Book 1 delivered** |
 | **5** | Units 13–18 (SB + AK) | — |
