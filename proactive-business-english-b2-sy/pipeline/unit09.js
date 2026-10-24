@@ -835,7 +835,7 @@ out.push(table(['The closed line', 'Its provenance and date', 'What the author s
 out.push(stage('4R', 'Report – mediation', 6));
 out.push(p('Tell the class about the page. This is the **ninth** unit of this book, and the unwritten thing is this: ⚠ **almost nobody who alters a closed line knows that it is closed, because the thing that makes it closed is a fact about its history and the history is in somebody else\'s drawer** — **so an editor working from the page alone will delete a negotiated clause, summarise a quotation and soften an agreed figure, every time, and be entirely reasonable in doing it; which means the remedy is never a better editor, it is a sheet of paper in his file saying which lines came from where and when.**'));
 out.push(p('_The line was _______. Its provenance is _______, dated _______. The author said _______. And the failure was _______, because _______._'));
-out.push(p('**Listener task:** add this unit\'s six to the Book 1 **paper-and-decision word list**: _a tracked change · a substantive change · a term of art · a quoted undertaking · a silent correction · a reinstatement_. ⚠ Fifty-four items now, and it runs to Unit 12.'));
+out.push(p('**Listener task:** add this unit\'s six to the Book 1 **paper-and-decision word list**: _a tracked change · a substantive change · a closed line · a quoted undertaking · a silent correction · a reinstatement_. ⚠ Fifty-four items now, and it runs to Unit 12.'));
 out.push(p('**Board clinic:** your teacher writes three exchanges on the board — look for a provenance given without a date, and an accepted point explained further. Correct them together.'));
 out.push(lesson('LESSON B – WRITING'));
 out.push(stage('5', 'Read – exam practice (B2 Business Vantage Reading Part 5)', 10));

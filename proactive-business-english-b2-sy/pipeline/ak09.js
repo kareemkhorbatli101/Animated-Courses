@@ -521,7 +521,7 @@ out.push(table(['The closed line', 'Its provenance and date', 'What the author s
 ], [1.6, 1.6, 2.1, 1.2]));
 out.push(stage('4R', 'Report – mediation'));
 out.push(p('_**The line was *to the extent that stock permits*. Its provenance is the exchange of letters of 11 and 14 January. The author said he had thought it was a hedge somebody had left in, and he has reinstated it. And the failure was mine, because the January letters are in my file and not in his.**_'));
-out.push(p('⚠ **The word list reaches fifty-four items with this unit\'s six:** ⚠ **_a tracked change · a substantive change · a term of art · a quoted undertaking · a silent correction · a reinstatement_.** **Collect them on the board under the forty-eight from Units 1 to 8, and say that it runs to Unit 12 and to seventy-two.**'));
+out.push(p('⚠ **The word list reaches fifty-four items with this unit\'s six:** ⚠ **_a tracked change · a substantive change · a closed line · a quoted undertaking · a silent correction · a reinstatement_.** **Collect them on the board under the forty-eight from Units 1 to 8, and say that it runs to Unit 12 and to seventy-two.**'));
 out.push(stage('5', 'Read – exam practice'));
 out.push(p('⚠ **B2 Business Vantage Reading Part 5** — **error correction, twelve lines, six with an extra word and six correct.** **The second Part 5 in this book.**'));
 out.push(table(['Q', '1', '2', '3', '4', '5', '6'], [['Answer', 'CORRECT', 'BEEN', 'CORRECT', 'WHAT', 'THE', 'CORRECT']], [1, 1.5, 1.1, 1.5, 1.1, 1.1, 1.5]));
