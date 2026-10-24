@@ -1045,6 +1045,58 @@ from a lower level encodes that level's examination, and the places where it doe
 until a higher level needs the extra option** — **so a harness copied up a level must be read for
 what it permits, not only for what it checks.**
 
+### ⚠ PHASE 6 MEASURED — BOOK 2'S MID-BOOK TEST, AND THE RULE PHASE 4 WROTE IS NOT SUFFICIENT
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **Mid-Book Test paper** | 10 | ⚠ **7** | ✗ **three pages short** |
+| **Mid-Book Test key** | 7 | ⚠ **8** | ✗ **one page over** |
+
+⚠ **Phase 4 recorded a rule: project a test from the same book's own measurement, never from another
+level's, because that is the only kind of projection that has ever landed.** **I followed it — 10 / 7
+is Book 1's mid-book measurement — and the paper came in at 7.** ⚠ **So the rule is necessary and it
+is not sufficient, and this is the first measurement in the strand that shows the difference.**
+
+**What actually determines a test's length, measured rather than argued.**
+
+| | Book 1 mid-test | Book 2 mid-test |
+| --- | ---: | ---: |
+| **marks** | 60 | 60 |
+| **numbered questions** | 30 | 30 |
+| **writing lines provided** | 20 | 20 |
+| **Reading passage words** | 594 | **620** |
+| ⚠ **total words in the paper** | **2,928** | ⚠ **2,378** |
+| **measured pages** | 10 | **7** |
+
+⚠ **Everything the projection was built on is identical across the two papers — marks, question count,
+skill split, answer space — and the pages differ by thirty per cent.** **The one figure that moves with
+the page count is total text, and it is the one figure I did not estimate before writing, precisely
+because all the others matched.**
+
+⚠ **The paper is not thin, and that was checked rather than assumed.** **Its Reading passages carry 620
+words against Book 1's 594; its answer space is identical at twenty ruled lines; all thirty questions
+are present and every task is fully specified.** **One provisioning inconsistency was found and fixed —
+Part 1 had five ruled lines where Book 1 gave six for the identical 40-to-50-word task — and the paper
+still measured 7 afterwards**, ⚠ **which is the useful proof: the line was space that fitted, not a page
+of padding.** **Nothing was added to reach 10, which would have been padding of the purest kind.**
+
+⚠ **The key went the other way and for the same reason.** **3,165 words against Book 1's 2,371, and one
+page more.** **The commentary is longer because this paper's two declared emphases are both judgement
+marks rather than right-or-wrong ones** — **whether an absence has an owner, and whether a recommendation
+has an owner and a date** — **and an all-or-nothing judgement mark needs its boundary stated, with the
+near-misses a teacher will want to give half a mark to.**
+
+**The rule as it now stands, amended:** *project a test from the same book's own measurement, and then
+adjust it by the ratio of total text, because marks, questions and answer space are all invariant across
+tests of the same shape and none of them predicts a page.*
+
+⚠ **And the consequence for Phase 8, stated before the End-of-Book Test is written rather than after.**
+**Book 1's end-of-book test measured 13 / 9 at 100 marks.** ⚠ **Projecting 13 / 9 for Book 2's would repeat
+exactly the error above.** **Estimate the text first: Book 2's end test carries the two Reading parts this
+mid-test did not use — multiple choice and error correction — and multiple choice is the part whose options
+are full sentences rather than single words, which is where a Reading paper's words actually go.** **Write
+the paper, count its words, and project from the ratio against Book 1's end test.**
+
 ### ✓ PHASE 4 MEASURED — THE END-OF-BOOK TEST
 
 | | projected | measured | verdict |
@@ -1091,11 +1143,32 @@ candidate's own paper.** Proposed, and open to change in Phase 2:
 - **Book 1 End-of-Book:** ~~the sentence that invites correction from above (Unit 1.5)~~ ·
   ~~a figure with its base and period (Unit 8)~~ · ⚠ **what you are not asking for** — **see the
   Phase 4 decision below, where two of these three were replaced.**
-- **Book 2 Mid-Book:** ⚠ **the absence named inside the document** (Units 17.4 and 19.4), and
-  **a clause written as an act with an owner** (Unit 13.3).
+- **Book 2 Mid-Book:** ~~the absence named inside the document (Units 17.4 and 19.4)~~ · **a clause
+  written as an act with an owner** (Unit 13.3) — ⚠ **see the Phase 6 decision below, where the first
+  was narrowed to 17.4 alone because 19.4 is not yet written.**
 - **Book 2 End-of-Book:** ⚠ **the reason and not only the decision** (Unit 18.4), ⚠ **the option you
   recommend against, priced** (Unit 21.5), and **the falsifying condition with a watcher** (Unit
   23.4).
+
+### ✓ Decision taken in Phase 6 — Book 2's Mid-Book emphases, one of two narrowed
+
+**The paper declares two emphases, as proposed, and the first is narrower than the proposal.**
+
+1. ⚠ **NARROWED: the absence named inside the document, *and whose it is*.** **Proposed as Units 17.4
+   AND 19.4; marked on 17.4 alone.** ⚠ **Unit 19 is in the second half of this book and the candidates
+   sitting this paper have not studied it** — **a test may mark one thing the units do not teach only
+   if it is declared on the candidate's paper, and it may never mark a unit that does not yet exist for
+   them.** **17.4 carries it on its own: *the reason is not recorded* scores one mark, *and the absence
+   is ours* scores the second, and the difference is four words.**
+2. ✓ **KEPT unchanged: a recommendation written as an act with an owner.** **Unit 13.3, marked in Writing
+   Part 2, and tightened in the marking to an act with an owner AND a date.** ⚠ **All-or-nothing: an
+   owner with no date and a date with no owner both score nothing, because a recommendation that obliges
+   somebody in general obliges nobody on any particular morning**, **which is the clause 13.3 dismantled.**
+
+⚠ **Both are judgement marks on clauses that cost the writer something** — **an admission in Part 1, a
+commitment in Part 2** — **and the key predicts they are the two marks a class will lose, because a
+candidate with thirty-five minutes drops the costly clause first.** **That prediction is written down so
+that the first class to sit this paper tests it.**
 
 ### ✓ Decision taken in Phase 4 — the End-of-Book emphases, two of three replaced
 
