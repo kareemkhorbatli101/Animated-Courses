@@ -254,6 +254,13 @@ function checkUnit(file, s, n) {
   if (!/copy the line/i.test(s)) {
     fail(`${file}: no band-4 peer slip — a B2 unit must instruct the reviewer to copy the line being marked, not summarise it`);
   }
+  // ⚠ Book 2 adds ONE move to band 4: the reviewer prices their own suggestion. Part
+  // Seven calls it this strand's own discipline arriving in the review slip —
+  // everything else in four levels has had to be priced, and a suggestion is the last
+  // thing that never was. A Book 1 slip pasted forward passes every check above.
+  if (BOOK_OF(n) === 2 && !/would cost the writer/i.test(s)) {
+    fail(`${file}: band-4 slip has no cost clause — a Book 2 reviewer says what the correction would cost the writer (time, a figure, or a relationship)`);
+  }
   checkWordBands(file, s, n);
   checkCanon(file, s);
   return lx ? lx[1] : '';

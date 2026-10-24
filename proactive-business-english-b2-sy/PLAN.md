@@ -211,6 +211,57 @@ measures both, and writes the measured band into this file **before Unit 2 exist
 projection struck through if it is wrong. That step has caught an error every time it has been
 taken, and the one time it did not was because a previous book in the same strand had taken it.
 
+## ✓ PHASE 5 MEASURED — UNIT 13, AND THE FIRST PROJECTION THIS SERIES GOT RIGHT
+
+**Built, QA-clean and measured on 24 October, before a word of Unit 14 was written:** `unit13.js` →
+**45 pages**, `ak13.js` → **29 pages**.
+
+| | projected | measured at Unit 13 | verdict |
+| --- | ---: | ---: | --- |
+| **Student's Book** | 45–51 | **45** | ✓ **inside the band, at its floor** |
+| **Answer Key** | 29–35 | **29** | ✓ **inside the band, at its floor** |
+
+⚠ **This is the first page projection in this series that was right, and "right" means something
+narrow: both figures landed inside the projected band rather than moving a floor.** **Every earlier
+Phase 0 in the strand moved one** — **B2 Book 1 moved the SB floor from 45 to 44 on its first
+measurement** — **and the one book that did not was a Book 2 inheriting a measurement from its own
+Book 1.** ⚠ **Which is what happened here.** **The method's whole claim is that it predicts the
+*step*, and a step of zero is the easiest step to predict.**
+
+**The band stands at 45–51 / 29–35 and is not narrowed.** ⚠ **Unit 24 carries the end-of-level block
+and is expected at the top of both**, by the same reasoning that put Unit 12 at the top of Book 1's.
+
+### ⚠ The Phase 1 prediction held across a book boundary
+
+**Phase 1 recorded that the spread across a B2 book would be about 1 page**, because the 13-stage
+cycle at this density leaves the subject matter almost nowhere to go. **Book 1 measured a spread of
+1 in the Student's Book and 2 in the key.** ⚠ **Unit 13 is 45 / 29 against Book 1's 44–45 / 29–31** —
+**the same two-page window, on the first unit of a different book with a different spine.**
+
+⚠ **And the general-course warning did not materialise, which is worth recording as a falsification
+of my own expectation.** **Part Three said to expect this strand's Book 2 to measure *below* Book 1,
+because the general B2 Book 2 did, and the cause was that a Book 2 carries no front matter.** ⚠ **It
+has not: 45 is Book 1's top, not its floor.** **The reason is that this strand's Book 1 units carry
+no front matter either** — **the course's front matter lives in the bound volume's title page and the
+A2 book, not in Unit 1** — **so there was never a page of it to lose.** ⚠ **The expectation was
+imported from a book with a different structure, which is the same class of error as projecting a
+test from another level's test.**
+
+### One harness change made before Unit 13 was written, and negative-tested
+
+⚠ **Part Seven specifies band 4 *plus one move* for Book 2: the reviewer says what their correction
+would cost the writer** — time, a figure, or a relationship. ⚠ **`checkPeerBand` did not assert it**,
+so a Book 1 slip pasted forward would have passed every check in the file. **Added as a Book-2-only
+branch requiring the literal instruction, and negative-tested both ways**: with the clause removed
+the check fails and names the three permitted kinds of cost; with it restored the tree is clean.
+
+⚠ **This is the fourth harness gap in this level found by reading the plan against the code rather
+than by a failure.** **The series rule it confirms:** *a check the plan specifies and the harness
+does not assert is not a rule, and the moment to find that out is the phase boundary, because that
+is the only moment at which nothing has been written against it yet.*
+
+---
+
 ## ✓ PHASE 4 — BOOK 1 DELIVERED, AND TWO EXACT MEASUREMENTS
 
 **Built, QA-clean and measured on 24 October.**
