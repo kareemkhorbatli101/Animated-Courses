@@ -97,11 +97,14 @@ straight over at **25 · 25 · 25 · 25**.
 
 | Part | What it is |
 | ---: | --- |
-| **1** | **matching** — four short related texts, or one text in four sections, against statements (7 questions) |
-| **2** | **sentence insertion** — a long text with sentences removed; one option is not needed |
-| **3** | **multiple choice** — one longer text, six questions, A–D |
-| **4** | **multiple-choice cloze** — a gapped text, one word or phrase per gap, four options (15 questions) |
-| **5** | ⚠ **error correction / proofreading** — find the **extra, grammatically wrong word** in a line; answers in capitals |
+| **1** | **matching** — four short related texts, or one text in four sections, against statements (**7 questions**) |
+| **2** | **sentence insertion** — a long text with sentences removed; one option is not needed (**5 questions**) |
+| **3** | **multiple choice** — one longer text, A–D (**6 questions**) |
+| **4** | **multiple-choice cloze** — a gapped text, one word or phrase per gap, four options (**15 questions**) |
+| **5** | ⚠ **error correction / proofreading** — find the **extra, grammatically wrong word** in a line (⚠ **12 questions, VERIFIED** — see §2.3) |
+
+**7 + 5 + 6 + 15 + 12 = 45**, which is the paper's stated total and is the arithmetic that caught the
+error recorded in §2.3.
 
 ## 2.2 · The three things in that table that change this level
 
@@ -124,6 +127,38 @@ sources use the former "BEC Vantage" name.** Two figures matter enough to check 
 handbook before the first test is written: **whether Writing Part 2 is still 120–140 words**, and
 **whether Part 5 error correction is still in the Reading paper.** If either has gone, this plan is
 amended in place with the old figure struck through, exactly as the B1 plan was.
+
+### ✓ VERIFIED at Unit 2 — and one figure was wrong
+
+**Writing Part 2 at 120–140 words: confirmed, and in use.** **Part 5 error correction: confirmed,
+still in the Reading paper.** Neither of the two risks in this section materialised.
+
+⚠ **But a third figure, which this section did not flag, was wrong — and it was wrong in my head
+rather than on this page.** I had Part 5 at **15 questions** and wrote the first draft of Unit 2's
+exam task to that number. ⚠ **Part 5 is 12 questions. The 15 belongs to Part 4**, the
+multiple-choice cloze, and I had transposed it.
+
+**What caught it was arithmetic, not memory.** The paper is 45 questions and the parts are
+7 + 5 + 6 + 15 + 12. ⚠ **With Part 5 at 15 the paper comes to 48**, which is three too many, and the
+sum is checkable without a source. **This is now a Series Bible finding: when a plan states a
+whole and its parts, add the parts up — a transposed figure between two parts of the same paper
+survives every check except that one, because each part is individually plausible.**
+
+**Three facts about Part 5 that the lookup added and the plan did not have:**
+
+1. ⚠ **Correct lines are answered `CORRECT`** — it is not a matter of leaving a blank, and a learner
+   who leaves blanks loses the marks for every line that was right.
+2. ⚠ **The extra word must be grammatically wrong, not merely unnecessary.** This is Cambridge's own
+   note in the FAQs and it is the single most useful thing to teach about the part: learners hunt
+   for flabby words and the task is hunting for ungrammatical ones.
+3. **Answers are written in capital letters.**
+
+**All three are taught in Unit 2's Writer's box and are the marking note in the key.**
+
+**Sources for this verification:** [exam format](https://www.cambridgeenglish.org/exams-and-tests/business-certificates/old-business-vantage/whats-in-the-exam) ·
+[Vantage FAQs](https://www.cambridgeenglish.org/images/251496-cambridge-english-business-vantage-faqs.pdf) ·
+[Exam English, B2 Business Vantage](https://www.examenglish.com/BEC/BEC_Vantage.html) (the 45-question
+total that made the arithmetic check possible)
 
 **Sources:** [exam format](https://www.cambridgeenglish.org/exams-and-tests/business-certificates/old-business-vantage/whats-in-the-exam/) ·
 [Business Certificates handbook for teachers](https://www.cambridgeenglish.org/images/business-english-certificates-handbook-for-teachers.pdf) ·
