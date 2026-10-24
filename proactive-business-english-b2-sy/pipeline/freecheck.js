@@ -14,8 +14,18 @@ Object.entries(B1J).forEach(([u, items]) =>
 const b1 = new Map();
 fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f)).forEach(f => {
   const s = fs.readFileSync(path.join(dir, f), 'utf8');
-  const m = s.match(/^const LEXIS = '([^']*)'/m);
-  if (m) m[1].split('·').forEach(i => b1.set(i.trim(), f.match(/\d\d/)[0]));
+  // ⚠ The regex must survive an escaped apostrophe inside the list. With [^']* a list
+  // containing \' is truncated at that item, SILENTLY, and every later unit is then
+  // cleared against a pool smaller than the book. qa.js has always used this form; this
+  // tool did not, and seven B2 units lost items from the pool before it was found.
+  const m = s.match(/const LEXIS = '((?:[^'\\]|\\.)*)'/);
+  if (!m) { console.error(`⚠ ${f}: no LEXIS line found — it is NOT in the pool`); return; }
+  const items = m[1].replace(/\\'/g, "'").split('·').map(i => i.trim()).filter(Boolean);
+  // ⚠ The named check: a unit that does not yield 32 is a unit this tool has misread.
+  if (items.length !== 32) {
+    console.error(`⚠ ${f}: LEXIS read as ${items.length} item(s), not 32 — this tool has misread the list and the pool is incomplete`);
+  }
+  items.forEach(i => b1.set(i, f.match(/\d\d/)[0]));
 });
 const me = process.argv[2];
 const cand = process.argv[3].split('·').map(s => s.trim()).filter(Boolean);

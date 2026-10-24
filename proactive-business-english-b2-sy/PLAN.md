@@ -258,6 +258,38 @@ to two-column tables of six and twelve rows.** ⚠ **The subject is sentences ra
 a unit about sentences carries less paper than a unit about registers** — **which is the first time in
 this strand that subject matter has moved a page count at all, and it moved it one page.**
 
+### ✓ PHASE 5 COMPLETE — ALL SIX UNITS MEASURED, AND THE BAND HELD AFTER THE ONE AMENDMENT
+
+| Unit | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| **13** *The Contract You Have to Live Inside* | **45** | **29** |
+| **14** *Acceptance, Rejection and the Measurable Standard* | **45** | **30** |
+| **15** *Writing to Somebody Who Has Already Said No* | **44** | **29** |
+| **16** *The Argument You Do Not Hold* | **44** | **31** |
+| **17** *Summarising at Length* | **44** | **29** |
+| **18** *The Long Read, and the Document That Outlives You* | **45** | **31** |
+| **half-book** | **267** | **179** |
+| **band** | **44–51** | **29–35** |
+
+⚠ **Spread of 1 in the Student's Book and 2 in the key, across six units** — **the same spread Book 1
+measured across twelve.** **The floor moved once, at Unit 15, and has not moved since; the ceiling has
+not been approached at all, and the top of each band is now reserved for Unit 24, which carries the
+end-of-level block.**
+
+⚠ **One thing this half-book settles that Book 1 could not.** **Book 1's spread of 1 could have been an
+artefact of twelve units written in one sustained run against a single spine.** ⚠ **Book 2's first six
+units have a different spine, a different cast balance and a markedly different subject range** — **a
+contract, a specification, a refusal, a brief against your own view, a summary, and a file for 2032** —
+**and they measure within the same two-page window.** **So the 13-stage cycle at this density, not the
+subject matter, is what fixes the page count**, **which is what Phase 1 asserted and could not then
+demonstrate.**
+
+⚠ **And Unit 18 came in at 45 / 31, at the top of the measured range in both volumes.** **That was
+expected and is worth saying why: it is the only unit in either book whose Lesson B pages are a
+six-page file reproduced in parts, so it carries more tabular material than any other unit.** **It did
+not need the extra page** — **nothing was added to reach 45** — **and the projection for Unit 24 should
+assume this unit, not Unit 17, as its nearest comparator.**
+
 ### ⚠ The Phase 1 prediction held across a book boundary
 
 **Phase 1 recorded that the spread across a B2 book would be about 1 page**, because the 13-stage
@@ -286,6 +318,56 @@ the check fails and names the three permitted kinds of cost; with it restored th
 than by a failure.** **The series rule it confirms:** *a check the plan specifies and the harness
 does not assert is not a rule, and the moment to find that out is the phase boundary, because that
 is the only moment at which nothing has been written against it yet.*
+
+### ⚠ TWO MORE HARNESS GAPS, AND THE FIRST ONE HAD BEEN SILENTLY WRONG SINCE UNIT 09
+
+⚠ **Found at Unit 18 by reading `freecheck.js` against its own purpose, not by a failure.** **The tool
+that clears a candidate lexis list before a unit is written read each prior unit's list with
+`/const LEXIS = '([^']*)'/`.** ⚠ **That pattern stops at the first apostrophe, so any list containing an
+escaped one was truncated — silently, with no warning and no error.**
+
+| unit | items the pool held | items it has |
+| --- | ---: | ---: |
+| **09** | 27 | 32 |
+| **10** | 25 | 32 |
+| **11** | **20** | 32 |
+| **13** | 30 | 32 |
+| **14** | 27 | 32 |
+| **17** | 30 | 32 |
+| **18** | 27 | 32 |
+
+⚠ **Unit 11 lost twelve of its thirty-two items from the pool**, **so every unit cleared after Unit 09
+was cleared against a set smaller than the book it was being checked against.**
+
+⚠ **What the damage actually is, stated precisely rather than dramatically: none in the book.** **`qa.js`
+has always used the escape-aware form `((?:[^'\\]|\\.)*)` and has always asserted 32 items a unit, and
+it runs the cross-unit collision check over the whole tree.** ⚠ **So a real duplicate could never have
+shipped** — **QA would have failed the tree.** **What was lost was the pre-write warning: for nine units
+`freecheck` reported "0 collisions" with more confidence than it had earned, and a collision it missed
+would have surfaced later as a QA failure requiring a rewrite rather than earlier as a substitution
+costing a minute.**
+
+**Fixed three ways.** ⚠ **The regex now matches `qa.js`'s.** ⚠ **A named check reports any unit whose list
+does not read as 32 items** — *LEXIS read as 27 item(s), not 32 — this tool has misread the list and the
+pool is incomplete* — **which is the warning whose absence let this run for nine units.** **And a missing
+LEXIS line is now reported rather than skipped.** **Negative-tested: items from Unit 11's previously
+invisible tail now collide correctly, and all eighteen units read as 32.**
+
+⚠ **The series rule this one adds, and it is narrower than the existing one:** *two tools that read the
+same declaration must read it with the same parser.* **The harness had the correct pattern in one file
+and the naive one in another, and the naive one was in the tool whose whole job is to be trusted before
+anything is written.**
+
+**The second gap, found in the same hour and much smaller.** ⚠ **`checkKey` asserted a teacher's note with
+`/Teacher\\'s note/`, which matches SOURCE text and therefore only a single-quoted JS string.** `ak18.js`
+**was written with double-quoted notes** — **deliberately, because the ak14 failure was an afternoon lost
+to unescaped apostrophes in a long single-quoted note** — **and the check read a perfectly good note as
+absent.** **Widened to `/Teacher\\?'s note/`, which accepts both quoting styles and is exactly as strong;
+negative-tested by renaming the note, which still fails.**
+
+⚠ **Both gaps are of one family and it is the family Phase 4 named: a check that tests the SOURCE of a
+document rather than the document.** **Phase 4 found four of these. These are the fifth and sixth, and the
+first of them is the only one in the strand that had been wrong for nine units without anybody noticing.**
 
 ---
 

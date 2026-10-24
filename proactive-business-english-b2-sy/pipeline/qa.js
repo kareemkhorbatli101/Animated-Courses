@@ -315,7 +315,10 @@ function checkUnitCheck(file, keySrc, unitSrc) {
 
   // a key that answers without saying how to mark is half a key
   if (!/box\('Marking the/.test(keySrc)) fail(`${file}: no "Marking the…" box in the unit check`);
-  if (!/Teacher\\'s note/.test(keySrc)) fail(`${file}: no teacher's note`);
+  // ⚠ Matches SOURCE text, so it must accept both quoting styles. A long note in
+  // single quotes needs every apostrophe escaped (see ak14); one in double quotes does
+  // not, renders identically, and was read here as no note at all.
+  if (!/Teacher\\?'s note/.test(keySrc)) fail(`${file}: no teacher's note`);
 }
 
 function checkKey(file, s, unitSrc) {
@@ -575,6 +578,16 @@ function checkLoads(file) {
     // docx's own message for this one is unreadable, and it is always the same cause
     if (/reading 'slice'/.test(msg)) {
       msg = 'a table\'s widths array is shorter than its headings — count both';
+    }
+    // ⚠ Four occurrences in Book 2 of the same slip: the warning glyph typed BEFORE the
+    // opening quote instead of after it, so it sits in the code and not in the string.
+    // The parser's own message for it is "Invalid or unexpected token", which says nothing.
+    if (/Invalid or unexpected token|Unexpected token/.test(msg)) {
+      const src = fs.readFileSync(path.join(dir, file), 'utf8');
+      const stray = src.split('\n').findIndex(l => /[,([]\s+⚠\s+['"]/.test(l));
+      if (stray !== -1) {
+        msg = `line ${stray + 1}: a ⚠ outside a string — it belongs after the opening quote, not before it`;
+      }
     }
     fail(`${file}: does not load — ${msg}`);
     return;
