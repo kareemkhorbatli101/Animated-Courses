@@ -102,7 +102,13 @@ taken, in this file, with the old figure struck through rather than deleted.
 | | projected SB | projected AK | basis |
 | --- | ---: | ---: | --- |
 | ~~**B1 Business Book 1**~~ | ~~39–43~~ | ~~24–29~~ | ~~Business A2 Book 2's measured 35–36, plus the step the general course took from A2 to B1~~ |
-| **B1 Business Book 2** (Units 13–24) | **41–45** | **26–31** | Book 1's band plus the +2 that every Book 2 in this series has taken, less the front matter Book 2 does not carry |
+| ~~**B1 Business Book 2**~~ (Units 13–24) | ~~41–45~~ | ~~26–31~~ | ~~Book 1's band plus the +2 that every Book 2 in this series has taken~~ |
+
+⚠ **Both Book 2 projections are now superseded by measurement: SB 40–45, AK 24–29.** The SB
+projection in the Book 1 handover — 40–45 — was right, and is the first page projection in this
+series that has been. The one in this table, 41–45, was a page high at the bottom: Unit 19
+measured 40. The AK projection was wrong at the top in both forms: Unit 20 measured 30 before a
+trim and 29 after it. See the as-built block at the end of this file.
 
 ### ✓ As built — Unit 1, measured, and the band that replaces the projection
 
@@ -792,3 +798,115 @@ learner would still have in a year. Say yes or no and I will build it or leave i
 **Approve, and Phase 0 starts: the tree, the harness with its four new checks, the examination
 handbook read against §6, and Unit 1's Student's Book and Answer Key built and measured before
 a word of Unit 2 is written.**
+
+---
+
+# ✓ AS BUILT — BOOK 2 COMPLETE, AND THE B1 BUSINESS LEVEL CLOSED
+
+Every figure in this section is **measured**. Projections are struck through where they were wrong.
+
+## Pages
+
+| | Measured | Projected | |
+| --- | ---: | ---: | --- |
+| Units 13–24, Student's Book | **517** pp (42·42·43·42·44·43·40·44·44·44·44·45) | ~~492–540~~ | band **40–45** |
+| Units 13–24, Answer Key | **312** pp (24·25·24·24·27·25·25·29·27·27·28·27) | ~~312–372~~ | band **24–29** |
+| Mid-Book Test + key | **8 + 7** | 8 + 7 | exact — the first test projection in the series to hold |
+| End-of-Book Test + key | **12 + 7** | ~~12 + 8~~ | the key came in a page under Book 1's |
+| **Student's Book, bound** | **538** | 538 by arithmetic | **exact** |
+| **Answer Key, combined** | **327** | 327 by arithmetic | **exact** |
+| Lexis | **360** items, 0 collisions | 360 | 30 × 12; 720 at B1, no repeat against A2's 624 |
+
+⚠ **Both bound volumes are exact, and that is the finding.** 517 + 8 + 12 + 1 = 538; 312 + 7 + 7 +
+1 = 327. **No block-pricing discrepancy anywhere in Book 2**, against Book 1's 487-for-486 at the
+Unit 7 → Unit 8 boundary — which remains the only boundary-priced block in the series. **Nothing
+was done differently; the boxes simply did not fall at the breaks.** The lesson is the one the
+Book 1 record already drew: **block pricing is a property of where a `cantSplit` box lands, not of
+how long a unit is**, and it therefore cannot be designed out, only measured.
+
+## The two bands, and the one projection that held
+
+- **SB 40–45.** Units 13–23 occupied 40–44; **Unit 24 measures 45** because it carries two closing
+  blocks — end of Book 2 and end of B1 — where Book 1's Unit 12 carried one. The Book 1 record had
+  already anticipated the closing unit running over its band. **The band is written 40–45 and
+  Unit 24 is the only 45.**
+- ⚠ **AK 24–29, widened at Unit 20.** Unit 20 measured **30** against a band top of 27. One trim was
+  made and kept — a second full bench page printed in the free-writing sample where the same page
+  already stood in the cycle's Read text, which is duplication rather than length — and the unit
+  moved to **29**. A second trim was tested, **did not move a page**, and was reverted. **The band
+  follows the measurement.** This is the fourth band widening in the series and the first in which
+  the trim that moved a page was a removal of duplicated content rather than of writing.
+- ⚠ **And the SB projection in the Book 1 handover was right.** 40–45, projected, and every unit
+  inside it. **This is the first page projection in this series that has not been wrong.** The
+  reason is in the method, not in luck: **it was built from a measured band one book earlier at the
+  same level, rather than from another level's structure.** Every projection that has failed — six
+  of them — was built the second way. **B2's first projection should be built the first way, and it
+  still has to be measured at Unit 1 before Unit 2 is written.**
+
+## What `freecheck.js` was worth
+
+**All twelve lexis lists were cleared before the unit existed**, and eight collisions were caught in
+advance: *contingency* (A2 u15) → **slack**; *sensitivity* (B1 u08) → **a sensitivity test**;
+*subject to* (A2 u24) → **on current information**; *to concede* (B1 u12) → **to acknowledge**;
+*on balance* (B1 u12) → **taking it all together**; *a concession* (B1 u12) → **a written
+concession**; *to reopen* (B1 u12) → **to reopen a settled point**; *hearsay* (B1 u02) → **a
+second-hand report**. ⚠ **No unit in Book 2 needed a post-hoc substitution**, against Book 1's
+Unit 7, which cost seven found after the fact.
+
+⚠ **One class of collision `freecheck.js` cannot see.** Its matcher is exact-string, so an item that
+differs from an A2 item only by an article clears: *a trainee* against A2's *trainee*, *a line
+manager* against *line manager*, *a duty* against *duty* — all three passed in Unit 22's candidate
+list. They were found by hand, moved out of `LEXIS`, and the A2 forms were put on the `BACK_AT_B1`
+line, which is where they belonged. **The check was not changed**: stripping articles would produce
+false positives on items where the article carries the sense (*a concession* against *to concede*).
+**The remedy is a skim of the cleared list for bare-noun forms**, and it belongs in the Series
+Bible as a one-line instruction rather than in the harness.
+
+## Two authoring faults, both caught before a build
+
+1. ⚠ **A heredoc broke a string literal across two lines** in `ak24.js` — a trailing newline inside
+   a quoted paragraph. The loader named the line; the build would not have.
+2. ⚠ **A `table(…)` call closed with `)` instead of `])`** in `endkey2.js`.
+
+**Both were caught by `node -e "require('./file.js')"` before `build.sh` was called.** ⚠ **Load
+every script before building it.** This is now the standing order for the series: the loader error
+names the line and the renderer's does not.
+
+## And the harness fault the Book 1 handover predicted
+
+⚠ **`endkey2.js`'s gap-answer tables were written as a two-column *Gap · Answer* list**, with the
+question numbers inside the cells. `qa.js` reads question numbers from **table headings** and
+reported ten unanswered questions. The Book 1 handover had warned, in terms, that this would cost a
+rebuild; it cost one. **The tables were rewritten horizontally, as `endkey.js` has them.** ⚠ **A
+warning in a handover that is not also enforced by the harness will be ignored by its own author**,
+which is Unit 23.7 arriving in the pipeline.
+
+## The canon, extended
+
+**Six canon advisories fired** in Units 13, 14, 15, 18, 21 and 24 — mentions of Baghdad Street or
+the generator without their A2 facts — and each was fixed **by naming the fact in place**, never by
+deleting the mention.
+
+⚠ **Book 2 makes the first change to the A2 canon rather than a contradiction of it.** The Ghouta
+run moves from Tuesdays and Thursdays to **Mondays and Wednesdays on 1 March**, in Unit 17, and it
+is written as a dated change note with the finding that **nobody now here knows why it was Tuesdays
+and Thursdays.** **That is how a level changes an inherited fact**: with a date, a reason and an
+admission of what is not known.
+
+**New Book 2 facts the next level must not contradict:** the Tannous agreed terms of **28 April**
+run twelve months from **1 May**, six lines, the sixth with **no price against it** (the date list,
+by the 20th of each month). The **nine scrap cartons of January** are in the fourth store. The bench
+page is at **revision 2 of 1 April**, issued by the administration office, heading ending *tell me
+what is wrong with it*. Two night markers start **1 October**. Lina Barakat was **confirmed in post
+1 July**. The plater's **twelve per cent from 1 March** sits in a circular of 22 January and an
+invoice of 4 March.
+
+## The level, closed
+
+| | SB | AK | Tests |
+| --- | ---: | ---: | --- |
+| **Book 1** (Units 1–12) | **487** | **298** | 8 + 7 · 12 + 8 |
+| **Book 2** (Units 13–24) | **538** | **327** | 8 + 7 · 12 + 7 |
+| **B1 Business, total** | **1,025** pp | **625** pp | four papers, 320 marks |
+
+**Twenty-four units · a hundred and sixty-eight cycles · 720 lexis items · 0 QA faults.**
