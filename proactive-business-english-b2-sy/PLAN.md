@@ -290,6 +290,122 @@ six-page file reproduced in parts, so it carries more tabular material than any 
 not need the extra page** — **nothing was added to reach 45** — **and the projection for Unit 24 should
 assume this unit, not Unit 17, as its nearest comparator.**
 
+### ✓ PHASE 7 COMPLETE — ALL TWELVE UNITS MEASURED, AND THE BAND NEVER MOVED AGAIN
+
+| Unit | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| **19** *Arbitration, and the Room Where Nobody Is on Your Side* | **45** | **29** |
+| **20** *Succession, and the Week After You Have Gone* | **45** | **30** |
+| **21** *Proposals, and the Option You Argue Against* | **45** | **30** |
+| **22** *Reviews, and the Document That Must Not Agree* | **45** | **30** |
+| **23** *Trade and Policy, and the Rule Nobody Wrote for You* | **45** | **31** |
+| **24** *Opening the Letters* | ⚠ **46** | **30** |
+| **second half-book** | **271** | **180** |
+| **whole book** | **538** | **359** |
+| **band** | **44–51** | **29–35** |
+
+⚠ **Spread across the twelve units is 2 pages of Student's Book and 2 of key**, against Book 1's 1
+and 2. **The floor moved once, at Unit 15, in Phase 5, and nothing has moved since** — **no unit in
+the second half-book is outside the window the first six established.**
+
+⚠ **Unit 24 at 46 is the only Student's Book page count in either book above 45, and it was
+predicted.** **Phase 5 reserved the top of the band for it because it carries the end-of-level
+block, and it reached 46 with nothing added to get there.** **It also holds the house figure of 8
+`pb()`** — **the block takes an `sp()` and no second `h1`, which is now the fourth consecutive book
+in which that convention has held and the bound volume's arithmetic has depended on it.**
+
+⚠ **One thing worth recording about Unit 23, because it is the largest departure from Part Four in
+either book and it must not be found by somebody reading the plan.** **The plan gave Unit 23 seven
+functions built round a four-grade epistemic scheme — *evidenced · reported · inferred · unknown* —
+and a signed forecast with a stated range.** **The built unit keeps the plan's 23.1 and 23.4
+unchanged and replaces the other five.** ⚠ **The four grades are therefore absent from the delivered
+level as a named apparatus**, **and their working parts are distributed across Book 1 Unit 7.6, Unit
+23.1's *what it does not say*, Unit 23.3's *the item I am least sure of* and Unit 21.4's *assumed at
+nil*.** ⚠ **That is a loss and it is recorded as one** — **a single named scheme is easier to teach
+and easier to examine than four habits in four units — and the handover names it as the first thing
+to put back if the level is revised, as 23.2.**
+
+### ✓ PHASE 8 MEASURED — BOOK 2'S END-OF-BOOK TEST, AND THE PHASE 6 AMENDMENT FALSIFIED
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **End-of-Book Test paper** | ~~14~~ | **13** | ✗ **one page under the word-ratio projection** |
+| **End-of-Book Test key** | ~~10~~ | **9** | ✗ **one page under the word-ratio projection** |
+| **the pair, projected Book 1's way** | **13 / 9** | **13 / 9** | ✓ **exact on both** |
+
+⚠ **Phase 6 wrote this instruction in terms: *do not project the end test at Book 1's 13 / 9 —
+write the paper, count its words, and project from the ratio.*** **I did that. The ratio projected
+14 and 10 and the paper measured 13 and 9, so the amendment over-predicted both** — ⚠ **and the
+naive projection it was written to replace was exactly right on both.**
+
+**Why, measured rather than argued. Words per page is not a constant, and across the level's eight
+test documents it varies by a factor of 2.6.**
+
+| | words | pages | words per page |
+| --- | ---: | ---: | ---: |
+| Book 1 mid paper | 6,645 | 10 | 665 |
+| Book 2 mid paper | 4,297 | 7 | 614 |
+| Book 1 end paper | 6,758 | 13 | 520 |
+| Book 2 end paper | 7,370 | 13 | **567** |
+| Book 1 mid key | 6,987 | 7 | 998 |
+| Book 2 mid key | 9,768 | 8 | **1,221** |
+| Book 1 end key | 10,274 | 9 | 1,142 |
+| Book 2 end key | 11,970 | 9 | **1,330** |
+
+**Papers run 520–665 and keys run 998–1,330**, because a paper spends page area on ruled lines,
+question stems and answer boxes while a key spends it on prose and tables. ⚠ **And in every one of
+the four pairs the heavier document is the denser one**, which is the finding: **material added to a
+test is denser than that test's average page**, so extra words cost less than a page's worth of
+average words and the ratio always over-predicts an increase.
+
+**The rule as it now stands, twice amended and narrower than before:**
+
+> **Project a test from the same book's own measurement of a document of the same TYPE — paper or key
+> — and the same shape. Adjust only where the text differs from the comparator by more than about a
+> third, and then by less than the ratio implies.** ⚠ **Below about a fifth, do not adjust at all:
+> page boundaries absorb it.**
+
+**Checked against all four of this level's projections:** **−35% of text → −30% of pages ✓ · +40% →
++14% ✓ · +9% → 0% ✓ · +17% → 0% ✓.**
+
+⚠ **And the conclusion that is worth more than the rule, written here because three phases of
+measuring produced it and no amount of reasoning did.** **No test projection in this strand has ever
+been better than plus or minus one page except where it was right by luck.** **So stop improving the
+projection and build earlier.** **The Phase 5 half-book was measured six units in, which is what
+made the band safe; that is the method that works, and it works because it replaces a projection
+with a measurement rather than with a better projection.**
+
+### ✓ Decision taken in Phase 8 — the End-of-Book emphases, two of three again
+
+**The plan proposed three for this paper and the paper declares two.**
+
+1. ✓ **KEPT: the reason and not only the decision** (Unit 18.4), **marked across BOTH Writing tasks
+   at half the point it attaches to.** ⚠ ***We have decided not to proceed, for the reasons
+   discussed* states the decision twice and scores once** — **and so does *because we cannot afford
+   it*, which is a conclusion and not the reason the conclusion was reached.**
+2. ✓ **KEPT: the option you recommend against, priced** (Unit 21.5), **pass or fail in Writing Part
+   2.** **An option named without a number against it scores nothing for that point, however fairly
+   it is described.**
+3. ✗ **DROPPED: the falsifying condition with a watcher** (Unit 23.4). ⚠ **It is a content point of
+   the proposal task itself and carries two of its own marks there** — **and the series rule is that
+   a test-only emphasis marks a move the units taught and did not score.** **This one the task
+   scores.** **Phase 4 also established that three declared emphases on one page is a paper that
+   tells the candidate what to write, and that finding is now confirmed by a second paper.**
+
+### ✓ What Phase 8 verified rather than assumed
+
+- ⚠ **Both bound volumes are exact on the arithmetic, which Book 1's handover said to test rather
+  than assume.** **538 + 7 + 13 + 1 = 559** and the volume is 559; **359 + 8 + 9 + 1 = 377** and the
+  volume is 377. ⚠ **No page is lost at any of the 28 file boundaries in either volume**, so across
+  the level's 54 files the renderer has cost nothing at a boundary.
+- **The End-of-Book Test carries 50 numbered questions, 1 to 50, verified by counting them out of
+  the source** — **not by reading the paper, which is how the Mid-Book Test's numbering fault
+  survived a reading in Phase 6.**
+- **Marks: Reading 5·5·5·5·5, Writing 10 + 15, Listening 9 + 8 + 8, Speaking 5 + 10 + 10 = 100**,
+  with each paper at 25 and the key telling the teacher to report the average.
+- **Both test scripts are clean against `ALLOWED`**, swept with the harness's own character set
+  rather than by eye.
+
 ### ⚠ The Phase 1 prediction held across a book boundary
 
 **Phase 1 recorded that the spread across a B2 book would be about 1 page**, because the 13-stage
@@ -1464,14 +1580,15 @@ A unit is finished when **all** of these hold:
 | **2** ✓ | **Book 1 Mid-Book Test + key**, measured | ✓ **DONE — 10 + 7 measured against 9 + 8 projected; emphases decided** |
 | **3** ✓ | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | ✓ **DONE — band holding at 44–45 / 29–31 across all twelve; three arithmetic faults in my own prose, recorded above** |
 | **4** ✓ | **Book 1 End-of-Book Test + key**, both bound volumes, handover, delivery bundle | ✓ **BOOK 1 DELIVERED — test 13 + 9 exactly as projected; bound volumes 555 / 376, both exact on the arithmetic** |
-| **5** | Units 13–18 (SB + AK) | — |
-| **6** | **Book 2 Mid-Book Test + key**, measured | — |
-| **7** | Units 19–24 (SB + AK), Unit 24 carrying the end-of-level block | — |
-| **8** | **Book 2 End-of-Book Test + key**, both bound volumes, handover, delivery bundle, ⚠ **Series Bible to v1.8** with the measured B2-Business record | **Book 2 delivered, the level closed** |
+| **5** ✓ | Units 13–18 (SB + AK) | ✓ **DONE — 267 / 179 measured, spread 1 and 2; the floor moved once at Unit 15 and the band follows the measurement** |
+| **6** ✓ | **Book 2 Mid-Book Test + key**, measured | ✓ **DONE — 7 + 8 against 10 + 7 projected; the Phase 4 rule shown necessary and not sufficient** |
+| **7** ✓ | Units 19–24 (SB + AK), Unit 24 carrying the end-of-level block | ✓ **DONE — all twelve units 44–46 / 29–31; Unit 24 at 46 / 30 with the end-of-level block and 8 `pb()`** |
+| **8** ✓ | **Book 2 End-of-Book Test + key**, both bound volumes, handover, delivery bundle, ⚠ **Series Bible to v1.8** with the measured B2-Business record | ✓ **BOOK 2 DELIVERED, THE LEVEL CLOSED — test 13 + 9; bound volumes 559 / 377, both exact on the arithmetic** |
 
-**Size:** Book 1 ~~about 575 pp~~ → ⚠ **555 pp MEASURED** of Student's Book and ~~380~~ → **376 pp MEASURED** of Answer Key; Book 2
-about **590 pp** and **390 pp**; with the four tests and their keys, ⚠ **about 1,965 pages**, which
-would take the strand to **4,915 pages across three levels and 72 units.**
+**Size, all measured:** Book 1 ~~about 575 pp~~ → ⚠ **555 pp** of Student's Book and ~~380~~ → **376 pp** of Answer
+Key; Book 2 ~~about 590 pp~~ → ⚠ **559 pp** and ~~390~~ → **377 pp**. ⚠ **The level is 1,114 pages of Student's Book
+and 753 of Answer Key, 1,867 in all**, against a projection of about 1,965 — **five per cent under, and under on
+every one of the four figures.**
 
 ⚠ **Phase 0 is not a formality and it is the phase that has repaid itself every time.** It has caught
 a wrong page band in four books out of five, a wrong test weighting at B1, and — at B1 Book 2 —
