@@ -238,7 +238,7 @@ out.push(box(null, [
   table(['Item', 'State', 'Why', 'Date'], [
     ['the volume: 1,100 a month against our 400', '⚠ **settled**', '⚠ **arithmetic. The press runs three hours a night on the generator, which runs from one until four.**', '—'],
     ['the three-year term', '⚠ **open**', '⚠ **this is the question in the attached paper**', '—'],
-    ['the damages clause at paragraph 11', '⚠ **not ours**', 'a legal question; advice sought from Ms Nahas on the 12th', '—'],
+    ['the damages clause at paragraph 11', '⚠ **not ours**', 'a legal question; advice sought from Mr Sayegh, our advocate, on the 12th', '—'],
     ['telling Ms Tannous', '**closed**', '⚠ **she was told the day the letter came, before anybody asked**', '**11 Jan**'],
     ['whether we can mark at night for three years', '**settled**', 'two markers from 1 October; it is being done now', '—'],
     ['the price', '⚠ **closed, and not by us**', '⚠ **his letter gives a price and calls it a condition of the term**', '**9 Jan**'],
@@ -496,7 +496,7 @@ out.push(box(null, [
   table(['', 'The line'], [
     ['**1  I am answerable for**', '⚠ **every figure in paragraph 2. The 1,100 a month, our 400, the three hours a night, the 42 cartons an hour on the second press. I counted them myself over four nights in January and I will stand behind them.**'],
     ['**2  and for**', '⚠ **the reading at paragraph 4: that his letter makes the price a condition of the three-year term, so that accepting the term accepts the price. The words are at the foot of his page 2 and I have quoted them in full.**'],
-    ['**3  I am not answerable for**', '**the damages clause at paragraph 11. It is a legal question, advice was sought from Ms Nahas on the 12th, and nothing in this paper should be read as advice on it.**'],
+    ['**3  I am not answerable for**', '**the damages clause at paragraph 11. It is a legal question, advice was sought from Mr Sayegh, our advocate, on the 12th, and nothing in this paper should be read as advice on it.**'],
     ['**4  and not for**', '⚠ **board supply at four times the volume, which I have not asked the mill about and have said so at paragraph 7.**'],
     ['**5  I can be overruled on**', '⚠ **whether three years is a risk worth taking. That is a judgement about this company\'s future and it is yours. My recommendation at paragraph 9 is against, and I may be wrong, and if you decide the other way I will pack eleven hundred a month and not say I told you so.**'],
   ], [1.6, 4.4]),
@@ -920,7 +920,7 @@ out.push(dlg('Track 1.15  Audio script (read after the check)', [
   ['Lina', 'And Ms Tannous?'],
   ['Nour', '⚠ **Closed, on the eleventh of January.** She was told the day the letter came, before anybody asked me to, and we cannot un-tell her. ⚠ **Say the date; a closed point without a date reopens in March.**'],
   ['Lina', 'The clause everybody is talking about?'],
-  ['Nour', '⚠ **Not ours.** It is a legal question and advice was sought from Ms Nahas on the twelfth. ⚠ **Nobody in this office should be guessing about it in writing.**'],
+  ['Nour', '⚠ **Not ours.** It is a legal question and advice was sought from Mr Sayegh, our advocate, on the twelfth. ⚠ **Nobody in this office should be guessing about it in writing.**'],
   ['Lina', 'So what is actually open?'],
   ['Nour', '⚠ **One thing. Whether we take three years.** ⚠ **And it is Mr Ayoub\'s, and he has not taken it** — whatever he said in the yard on Tuesday, which was an inclination and not a decision.'],
   ['Lina', 'And you have written against it.'],

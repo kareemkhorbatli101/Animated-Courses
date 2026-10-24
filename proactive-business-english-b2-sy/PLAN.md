@@ -211,6 +211,61 @@ measures both, and writes the measured band into this file **before Unit 2 exist
 projection struck through if it is wrong. That step has caught an error every time it has been
 taken, and the one time it did not was because a previous book in the same strand had taken it.
 
+## ✓ PHASE 1 MEASURED — UNITS 2–6
+
+| Unit | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| **1** *What Is Already Decided, and What Is Not* | **44** | **29** |
+| **2** *Taking Yourself Out of the Sentence* | **44** | **30** |
+| **3** *The Case Against a Decision Already Half-Taken* | **45** | **29** |
+| **4** *Risk, Exposure and the Thing You Cannot Model* | **44** | **30** |
+| **5** *Policy, Not Procedure* | **44** | **30** |
+| **6** *Three Readers, One Fact* | **44** | **30** |
+| **range so far** | ⚠ **44–45** | ⚠ **29–30** |
+
+⚠ **Six pairs, twelve documents, 0 faults, and all ten house figures exact on every one.** **192 lexis
+items and 48 collocations declared, every one cleared against the 1,344 earlier items.**
+
+**The band is holding and it is narrower than projected.** The recorded band is **44–50 / 28–34**; the
+six measurements occupy **44–45 / 29–30**. ⚠ **Nothing is adjusted** — a band is widened on a
+measurement outside it and never narrowed on measurements inside it, because Unit 12 carries the
+end-of-book block and the plan expects it at the top.
+
+⚠ **The density is more uniform at B2 than at any earlier level, and the reason is structural.** The
+13-stage cycle with 7 cycles, 32 items and 8 collocations fills a unit so completely that the
+subject matter barely moves the page count. **At A2 and B1 the spread across a book was 5 and 6
+pages; here it is 1.** **Expect the Mid-Book Test and Unit 12 to be the only things that move it.**
+
+### What Phase 1 found that the harness could not
+
+1. ⚠ **A continuity fault across two books** — Ms Nahas advising Sham Trading in Book 1 while
+   arbitrating in Book 2. Fixed at Unit 4 by adding Mr Sayegh. **Recorded in Part Eight.**
+2. ⚠ **A transposed examination figure** — Reading Part 5 at 15 questions instead of 12. Caught by
+   adding the parts up to 45. **Recorded in §2.3.**
+3. ⚠ **`BACK_AT_B2` needs an earlier item's exact string, not its bare form.** Unit 3 declared
+   `concession` where the earlier item is `a concession`. **This one the harness did catch**, and it
+   is worth noting that `freecheck.js` reports a hard collision by full string and an article
+   collision by bare form — so the two outputs are not interchangeable as `BACK_AT_B2` candidates.
+4. ⚠ **A defective exam item, written by me and caught by reading.** Unit 6's Reading Part 1
+   statement 6 was *this text contains a sentence that is identical in two other texts*, which is
+   true of three of the five texts. I had written a Writer's-box note telling learners to be careful
+   of defective wording — ⚠ **which is not a remedy, it is a confession.** Replaced with a statement
+   that has one answer, and the tip rewritten to the real Part 1 lesson: **the texts are deliberately
+   similar, so hunt for the difference and not for the subject.**
+5. **Three consecutive-speaker faults and three canon advisories**, all caught by the harness and all
+   fixed by naming the fact in place.
+
+### One thing the keys are now doing that the plan did not ask for
+
+⚠ **The band-4 peer samples have started finding things the units do not say.** Several are recorded
+in the keys as better than the book's own formulation and marked as such — *a definition should
+decide; an exclusion should forgive* (Unit 5), *in the document as a tense rather than as a sentence*
+(Unit 6), *a record without a reason is a precedent with no edge* (Unit 5). ⚠ **This is the band
+working as designed**: a reviewer who must copy the line reads it closely enough to go one step
+further than the writer did. **It is worth carrying into Book 2 deliberately rather than by accident.**
+
+---
+
 **And one thing to expect rather than be surprised by:** the general B2 Book 2 band came in *below*
 Book 1's (45–47 against 46–48) because Book 2 carries no front matter. **If this strand's Book 2
 measures below Book 1, that is the same cause and not a fault.**
@@ -755,6 +810,29 @@ a suggestion is the last thing that never was.
 | **Mr Rafiq Dallal** | procurement director of Ms Tannous's customer, Beirut | **Book 1 Unit 1** | the level needs a reader with power who is not the auditor |
 | **Ms Souad Nahas** | commercial arbitrator | **Book 2 Unit 19** | somebody whose reading of your documents is binding |
 | **the credit committee** | the bank's, above Mr Samir Haddad | **Book 1 Unit 8** | a reader who never speaks to you |
+| ⚠ **Mr Kamal Sayegh** | the firm's own advocate | **Book 1 Unit 1** | ⚠ **added at Unit 4 — see the finding below.** The level needs a lawyer the firm instructs, and that cannot be the arbitrator |
+
+### ⚠ A continuity fault found at Unit 4, and why it mattered
+
+**Unit 1 had Sham Trading taking legal advice on the damages clause from Ms Nahas.** ⚠ **Ms Nahas
+is the commercial arbitrator of Book 2 Unit 19, and an arbitrator who has advised one of the parties
+is disqualified.** **Four sentences in Book 1 would have made the whole of Book 2's arbitration
+sequence professionally impossible** — in a level whose Book 2 is partly *about* arbitration.
+
+**Fixed by renaming the Book 1 adviser to Mr Kamal Sayegh**, the firm's own advocate: four
+occurrences in `unit01.js` and `ak01.js`, re-QA'd and re-measured at **44 / 29, unchanged.**
+
+⚠ **Nothing in the harness could have caught this and nothing will.** `CAST` checks that an
+institutional voice is declared before first use; it cannot know that a named person holding one
+role in Book 1 is barred from a different role in Book 2. **It was found by reading the cast table
+while choosing a name for Unit 4** — which is the only way it was ever going to be found.
+
+**The rule this produces, for the Series Bible:** ⚠ **before giving a new name to a professional
+role, read the whole cast table of both books, and ask of every neutral or adjudicating figure
+whether anything earlier in the level has made them a party.** **The professions that carry this
+risk are the ones whose value is independence** — an arbitrator, an auditor, a surveyor, an
+inspector, a referee of any kind. ⚠ **Mr Attar survives the same test only because he has been the
+external auditor since A2 and has never been instructed by the firm on anything.**
 
 **Institutional voices to declare in `CAST` on first use, each with a comment naming the unit:**
 `Dallal`, `Arbitrator`, `Committee`, `Registrar`. ⚠ **The harness refuses an undeclared voice on
@@ -909,7 +987,7 @@ A unit is finished when **all** of these hold:
 | Phase | What is delivered | Gate |
 | ---: | --- | --- |
 | **0** ✓ | The tree, the harness copied and extended with the four new checks, `b1-lexis.json` harvested, ⚠ **the Vantage handbook verified against Part Two**, and **Unit 1's Student's Book and Answer Key built and measured** | ✓ **DONE — 44 / 29 measured, SB floor moved to 44, recorded above before Unit 2 was written** |
-| **1** | Units 2–6 (SB + AK) | band holding, or widened on a measurement |
+| **1** ✓ | Units 2–6 (SB + AK) | ✓ **DONE — band holding at 44–45 / 29–30 inside the recorded 44–50 / 28–34** |
 | **2** | **Book 1 Mid-Book Test + key**, measured | the projection replaced |
 | **3** | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | — |
 | **4** | **Book 1 End-of-Book Test + key**, both bound volumes, handover, delivery bundle | **Book 1 delivered** |
