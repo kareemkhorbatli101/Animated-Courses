@@ -168,8 +168,8 @@ course's own band:**
 
 | | projected SB | projected AK | basis |
 | --- | ---: | ---: | --- |
-| **B2 Business Book 1** (Units 1–12) | **45–50** | **28–34** | B1 Book 2's measured 40–45 / 24–29 plus the step the general course took from B1 to B2 |
-| **B2 Business Book 2** (Units 13–24) | **46–51** | **29–35** | Book 1's band plus the +1 every Book 2 in this strand has taken |
+| **B2 Business Book 1** (Units 1–12) | ~~45–50~~ → ⚠ **44–50, MEASURED** | **28–34** ✓ | B1 Book 2's measured 40–45 / 24–29 plus the step the general course took from B1 to B2 |
+| **B2 Business Book 2** (Units 13–24) | ~~46–51~~ → **45–51** | **29–35** | Book 1's band plus the +1 every Book 2 in this strand has taken |
 
 ⚠ **These are projections and the method is not a guarantee.** Phase 0 builds Unit 1's pair,
 measures both, and writes the measured band into this file **before Unit 2 exists**, with the
@@ -179,6 +179,58 @@ taken, and the one time it did not was because a previous book in the same stran
 **And one thing to expect rather than be surprised by:** the general B2 Book 2 band came in *below*
 Book 1's (45–47 against 46–48) because Book 2 carries no front matter. **If this strand's Book 2
 measures below Book 1, that is the same cause and not a fault.**
+
+---
+
+## ✓ PHASE 0 MEASURED — UNIT 1, AND WHAT IT CHANGED
+
+**Built, QA-clean and measured on 24 October:** `unit01.js` → **44 pages**, `ak01.js` → **29 pages**.
+
+| | projected | measured at Unit 1 | verdict |
+| --- | ---: | ---: | --- |
+| **Student's Book** | 45–50 | ⚠ **44** | ⚠ **one page below the floor — the floor moves to 44** |
+| **Answer Key** | 28–34 | **29** | ✓ inside the band, second page of it |
+
+⚠ **The SB floor was wrong and the band now reads 44–50.** The projection method has held on every
+book in this series and it has never been *exactly* right; what it has been is right about the
+*step*. 44 against a 40–45 base is the step the method predicted, landing one page low.
+
+**No page was added to reach 45.** The series rule is that the band follows the measurement, and the
+inverse of it holds too: ⚠ **a page added to meet a projection is padding, and padding is the fault
+the rule was written against.** Unit 1 is also structurally the thinnest unit in any book in this
+series — it carries no back-reference load, its opener box is short, and its lexis is the only one
+with nothing earlier in the level to collide with. **Units 2–12 are expected in the 45–49 range and
+Unit 12, carrying the end-of-book block, at the top of it.**
+
+**The AK measurement is the more reassuring of the two.** 29 against a projected 28–34 means the key
+density chosen in Part Seven — band-4 peer samples quoted in full, a sample answer for every open
+task, and the five-line marking box — is right for the band and needs no adjustment.
+
+**House figures at Unit 1: all ten exact on the first build.** `stage(` 89 · `lesson(` 14 · `dlg(`
+14 · Language box 7 · Writer's box 7 · Homework 7 · `'Write with help` 7 · `'Write freely` 7 ·
+`lines(` 8 · `pb()` 8. Key: 7 cycle banners, 7 page breaks, every stage code covered, 8 answers.
+
+**Three faults the new harness caught that no earlier harness would have:**
+
+1. ⚠ **30 occurrences of `§`** — a character this series does not use. The B2 register invited it
+   (a paper with numbered paragraphs is exactly where `§` belongs) and the character check refused
+   it. Every one is now **"paragraph 11"** written out, which is also better for a B2 reader.
+2. ⚠ **A skeleton dialogue with two consecutive `B` turns** — an ask-and-self-answer pair, which the
+   harness flags as always a fault. It was: B asks for the rewrite, B then reports what they now
+   know, with A's rewrite hidden in a stage direction. Fixed by giving A the turn.
+3. ⚠ **A cycle banner the cycle-map regex could not see.** `// ===== CYCLE 1.7 — REVIEW & MEDIATE
+   =====` does not match `/\/\/ =+ ?(?:CYCLE )?(\d+\.\d+) ?=+/`, so cycle 1.7 was **absent from
+   the unit's cycle map** — and the key's stage-coverage check compares against that map, which
+   means **the key could have omitted all eleven of cycle 7's stages silently.** This is a new
+   finding for the Series Bible: *a decorated cycle banner disables the coverage check that depends
+   on it, and nothing fails — the count of cycles is only checked on the key.*
+
+**And one fault the harness did not catch, found by reading:** the key's cycle 1 had no `stage('2')`
+entry — the listening answers were missing — because the Language-box practise sample had been
+written straight after stage 1. The key's stage-coverage check compares the *key* against the
+*unit*, and would have caught it; it did not fail because at that point the key was one cycle long
+and `checkKey` had not yet been reached. ⚠ **The coverage check only works on a complete key, so a
+key written cycle by cycle must be re-run at the end, not only as it goes.**
 
 ---
 
@@ -821,7 +873,7 @@ A unit is finished when **all** of these hold:
 
 | Phase | What is delivered | Gate |
 | ---: | --- | --- |
-| **0** | The tree, the harness copied and extended with the four new checks, `b1-lexis.json` harvested, ⚠ **the Vantage handbook verified against Part Two**, and **Unit 1's Student's Book and Answer Key built and measured** | ⚠ **the measured band is written into this file before Unit 2 exists** |
+| **0** ✓ | The tree, the harness copied and extended with the four new checks, `b1-lexis.json` harvested, ⚠ **the Vantage handbook verified against Part Two**, and **Unit 1's Student's Book and Answer Key built and measured** | ✓ **DONE — 44 / 29 measured, SB floor moved to 44, recorded above before Unit 2 was written** |
 | **1** | Units 2–6 (SB + AK) | band holding, or widened on a measurement |
 | **2** | **Book 1 Mid-Book Test + key**, measured | the projection replaced |
 | **3** | Units 7–12 (SB + AK), Unit 12 carrying the end-of-book block | — |
