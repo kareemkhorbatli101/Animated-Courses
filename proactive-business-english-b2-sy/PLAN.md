@@ -228,8 +228,35 @@ measurement** — **and the one book that did not was a Book 2 inheriting a meas
 Book 1.** ⚠ **Which is what happened here.** **The method's whole claim is that it predicts the
 *step*, and a step of zero is the easiest step to predict.**
 
-**The band stands at 45–51 / 29–35 and is not narrowed.** ⚠ **Unit 24 carries the end-of-level block
-and is expected at the top of both**, by the same reasoning that put Unit 12 at the top of Book 1's.
+~~**The band stands at 45–51 / 29–35 and is not narrowed.**~~ ⚠ **AMENDED AT UNIT 15 — the SB floor
+moves to 44.** **Unit 24 carries the end-of-level block and is expected at the top of both**, by the
+same reasoning that put Unit 12 at the top of Book 1's.
+
+### ⚠ AMENDED AT UNIT 15 — the Student's Book floor moves to 44
+
+| Unit | Student's Book | Answer Key |
+| --- | ---: | ---: |
+| **13** *The Contract You Have to Live Inside* | **45** | **29** |
+| **14** *Acceptance, Rejection and the Measurable Standard* | **45** | **30** |
+| **15** *Writing to Somebody Who Has Already Said No* | ⚠ **44** | **29** |
+| **band now** | ⚠ **44–51** | **29–35** |
+
+⚠ **Unit 15 measured 44, one page below the floor recorded three units earlier.** **No page was added to
+reach 45.** **The series rule and its inverse both apply: the band follows the measurement, and a page
+added to meet a projection is padding, which is the fault the rule was written against.**
+
+⚠ **And the Phase 5 claim above is now weaker than when it was written, which is worth leaving in
+place rather than editing out.** **It said this was the first page projection in the series that did not
+move a floor.** ⚠ **It moved one two units later.** **What survives of the claim is narrower and still
+true: the projection was right about the step, and the step was zero** — **but a band is tested by
+twelve units and not by one, and Unit 13 was the thinnest kind of evidence a band can have.**
+
+**Why Unit 15 is thinner, and it is not a thin unit.** ⚠ **Its Lesson B documents are the shortest in
+either book** — **two letter openings compared side by side, a five-version working page, a file note of
+four numbered parts, and a three-row table of intervals.** **Unit 13's and Unit 14's Lesson B pages run
+to two-column tables of six and twelve rows.** ⚠ **The subject is sentences rather than documents**, **and
+a unit about sentences carries less paper than a unit about registers** — **which is the first time in
+this strand that subject matter has moved a page count at all, and it moved it one page.**
 
 ### ⚠ The Phase 1 prediction held across a book boundary
 
