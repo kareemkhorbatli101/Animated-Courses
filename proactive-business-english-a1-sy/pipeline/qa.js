@@ -12,6 +12,12 @@ const path = require('path');
 // place rather than a person. Fadi joined in Unit 6 as the company's driver and was
 // speaking by Unit 10 without ever being written down — which is what this list is for.
 const CAST = ['Ammar', 'Abu Yasser', 'Fadi', 'Nour', 'Majd', 'Abu Raed',
+              // ⚠ Samih Qassar was on Unit 1's shift list as a name and started speaking in
+              // Unit 2.7, where the mediation needs a SECOND storeman who counted the same
+              // shelf. The harness refused the unit, which is what this list is for. He is a
+              // good character and the usage is consistent, so he is added to the cast rather
+              // than removed from the book — and declared in Unit 1's cast box, before he speaks.
+              'Samih',
               'A', 'B', 'C', 'Man', 'Woman', 'Caller', 'Customer', 'Driver',
               'Voice', 'Supplier',
               'Gate', 'Counter', 'Office'];   // institutional voices: a place, not a person
@@ -235,7 +241,7 @@ function checkOrdinals(files) {
 // check. It has shipped before — nine 'F. Haddad' bylines at B1 — so the pairs are
 // asserted. A first name followed by any other capitalised word is reported, and across
 // this whole book that regex produced one hit: the fault it was written to find.
-const SURNAME = { Ammar: 'Zreik', Majd: 'Bitar', Raed: 'Najjar',
+const SURNAME = { Ammar: 'Zreik', Majd: 'Bitar', Raed: 'Najjar', Samih: 'Qassar',
                   // inherited from the A2 Business canon, unchanged
                   Nour: 'Mansour', Nadia: 'Sayegh', Bassel: 'Nassif', Hala: 'Mourad',
                   Fadi: 'Saeed', Khaled: 'Ayoub', Fouad: 'Tarabishi', Dima: 'Shamsi',

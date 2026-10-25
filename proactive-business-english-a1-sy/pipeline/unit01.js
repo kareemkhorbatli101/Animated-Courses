@@ -23,7 +23,9 @@ out.push(box('The people in this book', [
   '**Ammar Zreik** (19) — storeman. **It is his first job. He starts in this unit.**',
   '**Abu Yasser** (52) — the supervisor. Thirty years here. He says: _check it twice_.',
   '**Abu Raed** (58) — the gate. He writes every name in the **gate book**. Nine years, every day.',
-  '**Fadi Saeed** (31) — the driver.   ·   **Majd Bitar** (23) — the trade counter.   ·   **Nour Mansour** (24) — the office. She is new too, upstairs.',
+  '**Fadi Saeed** (31) — the driver.   ·   **Majd Bitar** (23) — the trade counter.',
+  '**Samih Qassar** (24) — the other storeman. Two years here. He counts the back store on Mondays.',
+  '**Nour Mansour** (24) — the office. She is new too, upstairs.',
 ], C.lyellow, C.orange));
 out.push(sp());
 out.push(box('How this book works', [
