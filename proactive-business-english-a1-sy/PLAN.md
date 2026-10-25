@@ -854,3 +854,87 @@ measurable before building, and it predicts.**
 
 ⚠ **The rule to carry to the next level: a document type has its own density, and comparing across
 types is the error. Project a test from a test and a key from a key, on rendered words.**
+
+---
+
+# Part Thirteen — the bound-arithmetic rule, made exact, and a check that could not fire
+
+## 13.1  The check the amendment wrote down twice and never ran
+
+Part Eleven amended the bound-arithmetic rule and gave it a check: **scan the bound PDF for pages
+with no content; ONE blank between two units is the artefact and is allowed; TWO IN A ROW, or a
+blank inside a unit, is a fault.**
+
+⚠ **That check cannot fire.** The naive form of "a page with no content" is a page whose extracted
+text is empty, and in a bound volume **no page's text is ever empty**: every page carries the
+running header and the footer `Proactive English · N`. Run it on the Book 1 Student's Book — the
+volume the amendment was written FROM, whose page 48 is the blank that prompted it — and it
+reports **none**.
+
+A page is blank when nothing remains **after the header and the footer are removed**. The
+furniture is what hid it. ⚠ **This is the second time in this level that a check has been defeated
+by something the renderer adds rather than by the content** — the first was unit12's own header
+comment being counted as code. **A rule nobody has seen fire is not a rule, and this one had been
+written down twice.**
+
+`pipeline/blankcheck.js` now does it properly. It was negative-tested against a deliberately broken
+fixture (a blank inside a unit, and two in a row) and **both fault branches fire, exit 1.** The
+fixture is still failed after the widening in §13.3, so the widening did not blunt it.
+
+## 13.2  And a second false negative, from an ad-hoc shell loop
+
+⚠ **While diagnosing this I checked two standalone documents with a hand-written shell loop and it
+reported "0 blank" for both. Both have a blank page.** `blankcheck.js` finds them: unit08 at 13,
+endtest at 8. The conclusion drawn from the bad loop — that the binding offset creates the blanks —
+was wrong, and the real finding is better.
+
+**Measure with the tool, not with a loop written in the moment.** It is the same class of error as
+counting words in the source instead of in the artefact (§12.1): twice in one level, a quantity
+that was easy to produce was used in place of the quantity that was true.
+
+## 13.3  Where the categories were wrong
+
+Run the unit-boundary check on the Book 2 Student's Book and it reports two faults, pages 44 and
+189. ⚠ **Neither is a fault.** Page 44 sits between cycle 8.3's Writer's box and the 8.4 heading;
+page 189 sits between the Writing and Listening papers.
+
+**The rule assumed the only deliberate page breaks in a bound volume are between units.** They are
+not: this book starts **every cycle** on a fresh page and **every test paper** on a fresh page. A
+cycle that ends flush produces exactly the same harmless artefact one level down — the reader turns
+one blank leaf and lands on a clean opening, which is what the rule already allows.
+
+So the test is not *is this between units* but **does the next page open something** — a unit, a
+numbered cycle, a paper, or a test. Two in a row, and a blank that is not at a deliberate break,
+remain faults.
+
+## 13.4  The rule, made exact
+
+Measured per document, bound against standalone:
+
+| document | standalone | its blanks | bound span | gains |
+|---|---|---|---|---|
+| B1 unit02 | 23pp | none | **24pp**, trailing blank at 48 | **+1** |
+| B2 ak07 | 21pp | none | **22pp**, trailing blank at 23 | **+1** |
+| B2 unit08 | 30pp | **one, at 13** | 30pp, blank at 44 = 32+13−1 | +0 |
+| B2 endtest | 12pp | **one, at 8** | 12pp, blank at 189 = 182+8−1 | +0 |
+
+⚠ **An INTERNAL blank belongs to the document. It is present standalone and the binding reproduces
+it faithfully, at the same relative position. A TRAILING blank is created by binding alone, when a
+document's content ends flush with its last page bottom.**
+
+**bound total = 1 title page + Σ(standalone page counts) + one per document that ends flush.**
+
+| volume | 1 + Σ standalone | flush-ending | predicted | measured |
+|---|---|---|---|---|
+| B1 Student's Book | 1 + 154 + 9 = 164 | 1 (unit02) | 165 | **165** ✓ |
+| B1 Answer Key | 1 + 116 + 8 = 125 | 0 | 125 | **125** ✓ |
+| B2 Student's Book | 1 + 180 + 12 = 193 | 0 | 193 | **193** ✓ |
+| B2 Answer Key | 1 + 131 + 9 = 141 | 1 (ak07) | 142 | **142** ✓ |
+
+⚠ **Four volumes, four exact predictions, nothing trimmed.** Part Eleven's "exact once inter-unit
+blank pages are counted" was right in direction and wrong in mechanism: it counted every blank,
+and only the trailing ones are added by binding.
+
+⚠ **And the B2 volumes' exactness, reclassified as luck in Part Eleven, is now explained rather
+than excused:** none of their twenty-four documents ended flush. That was luck. **The arithmetic
+was never in doubt — the term for it was missing.**

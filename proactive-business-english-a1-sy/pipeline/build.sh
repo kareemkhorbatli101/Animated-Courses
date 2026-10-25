@@ -13,10 +13,16 @@ PFX=PBE-A1-B${PE_BOOK}-SY
 mkdir -p "$S"
 
 if [ "$1" = "zip" ]; then
-  # the plan lives in the tree root; the bundle carries a copy, refreshed every time
-  cp "$P/../PLAN.md" "$O/${PFX}_PLAN.md"
-  cd "$P/.." && rm -f "$O"/${PFX}_pipeline_*.zip && zip -qr "$O/${PFX}_pipeline_latest.zip" pipeline
-  cd "$O" && rm -f "$2" && zip -q "$2" *.docx *.md ${PFX}_pipeline_latest.zip && unzip -l "$2"
+  # ⚠ A1's plan and pipeline are LEVEL-WIDE, not per book. Every other level in this strand
+  # has one plan per book and the zip target named its copy with the book prefix; here that
+  # would put two identical plans in the bundle under two book-specific names, and the
+  # handover note documents neither of them. The level prefix is the honest name.
+  LVL=PBE-A1-SY
+  cp "$P/../PLAN.md" "$O/${LVL}_PLAN.md"
+  rm -f "$O"/PBE-A1-B?-SY_PLAN.md
+  cd "$P/.." && rm -f "$O"/${LVL}_pipeline_*.zip "$O"/PBE-A1-B?-SY_pipeline_*.zip \
+    && zip -qr "$O/${LVL}_pipeline_latest.zip" pipeline
+  cd "$O" && rm -f "$2" && zip -q "$2" *.docx *.md ${LVL}_pipeline_latest.zip && unzip -l "$2"
   exit 0
 fi
 
