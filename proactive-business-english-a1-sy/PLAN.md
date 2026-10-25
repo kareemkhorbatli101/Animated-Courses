@@ -645,3 +645,77 @@ is a teaching-policy decision and it is yours.
 
 ⚠ **Decision 2 is the only one that moved from what the plan first said, and it moved because the
 plan had run two different things together.** **That is recorded in §2.4 rather than edited away.**
+
+---
+
+# Part Eleven · Book 1 as built, and one amendment to a series rule
+
+## 11.1 · The six units, measured
+
+| Unit | | SB | AK | Notes |
+| ---: | --- | ---: | ---: | --- |
+| **1** | Your Name and the Gate | **23** | **16** | ⚠ band floor moved to 23 from a projected 26 |
+| **2** | Numbers, Boxes and the Count | **23** | **16** | |
+| **3** | The Day, the Week and the Shift | **24** | **20** | the -s arrives, alone and protected |
+| **4** | Where Things Are | **25** | **21** | |
+| **5** | The Delivery Note | **29** | **21** | ⚠ the hinge unit; the longest in Book 1 |
+| **6** | The Telephone You Cannot Answer | **30** | **22** | six fixed sentences, nothing else |
+| | **Book 1 Test** | **9** | **8** | 60 marks · 30 questions |
+
+⚠ **Measured band: SB 23–30 · AK 16–22.** **The projection in §7.2 (SB 26–30 · AK 14–17) was wrong
+at both ends of both ranges** — **too high for the early units and too low for the late ones.** **The
+band follows the measurement, and the standing rule held: nothing was trimmed to fit a projection.**
+
+⚠ **The shape inside the band is the useful finding.** **Units 1 and 2 are 23 pages and Units 5 and 6
+are 29 and 30.** **A1 units get longer as the book goes on, because the DOCUMENTS get longer — a gate
+book is four columns and a delivery note is a whole page with four lines on it.** **The level's house
+figures are identical for every unit (89 stages, 14 dialogues, 7 of each box) and the page count still
+rises by 30 per cent across six units.** **Figures do not predict pages. Documents do.**
+
+## 11.2 · ⚠ The test-projection rule, third amendment
+
+**The rule as it stood after B2 Phase 8:** *project from the same book's own measurement of a document
+of the same TYPE (paper or key) and shape; adjust only where text differs by more than about a third,
+and then by less than the ratio implies; below about a fifth do not adjust.*
+
+**What was done here, before building, as the rule requires:**
+
+| | A2 B1 anchor | A1 B1 | word ratio | projected | measured |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| **test paper** | 8 pp · 1,872 w | 1,920 w | **+2.6%** | **8** | **9** |
+| **test key** | 6 pp · 1,709 w | 1,971 w | **+15.3%** | **6** | **8** |
+
+**Both ratios are below a fifth, so the rule said do not adjust. The paper came in one page over and
+the key came in two pages over — a third more than projected.**
+
+**The diagnosis, which is the amendment.** ⚠ **Pages did not follow the words. They followed the
+BLOCK ELEMENTS** — **every `box`, `table`, `dlg`, `note`, `sample`, `model` and `part`:**
+
+| | blocks (A2 → A1) | block ratio | word ratio | page ratio |
+| --- | ---: | ---: | ---: | ---: |
+| **test paper** | 31 → 31 | **0%** | +2.6% | **+12.5%** _(8 → 9)_ |
+| **test key** | 26 → 36 | **+38%** | +15.3% | **+33%** _(6 → 8)_ |
+
+⚠ **The key's page increase of 33 per cent tracks its block increase of 38 per cent, not its word
+increase of 15.** **The paper, whose block count is identical, came in within one page.** **The
+mechanism is plain once stated: a box carries padding, a table carries row spacing and a header, a
+standalone note carries a paragraph break. Each one costs vertical space ON TOP OF its words, and the
+cost does not shrink when the words are short — which is exactly why it bites hardest at A1.**
+
+**⚠ The rule, amended:**
+
+> **Project from the same book's own measurement of a document of the same type and shape, and compare
+> TWO quantities, not one: the words, and the number of block elements.** **Where the block counts
+> are equal, project on words and expect to be within a page.** **Where the block count differs by
+> materially more than the word count, the page count follows the BLOCKS** — **project on the block
+> ratio and say so.** **Adjust on words alone only when the block counts match.**
+
+⚠ **This also explains the B2 Phase 8 counter-example rather than merely sitting beside it.** **That
+finding was that words per page varies by 2.6× between papers and keys, and that in every pair the
+heavier document was the denser one.** **A key is denser per page than a paper because a key is mostly
+prose; a paper is mostly boxes and tables. The 2.6× was never about the words — it was about how much
+of each document is block and how much is sentence.** ⚠ **One variable, not two rules.**
+
+⚠ **And the standing rule it does not touch:** **a projection is written down before the build and the
+band follows the measurement.** **The projection here was wrong by one page and two pages, and both
+documents ship at their measured length.** **Nothing was trimmed to reach 6.**
