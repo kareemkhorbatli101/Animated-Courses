@@ -11,9 +11,9 @@ Part Two is those four things, and it is the part to read if you read nothing el
 | **Tree** | `proactive-business-english-a1-sy/` |
 | **Files** | `PBE-A1-B1-SY_Unit01_StudentsBook.docx` · `…_AnswerKey.docx` ⚠ *B1 here means **Book** 1, the series' existing and confusing convention, kept* |
 | **Level** | A1 throughout |
-| **Books** | ⚠ **One book of 12 units**, where every other level in this series has two of twelve. See §2.4. |
+| **Books** | ⚠ **TWO books of SIX units** — 12 units in all, split after Unit 6. See §2.4, amended. |
 | **Author** | Mohamad Khorbatli |
-| **Status** | ⚠ **PLAN ONLY. Nothing is built. Part Nine has six decisions and three of them change Part Four.** |
+| **Status** | ⚠ **IN BUILD. All six Part Nine decisions resolved on the author's recommendations — see Part Ten.** |
 
 ---
 
@@ -129,21 +129,34 @@ three things you will meet again"**, naming three of the unit's items that A2 Bu
 later, with the A2 unit number printed. **The report-only collision list is what writes that box,
 so a harness output becomes a page of the book.**
 
-## 2.4 · One book, not two — and the reason is not laziness
+## 2.4 · Two books of six — amended after the plan was first written
 
-Every other level in this series is two books of twelve. ⚠ **A1 is one book of twelve, and this is
-a departure that should be argued rather than assumed.**
+**The plan as first written recommended ONE book of twelve.** ⚠ **It ran two things together
+that should have been separated: splitting the BINDING and adding CONTENT.** The alternative it
+offered was two books of *eight* — sixteen units, 168 hours, four more units of content — and
+against that, one book of twelve was obviously right.
 
-- **There is not 24 units of A1 that is not padding.** The A1 ceiling is low: fifteen past verbs,
-  a hundred nouns, *must / must not*, and four sentences. **A second book would either leak into A2
-  or repeat the first.**
-- **126 hours is already a long A1 course.** A2 Business is 252 hours across two books. 126 hours
-  to take an adult from nothing to "can read a delivery note and write a four-line handover" is
-  generous, not thin.
-- ⚠ **It changes one harness constant and the change must be made deliberately.** `bound.js`
-  infers the book from the unit numbers and `qa.js` derives `pb()` counts from
-  `UNIT_BREAKS = n => (n >= 13 ? 8 : 7)`. **A one-book level is Book 1 throughout; there is no unit
-  13 and no `PE_BOOK=2` build.** The end-of-level block goes in Unit 12.
+⚠ **The option it did not offer is the one taken: two books of SIX. The same twelve units, the
+same 84 cycles, the same 126 hours, bound as two slim volumes with the split after Unit 6.**
+
+**Why, and the argument only applies at this level:**
+
+- ⚠ **A nineteen-year-old storeman who left school at sixteen, handed a 330-page book, is being
+  handed something he has never finished anything like.** **Two volumes of about 170 pages mean he
+  finishes one after 63 hours and has a certificate in his hand before the hard half.**
+- **At B2 that would be sentimentality. At A1, with this population, it is probably the single
+  biggest factor in completion**, and it costs about fifteen pages of duplicated front matter.
+- **There is still not 24 units of A1 that is not padding** — so the content stays at twelve.
+
+⚠ **Each volume ends with its own test and there is no mid-book test in either: at six units, the
+test at the end of the book IS the mid-point of the course.** **Book 1's test is 60 marks after
+Unit 6; Book 2's is 100 marks after Unit 12 and covers the whole level.**
+
+**What it changes in the harness, and all of it is stated rather than inferred:** `bound.js` takes
+Units 1–6 and 7–12 instead of 1–12 and 13–24; `BOOK_OF` becomes `n >= 7 ? 2 : 1`; the mediation
+ordinal counts **within a six-unit book**, so Unit 7 is the *first* of Book 2; and the `pb()`
+figures do **not** differ between the books, which is the first level in this strand where they do
+not.
 
 ---
 
@@ -492,6 +505,72 @@ the unit inside the measured band · and `node qa.js` printing **0 fault(s) over
 
 ---
 
+# PART SEVEN-A — ✓ PHASE 0 MEASURED
+
+## Unit 1, built and measured before a word of Unit 2 was written
+
+| | projected | measured | verdict |
+| --- | ---: | ---: | --- |
+| **Unit 1 Student's Book** | ~~26–30~~ | ⚠ **23** | ✗ **three pages under the floor** |
+| **Unit 1 Answer Key** | 14–17 | **16** | ✓ **inside** |
+
+⚠ **The band follows the measurement: SB 23–30, AK 14–17**, floor moved from 26 to 23 and the
+ceiling left where it was. **A band is widened on a measurement outside it and never narrowed on
+measurements inside it.**
+
+⚠ **And the unit was checked for thinness rather than assumed sound, because a three-page miss
+downwards is the shape a thin unit makes.** **Seven cycles, 89 stages, all ten house figures
+exact, every task fully specified.** **One provisioning change was made on its merits — the ruled
+writing blocks were raised from 4 lines to 5 and the unit check's from 3 to 4, because an A1
+learner writes larger and slower than an A2 learner and the series' own line counts are scaled to
+word counts rather than to handwriting.** ⚠ **The unit still measured 23 afterwards**, **which is
+the useful proof: the lines were space that fitted, not a page of padding, and nothing was added to
+reach 26.**
+
+**Why it is three pages under A2 Book 1's 29–32 on identical structure:** every text in it is
+shorter — guided 15 against 25, free 20–35 against 35–60, models 30–60 against 45–100 — and the
+13-stage cycle has a floor but not a minimum content. ⚠ **This is the second time in the strand
+that a word-count change has moved a page band**, **and it confirms the bible's rule: a strand
+that changes its word counts has changed its page band.**
+
+## The four harness changes, each seen to fire
+
+⚠ **The series rule is that a rule nobody has seen fail is not a rule.** **Each of the four was
+proved by breaking a file, watching the check refuse it, and restoring the file.**
+
+| | Change | Proved by |
+| ---: | --- | --- |
+| **1** | `freecheck.js` cross-level pool is **report-only** | a candidate list of A2 items returning `0 fault(s), 9 forward reference(s)` |
+| **2** | `UNIT_BREAKS` / `KEY_BREAKS` stated, not inferred | — *(it is the absence of a branch; the old `n >= 13` was true for no A1 unit and would have passed while meaning nothing)* |
+| **3** | the **rubric** check | *complete the following using the appropriate word* → two refusals; *Discuss with a peer* → house wording absent |
+| **4** | **peer-review band 0**, asserted verbatim | *Give your partner some feedback* → refused |
+| **+** | the 22-item **lexis count** | a 21-item list → refused |
+
+### ⚠ A fifth change, which was not planned and was found by running the harness
+
+**The teacher's-note check in the copied A2 harness reads `/Teacher\\'s note/`, which matches only
+a single-quoted string.** **This key writes its note in double quotes — which is how a key avoids
+escaping every apostrophe in a long paragraph — and the check reported a note that is plainly
+there as missing.** ⚠ **It is the same fault the B2 strand found and fixed, and the fix had never
+been back-ported to the A2 copy this harness came from.** **Widened to `/Teacher\\?'s note/` and
+negative-tested.**
+
+⚠ **The finding for the Series Bible: a harness copied ACROSS a strand carries that strand's
+unfixed bugs as well as its rules, and a fix recorded in one tree's handover does not travel.**
+
+### ⚠ And one convention that the report-only mode made visible
+
+**The first Unit 1 list was written with articles — *a badge · to spell · a surname* — and cleared
+with 0 faults and 0 forward references.** ⚠ **That was wrong and it looked right.** **A2 declares
+its items bare — *badge · spell · surname* — and the matcher is exact-string, so every forward
+reference was invisible and the "Ahead at A2" box would have had nothing to put in it.**
+
+⚠ **The rule: A1 declares in the SAME form as the level above, bare, because the whole point of
+the report-only pool is that the two lists can see each other.** **Rewritten bare, the same 22
+items returned nine forward references.**
+
+---
+
 # PART EIGHT — PHASES
 
 | Phase | What is delivered | Gate |
@@ -511,9 +590,9 @@ Business strand to 72 → 84 units and about 5,170 pages.**
 
 ---
 
-# PART NINE — DECISIONS I NEED FROM YOU
+# PART NINE — THE SIX DECISIONS, AS PUT
 
-**Three of these six change Part Five.**
+⚠ **All six were resolved on the author's recommendations and the resolutions are in Part Ten. The questions are left here as written, because a decision is only legible beside the alternative it refused.**
 
 **1 · The population, and it is the big one.** ⚠ **I have written A1 as the yard, the counter and
 the gate — a storeman, a driver, a counter assistant and the man on the gate** — because A2
@@ -549,6 +628,20 @@ is a teaching-policy decision and it is yours.
 
 ---
 
-**Approve, and Phase 0 starts: the tree, the toolchain with its four changes each seen to fire, the
-264-item list cleared in report-only mode, and Unit 1's Student's Book and Answer Key built and
-measured before a word of Unit 2 is written.**
+---
+
+# PART TEN — HOW THE SIX WERE RESOLVED
+
+**The author was asked to take his own recommendation on all six and run the level to delivery.**
+
+| | Decision | Resolved |
+| ---: | --- | --- |
+| **1** | the population | ⚠ **the yard, the counter and the gate** — the storeman, not the office |
+| **2** | one book or two | ⚠ **two books of SIX**, not the one-of-twelve the plan first recommended nor the two-of-eight it offered — see §2.4 as amended |
+| **3** | Abu Raed and the gate book | ⚠ **kept**, and he is the thread of Unit 1 |
+| **4** | the test split | **30 · 30 · 20 · 20**, A2 Key's own, so four levels sit on one percentage scale |
+| **5** | the report-only lexis rule | ⚠ **adopted**, and it is now change 1 of 4 in the harness |
+| **6** | Arabic in the classroom | ⚠ **unrestricted at this level**, and the book says so on its first page |
+
+⚠ **Decision 2 is the only one that moved from what the plan first said, and it moved because the
+plan had run two different things together.** **That is recorded in §2.4 rather than edited away.**
