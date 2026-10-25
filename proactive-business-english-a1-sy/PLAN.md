@@ -719,3 +719,54 @@ of each document is block and how much is sentence.** ⚠ **One variable, not tw
 ⚠ **And the standing rule it does not touch:** **a projection is written down before the build and the
 band follows the measurement.** **The projection here was wrong by one page and two pages, and both
 documents ship at their measured length.** **Nothing was trimmed to reach 6.**
+
+## 11.3 · Book 1 bound, and why the arithmetic was one page out
+
+| | arithmetic | measured |
+| --- | ---: | ---: |
+| **Student's Book** | 1 title + 23 + 23 + 24 + 25 + 29 + 30 + 9 = **164** | **165** |
+| **Answer Key** | 1 title + 16 + 16 + 20 + 21 + 21 + 22 + 8 = **125** | **125** ✓ |
+
+**The key is exact. The Student's Book was one over, so it was traced rather than accepted.**
+
+**How it was traced.** **A cumulative probe — title page plus units 1…N — put the gain at Unit 3; a
+pairwise probe put it at Unit 2.** ⚠ **Two probes disagreeing is the signal that the gain is not a
+unit's content at all but a BOUNDARY**, **so the bound PDF itself was read: every unit's first page
+located by its title, and every page scanned for content.**
+
+| unit | bound pages | standalone |
+| --- | ---: | ---: |
+| 1 Your Name and the Gate | 2–24 = **23** | 23 ✓ |
+| 2 Numbers, Boxes and the Count | 25–48 = **24** | 23 ⚠ |
+| 3 The Day, the Week and the Shift | 49–72 = **24** | 24 ✓ |
+| 4 Where Things Are | 73–97 = **25** | 25 ✓ |
+| 5 The Delivery Note | 98–126 = **29** | 29 ✓ |
+| 6 The Telephone You Cannot Answer | 127–156 = **30** | 30 ✓ |
+| Book 1 Test | 157–165 = **9** | 9 ✓ |
+
+⚠ **Page 48 is BLANK — a running header and a page number and nothing else.** **Unit 2's twenty-three
+content pages are byte-for-byte the same bound and standalone; what the bound volume gains is an empty
+page after them.**
+
+**The mechanism.** **Unit 2's last element is the small-type lexis line, and its space-AFTER falls past
+the bottom of its twenty-third page.** **Standalone the document ends there and the trailing space is
+discarded; bound, that space opens page 48, and Unit 3's own `pb()` then starts page 49.** ⚠ **Nothing
+reflowed. One paragraph's trailing space became one sheet of paper.**
+
+⚠ **It was not trimmed away, and the reason is the standing rule.** **Removing a line from Unit 2 to
+delete a blank page would be changing the book to tidy the renderer** — **the same fault as trimming to
+hit a projected band.** **A single blank leaf between two units of a workbook is what a printer would
+insert anyway.**
+
+**⚠ The bound-arithmetic rule, amended:**
+
+> **A bound volume is exact on arithmetic once inter-unit blank pages are counted.** **A document whose
+> last paragraph ends flush with the page bottom contributes one blank page when it is bound and none
+> when it is built alone, so the sum may be up to one page per unit over the standalone total.**
+> **Check it by scanning the bound PDF for pages with no content: ONE blank between two units is the
+> artefact and is allowed; TWO IN A ROW, or a blank inside a unit, is a fault and must be found.**
+
+⚠ **Book 1 was checked that way: the Student's Book has exactly one blank page (48) and no two in a
+row; the Answer Key has none.** **This also explains why the B2 volumes came out exact** — **not by
+design, but because none of their twenty-four units happened to end flush with a page bottom.** **A
+rule that has only ever been tested on lucky input has not been tested.**
