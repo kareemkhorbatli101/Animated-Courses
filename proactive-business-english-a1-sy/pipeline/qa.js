@@ -24,6 +24,12 @@ const CAST = ['Ammar', 'Abu Yasser', 'Fadi', 'Nour', 'Majd', 'Abu Raed',
               // own opening box, not Unit 1's cast box: he is a Unit 4 character and pretending
               // otherwise would put a name in front of the class three units before it is used.
               'Fouad',
+              // ⚠ Hani Deeb was a NAME in Book 1 — the man who swapped eleven Thursdays in 3.7
+              // and never wrote one down — and he first speaks in Unit 8.3, where the cycle needs
+              // somebody who asks badly and waits two minutes for it. Third catch for this rule,
+              // after Samih in unit 02 and Fouad in unit 04, and the pattern is now clear: a name
+              // used in a mediation is a character the book will want to hear from later.
+              'Hani',
               'A', 'B', 'C', 'Man', 'Woman', 'Caller', 'Customer', 'Driver',
               'Voice', 'Supplier',
               'Gate', 'Counter', 'Office'];   // institutional voices: a place, not a person
