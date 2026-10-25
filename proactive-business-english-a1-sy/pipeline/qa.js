@@ -30,6 +30,13 @@ const CAST = ['Ammar', 'Abu Yasser', 'Fadi', 'Nour', 'Majd', 'Abu Raed',
               // after Samih in unit 02 and Fouad in unit 04, and the pattern is now clear: a name
               // used in a mediation is a character the book will want to hear from later.
               'Hani',
+              // ⚠ Hala Mourad came with the A2 Business canon and had a surname registered here
+              // before she had a line. She first speaks in Unit 9.7's audio script. FOURTH catch for
+              // this rule, and the fourth one finally named the real fault: SURNAME and CAST are two
+              // lists that should be one. A name in SURNAME and not in CAST is a name the harness will
+              // refuse the first time it opens its mouth — so the gap between the two is now PRINTED
+              // at the start of every run, as a warning and not a fault. See castGap() below.
+              'Hala',
               'A', 'B', 'C', 'Man', 'Woman', 'Caller', 'Customer', 'Driver',
               'Voice', 'Supplier',
               'Gate', 'Counter', 'Office'];   // institutional voices: a place, not a person
@@ -267,6 +274,27 @@ const SURNAME = { Ammar: 'Zreik', Majd: 'Bitar', Raed: 'Najjar', Samih: 'Qassar'
                   Lina: 'Shamseddine' };
 const LEXIS_N = 22;      // A1 declares 22 a unit; A2 declares 26, B1 30, B2 32
 
+// ⚠ A fifth harness finding, and the only one that reports BEFORE a unit is written.
+// Four units in a row were refused for a speaker who was not in the cast: Samih (unit 02),
+// Fouad (unit 04), Hani (unit 08), Hala (unit 09). Every one of those four already had a
+// surname in SURNAME — they were known people who had never had a line. So the fault was
+// never really "undeclared speaker": it was two lists that should be one, drifting.
+// This prints the gap at the start of every run. It is NOT a fault — a registered name with
+// no lines yet is perfectly normal — but a writer who reads this list knows which names
+// will be refused before spending a unit on them.
+function castGap() {
+  // ⚠ the cast holds 'Abu Yasser' and 'Abu Raed', so a bare 'Yasser' or 'Raed' in SURNAME is
+  // already able to speak. A warning that names people who can speak is a warning nobody reads,
+  // which is how the first version of this function failed before it was ever useful.
+  const canSpeak = new Set();
+  CAST.forEach(n => { canSpeak.add(n); const m = n.match(/^Abu (\w+)$/); if (m) canSpeak.add(m[1]); });
+  const mute = Object.keys(SURNAME).filter(n => !canSpeak.has(n));
+  if (mute.length) {
+    console.log(`-- registered but cannot speak yet: ${mute.join(', ')}` +
+                ` — add to CAST and declare in the unit before giving one of them a line`);
+  }
+}
+
 // ---- ⚠ A1 CHANGE 3 of 4: the rubric check -----------------------------------
 // An A1 book routinely teaches `there is / there are` in an exercise whose rubric
 // reads "complete the following sentences using the appropriate form". The learner
@@ -472,5 +500,6 @@ if (units.length) checkOrdinals(units.map(f => path.join(dir, f)));
   if (fs.existsSync(path.join(dir, t)) && fs.existsSync(path.join(dir, k))) checkTest(t, k, spec);
 });
 const nLex = checkLexis(lexis);
+castGap();
 console.log(`-- ${nLex} lexis item(s) declared; ${faults} fault(s)`);
 process.exit(faults ? 1 : 0);
