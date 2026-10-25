@@ -3,7 +3,7 @@ const L = require('./lib');
 const { p, h1, h2, h3, pb, sp, stage, lesson, box, dlg, table, lines, item, bullet, C } = L;
 const out = [];
 const PHRASE_CARD = (list) => table(null, [list.map(x => '☐ ' + x)], list.map(() => 1));
-const LEXIS = 'big · small · heavy · light · broken · torn · wet · dry · damage · crushed · half · most · a few · condition · to drop · to tear · outside · inside · when it came · like this · what do I do · to decide';
+const LEXIS = 'big · small · heavy · light (not heavy) · broken · torn · wet · dry · damage · crushed · half · most · a few · condition · to drop · to tear · outside · inside · when it came · like this · what do I do · to decide';
 const AHEAD_AT_A2 = 'damage · crushed · condition';
 
 out.push(h1('Unit 7  Full, Empty, Broken'));

@@ -52,6 +52,45 @@ fs.readdirSync(dir).filter(f => /^unit\d\d\.js$/.test(f)).forEach(f => {
   items.forEach(i => { if (!mine.has(i)) mine.set(i, f.match(/\d\d/)[0]); });
 });
 
+// ⚠ --batch: several candidate lists at once, cross-checked AGAINST EACH OTHER as well.
+//
+// This was added after a real miss. All six Book 2 lists were cleared in one go, each against
+// the units already on disk — and because none of the six was WRITTEN yet, none of them was
+// checked against the other five. "light" went into unit 07 (not heavy) and unit 10 (a lamp)
+// and only qa.js caught it, after both units were built.
+//
+// A batch clearance that does not cross-check the batch is not a clearance.
+// Usage: node freecheck.js --batch 07 "a · b" 09 "c · d" ...
+if (process.argv[2] === '--batch') {
+  const rest = process.argv.slice(3);
+  const lists = [];
+  for (let i = 0; i + 1 < rest.length; i += 2) {
+    lists.push([rest[i], rest[i + 1].split('·').map(s => s.trim()).filter(Boolean)]);
+  }
+  let bad = 0;
+  lists.forEach(([n, items]) => {
+    if (items.length !== LEXIS_N) { console.log(`  ✗ unit ${n}: ${items.length} item(s), not ${LEXIS_N}`); bad++; }
+    items.forEach(c => {
+      if (mine.has(c) && mine.get(c) !== n) { console.log(`  ✗ unit ${n}: "${c}" — already in A1 unit ${mine.get(c)}`); bad++; }
+    });
+  });
+  // the cross-check the single-list mode cannot do
+  for (let a = 0; a < lists.length; a++) {
+    for (let b = a + 1; b < lists.length; b++) {
+      lists[a][1].filter(x => lists[b][1].includes(x)).forEach(x => {
+        console.log(`  ✗ "${x}" is in BOTH candidate unit ${lists[a][0]} and candidate unit ${lists[b][0]}`);
+        bad++;
+      });
+    }
+  }
+  lists.forEach(([n, items]) => {
+    const ahead = items.filter(c => above.has(c));
+    if (ahead.length < 3) console.log(`  ✗ unit ${n}: ${ahead.length} forward reference(s) — the closing box needs 3`);
+  });
+  console.log(`\n${lists.length} list(s) cross-checked; ${bad} fault(s)`);
+  process.exit(bad ? 1 : 0);
+}
+
 const me = process.argv[2];
 const cand = (process.argv[3] || '').split('·').map(s => s.trim()).filter(Boolean);
 let bad = 0, ahead = [];
