@@ -251,7 +251,14 @@ const SURNAME = { Ammar: 'Zreik', Majd: 'Bitar', Raed: 'Najjar', Samih: 'Qassar'
                   // inherited from the A2 Business canon, unchanged
                   Nour: 'Mansour', Nadia: 'Sayegh', Bassel: 'Nassif', Hala: 'Mourad',
                   Fadi: 'Saeed', Khaled: 'Ayoub', Marwan: 'Haddad', Fouad: 'Tarabishi', Dima: 'Shamsi',
-                  Yasser: 'Khalil' };
+                  Yasser: 'Khalil',
+                  // ⚠ the walk-on parts, registered because this check has now caught two of them.
+                  // Khaled Haddad in unit 05 (Khaled is Ayoub) and Dima Shamseddine in ak06 (Dima is
+                  // Shamsi) both got as far as a built page. A name used once is exactly the name a
+                  // later unit reuses with a different surname, so every invented name goes in here
+                  // the moment it is invented — the map is cheap and the fault is invisible.
+                  Ghassan: 'Mouallem', Hani: 'Deeb', Omar: 'Sibai', Rima: 'Sibai',
+                  Lina: 'Shamseddine' };
 const LEXIS_N = 22;      // A1 declares 22 a unit; A2 declares 26, B1 30, B2 32
 
 // ---- ⚠ A1 CHANGE 3 of 4: the rubric check -----------------------------------
