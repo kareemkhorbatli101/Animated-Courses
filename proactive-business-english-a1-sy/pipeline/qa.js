@@ -18,6 +18,12 @@ const CAST = ['Ammar', 'Abu Yasser', 'Fadi', 'Nour', 'Majd', 'Abu Raed',
               // good character and the usage is consistent, so he is added to the cast rather
               // than removed from the book — and declared in Unit 1's cast box, before he speaks.
               'Samih',
+              // ⚠ Fouad Tarabishi arrives in Unit 4.7, where the mediation needs a man who has
+              // moved eleven things to better places and told nobody. The harness refused the unit
+              // until he was declared, which is what this list is for. He is declared in Unit 4's
+              // own opening box, not Unit 1's cast box: he is a Unit 4 character and pretending
+              // otherwise would put a name in front of the class three units before it is used.
+              'Fouad',
               'A', 'B', 'C', 'Man', 'Woman', 'Caller', 'Customer', 'Driver',
               'Voice', 'Supplier',
               'Gate', 'Counter', 'Office'];   // institutional voices: a place, not a person
