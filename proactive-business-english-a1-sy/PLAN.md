@@ -770,3 +770,87 @@ insert anyway.**
 row; the Answer Key has none.** **This also explains why the B2 volumes came out exact** — **not by
 design, but because none of their twenty-four units happened to end flush with a page bottom.** **A
 rule that has only ever been tested on lucky input has not been tested.**
+
+---
+
+# Part Twelve — the test-projection rule, FOURTH amendment
+
+## 12.1  What the End-of-Course Test measured
+
+Projected before building, per the third amendment (words and block counts against a same-type
+document): **test 13 pages, band 12–14; key 12–13.**
+
+Measured: **test 12, key 9.** The test landed inside its band at the low edge. ⚠ **The key missed
+by three pages, which is not a near miss — it is a wrong rule.**
+
+So the third amendment was wrong, or incomplete, and the first thing to fix was the measurement
+itself. ⚠ **Every projection in this series up to here counted words in the SOURCE**, with a sed
+expression that strips a token up to its opening parenthesis. That count includes identifiers,
+colour constants and table column widths, and it mangles every table. **A projection built on a
+quantity the reader never sees cannot be expected to predict a page.**
+
+Re-measured from the artefact, with `pdftotext`:
+
+| document | pages | rendered words | words/page | blocks | words/block |
+|---|---|---|---|---|---|
+| A1 Book 1 Test | 9 | 2124 | 236 | 31 | 68 |
+| A1 End-of-Course Test | 12 | 2953 | 246 | 38 | 78 |
+| A1 Book 1 Test key | 8 | 3239 | 404 | 36 | 90 |
+| A1 End-of-Course key | 9 | 4279 | 475 | 37 | 116 |
+| A2 B2 Mid-Book Test | 8 | 2217 | 277 | 31 | 72 |
+| A2 B2 End-of-Book Test | 10 | 2773 | 277 | 33 | 84 |
+| A2 B2 Mid-Book key | 7 | 2370 | 338 | 27 | 88 |
+| A2 B2 End-of-Book key | 7 | 2935 | 419 | 27 | 109 |
+
+## 12.2  The finding: a test paper and a key do not behave the same way
+
+| pair | words/block | words/page |
+|---|---|---|
+| A2 test → test | +17% | **0%** |
+| A1 test → test | +13% | **+4%** |
+| A2 key → key | +24% | **+24%** |
+| A1 key → key | +28% | **+17%** |
+
+⚠ **A TEST PAPER has a fixed words-per-page.** Its page is paced by layout furniture that does not
+change with content: one box per notice, one indented paragraph per question, a ruled answer area.
+Make the blocks fatter and the density barely moves — A2's went from 277 to 277.
+
+⚠ **A KEY does not. Its words-per-page rises roughly in step with its words-per-block.** A key page
+is continuous prose and tables, so a longer paragraph amortises one block's fixed overhead —
+padding, border, space-after, the partial last line — over more text, and more words fit.
+
+## 12.3  The rule, fourth amendment
+
+**Measure rendered words, never source words.** `pdftotext file.pdf - | wc -w`.
+
+**For a test paper:** pages = rendered words ÷ the same level's own test words-per-page.
+**For a key:** pages = rendered words ÷ (base key's words-per-page × new words-per-block ÷ base
+words-per-block).
+
+Checked against all four pairs, two independent levels:
+
+| | projected | measured |
+|---|---|---|
+| A1 End-of-Course Test | 2953 / 236 = 12.5 | **12** ✓ |
+| A2 B2 End-of-Book Test | 2773 / 277 = 10.0 | **10** ✓ |
+| A1 End-of-Course key | 4279 / 521 = 8.2 | **9** ✓ |
+| A2 B2 End-of-Book key | 2935 / 418 = 7.0 | **7** ✓ |
+
+⚠ **Two exact, two within a page, and nothing was trimmed to make them fit.** The A1 key's 9
+against 8.2 is the band following the measurement, which is the standing rule.
+
+## 12.4  What this does to the third amendment, and to the B2 counter-example
+
+⚠ **Block count was never the variable. It was a proxy for words-per-block, and a poor one** — it
+counts a fifteen-row table and a one-line notice the same. The third amendment's "pages follow the
+blocks" worked on the one pair it was written from because that pair's block count happened to
+move with its block fatness.
+
+⚠ **And the B2 Phase 8 counter-example is now fully retired.** Its 2.6× variation in words-per-page
+was a variation in words-per-block, measured on a mixed set of documents — test papers against
+keys against units — which is three different densities averaged into one meaningless figure. **The
+third amendment half-saw this and called it block-to-sentence ratio. It is words per block, it is
+measurable before building, and it predicts.**
+
+⚠ **The rule to carry to the next level: a document type has its own density, and comparing across
+types is the error. Project a test from a test and a key from a key, on rendered words.**
