@@ -250,7 +250,7 @@ function checkOrdinals(files) {
 const SURNAME = { Ammar: 'Zreik', Majd: 'Bitar', Raed: 'Najjar', Samih: 'Qassar',
                   // inherited from the A2 Business canon, unchanged
                   Nour: 'Mansour', Nadia: 'Sayegh', Bassel: 'Nassif', Hala: 'Mourad',
-                  Fadi: 'Saeed', Khaled: 'Ayoub', Fouad: 'Tarabishi', Dima: 'Shamsi',
+                  Fadi: 'Saeed', Khaled: 'Ayoub', Marwan: 'Haddad', Fouad: 'Tarabishi', Dima: 'Shamsi',
                   Yasser: 'Khalil' };
 const LEXIS_N = 22;      // A1 declares 22 a unit; A2 declares 26, B1 30, B2 32
 
