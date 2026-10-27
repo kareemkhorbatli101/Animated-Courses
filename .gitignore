@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Over GitHub's 100MB per-file limit (118.52MB). Pure duplication of the
+# individual package zips; rebuild with _PACKAGES/make-master.sh when needed.
+_PACKAGES/ALL-BOOKS_Mo-Khorbatli_COMPLETE.zip
