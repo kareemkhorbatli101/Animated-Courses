@@ -16,6 +16,12 @@ CMA_Book2_AnswerKeys_Ch01-18.zip
 CMA_Book3_Handouts_Ch01-18.zip
 CMA_Book3_AnswerKeys_Ch01-18.zip
 
+# And the one bundle that carries all four books at once. Same reason:
+# the four whole-book .docx and the 72 per-chapter ones inside it are
+# each tracked already. Rebuild it from those files; README.txt inside
+# it says what it holds.
+CMA_Part_1_Summary_Handouts.zip
+
 # Rendered figures, keyed by the hash of the SVG that produced them. Every
 # one is reproducible from the generator, and the directory is tens of
 # megabytes, so it is a build artefact rather than source.
