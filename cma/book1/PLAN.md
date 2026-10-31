@@ -876,28 +876,21 @@ targets, `prefers-reduced-motion` honoured, no information carried by colour alo
 
 ---
 
-## 12. Decisions I need from you
+## 12. Decisions — settled 2026-10-31
 
-Three forks change the work materially. My recommendation is first in each case.
+**Q1 — French: keep the prose, no French exercises.** The four False-Friend bullets that warn about French
+words (*résultat*, *charges*, *la balance*, *stock*) stay as readable content, because they are concepts the
+chapter teaches and dropping them would drop content. No French column in any term table, and no French
+exercise anywhere. Translation exercises are English ↔ Arabic only.
 
-**Q1 — French.** The exercises are English ↔ Arabic only; that is settled. But four of the chapter's
-False-Friend bullets are *about* French words (*résultat* = net income, *charges* = expenses, *la balance* =
-the trial balance, *stock* = inventory in French and British English), and the key-terms tables have a French
-column throughout. Options: **(a) keep the French false-friend prose as content** — it is a warning aimed at
-French-trained readers and dropping it would drop a concept — **but no French column and no French exercise,
-ever** *(my recommendation)*; (b) drop every mention of French, accepting that four of the chapter's
-false-friend warnings disappear; (c) keep French as a third column behind a toggle that is off by default.
+**Q2 — the pilot zip is Chapter 1 complete, all 13 pages.** Seven section pages plus hub, summary, practice
+(P01–P16), case (C1-1…C1-6), terms, review and answers. The pilot's job is to prove "absolutely everything"
+on one chapter.
 
-**Q2 — what the pilot zip contains.** (a) **Chapter 1 complete, all 13 pages** *(my recommendation)* — the
-pilot's job is to prove "absolutely everything" on one chapter; (b) the vertical slice first (section 1.3
-only) so you can review the architecture after half a day's work before I build the other twelve pages;
-(c) Chapter 1 plus a skeleton of Chapter 2 to prove the scale-out.
-
-**Q3 — the existing `cma/unit1/` prototype.** (a) **Build fresh at `cma/book1/` and retire `cma/unit1/`
-once the pilot supersedes it** *(my recommendation)* — the data shapes have to change for shuffling and
-distractors anyway, and two half-sites for one chapter is worse than either; (b) extend `cma/unit1/` in place
-and keep its URLs; (c) leave the prototype untouched and build alongside it permanently.
+**Q3 — build fresh at `cma/book1/` and retire `cma/unit1/`.** The six working renderers are ported; the data
+shapes change so that MCQ options can shuffle with their rationales attached and every matching set carries
+distractors. `cma/unit1/` is removed once the pilot supersedes it.
 
 ---
 
-*Plan prepared for review. Nothing in §5 is optional — the coverage ledger is the contract.*
+*Nothing in §5 is optional — the coverage ledger is the contract.*
