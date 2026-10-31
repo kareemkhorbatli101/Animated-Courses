@@ -283,8 +283,8 @@ window.PAGE = {
       { word: "presents", why: "To present is to show the item on the face of a statement." },
       { word: "discloses", why: "To disclose is to explain the item in the notes, not on the face." }
     ],
-    extra: ["records"],
-    note: "To <em>record</em> is to enter the item in the journal and ledger — a bookkeeping step, not one of the four in this sentence." },
+    extra: ["records", "reports"],
+    note: "Two words are left over. To <em>record</em> is to enter the item in the journal and ledger — a real accounting verb, but a bookkeeping step rather than one of the four in this sentence. <em>Reports</em> is not one of the five exam verbs at all." },
 
   { type: "selfex", id: "x09", badge: "09",
     title: "In your own words: why can't managers be primary users?",

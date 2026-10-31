@@ -668,3 +668,63 @@ tr.given{opacity:.85}
   a{color:#000;text-decoration:none}
   .drop{border-style:solid;min-height:36px}
 }
+
+/* ---------- chapter contents (hub) ---------- */
+.contents-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px;margin:0 0 28px}
+.contents-card{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 18px}
+.contents-card:hover{border-color:var(--teal-line);box-shadow:var(--shadow-sm);text-decoration:none}
+.contents-card.is-done{background:var(--good-wash);border-color:var(--good-line)}
+.contents-n{flex:none;width:40px;height:40px;border-radius:11px;background:var(--teal-wash);color:var(--teal-ink);
+  display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--mono)}
+.contents-back .contents-n{background:var(--gold-wash);color:var(--warn)}
+.contents-text{flex:1;min-width:0}
+.contents-title{display:block;font-weight:700;font-size:14.5px;color:var(--ink)}
+.contents-blurb{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.contents-badge{flex:none;align-self:center;font-size:11px;font-weight:800;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--teal)}
+.contents-card.is-done .contents-badge{color:var(--good)}
+
+/* ---------- trap counter ---------- */
+.trap-list{list-style:none;margin:10px 0 0;padding:0}
+.trap-list li{padding:10px 12px;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius-sm);margin-bottom:8px;font-size:14px}
+.trap-list li.trap-fixed{opacity:.72}
+.trap-list a{font-weight:700}
+.trap-count{font-size:12.5px;color:var(--muted)}
+.trap-note{margin:5px 0 0;font-size:13px;color:var(--ink-soft)}
+
+/* ---------- hub extras ---------- */
+.hub-stats{display:flex;gap:26px;flex-wrap:wrap;margin:20px 0 0;font-size:13.5px;color:var(--muted)}
+.hub-stats b{color:var(--ink);font-size:15px;margin-right:5px}
+.glossary-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:0 0 18px}
+.glossary-search{font:inherit;font-size:15px;padding:10px 14px;border:1px solid var(--line-strong);
+  border-radius:9px;background:var(--card);color:var(--ink);min-width:260px;flex:1}
+.glossary-count{font-size:13px;color:var(--muted)}
+.gloss-table td{vertical-align:middle}
+.gloss-sec{font-family:var(--mono);font-size:11.5px;color:var(--teal)}
+
+/* ---------- answers reference view ---------- */
+.ans-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;margin:0 0 14px;break-inside:avoid}
+.ans-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:10px;
+  padding-bottom:9px;border-bottom:1px solid var(--line)}
+.ans-badge{font-family:var(--mono);font-size:11.5px;font-weight:800;color:var(--teal);
+  background:var(--teal-wash);padding:3px 9px;border-radius:999px;white-space:nowrap}
+.ans-head h3{font-size:15px;flex:1}
+.ans-link{font-size:12px;color:var(--muted)}
+.ans-q{font-weight:600;margin:0 0 10px;font-size:14.5px}
+.ans-a{margin:0 0 10px;padding:8px 12px;background:var(--good-wash);border:1px solid var(--good-line);
+  border-radius:var(--radius-sm);font-size:14px}
+.ans-note{font-size:13px;color:var(--muted);margin:10px 0 0}
+.ans-fill{background:var(--good-wash);padding:1px 5px;border-radius:4px;border-bottom:2px solid var(--good-line)}
+.ans-diag{margin:7px 0 0;padding-left:0}
+.ans-diag li{font-size:13px;color:var(--ink-soft)}
+.ans-order{margin:0;padding-left:22px;font-size:14px}
+.ans-order li{margin-bottom:8px}
+.ans-body table{margin-bottom:10px}
+
+/* ---------- the no-JavaScript route between pages ---------- */
+.noscript-nav{padding:26px 0}
+.noscript-nav h2{font-size:18px;margin:22px 0 10px}
+.noscript-nav ul{line-height:2}

@@ -4,21 +4,83 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Answers and explanations · Chapter 1 · CMA Part 1 Book 1</title>
-<meta name="description" content="Answers and explanations — CMA Part 1 Book 1, External Financial Reporting Decisions, Chapter 1. Interactive, offline.">
+<meta name="description" content="The full answer section for Chapter 1 — every section check, the Your Turn rows, P01–P16 and the case question, with the reason for every option.">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
 <a class="skip" href="#content">Skip to the content</a>
+<noscript>
+<div class="wrap noscript-nav">
+<p class="error">This page needs JavaScript. The exercises, the figures and the saved progress are all built in
+the page itself — there is no server to fall back on. Please enable JavaScript for this file and reload.</p>
+<nav aria-label="Chapter 1 contents"><h2>Chapter 1 · all thirteen pages</h2>
+<ul>
+<li><a href="index.html">Chapter 1 contents</a></li>
+<li><a href="s1-1.html">1.1 Who uses financial statements, and why?</a></li>
+<li><a href="s1-2.html">1.2 The building blocks: elements and the accounting equation</a></li>
+<li><a href="s1-3.html">1.3 Double entry: debits and credits</a></li>
+<li><a href="s1-4.html">1.4 The accrual basis and the matching principle</a></li>
+<li><a href="s1-5.html">1.5 Who writes the rules? U.S. GAAP and IFRS</a></li>
+<li><a href="s1-6.html">1.6 A first look at the four statements</a></li>
+<li><a href="s1-7.html">1.7 Extended Example 1A: from a trial balance to a set of statements</a></li>
+<li><a href="summary.html">Chapter summary</a></li>
+<li><a href="terms.html">Term bank</a></li>
+<li><a href="practice.html">Practice · P01–P16</a></li>
+<li><a href="case.html">Case question · Barada Wholesale</a></li>
+<li><a href="review.html">Mixed review</a></li>
+<li><a href="answers.html">Answers and explanations</a></li>
+</ul>
+<p><a href="../index.html">Book contents</a> · <a href="../how-to-use.html">How to use this book</a> ·
+<a href="../glossary.html">Glossary</a> · <a href="../term-index.html">Index of terms</a></p>
+</nav>
+</div>
+</noscript>
 <main id="main">
 <div class="wrap"><div id="content"></div></div>
 </main>
+
 <script src="../assets/ledger.js"></script>
 <script src="../assets/terms-ch01.js"></script>
 <script src="../assets/speech.js"></script>
 <script src="../assets/progress.js"></script>
 <script src="../assets/figures.js"></script>
 <script src="../assets/engine.js"></script>
-<script src="data/answers.js"></script>
+
+<!-- Every page's data file is loaded in turn and stashed, so the answer section
+     is rendered from the real exercise definitions rather than transcribed.
+     It therefore cannot drift away from the exercises it answers. -->
+<script>window.CAPTURED = [];</script>
+<script src="data/s1-1.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-2.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-3.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-4.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-5.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-6.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/s1-7.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/summary.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/terms.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/practice.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/case.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="data/review.js"></script><script>CAPTURED.push(PAGE)</script>
+
+<!-- This page's own identity, set last so the chrome describes the answers page. -->
+<script>
+window.PAGE = {
+  id: "answers", kind: "back", up: "../",
+  eyebrow: "Chapter 1 · Answers",
+  title: "Answers and explanations",
+  crumb: "Answers",
+  question: "Every answer in the chapter, with the reason for every option — including the wrong ones.",
+  blocks: [{ type: "prose", html:
+    "<p>This is the reference view. While you are working, the explanations appear inside each exercise as soon " +
+    "as you press <strong>Check Answers</strong>, and they lead with the reason for the option " +
+    "<em>you actually chose</em>. This page gathers all of them in one place for reading rather than answering.</p>" +
+    "<p class=\"fig-note\">Nothing here is transcribed. The page loads every section's exercise definitions and " +
+    "prints the answers from them, so the answer section can never disagree with the exercises.</p>" }]
+};
+</script>
+<script src="../assets/answers-view.js"></script>
 <script src="../assets/chrome.js"></script>
+<script>document.addEventListener("DOMContentLoaded", function(){ window.AnswersView.run(); });</script>
 </body>
 </html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Appendix B · Index of terms — CMA Part 1 Book 1</title>
+<meta name="description" content="Appendix B — an alphabetical index of terms, each pointing to the section that defines it.">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.index-letters{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 22px}
+.index-letter{font:inherit;font-weight:800;font-size:12.5px;min-width:32px;min-height:32px;padding:0 8px;
+  border:1px solid var(--line);background:var(--card);color:var(--teal-ink);border-radius:8px;cursor:pointer}
+.index-letter:hover{background:var(--teal-wash);border-color:var(--teal-line)}
+.index-letter:disabled{opacity:.3;cursor:default;color:var(--muted)}
+.index-group{margin:0 0 26px;scroll-margin-top:84px}
+.index-group h2{font-size:19px;color:var(--teal);border-bottom:2px solid var(--line);padding-bottom:6px;margin:0 0 10px}
+.index-list{list-style:none;margin:0;padding:0;columns:2;column-gap:34px}
+.index-list li{margin:0 0 7px;font-size:14px;break-inside:avoid}
+.index-list .idx-sec{color:var(--muted);font-family:var(--mono);font-size:11.5px;margin-left:6px}
+.index-list .idx-boxed{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--teal);margin-left:6px}
+@media(max-width:700px){.index-list{columns:1}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to the index</a>
+<main id="main">
+<div class="wrap">
+  <nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Book</a>
+    <span class="crumb-sep">/</span><span class="crumb-here">Appendix B · Index of terms</span></nav>
+  <header class="page-hero">
+    <p class="eyebrow">Appendix B</p>
+    <h1>Index of terms</h1>
+    <p class="page-question">Each term points to the section that defines it. Terms marked
+      <strong>BRIDGE</strong> appear in one of the chapter's Term Bridge boxes; the rest are defined in the prose.</p>
+  </header>
+
+  <div class="index-letters" id="letters"></div>
+  <div id="content"></div>
+
+  <p class="fig-note">The <a href="glossary.html">glossary</a> gives the Arabic equivalent and the meaning of every
+    term, with pronunciation in both languages. The <a href="ch01/terms.html">Chapter 1 term bank</a> drills them.</p>
+</div>
+</main>
+
+<script src="assets/ledger.js"></script>
+<script src="assets/terms-ch01.js"></script>
+<script src="assets/speech.js"></script>
+<script src="assets/progress.js"></script>
+<script>
+window.PAGE = { id: "term-index", kind: "hub", up: "", noHero: true, title: "Index of terms" };
+(function () {
+  var T = window.TERMS;
+  var host = document.getElementById("content");
+  var letters = document.getElementById("letters");
+
+  var groups = {};
+  T.all.slice().sort(function (a, b) { return a.en.localeCompare(b.en); }).forEach(function (t) {
+    var L = t.en.replace(/^[^A-Za-z]*/, "").charAt(0).toUpperCase() || "#";
+    (groups[L] = groups[L] || []).push(t);
+  });
+
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(function (L) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "index-letter";
+    b.textContent = L;
+    if (!groups[L]) b.disabled = true;
+    else b.addEventListener("click", function () {
+      var el = document.getElementById("idx-" + L);
+      if (el) el.scrollIntoView({ block: "start", behavior: "smooth" });
+    });
+    letters.appendChild(b);
+  });
+
+  Object.keys(groups).sort().forEach(function (L) {
+    var sec = document.createElement("section");
+    sec.className = "index-group";
+    sec.id = "idx-" + L;
+    var h = document.createElement("h2");
+    h.textContent = L;
+    sec.appendChild(h);
+    var ul = document.createElement("ul");
+    ul.className = "index-list";
+    groups[L].forEach(function (t) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = "ch01/s1-" + t.sec.split(".")[1] + ".html";
+      a.textContent = t.en;
+      li.appendChild(a);
+      var s = document.createElement("span");
+      s.className = "idx-sec";
+      s.textContent = t.sec;
+      li.appendChild(s);
+      if (t.bridge) {
+        var b = document.createElement("span");
+        b.className = "idx-boxed";
+        b.textContent = "bridge";
+        li.appendChild(b);
+      }
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    host.appendChild(sec);
+  });
+})();
+</script>
+<script src="assets/chrome.js"></script>
+</body>
+</html>

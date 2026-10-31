@@ -47,15 +47,21 @@
 
     /* ---------------- title block ---------------- */
     var main = doc.getElementById("main") || doc.body;
+    /* A page that writes its own hero (the book home, the appendices) asks for
+       the header, footer and nothing else. */
+    if (page.noHero) { buildFooter(); return; }
     var topWrap = E("div", "wrap");
 
     var crumb = E("nav", "crumb");
     crumb.setAttribute("aria-label", "Breadcrumb");
-    crumb.appendChild(link(up + "index.html", "Book"));
-    crumb.appendChild(E("span", "crumb-sep", "/"));
-    crumb.appendChild(link(up + "index.html#part-1", "Part I"));
-    crumb.appendChild(E("span", "crumb-sep", "/"));
-    crumb.appendChild(link("index.html", "Chapter 1"));
+    /* A page may declare its own trail; chapter pages get the default one. */
+    var trail = page.crumbs || [[up + "index.html", "Book"],
+                                [up + "index.html#part-1", "Part I"],
+                                ["index.html", "Chapter 1"]];
+    trail.forEach(function (c, i) {
+      if (i) crumb.appendChild(E("span", "crumb-sep", "/"));
+      crumb.appendChild(link(c[0], c[1]));
+    });
     if (page.kind !== "hub") {
       crumb.appendChild(E("span", "crumb-sep", "/"));
       crumb.appendChild(E("span", "crumb-here", page.crumb || page.title));
@@ -156,7 +162,13 @@
       });
     }
 
-    /* ---------------- footer ---------------- */
+    buildFooter();
+    function link(href, text) { var a = E("a", null, text); a.href = href; return a; }
+    refreshProgress();
+  }
+
+  /* ---------------- footer ---------------- */
+  function buildFooter() {
     var footer = E("footer", "site-foot");
     var fw = E("div", "wrap");
     var note = E("p", "speech-note");
@@ -188,9 +200,6 @@
       "Open these pages straight from the folder: no internet connection and no web server are needed."));
     footer.appendChild(fw);
     doc.body.appendChild(footer);
-
-    function link(href, text) { var a = E("a", null, text); a.href = href; return a; }
-    refreshProgress();
   }
 
   function refreshProgress() {

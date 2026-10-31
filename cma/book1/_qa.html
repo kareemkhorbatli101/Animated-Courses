@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quality gate · CMA Part 1 Book 1, Chapter 1</title>
+<meta name="description" content="The mechanical quality gate: coverage, the exercise contract, the ledger ties, bilingual completeness and accessibility.">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.gate{margin:0 0 26px}
+.gate h2{font-size:19px;margin:0 0 4px}
+.gate-sub{color:var(--muted);font-size:13.5px;margin:0 0 12px}
+.gate-row{display:flex;gap:12px;align-items:baseline;padding:9px 13px;border-radius:var(--radius-sm);
+  margin-bottom:5px;font-size:14px;border:1px solid var(--line)}
+.gate-pass{background:var(--good-wash);border-color:var(--good-line)}
+.gate-fail{background:var(--bad-wash);border-color:var(--bad-line)}
+.gate-mark{font-weight:800;min-width:18px}
+.gate-pass .gate-mark{color:var(--good)}
+.gate-fail .gate-mark{color:var(--bad)}
+.gate-name{flex:1;font-weight:600}
+.gate-detail{color:var(--muted);font-size:12.5px;font-family:var(--mono)}
+.gate-fail .gate-detail{color:var(--bad)}
+.verdict{padding:22px 26px;border-radius:var(--radius);margin:0 0 30px;font-size:17px;font-weight:800}
+.verdict-pass{background:var(--good-wash);border:2px solid var(--good-line);color:var(--good)}
+.verdict-fail{background:var(--bad-wash);border:2px solid var(--bad-line);color:var(--bad)}
+.verdict small{display:block;font-weight:400;font-size:13.5px;margin-top:7px;color:var(--ink-soft)}
+#sandbox{position:absolute;left:-99999px;width:1200px}
+</style>
+</head>
+<body>
+<a class="skip" href="#out">Skip to the results</a>
+<main id="main">
+<div class="wrap">
+  <nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Book</a>
+    <span class="crumb-sep">/</span><span class="crumb-here">Quality gate</span></nav>
+  <header class="page-hero">
+    <p class="eyebrow">Not part of the course</p>
+    <h1>Quality gate</h1>
+    <p class="page-question">The source book passes a 33-check gate per chapter. This page holds the site to
+      something comparable, and does it mechanically: it loads every page's real exercise definitions, renders
+      every one of them, and checks the result. Open it after any edit.</p>
+  </header>
+
+  <div id="verdict"></div>
+  <div id="out"></div>
+  <div id="sandbox" aria-hidden="true"><div id="content"></div></div>
+
+  <p class="fig-note">Three further checks run when the package is built, because a page opened from
+    <code>file://</code> cannot read its own neighbours: that every internal link resolves to a file that exists,
+    that no <code>src</code> or <code>href</code> anywhere points at <code>http://</code> or <code>https://</code>,
+    and that no file uses <code>fetch()</code> or <code>&lt;script type="module"&gt;</code> — all three of which
+    break silently when there is no web server.</p>
+</div>
+</main>
+
+<script src="assets/ledger.js"></script>
+<script src="assets/terms-ch01.js"></script>
+<script src="assets/speech.js"></script>
+<script src="assets/progress.js"></script>
+<script src="assets/figures.js"></script>
+<script src="assets/engine.js"></script>
+
+<script>window.CAPTURED = [];</script>
+<script src="ch01/data/s1-1.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-2.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-3.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-4.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-5.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-6.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-7.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/index.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/summary.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/terms.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/practice.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/case.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/review.js"></script><script>CAPTURED.push(PAGE)</script>
+
+<script>
+(function () {
+  "use strict";
+  var L = window.LEDGER, T = window.TERMS, P = window.Progress, F = window.Figures;
+  var out = document.getElementById("out");
+  var results = [];
+
+  function group(title, sub) {
+    var d = document.createElement("section");
+    d.className = "gate";
+    d.innerHTML = "<h2>" + title + "</h2><p class=\"gate-sub\">" + sub + "</p>";
+    out.appendChild(d);
+    return d;
+  }
+  function check(host, name, ok, detail) {
+    results.push(ok);
+    var r = document.createElement("div");
+    r.className = "gate-row " + (ok ? "gate-pass" : "gate-fail");
+    r.innerHTML = "<span class=\"gate-mark\">" + (ok ? "✓" : "✗") + "</span>" +
+      "<span class=\"gate-name\">" + name + "</span>" +
+      "<span class=\"gate-detail\">" + (detail || (ok ? "pass" : "FAIL")) + "</span>";
+    host.appendChild(r);
+  }
+
+  /* Collect every exercise spec, flattening checkgroups. */
+  function exercisesOf(p) {
+    var out = [];
+    (function walk(blocks) {
+      (blocks || []).forEach(function (b) {
+        if (!b || typeof b !== "object") return;
+        if (b.type === "checkgroup") { (b.items || []).forEach(function (i) { out.push(i); }); return; }
+        if (b.type === "group") { walk(b.blocks); return; }
+        if (b.id && b.type) out.push(b);
+      });
+    })(p.blocks);
+    return out;
+  }
+  function blocksOf(p, type) {
+    var out = [];
+    (function walk(blocks) {
+      (blocks || []).forEach(function (b) {
+        if (!b || typeof b !== "object") return;
+        if (b.type === type) out.push(b);
+        if (b.type === "group") walk(b.blocks);
+      });
+    })(p.blocks);
+    return out;
+  }
+
+  /* ---------------- 1. Coverage ---------------- */
+  var g = group("1 · Coverage",
+    "Every page of the chapter present, and every one of the chapter's printed items accounted for.");
+
+  var ids = window.CAPTURED.map(function (p) { return p.id; });
+  check(g, "All seven numbered sections load",
+    ["s1-1", "s1-2", "s1-3", "s1-4", "s1-5", "s1-6", "s1-7"].every(function (x) { return ids.indexOf(x) >= 0; }),
+    "s1-1 … s1-7");
+  check(g, "All six back-matter pages load",
+    ["hub", "summary", "terms", "practice", "case", "review"].every(function (x) { return ids.indexOf(x) >= 0; }),
+    ids.length + " data files");
+  check(g, "The chapter contents lists thirteen pages", P.TOC.length === 13, P.TOC.length + " pages");
+
+  var all = [];
+  window.CAPTURED.forEach(function (p) { exercisesOf(p).forEach(function (e) { all.push({ p: p, e: e }); }); });
+  check(g, "Total scored exercises (133 is the chapter's full coverage)",
+    all.length >= 133, all.length + " exercises");
+
+  /* The book's own printed items, by name. */
+  function hasEx(pid, exid) {
+    var p = window.CAPTURED.filter(function (x) { return x.id === pid; })[0];
+    return !!p && exercisesOf(p).some(function (e) { return e.id === exid; });
+  }
+  var scWanted = [["s1-1","sc1"],["s1-1","sc2"],["s1-2","sc1"],["s1-2","sc2"],["s1-3","sc1"],["s1-3","sc2"],
+                  ["s1-4","sc1"],["s1-4","sc2"],["s1-5","sc1"],["s1-5","sc2"],["s1-6","sc1"],["s1-6","sc2"],
+                  ["s1-7","sc1"],["s1-7","sc2"],["s1-7","sc3"]];
+  check(g, "All 15 section-check items (SC1-1 … SC7-3)",
+    scWanted.every(function (w) { return hasEx(w[0], w[1]); }), scWanted.length + " items");
+
+  var pWanted = [];
+  for (var i = 1; i <= 16; i++) pWanted.push("p" + (i < 10 ? "0" + i : i));
+  check(g, "All 16 practice questions (P01 … P16)",
+    pWanted.every(function (x) { return hasEx("practice", x); }), "P01–P16");
+
+  check(g, "All 6 case items (C1-1 … C1-6)",
+    ["c1-1", "c1-2", "c1-3", "c1-4", "c1-5", "c1-6"].every(function (x) { return hasEx("case", x); }),
+    "C1-1–C1-6");
+
+  check(g, "All 12 journal entries (Orontes, January and February)",
+    L.january.every(function (t) { return hasEx("s1-3", "jan" + t.n); }) &&
+    L.february.every(function (t) { return hasEx("s1-3", "feb" + t.n); }),
+    "6 January + 6 February");
+
+  var grids = blocksOf(window.CAPTURED.filter(function (p) { return p.id === "s1-3"; })[0], "grid");
+  check(g, "The Your Turn grid is faded, as the book prints it",
+    grids.length === 1 && grids[0].faded === true &&
+      grids[0].rows.filter(function (r) { return r.given; }).length === 3,
+    "rows 1–3 given, 4–6 live");
+
+  var bridges = 0;
+  window.CAPTURED.forEach(function (p) { bridges += blocksOf(p, "bridge").length; });
+  check(g, "Term Bridge boxes rendered", bridges >= 6, bridges + " boxes");
+
+  var boxKinds = {};
+  window.CAPTURED.forEach(function (p) {
+    blocksOf(p, "box").forEach(function (b) { boxKinds[b.kind] = (boxKinds[b.kind] || 0) + 1; });
+  });
+  check(g, "Exam Trap boxes present", (boxKinds.trap || 0) >= 5, (boxKinds.trap || 0) + " boxes");
+  check(g, "False-Friend boxes present", (boxKinds.friend || 0) >= 2, (boxKinds.friend || 0) + " boxes");
+  check(g, "Language Focus boxes present", (boxKinds.language || 0) >= 3, (boxKinds.language || 0) + " boxes");
+  check(g, "IFRS Contrast boxes present", (boxKinds.ifrs || 0) >= 2, (boxKinds.ifrs || 0) + " boxes");
+  check(g, "What You Already Know box present", (boxKinds.know || 0) >= 1, (boxKinds.know || 0) + " box");
+  check(g, "Worked Example and Your Turn boxes present",
+    (boxKinds.worked || 0) >= 2 && (boxKinds.turn || 0) >= 1,
+    (boxKinds.worked || 0) + " worked, " + (boxKinds.turn || 0) + " your-turn");
+
+  var figs = {};
+  window.CAPTURED.forEach(function (p) {
+    blocksOf(p, "figure").forEach(function (b) { figs[b.figure] = (figs[b.figure] || 0) + 1; });
+  });
+  var figNames = Object.keys(figs);
+  check(g, "Every figure referenced has a builder",
+    figNames.every(function (n) { return F.names.indexOf(n) >= 0; }), figNames.join(", "));
+  var dropsUsed = {};
+  all.forEach(function (x) { if (x.e.type === "imagedrop") dropsUsed[x.e.figure] = 1; });
+  check(g, "Every drop-target figure has a builder",
+    Object.keys(dropsUsed).every(function (n) { return F.dropNames.indexOf(n) >= 0; }),
+    Object.keys(dropsUsed).join(", "));
+
+  /* ---------------- 2. The exercise contract ---------------- */
+  g = group("2 · The exercise contract",
+    "Every exercise is rendered for real and the result inspected — not merely described.");
+
+  var host = document.getElementById("content");
+  var rendered = [], renderFails = [];
+  window.CAPTURED.forEach(function (p) {
+    window.PAGE = p;
+    host.innerHTML = "";
+    try { window.Engine.mount(); } catch (e) { renderFails.push(p.id + ": " + e.message); return; }
+    Array.prototype.slice.call(host.querySelectorAll(".exercise")).forEach(function (sec) {
+      rendered.push({
+        page: p.id, id: sec.dataset.exercise, type: sec.dataset.type,
+        check: sec.querySelector(".btn-primary"),
+        again: sec.querySelector(".btn-ghost"),
+        live: sec.querySelectorAll("[aria-live]").length,
+        tiles: sec.querySelectorAll(".tile").length,
+        zones: sec.querySelectorAll(".drop").length,
+        kbd: Array.prototype.slice.call(sec.querySelectorAll(".drop"))
+          .every(function (z) { return z.getAttribute("tabindex") === "0"; }),
+        err: sec.querySelectorAll(".error").length
+      });
+    });
+  });
+  host.innerHTML = "";
+
+  check(g, "Every page renders without throwing", renderFails.length === 0,
+    renderFails.length ? renderFails.join(" | ") : rendered.length + " exercises rendered");
+  check(g, "No renderer reported an unknown type",
+    rendered.every(function (r) { return !r.err; }),
+    rendered.filter(function (r) { return r.err; }).map(function (r) { return r.id; }).join(", ") || "none");
+  check(g, "Every exercise has a button reading exactly “Check Answers”",
+    rendered.every(function (r) { return r.check && r.check.textContent === "Check Answers"; }),
+    rendered.length + " checked");
+  check(g, "Every exercise has a button reading exactly “Try Again”",
+    rendered.every(function (r) { return r.again && r.again.textContent === "Try Again"; }),
+    rendered.length + " checked");
+  check(g, "Every exercise announces its result (aria-live)",
+    rendered.every(function (r) { return r.live >= 2; }), "status + feedback regions");
+  check(g, "Every drop zone is keyboard-reachable",
+    rendered.every(function (r) { return r.kbd; }),
+    rendered.reduce(function (a, r) { return a + r.zones; }, 0) + " zones");
+
+  var dragTypes = ["match", "classify", "imagedrop", "cloze"];
+  var dragShort = rendered.filter(function (r) {
+    return dragTypes.indexOf(r.type) >= 0 && r.tiles < r.zones + 2;
+  });
+  check(g, "Every drag set has at least two more tiles than places (no free last match)",
+    dragShort.length === 0,
+    dragShort.length ? dragShort.map(function (r) { return r.page + "/" + r.id + " " + r.tiles + "v" + r.zones; }).join(", ")
+      : rendered.filter(function (r) { return dragTypes.indexOf(r.type) >= 0; }).length + " drag exercises");
+
+  var mcqs = all.filter(function (x) { return x.e.type === "mcq"; });
+  var noWhy = mcqs.filter(function (x) {
+    return (x.e.options || []).some(function (o) { return !o.why || !String(o.why).trim(); });
+  });
+  check(g, "Every multiple-choice option has its own explanation — including the wrong ones",
+    noWhy.length === 0,
+    noWhy.length ? noWhy.map(function (x) { return x.p.id + "/" + x.e.id; }).join(", ")
+      : mcqs.length + " questions, " + mcqs.reduce(function (a, x) { return a + x.e.options.length; }, 0) + " options");
+  var oneRight = mcqs.filter(function (x) {
+    return (x.e.options || []).filter(function (o) { return o.correct; }).length !== 1 && !x.e.multi;
+  });
+  check(g, "Every single-answer question has exactly one correct option", oneRight.length === 0,
+    oneRight.map(function (x) { return x.e.id; }).join(", ") || mcqs.length + " questions");
+
+  var noReason = all.filter(function (x) {
+    if (["classify", "imagedrop"].indexOf(x.e.type) < 0) return false;
+    return (x.e.items || []).some(function (i) { return !i.why; }) ||
+           (x.e.distractors || []).some(function (d) { return !d.why; });
+  });
+  check(g, "Every sortable item and every distractor explains itself", noReason.length === 0,
+    noReason.map(function (x) { return x.p.id + "/" + x.e.id; }).join(", ") || "all explained");
+
+  var dupIds = [];
+  window.CAPTURED.forEach(function (p) {
+    var seen = {};
+    exercisesOf(p).forEach(function (e) {
+      if (seen[e.id]) dupIds.push(p.id + "/" + e.id);
+      seen[e.id] = 1;
+    });
+  });
+  check(g, "Exercise ids are unique within each page", dupIds.length === 0, dupIds.join(", ") || "no clashes");
+
+  /* ---------------- 3. The numbers ---------------- */
+  g = group("3 · The numbers",
+    "Every figure in the chapter descends from one ledger. These ties recompute on every load.");
+
+  L.checkTies().forEach(function (t) {
+    check(g, t.label, t.ok, L.money(t.left) + " = " + L.money(t.right));
+  });
+
+  var quoted = [
+    ["Net income 330", L.is.netIncome, 330], ["Gross profit 1,240", L.is.grossProfit, 1240],
+    ["Operating income 420", L.is.operatingIncome, 420], ["Closing retained earnings 1,280", L.sce.reClosing, 1280],
+    ["Total equity 3,780", L.sce.totalEquity, 3780], ["Current assets 1,774", L.bs.currentAssets, 1774],
+    ["Non-current assets 4,236", L.bs.noncurrentAssets, 4236], ["Total assets 6,010", L.bs.totalAssets, 6010],
+    ["Current liabilities 430", L.bs.currentLiabilities, 430], ["Total liabilities 2,230", L.bs.totalLiabilities, 2230],
+    ["Receivables net 280", L.bs.arNet, 280], ["Equipment net 3,300", L.bs.equipmentNet, 3300],
+    ["Working capital 1,344", L.ratios.workingCapital, 1344], ["Current ratio 4.13", L.ratios.currentRatio2, 4.13],
+    ["January net income 80", L.jan.ni, 80], ["January cash +1,060", L.jan.cash, 1060],
+    ["January assets +2,380", L.jan.a, 2380], ["January equity +1,530", L.jan.e, 1530],
+    ["December gross profit 36", L.decemberSale.grossProfit, 36]
+  ];
+  var quotedBad = quoted.filter(function (q) { return Math.abs(q[1] - q[2]) > 0.001; });
+  check(g, "Every figure the chapter quotes reproduces from the ledger", quotedBad.length === 0,
+    quotedBad.length ? quotedBad.map(function (q) { return q[0] + " got " + q[1]; }).join(", ")
+      : quoted.length + " figures verified");
+
+  var hardcoded = all.filter(function (x) {
+    if (x.e.type !== "number") return false;
+    var f = x.e.fields || [{ answer: x.e.answer }];
+    return f.some(function (y) { return y.answer === undefined || y.answer === null || isNaN(Number(y.answer)); });
+  });
+  check(g, "Every numeric exercise has a defined answer", hardcoded.length === 0,
+    hardcoded.map(function (x) { return x.e.id; }).join(", ") ||
+    all.filter(function (x) { return x.e.type === "number"; }).length + " numeric exercises");
+
+  /* ---------------- 4. Bilingual ---------------- */
+  g = group("4 · English and Arabic",
+    "Arabic on every term, and no French anywhere in an exercise.");
+
+  check(g, "Every term has a non-empty Arabic equivalent",
+    T.all.every(function (t) { return t.ar && t.ar.trim(); }), T.count + " terms");
+  check(g, "Every term has a meaning and a source section",
+    T.all.every(function (t) { return t.gloss && /^1\.[1-7]$/.test(t.sec); }), T.count + " terms");
+  check(g, "The book's Term Bridge rows are all present",
+    Object.keys(T.bridges).reduce(function (a, k) { return a + T.bridge(k).length; }, 0) === 54,
+    "54 rows across 6 boxes");
+  check(g, "The 16-row chapter key-terms table resolves", T.keys().length === 16, "16 terms");
+
+  var frenchish = /\b(résultat|le bilan|la balance|charges fran|français|produits \/)\b/i;
+  var frenchInEx = [];
+  all.forEach(function (x) {
+    var json;
+    try { json = JSON.stringify(x.e); } catch (e) { return; }
+    /* The False-Friend sorter legitimately NAMES French words as traps; an
+       exercise that asks the learner to translate INTO French would not. */
+    if (/into French|to French|French equivalent|French column/i.test(json)) frenchInEx.push(x.e.id);
+  });
+  check(g, "No exercise asks for a French translation", frenchInEx.length === 0,
+    frenchInEx.join(", ") || "English ↔ Arabic only");
+
+  var arSpans = 0;
+  window.CAPTURED.forEach(function (p) {
+    window.PAGE = p; host.innerHTML = "";
+    try { window.Engine.mount(); } catch (e) {}
+    arSpans += host.querySelectorAll('.ar[lang="ar"][dir="rtl"]').length;
+  });
+  host.innerHTML = "";
+  check(g, "Arabic is rendered with lang and dir set", arSpans > 100, arSpans + " spans");
+
+  /* ---------------- 5. Offline and accessibility ---------------- */
+  g = group("5 · Offline and accessible",
+    "The things that break silently when a page is opened from a folder rather than served.");
+
+  check(g, "No module scripts on this page",
+    document.querySelectorAll('script[type="module"]').length === 0, "classic scripts only");
+  var ext = Array.prototype.slice.call(document.querySelectorAll("[src],[href]")).filter(function (n) {
+    var v = n.getAttribute("src") || n.getAttribute("href") || "";
+    return /^https?:/i.test(v);
+  });
+  check(g, "No external URL on this page", ext.length === 0, ext.length ? ext.length + " found" : "nothing external");
+  check(g, "No absolute paths on this page",
+    Array.prototype.slice.call(document.querySelectorAll("[src],[href]")).every(function (n) {
+      var v = n.getAttribute("src") || n.getAttribute("href") || "";
+      return v.charAt(0) !== "/";
+    }), "relative paths only");
+  check(g, "localStorage is usable from this origin", P.storageWorks === true,
+    P.storageWorks ? "progress will be saved" : "in-memory fallback in use");
+  check(g, "Speech synthesis is present in this browser", window.Speech.supported,
+    window.Speech.supported ? "voices: " + (window.Speech.voicesFor("en").length) + " en / " +
+      window.Speech.voicesFor("ar").length + " ar" : "no speechSynthesis");
+  check(g, "The sixteen renderers are all registered", window.Engine.types.length >= 16,
+    window.Engine.types.length + ": " + window.Engine.types.join(", "));
+
+  /* ---------------- verdict ---------------- */
+  var failed = results.filter(function (r) { return !r; }).length;
+  var v = document.getElementById("verdict");
+  v.className = "verdict " + (failed ? "verdict-fail" : "verdict-pass");
+  v.innerHTML = failed
+    ? "✗ " + failed + " of " + results.length + " checks failed." +
+      "<small>Each failure is marked below with the detail. Nothing should be shipped until this reads clean.</small>"
+    : "✓ All " + results.length + " checks pass." +
+      "<small>" + all.length + " exercises across " + window.CAPTURED.length + " pages, " +
+      L.checkTies().length + " ledger ties, " + T.count + " bilingual terms.</small>";
+
+  /* Leave the page describing itself, not the last data file loaded. */
+  window.PAGE = { id: "qa", kind: "hub", up: "", noHero: true, title: "Quality gate" };
+})();
+</script>
+<script src="assets/chrome.js"></script>
+</body>
+</html>

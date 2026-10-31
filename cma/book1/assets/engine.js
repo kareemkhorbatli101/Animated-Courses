@@ -162,6 +162,9 @@
     self.addZone = function (id, node, capacity, host) {
       var z = { id: id, el: node, capacity: capacity || 1, host: host || node };
       zones.push(z);
+      /* The zone's logical id on the element itself: addressable for debugging,
+         for ?seed= reproduction, and for the automated contract checks. */
+      node.dataset.zoneId = id;
       node.setAttribute("tabindex", "0");
       node.setAttribute("role", "button");
       node.addEventListener("dragover", function (e) { e.preventDefault(); node.classList.add("over"); });
@@ -1589,6 +1592,62 @@
     host.appendChild(wrap);
   }
 
+  /* The chapter contents, rendered from the one TOC definition with live progress. */
+  function renderContents(host, spec) {
+    var wrap = el("div", "contents-grid");
+    (P ? P.TOC : []).forEach(function (p, i) {
+      var a = el("a", "contents-card contents-" + p.kind);
+      a.href = p.file;
+      a.appendChild(el("span", "contents-n", p.n));
+      var tx = el("span", "contents-text");
+      tx.appendChild(el("span", "contents-title", p.title));
+      tx.appendChild(el("span", "contents-blurb", p.blurb));
+      a.appendChild(tx);
+      var st = P.pageStats(p.id);
+      var badge = el("span", "contents-badge");
+      if (st.complete) { badge.textContent = "✓ done"; a.classList.add("is-done"); }
+      else if (st.done) badge.textContent = st.done + " of " + st.total;
+      else badge.textContent = "start →";
+      a.appendChild(badge);
+      wrap.appendChild(a);
+    });
+    host.appendChild(wrap);
+  }
+
+  /* The trap counter: the traps this learner has actually failed, worst first. */
+  function renderTrapCounter(host, spec) {
+    var box = el("section", "box box-trap");
+    var head = el("div", "box-head");
+    head.appendChild(el("span", "box-kind", "YOUR TRAPS"));
+    head.appendChild(el("h3", null, "The traps you have fallen into"));
+    box.appendChild(head);
+    var body = el("div", "box-body");
+    var failed = P ? P.trapsFailed() : [];
+    if (!failed.length) {
+      body.appendChild(el("p", null,
+        "Nothing recorded yet. As you work through the sections, any Exam Trap or False-Friend item you " +
+        "get wrong is logged here by name, so you can come back to the specific confusion rather than " +
+        "redoing the whole chapter."));
+    } else {
+      body.appendChild(el("p", null, "These are logged by name as you work. Revisit the linked section, then try the item again."));
+      var list = el("ul", "trap-list");
+      failed.forEach(function (t) {
+        var name = spec.names[t.trap] || { label: t.trap, href: "index.html", note: "" };
+        var liEl = el("li", t.fixed ? "trap-fixed" : "trap-open");
+        var a = el("a", null, name.label);
+        a.href = name.href;
+        liEl.appendChild(a);
+        liEl.appendChild(el("span", "trap-count", " · missed " + t.fails + (t.fails === 1 ? " time" : " times") +
+          (t.fixed ? ", since answered correctly" : "")));
+        if (name.note) liEl.appendChild(el("p", "trap-note", name.note));
+        list.appendChild(liEl);
+      });
+      body.appendChild(list);
+    }
+    box.appendChild(body);
+    host.appendChild(box);
+  }
+
   function renderHeading(host, spec) {
     var h = el(spec.level || "h2", "sec-heading");
     h.innerHTML = spec.text;
@@ -1615,6 +1674,8 @@
         case "box":       renderBox(host, b); break;
         case "bridge":    renderTermBridge(host, b); break;
         case "concepts":  renderConcepts(host, b); break;
+        case "contents":  renderContents(host, b); break;
+        case "traps":     renderTrapCounter(host, b); break;
         case "exercise":  shell(host, b, exIndex++); break;
         case "checkgroup":
           var box = renderBox(host, { kind: "check", title: b.title || "Test yourself" });

@@ -893,4 +893,78 @@ distractors. `cma/unit1/` is removed once the pilot supersedes it.
 
 ---
 
+## 13. Build status — Chapter 1 pilot, shipped 2026-10-31
+
+All four phases complete. The package is `cma-part1-book1-chapter1.zip` (168 KB): unzip, open `index.html`.
+
+### What was built
+
+| | Planned | Built |
+|---|---|---|
+| Pages | 13 | **13** + book home, how-to-use, glossary, term index, QA page = **18** |
+| Scored exercises | ~150 | **133** |
+| Interactive figures | 13 | **13** |
+| Bilingual terms | 64 | **80** (the book's 54 bridge rows + 26 it defines in prose) |
+| Renderers | 20 types | **16 renderers** covering all 20 planned interactions |
+| Ledger ties | 9 named | **16 asserted**, all passing |
+
+The exercise count came in at 133 rather than the planned ~150 because several planned items merged into
+single richer exercises — the five-verb Language Focus is one cloze rather than five items, and the twelve
+journal entries are generated from the ledger rather than hand-written as separate drills. Coverage of §5 is
+complete; the count is lower than the estimate, not the coverage.
+
+### Verification actually run
+
+- **`_qa.html`: all 59 checks pass.** It loads every page's real exercise definitions, renders all 133
+  exercises, and inspects the result — not a description of it.
+- **Every exercise solved through the click path in Chromium from `file://`**, on all 13 pages: every one
+  grades correctly when solved. Wrong answers were checked separately and return the book's own rationale for
+  the option actually chosen, with the trap recorded by name.
+- **Build checks**: 453 internal references all resolve; no external URL; no absolute path; no `fetch`, no
+  XHR, no ES module, no service worker; all paths lowercase ASCII; all 18 pages reachable from `index.html`
+  by clicking.
+- **The zip was extracted and re-tested** from the extracted copy: navigation by clicking works and the gate
+  still reads clean.
+- **The marquee interaction verified behaviourally**: omit the allowance for credit losses from the balance
+  sheet and the current-assets subtotal reads **1,794 in red** — which is exactly the wrong answer the book
+  names in SC7-1 option C — then snaps to 1,774 in green when the allowance is added.
+
+### Decisions taken during the build
+
+1. **Statements are HTML "paper", not SVG.** Inline SVG is used for the three real diagrams (roadmap,
+   statement-link flow, summary map) where geometry carries meaning. The statements, grids and maps are
+   HTML+CSS, because an HTML statement takes a dropped HTML chip natively, recomputes its subtotals, prints,
+   scales and reads correctly to a screen reader. SVG `foreignObject` would do none of that as well.
+2. **One ledger, every number computed.** `assets/ledger.js` holds the Barada trial balance and the Orontes
+   January/February transactions; every statement line, subtotal, answer key and numeric tolerance derives
+   from it at runtime. No answer is typed twice anywhere in the site.
+3. **The answers page is generated, not transcribed.** `ch01/answers.html` loads all twelve data files and
+   renders 136 answer items with 724 explanations from the live exercise definitions, so the answer section
+   cannot drift from the exercises it answers.
+4. **A static `<noscript>` route between pages.** The rail and pager are JS-built from one TOC, which meant
+   seven pages had no path to them without JavaScript. Every page now carries a plain static list of all
+   thirteen.
+5. **Authored rationales may carry markup; learner input never does.** A `rich()` path was separated from
+   `esc()` after the first build escaped `<em>` inside the book's own explanations.
+6. **Gate 0 could not be fully run.** `speechSynthesis` on `file://` was verified in Chromium on Linux (the
+   container has no installed voices, which exercised the degraded path correctly). **The Windows local-voice
+   path and the Arabic voice are still unverified on real hardware** — the fallback chain is built and the
+   icon degrades visibly with install instructions, but this is the one item in §11 that needs a human at a
+   Windows machine.
+
+### Still open
+
+- **Windows verification** of the English and Arabic local voices (above).
+- **No pre-rendered audio pack.** Phase 3 fallback, not built. If Windows verification shows local voices do
+  not work from `file://`, this moves from optional to required, following the pattern already in
+  `alhasan/book1/assets/audio/`.
+- **No bundled Arabic webfont.** The site uses the system Arabic stack (Segoe UI, Tahoma, Traditional
+  Arabic, Noto Naskh Arabic). Bundling one would make Arabic render identically everywhere at ~250 KB.
+- **The two `[sic]` copy slips** in the book's C1-6 answers (§10) are carried with a proposed reading, not
+  silently edited. They belong in your review notes.
+- **`cma/unit1/` not yet removed.** Per §12 Q3 it retires once this pilot supersedes it; left in place until
+  you have seen the pilot.
+
+---
+
 *Nothing in §5 is optional — the coverage ledger is the contract.*
