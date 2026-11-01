@@ -40,19 +40,19 @@
   /* ---- the chapter's 13 pages, in the book's order. One definition, used by
          the rail, the hub, prev/next and the review page. ---- */
   var TOC = [
-    { id: "s1-1",     file: "s1-1.html",     kind: "section", n: "1.1", title: "Who uses financial statements, and why?",          blurb: "Users, their decisions, and what makes information useful" },
-    { id: "s1-2",     file: "s1-2.html",     kind: "section", n: "1.2", title: "The building blocks: elements and the accounting equation", blurb: "Ten elements, A = L + E, and what moves retained earnings" },
-    { id: "s1-3",     file: "s1-3.html",     kind: "section", n: "1.3", title: "Double entry: debits and credits",                 blurb: "Normal balances, contra accounts, and thirteen journal entries" },
-    { id: "s1-4",     file: "s1-4.html",     kind: "section", n: "1.4", title: "The accrual basis and the matching principle",     blurb: "Earned, not collected · incurred, not paid" },
-    { id: "s1-5",     file: "s1-5.html",     kind: "section", n: "1.5", title: "Who writes the rules? U.S. GAAP and IFRS",         blurb: "FASB, the ASC, the SEC, the PCAOB and the IASB" },
-    { id: "s1-6",     file: "s1-6.html",     kind: "section", n: "1.6", title: "A first look at the four statements",              blurb: "What each one answers, and how they link" },
-    { id: "s1-7",     file: "s1-7.html",     kind: "section", n: "1.7", title: "Extended Example 1A: from a trial balance to a set of statements", blurb: "Build all three statements and make them tie" },
-    { id: "summary",  file: "summary.html",  kind: "back",    n: "◆", title: "Chapter summary",      blurb: "The key rule for each of the seven topics" },
-    { id: "terms",    file: "terms.html",    kind: "back",    n: "◆", title: "Term bank",            blurb: "Every term in the chapter, English and Arabic, with pronunciation" },
-    { id: "practice", file: "practice.html", kind: "back",    n: "◆", title: "Practice · P01–P16", blurb: "Sixteen exam-style multiple-choice questions" },
-    { id: "case",     file: "case.html",     kind: "back",    n: "◆", title: "Case question · Barada Wholesale", blurb: "A case-based question in the exam's own item formats" },
-    { id: "review",   file: "review.html",   kind: "back",    n: "◆", title: "Mixed review",         blurb: "Interleaved retrieval across all seven sections" },
-    { id: "answers",  file: "answers.html",  kind: "back",    n: "◆", title: "Answers and explanations", blurb: "The full answer section, for reference" }
+    { id: "s1-1",     file: "s1-1.html",     kind: "section", n: "1.1", title: "Who uses financial statements, and why?",          blurb: "The boardroom table, the quality podium, five verbs \u00b7 7 scenes" },
+    { id: "s1-2",     file: "s1-2.html",     kind: "section", n: "1.2", title: "The building blocks: elements and the accounting equation", blurb: "The balance beam, the retained-earnings tank \u00b7 9 scenes" },
+    { id: "s1-3",     file: "s1-3.html",     kind: "section", n: "1.3", title: "Double entry: debits and credits",                 blurb: "Post twelve entries and build the effect grid \u00b7 10 scenes" },
+    { id: "s1-4",     file: "s1-4.html",     kind: "section", n: "1.4", title: "The accrual basis and the matching principle",     blurb: "One sale, two years; the four adjustments derived · 6 scenes" },
+    { id: "s1-5",     file: "s1-5.html",     kind: "section", n: "1.5", title: "Who writes the rules? U.S. GAAP and IFRS",         blurb: "Four bodies, four jobs; the ASC shelf \u00b7 6 scenes" },
+    { id: "s1-6",     file: "s1-6.html",     kind: "section", n: "1.6", title: "A first look at the four statements",              blurb: "Wire the statements; read the trial balance \u00b7 7 scenes" },
+    { id: "s1-7",     file: "s1-7.html",     kind: "section", n: "1.7", title: "Extended Example 1A: from a trial balance to a set of statements", blurb: "Build all three statements, complete, and tie them \u00b7 11 scenes" },
+    { id: "summary",  file: "summary.html",  kind: "back",    n: "◆", title: "Chapter summary",      blurb: "Seven rules, the figures from memory \u00b7 3 scenes" },
+    { id: "terms",    file: "terms.html",    kind: "back",    n: "◆", title: "Term bank",            blurb: "54 bilingual terms, drilled both ways \u00b7 4 scenes" },
+    { id: "practice", file: "practice.html", kind: "back",    n: "◆", title: "Practice · P01–P16", blurb: "P01\u2013P16, one question per screen" },
+    { id: "case",     file: "case.html",     kind: "back",    n: "◆", title: "Case question · Barada Wholesale", blurb: "C1-1 to C1-6 in the exam's item formats · 8 scenes" },
+    { id: "review",   file: "review.html",   kind: "back",    n: "◆", title: "Mixed review",         blurb: "Interleaved, plus the traps you have missed \u00b7 5 scenes" },
+    { id: "answers",  file: "answers.html",  kind: "back",    n: "◆", title: "Answers and explanations", blurb: "Every answer, generated from the scenes" }
   ];
 
   function pageIndex(id) { for (var i = 0; i < TOC.length; i++) if (TOC[i].id === id) return i; return -1; }

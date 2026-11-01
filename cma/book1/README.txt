@@ -14,26 +14,30 @@ sent anywhere.
 
 WHAT IS HERE
 ------------
-Chapter 1, complete, as thirteen linked pages:
+Chapter 1, complete, as thirteen linked pages. Each page is a short
+sequence of SCENES: one screen, one idea, one thing to work with. There
+is no wall of text to scroll past.
 
-  7 numbered sections  1.1 to 1.7, every box and figure the book prints
+  7 numbered sections  1.1 to 1.7, built as 51 scenes
   Chapter summary      the key rule from each of the seven topics
-  Term bank            all 80 terms, English and Arabic, with drills
-  Practice             the 16 exam-style questions, P01 to P16
+  Term bank            54 bilingual terms, drilled in both directions
+  Practice             the 16 exam-style questions, one per screen
   Case question        Barada Wholesale, in the exam's own item formats
-  Mixed review         items from every section, interleaved
-  Answers              every answer, with the reason for every option
+  Mixed review         interleaved, plus the traps you have missed
+  Answers              every answer, generated from the scenes
 
-133 scored exercises. 13 interactive figures. 80 bilingual terms.
+92 scenes. 1,879 words of on-screen text for the whole chapter.
+54 Arabic terms, every one taken from the author's own Term Bridge
+boxes. Nothing is taught that is not in the chapter.
 
 Chapters 2 to 18 are listed on the home page so the shape of the book is
 visible. They are written and frozen for review in the source book, and
 each will build out to the same thirteen pages.
 
 
-HOW THE EXERCISES WORK
-----------------------
-Every exercise has "Check Answers" and "Try Again".
+HOW IT WORKS
+------------
+Every scene has "Check Answers" and "Try Again".
 
   Try Again re-shuffles the exercise and clears your marks. It never
   reveals the answer as a shortcut.
@@ -46,9 +50,17 @@ Every exercise has "Check Answers" and "Try Again".
   YOU chose, taken from the book's own explanations - not a generic
   "incorrect".
 
-  Drag and drop always has a click path: tap a tile, then tap where it
-  goes. Everything works from the keyboard too - Tab to a tile, Enter to
+  Drag and drop always has a click path: tap a chip, then tap where it
+  goes. Everything works from the keyboard too - Tab to a chip, Enter to
   pick it up, Tab to a target, Enter to drop it.
+
+  Chips carry their amount. You drag "Cash 1,050", not "Cash", so the
+  figure is in front of you while you decide where it belongs.
+
+  Statements are complete. Every line of the book's Figure F01-11 and
+  F01-12 is there, in the book's wording and order, with its amount.
+  Leave the allowance off the receivables line and the total goes red at
+  1,794 - the wrong answer the book itself names.
 
 
 PRONUNCIATION
@@ -88,7 +100,10 @@ KEYBOARD
 
 LANGUAGES
 ---------
-Terms are English and Arabic. The reasoning, the questions and the
+Terms are English and Arabic. All 54 Arabic terms are the author's own,
+taken from the Term Bridge boxes in the chapter. Terms the chapter
+defines in prose but does not bridge are shown in ENGLISH ONLY and
+marked as awaiting the author's Arabic: none has been invented. The reasoning, the questions and the
 feedback stay in English, because the exam is in English and the English
 is the thing being taught.
 
@@ -104,7 +119,8 @@ definitions, renders all of them, and reports 59 checks: coverage of the
 chapter, the exercise contract, every number in the chapter recomputed
 from a single ledger, the bilingual terms, and the offline constraints.
 
-It should read "All 59 checks pass".
+It should read "All 51 checks pass". The first group is the PROVENANCE
+LOCK: nothing may be taught that is not in the author's chapter.
 
 
 CREDITS

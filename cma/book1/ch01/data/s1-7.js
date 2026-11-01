@@ -1,413 +1,300 @@
-/* Section 1.7 — Extended Example 1A: from a trial balance to a set of statements.
-   Covers all nine steps of the printed example: the plan, the income statement
-   (F01-11), the statement of changes in equity, the classified balance sheet
-   (F01-12), the contra netting, the three tie lines, reading the result, why the
-   cash flow statement cannot be built, the exam view, and SC7-1 to SC7-3.
-   Every figure is computed from LEDGER. */
+/* §1.7 Extended Example 1A — rebuilt as ten scenes.
+   Every statement below is the complete figure from the book: every line, in the
+   book's wording and order, with its amount. Nothing here is taught that is not
+   in source/chapter-01.txt. */
 (function () {
-  var L = window.LEDGER, is = L.is, sce = L.sce, bs = L.bs, rt = L.ratios;
+  var L = window.LEDGER, is = L.is, sce = L.sce, bs = L.bs, rt = L.ratios, T = window.TERMS;
+  var m = L.money;
 
   window.PAGE = {
-    id: "s1-7", kind: "section", n: "1.7", up: "../",
-    title: "Extended Example 1A: from a trial balance to a set of statements",
-    crumb: "Section 1.7",
-    question: "Given one trial balance, how do you build a complete set of statements — and prove they tie?",
-    los: ["A.1.b", "A.1.e"],
-    blocks: [
+    id: "s1-7", n: "1.7", up: "../",
+    title: "From a trial balance to a set of statements",
+    terms: T.bridge("1.6"),
+    scenes: [
 
-    { type: "prose", html:
-      "<p>This example takes the " + L.company.barada + " trial balance of Figure F01-10 and builds the statements " +
-      "from it, in the order a company prepares them. It is <em class=\"sig\">exam-core</em>: the exam often gives a " +
-      "trial balance and asks for one figure from one statement.</p>" },
-
-    { type: "box", kind: "worked", title: "Step 1 · the plan", html:
-      "<ul>" +
-      "<li>Sort every account by element: asset, liability, equity, revenue or expense.</li>" +
-      "<li>Prepare the <strong>income statement first</strong>, because net income is needed by the next statement.</li>" +
-      "<li>Prepare the <strong>statement of changes in equity</strong>, which produces closing retained earnings.</li>" +
-      "<li>Prepare the <strong>balance sheet last</strong>, using that closing figure.</li>" +
-      "<li>Check that the balance sheet balances.</li>" +
-      "</ul>" },
-
-    { type: "order", id: "x01", badge: "01",
-      title: "Put the five steps in the right order",
-      tag: "Sequencing",
-      instruction: "The order is not arbitrary: each statement needs a figure the previous one produces.",
-      prompt: "Drag the steps into the order a company actually prepares them.",
+    /* ---------- 1. sort by element ---------- */
+    { id: "sort", kind: "sort", board: "lanes",
+      /* A complete partition: all twenty trial-balance accounts, every one with a
+         home. There is nothing left over to use as a distractor without inventing
+         an account, which the provenance lock forbids. With six bins and twenty
+         items the last placement is not deducible, so no distractor is needed. */
+      partition: true,
+      kicker: "Step 1",
+      title: "Sort every account by element",
+      say: "Nothing can be totalled until each account is in the right box. Two of them are the ones that catch people.",
+      traps: ["contra-netting"],
+      targets: [
+        { id: "asset", label: "Asset" },
+        { id: "contra", label: "Contra-asset", sub: "credit balance, sits with the assets" },
+        { id: "liability", label: "Liability" },
+        { id: "equity", label: "Equity" },
+        { id: "revenue", label: "Revenue" },
+        { id: "expense", label: "Expense" }
+      ],
       items: [
-        { text: "Sort every account by element: asset, liability, equity, revenue or expense.", pos: 1,
-          why: "Nothing can be totalled until each account is in the right category. This is where the contra accounts catch people out." },
-        { text: "Prepare the income statement.", pos: 2,
+        { name: "Cash", amount: 1050, to: "asset", why: "" },
+        { name: "Accounts receivable", amount: 300, to: "asset", why: "" },
+        { name: "Allowance for credit losses", amount: -20, to: "contra", trap: "contra-netting",
+          why: "It reduces receivables, so it belongs with the assets even though its balance is a credit." },
+        { name: "Inventory", amount: 420, to: "asset", why: "" },
+        { name: "Prepaid rent", amount: 24, to: "asset", why: "" },
+        { name: "Land", amount: 936, to: "asset", why: "" },
+        { name: "Equipment", amount: 4200, to: "asset", why: "" },
+        { name: "Accumulated depreciation", amount: -900, to: "contra", trap: "contra-netting",
+          why: "It reduces equipment, so it belongs with the assets even though its balance is a credit." },
+        { name: "Accounts payable", amount: 380, to: "liability", why: "" },
+        { name: "Dividends payable", amount: 50, to: "liability",
+          why: "An obligation to pay cash. Not to be confused with dividends declared, which reduce equity." },
+        { name: "Notes payable (long-term)", amount: 1800, to: "liability", why: "" },
+        { name: "Common stock", amount: 600, to: "equity", why: "" },
+        { name: "Additional paid-in capital", amount: 1900, to: "equity", why: "" },
+        { name: "Retained earnings, January 1", amount: 1000, to: "equity", why: "" },
+        { name: "Dividends declared", amount: 50, to: "equity",
+          why: "It reduces equity. It is never an expense." },
+        { name: "Sales revenue", amount: 3100, to: "revenue", why: "" },
+        { name: "Cost of goods sold", amount: 1860, to: "expense", why: "" },
+        { name: "Wages expense", amount: 520, to: "expense", why: "" },
+        { name: "Depreciation expense", amount: 300, to: "expense",
+          why: "The period's charge. Accumulated depreciation is the running total, and it is a contra-asset." },
+        { name: "Interest expense", amount: 90, to: "expense", why: "" }
+      ] },
+
+    /* ---------- 2. why this order ---------- */
+    { id: "order", kind: "order",
+      kicker: "Step 1",
+      title: "Why the statements must be built in this order",
+      say: "Each one needs a figure the one before it produces. Put them in the order a company actually prepares them.",
+      items: [
+        { text: "The income statement", pos: 1, needs: "nothing — it starts from the trial balance",
           why: "It must come first, because the next statement needs net income." },
-        { text: "Prepare the statement of changes in equity.", pos: 3,
+        { text: "The statement of changes in equity", pos: 2, needs: "net income",
           why: "It takes net income and the dividends and produces closing retained earnings." },
-        { text: "Prepare the balance sheet.", pos: 4,
-          why: "It comes last, because it needs the closing retained earnings figure." },
-        { text: "Check that the balance sheet balances.", pos: 5,
-          why: "Assets must equal liabilities plus equity. If they do not, something above is wrong." }
+        { text: "The balance sheet", pos: 3, needs: "closing retained earnings",
+          why: "It comes last, because it needs the closing retained earnings figure." }
       ] },
 
-    { type: "heading", text: "Step 2 · the income statement", anchor: "income-statement" },
-
-    { type: "prose", html:
-      "<p>Revenue of " + L.money(is.revenue) + " less cost of goods sold of " + L.money(is.cogs) +
-      " gives a gross profit of " + L.money(is.grossProfit) + ". Operating expenses are wages of " +
-      L.money(is.wages) + " and depreciation of " + L.money(is.depreciation) + ", so operating income is " +
-      L.money(is.operatingIncome) + ". Interest of " + L.money(is.interest) + " leaves net income of " +
-      "<strong>" + L.money(is.netIncome) + "</strong>.</p>" },
-
-    { type: "imagedrop", id: "x02", badge: "02",
-      title: "Figure F01-11 · build the income statement",
-      tag: "Drag onto the statement",
-      instruction: "The subtotals compute as you place each account. If a subtotal turns red, an account is in the wrong band.",
-      figure: "income-statement",
-      prompt: "Drag each account from the trial balance onto the band of the income statement where it belongs. Three accounts do not belong on this statement at all.",
-      items: [
-        { name: "Sales revenue", zone: "is.revenue", why: "The only revenue account: " + L.money(is.revenue) + "." },
-        { name: "Cost of goods sold", zone: "is.cogs",
-          why: "Deducted from revenue to give gross profit of " + L.money(is.grossProfit) + "." },
-        { name: "Wages expense", zone: "is.operating", why: "An operating expense, deducted after gross profit." },
-        { name: "Depreciation expense", zone: "is.operating",
-          why: "An operating expense of the period. Note that this is the EXPENSE, not accumulated depreciation." },
-        { name: "Interest expense", zone: "is.nonoperating",
-          why: "Non-operating: it sits below operating income, which is why operating income is " +
-            L.money(is.operatingIncome) + " but net income is " + L.money(is.netIncome) + "." }
+    /* ---------- 3. build the income statement — complete F01-11 ---------- */
+    { id: "is", kind: "statement",
+      kicker: "Step 2 · Figure F01-11",
+      title: "Build the income statement",
+      say: "Drag each account onto its line. The amount travels with it, and the three subtotals work themselves out. Three accounts do not belong here at all.",
+      sealText: "This is Figure F01-11 exactly: revenue " + m(is.revenue) + " down to net income " + m(is.netIncome) + ".",
+      sheet: {
+        title: L.company.barada + " — income statement, 2025",
+        unit: L.unit,
+        lines: [
+          { t: "line", label: "Sales revenue", slot: "sales", expect: ["Sales revenue"],
+            why: "The only revenue account in the trial balance." },
+          { t: "line", label: "Cost of goods sold", slot: "cogs", expect: ["Cost of goods sold"],
+            why: "Deducted from revenue to give gross profit." },
+          { t: "sub", label: "Gross profit", of: ["sales", "cogs"] },
+          { t: "line", label: "Wages expense", slot: "wages", expect: ["Wages expense"],
+            why: "An operating expense, below gross profit." },
+          { t: "line", label: "Depreciation expense", slot: "dep", expect: ["Depreciation expense"],
+            why: "The period's charge — not accumulated depreciation, which is a contra-asset." },
+          { t: "sub", label: "Operating income", of: ["sales", "cogs", "wages", "dep"] },
+          { t: "line", label: "Interest expense", slot: "int", expect: ["Interest expense"],
+            why: "Non-operating: it falls below operating income." },
+          { t: "total", label: "Net income", of: ["sales", "cogs", "wages", "dep", "int"] }
+        ]
+      },
+      chips: [
+        { id: "Sales revenue", amount: 3100 },
+        { id: "Cost of goods sold", amount: 1860, neg: true },
+        { id: "Wages expense", amount: 520, neg: true },
+        { id: "Depreciation expense", amount: 300, neg: true },
+        { id: "Interest expense", amount: 90, neg: true }
       ],
       distractors: [
-        { name: "Dividends declared",
-          why: "A distribution to owners. It belongs in the statement of changes in equity and must NEVER appear in the income statement." },
-        { name: "Accumulated depreciation",
-          why: "A contra-asset on the balance sheet — the running total. Depreciation EXPENSE is the income statement item." },
-        { name: "Prepaid rent",
-          why: "An asset on the balance sheet. It becomes rent expense month by month as the benefit is used." }
+        { id: "Dividends declared", amount: 50, neg: true,
+          why: "A distribution to owners. It belongs in the statement of changes in equity and never appears in the income statement." },
+        { id: "Accumulated depreciation", amount: 900, neg: true,
+          why: "A contra-asset on the balance sheet. Depreciation EXPENSE is the income statement item." },
+        { id: "Prepaid rent", amount: 24,
+          why: "An asset on the balance sheet." }
       ] },
 
-    { type: "number", id: "x03", badge: "03",
-      title: "The income statement, line by line",
-      tag: "Calculation",
-      exhibit: { href: "s1-6.html#f01-10", label: "the Barada trial balance, Figure F01-10" },
-      prompt: "Work down the income statement from the trial balance.",
-      unit: "USD 000",
-      fields: [
-        { key: "gp", label: "Gross profit", answer: is.grossProfit,
-          explain: "Revenue " + L.money(is.revenue) + " − cost of goods sold " + L.money(is.cogs) + " = " + L.money(is.grossProfit) + "." },
-        { key: "oi", label: "Operating income", answer: is.operatingIncome,
-          explain: "Gross profit " + L.money(is.grossProfit) + " − wages " + L.money(is.wages) +
-            " − depreciation " + L.money(is.depreciation) + " = " + L.money(is.operatingIncome) + ".",
-          diagnostics: [
-            { value: 330, says: "That is net income — you have also deducted the interest. Interest is non-operating, so it comes after operating income." }
-          ] },
-        { key: "ni", label: "Net income", answer: is.netIncome,
-          explain: "Operating income " + L.money(is.operatingIncome) + " − interest " + L.money(is.interest) + " = " + L.money(is.netIncome) + ".",
-          diagnostics: [
-            { value: 280, says: "That subtracts the dividends declared as if they were an expense. A dividend is a distribution to owners." },
-            { value: 1240, says: "That stops at gross profit (revenue minus cost of goods sold)." },
-            { value: 3100, says: "That reports revenue instead of net income." },
-            { value: 420, says: "That is operating income. Interest expense of 90 still has to come off." }
-          ] }
-      ] },
-
-    { type: "heading", text: "Step 3 · the statement of changes in equity", anchor: "equity" },
-
-    { type: "prose", html:
-      "<p>Retained earnings open at " + L.money(sce.reOpening) + ", rise by net income of " +
-      L.money(sce.netIncome) + " and fall by dividends declared of " + L.money(sce.dividends) +
-      ", closing at <strong>" + L.money(sce.reClosing) + "</strong>. Common stock of " +
-      L.money(sce.commonStock) + " and additional paid-in capital of " + L.money(sce.apic) +
-      " do not change this year, so total equity is <strong>" + L.money(sce.totalEquity) + "</strong>.</p>" },
-
-    { type: "number", id: "x04", badge: "04",
-      title: "Closing retained earnings and total equity",
-      tag: "Calculation",
-      prompt: "The statement of changes in equity produces the one figure the balance sheet is waiting for.",
-      unit: "USD 000",
-      fields: [
-        { key: "re", label: "Closing retained earnings", answer: sce.reClosing,
-          explain: "Opening " + L.money(sce.reOpening) + " + net income " + L.money(sce.netIncome) +
-            " − dividends declared " + L.money(sce.dividends) + " = " + L.money(sce.reClosing) + ".",
-          diagnostics: [
-            { value: 1330, says: "That forgets to subtract the dividends declared of 50." },
-            { value: 330, says: "That reports only this year's net income, not the retained earnings balance." },
-            { value: 1000, says: "That is the opening balance, before net income." }
-          ] },
-        { key: "cc", label: "Contributed capital (common stock + APIC)", answer: sce.contributed,
-          explain: "Common stock " + L.money(sce.commonStock) + " + APIC " + L.money(sce.apic) + " = " +
-            L.money(sce.contributed) + ". Neither changed this year." },
-        { key: "eq", label: "Total equity", answer: sce.totalEquity,
-          explain: "Contributed capital " + L.money(sce.contributed) + " + closing retained earnings " +
-            L.money(sce.reClosing) + " = " + L.money(sce.totalEquity) + "." }
-      ] },
-
-    { type: "heading", text: "Step 4 · the classified balance sheet", anchor: "balance-sheet" },
-
-    { type: "prose", html:
-      "<p>Current assets of " + L.money(bs.currentAssets) + " and non-current assets of " +
-      L.money(bs.noncurrentAssets) + " give total assets of <strong>" + L.money(bs.totalAssets) +
-      "</strong>. Current liabilities are " + L.money(bs.currentLiabilities) + " and the long-term note is " +
-      L.money(bs.notePayable) + ".</p>" },
-
-    { type: "imagedrop", id: "x05", badge: "05",
-      title: "Figure F01-12 · build the classified balance sheet",
-      tag: "Drag onto the statement",
-      instruction: "Both contra accounts belong with the asset they reduce. Place them wrongly and the subtotal visibly breaks.",
-      figure: "balance-sheet",
-      prompt: "Drag each account onto the band where it belongs. The statement highlights itself when assets equal liabilities plus equity. Three accounts do not belong on the balance sheet.",
-      items: [
-        { name: "Cash", zone: "bs.current-assets", why: "A current asset: " + L.money(bs.cash) + "." },
-        { name: "Accounts receivable", zone: "bs.current-assets",
-          why: "A current asset, reported NET of the allowance at " + L.money(bs.arNet) + "." },
-        { name: "Allowance for credit losses", zone: "bs.current-assets", trap: "contra-netting",
-          why: "A contra-asset. It has a credit balance but it REDUCES receivables, so it sits with the current assets — never with the liabilities. Reporting receivables gross would overstate assets." },
-        { name: "Inventory", zone: "bs.current-assets", why: "A current asset: " + L.money(bs.inventory) + "." },
-        { name: "Prepaid rent", zone: "bs.current-assets",
-          why: "A current asset: the company has paid for a future benefit within the year." },
-        { name: "Land", zone: "bs.noncurrent-assets", why: "A non-current asset: " + L.money(bs.land) + "." },
-        { name: "Equipment", zone: "bs.noncurrent-assets",
-          why: "A non-current asset, reported NET of accumulated depreciation at " + L.money(bs.equipmentNet) + "." },
-        { name: "Accumulated depreciation", zone: "bs.noncurrent-assets", trap: "contra-netting",
-          why: "A contra-asset with a credit balance that reduces equipment, so it belongs with the non-current assets. Reporting equipment gross would overstate assets." },
-        { name: "Accounts payable", zone: "bs.current-liabilities", why: "Due within a year: a current liability." },
-        { name: "Dividends payable", zone: "bs.current-liabilities",
-          why: "An obligation to pay cash within the year, so it is a current liability — not part of equity." },
-        { name: "Notes payable (long-term)", zone: "bs.noncurrent-liabilities",
-          why: "A five-year note, so it is non-current: " + L.money(bs.notePayable) + "." },
-        { name: "Common stock", zone: "bs.contributed", why: "Contributed capital, at par value." },
-        { name: "Additional paid-in capital", zone: "bs.contributed", why: "Contributed capital, above par value." },
-        { name: "Retained earnings, closing", zone: "bs.retained",
-          why: "The closing figure of " + L.money(bs.retainedEarnings) + " that the statement of changes in equity produced." }
+    /* ---------- 4. build the statement of changes in equity ---------- */
+    { id: "sce", kind: "statement",
+      kicker: "Step 3",
+      title: "Build the statement of changes in equity",
+      say: "This is the statement that produces the one figure the balance sheet is waiting for.",
+      sealText: "Closing retained earnings " + m(sce.reClosing) + " — carry it to the balance sheet.",
+      sheet: {
+        title: L.company.barada + " — retained earnings, 2025",
+        unit: L.unit,
+        lines: [
+          { t: "line", label: "Retained earnings, January 1", slot: "re0", expect: ["Retained earnings, January 1"],
+            why: "The opening balance from the trial balance." },
+          { t: "line", label: "Net income", slot: "ni", expect: ["Net income"],
+            why: "The figure the income statement just produced." },
+          { t: "line", label: "Dividends declared", slot: "div", expect: ["Dividends declared"],
+            why: "A deduction. It reduces retained earnings and is not an expense." },
+          { t: "total", label: "Retained earnings, December 31", of: ["re0", "ni", "div"] }
+        ]
+      },
+      chips: [
+        { id: "Retained earnings, January 1", amount: 1000 },
+        { id: "Net income", amount: 330 },
+        { id: "Dividends declared", amount: 50, neg: true }
       ],
       distractors: [
-        { name: "Sales revenue",
-          why: "A revenue account: it belongs to the income statement, not the balance sheet." },
-        { name: "Dividends declared",
-          why: "It belongs in the statement of changes in equity as a deduction from retained earnings. The closing retained earnings figure already reflects it." },
-        { name: "Retained earnings, January 1",
+        { id: "Common stock", amount: 600,
+          why: "Contributed capital. It did not change this year and it is not part of retained earnings." },
+        { id: "Sales revenue", amount: 3100,
+          why: "Revenue reaches retained earnings only through net income, which is already on the statement." }
+      ],
+      traps: ["dividend-not-expense"] },
+
+    /* ---------- 5. build the balance sheet — complete F01-12 ---------- */
+    { id: "bs", kind: "statement",
+      kicker: "Step 4 · Figure F01-12",
+      title: "Build the classified balance sheet",
+      say: "Two lines say <b>net of</b>. Each needs the asset <em>and</em> the account that reduces it — put only the asset on and watch what the total does.",
+      sealText: "Assets " + m(bs.totalAssets) + " = liabilities " + m(bs.totalLiabilities) +
+        " + equity " + m(bs.totalEquity) + ". The balance sheet balances.",
+      traps: ["contra-netting"],
+      sheet: {
+        title: L.company.barada + " — balance sheet, December 31, 2025",
+        unit: L.unit,
+        lines: [
+          { t: "line", label: "Cash", slot: "cash", expect: ["Cash"], why: "" },
+          { t: "net", label: "Accounts receivable, net of the allowance", slot: "arnet",
+            expect: ["Accounts receivable", "Allowance for credit losses"], trap: "contra-netting",
+            why: "Receivables of " + m(300) + " less the allowance of " + m(20) + " = " + m(bs.arNet) +
+              ". Reporting them gross would overstate assets." },
+          { t: "line", label: "Inventory", slot: "inv", expect: ["Inventory"], why: "" },
+          { t: "line", label: "Prepaid rent", slot: "pre", expect: ["Prepaid rent"], why: "" },
+          { t: "sub", label: "Total current assets", of: ["cash", "arnet", "inv", "pre"] },
+          { t: "line", label: "Land", slot: "land", expect: ["Land"], why: "" },
+          { t: "net", label: "Equipment, net of accumulated depreciation", slot: "eqnet",
+            expect: ["Equipment", "Accumulated depreciation"], trap: "contra-netting",
+            why: "Equipment of " + m(4200) + " less accumulated depreciation of " + m(900) + " = " +
+              m(bs.equipmentNet) + ". Reporting it gross would overstate assets." },
+          { t: "total", label: "Total assets", of: ["cash", "arnet", "inv", "pre", "land", "eqnet"] },
+          { t: "line", label: "Accounts payable and dividends payable", slot: "cl",
+            expect: ["Accounts payable", "Dividends payable"],
+            why: "Both are due within the year, so the book prints them on one line." },
+          { t: "line", label: "Notes payable (long-term)", slot: "np", expect: ["Notes payable (long-term)"],
+            why: "A five-year note, so it is not current." },
+          { t: "sub", label: "Total liabilities", of: ["cl", "np"] },
+          { t: "line", label: "Common stock and additional paid-in capital", slot: "cc",
+            expect: ["Common stock", "Additional paid-in capital"],
+            why: "Contributed capital: par value plus the amount paid above par." },
+          { t: "line", label: "Retained earnings", slot: "re", expect: ["Retained earnings, December 31"],
+            why: "The closing figure you produced in the previous scene." },
+          { t: "sub", label: "Total equity", of: ["cc", "re"] },
+          { t: "total", label: "Total liabilities and equity", of: ["cl", "np", "cc", "re"] }
+        ]
+      },
+      chips: [
+        { id: "Cash", amount: 1050 },
+        { id: "Accounts receivable", amount: 300 },
+        { id: "Allowance for credit losses", amount: 20, neg: true },
+        { id: "Inventory", amount: 420 },
+        { id: "Prepaid rent", amount: 24 },
+        { id: "Land", amount: 936 },
+        { id: "Equipment", amount: 4200 },
+        { id: "Accumulated depreciation", amount: 900, neg: true },
+        { id: "Accounts payable", amount: 380 },
+        { id: "Dividends payable", amount: 50 },
+        { id: "Notes payable (long-term)", amount: 1800 },
+        { id: "Common stock", amount: 600 },
+        { id: "Additional paid-in capital", amount: 1900 },
+        { id: "Retained earnings, December 31", amount: 1280 }
+      ],
+      distractors: [
+        { id: "Sales revenue", amount: 3100, why: "A revenue account: it belongs to the income statement." },
+        { id: "Dividends declared", amount: 50, neg: true,
+          why: "It belongs in the statement of changes in equity. The closing retained earnings figure already reflects it." },
+        { id: "Retained earnings, January 1", amount: 1000,
           why: "The OPENING balance starts the statement of changes in equity. The balance sheet carries the CLOSING balance." }
-      ],
-      traps: ["contra-netting"] },
-
-    { type: "number", id: "x06", badge: "06",
-      title: "The balance sheet totals",
-      tag: "Calculation",
-      prompt: "Total the classified balance sheet. Watch the two contra accounts.",
-      unit: "USD 000",
-      fields: [
-        { key: "ca", label: "Total current assets", answer: bs.currentAssets,
-          explain: "Cash " + L.money(bs.cash) + " + receivables net of the allowance " + L.money(bs.arNet) +
-            " + inventory " + L.money(bs.inventory) + " + prepaid rent " + L.money(bs.prepaid) + " = " +
-            L.money(bs.currentAssets) + ".",
-          diagnostics: [
-            { value: 1794, says: "That adds the allowance back instead of subtracting it. Receivables are reported NET, at 280." },
-            { value: 430, says: "That is total current LIABILITIES." },
-            { value: 6010, says: "That is total assets, including land and equipment." }
-          ] },
-        { key: "nca", label: "Total non-current assets", answer: bs.noncurrentAssets,
-          explain: "Land " + L.money(bs.land) + " + equipment net of accumulated depreciation " +
-            L.money(bs.equipmentNet) + " = " + L.money(bs.noncurrentAssets) + ".",
-          diagnostics: [
-            { value: 5136, says: "That ignores accumulated depreciation. Equipment is reported net, at 3,300." }
-          ] },
-        { key: "ta", label: "Total assets", answer: bs.totalAssets,
-          explain: "Current " + L.money(bs.currentAssets) + " + non-current " + L.money(bs.noncurrentAssets) +
-            " = " + L.money(bs.totalAssets) + ".",
-          diagnostics: [
-            { value: 6030, says: "That ignores the allowance for credit losses." },
-            { value: 6910, says: "That ignores accumulated depreciation." },
-            { value: 7850, says: "That ADDS the contra-asset balances instead of subtracting them." }
-          ] },
-        { key: "cl", label: "Total current liabilities", answer: bs.currentLiabilities,
-          explain: "Accounts payable " + L.money(bs.ap) + " + dividends payable " + L.money(bs.dividendsPayable) +
-            " = " + L.money(bs.currentLiabilities) + "." },
-        { key: "tl", label: "Total liabilities", answer: bs.totalLiabilities,
-          explain: "Current " + L.money(bs.currentLiabilities) + " + the long-term note " + L.money(bs.notePayable) +
-            " = " + L.money(bs.totalLiabilities) + ".",
-          diagnostics: [
-            { value: 2280, says: "That also counts dividends DECLARED, which is an equity item, as a liability." },
-            { value: 2180, says: "That leaves out dividends payable, which is a liability." }
-          ] }
       ] },
 
-    { type: "prose", html:
-      "<p>Two contra accounts matter here. Receivables appear <em class=\"sig\">net of the allowance</em> at " +
-      L.money(bs.arNet) + ", and equipment appears <em class=\"sig\">net of accumulated depreciation</em> at " +
-      L.money(bs.equipmentNet) + ". <strong>Reporting either one gross would overstate assets.</strong></p>" },
-
-    { type: "number", id: "x07", badge: "07",
-      title: "Netting the two contra accounts",
-      tag: "Calculation",
-      prompt: "Each contra account reduces the asset above it. Enter the net figure that reaches the balance sheet.",
-      unit: "USD 000",
-      fields: [
-        { key: "ar", label: "Accounts receivable, net of the allowance", answer: bs.arNet,
-          explain: L.money(L.bal("ar")) + " − " + L.money(L.bal("allowance")) + " = " + L.money(bs.arNet) + ".",
-          diagnostics: [
-            { value: 320, says: "That ADDS the allowance. A contra account reduces the asset it sits with." },
-            { value: 300, says: "That is the gross receivable. Reporting it gross would overstate assets." }
-          ] },
-        { key: "eq", label: "Equipment, net of accumulated depreciation", answer: bs.equipmentNet,
-          explain: L.money(L.bal("equipment")) + " − " + L.money(L.bal("accumdep")) + " = " + L.money(bs.equipmentNet) + ".",
-          diagnostics: [
-            { value: 5100, says: "That ADDS accumulated depreciation instead of subtracting it." },
-            { value: 4200, says: "That is the gross cost. Reporting it gross would overstate assets." }
-          ] }
-      ] },
-
-    { type: "mcq", id: "x08", badge: "08",
-      title: "Where does a contra-asset sit?",
-      tag: "Exam trap",
-      prompt: "Accumulated depreciation has a credit balance. Where does it belong on the classified balance sheet?",
-      options: [
-        { text: "With the non-current assets, reducing equipment to its net figure.", correct: true,
-          why: "A contra-asset belongs with the asset it reduces, however its balance is signed. Equipment appears net, at " + L.money(bs.equipmentNet) + "." },
-        { text: "With the liabilities, because it has a credit balance.",
-          why: "This is the trap. A credit balance does not make something a liability — the company owes nobody anything here." },
-        { text: "As a deduction from retained earnings in equity.",
-          why: "It reduces an asset, not equity. Depreciation expense affected retained earnings through net income; the accumulated total sits against the asset." },
-        { text: "Only in the notes, because it is not a real account.",
-          why: "It is a real account with a real balance, and the netting it produces appears on the face of the balance sheet." }
-      ],
-      traps: ["contra-netting"] },
-
-    { type: "heading", text: "Step 5 · the tie line", anchor: "tie" },
-
-    { type: "box", kind: "worked", title: "Everything ties", html:
-      "<ul>" +
-      "<li>Assets " + L.money(bs.totalAssets) + " = liabilities " + L.money(bs.totalLiabilities) +
-      " + equity " + L.money(bs.totalEquity) + ".</li>" +
-      "<li>Operating income " + L.money(is.operatingIncome) + " − interest " + L.money(is.interest) +
-      " = net income " + L.money(is.netIncome) + ".</li>" +
-      "<li>Opening retained earnings " + L.money(sce.reOpening) + " + " + L.money(is.netIncome) + " − " +
-      L.money(sce.dividends) + " = " + L.money(sce.reClosing) + ", the figure on the balance sheet.</li>" +
-      "</ul>" },
-
-    { type: "tie", id: "x09", badge: "09",
-      title: "Prove the three ties yourself",
-      tag: "Tie check",
-      instruction: "Nothing in this exercise passes until all three lines tie — which is exactly the final check in any trial-balance question.",
+    /* ---------- 6. make it tie ---------- */
+    { id: "ties", kind: "locks",
+      kicker: "Step 5",
+      title: "Make it tie",
+      say: "Three locks. Each one shuts when its figure is right, and nothing is finished until all three are shut.",
       ties: [
-        { prompt: "Total assets, which must equal liabilities plus equity", answer: bs.totalAssets,
-          explain: "Assets " + L.money(bs.totalAssets) + " = liabilities " + L.money(bs.totalLiabilities) +
-            " + equity " + L.money(bs.totalEquity) + "." },
-        { prompt: "Net income, which must equal operating income less interest", answer: is.netIncome,
-          explain: L.money(is.operatingIncome) + " − " + L.money(is.interest) + " = " + L.money(is.netIncome) + "." },
-        { prompt: "Closing retained earnings, which must reach the balance sheet", answer: sce.reClosing,
-          explain: L.money(sce.reOpening) + " + " + L.money(is.netIncome) + " − " + L.money(sce.dividends) +
-            " = " + L.money(sce.reClosing) + "." }
+        { label: "Total assets, which must equal liabilities plus equity", answer: bs.totalAssets,
+          why: "Assets " + m(bs.totalAssets) + " = liabilities " + m(bs.totalLiabilities) +
+            " + equity " + m(bs.totalEquity) + "." },
+        { label: "Net income, which must equal operating income less interest", answer: is.netIncome,
+          why: m(is.operatingIncome) + " − " + m(is.interest) + " = " + m(is.netIncome) + "." },
+        { label: "Closing retained earnings, which must reach the balance sheet", answer: sce.reClosing,
+          why: m(sce.reOpening) + " + " + m(is.netIncome) + " − " + m(sce.dividends) + " = " + m(sce.reClosing) + "." }
       ] },
 
-    { type: "heading", text: "Step 6 · reading the result", anchor: "reading" },
-
-    { type: "prose", html:
-      "<p>Working capital is " + L.money(rt.workingCapital) + " and the current ratio is " + rt.currentRatio2 +
-      ", so Barada can meet its short-term obligations comfortably. A lender would also note that the long-term " +
-      "note of " + L.money(bs.notePayable) + " is large against equity of " + L.money(bs.totalEquity) + ".</p>" },
-
-    { type: "number", id: "x10", badge: "10",
-      title: "What a lender would calculate",
-      tag: "Calculation",
-      prompt: "Two short-term measures from the balance sheet you have just built.",
-      fields: [
-        { key: "wc", label: "Working capital", answer: rt.workingCapital, unit: "USD 000",
-          explain: "Current assets " + L.money(bs.currentAssets) + " − current liabilities " +
-            L.money(bs.currentLiabilities) + " = " + L.money(rt.workingCapital) + "." },
-        { key: "cr", label: "Current ratio (to two decimal places)", answer: rt.currentRatio2, unit: "times",
-          tolerance: 0.011,
-          explain: L.money(bs.currentAssets) + " ÷ " + L.money(bs.currentLiabilities) + " = " + rt.currentRatio2 + "." }
-      ] },
-
-    { type: "selfex", id: "x11", badge: "11",
-      title: "In your own words: what would the bank conclude?",
-      tag: "Explain it",
-      prompt: "Barada's bank is reviewing its loan. From the statements you have just built, what is reassuring and what is not?",
-      placeholder: "The short-term position looks… but…",
-      checklist: [
-        "Did you say the current ratio of " + rt.currentRatio2 + " means short-term obligations are covered comfortably?",
-        "Did you quote working capital of " + L.money(rt.workingCapital) + "?",
-        "Did you note that the long-term note of " + L.money(bs.notePayable) + " is large against equity of " + L.money(bs.totalEquity) + "?",
-        "Did you avoid confusing net income with cash?"
+    /* ---------- 7. reading the result ---------- */
+    { id: "read", kind: "gauges",
+      kicker: "Step 6",
+      title: "What the lender sees",
+      say: "Two measures from the statement you just built, and one comparison.",
+      gauges: [
+        { value: m(rt.workingCapital), key: "Working capital",
+          note: "Current assets " + m(bs.currentAssets) + " − current liabilities " + m(bs.currentLiabilities) },
+        { value: rt.currentRatio2, key: "Current ratio",
+          note: m(bs.currentAssets) + " ÷ " + m(bs.currentLiabilities) }
       ],
-      model: "The short-term position is comfortable: working capital is " + L.money(rt.workingCapital) +
-        " and the current ratio is " + rt.currentRatio2 + ", so current assets cover current liabilities several times " +
-        "over. The concern is longer term: <strong>the long-term note of " + L.money(bs.notePayable) +
-        " is large against equity of " + L.money(bs.totalEquity) + "</strong>. Note also that a lender cannot see " +
-        "cash generation from this trial balance at all, because a statement of cash flows needs last year's balance " +
-        "sheet too." },
-
-    { type: "heading", text: "Step 7 · where the fourth statement comes from", anchor: "fourth" },
-
-    { type: "prose", html:
-      "<p>A statement of cash flows needs <em class=\"sig\">last year's balance sheet as well as this one</em>, so " +
-      "it cannot be built from a single trial balance. Chapter 5 prepares it for Orontes, which has both years.</p>" },
-
-    { type: "mcq", id: "x12", badge: "12",
-      title: "Why can't you build the fourth statement?",
-      tag: "Comprehension",
-      prompt: "You have the Barada trial balance at December 31, 2025. Why can you not prepare its statement of cash flows?",
+      bars: [
+        { label: "Long-term note", value: bs.notePayable, colour: "var(--bad)" },
+        { label: "Total equity", value: bs.totalEquity, colour: "var(--accent)" }
+      ],
       options: [
-        { text: "A statement of cash flows needs last year's balance sheet as well as this one, to measure the change in each account.", correct: true,
-          why: "Cash flows are derived from MOVEMENTS, so two balance sheet dates are needed. Chapter 5 prepares it for Orontes, which has both years." },
+        { text: "Short-term position comfortable, but the long-term note is large against equity.", correct: true,
+          why: "A current ratio of " + rt.currentRatio2 + " covers short-term obligations comfortably. A lender would also note that the note of " + m(bs.notePayable) + " is large against equity of " + m(bs.totalEquity) + "." },
+        { text: "Barada cannot meet its short-term obligations.",
+          why: "A current ratio of " + rt.currentRatio2 + " means current assets cover current liabilities more than four times over." },
+        { text: "Nothing can be said without the statement of cash flows.",
+          why: "The cash flow statement needs last year's balance sheet too, but working capital and the current ratio can be read from this one." },
+        { text: "The company is financed almost entirely by its owners.",
+          why: "Liabilities are " + m(bs.totalLiabilities) + " against equity of " + m(bs.totalEquity) + " — a substantial share, and the note alone is " + m(bs.notePayable) + "." }
+      ] },
+
+    /* ---------- 8. why not the fourth statement ---------- */
+    { id: "fourth", kind: "check",
+      kicker: "Step 7",
+      title: "Why can't you build the fourth statement?",
+      say: "You have a complete trial balance. You still cannot produce a statement of cash flows.",
+      options: [
+        { text: "It needs last year's balance sheet as well as this one.", correct: true,
+          why: "A statement of cash flows needs last year's balance sheet as well as this one, so it cannot be built from a single trial balance. Chapter 5 prepares it for Orontes, which has both years." },
         { text: "The trial balance does not show the cash balance.",
-          why: "It does — cash of " + L.money(bs.cash) + " is the first line. The problem is that one date cannot show a movement." },
+          why: "It does — cash of " + m(bs.cash) + " is the first line. One date cannot show a movement, which is the real problem." },
         { text: "Barada is too small to be required to prepare one.",
-          why: "Size is not the issue. All four statements form a complete set under U.S. GAAP." },
-        { text: "The statement of cash flows is prepared only under IFRS.",
+          why: "Size is not the issue. All four statements form a complete set." },
+        { text: "It is prepared only under IFRS.",
           why: "Both frameworks require it. Chapter 5 covers it under U.S. GAAP." }
       ] },
 
-    { type: "box", kind: "trap", title: "Exam view", html:
-      "<p>A trial balance question usually asks for <strong>one number</strong>: total current assets, closing " +
-      "retained earnings or net income. <strong>Sort the accounts by element first</strong>, and watch the contra " +
-      "accounts, which belong with the asset they reduce rather than with liabilities.</p>" },
-
-    { type: "mcq", id: "x13", badge: "13",
-      title: "Exam trap · the first move in a trial-balance question",
-      tag: "Exam trap",
-      prompt: "A question gives you a twenty-line trial balance and asks for total current assets. What should you do first?",
+    /* ---------- 9-11. the book's section checks ---------- */
+    { id: "sc1", kind: "check", kicker: "SC7-1", title: "Total current assets",
+      say: "Use the statement you built.",
+      traps: ["contra-netting"],
       options: [
-        { text: "Sort every account by element, then check which contra accounts reduce which assets.", correct: true,
-          why: "Sorting first is what prevents the two classic errors: putting a contra-asset with the liabilities, and forgetting to net it off." },
-        { text: "Add up every debit balance, because assets have debit balances.",
-          why: "Expenses and dividends declared also have debit balances, and the contra-assets that must be SUBTRACTED have credit balances." },
-        { text: "Start with the balance sheet, since that is what the question asks about.",
-          why: "For a current-assets question you can go straight there — but only after sorting. If the question had asked for retained earnings you would need the income statement first." },
-        { text: "Work out net income first, whatever the question asks.",
-          why: "Only if the answer depends on it. A current-assets question does not need net income at all." }
-      ],
-      traps: ["contra-netting"] },
+        { text: "430", why: "This is total current liabilities." },
+        { text: "1,774", correct: true, why: "Cash, receivables net of the allowance, inventory and prepaid rent." },
+        { text: "1,794", why: "This adds the allowance back instead of subtracting it." },
+        { text: "6,010", why: "This is total assets, including land and equipment." }
+      ] },
 
-    { type: "checkgroup", title: "Test yourself",
-      note: "These are SC7-1, SC7-2 and SC7-3 from the book, with the explanation for every option.",
-      items: [
-        { id: "sc1", type: "mcq", badge: "SC7-1", title: "SC7-1", tag: "Section check",
-          prompt: "Use Extended Example 1A. What are Barada's total current assets?",
-          options: [
-            { text: "430", why: "This is total current liabilities." },
-            { text: "1,774", correct: true,
-              why: "Cash, receivables net of the allowance, inventory and prepaid rent." },
-            { text: "1,794", why: "This adds the allowance back instead of subtracting it." },
-            { text: "6,010", why: "This is total assets, including land and equipment." }
-          ],
-          traps: ["contra-netting"] },
+    { id: "sc2", kind: "check", kicker: "SC7-2", title: "Closing retained earnings",
+      say: "Use the statement you built.",
+      options: [
+        { text: "330", why: "This is net income, not the retained earnings balance." },
+        { text: "1,000", why: "This is the opening balance, before net income." },
+        { text: "1,280", correct: true, why: "Opening retained earnings plus net income less dividends declared." },
+        { text: "1,330", why: "This ignores the dividend declared." }
+      ] },
 
-        { id: "sc2", type: "mcq", badge: "SC7-2", title: "SC7-2", tag: "Section check",
-          prompt: "Use Extended Example 1A. What is Barada's closing retained earnings?",
-          options: [
-            { text: "330", why: "This is net income, not the retained earnings balance." },
-            { text: "1,000", why: "This is the opening balance, before net income." },
-            { text: "1,280", correct: true,
-              why: "Opening retained earnings plus net income less dividends declared." },
-            { text: "1,330", why: "This ignores the dividend declared." }
-          ] },
-
-        { id: "sc3", type: "mcq", badge: "SC7-3", title: "SC7-3", tag: "Section check",
-          prompt: "Use Extended Example 1A. Where does the dividends payable balance appear?",
-          options: [
-            { text: "In equity, with retained earnings", why: "A declared dividend is a liability, not part of equity." },
-            { text: "As a contra asset", why: "It reduces nothing on the asset side." },
-            { text: "In non-current liabilities", why: "It is payable within the year." },
-            { text: "In current liabilities", correct: true,
-              why: "It is an obligation to pay cash within a year." }
-          ] }
+    { id: "sc3", kind: "check", kicker: "SC7-3", title: "Where does dividends payable appear?",
+      say: "Use the statement you built.",
+      options: [
+        { text: "In equity, with retained earnings", why: "A declared dividend is a liability, not part of equity." },
+        { text: "As a contra asset", why: "It reduces nothing on the asset side." },
+        { text: "In non-current liabilities", why: "It is payable within the year." },
+        { text: "In current liabilities", correct: true, why: "It is an obligation to pay cash within a year." }
       ] }
     ]
   };

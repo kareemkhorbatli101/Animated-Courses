@@ -576,3 +576,48 @@ I would rather you saw §1.7 on its own than received another full build I was c
    have their captions. Everything I built was inferred from the caption plus the surrounding text. If you
    can send the actual figures, the rebuilt scenes can follow your visual design instead of my guess at it.
    That is probably the single biggest remaining source of "this isn't quite my chapter".
+
+---
+
+## Part 4 — Build status: executed 2026-11-01
+
+All four steps complete. Package: `cma-part1-book1-chapter1.zip` (173 KB). Unzip, open `index.html`.
+
+### Against the five rules
+
+| Rule | Before | After |
+|---|---|---|
+| **1. Nothing taught that is not in the chapter** | 26 of 80 Arabic terms invented; 56 of 79 prompts mine | **54 Arabic terms, every one from a Term Bridge box.** The 23 prose-only terms are English-only and labelled *awaiting the author*. The provenance lock is check group 1 of the gate. |
+| **2. One idea per screen** | 20,100 words, 120,500 px of scroll, §1.3 alone 23 screens | **1,879 words. 92 scenes. No scene over 45 words of chrome.** Only one scene exceeds a viewport — the 15-line balance sheet, which is one artifact, with a sticky chip tray. |
+| **3. The object is the explanation** | prose block, then an exercise about the prose | **No scene has a paragraph followed by a question about it.** 20 scene kinds, all manipulable. |
+| **4. Statements are complete** | buckets with totals, zero line items | **F01-11: 8 lines. F01-12: 15 lines.** Both diffed line-by-line against the source figure by the gate. |
+| **5. A trap is sprung, not announced** | four coloured box slabs per page | **Zero box slabs.** The income statement physically refuses the dividend; the podium has only two top steps; a balanced-but-wrong journal entry is still refused. |
+
+### What was removed
+
+The 26 invented Arabic renderings · ~18,200 words of my prose · the merged Dec-28/dividend scenario · the
+surplus-land example · the `ASC 842-10-15` distractor · the fifth verb "reports" · the invented `C1-1b`
+exercise · the "depreciation was added back" option · all four coloured box slabs · `engine.js`, `figures.js`
+and `chrome.js`, superseded.
+
+### Verification run
+
+- **`_qa.html`: all 51 checks pass**, in seven groups — provenance lock, coverage, the scene rules, the
+  contract, statement completeness (diffed against the figures), the ledger ties, offline.
+- **All 92 scenes solved through the real click path** in Chromium from `file://`: every one grades correctly.
+  4 interactive decks (two flashcard decks, the term reference, the trap counter) are driven by hand.
+- **Build checks**: 370 internal references resolve; nothing reaches the network; no `fetch`, XHR, module or
+  service worker; all paths lowercase ASCII; all 18 pages reachable by clicking.
+- **The zip was extracted and re-tested**: navigation by clicking works, F01-12 renders all 15 lines, and the
+  gate still reads clean from the extracted copy.
+
+### Still open — unchanged from §2.7 and the audit
+
+- **The Windows local-voice path** for pronunciation. This container is Linux with no installed voices, so only
+  the degraded path is exercised (the icon dims and gives the install instructions).
+- **The 26 terms with no Arabic in the chapter.** Held in English only. They need your Arabic, or your
+  instruction to drop them.
+- **The figures F01-01 … F01-13.** Still never seen — every scene is built from the caption plus the
+  surrounding text. Sending the actual figures is the single biggest remaining source of "this isn't quite my
+  chapter".
+- **`cma/unit1/`** still in place, pending your look at this.

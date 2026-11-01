@@ -41,6 +41,11 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to the content</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="index.html"><span class="bar-mark">C1</span><span>CMA Part 1 · Book 1</span></a>
+  <div class="bar-where">External Financial Reporting Decisions</div>
+  <a class="bar-menu" href="ch01/index.html">Chapter 1</a>
+</div></header>
 <main id="main">
 <div class="wrap">
 
@@ -53,13 +58,13 @@
     item formats the exam itself uses.</p>
   <a class="cta" href="ch01/index.html">Start Chapter 1 <span aria-hidden="true">→</span></a>
   <div class="stats">
-    <span><b id="statItems">—</b> interactive exercises in Chapter 1</span>
+    <span><b id="statItems">92</b> scenes in Chapter 1</span>
     <span><b>English + عربي</b> on every term</span>
     <span><b id="statDone">—</b></span>
   </div>
 </header>
 
-<p class="sec-sub">Every chapter covers the ICMA Learning Outcome Statements for Part 1, Section A, effective
+<p class="lede">Every chapter covers the ICMA Learning Outcome Statements for Part 1, Section A, effective
   September 1, 2024, written in graded English (B1+ to B2) with the exact exam terms. New here? Read
   <a href="how-to-use.html">how to use this book</a> first — it explains the boxes, the case companies and the
   numbers convention.</p>
@@ -96,7 +101,7 @@
       every drag-and-drop, and the progress that is saved in this browser on this computer. Pronunciation uses the
       voices already installed on your computer — on Windows, Chrome and Microsoft Edge expose them directly.
       If the Arabic icon is dimmed, no Arabic voice is installed; the foot of any chapter page says how to add one.</p>
-    <p class="ans-note">Chapter 1 is complete as the pilot. Chapters 2 to 18 are written and frozen for review in
+    <p class="note">Chapter 1 is complete as the pilot. Chapters 2 to 18 are written and frozen for review in
       the source book; they are listed here so the shape of the whole book is visible, and each one will build out
       to the same thirteen pages.</p>
   </div>
@@ -110,7 +115,6 @@
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
 <script>
-window.PAGE = { id: "book", kind: "hub", up: "", noHero: true, title: "External Financial Reporting Decisions" };
 (function () {
   var CH = [
     [1, "The Language and Framework of Financial Reporting", "Users, elements, double entry, the accrual basis, the rule makers and the four statements", 1, "ch01/index.html"],
@@ -145,12 +149,11 @@ window.PAGE = { id: "book", kind: "hub", up: "", noHero: true, title: "External 
     host.appendChild(el);
   });
   var s = window.Progress.chapterStats();
-  document.getElementById("statItems").textContent = s.items || "150+";
+  document.getElementById("statItems").textContent = s.items || 92;
   document.getElementById("statDone").textContent = s.items
     ? s.done + " of " + s.items + " done · " + s.pagesComplete + " of " + s.pages + " pages complete"
     : "Self-paced · progress saved here";
 })();
 </script>
-<script src="assets/chrome.js"></script>
 </body>
 </html>

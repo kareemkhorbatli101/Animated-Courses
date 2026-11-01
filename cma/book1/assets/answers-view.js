@@ -1,298 +1,156 @@
-/* answers-view.js — renders the chapter's answer section.
- *
- * It does not transcribe the answers. answers.html loads every page's data file
- * in turn and stashes each one, and this file walks those real exercise
- * definitions to print the answer and the explanation for every option. So the
- * answer section cannot drift away from the exercises it answers.
- */
+/* answers-view.js — the answer section, rendered from the live scene definitions
+   rather than transcribed, so it cannot drift from the scenes it answers. */
 (function (root, doc) {
   "use strict";
-
-  var L = root.LEDGER;
+  var L = root.LEDGER, P = root.Progress;
   var PAGES = root.CAPTURED || [];
+  function E(t, c, x) { var n = doc.createElement(t); if (c) n.className = c; if (x !== undefined) n.textContent = x; return n; }
+  function esc(s) { return String(s === null || s === undefined ? "" : s).replace(/[&<>]/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); }
+  function strip(s) { return esc(String(s).replace(/<[^>]*>/g, "")); }
+  function m(n) { return L.money(n); }
+  function ul(items) { return "<ul>" + items.join("") + "</ul>"; }
+  function li(k, h) { return "<li class=\"" + k + "\">" + h + "</li>"; }
 
-  function E(tag, cls, text) {
-    var n = doc.createElement(tag);
-    if (cls) n.className = cls;
-    if (text !== undefined) n.textContent = text;
-    return n;
-  }
-  function esc(s) {
-    return String(s === undefined || s === null ? "" : s).replace(/[&<>]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c];
-    });
-  }
-  function strip(s) { return String(s).replace(/<[^>]*>/g, ""); }
-
-  function page(id) {
-    for (var i = 0; i < PAGES.length; i++) if (PAGES[i].id === id) return PAGES[i];
-    return null;
-  }
-
-  /* Walk a page's blocks, including the ones nested inside a checkgroup. */
-  function exercises(p) {
-    var out = [];
-    (function walk(blocks, group) {
-      (blocks || []).forEach(function (b) {
-        if (!b || typeof b !== "object") return;
-        if (b.type === "checkgroup") { (b.items || []).forEach(function (it) { out.push({ ex: it, group: "check" }); }); return; }
-        if (b.type === "group") { walk(b.blocks, group); return; }
-        if (b.id && b.type) out.push({ ex: b, group: group });
-      });
-    })(p ? p.blocks : [], null);
-    return out;
-  }
-
-  /* ---- one exercise's answer, as a block of HTML ---- */
-  function answerFor(ex) {
-    var t = ex.type, h = "";
-
-    if (t === "mcq") {
-      var right = (ex.options || []).filter(function (o) { return o.correct; });
-      h += "<p class=\"ans-q\">" + ex.prompt + "</p>";
-      h += "<p class=\"ans-a\"><strong>Answer:</strong> " + right.map(function (o) { return strip(o.text); }).join("; ") + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.options || []).map(function (o) {
-        return "<li class=\"" + (o.correct ? "why-ok" : "why-no") + "\"><strong>" + strip(o.text) + "</strong> " +
-          (o.why || "") + "</li>";
-      }).join("") + "</ul>";
-      return h;
+  function body(sc) {
+    var k = sc.kind, h = "";
+    if (k === "check") {
+      var right = (sc.options || []).filter(function (o) { return o.correct; })[0] || {};
+      h += "<p class=\"ans-a\"><b>Answer:</b> " + strip(right.text) + "</p>";
+      return h + ul((sc.options || []).map(function (o) {
+        return li(o.correct ? "y" : "n", "<b>" + strip(o.text) + "</b> " + (o.why || "")); }));
     }
-    if (t === "selectlist" || t === "blank") {
-      var r = (ex.options || []).filter(function (o) { return o.correct; })[0] || {};
-      h += "<p class=\"ans-q\">" + (ex.prompt || (ex.parts || []).join(" ______ ")) + "</p>";
-      h += "<p class=\"ans-a\"><strong>Answer:</strong> " + strip(r.text || "") + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.options || []).map(function (o) {
-        return "<li class=\"" + (o.correct ? "why-ok" : "why-no") + "\"><strong>" + strip(o.text) + "</strong> " +
-          (o.why || "") + "</li>";
-      }).join("") + "</ul>";
-      return h;
+    if (k === "number") {
+      return ul((sc.fields || []).map(function (f) {
+        var s = li("y", "<b>" + esc(f.label) + " = " + m(f.answer) + "</b> " + (f.why || ""));
+        if (f.diag && f.diag.length) s += ul(f.diag.map(function (d) {
+          return li("n", "<b>" + esc(d.v) + " is wrong:</b> " + esc(d.says)); }));
+        return s; }));
     }
-    if (t === "number") {
-      var fields = ex.fields || [{ label: ex.label || "Answer", answer: ex.answer, explain: ex.explanation,
-                                   display: ex.display, diagnostics: ex.diagnostics, unit: ex.unit }];
-      if (ex.prompt) h += "<p class=\"ans-q\">" + ex.prompt + "</p>";
-      h += "<ul class=\"why-list\">" + fields.map(function (f) {
-        var s = "<li class=\"why-ok\"><strong>" + esc(f.label) + " = " +
-          (f.display || L.money(f.answer)) + (f.unit || ex.unit ? " " + esc(f.unit || ex.unit) : "") +
-          "</strong> " + (f.explain || "");
-        if (f.diagnostics && f.diagnostics.length) {
-          s += "<ul class=\"why-list ans-diag\">" + f.diagnostics.map(function (d) {
-            return "<li class=\"why-no\"><strong>" + esc(d.value) + " is wrong:</strong> " + (d.says || "") + "</li>";
-          }).join("") + "</ul>";
+    if (k === "locks") {
+      return ul((sc.ties || []).map(function (t) {
+        return li("y", "<b>" + esc(t.label) + " = " + m(t.answer) + "</b> " + (t.why || "")); }));
+    }
+    if (k === "sort") {
+      function lab(id) { var t = (sc.targets || []).filter(function (x) { return x.id === id; })[0];
+        return t ? (t.label || (t.reveal ? t.reveal.name : id)) : id; }
+      return ul((sc.items || []).map(function (i) {
+        return li("y", "<b>" + esc(i.name) + "</b> → " + esc(lab(i.to)) + ". " + (i.why || "")); })
+        .concat((sc.distractors || []).map(function (d) {
+          return li("n", "<b>" + esc(d.name) + "</b> belongs nowhere here. " + (d.why || "")); })));
+    }
+    if (k === "statement") {
+      h = "<table class=\"tbl\"><thead><tr><th>Line</th><th>Takes</th><th class=\"n\">Amount</th></tr></thead><tbody>";
+      var val = {};
+      (sc.sheet.lines || []).forEach(function (ln) {
+        if (ln.t === "side") return;
+        if (ln.expect) {
+          var v = 0;
+          ln.expect.forEach(function (id) {
+            var c = (sc.chips || []).filter(function (x) { return x.id === id; })[0];
+            if (c) v += c.neg ? -Math.abs(c.amount) : c.amount; });
+          val[ln.slot] = v;
+          h += "<tr><td>" + esc(ln.label) + "</td><td>" + ln.expect.map(esc).join(" + ") +
+               "</td><td class=\"n\"><b>" + (v < 0 ? "(" + m(Math.abs(v)) + ")" : m(v)) + "</b></td></tr>";
+        } else {
+          var t = 0;
+          (ln.of || []).forEach(function (s) { t += val[s] || 0; });
+          h += "<tr><td><b>" + esc(ln.label) + "</b></td><td></td><td class=\"n\"><b>" + m(t) + "</b></td></tr>";
         }
-        return s + "</li>";
-      }).join("") + "</ul>";
-      return h;
-    }
-    if (t === "tie") {
-      h += "<ul class=\"why-list\">" + (ex.ties || []).map(function (x) {
-        return "<li class=\"why-ok\"><strong>" + esc(x.prompt) + " = " + L.money(x.answer) + "</strong> " +
-          (x.explain || "") + "</li>";
-      }).join("") + "</ul>";
-      return h;
-    }
-    if (t === "match") {
-      if (ex.prompt) h += "<p class=\"ans-q\">" + ex.prompt + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.pairs || []).map(function (p) {
-        return "<li class=\"why-ok\"><strong>" + esc(p.a) + " → " + esc(p.b) + "</strong> " + (p.why || "") + "</li>";
-      }).join("");
-      (ex.distractors || []).forEach(function (dd) {
-        h += "<li class=\"why-no\"><strong>" + esc(dd.b) + " belongs to nothing here.</strong> " + (dd.why || "") + "</li>";
       });
-      return h + "</ul>";
+      h += "</tbody></table>";
+      var notes = (sc.sheet.lines || []).filter(function (l) { return l.why; }).map(function (l) {
+        return li("y", "<b>" + esc(l.label) + "</b> " + l.why); });
+      if ((sc.distractors || []).length) notes = notes.concat(sc.distractors.map(function (d) {
+        return li("n", "<b>" + esc(d.id) + "</b> does not belong on this statement. " + (d.why || "")); }));
+      return h + ul(notes);
     }
-    if (t === "classify" || t === "imagedrop") {
-      var labelOf = function (id) {
-        if (t === "classify") {
-          var c = (ex.categories || []).filter(function (x) { return x.id === id; })[0];
-          return c ? c.label : id;
-        }
-        return id;
-      };
-      if (ex.prompt) h += "<p class=\"ans-q\">" + ex.prompt + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.items || []).map(function (it) {
-        return "<li class=\"why-ok\"><strong>" + esc(it.name) + " → " +
-          esc(labelOf(it.cat || it.zone)) + "</strong> " + (it.why || "") + "</li>";
-      }).join("");
-      (ex.distractors || []).forEach(function (dd) {
-        h += "<li class=\"why-no\"><strong>" + esc(dd.name) + " belongs in no box.</strong> " + (dd.why || "") + "</li>";
-      });
-      return h + "</ul>";
-    }
-    if (t === "cloze") {
-      var sentence = "";
-      (ex.parts || []).forEach(function (part, i) {
-        sentence += part;
-        if (i < (ex.answers || []).length) sentence += "<strong class=\"ans-fill\">" + esc(ex.answers[i].word) + "</strong>";
-      });
-      h += "<p class=\"ans-q\">" + sentence + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.answers || []).map(function (a, i) {
-        return "<li class=\"why-ok\"><strong>Blank " + (i + 1) + ": " + esc(a.word) + "</strong> " + (a.why || "") + "</li>";
-      }).join("") + "</ul>";
-      if (ex.extra && ex.extra.length) {
-        h += "<p class=\"ans-note\">Unused words: " + ex.extra.map(esc).join(", ") + ". " + (ex.note || "") + "</p>";
-      }
-      return h;
-    }
-    if (t === "order") {
-      h += "<ol class=\"ans-order\">" + (ex.items || []).slice().sort(function (a, b) { return a.pos - b.pos; })
-        .map(function (it) { return "<li><strong>" + esc(it.text) + "</strong> " + (it.why || "") + "</li>"; })
-        .join("") + "</ol>";
-      return h;
-    }
-    if (t === "journal") {
-      h += "<p class=\"ans-q\">" + esc(ex.scenario) + (ex.date ? " <em>(" + esc(ex.date) + ")</em>" : "") + "</p>";
-      h += "<table class=\"je\"><thead><tr><th>Account</th><th>Debit</th><th>Credit</th></tr></thead><tbody>" +
-        (ex.lines || []).map(function (ln) {
-          return "<tr><td class=\"" + (ln.side === "cr" ? "je-indent" : "") + "\">" + esc(ln.account) + "</td>" +
-            "<td>" + (ln.side === "dr" ? L.money(ln.amount) : "") + "</td>" +
-            "<td>" + (ln.side === "cr" ? L.money(ln.amount) : "") + "</td></tr>";
-        }).join("") + "</tbody></table>";
-      if (ex.logic) h += "<p>" + ex.logic + "</p>";
-      if (ex.equation) h += "<p class=\"ans-note\"><strong>Effects:</strong> " + esc(ex.equation) + "</p>";
-      return h;
-    }
-    if (t === "grid") {
-      h += "<div class=\"table-scroll\"><table class=\"je\"><thead><tr><th>Row</th><th>Journal entry</th>" +
-        "<th>Assets</th><th>Liab.</th><th>Equity</th><th>Net income</th><th>Cash flow</th></tr></thead><tbody>" +
-        (ex.rows || []).map(function (r) {
-          return "<tr" + (r.given ? " class=\"given\"" : "") + "><td>" + r.n + (r.given ? " (given)" : "") + "</td><td>" +
-            r.entry.map(function (ln) {
-              return (ln.side === "dr" ? "Dr " : "Cr ") + esc(ln.account) + " " + L.money(ln.amount);
-            }).join("<br>") + "</td>" +
-            "<td>" + L.signed(r.eff.a) + "</td><td>" + L.signed(r.eff.l) + "</td>" +
-            "<td>" + L.signed(r.eff.e) + "</td><td>" + L.signed(r.eff.ni) + "</td>" +
-            "<td>" + (r.eff.cf === "none" ? "none" : r.eff.cf + " " + L.signed(r.eff.cfAmount)) + "</td></tr>" +
-            (r.note ? "<tr><td></td><td colspan=\"6\" class=\"ans-note\">" + esc(r.note) + "</td></tr>" : "");
+    if (k === "post") {
+      return "<div class=\"table-scroll\"><table class=\"tbl\"><thead><tr><th>#</th><th>Entry</th>" +
+        "<th>A</th><th>L</th><th>E</th><th>NI</th><th>Cash flow</th></tr></thead><tbody>" +
+        (sc.transactions || []).map(function (t) {
+          return "<tr><td>" + t.n + (t.given ? " <span class=\"numunit\">given</span>" : "") + "</td><td>" +
+            t.entry.map(function (ln) { return (ln.side === "dr" ? "Dr " : "Cr ") + esc(ln.account) + " " + m(ln.amount); }).join("<br>") +
+            "</td><td>" + L.signed(t.eff.a) + "</td><td>" + L.signed(t.eff.l) + "</td><td>" + L.signed(t.eff.e) +
+            "</td><td>" + L.signed(t.eff.ni) + "</td><td>" +
+            (t.eff.cf === "none" ? "none" : t.eff.cf + " " + L.signed(t.eff.cfAmount)) + "</td></tr>" +
+            ((sc.logic && sc.logic[t.n]) ? "<tr><td></td><td colspan=\"6\" class=\"note\">" + sc.logic[t.n] + "</td></tr>" : "");
         }).join("") + "</tbody></table></div>";
-      return h;
     }
-    if (t === "equation") {
-      h += "<p class=\"ans-q\">" + esc(ex.scenario) + "</p>";
-      h += "<ul class=\"why-list\">" + (ex.lines || []).map(function (ln) {
-        var w = ln.answer === "up" ? "increases" : ln.answer === "down" ? "decreases" : "does not change";
-        return "<li class=\"why-ok\"><strong>" + esc(ln.label) + " " + w + ".</strong> " + (ln.why || "") + "</li>";
-      }).join("") + "</ul>";
-      if (ex.note) h += "<p class=\"ans-note\">" + esc(ex.note) + "</p>";
-      return h;
+    if (k === "cloze") {
+      var sentence = "";
+      (sc.parts || []).forEach(function (p, i) {
+        sentence += esc(p);
+        if (i < (sc.answers || []).length) sentence += " <b class=\"amt-ok\">" + esc(sc.answers[i].word) + "</b> ";
+      });
+      return "<p class=\"ans-a\">" + sentence + "</p>" + ul(sc.answers.map(function (a, i) {
+        return li("y", "<b>" + esc(a.word) + "</b> " + (a.why || "")); }));
     }
-    if (t === "stem") {
-      h += "<ul class=\"why-list\">" + (ex.stems || []).map(function (s) {
-        return "<li class=\"why-ok\"><strong>" + esc(s.text) + "</strong><br>Cue word: <strong>" + esc(s.cue) +
-          "</strong>. " + esc(s.effect) + " " + (s.why || "") + "</li>";
-      }).join("") + "</ul>";
-      return h;
-    }
-    if (t === "selfex") {
-      h += "<p class=\"ans-q\">" + ex.prompt + "</p>";
-      h += "<p>" + ex.model + "</p>";
-      h += "<p class=\"ans-note\"><strong>Your answer should cover:</strong></p><ul class=\"why-list\">" +
-        (ex.checklist || []).map(function (c) { return "<li class=\"why-other\">" + c + "</li>"; }).join("") + "</ul>";
-      return h;
-    }
-    if (t === "flashcards") {
-      return "<p class=\"ans-note\">A drill over the chapter's " + (ex.terms || []).length +
-        " terms. Every term, with its Arabic equivalent and its meaning, is listed on the " +
-        "<a href=\"terms.html\">Term bank</a> page and in <a href=\"../glossary.html\">Appendix A</a>.</p>";
-    }
-    return "<p class=\"ans-note\">See the exercise itself.</p>";
-  }
-
-  function section(host, title, intro, rows) {
-    var h2 = E("h2", "sec-heading", title);
-    h2.id = title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-    host.appendChild(h2);
-    if (intro) { var p = E("p", "sec-sub"); p.innerHTML = intro; host.appendChild(p); }
-    rows.forEach(function (r) {
-      var art = E("article", "ans-item");
-      var head = E("div", "ans-head");
-      head.appendChild(E("span", "ans-badge", r.badge));
-      head.appendChild(E("h3", null, r.title));
-      if (r.href) {
-        var a = E("a", "ans-link", "open the exercise →");
-        a.href = r.href;
-        head.appendChild(a);
-      }
-      art.appendChild(head);
-      var body = E("div", "ans-body");
-      body.innerHTML = r.html;
-      art.appendChild(body);
-      host.appendChild(art);
-    });
+    if (k === "probe") return ul((sc.probes || []).map(function (p) {
+      return li("y", "<b>" + esc(p.q) + "</b><br>" + p.a); }));
+    if (k === "cues") return ul((sc.stems || []).map(function (s) {
+      return li("y", "<b>" + esc(s.text) + "</b><br>Cue: <b>" + esc(s.cue) + "</b> — " + esc(s.effect)); }));
+    if (k === "contra") return ul([li("y", sc.rightWhy), li("n", sc.wrongWhy)]);
+    if (k === "split") return ul([li("y", sc.rightWhy), li("n", sc.wrongWhy)]);
+    if (k === "beam") return ul((sc.moves || []).map(function (x) {
+      return li("y", "<b>" + esc(x.label) + "</b> " + x.why); }));
+    if (k === "tank") return ul((sc.pipes || []).map(function (p) {
+      return li(p.throughIncomeStatement === false ? "n" : "y", "<b>" + esc(p.label) + "</b> " + p.why); }));
+    if (k === "timeline2") return ul((sc.stops || []).map(function (s) {
+      return li("y", "<b>" + esc(s.when) + "</b> " + s.note); }));
+    if (k === "wire") return ul((sc.links || []).map(function (l) { return li("y", l.why); }));
+    if (k === "switch") return ul((sc.pairs || []).map(function (p) {
+      return li("y", "<b>" + esc(p.us) + "</b> → " + esc(p.ifrs)); }));
+    if (k === "table") return ul((sc.seats || []).map(function (s) {
+      return li(s.primary ? "y" : "o", "<b>" + esc(s.user) + "</b> — " + esc(s.decision) + ". " +
+        esc(s.q) + " Uses: " + esc(s.stmts)); }));
+    if (k === "order") return ul((sc.items || []).slice().sort(function (a, b) { return a.pos - b.pos; })
+      .map(function (x) { return li("y", "<b>" + x.pos + ". " + esc(x.text) + "</b> " + (x.why || "")); }));
+    if (k === "gauges") return ul((sc.gauges || []).map(function (g) {
+      return li("y", "<b>" + esc(g.key) + " = " + esc(g.value) + "</b> " + esc(g.note)); })
+      .concat((sc.options || []).map(function (o) {
+        return li(o.correct ? "y" : "n", "<b>" + strip(o.text) + "</b> " + o.why); })));
+    if (k === "shelf") return ul((sc.volumes || []).filter(function (v) { return v.topic; }).map(function (v) {
+      return li("y", "<b>ASC " + v.n + "</b> covers " + esc(v.topic) + ". " + esc(v.why || "")); }));
+    if (k === "tbreader") return "<p class=\"note\">Every one of the twenty trial-balance lines, with the " +
+      "statement it reaches, is built into the scene itself. The two that catch people are the contra-assets: " +
+      "<b>allowance for credit losses</b> and <b>accumulated depreciation</b> both go to the balance sheet, " +
+      "netted against the asset they reduce.</p>";
+    if (k === "flash" || k === "termcards") return "<p class=\"note\">A drill over the chapter's " +
+      L.TERMCOUNT + " bridged terms. Every term, with its Arabic and its meaning, is on the " +
+      "<a href=\"terms.html\">Term bank</a> page and in <a href=\"../glossary.html\">Appendix A</a>.</p>";
+    if (k === "traps") return "<p class=\"note\">Your own record, kept in this browser.</p>";
+    return "<p class=\"note\">See the scene itself.</p>";
   }
 
   function run() {
     var host = doc.getElementById("content");
-    if (!host) return;
-
-    var secPages = ["s1-1", "s1-2", "s1-3", "s1-4", "s1-5", "s1-6", "s1-7"];
     var titles = {};
-    (root.Progress ? root.Progress.TOC : []).forEach(function (p) { titles[p.id] = p; });
-
-    /* 1. Section checks, in the book's order */
-    var checks = [];
-    secPages.forEach(function (pid) {
-      exercises(page(pid)).filter(function (x) { return x.group === "check"; }).forEach(function (x) {
-        checks.push({ badge: x.ex.badge, title: (titles[pid] ? "Section " + titles[pid].n : pid),
-                      href: pid + ".html#ex-" + x.ex.id, html: answerFor(x.ex) });
+    P.TOC.forEach(function (t) { titles[t.id] = t; });
+    PAGES.forEach(function (pg) {
+      var t = titles[pg.id];
+      var h2 = E("h2", "sec-h", t ? (t.n === "◆" ? t.title : t.n + " " + t.title) : pg.title);
+      h2.id = "p-" + pg.id;
+      host.appendChild(h2);
+      (pg.scenes || []).forEach(function (sc, i) {
+        var art = E("article", "slot");
+        art.style.marginBottom = "12px";
+        var head = E("div");
+        head.style.cssText = "display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px";
+        if (sc.kicker) head.appendChild(E("span", "card-b", sc.kicker));
+        head.appendChild(E("span", "slot-h", sc.title));
+        var a = E("a", "note", "open →");
+        a.href = pg.id + ".html#s" + (i + 1);
+        a.style.marginLeft = "auto";
+        head.appendChild(a);
+        art.appendChild(head);
+        if (sc.say) { var s = E("p", "note"); s.innerHTML = sc.say; art.appendChild(s); }
+        var b = E("div", "fb show ok");
+        b.innerHTML = body(sc);
+        art.appendChild(b);
+        host.appendChild(art);
       });
     });
-    section(host, "Section checks",
-      "The <strong>Test yourself</strong> items from each section, with the explanation for every option — " +
-      "including why each wrong option is wrong.", checks);
-
-    /* 2. Your turn: the February rows the learner completes */
-    var yt = [];
-    exercises(page("s1-3")).forEach(function (x) {
-      if (x.ex.type === "grid") yt.push({ badge: "F01-06", title: "Your turn · the February effect grid",
-        href: "s1-3.html#ex-" + x.ex.id, html: answerFor(x.ex) });
-    });
-    L.february.filter(function (r) { return !r.given; }).forEach(function (r) {
-      var ex = exercises(page("s1-3")).filter(function (x) { return x.ex.id === "feb" + r.n; })[0];
-      if (ex) yt.push({ badge: "Row " + r.n, title: r.short, href: "s1-3.html#ex-feb" + r.n, html: answerFor(ex.ex) });
-    });
-    section(host, "Your turn · February, rows 4 to 6",
-      "Rows 1 to 3 are given in the book. These are the rows you complete, with the journal entry and the effects " +
-      "for each.", yt);
-
-    /* 3. Multiple-choice P01-P16 */
-    section(host, "Multiple-choice questions",
-      "P01 to P16, with the explanation for all four options of each question.",
-      exercises(page("practice")).map(function (x) {
-        return { badge: x.ex.badge, title: "Practice question " + x.ex.badge,
-                 href: "practice.html#ex-" + x.ex.id, html: answerFor(x.ex) };
-      }));
-
-    /* 4. The case */
-    section(host, "Case question · " + L.company.barada,
-      "The case items in the exam's own formats, with the diagnosis for each named wrong answer.",
-      exercises(page("case")).map(function (x) {
-        return { badge: x.ex.badge, title: x.ex.title, href: "case.html#ex-" + x.ex.id, html: answerFor(x.ex) };
-      }));
-
-    /* 5. Everything else, section by section */
-    var h2 = E("h2", "sec-heading", "Section exercises");
-    h2.id = "section-exercises";
-    host.appendChild(h2);
-    var intro = E("p", "sec-sub");
-    intro.innerHTML = "The book prints answers for its section checks, its Your Turn and its practice set. " +
-      "These are the answers to the interactive exercises this site adds on top of them — every one of which " +
-      "is built from the chapter's own content.";
-    host.appendChild(intro);
-
-    secPages.concat(["summary", "terms", "review"]).forEach(function (pid) {
-      var rows = exercises(page(pid)).filter(function (x) { return x.group !== "check"; });
-      if (!rows.length) return;
-      var t = titles[pid];
-      section(host, (t ? (t.n === "◆" ? t.title : "Section " + t.n + " · " + t.title) : pid), null,
-        rows.map(function (x) {
-          return { badge: x.ex.badge || x.ex.id, title: x.ex.title,
-                   href: pid + ".html#ex-" + x.ex.id, html: answerFor(x.ex) };
-        }));
-    });
-
-    if (root.Chrome) root.Chrome.refreshProgress();
   }
-
   root.AnswersView = { run: run };
 })(window, document);
