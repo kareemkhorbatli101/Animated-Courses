@@ -12,7 +12,7 @@
     { id: "traps", kind: "traps",
       kicker: "Your own record",
       title: "The traps you have fallen into",
-      say: "Logged by name as you worked. Go back to the one that keeps catching you." },
+      say: "Kept by name as you worked. Go back to the one that keeps catching you." },
 
     { id: "mixed", kind: "sort", board: "lanes",
       kicker: "Interleaved",
@@ -61,11 +61,11 @@
     { id: "figs", kind: "number",
       kicker: "Interleaved",
       title: "Five figures, no exhibit",
-      say: "From memory if you can. This is retrieval, not reading.",
+      say: "From memory if you can. The point is to produce them, not to read them.",
       fields: [
         { label: "Gross profit", answer: L.is.grossProfit, why: "3,100 − 1,860." },
         { label: "Net income", answer: L.is.netIncome, why: "420 operating income less 90 interest.",
-          diag: [{ v: 420, says: "That is operating income. Interest of 90 still comes off." }] },
+          diag: [{ v: 420, says: "That is operating income. Interest of 90 leaves net income of 330." }] },
         { label: "Total current assets", answer: L.bs.currentAssets,
           why: "Cash 1,050 + receivables net 280 + inventory 420 + prepaid rent 24.",
           diag: [{ v: 1794, says: "That adds the allowance back instead of subtracting it." }] },
@@ -79,7 +79,7 @@
     { id: "effect", kind: "sort", board: "lanes",
       kicker: "Interleaved",
       title: "Net income, cash, both, or neither?",
-      say: "The hardest sort in the chapter: it needs the accrual basis and the cash categories at once.",
+      say: "This one needs the accrual basis and the three cash-flow categories at once.",
       traps: ["dividend-not-expense"],
       targets: [
         { id: "ni", label: "Net income only" },
@@ -92,18 +92,18 @@
           why: "Net income rises 120; no cash moves until the customer pays." },
         { name: "Accrue interest of 4 not yet paid", to: "ni",
           why: "An expense of February; the cash has not left." },
-        { name: "Issue shares for 1,500 cash", to: "cash", why: "Financing. Net income is untouched." },
+        { name: "Issue shares for 1,500 cash", to: "cash", why: "Selling shares is financing from owners, not revenue." },
         { name: "Buy the bottling line for 1,200 cash", to: "cash",
           why: "The cost sits in equipment and becomes expense later, through depreciation." },
         { name: "Collect 200 from a customer", to: "cash",
-          why: "The revenue was recorded on delivery; this only swaps a receivable for cash." },
+          why: "The cash receipt only changes one asset (the receivable) into another asset (cash)." },
         { name: "Pay January wages of 40 in cash", to: "both",
-          why: "An expense reduces net income AND cash leaves. Few transactions do both." },
+          why: "An expense reduces net income, and the cash goes out." },
         { name: "Declare a dividend of 50 payable next month", to: "neither", trap: "dividend-not-expense",
           why: "A liability appears and retained earnings fall, but net income does not change and no cash moves." }
       ],
       distractors: [
-        { name: "Prepare the trial balance", why: "A bookkeeping step, not a transaction. It changes nothing." }
+        { name: "Prepare the trial balance", why: "A trial balance lists every account balance and checks that total debits equal total credits. It is not a transaction." }
       ] }
     ]
   };

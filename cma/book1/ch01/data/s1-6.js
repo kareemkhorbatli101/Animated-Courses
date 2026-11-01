@@ -13,7 +13,7 @@
     { id: "when", kind: "sort", board: "trays",
       kicker: "The four statements",
       title: "A date, or a period?",
-      say: "Three of the four cover a stretch of time. Only one reports a position at one moment.",
+      say: "Three of the four cover a period. Only one reports a position at one date.",
       targets: [
         { id: "date", label: "📍 At a single date", sub: "there is only one" },
         { id: "period", label: "🕓 For a period", sub: "the other three" }
@@ -23,18 +23,18 @@
           why: "What the company has and owes, and the owners' claim — at one date." },
         { name: "Income statement", to: "period", why: "How the company performed, for a period." },
         { name: "Statement of changes in equity", to: "period", why: "Why each equity account changed, for a period." },
-        { name: "Statement of cash flows", to: "period", why: "Where cash came from and went, for a period." }
+        { name: "Statement of cash flows", to: "period", why: "Where did cash come from, and where did it go? For a period." }
       ],
       distractors: [
         { name: "Statement of financial position",
-          why: "Worth catching: this is only the IFRS name for the balance sheet, so it is the same statement, not a fifth one." },
-        { name: "Trial balance", why: "Not a financial statement at all, though it is drawn up at a date." }
+          why: "This is the IFRS name for the balance sheet, so it is the same statement." },
+        { name: "Trial balance", why: "A trial balance lists every account balance and checks that total debits equal total credits. It is not one of the four statements." }
       ] },
 
     { id: "wire", kind: "wire",
       kicker: "Figure F01-09",
-      title: "Wire the statements together",
-      say: "Two links hold the four statements together. Click a port, then the port it feeds. Wrong pairs will not connect.",
+      title: "Link the statements together",
+      say: "The four statements are linked. Click one end of a link, then the other. A connection that is not one of the two will not hold.",
       cards: [
         { title: "Income statement", sub: "for a period",
           ports: [{ id: "ni", label: "net income " + m(L.jan.ni) }] },
@@ -57,10 +57,10 @@
     { id: "gap", kind: "number",
       kicker: "The accrual basis at work",
       title: "Net income was 80. Cash rose 1,060.",
-      say: "Both numbers are right, and neither explains the other. Work out where the cash actually came from.",
+      say: "Both figures are right, and neither explains the other. Work out where the cash came from.",
       fields: [
         { label: "Operating cash flow in January", answer: L.jan.operating,
-          why: "Only the wages of 40 moved cash in operations — an outflow." },
+          why: "An operating outflow of 40: the January wages." },
         { label: "Investing cash flow in January", answer: L.jan.investing,
           why: "The bottling line, bought for 1,200 cash — an outflow." },
         { label: "Financing cash flow in January", answer: L.jan.financing,
@@ -74,7 +74,7 @@
     { id: "tb", kind: "tbreader",
       kicker: "Figure F01-10",
       title: "Read the trial balance",
-      say: "Pick a destination, then click the lines that reach it. Total debits equal total credits at " +
+      say: "Choose a statement, then click the lines that reach it. Total debits equal total credits at " +
         m(L.totalDebits) + " — and two lines catch people.",
       traps: ["contra-netting"],
       tags: [
@@ -86,7 +86,7 @@
         re0: "The OPENING balance starts the statement of changes in equity. The closing balance goes to the balance sheet.",
         divdeclared: "A distribution to owners: it reduces equity in the statement of changes in equity, and is never an expense.",
         accumdep: "A contra-asset on the balance sheet. Depreciation EXPENSE is the income statement item.",
-        allowance: "A contra-asset on the balance sheet, netted against receivables.",
+        allowance: "A contra-asset on the balance sheet. Receivables appear net of the allowance.",
         depexp: "The period's charge, in the income statement. Accumulated depreciation is the running total on the balance sheet."
       } },
 
@@ -97,7 +97,7 @@
       effects: [
         "More than one option may be partly true — choose the best one.",
         "Three options are true — find the one that is false.",
-        "Ignore later events, such as next month's cash payment.",
+        "Ignore later events, such as the cash payment next month.",
         "Add the increases and decreases together before answering."
       ],
       stems: [
@@ -108,7 +108,7 @@
         { text: "Which transaction changes total assets but does NOT change total equity?", cue: "NOT",
           effect: "Three options are true — find the one that is false." },
         { text: "What is the effect immediately after the declaration?", cue: "immediately",
-          effect: "Ignore later events, such as next month's cash payment." },
+          effect: "Ignore later events, such as the cash payment next month." },
         { text: "What is the net effect of these transactions on total equity?", cue: "net",
           effect: "Add the increases and decreases together before answering." }
       ] },

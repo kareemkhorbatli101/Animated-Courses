@@ -45,6 +45,8 @@
 <script src="assets/terms-ch01.js"></script>
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
+<script src="assets/source-text.js"></script>
+<script src="assets/provenance.js"></script>
 <script src="assets/scene.js"></script>
 <script src="assets/objects.js"></script>
 <script src="assets/objects2.js"></script>
@@ -88,9 +90,22 @@
 
   /* ---------- 1. PROVENANCE ---------- */
   var g = grp("1 · Provenance lock",
-    "Nothing may be taught that is not in the author's chapter. The first build failed this: 26 of 80 Arabic " +
-    "terms had been generated rather than sourced.");
+    "Every word the site teaches is checked against source/chapter-01.txt, which ships " +
+    "with the package. The first build failed this: 26 of 80 Arabic terms had been generated.");
 
+  /* the lock: every word of taught content must be in the author's chapter */
+  var audit = root_audit();
+  function root_audit() { return window.Provenance.audit(CAPTURED); }
+  var contentFails = audit.filter(function (f) { return !f.chrome; });
+  var chromeFails = audit.filter(function (f) { return f.chrome; });
+  ck(g, "Every word of taught content appears in the author's chapter",
+    contentFails.length === 0,
+    contentFails.length ? contentFails.slice(0, 3).map(function (f) {
+      return f.deck + "/" + f.scene + " " + f.where + " " + f.bad.join(","); }).join(" | ")
+      : window.Provenance.sourceWords + " source words, " + window.Provenance.vocabulary + " in vocabulary");
+  ck(g, "No interface text carries an accounting claim", chromeFails.length === 0,
+    chromeFails.length ? chromeFails.slice(0, 3).map(function (f) {
+      return f.deck + "/" + f.scene + " " + f.bad.join(","); }).join(" | ") : "interface English only");
   ck(g, "Every Arabic term is one of the chapter's Term Bridge rows", T.count === 54, T.count + " terms");
   ck(g, "No Arabic has been invented for a term the chapter does not bridge",
     T.englishOnly.every(function (t) { return t.ar === null; }),

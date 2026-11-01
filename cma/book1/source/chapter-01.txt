@@ -3,6 +3,62 @@ Nothing in the site may teach a fact, a number, a term or an Arabic translation
 that is not on this page. Provenance is checked against this file.
 
 ================================================================================
+HOW TO USE THIS BOOK — front matter, as supplied
+================================================================================
+
+This book covers every Learning Outcome Statement in CMA Part 1, Section A
+(External Financial Reporting Decisions), effective September 1, 2024. It is
+written in graded English (B1+ to B2) with the exact exam terms, and it bridges
+each term to Arabic and French.
+
+From the September/October 2026 testing window, English-language CMA exams have
+100 multiple-choice questions followed by two case-based questions (CBQs). The
+Learning Outcome Statements did not change. Every chapter therefore ends with
+multiple-choice practice and a case-style set in the CBQ format.
+
+Four parts: Part I, Chapters 1 to 5, sets up the language of accounting and the
+four financial statements. Part II, Chapters 6 to 10, measures assets. Part III,
+Chapters 11 to 15, covers revenue, liabilities, income taxes, leases and income
+measurement. Part IV, Chapters 16 to 18, covers consolidation, the six tested
+differences from IFRS, and integrated reporting.
+
+Each chapter follows the same pattern: an opener figure, learning objectives with
+LOS codes, key terms, numbered sections, a section check after each section, a
+chapter summary figure, practice questions, a case question in the official exam
+format and full answers with explanations.
+
+Case companies. Orontes Foods, Inc. is a U.S. GAAP food and beverage producer
+based in Amman, Jordan, listed in the United States; its 2025 statements are
+built in Chapters 2 to 5 and reused later. Barada Wholesale, Inc. is a small
+U.S. GAAP distributor used for the case-style sets. Cedar Retail S.A.L. is the
+IFRS company in Chapter 1.
+
+Numbers. Amounts are in whole U.S. dollars unless a table says USD 000. Examples
+that begin with 'Suppose', and all dated examples after 2025, are illustrative:
+they are not part of Orontes's 2025 statements. Figure and question numbers keep
+their chapter prefix, for example F11-03 or P11-07.
+
+THE BOXES IN EACH CHAPTER
+What you already know | Links the topic to IFRS or to earlier chapters.
+Worked example | A calculation or analysis, step by step.
+Your turn | A faded exercise: the first lines are done; you complete the rest.
+  Answers at the end of the chapter.
+Exam trap | A common wrong answer and why it is wrong.
+False friend | An Arabic or French term that looks right but means something else
+  in U.S. GAAP.
+IFRS | How IFRS differs, for readers who trained in IFRS.
+Watch: not yet testable | Issued or proposed changes that the exam does not test yet.
+Key words in this section | English exam term with its Arabic and French equivalents.
+Test yourself | Section check questions. Answers at the end of the chapter.
+
+PRACTICE — the author's preamble
+Answer the multiple-choice questions first. Then try the case question: like the
+exam, it gives a short case and an exhibit, followed by independent items
+(drag-and-drop, select from a list, fill in the blank and calculations). The
+answers explain why each wrong option is wrong, so read them even when you are
+right.
+
+================================================================================
 CHAPTER 1 — The Language and Framework of Financial Reporting
 لغة التقارير المالية وإطارها
 ================================================================================
@@ -788,6 +844,311 @@ C1-6  When Barada declares a cash dividend, the dividend reduces ____; it is not
         not a reduction of revenue.
       total assets on the declaration date is wrong: [sic — clause dropped in the source]
         cash leaves only when the dividend is paid; declaration creates a liability.
+
+================================================================================
+ANSWERS AND EXPLANATIONS — as printed in the chapter
+(The site must use these rationales; they are the author's words.)
+================================================================================
+
+SECTION CHECKS
+
+SC1-1  Answer D. The primary users are existing and potential investors, lenders
+and other creditors.
+A is wrong. Managers can get internal information, so they are not primary users.
+B is wrong. Internal auditors work inside the company and use internal records.
+C is wrong. The board directs the company and can demand internal reports.
+
+SC1-2  Answer A. Predictive value is part of relevance: the information helps users
+predict the future.
+B is wrong. Verifiability means independent people could agree on the amount.
+C is wrong. Comparability means users can compare companies or periods.
+D is wrong. Timeliness means the information arrives in time to affect the decision.
+
+SC2-1  Answer B. Wages are a cost of the company's central operations, so they are
+an expense.
+A is wrong. A dividend is a distribution to owners. It reduces retained earnings but
+is not an expense.
+C is wrong. Repaying principal reduces a liability and an asset. No expense arises.
+D is wrong. A bottling line is an asset. Its cost becomes an expense later, through
+depreciation.
+
+SC2-2  Answer A. Equity = assets - liabilities = 500 - 320 = 180.
+B is wrong. This is the liabilities figure, not equity.
+C is wrong. This is total assets, not equity.
+D is wrong. This adds liabilities to assets. Equity is the residual after deducting
+liabilities.
+
+SC3-1  Answer B. Accumulated depreciation is a contra-asset account, so it has the
+opposite (credit) balance to assets.
+A is wrong. Prepaid rent is an asset, so its normal balance is a debit.
+C is wrong. Cost of goods sold is an expense, so its normal balance is a debit.
+D is wrong. Dividends declared reduce equity, so they have a debit balance.
+
+SC3-2  Answer D. One asset increases (debit Equipment) and another asset decreases
+(credit Cash).
+A is wrong. The sides are reversed: this entry would increase cash and decrease
+equipment.
+B is wrong. The bottling line is an asset, not an expense of this period.
+C is wrong. Orontes paid cash; it did not borrow. The credit side must be Cash.
+
+SC4-1  Answer A. Cash increases, and Orontes owes the customer the goods. This is a
+contract liability (unearned revenue).
+B is wrong. Revenue is not earned until the goods are delivered in January.
+C is wrong. The cash asset is correct, but the credit is a liability, not revenue.
+D is wrong. Cash has been received, so Orontes must record it now.
+
+SC4-2  Answer C. Cost of goods sold links directly to each sale, so it is recorded
+with the sales revenue.
+A is wrong. Depreciation uses systematic and rational allocation over the years of use.
+B is wrong. Advertising has no clear link to specific revenue, so it is recognized
+immediately.
+D is wrong. Head-office rent is a period cost, recognized immediately.
+
+SC5-1  Answer A. The FASB writes U.S. GAAP and keeps it in the Accounting Standards
+Codification.
+B is wrong. The SEC has legal authority, but it recognizes the FASB as the standard
+setter.
+C is wrong. The PCAOB sets auditing standards, not accounting standards.
+D is wrong. The IASB writes IFRS, not U.S. GAAP.
+
+SC5-2  Answer D. Share premium is the amount received for shares above their par
+value: additional paid-in capital.
+A is wrong. Retained earnings come from past profits, not from selling shares.
+B is wrong. Common stock holds only the par value of the shares.
+C is wrong. Net income is a performance measure, not an equity account.
+
+SC6-1  Answer B. The balance sheet shows position at one date. The other statements
+cover a period.
+A is wrong. The income statement covers a period.
+C is wrong. The statement of changes in equity covers a period.
+D is wrong. The statement of cash flows covers a period.
+
+SC6-2  Answer C. Both accounts reduce an asset (receivables and equipment) and have
+credit balances.
+A is wrong. Dividends payable is a liability, not a contra-asset.
+B is wrong. Notes payable is a liability, not a contra-asset.
+D is wrong. Dividends declared reduces equity, not an asset.
+
+SC7-1  Answer B. Cash, receivables net of the allowance, inventory and prepaid rent.
+A is wrong. This is total current liabilities.
+C is wrong. This adds the allowance back instead of subtracting it.
+D is wrong. This is total assets, including land and equipment.
+
+SC7-2  Answer C. Opening retained earnings plus net income less dividends declared.
+A is wrong. This is net income, not the retained earnings balance.
+B is wrong. This is the opening balance, before net income.
+D is wrong. This ignores the dividend declared.
+
+SC7-3  Answer D. It is an obligation to pay cash within a year.
+A is wrong. A declared dividend is a liability, not part of equity.
+B is wrong. It reduces nothing on the asset side.
+C is wrong. It is payable within the year.
+
+YOUR TURN: FEBRUARY, ROWS 4 TO 6
+Row 4. A Dubai hotel group paid cash in advance for pastries that Orontes will
+deliver in March. Dr Cash 60; Cr Contract liability (unearned revenue) 60.
+Assets +60, liabilities +60, equity 0, net income 0; cash flow: operating +60.
+Row 5. Paid the dividend declared on January 31. Dr Dividends payable 50; Cr Cash 50.
+Assets (50), liabilities (50), equity 0, net income 0; cash flow: financing (50).
+Row 6. Recorded one month of interest on the bank note. Orontes has not paid it yet.
+Dr Interest expense 4; Cr Interest payable 4. Assets 0, liabilities +4, equity (4),
+net income (4); cash flow: none.
+Row 4 is a liability, not revenue: Orontes must still deliver the pastries. Row 5
+reduces a liability and cash; retained earnings fell in January, when the dividend
+was declared. Row 6 is an accrued expense: interest is an expense of February even
+though Orontes has not paid it.
+
+MULTIPLE-CHOICE QUESTIONS — full stems and options
+
+P01  Under the U.S. conceptual framework, the objective of general-purpose financial
+reporting is to provide useful information mainly to:
+A. existing and potential investors, lenders and other creditors.
+B. the board of directors and senior management.
+C. government statisticians and tax authorities.
+D. the company's employees and trade unions.
+
+P02  A bank is deciding whether to renew a five-year loan to Orontes. Which
+information will the bank find MOST useful?
+A. The highest and lowest share price during the year
+B. The company's ability to generate cash to pay interest and repay principal
+C. The number of products the company sells
+D. The names of the company's major shareholders
+
+P03  Two companies use the same accounting methods, so an analyst can compare their
+results. This quality is called:
+A. comparability   B. relevance   C. verifiability   D. faithful representation
+
+P04  A company issues common stock for cash. What is the effect on the accounting
+equation?
+A. Assets increase and revenue increases.
+B. Assets increase and liabilities increase.
+C. There is no effect on the equation.
+D. Assets increase and equity increases.
+
+P05  The board declares a cash dividend that will be paid next month. What is the
+effect immediately after the declaration?
+A. Expenses increase and net income decreases.
+B. Assets decrease and equity decreases.
+C. Liabilities increase and equity decreases.
+D. There is no effect until the dividend is paid.
+
+P06  Which transaction changes total assets but does NOT change total equity?
+A. Paying wages in cash
+B. Borrowing cash from a bank
+C. Selling goods on credit at a profit
+D. Buying equipment for cash
+
+P07  A company has assets of 900 and liabilities of 350. It then borrows 100 in cash
+and declares and pays a cash dividend of 40. What is total equity after these
+transactions?
+A. 450   B. 510   C. 550   D. 610
+
+P08  Which account normally has a debit balance?
+A. Accounts payable   B. Sales revenue   C. Additional paid-in capital   D. Prepaid rent
+
+P09  Accumulated depreciation is BEST described as:
+A. a contra-asset account with a credit balance.
+B. a liability for future asset replacement.
+C. an expense of the current period.
+D. a reduction of retained earnings.
+
+P10  Orontes ships goods on December 20, 2025 and invoices 90. The goods cost 54. The
+customer pays on January 15, 2026. The fiscal year ends on December 31. How much
+revenue does Orontes report for fiscal 2025?
+A. 0   B. 36   C. 54   D. 90
+
+P11  Which statement about the matching principle is correct?
+A. Expenses are recognized in the period in which they are paid.
+B. Expenses are recognized in the same period as the revenues they help to produce.
+C. Revenues are recognized in the period in which cash is received.
+D. All costs are capitalized as assets until related revenue is earned.
+
+P12  On February 10, Orontes pays 24 for 12 months of warehouse rent in advance. How
+does the payment appear immediately after it is made?
+A. As an expense of 24   B. As a liability of 24
+C. It is not recorded until the end of the month.   D. As an asset of 24
+
+P13  Which statement explains why retained earnings changed during the year?
+A. The balance sheet   B. The statement of cash flows
+C. The statement of changes in equity   D. The income statement
+
+P14  Net income for the period flows directly into:
+A. retained earnings in the statement of changes in equity.
+B. the cash balance on the balance sheet.
+C. total liabilities.   D. common stock.
+
+P15  Which statement is TRUE?
+A. The PCAOB writes U.S. GAAP for public companies.
+B. The IASB writes U.S. GAAP for companies that also report under IFRS.
+C. The SEC has legal authority over public company reporting and recognizes the FASB
+as the standard setter.
+D. The ASC contains IFRS for U.S. companies.
+
+P16  A Jordanian company's IFRS statements show share premium of 400. Under U.S. GAAP,
+the same item is called:
+A. retained earnings.   B. common stock.   C. treasury stock.
+D. additional paid-in capital.
+
+MULTIPLE-CHOICE QUESTIONS — ANSWERS
+
+P01  Answer A. These are the primary users. They provide resources and cannot demand
+special reports.
+B is wrong. Management can obtain internal information, so it is not a primary user.
+C is wrong. Governments use the statements, but they are not the primary users named
+by the framework.
+D is wrong. Employees are users, but not the primary users named by the framework.
+
+P02  Answer B. A lender's main question is repayment: can the borrower pay interest
+and principal on time?
+A is wrong. Share prices interest investors more than lenders and do not show
+repayment ability.
+C is wrong. The product count does not show whether the company can repay the loan.
+D is wrong. Ownership details do not answer the lender's repayment question.
+
+P03  Answer A. Comparability lets users identify similarities and differences between
+companies or periods.
+B is wrong. Relevance means the information can make a difference to a decision.
+C is wrong. Verifiability means independent observers could reach the same result.
+D is wrong. Faithful representation means complete, neutral and free from error.
+
+P04  Answer D. Cash (an asset) increases, and contributed capital (equity) increases
+by the same amount.
+A is wrong. Selling shares is financing from owners, not revenue.
+B is wrong. Shares are equity, not debt. A liability arises only when the company
+borrows.
+C is wrong. Both sides of the equation increase, so the equation changes but still
+balances.
+
+P05  Answer C. Declaring the dividend creates dividends payable (a liability) and
+reduces retained earnings.
+A is wrong. A dividend is a distribution to owners, not an expense.
+B is wrong. Cash decreases only on the payment date, next month.
+D is wrong. The obligation exists from the declaration date, so it is recorded now.
+
+P06  Answer B. Assets and liabilities both increase. Equity does not change.
+A is wrong. Wages are an expense, so equity (retained earnings) also decreases.
+C is wrong. A profitable sale increases equity through net income.
+D is wrong. One asset replaces another, so total assets do not change.
+
+P07  Answer B. Equity starts at 550 (900 - 350). Borrowing does not change equity.
+The dividend reduces it by 40, so equity is 510.
+A is wrong. This is total liabilities after the loan (350 + 100), not equity.
+C is wrong. This ignores the dividend, which reduces retained earnings.
+D is wrong. This adds the loan to equity. A loan is a liability.
+
+P08  Answer D. Prepaid rent is an asset, and assets have debit balances.
+A is wrong. Accounts payable is a liability, with a credit balance.
+B is wrong. Revenue increases equity, so it has a credit balance.
+C is wrong. APIC is equity, with a credit balance.
+
+P09  Answer A. It reduces the cost of equipment on the balance sheet and has a credit
+balance.
+B is wrong. The company owes nobody anything, so it is not a liability.
+C is wrong. Depreciation expense is the period's charge; accumulated depreciation is
+the running total on the balance sheet.
+D is wrong. It reduces an asset, not equity directly.
+
+P10  Answer D. Under the accrual basis, revenue is recorded when the goods are
+delivered, in 2025.
+A is wrong. This is cash-basis thinking. The cash timing does not decide the period.
+B is wrong. This is the gross profit (revenue minus cost), not the revenue.
+C is wrong. This is the cost of goods sold, not the revenue.
+
+P11  Answer B. This is the definition of matching.
+A is wrong. Payment timing does not decide when an expense is recognized.
+C is wrong. Revenue is recognized when earned, not when cash is received.
+D is wrong. Many costs (for example, advertising) are expensed immediately.
+
+P12  Answer D. Prepaid rent is an asset: Orontes has paid for 12 months of future use.
+A is wrong. The benefit is in the future, so the cost becomes an expense month by
+month.
+B is wrong. This confuses a prepaid expense (asset) with unearned revenue (liability).
+C is wrong. Cash has left the company, so the transaction must be recorded now.
+
+P13  Answer C. The statement of changes in equity shows beginning retained earnings,
+net income, dividends and ending retained earnings.
+A is wrong. The balance sheet shows only the ending balance at one date.
+B is wrong. The statement of cash flows explains cash, not equity.
+D is wrong. The income statement shows net income but not dividends or the opening
+balance.
+
+P14  Answer A. Net income is closed into retained earnings.
+B is wrong. Net income is not cash. The statement of cash flows explains the cash
+balance.
+C is wrong. Net income belongs to the owners, so it goes to equity, not liabilities.
+D is wrong. Common stock changes only when shares are issued or retired.
+
+P15  Answer C. The SEC has the legal authority; the FASB sets the standards; the ASC
+holds U.S. GAAP.
+A is wrong. The PCAOB sets auditing standards.
+B is wrong. The IASB writes IFRS only.
+D is wrong. The ASC is U.S. GAAP. IFRS is a separate set of standards.
+
+P16  Answer D. Share premium and additional paid-in capital both mean the amount
+received above par value.
+A is wrong. Retained earnings come from profits, not from issuing shares.
+B is wrong. Common stock holds only the par value.
+C is wrong. Treasury stock is the company's own shares that it bought back (Chapter 4).
 
 ================================================================================
 NOT IN THE CHAPTER — anything not above may not be taught by the site.

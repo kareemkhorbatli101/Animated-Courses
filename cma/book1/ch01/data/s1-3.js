@@ -26,7 +26,7 @@
     5: [{ name: "Retained earnings (dividends declared)", amount: 50, why: "Retained earnings already fell in January, when the dividend was declared." },
         { name: "Dividend expense", amount: 50, why: "There is no such account. A dividend is never an expense." }],
     6: [{ name: "Cash", amount: 4, why: "Orontes has not paid the interest yet." },
-        { name: "Notes payable (long-term)", amount: 4, why: "The principal has not changed. Only the unpaid interest has arisen." }]
+        { name: "Notes payable (long-term)", amount: 4, why: "Orontes has not paid it yet, and the principal has not changed." }]
   };
   var JAN_LOGIC = {
     1: "Only the par value of 100 goes to common stock; the other 1,400 is additional paid-in capital.",
@@ -66,7 +66,7 @@
       ],
       distractors: [
         { name: "Accumulated depreciation",
-          why: "A contra account, so it reverses the rule: it increases with a credit although it sits with the assets. Not one of the six types." },
+          why: "A contra account reduces a related account, so it has the opposite normal balance. It is not one of the six account types." },
         { name: "Net income",
           why: "Not an account. It is the result of closing revenues and expenses into retained earnings." }
       ] },
@@ -74,7 +74,7 @@
     { id: "contra", kind: "contra",
       kicker: "Contra accounts",
       title: "A credit balance that is not a liability",
-      say: "Accumulated depreciation reduces equipment. Put it in the wrong place and watch what happens to total assets.",
+      say: "Accumulated depreciation reduces equipment. Put it in the wrong place and watch total assets.",
       asset: { label: "Equipment", amount: 4200 },
       contra: { label: "Accumulated depreciation", amount: 900 },
       netLabel: "Equipment, net of accumulated depreciation",
@@ -83,24 +83,25 @@
 
     { id: "jan", kind: "post",
       kicker: "Worked example",
-      title: "Post the January entries",
-      say: "Put every account on the side it belongs. An entry cannot be posted until debits equal credits — and the grid on the right fills in as you go.",
+      title: "Record the January entries",
+      say: "Accountants record every transaction with the double-entry system. Each line takes one account, and total debits always equal total credits.",
       transactions: L.january,
       lures: JAN_LURES,
       logic: JAN_LOGIC,
       grid: true,
-      gridTitle: "Figure F01-05 · January" },
+      gridTitle: "Figure F01-05 · January",
+      journalTitle: "Journal entries" },
 
     { id: "read", kind: "probe",
       kicker: "Figure F01-05",
       title: "Read the grid you just built",
       say: "Three things in it matter for the exam.",
       probes: [
-        { q: "Rows 1 and 2 brought in cash of 2,300. How much of it is revenue?",
+        { q: "Rows 1 and 2 bring in cash of 2,300 in total. Is any of it revenue?",
           a: "<b>None of it.</b> Money from owners and lenders is financing. It is not income." },
-        { q: "Row 4 created revenue of 300. How much cash came in?",
+        { q: "Row 4 creates revenue of 300. Does any cash come in?",
           a: "<b>None.</b> Orontes records revenue when it delivers the goods, not when the customer pays." },
-        { q: "Row 6 reduced retained earnings by 50. What happened to net income?",
+        { q: "Row 6 reduces retained earnings by 50. Does net income change?",
           a: "<b>Nothing.</b> It creates a liability, and no cash moves until February. A dividend is not an expense." }
       ],
       traps: ["dividend-not-expense", "financing-not-revenue"] },
@@ -108,7 +109,7 @@
     { id: "prove", kind: "number",
       kicker: "The totals",
       title: "Prove the equation",
-      say: "Add the January columns. If the three figures do not satisfy A = L + E, something above is wrong.",
+      say: "Add the January columns. The totals prove the equation — if they do not, something above is wrong.",
       fields: [
         { label: "Total change in assets", answer: L.jan.a,
           why: "Cash +1,060, equipment +1,200, receivables +300, inventory −180." },
@@ -118,7 +119,7 @@
           why: "Contributed capital +1,500, plus net income of 80, less the dividend of 50." },
         { label: "Net income for January", answer: L.jan.ni,
           why: "Revenue 300 − cost of goods sold 180 − wages 40.",
-          diag: [{ v: 120, says: "That is revenue less cost of goods sold. The wages still come off." },
+          diag: [{ v: 120, says: "That is revenue less cost of goods sold. The wages of 40 are still to be deducted." },
                  { v: 30, says: "That subtracts the dividend. A dividend is not an expense." },
                  { v: 300, says: "That is revenue, not net income." }] }
       ],
@@ -127,31 +128,32 @@
     { id: "feb", kind: "post",
       kicker: "Your turn · Figure F01-06",
       title: "February: rows 4 to 6 are yours",
-      say: "Rows 1 to 3 are already posted for you, exactly as the book prints them. Complete the rest.",
+      say: "Rows 1 to 3 are done for you. Complete rows 4 to 6, then write the journal entries for them.",
       transactions: L.february,
       lures: FEB_LURES,
       logic: FEB_LOGIC,
       grid: true,
       gridTitle: "Figure F01-06 · February",
+      journalTitle: "Journal entries",
       traps: ["cash-not-trigger"] },
 
     { id: "friends", kind: "sort", board: "trays",
       kicker: "False friends",
       title: "Three Arabic words, one English word",
-      say: "Arabic has regional variants, and one word that covers two different things. English does not.",
+      say: "Gulf, Levant and Egyptian texts use different words. Arabic also uses one word for two different things.",
       traps: ["estihlak-depreciation", "allowance-vs-provision"],
       targets: [
-        { id: "dep", label: "depreciation", sub: "spreading an asset's cost over its life" },
+        { id: "dep", label: "depreciation", sub: "spread over the years of use" },
         { id: "allow", label: "allowance", sub: "a contra account that reduces an ASSET" },
         { id: "prov", label: "provision", sub: "a LIABILITY" }
       ],
       items: [
         { name: "استهلاك (Gulf)", to: "dep", trap: "estihlak-depreciation",
-          why: "Gulf texts use it for depreciation, though it also means consumption. In English, always say depreciation." },
+          why: "Gulf texts use it for depreciation, but it also means consumption. In English, always say depreciation." },
         { name: "اهتلاك (Levant)", to: "dep", trap: "estihlak-depreciation",
-          why: "Syrian and Levant texts say this. English still has only one word." },
-        { name: "إهلاك (Egypt)", to: "dep", trap: "estihlak-depreciation",
-          why: "Egyptian texts say this. English still has only one word." },
+          why: "Syrian and Levant texts often say this. In English, always say depreciation." },
+        { name: "إهلاك (Egyptian texts)", to: "dep", trap: "estihlak-depreciation",
+          why: "Egyptian texts say this. In English, always say depreciation." },
         { name: "مخصص that reduces an asset", to: "allow", trap: "allowance-vs-provision",
           why: "The allowance for credit losses reduces accounts receivable. It is an allowance." },
         { name: "مخصص that the company owes", to: "prov", trap: "allowance-vs-provision",
@@ -159,9 +161,9 @@
       ],
       distractors: [
         { name: "“reserve for bad debts”",
-          why: "Never use this phrase in a U.S. GAAP answer. The account is the allowance for credit losses." },
-        { name: "“the bank credited my account”",
-          why: "That is the bank's view: the bank credits your account because the bank now owes you. Do not use banking habits to guess the accounting side." }
+          why: "Never say reserve for bad debts in a U.S. GAAP answer. The account is the allowance for credit losses." },
+        { name: "“your bank credits your account”",
+          why: "Your bank credits your account when it receives your money, because the bank now owes you. That is the bank’s view. Do not use banking habits to guess the accounting side." }
       ] },
 
     { id: "words", kind: "cloze",

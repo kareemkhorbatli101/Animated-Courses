@@ -21,54 +21,53 @@
    * ============================================================ */
   D.register("statement", function (stage, spec, api) {
     var sheet = spec.sheet;
-    /* A complete statement is legitimately taller than one screen. The tray of
-       chips therefore sticks to the top while the sheet scrolls under it, so the
-       learner never loses sight of what is left to place. */
+    /* A complete statement is legitimately taller than one screen, so the chip
+       tray sticks to the top while the statement scrolls under it. */
     stage.classList.add("statement-stage");
     var tray = E("div", "tray");
     stage.appendChild(tray);
 
-    var box = E("div", "sheet");
-    var head = E("div", "sheet-head");
-    head.appendChild(E("h3", null, sheet.title));
-    head.appendChild(E("span", "sheet-unit", sheet.unit || L.unit));
-    box.appendChild(head);
-    var body = E("div", "sheet-body");
-    box.appendChild(body);
-    var seal = E("div", "sheet-seal");
-    seal.style.display = "none";
-    box.appendChild(seal);
-    stage.appendChild(box);
+    var paper = E("div", "stmt");
+    /* the printed heading of a real statement: who, what, and for when */
+    var hd = E("div", "stmt-head");
+    hd.appendChild(E("div", "stmt-co", sheet.company));
+    hd.appendChild(E("div", "stmt-name", sheet.name));
+    hd.appendChild(E("div", "stmt-when", sheet.when));
+    paper.appendChild(hd);
+    var unit = E("div", "stmt-unit", sheet.unit || L.unit);
+    paper.appendChild(unit);
+    var bodyEl = E("div", "stmt-body");
+    paper.appendChild(bodyEl);
+    stage.appendChild(paper);
 
     var lineNodes = {}, subNodes = [];
     var dnd = Drag({ tray: tray, live: api.live, change: update });
+    var firstMoney = true;
 
     sheet.lines.forEach(function (ln) {
-      if (ln.t === "side") { body.appendChild(E("div", "row-side", ln.label)); return; }
-      var row = E("div", "row" + (ln.t === "sub" ? " row-sub" : "") + (ln.t === "total" ? " row-total" : ""));
+      if (ln.t === "rule") { bodyEl.appendChild(E("div", "stmt-rule")); return; }
+      var row = E("div", "stmt-row" + (ln.t === "sub" ? " is-sub" : "") +
+        (ln.t === "total" ? " is-total" : "") + (ln.indent ? " ind" : ""));
+      row.appendChild(E("span", "stmt-cap", ln.label));
+      /* sub/total rows have no drop zone, so keep the money column aligned */
+      if (ln.t === "sub" || ln.t === "total") row.appendChild(E("span"));
       if (ln.t === "sub" || ln.t === "total") {
-        row.appendChild(E("span", "row-label", ln.label));
-        var amt = E("span", "row-amt amt-wait", "—");
+        var amt = E("span", "stmt-amt", "");
         row.appendChild(amt);
-        subNodes.push({ ln: ln, amt: amt });
+        subNodes.push({ ln: ln, amt: amt, row: row });
       } else {
-        /* one statement line = one row: [caption] [drop zone] [amount] */
-        row.classList.add("row-live");
-        var cap = E("span", "row-line-name", ln.label);
-        row.appendChild(cap);
-        var z = E("span", "zone");
-        z.setAttribute("aria-label", "Place the account for: " + ln.label);
+        var z = E("span", "zone zone-amt");
+        z.setAttribute("aria-label", "Which account supplies the line: " + ln.label);
         var host = E("span", "drop-host");
         z.appendChild(host);
         row.appendChild(z);
-        var amt2 = E("span", "row-amt amt-wait", "—");
+        var amt2 = E("span", "stmt-amt", "");
         row.appendChild(amt2);
         dnd.zone({ id: ln.slot, el: z, host: host, cap: 9, label: ln.label,
-                   ghost: ln.ghost || (ln.t === "net" ? "needs the account and its contra account"
-                                                      : "drop the account here") });
+                   ghost: ln.t === "net" ? "the account and the one that reduces it" : "the account" });
         lineNodes[ln.slot] = { ln: ln, amt: amt2, zone: z, row: row };
       }
-      body.appendChild(row);
+      bodyEl.appendChild(row);
     });
 
     var all = spec.chips.concat(spec.distractors || []);
@@ -76,6 +75,10 @@
       dnd.chip({ id: c.id, label: c.id, amount: c.amount, negate: !!c.neg });
     });
 
+    function chipOf(id) {
+      for (var i = 0; i < all.length; i++) if (all[i].id === id) return all[i];
+      return null;
+    }
     function slotValue(slot, state) {
       var v = 0;
       (state[slot] || []).forEach(function (id) {
@@ -84,65 +87,63 @@
       });
       return v;
     }
-    function chipOf(id) {
-      for (var i = 0; i < all.length; i++) if (all[i].id === id) return all[i];
-      return null;
-    }
     function expectValue(slot) {
-      var ln = lineNodes[slot].ln, v = 0;
-      (ln.expect || []).forEach(function (id) {
+      var v = 0;
+      (lineNodes[slot].ln.expect || []).forEach(function (id) {
         var c = chipOf(id);
         if (c) v += c.neg ? -Math.abs(c.amount) : c.amount;
       });
       return v;
     }
     function sameSet(a, b) {
-      if (a.length !== b.length) return false;
-      var s = a.slice().sort().join("|"), t = b.slice().sort().join("|");
-      return s === t;
+      return a.length === b.length && a.slice().sort().join("|") === b.slice().sort().join("|");
+    }
+    /* money the way a statement prints it: brackets for a deduction, a currency
+       sign on the first figure of the statement and on every total */
+    function fig(v, lead) {
+      var t = v < 0 ? "(" + L.money(Math.abs(v)) + ")" : L.money(v);
+      return (lead ? "$ " : "") + t;
     }
 
     function update(state) {
       state = state || dnd.state();
-      var allRight = true;
+      var allRight = true, seenFirst = false;
       Object.keys(lineNodes).forEach(function (slot) {
         var n = lineNodes[slot], got = state[slot] || [], want = n.ln.expect || [];
-        var val = slotValue(slot, state);
         var flag = n.row.querySelector(".gross-flag");
         if (flag) flag.remove();
-        if (!got.length) {
-          n.amt.textContent = "—";
-          n.amt.className = "row-amt amt-wait";
-          allRight = false;
-          return;
-        }
-        n.amt.textContent = val < 0 ? "(" + money(Math.abs(val)) + ")" : money(val);
         var right = sameSet(got, want);
-        n.amt.className = "row-amt " + (right ? "amt-ok" : "amt-no");
+        n.row.classList.toggle("is-right", right);
+        n.row.classList.toggle("is-wrong", !!got.length && !right);
+        if (!got.length) { n.amt.textContent = ""; allRight = false; return; }
+        var val = slotValue(slot, state);
+        var lead = !seenFirst;
+        if (right) seenFirst = true;
+        n.amt.textContent = fig(val, lead && right);
+        n.amt.className = "stmt-amt " + (right ? "ok" : "no");
         if (!right) {
           allRight = false;
-          /* the teaching moment: a net line holding only its gross account */
           var subset = got.every(function (g) { return want.indexOf(g) >= 0; });
           if (n.ln.t === "net" && subset && got.length < want.length) {
-            var f = E("span", "gross-flag", "gross");
-            n.row.querySelector(".row-line-name").appendChild(f);
+            n.row.querySelector(".stmt-cap").appendChild(E("span", "gross-flag", "gross"));
           }
         }
       });
-      subNodes.forEach(function (s) {
+      subNodes.forEach(function (s2) {
         var got = 0, want = 0, any = false;
-        s.ln.of.forEach(function (slot) {
+        s2.ln.of.forEach(function (slot) {
           got += slotValue(slot, state);
           want += expectValue(slot);
           if ((state[slot] || []).length) any = true;
         });
-        s.amt.textContent = any ? (got < 0 ? "(" + money(Math.abs(got)) + ")" : money(got)) : "—";
-        s.amt.className = "row-amt " + (!any ? "amt-wait" : (Math.abs(got - want) < 0.001 ? "amt-ok" : "amt-no"));
-        if (any && Math.abs(got - want) >= 0.001) allRight = false;
+        var ok = Math.abs(got - want) < 0.001;
+        s2.amt.textContent = any ? fig(got, s2.ln.t === "total") : "";
+        s2.amt.className = "stmt-amt " + (!any ? "" : (ok ? "ok" : "no"));
+        if (any && !ok) allRight = false;
       });
-      box.classList.toggle("sealed", allRight);
-      seal.style.display = allRight ? "" : "none";
-      seal.textContent = spec.sealText || "Every line and every total agrees with the figure in the book.";
+      /* once every line is right the scaffolding goes and a clean statement is left */
+      paper.classList.toggle("settled", allRight);
+      stage.classList.toggle("settled", allRight);
       return allRight;
     }
     update();
@@ -161,23 +162,22 @@
         if (!got.length) msg += "is empty. It takes " + want.map(esc).join(" and ") + ".";
         else if (missing.length && !extra.length)
           msg += "still needs " + missing.map(esc).join(" and ") + ". " + esc(n.ln.why || "");
-        else msg += "should hold " + want.map(esc).join(" and ") + ", not " + got.map(esc).join(" and ") + ".";
+        else msg += "takes " + want.map(esc).join(" and ") + ", not " + got.map(esc).join(" and ") + ".";
         yours.push({ k: "n", html: msg });
         if (n.ln.trap) traps.push(n.ln.trap);
       });
       (spec.distractors || []).forEach(function (d) {
         Object.keys(state).forEach(function (slot) {
-          if ((state[slot] || []).indexOf(d.id) >= 0) {
-            yours.push({ k: "n", html: "<b>" + esc(d.id) + "</b> does not belong on this statement. " + esc(d.why || "") });
-          }
+          if ((state[slot] || []).indexOf(d.id) >= 0)
+            yours.push({ k: "n", html: "<b>" + esc(d.id) + "</b> is not on this statement. " + esc(d.why || "") });
         });
       });
       var done = update(state);
-      var rightList = sheet.lines.filter(function (l) { return l.expect; }).map(function (l) {
-        return { k: "y", html: "<b>" + esc(l.label) + "</b> " + esc(l.why || "") };
+      var rightList = sheet.lines.filter(function (l) { return l.why; }).map(function (l) {
+        return { k: "y", html: "<b>" + esc(l.label) + "</b> " + esc(l.why) };
       });
       return { score: right, total: total, ok: done, traps: traps,
-               verdict: done ? "The statement is complete and it ties." : right + " of " + total + " lines right",
+               verdict: done ? spec.sealText : right + " of " + total + " lines right",
                html: yoursFirst(yours, done ? [] : rightList) };
     };
   });

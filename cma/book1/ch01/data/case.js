@@ -13,7 +13,7 @@
     { id: "brief", kind: "probe",
       kicker: "The case",
       title: "What the bank and Mr Haddad want",
-      say: "Open each card. Everything the six items need is here.",
+      say: "Open each one. Everything the six items need is here.",
       probes: [
         { q: "Who is Barada Wholesale?",
           a: "A food wholesaler in Amman and one of Orontes's largest customers. It buys tahini, halva and oils from Orontes and sells them to shops across Jordan. <b>It prepares its statements under U.S. GAAP</b> because its bank and its main supplier ask for them." },
@@ -21,14 +21,14 @@
           a: "It is reviewing its loan and wants three figures before it renews the credit line: <b>net income for the year, total assets and total liabilities at the year-end</b>. It also wants to know how the year's results changed retained earnings after closing." },
         { q: "What does Mr Haddad want?",
           a: "He is not an accountant, so he wants <b>each account placed in the right category before any total is calculated</b>. He also wants to know whether dividends reduce net income, because a friend told him they do." },
-        { q: "How do I enter the amounts?",
+        { q: "How are the amounts entered?",
           a: "In <b>thousands of U.S. dollars (USD 000), without the $ sign and without commas</b> — for example <code>1250</code>. The boxes here accept them exactly as the exam does." }
       ] },
 
     { id: "c1-1", kind: "sort", board: "lanes",
       kicker: "C1-1 · drag and drop",
       title: "Match each account to its category",
-      say: "On the exam screen you would drag each account into a box. Two of the eight are the ones Mr Haddad will get wrong.",
+      say: "On the exam screen you would drag each account into a box. Two of the eight are the ones to watch.",
       traps: ["contra-netting"],
       targets: [
         { id: "asset", label: "Asset" },
@@ -42,7 +42,7 @@
         { name: "Prepaid rent", amount: 24, to: "asset", why: "" },
         { name: "Land", amount: 936, to: "asset", why: "" },
         { name: "Dividends payable", amount: 50, to: "liability",
-          why: "Dividends PAYABLE is a liability. Dividends DECLARED reduce equity — do not mix them up." },
+          why: "Dividends payable is a liability; dividends declared reduce equity." },
         { name: "Additional paid-in capital", amount: 1900, to: "equity", why: "" },
         { name: "Sales revenue", amount: 3100, to: "revenue", why: "" },
         { name: "Interest expense", amount: 90, to: "expense", why: "" },
@@ -53,13 +53,13 @@
       ],
       distractors: [
         { name: "Depreciation expense", amount: 300,
-          why: "An expense — but not one of the eight accounts this item lists. Note how easily it is confused with accumulated depreciation." },
+          why: "Depreciation expense is the period’s charge; accumulated depreciation is the running total on the balance sheet." },
         { name: "Retained earnings, January 1", amount: 1000,
-          why: "Equity — but again, not one of the eight accounts this item lists." }
+          why: "Equity, but not one of the accounts this item lists." }
       ] },
 
     { id: "c1-2", kind: "number",
-      kicker: "C1-2 · numeric entry",
+      kicker: "C1-2 · calculation",
       title: "Net income for 2025",
       say: "Enter the amount in USD 000, with no $ sign and no commas.",
       traps: ["dividend-not-expense"],
@@ -76,7 +76,7 @@
       ] },
 
     { id: "c1-3", kind: "number",
-      kicker: "C1-3 · numeric entry",
+      kicker: "C1-3 · calculation",
       title: "Total assets at December 31, 2025",
       say: "Watch the two contra accounts.",
       traps: ["contra-netting"],
@@ -104,7 +104,7 @@
       ] },
 
     { id: "c1-5", kind: "number",
-      kicker: "C1-5 · numeric entry",
+      kicker: "C1-5 · calculation",
       title: "Total liabilities at December 31, 2025",
       fields: [
         { label: "Total liabilities", answer: bs.totalLiabilities,

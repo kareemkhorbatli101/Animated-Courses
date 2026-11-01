@@ -199,53 +199,87 @@ h1,h2,h3,h4{margin:0;line-height:1.18;letter-spacing:-.015em;font-weight:800}
   animation:land .2s ease-out}
 .g2-kind{font-size:var(--t-meta);color:var(--ink-3);display:block}
 
-/* ============ the statement sheet ============ */
-.sheet{background:var(--card);border:1px solid var(--line-2);border-radius:var(--r-s);
-  box-shadow:var(--shadow);overflow:hidden;font-variant-numeric:tabular-nums}
-.sheet-head{padding:13px 18px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;
-  gap:12px;flex-wrap:wrap;align-items:baseline}
-.sheet-head h3{font-size:var(--t-small)}
-.sheet-unit{font-size:var(--t-meta);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:800}
-.sheet-body{padding:6px 18px 16px}
-.row{display:grid;grid-template-columns:1fr 128px;gap:14px;align-items:center;
-  padding:4px 0;border-bottom:1px dotted var(--line)}
-.row-label{font-size:var(--t-small)}
-.row-amt{text-align:right;font-family:var(--mono);font-size:var(--t-small);font-weight:700}
-.row .zone{min-height:38px;padding:4px 8px}
-.row-sub{border-top:1px solid var(--line-2);border-bottom:0;margin-top:3px;padding:8px 0;font-weight:800}
-.row-sub .row-label{font-weight:800}
-.row-total{border-top:2px solid var(--ink);border-bottom:3px double var(--ink);padding:9px 0;font-weight:800}
-.row-side{font-size:var(--t-meta);font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--ink-3);padding:14px 0 5px;border-bottom:1px solid var(--line)}
-.amt-ok{color:var(--good)}
-.amt-no{color:var(--bad)}
-.amt-wait{color:var(--ink-3)}
-.gross-flag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
-  color:var(--bad);background:var(--bad-wash);border:1px solid var(--bad-line);border-radius:5px;
-  padding:1px 5px;margin-left:7px;vertical-align:middle}
-.sheet.sealed{border-color:var(--good-line);box-shadow:0 0 0 3px var(--good-wash),var(--shadow)}
-.sheet-seal{text-align:center;font-size:var(--t-small);font-weight:800;color:var(--good);
-  padding:9px;background:var(--good-wash);border-top:1px solid var(--good-line)}
+/* ============ a printed financial statement ============ */
+.stmt{background:var(--card);border:1px solid var(--line);border-radius:3px;
+  box-shadow:0 1px 0 var(--line),0 12px 26px rgba(23,36,43,.07);
+  padding:26px 34px 30px;max-width:620px;margin:0 auto;
+  font-variant-numeric:tabular-nums lining-nums}
+.stmt-head{text-align:center;margin-bottom:4px}
+.stmt-co{font-size:15px;font-weight:800;letter-spacing:.01em}
+.stmt-name{font-size:14px;font-weight:700;margin-top:1px}
+.stmt-when{font-size:13px;color:var(--ink-2);margin-top:1px}
+.stmt-unit{text-align:right;font-size:11px;color:var(--ink-3);letter-spacing:.06em;
+  margin:12px 0 2px;font-weight:700}
+.stmt-body{display:block}
+/* three true columns: caption, a fixed gutter for the chips, and the money column,
+   so the figures stay in a straight line whatever is dropped */
+.stmt-row{display:grid;grid-template-columns:1fr 158px 92px;align-items:center;gap:10px;
+  padding:2px 0;min-height:30px}
+.stmt-row.ind .stmt-cap{padding-left:16px}
+.stmt-cap{font-size:14px;line-height:1.35}
+.stmt-amt{font-family:var(--mono);font-size:14px;font-weight:600;text-align:right;
+  white-space:nowrap;grid-column:3}
+.stmt-amt.ok{color:var(--ink)}
+.stmt-amt.no{color:var(--bad)}
+.stmt-row.is-sub{margin-top:2px}
+.stmt-row.is-sub .stmt-cap,.stmt-row.is-sub .stmt-amt{font-weight:800}
+.stmt-row.is-sub .stmt-amt{border-top:1px solid var(--ink);padding-top:3px}
+.stmt-row.is-total .stmt-cap,.stmt-row.is-total .stmt-amt{font-weight:800}
+.stmt-row.is-total .stmt-amt{border-top:1px solid var(--ink);border-bottom:3px double var(--ink);
+  padding:3px 0}
+.stmt-rule{height:1px;background:transparent;margin:2px 0}
+.zone-amt{grid-column:2;min-height:26px;padding:1px 5px;border-width:1px;border-radius:4px;
+  background:transparent;border-color:var(--line-2);justify-content:flex-end;flex-wrap:wrap;gap:3px}
+.zone-amt:hover,.zone-amt.armed{background:var(--accent-wash)}
+.stmt-row.is-right .zone-amt{border-color:transparent;background:transparent}
+.stmt-row.is-wrong .zone-amt{border-color:var(--bad-line);background:var(--bad-wash)}
+.stmt .placed{padding:2px 3px 2px 7px;font-size:11px;background:var(--card-2);
+  border-color:var(--line-2);color:var(--ink-2);max-width:148px}
+.stmt .placed > span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stmt .placed .chip-amt{display:none}
+.stmt .placed .x{width:14px;height:14px;font-size:9px;background:var(--ink-3)}
+.gross-flag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--bad);border:1px solid var(--bad-line);border-radius:3px;
+  padding:0 4px;margin-left:7px;vertical-align:middle}
+/* when every line is right the scaffolding goes and a clean statement is left */
+.stmt.settled .zone-amt{display:none}
+.stmt.settled{border-color:var(--ink-3);box-shadow:0 1px 0 var(--line),0 16px 34px rgba(23,36,43,.13)}
+.statement-stage.settled .tray{opacity:.3;max-height:52px;overflow:hidden;transition:.3s}
 
-/* ============ the posting machine ============ */
-.post{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:16px;align-items:start}
-.post-story{background:var(--accent-wash);border:1px solid var(--accent-line);border-radius:var(--r-s);
-  padding:12px 14px;margin-bottom:12px}
-.post-date{font-family:var(--mono);font-size:var(--t-meta);font-weight:800;color:var(--accent-ink)}
-.post-text{font-size:var(--t-small);margin:4px 0 0}
-.je{border:1px solid var(--line-2);border-radius:var(--r-s);overflow:hidden;background:var(--card)}
-.je-h,.je-r{display:grid;grid-template-columns:1fr 94px 94px;gap:9px;padding:8px 11px;align-items:center}
-.je-h{background:var(--card-2);font-size:var(--t-meta);text-transform:uppercase;letter-spacing:.07em;
-  color:var(--ink-3);font-weight:800;border-bottom:1px solid var(--line)}
-.je-r{border-bottom:1px solid var(--line)}
-.je-r.cr .zone{margin-left:22px}
-.je-amt{text-align:right;font-family:var(--mono);font-size:var(--t-small);color:var(--ink-3)}
-.je-amt.on{color:var(--ink);font-weight:800}
-.je-t{display:grid;grid-template-columns:1fr 94px 94px;gap:9px;padding:9px 11px;background:var(--card-2);
-  border-top:2px solid var(--line-2);font-weight:800;font-size:var(--t-small)}
-.je-t .je-amt{color:var(--ink)}
-.je-bal{font-size:var(--t-small);font-weight:700;padding:8px 2px;color:var(--bad)}
-.je-bal.ok{color:var(--good)}
+/* ============ a general journal page ============ */
+.jrnl{background:var(--card);border:1px solid var(--line-2);border-radius:3px;
+  box-shadow:0 1px 0 var(--line),0 10px 22px rgba(23,36,43,.06);overflow:hidden;
+  font-variant-numeric:tabular-nums lining-nums}
+.jrnl-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  padding:10px 14px 8px;border-bottom:2px solid var(--ink)}
+.jrnl-title{font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.jrnl-when{font-family:var(--mono);font-size:12px;color:var(--ink-2);font-weight:700}
+.jrow{display:grid;grid-template-columns:58px 1fr 84px 84px;gap:8px;align-items:center;
+  padding:3px 14px;border-bottom:1px solid var(--line)}
+.jrow-h{background:var(--card-2);font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--ink-3);font-weight:800;padding-top:6px;padding-bottom:6px}
+.jrow-t{border-bottom:0;border-top:2px solid var(--ink);font-weight:800;font-size:13px;
+  background:var(--card-2);padding-top:7px;padding-bottom:7px}
+.jrow-x{border-bottom:0;padding-top:1px;padding-bottom:7px}
+.jdate{font-family:var(--mono);font-size:11.5px;color:var(--ink-2)}
+.jacct{font-size:13.5px}
+.jrow.cr .jacct,.jrow.cr .zone-acct{margin-left:26px}
+.jmoney{text-align:right;font-family:var(--mono);font-size:13px;font-weight:600}
+.jrow-h .jmoney{font-weight:800}
+.jexp{font-size:12px;color:var(--ink-2);font-style:italic;padding-left:4px}
+.zone-acct{min-height:28px;padding:1px 7px;border-width:1px;border-radius:4px;
+  background:transparent;border-color:var(--line-2)}
+.zone-acct:hover,.zone-acct.armed{background:var(--accent-wash)}
+.jrnl .placed{padding:2px 3px 2px 8px;font-size:12px;background:var(--card-2);
+  border-color:var(--line-2);color:var(--ink)}
+.jrnl .placed .chip-amt{display:none}
+.jrnl .placed .x{width:14px;height:14px;font-size:9px;background:var(--ink-3)}
+.jrnl-bal{font-size:var(--t-small);font-weight:700;color:var(--bad);margin:9px 0 10px}
+.jrnl-bal.ok{color:var(--good)}
+.jrnl-nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.jrnl-book{margin-top:2px;box-shadow:none}
+.jrnl-book .jrow{padding-top:2px;padding-bottom:2px}
+.post{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:18px;align-items:start}
 
 /* the A = L + E bar */
 .eqbar{background:var(--card);border:1px solid var(--line);border-radius:var(--r-s);padding:13px}
@@ -526,3 +560,7 @@ input.num{font:inherit;font-family:var(--mono);font-size:var(--t-body);font-weig
 /* ---------- the term strip is fixed to the window, never over the content ---------- */
 .strip{position:fixed;left:0;right:0;bottom:0;margin:0}
 body.has-strip{padding-bottom:58px}
+
+/* settled: the chip gutter is gone, so the caption column reclaims it */
+.stmt.settled .stmt-row{grid-template-columns:1fr 0 100px}
+.stmt.settled{padding-left:40px;padding-right:40px}

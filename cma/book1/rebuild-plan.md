@@ -621,3 +621,89 @@ and `chrome.js`, superseded.
   surrounding text. Sending the actual figures is the single biggest remaining source of "this isn't quite my
   chapter".
 - **`cma/unit1/`** still in place, pending your look at this.
+
+---
+
+## Part 5 — Realism and the provenance lock (2026-11-01, second pass)
+
+Three further requirements: the statements and journal entries must look like real documents, clutter must
+stay down, and provenance must be **100%** from the source. All three are done, and the last one is now
+enforced inside the package rather than at my desk.
+
+### 5.1 The statements are printed statements
+
+Each of the three statements renders as a document, not a form:
+
+- **A three-line centred heading** — company, statement name, period or date — in the author's wording
+  (`Barada Wholesale, Inc. / Balance sheet / December 31, 2025`).
+- **A real money column**: tabular lining figures, right-aligned, a currency sign on the first figure of the
+  statement and on each grand total, deductions in parentheses.
+- **Real ruling**: a single rule above every subtotal, a double rule under every grand total.
+- **Indentation**: detail lines indent under their totals.
+- **The scaffolding dissolves.** While a line is unfilled or wrong, a drop target and its chips are visible.
+  The moment every line is right the drop targets disappear, the chip gutter collapses, and what is left on
+  screen is a clean printed statement. Getting it right is what produces the document.
+
+The teaching survives the realism. Put only `Accounts receivable 300` on the *net of the allowance* line and
+the caption carries a red **GROSS** flag, the figure shows 300, and total assets read **6,030** — the author's
+own named wrong answer for C1-3. Adding the allowance resolves the line to 280 and the total to 6,010.
+
+### 5.2 The journal entries are a journal
+
+The posting object was rebuilt as a journal page with the author's own column headings:
+
+```
+  JOURNAL ENTRIES                                                Jan 2
+  ┌────────┬────────────────────────────────────┬────────┬────────┐
+  │  Date  │   Account and explanation          │ Debit  │ Credit │
+  ├────────┼────────────────────────────────────┼────────┼────────┤
+  │ Jan  2 │ Cash                               │ 1,500  │        │
+  │        │     Common stock                   │        │   100  │
+  │        │     Additional paid-in capital      │        │ 1,400  │
+  │        │   Issued 100,000 new shares of $1 par common stock…   │
+  ├────────┼────────────────────────────────────┼────────┼────────┤
+  │        │ Totals                             │ 1,500  │ 1,500  │
+  └────────┴────────────────────────────────────┴────────┴────────┘
+```
+
+Credits indent, the narrative sits under the entry in italics as a journal explanation does, the money columns
+total, and the entry cannot be recorded while the two totals differ. A second tab holds **the entries so
+far** — the journal page accumulating every recorded entry in the same printed form, beside the effect grid it
+also builds.
+
+The verb is the author's: the chapter says *"Accountants record every transaction"*, so the site records
+rather than posts. "General journal", "posting" and "Ref" columns are standard practice but not in the
+chapter, so they are not used.
+
+### 5.3 Provenance, enforced
+
+Two things changed. First, **the baseline was incomplete** — I had compressed the chapter's answer section and
+the practice stems when transcribing it, so the first audit was flagging the author's own sentences. The
+baseline now carries the full chapter: front matter, all seven sections, every box, all 16 practice questions
+with their options, the complete answer section, and the case. 9,313 words.
+
+Second, every string in the site is now **classified by role and checked**:
+
+| Role | Rule | Result |
+|---|---|---|
+| **CONTENT** — facts, rules, definitions, numbers, account names, rationales, stems, options | every word must appear in the author's chapter (inflections and the author's own derived figures count) | **0 failures** |
+| **CHROME** — pure interface | may use ordinary English; must carry no figure the author did not write and no accounting term outside his vocabulary | **0 failures** |
+
+Sixty-five content strings were rewritten into the author's words and a further forty-two pieces of interface
+text were reworded to use his verbs. Six items were **deleted** as invented: an external auditor's report, the
+verb "estimate", "stockholder", and three paraphrases that had drifted.
+
+`assets/source-text.js` ships the chapter with the package and `assets/provenance.js` runs the audit, so the
+first two checks in the gate are the lock itself. It cannot be satisfied by my say-so.
+
+### 5.4 Clutter
+
+Unchanged in principle, slightly better in practice: **1,856 on-screen words** for the chapter, 92 scenes, no
+scene over 45 words of chrome. The statement scenes gained a printed heading and lost the dashed boxes, so
+they read as quieter than before despite showing more.
+
+### 5.5 Verification
+
+- **Gate: 53 of 53 checks pass**, the first two being the provenance lock.
+- **All 92 scenes solved** through the click path from `file://`.
+- Build checks clean; the zip extracted and re-tested.

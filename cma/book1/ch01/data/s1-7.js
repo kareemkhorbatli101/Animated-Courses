@@ -21,7 +21,7 @@
       partition: true,
       kicker: "Step 1",
       title: "Sort every account by element",
-      say: "Nothing can be totalled until each account is in the right box. Two of them are the ones that catch people.",
+      say: "Sort every account by element before any total is calculated. Two of them are the ones to watch.",
       traps: ["contra-netting"],
       targets: [
         { id: "asset", label: "Asset" },
@@ -77,23 +77,25 @@
     { id: "is", kind: "statement",
       kicker: "Step 2 · Figure F01-11",
       title: "Build the income statement",
-      say: "Drag each account onto its line. The amount travels with it, and the three subtotals work themselves out. Three accounts do not belong here at all.",
-      sealText: "This is Figure F01-11 exactly: revenue " + m(is.revenue) + " down to net income " + m(is.netIncome) + ".",
+      say: "Drag each account onto its line. The amount comes with it, and the totals work themselves out. Three accounts do not belong here at all.",
+      sealText: "Figure F01-11: interest of " + m(is.interest) + " leaves net income of " + m(is.netIncome) + ".",
       sheet: {
-        title: L.company.barada + " — income statement, 2025",
+        company: L.company.barada,
+        name: "Income statement",
+        when: "For the period 2025",
         unit: L.unit,
         lines: [
-          { t: "line", label: "Sales revenue", slot: "sales", expect: ["Sales revenue"],
+          { t: "line", label: "Sales revenue", indent: true, slot: "sales", expect: ["Sales revenue"],
             why: "The only revenue account in the trial balance." },
-          { t: "line", label: "Cost of goods sold", slot: "cogs", expect: ["Cost of goods sold"],
+          { t: "line", label: "Cost of goods sold", indent: true, slot: "cogs", expect: ["Cost of goods sold"],
             why: "Deducted from revenue to give gross profit." },
           { t: "sub", label: "Gross profit", of: ["sales", "cogs"] },
-          { t: "line", label: "Wages expense", slot: "wages", expect: ["Wages expense"],
+          { t: "line", label: "Wages expense", indent: true, slot: "wages", expect: ["Wages expense"],
             why: "An operating expense, below gross profit." },
-          { t: "line", label: "Depreciation expense", slot: "dep", expect: ["Depreciation expense"],
+          { t: "line", label: "Depreciation expense", indent: true, slot: "dep", expect: ["Depreciation expense"],
             why: "The period's charge — not accumulated depreciation, which is a contra-asset." },
           { t: "sub", label: "Operating income", of: ["sales", "cogs", "wages", "dep"] },
-          { t: "line", label: "Interest expense", slot: "int", expect: ["Interest expense"],
+          { t: "line", label: "Interest expense", indent: true, slot: "int", expect: ["Interest expense"],
             why: "Non-operating: it falls below operating income." },
           { t: "total", label: "Net income", of: ["sales", "cogs", "wages", "dep", "int"] }
         ]
@@ -121,15 +123,17 @@
       say: "This is the statement that produces the one figure the balance sheet is waiting for.",
       sealText: "Closing retained earnings " + m(sce.reClosing) + " — carry it to the balance sheet.",
       sheet: {
-        title: L.company.barada + " — retained earnings, 2025",
+        company: L.company.barada,
+        name: "Statement of changes in equity",
+        when: "For the period 2025",
         unit: L.unit,
         lines: [
-          { t: "line", label: "Retained earnings, January 1", slot: "re0", expect: ["Retained earnings, January 1"],
+          { t: "line", label: "Retained earnings, January 1", indent: true, slot: "re0", expect: ["Retained earnings, January 1"],
             why: "The opening balance from the trial balance." },
-          { t: "line", label: "Net income", slot: "ni", expect: ["Net income"],
-            why: "The figure the income statement just produced." },
-          { t: "line", label: "Dividends declared", slot: "div", expect: ["Dividends declared"],
-            why: "A deduction. It reduces retained earnings and is not an expense." },
+          { t: "line", label: "Net income", indent: true, slot: "ni", expect: ["Net income"],
+            why: "Net income is needed by this statement." },
+          { t: "line", label: "Dividends declared", indent: true, slot: "div", expect: ["Dividends declared"],
+            why: "Retained earnings fall by dividends declared. A dividend is not an expense." },
           { t: "total", label: "Retained earnings, December 31", of: ["re0", "ni", "div"] }
         ]
       },
@@ -155,34 +159,36 @@
         " + equity " + m(bs.totalEquity) + ". The balance sheet balances.",
       traps: ["contra-netting"],
       sheet: {
-        title: L.company.barada + " — balance sheet, December 31, 2025",
+        company: L.company.barada,
+        name: "Balance sheet",
+        when: "December 31, 2025",
         unit: L.unit,
         lines: [
-          { t: "line", label: "Cash", slot: "cash", expect: ["Cash"], why: "" },
-          { t: "net", label: "Accounts receivable, net of the allowance", slot: "arnet",
+          { t: "line", label: "Cash", indent: true, slot: "cash", expect: ["Cash"], why: "" },
+          { t: "net", label: "Accounts receivable, net of the allowance", indent: true, slot: "arnet",
             expect: ["Accounts receivable", "Allowance for credit losses"], trap: "contra-netting",
             why: "Receivables of " + m(300) + " less the allowance of " + m(20) + " = " + m(bs.arNet) +
               ". Reporting them gross would overstate assets." },
-          { t: "line", label: "Inventory", slot: "inv", expect: ["Inventory"], why: "" },
-          { t: "line", label: "Prepaid rent", slot: "pre", expect: ["Prepaid rent"], why: "" },
+          { t: "line", label: "Inventory", indent: true, slot: "inv", expect: ["Inventory"], why: "" },
+          { t: "line", label: "Prepaid rent", indent: true, slot: "pre", expect: ["Prepaid rent"], why: "" },
           { t: "sub", label: "Total current assets", of: ["cash", "arnet", "inv", "pre"] },
-          { t: "line", label: "Land", slot: "land", expect: ["Land"], why: "" },
-          { t: "net", label: "Equipment, net of accumulated depreciation", slot: "eqnet",
+          { t: "line", label: "Land", indent: true, slot: "land", expect: ["Land"], why: "" },
+          { t: "net", label: "Equipment, net of accumulated depreciation", indent: true, slot: "eqnet",
             expect: ["Equipment", "Accumulated depreciation"], trap: "contra-netting",
             why: "Equipment of " + m(4200) + " less accumulated depreciation of " + m(900) + " = " +
               m(bs.equipmentNet) + ". Reporting it gross would overstate assets." },
           { t: "total", label: "Total assets", of: ["cash", "arnet", "inv", "pre", "land", "eqnet"] },
-          { t: "line", label: "Accounts payable and dividends payable", slot: "cl",
+          { t: "line", label: "Accounts payable and dividends payable", indent: true, slot: "cl",
             expect: ["Accounts payable", "Dividends payable"],
-            why: "Both are due within the year, so the book prints them on one line." },
-          { t: "line", label: "Notes payable (long-term)", slot: "np", expect: ["Notes payable (long-term)"],
+            why: "Current liabilities are 430: accounts payable and dividends payable." },
+          { t: "line", label: "Notes payable (long-term)", indent: true, slot: "np", expect: ["Notes payable (long-term)"],
             why: "A five-year note, so it is not current." },
           { t: "sub", label: "Total liabilities", of: ["cl", "np"] },
-          { t: "line", label: "Common stock and additional paid-in capital", slot: "cc",
+          { t: "line", label: "Common stock and additional paid-in capital", indent: true, slot: "cc",
             expect: ["Common stock", "Additional paid-in capital"],
             why: "Contributed capital: par value plus the amount paid above par." },
-          { t: "line", label: "Retained earnings", slot: "re", expect: ["Retained earnings, December 31"],
-            why: "The closing figure you produced in the previous scene." },
+          { t: "line", label: "Retained earnings", indent: true, slot: "re", expect: ["Retained earnings, December 31"],
+            why: "The closing figure of 1,280, from the statement of changes in equity." },
           { t: "sub", label: "Total equity", of: ["cc", "re"] },
           { t: "total", label: "Total liabilities and equity", of: ["cl", "np", "cc", "re"] }
         ]
@@ -206,16 +212,16 @@
       distractors: [
         { id: "Sales revenue", amount: 3100, why: "A revenue account: it belongs to the income statement." },
         { id: "Dividends declared", amount: 50, neg: true,
-          why: "It belongs in the statement of changes in equity. The closing retained earnings figure already reflects it." },
+          why: "It belongs in the statement of changes in equity, which produces closing retained earnings." },
         { id: "Retained earnings, January 1", amount: 1000,
-          why: "The OPENING balance starts the statement of changes in equity. The balance sheet carries the CLOSING balance." }
+          why: "Retained earnings open at 1,000. The balance sheet uses the closing figure of 1,280." }
       ] },
 
     /* ---------- 6. make it tie ---------- */
     { id: "ties", kind: "locks",
       kicker: "Step 5",
       title: "Make it tie",
-      say: "Three locks. Each one shuts when its figure is right, and nothing is finished until all three are shut.",
+      say: "Three checks. Each one closes when its figure is right, and nothing is finished until all three are closed.",
       ties: [
         { label: "Total assets, which must equal liabilities plus equity", answer: bs.totalAssets,
           why: "Assets " + m(bs.totalAssets) + " = liabilities " + m(bs.totalLiabilities) +
@@ -242,14 +248,14 @@
         { label: "Total equity", value: bs.totalEquity, colour: "var(--accent)" }
       ],
       options: [
-        { text: "Short-term position comfortable, but the long-term note is large against equity.", correct: true,
+        { text: "Barada can meet its short-term obligations comfortably, but the long-term note is large against equity.", correct: true,
           why: "A current ratio of " + rt.currentRatio2 + " covers short-term obligations comfortably. A lender would also note that the note of " + m(bs.notePayable) + " is large against equity of " + m(bs.totalEquity) + "." },
         { text: "Barada cannot meet its short-term obligations.",
           why: "A current ratio of " + rt.currentRatio2 + " means current assets cover current liabilities more than four times over." },
-        { text: "Nothing can be said without the statement of cash flows.",
+        { text: "Nothing can be judged without the statement of cash flows.",
           why: "The cash flow statement needs last year's balance sheet too, but working capital and the current ratio can be read from this one." },
-        { text: "The company is financed almost entirely by its owners.",
-          why: "Liabilities are " + m(bs.totalLiabilities) + " against equity of " + m(bs.totalEquity) + " — a substantial share, and the note alone is " + m(bs.notePayable) + "." }
+        { text: "Creditors finance none of the assets.",
+          why: "Creditors (liabilities) or owners (equity) finance every asset. Liabilities are " + m(bs.totalLiabilities) + " against equity of " + m(bs.totalEquity) + "." }
       ] },
 
     /* ---------- 8. why not the fourth statement ---------- */
@@ -261,9 +267,9 @@
         { text: "It needs last year's balance sheet as well as this one.", correct: true,
           why: "A statement of cash flows needs last year's balance sheet as well as this one, so it cannot be built from a single trial balance. Chapter 5 prepares it for Orontes, which has both years." },
         { text: "The trial balance does not show the cash balance.",
-          why: "It does — cash of " + m(bs.cash) + " is the first line. One date cannot show a movement, which is the real problem." },
+          why: "It does: cash of " + m(bs.cash) + " is the first line. But a statement of cash flows needs last year’s balance sheet as well as this one." },
         { text: "Barada is too small to be required to prepare one.",
-          why: "Size is not the issue. All four statements form a complete set." },
+          why: "Chapter 5 prepares it for Orontes, which has both years." },
         { text: "It is prepared only under IFRS.",
           why: "Both frameworks require it. Chapter 5 covers it under U.S. GAAP." }
       ] },

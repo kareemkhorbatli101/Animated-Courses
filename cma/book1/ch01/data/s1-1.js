@@ -14,7 +14,7 @@
     { id: "table", kind: "table",
       kicker: "Figure F01-02",
       title: "Seven readers, seven different questions",
-      say: "Click each one. Three of them are marked PRIMARY — by the end you should see what they have in common.",
+      say: "Click each one. Three of them are the primary users — by the end you should see what they have in common.",
       seats: [
         { user: "Investors (shareholders)", primary: true, decision: "Buy, hold or sell shares",
           q: "Will the company create future cash flows and returns?",
@@ -59,14 +59,14 @@
           why: "The board directs the company and can demand internal reports." }
       ],
       distractors: [
-        { name: "The company's external auditor's report",
-          why: "A document, not a reader." }
+        { name: "Management accounting",
+          why: "Not a reader at all. Reporting for managers is management accounting, the subject of most of the CMA exam." }
       ] },
 
     { id: "three", kind: "sort", board: "trays",
       kicker: "Three questions",
       title: "Which statement answers each question?",
-      say: "Whatever the reader, it comes down to three questions.",
+      say: "In simple terms, every user asks three questions.",
       targets: [
         { id: "bs", label: "Balance sheet" },
         { id: "is", label: "Income statement" },
@@ -79,15 +79,15 @@
       ],
       distractors: [
         { name: "Why did each equity account change?",
-          why: "A real question — but the statement of changes in equity answers it, and that is not one of the three here. You meet it in section 1.6." },
+          why: "The statement of changes in equity answers this, and it is not one of the three here. You meet it in section 1.6." },
         { name: "How well did the managers use the owners' resources?",
-          why: "This is stewardship. Users judge it from the statements as a whole, not from one of them." }
+          why: "Users also want to judge stewardship: how well the managers used the owners’ resources." }
       ] },
 
     { id: "podium", kind: "sort", board: "podium",
       kicker: "What makes information useful",
       title: "Two qualities are fundamental. Four are only enhancing.",
-      say: "The podium has room for exactly two on top. If a quality will not fit there, it is not fundamental.",
+      say: "There are exactly two fundamental qualities and four enhancing ones. The shape of the board says how many go where.",
       traps: ["fundamental-vs-enhancing"],
       tiers: ["Fundamental — only two", "Enhancing — four of them", "Not a quality"],
       targets: [
@@ -109,7 +109,7 @@
       ],
       distractors: [
         { name: "Predictive value", why: "Part of relevance, not a quality in its own right: it helps users predict the future." },
-        { name: "Materiality", why: "Part of relevance: an item is material if omitting or misstating it could change users' decisions." }
+        { name: "Materiality", why: "Relevance includes materiality: an item is material if leaving it out or stating it wrongly could change users’ decisions." }
       ] },
 
     { id: "verbs", kind: "sort", board: "lanes",
@@ -131,8 +131,8 @@
         { name: "disclose", to: "v5", why: "Explain the item in the notes. Orontes discloses its revenue policy in the notes." }
       ],
       distractors: [
-        { name: "report", why: "Not one of the five. The exam uses these five words with exact meanings." },
-        { name: "estimate", why: "Not one of the five either." }
+        { name: "report", why: "Not one of the five. These five verbs have exact meanings in exam questions." },
+        { name: "classify", why: "Not one of the five. These five verbs have exact meanings in exam questions." }
       ] },
 
     { id: "sc1", kind: "check", kicker: "SC1-1",

@@ -11,7 +11,7 @@
     { id: "rules", kind: "sort", board: "trays",
       kicker: "Figure F01-13",
       title: "One rule from each of the seven topics",
-      say: "If you remember seven things from this chapter, these are the seven. Put each rule with its topic.",
+      say: "The key rule for each of the seven topics. Put each rule with its topic.",
       targets: [
         { id: "t1", label: "1.1 Users" },
         { id: "t2", label: "1.2 Elements" },
@@ -38,8 +38,8 @@
           why: "The income statement comes first because the next statement needs net income." }
       ],
       distractors: [
-        { name: "Cash received in advance is revenue as soon as the money arrives",
-          why: "False. It is a contract liability — the company still owes the goods." },
+        { name: "Cash received in advance is revenue",
+          why: "False. Cash received in advance is a liability, not revenue." },
         { name: "The PCAOB writes U.S. GAAP for public companies",
           why: "False. The PCAOB sets auditing standards. The FASB writes U.S. GAAP." }
       ] },
@@ -66,9 +66,9 @@
       hint: "Assets " + m(bs.totalAssets) + " = liabilities " + m(bs.totalLiabilities) + " + equity " + m(sce.totalEquity) + "." },
 
     { id: "para", kind: "cloze",
-      kicker: "The chapter in one paragraph",
+      kicker: "The chapter summary",
       title: "Fill the load-bearing words",
-      say: "Without scrolling back, if you can.",
+      say: "From memory, if you can.",
       parts: [
         "General-purpose statements serve investors, lenders and other ",
         ". Useful information is relevant and ",

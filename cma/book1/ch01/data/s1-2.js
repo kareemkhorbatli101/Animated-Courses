@@ -32,7 +32,7 @@
           why: "The total change in equity from sources other than owners. Chapters 3 and 15." }
       ],
       distractors: [
-        { name: "Trial balance", why: "A bookkeeping list that checks debits equal credits. Not an element." },
+        { name: "Trial balance", why: "A trial balance lists every account balance and checks that total debits equal total credits. It is not an element." },
         { name: "Materiality", why: "A quality of useful information. Not an element." }
       ] },
 
@@ -46,7 +46,7 @@
         { label: "Borrow 800 on a note", a: 800, l: 800, cc: 0, re: 0,
           why: "Cash comes in from a lender, so a liability rises. This is financing, not income." },
         { label: "Buy equipment for 1,200 cash", a: 0, l: 0, cc: 0, re: 0,
-          why: "One asset becomes another. Nothing moves on either side of the beam." },
+          why: "One asset becomes another. Total assets do not change, and nothing is an expense yet." },
         { label: "Sell goods: revenue 300, cost 180", a: 120, l: 0, cc: 0, re: 120,
           why: "Receivables rise 300 and inventory falls 180. Retained earnings rise by the 120 of profit." },
         { label: "Pay wages of 40 in cash", a: -40, l: 0, cc: 0, re: -40,
@@ -58,7 +58,7 @@
     { id: "split", kind: "split",
       kicker: "Contributed capital",
       title: "Where does the 1,500 go?",
-      say: "Orontes issues 100,000 shares of $1 par common stock for $15 per share. Slide the divider until the split is right.",
+      say: "Orontes issues 100,000 shares of $1 par common stock for $15 per share, in cash. Move the line until the two parts are right.",
       total: 1500, step: 10,
       a: { label: "Common stock", answer: 100 },
       b: { label: "Additional paid-in capital" },
@@ -70,7 +70,7 @@
     { id: "tank", kind: "tank",
       kicker: "Retained earnings",
       title: "What moves retained earnings?",
-      say: "Open each pipe. One of them is painted differently — try routing it through the income statement.",
+      say: "Open each one. The last is marked differently — try sending it through the income statement.",
       traps: ["dividend-not-expense"],
       start: 1000, max: 1600,
       pipes: [
@@ -90,7 +90,7 @@
     { id: "central", kind: "sort", board: "trays",
       kicker: "Revenue or gain?",
       title: "Central and ongoing, or peripheral and incidental?",
-      say: "That single distinction decides whether an amount is a revenue or a gain, an expense or a loss.",
+      say: "This one difference decides whether an amount is a revenue or a gain, an expense or a loss.",
       targets: [
         { id: "central", label: "Central, ongoing", sub: "→ revenue or expense" },
         { id: "periph", label: "Peripheral, incidental", sub: "→ gain or loss" }
@@ -99,7 +99,7 @@
         { name: "Orontes sells olive oil", to: "central", why: "Selling food is its central, ongoing operation, so this is revenue." },
         { name: "Orontes pays its plant workers", to: "central", why: "A cost of the central operations, so it is an expense." },
         { name: "Orontes sells an old delivery truck above its carrying amount", to: "periph",
-          why: "Orontes is not in the business of selling trucks, so the excess is a gain, not revenue." }
+          why: "If Orontes sells an old delivery truck for more than its carrying amount, it has a gain." }
       ],
       distractors: [
         { name: "Orontes issues new shares", why: "Neither. Money from owners is an investment by owners — financing, not income." },
@@ -135,13 +135,13 @@
         { name: "French “le bilan”", to: "bs", why: "Le bilan is the balance sheet." }
       ],
       distractors: [
-        { name: "English “stockholder”", why: "A shareholder — an owner. It follows the U.S. meaning of stock, so it is not a trap." }
+        { name: "Arabic مخصص", why: "Arabic uses one word for two different things: an allowance reduces an asset, a provision is a liability. Neither is a box here." }
       ] },
 
     { id: "switch", kind: "switch",
       kicker: "IFRS contrast",
       title: "The same statement, two sets of names",
-      say: "If you trained under IFRS, only the labels are new. Flip the switch.",
+      say: "If you learned accounting under IFRS, only the names are new. Change them and see.",
       titleUs: L.company.barada + " — balance sheet",
       titleIfrs: L.company.barada + " — statement of financial position",
       pairs: [

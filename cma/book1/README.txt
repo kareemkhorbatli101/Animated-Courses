@@ -57,10 +57,20 @@ Every scene has "Check Answers" and "Try Again".
   Chips carry their amount. You drag "Cash 1,050", not "Cash", so the
   figure is in front of you while you decide where it belongs.
 
-  Statements are complete. Every line of the book's Figure F01-11 and
-  F01-12 is there, in the book's wording and order, with its amount.
-  Leave the allowance off the receivables line and the total goes red at
-  1,794 - the wrong answer the book itself names.
+  The statements are printed statements. Three-line heading, a real
+  money column, a currency sign on the first figure and on the totals,
+  deductions in brackets, single rules over subtotals and double rules
+  under grand totals. While a line is wrong you see the drop target;
+  the moment every line is right the scaffolding disappears and what is
+  left is a clean statement. Getting it right produces the document.
+
+  The journal entries are a journal: Date, Account and explanation,
+  Debit, Credit, credits indented, the narrative in italics beneath,
+  and column totals that must agree before an entry can be recorded.
+  A second tab holds the entries so far, on one journal page.
+
+  Leave the allowance off the receivables line and total assets read
+  6,030 - the wrong answer the book itself names.
 
 
 PRONUNCIATION
@@ -119,8 +129,13 @@ definitions, renders all of them, and reports 59 checks: coverage of the
 chapter, the exercise contract, every number in the chapter recomputed
 from a single ledger, the bilingual terms, and the offline constraints.
 
-It should read "All 51 checks pass". The first group is the PROVENANCE
-LOCK: nothing may be taught that is not in the author's chapter.
+It should read "All 53 checks pass".
+
+The first two checks are the PROVENANCE LOCK. The author's chapter ships
+with this package, and the gate reads every word the site teaches and
+checks it against that text. Interface wording may be ordinary English;
+anything the site TEACHES - a fact, a rule, a number, an account name,
+a rationale, a question or an option - must be the author's.
 
 
 CREDITS

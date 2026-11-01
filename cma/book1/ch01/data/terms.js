@@ -12,11 +12,11 @@
     { id: "en-ar", kind: "flash",
       kicker: "Recognition",
       title: "English → Arabic",
-      say: "Fifteen cards drawn at random from the chapter's " + T.count + " terms. Use the 🔊 on every card.",
+      say: "Fifteen cards from the chapter's " + T.count + " terms. Use the 🔊 on every card.",
       direction: "en-ar", count: 15, terms: T.all },
 
     { id: "ar-en", kind: "flash",
-      kicker: "Production · the harder direction",
+      kicker: "The harder direction",
       title: "Arabic → English",
       say: "You know the idea in Arabic. The exam will ask for it in English — this is the direction it tests.",
       direction: "ar-en", count: 15, terms: T.all },
@@ -24,7 +24,7 @@
     { id: "confused", kind: "sort", board: "lanes",
       kicker: "The pairs the chapter warns about",
       title: "One idea, two languages, two different words",
-      say: "Every pair here is the subject of a False-Friend or Exam-Trap box somewhere in the chapter.",
+      say: "Each of these is the subject of a False-Friend or an Exam Trap box in the chapter.",
       targets: [
         { id: "rev", label: "revenue", sub: "the gross amount from sales" },
         { id: "ni", label: "net income", sub: "what remains after expenses" },
@@ -39,14 +39,14 @@
         { name: "الأسهم العادية", to: "cs", why: "Common stock — shares, in U.S. English." }
       ],
       distractors: [
-        { name: "French “charges”", why: "Expenses in French. In English, <em>charges</em> usually means fees — avoid it." },
+        { name: "French “charges”", why: "In French, charges are expenses. In English, charges usually means fees." },
         { name: "French “la balance”", why: "The trial balance, not the balance sheet (<em>le bilan</em>)." }
       ] },
 
     { id: "all", kind: "termcards",
       kicker: "Reference",
       title: "Every term in the chapter",
-      say: "The six Term Bridge boxes exactly as the book prints them, then the terms it defines only in prose.",
+      say: "The six Term Bridge boxes as the book gives them, then the terms it defines in its text only.",
       groups: [
         { label: "1.1", bilingual: true, rows: T.bridge("1.1") },
         { label: "1.2", bilingual: true, rows: T.bridge("1.2") },

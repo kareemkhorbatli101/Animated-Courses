@@ -14,119 +14,146 @@
    * ============================================================ */
   D.register("post", function (stage, spec, api) {
     var txs = spec.transactions;
-    var idx = 0, posted = {}, run = { a: 0, l: 0, e: 0 };
-    /* rows the book prints as already done (the faded Your Turn grid) */
+    var idx = 0, posted = {}, run = { a: 0, l: 0, e: 0 }, view = "grid";
     txs.forEach(function (t) { if (t.given) { posted[t.n] = true; apply(t); } });
     for (var gi = 0; gi < txs.length; gi++) { if (!txs[gi].given) { idx = gi; break; } }
     function apply(t) { run.a += t.eff.a; run.l += t.eff.l; run.e += t.eff.e; }
 
     var wrap = E("div", "post");
-    var left = E("div");
-    var right = E("div");
-    wrap.appendChild(left);
-    wrap.appendChild(right);
+    var left = E("div"), right = E("div");
+    wrap.appendChild(left); wrap.appendChild(right);
     stage.appendChild(wrap);
 
-    var story = E("div", "post-story");
-    left.appendChild(story);
+    /* ---- left: a general journal page ---- */
+    var jrnl = E("div", "jrnl");
+    var jhead = E("div", "jrnl-head");
+    jhead.appendChild(E("span", "jrnl-title", spec.journalTitle || "General journal"));
+    var jwhen = E("span", "jrnl-when", "");
+    jhead.appendChild(jwhen);
+    jrnl.appendChild(jhead);
+    var cols = E("div", "jrow jrow-h");
+    ["Date", "Account and explanation", "Debit", "Credit"].forEach(function (c, i) {
+      cols.appendChild(E("span", i >= 2 ? "jmoney" : null, c));
+    });
+    jrnl.appendChild(cols);
+    var jbody = E("div", "jrnl-body");
+    jrnl.appendChild(jbody);
+    var jfoot = E("div", "jrow jrow-t");
+    jfoot.appendChild(E("span", null, ""));
+    jfoot.appendChild(E("span", null, "Totals"));
+    var totD = E("span", "jmoney"), totC = E("span", "jmoney");
+    jfoot.appendChild(totD); jfoot.appendChild(totC);
+    jrnl.appendChild(jfoot);
+    left.appendChild(jrnl);
+    var bal = E("p", "jrnl-bal");
+    left.appendChild(bal);
     var tray = E("div", "tray");
     left.appendChild(tray);
-    var je = E("div", "je");
-    left.appendChild(je);
-    var bal = E("div", "je-bal");
-    left.appendChild(bal);
-    var navr = E("div");
-    navr.style.cssText = "display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap";
-    left.appendChild(navr);
+    var nav = E("div", "jrnl-nav");
+    left.appendChild(nav);
 
+    /* ---- right: the equation bar, then the grid or the posted journal ---- */
     var eqbox = E("div", "eqbar");
     right.appendChild(eqbox);
-    var gridWrap = E("div");
-    right.appendChild(gridWrap);
+    var tabs = E("div", "tagbar");
+    right.appendChild(tabs);
+    var panel = E("div");
+    right.appendChild(panel);
+    [["grid", spec.gridTitle || "Effect grid"], ["book", "The entries so far"]].forEach(function (t) {
+      var b = E("button", "btn btn-ghost", t[1]);
+      b.type = "button";
+      b.dataset.v = t[0];
+      b.addEventListener("click", function () { view = t[0]; drawTabs(); drawPanel(); });
+      tabs.appendChild(b);
+    });
+    function drawTabs() {
+      Array.prototype.slice.call(tabs.children).forEach(function (b) {
+        b.className = "btn " + (b.dataset.v === view ? "btn-primary" : "btn-ghost");
+      });
+    }
 
-    var dnd, zoneDr, zoneCr;
+    var dnd, rows;
 
     function drawEntry() {
       var t = txs[idx];
-      story.innerHTML = "";
-      story.appendChild(E("div", "post-date", t.date + "  ·  entry " + (idx + 1) + " of " + txs.length));
-      story.appendChild(E("p", "post-text", t.text));
+      jrnl.dataset.entry = String(t.n);
+      jwhen.textContent = t.date;
+      jbody.innerHTML = "";
       tray.innerHTML = "";
-      je.innerHTML = "";
-
-      var h = E("div", "je-h");
-      h.appendChild(E("span", null, "Account"));
-      h.appendChild(E("span", null, "Debit"));
-      h.appendChild(E("span", null, "Credit"));
-      je.appendChild(h);
-
-      var rowD = E("div", "je-r");
-      var zd = E("div", "zone");
-      zd.setAttribute("aria-label", "Debit side");
-      var hd = E("span", "drop-host");
-      zd.appendChild(hd);
-      rowD.appendChild(zd);
-      var td = E("span", "je-amt on");
-      rowD.appendChild(td);
-      rowD.appendChild(E("span", "je-amt"));
-      je.appendChild(rowD);
-
-      var rowC = E("div", "je-r cr");
-      var zc = E("div", "zone");
-      zc.setAttribute("aria-label", "Credit side");
-      var hc = E("span", "drop-host");
-      zc.appendChild(hc);
-      rowC.appendChild(zc);
-      rowC.appendChild(E("span", "je-amt"));
-      var tc = E("span", "je-amt on");
-      rowC.appendChild(tc);
-      je.appendChild(rowC);
-
+      rows = [];
       dnd = Drag({ tray: tray, live: api.live, change: recount });
-      zoneDr = dnd.zone({ id: "dr", el: zd, host: hd, cap: 9, label: "the debit side", ghost: "drag the debited accounts here" });
-      zoneCr = dnd.zone({ id: "cr", el: zc, host: hc, cap: 9, label: "the credit side", ghost: "drag the credited accounts here" });
+
+      t.entry.forEach(function (ln, i) {
+        var r = E("div", "jrow");
+        r.appendChild(E("span", "jdate", i === 0 ? t.date : ""));
+        var z = E("div", "zone zone-acct");
+        z.setAttribute("aria-label", "Account for line " + (i + 1));
+        var host = E("span", "drop-host");
+        z.appendChild(host);
+        r.appendChild(z);
+        var d = E("span", "jmoney"), c = E("span", "jmoney");
+        r.appendChild(d); r.appendChild(c);
+        jbody.appendChild(r);
+        dnd.zone({ id: "L" + i, el: z, host: host, cap: 1, label: "line " + (i + 1),
+                   ghost: "account" });
+        rows.push({ el: r, zone: z, d: d, c: c, i: i });
+      });
+
+      /* the explanation line a journal entry always carries */
+      var ex = E("div", "jrow jrow-x");
+      ex.appendChild(E("span", null, ""));
+      var exp = E("span", "jexp", t.text);
+      exp.style.gridColumn = "2 / span 3";
+      ex.appendChild(exp);
+      jbody.appendChild(ex);
 
       var chips = t.entry.map(function (ln) {
-        return { id: ln.account + "|" + ln.amount, label: ln.account, amount: ln.amount, side: ln.side };
+        return { id: ln.account + "|" + ln.amount + "|" + ln.side, label: ln.account,
+                 amount: ln.amount, side: ln.side };
       });
       (spec.lures[t.n] || []).forEach(function (x) {
-        chips.push({ id: x.name + "|" + x.amount, label: x.name, amount: x.amount, side: null, why: x.why });
+        chips.push({ id: x.name + "|" + x.amount + "|?", label: x.name, amount: x.amount,
+                     side: null, why: x.why });
       });
+      jbody._chips = chips;
       shuffle(chips).forEach(function (c) { dnd.chip({ id: c.id, label: c.label, amount: c.amount }); });
-      je._chips = chips;
-      je._dr = td; je._cr = tc;
       recount();
       drawNav();
     }
 
     function recount() {
-      var st = dnd.state(), d = 0, c = 0;
-      (st.dr || []).forEach(function (id) { d += Number(id.split("|")[1]); });
-      (st.cr || []).forEach(function (id) { c += Number(id.split("|")[1]); });
-      je._dr.textContent = d ? m(d) : "";
-      je._cr.textContent = c ? m(c) : "";
-      var placed = (st.dr || []).length + (st.cr || []).length;
-      var even = d === c && d > 0;
-      bal.className = "je-bal" + (even ? " ok" : "");
-      bal.textContent = placed === 0 ? "Put every account on the side that it belongs."
-        : even ? "Debits " + m(d) + " = credits " + m(c) + ". The entry balances."
-               : "Debits " + m(d) + " against credits " + m(c) + " — an entry cannot be posted until they are equal.";
+      var st = dnd.state(), d = 0, c = 0, filled = 0;
+      rows.forEach(function (r) {
+        var id = (st["L" + r.i] || [])[0];
+        r.d.textContent = ""; r.c.textContent = "";
+        r.el.classList.remove("cr");
+        if (!id) return;
+        filled++;
+        var parts = id.split("|");
+        var amt = Number(parts[1]), side = txs[idx].entry[r.i].side;
+        if (side === "dr") { r.d.textContent = L.money(amt); d += amt; }
+        else { r.c.textContent = L.money(amt); c += amt; r.el.classList.add("cr"); }
+      });
+      totD.textContent = d ? L.money(d) : "";
+      totC.textContent = c ? L.money(c) : "";
+      var even = d === c && d > 0 && filled === rows.length;
+      bal.className = "jrnl-bal" + (even ? " ok" : "");
+      bal.textContent = !filled ? "Every line takes one account."
+        : even ? "Debits " + L.money(d) + " = credits " + L.money(c) + "."
+               : "Debits " + L.money(d) + " against credits " + L.money(c) +
+                 " — total debits must equal total credits.";
     }
 
     function drawNav() {
-      navr.innerHTML = "";
-      var prev = E("button", "step-btn", "← previous entry");
-      prev.type = "button";
-      prev.disabled = idx === 0;
-      prev.addEventListener("click", function () { idx--; drawEntry(); });
-      var next = E("button", "step-btn", "next entry →");
-      next.type = "button";
-      next.disabled = idx >= txs.length - 1;
-      next.addEventListener("click", function () { idx++; drawEntry(); });
-      navr.appendChild(prev);
-      navr.appendChild(next);
-      var n = Object.keys(posted).length;
-      navr.appendChild(E("span", "numunit", n + " of " + txs.length + " posted"));
+      nav.innerHTML = "";
+      var pv = E("button", "step-btn", "← previous");
+      pv.type = "button"; pv.disabled = idx === 0;
+      pv.addEventListener("click", function () { idx--; drawEntry(); });
+      var nx = E("button", "step-btn", "next →");
+      nx.type = "button"; nx.disabled = idx >= txs.length - 1;
+      nx.addEventListener("click", function () { idx++; drawEntry(); });
+      nav.appendChild(pv); nav.appendChild(nx);
+      nav.appendChild(E("span", "numunit", Object.keys(posted).length + " of " + txs.length + " recorded"));
     }
 
     function drawEq() {
@@ -139,20 +166,54 @@
         var tr = E("div", "eqtrack");
         var f = E("div", "eqfill " + r[2], L.signed(r[1]));
         f.style.width = (Math.abs(r[1]) / max * 100) + "%";
-        tr.appendChild(f);
-        row.appendChild(tr);
-        eqbox.appendChild(row);
+        tr.appendChild(f); row.appendChild(tr); eqbox.appendChild(row);
       });
       var ok = Math.abs(run.a - (run.l + run.e)) < 0.001;
       var note = E("div", "eqnote " + (ok ? "ok" : "no"));
-      note.textContent = ok
-        ? "Assets " + L.signed(run.a) + " = liabilities " + L.signed(run.l) + " + equity " + L.signed(run.e) + "."
-        : "Out by " + m(run.a - run.l - run.e);
+      note.textContent = ok ? "Assets " + L.signed(run.a) + " = liabilities " + L.signed(run.l) +
+        " + equity " + L.signed(run.e) + "." : "Out by " + L.money(run.a - run.l - run.e);
       eqbox.appendChild(note);
     }
 
+    function drawPanel() {
+      panel.innerHTML = "";
+      if (view === "grid") { drawGrid(); return; }
+      /* the general journal page, as the entries accumulate on it */
+      var book = E("div", "jrnl jrnl-book");
+      var bh = E("div", "jrnl-head");
+      bh.appendChild(E("span", "jrnl-title", spec.journalTitle || "General journal"));
+      book.appendChild(bh);
+      var cr = E("div", "jrow jrow-h");
+      ["Date", "Account and explanation", "Debit", "Credit"].forEach(function (c, i) {
+        cr.appendChild(E("span", i >= 2 ? "jmoney" : null, c));
+      });
+      book.appendChild(cr);
+      var bb = E("div", "jrnl-body");
+      var any = false;
+      txs.forEach(function (t) {
+        if (!posted[t.n]) return;
+        any = true;
+        t.entry.forEach(function (ln, i) {
+          var r = E("div", "jrow" + (ln.side === "cr" ? " cr" : ""));
+          r.appendChild(E("span", "jdate", i === 0 ? t.date : ""));
+          r.appendChild(E("span", "jacct", ln.account));
+          r.appendChild(E("span", "jmoney", ln.side === "dr" ? L.money(ln.amount) : ""));
+          r.appendChild(E("span", "jmoney", ln.side === "cr" ? L.money(ln.amount) : ""));
+          bb.appendChild(r);
+        });
+        var x = E("div", "jrow jrow-x");
+        x.appendChild(E("span", null, ""));
+        var xe = E("span", "jexp", t.text);
+        xe.style.gridColumn = "2 / span 3";
+        x.appendChild(xe);
+        bb.appendChild(x);
+      });
+      if (!any) bb.appendChild(E("p", "note", "Nothing recorded yet."));
+      book.appendChild(bb);
+      panel.appendChild(book);
+    }
+
     function drawGrid() {
-      gridWrap.innerHTML = "";
       if (!spec.grid) return;
       var t = E("table", "grid");
       t.innerHTML = "<thead><tr><th>" + (spec.gridTitle || "Effect grid") +
@@ -160,7 +221,7 @@
       var tb = E("tbody");
       txs.forEach(function (x) {
         var tr = E("tr", posted[x.n] ? "" : "pending");
-        if (posted[x.n] && posted[x.n] === "fresh") { tr.className = "fresh"; posted[x.n] = true; }
+        if (posted[x.n] === "fresh") { tr.className = "fresh"; posted[x.n] = true; }
         tr.innerHTML = "<td>" + x.n + ". " + esc(x.short) + "</td>" +
           (posted[x.n] ? ("<td>" + L.signed(x.eff.a) + "</td><td>" + L.signed(x.eff.l) + "</td><td>" +
             L.signed(x.eff.e) + "</td><td>" + L.signed(x.eff.ni) + "</td><td>" +
@@ -169,75 +230,58 @@
         tb.appendChild(tr);
       });
       if (Object.keys(posted).length === txs.length) {
-        var tot = E("tr", "grid-tot");
         var r = txs.reduce(function (a, x) {
           a.a += x.eff.a; a.l += x.eff.l; a.e += x.eff.e; a.ni += x.eff.ni;
           if (x.eff.cf !== "none") a.c += x.eff.cfAmount;
           return a;
         }, { a: 0, l: 0, e: 0, ni: 0, c: 0 });
-        tot.innerHTML = "<td>Totals</td><td>" + L.signed(r.a) + "</td><td>" + L.signed(r.l) + "</td><td>" +
+        var tt = E("tr", "grid-tot");
+        tt.innerHTML = "<td>Totals</td><td>" + L.signed(r.a) + "</td><td>" + L.signed(r.l) + "</td><td>" +
           L.signed(r.e) + "</td><td>" + L.signed(r.ni) + "</td><td>" + L.signed(r.c) + "</td>";
-        tb.appendChild(tot);
+        tb.appendChild(tt);
       }
       t.appendChild(tb);
-      gridWrap.appendChild(t);
+      panel.appendChild(t);
     }
 
-    drawEntry();
-    drawEq();
-    drawGrid();
+    drawEntry(); drawEq(); drawTabs(); drawPanel();
 
     return function () {
       var t = txs[idx], st = dnd.state(), yours = [], ok = true;
-      var wantD = t.entry.filter(function (l) { return l.side === "dr"; })
-        .map(function (l) { return l.account + "|" + l.amount; });
-      var wantC = t.entry.filter(function (l) { return l.side === "cr"; })
-        .map(function (l) { return l.account + "|" + l.amount; });
-      function same(a, b) {
-        return a.length === b.length && a.slice().sort().join("~") === b.slice().sort().join("~");
-      }
-      var dOK = same(st.dr || [], wantD), cOK = same(st.cr || [], wantC);
-      dnd.mark("dr", dOK);
-      dnd.mark("cr", cOK);
-      if (!dOK || !cOK) {
+      rows.forEach(function (r) {
+        var got = (st["L" + r.i] || [])[0];
+        var want = t.entry[r.i].account + "|" + t.entry[r.i].amount + "|" + t.entry[r.i].side;
+        var good = got === want;
+        r.zone.classList.remove("ok", "no");
+        r.zone.classList.add(good ? "ok" : "no");
+        if (good) return;
         ok = false;
-        (st.dr || []).concat(st.cr || []).forEach(function (id) {
-          var side = (st.dr || []).indexOf(id) >= 0 ? "dr" : "cr";
-          var want = (wantD.indexOf(id) >= 0) ? "dr" : (wantC.indexOf(id) >= 0 ? "cr" : null);
-          var c = je._chips.filter(function (x) { return x.id === id; })[0];
-          if (want === null) {
-            yours.push({ k: "n", html: "<b>" + esc(c.label) + "</b> does not belong in this entry. " + esc(c.why || "") });
-          } else if (want !== side) {
-            yours.push({ k: "n", html: "<b>" + esc(c.label) + "</b> belongs on the <b>" +
-              (want === "dr" ? "debit" : "credit") + "</b> side, not the " + (side === "dr" ? "debit" : "credit") + "." });
-          }
-        });
-        t.entry.forEach(function (ln) {
-          var id = ln.account + "|" + ln.amount;
-          if ((st.dr || []).indexOf(id) < 0 && (st.cr || []).indexOf(id) < 0) {
-            yours.push({ k: "n", html: "<b>" + esc(ln.account) + " " + m(ln.amount) +
-              "</b> has not been placed. It is a " + (ln.side === "dr" ? "debit" : "credit") + "." });
-          }
-        });
-      }
-      if (ok && !posted[t.n]) {
-        posted[t.n] = "fresh";
-        apply(t);
-        drawEq();
-        drawGrid();
-      }
+        var c = got ? jbody._chips.filter(function (x) { return x.id === got; })[0] : null;
+        if (!got) {
+          yours.push({ k: "n", html: "Line " + (r.i + 1) + " is empty. It takes <b>" +
+            esc(t.entry[r.i].account) + "</b>, " + (t.entry[r.i].side === "dr" ? "debited" : "credited") +
+            " " + L.money(t.entry[r.i].amount) + "." });
+        } else if (c && c.side === null) {
+          yours.push({ k: "n", html: "<b>" + esc(c.label) + "</b> is not in this entry. " + esc(c.why || "") });
+        } else {
+          yours.push({ k: "n", html: "Line " + (r.i + 1) + " takes <b>" + esc(t.entry[r.i].account) +
+            "</b>, not " + esc(c ? c.label : got) + "." });
+        }
+      });
+      if (ok && !posted[t.n]) { posted[t.n] = "fresh"; apply(t); drawEq(); }
+      drawPanel();
       var n = Object.keys(posted).length;
       drawNav();
       var right = t.entry.map(function (ln) {
         return { k: "y", html: (ln.side === "dr" ? "Debit " : "Credit ") + "<b>" + esc(ln.account) +
-          " " + m(ln.amount) + "</b>" };
+          " " + L.money(ln.amount) + "</b>" };
       });
       if (ok && spec.logic && spec.logic[t.n]) right.push({ k: "o", html: spec.logic[t.n] });
       if (ok && idx < txs.length - 1) { idx++; drawEntry(); }
       return { score: n, total: txs.length, ok: n === txs.length,
-               verdict: ok ? (n === txs.length ? "All " + txs.length + " posted. The grid is complete."
-                                               : "Posted. " + n + " of " + txs.length + " — next entry is ready.")
-                           : "Not posted — see why",
+               verdict: ok ? (n === txs.length ? "All " + txs.length + " recorded." :
+                              "Recorded. " + n + " of " + txs.length + ".")
+                           : "Not recorded — see why",
                html: yoursFirst(yours, right) };
     };
   });

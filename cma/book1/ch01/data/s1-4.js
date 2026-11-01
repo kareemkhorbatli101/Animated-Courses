@@ -20,21 +20,21 @@
       stops: [
         { when: "Before December 20, 2025",
           accrual: { text: "", at: 10 }, cash: { text: "", at: 10 },
-          note: "The order exists, but the goods have not been delivered and no cash has moved. Neither basis records anything." },
+          note: "The goods have not been delivered and no cash has been received. Neither basis records anything." },
         { when: d.shipDate,
-          accrual: { text: "Revenue " + m(d.invoice) + " · COGS " + m(d.cost), at: 30 },
+          accrual: { text: "Revenue " + m(d.invoice) + " · cost " + m(d.cost), at: 30 },
           cash: { text: "", at: 30 },
-          note: "<b>Accrual:</b> the goods were delivered, so the revenue is earned now and the gross profit of " +
-            m(d.grossProfit) + " belongs to 2025. <b>Cash basis:</b> nothing, because no cash has moved." },
+          note: "<b>Accrual:</b> Orontes records the revenue and the cost of goods sold in fiscal 2025, the year it delivered the goods. The gross profit of " +
+            m(d.grossProfit) + " belongs to 2025. <b>Cash basis:</b> nothing, because no cash has been received." },
         { when: "December 31, 2025 · year end",
           accrual: { text: "Gross profit " + m(d.grossProfit) + " in 2025", at: 44 },
           cash: { text: "nothing in 2025", at: 44 },
-          note: "This is the whole difference: the same sale falls in a different <b>year</b> under the two bases." },
+          note: "This is the difference: the same sale falls in a different <b>year</b> under the accrual basis and the cash basis." },
         { when: d.payDate,
           accrual: { text: "receivable → cash", at: 70 },
           cash: { text: "Revenue " + m(d.invoice) + " in 2026", at: 70 },
-          note: "<b>Accrual:</b> the collection only changes one asset into another — income does not move. " +
-            "<b>Cash basis:</b> the revenue falls in 2026, which is the wrong period." }
+          note: "<b>Accrual:</b> the cash receipt only changes one asset (the receivable) into another asset (cash). " +
+            "<b>Cash basis:</b> the revenue would fall in 2026, which is the wrong period." }
       ] },
 
     { id: "which", kind: "number",
@@ -57,8 +57,8 @@
 
     { id: "routes", kind: "sort", board: "pipes",
       kicker: "The matching principle",
-      title: "Three ways to match a cost to revenue",
-      say: "Record expenses in the same period as the revenues they help to produce. Route each cost down the right pipe.",
+      title: "Three ways to apply it",
+      say: "Record expenses in the same period as the revenues they help to produce. There are three ways to apply it.",
       source: "a cost arrives",
       targets: [
         { id: "cause", label: "Cause and effect", sub: "links directly to a sale" },
@@ -83,7 +83,7 @@
     { id: "grid", kind: "sort", board: "grid2",
       kicker: "The four adjustments",
       title: "Fill the grid and it names itself",
-      say: "Two questions decide every one of them: has the cash moved, and who owes whom?",
+      say: "Two questions decide every one of them: has the cash been received or paid, and who still owes what?",
       traps: ["cash-not-trigger"],
       revealOnCorrect: true,
       corner: "",
@@ -107,7 +107,7 @@
       ],
       distractors: [
         { name: "Depreciation of the bottling line",
-          why: "Not one of the four. It allocates a cost already capitalised as an asset." }
+          why: "Not one of the four. Depreciation spreads the cost over the years of use." }
       ] },
 
     { id: "sc1", kind: "check", kicker: "SC4-1",

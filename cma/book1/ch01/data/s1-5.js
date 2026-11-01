@@ -13,7 +13,7 @@
     { id: "jobs", kind: "sort", board: "org",
       kicker: "Figure F01-08",
       title: "Four bodies, four jobs",
-      say: "One of these does not write accounting standards at all. Put each body on the job it actually does.",
+      say: "One of these does not write accounting standards at all. Put each body on the job it does.",
       traps: ["four-bodies"],
       groups: [
         { id: "us", label: "■ United States · U.S. GAAP", sub: "what the CMA exam tests" },
@@ -29,7 +29,7 @@
       ],
       items: [
         { name: "SEC", to: "sec", trap: "four-bodies",
-          why: "A U.S. government agency with legal authority. It recognizes the FASB as the standard setter rather than writing the standards itself." },
+          why: "A U.S. government agency. It has legal authority over the financial reporting of public companies, and it recognizes the FASB as the standard setter." },
         { name: "FASB", to: "fasb", trap: "four-bodies",
           why: "A private, independent organization. It writes U.S. GAAP." },
         { name: "Accounting Standards Codification (ASC)", to: "asc",
@@ -41,14 +41,14 @@
         { name: "IFRS Foundation", to: "found", why: "The IASB issues IFRS under the IFRS Foundation." }
       ],
       distractors: [
-        { name: "ICMA", why: "It sets the CMA exam. It has no standard-setting role." }
+        { name: "ICMA", why: "The ICMA Learning Outcome Statements are quoted in this chapter. The ICMA does not write accounting standards." }
       ] },
 
     { id: "shelf", kind: "shelf",
       kicker: "The Codification",
       title: "Find the two topics this book builds on",
-      ask: "The ASC is organized by topic number. Pull out the volume for revenue, and the one for leases.",
-      intro: "When the FASB changes a rule, it issues an <b>Accounting Standards Update</b>, which amends the Codification rather than sitting beside it.",
+      ask: "The ASC is organized by topic numbers. Find the one for revenue, and the one for leases.",
+      intro: "When the FASB changes a rule, it issues an <b>Accounting Standards Update</b> (ASU), which amends the Codification.",
       missWhy: "Not one the chapter names. It names ASC 606 for revenue and ASC 842 for leases.",
       volumes: [
         { n: 210 }, { n: 330 }, { n: 450 },
@@ -60,8 +60,8 @@
 
     { id: "names", kind: "switch",
       kicker: "IFRS contrast",
-      title: "Six names the exam expects in the U.S. form",
-      say: "Most concepts are identical. Flip the switch and read both columns.",
+      title: "Six names, in the form the exam uses",
+      say: "Most concepts are the same. Change the names and read both columns.",
       titleUs: "U.S. GAAP — the names the exam uses",
       titleIfrs: "IFRS — the names you may already know",
       pairs: [
@@ -74,18 +74,18 @@
       ] },
 
     { id: "scope", kind: "probe",
-      kicker: "What the exam actually tests",
+      kicker: "What the exam tests",
       title: "Four things to carry out of this section",
       say: "Open each one.",
       probes: [
         { q: "Which framework does the CMA exam test?",
           a: "<b>U.S. GAAP.</b> However, Section A also asks about the main differences between U.S. GAAP and IFRS, which is Chapter 17. If you learned accounting under IFRS, most concepts are the same, so every chapter has an IFRS Contrast box and Chapter 17 will be revision for you." },
-        { q: "Who requires IFRS near you?",
-          a: "Many countries in the Middle East and North Africa — <b>Jordan and the United Arab Emirates</b> among them — require IFRS for listed companies. In this book, <b>Cedar Retail S.A.L.</b> is the IFRS company." },
+        { q: "Which countries require IFRS for listed companies?",
+          a: "Many countries in the Middle East and North Africa, for example <b>Jordan and the United Arab Emirates</b>, require IFRS for listed companies. In this book, <b>Cedar Retail S.A.L.</b> is our IFRS company." },
         { q: "What is a conceptual framework?",
           a: "<b>The basic ideas behind the standards</b>: the users, the elements, and the qualities of useful information. Both systems rest on one. You studied the U.S. version in sections 1.1 and 1.2." },
-        { q: "Why is Orontes under U.S. GAAP if it is based in Amman?",
-          a: "Orontes Foods makes olive oil and tahini in Amman and pastries in Dubai, but <b>its shares are listed on a U.S. stock exchange</b>, so it reports under U.S. GAAP. Where a company operates does not decide its framework." }
+        { q: "Why does Orontes report under U.S. GAAP?",
+          a: "Orontes Foods, Inc. makes olive oil and tahini in Amman, Jordan, and frozen pastries in Dubai. <b>Its shares are listed on a U.S. stock exchange</b>, and it reports under U.S. GAAP." }
       ] },
 
     { id: "sc1", kind: "check", kicker: "SC5-1", title: "Which organization writes U.S. GAAP?",
