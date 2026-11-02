@@ -23,6 +23,9 @@
   --primary:var(--teal-700); --primary-2:var(--teal-600); --accent:var(--rust-600);
   --bg:var(--paper-2); --surface:var(--paper); --surface-2:var(--paper-3);
   --text:var(--ink); --text-2:var(--ink-3); --border:var(--line);
+  /* a card's own edge, darker than --border so it carries at 2px and
+     stays visible against --surface in either theme */
+  --card-line:#c3ccd6; --card-strip:var(--paper-3);
 
   --r-1:4px; --r-2:8px; --r-3:12px; --r-4:18px; --r-pill:999px;
   --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px;
@@ -43,6 +46,7 @@
   --paper:#161a20; --paper-2:#11151a; --paper-3:#1d232b;
   --bg:#11151a; --surface:#181d24; --surface-2:#212832;
   --text:#eef2f6; --text-2:#9aa4b1; --border:#2b323c;
+  --card-line:#3b4654; --card-strip:#212832;
   --primary:#3fb3c6; --primary-2:#57c6d8; --accent:#e5884a;
   --teal-100:#123841; --teal-050:#0f2a31; --teal-200:#1d5a67;
   --rust-100:#36220f; --rust-200:#5a3a18;
@@ -126,12 +130,27 @@ p { margin:0 0 .9em; }
 :root[data-theme="dark"] .bookchip { color:var(--teal-200); }
 
 /* ---------- card ---------- */
+/* ---------- where a card starts and where it stops ----------
+   A card used to be one hairline of --border, which in dark mode is
+   #2b323c against #161b22 and all but invisible. The footer carried a
+   filled strip and the heading carried nothing, so a long card simply
+   faded into the page and there was no telling where one exercise
+   ended and the next began. Now the heading is a strip too, the side
+   borders are thick enough to follow down the page, and an accent
+   edge runs the full height so the card reads as one block. */
 .card {
-  background:var(--surface); border:1px solid var(--border); border-radius:var(--r-4);
-  box-shadow:var(--sh-1); margin:var(--s-5) 0; overflow:hidden;
+  background:var(--surface); border:2px solid var(--card-line); border-radius:var(--r-4);
+  box-shadow:var(--sh-2); margin:var(--s-6) 0; overflow:hidden;
   scroll-margin-top:72px;
+  border-left:5px solid var(--accent);
 }
-.card-head { display:flex; gap:var(--s-3); align-items:flex-start; padding:var(--s-5) var(--s-5) var(--s-3); }
+.card-head {
+  display:flex; gap:var(--s-3); align-items:flex-start;
+  padding:var(--s-4) var(--s-5); background:var(--card-strip);
+  border-bottom:2px solid var(--card-line);
+}
+/* the body needs its own top padding again now the heading is a strip */
+.card > .card-body { padding-top:var(--s-5); }
 .card-letter {
   flex:0 0 34px; width:34px; height:34px; border-radius:var(--r-2);
   background:var(--accent); color:#fff; display:grid; place-items:center;
@@ -145,8 +164,48 @@ p { margin:0 0 .9em; }
   padding:var(--s-3) var(--s-5); background:var(--surface-2); border-top:1px solid var(--border);
 }
 .card-foot .grow { flex:1; }
-.card.is-ok { border-color:var(--ok-line); }
+/* a finished card turns green all the way round, strip included, so
+   "done" is visible from a scroll rather than from the badge alone */
+.card.is-ok { border-color:var(--ok-line); border-left-color:var(--ok); }
+.card.is-ok .card-head { background:var(--ok-bg); border-bottom-color:var(--ok-line); }
 .card.is-ok .card-letter { background:var(--ok); }
+/* ---------- the Arabic guide ----------
+   Scaffolding beside the exercise, not a translation of it: the
+   directions, the key words and the text, never the questions or the
+   answers. Hidden until the heading button is pressed, and it never
+   prints — on paper the learner has the English in front of them. */
+.ar-guide { display:none; }
+.card.show-ar .ar-guide {
+  display:block; direction:rtl; text-align:right;
+  font-family:var(--ar); background:var(--teal-050);
+  border:1px solid var(--teal-200); border-right:5px solid var(--primary);
+  border-radius:var(--r-3); padding:var(--s-4) var(--s-4) var(--s-3);
+  margin:0 0 var(--s-4);
+}
+.ar-h {
+  font:800 14px/1.4 var(--ar); color:var(--primary);
+  margin:var(--s-3) 0 var(--s-2);
+}
+.ar-h:first-child { margin-top:0; }
+.ar-body p { font:400 16px/1.9 var(--ar); margin:0 0 8px; color:var(--text); }
+.ar-body p:last-child { margin-bottom:0; }
+/* each word beside its English, which is the whole point of the list */
+.ar-words { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:5px 14px; }
+.ar-w {
+  display:flex; justify-content:space-between; align-items:baseline; gap:10px;
+  padding:4px 8px; background:var(--surface); border-radius:var(--r-2);
+  border:1px solid var(--teal-200);
+}
+.ar-en { font:600 13px/1.5 var(--ui); color:var(--text-2); direction:ltr; text-align:left; }
+.ar-tr { font:700 15px/1.6 var(--ar); color:var(--text); }
+.ar-btn { flex:0 0 auto; font-family:var(--ar); font-size:14px; }
+.card.show-ar .ar-btn { background:var(--primary); color:#fff; border-color:var(--primary); }
+@media print { .ar-guide { display:none !important; } }
+
+.pagecount {
+  font:700 12.5px/1 var(--ui); color:var(--text-2); white-space:nowrap;
+  padding:0 2px 0 6px; align-self:center;
+}
 .verdict { font:600 13.5px/1.4 var(--ui); padding:9px 13px; border-radius:var(--r-2); display:none; }
 .verdict.show { display:block; }
 .verdict.ok { background:var(--ok-bg); color:var(--ok); border:1px solid var(--ok-line); }
@@ -759,6 +818,11 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 .pick.is-no .pick-btn { border-color:var(--no); background:var(--no-bg); border-style:solid; }
 .pick-sm .pick-btn { padding:5px 9px; font-size:13px; }
 .pick-jump { min-width:150px; }
+/* opened upwards when the button is near the bottom of the window —
+   see `place()` in core.js. max-height is set inline to the room
+   actually available, so the list scrolls inside itself instead of
+   running off the screen. */
+.pick-panel.is-up { top:auto; bottom:calc(100% + 5px); }
 .pick-panel {
   position:absolute; z-index:60; top:calc(100% + 5px); left:0; min-width:100%;
   width:max-content; max-width:min(440px, 86vw); max-height:330px; overflow-y:auto;
