@@ -152,17 +152,22 @@ CSB1.page('u1-l2-s1', {
           'After this experience I learned that five words I can use are worth more than twenty I cannot. Now I keep a short list, and I ask about it before I go home.'
         ]
       },
+      /* Two groupings gave this away at once: the tiles ran in the
+         order the gaps wanted them, and all the verbs were listed
+         together ahead of all the sentence openers — so a learner
+         could tell which kind of tile a gap wanted from where it sat
+         in the pool. Mixed now, verbs and openers alternating. */
       tiles: [
-        { id: 't-was', label: 'was' },
-        { id: 't-wrote', label: 'wrote' },
-        { id: 't-showed', label: 'showed' },
-        { id: 't-explained', label: 'explained' },
+        { id: 't-learned', label: 'After this experience I learned that' },
         { id: 't-stopped', label: 'stopped' },
         { id: 't-first', label: 'My first morning' },
-        { id: 't-helped', label: 'What helped was' },
-        { id: 't-learned', label: 'After this experience I learned that' },
         { id: 't-tried', label: 'tried' },
-        { id: 't-asks', label: 'was asking' }
+        { id: 't-showed', label: 'showed' },
+        { id: 't-asks', label: 'was asking' },
+        { id: 't-helped', label: 'What helped was' },
+        { id: 't-was', label: 'was' },
+        { id: 't-explained', label: 'explained' },
+        { id: 't-wrote', label: 'wrote' }
       ],
       text: '<h4>Tuesday, September 11</h4>' +
         '<p>[[g1]] in the lab was difficult, and not for the reason I expected. The briefing was all in English and it [[g2]] very fast. ' +

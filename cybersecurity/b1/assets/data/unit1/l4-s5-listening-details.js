@@ -86,10 +86,10 @@ CSB1.page('u1-l4-s5', {
             evidence: 'his second sentence.',
             jump: { scene: 'u1-apprentice', line: 1 },
             options: [
-              { t: 'Practise in the real world and study hard at the same time.', ok: true, why: 'Right — and "at the same time" is the whole point: it was not one or the other.' },
               { t: 'Study full time without having to work.', ok: false, why: 'The opposite. He says he did both at once, which is why he mentions it.' },
               { t: 'Skip the academic classes and do only security.', ok: false, why: 'He says he took *all* his academic classes **and** a lot of security classes.' },
-              { t: 'Start a university degree two years early.', ok: false, why: 'No university appears in the interview. Freemont is a high school.' }
+              { t: 'Start a university degree two years early.', ok: false, why: 'No university appears in the interview. Freemont is a high school.' },
+              { t: 'Practise in the real world and study hard at the same time.', ok: true, why: 'Right — and "at the same time" is the whole point: it was not one or the other.' }
             ]
           },
           {
@@ -98,10 +98,10 @@ CSB1.page('u1-l4-s5', {
             jump: { scene: 'u1-apprentice', line: 3 },
             display: 'drop',
             options: [
+              { t: 'Teaching a security class', ok: false, why: 'Teaching is Tara\'s suggested career in §1, not Ray\'s job.' },
               { t: 'Working as a security technician', ok: true, why: 'Right — and note the present continuous, because it is what he is doing at the moment.' },
               { t: 'Studying at Freemont', ok: false, why: 'Freemont is in the past. Listen for the tense change in the final line.' },
-              { t: 'Looking for a job', ok: false, why: 'He already has one. The whole point of the interview is that the route worked.' },
-              { t: 'Teaching a security class', ok: false, why: 'Teaching is Tara\'s suggested career in §1, not Ray\'s job.' }
+              { t: 'Looking for a job', ok: false, why: 'He already has one. The whole point of the interview is that the route worked.' }
             ]
           }
         ]

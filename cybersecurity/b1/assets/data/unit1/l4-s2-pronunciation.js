@@ -62,7 +62,13 @@ CSB1.page('u1-l4-s2', {
       /* the column heading IS the mouth: the word is dropped onto the
          shape that makes the sound, not onto two letters */
       colArt: [{ mouth: 'sh' }, { mouth: 'ch' }, { mouth: 'j' }],
-      pool: ['should', 'machine', 'phishing', 'permission', 'choose', 'choices', 'patch', 'branch', 'just', 'enjoyed', 'digital', 'manager'],
+      /* Four sh, then four ch, then four j: the twelve words arrived
+         in their answer blocks, so all twelve could be sorted by
+         counting to four three times. On a card whose point is that
+         SPELLING WILL NOT TELL YOU — "machine" is spelled ch and said
+         sh — a positional shortcut past the listening was the worst
+         possible giveaway. Interleaved, no two neighbours alike. */
+      pool: ['should', 'choose', 'just', 'machine', 'patch', 'enjoyed', 'phishing', 'branch', 'digital', 'choices', 'manager', 'permission'],
       answers: {
         'should': 0, 'machine': 0, 'phishing': 0, 'permission': 0,
         'choose': 1, 'choices': 1, 'patch': 1, 'branch': 1,

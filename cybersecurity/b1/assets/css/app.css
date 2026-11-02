@@ -549,6 +549,13 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
   background:var(--surface-2); padding:12px 14px;
 }
 .reasons h5 { font-size:13px; color:var(--primary); margin-bottom:8px; }
+/* In the card's own slot the panel is the last thing in the card, so
+   it drops its floating rounded box and takes the bottom edge the
+   same way .card-foot takes a top one. The wrapper carries no box of
+   its own, so a card whose panel is still hidden gains no height. */
+.card-reasons .reasons {
+  margin-top:0; border:0; border-top:1px solid var(--border); border-radius:0;
+}
 /* the item on one line and its reason under it, so every reason
    starts at the same place however long the item is */
 .rs-row {
@@ -1066,6 +1073,13 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
   .tile-say { display:none !important; }
   /* the reasons are the worked answers, so they print */
   .reasons { background:#fff; border:1px solid #bbb; break-inside:avoid; }
+  /* on screen the panel is flush with the card's bottom edge; on paper
+     there is no card edge to be flush with, so it takes its box back.
+     Stated at this specificity because .card-reasons .reasons would
+     otherwise win and print a single hairline. */
+  .card-reasons .reasons {
+    border:1px solid #bbb; border-radius:var(--r-3); margin-top:10px;
+  }
   .rs-row { border-top:1px solid #ddd; }
   /* carried material prints open, whatever state it is in on screen */
   .src { border:1px solid #bbb; background:#fff; break-inside:avoid; }

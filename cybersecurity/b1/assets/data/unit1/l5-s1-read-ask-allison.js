@@ -81,10 +81,10 @@
             q: 'Which of these is the best first stop for someone who wants to learn to stay safe online — and nothing else?',
             evidence: 'think about cost, about who it is open to, and about whether somebody is there to ask.',
             options: [
+              { t: 'Your employer\'s awareness training.', ok: false, why: 'Useful and often free — but only if you have a job that provides it, so it is not open to everyone.' },
               { t: 'The public library: free, open to everyone, has computers, and a librarian you can actually ask a question.', ok: true, why: 'Right — and it is exactly where Allison sends three of her four readers. Free, no enrolment, and a person to ask.' },
               { t: 'A university degree in cybersecurity.', ok: false, why: 'Four years and a diploma or GED to get in. Far too much for somebody who only wants to stay safe online.' },
-              { t: 'A penetration-testing bootcamp.', ok: false, why: 'A bootcamp teaches one professional skill fast. It is for a career, not for personal safety.' },
-              { t: 'Your employer\'s awareness training.', ok: false, why: 'Useful and often free — but only if you have a job that provides it, so it is not open to everyone.' }
+              { t: 'A penetration-testing bootcamp.', ok: false, why: 'A bootcamp teaches one professional skill fast. It is for a career, not for personal safety.' }
             ]
           }
         ],
@@ -133,9 +133,9 @@
           body: 'Before they read, good readers ask themselves: <b>What do I want from this article?</b>'
         }],
         options: [
-          { t: 'Allison gives advice to her readers in the newspaper.', ok: true, why: 'Correct — the title "Ask Allison" and the newspaper masthead tell you this, and nothing more is needed.' },
           { t: 'Allison gives good advice.', ok: false, why: 'This is an opinion. A title and a picture cannot tell you whether the advice is good.' },
-          { t: 'Allison only gives advice about passwords.', ok: false, why: 'The word "only" is too strong. Nothing in the title limits her to one subject.' }
+          { t: 'Allison only gives advice about passwords.', ok: false, why: 'The word "only" is too strong. Nothing in the title limits her to one subject.' },
+          { t: 'Allison gives advice to her readers in the newspaper.', ok: true, why: 'Correct — the title "Ask Allison" and the newspaper masthead tell you this, and nothing more is needed.' }
         ]
       },
       {
@@ -152,10 +152,10 @@
               evidence: 'look at what she offers in every reply — and at how she ends each one.',
               jump: { sel: '.reading' },
               options: [
-                { t: 'She tells readers that free help already exists nearby, and that they can do the thing themselves.', ok: true, why: 'Right — both halves matter. She points at free help, and she insists the reader is capable: "You can do it!"' },
-                { t: 'She tells readers to pay a professional to fix it for them.', ok: false, why: 'The opposite. Nothing she recommends costs money, and she never sends anyone to a paid service.' },
                 { t: 'She tells readers that the problem is their own fault.', ok: false, why: 'She goes out of her way not to: "No need to worry", "You are not alone, and it\'s not too late".' },
-                { t: 'She gives technical instructions for configuring security software.', ok: false, why: 'She names a password manager, but she never explains how to set anything up. Her advice is about where to go and what to do next.' }
+                { t: 'She gives technical instructions for configuring security software.', ok: false, why: 'She names a password manager, but she never explains how to set anything up. Her advice is about where to go and what to do next.' },
+                { t: 'She tells readers that free help already exists nearby, and that they can do the thing themselves.', ok: true, why: 'Right — both halves matter. She points at free help, and she insists the reader is capable: "You can do it!"' },
+                { t: 'She tells readers to pay a professional to fix it for them.', ok: false, why: 'The opposite. Nothing she recommends costs money, and she never sends anyone to a paid service.' }
               ]
             },
             {
@@ -176,10 +176,10 @@
               jump: { sel: '.reading' },
               display: 'drop',
               options: [
-                { t: 'To the library', ok: true, why: 'Right — three times out of four. It is free, it has computers, and the librarians help.' },
                 { t: 'To a community college', ok: false, why: 'A pathway from Lesson 1, but not where Allison sends anyone.' },
                 { t: 'To their employer', ok: false, why: 'She tells "Phished Once" to report the message to the company — that is reporting, not somewhere to go and learn.' },
-                { t: 'To a bootcamp', ok: false, why: 'Far too big a step for the problems in these four letters.' }
+                { t: 'To a bootcamp', ok: false, why: 'Far too big a step for the problems in these four letters.' },
+                { t: 'To the library', ok: true, why: 'Right — three times out of four. It is free, it has computers, and the librarians help.' }
               ]
             }
           ]
@@ -222,10 +222,10 @@
             q: 'So — is Allison encouraging her readers to succeed? Choose the answer that matches what you underlined.',
             evidence: 'the first and last sentence of each of her four replies.',
             options: [
+              { t: 'No — she sends them away to the library instead of helping.', ok: false, why: 'Sending somebody to free help nearby is the help. And she still tells them they can do it.' },
               { t: 'Yes — every reply starts by removing the fear ("No need to worry") and ends by telling the reader they can do it themselves.', ok: true, why: 'Right, and the pattern is the evidence: the encouragement is not scattered, it is at the start and the end of all four replies.' },
               { t: 'Yes — she says the problems are not serious.', ok: false, why: 'She never says that. "No need to worry" is about the reader\'s ability to fix it, not about the problem being small.' },
-              { t: 'No — she tells them what they did wrong.', ok: false, why: 'Read her openings again. Not one of the four begins with blame.' },
-              { t: 'No — she sends them away to the library instead of helping.', ok: false, why: 'Sending somebody to free help nearby is the help. And she still tells them they can do it.' }
+              { t: 'No — she tells them what they did wrong.', ok: false, why: 'Read her openings again. Not one of the four begins with blame.' }
             ]
           }
         ]

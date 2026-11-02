@@ -80,7 +80,13 @@ CSB1.page('u1-l5-s2', {
       },
       poolLabel: 'Drag each base word into the right box — or click it, then click a box.',
       cols: [{ label: 'takes dis-' }, { label: 'does NOT take dis-' }],
-      pool: ['like', 'agree', 'obey', 'organized', 'respect', 'able', 'satisfied', 'arm', 'connect', 'honest', 'happy', 'possible', 'legal', 'secure'],
+      /* The ten that take dis- came first and the four that do not
+         came last, so the whole card could be answered as "first ten,
+         then four" — and the four exceptions are the entire lesson.
+         Ten against four cannot alternate perfectly; what matters is
+         that the four are spread through the list instead of parked
+         at the end. */
+      pool: ['agree', 'happy', 'obey', 'like', 'possible', 'respect', 'arm', 'legal', 'organized', 'able', 'secure', 'satisfied', 'honest', 'connect'],
       answers: {
         'like': 0, 'agree': 0, 'obey': 0, 'organized': 0, 'respect': 0, 'able': 0, 'satisfied': 0, 'arm': 0, 'connect': 0, 'honest': 0,
         'happy': 1, 'possible': 1, 'legal': 1, 'secure': 1

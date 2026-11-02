@@ -13,10 +13,10 @@ CSB1.page('u1-l4-s4', {
       question: 'What are Carlos and Joseph talking about?',
       evidence: 'put the four clues together — the poster, the thought bubble, the placard and the folder.',
       options: [
-        { t: 'Carlos\'s career choices in cybersecurity.', ok: true, why: 'Right — and every one of the four clues points at it: the pathways poster, his thought bubble, the mentor placard and his file on the desk.' },
-        { t: 'A phishing email that Carlos has reported.', ok: false, why: 'Nothing on the desk or the wall is an email. That is the first-day scene in Lesson 2.' },
         { t: 'Carlos\'s exam results from last term.', ok: false, why: 'The folder is his record, but the poster and the thought bubble are both about choosing a route, not about marks.' },
-        { t: 'Whether Carlos can join the cyber club.', ok: false, why: 'The club belongs to Tara\'s story in §1. The placard here says CYBER CAREER MENTOR.' }
+        { t: 'Whether Carlos can join the cyber club.', ok: false, why: 'The club belongs to Tara\'s story in §1. The placard here says CYBER CAREER MENTOR.' },
+        { t: 'Carlos\'s career choices in cybersecurity.', ok: true, why: 'Right — and every one of the four clues points at it: the pathways poster, his thought bubble, the mentor placard and his file on the desk.' },
+        { t: 'A phishing email that Carlos has reported.', ok: false, why: 'Nothing on the desk or the wall is an email. That is the first-day scene in Lesson 2.' }
       ],
       keys: ['career', 'job', 'future', 'pathway'],
       model: 'They are talking about Carlos\'s career choices in cybersecurity.',

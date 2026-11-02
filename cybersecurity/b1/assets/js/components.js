@@ -87,7 +87,15 @@
   function Reasons(host, title) {
     var box = mk('div', 'reasons');
     box.hidden = true;
-    host.appendChild(box);
+    /* The card puts a slot after its button row for exactly this
+       panel; see the note in core.js buildCard. Appending to `host`
+       instead would drop 600–800px of prose ABOVE the buttons and
+       push them off the screen the moment Check is pressed. The
+       fallback keeps a component usable on its own, which is how
+       the browser suites mount some of them. */
+    var owner = host.closest ? host.closest('.card') : null;
+    var slot = owner ? owner.querySelector('.card-reasons') : null;
+    (slot || host).appendChild(box);
     return {
       el: box,
       hide: function () { box.hidden = true; box.innerHTML = ''; },
@@ -1201,7 +1209,14 @@
     if (card.bank) {
       var bank = mk('div', 'chips');
       bank.appendChild(mk('span', 'wc', 'Word bank: '));
-      U.shuffle(card.bank).forEach(function (b) {
+      /* Shown in the authored order, NOT shuffled here. This was the
+         one place in the course that rearranged itself at run time,
+         which meant the bank a learner saw was not the bank on the
+         printout or in the teacher's key, and reloading the page
+         quietly dealt a different exercise. The scatter belongs in
+         the data, where it can be read, checked and kept — the same
+         rule the `order` type already follows. */
+      card.bank.forEach(function (b) {
         var cEl = mk('span', 'chip', esc(b));
         cEl.onclick = function () {
           var f = box.querySelector('.blank:not([data-filled])') || box.querySelector('.blank');

@@ -17,10 +17,10 @@ CSB1.page('u1-l4-s1', {
             evidence: 'Tara\'s long turn — she names two things.',
             jump: { scene: 'u1-career-chat', line: 3 },
             options: [
-              { t: 'She ran the school cyber club and volunteered at the community tech help desk.', ok: true, why: 'Right — two things, and both of them are about working with people. That is what makes the mentor\'s suggestion fit.' },
               { t: 'She finished a university degree in cybersecurity.', ok: false, why: 'No degree is mentioned. She is still deciding what to do next.' },
               { t: 'She worked night shifts in a Security Operations Centre.', ok: false, why: 'That is Dana\'s and Omar\'s world in the At Work lesson, not Tara\'s last year.' },
-              { t: 'She took a penetration-testing bootcamp.', ok: false, why: 'A bootcamp is one of the pathways from Lesson 1, but Tara never says she did one.' }
+              { t: 'She took a penetration-testing bootcamp.', ok: false, why: 'A bootcamp is one of the pathways from Lesson 1, but Tara never says she did one.' },
+              { t: 'She ran the school cyber club and volunteered at the community tech help desk.', ok: true, why: 'Right — two things, and both of them are about working with people. That is what makes the mentor\'s suggestion fit.' }
             ]
           }
         ]
@@ -40,10 +40,10 @@ CSB1.page('u1-l4-s1', {
             jump: { scene: 'u1-career-chat', line: 3 },
             display: 'drop',
             options: [
+              { t: 'Fixing hardware', ok: false, why: 'Nothing about hardware appears in this conversation.' },
               { t: 'Working with people', ok: true, why: 'Right — and notice she says it with "I think I would like to", because she is not certain.' },
               { t: 'Working alone', ok: false, why: 'That is the trainee in the Lesson 2 journal entry, not Tara.' },
-              { t: 'Writing reports', ok: false, why: 'Reports belong to the SOC lesson. Tara talks about people.' },
-              { t: 'Fixing hardware', ok: false, why: 'Nothing about hardware appears in this conversation.' }
+              { t: 'Writing reports', ok: false, why: 'Reports belong to the SOC lesson. Tara talks about people.' }
             ]
           },
           {
@@ -52,10 +52,10 @@ CSB1.page('u1-l4-s1', {
             jump: { scene: 'u1-career-chat', line: 4 },
             display: 'drop',
             options: [
-              { t: 'Security awareness training', ok: true, why: 'Right — he picks it precisely because she enjoys working with people.' },
               { t: 'Penetration testing', ok: false, why: 'A reasonable cyber job, but not the one he names. Listen to his question again.' },
               { t: 'Network engineering', ok: false, why: 'Not mentioned. The mentor matches the job to what she enjoys.' },
-              { t: 'He did not suggest anything', ok: false, why: 'He does suggest one, in the form of a question: "How about a career in…?"' }
+              { t: 'He did not suggest anything', ok: false, why: 'He does suggest one, in the form of a question: "How about a career in…?"' },
+              { t: 'Security awareness training', ok: true, why: 'Right — he picks it precisely because she enjoys working with people.' }
             ]
           },
           {

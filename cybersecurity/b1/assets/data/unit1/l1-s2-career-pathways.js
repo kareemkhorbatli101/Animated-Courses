@@ -8,14 +8,19 @@ CSB1.page('u1-l1-s2', {
       id: 'c2a', ref: '2A', bookRef: 'p.5 · 2A', type: 'dragcloze',
       title: 'Complete the brochure',
       instruction: 'Complete the "Pathways into Cybersecurity" brochure with the names of the seven pathways. The first one is done for you.',
+      /* The seven stages are a real progression, and the passage walks
+         them in order — so listed in that same order the tiles went
+         into the gaps one for one and the pathway could be rebuilt
+         without reading the paragraph that explains it. Scattered so
+         that no tile sits at its own gap. */
       tiles: [
-        { id: 'p0', label: 'digital-literacy class', art: 'pw-digital' },
-        { id: 'p1', label: 'IT fundamentals course', art: 'pw-itfund' },
-        { id: 'p2', label: 'high-school cyber academy', art: 'pw-highschool' },
-        { id: 'p3', label: 'adult school', art: 'pw-adult' },
         { id: 'p4', label: 'community college', art: 'pw-college' },
+        { id: 'p6', label: 'bootcamp', art: 'pw-bootcamp' },
+        { id: 'p1', label: 'IT fundamentals course', art: 'pw-itfund' },
+        { id: 'p0', label: 'digital-literacy class', art: 'pw-digital' },
         { id: 'p5', label: 'university', art: 'pw-university' },
-        { id: 'p6', label: 'bootcamp', art: 'pw-bootcamp' }
+        { id: 'p3', label: 'adult school', art: 'pw-adult' },
+        { id: 'p2', label: 'high-school cyber academy', art: 'pw-highschool' }
       ],
       text: '<h4>PATHWAYS INTO CYBERSECURITY</h4>' +
         '<p>In the United States, most people begin with basic digital skills. They usually take a [[0]] before anything else. ' +

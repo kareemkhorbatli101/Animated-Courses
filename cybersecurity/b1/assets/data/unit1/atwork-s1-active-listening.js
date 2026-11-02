@@ -13,9 +13,9 @@ CSB1.page('u1-atwork-s1', {
       quiz: {
         type: 'mcq',
         options: [
-          { t: 'Two people talk in every conversation.', ok: false, why: 'Listen again — a third voice joins partway through.' },
           { t: 'Three people talk: a shift lead and two analysts.', ok: true, why: 'Correct — Dana leads the handover, and Omar and Priya each report on their shift.' },
-          { t: 'Four people talk.', ok: false, why: 'Only three distinct voices appear. Count the names in the transcript.' }
+          { t: 'Four people talk.', ok: false, why: 'Only three distinct voices appear. Count the names in the transcript.' },
+          { t: 'Two people talk in every conversation.', ok: false, why: 'Listen again — a third voice joins partway through.' }
         ]
       }
     },
@@ -56,10 +56,10 @@ CSB1.page('u1-atwork-s1', {
           q: '1. Why is it important to show that you are listening?',
           evidence: 'think about what the speaker needs, not about what looks polite.',
           options: [
-            { t: 'It tells the speaker to carry on, and it proves the information has reached you.', ok: true, why: 'Right — it is a signal, not a courtesy. In a handover the speaker is about to leave and needs to know you have it.' },
-            { t: 'It shows the speaker that you are a polite person.', ok: false, why: 'Politeness is a side effect. The reason it matters at work is that the speaker needs to know the information arrived.' },
             { t: 'It stops the speaker talking for too long.', ok: false, why: 'The opposite — "Go on…" and "Uh-huh" invite the speaker to continue.' },
-            { t: 'It means you do not have to take notes.', ok: false, why: 'Taking notes is itself one of the five listening behaviours in the chart.' }
+            { t: 'It means you do not have to take notes.', ok: false, why: 'Taking notes is itself one of the five listening behaviours in the chart.' },
+            { t: 'It tells the speaker to carry on, and it proves the information has reached you.', ok: true, why: 'Right — it is a signal, not a courtesy. In a handover the speaker is about to leave and needs to know you have it.' },
+            { t: 'It shows the speaker that you are a polite person.', ok: false, why: 'Politeness is a side effect. The reason it matters at work is that the speaker needs to know the information arrived.' }
           ]
         },
         {

@@ -46,20 +46,20 @@ CSB1.page('u1-l5-s3', {
             evidence: 'the top two tiers of the pyramid, at 70% and 90%.',
             display: 'drop',
             options: [
+              { t: 'Written', ok: false, why: 'Reading is on the chart, at the very bottom with 10%. Writing is not a tier at all.' },
               { t: 'Active', ok: true, why: 'Right — the two highest tiers, speaking at 70% and saying-and-doing at 90%, are both things you produce rather than receive.' },
               { t: 'Passive', ok: false, why: 'Passive is the bottom four tiers, from 10% to 50%. Those are the ones where the English arrives ready-made.' },
-              { t: 'Visual', ok: false, why: 'Looking and seeing is one tier of the chart, at 30% — not one of the two halves it is divided into.' },
-              { t: 'Written', ok: false, why: 'Reading is on the chart, at the very bottom with 10%. Writing is not a tier at all.' }
+              { t: 'Visual', ok: false, why: 'Looking and seeing is one tier of the chart, at 30% — not one of the two halves it is divided into.' }
             ]
           },
           {
             q: '2. Which of these is an example of active learning?',
             evidence: 'look at what sits in the 70% and 90% tiers.',
             options: [
-              { t: 'Doing a hands-on firewall lab and narrating what you are doing', ok: true, why: 'Right — the 90% tier. Your hands are busy and so is your mouth, which is why it is the highest on the chart.' },
               { t: 'Watching a recorded lab walkthrough', ok: false, why: 'That is the 50% tier: seeing and hearing. It is the best of the passive kinds, and still only half as good as doing it.' },
               { t: 'Reading the vendor advisory carefully', ok: false, why: 'Reading is 10%, the bottom of the chart — and reading it carefully does not move it up a tier.' },
-              { t: 'Studying a SOC dashboard screenshot', ok: false, why: 'Looking and seeing, at 30%. A diagram is easier to remember than prose, but you still produce nothing.' }
+              { t: 'Studying a SOC dashboard screenshot', ok: false, why: 'Looking and seeing, at 30%. A diagram is easier to remember than prose, but you still produce nothing.' },
+              { t: 'Doing a hands-on firewall lab and narrating what you are doing', ok: true, why: 'Right — the 90% tier. Your hands are busy and so is your mouth, which is why it is the highest on the chart.' }
             ]
           },
           {
@@ -77,10 +77,10 @@ CSB1.page('u1-l5-s3', {
             q: '4. Which of these is a sample speaking activity from the chart?',
             evidence: 'the 70% tier names three.',
             options: [
-              { t: 'Explaining a phishing email to your study group', ok: true, why: 'Right — a group discussion, in the 70% tier. You have to find the words yourself, in front of people who will ask.' },
-              { t: 'Listening to a security podcast on the way to work', ok: false, why: 'Listening is the 20% tier. Good use of the journey, and still the second-lowest thing on the chart.' },
               { t: 'Watching an analyst work through an incident', ok: false, why: 'Seeing and hearing, 50%. Watching an expert is the most convincing kind of passive learning, which is what makes it a trap.' },
-              { t: 'Taking a capture-the-flag exercise', ok: false, why: 'A real activity from the chart, but from the 90% tier — saying and doing, not speaking.' }
+              { t: 'Taking a capture-the-flag exercise', ok: false, why: 'A real activity from the chart, but from the 90% tier — saying and doing, not speaking.' },
+              { t: 'Explaining a phishing email to your study group', ok: true, why: 'Right — a group discussion, in the 70% tier. You have to find the words yourself, in front of people who will ask.' },
+              { t: 'Listening to a security podcast on the way to work', ok: false, why: 'Listening is the 20% tier. Good use of the journey, and still the second-lowest thing on the chart.' }
             ]
           },
           {
@@ -88,10 +88,10 @@ CSB1.page('u1-l5-s3', {
             evidence: 'find demonstrations on the chart, then ask which half it is in.',
             display: 'drop',
             options: [
-              { t: 'Passive', ok: true, why: 'Right. A demonstration is somebody else doing it while you watch — the top of the passive range at 50%, which is exactly why it feels more useful than it is.' },
               { t: 'Active', ok: false, why: 'You would have to be the one demonstrating. Watching produces nothing, however carefully you watch.' },
               { t: 'Neither — it is not on the chart', ok: false, why: 'It is on the chart: "demonstrations and guided lab walkthroughs", in the 50% tier.' },
-              { t: 'Both equally', ok: false, why: 'The chart divides every tier into one or the other. The question to ask is always: am I receiving this, or producing something?' }
+              { t: 'Both equally', ok: false, why: 'The chart divides every tier into one or the other. The question to ask is always: am I receiving this, or producing something?' },
+              { t: 'Passive', ok: true, why: 'Right. A demonstration is somebody else doing it while you watch — the top of the passive range at 50%, which is exactly why it feels more useful than it is.' }
             ]
           }
         ]
@@ -114,11 +114,16 @@ CSB1.page('u1-l5-s3', {
         { label: 'Speaking (70%)', seed: ['study-group discussion'] },
         { label: 'Saying and doing (90%)', seed: ['incident role-play'] }
       ],
+      /* The first nine ran straight up the chart — two at 30%, two at
+         50%, two at 70%, three at 90% — so most of the card sorted
+         itself by position. Scattered across the four bands, and it
+         now opens on a 90% item so the list cannot be read as a
+         ladder at all. */
       pool: [
-        'SOC dashboard screenshots', 'an annotated attack map', 'a recorded lab walkthrough',
-        'a conference talk with slides', 'explaining a term to a classmate', 'presenting a phishing analysis',
-        'a hands-on firewall lab', 'a capture-the-flag exercise', 'tutoring a new trainee',
-        'a packet-capture diagram', 'a vendor demonstration', 'a mock shift handover'
+        'a hands-on firewall lab', 'SOC dashboard screenshots', 'a vendor demonstration',
+        'presenting a phishing analysis', 'a packet-capture diagram', 'tutoring a new trainee',
+        'a conference talk with slides', 'an annotated attack map', 'a mock shift handover',
+        'explaining a term to a classmate', 'a recorded lab walkthrough', 'a capture-the-flag exercise'
       ],
       answers: {
         'SOC dashboard screenshots': 0, 'an annotated attack map': 0, 'a packet-capture diagram': 0,

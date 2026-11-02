@@ -87,16 +87,24 @@ CSB1.page('u1-l1-s1', {
       instruction: 'Match the nine study-skill words with the nine pictures. Drag a word onto the picture it belongs to — or click the word, then click the picture. Number 1 is done for you.',
       poolLabel: 'Click a word, then click its picture — or drag it there. Double-click a picture to take the word off again.',
       cols: 3,
+      /* Scattered on purpose, and scattered DIFFERENTLY from the tiles
+         in 1C, which carry the same nine skills. Written in picture
+         order these nine could be dragged straight down the column
+         without looking at a single picture, which is the whole task.
+         Fixed here in the data rather than shuffled at run time: the
+         teacher key and the printout have to show what the learner
+         sees, and a card that rearranges itself on every reload is a
+         different exercise every time. */
       chips: [
-        { id: 'w-notes', label: 'take notes' },
-        { id: 'w-quiet', label: 'find a quiet place' },
-        { id: 'w-research', label: 'do research' },
-        { id: 'w-break', label: 'take a break' },
         { id: 'w-online', label: 'search online' },
-        { id: 'w-organize', label: 'organize materials' },
-        { id: 'w-schedule', label: 'make a study schedule' },
+        { id: 'w-outline', label: 'make an outline' },
+        { id: 'w-notes', label: 'take notes' },
         { id: 'w-memorize', label: 'memorize words' },
-        { id: 'w-outline', label: 'make an outline' }
+        { id: 'w-quiet', label: 'find a quiet place' },
+        { id: 'w-schedule', label: 'make a study schedule' },
+        { id: 'w-break', label: 'take a break' },
+        { id: 'w-research', label: 'do research' },
+        { id: 'w-organize', label: 'organize materials' }
       ],
       /* `label` here is not printed anywhere: the picture is the
          question, so a sentence describing it would be the answer.
@@ -161,16 +169,23 @@ CSB1.page('u1-l1-s1', {
         type: 'dragcloze',
         say: true, voice: 'f',
         whyTitle: 'What she said, rule by rule',
+        /* THIS is the card the ordering mattered most on. Written in
+           rule order, the nine tiles lined up with the nine gaps one
+           for one, so the summary could be completed left to right
+           without listening to her at all — in the one exercise on
+           the page whose entire point is listening. A different
+           scatter from 1B's, so a learner who has just done 1B does
+           not arrive here with the order already memorised. */
         tiles: [
-          { id: 'e-notes', label: 'take notes', art: 'take-notes' },
-          { id: 'e-quiet', label: 'find a quiet place', art: 'quiet-place' },
-          { id: 'e-research', label: 'do research', art: 'do-research' },
           { id: 'e-break', label: 'take a break', art: 'take-break' },
-          { id: 'e-online', label: 'search online', art: 'search-online' },
           { id: 'e-organize', label: 'organize materials', art: 'organize' },
+          { id: 'e-notes', label: 'take notes', art: 'take-notes' },
+          { id: 'e-outline', label: 'make an outline', art: 'outline' },
+          { id: 'e-research', label: 'do research', art: 'do-research' },
           { id: 'e-schedule', label: 'make a study schedule', art: 'schedule' },
-          { id: 'e-memorize', label: 'memorize words', art: 'memorize' },
-          { id: 'e-outline', label: 'make an outline', art: 'outline' }
+          { id: 'e-quiet', label: 'find a quiet place', art: 'quiet-place' },
+          { id: 'e-online', label: 'search online', art: 'search-online' },
+          { id: 'e-memorize', label: 'memorize words', art: 'memorize' }
         ],
         text: '<h4>Nine rules for the lab</h4>' +
           '<p><b>1</b> The first time you hear a new term, [[b1]] — write it down there and then.<br>' +

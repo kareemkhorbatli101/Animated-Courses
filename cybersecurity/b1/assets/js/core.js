@@ -682,6 +682,26 @@
     var verdict = U.el('div', 'verdict');
     var foot = U.el('div', 'card-foot no-print');
 
+    /* ----------------------------------------------------------
+       The worked answers open BELOW the buttons, not above them.
+
+       `Reasons` used to append its panel to the activity host,
+       which put it inside .card-body — between the activity and
+       this footer. Pressing Check then opened 600–800px of prose
+       directly above the button row and shoved it that far down
+       the page: measured at 851px on 1A, 670px on 1B and 1C. The
+       learner pressed Check and the button they had just pressed,
+       along with Try again, Hint and Show me, was now a full
+       screen below their eyes.
+
+       So the card gets a slot after the footer and the panel goes
+       there. Nothing else moves, and because every activity type
+       builds its panel through the one `Reasons` helper, all
+       fourteen of them move together.
+       ---------------------------------------------------------- */
+    var reasonsSlot = U.el('div', 'card-reasons');
+    sec.appendChild(reasonsSlot);
+
     var inst = null;
     var factory = CSB1.ex[card.type];
 
@@ -778,7 +798,8 @@
     }
     foot.appendChild(U.el('div', 'grow'));
     if (card.bookRef) foot.appendChild(U.el('span', 'bookchip', card.bookRef));
-    sec.appendChild(foot);
+    /* before the slot, so the order is body → buttons → worked answers */
+    sec.insertBefore(foot, reasonsSlot);
 
     /* restore saved work */
     if (gate && rec.gate) { try { gate.force(); } catch (e) { } }

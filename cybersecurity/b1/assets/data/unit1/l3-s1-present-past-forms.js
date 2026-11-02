@@ -35,10 +35,10 @@ CSB1.page('u1-l3-s1', {
             jump: { sel: '.reading.memo' },
             display: 'drop',
             options: [
-              { t: 'Every day', ok: true, why: 'Right — and "every day" is the signal for the simple present.' },
-              { t: 'On Monday night', ok: false, why: 'That is when he wrote the incident report. Different sentence, different tense.' },
               { t: 'Only today', ok: false, why: '"Today" is in the last sentence, about memorizing. The notebook is a daily habit.' },
-              { t: 'On Tuesday night', ok: false, why: 'Tuesday night was the networking questions.' }
+              { t: 'On Tuesday night', ok: false, why: 'Tuesday night was the networking questions.' },
+              { t: 'Every day', ok: true, why: 'Right — and "every day" is the signal for the simple present.' },
+              { t: 'On Monday night', ok: false, why: 'That is when he wrote the incident report. Different sentence, different tense.' }
             ]
           },
           {
@@ -58,10 +58,10 @@ CSB1.page('u1-l3-s1', {
             evidence: 'the last sentence — "Today is Wednesday, and I am…".',
             jump: { sel: '.reading.memo' },
             options: [
-              { t: 'He is memorizing this week\'s new terms and preparing for tomorrow\'s class.', ok: true, why: 'Right — two present-continuous verbs, because both are going on right now.' },
               { t: 'He is writing his incident report.', ok: false, why: 'He wrote the report on Monday night. That one is finished, so it is the simple past.' },
               { t: 'He memorizes five new terms every day.', ok: false, why: 'True as a habit, but the question asks what is happening *today*, which needs the present continuous.' },
-              { t: 'He was eating dinner.', ok: false, why: 'That was Monday night — past continuous, not today.' }
+              { t: 'He was eating dinner.', ok: false, why: 'That was Monday night — past continuous, not today.' },
+              { t: 'He is memorizing this week\'s new terms and preparing for tomorrow\'s class.', ok: true, why: 'Right — two present-continuous verbs, because both are going on right now.' }
             ]
           },
           {
@@ -70,10 +70,10 @@ CSB1.page('u1-l3-s1', {
             jump: { sel: '.reading.memo' },
             display: 'drop',
             options: [
+              { t: 'He was taking a break', ok: false, why: 'A break is in the vocabulary list from Lesson 1, not in this paragraph.' },
               { t: 'He was eating dinner', ok: true, why: 'Right — the long action in the background, so past continuous, while "wrote" is the short one.' },
               { t: 'He was studying for networking', ok: false, why: 'The networking questions were Tuesday, and he was not doing them while writing the report.' },
-              { t: 'He was memorizing terms', ok: false, why: 'That is today, in the present continuous.' },
-              { t: 'He was taking a break', ok: false, why: 'A break is in the vocabulary list from Lesson 1, not in this paragraph.' }
+              { t: 'He was memorizing terms', ok: false, why: 'That is today, in the present continuous.' }
             ]
           }
         ]
@@ -123,15 +123,21 @@ CSB1.page('u1-l3-s1', {
         { label: 'Simple past' },
         { label: 'Past continuous' }
       ],
+      /* Interleaved by tense, never blocked by it. Written out of the
+         paragraph in reading order these eight arrived as three
+         presents, then two pasts, then the past continuous, then two
+         present continuous — so the column could be read off the
+         position in the list instead of off the verb. No two
+         neighbours now share a column. */
       pool: [
-        'I write my tasks in a notebook',
-        'we learn five new terms',
-        'I always write them down',
         'I wrote my incident report',
-        'I answered the questions',
-        'I was eating dinner',
         'I am memorizing this week\'s new terms',
-        'I am preparing for tomorrow\'s class'
+        'I always write them down',
+        'I was eating dinner',
+        'we learn five new terms',
+        'I answered the questions',
+        'I am preparing for tomorrow\'s class',
+        'I write my tasks in a notebook'
       ],
       answers: {
         'I write my tasks in a notebook': 0,
