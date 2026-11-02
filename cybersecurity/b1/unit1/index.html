@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 1 · Learning Together · Cybersecurity B1</title>
+<meta name="description" content="Unit 1 map — 21 interactive sections across five lessons, At Work and the review.">
+<link rel="stylesheet" href="../assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M24 3 6 10v13c0 11 7.6 20.4 18 22 10.4-1.6 18-11 18-22V10z' fill='%230b5f6b'/%3E%3Cpath d='M16 24.5 21.5 30 33 18.5' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>window.CSB1_BASE='../';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/scene.js"></script>
+<script src="../assets/data/unit1/voices.js"></script>
+<script src="../assets/data/unit1/audio.js"></script>
+<script src="../assets/data/unit1/glossary.js"></script>
+<script src="coverage.js"></script>
+<script src="../assets/data/unit1/map.js"></script>
+</head>
+<body>
+<script>
+(function(){
+  var U = CSB1.util, el = U.el, art = CSB1.art, P = CSB1.progress;
+
+  var LESSONS = [
+    { name:'Lesson 1 · Vocabulary', room:'The Classroom', pages:[
+      ['l1-s1-study-skills','u1-l1-s1','§1 Identify study skills for cyber training','1A–1D · drag-and-drop lab, narrated scene',4],
+      ['l1-s2-career-pathways','u1-l1-s2','§2 U.S. cybersecurity career pathways','2A–2D + Test yourself · brochure cloze, flashcards',5]
+    ]},
+    { name:'Lesson 2 · Writing', room:'The Classroom', pages:[
+      ['l2-s1-prepare-to-write','u1-l2-s1','§1 Prepare to write','1A–1C · narrated journal, evidence highlighter',6],
+      ['l2-s2-plan-and-write','u1-l2-s2','§2 Plan and write','2A–2B · note pad, guided writing workspace',7],
+      ['l2-s3-feedback-revise','u1-l2-s3','§3 Get feedback and revise','3A–3C + Test yourself · live checklist, peer review',7]
+    ]},
+    { name:'Lesson 3 · Grammar', room:'The Cyber Lab', pages:[
+      ['l3-s1-present-past-forms','u1-l3-s1','§1 Review present and past verb forms','1A–1D · tense tagger, Danny’s day played up to now',8],
+      ['l3-s2-yesno-questions','u1-l3-s2','§2 Present and past yes / no questions','2A–2C · two-stage circle-and-match, editor',9],
+      ['l3-s3-listen-for-tenses','u1-l3-s3','§3 Listen for the tenses','Ten voices on the SOC floor · 10 × 4 grid',10],
+      ['l3-s4-use-verb-forms','u1-l3-s4','§4 Use present and past verb forms','Cyber Lab diorama: now vs 10:30 + Test yourself',10]
+    ]},
+    { name:'Lesson 4 · Everyday Conversation', room:'The Mentor’s Office', pages:[
+      ['l4-s1-career-talk','u1-l4-s1','§1 Learn ways to talk about careers','1A–1C · Tara meets her mentor',11],
+      ['l4-s2-pronunciation','u1-l4-s2','§2 Pronunciation — sh, ch and j','2A–2C · mouth-cam close-up, minimal pairs',11],
+      ['l4-s3-adjectives-adverbs','u1-l4-s3','§3 Adjectives and adverbs','3A–3B · live noun / verb slot chart',12],
+      ['l4-s4-conversation-skills','u1-l4-s4','§4 Building conversation skills','4A–4C · clue hunt, phrase swapping, role-play studio',12],
+      ['l4-s5-listening-details','u1-l4-s5','§5 Focus on listening for details','5A–5C · opinion slider, predict-then-listen',13],
+      ['l4-s6-discuss','u1-l4-s6','§6 Discuss','6A–6B + Test yourself · job-skills chart builder',13]
+    ]},
+    { name:'Lesson 5 · Reading', room:'The Cyber Lab', pages:[
+      ['l5-s1-read-ask-allison','u1-l5-s1','§1 Read — Ask Allison','1A–1F · narrated column, T / F / NI with line numbers',14],
+      ['l5-s2-word-study-dis','u1-l5-s2','§2 Word study — the prefix dis-','2A–2B · prefix machine, speaking prompts',15],
+      ['l5-s3-talk-it-over','u1-l5-s3','§3 Talk it over','3A–3C + Bring it to life · the learning pyramid',16]
+    ]},
+    { name:'At Work', room:'The SOC Floor', pages:[
+      ['atwork-s1-active-listening','u1-atwork-s1','Show that you are listening','A–D · shift handover and observer mode',17]
+    ]},
+    { name:'Teamwork & Language Review', room:'The Classroom · The SOC Floor', pages:[
+      ['review-s1-teamwork','u1-review-s1','Review unit language','A–F · cohort diorama, interviews, pie chart',18],
+      ['review-s2-problem-solving','u1-review-s2','Problem solving — Teresa','A–C · narrated scene, solution grid, letter',19]
+    ]}
+  ];
+
+  CSB1.chrome = { refresh: function(){} };
+  document.body.appendChild((function(){
+    var bar = el('header','topbar'), wrap = el('div','wrap');
+    var brand = el('a','brand'); brand.href='../index.html';
+    brand.innerHTML = art.logo() + '<span>Cybersecurity B1</span>';
+    wrap.appendChild(brand);
+    wrap.appendChild(el('div','crumbs','<span class="sep">▸</span><span>Unit 1 · Learning Together</span>'));
+    wrap.appendChild(el('div','spacer'));
+    var tools = el('div','tb-tools');
+    var th = el('button','btn btn-sm btn-ghost', art.icon('moon',16));
+    th.title='Light / dark theme'; th.onclick=CSB1.toggleTheme; tools.appendChild(th);
+    var tc = el('a','btn btn-sm btn-ghost', art.icon('book',16)+'Teacher');
+    tc.href='../teacher/answers-unit1.html'; tools.appendChild(tc);
+    wrap.appendChild(tools); bar.appendChild(wrap); return bar;
+  })());
+
+  var main = el('main','page-main'), wrap = el('div','wrap');
+
+  /* ---- header ---- */
+  var head = el('div','page-head');
+  head.innerHTML =
+    '<div class="eyebrow"><span>Unit 1</span><span class="bookchip">Step Forward 3 · pp. 4–19</span></div>'+
+    '<h1>Learning Together</h1>'+
+    '<p style="font-size:17px;max-width:70ch;color:var(--text-2)">Mid-City Technical College runs a cybersecurity training cohort. Its learners split the week between a classroom, a hands-on Cyber Lab and a placement in a Security Operations Centre. This unit is their first weeks: meeting each other, learning how to study, finding out which cyber career fits — and learning to listen properly on a shift handover.</p>';
+  wrap.appendChild(head);
+
+  /* ---- A look at ---- */
+  var look = el('div','note warm');
+  look.innerHTML = '<h4>A look at</h4>'+
+    '<div>• Study skills and U.S. cybersecurity career pathways</div>'+
+    '<div>• Present and past verb forms</div>'+
+    '<div>• Expressing uncertainty</div>';
+  wrap.appendChild(look);
+
+  /* ---- overall progress ---- */
+  var allPages = [];
+  LESSONS.forEach(function(L){ L.pages.forEach(function(p){ allPages.push(p); }); });
+  var sum = el('div','card');
+  var sb = el('div','card-body');
+  sb.style.paddingTop = '20px';
+  var totalCards = 0, doneCards = 0;
+  allPages.forEach(function(p){
+    var sc = P.pageScore(p[1]);
+    totalCards += sc.total; doneCards += sc.done;
+  });
+  var pagesDone = allPages.filter(function(p){
+    var rec = P.all[p[1]]; if (!rec) return false;
+    var sc = P.pageScore(p[1]);
+    return sc.total>0 && sc.done===sc.total;
+  }).length;
+  /* Two numbers, because they mean different things: the marks come
+     from exercises the page can mark exactly, and the open tasks are
+     counted as submitted rather than scored. */
+  var US = P.unitScore ? P.unitScore('unit1') : null;
+  var pct = (US && US.max) ? Math.round(US.score / US.max * 100) : 0;
+  sb.innerHTML =
+    '<div style="display:flex;gap:26px;align-items:center;flex-wrap:wrap">'+
+    '<div><div class="eyebrow">Your progress</div>'+
+    '<div style="font:800 30px/1 var(--ui);color:var(--primary)">'+pagesDone+' / 21</div>'+
+    '<div class="wc">sections finished</div></div>'+
+    (US && US.max ?
+      '<div><div class="eyebrow">Marks</div>'+
+      '<div style="font:800 30px/1 var(--ui);color:'+(pct>=80?'var(--ok)':(pct>=50?'var(--hint)':'var(--accent)'))+'">'+
+      US.score+' / '+US.max+'</div>'+
+      '<div class="wc">'+pct+'% on the '+US.scored+' exercises the page marks</div></div>' : '')+
+    (US && US.open ?
+      '<div><div class="eyebrow">Your own writing</div>'+
+      '<div style="font:800 30px/1 var(--ui);color:var(--primary-2)">'+US.open+'</div>'+
+      '<div class="wc">open tasks submitted — counted, never scored</div></div>' : '')+
+    '<div style="flex:1;min-width:200px"><div class="meter"><i style="width:'+(pagesDone/21*100)+'%"></i></div>'+
+    '<div class="wc" style="margin-top:6px">'+doneCards+' of '+(US ? US.cards : totalCards)+' activities completed</div></div>'+
+    '</div>';
+  var btns = el('div','btn-row');
+  var resume = el('a','btn btn-primary', art.icon('play',16)+'Start / resume');
+  var nextPage = allPages.filter(function(p){
+    var sc = P.pageScore(p[1]); return !(sc.total>0 && sc.done===sc.total);
+  })[0] || allPages[0];
+  resume.href = nextPage[0] + '.html';
+  btns.appendChild(resume);
+  var exp = el('button','btn', art.icon('print',16)+'Export my progress');
+  exp.onclick = function(){
+    var blob = new Blob([P.exportAll()], {type:'application/json'});
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'cybersecurity-b1-progress.json';
+    a.click();
+  };
+  btns.appendChild(exp);
+  var rs = el('button','btn btn-ghost','Reset Unit 1');
+  rs.onclick = function(){
+    if (!confirm('Delete all your saved answers for Unit 1? This cannot be undone.')) return;
+    allPages.forEach(function(p){ delete P.all[p[1]]; });
+    P.save(); location.reload();
+  };
+  btns.appendChild(rs);
+  sb.appendChild(btns);
+  sum.appendChild(sb);
+  wrap.appendChild(sum);
+
+  /* ---- stations ---- */
+  var n = 0;
+  LESSONS.forEach(function(L){
+    var block = el('div','lesson-block');
+    block.innerHTML = '<h2>'+U.esc(L.name)+' <span class="rm">'+U.esc(L.room)+'</span></h2>';
+    var grid = el('div','stations');
+    L.pages.forEach(function(p){
+      n++;
+      var sc = P.pageScore(p[1]);
+      var cls = 'station' + (sc.total>0 && sc.done===sc.total ? ' done' : (sc.done>0 ? ' part' : ''));
+      var a = el('a', cls);
+      a.href = p[0]+'.html';
+      a.innerHTML = '<span class="n">'+(sc.total>0 && sc.done===sc.total ? '✓' : n)+'</span>'+
+        '<span class="t">'+U.esc(p[2])+'<small>'+U.esc(p[3])+'</small></span>'+
+        '<span class="bookchip">p.'+p[4]+'</span>';
+      grid.appendChild(a);
+    });
+    block.appendChild(grid);
+    wrap.appendChild(block);
+  });
+
+  /* ---- coverage ---- */
+  var cov = CSB1.coverageData.unit1 || [];
+  var full = cov.filter(function(r){return r.status==='full';}).length;
+  var adapted = cov.filter(function(r){return r.status==='adapted';}).length;
+  var bonus = cov.filter(function(r){return r.status==='bonus';}).length;
+  var cbox = el('div','card');
+  var cb = el('div','card-body');
+  cb.style.paddingTop='20px';
+  cb.innerHTML = '<div class="eyebrow">Coverage against the book</div>'+
+    '<p style="margin-bottom:10px">Every lettered exercise and closer in Step Forward 3 Unit 1 (pages 4–19) is implemented: '+
+    '<b>'+full+'</b> exactly as written, <b>'+adapted+'</b> adapted from a partner or team task to a solo one with the same language objective'+
+    (bonus?', plus <b>'+bonus+'</b> bonus drill':'')+'. Nothing is dropped.</p>';
+  var tog = el('button','btn btn-sm', art.icon('eye',15)+'Show the full manifest');
+  var tbl = el('div','matrix-wrap');
+  tbl.style.display='none';
+  tbl.innerHTML = '<table class="tbl"><thead><tr><th>Book</th><th>Page</th><th>Card</th><th>Status</th><th>Note</th></tr></thead><tbody>'+
+    cov.map(function(r){
+      return '<tr><td><b>'+U.esc(r.ref)+'</b></td><td>'+U.esc(r.page)+'</td><td>'+U.esc(r.card)+'</td>'+
+        '<td style="color:'+(r.status==='full'?'var(--ok)':(r.status==='bonus'?'var(--primary)':'var(--hint)'))+';font-weight:700">'+U.esc(r.status)+'</td>'+
+        '<td>'+U.esc(r.note||'')+'</td></tr>';
+    }).join('')+'</tbody></table>';
+  tog.onclick=function(){ tbl.style.display = tbl.style.display==='none'?'block':'none'; };
+  cb.appendChild(tog); cb.appendChild(tbl);
+  cbox.appendChild(cb);
+  wrap.appendChild(cbox);
+
+  /* ---- glossary ---- */
+  var gbox = el('div','card');
+  var gb = el('div','card-body');
+  gb.style.paddingTop='20px';
+  gb.innerHTML = '<div class="eyebrow">Unit 1 glossary</div>';
+  var gl = el('div','chips');
+  Object.keys(CSB1.glossaryData).sort().forEach(function(k){
+    var e = CSB1.glossaryData[k];
+    var c = el('span','chip', U.esc(e.term));
+    c.onclick = function(){
+      CSB1.speak(e.term);
+      CSB1.toast(e.term + ' — ' + e.en, 5000);
+    };
+    gl.appendChild(c);
+  });
+  gb.appendChild(gl);
+  gb.appendChild(el('div','wc','Tap a term to hear it and see its meaning. Every term is also tappable inside the readings.'));
+  gbox.appendChild(gb);
+  wrap.appendChild(gbox);
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+})();
+</script>
+</body>
+</html>

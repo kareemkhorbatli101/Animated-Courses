@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Answer key · Unit 1 · Cybersecurity B1</title>
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.CSB1_BASE='../';</script>
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/components.js"></script>
+<script src="../assets/js/scene.js"></script>
+<script src="../assets/data/unit1/voices.js"></script>
+<script src="../assets/data/unit1/audio.js"></script>
+<script src="../assets/data/unit1/glossary.js"></script>
+<script src="../assets/data/unit1/scenes.js"></script>
+<script src="../assets/data/unit1/map.js"></script>
+<script src="../assets/data/unit1/l1-s1-study-skills.js"></script>
+<script src="../assets/data/unit1/l1-s2-career-pathways.js"></script>
+<script src="../assets/data/unit1/l2-s1-prepare-to-write.js"></script>
+<script src="../assets/data/unit1/l2-s2-plan-and-write.js"></script>
+<script src="../assets/data/unit1/l2-s3-feedback-revise.js"></script>
+<script src="../assets/data/unit1/l3-s1-present-past-forms.js"></script>
+<script src="../assets/data/unit1/l3-s2-yesno-questions.js"></script>
+<script src="../assets/data/unit1/l3-s3-listen-for-tenses.js"></script>
+<script src="../assets/data/unit1/l3-s4-use-verb-forms.js"></script>
+<script src="../assets/data/unit1/l4-s1-career-talk.js"></script>
+<script src="../assets/data/unit1/l4-s2-pronunciation.js"></script>
+<script src="../assets/data/unit1/l4-s3-adjectives-adverbs.js"></script>
+<script src="../assets/data/unit1/l4-s4-conversation-skills.js"></script>
+<script src="../assets/data/unit1/l4-s5-listening-details.js"></script>
+<script src="../assets/data/unit1/l4-s6-discuss.js"></script>
+<script src="../assets/data/unit1/l5-s1-read-ask-allison.js"></script>
+<script src="../assets/data/unit1/l5-s2-word-study-dis.js"></script>
+<script src="../assets/data/unit1/l5-s3-talk-it-over.js"></script>
+<script src="../assets/data/unit1/atwork-s1-active-listening.js"></script>
+<script src="../assets/data/unit1/review-s1-teamwork.js"></script>
+<script src="../assets/data/unit1/review-s2-problem-solving.js"></script>
+<script src="../unit1/coverage.js"></script>
+</head>
+<body>
+<script>
+(function(){
+  var U = CSB1.util, el = U.el, art = CSB1.art, esc = U.esc;
+  CSB1.chrome = { refresh:function(){} };
+
+  var ORDER = ['u1-l1-s1','u1-l1-s2','u1-l2-s1','u1-l2-s2','u1-l2-s3','u1-l3-s1','u1-l3-s2','u1-l3-s3','u1-l3-s4',
+    'u1-l4-s1','u1-l4-s2','u1-l4-s3','u1-l4-s4','u1-l4-s5','u1-l4-s6','u1-l5-s1','u1-l5-s2','u1-l5-s3',
+    'u1-atwork-s1','u1-review-s1','u1-review-s2'];
+
+  function listify(a){ return Array.isArray(a) ? a.join('  /  ') : String(a); }
+
+  /* derive the answer for any card type straight from the data,
+     so the key can never drift away from the activity */
+  /* one selection question: the answer, then why each distractor is
+     wrong — the second half is what is worth saying out loud in class */
+  function optionKey(q, n, line){
+    var right = -1;
+    q.options.forEach(function(o,i){ if(o.ok) right = i; });
+    line(n+'. '+(q.options[right]||{}).t);
+    if (q.evidence) line('    where: '+q.evidence);
+    q.options.forEach(function(o,i){
+      if (o.ok || !o.why) return;
+      line('    ✗ '+o.t+' — '+o.why);
+    });
+  }
+
+  function keyFor(card){
+    var t = card.type, out = [];
+    function line(s){ out.push(s); }
+
+    /* Every reason the page shows the learner is printed here too,
+       so the teacher sees exactly what the class was told and can
+       use the same words. */
+    function reasons(obj, head){
+      if (!obj) return;
+      var ks = Object.keys(obj);
+      if (!ks.length) return;
+      line('');
+      line(head || 'The reason the page gives for each one:');
+      ks.forEach(function(k){ line('   ' + k + '\n        ' + String(obj[k]).replace(/<[^>]+>/g,'')); });
+    }
+    function itemReasons(items, label){
+      if (!items) return;
+      var any = items.some(function(i){ return i.why; });
+      if (!any) return;
+      line('');
+      line(label || 'The reason the page gives for each one:');
+      items.forEach(function(it,i){
+        if (it.why) line('   ' + (i+1) + '. ' + String(it.why).replace(/<[^>]+>/g,''));
+      });
+    }
+
+    /* selection types first — these are the ones that mark themselves */
+    if (t==='quizset') {
+      card.items.forEach(function(it,i){ optionKey(it, i+1, line); });
+      return out;
+    }
+    if (t==='picker') {
+      Object.keys(card.banks).forEach(function(k){
+        var want = card.answers && card.answers[k];
+        line(card.banks[k].label+'  →  '+(want===undefined
+          ? 'any choice is accepted'
+          : listify(want)));
+      });
+      if (card.why) line('Then, in their own words: '+card.why.q+
+        (card.why.model ? '   Model: '+card.why.model : ''));
+      return out;
+    }
+    if (t==='convo' || ((t==='clockscrub' || t==='hotspot') && card.turns)) {
+      if (t==='clockscrub') line('Slider over Danny\'s Tuesday, then one conversation across all four tenses.');
+      if (t==='hotspot') line('Explorable picture, then conversations built from it.');
+      line(card.answers
+        ? 'The partner\'s lines carry the clue, so each gap has one right answer and is marked.'
+        : 'The learner completes a conversation that is already running.');
+      card.turns.forEach(function(tn,i){
+        var who = ((card.cast||{})[tn.who]&&card.cast[tn.who].name)||tn.who;
+        var body = tn.say;
+        if (!body) {
+          body = tn.frame.replace(/<br\s*\/?>/gi,' ').replace(/\[\[(\w+)\]\]/g, function(m,k){
+            var a = card.answers && card.answers[k];
+            return a===undefined ? '______' : '['+listify(a)+']';
+          }) + '   ← learner';
+        }
+        line((i+1)+'. '+who+': '+body);
+      });
+      reasons(card.why, 'What in the conversation tells them:');
+      if (card.gapBank) {
+        line('');
+        line('Each gap takes a chip from one list only:');
+        Object.keys(card.gapBank).forEach(function(k){
+          var b = (card.banks||[])[card.gapBank[k]];
+          line('   gap '+k+' → '+((b&&b.label)||'bank '+card.gapBank[k]));
+        });
+      }
+      (card.banks||[]).forEach(function(b){
+        line('Bank'+(b.label?' — '+b.label.replace(/:\s*$/,''):'')+': '+b.items.join(', '));
+      });
+      if (card.answers) {
+        var unused = [];
+        (card.banks||[]).forEach(function(b){ b.items.forEach(function(it){
+          var used = Object.keys(card.answers).some(function(k){
+            var a = card.answers[k]; return Array.isArray(a) ? a.indexOf(it)>=0 : a===it;
+          });
+          if (!used) unused.push(it);
+        }); });
+        if (unused.length) line('Distractors (belong in no gap): '+unused.join(', '));
+      }
+      /* a keyed conversation marks each gap instead, so the tense
+         sweep and the no-repeats rule no longer run on it */
+      if (card.tenses && !card.answers) line('Must cover: '+card.tenses.map(U.tenseLabel).join(', '));
+      if (card.distinct && !card.answers) line('Every learner line must be different from the others.');
+      if (t==='hotspot' && card.people) {
+        line('');
+        line('What each person is doing (now / earlier):');
+        card.people.forEach(function(p){ line('   '+p.name+': '+p.now+'   |   '+p.past); });
+      }
+      if (t==='clockscrub' && card.slots) {
+        line('');
+        card.slots.forEach(function(s){ line('   '+s.time+' — '+s.act); });
+      }
+      return out;
+    }
+    if (t==='checklistlive') {
+      line('Each tick is verified against the draft the learner wrote in §2 — it cannot just be clicked.');
+      card.items.forEach(function(it,i){ line((i+1)+'. '+it.t); });
+      return out;
+    }
+
+    if (t==='dragmatch') {
+      var byId = {}; card.chips.forEach(function(c){ byId[c.id]=c.label; });
+      card.targets.forEach(function(tg){
+        line((tg.num!==undefined?tg.num+'. ':'') + byId[tg.accept] +
+          (tg.art ? '   (picture: '+tg.label+')' : '') +
+          (tg.why ? '\n        '+String(tg.why).replace(/<[^>]+>/g,'') : ''));
+      });
+    }
+    else if (t==='dragcloze') {
+      var tl = {}; card.tiles.forEach(function(c){ tl[c.id]=c.label; });
+      Object.keys(card.answers).forEach(function(k){
+        line(k+' → '+tl[card.answers[k]] +
+          (card.given && card.given[k]!==undefined ? '   (given)' : '') +
+          (card.explain && card.explain[k] ? '\n        '+card.explain[k] : ''));
+      });
+    }
+    else if (t==='cloze') {
+      Object.keys(card.answers).forEach(function(k){ line(k+'. '+listify(card.answers[k])); });
+      reasons(card.why);
+    }
+    else if (t==='choiceinline') {
+      card.items.forEach(function(it,i){
+        var m = it.text.match(/\{\{(.*?)\}\}/);
+        var opts = m ? m[1].split('|') : [];
+        line((i+1)+'. '+(opts[it.answer]||'?').trim());
+      });
+      itemReasons(card.items);
+    }
+    else if (t==='circlematch') {
+      var ans = {}; card.answers.forEach(function(a){ ans[a.id]=a.t; });
+      card.items.forEach(function(it,i){
+        var m = it.text.match(/\{\{(.*?)\}\}/);
+        var opts = m ? m[1].split('|') : [];
+        line((i+1)+'. '+(opts[it.answer]||'?').trim()+'  →  '+it.match+'. '+ans[it.match]);
+      });
+      itemReasons(card.items);
+    }
+    else if (t==='mcq') {
+      card.options.forEach(function(o,i){ if(o.ok) line(String.fromCharCode(97+i)+'. '+o.t); });
+    }
+    else if (t==='tristate') {
+      card.items.forEach(function(it,i){ line((i+1)+'. '+it.ans+(it.ans!=='NI'?'  (line '+it.line+')':'')); });
+      itemReasons(card.items);
+    }
+    else if (t==='checklist') {
+      if (card.selfAssess) line('Self-assessment — no fixed answer.');
+      else {
+        card.items.forEach(function(it){ if(it.ok) line('✓ '+it.t); else line('✗ '+it.t+'  (not mentioned)'); });
+        itemReasons(card.items);
+      }
+    }
+    else if (t==='checkgrid') {
+      card.cols.forEach(function(c,i){
+        line((i+1)+'. '+card.rows[c.answer]+'   — “'+c.line+'”' +
+          (c.why ? '\n        '+String(c.why).replace(/<[^>]+>/g,'') : ''));
+      });
+    }
+    else if (t==='highlighter') {
+      var all = {};
+      card.paras.forEach(function(pr){ pr.forEach(function(s){ all[s.i]=s.t.replace(/<[^>]+>/g,''); }); });
+      card.answers.forEach(function(i){ line('• '+all[i]); });
+      (card.questions||[]).forEach(function(q,i){
+        if (q.options) { line(''); optionKey(q,'Q'+(i+1),line); }
+        else if (q.model) line('Q'+(i+1)+': '+q.model);
+      });
+    }
+    else if (t==='shortanswer') {
+      card.items.forEach(function(it,i){ line((i+1)+'. '+listify(it.accept)); });
+    }
+    else if (t==='editor') {
+      card.items.forEach(function(it,i){
+        if (it.fix) {
+          var right = it.fix.filter(function(o){ return o.ok; })[0] || {};
+          line((i+1)+'. '+it.wrong.replace(/\*(.+?)\*/, right.t)+'   (the fault is the verb)');
+          it.fix.forEach(function(o){
+            if (!o.why) return;
+            line('      '+(o.ok?'✓ ':'✗ ')+o.t+' — '+String(o.why).replace(/<[^>]+>/g,''));
+          });
+          line('      The box underneath is for writing the whole sentence; it is not marked.');
+        } else line((i+1)+'. '+(it.model || listify(it.accept))+(it.model?'   (done for you)':''));
+      });
+    }
+    else if (t==='chipcols') {
+      if (!card.answers && card.reference) {
+        line('Nothing is scored here: a skill genuinely belongs to more than one job, and the card says so.');
+        line('After the learner commits, the page explains every item — this is what it says:');
+        reasons(card.why, '');
+      }
+      else if (!card.answers) { line('Open task — any sensible placement is accepted.'); }
+      else {
+        var by = {};
+        Object.keys(card.answers).forEach(function(k){
+          var ci = card.answers[k]; ci = Array.isArray(ci)?ci[0]:ci;
+          (by[ci]=by[ci]||[]).push(k);
+        });
+        card.cols.forEach(function(cl,ci){
+          line(cl.label);
+          (cl.seed||[]).forEach(function(sd){ line('   • '+sd+'   (given)'); });
+          (by[ci]||[]).forEach(function(k){ line('   • '+k); });
+          line('');
+        });
+        reasons(card.why);
+      }
+    }
+    else if (t==='predict') {
+      card.items.forEach(function(it,i){ line((i+1)+'. '+listify(it.accept)); });
+      itemReasons(card.items);
+    }
+    else if (t==='pyramid') {
+      card.tiers.forEach(function(x){ line(x.pct+'% — '+x.name+' ('+x.eg+')'); });
+      if (card.quiz) Object.keys(card.quiz.answers).forEach(function(k){ line('Q'+k+'. '+listify(card.quiz.answers[k])); });
+    }
+    else if (t==='mouthcam') {
+      card.sounds.forEach(function(s){ line('/'+s.key+'/ — '+s.words.join(', ')); });
+    }
+    else if (t==='cluehunt') {
+      card.clues.forEach(function(c){ line('• '+c.label+' — '+c.why); });
+      if (card.options) { line(''); optionKey({options:card.options, evidence:card.evidence}, 'Answer', line); }
+      else if (card.model) line('Answer: '+card.model);
+    }
+    else if (t==='flashcards') {
+      card.items.forEach(function(it){ line(it.num+'. '+it.label); });
+    }
+    else if (t==='observer') {
+      var sc = CSB1.scenes[card.scene];
+      sc.lines.forEach(function(l){
+        if (!l.cue) return;
+        line('“'+l.en+'” → '+(Array.isArray(l.cue)?l.cue.join(' + '):l.cue));
+      });
+    }
+    else if (t==='interview') {
+      card.people.forEach(function(p){
+        line(p.name+':');
+        p.answers.forEach(function(a,i){ line('   '+(i+1)+'. '+a); });
+      });
+    }
+    else if (t==='scene') {
+      var sc2 = CSB1.scenes[card.scene];
+      line('Scene: '+card.scene+' — '+sc2.lines.length+' lines, set “'+sc2.set+'”.');
+      if (card.quiz) { line(''); keyFor(card.quiz).forEach(line); }
+    }
+    else if (t==='opinion') { line('Opinion task — any position with a reason of six or more words is accepted.'); }
+    else if (t==='discuss' || t==='notes' || t==='report' || t==='writer' || t==='peerreview' ||
+             t==='revise' || t==='letter' || t==='solutions' || t==='taskcard' || t==='fields' ||
+             t==='ranker' || t==='builder' || t==='roleplay' || t==='pie' || t==='tensewrite' ||
+             t==='study' || t==='pairchart' || t==='phrasebank' || t==='listenchart') {
+      var sel = (card.questions||[]).filter(function(q){ return q.options; }).length;
+      if (sel) line(sel+' of these questions are selections and mark themselves; the rest are the learner\'s own.');
+      else line('Open / productive task — see the model answers and the acceptance rule on the card.');
+      if (card.questions) card.questions.forEach(function(q,i){
+        if (q.options) { line(''); optionKey(q,'Q'+(i+1),line); }
+        else if (q.model) line('Q'+(i+1)+' model: '+q.model);
+      });
+      if (card.model && Array.isArray(card.model)) card.model.forEach(function(m){ line('• '+m); });
+      if (t==='tensewrite') card.boxes.forEach(function(b,i){
+        line((i+1)+'. '+(b.any?'any unused tense':U.tenseLabel(b.tense))+' — e.g. '+b.eg +
+          (b.lead ? '   (follows: “'+b.lead+'”)' : ''));
+      });
+    }
+    else line('(no fixed key)');
+    return out;
+  }
+
+  /* the rule a learner has to complete before the chart opens */
+  function gateKey(card){
+    if (!card.ruleGate) return null;
+    var g = card.ruleGate, out = [];
+    out.push(String(g.text).replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]+>/g,'')
+      .replace(/\[\[(\w+)\]\]/g, function(m,k){
+        var a = g.answers[k];
+        return '[' + (Array.isArray(a)?a[0]:a) + ']';
+      }).trim());
+    if (g.after) out.push('Then: '+String(g.after).replace(/<[^>]+>/g,''));
+    return out;
+  }
+
+  /* the checklist a learner marks their own open work against */
+  function coachKey(card){
+    if (!card.coach) return null;
+    var out = [];
+    (card.coach.criteria||[]).forEach(function(c,i){
+      out.push((i+1)+'. ['+(c.auto||c.verify?'page checks':'learner ticks')+'] '+c.t);
+    });
+    if (card.coach.ai === false) out.push('No chatbot prompt on this one — a model cannot verify local facts.');
+    return out;
+  }
+
+  var bar = el('header','topbar'), w1 = el('div','wrap');
+  var brand = el('a','brand'); brand.href='../index.html';
+  brand.innerHTML = art.logo()+'<span>Cybersecurity B1</span>';
+  w1.appendChild(brand);
+  w1.appendChild(el('div','crumbs','<span class="sep">▸</span><span>Teacher · Unit 1 answer key</span>'));
+  w1.appendChild(el('div','spacer'));
+  var tools = el('div','tb-tools');
+  var pr = el('button','btn btn-sm btn-ghost', art.icon('print',16)+'Print');
+  pr.onclick=function(){window.print();};
+  tools.appendChild(pr);
+  var pg = el('a','btn btn-sm btn-ghost', art.icon('map',16)+'Progress importer');
+  pg.href='progress.html'; tools.appendChild(pg);
+  w1.appendChild(tools); bar.appendChild(w1);
+  document.body.appendChild(bar);
+
+  var main = el('main','page-main'), wrap = el('div','wrap');
+  wrap.appendChild(el('div','page-head',
+    '<div class="eyebrow">Teacher pack</div><h1>Unit 1 — answer key</h1>'+
+    '<p class="wc">Generated directly from the activity data, so it cannot drift out of step with the pages. '+
+    'The book reference is beside every item. Print this page for a paper key.</p>'));
+
+  var cov = CSB1.coverageData.unit1 || [];
+  var covBy = {}; cov.forEach(function(r){ covBy[r.id+'/'+r.card] = r; });
+
+  ORDER.forEach(function(pid){
+    var def = CSB1.pages[pid];
+    if (!def) return;
+    var block = el('div','lesson-block');
+    block.innerHTML = '<h2>'+esc(def.book.lesson)+' · §'+esc(def.book.section)+' — '+esc(def.book.title)+
+      ' <span class="rm">p.'+esc(def.book.page)+'</span></h2>';
+    def.cards.forEach(function(card){
+      var c = el('div','card');
+      var head = el('div','card-head');
+      head.innerHTML = '<div class="card-letter">'+esc(card.ref||'')+'</div><div><h2>'+esc(card.title||'')+'</h2>'+
+        '<div class="sub">'+esc(card.bookRef||'')+' · activity type: <code>'+esc(card.type)+'</code></div></div>';
+      c.appendChild(head);
+      var b = el('div','card-body');
+      var lines = [];
+      try { lines = keyFor(card); } catch(e){ lines = ['(key could not be generated: '+e.message+')']; }
+
+      /* a gated card has a second answer: the rule itself */
+      var gl = null, cl = null;
+      try { gl = gateKey(card); } catch(e){ gl = ['(rule key failed: '+e.message+')']; }
+      try { cl = coachKey(card); } catch(e){ cl = ['(checklist failed: '+e.message+')']; }
+      if (gl) lines = ['THE RULE — the learner completes this before the chart opens:']
+        .concat(gl).concat(['', 'THEN THE ACTIVITY:']).concat(lines);
+      if (cl) lines = lines.concat(['', 'SELF-CHECK CHECKLIST on this card:']).concat(cl);
+
+      b.innerHTML = '<div style="font-family:var(--mono);font-size:13.5px;line-height:1.9;white-space:pre-wrap">'+
+        lines.map(esc).join('\n')+'</div>';
+      /* a worked example is a teaching resource in its own right —
+         print it so it can be read out or put on the board */
+      if (card.worked) {
+        var w = card.worked;
+        var wl = [];
+        wl.push('WORKED EXAMPLE — opens from a button on the card heading.');
+        wl.push(String(w.about||'').replace(/<[^>]+>/g,''));
+        if (w.checklist) {
+          wl.push('');
+          wl.push(w.checklistTitle || 'What the research found:');
+          w.checklist.forEach(function(it){ wl.push('   ✓ '+it.t+'\n        '+String(it.found||'').replace(/<[^>]+>/g,'')); });
+        }
+        if (w.table) {
+          wl.push('');
+          wl.push(w.table.title || 'The table, filled in:');
+          w.table.rows.forEach(function(r){ wl.push('   '+r.join('  |  ')); });
+        }
+        if (w.report) {
+          wl.push('');
+          wl.push((w.reportLabel || 'The report')+'  (recorded, '+(w.voice&&w.voice.who ? w.voice.who : 'course voice')+'):');
+          wl.push('   '+w.report);
+        }
+        var wb = el('div','note');
+        wb.innerHTML = '<h4>Worked example</h4><div style="font-family:var(--mono);font-size:13px;line-height:1.8;white-space:pre-wrap">'+
+          esc(wl.join('\n'))+'</div>';
+        b.appendChild(wb);
+      }
+      var cv = covBy[pid+'/'+card.id];
+      if (cv && cv.status!=='full') {
+        /* `replaced` means the book's own task is not on the card at
+           all, so promising the teacher they can still run it from
+           the page would be untrue */
+        b.appendChild(el('div','note warm','<h4>'+esc(cv.status)+'</h4>'+esc(cv.note||'')+
+          '<div style="margin-top:6px" class="wc">'+
+          (cv.replaced
+            ? esc(cv.inClass || 'The book task is not on the card. Run it from the book if you have the class for it.')
+            : 'The book instruction is printed on the card, so the original pair or team version can still be run in class.')+
+          '</div>'));
+      }
+      c.appendChild(b);
+      block.appendChild(c);
+    });
+    wrap.appendChild(block);
+  });
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+})();
+</script>
+</body>
+</html>

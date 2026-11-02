@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cybersecurity B1 — English for cyber defenders</title>
+<meta name="description" content="A B1 English course taught entirely through cybersecurity, IT and AI. Unit 1 is live: 21 interactive sections, animated scenes, English and Arabic subtitles.">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M24 3 6 10v13c0 11 7.6 20.4 18 22 10.4-1.6 18-11 18-22V10z' fill='%230b5f6b'/%3E%3Cpath d='M16 24.5 21.5 30 33 18.5' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>window.CSB1_BASE='';</script>
+<script src="assets/js/art.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/scene.js"></script>
+<script src="assets/data/unit1/voices.js"></script>
+<script src="assets/data/unit1/audio.js"></script>
+</head>
+<body>
+<script>
+(function(){
+  var U = CSB1.util, el = U.el, art = CSB1.art, P = CSB1.progress;
+  CSB1.chrome = { refresh: function(){} };
+
+  var UNITS = [
+    {n:1, t:'Learning Together', pages:'4–19', live:true, blurb:'Study skills, career pathways, present and past verb forms, expressing uncertainty, active listening.'},
+    {n:2, t:'Ready for Fun', pages:'20–35', blurb:'Future forms, preferences, planning — re-skinned to incident planning and on-call rotas.'},
+    {n:3, t:'A Job to Do', pages:'36–51', blurb:'Comparisons and superlatives — choosing tools, responding to feedback at work.'},
+    {n:4, t:'Good Work', pages:'52–67', blurb:'Present perfect — interviews, promotions and what you have done on a job.'},
+    {n:5, t:'Community Resources', pages:'68–83', blurb:'Yes/no questions with the present perfect — reporting problems and asking for help.'},
+    {n:6, t:'What’s Cooking?', pages:'84–99', blurb:'Phrasal verbs — procedures, runbooks and step-by-step instructions.'},
+    {n:7, t:'Taking a Trip', pages:'100–115', blurb:'Travel and logistics — remote access, VPNs and working away from the office.'},
+    {n:8, t:'Staying Healthy', pages:'116–131', blurb:'Advice and modals — system health, monitoring and keeping things patched.'},
+    {n:9, t:'Money Matters', pages:'132–147', blurb:'Numbers and conditionals — risk, cost and fraud awareness.'},
+    {n:10, t:'Steps to Citizenship', pages:'148–163', blurb:'Processes and rights — policy, compliance and reporting duties.'},
+    {n:11, t:'Deal with Difficulties', pages:'164–179', blurb:'Problem language — incident response and difficult conversations.'},
+    {n:12, t:'Take the Day Off', pages:'180–195', blurb:'Time off and handover — rotas, cover and the language of absence.'}
+  ];
+
+  /* topbar */
+  var bar = el('header','topbar'), w1 = el('div','wrap');
+  var brand = el('a','brand'); brand.href='index.html';
+  brand.innerHTML = art.logo() + '<span>Cybersecurity B1</span>';
+  w1.appendChild(brand);
+  w1.appendChild(el('div','spacer'));
+  var tools = el('div','tb-tools');
+  var th = el('button','btn btn-sm btn-ghost', art.icon('moon',16));
+  th.title='Light / dark theme'; th.onclick=CSB1.toggleTheme; tools.appendChild(th);
+  var tc = el('a','btn btn-sm btn-ghost', art.icon('book',16)+'Teacher');
+  tc.href='teacher/answers-unit1.html'; tools.appendChild(tc);
+  w1.appendChild(tools); bar.appendChild(w1);
+  document.body.appendChild(bar);
+
+  var main = el('main','page-main'), wrap = el('div','wrap');
+
+  /* hero */
+  var hero = el('div','page-head');
+  hero.innerHTML =
+    '<div class="eyebrow">English for cyber defenders · CEFR B1</div>'+
+    '<h1 style="font-size:clamp(32px,5vw,52px)">Cybersecurity B1</h1>'+
+    '<p style="font-size:18px;max-width:72ch;color:var(--text-2)">A full B1 English course in which every reading, conversation, grammar point and exercise lives inside one cybersecurity world — a training cohort, a hands-on lab and a Security Operations Centre. '+
+    'Built as a structural clone of <i>Step Forward 3</i>: the same language objectives, the same exercise types, the same difficulty — a different subject.</p>';
+  wrap.appendChild(hero);
+
+  /* feature strip */
+  var feats = el('div','grid-cards');
+  feats.style.marginBottom = '28px';
+  [
+    ['face','Animated scenes','Every reading and conversation plays as a scene: rigged characters on a three-dimensional stage, with moving lips, facial expression and cue cards that appear on the word they illustrate.'],
+    ['sound','English + Arabic subtitles','Two subtitle tracks you switch on and off independently, with word-by-word highlighting, loop-a-line, 0.6× speed, shadow mode and role-mute.'],
+    ['check','Nothing left out','All 65 lettered exercises and 5 closers from the book unit are implemented. A coverage manifest on the unit page proves it, line by line.'],
+    ['shield','Works with no internet','Static HTML, CSS and JavaScript. No server, no build, no accounts, no telemetry. Your answers stay in your own browser.']
+  ].forEach(function(f){
+    var c = el('div','ucard');
+    c.innerHTML = '<div class="bd"><div style="color:var(--primary);margin-bottom:8px">'+art.icon(f[0],26)+'</div>'+
+      '<h3>'+U.esc(f[1])+'</h3><p>'+U.esc(f[2])+'</p></div>';
+    feats.appendChild(c);
+  });
+  wrap.appendChild(feats);
+
+  /* units */
+  wrap.appendChild(el('h2','', 'The twelve units'));
+  wrap.appendChild(el('p','wc','Unit 1 is complete and live. Units 2–12 are planned on the same template — the book pages each one clones are shown on its card.'));
+  var grid = el('div','grid-cards');
+  UNITS.forEach(function(u){
+    var done = 0;
+    if (u.live) {
+      ['u1-l1-s1','u1-l1-s2','u1-l2-s1','u1-l2-s2','u1-l2-s3','u1-l3-s1','u1-l3-s2','u1-l3-s3','u1-l3-s4',
+       'u1-l4-s1','u1-l4-s2','u1-l4-s3','u1-l4-s4','u1-l4-s5','u1-l4-s6','u1-l5-s1','u1-l5-s2','u1-l5-s3',
+       'u1-atwork-s1','u1-review-s1','u1-review-s2'].forEach(function(id){
+        var sc = P.pageScore(id);
+        if (sc.total>0 && sc.done===sc.total) done++;
+      });
+    }
+    var card = u.live ? el('a','ucard') : el('div','ucard');
+    if (u.live) card.href = 'unit1/index.html';
+    card.innerHTML =
+      '<div class="top'+(u.live?'':' soon')+'"><span class="n">'+u.n+'</span></div>'+
+      '<div class="bd"><h3>'+U.esc(u.t)+'</h3><p>'+U.esc(u.blurb)+'</p>'+
+      '<span class="tag'+(u.live?'':' soon')+'">'+(u.live?('Live · '+done+'/21 done'):'Planned')+'</span> '+
+      '<span class="bookchip">pp. '+u.pages+'</span></div>';
+    if (!u.live) card.style.opacity = '.62';
+    grid.appendChild(card);
+  });
+  wrap.appendChild(grid);
+
+  /* how to use */
+  var how = el('div','card');
+  var hb = el('div','card-body');
+  hb.style.paddingTop='22px';
+  hb.innerHTML = '<div class="eyebrow">How to use it</div>'+
+    '<div class="cols" style="margin-top:10px">'+
+    '<div><b>Learners</b><p class="wc">Open Unit 1, work down the map. Each section is 5–10 minutes. Every activity has <b>Check answers</b>, <b>Try again</b>, a <b>Hint</b>, and <b>Show me</b> once you have tried. Your work saves itself in this browser.</p></div>'+
+    '<div><b>Teachers</b><p class="wc">The book instruction is printed on every card, so the pair and team versions can still be run in class. The teacher pages hold the full answer key and a progress importer.</p></div>'+
+    '<div><b>Everybody</b><p class="wc">Every drag also works by clicking: click the word, then click where it goes. Everything works by keyboard. Press <b>?</b> on a page for the shortcuts, and use the print button for a paper worksheet.</p></div>'+
+    '</div>';
+  var row = el('div','btn-row');
+  var go = el('a','btn btn-primary btn-lg', art.icon('play',16)+'Open Unit 1');
+  go.href='unit1/index.html';
+  row.appendChild(go);
+  var tk = el('a','btn', art.icon('book',16)+'Answer key');
+  tk.href='teacher/answers-unit1.html';
+  row.appendChild(tk);
+  hb.appendChild(row);
+  how.appendChild(hb);
+  wrap.appendChild(how);
+
+  /* credit */
+  var cr = el('p','wc');
+  cr.style.marginTop='26px';
+  cr.innerHTML = 'Adapted for the Cybersecurity B1 course from the structure of <i>Step Forward 3</i> (Oxford University Press). '+
+    'All text, illustration and audio in this site are original and written for the cybersecurity domain; no text, artwork or recording from the book is reproduced.';
+  wrap.appendChild(cr);
+
+  main.appendChild(wrap);
+  document.body.appendChild(main);
+})();
+</script>
+</body>
+</html>
