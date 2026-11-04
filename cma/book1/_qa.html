@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quality gate · CMA Part 1 Book 1, Chapter 1</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.g{margin:0 0 24px}
+.g h2{font-size:var(--t-lead);margin:0 0 3px}
+.g p.s{color:var(--ink-3);font-size:var(--t-small);margin:0 0 10px}
+.r{display:flex;gap:11px;align-items:baseline;padding:8px 12px;border-radius:var(--r-s);margin-bottom:4px;
+  font-size:var(--t-small);border:1px solid var(--line)}
+.r.p{background:var(--good-wash);border-color:var(--good-line)}
+.r.f{background:var(--bad-wash);border-color:var(--bad-line)}
+.r b{min-width:16px}.r.p b{color:var(--good)}.r.f b{color:var(--bad)}
+.r .n{flex:1;font-weight:600}
+.r .d{color:var(--ink-3);font-size:var(--t-meta);font-family:var(--mono);text-align:right}
+.r.f .d{color:var(--bad)}
+.v{padding:20px 24px;border-radius:var(--r);margin:0 0 26px;font-size:17px;font-weight:800}
+.v.p{background:var(--good-wash);border:2px solid var(--good-line);color:var(--good)}
+.v.f{background:var(--bad-wash);border:2px solid var(--bad-line);color:var(--bad)}
+.v small{display:block;font-weight:400;font-size:var(--t-small);margin-top:6px;color:var(--ink-2)}
+#sandbox{position:absolute;left:-99999px;width:1200px;height:900px}
+</style>
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="index.html"><span class="bar-mark">C1</span><span>CMA Part 1 · Book 1</span></a>
+  <div class="bar-where">Quality gate — not part of the course</div>
+</div></header>
+<main><div class="wrap">
+  <h1 class="page-h1">Quality gate</h1>
+  <p class="lede">Loads every scene definition in the chapter, renders all of them, and checks the result.
+    The <b>provenance lock</b> is the important one: nothing may be taught that is not in the author's chapter.</p>
+  <div id="v"></div>
+  <div id="out"></div>
+  <div id="sandbox" aria-hidden="true"><div id="scene"></div></div>
+  <p class="note" style="margin:24px 0 40px">Three further checks run when the package is built, because a page
+    opened from <code>file://</code> cannot read its neighbours: every internal link resolves, nothing points at
+    <code>http(s)://</code>, and no file uses <code>fetch()</code> or an ES module.</p>
+</div></main>
+
+<script src="assets/ledger.js"></script>
+<script src="assets/terms-ch01.js"></script>
+<script src="assets/speech.js"></script>
+<script src="assets/progress.js"></script>
+<script src="assets/source-text.js"></script>
+<script src="assets/provenance.js"></script>
+<script src="assets/scene.js"></script>
+<script src="assets/objects.js"></script>
+<script src="assets/objects2.js"></script>
+<script src="assets/figure.js"></script>
+<script>window.CAPTURED = [];</script>
+<script src="ch01/data/s1-1.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-2.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-3.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-4.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-5.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-6.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/s1-7.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/summary.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/terms.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/practice.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/case.js"></script><script>CAPTURED.push(PAGE)</script>
+<script src="ch01/data/review.js"></script><script>CAPTURED.push(PAGE)</script>
+
+<script>
+(function () {
+  "use strict";
+  var L = window.LEDGER, T = window.TERMS, P = window.Progress, D = window.Deck;
+  var out = document.getElementById("out"), res = [];
+
+  function grp(t, s) {
+    var d = document.createElement("section");
+    d.className = "g";
+    d.innerHTML = "<h2>" + t + "</h2><p class=\"s\">" + s + "</p>";
+    out.appendChild(d);
+    return d;
+  }
+  function ck(h, name, ok, detail) {
+    res.push(ok);
+    var r = document.createElement("div");
+    r.className = "r " + (ok ? "p" : "f");
+    r.innerHTML = "<b>" + (ok ? "✓" : "✗") + "</b><span class=\"n\">" + name +
+      "</span><span class=\"d\">" + (detail || (ok ? "pass" : "FAIL")) + "</span>";
+    h.appendChild(r);
+  }
+  var scenes = [];
+  CAPTURED.forEach(function (p) { (p.scenes || []).forEach(function (s) { scenes.push({ p: p, s: s }); }); });
+
+  /* ---------- 1. PROVENANCE ---------- */
+  var g = grp("1 · Provenance lock",
+    "Every word the site teaches is checked against source/chapter-01.txt, which ships " +
+    "with the package. The first build failed this: 26 of 80 Arabic terms had been generated.");
+
+  /* the lock: every word of taught content must be in the author's chapter */
+  var audit = root_audit();
+  function root_audit() { return window.Provenance.audit(CAPTURED); }
+  var contentFails = audit.filter(function (f) { return !f.chrome; });
+  var chromeFails = audit.filter(function (f) { return f.chrome; });
+  ck(g, "Every word of taught content appears in the author's chapter",
+    contentFails.length === 0,
+    contentFails.length ? contentFails.slice(0, 3).map(function (f) {
+      return f.deck + "/" + f.scene + " " + f.where + " " + f.bad.join(","); }).join(" | ")
+      : window.Provenance.sourceWords + " source words, " + window.Provenance.vocabulary + " in vocabulary");
+  ck(g, "No interface text carries an accounting claim", chromeFails.length === 0,
+    chromeFails.length ? chromeFails.slice(0, 3).map(function (f) {
+      return f.deck + "/" + f.scene + " " + f.bad.join(","); }).join(" | ") : "interface English only");
+  ck(g, "Every Arabic term is one of the chapter's Term Bridge rows", T.count === 54, T.count + " terms");
+  ck(g, "No Arabic has been invented for a term the chapter does not bridge",
+    T.englishOnly.every(function (t) { return t.ar === null; }),
+    T.englishOnly.length + " held in English only");
+  ck(g, "Every bridged term carries a meaning and a source section",
+    T.all.every(function (t) { return t.gloss && /^1\.[1-6]$/.test(t.sec); }), "54 checked");
+  ck(g, "The six Term Bridge boxes have the printed row counts",
+    T.bridge("1.1").length === 8 && T.bridge("1.2").length === 14 && T.bridge("1.3").length === 15 &&
+    T.bridge("1.4").length === 5 && T.bridge("1.5").length === 7 && T.bridge("1.6").length === 5,
+    "8 + 14 + 15 + 5 + 7 + 5 = 54");
+  ck(g, "The 16-row chapter key-terms table resolves", T.keys().length === 16, "16 terms");
+
+  /* every case company and person named must be one of the book's */
+  var allowedNames = ["Orontes Foods", "Barada Wholesale", "Cedar Retail", "GreenBasket",
+                      "Levant Commerce Bank", "Haddad"];
+  var blob = JSON.stringify(CAPTURED.map(function (p) { return p.scenes; }));
+  var strayName = /\b(Acme|Delta Ltd|Mr Smith|ABC Co)\b/.test(blob);
+  ck(g, "No invented company or person", !strayName, allowedNames.length + " named, all the book's");
+
+  var frenchExercise = /(translate|into French|French equivalent)/i.test(blob);
+  ck(g, "No exercise asks for a French translation", !frenchExercise, "English ↔ Arabic only");
+
+  /* ---------- 2. COVERAGE ---------- */
+  g = grp("2 · Coverage", "Every printed item of the chapter accounted for.");
+  var ids = CAPTURED.map(function (p) { return p.id; });
+  ck(g, "All seven numbered sections load",
+    ["s1-1", "s1-2", "s1-3", "s1-4", "s1-5", "s1-6", "s1-7"].every(function (x) { return ids.indexOf(x) >= 0; }),
+    "s1-1 … s1-7");
+  ck(g, "All five back-matter decks load",
+    ["summary", "terms", "practice", "case", "review"].every(function (x) { return ids.indexOf(x) >= 0; }),
+    ids.length + " decks");
+  ck(g, "The chapter contents lists thirteen pages", P.TOC.length === 13, P.TOC.length);
+
+  function has(pid, sid) {
+    var p = CAPTURED.filter(function (x) { return x.id === pid; })[0];
+    return !!p && p.scenes.some(function (s) { return s.id === sid; });
+  }
+  var sc = [["s1-1","sc1"],["s1-1","sc2"],["s1-2","sc1"],["s1-2","sc2"],["s1-3","sc1"],["s1-3","sc2"],
+            ["s1-4","sc1"],["s1-4","sc2"],["s1-5","sc1"],["s1-5","sc2"],["s1-6","sc1"],["s1-6","sc2"],
+            ["s1-7","sc1"],["s1-7","sc2"],["s1-7","sc3"]];
+  ck(g, "All 15 section checks (SC1-1 … SC7-3)", sc.every(function (x) { return has(x[0], x[1]); }), "15");
+  var ps = []; for (var i = 1; i <= 16; i++) ps.push("p" + (i < 10 ? "0" + i : i));
+  ck(g, "All 16 practice questions (P01 … P16)", ps.every(function (x) { return has("practice", x); }), "P01–P16");
+  ck(g, "All 6 case items (C1-1 … C1-6)",
+    ["c1-1","c1-2","c1-3","c1-4","c1-5","c1-6"].every(function (x) { return has("case", x); }), "C1-1–C1-6");
+  var jan = CAPTURED.filter(function (p) { return p.id === "s1-3"; })[0].scenes
+    .filter(function (s) { return s.kind === "post"; });
+  ck(g, "Both posting decks present, twelve entries in all",
+    jan.length === 2 && jan[0].transactions.length === 6 && jan[1].transactions.length === 6, "6 + 6");
+  ck(g, "The February deck is faded exactly as the book prints it",
+    jan[1].transactions.filter(function (t) { return t.given; }).length === 3, "rows 1–3 given");
+
+  var traps = {};
+  scenes.forEach(function (x) {
+    (x.s.traps || []).forEach(function (t) { traps[t] = 1; });
+    (x.s.items || []).forEach(function (i) { if (i.trap) traps[i.trap] = 1; });
+    ((x.s.sheet || {}).lines || []).forEach(function (l) { if (l.trap) traps[l.trap] = 1; });
+  });
+  ck(g, "All eleven named traps are wired to a scene", Object.keys(traps).length >= 11,
+    Object.keys(traps).length + " traps");
+
+  /* ---------- 3. THE SCENE RULES ---------- */
+  g = grp("3 · One idea per screen",
+    "The first build was 20,100 words and 120,500px of scroll. These are the rules that replaced it.");
+
+  var host = document.getElementById("scene");
+  var words = 0, overChrome = [], rendered = [], failed = [];
+  CAPTURED.forEach(function (p) {
+    (p.scenes || []).forEach(function (s) {
+      var w = ((s.title || "") + " " + (s.say || "").replace(/<[^>]*>/g, "") + " " + (s.kicker || ""))
+        .trim().split(/\s+/).filter(Boolean).length;
+      words += w;
+      if (w > 45) overChrome.push(p.id + "/" + s.id + " (" + w + ")");
+      host.innerHTML = "";
+      var r = D.kinds.indexOf(s.kind) >= 0;
+      if (!r) failed.push(p.id + "/" + s.id + " kind=" + s.kind);
+      rendered.push(s);
+    });
+  });
+  host.innerHTML = "";
+  ck(g, "Every scene kind has a renderer", failed.length === 0, failed.join(", ") || D.kinds.length + " kinds");
+  ck(g, "Total on-screen words for the whole chapter", words < 3200, words + " words");
+  ck(g, "No scene carries more than 45 words of chrome", overChrome.length === 0,
+    overChrome.join(", ") || rendered.length + " scenes");
+  ck(g, "Scenes in the chapter", rendered.length >= 80, rendered.length + " scenes");
+
+  /* ---------- 4. THE EXERCISE CONTRACT ---------- */
+  g = grp("4 · The contract", "Check Answers and Try Again on every scene; distractors everywhere.");
+  var mcq = scenes.filter(function (x) { return x.s.kind === "check"; });
+  ck(g, "Every multiple-choice option has its own explanation",
+    mcq.every(function (x) { return (x.s.options || []).every(function (o) { return o.why; }); }),
+    mcq.length + " questions, " + mcq.reduce(function (a, x) { return a + x.s.options.length; }, 0) + " options");
+  ck(g, "Every single-answer question has exactly one correct option",
+    mcq.every(function (x) { return (x.s.options || []).filter(function (o) { return o.correct; }).length === 1; }),
+    mcq.length + " questions");
+  var sorts = scenes.filter(function (x) { return x.s.kind === "sort"; });
+  /* A sort needs spare chips so the final placement is never deducible -- unless it
+     is a complete partition of a fixed set (the twenty trial-balance accounts), where
+     the only possible distractor would be an invented account. */
+  var noSpare = sorts.filter(function (x) {
+    return !(x.s.distractors || []).length && !x.s.partition;
+  });
+  ck(g, "Every sort has spare chips, or is a declared complete partition",
+    noSpare.length === 0, noSpare.map(function (x) { return x.p.id + "/" + x.s.id; }).join(", ") ||
+    (sorts.length - sorts.filter(function (x) { return x.s.partition; }).length) + " with spares, " +
+    sorts.filter(function (x) { return x.s.partition; }).length + " partition");
+  ck(g, "Every sortable item and distractor explains itself",
+    sorts.every(function (x) {
+      return (x.s.items || []).every(function (i) { return i.why !== undefined; }) &&
+             (x.s.distractors || []).every(function (d) { return d.why; });
+    }), "all explained");
+  var statements = scenes.filter(function (x) { return x.s.kind === "statement"; });
+  ck(g, "Every statement scene carries distractors",
+    statements.every(function (x) { return (x.s.distractors || []).length >= 2; }), statements.length + " statements");
+
+  /* ---------- 5. STATEMENT COMPLETENESS ---------- */
+  g = grp("5 · The statements are complete",
+    "The first build rendered buckets with totals and no line items. These are diffed against the figures.");
+
+  var isScene = statements.filter(function (x) { return x.s.id === "is"; })[0];
+  var bsScene = statements.filter(function (x) { return x.s.id === "bs"; })[0];
+  function lines(s) { return s.s.sheet.lines.filter(function (l) { return l.t !== "side"; })
+    .map(function (l) { return l.label; }); }
+
+  var wantIS = ["Sales revenue", "Cost of goods sold", "Gross profit", "Wages expense", "Depreciation expense",
+                "Operating income", "Interest expense", "Net income"];
+  ck(g, "Figure F01-11 — every line, in the book's order",
+    isScene && lines(isScene).join("|") === wantIS.join("|"), wantIS.length + " lines");
+
+  var wantBS = ["Cash", "Accounts receivable, net of the allowance", "Inventory", "Prepaid rent",
+                "Total current assets", "Land", "Equipment, net of accumulated depreciation", "Total assets",
+                "Accounts payable and dividends payable", "Notes payable (long-term)", "Total liabilities",
+                "Common stock and additional paid-in capital", "Retained earnings", "Total equity",
+                "Total liabilities and equity"];
+  ck(g, "Figure F01-12 — every line, in the book's order",
+    bsScene && lines(bsScene).join("|") === wantBS.join("|"), wantBS.length + " lines");
+
+  ck(g, "Every statement line names the account(s) it takes",
+    statements.every(function (x) {
+      return x.s.sheet.lines.every(function (l) {
+        return l.t === "side" || l.of || (l.expect && l.expect.length); });
+    }), "no empty lines");
+  ck(g, "Every chip on a statement carries its amount",
+    statements.every(function (x) {
+      return x.s.chips.every(function (c) { return typeof c.amount === "number"; }) &&
+             (x.s.distractors || []).every(function (c) { return typeof c.amount === "number"; });
+    }), "amounts travel with the account");
+  var nets = bsScene ? bsScene.s.sheet.lines.filter(function (l) { return l.t === "net"; }) : [];
+  ck(g, "Both “net of” lines need the asset AND its contra",
+    nets.length === 2 && nets.every(function (l) { return l.expect.length === 2; }), "2 net lines");
+
+  /* ---------- 6. THE NUMBERS ---------- */
+  g = grp("6 · The numbers", "Every figure descends from one ledger and recomputes on every load.");
+  L.checkTies().forEach(function (t) { ck(g, t.label, t.ok, L.money(t.left) + " = " + L.money(t.right)); });
+  var quoted = [["Net income 330", L.is.netIncome, 330], ["Gross profit 1,240", L.is.grossProfit, 1240],
+    ["Operating income 420", L.is.operatingIncome, 420], ["Closing RE 1,280", L.sce.reClosing, 1280],
+    ["Total equity 3,780", L.sce.totalEquity, 3780], ["Current assets 1,774", L.bs.currentAssets, 1774],
+    ["Total assets 6,010", L.bs.totalAssets, 6010], ["Total liabilities 2,230", L.bs.totalLiabilities, 2230],
+    ["Receivables net 280", L.bs.arNet, 280], ["Equipment net 3,300", L.bs.equipmentNet, 3300],
+    ["Working capital 1,344", L.ratios.workingCapital, 1344], ["Current ratio 4.13", L.ratios.currentRatio2, 4.13],
+    ["January net income 80", L.jan.ni, 80], ["January cash +1,060", L.jan.cash, 1060],
+    ["December gross profit 36", L.decemberSale.grossProfit, 36]];
+  var bad = quoted.filter(function (q) { return Math.abs(q[1] - q[2]) > 0.001; });
+  ck(g, "Every figure the chapter quotes reproduces from the ledger", bad.length === 0,
+    bad.map(function (q) { return q[0]; }).join(", ") || quoted.length + " figures");
+
+  /* ---------- 7. OFFLINE ---------- */
+  g = grp("7 · Offline", "The things that break silently without a web server.");
+  ck(g, "No module scripts", document.querySelectorAll('script[type="module"]').length === 0, "classic only");
+  ck(g, "No external URL on this page",
+    Array.prototype.slice.call(document.querySelectorAll("[src],[href]")).every(function (n) {
+      return !/^https?:/i.test(n.getAttribute("src") || n.getAttribute("href") || ""); }), "nothing external");
+  ck(g, "localStorage works from this origin", P.storageWorks === true,
+    P.storageWorks ? "progress saved" : "in-memory fallback");
+  ck(g, "Speech synthesis present", window.Speech.supported,
+    window.Speech.supported ? window.Speech.voicesFor("en").length + " en / " +
+      window.Speech.voicesFor("ar").length + " ar voices" : "none");
+
+  var f = res.filter(function (x) { return !x; }).length;
+  var v = document.getElementById("v");
+  v.className = "v " + (f ? "f" : "p");
+  v.innerHTML = f ? "✗ " + f + " of " + res.length + " checks failed.<small>Nothing ships until this reads clean.</small>"
+    : "✓ All " + res.length + " checks pass.<small>" + rendered.length + " scenes across " +
+      CAPTURED.length + " decks · " + words + " on-screen words · " + T.count +
+      " sourced Arabic terms · " + L.checkTies().length + " ledger ties.</small>";
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chapter 1 · CMA Part 1 Book 1</title>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the contents</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="../index.html"><span class="bar-mark">C1</span><span>CMA Part 1 · Book 1</span></a>
+  <div class="bar-where">Chapter 1</div>
+  <a class="bar-menu" href="../glossary.html">Glossary</a>
+</div></header>
+
+<main id="main"><div class="wrap">
+  <p class="scene-kicker" style="margin-top:26px">Part I · Foundations and the four financial statements</p>
+  <h1 class="page-h1">The Language and Framework of Financial Reporting</h1>
+  <p class="ar" lang="ar" dir="rtl" style="font-size:22px;color:var(--accent-ink);margin:0 0 14px">لغة التقارير المالية وإطارها</p>
+  <p class="lede">You already know these ideas from your accounting studies in Arabic or French. What is new is
+    <b>the English names</b>, <b>the U.S. rules</b>, and <b>the exam wording</b>. <span id="prog"></span></p>
+
+  <!-- The author's own roadmap for the chapter, extracted from the .docx by tools/cma_book. The
+       caption is the author's wording; nothing is described here that the author did not write. -->
+  <figure class="bookfig">
+    <img src="../assets/figures/F01-01.png" loading="lazy" decoding="async"
+         alt="Roadmap of Chapter 1: seven linked topics from users to the four financial statements.">
+    <figcaption><b>Figure F01-01.</b> Roadmap of Chapter 1: seven linked topics from users to the four
+      financial statements. Each box is a section below.</figcaption>
+  </figure>
+
+  <h2 class="sec-h">Start here</h2>
+  <div class="cards" id="secs"></div>
+
+  <h2 class="sec-h">Then</h2>
+  <div class="cards" id="back"></div>
+
+  <h2 class="sec-h">What this chapter is tested on</h2>
+  <table class="tbl">
+    <thead><tr><th>LOS</th><th>Official statement (ICMA, 2024)</th><th>In plain words</th><th>Depth here</th></tr></thead>
+    <tbody>
+      <tr><td><b>A.1.a</b></td><td>identify the users of these financial statements and their needs</td>
+        <td>Identify the users of financial statements and what each user needs.</td><td><b>Full treatment</b></td></tr>
+      <tr><td><b>A.1.b</b></td><td>demonstrate an understanding of the purposes and uses of each statement</td>
+        <td>State what each of the four financial statements is for.</td><td>Overview — full in Ch. 2–5</td></tr>
+      <tr><td><b>A.1.e</b></td><td>identify how various financial transactions affect the elements of each of the
+        financial statements and determine the proper classification of a given transaction</td>
+        <td>Show how a transaction changes the accounting equation, and classify simple transactions.</td>
+        <td>Introduction — full in Ch. 2–5</td></tr>
+      <tr><td><b>A.2.z</b></td><td>demonstrate an understanding of the matching principle with respect to revenues
+        and expenses, and be able to apply it to a specific situation</td>
+        <td>Explain the accrual basis and the matching principle.</td><td>Introduction — full in Ch. 11</td></tr>
+      <tr><td><b>Background</b></td><td>Background for this book (not an ICMA learning outcome).</td>
+        <td>Describe who sets U.S. GAAP and IFRS, and which rules the CMA exam uses.</td><td>Background</td></tr>
+    </tbody>
+  </table>
+  <p class="note" style="margin-top:10px">Quoted from the ICMA Learning Outcome Statements effective
+    September 1, 2024. The exam may test any outcome up to Level C.</p>
+
+  <h2 class="sec-h">The sixteen key terms</h2>
+  <div id="keyterms" class="cards"></div>
+
+  <p class="note" style="margin:26px 0 40px">Every scene has <b>Check Answers</b> and <b>Try Again</b>.
+    Try Again reshuffles rather than revealing. When you are wrong, the first thing you read is the reason for
+    the option <em>you</em> chose, taken from the book's own explanations. Progress is saved in this browser.
+    <button class="btn btn-ghost" id="reset" type="button" style="margin-left:8px">Reset my progress</button></p>
+</div></main>
+
+<script src="../assets/ledger.js"></script>
+<script src="../assets/terms-ch01.js"></script>
+<script src="../assets/terms-fr-ch01.js"></script>
+<script src="../assets/speech.js"></script>
+<script src="../assets/progress.js"></script>
+<script>
+(function () {
+  var P = window.Progress, T = window.TERMS, S = window.Speech;
+  function card(t) {
+    var st = P.pageStats(t.id);
+    var a = document.createElement("a");
+    a.className = "card" + (st.complete ? " done" : "");
+    a.href = t.file;
+    a.innerHTML = '<span class="card-n">' + t.n + '</span><span class="card-t">' + t.title +
+      '<span class="card-s">' + t.blurb + '</span></span><span class="card-b">' +
+      (st.complete ? "✓ done" : (st.done ? st.done + " of " + st.total : "start →")) + '</span>';
+    return a;
+  }
+  P.TOC.forEach(function (t) {
+    document.getElementById(t.kind === "section" ? "secs" : "back").appendChild(card(t));
+  });
+  var s = P.chapterStats();
+  document.getElementById("prog").innerHTML = s.items
+    ? "<b>" + s.done + " of " + s.items + "</b> scenes done, <b>" + s.pagesComplete + " of " + s.pages + "</b> pages complete."
+    : "";
+  var kt = document.getElementById("keyterms");
+  T.keys().forEach(function (t) {
+    var d = document.createElement("div");
+    d.className = "card";
+    var w = document.createElement("span");
+    w.className = "card-t";
+    w.appendChild(document.createTextNode(t.en));
+    if (S) w.appendChild(S.button(t.en, "en", "Pronounce in English"));
+    var ar = document.createElement("span");
+    ar.className = "ar card-s";
+    ar.setAttribute("lang", "ar");
+    ar.setAttribute("dir", "rtl");
+    ar.textContent = t.ar;
+    w.appendChild(ar);
+    if (S) w.appendChild(S.button(t.ar, "ar", "Pronounce in Arabic"));
+    /* These sixteen are exactly the terms the author gives French for, so all sixteen cards carry it. */
+    var fr = (window.TERMS_FR || {})[String(t.en).toLowerCase()];
+    if (fr) {
+      var f = document.createElement("span");
+      f.className = "card-s fr";
+      f.setAttribute("lang", "fr");
+      f.textContent = fr;
+      w.appendChild(f);
+    }
+    d.appendChild(w);
+    kt.appendChild(d);
+  });
+  document.getElementById("reset").addEventListener("click", function () {
+    if (confirm("Clear all saved progress for Chapter 1 on this computer?")) { P.reset(); location.reload(); }
+  });
+})();
+</script>
+</body>
+</html>

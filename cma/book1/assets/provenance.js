@@ -1,0 +1,214 @@
+/* provenance.js — the lock.
+ *
+ * Every string the site shows is classified by role:
+ *   CONTENT — anything the learner is taught: facts, rules, definitions, numbers,
+ *             account names, rationales, question stems and options. Every word of
+ *             it must appear in the author's chapter.
+ *   CHROME  — pure interface. It may use ordinary English, but it must carry no
+ *             accounting claim: no figure the author did not write, and no term
+ *             outside the author's vocabulary and the interface whitelist.
+ *
+ * A CONTENT word the author never wrote is a provenance failure, and the gate fails.
+ */
+(function (root) {
+  "use strict";
+  var SRC = root.SOURCE_TEXT || "";
+
+  function words(s) {
+    return String(s)
+      .replace(/<[^>]*>/g, " ")
+      .replace(/&[a-z]+;/gi, " ")
+      .toLowerCase()
+      .replace(/[‘’]/g, "'")
+      .replace(/[^a-z0-9'؀-ۿ.]+/g, " ")
+      .split(/\s+/)
+      .map(function (w) { return w.replace(/^[.']+|[.']+$/g, ""); })
+      .filter(Boolean);
+  }
+
+  var VOCAB = {};
+  words(SRC).forEach(function (w) { VOCAB[w] = 1; });
+  (SRC.match(/\d[\d,]*/g) || []).forEach(function (n) { VOCAB[n.replace(/,/g, "")] = 1; });
+
+  function addNumbers(L) {
+    function push(v) {
+      if (typeof v === "number" && isFinite(v)) {
+        VOCAB[String(Math.round(Math.abs(v)))] = 1;
+        VOCAB[String(Math.abs(v))] = 1;
+      }
+    }
+    [L.is, L.sce, L.bs, L.ratios, L.jan, L.feb, L.decemberSale].forEach(function (o) {
+      Object.keys(o || {}).forEach(function (k) { push(o[k]); });
+    });
+    L.trialBalance.forEach(function (r) { push(r.dr); push(r.cr); });
+    L.january.concat(L.february).forEach(function (t) {
+      t.entry.forEach(function (e) { push(e.amount); });
+      Object.keys(t.eff).forEach(function (k) { push(t.eff[k]); });
+    });
+    push(L.totalDebits); push(L.totalCredits);
+    var base = Object.keys(VOCAB).filter(function (x) { return /^\d+$/.test(x); }).map(Number);
+    base.forEach(function (a) { base.forEach(function (b) { if (a > b) VOCAB[String(a - b)] = 1; }); });
+  }
+  if (root.LEDGER) addNumbers(root.LEDGER);
+
+  function stems(w) {
+    var o = {}; o[w] = 1;
+    function add(x) { if (x.length > 2) o[x] = 1; }
+    if (/ies$/.test(w)) add(w.slice(0, -3) + "y");
+    if (/es$/.test(w)) add(w.slice(0, -2));
+    if (/s$/.test(w)) add(w.slice(0, -1));
+    if (/ed$/.test(w)) { add(w.slice(0, -2)); add(w.slice(0, -1)); }
+    if (/ing$/.test(w)) { add(w.slice(0, -3)); add(w.slice(0, -3) + "e"); }
+    if (/ly$/.test(w)) add(w.slice(0, -2));
+    if (/'s$/.test(w)) add(w.slice(0, -2));
+    add(w + "s"); add(w + "es"); add(w + "d"); add(w + "ed"); add(w + "ing");
+    if (/y$/.test(w)) add(w.slice(0, -1) + "ies");
+    if (/e$/.test(w)) { add(w.slice(0, -1) + "ing"); add(w + "d"); }
+    return Object.keys(o);
+  }
+  function known(w) {
+    var st = stems(w);
+    for (var i = 0; i < st.length; i++) if (VOCAB[st[i]]) return true;
+    return false;
+  }
+
+  /* Ordinary English for operating the interface. Nothing here is an accounting
+     claim, and nothing may be added here that is. */
+  var CHROME = {};
+  ("drag drop drops dropped onto into here click clicks clicking tap taps tapping " +
+   "scene scenes screen next back finish check answers try again open opens opened " +
+   "slider slide move moves moving put puts place places placed sort sorts sorted " +
+   "board shelf shelves tray chip chips zone card cards pipe pipes valve tank beam " +
+   "podium step steps grid cell cells tab tabs fill fills filled watch see read " +
+   "find choose chosen pick picks select selects selected type typing enter entered " +
+   "button buttons keyboard press pressed arrow left right up down toggle switch " +
+   "flip flips reshuffles reshuffled reveal reveals shown show shows hide hidden " +
+   "highlight highlights your you yours yourself it its one two three four five six " +
+   "seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen twenty " +
+   "first second last each every all both none nothing something anything " +
+   "and or but not if then than that this these those there here where when what " +
+   "which who whom whose why how so as at by for from in into of off on to with " +
+   "without a an the is are was were be been being has have had do does did " +
+   "can could will would should may might must " +
+   "itself themselves them they he she we us our ours my mine " +
+   "now again still already yet once twice only just even also too very much many " +
+   "more most less least few several some any other others another same different " +
+   "wrong right correct incorrect answer answers explanation explanations " +
+   "because since while before after until during about above below over under " +
+   "between among through across along around against toward towards " +
+   "deck decks page pages section sections chapter figure figures box boxes " +
+   "learner reader exam book site progress saved browser computer offline " +
+   "pronounce pronunciation speak speaker voice voices icon icons " +
+   "memory remember recall practise practice drill drills interleaved mixed review " +
+   "reference list lists table tables column columns row rows line lines " +
+   "complete completed completes finish finished done ready start starts started " +
+   "hard harder hardest easy easier simple simply quick short long " +
+   "look looks looking think thinks reading says said say tell tells told " +
+   "make makes made take takes taken give gives given get gets got " +
+   "let lets leave leaves left keep keeps kept hold holds held " +
+   "work works working build builds built create creates created " +
+   "change changes changed turn turns turned run runs running " +
+   "need needs needed want wants wanted know knows knew " +
+   "use uses used using useful own real actual whole full " +
+   "nothing everything someone anyone nobody out up down away back forth per via " +
+   "plus minus s t re ve ll d m " +
+   "shape marked sending connection came catch catching actually waiting comparison " +
+   "alike drawn fallen pairs direction load bearing can't locks blank " +
+   "somewhere random paragraph exhibit destination therefore top fit life whatever " +
+   "labels happens logged").split(/\s+/).forEach(function (w) { CHROME[w] = 1; });
+
+  function checkContent(text) {
+    if (!text) return [];
+    var bad = [];
+    words(text).forEach(function (w) { if (!known(w) && bad.indexOf(w) < 0) bad.push(w); });
+    return bad;
+  }
+  function checkChrome(text) {
+    if (!text) return [];
+    var bad = [];
+    words(text).forEach(function (w) {
+      if (!CHROME[w] && !known(w) && bad.indexOf(w) < 0) bad.push(w);
+    });
+    return bad;
+  }
+
+  /* Walk one deck, returning every failure. The role of each field is fixed here. */
+  function audit(decks) {
+    var out = [];
+    function C(d, s, w, t) { var b = checkContent(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90) }); }
+    function H(d, s, w, t) { var b = checkChrome(t); if (b.length) out.push({ deck: d, scene: s, where: w, bad: b, text: String(t).slice(0, 90), chrome: true }); }
+    decks.forEach(function (d) {
+      (d.scenes || []).forEach(function (s) {
+        H(d.id, s.id, "title", s.title); H(d.id, s.id, "say", s.say); H(d.id, s.id, "kicker", s.kicker);
+        (s.targets || []).forEach(function (t) {
+          H(d.id, s.id, "target", t.label); H(d.id, s.id, "target.sub", t.sub);
+          if (t.reveal) { C(d.id, s.id, "reveal", t.reveal.name); C(d.id, s.id, "reveal.kind", t.reveal.kind); }
+        });
+        (s.groups || []).forEach(function (g) { H(d.id, s.id, "group", g.label); H(d.id, s.id, "group.sub", g.sub); });
+        (s.items || []).forEach(function (i) { C(d.id, s.id, "item", i.name); C(d.id, s.id, "item.why", i.why); });
+        (s.distractors || []).forEach(function (i) { C(d.id, s.id, "distractor", i.name || i.id); C(d.id, s.id, "distractor.why", i.why); });
+        (s.options || []).forEach(function (o) { C(d.id, s.id, "option", o.text); C(d.id, s.id, "option.why", o.why); });
+        (s.fields || []).forEach(function (f) {
+          C(d.id, s.id, "field", f.label); C(d.id, s.id, "field.why", f.why);
+          (f.diag || []).forEach(function (x) { C(d.id, s.id, "diagnostic", x.says); });
+        });
+        (s.ties || []).forEach(function (t) { C(d.id, s.id, "tie", t.label); C(d.id, s.id, "tie.why", t.why); });
+        (s.probes || []).forEach(function (p) { C(d.id, s.id, "probe", p.q); C(d.id, s.id, "probe.a", p.a); });
+        (s.chips || []).forEach(function (c) { C(d.id, s.id, "chip", c.id); });
+        ((s.sheet || {}).lines || []).forEach(function (l) { C(d.id, s.id, "line", l.label); C(d.id, s.id, "line.why", l.why); });
+        if (s.sheet) { C(d.id, s.id, "sheet.company", s.sheet.company); C(d.id, s.id, "sheet.name", s.sheet.name); C(d.id, s.id, "sheet.when", s.sheet.when); }
+        if (s.sealText) C(d.id, s.id, "sealText", s.sealText);
+        Object.keys(s.logic || {}).forEach(function (k) { C(d.id, s.id, "logic", s.logic[k]); });
+        Object.keys(s.lures || {}).forEach(function (k) {
+          s.lures[k].forEach(function (x) { C(d.id, s.id, "lure", x.name); C(d.id, s.id, "lure.why", x.why); });
+        });
+        (s.moves || []).forEach(function (x) { C(d.id, s.id, "move", x.label); C(d.id, s.id, "move.why", x.why); });
+        (s.pipes || []).forEach(function (x) { C(d.id, s.id, "pipe", x.label); C(d.id, s.id, "pipe.why", x.why); });
+        (s.stops || []).forEach(function (x) {
+          C(d.id, s.id, "stop", x.when); C(d.id, s.id, "stop.note", x.note);
+          C(d.id, s.id, "stop.a", (x.accrual || {}).text); C(d.id, s.id, "stop.c", (x.cash || {}).text);
+        });
+        (s.links || []).forEach(function (x) { C(d.id, s.id, "link.why", x.why); });
+        (s.cards || []).forEach(function (c) {
+          C(d.id, s.id, "card", c.title); C(d.id, s.id, "card.sub", c.sub);
+          (c.ports || []).forEach(function (p) { C(d.id, s.id, "port", p.label); });
+        });
+        (s.stems || []).forEach(function (x) { C(d.id, s.id, "stem", x.text); C(d.id, s.id, "stem.cue", x.cue); C(d.id, s.id, "stem.effect", x.effect); });
+        (s.effects || []).forEach(function (x) { C(d.id, s.id, "effect", x); });
+        (s.seats || []).forEach(function (x) {
+          C(d.id, s.id, "seat", x.user); C(d.id, s.id, "seat.decision", x.decision);
+          C(d.id, s.id, "seat.q", x.q); C(d.id, s.id, "seat.stmts", x.stmts);
+        });
+        (s.volumes || []).forEach(function (x) { C(d.id, s.id, "volume", x.topic); C(d.id, s.id, "volume.why", x.why); });
+        (s.gauges || []).forEach(function (x) { C(d.id, s.id, "gauge", x.key); C(d.id, s.id, "gauge.note", x.note); });
+        (s.bars || []).forEach(function (x) { C(d.id, s.id, "bar", x.label); });
+        (s.answers || []).forEach(function (x) { C(d.id, s.id, "cloze", x.word); C(d.id, s.id, "cloze.why", x.why); });
+        (s.extra || []).forEach(function (x) { C(d.id, s.id, "cloze.extra", x); });
+        (s.parts || []).forEach(function (x) { C(d.id, s.id, "cloze.part", x); });
+        (s.pairs || []).forEach(function (x) { C(d.id, s.id, "pair.us", x.us); C(d.id, s.id, "pair.ifrs", x.ifrs); });
+        if (s.rightWhy) C(d.id, s.id, "rightWhy", s.rightWhy);
+        if (s.wrongWhy) C(d.id, s.id, "wrongWhy", s.wrongWhy);
+        if (s.asset) C(d.id, s.id, "asset", s.asset.label);
+        if (s.contra) C(d.id, s.id, "contra", s.contra.label);
+        if (s.netLabel) C(d.id, s.id, "netLabel", s.netLabel);
+        if (s.a) C(d.id, s.id, "split.a", s.a.label);
+        if (s.b) C(d.id, s.id, "split.b", s.b.label);
+        if (s.intro) C(d.id, s.id, "intro", s.intro);
+        if (s.ask) H(d.id, s.id, "ask", s.ask);
+        if (s.missWhy) C(d.id, s.id, "missWhy", s.missWhy);
+        if (s.titleUs) C(d.id, s.id, "titleUs", s.titleUs);
+        if (s.titleIfrs) C(d.id, s.id, "titleIfrs", s.titleIfrs);
+        (s.years || []).forEach(function (x) { C(d.id, s.id, "year", x); });
+        (s.tags || []).forEach(function (x) { H(d.id, s.id, "tag", x.label); H(d.id, s.id, "tag.short", x.short); });
+        Object.keys(s.why || {}).forEach(function (k) { C(d.id, s.id, "why", s.why[k]); });
+      });
+    });
+    return out;
+  }
+
+  root.Provenance = {
+    audit: audit, checkContent: checkContent, checkChrome: checkChrome,
+    get vocabulary() { return Object.keys(VOCAB).length; },
+    get sourceWords() { return words(SRC).length; }
+  };
+})(window);

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CMA Part 1 · Book 1 — External Financial Reporting Decisions</title>
+<meta name="description" content="External Financial Reporting Decisions — a graded-English CMA Part 1 textbook with Arabic term bridges. Interactive, offline, no web server needed.">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.book-hero{background:#0e2936;color:#fff;border-radius:26px;padding:50px 54px;margin:18px 0 34px;
+  position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.book-hero:after{content:"";position:absolute;width:340px;height:340px;right:-60px;top:-120px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.14);box-shadow:0 0 0 34px rgba(255,255,255,.03),0 0 0 68px rgba(255,255,255,.02)}
+.book-hero .eyebrow{color:#7fd9d0}
+.book-hero h1{font-size:clamp(32px,5vw,54px);max-width:760px;margin:12px 0}
+.book-hero .ar{color:#9fd8e4;font-size:1.5rem;margin:0 0 18px}
+.book-hero p.lede{max-width:640px;color:#cfe2e6;font-size:17px;margin:0 0 26px}
+.book-hero .stats{position:relative;z-index:1}
+.book-hero .stats b{color:#fff}
+.cta{display:inline-flex;align-items:center;gap:11px;background:var(--gold);color:#1a2b33;
+  border-radius:11px;padding:14px 20px;font-weight:800;font-size:15px}
+.cta:hover{text-decoration:none;filter:brightness(1.06)}
+.part-head{display:flex;align-items:baseline;gap:14px;margin:36px 0 14px;flex-wrap:wrap}
+.part-head h2{font-size:22px}
+.part-head span{font-size:12.5px;color:var(--muted)}
+.chapters{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.chapter{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 18px}
+.chapter.live:hover{border-color:var(--teal-line);box-shadow:var(--shadow-sm);text-decoration:none}
+.chapter.planned{opacity:.6}
+.ch-n{flex:none;width:38px;height:38px;border-radius:11px;background:var(--card-2);color:var(--muted);
+  display:grid;place-items:center;font-weight:800;font-size:13px;font-family:var(--mono)}
+.chapter.live .ch-n{background:var(--teal);color:#fff}
+.ch-t{display:block;font-weight:700;font-size:14.5px;color:var(--ink)}
+.ch-s{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.ch-badge{flex:none;align-self:center;font-size:10.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--muted)}
+.chapter.live .ch-badge{color:var(--teal)}
+@media(max-width:700px){.book-hero{padding:32px 24px;border-radius:20px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="bar"><div class="wrap">
+  <a class="bar-home" href="index.html"><span class="bar-mark">C1</span><span>CMA Part 1 · Book 1</span></a>
+  <div class="bar-where">External Financial Reporting Decisions</div>
+  <a class="bar-menu" href="ch01/index.html">Chapter 1</a>
+</div></header>
+<main id="main">
+<div class="wrap">
+
+<header class="book-hero">
+  <p class="eyebrow">CMA Part 1 · Book 1 · Section A</p>
+  <h1>External Financial Reporting Decisions</h1>
+  <p class="ar" lang="ar" dir="rtl">قرارات التقارير المالية الخارجية</p>
+  <p class="lede">A graded-English textbook with Arabic term bridges, built as an interactive site. Learn the
+    framework behind financial reporting, connect every exam term to Arabic, and practise the ideas in the
+    item formats the exam itself uses.</p>
+  <a class="cta" href="ch01/index.html">Start Chapter 1 <span aria-hidden="true">→</span></a>
+  <div class="stats">
+    <span><b id="statItems">92</b> scenes in Chapter 1</span>
+    <span><b>English + عربي</b> on every term</span>
+    <span><b id="statDone">—</b></span>
+  </div>
+</header>
+
+<p class="lede">Every chapter covers the ICMA Learning Outcome Statements for Part 1, Section A, effective
+  September 1, 2024, written in graded English (B1+ to B2) with the exact exam terms. New here? Read
+  <a href="how-to-use.html">how to use this book</a> first — it explains the boxes, the case companies and the
+  numbers convention.</p>
+
+<div class="part-head"><h2>Part I — Foundations and the four financial statements</h2><span id="part-1">Chapters 1 to 5</span></div>
+<div class="chapters" id="part1"></div>
+
+<div class="part-head"><h2>Part II — Recognition and measurement of assets</h2><span>Chapters 6 to 10</span></div>
+<div class="chapters" id="part2"></div>
+
+<div class="part-head"><h2>Part III — Revenue, liabilities and income measurement</h2><span>Chapters 11 to 15</span></div>
+<div class="chapters" id="part3"></div>
+
+<div class="part-head"><h2>Part IV — Groups, IFRS contrasts and integrated reporting</h2><span>Chapters 16 to 18</span></div>
+<div class="chapters" id="part4"></div>
+
+<div class="part-head"><h2>Appendices</h2><span>Reference</span></div>
+<div class="chapters">
+  <a class="chapter live" href="glossary.html"><span class="ch-n">A</span>
+    <span class="ch-t">Glossary<span class="ch-s">Every term, English and Arabic, searchable, with pronunciation</span></span>
+    <span class="ch-badge">Open →</span></a>
+  <a class="chapter live" href="term-index.html"><span class="ch-n">B</span>
+    <span class="ch-t">Index of terms<span class="ch-s">Each term pointed to the section that defines it</span></span>
+    <span class="ch-badge">Open →</span></a>
+  <a class="chapter live" href="how-to-use.html"><span class="ch-n">?</span>
+    <span class="ch-t">How to use this book<span class="ch-s">The boxes, the case companies, the numbers convention</span></span>
+    <span class="ch-badge">Open →</span></a>
+</div>
+
+<aside class="box box-know" style="margin-top:30px">
+  <div class="box-head"><span class="box-kind">OFFLINE BY DESIGN</span><h3>No internet, no web server, no install</h3></div>
+  <div class="box-body">
+    <p>Open <code>index.html</code> straight from the folder and everything works: every exercise, every figure,
+      every drag-and-drop, and the progress that is saved in this browser on this computer. Pronunciation uses the
+      voices already installed on your computer — on Windows, Chrome and Microsoft Edge expose them directly.
+      If the Arabic icon is dimmed, no Arabic voice is installed; the foot of any chapter page says how to add one.</p>
+    <p class="note">Chapter 1 is complete as the pilot. Chapters 2 to 18 are written and frozen for review in
+      the source book; they are listed here so the shape of the whole book is visible, and each one will build out
+      to the same thirteen pages.</p>
+  </div>
+</aside>
+
+</div>
+</main>
+
+<script src="assets/ledger.js"></script>
+<script src="assets/terms-ch01.js"></script>
+<script src="assets/terms-fr-ch01.js"></script>
+<script src="assets/speech.js"></script>
+<script src="assets/progress.js"></script>
+<script>
+(function () {
+  var CH = [
+    [1, "The Language and Framework of Financial Reporting", "Users, elements, double entry, the accrual basis, the rule makers and the four statements", 1, "ch01/index.html"],
+    [2, "The Balance Sheet", "Purpose, structure, current and noncurrent items, classifying debt", 1],
+    [3, "The Income Statement and Comprehensive Income", "Multi-step format, unusual items, comprehensive income", 1],
+    [4, "Equity and the Statement of Changes in Equity", "Issuing and buying back shares, dividends, splits, retained earnings", 1],
+    [5, "The Statement of Cash Flows", "Classifying flows, the indirect and direct methods", 1],
+    [6, "Receivables: Credit Losses and Transfers", "Measurement, the allowance, sale versus secured borrowing", 2],
+    [7, "Inventory I: Goods, Costs and Cost Flows", "Which goods, which costs, and the cost flow assumptions", 2],
+    [8, "Inventory II: Measurement Tests and Retail Estimates", "Lower of cost or market, retail and gross profit methods", 2],
+    [9, "Investments in Debt and Equity Securities", "Three categories, measurement, credit losses, the equity method", 2],
+    [10, "Long-Lived Assets", "Cost, depreciation methods, disposal and impairment", 2],
+    [11, "Revenue Recognition", "The five steps, special situations and contract costs", 3],
+    [12, "Current Liabilities and Warranties", "What makes a liability current, payroll, refinancing, warranties", 3],
+    [13, "Income Taxes", "Temporary and permanent differences, deferred taxes, rate changes", 3],
+    [14, "Leases", "The five criteria, initial and subsequent measurement, presentation", 3],
+    [15, "Measuring Income", "Gains and losses, comprehensive income, discontinued operations", 3],
+    [16, "Consolidated Financial Statements", "Control models, goodwill, noncontrolling interest, eliminations", 4],
+    [17, "U.S. GAAP and IFRS: The Six Tested Differences", "Share-based payments, intangibles, inventories, leases, long-lived assets, impairment", 4],
+    [18, "Integrated Reporting", "Integrated thinking, the six capitals, guiding principles", 4]
+  ];
+  CH.forEach(function (c) {
+    var host = document.getElementById("part" + c[3]);
+    if (!host) return;
+    var live = !!c[4];
+    var el = document.createElement(live ? "a" : "div");
+    el.className = "chapter " + (live ? "live" : "planned");
+    if (live) el.href = c[4];
+    el.innerHTML = '<span class="ch-n">' + (c[0] < 10 ? "0" + c[0] : c[0]) + '</span>' +
+      '<span class="ch-t">' + c[1] + '<span class="ch-s">' + c[2] + '</span></span>' +
+      '<span class="ch-badge">' + (live ? "Open →" : "Planned") + '</span>';
+    host.appendChild(el);
+  });
+  var s = window.Progress.chapterStats();
+  document.getElementById("statItems").textContent = s.items || 92;
+  document.getElementById("statDone").textContent = s.items
+    ? s.done + " of " + s.items + " done · " + s.pagesComplete + " of " + s.pages + " pages complete"
+    : "Self-paced · progress saved here";
+})();
+</script>
+</body>
+</html>
