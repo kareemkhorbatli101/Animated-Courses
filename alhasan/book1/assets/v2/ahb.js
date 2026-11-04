@@ -16,6 +16,9 @@ window.AHB = (function () {
   A.unit = function (d) { A.units[d.unit] = d; return d; };
   A.audio = function (d) { A.audioData[d.unit] = d.groups; return d; };
   A.cast = function (m) { for (var k in m) if (m.hasOwnProperty(k)) A.castData[k] = m[k]; return m; };
+  /* The object sprite, handed over as markup for the renderer to inject once. It is a script rather
+     than an .svg file because an external <use href="art.svg#id"> does not resolve from file://. */
+  A.sprite = function (svg) { A.spriteSVG = svg; return svg; };
 
   /* The only HTML-escaping in the site. Every string that reaches the page goes through it, because every
      string that reaches the page came out of a book and nobody has checked it for angle brackets. */

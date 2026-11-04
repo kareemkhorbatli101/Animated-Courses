@@ -1,19 +1,30 @@
-/* The Al-Hasan lesson renderer, v2.
+/* The Al-Hasan lesson renderer, v3.
 
-   WHAT CHANGED, AND WHY. v1 had seven widget types and graded a whole exercise as one right-or-wrong.
-   The book has fifteen kinds of question and 236 numbered items, so v1 could only show a flattened
-   version of it - which is how a True/False exercise, an odd-one-out and an error-correction became
-   multiple-choice. This renders the items, marks each one, and shows the book's own answer when a
-   learner gets it wrong.
+   WHAT IT PUTS ON A PAGE, and why each part is there.
 
-   Six defects of v1 are fixed here and each is noted at the line that fixes it:
-     1. a second gap in a sentence was never rendered  (String.replace with a string hits once)
-     2. matching was a free pass                       (the right option was always on the same row)
-     3. word order was graded by token id              (a repeated word marked a correct answer wrong)
-     4. Check was bypassed on multiple choice          (the answer appeared on click)
-     5. writing passed on a single character
-     6. a clip whose speaker had no face failed silently
-*/
+   THE BOOK'S OWN EXERCISE, item by item, marked against the book's own answer key. Eighteen widget types,
+   because the book has eighteen kinds of question; the first version of this site had seven, and the
+   difference is why nearly half of it had turned into multiple choice.
+
+   A PICTURE ON EVERY EXERCISE, composed from drawings of the things the book talks about. Not decoration:
+   the object is chosen because its own name occurs in that exercise's text, and gates/ah_site_art refuses
+   a picture that cannot be traced to the words beside it.
+
+   ARABIC ON A BUTTON. The instruction, the worked example and the model answer, translated by hand. The
+   content stays in English, because the content is what the learner came for; the instruction is the door
+   they have to get through first.
+
+   TWO KINDS OF SOUND. The readings and dialogues are pre-recorded Piper mp3s - the lesson itself, the same
+   for everybody, offline. Everything a learner might want to HEAR rather than read - a revealed answer, a
+   prompt, a sample conversation, the Arabic - is spoken by the device through assets/v2/speak.js. Nothing
+   crosses that seam: gates/ah_site_speech fails the page if Check ever plays an mp3, or if a reading is
+   ever read by the device.
+
+   SCAFFOLDING, because a learner alone has no teacher. Every exercise carries a line on how to do it;
+   every speaking task a worked conversation it can perform; every discussion prompt a model answer; every
+   writing task a sample that types itself out beside their own attempt.
+
+   Six defects of v1 are fixed and each is marked at the line that fixes it.  */
 (function () {
   var A = window.AHB, esc = A.esc;
   var body = document.body;
@@ -24,6 +35,16 @@
   var root = document.getElementById('app');
   if (!D || !root) return;
 
+  /* The object sprite is injected once, so every picture below is a same-document <use href="#o-...">.
+     An external reference would not resolve from a file:// URL, and these pages must run from a stick. */
+  if (A.spriteSVG && !document.getElementById('ahb-sprite')) {
+    var holder = document.createElement('div');
+    holder.id = 'ahb-sprite';
+    holder.style.display = 'none';
+    holder.innerHTML = A.spriteSVG;
+    document.body.insertBefore(holder, document.body.firstChild);
+  }
+
   var KEY = 'alhasan-u' + UNIT + '-progress';
   var state = {};
   try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { state = {}; }
@@ -32,7 +53,6 @@
   var idx = D.sections.findIndex(function (s) { return s[0] === slug; });
   var section = D.sections[idx];
   var page = D.pages[slug];
-
   function label(i) { return i === 0 ? 'Warm Up' : 'Part ' + String(i).padStart(2, '0'); }
 
   function nav() {
@@ -57,16 +77,17 @@
     root.innerHTML =
       '<header class="hero"><div class="eyebrow">Al-Hasan International</div>' +
       '<h1>' + esc(D.title) + '</h1>' +
-      '<p>Twelve sections, ' + totalItems + ' questions, every one of them from the book.</p>' +
+      '<p>Twelve sections and ' + totalItems + ' questions, every one of them from the book.</p>' +
       '<div class="progress"><span style="width:' + pct + '%"></span></div>' +
       '<p class="small">' + doneItems + ' of ' + totalItems + ' answered correctly on this device.</p>' +
       '</header><div class="grid">' +
       D.sections.map(function (s, i) {
-        var p = D.pages[s[0]], nex = (p.exercises || []).length;
+        var p = D.pages[s[0]];
         var vids = (p.videos || []).length;
         return '<article class="card"><div class="eyebrow">' + label(i) + '</div>' +
           '<h2>' + esc(s[1]) + '</h2><p>' + esc(s[2]) + '</p>' +
-          '<p class="small">' + nex + ' activities' + (vids ? ' · ' + vids + ' video' + (vids > 1 ? 's' : '') : '') + '</p>' +
+          '<p class="small">' + (p.exercises || []).length + ' activities' +
+          (vids ? ' · ' + vids + ' video' + (vids > 1 ? 's' : '') : '') + '</p>' +
           '<a class="button" href="' + s[0] + '.html">Open section</a></article>';
       }).join('') + '</div>';
     return;
@@ -76,12 +97,11 @@
   /* ---------------------------------------------------------------- the story stage */
   function stage() {
     var groups = AUD[slug] || [];
-    if (!groups.length) return '';          /* no recordings bundled for this page: draw no stage at all */
+    if (!groups.length) return '';
     var names = {};
     groups.forEach(function (g) { g.clips.forEach(function (c) { names[c.speaker] = 1; }); });
-    /* FIX 6: a speaker with no drawing is reported, not skipped. v1 looked the person up with .find()
-       and carried on with undefined when it missed, so the clip played against a motionless stage and
-       nothing said why. */
+    /* FIX 6: a speaker with no drawing is reported, not skipped. v1 looked the person up and carried on
+       with undefined, so the clip played against a motionless stage and nothing said why. */
     var people = Object.keys(names).map(function (n) {
       var c = A.castData[n];
       if (!c) return '<div class="person missing" data-name="' + esc(n) + '">' +
@@ -89,10 +109,8 @@
       return '<div class="person" data-name="' + esc(n) + '">' + c.svg +
         '<div class="who">' + esc(n) + '</div></div>';
     }).join('');
-
     var hasAr = groups.some(function (g) { return g.clips.some(function (c) { return c.ar; }); });
-    return '<section class="story">' +
-      '<div class="eyebrow">Read and listen</div>' +
+    return '<section class="story"><div class="eyebrow">Read and listen</div>' +
       '<div class="stage" id="stage">' + people + '</div>' +
       '<div class="controls">' +
       '<button type="button" data-play>▶ Play</button>' +
@@ -108,7 +126,6 @@
       (hasAr ? '<button type="button" class="secondary" data-ar aria-pressed="false">عربي</button>' : '') +
       '</div><audio data-audio preload="none"></audio>' +
       '<div class="transcript" data-transcript>' + groups.map(function (g, gi) {
-        /* A passage read by one narrator does not need their name on all forty lines; a dialogue does. */
         var solo = g.clips.every(function (c) { return c.speaker === g.clips[0].speaker; });
         return '<div class="track" data-track="' + gi + '"' + (gi ? ' hidden' : '') + '>' +
           g.clips.map(function (c, ci) {
@@ -119,51 +136,40 @@
               '</p>';
           }).join('') + '</div>';
       }).join('') + '</div>' +
-      '<p class="small">Click any line to hear just that line. The recordings are in this folder, so ' +
-      'playback works offline.</p></section>';
+      '<p class="small">Click any line to hear just that line. These are recordings, and they work offline.</p>' +
+      '</section>';
   }
 
-  /* ---------------------------------------------------------------- the widgets */
-  var INSTR = {
-    'truefalse': 'Decide whether each sentence is true or false.',
-    'find-word': 'Find the word in the passage that matches each meaning.',
-    'odd-one-out': 'In each row, choose the word that does not belong.',
-    'error-correct': 'Each sentence has one mistake. Write the whole sentence correctly.',
-    'sentence-order': 'Put the words in order. Click a word to add it, click it again to take it back.',
-    'message-order': 'Put the message in order. Click a line to add it, click it again to take it back.',
-    'match': 'Choose the matching answer for each one. There may be more answers than you need.',
-    'mcq': 'Choose one answer, then press Check.',
-    'wordbank-cloze': 'Write one word in each gap.',
-    'gap-fill': 'Write the missing word or words.',
-    'listen-gap': 'Listen, then write the missing word.',
-    'short-answer': 'Answer in your own words, then compare with the book’s answer.',
-    'open-writing': 'Write your answer. It is saved on this device.',
-    'roleplay-case': 'This one is for speaking. Use the notes box to plan what you will say.',
-    'checklist': 'Tick each one when it is true.'
-  };
+  /* ---------------------------------------------------------------- pieces of an exercise */
+  function picture(e) {
+    if (!e.scene || !e.scene.length) return '';
+    return '<div class="scene" aria-hidden="true">' + e.scene.map(function (s) {
+      return '<svg viewBox="0 0 100 100" class="obj"><use href="#o-' + esc(s.obj) + '"/></svg>';
+    }).join('') + '</div>';
+  }
+
+  function speakBtn(text, cls, lang) {
+    return '<button type="button" class="hear ' + (cls || '') + '" data-hear="' + esc(text) + '"' +
+      (lang ? ' data-hearlang="' + lang + '"' : '') + ' title="Read this aloud" aria-label="Read aloud">' +
+      '▶︎</button>';
+  }
 
   function itemHead(it) { return '<span class="num">' + it.n + '</span>'; }
-
-  function slotInput(it, extra) {
-    return '<input class="slot" data-in="' + it.n + '" aria-label="Answer ' + it.n + '"' +
-      (extra || '') + ' autocomplete="off" autocapitalize="off" spellcheck="false">';
+  function slotInput(it) {
+    return '<input class="slot" data-in="' + it.n + '" aria-label="Answer ' + it.n +
+      '" autocomplete="off" autocapitalize="off" spellcheck="false">';
   }
-
   function chips(list, cls) {
     return '<ul class="bank ' + (cls || '') + '">' + list.map(function (w) {
       return '<li>' + esc(w) + '</li>';
     }).join('') + '</ul>';
   }
-
-  function pick(it, opts, dataset) {
-    /* One row of mutually exclusive choices. They are real <button>s, so they are reachable by Tab and
-       operable by Enter or Space without a line of extra keyboard code. */
+  function pick(it, opts) {
     return '<div class="opts" role="group" aria-label="Answer ' + it.n + '">' + opts.map(function (o) {
-      return '<button type="button" class="opt" data-item="' + it.n + '" data-' + dataset + '="' +
-        esc(o.v) + '" aria-pressed="false">' + esc(o.t) + '</button>';
+      return '<button type="button" class="opt" data-item="' + it.n + '" data-val="' + esc(o.v) +
+        '" aria-pressed="false">' + esc(o.t) + '</button>';
     }).join('') + '</div>';
   }
-
   function tokenBuilder(it, tokens) {
     var shuffled = A.shuffle(tokens.map(function (t, i) { return { t: t, i: i }; }));
     return '<div class="tokens" data-item="' + it.n + '">' +
@@ -173,42 +179,45 @@
       '<ol class="target" data-target="' + it.n + '" aria-label="Your answer for ' + it.n + '"></ol></div>';
   }
 
-  function renderExercise(e, i) {
-    var b = '';
-    var items = e.items || [];
+  var GRADED = {
+    'truefalse': 1, 'two-label': 1, 'mcq': 1, 'odd-one-out': 1, 'match': 1, 'gap-fill': 1,
+    'listen-gap': 1, 'wordbank-cloze': 1, 'find-word': 1, 'error-correct': 1, 'transform': 1,
+    'sentence-order': 1, 'message-order': 1, 'classify-columns': 1
+  };
 
-    if (e.type === 'truefalse') {
+  function renderExercise(e, i) {
+    var b = '', items = e.items || [];
+
+    if (e.type === 'truefalse' || e.type === 'two-label') {
+      var L = e.labels || [{ v: 'T', t: 'True' }, { v: 'F', t: 'False' }];
       b = items.map(function (it) {
         return '<div class="row">' + itemHead(it) + '<span class="q">' + esc(it.prompt) + '</span>' +
-          pick(it, [{ v: 'T', t: 'True' }, { v: 'F', t: 'False' }], 'val') +
+          speakBtn(it.prompt) + pick(it, L) +
           '<span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
     } else if (e.type === 'mcq') {
       b = items.map(function (it) {
         var keys = Object.keys(it.options || {});
-        /* "A) port" when the book labels its options with letters, but just "on" when the choice is
-           inline - "We ship it (on / in) Monday" - where the option is its own label and "on) on"
-           would be nonsense. */
         var opts = keys.map(function (k) {
           return { v: k, t: (k === it.options[k]) ? it.options[k] : (k + ') ' + it.options[k]) };
         });
         var q = esc(it.prompt).replace(/␣/g, '<span class="gapmark">&nbsp;&nbsp;&nbsp;</span>');
         return '<div class="row col">' + itemHead(it) + '<span class="q">' + q + '</span>' +
-          pick(it, opts, 'val') + '<span class="mark" data-mark="' + it.n + '"></span></div>';
+          pick(it, opts) + '<span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
     } else if (e.type === 'odd-one-out') {
       b = items.map(function (it) {
         return '<div class="row col">' + itemHead(it) +
-          pick(it, (it.options || []).map(function (o) { return { v: o, t: o }; }), 'val') +
+          pick(it, (it.options || []).map(function (o) { return { v: o, t: o }; })) +
           '<span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
     } else if (e.type === 'match') {
-      /* FIX 2: the options are SHUFFLED, and the pool is the exercise's whole option list - which for
-         "there is one you do not need" is longer than the number of rows. v1 compared the chosen index
-         with the row index, so the answer was always the option printed on the same line. */
+      /* FIX 2: the options are shuffled, and the pool is the whole option list - longer than the number
+         of rows when the book says "there is one you do not need". v1 compared the chosen index with the
+         row index, so the answer was always the option printed on the same line. */
       var pool = A.shuffle(Object.keys(e.pool || {}));
       b = items.map(function (it) {
         return '<div class="row">' + itemHead(it) + '<span class="q">' + esc(it.prompt) + '</span>' +
@@ -218,10 +227,20 @@
           }).join('') + '</select><span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
+    } else if (e.type === 'classify-columns') {
+      var cols = e.columns || [];
+      b = '<p class="small">Columns: ' + cols.map(esc).join(' · ') + '</p>' +
+        items.map(function (it) {
+          return '<div class="row">' + itemHead(it) + '<span class="q">' + esc(it.word) + '</span>' +
+            '<select data-in="' + it.n + '" aria-label="Column for ' + esc(it.word) + '">' +
+            '<option value="">Choose a column…</option>' + cols.map(function (c) {
+              return '<option value="' + esc(c) + '">' + esc(c) + '</option>';
+            }).join('') + '</select><span class="mark" data-mark="' + it.n + '"></span></div>';
+        }).join('');
+
     } else if (e.type === 'gap-fill' || e.type === 'listen-gap') {
-      /* FIX 1: every gap is replaced, not the first. The generator marks each one with U+2423, and this
-         splits on all of them; v1 called String.replace with a string pattern, which replaces once, so
-         the second gap of a sentence was never drawn at all. */
+      /* FIX 1: every gap is replaced, not the first. v1 called String.replace with a string pattern,
+         which replaces once, so a sentence's second gap was never drawn at all. */
       b = (e.bank ? chips(e.bank, 'hint') : '') + items.map(function (it) {
         var parts = String(it.prompt).split('␣');
         var html = esc(parts[0]);
@@ -231,10 +250,8 @@
       }).join('');
 
     } else if (e.type === 'wordbank-cloze') {
-      var n = 0;
-      var text = esc(e.text || '').replace(/\(\s*(\d+)\s*\)\s*_{3,}/g, function (_m, g) {
-        n++;
-        return '<input class="slot" data-in="' + g + '" aria-label="Gap ' + g + '" autocomplete="off">';
+      var text = esc(e.text || '').replace(/\(\s*(\d+)\s*\)\s*_{3,}/g, function (_m, gnum) {
+        return '<input class="slot" data-in="' + gnum + '" aria-label="Gap ' + gnum + '" autocomplete="off">';
       });
       b = (e.bank ? chips(e.bank, 'hint') : '') + '<p class="cloze">' + text + '</p>' +
         '<div class="marks">' + Object.keys(e.answers || {}).map(function (k) {
@@ -249,11 +266,15 @@
           '<span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
-    } else if (e.type === 'error-correct') {
+    } else if (e.type === 'error-correct' || e.type === 'transform') {
       b = items.map(function (it) {
+        var src = (e.type === 'error-correct') ? it.wrong : it.prompt;
         return '<div class="row col">' + itemHead(it) +
-          '<span class="q wrong">' + esc(it.wrong) + '</span>' +
-          slotInput(it, ' class="slot wide"') +
+          '<span class="q' + (e.type === 'error-correct' ? ' wrong' : '') + '">' + esc(src) + '</span>' +
+          (it.cue ? '<span class="cue">(' + esc(it.cue) + ')</span>' : '') +
+          speakBtn(src) +
+          '<input class="slot wide" data-in="' + it.n + '" aria-label="Your sentence ' + it.n +
+          '" autocomplete="off">' +
           '<span class="mark" data-mark="' + it.n + '"></span></div>';
       }).join('');
 
@@ -270,9 +291,12 @@
     } else if (e.type === 'short-answer') {
       b = items.map(function (it) {
         return '<div class="row col">' + itemHead(it) + '<span class="q">' + esc(it.prompt) + '</span>' +
+          speakBtn(it.prompt) +
           '<textarea class="short" data-in="' + it.n + '" rows="2" aria-label="Answer ' + it.n + '"></textarea>' +
-          (it.model ? '<button type="button" class="secondary tiny" data-model="' + it.n + '">Show the book’s answer</button>' +
-            '<p class="model" data-modeltext="' + it.n + '" hidden>' + esc(it.model) + '</p>' : '') +
+          (it.model ? '<button type="button" class="secondary tiny" data-model="' + it.n + '">' +
+            'Show the book’s answer</button>' +
+            '<p class="model" data-modeltext="' + it.n + '" hidden><span class="mt">' + esc(it.model) +
+            '</span>' + speakBtn(it.model) + '</p>' : '') +
           '</div>';
       }).join('');
 
@@ -285,30 +309,61 @@
     } else {                                   /* open-writing, roleplay-case */
       b = items.map(function (it) {
         return '<div class="row col">' + itemHead(it) + '<span class="q">' + esc(it.prompt) + '</span>' +
+          speakBtn(it.prompt) +
           '<textarea class="long" data-in="' + it.n + '" rows="3" aria-label="Answer ' + it.n + '"></textarea>' +
           '</div>';
-      }).join('') +
-        (e.model ? '<button type="button" class="secondary tiny" data-model="all">Show the book’s notes</button>' +
-          '<p class="model" data-modeltext="all" hidden>' + esc(e.model) + '</p>' : '');
+      }).join('');
+    }
+
+    /* ---- the scaffolding every exercise carries ---- */
+    var extra = '';
+    if (e.script && e.script.length) {
+      extra += '<div class="scaff"><button type="button" class="tiny" data-theatre>' +
+        '▶ Watch the sample conversation</button>' +
+        '<span class="small">' + e.script.length + ' lines, played by ' +
+        esc([].concat.apply([], e.script.map(function (l) { return l.who; }))
+          .filter(function (v, k, a) { return a.indexOf(v) === k; }).join(' and ')) +
+        '</span></div>';
+    }
+    if (e.responses && e.responses.length) {
+      extra += '<div class="scaff"><button type="button" class="secondary tiny" data-resp>' +
+        'Show model answers</button><ul class="model" data-resptext hidden>' +
+        e.responses.map(function (r) {
+          return '<li>' + esc(r) + speakBtn(r) + '</li>';
+        }).join('') + '</ul></div>';
+    }
+    if (e.sample) {
+      extra += '<div class="scaff"><button type="button" class="secondary tiny" data-sample>' +
+        'Show a sample answer</button>' +
+        '<div class="sampleBox" data-sampletext hidden><pre class="sample"></pre>' +
+        speakBtn(e.sample) + '</div>' +
+        '<script type="application/json" data-sampleraw>' + JSON.stringify(e.sample) + '<\/script></div>';
+    }
+    if ((D.frames || []).length && (e.type === 'open-writing' || e.type === 'roleplay-case' ||
+      e.type === 'short-answer' || e.type === 'transform')) {
+      extra += '<details class="frames"><summary>Sentence frames you can use</summary><ul>' +
+        D.frames.map(function (f) { return '<li>' + esc(f) + speakBtn(f) + '</li>'; }).join('') +
+        '</ul></details>';
     }
 
     var marked = GRADED[e.type] ? '<button type="button" data-check-answer>Check</button>' : '';
+    var arbtn = e.ar ? '<button type="button" class="secondary tiny tr" data-tr aria-pressed="false">' +
+      'عربي Translate</button>' : '';
     return '<section class="exercise" data-ex="' + i + '" data-type="' + e.type + '">' +
-      '<div class="exhead"><span class="tag">' + esc(e.name) + '</span>' +
+      '<div class="exhead"><span class="tag">' + esc(e.name) + '</span>' + arbtn +
       '<span class="small">book block ' + e.block + '</span></div>' +
+      picture(e) +
       '<h2>' + esc(e.heading) + '</h2>' +
-      '<p class="small instr">' + esc(INSTR[e.type] || '') + '</p>' +
-      (e.example ? '<p class="example"><strong>Example:</strong> ' + esc(e.example.text) + '</p>' : '') +
-      b +
+      (e.ar ? '<p class="arline" dir="rtl" lang="ar" hidden>' + esc(e.ar.heading) +
+        speakBtn(e.ar.heading, 'arhear', 'ar') + '</p>' : '') +
+      (e.hint ? '<p class="small instr">' + esc(e.hint) + '</p>' : '') +
+      (e.example ? '<p class="example"><strong>Example:</strong> ' + esc(e.example.text) +
+        speakBtn(e.example.text) + '</p>' : '') +
+      b + extra +
       '<div class="controls">' + marked +
       '<button type="button" class="secondary" data-reset>Reset</button></div>' +
       '<div class="feedback" aria-live="polite" hidden></div></section>';
   }
-
-  var GRADED = {
-    'truefalse': 1, 'mcq': 1, 'odd-one-out': 1, 'match': 1, 'gap-fill': 1, 'listen-gap': 1,
-    'wordbank-cloze': 1, 'find-word': 1, 'error-correct': 1, 'sentence-order': 1, 'message-order': 1
-  };
 
   /* ---------------------------------------------------------------- marking */
   function chosen(ex, n) {
@@ -331,22 +386,23 @@
         res.push({ n: k, ok: A.matches(typed(ex, k), e.answers[k]), want: e.answers[k] });
       });
     } else if (e.type === 'message-order') {
-      /* FIX 3: compared by TEXT, not by the id a token was created with. Two identical lines or two
-         identical words then both count, which is what a reader sees. */
+      /* FIX 3: compared by TEXT, not by the id a token was created with, so two identical lines or two
+         identical words both count - which is what a reader sees. */
       var got = tokensOf(ex, 1), want = e.order || [];
       var ok = got.length === want.length && got.every(function (t, i) { return A.norm(t) === A.norm(want[i]); });
       res.push({ n: 1, ok: ok, want: want.join('  →  ') });
     } else {
       (e.items || []).forEach(function (it) {
         var ok = false, want = it.answer;
-        if (e.type === 'truefalse' || e.type === 'mcq' || e.type === 'odd-one-out') {
+        if (e.type === 'truefalse' || e.type === 'two-label' || e.type === 'mcq' || e.type === 'odd-one-out') {
           ok = A.matches(chosen(ex, it.n), it.answer);
         } else if (e.type === 'match') {
           ok = String(typed(ex, it.n)).toLowerCase() === String(it.answer).toLowerCase();
           want = (it.answer + ') ' + (e.pool || {})[it.answer]);
+        } else if (e.type === 'classify-columns') {
+          ok = A.norm(typed(ex, it.n)) === A.norm(it.answer);
         } else if (e.type === 'sentence-order') {
-          var got2 = tokensOf(ex, it.n).join(' ');
-          ok = A.norm(got2) === A.norm(it.answer);
+          ok = A.norm(tokensOf(ex, it.n).join(' ')) === A.norm(it.answer);
         } else {
           ok = A.matches(typed(ex, it.n), it.answer);
         }
@@ -370,12 +426,17 @@
     fb.hidden = false;
     fb.className = 'feedback ' + (right === res.length ? 'good' : (right ? '' : 'bad'));
     var wrong = res.filter(function (r) { return !r.ok; });
+    /* THE ANSWERS CAN BE HEARD, AND BY THE DEVICE - never from an mp3. A revealed answer is text that
+       did not exist when the page was built; recording all 2,345 of them would be pointless weight. */
     fb.innerHTML = '<strong>' + right + ' of ' + res.length + ' correct.</strong>' +
-      (wrong.length ? '<ul class="answers">' + wrong.map(function (r) {
-        return '<li><span class="num">' + r.n + '</span> ' + esc(r.want) + '</li>';
-      }).join('') + '</ul>' : ' Every one of them matches the book.');
-    var i = ex.dataset.ex;
-    state[slug + '/' + i] = { correct: right, of: res.length };
+      (wrong.length
+        ? '<ul class="answers">' + wrong.map(function (r) {
+          return '<li><span class="num">' + r.n + '</span><span class="aw">' + esc(r.want) + '</span>' +
+            speakBtn(r.want, 'ansHear') + '</li>';
+        }).join('') + '</ul>' +
+        '<button type="button" class="secondary tiny" data-sayall>▶ Read the answers aloud</button>'
+        : ' Every one of them matches the book.');
+    state[slug + '/' + ex.dataset.ex] = { correct: right, of: res.length };
     save();
   }
 
@@ -387,7 +448,8 @@
     }).join('') + '</ul></section>' : '';
 
   root.innerHTML =
-    '<header class="hero"><div class="eyebrow">Unit ' + UNIT + ' · ' + esc(D.title.split(':').pop().trim()) + '</div>' +
+    '<header class="hero"><div class="eyebrow">Unit ' + UNIT + ' · ' +
+    esc(D.title.split(':').pop().trim()) + '</div>' +
     '<h1>' + esc(page.title) + '</h1><p>' + esc(page.intro) + '</p></header>' +
     nav() + videos + stage() +
     (page.exercises || []).map(renderExercise).join('') +
@@ -396,7 +458,6 @@
     '<a class="button" href="' + (idx < D.sections.length - 1 ? D.sections[idx + 1][0] + '.html' : 'index.html') +
     '">Next →</a></div>' + nav();
 
-  /* restore drafts */
   root.querySelectorAll('textarea[data-in]').forEach(function (t) {
     var ex = t.closest('[data-ex]');
     var k = 'draft/' + slug + '/' + ex.dataset.ex + '/' + t.dataset.in;
@@ -404,27 +465,72 @@
     t.addEventListener('input', function () { state[k] = t.value; save(); });
   });
 
-  root.addEventListener('click', function (ev) {
-    var t = ev.target;
-    var ex = t.closest('[data-ex]');
+  /* A sample that simply appears is read as wallpaper. One that writes itself out is watched, and the
+     learner sees it being built a phrase at a time - which is the thing being taught. */
+  function typeOut(pre, text) {
+    pre.textContent = '';
+    var i = 0, step = Math.max(1, Math.round(text.length / 160));
+    (function tick() {
+      if (i >= text.length) return;
+      i = Math.min(text.length, i + step);
+      pre.textContent = text.slice(0, i);
+      setTimeout(tick, 16);
+    })();
+  }
 
-    if (t.matches('.chip')) {                                   /* move a token in or out */
-      var box = t.closest('.tokens');
-      var n = box.dataset.item;
-      var inBank = !!t.closest('[data-bank]');
-      var dest = box.querySelector(inBank ? '[data-target="' + n + '"]' : '[data-bank="' + n + '"]');
-      var li = document.createElement('li');
-      li.appendChild(t);
-      dest.appendChild(li);
-      t.focus();
+  root.addEventListener('click', function (ev) {
+    var t = ev.target.closest('button') || ev.target;
+
+    if (t.matches && t.matches('.hear')) {
+      var lang = t.dataset.hearlang || 'en';
+      if (!A.say.speak(t.dataset.hear, { lang: lang })) {
+        var why = A.say.why();
+        if (why) { t.title = why; t.classList.add('mute'); }
+      }
       return;
     }
+    var ex = t.closest && t.closest('[data-ex]');
     if (!ex) return;
     var i = Number(ex.dataset.ex), e = page.exercises[i];
 
+    if (t.matches('[data-tr]')) {
+      var on = t.getAttribute('aria-pressed') === 'true';
+      t.setAttribute('aria-pressed', on ? 'false' : 'true');
+      ex.querySelectorAll('.arline').forEach(function (p) { p.hidden = on; });
+      return;
+    }
+    if (t.matches('[data-theatre]')) { A.theatre(ex, e.script, e.heading); return; }
+    if (t.matches('[data-resp]')) {
+      var ul = ex.querySelector('[data-resptext]');
+      ul.hidden = !ul.hidden;
+      t.textContent = ul.hidden ? 'Show model answers' : 'Hide model answers';
+      return;
+    }
+    if (t.matches('[data-sample]')) {
+      var boxEl = ex.querySelector('[data-sampletext]');
+      var pre = boxEl.querySelector('.sample');
+      boxEl.hidden = !boxEl.hidden;
+      t.textContent = boxEl.hidden ? 'Show a sample answer' : 'Hide the sample';
+      if (!boxEl.hidden) typeOut(pre, e.sample);
+      return;
+    }
+    if (t.matches('[data-sayall]')) {
+      var lines = [].slice.call(ex.querySelectorAll('.answers .ansHear'))
+        .map(function (bn) { return { text: bn.dataset.hear, lang: 'en' }; });
+      A.say.sequence(lines);
+      return;
+    }
+    if (t.matches('.chip')) {
+      var boxT = t.closest('.tokens'), n = boxT.dataset.item;
+      var inBank = !!t.closest('[data-bank]');
+      var dest = boxT.querySelector(inBank ? '[data-target="' + n + '"]' : '[data-bank="' + n + '"]');
+      var li = document.createElement('li');
+      li.appendChild(t); dest.appendChild(li); t.focus();
+      return;
+    }
     if (t.matches('.opt')) {
       /* FIX 4: choosing is not marking. v1 revealed the verdict on click, so the first touch ended the
-         question; here the choice is recorded and nothing is told until Check. */
+         question; here the choice is recorded and nothing is said until Check. */
       ex.querySelectorAll('.opt[data-item="' + t.dataset.item + '"]').forEach(function (o) {
         o.classList.remove('selected'); o.setAttribute('aria-pressed', 'false');
       });
@@ -438,13 +544,17 @@
     }
     if (t.matches('[data-reset]')) {
       ex.querySelectorAll('input,textarea,select').forEach(function (x) {
-        if (x.type === 'checkbox') x.checked = false; else if (x.tagName === 'SELECT') x.selectedIndex = 0; else x.value = '';
+        if (x.type === 'checkbox') x.checked = false;
+        else if (x.tagName === 'SELECT') x.selectedIndex = 0;
+        else x.value = '';
       });
-      ex.querySelectorAll('.opt').forEach(function (o) { o.classList.remove('selected'); o.setAttribute('aria-pressed', 'false'); });
+      ex.querySelectorAll('.opt').forEach(function (o) {
+        o.classList.remove('selected'); o.setAttribute('aria-pressed', 'false');
+      });
       ex.querySelectorAll('.mark').forEach(function (m) { m.className = 'mark'; m.removeAttribute('title'); });
       ex.querySelectorAll('.target .chip').forEach(function (c) {
-        var box = c.closest('.tokens'), li = document.createElement('li');
-        li.appendChild(c); box.querySelector('[data-bank]').appendChild(li);
+        var bx = c.closest('.tokens'), li2 = document.createElement('li');
+        li2.appendChild(c); bx.querySelector('[data-bank]').appendChild(li2);
       });
       ex.querySelector('.feedback').hidden = true;
       return;
@@ -452,7 +562,7 @@
     if (t.matches('[data-check-answer]')) show(ex, e, grade(e, ex));
   });
 
-  /* ---------------------------------------------------------------- audio */
+  /* ---------------------------------------------------------------- audio (recordings) */
   (function () {
     var groups = AUD[slug] || [];
     if (!groups.length) return;
@@ -460,12 +570,12 @@
     var stageEl = root.querySelector('#stage');
     var rate = root.querySelector('[data-rate]');
     var setSel = root.querySelector('[data-set]');
-    var arBtn = root.querySelector('[data-ar]');
+    var arBtn = root.querySelector('.story [data-ar]');
     var gi = 0, li = 0, playing = false;
 
     function lines() { return root.querySelectorAll('.track[data-track="' + gi + '"] .line'); }
     function quiet() {
-      stageEl && stageEl.querySelectorAll('.person').forEach(function (p) { p.classList.remove('talk'); });
+      if (stageEl) stageEl.querySelectorAll('.person').forEach(function (p) { p.classList.remove('talk'); });
       root.querySelectorAll('.line.active').forEach(function (p) { p.classList.remove('active'); });
     }
     function play(n) {
@@ -488,16 +598,20 @@
     }
     audio.addEventListener('ended', function () { if (playing) play(li + 1); });
     audio.addEventListener('pause', function () { if (!audio.ended) { playing = false; quiet(); } });
-    root.querySelector('[data-play]').onclick = function () { play(li >= (groups[gi].clips.length) ? 0 : li); };
+    root.querySelector('[data-play]').onclick = function () {
+      play(li >= groups[gi].clips.length ? 0 : li);
+    };
     root.querySelector('[data-pause]').onclick = function () {
       if (audio.paused && audio.src) { playing = true; audio.play().catch(function () { }); } else audio.pause();
     };
-    root.querySelector('[data-stop]').onclick = function () { audio.pause(); audio.currentTime = 0; li = 0; playing = false; quiet(); };
+    root.querySelector('[data-stop]').onclick = function () {
+      audio.pause(); audio.currentTime = 0; li = 0; playing = false; quiet();
+    };
     rate.addEventListener('change', function () { audio.playbackRate = Number(rate.value) || 1; });
     if (setSel) setSel.addEventListener('change', function () {
       audio.pause(); playing = false; quiet();
       gi = Number(setSel.value) || 0; li = 0;
-      root.querySelectorAll('.track').forEach(function (t, i) { t.hidden = (i !== gi); });
+      root.querySelectorAll('.track').forEach(function (tk, k) { tk.hidden = (k !== gi); });
     });
     if (arBtn) arBtn.addEventListener('click', function () {
       var on = arBtn.getAttribute('aria-pressed') === 'true';
@@ -507,13 +621,13 @@
     root.addEventListener('click', function (ev) {
       var p = ev.target.closest('.line');
       if (!p) return;
-      playing = false;                       /* one line, on its own, and then stop */
-      play(Number(p.dataset.line));
-      playing = false;
+      playing = false; play(Number(p.dataset.line)); playing = false;
     });
     root.addEventListener('keydown', function (ev) {
       var p = ev.target.closest && ev.target.closest('.line');
-      if (p && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); playing = false; play(Number(p.dataset.line)); playing = false; }
+      if (p && (ev.key === 'Enter' || ev.key === ' ')) {
+        ev.preventDefault(); playing = false; play(Number(p.dataset.line)); playing = false;
+      }
     });
   })();
 })();
