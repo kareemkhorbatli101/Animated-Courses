@@ -143,19 +143,6 @@
       ]
     },
     {
-      "id": "fig-f12-09",
-      "kind": "lines",
-      "kicker": "Figure F12-09",
-      "title": "Orontes's 2026 warranty liability and extended-plan contract liability",
-      "say": "Orontes's 2026 warranty liability and extended-plan contract liability.",
-      "caption": "EXAM TRAP   Warranty traps\nStandard warranty: accrue the cost at the sale; do not defer revenue.\nExtended plan sold separately: defer revenue; do not accrue a cost.\nExpense warranty costs in the year of the sale, not when repairs are paid.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc12-8",
       "kind": "check",
       "kicker": "SC12-8",

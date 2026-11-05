@@ -37,6 +37,64 @@
       "caption": "Faded equity-method T-account for 2026; the learner completes the dashed boxes."
     },
     {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F09-08",
+      "title": "Jordan Glass in 2026",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "In 2026 Jordan Glass earns $400,000 and pays dividends of $100,000. The extra depreciation is the same as in 2025. Complete Figure F09-08.",
+      "blanks": [
+        {
+          "label": "Share of net income",
+          "working": "30% × 400,000 = 120,000",
+          "shown": "120,000",
+          "answer": 120000,
+          "prompt": "30% × 400,000 ="
+        },
+        {
+          "label": "Extra depreciation",
+          "working": "3,000",
+          "shown": "3,000",
+          "answer": 3000,
+          "prompt": ""
+        },
+        {
+          "label": "Dividends",
+          "working": "30% × 100,000 = 30,000",
+          "shown": "30,000",
+          "answer": 30000,
+          "prompt": "30% × 100,000 ="
+        },
+        {
+          "label": "Ending balance",
+          "working": "1,287,000 + 120,000 − 3,000 − 30,000 = 1,374,000",
+          "shown": "1,374,000",
+          "answer": 1374000,
+          "prompt": "1,287,000 + 120,000 − 3,000 − 30,000 =",
+          "needs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Equity-method income",
+          "working": "120,000 − 3,000 = 117,000",
+          "shown": "117,000",
+          "answer": 117000,
+          "prompt": "120,000 − 3,000 =",
+          "needs": [
+            0,
+            1
+          ]
+        }
+      ],
+      "caption": "Faded equity-method T-account for 2026; the learner completes the dashed boxes.",
+      "traps": [
+        "dividends-and-percentages"
+      ]
+    },
+    {
       "id": "sc9-7",
       "kind": "check",
       "kicker": "SC9-7",
@@ -60,10 +118,7 @@
           "why": "A 3% holding gives no significant influence here."
         }
       ],
-      "exhibit": "Orontes holds 3% of a listed company's shares.",
-      "traps": [
-        "dividends-and-percentages"
-      ]
+      "exhibit": "Orontes holds 3% of a listed company's shares."
     },
     {
       "id": "sc9-8",

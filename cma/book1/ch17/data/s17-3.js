@@ -23,19 +23,6 @@
       "caption": "Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not."
     },
     {
-      "id": "fig-f17-04",
-      "kind": "lines",
-      "kicker": "Figure F17-04",
-      "title": "Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not",
-      "say": "Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not.",
-      "caption": "FALSE-FRIEND ALERT   Stocks, dépréciation, provision\nFrench stocks means inventory, not shares. French dépréciation des stocks is a write-down, not depreciation. In U.S. terms, a write-down reduces the inventory itself; do not call it a provision or a reserve.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc17-5",
       "kind": "check",
       "kicker": "SC17-5",

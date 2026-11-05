@@ -87,9 +87,6 @@
           "text": "The paper was due within one year",
           "why": "Short-term debt can be noncurrent if refinanced properly."
         }
-      ],
-      "traps": [
-        "refinancing-traps"
       ]
     },
     {

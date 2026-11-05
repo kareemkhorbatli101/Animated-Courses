@@ -121,48 +121,54 @@
       ]
     },
     {
-      "id": "fig-f08-11",
-      "kind": "lines",
+      "id": "fill-11",
+      "kind": "schedule",
       "kicker": "Figure F08-11",
       "title": "The retail method, two ratios",
-      "say": "Extended Example 8A: the retail method, two ratios",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Retail division",
-      "col1": "Average cost",
-      "col2": "Conventional (lower of cost or market)",
-      "rows": [
+      "cols": [
         {
-          "name": "Goods available at cost",
-          "a": "186,000",
-          "b": "186,000"
+          "id": "c1",
+          "label": "Average cost",
+          "given": true
         },
         {
-          "name": "Goods available at retail",
-          "a": "300,000",
-          "b": "310,000"
-        },
-        {
-          "name": "Cost ratio",
-          "a": "62%",
-          "b": "60%"
-        },
-        {
-          "name": "Ending inventory at retail",
-          "a": "42,000",
-          "b": "42,000"
-        },
-        {
-          "name": "Ending inventory at cost",
-          "a": "26,040",
-          "b": "25,200"
-        },
-        {
-          "name": "Cost of goods sold",
-          "a": "159,960",
-          "b": "160,800"
+          "id": "c2",
+          "label": "Conventional (lower of cost or market)",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Goods available at retail",
+          "cells": {
+            "c1": "300,000",
+            "c2": "310,000"
+          }
+        },
+        {
+          "label": "Cost ratio",
+          "cells": {
+            "c1": "62%",
+            "c2": "60%"
+          }
+        },
+        {
+          "label": "Ending inventory at cost",
+          "cells": {
+            "c1": "26,040",
+            "c2": "25,200"
+          }
+        },
+        {
+          "label": "Cost of goods sold",
+          "cells": {
+            "c1": "159,960",
+            "c2": "160,800"
+          }
+        }
+      ]
     },
     {
       "id": "ties",

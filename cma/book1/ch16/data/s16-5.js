@@ -96,24 +96,111 @@
       ]
     },
     {
-      "id": "num-09",
-      "kind": "number",
+      "id": "fig-f16-09",
+      "kind": "lines",
       "kicker": "Figure F16-09",
       "title": "NCI roll-forward for Levant, 2027",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)",
+      "caption": "Suppose: NCI in Levant, 2027 (whole USD)",
+      "col1": "Amount",
+      "col2": "",
+      "rows": [
+        {
+          "name": "NCI at January 1, 2027 (fair value)",
+          "a": "1,900,000",
+          "b": ""
+        },
+        {
+          "name": "Levant's 2027 net income",
+          "a": "900,000",
+          "b": ""
+        },
+        {
+          "name": "Less: depreciation on the PP&E step-up (1,200,000 ÷ 10 years)",
+          "a": "(120,000)",
+          "b": ""
+        },
+        {
+          "name": "Less: upstream unrealized profit",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Adjusted net income of Levant",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "NCI share (20%)",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Less: dividends paid to NCI",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "NCI at December 31, 2027",
+          "a": "________",
+          "b": ""
+        }
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F16-09",
+      "title": "NCI at the end of 2027",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F16-09 starts the NCI roll-forward for Levant. Complete the five blanks.",
+      "blanks": [
         {
           "label": "Less: upstream unrealized profit",
-          "answer": "-25000.0",
-          "why": "Less: upstream unrealized profit: (25,000)."
+          "working": "(25,000)",
+          "shown": "(25,000)",
+          "answer": -25000.0,
+          "prompt": ""
+        },
+        {
+          "label": "Adjusted net income of Levant",
+          "working": "900,000 − 120,000 − 25,000 = 755,000",
+          "shown": "755,000",
+          "answer": 755000,
+          "prompt": "900,000 − 120,000 − 25,000 ="
+        },
+        {
+          "label": "NCI share",
+          "working": "20% × 755,000 = 151,000",
+          "shown": "151,000",
+          "answer": 151000,
+          "prompt": "20% × 755,000 =",
+          "needs": [
+            1
+          ]
         },
         {
           "label": "Less: dividends paid to NCI",
-          "answer": "-20000.0",
-          "why": "Less: dividends paid to NCI: (20,000)."
+          "working": "(20,000)",
+          "shown": "(20,000)",
+          "answer": -20000.0,
+          "prompt": ""
+        },
+        {
+          "label": "NCI at December 31, 2027",
+          "working": "1,900,000 + 151,000 − 20,000 = 2,031,000",
+          "shown": "2,031,000",
+          "answer": 2031000,
+          "prompt": "1,900,000 + 151,000 − 20,000 =",
+          "needs": [
+            2
+          ]
         }
-      ]
+      ],
+      "caption": "Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)"
     },
     {
       "id": "sc16-9",

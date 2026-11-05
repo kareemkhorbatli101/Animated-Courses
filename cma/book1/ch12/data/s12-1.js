@@ -16,53 +16,75 @@
   },
   "scenes": [
     {
-      "id": "fig-f12-02",
-      "kind": "lines",
+      "id": "fill-02",
+      "kind": "schedule",
       "kicker": "Figure F12-02",
       "title": "Orontes's current liabilities at December 31, 2025",
-      "say": "Orontes's current liabilities at December 31, 2025",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Orontes, December 31, 2025 (Chapter 2)",
-      "col1": "What it is",
-      "col2": "Whole USD",
-      "rows": [
+      "cols": [
         {
-          "name": "Accounts payable",
-          "a": "Amounts owed to suppliers for goods and services",
-          "b": "2,050,000"
+          "id": "c1",
+          "label": "What it is",
+          "given": true
         },
         {
-          "name": "Accrued liabilities",
-          "a": "Expenses incurred but not yet paid: wages, interest, utilities",
-          "b": "900,000"
-        },
-        {
-          "name": "Income taxes payable",
-          "a": "Current tax not yet paid",
-          "b": "350,000"
-        },
-        {
-          "name": "Contract liabilities",
-          "a": "Customer payments received before delivery",
-          "b": "180,000"
-        },
-        {
-          "name": "Dividends payable",
-          "a": "Cash dividends declared, not yet paid",
-          "b": "400,000"
-        },
-        {
-          "name": "Current portion of long-term debt",
-          "a": "Principal due within one year",
-          "b": "400,000"
-        },
-        {
-          "name": "Total current liabilities",
-          "a": "",
-          "b": "4,280,000"
+          "id": "c2",
+          "label": "Whole USD",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Accounts payable",
+          "cells": {
+            "c1": "Amounts owed to suppliers for goods and services",
+            "c2": "2,050,000"
+          }
+        },
+        {
+          "label": "Accrued liabilities",
+          "cells": {
+            "c1": "Expenses incurred but not yet paid: wages, interest, utilities",
+            "c2": "900,000"
+          }
+        },
+        {
+          "label": "Income taxes payable",
+          "cells": {
+            "c1": "Current tax not yet paid",
+            "c2": "350,000"
+          }
+        },
+        {
+          "label": "Contract liabilities",
+          "cells": {
+            "c1": "Customer payments received before delivery",
+            "c2": "180,000"
+          }
+        },
+        {
+          "label": "Dividends payable",
+          "cells": {
+            "c1": "Cash dividends declared, not yet paid",
+            "c2": "400,000"
+          }
+        },
+        {
+          "label": "Current portion of long-term debt",
+          "cells": {
+            "c1": "Principal due within one year",
+            "c2": "400,000"
+          }
+        },
+        {
+          "label": "Total current liabilities",
+          "cells": {
+            "c1": "",
+            "c2": "4,280,000"
+          }
+        }
+      ]
     },
     {
       "id": "sc12-1",

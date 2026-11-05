@@ -173,6 +173,53 @@
       ]
     },
     {
+      "id": "yourturn",
+      "kind": "shares",
+      "kicker": "Figure F02-04",
+      "title": "Current or noncurrent?",
+      "say": "Figure F02-04 lists six items. The first two are done. Classify the other four and give a reason.",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Classification",
+          "options": [
+            "Current liability",
+            "Noncurrent asset"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Cash surrender value",
+          "cells": {
+            "c0": "Noncurrent asset"
+          },
+          "why": "Noncurrent asset: it is not expected to be turned into cash in the operating cycle."
+        },
+        {
+          "label": "Loan due on demand",
+          "cells": {
+            "c0": "Current liability"
+          },
+          "why": "Current liability: debt due on demand is current, whatever the bank's expected behaviour."
+        },
+        {
+          "label": "Deferred tax asset",
+          "cells": {
+            "c0": "Noncurrent asset"
+          },
+          "why": "Noncurrent asset: all deferred taxes are noncurrent."
+        },
+        {
+          "label": "Customer deposits",
+          "cells": {
+            "c0": "Current liability"
+          },
+          "why": "Current liability (contract liability): it will be settled by delivering goods within a year."
+        }
+      ]
+    },
+    {
       "id": "sc2-3",
       "kind": "check",
       "kicker": "SC2-3",

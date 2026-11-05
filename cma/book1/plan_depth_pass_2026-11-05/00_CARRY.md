@@ -1,180 +1,239 @@
 # CARRY — the depth pass: eighteen chapters to one standard
 
-> **Moves 2 and 4 are DONE** (2026-11-05). 72 traps are wired across chapters 6–18
-> from the author's own EXAM TRAP, FALSE-FRIEND and WATCH boxes — every chapter at or
-> above the target of four — and every section of chapters 2–18 now opens its Brief
-> with a drawing of its own mechanism, from 19 new animations that mirror the 19 icon
-> families. `check_package.py` asserts both.
+> **Moves 2 and 4 are DONE. Move 1 is largely DONE and the reason this file was wrong about it
+> is the most useful thing in it. Move 3 is DONE for the sixteen Your-turn exercises and open
+> for the Extended Examples.** Updated 2026-11-05, second pass.
 >
-> **Move 2 moved one of the six targets on its own:** the author's boxes used went from
-> **37 of 204 (18%) to 82 of 204 (40%)** — EXAM TRAP from 13/64 to 37/64, FALSE-FRIEND
-> from 4/19 to 13/19, WATCH from 2/14 to **14/14**. The instrument share did not move,
-> and should not have: a trap and a drawing add depth to an existing screen but no new
-> graded exercise. That is Moves 1 and 3, and they are still open.
+> | | before the pass | now |
+> |---|---|---|
+> | the author's figures asked about | 88 of 203 (43%) | **109 of 203 (54%)** |
+> | graded exercises | 1,061 | **1,102** |
+> | named traps | 0 in thirteen chapters | **116 across seventeen** |
+> | sections opening a drawn Brief | 24 of 105 | **105 of 105** |
+> | ledger ties | 19 | **112** |
+> | his 204 boxes used | *see the correction below* | **138 (68%)** |
 >
-> **Move 1 was attempted and stopped, and the reason is the most useful thing in this
-> file.** See "Why Move 1 cannot be generated" below.
+> **⚠ The box number is a correction, not a gain.** Earlier versions of this file said 18% and
+> then 40%. The true figure is **138 of 204 (68%)**, and almost all of the difference is a
+> fault in `tools/author_boxes.py`, not work: its `used()` test pulled punctuation-free word
+> runs out of the author's sentence and then looked for them inside the RAW deck text. Every
+> YOUR TURN box begins "Figure Fnn-xx lists six …", and `F18-05` survives in the deck and
+> vanishes from the run, so the windows never matched. It reported **1 of 18 YOUR TURN boxes
+> used at a moment when sixteen chapters were built on them**, and understated EXAM TRAP by 21
+> and WORKED EXAMPLE by 11. Both sides are normalised now. For a plan whose entire case is that
+> table, understating it is the worst way to be wrong: it makes the gap look bigger than it is
+> and the work look smaller. **EXAM TRAP 58/64 · FALSE-FRIEND 17/19 · YOUR TURN 17/18 · WATCH
+> 14/14 · LANGUAGE FOCUS 6/8 · WORKED EXAMPLE 20/45 · IFRS CONTRAST 4/18 · WHAT YOU ALREADY
+> KNOW 2/18.** The last two are the real remaining material: 14 IFRS contrasts and 16 opening
+> cards, both already written in his voice.
+>
+> A fifth gate, `gates/cma_depth.py`, now holds every one of these as a **floor** with teeth on
+> all five checks, so none of it can quietly go backwards. See "Targets" below for the floors
+> against the targets.
 
-**Date:** 2026-11-05
-**Plan:** `../CMA_Book1_Depth_Pass_2026-11-05.docx` (beside the book's `index.html`)
-**Precedent:** `../plan_chapters_3to5_2026-11-05/01_DELIVERED.md` and
-`../plan_chapters_6to18_2026-11-05/`. The whole book is built; this is the pass that
-makes it one book rather than three batches.
+## ⚠ THE CORRECTION THAT MATTERS: why "Move 1 cannot be generated" was wrong
 
-## Why this plan exists
+The first version of this file concluded that a drawn figure could not be turned into an
+exercise, having measured four mechanisms and watched all four fail. The measurements were
+real and the conclusion does not follow. **It was looking at the picture.**
 
-All eighteen chapters are built: **203 pages, 1,233 scenes, 1,061 graded exercises.**
-They are not equal, and the inequality is not in coverage — it is in **depth**.
+Seventeen of the eighteen chapters end in a "Your turn" answer key: the author blanks four to
+six cells of one figure and then answers them himself, with his working. That is **73 authored
+item/answer pairs**, every string already in the extracted chapter — and `_your_turn_key(d)`
+in `tools/cma_scenes.py` had been reading them since Chapter 2 shipped. One chapter used it.
 
-| | ex/1k words | built instruments/1k | **instrument share** | kinds | ex/section |
-|---|---|---|---|---|---|
-| Chapter 1 (hand, oldest) | 8.40 | **6.19** | **74%** | 22 | 10.9 |
-| Chapters 2–5 (hand) | 9.77 | 3.49 | **36%** | 10.8 | 11.7 |
-| Chapters 6–18 (generated) | 8.23 | 2.09 | **25%** | 7.9 | 8.8 |
+The exercise was never on the chart. It was in his key, in the oracle, behind a function that
+already existed.
 
-**Book-wide, 725 of the 1,061 exercises (68%) are the author's own multiple-choice
-questions.** Only 336 are instruments the site builds. Chapter 1 is the benchmark and it
-is the one nobody has touched since it was written by hand, scene by scene.
+**Sixteen chapters now carry his own exercise**, with the shape of his answers picking the
+instrument exactly as a figure's shape does:
 
-The chapters are **not** smaller. Chapter 7 is 7,477 words against Chapter 2's 7,786.
-Thirteen chapters were built in an hour because a dispatcher classified each printed
-figure by shape; this plan is the price of that.
-
-## The three measurements this plan rests on
-
-All three are in `evidence/`, each produced by a script in `tools/`.
-
-**1. 115 of the author's 203 numbered figures are shown and never asked about**
-(`figures_asked.txt`). Chapters 2–5 leave 12 of 47 unasked (26%); chapters 6–18 leave
-**103 of 156 (66%)**. Two per chapter are structural — the summary map and the case
-exhibit — so roughly **eighty figures are an exercise the book already contains.**
-
-| | asked | only shown |
+| his answers | instrument | chapters |
 |---|---|---|
-| ch 6, 7, 18 | 2 each | 9, 10, 9 |
-| ch 10, 11 | 4 each | 9 each |
-| ch 2, 3 | 8, 10 | 4, 2 |
+| an expression that settles on a number | **`yourturn`**, new (`assets/objects5.js`) | 3, 6, 7, 8, 9, 10, 11, 12, 16 |
+| a classification and a reason | the existing `shares` | 2, 4, 5, 13, 15, 17, 18 |
+| one row's cells, semicolon separated | the existing `schedule` | 14 |
 
-**2. 37 of the author's 204 boxes are used — 18%** (`author_boxes.txt`). He writes
-**64 EXAM TRAP** boxes and 13 are used; **45 WORKED EXAMPLE** boxes and 9 are used;
-**19 FALSE-FRIEND ALERT**, 4 used; **18 YOUR TURN**, 1 used; 18 IFRS CONTRAST, 4 used.
-Every one of these is a finished teaching move already written in his voice.
+`yourturn` is where **Move 3** actually landed. It shows his working with the result cut off at
+the last `=`, and **a line whose working quotes an earlier answer stays shut — its working
+hidden and its box dead — until every line it quotes is right.** Chapter 7 is a chain of six:
+`$51,400 + $16,600 = $68,000` cannot be read off, because $51,400 and $16,600 are the answers
+to the two lines above it. The chain is computed from his arithmetic, by looking for each
+earlier answer inside the later line's working, so it is his chain and not a guess at one.
 
-**3. The depth registries are empty for thirteen chapters** (`inventory.txt`).
+Chapter 14's five-year lease roll-forward — the best single exercise in the book — was blocked
+by one thing: `_key_for` tokenised `[a-z]+` only, so his row names 2028, 2029 and 2030 had no
+token to score on, `auto_schedule` kept finding blanks and refused the figure. A four-digit
+year in the token set, plus a `_key_cell` that pulls one cell out of
+`Opening 267,301; interest 16,038; closing 183,339; …`, and it builds: five years, seven
+columns, every closing feeding the next opening, every number his.
 
-| | traps | Brief drawings | ledger ties |
-|---|---|---|---|
-| ch 2–5 | 5–6 each | **9 each** | 16–23 |
-| ch 6–18 | **0** | **0** | 1–4 |
+**What is still only shown: twelve label-↔-description tables.** F06-10, F07-05, F11-02,
+F12-11, F14-03, F14-08, F16-03, F16-06, F18-03, F18-06, F18-07, F18-10. These need a MATCH
+instrument and the book has none that fits: `wire` is a card-and-port graph, and `shares` draws
+every option as a button, so seven principles against seven meanings is forty-nine long
+buttons. A seven-way `sort` is the open candidate. F16-06 is a separate, smaller miss:
+`auto_post` reads column 1 as the account name when in that figure the account is column 0.
 
-Consequences a learner meets: the error log on thirteen summary pages has nothing to
-record, eighty-one sections open a Brief with no picture of the mechanism, and
-`cma_crosstie` has almost nothing to tie in Parts II–IV.
+## The general case: `auto_fill`
 
-## What "deeper and more specific" means here, concretely
+Thirty-two of his tables were on screens nobody could get wrong — no shape rule in the
+dispatcher reached them, so each fell through to `auto_exhibit`. `auto_fill` runs last, just
+before the exhibit, and emits the existing `schedule` renderer with no `carry`: his figures,
+with one column entered and the rest printed. It adds no eleventh kind. **Thirteen figures and
+sixty graded rows.**
 
-Not more exercises. **Fewer screens that can be answered by elimination, and more that
-require the learner to carry a number or a rule from one place to another.** Four moves,
-in order of how much they change:
+Two decisions in it are worth keeping:
 
-### Move 1 — ask the eighty figures that are only shown
+- **The entered column is his LAST numeric one.** His tables run left to right towards the
+  figure he is deriving — Required allowance, 2026 revenue, After tax, Current, LIFO — so the
+  last column is the question and everything left of it is the working. An earlier version
+  entered every complete numeric column and was worse in an instructive way: it chose the
+  columns that were complete rather than the ones that were the point, so F06-03 asked the
+  reader to recall five expected loss rates and dropped the total, when the exercise his table
+  sets is amount × rate = allowance, totalled.
+- **The answer must not already appear in its own row.** F07-11 prints Sales as 420,000 under
+  FIFO, the weighted average and LIFO alike; F16-11 prints the same consideration under both
+  measurement choices. Those rows are shown and not asked, because a row whose answer is
+  already on screen asks nothing. This is the warning at the bottom of this file arriving as a
+  rule rather than as a hope.
 
-Every one already has an instrument that fits; the dispatcher simply did not reach it
-because the figure is an image rather than a table. The image figures are decision
-charts, timelines, spectrums and T-accounts — all four already have a scene kind
-(`order`, `timeline2`, `ladder`, `post`). **Target: `asked` per chapter ≥ 70% of its
-numbered figures, every chapter.** That alone roughly doubles the built instruments in
-Parts II–IV.
+## ⚠ THE ONE THAT SHIPPED, AND WHAT FOUND IT
 
-### Why Move 1 cannot be generated — four mechanisms measured, four failed
+Everything else in this file was caught by a gate. This was not, and it is the most important
+thing here.
 
-The 47 drawn figures in chapters 6–18 are images. **Their text is not in the oracle**:
-`cma_book` extracts the .docx prose and tables, so anything read off a chart by eye
-would be rejected by `_verbatim` — correctly, because the site's source of truth is the
-extracted chapter and not my reading of a picture. So a generated exercise for a drawn
-figure has to be built from the chapter's PROSE. Four ways of doing that were tried and
-each was measured before it was trusted:
+On section 11.4 an exhibit printed the author's worked example — **Step 1 $324,000, Step 2
+$180,000, Step 3 $11,250, Check $515,250** — and two scenes below it `auto_fill` asked the
+reader for 324,000, 11,250 and 515,250. **The answers were printed above the question, on the
+same screen, in his own hand.** Seventeen exhibits had this shape: `figure_tables` takes the
+block after each caption, and beside a DRAWN figure that block is not a table at all but the
+one-cell box the author puts next to the picture — an EXAM TRAP, a WORKED EXAMPLE, a TERM
+BRIDGE, once an entire SECTION CHECK. The exhibit built from it had no rows and the whole box
+pasted into its caption. (It also collided with the real figure scene's id, so two scenes on
+one page shared one id.)
 
-| Mechanism | Result |
-|---|---|
-| blank the section's bridged terms in its opening prose | **6 of 81 sections** — he introduces a term in the paragraph that defines it, which is rarely the first |
-| match each term to the sentence that defines it (`gloss_for`) | **2 of 81** — the strict subject test finds a gloss for 2 of 28 terms in chapter 6 |
-| blank the word the author capitalised in an EXAM TRAP box | **8 of 64 boxes** |
-| split the section's enumerating sentence into ordered steps | **11 of 14 "succeeded" and the output was garbage** — "$540,000" split in two, clause fragments like "its creditors" and "even in bankruptcy" offered as steps |
+**Every gate passed it.** The provenance lock, because every word is his. The render gate,
+because the exercise marks correctly. The twelve per-exercise checks, because a scene cannot
+be answered by looking at ITSELF — and this is one scene leaking another's answers. It was
+found by taking a **screenshot of a page and reading it**, which is the only reason this
+section exists.
 
-The fourth is the dangerous one: it *passes the provenance lock*, because every fragment
-is genuinely his words. A gate cannot catch a sentence cut in the wrong place. **Move 1
-is per-figure authoring: open the image, find the sentences in his prose that say the
-same thing, write the scene.** Roughly 47 figures, and the estimate should be made on
-that basis rather than on the hope of a classifier.
+`auto_exhibit` now refuses a figure with no body rows, and there is a new check, **A9: no
+scene prints the figures another scene asks for**, whose unit is the PAGE. Two or more of one
+exercise's answers appearing in another scene's static text is the bar — one in common is
+ordinary, because his tables carry the inputs the exercise works from.
 
-### Move 2 — one trap register per chapter, from his own EXAM TRAP boxes
+**A9 took three attempts to bite, and each failure is worth more than the check.** It counted
+"Year 1" as an answer; then it kept the dollar sign, so `$324,000` never matched `324,000`;
+then it required `{"id":` with nothing between, which matches no column in a pretty-printed
+deck, so it read no schedule column at all. **It reported CLEAN every time.** A check written
+against a tree with no defect in it has never been asked a question.
 
-64 boxes, 51 unused. Each becomes a named trap wired to the scene that teaches it, so a
-learner's own errors are recorded and replayable, as in chapters 2–5. **Target: ≥ 4
-traps per chapter, every chapter, every sentence `_verbatim`.**
+## Three defects this pass created and the gates caught
 
-### Move 3 — make the numbers travel between screens
+Recorded because each one is a shape that will recur.
 
-The sharpest weakness is that most numeric entries stand alone. The author's worked
-examples carry a figure from one step to the next, and three instruments already do
-this and are barely used: `schedule` (7 uses), `locks` (18), `post` (3). Specifically:
+1. **`spec.lines` was already taken.** `assets/scene.js` folds `spec.lines` in as a
+   printed-statement exhibit *before* a renderer runs. A new kind carrying its own `lines`
+   would have drawn a garbled table above sixteen working exercises — the exercises would have
+   been fine, so the only sign would have been the mess. The field is `blanks`.
+2. **A scene's `say` is CHROME, budgeted at 45 words.** Chapter 6's own instruction runs to 43
+   words of trial balances and allowances, and failed at 48. Trimming his sentence would have
+   been wrong twice over: the budget exists to stop a scene lecturing in interface text, and
+   his instruction is not interface. It goes in `exhibit`, which the provenance lock already
+   audits as CONTENT for exactly this reason — "a scenario the learner reads in order to
+   answer". For the same reason "Every other column is **his**" failed the chrome check in ten
+   chapters, and the check was right: "his" is a claim about where a figure came from.
+3. **The Your-turn figure was asked twice.** `auto_yourturn` builds his exercise out of his
+   key; the dispatcher then built a second exercise on the same figure, asking the same four
+   classifications or the same column of amounts. Both were correct, and the first answered the
+   second — a learner who pressed Check on `fill-06` was shown 6,400, 10,000 and 20,000 and was
+   then asked for them. That is this file's own second warning, arriving **between** two scenes
+   rather than within one. The figure is now shown as the data his exercise is set on, and
+   asked once. The guard tests whether the Your-turn scene is actually BUILT, not whether the
+   box exists — keying it on the box would have cost Chapter 14 its lease schedule.
 
-- **Every chapter's Extended Example becomes a chain, not a list.** Today it is a
-  `locks` scene of independent ties. It should open from the learner's own earlier
-  answers where the author's own arithmetic does.
-- **The 19 unused WORKED EXAMPLE boxes with Step 1/2/3 structure become `post` or
-  `order` scenes** — the learner performs the steps rather than reading them.
-- **`schedule` carries forward.** It grades each row against the author's figures today;
-  it should also mark a row whose opening does not equal the learner's own previous
-  closing, which is the error the exam actually tests.
+## Three numbers this package was wrong about, and what they have in common
 
-### Move 4 — a Brief drawing for every section
+All three were measurement faults in the package's own tools, and all three made the work look
+smaller or the evidence thinner than it was. A plan is only as good as the instrument that
+measured it, so these are recorded as prominently as the gains.
 
-81 sections, 0 drawings in thirteen chapters. The 19 icon families added for 6–18 are
-the same shapes a Brief animation needs, at a different size. **Target: one drawing per
-section, reusing an existing animation where the mechanism matches and adding one only
-where it does not.**
+1. **`used()` normalised one side.** 68% of his boxes are used, not 40% — see the correction at
+   the top.
+2. **`figures_asked.py` wrote its table to a session scratchpad** and printed six lines, so
+   `evidence/figures_asked.txt` — the only record of WHICH figures are only shown, and the file
+   `check_package.py` reads — held the summary and nothing else. It writes into `evidence/` now.
+3. **`author_boxes.py` measured the figures as well**, by the superseded method: it regexed the
+   written decks and guessed a scene's extent as the next 1,200 characters. It disagreed with
+   `figures_asked.py` inside the same package — 88 only shown against 94, and 26 figures
+   "appearing nowhere" against 0. Two numbers for one fact make a package a story. The
+   duplicate is gone and that tool now counts boxes only.
 
-## Order of work
+## Two numbers that must never be typed again
 
-0. **A gate check for each target**, written first and failing: instrument share per
-   chapter, figures asked per chapter, traps per chapter, Brief drawings per section.
-   A target with no check is a wish.
-1. **Move 1**, chapter by chapter, in book order.
-2. **Move 2**, in the same pass per chapter.
-3. **Move 4**, in the same pass per chapter.
-4. **Move 3** last, because it changes instruments that all eighteen chapters share and
-   every earlier move's work is re-gated by it.
-5. Extend `cma_crosstie` as each chapter's ledger grows.
-6. Full suite, commit, push.
+- **`index.html`'s per-chapter exercise count** has now drifted three times, and
+  `cma_interactive`'s check A8 caught it all three. `tools/cma_index.py` writes it from
+  `gates.cma_interactive.run`. Its first version kept a second counting rule and was wrong for
+  six chapters, because `scene.js` folds exhibits onto neighbouring exercises and the Term
+  Bridge deck expands three drills at load — neither visible in the data file. It asks the
+  authority instead.
+- **`cma_depth`'s own floors.** They were typed from what the work felt like it had achieved,
+  and the gate's first run rejected eight of eighteen rows (chapter 18 written as 15
+  instruments and 9 kinds against a true 10 and 8). `--raise` prints the block to paste back.
 
-## Targets, as the gate will state them
+## Chapter 1 is refused by name
 
-| Check | Today, worst chapter | Target |
+`--chapter 1` died with "C1-6: an option with no reason", which reads like a gap in the
+author's key and is not: his key explains all three wrong options, and what is missing is a
+`CASE_RULES[1]` entry for the right one. **Supplying it would have been the obvious fix and the
+wrong one.** `build()` names no section builder for chapter 1 — 0, against chapter 2's 6 —
+because chapter 1 was written scene by scene before this generator existed, and its seven
+section files on disk are the only copy of that work. The "fix" that makes `--chapter 1` run is
+the one that replaces the benchmark chapter with a stub. `tools.cma_scenes.BUILDABLE` is
+`range(2, 19)` and the refusal says what it would cost to lift it.
+
+## Targets, as the gate now states them
+
+`gates/cma_depth.py`, five checks, teeth on all five. Each asserts the floor we hold and prints
+the target beside it, because a gate that asserts an unmet target is red from birth and then
+unread.
+
+| Check | Floor now held | Target |
 |---|---|---|
-| built instruments as a share of graded | 17% (ch 18) | **≥ 45% every chapter** |
-| instrument kinds per chapter | 7 | **≥ 10** |
-| the author's figures asked about | 17% (ch 6, 7, 18) | **≥ 70%** |
-| named traps | 0 in thirteen chapters | **≥ 4** |
-| Brief drawings | 0 in thirteen chapters | **1 per section** |
-| his boxes used | 18% book-wide | **≥ 60%** |
+| the author's figures asked about | 109 of 203 (54%); worst chapter 27% | ≥ 70% every chapter |
+| instruments as a share of graded | 312 of 1,017 (31%); worst ch18 19% | ≥ 45% every chapter |
+| instrument kinds per chapter | 8 (ch18), 9 (ch17) | ≥ 10 — **16 of 18 already there** |
+| named traps | ≥ 4 in every chapter, 116 total | ✅ met |
+| Brief drawings | 105 of 105 sections | ✅ met |
+| his 204 boxes used | 138 (68%) | ≥ 60% — ✅ met, and mostly by fixing the measurement |
+
+## What is left, in the order it should be done
+
+1. **A match instrument** for the twelve label-↔-description tables. That is the single
+   remaining block on the "figures asked" target: twelve figures is 6% of the book.
+2. **`auto_post` for F16-06** — one figure, and the fix is reading column 0 as the account.
+3. **Move 3 for the Extended Examples.** Eight chapters print theirs as a TABLE and the site
+   now asks it with `auto_fill`; the remaining step is to open each one from the learner's own
+   earlier answers where his own arithmetic does, as `yourturn` already does inside one scene.
+4. **Chapters 2–5 are not on the dispatcher at all** — they name their builders by hand, which
+   is why F02-05, F02-08, F03-12, F04-02 and eight more are still only shown. Adding
+   `auto_section` to them as an ADDITION rather than a replacement is a contained change, and
+   the only hazard is a figure asked twice, which defect 3 above now has a guard for.
+5. **Fingerprint `cma_render_teeth`** — still 60% of the CMA suite and ~69 minutes at eighteen
+   chapters. Every item above re-runs it.
 
 ## ⚠ Two things that must not happen
 
-1. **No new exercise may be invented.** Every target above is met out of material the
-   author already wrote; `evidence/` names it figure by figure and box by box. The
-   provenance lock and `_verbatim` make this enforceable rather than aspirational.
+1. **No new exercise may be invented.** Every gain above came out of material the author
+   already wrote — his answer key, his tables, his trap boxes. `_verbatim` makes that
+   enforceable rather than aspirational, and it refused this pass's work four times before the
+   wording was his.
 2. **No figure may be moved in front of the exercise it answers.** Five of sixteen drawn
-   figures in chapters 3–5 were answer keys, found only by opening them. Move 1 puts
-   ~80 more figures onto exercise screens; **every one must be looked at** and declared
-   `data` / default / `inBrief`.
-
-## Cost
-
-`cma_render_teeth` is already 60% of the CMA suite and would be ~69 minutes at eighteen
-chapters. **Fingerprint it before Move 1 starts**, not after — this pass touches every
-chapter and will re-run the suite many times.
+   figures in chapters 3–5 were answer keys, found only by opening them. Defect 3 above is the
+   same rule broken between two scenes instead of inside one, so the check has to be about the
+   PAGE and not the scene.
 
 ## Verify this package
 

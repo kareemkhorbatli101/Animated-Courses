@@ -34,41 +34,53 @@
       ]
     },
     {
-      "id": "fig-f15-11",
-      "kind": "grid",
+      "id": "fill-11",
+      "kind": "schedule",
       "kicker": "Figure F15-11",
       "title": "Inside the discontinued component",
-      "say": "Extended Example 15A: inside the discontinued component",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Discontinued component (USD)",
       "cols": [
-        "Before tax",
-        "Tax",
-        "After tax"
+        {
+          "id": "c1",
+          "label": "Before tax",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Tax",
+          "given": true
+        },
+        {
+          "id": "c3",
+          "label": "After tax",
+          "given": false
+        }
       ],
       "rows": [
         {
-          "name": "Operating result for the year",
-          "cells": [
-            "420,000",
-            "(105,000)",
-            "315,000"
-          ]
+          "label": "Operating result for the year",
+          "cells": {
+            "c1": "420,000",
+            "c2": "(105,000)",
+            "c3": "315,000"
+          }
         },
         {
-          "name": "Gain on disposal",
-          "cells": [
-            "180,000",
-            "(45,000)",
-            "135,000"
-          ]
+          "label": "Gain on disposal",
+          "cells": {
+            "c1": "180,000",
+            "c2": "(45,000)",
+            "c3": "135,000"
+          }
         },
         {
-          "name": "Total reported in the section",
-          "cells": [
-            "600,000",
-            "(150,000)",
-            "450,000"
-          ]
+          "label": "Total reported in the section",
+          "cells": {
+            "c1": "600,000",
+            "c2": "(150,000)",
+            "c3": "450,000"
+          }
         }
       ]
     },

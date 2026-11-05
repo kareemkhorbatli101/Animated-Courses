@@ -66,43 +66,61 @@
       ]
     },
     {
-      "id": "fig-f11-12",
-      "kind": "lines",
+      "id": "fill-12",
+      "kind": "schedule",
       "kicker": "Figure F11-12",
       "title": "2025 revenue, and three wrong answers",
-      "say": "Extended Example 11A: 2025 revenue, and three wrong answers",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Treatment",
-      "col1": "2025 revenue",
-      "col2": "Why",
-      "rows": [
+      "cols": [
         {
-          "name": "Correct",
-          "a": "515,250",
-          "b": "Oil delivered, dispenser installed, maintenance earned month by month"
+          "id": "c1",
+          "label": "2025 revenue",
+          "given": false
         },
         {
-          "name": "Whole price on signing",
-          "a": "1,080,000",
-          "b": "Ignores that maintenance is earned over time"
-        },
-        {
-          "name": "All maintenance in 2025",
-          "a": "594,000",
-          "b": "Recognises service revenue before the service is given"
-        },
-        {
-          "name": "Dispenser deferred",
-          "a": "335,250",
-          "b": "Control of the dispenser passed on installation"
-        },
-        {
-          "name": "Allocating on standalone prices without the discount",
-          "a": "572,500",
-          "b": "The contract price, not the list price, is what is allocated"
+          "id": "c2",
+          "label": "Why",
+          "given": true
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Correct",
+          "cells": {
+            "c1": "515,250",
+            "c2": "Oil delivered, dispenser installed, maintenance earned month by month"
+          }
+        },
+        {
+          "label": "Whole price on signing",
+          "cells": {
+            "c1": "1,080,000",
+            "c2": "Ignores that maintenance is earned over time"
+          }
+        },
+        {
+          "label": "All maintenance in 2025",
+          "cells": {
+            "c1": "594,000",
+            "c2": "Recognises service revenue before the service is given"
+          }
+        },
+        {
+          "label": "Dispenser deferred",
+          "cells": {
+            "c1": "335,250",
+            "c2": "Control of the dispenser passed on installation"
+          }
+        },
+        {
+          "label": "Allocating on standalone prices without the discount",
+          "cells": {
+            "c1": "572,500",
+            "c2": "The contract price, not the list price, is what is allocated"
+          }
+        }
+      ]
     },
     {
       "id": "ties",

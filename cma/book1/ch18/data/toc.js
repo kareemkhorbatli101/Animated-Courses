@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.3",
   "title": "Value creation and the six capitals",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, a printed statement, shares, questions · 6 scenes"
  },
  {
   "id": "s18-4",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "18.5",
   "title": "Benefits and challenges",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, questions · 3 scenes"
  },
  {
   "id": "s18-6",

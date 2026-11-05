@@ -37,19 +37,6 @@
       "caption": "Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing."
     },
     {
-      "id": "fig-f10-10",
-      "kind": "lines",
-      "kicker": "Figure F10-10",
-      "title": "Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing",
-      "say": "Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortization and testing.",
-      "caption": "WATCH: NOT YET TESTABLE   ASU 2025-06 and ASU 2025-10\nASU 2025-06 changes when companies start capitalizing internal-use software (effective for annual periods beginning after December 15, 2027). ASU 2025-10 adds guidance on government grants for assets. Under the one-year rule, neither is tested yet.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc10-9",
       "kind": "check",
       "kicker": "SC10-9",

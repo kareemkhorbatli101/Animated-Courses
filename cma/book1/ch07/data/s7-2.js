@@ -23,19 +23,6 @@
       "caption": "Inventoriable costs versus period costs."
     },
     {
-      "id": "fig-f07-03",
-      "kind": "lines",
-      "kicker": "Figure F07-03",
-      "title": "Inventoriable costs versus period costs",
-      "say": "Inventoriable costs versus period costs.",
-      "caption": "WORKED EXAMPLE   The cost of imported glass bottles\nOrontes imports glass bottles for its Amman plant. The invoice is $20,000, and Orontes pays within the discount period, so it takes a 2% discount. Other costs are shown below (whole dollars).\n\nThe two costs at the bottom of the table happen after the goods are ready for use. They do not bring the bottles to their present condition and location, so they are expenses.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc7-3",
       "kind": "check",
       "kicker": "SC7-3",

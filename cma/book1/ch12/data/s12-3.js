@@ -23,56 +23,64 @@
       "caption": "Decision chart: can short-term debt be shown as noncurrent?."
     },
     {
-      "id": "fig-f12-04",
-      "kind": "lines",
-      "kicker": "Figure F12-04",
-      "title": "Decision chart: can short-term debt be shown as noncurrent?",
-      "say": "Decision chart: can short-term debt be shown as noncurrent?.",
-      "caption": "WORKED EXAMPLE   Worked example: Orontes's commercial paper\nSetting. Suppose Orontes has commercial paper of $3,000,000 due March 31, 2027, and intends to refinance it. Its 2026 statements are issued on March 1, 2027.\nScenario A. Bonds issued on February 10 replace the paper: the whole $3,000,000 is noncurrent.\nScenario C. Shares issued for $2,400,000: that amount is noncurrent and $600,000 stays current. Nothing moves to equity.\nScenario D. A qualifying agreement for 80% of inventory of at least $3,125,000: $2,500,000 noncurrent, $500,000 current.\nCheck. Figure F12-05 shows all five scenarios, including the two where the whole amount stays current.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
-      "id": "fig-f12-05",
-      "kind": "lines",
+      "id": "fill-05",
+      "kind": "schedule",
       "kicker": "Figure F12-05",
       "title": "Five refinancing scenarios for Orontes's commercial paper",
-      "say": "Suppose: five refinancing scenarios for Orontes's commercial paper",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Suppose: Orontes, commercial paper of 3,000,000 due March 31, 2027; statements issued March 1, 2027",
-      "col1": "Noncurrent (U.S. GAAP)",
-      "col2": "Current (U.S. GAAP)",
-      "rows": [
+      "cols": [
         {
-          "name": "A. Issues 5-year bonds on February 10 and uses the cash to repay the paper at maturity",
-          "a": "3,000,000",
-          "b": "0"
+          "id": "c1",
+          "label": "Noncurrent (U.S. GAAP)",
+          "given": true
         },
         {
-          "name": "B. Repays the paper with cash on January 15, then issues bonds on February 10",
-          "a": "0",
-          "b": "3,000,000"
-        },
-        {
-          "name": "C. Issues shares on February 10 for 2,400,000 to repay the paper",
-          "a": "2,400,000",
-          "b": "600,000"
-        },
-        {
-          "name": "D. Signs a qualifying agreement on February 1 to borrow 80% of inventory; inventory will not fall below 3,125,000",
-          "a": "2,500,000",
-          "b": "500,000"
-        },
-        {
-          "name": "E. Same as D, but the lender may cancel if it sees a 'material adverse change'",
-          "a": "0",
-          "b": "3,000,000"
+          "id": "c2",
+          "label": "Current (U.S. GAAP)",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "A. Issues 5-year bonds on February 10 and uses the cash to repay the paper at maturity",
+          "cells": {
+            "c1": "3,000,000",
+            "c2": "0"
+          }
+        },
+        {
+          "label": "B. Repays the paper with cash on January 15, then issues bonds on February 10",
+          "cells": {
+            "c1": "0",
+            "c2": "3,000,000"
+          }
+        },
+        {
+          "label": "C. Issues shares on February 10 for 2,400,000 to repay the paper",
+          "cells": {
+            "c1": "2,400,000",
+            "c2": "600,000"
+          }
+        },
+        {
+          "label": "D. Signs a qualifying agreement on February 1 to borrow 80% of inventory; inventory will not fall below 3,125,000",
+          "cells": {
+            "c1": "2,500,000",
+            "c2": "500,000"
+          }
+        },
+        {
+          "label": "E. Same as D, but the lender may cancel if it sees a 'material adverse change'",
+          "cells": {
+            "c1": "0",
+            "c2": "3,000,000"
+          }
+        }
+      ],
+      "traps": [
+        "refinancing-traps"
+      ]
     },
     {
       "id": "sc12-5",
@@ -97,9 +105,6 @@
           "text": "The paper was due within one year",
           "why": "Short-term debt can be noncurrent if refinanced properly."
         }
-      ],
-      "traps": [
-        "refinancing-traps"
       ]
     },
     {

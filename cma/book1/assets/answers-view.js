@@ -31,6 +31,17 @@
       return ul((sc.ties || []).map(function (t) {
         return li("y", "<b>" + esc(t.label) + " = " + m(t.answer) + "</b> " + (t.why || "")); }));
     }
+    if (k === "yourturn") {
+      /* HIS result as HE prints it. `m()` would reformat "(25,000)" and "40%" and "$14,400"
+         into one house style, and the answer page is the place where the book's own wording
+         matters most - it is what a reader checks their own working against. */
+      h = ul((sc.blanks || []).map(function (ln) {
+        return li("y", "<b>" + esc(ln.label) + " = " + esc(String(ln.shown)) + "</b> " +
+                       esc(ln.working || "") +
+                       ((ln.needs || []).length ? " <i>(waits on the line above)</i>" : "")); }));
+      if (sc.note) h += ul([li("y", esc(sc.note))]);
+      return h;
+    }
     if (k === "sort") {
       function lab(id) { var t = (sc.targets || []).filter(function (x) { return x.id === id; })[0];
         return t ? (t.label || (t.reveal ? t.reveal.name : id)) : id; }

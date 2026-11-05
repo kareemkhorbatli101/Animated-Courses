@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.2",
   "title": "Temporary and permanent differences",
-  "blurb": "Figures, shares, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, shares, questions · 4 scenes"
  },
  {
   "id": "s13-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "13.3",
   "title": "Measuring current and deferred taxes",
-  "blurb": "Amounts, a printed statement, questions · 5 scenes"
+  "blurb": "Amounts, schedule, a printed statement, shares, questions · 6 scenes"
  },
  {
   "id": "s13-4",

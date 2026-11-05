@@ -111,19 +111,6 @@
       ]
     },
     {
-      "id": "fig-f13-04",
-      "kind": "lines",
-      "kicker": "Figure F13-04",
-      "title": "Decision chart: permanent difference, deferred tax liability or deferred tax asset?",
-      "say": "Decision chart: permanent difference, deferred tax liability or deferred tax asset?.",
-      "caption": "EXAM TRAP   Which way does it go?\nTax depreciation faster than book: less tax now, more later: deferred tax liability.\nWarranty accrued now, deductible when paid: more tax now, less later: deferred tax asset.\nFines and municipal interest: permanent, no deferred tax.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc13-3",
       "kind": "check",
       "kicker": "SC13-3",

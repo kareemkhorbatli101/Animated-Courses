@@ -120,6 +120,41 @@
       ]
     },
     {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F03-05",
+      "title": "Barada's 2025 income statement",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F03-05 uses Barada's trial balance from Chapter 1. Barada's 2025 statements ignore income tax. Fill in the three blanks.",
+      "blanks": [
+        {
+          "label": "Operating income",
+          "working": "1,240 − 520 − 300 = 420",
+          "shown": "420",
+          "answer": 420,
+          "prompt": "1,240 − 520 − 300 ="
+        },
+        {
+          "label": "Net income",
+          "working": "420 − 90 = 330, the same as in Chapter 1",
+          "shown": "330",
+          "answer": 330,
+          "prompt": "420 − 90 =",
+          "needs": [
+            0
+          ]
+        },
+        {
+          "label": "Gross profit percentage",
+          "working": "1,240 ÷ 3,100 = 40%",
+          "shown": "40%",
+          "answer": 40,
+          "prompt": "1,240 ÷ 3,100 ="
+        }
+      ],
+      "caption": "Barada Wholesale — multi-step income statement, 2025 (complete the blanks)"
+    },
+    {
       "id": "sc3-3",
       "kind": "check",
       "kicker": "SC3-3",

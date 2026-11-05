@@ -16,48 +16,50 @@
   },
   "scenes": [
     {
-      "id": "fig-f16-11",
-      "kind": "lines",
+      "id": "fill-11",
+      "kind": "schedule",
       "kicker": "Figure F16-11",
       "title": "Goodwill under the two measurement choices",
-      "say": "Extended Example 16A: goodwill under the two measurement choices",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Acquisition of Levant Distribution (USD)",
-      "col1": "NCI at fair value",
-      "col2": "NCI at share of net assets",
-      "rows": [
+      "cols": [
         {
-          "name": "Consideration transferred",
-          "a": "8,000,000",
-          "b": "8,000,000"
+          "id": "c1",
+          "label": "NCI at fair value",
+          "given": true
         },
         {
-          "name": "Non-controlling interest",
-          "a": "1,900,000",
-          "b": "1,700,000"
-        },
-        {
-          "name": "Total",
-          "a": "9,900,000",
-          "b": "9,700,000"
-        },
-        {
-          "name": "Net assets at fair value",
-          "a": "(8,500,000)",
-          "b": "(8,500,000)"
-        },
-        {
-          "name": "Goodwill",
-          "a": "1,400,000",
-          "b": "1,200,000"
-        },
-        {
-          "name": "Allowed under",
-          "a": "U.S. GAAP and IFRS",
-          "b": "IFRS only"
+          "id": "c2",
+          "label": "NCI at share of net assets",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Non-controlling interest",
+          "cells": {
+            "c1": "1,900,000",
+            "c2": "1,700,000"
+          }
+        },
+        {
+          "label": "Total",
+          "cells": {
+            "c1": "9,900,000",
+            "c2": "9,700,000"
+          }
+        },
+        {
+          "label": "Goodwill",
+          "cells": {
+            "c1": "1,400,000",
+            "c2": "1,200,000"
+          }
+        }
+      ],
+      "traps": [
+        "exam-view"
+      ]
     },
     {
       "id": "num-12",
@@ -72,9 +74,6 @@
           "answer": "2031000",
           "why": "Closing balance: 2,031,000."
         }
-      ],
-      "traps": [
-        "exam-view"
       ]
     },
     {

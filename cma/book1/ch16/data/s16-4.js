@@ -23,19 +23,6 @@
       "caption": "Goodwill at acquisition: price plus NCI fair value minus net assets at fair value."
     },
     {
-      "id": "fig-f16-05",
-      "kind": "lines",
-      "kicker": "Figure F16-05",
-      "title": "Goodwill at acquisition: price plus NCI fair value minus net assets at fair value",
-      "say": "Goodwill at acquisition: price plus NCI fair value minus net assets at fair value.",
-      "caption": "WORKED EXAMPLE   Worked example: the acquisition-date elimination\nStep 1. Remove Levant's equity of $7,300,000: it is not owned by outsiders to the group, except through NCI.\nStep 2. Add the equipment step-up of $1,200,000 and goodwill of $1,400,000.\nStep 3. Remove Orontes's investment of $8,000,000 and record NCI of $1,900,000 in equity.\nCheck. Debits and credits both equal $9,900,000. Figure F16-06 shows the entry.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "fig-f16-06",
       "kind": "lines",
       "kicker": "Figure F16-06",

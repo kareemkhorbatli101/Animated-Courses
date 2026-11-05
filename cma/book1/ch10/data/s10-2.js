@@ -23,73 +23,74 @@
       "caption": "Depreciation expense each year for the bottling line under four methods."
     },
     {
-      "id": "fig-f10-03",
-      "kind": "grid",
+      "id": "fill-03",
+      "kind": "schedule",
       "kicker": "Figure F10-03",
       "title": "Depreciation schedules for the Amman bottling line (whole USD)",
-      "say": "Depreciation schedules for the Amman bottling line (whole USD)",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "",
       "cols": [
-        "Straight-line",
-        "Double-declining (40%)",
-        "Sum-of-the-years'-digits",
-        "Units of production"
+        {
+          "id": "c1",
+          "label": "Straight-line",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Double-declining (40%)",
+          "given": true
+        },
+        {
+          "id": "c3",
+          "label": "Sum-of-the-years'-digits",
+          "given": false
+        },
+        {
+          "id": "c4",
+          "label": "Units of production",
+          "given": true
+        }
       ],
       "rows": [
         {
-          "name": "Year 1",
-          "cells": [
-            "210,000",
-            "480,000",
-            "350,000",
-            "5,000 h: 250,000"
-          ]
+          "label": "Year 1",
+          "cells": {
+            "c1": "210,000",
+            "c2": "480,000",
+            "c3": "350,000",
+            "c4": "5,000 h: 250,000"
+          }
         },
         {
-          "name": "Year 2",
-          "cells": [
-            "210,000",
-            "288,000",
-            "280,000",
-            "4,600 h: 230,000"
-          ]
+          "label": "Year 2",
+          "cells": {
+            "c1": "210,000",
+            "c2": "288,000",
+            "c3": "280,000",
+            "c4": "4,600 h: 230,000"
+          }
         },
         {
-          "name": "Year 3",
-          "cells": [
-            "210,000",
-            "172,800",
-            "210,000",
-            "4,200 h: 210,000"
-          ]
+          "label": "Year 4",
+          "cells": {
+            "c1": "210,000",
+            "c2": "103,680",
+            "c3": "140,000",
+            "c4": "3,800 h: 190,000"
+          }
         },
         {
-          "name": "Year 4",
-          "cells": [
-            "210,000",
-            "103,680",
-            "140,000",
-            "3,800 h: 190,000"
-          ]
-        },
-        {
-          "name": "Year 5",
-          "cells": [
-            "210,000",
-            "5,520",
-            "70,000",
-            "3,400 h: 170,000"
-          ]
-        },
-        {
-          "name": "Total",
-          "cells": [
-            "1,050,000",
-            "1,050,000",
-            "1,050,000",
-            "1,050,000"
-          ]
+          "label": "Year 5",
+          "cells": {
+            "c1": "210,000",
+            "c2": "5,520",
+            "c3": "70,000",
+            "c4": "3,400 h: 170,000"
+          }
         }
+      ],
+      "traps": [
+        "depreciation-traps"
       ]
     },
     {
@@ -190,73 +191,93 @@
           },
           "why": "Straight-line: No effect. Double-declining: No effect. SYD: No effect. Units of production: No effect."
         }
-      ],
-      "traps": [
-        "depreciation-traps"
       ]
     },
     {
-      "id": "sched-05",
-      "kind": "schedule",
+      "id": "fig-f10-05",
+      "kind": "grid",
       "kicker": "Figure F10-05",
       "title": "Double-declining schedule for the Dubai trucks (whole USD): complete the blanks",
-      "say": "Fill in each year. One slip carries into the next row.",
+      "say": "Double-declining schedule for the Dubai trucks (whole USD): complete the blanks",
       "caption": "",
       "cols": [
-        {
-          "id": "c1",
-          "label": "Beginning book value",
-          "given": true
-        },
-        {
-          "id": "c2",
-          "label": "Depreciation",
-          "given": false
-        },
-        {
-          "id": "c3",
-          "label": "Ending book value",
-          "given": false
-        }
+        "Beginning book value",
+        "Depreciation",
+        "Ending book value"
       ],
       "rows": [
         {
-          "label": "Year 1",
-          "cells": {
-            "c1": "90,000",
-            "c2": "50% × 90,000 = 45,000",
-            "c3": "45,000"
-          }
+          "name": "Year 1",
+          "cells": [
+            "90,000",
+            "50% × 90,000 = 45,000",
+            "45,000"
+          ]
         },
         {
+          "name": "Year 2",
+          "cells": [
+            "45,000",
+            "______",
+            "______"
+          ]
+        },
+        {
+          "name": "Year 3",
+          "cells": [
+            "______",
+            "______",
+            "______"
+          ]
+        },
+        {
+          "name": "Year 4",
+          "cells": [
+            "______",
+            "______ (do not go below salvage)",
+            "10,000"
+          ]
+        }
+      ],
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F10-05",
+      "title": "Dubai delivery trucks",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Orontes buys delivery trucks for its Dubai plant for $90,000, with a salvage value of $10,000 after 4 years. Complete the double-declining schedule in Figure F10-05.",
+      "blanks": [
+        {
           "label": "Year 2",
-          "cells": {
-            "c1": "45,000",
-            "c2": "50% × 45,000 = 22,500; ending book value 22,500",
-            "c3": "50% × 45,000 = 22,500; ending book value 22,500"
-          }
+          "working": "50% × 45,000 = 22,500; ending book value 22,500",
+          "shown": "22,500",
+          "answer": 22500,
+          "prompt": "50% × 45,000 ="
         },
         {
           "label": "Year 3",
-          "cells": {
-            "c1": "50% × 45,000 = 22,500; ending book value 22,500",
-            "c2": "50% × 45,000 = 22,500; ending book value 22,500",
-            "c3": "50% × 45,000 = 22,500; ending book value 22,500"
-          }
+          "working": "50% × 22,500 = 11,250; ending book value 11,250",
+          "shown": "11,250",
+          "answer": 11250,
+          "prompt": "50% × 22,500 =",
+          "needs": [
+            0
+          ]
         },
         {
           "label": "Year 4",
-          "cells": {
-            "c1": "50% × 45,000 = 22,500; ending book value 22,500",
-            "c2": "50% × 45,000 = 22,500; ending book value 22,500",
-            "c3": "10,000"
-          }
+          "working": "The rate would give more than is left above salvage, so depreciation is 11,250 − 10,000 = 1,250; ending book value 10,000",
+          "shown": "1,250",
+          "answer": 1250,
+          "prompt": "The rate would give more than is left above salvage, so depreciation is 11,250 − 10,000 =",
+          "needs": [
+            1
+          ]
         }
       ],
-      "carry": {
-        "from": "c3",
-        "to": "c1"
-      }
+      "caption": "Double-declining schedule for the Dubai trucks (whole USD): complete the blanks"
     },
     {
       "id": "sc10-3",

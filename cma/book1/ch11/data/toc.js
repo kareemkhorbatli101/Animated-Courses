@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.3",
   "title": "Steps 3 and 4: the transaction price and its allocation",
-  "blurb": "Figures, shares, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, shares, questions · 4 scenes"
  },
  {
   "id": "s11-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.4",
   "title": "Step 5: recognizing revenue over time or at a point in time",
-  "blurb": "Figures, a printed statement, grid, questions · 7 scenes"
+  "blurb": "Figures, schedule, questions · 5 scenes"
  },
  {
   "id": "s11-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.5",
   "title": "Special situations",
-  "blurb": "Figures, amounts, questions · 4 scenes"
+  "blurb": "Figures, a printed statement, yourturn, questions · 5 scenes"
  },
  {
   "id": "s11-6",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "11.7",
   "title": "Extended Example 11A: the five steps on one contract",
-  "blurb": "Shares, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Shares, schedule, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

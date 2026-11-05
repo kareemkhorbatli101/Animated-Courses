@@ -124,9 +124,16 @@
           if (r.why) mine.push({ k: "y", html: "<b>" + esc(r.label) + "</b> " + r.why });
         });
       }
+      /* THE VERDICT FOLLOWS THE SPEC, NOT THE KIND. "Every year right, and the chain
+         holds" was hardcoded, and this renderer now also draws tables that have no years
+         and no chain - three inventory methods side by side, a rate reconciliation, two
+         measurement choices for goodwill. On those it announced a chain that was not
+         there, which is a scene telling a learner something untrue about itself. A
+         schedule declares `carry`; a table of figures does not. */
       return { score: right, total: boxes.length, ok: right === boxes.length,
                verdict: right === boxes.length
-                 ? "Every year right, and the chain holds."
+                 ? (carry ? "Every year right, and the chain holds."
+                          : "Every figure right.")
                  : right + " of " + boxes.length + " right",
                html: yoursFirst(yours, mine) };
     };

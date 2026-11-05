@@ -16,7 +16,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.1",
   "title": "What makes a liability current",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Schedule, questions · 3 scenes"
  },
  {
   "id": "s12-2",
@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.2",
   "title": "Payroll, taxes collected and compensated absences",
-  "blurb": "Amounts, questions · 3 scenes"
+  "blurb": "A printed statement, yourturn, questions · 4 scenes"
  },
  {
   "id": "s12-3",
@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.3",
   "title": "Short-term debt expected to be refinanced",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, schedule, questions · 4 scenes"
  },
  {
   "id": "s12-4",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "12.5",
   "title": "Warranties",
-  "blurb": "Figures, post, a printed statement, questions · 7 scenes"
+  "blurb": "Figures, post, questions · 6 scenes"
  },
  {
   "id": "s12-6",

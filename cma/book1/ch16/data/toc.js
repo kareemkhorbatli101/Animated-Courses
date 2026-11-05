@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.2",
   "title": "Two control models: VIE first, then votes",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, a printed statement, questions · 4 scenes"
  },
  {
   "id": "s16-3",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.4",
   "title": "The acquisition: goodwill and noncontrolling interest",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, a printed statement, questions · 4 scenes"
  },
  {
   "id": "s16-5",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.5",
   "title": "Eliminating intercompany balances and transactions",
-  "blurb": "Figures, shares, amounts, questions · 5 scenes"
+  "blurb": "Figures, shares, a printed statement, yourturn, questions · 6 scenes"
  },
  {
   "id": "s16-6",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "16.7",
   "title": "Extended Example 16A: one acquisition, from goodwill to the group result",
-  "blurb": "A printed statement, amounts, the tie lines, questions · 6 scenes"
+  "blurb": "Schedule, amounts, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

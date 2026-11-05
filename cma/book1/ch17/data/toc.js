@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "17.3",
   "title": "(iii) Inventories",
-  "blurb": "Figures, a printed statement, questions · 4 scenes"
+  "blurb": "Figures, questions · 3 scenes"
  },
  {
   "id": "s17-4",

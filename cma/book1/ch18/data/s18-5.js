@@ -23,19 +23,6 @@
       "caption": "Benefits and challenges of integrated reporting."
     },
     {
-      "id": "fig-f18-08",
-      "kind": "lines",
-      "kicker": "Figure F18-08",
-      "title": "Benefits and challenges of integrated reporting",
-      "say": "Benefits and challenges of integrated reporting.",
-      "caption": "SECTION CHECK   Test yourself\nSC18-9  Which is a benefit of integrated reporting?\nA.\tIt is required by U.S. GAAP\nB.\tIt removes the need for audited financial statements\nC.\tIt prescribes standard KPIs for all companies\nD.\tIt encourages managers to think about how the capitals connect\nSC18-10  Which is a challenge of integrated reporting?\nA.\tIt is too short to be useful\nB.\tHuman and relationship capital are hard to measure reliably\nC.\tIt cannot mention risks\nD.\tIt is limited to financial information\nAnswers and explanations are at the end of the chapter.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc18-9",
       "kind": "check",
       "kicker": "SC18-9",

@@ -30,17 +30,53 @@
       "caption": "Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes."
     },
     {
-      "id": "fig-f08-06",
-      "kind": "lines",
-      "kicker": "Figure F08-06",
-      "title": "Retail method worksheet for Orontes Farm Shops: conventional and average-cost ratios",
-      "say": "Retail method worksheet for Orontes Farm Shops: conventional and average-cost ratios.",
-      "caption": "YOUR TURN   The Dubai shop\nComplete the dashed boxes in Figure F08-07 using the conventional retail method. Then check your answers at the end of the chapter.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F08-07",
+      "title": "The Dubai shop",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Complete the dashed boxes in Figure F08-07 using the conventional retail method.",
+      "blanks": [
+        {
+          "label": "Goods available at retail",
+          "working": "150,000 − 6,000 = 144,000",
+          "shown": "144,000",
+          "answer": 144000,
+          "prompt": "150,000 − 6,000 ="
+        },
+        {
+          "label": "Ending inventory at retail",
+          "working": "144,000 − 120,000 = 24,000",
+          "shown": "24,000",
+          "answer": 24000,
+          "prompt": "144,000 − 120,000 =",
+          "needs": [
+            0
+          ]
+        },
+        {
+          "label": "Conventional ratio",
+          "working": "90,000 ÷ 150,000 = 0.60",
+          "shown": "0.60",
+          "answer": 0.6,
+          "prompt": "90,000 ÷ 150,000 ="
+        },
+        {
+          "label": "Ending inventory at cost",
+          "working": "24,000 × 0.60 = $14,400",
+          "shown": "$14,400",
+          "answer": 14400,
+          "prompt": "24,000 × 0.60 =",
+          "needs": [
+            1,
+            2
+          ]
+        }
+      ],
+      "caption": "Faded retail worksheet for the Dubai shop; the learner fills in the dashed boxes.",
+      "traps": [
+        "markup-on-cost-is-not-a-margin-on-sale"
+      ]
     },
     {
       "id": "sc8-5",
@@ -65,9 +101,6 @@
           "text": "ignored completely.",
           "why": "Markdowns still reduce retail inventory; they are deducted after the ratio."
         }
-      ],
-      "traps": [
-        "markup-on-cost-is-not-a-margin-on-sale"
       ]
     },
     {

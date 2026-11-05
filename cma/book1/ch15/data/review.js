@@ -87,9 +87,6 @@
           "text": "10,000",
           "why": "This gives the reclassification the wrong sign."
         }
-      ],
-      "traps": [
-        "comprehensive-income-traps"
       ]
     },
     {

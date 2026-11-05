@@ -23,19 +23,6 @@
       "caption": "Decision chart: test the VIE model first, then the voting interest model."
     },
     {
-      "id": "fig-f16-02",
-      "kind": "lines",
-      "kicker": "Figure F16-02",
-      "title": "Decision chart: test the VIE model first, then the voting interest model",
-      "say": "Decision chart: test the VIE model first, then the voting interest model.",
-      "caption": "WORKED EXAMPLE   Worked example: Orontes's cold-chain entity\nStep 1. Suppose a logistics entrepreneur owns all the shares of Orontes Cold-Chain Logistics SPV. The shares cost $100,000.\nStep 2. Banks lend $9,900,000, guaranteed by Orontes. Equity is only 1% of the funding, and Orontes decides routes and customers: the SPV is a VIE.\nStep 3. Orontes has the power and bears the losses through its guarantee, so it is the primary beneficiary.\nCheck. Orontes consolidates the SPV although it owns no shares. The entrepreneur's $100,000 is NCI. Figure F16-03 sets out the analysis.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "fig-f16-03",
       "kind": "lines",
       "kicker": "Figure F16-03",

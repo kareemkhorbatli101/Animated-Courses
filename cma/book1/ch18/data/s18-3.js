@@ -108,7 +108,60 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "shares",
+      "kicker": "Figure F18-05",
+      "title": "Which capital?",
+      "say": "Figure F18-05 lists six Orontes disclosures. The first two are done. Name the capital for each of the others.",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Capital",
+          "options": [
+            "Human capital",
+            "Intellectual capital",
+            "Natural capital",
+            "Social and relationship capital"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Safety training for factory staff",
+          "cells": {
+            "c0": "Human capital"
+          },
+          "why": "Human capital"
+        },
+        {
+          "label": "The trademark for Orontes Gold olive oil",
+          "cells": {
+            "c0": "Intellectual capital"
+          },
+          "why": "Intellectual capital"
+        },
+        {
+          "label": "Water drawn from local wells",
+          "cells": {
+            "c0": "Natural capital"
+          },
+          "why": "Natural capital"
+        },
+        {
+          "label": "Long-term contracts with grower cooperatives",
+          "cells": {
+            "c0": "Social and relationship capital"
+          },
+          "why": "Social and relationship capital"
+        }
+      ],
+      "traps": [
+        "capitals-capitaux"
+      ]
     },
     {
       "id": "sc18-5",
@@ -133,9 +186,6 @@
           "why": "These are the Framework's six capitals.",
           "correct": true
         }
-      ],
-      "traps": [
-        "capitals-capitaux"
       ]
     },
     {

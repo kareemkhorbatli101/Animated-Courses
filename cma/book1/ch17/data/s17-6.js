@@ -23,27 +23,59 @@
       "caption": "The same plant under the U.S. two-step test and the IFRS one-step test."
     },
     {
-      "id": "fig-f17-07",
+      "id": "fig-f17-08",
       "kind": "lines",
-      "kicker": "Figure F17-07",
-      "title": "The same plant under the U.S. two-step test and the IFRS one-step test",
-      "say": "The same plant under the U.S. two-step test and the IFRS one-step test.",
-      "caption": "WORKED EXAMPLE   Worked example: the beverage plant\nStep 1 (U.S.). Undiscounted cash flows of $4,200,000 are above the carrying amount of $4,000,000: the plant is recoverable, so there is no loss.\nStep 2 (IFRS). Recoverable amount is the higher of $3,500,000 and $3,700,000: $3,700,000.\nStep 3 (IFRS). The carrying amount is higher, so the loss is $300,000.\nCheck. If the U.S. test had failed, the loss would have been measured against fair value: $500,000. Figure F17-07 shows both tests.",
-      "col1": "",
+      "kicker": "Figure F17-08",
+      "title": "Which framework?",
+      "say": "Which framework? (complete the blanks)",
+      "caption": "Statement",
+      "col1": "U.S. GAAP only, IFRS only, or both?",
       "col2": "",
-      "rows": [],
+      "rows": [
+        {
+          "name": "LIFO is permitted",
+          "a": "U.S. GAAP only",
+          "b": ""
+        },
+        {
+          "name": "Inventory write-downs are reversed when NRV recovers",
+          "a": "IFRS only",
+          "b": ""
+        },
+        {
+          "name": "Development costs are capitalized when criteria are met",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Impairment is tested first with undiscounted cash flows",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "A short-term lease exemption exists",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Prior service cost is expensed immediately",
+          "a": "________",
+          "b": ""
+        }
+      ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "data": true
     },
     {
-      "id": "grid-08",
+      "id": "yourturn",
       "kind": "shares",
       "kicker": "Figure F17-08",
       "title": "Which framework?",
-      "say": "Set every column for every row.",
+      "say": "Figure F17-08 lists six statements. The first two are done. Decide whether each of the others is true under U.S. GAAP only, IFRS only, or both.",
       "columns": [
         {
-          "id": "c1",
+          "id": "c0",
           "label": "U.S. GAAP only, IFRS only, or both?",
           "options": [
             "Both",
@@ -54,46 +86,32 @@
       ],
       "actions": [
         {
-          "label": "LIFO is permitted",
+          "label": "Development costs capitalized when criteria are met",
           "cells": {
-            "c1": "U.S. GAAP only"
+            "c0": "IFRS only"
           },
-          "why": "U.S. GAAP only, IFRS only, or both?: U.S. GAAP only."
+          "why": "IFRS only"
         },
         {
-          "label": "Inventory write-downs are reversed when NRV recovers",
+          "label": "Impairment tested first with undiscounted cash flows",
           "cells": {
-            "c1": "IFRS only"
+            "c0": "U.S. GAAP only"
           },
-          "why": "U.S. GAAP only, IFRS only, or both?: IFRS only."
-        },
-        {
-          "label": "Development costs are capitalized when criteria are met",
-          "cells": {
-            "c1": "IFRS only"
-          },
-          "why": "U.S. GAAP only, IFRS only, or both?: IFRS only."
-        },
-        {
-          "label": "Impairment is tested first with undiscounted cash flows",
-          "cells": {
-            "c1": "U.S. GAAP only"
-          },
-          "why": "U.S. GAAP only, IFRS only, or both?: U.S. GAAP only."
+          "why": "U.S. GAAP only"
         },
         {
           "label": "A short-term lease exemption exists",
           "cells": {
-            "c1": "Both"
+            "c0": "Both"
           },
-          "why": "U.S. GAAP only, IFRS only, or both?: Both."
+          "why": "Both"
         },
         {
-          "label": "Prior service cost is expensed immediately",
+          "label": "Prior service cost expensed immediately",
           "cells": {
-            "c1": "IFRS only"
+            "c0": "IFRS only"
           },
-          "why": "U.S. GAAP only, IFRS only, or both?: IFRS only."
+          "why": "IFRS only"
         }
       ],
       "traps": [

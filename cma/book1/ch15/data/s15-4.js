@@ -57,7 +57,55 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "shares",
+      "kicker": "Figure F15-06",
+      "title": "Strategic shift or not?",
+      "say": "Figure F15-06 lists six disposals. The first two are done. Decide whether each of the others is a discontinued operation.",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Discontinued operation?",
+          "options": [
+            "No",
+            "Yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "All operations in Jordan",
+          "cells": {
+            "c0": "Yes"
+          },
+          "why": "Yes: a major geographic area."
+        },
+        {
+          "label": "An old bottling machine",
+          "cells": {
+            "c0": "No"
+          },
+          "why": "No: a single asset; the gain or loss stays in continuing operations."
+        },
+        {
+          "label": "The stake in Jordan Glass",
+          "cells": {
+            "c0": "Yes"
+          },
+          "why": "Yes: a major equity-method investment."
+        },
+        {
+          "label": "One juice flavour",
+          "cells": {
+            "c0": "No"
+          },
+          "why": "No: not a strategic shift."
+        }
+      ]
     },
     {
       "id": "sc15-7",

@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "9.4",
   "title": "Equity securities and the equity method",
-  "blurb": "Figures, questions · 5 scenes"
+  "blurb": "Figures, yourturn, questions · 6 scenes"
  },
  {
   "id": "s9-5",

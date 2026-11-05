@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.3",
   "title": "The retail inventory method and the gross profit method",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, yourturn, questions · 5 scenes"
  },
  {
   "id": "s8-4",
@@ -56,7 +56,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "8.6",
   "title": "Extended Example 8A: testing and estimating the same inventory",
-  "blurb": "Rowpick, a printed statement, the tie lines, questions · 6 scenes"
+  "blurb": "Rowpick, schedule, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

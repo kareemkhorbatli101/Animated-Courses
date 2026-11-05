@@ -91,9 +91,6 @@
           "why": "LIFO sends the newest costs to cost of goods sold, so the oldest costs stay in inventory.",
           "correct": true
         }
-      ],
-      "traps": [
-        "talking-about-time-and-order"
       ]
     },
     {

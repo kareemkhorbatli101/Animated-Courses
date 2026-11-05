@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "2.2",
   "title": "Current and noncurrent items",
-  "blurb": "Figures, cycle, sorts, cloze, questions · 7 scenes"
+  "blurb": "Figures, cycle, sorts, cloze, shares, questions · 8 scenes"
  },
  {
   "id": "s2-3",

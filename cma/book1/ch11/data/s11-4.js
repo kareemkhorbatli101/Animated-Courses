@@ -30,82 +30,63 @@
       "caption": "Cash, revenue and the contract liability on the GreenBasket contract."
     },
     {
-      "id": "fig-f11-05",
-      "kind": "lines",
-      "kicker": "Figure F11-05",
-      "title": "Decision chart: is revenue recognized over time or at a point in time?",
-      "say": "Decision chart: is revenue recognized over time or at a point in time?.",
-      "caption": "WORKED EXAMPLE   Worked example: GreenBasket revenue for 2026\nStep 1. Olive oil is recognized at each delivery. By December 31, Orontes has delivered 8,000 cases at $40 each of allocated price: $324,000.\nStep 2. The dispenser was installed on October 1, when GreenBasket gained control: $180,000.\nStep 3. Maintenance is over time: 3 months of 24 at $3,750 per month, $11,250.\nCheck. Total 2026 revenue is $515,250, shown in Figure F11-06. The remaining $564,750 will be recognized in later periods.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
-      "id": "fig-f11-06",
-      "kind": "grid",
+      "id": "fill-06",
+      "kind": "schedule",
       "kicker": "Figure F11-06",
       "title": "GreenBasket revenue schedule for 2026",
-      "say": "Suppose: GreenBasket revenue schedule for 2026",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Obligation",
       "cols": [
-        "Allocated",
-        "Timing",
-        "Progress in 2026",
-        "2026 revenue"
+        {
+          "id": "c1",
+          "label": "Allocated",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Timing",
+          "given": true
+        },
+        {
+          "id": "c3",
+          "label": "Progress in 2026",
+          "given": true
+        },
+        {
+          "id": "c4",
+          "label": "2026 revenue",
+          "given": false
+        }
       ],
       "rows": [
         {
-          "name": "Olive oil",
-          "cells": [
-            "810,000",
-            "Point in time (each delivery)",
-            "8,000 of 20,000 cases × 40",
-            "324,000"
-          ]
+          "label": "Olive oil",
+          "cells": {
+            "c1": "810,000",
+            "c2": "Point in time (each delivery)",
+            "c3": "8,000 of 20,000 cases × 40",
+            "c4": "324,000"
+          }
         },
         {
-          "name": "Dispenser",
-          "cells": [
-            "180,000",
-            "Point in time (installed October 1)",
-            "installed",
-            "180,000"
-          ]
+          "label": "Maintenance",
+          "cells": {
+            "c1": "90,000",
+            "c2": "Over time (24 months)",
+            "c3": "3 months × 3,750",
+            "c4": "11,250"
+          }
         },
         {
-          "name": "Maintenance",
-          "cells": [
-            "90,000",
-            "Over time (24 months)",
-            "3 months × 3,750",
-            "11,250"
-          ]
-        },
-        {
-          "name": "Total",
-          "cells": [
-            "1,080,000",
-            "",
-            "",
-            "515,250"
-          ]
+          "label": "Total",
+          "cells": {
+            "c1": "1,080,000",
+            "c2": "",
+            "c3": "",
+            "c4": "515,250"
+          }
         }
       ]
-    },
-    {
-      "id": "fig-f11-07",
-      "kind": "lines",
-      "kicker": "Figure F11-07",
-      "title": "Cash, revenue and the contract liability on the GreenBasket contract",
-      "say": "Cash, revenue and the contract liability on the GreenBasket contract.",
-      "caption": "TERM BRIDGE   Key words in this section",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
     },
     {
       "id": "sc11-7",

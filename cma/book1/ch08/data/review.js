@@ -87,9 +87,6 @@
           "text": "ignored completely.",
           "why": "Markdowns still reduce retail inventory; they are deducted after the ratio."
         }
-      ],
-      "traps": [
-        "markup-on-cost-is-not-a-margin-on-sale"
       ]
     },
     {

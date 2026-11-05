@@ -10,6 +10,7 @@ wrong. Here each scene is an object, so its kind and its kicker are facts.
   ABSENT neither
 """
 import io
+import os
 import re
 import sys
 
@@ -62,7 +63,11 @@ out.append("   %d of the author's %d numbered figures (excluding each chapter's 
            % (T[1], T[0] + T[1] + T[2]))
 out.append("   are put on the screen and never asked about. Each one is an exercise the")
 out.append("   book already contains and the site does not yet use.")
-io.open(r"C:\Users\dell\AppData\Local\Temp\claude\d--MyWork-AnimatedMatrix-Apps"
-        r"\2963ccce-33bf-4767-a4fe-d0ef3ce8dd43\scratchpad\asked.txt",
-        "w", encoding="utf-8").write("\n".join(out))
+# INTO THE PACKAGE, NOT INTO A SESSION FOLDER. This wrote the table to a scratchpad path and
+# printed only its last six lines, so `evidence/figures_asked.txt` - the file the package's own
+# checker reads, and the only record of WHICH figures are only shown - held the six-line summary
+# and nothing else. The evidence a plan rests on has to live in the plan.
+_EV = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "evidence")
+io.open(os.path.join(_EV, "figures_asked.txt"), "w", encoding="utf-8").write("\n".join(out))
 print("\n".join(out[-6:]))
+print("   full table in evidence/figures_asked.txt")

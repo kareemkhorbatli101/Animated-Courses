@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.3",
   "title": "Initial measurement",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "Schedule, questions · 3 scenes"
  },
  {
   "id": "s14-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "14.4",
   "title": "Subsequent measurement: two expense patterns",
-  "blurb": "Figures, a printed statement, schedule, grid, questions · 6 scenes"
+  "blurb": "Figures, schedule, questions · 5 scenes"
  },
  {
   "id": "s14-5",

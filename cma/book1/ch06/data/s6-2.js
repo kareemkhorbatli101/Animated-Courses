@@ -23,66 +23,83 @@
       "caption": "Allowance for credit losses T-account: the expense is the plug that reaches the required balance."
     },
     {
-      "id": "fig-f06-03",
-      "kind": "grid",
+      "id": "fill-03",
+      "kind": "schedule",
       "kicker": "Figure F06-03",
       "title": "Aging schedule, Orontes Amman sales office, December 31, 2025 (whole USD)",
-      "say": "Aging schedule, Orontes Amman sales office, December 31, 2025 (whole USD)",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Age of receivable",
       "cols": [
-        "Amount",
-        "Expected loss rate",
-        "Required allowance"
+        {
+          "id": "c1",
+          "label": "Amount",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Expected loss rate",
+          "given": true
+        },
+        {
+          "id": "c3",
+          "label": "Required allowance",
+          "given": false
+        }
       ],
       "rows": [
         {
-          "name": "Current",
-          "cells": [
-            "400,000",
-            "1%",
-            "4,000"
-          ]
+          "label": "Current",
+          "cells": {
+            "c1": "400,000",
+            "c2": "1%",
+            "c3": "4,000"
+          }
         },
         {
-          "name": "1–30 days past due",
-          "cells": [
-            "150,000",
-            "3%",
-            "4,500"
-          ]
+          "label": "1–30 days past due",
+          "cells": {
+            "c1": "150,000",
+            "c2": "3%",
+            "c3": "4,500"
+          }
         },
         {
-          "name": "31–60 days past due",
-          "cells": [
-            "60,000",
-            "10%",
-            "6,000"
-          ]
+          "label": "31–60 days past due",
+          "cells": {
+            "c1": "60,000",
+            "c2": "10%",
+            "c3": "6,000"
+          }
         },
         {
-          "name": "61–90 days past due",
-          "cells": [
-            "30,000",
-            "25%",
-            "7,500"
-          ]
+          "label": "61–90 days past due",
+          "cells": {
+            "c1": "30,000",
+            "c2": "25%",
+            "c3": "7,500"
+          }
         },
         {
-          "name": "Over 90 days past due",
-          "cells": [
-            "20,000",
-            "60%",
-            "12,000"
-          ]
+          "label": "Over 90 days past due",
+          "cells": {
+            "c1": "20,000",
+            "c2": "60%",
+            "c3": "12,000"
+          }
         },
         {
-          "name": "Total",
-          "cells": [
-            "660,000",
-            "",
-            "34,000"
-          ]
+          "label": "Total",
+          "cells": {
+            "c1": "660,000",
+            "c2": "",
+            "c3": "34,000"
+          }
         }
+      ],
+      "traps": [
+        "allowance-or-provision",
+        "asu-2025-05",
+        "balance-first-then-the-expense"
       ]
     },
     {
@@ -132,11 +149,6 @@
           },
           "why": "Allowance method (CECL): Yes (CECL)."
         }
-      ],
-      "traps": [
-        "allowance-or-provision",
-        "asu-2025-05",
-        "balance-first-then-the-expense"
       ]
     },
     {
@@ -184,7 +196,45 @@
             "______"
           ]
         }
-      ]
+      ],
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F06-06",
+      "title": "Barada Wholesale's allowance",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Barada's trial balance in Chapter 1 showed accounts receivable and an allowance for credit losses. Figure F06-06 gives Barada's aging. The first row is done. Complete the other rows and the total, then check your total against Barada's trial balance in Figure F01-10.",
+      "blanks": [
+        {
+          "label": "1–60 days past due",
+          "working": "80,000 × 8% = 6,400",
+          "shown": "6,400",
+          "answer": 6400,
+          "prompt": "80,000 × 8% ="
+        },
+        {
+          "label": "Over 60 days past due",
+          "working": "40,000 × 25% = 10,000",
+          "shown": "10,000",
+          "answer": 10000,
+          "prompt": "40,000 × 25% ="
+        },
+        {
+          "label": "Required allowance",
+          "working": "3,600 + 6,400 + 10,000 = 20,000",
+          "shown": "20,000",
+          "answer": 20000,
+          "prompt": "3,600 + 6,400 + 10,000 =",
+          "needs": [
+            0,
+            1
+          ]
+        }
+      ],
+      "caption": "Barada Wholesale aging, December 31, 2025 (whole USD): complete the blanks",
+      "note": "The trial balance shows receivables of 300,000 and an allowance of 20,000 (both in whole dollars), so the aging agrees."
     },
     {
       "id": "sc6-3",

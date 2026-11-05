@@ -36,67 +36,54 @@
       ]
     },
     {
-      "id": "fig-f13-06",
-      "kind": "lines",
+      "id": "fill-06",
+      "kind": "schedule",
       "kicker": "Figure F13-06",
       "title": "Orontes's 2026 income tax expense and rate reconciliation",
-      "say": "Suppose: Orontes's 2026 income tax expense and rate reconciliation",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Suppose: Orontes, 2026 (whole USD)",
-      "col1": "Amount",
-      "col2": "% of pretax income",
-      "rows": [
+      "cols": [
         {
-          "name": "Current tax expense",
-          "a": "357,000",
-          "b": ""
+          "id": "c1",
+          "label": "Amount",
+          "given": true
         },
         {
-          "name": "Deferred tax liability created: 25% × 600,000",
-          "a": "150,000",
-          "b": ""
-        },
-        {
-          "name": "Deferred tax asset created: 25% × 38,000",
-          "a": "(9,500)",
-          "b": ""
-        },
-        {
-          "name": "Deferred tax expense",
-          "a": "140,500",
-          "b": ""
-        },
-        {
-          "name": "Total income tax expense",
-          "a": "497,500",
-          "b": "24.875%"
-        },
-        {
-          "name": "Rate reconciliation (ASU 2023-09 style)",
-          "head": true
-        },
-        {
-          "name": "Tax at the statutory rate: 25% × 2,000,000",
-          "a": "500,000",
-          "b": "25.000%"
-        },
-        {
-          "name": "Nontaxable or nondeductible items: municipal interest",
-          "a": "(5,000)",
-          "b": "-0.250%"
-        },
-        {
-          "name": "Nontaxable or nondeductible items: fine",
-          "a": "2,500",
-          "b": "0.125%"
-        },
-        {
-          "name": "Income tax expense and effective tax rate",
-          "a": "497,500",
-          "b": "24.875%"
+          "id": "c2",
+          "label": "% of pretax income",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Total income tax expense",
+          "cells": {
+            "c1": "497,500",
+            "c2": "24.875%"
+          }
+        },
+        {
+          "label": "Tax at the statutory rate: 25% × 2,000,000",
+          "cells": {
+            "c1": "500,000",
+            "c2": "25.000%"
+          }
+        },
+        {
+          "label": "Nontaxable or nondeductible items: fine",
+          "cells": {
+            "c1": "2,500",
+            "c2": "0.125%"
+          }
+        },
+        {
+          "label": "Income tax expense and effective tax rate",
+          "cells": {
+            "c1": "497,500",
+            "c2": "24.875%"
+          }
+        }
+      ]
     },
     {
       "id": "fig-f13-07",
@@ -140,7 +127,56 @@
         }
       ],
       "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "shares",
+      "kicker": "Figure F13-07",
+      "title": "Classify the differences",
+      "say": "Figure F13-07 lists six items. The first two are done. Classify the other four and say what each creates.",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Type",
+          "options": [
+            "Permanent",
+            "Temporary, deductible",
+            "Temporary, taxable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Warranty expense accrued now",
+          "cells": {
+            "c0": "Temporary, deductible"
+          },
+          "why": "Temporary, deductible: DTA"
+        },
+        {
+          "label": "Fine for breaking the law",
+          "cells": {
+            "c0": "Permanent"
+          },
+          "why": "Permanent: no deferred tax"
+        },
+        {
+          "label": "Rent received in advance",
+          "cells": {
+            "c0": "Temporary, deductible"
+          },
+          "why": "Temporary, deductible (taxed now, earned later): DTA"
+        },
+        {
+          "label": "Equity-method income",
+          "cells": {
+            "c0": "Temporary, taxable"
+          },
+          "why": "Temporary, taxable (taxed later): DTL"
+        }
+      ]
     },
     {
       "id": "sc13-5",

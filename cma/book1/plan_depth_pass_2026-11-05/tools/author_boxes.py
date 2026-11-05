@@ -33,12 +33,30 @@ def deck_text(n):
     return " ".join(out)
 
 
+def _words(s):
+    return re.findall(r"[A-Za-z][A-Za-z'-]+", s)
+
+
 def used(site, sentence):
-    """Does any scene quote a distinctive run of this sentence?"""
-    words = re.findall(r"[A-Za-z][A-Za-z'-]+", sentence)
+    """Does any scene quote a distinctive run of this sentence?
+
+    BOTH SIDES ARE NORMALISED THE SAME WAY, and the first version normalised only one. It
+    pulled word runs out of the author's sentence - dropping punctuation and every figure
+    number, because `F18-05` matches nothing in `[A-Za-z][A-Za-z'-]+` - and then looked for
+    that stripped run inside the RAW deck text, punctuation and figure numbers included. It
+    therefore only ever matched a window that happened to contain neither.
+
+    Every YOUR TURN box in the book begins "Figure Fnn-xx lists six ...", so every one of the
+    eighteen failed on the first window and most failed on all of them: the tool reported 1 of
+    18 used at a moment when sixteen chapters were built on them. It was understating the whole
+    table, which for a plan whose case IS the table is the worst way to be wrong - it makes the
+    gap look bigger than it is and the work look smaller.
+    """
+    hay = " ".join(_words(site))
+    words = _words(sentence)
     for i in range(0, max(1, len(words) - 7)):
         run = " ".join(words[i:i + 7])
-        if len(run) > 28 and run in site:
+        if len(run) > 28 and run in hay:
             return True
     return False
 
@@ -81,38 +99,12 @@ print("%-4s " % "all" + " ".join("%-10s" % ("%d/%d" % (grand_used[b], grand[b]))
       + "  %d/%d" % (sum(grand_used.values()), sum(grand.values())))
 
 print()
-print("=" * 104)
-print("FIGURES THAT ARE ONLY AN EXHIBIT: shown, but no exercise is built from them")
-print("=" * 104)
-EXH = ("lines", "grid", "figure")
-tot_e = tot_f = 0
-for n in range(1, 19):
-    ddir = os.path.join(BOOK, "ch%02d" % n, "data")
-    if not os.path.isdir(ddir):
-        continue
-    d = cma_book.load(n)
-    allf = set(CS.all_figures(d, n))
-    asked, shown = set(), set()
-    for f in sorted(os.listdir(ddir)):
-        if not f.endswith(".js"):
-            continue
-        t = io.open(os.path.join(ddir, f), encoding="utf-8").read()
-        # chapter 1's deck is hand-written and spells the key bare (kind: "post"), so a
-        # pattern written for the generated chapters reported all thirteen of its
-        # figures as appearing nowhere. Both spellings.
-        for m in re.finditer(r'(?:"kind"|kind): "([a-z0-9]+)"'
-                             r'((?:(?!kind.{0,2}:)[\s\S]){0,1200})', t):
-            kind, blk = m.group(1), m.group(2)
-            for tag in re.findall(r"F\d\d-\d\d", blk[:300]):
-                (shown if kind in EXH else asked).add(tag)
-    only = sorted((shown | set()) - asked - {"F%02d-01" % n})
-    never = sorted(allf - shown - asked - {"F%02d-01" % n})
-    tot_e += len(only)
-    tot_f += len(never)
-    print("   ch%-3d %2d figures: %2d asked, %2d shown only%s%s"
-          % (n, len(allf), len(asked), len(only),
-             ("  [" + ", ".join(only) + "]") if only else "",
-             ("  NEVER: " + ", ".join(never)) if never else ""))
-print()
-print("   %d figures across the book are shown but never asked about." % tot_e)
-print("   %d appear nowhere at all." % tot_f)
+print("   The figures are measured by tools/figures_asked.py, into")
+print("   evidence/figures_asked.txt. THIS FILE USED TO MEASURE THEM TOO, and the two")
+print("   disagreed inside one package - 88 shown only against 94, and 26 figures")
+print("   'appearing nowhere' against 0. The duplicate here was the superseded method:")
+print("   it regexed the written decks and guessed a scene's extent as the next 1,200")
+print("   characters, which is the exact guess figures_asked.py's own docstring says it")
+print("   replaced, because the boundary is wrong whenever a scene is longer than that.")
+print("   Two numbers for one fact make a package a story rather than a measurement, so")
+print("   there is now one tool for it and this one counts boxes.")

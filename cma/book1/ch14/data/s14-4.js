@@ -23,19 +23,6 @@
       "caption": "Finance-lease expense is higher early; an operating lease would be flat."
     },
     {
-      "id": "fig-f14-05",
-      "kind": "lines",
-      "kicker": "Figure F14-05",
-      "title": "Finance-lease expense is higher early; an operating lease would be flat",
-      "say": "Finance-lease expense is higher early; an operating lease would be flat.",
-      "caption": "WORKED EXAMPLE   Worked example: the olive-press finance lease in 2026\nStep 1. Interest: 6% × $866,276 = $51,977.\nStep 2. Payment of $250,000: the liability falls to $668,253.\nStep 3. Amortization: $866,276 ÷ 4 years = $216,569, so the ROU asset is $649,707.\nCheck. Total 2026 expense is $268,546, which is $18,546 more than the payment. Figure F14-06 shows all four years.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sched-06",
       "kind": "schedule",
       "kicker": "Figure F14-06",
@@ -129,77 +116,105 @@
       ]
     },
     {
-      "id": "fig-f14-07",
-      "kind": "grid",
+      "id": "sched-07",
+      "kind": "schedule",
       "kicker": "Figure F14-07",
       "title": "Warehouse operating lease schedule",
-      "say": "Suppose: warehouse operating lease schedule (complete the blanks)",
+      "say": "Fill in each year. One slip carries into the next row.",
       "caption": "Year",
       "cols": [
-        "Opening liability",
-        "Interest",
-        "Payment",
-        "Closing liability (= ROU asset)",
-        "ROU amortization",
-        "Lease cost"
+        {
+          "id": "c1",
+          "label": "Opening liability",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Interest",
+          "given": false
+        },
+        {
+          "id": "c3",
+          "label": "Payment",
+          "given": false
+        },
+        {
+          "id": "c4",
+          "label": "Closing liability (= ROU asset)",
+          "given": false
+        },
+        {
+          "id": "c5",
+          "label": "ROU amortization",
+          "given": false
+        },
+        {
+          "id": "c6",
+          "label": "Lease cost",
+          "given": false
+        }
       ],
       "rows": [
         {
-          "name": "2026",
-          "cells": [
-            "421,236",
-            "25,274",
-            "100,000",
-            "346,510",
-            "74,726",
-            "100,000"
-          ]
+          "label": "2026",
+          "cells": {
+            "c1": "421,236",
+            "c2": "25,274",
+            "c3": "100,000",
+            "c4": "346,510",
+            "c5": "74,726",
+            "c6": "100,000"
+          }
         },
         {
-          "name": "2027",
-          "cells": [
-            "346,510",
-            "20,791",
-            "100,000",
-            "267,301",
-            "79,209",
-            "100,000"
-          ]
+          "label": "2027",
+          "cells": {
+            "c1": "346,510",
+            "c2": "20,791",
+            "c3": "100,000",
+            "c4": "267,301",
+            "c5": "79,209",
+            "c6": "100,000"
+          }
         },
         {
-          "name": "2028",
-          "cells": [
-            "267,301",
-            "______",
-            "100,000",
-            "______",
-            "______",
-            "______"
-          ]
+          "label": "2028",
+          "cells": {
+            "c1": "267,301",
+            "c2": "16,038",
+            "c3": "100,000",
+            "c4": "183,339",
+            "c5": "83,962",
+            "c6": "100,000"
+          }
         },
         {
-          "name": "2029",
-          "cells": [
-            "______",
-            "______",
-            "100,000",
-            "______",
-            "______",
-            "______"
-          ]
+          "label": "2029",
+          "cells": {
+            "c1": "183,339",
+            "c2": "11,000",
+            "c3": "100,000",
+            "c4": "94,339",
+            "c5": "89,000",
+            "c6": "100,000"
+          }
         },
         {
-          "name": "2030",
-          "cells": [
-            "______",
-            "______",
-            "100,000",
-            "______",
-            "______",
-            "______"
-          ]
+          "label": "2030",
+          "cells": {
+            "c1": "94,339",
+            "c2": "5,661",
+            "c3": "100,000",
+            "c4": "0",
+            "c5": "94,339",
+            "c6": "100,000"
+          }
         }
-      ]
+      ],
+      "carry": {
+        "from": "c4",
+        "to": "c1"
+      }
     },
     {
       "id": "sc14-7",

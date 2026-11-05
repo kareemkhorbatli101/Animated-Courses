@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "6.2",
   "title": "The allowance for credit losses",
-  "blurb": "Figures, grid, shares, questions · 6 scenes"
+  "blurb": "Figures, schedule, shares, grid, yourturn, questions · 7 scenes"
  },
  {
   "id": "s6-3",

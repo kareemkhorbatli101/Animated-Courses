@@ -73,17 +73,71 @@
       ]
     },
     {
-      "id": "fig-f07-06",
-      "kind": "lines",
+      "id": "yourturn",
+      "kind": "yourturn",
       "kicker": "Figure F07-06",
-      "title": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes",
-      "say": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes.",
-      "caption": "● IFRS CONTRAST   No LIFO under IFRS\nIAS 2 allows FIFO and the weighted average, and it requires specific identification for items that are not interchangeable. It does not allow LIFO. Cedar Retail, our IFRS company, therefore uses FIFO. You will compare the two frameworks again in Chapter 17.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "title": "Periodic LIFO for Dubai pastry trays",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "The Dubai plant had 3,000 frozen pastry trays available in 2025, costing $68,000. It sold 2,200 trays. Complete the dashed boxes in Figure F07-06 below using periodic LIFO.",
+      "blanks": [
+        {
+          "label": "COGS, line 2: 1,200 × $22",
+          "working": "$26,400",
+          "shown": "$26,400",
+          "answer": 26400,
+          "prompt": ""
+        },
+        {
+          "label": "Ending inventory, line 1: 300 × $22",
+          "working": "$6,600",
+          "shown": "$6,600",
+          "answer": 6600,
+          "prompt": ""
+        },
+        {
+          "label": "Ending inventory, line 2: 500 × $20",
+          "working": "$10,000",
+          "shown": "$10,000",
+          "answer": 10000,
+          "prompt": ""
+        },
+        {
+          "label": "Total COGS",
+          "working": "$25,000 + $26,400 = $51,400",
+          "shown": "$51,400",
+          "answer": 51400,
+          "prompt": "$25,000 + $26,400 =",
+          "needs": [
+            0
+          ]
+        },
+        {
+          "label": "Total ending inventory",
+          "working": "$6,600 + $10,000 = $16,600",
+          "shown": "$16,600",
+          "answer": 16600,
+          "prompt": "$6,600 + $10,000 =",
+          "needs": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Check",
+          "working": "$51,400 + $16,600 = $68,000, the cost of goods available.",
+          "shown": "$68,000",
+          "answer": 68000,
+          "prompt": "$51,400 + $16,600 =",
+          "needs": [
+            3,
+            4
+          ]
+        }
+      ],
+      "caption": "Faded example: periodic LIFO for Dubai pastry trays; the learner completes the dashed boxes.",
+      "traps": [
+        "talking-about-time-and-order"
+      ]
     },
     {
       "id": "sc7-5",
@@ -108,9 +162,6 @@
           "why": "LIFO sends the newest costs to cost of goods sold, so the oldest costs stay in inventory.",
           "correct": true
         }
-      ],
-      "traps": [
-        "talking-about-time-and-order"
       ]
     },
     {

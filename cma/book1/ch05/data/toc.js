@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "5.2",
   "title": "Classifying cash flows",
-  "blurb": "Sorts, shares, cloze, questions · 6 scenes"
+  "blurb": "Sorts, shares, cloze, questions · 7 scenes"
  },
  {
   "id": "s5-3",

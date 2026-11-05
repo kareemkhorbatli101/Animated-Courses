@@ -4,23 +4,23 @@ THE BOOK AGAINST THE SITE, CHAPTER BY CHAPTER
 ch  title                              |  sec  words figs   SC    P |   pg scene graded  rich   MCQ kinds
 --------------------------------------------------------------------------------------------------------------------------------
 1   The Language and Framework of Fina |    7   9046   13   15    0 |   13    85     76    56    20    22
-2   The Balance Sheet                  |    6   7786   13   13   21 |   11    85     77    33    44    13
-3   The Income Statement and Comprehen |    6   7094   13   13   21 |   11    73     65    22    43    10
+2   The Balance Sheet                  |    6   7786   13   13   21 |   11    86     78    34    44    14
+3   The Income Statement and Comprehen |    6   7094   13   13   21 |   11    74     66    22    43    10
 4   Equity and the Statement of Change |    6   7001   13   13   26 |   11    78     71    24    47    10
-5   The Statement of Cash Flows        |    6   6875   12   13   24 |   11    75     68    22    46    10
-6   Receivables: Credit Losses and Tra |    4   6375   12    9   16 |    9    54     44    12    32     7
-7   Inventory I: Goods, Costs and Cost |    6   7477   13   13   17 |   11    64     51    12    39     7
-8   Inventory II: Measurement Tests, R |    6   6816   13   13   17 |   11    63     53    14    39     8
-9   Investments in Debt and Equity Sec |    5   6429   12   11   16 |   10    57     49    14    35     8
-10  Long-Lived Assets: Depreciation, D |    6   6878   14   13   16 |   11    63     52    14    38     9
-11  Revenue Recognition                |    7   7360   14   15   22 |   12    74     61    14    47     8
-12  Current Liabilities and Warranties |    6   6349   13   13   20 |   11    67     56    14    42     8
-13  Income Taxes                       |    6   6584   14   13   20 |   11    67     58    16    42     8
-14  Leases                             |    7   6213   13   15   18 |   12    67     57    14    43     9
-15  Measuring Income: Gains, Losses, C |    7   6235   13   15   16 |   12    65     56    16    40     8
-16  Consolidated Financial Statements  |    7   6681   14   15   18 |   12    69     58    15    43     8
-17  U.S. GAAP and IFRS: The Six Tested |    7   6237   12   15   16 |   12    65     58    17    41     8
-18  Integrated Reporting               |    7   6169   12   15   16 |   12    64     53     9    44     7
+5   The Statement of Cash Flows        |    6   6875   12   13   24 |   11    76     69    23    46    10
+6   Receivables: Credit Losses and Tra |    4   6375   12    9   16 |    9    55     46    13    32     8
+7   Inventory I: Goods, Costs and Cost |    6   7477   13   13   17 |   11    65     53    13    39     8
+8   Inventory II: Measurement Tests, R |    6   6816   13   13   17 |   11    64     55    15    39     9
+9   Investments in Debt and Equity Sec |    5   6429   12   11   16 |   10    58     50    14    35     8
+10  Long-Lived Assets: Depreciation, D |    6   6878   14   13   16 |   11    64     53    14    38     9
+11  Revenue Recognition                |    7   7360   14   15   22 |   12    75     63    15    47     9
+12  Current Liabilities and Warranties |    6   6349   13   13   20 |   11    68     58    15    42     9
+13  Income Taxes                       |    6   6584   14   13   20 |   11    68     60    18    42     9
+14  Leases                             |    7   6213   13   15   18 |   12    67     59    16    43     9
+15  Measuring Income: Gains, Losses, C |    7   6235   13   15   16 |   12    66     59    19    40     9
+16  Consolidated Financial Statements  |    7   6681   14   15   18 |   12    70     59    15    43     9
+17  U.S. GAAP and IFRS: The Six Tested |    7   6237   12   15   16 |   12    66     58    17    41     8
+18  Integrated Reporting               |    7   6169   12   15   16 |   12    65     54    10    44     7
 
 ================================================================================================================================
 COVERAGE AND WEIGHT: is a chapter's built size in proportion to its source?
@@ -28,28 +28,28 @@ COVERAGE AND WEIGHT: is a chapter's built size in proportion to its source?
 ch  title                              |  ex/1k wd   rich/1k     rich%    ex/fig    ex/sec
 --------------------------------------------------------------------------------------------------------------------------------
 1   The Language and Framework of Fina |      8.40      6.19       74%      5.85      10.9
-2   The Balance Sheet                  |      9.89      4.24       43%      5.92      12.8
-3   The Income Statement and Comprehen |      9.16      3.10       34%      5.00      10.8
+2   The Balance Sheet                  |     10.02      4.37       44%      6.00      13.0
+3   The Income Statement and Comprehen |      9.30      3.10       33%      5.08      11.0
 4   Equity and the Statement of Change |     10.14      3.43       34%      5.46      11.8
-5   The Statement of Cash Flows        |      9.89      3.20       32%      5.67      11.3
-6   Receivables: Credit Losses and Tra |      6.90      1.88       27%      3.67      11.0
-7   Inventory I: Goods, Costs and Cost |      6.82      1.60       24%      3.92       8.5
-8   Inventory II: Measurement Tests, R |      7.78      2.05       26%      4.08       8.8
-9   Investments in Debt and Equity Sec |      7.62      2.18       29%      4.08       9.8
-10  Long-Lived Assets: Depreciation, D |      7.56      2.04       27%      3.71       8.7
-11  Revenue Recognition                |      8.29      1.90       23%      4.36       8.7
-12  Current Liabilities and Warranties |      8.82      2.21       25%      4.31       9.3
-13  Income Taxes                       |      8.81      2.43       28%      4.14       9.7
-14  Leases                             |      9.17      2.25       25%      4.38       8.1
-15  Measuring Income: Gains, Losses, C |      8.98      2.57       29%      4.31       8.0
-16  Consolidated Financial Statements  |      8.68      2.25       26%      4.14       8.3
+5   The Statement of Cash Flows        |     10.04      3.35       33%      5.75      11.5
+6   Receivables: Credit Losses and Tra |      7.22      2.04       28%      3.83      11.5
+7   Inventory I: Goods, Costs and Cost |      7.09      1.74       25%      4.08       8.8
+8   Inventory II: Measurement Tests, R |      8.07      2.20       27%      4.23       9.2
+9   Investments in Debt and Equity Sec |      7.78      2.18       28%      4.17      10.0
+10  Long-Lived Assets: Depreciation, D |      7.71      2.04       26%      3.79       8.8
+11  Revenue Recognition                |      8.56      2.04       24%      4.50       9.0
+12  Current Liabilities and Warranties |      9.14      2.36       26%      4.46       9.7
+13  Income Taxes                       |      9.11      2.73       30%      4.29      10.0
+14  Leases                             |      9.50      2.58       27%      4.54       8.4
+15  Measuring Income: Gains, Losses, C |      9.46      3.05       32%      4.54       8.4
+16  Consolidated Financial Statements  |      8.83      2.25       25%      4.21       8.4
 17  U.S. GAAP and IFRS: The Six Tested |      9.30      2.73       29%      4.83       8.3
-18  Integrated Reporting               |      8.59      1.46       17%      4.42       7.6
+18  Integrated Reporting               |      8.75      1.62       19%      4.50       7.7
 
 --------------------------------------------------------------------------------------------------------------------------------
                                        |  ex/1k wd   rich/1k     rich%    ex/fig    ex/sec
-HAND-AUTHORED  chapters 2-5            |      9.77      3.49       36%      5.51      11.7
-GENERATED      chapters 6-18           |      8.26      2.12       26%      4.18       8.8
+HAND-AUTHORED  chapters 2-5            |      9.87      3.56       36%      5.57      11.8
+GENERATED      chapters 6-18           |      8.50      2.27       27%      4.31       9.1
 
 ================================================================================================================================
 DIVERSITY: which instruments each chapter actually uses
@@ -57,23 +57,23 @@ DIVERSITY: which instruments each chapter actually uses
 ch  beam chec cloz cont cues cycl figu flas gaug grid ladd line lock numb orde post prob rowp sche shar shel sign sort spli stat swit tabl tank tbre term time trea wate wire
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1   1    20   2    1    1       . 6    2    1       .    .    . 1    8    1    2    4       .    .    . 1       . 19   1    3    2    1    1    1    1    1       .    . 1   
-2      . 44   10   1       . 1    5    2       .    . 1    2    1    4    2       .    .    .    .    .    .    . 7    1    1       .    .    .    . 1       .    .    . 1   
+2      . 44   10   1       . 1    5    2       .    . 1    2    1    4    2       .    .    .    . 1       .    . 7    1    1       .    .    .    . 1       .    .    . 1   
 3      . 43   5       .    .    . 5    2       .    .    . 2    1    5    1       .    .    .    .    .    .    . 4       .    . 1       .    .    . 1       .    . 1    1   
 4      . 47   5       .    .    . 4    2       . 1       . 1    1    7       . 1       .    .    . 3       .    . 2       .    .    .    .    .    . 1       . 1       . 1   
-5      . 46   6       .    .    . 4    2       .    .    . 2    1    5       .    .    .    .    . 1       . 1    3       .    .    .    .    .    . 1       .    . 1    1   
-6      . 32   1       .    .    . 5    2       . 2       . 2    1    5       .    .    .    .    . 1       .    . 1       .    .    .    .    .    . 1       .    .    .    .
-7      . 39   1       .    .    . 7    2       . 2       . 3    1    4       .    .    .    .    . 2       .    . 1       .    .    .    .    .    . 1       .    .    .    .
-8      . 39   1       .    .    . 6    2       .    .    . 3    1    5       .    .    . 2       . 1       .    . 1       .    .    .    .    .    . 1       .    .    .    .
+5      . 46   6       .    .    . 4    2       .    .    . 2    1    5       .    .    .    .    . 2       . 1    3       .    .    .    .    .    . 1       .    . 1    1   
+6      . 32   1       .    .    . 5    2       . 1       . 2    1    5       .    .    .    . 1    1       .    . 1       .    .    .    .    .    . 1       .    .    .    .
+7      . 39   1       .    .    . 7    2       . 1       . 3    1    4       .    .    .    . 1    2       .    . 1       .    .    .    .    .    . 1       .    .    .    .
+8      . 39   1       .    .    . 6    2       .    .    . 2    1    5       .    .    . 2    1    1       .    . 1       .    .    .    .    .    . 1       .    .    .    .
 9      . 35   1       .    .    . 6    2       .    .    . 1    1    4       .    .    .    . 1    3       .    . 1       .    .    .    .    .    . 1       .    .    .    .
 10     . 38   1       .    .    . 7    2       . 1       . 2    1    4       .    .    .    . 2    1       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-11     . 47   1       .    .    . 5    2       . 1       . 6    1    5       .    .    .    .    . 2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-12     . 42   1       .    .    . 4    2       .    .    . 6    1    6       . 1       .    .    .    .    .    . 1       .    . 1       .    .    . 1       .    .    .    .
-13     . 42   1       .    .    . 4    2       .    .    . 4    1    7       .    .    .    .    . 2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-14     . 43   1       .    .    . 3    2       . 1       . 5    1    4       .    .    .    . 2    1       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-15     . 40   1       .    .    . 3    2       . 1       . 4    1    7       .    .    .    .    . 2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-16     . 43   1       .    .    . 4    2       .    .    . 6    1    6       .    .    .    .    . 2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
-17     . 41   1       .    .    . 3    2       .    .    . 3    1    5       .    .    .    .    . 1       .    . 1       .    . 5       .    .    . 1       .    .    .    .
-18     . 44   1       .    .    . 3    2       .    .    . 7    1    1       .    .    .    .    . 2       .    . 1       .    .    .    .    .    . 1       .    .    .    .
+11     . 47   1       .    .    . 5    2       .    .    . 6    1    4       .    .    .    . 2    2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
+12     . 42   1       .    .    . 4    2       .    .    . 5    1    5       . 1       .    . 2       .    .    . 1       .    . 1       .    .    . 1       .    .    .    .
+13     . 42   1       .    .    . 4    2       .    .    . 3    1    7       .    .    .    . 1    3       .    . 1       .    . 1       .    .    . 1       .    .    .    .
+14     . 43   1       .    .    . 3    2       .    .    . 4    1    4       .    .    .    . 4    1       .    . 1       .    . 1       .    .    . 1       .    .    .    .
+15     . 40   1       .    .    . 3    2       .    .    . 3    1    7       .    .    .    . 2    3       .    . 1       .    . 1       .    .    . 1       .    .    .    .
+16     . 43   1       .    .    . 4    2       .    .    . 6    1    5       .    .    .    . 1    2       .    . 1       .    . 1       .    .    . 1       .    .    .    .
+17     . 41   1       .    .    . 3    2       .    .    . 4    1    5       .    .    .    .    . 1       .    . 1       .    . 5       .    .    . 1       .    .    .    .
+18     . 44   1       .    .    . 3    2       .    .    . 7    1    1       .    .    .    .    . 3       .    . 1       .    .    .    .    .    . 1       .    .    .    .
 
 key: beam=beam, chec=check, cloz=cloze, cont=contra, cues=cues, cycl=cycle, figu=figure, flas=flash, gaug=gauges, grid=grid, ladd=ladder, line=lines, lock=locks, numb=number, orde=order, post=post, prob=probe, rowp=rowpick, sche=schedule, shar=shares, shel=shelf, sign=signs, sort=sort, spli=split, stat=statement, swit=switch, tabl=table, tank=tank, tbre=tbreader, term=termcards, time=timeline2, trea=treasury, wate=waterfall, wire=wire
 
@@ -81,23 +81,23 @@ key: beam=beam, chec=check, cloz=cloze, cont=contra, cues=cues, cycl=cycle, figu
 CONCENTRATION: how much of a chapter is its single commonest instrument
 ================================================================================================================================
    ch1   The Language and Framework of Fina 56 rich scenes over 22 kinds; commonest is sort       x19 (34%)
-   ch2   The Balance Sheet                  33 rich scenes over 13 kinds; commonest is cloze      x10 (30%)
+   ch2   The Balance Sheet                  34 rich scenes over 14 kinds; commonest is cloze      x10 (29%)
    ch3   The Income Statement and Comprehen 22 rich scenes over 10 kinds; commonest is number     x5 (23%)
    ch4   Equity and the Statement of Change 24 rich scenes over 10 kinds; commonest is number     x7 (29%)
-   ch5   The Statement of Cash Flows        22 rich scenes over 10 kinds; commonest is cloze      x6 (27%)
-   ch6   Receivables: Credit Losses and Tra 12 rich scenes over 7 kinds; commonest is number     x5 (42%)
-   ch7   Inventory I: Goods, Costs and Cost 12 rich scenes over 7 kinds; commonest is number     x4 (33%)
-   ch8   Inventory II: Measurement Tests, R 14 rich scenes over 8 kinds; commonest is number     x5 (36%)
+   ch5   The Statement of Cash Flows        23 rich scenes over 10 kinds; commonest is cloze      x6 (26%)
+   ch6   Receivables: Credit Losses and Tra 13 rich scenes over 8 kinds; commonest is number     x5 (38%)
+   ch7   Inventory I: Goods, Costs and Cost 13 rich scenes over 8 kinds; commonest is number     x4 (31%)
+   ch8   Inventory II: Measurement Tests, R 15 rich scenes over 9 kinds; commonest is number     x5 (33%)
    ch9   Investments in Debt and Equity Sec 14 rich scenes over 8 kinds; commonest is number     x4 (29%)
    ch10  Long-Lived Assets: Depreciation, D 14 rich scenes over 9 kinds; commonest is number     x4 (29%)
-   ch11  Revenue Recognition                14 rich scenes over 8 kinds; commonest is number     x5 (36%)
-   ch12  Current Liabilities and Warranties 14 rich scenes over 8 kinds; commonest is number     x6 (43%)
-   ch13  Income Taxes                       16 rich scenes over 8 kinds; commonest is number     x7 (44%)
-   ch14  Leases                             14 rich scenes over 9 kinds; commonest is number     x4 (29%)
-   ch15  Measuring Income: Gains, Losses, C 16 rich scenes over 8 kinds; commonest is number     x7 (44%)
-   ch16  Consolidated Financial Statements  15 rich scenes over 8 kinds; commonest is number     x6 (40%)
+   ch11  Revenue Recognition                15 rich scenes over 9 kinds; commonest is number     x4 (27%)
+   ch12  Current Liabilities and Warranties 15 rich scenes over 9 kinds; commonest is number     x5 (33%)
+   ch13  Income Taxes                       18 rich scenes over 9 kinds; commonest is number     x7 (39%)
+   ch14  Leases                             16 rich scenes over 9 kinds; commonest is number     x4 (25%)
+   ch15  Measuring Income: Gains, Losses, C 19 rich scenes over 9 kinds; commonest is number     x7 (37%)
+   ch16  Consolidated Financial Statements  15 rich scenes over 9 kinds; commonest is number     x5 (33%)
    ch17  U.S. GAAP and IFRS: The Six Tested 17 rich scenes over 8 kinds; commonest is number     x5 (29%)
-   ch18  Integrated Reporting                9 rich scenes over 7 kinds; commonest is shares     x2 (22%)
+   ch18  Integrated Reporting               10 rich scenes over 7 kinds; commonest is shares     x3 (30%)
 
 ================================================================================================================================
 DEPTH: the things that cannot be generated
@@ -126,9 +126,9 @@ ch  |  traps  rules   summ  anims   ties   marks
 ================================================================================================================================
 THE HEADLINE
 ================================================================================================================================
-   18 chapters, 203 pages, 1235 scenes, 1063 graded exercises.
-   725 of those are the author's own multiple-choice questions (68%),
-   and 338 are built instruments (32%).
+   18 chapters, 203 pages, 1250 scenes, 1087 graded exercises.
+   725 of those are the author's own multiple-choice questions (67%),
+   and 353 are built instruments (32%).
 
-   hand-authored 2-5:  36% built instruments, 10.8 kinds per chapter
-   generated 6-18:     26% built instruments, 7.9 kinds per chapter
+   hand-authored 2-5:  36% built instruments, 11.0 kinds per chapter
+   generated 6-18:     27% built instruments, 8.5 kinds per chapter

@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.2",
   "title": "Depreciation methods and their effects",
-  "blurb": "Figures, grid, shares, schedule, questions · 6 scenes"
+  "blurb": "Figures, schedule, shares, grid, yourturn, questions · 7 scenes"
  },
  {
   "id": "s10-3",
@@ -48,7 +48,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "10.5",
   "title": "Impairment of long-lived assets, intangibles and goodwill",
-  "blurb": "Figures, a printed statement, questions · 6 scenes"
+  "blurb": "Figures, questions · 5 scenes"
  },
  {
   "id": "s10-6",

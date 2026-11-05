@@ -32,7 +32,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.3",
   "title": "Comprehensive income and reclassification",
-  "blurb": "Figures, a printed statement, questions · 5 scenes"
+  "blurb": "Figures, schedule, questions · 4 scenes"
  },
  {
   "id": "s15-4",
@@ -40,7 +40,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.4",
   "title": "Is it a discontinued operation?",
-  "blurb": "A printed statement, questions · 3 scenes"
+  "blurb": "A printed statement, shares, questions · 4 scenes"
  },
  {
   "id": "s15-5",
@@ -64,7 +64,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "15.7",
   "title": "Extended Example 15A: one period, four layers of income",
-  "blurb": "Amounts, grid, the tie lines, questions · 6 scenes"
+  "blurb": "Amounts, schedule, the tie lines, questions · 6 scenes"
  },
  {
   "id": "summary",

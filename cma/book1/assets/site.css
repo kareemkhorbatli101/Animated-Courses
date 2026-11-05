@@ -443,6 +443,31 @@ input.num{font:inherit;font-family:var(--mono);font-size:var(--t-body);font-weig
 .lock.shut{border-color:var(--good-line);background:var(--good-wash)}
 .lock .lk{flex:1;min-width:200px;font-size:var(--t-small);font-weight:600}
 
+/* yourturn — his own exercise, with his working shown and the result cut off.
+   A waiting row is dimmed and its working replaced by the reason it waits, so the
+   chain is visible as a state of the screen rather than only as a message after Check. */
+.yt{display:grid;gap:10px;max-width:760px}
+.yt-cap{margin:0 0 11px;font-weight:600;color:var(--ink)}
+.yt-row{display:flex;gap:11px;align-items:center;flex-wrap:wrap;padding:12px 14px;
+  border:1px solid var(--line);border-radius:var(--r-s);background:var(--card)}
+.yt-ic{font-size:19px}
+.yt-lk{flex:1 1 210px;min-width:0;font-size:var(--t-small);font-weight:600}
+.yt-work{font-family:var(--mono);font-size:var(--t-small);color:var(--ink-2);white-space:nowrap}
+.yt-work.yt-wait::before{content:attr(data-wait);font-family:var(--sans,inherit);font-style:italic;
+  white-space:normal}
+.yt-in{width:124px;box-sizing:border-box;font:inherit;font-family:var(--mono);font-size:var(--t-small);
+  text-align:right;padding:8px 9px;border:1px solid var(--line-2);border-radius:var(--r-s);
+  background:var(--card);color:var(--ink);min-height:40px}
+.yt-in:focus{outline:2px solid var(--accent-line);outline-offset:1px}
+.yt-in:disabled{background:var(--wash,transparent);color:var(--ink-2);cursor:not-allowed}
+.yt-row.waiting{opacity:.62;border-style:dashed}
+.yt-row.shut{border-color:var(--good-line);background:var(--good-wash)}
+.yt-row.shut .yt-work{color:var(--ink)}
+@media (max-width:560px){
+  .yt-work{white-space:normal}
+  .yt-in{width:100%}
+}
+
 /* reveal / probe */
 .probes{display:grid;gap:9px}
 .probe-q{font:inherit;font-size:var(--t-small);font-weight:700;text-align:left;background:var(--card);

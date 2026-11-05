@@ -24,7 +24,7 @@ window.CHAPTER_TOC = [
   "kind": "section",
   "n": "3.2",
   "title": "Building the multi-step income statement",
-  "blurb": "Figures, sorts, cloze, questions · 5 scenes"
+  "blurb": "Figures, sorts, cloze, yourturn, questions · 6 scenes"
  },
  {
   "id": "s3-3",

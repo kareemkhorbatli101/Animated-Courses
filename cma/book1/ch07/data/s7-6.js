@@ -82,57 +82,61 @@
       ]
     },
     {
-      "id": "fig-f07-11",
-      "kind": "grid",
+      "id": "fill-11",
+      "kind": "schedule",
       "kicker": "Figure F07-11",
       "title": "The effect on profit and tax",
-      "say": "Extended Example 7A: the effect on profit and tax",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Orontes, 2025 (USD)",
       "cols": [
-        "FIFO",
-        "Weighted average",
-        "LIFO"
+        {
+          "id": "c1",
+          "label": "FIFO",
+          "given": true
+        },
+        {
+          "id": "c2",
+          "label": "Weighted average",
+          "given": true
+        },
+        {
+          "id": "c3",
+          "label": "LIFO",
+          "given": false
+        }
       ],
       "rows": [
         {
-          "name": "Sales",
-          "cells": [
-            "420,000",
-            "420,000",
-            "420,000"
-          ]
+          "label": "Cost of goods sold",
+          "cells": {
+            "c1": "(272,000)",
+            "c2": "(279,000)",
+            "c3": "(288,000)"
+          }
         },
         {
-          "name": "Cost of goods sold",
-          "cells": [
-            "(272,000)",
-            "(279,000)",
-            "(288,000)"
-          ]
+          "label": "Gross profit",
+          "cells": {
+            "c1": "148,000",
+            "c2": "141,000",
+            "c3": "132,000"
+          }
         },
         {
-          "name": "Gross profit",
-          "cells": [
-            "148,000",
-            "141,000",
-            "132,000"
-          ]
+          "label": "Income tax",
+          "cells": {
+            "c1": "37,000",
+            "c2": "35,250",
+            "c3": "33,000"
+          }
         },
         {
-          "name": "Income tax",
-          "cells": [
-            "37,000",
-            "35,250",
-            "33,000"
-          ]
-        },
-        {
-          "name": "LIFO reserve against FIFO",
-          "cells": [
-            "—",
-            "—",
-            "16,000"
-          ]
+          "label": "LIFO reserve against FIFO",
+          "cells": {
+            "c1": "—",
+            "c2": "—",
+            "c3": "16,000"
+          }
         }
       ]
     },

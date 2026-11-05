@@ -87,9 +87,6 @@
           "why": "These are the Framework's six capitals.",
           "correct": true
         }
-      ],
-      "traps": [
-        "capitals-capitaux"
       ]
     },
     {

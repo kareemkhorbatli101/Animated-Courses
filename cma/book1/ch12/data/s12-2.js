@@ -16,19 +16,104 @@
   },
   "scenes": [
     {
-      "id": "num-03",
-      "kind": "number",
+      "id": "fig-f12-03",
+      "kind": "lines",
       "kicker": "Figure F12-03",
       "title": "Barada's payroll and sales tax for one month",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Suppose: Barada's payroll and sales tax for one month (complete the blanks)",
+      "caption": "Suppose: Barada, one month in 2027",
+      "col1": "Whole USD",
+      "col2": "",
+      "rows": [
         {
-          "label": "Net pay to employees",
-          "answer": "33200",
-          "why": "Net pay to employees: 33,200."
+          "name": "Gross wages for the month",
+          "a": "40,000",
+          "b": ""
+        },
+        {
+          "name": "Income tax withheld from employees",
+          "a": "4,000",
+          "b": ""
+        },
+        {
+          "name": "Employees' social security withheld (7%)",
+          "a": "2,800",
+          "b": ""
+        },
+        {
+          "name": "Net pay to employees",
+          "a": "33,200",
+          "b": ""
+        },
+        {
+          "name": "Employer's social security (payroll tax expense, 7%)",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Total owed to the tax authorities",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Cash register total, including 5% sales tax: 21,000. Sales revenue",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Sales tax payable",
+          "a": "________",
+          "b": ""
         }
-      ]
+      ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F12-03",
+      "title": "Barada's payroll and sales tax",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F12-03 continues the Barada example. The first four rows are done. Complete the four blanks.",
+      "blanks": [
+        {
+          "label": "Employer's social security",
+          "working": "7% × 40,000 = 2,800 (payroll tax expense)",
+          "shown": "2,800",
+          "answer": 2800,
+          "prompt": "7% × 40,000 ="
+        },
+        {
+          "label": "Total owed to the tax authorities",
+          "working": "4,000 + 2,800 + 2,800 = 9,600",
+          "shown": "9,600",
+          "answer": 9600,
+          "prompt": "4,000 + 2,800 + 2,800 =",
+          "needs": [
+            0
+          ]
+        },
+        {
+          "label": "Sales revenue",
+          "working": "21,000 ÷ 1.05 = 20,000",
+          "shown": "20,000",
+          "answer": 20000,
+          "prompt": "21,000 ÷ 1.05 ="
+        },
+        {
+          "label": "Sales tax payable",
+          "working": "21,000 − 20,000 = 1,000",
+          "shown": "1,000",
+          "answer": 1000,
+          "prompt": "21,000 − 20,000 =",
+          "needs": [
+            2
+          ]
+        }
+      ],
+      "caption": "Suppose: Barada's payroll and sales tax for one month (complete the blanks)"
     },
     {
       "id": "sc12-3",

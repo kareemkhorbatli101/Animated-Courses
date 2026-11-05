@@ -120,10 +120,7 @@
           "why": "A 3% holding gives no significant influence here."
         }
       ],
-      "exhibit": "Orontes holds 3% of a listed company's shares.",
-      "traps": [
-        "dividends-and-percentages"
-      ]
+      "exhibit": "Orontes holds 3% of a listed company's shares."
     },
     {
       "id": "sc9-9",

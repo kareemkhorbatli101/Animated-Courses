@@ -67,19 +67,6 @@
       ]
     },
     {
-      "id": "fig-f11-04",
-      "kind": "lines",
-      "kicker": "Figure F11-04",
-      "title": "Allocating the GreenBasket discount by relative standalone selling price",
-      "say": "Allocating the GreenBasket discount by relative standalone selling price.",
-      "caption": "EXAM TRAP   Price and allocation traps\nRevenue for each obligation is its allocated price, not its standalone selling price.\nA slotting fee paid to a customer reduces revenue; it is not a marketing expense unless Orontes receives a distinct service.\nDo not use the residual approach when standalone prices can be observed.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
       "id": "sc11-5",
       "kind": "check",
       "kicker": "SC11-5",

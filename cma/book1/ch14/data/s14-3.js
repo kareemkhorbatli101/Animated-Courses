@@ -16,48 +16,61 @@
   },
   "scenes": [
     {
-      "id": "fig-f14-04",
-      "kind": "lines",
+      "id": "fill-04",
+      "kind": "schedule",
       "kicker": "Figure F14-04",
       "title": "Initial measurement of Orontes's leases",
-      "say": "Suppose: initial measurement of Orontes's leases",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Suppose: January 1, 2026 (whole USD)",
-      "col1": "Warehouse",
-      "col2": "Olive press",
-      "rows": [
+      "cols": [
         {
-          "name": "Annual payment (end of each year)",
-          "a": "100,000",
-          "b": "250,000"
+          "id": "c1",
+          "label": "Warehouse",
+          "given": true
         },
         {
-          "name": "Number of payments",
-          "a": "5",
-          "b": "4"
-        },
-        {
-          "name": "Discount rate (incremental borrowing rate)",
-          "a": "6%",
-          "b": "6%"
-        },
-        {
-          "name": "Undiscounted payments",
-          "a": "500,000",
-          "b": "1,000,000"
-        },
-        {
-          "name": "Lease liability = present value of payments",
-          "a": "421,236",
-          "b": "866,276"
-        },
-        {
-          "name": "Right-of-use asset (no prepayments, costs or incentives)",
-          "a": "421,236",
-          "b": "866,276"
+          "id": "c2",
+          "label": "Olive press",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Annual payment (end of each year)",
+          "cells": {
+            "c1": "100,000",
+            "c2": "250,000"
+          }
+        },
+        {
+          "label": "Number of payments",
+          "cells": {
+            "c1": "5",
+            "c2": "4"
+          }
+        },
+        {
+          "label": "Undiscounted payments",
+          "cells": {
+            "c1": "500,000",
+            "c2": "1,000,000"
+          }
+        },
+        {
+          "label": "Lease liability = present value of payments",
+          "cells": {
+            "c1": "421,236",
+            "c2": "866,276"
+          }
+        },
+        {
+          "label": "Right-of-use asset (no prepayments, costs or incentives)",
+          "cells": {
+            "c1": "421,236",
+            "c2": "866,276"
+          }
+        }
+      ]
     },
     {
       "id": "sc14-5",

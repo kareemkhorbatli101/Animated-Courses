@@ -227,6 +227,55 @@
       ]
     },
     {
+      "id": "yourturn",
+      "kind": "shares",
+      "kicker": "Figure F05-05",
+      "title": "Which activity?",
+      "say": "Figure F05-05 lists six transactions. The first two are done. Classify the other four under U.S. GAAP.",
+      "columns": [
+        {
+          "id": "c0",
+          "label": "Activity",
+          "options": [
+            "Financing",
+            "Investing",
+            "Noncash investing and financing activity",
+            "Operating"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Interest paid on a bank loan",
+          "cells": {
+            "c0": "Operating"
+          },
+          "why": "Operating (U.S. GAAP gives no choice)."
+        },
+        {
+          "label": "Selling Jordan Glass shares",
+          "cells": {
+            "c0": "Investing"
+          },
+          "why": "Investing: another company's securities."
+        },
+        {
+          "label": "Land for a long-term note",
+          "cells": {
+            "c0": "Noncash investing and financing activity"
+          },
+          "why": "Noncash investing and financing activity: disclosed, not in the body."
+        },
+        {
+          "label": "Buying back own shares",
+          "cells": {
+            "c0": "Financing"
+          },
+          "why": "Financing: a transaction with owners."
+        }
+      ]
+    },
+    {
       "id": "sc5-3",
       "kind": "check",
       "kicker": "SC5-3",

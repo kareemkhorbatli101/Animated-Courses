@@ -306,6 +306,17 @@
           }
         });
         if (s.caption) C(d.id, s.id, "caption", s.caption);
+        /* "yourturn" (assets/objects5.js) — the author's own Your-turn exercise. His name for
+           each row, the working the learner reads to produce the answer, and the closing check
+           he writes are all CONTENT: a wrong word in any of them would be read as the book's.
+           The result itself is not audited as text because it is a number. A kind added
+           without a line here is a hole in this lock. */
+        (s.blanks || []).forEach(function (x) {
+          C(d.id, s.id, "yourturn.label", x.label);
+          C(d.id, s.id, "yourturn.prompt", x.prompt);
+          C(d.id, s.id, "yourturn.working", x.working);
+        });
+        if (s.note) C(d.id, s.id, "note", s.note);
         if (s.col1) C(d.id, s.id, "col1", s.col1);
         if (s.col2) C(d.id, s.id, "col2", s.col2);
         /* "grid" — the wide form of "lines" (assets/grid.js). Its column HEADINGS are the

@@ -23,74 +23,78 @@
       "caption": "OCI and the reclassification adjustment for an AFS bond over two years."
     },
     {
-      "id": "fig-f15-04",
-      "kind": "lines",
-      "kicker": "Figure F15-04",
-      "title": "OCI and the reclassification adjustment for an AFS bond over two years",
-      "say": "OCI and the reclassification adjustment for an AFS bond over two years.",
-      "caption": "WORKED EXAMPLE   Worked example: the reclassification adjustment\nStep 1. 2026: the holding gain of $8,000 goes to OCI. After tax at 25%, OCI is $6,000, and AOCI builds up by the same amount.\nStep 2. 2027: the bond is sold; net income shows the realized gain of $10,000.\nStep 3. OCI for 2027 shows the holding gain of $2,000 and a reclassification of −$10,000: a net OCI loss of $8,000 before tax, $6,000 after tax.\nCheck. AOCI for this bond returns to zero. Figure F15-05 shows both years.",
-      "col1": "",
-      "col2": "",
-      "rows": [],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
-    },
-    {
-      "id": "fig-f15-05",
-      "kind": "lines",
+      "id": "fill-05",
+      "kind": "schedule",
       "kicker": "Figure F15-05",
       "title": "OCI and the reclassification adjustment for an AFS bond",
-      "say": "Suppose: OCI and the reclassification adjustment for an AFS bond",
+      "say": "Every other column is given. Enter the last figure in each row.",
       "caption": "Suppose: AFS bond bought for 100,000",
-      "col1": "2026",
-      "col2": "2027",
-      "rows": [
+      "cols": [
         {
-          "name": "Net income",
-          "head": true
+          "id": "c1",
+          "label": "2026",
+          "given": true
         },
         {
-          "name": "Realized gain on sale",
-          "a": "—",
-          "b": "10,000"
-        },
-        {
-          "name": "Other comprehensive income",
-          "head": true
-        },
-        {
-          "name": "Holding gain during the year",
-          "a": "8,000",
-          "b": "2,000"
-        },
-        {
-          "name": "Reclassification adjustment",
-          "a": "—",
-          "b": "(10,000)"
-        },
-        {
-          "name": "OCI before tax",
-          "a": "8,000",
-          "b": "(8,000)"
-        },
-        {
-          "name": "Tax at 25%",
-          "a": "(2,000)",
-          "b": "2,000"
-        },
-        {
-          "name": "OCI, net of tax",
-          "a": "6,000",
-          "b": "(6,000)"
-        },
-        {
-          "name": "AOCI at year-end (for this bond)",
-          "a": "6,000",
-          "b": "0"
+          "id": "c2",
+          "label": "2027",
+          "given": false
         }
       ],
-      "hint": "Click a line to read it.",
-      "read": "Keep reading it while you answer."
+      "rows": [
+        {
+          "label": "Realized gain on sale",
+          "cells": {
+            "c1": "—",
+            "c2": "10,000"
+          }
+        },
+        {
+          "label": "Holding gain during the year",
+          "cells": {
+            "c1": "8,000",
+            "c2": "2,000"
+          }
+        },
+        {
+          "label": "Reclassification adjustment",
+          "cells": {
+            "c1": "—",
+            "c2": "(10,000)"
+          }
+        },
+        {
+          "label": "OCI before tax",
+          "cells": {
+            "c1": "8,000",
+            "c2": "(8,000)"
+          }
+        },
+        {
+          "label": "Tax at 25%",
+          "cells": {
+            "c1": "(2,000)",
+            "c2": "2,000"
+          }
+        },
+        {
+          "label": "OCI, net of tax",
+          "cells": {
+            "c1": "6,000",
+            "c2": "(6,000)"
+          }
+        },
+        {
+          "label": "AOCI at year-end (for this bond)",
+          "cells": {
+            "c1": "6,000",
+            "c2": "0"
+          }
+        }
+      ],
+      "traps": [
+        "comprehensive-income-traps"
+      ]
     },
     {
       "id": "sc15-5",
@@ -115,9 +119,6 @@
           "text": "10,000",
           "why": "This gives the reclassification the wrong sign."
         }
-      ],
-      "traps": [
-        "comprehensive-income-traps"
       ]
     },
     {

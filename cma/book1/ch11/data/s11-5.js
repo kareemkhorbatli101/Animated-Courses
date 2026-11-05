@@ -23,24 +23,91 @@
       "caption": "Principal or agent: gross or net revenue on a drop shipment."
     },
     {
-      "id": "num-09",
-      "kind": "number",
+      "id": "fig-f11-09",
+      "kind": "lines",
       "kicker": "Figure F11-09",
       "title": "Barada's sale with a right of return",
-      "unit": "USD",
-      "say": "Work each one out from the figures above it.",
-      "fields": [
+      "say": "Suppose: Barada's sale with a right of return (complete the blanks)",
+      "caption": "Suppose: Barada sells 1,000 units at $20 (cost $12); 5% expected returns",
+      "col1": "Whole USD",
+      "col2": "",
+      "rows": [
         {
-          "label": "Sales price of all units",
-          "answer": "20000",
-          "why": "Sales price of all units: 20,000."
+          "name": "Sales price of all units",
+          "a": "20,000",
+          "b": ""
         },
         {
-          "label": "Units expected to be returned",
-          "answer": "50",
-          "why": "Units expected to be returned: 50."
+          "name": "Units expected to be returned",
+          "a": "50",
+          "b": ""
+        },
+        {
+          "name": "Revenue recognized",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Refund liability",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Asset: right to recover returned products",
+          "a": "________",
+          "b": ""
+        },
+        {
+          "name": "Cost of goods sold",
+          "a": "________",
+          "b": ""
         }
       ],
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer.",
+      "data": true
+    },
+    {
+      "id": "yourturn",
+      "kind": "yourturn",
+      "kicker": "Figure F11-09",
+      "title": "Barada's sale with a right of return",
+      "say": "Enter each figure. A line opens only when the lines it uses are right.",
+      "exhibit": "Figure F11-09 describes a sale with expected returns. Complete the four blanks.",
+      "blanks": [
+        {
+          "label": "Revenue recognized",
+          "working": "(1,000 − 50) × $20 = 19,000",
+          "shown": "19,000",
+          "answer": 19000,
+          "prompt": "(1,000 − 50) × $20 ="
+        },
+        {
+          "label": "Refund liability",
+          "working": "50 × $20 = 1,000",
+          "shown": "1,000",
+          "answer": 1000,
+          "prompt": "50 × $20 ="
+        },
+        {
+          "label": "Asset: right to recover products",
+          "working": "50 × $12 = 600, shown separately from the refund liability",
+          "shown": "600",
+          "answer": 600,
+          "prompt": "50 × $12 ="
+        },
+        {
+          "label": "Cost of goods sold",
+          "working": "(1,000 − 50) × $12 = 11,400",
+          "shown": "11,400",
+          "answer": 11400,
+          "prompt": "(1,000 − 50) × $12 =",
+          "needs": [
+            1
+          ]
+        }
+      ],
+      "caption": "Suppose: Barada's sale with a right of return (complete the blanks)",
       "traps": [
         "special-situation-traps"
       ]

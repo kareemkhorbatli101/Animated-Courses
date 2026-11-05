@@ -27,7 +27,15 @@ PKG = os.path.dirname(os.path.abspath(__file__))
 BOOK = os.path.dirname(PKG)
 EV = os.path.join(PKG, "evidence")
 PIPE = r"D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python"
-DOCX = glob.glob(os.path.join(BOOK, "CMA_Book1_Depth_Pass_*.docx"))
+#: TWO documents, and the distinction is the point. The PLAN said what the six targets were
+#: and what meeting them would cost; the DELIVERY says what was met, and names the plan's one
+#: wrong conclusion. Regenerating the plan with today's numbers would have destroyed the only
+#: record of what was believed before the work - including the belief that cost the most to
+#: find out was wrong. `..._Ch3-Ch5_Plan_` and `..._Ch3-Ch5_Delivered_` already sit side by
+#: side in this folder for the same reason.
+PLAN_DOCX = os.path.join(BOOK, "CMA_Book1_Depth_Pass_2026-11-05.docx")
+DONE_DOCX = glob.glob(os.path.join(BOOK, "CMA_Book1_Depth_Pass_Delivered_*.docx"))
+DOCX = [PLAN_DOCX] if os.path.exists(PLAN_DOCX) else []
 
 EXEMPT = {"hub", "know", "traps", "section", "back"}
 EXH = {"figure", "lines", "grid"}
@@ -76,12 +84,15 @@ def main(teeth=False):
             "evidence/inventory.txt", "evidence/author_boxes.txt",
             "evidence/figures_asked.txt",
             "tools/inventory.py", "tools/author_boxes.py", "tools/figures_asked.py",
-            "tools/make_plan_docx.py"]
+            "tools/make_plan_docx.py", "tools/make_delivered_docx.py"]
     missing = [w for w in want if not os.path.exists(os.path.join(PKG, w))]
     ck("every package file is present", not missing,
        ", ".join(missing) or "%d files" % len(want))
     ck("the plan .docx sits beside the book index", len(DOCX) == 1,
        os.path.basename(DOCX[0]) if len(DOCX) == 1 else "%d found" % len(DOCX))
+    ck("the delivery .docx sits beside it", len(DONE_DOCX) == 1,
+       os.path.basename(DONE_DOCX[0]) if len(DONE_DOCX) == 1
+       else "%d found" % len(DONE_DOCX))
 
     print()
     print("=== THE SITE IS WHAT THE PLAN SAYS IT IS ===")
@@ -101,9 +112,19 @@ def main(teeth=False):
         tot_graded += graded
         tot_rich += rich
         tot_mcq += mcq
-    ck("the book's exercise count matches the plan", abs(tot_graded - 1061) <= 25,
-       "%d graded, %d of them the author's MCQs (%.0f%%)"
-       % (tot_graded, tot_mcq, 100.0 * tot_mcq / max(1, tot_graded)))
+    # THE PROSE AND THE MEASUREMENT MUST AGREE, and the prose is the thing under test. This was
+    # `abs(tot_graded - 1061) <= 25`: a magic number in the checker, which is the one place a
+    # magic number is indefensible, since the figure it is checking is written three lines into
+    # 00_CARRY.md. Now the CARRY's own table is the claim and this recomputes it. A pass means
+    # the document is true; a failure names both numbers and says which to go and look at.
+    carry = io.open(os.path.join(PKG, "00_CARRY.md"), encoding="utf-8").read()
+    mg = re.search(r"\|\s*graded exercises\s*\|[^|]*\|\s*\*\*([\d,]+)\*\*\s*\|", carry)
+    claimed = int(mg.group(1).replace(",", "")) if mg else None
+    ck("the exercise count in 00_CARRY.md is the one the decks hold",
+       claimed is not None and abs(tot_graded - claimed) <= 25,
+       "%d graded, the CARRY says %s; %d are the author's MCQs (%.0f%%)"
+       % (tot_graded, "{:,}".format(claimed) if claimed else "nothing",
+          tot_mcq, 100.0 * tot_mcq / max(1, tot_graded)))
     ck("chapter 1 is still the benchmark", share.get(1, 0) > 65,
        "ch01 is %.0f%% built instruments over %d kinds" % (share.get(1, 0), nkinds.get(1, 0)))
 
@@ -152,20 +173,50 @@ def main(teeth=False):
        "%d chapters with no anim: %s"
        % (len(noanim), ", ".join("ch%02d" % n for n in noanim[:14])))
 
-    # the figures only shown, read back from the evidence the tool produced
+    # THIS CHECK HAS FLIPPED, WHICH IS WHAT IT WAS FOR. It asserted that MOST of the author's
+    # figures are only shown - 115 against 88 - and said in its own docstring that a failure
+    # here means a move has landed and the package, not the check, is what to update. Move 1
+    # landed: 109 asked against 94 only shown. So the claim is now the other way round, and a
+    # second line keeps the gap to the target visible, because a majority is not the target.
     m = re.search(r"^all\s+(\d+)\s+(\d+)\s+(\d+)", ev("figures_asked.txt"), re.M)
-    ck("most of the author's figures are still only shown",
-       bool(m) and int(m.group(2)) > int(m.group(1)),
-       ("%s asked, %s only shown, %s absent" % (m.group(1), m.group(2), m.group(3)))
+    asked, shown_only = (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+    tot_figs = asked + shown_only + (int(m.group(3)) if m else 0)
+    ck("more of the author's figures are now asked about than only shown",
+       bool(m) and asked > shown_only,
+       ("%d asked, %d only shown, %s absent of %d" % (asked, shown_only, m.group(3), tot_figs))
        if m else "no record")
+    ck("the figures-asked target is still open",
+       bool(m) and 100.0 * asked / max(1, tot_figs) < T_ASKED,
+       "%.0f%% of his figures asked about; target %d%%"
+       % (100.0 * asked / max(1, tot_figs), T_ASKED) if m else "no record")
+    # The twelve that remain are a NAMED list, not a remainder. Each needs a match instrument,
+    # so "how many are left" is less useful than "which", and a count alone would let one drop
+    # off the list by being quietly reclassified.
+    left = re.findall(r"F\d\d-\d\d", "\n".join(
+        ln.split("   ", 1)[1] if "   " in ln else ""
+        for ln in ev("figures_asked.txt").split("\n")
+        if re.match(r"^\d+\s", ln)))
+    ck("every figure still only shown is named in the evidence",
+       len(left) == shown_only,
+       "%d named, %d counted" % (len(left), shown_only))
 
-    # his boxes
+    # HIS BOXES: this check has flipped too, and for a reason worth reading. It asserted that
+    # MOST of his boxes are still unused, which the tool agreed with at 18% and then 40% - and
+    # the tool was wrong. `used()` normalised the author's sentence and not the deck text it
+    # searched, so every box whose body begins "Figure Fnn-xx" failed; it reported 1 of 18 YOUR
+    # TURN boxes used while sixteen chapters were built on them. The true figure is 68%, which
+    # is over the target. So the claim is now that the target is MET, and the number is checked
+    # against 00_CARRY.md rather than against a constant, because the document is the claim.
     m2 = re.search(r"^all\s+.*?(\d+)/(\d+)\s*$", ev("author_boxes.txt"), re.M)
-    ck("most of the author's boxes are still unused",
-       bool(m2) and 100.0 * int(m2.group(1)) / int(m2.group(2)) < T_BOXES,
-       ("%s of %s used (%.0f%%); target %d%%"
-        % (m2.group(1), m2.group(2),
-           100.0 * int(m2.group(1)) / int(m2.group(2)), T_BOXES)) if m2 else "no record")
+    pct = 100.0 * int(m2.group(1)) / int(m2.group(2)) if m2 else 0.0
+    ck("the author's boxes are used at or above target", bool(m2) and pct >= T_BOXES,
+       ("%s of %s used (%.0f%%); target %d%%" % (m2.group(1), m2.group(2), pct, T_BOXES))
+       if m2 else "no record")
+    mb = re.search(r"\*\*(\d+)\s*\((\d+)%\)\*\*", carry[carry.find("204 boxes used"):][:200])
+    ck("the box count in 00_CARRY.md is the one the tool measures",
+       bool(m2) and bool(mb) and int(mb.group(1)) == int(m2.group(1)),
+       "the CARRY says %s, the tool says %s"
+       % (mb.group(1) if mb else "nothing", m2.group(1) if m2 else "nothing"))
 
     print()
     print("=== THE MATERIAL THE PLAN SPENDS IS REALLY THERE ===")
