@@ -37,11 +37,16 @@
         VOCAB[String(Math.abs(v))] = 1;
       }
     }
-    [L.is, L.sce, L.bs, L.ratios, L.jan, L.feb, L.decemberSale].forEach(function (o) {
-      Object.keys(o || {}).forEach(function (k) { push(o[k]); });
-    });
-    L.trialBalance.forEach(function (r) { push(r.dr); push(r.cr); });
-    L.january.concat(L.february).forEach(function (t) {
+    /* Each chapter brings its own ledger and they are not the same shape: Chapter 1 has a trial
+       balance and two months of transactions, Chapter 2 a list of accounts. Read whatever is
+       there rather than assuming one chapter's fields, so a missing field widens the vocabulary
+       by nothing instead of throwing and leaving the lock unbuilt. */
+    [L.is, L.sce, L.bs, L.ratios, L.jan, L.feb, L.decemberSale, L.printed, L["case"]]
+      .forEach(function (o) { Object.keys(o || {}).forEach(function (k) { push(o[k]); }); });
+    (L.trialBalance || []).forEach(function (r) { push(r.dr); push(r.cr); });
+    (L.accounts || []).forEach(function (r) { push(r.amount); });
+    ((L["case"] || {}).rows || []).forEach(function (r) { push(r.amount); });
+    (L.january || []).concat(L.february || []).forEach(function (t) {
       t.entry.forEach(function (e) { push(e.amount); });
       Object.keys(t.eff).forEach(function (k) { push(t.eff[k]); });
     });
@@ -115,7 +120,15 @@
    "shape marked sending connection came catch catching actually waiting comparison " +
    "alike drawn fallen pairs direction load bearing can't locks blank " +
    "somewhere random paragraph exhibit destination therefore top fit life whatever " +
-   "labels happens logged").split(/\s+/).forEach(function (w) { CHROME[w] = 1; });
+   "labels happens logged " +
+   /* Added for Chapter 2. Each of these is a word for operating or describing the interface, and
+      not one of them can state an accounting fact on its own - which is the only test this list
+      applies. Words that DID carry a claim were reworded instead of added: the tray labels "GAAP
+      and IFRS differ"/"agree" became "A different answer under IFRS"/"The same answer under both",
+      and "the author's three warnings" became "three sentences from the chapter". */
+   "author author's name names sentence sentences assume assumed reach reaches " +
+   "arrive arrives careful decimal missed confusion idea ideas foot number numbers " +
+   "else true separately").split(/\s+/).forEach(function (w) { CHROME[w] = 1; });
 
   function checkContent(text) {
     if (!text) return [];
@@ -148,6 +161,10 @@
         (s.items || []).forEach(function (i) { C(d.id, s.id, "item", i.name); C(d.id, s.id, "item.why", i.why); });
         (s.distractors || []).forEach(function (i) { C(d.id, s.id, "distractor", i.name || i.id); C(d.id, s.id, "distractor.why", i.why); });
         (s.options || []).forEach(function (o) { C(d.id, s.id, "option", o.text); C(d.id, s.id, "option.why", o.why); });
+        /* The scenario a question is set in. It is the author's own words and the learner reads it
+           to answer, so it is CONTENT - and it was not audited at all until Chapter 2 started
+           putting the long exam stems here instead of in the say. */
+        if (s.exhibit) C(d.id, s.id, "exhibit", s.exhibit);
         (s.fields || []).forEach(function (f) {
           C(d.id, s.id, "field", f.label); C(d.id, s.id, "field.why", f.why);
           (f.diag || []).forEach(function (x) { C(d.id, s.id, "diagnostic", x.says); });
@@ -186,6 +203,19 @@
         (s.extra || []).forEach(function (x) { C(d.id, s.id, "cloze.extra", x); });
         (s.parts || []).forEach(function (x) { C(d.id, s.id, "cloze.part", x); });
         (s.pairs || []).forEach(function (x) { C(d.id, s.id, "pair.us", x.us); C(d.id, s.id, "pair.ifrs", x.ifrs); });
+        /* "lines" — a printed statement read two columns at a time. A scene kind whose fields are
+           not listed here is a hole in the lock: it would render the learner taught text that
+           nothing checks. The row names and the column headings are the author's statement, so
+           they are CONTENT; the click prompt and the closing note are interface. */
+        (s.rows || []).forEach(function (x) {
+          if (x && typeof x === "object" && !(x instanceof Array)) C(d.id, s.id, "line.name", x.name);
+        });
+        if (s.caption) C(d.id, s.id, "caption", s.caption);
+        if (s.col1) C(d.id, s.id, "col1", s.col1);
+        if (s.col2) C(d.id, s.id, "col2", s.col2);
+        if (s.hint) H(d.id, s.id, "hint", s.hint);
+        if (s.read) H(d.id, s.id, "read", s.read);
+        if (s.label) H(d.id, s.id, "label", s.label);
         if (s.rightWhy) C(d.id, s.id, "rightWhy", s.rightWhy);
         if (s.wrongWhy) C(d.id, s.id, "wrongWhy", s.wrongWhy);
         if (s.asset) C(d.id, s.id, "asset", s.asset.label);

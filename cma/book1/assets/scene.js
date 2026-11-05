@@ -310,8 +310,10 @@
     var w = E("div", "wrap");
     var home = E("a", "bar-home");
     home.href = (page.up || "") + "index.html";
-    home.appendChild(E("span", "bar-mark", "C1"));
-    home.appendChild(E("span", null, "Chapter 1"));
+    /* The chapter names itself (Progress reads window.CHAPTER_MARK / CHAPTER_LABEL, and
+       falls back to Chapter 1), so this file is shared without being rewritten per chapter. */
+    home.appendChild(E("span", "bar-mark", P ? P.mark : "C1"));
+    home.appendChild(E("span", null, P ? P.label : "Chapter 1"));
     w.appendChild(home);
     var where = E("div", "bar-where");
     where.id = "where";
@@ -333,7 +335,7 @@
     x.setAttribute("aria-label", "Close contents");
     x.addEventListener("click", function () { d.classList.remove("open"); });
     p.appendChild(x);
-    p.appendChild(E("h2", null, "Chapter 1"));
+    p.appendChild(E("h2", null, P ? P.label : "Chapter 1"));
     var ol = E("ol");
     (P ? P.TOC : []).forEach(function (t) {
       var li = E("li", t.id === page.id ? "on" : "");
@@ -390,8 +392,12 @@
     /* A STUDY SCENE HAS NOTHING TO CHECK. The author's figures are shown as scenes so they sit where
        the chapter puts them and count as something you have seen - but offering "Check Answers" on a
        picture invites a learner to press it and be told nothing, which teaches them the button is
-       noise. A scene that declares itself study-only gets Next and no marking. */
-    var studyOnly = !!(spec && spec.kind === "figure");
+       noise. A scene that declares itself study-only gets Next and no marking.
+
+       A scene can also DECLARE itself study-only with study:true, which is how the printed
+       statements say so: "lines" renders a balance sheet to read, and offering to mark a reading
+       is the same empty promise as offering to mark a picture. */
+    var studyOnly = !!(spec && (spec.kind === "figure" || spec.study === true));
     var check = E("button", "btn btn-primary btn-check", "Check Answers");
     check.type = "button";
     var again = E("button", "btn btn-ghost btn-again", "Try Again");

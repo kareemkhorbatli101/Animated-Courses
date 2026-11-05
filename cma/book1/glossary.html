@@ -38,8 +38,16 @@
 </main>
 
 <script src="assets/ledger.js"></script>
+<!-- Every built chapter's terms. Each file assigns window.TERMS outright, so the page snapshots
+     each one before loading the next and assets/terms-merge.js combines them. -->
+<script>window.TERM_SETS = [];</script>
 <script src="assets/terms-ch01.js"></script>
 <script src="assets/terms-fr-ch01.js"></script>
+<script>TERM_SETS.push({ n: 1, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch02.js"></script>
+<script src="assets/terms-fr-ch02.js"></script>
+<script>TERM_SETS.push({ n: 2, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-merge.js"></script>
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
 <script>
@@ -50,10 +58,12 @@
   var count = document.getElementById("count");
   var rows = T.everything.slice().sort(function (a, b) { return a.en.localeCompare(b.en); });
 
+  var chs = T.chapters || [1];
+  var where = chs.length > 1 ? "Chapters " + chs.join(" and ") : "Chapter " + chs[0];
   document.getElementById("scopeNote").innerHTML =
-    "<strong>" + T.count + " bilingual terms</strong> — every Term Bridge row the chapter prints, with the " +
-    "author's own Arabic. A further <strong>" + T.englishOnly.length + " terms</strong> the chapter defines in " +
-    "its prose appear in English only: the chapter gives no Arabic for them, and none has been invented. " +
+    "<strong>" + T.count + " bilingual terms</strong> — every Term Bridge row " + where + " print, with the " +
+    "author's own Arabic. A further <strong>" + T.englishOnly.length + " terms</strong> the book defines in " +
+    "its prose appear in English only: it gives no Arabic for them, and none has been invented. " +
     "French is not carried here; translation work in this site is English ↔ Arabic only.";
 
   function render(filter) {

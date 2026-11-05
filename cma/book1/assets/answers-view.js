@@ -120,6 +120,21 @@
       L.TERMCOUNT + " bridged terms. Every term, with its Arabic and its meaning, is on the " +
       "<a href=\"terms.html\">Term bank</a> page and in <a href=\"../glossary.html\">Appendix A</a>.</p>";
     if (k === "traps") return "<p class=\"note\">Your own record, kept in this browser.</p>";
+    /* A study scene has no answer, but it must still appear here: a reader looking for
+       "where was that statement?" should find it, and a silent gap in this page is how an
+       omitted scene hides. Both of these print what the scene shows. */
+    if (k === "figure") return "<p class=\"note\"><b>" + esc(sc.label || "") + "</b> " +
+      esc(sc.caption || "") + " Nothing to answer: the figure is the author's own.</p>";
+    if (k === "lines") {
+      h = "<table class=\"tbl\"><thead><tr><th>" + esc(sc.caption || "") + "</th><th class=\"n\">" +
+          esc(sc.col1 || "") + "</th><th class=\"n\">" + esc(sc.col2 || "") + "</th></tr></thead><tbody>";
+      (sc.rows || []).forEach(function (r) {
+        var b0 = r.total ? "<b>" : "", b1 = r.total ? "</b>" : "";
+        h += "<tr><td>" + b0 + esc(r.name) + b1 + "</td><td class=\"n\">" + b0 + esc(r.a || "") + b1 +
+             "</td><td class=\"n\">" + b0 + esc(r.b || "") + b1 + "</td></tr>";
+      });
+      return h + "</tbody></table><p class=\"note\">A reading scene: nothing is marked.</p>";
+    }
     return "<p class=\"note\">See the scene itself.</p>";
   }
 

@@ -44,13 +44,21 @@
   <div id="content"></div>
 
   <p class="fig-note">The <a href="glossary.html">glossary</a> gives the Arabic equivalent and the meaning of every
-    term, with pronunciation in both languages. The <a href="ch01/terms.html">Chapter 1 term bank</a> drills them.</p>
+    term, with pronunciation in both languages. The term bank of
+    <a href="ch01/terms.html">Chapter 1</a> and of <a href="ch02/terms.html">Chapter 2</a> drills them.</p>
 </div>
 </main>
 
 <script src="assets/ledger.js"></script>
+<!-- Every built chapter's terms; see the comment in glossary.html and assets/terms-merge.js. -->
+<script>window.TERM_SETS = [];</script>
 <script src="assets/terms-ch01.js"></script>
 <script src="assets/terms-fr-ch01.js"></script>
+<script>TERM_SETS.push({ n: 1, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch02.js"></script>
+<script src="assets/terms-fr-ch02.js"></script>
+<script>TERM_SETS.push({ n: 2, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-merge.js"></script>
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
 <script>

@@ -599,3 +599,31 @@ input.ansfind{padding:.45rem .6rem;border:1px solid #aebfc7;border-radius:8px;fo
   details.ans>div,details.ans>p{display:block!important}
 }
 .card-s.fr{color:#6b7f88;font-style:italic}
+
+/* ---- lines: a printed statement, read two columns side by side (assets/lines.js) ----
+   Deliberately NOT the .stmt-* classes: those are the drop grid of the "statement" scene,
+   where .stmt-name is the statement's own printed name. */
+.lns{background:var(--card);border:1px solid var(--line);border-radius:3px;
+  padding:16px 18px;box-shadow:var(--shadow);max-width:720px}
+.lns-row{display:grid;grid-template-columns:1fr 128px 128px;align-items:baseline;gap:10px;
+  width:100%;text-align:left;font:inherit;background:none;border:0;border-radius:5px;
+  padding:5px 7px;cursor:pointer;color:var(--ink)}
+.lns-row:hover{background:var(--accent-wash)}
+.lns-row.on{background:var(--accent-wash);outline:1px solid var(--accent-line)}
+.lns-row.lns-head{cursor:default;border-bottom:1px solid var(--ink);padding-bottom:7px;margin-bottom:5px}
+.lns-row.lns-head:hover{background:none}
+.lns-name{font-size:var(--t-small);line-height:1.35}
+.lns-n{font-family:var(--mono);font-size:var(--t-small);text-align:right}
+.lns-row.is-total{font-weight:800}
+.lns-row.is-total .lns-n{border-top:1px solid var(--ink)}
+/* a section heading inside the statement: no figures, nothing to click, no subtotal rule */
+.lns-head-row{padding:9px 7px 3px;font-size:var(--t-small);font-weight:800;color:var(--ink-2);
+  letter-spacing:.01em}
+/* the case exhibit's memos: narrative, so full width rather than the amount column */
+.lns-memo{margin:6px 7px;padding:8px 11px;background:var(--card-2);border-left:3px solid var(--accent-line);
+  border-radius:0 var(--r-s) var(--r-s) 0;font-size:var(--t-small);line-height:1.6;color:var(--ink-2)}
+.lns-note{margin-top:12px;min-height:2.6em}
+@media (max-width:620px){
+  .lns-row{grid-template-columns:1fr 84px 84px;gap:6px}
+  .lns-n{font-size:var(--t-meta)}
+}

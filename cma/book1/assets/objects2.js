@@ -1211,7 +1211,10 @@
   var D = root.Deck, P = root.Progress;
   var E = D.util.E, esc = D.util.esc;
 
-  var NAMES = {
+  /* Each chapter names its own traps: the slug a scene logs, the page it was taught on, and the
+     one sentence that fixes the confusion. A chapter supplies window.TRAP_NAMES in its data/toc.js;
+     Chapter 1's map is the default, so Chapter 1 needs no toc.js and does not change. */
+  var CH01_NAMES = {
     "primary-user": ["Who counts as a primary user", "s1-1.html",
       "Investors, lenders and other creditors. Managers are users but not primary users, because they can get internal information."],
     "fundamental-vs-enhancing": ["Fundamental versus enhancing qualities", "s1-1.html#s4",
@@ -1237,6 +1240,7 @@
   };
 
   D.register("traps", function (stage, spec, api) {
+    var NAMES = root.TRAP_NAMES || CH01_NAMES;
     var failed = P ? P.trapsFailed() : [];
     if (!failed.length) {
       var p = E("div", "bite");

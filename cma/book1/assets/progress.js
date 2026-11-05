@@ -37,9 +37,20 @@
     return out;
   }
 
+  /* ---- WHICH CHAPTER AM I IN ----
+     This file is shared by every chapter, so the chapter has to say who it is. A chapter
+     ships a data/toc.js that sets window.CHAPTER_ID and window.CHAPTER_TOC before this
+     script loads. Chapter 1 does not, and must never need to: its id and its contents are
+     the defaults below, so nothing about Chapter 1 changes by adding Chapter 2.
+
+     The id is also the storage prefix. Keeping it per chapter means a learner's Chapter 1
+     progress is not read as Chapter 2 progress, and "Reset my progress" on one chapter
+     does not wipe the other. */
+  var CH = String(root.CHAPTER_ID || "ch01");
+
   /* ---- the chapter's 13 pages, in the book's order. One definition, used by
          the rail, the hub, prev/next and the review page. ---- */
-  var TOC = [
+  var CH01_TOC = [
     { id: "s1-1",     file: "s1-1.html",     kind: "section", n: "1.1", title: "Who uses financial statements, and why?",          blurb: "The boardroom table, the quality podium, five verbs \u00b7 7 scenes" },
     { id: "s1-2",     file: "s1-2.html",     kind: "section", n: "1.2", title: "The building blocks: elements and the accounting equation", blurb: "The balance beam, the retained-earnings tank \u00b7 9 scenes" },
     { id: "s1-3",     file: "s1-3.html",     kind: "section", n: "1.3", title: "Double entry: debits and credits",                 blurb: "Post twelve entries and build the effect grid \u00b7 10 scenes" },
@@ -55,10 +66,12 @@
     { id: "answers",  file: "answers.html",  kind: "back",    n: "◆", title: "Answers and explanations", blurb: "Every answer, generated from the scenes" }
   ];
 
+  var TOC = root.CHAPTER_TOC || CH01_TOC;
+
   function pageIndex(id) { for (var i = 0; i < TOC.length; i++) if (TOC[i].id === id) return i; return -1; }
 
   /* ---- exercise and page completion ---- */
-  function doneKey(page, ex) { return "ch01." + page + "." + ex; }
+  function doneKey(page, ex) { return CH + "." + page + "." + ex; }
 
   function markExercise(page, ex) {
     set(doneKey(page, ex), "yes");
@@ -69,7 +82,7 @@
   var registered = {};          /* page id -> [exercise ids], set by the engine */
   function register(page, ids) {
     registered[page] = ids;
-    set("ch01." + page + ".count", String(ids.length));
+    set(CH + "." + page + ".count", String(ids.length));
     recount(page);
   }
   function recount(page) {
@@ -77,14 +90,14 @@
     if (!ids) return;
     var n = 0;
     ids.forEach(function (id) { if (exerciseDone(page, id)) n++; });
-    set("ch01." + page + ".done", String(n));
-    if (ids.length && n === ids.length) set("ch01." + page + ".complete", "yes");
+    set(CH + "." + page + ".done", String(n));
+    if (ids.length && n === ids.length) set(CH + "." + page + ".complete", "yes");
     if (root.Chrome && root.Chrome.refreshProgress) root.Chrome.refreshProgress();
   }
   function pageStats(id) {
-    var total = Number(get("ch01." + id + ".count") || 0);
-    var done = Number(get("ch01." + id + ".done") || 0);
-    return { total: total, done: done, complete: get("ch01." + id + ".complete") === "yes" };
+    var total = Number(get(CH + "." + id + ".count") || 0);
+    var done = Number(get(CH + "." + id + ".done") || 0);
+    return { total: total, done: done, complete: get(CH + "." + id + ".complete") === "yes" };
   }
   function chapterStats() {
     var t = 0, d = 0, pages = 0;
@@ -96,20 +109,38 @@
     return { items: t, done: d, pagesComplete: pages, pages: TOC.length };
   }
 
+  /* EVERY CHAPTER'S PROGRESS, FOR THE BOOK INDEX. A page loads one chapter's contents, so
+     chapterStats() can only speak for that chapter. The book index belongs to no chapter and still
+     has to say how far the reader has got, so this reads the stored counts back by prefix instead
+     of from a TOC. It reports only chapters the reader has actually opened, because a chapter with
+     nothing stored is indistinguishable from one that does not exist. */
+  function allChapters() {
+    var out = {};
+    keysWithPrefix("ch").forEach(function (k) {
+      var m = /^(ch\d+)\.([^.]+)\.(count|done)$/.exec(k);
+      if (!m) return;
+      var c = out[m[1]] || (out[m[1]] = { chapter: m[1], items: 0, done: 0, pages: 0 });
+      var v = Number(get(k) || 0);
+      if (m[3] === "count") { c.items += v; c.pages += 1; }
+      else c.done += v;
+    });
+    return Object.keys(out).sort().map(function (k) { return out[k]; });
+  }
+
   /* ---- the trap counter: failures recorded by named trap, not just counted ---- */
   function trapFail(trap) {
-    var k = "ch01.trap." + trap;
+    var k = CH + ".trap." + trap;
     set(k, String(Number(get(k) || 0) + 1));
   }
   function trapPass(trap) {
-    var k = "ch01.trap." + trap + ".ok";
+    var k = CH + ".trap." + trap + ".ok";
     set(k, "yes");
   }
   function trapsFailed() {
-    return keysWithPrefix("ch01.trap.")
+    return keysWithPrefix(CH + ".trap.")
       .filter(function (k) { return k.indexOf(".ok") < 0; })
       .map(function (k) {
-        var name = k.slice("ch01.trap.".length);
+        var name = k.slice((CH + ".trap.").length);
         return { trap: name, fails: Number(get(k) || 0), fixed: get(k + ".ok") === "yes" };
       })
       .filter(function (t) { return t.fails > 0; })
@@ -117,21 +148,24 @@
   }
 
   function reset() {
-    keysWithPrefix("ch01.").forEach(function (k) {
+    keysWithPrefix(CH + ".").forEach(function (k) {
       if (usable) { try { root.localStorage.removeItem(NS + k); } catch (e) {} }
       delete mem[k];
     });
   }
 
   function lastVisit(id) {
-    if (id) set("ch01.last", id);
-    return get("ch01.last");
+    if (id) set(CH + ".last", id);
+    return get(CH + ".last");
   }
 
   root.Progress = {
+    chapter: CH,
+    label: String(root.CHAPTER_LABEL || "Chapter 1"),
+    mark: String(root.CHAPTER_MARK || "C1"),
     TOC: TOC, pageIndex: pageIndex,
     register: register, markExercise: markExercise, exerciseDone: exerciseDone,
-    pageStats: pageStats, chapterStats: chapterStats,
+    pageStats: pageStats, chapterStats: chapterStats, allChapters: allChapters,
     trapFail: trapFail, trapPass: trapPass, trapsFailed: trapsFailed,
     lastVisit: lastVisit, reset: reset,
     get storageWorks() { return usable; }
