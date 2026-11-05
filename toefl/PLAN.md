@@ -403,10 +403,26 @@ New work: an audio layer, the `document` generalisation, `mailer`, `board`,
 
 ## 6. Two hard constraints, stated plainly
 
-**6.1 Microphone capture does not work from `file://`.** Chrome treats
-`file://` as a non-secure origin, and `getUserMedia` is unavailable on
-non-secure origins. So the two Speaking tasks cannot record the learner inside
-the no-server package the rest of the book depends on. Three options, and I
+**6.1 Microphone capture does not work from `file://` — but not for the reason
+I first gave.** *Measured in headless Chromium, Phase 1:* `file://` **is** a
+secure context (`isSecureContext === true`), so my original explanation was
+wrong. `getUserMedia` is exposed and `MediaRecorder` exists. The call still
+fails, with `NotSupportedError: Not supported`, because the `file://` origin is
+opaque and Chromium cannot attach a permission grant to it —
+`permissions.query({name:'microphone'})` sits at `prompt` and never resolves to
+granted. The identical page served from `http://localhost` records fine.
+
+Same conclusion, better diagnosis, and it matters: it confirms the local-server
+launcher actually fixes this rather than merely seeming to. It also means the
+build should **feature-detect rather than choose**: attempt `getUserMedia`, and
+fall back to self-assessment the moment it throws, whatever the reason. The one
+package then works correctly in both cases with no decision to make. That is how
+`speak.js` is written.
+
+One caveat I will not paper over: this is one engine on one platform, in a
+container with no real audio device. The behaviour should be re-checked on the
+target machine before release — but because the build detects rather than
+assumes, neither outcome breaks it. Three options, and I
 recommend the first:
 
 1. **Self-assessment against a model.** The learner hears the prompt, speaks

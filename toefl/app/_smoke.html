@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smoke test</title><link rel="stylesheet" href="assets/ui.css"></head><body>
+<script src="assets/spec.js"></script>
+<script src="assets/book.js"></script>
+<script src="assets/progress.js"></script>
+<script src="assets/deck.js"></script>
+<script src="assets/items.js"></script>
+<script>
+window.PAGE = {
+  id:"smoke", unit:"u01", block:"l5", up:"", tab:"ACADEMIC",
+  objective:"Smoke test of the four core item shapes",
+  scenes:[
+    { id:"s1", section:1, sectionTitle:"Read", letter:"A", kind:"letterbox",
+      task:"complete-the-words", cefr:"B1",
+      prompt:"Complete the words.",
+      items:[
+        { text:"I always t___ notes in the lecture.", answer:"take", given:[0],
+          why:"<i>take notes</i> is the collocation." },
+        { text:"Close the book and ___ yourself.", answer:"test", given:[0,3],
+          why:"Retrieval, not re-reading." },
+        { text:"Students who attend regularly show steady ___.", answer:"improvement", given:[0,1,2,3,10],
+          why:"<i>improve → improvement</i>: the suffix makes a noun." }
+      ] },
+    { id:"s2", section:1, sectionTitle:"Read", letter:"B", kind:"order",
+      task:"build-a-sentence", cefr:"C1",
+      prompt:"Put the words in order.",
+      target:"What I find most useful is having to explain an idea to someone else",
+      extra:["happy","because","very"],
+      why:"A cleft sentence: <i>What I find most useful is…</i>" },
+    { id:"s3", section:2, sectionTitle:"Word study", letter:"A", kind:"choice",
+      task:"listen-choose-response", cefr:"B2",
+      prompt:"You hear: <i>“I’d have signed up earlier if I’d known.”</i> Choose the reply.",
+      options:[
+        { text:"There may still be places.", correct:true,
+          why:"The speaker did <b>not</b> sign up early, so the useful reply addresses what can still be done." },
+        { text:"I signed up too.", why:"This treats the speaker as someone who did sign up. They did not." },
+        { text:"I didn’t know either.", why:"Close, but it answers only the second clause and ignores the request for help." }
+      ] },
+    { id:"s4", section:2, sectionTitle:"Word study", letter:"B", kind:"tfni",
+      task:"read-daily-life", cefr:"B1",
+      prompt:"Mark each statement <i>T</i>, <i>F</i> or <i>NI</i>. For T or F, write the line.",
+      items:[
+        { stem:"Re-reading can feel more useful than it is.", answer:"T", line:4,
+          why:"Line 4 says the page gets easier each time, which is the feeling of learning." },
+        { stem:"The writer has taken the test before.", answer:"NI", line:null,
+          why:"The column never says this either way." },
+        { stem:"The columnist recommends re-reading.", answer:"F", line:6,
+          why:"Line 6 recommends closing the book instead." }
+      ],
+      closer:{ kind:"life", body:"<p>Try one retrieval session today and note what you could not recall.</p>" } }
+  ]
+};
+Deck.start();
+</script></body></html>
