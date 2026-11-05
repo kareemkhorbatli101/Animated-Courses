@@ -1,15 +1,19 @@
-# Unit 1 · Learning Together — worked specimen
+# Unit 1 · How We Learn — worked specimen
 
-The Phase 3 pilot, aligned to the book's real Unit 1 (pp. 4–19) now that the
-baseline is closed. Every item below is newly authored; the architecture,
-strand-for-strand, is the book's.
+The Phase 3 pilot. The architecture, strand for strand, is the book's Unit 1
+(pp. 4–19); the subject is cognitive psychology — memory, retrieval and study
+method — per `UNIT-MAP.md`. Every item is newly authored.
 
-## What the book's Unit 1 actually is
+**Why this topic for this grammar.** Unit 1 teaches present and past verb forms
+in contrast. *How We Learn* is where that contrast is the subject: what you *do*
+when you study, against what a study *found* when it tested it.
+
+## What the book's Unit 1 is, and what carries over
 
 | Strand | Step Forward 3, Unit 1 |
 |---|---|
-| Themes | Study skills and the U.S. educational system · Express uncertainty |
-| Vocabulary | study skills · types of schools in the U.S. · the prefix *dis-* |
+| Themes | Study skills and the U.S. educational system · Express uncertainty → **memory and study method · express uncertainty** |
+| Vocabulary | study skills · types of schools in the U.S. · the prefix *dis-* → **study method and memory · the prefix *dis-*** |
 | Academic language | accurately, challenge, revise, research, schedule |
 | Grammar | review present and past verb forms · *yes/no* questions and answers · adjectives and adverbs to describe skills |
 | Writing strategy | focusing on the main idea in different paragraphs |
@@ -17,14 +21,15 @@ strand-for-strand, is the book's.
 | Pronunciation | *sh*, *ch* and *j* |
 | Data visual | a learning pyramid — active versus passive recall after two weeks |
 | L2 writing task | a journal entry about the first day of class |
-| L5 reading | a newspaper advice column, with line numbers and a footnote |
-| AT WORK | showing that you are listening |
+| L5 reading | a newspaper advice column, with line numbers and a footnote → **kept as a form, new subject** |
+| AT WORK | showing that you are listening → **ON CAMPUS: showing that you are following a lecture** |
 | Teamwork / Problem Solving | a labelled classroom scene · interview classmates, make a pie chart · a new student feels alone → write her a letter |
 
-**Re-aimed, not replaced.** Theme, grammar, morphology, pronunciation and the
-data visual carry over unchanged. What moves is the register: study skills for
-an adult-education classroom become study skills for a university, and the
-workplace page becomes the academic one.
+**Skeleton kept, subject replaced.** Grammar, morphology, pronunciation, the
+data-visual form and all three lesson templates carry over unchanged. What goes
+is the life-skills content: the U.S. educational system and the public library
+give way to how memory actually works, which is a real TOEFL reading and lecture
+subject and happens to be the one thing every test-taker is doing anyway.
 
 **The per-unit writing strategy becomes the unit's writing focus.** Unit 1's is
 *focusing on the main idea in different paragraphs*, which is exactly what
@@ -41,21 +46,24 @@ Priya Raman (student, Australian), Tomás Ferreira (student, US).
 
 ## Lesson 1 · VOCABULARY → Complete the Words (8)
 
-**Scene.** The book's numbered illustrated scene, kept: nine study-skill actions
-in one full-colour drawing with callouts 1–9. Tap a number, hear the phrase, see
-it. The book's own set transfers almost unchanged because study skills are study
-skills: *take notes · find a quiet place · make a study schedule · do research ·
-make an outline · memorize words · search online · organize materials · take a
-break.*
+**Scene.** The book's numbered illustrated scene, kept in form: nine actions in
+one full-colour drawing with callouts 1–9. Tap a number, hear it, see it. The
+set is re-cut from classroom habits to the things memory research actually
+distinguishes: *re-read · highlight · test yourself · space your sessions ·
+summarise from memory · explain it aloud · interleave two subjects · take a
+break · check what you got wrong.*
+
+The first two are the ones that feel productive and are not — which is the
+unit's whole argument, planted in its vocabulary before the reading makes it.
 
 Then the letterbox items. A wrong letter turns **that box only**.
 
 | # | Item | Answer | Band |
 |---|---|---|---|
-| 1 | I always t a _ e n _ t e s in class. | take notes | A2 |
-| 2 | I study better when I find a q u _ e _ place. | quiet | A2 |
-| 3 | Make a study s c h _ d _ l e and keep to it. | schedule | B1 |
-| 4 | Before you write, m _ m o r _ z e the key terms. | memorize | B1 |
+| 1 | I always t a _ e n _ t e s in the lecture. | take notes | A2 |
+| 2 | Close the book and t _ s t yourself. | test | A2 |
+| 3 | Spread your study over a s c h _ d _ l e of several days. | schedule | B1 |
+| 4 | Reading it again is not the same as trying to r e c _ l l it. | recall | B1 |
 | 5 | You will need to do r e s _ _ r c h for this essay. | research | B1 |
 | 6 | Read your draft again and r _ v _ s e it. | revise | B2 |
 | 7 | She answered a c c _ r _ t _ l y every time. | accurately | C1 |
@@ -65,9 +73,11 @@ Items 5–8 are the book's own **Academic language** list for Unit 1 — *resear
 revise, accurately, challenge, schedule*. The book already marks them as the
 academic register; the TOEFL task is where they pay.
 
-**Word study — the prefix *dis*-.** Kept from the book's Lesson 5, moved here
-where Complete the Words lives. The book circles the right word; the TOEFL shape
-completes it: *Two students d i s _ g r _ e about the answer.* The affix ladder
+**Word study — the prefix *dis*-.** The book's affix for Unit 1, kept, and it is
+a gift: *disagree · disprove · disconfirm · disregard* is the vocabulary of
+research, so the academic re-cut costs nothing. The book circles the right word;
+the TOEFL shape completes it: *The second experiment failed to
+d i s p r _ _ e the claim.* The affix ladder
 runs across all twelve units — *dis-, -ful, -tion, inter-, un-, -al, re-,
 -er/-or, -ment* — and it is the backbone of this task's B1–C1+ band.
 

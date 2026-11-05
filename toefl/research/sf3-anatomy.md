@@ -1,9 +1,13 @@
 # Step Forward 3 — the real anatomy
 
-From the author's own copy, pages i–ix and 2–38 (Table of Contents, Pre-Unit,
-Unit 1 complete, Unit 2 Lessons 1–2). This supersedes everything inferred from
-the standards correlations. Structural facts and design observations only; no
-text or artwork is reproduced into the build.
+From the author's own copy, **complete** — scan pages 1–215, i.e. front matter,
+Table of Contents, Pre-Unit, all twelve units and the grammar charts. This
+supersedes everything inferred from the standards correlations. Structural facts
+and design observations only; no text or artwork is reproduced into the build.
+
+The three lesson templates were checked against Units 1, 2, 7 and 11 and are
+identical in all four. The AT WORK page was checked against Units 1, 4, 5 and 11
+and is titled AT WORK in all four.
 
 ---
 
@@ -201,11 +205,20 @@ Unit 11's is a **bubble chart** — circle *area* encodes magnitude, ten states,
 with an explanatory paragraph set inside the graphic and a *Source:* line. The
 items then read values off it (*"The 8th most popular state to move to was ___"*).
 
+Unit 7's is a **pie with a colour key**, drawn in 3-D, with its own READER'S NOTE
+teaching the key-matching skill (*match the colour of each section to the colour
+in the key*) and five gap-fill sentences reading values off it.
+
 Across the book the form changes every unit: graph · pie · bar · flow chart and
-organisational chart · scatter plot · chart · pie · pie · comparison table ·
-graph · bubble infographic · pie. So the build needs a **chart component
+organisational chart · scatter plot · chart · pie with key · pie · comparison
+table · graph · bubble infographic · pie. So the build needs a **chart component
 library**, not the single line style in the current style sheet, and every chart
 carries a source line and a strategy note.
+
+Two departures when rebuilding: the book's pies are 3-D, which distorts the very
+areas the items ask the learner to compare, so ours are flat; and the bubble
+chart keeps its figures printed inside the circles, because area alone is not
+readable to the precision its items demand.
 
 ## 4. Exercise inventory observed
 

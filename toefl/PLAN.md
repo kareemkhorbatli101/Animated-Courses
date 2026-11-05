@@ -180,36 +180,53 @@ than the standards correlations revealed.
 
 ## 3. The book
 
-### Shape — one-for-one with the source
+### Shape — the skeleton is the book's, the topics are the test's
+
+The full map is `UNIT-MAP.md`. In brief: twelve units, the book's seven-block
+architecture, its three invariant lesson templates, its grammar order, its affix
+and pronunciation ladders and its data-visual sequence — all kept. Its subject
+matter replaced, because the 2026 TOEFL examines academic content and Step
+Forward 3 teaches adult life skills.
 
 ```
 Pre-Unit   Test Day: The First Step
-Unit  1    Learning Together            Academic Navigational
-Unit  2    Ready for Fun                Social Interpersonal
-Unit  3    A Job to Do                  Academic Navigational
-Unit  4    Good Work                    Social Interpersonal + Navigational
-Unit  5    Community Resources          Academic Navigational
-Unit  6    What's Cooking?              Social Interpersonal + Academic
-Unit  7    Money Wise                   Academic Navigational + Academic
-Unit  8    Living Well                  Academic (health sciences)
-Unit  9    Hit the Road                 Navigational + Academic (geography)
-Unit 10    Crime Doesn't Pay            Academic (criminology, ethics)
-Unit 11    That's Life                  Social Interpersonal + Academic
-Unit 12    Do the Right Thing           Academic Discussion — capstone
+Unit  1    How We Learn                     cognitive psychology, memory
+Unit  2    Climate and Prediction           earth science, models
+Unit  3    Adaptation and Diversity         evolution, variation
+Unit  4    Migration and the Human Past     archaeology, settlement
+Unit  5    Exploring Space                  astronomy, missions
+Unit  6    Food, Energy and the Body        nutrition, metabolism
+Unit  7    Markets and Choices              economics, incentives
+Unit  8    Disease and Public Health        epidemiology, prevention
+Unit  9    Cities and Movement              urban geography, transport
+Unit 10    Rules, Rights and Ethics         law, philosophy
+Unit 11    How Science Works                method, evidence, peer review
+Unit 12    Art, Audience and Culture        humanities, media
 +          Two full adaptive mock tests
 ```
 
-Twelve units, twelve titles, twelve themes, six lessons each — the source's
-sequence, untouched. Each theme is re-aimed at one of ETS's three language-use
-contexts. The themes take the re-aim without strain: *Learning Together*
-becomes campus orientation and study groups; *Money Wise* becomes the bursar's
-office and an economics lecture; *Do the Right Thing* becomes an ethics
-discussion board, which is exactly what the capstone needs.
+**The topics are not arbitrary.** Each was chosen because *the unit's grammar
+lives there natively*: comparatives with species variation (3), conditionals with
+economics (7), the passive with the methods section (11), gerund subjects with
+ethics (10), *used to* and the present perfect continuous with the history of a
+disease (8). The grammar is not bolted onto a subject — it is that subject's own
+register. That is what lets the book's grammar order survive its subject matter
+being thrown away.
 
-The Pre-Unit keeps its job — in the source it is the classroom-orientation
-unit. Here it orients the learner to the test: the twelve task types, the
-timing, the 1–6 bands, the half-band average, the 0–120 comparable score for
-the transition period, and the fact that the test adapts.
+**All three ETS contexts live inside each unit**, so the easy end of the test is
+still taught: the academic topic is the unit's spine, while Listen and Choose a
+Response and Read in Daily Life stay Social Interpersonal — student life *around*
+the subject, not life skills instead of it.
+
+**AT WORK becomes ON CAMPUS.** Same template, exactly: gist → tick what is
+mentioned → listen again for a deeper point → a *Do this / Say this* function
+chart → partner application. Only the register moves, from workplace to campus,
+because Academic Navigational is where the test puts it.
+
+The Pre-Unit keeps its job. In the book it orients the learner to the classroom;
+here it orients them to the test — the twelve task types, the timing, the 1–6
+bands, the half-band average, the 0–120 comparable score for the transition
+period, and the fact that the test adapts.
 
 ### Item budget per unit
 
@@ -219,8 +236,9 @@ the transition period, and the fact that the test adapts.
 | L2 Real-life writing | Write an Email 1 · Build a Sentence 4 | 5 |
 | L3 Grammar | Build a Sentence 6 · Complete the Words 2 | 8 |
 | L4 Everyday conversation | Listen and Choose a Response 6 · Listen to a Conversation 4 · Listen and Repeat 4 | 14 |
-| L5 Reading | Read in Daily Life 4 · Read an Academic Passage 4 · Listen to an Announcement 3 · Listen to an Academic Talk 4 | 15 |
-| L6 Teamwork & Language Review | Write for an Academic Discussion 1 · Take an Interview 2 · mixed review 6 | 9 |
+| L5 Reading | Read in Daily Life 4 · Read an Academic Passage 4 | 8 |
+| ON CAMPUS | Listen to an Announcement 3 · Listen to an Academic Talk 4 | 7 |
+| Teamwork & Language Review | Write for an Academic Discussion 1 · Take an Interview 2 · mixed review 6 | 9 |
 | | | **59** |
 
 By section, per unit: Reading 18, Listening 17, **Writing 12**, Speaking 6,
