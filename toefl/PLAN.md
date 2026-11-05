@@ -250,6 +250,20 @@ asset recorded in `ASSETS.csv` with source, accession number and licence.
 Unsplash and Pexels are ruled out — their licences are not clean for
 redistribution inside an offline package you hand to someone.
 
+### The art spec — already rendered: `toefl/style-sheet.html`
+
+Phase 2's deliverable is brought forward, because "equivalent in quality" is not
+a thing to agree to in prose. Open that file and you are looking at the actual
+standard: the palette in both modes, the type pairing, the cast, the campus
+notice, the email with its register dial working, the grammar chart, the
+discussion board, the retention-curve chart with hover and a table view, and the
+two highest-volume item shapes. It is Unit 1's real asset set, so it doubles as
+the Unit 1 asset proof. Everything on it is authored vector and CSS — nothing
+from the network, nothing licensed, and it opens straight from `file://`.
+
+§6 of that page states the acceptance criteria the gate enforces, so visual
+equivalence is checkable rather than a matter of taste.
+
 ### The art spec, written before any art
 
 One palette with light and dark tokens. One type pair. One line weight. One

@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visual Standard</title>
+<style>
+:root{
+  color-scheme: light;
+  --paper:#fcfcfb; --card:#ffffff; --sunk:#f4f3ef;
+  --ink:#141412; --ink-2:#56544e; --ink-3:#8a877e;
+  --rule:#e0ded6; --rule-2:#c9c6bb;
+  --accent:#2a78d6; --accent-soft:#eaf2fc;
+  --warm:#eb6834;
+  --s1:#2a78d6; --s2:#eb6834;
+  --ok:#1baf7a;
+  --doc:#fffdf8; --doc-rule:#ddd8c9;
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --doc-serif:Georgia,"Times New Roman",serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --paper:#141413; --card:#1c1c1a; --sunk:#232320;
+    --ink:#f2f1ed; --ink-2:#c0bdb3; --ink-3:#8e8b81;
+    --rule:#333330; --rule-2:#45443f;
+    --accent:#3987e5; --accent-soft:#1b2a3d;
+    --warm:#d95926;
+    --s1:#3987e5; --s2:#d95926;
+    --ok:#199e70;
+    --doc:#1e1d1a; --doc-rule:#3b3933;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --paper:#141413; --card:#1c1c1a; --sunk:#232320;
+  --ink:#f2f1ed; --ink-2:#c0bdb3; --ink-3:#8e8b81;
+  --rule:#333330; --rule-2:#45443f;
+  --accent:#3987e5; --accent-soft:#1b2a3d;
+  --warm:#d95926;
+  --s1:#3987e5; --s2:#d95926;
+  --ok:#199e70;
+  --doc:#1e1d1a; --doc-rule:#3b3933;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--ui);
+ -webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:56px 16px 96px}
+h1{font-size:clamp(28px,4.4vw,40px);line-height:1.12;letter-spacing:-.02em;margin:0 0 12px;font-weight:620}
+.lede{color:var(--ink-2);font-size:17px;max-width:62ch;margin:0 0 8px}
+.meta{color:var(--ink-3);font-size:13.5px;margin:18px 0 0}
+section{margin-top:64px}
+h2{font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);
+ font-weight:650;margin:0 0 6px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+h2 + .note{margin-top:14px}
+h3{font-size:17px;margin:30px 0 10px;font-weight:600;letter-spacing:-.01em}
+.note{color:var(--ink-2);font-size:14.5px;max-width:66ch;margin:0 0 20px}
+.grid{display:grid;gap:22px}
+@media(min-width:760px){.g2{grid-template-columns:1fr 1fr}}
+
+/* tokens */
+.swatches{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px}
+.sw{width:84px}
+.sw i{display:block;height:46px;border-radius:7px;border:1px solid var(--rule)}
+.sw b{display:block;font-size:11.5px;font-weight:600;margin-top:6px}
+.sw code{display:block;font:11px var(--mono);color:var(--ink-3)}
+.type-spec{border-left:2px solid var(--rule);padding-left:18px}
+.type-spec p{margin:0 0 14px}
+.t-dsp{font-size:30px;line-height:1.14;letter-spacing:-.02em;font-weight:620}
+.t-doc{font-family:var(--doc-serif);font-size:17px;line-height:1.62}
+.t-ui{font-size:15px}
+.t-cap{font-size:12.5px;color:var(--ink-3);letter-spacing:.02em}
+
+/* cast */
+.cast{display:flex;flex-wrap:wrap;gap:8px}
+.ch{width:124px;text-align:center}
+.ch svg{display:block;width:84px;height:84px;margin:0 auto;border-radius:50%;
+ background:var(--sunk);border:1px solid var(--rule)}
+.ch b{display:block;font-size:13px;margin-top:9px;font-weight:600;line-height:1.25}
+.ch span{display:block;font-size:11.5px;color:var(--ink-3);line-height:1.4;margin-top:2px}
+
+/* documents */
+.doc{background:var(--doc);border:1px solid var(--doc-rule);border-radius:3px;
+ box-shadow:0 1px 2px rgba(0,0,0,.05),0 8px 22px -14px rgba(0,0,0,.22);
+ font-family:var(--doc-serif);color:var(--ink);overflow:hidden}
+.doc-pad{padding:24px 26px}
+.notice-hd{text-align:center;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:14px}
+.notice-hd .org{font:600 10.5px/1.4 var(--ui);letter-spacing:.17em;text-transform:uppercase;color:var(--ink-2)}
+.notice-hd .ttl{font-size:21px;font-weight:700;letter-spacing:-.01em;margin-top:5px}
+.doc p{margin:0 0 10px;font-size:15.5px}
+.doc .fine{font-size:12.5px;color:var(--ink-2);font-family:var(--ui);margin-top:14px;
+ padding-top:11px;border-top:1px dotted var(--doc-rule)}
+dl.kv{margin:12px 0 0;font-family:var(--ui);font-size:14px}
+dl.kv div{display:flex;gap:10px;padding:5px 0;border-bottom:1px dotted var(--doc-rule)}
+dl.kv dt{flex:0 0 94px;color:var(--ink-2);margin:0}
+dl.kv dd{margin:0;font-weight:550}
+
+/* email */
+.mail-hd{background:var(--sunk);border-bottom:1px solid var(--rule);padding:12px 18px;font-family:var(--ui)}
+.mail-row{display:flex;gap:10px;font-size:13.5px;padding:3px 0;align-items:baseline}
+.mail-row span{flex:0 0 58px;color:var(--ink-3);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.mail-row b{font-weight:550}
+.mail-body{padding:20px 22px;font-family:var(--doc-serif);font-size:15.5px;min-height:132px}
+.mail-body p{margin:0 0 11px}
+.dial{display:inline-flex;background:var(--sunk);border:1px solid var(--rule-2);
+ border-radius:999px;padding:2.5px;font-family:var(--ui);margin:0 0 14px}
+.dial button{border:0;background:transparent;font:550 12.5px var(--ui);color:var(--ink-2);
+ padding:6px 15px;border-radius:999px;cursor:pointer}
+.dial button[aria-pressed="true"]{background:var(--card);color:var(--ink);
+ box-shadow:0 1px 3px rgba(0,0,0,.14)}
+
+/* grammar chart */
+table.gr{width:100%;border-collapse:collapse;font-family:var(--ui);font-size:14px}
+table.gr caption{text-align:left;font:650 11.5px var(--ui);letter-spacing:.11em;
+ text-transform:uppercase;color:var(--ink-3);padding:0 0 9px}
+table.gr th{text-align:left;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;
+ color:var(--ink-2);font-weight:650;padding:0 10px 7px 0;border-bottom:1.5px solid var(--ink)}
+table.gr td{padding:9px 10px 9px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.gr tr:last-child td{border-bottom:1.5px solid var(--ink)}
+.j-co{color:var(--s1);font-weight:650}
+.j-sub{color:var(--s2);font-weight:650}
+.legend-inline{font-size:12.5px;color:var(--ink-2);margin-top:11px;display:flex;gap:18px;flex-wrap:wrap}
+.legend-inline i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+
+/* board */
+.post{border:1px solid var(--rule);border-radius:9px;background:var(--card);padding:15px 17px;margin-bottom:11px}
+.post.prof{border-left:3px solid var(--accent);background:var(--accent-soft)}
+.post.me{border-style:dashed;background:transparent}
+.post-hd{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.post-hd svg{width:30px;height:30px;border-radius:50%;flex:0 0 30px;background:var(--sunk)}
+.post-hd b{font-size:13.5px;font-weight:620}
+.post-hd em{font-size:11.5px;color:var(--ink-3);font-style:normal}
+.post p{margin:0;font-size:14.5px;line-height:1.56;color:var(--ink)}
+.post.me p{color:var(--ink-3);font-style:italic}
+
+/* exercise chrome */
+.ex{background:var(--card);border:1px solid var(--rule);border-radius:11px;padding:20px 22px}
+.ex .kicker{font:650 11px var(--ui);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:7px}
+.ex .stem{font-size:16.5px;margin:0 0 15px;line-height:1.55}
+.lb{display:inline-flex;gap:3px;vertical-align:-2px;margin:0 2px}
+.lb i,.lb u{width:21px;height:28px;display:grid;place-items:center;font:600 15px var(--mono);
+ border-radius:4px;text-decoration:none}
+.lb i{background:var(--sunk);color:var(--ink-2);border:1px solid var(--rule)}
+.lb u{background:var(--card);border:1.5px solid var(--accent);color:var(--ink)}
+.lb u.filled{background:var(--accent-soft)}
+.tiles{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 15px}
+.tile{background:var(--sunk);border:1px solid var(--rule-2);border-radius:7px;
+ padding:7px 12px;font-size:14.5px;cursor:grab;display:inline-flex;align-items:center;gap:7px}
+.tile::before{content:"⠿";color:var(--ink-3);font-size:12px}
+.tile.dis{opacity:.45}
+.tile.set{background:var(--card);border-color:var(--accent);cursor:default}
+.tile.set::before{content:none}
+.slotline{display:flex;flex-wrap:wrap;gap:7px;min-height:44px;padding:7px;
+ background:var(--sunk);border:1.5px dashed var(--rule-2);border-radius:8px;margin-bottom:15px}
+.btns{display:flex;gap:9px;margin-top:4px}
+.btn{font:600 13.5px var(--ui);padding:9px 17px;border-radius:8px;cursor:pointer;border:1px solid transparent}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-ghost{background:transparent;color:var(--ink-2);border-color:var(--rule-2)}
+
+/* chart */
+.fig{background:var(--card);border:1px solid var(--rule);border-radius:11px;padding:20px 22px 14px}
+.fig-ttl{font-size:16.5px;font-weight:620;letter-spacing:-.01em;margin:0 0 3px}
+.fig-sub{font-size:13.5px;color:var(--ink-2);margin:0 0 16px}
+.fig-cap{font-size:12.5px;color:var(--ink-3);margin:12px 0 0;padding-top:11px;border-top:1px solid var(--rule)}
+.lg{display:flex;gap:18px;font-size:13px;color:var(--ink-2);margin:0 0 10px}
+.lg b{display:inline-flex;align-items:center;gap:7px;font-weight:550}
+.lg b i{width:14px;height:3px;border-radius:2px}
+svg .gridln{stroke:var(--rule);stroke-width:1}
+svg .axln{stroke:var(--rule-2);stroke-width:1}
+svg .tk{fill:var(--ink-3);font:11.5px var(--ui)}
+svg .dlab{font:600 12.5px var(--ui)}
+svg .mk{stroke:var(--card);stroke-width:2}
+#cross{stroke:var(--ink-3);stroke-width:1;stroke-dasharray:3 3;opacity:0}
+.tip{position:absolute;pointer-events:none;opacity:0;transition:opacity .1s;
+ background:var(--card);border:1px solid var(--rule-2);border-radius:8px;padding:9px 11px;
+ font:13px var(--ui);box-shadow:0 6px 20px -8px rgba(0,0,0,.3);min-width:132px}
+.tip b{display:block;font-size:11.5px;color:var(--ink-3);font-weight:600;
+ letter-spacing:.05em;text-transform:uppercase;margin-bottom:6px}
+.tip div{display:flex;justify-content:space-between;gap:14px;padding:2px 0}
+.tip i{width:9px;height:9px;border-radius:2px;display:inline-block;margin-right:6px}
+.chart-host{position:relative}
+table.dv{width:100%;border-collapse:collapse;font-size:13px;margin-top:14px}
+table.dv th,table.dv td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--rule)}
+table.dv th:first-child,table.dv td:first-child{text-align:left}
+table.dv th{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2)}
+details.dv-wrap summary{font-size:13px;color:var(--ink-2);cursor:pointer;margin-top:12px}
+.theme{position:fixed;top:14px;right:14px;z-index:9}
+.theme button{font:600 12px var(--ui);padding:7px 13px;border-radius:999px;
+ border:1px solid var(--rule-2);background:var(--card);color:var(--ink-2);cursor:pointer}
+.spec{font-size:13.5px;color:var(--ink-2);background:var(--sunk);border-left:2px solid var(--rule-2);
+ padding:13px 16px;border-radius:0 7px 7px 0;margin-top:16px}
+.spec b{color:var(--ink);font-weight:620}
+ul.crit{font-size:14.5px;color:var(--ink-2);padding-left:20px;max-width:70ch}
+ul.crit li{margin-bottom:9px}
+ul.crit b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="theme"><button id="tt">Dark / light</button></div>
+<div class="wrap">
+
+<h1>The visual standard</h1>
+<p class="lede">One page that renders every template, every cast member and the chart
+style at once, so <em>“does this look like one book, and is it good enough?”</em> can be
+answered by looking rather than by argument.</p>
+<p class="lede">Everything here is authored vector and CSS. No photographs, no
+downloaded assets, no fonts from the network, no licence exposure — and it is all
+that loads from <code>file://</code> with no server. These are Unit&nbsp;1’s actual
+assets, so this page is also the Unit&nbsp;1 asset proof.</p>
+<p class="meta">Step Forward 3 → TOEFL iBT 2026 · Phase 2 deliverable, brought forward · toggle the theme, top right</p>
+
+<section>
+<h2>1 · Tokens</h2>
+<p class="note">One palette, two modes. The dark mode is <em>selected</em>, not an
+automatic inversion — every value re-stepped for the dark surface and re-validated.</p>
+<div class="swatches">
+  <div class="sw"><i style="background:var(--paper)"></i><b>Paper</b><code>surface</code></div>
+  <div class="sw"><i style="background:var(--doc)"></i><b>Document</b><code>warm white</code></div>
+  <div class="sw"><i style="background:var(--sunk)"></i><b>Sunk</b><code>wells, tiles</code></div>
+  <div class="sw"><i style="background:var(--ink)"></i><b>Ink</b><code>primary</code></div>
+  <div class="sw"><i style="background:var(--ink-2)"></i><b>Ink 2</b><code>secondary</code></div>
+  <div class="sw"><i style="background:var(--ink-3)"></i><b>Ink 3</b><code>muted</code></div>
+  <div class="sw"><i style="background:var(--accent)"></i><b>Accent</b><code>series 1</code></div>
+  <div class="sw"><i style="background:var(--warm)"></i><b>Warm</b><code>series 2</code></div>
+  <div class="sw"><i style="background:var(--ok)"></i><b>Correct</b><code>status</code></div>
+</div>
+<div class="spec"><b>Validated, not eyeballed.</b> The two-series pair passes all six
+checks in both modes — lightness band, chroma floor, CVD separation (worst adjacent
+ΔE 24.7 light / 26.8 dark against a ≥8 target), normal-vision floor (33.6 / 31.8
+against a ≥15 floor) and ≥3:1 contrast on surface.</div>
+
+<h3>Type</h3>
+<div class="type-spec">
+  <p class="t-dsp">Display — the lesson title</p>
+  <p class="t-doc">Document serif — every reading passage, notice, form and email
+  body is set in this. The register of a printed document, not of an interface.</p>
+  <p class="t-ui">Interface sans — stems, options, buttons, labels. Never used for
+  a document, so the learner can always tell what is the test and what is the paper.</p>
+  <p class="t-cap">Caption — figure notes, provenance, small print.</p>
+</div>
+<div class="spec">Two families, held apart by <b>job</b>: serif is the world, sans
+is the test. A learner never has to wonder which they are reading.</div>
+</section>
+
+<section>
+<h2>2 · The cast</h2>
+<p class="note">The 2026 spec requires “a visual representation of the speaker(s)”
+on every listening item. A fixed recurring cast — same face, same name, same voice,
+same accent across all twelve units — rather than stock photography: it gives the
+book an identity, costs nothing to license, carries no model-release exposure, and
+makes the audio coherent. Professor Haddad sounds the same in Unit 2 and Unit 11.</p>
+<div class="cast" id="cast"></div>
+</section>
+
+<section>
+<h2>3 · Documents</h2>
+<p class="note">The eight fixed templates. ETS’s own stimulus inventory is “sign,
+menu, email, social media post”, plus “maps, forms, schematic images” — which is a
+Step Forward page. Matching the book and matching the test is one job.</p>
+
+<div class="grid g2">
+  <div>
+    <h3>Campus notice <span class="t-cap">— Read in Daily Life</span></h3>
+    <div class="doc"><div class="doc-pad">
+      <div class="notice-hd">
+        <div class="org">Student Learning Centre</div>
+        <div class="ttl">Study Groups — Sign Up</div>
+      </div>
+      <p>First-year study groups meet weekly from 29 September. Each group takes
+      eight students and is led by a trained peer advisor.</p>
+      <p>Add your name to the sheet outside Room B‑214. Bring your syllabus to the
+      first meeting.</p>
+      <dl class="kv">
+        <div><dt>Where</dt><dd>Room B‑214, Library</dd></div>
+        <div><dt>When</dt><dd>Thursdays, 4:00–5:30 p.m.</dd></div>
+        <div><dt>Contact</dt><dd>d.okafor@university.edu</dd></div>
+      </dl>
+      <p class="fine">Sign‑up closes Friday 26 September at 5:00 p.m. Groups that do
+      not reach four members will not run.</p>
+    </div></div>
+    <div class="spec">41 words of body text — inside the spec’s <b>15–50 word</b> band
+    for easier reading stimuli. The deadline sits in the small print, which is where
+    the inference item lives.</div>
+  </div>
+
+  <div>
+    <h3>Email <span class="t-cap">— Write an Email</span></h3>
+    <div class="dial">
+      <button aria-pressed="true" data-reg="formal">To Professor Haddad</button>
+      <button aria-pressed="false" data-reg="informal">To Mei</button>
+    </div>
+    <div class="doc">
+      <div class="mail-hd">
+        <div class="mail-row"><span>To</span><b id="m-to">n.haddad@university.edu</b></div>
+        <div class="mail-row"><span>Subject</span><b id="m-sub">Request to move to the Thursday section</b></div>
+      </div>
+      <div class="mail-body" id="m-body"></div>
+    </div>
+    <div class="spec"><b>The register dial.</b> Same content, two registers, one
+    switch. Flip it and the model answer rewrites itself sentence for sentence.
+    Register stops being an adjective and becomes a thing you can watch move.</div>
+  </div>
+</div>
+
+<div class="grid g2" style="margin-top:34px">
+  <div>
+    <h3>Grammar chart <span class="t-cap">— Lesson 3</span></h3>
+    <div class="doc"><div class="doc-pad">
+      <table class="gr">
+        <caption>Joining ideas in one sentence</caption>
+        <thead><tr><th>Type</th><th>Pattern</th><th>Example</th></tr></thead>
+        <tbody>
+          <tr><td>Simple</td><td>one clause</td><td>The group meets on Thursday.</td></tr>
+          <tr><td>Compound</td><td>clause <span class="j-co">+ so / and / but</span> + clause</td>
+              <td>The shift overlaps, <span class="j-co">so</span> I cannot attend.</td></tr>
+          <tr><td>Complex</td><td><span class="j-sub">although / because / if</span> + clause, clause</td>
+              <td><span class="j-sub">Although</span> I prefer Tuesdays, I can come Thursday.</td></tr>
+        </tbody>
+      </table>
+      <div class="legend-inline">
+        <span><i style="background:var(--s1)"></i>coordinator</span>
+        <span><i style="background:var(--s2)"></i>subordinator</span>
+      </div>
+    </div></div>
+    <div class="spec">A real boxed paradigm with rules and a double rule under the
+    last row — a printed chart, not a bulleted list. It stays on screen while the
+    exercises run beneath it.</div>
+  </div>
+
+  <div>
+    <h3>Discussion board <span class="t-cap">— Write for an Academic Discussion</span></h3>
+    <div class="post prof">
+      <div class="post-hd" data-av="haddad"><b>Professor Haddad</b><em>· instructor</em></div>
+      <p>Some universities now require all first‑year students to join a study group;
+      others leave it optional. Which policy better supports learning, and why?</p>
+    </div>
+    <div class="post">
+      <div class="post-hd" data-av="priya"><b>Priya Raman</b><em>· 2 hours ago</em></div>
+      <p>It should be required. The students who would benefit most from a group are
+      exactly the ones who never sign up for one.</p>
+    </div>
+    <div class="post">
+      <div class="post-hd" data-av="tomas"><b>Tomás Ferreira</b><em>· 1 hour ago</em></div>
+      <p>I’d keep it optional. Every compulsory group I’ve been in had two people
+      doing the work and four along for the ride.</p>
+    </div>
+    <div class="post me">
+      <div class="post-hd" data-av="you"><b>Your reply</b><em>· 100 words or more</em></div>
+      <p>Engage with Priya or Tomás by name, and add something neither of them said…</p>
+    </div>
+    <div class="spec">The two posts disagree on a <b>real axis</b> — access versus
+    motivation — so there is something to take a side on. All three stay visible while
+    the learner writes.</div>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>4 · The chart</h2>
+<p class="note">CASAS 6.8.1, <em>interpret graphs and charts</em>, sits on Lesson 5
+in all twelve units of the source book. Every reading lesson has a data visual —
+a structural requirement, not decoration. One chart style serves all twelve.</p>
+
+<div class="fig">
+  <p class="fig-ttl">Spreading the same study hours over more days</p>
+  <p class="fig-sub">Words recalled from a 40‑word list, two weeks after four hours of study</p>
+  <div class="lg">
+    <b><i style="background:var(--s2)"></i>One four‑hour session</b>
+    <b><i style="background:var(--s1)"></i>Four one‑hour sessions</b>
+  </div>
+  <div class="chart-host">
+    <svg id="cv" viewBox="0 0 660 300" width="100%" role="img"
+      aria-label="Line chart: recall after one massed session falls to 24 percent by day 14, while four spaced sessions hold 63 percent."></svg>
+    <div class="tip" id="tip"></div>
+  </div>
+  <p class="fig-cap">Illustrative data, authored for this item. The fourth reading
+  item cannot be answered from the passage alone — it needs this chart.</p>
+  <details class="dv-wrap"><summary>Table view</summary>
+    <table class="dv" id="dvt"></table>
+  </details>
+</div>
+<div class="spec"><b>Built to the chart rules.</b> 2px lines, 8px markers ringed in
+the surface colour, recessive grid, one y-axis, legend plus direct labels at the line
+ends so identity is never colour-alone, crosshair and tooltip on hover, and a table
+view underneath. Dark mode re-stepped and re-validated.</div>
+</section>
+
+<section>
+<h2>5 · Exercise chrome</h2>
+<p class="note">The two highest-volume item shapes. Complete the Words is 30 of the
+50 reading items on the real test — more marks than anything else in it.</p>
+
+<div class="grid g2">
+  <div>
+    <h3>Complete the Words</h3>
+    <div class="ex">
+      <div class="kicker">Reading · item 7 of 8 · C1</div>
+      <p class="stem">Students who attend regularly show steady
+        <span class="lb" id="lb1"></span>.</p>
+      <div class="btns">
+        <button class="btn btn-primary btn-check">Check Answers</button>
+        <button class="btn btn-ghost btn-again">Try Again</button>
+      </div>
+    </div>
+    <div class="spec">A wrong letter turns <b>that box only</b>, never the whole word,
+    so the learner can see which part of the word they do not have. Item 7 is
+    morphological — <em>improve → improvement</em> — which is what the B1–C1+ band on
+    this task actually tests.</div>
+  </div>
+
+  <div>
+    <h3>Build a Sentence</h3>
+    <div class="ex">
+      <div class="kicker">Writing · item 4 of 4 · C1</div>
+      <p class="stem">Put the words in order.</p>
+      <div class="slotline" id="sl"><span class="t-cap" style="align-self:center;padding-left:6px">drop words here</span></div>
+      <div class="tiles" id="tl"></div>
+      <div class="btns">
+        <button class="btn btn-primary btn-check">Check Answers</button>
+        <button class="btn btn-ghost btn-again">Try Again</button>
+      </div>
+    </div>
+    <div class="spec">Drag, click or keyboard — all three, as in the CMA build. There
+    are always <b>more tiles than places</b>, so the last tile is never a free
+    placement. The grip glyph marks what is draggable.</div>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>6 · What “equivalent in quality” has to mean</h2>
+<p class="note">Acceptance criteria, so this is checkable rather than a matter of
+taste. The gate fails the build on any of them.</p>
+<ul class="crit">
+  <li><b>One book, not twelve.</b> Every unit draws from this page. A template that
+  appears in Unit 7 and not here is a defect in Unit 7.</li>
+  <li><b>Documents are documents.</b> Real typography, real alignment, real rules and
+  small print. No document is a grey box with text in it.</li>
+  <li><b>Nothing rasterised that could be vector.</b> Crisp at any zoom, a few KB,
+  themeable in both modes.</li>
+  <li><b>Every listening item shows its speaker</b>, and the same character always
+  has the same face, name, voice and accent.</li>
+  <li><b>Every Lesson 5 carries a data visual</b>, in this one chart style, with at
+  least one item that cannot be answered without it.</li>
+  <li><b>Both modes are selected and validated.</b> Dark mode is re-stepped, never an
+  automatic flip, and the palette validator passes in both.</li>
+  <li><b>Licence-clean and offline.</b> Nothing from the network at runtime; every
+  Tier-D photograph recorded in <code>ASSETS.csv</code> with source, accession number
+  and licence.</li>
+  <li><b>No clutter.</b> One viewport, one interactive object, and a hard ceiling on
+  interface words per scene — the rule that fixed the CMA package.</li>
+</ul>
+</section>
+
+</div>
+<script>
+(function(){
+  var AV = {
+    haddad:{sk:"#c99a72",hr:"#2f2a26",hs:"bob",cl:"#4a5f7a"},
+    mei:{sk:"#e8c49c",hr:"#1f1b19",hs:"long",cl:"#2a78d6"},
+    dan:{sk:"#8a5a3b",hr:"#241c17",hs:"short",cl:"#1baf7a"},
+    priya:{sk:"#b07d52",hr:"#302019",hs:"bun",cl:"#eb6834"},
+    tomas:{sk:"#d9a97d",hr:"#3b2b20",hs:"curl",cl:"#6250d6"},
+    you:{sk:"#bdb9ae",hr:"#8a877e",hs:"short",cl:"#8a877e"}
+  };
+  function avatar(k,size){
+    var a=AV[k]||AV.you, s=size||84, h="";
+    h+='<svg viewBox="0 0 84 84" width="'+s+'" height="'+s+'" aria-hidden="true">';
+    h+='<circle cx="42" cy="42" r="42" fill="transparent"/>';
+    // shoulders
+    h+='<path d="M8 84c0-16 15-25 34-25s34 9 34 25z" fill="'+a.cl+'"/>';
+    h+='<path d="M34 60h16v8a8 8 0 0 1-16 0z" fill="'+a.sk+'"/>';
+    // head
+    h+='<ellipse cx="42" cy="38" rx="17" ry="20" fill="'+a.sk+'"/>';
+    // hair
+    if(a.hs==="bob") h+='<path d="M22 38c0-13 9-21 20-21s20 8 20 21c0 0-3-9-20-9s-20 9-20 9z" fill="'+a.hr+'"/><path d="M22 36c-2 10 0 18 2 20-4-4-6-13-2-20zM62 36c2 10 0 18-2 20 4-4 6-13 2-20z" fill="'+a.hr+'"/>';
+    else if(a.hs==="long") h+='<path d="M23 38c0-13 8-21 19-21s19 8 19 21c0 0-2-10-19-10s-19 10-19 10z" fill="'+a.hr+'"/><path d="M23 35c-3 14-1 26 1 31-6-6-8-22-1-31zM61 35c3 14 1 26-1 31 6-6 8-22 1-31z" fill="'+a.hr+'"/>';
+    else if(a.hs==="bun") h+='<circle cx="42" cy="15" r="7" fill="'+a.hr+'"/><path d="M24 37c0-12 8-20 18-20s18 8 18 20c0 0-2-9-18-9s-18 9-18 9z" fill="'+a.hr+'"/>';
+    else if(a.hs==="curl") h+='<path d="M24 37c0-13 8-21 18-21s18 8 18 21c0 0-2-9-18-9s-18 9-18 9z" fill="'+a.hr+'"/><circle cx="27" cy="28" r="5" fill="'+a.hr+'"/><circle cx="42" cy="21" r="6" fill="'+a.hr+'"/><circle cx="57" cy="28" r="5" fill="'+a.hr+'"/>';
+    else h+='<path d="M25 38c0-12 8-20 17-20s17 8 17 20c0 0-2-8-17-8s-17 8-17 8z" fill="'+a.hr+'"/>';
+    // eyes + mouth
+    h+='<circle cx="35" cy="38" r="2.1" fill="#2b2622"/><circle cx="49" cy="38" r="2.1" fill="#2b2622"/>';
+    h+='<path d="M37 47q5 4 10 0" stroke="#2b2622" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
+    h+='</svg>';
+    return h;
+  }
+  var CAST=[["haddad","Prof. Nadia Haddad","lecturer · British"],
+            ["mei","Mei Lin","first year · US"],
+            ["dan","Dan Okafor","peer advisor · US"],
+            ["priya","Priya Raman","student · Australian"],
+            ["tomas","Tomás Ferreira","student · US"]];
+  var ch=document.getElementById("cast");
+  CAST.forEach(function(c){
+    var d=document.createElement("div"); d.className="ch";
+    d.innerHTML=avatar(c[0],84)+"<b>"+c[1]+"</b><span>"+c[2]+"</span>";
+    ch.appendChild(d);
+  });
+  [].forEach.call(document.querySelectorAll(".post-hd[data-av]"),function(e){
+    e.insertAdjacentHTML("afterbegin",avatar(e.dataset.av,30));
+  });
+
+  // ---- email register dial
+  var MAIL={
+    formal:{to:"n.haddad@university.edu",sub:"Request to move to the Thursday section",
+      body:["Dear Professor Haddad,",
+        "I am writing to ask whether it would be possible to move to the Thursday section of Introduction to Psychology.",
+        "I have been offered a shift that unfortunately overlaps with the Tuesday seminar.",
+        "I would be grateful if you could let me know what I need to do.",
+        "Kind regards,<br>Mei Lin"]},
+    informal:{to:"mei.lin@university.edu",sub:"switching to Thursdays?",
+      body:["Hi Mei,",
+        "I wanted to ask if I could switch to Thursdays for Psych.",
+        "I got offered a shift that clashes with Tuesday.",
+        "Let me know what I should do?",
+        "Thanks!<br>Mei"]}
+  };
+  function setReg(r){
+    var m=MAIL[r];
+    document.getElementById("m-to").textContent=m.to;
+    document.getElementById("m-sub").textContent=m.sub;
+    document.getElementById("m-body").innerHTML=m.body.map(function(p){return "<p>"+p+"</p>";}).join("");
+    [].forEach.call(document.querySelectorAll(".dial button"),function(b){
+      b.setAttribute("aria-pressed", String(b.dataset.reg===r));
+    });
+  }
+  [].forEach.call(document.querySelectorAll(".dial button"),function(b){
+    b.addEventListener("click",function(){setReg(b.dataset.reg);});
+  });
+  setReg("formal");
+
+  // ---- letterbox
+  var WORD="improvement", SHOWN=[0,1,2,3,10];  // i m p r . . . . . . t
+  var lb=document.getElementById("lb1");
+  WORD.split("").forEach(function(c,i){
+    var given=SHOWN.indexOf(i)>-1;
+    var el=document.createElement(given?"i":"u");
+    el.textContent=given?c:(i<6?c:"");
+    if(!given && i<6) el.className="filled";
+    lb.appendChild(el);
+  });
+
+  // ---- tiles
+  var TILES=["would","be","grateful","if","you","could","let","me","know","whether","there","is","space","happy","to"];
+  var tl=document.getElementById("tl"), sl=document.getElementById("sl");
+  sl.innerHTML=["I","would","be","grateful"].map(function(w){return '<span class="tile set">'+w+'</span>';}).join("");
+  ["if","you","could","let","me","know","whether","there","is","space","happy","to"].forEach(function(w,i){
+    var s=document.createElement("span"); s.className="tile"+(i>9?" dis":""); s.textContent=w; tl.appendChild(s);
+  });
+
+  // ---- chart
+  var DAYS=[1,2,3,5,7,10,14];
+  var MASSED=[92,74,62,48,39,30,24], SPACED=[88,82,78,73,70,66,63];
+  var W=660,H=300,L=46,R=132,T=16,B=38;
+  var pw=W-L-R, phh=H-T-B;
+  function X(d){return L+(d-1)/13*pw;}
+  function Y(v){return T+(100-v)/100*phh;}
+  function path(a){return a.map(function(v,i){return (i?"L":"M")+X(DAYS[i]).toFixed(1)+" "+Y(v).toFixed(1);}).join(" ");}
+  var s=[];
+  [0,25,50,75,100].forEach(function(g){
+    s.push('<line class="gridln" x1="'+L+'" y1="'+Y(g)+'" x2="'+(L+pw)+'" y2="'+Y(g)+'"/>');
+    s.push('<text class="tk" x="'+(L-10)+'" y="'+(Y(g)+4)+'" text-anchor="end">'+g+'%</text>');
+  });
+  s.push('<line class="axln" x1="'+L+'" y1="'+Y(0)+'" x2="'+(L+pw)+'" y2="'+Y(0)+'"/>');
+  DAYS.forEach(function(d){
+    s.push('<text class="tk" x="'+X(d)+'" y="'+(Y(0)+19)+'" text-anchor="middle">'+d+'</text>');
+  });
+  s.push('<text class="tk" x="'+(L+pw/2)+'" y="'+(H-4)+'" text-anchor="middle">Days after studying</text>');
+  s.push('<line id="cross" x1="0" y1="'+T+'" x2="0" y2="'+Y(0)+'"/>');
+  s.push('<path d="'+path(MASSED)+'" fill="none" stroke="var(--s2)" stroke-width="2" stroke-linecap="round"/>');
+  s.push('<path d="'+path(SPACED)+'" fill="none" stroke="var(--s1)" stroke-width="2" stroke-linecap="round"/>');
+  DAYS.forEach(function(d,i){
+    s.push('<circle class="mk" cx="'+X(d)+'" cy="'+Y(MASSED[i])+'" r="4" fill="var(--s2)"/>');
+    s.push('<circle class="mk" cx="'+X(d)+'" cy="'+Y(SPACED[i])+'" r="4" fill="var(--s1)"/>');
+  });
+  s.push('<text class="dlab" x="'+(L+pw+10)+'" y="'+(Y(SPACED[6])+4)+'" fill="var(--s1)">63% · spaced</text>');
+  s.push('<text class="dlab" x="'+(L+pw+10)+'" y="'+(Y(MASSED[6])+4)+'" fill="var(--s2)">24% · one session</text>');
+  document.getElementById("cv").innerHTML=s.join("");
+
+  var dvt=document.getElementById("dvt");
+  dvt.innerHTML="<thead><tr><th>Day</th><th>One session</th><th>Four sessions</th></tr></thead><tbody>"+
+    DAYS.map(function(d,i){return "<tr><td>"+d+"</td><td>"+MASSED[i]+"%</td><td>"+SPACED[i]+"%</td></tr>";}).join("")+"</tbody>";
+
+  var svg=document.getElementById("cv"), tip=document.getElementById("tip"), cross=document.getElementById("cross");
+  function move(e){
+    var r=svg.getBoundingClientRect(), sc=W/r.width;
+    var px=(e.clientX-r.left)*sc;
+    var best=0,bd=1e9;
+    DAYS.forEach(function(d,i){var dd=Math.abs(X(d)-px); if(dd<bd){bd=dd;best=i;}});
+    if(bd>44){hide();return;}
+    var cx=X(DAYS[best]);
+    cross.setAttribute("x1",cx); cross.setAttribute("x2",cx); cross.style.opacity=.7;
+    tip.innerHTML="<b>Day "+DAYS[best]+"</b>"+
+      '<div><span><i style="background:var(--s1)"></i>Four sessions</span><b>'+SPACED[best]+'%</b></div>'+
+      '<div><span><i style="background:var(--s2)"></i>One session</span><b>'+MASSED[best]+'%</b></div>';
+    tip.style.opacity=1;
+    var hx=cx/sc, hy=Y(Math.max(SPACED[best],MASSED[best]))/sc;
+    tip.style.left=Math.min(Math.max(hx-tip.offsetWidth/2,0),r.width-tip.offsetWidth)+"px";
+    tip.style.top=Math.max(hy-tip.offsetHeight-14,0)+"px";
+  }
+  function hide(){tip.style.opacity=0;cross.style.opacity=0;}
+  svg.addEventListener("mousemove",move);
+  svg.addEventListener("mouseleave",hide);
+
+  var tt=document.getElementById("tt");
+  tt.addEventListener("click",function(){
+    var cur=document.documentElement.getAttribute("data-theme");
+    if(!cur) cur = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", cur==="dark"?"light":"dark");
+  });
+})();
+</script>
+</body>
+</html>
