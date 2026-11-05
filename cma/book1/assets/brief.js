@@ -268,6 +268,451 @@
   };
 
   /* ------------------------------------------------------------------ *
+   * CHAPTERS 3 TO 5
+   *
+   * Each of these moves one thing its section is about, and the words and amounts in
+   * them are the author's own, taken from the figure named in the comment. Chapters 3
+   * to 5 had NO drawings at all - brief_anim returns None for a chapter with no entry,
+   * which is the right default and was never meant to be the finished state.
+   *
+   * They reuse the bf-* classes rather than adding new ones: a drawing that needs its
+   * own stylesheet is a drawing doing too much.
+   * ------------------------------------------------------------------ */
+
+  /* F03-04: net sales shrink, subtotal by subtotal, to net income. */
+  ANIM.waterfall = function () {
+    var s = frame();
+    [["Net sales", 236, 0], ["Gross profit", 92, 1], ["Operating income", 46, 2],
+     ["Net income", 34, 3]].forEach(function (r, i) {
+      rect(s, 34, 16 + i * 30, r[1], 20, "bf-band bf-band" + i);
+      txt(s, 40 + r[1] + 6, 31 + i * 30, r[0], "bf-tiny");
+    });
+    txt(s, 160, 130, "each subtotal is smaller than the one above", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F03-05: a gain reaches the statement net, not at its full proceeds. */
+  ANIM.netGain = function () {
+    var s = frame();
+    txt(s, 160, 22, "proceeds, then the gain alone", "bf-mid bf-sm");
+    rect(s, 50, 34, 220, 20, "bf-a");
+    txt(s, 160, 48, "proceeds of the sale", "bf-mid bf-tiny");
+    /* authored at the NET width, like ANIM.contra: the still frame is the true one */
+    rect(s, 50, 74, 34, 20, "bf-l bf-shrink");
+    txt(s, 160, 116, "only the gain appears, in other income", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F03-06: what stays in continuing operations, and what goes below the line. */
+  ANIM.belowLine = function () {
+    var s = frame();
+    rect(s, 40, 18, 240, 24, "bf-band bf-band0");
+    txt(s, 160, 34, "continuing operations", "bf-mid bf-tiny");
+    rect(s, 40, 46, 240, 20, "bf-band bf-band1");
+    txt(s, 160, 60, "unusual item · a separate line, before tax", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 30, y1: 78, x2: 290, y2: 78, class: "bf-cut" }));
+    rect(s, 40, 86, 240, 22, "bf-e bf-slide");
+    txt(s, 160, 101, "discontinued operations · net of tax", "bf-mid bf-tiny");
+    txt(s, 160, 126, "only one of them crosses the line", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F03-08: net income plus OCI is comprehensive income, and OCI builds AOCI. */
+  ANIM.oci = function () {
+    var s = frame();
+    rect(s, 30, 30, 96, 26, "bf-card bf-band0");
+    txt(s, 78, 47, "net income", "bf-mid bf-tiny");
+    rect(s, 134, 30, 52, 26, "bf-card bf-band1");
+    txt(s, 160, 47, "OCI", "bf-mid bf-tiny");
+    rect(s, 194, 30, 96, 26, "bf-card bf-band2");
+    txt(s, 242, 47, "comprehensive", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 186 43 L 194 43", class: "bf-flow" }));
+    rect(s, 134, 84, 52, 22, "bf-e bf-grow");
+    txt(s, 160, 99, "AOCI", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 160 60 L 160 80", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 126, "OCI builds a balance in equity", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F03-09: the same year, measured two ways. */
+  ANIM.incomeVsCash = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 30, y1: 110, x2: 290, y2: 110, class: "bf-base" }));
+    rect(s, 64, 46, 64, 62, "bf-a");
+    txt(s, 96, 126, "net income", "bf-mid bf-tiny");
+    var c = rect(s, 190, 28, 64, 80, "bf-l bf-rise");
+    txt(s, 222, 126, "cash from operations", "bf-mid bf-tiny");
+    txt(s, 160, 20, "two measures of one year", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F04-02: an opening balance, the movements, a closing balance. */
+  ANIM.rollforward = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 30, y1: 112, x2: 290, y2: 112, class: "bf-base" }));
+    rect(s, 40, 70, 50, 42, "bf-a");
+    txt(s, 65, 128, "opening", "bf-mid bf-tiny");
+    [["issue", 100, 24], ["income", 140, 34], ["OCI", 180, 6], ["dividend", 212, 14]]
+      .forEach(function (m, i) {
+        rect(s, m[1], 70 - m[2], 30, m[2], "bf-band bf-band" + i);
+      });
+    rect(s, 252, 46, 50, 66, "bf-e bf-grow");
+    txt(s, 274, 128, "closing", "bf-mid bf-tiny");
+    txt(s, 160, 24, "one column, rolled forward", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F04-04: shares bought back are deducted from equity, not held as an asset. */
+  ANIM.treasuryBox = function () {
+    var s = frame();
+    rect(s, 46, 26, 228, 54, "bf-card");
+    txt(s, 160, 44, "equity", "bf-mid bf-sm");
+    rect(s, 196, 52, 68, 22, "bf-l bf-shrink");
+    txt(s, 230, 68, "treasury", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 230 90 L 230 82", class: "bf-flow" }));
+    txt(s, 160, 112, "deducted from equity, never an asset", "bf-mid bf-tiny");
+    txt(s, 160, 130, "and never a gain or a loss in income", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F04-07: a stock dividend moves labels inside equity; the total does not change. */
+  ANIM.dividendMove = function () {
+    var s = frame();
+    rect(s, 40, 24, 240, 22, "bf-band bf-band0");
+    txt(s, 160, 39, "total equity: no change", "bf-mid bf-tiny");
+    rect(s, 40, 62, 112, 24, "bf-a bf-shrink");
+    txt(s, 96, 102, "retained earnings", "bf-mid bf-tiny");
+    rect(s, 158, 62, 122, 24, "bf-e bf-grow");
+    txt(s, 219, 102, "common stock + APIC", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 150 74 L 158 74", class: "bf-flow" }));
+    txt(s, 160, 128, "only the labels inside equity move", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* Section 4.4: an old error is corrected in the OPENING balance, not in this year. */
+  ANIM.priorPeriod = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 24, y1: 74, x2: 296, y2: 74, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 160, y1: 30, x2: 160, y2: 112, class: "bf-cut" }));
+    txt(s, 86, 24, "earlier years", "bf-mid bf-tiny");
+    txt(s, 234, 24, "this year", "bf-mid bf-tiny");
+    rect(s, 92, 50, 56, 18, "bf-l bf-grow");
+    txt(s, 120, 100, "opening balance restated", "bf-mid bf-tiny");
+    rect(s, 176, 50, 56, 18, "bf-a");
+    txt(s, 204, 100, "net income untouched", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F05-03: three activities, one change in cash. */
+  ANIM.threeActivities = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 24, y1: 96, x2: 296, y2: 96, class: "bf-base" }));
+    [["operating", 40, 62], ["investing", 112, 34], ["financing", 184, 16]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 96 - b[2], 56, b[2], "bf-band bf-band" + i);
+        txt(s, b[1] + 28, 112, b[0], "bf-mid bf-tiny");
+      });
+    rect(s, 256, 42, 46, 54, "bf-e bf-grow");
+    txt(s, 279, 112, "change in cash", "bf-mid bf-tiny");
+    txt(s, 160, 24, "three activities, one number", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F05-06: the same rule, twice, with a sign on it. */
+  ANIM.signs = function () {
+    var s = frame();
+    rect(s, 108, 56, 104, 26, "bf-card");
+    txt(s, 160, 73, "net income", "bf-mid bf-tiny");
+    rect(s, 34, 26, 68, 22, "bf-e bf-in");
+    txt(s, 68, 42, "added back", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 102 44 L 112 56", class: "bf-flow" }));
+    rect(s, 218, 90, 68, 22, "bf-l bf-in2");
+    txt(s, 252, 106, "taken off", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 212 82 L 220 90", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 130, "every adjustment is a sign", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F05-07: two presentations, one total. */
+  ANIM.twoMethods = function () {
+    var s = frame();
+    rect(s, 30, 26, 112, 26, "bf-card bf-band0");
+    txt(s, 86, 43, "indirect", "bf-mid bf-tiny");
+    rect(s, 30, 70, 112, 26, "bf-card bf-band1");
+    txt(s, 86, 87, "direct", "bf-mid bf-tiny");
+    rect(s, 196, 46, 94, 30, "bf-e bf-grow");
+    txt(s, 243, 65, "one total", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 142 39 L 196 56", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 142 83 L 196 66", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 124, "only the presentation differs", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F05-08: the closing line of one statement is a line on another. */
+  ANIM.cashLink = function () {
+    var s = frame();
+    rect(s, 24, 34, 120, 44, "bf-card bf-band0");
+    txt(s, 84, 52, "statement of", "bf-mid bf-tiny");
+    txt(s, 84, 68, "cash flows", "bf-mid bf-tiny");
+    rect(s, 180, 34, 116, 44, "bf-card bf-band2");
+    txt(s, 238, 52, "balance sheet", "bf-mid bf-tiny");
+    txt(s, 238, 68, "cash", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 144 56 L 180 56", class: "bf-flow" }));
+    txt(s, 160, 24, "net income starts it", "bf-mid bf-tiny");
+    txt(s, 160, 110, "closing cash equals the cash on the balance sheet",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* ------------------------------------------------------------------ *
+   * CHAPTERS 6 TO 18
+   *
+   * Eighty-one sections opened a Brief with prose, terms and no picture. These are the
+   * same nineteen mechanisms as the icon families added for those chapters, drawn at
+   * panel size with the author's own words on them - the mark on a term chip and the
+   * drawing in the Brief show the same thing, which is the design's own idea rather
+   * than two unrelated pictures of one topic.
+   *
+   * Reuse was preferred wherever a mechanism really matched: the chapters below take
+   * tAccount, contra, ladder, waterfall, twoMethods, oci, rollforward and links from
+   * what already existed. A drawing is added only where nothing shows that movement.
+   * ------------------------------------------------------------------ */
+
+  /* F06-03: older money is worth less, and the allowance is what the ladder adds to. */
+  ANIM.aging = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 24, y1: 104, x2: 296, y2: 104, class: "bf-base" }));
+    [["current", 44, 16], ["1-30", 100, 34], ["31-60", 156, 56], ["60+", 212, 78]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 104 - b[2], 40, b[2], "bf-band bf-band" + i);
+        txt(s, b[1] + 20, 120, b[0], "bf-mid bf-tiny");
+      });
+    rect(s, 262, 48, 34, 56, "bf-e bf-grow");
+    txt(s, 279, 120, "allowance", "bf-mid bf-tiny");
+    txt(s, 160, 24, "the older it is, the more is expected to go", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F06-07: out to the factor as a sale, or back as a loan against the receivables. */
+  ANIM.transfer = function () {
+    var s = frame();
+    rect(s, 26, 44, 86, 46, "bf-card");
+    txt(s, 69, 72, "the company", "bf-mid bf-tiny");
+    rect(s, 208, 44, 86, 46, "bf-card");
+    txt(s, 251, 72, "the factor", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 112 60 L 208 60", class: "bf-flow" }));
+    txt(s, 160, 52, "a sale", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 208 80 L 112 80", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 98, "or a secured borrowing", "bf-mid bf-tiny");
+    txt(s, 160, 126, "three conditions decide which", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F07-04: the same pile of cost, split from the bottom or from the top. */
+  ANIM.layers = function () {
+    var s = frame();
+    [0, 1, 2, 3].forEach(function (i) {
+      rect(s, 60, 22 + i * 24, 200, 19, "bf-band bf-band" + i);
+    });
+    txt(s, 160, 16, "cost of goods available", "bf-mid bf-sm");
+    txt(s, 40, 35, "LIFO", "bf-mid bf-tiny");
+    txt(s, 280, 107, "FIFO", "bf-mid bf-tiny");
+    txt(s, 160, 130, "which layer becomes cost of goods sold", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F07-02: whose goods are they while they are on the road. */
+  ANIM.ship = function () {
+    var s = frame();
+    rect(s, 20, 50, 60, 44, "bf-card");
+    txt(s, 50, 76, "seller", "bf-mid bf-tiny");
+    rect(s, 240, 50, 60, 44, "bf-card");
+    txt(s, 270, 76, "buyer", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 80, y1: 72, x2: 240, y2: 72, class: "bf-cut" }));
+    rect(s, 140, 62, 40, 20, "bf-a bf-slide");
+    txt(s, 160, 112, "FOB decides who counts them in transit", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F08-04: market is the middle one, never the extreme. */
+  ANIM.band = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 60, y1: 32, x2: 260, y2: 32, class: "bf-beam" }));
+    txt(s, 160, 24, "ceiling", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 60, y1: 112, x2: 260, y2: 112, class: "bf-beam" }));
+    txt(s, 160, 128, "floor", "bf-mid bf-tiny");
+    s.appendChild(svg("circle", { cx: 160, cy: 72, r: 11, class: "bf-dot bf-orbit" }));
+    txt(s, 160, 60, "market", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F08-06: cost and retail, and the ratio between the two columns. */
+  ANIM.retail = function () {
+    var s = frame();
+    rect(s, 54, 46, 70, 70, "bf-a");
+    txt(s, 89, 132, "at cost", "bf-mid bf-tiny");
+    rect(s, 196, 20, 70, 96, "bf-l");
+    txt(s, 231, 132, "at retail", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 124 76 L 196 76", class: "bf-flow" }));
+    txt(s, 160, 66, "the ratio", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F09-02: three categories, and where the change in value goes. */
+  ANIM.buckets = function () {
+    var s = frame();
+    [["trading", 28], ["available-for-sale", 118], ["held-to-maturity", 208]]
+      .forEach(function (b, i) {
+        rect(s, b[1], 44, 84, 50, "bf-card bf-band" + i);
+        txt(s, b[1] + 42, 72, b[0], "bf-mid bf-tiny");
+      });
+    txt(s, 70, 118, "net income", "bf-mid bf-tiny");
+    txt(s, 160, 118, "OCI", "bf-mid bf-tiny");
+    txt(s, 250, 118, "amortised cost", "bf-mid bf-tiny");
+    txt(s, 160, 24, "intent and ability decide the category", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F09-06, F16-01: how much of it you own decides what you do with it. */
+  ANIM.influence = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 30, y1: 76, x2: 290, y2: 76, class: "bf-base" }));
+    [["fair value", 70], ["equity method", 160], ["consolidate", 250]]
+      .forEach(function (p, i) {
+        s.appendChild(svg("circle", { cx: p[1], cy: 76, r: 10,
+                                      class: "bf-dot bf-pulse" + i }));
+        txt(s, p[1], 100, p[0], "bf-mid bf-tiny");
+      });
+    txt(s, 70, 54, "under 20%", "bf-mid bf-tiny");
+    txt(s, 160, 54, "20 to 50%", "bf-mid bf-tiny");
+    txt(s, 250, 54, "over 50%", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F10-02: the same total depreciation, charged at different times. */
+  ANIM.curve = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 36, y1: 110, x2: 292, y2: 110, class: "bf-base" }));
+    s.appendChild(svg("line", { x1: 36, y1: 110, x2: 36, y2: 24, class: "bf-base" }));
+    s.appendChild(svg("path", { d: "M 36 30 L 280 96", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 36 30 C 110 92, 180 96, 280 98",
+                                class: "bf-flow bf-flow2" }));
+    s.appendChild(svg("line", { x1: 36, y1: 96, x2: 292, y2: 96, class: "bf-cut" }));
+    txt(s, 290, 112, "salvage", "bf-end bf-tiny");
+    txt(s, 160, 128, "same total, different years", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F10-08: the test first, then the drop. */
+  ANIM.impair = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 24, y1: 112, x2: 296, y2: 112, class: "bf-base" }));
+    rect(s, 50, 32, 70, 80, "bf-a");
+    txt(s, 85, 128, "carrying", "bf-mid bf-tiny");
+    rect(s, 200, 62, 70, 50, "bf-l bf-shrink");
+    txt(s, 235, 128, "fair value", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 124 48 L 196 62", class: "bf-flow" }));
+    txt(s, 160, 24, "only if the cash flows do not cover it", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F11-01: five steps, and revenue at the end of them. */
+  ANIM.fivesteps = function () {
+    var s = frame();
+    for (var i = 0; i < 5; i++) {
+      rect(s, 26 + i * 56, 98 - i * 16, 44, 14 + i * 16, "bf-band bf-band" + (i % 5));
+      txt(s, 48 + i * 56, 124, String(i + 1), "bf-mid bf-tiny");
+    }
+    s.appendChild(svg("line", { x1: 20, y1: 112, x2: 300, y2: 112, class: "bf-base" }));
+    txt(s, 160, 24, "revenue when control passes", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F12-04: the line between current and noncurrent, and what moves across it. */
+  ANIM.refinance = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 160, y1: 30, x2: 160, y2: 112, class: "bf-cut" }));
+    txt(s, 86, 24, "current", "bf-mid bf-tiny");
+    txt(s, 234, 24, "noncurrent", "bf-mid bf-tiny");
+    rect(s, 44, 56, 84, 30, "bf-l");
+    rect(s, 192, 56, 84, 30, "bf-e bf-grow");
+    s.appendChild(svg("path", { d: "M 128 71 L 192 71", class: "bf-flow" }));
+    txt(s, 160, 126, "intent is not enough: a qualifying agreement",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F13-01: two sets of books, and the gap that reverses. */
+  ANIM.twobooks = function () {
+    var s = frame();
+    rect(s, 34, 30, 100, 82, "bf-card bf-band0");
+    txt(s, 84, 74, "book income", "bf-mid bf-tiny");
+    rect(s, 186, 30, 100, 82, "bf-card bf-band2");
+    txt(s, 236, 74, "taxable income", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 134 56 L 186 56", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 186 90 L 134 90", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 128, "a temporary difference comes back", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F14-01: one contract, an asset over a liability. */
+  ANIM.rou = function () {
+    var s = frame();
+    rect(s, 54, 26, 212, 34, "bf-a");
+    txt(s, 160, 46, "right-of-use asset", "bf-mid bf-tiny");
+    rect(s, 54, 78, 212, 34, "bf-l");
+    txt(s, 160, 98, "lease liability", "bf-mid bf-tiny");
+    s.appendChild(svg("line", { x1: 40, y1: 69, x2: 280, y2: 69, class: "bf-base" }));
+    txt(s, 160, 128, "both start at the present value of the payments",
+        "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F16-07: profit made inside the group is not profit yet. */
+  ANIM.group = function () {
+    var s = frame();
+    rect(s, 100, 20, 120, 34, "bf-card");
+    txt(s, 160, 40, "parent", "bf-mid bf-tiny");
+    rect(s, 100, 86, 120, 34, "bf-card");
+    txt(s, 160, 106, "subsidiary", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 130 56 L 130 84", class: "bf-flow" }));
+    s.appendChild(svg("path", { d: "M 190 84 L 190 56", class: "bf-flow bf-flow2" }));
+    s.appendChild(svg("line", { x1: 72, y1: 70, x2: 248, y2: 70, class: "bf-cut" }));
+    txt(s, 160, 134, "eliminated in full, whatever the share", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* F17-04: the IFRS-only step back up. */
+  ANIM.revalue = function () {
+    var s = frame();
+    s.appendChild(svg("line", { x1: 24, y1: 112, x2: 296, y2: 112, class: "bf-base" }));
+    rect(s, 56, 64, 72, 48, "bf-a");
+    txt(s, 92, 128, "U.S. GAAP", "bf-mid bf-tiny");
+    rect(s, 196, 34, 72, 78, "bf-e bf-grow");
+    txt(s, 232, 128, "IFRS", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 132 60 L 192 40", class: "bf-flow" }));
+    txt(s, 160, 22, "one framework can go back up", "bf-mid bf-sm");
+    return s;
+  };
+
+  /* F18-04: six capitals in, outputs and outcomes out. */
+  ANIM.capitals = function () {
+    var s = frame();
+    for (var i = 0; i < 6; i++) {
+      rect(s, 24 + (i % 3) * 30, 26 + Math.floor(i / 3) * 30, 24, 22,
+           "bf-band bf-band" + (i % 5));
+    }
+    rect(s, 134, 34, 72, 54, "bf-card");
+    txt(s, 170, 64, "business model", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 116 60 L 134 60", class: "bf-flow" }));
+    rect(s, 234, 34, 62, 54, "bf-e bf-grow");
+    txt(s, 265, 64, "outcomes", "bf-mid bf-tiny");
+    s.appendChild(svg("path", { d: "M 206 60 L 234 60", class: "bf-flow bf-flow2" }));
+    txt(s, 160, 122, "six capitals, one process", "bf-mid bf-tiny");
+    return s;
+  };
+
+  /* ------------------------------------------------------------------ *
    * THE PANEL
    * ------------------------------------------------------------------ */
   function build(page) {

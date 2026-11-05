@@ -303,7 +303,10 @@
    * An exhibit at the very end of a deck has nothing following it, so it attaches to
    * the last exercise instead. Attaching it to nothing would silently drop a figure.
    */
-  var EXHIBIT_SLOT = { figure: "fig", lines: "lines" };
+  /* `grid` is the wide form of `lines`: Chapter 4's Figure F04-02 is a roll-forward
+     matrix with one column per component of equity, which the two-column `lines`
+     exhibit cannot hold. See assets/grid.js. */
+  var EXHIBIT_SLOT = { figure: "fig", lines: "lines", grid: "grid" };
 
   /* WHERE AN EXHIBIT GOES, AND THE MISTAKE THAT SETTLED IT.
    *
@@ -556,6 +559,7 @@
       var X = root.Exhibit || {};
       if (spec.fig && X.fig) stage.appendChild(X.fig(spec.fig));
       if (spec.lines && X.lines) stage.appendChild(X.lines(spec.lines));
+      if (spec.grid && X.grid) stage.appendChild(X.grid(spec.grid));
       var r = SCENES[spec.kind];
       if (!r) { stage.appendChild(E("p", null, "Unknown scene kind: " + spec.kind)); return; }
       api.grade = r(stage, spec, api);

@@ -1,0 +1,20 @@
+# cma_provenance over chapters 1-5
+# Saved 2026-11-05 from a real run over chapters 1-5.
+# Run it again with: cd D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python && python -m gates.cma_provenance
+
+PASS book_is_verbatim/ch01          417 blocks verbatim against CMA_P1_Book1_volume_v1.3.docx (sha 0836a0eb7cc8)
+  PASS baseline_is_the_book/ch01      the chapter has 1405 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch01      all 55 of the site's own checks pass
+  PASS book_is_verbatim/ch02          411 blocks verbatim against CMA_P1_Book1_volume_v1.3.docx (sha 0836a0eb7cc8)
+  PASS baseline_is_the_book/ch02      the chapter has 1237 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch02      all 63 of the site's own checks pass
+  PASS book_is_verbatim/ch03          408 blocks verbatim against CMA_P1_Book1_volume_v1.3.docx (sha 0836a0eb7cc8)
+  PASS baseline_is_the_book/ch03      the chapter has 1051 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch03      all 55 of the site's own checks pass
+  PASS book_is_verbatim/ch04          447 blocks verbatim against CMA_P1_Book1_volume_v1.3.docx (sha 0836a0eb7cc8)
+  PASS baseline_is_the_book/ch04      the chapter has 942 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch04      all 62 of the site's own checks pass
+  PASS book_is_verbatim/ch05          431 blocks verbatim against CMA_P1_Book1_volume_v1.3.docx (sha 0836a0eb7cc8)
+  PASS baseline_is_the_book/ch05      the chapter has 954 distinct words; the baseline holds 100.0% of them, 0 absent
+  PASS site_provenance_lock/ch05      all 59 of the site's own checks pass
+RESULT: PASS

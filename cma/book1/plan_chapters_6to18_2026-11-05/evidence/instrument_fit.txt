@@ -1,0 +1,166 @@
+================================================================================================
+HOW EVERY PRINTED FIGURE IN CHAPTERS 6-18 IS CLASSIFIED
+================================================================================================
+The rules, in the order they are tried:
+   switch   (exists)  head is Topic | U.S. GAAP ... | IFRS ...
+   post     (exists)  head has Debit and Credit
+   schedule (NEW)     a Year/period column, and a closing column that is the next row's opening
+   rowpick  (NEW)     three or more amount columns and a column chosen FROM them (market, LCM)
+   shares   (exists)  two or more columns whose cells repeat a set of at most four short words
+   waterfall(exists)  two columns, a label and an amount, with subtotal rows
+   grid     (exists)  four or more columns of amounts, nothing chosen
+   lines    (exists)  two or three columns, a label and amounts
+
+  chapter 6
+      F06-03    grid     (exists)  7 x 4
+      F06-05    lines    (exists)  5 x 3
+      F06-06    grid     (exists)  5 x 4
+      F06-09    lines    (exists)  9 x 2
+      F06-10    lines    (exists)  5 x 3
+      F06-12    lines    (exists)  10 x 2
+  chapter 7
+      F07-03    lines    (exists)  1 x 1
+      F07-05    grid     (exists)  4 x 5
+      F07-06    lines    (exists)  1 x 1
+      F07-09    shares   (exists)  5 x 7
+      F07-10    shares   (exists)  5 x 4
+      F07-11    grid     (exists)  6 x 4
+      F07-13    lines    (exists)  13 x 4
+  chapter 8
+      F08-03    lines    (exists)  9 x 2
+      F08-05    rowpick  (NEW)     6 x 9
+      F08-06    lines    (exists)  1 x 1
+      F08-08    lines    (exists)  7 x 5
+      F08-10    rowpick  (NEW)     6 x 8
+      F08-11    lines    (exists)  7 x 3
+      F08-13    grid     (exists)  6 x 8
+  chapter 9
+      F09-03    shares   (exists)  7 x 4
+      F09-04    shares   (exists)  5 x 4
+      F09-09    schedule (NEW)     4 x 6
+      F09-10    shares   (exists)  4 x 4
+      F09-12    shares   (exists)  6 x 4
+  chapter 10
+      F10-03    grid     (exists)  7 x 5
+      F10-04    shares   (exists)  6 x 5
+      F10-05    lines    (exists)  5 x 4
+      F10-10    lines    (exists)  1 x 1
+      F10-11    schedule (NEW)     7 x 5
+      F10-12    switch   (exists)  6 x 3
+      F10-14    lines    (exists)  6 x 4
+  chapter 11
+      F11-02    lines    (exists)  6 x 3
+      F11-03    lines    (exists)  4 x 3
+      F11-04    lines    (exists)  1 x 1
+      F11-05    lines    (exists)  1 x 1
+      F11-06    shares   (exists)  5 x 5
+      F11-07    lines    (exists)  1 x 1
+      F11-09    lines    (exists)  7 x 2
+      F11-10    switch   (exists)  7 x 3
+      F11-11    grid     (exists)  5 x 5
+      F11-12    lines    (exists)  6 x 3
+      F11-14    lines    (exists)  10 x 2
+  chapter 12
+      F12-02    lines    (exists)  8 x 3
+      F12-03    waterfall(exists)  9 x 2
+      F12-04    lines    (exists)  1 x 1
+      F12-05    lines    (exists)  6 x 3
+      F12-06    switch   (exists)  5 x 3
+      F12-08    post     (exists)  9 x 4
+      F12-09    lines    (exists)  1 x 1
+      F12-10    lines    (exists)  6 x 2
+      F12-11    lines    (exists)  6 x 3
+      F12-13    lines    (exists)  11 x 2
+  chapter 13
+      F13-02    lines    (exists)  8 x 2
+      F13-03    shares   (exists)  8 x 3
+      F13-04    lines    (exists)  1 x 1
+      F13-05    lines    (exists)  8 x 2
+      F13-06    lines    (exists)  11 x 3
+      F13-07    shares   (exists)  7 x 3
+      F13-10    switch   (exists)  7 x 3
+      F13-11    waterfall(exists)  10 x 2
+      F13-12    shares   (exists)  5 x 3
+      F13-14    lines    (exists)  9 x 2
+  chapter 14
+      F14-03    lines    (exists)  7 x 3
+      F14-04    lines    (exists)  7 x 3
+      F14-05    lines    (exists)  1 x 1
+      F14-06    schedule (NEW)     5 x 7
+      F14-07    schedule (NEW)     6 x 7
+      F14-08    lines    (exists)  6 x 3
+      F14-09    switch   (exists)  7 x 3
+      F14-10    schedule (NEW)     6 x 5
+      F14-11    lines    (exists)  6 x 3
+      F14-13    lines    (exists)  7 x 2
+  chapter 15
+      F15-02    shares   (exists)  6 x 4
+      F15-03    lines    (exists)  4 x 3
+      F15-04    lines    (exists)  1 x 1
+      F15-05    lines    (exists)  10 x 3
+      F15-06    lines    (exists)  7 x 2
+      F15-08    lines    (exists)  10 x 2
+      F15-09    switch   (exists)  7 x 3
+      F15-10    waterfall(exists)  7 x 2
+      F15-11    grid     (exists)  4 x 4
+      F15-13    lines    (exists)  12 x 2
+  chapter 16
+      F16-02    lines    (exists)  1 x 1
+      F16-03    lines    (exists)  6 x 3
+      F16-04    lines    (exists)  4 x 5
+      F16-05    lines    (exists)  1 x 1
+      F16-06    post     (exists)  7 x 3
+      F16-08    lines    (exists)  8 x 4
+      F16-09    lines    (exists)  9 x 2
+      F16-10    switch   (exists)  7 x 3
+      F16-11    lines    (exists)  7 x 3
+      F16-12    waterfall(exists)  6 x 2
+      F16-14    lines    (exists)  11 x 2
+  chapter 17
+      F17-02    switch   (exists)  7 x 3
+      F17-03    switch   (exists)  7 x 3
+      F17-04    lines    (exists)  1 x 1
+      F17-05    switch   (exists)  7 x 3
+      F17-06    switch   (exists)  6 x 3
+      F17-07    lines    (exists)  1 x 1
+      F17-08    lines    (exists)  7 x 2
+      F17-09    waterfall(exists)  9 x 2
+      F17-10    switch   (exists)  7 x 4
+      F17-12    lines    (exists)  8 x 2
+  chapter 18
+      F18-02    lines    (exists)  5 x 4
+      F18-03    lines    (exists)  7 x 3
+      F18-05    lines    (exists)  7 x 2
+      F18-06    lines    (exists)  8 x 3
+      F18-07    lines    (exists)  9 x 3
+      F18-08    lines    (exists)  1 x 1
+      F18-09    lines    (exists)  7 x 4
+      F18-10    lines    (exists)  9 x 2
+      F18-12    lines    (exists)  9 x 2
+
+================================================================================================
+TOTALS
+================================================================================================
+   lines    (exists)   67 figures
+   shares   (exists)   12 figures
+   switch   (exists)   12 figures
+   grid     (exists)    8 figures
+   schedule (NEW)       5 figures
+   waterfall(exists)    5 figures
+   rowpick  (NEW)       2 figures
+   post     (exists)    2 figures
+   ALL                113 figures
+
+   READ `lines` AS 'UNDECIDED', NOT AS 'A READING SCREEN'. It is the fallback
+   bucket: a label-and-amount table that none of the shape rules above claimed.
+   Each one becomes an EXERCISE chosen when its section is authored - most often
+   a `number` to enter or a `waterfall` to add up - and the standard that no
+   screen is scored on looking applies to every one of them. The count here says
+   how many decisions remain, not how many reading screens there will be.
+
+   106 of 113 printed figures fit a scene kind that already ships.
+   7 need one of the two NEW kinds, and they are concentrated:
+      ch8   rowpick x2
+      ch9   schedule x1
+      ch10  schedule x1
+      ch14  schedule x3

@@ -112,6 +112,49 @@
         return li(o.correct ? "y" : "n", "<b>" + strip(o.text) + "</b> " + o.why); })));
     if (k === "shelf") return ul((sc.volumes || []).filter(function (v) { return v.topic; }).map(function (v) {
       return li("y", "<b>ASC " + v.n + "</b> covers " + esc(v.topic) + ". " + esc(v.why || "")); }));
+    /* Chapters 3-5. A kind with no branch here is an exercise whose answer a learner
+       cannot look up, which gates/cma_interactive checks for every kind. */
+    if (k === "waterfall") return ul((sc.rows || []).filter(function (r) { return r.subtotal; })
+      .map(function (r) {
+        return li("y", "<b>" + esc(r.label) + " " + esc(String(r.answer)) + "</b> " +
+                       esc(r.why || "")); }));
+    if (k === "treasury") return ul((sc.cases || []).map(function (c) {
+      return li("y", "<b>" + esc(c.label) + " → " + esc(c.dest) + "</b> " +
+                     esc(c.why || "")); }));
+    if (k === "shares") return ul((sc.actions || []).map(function (a) {
+      var cells = Object.keys(a.cells || {}).map(function (kk) {
+        return esc(kk) + ": " + esc(a.cells[kk]); }).join(" · ");
+      return li("y", "<b>" + esc(a.label) + "</b> " + cells + ". " + esc(a.why || "")); }));
+    if (k === "signs") return ul((sc.items || []).map(function (i) {
+      return li("y", "<b>" + (i.add ? "+ " : "− ") + esc(i.label) + "</b> " +
+                     esc(i.why || "")); }));
+    /* Chapters 6-18. Only the ENTERED cells of a schedule are answers; the given
+       columns are the author's own figures and printing them here as if the learner
+       had been asked for them would overstate what the exercise marked. */
+    if (k === "schedule") {
+      var sent = (sc.cols || []).filter(function (c) { return !c.given; });
+      return ul((sc.rows || []).map(function (r) {
+        var cells = sent.map(function (c) {
+          return esc(c.label) + " " + esc(String((r.cells || {})[c.id]));
+        }).join(" · ");
+        return li("y", "<b>" + esc(r.label) + "</b> " + cells +
+                       (r.why ? ". " + esc(r.why) : ""));
+      }));
+    }
+    if (k === "rowpick") {
+      var stp = sc.steps || [];
+      return ul((sc.rows || []).map(function (r) {
+        var picked = stp.map(function (s) {
+          var src = (r.answers || {})[s.id];
+          var lab = src;
+          (sc.cols || []).forEach(function (c) { if (c.id === src) lab = c.label; });
+          stp.forEach(function (s2) { if (s2.id === src) lab = s2.label; });
+          return esc(s.label) + ": " + esc(lab);
+        }).join(" · ");
+        return li("y", "<b>" + esc(r.label) + "</b> " + picked +
+                       (r.why ? ". " + esc(r.why) : ""));
+      }));
+    }
     if (k === "ladder") return ul((sc.rungs || []).map(function (r) {
       return li("y", "<b>" + esc(r.likelihood) + " → " + esc(r.treatment) + "</b> " +
                      esc(r.why || "")); }));
@@ -141,6 +184,24 @@
         var b0 = r.total ? "<b>" : "", b1 = r.total ? "</b>" : "";
         h += "<tr><td>" + b0 + esc(r.name) + b1 + "</td><td class=\"n\">" + b0 + esc(r.a || "") + b1 +
              "</td><td class=\"n\">" + b0 + esc(r.b || "") + b1 + "</td></tr>";
+      });
+      return h + "</tbody></table><p class=\"note\">A reading scene: nothing is marked.</p>";
+    }
+    /* `grid` is the wide form of `lines` (assets/grid.js): Chapter 4's roll-forward, one
+       column per component of equity. Without a branch here it fell to "See the scene
+       itself", which is the silent gap the comment above warns about. */
+    if (k === "grid") {
+      var cols = sc.cols || [];
+      h = "<table class=\"tbl\"><thead><tr><th>" + esc(sc.caption || "") + "</th>";
+      cols.forEach(function (c) { h += "<th class=\"n\">" + esc(c) + "</th>"; });
+      h += "</tr></thead><tbody>";
+      (sc.rows || []).forEach(function (r) {
+        var b0 = r.total ? "<b>" : "", b1 = r.total ? "</b>" : "";
+        h += "<tr><td>" + b0 + esc(r.name) + b1 + "</td>";
+        cols.forEach(function (_c, i) {
+          h += "<td class=\"n\">" + b0 + esc((r.cells || [])[i] || "") + b1 + "</td>";
+        });
+        h += "</tr>";
       });
       return h + "</tbody></table><p class=\"note\">A reading scene: nothing is marked.</p>";
     }

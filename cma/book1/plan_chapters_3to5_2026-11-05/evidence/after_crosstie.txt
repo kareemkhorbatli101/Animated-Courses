@@ -1,0 +1,27 @@
+# cma_crosstie over the four ledgers
+# Saved 2026-11-05 from a real run over chapters 1-5.
+# Run it again with: cd D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python && python -m gates.cma_crosstie
+
+=== THE FOUR STATEMENTS AGREE ===
+  PASS chapters 3 and 4 agree on net income                     2969100 = 2969100
+  PASS chapters 3 and 5 agree on net income                     2969100 = 2969100
+  PASS chapters 3 and 4 agree on other comprehensive income     -1125 = -1125
+  PASS chapters 3 agree on comprehensive income adds up         2967975 = 2967975
+  PASS chapters 4 and 2 agree on total stockholders' equity     20392975 = 20392975
+  PASS chapters 4 and 2 agree on retained earnings              6894100 = 6894100
+  PASS chapters 4 and 2 agree on common stock                   8100000 = 8100000
+  PASS chapters 4 and 2 agree on additional paid-in capital     5400000 = 5400000
+  PASS chapters 4 and 2 agree on accumulated OCI                -1125 = -1125
+  PASS chapters 4 and 2 agree on contributed capital            13500000 = 13500000
+  PASS chapters 5 and 3 agree on impairment losses, reversed in sign 2724000 = 2724000
+  PASS chapters 5 and 3 agree on equity-method income, reversed in sign -177000 = -177000
+  PASS chapters 5 and 3 agree on gain on sale of equipment, reversed in sign -3000 = -3000
+  PASS chapters 5 and 3 agree on unrealized gains, reversed in sign -4000 = -4000
+  PASS chapters 5 and 4 agree on the share issue                1500000 = 1500000
+  PASS chapters 5 and 4 agree on dividends PAID are not dividends DECLARED true = true
+  PASS chapter 2's own ties hold                                20 ties
+  PASS chapter 3's own ties hold                                16 ties
+  PASS chapter 4's own ties hold                                23 ties
+  PASS chapter 5's own ties hold                                20 ties
+
+RESULT: PASS

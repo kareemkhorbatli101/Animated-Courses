@@ -124,6 +124,18 @@
     "8 + 14 + 15 + 5 + 7 + 5 = 54");
   ck(g, "The 16-row chapter key-terms table resolves", T.keys().length === 16, "16 terms");
 
+  /* THE DRAWN MARKS, COUNTED. The same check the generated gate pages for chapters 2 to 5
+     make: assets/icons.js exported census() so this could be read, and nothing read it.
+     A term with no family falls through to the typographic tier, which looks exactly like
+     a term that was JUDGED to have no geometry. The bound is declared and the tier-3 words
+     are printed, so the list can be argued with instead of discovered. */
+  var IC = window.Icons ? window.Icons.census(T.all) : null;
+  ck(g, "Every bridged term has a drawn mark, or is declared to have none",
+    !!IC && IC[3] <= Math.ceil(IC.total * 0.15),
+    IC ? (IC[1] + " geometric, " + IC[2] + " relational, " + IC[3] + " typographic"
+          + (IC.tier3.length ? ": " + IC.tier3.join(", ") : ""))
+       : "assets/icons.js did not load");
+
   /* every case company and person named must be one of the book's */
   var allowedNames = ["Orontes Foods", "Barada Wholesale", "Cedar Retail", "GreenBasket",
                       "Levant Commerce Bank", "Haddad"];

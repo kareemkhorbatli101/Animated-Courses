@@ -53,8 +53,11 @@
 <script src="assets/scene.js"></script>
 <script src="assets/objects.js"></script>
 <script src="assets/objects2.js"></script>
+<script src="assets/objects3.js"></script>
+<script src="assets/objects4.js"></script>
 <script src="assets/figure.js"></script>
 <script src="assets/lines.js"></script>
+<script src="assets/grid.js"></script>
 <script>window.CAPTURED = []; window.LEDGER.TERMCOUNT = window.TERMS.count;</script>
 <script src="ch02/data/s2-1.js"></script><script>CAPTURED.push(PAGE)</script>
 <script src="ch02/data/s2-2.js"></script><script>CAPTURED.push(PAGE)</script>
@@ -124,6 +127,18 @@
   ck(g, "Every bridged term carries a source section",
     T.all.every(function (t) { return /^2\.1|2\.2|2\.3|2\.4$/.test(t.sec); }), T.all.length + " checked");
 
+  /* THE DRAWN MARKS, COUNTED. assets/icons.js exported census() so this could be read,
+     and nothing read it: thirty-four terms in chapters 3 to 5 had no family and fell
+     through to the typographic tier, which looks identical to a term that was JUDGED to
+     have no geometry. The bound is declared, and the tier-3 words are printed, so the
+     list can be argued with instead of discovered. */
+  var IC = window.Icons ? window.Icons.census(T.all) : null;
+  ck(g, "Every bridged term has a drawn mark, or is declared to have none",
+    !!IC && IC[3] <= Math.ceil(IC.total * 0.15),
+    IC ? (IC[1] + " geometric, " + IC[2] + " relational, " + IC[3] + " typographic"
+          + (IC.tier3.length ? ": " + IC.tier3.join(", ") : ""))
+       : "assets/icons.js did not load");
+
   var blob = JSON.stringify(CAPTURED.map(function (p) { return p.scenes; }));
   ck(g, "No invented company or person",
     !/\b(Acme|Delta Ltd|Mr Smith|ABC Co)\b/.test(blob), "only the book's names");
@@ -174,11 +189,32 @@
     return ["F02-01", "F02-02", "F02-03", "F02-04", "F02-05", "F02-06", "F02-07", "F02-08", "F02-09", "F02-10", "F02-11", "F02-12", "F02-13"].filter(function (t) { return t !== "F02-01" && !seen[t]; }).length === 0;
   })(), "13 figures, the roadmap on the hub");
 
-  ck(g, "The author's balance sheet is on the page, every line of it",
+  /* THE CHAPTER'S OWN Fnn-02, IN WHATEVER SHAPE THE AUTHOR PRINTS IT. This read only
+     kind === "lines", which is a name and one or two amount columns. Chapter 4's F04-02
+     is a roll-forward matrix, so there was no such scene, the count was 0, and
+     `rows.length >= 0` would have passed on an EMPTY statement if the scene had existed
+     at all. Both exhibit shapes are accepted now, and the count is the author's own row
+     count, so a statement short of a line fails. */
+  /* THE CHECK'S POPULATION IS THE CHAPTERS THAT PRINT A STATEMENT, not all of them.
+     Written as "there is a bs-read scene with N rows", it was right for chapters 2 to
+     5, whose F??-02 is a statement of lines, and simply false for chapter 6, whose
+     F06-02 is a drawn timeline. Both halves are checked instead: where the chapter
+     prints a statement it must be on the page line for line, and where it does not,
+     Fnn-02 must still be accounted for by a scene that names it. */
+  ck(g, 38 > 0
+      ? "The author's statement is on the page, every line of it"
+      : "The author's Figure F02-02 is on a scene",
     (function () {
-      var l = scenes.filter(function (x) { return x.s.kind === "lines" && x.s.id === "bs-read"; })[0];
-      return !!l && l.s.rows.length >= 38;
-    })(), "38 rows of F02-02");
+      if (38 > 0) {
+        var l = scenes.filter(function (x) {
+          return (x.s.kind === "lines" || x.s.kind === "grid") && x.s.id === "bs-read";
+        })[0];
+        return !!l && l.s.rows.length >= 38;
+      }
+      return scenes.some(function (x) {
+        return /F02-02/.test(String(x.s.kicker || "") + String(x.s.label || ""));
+      });
+    })(), 38 > 0 ? "38 rows of F02-02" : "F02-02 is not a statement of lines");
 
   /* ---------- 3. THE SCENE RULES ---------- */
   g = grp("3 · One idea per screen",
@@ -189,7 +225,7 @@
      statement into the exercise that follows it, so those kinds have an EXHIBIT builder
      (assets/figure.js, assets/lines.js) rather than a scene renderer. A kind is
      accounted for either way; a kind with neither is still a failure. */
-  var EXHIBIT = { figure: "fig", lines: "lines" };
+  var EXHIBIT = { figure: "fig", lines: "lines", grid: "grid" };
   var X = window.Exhibit || {};
   scenes.forEach(function (x) {
     var s = x.s;
@@ -256,7 +292,7 @@
   scenes.forEach(function (x) { (x.s.traps || []).forEach(function (t) { wired[t] = 1; }); });
   var named = Object.keys(window.TRAP_NAMES || {});
   ck(g, "Every named trap is logged by a scene, and every logged trap is named",
-    named.length === 6 && named.every(function (t) { return wired[t]; }) &&
+    named.length === 12 && named.every(function (t) { return wired[t]; }) &&
     Object.keys(wired).every(function (t) { return named.indexOf(t) >= 0; }),
     named.length + " traps, " + Object.keys(wired).length + " wired");
   var nums = scenes.filter(function (x) { return x.s.kind === "number"; });
@@ -269,10 +305,27 @@
   g = grp("5 · The statement is complete",
     "The §2.6 build is diffed against Figure F02-10 line by line, and its subtotals are recomputed " +
     "from the chips rather than stored.");
+  /* A chapter's section x.6 is not always a statement to build: chapter 3's is the
+     same year in two formats, checked as tie lines. The page checks whichever kind
+     this chapter registered, and fails if that kind is absent - it never skips. */
+  var eeKind = "statement";
   var st = scenes.filter(function (x) { return x.s.kind === "statement"; })[0];
   st = st && st.s;
+  var lk = scenes.filter(function (x) { return x.s.kind === "locks"; })[0];
+  lk = lk && lk.s;
+  if (eeKind === "locks") {
+    ck(g, "The Extended Example's tie lines are present", !!lk,
+      lk ? lk.ties.length + " ties" : "MISSING");
+    if (lk) {
+      var wantT = [];
+      ck(g, "Every tie the chapter asks for, in the author's order",
+        lk.ties.map(function (t) { return t.label; }).join("|") === wantT.join("|"),
+        wantT.length + " ties");
+    }
+  } else {
   ck(g, "The statement scene is present", !!st, st ? st.sheet.lines.length + " lines" : "MISSING");
-  if (st) {
+  }
+  if (st && eeKind !== "locks") {
     var want = ["Cash", "Accounts receivable, net of the allowance", "Other current assets", "Total current assets", "Property, plant and equipment, net", "Goodwill and other non-current assets", "Total assets", "Accounts payable", "Current portion of long-term debt", "Other current liabilities", "Total current liabilities", "Long-term debt and other non-current liabilities", "Total liabilities", "Contributed capital", "Retained earnings", "Accumulated other comprehensive income", "Total equity", "Total liabilities and equity"];
     var got = st.sheet.lines.map(function (l) { return l.label; });
     ck(g, "Figure F02-10 — every line, in the author's order",

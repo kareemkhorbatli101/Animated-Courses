@@ -1,0 +1,110 @@
+====================================================================================================
+THE SHAPE OF EVERY CHAPTER, BUILT AND UNBUILT
+====================================================================================================
+ch   title                                                 sec blocks  words    SC     P  case  figs drawn
+2    The Balance Sheet                                       6    411   7786    13    21     7    13     6
+3    The Income Statement and Comprehensive Income           6    408   7094    13    21     7    13     6
+4    Equity and the Statement of Changes in Equity           6    447   7001    13    26     7    13     5
+5    The Statement of Cash Flows                             6    431   6875    13    24     7    12     5
+6    Receivables: Credit Losses and Transfers                4    334   6375     9    16     7    12     6
+7    Inventory I: Goods, Costs and Cost Flows                6    389   7477    13    17     7    13     8
+8    Inventory II: Measurement Tests, Retail Estimates an    6    369   6816    13    17     7    13     7
+9    Investments in Debt and Equity Securities               5    354   6429    11    16     7    12     7
+10   Long-Lived Assets: Depreciation, Disposal and Impair    6    372   6878    13    16     7    14     8
+11   Revenue Recognition                                     7    428   7360    15    22     7    14     6
+12   Current Liabilities and Warranties                      6    386   6349    13    20     7    13     5
+13   Income Taxes                                            6    393   6584    13    20     7    14     5
+14   Leases                                                  7    376   6213    15    18     7    13     4
+15   Measuring Income: Gains, Losses, Comprehensive Incom    7    367   6235    15    16     7    13     4
+16   Consolidated Financial Statements                       7    388   6681    15    18     7    14     5
+17   U.S. GAAP and IFRS: The Six Tested Differences          7    360   6237    15    16     7    12     4
+18   Integrated Reporting                                    7    362   6169    15    16     7    12     4
+
+TOTALS for the thirteen unbuilt chapters:
+   numbered sections        81   (built chapters 2-5: 24)
+   blocks                 4878   (built chapters 2-5: 1697)
+   words                 85803   (built chapters 2-5: 28756)
+   section checks          175   (built chapters 2-5: 52)
+   practice questions      228   (built chapters 2-5: 92)
+   case items               91   (built chapters 2-5: 28)
+   numbered figures        169   (built chapters 2-5: 51)
+   drawn figures            73   (built chapters 2-5: 22)
+
+====================================================================================================
+WHERE THESE CHAPTERS BREAK THE GENERATOR'S TWO DEFAULTS
+====================================================================================================
+  order_of(n, sections=6)  lists s{n}-1 .. s{n}-6 and then the back matter.
+  terms_scenes(n, sections=4) draws four Term Bridge boxes on the term bank.
+
+   ch6   4 numbered sections -> order_of NAMES s6-5..s6-6, WHICH DO NOT EXIST: write() does pages[pid] and raises KeyError
+   ch7   6 numbered sections -> fits the default
+   ch8   6 numbered sections -> fits the default
+   ch9   5 numbered sections -> order_of NAMES s9-6..s9-6, WHICH DO NOT EXIST: write() does pages[pid] and raises KeyError
+   ch10  6 numbered sections -> fits the default
+   ch11  7 numbered sections -> s11-7..s11-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+   ch12  6 numbered sections -> fits the default
+   ch13  6 numbered sections -> fits the default
+   ch14  7 numbered sections -> s14-7..s14-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+   ch15  7 numbered sections -> s15-7..s15-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+   ch16  7 numbered sections -> s16-7..s16-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+   ch17  7 numbered sections -> s17-7..s17-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+   ch18  7 numbered sections -> s18-7..s18-7 WOULD NOT BE WRITTEN: the page is built and then left off the list
+
+   5 of the thirteen fit the default.
+   6 chapters have MORE than six: 6 section pages would be built and silently dropped.
+   2 chapters have FEWER than six: the generator raises KeyError on a page id it invented.
+
+   Both directions matter and they fail differently. Too few is LOUD - the build
+   stops. Too many is SILENT - the chapter ships missing a section, and no gate
+   counts section pages against the book.
+
+====================================================================================================
+THE CASE QUESTION: does every chapter have seven items, and an exhibit?
+====================================================================================================
+   ch6   C6-1..C6-7     exhibit F06-12, table 10x2                 category key 'Transfer', 4 rows
+   ch7   C7-1..C7-7     exhibit F07-13, table 13x4                 category key 'Memo item', 4 rows
+   ch8   C8-1..C8-7     exhibit F08-13, table 6x8                  category key 'Product line', 5 rows
+   ch9   C9-1..C9-7     exhibit F09-12, table 6x4                  category key 'Investment', 5 rows
+   ch10  C10-1..C10-7   exhibit F10-14, table 6x4                  category key 'Asset', 5 rows
+   ch11  C11-1..C11-7   exhibit F11-14, table 10x2                 category key 'Item', 5 rows
+   ch12  C12-1..C12-7   exhibit F12-13, table 11x2                 category key 'Item', 5 rows
+   ch13  C13-1..C13-7   exhibit F13-14, table 9x2                  category key 'Item', 5 rows
+   ch14  C14-1..C14-7   exhibit F14-13, table 7x2                  category key 'Lease', 4 rows
+   ch15  C15-1..C15-7   exhibit F15-13, table 12x2                 category key 'Item', 5 rows
+   ch16  C16-1..C16-7   exhibit F16-14, table 11x2                 category key 'Investment', 4 rows
+   ch17  C17-1..C17-7   exhibit F17-12, table 8x2                  category key 'Item', 5 rows
+   ch18  C18-1..C18-7   exhibit F18-12, table 9x2                  category key 'Disclosure', 5 rows
+
+====================================================================================================
+THE EXTENDED EXAMPLE: which section is it, and is it still x.6?
+====================================================================================================
+   ch6   6.4  Extended Example 6A: one year of receivables
+   ch7   7.6  Extended Example 7A: one year, three cost flows
+   ch8   8.6  Extended Example 8A: testing and estimating the same inventory
+   ch9   9.5  Extended Example 9A: one bond, three classifications
+   ch10  10.6  Extended Example 10A: the three questions an asset asks
+   ch11  11.7  Extended Example 11A: the five steps on one contract
+   ch12  12.6  Extended Example 12A: two warranties, two treatments
+   ch13  13.6  Extended Example 13A: one difference, from origination to reversal
+   ch14  14.7  Extended Example 14A: one warehouse, two classifications
+   ch15  15.7  Extended Example 15A: one period, four layers of income
+   ch16  16.7  Extended Example 16A: one acquisition, from goodwill to the group result
+   ch17  17.7  Extended Example 17A: one company, two frameworks
+   ch18  18.7  Extended Example 18A: a year through the six capitals
+
+====================================================================================================
+THE CHAPTER SUMMARY PARAGRAPH: is there one, and how long?
+====================================================================================================
+   ch6   105 words: A receivable is recorded when only time must pass before payment, ...
+   ch7   91 words: Inventory includes the goods a company controls at year-end, where...
+   ch8   93 words: FIFO, average cost and specific identification use the lower of co...
+   ch9   98 words: Debt securities are trading, held-to-maturity or available-for-sal...
+   ch10  109 words: PP&E is recorded at the cost of getting it ready for use, includin...
+   ch11  97 words: Revenue is recognized when control of goods or services passes to ...
+   ch12  105 words: Current liabilities are settled with current assets or new current...
+   ch13  103 words: Book income follows U.S. GAAP and taxable income follows tax law. ...
+   ch14  99 words: A lease is the right to control an identified asset for a period. ...
+   ch15  111 words: Gains and losses come from peripheral transactions and are shown n...
+   ch16  99 words: Consolidated statements present a parent and its subsidiaries as o...
+   ch17  109 words: In share-based pay, U.S. GAAP allows a straight-line choice for gr...
+   ch18  99 words: Integrated thinking drives integrated reporting, the process that ...

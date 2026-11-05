@@ -111,6 +111,11 @@ window.CHAPTER_TOC = [
    A scene logs one of these by name when it is answered wrongly, and the summary page
    lists the ones still open. */
 window.TRAP_NAMES = {
+ "book-value-is-not-market-value": [
+  "Book value is not market value",
+  "s2-5.html",
+  "Total stockholders' equity is a book amount."
+ ],
  "book-value-not-market": [
   "Book value is not market value",
   "s2-5.html",
@@ -120,6 +125,11 @@ window.TRAP_NAMES = {
   "Net the contra accounts, never add them",
   "s2-6.html",
   "Reporting assets before their contra accounts would raise total assets to $43,816,600, which is the commonest error in this topic."
+ ],
+ "debt-traps": [
+  "Debt traps",
+  "s2-3.html",
+  "Refinanced after year-end but before issuance: noncurrent under U.S."
  ],
  "deferred-taxes-noncurrent": [
   "Deferred taxes are never current",
@@ -131,6 +141,21 @@ window.TRAP_NAMES = {
   "s2-3.html",
   "Debt that is due on demand is always current."
  ],
+ "exam-view": [
+  "Exam view",
+  "s2-6.html",
+  "A balance sheet question usually gives a list of accounts and asks for total current assets, total current liabilities or the current ratio."
+ ],
+ "no-change-to-debt-classification": [
+  "No change to debt classification",
+  "s2-3.html",
+  "The FASB proposed a simpler debt-classification rule in 2017 and again in 2019, but removed the project from its agenda in April 2021."
+ ],
+ "reading-a-balance-sheet-heading": [
+  "Reading a balance sheet heading",
+  "s2-1.html",
+  "as of December 31, 2025 or at December 31, 2025: a balance sheet is always at a date, never for the year."
+ ],
  "reserve-provision-allowance": [
   "Reserve, provision, allowance",
   "s2-4.html",
@@ -138,6 +163,11 @@ window.TRAP_NAMES = {
  ],
  "wc-or-ratio": [
   "Working capital, or the ratio?",
+  "s2-2.html",
+  "Paying a supplier in cash reduces current assets and current liabilities by the same amount: working capital does not change, but the current ratio changes."
+ ],
+ "working-capital-or-the-ratio": [
+  "Working capital or the ratio?",
   "s2-2.html",
   "Paying a supplier in cash reduces current assets and current liabilities by the same amount: working capital does not change, but the current ratio changes."
  ]

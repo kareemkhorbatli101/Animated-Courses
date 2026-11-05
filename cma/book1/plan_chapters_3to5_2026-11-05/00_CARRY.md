@@ -80,6 +80,11 @@ Chapters 1–2's thirteen figures did, and no gate can see inside an image. Each
 drawn figures here must be *looked at* against the exercise it lands on and declared
 `data` / default / `inBrief`.
 
+> **This plan has been executed.** Phases 0 to 8 are all done; what was actually built,
+> and what the plan got wrong on the way, is in **[01_DELIVERED.md](01_DELIVERED.md)**.
+> Everything below is the plan as it stood before the work started, kept unchanged so
+> the two can be read against each other.
+
 ## Order of work
 
 0. **Make the generator chapter-generic.** Done when `--chapter 3/4/5 --report` all run.

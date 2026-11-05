@@ -1,0 +1,6 @@
+----------------------------------------------------------------------------------------------------
+all              88     115        0
+
+   115 of the author's 203 numbered figures (excluding each chapter's roadmap)
+   are put on the screen and never asked about. Each one is an exercise the
+   book already contains and the site does not yet use.

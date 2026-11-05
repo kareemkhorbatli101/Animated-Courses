@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Limitations and links to the other statements",
   "n": "2.5",
-  "terms": T.bridge("2.5"),
+  "terms": L.BRIDGE,
   "brief": {
     "about": "The balance sheet is useful, but it is not a valuation of the company. Most assets are at historical cost, not current value: Orontes's land and buildings are shown at what they cost years ago. Many amounts depend on estimates, such as the allowance for credit losses and useful lives. Important resources are missing. Finally, the balance sheet shows one day. The four statements are connected.",
     "anim": "links"
@@ -85,6 +85,9 @@
           "carries": "→",
           "why": "The net change in cash in the statement of cash flows explains the change in the balance-sheet cash."
         }
+      ],
+      "traps": [
+        "book-value-is-not-market-value"
       ]
     },
     {
@@ -115,6 +118,9 @@
       ],
       "extra": [
         "dividends"
+      ],
+      "traps": [
+        "book-value-is-not-market-value"
       ]
     },
     {

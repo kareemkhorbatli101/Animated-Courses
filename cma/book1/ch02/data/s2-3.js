@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Classifying debt",
   "n": "2.3",
-  "terms": T.bridge("2.3"),
+  "terms": L.BRIDGE,
   "brief": {
     "about": "Debt is where classification gets difficult, and where the exam likes to test. Long-term debt that is due in installments is split: the current portion of long-term debt is current and the rest is noncurrent. Orontes shows $400,000 as current and $6,000,000 as long-term. Loan agreements contain conditions called covenants, for example a maximum debt-to-equity ratio. If a company breaks a covenant, the lender may be able to demand repayment at once.",
     "anim": "split"
@@ -39,7 +39,11 @@
       },
       "hint": "Only what is due within one year leaves the noncurrent section.",
       "rightWhy": "Next year's installment on long-term debt is $400,000. It is due within one year, so it is a current liability; the rest of the debt stays noncurrent.",
-      "wrongWhy": "Only what is due within one year is a current liability; the rest of the debt stays noncurrent."
+      "wrongWhy": "Only what is due within one year is a current liability; the rest of the debt stays noncurrent.",
+      "traps": [
+        "debt-traps",
+        "no-change-to-debt-classification"
+      ]
     },
     {
       "id": "gaap-ifrs",

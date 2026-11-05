@@ -8,7 +8,7 @@
   "id": "case",
   "up": "../",
   "title": "Case question · Barada Wholesale",
-  "terms": T.keys(),
+  "terms": L.KEYS,
   "brief": {
     "anim": "bands"
   },
@@ -19,7 +19,7 @@
       "data": true,
       "kicker": "Figure F02-13",
       "title": "The case exhibit",
-      "say": "Fourteen balances and four memos. Read the memos: three of them change an answer.",
+      "say": "14 lines and 4 lines. Read the lines: they change answers.",
       "caption": "Account / memo (USD 000)",
       "col1": "Balance / details",
       "col2": "Side",
@@ -111,15 +111,15 @@
           "note": true
         }
       ],
-      "hint": "Click a line to read it. The four memos are at the end.",
-      "read": "Keep the memos in view: M1 splits the note, M2 is the waiver, M3 is the lawsuit and M4 is the fire."
+      "hint": "Click a line to read it.",
+      "read": "Keep reading it while you answer."
     },
     {
       "id": "c2-1",
       "kind": "sort",
       "board": "trays",
       "kicker": "C2-1",
-      "title": "Classify each account",
+      "title": "Where does each item belong?",
       "say": "Classify each account. (On the exam screen you would drag each account into a box.)",
       "targets": [
         {
@@ -143,27 +143,27 @@
         {
           "name": "Prepaid rent",
           "to": "current-asset",
-          "why": "The chapter files this under current asset."
+          "why": "Account: Current asset."
         },
         {
           "name": "Land",
           "to": "noncurrent-asset",
-          "why": "The chapter files this under noncurrent asset."
+          "why": "Account: Noncurrent asset."
         },
         {
           "name": "Allowance for credit losses",
           "to": "current-asset",
-          "why": "The chapter files this under current asset."
+          "why": "Account: Current asset."
         },
         {
           "name": "Dividends payable",
           "to": "current-liability",
-          "why": "The chapter files this under current liability."
+          "why": "Account: Current liability."
         },
         {
           "name": "Additional paid-in capital",
           "to": "equity",
-          "why": "The chapter files this under equity."
+          "why": "Account: Equity."
         }
       ],
       "partition": true
@@ -174,7 +174,7 @@
       "kicker": "C2-2",
       "title": "Enter Barada's total current assets",
       "unit": "USD 000",
-      "say": "Amounts in thousands of U.S. dollars, without the $ sign or commas.",
+      "say": "Enter amounts in thousands of U.S. dollars (USD 000), without the $ sign or commas (for example, 1250).",
       "fields": [
         {
           "label": "Barada's total current assets",
@@ -196,7 +196,7 @@
           "why": "Classify first, net the contra accounts, and remember that the current portion of long-term debt moves to current liabilities."
         }
       ],
-      "hint": "Use Figure F02-13 and the four memos."
+      "hint": "Use Figure F02-13 for items C2-1 to C2-7."
     },
     {
       "id": "c2-3",
@@ -204,7 +204,7 @@
       "kicker": "C2-3",
       "title": "Enter Barada's total current liabilities",
       "unit": "USD 000",
-      "say": "Amounts in thousands of U.S. dollars, without the $ sign or commas.",
+      "say": "Enter amounts in thousands of U.S. dollars (USD 000), without the $ sign or commas (for example, 1250).",
       "fields": [
         {
           "label": "Barada's total current liabilities",
@@ -226,7 +226,7 @@
           "why": "Classify first, net the contra accounts, and remember that the current portion of long-term debt moves to current liabilities."
         }
       ],
-      "hint": "Use Figure F02-13 and the four memos."
+      "hint": "Use Figure F02-13 for items C2-1 to C2-7."
     },
     {
       "id": "c2-4",
@@ -234,7 +234,7 @@
       "kicker": "C2-4",
       "title": "Enter Barada's working capital",
       "unit": "USD 000",
-      "say": "Amounts in thousands of U.S. dollars, without the $ sign or commas.",
+      "say": "Enter amounts in thousands of U.S. dollars (USD 000), without the $ sign or commas (for example, 1250).",
       "fields": [
         {
           "label": "Barada's working capital",
@@ -252,7 +252,7 @@
           "why": "Working capital is current assets minus current liabilities."
         }
       ],
-      "hint": "Use Figure F02-13 and the four memos."
+      "hint": "Use Figure F02-13 for items C2-1 to C2-7."
     },
     {
       "id": "c2-5",

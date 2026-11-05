@@ -1,0 +1,83 @@
+# The decks on disk, page by page.  Saved 2026-11-05.
+#
+# HOW TO READ THE TWO COUNTS. The 'scenes' and 'exercises' columns below are counted
+# from the written data files by matching kind: "...". That is exact for chapters 2 to 5,
+# which are GENERATED one scene literal at a time, and it UNDERCOUNTS chapter 1, whose
+# deck is hand-written and builds some pages (its practice page among them) from an array
+# in a loop, so the word kind: appears once for sixteen screens.
+#
+# The authoritative count is the browser's: gates/cma_interactive walks every page and
+# counts what actually rendered. Those numbers are in the last column and in
+# after_interactive.txt, and the book index is checked against them by gate check A8.
+#
+# A FIGURE, a LINES statement and a GRID matrix are exhibits folded into the exercise
+# that follows them, so they are listed as scenes but are not exercises.
+
+ch01  13 pages  85 scenes  76 exercises in the files  91 counted in the browser   (undercount: see the header)
+    case          8 scenes   8 exercises   check,number,probe,sort
+    index         2 scenes   0 exercises   hub,know
+    practice      1 scenes   1 exercises   check
+    review        5 scenes   4 exercises   check,number,sort,traps
+    s1-1          7 scenes   7 exercises   check,sort,table
+    s1-2         10 scenes   9 exercises   beam,check,figure,sort,split,switch,tank
+    s1-3         11 scenes  10 exercises   check,cloze,contra,figure,number,post,probe,sort
+    s1-4          7 scenes   6 exercises   check,figure,number,sort,timeline2
+    s1-5          7 scenes   6 exercises   check,figure,probe,shelf,sort,switch
+    s1-6          8 scenes   7 exercises   check,cues,figure,number,sort,tbreader,wire
+    s1-7         11 scenes  11 exercises   check,gauges,locks,order,sort,statement
+    summary       4 scenes   3 exercises   cloze,figure,number,sort
+    terms         4 scenes   4 exercises   flash,sort,termcards
+
+ch02  11 pages  85 scenes  77 exercises in the files  77 counted in the browser
+    case          8 scenes   7 exercises   check,lines,number,sort
+    practice     21 scenes  21 exercises   check
+    review        7 scenes   7 exercises   check
+    s2-1          6 scenes   5 exercises   check,cloze,lines,order
+    s2-2          7 scenes   6 exercises   check,cloze,cycle,figure,sort
+    s2-3          7 scenes   6 exercises   check,cloze,figure,sort,split
+    s2-4          8 scenes   7 exercises   check,cloze,figure,ladder,sort
+    s2-5          6 scenes   5 exercises   check,cloze,figure,wire
+    s2-6          9 scenes   9 exercises   check,cloze,contra,locks,number,order,statement
+    summary       3 scenes   1 exercises   cloze,figure,traps
+    terms         3 scenes   3 exercises   flash,termcards
+
+ch03  11 pages  73 scenes  65 exercises in the files  65 counted in the browser
+    case          8 scenes   7 exercises   check,lines,number,sort
+    practice     21 scenes  21 exercises   check
+    review        7 scenes   7 exercises   check
+    s3-1          6 scenes   4 exercises   check,cloze,figure,lines,waterfall
+    s3-2          5 scenes   4 exercises   check,cloze,figure,sort
+    s3-3          6 scenes   5 exercises   check,cloze,figure,order,sort
+    s3-4          5 scenes   5 exercises   check,cloze,sort,switch
+    s3-5          4 scenes   3 exercises   check,figure,wire
+    s3-6          5 scenes   5 exercises   check,locks,number
+    summary       3 scenes   1 exercises   cloze,figure,traps
+    terms         3 scenes   3 exercises   flash,termcards
+
+ch04  11 pages  78 scenes  71 exercises in the files  71 counted in the browser
+    case          8 scenes   7 exercises   check,lines,number,sort
+    practice     26 scenes  26 exercises   check
+    review        7 scenes   7 exercises   check
+    s4-1          5 scenes   3 exercises   check,cloze,figure,grid
+    s4-2          6 scenes   5 exercises   check,cloze,figure,post,treasury
+    s4-3          6 scenes   6 exercises   check,cloze,shares
+    s4-4          4 scenes   4 exercises   check,cloze,sort
+    s4-5          4 scenes   3 exercises   check,figure,wire
+    s4-6          6 scenes   6 exercises   check,locks,number
+    summary       3 scenes   1 exercises   cloze,figure,traps
+    terms         3 scenes   3 exercises   flash,termcards
+
+ch05  11 pages  75 scenes  68 exercises in the files  68 counted in the browser
+    case          8 scenes   7 exercises   check,lines,number,sort
+    practice     24 scenes  24 exercises   check
+    review        7 scenes   7 exercises   check
+    s5-1          6 scenes   4 exercises   check,cloze,figure,lines,waterfall
+    s5-2          6 scenes   6 exercises   check,cloze,shares,sort
+    s5-3          5 scenes   4 exercises   check,cloze,figure,signs
+    s5-4          4 scenes   4 exercises   check,cloze,number
+    s5-5          4 scenes   3 exercises   check,figure,wire
+    s5-6          5 scenes   5 exercises   check,locks,sort
+    summary       3 scenes   1 exercises   cloze,figure,traps
+    terms         3 scenes   3 exercises   flash,termcards
+
+five chapters, 396 scene literals on disk; 372 exercises counted in the browser

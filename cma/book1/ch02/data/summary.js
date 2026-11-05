@@ -8,7 +8,7 @@
   "id": "summary",
   "up": "../",
   "title": "Chapter summary",
-  "terms": T.keys(),
+  "terms": L.KEYS,
   "brief": {
     "anim": "bands"
   },
@@ -66,7 +66,7 @@
       "kind": "traps",
       "kicker": "Your record",
       "title": "The traps you have got wrong",
-      "say": "Kept in this browser, one by one, so you can go back to a single question."
+      "say": "Kept in this browser, one by one, so you can go back to one question."
     }
   ]
 };

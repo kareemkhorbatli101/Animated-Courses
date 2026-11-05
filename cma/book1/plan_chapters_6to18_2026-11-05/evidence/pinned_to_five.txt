@@ -1,0 +1,42 @@
+================================================================================================
+DEFAULTS THAT CARRY A CHAPTER'S SHAPE
+================================================================================================
+  line 3247  default=6    the page list: s{n}-1 .. s{n}-{sections}, then the back matter
+            def order_of(n, sections=6):
+  line 3263  default=4    the term bank: how many Term Bridge boxes it shows
+            def terms_scenes(n, sections=4):
+  line 402   default=2    which chapter's statement to read when the caller does not say
+            def statement_scene(d, n=2):
+
+================================================================================================
+REGISTRIES KEYED BY CHAPTER: which chapters each one covers today
+================================================================================================
+  TRAPS                    the named traps a chapter's  covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  CASE_RULES               the rule each case item turn covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  SUMMARY_CLOZE            the phrases blanked in the c covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  EXTRA_BY_CHAPTER         the scenes a section adds be covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  EXTENDED_EXAMPLE         section x.N's builder, which covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  BRIEF_ANIM_BY_CHAPTER    the drawing each page's Brie covers [2, 3, 4, 5]
+                           chapters 6-18 missing: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+
+================================================================================================
+THE GATES: which chapters each one walks
+================================================================================================
+  cma_provenance.py      CHAPTERS = (1, 2, 3, 4, 5)
+  cma_render.py          CHAPTERS = (1, 2, 3, 4, 5)
+  cma_interactive.py     CHAPTERS = (1, 2, 3, 4, 5)
+  cma_crosstie.py        LEDGERS = {2: "ledger-ch02.js", 3: "ledger-ch03.js", 4: "ledger-ch04.js",
+
+================================================================================================
+WHAT THAT ADDS UP TO FOR THIRTEEN CHAPTERS
+================================================================================================
+  2 defaults to replace with a count read from the chapter.
+  6 registries x 13 chapters = 78 entries to author, every one of them the
+    author's own words or his own figure - none of it generable.
+  4 gates to extend, and one of them (cma_crosstie) needs a ledger per chapter
+    before it can say anything.

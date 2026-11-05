@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Purpose and structure of the balance sheet",
   "n": "2.1",
-  "terms": T.bridge("2.1"),
+  "terms": L.BRIDGE,
   "brief": {
     "about": "The balance sheet reports a company's assets, liabilities and equity at one point in time. It answers three questions for investors and lenders. Can the company pay its bills in the coming months? This is liquidity. Can it pay all its debts over time? This is solvency. Can it raise cash or change its plans if something unexpected happens? This is financial flexibility. U.S. Read the figure from the top.",
     "anim": "bands"
@@ -267,6 +267,9 @@
           "needs": "nothing after it",
           "why": "Liabilities follow the same order, and equity comes last."
         }
+      ],
+      "traps": [
+        "reading-a-balance-sheet-heading"
       ]
     },
     {

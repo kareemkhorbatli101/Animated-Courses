@@ -1,0 +1,6 @@
+# cma_render over chapters 1-5
+# Saved 2026-11-05 from a real run over chapters 1-5.
+# Run it again with: cd D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python && python -m gates.cma_render
+
+484/484 checks pass
+RESULT: PASS

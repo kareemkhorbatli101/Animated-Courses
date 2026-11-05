@@ -1,0 +1,32 @@
+# cma_interactive --teeth over chapters 1-5
+# Saved 2026-11-05 from a real run against the shipped state.
+# Every line below is a check being made to FAIL on a planted defect; the
+# bracket shows both ends, so [clean=PASS planted=FAIL] is a working tooth.
+# Run it again with: cd <pipeline> && python -m gates.cma_interactive --teeth
+
+=== STANDARD A: DECIDE, DO NOT REVEAL ===
+  PASS A1 every exercise can be marked at all               0 of 372 offer no marking: 
+  PASS A2 an untouched exercise is not already right        0 pass untouched: 
+  PASS A3 clicking every button is not enough to pass       0 pass on coverage alone: 
+  PASS A4 every instrument exposes an operable control      0 draw but do not move: 
+  PASS A5 no scene scores the learner on coverage           0 of 30 renderers: 
+  PASS A5 the lint actually read the renderers              30 renderers linted
+  PASS A6 no journal row is posted for the learner          3 posting scene(s), every row the learner's
+  PASS A7 no page ships an unresolved ledger reference      61 data files clean
+  PASS A8 the book index's exercise count per chapter is the counted one ch01 91, ch02 77, ch03 65, ch04 71, ch05 68 = 372
+  PASS every exercise was reached                           372 exercises, 38 exempt
+
+=== TEETH (both ends) ===
+  clean run: PASS
+  PASS a scene that passes untouched fails the gate   [clean=PASS planted=FAIL]
+  PASS a screen with marking hidden fails the gate    [clean=PASS planted=FAIL]
+  PASS an unresolved ledger reference fails the gate [clean=PASS planted=FAIL]
+  PASS the per-chapter counts sum to the total           [91 + 77 + 65 + 71 + 68 = 372]
+  baseline on ch01/s1-1.html: 84 of 84 pass
+  PASS an option with no reason           fails 'reasons'   [clean=PASS planted=2 failing]
+  PASS two options marked correct         fails 'one-right'   [clean=PASS planted=2 failing]
+  PASS a grader that throws               fails 'verdict-written'   [clean=PASS planted=2 failing]
+  PASS a scene kind the answer key cannot render fails 'in-answer-key'   [clean=PASS planted=7 failing]
+  PASS a scene that passes on coverage    fails 'coverage-fails'   [clean=PASS planted=4 failing]
+
+RESULT: PASS

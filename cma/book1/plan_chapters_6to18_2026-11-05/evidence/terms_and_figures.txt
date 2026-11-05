@@ -1,0 +1,385 @@
+====================================================================================================
+TERM MARKS: assets/icons.js draws 129 terms today
+====================================================================================================
+ch      rows unique    NEW   terms with no drawn mark
+6         28     21     19   current expected credit losses (CECL), aging schedule, credit loss expense, write-off, factoring, recourse, secured borr
+7         38     30     27   goods available for sale, FIFO (first-in, first-out), LIFO (last-in, first-out), weighted-average cost, periodic invento
+8         26     17     17   net realizable value (NRV), lower of cost and net realizable value (LCNRV), lower of cost or market (LCM), replacement c
+9         28     18     16   debt security, equity security, trading securities, available-for-sale (AFS) securities, held-to-maturity (HTM) securiti
+10        33     24     24   property, plant and equipment (PP&E), depreciable base, salvage value, useful life, carrying amount, impairment, recover
+11        31     21     19   performance obligation, transaction price, standalone selling price, variable consideration, over time, point in time, p
+12        18     11     10   short-term obligation, qualifying financing agreement, assurance-type warranty, service-type warranty, warranty liabilit
+13        25     17     16   taxable income, temporary difference, permanent difference, deferred tax liability, deferred tax asset, valuation allowa
+14        20     12     12   lease, right-of-use asset, lease liability, finance lease, operating lease, short-term lease, incremental borrowing rate
+15        21     13      6   held for sale, disposal group, fair value less cost to sell, holding gain or loss, period cost, systematic and rational 
+16        24     16     16   consolidated financial statements, parent, subsidiary, variable interest entity, primary beneficiary, noncontrolling int
+17        24     16     16   revaluation model, revaluation surplus, development costs, value in use, recoverable amount, cash-generating unit, prior
+18        23     15     15   integrated reporting, integrated report, integrated thinking, capitals, value creation process, outputs, outcomes, conte
+
+   339 bridged rows in all.
+   213 chapter-and-term pairs need a mark, which is 204 DISTINCT terms: 9 of them
+   are bridged by two chapters. The work is the 204 distinct marks; the larger
+   number is what you get by adding the per-chapter column up, and it double-
+   counts. Both are printed because the per-chapter column is what tells you
+   which chapter's figure a mark has to be drawn from.
+
+   Every one, so the list can be argued with instead of discovered:
+      abnormal waste
+      acquisition method
+      agent
+      aging schedule
+      amortization
+      amortized cost
+      asset group
+      assurance-type warranty
+      available-for-sale (afs) securities
+      basis difference
+      bill-and-hold arrangement
+      bond discount
+      bond premium
+      breakage
+      capital expenditure
+      capitalized interest
+      capitals
+      carrying amount
+      cash discount
+      cash-generating unit
+      ceiling
+      change in accounting estimate
+      commercial paper
+      commercial substance
+      compensated absences
+      component depreciation
+      consideration payable to a customer
+      consignee
+      consignment
+      consignor
+      consolidated financial statements
+      constraint on variable consideration
+      content elements
+      contract asset
+      controlling financial interest
+      conventional retail method
+      cost flow assumption
+      cost-to-retail ratio
+      counterbalancing error
+      credit loss expense
+      current expected credit losses (cecl)
+      current tax expense
+      debt security
+      deductible temporary difference
+      deferred tax asset
+      deferred tax expense
+      deferred tax liability
+      defined benefit plan
+      depreciable base
+      development costs
+      direct write-off method
+      disposal group
+      double-declining-balance method
+      downstream sale
+      effective control
+      effective tax rate
+      effective-interest method
+      enacted tax rate
+      equity method
+      equity security
+      factor
+      factoring
+      fair value
+      fair value less cost to sell
+      fair value less costs of disposal
+      fair value option
+      fifo (first-in, first-out)
+      finance lease
+      financial capital
+      floor
+      fob destination
+      fob shipping point
+      freight-in
+      freight-out
+      goods available for sale
+      goods in transit
+      goodwill
+      graded vesting
+      gross profit method
+      guiding principles
+      held for sale
+      held-to-maturity (htm) securities
+      holdback (due from factor)
+      holding gain or loss
+      human capital
+      impairment
+      incremental borrowing rate
+      incremental costs of obtaining a contract
+      indefinite-lived intangible asset
+      input method
+      integrated report
+      integrated reporting
+      integrated thinking
+      intellectual capital
+      intercompany transaction
+      interperiod tax allocation
+      inventoriable cost
+      investee
+      involuntary conversion
+      item-by-item basis
+      joint venture
+      lease
+      lease liability
+      lease term
+      legal isolation
+      lessee
+      lessor
+      lifo (last-in, first-out)
+      lifo conformity rule
+      lifo liquidation
+      lifo reserve
+      lower of cost and net realizable value (lcnrv)
+      lower of cost or market (lcm)
+      manufactured capital
+      markdown
+      markup
+      material right
+      measurement alternative
+      moving average
+      natural capital
+      net operating loss carryforward
+      net realizable value (nrv)
+      noncontrolling interest
+      normal capacity
+      normal profit margin
+      notes receivable
+      operating lease
+      outcomes
+      output method
+      outputs
+      over time
+      parent
+      payroll taxes
+      performance obligation
+      period cost
+      periodic inventory system
+      permanent difference
+      perpetual inventory system
+      physical count
+      pledging
+      point in time
+      primary beneficiary
+      principal
+      prior service cost
+      property, plant and equipment (pp&e)
+      proportionate consolidation
+      purchase commitment
+      purchase discount
+      qualifying financing agreement
+      recourse
+      recourse liability
+      recoverability test
+      recoverable amount
+      recovery
+      refund liability
+      remeasurements
+      replacement cost
+      reporting unit
+      research and development (r&d)
+      residual value guarantee
+      retail inventory method
+      revaluation model
+      revaluation surplus
+      revenue expenditure
+      right-of-use asset
+      sale and leaseback
+      sales tax payable
+      salvage value
+      secured borrowing
+      service-type warranty
+      short-term lease
+      short-term obligation
+      shrinkage
+      significant financing component
+      significant influence
+      social and relationship capital
+      specific identification
+      standalone selling price
+      straight-line method
+      subsidiary
+      sum-of-the-years'-digits method
+      systematic and rational allocation
+      tax basis
+      taxable income
+      taxable temporary difference
+      temporary difference
+      trading securities
+      transaction price
+      uncertain tax position
+      units-of-production method
+      unrealized holding gain or loss
+      unrealized profit
+      upstream sale
+      useful life
+      valuation allowance
+      value creation process
+      value in use
+      variable consideration
+      variable interest entity
+      warranty liability
+      weighted-average cost
+      withholding
+      write-down
+      write-off
+
+====================================================================================================
+NO ARABIC IS MISSING: every bridged row carries the author's own
+====================================================================================================
+   ch6    28 rows, 0 without Arabic
+   ch7    38 rows, 0 without Arabic
+   ch8    26 rows, 0 without Arabic
+   ch9    28 rows, 0 without Arabic
+   ch10   33 rows, 0 without Arabic
+   ch11   31 rows, 0 without Arabic
+   ch12   18 rows, 0 without Arabic
+   ch13   25 rows, 0 without Arabic
+   ch14   20 rows, 0 without Arabic
+   ch15   21 rows, 0 without Arabic
+   ch16   24 rows, 0 without Arabic
+   ch17   24 rows, 0 without Arabic
+   ch18   23 rows, 0 without Arabic
+
+====================================================================================================
+WHAT THE AUTHOR DRAWS, AND WHAT SHAPE EACH PRINTED FIGURE IS
+====================================================================================================
+A numbered figure is either an IMAGE he embedded or a TABLE he printed. The site
+shows an image as an exhibit and turns a table into an instrument, so the table's
+shape is what decides whether an existing scene kind fits.
+
+   ch6   12 figures: 6 drawn, 6 printed as tables
+            F06-03    7 rows x 4 cols   <- wider than the lines exhibit can render
+            F06-05    5 rows x 3 cols
+            F06-06    5 rows x 4 cols   <- wider than the lines exhibit can render
+            F06-09    9 rows x 2 cols
+            F06-10    5 rows x 3 cols
+            F06-12   10 rows x 2 cols
+   ch7   13 figures: 8 drawn, 7 printed as tables
+            F07-03    1 rows x 1 cols
+            F07-05    4 rows x 5 cols   <- wider than the lines exhibit can render
+            F07-06    1 rows x 1 cols
+            F07-09    5 rows x 7 cols   <- wider than the lines exhibit can render
+            F07-10    5 rows x 4 cols   <- wider than the lines exhibit can render
+            F07-11    6 rows x 4 cols   <- wider than the lines exhibit can render
+            F07-13   13 rows x 4 cols   <- wider than the lines exhibit can render
+   ch8   13 figures: 7 drawn, 7 printed as tables
+            F08-03    9 rows x 2 cols
+            F08-05    6 rows x 9 cols   <- wider than the lines exhibit can render
+            F08-06    1 rows x 1 cols
+            F08-08    7 rows x 5 cols   <- wider than the lines exhibit can render
+            F08-10    6 rows x 8 cols   <- wider than the lines exhibit can render
+            F08-11    7 rows x 3 cols
+            F08-13    6 rows x 8 cols   <- wider than the lines exhibit can render
+   ch9   12 figures: 7 drawn, 5 printed as tables
+            F09-03    7 rows x 4 cols   <- wider than the lines exhibit can render
+            F09-04    5 rows x 4 cols   <- wider than the lines exhibit can render
+            F09-09    4 rows x 6 cols   <- wider than the lines exhibit can render
+            F09-10    4 rows x 4 cols   <- wider than the lines exhibit can render
+            F09-12    6 rows x 4 cols   <- wider than the lines exhibit can render
+   ch10  14 figures: 8 drawn, 7 printed as tables
+            F10-03    7 rows x 5 cols   <- wider than the lines exhibit can render
+            F10-04    6 rows x 5 cols   <- wider than the lines exhibit can render
+            F10-05    5 rows x 4 cols   <- wider than the lines exhibit can render
+            F10-10    1 rows x 1 cols
+            F10-11    7 rows x 5 cols   <- wider than the lines exhibit can render
+            F10-12    6 rows x 3 cols
+            F10-14    6 rows x 4 cols   <- wider than the lines exhibit can render
+   ch11  14 figures: 6 drawn, 11 printed as tables
+            F11-02    6 rows x 3 cols
+            F11-03    4 rows x 3 cols
+            F11-04    1 rows x 1 cols
+            F11-05    1 rows x 1 cols
+            F11-06    5 rows x 5 cols   <- wider than the lines exhibit can render
+            F11-07    1 rows x 1 cols
+            F11-09    7 rows x 2 cols
+            F11-10    7 rows x 3 cols
+            F11-11    5 rows x 5 cols   <- wider than the lines exhibit can render
+            F11-12    6 rows x 3 cols
+            F11-14   10 rows x 2 cols
+   ch12  13 figures: 5 drawn, 10 printed as tables
+            F12-02    8 rows x 3 cols
+            F12-03    9 rows x 2 cols
+            F12-04    1 rows x 1 cols
+            F12-05    6 rows x 3 cols
+            F12-06    5 rows x 3 cols
+            F12-08    9 rows x 4 cols   <- wider than the lines exhibit can render
+            F12-09    1 rows x 1 cols
+            F12-10    6 rows x 2 cols
+            F12-11    6 rows x 3 cols
+            F12-13   11 rows x 2 cols
+   ch13  14 figures: 5 drawn, 10 printed as tables
+            F13-02    8 rows x 2 cols
+            F13-03    8 rows x 3 cols
+            F13-04    1 rows x 1 cols
+            F13-05    8 rows x 2 cols
+            F13-06   11 rows x 3 cols
+            F13-07    7 rows x 3 cols
+            F13-10    7 rows x 3 cols
+            F13-11   10 rows x 2 cols
+            F13-12    5 rows x 3 cols
+            F13-14    9 rows x 2 cols
+   ch14  13 figures: 4 drawn, 10 printed as tables
+            F14-03    7 rows x 3 cols
+            F14-04    7 rows x 3 cols
+            F14-05    1 rows x 1 cols
+            F14-06    5 rows x 7 cols   <- wider than the lines exhibit can render
+            F14-07    6 rows x 7 cols   <- wider than the lines exhibit can render
+            F14-08    6 rows x 3 cols
+            F14-09    7 rows x 3 cols
+            F14-10    6 rows x 5 cols   <- wider than the lines exhibit can render
+            F14-11    6 rows x 3 cols
+            F14-13    7 rows x 2 cols
+   ch15  13 figures: 4 drawn, 10 printed as tables
+            F15-02    6 rows x 4 cols   <- wider than the lines exhibit can render
+            F15-03    4 rows x 3 cols
+            F15-04    1 rows x 1 cols
+            F15-05   10 rows x 3 cols
+            F15-06    7 rows x 2 cols
+            F15-08   10 rows x 2 cols
+            F15-09    7 rows x 3 cols
+            F15-10    7 rows x 2 cols
+            F15-11    4 rows x 4 cols   <- wider than the lines exhibit can render
+            F15-13   12 rows x 2 cols
+   ch16  14 figures: 5 drawn, 11 printed as tables
+            F16-02    1 rows x 1 cols
+            F16-03    6 rows x 3 cols
+            F16-04    4 rows x 5 cols   <- wider than the lines exhibit can render
+            F16-05    1 rows x 1 cols
+            F16-06    7 rows x 3 cols
+            F16-08    8 rows x 4 cols   <- wider than the lines exhibit can render
+            F16-09    9 rows x 2 cols
+            F16-10    7 rows x 3 cols
+            F16-11    7 rows x 3 cols
+            F16-12    6 rows x 2 cols
+            F16-14   11 rows x 2 cols
+   ch17  12 figures: 4 drawn, 10 printed as tables
+            F17-02    7 rows x 3 cols
+            F17-03    7 rows x 3 cols
+            F17-04    1 rows x 1 cols
+            F17-05    7 rows x 3 cols
+            F17-06    6 rows x 3 cols
+            F17-07    1 rows x 1 cols
+            F17-08    7 rows x 2 cols
+            F17-09    9 rows x 2 cols
+            F17-10    7 rows x 4 cols   <- wider than the lines exhibit can render
+            F17-12    8 rows x 2 cols
+   ch18  12 figures: 4 drawn, 9 printed as tables
+            F18-02    5 rows x 4 cols   <- wider than the lines exhibit can render
+            F18-03    7 rows x 3 cols
+            F18-05    7 rows x 2 cols
+            F18-06    8 rows x 3 cols
+            F18-07    9 rows x 3 cols
+            F18-08    1 rows x 1 cols
+            F18-09    7 rows x 4 cols   <- wider than the lines exhibit can render
+            F18-10    9 rows x 2 cols
+            F18-12    9 rows x 2 cols
+
+   Table widths across the thirteen chapters: 1-column 17, 2-column 26, 3-column 36, 4-column 18, 5-column 9, 6-column 1, 7-column 3, 8-column 2, 9-column 1
+   34 printed figures are wider than three columns, so they need the `grid`
+   exhibit rather than `lines`. `grid` was built for Chapter 4 and already ships.

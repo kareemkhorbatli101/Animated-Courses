@@ -1,0 +1,375 @@
+====================================================================================================
+CHAPTER 6  Receivables: Credit Losses and Transfers
+====================================================================================================
+  -    F06-01    image  Chapter 6 roadmap: receivables, the allowance, and what can happen to a receiv
+  6.1  F06-02    image  Timeline of a receivable from order to collection, using Orontes and GreenBask
+  6.2  F06-03    table  Aging schedule, Orontes Amman sales office, December 31, 2025 (whole USD)
+            7 x 4   Age of receivable | Amount | Expected loss rate | Required allowance
+  6.2  F06-04    image  Allowance for credit losses T-account: the expense is the plug that reaches th
+  6.2  F06-05    table  Allowance method (CECL) versus direct write-off method, Amman sales office 202
+            5 x 3    | Allowance method (CECL | Direct write-off metho
+  6.2  F06-06    table  Barada Wholesale aging, December 31, 2025 (whole USD): complete the blanks
+            5 x 4   Age of receivable | Amount | Expected loss rate | Required allowance
+              col Expected loss rate     decides between: 2% / 25% / 8%
+              col Required allowance     decides between: 3,600 / ______
+  6.3  F06-07    image  Decision tree: is a transfer of receivables a sale or a secured borrowing?.
+  6.3  F06-08    image  Effects of one transfer as a sale without recourse, a sale with recourse, or a
+  6.4  F06-09    table  Extended Example 6A: the allowance roll-forward
+            9 x 2   Allowance for credit l | Amount
+  6.4  F06-10    table  Extended Example 6A: the transfer with and without recourse
+            5 x 3   The transfer of receiv | Without recourse | With recourse
+  6.4  F06-11    image  Chapter 6 summary map: the key rule for each section.
+  6.4  F06-12    table  Case exhibit: Orontes Dubai sales office, December 31, 2025
+            10 x 2   Item | Details (whole USD)
+
+====================================================================================================
+CHAPTER 7  Inventory I: Goods, Costs and Cost Flows
+====================================================================================================
+  -    F07-01    image  Chapter 7 roadmap: goods available for sale split into cost of goods sold and 
+  7.1  F07-02    image  Decision tree: should goods be included in inventory at year-end?.
+  7.2  F07-03    image  Inventoriable costs versus period costs.
+  7.3  F07-04    image  Cost layers for Orontes olive oil under FIFO, LIFO and weighted average (perio
+  7.3  F07-05    table  Olive oil: periodic versus perpetual results (whole USD)
+            4 x 5   Method | Periodic: ending inven | Periodic: COGS | Perpetual: ending inve | Perpetual: COGS
+  7.3  F07-06    image  Faded example: periodic LIFO for Dubai pastry trays; the learner completes the
+  7.4  F07-07    image  Effects of FIFO, weighted average and LIFO when prices are rising.
+  7.5  F07-08    image  An overstated ending inventory: income is overstated in year 1 and understated
+  7.5  F07-09    table  Effects of four common inventory errors (O = overstated, U = understated)
+            5 x 7   Error in year 1 | Y1 COGS | Y1 net income | Y1 end RE | Y1 assets | Y2 net income | Y2 end RE
+              col Y1 COGS                decides between: O / U / no effect
+              col Y1 net income          decides between: O / U / no effect
+              col Y1 end RE              decides between: O / U / no effect
+              col Y1 assets              decides between: O / U / U (and liabilities U) / correct (liabilities U)
+              col Y2 net income          decides between: O / U / no effect
+              col Y2 end RE              decides between: correct
+  7.6  F07-10    table  Extended Example 7A: the same year under three cost flows
+            5 x 4   Orontes, periodic syst | FIFO | Weighted average | LIFO
+              col FIFO                   decides between: (272,000) / 100,000 / 372,000 / layers
+              col LIFO                   decides between: (288,000) / 372,000 / 84,000 / layers
+  7.6  F07-11    table  Extended Example 7A: the effect on profit and tax
+            6 x 4   Orontes, 2025 (USD) | FIFO | Weighted average | LIFO
+  7.6  F07-12    image  Chapter 7 summary map: the key rule for each section.
+  7.6  F07-13    table  Case exhibit: Orontes tahini cartons, 2025 purchases, year-end count and memo
+            13 x 4   Date / item | Details | Cartons | USD
+
+====================================================================================================
+CHAPTER 8  Inventory II: Measurement Tests, Retail Estimates and Choosing a Method
+====================================================================================================
+  -    F08-01    image  Chapter 8 roadmap: the cost flow method decides between LCNRV and LCM.
+  8.1  F08-02    image  Decision: the cost flow method decides whether LCNRV or LCM applies.
+  8.1  F08-03    table  LCNRV for Orontes olive oil at December 31, 2025 (whole USD)
+            9 x 2   Orontes olive oil, Dec | Amount
+  8.2  F08-04    image  LCM number lines: the floor, replacement cost or the ceiling sets market.
+  8.2  F08-05    table  LCM, item by item, for four Orontes product lines measured under LIFO (whole U
+            6 x 9   Item | Cases | Cost | Replace-ment cost | NRV (ceiling) | Floor | Market | LCM per case | Write-down
+  8.3  F08-06    image  Retail method worksheet for Orontes Farm Shops: conventional and average-cost 
+  8.3  F08-07    image  Faded retail worksheet for the Dubai shop; the learner fills in the dashed box
+  8.4  F08-08    table  Advantages and disadvantages of the inventory methods
+            7 x 5   Criterion | FIFO | LIFO | Weighted average | Specific identificatio
+              col Weighted average       decides between: Between the two / Low / Smooths price changes / Yes
+  8.5  F08-09    image  Decision path for recommending an inventory cost flow method.
+  8.6  F08-10    table  Extended Example 8A: the measurement test, item by item
+            6 x 8   Product | Cost | Replacement cost | Ceiling | Floor | Market | Carried at | Write-down
+  8.6  F08-11    table  Extended Example 8A: the retail method, two ratios
+            7 x 3   Retail division | Average cost | Conventional (lower of
+  8.6  F08-12    image  Chapter 8 summary map: the key rule for each section.
+  8.6  F08-13    table  Case exhibit: Orontes product lines at December 31, 2025 (whole USD per unit)
+            6 x 8   Item | Method | Units | Unit cost | Replace-ment cost | Selling price | Costs to sell | Normal profit
+              col Method                 decides between: FIFO / LIFO
+
+====================================================================================================
+CHAPTER 9  Investments in Debt and Equity Securities
+====================================================================================================
+  -    F09-01    image  Chapter 9 roadmap: debt securities in three categories, equity securities by l
+  9.1  F09-02    image  Decision tree for classifying a debt security as trading, held-to-maturity or 
+  9.2  F09-03    table  How each category of investment is measured
+            7 x 4   Category | Balance sheet amount | Unrealized gains and l | On sale, OCI is
+              col Balance sheet amount   decides between: Amortized cost − allowance / Cost + share of income − dividends / Fair
+              col Unrealized gains and l decides between: Net income / Net income (price changes, impairment) / Not recognized /
+              col On sale, OCI is        decides between: Reclassified to net income / —
+  9.2  F09-04    table  The same bond under three categories, 2025 (whole USD)
+            5 x 4   2025, whole USD | Trading | Available-for-sale | Held-to-maturity
+              col Trading                decides between: (859) in net income / 101,000 / 101,859 / 5,136
+              col Available-for-sale     decides between: (859) in OCI / 101,000 / 101,859 / 5,136
+              col Held-to-maturity       decides between: 101,859 / 5,136 / not recognized
+  9.2  F09-05    image  Timeline of an available-for-sale bond: OCI while held, recycled to net income
+  9.4  F09-06    image  Influence spectrum: fair value, the equity method or consolidation, by share o
+  9.4  F09-07    image  Equity-method T-account for Orontes's 30% investment in Jordan Glass Co., 2025
+  9.4  F09-08    image  Faded equity-method T-account for 2026; the learner completes the dashed boxes
+  9.5  F09-09    table  Extended Example 9A: the premium amortisation schedule
+            4 x 6   Year | Opening carrying amoun | Cash at the coupon rat | Interest income at the | Amortisation | Closing
+  9.5  F09-10    table  Extended Example 9A: the same bond under three classifications
+            4 x 4   Classification | On the balance sheet | Where the unrealized c | Effect on net income
+              col On the balance sheet   decides between: Amortised cost 101,859 / Fair value 101,000
+              col Where the unrealized c decides between: Net income / Not recognised / Other comprehensive income
+              col Effect on net income   decides between: Interest income 5,136 less the loss / Interest income 5,136 only
+  9.5  F09-11    image  Chapter 9 summary map: the key rule for each section.
+  9.5  F09-12    table  Case exhibit: the Orontes investment portfolio at December 31, 2025
+            6 x 4   Item | Investment | Facts | Amounts, Dec 31, 2025
+              col Investment             decides between: Corporate bond / Government bond / Listed shares (5% of the company) /
+              col Amounts, Dec 31, 2025  decides between: cost 25,000; fair value 27,000 / cost 30,000; fair value 28,500 / cost
+
+====================================================================================================
+CHAPTER 10  Long-Lived Assets: Depreciation, Disposal and Impairment
+====================================================================================================
+  -    F10-01    image  Chapter 10 roadmap: acquire, use, test and dispose of long-lived assets.
+  10.2 F10-02    image  Depreciation expense each year for the bottling line under four methods.
+  10.2 F10-03    table  Depreciation schedules for the Amman bottling line (whole USD)
+            7 x 5    | Straight-line | Double-declining (40%) | Sum-of-the-years'-digi | Units of production
+  10.2 F10-04    table  Effects of the depreciation methods on the financial statements
+            6 x 5   Effect | Straight-line | Double-declining | SYD | Units of production
+              col Straight-line          decides between: Highest / Lowest (even) / No effect / Same
+              col Double-declining       decides between: Highest / Lowest / No effect / Same
+              col SYD                    decides between: High / Low / No effect / Same
+              col Units of production    decides between: Follows use / No effect / Same
+  10.2 F10-05    table  Double-declining schedule for the Dubai trucks (whole USD): complete the blank
+            5 x 4    | Beginning book value | Depreciation | Ending book value
+              col Beginning book value   decides between: 45,000 / 90,000 / ______
+              col Depreciation           decides between: 50% × 90,000 = 45,000 / ______ / ______ (do not go below salvage)
+              col Ending book value      decides between: 10,000 / 45,000 / ______
+  10.3 F10-06    image  Decision path for recommending a depreciation method.
+  10.4 F10-07    image  Disposal of the Dubai oven: update depreciation, find the carrying amount, the
+  10.5 F10-08    image  ASC 360 impairment of the Jordan plant: recoverability test, then loss against
+  10.5 F10-09    image  Single-step goodwill impairment test, with and without the cap at the goodwill
+  10.5 F10-10    image  Finite-lived intangibles, indefinite-lived intangibles and goodwill: amortizat
+  10.6 F10-11    table  Extended Example 10A: carrying amount under four depreciation methods
+            7 x 5   End of year | Straight line | Double declining | Sum of years' digits | Units of production
+  10.6 F10-12    table  Extended Example 10A: the same plant tested under U.S. GAAP and IFRS
+            6 x 3   The Jordan plant | U.S. GAAP | IFRS
+  10.6 F10-13    image  Chapter 10 summary map: the key rule for each section.
+  10.6 F10-14    table  Case exhibit: Orontes impairment review at December 31, 2025
+            6 x 4   Item | Asset | Facts | Amounts (USD 000)
+
+====================================================================================================
+CHAPTER 11  Revenue Recognition
+====================================================================================================
+  -    F11-01    image  Chapter 11 roadmap: the five steps of revenue recognition.
+  11.2 F11-02    table  Suppose: the five steps applied to the Orontes–GreenBasket contract, October 1
+            6 x 3   Step | Orontes's analysis | Result (whole USD)
+  11.3 F11-03    table  Variable consideration: most likely amount or expected value
+            4 x 3   Suppose: sales of 2,40 | How it works | Revenue (whole USD)
+              col Revenue (whole USD)    decides between: 2,328,000 / 2,349,600 / Applies to both
+  11.3 F11-04    image  Allocating the GreenBasket discount by relative standalone selling price.
+  11.4 F11-05    image  Decision chart: is revenue recognized over time or at a point in time?.
+  11.4 F11-06    table  Suppose: GreenBasket revenue schedule for 2026
+            5 x 5   Obligation | Allocated | Timing | Progress in 2026 | 2026 revenue
+              col Timing                 decides between: Over time (24 months) / Point in time (each delivery) / Point in time 
+              col Progress in 2026       decides between: 3 months × 3,750 / 8,000 of 20,000 cases × 40 / installed
+  11.4 F11-07    image  Cash, revenue and the contract liability on the GreenBasket contract.
+  11.5 F11-08    image  Principal or agent: gross or net revenue on a drop shipment.
+  11.5 F11-09    table  Suppose: Barada's sale with a right of return (complete the blanks)
+            7 x 2   Suppose: Barada sells  | Whole USD
+              col Whole USD              decides between: 20,000 / 50 / ________
+  11.6 F11-10    table  ASC 606 and IFRS 15: the main differences
+            7 x 3   Topic | U.S. GAAP (ASC 606) | IFRS 15
+  11.7 F11-11    table  Extended Example 11A: allocating the price to the three obligations
+            5 x 5   Performance obligation | Standalone price | Share | Allocated price | Discount borne
+              col Share                  decides between: 90% of standalone / —
+  11.7 F11-12    table  Extended Example 11A: 2025 revenue, and three wrong answers
+            6 x 3   Treatment | 2025 revenue | Why
+  11.7 F11-13    image  Chapter 11 summary map: the key rule for each section.
+  11.7 F11-14    table  Case exhibit: Orontes and Qasr Hotels, 2026 (USD 000)
+            10 x 2   Item (USD 000) | Amount / details
+
+====================================================================================================
+CHAPTER 12  Current Liabilities and Warranties
+====================================================================================================
+  -    F12-01    image  Chapter 12 roadmap: current liabilities, refinancing and warranties.
+  12.1 F12-02    table  Orontes's current liabilities at December 31, 2025
+            8 x 3   Orontes, December 31,  | What it is | Whole USD
+  12.2 F12-03    table  Suppose: Barada's payroll and sales tax for one month (complete the blanks)
+            9 x 2   Suppose: Barada, one m | Whole USD
+  12.3 F12-04    image  Decision chart: can short-term debt be shown as noncurrent?.
+  12.3 F12-05    table  Suppose: five refinancing scenarios for Orontes's commercial paper
+            6 x 3   Suppose: Orontes, comm | Noncurrent (U.S. GAAP) | Current (U.S. GAAP)
+  12.4 F12-06    table  Classification, covenants and warranty costs: U.S. GAAP and IFRS
+            5 x 3   Situation | U.S. GAAP | IFRS (IAS 1, IAS 37)
+  12.5 F12-07    image  Decision chart: assurance-type or service-type warranty?.
+  12.5 F12-08    table  Suppose: Orontes's warranty entries for 2026
+            9 x 4   Suppose: Orontes, 2026 | Account | Debit | Credit
+  12.5 F12-09    image  Orontes's 2026 warranty liability and extended-plan contract liability.
+  12.6 F12-10    table  Extended Example 12A: the assurance warranty liability
+            6 x 2   Assurance warranty, 20 | Amount
+  12.6 F12-11    table  Extended Example 12A: assurance against service warranties
+            6 x 3    | Assurance (included in | Service (sold separate
+  12.6 F12-12    image  Chapter 12 summary map: the key rule for each section.
+  12.6 F12-13    table  Case exhibit: selected Barada Wholesale liabilities at December 31, 2027 (USD 
+            11 x 2   Barada Wholesale, sele | Amount / details
+
+====================================================================================================
+CHAPTER 13  Income Taxes
+====================================================================================================
+  -    F13-01    image  Chapter 13 roadmap: book income, taxable income and deferred taxes.
+  13.1 F13-02    table  Orontes Foods Inc. — income tax figures for 2025
+            8 x 2   Orontes Foods Inc., 20 | Amount
+  13.2 F13-03    table  Common temporary and permanent differences
+            8 x 3   Item | Type of difference | Creates
+              col Type of difference     decides between: Permanent / Temporary, deductible / Temporary, taxable
+              col Creates                decides between: Deferred tax asset / Deferred tax liability / None
+  13.2 F13-04    image  Decision chart: permanent difference, deferred tax liability or deferred tax a
+  13.3 F13-05    table  Suppose: Orontes's 2026 taxable income and current tax
+            8 x 2   Suppose: Orontes, 2026 | Amount
+  13.3 F13-06    table  Suppose: Orontes's 2026 income tax expense and rate reconciliation
+            11 x 3   Suppose: Orontes, 2026 | Amount | % of pretax income
+              col % of pretax income     decides between: -0.250% / 0.125% / 24.875% / 25.000%
+  13.3 F13-07    table  Classify the differences (complete the blanks)
+            7 x 3   Item | Type | Creates
+              col Type                   decides between: Permanent / Temporary, taxable / ________
+              col Creates                decides between: DTL / None / ________
+  13.4 F13-08    image  The DTL on Orontes's 2026 equipment over three years, with a rate cut enacted 
+  13.4 F13-09    image  Decision chart: does a deferred tax asset need a valuation allowance?.
+  13.5 F13-10    table  Income taxes: U.S. GAAP (ASC 740) and IFRS (IAS 12)
+            7 x 3   Topic | U.S. GAAP (ASC 740) | IFRS (IAS 12)
+  13.6 F13-11    table  Extended Example 13A: from book income to tax expense
+            10 x 2   Orontes, 2025 (USD) | Amount
+  13.6 F13-12    table  Extended Example 13A: the effect of a change in the enacted rate
+            5 x 3   Deferred tax liability | At the old rate | At the new rate
+              col At the old rate        decides between: 25% / 300,000 / 75,000 / —
+              col At the new rate        decides between: 21% / 300,000 / 63,000 / a credit of 12,000
+  13.6 F13-13    image  Chapter 13 summary map: the key rule for each section.
+  13.6 F13-14    table  Case exhibit: Barada Wholesale, 2027 income tax data (whole USD)
+            9 x 2   Barada Wholesale, 2027 | Amount / details
+
+====================================================================================================
+CHAPTER 14  Leases
+====================================================================================================
+  -    F14-01    image  Chapter 14 roadmap: the lessee's asset and liability, and two expense patterns
+  14.2 F14-02    image  The five criteria: one 'yes' makes a lease a finance lease.
+  14.2 F14-03    table  Suppose: classifying Orontes's two leases, January 1, 2026
+            7 x 3   Criterion | Warehouse (5 years, 10 | Olive press (4 years, 
+  14.3 F14-04    table  Suppose: initial measurement of Orontes's leases
+            7 x 3   Suppose: January 1, 20 | Warehouse | Olive press
+  14.4 F14-05    image  Finance-lease expense is higher early; an operating lease would be flat.
+  14.4 F14-06    table  Suppose: olive-press finance lease schedule, 2026–2029
+            5 x 7   Year | Opening liability | Interest | Payment | Closing liability | ROU amortization | Total expense
+  14.4 F14-07    table  Suppose: warehouse operating lease schedule (complete the blanks)
+            6 x 7   Year | Opening liability | Interest | Payment | Closing liability (= R | ROU amortization | Lease cost
+              col Opening liability      decides between: 267,301 / 346,510 / 421,236 / ______
+              col Interest               decides between: 20,791 / 25,274 / ______
+              col Closing liability (= R decides between: 267,301 / 346,510 / ______
+              col ROU amortization       decides between: 74,726 / 79,209 / ______
+              col Lease cost             decides between: 100,000 / ______
+  14.5 F14-08    table  Presentation of finance and operating leases, with Orontes at December 31, 202
+            6 x 3   Item | Finance lease (olive p | Operating lease (wareh
+  14.6 F14-09    table  Leases: U.S. GAAP (ASC 842) and IFRS 16
+            7 x 3   Topic | U.S. GAAP (ASC 842) | IFRS 16
+  14.7 F14-10    table  Extended Example 14A: the lease liability schedule
+            6 x 5   Year | Opening liability | Interest | Payment | Closing liability
+  14.7 F14-11    table  Extended Example 14A: finance against operating treatment
+            6 x 3    | Finance lease | Operating lease
+              col Operating lease        decides between: 421,236 / Straight line / The whole payment in operating / a single 25
+  14.7 F14-12    image  Chapter 14 summary map: the key rule for each section.
+  14.7 F14-13    table  Case exhibit: Barada Wholesale's leases, 2028 (whole USD)
+            7 x 2   Barada Wholesale, leas | Details
+
+====================================================================================================
+CHAPTER 15  Measuring Income: Gains, Losses, Comprehensive Income and Discontinued Operations
+====================================================================================================
+  -    F15-01    image  Chapter 15 roadmap: the layers from continuing operations to comprehensive inc
+  15.1 F15-02    table  Where Orontes's 2025 gains and losses appear
+            6 x 4   Orontes, 2025 (whole U | Type | Where it appears | Amount
+              col Type                   decides between: Gain / Loss
+              col Where it appears       decides between: OCI, not net income / Operating expenses / Other income and (expense)
+  15.2 F15-03    table  Three expense recognition approaches
+            4 x 3   Approach | Idea | Orontes examples
+  15.3 F15-04    image  OCI and the reclassification adjustment for an AFS bond over two years.
+  15.3 F15-05    table  Suppose: OCI and the reclassification adjustment for an AFS bond
+            10 x 3   Suppose: AFS bond boug | 2026 | 2027
+  15.4 F15-06    table  Strategic shift or not? (complete the blanks)
+            7 x 2   Suppose these disposal | Discontinued operation
+              col Discontinued operation decides between: No: not a strategic shift / Yes: a major line of business / ________
+  15.5 F15-07    image  Timeline of the frozen-foods business: plan, held for sale, sale.
+  15.5 F15-08    table  Suppose: measuring the frozen-foods disposal group on June 30, 2026
+            10 x 2   Suppose: frozen-foods  | Amount
+  15.6 F15-09    table  Discontinued operations and OCI: U.S. GAAP and IFRS
+            7 x 3   Topic | U.S. GAAP | IFRS (IFRS 5, IAS 1, I
+  15.7 F15-10    table  Extended Example 15A: the bottom of the income statement
+            7 x 2   Orontes, 2025 (USD 000 | Amount
+  15.7 F15-11    table  Extended Example 15A: inside the discontinued component
+            4 x 4   Discontinued component | Before tax | Tax | After tax
+  15.7 F15-12    image  Chapter 15 summary map: the key rule for each section.
+  15.7 F15-13    table  Case exhibit: Orontes, 2027 (USD 000)
+            12 x 2   Suppose: Orontes, 2027 | Amount / details
+
+====================================================================================================
+CHAPTER 16  Consolidated Financial Statements
+====================================================================================================
+  -    F16-01    image  Chapter 16 roadmap: influence decides the method, from fair value to consolida
+  16.2 F16-02    image  Decision chart: test the VIE model first, then the voting interest model.
+  16.2 F16-03    table  Suppose: is the cold-chain SPV a VIE, and who consolidates it?
+            6 x 3   Suppose: Orontes Cold- | Facts (whole USD) | Conclusion
+  16.3 F16-04    table  Full consolidation, equity method and proportionate consolidation
+            4 x 5   Method | When used (U.S. GAAP) | What appears | Intercompany profit re | Orontes
+              col Orontes                decides between: Jordan Glass (30%) / Levant (80%) / Not used by Orontes
+  16.4 F16-05    image  Goodwill at acquisition: price plus NCI fair value minus net assets at fair va
+  16.4 F16-06    table  Suppose: elimination entry at the acquisition of Levant
+            7 x 3   Consolidation workshee | Debit | Credit
+  16.5 F16-07    image  Downstream and upstream sales between Orontes and Levant.
+  16.5 F16-08    table  Suppose: Orontes's 2027 intercompany eliminations for Levant
+            8 x 4   Suppose: Levant items, | Eliminate | Result | Who bears it
+              col Who bears it           decides between: NCI / Orontes / Orontes 20,000, NCI 5,000 / —
+  16.5 F16-09    table  Suppose: NCI roll-forward for Levant, 2027 (complete the blanks)
+            9 x 2   Suppose: NCI in Levant | Amount
+              col Amount                 decides between: (120,000) / 1,900,000 / 900,000 / ________
+  16.6 F16-10    table  Consolidation: U.S. GAAP and IFRS
+            7 x 3   Topic | U.S. GAAP (ASC 810, 80 | IFRS (IFRS 10, 3, 11)
+  16.7 F16-11    table  Extended Example 16A: goodwill under the two measurement choices
+            7 x 3   Acquisition of Levant  | NCI at fair value | NCI at share of net as
+  16.7 F16-12    table  Extended Example 16A: the non-controlling interest rolled forward
+            6 x 2   Non-controlling intere | Amount
+  16.7 F16-13    image  Chapter 16 summary map: the key rule for each section.
+  16.7 F16-14    table  Case exhibit: Barada Wholesale and Tadmor Retail, 2028 (USD 000)
+            11 x 2   Suppose: Barada Wholes | Amount
+
+====================================================================================================
+CHAPTER 17  U.S. GAAP and IFRS: The Six Tested Differences
+====================================================================================================
+  -    F17-01    image  Chapter 17 roadmap: the six U.S. GAAP–IFRS areas in LOS A.2.ff.
+  17.1 F17-02    table  Share-based payments and employee benefits: U.S. GAAP and IFRS
+            7 x 3   Topic | U.S. GAAP (ASC 718, 71 | IFRS (IFRS 2, IAS 19)
+  17.2 F17-03    table  Intangible assets: U.S. GAAP and IFRS
+            7 x 3   Topic | U.S. GAAP (ASC 350, 73 | IFRS (IAS 38)
+  17.3 F17-04    image  Inventory write-down and recovery: IFRS reverses, U.S. GAAP does not.
+  17.4 F17-05    table  Lessee accounting: U.S. GAAP and IFRS 16
+            7 x 3   Topic | U.S. GAAP (ASC 842) | IFRS 16
+  17.5 F17-06    table  Long-lived assets: U.S. GAAP and IFRS
+            6 x 3   Topic | U.S. GAAP (ASC 360, 83 | IFRS (IAS 16, 23, 40)
+  17.6 F17-07    image  The same plant under the U.S. two-step test and the IFRS one-step test.
+  17.6 F17-08    table  Which framework? (complete the blanks)
+            7 x 2   Statement | U.S. GAAP only, IFRS o
+              col U.S. GAAP only, IFRS o decides between: IFRS only / U.S. GAAP only / ________
+  17.7 F17-09    table  Extended Example 17A: from the U.S. GAAP result to the IFRS result
+            9 x 2   Reconciliation (USD 00 | Amount
+  17.7 F17-10    table  Extended Example 17A: the six tested differences
+            7 x 4   Difference | U.S. GAAP | IFRS | Effect lands in
+  17.7 F17-11    image  Chapter 17 summary map: the key difference in each area.
+  17.7 F17-12    table  Case exhibit: Levant Distribution's IFRS figures, 2027 (USD 000)
+            8 x 2   Suppose: Levant Distri | Amount / details
+
+====================================================================================================
+CHAPTER 18  Integrated Reporting
+====================================================================================================
+  -    F18-01    image  Chapter 18 roadmap: integrated thinking, integrated reporting and the integrat
+  18.2 F18-02    table  Integrated reports and other reports
+            5 x 4   Report | Primary audience | Focus | Required for Orontes?
+              col Required for Orontes?  decides between: No: voluntary / Only where a jurisdiction adopts them / Yes: SEC requi
+  18.3 F18-03    table  Suppose: Orontes's six capitals, 2027
+            7 x 3   Capital | Orontes examples (2027 | Possible measure
+  18.3 F18-04    image  The value creation process: capitals, business model, outputs and outcomes.
+  18.3 F18-05    table  Which capital? (complete the blanks)
+            7 x 2   Orontes disclosure | Capital
+              col Capital                decides between: Financial / Manufactured / ________
+  18.4 F18-06    table  The seven guiding principles
+            8 x 3   Guiding principle (7) | What it means | Orontes example
+  18.4 F18-07    table  The eight content elements
+            9 x 3   Content element (8) | Question it answers | Orontes example
+  18.5 F18-08    image  Benefits and challenges of integrated reporting.
+  18.7 F18-09    table  Extended Example 18A: the Orontes year mapped to the six capitals
+            7 x 4   Capital | What the year shows | Measure | Direction
+              col Direction              decides between: Mixed / Steady / Up
+  18.7 F18-10    table  Extended Example 18A: the report against the content elements
+            9 x 2   Content element | What the report shows
+  18.7 F18-11    image  Chapter 18 summary map: the key point of each section.
+  18.7 F18-12    table  Case exhibit: Barada's draft integrated report, 2028
+            9 x 2   Item | Barada Wholesale: draf
+

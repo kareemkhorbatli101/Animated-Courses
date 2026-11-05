@@ -47,6 +47,54 @@
 <script src="assets/terms-ch02.js"></script>
 <script src="assets/terms-fr-ch02.js"></script>
 <script>TERM_SETS.push({ n: 2, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch03.js"></script>
+<script src="assets/terms-fr-ch03.js"></script>
+<script>TERM_SETS.push({ n: 3, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch04.js"></script>
+<script src="assets/terms-fr-ch04.js"></script>
+<script>TERM_SETS.push({ n: 4, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch05.js"></script>
+<script src="assets/terms-fr-ch05.js"></script>
+<script>TERM_SETS.push({ n: 5, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch06.js"></script>
+<script src="assets/terms-fr-ch06.js"></script>
+<script>TERM_SETS.push({ n: 6, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch07.js"></script>
+<script src="assets/terms-fr-ch07.js"></script>
+<script>TERM_SETS.push({ n: 7, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch08.js"></script>
+<script src="assets/terms-fr-ch08.js"></script>
+<script>TERM_SETS.push({ n: 8, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch09.js"></script>
+<script src="assets/terms-fr-ch09.js"></script>
+<script>TERM_SETS.push({ n: 9, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch10.js"></script>
+<script src="assets/terms-fr-ch10.js"></script>
+<script>TERM_SETS.push({ n: 10, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch11.js"></script>
+<script src="assets/terms-fr-ch11.js"></script>
+<script>TERM_SETS.push({ n: 11, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch12.js"></script>
+<script src="assets/terms-fr-ch12.js"></script>
+<script>TERM_SETS.push({ n: 12, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch13.js"></script>
+<script src="assets/terms-fr-ch13.js"></script>
+<script>TERM_SETS.push({ n: 13, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch14.js"></script>
+<script src="assets/terms-fr-ch14.js"></script>
+<script>TERM_SETS.push({ n: 14, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch15.js"></script>
+<script src="assets/terms-fr-ch15.js"></script>
+<script>TERM_SETS.push({ n: 15, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch16.js"></script>
+<script src="assets/terms-fr-ch16.js"></script>
+<script>TERM_SETS.push({ n: 16, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch17.js"></script>
+<script src="assets/terms-fr-ch17.js"></script>
+<script>TERM_SETS.push({ n: 17, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch18.js"></script>
+<script src="assets/terms-fr-ch18.js"></script>
+<script>TERM_SETS.push({ n: 18, T: window.TERMS, fr: window.TERMS_FR });</script>
 <script src="assets/terms-merge.js"></script>
 <script src="assets/icons.js"></script>
 <script src="assets/speech.js"></script>
@@ -60,7 +108,14 @@
   var rows = T.everything.slice().sort(function (a, b) { return a.en.localeCompare(b.en); });
 
   var chs = T.chapters || [1];
-  var where = chs.length > 1 ? "Chapters " + chs.join(" and ") : "Chapter " + chs[0];
+  /* "Chapters 1 and 2" was fine for two and reads as "1 and 2 and 3 and 4 and 5" for five.
+     A contiguous run is written as a range, which is what it is. */
+  var where = "Chapter " + chs[0];
+  if (chs.length > 1) {
+    var run = chs[chs.length - 1] - chs[0] === chs.length - 1;
+    where = "Chapters " + (run ? chs[0] + "–" + chs[chs.length - 1]
+                               : chs.slice(0, -1).join(", ") + " and " + chs[chs.length - 1]);
+  }
   document.getElementById("scopeNote").innerHTML =
     "<strong>" + T.count + " bilingual terms</strong> — every Term Bridge row " + where + " print, with the " +
     "author's own Arabic. A further <strong>" + T.englishOnly.length + " terms</strong> the book defines in " +
@@ -122,7 +177,14 @@
       var td4 = document.createElement("td");
       var a = document.createElement("a");
       a.className = "gloss-sec";
-      a.href = "ch01/s1-" + t.sec.split(".")[1] + ".html";
+      /* THE SECTION LINK MUST FOLLOW THE SECTION. This was hardcoded to ch01/s1-N, so
+         every Chapter 2 term pointed at the Chapter 1 section with the same number -
+         "2.3 Classifying debt" opened "1.3 Double entry". With five chapters merged here
+         that was four fifths of the table. The chapter is the part of t.sec before the dot. */
+      var bits = String(t.sec).split(".");
+      var cn = parseInt(bits[0], 10);
+      a.href = cn > 0 ? "ch" + (cn < 10 ? "0" + cn : cn) + "/s" + cn + "-" + bits[1] + ".html"
+                      : "#";
       a.textContent = t.sec;
       td4.appendChild(a);
       tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(tdf); tr.appendChild(td3); tr.appendChild(td4);

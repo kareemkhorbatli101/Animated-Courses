@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Extended Example 2A: building the Orontes balance sheet",
   "n": "2.6",
-  "terms": T.bridge("2.6"),
+  "terms": L.BRIDGE,
   "brief": {
     "about": "This example classifies the Orontes accounts at December 31, 2025 and assembles the balance sheet. It is exam-core: most balance sheet questions turn on one classification decision. Current assets come to $14,188,100 and non-current assets to $17,484,500, so total assets are $31,672,600. Current liabilities are $4,280,000 and non-current liabilities $6,999,625, a total of $11,279,625. Figure F02-10 sets out the statement. Three lines deserve attention.",
     "anim": "order"
@@ -42,6 +42,9 @@
           "pos": 5,
           "text": "Read the result: working capital and the current ratio"
         }
+      ],
+      "traps": [
+        "exam-view"
       ]
     },
     {

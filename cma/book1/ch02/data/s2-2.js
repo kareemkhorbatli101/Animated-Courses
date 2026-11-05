@@ -9,7 +9,7 @@
   "up": "../",
   "title": "Current and noncurrent items",
   "n": "2.2",
-  "terms": T.bridge("2.2"),
+  "terms": L.BRIDGE,
   "brief": {
     "about": "Current assets are cash and other assets that the company expects to turn into cash, sell or use up within one year or within its operating cycle, whichever is longer. The operating cycle is the average time from buying materials to collecting cash from customers. Current liabilities are obligations the company expects to settle by using current assets or by creating other current liabilities. Figure F02-03 shows Orontes's cycle.",
     "anim": "cycle"
@@ -43,7 +43,10 @@
         }
       ],
       "rule": "year",
-      "ruleWhy": "Because the cycle is shorter than a year, Orontes uses one year to classify its items. The cycle only takes over when it is longer."
+      "ruleWhy": "Because the cycle is shorter than a year, Orontes uses one year to classify its items. The cycle only takes over when it is longer.",
+      "traps": [
+        "working-capital-or-the-ratio"
+      ]
     },
     {
       "id": "worked-three",

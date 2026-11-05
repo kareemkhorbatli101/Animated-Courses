@@ -8,7 +8,7 @@
   "id": "review",
   "up": "../",
   "title": "Mixed review",
-  "terms": T.keys(),
+  "terms": L.KEYS,
   "brief": {
     "anim": "ladder"
   },

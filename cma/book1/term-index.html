@@ -44,8 +44,7 @@
   <div id="content"></div>
 
   <p class="fig-note">The <a href="glossary.html">glossary</a> gives the Arabic equivalent and the meaning of every
-    term, with pronunciation in both languages. The term bank of
-    <a href="ch01/terms.html">Chapter 1</a> and of <a href="ch02/terms.html">Chapter 2</a> drills them.</p>
+    term, with pronunciation in both languages. Each chapter's own term bank drills them both ways: <a href="ch01/terms.html">1</a>, <a href="ch02/terms.html">2</a>, <a href="ch03/terms.html">3</a>, <a href="ch04/terms.html">4</a>, <a href="ch05/terms.html">5</a>, <a href="ch06/terms.html">6</a>, <a href="ch07/terms.html">7</a>, <a href="ch08/terms.html">8</a>, <a href="ch09/terms.html">9</a>, <a href="ch10/terms.html">10</a>, <a href="ch11/terms.html">11</a>, <a href="ch12/terms.html">12</a>, <a href="ch13/terms.html">13</a>, <a href="ch14/terms.html">14</a>, <a href="ch15/terms.html">15</a>, <a href="ch16/terms.html">16</a>, <a href="ch17/terms.html">17</a> and <a href="ch18/terms.html">18</a>.</p>
 </div>
 </main>
 
@@ -59,6 +58,54 @@
 <script src="assets/terms-ch02.js"></script>
 <script src="assets/terms-fr-ch02.js"></script>
 <script>TERM_SETS.push({ n: 2, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch03.js"></script>
+<script src="assets/terms-fr-ch03.js"></script>
+<script>TERM_SETS.push({ n: 3, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch04.js"></script>
+<script src="assets/terms-fr-ch04.js"></script>
+<script>TERM_SETS.push({ n: 4, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch05.js"></script>
+<script src="assets/terms-fr-ch05.js"></script>
+<script>TERM_SETS.push({ n: 5, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch06.js"></script>
+<script src="assets/terms-fr-ch06.js"></script>
+<script>TERM_SETS.push({ n: 6, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch07.js"></script>
+<script src="assets/terms-fr-ch07.js"></script>
+<script>TERM_SETS.push({ n: 7, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch08.js"></script>
+<script src="assets/terms-fr-ch08.js"></script>
+<script>TERM_SETS.push({ n: 8, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch09.js"></script>
+<script src="assets/terms-fr-ch09.js"></script>
+<script>TERM_SETS.push({ n: 9, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch10.js"></script>
+<script src="assets/terms-fr-ch10.js"></script>
+<script>TERM_SETS.push({ n: 10, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch11.js"></script>
+<script src="assets/terms-fr-ch11.js"></script>
+<script>TERM_SETS.push({ n: 11, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch12.js"></script>
+<script src="assets/terms-fr-ch12.js"></script>
+<script>TERM_SETS.push({ n: 12, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch13.js"></script>
+<script src="assets/terms-fr-ch13.js"></script>
+<script>TERM_SETS.push({ n: 13, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch14.js"></script>
+<script src="assets/terms-fr-ch14.js"></script>
+<script>TERM_SETS.push({ n: 14, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch15.js"></script>
+<script src="assets/terms-fr-ch15.js"></script>
+<script>TERM_SETS.push({ n: 15, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch16.js"></script>
+<script src="assets/terms-fr-ch16.js"></script>
+<script>TERM_SETS.push({ n: 16, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch17.js"></script>
+<script src="assets/terms-fr-ch17.js"></script>
+<script>TERM_SETS.push({ n: 17, T: window.TERMS, fr: window.TERMS_FR });</script>
+<script src="assets/terms-ch18.js"></script>
+<script src="assets/terms-fr-ch18.js"></script>
+<script>TERM_SETS.push({ n: 18, T: window.TERMS, fr: window.TERMS_FR });</script>
 <script src="assets/terms-merge.js"></script>
 <script src="assets/speech.js"></script>
 <script src="assets/progress.js"></script>
@@ -99,7 +146,11 @@
     groups[L].forEach(function (t) {
       var li = document.createElement("li");
       var a = document.createElement("a");
-      a.href = "ch01/s1-" + t.sec.split(".")[1] + ".html";
+      /* the chapter comes from t.sec, not from a hardcoded ch01 - see glossary.html */
+      var bits = String(t.sec).split(".");
+      var cn = parseInt(bits[0], 10);
+      a.href = cn > 0 ? "ch" + (cn < 10 ? "0" + cn : cn) + "/s" + cn + "-" + bits[1] + ".html"
+                      : "#";
       if (window.Icons) { var ic = window.Icons.icon(t.en); if (ic) a.appendChild(ic); }
       a.appendChild(document.createTextNode(t.en));
       li.appendChild(a);

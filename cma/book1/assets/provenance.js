@@ -128,7 +128,39 @@
       and "the author's three warnings" became "three sentences from the chapter". */
    "author author's name names sentence sentences assume assumed reach reaches " +
    "arrive arrives careful decimal missed confusion idea ideas foot number numbers " +
-   "else true separately").split(/\s+/).forEach(function (w) { CHROME[w] = 1; });
+   "else true separately " +
+   /* Added for Chapters 3-5. Same test: a word for operating or describing the interface
+      that cannot state an accounting fact on its own. Words that DID carry a claim were
+      reworded instead: "the statement the chapter prints" became the author's own
+      sentence naming Figure F03-02, "where GAAP and IFRS treat the same item
+      differently" became "The same item, two frameworks", and "what the income
+      statement hands on" became "what it passes to the other statements". */
+   /* "arabic" is the NAME OF A LANGUAGE, used only to label which side of the term drill
+      the learner is reading. The chapters print the heading as العربية, so the English
+      word is in no chapter's vocabulary, and the term deck's own chrome failed on it from
+      Chapter 4 on. A language name cannot state an accounting fact. */
+   "arabic english french trays go goes going gone " +
+   /* Added for chapters 6 to 18. Every one is a word for OPERATING the page - setting a
+      control, matching two things, filling a row - and not one of them can state an
+      accounting fact on its own, which is the only test this list applies. The
+      alternative was to contort thirteen chapters' instructions around whichever
+      ordinary verbs those chapters happen to contain, which is how "The chapter files
+      this under X" became "puts" became a guess. */
+   "set sets setting match matches matched matching beside slip slips carries carried " +
+   "belong belongs pairing year years rule rules above below starts " +
+   /* The last of them. Each is a word for the EXERCISE - which topic a row is about,
+      the extra chip, the line a figure closes on, the record of your own errors, the
+      fact that a tie holds - and none can state an accounting fact alone. "row's" is
+      here because the tokenizer keeps the apostrophe and "row" alone is already here. */
+   "topic topics extra closes close closed record records holds hold row's " +
+   /* "carry" only, never "carrying": a carrying amount is an accounting fact and this
+      list may hold no word that can state one. The failing text was the summary page's
+      "Five words carry the whole chapter." */
+   "carry " +
+   "recognition harder cards card drill drilled recall both ways way phrase phrases " +
+   "missing put back framework frameworks passes column columns rung rungs " +
+   "subtotal subtotals ladder step steps enter entered entering").split(/\s+/)
+    .forEach(function (w) { CHROME[w] = 1; });
 
   function checkContent(text) {
     if (!text) return [];
@@ -214,6 +246,36 @@
            `parts` because `parts` above is the cloze's array of STRINGS: pointing this at
            objects made the lock stringify them and report "object" as taught content. */
         (s.legs || []).forEach(function (x) { C(d.id, s.id, "leg", x.label); C(d.id, s.id, "leg.why", x.why); });
+        /* Chapters 3-5. A scene kind is a hole in this lock until its fields are listed
+           here: it would teach the learner text that nothing checks. */
+        (s.rows || []).forEach(function (x) {
+          if (x && typeof x === "object" && !(x instanceof Array) && x.subtotal) {
+            C(d.id, s.id, "waterfall.label", x.label);
+            C(d.id, s.id, "waterfall.why", x.why);
+          }
+        });
+        (s.cases || []).forEach(function (x) {
+          C(d.id, s.id, "treasury.case", x.label); C(d.id, s.id, "treasury.why", x.why);
+          C(d.id, s.id, "treasury.dest", x.dest);
+        });
+        (s.dests || []).forEach(function (x) { C(d.id, s.id, "treasury.dests", x); });
+        (s.actions || []).forEach(function (x) {
+          C(d.id, s.id, "shares.action", x.label); C(d.id, s.id, "shares.why", x.why);
+          Object.keys(x.cells || {}).forEach(function (kk) {
+            C(d.id, s.id, "shares.cell", x.cells[kk]);
+          });
+        });
+        (s.columns || []).forEach(function (x) {
+          H(d.id, s.id, "shares.column", x.label);
+          (x.options || []).forEach(function (o) { C(d.id, s.id, "shares.option", o); });
+        });
+        (s.items || []).forEach(function (x) {
+          if (x && typeof x === "object" && x.add !== undefined) {
+            C(d.id, s.id, "signs.item", x.label); C(d.id, s.id, "signs.why", x.why);
+          }
+        });
+        if (s.start && s.start.label) C(d.id, s.id, "signs.start", s.start.label);
+        if (s.target && s.target.label) C(d.id, s.id, "signs.target", s.target.label);
         /* "ladder" - a likelihood, the treatment it forces, and the author's sentence. */
         (s.rungs || []).forEach(function (x) {
           C(d.id, s.id, "rung", x.likelihood); C(d.id, s.id, "rung.treatment", x.treatment);
@@ -234,11 +296,31 @@
            nothing checks. The row names and the column headings are the author's statement, so
            they are CONTENT; the click prompt and the closing note are interface. */
         (s.rows || []).forEach(function (x) {
-          if (x && typeof x === "object" && !(x instanceof Array)) C(d.id, s.id, "line.name", x.name);
+          if (x && typeof x === "object" && !(x instanceof Array)) {
+            C(d.id, s.id, "line.name", x.name);
+            /* a schedule and a rowpick name their rows `label` and give each one the
+               author's reason; without these two lines a whole kind's taught text
+               would be unchecked, which is the hole the "grid" comment warns about */
+            C(d.id, s.id, "line.label", x.label);
+            C(d.id, s.id, "line.why", x.why);
+          }
         });
         if (s.caption) C(d.id, s.id, "caption", s.caption);
         if (s.col1) C(d.id, s.id, "col1", s.col1);
         if (s.col2) C(d.id, s.id, "col2", s.col2);
+        /* "grid" — the wide form of "lines" (assets/grid.js). Its column HEADINGS are the
+           author's own component names, so they are content, exactly as col1/col2 are. A
+           kind added without a line here would teach text nothing checks.
+           A `schedule` and a `rowpick` carry their columns as OBJECTS with a label, so
+           both shapes are audited: a bare string, or {label}. */
+        (s.cols || []).forEach(function (x) {
+          if (x && typeof x === "object") C(d.id, s.id, "col.label", x.label);
+          else C(d.id, s.id, "col", x);
+        });
+        /* "schedule" (assets/objects4.js): the rule is the author's sentence about how a
+           row is worked out, and every row's name and reason is his. */
+        if (s.rule) C(d.id, s.id, "rule", s.rule);
+        (s.steps || []).forEach(function (x) { C(d.id, s.id, "step.label", x.label); });
         if (s.hint) H(d.id, s.id, "hint", s.hint);
         if (s.read) H(d.id, s.id, "read", s.read);
         if (s.label) H(d.id, s.id, "label", s.label);
