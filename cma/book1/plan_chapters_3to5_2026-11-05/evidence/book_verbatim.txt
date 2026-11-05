@@ -1,0 +1,6 @@
+  PASS every paragraph, cell and caption of chapter 3 is verbatim (408 blocks)
+RESULT: OK
+  PASS every paragraph, cell and caption of chapter 4 is verbatim (447 blocks)
+RESULT: OK
+  PASS every paragraph, cell and caption of chapter 5 is verbatim (431 blocks)
+RESULT: OK

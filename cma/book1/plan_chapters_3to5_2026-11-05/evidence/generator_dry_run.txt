@@ -1,0 +1,18 @@
+=== chapter 3 --report ===
+  File "D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python\tools\cma_scenes.py", line 2210, in write
+    p = pages[pid]
+        ~~~~~^^^^^
+KeyError: 's2-1'
+
+=== chapter 4 --report ===
+  File "D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python\tools\cma_scenes.py", line 2210, in write
+    p = pages[pid]
+        ~~~~~^^^^^
+KeyError: 's2-1'
+
+=== chapter 5 --report ===
+  File "D:\MyWork\AnimatedMatrix\Apps\SVG_To_Video_Using_Python\tools\cma_scenes.py", line 2210, in write
+    p = pages[pid]
+        ~~~~~^^^^^
+KeyError: 's2-1'
+

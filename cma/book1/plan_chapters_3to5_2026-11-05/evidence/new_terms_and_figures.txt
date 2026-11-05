@@ -1,0 +1,97 @@
+icons.js registers 95 terms today
+
+CHAPTER 3: 25 bridged rows, 25 carry Arabic, 14 need a NEW mark
+      accumulated other comprehensive income (aoci)
+      component of an entity
+      discontinued operation
+      earnings per share (eps)
+      function of expense
+      income from continuing operations
+      intraperiod tax allocation
+      multi-step income statement
+      other comprehensive income (oci)
+      other income and expense
+      reclassification adjustment
+      single-step income statement
+      strategic shift
+      unusual or infrequent item
+
+CHAPTER 4: 22 bridged rows, 22 carry Arabic, 13 need a NEW mark
+      appropriated retained earnings
+      cost method
+      date of record
+      declaration date
+      issued shares
+      liquidating dividend
+      outstanding shares
+      preferred stock
+      prior-period adjustment
+      property dividend
+      stock dividend
+      stock split
+      treasury stock
+
+CHAPTER 5: 15 bridged rows, 15 carry Arabic, 7 need a NEW mark
+      cash equivalents
+      direct method
+      financing activities
+      indirect method
+      investing activities
+      noncash investing and financing activities
+      operating activities
+
+TOTAL new terms needing a mark across 3-5: 34 (distinct 34)
+
+============================================================================
+CHAPTER 3 FIGURES
+============================================================================
+  PNG Figure F03-01. Chapter 3 roadmap: the income statement as a ladder of subtotals.
+  tbl Figure F03-02. Orontes Foods Inc. — statement of income and comprehensive income, 2025
+  PNG Figure F03-03. Orontes's 2025 results in single-step and multi-step form: the same net income.
+  PNG Figure F03-04. Waterfall from Orontes's 2025 net sales to net income.
+  tbl Figure F03-05. Barada Wholesale — multi-step income statement, 2025 (complete the blanks)
+  PNG Figure F03-06. Decision chart: where does an item go in the income statement?.
+  tbl Figure F03-07. Suppose: Orontes sells its frozen-foods business in 2026 — discontinued operations
+  tbl Figure F03-08. Main OCI items: U.S. GAAP and IFRS
+  PNG Figure F03-09. Why Orontes's 2025 net income differs from its operating cash flow.
+  tbl Figure F03-10. Extended Example 3A: the same year single-step and multi-step
+  tbl Figure F03-11. Extended Example 3A: from net income to comprehensive income
+  PNG Figure F03-12. Chapter 3 summary map: the key rule for each section.
+  tbl Figure F03-13. Case exhibit: Barada Wholesale, 2026 results and memo (USD 000)
+  -> 13 numbered, 6 drawn as a picture, 7 are tables
+
+============================================================================
+CHAPTER 4 FIGURES
+============================================================================
+  PNG Figure F04-01. Chapter 4 roadmap: contributed capital and earned capital.
+  tbl Figure F04-02. Orontes Foods Inc. — statement of changes in equity, 2025
+  PNG Figure F04-03. Orontes's equity at the end of 2024 and 2025, by component.
+  PNG Figure F04-04. Treasury stock under the cost method: buy back, reissue or retire.
+  tbl Figure F04-05. Suppose: Orontes's treasury stock entries in 2026 (cost method)
+  tbl Figure F04-06. Types of dividends and their effects
+  tbl Figure F04-07. Suppose: small and large stock dividends and a stock split for Orontes
+  tbl Figure F04-08. Effects on retained earnings and total equity (complete the blanks)
+  PNG Figure F04-09. Orontes's 2025 retained earnings roll-forward, and book value versus market value.
+  tbl Figure F04-10. Extended Example 4A: the Orontes statement of changes in equity, 2025
+  tbl Figure F04-11. Extended Example 4A: why accumulated OCI keeps its own column
+  PNG Figure F04-12. Chapter 4 summary map: the key rule for each section.
+  tbl Figure F04-13. Case exhibit: Barada Wholesale, equity at January 1, 2026 and 2026 events
+  -> 13 numbered, 5 drawn as a picture, 8 are tables
+
+============================================================================
+CHAPTER 5 FIGURES
+============================================================================
+  PNG Figure F05-01. Chapter 5 roadmap: three activities explain the change in cash.
+  tbl Figure F05-02. Orontes Foods Inc. — statement of cash flows (indirect method), 2025
+  PNG Figure F05-03. Orontes's 2025 cash flows by activity.
+  tbl Figure F05-04. Classifying interest, dividends and taxes: U.S. GAAP and IFRS
+  tbl Figure F05-05. Which activity? (complete the blanks)
+  PNG Figure F05-06. Sign rules for the indirect method, with Orontes examples.
+  tbl Figure F05-07. Orontes Foods Inc. — operating activities by the direct method, 2025
+  PNG Figure F05-08. How Orontes's four 2025 statements fit together.
+  tbl Figure F05-09. Extended Example 5A: cash from operations by the indirect method
+  tbl Figure F05-10. Extended Example 5A: three answers, only one correct
+  PNG Figure F05-11. Chapter 5 summary map: the key rule for each section.
+  tbl Figure F05-12. Case exhibit: Barada Wholesale, 2026 cash-flow data (USD 000)
+  -> 12 numbered, 5 drawn as a picture, 7 are tables
+

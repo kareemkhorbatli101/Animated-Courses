@@ -1,0 +1,77 @@
+==========================================================================
+ASSET CH02  -  2 line(s)
+==========================================================================
+      4  python -m tools.cma_scenes --chapter 2            write ch02/data/*.js
+    605  The amounts live in assets/ledger-ch02.js, which derives them from the figures the chapter
+
+==========================================================================
+FIGURE TAG  -  10 line(s)
+==========================================================================
+    349  return _sort("gaap-ifrs", "Figure F02-06",
+    599  THE CAPTIONS CANNOT BE THE CHIPS. Figure F02-10 prints "Accounts receivable, net of the
+    651  return {"id": "bs-build", "kind": "statement", "kicker": "Figure F02-10",
+    678  return {"id": "read", "kind": "number", "kicker": "Figure F02-11",
+    817  "kicker": "Figure F02-03",
+    909  The author reads Figure F02-02 from the top in one sentence, and that sentence is
+    921  "kicker": "Figure F02-02",
+    987  "kicker": "Figure F02-07",
+   1006  "kicker": "Figure F02-09",
+   1237  F02-12 inside §2.6, which is the sort of mistake that looks right on the page.
+
+==========================================================================
+LEDGER FILE  -  1 line(s)
+==========================================================================
+    605  The amounts live in assets/ledger-ch02.js, which derives them from the figures the chapter
+
+==========================================================================
+CHAPTER KEY  -  2 line(s)
+==========================================================================
+    700  2: {
+    750  2: {
+
+==========================================================================
+CASE ID  -  10 line(s)
+==========================================================================
+    751  "C2-2": "Classify first, net the contra accounts, and remember that the current portion of "
+    753  "C2-3": "Classify first, net the contra accounts, and remember that the current portion of "
+    755  "C2-4": "Working capital is current assets minus current liabilities.",
+    756  "C2-5": "If the condition arose after year-end, the company only discloses it.",
+    757  "C2-6": "If it is only reasonably possible, the company discloses it in a note.",
+    758  "C2-7": "All deferred tax assets and liabilities are noncurrent.",
+   1102  cat["kicker"] = "C2-1"
+   1105  if b["k"] == "p" and b["t"].strip().startswith("C2-1"):
+   1150  for cid in ("C2-2", "C2-3", "C2-4"):
+   1175  for cid in ("C2-5", "C2-6", "C2-7"):
+
+==========================================================================
+SECTION NUMBER  -  16 line(s)
+==========================================================================
+    843  "2.1": "bands",     # the five bands of a classified balance sheet, in the author's order
+    844  "2.2": "cycle",     # cash to inventory to receivables to cash
+    845  "2.3": "split",     # one obligation reaching the sheet as two lines
+    846  "2.4": "ladder",    # probable / reasonably possible / remote
+    847  "2.5": "links",     # what the balance sheet takes from the other statements
+    848  "2.6": "order",     # the order the statements are built in
+   1275  "2.1": lambda: [
+   1304  "2.2": lambda: [
+   1322  "2.3": lambda: [
+   1338  "2.4": lambda: [
+   1365  "2.5": lambda: [
+   1388  "2.6": lambda: [
+   1513  { label: "2.1", bilingual: true, rows: T.bridge("2.1") },
+   1514  { label: "2.2", bilingual: true, rows: T.bridge("2.2") },
+   1515  { label: "2.3", bilingual: true, rows: T.bridge("2.3") },
+   1516  { label: "2.4", bilingual: true, rows: T.bridge("2.4") },
+
+==========================================================================
+PAGE ID  -  1 line(s)
+==========================================================================
+   1485  ORDER = ["s2-1", "s2-2", "s2-3", "s2-4", "s2-5", "s2-6",
+
+TOTAL lines pinned to chapter 2: 42
+
+Functions that take `d` (the chapter) and so are already generic:
+  32: questions, explanations, answer_table, category_scene, classify_scene, gaap_ifrs_scene, statement_scene, figures_of, all_figures, box, box_lines, worked_three, debt_traps, _contingency_rows, contingency_accrue, contingency_disclose, plan_order, wire_traps, _verbatim, _blob, cycle_scene, brief_for, sections_order_scene, debt_split_scene, contingency_ladder, links_scene, contra_scene, case_scenes, section_titles, figures_by_section, hub_html, qa_html
+
+Functions that take NO chapter at all (suspect):
+  3: build_statement, ties_scene, read_result

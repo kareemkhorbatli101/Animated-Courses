@@ -1,0 +1,112 @@
+==============================================================================
+CHAPTER 2  {'n': 2, 'title': 'The Balance Sheet'}
+==============================================================================
+  sections (6 numbered of 9):
+      2.1  Purpose and structure of the balance sheet
+      2.2  Current and noncurrent items
+      2.3  Classifying debt
+      2.4  Other presentation matters
+      2.5  Limitations and links to the other statements
+      2.6  Extended Example 2A: building the Orontes balance sheet
+      Chapter summary
+      Practice
+      Answers and explanations
+  questions: 34 total  {'P': 21, 'S': 13}
+     per section: {'2.1': 2, '2.2': 2, '2.3': 2, '2.4': 2, '2.5': 2, '2.6': 3, 'Practice': 21}
+  explanations keyed: 34
+  figures: 6 drawn (png) of 13 named in the chapter
+     drawn: ['F02-01', 'F02-03', 'F02-05', 'F02-08', 'F02-09', 'F02-12']
+  terms in the extraction: 30 (0 carry Arabic)
+  WORKED EXAMPLE     2
+  Extended Example   6
+  EXAM TRAP          4
+  FALSE-FRIEND       1
+  LANGUAGE FOCUS     1
+  TERM BRIDGE        4
+  SECTION CHECK      6
+  distinct comma-formatted amounts: 91
+
+==============================================================================
+CHAPTER 3  {'n': 3, 'title': 'The Income Statement and Comprehensive Income'}
+==============================================================================
+  sections (6 numbered of 9):
+      3.1  Purpose and structure of the income statement
+      3.2  Building the multi-step income statement
+      3.3  Unusual items and discontinued operations
+      3.4  Comprehensive income
+      3.5  Limitations and links to the other statements
+      3.6  Extended Example 3A: the same year in two formats
+      Chapter summary
+      Practice
+      Answers and explanations
+  questions: 34 total  {'P': 21, 'S': 13}
+     per section: {'3.1': 2, '3.2': 2, '3.3': 2, '3.4': 2, '3.5': 2, '3.6': 3, 'Practice': 21}
+  explanations keyed: 34
+  figures: 6 drawn (png) of 13 named in the chapter
+     drawn: ['F03-01', 'F03-03', 'F03-04', 'F03-06', 'F03-09', 'F03-12']
+  terms in the extraction: 25 (0 carry Arabic)
+  WORKED EXAMPLE     2
+  Extended Example   6
+  EXAM TRAP          4
+  FALSE-FRIEND       1
+  LANGUAGE FOCUS     0
+  TERM BRIDGE        4
+  SECTION CHECK      6
+  distinct comma-formatted amounts: 63
+
+==============================================================================
+CHAPTER 4  {'n': 4, 'title': 'Equity and the Statement of Changes in Equity'}
+==============================================================================
+  sections (6 numbered of 9):
+      4.1  Components of equity and the statement of changes in equity
+      4.2  Issuing and buying back shares
+      4.3  Dividends, stock dividends and stock splits
+      4.4  Retained earnings
+      4.5  Limitations and links to the other statements
+      4.6  Extended Example 4A: a full year of equity movements
+      Chapter summary
+      Practice
+      Answers and explanations
+  questions: 39 total  {'P': 26, 'S': 13}
+     per section: {'4.1': 2, '4.2': 2, '4.3': 2, '4.4': 2, '4.5': 2, '4.6': 3, 'Practice': 26}
+  explanations keyed: 39
+  figures: 5 drawn (png) of 13 named in the chapter
+     drawn: ['F04-01', 'F04-03', 'F04-04', 'F04-09', 'F04-12']
+  terms in the extraction: 22 (0 carry Arabic)
+  WORKED EXAMPLE     2
+  Extended Example   6
+  EXAM TRAP          2
+  FALSE-FRIEND       1
+  LANGUAGE FOCUS     0
+  TERM BRIDGE        4
+  SECTION CHECK      6
+  distinct comma-formatted amounts: 59
+
+==============================================================================
+CHAPTER 5  {'n': 5, 'title': 'The Statement of Cash Flows'}
+==============================================================================
+  sections (6 numbered of 9):
+      5.1  Purpose and structure of the statement of cash flows
+      5.2  Classifying cash flows
+      5.3  The indirect method
+      5.4  The direct method and required disclosures
+      5.5  Limitations and links between the four statements
+      5.6  Extended Example 5A: the Orontes cash flow statement
+      Chapter summary
+      Practice
+      Answers and explanations
+  questions: 37 total  {'P': 24, 'S': 13}
+     per section: {'5.1': 2, '5.2': 2, '5.3': 2, '5.4': 2, '5.5': 2, '5.6': 3, 'Practice': 24}
+  explanations keyed: 37
+  figures: 5 drawn (png) of 12 named in the chapter
+     drawn: ['F05-01', 'F05-03', 'F05-06', 'F05-08', 'F05-11']
+  terms in the extraction: 15 (0 carry Arabic)
+  WORKED EXAMPLE     2
+  Extended Example   6
+  EXAM TRAP          3
+  FALSE-FRIEND       1
+  LANGUAGE FOCUS     1
+  TERM BRIDGE        4
+  SECTION CHECK      6
+  distinct comma-formatted amounts: 62
+
