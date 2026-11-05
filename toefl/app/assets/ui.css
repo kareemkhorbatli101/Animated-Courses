@@ -254,7 +254,7 @@ table.sf td{padding:7px 10px;border:1px solid var(--rule);vertical-align:top}
 .read .mast{background:var(--teal);color:#fff;padding:9px 15px;display:flex;align-items:center;gap:11px}
 .read .mast b{font-family:var(--serif);font-size:19px;letter-spacing:.06em;font-weight:700}
 .read .mast.blue{background:var(--blue)}
-.read .cols{padding:13px 16px;font-family:var(--serif);font-size:14px;line-height:1.66}
+.read .rbody{padding:13px 16px;font-family:var(--serif);font-size:14px;line-height:1.66}
 .read h4{margin:11px 0 5px;font:700 14px var(--ui);color:var(--maroon)}
 .read h4:first-child{margin-top:0}
 .ln{display:flex;gap:10px}

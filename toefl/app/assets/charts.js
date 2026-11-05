@@ -245,3 +245,48 @@
     kinds: Object.keys(KINDS)
   };
 })(window, document);
+
+/* chartread — a data visual plus items, at least one of which cannot be
+   answered from prose alone. Step Forward's "Talk it over" step. */
+(function (root) {
+  "use strict";
+  var D = root.Deck;
+  if (!D) return;
+  D.register("chartread", function (stage, spec, api) {
+    var cols = D.E("div", "cols");
+    var left = D.E("div");
+    left.appendChild(root.Charts.make(spec.chart));
+    cols.appendChild(left);
+    if (spec.note) { var n = api.note(spec.note); if (n) cols.appendChild(n); }
+    stage.appendChild(cols);
+
+    var host = D.E("div");
+    host.style.marginTop = "14px";
+    stage.appendChild(host);
+
+    var graders = [];
+    (spec.items || []).forEach(function (it, i) {
+      var h = D.E("p", "item");
+      h.innerHTML = "<span class='n'>" + (i + 1) + ".</span> " + it.q;
+      host.appendChild(h);
+      var sub = D.E("div");
+      host.appendChild(sub);
+      graders.push(D._choiceInto(sub, it.options, api));
+    });
+
+    return function () {
+      var right = 0, miss = [];
+      graders.forEach(function (g, i) {
+        var r = g();
+        if (r.ok) right++;
+        else miss.push("<b>" + (i + 1) + ".</b> " + (r.rightText || "") +
+          (r.rightWhy ? " — " + r.rightWhy : ""));
+      });
+      return {
+        score: right, total: graders.length,
+        html: miss.length ? "<p>Read it off the chart again:</p>" + api.fbList(miss)
+                          : "<p>Read straight off the chart.</p>"
+      };
+    };
+  });
+})(window);
